@@ -193,8 +193,34 @@ class md_generator:
 md = md_generator()
 md.h1("Twitter Unofficial GraphQL API Document")
 md.p("This document is entirely auto-generated and may contain errors.")
+md.h2("Usage")
+md.p("If the parameter is an array type, it is encoded in json format.")
+md.p("Body example:")
+md.code(
+    """json.dumps({
+    "queryId": "XyvN0Wv13eeu_gVIHDi10g",
+    "variables": json.dumps({
+        "tweet_text": "Hello, world!",
+        "media": {"media_entities": [], "possibly_sensitive": False},
+        "withDownvotePerspective": False,
+        "withReactionsMetadata": False,
+        "withReactionsPerspective": False,
+        "withSuperFollowsTweetFields": True,
+        "withSuperFollowsUserFields": False,
+        "semantic_annotation_ids": [],
+        "dark_request": False,
+        "withBirdwatchPivots": False,
+    }),
+})""",
+    title="Python",
+)
+md.p("`json.dumps` is equivalent to `JSON.stringify` in javaScript")
+
 for graphql in graphql_output:
     exports = graphql["exports"]
+    query = graphql["query"]
+    switches = exports["metadata"]["featureSwitches"]
+
     md.h2(exports["operationName"])
     md.p("Request URL", end=": ")
     md.inline(
@@ -202,7 +228,7 @@ for graphql in graphql_output:
     )
 
     md.p("Request Method", end=": ")
-    if graphql["query"] == "mutation":
+    if query == "mutation":
         md.inline("POST")
     else:
         md.inline("GET")
@@ -210,24 +236,37 @@ for graphql in graphql_output:
     md.inline("Future")
 
     md.h3("Param")
-    if type(graphql["query"]) is dict:
-        md.h4("variables")
+    md.h4("variables")
+    if type(query) is dict and len(query) > 0:
         datafram = []
-        for key in graphql["query"].keys():
+        for key in query.keys():
             datafram.append(
-                {"key": key, "type": "Future", "variable": graphql["query"][key],}
+                {"key": key, "type": "Future", "variable": query[key],}
             )
         md.table(datafram)
-    elif type(graphql["query"]) is str:
-        md.h4("variables")
-        md.code("# Error\n" + graphql["query"], title="internal process")
+    elif type(switches) is list and len(switches) == 0:
+        md.inline("None")
+    elif type(query) is str:
+        md.code("# Error\n" + query, title="internal process")
+    else:
+        md.inline("None")
 
-    if type(exports["metadata"]["featureSwitches"]) is list:
-        md.h4("features")
+    md.h4("features")
+    if type(switches) is list and len(switches) > 0:
         datafram = []
         for switch in exports["metadata"]["featureSwitches"]:
-            datafram.append({"key": switch, "type": "Flag", "variable": "Future"})
+            datafram.append({"key": switch, "type": "boolean", "variable": "Future"})
         md.table(datafram)
+    elif type(switches) is list and len(switches) == 0:
+        md.inline("None")
+    else:
+        md.inline("Error")
+
+    md.h4("queryId")
+    if query == "mutation":
+        md.inline(exports["queryId"])
+    else:
+        md.inline("None")
 
 
 md.save("doc/markdown/GraphQL.md")
