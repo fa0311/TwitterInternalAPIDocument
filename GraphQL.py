@@ -194,7 +194,7 @@ md = md_generator()
 md.h1("Twitter Unofficial GraphQL API Document")
 md.p("This document is entirely auto-generated and may contain errors.")
 md.h2("Usage")
-md.p("If the parameter is an array type, it is encoded in json format.")
+md.p("If the parameter is an array type, encode it in json format.")
 md.p("Body example:")
 md.code(
     """json.dumps({
@@ -244,7 +244,7 @@ for graphql in graphql_output:
                 {"key": key, "type": "Future", "variable": query[key],}
             )
         md.table(datafram)
-    elif type(switches) is list and len(switches) == 0:
+    elif type(query) is list and len(query) == 0:
         md.inline("None")
     elif type(query) is str:
         md.code("# Error\n" + query, title="internal process")

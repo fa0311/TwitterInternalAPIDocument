@@ -1,7 +1,7 @@
 # Twitter Unofficial GraphQL API Document<br>
 This document is entirely auto-generated and may contain errors.<br>
 ## Usage<br>
-If the parameter is an array type, it is encoded in json format.<br>
+If the parameter is an array type, encode it in json format.<br>
 Body example:<br>
 ```Python
 json.dumps({
@@ -126,7 +126,10 @@ Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
 #### variables<br>
-`None`<br>
+```internal process
+# Error
+{"tweet_id":"o",...(null==a||null==(i=a.engagement_request)?void 0:i.impression_id)&&{...a}}
+```
 #### features<br>
 `None`<br>
 #### queryId<br>
@@ -137,7 +140,10 @@ Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
 #### variables<br>
-`None`<br>
+```internal process
+# Error
+{"tweet_id":"o",...(null==a||null==(i=a.engagement_request)?void 0:i.impression_id)&&{...a}}
+```
 #### features<br>
 `None`<br>
 #### queryId<br>
@@ -176,7 +182,10 @@ Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
 #### variables<br>
-`None`<br>
+```internal process
+# Error
+{"tweet_id":"i","reaction_type":"o",...(null==t||null==(a=t.engagement_request)?void 0:a.impression_id)&&{...t}}
+```
 #### features<br>
 `None`<br>
 #### queryId<br>
@@ -187,7 +196,10 @@ Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
 #### variables<br>
-`None`<br>
+```internal process
+# Error
+{"tweet_id":"r",...(null==a||null==(i=a.engagement_request)?void 0:i.impression_id)&&{...a}}
+```
 #### features<br>
 `None`<br>
 #### queryId<br>
@@ -198,7 +210,10 @@ Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
 #### variables<br>
-`None`<br>
+```internal process
+# Error
+{"tweet_id":"s",...(null==t||null==(c=t.engagement_request)?void 0:c.impression_id)&&{...t},"dark_request":"!1"}
+```
 #### features<br>
 `None`<br>
 #### queryId<br>
@@ -209,7 +224,10 @@ Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
 #### variables<br>
-`None`<br>
+```internal process
+# Error
+{"tweet_id":"s","comparison_id":"t",...(null==n||null==(u=n.engagement_request)?void 0:u.impression_id)&&{...n},"dark_request":"!0"}
+```
 #### features<br>
 `None`<br>
 #### queryId<br>
@@ -532,7 +550,10 @@ Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
 #### variables<br>
-`None`<br>
+```internal process
+# Error
+{"rest_id":t.rest_id}
+```
 #### features<br>
 `None`<br>
 #### queryId<br>
@@ -587,7 +608,10 @@ Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
 #### variables<br>
-`None`<br>
+```internal process
+# Error
+{...t}
+```
 #### features<br>
 `None`<br>
 #### queryId<br>
@@ -755,7 +779,10 @@ Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
 #### variables<br>
-`None`<br>
+```internal process
+# Error
+{...t}
+```
 #### features<br>
 `None`<br>
 #### queryId<br>
@@ -797,7 +824,10 @@ Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
 #### variables<br>
-`None`<br>
+```internal process
+# Error
+{"draft_tweet_id":"n","post_tweet_request":Ur(i)}
+```
 #### features<br>
 `None`<br>
 #### queryId<br>
@@ -808,7 +838,10 @@ Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
 #### variables<br>
-`None`<br>
+```internal process
+# Error
+{...n,...t}
+```
 #### features<br>
 `None`<br>
 #### queryId<br>
@@ -819,7 +852,10 @@ Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
 #### variables<br>
-`None`<br>
+```internal process
+# Error
+{"post_tweet_request":Ur(t)}
+```
 #### features<br>
 `None`<br>
 #### queryId<br>
@@ -1323,7 +1359,10 @@ Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
 #### variables<br>
-`None`<br>
+```internal process
+# Error
+{"rest_id":t.rest_id}
+```
 #### features<br>
 `None`<br>
 #### queryId<br>
@@ -1432,7 +1471,10 @@ Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
 #### variables<br>
-`None`<br>
+```internal process
+# Error
+{...t}
+```
 #### features<br>
 `None`<br>
 #### queryId<br>
@@ -1443,7 +1485,10 @@ Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
 #### variables<br>
-`None`<br>
+```internal process
+# Error
+{"post_tweet_request":"r","execute_at":yl(n)}
+```
 #### features<br>
 `None`<br>
 #### queryId<br>
@@ -1454,7 +1499,10 @@ Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
 #### variables<br>
-`None`<br>
+```internal process
+# Error
+{...n,...t}
+```
 #### features<br>
 `None`<br>
 #### queryId<br>
@@ -1465,7 +1513,10 @@ Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
 #### variables<br>
-`None`<br>
+```internal process
+# Error
+{"scheduled_tweet_id":"i","post_tweet_request":"o","execute_at":yl(n)}
+```
 #### features<br>
 `None`<br>
 #### queryId<br>
@@ -2023,7 +2074,10 @@ Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
 #### variables<br>
-`None`<br>
+```internal process
+# Error
+{"trustedFriendsId":t.trustedFriendsId,"prefix":t.prefix}
+```
 #### features<br>
 `None`<br>
 #### queryId<br>
