@@ -202,8 +202,11 @@ for graphql in graphql_output:
     )
 
     md.p("Request Method", end=": ")
-    md.inline("Future")
-    md.p("Login required", end=": ")
+    if graphql["query"] == "mutation":
+        md.inline("POST")
+    else:
+        md.inline("GET")
+    md.p("Login Required", end=": ")
     md.inline("Future")
 
     md.h3("Param")
