@@ -5,7 +5,7 @@ If the parameter is an array type, encode it in json format.<br>
 Body example:<br>
 ```Python
 json.dumps({
-    "queryId": "XyvN0Wv13eeu_gVIHDi10g",
+    "queryId": "kV0jgNRI3ofhHK_G5yhlZg",
     "variables": json.dumps({
         "tweet_text": "Hello, world!",
         "media": {"media_entities": [], "possibly_sensitive": False},
