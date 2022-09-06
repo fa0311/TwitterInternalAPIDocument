@@ -5,4 +5,4 @@ This repository is not complete.
 
 # GraphQL
 
-[Twitter Unofficial GraphQL API Document](./doc/markdown/GraphQL.md)
+[Twitter Internal GraphQL API Document](./doc/markdown/GraphQL.md)
