@@ -1,4 +1,4 @@
-# Twitter Unofficial API Document
+# Twitter Internal API Document
 
 Reverse engineering of the web version of Twitter.<br>
 This repository is not complete.
