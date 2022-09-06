@@ -16,7 +16,7 @@ class js:
         self.length = len(self.script)
         self.key = 0
 
-    def parser(self):
+    def parser(self) -> list:
         output = js_data()
         value = ""
         while self.length > self.key:
@@ -27,7 +27,7 @@ class js:
                 value = ""
                 output.children.append(self.parser())
                 output.children[-1].parent = output
-                output.children[-1].befor = output.children[-2]
+                output.children[-1].before = output.children[-2]
             elif char == "}":
                 if value != "":
                     output.children.append(value)
@@ -39,43 +39,47 @@ class js:
 
 class js_data:
     def __init__(self):
-        self.children = []
-        self.parent = None
-        self.befor = None
+        self.children: list = []
+        self.parent: js_data = None
+        self.before = None
 
 
-class js_search:
+class js_search_data:
     def __init__(self):
-        self.children = None
-        self.parent = None
+        self.children: list = []
+        self.parent: js_data = None
         self.after = None
         self.data = None
 
 
-def search_after(js: js_data, search):
+def search_js(js: js_data, search: str) -> list[js_search_data]:
     output = []
     for data in js.children:
         if type(data) is js_data:
-            output.extend(search_after(data, search))
+            output.extend(search_js(data, search))
     for key in range(len(js.children)):
         data = js.children[key]
         if data == search:
-            output.append(js)
+            output.append(js_search_data())
+            output[-1].children = js.children
+            output[-1].parent = js
+            output[-1].after = js.children[key + 1]
+            output[-1].data = search
             break
     return output
 
 
-def search_graphql(js: js_data, search):
+def search_js_reg(js: js_data, search: str) -> list[js_search_data]:
     output = []
     for data in js.children:
         if type(data) is js_data:
-            output.extend(search_graphql(data, search))
+            output.extend(search_js_reg(data, search))
     for key in range(len(js.children)):
         data = js.children[key]
         if type(data) is str:
             find = re.findall(search, data)
             if len(find) > 0:
-                output.append(js_search())
+                output.append(js_search_data())
                 output[-1].children = js.children[key]
                 output[-1].parent = js
                 output[-1].after = js.children[key + 1]
@@ -98,7 +102,7 @@ def json_parser(js: js_data):
 parsed_list = js(response.text).parser()
 
 reg_graphql = "e\.graphQL\({func}\(\),$".format(func="([a-zA-Z_\$]{1,2})",)
-graphql_list = search_graphql(parsed_list, reg_graphql)
+graphql_list = search_js_reg(parsed_list, reg_graphql)
 graphql_output = []
 
 for graphql in graphql_list:
@@ -107,15 +111,15 @@ for graphql in graphql_list:
     )
 
     graphql_parent = graphql.parent
-    match_func = search_graphql(graphql_parent, reg_func)
+    match_func = search_js_reg(graphql_parent, reg_func)
     while match_func == []:
         graphql_parent = graphql_parent.parent
-        match_func = search_graphql(graphql_parent, reg_func)
+        match_func = search_js_reg(graphql_parent, reg_func)
 
     reg_func_init = "{func}=n\({arg}\)".format(
         func=re.escape(match_func[0].data[0]), arg="([0-9]{1,5})",
     )
-    match_func_init = search_graphql(graphql_parent, reg_func_init)
+    match_func_init = search_js_reg(graphql_parent, reg_func_init)
     n = match_func_init[0].data[0]
 
     query = json_parser(graphql.after)
@@ -133,14 +137,15 @@ for graphql in graphql_list:
     )
 
 
-exports = search_after(parsed_list, "e.exports=")
+exports = search_js(parsed_list, "e.exports=")
 reg_exports = ",{int}:e=>".format(int="([0-9]{1,5})")
 for export in exports:
-    if type(export.children[1]) is js_data:
-        n = re.findall(reg_exports, export.befor)[0]
-        for key in range(len(graphql_output)):
-            if graphql_output[key]["n"] == n:
-                graphql_output[key].update({"exports": json.loads(json_parser(export.children[1]))})
+    n = re.findall(reg_exports, export.parent.before)[0]
+    for key in range(len(graphql_output)):
+        if graphql_output[key]["n"] == n:
+            graphql_output[key].update(
+                {"exports": json.loads(json_parser(export.parent.children[1]))}
+            )
 
 with open("doc/json/GraphQL.json", "w") as f:
     json.dump(graphql_output, f, ensure_ascii=False, indent=2)
