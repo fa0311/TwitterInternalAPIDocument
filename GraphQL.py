@@ -3,74 +3,144 @@ import re
 import json
 import os
 
-os.makedirs('doc/json',  exist_ok=True)
+os.makedirs("doc/json", exist_ok=True)
 
 response = requests.get(
     "https://abs.twimg.com/responsive-web/client-web/main.811341e8.js"
 )
 
-reg_exports = '{key}:e=>{{e.exports={{queryId:{text},operationName:{text},operationType:{text},metadata:{{featureSwitches:{text}}}}}}},'.format(
-    key='([0-9]{1,5})', text='"?(.*?)"?',
-)
+
+class js:
+    def __init__(self, script):
+        self.script = script
+        self.length = len(self.script)
+        self.key = 0
+
+    def parser(self):
+        output = js_data()
+        value = ""
+        while self.length > self.key:
+            char = self.script[self.key]
+            self.key += 1
+            if char == "{":
+                output.children.append(value)
+                value = ""
+                output.children.append(self.parser())
+                output.children[-1].parent = output
+                output.children[-1].befor = output.children[-2]
+            elif char == "}":
+                if value != "":
+                    output.children.append(value)
+                return output
+            else:
+                value += char
+        return output
 
 
-match_exports = re.findall(reg_exports, response.text)
-output = []
+class js_data:
+    def __init__(self):
+        self.children = []
+        self.parent = None
+        self.befor = None
 
-for data in match_exports:
+
+class js_search:
+    def __init__(self):
+        self.children = None
+        self.parent = None
+        self.after = None
+        self.data = None
+
+
+def search_after(js: js_data, search):
+    output = []
+    for data in js.children:
+        if type(data) is js_data:
+            output.extend(search_after(data, search))
+    for key in range(len(js.children)):
+        data = js.children[key]
+        if data == search:
+            output.append(js)
+            break
+    return output
+
+
+def search_graphql(js: js_data, search):
+    output = []
+    for data in js.children:
+        if type(data) is js_data:
+            output.extend(search_graphql(data, search))
+    for key in range(len(js.children)):
+        data = js.children[key]
+        if type(data) is str:
+            find = re.findall(search, data)
+            if len(find) > 0:
+                output.append(js_search())
+                output[-1].children = js.children[key]
+                output[-1].parent = js
+                output[-1].after = js.children[key + 1]
+                output[-1].data = find
+                break
+    return output
+
+
+def json_parser(js: js_data):
+    output = ""
+    for data in js.children:
+        if type(data) is js_data:
+            output += json_parser(data)
+        else:
+            re_sub = re.sub("(,|^)([0-9a-zA-Z!$_]+?)(:|$)", r'\1"\2"\3', data)
+            output += re.sub("(:|^)([0-9a-zA-Z!$_]+?)(,|$)", r'\1"\2"\3', re_sub)
+    return "{" + output + "}"
+
+
+parsed_list = js(response.text).parser()
+
+reg_graphql = "e\.graphQL\({func}\(\),$".format(func="([a-zA-Z_\$]{1,2})",)
+graphql_list = search_graphql(parsed_list, reg_graphql)
+graphql_output = []
+
+for graphql in graphql_list:
+    reg_func = "{func}=n.n\({arg}\)".format(
+        func=re.escape(graphql.data[0]), arg="([a-zA-Z_\$]{1,2})",
+    )
+
+    graphql_parent = graphql.parent
+    match_func = search_graphql(graphql_parent, reg_func)
+    while match_func == []:
+        graphql_parent = graphql_parent.parent
+        match_func = search_graphql(graphql_parent, reg_func)
+
+    reg_func_init = "{func}=n\({arg}\)".format(
+        func=re.escape(match_func[0].data[0]), arg="([0-9]{1,5})",
+    )
+    match_func_init = search_graphql(graphql_parent, reg_func_init)
+    n = match_func_init[0].data[0]
+
+    query = json_parser(graphql.after)
     try:
-        reg_func_init = '{func}=n\({arg}\)'.format(
-            func='([a-zA-Z_\$]{1,2})',
-            arg=re.escape(data[0]),
-        )
-        match_func_init = re.findall(reg_func_init, response.text)[0]
-        reg_func = '{func}=n.n\({arg}\)'.format(
-            func='([a-zA-Z_\$]{1,2})',
-            arg=re.escape(match_func_init),
-        )
-        match_func = re.findall(reg_func, response.text)[0]
+        query = json.loads(query)
     except:
-        match_func = None
-
-    try:
-        reg_graphql_func = '{func}:{text}=>e\.graphQL\({arg}\(\),'.format(
-            func='([a-zA-Z_\$]*)',
-            arg=re.escape(match_func),
-            text='[a-zA-Z\(\)]*?',
-        )
-        match_graphql_func = re.findall(reg_graphql_func, response.text)[0]
-    except:
-        try:
-            reg_graphql_func = '{func}\({func_arg}\){text}return e\.graphQL\({arg}\(\),'.format(
-                func='([a-zA-Z_\$]*)',
-                func_arg='(|[a-zA-Z]*|[a-zA-Z]*\:[a-zA-Z]*)',
-                arg=re.escape(match_func),
-                text='.{0,100}',
-            )
-            match_graphql_func = re.findall(reg_graphql_func, response.text)[0]
-        except:
-            match_graphql_func = None
-
-    output.append(
+        pass
+    graphql_output.append(
         {
-            "n": data[0],
-            "match_func": match_func,
-            "match_graphql_func": match_graphql_func,
-            "queryId": data[1],
-            "operationName": data[2],
-            "operationType": data[3],
-            "metadata": {"featureSwitches": json.loads(data[4])},
+            "n": n,
+            "func_name": graphql.data[0],
+            "func_name_init": match_func[0].data[0],
+            "query": query,
         }
     )
-    
-    print(data[0])
-    if data[0] == "0":
-        break
 
 
-    with open("doc/json/GraphQL.json", "w") as f:
-        json.dump(output, f, ensure_ascii=False, indent=2)
-    
-with open("doc/json/aaa.js", "w", encoding="utf-8") as f:
-    f.write(response.text)
-    
+exports = search_after(parsed_list, "e.exports=")
+reg_exports = ",{int}:e=>".format(int="([0-9]{1,5})")
+for export in exports:
+    if type(export.children[1]) is js_data:
+        n = re.findall(reg_exports, export.befor)[0]
+        for key in range(len(graphql_output)):
+            if graphql_output[key]["n"] == n:
+                graphql_output[key].update({"exports": json.loads(json_parser(export.children[1]))})
+
+with open("doc/json/GraphQL.json", "w") as f:
+    json.dump(graphql_output, f, ensure_ascii=False, indent=2)
