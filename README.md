@@ -1,7 +1,8 @@
 # Twitter Unofficial API Document
 
-Reverse engineering of the web version of Twitter.
+Reverse engineering of the web version of Twitter.<br>
+This repository is not complete.
 
 # GraphQL
 
-`https://twitter.com/i/api/graphql/{queryId}/{operationName}`
+[Twitter Unofficial GraphQL API Document](./doc/markdown/GraphQL.md)

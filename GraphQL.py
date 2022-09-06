@@ -2,8 +2,10 @@ import requests
 import re
 import json
 import os
+import pandas as pd
 
 os.makedirs("doc/json", exist_ok=True)
+os.makedirs("doc/markdown", exist_ok=True)
 
 response = requests.get(
     "https://abs.twimg.com/responsive-web/client-web/main.811341e8.js"
@@ -149,3 +151,80 @@ for export in exports:
 
 with open("doc/json/GraphQL.json", "w") as f:
     json.dump(graphql_output, f, ensure_ascii=False, indent=2)
+
+# Markdown
+
+
+class md_generator:
+    def __init__(self):
+        self.output = ""
+
+    def h1(self, text: str, end: str = "<br>\n"):
+        self.output += f"# {text}{end}"
+
+    def h2(self, text: str, end: str = "<br>\n"):
+        self.output += f"## {text}{end}"
+
+    def h3(self, text: str, end: str = "<br>\n"):
+        self.output += f"### {text}{end}"
+
+    def h4(self, text: str, end: str = "<br>\n"):
+        self.output += f"#### {text}{end}"
+
+    def p(self, text: str, end: str = "<br>\n"):
+        self.output += f"{text}{end}"
+
+    def inline(self, text: str, end: str = "<br>\n"):
+        self.output += f"`{text}`{end}"
+
+    def code(self, text: str, title: str = "", end: str = "\n"):
+        self.output += f"```{title}\n{text}\n```{end}"
+
+    def table(self, data: dict, end: str = "\n\n"):
+        datafram = pd.DataFrame(data)
+        self.output += f"{datafram.to_markdown(index=False)}{end}"
+
+    def save(self, file_name: str):
+
+        with open(file_name, "w") as f:
+            f.write(self.output)
+
+
+md = md_generator()
+md.h1("Twitter Unofficial GraphQL API Document")
+md.p("This document is entirely auto-generated and may contain errors.")
+for graphql in graphql_output:
+    exports = graphql["exports"]
+    md.h2(exports["operationName"])
+    md.p("Request URL", end=": ")
+    md.inline(
+        "https://twitter.com/i/api/graphql/{queryId}/{operationName}".format(**exports)
+    )
+
+    md.p("Request Method", end=": ")
+    md.inline("Future")
+    md.p("Login required", end=": ")
+    md.inline("Future")
+
+    md.h3("Param")
+    if type(graphql["query"]) is dict:
+        md.h4("variables")
+        datafram = []
+        for key in graphql["query"].keys():
+            datafram.append(
+                {"key": key, "type": "Future", "variable": graphql["query"][key],}
+            )
+        md.table(datafram)
+    elif type(graphql["query"]) is str:
+        md.h4("variables")
+        md.code("# Error\n" + graphql["query"], title="internal process")
+
+    if type(exports["metadata"]["featureSwitches"]) is list:
+        md.h4("features")
+        datafram = []
+        for switch in exports["metadata"]["featureSwitches"]:
+            datafram.append({"key": switch, "type": "Flag", "variable": "Future"})
+        md.table(datafram)
+
+
+md.save("doc/markdown/GraphQL.md")
