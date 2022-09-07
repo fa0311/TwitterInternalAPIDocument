@@ -32,21 +32,21 @@ Login Required: `Future`<br>
 {"id":"n","isMetatagsQuery":"a",...(0,r.d)(t),"withReplays":t.isTrue("voice_rooms_replay_consumption")}
 ```
 #### features<br>
-| key                                                                     | type    | variable   |
-|:------------------------------------------------------------------------|:--------|:-----------|
-| spaces_2022_h2_clipping                                                 | boolean | Future     |
-| spaces_2022_h2_spaces_communities                                       | boolean | Future     |
-| dont_mention_me_view_api_enabled                                        | boolean | Future     |
-| responsive_web_uc_gql_enabled                                           | boolean | Future     |
-| vibe_api_enabled                                                        | boolean | Future     |
-| responsive_web_edit_tweet_api_enabled                                   | boolean | Future     |
-| graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | Future     |
-| standardized_nudges_misinfo                                             | boolean | Future     |
-| tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | Future     |
-| responsive_web_graphql_timeline_navigation_enabled                      | boolean | Future     |
-| interactive_text_enabled                                                | boolean | Future     |
-| responsive_web_text_conversations_enabled                               | boolean | Future     |
-| responsive_web_enhance_cards_enabled                                    | boolean | Future     |
+| key                                                                     | type    | default   |
+|:------------------------------------------------------------------------|:--------|:----------|
+| spaces_2022_h2_clipping                                                 | boolean | True      |
+| spaces_2022_h2_spaces_communities                                       | boolean | True      |
+| dont_mention_me_view_api_enabled                                        | boolean | True      |
+| responsive_web_uc_gql_enabled                                           | boolean | True      |
+| vibe_api_enabled                                                        | boolean | False     |
+| responsive_web_edit_tweet_api_enabled                                   | boolean | True      |
+| graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | True      |
+| standardized_nudges_misinfo                                             | boolean | True      |
+| tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | True      |
+| responsive_web_graphql_timeline_navigation_enabled                      | boolean | False     |
+| interactive_text_enabled                                                | boolean | True      |
+| responsive_web_text_conversations_enabled                               | boolean | True      |
+| responsive_web_enhance_cards_enabled                                    | boolean | True      |
 
 #### queryId<br>
 `None`<br>
@@ -104,19 +104,19 @@ Login Required: `Future`<br>
 {"tweetId":"o","includePromotedContent":"!0","withBirdwatchNotes":t.isTrue("responsive_web_birdwatch_consumption_enabled"),"withVoice":t.isTrue("voice_consumption_enabled"),"withCommunity":t.isTrue("c9s_enabled"),...(0,c.d)(t)}
 ```
 #### features<br>
-| key                                                                     | type    | variable   |
-|:------------------------------------------------------------------------|:--------|:-----------|
-| dont_mention_me_view_api_enabled                                        | boolean | Future     |
-| responsive_web_uc_gql_enabled                                           | boolean | Future     |
-| vibe_api_enabled                                                        | boolean | Future     |
-| responsive_web_edit_tweet_api_enabled                                   | boolean | Future     |
-| graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | Future     |
-| standardized_nudges_misinfo                                             | boolean | Future     |
-| tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | Future     |
-| interactive_text_enabled                                                | boolean | Future     |
-| responsive_web_text_conversations_enabled                               | boolean | Future     |
-| responsive_web_graphql_timeline_navigation_enabled                      | boolean | Future     |
-| responsive_web_enhance_cards_enabled                                    | boolean | Future     |
+| key                                                                     | type    | default   |
+|:------------------------------------------------------------------------|:--------|:----------|
+| dont_mention_me_view_api_enabled                                        | boolean | True      |
+| responsive_web_uc_gql_enabled                                           | boolean | True      |
+| vibe_api_enabled                                                        | boolean | False     |
+| responsive_web_edit_tweet_api_enabled                                   | boolean | True      |
+| graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | True      |
+| standardized_nudges_misinfo                                             | boolean | True      |
+| tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | True      |
+| interactive_text_enabled                                                | boolean | True      |
+| responsive_web_text_conversations_enabled                               | boolean | True      |
+| responsive_web_graphql_timeline_navigation_enabled                      | boolean | False     |
+| responsive_web_enhance_cards_enabled                                    | boolean | True      |
 
 #### queryId<br>
 `None`<br>
@@ -330,19 +330,19 @@ Login Required: `Future`<br>
 {...r,"dark_request":!!n.preview,...(null==l||null==(m=l.engagement_request)?void 0:m.impression_id)&&{...l},...(0,c.d)(t)}
 ```
 #### features<br>
-| key                                                                     | type    | variable   |
-|:------------------------------------------------------------------------|:--------|:-----------|
-| dont_mention_me_view_api_enabled                                        | boolean | Future     |
-| responsive_web_uc_gql_enabled                                           | boolean | Future     |
-| vibe_api_enabled                                                        | boolean | Future     |
-| responsive_web_edit_tweet_api_enabled                                   | boolean | Future     |
-| graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | Future     |
-| interactive_text_enabled                                                | boolean | Future     |
-| responsive_web_text_conversations_enabled                               | boolean | Future     |
-| standardized_nudges_misinfo                                             | boolean | Future     |
-| tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | Future     |
-| responsive_web_graphql_timeline_navigation_enabled                      | boolean | Future     |
-| responsive_web_enhance_cards_enabled                                    | boolean | Future     |
+| key                                                                     | type    | default   |
+|:------------------------------------------------------------------------|:--------|:----------|
+| dont_mention_me_view_api_enabled                                        | boolean | True      |
+| responsive_web_uc_gql_enabled                                           | boolean | True      |
+| vibe_api_enabled                                                        | boolean | False     |
+| responsive_web_edit_tweet_api_enabled                                   | boolean | True      |
+| graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | True      |
+| interactive_text_enabled                                                | boolean | True      |
+| responsive_web_text_conversations_enabled                               | boolean | True      |
+| standardized_nudges_misinfo                                             | boolean | True      |
+| tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | True      |
+| responsive_web_graphql_timeline_navigation_enabled                      | boolean | False     |
+| responsive_web_enhance_cards_enabled                                    | boolean | True      |
 
 #### queryId<br>
 `None`<br>
@@ -357,19 +357,19 @@ Login Required: `Future`<br>
 {...a,"comparison_id":"s","dark_request":"!0",...(null==l||null==(h=l.engagement_request)?void 0:h.impression_id)&&{...l},...(0,c.d)(t)}
 ```
 #### features<br>
-| key                                                                     | type    | variable   |
-|:------------------------------------------------------------------------|:--------|:-----------|
-| dont_mention_me_view_api_enabled                                        | boolean | Future     |
-| responsive_web_uc_gql_enabled                                           | boolean | Future     |
-| vibe_api_enabled                                                        | boolean | Future     |
-| responsive_web_edit_tweet_api_enabled                                   | boolean | Future     |
-| graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | Future     |
-| interactive_text_enabled                                                | boolean | Future     |
-| responsive_web_text_conversations_enabled                               | boolean | Future     |
-| standardized_nudges_misinfo                                             | boolean | Future     |
-| tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | Future     |
-| responsive_web_graphql_timeline_navigation_enabled                      | boolean | Future     |
-| responsive_web_enhance_cards_enabled                                    | boolean | Future     |
+| key                                                                     | type    | default   |
+|:------------------------------------------------------------------------|:--------|:----------|
+| dont_mention_me_view_api_enabled                                        | boolean | True      |
+| responsive_web_uc_gql_enabled                                           | boolean | True      |
+| vibe_api_enabled                                                        | boolean | False     |
+| responsive_web_edit_tweet_api_enabled                                   | boolean | True      |
+| graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | True      |
+| interactive_text_enabled                                                | boolean | True      |
+| responsive_web_text_conversations_enabled                               | boolean | True      |
+| standardized_nudges_misinfo                                             | boolean | True      |
+| tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | True      |
+| responsive_web_graphql_timeline_navigation_enabled                      | boolean | False     |
+| responsive_web_enhance_cards_enabled                                    | boolean | True      |
 
 #### queryId<br>
 `None`<br>
@@ -458,10 +458,10 @@ Login Required: `Future`<br>
 {"tweetText":o.status}
 ```
 #### features<br>
-| key                                                | type    | variable   |
-|:---------------------------------------------------|:--------|:-----------|
-| responsive_web_enhance_cards_enabled               | boolean | Future     |
-| responsive_web_graphql_timeline_navigation_enabled | boolean | Future     |
+| key                                                | type    | default   |
+|:---------------------------------------------------|:--------|:----------|
+| responsive_web_enhance_cards_enabled               | boolean | True      |
+| responsive_web_graphql_timeline_navigation_enabled | boolean | False     |
 
 #### queryId<br>
 `None`<br>
@@ -476,9 +476,9 @@ Login Required: `Future`<br>
 {"tweetId":"n","withSuperFollowsUserFields":t.isTrue("super_follow_user_api_enabled")}
 ```
 #### features<br>
-| key                                                | type    | variable   |
-|:---------------------------------------------------|:--------|:-----------|
-| responsive_web_graphql_timeline_navigation_enabled | boolean | Future     |
+| key                                                | type    | default   |
+|:---------------------------------------------------|:--------|:----------|
+| responsive_web_graphql_timeline_navigation_enabled | boolean | False     |
 
 #### queryId<br>
 `None`<br>
@@ -493,20 +493,20 @@ Login Required: `Future`<br>
 {"tweetId":"r","count":"n","cursor":"i","includePromotedContent":"!0",...(0,g.d)(t)}
 ```
 #### features<br>
-| key                                                                     | type    | variable   |
-|:------------------------------------------------------------------------|:--------|:-----------|
-| responsive_web_graphql_timeline_navigation_enabled                      | boolean | Future     |
-| unified_cards_ad_metadata_container_dynamic_card_content_query_enabled  | boolean | Future     |
-| dont_mention_me_view_api_enabled                                        | boolean | Future     |
-| responsive_web_uc_gql_enabled                                           | boolean | Future     |
-| vibe_api_enabled                                                        | boolean | Future     |
-| responsive_web_edit_tweet_api_enabled                                   | boolean | Future     |
-| graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | Future     |
-| standardized_nudges_misinfo                                             | boolean | Future     |
-| tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | Future     |
-| interactive_text_enabled                                                | boolean | Future     |
-| responsive_web_text_conversations_enabled                               | boolean | Future     |
-| responsive_web_enhance_cards_enabled                                    | boolean | Future     |
+| key                                                                     | type    | default   |
+|:------------------------------------------------------------------------|:--------|:----------|
+| responsive_web_graphql_timeline_navigation_enabled                      | boolean | False     |
+| unified_cards_ad_metadata_container_dynamic_card_content_query_enabled  | boolean | True      |
+| dont_mention_me_view_api_enabled                                        | boolean | True      |
+| responsive_web_uc_gql_enabled                                           | boolean | True      |
+| vibe_api_enabled                                                        | boolean | False     |
+| responsive_web_edit_tweet_api_enabled                                   | boolean | True      |
+| graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | True      |
+| standardized_nudges_misinfo                                             | boolean | True      |
+| tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | True      |
+| interactive_text_enabled                                                | boolean | True      |
+| responsive_web_text_conversations_enabled                               | boolean | True      |
+| responsive_web_enhance_cards_enabled                                    | boolean | True      |
 
 #### queryId<br>
 `None`<br>
@@ -521,20 +521,20 @@ Login Required: `Future`<br>
 {"tweetId":"r","count":"n","cursor":"i","includePromotedContent":"!0",...(0,g.d)(t)}
 ```
 #### features<br>
-| key                                                                     | type    | variable   |
-|:------------------------------------------------------------------------|:--------|:-----------|
-| responsive_web_graphql_timeline_navigation_enabled                      | boolean | Future     |
-| unified_cards_ad_metadata_container_dynamic_card_content_query_enabled  | boolean | Future     |
-| dont_mention_me_view_api_enabled                                        | boolean | Future     |
-| responsive_web_uc_gql_enabled                                           | boolean | Future     |
-| vibe_api_enabled                                                        | boolean | Future     |
-| responsive_web_edit_tweet_api_enabled                                   | boolean | Future     |
-| graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | Future     |
-| standardized_nudges_misinfo                                             | boolean | Future     |
-| tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | Future     |
-| interactive_text_enabled                                                | boolean | Future     |
-| responsive_web_text_conversations_enabled                               | boolean | Future     |
-| responsive_web_enhance_cards_enabled                                    | boolean | Future     |
+| key                                                                     | type    | default   |
+|:------------------------------------------------------------------------|:--------|:----------|
+| responsive_web_graphql_timeline_navigation_enabled                      | boolean | False     |
+| unified_cards_ad_metadata_container_dynamic_card_content_query_enabled  | boolean | True      |
+| dont_mention_me_view_api_enabled                                        | boolean | True      |
+| responsive_web_uc_gql_enabled                                           | boolean | True      |
+| vibe_api_enabled                                                        | boolean | False     |
+| responsive_web_edit_tweet_api_enabled                                   | boolean | True      |
+| graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | True      |
+| standardized_nudges_misinfo                                             | boolean | True      |
+| tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | True      |
+| interactive_text_enabled                                                | boolean | True      |
+| responsive_web_text_conversations_enabled                               | boolean | True      |
+| responsive_web_enhance_cards_enabled                                    | boolean | True      |
 
 #### queryId<br>
 `None`<br>
@@ -549,20 +549,20 @@ Login Required: `Future`<br>
 {"tweetId":"n",...(0,g.d)(t),"withQuickPromoteEligibilityTweetFields":"!0"}
 ```
 #### features<br>
-| key                                                                     | type    | variable   |
-|:------------------------------------------------------------------------|:--------|:-----------|
-| standardized_nudges_misinfo                                             | boolean | Future     |
-| tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | Future     |
-| dont_mention_me_view_api_enabled                                        | boolean | Future     |
-| responsive_web_uc_gql_enabled                                           | boolean | Future     |
-| vibe_api_enabled                                                        | boolean | Future     |
-| responsive_web_edit_tweet_api_enabled                                   | boolean | Future     |
-| graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | Future     |
-| interactive_text_enabled                                                | boolean | Future     |
-| responsive_web_text_conversations_enabled                               | boolean | Future     |
-| responsive_web_graphql_timeline_navigation_enabled                      | boolean | Future     |
-| responsive_web_enhance_cards_enabled                                    | boolean | Future     |
-| unified_cards_ad_metadata_container_dynamic_card_content_query_enabled  | boolean | Future     |
+| key                                                                     | type    | default   |
+|:------------------------------------------------------------------------|:--------|:----------|
+| standardized_nudges_misinfo                                             | boolean | True      |
+| tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | True      |
+| dont_mention_me_view_api_enabled                                        | boolean | True      |
+| responsive_web_uc_gql_enabled                                           | boolean | True      |
+| vibe_api_enabled                                                        | boolean | False     |
+| responsive_web_edit_tweet_api_enabled                                   | boolean | True      |
+| graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | True      |
+| interactive_text_enabled                                                | boolean | True      |
+| responsive_web_text_conversations_enabled                               | boolean | True      |
+| responsive_web_graphql_timeline_navigation_enabled                      | boolean | False     |
+| responsive_web_enhance_cards_enabled                                    | boolean | True      |
+| unified_cards_ad_metadata_container_dynamic_card_content_query_enabled  | boolean | True      |
 
 #### queryId<br>
 `None`<br>
@@ -638,9 +638,9 @@ Login Required: `Future`<br>
 {"tweet_id":"i",...(0,g.S)(t)}
 ```
 #### features<br>
-| key                                                | type    | variable   |
-|:---------------------------------------------------|:--------|:-----------|
-| responsive_web_graphql_timeline_navigation_enabled | boolean | Future     |
+| key                                                | type    | default   |
+|:---------------------------------------------------|:--------|:----------|
+| responsive_web_graphql_timeline_navigation_enabled | boolean | False     |
 
 #### queryId<br>
 `None`<br>
@@ -680,9 +680,9 @@ Login Required: `Future`<br>
 {"tweet_id":n.tweet_id,"data_v1":n.data,...(0,g.S)(t)}
 ```
 #### features<br>
-| key                                                | type    | variable   |
-|:---------------------------------------------------|:--------|:-----------|
-| responsive_web_graphql_timeline_navigation_enabled | boolean | Future     |
+| key                                                | type    | default   |
+|:---------------------------------------------------|:--------|:----------|
+| responsive_web_graphql_timeline_navigation_enabled | boolean | False     |
 
 #### queryId<br>
 `None`<br>
@@ -725,9 +725,9 @@ Login Required: `Future`<br>
 {"note_id":n.note_id,...(0,g.S)(t)}
 ```
 #### features<br>
-| key                                                | type    | variable   |
-|:---------------------------------------------------|:--------|:-----------|
-| responsive_web_graphql_timeline_navigation_enabled | boolean | Future     |
+| key                                                | type    | default   |
+|:---------------------------------------------------|:--------|:----------|
+| responsive_web_graphql_timeline_navigation_enabled | boolean | False     |
 
 #### queryId<br>
 `None`<br>
@@ -756,19 +756,19 @@ Login Required: `Future`<br>
 {"count":"10",...n,...(0,g.S)(t)}
 ```
 #### features<br>
-| key                                                                     | type    | variable   |
-|:------------------------------------------------------------------------|:--------|:-----------|
-| responsive_web_graphql_timeline_navigation_enabled                      | boolean | Future     |
-| dont_mention_me_view_api_enabled                                        | boolean | Future     |
-| responsive_web_uc_gql_enabled                                           | boolean | Future     |
-| vibe_api_enabled                                                        | boolean | Future     |
-| responsive_web_edit_tweet_api_enabled                                   | boolean | Future     |
-| graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | Future     |
-| standardized_nudges_misinfo                                             | boolean | Future     |
-| tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | Future     |
-| interactive_text_enabled                                                | boolean | Future     |
-| responsive_web_text_conversations_enabled                               | boolean | Future     |
-| responsive_web_enhance_cards_enabled                                    | boolean | Future     |
+| key                                                                     | type    | default   |
+|:------------------------------------------------------------------------|:--------|:----------|
+| responsive_web_graphql_timeline_navigation_enabled                      | boolean | False     |
+| dont_mention_me_view_api_enabled                                        | boolean | True      |
+| responsive_web_uc_gql_enabled                                           | boolean | True      |
+| vibe_api_enabled                                                        | boolean | False     |
+| responsive_web_edit_tweet_api_enabled                                   | boolean | True      |
+| graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | True      |
+| standardized_nudges_misinfo                                             | boolean | True      |
+| tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | True      |
+| interactive_text_enabled                                                | boolean | True      |
+| responsive_web_text_conversations_enabled                               | boolean | True      |
+| responsive_web_enhance_cards_enabled                                    | boolean | True      |
 
 #### queryId<br>
 `None`<br>
@@ -783,19 +783,19 @@ Login Required: `Future`<br>
 {"count":"10",...n,...(0,g.S)(t)}
 ```
 #### features<br>
-| key                                                                     | type    | variable   |
-|:------------------------------------------------------------------------|:--------|:-----------|
-| responsive_web_graphql_timeline_navigation_enabled                      | boolean | Future     |
-| dont_mention_me_view_api_enabled                                        | boolean | Future     |
-| responsive_web_uc_gql_enabled                                           | boolean | Future     |
-| vibe_api_enabled                                                        | boolean | Future     |
-| responsive_web_edit_tweet_api_enabled                                   | boolean | Future     |
-| graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | Future     |
-| standardized_nudges_misinfo                                             | boolean | Future     |
-| tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | Future     |
-| interactive_text_enabled                                                | boolean | Future     |
-| responsive_web_text_conversations_enabled                               | boolean | Future     |
-| responsive_web_enhance_cards_enabled                                    | boolean | Future     |
+| key                                                                     | type    | default   |
+|:------------------------------------------------------------------------|:--------|:----------|
+| responsive_web_graphql_timeline_navigation_enabled                      | boolean | False     |
+| dont_mention_me_view_api_enabled                                        | boolean | True      |
+| responsive_web_uc_gql_enabled                                           | boolean | True      |
+| vibe_api_enabled                                                        | boolean | False     |
+| responsive_web_edit_tweet_api_enabled                                   | boolean | True      |
+| graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | True      |
+| standardized_nudges_misinfo                                             | boolean | True      |
+| tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | True      |
+| interactive_text_enabled                                                | boolean | True      |
+| responsive_web_text_conversations_enabled                               | boolean | True      |
+| responsive_web_enhance_cards_enabled                                    | boolean | True      |
 
 #### queryId<br>
 `None`<br>
@@ -857,20 +857,20 @@ Login Required: `Future`<br>
 {...(0,g.d)(t)}
 ```
 #### features<br>
-| key                                                                     | type    | variable   |
-|:------------------------------------------------------------------------|:--------|:-----------|
-| responsive_web_graphql_timeline_navigation_enabled                      | boolean | Future     |
-| unified_cards_ad_metadata_container_dynamic_card_content_query_enabled  | boolean | Future     |
-| dont_mention_me_view_api_enabled                                        | boolean | Future     |
-| responsive_web_uc_gql_enabled                                           | boolean | Future     |
-| vibe_api_enabled                                                        | boolean | Future     |
-| responsive_web_edit_tweet_api_enabled                                   | boolean | Future     |
-| graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | Future     |
-| standardized_nudges_misinfo                                             | boolean | Future     |
-| tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | Future     |
-| interactive_text_enabled                                                | boolean | Future     |
-| responsive_web_text_conversations_enabled                               | boolean | Future     |
-| responsive_web_enhance_cards_enabled                                    | boolean | Future     |
+| key                                                                     | type    | default   |
+|:------------------------------------------------------------------------|:--------|:----------|
+| responsive_web_graphql_timeline_navigation_enabled                      | boolean | False     |
+| unified_cards_ad_metadata_container_dynamic_card_content_query_enabled  | boolean | True      |
+| dont_mention_me_view_api_enabled                                        | boolean | True      |
+| responsive_web_uc_gql_enabled                                           | boolean | True      |
+| vibe_api_enabled                                                        | boolean | False     |
+| responsive_web_edit_tweet_api_enabled                                   | boolean | True      |
+| graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | True      |
+| standardized_nudges_misinfo                                             | boolean | True      |
+| tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | True      |
+| interactive_text_enabled                                                | boolean | True      |
+| responsive_web_text_conversations_enabled                               | boolean | True      |
+| responsive_web_enhance_cards_enabled                                    | boolean | True      |
 
 #### queryId<br>
 `None`<br>
@@ -996,20 +996,20 @@ Login Required: `Future`<br>
 {"count":"n","cursor":"i","includePromotedContent":"!0",...(0,g.d)(t)}
 ```
 #### features<br>
-| key                                                                     | type    | variable   |
-|:------------------------------------------------------------------------|:--------|:-----------|
-| responsive_web_graphql_timeline_navigation_enabled                      | boolean | Future     |
-| unified_cards_ad_metadata_container_dynamic_card_content_query_enabled  | boolean | Future     |
-| dont_mention_me_view_api_enabled                                        | boolean | Future     |
-| responsive_web_uc_gql_enabled                                           | boolean | Future     |
-| vibe_api_enabled                                                        | boolean | Future     |
-| responsive_web_edit_tweet_api_enabled                                   | boolean | Future     |
-| graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | Future     |
-| standardized_nudges_misinfo                                             | boolean | Future     |
-| tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | Future     |
-| interactive_text_enabled                                                | boolean | Future     |
-| responsive_web_text_conversations_enabled                               | boolean | Future     |
-| responsive_web_enhance_cards_enabled                                    | boolean | Future     |
+| key                                                                     | type    | default   |
+|:------------------------------------------------------------------------|:--------|:----------|
+| responsive_web_graphql_timeline_navigation_enabled                      | boolean | False     |
+| unified_cards_ad_metadata_container_dynamic_card_content_query_enabled  | boolean | True      |
+| dont_mention_me_view_api_enabled                                        | boolean | True      |
+| responsive_web_uc_gql_enabled                                           | boolean | True      |
+| vibe_api_enabled                                                        | boolean | False     |
+| responsive_web_edit_tweet_api_enabled                                   | boolean | True      |
+| graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | True      |
+| standardized_nudges_misinfo                                             | boolean | True      |
+| tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | True      |
+| interactive_text_enabled                                                | boolean | True      |
+| responsive_web_text_conversations_enabled                               | boolean | True      |
+| responsive_web_enhance_cards_enabled                                    | boolean | True      |
 
 #### queryId<br>
 `None`<br>
@@ -1024,20 +1024,20 @@ Login Required: `Future`<br>
 {"bookmark_collection_id":"n","cursor":"i","includePromotedContent":"!0",...(0,g.d)(t)}
 ```
 #### features<br>
-| key                                                                     | type    | variable   |
-|:------------------------------------------------------------------------|:--------|:-----------|
-| responsive_web_graphql_timeline_navigation_enabled                      | boolean | Future     |
-| unified_cards_ad_metadata_container_dynamic_card_content_query_enabled  | boolean | Future     |
-| dont_mention_me_view_api_enabled                                        | boolean | Future     |
-| responsive_web_uc_gql_enabled                                           | boolean | Future     |
-| vibe_api_enabled                                                        | boolean | Future     |
-| responsive_web_edit_tweet_api_enabled                                   | boolean | Future     |
-| graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | Future     |
-| standardized_nudges_misinfo                                             | boolean | Future     |
-| tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | Future     |
-| interactive_text_enabled                                                | boolean | Future     |
-| responsive_web_text_conversations_enabled                               | boolean | Future     |
-| responsive_web_enhance_cards_enabled                                    | boolean | Future     |
+| key                                                                     | type    | default   |
+|:------------------------------------------------------------------------|:--------|:----------|
+| responsive_web_graphql_timeline_navigation_enabled                      | boolean | False     |
+| unified_cards_ad_metadata_container_dynamic_card_content_query_enabled  | boolean | True      |
+| dont_mention_me_view_api_enabled                                        | boolean | True      |
+| responsive_web_uc_gql_enabled                                           | boolean | True      |
+| vibe_api_enabled                                                        | boolean | False     |
+| responsive_web_edit_tweet_api_enabled                                   | boolean | True      |
+| graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | True      |
+| standardized_nudges_misinfo                                             | boolean | True      |
+| tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | True      |
+| interactive_text_enabled                                                | boolean | True      |
+| responsive_web_text_conversations_enabled                               | boolean | True      |
+| responsive_web_enhance_cards_enabled                                    | boolean | True      |
 
 #### queryId<br>
 `None`<br>
@@ -1066,9 +1066,9 @@ Login Required: `Future`<br>
 {"name":"a","description":"i","joinPolicy":"o","invitesPolicy":"r",...(0,g.S)(t)}
 ```
 #### features<br>
-| key                                                | type    | variable   |
-|:---------------------------------------------------|:--------|:-----------|
-| responsive_web_graphql_timeline_navigation_enabled | boolean | Future     |
+| key                                                | type    | default   |
+|:---------------------------------------------------|:--------|:----------|
+| responsive_web_graphql_timeline_navigation_enabled | boolean | False     |
 
 #### queryId<br>
 `None`<br>
@@ -1083,20 +1083,20 @@ Login Required: `Future`<br>
 {...n,"withCommunity":t.isTrue("c9s_enabled"),...(0,g.d)(t)}
 ```
 #### features<br>
-| key                                                                     | type    | variable   |
-|:------------------------------------------------------------------------|:--------|:-----------|
-| responsive_web_graphql_timeline_navigation_enabled                      | boolean | Future     |
-| unified_cards_ad_metadata_container_dynamic_card_content_query_enabled  | boolean | Future     |
-| dont_mention_me_view_api_enabled                                        | boolean | Future     |
-| responsive_web_uc_gql_enabled                                           | boolean | Future     |
-| vibe_api_enabled                                                        | boolean | Future     |
-| responsive_web_edit_tweet_api_enabled                                   | boolean | Future     |
-| graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | Future     |
-| standardized_nudges_misinfo                                             | boolean | Future     |
-| tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | Future     |
-| interactive_text_enabled                                                | boolean | Future     |
-| responsive_web_text_conversations_enabled                               | boolean | Future     |
-| responsive_web_enhance_cards_enabled                                    | boolean | Future     |
+| key                                                                     | type    | default   |
+|:------------------------------------------------------------------------|:--------|:----------|
+| responsive_web_graphql_timeline_navigation_enabled                      | boolean | False     |
+| unified_cards_ad_metadata_container_dynamic_card_content_query_enabled  | boolean | True      |
+| dont_mention_me_view_api_enabled                                        | boolean | True      |
+| responsive_web_uc_gql_enabled                                           | boolean | True      |
+| vibe_api_enabled                                                        | boolean | False     |
+| responsive_web_edit_tweet_api_enabled                                   | boolean | True      |
+| graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | True      |
+| standardized_nudges_misinfo                                             | boolean | True      |
+| tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | True      |
+| interactive_text_enabled                                                | boolean | True      |
+| responsive_web_text_conversations_enabled                               | boolean | True      |
+| responsive_web_enhance_cards_enabled                                    | boolean | True      |
 
 #### queryId<br>
 `None`<br>
@@ -1111,20 +1111,20 @@ Login Required: `Future`<br>
 {...n,"withCommunity":t.isTrue("c9s_enabled"),...(0,g.d)(t)}
 ```
 #### features<br>
-| key                                                                     | type    | variable   |
-|:------------------------------------------------------------------------|:--------|:-----------|
-| responsive_web_graphql_timeline_navigation_enabled                      | boolean | Future     |
-| unified_cards_ad_metadata_container_dynamic_card_content_query_enabled  | boolean | Future     |
-| dont_mention_me_view_api_enabled                                        | boolean | Future     |
-| responsive_web_uc_gql_enabled                                           | boolean | Future     |
-| vibe_api_enabled                                                        | boolean | Future     |
-| responsive_web_edit_tweet_api_enabled                                   | boolean | Future     |
-| graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | Future     |
-| standardized_nudges_misinfo                                             | boolean | Future     |
-| tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | Future     |
-| interactive_text_enabled                                                | boolean | Future     |
-| responsive_web_text_conversations_enabled                               | boolean | Future     |
-| responsive_web_enhance_cards_enabled                                    | boolean | Future     |
+| key                                                                     | type    | default   |
+|:------------------------------------------------------------------------|:--------|:----------|
+| responsive_web_graphql_timeline_navigation_enabled                      | boolean | False     |
+| unified_cards_ad_metadata_container_dynamic_card_content_query_enabled  | boolean | True      |
+| dont_mention_me_view_api_enabled                                        | boolean | True      |
+| responsive_web_uc_gql_enabled                                           | boolean | True      |
+| vibe_api_enabled                                                        | boolean | False     |
+| responsive_web_edit_tweet_api_enabled                                   | boolean | True      |
+| graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | True      |
+| standardized_nudges_misinfo                                             | boolean | True      |
+| tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | True      |
+| interactive_text_enabled                                                | boolean | True      |
+| responsive_web_text_conversations_enabled                               | boolean | True      |
+| responsive_web_enhance_cards_enabled                                    | boolean | True      |
 
 #### queryId<br>
 `None`<br>
@@ -1139,20 +1139,20 @@ Login Required: `Future`<br>
 {...n,"withCommunity":t.isTrue("c9s_enabled"),...(0,g.d)(t)}
 ```
 #### features<br>
-| key                                                                     | type    | variable   |
-|:------------------------------------------------------------------------|:--------|:-----------|
-| responsive_web_graphql_timeline_navigation_enabled                      | boolean | Future     |
-| unified_cards_ad_metadata_container_dynamic_card_content_query_enabled  | boolean | Future     |
-| dont_mention_me_view_api_enabled                                        | boolean | Future     |
-| responsive_web_uc_gql_enabled                                           | boolean | Future     |
-| vibe_api_enabled                                                        | boolean | Future     |
-| responsive_web_edit_tweet_api_enabled                                   | boolean | Future     |
-| graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | Future     |
-| standardized_nudges_misinfo                                             | boolean | Future     |
-| tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | Future     |
-| interactive_text_enabled                                                | boolean | Future     |
-| responsive_web_text_conversations_enabled                               | boolean | Future     |
-| responsive_web_enhance_cards_enabled                                    | boolean | Future     |
+| key                                                                     | type    | default   |
+|:------------------------------------------------------------------------|:--------|:----------|
+| responsive_web_graphql_timeline_navigation_enabled                      | boolean | False     |
+| unified_cards_ad_metadata_container_dynamic_card_content_query_enabled  | boolean | True      |
+| dont_mention_me_view_api_enabled                                        | boolean | True      |
+| responsive_web_uc_gql_enabled                                           | boolean | True      |
+| vibe_api_enabled                                                        | boolean | False     |
+| responsive_web_edit_tweet_api_enabled                                   | boolean | True      |
+| graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | True      |
+| standardized_nudges_misinfo                                             | boolean | True      |
+| tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | True      |
+| interactive_text_enabled                                                | boolean | True      |
+| responsive_web_text_conversations_enabled                               | boolean | True      |
+| responsive_web_enhance_cards_enabled                                    | boolean | True      |
 
 #### queryId<br>
 `None`<br>
@@ -1167,20 +1167,20 @@ Login Required: `Future`<br>
 {...n,"withCommunity":t.isTrue("c9s_enabled"),...(0,g.d)(t)}
 ```
 #### features<br>
-| key                                                                     | type    | variable   |
-|:------------------------------------------------------------------------|:--------|:-----------|
-| responsive_web_graphql_timeline_navigation_enabled                      | boolean | Future     |
-| unified_cards_ad_metadata_container_dynamic_card_content_query_enabled  | boolean | Future     |
-| dont_mention_me_view_api_enabled                                        | boolean | Future     |
-| responsive_web_uc_gql_enabled                                           | boolean | Future     |
-| vibe_api_enabled                                                        | boolean | Future     |
-| responsive_web_edit_tweet_api_enabled                                   | boolean | Future     |
-| graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | Future     |
-| standardized_nudges_misinfo                                             | boolean | Future     |
-| tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | Future     |
-| interactive_text_enabled                                                | boolean | Future     |
-| responsive_web_text_conversations_enabled                               | boolean | Future     |
-| responsive_web_enhance_cards_enabled                                    | boolean | Future     |
+| key                                                                     | type    | default   |
+|:------------------------------------------------------------------------|:--------|:----------|
+| responsive_web_graphql_timeline_navigation_enabled                      | boolean | False     |
+| unified_cards_ad_metadata_container_dynamic_card_content_query_enabled  | boolean | True      |
+| dont_mention_me_view_api_enabled                                        | boolean | True      |
+| responsive_web_uc_gql_enabled                                           | boolean | True      |
+| vibe_api_enabled                                                        | boolean | False     |
+| responsive_web_edit_tweet_api_enabled                                   | boolean | True      |
+| graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | True      |
+| standardized_nudges_misinfo                                             | boolean | True      |
+| tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | True      |
+| interactive_text_enabled                                                | boolean | True      |
+| responsive_web_text_conversations_enabled                               | boolean | True      |
+| responsive_web_enhance_cards_enabled                                    | boolean | True      |
 
 #### queryId<br>
 `None`<br>
@@ -1195,9 +1195,9 @@ Login Required: `Future`<br>
 {...(0,g.S)(t),...n}
 ```
 #### features<br>
-| key                                                | type    | variable   |
-|:---------------------------------------------------|:--------|:-----------|
-| responsive_web_graphql_timeline_navigation_enabled | boolean | Future     |
+| key                                                | type    | default   |
+|:---------------------------------------------------|:--------|:----------|
+| responsive_web_graphql_timeline_navigation_enabled | boolean | False     |
 
 #### queryId<br>
 `None`<br>
@@ -1212,19 +1212,19 @@ Login Required: `Future`<br>
 {...n,"withCommunity":t.isTrue("c9s_enabled"),...(0,g.S)(t)}
 ```
 #### features<br>
-| key                                                                     | type    | variable   |
-|:------------------------------------------------------------------------|:--------|:-----------|
-| dont_mention_me_view_api_enabled                                        | boolean | Future     |
-| responsive_web_uc_gql_enabled                                           | boolean | Future     |
-| vibe_api_enabled                                                        | boolean | Future     |
-| responsive_web_edit_tweet_api_enabled                                   | boolean | Future     |
-| graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | Future     |
-| standardized_nudges_misinfo                                             | boolean | Future     |
-| tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | Future     |
-| interactive_text_enabled                                                | boolean | Future     |
-| responsive_web_text_conversations_enabled                               | boolean | Future     |
-| responsive_web_graphql_timeline_navigation_enabled                      | boolean | Future     |
-| responsive_web_enhance_cards_enabled                                    | boolean | Future     |
+| key                                                                     | type    | default   |
+|:------------------------------------------------------------------------|:--------|:----------|
+| dont_mention_me_view_api_enabled                                        | boolean | True      |
+| responsive_web_uc_gql_enabled                                           | boolean | True      |
+| vibe_api_enabled                                                        | boolean | False     |
+| responsive_web_edit_tweet_api_enabled                                   | boolean | True      |
+| graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | True      |
+| standardized_nudges_misinfo                                             | boolean | True      |
+| tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | True      |
+| interactive_text_enabled                                                | boolean | True      |
+| responsive_web_text_conversations_enabled                               | boolean | True      |
+| responsive_web_graphql_timeline_navigation_enabled                      | boolean | False     |
+| responsive_web_enhance_cards_enabled                                    | boolean | True      |
 
 #### queryId<br>
 `None`<br>
@@ -1239,20 +1239,20 @@ Login Required: `Future`<br>
 {...n,"withCommunity":"!0",...(0,g.d)(t)}
 ```
 #### features<br>
-| key                                                                     | type    | variable   |
-|:------------------------------------------------------------------------|:--------|:-----------|
-| responsive_web_graphql_timeline_navigation_enabled                      | boolean | Future     |
-| unified_cards_ad_metadata_container_dynamic_card_content_query_enabled  | boolean | Future     |
-| dont_mention_me_view_api_enabled                                        | boolean | Future     |
-| responsive_web_uc_gql_enabled                                           | boolean | Future     |
-| vibe_api_enabled                                                        | boolean | Future     |
-| responsive_web_edit_tweet_api_enabled                                   | boolean | Future     |
-| graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | Future     |
-| standardized_nudges_misinfo                                             | boolean | Future     |
-| tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | Future     |
-| interactive_text_enabled                                                | boolean | Future     |
-| responsive_web_text_conversations_enabled                               | boolean | Future     |
-| responsive_web_enhance_cards_enabled                                    | boolean | Future     |
+| key                                                                     | type    | default   |
+|:------------------------------------------------------------------------|:--------|:----------|
+| responsive_web_graphql_timeline_navigation_enabled                      | boolean | False     |
+| unified_cards_ad_metadata_container_dynamic_card_content_query_enabled  | boolean | True      |
+| dont_mention_me_view_api_enabled                                        | boolean | True      |
+| responsive_web_uc_gql_enabled                                           | boolean | True      |
+| vibe_api_enabled                                                        | boolean | False     |
+| responsive_web_edit_tweet_api_enabled                                   | boolean | True      |
+| graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | True      |
+| standardized_nudges_misinfo                                             | boolean | True      |
+| tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | True      |
+| interactive_text_enabled                                                | boolean | True      |
+| responsive_web_text_conversations_enabled                               | boolean | True      |
+| responsive_web_enhance_cards_enabled                                    | boolean | True      |
 
 #### queryId<br>
 `None`<br>
@@ -1267,20 +1267,20 @@ Login Required: `Future`<br>
 {...n,"withCommunity":t.isTrue("c9s_enabled"),...(0,g.d)(t)}
 ```
 #### features<br>
-| key                                                                     | type    | variable   |
-|:------------------------------------------------------------------------|:--------|:-----------|
-| responsive_web_graphql_timeline_navigation_enabled                      | boolean | Future     |
-| unified_cards_ad_metadata_container_dynamic_card_content_query_enabled  | boolean | Future     |
-| dont_mention_me_view_api_enabled                                        | boolean | Future     |
-| responsive_web_uc_gql_enabled                                           | boolean | Future     |
-| vibe_api_enabled                                                        | boolean | Future     |
-| responsive_web_edit_tweet_api_enabled                                   | boolean | Future     |
-| graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | Future     |
-| standardized_nudges_misinfo                                             | boolean | Future     |
-| tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | Future     |
-| interactive_text_enabled                                                | boolean | Future     |
-| responsive_web_text_conversations_enabled                               | boolean | Future     |
-| responsive_web_enhance_cards_enabled                                    | boolean | Future     |
+| key                                                                     | type    | default   |
+|:------------------------------------------------------------------------|:--------|:----------|
+| responsive_web_graphql_timeline_navigation_enabled                      | boolean | False     |
+| unified_cards_ad_metadata_container_dynamic_card_content_query_enabled  | boolean | True      |
+| dont_mention_me_view_api_enabled                                        | boolean | True      |
+| responsive_web_uc_gql_enabled                                           | boolean | True      |
+| vibe_api_enabled                                                        | boolean | False     |
+| responsive_web_edit_tweet_api_enabled                                   | boolean | True      |
+| graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | True      |
+| standardized_nudges_misinfo                                             | boolean | True      |
+| tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | True      |
+| interactive_text_enabled                                                | boolean | True      |
+| responsive_web_text_conversations_enabled                               | boolean | True      |
+| responsive_web_enhance_cards_enabled                                    | boolean | True      |
 
 #### queryId<br>
 `None`<br>
@@ -1295,20 +1295,20 @@ Login Required: `Future`<br>
 {"withCommunity":t.isTrue("c9s_enabled"),...(0,g.d)(t),...n}
 ```
 #### features<br>
-| key                                                                     | type    | variable   |
-|:------------------------------------------------------------------------|:--------|:-----------|
-| responsive_web_graphql_timeline_navigation_enabled                      | boolean | Future     |
-| unified_cards_ad_metadata_container_dynamic_card_content_query_enabled  | boolean | Future     |
-| dont_mention_me_view_api_enabled                                        | boolean | Future     |
-| responsive_web_uc_gql_enabled                                           | boolean | Future     |
-| vibe_api_enabled                                                        | boolean | Future     |
-| responsive_web_edit_tweet_api_enabled                                   | boolean | Future     |
-| graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | Future     |
-| standardized_nudges_misinfo                                             | boolean | Future     |
-| tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | Future     |
-| interactive_text_enabled                                                | boolean | Future     |
-| responsive_web_text_conversations_enabled                               | boolean | Future     |
-| responsive_web_enhance_cards_enabled                                    | boolean | Future     |
+| key                                                                     | type    | default   |
+|:------------------------------------------------------------------------|:--------|:----------|
+| responsive_web_graphql_timeline_navigation_enabled                      | boolean | False     |
+| unified_cards_ad_metadata_container_dynamic_card_content_query_enabled  | boolean | True      |
+| dont_mention_me_view_api_enabled                                        | boolean | True      |
+| responsive_web_uc_gql_enabled                                           | boolean | True      |
+| vibe_api_enabled                                                        | boolean | False     |
+| responsive_web_edit_tweet_api_enabled                                   | boolean | True      |
+| graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | True      |
+| standardized_nudges_misinfo                                             | boolean | True      |
+| tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | True      |
+| interactive_text_enabled                                                | boolean | True      |
+| responsive_web_text_conversations_enabled                               | boolean | True      |
+| responsive_web_enhance_cards_enabled                                    | boolean | True      |
 
 #### queryId<br>
 `None`<br>
@@ -1323,20 +1323,20 @@ Login Required: `Future`<br>
 {"withCommunity":t.isTrue("c9s_enabled"),...(0,g.d)(t)}
 ```
 #### features<br>
-| key                                                                     | type    | variable   |
-|:------------------------------------------------------------------------|:--------|:-----------|
-| responsive_web_graphql_timeline_navigation_enabled                      | boolean | Future     |
-| unified_cards_ad_metadata_container_dynamic_card_content_query_enabled  | boolean | Future     |
-| dont_mention_me_view_api_enabled                                        | boolean | Future     |
-| responsive_web_uc_gql_enabled                                           | boolean | Future     |
-| vibe_api_enabled                                                        | boolean | Future     |
-| responsive_web_edit_tweet_api_enabled                                   | boolean | Future     |
-| graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | Future     |
-| standardized_nudges_misinfo                                             | boolean | Future     |
-| tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | Future     |
-| interactive_text_enabled                                                | boolean | Future     |
-| responsive_web_text_conversations_enabled                               | boolean | Future     |
-| responsive_web_enhance_cards_enabled                                    | boolean | Future     |
+| key                                                                     | type    | default   |
+|:------------------------------------------------------------------------|:--------|:----------|
+| responsive_web_graphql_timeline_navigation_enabled                      | boolean | False     |
+| unified_cards_ad_metadata_container_dynamic_card_content_query_enabled  | boolean | True      |
+| dont_mention_me_view_api_enabled                                        | boolean | True      |
+| responsive_web_uc_gql_enabled                                           | boolean | True      |
+| vibe_api_enabled                                                        | boolean | False     |
+| responsive_web_edit_tweet_api_enabled                                   | boolean | True      |
+| graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | True      |
+| standardized_nudges_misinfo                                             | boolean | True      |
+| tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | True      |
+| interactive_text_enabled                                                | boolean | True      |
+| responsive_web_text_conversations_enabled                               | boolean | True      |
+| responsive_web_enhance_cards_enabled                                    | boolean | True      |
 
 #### queryId<br>
 `None`<br>
@@ -1365,9 +1365,9 @@ Login Required: `Future`<br>
 {"tweetId":n.tweetId,...(0,g.S)(t)}
 ```
 #### features<br>
-| key                                                | type    | variable   |
-|:---------------------------------------------------|:--------|:-----------|
-| responsive_web_graphql_timeline_navigation_enabled | boolean | Future     |
+| key                                                | type    | default   |
+|:---------------------------------------------------|:--------|:----------|
+| responsive_web_graphql_timeline_navigation_enabled | boolean | False     |
 
 #### queryId<br>
 `None`<br>
@@ -1382,9 +1382,9 @@ Login Required: `Future`<br>
 {"communityId":n.communityId,...(0,g.S)(t)}
 ```
 #### features<br>
-| key                                                | type    | variable   |
-|:---------------------------------------------------|:--------|:-----------|
-| responsive_web_graphql_timeline_navigation_enabled | boolean | Future     |
+| key                                                | type    | default   |
+|:---------------------------------------------------|:--------|:----------|
+| responsive_web_graphql_timeline_navigation_enabled | boolean | False     |
 
 #### queryId<br>
 `None`<br>
@@ -1399,9 +1399,9 @@ Login Required: `Future`<br>
 {"communityId":n.communityId,...(0,g.S)(t)}
 ```
 #### features<br>
-| key                                                | type    | variable   |
-|:---------------------------------------------------|:--------|:-----------|
-| responsive_web_graphql_timeline_navigation_enabled | boolean | Future     |
+| key                                                | type    | default   |
+|:---------------------------------------------------|:--------|:----------|
+| responsive_web_graphql_timeline_navigation_enabled | boolean | False     |
 
 #### queryId<br>
 `None`<br>
@@ -1416,9 +1416,9 @@ Login Required: `Future`<br>
 {"communityId":n.communityId,...(0,g.S)(t)}
 ```
 #### features<br>
-| key                                                | type    | variable   |
-|:---------------------------------------------------|:--------|:-----------|
-| responsive_web_graphql_timeline_navigation_enabled | boolean | Future     |
+| key                                                | type    | default   |
+|:---------------------------------------------------|:--------|:----------|
+| responsive_web_graphql_timeline_navigation_enabled | boolean | False     |
 
 #### queryId<br>
 `None`<br>
@@ -1447,9 +1447,9 @@ Login Required: `Future`<br>
 {...n,...(0,g.S)(t)}
 ```
 #### features<br>
-| key                                                | type    | variable   |
-|:---------------------------------------------------|:--------|:-----------|
-| responsive_web_graphql_timeline_navigation_enabled | boolean | Future     |
+| key                                                | type    | default   |
+|:---------------------------------------------------|:--------|:----------|
+| responsive_web_graphql_timeline_navigation_enabled | boolean | False     |
 
 #### queryId<br>
 `None`<br>
@@ -1464,9 +1464,9 @@ Login Required: `Future`<br>
 {"communityId":n.communityId,"name":n.name,...(0,g.S)(t)}
 ```
 #### features<br>
-| key                                                | type    | variable   |
-|:---------------------------------------------------|:--------|:-----------|
-| responsive_web_graphql_timeline_navigation_enabled | boolean | Future     |
+| key                                                | type    | default   |
+|:---------------------------------------------------|:--------|:----------|
+| responsive_web_graphql_timeline_navigation_enabled | boolean | False     |
 
 #### queryId<br>
 `None`<br>
@@ -1481,9 +1481,9 @@ Login Required: `Future`<br>
 {"communityId":n.communityId,"description":n.purpose,...(0,g.S)(t)}
 ```
 #### features<br>
-| key                                                | type    | variable   |
-|:---------------------------------------------------|:--------|:-----------|
-| responsive_web_graphql_timeline_navigation_enabled | boolean | Future     |
+| key                                                | type    | default   |
+|:---------------------------------------------------|:--------|:----------|
+| responsive_web_graphql_timeline_navigation_enabled | boolean | False     |
 
 #### queryId<br>
 `None`<br>
@@ -1498,9 +1498,9 @@ Login Required: `Future`<br>
 {"communityId":n.communityId,"theme":n.theme,...(0,g.S)(t)}
 ```
 #### features<br>
-| key                                                | type    | variable   |
-|:---------------------------------------------------|:--------|:-----------|
-| responsive_web_graphql_timeline_navigation_enabled | boolean | Future     |
+| key                                                | type    | default   |
+|:---------------------------------------------------|:--------|:----------|
+| responsive_web_graphql_timeline_navigation_enabled | boolean | False     |
 
 #### queryId<br>
 `None`<br>
@@ -1515,9 +1515,9 @@ Login Required: `Future`<br>
 {"communityId":n.communityId,"ruleId":n.ruleId,"name":n.name,"description":n.description,...(0,g.S)(t)}
 ```
 #### features<br>
-| key                                                | type    | variable   |
-|:---------------------------------------------------|:--------|:-----------|
-| responsive_web_graphql_timeline_navigation_enabled | boolean | Future     |
+| key                                                | type    | default   |
+|:---------------------------------------------------|:--------|:----------|
+| responsive_web_graphql_timeline_navigation_enabled | boolean | False     |
 
 #### queryId<br>
 `None`<br>
@@ -1532,9 +1532,9 @@ Login Required: `Future`<br>
 {"communityId":n.communityId,"name":n.name,"description":n.description,...(0,g.S)(t)}
 ```
 #### features<br>
-| key                                                | type    | variable   |
-|:---------------------------------------------------|:--------|:-----------|
-| responsive_web_graphql_timeline_navigation_enabled | boolean | Future     |
+| key                                                | type    | default   |
+|:---------------------------------------------------|:--------|:----------|
+| responsive_web_graphql_timeline_navigation_enabled | boolean | False     |
 
 #### queryId<br>
 `None`<br>
@@ -1549,9 +1549,9 @@ Login Required: `Future`<br>
 {"communityId":n.communityId,"ruleId":n.ruleId,...(0,g.S)(t)}
 ```
 #### features<br>
-| key                                                | type    | variable   |
-|:---------------------------------------------------|:--------|:-----------|
-| responsive_web_graphql_timeline_navigation_enabled | boolean | Future     |
+| key                                                | type    | default   |
+|:---------------------------------------------------|:--------|:----------|
+| responsive_web_graphql_timeline_navigation_enabled | boolean | False     |
 
 #### queryId<br>
 `None`<br>
@@ -1566,9 +1566,9 @@ Login Required: `Future`<br>
 {"communityId":n.communityId,"ruleIds":n.ruleIds,...(0,g.S)(t)}
 ```
 #### features<br>
-| key                                                | type    | variable   |
-|:---------------------------------------------------|:--------|:-----------|
-| responsive_web_graphql_timeline_navigation_enabled | boolean | Future     |
+| key                                                | type    | default   |
+|:---------------------------------------------------|:--------|:----------|
+| responsive_web_graphql_timeline_navigation_enabled | boolean | False     |
 
 #### queryId<br>
 `None`<br>
@@ -1583,9 +1583,9 @@ Login Required: `Future`<br>
 {"communityId":n.communityId,"mediaId":n.mediaId,...(0,g.S)(t)}
 ```
 #### features<br>
-| key                                                | type    | variable   |
-|:---------------------------------------------------|:--------|:-----------|
-| responsive_web_graphql_timeline_navigation_enabled | boolean | Future     |
+| key                                                | type    | default   |
+|:---------------------------------------------------|:--------|:----------|
+| responsive_web_graphql_timeline_navigation_enabled | boolean | False     |
 
 #### queryId<br>
 `None`<br>
@@ -1600,9 +1600,9 @@ Login Required: `Future`<br>
 {"communityId":n.communityId,...(0,g.S)(t)}
 ```
 #### features<br>
-| key                                                | type    | variable   |
-|:---------------------------------------------------|:--------|:-----------|
-| responsive_web_graphql_timeline_navigation_enabled | boolean | Future     |
+| key                                                | type    | default   |
+|:---------------------------------------------------|:--------|:----------|
+| responsive_web_graphql_timeline_navigation_enabled | boolean | False     |
 
 #### queryId<br>
 `None`<br>
@@ -1681,20 +1681,20 @@ Login Required: `Future`<br>
 {"focalTweetId":"r","cursor":"i","referrer":"a","controller_data":"n","rux_context":"s","with_rux_injections":"l","includePromotedContent":"!0","withCommunity":t.isTrue("c9s_enabled"),"withQuickPromoteEligibilityTweetFields":"!0","withBirdwatchNotes":t.isTrue("responsive_web_birdwatch_consumption_enabled"),...(0,g.d)(t),"withVoice":t.isTrue("voice_consumption_enabled"),"withV2Timeline":t.isTrue("graphql_timeline_v2_query_threaded_conversation_with_injections"),"isReaderMode":"o"}
 ```
 #### features<br>
-| key                                                                     | type    | variable   |
-|:------------------------------------------------------------------------|:--------|:-----------|
-| responsive_web_graphql_timeline_navigation_enabled                      | boolean | Future     |
-| unified_cards_ad_metadata_container_dynamic_card_content_query_enabled  | boolean | Future     |
-| dont_mention_me_view_api_enabled                                        | boolean | Future     |
-| responsive_web_uc_gql_enabled                                           | boolean | Future     |
-| vibe_api_enabled                                                        | boolean | Future     |
-| responsive_web_edit_tweet_api_enabled                                   | boolean | Future     |
-| graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | Future     |
-| standardized_nudges_misinfo                                             | boolean | Future     |
-| tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | Future     |
-| interactive_text_enabled                                                | boolean | Future     |
-| responsive_web_text_conversations_enabled                               | boolean | Future     |
-| responsive_web_enhance_cards_enabled                                    | boolean | Future     |
+| key                                                                     | type    | default   |
+|:------------------------------------------------------------------------|:--------|:----------|
+| responsive_web_graphql_timeline_navigation_enabled                      | boolean | False     |
+| unified_cards_ad_metadata_container_dynamic_card_content_query_enabled  | boolean | True      |
+| dont_mention_me_view_api_enabled                                        | boolean | True      |
+| responsive_web_uc_gql_enabled                                           | boolean | True      |
+| vibe_api_enabled                                                        | boolean | False     |
+| responsive_web_edit_tweet_api_enabled                                   | boolean | True      |
+| graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | True      |
+| standardized_nudges_misinfo                                             | boolean | True      |
+| tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | True      |
+| interactive_text_enabled                                                | boolean | True      |
+| responsive_web_text_conversations_enabled                               | boolean | True      |
+| responsive_web_enhance_cards_enabled                                    | boolean | True      |
 
 #### queryId<br>
 `None`<br>
@@ -1723,9 +1723,9 @@ Login Required: `Future`<br>
 {"count":null==n?void 0:n.count,"query":n.query,"withAttachments":t.isTrue("dm_inbox_search_message_attachment_previews_enabled")&&t.isTrue("dm_inbox_search_message_results_enabled")&&t.isTrue("direct_messages_incremental_holdback_2022h1"),"withConversationQueryHighlights":t.isTrue("dm_inbox_search_query_highlighting_conversation_results_enabled")&&t.isTrue("direct_messages_incremental_holdback_2022h1"),"withMessageQueryHighlights":t.isTrue("dm_inbox_search_query_highlighting_message_results_enabled")&&t.isTrue("dm_inbox_search_message_results_enabled")&&t.isTrue("direct_messages_incremental_holdback_2022h1"),"withMessages":t.isTrue("dm_inbox_search_message_results_enabled")&&t.isTrue("direct_messages_incremental_holdback_2022h1"),"withSafetyModeUserFields":t.isTrue("rito_safety_mode_blocked_profile_enabled"),"withSuperFollowsUserFields":t.isTrue("super_follow_user_api_enabled")}
 ```
 #### features<br>
-| key                                                | type    | variable   |
-|:---------------------------------------------------|:--------|:-----------|
-| responsive_web_graphql_timeline_navigation_enabled | boolean | Future     |
+| key                                                | type    | default   |
+|:---------------------------------------------------|:--------|:----------|
+| responsive_web_graphql_timeline_navigation_enabled | boolean | False     |
 
 #### queryId<br>
 `None`<br>
@@ -1768,20 +1768,20 @@ Login Required: `Future`<br>
 {"count":"n","cursor":"i","includePromotedContent":"!1",...(0,g.d)(t)}
 ```
 #### features<br>
-| key                                                                     | type    | variable   |
-|:------------------------------------------------------------------------|:--------|:-----------|
-| responsive_web_graphql_timeline_navigation_enabled                      | boolean | Future     |
-| unified_cards_ad_metadata_container_dynamic_card_content_query_enabled  | boolean | Future     |
-| dont_mention_me_view_api_enabled                                        | boolean | Future     |
-| responsive_web_uc_gql_enabled                                           | boolean | Future     |
-| vibe_api_enabled                                                        | boolean | Future     |
-| responsive_web_edit_tweet_api_enabled                                   | boolean | Future     |
-| graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | Future     |
-| standardized_nudges_misinfo                                             | boolean | Future     |
-| tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | Future     |
-| interactive_text_enabled                                                | boolean | Future     |
-| responsive_web_text_conversations_enabled                               | boolean | Future     |
-| responsive_web_enhance_cards_enabled                                    | boolean | Future     |
+| key                                                                     | type    | default   |
+|:------------------------------------------------------------------------|:--------|:----------|
+| responsive_web_graphql_timeline_navigation_enabled                      | boolean | False     |
+| unified_cards_ad_metadata_container_dynamic_card_content_query_enabled  | boolean | True      |
+| dont_mention_me_view_api_enabled                                        | boolean | True      |
+| responsive_web_uc_gql_enabled                                           | boolean | True      |
+| vibe_api_enabled                                                        | boolean | False     |
+| responsive_web_edit_tweet_api_enabled                                   | boolean | True      |
+| graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | True      |
+| standardized_nudges_misinfo                                             | boolean | True      |
+| tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | True      |
+| interactive_text_enabled                                                | boolean | True      |
+| responsive_web_text_conversations_enabled                               | boolean | True      |
+| responsive_web_enhance_cards_enabled                                    | boolean | True      |
 
 #### queryId<br>
 `None`<br>
@@ -1878,20 +1878,20 @@ Login Required: `Future`<br>
 {"count":null==n?void 0:n.count,"cursor":null==n?void 0:n.cursor,...(0,g.d)(t)}
 ```
 #### features<br>
-| key                                                                     | type    | variable   |
-|:------------------------------------------------------------------------|:--------|:-----------|
-| responsive_web_graphql_timeline_navigation_enabled                      | boolean | Future     |
-| unified_cards_ad_metadata_container_dynamic_card_content_query_enabled  | boolean | Future     |
-| dont_mention_me_view_api_enabled                                        | boolean | Future     |
-| responsive_web_uc_gql_enabled                                           | boolean | Future     |
-| vibe_api_enabled                                                        | boolean | Future     |
-| responsive_web_edit_tweet_api_enabled                                   | boolean | Future     |
-| graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | Future     |
-| standardized_nudges_misinfo                                             | boolean | Future     |
-| tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | Future     |
-| interactive_text_enabled                                                | boolean | Future     |
-| responsive_web_text_conversations_enabled                               | boolean | Future     |
-| responsive_web_enhance_cards_enabled                                    | boolean | Future     |
+| key                                                                     | type    | default   |
+|:------------------------------------------------------------------------|:--------|:----------|
+| responsive_web_graphql_timeline_navigation_enabled                      | boolean | False     |
+| unified_cards_ad_metadata_container_dynamic_card_content_query_enabled  | boolean | True      |
+| dont_mention_me_view_api_enabled                                        | boolean | True      |
+| responsive_web_uc_gql_enabled                                           | boolean | True      |
+| vibe_api_enabled                                                        | boolean | False     |
+| responsive_web_edit_tweet_api_enabled                                   | boolean | True      |
+| graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | True      |
+| standardized_nudges_misinfo                                             | boolean | True      |
+| tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | True      |
+| interactive_text_enabled                                                | boolean | True      |
+| responsive_web_text_conversations_enabled                               | boolean | True      |
+| responsive_web_enhance_cards_enabled                                    | boolean | True      |
 
 #### queryId<br>
 `None`<br>
@@ -1906,20 +1906,20 @@ Login Required: `Future`<br>
 {"pinned_tweet_id":null==n?void 0:n.pinned_tweet_id,"page_name":null==n?void 0:n.page_name,...(0,g.d)(t)}
 ```
 #### features<br>
-| key                                                                     | type    | variable   |
-|:------------------------------------------------------------------------|:--------|:-----------|
-| responsive_web_graphql_timeline_navigation_enabled                      | boolean | Future     |
-| unified_cards_ad_metadata_container_dynamic_card_content_query_enabled  | boolean | Future     |
-| dont_mention_me_view_api_enabled                                        | boolean | Future     |
-| responsive_web_uc_gql_enabled                                           | boolean | Future     |
-| vibe_api_enabled                                                        | boolean | Future     |
-| responsive_web_edit_tweet_api_enabled                                   | boolean | Future     |
-| graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | Future     |
-| standardized_nudges_misinfo                                             | boolean | Future     |
-| tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | Future     |
-| interactive_text_enabled                                                | boolean | Future     |
-| responsive_web_text_conversations_enabled                               | boolean | Future     |
-| responsive_web_enhance_cards_enabled                                    | boolean | Future     |
+| key                                                                     | type    | default   |
+|:------------------------------------------------------------------------|:--------|:----------|
+| responsive_web_graphql_timeline_navigation_enabled                      | boolean | False     |
+| unified_cards_ad_metadata_container_dynamic_card_content_query_enabled  | boolean | True      |
+| dont_mention_me_view_api_enabled                                        | boolean | True      |
+| responsive_web_uc_gql_enabled                                           | boolean | True      |
+| vibe_api_enabled                                                        | boolean | False     |
+| responsive_web_edit_tweet_api_enabled                                   | boolean | True      |
+| graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | True      |
+| standardized_nudges_misinfo                                             | boolean | True      |
+| tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | True      |
+| interactive_text_enabled                                                | boolean | True      |
+| responsive_web_text_conversations_enabled                               | boolean | True      |
+| responsive_web_enhance_cards_enabled                                    | boolean | True      |
 
 #### queryId<br>
 `None`<br>
@@ -1934,20 +1934,20 @@ Login Required: `Future`<br>
 {"userId":"r","count":"n","cursor":"i","includePromotedContent":"!1",...(0,g.d)(t)}
 ```
 #### features<br>
-| key                                                                     | type    | variable   |
-|:------------------------------------------------------------------------|:--------|:-----------|
-| responsive_web_graphql_timeline_navigation_enabled                      | boolean | Future     |
-| unified_cards_ad_metadata_container_dynamic_card_content_query_enabled  | boolean | Future     |
-| dont_mention_me_view_api_enabled                                        | boolean | Future     |
-| responsive_web_uc_gql_enabled                                           | boolean | Future     |
-| vibe_api_enabled                                                        | boolean | Future     |
-| responsive_web_edit_tweet_api_enabled                                   | boolean | Future     |
-| graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | Future     |
-| standardized_nudges_misinfo                                             | boolean | Future     |
-| tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | Future     |
-| interactive_text_enabled                                                | boolean | Future     |
-| responsive_web_text_conversations_enabled                               | boolean | Future     |
-| responsive_web_enhance_cards_enabled                                    | boolean | Future     |
+| key                                                                     | type    | default   |
+|:------------------------------------------------------------------------|:--------|:----------|
+| responsive_web_graphql_timeline_navigation_enabled                      | boolean | False     |
+| unified_cards_ad_metadata_container_dynamic_card_content_query_enabled  | boolean | True      |
+| dont_mention_me_view_api_enabled                                        | boolean | True      |
+| responsive_web_uc_gql_enabled                                           | boolean | True      |
+| vibe_api_enabled                                                        | boolean | False     |
+| responsive_web_edit_tweet_api_enabled                                   | boolean | True      |
+| graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | True      |
+| standardized_nudges_misinfo                                             | boolean | True      |
+| tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | True      |
+| interactive_text_enabled                                                | boolean | True      |
+| responsive_web_text_conversations_enabled                               | boolean | True      |
+| responsive_web_enhance_cards_enabled                                    | boolean | True      |
 
 #### queryId<br>
 `None`<br>
@@ -1962,20 +1962,20 @@ Login Required: `Future`<br>
 {"userId":"r","count":"n","cursor":"i","includePromotedContent":"!1",...(0,g.d)(t)}
 ```
 #### features<br>
-| key                                                                     | type    | variable   |
-|:------------------------------------------------------------------------|:--------|:-----------|
-| responsive_web_graphql_timeline_navigation_enabled                      | boolean | Future     |
-| unified_cards_ad_metadata_container_dynamic_card_content_query_enabled  | boolean | Future     |
-| dont_mention_me_view_api_enabled                                        | boolean | Future     |
-| responsive_web_uc_gql_enabled                                           | boolean | Future     |
-| vibe_api_enabled                                                        | boolean | Future     |
-| responsive_web_edit_tweet_api_enabled                                   | boolean | Future     |
-| graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | Future     |
-| standardized_nudges_misinfo                                             | boolean | Future     |
-| tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | Future     |
-| interactive_text_enabled                                                | boolean | Future     |
-| responsive_web_text_conversations_enabled                               | boolean | Future     |
-| responsive_web_enhance_cards_enabled                                    | boolean | Future     |
+| key                                                                     | type    | default   |
+|:------------------------------------------------------------------------|:--------|:----------|
+| responsive_web_graphql_timeline_navigation_enabled                      | boolean | False     |
+| unified_cards_ad_metadata_container_dynamic_card_content_query_enabled  | boolean | True      |
+| dont_mention_me_view_api_enabled                                        | boolean | True      |
+| responsive_web_uc_gql_enabled                                           | boolean | True      |
+| vibe_api_enabled                                                        | boolean | False     |
+| responsive_web_edit_tweet_api_enabled                                   | boolean | True      |
+| graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | True      |
+| standardized_nudges_misinfo                                             | boolean | True      |
+| tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | True      |
+| interactive_text_enabled                                                | boolean | True      |
+| responsive_web_text_conversations_enabled                               | boolean | True      |
+| responsive_web_enhance_cards_enabled                                    | boolean | True      |
 
 #### queryId<br>
 `None`<br>
@@ -1990,20 +1990,20 @@ Login Required: `Future`<br>
 {"userId":"r","count":"n","cursor":"i","includePromotedContent":"!1",...(0,g.d)(t)}
 ```
 #### features<br>
-| key                                                                     | type    | variable   |
-|:------------------------------------------------------------------------|:--------|:-----------|
-| responsive_web_graphql_timeline_navigation_enabled                      | boolean | Future     |
-| unified_cards_ad_metadata_container_dynamic_card_content_query_enabled  | boolean | Future     |
-| dont_mention_me_view_api_enabled                                        | boolean | Future     |
-| responsive_web_uc_gql_enabled                                           | boolean | Future     |
-| vibe_api_enabled                                                        | boolean | Future     |
-| responsive_web_edit_tweet_api_enabled                                   | boolean | Future     |
-| graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | Future     |
-| standardized_nudges_misinfo                                             | boolean | Future     |
-| tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | Future     |
-| interactive_text_enabled                                                | boolean | Future     |
-| responsive_web_text_conversations_enabled                               | boolean | Future     |
-| responsive_web_enhance_cards_enabled                                    | boolean | Future     |
+| key                                                                     | type    | default   |
+|:------------------------------------------------------------------------|:--------|:----------|
+| responsive_web_graphql_timeline_navigation_enabled                      | boolean | False     |
+| unified_cards_ad_metadata_container_dynamic_card_content_query_enabled  | boolean | True      |
+| dont_mention_me_view_api_enabled                                        | boolean | True      |
+| responsive_web_uc_gql_enabled                                           | boolean | True      |
+| vibe_api_enabled                                                        | boolean | False     |
+| responsive_web_edit_tweet_api_enabled                                   | boolean | True      |
+| graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | True      |
+| standardized_nudges_misinfo                                             | boolean | True      |
+| tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | True      |
+| interactive_text_enabled                                                | boolean | True      |
+| responsive_web_text_conversations_enabled                               | boolean | True      |
+| responsive_web_enhance_cards_enabled                                    | boolean | True      |
 
 #### queryId<br>
 `None`<br>
@@ -2018,20 +2018,20 @@ Login Required: `Future`<br>
 {"count":"n","cursor":"i","includePromotedContent":"!1",...(0,g.d)(t)}
 ```
 #### features<br>
-| key                                                                     | type    | variable   |
-|:------------------------------------------------------------------------|:--------|:-----------|
-| responsive_web_graphql_timeline_navigation_enabled                      | boolean | Future     |
-| unified_cards_ad_metadata_container_dynamic_card_content_query_enabled  | boolean | Future     |
-| dont_mention_me_view_api_enabled                                        | boolean | Future     |
-| responsive_web_uc_gql_enabled                                           | boolean | Future     |
-| vibe_api_enabled                                                        | boolean | Future     |
-| responsive_web_edit_tweet_api_enabled                                   | boolean | Future     |
-| graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | Future     |
-| standardized_nudges_misinfo                                             | boolean | Future     |
-| tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | Future     |
-| interactive_text_enabled                                                | boolean | Future     |
-| responsive_web_text_conversations_enabled                               | boolean | Future     |
-| responsive_web_enhance_cards_enabled                                    | boolean | Future     |
+| key                                                                     | type    | default   |
+|:------------------------------------------------------------------------|:--------|:----------|
+| responsive_web_graphql_timeline_navigation_enabled                      | boolean | False     |
+| unified_cards_ad_metadata_container_dynamic_card_content_query_enabled  | boolean | True      |
+| dont_mention_me_view_api_enabled                                        | boolean | True      |
+| responsive_web_uc_gql_enabled                                           | boolean | True      |
+| vibe_api_enabled                                                        | boolean | False     |
+| responsive_web_edit_tweet_api_enabled                                   | boolean | True      |
+| graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | True      |
+| standardized_nudges_misinfo                                             | boolean | True      |
+| tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | True      |
+| interactive_text_enabled                                                | boolean | True      |
+| responsive_web_text_conversations_enabled                               | boolean | True      |
+| responsive_web_enhance_cards_enabled                                    | boolean | True      |
 
 #### queryId<br>
 `None`<br>
@@ -2046,20 +2046,20 @@ Login Required: `Future`<br>
 {"rootTweetId":"r","count":"n","cursor":"i","includePromotedContent":"!1",...(0,g.d)(t)}
 ```
 #### features<br>
-| key                                                                     | type    | variable   |
-|:------------------------------------------------------------------------|:--------|:-----------|
-| responsive_web_graphql_timeline_navigation_enabled                      | boolean | Future     |
-| unified_cards_ad_metadata_container_dynamic_card_content_query_enabled  | boolean | Future     |
-| dont_mention_me_view_api_enabled                                        | boolean | Future     |
-| responsive_web_uc_gql_enabled                                           | boolean | Future     |
-| vibe_api_enabled                                                        | boolean | Future     |
-| responsive_web_edit_tweet_api_enabled                                   | boolean | Future     |
-| graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | Future     |
-| standardized_nudges_misinfo                                             | boolean | Future     |
-| tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | Future     |
-| interactive_text_enabled                                                | boolean | Future     |
-| responsive_web_text_conversations_enabled                               | boolean | Future     |
-| responsive_web_enhance_cards_enabled                                    | boolean | Future     |
+| key                                                                     | type    | default   |
+|:------------------------------------------------------------------------|:--------|:----------|
+| responsive_web_graphql_timeline_navigation_enabled                      | boolean | False     |
+| unified_cards_ad_metadata_container_dynamic_card_content_query_enabled  | boolean | True      |
+| dont_mention_me_view_api_enabled                                        | boolean | True      |
+| responsive_web_uc_gql_enabled                                           | boolean | True      |
+| vibe_api_enabled                                                        | boolean | False     |
+| responsive_web_edit_tweet_api_enabled                                   | boolean | True      |
+| graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | True      |
+| standardized_nudges_misinfo                                             | boolean | True      |
+| tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | True      |
+| interactive_text_enabled                                                | boolean | True      |
+| responsive_web_text_conversations_enabled                               | boolean | True      |
+| responsive_web_enhance_cards_enabled                                    | boolean | True      |
 
 #### queryId<br>
 `None`<br>
@@ -2074,20 +2074,20 @@ Login Required: `Future`<br>
 {"count":"n","cursor":"i","includePromotedContent":"!1",...(0,g.d)(t)}
 ```
 #### features<br>
-| key                                                                     | type    | variable   |
-|:------------------------------------------------------------------------|:--------|:-----------|
-| responsive_web_graphql_timeline_navigation_enabled                      | boolean | Future     |
-| unified_cards_ad_metadata_container_dynamic_card_content_query_enabled  | boolean | Future     |
-| dont_mention_me_view_api_enabled                                        | boolean | Future     |
-| responsive_web_uc_gql_enabled                                           | boolean | Future     |
-| vibe_api_enabled                                                        | boolean | Future     |
-| responsive_web_edit_tweet_api_enabled                                   | boolean | Future     |
-| graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | Future     |
-| standardized_nudges_misinfo                                             | boolean | Future     |
-| tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | Future     |
-| interactive_text_enabled                                                | boolean | Future     |
-| responsive_web_text_conversations_enabled                               | boolean | Future     |
-| responsive_web_enhance_cards_enabled                                    | boolean | Future     |
+| key                                                                     | type    | default   |
+|:------------------------------------------------------------------------|:--------|:----------|
+| responsive_web_graphql_timeline_navigation_enabled                      | boolean | False     |
+| unified_cards_ad_metadata_container_dynamic_card_content_query_enabled  | boolean | True      |
+| dont_mention_me_view_api_enabled                                        | boolean | True      |
+| responsive_web_uc_gql_enabled                                           | boolean | True      |
+| vibe_api_enabled                                                        | boolean | False     |
+| responsive_web_edit_tweet_api_enabled                                   | boolean | True      |
+| graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | True      |
+| standardized_nudges_misinfo                                             | boolean | True      |
+| tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | True      |
+| interactive_text_enabled                                                | boolean | True      |
+| responsive_web_text_conversations_enabled                               | boolean | True      |
+| responsive_web_enhance_cards_enabled                                    | boolean | True      |
 
 #### queryId<br>
 `None`<br>
@@ -2102,20 +2102,20 @@ Login Required: `Future`<br>
 {"timelineId":"r","count":"n","cursor":"i","withQuickPromoteEligibilityTweetFields":"!0",...(0,g.d)(t)}
 ```
 #### features<br>
-| key                                                                     | type    | variable   |
-|:------------------------------------------------------------------------|:--------|:-----------|
-| responsive_web_graphql_timeline_navigation_enabled                      | boolean | Future     |
-| unified_cards_ad_metadata_container_dynamic_card_content_query_enabled  | boolean | Future     |
-| dont_mention_me_view_api_enabled                                        | boolean | Future     |
-| responsive_web_uc_gql_enabled                                           | boolean | Future     |
-| vibe_api_enabled                                                        | boolean | Future     |
-| responsive_web_edit_tweet_api_enabled                                   | boolean | Future     |
-| graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | Future     |
-| standardized_nudges_misinfo                                             | boolean | Future     |
-| tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | Future     |
-| interactive_text_enabled                                                | boolean | Future     |
-| responsive_web_text_conversations_enabled                               | boolean | Future     |
-| responsive_web_enhance_cards_enabled                                    | boolean | Future     |
+| key                                                                     | type    | default   |
+|:------------------------------------------------------------------------|:--------|:----------|
+| responsive_web_graphql_timeline_navigation_enabled                      | boolean | False     |
+| unified_cards_ad_metadata_container_dynamic_card_content_query_enabled  | boolean | True      |
+| dont_mention_me_view_api_enabled                                        | boolean | True      |
+| responsive_web_uc_gql_enabled                                           | boolean | True      |
+| vibe_api_enabled                                                        | boolean | False     |
+| responsive_web_edit_tweet_api_enabled                                   | boolean | True      |
+| graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | True      |
+| standardized_nudges_misinfo                                             | boolean | True      |
+| tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | True      |
+| interactive_text_enabled                                                | boolean | True      |
+| responsive_web_text_conversations_enabled                               | boolean | True      |
+| responsive_web_enhance_cards_enabled                                    | boolean | True      |
 
 #### queryId<br>
 `None`<br>
@@ -2141,9 +2141,9 @@ Login Required: `Future`<br>
 {"listId":"r","userId":"o",...(0,g.S)(t)}
 ```
 #### features<br>
-| key                                                | type    | variable   |
-|:---------------------------------------------------|:--------|:-----------|
-| responsive_web_graphql_timeline_navigation_enabled | boolean | Future     |
+| key                                                | type    | default   |
+|:---------------------------------------------------|:--------|:----------|
+| responsive_web_graphql_timeline_navigation_enabled | boolean | False     |
 
 #### queryId<br>
 `None`<br>
@@ -2158,9 +2158,9 @@ Login Required: `Future`<br>
 {"isPrivate":"private"===o.toLowerCase(),"name":"a","description":"r",...(0,g.S)(t)}
 ```
 #### features<br>
-| key                                                | type    | variable   |
-|:---------------------------------------------------|:--------|:-----------|
-| responsive_web_graphql_timeline_navigation_enabled | boolean | Future     |
+| key                                                | type    | default   |
+|:---------------------------------------------------|:--------|:----------|
+| responsive_web_graphql_timeline_navigation_enabled | boolean | False     |
 
 #### queryId<br>
 `None`<br>
@@ -2175,9 +2175,9 @@ Login Required: `Future`<br>
 {"listId":"r","mediaId":"o",...(0,g.S)(t)}
 ```
 #### features<br>
-| key                                                | type    | variable   |
-|:---------------------------------------------------|:--------|:-----------|
-| responsive_web_graphql_timeline_navigation_enabled | boolean | Future     |
+| key                                                | type    | default   |
+|:---------------------------------------------------|:--------|:----------|
+| responsive_web_graphql_timeline_navigation_enabled | boolean | False     |
 
 #### queryId<br>
 `None`<br>
@@ -2206,9 +2206,9 @@ Login Required: `Future`<br>
 {"listId":"r",...(0,g.S)(t)}
 ```
 #### features<br>
-| key                                                | type    | variable   |
-|:---------------------------------------------------|:--------|:-----------|
-| responsive_web_graphql_timeline_navigation_enabled | boolean | Future     |
+| key                                                | type    | default   |
+|:---------------------------------------------------|:--------|:----------|
+| responsive_web_graphql_timeline_navigation_enabled | boolean | False     |
 
 #### queryId<br>
 `None`<br>
@@ -2223,9 +2223,9 @@ Login Required: `Future`<br>
 {"screenName":"i","listSlug":"r",...(0,g.S)(t)}
 ```
 #### features<br>
-| key                                                | type    | variable   |
-|:---------------------------------------------------|:--------|:-----------|
-| responsive_web_graphql_timeline_navigation_enabled | boolean | Future     |
+| key                                                | type    | default   |
+|:---------------------------------------------------|:--------|:----------|
+| responsive_web_graphql_timeline_navigation_enabled | boolean | False     |
 
 #### queryId<br>
 `None`<br>
@@ -2240,9 +2240,9 @@ Login Required: `Future`<br>
 {"listId":n.list_id,...(0,g.S)(t)}
 ```
 #### features<br>
-| key                                                | type    | variable   |
-|:---------------------------------------------------|:--------|:-----------|
-| responsive_web_graphql_timeline_navigation_enabled | boolean | Future     |
+| key                                                | type    | default   |
+|:---------------------------------------------------|:--------|:----------|
+| responsive_web_graphql_timeline_navigation_enabled | boolean | False     |
 
 #### queryId<br>
 `None`<br>
@@ -2257,20 +2257,20 @@ Login Required: `Future`<br>
 {"listId":"a","count":"r","cursor":"o",...(0,g.d)(t),"withSafetyModeUserFields":t.isTrue("rito_safety_mode_blocked_profile_enabled")}
 ```
 #### features<br>
-| key                                                                     | type    | variable   |
-|:------------------------------------------------------------------------|:--------|:-----------|
-| responsive_web_graphql_timeline_navigation_enabled                      | boolean | Future     |
-| unified_cards_ad_metadata_container_dynamic_card_content_query_enabled  | boolean | Future     |
-| dont_mention_me_view_api_enabled                                        | boolean | Future     |
-| responsive_web_uc_gql_enabled                                           | boolean | Future     |
-| vibe_api_enabled                                                        | boolean | Future     |
-| responsive_web_edit_tweet_api_enabled                                   | boolean | Future     |
-| graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | Future     |
-| standardized_nudges_misinfo                                             | boolean | Future     |
-| tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | Future     |
-| interactive_text_enabled                                                | boolean | Future     |
-| responsive_web_text_conversations_enabled                               | boolean | Future     |
-| responsive_web_enhance_cards_enabled                                    | boolean | Future     |
+| key                                                                     | type    | default   |
+|:------------------------------------------------------------------------|:--------|:----------|
+| responsive_web_graphql_timeline_navigation_enabled                      | boolean | False     |
+| unified_cards_ad_metadata_container_dynamic_card_content_query_enabled  | boolean | True      |
+| dont_mention_me_view_api_enabled                                        | boolean | True      |
+| responsive_web_uc_gql_enabled                                           | boolean | True      |
+| vibe_api_enabled                                                        | boolean | False     |
+| responsive_web_edit_tweet_api_enabled                                   | boolean | True      |
+| graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | True      |
+| standardized_nudges_misinfo                                             | boolean | True      |
+| tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | True      |
+| interactive_text_enabled                                                | boolean | True      |
+| responsive_web_text_conversations_enabled                               | boolean | True      |
+| responsive_web_enhance_cards_enabled                                    | boolean | True      |
 
 #### queryId<br>
 `None`<br>
@@ -2285,20 +2285,20 @@ Login Required: `Future`<br>
 {"listId":"a","count":"r","cursor":"o",...(0,g.d)(t)}
 ```
 #### features<br>
-| key                                                                     | type    | variable   |
-|:------------------------------------------------------------------------|:--------|:-----------|
-| responsive_web_graphql_timeline_navigation_enabled                      | boolean | Future     |
-| unified_cards_ad_metadata_container_dynamic_card_content_query_enabled  | boolean | Future     |
-| dont_mention_me_view_api_enabled                                        | boolean | Future     |
-| responsive_web_uc_gql_enabled                                           | boolean | Future     |
-| vibe_api_enabled                                                        | boolean | Future     |
-| responsive_web_edit_tweet_api_enabled                                   | boolean | Future     |
-| graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | Future     |
-| standardized_nudges_misinfo                                             | boolean | Future     |
-| tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | Future     |
-| interactive_text_enabled                                                | boolean | Future     |
-| responsive_web_text_conversations_enabled                               | boolean | Future     |
-| responsive_web_enhance_cards_enabled                                    | boolean | Future     |
+| key                                                                     | type    | default   |
+|:------------------------------------------------------------------------|:--------|:----------|
+| responsive_web_graphql_timeline_navigation_enabled                      | boolean | False     |
+| unified_cards_ad_metadata_container_dynamic_card_content_query_enabled  | boolean | True      |
+| dont_mention_me_view_api_enabled                                        | boolean | True      |
+| responsive_web_uc_gql_enabled                                           | boolean | True      |
+| vibe_api_enabled                                                        | boolean | False     |
+| responsive_web_edit_tweet_api_enabled                                   | boolean | True      |
+| graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | True      |
+| standardized_nudges_misinfo                                             | boolean | True      |
+| tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | True      |
+| interactive_text_enabled                                                | boolean | True      |
+| responsive_web_text_conversations_enabled                               | boolean | True      |
+| responsive_web_enhance_cards_enabled                                    | boolean | True      |
 
 #### queryId<br>
 `None`<br>
@@ -2313,20 +2313,20 @@ Login Required: `Future`<br>
 {"userId":"s","isListMemberTargetUserId":"a","count":"r","cursor":"o",...(0,g.d)(t)}
 ```
 #### features<br>
-| key                                                                     | type    | variable   |
-|:------------------------------------------------------------------------|:--------|:-----------|
-| responsive_web_graphql_timeline_navigation_enabled                      | boolean | Future     |
-| unified_cards_ad_metadata_container_dynamic_card_content_query_enabled  | boolean | Future     |
-| dont_mention_me_view_api_enabled                                        | boolean | Future     |
-| responsive_web_uc_gql_enabled                                           | boolean | Future     |
-| vibe_api_enabled                                                        | boolean | Future     |
-| responsive_web_edit_tweet_api_enabled                                   | boolean | Future     |
-| graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | Future     |
-| standardized_nudges_misinfo                                             | boolean | Future     |
-| tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | Future     |
-| interactive_text_enabled                                                | boolean | Future     |
-| responsive_web_text_conversations_enabled                               | boolean | Future     |
-| responsive_web_enhance_cards_enabled                                    | boolean | Future     |
+| key                                                                     | type    | default   |
+|:------------------------------------------------------------------------|:--------|:----------|
+| responsive_web_graphql_timeline_navigation_enabled                      | boolean | False     |
+| unified_cards_ad_metadata_container_dynamic_card_content_query_enabled  | boolean | True      |
+| dont_mention_me_view_api_enabled                                        | boolean | True      |
+| responsive_web_uc_gql_enabled                                           | boolean | True      |
+| vibe_api_enabled                                                        | boolean | False     |
+| responsive_web_edit_tweet_api_enabled                                   | boolean | True      |
+| graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | True      |
+| standardized_nudges_misinfo                                             | boolean | True      |
+| tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | True      |
+| interactive_text_enabled                                                | boolean | True      |
+| responsive_web_text_conversations_enabled                               | boolean | True      |
+| responsive_web_enhance_cards_enabled                                    | boolean | True      |
 
 #### queryId<br>
 `None`<br>
@@ -2341,20 +2341,20 @@ Login Required: `Future`<br>
 {"userId":"a","count":"r","cursor":"o",...(0,g.d)(t)}
 ```
 #### features<br>
-| key                                                                     | type    | variable   |
-|:------------------------------------------------------------------------|:--------|:-----------|
-| responsive_web_graphql_timeline_navigation_enabled                      | boolean | Future     |
-| unified_cards_ad_metadata_container_dynamic_card_content_query_enabled  | boolean | Future     |
-| dont_mention_me_view_api_enabled                                        | boolean | Future     |
-| responsive_web_uc_gql_enabled                                           | boolean | Future     |
-| vibe_api_enabled                                                        | boolean | Future     |
-| responsive_web_edit_tweet_api_enabled                                   | boolean | Future     |
-| graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | Future     |
-| standardized_nudges_misinfo                                             | boolean | Future     |
-| tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | Future     |
-| interactive_text_enabled                                                | boolean | Future     |
-| responsive_web_text_conversations_enabled                               | boolean | Future     |
-| responsive_web_enhance_cards_enabled                                    | boolean | Future     |
+| key                                                                     | type    | default   |
+|:------------------------------------------------------------------------|:--------|:----------|
+| responsive_web_graphql_timeline_navigation_enabled                      | boolean | False     |
+| unified_cards_ad_metadata_container_dynamic_card_content_query_enabled  | boolean | True      |
+| dont_mention_me_view_api_enabled                                        | boolean | True      |
+| responsive_web_uc_gql_enabled                                           | boolean | True      |
+| vibe_api_enabled                                                        | boolean | False     |
+| responsive_web_edit_tweet_api_enabled                                   | boolean | True      |
+| graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | True      |
+| standardized_nudges_misinfo                                             | boolean | True      |
+| tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | True      |
+| interactive_text_enabled                                                | boolean | True      |
+| responsive_web_text_conversations_enabled                               | boolean | True      |
+| responsive_web_enhance_cards_enabled                                    | boolean | True      |
 
 #### queryId<br>
 `None`<br>
@@ -2369,9 +2369,9 @@ Login Required: `Future`<br>
 {"listId":"r","userId":"o",...(0,g.S)(t)}
 ```
 #### features<br>
-| key                                                | type    | variable   |
-|:---------------------------------------------------|:--------|:-----------|
-| responsive_web_graphql_timeline_navigation_enabled | boolean | Future     |
+| key                                                | type    | default   |
+|:---------------------------------------------------|:--------|:----------|
+| responsive_web_graphql_timeline_navigation_enabled | boolean | False     |
 
 #### queryId<br>
 `None`<br>
@@ -2386,9 +2386,9 @@ Login Required: `Future`<br>
 {"listId":"r",...o}
 ```
 #### features<br>
-| key                                                | type    | variable   |
-|:---------------------------------------------------|:--------|:-----------|
-| responsive_web_graphql_timeline_navigation_enabled | boolean | Future     |
+| key                                                | type    | default   |
+|:---------------------------------------------------|:--------|:----------|
+| responsive_web_graphql_timeline_navigation_enabled | boolean | False     |
 
 #### queryId<br>
 `None`<br>
@@ -2403,9 +2403,9 @@ Login Required: `Future`<br>
 {"listId":"r",...o}
 ```
 #### features<br>
-| key                                                | type    | variable   |
-|:---------------------------------------------------|:--------|:-----------|
-| responsive_web_graphql_timeline_navigation_enabled | boolean | Future     |
+| key                                                | type    | default   |
+|:---------------------------------------------------|:--------|:----------|
+| responsive_web_graphql_timeline_navigation_enabled | boolean | False     |
 
 #### queryId<br>
 `None`<br>
@@ -2420,9 +2420,9 @@ Login Required: `Future`<br>
 {"listIds":"i",...(0,g.S)(t)}
 ```
 #### features<br>
-| key                                                | type    | variable   |
-|:---------------------------------------------------|:--------|:-----------|
-| responsive_web_graphql_timeline_navigation_enabled | boolean | Future     |
+| key                                                | type    | default   |
+|:---------------------------------------------------|:--------|:----------|
+| responsive_web_graphql_timeline_navigation_enabled | boolean | False     |
 
 #### queryId<br>
 `None`<br>
@@ -2437,9 +2437,9 @@ Login Required: `Future`<br>
 {"listId":"r",...(0,g.S)(t)}
 ```
 #### features<br>
-| key                                                | type    | variable   |
-|:---------------------------------------------------|:--------|:-----------|
-| responsive_web_graphql_timeline_navigation_enabled | boolean | Future     |
+| key                                                | type    | default   |
+|:---------------------------------------------------|:--------|:----------|
+| responsive_web_graphql_timeline_navigation_enabled | boolean | False     |
 
 #### queryId<br>
 `None`<br>
@@ -2454,9 +2454,9 @@ Login Required: `Future`<br>
 {"listId":"r",...(0,g.S)(t)}
 ```
 #### features<br>
-| key                                                | type    | variable   |
-|:---------------------------------------------------|:--------|:-----------|
-| responsive_web_graphql_timeline_navigation_enabled | boolean | Future     |
+| key                                                | type    | default   |
+|:---------------------------------------------------|:--------|:----------|
+| responsive_web_graphql_timeline_navigation_enabled | boolean | False     |
 
 #### queryId<br>
 `None`<br>
@@ -2499,9 +2499,9 @@ Login Required: `Future`<br>
 {"listId":"o","isPrivate":"private"===a.toLowerCase(),"description":"r","name":"s",...(0,g.S)(t)}
 ```
 #### features<br>
-| key                                                | type    | variable   |
-|:---------------------------------------------------|:--------|:-----------|
-| responsive_web_graphql_timeline_navigation_enabled | boolean | Future     |
+| key                                                | type    | default   |
+|:---------------------------------------------------|:--------|:----------|
+| responsive_web_graphql_timeline_navigation_enabled | boolean | False     |
 
 #### queryId<br>
 `None`<br>
@@ -2516,20 +2516,20 @@ Login Required: `Future`<br>
 {"userId":"r","count":"n","cursor":"i",...(0,g.d)(t)}
 ```
 #### features<br>
-| key                                                                     | type    | variable   |
-|:------------------------------------------------------------------------|:--------|:-----------|
-| responsive_web_graphql_timeline_navigation_enabled                      | boolean | Future     |
-| unified_cards_ad_metadata_container_dynamic_card_content_query_enabled  | boolean | Future     |
-| dont_mention_me_view_api_enabled                                        | boolean | Future     |
-| responsive_web_uc_gql_enabled                                           | boolean | Future     |
-| vibe_api_enabled                                                        | boolean | Future     |
-| responsive_web_edit_tweet_api_enabled                                   | boolean | Future     |
-| graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | Future     |
-| standardized_nudges_misinfo                                             | boolean | Future     |
-| tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | Future     |
-| interactive_text_enabled                                                | boolean | Future     |
-| responsive_web_text_conversations_enabled                               | boolean | Future     |
-| responsive_web_enhance_cards_enabled                                    | boolean | Future     |
+| key                                                                     | type    | default   |
+|:------------------------------------------------------------------------|:--------|:----------|
+| responsive_web_graphql_timeline_navigation_enabled                      | boolean | False     |
+| unified_cards_ad_metadata_container_dynamic_card_content_query_enabled  | boolean | True      |
+| dont_mention_me_view_api_enabled                                        | boolean | True      |
+| responsive_web_uc_gql_enabled                                           | boolean | True      |
+| vibe_api_enabled                                                        | boolean | False     |
+| responsive_web_edit_tweet_api_enabled                                   | boolean | True      |
+| graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | True      |
+| standardized_nudges_misinfo                                             | boolean | True      |
+| tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | True      |
+| interactive_text_enabled                                                | boolean | True      |
+| responsive_web_text_conversations_enabled                               | boolean | True      |
+| responsive_web_enhance_cards_enabled                                    | boolean | True      |
 
 #### queryId<br>
 `None`<br>
@@ -2544,20 +2544,20 @@ Login Required: `Future`<br>
 {"count":"n","cursor":"i",...(0,g.d)(t)}
 ```
 #### features<br>
-| key                                                                     | type    | variable   |
-|:------------------------------------------------------------------------|:--------|:-----------|
-| responsive_web_graphql_timeline_navigation_enabled                      | boolean | Future     |
-| unified_cards_ad_metadata_container_dynamic_card_content_query_enabled  | boolean | Future     |
-| dont_mention_me_view_api_enabled                                        | boolean | Future     |
-| responsive_web_uc_gql_enabled                                           | boolean | Future     |
-| vibe_api_enabled                                                        | boolean | Future     |
-| responsive_web_edit_tweet_api_enabled                                   | boolean | Future     |
-| graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | Future     |
-| standardized_nudges_misinfo                                             | boolean | Future     |
-| tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | Future     |
-| interactive_text_enabled                                                | boolean | Future     |
-| responsive_web_text_conversations_enabled                               | boolean | Future     |
-| responsive_web_enhance_cards_enabled                                    | boolean | Future     |
+| key                                                                     | type    | default   |
+|:------------------------------------------------------------------------|:--------|:----------|
+| responsive_web_graphql_timeline_navigation_enabled                      | boolean | False     |
+| unified_cards_ad_metadata_container_dynamic_card_content_query_enabled  | boolean | True      |
+| dont_mention_me_view_api_enabled                                        | boolean | True      |
+| responsive_web_uc_gql_enabled                                           | boolean | True      |
+| vibe_api_enabled                                                        | boolean | False     |
+| responsive_web_edit_tweet_api_enabled                                   | boolean | True      |
+| graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | True      |
+| standardized_nudges_misinfo                                             | boolean | True      |
+| tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | True      |
+| interactive_text_enabled                                                | boolean | True      |
+| responsive_web_text_conversations_enabled                               | boolean | True      |
+| responsive_web_enhance_cards_enabled                                    | boolean | True      |
 
 #### queryId<br>
 `None`<br>
@@ -2572,9 +2572,9 @@ Login Required: `Future`<br>
 {...(0,g.S)(t)}
 ```
 #### features<br>
-| key                                                | type    | variable   |
-|:---------------------------------------------------|:--------|:-----------|
-| responsive_web_graphql_timeline_navigation_enabled | boolean | Future     |
+| key                                                | type    | default   |
+|:---------------------------------------------------|:--------|:----------|
+| responsive_web_graphql_timeline_navigation_enabled | boolean | False     |
 
 #### queryId<br>
 `None`<br>
@@ -2589,20 +2589,20 @@ Login Required: `Future`<br>
 {"count":"n","cursor":"i",...(0,g.d)(t)}
 ```
 #### features<br>
-| key                                                                     | type    | variable   |
-|:------------------------------------------------------------------------|:--------|:-----------|
-| responsive_web_graphql_timeline_navigation_enabled                      | boolean | Future     |
-| unified_cards_ad_metadata_container_dynamic_card_content_query_enabled  | boolean | Future     |
-| dont_mention_me_view_api_enabled                                        | boolean | Future     |
-| responsive_web_uc_gql_enabled                                           | boolean | Future     |
-| vibe_api_enabled                                                        | boolean | Future     |
-| responsive_web_edit_tweet_api_enabled                                   | boolean | Future     |
-| graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | Future     |
-| standardized_nudges_misinfo                                             | boolean | Future     |
-| tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | Future     |
-| interactive_text_enabled                                                | boolean | Future     |
-| responsive_web_text_conversations_enabled                               | boolean | Future     |
-| responsive_web_enhance_cards_enabled                                    | boolean | Future     |
+| key                                                                     | type    | default   |
+|:------------------------------------------------------------------------|:--------|:----------|
+| responsive_web_graphql_timeline_navigation_enabled                      | boolean | False     |
+| unified_cards_ad_metadata_container_dynamic_card_content_query_enabled  | boolean | True      |
+| dont_mention_me_view_api_enabled                                        | boolean | True      |
+| responsive_web_uc_gql_enabled                                           | boolean | True      |
+| vibe_api_enabled                                                        | boolean | False     |
+| responsive_web_edit_tweet_api_enabled                                   | boolean | True      |
+| graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | True      |
+| standardized_nudges_misinfo                                             | boolean | True      |
+| tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | True      |
+| interactive_text_enabled                                                | boolean | True      |
+| responsive_web_text_conversations_enabled                               | boolean | True      |
+| responsive_web_enhance_cards_enabled                                    | boolean | True      |
 
 #### queryId<br>
 `None`<br>
@@ -2617,20 +2617,20 @@ Login Required: `Future`<br>
 {"rest_id":"r","count":"n","cursor":"i","includePromotedContent":"!1",...(0,g.d)(t)}
 ```
 #### features<br>
-| key                                                                     | type    | variable   |
-|:------------------------------------------------------------------------|:--------|:-----------|
-| responsive_web_graphql_timeline_navigation_enabled                      | boolean | Future     |
-| unified_cards_ad_metadata_container_dynamic_card_content_query_enabled  | boolean | Future     |
-| dont_mention_me_view_api_enabled                                        | boolean | Future     |
-| responsive_web_uc_gql_enabled                                           | boolean | Future     |
-| vibe_api_enabled                                                        | boolean | Future     |
-| responsive_web_edit_tweet_api_enabled                                   | boolean | Future     |
-| graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | Future     |
-| standardized_nudges_misinfo                                             | boolean | Future     |
-| tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | Future     |
-| interactive_text_enabled                                                | boolean | Future     |
-| responsive_web_text_conversations_enabled                               | boolean | Future     |
-| responsive_web_enhance_cards_enabled                                    | boolean | Future     |
+| key                                                                     | type    | default   |
+|:------------------------------------------------------------------------|:--------|:----------|
+| responsive_web_graphql_timeline_navigation_enabled                      | boolean | False     |
+| unified_cards_ad_metadata_container_dynamic_card_content_query_enabled  | boolean | True      |
+| dont_mention_me_view_api_enabled                                        | boolean | True      |
+| responsive_web_uc_gql_enabled                                           | boolean | True      |
+| vibe_api_enabled                                                        | boolean | False     |
+| responsive_web_edit_tweet_api_enabled                                   | boolean | True      |
+| graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | True      |
+| standardized_nudges_misinfo                                             | boolean | True      |
+| tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | True      |
+| interactive_text_enabled                                                | boolean | True      |
+| responsive_web_text_conversations_enabled                               | boolean | True      |
+| responsive_web_enhance_cards_enabled                                    | boolean | True      |
 
 #### queryId<br>
 `None`<br>
@@ -2645,20 +2645,20 @@ Login Required: `Future`<br>
 {"userId":"r","count":"n","cursor":"i","includePromotedContent":"!0","withQuickPromoteEligibilityTweetFields":"!0",...(0,g.d)(t),"withVoice":t.isTrue("voice_consumption_enabled"),"withV2Timeline":t.isTrue("graphql_timeline_v2_user_profile_timeline")}
 ```
 #### features<br>
-| key                                                                     | type    | variable   |
-|:------------------------------------------------------------------------|:--------|:-----------|
-| responsive_web_graphql_timeline_navigation_enabled                      | boolean | Future     |
-| unified_cards_ad_metadata_container_dynamic_card_content_query_enabled  | boolean | Future     |
-| dont_mention_me_view_api_enabled                                        | boolean | Future     |
-| responsive_web_uc_gql_enabled                                           | boolean | Future     |
-| vibe_api_enabled                                                        | boolean | Future     |
-| responsive_web_edit_tweet_api_enabled                                   | boolean | Future     |
-| graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | Future     |
-| standardized_nudges_misinfo                                             | boolean | Future     |
-| tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | Future     |
-| interactive_text_enabled                                                | boolean | Future     |
-| responsive_web_text_conversations_enabled                               | boolean | Future     |
-| responsive_web_enhance_cards_enabled                                    | boolean | Future     |
+| key                                                                     | type    | default   |
+|:------------------------------------------------------------------------|:--------|:----------|
+| responsive_web_graphql_timeline_navigation_enabled                      | boolean | False     |
+| unified_cards_ad_metadata_container_dynamic_card_content_query_enabled  | boolean | True      |
+| dont_mention_me_view_api_enabled                                        | boolean | True      |
+| responsive_web_uc_gql_enabled                                           | boolean | True      |
+| vibe_api_enabled                                                        | boolean | False     |
+| responsive_web_edit_tweet_api_enabled                                   | boolean | True      |
+| graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | True      |
+| standardized_nudges_misinfo                                             | boolean | True      |
+| tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | True      |
+| interactive_text_enabled                                                | boolean | True      |
+| responsive_web_text_conversations_enabled                               | boolean | True      |
+| responsive_web_enhance_cards_enabled                                    | boolean | True      |
 
 #### queryId<br>
 `None`<br>
@@ -2673,20 +2673,20 @@ Login Required: `Future`<br>
 {"userId":"r","count":"n","cursor":"i","includePromotedContent":"!0","withCommunity":t.isTrue("c9s_enabled"),...(0,g.d)(t),"withVoice":t.isTrue("voice_consumption_enabled"),"withV2Timeline":t.isTrue("graphql_timeline_v2_user_profile_with_replies_timeline")}
 ```
 #### features<br>
-| key                                                                     | type    | variable   |
-|:------------------------------------------------------------------------|:--------|:-----------|
-| responsive_web_graphql_timeline_navigation_enabled                      | boolean | Future     |
-| unified_cards_ad_metadata_container_dynamic_card_content_query_enabled  | boolean | Future     |
-| dont_mention_me_view_api_enabled                                        | boolean | Future     |
-| responsive_web_uc_gql_enabled                                           | boolean | Future     |
-| vibe_api_enabled                                                        | boolean | Future     |
-| responsive_web_edit_tweet_api_enabled                                   | boolean | Future     |
-| graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | Future     |
-| standardized_nudges_misinfo                                             | boolean | Future     |
-| tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | Future     |
-| interactive_text_enabled                                                | boolean | Future     |
-| responsive_web_text_conversations_enabled                               | boolean | Future     |
-| responsive_web_enhance_cards_enabled                                    | boolean | Future     |
+| key                                                                     | type    | default   |
+|:------------------------------------------------------------------------|:--------|:----------|
+| responsive_web_graphql_timeline_navigation_enabled                      | boolean | False     |
+| unified_cards_ad_metadata_container_dynamic_card_content_query_enabled  | boolean | True      |
+| dont_mention_me_view_api_enabled                                        | boolean | True      |
+| responsive_web_uc_gql_enabled                                           | boolean | True      |
+| vibe_api_enabled                                                        | boolean | False     |
+| responsive_web_edit_tweet_api_enabled                                   | boolean | True      |
+| graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | True      |
+| standardized_nudges_misinfo                                             | boolean | True      |
+| tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | True      |
+| interactive_text_enabled                                                | boolean | True      |
+| responsive_web_text_conversations_enabled                               | boolean | True      |
+| responsive_web_enhance_cards_enabled                                    | boolean | True      |
 
 #### queryId<br>
 `None`<br>
@@ -2701,20 +2701,20 @@ Login Required: `Future`<br>
 {"userId":"r","count":"n","cursor":"i","includePromotedContent":"!0",...(0,g.d)(t),"withVoice":t.isTrue("voice_consumption_enabled")}
 ```
 #### features<br>
-| key                                                                     | type    | variable   |
-|:------------------------------------------------------------------------|:--------|:-----------|
-| responsive_web_graphql_timeline_navigation_enabled                      | boolean | Future     |
-| unified_cards_ad_metadata_container_dynamic_card_content_query_enabled  | boolean | Future     |
-| dont_mention_me_view_api_enabled                                        | boolean | Future     |
-| responsive_web_uc_gql_enabled                                           | boolean | Future     |
-| vibe_api_enabled                                                        | boolean | Future     |
-| responsive_web_edit_tweet_api_enabled                                   | boolean | Future     |
-| graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | Future     |
-| standardized_nudges_misinfo                                             | boolean | Future     |
-| tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | Future     |
-| interactive_text_enabled                                                | boolean | Future     |
-| responsive_web_text_conversations_enabled                               | boolean | Future     |
-| responsive_web_enhance_cards_enabled                                    | boolean | Future     |
+| key                                                                     | type    | default   |
+|:------------------------------------------------------------------------|:--------|:----------|
+| responsive_web_graphql_timeline_navigation_enabled                      | boolean | False     |
+| unified_cards_ad_metadata_container_dynamic_card_content_query_enabled  | boolean | True      |
+| dont_mention_me_view_api_enabled                                        | boolean | True      |
+| responsive_web_uc_gql_enabled                                           | boolean | True      |
+| vibe_api_enabled                                                        | boolean | False     |
+| responsive_web_edit_tweet_api_enabled                                   | boolean | True      |
+| graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | True      |
+| standardized_nudges_misinfo                                             | boolean | True      |
+| tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | True      |
+| interactive_text_enabled                                                | boolean | True      |
+| responsive_web_text_conversations_enabled                               | boolean | True      |
+| responsive_web_enhance_cards_enabled                                    | boolean | True      |
 
 #### queryId<br>
 `None`<br>
@@ -2729,20 +2729,20 @@ Login Required: `Future`<br>
 {"userId":"i","count":"t","cursor":"string"==typeof n?n:void 0,"includePromotedContent":"!1","withDownvotePerspective":"!1","withReactionsMetadata":"!1","withReactionsPerspective":"!1","withSuperFollowsTweetFields":"!1","withSuperFollowsUserFields":"!1","withVoice":"!1"}
 ```
 #### features<br>
-| key                                                                     | type    | variable   |
-|:------------------------------------------------------------------------|:--------|:-----------|
-| responsive_web_graphql_timeline_navigation_enabled                      | boolean | Future     |
-| unified_cards_ad_metadata_container_dynamic_card_content_query_enabled  | boolean | Future     |
-| dont_mention_me_view_api_enabled                                        | boolean | Future     |
-| responsive_web_uc_gql_enabled                                           | boolean | Future     |
-| vibe_api_enabled                                                        | boolean | Future     |
-| responsive_web_edit_tweet_api_enabled                                   | boolean | Future     |
-| graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | Future     |
-| standardized_nudges_misinfo                                             | boolean | Future     |
-| tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | Future     |
-| interactive_text_enabled                                                | boolean | Future     |
-| responsive_web_text_conversations_enabled                               | boolean | Future     |
-| responsive_web_enhance_cards_enabled                                    | boolean | Future     |
+| key                                                                     | type    | default   |
+|:------------------------------------------------------------------------|:--------|:----------|
+| responsive_web_graphql_timeline_navigation_enabled                      | boolean | False     |
+| unified_cards_ad_metadata_container_dynamic_card_content_query_enabled  | boolean | True      |
+| dont_mention_me_view_api_enabled                                        | boolean | True      |
+| responsive_web_uc_gql_enabled                                           | boolean | True      |
+| vibe_api_enabled                                                        | boolean | False     |
+| responsive_web_edit_tweet_api_enabled                                   | boolean | True      |
+| graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | True      |
+| standardized_nudges_misinfo                                             | boolean | True      |
+| tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | True      |
+| interactive_text_enabled                                                | boolean | True      |
+| responsive_web_text_conversations_enabled                               | boolean | True      |
+| responsive_web_enhance_cards_enabled                                    | boolean | True      |
 
 #### queryId<br>
 `None`<br>
@@ -2757,20 +2757,20 @@ Login Required: `Future`<br>
 {"userId":"r","count":"n","cursor":"i","includePromotedContent":"!1",...(0,g.d)(t),"withClientEventToken":"!1","withBirdwatchNotes":"!1","withVoice":t.isTrue("voice_consumption_enabled"),"withV2Timeline":t.isTrue("graphql_timeline_v2_user_favorites_by_time_timeline")}
 ```
 #### features<br>
-| key                                                                     | type    | variable   |
-|:------------------------------------------------------------------------|:--------|:-----------|
-| responsive_web_graphql_timeline_navigation_enabled                      | boolean | Future     |
-| unified_cards_ad_metadata_container_dynamic_card_content_query_enabled  | boolean | Future     |
-| dont_mention_me_view_api_enabled                                        | boolean | Future     |
-| responsive_web_uc_gql_enabled                                           | boolean | Future     |
-| vibe_api_enabled                                                        | boolean | Future     |
-| responsive_web_edit_tweet_api_enabled                                   | boolean | Future     |
-| graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | Future     |
-| standardized_nudges_misinfo                                             | boolean | Future     |
-| tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | Future     |
-| interactive_text_enabled                                                | boolean | Future     |
-| responsive_web_text_conversations_enabled                               | boolean | Future     |
-| responsive_web_enhance_cards_enabled                                    | boolean | Future     |
+| key                                                                     | type    | default   |
+|:------------------------------------------------------------------------|:--------|:----------|
+| responsive_web_graphql_timeline_navigation_enabled                      | boolean | False     |
+| unified_cards_ad_metadata_container_dynamic_card_content_query_enabled  | boolean | True      |
+| dont_mention_me_view_api_enabled                                        | boolean | True      |
+| responsive_web_uc_gql_enabled                                           | boolean | True      |
+| vibe_api_enabled                                                        | boolean | False     |
+| responsive_web_edit_tweet_api_enabled                                   | boolean | True      |
+| graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | True      |
+| standardized_nudges_misinfo                                             | boolean | True      |
+| tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | True      |
+| interactive_text_enabled                                                | boolean | True      |
+| responsive_web_text_conversations_enabled                               | boolean | True      |
+| responsive_web_enhance_cards_enabled                                    | boolean | True      |
 
 #### queryId<br>
 `None`<br>
@@ -2785,20 +2785,20 @@ Login Required: `Future`<br>
 {"userId":"r","count":"n","cursor":"i","includePromotedContent":"!1",...(0,g.d)(t),"withClientEventToken":"!1","withBirdwatchNotes":"!1","withVoice":t.isTrue("voice_consumption_enabled"),"withV2Timeline":t.isTrue("graphql_timeline_v2_user_media_timeline")}
 ```
 #### features<br>
-| key                                                                     | type    | variable   |
-|:------------------------------------------------------------------------|:--------|:-----------|
-| responsive_web_graphql_timeline_navigation_enabled                      | boolean | Future     |
-| unified_cards_ad_metadata_container_dynamic_card_content_query_enabled  | boolean | Future     |
-| dont_mention_me_view_api_enabled                                        | boolean | Future     |
-| responsive_web_uc_gql_enabled                                           | boolean | Future     |
-| vibe_api_enabled                                                        | boolean | Future     |
-| responsive_web_edit_tweet_api_enabled                                   | boolean | Future     |
-| graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | Future     |
-| standardized_nudges_misinfo                                             | boolean | Future     |
-| tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | Future     |
-| interactive_text_enabled                                                | boolean | Future     |
-| responsive_web_text_conversations_enabled                               | boolean | Future     |
-| responsive_web_enhance_cards_enabled                                    | boolean | Future     |
+| key                                                                     | type    | default   |
+|:------------------------------------------------------------------------|:--------|:----------|
+| responsive_web_graphql_timeline_navigation_enabled                      | boolean | False     |
+| unified_cards_ad_metadata_container_dynamic_card_content_query_enabled  | boolean | True      |
+| dont_mention_me_view_api_enabled                                        | boolean | True      |
+| responsive_web_uc_gql_enabled                                           | boolean | True      |
+| vibe_api_enabled                                                        | boolean | False     |
+| responsive_web_edit_tweet_api_enabled                                   | boolean | True      |
+| graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | True      |
+| standardized_nudges_misinfo                                             | boolean | True      |
+| tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | True      |
+| interactive_text_enabled                                                | boolean | True      |
+| responsive_web_text_conversations_enabled                               | boolean | True      |
+| responsive_web_enhance_cards_enabled                                    | boolean | True      |
 
 #### queryId<br>
 `None`<br>
@@ -2827,20 +2827,20 @@ Login Required: `Future`<br>
 {"cursor":"n","rest_id":"i",...(0,g.d)(t),"withSafetyModeUserFields":t.isTrue("rito_safety_mode_blocked_profile_enabled")}
 ```
 #### features<br>
-| key                                                                     | type    | variable   |
-|:------------------------------------------------------------------------|:--------|:-----------|
-| responsive_web_graphql_timeline_navigation_enabled                      | boolean | Future     |
-| unified_cards_ad_metadata_container_dynamic_card_content_query_enabled  | boolean | Future     |
-| dont_mention_me_view_api_enabled                                        | boolean | Future     |
-| responsive_web_uc_gql_enabled                                           | boolean | Future     |
-| vibe_api_enabled                                                        | boolean | Future     |
-| responsive_web_edit_tweet_api_enabled                                   | boolean | Future     |
-| graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | Future     |
-| standardized_nudges_misinfo                                             | boolean | Future     |
-| tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | Future     |
-| interactive_text_enabled                                                | boolean | Future     |
-| responsive_web_text_conversations_enabled                               | boolean | Future     |
-| responsive_web_enhance_cards_enabled                                    | boolean | Future     |
+| key                                                                     | type    | default   |
+|:------------------------------------------------------------------------|:--------|:----------|
+| responsive_web_graphql_timeline_navigation_enabled                      | boolean | False     |
+| unified_cards_ad_metadata_container_dynamic_card_content_query_enabled  | boolean | True      |
+| dont_mention_me_view_api_enabled                                        | boolean | True      |
+| responsive_web_uc_gql_enabled                                           | boolean | True      |
+| vibe_api_enabled                                                        | boolean | False     |
+| responsive_web_edit_tweet_api_enabled                                   | boolean | True      |
+| graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | True      |
+| standardized_nudges_misinfo                                             | boolean | True      |
+| tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | True      |
+| interactive_text_enabled                                                | boolean | True      |
+| responsive_web_text_conversations_enabled                               | boolean | True      |
+| responsive_web_enhance_cards_enabled                                    | boolean | True      |
 
 #### queryId<br>
 `None`<br>
@@ -2869,20 +2869,20 @@ Login Required: `Future`<br>
 {"cursor":"n",...(0,g.d)(t),"withSafetyModeUserFields":t.isTrue("rito_safety_mode_blocked_profile_enabled")}
 ```
 #### features<br>
-| key                                                                     | type    | variable   |
-|:------------------------------------------------------------------------|:--------|:-----------|
-| responsive_web_graphql_timeline_navigation_enabled                      | boolean | Future     |
-| unified_cards_ad_metadata_container_dynamic_card_content_query_enabled  | boolean | Future     |
-| dont_mention_me_view_api_enabled                                        | boolean | Future     |
-| responsive_web_uc_gql_enabled                                           | boolean | Future     |
-| vibe_api_enabled                                                        | boolean | Future     |
-| responsive_web_edit_tweet_api_enabled                                   | boolean | Future     |
-| graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | Future     |
-| standardized_nudges_misinfo                                             | boolean | Future     |
-| tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | Future     |
-| interactive_text_enabled                                                | boolean | Future     |
-| responsive_web_text_conversations_enabled                               | boolean | Future     |
-| responsive_web_enhance_cards_enabled                                    | boolean | Future     |
+| key                                                                     | type    | default   |
+|:------------------------------------------------------------------------|:--------|:----------|
+| responsive_web_graphql_timeline_navigation_enabled                      | boolean | False     |
+| unified_cards_ad_metadata_container_dynamic_card_content_query_enabled  | boolean | True      |
+| dont_mention_me_view_api_enabled                                        | boolean | True      |
+| responsive_web_uc_gql_enabled                                           | boolean | True      |
+| vibe_api_enabled                                                        | boolean | False     |
+| responsive_web_edit_tweet_api_enabled                                   | boolean | True      |
+| graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | True      |
+| standardized_nudges_misinfo                                             | boolean | True      |
+| tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | True      |
+| interactive_text_enabled                                                | boolean | True      |
+| responsive_web_text_conversations_enabled                               | boolean | True      |
+| responsive_web_enhance_cards_enabled                                    | boolean | True      |
 
 #### queryId<br>
 `None`<br>
@@ -2897,20 +2897,20 @@ Login Required: `Future`<br>
 {"cursor":"n","rest_id":"i",...(0,g.d)(t),"withSafetyModeUserFields":t.isTrue("rito_safety_mode_blocked_profile_enabled")}
 ```
 #### features<br>
-| key                                                                     | type    | variable   |
-|:------------------------------------------------------------------------|:--------|:-----------|
-| responsive_web_graphql_timeline_navigation_enabled                      | boolean | Future     |
-| unified_cards_ad_metadata_container_dynamic_card_content_query_enabled  | boolean | Future     |
-| dont_mention_me_view_api_enabled                                        | boolean | Future     |
-| responsive_web_uc_gql_enabled                                           | boolean | Future     |
-| vibe_api_enabled                                                        | boolean | Future     |
-| responsive_web_edit_tweet_api_enabled                                   | boolean | Future     |
-| graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | Future     |
-| standardized_nudges_misinfo                                             | boolean | Future     |
-| tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | Future     |
-| interactive_text_enabled                                                | boolean | Future     |
-| responsive_web_text_conversations_enabled                               | boolean | Future     |
-| responsive_web_enhance_cards_enabled                                    | boolean | Future     |
+| key                                                                     | type    | default   |
+|:------------------------------------------------------------------------|:--------|:----------|
+| responsive_web_graphql_timeline_navigation_enabled                      | boolean | False     |
+| unified_cards_ad_metadata_container_dynamic_card_content_query_enabled  | boolean | True      |
+| dont_mention_me_view_api_enabled                                        | boolean | True      |
+| responsive_web_uc_gql_enabled                                           | boolean | True      |
+| vibe_api_enabled                                                        | boolean | False     |
+| responsive_web_edit_tweet_api_enabled                                   | boolean | True      |
+| graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | True      |
+| standardized_nudges_misinfo                                             | boolean | True      |
+| tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | True      |
+| interactive_text_enabled                                                | boolean | True      |
+| responsive_web_text_conversations_enabled                               | boolean | True      |
+| responsive_web_enhance_cards_enabled                                    | boolean | True      |
 
 #### queryId<br>
 `None`<br>
@@ -3124,20 +3124,20 @@ Login Required: `Future`<br>
 {...n,...(0,g.d)(t),"articleListSeedType":"i"}
 ```
 #### features<br>
-| key                                                                     | type    | variable   |
-|:------------------------------------------------------------------------|:--------|:-----------|
-| responsive_web_graphql_timeline_navigation_enabled                      | boolean | Future     |
-| unified_cards_ad_metadata_container_dynamic_card_content_query_enabled  | boolean | Future     |
-| dont_mention_me_view_api_enabled                                        | boolean | Future     |
-| responsive_web_uc_gql_enabled                                           | boolean | Future     |
-| vibe_api_enabled                                                        | boolean | Future     |
-| responsive_web_edit_tweet_api_enabled                                   | boolean | Future     |
-| graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | Future     |
-| standardized_nudges_misinfo                                             | boolean | Future     |
-| tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | Future     |
-| interactive_text_enabled                                                | boolean | Future     |
-| responsive_web_text_conversations_enabled                               | boolean | Future     |
-| responsive_web_enhance_cards_enabled                                    | boolean | Future     |
+| key                                                                     | type    | default   |
+|:------------------------------------------------------------------------|:--------|:----------|
+| responsive_web_graphql_timeline_navigation_enabled                      | boolean | False     |
+| unified_cards_ad_metadata_container_dynamic_card_content_query_enabled  | boolean | True      |
+| dont_mention_me_view_api_enabled                                        | boolean | True      |
+| responsive_web_uc_gql_enabled                                           | boolean | True      |
+| vibe_api_enabled                                                        | boolean | False     |
+| responsive_web_edit_tweet_api_enabled                                   | boolean | True      |
+| graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | True      |
+| standardized_nudges_misinfo                                             | boolean | True      |
+| tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | True      |
+| interactive_text_enabled                                                | boolean | True      |
+| responsive_web_text_conversations_enabled                               | boolean | True      |
+| responsive_web_enhance_cards_enabled                                    | boolean | True      |
 
 #### queryId<br>
 `None`<br>
@@ -3152,20 +3152,20 @@ Login Required: `Future`<br>
 {...n,...(0,g.d)(t),"articleListSeedType":"i"}
 ```
 #### features<br>
-| key                                                                     | type    | variable   |
-|:------------------------------------------------------------------------|:--------|:-----------|
-| responsive_web_graphql_timeline_navigation_enabled                      | boolean | Future     |
-| unified_cards_ad_metadata_container_dynamic_card_content_query_enabled  | boolean | Future     |
-| dont_mention_me_view_api_enabled                                        | boolean | Future     |
-| responsive_web_uc_gql_enabled                                           | boolean | Future     |
-| vibe_api_enabled                                                        | boolean | Future     |
-| responsive_web_edit_tweet_api_enabled                                   | boolean | Future     |
-| graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | Future     |
-| standardized_nudges_misinfo                                             | boolean | Future     |
-| tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | Future     |
-| interactive_text_enabled                                                | boolean | Future     |
-| responsive_web_text_conversations_enabled                               | boolean | Future     |
-| responsive_web_enhance_cards_enabled                                    | boolean | Future     |
+| key                                                                     | type    | default   |
+|:------------------------------------------------------------------------|:--------|:----------|
+| responsive_web_graphql_timeline_navigation_enabled                      | boolean | False     |
+| unified_cards_ad_metadata_container_dynamic_card_content_query_enabled  | boolean | True      |
+| dont_mention_me_view_api_enabled                                        | boolean | True      |
+| responsive_web_uc_gql_enabled                                           | boolean | True      |
+| vibe_api_enabled                                                        | boolean | False     |
+| responsive_web_edit_tweet_api_enabled                                   | boolean | True      |
+| graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | True      |
+| standardized_nudges_misinfo                                             | boolean | True      |
+| tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | True      |
+| interactive_text_enabled                                                | boolean | True      |
+| responsive_web_text_conversations_enabled                               | boolean | True      |
+| responsive_web_enhance_cards_enabled                                    | boolean | True      |
 
 #### queryId<br>
 `None`<br>
@@ -3180,20 +3180,20 @@ Login Required: `Future`<br>
 {"rest_id":"a","cursor":"r","context":JSON.stringify({"data_lookup_id":"o"}),...(0,g.d)(t)}
 ```
 #### features<br>
-| key                                                                     | type    | variable   |
-|:------------------------------------------------------------------------|:--------|:-----------|
-| responsive_web_graphql_timeline_navigation_enabled                      | boolean | Future     |
-| unified_cards_ad_metadata_container_dynamic_card_content_query_enabled  | boolean | Future     |
-| dont_mention_me_view_api_enabled                                        | boolean | Future     |
-| responsive_web_uc_gql_enabled                                           | boolean | Future     |
-| vibe_api_enabled                                                        | boolean | Future     |
-| responsive_web_edit_tweet_api_enabled                                   | boolean | Future     |
-| graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | Future     |
-| standardized_nudges_misinfo                                             | boolean | Future     |
-| tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | Future     |
-| interactive_text_enabled                                                | boolean | Future     |
-| responsive_web_text_conversations_enabled                               | boolean | Future     |
-| responsive_web_enhance_cards_enabled                                    | boolean | Future     |
+| key                                                                     | type    | default   |
+|:------------------------------------------------------------------------|:--------|:----------|
+| responsive_web_graphql_timeline_navigation_enabled                      | boolean | False     |
+| unified_cards_ad_metadata_container_dynamic_card_content_query_enabled  | boolean | True      |
+| dont_mention_me_view_api_enabled                                        | boolean | True      |
+| responsive_web_uc_gql_enabled                                           | boolean | True      |
+| vibe_api_enabled                                                        | boolean | False     |
+| responsive_web_edit_tweet_api_enabled                                   | boolean | True      |
+| graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | True      |
+| standardized_nudges_misinfo                                             | boolean | True      |
+| tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | True      |
+| interactive_text_enabled                                                | boolean | True      |
+| responsive_web_text_conversations_enabled                               | boolean | True      |
+| responsive_web_enhance_cards_enabled                                    | boolean | True      |
 
 #### queryId<br>
 `None`<br>
@@ -3208,20 +3208,20 @@ Login Required: `Future`<br>
 {"rest_id":"a","cursor":"r","context":JSON.stringify({"data_lookup_id":"o"}),...(0,g.d)(t)}
 ```
 #### features<br>
-| key                                                                     | type    | variable   |
-|:------------------------------------------------------------------------|:--------|:-----------|
-| responsive_web_graphql_timeline_navigation_enabled                      | boolean | Future     |
-| unified_cards_ad_metadata_container_dynamic_card_content_query_enabled  | boolean | Future     |
-| dont_mention_me_view_api_enabled                                        | boolean | Future     |
-| responsive_web_uc_gql_enabled                                           | boolean | Future     |
-| vibe_api_enabled                                                        | boolean | Future     |
-| responsive_web_edit_tweet_api_enabled                                   | boolean | Future     |
-| graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | Future     |
-| standardized_nudges_misinfo                                             | boolean | Future     |
-| tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | Future     |
-| interactive_text_enabled                                                | boolean | Future     |
-| responsive_web_text_conversations_enabled                               | boolean | Future     |
-| responsive_web_enhance_cards_enabled                                    | boolean | Future     |
+| key                                                                     | type    | default   |
+|:------------------------------------------------------------------------|:--------|:----------|
+| responsive_web_graphql_timeline_navigation_enabled                      | boolean | False     |
+| unified_cards_ad_metadata_container_dynamic_card_content_query_enabled  | boolean | True      |
+| dont_mention_me_view_api_enabled                                        | boolean | True      |
+| responsive_web_uc_gql_enabled                                           | boolean | True      |
+| vibe_api_enabled                                                        | boolean | False     |
+| responsive_web_edit_tweet_api_enabled                                   | boolean | True      |
+| graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | True      |
+| standardized_nudges_misinfo                                             | boolean | True      |
+| tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | True      |
+| interactive_text_enabled                                                | boolean | True      |
+| responsive_web_text_conversations_enabled                               | boolean | True      |
+| responsive_web_enhance_cards_enabled                                    | boolean | True      |
 
 #### queryId<br>
 `None`<br>
@@ -3236,20 +3236,20 @@ Login Required: `Future`<br>
 {"cursor":"r",...(0,g.d)(t)}
 ```
 #### features<br>
-| key                                                                     | type    | variable   |
-|:------------------------------------------------------------------------|:--------|:-----------|
-| responsive_web_graphql_timeline_navigation_enabled                      | boolean | Future     |
-| unified_cards_ad_metadata_container_dynamic_card_content_query_enabled  | boolean | Future     |
-| dont_mention_me_view_api_enabled                                        | boolean | Future     |
-| responsive_web_uc_gql_enabled                                           | boolean | Future     |
-| vibe_api_enabled                                                        | boolean | Future     |
-| responsive_web_edit_tweet_api_enabled                                   | boolean | Future     |
-| graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | Future     |
-| standardized_nudges_misinfo                                             | boolean | Future     |
-| tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | Future     |
-| interactive_text_enabled                                                | boolean | Future     |
-| responsive_web_text_conversations_enabled                               | boolean | Future     |
-| responsive_web_enhance_cards_enabled                                    | boolean | Future     |
+| key                                                                     | type    | default   |
+|:------------------------------------------------------------------------|:--------|:----------|
+| responsive_web_graphql_timeline_navigation_enabled                      | boolean | False     |
+| unified_cards_ad_metadata_container_dynamic_card_content_query_enabled  | boolean | True      |
+| dont_mention_me_view_api_enabled                                        | boolean | True      |
+| responsive_web_uc_gql_enabled                                           | boolean | True      |
+| vibe_api_enabled                                                        | boolean | False     |
+| responsive_web_edit_tweet_api_enabled                                   | boolean | True      |
+| graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | True      |
+| standardized_nudges_misinfo                                             | boolean | True      |
+| tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | True      |
+| interactive_text_enabled                                                | boolean | True      |
+| responsive_web_text_conversations_enabled                               | boolean | True      |
+| responsive_web_enhance_cards_enabled                                    | boolean | True      |
 
 #### queryId<br>
 `None`<br>
@@ -3278,20 +3278,20 @@ Login Required: `Future`<br>
 {"topicId":"r",...(0,g.d)(t)}
 ```
 #### features<br>
-| key                                                                     | type    | variable   |
-|:------------------------------------------------------------------------|:--------|:-----------|
-| responsive_web_graphql_timeline_navigation_enabled                      | boolean | Future     |
-| unified_cards_ad_metadata_container_dynamic_card_content_query_enabled  | boolean | Future     |
-| dont_mention_me_view_api_enabled                                        | boolean | Future     |
-| responsive_web_uc_gql_enabled                                           | boolean | Future     |
-| vibe_api_enabled                                                        | boolean | Future     |
-| responsive_web_edit_tweet_api_enabled                                   | boolean | Future     |
-| graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | Future     |
-| standardized_nudges_misinfo                                             | boolean | Future     |
-| tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | Future     |
-| interactive_text_enabled                                                | boolean | Future     |
-| responsive_web_text_conversations_enabled                               | boolean | Future     |
-| responsive_web_enhance_cards_enabled                                    | boolean | Future     |
+| key                                                                     | type    | default   |
+|:------------------------------------------------------------------------|:--------|:----------|
+| responsive_web_graphql_timeline_navigation_enabled                      | boolean | False     |
+| unified_cards_ad_metadata_container_dynamic_card_content_query_enabled  | boolean | True      |
+| dont_mention_me_view_api_enabled                                        | boolean | True      |
+| responsive_web_uc_gql_enabled                                           | boolean | True      |
+| vibe_api_enabled                                                        | boolean | False     |
+| responsive_web_edit_tweet_api_enabled                                   | boolean | True      |
+| graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | True      |
+| standardized_nudges_misinfo                                             | boolean | True      |
+| tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | True      |
+| interactive_text_enabled                                                | boolean | True      |
+| responsive_web_text_conversations_enabled                               | boolean | True      |
+| responsive_web_enhance_cards_enabled                                    | boolean | True      |
 
 #### queryId<br>
 `None`<br>
@@ -3306,20 +3306,20 @@ Login Required: `Future`<br>
 {...(0,g.d)(t)}
 ```
 #### features<br>
-| key                                                                     | type    | variable   |
-|:------------------------------------------------------------------------|:--------|:-----------|
-| responsive_web_graphql_timeline_navigation_enabled                      | boolean | Future     |
-| unified_cards_ad_metadata_container_dynamic_card_content_query_enabled  | boolean | Future     |
-| dont_mention_me_view_api_enabled                                        | boolean | Future     |
-| responsive_web_uc_gql_enabled                                           | boolean | Future     |
-| vibe_api_enabled                                                        | boolean | Future     |
-| responsive_web_edit_tweet_api_enabled                                   | boolean | Future     |
-| graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | Future     |
-| standardized_nudges_misinfo                                             | boolean | Future     |
-| tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | Future     |
-| interactive_text_enabled                                                | boolean | Future     |
-| responsive_web_text_conversations_enabled                               | boolean | Future     |
-| responsive_web_enhance_cards_enabled                                    | boolean | Future     |
+| key                                                                     | type    | default   |
+|:------------------------------------------------------------------------|:--------|:----------|
+| responsive_web_graphql_timeline_navigation_enabled                      | boolean | False     |
+| unified_cards_ad_metadata_container_dynamic_card_content_query_enabled  | boolean | True      |
+| dont_mention_me_view_api_enabled                                        | boolean | True      |
+| responsive_web_uc_gql_enabled                                           | boolean | True      |
+| vibe_api_enabled                                                        | boolean | False     |
+| responsive_web_edit_tweet_api_enabled                                   | boolean | True      |
+| graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | True      |
+| standardized_nudges_misinfo                                             | boolean | True      |
+| tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | True      |
+| interactive_text_enabled                                                | boolean | True      |
+| responsive_web_text_conversations_enabled                               | boolean | True      |
+| responsive_web_enhance_cards_enabled                                    | boolean | True      |
 
 #### queryId<br>
 `None`<br>
@@ -3334,20 +3334,20 @@ Login Required: `Future`<br>
 {"userId":"a","cursor":"o","context":"r",...(0,g.d)(t)}
 ```
 #### features<br>
-| key                                                                     | type    | variable   |
-|:------------------------------------------------------------------------|:--------|:-----------|
-| responsive_web_graphql_timeline_navigation_enabled                      | boolean | Future     |
-| unified_cards_ad_metadata_container_dynamic_card_content_query_enabled  | boolean | Future     |
-| dont_mention_me_view_api_enabled                                        | boolean | Future     |
-| responsive_web_uc_gql_enabled                                           | boolean | Future     |
-| vibe_api_enabled                                                        | boolean | Future     |
-| responsive_web_edit_tweet_api_enabled                                   | boolean | Future     |
-| graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | Future     |
-| standardized_nudges_misinfo                                             | boolean | Future     |
-| tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | Future     |
-| interactive_text_enabled                                                | boolean | Future     |
-| responsive_web_text_conversations_enabled                               | boolean | Future     |
-| responsive_web_enhance_cards_enabled                                    | boolean | Future     |
+| key                                                                     | type    | default   |
+|:------------------------------------------------------------------------|:--------|:----------|
+| responsive_web_graphql_timeline_navigation_enabled                      | boolean | False     |
+| unified_cards_ad_metadata_container_dynamic_card_content_query_enabled  | boolean | True      |
+| dont_mention_me_view_api_enabled                                        | boolean | True      |
+| responsive_web_uc_gql_enabled                                           | boolean | True      |
+| vibe_api_enabled                                                        | boolean | False     |
+| responsive_web_edit_tweet_api_enabled                                   | boolean | True      |
+| graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | True      |
+| standardized_nudges_misinfo                                             | boolean | True      |
+| tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | True      |
+| interactive_text_enabled                                                | boolean | True      |
+| responsive_web_text_conversations_enabled                               | boolean | True      |
+| responsive_web_enhance_cards_enabled                                    | boolean | True      |
 
 #### queryId<br>
 `None`<br>
@@ -3362,20 +3362,20 @@ Login Required: `Future`<br>
 {"rest_id":"o","cursor":"r",...(0,g.d)(t)}
 ```
 #### features<br>
-| key                                                                     | type    | variable   |
-|:------------------------------------------------------------------------|:--------|:-----------|
-| responsive_web_graphql_timeline_navigation_enabled                      | boolean | Future     |
-| unified_cards_ad_metadata_container_dynamic_card_content_query_enabled  | boolean | Future     |
-| dont_mention_me_view_api_enabled                                        | boolean | Future     |
-| responsive_web_uc_gql_enabled                                           | boolean | Future     |
-| vibe_api_enabled                                                        | boolean | Future     |
-| responsive_web_edit_tweet_api_enabled                                   | boolean | Future     |
-| graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | Future     |
-| standardized_nudges_misinfo                                             | boolean | Future     |
-| tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | Future     |
-| interactive_text_enabled                                                | boolean | Future     |
-| responsive_web_text_conversations_enabled                               | boolean | Future     |
-| responsive_web_enhance_cards_enabled                                    | boolean | Future     |
+| key                                                                     | type    | default   |
+|:------------------------------------------------------------------------|:--------|:----------|
+| responsive_web_graphql_timeline_navigation_enabled                      | boolean | False     |
+| unified_cards_ad_metadata_container_dynamic_card_content_query_enabled  | boolean | True      |
+| dont_mention_me_view_api_enabled                                        | boolean | True      |
+| responsive_web_uc_gql_enabled                                           | boolean | True      |
+| vibe_api_enabled                                                        | boolean | False     |
+| responsive_web_edit_tweet_api_enabled                                   | boolean | True      |
+| graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | True      |
+| standardized_nudges_misinfo                                             | boolean | True      |
+| tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | True      |
+| interactive_text_enabled                                                | boolean | True      |
+| responsive_web_text_conversations_enabled                               | boolean | True      |
+| responsive_web_enhance_cards_enabled                                    | boolean | True      |
 
 #### queryId<br>
 `None`<br>
@@ -3446,20 +3446,20 @@ Login Required: `Future`<br>
 {"userId":"r",...(0,g.d)(t)}
 ```
 #### features<br>
-| key                                                                     | type    | variable   |
-|:------------------------------------------------------------------------|:--------|:-----------|
-| responsive_web_graphql_timeline_navigation_enabled                      | boolean | Future     |
-| unified_cards_ad_metadata_container_dynamic_card_content_query_enabled  | boolean | Future     |
-| dont_mention_me_view_api_enabled                                        | boolean | Future     |
-| responsive_web_uc_gql_enabled                                           | boolean | Future     |
-| vibe_api_enabled                                                        | boolean | Future     |
-| responsive_web_edit_tweet_api_enabled                                   | boolean | Future     |
-| graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | Future     |
-| standardized_nudges_misinfo                                             | boolean | Future     |
-| tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | Future     |
-| interactive_text_enabled                                                | boolean | Future     |
-| responsive_web_text_conversations_enabled                               | boolean | Future     |
-| responsive_web_enhance_cards_enabled                                    | boolean | Future     |
+| key                                                                     | type    | default   |
+|:------------------------------------------------------------------------|:--------|:----------|
+| responsive_web_graphql_timeline_navigation_enabled                      | boolean | False     |
+| unified_cards_ad_metadata_container_dynamic_card_content_query_enabled  | boolean | True      |
+| dont_mention_me_view_api_enabled                                        | boolean | True      |
+| responsive_web_uc_gql_enabled                                           | boolean | True      |
+| vibe_api_enabled                                                        | boolean | False     |
+| responsive_web_edit_tweet_api_enabled                                   | boolean | True      |
+| graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | True      |
+| standardized_nudges_misinfo                                             | boolean | True      |
+| tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | True      |
+| interactive_text_enabled                                                | boolean | True      |
+| responsive_web_text_conversations_enabled                               | boolean | True      |
+| responsive_web_enhance_cards_enabled                                    | boolean | True      |
 
 #### queryId<br>
 `None`<br>
@@ -3496,10 +3496,10 @@ Login Required: `Future`<br>
 | rest_id | Future | t          |
 
 #### features<br>
-| key                                             | type    | variable   |
-|:------------------------------------------------|:--------|:-----------|
-| profile_foundations_tweet_stats_enabled         | boolean | Future     |
-| profile_foundations_tweet_stats_tweet_frequency | boolean | Future     |
+| key                                             | type    | default   |
+|:------------------------------------------------|:--------|:----------|
+| profile_foundations_tweet_stats_enabled         | boolean | True      |
+| profile_foundations_tweet_stats_tweet_frequency | boolean | True      |
 
 #### queryId<br>
 `None`<br>
@@ -3514,9 +3514,9 @@ Login Required: `Future`<br>
 | twitterArticleId | Future | n          |
 
 #### features<br>
-| key                                                | type    | variable   |
-|:---------------------------------------------------|:--------|:-----------|
-| responsive_web_graphql_timeline_navigation_enabled | boolean | Future     |
+| key                                                | type    | default   |
+|:---------------------------------------------------|:--------|:----------|
+| responsive_web_graphql_timeline_navigation_enabled | boolean | False     |
 
 #### queryId<br>
 `None`<br>
@@ -3531,9 +3531,9 @@ Login Required: `Future`<br>
 | data  | Future | {'content_state_json': 'n'} |
 
 #### features<br>
-| key                                                | type    | variable   |
-|:---------------------------------------------------|:--------|:-----------|
-| responsive_web_graphql_timeline_navigation_enabled | boolean | Future     |
+| key                                                | type    | default   |
+|:---------------------------------------------------|:--------|:----------|
+| responsive_web_graphql_timeline_navigation_enabled | boolean | False     |
 
 #### queryId<br>
 `None`<br>
@@ -3563,9 +3563,9 @@ Login Required: `Future`<br>
 | mediaId          | Future | n          |
 
 #### features<br>
-| key                                                | type    | variable   |
-|:---------------------------------------------------|:--------|:-----------|
-| responsive_web_graphql_timeline_navigation_enabled | boolean | Future     |
+| key                                                | type    | default   |
+|:---------------------------------------------------|:--------|:----------|
+| responsive_web_graphql_timeline_navigation_enabled | boolean | False     |
 
 #### queryId<br>
 `None`<br>
@@ -3581,9 +3581,9 @@ Login Required: `Future`<br>
 | data             | Future | {'content_state_json': 'n', 'plaintext': 'i', 'word_count': 'o'} |
 
 #### features<br>
-| key                                                | type    | variable   |
-|:---------------------------------------------------|:--------|:-----------|
-| responsive_web_graphql_timeline_navigation_enabled | boolean | Future     |
+| key                                                | type    | default   |
+|:---------------------------------------------------|:--------|:----------|
+| responsive_web_graphql_timeline_navigation_enabled | boolean | False     |
 
 #### queryId<br>
 `None`<br>
@@ -3599,9 +3599,9 @@ Login Required: `Future`<br>
 | mediaKeys        | Future | n          |
 
 #### features<br>
-| key                                                | type    | variable   |
-|:---------------------------------------------------|:--------|:-----------|
-| responsive_web_graphql_timeline_navigation_enabled | boolean | Future     |
+| key                                                | type    | default   |
+|:---------------------------------------------------|:--------|:----------|
+| responsive_web_graphql_timeline_navigation_enabled | boolean | False     |
 
 #### queryId<br>
 `None`<br>
@@ -3617,9 +3617,9 @@ Login Required: `Future`<br>
 | title            | Future | n          |
 
 #### features<br>
-| key                                                | type    | variable   |
-|:---------------------------------------------------|:--------|:-----------|
-| responsive_web_graphql_timeline_navigation_enabled | boolean | Future     |
+| key                                                | type    | default   |
+|:---------------------------------------------------|:--------|:----------|
+| responsive_web_graphql_timeline_navigation_enabled | boolean | False     |
 
 #### queryId<br>
 `None`<br>
@@ -3635,9 +3635,9 @@ Login Required: `Future`<br>
 | visibility       | Future | i          |
 
 #### features<br>
-| key                                                | type    | variable   |
-|:---------------------------------------------------|:--------|:-----------|
-| responsive_web_graphql_timeline_navigation_enabled | boolean | Future     |
+| key                                                | type    | default   |
+|:---------------------------------------------------|:--------|:----------|
+| responsive_web_graphql_timeline_navigation_enabled | boolean | False     |
 
 #### queryId<br>
 `None`<br>
@@ -3694,9 +3694,9 @@ Login Required: `Future`<br>
 {"withCommunitiesMemberships":t.isTrue("c9s_enabled"),"withCommunitiesCreation":t.isTrue("c9s_community_creation_enabled"),"withSuperFollowsUserFields":t.isTrue("super_follow_user_api_enabled")}
 ```
 #### features<br>
-| key                                                | type    | variable   |
-|:---------------------------------------------------|:--------|:-----------|
-| responsive_web_graphql_timeline_navigation_enabled | boolean | Future     |
+| key                                                | type    | default   |
+|:---------------------------------------------------|:--------|:----------|
+| responsive_web_graphql_timeline_navigation_enabled | boolean | False     |
 
 #### queryId<br>
 `None`<br>
@@ -3711,9 +3711,9 @@ Login Required: `Future`<br>
 {"screen_name":"n","withSafetyModeUserFields":t.isTrue("rito_safety_mode_blocked_profile_enabled"),"withSuperFollowsUserFields":t.isTrue("super_follow_user_api_enabled")}
 ```
 #### features<br>
-| key                                                | type    | variable   |
-|:---------------------------------------------------|:--------|:-----------|
-| responsive_web_graphql_timeline_navigation_enabled | boolean | Future     |
+| key                                                | type    | default   |
+|:---------------------------------------------------|:--------|:----------|
+| responsive_web_graphql_timeline_navigation_enabled | boolean | False     |
 
 #### queryId<br>
 `None`<br>
@@ -3728,9 +3728,9 @@ Login Required: `Future`<br>
 {"userId":"n","withSafetyModeUserFields":t.isTrue("rito_safety_mode_blocked_profile_enabled"),"withSuperFollowsUserFields":t.isTrue("super_follow_user_api_enabled")}
 ```
 #### features<br>
-| key                                                | type    | variable   |
-|:---------------------------------------------------|:--------|:-----------|
-| responsive_web_graphql_timeline_navigation_enabled | boolean | Future     |
+| key                                                | type    | default   |
+|:---------------------------------------------------|:--------|:----------|
+| responsive_web_graphql_timeline_navigation_enabled | boolean | False     |
 
 #### queryId<br>
 `None`<br>
@@ -3745,9 +3745,9 @@ Login Required: `Future`<br>
 {"userIds":n.split(","),"withSuperFollowsUserFields":t.isTrue("super_follow_user_api_enabled")}
 ```
 #### features<br>
-| key                                                | type    | variable   |
-|:---------------------------------------------------|:--------|:-----------|
-| responsive_web_graphql_timeline_navigation_enabled | boolean | Future     |
+| key                                                | type    | default   |
+|:---------------------------------------------------|:--------|:----------|
+| responsive_web_graphql_timeline_navigation_enabled | boolean | False     |
 
 #### queryId<br>
 `None`<br>
@@ -3776,20 +3776,20 @@ Login Required: `Future`<br>
 {"includePromotedContent":"!0",...(0,g.d)(t)}
 ```
 #### features<br>
-| key                                                                     | type    | variable   |
-|:------------------------------------------------------------------------|:--------|:-----------|
-| responsive_web_graphql_timeline_navigation_enabled                      | boolean | Future     |
-| unified_cards_ad_metadata_container_dynamic_card_content_query_enabled  | boolean | Future     |
-| dont_mention_me_view_api_enabled                                        | boolean | Future     |
-| responsive_web_uc_gql_enabled                                           | boolean | Future     |
-| vibe_api_enabled                                                        | boolean | Future     |
-| responsive_web_edit_tweet_api_enabled                                   | boolean | Future     |
-| graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | Future     |
-| standardized_nudges_misinfo                                             | boolean | Future     |
-| tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | Future     |
-| interactive_text_enabled                                                | boolean | Future     |
-| responsive_web_text_conversations_enabled                               | boolean | Future     |
-| responsive_web_enhance_cards_enabled                                    | boolean | Future     |
+| key                                                                     | type    | default   |
+|:------------------------------------------------------------------------|:--------|:----------|
+| responsive_web_graphql_timeline_navigation_enabled                      | boolean | False     |
+| unified_cards_ad_metadata_container_dynamic_card_content_query_enabled  | boolean | True      |
+| dont_mention_me_view_api_enabled                                        | boolean | True      |
+| responsive_web_uc_gql_enabled                                           | boolean | True      |
+| vibe_api_enabled                                                        | boolean | False     |
+| responsive_web_edit_tweet_api_enabled                                   | boolean | True      |
+| graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | True      |
+| standardized_nudges_misinfo                                             | boolean | True      |
+| tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | True      |
+| interactive_text_enabled                                                | boolean | True      |
+| responsive_web_text_conversations_enabled                               | boolean | True      |
+| responsive_web_enhance_cards_enabled                                    | boolean | True      |
 
 #### queryId<br>
 `None`<br>
@@ -3818,20 +3818,20 @@ Login Required: `Future`<br>
 {"count":"i","cursor":"r","context":"n",...(0,g.d)(t)}
 ```
 #### features<br>
-| key                                                                     | type    | variable   |
-|:------------------------------------------------------------------------|:--------|:-----------|
-| responsive_web_graphql_timeline_navigation_enabled                      | boolean | Future     |
-| unified_cards_ad_metadata_container_dynamic_card_content_query_enabled  | boolean | Future     |
-| dont_mention_me_view_api_enabled                                        | boolean | Future     |
-| responsive_web_uc_gql_enabled                                           | boolean | Future     |
-| vibe_api_enabled                                                        | boolean | Future     |
-| responsive_web_edit_tweet_api_enabled                                   | boolean | Future     |
-| graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | Future     |
-| standardized_nudges_misinfo                                             | boolean | Future     |
-| tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | Future     |
-| interactive_text_enabled                                                | boolean | Future     |
-| responsive_web_text_conversations_enabled                               | boolean | Future     |
-| responsive_web_enhance_cards_enabled                                    | boolean | Future     |
+| key                                                                     | type    | default   |
+|:------------------------------------------------------------------------|:--------|:----------|
+| responsive_web_graphql_timeline_navigation_enabled                      | boolean | False     |
+| unified_cards_ad_metadata_container_dynamic_card_content_query_enabled  | boolean | True      |
+| dont_mention_me_view_api_enabled                                        | boolean | True      |
+| responsive_web_uc_gql_enabled                                           | boolean | True      |
+| vibe_api_enabled                                                        | boolean | False     |
+| responsive_web_edit_tweet_api_enabled                                   | boolean | True      |
+| graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | True      |
+| standardized_nudges_misinfo                                             | boolean | True      |
+| tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | True      |
+| interactive_text_enabled                                                | boolean | True      |
+| responsive_web_text_conversations_enabled                               | boolean | True      |
+| responsive_web_enhance_cards_enabled                                    | boolean | True      |
 
 #### queryId<br>
 `None`<br>

@@ -36,6 +36,7 @@ class js_data:
     def __init__(self):
         self.children: list = []
         self.parent: js_data = None
+        self.after = None
         self.before = None
 
 
@@ -44,6 +45,7 @@ class js_search_data:
         self.children: list = []
         self.parent: js_data = None
         self.after = None
+        self.before = None
         self.data = None
 
 
@@ -58,7 +60,10 @@ def search_js(js: js_data, search: str) -> list[js_search_data]:
             output.append(js_search_data())
             output[-1].children = js.children
             output[-1].parent = js
-            output[-1].after = js.children[key + 1]
+            if len(js.children) > key + 1:
+                output[-1].after = js.children[key + 1]
+            if len(js.children) > 0:
+                output[-1].before = js.children[key - 1]
             output[-1].data = search
             break
     return output
@@ -77,7 +82,10 @@ def search_js_reg(js: js_data, search: str) -> list[js_search_data]:
                 output.append(js_search_data())
                 output[-1].children = js.children[key]
                 output[-1].parent = js
-                output[-1].after = js.children[key + 1]
+                if len(js.children) > key + 1:
+                    output[-1].after = js.children[key + 1]
+                if len(js.children) > 0:
+                    output[-1].before = js.children[key - 1]
                 output[-1].data = find
                 break
     return output
@@ -145,6 +153,32 @@ def marge_exports(parsed_list: list, graphql_output: list) -> list:
     return graphql_output
 
 
+def get_freeze_object(parsed_list: list) -> list:
+
+    reg_freeze_object = "Object\.freeze\($"
+    freeze_object_list = search_js_reg(parsed_list, reg_freeze_object)
+    freeze_object_output = []
+
+    for freeze_object in freeze_object_list:
+        if len(freeze_object.after.children) > 0:
+            obj = json_parser(freeze_object.after)
+            try:
+                obj = json.loads(obj)
+            except:
+                pass
+            freeze_object_output.append(obj)
+    return freeze_object_output
+
+
+def get_feature_switches(parsed_list: list) -> list:
+    reg_exports = "e\.exports={var}$".format(var="([a-zA-Z]{1,2})")
+    exports_list = search_js_reg(parsed_list, reg_exports)
+    for exports in exports_list:
+        feature_switches = get_freeze_object(exports.parent)
+        if len(feature_switches) > 0:
+            return feature_switches[0]
+
+
 class md_generator:
     def __init__(self):
         self.output = ""
@@ -174,12 +208,18 @@ class md_generator:
         datafram = pd.DataFrame(data)
         self.output += f"{datafram.to_markdown(index=False)}{end}"
 
+    def table_escape(self, text: str):
+        if type(text) is str:
+            return text.replace("|", "\|")
+        else:
+            return text
+
     def save(self, file_name: str):
         with open(file_name, "w") as f:
             f.write(self.output)
 
 
-def gen_md_graphql(graphql_output: list) -> md_generator:
+def gen_md_graphql(graphql_output: list, feature_switches_output: list) -> md_generator:
     md = md_generator()
     md.h1("Twitter Internal GraphQL API Document")
     md.p("This document is entirely auto-generated and may contain errors.")
@@ -232,9 +272,7 @@ def gen_md_graphql(graphql_output: list) -> md_generator:
         if type(query) is dict and len(query) > 0:
             datafram = []
             for key in query.keys():
-                datafram.append(
-                    {"key": key, "type": "Future", "variable": query[key],}
-                )
+                datafram.append({"key": key, "type": "Future", "variable": query[key]})
             md.table(datafram)
         elif type(query) is list and len(query) == 0:
             md.inline("None")
@@ -247,9 +285,10 @@ def gen_md_graphql(graphql_output: list) -> md_generator:
         if type(switches) is list and len(switches) > 0:
             datafram = []
             for switch in exports["metadata"]["featureSwitches"]:
-                datafram.append(
-                    {"key": switch, "type": "boolean", "variable": "Future"}
+                default = {"!0": True, "!1": False}.get(
+                    feature_switches_output.get(switch, None), None
                 )
+                datafram.append({"key": switch, "type": "boolean", "default": default})
             md.table(datafram)
         elif type(switches) is list and len(switches) == 0:
             md.inline("None")
@@ -264,6 +303,27 @@ def gen_md_graphql(graphql_output: list) -> md_generator:
     return md
 
 
+def gen_md_freeze_object(freeze_object_output: list) -> md_generator:
+    md = md_generator()
+    md.h1("Twitter Internal Constants Document")
+    md.p("This document is entirely auto-generated and may contain errors.")
+
+    for freeze_object in freeze_object_output:
+        if type(freeze_object) is dict:
+            datafram = []
+            for key in freeze_object.keys():
+                value = freeze_object[key]
+                if type(value) is str:
+                    value = {"!0": True, "!1": False}.get(value, value)
+                datafram.append(
+                    {"constant": key, "value": md.table_escape(value)}
+                )
+            md.table(datafram)
+        else:
+            md.code("# Error\n" + freeze_object, title="internal process")
+    return md
+
+
 os.makedirs("doc/json", exist_ok=True)
 os.makedirs("doc/markdown", exist_ok=True)
 
@@ -275,7 +335,14 @@ parsed_list = js(response.text).parser()
 graphql_output = get_graphql(parsed_list)
 graphql_output = marge_exports(parsed_list, graphql_output)
 
+freeze_object_output = get_freeze_object(parsed_list)
+feature_switches_output = get_feature_switches(parsed_list)
+
+
 with open("doc/json/GraphQL.json", "w") as f:
     json.dump(graphql_output, f, ensure_ascii=False, indent=2)
+with open("doc/json/FreezeObject.json", "w") as f:
+    json.dump(freeze_object_output, f, ensure_ascii=False, indent=2)
 
-gen_md_graphql(graphql_output).save("doc/markdown/GraphQL.md")
+gen_md_graphql(graphql_output, feature_switches_output).save("doc/markdown/GraphQL.md")
+gen_md_freeze_object(freeze_object_output).save("doc/markdown/FreezeObject.md")
