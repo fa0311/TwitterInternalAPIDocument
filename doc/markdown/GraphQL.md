@@ -242,7 +242,7 @@ Login Required: `Future`<br>
 |:----------------|:-------|:-----------|
 | source_tweet_id | Future | r          |
 | comparison_id   | Future | t          |
-| dark_request    | Future | !0         |
+| dark_request    | Future | True       |
 
 #### features<br>
 `None`<br>
@@ -257,7 +257,7 @@ Login Required: `Future`<br>
 | key             | type   | variable   |
 |:----------------|:-------|:-----------|
 | source_tweet_id | Future | r          |
-| dark_request    | Future | !1         |
+| dark_request    | Future | False      |
 
 #### features<br>
 `None`<br>
@@ -382,7 +382,7 @@ Login Required: `Future`<br>
 | key          | type   | variable   |
 |:-------------|:-------|:-----------|
 | tweet_id     | Future | s          |
-| dark_request | Future | !1         |
+| dark_request | Future | False      |
 
 #### features<br>
 `None`<br>
@@ -398,7 +398,7 @@ Login Required: `Future`<br>
 |:--------------|:-------|:-----------|
 | tweet_id      | Future | s          |
 | comparison_id | Future | r          |
-| dark_request  | Future | !0         |
+| dark_request  | Future | True       |
 
 #### features<br>
 `None`<br>

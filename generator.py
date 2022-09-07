@@ -272,7 +272,10 @@ def gen_md_graphql(graphql_output: list, feature_switches_output: list) -> md_ge
         if type(query) is dict and len(query) > 0:
             datafram = []
             for key in query.keys():
-                datafram.append({"key": key, "type": "Future", "variable": query[key]})
+                value = query[key]
+                if type(value) is str:
+                    value = {"!0": True, "!1": False}.get(value, value)
+                datafram.append({"key": key, "type": "Future", "variable": value})
             md.table(datafram)
         elif type(query) is list and len(query) == 0:
             md.inline("None")
@@ -285,9 +288,7 @@ def gen_md_graphql(graphql_output: list, feature_switches_output: list) -> md_ge
         if type(switches) is list and len(switches) > 0:
             datafram = []
             for switch in exports["metadata"]["featureSwitches"]:
-                default = {"!0": True, "!1": False}.get(
-                    feature_switches_output.get(switch, None), None
-                )
+                default = {"!0": True, "!1": False}.get(feature_switches_output.get(switch))
                 datafram.append({"key": switch, "type": "boolean", "default": default})
             md.table(datafram)
         elif type(switches) is list and len(switches) == 0:
