@@ -1,4 +1,4 @@
-# Twitter Unofficial GraphQL API Document<br>
+# Twitter Internal GraphQL API Document<br>
 This document is entirely auto-generated and may contain errors.<br>
 ## Usage<br>
 If the parameter is an array type, encode it in json format.<br>
