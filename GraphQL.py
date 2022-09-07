@@ -191,7 +191,7 @@ class md_generator:
 
 
 md = md_generator()
-md.h1("Twitter Unofficial GraphQL API Document")
+md.h1("Twitter Internal GraphQL API Document")
 md.p("This document is entirely auto-generated and may contain errors.")
 md.h2("Usage")
 md.p("If the parameter is an array type, encode it in json format.")
