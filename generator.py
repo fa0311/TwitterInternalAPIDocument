@@ -329,10 +329,20 @@ def gen_md_freeze_object(freeze_object_output: list) -> md_generator:
 
 os.makedirs("doc/json", exist_ok=True)
 os.makedirs("doc/markdown", exist_ok=True)
+legacy = False
 
-response = requests.get(
-    "https://abs.twimg.com/responsive-web/client-web/main.811341e8.js"
+headers = {
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/{v}.0.0.0 Safari/537.36".format(v = "100" if legacy else "104")
+}
+
+response_home = requests.get("https://twitter.com/home", headers=headers)
+reg_script = '<script type="text/javascript" charset="utf-8" nonce="{nonce}" crossorigin="anonymous" src="{src}"></script>'.format(
+    nonce="([a-zA-Z0-9]{48})", src="(https://abs\.twimg\.com\/responsive\-web/[a-zA-Z0-9\-/]*?/main\.[a-z0-9]{8}\.js)"
 )
+
+src = re.findall(reg_script, response_home.text)[0][1]
+response = requests.get(src, headers=headers)
+print(f"src: {src}")
 
 parsed_list = js(response.text).parser()
 graphql_output = get_graphql(parsed_list)
