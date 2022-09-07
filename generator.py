@@ -4,13 +4,6 @@ import json
 import os
 import pandas as pd
 
-os.makedirs("doc/json", exist_ok=True)
-os.makedirs("doc/markdown", exist_ok=True)
-
-response = requests.get(
-    "https://abs.twimg.com/responsive-web/client-web/main.811341e8.js"
-)
-
 
 class js:
     def __init__(self, script):
@@ -101,59 +94,55 @@ def json_parser(js: js_data):
     return "{" + output + "}"
 
 
-parsed_list = js(response.text).parser()
+def get_graphql(parsed_list: list) -> list:
+    reg_graphql = "e\.graphQL\({func}\(\),$".format(func="([a-zA-Z_\$]{1,2})")
+    graphql_list = search_js_reg(parsed_list, reg_graphql)
+    graphql_output = []
 
-reg_graphql = "e\.graphQL\({func}\(\),$".format(func="([a-zA-Z_\$]{1,2})",)
-graphql_list = search_js_reg(parsed_list, reg_graphql)
-graphql_output = []
-print(len(graphql_list))
+    for graphql in graphql_list:
+        reg_func = "{func}=n.n\({arg}\)".format(
+            func=re.escape(graphql.data[0]), arg="([a-zA-Z_\$]{1,2})",
+        )
 
-for graphql in graphql_list:
-    reg_func = "{func}=n.n\({arg}\)".format(
-        func=re.escape(graphql.data[0]), arg="([a-zA-Z_\$]{1,2})",
-    )
-
-    graphql_parent = graphql.parent
-    match_func = search_js_reg(graphql_parent, reg_func)
-    while match_func == []:
-        graphql_parent = graphql_parent.parent
+        graphql_parent = graphql.parent
         match_func = search_js_reg(graphql_parent, reg_func)
+        while match_func == []:
+            graphql_parent = graphql_parent.parent
+            match_func = search_js_reg(graphql_parent, reg_func)
 
-    reg_func_init = "{func}=n\({arg}\)".format(
-        func=re.escape(match_func[0].data[0]), arg="([0-9]{1,5})",
-    )
-    match_func_init = search_js_reg(graphql_parent, reg_func_init)
-    n = match_func_init[0].data[0]
+        reg_func_init = "{func}=n\({arg}\)".format(
+            func=re.escape(match_func[0].data[0]), arg="([0-9]{1,5})",
+        )
+        match_func_init = search_js_reg(graphql_parent, reg_func_init)
+        n = match_func_init[0].data[0]
 
-    query = json_parser(graphql.after)
-    try:
-        query = json.loads(query)
-    except:
-        pass
-    graphql_output.append(
-        {
-            "n": n,
-            "func_name": graphql.data[0],
-            "func_name_init": match_func[0].data[0],
-            "query": query,
-        }
-    )
+        query = json_parser(graphql.after)
+        try:
+            query = json.loads(query)
+        except:
+            pass
+        graphql_output.append(
+            {
+                "n": n,
+                "func_name": graphql.data[0],
+                "func_name_init": match_func[0].data[0],
+                "query": query,
+            }
+        )
+    return graphql_output
 
 
-exports = search_js(parsed_list, "e.exports=")
-reg_exports = ",{int}:e=>".format(int="([0-9]{1,5})")
-for export in exports:
-    n = re.findall(reg_exports, export.parent.before)[0]
-    for key in range(len(graphql_output)):
-        if graphql_output[key]["n"] == n:
-            graphql_output[key].update(
-                {"exports": json.loads(json_parser(export.parent.children[1]))}
-            )
-
-with open("doc/json/GraphQL.json", "w") as f:
-    json.dump(graphql_output, f, ensure_ascii=False, indent=2)
-
-# Markdown
+def marge_exports(parsed_list: list, graphql_output: list) -> list:
+    exports = search_js(parsed_list, "e.exports=")
+    reg_exports = ",{int}:e=>".format(int="([0-9]{1,5})")
+    for export in exports:
+        n = re.findall(reg_exports, export.parent.before)[0]
+        for key in range(len(graphql_output)):
+            if graphql_output[key]["n"] == n:
+                graphql_output[key].update(
+                    {"exports": json.loads(json_parser(export.parent.children[1]))}
+                )
+    return graphql_output
 
 
 class md_generator:
@@ -186,88 +175,107 @@ class md_generator:
         self.output += f"{datafram.to_markdown(index=False)}{end}"
 
     def save(self, file_name: str):
-
         with open(file_name, "w") as f:
             f.write(self.output)
 
 
-md = md_generator()
-md.h1("Twitter Internal GraphQL API Document")
-md.p("This document is entirely auto-generated and may contain errors.")
-md.h2("Usage")
-md.p("If the parameter is an array type, encode it in json format.")
-md.p("Body example:")
-md.code(
-    """json.dumps({
-    "queryId": "kV0jgNRI3ofhHK_G5yhlZg",
-    "variables": json.dumps({
-        "tweet_text": "Hello, world!",
-        "media": {"media_entities": [], "possibly_sensitive": False},
-        "withDownvotePerspective": False,
-        "withReactionsMetadata": False,
-        "withReactionsPerspective": False,
-        "withSuperFollowsTweetFields": True,
-        "withSuperFollowsUserFields": False,
-        "semantic_annotation_ids": [],
-        "dark_request": False,
-        "withBirdwatchPivots": False,
-    }),
-})""",
-    title="Python",
-)
-md.p("`json.dumps` is equivalent to `JSON.stringify` in javaScript")
-
-for graphql in graphql_output:
-    exports = graphql["exports"]
-    query = graphql["query"]
-    switches = exports["metadata"]["featureSwitches"]
-
-    md.h2(exports["operationName"])
-    md.p("Request URL", end=": ")
-    md.inline(
-        "https://twitter.com/i/api/graphql/{queryId}/{operationName}".format(**exports)
+def gen_md_graphql(graphql_output: list) -> md_generator:
+    md = md_generator()
+    md.h1("Twitter Internal GraphQL API Document")
+    md.p("This document is entirely auto-generated and may contain errors.")
+    md.h2("Usage")
+    md.p("If the parameter is an array type, encode it in json format.")
+    md.p("Body example:")
+    md.code(
+        """json.dumps({
+        "queryId": "kV0jgNRI3ofhHK_G5yhlZg",
+        "variables": json.dumps({
+            "tweet_text": "Hello, world!",
+            "media": {"media_entities": [], "possibly_sensitive": False},
+            "withDownvotePerspective": False,
+            "withReactionsMetadata": False,
+            "withReactionsPerspective": False,
+            "withSuperFollowsTweetFields": True,
+            "withSuperFollowsUserFields": False,
+            "semantic_annotation_ids": [],
+            "dark_request": False,
+            "withBirdwatchPivots": False,
+        }),
+    })""",
+        title="Python",
     )
+    md.p("`json.dumps` is equivalent to `JSON.stringify` in javaScript")
 
-    md.p("Request Method", end=": ")
-    if exports["operationType"] == "mutation":
-        md.inline("POST")
-    else:
-        md.inline("GET")
-    md.p("Login Required", end=": ")
-    md.inline("Future")
+    for graphql in graphql_output:
+        exports = graphql["exports"]
+        query = graphql["query"]
+        switches = exports["metadata"]["featureSwitches"]
 
-    md.h3("Param")
-    md.h4("variables")
-    if type(query) is dict and len(query) > 0:
-        datafram = []
-        for key in query.keys():
-            datafram.append(
-                {"key": key, "type": "Future", "variable": query[key],}
+        md.h2(exports["operationName"])
+        md.p("Request URL", end=": ")
+        md.inline(
+            "https://twitter.com/i/api/graphql/{queryId}/{operationName}".format(
+                **exports
             )
-        md.table(datafram)
-    elif type(query) is list and len(query) == 0:
-        md.inline("None")
-    elif type(query) is str:
-        md.code("# Error\n" + query, title="internal process")
-    else:
-        md.inline("None")
+        )
 
-    md.h4("features")
-    if type(switches) is list and len(switches) > 0:
-        datafram = []
-        for switch in exports["metadata"]["featureSwitches"]:
-            datafram.append({"key": switch, "type": "boolean", "variable": "Future"})
-        md.table(datafram)
-    elif type(switches) is list and len(switches) == 0:
-        md.inline("None")
-    else:
-        md.inline("Error")
+        md.p("Request Method", end=": ")
+        if exports["operationType"] == "mutation":
+            md.inline("POST")
+        else:
+            md.inline("GET")
+        md.p("Login Required", end=": ")
+        md.inline("Future")
 
-    md.h4("queryId")
-    if query == "mutation":
-        md.inline(exports["queryId"])
-    else:
-        md.inline("None")
+        md.h3("Param")
+        md.h4("variables")
+        if type(query) is dict and len(query) > 0:
+            datafram = []
+            for key in query.keys():
+                datafram.append(
+                    {"key": key, "type": "Future", "variable": query[key],}
+                )
+            md.table(datafram)
+        elif type(query) is list and len(query) == 0:
+            md.inline("None")
+        elif type(query) is str:
+            md.code("# Error\n" + query, title="internal process")
+        else:
+            md.inline("None")
+
+        md.h4("features")
+        if type(switches) is list and len(switches) > 0:
+            datafram = []
+            for switch in exports["metadata"]["featureSwitches"]:
+                datafram.append(
+                    {"key": switch, "type": "boolean", "variable": "Future"}
+                )
+            md.table(datafram)
+        elif type(switches) is list and len(switches) == 0:
+            md.inline("None")
+        else:
+            md.inline("Error")
+
+        md.h4("queryId")
+        if query == "mutation":
+            md.inline(exports["queryId"])
+        else:
+            md.inline("None")
+    return md
 
 
-md.save("doc/markdown/GraphQL.md")
+os.makedirs("doc/json", exist_ok=True)
+os.makedirs("doc/markdown", exist_ok=True)
+
+response = requests.get(
+    "https://abs.twimg.com/responsive-web/client-web/main.811341e8.js"
+)
+
+parsed_list = js(response.text).parser()
+graphql_output = get_graphql(parsed_list)
+graphql_output = marge_exports(parsed_list, graphql_output)
+
+with open("doc/json/GraphQL.json", "w") as f:
+    json.dump(graphql_output, f, ensure_ascii=False, indent=2)
+
+gen_md_graphql(graphql_output).save("doc/markdown/GraphQL.md")
