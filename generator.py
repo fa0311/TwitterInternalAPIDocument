@@ -109,7 +109,8 @@ def get_graphql(parsed_list: list) -> list:
 
     for graphql in graphql_list:
         reg_func = "{func}=n.n\({arg}\)".format(
-            func=re.escape(graphql.data[0]), arg="([a-zA-Z_\$]{1,2})",
+            func=re.escape(graphql.data[0]),
+            arg="([a-zA-Z_\$]{1,2})",
         )
 
         graphql_parent = graphql.parent
@@ -119,7 +120,8 @@ def get_graphql(parsed_list: list) -> list:
             match_func = search_js_reg(graphql_parent, reg_func)
 
         reg_func_init = "{func}=n\({arg}\)".format(
-            func=re.escape(match_func[0].data[0]), arg="([0-9]{1,5})",
+            func=re.escape(match_func[0].data[0]),
+            arg="([0-9]{1,5})",
         )
         match_func_init = search_js_reg(graphql_parent, reg_func_init)
         n = match_func_init[0].data[0]
@@ -288,7 +290,9 @@ def gen_md_graphql(graphql_output: list, feature_switches_output: list) -> md_ge
         if type(switches) is list and len(switches) > 0:
             datafram = []
             for switch in exports["metadata"]["featureSwitches"]:
-                default = {"!0": True, "!1": False}.get(feature_switches_output.get(switch))
+                default = {"!0": True, "!1": False}.get(
+                    feature_switches_output.get(switch)
+                )
                 datafram.append({"key": switch, "type": "boolean", "default": default})
             md.table(datafram)
         elif type(switches) is list and len(switches) == 0:
@@ -316,9 +320,7 @@ def gen_md_freeze_object(freeze_object_output: list) -> md_generator:
                 value = freeze_object[key]
                 if type(value) is str:
                     value = {"!0": True, "!1": False}.get(value, value)
-                datafram.append(
-                    {"constant": key, "value": md.table_escape(value)}
-                )
+                datafram.append({"constant": key, "value": md.table_escape(value)})
             md.table(datafram)
         else:
             md.code("# Error\n" + freeze_object, title="internal process")
