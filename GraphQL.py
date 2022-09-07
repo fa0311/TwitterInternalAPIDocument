@@ -80,7 +80,7 @@ def search_js_reg(js: js_data, search: str) -> list[js_search_data]:
         data = js.children[key]
         if type(data) is str:
             find = re.findall(search, data)
-            if len(find) > 0:
+            for _ in range(len(find)):
                 output.append(js_search_data())
                 output[-1].children = js.children[key]
                 output[-1].parent = js
@@ -106,6 +106,7 @@ parsed_list = js(response.text).parser()
 reg_graphql = "e\.graphQL\({func}\(\),$".format(func="([a-zA-Z_\$]{1,2})",)
 graphql_list = search_js_reg(parsed_list, reg_graphql)
 graphql_output = []
+print(len(graphql_list))
 
 for graphql in graphql_list:
     reg_func = "{func}=n.n\({arg}\)".format(

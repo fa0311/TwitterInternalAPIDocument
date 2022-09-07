@@ -388,6 +388,22 @@ Login Required: `Future`<br>
 `None`<br>
 #### queryId<br>
 `None`<br>
+## DeleteTweet<br>
+Request URL: `https://twitter.com/i/api/graphql/VaenaVgh5q5ih7kvyVjgtg/DeleteTweet`<br>
+Request Method: `POST`<br>
+Login Required: `Future`<br>
+### Param<br>
+#### variables<br>
+| key           | type   | variable   |
+|:--------------|:-------|:-----------|
+| tweet_id      | Future | s          |
+| comparison_id | Future | r          |
+| dark_request  | Future | !0         |
+
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
 ## ConversationControlChange<br>
 Request URL: `https://twitter.com/i/api/graphql/hb1elGcj6769uT8qVYqtjw/ConversationControlChange`<br>
 Request Method: `POST`<br>
@@ -466,6 +482,90 @@ Login Required: `Future`<br>
 
 #### queryId<br>
 `None`<br>
+## Favoriters<br>
+Request URL: `https://twitter.com/i/api/graphql/er6rEUcbZ10oxV8ZMs_Z7w/Favoriters`<br>
+Request Method: `GET`<br>
+Login Required: `Future`<br>
+### Param<br>
+#### variables<br>
+```internal process
+# Error
+{"tweetId":"r","count":"n","cursor":"i","includePromotedContent":"!0",...(0,g.d)(t)}
+```
+#### features<br>
+| key                                                                     | type    | variable   |
+|:------------------------------------------------------------------------|:--------|:-----------|
+| responsive_web_graphql_timeline_navigation_enabled                      | boolean | Future     |
+| unified_cards_ad_metadata_container_dynamic_card_content_query_enabled  | boolean | Future     |
+| dont_mention_me_view_api_enabled                                        | boolean | Future     |
+| responsive_web_uc_gql_enabled                                           | boolean | Future     |
+| vibe_api_enabled                                                        | boolean | Future     |
+| responsive_web_edit_tweet_api_enabled                                   | boolean | Future     |
+| graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | Future     |
+| standardized_nudges_misinfo                                             | boolean | Future     |
+| tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | Future     |
+| interactive_text_enabled                                                | boolean | Future     |
+| responsive_web_text_conversations_enabled                               | boolean | Future     |
+| responsive_web_enhance_cards_enabled                                    | boolean | Future     |
+
+#### queryId<br>
+`None`<br>
+## Retweeters<br>
+Request URL: `https://twitter.com/i/api/graphql/E_sTx4dN9vCHFSQoHOfKhg/Retweeters`<br>
+Request Method: `GET`<br>
+Login Required: `Future`<br>
+### Param<br>
+#### variables<br>
+```internal process
+# Error
+{"tweetId":"r","count":"n","cursor":"i","includePromotedContent":"!0",...(0,g.d)(t)}
+```
+#### features<br>
+| key                                                                     | type    | variable   |
+|:------------------------------------------------------------------------|:--------|:-----------|
+| responsive_web_graphql_timeline_navigation_enabled                      | boolean | Future     |
+| unified_cards_ad_metadata_container_dynamic_card_content_query_enabled  | boolean | Future     |
+| dont_mention_me_view_api_enabled                                        | boolean | Future     |
+| responsive_web_uc_gql_enabled                                           | boolean | Future     |
+| vibe_api_enabled                                                        | boolean | Future     |
+| responsive_web_edit_tweet_api_enabled                                   | boolean | Future     |
+| graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | Future     |
+| standardized_nudges_misinfo                                             | boolean | Future     |
+| tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | Future     |
+| interactive_text_enabled                                                | boolean | Future     |
+| responsive_web_text_conversations_enabled                               | boolean | Future     |
+| responsive_web_enhance_cards_enabled                                    | boolean | Future     |
+
+#### queryId<br>
+`None`<br>
+## TweetEditHistory<br>
+Request URL: `https://twitter.com/i/api/graphql/BhkY91Y8KFGO-J7856_MRQ/TweetEditHistory`<br>
+Request Method: `GET`<br>
+Login Required: `Future`<br>
+### Param<br>
+#### variables<br>
+```internal process
+# Error
+{"tweetId":"n",...(0,g.d)(t),"withQuickPromoteEligibilityTweetFields":"!0"}
+```
+#### features<br>
+| key                                                                     | type    | variable   |
+|:------------------------------------------------------------------------|:--------|:-----------|
+| standardized_nudges_misinfo                                             | boolean | Future     |
+| tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | Future     |
+| dont_mention_me_view_api_enabled                                        | boolean | Future     |
+| responsive_web_uc_gql_enabled                                           | boolean | Future     |
+| vibe_api_enabled                                                        | boolean | Future     |
+| responsive_web_edit_tweet_api_enabled                                   | boolean | Future     |
+| graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | Future     |
+| interactive_text_enabled                                                | boolean | Future     |
+| responsive_web_text_conversations_enabled                               | boolean | Future     |
+| responsive_web_graphql_timeline_navigation_enabled                      | boolean | Future     |
+| responsive_web_enhance_cards_enabled                                    | boolean | Future     |
+| unified_cards_ad_metadata_container_dynamic_card_content_query_enabled  | boolean | Future     |
+
+#### queryId<br>
+`None`<br>
 ## UserAccountLabel<br>
 Request URL: `https://twitter.com/i/api/graphql/rD5gLxVmMvtdtYU1UHWlFQ/UserAccountLabel`<br>
 Request Method: `GET`<br>
@@ -476,6 +576,17 @@ Login Required: `Future`<br>
 |:--------|:-------|:-----------|
 | rest_id | Future | t          |
 
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
+## DisableUserAccountLabel<br>
+Request URL: `https://twitter.com/i/api/graphql/_ckHEj05gan2VfNHG6thBA/DisableUserAccountLabel`<br>
+Request Method: `POST`<br>
+Login Required: `Future`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
 #### features<br>
 `None`<br>
 #### queryId<br>
@@ -544,6 +655,225 @@ Login Required: `Future`<br>
 `None`<br>
 #### queryId<br>
 `None`<br>
+## BirdwatchCreateAppeal<br>
+Request URL: `https://twitter.com/i/api/graphql/TKdL0YFsX4DMOpMKeneLvA/BirdwatchCreateAppeal`<br>
+Request Method: `POST`<br>
+Login Required: `Future`<br>
+### Param<br>
+#### variables<br>
+```internal process
+# Error
+{"note_id":t.note_id}
+```
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
+## BirdwatchCreateNote<br>
+Request URL: `https://twitter.com/i/api/graphql/9vSsdZtzlr0vARsUIP2IFg/BirdwatchCreateNote`<br>
+Request Method: `POST`<br>
+Login Required: `Future`<br>
+### Param<br>
+#### variables<br>
+```internal process
+# Error
+{"tweet_id":n.tweet_id,"data_v1":n.data,...(0,g.S)(t)}
+```
+#### features<br>
+| key                                                | type    | variable   |
+|:---------------------------------------------------|:--------|:-----------|
+| responsive_web_graphql_timeline_navigation_enabled | boolean | Future     |
+
+#### queryId<br>
+`None`<br>
+## BirdwatchDeleteNote<br>
+Request URL: `https://twitter.com/i/api/graphql/IKS_qrShkDyor6Ri1ahd9g/BirdwatchDeleteNote`<br>
+Request Method: `POST`<br>
+Login Required: `Future`<br>
+### Param<br>
+#### variables<br>
+```internal process
+# Error
+{"note_id":t.note_id}
+```
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
+## BirdwatchDeleteRating<br>
+Request URL: `https://twitter.com/i/api/graphql/OpvCOyOoQClUND66zDzrnA/BirdwatchDeleteRating`<br>
+Request Method: `POST`<br>
+Login Required: `Future`<br>
+### Param<br>
+#### variables<br>
+```internal process
+# Error
+{"note_id":t.note_id}
+```
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
+## BirdwatchFetchOneNote<br>
+Request URL: `https://twitter.com/i/api/graphql/mS2ivW1fRQhxPNeWMQ1TSg/BirdwatchFetchOneNote`<br>
+Request Method: `GET`<br>
+Login Required: `Future`<br>
+### Param<br>
+#### variables<br>
+```internal process
+# Error
+{"note_id":n.note_id,...(0,g.S)(t)}
+```
+#### features<br>
+| key                                                | type    | variable   |
+|:---------------------------------------------------|:--------|:-----------|
+| responsive_web_graphql_timeline_navigation_enabled | boolean | Future     |
+
+#### queryId<br>
+`None`<br>
+## BirdwatchFetchBirdwatchProfile<br>
+Request URL: `https://twitter.com/i/api/graphql/btgGtchypc3D491MJ7XXWA/BirdwatchFetchBirdwatchProfile`<br>
+Request Method: `GET`<br>
+Login Required: `Future`<br>
+### Param<br>
+#### variables<br>
+```internal process
+# Error
+{"alias":t.alias}
+```
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
+## BirdwatchFetchContributorNotesSlice<br>
+Request URL: `https://twitter.com/i/api/graphql/JahXaj5wW9O5i0vFZArsVQ/BirdwatchFetchContributorNotesSlice`<br>
+Request Method: `GET`<br>
+Login Required: `Future`<br>
+### Param<br>
+#### variables<br>
+```internal process
+# Error
+{"count":"10",...n,...(0,g.S)(t)}
+```
+#### features<br>
+| key                                                                     | type    | variable   |
+|:------------------------------------------------------------------------|:--------|:-----------|
+| responsive_web_graphql_timeline_navigation_enabled                      | boolean | Future     |
+| dont_mention_me_view_api_enabled                                        | boolean | Future     |
+| responsive_web_uc_gql_enabled                                           | boolean | Future     |
+| vibe_api_enabled                                                        | boolean | Future     |
+| responsive_web_edit_tweet_api_enabled                                   | boolean | Future     |
+| graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | Future     |
+| standardized_nudges_misinfo                                             | boolean | Future     |
+| tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | Future     |
+| interactive_text_enabled                                                | boolean | Future     |
+| responsive_web_text_conversations_enabled                               | boolean | Future     |
+| responsive_web_enhance_cards_enabled                                    | boolean | Future     |
+
+#### queryId<br>
+`None`<br>
+## BirdwatchFetchContributorNotesSlice<br>
+Request URL: `https://twitter.com/i/api/graphql/JahXaj5wW9O5i0vFZArsVQ/BirdwatchFetchContributorNotesSlice`<br>
+Request Method: `GET`<br>
+Login Required: `Future`<br>
+### Param<br>
+#### variables<br>
+```internal process
+# Error
+{"count":"10",...n,...(0,g.S)(t)}
+```
+#### features<br>
+| key                                                                     | type    | variable   |
+|:------------------------------------------------------------------------|:--------|:-----------|
+| responsive_web_graphql_timeline_navigation_enabled                      | boolean | Future     |
+| dont_mention_me_view_api_enabled                                        | boolean | Future     |
+| responsive_web_uc_gql_enabled                                           | boolean | Future     |
+| vibe_api_enabled                                                        | boolean | Future     |
+| responsive_web_edit_tweet_api_enabled                                   | boolean | Future     |
+| graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | Future     |
+| standardized_nudges_misinfo                                             | boolean | Future     |
+| tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | Future     |
+| interactive_text_enabled                                                | boolean | Future     |
+| responsive_web_text_conversations_enabled                               | boolean | Future     |
+| responsive_web_enhance_cards_enabled                                    | boolean | Future     |
+
+#### queryId<br>
+`None`<br>
+## BirdwatchFetchAuthenticatedUserProfile<br>
+Request URL: `https://twitter.com/i/api/graphql/1AdvbF0AMpC5QNcy2OLeag/BirdwatchFetchAuthenticatedUserProfile`<br>
+Request Method: `GET`<br>
+Login Required: `Future`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
+## BirdwatchFetchAliasSelfSelectStatus<br>
+Request URL: `https://twitter.com/i/api/graphql/LUEdtkcpBlGktUtms4BvwA/BirdwatchFetchAliasSelfSelectStatus`<br>
+Request Method: `GET`<br>
+Login Required: `Future`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
+## BirdwatchAliasSelect<br>
+Request URL: `https://twitter.com/i/api/graphql/3ss48WFwGokBH_gj8t_8aQ/BirdwatchAliasSelect`<br>
+Request Method: `POST`<br>
+Login Required: `Future`<br>
+### Param<br>
+#### variables<br>
+```internal process
+# Error
+{"alias":t.alias}
+```
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
+## BirdwatchFetchPublicData<br>
+Request URL: `https://twitter.com/i/api/graphql/kd54IHJj7owgVY1WqHXhXQ/BirdwatchFetchPublicData`<br>
+Request Method: `GET`<br>
+Login Required: `Future`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
+## BirdwatchFetchGlobalTimeline<br>
+Request URL: `https://twitter.com/i/api/graphql/KNmNrDgNK6dWyxBL-LN7eQ/BirdwatchFetchGlobalTimeline`<br>
+Request Method: `GET`<br>
+Login Required: `Future`<br>
+### Param<br>
+#### variables<br>
+```internal process
+# Error
+{...(0,g.d)(t)}
+```
+#### features<br>
+| key                                                                     | type    | variable   |
+|:------------------------------------------------------------------------|:--------|:-----------|
+| responsive_web_graphql_timeline_navigation_enabled                      | boolean | Future     |
+| unified_cards_ad_metadata_container_dynamic_card_content_query_enabled  | boolean | Future     |
+| dont_mention_me_view_api_enabled                                        | boolean | Future     |
+| responsive_web_uc_gql_enabled                                           | boolean | Future     |
+| vibe_api_enabled                                                        | boolean | Future     |
+| responsive_web_edit_tweet_api_enabled                                   | boolean | Future     |
+| graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | Future     |
+| standardized_nudges_misinfo                                             | boolean | Future     |
+| tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | Future     |
+| interactive_text_enabled                                                | boolean | Future     |
+| responsive_web_text_conversations_enabled                               | boolean | Future     |
+| responsive_web_enhance_cards_enabled                                    | boolean | Future     |
+
+#### queryId<br>
+`None`<br>
 ## BizProfileFetchUser<br>
 Request URL: `https://twitter.com/i/api/graphql/Rp94IhO-2f4Gqi7MSwBquA/BizProfileFetchUser`<br>
 Request Method: `GET`<br>
@@ -553,6 +883,20 @@ Login Required: `Future`<br>
 ```internal process
 # Error
 {"rest_id":t.rest_id}
+```
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
+## SubcribeToRevueNewsletter<br>
+Request URL: `https://twitter.com/i/api/graphql/yUpmLojxsGPk0Sh3JHfEcQ/SubcribeToRevueNewsletter`<br>
+Request Method: `POST`<br>
+Login Required: `Future`<br>
+### Param<br>
+#### variables<br>
+```internal process
+# Error
+{"revueAccountId":t.revueAccountId,"doubleOptIn":t.doubleOptIn,"via":t.via,"client":t.client,"element":t.element}
 ```
 #### features<br>
 `None`<br>
@@ -616,6 +960,87 @@ Login Required: `Future`<br>
 `None`<br>
 #### queryId<br>
 `None`<br>
+## createBookmarkFolder<br>
+Request URL: `https://twitter.com/i/api/graphql/6Xxqpq8TM_CREYiuof_h5w/createBookmarkFolder`<br>
+Request Method: `POST`<br>
+Login Required: `Future`<br>
+### Param<br>
+#### variables<br>
+```internal process
+# Error
+{...t}
+```
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
+## BookmarksAllDelete<br>
+Request URL: `https://twitter.com/i/api/graphql/skiACZKC1GDYli-M8RzEPQ/BookmarksAllDelete`<br>
+Request Method: `POST`<br>
+Login Required: `Future`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
+## Bookmarks<br>
+Request URL: `https://twitter.com/i/api/graphql/-fOdcL5PyRcFM9_X5X-rfw/Bookmarks`<br>
+Request Method: `GET`<br>
+Login Required: `Future`<br>
+### Param<br>
+#### variables<br>
+```internal process
+# Error
+{"count":"n","cursor":"i","includePromotedContent":"!0",...(0,g.d)(t)}
+```
+#### features<br>
+| key                                                                     | type    | variable   |
+|:------------------------------------------------------------------------|:--------|:-----------|
+| responsive_web_graphql_timeline_navigation_enabled                      | boolean | Future     |
+| unified_cards_ad_metadata_container_dynamic_card_content_query_enabled  | boolean | Future     |
+| dont_mention_me_view_api_enabled                                        | boolean | Future     |
+| responsive_web_uc_gql_enabled                                           | boolean | Future     |
+| vibe_api_enabled                                                        | boolean | Future     |
+| responsive_web_edit_tweet_api_enabled                                   | boolean | Future     |
+| graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | Future     |
+| standardized_nudges_misinfo                                             | boolean | Future     |
+| tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | Future     |
+| interactive_text_enabled                                                | boolean | Future     |
+| responsive_web_text_conversations_enabled                               | boolean | Future     |
+| responsive_web_enhance_cards_enabled                                    | boolean | Future     |
+
+#### queryId<br>
+`None`<br>
+## BookmarkFolderTimeline<br>
+Request URL: `https://twitter.com/i/api/graphql/g5hfe-l8Z-kZLfwI-9CcLg/BookmarkFolderTimeline`<br>
+Request Method: `GET`<br>
+Login Required: `Future`<br>
+### Param<br>
+#### variables<br>
+```internal process
+# Error
+{"bookmark_collection_id":"n","cursor":"i","includePromotedContent":"!0",...(0,g.d)(t)}
+```
+#### features<br>
+| key                                                                     | type    | variable   |
+|:------------------------------------------------------------------------|:--------|:-----------|
+| responsive_web_graphql_timeline_navigation_enabled                      | boolean | Future     |
+| unified_cards_ad_metadata_container_dynamic_card_content_query_enabled  | boolean | Future     |
+| dont_mention_me_view_api_enabled                                        | boolean | Future     |
+| responsive_web_uc_gql_enabled                                           | boolean | Future     |
+| vibe_api_enabled                                                        | boolean | Future     |
+| responsive_web_edit_tweet_api_enabled                                   | boolean | Future     |
+| graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | Future     |
+| standardized_nudges_misinfo                                             | boolean | Future     |
+| tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | Future     |
+| interactive_text_enabled                                                | boolean | Future     |
+| responsive_web_text_conversations_enabled                               | boolean | Future     |
+| responsive_web_enhance_cards_enabled                                    | boolean | Future     |
+
+#### queryId<br>
+`None`<br>
 ## PutClientEducationFlag<br>
 Request URL: `https://twitter.com/i/api/graphql/IjQ-egg0uPkY11NyPMfRMQ/PutClientEducationFlag`<br>
 Request Method: `POST`<br>
@@ -675,6 +1100,359 @@ Login Required: `Future`<br>
 
 #### queryId<br>
 `None`<br>
+## CommunityTweetsTimeline<br>
+Request URL: `https://twitter.com/i/api/graphql/qOTSDkUHIYoMBwNIyv2A2A/CommunityTweetsTimeline`<br>
+Request Method: `GET`<br>
+Login Required: `Future`<br>
+### Param<br>
+#### variables<br>
+```internal process
+# Error
+{...n,"withCommunity":t.isTrue("c9s_enabled"),...(0,g.d)(t)}
+```
+#### features<br>
+| key                                                                     | type    | variable   |
+|:------------------------------------------------------------------------|:--------|:-----------|
+| responsive_web_graphql_timeline_navigation_enabled                      | boolean | Future     |
+| unified_cards_ad_metadata_container_dynamic_card_content_query_enabled  | boolean | Future     |
+| dont_mention_me_view_api_enabled                                        | boolean | Future     |
+| responsive_web_uc_gql_enabled                                           | boolean | Future     |
+| vibe_api_enabled                                                        | boolean | Future     |
+| responsive_web_edit_tweet_api_enabled                                   | boolean | Future     |
+| graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | Future     |
+| standardized_nudges_misinfo                                             | boolean | Future     |
+| tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | Future     |
+| interactive_text_enabled                                                | boolean | Future     |
+| responsive_web_text_conversations_enabled                               | boolean | Future     |
+| responsive_web_enhance_cards_enabled                                    | boolean | Future     |
+
+#### queryId<br>
+`None`<br>
+## CommunityTweetsRankedTimeline<br>
+Request URL: `https://twitter.com/i/api/graphql/5DeIqh3e6gf7wET-qKScCA/CommunityTweetsRankedTimeline`<br>
+Request Method: `GET`<br>
+Login Required: `Future`<br>
+### Param<br>
+#### variables<br>
+```internal process
+# Error
+{...n,"withCommunity":t.isTrue("c9s_enabled"),...(0,g.d)(t)}
+```
+#### features<br>
+| key                                                                     | type    | variable   |
+|:------------------------------------------------------------------------|:--------|:-----------|
+| responsive_web_graphql_timeline_navigation_enabled                      | boolean | Future     |
+| unified_cards_ad_metadata_container_dynamic_card_content_query_enabled  | boolean | Future     |
+| dont_mention_me_view_api_enabled                                        | boolean | Future     |
+| responsive_web_uc_gql_enabled                                           | boolean | Future     |
+| vibe_api_enabled                                                        | boolean | Future     |
+| responsive_web_edit_tweet_api_enabled                                   | boolean | Future     |
+| graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | Future     |
+| standardized_nudges_misinfo                                             | boolean | Future     |
+| tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | Future     |
+| interactive_text_enabled                                                | boolean | Future     |
+| responsive_web_text_conversations_enabled                               | boolean | Future     |
+| responsive_web_enhance_cards_enabled                                    | boolean | Future     |
+
+#### queryId<br>
+`None`<br>
+## CommunitiesMembershipsTimeline<br>
+Request URL: `https://twitter.com/i/api/graphql/h45pyMyYGSOt1Ml_XVNVvQ/CommunitiesMembershipsTimeline`<br>
+Request Method: `GET`<br>
+Login Required: `Future`<br>
+### Param<br>
+#### variables<br>
+```internal process
+# Error
+{...n,"withCommunity":t.isTrue("c9s_enabled"),...(0,g.d)(t)}
+```
+#### features<br>
+| key                                                                     | type    | variable   |
+|:------------------------------------------------------------------------|:--------|:-----------|
+| responsive_web_graphql_timeline_navigation_enabled                      | boolean | Future     |
+| unified_cards_ad_metadata_container_dynamic_card_content_query_enabled  | boolean | Future     |
+| dont_mention_me_view_api_enabled                                        | boolean | Future     |
+| responsive_web_uc_gql_enabled                                           | boolean | Future     |
+| vibe_api_enabled                                                        | boolean | Future     |
+| responsive_web_edit_tweet_api_enabled                                   | boolean | Future     |
+| graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | Future     |
+| standardized_nudges_misinfo                                             | boolean | Future     |
+| tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | Future     |
+| interactive_text_enabled                                                | boolean | Future     |
+| responsive_web_text_conversations_enabled                               | boolean | Future     |
+| responsive_web_enhance_cards_enabled                                    | boolean | Future     |
+
+#### queryId<br>
+`None`<br>
+## CommunitiesMembershipsSlice<br>
+Request URL: `https://twitter.com/i/api/graphql/0kVFW6Z3NWQoVrvHdfUFOg/CommunitiesMembershipsSlice`<br>
+Request Method: `GET`<br>
+Login Required: `Future`<br>
+### Param<br>
+#### variables<br>
+```internal process
+# Error
+{...(0,g.S)(t),...n}
+```
+#### features<br>
+| key                                                | type    | variable   |
+|:---------------------------------------------------|:--------|:-----------|
+| responsive_web_graphql_timeline_navigation_enabled | boolean | Future     |
+
+#### queryId<br>
+`None`<br>
+## CommunityModerationTweetCasesSlice<br>
+Request URL: `https://twitter.com/i/api/graphql/rROU4rWX99J1G0nPwzm7HQ/CommunityModerationTweetCasesSlice`<br>
+Request Method: `GET`<br>
+Login Required: `Future`<br>
+### Param<br>
+#### variables<br>
+```internal process
+# Error
+{...n,"withCommunity":t.isTrue("c9s_enabled"),...(0,g.S)(t)}
+```
+#### features<br>
+| key                                                                     | type    | variable   |
+|:------------------------------------------------------------------------|:--------|:-----------|
+| dont_mention_me_view_api_enabled                                        | boolean | Future     |
+| responsive_web_uc_gql_enabled                                           | boolean | Future     |
+| vibe_api_enabled                                                        | boolean | Future     |
+| responsive_web_edit_tweet_api_enabled                                   | boolean | Future     |
+| graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | Future     |
+| standardized_nudges_misinfo                                             | boolean | Future     |
+| tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | Future     |
+| interactive_text_enabled                                                | boolean | Future     |
+| responsive_web_text_conversations_enabled                               | boolean | Future     |
+| responsive_web_graphql_timeline_navigation_enabled                      | boolean | Future     |
+| responsive_web_enhance_cards_enabled                                    | boolean | Future     |
+
+#### queryId<br>
+`None`<br>
+## CommunitiesMainDiscoveryModule<br>
+Request URL: `https://twitter.com/i/api/graphql/2zi96d_cVFXvOgPk0HSanQ/CommunitiesMainDiscoveryModule`<br>
+Request Method: `GET`<br>
+Login Required: `Future`<br>
+### Param<br>
+#### variables<br>
+```internal process
+# Error
+{...n,"withCommunity":"!0",...(0,g.d)(t)}
+```
+#### features<br>
+| key                                                                     | type    | variable   |
+|:------------------------------------------------------------------------|:--------|:-----------|
+| responsive_web_graphql_timeline_navigation_enabled                      | boolean | Future     |
+| unified_cards_ad_metadata_container_dynamic_card_content_query_enabled  | boolean | Future     |
+| dont_mention_me_view_api_enabled                                        | boolean | Future     |
+| responsive_web_uc_gql_enabled                                           | boolean | Future     |
+| vibe_api_enabled                                                        | boolean | Future     |
+| responsive_web_edit_tweet_api_enabled                                   | boolean | Future     |
+| graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | Future     |
+| standardized_nudges_misinfo                                             | boolean | Future     |
+| tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | Future     |
+| interactive_text_enabled                                                | boolean | Future     |
+| responsive_web_text_conversations_enabled                               | boolean | Future     |
+| responsive_web_enhance_cards_enabled                                    | boolean | Future     |
+
+#### queryId<br>
+`None`<br>
+## CommunitiesMainPageTimeline<br>
+Request URL: `https://twitter.com/i/api/graphql/RVeGOcQb7Ln4sf9Gl84bSw/CommunitiesMainPageTimeline`<br>
+Request Method: `GET`<br>
+Login Required: `Future`<br>
+### Param<br>
+#### variables<br>
+```internal process
+# Error
+{...n,"withCommunity":t.isTrue("c9s_enabled"),...(0,g.d)(t)}
+```
+#### features<br>
+| key                                                                     | type    | variable   |
+|:------------------------------------------------------------------------|:--------|:-----------|
+| responsive_web_graphql_timeline_navigation_enabled                      | boolean | Future     |
+| unified_cards_ad_metadata_container_dynamic_card_content_query_enabled  | boolean | Future     |
+| dont_mention_me_view_api_enabled                                        | boolean | Future     |
+| responsive_web_uc_gql_enabled                                           | boolean | Future     |
+| vibe_api_enabled                                                        | boolean | Future     |
+| responsive_web_edit_tweet_api_enabled                                   | boolean | Future     |
+| graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | Future     |
+| standardized_nudges_misinfo                                             | boolean | Future     |
+| tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | Future     |
+| interactive_text_enabled                                                | boolean | Future     |
+| responsive_web_text_conversations_enabled                               | boolean | Future     |
+| responsive_web_enhance_cards_enabled                                    | boolean | Future     |
+
+#### queryId<br>
+`None`<br>
+## CommunityHashtagsTimeline<br>
+Request URL: `https://twitter.com/i/api/graphql/P3Pr4eRB7mjBaFiFQ_DOKQ/CommunityHashtagsTimeline`<br>
+Request Method: `GET`<br>
+Login Required: `Future`<br>
+### Param<br>
+#### variables<br>
+```internal process
+# Error
+{"withCommunity":t.isTrue("c9s_enabled"),...(0,g.d)(t),...n}
+```
+#### features<br>
+| key                                                                     | type    | variable   |
+|:------------------------------------------------------------------------|:--------|:-----------|
+| responsive_web_graphql_timeline_navigation_enabled                      | boolean | Future     |
+| unified_cards_ad_metadata_container_dynamic_card_content_query_enabled  | boolean | Future     |
+| dont_mention_me_view_api_enabled                                        | boolean | Future     |
+| responsive_web_uc_gql_enabled                                           | boolean | Future     |
+| vibe_api_enabled                                                        | boolean | Future     |
+| responsive_web_edit_tweet_api_enabled                                   | boolean | Future     |
+| graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | Future     |
+| standardized_nudges_misinfo                                             | boolean | Future     |
+| tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | Future     |
+| interactive_text_enabled                                                | boolean | Future     |
+| responsive_web_text_conversations_enabled                               | boolean | Future     |
+| responsive_web_enhance_cards_enabled                                    | boolean | Future     |
+
+#### queryId<br>
+`None`<br>
+## CommunityDiscoveryTimeline<br>
+Request URL: `https://twitter.com/i/api/graphql/HgMVKkoEw2JnWpBlrKSELw/CommunityDiscoveryTimeline`<br>
+Request Method: `GET`<br>
+Login Required: `Future`<br>
+### Param<br>
+#### variables<br>
+```internal process
+# Error
+{"withCommunity":t.isTrue("c9s_enabled"),...(0,g.d)(t)}
+```
+#### features<br>
+| key                                                                     | type    | variable   |
+|:------------------------------------------------------------------------|:--------|:-----------|
+| responsive_web_graphql_timeline_navigation_enabled                      | boolean | Future     |
+| unified_cards_ad_metadata_container_dynamic_card_content_query_enabled  | boolean | Future     |
+| dont_mention_me_view_api_enabled                                        | boolean | Future     |
+| responsive_web_uc_gql_enabled                                           | boolean | Future     |
+| vibe_api_enabled                                                        | boolean | Future     |
+| responsive_web_edit_tweet_api_enabled                                   | boolean | Future     |
+| graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | Future     |
+| standardized_nudges_misinfo                                             | boolean | Future     |
+| tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | Future     |
+| interactive_text_enabled                                                | boolean | Future     |
+| responsive_web_text_conversations_enabled                               | boolean | Future     |
+| responsive_web_enhance_cards_enabled                                    | boolean | Future     |
+
+#### queryId<br>
+`None`<br>
+## CommunityModerationData<br>
+Request URL: `https://twitter.com/i/api/graphql/qBQVFGy1Lij5iFkWSCcfwg/CommunityModerationData`<br>
+Request Method: `GET`<br>
+Login Required: `Future`<br>
+### Param<br>
+#### variables<br>
+```internal process
+# Error
+{"communityId":t.communityId}
+```
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
+## CommunityModerationKeepTweet<br>
+Request URL: `https://twitter.com/i/api/graphql/XlSQwydkWw8C9X54AC9uxw/CommunityModerationKeepTweet`<br>
+Request Method: `POST`<br>
+Login Required: `Future`<br>
+### Param<br>
+#### variables<br>
+```internal process
+# Error
+{"tweetId":n.tweetId,...(0,g.S)(t)}
+```
+#### features<br>
+| key                                                | type    | variable   |
+|:---------------------------------------------------|:--------|:-----------|
+| responsive_web_graphql_timeline_navigation_enabled | boolean | Future     |
+
+#### queryId<br>
+`None`<br>
+## JoinCommunity<br>
+Request URL: `https://twitter.com/i/api/graphql/cuw9sAUIQa0ZSKX_s1g2jQ/JoinCommunity`<br>
+Request Method: `POST`<br>
+Login Required: `Future`<br>
+### Param<br>
+#### variables<br>
+```internal process
+# Error
+{"communityId":n.communityId,...(0,g.S)(t)}
+```
+#### features<br>
+| key                                                | type    | variable   |
+|:---------------------------------------------------|:--------|:-----------|
+| responsive_web_graphql_timeline_navigation_enabled | boolean | Future     |
+
+#### queryId<br>
+`None`<br>
+## RequestToJoinCommunity<br>
+Request URL: `https://twitter.com/i/api/graphql/8F7Eu0bmszaN9BRZc9xDuw/RequestToJoinCommunity`<br>
+Request Method: `POST`<br>
+Login Required: `Future`<br>
+### Param<br>
+#### variables<br>
+```internal process
+# Error
+{"communityId":n.communityId,...(0,g.S)(t)}
+```
+#### features<br>
+| key                                                | type    | variable   |
+|:---------------------------------------------------|:--------|:-----------|
+| responsive_web_graphql_timeline_navigation_enabled | boolean | Future     |
+
+#### queryId<br>
+`None`<br>
+## LeaveCommunity<br>
+Request URL: `https://twitter.com/i/api/graphql/R9blbwaRNn71IlXMXCHh3w/LeaveCommunity`<br>
+Request Method: `POST`<br>
+Login Required: `Future`<br>
+### Param<br>
+#### variables<br>
+```internal process
+# Error
+{"communityId":n.communityId,...(0,g.S)(t)}
+```
+#### features<br>
+| key                                                | type    | variable   |
+|:---------------------------------------------------|:--------|:-----------|
+| responsive_web_graphql_timeline_navigation_enabled | boolean | Future     |
+
+#### queryId<br>
+`None`<br>
+## CommunityUserInvite<br>
+Request URL: `https://twitter.com/i/api/graphql/TyBoUatRGhYWhUMPpC0IpA/CommunityUserInvite`<br>
+Request Method: `POST`<br>
+Login Required: `Future`<br>
+### Param<br>
+#### variables<br>
+```internal process
+# Error
+{"communityId":t.communityId,"userId":t.userId}
+```
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
+## CommunityUpdateRole<br>
+Request URL: `https://twitter.com/i/api/graphql/qnsdiCo-3Gzi-fAsS-hd4A/CommunityUpdateRole`<br>
+Request Method: `POST`<br>
+Login Required: `Future`<br>
+### Param<br>
+#### variables<br>
+```internal process
+# Error
+{...n,...(0,g.S)(t)}
+```
+#### features<br>
+| key                                                | type    | variable   |
+|:---------------------------------------------------|:--------|:-----------|
+| responsive_web_graphql_timeline_navigation_enabled | boolean | Future     |
+
+#### queryId<br>
+`None`<br>
 ## CommunityEditName<br>
 Request URL: `https://twitter.com/i/api/graphql/TVCdwH7_j8KROXqjCtCLbg/CommunityEditName`<br>
 Request Method: `POST`<br>
@@ -684,6 +1462,142 @@ Login Required: `Future`<br>
 ```internal process
 # Error
 {"communityId":n.communityId,"name":n.name,...(0,g.S)(t)}
+```
+#### features<br>
+| key                                                | type    | variable   |
+|:---------------------------------------------------|:--------|:-----------|
+| responsive_web_graphql_timeline_navigation_enabled | boolean | Future     |
+
+#### queryId<br>
+`None`<br>
+## CommunityEditPurpose<br>
+Request URL: `https://twitter.com/i/api/graphql/IssxHQInF1szzghMwCFIug/CommunityEditPurpose`<br>
+Request Method: `POST`<br>
+Login Required: `Future`<br>
+### Param<br>
+#### variables<br>
+```internal process
+# Error
+{"communityId":n.communityId,"description":n.purpose,...(0,g.S)(t)}
+```
+#### features<br>
+| key                                                | type    | variable   |
+|:---------------------------------------------------|:--------|:-----------|
+| responsive_web_graphql_timeline_navigation_enabled | boolean | Future     |
+
+#### queryId<br>
+`None`<br>
+## CommunityEditTheme<br>
+Request URL: `https://twitter.com/i/api/graphql/in6UfgG2JgWtQcl-vV4oxg/CommunityEditTheme`<br>
+Request Method: `POST`<br>
+Login Required: `Future`<br>
+### Param<br>
+#### variables<br>
+```internal process
+# Error
+{"communityId":n.communityId,"theme":n.theme,...(0,g.S)(t)}
+```
+#### features<br>
+| key                                                | type    | variable   |
+|:---------------------------------------------------|:--------|:-----------|
+| responsive_web_graphql_timeline_navigation_enabled | boolean | Future     |
+
+#### queryId<br>
+`None`<br>
+## CommunityEditRule<br>
+Request URL: `https://twitter.com/i/api/graphql/nG42k8Els62tq3jsAX-wag/CommunityEditRule`<br>
+Request Method: `POST`<br>
+Login Required: `Future`<br>
+### Param<br>
+#### variables<br>
+```internal process
+# Error
+{"communityId":n.communityId,"ruleId":n.ruleId,"name":n.name,"description":n.description,...(0,g.S)(t)}
+```
+#### features<br>
+| key                                                | type    | variable   |
+|:---------------------------------------------------|:--------|:-----------|
+| responsive_web_graphql_timeline_navigation_enabled | boolean | Future     |
+
+#### queryId<br>
+`None`<br>
+## CommunityCreateRule<br>
+Request URL: `https://twitter.com/i/api/graphql/0HJ7lwwkjUrGEZj6SE47IQ/CommunityCreateRule`<br>
+Request Method: `POST`<br>
+Login Required: `Future`<br>
+### Param<br>
+#### variables<br>
+```internal process
+# Error
+{"communityId":n.communityId,"name":n.name,"description":n.description,...(0,g.S)(t)}
+```
+#### features<br>
+| key                                                | type    | variable   |
+|:---------------------------------------------------|:--------|:-----------|
+| responsive_web_graphql_timeline_navigation_enabled | boolean | Future     |
+
+#### queryId<br>
+`None`<br>
+## CommunityRemoveRule<br>
+Request URL: `https://twitter.com/i/api/graphql/4c1FBQIeJ-j6EIYHbF2tJQ/CommunityRemoveRule`<br>
+Request Method: `POST`<br>
+Login Required: `Future`<br>
+### Param<br>
+#### variables<br>
+```internal process
+# Error
+{"communityId":n.communityId,"ruleId":n.ruleId,...(0,g.S)(t)}
+```
+#### features<br>
+| key                                                | type    | variable   |
+|:---------------------------------------------------|:--------|:-----------|
+| responsive_web_graphql_timeline_navigation_enabled | boolean | Future     |
+
+#### queryId<br>
+`None`<br>
+## CommunityReorderRules<br>
+Request URL: `https://twitter.com/i/api/graphql/lB5GEGAfUGC9CSF_hIXu-Q/CommunityReorderRules`<br>
+Request Method: `POST`<br>
+Login Required: `Future`<br>
+### Param<br>
+#### variables<br>
+```internal process
+# Error
+{"communityId":n.communityId,"ruleIds":n.ruleIds,...(0,g.S)(t)}
+```
+#### features<br>
+| key                                                | type    | variable   |
+|:---------------------------------------------------|:--------|:-----------|
+| responsive_web_graphql_timeline_navigation_enabled | boolean | Future     |
+
+#### queryId<br>
+`None`<br>
+## CommunityEditBannerMedia<br>
+Request URL: `https://twitter.com/i/api/graphql/zbCbk_lfMMzZ7wclBR_wgA/CommunityEditBannerMedia`<br>
+Request Method: `POST`<br>
+Login Required: `Future`<br>
+### Param<br>
+#### variables<br>
+```internal process
+# Error
+{"communityId":n.communityId,"mediaId":n.mediaId,...(0,g.S)(t)}
+```
+#### features<br>
+| key                                                | type    | variable   |
+|:---------------------------------------------------|:--------|:-----------|
+| responsive_web_graphql_timeline_navigation_enabled | boolean | Future     |
+
+#### queryId<br>
+`None`<br>
+## CommunityRemoveBannerMedia<br>
+Request URL: `https://twitter.com/i/api/graphql/bo1znTFl1-CNFdd0X2guMg/CommunityRemoveBannerMedia`<br>
+Request Method: `POST`<br>
+Login Required: `Future`<br>
+### Param<br>
+#### variables<br>
+```internal process
+# Error
+{"communityId":n.communityId,...(0,g.S)(t)}
 ```
 #### features<br>
 | key                                                | type    | variable   |
@@ -736,6 +1650,17 @@ Login Required: `Future`<br>
 `None`<br>
 ## ContentControlToolFetchAll<br>
 Request URL: `https://twitter.com/i/api/graphql/R81Cy35-Qp6oXuFxHo5Jlw/ContentControlToolFetchAll`<br>
+Request Method: `GET`<br>
+Login Required: `Future`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
+## ContentControlToolFetchAllUserEnabled<br>
+Request URL: `https://twitter.com/i/api/graphql/7drRDTt2JpU5eIuYi4JZig/ContentControlToolFetchAllUserEnabled`<br>
 Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
@@ -801,6 +1726,62 @@ Login Required: `Future`<br>
 | key                                                | type    | variable   |
 |:---------------------------------------------------|:--------|:-----------|
 | responsive_web_graphql_timeline_navigation_enabled | boolean | Future     |
+
+#### queryId<br>
+`None`<br>
+## DmGroupSearchSlice<br>
+Request URL: `https://twitter.com/i/api/graphql/5zpY1dCR-8NyxQJS_CFJoQ/DmGroupSearchSlice`<br>
+Request Method: `GET`<br>
+Login Required: `Future`<br>
+### Param<br>
+#### variables<br>
+```internal process
+# Error
+{...n,"withConversationQueryHighlights":t.isTrue("dm_inbox_search_query_highlighting_conversation_results_enabled")&&t.isTrue("direct_messages_incremental_holdback_2022h1")}
+```
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
+## DmPeopleSearchSlice<br>
+Request URL: `https://twitter.com/i/api/graphql/xYSm8m5kJnzm_gFCn5GH-w/DmPeopleSearchSlice`<br>
+Request Method: `GET`<br>
+Login Required: `Future`<br>
+### Param<br>
+#### variables<br>
+```internal process
+# Error
+{...n,"withConversationQueryHighlights":t.isTrue("dm_inbox_search_query_highlighting_conversation_results_enabled")&&t.isTrue("direct_messages_incremental_holdback_2022h1")}
+```
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
+## DmMutedTimeline<br>
+Request URL: `https://twitter.com/i/api/graphql/-vPcQ41yo2zx1QSJAV6ZIQ/DmMutedTimeline`<br>
+Request Method: `GET`<br>
+Login Required: `Future`<br>
+### Param<br>
+#### variables<br>
+```internal process
+# Error
+{"count":"n","cursor":"i","includePromotedContent":"!1",...(0,g.d)(t)}
+```
+#### features<br>
+| key                                                                     | type    | variable   |
+|:------------------------------------------------------------------------|:--------|:-----------|
+| responsive_web_graphql_timeline_navigation_enabled                      | boolean | Future     |
+| unified_cards_ad_metadata_container_dynamic_card_content_query_enabled  | boolean | Future     |
+| dont_mention_me_view_api_enabled                                        | boolean | Future     |
+| responsive_web_uc_gql_enabled                                           | boolean | Future     |
+| vibe_api_enabled                                                        | boolean | Future     |
+| responsive_web_edit_tweet_api_enabled                                   | boolean | Future     |
+| graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | Future     |
+| standardized_nudges_misinfo                                             | boolean | Future     |
+| tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | Future     |
+| interactive_text_enabled                                                | boolean | Future     |
+| responsive_web_text_conversations_enabled                               | boolean | Future     |
+| responsive_web_enhance_cards_enabled                                    | boolean | Future     |
 
 #### queryId<br>
 `None`<br>
@@ -914,6 +1895,34 @@ Login Required: `Future`<br>
 
 #### queryId<br>
 `None`<br>
+## ImmersiveMedia<br>
+Request URL: `https://twitter.com/i/api/graphql/MddcbNzj--pjn14gCrxwCA/ImmersiveMedia`<br>
+Request Method: `GET`<br>
+Login Required: `Future`<br>
+### Param<br>
+#### variables<br>
+```internal process
+# Error
+{"pinned_tweet_id":null==n?void 0:n.pinned_tweet_id,"page_name":null==n?void 0:n.page_name,...(0,g.d)(t)}
+```
+#### features<br>
+| key                                                                     | type    | variable   |
+|:------------------------------------------------------------------------|:--------|:-----------|
+| responsive_web_graphql_timeline_navigation_enabled                      | boolean | Future     |
+| unified_cards_ad_metadata_container_dynamic_card_content_query_enabled  | boolean | Future     |
+| dont_mention_me_view_api_enabled                                        | boolean | Future     |
+| responsive_web_uc_gql_enabled                                           | boolean | Future     |
+| vibe_api_enabled                                                        | boolean | Future     |
+| responsive_web_edit_tweet_api_enabled                                   | boolean | Future     |
+| graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | Future     |
+| standardized_nudges_misinfo                                             | boolean | Future     |
+| tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | Future     |
+| interactive_text_enabled                                                | boolean | Future     |
+| responsive_web_text_conversations_enabled                               | boolean | Future     |
+| responsive_web_enhance_cards_enabled                                    | boolean | Future     |
+
+#### queryId<br>
+`None`<br>
 ## Followers<br>
 Request URL: `https://twitter.com/i/api/graphql/p6oAap7drmgt2ViNbhB62Q/Followers`<br>
 Request Method: `GET`<br>
@@ -923,6 +1932,174 @@ Login Required: `Future`<br>
 ```internal process
 # Error
 {"userId":"r","count":"n","cursor":"i","includePromotedContent":"!1",...(0,g.d)(t)}
+```
+#### features<br>
+| key                                                                     | type    | variable   |
+|:------------------------------------------------------------------------|:--------|:-----------|
+| responsive_web_graphql_timeline_navigation_enabled                      | boolean | Future     |
+| unified_cards_ad_metadata_container_dynamic_card_content_query_enabled  | boolean | Future     |
+| dont_mention_me_view_api_enabled                                        | boolean | Future     |
+| responsive_web_uc_gql_enabled                                           | boolean | Future     |
+| vibe_api_enabled                                                        | boolean | Future     |
+| responsive_web_edit_tweet_api_enabled                                   | boolean | Future     |
+| graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | Future     |
+| standardized_nudges_misinfo                                             | boolean | Future     |
+| tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | Future     |
+| interactive_text_enabled                                                | boolean | Future     |
+| responsive_web_text_conversations_enabled                               | boolean | Future     |
+| responsive_web_enhance_cards_enabled                                    | boolean | Future     |
+
+#### queryId<br>
+`None`<br>
+## FollowersYouKnow<br>
+Request URL: `https://twitter.com/i/api/graphql/XggvmkOgzGZ-HmFDLo0-bw/FollowersYouKnow`<br>
+Request Method: `GET`<br>
+Login Required: `Future`<br>
+### Param<br>
+#### variables<br>
+```internal process
+# Error
+{"userId":"r","count":"n","cursor":"i","includePromotedContent":"!1",...(0,g.d)(t)}
+```
+#### features<br>
+| key                                                                     | type    | variable   |
+|:------------------------------------------------------------------------|:--------|:-----------|
+| responsive_web_graphql_timeline_navigation_enabled                      | boolean | Future     |
+| unified_cards_ad_metadata_container_dynamic_card_content_query_enabled  | boolean | Future     |
+| dont_mention_me_view_api_enabled                                        | boolean | Future     |
+| responsive_web_uc_gql_enabled                                           | boolean | Future     |
+| vibe_api_enabled                                                        | boolean | Future     |
+| responsive_web_edit_tweet_api_enabled                                   | boolean | Future     |
+| graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | Future     |
+| standardized_nudges_misinfo                                             | boolean | Future     |
+| tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | Future     |
+| interactive_text_enabled                                                | boolean | Future     |
+| responsive_web_text_conversations_enabled                               | boolean | Future     |
+| responsive_web_enhance_cards_enabled                                    | boolean | Future     |
+
+#### queryId<br>
+`None`<br>
+## Following<br>
+Request URL: `https://twitter.com/i/api/graphql/i94e7ZBJNGVrM_8lFPFjOw/Following`<br>
+Request Method: `GET`<br>
+Login Required: `Future`<br>
+### Param<br>
+#### variables<br>
+```internal process
+# Error
+{"userId":"r","count":"n","cursor":"i","includePromotedContent":"!1",...(0,g.d)(t)}
+```
+#### features<br>
+| key                                                                     | type    | variable   |
+|:------------------------------------------------------------------------|:--------|:-----------|
+| responsive_web_graphql_timeline_navigation_enabled                      | boolean | Future     |
+| unified_cards_ad_metadata_container_dynamic_card_content_query_enabled  | boolean | Future     |
+| dont_mention_me_view_api_enabled                                        | boolean | Future     |
+| responsive_web_uc_gql_enabled                                           | boolean | Future     |
+| vibe_api_enabled                                                        | boolean | Future     |
+| responsive_web_edit_tweet_api_enabled                                   | boolean | Future     |
+| graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | Future     |
+| standardized_nudges_misinfo                                             | boolean | Future     |
+| tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | Future     |
+| interactive_text_enabled                                                | boolean | Future     |
+| responsive_web_text_conversations_enabled                               | boolean | Future     |
+| responsive_web_enhance_cards_enabled                                    | boolean | Future     |
+
+#### queryId<br>
+`None`<br>
+## SuperFollowers<br>
+Request URL: `https://twitter.com/i/api/graphql/Db0zn83YMvRWJlfIBQ3tXQ/SuperFollowers`<br>
+Request Method: `GET`<br>
+Login Required: `Future`<br>
+### Param<br>
+#### variables<br>
+```internal process
+# Error
+{"count":"n","cursor":"i","includePromotedContent":"!1",...(0,g.d)(t)}
+```
+#### features<br>
+| key                                                                     | type    | variable   |
+|:------------------------------------------------------------------------|:--------|:-----------|
+| responsive_web_graphql_timeline_navigation_enabled                      | boolean | Future     |
+| unified_cards_ad_metadata_container_dynamic_card_content_query_enabled  | boolean | Future     |
+| dont_mention_me_view_api_enabled                                        | boolean | Future     |
+| responsive_web_uc_gql_enabled                                           | boolean | Future     |
+| vibe_api_enabled                                                        | boolean | Future     |
+| responsive_web_edit_tweet_api_enabled                                   | boolean | Future     |
+| graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | Future     |
+| standardized_nudges_misinfo                                             | boolean | Future     |
+| tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | Future     |
+| interactive_text_enabled                                                | boolean | Future     |
+| responsive_web_text_conversations_enabled                               | boolean | Future     |
+| responsive_web_enhance_cards_enabled                                    | boolean | Future     |
+
+#### queryId<br>
+`None`<br>
+## ModeratedTimeline<br>
+Request URL: `https://twitter.com/i/api/graphql/gu3Shvvl6pwtmlLp8Qi4Hg/ModeratedTimeline`<br>
+Request Method: `GET`<br>
+Login Required: `Future`<br>
+### Param<br>
+#### variables<br>
+```internal process
+# Error
+{"rootTweetId":"r","count":"n","cursor":"i","includePromotedContent":"!1",...(0,g.d)(t)}
+```
+#### features<br>
+| key                                                                     | type    | variable   |
+|:------------------------------------------------------------------------|:--------|:-----------|
+| responsive_web_graphql_timeline_navigation_enabled                      | boolean | Future     |
+| unified_cards_ad_metadata_container_dynamic_card_content_query_enabled  | boolean | Future     |
+| dont_mention_me_view_api_enabled                                        | boolean | Future     |
+| responsive_web_uc_gql_enabled                                           | boolean | Future     |
+| vibe_api_enabled                                                        | boolean | Future     |
+| responsive_web_edit_tweet_api_enabled                                   | boolean | Future     |
+| graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | Future     |
+| standardized_nudges_misinfo                                             | boolean | Future     |
+| tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | Future     |
+| interactive_text_enabled                                                | boolean | Future     |
+| responsive_web_text_conversations_enabled                               | boolean | Future     |
+| responsive_web_enhance_cards_enabled                                    | boolean | Future     |
+
+#### queryId<br>
+`None`<br>
+## MutedAccounts<br>
+Request URL: `https://twitter.com/i/api/graphql/Xg8XjG8ugtWchNXe3UCkPg/MutedAccounts`<br>
+Request Method: `GET`<br>
+Login Required: `Future`<br>
+### Param<br>
+#### variables<br>
+```internal process
+# Error
+{"count":"n","cursor":"i","includePromotedContent":"!1",...(0,g.d)(t)}
+```
+#### features<br>
+| key                                                                     | type    | variable   |
+|:------------------------------------------------------------------------|:--------|:-----------|
+| responsive_web_graphql_timeline_navigation_enabled                      | boolean | Future     |
+| unified_cards_ad_metadata_container_dynamic_card_content_query_enabled  | boolean | Future     |
+| dont_mention_me_view_api_enabled                                        | boolean | Future     |
+| responsive_web_uc_gql_enabled                                           | boolean | Future     |
+| vibe_api_enabled                                                        | boolean | Future     |
+| responsive_web_edit_tweet_api_enabled                                   | boolean | Future     |
+| graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | Future     |
+| standardized_nudges_misinfo                                             | boolean | Future     |
+| tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | Future     |
+| interactive_text_enabled                                                | boolean | Future     |
+| responsive_web_text_conversations_enabled                               | boolean | Future     |
+| responsive_web_enhance_cards_enabled                                    | boolean | Future     |
+
+#### queryId<br>
+`None`<br>
+## GenericTimelineById<br>
+Request URL: `https://twitter.com/i/api/graphql/9Hqiw-iCqEyVb-GeppbFJg/GenericTimelineById`<br>
+Request Method: `GET`<br>
+Login Required: `Future`<br>
+### Param<br>
+#### variables<br>
+```internal process
+# Error
+{"timelineId":"r","count":"n","cursor":"i","withQuickPromoteEligibilityTweetFields":"!0",...(0,g.d)(t)}
 ```
 #### features<br>
 | key                                                                     | type    | variable   |
@@ -1215,6 +2392,23 @@ Login Required: `Future`<br>
 
 #### queryId<br>
 `None`<br>
+## ListPinOne<br>
+Request URL: `https://twitter.com/i/api/graphql/_8IUBMhVuekddv8P6Q5vHQ/ListPinOne`<br>
+Request Method: `POST`<br>
+Login Required: `Future`<br>
+### Param<br>
+#### variables<br>
+```internal process
+# Error
+{"listId":"r",...o}
+```
+#### features<br>
+| key                                                | type    | variable   |
+|:---------------------------------------------------|:--------|:-----------|
+| responsive_web_graphql_timeline_navigation_enabled | boolean | Future     |
+
+#### queryId<br>
+`None`<br>
 ## ListsPinMany<br>
 Request URL: `https://twitter.com/i/api/graphql/J-U5JsCVrEiMA7Auxo96VQ/ListsPinMany`<br>
 Request Method: `POST`<br>
@@ -1280,6 +2474,20 @@ Login Required: `Future`<br>
 `None`<br>
 #### queryId<br>
 `None`<br>
+## UnmuteList<br>
+Request URL: `https://twitter.com/i/api/graphql/pMZrHRNsmEkXgbn3tOyr7Q/UnmuteList`<br>
+Request Method: `POST`<br>
+Login Required: `Future`<br>
+### Param<br>
+#### variables<br>
+| key    | type   | variable   |
+|:-------|:-------|:-----------|
+| listId | Future | i          |
+
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
 ## UpdateList<br>
 Request URL: `https://twitter.com/i/api/graphql/P9YDuvCt6ogRf-kyr5E5xw/UpdateList`<br>
 Request Method: `POST`<br>
@@ -1325,6 +2533,79 @@ Login Required: `Future`<br>
 
 #### queryId<br>
 `None`<br>
+## ListsManagementPageTimeline<br>
+Request URL: `https://twitter.com/i/api/graphql/cl2dF-zeGiLvZDsMGZhL4g/ListsManagementPageTimeline`<br>
+Request Method: `GET`<br>
+Login Required: `Future`<br>
+### Param<br>
+#### variables<br>
+```internal process
+# Error
+{"count":"n","cursor":"i",...(0,g.d)(t)}
+```
+#### features<br>
+| key                                                                     | type    | variable   |
+|:------------------------------------------------------------------------|:--------|:-----------|
+| responsive_web_graphql_timeline_navigation_enabled                      | boolean | Future     |
+| unified_cards_ad_metadata_container_dynamic_card_content_query_enabled  | boolean | Future     |
+| dont_mention_me_view_api_enabled                                        | boolean | Future     |
+| responsive_web_uc_gql_enabled                                           | boolean | Future     |
+| vibe_api_enabled                                                        | boolean | Future     |
+| responsive_web_edit_tweet_api_enabled                                   | boolean | Future     |
+| graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | Future     |
+| standardized_nudges_misinfo                                             | boolean | Future     |
+| tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | Future     |
+| interactive_text_enabled                                                | boolean | Future     |
+| responsive_web_text_conversations_enabled                               | boolean | Future     |
+| responsive_web_enhance_cards_enabled                                    | boolean | Future     |
+
+#### queryId<br>
+`None`<br>
+## ListPins<br>
+Request URL: `https://twitter.com/i/api/graphql/oVcs18ZxYHcnJ5qjzTAGlA/ListPins`<br>
+Request Method: `GET`<br>
+Login Required: `Future`<br>
+### Param<br>
+#### variables<br>
+```internal process
+# Error
+{...(0,g.S)(t)}
+```
+#### features<br>
+| key                                                | type    | variable   |
+|:---------------------------------------------------|:--------|:-----------|
+| responsive_web_graphql_timeline_navigation_enabled | boolean | Future     |
+
+#### queryId<br>
+`None`<br>
+## ListsDiscovery<br>
+Request URL: `https://twitter.com/i/api/graphql/Dt4LrUTw3SRCKTo4iKTnAA/ListsDiscovery`<br>
+Request Method: `GET`<br>
+Login Required: `Future`<br>
+### Param<br>
+#### variables<br>
+```internal process
+# Error
+{"count":"n","cursor":"i",...(0,g.d)(t)}
+```
+#### features<br>
+| key                                                                     | type    | variable   |
+|:------------------------------------------------------------------------|:--------|:-----------|
+| responsive_web_graphql_timeline_navigation_enabled                      | boolean | Future     |
+| unified_cards_ad_metadata_container_dynamic_card_content_query_enabled  | boolean | Future     |
+| dont_mention_me_view_api_enabled                                        | boolean | Future     |
+| responsive_web_uc_gql_enabled                                           | boolean | Future     |
+| vibe_api_enabled                                                        | boolean | Future     |
+| responsive_web_edit_tweet_api_enabled                                   | boolean | Future     |
+| graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | Future     |
+| standardized_nudges_misinfo                                             | boolean | Future     |
+| tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | Future     |
+| interactive_text_enabled                                                | boolean | Future     |
+| responsive_web_text_conversations_enabled                               | boolean | Future     |
+| responsive_web_enhance_cards_enabled                                    | boolean | Future     |
+
+#### queryId<br>
+`None`<br>
 ## UserAboutTimeline<br>
 Request URL: `https://twitter.com/i/api/graphql/-QhX8r1nIYFqaFOM0eYyJA/UserAboutTimeline`<br>
 Request Method: `GET`<br>
@@ -1334,6 +2615,174 @@ Login Required: `Future`<br>
 ```internal process
 # Error
 {"rest_id":"r","count":"n","cursor":"i","includePromotedContent":"!1",...(0,g.d)(t)}
+```
+#### features<br>
+| key                                                                     | type    | variable   |
+|:------------------------------------------------------------------------|:--------|:-----------|
+| responsive_web_graphql_timeline_navigation_enabled                      | boolean | Future     |
+| unified_cards_ad_metadata_container_dynamic_card_content_query_enabled  | boolean | Future     |
+| dont_mention_me_view_api_enabled                                        | boolean | Future     |
+| responsive_web_uc_gql_enabled                                           | boolean | Future     |
+| vibe_api_enabled                                                        | boolean | Future     |
+| responsive_web_edit_tweet_api_enabled                                   | boolean | Future     |
+| graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | Future     |
+| standardized_nudges_misinfo                                             | boolean | Future     |
+| tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | Future     |
+| interactive_text_enabled                                                | boolean | Future     |
+| responsive_web_text_conversations_enabled                               | boolean | Future     |
+| responsive_web_enhance_cards_enabled                                    | boolean | Future     |
+
+#### queryId<br>
+`None`<br>
+## UserTweets<br>
+Request URL: `https://twitter.com/i/api/graphql/q881FFtQa69KN7jS9h_EDA/UserTweets`<br>
+Request Method: `GET`<br>
+Login Required: `Future`<br>
+### Param<br>
+#### variables<br>
+```internal process
+# Error
+{"userId":"r","count":"n","cursor":"i","includePromotedContent":"!0","withQuickPromoteEligibilityTweetFields":"!0",...(0,g.d)(t),"withVoice":t.isTrue("voice_consumption_enabled"),"withV2Timeline":t.isTrue("graphql_timeline_v2_user_profile_timeline")}
+```
+#### features<br>
+| key                                                                     | type    | variable   |
+|:------------------------------------------------------------------------|:--------|:-----------|
+| responsive_web_graphql_timeline_navigation_enabled                      | boolean | Future     |
+| unified_cards_ad_metadata_container_dynamic_card_content_query_enabled  | boolean | Future     |
+| dont_mention_me_view_api_enabled                                        | boolean | Future     |
+| responsive_web_uc_gql_enabled                                           | boolean | Future     |
+| vibe_api_enabled                                                        | boolean | Future     |
+| responsive_web_edit_tweet_api_enabled                                   | boolean | Future     |
+| graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | Future     |
+| standardized_nudges_misinfo                                             | boolean | Future     |
+| tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | Future     |
+| interactive_text_enabled                                                | boolean | Future     |
+| responsive_web_text_conversations_enabled                               | boolean | Future     |
+| responsive_web_enhance_cards_enabled                                    | boolean | Future     |
+
+#### queryId<br>
+`None`<br>
+## UserTweetsAndReplies<br>
+Request URL: `https://twitter.com/i/api/graphql/9pXWTtWPf0yOWJBKslHq5w/UserTweetsAndReplies`<br>
+Request Method: `GET`<br>
+Login Required: `Future`<br>
+### Param<br>
+#### variables<br>
+```internal process
+# Error
+{"userId":"r","count":"n","cursor":"i","includePromotedContent":"!0","withCommunity":t.isTrue("c9s_enabled"),...(0,g.d)(t),"withVoice":t.isTrue("voice_consumption_enabled"),"withV2Timeline":t.isTrue("graphql_timeline_v2_user_profile_with_replies_timeline")}
+```
+#### features<br>
+| key                                                                     | type    | variable   |
+|:------------------------------------------------------------------------|:--------|:-----------|
+| responsive_web_graphql_timeline_navigation_enabled                      | boolean | Future     |
+| unified_cards_ad_metadata_container_dynamic_card_content_query_enabled  | boolean | Future     |
+| dont_mention_me_view_api_enabled                                        | boolean | Future     |
+| responsive_web_uc_gql_enabled                                           | boolean | Future     |
+| vibe_api_enabled                                                        | boolean | Future     |
+| responsive_web_edit_tweet_api_enabled                                   | boolean | Future     |
+| graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | Future     |
+| standardized_nudges_misinfo                                             | boolean | Future     |
+| tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | Future     |
+| interactive_text_enabled                                                | boolean | Future     |
+| responsive_web_text_conversations_enabled                               | boolean | Future     |
+| responsive_web_enhance_cards_enabled                                    | boolean | Future     |
+
+#### queryId<br>
+`None`<br>
+## UserSuperFollowTweets<br>
+Request URL: `https://twitter.com/i/api/graphql/lX0y1PuxL7Gpb_Ivbg815w/UserSuperFollowTweets`<br>
+Request Method: `GET`<br>
+Login Required: `Future`<br>
+### Param<br>
+#### variables<br>
+```internal process
+# Error
+{"userId":"r","count":"n","cursor":"i","includePromotedContent":"!0",...(0,g.d)(t),"withVoice":t.isTrue("voice_consumption_enabled")}
+```
+#### features<br>
+| key                                                                     | type    | variable   |
+|:------------------------------------------------------------------------|:--------|:-----------|
+| responsive_web_graphql_timeline_navigation_enabled                      | boolean | Future     |
+| unified_cards_ad_metadata_container_dynamic_card_content_query_enabled  | boolean | Future     |
+| dont_mention_me_view_api_enabled                                        | boolean | Future     |
+| responsive_web_uc_gql_enabled                                           | boolean | Future     |
+| vibe_api_enabled                                                        | boolean | Future     |
+| responsive_web_edit_tweet_api_enabled                                   | boolean | Future     |
+| graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | Future     |
+| standardized_nudges_misinfo                                             | boolean | Future     |
+| tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | Future     |
+| interactive_text_enabled                                                | boolean | Future     |
+| responsive_web_text_conversations_enabled                               | boolean | Future     |
+| responsive_web_enhance_cards_enabled                                    | boolean | Future     |
+
+#### queryId<br>
+`None`<br>
+## UserPromotableTweets<br>
+Request URL: `https://twitter.com/i/api/graphql/SDuds5RJvtxXyPbzSXEg9w/UserPromotableTweets`<br>
+Request Method: `GET`<br>
+Login Required: `Future`<br>
+### Param<br>
+#### variables<br>
+```internal process
+# Error
+{"userId":"i","count":"t","cursor":"string"==typeof n?n:void 0,"includePromotedContent":"!1","withDownvotePerspective":"!1","withReactionsMetadata":"!1","withReactionsPerspective":"!1","withSuperFollowsTweetFields":"!1","withSuperFollowsUserFields":"!1","withVoice":"!1"}
+```
+#### features<br>
+| key                                                                     | type    | variable   |
+|:------------------------------------------------------------------------|:--------|:-----------|
+| responsive_web_graphql_timeline_navigation_enabled                      | boolean | Future     |
+| unified_cards_ad_metadata_container_dynamic_card_content_query_enabled  | boolean | Future     |
+| dont_mention_me_view_api_enabled                                        | boolean | Future     |
+| responsive_web_uc_gql_enabled                                           | boolean | Future     |
+| vibe_api_enabled                                                        | boolean | Future     |
+| responsive_web_edit_tweet_api_enabled                                   | boolean | Future     |
+| graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | Future     |
+| standardized_nudges_misinfo                                             | boolean | Future     |
+| tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | Future     |
+| interactive_text_enabled                                                | boolean | Future     |
+| responsive_web_text_conversations_enabled                               | boolean | Future     |
+| responsive_web_enhance_cards_enabled                                    | boolean | Future     |
+
+#### queryId<br>
+`None`<br>
+## Likes<br>
+Request URL: `https://twitter.com/i/api/graphql/8ymqOI9bCoMKsTDx80xXqw/Likes`<br>
+Request Method: `GET`<br>
+Login Required: `Future`<br>
+### Param<br>
+#### variables<br>
+```internal process
+# Error
+{"userId":"r","count":"n","cursor":"i","includePromotedContent":"!1",...(0,g.d)(t),"withClientEventToken":"!1","withBirdwatchNotes":"!1","withVoice":t.isTrue("voice_consumption_enabled"),"withV2Timeline":t.isTrue("graphql_timeline_v2_user_favorites_by_time_timeline")}
+```
+#### features<br>
+| key                                                                     | type    | variable   |
+|:------------------------------------------------------------------------|:--------|:-----------|
+| responsive_web_graphql_timeline_navigation_enabled                      | boolean | Future     |
+| unified_cards_ad_metadata_container_dynamic_card_content_query_enabled  | boolean | Future     |
+| dont_mention_me_view_api_enabled                                        | boolean | Future     |
+| responsive_web_uc_gql_enabled                                           | boolean | Future     |
+| vibe_api_enabled                                                        | boolean | Future     |
+| responsive_web_edit_tweet_api_enabled                                   | boolean | Future     |
+| graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | Future     |
+| standardized_nudges_misinfo                                             | boolean | Future     |
+| tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | Future     |
+| interactive_text_enabled                                                | boolean | Future     |
+| responsive_web_text_conversations_enabled                               | boolean | Future     |
+| responsive_web_enhance_cards_enabled                                    | boolean | Future     |
+
+#### queryId<br>
+`None`<br>
+## UserMedia<br>
+Request URL: `https://twitter.com/i/api/graphql/_vFDgkWOKL_U64Y2VmnvJw/UserMedia`<br>
+Request Method: `GET`<br>
+Login Required: `Future`<br>
+### Param<br>
+#### variables<br>
+```internal process
+# Error
+{"userId":"r","count":"n","cursor":"i","includePromotedContent":"!1",...(0,g.d)(t),"withClientEventToken":"!1","withBirdwatchNotes":"!1","withVoice":t.isTrue("voice_consumption_enabled"),"withV2Timeline":t.isTrue("graphql_timeline_v2_user_media_timeline")}
 ```
 #### features<br>
 | key                                                                     | type    | variable   |
@@ -1557,6 +3006,91 @@ Login Required: `Future`<br>
 `None`<br>
 #### queryId<br>
 `None`<br>
+## DataSaverMode<br>
+Request URL: `https://twitter.com/i/api/graphql/xF6sXnKJfS2AOylzxRjf6A/DataSaverMode`<br>
+Request Method: `GET`<br>
+Login Required: `Future`<br>
+### Param<br>
+#### variables<br>
+| key       | type   | variable   |
+|:----------|:-------|:-----------|
+| device_id | Future | t          |
+
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
+## WriteDataSaverPreferences<br>
+Request URL: `https://twitter.com/i/api/graphql/H03etWvZGz41YASxAU2YPg/WriteDataSaverPreferences`<br>
+Request Method: `POST`<br>
+Login Required: `Future`<br>
+### Param<br>
+#### variables<br>
+| key              | type   | variable   |
+|:-----------------|:-------|:-----------|
+| dataSaverEnabled | Future | t          |
+| deviceId         | Future | n          |
+| videoAutoplay    | Future | i          |
+
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
+## DmNsfwMediaFilterUpdate<br>
+Request URL: `https://twitter.com/i/api/graphql/of_N6O33zfyD4qsFJMYFxA/DmNsfwMediaFilterUpdate`<br>
+Request Method: `POST`<br>
+Login Required: `Future`<br>
+### Param<br>
+#### variables<br>
+| key               | type   | variable   |
+|:------------------|:-------|:-----------|
+| userId            | Future | n          |
+| dmNsfwMediaFilter | Future | t          |
+
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
+## SharingAudiospacesListeningDataWithFollowersUpdate<br>
+Request URL: `https://twitter.com/i/api/graphql/5h0kNbk3ii97rmfY6CdgAA/SharingAudiospacesListeningDataWithFollowersUpdate`<br>
+Request Method: `POST`<br>
+Login Required: `Future`<br>
+### Param<br>
+#### variables<br>
+| key                                          | type   | variable   |
+|:---------------------------------------------|:-------|:-----------|
+| userId                                       | Future | n          |
+| sharingAudiospacesListeningDataWithFollowers | Future | t          |
+
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
+## GetSafetyModeSettings<br>
+Request URL: `https://twitter.com/i/api/graphql/AhxTX0lkbIos4WG53xwzSA/GetSafetyModeSettings`<br>
+Request Method: `GET`<br>
+Login Required: `Future`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
+## SetSafetyModeSettings<br>
+Request URL: `https://twitter.com/i/api/graphql/qSJIPIpf4gA7Wn21bT3D4w/SetSafetyModeSettings`<br>
+Request Method: `POST`<br>
+Login Required: `Future`<br>
+### Param<br>
+#### variables<br>
+```internal process
+# Error
+{"userId":"n","enabled":"none"!==t,"duration":"none"===t?void 0:"t"}
+```
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
 ## GetUserClaims<br>
 Request URL: `https://twitter.com/i/api/graphql/lFi3xnx0auUUnyG4YwpCNw/GetUserClaims`<br>
 Request Method: `GET`<br>
@@ -1761,6 +3295,34 @@ Login Required: `Future`<br>
 
 #### queryId<br>
 `None`<br>
+## TopicsPickerPage<br>
+Request URL: `https://twitter.com/i/api/graphql/IUeyYRWY-KlLiEXb8OGHtA/TopicsPickerPage`<br>
+Request Method: `GET`<br>
+Login Required: `Future`<br>
+### Param<br>
+#### variables<br>
+```internal process
+# Error
+{...(0,g.d)(t)}
+```
+#### features<br>
+| key                                                                     | type    | variable   |
+|:------------------------------------------------------------------------|:--------|:-----------|
+| responsive_web_graphql_timeline_navigation_enabled                      | boolean | Future     |
+| unified_cards_ad_metadata_container_dynamic_card_content_query_enabled  | boolean | Future     |
+| dont_mention_me_view_api_enabled                                        | boolean | Future     |
+| responsive_web_uc_gql_enabled                                           | boolean | Future     |
+| vibe_api_enabled                                                        | boolean | Future     |
+| responsive_web_edit_tweet_api_enabled                                   | boolean | Future     |
+| graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | Future     |
+| standardized_nudges_misinfo                                             | boolean | Future     |
+| tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | Future     |
+| interactive_text_enabled                                                | boolean | Future     |
+| responsive_web_text_conversations_enabled                               | boolean | Future     |
+| responsive_web_enhance_cards_enabled                                    | boolean | Future     |
+
+#### queryId<br>
+`None`<br>
 ## ViewingOtherUsersTopicsPage<br>
 Request URL: `https://twitter.com/i/api/graphql/_YOj3ANPbZuporTfoUxhFQ/ViewingOtherUsersTopicsPage`<br>
 Request Method: `GET`<br>
@@ -1904,6 +3466,17 @@ Login Required: `Future`<br>
 ## AuthenticatedUserTFLists<br>
 Request URL: `https://twitter.com/i/api/graphql/QjN8ZdavFDqxUjNn3r9cig/AuthenticatedUserTFLists`<br>
 Request Method: `GET`<br>
+Login Required: `Future`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
+## CreateTrustedFriendsList<br>
+Request URL: `https://twitter.com/i/api/graphql/2tP8XUYeLHKjq5RHvuvpZw/CreateTrustedFriendsList`<br>
+Request Method: `POST`<br>
 Login Required: `Future`<br>
 ### Param<br>
 #### variables<br>
@@ -2082,6 +3655,34 @@ Login Required: `Future`<br>
 `None`<br>
 #### queryId<br>
 `None`<br>
+## CommunityUserRelationshipTypeahead<br>
+Request URL: `https://twitter.com/i/api/graphql/mHD64WE922Oa5EmHCgwOcg/CommunityUserRelationshipTypeahead`<br>
+Request Method: `GET`<br>
+Login Required: `Future`<br>
+### Param<br>
+#### variables<br>
+```internal process
+# Error
+{"communityId":t.communityId,"prefix":t.prefix}
+```
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
+## CommunityMemberRelationshipTypeahead<br>
+Request URL: `https://twitter.com/i/api/graphql/EaCbT1bOCOFxrDbDapS-Dw/CommunityMemberRelationshipTypeahead`<br>
+Request Method: `GET`<br>
+Login Required: `Future`<br>
+### Param<br>
+#### variables<br>
+```internal process
+# Error
+{"communityId":t.communityId,"prefix":t.prefix}
+```
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
 ## Viewer<br>
 Request URL: `https://twitter.com/i/api/graphql/4jeP7HyKpQUitFUTWedrqA/Viewer`<br>
 Request Method: `GET`<br>
@@ -2099,6 +3700,71 @@ Login Required: `Future`<br>
 
 #### queryId<br>
 `None`<br>
+## UserByScreenName<br>
+Request URL: `https://twitter.com/i/api/graphql/vG3rchZtwqiwlKgUYCrTRA/UserByScreenName`<br>
+Request Method: `GET`<br>
+Login Required: `Future`<br>
+### Param<br>
+#### variables<br>
+```internal process
+# Error
+{"screen_name":"n","withSafetyModeUserFields":t.isTrue("rito_safety_mode_blocked_profile_enabled"),"withSuperFollowsUserFields":t.isTrue("super_follow_user_api_enabled")}
+```
+#### features<br>
+| key                                                | type    | variable   |
+|:---------------------------------------------------|:--------|:-----------|
+| responsive_web_graphql_timeline_navigation_enabled | boolean | Future     |
+
+#### queryId<br>
+`None`<br>
+## UserByRestId<br>
+Request URL: `https://twitter.com/i/api/graphql/5bKaQ2_gljw0cRGYF1FVnQ/UserByRestId`<br>
+Request Method: `GET`<br>
+Login Required: `Future`<br>
+### Param<br>
+#### variables<br>
+```internal process
+# Error
+{"userId":"n","withSafetyModeUserFields":t.isTrue("rito_safety_mode_blocked_profile_enabled"),"withSuperFollowsUserFields":t.isTrue("super_follow_user_api_enabled")}
+```
+#### features<br>
+| key                                                | type    | variable   |
+|:---------------------------------------------------|:--------|:-----------|
+| responsive_web_graphql_timeline_navigation_enabled | boolean | Future     |
+
+#### queryId<br>
+`None`<br>
+## UsersByRestIds<br>
+Request URL: `https://twitter.com/i/api/graphql/RE7X-d9rato9lbig-3wN4A/UsersByRestIds`<br>
+Request Method: `GET`<br>
+Login Required: `Future`<br>
+### Param<br>
+#### variables<br>
+```internal process
+# Error
+{"userIds":n.split(","),"withSuperFollowsUserFields":t.isTrue("super_follow_user_api_enabled")}
+```
+#### features<br>
+| key                                                | type    | variable   |
+|:---------------------------------------------------|:--------|:-----------|
+| responsive_web_graphql_timeline_navigation_enabled | boolean | Future     |
+
+#### queryId<br>
+`None`<br>
+## RemoveFollower<br>
+Request URL: `https://twitter.com/i/api/graphql/QpNfg0kpPRfjROQ_9eOLXA/RemoveFollower`<br>
+Request Method: `POST`<br>
+Login Required: `Future`<br>
+### Param<br>
+#### variables<br>
+| key            | type   | variable   |
+|:---------------|:-------|:-----------|
+| target_user_id | Future | t          |
+
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
 ## UrtFixtures<br>
 Request URL: `https://twitter.com/i/api/graphql/qNZkBA9QShKetdS6WHdsgQ/UrtFixtures`<br>
 Request Method: `GET`<br>
@@ -2108,6 +3774,48 @@ Login Required: `Future`<br>
 ```internal process
 # Error
 {"includePromotedContent":"!0",...(0,g.d)(t)}
+```
+#### features<br>
+| key                                                                     | type    | variable   |
+|:------------------------------------------------------------------------|:--------|:-----------|
+| responsive_web_graphql_timeline_navigation_enabled                      | boolean | Future     |
+| unified_cards_ad_metadata_container_dynamic_card_content_query_enabled  | boolean | Future     |
+| dont_mention_me_view_api_enabled                                        | boolean | Future     |
+| responsive_web_uc_gql_enabled                                           | boolean | Future     |
+| vibe_api_enabled                                                        | boolean | Future     |
+| responsive_web_edit_tweet_api_enabled                                   | boolean | Future     |
+| graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | Future     |
+| standardized_nudges_misinfo                                             | boolean | Future     |
+| tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | Future     |
+| interactive_text_enabled                                                | boolean | Future     |
+| responsive_web_text_conversations_enabled                               | boolean | Future     |
+| responsive_web_enhance_cards_enabled                                    | boolean | Future     |
+
+#### queryId<br>
+`None`<br>
+## timelinesFeedback<br>
+Request URL: `https://twitter.com/i/api/graphql/vfVbgvTPTQ-dF_PQ5lD1WQ/timelinesFeedback`<br>
+Request Method: `POST`<br>
+Login Required: `Future`<br>
+### Param<br>
+#### variables<br>
+```internal process
+# Error
+{...t}
+```
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
+## ConnectTabTimeline<br>
+Request URL: `https://twitter.com/i/api/graphql/Pj_t_uazUs5mUwHByz--CA/ConnectTabTimeline`<br>
+Request Method: `GET`<br>
+Login Required: `Future`<br>
+### Param<br>
+#### variables<br>
+```internal process
+# Error
+{"count":"i","cursor":"r","context":"n",...(0,g.d)(t)}
 ```
 #### features<br>
 | key                                                                     | type    | variable   |
