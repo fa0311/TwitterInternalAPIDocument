@@ -52,7 +52,7 @@ Login Required: `Future`<br>
 `None`<br>
 ## SubscribeToScheduledSpace<br>
 Request URL: `https://twitter.com/i/api/graphql/Sxn4YOlaAwEKjnjWV0h7Mw/SubscribeToScheduledSpace`<br>
-Request Method: `GET`<br>
+Request Method: `POST`<br>
 Login Required: `Future`<br>
 ### Param<br>
 #### variables<br>
@@ -66,7 +66,7 @@ Login Required: `Future`<br>
 `None`<br>
 ## UnsubscribeFromScheduledSpace<br>
 Request URL: `https://twitter.com/i/api/graphql/Zevhh76Msw574ZSs2NQHGQ/UnsubscribeFromScheduledSpace`<br>
-Request Method: `GET`<br>
+Request Method: `POST`<br>
 Login Required: `Future`<br>
 ### Param<br>
 #### variables<br>
@@ -122,7 +122,7 @@ Login Required: `Future`<br>
 `None`<br>
 ## FavoriteTweet<br>
 Request URL: `https://twitter.com/i/api/graphql/lI07N6Otwv1PhnEgXILM7A/FavoriteTweet`<br>
-Request Method: `GET`<br>
+Request Method: `POST`<br>
 Login Required: `Future`<br>
 ### Param<br>
 #### variables<br>
@@ -136,7 +136,7 @@ Login Required: `Future`<br>
 `None`<br>
 ## UnfavoriteTweet<br>
 Request URL: `https://twitter.com/i/api/graphql/ZYKSe-w7KEslx3JhSIk5LA/UnfavoriteTweet`<br>
-Request Method: `GET`<br>
+Request Method: `POST`<br>
 Login Required: `Future`<br>
 ### Param<br>
 #### variables<br>
@@ -150,7 +150,7 @@ Login Required: `Future`<br>
 `None`<br>
 ## CreateTweetDownvote<br>
 Request URL: `https://twitter.com/i/api/graphql/Eo65jl-gww30avDgrXvhUA/CreateTweetDownvote`<br>
-Request Method: `GET`<br>
+Request Method: `POST`<br>
 Login Required: `Future`<br>
 ### Param<br>
 #### variables<br>
@@ -164,7 +164,7 @@ Login Required: `Future`<br>
 `None`<br>
 ## DeleteTweetDownvote<br>
 Request URL: `https://twitter.com/i/api/graphql/VNEvEGXaUAMfiExP8Tbezw/DeleteTweetDownvote`<br>
-Request Method: `GET`<br>
+Request Method: `POST`<br>
 Login Required: `Future`<br>
 ### Param<br>
 #### variables<br>
@@ -178,7 +178,7 @@ Login Required: `Future`<br>
 `None`<br>
 ## CreateTweetReaction<br>
 Request URL: `https://twitter.com/i/api/graphql/D7M6X3h4-mJE8UB1Ap3_dQ/CreateTweetReaction`<br>
-Request Method: `GET`<br>
+Request Method: `POST`<br>
 Login Required: `Future`<br>
 ### Param<br>
 #### variables<br>
@@ -192,7 +192,7 @@ Login Required: `Future`<br>
 `None`<br>
 ## DeleteTweetReaction<br>
 Request URL: `https://twitter.com/i/api/graphql/GKwK0Rj4EdkfwdHQMZTpuw/DeleteTweetReaction`<br>
-Request Method: `GET`<br>
+Request Method: `POST`<br>
 Login Required: `Future`<br>
 ### Param<br>
 #### variables<br>
@@ -206,7 +206,7 @@ Login Required: `Future`<br>
 `None`<br>
 ## CreateRetweet<br>
 Request URL: `https://twitter.com/i/api/graphql/ojPdsZsimiJrUGLR1sjUtA/CreateRetweet`<br>
-Request Method: `GET`<br>
+Request Method: `POST`<br>
 Login Required: `Future`<br>
 ### Param<br>
 #### variables<br>
@@ -220,7 +220,7 @@ Login Required: `Future`<br>
 `None`<br>
 ## CreateRetweet<br>
 Request URL: `https://twitter.com/i/api/graphql/ojPdsZsimiJrUGLR1sjUtA/CreateRetweet`<br>
-Request Method: `GET`<br>
+Request Method: `POST`<br>
 Login Required: `Future`<br>
 ### Param<br>
 #### variables<br>
@@ -234,7 +234,7 @@ Login Required: `Future`<br>
 `None`<br>
 ## DeleteRetweet<br>
 Request URL: `https://twitter.com/i/api/graphql/iQtK4dl5hBmXewYZuEOKVw/DeleteRetweet`<br>
-Request Method: `GET`<br>
+Request Method: `POST`<br>
 Login Required: `Future`<br>
 ### Param<br>
 #### variables<br>
@@ -250,7 +250,7 @@ Login Required: `Future`<br>
 `None`<br>
 ## DeleteRetweet<br>
 Request URL: `https://twitter.com/i/api/graphql/iQtK4dl5hBmXewYZuEOKVw/DeleteRetweet`<br>
-Request Method: `GET`<br>
+Request Method: `POST`<br>
 Login Required: `Future`<br>
 ### Param<br>
 #### variables<br>
@@ -265,7 +265,7 @@ Login Required: `Future`<br>
 `None`<br>
 ## CreateBookmark<br>
 Request URL: `https://twitter.com/i/api/graphql/aoDbu3RHznuiSkQ9aNM67Q/CreateBookmark`<br>
-Request Method: `GET`<br>
+Request Method: `POST`<br>
 Login Required: `Future`<br>
 ### Param<br>
 #### variables<br>
@@ -279,7 +279,7 @@ Login Required: `Future`<br>
 `None`<br>
 ## DeleteBookmark<br>
 Request URL: `https://twitter.com/i/api/graphql/Wlmlj2-xzyS1GN3a6cj-mQ/DeleteBookmark`<br>
-Request Method: `GET`<br>
+Request Method: `POST`<br>
 Login Required: `Future`<br>
 ### Param<br>
 #### variables<br>
@@ -293,7 +293,7 @@ Login Required: `Future`<br>
 `None`<br>
 ## ModerateTweet<br>
 Request URL: `https://twitter.com/i/api/graphql/pjFnHGVqCjTcZol0xcBJjw/ModerateTweet`<br>
-Request Method: `GET`<br>
+Request Method: `POST`<br>
 Login Required: `Future`<br>
 ### Param<br>
 #### variables<br>
@@ -307,7 +307,7 @@ Login Required: `Future`<br>
 `None`<br>
 ## UnmoderateTweet<br>
 Request URL: `https://twitter.com/i/api/graphql/pVSyu6PA57TLvIE4nN2tsA/UnmoderateTweet`<br>
-Request Method: `GET`<br>
+Request Method: `POST`<br>
 Login Required: `Future`<br>
 ### Param<br>
 #### variables<br>
@@ -321,7 +321,7 @@ Login Required: `Future`<br>
 `None`<br>
 ## CreateTweet<br>
 Request URL: `https://twitter.com/i/api/graphql/kV0jgNRI3ofhHK_G5yhlZg/CreateTweet`<br>
-Request Method: `GET`<br>
+Request Method: `POST`<br>
 Login Required: `Future`<br>
 ### Param<br>
 #### variables<br>
@@ -348,7 +348,7 @@ Login Required: `Future`<br>
 `None`<br>
 ## CreateTweet<br>
 Request URL: `https://twitter.com/i/api/graphql/kV0jgNRI3ofhHK_G5yhlZg/CreateTweet`<br>
-Request Method: `GET`<br>
+Request Method: `POST`<br>
 Login Required: `Future`<br>
 ### Param<br>
 #### variables<br>
@@ -375,7 +375,7 @@ Login Required: `Future`<br>
 `None`<br>
 ## DeleteTweet<br>
 Request URL: `https://twitter.com/i/api/graphql/VaenaVgh5q5ih7kvyVjgtg/DeleteTweet`<br>
-Request Method: `GET`<br>
+Request Method: `POST`<br>
 Login Required: `Future`<br>
 ### Param<br>
 #### variables<br>
@@ -390,7 +390,7 @@ Login Required: `Future`<br>
 `None`<br>
 ## ConversationControlChange<br>
 Request URL: `https://twitter.com/i/api/graphql/hb1elGcj6769uT8qVYqtjw/ConversationControlChange`<br>
-Request Method: `GET`<br>
+Request Method: `POST`<br>
 Login Required: `Future`<br>
 ### Param<br>
 #### variables<br>
@@ -405,7 +405,7 @@ Login Required: `Future`<br>
 `None`<br>
 ## ConversationControlDelete<br>
 Request URL: `https://twitter.com/i/api/graphql/OoMO_aSZ1ZXjegeamF9QmA/ConversationControlDelete`<br>
-Request Method: `GET`<br>
+Request Method: `POST`<br>
 Login Required: `Future`<br>
 ### Param<br>
 #### variables<br>
@@ -419,7 +419,7 @@ Login Required: `Future`<br>
 `None`<br>
 ## UnmentionUserFromConversation<br>
 Request URL: `https://twitter.com/i/api/graphql/xVW9j3OqoBRY9d6_2OONEg/UnmentionUserFromConversation`<br>
-Request Method: `GET`<br>
+Request Method: `POST`<br>
 Login Required: `Future`<br>
 ### Param<br>
 #### variables<br>
@@ -535,7 +535,7 @@ Login Required: `Future`<br>
 `None`<br>
 ## BirdwatchProfileAcknowledgeEarnOut<br>
 Request URL: `https://twitter.com/i/api/graphql/cED9wJy8Nd1kZCCYuIq9zQ/BirdwatchProfileAcknowledgeEarnOut`<br>
-Request Method: `GET`<br>
+Request Method: `POST`<br>
 Login Required: `Future`<br>
 ### Param<br>
 #### variables<br>
@@ -560,7 +560,7 @@ Login Required: `Future`<br>
 `None`<br>
 ## DeleteBookmarkFolder<br>
 Request URL: `https://twitter.com/i/api/graphql/2UTTsO-6zs93XqlEUZPsSg/DeleteBookmarkFolder`<br>
-Request Method: `GET`<br>
+Request Method: `POST`<br>
 Login Required: `Future`<br>
 ### Param<br>
 #### variables<br>
@@ -574,7 +574,7 @@ Login Required: `Future`<br>
 `None`<br>
 ## EditBookmarkFolder<br>
 Request URL: `https://twitter.com/i/api/graphql/a6kPp1cS1Dgbsjhapz1PNw/EditBookmarkFolder`<br>
-Request Method: `GET`<br>
+Request Method: `POST`<br>
 Login Required: `Future`<br>
 ### Param<br>
 #### variables<br>
@@ -589,7 +589,7 @@ Login Required: `Future`<br>
 `None`<br>
 ## RemoveTweetFromBookmarkFolder<br>
 Request URL: `https://twitter.com/i/api/graphql/2Qbj9XZvtUvyJB4gFwWfaA/RemoveTweetFromBookmarkFolder`<br>
-Request Method: `GET`<br>
+Request Method: `POST`<br>
 Login Required: `Future`<br>
 ### Param<br>
 #### variables<br>
@@ -604,7 +604,7 @@ Login Required: `Future`<br>
 `None`<br>
 ## bookmarkTweetToFolder<br>
 Request URL: `https://twitter.com/i/api/graphql/4KHZvvNbHNf07bsgnL9gWA/bookmarkTweetToFolder`<br>
-Request Method: `GET`<br>
+Request Method: `POST`<br>
 Login Required: `Future`<br>
 ### Param<br>
 #### variables<br>
@@ -618,7 +618,7 @@ Login Required: `Future`<br>
 `None`<br>
 ## PutClientEducationFlag<br>
 Request URL: `https://twitter.com/i/api/graphql/IjQ-egg0uPkY11NyPMfRMQ/PutClientEducationFlag`<br>
-Request Method: `GET`<br>
+Request Method: `POST`<br>
 Login Required: `Future`<br>
 ### Param<br>
 #### variables<br>
@@ -632,7 +632,7 @@ Login Required: `Future`<br>
 `None`<br>
 ## CreateCommunity<br>
 Request URL: `https://twitter.com/i/api/graphql/TQt5GP8tbFNhUrO0apYflw/CreateCommunity`<br>
-Request Method: `GET`<br>
+Request Method: `POST`<br>
 Login Required: `Future`<br>
 ### Param<br>
 #### variables<br>
@@ -677,7 +677,7 @@ Login Required: `Future`<br>
 `None`<br>
 ## CommunityEditName<br>
 Request URL: `https://twitter.com/i/api/graphql/TVCdwH7_j8KROXqjCtCLbg/CommunityEditName`<br>
-Request Method: `GET`<br>
+Request Method: `POST`<br>
 Login Required: `Future`<br>
 ### Param<br>
 #### variables<br>
@@ -708,7 +708,7 @@ Login Required: `Future`<br>
 `None`<br>
 ## ContentControlToolEnable<br>
 Request URL: `https://twitter.com/i/api/graphql/4dMgLjwMMTqp33sMQ6IrJA/ContentControlToolEnable`<br>
-Request Method: `GET`<br>
+Request Method: `POST`<br>
 Login Required: `Future`<br>
 ### Param<br>
 #### variables<br>
@@ -722,7 +722,7 @@ Login Required: `Future`<br>
 `None`<br>
 ## ContentControlToolDisable<br>
 Request URL: `https://twitter.com/i/api/graphql/N6oDUH0bX-7w9Cj4Wd6zXA/ContentControlToolDisable`<br>
-Request Method: `GET`<br>
+Request Method: `POST`<br>
 Login Required: `Future`<br>
 ### Param<br>
 #### variables<br>
@@ -775,7 +775,7 @@ Login Required: `Future`<br>
 `None`<br>
 ## ConvertRitoSuggestedActions<br>
 Request URL: `https://twitter.com/i/api/graphql/2njnYoE69O2jdUM7KMEnDw/ConvertRitoSuggestedActions`<br>
-Request Method: `GET`<br>
+Request Method: `POST`<br>
 Login Required: `Future`<br>
 ### Param<br>
 #### variables<br>
@@ -806,7 +806,7 @@ Login Required: `Future`<br>
 `None`<br>
 ## DeleteDraftTweet<br>
 Request URL: `https://twitter.com/i/api/graphql/bkh9G3FGgTldS9iTKWWYYw/DeleteDraftTweet`<br>
-Request Method: `GET`<br>
+Request Method: `POST`<br>
 Login Required: `Future`<br>
 ### Param<br>
 #### variables<br>
@@ -820,7 +820,7 @@ Login Required: `Future`<br>
 `None`<br>
 ## EditDraftTweet<br>
 Request URL: `https://twitter.com/i/api/graphql/JIeXE-I6BZXHfxsgOkyHYQ/EditDraftTweet`<br>
-Request Method: `GET`<br>
+Request Method: `POST`<br>
 Login Required: `Future`<br>
 ### Param<br>
 #### variables<br>
@@ -848,7 +848,7 @@ Login Required: `Future`<br>
 `None`<br>
 ## CreateDraftTweet<br>
 Request URL: `https://twitter.com/i/api/graphql/cH9HZWz_EW9gnswvA4ZRiQ/CreateDraftTweet`<br>
-Request Method: `GET`<br>
+Request Method: `POST`<br>
 Login Required: `Future`<br>
 ### Param<br>
 #### variables<br>
@@ -862,7 +862,7 @@ Login Required: `Future`<br>
 `None`<br>
 ## WriteEmailNotificationSettings<br>
 Request URL: `https://twitter.com/i/api/graphql/2qKKYFQift8p5-J1k6kqxQ/WriteEmailNotificationSettings`<br>
-Request Method: `GET`<br>
+Request Method: `POST`<br>
 Login Required: `Future`<br>
 ### Param<br>
 #### variables<br>
@@ -955,7 +955,7 @@ Login Required: `Future`<br>
 `None`<br>
 ## ListAddMember<br>
 Request URL: `https://twitter.com/i/api/graphql/RKtQuzpcy2gym71UorWg6g/ListAddMember`<br>
-Request Method: `GET`<br>
+Request Method: `POST`<br>
 Login Required: `Future`<br>
 ### Param<br>
 #### variables<br>
@@ -972,7 +972,7 @@ Login Required: `Future`<br>
 `None`<br>
 ## CreateList<br>
 Request URL: `https://twitter.com/i/api/graphql/x5aSMDodNU02VT1VRyW48A/CreateList`<br>
-Request Method: `GET`<br>
+Request Method: `POST`<br>
 Login Required: `Future`<br>
 ### Param<br>
 #### variables<br>
@@ -989,7 +989,7 @@ Login Required: `Future`<br>
 `None`<br>
 ## EditListBanner<br>
 Request URL: `https://twitter.com/i/api/graphql/dXRBGISGFHWBkK0LdUYCEg/EditListBanner`<br>
-Request Method: `GET`<br>
+Request Method: `POST`<br>
 Login Required: `Future`<br>
 ### Param<br>
 #### variables<br>
@@ -1006,7 +1006,7 @@ Login Required: `Future`<br>
 `None`<br>
 ## DeleteList<br>
 Request URL: `https://twitter.com/i/api/graphql/UnN9Th1BDbeLjpgjGSpL3Q/DeleteList`<br>
-Request Method: `GET`<br>
+Request Method: `POST`<br>
 Login Required: `Future`<br>
 ### Param<br>
 #### variables<br>
@@ -1020,7 +1020,7 @@ Login Required: `Future`<br>
 `None`<br>
 ## DeleteListBanner<br>
 Request URL: `https://twitter.com/i/api/graphql/5hkpoz-sCeMQQSHqeE-gMg/DeleteListBanner`<br>
-Request Method: `GET`<br>
+Request Method: `POST`<br>
 Login Required: `Future`<br>
 ### Param<br>
 #### variables<br>
@@ -1183,7 +1183,7 @@ Login Required: `Future`<br>
 `None`<br>
 ## ListRemoveMember<br>
 Request URL: `https://twitter.com/i/api/graphql/mDlp1UvnnALC_EzybKAMtA/ListRemoveMember`<br>
-Request Method: `GET`<br>
+Request Method: `POST`<br>
 Login Required: `Future`<br>
 ### Param<br>
 #### variables<br>
@@ -1200,7 +1200,7 @@ Login Required: `Future`<br>
 `None`<br>
 ## ListUnpinOne<br>
 Request URL: `https://twitter.com/i/api/graphql/fieeOPSAOCgC7FUhX6DmbQ/ListUnpinOne`<br>
-Request Method: `GET`<br>
+Request Method: `POST`<br>
 Login Required: `Future`<br>
 ### Param<br>
 #### variables<br>
@@ -1217,7 +1217,7 @@ Login Required: `Future`<br>
 `None`<br>
 ## ListsPinMany<br>
 Request URL: `https://twitter.com/i/api/graphql/J-U5JsCVrEiMA7Auxo96VQ/ListsPinMany`<br>
-Request Method: `GET`<br>
+Request Method: `POST`<br>
 Login Required: `Future`<br>
 ### Param<br>
 #### variables<br>
@@ -1234,7 +1234,7 @@ Login Required: `Future`<br>
 `None`<br>
 ## ListSubscribe<br>
 Request URL: `https://twitter.com/i/api/graphql/nymTz5ek0FQPC3kh63Tp1w/ListSubscribe`<br>
-Request Method: `GET`<br>
+Request Method: `POST`<br>
 Login Required: `Future`<br>
 ### Param<br>
 #### variables<br>
@@ -1251,7 +1251,7 @@ Login Required: `Future`<br>
 `None`<br>
 ## ListUnsubscribe<br>
 Request URL: `https://twitter.com/i/api/graphql/Wi5-aG4bvTmdjyRyRGkyhA/ListUnsubscribe`<br>
-Request Method: `GET`<br>
+Request Method: `POST`<br>
 Login Required: `Future`<br>
 ### Param<br>
 #### variables<br>
@@ -1268,7 +1268,7 @@ Login Required: `Future`<br>
 `None`<br>
 ## MuteList<br>
 Request URL: `https://twitter.com/i/api/graphql/ZYyanJsskNUcltu9bliMLA/MuteList`<br>
-Request Method: `GET`<br>
+Request Method: `POST`<br>
 Login Required: `Future`<br>
 ### Param<br>
 #### variables<br>
@@ -1282,7 +1282,7 @@ Login Required: `Future`<br>
 `None`<br>
 ## UpdateList<br>
 Request URL: `https://twitter.com/i/api/graphql/P9YDuvCt6ogRf-kyr5E5xw/UpdateList`<br>
-Request Method: `GET`<br>
+Request Method: `POST`<br>
 Login Required: `Future`<br>
 ### Param<br>
 #### variables<br>
@@ -1397,7 +1397,7 @@ Login Required: `Future`<br>
 `None`<br>
 ## DismissRitoSuggestedAction<br>
 Request URL: `https://twitter.com/i/api/graphql/jYvwa61cv3NwNP24iUru6g/DismissRitoSuggestedAction`<br>
-Request Method: `GET`<br>
+Request Method: `POST`<br>
 Login Required: `Future`<br>
 ### Param<br>
 #### variables<br>
@@ -1481,7 +1481,7 @@ Login Required: `Future`<br>
 `None`<br>
 ## CreateScheduledTweet<br>
 Request URL: `https://twitter.com/i/api/graphql/LCVzRQGxOaGnOnYH01NQXg/CreateScheduledTweet`<br>
-Request Method: `GET`<br>
+Request Method: `POST`<br>
 Login Required: `Future`<br>
 ### Param<br>
 #### variables<br>
@@ -1509,7 +1509,7 @@ Login Required: `Future`<br>
 `None`<br>
 ## EditScheduledTweet<br>
 Request URL: `https://twitter.com/i/api/graphql/_mHkQ5LHpRRjSXKOcG6eZw/EditScheduledTweet`<br>
-Request Method: `GET`<br>
+Request Method: `POST`<br>
 Login Required: `Future`<br>
 ### Param<br>
 #### variables<br>
@@ -1534,7 +1534,7 @@ Login Required: `Future`<br>
 `None`<br>
 ## updateAltTextPromptPreference<br>
 Request URL: `https://twitter.com/i/api/graphql/aQKrduk_DA46XfOQDkcEng/updateAltTextPromptPreference`<br>
-Request Method: `GET`<br>
+Request Method: `POST`<br>
 Login Required: `Future`<br>
 ### Param<br>
 #### variables<br>
@@ -1819,7 +1819,7 @@ Login Required: `Future`<br>
 `None`<br>
 ## TopicFollow<br>
 Request URL: `https://twitter.com/i/api/graphql/ElqSLWFmsPL4NlZI5e1Grg/TopicFollow`<br>
-Request Method: `GET`<br>
+Request Method: `POST`<br>
 Login Required: `Future`<br>
 ### Param<br>
 #### variables<br>
@@ -1833,7 +1833,7 @@ Login Required: `Future`<br>
 `None`<br>
 ## TopicUnfollow<br>
 Request URL: `https://twitter.com/i/api/graphql/srwjU6JM_ZKTj_QMfUGNcw/TopicUnfollow`<br>
-Request Method: `GET`<br>
+Request Method: `POST`<br>
 Login Required: `Future`<br>
 ### Param<br>
 #### variables<br>
@@ -1847,7 +1847,7 @@ Login Required: `Future`<br>
 `None`<br>
 ## TopicNotInterested<br>
 Request URL: `https://twitter.com/i/api/graphql/cPCFdDAaqRjlMRYInZzoDA/TopicNotInterested`<br>
-Request Method: `GET`<br>
+Request Method: `POST`<br>
 Login Required: `Future`<br>
 ### Param<br>
 #### variables<br>
@@ -1861,7 +1861,7 @@ Login Required: `Future`<br>
 `None`<br>
 ## TopicUndoNotInterested<br>
 Request URL: `https://twitter.com/i/api/graphql/4tVnt6FoSxaX8L-mDDJo4Q/TopicUndoNotInterested`<br>
-Request Method: `GET`<br>
+Request Method: `POST`<br>
 Login Required: `Future`<br>
 ### Param<br>
 #### variables<br>
@@ -1949,7 +1949,7 @@ Login Required: `Future`<br>
 `None`<br>
 ## TwitterArticleCreate<br>
 Request URL: `https://twitter.com/i/api/graphql/pb3IOdFOl-Tr36FSlcldXA/TwitterArticleCreate`<br>
-Request Method: `GET`<br>
+Request Method: `POST`<br>
 Login Required: `Future`<br>
 ### Param<br>
 #### variables<br>
@@ -1966,7 +1966,7 @@ Login Required: `Future`<br>
 `None`<br>
 ## TwitterArticleDelete<br>
 Request URL: `https://twitter.com/i/api/graphql/6st-stMDc7KBqLT8KvWhHg/TwitterArticleDelete`<br>
-Request Method: `GET`<br>
+Request Method: `POST`<br>
 Login Required: `Future`<br>
 ### Param<br>
 #### variables<br>
@@ -1980,7 +1980,7 @@ Login Required: `Future`<br>
 `None`<br>
 ## TwitterArticleUpdateCoverImage<br>
 Request URL: `https://twitter.com/i/api/graphql/kD_hIBypsu2FUqDnizClmw/TwitterArticleUpdateCoverImage`<br>
-Request Method: `GET`<br>
+Request Method: `POST`<br>
 Login Required: `Future`<br>
 ### Param<br>
 #### variables<br>
@@ -1998,7 +1998,7 @@ Login Required: `Future`<br>
 `None`<br>
 ## TwitterArticleUpdateData<br>
 Request URL: `https://twitter.com/i/api/graphql/eRP6I7aZT9r_uL3ejAxi8A/TwitterArticleUpdateData`<br>
-Request Method: `GET`<br>
+Request Method: `POST`<br>
 Login Required: `Future`<br>
 ### Param<br>
 #### variables<br>
@@ -2016,7 +2016,7 @@ Login Required: `Future`<br>
 `None`<br>
 ## TwitterArticleUpdateMedia<br>
 Request URL: `https://twitter.com/i/api/graphql/5bi7E0dsbmudoLY9W98tSg/TwitterArticleUpdateMedia`<br>
-Request Method: `GET`<br>
+Request Method: `POST`<br>
 Login Required: `Future`<br>
 ### Param<br>
 #### variables<br>
@@ -2034,7 +2034,7 @@ Login Required: `Future`<br>
 `None`<br>
 ## TwitterArticleUpdateTitle<br>
 Request URL: `https://twitter.com/i/api/graphql/_9O13lsQHMbCJt6fuw0nQQ/TwitterArticleUpdateTitle`<br>
-Request Method: `GET`<br>
+Request Method: `POST`<br>
 Login Required: `Future`<br>
 ### Param<br>
 #### variables<br>
@@ -2052,7 +2052,7 @@ Login Required: `Future`<br>
 `None`<br>
 ## TwitterArticleUpdateVisibility<br>
 Request URL: `https://twitter.com/i/api/graphql/MhXaPMhemLjRZA0xwnd4XA/TwitterArticleUpdateVisibility`<br>
-Request Method: `GET`<br>
+Request Method: `POST`<br>
 Login Required: `Future`<br>
 ### Param<br>
 #### variables<br>

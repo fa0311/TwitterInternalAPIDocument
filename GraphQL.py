@@ -228,7 +228,7 @@ for graphql in graphql_output:
     )
 
     md.p("Request Method", end=": ")
-    if query == "mutation":
+    if exports["operationType"] == "mutation":
         md.inline("POST")
     else:
         md.inline("GET")
