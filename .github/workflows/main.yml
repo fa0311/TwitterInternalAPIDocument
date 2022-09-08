@@ -1,6 +1,11 @@
 name: Generator
 
 on:
+  pull_request:
+    branches:
+      - master
+    types:
+      - closed
   schedule:
     - cron: '0 21 * * *'
 
