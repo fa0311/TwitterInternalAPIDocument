@@ -327,8 +327,8 @@ def gen_md_freeze_object(freeze_object_output: list) -> md_generator:
     return md
 
 
-os.makedirs("doc/json", exist_ok=True)
-os.makedirs("doc/markdown", exist_ok=True)
+os.makedirs("docs/json", exist_ok=True)
+os.makedirs("docs/markdown", exist_ok=True)
 legacy = False
 
 headers = {
@@ -352,10 +352,10 @@ freeze_object_output = get_freeze_object(parsed_list)
 feature_switches_output = get_feature_switches(parsed_list)
 
 
-with open("doc/json/GraphQL.json", "w") as f:
+with open("docs/json/GraphQL.json", "w") as f:
     json.dump(graphql_output, f, ensure_ascii=False, indent=2)
-with open("doc/json/FreezeObject.json", "w") as f:
+with open("docs/json/FreezeObject.json", "w") as f:
     json.dump(freeze_object_output, f, ensure_ascii=False, indent=2)
 
-gen_md_graphql(graphql_output, feature_switches_output).save("doc/markdown/GraphQL.md")
-gen_md_freeze_object(freeze_object_output).save("doc/markdown/FreezeObject.md")
+gen_md_graphql(graphql_output, feature_switches_output).save("docs/markdown/GraphQL.md")
+gen_md_freeze_object(freeze_object_output).save("docs/markdown/FreezeObject.md")

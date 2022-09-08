@@ -13,4 +13,4 @@ pip install -r requirements.txt
 
 # GraphQL
 
-[Twitter Internal GraphQL API Document](./doc/markdown/GraphQL.md)
+[Twitter Internal GraphQL API Document](./docs/markdown/GraphQL.md)
