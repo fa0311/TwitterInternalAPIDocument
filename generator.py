@@ -62,7 +62,7 @@ else:
 
     g = Github(os.environ["GITHUB_TOKEN"])
     repo = g.get_repo(os.environ["REPOSITORY"])
-    branch = "action"
+    branch = "develop"
     send_pull_request = False
 
     for file_name, data in file.items():
