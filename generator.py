@@ -89,7 +89,7 @@ else:
 
     if send_pull_request:
         body = md_generator()
-        body.h1("update")
+        body.p("update document")
         try:
             repo.create_pull(
                 title="Update Document", body=body.output, head=branch, base="master"
