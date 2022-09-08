@@ -66,8 +66,11 @@ else:
     send_pull_request = False
 
     for file_name, data in file.items():
-        with open(file_name, "r") as f:
-            old_data = f.read()
+        if os.path.exists(file_name):
+            with open(file_name, "r") as f:
+                old_data = f.read()
+        else:
+            old_data = ""
 
         if old_data == data:
             print(f"No change to {file_name}")
