@@ -1,2 +1,2 @@
-black *.py
+black .
 pip freeze > requirements.txt
