@@ -6,7 +6,7 @@ The documentation in the [Develop branch](https://github.com/fa0311/TwitterInter
 
 # Document
 
-## GraphQL Document
+## GraphQL API Document
 
 [Twitter Internal GraphQL API Document](./docs/markdown/GraphQL.md)
 
