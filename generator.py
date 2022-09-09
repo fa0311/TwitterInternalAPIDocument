@@ -49,9 +49,9 @@ else:
         "docs/json/GraphQL.json": json.dumps(
             graphql_output, ensure_ascii=False, indent=2
         ),
-        "docs/json/FreezeObject.json": json.dumps(
-            freeze_object_output, ensure_ascii=False, indent=2
-        ),
+        # "docs/json/FreezeObject.json": json.dumps(
+        #     freeze_object_output, ensure_ascii=False, indent=2
+        # ),
         "docs/markdown/GraphQL.md": gen_md_graphql(
             graphql_output, feature_switches_output
         ).output,
@@ -77,15 +77,17 @@ else:
         else:
             print(f"Commit to {file_name}")
             send_pull_request = True
-
-            f = repo.get_contents(file_name, ref=branch)
-            repo.update_file(
-                f.path,
-                message=f"Update {file_name} on {branch} branch",
-                content=data,
-                sha=f.sha,
-                branch=branch,
-            )
+            try:
+                f = repo.get_contents(file_name, ref=branch)
+                repo.update_file(
+                    f.path,
+                    message=f"Update {file_name} on {branch} branch",
+                    content=data,
+                    sha=f.sha,
+                    branch=branch,
+                )
+            except:
+                print("Not Found")
 
     if send_pull_request:
         body = md_generator()
