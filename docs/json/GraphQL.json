@@ -3,7 +3,12 @@
     "n": "34961",
     "func_name": "_",
     "func_name_init": "h",
-    "query": "{\"id\":\"n\",\"isMetatagsQuery\":\"a\",...(0,r.d)(t),\"withReplays\":t.isTrue(\"voice_rooms_replay_consumption\")}",
+    "query": {
+      "id": "n",
+      "isMetatagsQuery": "a",
+      "...()(0,r.d)": "_",
+      "withReplays": "t.isTrue(t)"
+    },
     "exports": {
       "queryId": "gMM94mZD6vm7pgAmurx0gQ",
       "operationName": "AudioSpaceById",
@@ -80,7 +85,14 @@
     "n": "28207",
     "func_name": "z",
     "func_name_init": "W",
-    "query": "{\"tweetId\":\"o\",\"includePromotedContent\":\"!0\",\"withBirdwatchNotes\":t.isTrue(\"responsive_web_birdwatch_consumption_enabled\"),\"withVoice\":t.isTrue(\"voice_consumption_enabled\"),\"withCommunity\":t.isTrue(\"c9s_enabled\"),...(0,c.d)(t)}",
+    "query": {
+      "tweetId": "o",
+      "includePromotedContent": "!0",
+      "withBirdwatchNotes": "t.isTrue()",
+      "withVoice": "t.isTrue(\"responsive_web_birdwatch_consumption_enabled\")",
+      "withCommunity": "t.isTrue(\"voice_consumption_enabled\")",
+      "...(\"c9s_enabled\")(0,c.d)": "_"
+    },
     "exports": {
       "queryId": "HGmy5MWoSC4fCXAAvroOuw",
       "operationName": "TweetResultByRestId",
@@ -106,7 +118,12 @@
     "n": "62733",
     "func_name": "N",
     "func_name_init": "B",
-    "query": "{\"tweet_id\":\"o\",...(null==a||null==(i=a.engagement_request)?void 0:i.impression_id)&&{...a}}",
+    "query": {
+      "tweet_id": "o",
+      "...()&&": {
+        "...a": "_"
+      }
+    },
     "exports": {
       "queryId": "lI07N6Otwv1PhnEgXILM7A",
       "operationName": "FavoriteTweet",
@@ -120,7 +137,12 @@
     "n": "38840",
     "func_name": "V",
     "func_name_init": "q",
-    "query": "{\"tweet_id\":\"o\",...(null==a||null==(i=a.engagement_request)?void 0:i.impression_id)&&{...a}}",
+    "query": {
+      "tweet_id": "o",
+      "...()&&": {
+        "...a": "_"
+      }
+    },
     "exports": {
       "queryId": "ZYKSe-w7KEslx3JhSIk5LA",
       "operationName": "UnfavoriteTweet",
@@ -166,7 +188,13 @@
     "n": "89459",
     "func_name": "A",
     "func_name_init": "I",
-    "query": "{\"tweet_id\":\"i\",\"reaction_type\":\"o\",...(null==t||null==(a=t.engagement_request)?void 0:a.impression_id)&&{...t}}",
+    "query": {
+      "tweet_id": "i",
+      "reaction_type": "o",
+      "...()&&": {
+        "...t": "_"
+      }
+    },
     "exports": {
       "queryId": "D7M6X3h4-mJE8UB1Ap3_dQ",
       "operationName": "CreateTweetReaction",
@@ -180,7 +208,12 @@
     "n": "77719",
     "func_name": "F",
     "func_name_init": "O",
-    "query": "{\"tweet_id\":\"r\",...(null==a||null==(i=a.engagement_request)?void 0:i.impression_id)&&{...a}}",
+    "query": {
+      "tweet_id": "r",
+      "...()&&": {
+        "...a": "_"
+      }
+    },
     "exports": {
       "queryId": "GKwK0Rj4EdkfwdHQMZTpuw",
       "operationName": "DeleteTweetReaction",
@@ -194,7 +227,13 @@
     "n": "17577",
     "func_name": "w",
     "func_name_init": "f",
-    "query": "{\"tweet_id\":\"s\",...(null==t||null==(c=t.engagement_request)?void 0:c.impression_id)&&{...t},\"dark_request\":\"!1\"}",
+    "query": {
+      "tweet_id": "s",
+      "...()&&": {
+        "...t": "_"
+      },
+      "dark_request": "!1"
+    },
     "exports": {
       "queryId": "ojPdsZsimiJrUGLR1sjUtA",
       "operationName": "CreateRetweet",
@@ -208,7 +247,14 @@
     "n": "17577",
     "func_name": "w",
     "func_name_init": "f",
-    "query": "{\"tweet_id\":\"s\",\"comparison_id\":\"t\",...(null==n||null==(u=n.engagement_request)?void 0:u.impression_id)&&{...n},\"dark_request\":\"!0\"}",
+    "query": {
+      "tweet_id": "s",
+      "comparison_id": "t",
+      "...()&&": {
+        "...n": "_"
+      },
+      "dark_request": "!0"
+    },
     "exports": {
       "queryId": "ojPdsZsimiJrUGLR1sjUtA",
       "operationName": "CreateRetweet",
@@ -321,7 +367,14 @@
     "n": "79233",
     "func_name": "E",
     "func_name_init": "S",
-    "query": "{...r,\"dark_request\":!!n.preview,...(null==l||null==(m=l.engagement_request)?void 0:m.impression_id)&&{...l},...(0,c.d)(t)}",
+    "query": {
+      "...r": "_",
+      "dark_request": "!!n.preview",
+      "...()&&": {
+        "...l": "_"
+      },
+      "...()(0,c.d)": "_"
+    },
     "exports": {
       "queryId": "kV0jgNRI3ofhHK_G5yhlZg",
       "operationName": "CreateTweet",
@@ -347,7 +400,15 @@
     "n": "79233",
     "func_name": "E",
     "func_name_init": "S",
-    "query": "{...a,\"comparison_id\":\"s\",\"dark_request\":\"!0\",...(null==l||null==(h=l.engagement_request)?void 0:h.impression_id)&&{...l},...(0,c.d)(t)}",
+    "query": {
+      "...a": "_",
+      "comparison_id": "s",
+      "dark_request": "!0",
+      "...()&&": {
+        "...l": "_"
+      },
+      "...()(0,c.d)": "_"
+    },
     "exports": {
       "queryId": "kV0jgNRI3ofhHK_G5yhlZg",
       "operationName": "CreateTweet",
@@ -457,7 +518,9 @@
     "n": "46964",
     "func_name": "Jt",
     "func_name_init": "Yt",
-    "query": "{\"tweetText\":o.status}",
+    "query": {
+      "tweetText": "o.status"
+    },
     "exports": {
       "queryId": "ooxuguX0iqkLVf_r_WcDxA",
       "operationName": "CardPreviewByTweetText",
@@ -474,7 +537,10 @@
     "n": "90271",
     "func_name": "Ec",
     "func_name_init": "Sc",
-    "query": "{\"tweetId\":\"n\",\"withSuperFollowsUserFields\":t.isTrue(\"super_follow_user_api_enabled\")}",
+    "query": {
+      "tweetId": "n",
+      "withSuperFollowsUserFields": "t.isTrue()"
+    },
     "exports": {
       "queryId": "JpO-6lRdee6mTVyWDz-RMw",
       "operationName": "GetTweetReactionTimeline",
@@ -490,7 +556,13 @@
     "n": "56691",
     "func_name": "gc",
     "func_name_init": "bc",
-    "query": "{\"tweetId\":\"r\",\"count\":\"n\",\"cursor\":\"i\",\"includePromotedContent\":\"!0\",...(0,g.d)(t)}",
+    "query": {
+      "tweetId": "r",
+      "count": "n",
+      "cursor": "i",
+      "includePromotedContent": "!0",
+      "...()(0,g.d)": "_"
+    },
     "exports": {
       "queryId": "er6rEUcbZ10oxV8ZMs_Z7w",
       "operationName": "Favoriters",
@@ -517,7 +589,13 @@
     "n": "24627",
     "func_name": "vc",
     "func_name_init": "yc",
-    "query": "{\"tweetId\":\"r\",\"count\":\"n\",\"cursor\":\"i\",\"includePromotedContent\":\"!0\",...(0,g.d)(t)}",
+    "query": {
+      "tweetId": "r",
+      "count": "n",
+      "cursor": "i",
+      "includePromotedContent": "!0",
+      "...()(0,g.d)": "_"
+    },
     "exports": {
       "queryId": "E_sTx4dN9vCHFSQoHOfKhg",
       "operationName": "Retweeters",
@@ -544,7 +622,11 @@
     "n": "8112",
     "func_name": "wc",
     "func_name_init": "fc",
-    "query": "{\"tweetId\":\"n\",...(0,g.d)(t),\"withQuickPromoteEligibilityTweetFields\":\"!0\"}",
+    "query": {
+      "tweetId": "n",
+      "...()(0,g.d)": "_",
+      "withQuickPromoteEligibilityTweetFields": "!0"
+    },
     "exports": {
       "queryId": "BhkY91Y8KFGO-J7856_MRQ",
       "operationName": "TweetEditHistory",
@@ -645,7 +727,10 @@
     "n": "6557",
     "func_name": "et",
     "func_name_init": "Xe",
-    "query": "{\"tweet_id\":\"i\",...(0,g.S)(t)}",
+    "query": {
+      "tweet_id": "i",
+      "...()(0,g.S)": "_"
+    },
     "exports": {
       "queryId": "Cj2A9yMXkeYJiyYcIcivTw",
       "operationName": "BirdwatchFetchNotes",
@@ -675,7 +760,9 @@
     "n": "14804",
     "func_name": "Ze",
     "func_name_init": "Le",
-    "query": "{\"note_id\":t.note_id}",
+    "query": {
+      "note_id": "t.note_id"
+    },
     "exports": {
       "queryId": "TKdL0YFsX4DMOpMKeneLvA",
       "operationName": "BirdwatchCreateAppeal",
@@ -689,7 +776,11 @@
     "n": "33694",
     "func_name": "Oe",
     "func_name_init": "Me",
-    "query": "{\"tweet_id\":n.tweet_id,\"data_v1\":n.data,...(0,g.S)(t)}",
+    "query": {
+      "tweet_id": "n.tweet_id",
+      "data_v1": "n.data",
+      "...()(0,g.S)": "_"
+    },
     "exports": {
       "queryId": "9vSsdZtzlr0vARsUIP2IFg",
       "operationName": "BirdwatchCreateNote",
@@ -705,7 +796,9 @@
     "n": "31641",
     "func_name": "Ue",
     "func_name_init": "Ne",
-    "query": "{\"note_id\":t.note_id}",
+    "query": {
+      "note_id": "t.note_id"
+    },
     "exports": {
       "queryId": "IKS_qrShkDyor6Ri1ahd9g",
       "operationName": "BirdwatchDeleteNote",
@@ -719,7 +812,9 @@
     "n": "73457",
     "func_name": "We",
     "func_name_init": "He",
-    "query": "{\"note_id\":t.note_id}",
+    "query": {
+      "note_id": "t.note_id"
+    },
     "exports": {
       "queryId": "OpvCOyOoQClUND66zDzrnA",
       "operationName": "BirdwatchDeleteRating",
@@ -733,7 +828,10 @@
     "n": "31275",
     "func_name": "nt",
     "func_name_init": "tt",
-    "query": "{\"note_id\":n.note_id,...(0,g.S)(t)}",
+    "query": {
+      "note_id": "n.note_id",
+      "...()(0,g.S)": "_"
+    },
     "exports": {
       "queryId": "mS2ivW1fRQhxPNeWMQ1TSg",
       "operationName": "BirdwatchFetchOneNote",
@@ -749,7 +847,9 @@
     "n": "67075",
     "func_name": "Qe",
     "func_name_init": "$e",
-    "query": "{\"alias\":t.alias}",
+    "query": {
+      "alias": "t.alias"
+    },
     "exports": {
       "queryId": "btgGtchypc3D491MJ7XXWA",
       "operationName": "BirdwatchFetchBirdwatchProfile",
@@ -763,7 +863,11 @@
     "n": "36523",
     "func_name": "xe",
     "func_name_init": "Pe",
-    "query": "{\"count\":\"10\",...n,...(0,g.S)(t)}",
+    "query": {
+      "count": "10",
+      "...n": "_",
+      "...()(0,g.S)": "_"
+    },
     "exports": {
       "queryId": "JahXaj5wW9O5i0vFZArsVQ",
       "operationName": "BirdwatchFetchContributorNotesSlice",
@@ -789,7 +893,11 @@
     "n": "36523",
     "func_name": "xe",
     "func_name_init": "Pe",
-    "query": "{\"count\":\"10\",...n,...(0,g.S)(t)}",
+    "query": {
+      "count": "10",
+      "...n": "_",
+      "...()(0,g.S)": "_"
+    },
     "exports": {
       "queryId": "JahXaj5wW9O5i0vFZArsVQ",
       "operationName": "BirdwatchFetchContributorNotesSlice",
@@ -843,7 +951,9 @@
     "n": "21194",
     "func_name": "Re",
     "func_name_init": "De",
-    "query": "{\"alias\":t.alias}",
+    "query": {
+      "alias": "t.alias"
+    },
     "exports": {
       "queryId": "3ss48WFwGokBH_gj8t_8aQ",
       "operationName": "BirdwatchAliasSelect",
@@ -871,7 +981,9 @@
     "n": "83841",
     "func_name": "Je",
     "func_name_init": "Ye",
-    "query": "{...(0,g.d)(t)}",
+    "query": {
+      "...()(0,g.d)": "_"
+    },
     "exports": {
       "queryId": "KNmNrDgNK6dWyxBL-LN7eQ",
       "operationName": "BirdwatchFetchGlobalTimeline",
@@ -898,7 +1010,9 @@
     "n": "90903",
     "func_name": "ut",
     "func_name_init": "ct",
-    "query": "{\"rest_id\":t.rest_id}",
+    "query": {
+      "rest_id": "t.rest_id"
+    },
     "exports": {
       "queryId": "Rp94IhO-2f4Gqi7MSwBquA",
       "operationName": "BizProfileFetchUser",
@@ -912,7 +1026,13 @@
     "n": "84426",
     "func_name": "mt",
     "func_name_init": "pt",
-    "query": "{\"revueAccountId\":t.revueAccountId,\"doubleOptIn\":t.doubleOptIn,\"via\":t.via,\"client\":t.client,\"element\":t.element}",
+    "query": {
+      "revueAccountId": "t.revueAccountId",
+      "doubleOptIn": "t.doubleOptIn",
+      "via": "t.via",
+      "client": "t.client",
+      "element": "t.element"
+    },
     "exports": {
       "queryId": "yUpmLojxsGPk0Sh3JHfEcQ",
       "operationName": "SubcribeToRevueNewsletter",
@@ -976,7 +1096,9 @@
     "n": "51497",
     "func_name": "Et",
     "func_name_init": "St",
-    "query": "{...t}",
+    "query": {
+      "...t": "_"
+    },
     "exports": {
       "queryId": "4KHZvvNbHNf07bsgnL9gWA",
       "operationName": "bookmarkTweetToFolder",
@@ -990,7 +1112,9 @@
     "n": "53309",
     "func_name": "Ct",
     "func_name_init": "Tt",
-    "query": "{...t}",
+    "query": {
+      "...t": "_"
+    },
     "exports": {
       "queryId": "6Xxqpq8TM_CREYiuof_h5w",
       "operationName": "createBookmarkFolder",
@@ -1018,7 +1142,12 @@
     "n": "34933",
     "func_name": "wt",
     "func_name_init": "ft",
-    "query": "{\"count\":\"n\",\"cursor\":\"i\",\"includePromotedContent\":\"!0\",...(0,g.d)(t)}",
+    "query": {
+      "count": "n",
+      "cursor": "i",
+      "includePromotedContent": "!0",
+      "...()(0,g.d)": "_"
+    },
     "exports": {
       "queryId": "-fOdcL5PyRcFM9_X5X-rfw",
       "operationName": "Bookmarks",
@@ -1045,7 +1174,12 @@
     "n": "4803",
     "func_name": "vt",
     "func_name_init": "yt",
-    "query": "{\"bookmark_collection_id\":\"n\",\"cursor\":\"i\",\"includePromotedContent\":\"!0\",...(0,g.d)(t)}",
+    "query": {
+      "bookmark_collection_id": "n",
+      "cursor": "i",
+      "includePromotedContent": "!0",
+      "...()(0,g.d)": "_"
+    },
     "exports": {
       "queryId": "g5hfe-l8Z-kZLfwI-9CcLg",
       "operationName": "BookmarkFolderTimeline",
@@ -1088,7 +1222,13 @@
     "n": "6278",
     "func_name": "Fn",
     "func_name_init": "On",
-    "query": "{\"name\":\"a\",\"description\":\"i\",\"joinPolicy\":\"o\",\"invitesPolicy\":\"r\",...(0,g.S)(t)}",
+    "query": {
+      "name": "a",
+      "description": "i",
+      "joinPolicy": "o",
+      "invitesPolicy": "r",
+      "...()(0,g.S)": "_"
+    },
     "exports": {
       "queryId": "TQt5GP8tbFNhUrO0apYflw",
       "operationName": "CreateCommunity",
@@ -1104,7 +1244,11 @@
     "n": "45844",
     "func_name": "Mn",
     "func_name_init": "Zn",
-    "query": "{...n,\"withCommunity\":t.isTrue(\"c9s_enabled\"),...(0,g.d)(t)}",
+    "query": {
+      "...n": "_",
+      "withCommunity": "t.isTrue()",
+      "...(\"c9s_enabled\")(0,g.d)": "_"
+    },
     "exports": {
       "queryId": "sGjJIWaQyCSuAhU-5MHiAg",
       "operationName": "CommunityAboutTimeline",
@@ -1131,7 +1275,11 @@
     "n": "69694",
     "func_name": "ii",
     "func_name_init": "ni",
-    "query": "{...n,\"withCommunity\":t.isTrue(\"c9s_enabled\"),...(0,g.d)(t)}",
+    "query": {
+      "...n": "_",
+      "withCommunity": "t.isTrue()",
+      "...(\"c9s_enabled\")(0,g.d)": "_"
+    },
     "exports": {
       "queryId": "qOTSDkUHIYoMBwNIyv2A2A",
       "operationName": "CommunityTweetsTimeline",
@@ -1158,7 +1306,11 @@
     "n": "46927",
     "func_name": "ti",
     "func_name_init": "ei",
-    "query": "{...n,\"withCommunity\":t.isTrue(\"c9s_enabled\"),...(0,g.d)(t)}",
+    "query": {
+      "...n": "_",
+      "withCommunity": "t.isTrue()",
+      "...(\"c9s_enabled\")(0,g.d)": "_"
+    },
     "exports": {
       "queryId": "5DeIqh3e6gf7wET-qKScCA",
       "operationName": "CommunityTweetsRankedTimeline",
@@ -1185,7 +1337,11 @@
     "n": "855",
     "func_name": "Ln",
     "func_name_init": "xn",
-    "query": "{...n,\"withCommunity\":t.isTrue(\"c9s_enabled\"),...(0,g.d)(t)}",
+    "query": {
+      "...n": "_",
+      "withCommunity": "t.isTrue()",
+      "...(\"c9s_enabled\")(0,g.d)": "_"
+    },
     "exports": {
       "queryId": "h45pyMyYGSOt1Ml_XVNVvQ",
       "operationName": "CommunitiesMembershipsTimeline",
@@ -1212,7 +1368,10 @@
     "n": "23589",
     "func_name": "Pn",
     "func_name_init": "Rn",
-    "query": "{...(0,g.S)(t),...n}",
+    "query": {
+      "...()(0,g.S)": "_",
+      "...n": "_"
+    },
     "exports": {
       "queryId": "0kVFW6Z3NWQoVrvHdfUFOg",
       "operationName": "CommunitiesMembershipsSlice",
@@ -1228,7 +1387,11 @@
     "n": "7144",
     "func_name": "Yn",
     "func_name_init": "Qn",
-    "query": "{...n,\"withCommunity\":t.isTrue(\"c9s_enabled\"),...(0,g.S)(t)}",
+    "query": {
+      "...n": "_",
+      "withCommunity": "t.isTrue()",
+      "...(\"c9s_enabled\")(0,g.S)": "_"
+    },
     "exports": {
       "queryId": "rROU4rWX99J1G0nPwzm7HQ",
       "operationName": "CommunityModerationTweetCasesSlice",
@@ -1254,7 +1417,11 @@
     "n": "72102",
     "func_name": "An",
     "func_name_init": "In",
-    "query": "{...n,\"withCommunity\":\"!0\",...(0,g.d)(t)}",
+    "query": {
+      "...n": "_",
+      "withCommunity": "!0",
+      "...()(0,g.d)": "_"
+    },
     "exports": {
       "queryId": "2zi96d_cVFXvOgPk0HSanQ",
       "operationName": "CommunitiesMainDiscoveryModule",
@@ -1281,7 +1448,11 @@
     "n": "28323",
     "func_name": "Dn",
     "func_name_init": "kn",
-    "query": "{...n,\"withCommunity\":t.isTrue(\"c9s_enabled\"),...(0,g.d)(t)}",
+    "query": {
+      "...n": "_",
+      "withCommunity": "t.isTrue()",
+      "...(\"c9s_enabled\")(0,g.d)": "_"
+    },
     "exports": {
       "queryId": "RVeGOcQb7Ln4sf9Gl84bSw",
       "operationName": "CommunitiesMainPageTimeline",
@@ -1308,7 +1479,11 @@
     "n": "26975",
     "func_name": "Hn",
     "func_name_init": "Un",
-    "query": "{\"withCommunity\":t.isTrue(\"c9s_enabled\"),...(0,g.d)(t),...n}",
+    "query": {
+      "withCommunity": "t.isTrue()",
+      "...(\"c9s_enabled\")(0,g.d)": "_",
+      "...n": "_"
+    },
     "exports": {
       "queryId": "P3Pr4eRB7mjBaFiFQ_DOKQ",
       "operationName": "CommunityHashtagsTimeline",
@@ -1335,7 +1510,10 @@
     "n": "88420",
     "func_name": "Nn",
     "func_name_init": "Bn",
-    "query": "{\"withCommunity\":t.isTrue(\"c9s_enabled\"),...(0,g.d)(t)}",
+    "query": {
+      "withCommunity": "t.isTrue()",
+      "...(\"c9s_enabled\")(0,g.d)": "_"
+    },
     "exports": {
       "queryId": "HgMVKkoEw2JnWpBlrKSELw",
       "operationName": "CommunityDiscoveryTimeline",
@@ -1362,7 +1540,9 @@
     "n": "53973",
     "func_name": "Kn",
     "func_name_init": "jn",
-    "query": "{\"communityId\":t.communityId}",
+    "query": {
+      "communityId": "t.communityId"
+    },
     "exports": {
       "queryId": "qBQVFGy1Lij5iFkWSCcfwg",
       "operationName": "CommunityModerationData",
@@ -1376,7 +1556,10 @@
     "n": "15525",
     "func_name": "$n",
     "func_name_init": "Gn",
-    "query": "{\"tweetId\":n.tweetId,...(0,g.S)(t)}",
+    "query": {
+      "tweetId": "n.tweetId",
+      "...()(0,g.S)": "_"
+    },
     "exports": {
       "queryId": "XlSQwydkWw8C9X54AC9uxw",
       "operationName": "CommunityModerationKeepTweet",
@@ -1392,7 +1575,10 @@
     "n": "23888",
     "func_name": "zn",
     "func_name_init": "Wn",
-    "query": "{\"communityId\":n.communityId,...(0,g.S)(t)}",
+    "query": {
+      "communityId": "n.communityId",
+      "...()(0,g.S)": "_"
+    },
     "exports": {
       "queryId": "cuw9sAUIQa0ZSKX_s1g2jQ",
       "operationName": "JoinCommunity",
@@ -1408,7 +1594,10 @@
     "n": "20742",
     "func_name": "Xn",
     "func_name_init": "Jn",
-    "query": "{\"communityId\":n.communityId,...(0,g.S)(t)}",
+    "query": {
+      "communityId": "n.communityId",
+      "...()(0,g.S)": "_"
+    },
     "exports": {
       "queryId": "8F7Eu0bmszaN9BRZc9xDuw",
       "operationName": "RequestToJoinCommunity",
@@ -1424,7 +1613,10 @@
     "n": "9999",
     "func_name": "Vn",
     "func_name_init": "qn",
-    "query": "{\"communityId\":n.communityId,...(0,g.S)(t)}",
+    "query": {
+      "communityId": "n.communityId",
+      "...()(0,g.S)": "_"
+    },
     "exports": {
       "queryId": "R9blbwaRNn71IlXMXCHh3w",
       "operationName": "LeaveCommunity",
@@ -1440,7 +1632,10 @@
     "n": "77682",
     "func_name": "si",
     "func_name_init": "ai",
-    "query": "{\"communityId\":t.communityId,\"userId\":t.userId}",
+    "query": {
+      "communityId": "t.communityId",
+      "userId": "t.userId"
+    },
     "exports": {
       "queryId": "TyBoUatRGhYWhUMPpC0IpA",
       "operationName": "CommunityUserInvite",
@@ -1454,7 +1649,10 @@
     "n": "83469",
     "func_name": "oi",
     "func_name_init": "ri",
-    "query": "{...n,...(0,g.S)(t)}",
+    "query": {
+      "...n": "_",
+      "...()(0,g.S)": "_"
+    },
     "exports": {
       "queryId": "qnsdiCo-3Gzi-fAsS-hd4A",
       "operationName": "CommunityUpdateRole",
@@ -1470,7 +1668,11 @@
     "n": "60589",
     "func_name": "wi",
     "func_name_init": "fi",
-    "query": "{\"communityId\":n.communityId,\"name\":n.name,...(0,g.S)(t)}",
+    "query": {
+      "communityId": "n.communityId",
+      "name": "n.name",
+      "...()(0,g.S)": "_"
+    },
     "exports": {
       "queryId": "TVCdwH7_j8KROXqjCtCLbg",
       "operationName": "CommunityEditName",
@@ -1486,7 +1688,11 @@
     "n": "13219",
     "func_name": "Ei",
     "func_name_init": "Si",
-    "query": "{\"communityId\":n.communityId,\"description\":n.purpose,...(0,g.S)(t)}",
+    "query": {
+      "communityId": "n.communityId",
+      "description": "n.purpose",
+      "...()(0,g.S)": "_"
+    },
     "exports": {
       "queryId": "IssxHQInF1szzghMwCFIug",
       "operationName": "CommunityEditPurpose",
@@ -1502,7 +1708,11 @@
     "n": "12094",
     "func_name": "Ai",
     "func_name_init": "Ii",
-    "query": "{\"communityId\":n.communityId,\"theme\":n.theme,...(0,g.S)(t)}",
+    "query": {
+      "communityId": "n.communityId",
+      "theme": "n.theme",
+      "...()(0,g.S)": "_"
+    },
     "exports": {
       "queryId": "in6UfgG2JgWtQcl-vV4oxg",
       "operationName": "CommunityEditTheme",
@@ -1518,7 +1728,13 @@
     "n": "5987",
     "func_name": "Ci",
     "func_name_init": "Ti",
-    "query": "{\"communityId\":n.communityId,\"ruleId\":n.ruleId,\"name\":n.name,\"description\":n.description,...(0,g.S)(t)}",
+    "query": {
+      "communityId": "n.communityId",
+      "ruleId": "n.ruleId",
+      "name": "n.name",
+      "description": "n.description",
+      "...()(0,g.S)": "_"
+    },
     "exports": {
       "queryId": "nG42k8Els62tq3jsAX-wag",
       "operationName": "CommunityEditRule",
@@ -1534,7 +1750,12 @@
     "n": "27300",
     "func_name": "gi",
     "func_name_init": "bi",
-    "query": "{\"communityId\":n.communityId,\"name\":n.name,\"description\":n.description,...(0,g.S)(t)}",
+    "query": {
+      "communityId": "n.communityId",
+      "name": "n.name",
+      "description": "n.description",
+      "...()(0,g.S)": "_"
+    },
     "exports": {
       "queryId": "0HJ7lwwkjUrGEZj6SE47IQ",
       "operationName": "CommunityCreateRule",
@@ -1550,7 +1771,11 @@
     "n": "3936",
     "func_name": "Pi",
     "func_name_init": "Ri",
-    "query": "{\"communityId\":n.communityId,\"ruleId\":n.ruleId,...(0,g.S)(t)}",
+    "query": {
+      "communityId": "n.communityId",
+      "ruleId": "n.ruleId",
+      "...()(0,g.S)": "_"
+    },
     "exports": {
       "queryId": "4c1FBQIeJ-j6EIYHbF2tJQ",
       "operationName": "CommunityRemoveRule",
@@ -1566,7 +1791,11 @@
     "n": "83668",
     "func_name": "Li",
     "func_name_init": "xi",
-    "query": "{\"communityId\":n.communityId,\"ruleIds\":n.ruleIds,...(0,g.S)(t)}",
+    "query": {
+      "communityId": "n.communityId",
+      "ruleIds": "n.ruleIds",
+      "...()(0,g.S)": "_"
+    },
     "exports": {
       "queryId": "lB5GEGAfUGC9CSF_hIXu-Q",
       "operationName": "CommunityReorderRules",
@@ -1582,7 +1811,11 @@
     "n": "35308",
     "func_name": "vi",
     "func_name_init": "yi",
-    "query": "{\"communityId\":n.communityId,\"mediaId\":n.mediaId,...(0,g.S)(t)}",
+    "query": {
+      "communityId": "n.communityId",
+      "mediaId": "n.mediaId",
+      "...()(0,g.S)": "_"
+    },
     "exports": {
       "queryId": "zbCbk_lfMMzZ7wclBR_wgA",
       "operationName": "CommunityEditBannerMedia",
@@ -1598,7 +1831,10 @@
     "n": "22230",
     "func_name": "Di",
     "func_name_init": "ki",
-    "query": "{\"communityId\":n.communityId,...(0,g.S)(t)}",
+    "query": {
+      "communityId": "n.communityId",
+      "...()(0,g.S)": "_"
+    },
     "exports": {
       "queryId": "bo1znTFl1-CNFdd0X2guMg",
       "operationName": "CommunityRemoveBannerMedia",
@@ -1690,7 +1926,22 @@
     "n": "18987",
     "func_name": "nr",
     "func_name_init": "tr",
-    "query": "{\"focalTweetId\":\"r\",\"cursor\":\"i\",\"referrer\":\"a\",\"controller_data\":\"n\",\"rux_context\":\"s\",\"with_rux_injections\":\"l\",\"includePromotedContent\":\"!0\",\"withCommunity\":t.isTrue(\"c9s_enabled\"),\"withQuickPromoteEligibilityTweetFields\":\"!0\",\"withBirdwatchNotes\":t.isTrue(\"responsive_web_birdwatch_consumption_enabled\"),...(0,g.d)(t),\"withVoice\":t.isTrue(\"voice_consumption_enabled\"),\"withV2Timeline\":t.isTrue(\"graphql_timeline_v2_query_threaded_conversation_with_injections\"),\"isReaderMode\":\"o\"}",
+    "query": {
+      "focalTweetId": "r",
+      "cursor": "i",
+      "referrer": "a",
+      "controller_data": "n",
+      "rux_context": "s",
+      "with_rux_injections": "l",
+      "includePromotedContent": "!0",
+      "withCommunity": "t.isTrue()",
+      "withQuickPromoteEligibilityTweetFields": "!0",
+      "withBirdwatchNotes": "t.isTrue(\"c9s_enabled\")",
+      "...(\"responsive_web_birdwatch_consumption_enabled\")(0,g.d)": "_",
+      "withVoice": "t.isTrue(t)",
+      "withV2Timeline": "t.isTrue(\"voice_consumption_enabled\")",
+      "isReaderMode": "o"
+    },
     "exports": {
       "queryId": "Nze3idtpjn4wcl09GpmDRg",
       "operationName": "TweetDetail",
@@ -1717,7 +1968,9 @@
     "n": "14910",
     "func_name": "rl",
     "func_name_init": "il",
-    "query": "{...t}",
+    "query": {
+      "...t": "_"
+    },
     "exports": {
       "queryId": "2njnYoE69O2jdUM7KMEnDw",
       "operationName": "ConvertRitoSuggestedActions",
@@ -1731,7 +1984,16 @@
     "n": "4070",
     "func_name": "fr",
     "func_name_init": "vr",
-    "query": "{\"count\":null==n?void 0:n.count,\"query\":n.query,\"withAttachments\":t.isTrue(\"dm_inbox_search_message_attachment_previews_enabled\")&&t.isTrue(\"dm_inbox_search_message_results_enabled\")&&t.isTrue(\"direct_messages_incremental_holdback_2022h1\"),\"withConversationQueryHighlights\":t.isTrue(\"dm_inbox_search_query_highlighting_conversation_results_enabled\")&&t.isTrue(\"direct_messages_incremental_holdback_2022h1\"),\"withMessageQueryHighlights\":t.isTrue(\"dm_inbox_search_query_highlighting_message_results_enabled\")&&t.isTrue(\"dm_inbox_search_message_results_enabled\")&&t.isTrue(\"direct_messages_incremental_holdback_2022h1\"),\"withMessages\":t.isTrue(\"dm_inbox_search_message_results_enabled\")&&t.isTrue(\"direct_messages_incremental_holdback_2022h1\"),\"withSafetyModeUserFields\":t.isTrue(\"rito_safety_mode_blocked_profile_enabled\"),\"withSuperFollowsUserFields\":t.isTrue(\"super_follow_user_api_enabled\")}",
+    "query": {
+      "count": "null==n?void 0:n.count",
+      "query": "n.query",
+      "withAttachments": "t.isTrue()&&t.isTrue(\"dm_inbox_search_message_attachment_previews_enabled\")&&t.isTrue(\"dm_inbox_search_message_results_enabled\")",
+      "withConversationQueryHighlights": "t.isTrue(\"direct_messages_incremental_holdback_2022h1\")&&t.isTrue(\"dm_inbox_search_query_highlighting_conversation_results_enabled\")",
+      "withMessageQueryHighlights": "t.isTrue(\"direct_messages_incremental_holdback_2022h1\")&&t.isTrue(\"dm_inbox_search_query_highlighting_message_results_enabled\")&&t.isTrue(\"dm_inbox_search_message_results_enabled\")",
+      "withMessages": "t.isTrue(\"direct_messages_incremental_holdback_2022h1\")&&t.isTrue(\"dm_inbox_search_message_results_enabled\")",
+      "withSafetyModeUserFields": "t.isTrue(\"direct_messages_incremental_holdback_2022h1\")",
+      "withSuperFollowsUserFields": "t.isTrue(\"rito_safety_mode_blocked_profile_enabled\")"
+    },
     "exports": {
       "queryId": "N7MUEpMnkYqhNzBwu1EJdg",
       "operationName": "DmAllSearchSlice",
@@ -1747,7 +2009,10 @@
     "n": "36859",
     "func_name": "Sr",
     "func_name_init": "wr",
-    "query": "{...n,\"withConversationQueryHighlights\":t.isTrue(\"dm_inbox_search_query_highlighting_conversation_results_enabled\")&&t.isTrue(\"direct_messages_incremental_holdback_2022h1\")}",
+    "query": {
+      "...n": "_",
+      "withConversationQueryHighlights": "t.isTrue()&&t.isTrue(\"dm_inbox_search_query_highlighting_conversation_results_enabled\")"
+    },
     "exports": {
       "queryId": "5zpY1dCR-8NyxQJS_CFJoQ",
       "operationName": "DmGroupSearchSlice",
@@ -1761,7 +2026,10 @@
     "n": "63870",
     "func_name": "Ir",
     "func_name_init": "Cr",
-    "query": "{...n,\"withConversationQueryHighlights\":t.isTrue(\"dm_inbox_search_query_highlighting_conversation_results_enabled\")&&t.isTrue(\"direct_messages_incremental_holdback_2022h1\")}",
+    "query": {
+      "...n": "_",
+      "withConversationQueryHighlights": "t.isTrue()&&t.isTrue(\"dm_inbox_search_query_highlighting_conversation_results_enabled\")"
+    },
     "exports": {
       "queryId": "xYSm8m5kJnzm_gFCn5GH-w",
       "operationName": "DmPeopleSearchSlice",
@@ -1775,7 +2043,12 @@
     "n": "65314",
     "func_name": "Tr",
     "func_name_init": "Er",
-    "query": "{\"count\":\"n\",\"cursor\":\"i\",\"includePromotedContent\":\"!1\",...(0,g.d)(t)}",
+    "query": {
+      "count": "n",
+      "cursor": "i",
+      "includePromotedContent": "!1",
+      "...()(0,g.d)": "_"
+    },
     "exports": {
       "queryId": "-vPcQ41yo2zx1QSJAV6ZIQ",
       "operationName": "DmMutedTimeline",
@@ -1818,7 +2091,10 @@
     "n": "5865",
     "func_name": "Fr",
     "func_name_init": "Or",
-    "query": "{\"draft_tweet_id\":\"n\",\"post_tweet_request\":Ur(i)}",
+    "query": {
+      "draft_tweet_id": "n",
+      "post_tweet_request": "Ur()"
+    },
     "exports": {
       "queryId": "JIeXE-I6BZXHfxsgOkyHYQ",
       "operationName": "EditDraftTweet",
@@ -1832,7 +2108,10 @@
     "n": "82373",
     "func_name": "Nr",
     "func_name_init": "Br",
-    "query": "{...n,...t}",
+    "query": {
+      "...n": "_",
+      "...t": "_"
+    },
     "exports": {
       "queryId": "ZkqIq_xRhiUme0PBJNpRtg",
       "operationName": "FetchDraftTweets",
@@ -1846,7 +2125,9 @@
     "n": "91887",
     "func_name": "Lr",
     "func_name_init": "xr",
-    "query": "{\"post_tweet_request\":Ur(t)}",
+    "query": {
+      "post_tweet_request": "Ur()"
+    },
     "exports": {
       "queryId": "cH9HZWz_EW9gnswvA4ZRiQ",
       "operationName": "CreateDraftTweet",
@@ -1891,7 +2172,11 @@
     "n": "46195",
     "func_name": "Kr",
     "func_name_init": "jr",
-    "query": "{\"count\":null==n?void 0:n.count,\"cursor\":null==n?void 0:n.cursor,...(0,g.d)(t)}",
+    "query": {
+      "count": "null==n?void 0:n.count",
+      "cursor": "null==n?void 0:n.cursor",
+      "...()(0,g.d)": "_"
+    },
     "exports": {
       "queryId": "4Yqsud8dtxrdSooSFb3jlQ",
       "operationName": "ForYouExplore",
@@ -1918,7 +2203,11 @@
     "n": "55429",
     "func_name": "$r",
     "func_name_init": "Gr",
-    "query": "{\"pinned_tweet_id\":null==n?void 0:n.pinned_tweet_id,\"page_name\":null==n?void 0:n.page_name,...(0,g.d)(t)}",
+    "query": {
+      "pinned_tweet_id": "null==n?void 0:n.pinned_tweet_id",
+      "page_name": "null==n?void 0:n.page_name",
+      "...()(0,g.d)": "_"
+    },
     "exports": {
       "queryId": "MddcbNzj--pjn14gCrxwCA",
       "operationName": "ImmersiveMedia",
@@ -1945,7 +2234,13 @@
     "n": "48510",
     "func_name": "k",
     "func_name_init": "A",
-    "query": "{\"userId\":\"r\",\"count\":\"n\",\"cursor\":\"i\",\"includePromotedContent\":\"!1\",...(0,g.d)(t)}",
+    "query": {
+      "userId": "r",
+      "count": "n",
+      "cursor": "i",
+      "includePromotedContent": "!1",
+      "...()(0,g.d)": "_"
+    },
     "exports": {
       "queryId": "p6oAap7drmgt2ViNbhB62Q",
       "operationName": "Followers",
@@ -1972,7 +2267,13 @@
     "n": "73489",
     "func_name": "R",
     "func_name_init": "D",
-    "query": "{\"userId\":\"r\",\"count\":\"n\",\"cursor\":\"i\",\"includePromotedContent\":\"!1\",...(0,g.d)(t)}",
+    "query": {
+      "userId": "r",
+      "count": "n",
+      "cursor": "i",
+      "includePromotedContent": "!1",
+      "...()(0,g.d)": "_"
+    },
     "exports": {
       "queryId": "XggvmkOgzGZ-HmFDLo0-bw",
       "operationName": "FollowersYouKnow",
@@ -1999,7 +2300,13 @@
     "n": "99620",
     "func_name": "x",
     "func_name_init": "P",
-    "query": "{\"userId\":\"r\",\"count\":\"n\",\"cursor\":\"i\",\"includePromotedContent\":\"!1\",...(0,g.d)(t)}",
+    "query": {
+      "userId": "r",
+      "count": "n",
+      "cursor": "i",
+      "includePromotedContent": "!1",
+      "...()(0,g.d)": "_"
+    },
     "exports": {
       "queryId": "i94e7ZBJNGVrM_8lFPFjOw",
       "operationName": "Following",
@@ -2026,7 +2333,12 @@
     "n": "83775",
     "func_name": "U",
     "func_name_init": "N",
-    "query": "{\"count\":\"n\",\"cursor\":\"i\",\"includePromotedContent\":\"!1\",...(0,g.d)(t)}",
+    "query": {
+      "count": "n",
+      "cursor": "i",
+      "includePromotedContent": "!1",
+      "...()(0,g.d)": "_"
+    },
     "exports": {
       "queryId": "Db0zn83YMvRWJlfIBQ3tXQ",
       "operationName": "SuperFollowers",
@@ -2053,7 +2365,13 @@
     "n": "9910",
     "func_name": "O",
     "func_name_init": "M",
-    "query": "{\"rootTweetId\":\"r\",\"count\":\"n\",\"cursor\":\"i\",\"includePromotedContent\":\"!1\",...(0,g.d)(t)}",
+    "query": {
+      "rootTweetId": "r",
+      "count": "n",
+      "cursor": "i",
+      "includePromotedContent": "!1",
+      "...()(0,g.d)": "_"
+    },
     "exports": {
       "queryId": "gu3Shvvl6pwtmlLp8Qi4Hg",
       "operationName": "ModeratedTimeline",
@@ -2080,7 +2398,12 @@
     "n": "51143",
     "func_name": "B",
     "func_name_init": "F",
-    "query": "{\"count\":\"n\",\"cursor\":\"i\",\"includePromotedContent\":\"!1\",...(0,g.d)(t)}",
+    "query": {
+      "count": "n",
+      "cursor": "i",
+      "includePromotedContent": "!1",
+      "...()(0,g.d)": "_"
+    },
     "exports": {
       "queryId": "Xg8XjG8ugtWchNXe3UCkPg",
       "operationName": "MutedAccounts",
@@ -2107,7 +2430,13 @@
     "n": "71901",
     "func_name": "Z",
     "func_name_init": "L",
-    "query": "{\"timelineId\":\"r\",\"count\":\"n\",\"cursor\":\"i\",\"withQuickPromoteEligibilityTweetFields\":\"!0\",...(0,g.d)(t)}",
+    "query": {
+      "timelineId": "r",
+      "count": "n",
+      "cursor": "i",
+      "withQuickPromoteEligibilityTweetFields": "!0",
+      "...()(0,g.d)": "_"
+    },
     "exports": {
       "queryId": "9Hqiw-iCqEyVb-GeppbFJg",
       "operationName": "GenericTimelineById",
@@ -2148,7 +2477,11 @@
     "n": "73589",
     "func_name": "vo",
     "func_name_init": "yo",
-    "query": "{\"listId\":\"r\",\"userId\":\"o\",...(0,g.S)(t)}",
+    "query": {
+      "listId": "r",
+      "userId": "o",
+      "...()(0,g.S)": "_"
+    },
     "exports": {
       "queryId": "RKtQuzpcy2gym71UorWg6g",
       "operationName": "ListAddMember",
@@ -2164,7 +2497,12 @@
     "n": "73564",
     "func_name": "Ao",
     "func_name_init": "Io",
-    "query": "{\"isPrivate\":\"private\"===o.toLowerCase(),\"name\":\"a\",\"description\":\"r\",...(0,g.S)(t)}",
+    "query": {
+      "isPrivate": "private===o.toLowerCase()",
+      "name": "a",
+      "description": "r",
+      "...()(0,g.S)": "_"
+    },
     "exports": {
       "queryId": "x5aSMDodNU02VT1VRyW48A",
       "operationName": "CreateList",
@@ -2180,7 +2518,11 @@
     "n": "57411",
     "func_name": "Eo",
     "func_name_init": "So",
-    "query": "{\"listId\":\"r\",\"mediaId\":\"o\",...(0,g.S)(t)}",
+    "query": {
+      "listId": "r",
+      "mediaId": "o",
+      "...()(0,g.S)": "_"
+    },
     "exports": {
       "queryId": "dXRBGISGFHWBkK0LdUYCEg",
       "operationName": "EditListBanner",
@@ -2212,7 +2554,10 @@
     "n": "48207",
     "func_name": "wo",
     "func_name_init": "fo",
-    "query": "{\"listId\":\"r\",...(0,g.S)(t)}",
+    "query": {
+      "listId": "r",
+      "...()(0,g.S)": "_"
+    },
     "exports": {
       "queryId": "5hkpoz-sCeMQQSHqeE-gMg",
       "operationName": "DeleteListBanner",
@@ -2228,7 +2573,11 @@
     "n": "22066",
     "func_name": "Co",
     "func_name_init": "To",
-    "query": "{\"screenName\":\"i\",\"listSlug\":\"r\",...(0,g.S)(t)}",
+    "query": {
+      "screenName": "i",
+      "listSlug": "r",
+      "...()(0,g.S)": "_"
+    },
     "exports": {
       "queryId": "dX9RR-iwiXqxTPTUzzsjHA",
       "operationName": "ListBySlug",
@@ -2244,7 +2593,10 @@
     "n": "88032",
     "func_name": "$o",
     "func_name_init": "Go",
-    "query": "{\"listId\":n.list_id,...(0,g.S)(t)}",
+    "query": {
+      "listId": "n.list_id",
+      "...()(0,g.S)": "_"
+    },
     "exports": {
       "queryId": "vxx-Y8zadpAP64HHiw4hMQ",
       "operationName": "ListByRestId",
@@ -2260,7 +2612,13 @@
     "n": "44762",
     "func_name": "Fo",
     "func_name_init": "Oo",
-    "query": "{\"listId\":\"a\",\"count\":\"r\",\"cursor\":\"o\",...(0,g.d)(t),\"withSafetyModeUserFields\":t.isTrue(\"rito_safety_mode_blocked_profile_enabled\")}",
+    "query": {
+      "listId": "a",
+      "count": "r",
+      "cursor": "o",
+      "...()(0,g.d)": "_",
+      "withSafetyModeUserFields": "t.isTrue(t)"
+    },
     "exports": {
       "queryId": "sXFXEmtFr3nLyG1dmS81jw",
       "operationName": "ListMembers",
@@ -2287,7 +2645,12 @@
     "n": "5349",
     "func_name": "da",
     "func_name_init": "la",
-    "query": "{\"listId\":\"a\",\"count\":\"r\",\"cursor\":\"o\",...(0,g.d)(t)}",
+    "query": {
+      "listId": "a",
+      "count": "r",
+      "cursor": "o",
+      "...()(0,g.d)": "_"
+    },
     "exports": {
       "queryId": "LxXoouvfd5E8PXsdrQ0iMg",
       "operationName": "ListSubscribers",
@@ -2314,7 +2677,13 @@
     "n": "73780",
     "func_name": "zo",
     "func_name_init": "Wo",
-    "query": "{\"userId\":\"s\",\"isListMemberTargetUserId\":\"a\",\"count\":\"r\",\"cursor\":\"o\",...(0,g.d)(t)}",
+    "query": {
+      "userId": "s",
+      "isListMemberTargetUserId": "a",
+      "count": "r",
+      "cursor": "o",
+      "...()(0,g.d)": "_"
+    },
     "exports": {
       "queryId": "6E69fsenLDPDcprqtogzdw",
       "operationName": "ListOwnerships",
@@ -2341,7 +2710,12 @@
     "n": "24877",
     "func_name": "No",
     "func_name_init": "Bo",
-    "query": "{\"userId\":\"a\",\"count\":\"r\",\"cursor\":\"o\",...(0,g.d)(t)}",
+    "query": {
+      "userId": "a",
+      "count": "r",
+      "cursor": "o",
+      "...()(0,g.d)": "_"
+    },
     "exports": {
       "queryId": "t3VvMv98F3U12lZv4Qkgmw",
       "operationName": "ListMemberships",
@@ -2368,7 +2742,11 @@
     "n": "69557",
     "func_name": "Xo",
     "func_name_init": "Jo",
-    "query": "{\"listId\":\"r\",\"userId\":\"o\",...(0,g.S)(t)}",
+    "query": {
+      "listId": "r",
+      "userId": "o",
+      "...()(0,g.S)": "_"
+    },
     "exports": {
       "queryId": "mDlp1UvnnALC_EzybKAMtA",
       "operationName": "ListRemoveMember",
@@ -2384,7 +2762,10 @@
     "n": "35869",
     "func_name": "ma",
     "func_name_init": "pa",
-    "query": "{\"listId\":\"r\",...o}",
+    "query": {
+      "listId": "r",
+      "...o": "_"
+    },
     "exports": {
       "queryId": "fieeOPSAOCgC7FUhX6DmbQ",
       "operationName": "ListUnpinOne",
@@ -2400,7 +2781,10 @@
     "n": "14735",
     "func_name": "Vo",
     "func_name_init": "qo",
-    "query": "{\"listId\":\"r\",...o}",
+    "query": {
+      "listId": "r",
+      "...o": "_"
+    },
     "exports": {
       "queryId": "_8IUBMhVuekddv8P6Q5vHQ",
       "operationName": "ListPinOne",
@@ -2416,7 +2800,10 @@
     "n": "12173",
     "func_name": "oa",
     "func_name_init": "ra",
-    "query": "{\"listIds\":\"i\",...(0,g.S)(t)}",
+    "query": {
+      "listIds": "i",
+      "...()(0,g.S)": "_"
+    },
     "exports": {
       "queryId": "J-U5JsCVrEiMA7Auxo96VQ",
       "operationName": "ListsPinMany",
@@ -2432,7 +2819,10 @@
     "n": "57919",
     "func_name": "sa",
     "func_name_init": "aa",
-    "query": "{\"listId\":\"r\",...(0,g.S)(t)}",
+    "query": {
+      "listId": "r",
+      "...()(0,g.S)": "_"
+    },
     "exports": {
       "queryId": "nymTz5ek0FQPC3kh63Tp1w",
       "operationName": "ListSubscribe",
@@ -2448,7 +2838,10 @@
     "n": "75309",
     "func_name": "_a",
     "func_name_init": "ha",
-    "query": "{\"listId\":\"r\",...(0,g.S)(t)}",
+    "query": {
+      "listId": "r",
+      "...()(0,g.S)": "_"
+    },
     "exports": {
       "queryId": "Wi5-aG4bvTmdjyRyRGkyhA",
       "operationName": "ListUnsubscribe",
@@ -2496,7 +2889,13 @@
     "n": "84508",
     "func_name": "ga",
     "func_name_init": "ba",
-    "query": "{\"listId\":\"o\",\"isPrivate\":\"private\"===a.toLowerCase(),\"description\":\"r\",\"name\":\"s\",...(0,g.S)(t)}",
+    "query": {
+      "listId": "o",
+      "isPrivate": "private===a.toLowerCase()",
+      "description": "r",
+      "name": "s",
+      "...()(0,g.S)": "_"
+    },
     "exports": {
       "queryId": "P9YDuvCt6ogRf-kyr5E5xw",
       "operationName": "UpdateList",
@@ -2512,7 +2911,12 @@
     "n": "18321",
     "func_name": "go",
     "func_name_init": "bo",
-    "query": "{\"userId\":\"r\",\"count\":\"n\",\"cursor\":\"i\",...(0,g.d)(t)}",
+    "query": {
+      "userId": "r",
+      "count": "n",
+      "cursor": "i",
+      "...()(0,g.d)": "_"
+    },
     "exports": {
       "queryId": "mLKOzzVOWUycBiExBT1gjg",
       "operationName": "CombinedLists",
@@ -2539,7 +2943,11 @@
     "n": "18115",
     "func_name": "ia",
     "func_name_init": "na",
-    "query": "{\"count\":\"n\",\"cursor\":\"i\",...(0,g.d)(t)}",
+    "query": {
+      "count": "n",
+      "cursor": "i",
+      "...()(0,g.d)": "_"
+    },
     "exports": {
       "queryId": "cl2dF-zeGiLvZDsMGZhL4g",
       "operationName": "ListsManagementPageTimeline",
@@ -2566,7 +2974,9 @@
     "n": "69210",
     "func_name": "Ko",
     "func_name_init": "jo",
-    "query": "{...(0,g.S)(t)}",
+    "query": {
+      "...()(0,g.S)": "_"
+    },
     "exports": {
       "queryId": "oVcs18ZxYHcnJ5qjzTAGlA",
       "operationName": "ListPins",
@@ -2582,7 +2992,11 @@
     "n": "38957",
     "func_name": "ta",
     "func_name_init": "ea",
-    "query": "{\"count\":\"n\",\"cursor\":\"i\",...(0,g.d)(t)}",
+    "query": {
+      "count": "n",
+      "cursor": "i",
+      "...()(0,g.d)": "_"
+    },
     "exports": {
       "queryId": "Dt4LrUTw3SRCKTo4iKTnAA",
       "operationName": "ListsDiscovery",
@@ -2609,7 +3023,13 @@
     "n": "23176",
     "func_name": "as",
     "func_name_init": "os",
-    "query": "{\"rest_id\":\"r\",\"count\":\"n\",\"cursor\":\"i\",\"includePromotedContent\":\"!1\",...(0,g.d)(t)}",
+    "query": {
+      "rest_id": "r",
+      "count": "n",
+      "cursor": "i",
+      "includePromotedContent": "!1",
+      "...()(0,g.d)": "_"
+    },
     "exports": {
       "queryId": "-QhX8r1nIYFqaFOM0eYyJA",
       "operationName": "UserAboutTimeline",
@@ -2636,7 +3056,16 @@
     "n": "72303",
     "func_name": "hs",
     "func_name_init": "ms",
-    "query": "{\"userId\":\"r\",\"count\":\"n\",\"cursor\":\"i\",\"includePromotedContent\":\"!0\",\"withQuickPromoteEligibilityTweetFields\":\"!0\",...(0,g.d)(t),\"withVoice\":t.isTrue(\"voice_consumption_enabled\"),\"withV2Timeline\":t.isTrue(\"graphql_timeline_v2_user_profile_timeline\")}",
+    "query": {
+      "userId": "r",
+      "count": "n",
+      "cursor": "i",
+      "includePromotedContent": "!0",
+      "withQuickPromoteEligibilityTweetFields": "!0",
+      "...()(0,g.d)": "_",
+      "withVoice": "t.isTrue(t)",
+      "withV2Timeline": "t.isTrue(\"voice_consumption_enabled\")"
+    },
     "exports": {
       "queryId": "q881FFtQa69KN7jS9h_EDA",
       "operationName": "UserTweets",
@@ -2663,7 +3092,16 @@
     "n": "71236",
     "func_name": "bs",
     "func_name_init": "_s",
-    "query": "{\"userId\":\"r\",\"count\":\"n\",\"cursor\":\"i\",\"includePromotedContent\":\"!0\",\"withCommunity\":t.isTrue(\"c9s_enabled\"),...(0,g.d)(t),\"withVoice\":t.isTrue(\"voice_consumption_enabled\"),\"withV2Timeline\":t.isTrue(\"graphql_timeline_v2_user_profile_with_replies_timeline\")}",
+    "query": {
+      "userId": "r",
+      "count": "n",
+      "cursor": "i",
+      "includePromotedContent": "!0",
+      "withCommunity": "t.isTrue()",
+      "...(\"c9s_enabled\")(0,g.d)": "_",
+      "withVoice": "t.isTrue(t)",
+      "withV2Timeline": "t.isTrue(\"voice_consumption_enabled\")"
+    },
     "exports": {
       "queryId": "9pXWTtWPf0yOWJBKslHq5w",
       "operationName": "UserTweetsAndReplies",
@@ -2690,7 +3128,14 @@
     "n": "99331",
     "func_name": "ps",
     "func_name_init": "us",
-    "query": "{\"userId\":\"r\",\"count\":\"n\",\"cursor\":\"i\",\"includePromotedContent\":\"!0\",...(0,g.d)(t),\"withVoice\":t.isTrue(\"voice_consumption_enabled\")}",
+    "query": {
+      "userId": "r",
+      "count": "n",
+      "cursor": "i",
+      "includePromotedContent": "!0",
+      "...()(0,g.d)": "_",
+      "withVoice": "t.isTrue(t)"
+    },
     "exports": {
       "queryId": "lX0y1PuxL7Gpb_Ivbg815w",
       "operationName": "UserSuperFollowTweets",
@@ -2717,7 +3162,7 @@
     "n": "65912",
     "func_name": "cs",
     "func_name_init": "ds",
-    "query": "{\"userId\":\"i\",\"count\":\"t\",\"cursor\":\"string\"==typeof n?n:void 0,\"includePromotedContent\":\"!1\",\"withDownvotePerspective\":\"!1\",\"withReactionsMetadata\":\"!1\",\"withReactionsPerspective\":\"!1\",\"withSuperFollowsTweetFields\":\"!1\",\"withSuperFollowsUserFields\":\"!1\",\"withVoice\":\"!1\"}",
+    "query": "{\"userId\":\"i\",\"count\":\"t\",\"cursor\":\"string\"==typeof n?n:\"void 0\",\"includePromotedContent\":\"!1\",\"withDownvotePerspective\":\"!1\",\"withReactionsMetadata\":\"!1\",\"withReactionsPerspective\":\"!1\",\"withSuperFollowsTweetFields\":\"!1\",\"withSuperFollowsUserFields\":\"!1\",\"withVoice\":\"!1\"}",
     "exports": {
       "queryId": "SDuds5RJvtxXyPbzSXEg9w",
       "operationName": "UserPromotableTweets",
@@ -2744,7 +3189,17 @@
     "n": "86608",
     "func_name": "rs",
     "func_name_init": "is",
-    "query": "{\"userId\":\"r\",\"count\":\"n\",\"cursor\":\"i\",\"includePromotedContent\":\"!1\",...(0,g.d)(t),\"withClientEventToken\":\"!1\",\"withBirdwatchNotes\":\"!1\",\"withVoice\":t.isTrue(\"voice_consumption_enabled\"),\"withV2Timeline\":t.isTrue(\"graphql_timeline_v2_user_favorites_by_time_timeline\")}",
+    "query": {
+      "userId": "r",
+      "count": "n",
+      "cursor": "i",
+      "includePromotedContent": "!1",
+      "...()(0,g.d)": "_",
+      "withClientEventToken": "!1",
+      "withBirdwatchNotes": "!1",
+      "withVoice": "t.isTrue(t)",
+      "withV2Timeline": "t.isTrue(\"voice_consumption_enabled\")"
+    },
     "exports": {
       "queryId": "8ymqOI9bCoMKsTDx80xXqw",
       "operationName": "Likes",
@@ -2771,7 +3226,17 @@
     "n": "9475",
     "func_name": "ls",
     "func_name_init": "ss",
-    "query": "{\"userId\":\"r\",\"count\":\"n\",\"cursor\":\"i\",\"includePromotedContent\":\"!1\",...(0,g.d)(t),\"withClientEventToken\":\"!1\",\"withBirdwatchNotes\":\"!1\",\"withVoice\":t.isTrue(\"voice_consumption_enabled\"),\"withV2Timeline\":t.isTrue(\"graphql_timeline_v2_user_media_timeline\")}",
+    "query": {
+      "userId": "r",
+      "count": "n",
+      "cursor": "i",
+      "includePromotedContent": "!1",
+      "...()(0,g.d)": "_",
+      "withClientEventToken": "!1",
+      "withBirdwatchNotes": "!1",
+      "withVoice": "t.isTrue(t)",
+      "withV2Timeline": "t.isTrue(\"voice_consumption_enabled\")"
+    },
     "exports": {
       "queryId": "_vFDgkWOKL_U64Y2VmnvJw",
       "operationName": "UserMedia",
@@ -2798,7 +3263,9 @@
     "n": "81088",
     "func_name": "Ks",
     "func_name_init": "js",
-    "query": "{\"rest_id\":t.rest_id}",
+    "query": {
+      "rest_id": "t.rest_id"
+    },
     "exports": {
       "queryId": "NFARV9iE-FIK7FOsO_d23Q",
       "operationName": "RevueAccountByRestId",
@@ -2812,7 +3279,12 @@
     "n": "32127",
     "func_name": "$s",
     "func_name_init": "Gs",
-    "query": "{\"cursor\":\"n\",\"rest_id\":\"i\",...(0,g.d)(t),\"withSafetyModeUserFields\":t.isTrue(\"rito_safety_mode_blocked_profile_enabled\")}",
+    "query": {
+      "cursor": "n",
+      "rest_id": "i",
+      "...()(0,g.d)": "_",
+      "withSafetyModeUserFields": "t.isTrue(t)"
+    },
     "exports": {
       "queryId": "10vAW5KbNX5Wvcgr2GF4uw",
       "operationName": "RitoActionedTweetsTimeline",
@@ -2855,7 +3327,11 @@
     "n": "71237",
     "func_name": "Js",
     "func_name_init": "Ys",
-    "query": "{\"cursor\":\"n\",...(0,g.d)(t),\"withSafetyModeUserFields\":t.isTrue(\"rito_safety_mode_blocked_profile_enabled\")}",
+    "query": {
+      "cursor": "n",
+      "...()(0,g.d)": "_",
+      "withSafetyModeUserFields": "t.isTrue(t)"
+    },
     "exports": {
       "queryId": "RR7bcThNWYW5zAsi_LPklA",
       "operationName": "RitoFlaggedAccountsTimeline",
@@ -2882,7 +3358,12 @@
     "n": "96473",
     "func_name": "tl",
     "func_name_init": "el",
-    "query": "{\"cursor\":\"n\",\"rest_id\":\"i\",...(0,g.d)(t),\"withSafetyModeUserFields\":t.isTrue(\"rito_safety_mode_blocked_profile_enabled\")}",
+    "query": {
+      "cursor": "n",
+      "rest_id": "i",
+      "...()(0,g.d)": "_",
+      "withSafetyModeUserFields": "t.isTrue(t)"
+    },
     "exports": {
       "queryId": "_8ut4NdEiUbgdKJW0WHJeQ",
       "operationName": "RitoFlaggedTweetsTimeline",
@@ -2909,7 +3390,9 @@
     "n": "96275",
     "func_name": "sl",
     "func_name_init": "al",
-    "query": "{...t}",
+    "query": {
+      "...t": "_"
+    },
     "exports": {
       "queryId": "GnQKeEdL1LyeK3dTQCS1yw",
       "operationName": "RitoSuggestedActionsFacePile",
@@ -2923,7 +3406,10 @@
     "n": "8601",
     "func_name": "ul",
     "func_name_init": "cl",
-    "query": "{\"post_tweet_request\":\"r\",\"execute_at\":yl(n)}",
+    "query": {
+      "post_tweet_request": "r",
+      "execute_at": "yl()"
+    },
     "exports": {
       "queryId": "LCVzRQGxOaGnOnYH01NQXg",
       "operationName": "CreateScheduledTweet",
@@ -2937,7 +3423,10 @@
     "n": "32737",
     "func_name": "gl",
     "func_name_init": "bl",
-    "query": "{...n,...t}",
+    "query": {
+      "...n": "_",
+      "...t": "_"
+    },
     "exports": {
       "queryId": "ITtjAzvlZni2wWXwf295Qg",
       "operationName": "FetchScheduledTweets",
@@ -2951,7 +3440,11 @@
     "n": "20064",
     "func_name": "_l",
     "func_name_init": "hl",
-    "query": "{\"scheduled_tweet_id\":\"i\",\"post_tweet_request\":\"o\",\"execute_at\":yl(n)}",
+    "query": {
+      "scheduled_tweet_id": "i",
+      "post_tweet_request": "o",
+      "execute_at": "yl()"
+    },
     "exports": {
       "queryId": "_mHkQ5LHpRRjSXKOcG6eZw",
       "operationName": "EditScheduledTweet",
@@ -3091,7 +3584,11 @@
     "n": "70365",
     "func_name": "Fl",
     "func_name_init": "Ol",
-    "query": "{\"userId\":\"n\",\"enabled\":\"none\"!==t,\"duration\":\"none\"===t?void 0:\"t\"}",
+    "query": {
+      "userId": "n",
+      "enabled": "none!==t",
+      "duration": "none===t?void 0:t"
+    },
     "exports": {
       "queryId": "qSJIPIpf4gA7Wn21bT3D4w",
       "operationName": "SetSafetyModeSettings",
@@ -3133,7 +3630,11 @@
     "n": "63738",
     "func_name": "sd",
     "func_name_init": "ad",
-    "query": "{...n,...(0,g.d)(t),\"articleListSeedType\":\"i\"}",
+    "query": {
+      "...n": "_",
+      "...()(0,g.d)": "_",
+      "articleListSeedType": "i"
+    },
     "exports": {
       "queryId": "J-8Z-4VM-Jr9dl8A6Y4-Dg",
       "operationName": "ArticleTweetsTimeline",
@@ -3160,7 +3661,11 @@
     "n": "90724",
     "func_name": "od",
     "func_name_init": "rd",
-    "query": "{...n,...(0,g.d)(t),\"articleListSeedType\":\"i\"}",
+    "query": {
+      "...n": "_",
+      "...()(0,g.d)": "_",
+      "articleListSeedType": "i"
+    },
     "exports": {
       "queryId": "eKrwrU5eRBL_R9t5sFXfIg",
       "operationName": "ArticleTimeline",
@@ -3187,7 +3692,7 @@
     "n": "21163",
     "func_name": "Ad",
     "func_name_init": "Id",
-    "query": "{\"rest_id\":\"a\",\"cursor\":\"r\",\"context\":JSON.stringify({\"data_lookup_id\":\"o\"}),...(0,g.d)(t)}",
+    "query": "{\"rest_id\":\"a\",\"cursor\":\"r\",\"context\":\"JSON.stringify()\"{\"data_lookup_id\":\"o\"}\"0\",\"g.dt\"}",
     "exports": {
       "queryId": "h1sIF7iIZNOxfim4_cS9JA",
       "operationName": "TopicTimeline",
@@ -3214,7 +3719,7 @@
     "n": "65402",
     "func_name": "_d",
     "func_name_init": "hd",
-    "query": "{\"rest_id\":\"a\",\"cursor\":\"r\",\"context\":JSON.stringify({\"data_lookup_id\":\"o\"}),...(0,g.d)(t)}",
+    "query": "{\"rest_id\":\"a\",\"cursor\":\"r\",\"context\":\"JSON.stringify()\"{\"data_lookup_id\":\"o\"}\"0\",\"g.dt\"}",
     "exports": {
       "queryId": "irYg0qxSCU-z6XhwhM1z1w",
       "operationName": "TopicLandingPage",
@@ -3241,7 +3746,10 @@
     "n": "64452",
     "func_name": "wd",
     "func_name_init": "fd",
-    "query": "{\"cursor\":\"r\",...(0,g.d)(t)}",
+    "query": {
+      "cursor": "r",
+      "...()(0,g.d)": "_"
+    },
     "exports": {
       "queryId": "i06ljnVzu-Wu5RU1a3MK8Q",
       "operationName": "TopicsManagementPage",
@@ -3284,7 +3792,10 @@
     "n": "95342",
     "func_name": "Cd",
     "func_name_init": "Td",
-    "query": "{\"topicId\":\"r\",...(0,g.d)(t)}",
+    "query": {
+      "topicId": "r",
+      "...()(0,g.d)": "_"
+    },
     "exports": {
       "queryId": "nr2qOBmky1AM5W4u083y8g",
       "operationName": "TopicsPickerPageById",
@@ -3311,7 +3822,9 @@
     "n": "30634",
     "func_name": "Ed",
     "func_name_init": "Sd",
-    "query": "{...(0,g.d)(t)}",
+    "query": {
+      "...()(0,g.d)": "_"
+    },
     "exports": {
       "queryId": "IUeyYRWY-KlLiEXb8OGHtA",
       "operationName": "TopicsPickerPage",
@@ -3338,7 +3851,12 @@
     "n": "17605",
     "func_name": "Md",
     "func_name_init": "Zd",
-    "query": "{\"userId\":\"a\",\"cursor\":\"o\",\"context\":\"r\",...(0,g.d)(t)}",
+    "query": {
+      "userId": "a",
+      "cursor": "o",
+      "context": "r",
+      "...()(0,g.d)": "_"
+    },
     "exports": {
       "queryId": "_YOj3ANPbZuporTfoUxhFQ",
       "operationName": "ViewingOtherUsersTopicsPage",
@@ -3365,7 +3883,11 @@
     "n": "18522",
     "func_name": "ud",
     "func_name_init": "cd",
-    "query": "{\"rest_id\":\"o\",\"cursor\":\"r\",...(0,g.d)(t)}",
+    "query": {
+      "rest_id": "o",
+      "cursor": "r",
+      "...()(0,g.d)": "_"
+    },
     "exports": {
       "queryId": "KTAbu7SNxjuOQPp0MEsZgg",
       "operationName": "NoteworthyAccountsPage",
@@ -3456,7 +3978,10 @@
     "n": "89859",
     "func_name": "Dd",
     "func_name_init": "kd",
-    "query": "{\"userId\":\"r\",...(0,g.d)(t)}",
+    "query": {
+      "userId": "r",
+      "...()(0,g.d)": "_"
+    },
     "exports": {
       "queryId": "1lTmlc6V0Bzlwu75DzTnyg",
       "operationName": "TopicToFollowSidebar",
@@ -3683,7 +4208,10 @@
     "n": "3597",
     "func_name": "iu",
     "func_name_init": "nu",
-    "query": "{\"trustedFriendsId\":t.trustedFriendsId,\"prefix\":t.prefix}",
+    "query": {
+      "trustedFriendsId": "t.trustedFriendsId",
+      "prefix": "t.prefix"
+    },
     "exports": {
       "queryId": "4lk-D0Y8kfimSyPJjEocsA",
       "operationName": "TrustedFriendsTypeahead",
@@ -3697,7 +4225,10 @@
     "n": "38430",
     "func_name": "tu",
     "func_name_init": "eu",
-    "query": "{\"communityId\":t.communityId,\"prefix\":t.prefix}",
+    "query": {
+      "communityId": "t.communityId",
+      "prefix": "t.prefix"
+    },
     "exports": {
       "queryId": "mHD64WE922Oa5EmHCgwOcg",
       "operationName": "CommunityUserRelationshipTypeahead",
@@ -3711,7 +4242,10 @@
     "n": "35030",
     "func_name": "Xc",
     "func_name_init": "Jc",
-    "query": "{\"communityId\":t.communityId,\"prefix\":t.prefix}",
+    "query": {
+      "communityId": "t.communityId",
+      "prefix": "t.prefix"
+    },
     "exports": {
       "queryId": "EaCbT1bOCOFxrDbDapS-Dw",
       "operationName": "CommunityMemberRelationshipTypeahead",
@@ -3725,7 +4259,11 @@
     "n": "11272",
     "func_name": "yu",
     "func_name_init": "gu",
-    "query": "{\"withCommunitiesMemberships\":t.isTrue(\"c9s_enabled\"),\"withCommunitiesCreation\":t.isTrue(\"c9s_community_creation_enabled\"),\"withSuperFollowsUserFields\":t.isTrue(\"super_follow_user_api_enabled\")}",
+    "query": {
+      "withCommunitiesMemberships": "t.isTrue()",
+      "withCommunitiesCreation": "t.isTrue(\"c9s_enabled\")",
+      "withSuperFollowsUserFields": "t.isTrue(\"c9s_community_creation_enabled\")"
+    },
     "exports": {
       "queryId": "4jeP7HyKpQUitFUTWedrqA",
       "operationName": "Viewer",
@@ -3741,7 +4279,11 @@
     "n": "16480",
     "func_name": "hu",
     "func_name_init": "mu",
-    "query": "{\"screen_name\":\"n\",\"withSafetyModeUserFields\":t.isTrue(\"rito_safety_mode_blocked_profile_enabled\"),\"withSuperFollowsUserFields\":t.isTrue(\"super_follow_user_api_enabled\")}",
+    "query": {
+      "screen_name": "n",
+      "withSafetyModeUserFields": "t.isTrue()",
+      "withSuperFollowsUserFields": "t.isTrue(\"rito_safety_mode_blocked_profile_enabled\")"
+    },
     "exports": {
       "queryId": "vG3rchZtwqiwlKgUYCrTRA",
       "operationName": "UserByScreenName",
@@ -3757,7 +4299,11 @@
     "n": "50244",
     "func_name": "pu",
     "func_name_init": "uu",
-    "query": "{\"userId\":\"n\",\"withSafetyModeUserFields\":t.isTrue(\"rito_safety_mode_blocked_profile_enabled\"),\"withSuperFollowsUserFields\":t.isTrue(\"super_follow_user_api_enabled\")}",
+    "query": {
+      "userId": "n",
+      "withSafetyModeUserFields": "t.isTrue()",
+      "withSuperFollowsUserFields": "t.isTrue(\"rito_safety_mode_blocked_profile_enabled\")"
+    },
     "exports": {
       "queryId": "5bKaQ2_gljw0cRGYF1FVnQ",
       "operationName": "UserByRestId",
@@ -3773,7 +4319,10 @@
     "n": "76773",
     "func_name": "bu",
     "func_name_init": "_u",
-    "query": "{\"userIds\":n.split(\",\"),\"withSuperFollowsUserFields\":t.isTrue(\"super_follow_user_api_enabled\")}",
+    "query": {
+      "userIds": "n.split()",
+      "withSuperFollowsUserFields": "t.isTrue(\",\")"
+    },
     "exports": {
       "queryId": "RE7X-d9rato9lbig-3wN4A",
       "operationName": "UsersByRestIds",
@@ -3805,7 +4354,10 @@
     "n": "64694",
     "func_name": "Vd",
     "func_name_init": "qd",
-    "query": "{\"includePromotedContent\":\"!0\",...(0,g.d)(t)}",
+    "query": {
+      "includePromotedContent": "!0",
+      "...()(0,g.d)": "_"
+    },
     "exports": {
       "queryId": "qNZkBA9QShKetdS6WHdsgQ",
       "operationName": "UrtFixtures",
@@ -3832,7 +4384,9 @@
     "n": "27457",
     "func_name": "zd",
     "func_name_init": "Wd",
-    "query": "{...t}",
+    "query": {
+      "...t": "_"
+    },
     "exports": {
       "queryId": "vfVbgvTPTQ-dF_PQ5lD1WQ",
       "operationName": "timelinesFeedback",
@@ -3846,7 +4400,12 @@
     "n": "24618",
     "func_name": "Hd",
     "func_name_init": "Ud",
-    "query": "{\"count\":\"i\",\"cursor\":\"r\",\"context\":\"n\",...(0,g.d)(t)}",
+    "query": {
+      "count": "i",
+      "cursor": "r",
+      "context": "n",
+      "...()(0,g.d)": "_"
+    },
     "exports": {
       "queryId": "Pj_t_uazUs5mUwHByz--CA",
       "operationName": "ConnectTabTimeline",

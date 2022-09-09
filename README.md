@@ -1,13 +1,18 @@
 # Twitter Internal API Document
 
 Reverse engineering of the web version of Twitter.<br>
-This repository is not complete.
+This repository is not complete.<br>
+Some documents are automatically updated to the latest at 23:00 UTC daily.<br>
 
 # Document
 
 ## GraphQL Document
 
 [Twitter Internal GraphQL API Document](./docs/markdown/GraphQL.md)
+
+## Twitter Internal Constants Document
+
+[Twitter Internal Constants Document](./docs/markdown/FreezeObject.md)
 
 ## Reverse Engineering Document
 

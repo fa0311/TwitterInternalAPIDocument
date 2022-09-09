@@ -41,7 +41,7 @@ if os.environ.get("ENV", "Develop") != "GithubAction":
     gen_md_graphql(graphql_output, feature_switches_output).save(
         "docs/markdown/GraphQL.md"
     )
-    # gen_md_freeze_object(freeze_object_output).save("docs/markdown/FreezeObject.md")
+    gen_md_freeze_object(freeze_object_output).save("docs/markdown/FreezeObject.md")
 
 else:
 
@@ -49,15 +49,15 @@ else:
         "docs/json/GraphQL.json": json.dumps(
             graphql_output, ensure_ascii=False, indent=2
         ),
-        # "docs/json/FreezeObject.json": json.dumps(
-        #     freeze_object_output, ensure_ascii=False, indent=2
-        # ),
+        "docs/json/FreezeObject.json": json.dumps(
+            freeze_object_output, ensure_ascii=False, indent=2
+        ),
         "docs/markdown/GraphQL.md": gen_md_graphql(
             graphql_output, feature_switches_output
         ).output,
-        # "docs/markdown/FreezeObject.md": gen_md_freeze_object(
-        #     freeze_object_output
-        # ).output,
+        "docs/markdown/FreezeObject.md": gen_md_freeze_object(
+            freeze_object_output
+        ).output,
     }
 
     g = Github(os.environ["GITHUB_TOKEN"])
