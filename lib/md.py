@@ -62,6 +62,8 @@ def gen_md_graphql(graphql_output: list, feature_switches_output: list) -> md_ge
         elif type(query) is list and len(query) == 0:
             md.inline("None")
         elif type(query) is str:
+            if len(query) > 300:
+                query = query[:300] + "..."
             md.code("# Error\n" + query, title="internal process")
         else:
             md.inline("None")
@@ -103,5 +105,7 @@ def gen_md_freeze_object(freeze_object_output: list) -> md_generator:
                 datafram.append({"constant": key, "value": md.table_escape(value)})
             md.table(datafram)
         else:
+            if len(freeze_object) > 300:
+                freeze_object = freeze_object[:300] + "..."
             md.code("# Error\n" + freeze_object, title="internal process")
     return md

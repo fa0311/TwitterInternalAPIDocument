@@ -1,8 +1,9 @@
+import json
 import re
 
 
 class js:
-    def __init__(self, script):
+    def __init__(self, script: str):
         self.script = script
         self.length = len(self.script)
         self.key = 0
@@ -25,6 +26,8 @@ class js:
                 return output
             else:
                 value += char
+        if value != "":
+            output.children.append(value)
         return output
 
 
@@ -35,6 +38,18 @@ class js_data:
         self.after = None
         self.before = None
 
+    def __repr__(self):
+        return json.dumps(self.to_list())
+
+    def to_list(self):
+        output = []
+        for child in self.children:
+            if type(child) is js_data:
+                output.append(child.to_list())
+            else:
+                output.append(child)
+        return output
+
 
 class js_search_data:
     def __init__(self):
@@ -44,55 +59,111 @@ class js_search_data:
         self.before = None
         self.data = None
 
+    def __repr__(self):
+        return json.dumps(self.children)
 
-def search_js(js: js_data, search: str) -> list[js_search_data]:
+
+def search_js(text: js_data, search: str) -> list[js_search_data]:
     output = []
-    for data in js.children:
+    for data in text.children:
         if type(data) is js_data:
             output.extend(search_js(data, search))
-    for key in range(len(js.children)):
-        data = js.children[key]
+    for key in range(len(text.children)):
+        data = text.children[key]
         if data == search:
             output.append(js_search_data())
-            output[-1].children = js.children
-            output[-1].parent = js
-            if len(js.children) > key + 1:
-                output[-1].after = js.children[key + 1]
-            if len(js.children) > 0:
-                output[-1].before = js.children[key - 1]
+            output[-1].children = text.children
+            output[-1].parent = text
+            if len(text.children) > key + 1:
+                output[-1].after = text.children[key + 1]
+            if len(text.children) > 0:
+                output[-1].before = text.children[key - 1]
             output[-1].data = search
             break
     return output
 
 
-def search_js_reg(js: js_data, search: str) -> list[js_search_data]:
+def search_js_reg(text: js_data, search: str) -> list[js_search_data]:
     output = []
-    for data in js.children:
+    for data in text.children:
         if type(data) is js_data:
             output.extend(search_js_reg(data, search))
-    for key in range(len(js.children)):
-        data = js.children[key]
+    for key in range(len(text.children)):
+        data = text.children[key]
         if type(data) is str:
             find = re.findall(search, data)
             for _ in range(len(find)):
                 output.append(js_search_data())
-                output[-1].children = js.children[key]
-                output[-1].parent = js
-                if len(js.children) > key + 1:
-                    output[-1].after = js.children[key + 1]
-                if len(js.children) > 0:
-                    output[-1].before = js.children[key - 1]
+                output[-1].children = text.children[key]
+                output[-1].parent = text
+                if len(text.children) > key + 1:
+                    output[-1].after = text.children[key + 1]
+                if len(text.children) > 0:
+                    output[-1].before = text.children[key - 1]
                 output[-1].data = find
                 break
     return output
 
 
-def json_parser(js: js_data):
+def json_parser(text: js_data):
     output = ""
-    for data in js.children:
+    reg_other = "[0-9a-zA-Z\s" + re.escape("!?$_.{}&=") + "]"
+    for data in text.children:
         if type(data) is js_data:
-            output += json_parser(data)
+            json = json_parser(data)
         else:
-            re_sub = re.sub("(,|^)([0-9a-zA-Z!$_]+?)(:|$)", r'\1"\2"\3', data)
-            output += re.sub("(:|^)([0-9a-zA-Z!$_]+?)(,|$)", r'\1"\2"\3', re_sub)
+            data = (
+                data.replace("?void 0:", "{void}")
+                .replace('"private"', "{private}")
+                .replace('"none"', "{none}")
+            )
+            placeholder = parentheses_placeholder(data)
+            json_child = ""
+            json = re.sub(
+                f"(,|^)(\.\.\.{reg_other}+)(,|$)", r'\1"\2":"_"\3', placeholder.text
+            )
+            while json_child != json:
+                json_child = json
+                json = re.sub(
+                    f"(,|^)(\.\.\.{reg_other}+)(,|$)", r'\1"\2":"_"\3', json_child
+                )
+            json = re.sub(f"(,|^)({reg_other}+)(:|$)", r'\1"\2"\3', json)
+            json = re.sub(f"(:|^)({reg_other}+)(,|$)", r'\1"\2"\3', json)
+            args = [
+                "(" + parsed.replace('"', '\\"') + ")" for parsed in placeholder.list
+            ]
+            json = json.format(*args, void="?void 0:", private="private", none="none")
+        output += json
+    output = output.replace(':"_"{', ":{")
     return "{" + output + "}"
+
+
+def parentheses_placeholder(text: str):
+    length = len(text)
+    key = 0
+    placeholder = 0
+    depth = 0
+    output = parentheses_placeholder_data()
+    output.list.append("")
+    while length > key:
+        char = text[key]
+        key += 1
+        if char == "(":
+            depth += 1
+            if depth == 1:
+                output.text += f"{{{placeholder}}}"
+                output.list.append("")
+                placeholder += 1
+        elif char == ")":
+            depth -= 1
+        elif depth == 0:
+            output.text += char
+        else:
+            output.list[-1] += char
+    return output
+
+
+class parentheses_placeholder_data:
+    def __init__(self):
+        self.text = ""
+        self.list = []

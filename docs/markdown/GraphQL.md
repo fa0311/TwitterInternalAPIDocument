@@ -27,10 +27,13 @@ Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
 #### variables<br>
-```internal process
-# Error
-{"id":"n","isMetatagsQuery":"a",...(0,r.d)(t),"withReplays":t.isTrue("voice_rooms_replay_consumption")}
-```
+| key             | type   | variable    |
+|:----------------|:-------|:------------|
+| id              | Future | n           |
+| isMetatagsQuery | Future | a           |
+| ...()(0,r.d)    | Future | _           |
+| withReplays     | Future | t.isTrue(t) |
+
 #### features<br>
 | key                                                                     | type    | default   |
 |:------------------------------------------------------------------------|:--------|:----------|
@@ -99,10 +102,15 @@ Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
 #### variables<br>
-```internal process
-# Error
-{"tweetId":"o","includePromotedContent":"!0","withBirdwatchNotes":t.isTrue("responsive_web_birdwatch_consumption_enabled"),"withVoice":t.isTrue("voice_consumption_enabled"),"withCommunity":t.isTrue("c9s_enabled"),...(0,c.d)(t)}
-```
+| key                       | type   | variable                                                 |
+|:--------------------------|:-------|:---------------------------------------------------------|
+| tweetId                   | Future | o                                                        |
+| includePromotedContent    | Future | True                                                     |
+| withBirdwatchNotes        | Future | t.isTrue()                                               |
+| withVoice                 | Future | t.isTrue("responsive_web_birdwatch_consumption_enabled") |
+| withCommunity             | Future | t.isTrue("voice_consumption_enabled")                    |
+| ...("c9s_enabled")(0,c.d) | Future | _                                                        |
+
 #### features<br>
 | key                                                                     | type    | default   |
 |:------------------------------------------------------------------------|:--------|:----------|
@@ -126,10 +134,11 @@ Request Method: `POST`<br>
 Login Required: `Future`<br>
 ### Param<br>
 #### variables<br>
-```internal process
-# Error
-{"tweet_id":"o",...(null==a||null==(i=a.engagement_request)?void 0:i.impression_id)&&{...a}}
-```
+| key      | type   | variable      |
+|:---------|:-------|:--------------|
+| tweet_id | Future | o             |
+| ...()&&  | Future | {'...a': '_'} |
+
 #### features<br>
 `None`<br>
 #### queryId<br>
@@ -140,10 +149,11 @@ Request Method: `POST`<br>
 Login Required: `Future`<br>
 ### Param<br>
 #### variables<br>
-```internal process
-# Error
-{"tweet_id":"o",...(null==a||null==(i=a.engagement_request)?void 0:i.impression_id)&&{...a}}
-```
+| key      | type   | variable      |
+|:---------|:-------|:--------------|
+| tweet_id | Future | o             |
+| ...()&&  | Future | {'...a': '_'} |
+
 #### features<br>
 `None`<br>
 #### queryId<br>
@@ -182,10 +192,12 @@ Request Method: `POST`<br>
 Login Required: `Future`<br>
 ### Param<br>
 #### variables<br>
-```internal process
-# Error
-{"tweet_id":"i","reaction_type":"o",...(null==t||null==(a=t.engagement_request)?void 0:a.impression_id)&&{...t}}
-```
+| key           | type   | variable      |
+|:--------------|:-------|:--------------|
+| tweet_id      | Future | i             |
+| reaction_type | Future | o             |
+| ...()&&       | Future | {'...t': '_'} |
+
 #### features<br>
 `None`<br>
 #### queryId<br>
@@ -196,10 +208,11 @@ Request Method: `POST`<br>
 Login Required: `Future`<br>
 ### Param<br>
 #### variables<br>
-```internal process
-# Error
-{"tweet_id":"r",...(null==a||null==(i=a.engagement_request)?void 0:i.impression_id)&&{...a}}
-```
+| key      | type   | variable      |
+|:---------|:-------|:--------------|
+| tweet_id | Future | r             |
+| ...()&&  | Future | {'...a': '_'} |
+
 #### features<br>
 `None`<br>
 #### queryId<br>
@@ -210,10 +223,12 @@ Request Method: `POST`<br>
 Login Required: `Future`<br>
 ### Param<br>
 #### variables<br>
-```internal process
-# Error
-{"tweet_id":"s",...(null==t||null==(c=t.engagement_request)?void 0:c.impression_id)&&{...t},"dark_request":"!1"}
-```
+| key          | type   | variable      |
+|:-------------|:-------|:--------------|
+| tweet_id     | Future | s             |
+| ...()&&      | Future | {'...t': '_'} |
+| dark_request | Future | False         |
+
 #### features<br>
 `None`<br>
 #### queryId<br>
@@ -224,10 +239,13 @@ Request Method: `POST`<br>
 Login Required: `Future`<br>
 ### Param<br>
 #### variables<br>
-```internal process
-# Error
-{"tweet_id":"s","comparison_id":"t",...(null==n||null==(u=n.engagement_request)?void 0:u.impression_id)&&{...n},"dark_request":"!0"}
-```
+| key           | type   | variable      |
+|:--------------|:-------|:--------------|
+| tweet_id      | Future | s             |
+| comparison_id | Future | t             |
+| ...()&&       | Future | {'...n': '_'} |
+| dark_request  | Future | True          |
+
 #### features<br>
 `None`<br>
 #### queryId<br>
@@ -325,10 +343,13 @@ Request Method: `POST`<br>
 Login Required: `Future`<br>
 ### Param<br>
 #### variables<br>
-```internal process
-# Error
-{...r,"dark_request":!!n.preview,...(null==l||null==(m=l.engagement_request)?void 0:m.impression_id)&&{...l},...(0,c.d)(t)}
-```
+| key          | type   | variable      |
+|:-------------|:-------|:--------------|
+| ...r         | Future | _             |
+| dark_request | Future | !!n.preview   |
+| ...()&&      | Future | {'...l': '_'} |
+| ...()(0,c.d) | Future | _             |
+
 #### features<br>
 | key                                                                     | type    | default   |
 |:------------------------------------------------------------------------|:--------|:----------|
@@ -352,10 +373,14 @@ Request Method: `POST`<br>
 Login Required: `Future`<br>
 ### Param<br>
 #### variables<br>
-```internal process
-# Error
-{...a,"comparison_id":"s","dark_request":"!0",...(null==l||null==(h=l.engagement_request)?void 0:h.impression_id)&&{...l},...(0,c.d)(t)}
-```
+| key           | type   | variable      |
+|:--------------|:-------|:--------------|
+| ...a          | Future | _             |
+| comparison_id | Future | s             |
+| dark_request  | Future | True          |
+| ...()&&       | Future | {'...l': '_'} |
+| ...()(0,c.d)  | Future | _             |
+
 #### features<br>
 | key                                                                     | type    | default   |
 |:------------------------------------------------------------------------|:--------|:----------|
@@ -453,10 +478,10 @@ Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
 #### variables<br>
-```internal process
-# Error
-{"tweetText":o.status}
-```
+| key       | type   | variable   |
+|:----------|:-------|:-----------|
+| tweetText | Future | o.status   |
+
 #### features<br>
 | key                                                | type    | default   |
 |:---------------------------------------------------|:--------|:----------|
@@ -471,10 +496,11 @@ Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
 #### variables<br>
-```internal process
-# Error
-{"tweetId":"n","withSuperFollowsUserFields":t.isTrue("super_follow_user_api_enabled")}
-```
+| key                        | type   | variable   |
+|:---------------------------|:-------|:-----------|
+| tweetId                    | Future | n          |
+| withSuperFollowsUserFields | Future | t.isTrue() |
+
 #### features<br>
 | key                                                | type    | default   |
 |:---------------------------------------------------|:--------|:----------|
@@ -488,10 +514,14 @@ Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
 #### variables<br>
-```internal process
-# Error
-{"tweetId":"r","count":"n","cursor":"i","includePromotedContent":"!0",...(0,g.d)(t)}
-```
+| key                    | type   | variable   |
+|:-----------------------|:-------|:-----------|
+| tweetId                | Future | r          |
+| count                  | Future | n          |
+| cursor                 | Future | i          |
+| includePromotedContent | Future | True       |
+| ...()(0,g.d)           | Future | _          |
+
 #### features<br>
 | key                                                                     | type    | default   |
 |:------------------------------------------------------------------------|:--------|:----------|
@@ -516,10 +546,14 @@ Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
 #### variables<br>
-```internal process
-# Error
-{"tweetId":"r","count":"n","cursor":"i","includePromotedContent":"!0",...(0,g.d)(t)}
-```
+| key                    | type   | variable   |
+|:-----------------------|:-------|:-----------|
+| tweetId                | Future | r          |
+| count                  | Future | n          |
+| cursor                 | Future | i          |
+| includePromotedContent | Future | True       |
+| ...()(0,g.d)           | Future | _          |
+
 #### features<br>
 | key                                                                     | type    | default   |
 |:------------------------------------------------------------------------|:--------|:----------|
@@ -544,10 +578,12 @@ Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
 #### variables<br>
-```internal process
-# Error
-{"tweetId":"n",...(0,g.d)(t),"withQuickPromoteEligibilityTweetFields":"!0"}
-```
+| key                                    | type   | variable   |
+|:---------------------------------------|:-------|:-----------|
+| tweetId                                | Future | n          |
+| ...()(0,g.d)                           | Future | _          |
+| withQuickPromoteEligibilityTweetFields | Future | True       |
+
 #### features<br>
 | key                                                                     | type    | default   |
 |:------------------------------------------------------------------------|:--------|:----------|
@@ -633,10 +669,11 @@ Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
 #### variables<br>
-```internal process
-# Error
-{"tweet_id":"i",...(0,g.S)(t)}
-```
+| key          | type   | variable   |
+|:-------------|:-------|:-----------|
+| tweet_id     | Future | i          |
+| ...()(0,g.S) | Future | _          |
+
 #### features<br>
 | key                                                | type    | default   |
 |:---------------------------------------------------|:--------|:----------|
@@ -661,10 +698,10 @@ Request Method: `POST`<br>
 Login Required: `Future`<br>
 ### Param<br>
 #### variables<br>
-```internal process
-# Error
-{"note_id":t.note_id}
-```
+| key     | type   | variable   |
+|:--------|:-------|:-----------|
+| note_id | Future | t.note_id  |
+
 #### features<br>
 `None`<br>
 #### queryId<br>
@@ -675,10 +712,12 @@ Request Method: `POST`<br>
 Login Required: `Future`<br>
 ### Param<br>
 #### variables<br>
-```internal process
-# Error
-{"tweet_id":n.tweet_id,"data_v1":n.data,...(0,g.S)(t)}
-```
+| key          | type   | variable   |
+|:-------------|:-------|:-----------|
+| tweet_id     | Future | n.tweet_id |
+| data_v1      | Future | n.data     |
+| ...()(0,g.S) | Future | _          |
+
 #### features<br>
 | key                                                | type    | default   |
 |:---------------------------------------------------|:--------|:----------|
@@ -692,10 +731,10 @@ Request Method: `POST`<br>
 Login Required: `Future`<br>
 ### Param<br>
 #### variables<br>
-```internal process
-# Error
-{"note_id":t.note_id}
-```
+| key     | type   | variable   |
+|:--------|:-------|:-----------|
+| note_id | Future | t.note_id  |
+
 #### features<br>
 `None`<br>
 #### queryId<br>
@@ -706,10 +745,10 @@ Request Method: `POST`<br>
 Login Required: `Future`<br>
 ### Param<br>
 #### variables<br>
-```internal process
-# Error
-{"note_id":t.note_id}
-```
+| key     | type   | variable   |
+|:--------|:-------|:-----------|
+| note_id | Future | t.note_id  |
+
 #### features<br>
 `None`<br>
 #### queryId<br>
@@ -720,10 +759,11 @@ Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
 #### variables<br>
-```internal process
-# Error
-{"note_id":n.note_id,...(0,g.S)(t)}
-```
+| key          | type   | variable   |
+|:-------------|:-------|:-----------|
+| note_id      | Future | n.note_id  |
+| ...()(0,g.S) | Future | _          |
+
 #### features<br>
 | key                                                | type    | default   |
 |:---------------------------------------------------|:--------|:----------|
@@ -737,10 +777,10 @@ Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
 #### variables<br>
-```internal process
-# Error
-{"alias":t.alias}
-```
+| key   | type   | variable   |
+|:------|:-------|:-----------|
+| alias | Future | t.alias    |
+
 #### features<br>
 `None`<br>
 #### queryId<br>
@@ -751,10 +791,12 @@ Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
 #### variables<br>
-```internal process
-# Error
-{"count":"10",...n,...(0,g.S)(t)}
-```
+| key          | type   | variable   |
+|:-------------|:-------|:-----------|
+| count        | Future | 10         |
+| ...n         | Future | _          |
+| ...()(0,g.S) | Future | _          |
+
 #### features<br>
 | key                                                                     | type    | default   |
 |:------------------------------------------------------------------------|:--------|:----------|
@@ -778,10 +820,12 @@ Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
 #### variables<br>
-```internal process
-# Error
-{"count":"10",...n,...(0,g.S)(t)}
-```
+| key          | type   | variable   |
+|:-------------|:-------|:-----------|
+| count        | Future | 10         |
+| ...n         | Future | _          |
+| ...()(0,g.S) | Future | _          |
+
 #### features<br>
 | key                                                                     | type    | default   |
 |:------------------------------------------------------------------------|:--------|:----------|
@@ -827,10 +871,10 @@ Request Method: `POST`<br>
 Login Required: `Future`<br>
 ### Param<br>
 #### variables<br>
-```internal process
-# Error
-{"alias":t.alias}
-```
+| key   | type   | variable   |
+|:------|:-------|:-----------|
+| alias | Future | t.alias    |
+
 #### features<br>
 `None`<br>
 #### queryId<br>
@@ -852,10 +896,10 @@ Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
 #### variables<br>
-```internal process
-# Error
-{...(0,g.d)(t)}
-```
+| key          | type   | variable   |
+|:-------------|:-------|:-----------|
+| ...()(0,g.d) | Future | _          |
+
 #### features<br>
 | key                                                                     | type    | default   |
 |:------------------------------------------------------------------------|:--------|:----------|
@@ -880,10 +924,10 @@ Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
 #### variables<br>
-```internal process
-# Error
-{"rest_id":t.rest_id}
-```
+| key     | type   | variable   |
+|:--------|:-------|:-----------|
+| rest_id | Future | t.rest_id  |
+
 #### features<br>
 `None`<br>
 #### queryId<br>
@@ -894,10 +938,14 @@ Request Method: `POST`<br>
 Login Required: `Future`<br>
 ### Param<br>
 #### variables<br>
-```internal process
-# Error
-{"revueAccountId":t.revueAccountId,"doubleOptIn":t.doubleOptIn,"via":t.via,"client":t.client,"element":t.element}
-```
+| key            | type   | variable         |
+|:---------------|:-------|:-----------------|
+| revueAccountId | Future | t.revueAccountId |
+| doubleOptIn    | Future | t.doubleOptIn    |
+| via            | Future | t.via            |
+| client         | Future | t.client         |
+| element        | Future | t.element        |
+
 #### features<br>
 `None`<br>
 #### queryId<br>
@@ -952,10 +1000,10 @@ Request Method: `POST`<br>
 Login Required: `Future`<br>
 ### Param<br>
 #### variables<br>
-```internal process
-# Error
-{...t}
-```
+| key   | type   | variable   |
+|:------|:-------|:-----------|
+| ...t  | Future | _          |
+
 #### features<br>
 `None`<br>
 #### queryId<br>
@@ -966,10 +1014,10 @@ Request Method: `POST`<br>
 Login Required: `Future`<br>
 ### Param<br>
 #### variables<br>
-```internal process
-# Error
-{...t}
-```
+| key   | type   | variable   |
+|:------|:-------|:-----------|
+| ...t  | Future | _          |
+
 #### features<br>
 `None`<br>
 #### queryId<br>
@@ -991,10 +1039,13 @@ Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
 #### variables<br>
-```internal process
-# Error
-{"count":"n","cursor":"i","includePromotedContent":"!0",...(0,g.d)(t)}
-```
+| key                    | type   | variable   |
+|:-----------------------|:-------|:-----------|
+| count                  | Future | n          |
+| cursor                 | Future | i          |
+| includePromotedContent | Future | True       |
+| ...()(0,g.d)           | Future | _          |
+
 #### features<br>
 | key                                                                     | type    | default   |
 |:------------------------------------------------------------------------|:--------|:----------|
@@ -1019,10 +1070,13 @@ Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
 #### variables<br>
-```internal process
-# Error
-{"bookmark_collection_id":"n","cursor":"i","includePromotedContent":"!0",...(0,g.d)(t)}
-```
+| key                    | type   | variable   |
+|:-----------------------|:-------|:-----------|
+| bookmark_collection_id | Future | n          |
+| cursor                 | Future | i          |
+| includePromotedContent | Future | True       |
+| ...()(0,g.d)           | Future | _          |
+
 #### features<br>
 | key                                                                     | type    | default   |
 |:------------------------------------------------------------------------|:--------|:----------|
@@ -1061,10 +1115,14 @@ Request Method: `POST`<br>
 Login Required: `Future`<br>
 ### Param<br>
 #### variables<br>
-```internal process
-# Error
-{"name":"a","description":"i","joinPolicy":"o","invitesPolicy":"r",...(0,g.S)(t)}
-```
+| key           | type   | variable   |
+|:--------------|:-------|:-----------|
+| name          | Future | a          |
+| description   | Future | i          |
+| joinPolicy    | Future | o          |
+| invitesPolicy | Future | r          |
+| ...()(0,g.S)  | Future | _          |
+
 #### features<br>
 | key                                                | type    | default   |
 |:---------------------------------------------------|:--------|:----------|
@@ -1078,10 +1136,12 @@ Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
 #### variables<br>
-```internal process
-# Error
-{...n,"withCommunity":t.isTrue("c9s_enabled"),...(0,g.d)(t)}
-```
+| key                       | type   | variable   |
+|:--------------------------|:-------|:-----------|
+| ...n                      | Future | _          |
+| withCommunity             | Future | t.isTrue() |
+| ...("c9s_enabled")(0,g.d) | Future | _          |
+
 #### features<br>
 | key                                                                     | type    | default   |
 |:------------------------------------------------------------------------|:--------|:----------|
@@ -1106,10 +1166,12 @@ Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
 #### variables<br>
-```internal process
-# Error
-{...n,"withCommunity":t.isTrue("c9s_enabled"),...(0,g.d)(t)}
-```
+| key                       | type   | variable   |
+|:--------------------------|:-------|:-----------|
+| ...n                      | Future | _          |
+| withCommunity             | Future | t.isTrue() |
+| ...("c9s_enabled")(0,g.d) | Future | _          |
+
 #### features<br>
 | key                                                                     | type    | default   |
 |:------------------------------------------------------------------------|:--------|:----------|
@@ -1134,10 +1196,12 @@ Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
 #### variables<br>
-```internal process
-# Error
-{...n,"withCommunity":t.isTrue("c9s_enabled"),...(0,g.d)(t)}
-```
+| key                       | type   | variable   |
+|:--------------------------|:-------|:-----------|
+| ...n                      | Future | _          |
+| withCommunity             | Future | t.isTrue() |
+| ...("c9s_enabled")(0,g.d) | Future | _          |
+
 #### features<br>
 | key                                                                     | type    | default   |
 |:------------------------------------------------------------------------|:--------|:----------|
@@ -1162,10 +1226,12 @@ Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
 #### variables<br>
-```internal process
-# Error
-{...n,"withCommunity":t.isTrue("c9s_enabled"),...(0,g.d)(t)}
-```
+| key                       | type   | variable   |
+|:--------------------------|:-------|:-----------|
+| ...n                      | Future | _          |
+| withCommunity             | Future | t.isTrue() |
+| ...("c9s_enabled")(0,g.d) | Future | _          |
+
 #### features<br>
 | key                                                                     | type    | default   |
 |:------------------------------------------------------------------------|:--------|:----------|
@@ -1190,10 +1256,11 @@ Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
 #### variables<br>
-```internal process
-# Error
-{...(0,g.S)(t),...n}
-```
+| key          | type   | variable   |
+|:-------------|:-------|:-----------|
+| ...()(0,g.S) | Future | _          |
+| ...n         | Future | _          |
+
 #### features<br>
 | key                                                | type    | default   |
 |:---------------------------------------------------|:--------|:----------|
@@ -1207,10 +1274,12 @@ Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
 #### variables<br>
-```internal process
-# Error
-{...n,"withCommunity":t.isTrue("c9s_enabled"),...(0,g.S)(t)}
-```
+| key                       | type   | variable   |
+|:--------------------------|:-------|:-----------|
+| ...n                      | Future | _          |
+| withCommunity             | Future | t.isTrue() |
+| ...("c9s_enabled")(0,g.S) | Future | _          |
+
 #### features<br>
 | key                                                                     | type    | default   |
 |:------------------------------------------------------------------------|:--------|:----------|
@@ -1234,10 +1303,12 @@ Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
 #### variables<br>
-```internal process
-# Error
-{...n,"withCommunity":"!0",...(0,g.d)(t)}
-```
+| key           | type   | variable   |
+|:--------------|:-------|:-----------|
+| ...n          | Future | _          |
+| withCommunity | Future | True       |
+| ...()(0,g.d)  | Future | _          |
+
 #### features<br>
 | key                                                                     | type    | default   |
 |:------------------------------------------------------------------------|:--------|:----------|
@@ -1262,10 +1333,12 @@ Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
 #### variables<br>
-```internal process
-# Error
-{...n,"withCommunity":t.isTrue("c9s_enabled"),...(0,g.d)(t)}
-```
+| key                       | type   | variable   |
+|:--------------------------|:-------|:-----------|
+| ...n                      | Future | _          |
+| withCommunity             | Future | t.isTrue() |
+| ...("c9s_enabled")(0,g.d) | Future | _          |
+
 #### features<br>
 | key                                                                     | type    | default   |
 |:------------------------------------------------------------------------|:--------|:----------|
@@ -1290,10 +1363,12 @@ Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
 #### variables<br>
-```internal process
-# Error
-{"withCommunity":t.isTrue("c9s_enabled"),...(0,g.d)(t),...n}
-```
+| key                       | type   | variable   |
+|:--------------------------|:-------|:-----------|
+| withCommunity             | Future | t.isTrue() |
+| ...("c9s_enabled")(0,g.d) | Future | _          |
+| ...n                      | Future | _          |
+
 #### features<br>
 | key                                                                     | type    | default   |
 |:------------------------------------------------------------------------|:--------|:----------|
@@ -1318,10 +1393,11 @@ Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
 #### variables<br>
-```internal process
-# Error
-{"withCommunity":t.isTrue("c9s_enabled"),...(0,g.d)(t)}
-```
+| key                       | type   | variable   |
+|:--------------------------|:-------|:-----------|
+| withCommunity             | Future | t.isTrue() |
+| ...("c9s_enabled")(0,g.d) | Future | _          |
+
 #### features<br>
 | key                                                                     | type    | default   |
 |:------------------------------------------------------------------------|:--------|:----------|
@@ -1346,10 +1422,10 @@ Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
 #### variables<br>
-```internal process
-# Error
-{"communityId":t.communityId}
-```
+| key         | type   | variable      |
+|:------------|:-------|:--------------|
+| communityId | Future | t.communityId |
+
 #### features<br>
 `None`<br>
 #### queryId<br>
@@ -1360,10 +1436,11 @@ Request Method: `POST`<br>
 Login Required: `Future`<br>
 ### Param<br>
 #### variables<br>
-```internal process
-# Error
-{"tweetId":n.tweetId,...(0,g.S)(t)}
-```
+| key          | type   | variable   |
+|:-------------|:-------|:-----------|
+| tweetId      | Future | n.tweetId  |
+| ...()(0,g.S) | Future | _          |
+
 #### features<br>
 | key                                                | type    | default   |
 |:---------------------------------------------------|:--------|:----------|
@@ -1377,10 +1454,11 @@ Request Method: `POST`<br>
 Login Required: `Future`<br>
 ### Param<br>
 #### variables<br>
-```internal process
-# Error
-{"communityId":n.communityId,...(0,g.S)(t)}
-```
+| key          | type   | variable      |
+|:-------------|:-------|:--------------|
+| communityId  | Future | n.communityId |
+| ...()(0,g.S) | Future | _             |
+
 #### features<br>
 | key                                                | type    | default   |
 |:---------------------------------------------------|:--------|:----------|
@@ -1394,10 +1472,11 @@ Request Method: `POST`<br>
 Login Required: `Future`<br>
 ### Param<br>
 #### variables<br>
-```internal process
-# Error
-{"communityId":n.communityId,...(0,g.S)(t)}
-```
+| key          | type   | variable      |
+|:-------------|:-------|:--------------|
+| communityId  | Future | n.communityId |
+| ...()(0,g.S) | Future | _             |
+
 #### features<br>
 | key                                                | type    | default   |
 |:---------------------------------------------------|:--------|:----------|
@@ -1411,10 +1490,11 @@ Request Method: `POST`<br>
 Login Required: `Future`<br>
 ### Param<br>
 #### variables<br>
-```internal process
-# Error
-{"communityId":n.communityId,...(0,g.S)(t)}
-```
+| key          | type   | variable      |
+|:-------------|:-------|:--------------|
+| communityId  | Future | n.communityId |
+| ...()(0,g.S) | Future | _             |
+
 #### features<br>
 | key                                                | type    | default   |
 |:---------------------------------------------------|:--------|:----------|
@@ -1428,10 +1508,11 @@ Request Method: `POST`<br>
 Login Required: `Future`<br>
 ### Param<br>
 #### variables<br>
-```internal process
-# Error
-{"communityId":t.communityId,"userId":t.userId}
-```
+| key         | type   | variable      |
+|:------------|:-------|:--------------|
+| communityId | Future | t.communityId |
+| userId      | Future | t.userId      |
+
 #### features<br>
 `None`<br>
 #### queryId<br>
@@ -1442,10 +1523,11 @@ Request Method: `POST`<br>
 Login Required: `Future`<br>
 ### Param<br>
 #### variables<br>
-```internal process
-# Error
-{...n,...(0,g.S)(t)}
-```
+| key          | type   | variable   |
+|:-------------|:-------|:-----------|
+| ...n         | Future | _          |
+| ...()(0,g.S) | Future | _          |
+
 #### features<br>
 | key                                                | type    | default   |
 |:---------------------------------------------------|:--------|:----------|
@@ -1459,10 +1541,12 @@ Request Method: `POST`<br>
 Login Required: `Future`<br>
 ### Param<br>
 #### variables<br>
-```internal process
-# Error
-{"communityId":n.communityId,"name":n.name,...(0,g.S)(t)}
-```
+| key          | type   | variable      |
+|:-------------|:-------|:--------------|
+| communityId  | Future | n.communityId |
+| name         | Future | n.name        |
+| ...()(0,g.S) | Future | _             |
+
 #### features<br>
 | key                                                | type    | default   |
 |:---------------------------------------------------|:--------|:----------|
@@ -1476,10 +1560,12 @@ Request Method: `POST`<br>
 Login Required: `Future`<br>
 ### Param<br>
 #### variables<br>
-```internal process
-# Error
-{"communityId":n.communityId,"description":n.purpose,...(0,g.S)(t)}
-```
+| key          | type   | variable      |
+|:-------------|:-------|:--------------|
+| communityId  | Future | n.communityId |
+| description  | Future | n.purpose     |
+| ...()(0,g.S) | Future | _             |
+
 #### features<br>
 | key                                                | type    | default   |
 |:---------------------------------------------------|:--------|:----------|
@@ -1493,10 +1579,12 @@ Request Method: `POST`<br>
 Login Required: `Future`<br>
 ### Param<br>
 #### variables<br>
-```internal process
-# Error
-{"communityId":n.communityId,"theme":n.theme,...(0,g.S)(t)}
-```
+| key          | type   | variable      |
+|:-------------|:-------|:--------------|
+| communityId  | Future | n.communityId |
+| theme        | Future | n.theme       |
+| ...()(0,g.S) | Future | _             |
+
 #### features<br>
 | key                                                | type    | default   |
 |:---------------------------------------------------|:--------|:----------|
@@ -1510,10 +1598,14 @@ Request Method: `POST`<br>
 Login Required: `Future`<br>
 ### Param<br>
 #### variables<br>
-```internal process
-# Error
-{"communityId":n.communityId,"ruleId":n.ruleId,"name":n.name,"description":n.description,...(0,g.S)(t)}
-```
+| key          | type   | variable      |
+|:-------------|:-------|:--------------|
+| communityId  | Future | n.communityId |
+| ruleId       | Future | n.ruleId      |
+| name         | Future | n.name        |
+| description  | Future | n.description |
+| ...()(0,g.S) | Future | _             |
+
 #### features<br>
 | key                                                | type    | default   |
 |:---------------------------------------------------|:--------|:----------|
@@ -1527,10 +1619,13 @@ Request Method: `POST`<br>
 Login Required: `Future`<br>
 ### Param<br>
 #### variables<br>
-```internal process
-# Error
-{"communityId":n.communityId,"name":n.name,"description":n.description,...(0,g.S)(t)}
-```
+| key          | type   | variable      |
+|:-------------|:-------|:--------------|
+| communityId  | Future | n.communityId |
+| name         | Future | n.name        |
+| description  | Future | n.description |
+| ...()(0,g.S) | Future | _             |
+
 #### features<br>
 | key                                                | type    | default   |
 |:---------------------------------------------------|:--------|:----------|
@@ -1544,10 +1639,12 @@ Request Method: `POST`<br>
 Login Required: `Future`<br>
 ### Param<br>
 #### variables<br>
-```internal process
-# Error
-{"communityId":n.communityId,"ruleId":n.ruleId,...(0,g.S)(t)}
-```
+| key          | type   | variable      |
+|:-------------|:-------|:--------------|
+| communityId  | Future | n.communityId |
+| ruleId       | Future | n.ruleId      |
+| ...()(0,g.S) | Future | _             |
+
 #### features<br>
 | key                                                | type    | default   |
 |:---------------------------------------------------|:--------|:----------|
@@ -1561,10 +1658,12 @@ Request Method: `POST`<br>
 Login Required: `Future`<br>
 ### Param<br>
 #### variables<br>
-```internal process
-# Error
-{"communityId":n.communityId,"ruleIds":n.ruleIds,...(0,g.S)(t)}
-```
+| key          | type   | variable      |
+|:-------------|:-------|:--------------|
+| communityId  | Future | n.communityId |
+| ruleIds      | Future | n.ruleIds     |
+| ...()(0,g.S) | Future | _             |
+
 #### features<br>
 | key                                                | type    | default   |
 |:---------------------------------------------------|:--------|:----------|
@@ -1578,10 +1677,12 @@ Request Method: `POST`<br>
 Login Required: `Future`<br>
 ### Param<br>
 #### variables<br>
-```internal process
-# Error
-{"communityId":n.communityId,"mediaId":n.mediaId,...(0,g.S)(t)}
-```
+| key          | type   | variable      |
+|:-------------|:-------|:--------------|
+| communityId  | Future | n.communityId |
+| mediaId      | Future | n.mediaId     |
+| ...()(0,g.S) | Future | _             |
+
 #### features<br>
 | key                                                | type    | default   |
 |:---------------------------------------------------|:--------|:----------|
@@ -1595,10 +1696,11 @@ Request Method: `POST`<br>
 Login Required: `Future`<br>
 ### Param<br>
 #### variables<br>
-```internal process
-# Error
-{"communityId":n.communityId,...(0,g.S)(t)}
-```
+| key          | type   | variable      |
+|:-------------|:-------|:--------------|
+| communityId  | Future | n.communityId |
+| ...()(0,g.S) | Future | _             |
+
 #### features<br>
 | key                                                | type    | default   |
 |:---------------------------------------------------|:--------|:----------|
@@ -1676,10 +1778,23 @@ Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
 #### variables<br>
-```internal process
-# Error
-{"focalTweetId":"r","cursor":"i","referrer":"a","controller_data":"n","rux_context":"s","with_rux_injections":"l","includePromotedContent":"!0","withCommunity":t.isTrue("c9s_enabled"),"withQuickPromoteEligibilityTweetFields":"!0","withBirdwatchNotes":t.isTrue("responsive_web_birdwatch_consumption_enabled"),...(0,g.d)(t),"withVoice":t.isTrue("voice_consumption_enabled"),"withV2Timeline":t.isTrue("graphql_timeline_v2_query_threaded_conversation_with_injections"),"isReaderMode":"o"}
-```
+| key                                                        | type   | variable                              |
+|:-----------------------------------------------------------|:-------|:--------------------------------------|
+| focalTweetId                                               | Future | r                                     |
+| cursor                                                     | Future | i                                     |
+| referrer                                                   | Future | a                                     |
+| controller_data                                            | Future | n                                     |
+| rux_context                                                | Future | s                                     |
+| with_rux_injections                                        | Future | l                                     |
+| includePromotedContent                                     | Future | True                                  |
+| withCommunity                                              | Future | t.isTrue()                            |
+| withQuickPromoteEligibilityTweetFields                     | Future | True                                  |
+| withBirdwatchNotes                                         | Future | t.isTrue("c9s_enabled")               |
+| ...("responsive_web_birdwatch_consumption_enabled")(0,g.d) | Future | _                                     |
+| withVoice                                                  | Future | t.isTrue(t)                           |
+| withV2Timeline                                             | Future | t.isTrue("voice_consumption_enabled") |
+| isReaderMode                                               | Future | o                                     |
+
 #### features<br>
 | key                                                                     | type    | default   |
 |:------------------------------------------------------------------------|:--------|:----------|
@@ -1704,10 +1819,10 @@ Request Method: `POST`<br>
 Login Required: `Future`<br>
 ### Param<br>
 #### variables<br>
-```internal process
-# Error
-{...t}
-```
+| key   | type   | variable   |
+|:------|:-------|:-----------|
+| ...t  | Future | _          |
+
 #### features<br>
 `None`<br>
 #### queryId<br>
@@ -1718,10 +1833,17 @@ Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
 #### variables<br>
-```internal process
-# Error
-{"count":null==n?void 0:n.count,"query":n.query,"withAttachments":t.isTrue("dm_inbox_search_message_attachment_previews_enabled")&&t.isTrue("dm_inbox_search_message_results_enabled")&&t.isTrue("direct_messages_incremental_holdback_2022h1"),"withConversationQueryHighlights":t.isTrue("dm_inbox_search_query_highlighting_conversation_results_enabled")&&t.isTrue("direct_messages_incremental_holdback_2022h1"),"withMessageQueryHighlights":t.isTrue("dm_inbox_search_query_highlighting_message_results_enabled")&&t.isTrue("dm_inbox_search_message_results_enabled")&&t.isTrue("direct_messages_incremental_holdback_2022h1"),"withMessages":t.isTrue("dm_inbox_search_message_results_enabled")&&t.isTrue("direct_messages_incremental_holdback_2022h1"),"withSafetyModeUserFields":t.isTrue("rito_safety_mode_blocked_profile_enabled"),"withSuperFollowsUserFields":t.isTrue("super_follow_user_api_enabled")}
-```
+| key                             | type   | variable                                                                                                                                                                             |
+|:--------------------------------|:-------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| count                           | Future | null==n?void 0:n.count                                                                                                                                                               |
+| query                           | Future | n.query                                                                                                                                                                              |
+| withAttachments                 | Future | t.isTrue()&&t.isTrue("dm_inbox_search_message_attachment_previews_enabled")&&t.isTrue("dm_inbox_search_message_results_enabled")                                                     |
+| withConversationQueryHighlights | Future | t.isTrue("direct_messages_incremental_holdback_2022h1")&&t.isTrue("dm_inbox_search_query_highlighting_conversation_results_enabled")                                                 |
+| withMessageQueryHighlights      | Future | t.isTrue("direct_messages_incremental_holdback_2022h1")&&t.isTrue("dm_inbox_search_query_highlighting_message_results_enabled")&&t.isTrue("dm_inbox_search_message_results_enabled") |
+| withMessages                    | Future | t.isTrue("direct_messages_incremental_holdback_2022h1")&&t.isTrue("dm_inbox_search_message_results_enabled")                                                                         |
+| withSafetyModeUserFields        | Future | t.isTrue("direct_messages_incremental_holdback_2022h1")                                                                                                                              |
+| withSuperFollowsUserFields      | Future | t.isTrue("rito_safety_mode_blocked_profile_enabled")                                                                                                                                 |
+
 #### features<br>
 | key                                                | type    | default   |
 |:---------------------------------------------------|:--------|:----------|
@@ -1735,10 +1857,11 @@ Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
 #### variables<br>
-```internal process
-# Error
-{...n,"withConversationQueryHighlights":t.isTrue("dm_inbox_search_query_highlighting_conversation_results_enabled")&&t.isTrue("direct_messages_incremental_holdback_2022h1")}
-```
+| key                             | type   | variable                                                                                |
+|:--------------------------------|:-------|:----------------------------------------------------------------------------------------|
+| ...n                            | Future | _                                                                                       |
+| withConversationQueryHighlights | Future | t.isTrue()&&t.isTrue("dm_inbox_search_query_highlighting_conversation_results_enabled") |
+
 #### features<br>
 `None`<br>
 #### queryId<br>
@@ -1749,10 +1872,11 @@ Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
 #### variables<br>
-```internal process
-# Error
-{...n,"withConversationQueryHighlights":t.isTrue("dm_inbox_search_query_highlighting_conversation_results_enabled")&&t.isTrue("direct_messages_incremental_holdback_2022h1")}
-```
+| key                             | type   | variable                                                                                |
+|:--------------------------------|:-------|:----------------------------------------------------------------------------------------|
+| ...n                            | Future | _                                                                                       |
+| withConversationQueryHighlights | Future | t.isTrue()&&t.isTrue("dm_inbox_search_query_highlighting_conversation_results_enabled") |
+
 #### features<br>
 `None`<br>
 #### queryId<br>
@@ -1763,10 +1887,13 @@ Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
 #### variables<br>
-```internal process
-# Error
-{"count":"n","cursor":"i","includePromotedContent":"!1",...(0,g.d)(t)}
-```
+| key                    | type   | variable   |
+|:-----------------------|:-------|:-----------|
+| count                  | Future | n          |
+| cursor                 | Future | i          |
+| includePromotedContent | Future | False      |
+| ...()(0,g.d)           | Future | _          |
+
 #### features<br>
 | key                                                                     | type    | default   |
 |:------------------------------------------------------------------------|:--------|:----------|
@@ -1805,10 +1932,11 @@ Request Method: `POST`<br>
 Login Required: `Future`<br>
 ### Param<br>
 #### variables<br>
-```internal process
-# Error
-{"draft_tweet_id":"n","post_tweet_request":Ur(i)}
-```
+| key                | type   | variable   |
+|:-------------------|:-------|:-----------|
+| draft_tweet_id     | Future | n          |
+| post_tweet_request | Future | Ur()       |
+
 #### features<br>
 `None`<br>
 #### queryId<br>
@@ -1819,10 +1947,11 @@ Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
 #### variables<br>
-```internal process
-# Error
-{...n,...t}
-```
+| key   | type   | variable   |
+|:------|:-------|:-----------|
+| ...n  | Future | _          |
+| ...t  | Future | _          |
+
 #### features<br>
 `None`<br>
 #### queryId<br>
@@ -1833,10 +1962,10 @@ Request Method: `POST`<br>
 Login Required: `Future`<br>
 ### Param<br>
 #### variables<br>
-```internal process
-# Error
-{"post_tweet_request":Ur(t)}
-```
+| key                | type   | variable   |
+|:-------------------|:-------|:-----------|
+| post_tweet_request | Future | Ur()       |
+
 #### features<br>
 `None`<br>
 #### queryId<br>
@@ -1873,10 +2002,12 @@ Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
 #### variables<br>
-```internal process
-# Error
-{"count":null==n?void 0:n.count,"cursor":null==n?void 0:n.cursor,...(0,g.d)(t)}
-```
+| key          | type   | variable                |
+|:-------------|:-------|:------------------------|
+| count        | Future | null==n?void 0:n.count  |
+| cursor       | Future | null==n?void 0:n.cursor |
+| ...()(0,g.d) | Future | _                       |
+
 #### features<br>
 | key                                                                     | type    | default   |
 |:------------------------------------------------------------------------|:--------|:----------|
@@ -1901,10 +2032,12 @@ Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
 #### variables<br>
-```internal process
-# Error
-{"pinned_tweet_id":null==n?void 0:n.pinned_tweet_id,"page_name":null==n?void 0:n.page_name,...(0,g.d)(t)}
-```
+| key             | type   | variable                         |
+|:----------------|:-------|:---------------------------------|
+| pinned_tweet_id | Future | null==n?void 0:n.pinned_tweet_id |
+| page_name       | Future | null==n?void 0:n.page_name       |
+| ...()(0,g.d)    | Future | _                                |
+
 #### features<br>
 | key                                                                     | type    | default   |
 |:------------------------------------------------------------------------|:--------|:----------|
@@ -1929,10 +2062,14 @@ Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
 #### variables<br>
-```internal process
-# Error
-{"userId":"r","count":"n","cursor":"i","includePromotedContent":"!1",...(0,g.d)(t)}
-```
+| key                    | type   | variable   |
+|:-----------------------|:-------|:-----------|
+| userId                 | Future | r          |
+| count                  | Future | n          |
+| cursor                 | Future | i          |
+| includePromotedContent | Future | False      |
+| ...()(0,g.d)           | Future | _          |
+
 #### features<br>
 | key                                                                     | type    | default   |
 |:------------------------------------------------------------------------|:--------|:----------|
@@ -1957,10 +2094,14 @@ Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
 #### variables<br>
-```internal process
-# Error
-{"userId":"r","count":"n","cursor":"i","includePromotedContent":"!1",...(0,g.d)(t)}
-```
+| key                    | type   | variable   |
+|:-----------------------|:-------|:-----------|
+| userId                 | Future | r          |
+| count                  | Future | n          |
+| cursor                 | Future | i          |
+| includePromotedContent | Future | False      |
+| ...()(0,g.d)           | Future | _          |
+
 #### features<br>
 | key                                                                     | type    | default   |
 |:------------------------------------------------------------------------|:--------|:----------|
@@ -1985,10 +2126,14 @@ Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
 #### variables<br>
-```internal process
-# Error
-{"userId":"r","count":"n","cursor":"i","includePromotedContent":"!1",...(0,g.d)(t)}
-```
+| key                    | type   | variable   |
+|:-----------------------|:-------|:-----------|
+| userId                 | Future | r          |
+| count                  | Future | n          |
+| cursor                 | Future | i          |
+| includePromotedContent | Future | False      |
+| ...()(0,g.d)           | Future | _          |
+
 #### features<br>
 | key                                                                     | type    | default   |
 |:------------------------------------------------------------------------|:--------|:----------|
@@ -2013,10 +2158,13 @@ Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
 #### variables<br>
-```internal process
-# Error
-{"count":"n","cursor":"i","includePromotedContent":"!1",...(0,g.d)(t)}
-```
+| key                    | type   | variable   |
+|:-----------------------|:-------|:-----------|
+| count                  | Future | n          |
+| cursor                 | Future | i          |
+| includePromotedContent | Future | False      |
+| ...()(0,g.d)           | Future | _          |
+
 #### features<br>
 | key                                                                     | type    | default   |
 |:------------------------------------------------------------------------|:--------|:----------|
@@ -2041,10 +2189,14 @@ Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
 #### variables<br>
-```internal process
-# Error
-{"rootTweetId":"r","count":"n","cursor":"i","includePromotedContent":"!1",...(0,g.d)(t)}
-```
+| key                    | type   | variable   |
+|:-----------------------|:-------|:-----------|
+| rootTweetId            | Future | r          |
+| count                  | Future | n          |
+| cursor                 | Future | i          |
+| includePromotedContent | Future | False      |
+| ...()(0,g.d)           | Future | _          |
+
 #### features<br>
 | key                                                                     | type    | default   |
 |:------------------------------------------------------------------------|:--------|:----------|
@@ -2069,10 +2221,13 @@ Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
 #### variables<br>
-```internal process
-# Error
-{"count":"n","cursor":"i","includePromotedContent":"!1",...(0,g.d)(t)}
-```
+| key                    | type   | variable   |
+|:-----------------------|:-------|:-----------|
+| count                  | Future | n          |
+| cursor                 | Future | i          |
+| includePromotedContent | Future | False      |
+| ...()(0,g.d)           | Future | _          |
+
 #### features<br>
 | key                                                                     | type    | default   |
 |:------------------------------------------------------------------------|:--------|:----------|
@@ -2097,10 +2252,14 @@ Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
 #### variables<br>
-```internal process
-# Error
-{"timelineId":"r","count":"n","cursor":"i","withQuickPromoteEligibilityTweetFields":"!0",...(0,g.d)(t)}
-```
+| key                                    | type   | variable   |
+|:---------------------------------------|:-------|:-----------|
+| timelineId                             | Future | r          |
+| count                                  | Future | n          |
+| cursor                                 | Future | i          |
+| withQuickPromoteEligibilityTweetFields | Future | True       |
+| ...()(0,g.d)                           | Future | _          |
+
 #### features<br>
 | key                                                                     | type    | default   |
 |:------------------------------------------------------------------------|:--------|:----------|
@@ -2136,10 +2295,12 @@ Request Method: `POST`<br>
 Login Required: `Future`<br>
 ### Param<br>
 #### variables<br>
-```internal process
-# Error
-{"listId":"r","userId":"o",...(0,g.S)(t)}
-```
+| key          | type   | variable   |
+|:-------------|:-------|:-----------|
+| listId       | Future | r          |
+| userId       | Future | o          |
+| ...()(0,g.S) | Future | _          |
+
 #### features<br>
 | key                                                | type    | default   |
 |:---------------------------------------------------|:--------|:----------|
@@ -2153,10 +2314,13 @@ Request Method: `POST`<br>
 Login Required: `Future`<br>
 ### Param<br>
 #### variables<br>
-```internal process
-# Error
-{"isPrivate":"private"===o.toLowerCase(),"name":"a","description":"r",...(0,g.S)(t)}
-```
+| key          | type   | variable                  |
+|:-------------|:-------|:--------------------------|
+| isPrivate    | Future | private===o.toLowerCase() |
+| name         | Future | a                         |
+| description  | Future | r                         |
+| ...()(0,g.S) | Future | _                         |
+
 #### features<br>
 | key                                                | type    | default   |
 |:---------------------------------------------------|:--------|:----------|
@@ -2170,10 +2334,12 @@ Request Method: `POST`<br>
 Login Required: `Future`<br>
 ### Param<br>
 #### variables<br>
-```internal process
-# Error
-{"listId":"r","mediaId":"o",...(0,g.S)(t)}
-```
+| key          | type   | variable   |
+|:-------------|:-------|:-----------|
+| listId       | Future | r          |
+| mediaId      | Future | o          |
+| ...()(0,g.S) | Future | _          |
+
 #### features<br>
 | key                                                | type    | default   |
 |:---------------------------------------------------|:--------|:----------|
@@ -2201,10 +2367,11 @@ Request Method: `POST`<br>
 Login Required: `Future`<br>
 ### Param<br>
 #### variables<br>
-```internal process
-# Error
-{"listId":"r",...(0,g.S)(t)}
-```
+| key          | type   | variable   |
+|:-------------|:-------|:-----------|
+| listId       | Future | r          |
+| ...()(0,g.S) | Future | _          |
+
 #### features<br>
 | key                                                | type    | default   |
 |:---------------------------------------------------|:--------|:----------|
@@ -2218,10 +2385,12 @@ Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
 #### variables<br>
-```internal process
-# Error
-{"screenName":"i","listSlug":"r",...(0,g.S)(t)}
-```
+| key          | type   | variable   |
+|:-------------|:-------|:-----------|
+| screenName   | Future | i          |
+| listSlug     | Future | r          |
+| ...()(0,g.S) | Future | _          |
+
 #### features<br>
 | key                                                | type    | default   |
 |:---------------------------------------------------|:--------|:----------|
@@ -2235,10 +2404,11 @@ Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
 #### variables<br>
-```internal process
-# Error
-{"listId":n.list_id,...(0,g.S)(t)}
-```
+| key          | type   | variable   |
+|:-------------|:-------|:-----------|
+| listId       | Future | n.list_id  |
+| ...()(0,g.S) | Future | _          |
+
 #### features<br>
 | key                                                | type    | default   |
 |:---------------------------------------------------|:--------|:----------|
@@ -2252,10 +2422,14 @@ Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
 #### variables<br>
-```internal process
-# Error
-{"listId":"a","count":"r","cursor":"o",...(0,g.d)(t),"withSafetyModeUserFields":t.isTrue("rito_safety_mode_blocked_profile_enabled")}
-```
+| key                      | type   | variable    |
+|:-------------------------|:-------|:------------|
+| listId                   | Future | a           |
+| count                    | Future | r           |
+| cursor                   | Future | o           |
+| ...()(0,g.d)             | Future | _           |
+| withSafetyModeUserFields | Future | t.isTrue(t) |
+
 #### features<br>
 | key                                                                     | type    | default   |
 |:------------------------------------------------------------------------|:--------|:----------|
@@ -2280,10 +2454,13 @@ Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
 #### variables<br>
-```internal process
-# Error
-{"listId":"a","count":"r","cursor":"o",...(0,g.d)(t)}
-```
+| key          | type   | variable   |
+|:-------------|:-------|:-----------|
+| listId       | Future | a          |
+| count        | Future | r          |
+| cursor       | Future | o          |
+| ...()(0,g.d) | Future | _          |
+
 #### features<br>
 | key                                                                     | type    | default   |
 |:------------------------------------------------------------------------|:--------|:----------|
@@ -2308,10 +2485,14 @@ Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
 #### variables<br>
-```internal process
-# Error
-{"userId":"s","isListMemberTargetUserId":"a","count":"r","cursor":"o",...(0,g.d)(t)}
-```
+| key                      | type   | variable   |
+|:-------------------------|:-------|:-----------|
+| userId                   | Future | s          |
+| isListMemberTargetUserId | Future | a          |
+| count                    | Future | r          |
+| cursor                   | Future | o          |
+| ...()(0,g.d)             | Future | _          |
+
 #### features<br>
 | key                                                                     | type    | default   |
 |:------------------------------------------------------------------------|:--------|:----------|
@@ -2336,10 +2517,13 @@ Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
 #### variables<br>
-```internal process
-# Error
-{"userId":"a","count":"r","cursor":"o",...(0,g.d)(t)}
-```
+| key          | type   | variable   |
+|:-------------|:-------|:-----------|
+| userId       | Future | a          |
+| count        | Future | r          |
+| cursor       | Future | o          |
+| ...()(0,g.d) | Future | _          |
+
 #### features<br>
 | key                                                                     | type    | default   |
 |:------------------------------------------------------------------------|:--------|:----------|
@@ -2364,10 +2548,12 @@ Request Method: `POST`<br>
 Login Required: `Future`<br>
 ### Param<br>
 #### variables<br>
-```internal process
-# Error
-{"listId":"r","userId":"o",...(0,g.S)(t)}
-```
+| key          | type   | variable   |
+|:-------------|:-------|:-----------|
+| listId       | Future | r          |
+| userId       | Future | o          |
+| ...()(0,g.S) | Future | _          |
+
 #### features<br>
 | key                                                | type    | default   |
 |:---------------------------------------------------|:--------|:----------|
@@ -2381,10 +2567,11 @@ Request Method: `POST`<br>
 Login Required: `Future`<br>
 ### Param<br>
 #### variables<br>
-```internal process
-# Error
-{"listId":"r",...o}
-```
+| key    | type   | variable   |
+|:-------|:-------|:-----------|
+| listId | Future | r          |
+| ...o   | Future | _          |
+
 #### features<br>
 | key                                                | type    | default   |
 |:---------------------------------------------------|:--------|:----------|
@@ -2398,10 +2585,11 @@ Request Method: `POST`<br>
 Login Required: `Future`<br>
 ### Param<br>
 #### variables<br>
-```internal process
-# Error
-{"listId":"r",...o}
-```
+| key    | type   | variable   |
+|:-------|:-------|:-----------|
+| listId | Future | r          |
+| ...o   | Future | _          |
+
 #### features<br>
 | key                                                | type    | default   |
 |:---------------------------------------------------|:--------|:----------|
@@ -2415,10 +2603,11 @@ Request Method: `POST`<br>
 Login Required: `Future`<br>
 ### Param<br>
 #### variables<br>
-```internal process
-# Error
-{"listIds":"i",...(0,g.S)(t)}
-```
+| key          | type   | variable   |
+|:-------------|:-------|:-----------|
+| listIds      | Future | i          |
+| ...()(0,g.S) | Future | _          |
+
 #### features<br>
 | key                                                | type    | default   |
 |:---------------------------------------------------|:--------|:----------|
@@ -2432,10 +2621,11 @@ Request Method: `POST`<br>
 Login Required: `Future`<br>
 ### Param<br>
 #### variables<br>
-```internal process
-# Error
-{"listId":"r",...(0,g.S)(t)}
-```
+| key          | type   | variable   |
+|:-------------|:-------|:-----------|
+| listId       | Future | r          |
+| ...()(0,g.S) | Future | _          |
+
 #### features<br>
 | key                                                | type    | default   |
 |:---------------------------------------------------|:--------|:----------|
@@ -2449,10 +2639,11 @@ Request Method: `POST`<br>
 Login Required: `Future`<br>
 ### Param<br>
 #### variables<br>
-```internal process
-# Error
-{"listId":"r",...(0,g.S)(t)}
-```
+| key          | type   | variable   |
+|:-------------|:-------|:-----------|
+| listId       | Future | r          |
+| ...()(0,g.S) | Future | _          |
+
 #### features<br>
 | key                                                | type    | default   |
 |:---------------------------------------------------|:--------|:----------|
@@ -2494,10 +2685,14 @@ Request Method: `POST`<br>
 Login Required: `Future`<br>
 ### Param<br>
 #### variables<br>
-```internal process
-# Error
-{"listId":"o","isPrivate":"private"===a.toLowerCase(),"description":"r","name":"s",...(0,g.S)(t)}
-```
+| key          | type   | variable                  |
+|:-------------|:-------|:--------------------------|
+| listId       | Future | o                         |
+| isPrivate    | Future | private===a.toLowerCase() |
+| description  | Future | r                         |
+| name         | Future | s                         |
+| ...()(0,g.S) | Future | _                         |
+
 #### features<br>
 | key                                                | type    | default   |
 |:---------------------------------------------------|:--------|:----------|
@@ -2511,10 +2706,13 @@ Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
 #### variables<br>
-```internal process
-# Error
-{"userId":"r","count":"n","cursor":"i",...(0,g.d)(t)}
-```
+| key          | type   | variable   |
+|:-------------|:-------|:-----------|
+| userId       | Future | r          |
+| count        | Future | n          |
+| cursor       | Future | i          |
+| ...()(0,g.d) | Future | _          |
+
 #### features<br>
 | key                                                                     | type    | default   |
 |:------------------------------------------------------------------------|:--------|:----------|
@@ -2539,10 +2737,12 @@ Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
 #### variables<br>
-```internal process
-# Error
-{"count":"n","cursor":"i",...(0,g.d)(t)}
-```
+| key          | type   | variable   |
+|:-------------|:-------|:-----------|
+| count        | Future | n          |
+| cursor       | Future | i          |
+| ...()(0,g.d) | Future | _          |
+
 #### features<br>
 | key                                                                     | type    | default   |
 |:------------------------------------------------------------------------|:--------|:----------|
@@ -2567,10 +2767,10 @@ Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
 #### variables<br>
-```internal process
-# Error
-{...(0,g.S)(t)}
-```
+| key          | type   | variable   |
+|:-------------|:-------|:-----------|
+| ...()(0,g.S) | Future | _          |
+
 #### features<br>
 | key                                                | type    | default   |
 |:---------------------------------------------------|:--------|:----------|
@@ -2584,10 +2784,12 @@ Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
 #### variables<br>
-```internal process
-# Error
-{"count":"n","cursor":"i",...(0,g.d)(t)}
-```
+| key          | type   | variable   |
+|:-------------|:-------|:-----------|
+| count        | Future | n          |
+| cursor       | Future | i          |
+| ...()(0,g.d) | Future | _          |
+
 #### features<br>
 | key                                                                     | type    | default   |
 |:------------------------------------------------------------------------|:--------|:----------|
@@ -2612,10 +2814,14 @@ Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
 #### variables<br>
-```internal process
-# Error
-{"rest_id":"r","count":"n","cursor":"i","includePromotedContent":"!1",...(0,g.d)(t)}
-```
+| key                    | type   | variable   |
+|:-----------------------|:-------|:-----------|
+| rest_id                | Future | r          |
+| count                  | Future | n          |
+| cursor                 | Future | i          |
+| includePromotedContent | Future | False      |
+| ...()(0,g.d)           | Future | _          |
+
 #### features<br>
 | key                                                                     | type    | default   |
 |:------------------------------------------------------------------------|:--------|:----------|
@@ -2640,10 +2846,17 @@ Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
 #### variables<br>
-```internal process
-# Error
-{"userId":"r","count":"n","cursor":"i","includePromotedContent":"!0","withQuickPromoteEligibilityTweetFields":"!0",...(0,g.d)(t),"withVoice":t.isTrue("voice_consumption_enabled"),"withV2Timeline":t.isTrue("graphql_timeline_v2_user_profile_timeline")}
-```
+| key                                    | type   | variable                              |
+|:---------------------------------------|:-------|:--------------------------------------|
+| userId                                 | Future | r                                     |
+| count                                  | Future | n                                     |
+| cursor                                 | Future | i                                     |
+| includePromotedContent                 | Future | True                                  |
+| withQuickPromoteEligibilityTweetFields | Future | True                                  |
+| ...()(0,g.d)                           | Future | _                                     |
+| withVoice                              | Future | t.isTrue(t)                           |
+| withV2Timeline                         | Future | t.isTrue("voice_consumption_enabled") |
+
 #### features<br>
 | key                                                                     | type    | default   |
 |:------------------------------------------------------------------------|:--------|:----------|
@@ -2668,10 +2881,17 @@ Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
 #### variables<br>
-```internal process
-# Error
-{"userId":"r","count":"n","cursor":"i","includePromotedContent":"!0","withCommunity":t.isTrue("c9s_enabled"),...(0,g.d)(t),"withVoice":t.isTrue("voice_consumption_enabled"),"withV2Timeline":t.isTrue("graphql_timeline_v2_user_profile_with_replies_timeline")}
-```
+| key                       | type   | variable                              |
+|:--------------------------|:-------|:--------------------------------------|
+| userId                    | Future | r                                     |
+| count                     | Future | n                                     |
+| cursor                    | Future | i                                     |
+| includePromotedContent    | Future | True                                  |
+| withCommunity             | Future | t.isTrue()                            |
+| ...("c9s_enabled")(0,g.d) | Future | _                                     |
+| withVoice                 | Future | t.isTrue(t)                           |
+| withV2Timeline            | Future | t.isTrue("voice_consumption_enabled") |
+
 #### features<br>
 | key                                                                     | type    | default   |
 |:------------------------------------------------------------------------|:--------|:----------|
@@ -2696,10 +2916,15 @@ Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
 #### variables<br>
-```internal process
-# Error
-{"userId":"r","count":"n","cursor":"i","includePromotedContent":"!0",...(0,g.d)(t),"withVoice":t.isTrue("voice_consumption_enabled")}
-```
+| key                    | type   | variable    |
+|:-----------------------|:-------|:------------|
+| userId                 | Future | r           |
+| count                  | Future | n           |
+| cursor                 | Future | i           |
+| includePromotedContent | Future | True        |
+| ...()(0,g.d)           | Future | _           |
+| withVoice              | Future | t.isTrue(t) |
+
 #### features<br>
 | key                                                                     | type    | default   |
 |:------------------------------------------------------------------------|:--------|:----------|
@@ -2726,7 +2951,7 @@ Login Required: `Future`<br>
 #### variables<br>
 ```internal process
 # Error
-{"userId":"i","count":"t","cursor":"string"==typeof n?n:void 0,"includePromotedContent":"!1","withDownvotePerspective":"!1","withReactionsMetadata":"!1","withReactionsPerspective":"!1","withSuperFollowsTweetFields":"!1","withSuperFollowsUserFields":"!1","withVoice":"!1"}
+{"userId":"i","count":"t","cursor":"string"==typeof n?n:"void 0","includePromotedContent":"!1","withDownvotePerspective":"!1","withReactionsMetadata":"!1","withReactionsPerspective":"!1","withSuperFollowsTweetFields":"!1","withSuperFollowsUserFields":"!1","withVoice":"!1"}
 ```
 #### features<br>
 | key                                                                     | type    | default   |
@@ -2752,10 +2977,18 @@ Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
 #### variables<br>
-```internal process
-# Error
-{"userId":"r","count":"n","cursor":"i","includePromotedContent":"!1",...(0,g.d)(t),"withClientEventToken":"!1","withBirdwatchNotes":"!1","withVoice":t.isTrue("voice_consumption_enabled"),"withV2Timeline":t.isTrue("graphql_timeline_v2_user_favorites_by_time_timeline")}
-```
+| key                    | type   | variable                              |
+|:-----------------------|:-------|:--------------------------------------|
+| userId                 | Future | r                                     |
+| count                  | Future | n                                     |
+| cursor                 | Future | i                                     |
+| includePromotedContent | Future | False                                 |
+| ...()(0,g.d)           | Future | _                                     |
+| withClientEventToken   | Future | False                                 |
+| withBirdwatchNotes     | Future | False                                 |
+| withVoice              | Future | t.isTrue(t)                           |
+| withV2Timeline         | Future | t.isTrue("voice_consumption_enabled") |
+
 #### features<br>
 | key                                                                     | type    | default   |
 |:------------------------------------------------------------------------|:--------|:----------|
@@ -2780,10 +3013,18 @@ Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
 #### variables<br>
-```internal process
-# Error
-{"userId":"r","count":"n","cursor":"i","includePromotedContent":"!1",...(0,g.d)(t),"withClientEventToken":"!1","withBirdwatchNotes":"!1","withVoice":t.isTrue("voice_consumption_enabled"),"withV2Timeline":t.isTrue("graphql_timeline_v2_user_media_timeline")}
-```
+| key                    | type   | variable                              |
+|:-----------------------|:-------|:--------------------------------------|
+| userId                 | Future | r                                     |
+| count                  | Future | n                                     |
+| cursor                 | Future | i                                     |
+| includePromotedContent | Future | False                                 |
+| ...()(0,g.d)           | Future | _                                     |
+| withClientEventToken   | Future | False                                 |
+| withBirdwatchNotes     | Future | False                                 |
+| withVoice              | Future | t.isTrue(t)                           |
+| withV2Timeline         | Future | t.isTrue("voice_consumption_enabled") |
+
 #### features<br>
 | key                                                                     | type    | default   |
 |:------------------------------------------------------------------------|:--------|:----------|
@@ -2808,10 +3049,10 @@ Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
 #### variables<br>
-```internal process
-# Error
-{"rest_id":t.rest_id}
-```
+| key     | type   | variable   |
+|:--------|:-------|:-----------|
+| rest_id | Future | t.rest_id  |
+
 #### features<br>
 `None`<br>
 #### queryId<br>
@@ -2822,10 +3063,13 @@ Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
 #### variables<br>
-```internal process
-# Error
-{"cursor":"n","rest_id":"i",...(0,g.d)(t),"withSafetyModeUserFields":t.isTrue("rito_safety_mode_blocked_profile_enabled")}
-```
+| key                      | type   | variable    |
+|:-------------------------|:-------|:------------|
+| cursor                   | Future | n           |
+| rest_id                  | Future | i           |
+| ...()(0,g.d)             | Future | _           |
+| withSafetyModeUserFields | Future | t.isTrue(t) |
+
 #### features<br>
 | key                                                                     | type    | default   |
 |:------------------------------------------------------------------------|:--------|:----------|
@@ -2864,10 +3108,12 @@ Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
 #### variables<br>
-```internal process
-# Error
-{"cursor":"n",...(0,g.d)(t),"withSafetyModeUserFields":t.isTrue("rito_safety_mode_blocked_profile_enabled")}
-```
+| key                      | type   | variable    |
+|:-------------------------|:-------|:------------|
+| cursor                   | Future | n           |
+| ...()(0,g.d)             | Future | _           |
+| withSafetyModeUserFields | Future | t.isTrue(t) |
+
 #### features<br>
 | key                                                                     | type    | default   |
 |:------------------------------------------------------------------------|:--------|:----------|
@@ -2892,10 +3138,13 @@ Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
 #### variables<br>
-```internal process
-# Error
-{"cursor":"n","rest_id":"i",...(0,g.d)(t),"withSafetyModeUserFields":t.isTrue("rito_safety_mode_blocked_profile_enabled")}
-```
+| key                      | type   | variable    |
+|:-------------------------|:-------|:------------|
+| cursor                   | Future | n           |
+| rest_id                  | Future | i           |
+| ...()(0,g.d)             | Future | _           |
+| withSafetyModeUserFields | Future | t.isTrue(t) |
+
 #### features<br>
 | key                                                                     | type    | default   |
 |:------------------------------------------------------------------------|:--------|:----------|
@@ -2920,10 +3169,10 @@ Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
 #### variables<br>
-```internal process
-# Error
-{...t}
-```
+| key   | type   | variable   |
+|:------|:-------|:-----------|
+| ...t  | Future | _          |
+
 #### features<br>
 `None`<br>
 #### queryId<br>
@@ -2934,10 +3183,11 @@ Request Method: `POST`<br>
 Login Required: `Future`<br>
 ### Param<br>
 #### variables<br>
-```internal process
-# Error
-{"post_tweet_request":"r","execute_at":yl(n)}
-```
+| key                | type   | variable   |
+|:-------------------|:-------|:-----------|
+| post_tweet_request | Future | r          |
+| execute_at         | Future | yl()       |
+
 #### features<br>
 `None`<br>
 #### queryId<br>
@@ -2948,10 +3198,11 @@ Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
 #### variables<br>
-```internal process
-# Error
-{...n,...t}
-```
+| key   | type   | variable   |
+|:------|:-------|:-----------|
+| ...n  | Future | _          |
+| ...t  | Future | _          |
+
 #### features<br>
 `None`<br>
 #### queryId<br>
@@ -2962,10 +3213,12 @@ Request Method: `POST`<br>
 Login Required: `Future`<br>
 ### Param<br>
 #### variables<br>
-```internal process
-# Error
-{"scheduled_tweet_id":"i","post_tweet_request":"o","execute_at":yl(n)}
-```
+| key                | type   | variable   |
+|:-------------------|:-------|:-----------|
+| scheduled_tweet_id | Future | i          |
+| post_tweet_request | Future | o          |
+| execute_at         | Future | yl()       |
+
 #### features<br>
 `None`<br>
 #### queryId<br>
@@ -3083,10 +3336,12 @@ Request Method: `POST`<br>
 Login Required: `Future`<br>
 ### Param<br>
 #### variables<br>
-```internal process
-# Error
-{"userId":"n","enabled":"none"!==t,"duration":"none"===t?void 0:"t"}
-```
+| key      | type   | variable          |
+|:---------|:-------|:------------------|
+| userId   | Future | n                 |
+| enabled  | Future | none!==t          |
+| duration | Future | none===t?void 0:t |
+
 #### features<br>
 `None`<br>
 #### queryId<br>
@@ -3119,10 +3374,12 @@ Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
 #### variables<br>
-```internal process
-# Error
-{...n,...(0,g.d)(t),"articleListSeedType":"i"}
-```
+| key                 | type   | variable   |
+|:--------------------|:-------|:-----------|
+| ...n                | Future | _          |
+| ...()(0,g.d)        | Future | _          |
+| articleListSeedType | Future | i          |
+
 #### features<br>
 | key                                                                     | type    | default   |
 |:------------------------------------------------------------------------|:--------|:----------|
@@ -3147,10 +3404,12 @@ Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
 #### variables<br>
-```internal process
-# Error
-{...n,...(0,g.d)(t),"articleListSeedType":"i"}
-```
+| key                 | type   | variable   |
+|:--------------------|:-------|:-----------|
+| ...n                | Future | _          |
+| ...()(0,g.d)        | Future | _          |
+| articleListSeedType | Future | i          |
+
 #### features<br>
 | key                                                                     | type    | default   |
 |:------------------------------------------------------------------------|:--------|:----------|
@@ -3177,7 +3436,7 @@ Login Required: `Future`<br>
 #### variables<br>
 ```internal process
 # Error
-{"rest_id":"a","cursor":"r","context":JSON.stringify({"data_lookup_id":"o"}),...(0,g.d)(t)}
+{"rest_id":"a","cursor":"r","context":"JSON.stringify()"{"data_lookup_id":"o"}"0","g.dt"}
 ```
 #### features<br>
 | key                                                                     | type    | default   |
@@ -3205,7 +3464,7 @@ Login Required: `Future`<br>
 #### variables<br>
 ```internal process
 # Error
-{"rest_id":"a","cursor":"r","context":JSON.stringify({"data_lookup_id":"o"}),...(0,g.d)(t)}
+{"rest_id":"a","cursor":"r","context":"JSON.stringify()"{"data_lookup_id":"o"}"0","g.dt"}
 ```
 #### features<br>
 | key                                                                     | type    | default   |
@@ -3231,10 +3490,11 @@ Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
 #### variables<br>
-```internal process
-# Error
-{"cursor":"r",...(0,g.d)(t)}
-```
+| key          | type   | variable   |
+|:-------------|:-------|:-----------|
+| cursor       | Future | r          |
+| ...()(0,g.d) | Future | _          |
+
 #### features<br>
 | key                                                                     | type    | default   |
 |:------------------------------------------------------------------------|:--------|:----------|
@@ -3273,10 +3533,11 @@ Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
 #### variables<br>
-```internal process
-# Error
-{"topicId":"r",...(0,g.d)(t)}
-```
+| key          | type   | variable   |
+|:-------------|:-------|:-----------|
+| topicId      | Future | r          |
+| ...()(0,g.d) | Future | _          |
+
 #### features<br>
 | key                                                                     | type    | default   |
 |:------------------------------------------------------------------------|:--------|:----------|
@@ -3301,10 +3562,10 @@ Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
 #### variables<br>
-```internal process
-# Error
-{...(0,g.d)(t)}
-```
+| key          | type   | variable   |
+|:-------------|:-------|:-----------|
+| ...()(0,g.d) | Future | _          |
+
 #### features<br>
 | key                                                                     | type    | default   |
 |:------------------------------------------------------------------------|:--------|:----------|
@@ -3329,10 +3590,13 @@ Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
 #### variables<br>
-```internal process
-# Error
-{"userId":"a","cursor":"o","context":"r",...(0,g.d)(t)}
-```
+| key          | type   | variable   |
+|:-------------|:-------|:-----------|
+| userId       | Future | a          |
+| cursor       | Future | o          |
+| context      | Future | r          |
+| ...()(0,g.d) | Future | _          |
+
 #### features<br>
 | key                                                                     | type    | default   |
 |:------------------------------------------------------------------------|:--------|:----------|
@@ -3357,10 +3621,12 @@ Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
 #### variables<br>
-```internal process
-# Error
-{"rest_id":"o","cursor":"r",...(0,g.d)(t)}
-```
+| key          | type   | variable   |
+|:-------------|:-------|:-----------|
+| rest_id      | Future | o          |
+| cursor       | Future | r          |
+| ...()(0,g.d) | Future | _          |
+
 #### features<br>
 | key                                                                     | type    | default   |
 |:------------------------------------------------------------------------|:--------|:----------|
@@ -3441,10 +3707,11 @@ Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
 #### variables<br>
-```internal process
-# Error
-{"userId":"r",...(0,g.d)(t)}
-```
+| key          | type   | variable   |
+|:-------------|:-------|:-----------|
+| userId       | Future | r          |
+| ...()(0,g.d) | Future | _          |
+
 #### features<br>
 | key                                                                     | type    | default   |
 |:------------------------------------------------------------------------|:--------|:----------|
@@ -3647,10 +3914,11 @@ Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
 #### variables<br>
-```internal process
-# Error
-{"trustedFriendsId":t.trustedFriendsId,"prefix":t.prefix}
-```
+| key              | type   | variable           |
+|:-----------------|:-------|:-------------------|
+| trustedFriendsId | Future | t.trustedFriendsId |
+| prefix           | Future | t.prefix           |
+
 #### features<br>
 `None`<br>
 #### queryId<br>
@@ -3661,10 +3929,11 @@ Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
 #### variables<br>
-```internal process
-# Error
-{"communityId":t.communityId,"prefix":t.prefix}
-```
+| key         | type   | variable      |
+|:------------|:-------|:--------------|
+| communityId | Future | t.communityId |
+| prefix      | Future | t.prefix      |
+
 #### features<br>
 `None`<br>
 #### queryId<br>
@@ -3675,10 +3944,11 @@ Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
 #### variables<br>
-```internal process
-# Error
-{"communityId":t.communityId,"prefix":t.prefix}
-```
+| key         | type   | variable      |
+|:------------|:-------|:--------------|
+| communityId | Future | t.communityId |
+| prefix      | Future | t.prefix      |
+
 #### features<br>
 `None`<br>
 #### queryId<br>
@@ -3689,10 +3959,12 @@ Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
 #### variables<br>
-```internal process
-# Error
-{"withCommunitiesMemberships":t.isTrue("c9s_enabled"),"withCommunitiesCreation":t.isTrue("c9s_community_creation_enabled"),"withSuperFollowsUserFields":t.isTrue("super_follow_user_api_enabled")}
-```
+| key                        | type   | variable                                   |
+|:---------------------------|:-------|:-------------------------------------------|
+| withCommunitiesMemberships | Future | t.isTrue()                                 |
+| withCommunitiesCreation    | Future | t.isTrue("c9s_enabled")                    |
+| withSuperFollowsUserFields | Future | t.isTrue("c9s_community_creation_enabled") |
+
 #### features<br>
 | key                                                | type    | default   |
 |:---------------------------------------------------|:--------|:----------|
@@ -3706,10 +3978,12 @@ Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
 #### variables<br>
-```internal process
-# Error
-{"screen_name":"n","withSafetyModeUserFields":t.isTrue("rito_safety_mode_blocked_profile_enabled"),"withSuperFollowsUserFields":t.isTrue("super_follow_user_api_enabled")}
-```
+| key                        | type   | variable                                             |
+|:---------------------------|:-------|:-----------------------------------------------------|
+| screen_name                | Future | n                                                    |
+| withSafetyModeUserFields   | Future | t.isTrue()                                           |
+| withSuperFollowsUserFields | Future | t.isTrue("rito_safety_mode_blocked_profile_enabled") |
+
 #### features<br>
 | key                                                | type    | default   |
 |:---------------------------------------------------|:--------|:----------|
@@ -3723,10 +3997,12 @@ Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
 #### variables<br>
-```internal process
-# Error
-{"userId":"n","withSafetyModeUserFields":t.isTrue("rito_safety_mode_blocked_profile_enabled"),"withSuperFollowsUserFields":t.isTrue("super_follow_user_api_enabled")}
-```
+| key                        | type   | variable                                             |
+|:---------------------------|:-------|:-----------------------------------------------------|
+| userId                     | Future | n                                                    |
+| withSafetyModeUserFields   | Future | t.isTrue()                                           |
+| withSuperFollowsUserFields | Future | t.isTrue("rito_safety_mode_blocked_profile_enabled") |
+
 #### features<br>
 | key                                                | type    | default   |
 |:---------------------------------------------------|:--------|:----------|
@@ -3740,10 +4016,11 @@ Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
 #### variables<br>
-```internal process
-# Error
-{"userIds":n.split(","),"withSuperFollowsUserFields":t.isTrue("super_follow_user_api_enabled")}
-```
+| key                        | type   | variable      |
+|:---------------------------|:-------|:--------------|
+| userIds                    | Future | n.split()     |
+| withSuperFollowsUserFields | Future | t.isTrue(",") |
+
 #### features<br>
 | key                                                | type    | default   |
 |:---------------------------------------------------|:--------|:----------|
@@ -3771,10 +4048,11 @@ Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
 #### variables<br>
-```internal process
-# Error
-{"includePromotedContent":"!0",...(0,g.d)(t)}
-```
+| key                    | type   | variable   |
+|:-----------------------|:-------|:-----------|
+| includePromotedContent | Future | True       |
+| ...()(0,g.d)           | Future | _          |
+
 #### features<br>
 | key                                                                     | type    | default   |
 |:------------------------------------------------------------------------|:--------|:----------|
@@ -3799,10 +4077,10 @@ Request Method: `POST`<br>
 Login Required: `Future`<br>
 ### Param<br>
 #### variables<br>
-```internal process
-# Error
-{...t}
-```
+| key   | type   | variable   |
+|:------|:-------|:-----------|
+| ...t  | Future | _          |
+
 #### features<br>
 `None`<br>
 #### queryId<br>
@@ -3813,10 +4091,13 @@ Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
 #### variables<br>
-```internal process
-# Error
-{"count":"i","cursor":"r","context":"n",...(0,g.d)(t)}
-```
+| key          | type   | variable   |
+|:-------------|:-------|:-----------|
+| count        | Future | i          |
+| cursor       | Future | r          |
+| context      | Future | n          |
+| ...()(0,g.d) | Future | _          |
+
 #### features<br>
 | key                                                                     | type    | default   |
 |:------------------------------------------------------------------------|:--------|:----------|
