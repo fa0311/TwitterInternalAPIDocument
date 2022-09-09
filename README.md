@@ -2,7 +2,7 @@
 
 Reverse engineering of the web version of Twitter.<br>
 This repository is not complete.<br>
-The documentation in the [Develop branch](https://github.com/fa0311/TwitterInternalAPIDocument/tree/develop) is automatically updated to the latest version every day at 23:00 UTC.<br>
+The documentation in the [Develop branch](https://github.com/fa0311/TwitterInternalAPIDocument/tree/develop) is automatically updated to the latest version every day at 21:00 UTC.<br>
 
 # Document
 
