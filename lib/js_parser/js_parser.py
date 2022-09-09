@@ -3,12 +3,10 @@ import re
 
 
 class js:
-    def __init__(self, script:str,start_char:str="{",end_char:str="}"):
+    def __init__(self, script: str):
         self.script = script
         self.length = len(self.script)
         self.key = 0
-        self.start_char = start_char
-        self.end_char = end_char
 
     def parser(self) -> list:
         output = js_data()
@@ -16,13 +14,13 @@ class js:
         while self.length > self.key:
             char = self.script[self.key]
             self.key += 1
-            if char == self.start_char:
+            if char == "{":
                 output.children.append(value)
                 value = ""
                 output.children.append(self.parser())
                 output.children[-1].parent = output
                 output.children[-1].before = output.children[-2]
-            elif char == self.end_char:
+            elif char == "}":
                 if value != "":
                     output.children.append(value)
                 return output
@@ -41,7 +39,16 @@ class js_data:
         self.before = None
 
     def __repr__(self):
-        return json.dumps(self.children)
+        return json.dumps(self.to_list())
+
+    def to_list(self):
+        output = []
+        for child in self.children:
+            if type(child) is js_data:
+                output.append(child.to_list())
+            else:
+                output.append(child)
+        return output
 
 
 class js_search_data:
@@ -105,37 +112,58 @@ def json_parser(text: js_data):
         if type(data) is js_data:
             json = json_parser(data)
         else:
-            parsed_list = js(data, start_char="(", end_char=")").parser()
+            data = (
+                data.replace("?void 0:", "{void}")
+                .replace('"private"', "{private}")
+                .replace('"none"', "{none}")
+            )
+            placeholder = parentheses_placeholder(data)
             json_child = ""
-            js_data_list = []
-            for parsed in parsed_list.children:
-
-                if type(parsed) is js_data:
-                    json_child += f"{{{len(js_data_list)}}}"
-                    js_data_list.append(parsed)
-                else:
-                    json_child += parsed
-
-            json = re.sub(f"(,|^)(\.\.\.{reg_other}+?)(,|$)", r'\1"\2":"_"\3', json_child)
+            json = re.sub(
+                f"(,|^)(\.\.\.{reg_other}+)(,|$)", r'\1"\2":"_"\3', placeholder.text
+            )
             while json_child != json:
                 json_child = json
-                json = re.sub(f"(,|^)(\.\.\.{reg_other}+?)(,|$)", r'\1"\2":"_"\3', json_child)
-            json = re.sub(f"(,|^)({reg_other}+?)(:|$)", r'\1"\2"\3', json)
-            json = re.sub(f"(:|^)({reg_other}+?)(,|$)", r'\1"\2"\3', json)
-            
-            args = [json_parser_child(parsed,start_char="(",end_char=")") for parsed in js_data_list]
-            json = json.format(*args)
-
+                json = re.sub(
+                    f"(,|^)(\.\.\.{reg_other}+)(,|$)", r'\1"\2":"_"\3', json_child
+                )
+            json = re.sub(f"(,|^)({reg_other}+)(:|$)", r'\1"\2"\3', json)
+            json = re.sub(f"(:|^)({reg_other}+)(,|$)", r'\1"\2"\3', json)
+            args = [
+                "(" + parsed.replace('"', '\\"') + ")" for parsed in placeholder.list
+            ]
+            json = json.format(*args, void="?void 0:", private="private", none="none")
         output += json
+    output = output.replace(':"_"{', ":{")
     return "{" + output + "}"
 
 
-
-def json_parser_child(text: js_data,start_char:str="{",end_char:str="}"):
-    output = ""
-    for data in text.children:
-        if type(data) is js_data:
-            output += json_parser_child(data,start_char=start_char,end_char=end_char)
+def parentheses_placeholder(text: str):
+    length = len(text)
+    key = 0
+    placeholder = 0
+    depth = 0
+    output = parentheses_placeholder_data()
+    output.list.append("")
+    while length > key:
+        char = text[key]
+        key += 1
+        if char == "(":
+            depth += 1
+            if depth == 1:
+                output.text += f"{{{placeholder}}}"
+                output.list.append("")
+                placeholder += 1
+        elif char == ")":
+            depth -= 1
+        elif depth == 0:
+            output.text += char
         else:
-            output += data
-    return start_char + output.replace("\"","\\\"") + end_char
+            output.list[-1] += char
+    return output
+
+
+class parentheses_placeholder_data:
+    def __init__(self):
+        self.text = ""
+        self.list = []
