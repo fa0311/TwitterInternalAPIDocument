@@ -393,6 +393,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | conversation_controls_limited_replies_creation_enabled                  | True    |
 | conversation_controls_persistence_enabled                               | True    |
 | conversational_safety_heads_up_treatment_A_enabled                      | True    |
+| dash_region_specific_de_media_transparency_items_enabled                | True    |
 | direct_messages_incremental_holdback_2022h1                             | True    |
 | dm_conversation_labels_max_pinned_count                                 | True    |
 | dm_conversation_labels_pinned_education_enabled                         | True    |
@@ -681,6 +682,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | responsive_web_logged_out_gating_14123_ddg                              | True    |
 | responsive_web_logged_out_gating_14788_ddg                              | True    |
 | responsive_web_logged_out_gating_14992_ddg                              | True    |
+| responsive_web_logged_out_gating_15377_ddg                              | True    |
 | responsive_web_logged_out_gating_aggressive_segments                    | True    |
 | responsive_web_logged_out_gating_less_aggressive_segments               | True    |
 | responsive_web_logged_out_gating_non_holdback_ddgs                      | True    |
@@ -718,6 +720,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | responsive_web_ocf_reportflow_dms_enabled                               | True    |
 | responsive_web_ocf_reportflow_lists_enabled                             | True    |
 | responsive_web_ocf_reportflow_profiles_enabled                          | True    |
+| responsive_web_ocf_reportflow_spaces_enabled                            | True    |
 | responsive_web_ocf_reportflow_testers                                   | True    |
 | responsive_web_ocf_reportflow_tweets_enabled                            | True    |
 | responsive_web_ocf_sms_autoverify_darkwrite                             | True    |
@@ -1611,6 +1614,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | List                  | list                    |
 | Moment                | moment                  |
 | RemoveCommunityMember | remove_community_member |
+| Space                 | space                   |
 | Tweet                 | status                  |
 | User                  | user                    |
 
