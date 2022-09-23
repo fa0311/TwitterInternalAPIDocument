@@ -338,6 +338,8 @@ This document is entirely auto-generated and may contain errors.<br>
 | account_taxonomy_automation_opt_in_enabled                              | True    |
 | ads_spacing_client_fallback_minimum_spacing                             | True    |
 | arkose_challenge_lo_web_notification_dev                                | True    |
+| arkose_challenge_lo_web_notification_mobile_prod                        | True    |
+| arkose_challenge_lo_web_notification_prod                               | True    |
 | arkose_challenge_open_app_dev                                           | True    |
 | arkose_challenge_open_app_prod                                          | True    |
 | arkose_challenge_signup_mobile                                          | True    |
@@ -614,8 +616,9 @@ This document is entirely auto-generated and may contain errors.<br>
 | responsive_web_drew_profile_block_enabled                               | True    |
 | responsive_web_drew_timeline_block_enabled                              | True    |
 | responsive_web_dtime_fccts_enabled                                      | True    |
+| responsive_web_dtime_featured_timelines_modal_enabled                   | True    |
 | responsive_web_dtime_show_new_tweets_enabled                            | True    |
-| responsive_web_dtime_sparkle_menu_timelines_directory_enabled           | True    |
+| responsive_web_dtime_sparkle_menu_featured_timelines_enabled            | True    |
 | responsive_web_dtime_timelines_directory_enabled                        | True    |
 | responsive_web_dtime_timelines_preview_enabled                          | True    |
 | responsive_web_dtime_tpat_enabled                                       | True    |
@@ -799,6 +802,8 @@ This document is entirely auto-generated and may contain errors.<br>
 | responsive_web_twitter_article_tweet_other_notes_enabled                | True    |
 | responsive_web_twitter_article_tweet_own_notes_enabled                  | True    |
 | responsive_web_twitter_article_view_enabled                             | True    |
+| responsive_web_twitter_blue_home_redesign_enabled                       | True    |
+| responsive_web_twitter_blue_signup_nux_enabled                          | True    |
 | responsive_web_typeahead_reverse_bolding_enabled                        | True    |
 | responsive_web_uc_gql_enabled                                           | True    |
 | responsive_web_unsupported_entry_tombstone                              | True    |
@@ -917,6 +922,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | tweet_with_visibility_results_prefer_gql_tombstones_enabled             | True    |
 | ucpd_enabled                                                            | True    |
 | unified_cards_ad_metadata_container_dynamic_card_content_query_enabled  | True    |
+| unified_cards_collection_ads_convert_to_image_website_card              | True    |
 | unified_cards_follow_card_consumption_enabled                           | True    |
 | user_display_name_max_limit                                             | True    |
 | verified_phone_label_enabled                                            | True    |
@@ -2502,6 +2508,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | Display                          | Display                          |
 | Download                         | Download                         |
 | DownloadYourData                 | DownloadYourData                 |
+| EarlyAccess                      | EarlyAccess                      |
 | Email                            | Email                            |
 | EmailNotifications               | EmailNotifications               |
 | FeatureSwitches                  | FeatureSwitches                  |
@@ -2524,6 +2531,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | MutedAccounts                    | MutedAccounts                    |
 | MutedKeywordDetail               | MutedKeywordDetail               |
 | MutedKeywords                    | MutedKeywords                    |
+| News                             | News                             |
 | NotificationAdvancedFilters      | NotificationAdvancedFilters      |
 | NotificationFilters              | NotificationFilters              |
 | NotificationPreferences          | NotificationPreferences          |
@@ -2826,6 +2834,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | cardCarouselClickableNavArea                | control |
 | headsUpVariant                              | control |
 | collectionAdsEnabled                        | False   |
+| shouldConvertCollectionToImageWebsiteCard   | False   |
 | explorerAdsEnabled                          | False   |
 | withEditCallout                             | False   |
 | withEdgeToEdgeContent                       | False   |
