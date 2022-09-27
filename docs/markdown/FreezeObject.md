@@ -20,11 +20,11 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant               | value                                 |
 |:-----------------------|:--------------------------------------|
-| MessageCreate          | o.ENTRY_TYPE.MESSAGE                  |
-| ParticipantsJoin       | o.ENTRY_TYPE.PARTICIPANTS_JOIN        |
-| ParticipantsLeave      | o.ENTRY_TYPE.PARTICIPANTS_LEAVE       |
-| ConversationNameUpdate | o.ENTRY_TYPE.CONVERSATION_NAME_UPDATE |
-| JoinConversation       | o.ENTRY_TYPE.JOIN_CONVERSATION        |
+| MessageCreate          | a.ENTRY_TYPE.MESSAGE                  |
+| ParticipantsJoin       | a.ENTRY_TYPE.PARTICIPANTS_JOIN        |
+| ParticipantsLeave      | a.ENTRY_TYPE.PARTICIPANTS_LEAVE       |
+| ConversationNameUpdate | a.ENTRY_TYPE.CONVERSATION_NAME_UPDATE |
+| JoinConversation       | a.ENTRY_TYPE.JOIN_CONVERSATION        |
 
 | constant   | value   |
 |:-----------|:--------|
@@ -178,18 +178,6 @@ This document is entirely auto-generated and may contain errors.<br>
 | SideCollapsedSmall  | sideCollapsedSmall  |
 | Top                 | top                 |
 
-| constant   | value     |
-|:-----------|:----------|
-| OneColumn  | oneColumn |
-| TwoColumn  | twoColumn |
-
-| constant            | value               |
-|:--------------------|:--------------------|
-| SideExpanded        | sideExpanded        |
-| SideCollapsedNormal | sideCollapsedNormal |
-| SideCollapsedSmall  | sideCollapsedSmall  |
-| Top                 | top                 |
-
 | constant   | value   |
 |:-----------|:--------|
 | Apple      | apple   |
@@ -327,6 +315,12 @@ This document is entirely auto-generated and may contain errors.<br>
 | disable_state_media_autoplay        | tweet_limited_actions_config_disable_state_media_autoplay        |
 | limit_trusted_friends_tweet         | tweet_limited_actions_config_limit_trusted_friends_tweet         |
 | soft_nudge_with_quote_tweet         | tweet_limited_actions_config_soft_nudge_with_quote_tweet         |
+
+| constant   | value   |
+|:-----------|:--------|
+| prod       | prod    |
+| staging    | staging |
+| devel      | devel   |
 
 | constant                                                                | value   |
 |:------------------------------------------------------------------------|:--------|
@@ -851,6 +845,8 @@ This document is entirely auto-generated and may contain errors.<br>
 | spaces_2022_h2_follow_host                                              | True    |
 | spaces_2022_h2_spacebar                                                 | True    |
 | spaces_2022_h2_spacebar_use_mock_data                                   | True    |
+| spaces_2022_h2_spacebar_web_sidebar                                     | True    |
+| spaces_2022_h2_spacebar_web_topnavbar                                   | True    |
 | spaces_2022_h2_spacebar_web_use_topnavbar                               | True    |
 | spaces_2022_h2_spaces_communities                                       | True    |
 | standardized_nudges_misinfo                                             | True    |
@@ -898,6 +894,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | topics_context_controls_implicit_variation                              | True    |
 | topics_context_controls_inline_prompt_enabled                           | True    |
 | topics_discovery_page_enabled                                           | True    |
+| toxic_reply_filter_inline_callout_enabled                               | True    |
 | toxic_reply_filter_settings_enabled                                     | True    |
 | traffic_rewrite_map                                                     | True    |
 | trusted_friends_audience_control_exp_variant                            | True    |
@@ -1049,10 +1046,10 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant        | value   |
 |:----------------|:--------|
-| cardWidth       | a       |
+| cardWidth       | o       |
 | columnWidths    | i       |
 | sideNavWidths   | r       |
-| contentWidths   | o       |
+| contentWidths   | a       |
 | wideTabBarWidth | s       |
 | dmDrawerHeight  | l       |
 | dmDrawerWidth   | d       |
@@ -1229,13 +1226,13 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant                     | value        |
 |:-----------------------------|:-------------|
-| createAccountLabel           | a().eb022176 |
-| createAccountPhoneEmailLabel | a().gcfef7b6 |
-| logInLabel                   | a().e919c3bc |
-| signInLabel                  | a().e5b0e544 |
-| signUpLabel                  | a().a565833e |
-| signUpPhoneEmailLabel        | a().aa95ddc0 |
-| useAppLabel                  | a().gd93944e |
+| createAccountLabel           | o().eb022176 |
+| createAccountPhoneEmailLabel | o().gcfef7b6 |
+| logInLabel                   | o().e919c3bc |
+| signInLabel                  | o().e5b0e544 |
+| signUpLabel                  | o().a565833e |
+| signUpPhoneEmailLabel        | o().aa95ddc0 |
+| useAppLabel                  | o().gd93944e |
 
 | constant        | value       |
 |:----------------|:------------|
@@ -1593,7 +1590,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{[r.Z.CASHTAG]:"void 0",[r.Z.EMOJI]:"void 0",[r.Z.HASHTAG]:"o.HASHTAG_CLICK",[r.Z.INTERACTIVE_CONVERSATION]:"o.URL_CLICK",[r.Z.INTERACTIVE_HIGHLIGHT]:"o.URL_CLICK",[r.Z.MEDIA]:"void 0",[r.Z.MENTION]:"o.USER_MENTION_CLICK",[r.Z.TEXT]:"void 0",[r.Z.URL]:"o.URL_CLICK"}
+{[r.Z.CASHTAG]:"void 0",[r.Z.EMOJI]:"void 0",[r.Z.HASHTAG]:"a.HASHTAG_CLICK",[r.Z.INTERACTIVE_CONVERSATION]:"a.URL_CLICK",[r.Z.INTERACTIVE_HIGHLIGHT]:"a.URL_CLICK",[r.Z.MEDIA]:"void 0",[r.Z.MENTION]:"a.USER_MENTION_CLICK",[r.Z.TEXT]:"void 0",[r.Z.URL]:"a.URL_CLICK"}
 ```
 | constant   | value   |
 |:-----------|:--------|
@@ -1999,7 +1996,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | constant   | value     |
 |:-----------|:----------|
 | domains    | void 0    |
-| loadStatus | o.ZP.NONE |
+| loadStatus | a.ZP.NONE |
 
 | constant     | value        |
 |:-------------|:-------------|
@@ -2016,7 +2013,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | constant    | value     |
 |:------------|:----------|
 | memberships | []        |
-| fetchStatus | a.ZP.NONE |
+| fetchStatus | o.ZP.NONE |
 
 | constant     | value        |
 |:-------------|:-------------|
@@ -2181,7 +2178,7 @@ This document is entirely auto-generated and may contain errors.<br>
 ```
 | constant         | value     |
 |:-----------------|:----------|
-| fetchStatus      | o.ZP.NONE |
+| fetchStatus      | a.ZP.NONE |
 | selectedTimeline | l         |
 | useLatest        | False     |
 
@@ -2591,7 +2588,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{[u.COLLECTION]:"o",[u.LIKED]:"a",[u.USER]:"s",[u.SEARCH]:"l"}
+{[u.COLLECTION]:"a",[u.LIKED]:"o",[u.USER]:"s",[u.SEARCH]:"l"}
 ```
 | constant          | value              |
 |:------------------|:-------------------|
@@ -2730,7 +2727,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{[o.sj.AMPLIFY]:{"conversionHandler":"()"{"cardId":"e","cardType":"t","converterOptions":"n","data":"i"}{"const s=()(0,a.FL)",l=parseInt(i,\"image_value\",\"player_image_original\")/parseInt(0,a.SIi,\"string_value\",\"player_width\",10),d=(0,a.SIi,\"string_value\",\"player_height\",10)(0,a.SI),c=(i,...
+{[a.sj.AMPLIFY]:{"conversionHandler":"()"{"cardId":"e","cardType":"t","converterOptions":"n","data":"i"}{"const s=()(0,o.FL)",l=parseInt(i,\"image_value\",\"player_image_original\")/parseInt(0,o.SIi,\"string_value\",\"player_width\",10),d=(0,o.SIi,\"string_value\",\"player_height\",10)(0,o.SI),c=(i,...
 ```
 | constant   | value                              |
 |:-----------|:-----------------------------------|
@@ -2868,7 +2865,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | userAvatarLabel                             | False   |
 | canVerifiedCrawlerConsumeSensitiveMedia     | False   |
 | isUnifiedCardsFollowCardEnabled             | False   |
-| ...o                                        | _       |
+| ...a                                        | _       |
 
 | constant   | value     |
 |:-----------|:----------|
@@ -2926,7 +2923,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{"isExternal()"{"try"{const n=a();return this._customIsExternal?this._customIsExternal(e,t){"hrefHostname":"n","href":"e"}}"catch()"{"return!0"}},"setIsExternal()"{"this._customIsExternal=e"},"clearIsExternal()"{"this._customIsExternal=null"},"onLinkClick()"{"this._customOnLinkClick&&this._customOnL...
+{"isExternal()"{"try"{const n=o();return this._customIsExternal?this._customIsExternal(e,t){"hrefHostname":"n","href":"e"}}"catch()"{"return!0"}},"setIsExternal()"{"this._customIsExternal=e"},"clearIsExternal()"{"this._customIsExternal=null"},"onLinkClick()"{"this._customOnLinkClick&&this._customOnL...
 ```
 | constant     | value   |
 |:-------------|:--------|
@@ -2999,10 +2996,10 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant           | value        |
 |:-------------------|:-------------|
-| relativeDays       | a().c333da63 |
-| time               | a().d725a289 |
-| weekdayMonthAndDay | a().h8054d91 |
-| scheduledStart     | a().d0e7b11b |
+| relativeDays       | o().c333da63 |
+| time               | o().d725a289 |
+| weekdayMonthAndDay | o().h8054d91 |
+| scheduledStart     | o().d0e7b11b |
 
 | constant   | value               |
 |:-----------|:--------------------|
@@ -3235,29 +3232,29 @@ This document is entirely auto-generated and may contain errors.<br>
 |:--------------------------------|:-------------------------------|
 | ...s()                          | _                              |
 | activeFaintGray                 | rgba(r.CV.light)               |
-| activeBlack                     | o.bs.black(230, 236, 240, 0.7) |
-| adFreeLabelBackground           | a.Z.color.baseColor.blue0      |
-| adFreeLabelText                 | a.Z.color.baseColor.blue900    |
-| hoverBlack                      | o.bs.black(.07)                |
-| navigationBackground            | o.Cj                           |
-| navigationBackground95          | o.bs.white(.03)                |
-| cellBackground                  | o.Cj                           |
-| borderColor                     | a.Z.color.baseColor.gray50     |
-| nestedBorderColor               | a.Z.color.baseColor.gray200    |
-| dmReceivedBubbleBackground      | a.Z.color.baseColor.gray50     |
-| badgeColor                      | a.Z.color.baseColor.blue500    |
-| maskColor                       | o.bs.black(.95)                |
-| hoverLabelColor                 | o.bs.black(.4)                 |
-| elevatedBackground              | o.Cj                           |
-| elevatedBackgroundShadow        | o.bs.black(.6)                 |
-| brandColor                      | a.Z.color.baseColor.blue500    |
-| whiteOnColor                    | o.Cj                           |
-| buttonBlack                     | a.Z.color.baseColor.gray1100   |
-| buttonWhite                     | o.Cj                           |
-| buttonOutlinedBorder            | a.Z.color.baseColor.gray200    |
-| buttonDestructionOutlinedBorder | a.Z.color.baseColor.red100     |
-| appBarBackground                | o.bs.white(.1)                 |
-| appBarFirefoxBackground         | o.bs.white(.85)                |
+| activeBlack                     | a.bs.black(230, 236, 240, 0.7) |
+| adFreeLabelBackground           | o.Z.color.baseColor.blue0      |
+| adFreeLabelText                 | o.Z.color.baseColor.blue900    |
+| hoverBlack                      | a.bs.black(.07)                |
+| navigationBackground            | a.Cj                           |
+| navigationBackground95          | a.bs.white(.03)                |
+| cellBackground                  | a.Cj                           |
+| borderColor                     | o.Z.color.baseColor.gray50     |
+| nestedBorderColor               | o.Z.color.baseColor.gray200    |
+| dmReceivedBubbleBackground      | o.Z.color.baseColor.gray50     |
+| badgeColor                      | o.Z.color.baseColor.blue500    |
+| maskColor                       | a.bs.black(.95)                |
+| hoverLabelColor                 | a.bs.black(.4)                 |
+| elevatedBackground              | a.Cj                           |
+| elevatedBackgroundShadow        | a.bs.black(.6)                 |
+| brandColor                      | o.Z.color.baseColor.blue500    |
+| whiteOnColor                    | a.Cj                           |
+| buttonBlack                     | o.Z.color.baseColor.gray1100   |
+| buttonWhite                     | a.Cj                           |
+| buttonOutlinedBorder            | o.Z.color.baseColor.gray200    |
+| buttonDestructionOutlinedBorder | o.Z.color.baseColor.red100     |
+| appBarBackground                | a.bs.white(.1)                 |
+| appBarFirefoxBackground         | a.bs.white(.85)                |
 
 | constant                   | value                       |
 |:---------------------------|:----------------------------|
@@ -3268,89 +3265,89 @@ This document is entirely auto-generated and may contain errors.<br>
 | gray300                    | #697987                     |
 | gray200                    | #697987                     |
 | gray100                    | #E5EAEC                     |
-| gray50                     | a.Z.color.baseColor.gray200 |
-| gray0                      | a.Z.color.baseColor.gray50  |
-| navigationBackground95     | o.Cj                        |
-| borderColor                | a.Z.color.baseColor.gray300 |
-| nestedBorderColor          | a.Z.color.baseColor.gray300 |
-| dmReceivedBubbleBackground | a.Z.color.baseColor.gray200 |
+| gray50                     | o.Z.color.baseColor.gray200 |
+| gray0                      | o.Z.color.baseColor.gray50  |
+| navigationBackground95     | a.Cj                        |
+| borderColor                | o.Z.color.baseColor.gray300 |
+| nestedBorderColor          | o.Z.color.baseColor.gray300 |
+| dmReceivedBubbleBackground | o.Z.color.baseColor.gray200 |
 | badgeColor                 | #264A9D                     |
-| buttonOutlinedBorder       | a.Z.color.baseColor.gray700 |
+| buttonOutlinedBorder       | o.Z.color.baseColor.gray700 |
 
 | constant                        | value                        |
 |:--------------------------------|:-----------------------------|
 | ...s()                          | _                            |
 | activeFaintGray                 | rgba(r.CV.dark)              |
-| activeBlack                     | o.bs.white(20, 29, 38, 0.7)  |
-| adFreeLabelBackground           | a.Z.color.baseColor.blue1000 |
-| adFreeLabelText                 | a.Z.color.baseColor.blue100  |
-| hoverBlack                      | o.bs.white(.07)              |
+| activeBlack                     | a.bs.white(20, 29, 38, 0.7)  |
+| adFreeLabelBackground           | o.Z.color.baseColor.blue1000 |
+| adFreeLabelText                 | o.Z.color.baseColor.blue100  |
+| hoverBlack                      | a.bs.white(.07)              |
 | navigationBackground            | #15202B                      |
-| navigationBackground95          | o.bs.dim(.03)                |
+| navigationBackground95          | a.bs.dim(.03)                |
 | cellBackground                  | #15202B                      |
 | borderColor                     | #38444D                      |
 | nestedBorderColor               | #38444D                      |
 | dmReceivedBubbleBackground      | #3D5466                      |
-| badgeColor                      | o.Cj                         |
-| maskColor                       | o.bs.gray700(.95)            |
-| hoverLabelColor                 | o.bs.gray700(.4)             |
+| badgeColor                      | a.Cj                         |
+| maskColor                       | a.bs.gray700(.95)            |
+| hoverLabelColor                 | a.bs.gray700(.4)             |
 | elevatedBackground              | #1C2C3C                      |
-| elevatedBackgroundShadow        | o.bs.dim(.8)                 |
-| brandColor                      | o.Cj                         |
-| whiteOnColor                    | o.Cj                         |
-| buttonBlack                     | a.Z.color.baseColor.gray50   |
-| buttonWhite                     | a.Z.color.baseColor.gray1100 |
-| buttonOutlinedBorder            | a.Z.color.baseColor.gray700  |
+| elevatedBackgroundShadow        | a.bs.dim(.8)                 |
+| brandColor                      | a.Cj                         |
+| whiteOnColor                    | a.Cj                         |
+| buttonBlack                     | o.Z.color.baseColor.gray50   |
+| buttonWhite                     | o.Z.color.baseColor.gray1100 |
+| buttonOutlinedBorder            | o.Z.color.baseColor.gray700  |
 | buttonDestructionOutlinedBorder | #67070F                      |
-| appBarBackground                | o.bs.dim(.1)                 |
-| appBarFirefoxBackground         | o.bs.dim(.75)                |
+| appBarBackground                | a.bs.dim(.1)                 |
+| appBarFirefoxBackground         | a.bs.dim(.75)                |
 
 | constant                   | value                        |
 |:---------------------------|:-----------------------------|
 | ...g                       | _                            |
 | ...s()                     | _                            |
-| text                       | o.Cj                         |
+| text                       | a.Cj                         |
 | navigationBackground95     | #15202B                      |
 | unreadCellBackground       | #325D7D                      |
 | dmReceivedBubbleBackground | #B8CBD9                      |
-| badgeColor                 | o.Cj                         |
-| whiteOnColor               | a.Z.color.baseColor.gray1100 |
-| buttonOutlinedBorder       | a.Z.color.baseColor.gray300  |
+| badgeColor                 | a.Cj                         |
+| whiteOnColor               | o.Z.color.baseColor.gray1100 |
+| buttonOutlinedBorder       | o.Z.color.baseColor.gray300  |
 
 | constant                        | value                        |
 |:--------------------------------|:-----------------------------|
 | ...s()                          | _                            |
 | activeFaintGray                 | rgba(r.CV.darker)            |
-| activeBlack                     | o.bs.white(18, 21, 23, 0.7)  |
-| adFreeLabelBackground           | a.Z.color.baseColor.blue1000 |
-| adFreeLabelText                 | a.Z.color.baseColor.blue100  |
-| hoverBlack                      | o.bs.white(.07)              |
-| navigationBackground            | o.E5                         |
-| navigationBackground95          | o.bs.black(.03)              |
-| cellBackground                  | o.E5                         |
+| activeBlack                     | a.bs.white(18, 21, 23, 0.7)  |
+| adFreeLabelBackground           | o.Z.color.baseColor.blue1000 |
+| adFreeLabelText                 | o.Z.color.baseColor.blue100  |
+| hoverBlack                      | a.bs.white(.07)              |
+| navigationBackground            | a.E5                         |
+| navigationBackground95          | a.bs.black(.03)              |
+| cellBackground                  | a.E5                         |
 | unreadCellBackground            | #041722                      |
 | borderColor                     | #2F3336                      |
 | nestedBorderColor               | #2F3336                      |
 | dmReceivedBubbleBackground      | #2F3336                      |
-| badgeColor                      | a.Z.color.darkColor.gray1000 |
-| maskColor                       | o.bs.gray700(.95)            |
-| hoverLabelColor                 | o.bs.gray700(.4)             |
+| badgeColor                      | o.Z.color.darkColor.gray1000 |
+| maskColor                       | a.bs.gray700(.95)            |
+| hoverLabelColor                 | a.bs.gray700(.4)             |
 | elevatedBackground              | #1B2023                      |
-| elevatedBackgroundShadow        | o.bs.black(.8)               |
-| brandColor                      | a.Z.color.darkColor.gray1000 |
-| whiteOnColor                    | o.Cj                         |
-| buttonBlack                     | a.Z.color.baseColor.gray50   |
-| buttonWhite                     | a.Z.color.baseColor.gray1100 |
-| buttonOutlinedBorder            | a.Z.color.baseColor.gray700  |
+| elevatedBackgroundShadow        | a.bs.black(.8)               |
+| brandColor                      | o.Z.color.darkColor.gray1000 |
+| whiteOnColor                    | a.Cj                         |
+| buttonBlack                     | o.Z.color.baseColor.gray50   |
+| buttonWhite                     | o.Z.color.baseColor.gray1100 |
+| buttonOutlinedBorder            | o.Z.color.baseColor.gray700  |
 | buttonDestructionOutlinedBorder | #67070F                      |
-| appBarBackground                | o.bs.black(.1)               |
-| appBarFirefoxBackground         | o.bs.black(.65)              |
+| appBarBackground                | a.bs.black(.1)               |
+| appBarFirefoxBackground         | a.bs.black(.65)              |
 
 | constant                   | value                        |
 |:---------------------------|:-----------------------------|
 | ...v                       | _                            |
 | ...s()                     | _                            |
-| text                       | o.Cj                         |
+| text                       | a.Cj                         |
 | navigationBackground       | #050505                      |
 | navigationBackground95     | #050505                      |
 | cellBackground             | #050505                      |
@@ -3358,9 +3355,9 @@ This document is entirely auto-generated and may contain errors.<br>
 | borderColor                | #3D4145                      |
 | nestedBorderColor          | #3D4145                      |
 | dmReceivedBubbleBackground | #929CA6                      |
-| badgeColor                 | o.Cj                         |
-| whiteOnColor               | a.Z.color.baseColor.gray1100 |
-| buttonOutlinedBorder       | a.Z.color.baseColor.gray300  |
+| badgeColor                 | a.Cj                         |
+| whiteOnColor               | o.Z.color.baseColor.gray1100 |
+| buttonOutlinedBorder       | o.Z.color.baseColor.gray300  |
 
 | constant   | value               |
 |:-----------|:--------------------|
@@ -3400,9 +3397,9 @@ This document is entirely auto-generated and may contain errors.<br>
 | borderRadiiPx       | l       |
 | borderWidths        | u       |
 | borderWidthsPx      | c       |
-| breakpoints         | o       |
+| breakpoints         | a       |
 | componentDimensions | T       |
-| componentZIndices   | a       |
+| componentZIndices   | o       |
 | fontSizes           | f       |
 | fontSizesPx         | v       |
 | fontWeights         | p       |
@@ -3415,7 +3412,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{"..._()":{"scale":"a"}"ot0",b.obn,t,"r"}
+{"..._()":{"scale":"o"}"at0",b.obn,t,"r"}
 ```
 | constant     |   value |
 |:-------------|--------:|
