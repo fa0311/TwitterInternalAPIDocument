@@ -616,6 +616,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | responsive_web_dtime_timelines_directory_enabled                                      | True    |
 | responsive_web_dtime_timelines_preview_enabled                                        | True    |
 | responsive_web_dtime_tpat_enabled                                                     | True    |
+| responsive_web_dynamic_product_ads_enabled                                            | True    |
 | responsive_web_edit_tweet_api_enabled                                                 | True    |
 | responsive_web_edit_tweet_composition_enabled                                         | True    |
 | responsive_web_edit_tweet_enabled                                                     | True    |
@@ -712,13 +713,14 @@ This document is entirely auto-generated and may contain errors.<br>
 | responsive_web_nft_avatar_help_link                                                   | True    |
 | responsive_web_notifications_empty_state_redesign_variant                             | True    |
 | responsive_web_ntab_verified_mentions_vit_internal_dogfood                            | True    |
-| responsive_web_nux_web_to_app_gating_enabled                                          | True    |
+| responsive_web_nux_web_to_app_drop_gate_enabled                                       | True    |
 | responsive_web_oauth2_consent_flow_enabled                                            | True    |
 | responsive_web_ocf_reportflow_appeals_enabled                                         | True    |
 | responsive_web_ocf_reportflow_dms_enabled                                             | True    |
 | responsive_web_ocf_reportflow_lists_enabled                                           | True    |
 | responsive_web_ocf_reportflow_profiles_enabled                                        | True    |
 | responsive_web_ocf_reportflow_spaces_enabled                                          | True    |
+| responsive_web_ocf_reportflow_suspension_appeals_enabled                              | True    |
 | responsive_web_ocf_reportflow_testers                                                 | True    |
 | responsive_web_ocf_reportflow_tweets_enabled                                          | True    |
 | responsive_web_ocf_sms_autoverify_darkwrite                                           | True    |
@@ -776,8 +778,10 @@ This document is entirely auto-generated and may contain errors.<br>
 | responsive_web_spud_enabled                                                           | True    |
 | responsive_web_sso_redirect_enabled                                                   | True    |
 | responsive_web_ssr_footer_categorized_variant_enabled                                 | True    |
+| responsive_web_static_assets_screen                                                   | True    |
 | responsive_web_suppress_app_button_banner_suppressed                                  | True    |
 | responsive_web_text_conversations_enabled                                             | True    |
+| responsive_web_themed_scrollbars                                                      | True    |
 | responsive_web_third_party_sso_buttons_enabled                                        | True    |
 | responsive_web_timeline_cover_killswitch_enabled                                      | True    |
 | responsive_web_timeline_refetching_on_revisit_enabled                                 | True    |
@@ -792,6 +796,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | responsive_web_tweet_analytics_video_metrics_v2_enabled                               | True    |
 | responsive_web_tweetdeck_menu_item_enabled                                            | True    |
 | responsive_web_twitter_article_compose_enabled                                        | True    |
+| responsive_web_twitter_article_data_v2_enabled                                        | True    |
 | responsive_web_twitter_article_geo_gated                                              | True    |
 | responsive_web_twitter_article_gif_picker_enabled                                     | True    |
 | responsive_web_twitter_article_max_times_show_tweet_banner                            | True    |
@@ -1007,6 +1012,11 @@ This document is entirely auto-generated and may contain errors.<br>
 | yo         | True    |
 | zh         | True    |
 | zh-Hant    | True    |
+
+| constant   | value   |
+|:-----------|:--------|
+| tl         | fil     |
+| no         | nb      |
 
 | constant   | value   |
 |:-----------|:--------|
@@ -1502,6 +1512,11 @@ This document is entirely auto-generated and may contain errors.<br>
 | Checkbox   | checkbox |
 | Follow     | follow   |
 
+| constant   | value   |
+|:-----------|:--------|
+| Tile       | tile    |
+| List       | list    |
+
 | constant   | value     |
 |:-----------|:----------|
 | Always     | always    |
@@ -1632,6 +1647,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | Space                 | space                   |
 | Tweet                 | status                  |
 | User                  | user                    |
+| AppealSuspension      | appealsuspension        |
 
 | constant               | value                    |
 |:-----------------------|:-------------------------|
@@ -2844,6 +2860,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | cardCarouselClickableNavArea                | control |
 | headsUpVariant                              | control |
 | collectionAdsEnabled                        | False   |
+| dynamicProductAdsEnabled                    | False   |
 | shouldConvertCollectionToImageWebsiteCard   | False   |
 | explorerAdsEnabled                          | False   |
 | withEditCallout                             | False   |
