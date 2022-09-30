@@ -434,6 +434,8 @@ This document is entirely auto-generated and may contain errors.<br>
 | enable_label_appealing_misinfo_enabled                                                | True    |
 | enable_label_appealing_sensitive_content_enabled                                      | True    |
 | explore_relaunch_enable_immersive_web                                                 | True    |
+| explore_relaunch_enable_immersive_web_navigation_button                               | True    |
+| explore_relaunch_enable_immersive_web_tap_to_hide                                     | True    |
 | explore_relaunch_enabled                                                              | True    |
 | explore_relaunch_onboarding_bar_show_count                                            | True    |
 | explore_relaunch_updated_scrubber_position                                            | True    |
@@ -620,6 +622,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | responsive_web_edit_tweet_api_enabled                                                 | True    |
 | responsive_web_edit_tweet_composition_enabled                                         | True    |
 | responsive_web_edit_tweet_enabled                                                     | True    |
+| responsive_web_edit_tweet_upsell_enabled                                              | True    |
 | responsive_web_element_size_impression_scribe_enabled                                 | True    |
 | responsive_web_enhance_cards_enabled                                                  | True    |
 | responsive_web_eu_countries                                                           | True    |
@@ -636,7 +639,6 @@ This document is entirely auto-generated and may contain errors.<br>
 | responsive_web_frame_scheduler_enabled                                                | True    |
 | responsive_web_framerate_tracking_home_enabled                                        | True    |
 | responsive_web_gaggle_site_enabled                                                    | True    |
-| responsive_web_graphql_bookmarks                                                      | True    |
 | responsive_web_graphql_conversations_enabled                                          | True    |
 | responsive_web_graphql_dark_reads_probability                                         | True    |
 | responsive_web_graphql_feedback                                                       | True    |
@@ -644,7 +646,6 @@ This document is entirely auto-generated and may contain errors.<br>
 | responsive_web_graphql_home_latest_enabled                                            | True    |
 | responsive_web_graphql_likes_timeline                                                 | True    |
 | responsive_web_graphql_media_timeline                                                 | True    |
-| responsive_web_graphql_mutation_bookmarks                                             | True    |
 | responsive_web_graphql_relay_users                                                    | True    |
 | responsive_web_graphql_timeline_navigation_enabled                                    | False   |
 | responsive_web_graphql_topic_timeline_enabled                                         | True    |
@@ -789,16 +790,15 @@ This document is entirely auto-generated and may contain errors.<br>
 | responsive_web_timeline_relay_user_lists_enabled                                      | False   |
 | responsive_web_tracer_global_trace_sample_rate                                        | True    |
 | responsive_web_trends_setting_new_endpoints                                           | True    |
-| responsive_web_trigger_test_backoff_on_bookmark                                       | True    |
 | responsive_web_tweet_analytics_m2_enabled                                             | True    |
 | responsive_web_tweet_analytics_m3_enabled                                             | True    |
 | responsive_web_tweet_analytics_promoted_audience_demographics_enabled                 | True    |
 | responsive_web_tweet_analytics_video_metrics_v2_enabled                               | True    |
 | responsive_web_tweetdeck_menu_item_enabled                                            | True    |
 | responsive_web_twitter_article_compose_enabled                                        | True    |
+| responsive_web_twitter_article_cover_aspect_ratio_5_2                                 | True    |
 | responsive_web_twitter_article_data_v2_enabled                                        | True    |
 | responsive_web_twitter_article_geo_gated                                              | True    |
-| responsive_web_twitter_article_gif_picker_enabled                                     | True    |
 | responsive_web_twitter_article_max_times_show_tweet_banner                            | True    |
 | responsive_web_twitter_article_tweet_other_notes_enabled                              | True    |
 | responsive_web_twitter_article_tweet_own_notes_enabled                                | True    |
@@ -924,6 +924,8 @@ This document is entirely auto-generated and may contain errors.<br>
 | ucpd_enabled                                                                          | True    |
 | unified_cards_ad_metadata_container_dynamic_card_content_query_enabled                | True    |
 | unified_cards_collection_ads_convert_to_image_website_card                            | True    |
+| unified_cards_dpa_cta_button_enabled                                                  | True    |
+| unified_cards_dpa_metadata_enabled                                                    | True    |
 | unified_cards_follow_card_consumption_enabled                                         | True    |
 | user_display_name_max_limit                                                           | True    |
 | verified_phone_label_enabled                                                          | True    |
@@ -946,6 +948,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | voice_rooms_typeahead_audiospace_ring_enabled                                         | True    |
 | web_video_bitrate_persistence_enabled                                                 | True    |
 | web_video_caption_repositioning_enabled                                               | True    |
+| web_video_hd_badge_enabled                                                            | False   |
 | web_video_hls_android_mse_enabled                                                     | True    |
 | web_video_hls_mp4_threshold_sec                                                       | True    |
 | web_video_hls_variant_version                                                         | True    |
@@ -2862,6 +2865,8 @@ This document is entirely auto-generated and may contain errors.<br>
 | collectionAdsEnabled                        | False   |
 | dynamicProductAdsEnabled                    | False   |
 | shouldConvertCollectionToImageWebsiteCard   | False   |
+| dpaMetadataEnabled                          | False   |
+| dpaCtaEnabled                               | False   |
 | explorerAdsEnabled                          | False   |
 | withEditCallout                             | False   |
 | withEdgeToEdgeContent                       | False   |
