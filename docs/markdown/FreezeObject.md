@@ -229,6 +229,16 @@ This document is entirely auto-generated and may contain errors.<br>
 | SwitchToAppFooter       | switch-to-app-footer       |
 | UseApp                  | use-app                    |
 | UseAppExtended          | use-app-extended           |
+| SwitchToAppHigh7        | switch_to_app_high_7       |
+| SwitchToAppHigh1        | switch_to_app_high_1       |
+| SwitchToAppHigh2        | switch_to_app_high_2       |
+| SwitchToAppHigh3        | switch_to_app_high_3       |
+| SwitchToAppHigh5        | switch_to_app_high_5       |
+| SwitchToAppLow7         | switch_to_app_low_7        |
+| SwitchToAppLow1         | switch_to_app_low_1        |
+| SwitchToAppLow3         | switch_to_app_low_3        |
+| SwitchToAppLow5         | switch_to_app_low_5        |
+| SwitchToAppLow9         | switch_to_app_low_9        |
 
 | constant     | value         |
 |:-------------|:--------------|
@@ -247,7 +257,6 @@ This document is entirely auto-generated and may contain errors.<br>
 | AddToMoment           | AddToMoment           |
 | ViewTweetActivity     | ViewTweetActivity     |
 | Autoplay              | Autoplay              |
-| BookmarkToFolder      | bookmark_to_folder    |
 | ConversationControls  | conversation_controls |
 | Delete                | delete                |
 | ReplyDownvote         | ReplyDownVote         |
@@ -334,6 +343,8 @@ This document is entirely auto-generated and may contain errors.<br>
 | arkose_challenge_lo_web_notification_dev                                              | True    |
 | arkose_challenge_lo_web_notification_mobile_prod                                      | True    |
 | arkose_challenge_lo_web_notification_prod                                             | True    |
+| arkose_challenge_login_web_devel                                                      | True    |
+| arkose_challenge_login_web_prod                                                       | True    |
 | arkose_challenge_open_app_dev                                                         | True    |
 | arkose_challenge_open_app_prod                                                        | True    |
 | arkose_challenge_signup_mobile_dev                                                    | True    |
@@ -451,6 +462,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | graphql_mutation_retweet_mode                                                         | True    |
 | graphql_mutation_unretweet_mode                                                       | True    |
 | graphql_mutation_update_mode                                                          | True    |
+| graphql_timeline_v2_bookmark_timeline                                                 | True    |
 | graphql_timeline_v2_query_threaded_conversation_with_injections                       | True    |
 | graphql_timeline_v2_user_favorites_by_time_timeline                                   | True    |
 | graphql_timeline_v2_user_media_timeline                                               | True    |
@@ -501,8 +513,6 @@ This document is entirely auto-generated and may contain errors.<br>
 | ocf_2fa_enrollment_enabled                                                            | True    |
 | ocf_2fa_unenrollment_enabled                                                          | True    |
 | onboarding_connect_tab_urt_graphql_enabled                                            | True    |
-| onboarding_enter_username_hidden_prefill_enabled                                      | True    |
-| onboarding_enter_username_hidden_skip_enabled                                         | True    |
 | onboarding_project_uls_enabled                                                        | True    |
 | papago_tweet_translation_from_korean_entity_protected                                 | True    |
 | papago_tweet_translation_from_korean_entity_protected_destinations                    | True    |
@@ -551,6 +561,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | responsive_web_behavioral_events_enabled                                              | True    |
 | responsive_web_behavioral_events_home_enabled                                         | True    |
 | responsive_web_behavioral_events_htl_breadcrumbs                                      | True    |
+| responsive_web_behavioral_events_session_id_enabled                                   | True    |
 | responsive_web_behavioral_events_target_view_v2_enabled                               | True    |
 | responsive_web_birdwatch_aliases_enabled                                              | True    |
 | responsive_web_birdwatch_appeals_enabled                                              | True    |
@@ -779,7 +790,6 @@ This document is entirely auto-generated and may contain errors.<br>
 | responsive_web_spud_enabled                                                           | True    |
 | responsive_web_sso_redirect_enabled                                                   | True    |
 | responsive_web_ssr_footer_categorized_variant_enabled                                 | True    |
-| responsive_web_static_assets_screen                                                   | True    |
 | responsive_web_suppress_app_button_banner_suppressed                                  | True    |
 | responsive_web_text_conversations_enabled                                             | True    |
 | responsive_web_themed_scrollbars                                                      | True    |
@@ -832,6 +842,8 @@ This document is entirely auto-generated and may contain errors.<br>
 | rweb_reply_downvote_inline_education                                                  | True    |
 | rweb_reply_downvote_inline_survey                                                     | True    |
 | rweb_reply_downvote_nux_inline_days                                                   | True    |
+| rweb_update_fatigue_switch_to_app_day_timeout                                         | True    |
+| rweb_update_fatigue_switch_to_app_link                                                | True    |
 | rweb_video_tagging_enabled                                                            | True    |
 | sc_r4_enabled                                                                         | True    |
 | scribe_api_error_sample_size                                                          | True    |
@@ -843,12 +855,14 @@ This document is entirely auto-generated and may contain errors.<br>
 | sensitive_tweet_warnings_enabled                                                      | True    |
 | settings_revamp_search_bar_enabled                                                    | True    |
 | share_animation_after_like_enabled                                                    | True    |
+| shortened_tracking_parameters_mapping                                                 | True    |
 | smbo_legacy_pac_is_in_follow_position_test                                            | True    |
 | social_context_and_topic_context_refresh_alignment_enabled                            | True    |
 | spaces_2022_h2_clipping                                                               | True    |
 | spaces_2022_h2_clipping_consumption                                                   | True    |
 | spaces_2022_h2_clipping_duration_seconds                                              | True    |
 | spaces_2022_h2_follow_host                                                            | True    |
+| spaces_2022_h2_reactions_web_send                                                     | True    |
 | spaces_2022_h2_spacebar                                                               | True    |
 | spaces_2022_h2_spacebar_use_mock_data                                                 | True    |
 | spaces_2022_h2_spacebar_web_sidebar                                                   | True    |
@@ -856,6 +870,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | spaces_2022_h2_spacebar_web_use_topnavbar                                             | True    |
 | spaces_2022_h2_spaces_communities                                                     | True    |
 | standardized_nudges_misinfo                                                           | True    |
+| standardized_nudges_toxicity                                                          | True    |
 | stateful_login_enabled                                                                | True    |
 | subscriptions_blue_premium_labeling_enabled                                           | True    |
 | subscriptions_enabled                                                                 | True    |
@@ -921,6 +936,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | tweet_limited_actions_config_soft_nudge_with_quote_tweet                              | True    |
 | tweet_translation_timeline_enabled                                                    | True    |
 | tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled               | True    |
+| tweetypie_unmention_optimization_enabled                                              | True    |
 | ucpd_enabled                                                                          | True    |
 | unified_cards_ad_metadata_container_dynamic_card_content_query_enabled                | True    |
 | unified_cards_collection_ads_convert_to_image_website_card                            | True    |
@@ -939,7 +955,6 @@ This document is entirely auto-generated and may contain errors.<br>
 | voice_rooms_expanded_dock                                                             | True    |
 | voice_rooms_expanded_dock_reactions                                                   | True    |
 | voice_rooms_host_analytics_enabled                                                    | True    |
-| voice_rooms_reactions_enabled                                                         | True    |
 | voice_rooms_recent_search_audiospace_ring_enabled                                     | True    |
 | voice_rooms_replay_consumption                                                        | True    |
 | voice_rooms_search_results_page_audiospace_ring_enabled                               | True    |
@@ -1155,80 +1170,6 @@ This document is entirely auto-generated and may contain errors.<br>
 | Partner    |       2 |
 | Market     |       3 |
 | Access     |       4 |
-
-|   constant | value                                         |
-|-----------:|:----------------------------------------------|
-|         01 | twcamp^share\|twsrc^android\|twgr^sms         |
-|         02 | twcamp^share\|twsrc^android\|twgr^email       |
-|         03 | twcamp^share\|twsrc^android\|twgr^gmail       |
-|         04 | twcamp^share\|twsrc^android\|twgr^facebook    |
-|         05 | twcamp^share\|twsrc^android\|twgr^wechat      |
-|         06 | twcamp^share\|twsrc^android\|twgr^line        |
-|         07 | twcamp^share\|twsrc^android\|twgr^fbmessenger |
-|         08 | twcamp^share\|twsrc^android\|twgr^whatsapp    |
-|         09 | twcamp^share\|twsrc^android\|twgr^other       |
-|         10 | twcamp^share\|twsrc^ios\|twgr^sms             |
-|         11 | twcamp^share\|twsrc^ios\|twgr^email           |
-|         12 | twcamp^share\|twsrc^ios\|twgr^other           |
-|         13 | twcamp^share\|twsrc^android\|twgr^download    |
-|         14 | twcamp^share\|twsrc^ios\|twgr^download        |
-|         15 | twcamp^share\|twsrc^android\|twgr^hangouts    |
-|         16 | twcamp^share\|twsrc^android\|twgr^twitterdm   |
-|         17 | twcamp^share\|twsrc^m5\|twgr^email            |
-|         18 | twcamp^share\|twsrc^m5\|twgr^download         |
-|         19 | twcamp^share\|twsrc^android\|twgr^copy        |
-|         20 | twcamp^share\|twsrc^m5\|twgr^copy             |
-|         21 | twcamp^share\|twsrc^ios\|twgr^copy            |
-|         22 | twcamp^share\|twsrc^ios\|twgr^snapchat        |
-|         23 | twcamp^share\|twsrc^android\|twgr^snapchat    |
-|         24 | twcamp^share\|twsrc^ios\|twgr^whatsapp        |
-|         25 | twcamp^share\|twsrc^ios\|twgr^fbmessenger     |
-|         26 | twcamp^share\|twsrc^ios\|twgr^facebook        |
-|         27 | twcamp^share\|twsrc^ios\|twgr^gmail           |
-|         28 | twcamp^share\|twsrc^ios\|twgr^telegram        |
-|         29 | twcamp^share\|twsrc^ios\|twgr^line            |
-|         30 | twcamp^share\|twsrc^ios\|twgr^viber           |
-|         31 | twcamp^share\|twsrc^android\|twgr^slack       |
-|         32 | twcamp^share\|twsrc^android\|twgr^kakao       |
-|         33 | twcamp^share\|twsrc^android\|twgr^discord     |
-|         34 | twcamp^share\|twsrc^android\|twgr^reddit      |
-|         35 | twcamp^share\|twsrc^android\|twgr^telegram    |
-|         36 | twcamp^share\|twsrc^android\|twgr^instagram   |
-|         37 | twcamp^share\|twsrc^android\|twgr^daum        |
-|         38 | twcamp^share\|twsrc^ios\|twgr^instagram       |
-|         39 | twcamp^share\|twsrc^ios\|twgr^linkedin        |
-|         40 | twcamp^share\|twsrc^android\|twgr^linkedin    |
-|         41 | twcamp^share\|twsrc^gryphon\|twgr^copy        |
-|         42 | twcamp^share\|twsrc^iphone\|twgr^sms          |
-|         43 | twcamp^share\|twsrc^iphone\|twgr^email        |
-|         44 | twcamp^share\|twsrc^iphone\|twgr^other        |
-|         45 | twcamp^share\|twsrc^iphone\|twgr^download     |
-|         46 | twcamp^share\|twsrc^iphone\|twgr^copy         |
-|         47 | twcamp^share\|twsrc^iphone\|twgr^snapchat     |
-|         48 | twcamp^share\|twsrc^iphone\|twgr^whatsapp     |
-|         49 | twcamp^share\|twsrc^iphone\|twgr^fbmessenger  |
-|         50 | twcamp^share\|twsrc^iphone\|twgr^facebook     |
-|         51 | twcamp^share\|twsrc^iphone\|twgr^gmail        |
-|         52 | twcamp^share\|twsrc^iphone\|twgr^telegram     |
-|         53 | twcamp^share\|twsrc^iphone\|twgr^line         |
-|         54 | twcamp^share\|twsrc^iphone\|twgr^viber        |
-|         55 | twcamp^share\|twsrc^iphone\|twgr^instagram    |
-|         56 | twcamp^share\|twsrc^iphone\|twgr^linkedin     |
-|         57 | twcamp^share\|twsrc^ipad\|twgr^sms            |
-|         58 | twcamp^share\|twsrc^ipad\|twgr^email          |
-|         59 | twcamp^share\|twsrc^ipad\|twgr^other          |
-|         60 | twcamp^share\|twsrc^ipad\|twgr^download       |
-|         61 | twcamp^share\|twsrc^ipad\|twgr^copy           |
-|         62 | twcamp^share\|twsrc^ipad\|twgr^snapchat       |
-|         63 | twcamp^share\|twsrc^ipad\|twgr^whatsapp       |
-|         64 | twcamp^share\|twsrc^ipad\|twgr^fbmessenger    |
-|         65 | twcamp^share\|twsrc^ipad\|twgr^facebook       |
-|         66 | twcamp^share\|twsrc^ipad\|twgr^gmail          |
-|         67 | twcamp^share\|twsrc^ipad\|twgr^telegram       |
-|         68 | twcamp^share\|twsrc^ipad\|twgr^line           |
-|         69 | twcamp^share\|twsrc^ipad\|twgr^viber          |
-|         70 | twcamp^share\|twsrc^ipad\|twgr^instagram      |
-|         71 | twcamp^share\|twsrc^ipad\|twgr^linkedin       |
 
 | constant     | value         |
 |:-------------|:--------------|
