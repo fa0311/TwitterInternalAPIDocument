@@ -34,8 +34,8 @@
   },
   {
     "n": "83718",
-    "func_name": "v",
-    "func_name_init": "f",
+    "func_name": "f",
+    "func_name_init": "v",
     "query": {
       "id": "t"
     },
@@ -226,7 +226,7 @@
   {
     "n": "17577",
     "func_name": "w",
-    "func_name_init": "v",
+    "func_name_init": "f",
     "query": {
       "tweet_id": "s",
       "...()&&": {
@@ -246,7 +246,7 @@
   {
     "n": "17577",
     "func_name": "w",
-    "func_name_init": "v",
+    "func_name_init": "f",
     "query": {
       "tweet_id": "s",
       "comparison_id": "t",
@@ -301,7 +301,7 @@
   },
   {
     "n": "21582",
-    "func_name": "f",
+    "func_name": "v",
     "func_name_init": "y",
     "query": {
       "tweet_id": "i"
@@ -587,8 +587,8 @@
   },
   {
     "n": "24627",
-    "func_name": "vc",
-    "func_name_init": "fc",
+    "func_name": "fc",
+    "func_name_init": "vc",
     "query": {
       "tweetId": "r",
       "count": "n",
@@ -782,7 +782,7 @@
       "...()(0,g.S)": "_"
     },
     "exports": {
-      "queryId": "PzgyCZHOMZ1jfWYkhOIZpw",
+      "queryId": "b5mjd5JvWAIP8s0eAdE6jg",
       "operationName": "BirdwatchCreateNote",
       "operationType": "mutation",
       "metadata": {
@@ -1141,7 +1141,7 @@
   {
     "n": "34933",
     "func_name": "wt",
-    "func_name_init": "vt",
+    "func_name_init": "ft",
     "query": {
       "count": "n",
       "cursor": "i",
@@ -1173,7 +1173,7 @@
   },
   {
     "n": "4803",
-    "func_name": "ft",
+    "func_name": "vt",
     "func_name_init": "yt",
     "query": {
       "bookmark_collection_id": "n",
@@ -1687,7 +1687,7 @@
   },
   {
     "n": "13219",
-    "func_name": "fi",
+    "func_name": "vi",
     "func_name_init": "yi",
     "query": {
       "communityId": "n.communityId",
@@ -1728,7 +1728,7 @@
   {
     "n": "5987",
     "func_name": "wi",
-    "func_name_init": "vi",
+    "func_name_init": "fi",
     "query": {
       "communityId": "n.communityId",
       "ruleId": "n.ruleId",
@@ -2042,8 +2042,8 @@
   },
   {
     "n": "65314",
-    "func_name": "vr",
-    "func_name_init": "fr",
+    "func_name": "fr",
+    "func_name_init": "vr",
     "query": {
       "count": "n",
       "cursor": "i",
@@ -2476,7 +2476,7 @@
   },
   {
     "n": "73589",
-    "func_name": "fa",
+    "func_name": "va",
     "func_name_init": "ya",
     "query": {
       "listId": "r",
@@ -2554,7 +2554,7 @@
   {
     "n": "48207",
     "func_name": "wa",
-    "func_name_init": "va",
+    "func_name_init": "fa",
     "query": {
       "listId": "r",
       "...()(0,g.S)": "_"
@@ -3409,7 +3409,7 @@
     "func_name_init": "ul",
     "query": {
       "post_tweet_request": "r",
-      "execute_at": "fl()"
+      "execute_at": "vl()"
     },
     "exports": {
       "queryId": "LCVzRQGxOaGnOnYH01NQXg",
@@ -3444,7 +3444,7 @@
     "query": {
       "scheduled_tweet_id": "i",
       "post_tweet_request": "a",
-      "execute_at": "fl()"
+      "execute_at": "vl()"
     },
     "exports": {
       "queryId": "_mHkQ5LHpRRjSXKOcG6eZw",
@@ -3458,7 +3458,7 @@
   {
     "n": "12175",
     "func_name": "wl",
-    "func_name_init": "vl",
+    "func_name_init": "fl",
     "query": {},
     "exports": {
       "queryId": "vJ-XatpmQSG8bDch8-t9Jw",
@@ -3775,8 +3775,8 @@
   },
   {
     "n": "5380",
-    "func_name": "vd",
-    "func_name_init": "fd",
+    "func_name": "fd",
+    "func_name_init": "vd",
     "query": {
       "topicId": "i"
     },
@@ -4372,7 +4372,7 @@
   },
   {
     "n": "11272",
-    "func_name": "fu",
+    "func_name": "vu",
     "func_name_init": "yu",
     "query": {
       "withCommunitiesMemberships": "t.isTrue()",
