@@ -368,6 +368,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | c9s_edit_moderators_enabled                                                           | True    |
 | c9s_enabled                                                                           | True    |
 | c9s_highlight_tweet_enabled                                                           | True    |
+| c9s_list_members_action_api_enabled                                                   | True    |
 | c9s_logged_out_access_enabled                                                         | True    |
 | c9s_max_community_description_length                                                  | True    |
 | c9s_max_community_name_length                                                         | True    |
@@ -455,8 +456,6 @@ This document is entirely auto-generated and may contain errors.<br>
 | focused_timeline_actions_onboarding_likes                                             | True    |
 | follow_nudge_conversation_enabled                                                     | True    |
 | follow_nudge_search_enabled                                                           | True    |
-| followers_management_remove_follower_from_followers_list                              | True    |
-| followers_management_remove_follower_from_profile_screen                              | True    |
 | graphql_composer_and_dm_card_previews_enabled                                         | True    |
 | graphql_is_translatable_rweb_tweet_is_translatable_enabled                            | True    |
 | graphql_mutation_destroy_mode                                                         | True    |
@@ -472,6 +471,8 @@ This document is entirely auto-generated and may contain errors.<br>
 | gryphon_optout_in_settings                                                            | True    |
 | guest_broadcasting_timeline_decorations_enabled                                       | True    |
 | hashflags_animation_like_button_enabled                                               | True    |
+| home_timeline_extended_reactivity_tweet_clicks_enabled                                | True    |
+| home_timeline_extended_reactivity_tweet_clicks_trigger_seconds                        | True    |
 | home_timeline_feedback_immediate_dismiss_enabled                                      | True    |
 | home_timeline_feedback_immediate_dismiss_treatment                                    | True    |
 | home_timeline_latest_timeline_switch_enabled                                          | True    |
@@ -678,9 +679,11 @@ This document is entirely auto-generated and may contain errors.<br>
 | responsive_web_install_banner_show_immediate                                          | True    |
 | responsive_web_instream_video_redesign_enabled                                        | True    |
 | responsive_web_instream_video_store_keyed                                             | True    |
+| responsive_web_lbm_v2_replies_enabled                                                 | True    |
 | responsive_web_left_nav_refresh_connect_enabled                                       | True    |
 | responsive_web_left_nav_refresh_topics_enabled                                        | True    |
 | responsive_web_like_by_author_enabled                                                 | True    |
+| responsive_web_like_by_author_new_line                                                | True    |
 | responsive_web_list_tweet_integration_enabled                                         | True    |
 | responsive_web_live_commerce_enabled                                                  | True    |
 | responsive_web_live_video_parity_periscope_auth_enabled                               | True    |
@@ -3335,7 +3338,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant                   | value                        |
 |:---------------------------|:-----------------------------|
-| ...f                       | _                            |
+| ...v                       | _                            |
 | ...s()                     | _                            |
 | text                       | a.Cj                         |
 | navigationBackground       | #050505                      |
@@ -3390,8 +3393,8 @@ This document is entirely auto-generated and may contain errors.<br>
 | breakpoints         | a       |
 | componentDimensions | T       |
 | componentZIndices   | o       |
-| fontSizes           | v       |
-| fontSizesPx         | f       |
+| fontSizes           | f       |
+| fontSizesPx         | v       |
 | fontWeights         | p       |
 | lineHeights         | b       |
 | lineHeightsPx       | _       |
