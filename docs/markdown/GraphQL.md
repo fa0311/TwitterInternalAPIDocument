@@ -707,7 +707,7 @@ Login Required: `Future`<br>
 #### queryId<br>
 `None`<br>
 ## BirdwatchCreateNote<br>
-Request URL: `https://twitter.com/i/api/graphql/PzgyCZHOMZ1jfWYkhOIZpw/BirdwatchCreateNote`<br>
+Request URL: `https://twitter.com/i/api/graphql/b5mjd5JvWAIP8s0eAdE6jg/BirdwatchCreateNote`<br>
 Request Method: `POST`<br>
 Login Required: `Future`<br>
 ### Param<br>
@@ -3187,7 +3187,7 @@ Login Required: `Future`<br>
 | key                | type   | variable   |
 |:-------------------|:-------|:-----------|
 | post_tweet_request | Future | r          |
-| execute_at         | Future | fl()       |
+| execute_at         | Future | vl()       |
 
 #### features<br>
 `None`<br>
@@ -3218,7 +3218,7 @@ Login Required: `Future`<br>
 |:-------------------|:-------|:-----------|
 | scheduled_tweet_id | Future | i          |
 | post_tweet_request | Future | a          |
-| execute_at         | Future | fl()       |
+| execute_at         | Future | vl()       |
 
 #### features<br>
 `None`<br>
