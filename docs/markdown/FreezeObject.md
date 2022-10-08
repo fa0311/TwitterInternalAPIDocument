@@ -325,6 +325,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | limit_trusted_friends_tweet         | tweet_limited_actions_config_limit_trusted_friends_tweet         |
 | soft_nudge_with_quote_tweet         | tweet_limited_actions_config_soft_nudge_with_quote_tweet         |
 | dynamic_product_ad                  | tweet_limited_actions_config_dynamic_product_ad                  |
+| skip_tweet_detail                   | tweet_limited_actions_config_skip_tweet_detail                   |
 
 | constant   | value   |
 |:-----------|:--------|
@@ -384,6 +385,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | c9s_remove_member_list_enabled                                                        | True    |
 | c9s_report_community_enabled                                                          | True    |
 | c9s_rule_management_enabled                                                           | True    |
+| c9s_spotlight_consumption_enabled                                                     | True    |
 | c9s_spotlight_creation_enabled                                                        | True    |
 | c9s_tab_visibility                                                                    | True    |
 | c9s_timelines_default_selection                                                       | True    |
@@ -456,6 +458,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | focused_timeline_actions_onboarding_likes                                             | True    |
 | follow_nudge_conversation_enabled                                                     | True    |
 | follow_nudge_search_enabled                                                           | True    |
+| global_mention_settings_enabled                                                       | True    |
 | graphql_composer_and_dm_card_previews_enabled                                         | True    |
 | graphql_is_translatable_rweb_tweet_is_translatable_enabled                            | True    |
 | graphql_mutation_destroy_mode                                                         | True    |
@@ -472,9 +475,8 @@ This document is entirely auto-generated and may contain errors.<br>
 | guest_broadcasting_timeline_decorations_enabled                                       | True    |
 | hashflags_animation_like_button_enabled                                               | True    |
 | home_timeline_extended_reactivity_tweet_clicks_enabled                                | True    |
+| home_timeline_extended_reactivity_tweet_clicks_fatigue                                | True    |
 | home_timeline_extended_reactivity_tweet_clicks_trigger_seconds                        | True    |
-| home_timeline_feedback_immediate_dismiss_enabled                                      | True    |
-| home_timeline_feedback_immediate_dismiss_treatment                                    | True    |
 | home_timeline_latest_timeline_switch_enabled                                          | True    |
 | home_timeline_like_reactivity_enabled                                                 | True    |
 | home_timeline_like_reactivity_fatigue                                                 | True    |
@@ -636,6 +638,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | responsive_web_edit_tweet_api_enabled                                                 | True    |
 | responsive_web_edit_tweet_composition_enabled                                         | True    |
 | responsive_web_edit_tweet_enabled                                                     | True    |
+| responsive_web_edit_tweet_perspective_enabled                                         | True    |
 | responsive_web_edit_tweet_upsell_enabled                                              | True    |
 | responsive_web_element_size_impression_scribe_enabled                                 | True    |
 | responsive_web_enhance_cards_enabled                                                  | True    |
@@ -679,6 +682,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | responsive_web_install_banner_show_immediate                                          | True    |
 | responsive_web_instream_video_redesign_enabled                                        | True    |
 | responsive_web_instream_video_store_keyed                                             | True    |
+| responsive_web_lbm_v2_home_enabled                                                    | True    |
 | responsive_web_lbm_v2_replies_enabled                                                 | True    |
 | responsive_web_left_nav_refresh_connect_enabled                                       | True    |
 | responsive_web_left_nav_refresh_topics_enabled                                        | True    |
@@ -794,6 +798,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | responsive_web_spud_enabled                                                           | True    |
 | responsive_web_sso_redirect_enabled                                                   | True    |
 | responsive_web_ssr_footer_categorized_variant_enabled                                 | True    |
+| responsive_web_ssr_verified_crawler_rux_injections_enabled                            | True    |
 | responsive_web_suppress_app_button_banner_suppressed                                  | True    |
 | responsive_web_text_conversations_enabled                                             | True    |
 | responsive_web_themed_scrollbars                                                      | True    |
@@ -939,6 +944,8 @@ This document is entirely auto-generated and may contain errors.<br>
 | tweet_limited_actions_config_enabled                                                  | True    |
 | tweet_limited_actions_config_limit_trusted_friends_tweet                              | True    |
 | tweet_limited_actions_config_non_compliant                                            | True    |
+| tweet_limited_actions_config_skip_tweet_detail                                        | True    |
+| tweet_limited_actions_config_skip_tweet_detail_enabled                                | True    |
 | tweet_limited_actions_config_soft_nudge_with_quote_tweet                              | True    |
 | tweet_translation_timeline_enabled                                                    | True    |
 | tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled               | True    |
@@ -969,7 +976,6 @@ This document is entirely auto-generated and may contain errors.<br>
 | voice_rooms_typeahead_audiospace_ring_enabled                                         | True    |
 | web_video_bitrate_persistence_enabled                                                 | True    |
 | web_video_caption_repositioning_enabled                                               | True    |
-| web_video_hd_badge_enabled                                                            | False   |
 | web_video_hls_android_mse_enabled                                                     | True    |
 | web_video_hls_mp4_threshold_sec                                                       | True    |
 | web_video_hls_variant_version                                                         | True    |
@@ -1742,7 +1748,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | MediaPreviewGroupCaption   | media_preview_group_caption          |
 | MediaMonetizationSettings  | media_monetization_settings          |
 | MutedKeywords              | muted_keywords                       |
-| Ocf                        | ocf                                  |
+| OcfTypeaheadSearch         | ocf_typeahead_search                 |
 | SearchBox                  | search_box                           |
 | TrustedFriendsSuggested    | trusted_friends_list_management_page |
 | Unknown                    | unknown                              |
