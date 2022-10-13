@@ -402,6 +402,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | conversation_controls_limited_replies_creation_enabled                                | True    |
 | conversation_controls_persistence_enabled                                             | True    |
 | conversational_safety_heads_up_treatment_A_enabled                                    | True    |
+| dash_region_specific_de_and_tr_media_transparency_items_enabled                       | True    |
 | dash_region_specific_de_media_transparency_items_enabled                              | True    |
 | direct_messages_incremental_holdback_2022h1                                           | True    |
 | dm_conversation_labels_max_pinned_count                                               | True    |
@@ -749,6 +750,9 @@ This document is entirely auto-generated and may contain errors.<br>
 | responsive_web_offscreen_video_scroller_removal_enabled                               | True    |
 | responsive_web_open_app_appbar_button_enabled                                         | True    |
 | responsive_web_open_in_app_prompt_enabled                                             | True    |
+| responsive_web_opengraph_image_tweet_copy_1                                           | True    |
+| responsive_web_opengraph_play_icon_overlay                                            | True    |
+| responsive_web_opengraph_video_tweet_copy_1                                           | True    |
 | responsive_web_original_tweet_nudge_enabled                                           | True    |
 | responsive_web_original_tweet_nudge_show_nudge                                        | True    |
 | responsive_web_original_tweet_nudge_supported_languages                               | True    |
@@ -846,6 +850,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | rito_safety_mode_modal_prompt_enabled                                                 | True    |
 | rito_safety_mode_settings_enabled                                                     | True    |
 | rweb_home_perf_client_prefetch_mode                                                   | True    |
+| rweb_home_perf_prefetch_enabled                                                       | True    |
 | rweb_reply_downvote_before_like                                                       | True    |
 | rweb_reply_downvote_enabled                                                           | True    |
 | rweb_reply_downvote_inline_days                                                       | True    |
@@ -2517,6 +2522,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | LoginVerificationEnrollment      | LoginVerificationEnrollment      |
 | ManageSecurityKey                | ManageSecurityKey                |
 | ManageSubscription               | ManageSubscription               |
+| Mentions                         | Mentions                         |
 | Monetization                     | Monetization                     |
 | MonetizationDashboard            | MonetizationDashboard            |
 | Mute                             | Mute                             |

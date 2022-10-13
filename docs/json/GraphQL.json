@@ -1941,9 +1941,11 @@
     "n": "27548",
     "func_name": "mr",
     "func_name_init": "pr",
-    "query": {},
+    "query": {
+      "visibility": "Discoverable"
+    },
     "exports": {
-      "queryId": "R81Cy35-Qp6oXuFxHo5Jlw",
+      "queryId": "e8QqaKMGCZ2cd4Px4QjzcQ",
       "operationName": "ContentControlToolFetchAll",
       "operationType": "query",
       "metadata": {
