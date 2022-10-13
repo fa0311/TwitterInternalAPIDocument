@@ -1794,12 +1794,15 @@ Login Required: `Future`<br>
 #### queryId<br>
 `None`<br>
 ## ContentControlToolFetchAll<br>
-Request URL: `https://twitter.com/i/api/graphql/R81Cy35-Qp6oXuFxHo5Jlw/ContentControlToolFetchAll`<br>
+Request URL: `https://twitter.com/i/api/graphql/e8QqaKMGCZ2cd4Px4QjzcQ/ContentControlToolFetchAll`<br>
 Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
 #### variables<br>
-`None`<br>
+| key        | type   | variable     |
+|:-----------|:-------|:-------------|
+| visibility | Future | Discoverable |
+
 #### features<br>
 `None`<br>
 #### queryId<br>
