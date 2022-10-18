@@ -111,6 +111,11 @@ This document is entirely auto-generated and may contain errors.<br>
 | result     | []                          |
 | entities   | {'contentControlTools': {}} |
 
+| constant   | value   |
+|:-----------|:--------|
+| Enabled    | Enabled |
+| None       | None    |
+
 | constant   | value       |
 |:-----------|:------------|
 | BEHAVIORAL | behavioral  |
@@ -133,12 +138,6 @@ This document is entirely auto-generated and may contain errors.<br>
 | altSvc                  | altSvc                  |
 | initGeoLocation         | initGeoLocation         |
 | AudioModule             | AudioModule             |
-
-| constant   | value   |
-|:-----------|:--------|
-| NONE       | none    |
-| DEFAULT    | default |
-| ALL        | all     |
 
 | constant                  | value                     |
 |:--------------------------|:--------------------------|
@@ -503,7 +502,6 @@ This document is entirely auto-generated and may contain errors.<br>
 | live_event_timeline_minimum_refresh_rate_interval_seconds                             | True    |
 | live_event_timeline_server_controlled_refresh_rate_enabled                            | True    |
 | livepipeline_client_enabled                                                           | True    |
-| livepipeline_dm_features_enabled                                                      | True    |
 | livepipeline_tweetengagement_enabled                                                  | True    |
 | longform_ad_free_articles_badging_enabled                                             | True    |
 | longform_top_articles_friends_of_friends_enabled                                      | True    |
@@ -595,6 +593,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | responsive_web_birdwatch_traffic_lights_enabled                                       | True    |
 | responsive_web_branch_cpid_enabled                                                    | True    |
 | responsive_web_branch_sdk_enabled                                                     | True    |
+| responsive_web_captions_always_display_enabled                                        | True    |
 | responsive_web_card_conversion_hoisted                                                | True    |
 | responsive_web_card_preconnect_enabled                                                | True    |
 | responsive_web_card_preload_mode                                                      | True    |
@@ -850,7 +849,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | rito_safety_mode_modal_prompt_enabled                                                 | True    |
 | rito_safety_mode_settings_enabled                                                     | True    |
 | rweb_home_perf_client_prefetch_mode                                                   | True    |
-| rweb_home_perf_prefetch_enabled                                                       | True    |
+| rweb_home_perf_client_prefetch_timeout_ms                                             | True    |
 | rweb_reply_downvote_before_like                                                       | True    |
 | rweb_reply_downvote_enabled                                                           | True    |
 | rweb_reply_downvote_inline_days                                                       | True    |
@@ -962,6 +961,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | unified_cards_collection_ads_convert_to_image_website_card                            | True    |
 | unified_cards_dpa_cta_button_enabled                                                  | True    |
 | unified_cards_dpa_metadata_enabled                                                    | True    |
+| unified_cards_dpa_placeholder_media_key                                               | True    |
 | unified_cards_follow_card_consumption_enabled                                         | True    |
 | user_display_name_max_limit                                                           | True    |
 | verified_phone_label_enabled                                                          | True    |
@@ -1057,9 +1057,10 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant   | value   |
 |:-----------|:--------|
-| nudge      | Nudge   |
-| prompt     | Prompt  |
-| require    | Require |
+| None       | None    |
+| Nudge      | Nudge   |
+| Prompt     | Prompt  |
+| Require    | Require |
 
 | constant   | value                                                    |
 |:-----------|:---------------------------------------------------------|
@@ -1643,12 +1644,12 @@ This document is entirely auto-generated and may contain errors.<br>
 | PENDING    | Pending   |
 | SCHEDULED  | Scheduled |
 
-| constant        | value                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
-|:----------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| ItemType        | {'TWEET': '0', 'USER': '3', 'ACTIVITY': '5', 'MESSAGE': '6', 'STORY': '7', 'TREND': '8', 'LIST': '11', 'SEARCH': '12', 'SAVED_SEARCH': '13', 'PEOPLE_SEARCH': '14', 'EVENT': '16', 'CUSTOM_TIMELINE': '17', 'GEO_DETAILS': '19', 'NOTIFICATION_DETAILS': '20', 'CONTACT': '21', 'STREAM': '22', 'QUOTED_TWEET': '23', 'COMMERCE_PAGE': '24', 'CARD': '25', 'TCO_RESOLUTION': '26', 'FEEDBACK_REQUEST': '27', 'LIVE_VIDEO_EVENT': '28', 'CAROUSEL': '29', 'STICKER': '31', 'STICKER_GROUP': '32', 'SELF_THREAD': '33', 'PERISCOPE_BROADCAST': '34', 'HARDWARE_INFO': '35', 'TOPIC': '36', 'FLEET': '37', 'AUDIO_SPACE': '38', 'BIRDWATCH_PIVOT': '39', 'IN_APP_PURCHASE': '40', 'GRYPHON': '41', 'RELEVANCE_PROMPT': '45', 'ARTICLE': '51'} |
-| CardType        | {'PHOTO_TWEET': '1', 'PHOTO_CARD': '2', 'PLAYER_CARD': '3', 'SUMMARY_CARD': '4', 'PROMOTION_CARD': '5', 'PLUS_CARD': '6'}                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
-| AssociationType | {'ASSOCIATED_TWEET': '1', 'PLATFORM_CARD_PUBLISHER': '2', 'PLATFORM_CARD_CREATOR': '3', 'CONVERSATION_ORIGIN': '4', 'ASSOCIATED_USER': '5', 'ASSOCIATED_TIMELINE': '6'}                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
-| EventInitiator  | {'CLIENT_SIDE_USER': '0', 'SERVER_SIDE_USER': '1', 'CLIENT_SIDE_APP': '2', 'SERVER_SIDE_APP': '3'}                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+| constant        | value                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+|:----------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| ItemType        | {'TWEET': '0', 'USER': '3', 'ACTIVITY': '5', 'MESSAGE': '6', 'STORY': '7', 'TREND': '8', 'LIST': '11', 'SEARCH': '12', 'SAVED_SEARCH': '13', 'PEOPLE_SEARCH': '14', 'EVENT': '16', 'CUSTOM_TIMELINE': '17', 'GEO_DETAILS': '19', 'NOTIFICATION_DETAILS': '20', 'CONTACT': '21', 'STREAM': '22', 'QUOTED_TWEET': '23', 'COMMERCE_PAGE': '24', 'CARD': '25', 'TCO_RESOLUTION': '26', 'FEEDBACK_REQUEST': '27', 'LIVE_VIDEO_EVENT': '28', 'CAROUSEL': '29', 'STICKER': '31', 'STICKER_GROUP': '32', 'SELF_THREAD': '33', 'PERISCOPE_BROADCAST': '34', 'HARDWARE_INFO': '35', 'TOPIC': '36', 'FLEET': '37', 'AUDIO_SPACE': '38', 'BIRDWATCH_PIVOT': '39', 'IN_APP_PURCHASE': '40', 'GRYPHON': '41', 'RELEVANCE_PROMPT': '45', 'ARTICLE': '51', 'TOMBSTONE': '55'} |
+| CardType        | {'PHOTO_TWEET': '1', 'PHOTO_CARD': '2', 'PLAYER_CARD': '3', 'SUMMARY_CARD': '4', 'PROMOTION_CARD': '5', 'PLUS_CARD': '6'}                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
+| AssociationType | {'ASSOCIATED_TWEET': '1', 'PLATFORM_CARD_PUBLISHER': '2', 'PLATFORM_CARD_CREATOR': '3', 'CONVERSATION_ORIGIN': '4', 'ASSOCIATED_USER': '5', 'ASSOCIATED_TIMELINE': '6'}                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
+| EventInitiator  | {'CLIENT_SIDE_USER': '0', 'SERVER_SIDE_USER': '1', 'CLIENT_SIDE_APP': '2', 'SERVER_SIDE_APP': '3'}                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
 
 | constant   | value     |
 |:-----------|:----------|
@@ -2177,6 +2178,12 @@ This document is entirely auto-generated and may contain errors.<br>
 # Error
 {"REQUEST":`${"u"}/DECLINE_PENDING_FOLLOWER_REQUEST`,"SUCCESS":`${"u"}/DECLINE_PENDING_FOLLOWER_SUCCESS`,"FAILURE":`${"u"}/DECLINE_PENDING_FOLLOWER_FAILURE`}
 ```
+| constant   | value   |
+|:-----------|:--------|
+| NONE       | none    |
+| CLIENT     | all     |
+| SERVER     | server  |
+
 | constant         | value     |
 |:-----------------|:----------|
 | fetchStatus      | a.ZP.NONE |
@@ -2793,6 +2800,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | UC_APP_STORE_OPEN_LINK     | unified_card_app_store_open_link |
 | USER_SWIPE                 | user_swipe                       |
 | VOTE                       | vote                             |
+| DPA_PLACEHOLDER_SHOW       | dpa_placeholder_card_show        |
 
 | constant                               | value                                  |
 |:---------------------------------------|:---------------------------------------|
@@ -2848,6 +2856,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | shouldConvertCollectionToImageWebsiteCard   | False   |
 | dpaMetadataEnabled                          | False   |
 | dpaCtaEnabled                               | False   |
+| dpaPlaceholderMediaKeys                     | False   |
 | explorerAdsEnabled                          | False   |
 | withEditCallout                             | False   |
 | withEdgeToEdgeContent                       | False   |
