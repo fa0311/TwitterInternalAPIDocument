@@ -22,7 +22,7 @@ json.dumps({
 ```
 `json.dumps` is equivalent to `JSON.stringify` in javaScript<br>
 ## TweetResultByRestId<br>
-Request URL: `https://twitter.com/i/api/graphql/Ip4AI7XLpTbhljE3GqT3Gg/TweetResultByRestId`<br>
+Request URL: `https://twitter.com/i/api/graphql/SDMjYi6DJdOWv6aYXbMIeQ/TweetResultByRestId`<br>
 Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
@@ -264,7 +264,7 @@ Login Required: `Future`<br>
 #### queryId<br>
 `None`<br>
 ## CreateTweet<br>
-Request URL: `https://twitter.com/i/api/graphql/RMQ-ZbfT2iiiyxos06J6sQ/CreateTweet`<br>
+Request URL: `https://twitter.com/i/api/graphql/ZFvWf1O9bWj3SqIgHk7TSA/CreateTweet`<br>
 Request Method: `POST`<br>
 Login Required: `Future`<br>
 ### Param<br>
@@ -295,7 +295,7 @@ Login Required: `Future`<br>
 #### queryId<br>
 `None`<br>
 ## CreateTweet<br>
-Request URL: `https://twitter.com/i/api/graphql/RMQ-ZbfT2iiiyxos06J6sQ/CreateTweet`<br>
+Request URL: `https://twitter.com/i/api/graphql/ZFvWf1O9bWj3SqIgHk7TSA/CreateTweet`<br>
 Request Method: `POST`<br>
 Login Required: `Future`<br>
 ### Param<br>
@@ -401,7 +401,7 @@ Login Required: `Future`<br>
 #### queryId<br>
 `None`<br>
 ## AudioSpaceById<br>
-Request URL: `https://twitter.com/i/api/graphql/P1mzadFYq2mDjGXpzV4WFw/AudioSpaceById`<br>
+Request URL: `https://twitter.com/i/api/graphql/wJ5g4zf7v8qPHSQbaozYuw/AudioSpaceById`<br>
 Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
@@ -515,7 +515,7 @@ Login Required: `Future`<br>
 #### queryId<br>
 `None`<br>
 ## Favoriters<br>
-Request URL: `https://twitter.com/i/api/graphql/y2Y_9hGrQrCFRDv-BRriwA/Favoriters`<br>
+Request URL: `https://twitter.com/i/api/graphql/YAI_drao6cx7_dS_TQ5bLg/Favoriters`<br>
 Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
@@ -548,7 +548,7 @@ Login Required: `Future`<br>
 #### queryId<br>
 `None`<br>
 ## Retweeters<br>
-Request URL: `https://twitter.com/i/api/graphql/VeXOh_kOJy-SjUnjTiReKg/Retweeters`<br>
+Request URL: `https://twitter.com/i/api/graphql/et9I7Fdldmja9W_4zD4KaA/Retweeters`<br>
 Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
@@ -581,7 +581,7 @@ Login Required: `Future`<br>
 #### queryId<br>
 `None`<br>
 ## TweetEditHistory<br>
-Request URL: `https://twitter.com/i/api/graphql/dXwVNCr-cBiv47oDdzrgNQ/TweetEditHistory`<br>
+Request URL: `https://twitter.com/i/api/graphql/vIexq-3NC3yeaJU7Lv5jbA/TweetEditHistory`<br>
 Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
@@ -798,7 +798,7 @@ Login Required: `Future`<br>
 #### queryId<br>
 `None`<br>
 ## BirdwatchFetchContributorNotesSlice<br>
-Request URL: `https://twitter.com/i/api/graphql/lmFMZN3-9PH6uR5dvePBJg/BirdwatchFetchContributorNotesSlice`<br>
+Request URL: `https://twitter.com/i/api/graphql/kHSIhfKs0hwEYvhake1UQA/BirdwatchFetchContributorNotesSlice`<br>
 Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
@@ -828,7 +828,7 @@ Login Required: `Future`<br>
 #### queryId<br>
 `None`<br>
 ## BirdwatchFetchContributorNotesSlice<br>
-Request URL: `https://twitter.com/i/api/graphql/lmFMZN3-9PH6uR5dvePBJg/BirdwatchFetchContributorNotesSlice`<br>
+Request URL: `https://twitter.com/i/api/graphql/kHSIhfKs0hwEYvhake1UQA/BirdwatchFetchContributorNotesSlice`<br>
 Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
@@ -905,7 +905,7 @@ Login Required: `Future`<br>
 #### queryId<br>
 `None`<br>
 ## BirdwatchFetchGlobalTimeline<br>
-Request URL: `https://twitter.com/i/api/graphql/Uehzfc0BvtHUxv9Su9XEHA/BirdwatchFetchGlobalTimeline`<br>
+Request URL: `https://twitter.com/i/api/graphql/MORAvRsh7OxH3stYSmOvKw/BirdwatchFetchGlobalTimeline`<br>
 Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
@@ -1049,7 +1049,7 @@ Login Required: `Future`<br>
 #### queryId<br>
 `None`<br>
 ## Bookmarks<br>
-Request URL: `https://twitter.com/i/api/graphql/TVYJHgTMJRqqPyusw9iPAg/Bookmarks`<br>
+Request URL: `https://twitter.com/i/api/graphql/0lF1MQF85cJunfKB8FVA5g/Bookmarks`<br>
 Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
@@ -1082,7 +1082,7 @@ Login Required: `Future`<br>
 #### queryId<br>
 `None`<br>
 ## BookmarkFolderTimeline<br>
-Request URL: `https://twitter.com/i/api/graphql/Km1LPGlEKSUyozMIodosMg/BookmarkFolderTimeline`<br>
+Request URL: `https://twitter.com/i/api/graphql/a4HSsGv9ysBvBF3c0Y5SJw/BookmarkFolderTimeline`<br>
 Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
@@ -1150,7 +1150,7 @@ Login Required: `Future`<br>
 #### queryId<br>
 `None`<br>
 ## CommunityAboutTimeline<br>
-Request URL: `https://twitter.com/i/api/graphql/HmkZyFd4VKi64QRAJvRz7Q/CommunityAboutTimeline`<br>
+Request URL: `https://twitter.com/i/api/graphql/yE1QmzvgbEcfIYdn4x8qXw/CommunityAboutTimeline`<br>
 Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
@@ -1181,7 +1181,7 @@ Login Required: `Future`<br>
 #### queryId<br>
 `None`<br>
 ## CommunityTweetsTimeline<br>
-Request URL: `https://twitter.com/i/api/graphql/8qMD8UIeU64U1Rf0Hami2Q/CommunityTweetsTimeline`<br>
+Request URL: `https://twitter.com/i/api/graphql/D7Mjny3SAmjN3L8BCp80Ug/CommunityTweetsTimeline`<br>
 Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
@@ -1212,7 +1212,7 @@ Login Required: `Future`<br>
 #### queryId<br>
 `None`<br>
 ## CommunityTweetsRankedTimeline<br>
-Request URL: `https://twitter.com/i/api/graphql/IC8_RQhMDwfN3ajVqx9SBA/CommunityTweetsRankedTimeline`<br>
+Request URL: `https://twitter.com/i/api/graphql/2QNeIIFlSOkGwMGXmfjuFw/CommunityTweetsRankedTimeline`<br>
 Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
@@ -1243,7 +1243,7 @@ Login Required: `Future`<br>
 #### queryId<br>
 `None`<br>
 ## CommunitiesMembershipsTimeline<br>
-Request URL: `https://twitter.com/i/api/graphql/1G7-JGKYWbwjdLiigZO0Qw/CommunitiesMembershipsTimeline`<br>
+Request URL: `https://twitter.com/i/api/graphql/svdrZGTCpxTeSuZD7MUJDg/CommunitiesMembershipsTimeline`<br>
 Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
@@ -1293,7 +1293,7 @@ Login Required: `Future`<br>
 #### queryId<br>
 `None`<br>
 ## CommunityModerationTweetCasesSlice<br>
-Request URL: `https://twitter.com/i/api/graphql/6HjXx59EyX5MKwEuhPrI-A/CommunityModerationTweetCasesSlice`<br>
+Request URL: `https://twitter.com/i/api/graphql/M73SxUO2F-pL89gd-ZyL3Q/CommunityModerationTweetCasesSlice`<br>
 Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
@@ -1323,7 +1323,7 @@ Login Required: `Future`<br>
 #### queryId<br>
 `None`<br>
 ## CommunitiesMainDiscoveryModule<br>
-Request URL: `https://twitter.com/i/api/graphql/XyQsmbgMNai5zqJ5actCew/CommunitiesMainDiscoveryModule`<br>
+Request URL: `https://twitter.com/i/api/graphql/GZbrwMWHwUEESIFk12CBUA/CommunitiesMainDiscoveryModule`<br>
 Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
@@ -1354,7 +1354,7 @@ Login Required: `Future`<br>
 #### queryId<br>
 `None`<br>
 ## CommunitiesMainPageTimeline<br>
-Request URL: `https://twitter.com/i/api/graphql/U6XBg7okXMFkYPzRb8Nm9w/CommunitiesMainPageTimeline`<br>
+Request URL: `https://twitter.com/i/api/graphql/vm57-_XTrAez4hPB2XX4zg/CommunitiesMainPageTimeline`<br>
 Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
@@ -1385,7 +1385,7 @@ Login Required: `Future`<br>
 #### queryId<br>
 `None`<br>
 ## CommunityHashtagsTimeline<br>
-Request URL: `https://twitter.com/i/api/graphql/C95SRqPFunRW142bznuErQ/CommunityHashtagsTimeline`<br>
+Request URL: `https://twitter.com/i/api/graphql/3VQJzkLyRAwhtBNX7qIomQ/CommunityHashtagsTimeline`<br>
 Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
@@ -1416,7 +1416,7 @@ Login Required: `Future`<br>
 #### queryId<br>
 `None`<br>
 ## CommunityDiscoveryTimeline<br>
-Request URL: `https://twitter.com/i/api/graphql/W8cQ06smoHhlWAvotoIeGA/CommunityDiscoveryTimeline`<br>
+Request URL: `https://twitter.com/i/api/graphql/eBxGxkT6cRw_Bbz0cBvfGQ/CommunityDiscoveryTimeline`<br>
 Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
@@ -1752,7 +1752,7 @@ Login Required: `Future`<br>
 #### queryId<br>
 `None`<br>
 ## ContentControlToolFetchOne<br>
-Request URL: `https://twitter.com/i/api/graphql/1SWzL143l7Q5qyZxfCwyWQ/ContentControlToolFetchOne`<br>
+Request URL: `https://twitter.com/i/api/graphql/JD2EtsNFZ3uvvTP_lfn9Bg/ContentControlToolFetchOne`<br>
 Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
@@ -1794,7 +1794,7 @@ Login Required: `Future`<br>
 #### queryId<br>
 `None`<br>
 ## ContentControlToolFetchAll<br>
-Request URL: `https://twitter.com/i/api/graphql/e8QqaKMGCZ2cd4Px4QjzcQ/ContentControlToolFetchAll`<br>
+Request URL: `https://twitter.com/i/api/graphql/nMDl1pqwn1QotVzqPAjjOw/ContentControlToolFetchAll`<br>
 Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
@@ -1808,7 +1808,7 @@ Login Required: `Future`<br>
 #### queryId<br>
 `None`<br>
 ## ContentControlToolFetchAllUserEnabled<br>
-Request URL: `https://twitter.com/i/api/graphql/7drRDTt2JpU5eIuYi4JZig/ContentControlToolFetchAllUserEnabled`<br>
+Request URL: `https://twitter.com/i/api/graphql/kOKEPqQB769u1TI5FJt-tw/ContentControlToolFetchAllUserEnabled`<br>
 Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
@@ -1819,7 +1819,7 @@ Login Required: `Future`<br>
 #### queryId<br>
 `None`<br>
 ## TweetDetail<br>
-Request URL: `https://twitter.com/i/api/graphql/zZXycP0V6H7m-2r0mOnFcA/TweetDetail`<br>
+Request URL: `https://twitter.com/i/api/graphql/ziIYuXgUTmkEc1VLRXClCQ/TweetDetail`<br>
 Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
@@ -1930,7 +1930,7 @@ Login Required: `Future`<br>
 #### queryId<br>
 `None`<br>
 ## DmMutedTimeline<br>
-Request URL: `https://twitter.com/i/api/graphql/G30Ai7Zu3WoRSd11Zf_u9g/DmMutedTimeline`<br>
+Request URL: `https://twitter.com/i/api/graphql/4IMvf5402hy6mOZ9YYPPsw/DmMutedTimeline`<br>
 Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
@@ -2046,7 +2046,7 @@ Login Required: `Future`<br>
 #### queryId<br>
 `None`<br>
 ## ForYouExplore<br>
-Request URL: `https://twitter.com/i/api/graphql/v0KtQhj_774nA8gyXFrYpw/ForYouExplore`<br>
+Request URL: `https://twitter.com/i/api/graphql/4bef-no8SVGigNIOBAQQyQ/ForYouExplore`<br>
 Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
@@ -2077,7 +2077,7 @@ Login Required: `Future`<br>
 #### queryId<br>
 `None`<br>
 ## ImmersiveMedia<br>
-Request URL: `https://twitter.com/i/api/graphql/wCniFbMUvCMcLEcA6UhOUA/ImmersiveMedia`<br>
+Request URL: `https://twitter.com/i/api/graphql/SyVoqpdQvCzaqfuO5FhxXQ/ImmersiveMedia`<br>
 Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
@@ -2108,7 +2108,7 @@ Login Required: `Future`<br>
 #### queryId<br>
 `None`<br>
 ## Followers<br>
-Request URL: `https://twitter.com/i/api/graphql/UO4jGgw1Esq-Llhz_CP6Hg/Followers`<br>
+Request URL: `https://twitter.com/i/api/graphql/eIkDlzdDScwXnmx-DLAFFw/Followers`<br>
 Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
@@ -2141,7 +2141,7 @@ Login Required: `Future`<br>
 #### queryId<br>
 `None`<br>
 ## FollowersYouKnow<br>
-Request URL: `https://twitter.com/i/api/graphql/lWzezmTfBzBrbaXdq4Pk0Q/FollowersYouKnow`<br>
+Request URL: `https://twitter.com/i/api/graphql/fst_oSgW8ko_cgWPXwErHg/FollowersYouKnow`<br>
 Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
@@ -2174,7 +2174,7 @@ Login Required: `Future`<br>
 #### queryId<br>
 `None`<br>
 ## Following<br>
-Request URL: `https://twitter.com/i/api/graphql/rCCF6GkvCnnTPic7mn5rzw/Following`<br>
+Request URL: `https://twitter.com/i/api/graphql/AtFqYE8cdtPsP1o6yduIaw/Following`<br>
 Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
@@ -2207,7 +2207,7 @@ Login Required: `Future`<br>
 #### queryId<br>
 `None`<br>
 ## SuperFollowers<br>
-Request URL: `https://twitter.com/i/api/graphql/BV5vXS5ZT9Ua1WAs4ctDJQ/SuperFollowers`<br>
+Request URL: `https://twitter.com/i/api/graphql/GBFY4Ca6iXes26MXC3sddw/SuperFollowers`<br>
 Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
@@ -2239,7 +2239,7 @@ Login Required: `Future`<br>
 #### queryId<br>
 `None`<br>
 ## ModeratedTimeline<br>
-Request URL: `https://twitter.com/i/api/graphql/HkH2YbYbuHIv-kBoIamJHw/ModeratedTimeline`<br>
+Request URL: `https://twitter.com/i/api/graphql/AX00vdjG1ahSSJnR2QZOuw/ModeratedTimeline`<br>
 Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
@@ -2272,7 +2272,7 @@ Login Required: `Future`<br>
 #### queryId<br>
 `None`<br>
 ## MutedAccounts<br>
-Request URL: `https://twitter.com/i/api/graphql/QZT8MeV9igrYj5HV9UQXWA/MutedAccounts`<br>
+Request URL: `https://twitter.com/i/api/graphql/Zz1uKpGJwIrXAtIQ6ZgcGg/MutedAccounts`<br>
 Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
@@ -2304,7 +2304,7 @@ Login Required: `Future`<br>
 #### queryId<br>
 `None`<br>
 ## GenericTimelineById<br>
-Request URL: `https://twitter.com/i/api/graphql/00p7_kyqVKoQJ3iLsDjAGw/GenericTimelineById`<br>
+Request URL: `https://twitter.com/i/api/graphql/1RrH4Hp6b8Mp44tuqqBjDg/GenericTimelineById`<br>
 Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
@@ -2481,7 +2481,7 @@ Login Required: `Future`<br>
 #### queryId<br>
 `None`<br>
 ## ListMembers<br>
-Request URL: `https://twitter.com/i/api/graphql/LPCQJkEBqTFu0wA2iZcorg/ListMembers`<br>
+Request URL: `https://twitter.com/i/api/graphql/Ynd7nsCn5dHadCvJLxIZDA/ListMembers`<br>
 Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
@@ -2514,7 +2514,7 @@ Login Required: `Future`<br>
 #### queryId<br>
 `None`<br>
 ## ListSubscribers<br>
-Request URL: `https://twitter.com/i/api/graphql/_5cpsIybmlXnIw4GtFOA6Q/ListSubscribers`<br>
+Request URL: `https://twitter.com/i/api/graphql/nVD1qw-Scf5dElHKlXxPmQ/ListSubscribers`<br>
 Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
@@ -2546,7 +2546,7 @@ Login Required: `Future`<br>
 #### queryId<br>
 `None`<br>
 ## ListOwnerships<br>
-Request URL: `https://twitter.com/i/api/graphql/OzJmVVS3T7K0gD9Zmw8w7A/ListOwnerships`<br>
+Request URL: `https://twitter.com/i/api/graphql/Yv8dzJfO3YHnBuD36xL52w/ListOwnerships`<br>
 Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
@@ -2579,7 +2579,7 @@ Login Required: `Future`<br>
 #### queryId<br>
 `None`<br>
 ## ListMemberships<br>
-Request URL: `https://twitter.com/i/api/graphql/8SL46SLG3t8DeUfooX7HtQ/ListMemberships`<br>
+Request URL: `https://twitter.com/i/api/graphql/xXlX2M3mgFJbb6B18PAUIw/ListMemberships`<br>
 Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
@@ -2776,7 +2776,7 @@ Login Required: `Future`<br>
 #### queryId<br>
 `None`<br>
 ## CombinedLists<br>
-Request URL: `https://twitter.com/i/api/graphql/HmScOQbIJSMZbYDXREabmA/CombinedLists`<br>
+Request URL: `https://twitter.com/i/api/graphql/v1hyy-SMx-3N40iTNi0_GQ/CombinedLists`<br>
 Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
@@ -2808,7 +2808,7 @@ Login Required: `Future`<br>
 #### queryId<br>
 `None`<br>
 ## ListsManagementPageTimeline<br>
-Request URL: `https://twitter.com/i/api/graphql/JqQ7EkTZGTpqnrhOPHGZbA/ListsManagementPageTimeline`<br>
+Request URL: `https://twitter.com/i/api/graphql/2gaqoJl13u4kP7v8SIIXNQ/ListsManagementPageTimeline`<br>
 Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
@@ -2857,7 +2857,7 @@ Login Required: `Future`<br>
 #### queryId<br>
 `None`<br>
 ## ListsDiscovery<br>
-Request URL: `https://twitter.com/i/api/graphql/MF29K6uN0MzGCjBclcldrw/ListsDiscovery`<br>
+Request URL: `https://twitter.com/i/api/graphql/sFu2EJ8v4WgK8mZmbskprw/ListsDiscovery`<br>
 Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
@@ -2888,7 +2888,7 @@ Login Required: `Future`<br>
 #### queryId<br>
 `None`<br>
 ## UserAboutTimeline<br>
-Request URL: `https://twitter.com/i/api/graphql/kz5nfaWx24HULjp47BRgdA/UserAboutTimeline`<br>
+Request URL: `https://twitter.com/i/api/graphql/Q47z1C3-hrEC7psEe6WCGA/UserAboutTimeline`<br>
 Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
@@ -2921,7 +2921,7 @@ Login Required: `Future`<br>
 #### queryId<br>
 `None`<br>
 ## UserTweets<br>
-Request URL: `https://twitter.com/i/api/graphql/U2EVmKCPHl5FOvBtAiJ9Hw/UserTweets`<br>
+Request URL: `https://twitter.com/i/api/graphql/3lo5ik0dhdOaUFHCVZC9vA/UserTweets`<br>
 Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
@@ -2957,7 +2957,7 @@ Login Required: `Future`<br>
 #### queryId<br>
 `None`<br>
 ## UserTweetsAndReplies<br>
-Request URL: `https://twitter.com/i/api/graphql/jbK2KMmOVEVh6yxmCOj8Aw/UserTweetsAndReplies`<br>
+Request URL: `https://twitter.com/i/api/graphql/H3hCOeA1XGXyyqS1oV7PEA/UserTweetsAndReplies`<br>
 Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
@@ -2993,7 +2993,7 @@ Login Required: `Future`<br>
 #### queryId<br>
 `None`<br>
 ## UserSuperFollowTweets<br>
-Request URL: `https://twitter.com/i/api/graphql/kGrg8c_Z_M-TfrnC-9L0EA/UserSuperFollowTweets`<br>
+Request URL: `https://twitter.com/i/api/graphql/qMIMbFMwqwRZSipCYvwRDw/UserSuperFollowTweets`<br>
 Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
@@ -3027,7 +3027,7 @@ Login Required: `Future`<br>
 #### queryId<br>
 `None`<br>
 ## UserPromotableTweets<br>
-Request URL: `https://twitter.com/i/api/graphql/US4mYwT1qxcj1JqgIm-8PA/UserPromotableTweets`<br>
+Request URL: `https://twitter.com/i/api/graphql/fbRq0Pb5re_dnjRADXBEJA/UserPromotableTweets`<br>
 Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
@@ -3056,7 +3056,7 @@ Login Required: `Future`<br>
 #### queryId<br>
 `None`<br>
 ## Likes<br>
-Request URL: `https://twitter.com/i/api/graphql/Jp1tzcLpkgVPY0fUrZ9nNw/Likes`<br>
+Request URL: `https://twitter.com/i/api/graphql/V-GTzUmDIpzm_I2dhlsViQ/Likes`<br>
 Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
@@ -3093,7 +3093,7 @@ Login Required: `Future`<br>
 #### queryId<br>
 `None`<br>
 ## UserMedia<br>
-Request URL: `https://twitter.com/i/api/graphql/pPBV6gh5L8vZyKi2In01YQ/UserMedia`<br>
+Request URL: `https://twitter.com/i/api/graphql/VbY2_YIsNfPxWP5ZZu6qeA/UserMedia`<br>
 Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
@@ -3144,7 +3144,7 @@ Login Required: `Future`<br>
 #### queryId<br>
 `None`<br>
 ## RitoActionedTweetsTimeline<br>
-Request URL: `https://twitter.com/i/api/graphql/zQ0WsTLbuMY7JtKfr4sfDA/RitoActionedTweetsTimeline`<br>
+Request URL: `https://twitter.com/i/api/graphql/xdxQR7QxDRTcLKdfc9l9wQ/RitoActionedTweetsTimeline`<br>
 Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
@@ -3190,7 +3190,7 @@ Login Required: `Future`<br>
 #### queryId<br>
 `None`<br>
 ## RitoFlaggedAccountsTimeline<br>
-Request URL: `https://twitter.com/i/api/graphql/6fBkfCL5RCzeiBMSHXvN3A/RitoFlaggedAccountsTimeline`<br>
+Request URL: `https://twitter.com/i/api/graphql/rd6Z2C4lhbDkGjueuQVgmg/RitoFlaggedAccountsTimeline`<br>
 Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
@@ -3221,7 +3221,7 @@ Login Required: `Future`<br>
 #### queryId<br>
 `None`<br>
 ## RitoFlaggedTweetsTimeline<br>
-Request URL: `https://twitter.com/i/api/graphql/JFk9TG_NQZOzFbPheEq_Vw/RitoFlaggedTweetsTimeline`<br>
+Request URL: `https://twitter.com/i/api/graphql/VdSmC7s1xFSC3CdYGRq9lA/RitoFlaggedTweetsTimeline`<br>
 Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
@@ -3337,8 +3337,33 @@ Login Required: `Future`<br>
 `None`<br>
 #### queryId<br>
 `None`<br>
+## updateCaptionsAlwaysDisplayPreference<br>
+Request URL: `https://twitter.com/i/api/graphql/uCUQhvZ5sJ9qHinRp6CFlQ/updateCaptionsAlwaysDisplayPreference`<br>
+Request Method: `POST`<br>
+Login Required: `Future`<br>
+### Param<br>
+#### variables<br>
+| key               | type   | variable   |
+|:------------------|:-------|:-----------|
+| displayPreference | Future | n          |
+
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
 ## getAltTextPromptPreference<br>
 Request URL: `https://twitter.com/i/api/graphql/PFIxTk8owMoZgiMccP0r4g/getAltTextPromptPreference`<br>
+Request Method: `GET`<br>
+Login Required: `Future`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
+## getCaptionsAlwaysDisplayPreference<br>
+Request URL: `https://twitter.com/i/api/graphql/BwgMOGpOViDS0ri7VUgglg/getCaptionsAlwaysDisplayPreference`<br>
 Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
@@ -3458,7 +3483,7 @@ Login Required: `Future`<br>
 #### queryId<br>
 `None`<br>
 ## ArticleTweetsTimeline<br>
-Request URL: `https://twitter.com/i/api/graphql/KHlpIYu4Q6WaZFH29sQwNw/ArticleTweetsTimeline`<br>
+Request URL: `https://twitter.com/i/api/graphql/KIiJwciN5LcgfPO6dbIkhQ/ArticleTweetsTimeline`<br>
 Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
@@ -3489,7 +3514,7 @@ Login Required: `Future`<br>
 #### queryId<br>
 `None`<br>
 ## ArticleTimeline<br>
-Request URL: `https://twitter.com/i/api/graphql/uFEpMzQyAhRjVotSpGS7tg/ArticleTimeline`<br>
+Request URL: `https://twitter.com/i/api/graphql/w1mIQ3RLn8rrqQqrxWk1vw/ArticleTimeline`<br>
 Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
@@ -3520,7 +3545,7 @@ Login Required: `Future`<br>
 #### queryId<br>
 `None`<br>
 ## TopicTimeline<br>
-Request URL: `https://twitter.com/i/api/graphql/B4cmZmyCv-ZHxQNplngUkg/TopicTimeline`<br>
+Request URL: `https://twitter.com/i/api/graphql/J3FGzX5_Lf2mfHi_PZZ2Ug/TopicTimeline`<br>
 Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
@@ -3549,7 +3574,7 @@ Login Required: `Future`<br>
 #### queryId<br>
 `None`<br>
 ## TopicLandingPage<br>
-Request URL: `https://twitter.com/i/api/graphql/9vdPnq8lJyaXhwSDj-q0Sw/TopicLandingPage`<br>
+Request URL: `https://twitter.com/i/api/graphql/gQy8SstiXhHy6ZSBpwrXbQ/TopicLandingPage`<br>
 Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
@@ -3578,7 +3603,7 @@ Login Required: `Future`<br>
 #### queryId<br>
 `None`<br>
 ## TopicsManagementPage<br>
-Request URL: `https://twitter.com/i/api/graphql/XulwmsnTDHGzctRXx1ipfA/TopicsManagementPage`<br>
+Request URL: `https://twitter.com/i/api/graphql/jsdyIcwKRFeUTTf2vmvtzw/TopicsManagementPage`<br>
 Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
@@ -3622,7 +3647,7 @@ Login Required: `Future`<br>
 #### queryId<br>
 `None`<br>
 ## TopicsPickerPageById<br>
-Request URL: `https://twitter.com/i/api/graphql/ZDo8bvgSD8qT2PrpQOGZsA/TopicsPickerPageById`<br>
+Request URL: `https://twitter.com/i/api/graphql/9hxMMSXEk0sim_kNn1YSiA/TopicsPickerPageById`<br>
 Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
@@ -3652,7 +3677,7 @@ Login Required: `Future`<br>
 #### queryId<br>
 `None`<br>
 ## TopicsPickerPage<br>
-Request URL: `https://twitter.com/i/api/graphql/DHvyw2dk1tCLwg-hp_f7YQ/TopicsPickerPage`<br>
+Request URL: `https://twitter.com/i/api/graphql/PXBay_UwvpQhlOUkmiVt9g/TopicsPickerPage`<br>
 Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
@@ -3681,7 +3706,7 @@ Login Required: `Future`<br>
 #### queryId<br>
 `None`<br>
 ## ViewingOtherUsersTopicsPage<br>
-Request URL: `https://twitter.com/i/api/graphql/1r6J8lAlkTVp8nhny9M2wQ/ViewingOtherUsersTopicsPage`<br>
+Request URL: `https://twitter.com/i/api/graphql/zo7NgCHqzuBmg3bnxBUMDw/ViewingOtherUsersTopicsPage`<br>
 Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
@@ -3713,7 +3738,7 @@ Login Required: `Future`<br>
 #### queryId<br>
 `None`<br>
 ## NoteworthyAccountsPage<br>
-Request URL: `https://twitter.com/i/api/graphql/MkbuDL2Sy86NWwbv7ni6Rg/NoteworthyAccountsPage`<br>
+Request URL: `https://twitter.com/i/api/graphql/HAT_fk2CRv-vchJt-uCx8A/NoteworthyAccountsPage`<br>
 Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
@@ -3800,7 +3825,7 @@ Login Required: `Future`<br>
 #### queryId<br>
 `None`<br>
 ## TopicToFollowSidebar<br>
-Request URL: `https://twitter.com/i/api/graphql/pq6exvveqzGkvJuwEWyCXg/TopicToFollowSidebar`<br>
+Request URL: `https://twitter.com/i/api/graphql/noSLGBXEdp_45vPjmde_3Q/TopicToFollowSidebar`<br>
 Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
@@ -3870,7 +3895,7 @@ Login Required: `Future`<br>
 #### queryId<br>
 `None`<br>
 ## TwitterArticleByRestId<br>
-Request URL: `https://twitter.com/i/api/graphql/9FUmcXisJwf1KK6VgHcBTQ/TwitterArticleByRestId`<br>
+Request URL: `https://twitter.com/i/api/graphql/GasTdGlLCB75S8RHKvETdw/TwitterArticleByRestId`<br>
 Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
@@ -3900,7 +3925,7 @@ Login Required: `Future`<br>
 #### queryId<br>
 `None`<br>
 ## TwitterArticleCreate<br>
-Request URL: `https://twitter.com/i/api/graphql/XwuThC3T6vGZrJrksWn8Ow/TwitterArticleCreate`<br>
+Request URL: `https://twitter.com/i/api/graphql/OXuhdicUre7OjJIlumIXLA/TwitterArticleCreate`<br>
 Request Method: `POST`<br>
 Login Required: `Future`<br>
 ### Param<br>
@@ -3944,7 +3969,7 @@ Login Required: `Future`<br>
 #### queryId<br>
 `None`<br>
 ## TwitterArticleUpdateCoverImage<br>
-Request URL: `https://twitter.com/i/api/graphql/_HBZgyKkgAGVetrP8L9OQA/TwitterArticleUpdateCoverImage`<br>
+Request URL: `https://twitter.com/i/api/graphql/f62l_KZb-SfHkBiPHuOTjQ/TwitterArticleUpdateCoverImage`<br>
 Request Method: `POST`<br>
 Login Required: `Future`<br>
 ### Param<br>
@@ -3975,7 +4000,7 @@ Login Required: `Future`<br>
 #### queryId<br>
 `None`<br>
 ## TwitterArticleUpdateData<br>
-Request URL: `https://twitter.com/i/api/graphql/9-UZtG-JEW86ytFIwmysfA/TwitterArticleUpdateData`<br>
+Request URL: `https://twitter.com/i/api/graphql/McLUSDeKwOrUDj88rkYj6Q/TwitterArticleUpdateData`<br>
 Request Method: `POST`<br>
 Login Required: `Future`<br>
 ### Param<br>
@@ -4006,7 +4031,7 @@ Login Required: `Future`<br>
 #### queryId<br>
 `None`<br>
 ## TwitterArticleUpdateMedia<br>
-Request URL: `https://twitter.com/i/api/graphql/td_N4c2fpVPo8gkKuXHbZQ/TwitterArticleUpdateMedia`<br>
+Request URL: `https://twitter.com/i/api/graphql/6hC2EVQpSwcN3M08GM7kGw/TwitterArticleUpdateMedia`<br>
 Request Method: `POST`<br>
 Login Required: `Future`<br>
 ### Param<br>
@@ -4037,7 +4062,7 @@ Login Required: `Future`<br>
 #### queryId<br>
 `None`<br>
 ## TwitterArticleUpdateTitle<br>
-Request URL: `https://twitter.com/i/api/graphql/hotnXMv10juRwR36rVGc5A/TwitterArticleUpdateTitle`<br>
+Request URL: `https://twitter.com/i/api/graphql/kqnh4Fm9LNbBOJte0SCbeg/TwitterArticleUpdateTitle`<br>
 Request Method: `POST`<br>
 Login Required: `Future`<br>
 ### Param<br>
@@ -4068,7 +4093,7 @@ Login Required: `Future`<br>
 #### queryId<br>
 `None`<br>
 ## TwitterArticleUpdateVisibility<br>
-Request URL: `https://twitter.com/i/api/graphql/XGXrtNBBMnknjgeod5Uk6g/TwitterArticleUpdateVisibility`<br>
+Request URL: `https://twitter.com/i/api/graphql/q6HieQqynBUjwwFBhSz3Ug/TwitterArticleUpdateVisibility`<br>
 Request Method: `POST`<br>
 Login Required: `Future`<br>
 ### Param<br>
@@ -4099,7 +4124,7 @@ Login Required: `Future`<br>
 #### queryId<br>
 `None`<br>
 ## TwitterArticlesSlice<br>
-Request URL: `https://twitter.com/i/api/graphql/1wDkGqVrgwqFj8s4QUDBXw/TwitterArticlesSlice`<br>
+Request URL: `https://twitter.com/i/api/graphql/ZdWqSr2d5FmuYLAqfxWfKA/TwitterArticlesSlice`<br>
 Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
@@ -4267,7 +4292,7 @@ Login Required: `Future`<br>
 #### queryId<br>
 `None`<br>
 ## UrtFixtures<br>
-Request URL: `https://twitter.com/i/api/graphql/rkCnLDKVtl8LPnjj5EG61g/UrtFixtures`<br>
+Request URL: `https://twitter.com/i/api/graphql/goH9Q2ZPmrjYgdZmYnMmmQ/UrtFixtures`<br>
 Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
@@ -4311,7 +4336,7 @@ Login Required: `Future`<br>
 #### queryId<br>
 `None`<br>
 ## ConnectTabTimeline<br>
-Request URL: `https://twitter.com/i/api/graphql/GWSg-jFdF-Z5PfiEwZKcfw/ConnectTabTimeline`<br>
+Request URL: `https://twitter.com/i/api/graphql/1uqcNM3O25BfCrLV_4UN1w/ConnectTabTimeline`<br>
 Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
