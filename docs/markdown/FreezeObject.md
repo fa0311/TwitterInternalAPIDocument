@@ -352,6 +352,8 @@ This document is entirely auto-generated and may contain errors.<br>
 | arkose_challenge_signup_mobile_prod                                                   | True    |
 | arkose_challenge_signup_web_dev                                                       | True    |
 | arkose_challenge_signup_web_prod                                                      | True    |
+| arkose_challenge_transparent_signup_dev                                               | True    |
+| arkose_challenge_transparent_signup_prod                                              | True    |
 | Arkose_rweb_hosted_page                                                               | True    |
 | Arkose_use_invisible_challenge_key                                                    | True    |
 | author_moderated_replies_urt_container_enabled                                        | True    |
@@ -378,6 +380,8 @@ This document is entirely auto-generated and may contain errors.<br>
 | c9s_members_list_search_enabled                                                       | True    |
 | c9s_moderation_enabled                                                                | True    |
 | c9s_nav_list_activity_details_enabled                                                 | True    |
+| c9s_notification_settings_enabled                                                     | True    |
+| c9s_notification_settings_pinned_tweet_enabled                                        | True    |
 | c9s_participation_enabled                                                             | True    |
 | c9s_poll_creation_enabled                                                             | True    |
 | c9s_remove_member_enabled                                                             | True    |
@@ -414,12 +418,10 @@ This document is entirely auto-generated and may contain errors.<br>
 | dm_evolution_conversation_read_enabled                                                | True    |
 | dm_evolution_conversation_write_enabled                                               | True    |
 | dm_evolution_enabled                                                                  | True    |
-| dm_evolution_group_conversation_management_ct_enabled                                 | True    |
 | dm_evolution_inbox_primary_enabled                                                    | True    |
 | dm_evolution_inbox_secondary_enabled                                                  | True    |
 | dm_evolution_inbox_tertiary_enabled                                                   | True    |
 | dm_evolution_message_creation_enabled                                                 | True    |
-| dm_evolution_message_hide_enabled                                                     | True    |
 | dm_evolution_messaging_interactions_ct_enabled                                        | True    |
 | dm_evolution_reaction_write_enabled                                                   | True    |
 | dm_evolution_responsive_web_early_bird_only_switch                                    | True    |
@@ -619,7 +621,6 @@ This document is entirely auto-generated and may contain errors.<br>
 | responsive_web_dcm_2_enabled                                                          | True    |
 | responsive_web_deamplification_replies_dropdown_selector_enabled                      | True    |
 | responsive_web_deamplification_transparent_cursors_enabled                            | True    |
-| responsive_web_delegate_enabled                                                       | True    |
 | responsive_web_delete_nonempty_tweetstorm_composer_enabled                            | True    |
 | responsive_web_device_follow_without_user_follow_enabled                              | True    |
 | responsive_web_disconnect_third_party_sso_enabled                                     | True    |
@@ -639,6 +640,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | responsive_web_edit_tweet_api_enabled                                                 | True    |
 | responsive_web_edit_tweet_composition_enabled                                         | True    |
 | responsive_web_edit_tweet_enabled                                                     | True    |
+| responsive_web_edit_tweet_pdp_dialog_enabled                                          | True    |
 | responsive_web_edit_tweet_perspective_enabled                                         | True    |
 | responsive_web_edit_tweet_upsell_enabled                                              | True    |
 | responsive_web_element_size_impression_scribe_enabled                                 | True    |
@@ -661,7 +663,6 @@ This document is entirely auto-generated and may contain errors.<br>
 | responsive_web_graphql_dark_reads_probability                                         | True    |
 | responsive_web_graphql_feedback                                                       | True    |
 | responsive_web_graphql_home_enabled                                                   | True    |
-| responsive_web_graphql_home_latest_enabled                                            | True    |
 | responsive_web_graphql_likes_timeline                                                 | True    |
 | responsive_web_graphql_media_timeline                                                 | True    |
 | responsive_web_graphql_relay_users                                                    | True    |
@@ -733,6 +734,8 @@ This document is entirely auto-generated and may contain errors.<br>
 | responsive_web_nft_avatar                                                             | True    |
 | responsive_web_nft_avatar_help_link                                                   | True    |
 | responsive_web_notifications_empty_state_redesign_variant                             | True    |
+| responsive_web_notifications_overrides_desktop_enabled                                | True    |
+| responsive_web_notifications_overrides_mobile_enabled                                 | True    |
 | responsive_web_ntab_verified_mentions_vit_internal_dogfood                            | True    |
 | responsive_web_nux_web_to_app_drop_gate_enabled                                       | True    |
 | responsive_web_oauth2_consent_flow_enabled                                            | True    |
@@ -870,6 +873,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | sensitive_tweet_warnings_enabled                                                      | True    |
 | settings_revamp_search_bar_enabled                                                    | True    |
 | share_animation_after_like_enabled                                                    | True    |
+| share_h1_2023_trigger                                                                 | True    |
 | shortened_tracking_parameters_mapping                                                 | True    |
 | smbo_legacy_pac_is_in_follow_position_test                                            | True    |
 | social_context_and_topic_context_refresh_alignment_enabled                            | True    |
@@ -956,6 +960,8 @@ This document is entirely auto-generated and may contain errors.<br>
 | tweet_translation_timeline_enabled                                                    | True    |
 | tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled               | True    |
 | tweetypie_unmention_optimization_enabled                                              | True    |
+| twitter_chat_communities_chat_enabled                                                 | True    |
+| twitter_delegate_enabled                                                              | True    |
 | ucpd_enabled                                                                          | True    |
 | unified_cards_ad_metadata_container_dynamic_card_content_query_enabled                | True    |
 | unified_cards_collection_ads_convert_to_image_website_card                            | True    |
@@ -1308,6 +1314,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | Secondary            | secondary             |
 | Text                 | text                  |
 | Brand                | brand                 |
+| TwitterBrand         | twitter_brand         |
 
 | constant      | value          |
 |:--------------|:---------------|
@@ -1478,10 +1485,11 @@ This document is entirely auto-generated and may contain errors.<br>
 | Checkbox   | checkbox |
 | Follow     | follow   |
 
-| constant   | value   |
-|:-----------|:--------|
-| Tile       | tile    |
-| List       | list    |
+| constant         | value           |
+|:-----------------|:----------------|
+| Tile             | tile            |
+| List             | list            |
+| TileFollowButton | tile_follow_btn |
 
 | constant   | value     |
 |:-----------|:----------|
