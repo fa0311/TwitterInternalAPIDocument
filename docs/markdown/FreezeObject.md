@@ -2,8 +2,8 @@
 This document is entirely auto-generated and may contain errors.<br>
 | constant   | value    |
 |:-----------|:---------|
-| Top        | Top      |
 | Live       | Live     |
+| Top        | Top      |
 | Upcoming   | Upcoming |
 
 | constant         | value      |
@@ -20,11 +20,11 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant               | value                                 |
 |:-----------------------|:--------------------------------------|
-| MessageCreate          | o.ENTRY_TYPE.MESSAGE                  |
-| ParticipantsJoin       | o.ENTRY_TYPE.PARTICIPANTS_JOIN        |
-| ParticipantsLeave      | o.ENTRY_TYPE.PARTICIPANTS_LEAVE       |
-| ConversationNameUpdate | o.ENTRY_TYPE.CONVERSATION_NAME_UPDATE |
-| JoinConversation       | o.ENTRY_TYPE.JOIN_CONVERSATION        |
+| MessageCreate          | a.ENTRY_TYPE.MESSAGE                  |
+| ParticipantsJoin       | a.ENTRY_TYPE.PARTICIPANTS_JOIN        |
+| ParticipantsLeave      | a.ENTRY_TYPE.PARTICIPANTS_LEAVE       |
+| ConversationNameUpdate | a.ENTRY_TYPE.CONVERSATION_NAME_UPDATE |
+| JoinConversation       | a.ENTRY_TYPE.JOIN_CONVERSATION        |
 
 | constant   | value   |
 |:-----------|:--------|
@@ -111,6 +111,11 @@ This document is entirely auto-generated and may contain errors.<br>
 | result     | []                          |
 | entities   | {'contentControlTools': {}} |
 
+| constant   | value   |
+|:-----------|:--------|
+| Enabled    | Enabled |
+| None       | None    |
+
 | constant   | value       |
 |:-----------|:------------|
 | BEHAVIORAL | behavioral  |
@@ -133,12 +138,6 @@ This document is entirely auto-generated and may contain errors.<br>
 | altSvc                  | altSvc                  |
 | initGeoLocation         | initGeoLocation         |
 | AudioModule             | AudioModule             |
-
-| constant   | value   |
-|:-----------|:--------|
-| NONE       | none    |
-| DEFAULT    | default |
-| ALL        | all     |
 
 | constant                  | value                     |
 |:--------------------------|:--------------------------|
@@ -165,18 +164,6 @@ This document is entirely auto-generated and may contain errors.<br>
 | LoggedOutSignUp | LoggedOutSignUp |
 | AudioSpacebar   | AudioSpacebar   |
 | NewTweetsPill   | NewTweetsPill   |
-
-| constant   | value     |
-|:-----------|:----------|
-| OneColumn  | oneColumn |
-| TwoColumn  | twoColumn |
-
-| constant            | value               |
-|:--------------------|:--------------------|
-| SideExpanded        | sideExpanded        |
-| SideCollapsedNormal | sideCollapsedNormal |
-| SideCollapsedSmall  | sideCollapsedSmall  |
-| Top                 | top                 |
 
 | constant   | value     |
 |:-----------|:----------|
@@ -241,6 +228,16 @@ This document is entirely auto-generated and may contain errors.<br>
 | SwitchToAppFooter       | switch-to-app-footer       |
 | UseApp                  | use-app                    |
 | UseAppExtended          | use-app-extended           |
+| SwitchToAppHigh7        | switch_to_app_high_7       |
+| SwitchToAppHigh1        | switch_to_app_high_1       |
+| SwitchToAppHigh2        | switch_to_app_high_2       |
+| SwitchToAppHigh3        | switch_to_app_high_3       |
+| SwitchToAppHigh5        | switch_to_app_high_5       |
+| SwitchToAppLow7         | switch_to_app_low_7        |
+| SwitchToAppLow1         | switch_to_app_low_1        |
+| SwitchToAppLow3         | switch_to_app_low_3        |
+| SwitchToAppLow5         | switch_to_app_low_5        |
+| SwitchToAppLow9         | switch_to_app_low_9        |
 
 | constant     | value         |
 |:-------------|:--------------|
@@ -259,7 +256,6 @@ This document is entirely auto-generated and may contain errors.<br>
 | AddToMoment           | AddToMoment           |
 | ViewTweetActivity     | ViewTweetActivity     |
 | Autoplay              | Autoplay              |
-| BookmarkToFolder      | bookmark_to_folder    |
 | ConversationControls  | conversation_controls |
 | Delete                | delete                |
 | ReplyDownvote         | ReplyDownVote         |
@@ -327,625 +323,676 @@ This document is entirely auto-generated and may contain errors.<br>
 | disable_state_media_autoplay        | tweet_limited_actions_config_disable_state_media_autoplay        |
 | limit_trusted_friends_tweet         | tweet_limited_actions_config_limit_trusted_friends_tweet         |
 | soft_nudge_with_quote_tweet         | tweet_limited_actions_config_soft_nudge_with_quote_tweet         |
+| dynamic_product_ad                  | tweet_limited_actions_config_dynamic_product_ad                  |
+| skip_tweet_detail                   | tweet_limited_actions_config_skip_tweet_detail                   |
 
-| constant                                                                | value   |
-|:------------------------------------------------------------------------|:--------|
-| 2fa_temporary_password_enabled                                          | True    |
-| account_2fa_standalone_security_key_enabled                             | True    |
-| account_country_setting_countries_whitelist                             | True    |
-| account_session_console_from_graphql_enabled                            | True    |
-| account_taxonomy_automated_label_enabled                                | True    |
-| account_taxonomy_automation_opt_in_enabled                              | True    |
-| ads_spacing_client_fallback_minimum_spacing                             | True    |
-| arkose_challenge_lo_web_notification_dev                                | True    |
-| arkose_challenge_open_app_dev                                           | True    |
-| arkose_challenge_open_app_prod                                          | True    |
-| arkose_challenge_signup_mobile                                          | True    |
-| arkose_challenge_signup_mobile_dev                                      | True    |
-| arkose_challenge_signup_mobile_prod                                     | True    |
-| arkose_challenge_signup_web                                             | True    |
-| arkose_challenge_signup_web_dev                                         | True    |
-| arkose_challenge_signup_web_prod                                        | True    |
-| Arkose_rweb_hosted_page                                                 | True    |
-| Arkose_use_invisible_challenge_key                                      | True    |
-| author_moderated_replies_urt_container_enabled                          | True    |
-| branded_like_preview_enabled                                            | True    |
-| c9s_auto_collapse_community_detail_header_enabled                       | True    |
-| c9s_communities_search_enabled                                          | True    |
-| c9s_community_composer_hashtag_suggestions_enabled                      | True    |
-| c9s_community_creation_enabled                                          | True    |
-| c9s_community_creation_form_membership_type_enabled                     | True    |
-| c9s_community_creation_setup_checklist_enabled                          | True    |
-| c9s_community_deletion_enabled                                          | True    |
-| c9s_community_hashtags_carousel_enabled                                 | True    |
-| c9s_community_hashtags_enabled                                          | True    |
-| c9s_edit_moderators_enabled                                             | True    |
-| c9s_enabled                                                             | True    |
-| c9s_highlight_tweet_enabled                                             | True    |
-| c9s_logged_out_access_enabled                                           | True    |
-| c9s_max_community_description_length                                    | True    |
-| c9s_max_community_name_length                                           | True    |
-| c9s_max_rule_count                                                      | True    |
-| c9s_max_rule_description_length                                         | True    |
-| c9s_max_rule_name_length                                                | True    |
-| c9s_members_list_search_enabled                                         | True    |
-| c9s_moderation_enabled                                                  | True    |
-| c9s_nav_list_activity_details_enabled                                   | True    |
-| c9s_participation_enabled                                               | True    |
-| c9s_poll_creation_enabled                                               | True    |
-| c9s_remove_member_enabled                                               | True    |
-| c9s_remove_member_list_enabled                                          | True    |
-| c9s_report_community_enabled                                            | True    |
-| c9s_rule_management_enabled                                             | True    |
-| c9s_spotlight_creation_enabled                                          | True    |
-| c9s_tab_visibility                                                      | True    |
-| c9s_timelines_default_selection                                         | True    |
-| c9s_timelines_ranking_enabled                                           | True    |
-| c9s_unread_indicator_global_enabled                                     | True    |
-| c9s_unread_indicator_mod_actions_enabled                                | True    |
-| c9s_unread_indicator_tweets_enabled                                     | True    |
-| card_compose_preview_retry_after_ms                                     | True    |
-| card_compose_preview_retry_max                                          | True    |
-| content_language_setting_enabled                                        | True    |
-| conversation_controls_change_enabled                                    | True    |
-| conversation_controls_change_tooltip_enabled                            | True    |
-| conversation_controls_limited_replies_consumption_configuration         | True    |
-| conversation_controls_limited_replies_creation_enabled                  | True    |
-| conversation_controls_persistence_enabled                               | True    |
-| conversational_safety_heads_up_treatment_A_enabled                      | True    |
-| direct_messages_incremental_holdback_2022h1                             | True    |
-| dm_conversation_labels_max_pinned_count                                 | True    |
-| dm_conversation_labels_pinned_education_enabled                         | True    |
-| dm_conversation_labels_pinned_enabled                                   | True    |
-| dm_conversations_muting_enabled                                         | True    |
-| dm_conversations_nsfw_media_filter_enabled                              | True    |
-| dm_education_flags_prompt                                               | True    |
-| dm_evolution_add_participants_enabled                                   | True    |
-| dm_evolution_conversation_read_enabled                                  | True    |
-| dm_evolution_conversation_write_enabled                                 | True    |
-| dm_evolution_enabled                                                    | True    |
-| dm_evolution_group_conversation_management_ct_enabled                   | True    |
-| dm_evolution_inbox_primary_enabled                                      | True    |
-| dm_evolution_inbox_secondary_enabled                                    | True    |
-| dm_evolution_inbox_tertiary_enabled                                     | True    |
-| dm_evolution_message_creation_enabled                                   | True    |
-| dm_evolution_message_hide_enabled                                       | True    |
-| dm_evolution_messaging_interactions_ct_enabled                          | True    |
-| dm_evolution_reaction_write_enabled                                     | True    |
-| dm_evolution_responsive_web_early_bird_only_switch                      | True    |
-| dm_evolution_typing_indicator_enabled                                   | True    |
-| dm_inbox_search_groups_bucket_size                                      | True    |
-| dm_inbox_search_max_recent_searches_stored                              | True    |
-| dm_inbox_search_message_attachment_previews_enabled                     | True    |
-| dm_inbox_search_message_results_enabled                                 | True    |
-| dm_inbox_search_messages_bucket_size                                    | True    |
-| dm_inbox_search_modular_results_enabled                                 | True    |
-| dm_inbox_search_people_bucket_size                                      | True    |
-| dm_inbox_search_query_highlighting_conversation_results_enabled         | True    |
-| dm_inbox_search_query_highlighting_message_results_enabled              | True    |
-| dm_reactions_config_active_reactions                                    | True    |
-| dm_reactions_config_inactive_reactions                                  | True    |
-| dm_share_sheet_send_individually_enabled                                | True    |
-| dm_share_sheet_send_individually_max_count                              | True    |
-| dm_vdl_chat_p0_enabled                                                  | True    |
-| dm_vdl_enabled                                                          | True    |
-| dm_vdl_inbox_p0_enabled                                                 | True    |
-| dm_voice_rendering_enabled                                              | True    |
-| dont_mention_me_enabled                                                 | True    |
-| dont_mention_me_mentions_tab_education_enabled                          | True    |
-| dont_mention_me_view_api_enabled                                        | True    |
-| ecd_dispute_form_link_enabled                                           | True    |
-| employee_role                                                           | True    |
-| enable_label_appealing_misinfo_enabled                                  | True    |
-| enable_label_appealing_sensitive_content_enabled                        | True    |
-| explore_relaunch_enable_immersive_web                                   | True    |
-| explore_relaunch_enabled                                                | True    |
-| explore_relaunch_onboarding_bar_show_count                              | True    |
-| explore_settings_trends_policy_url                                      | True    |
-| focused_timeline_actions_onboarding_likes                               | True    |
-| follow_nudge_conversation_enabled                                       | True    |
-| follow_nudge_search_enabled                                             | True    |
-| followers_management_remove_follower_from_followers_list                | True    |
-| followers_management_remove_follower_from_profile_screen                | True    |
-| graphql_composer_and_dm_card_previews_enabled                           | True    |
-| graphql_is_translatable_rweb_tweet_is_translatable_enabled              | True    |
-| graphql_mutation_destroy_mode                                           | True    |
-| graphql_mutation_retweet_mode                                           | True    |
-| graphql_mutation_unretweet_mode                                         | True    |
-| graphql_mutation_update_mode                                            | True    |
-| graphql_timeline_v2_query_threaded_conversation_with_injections         | True    |
-| graphql_timeline_v2_user_favorites_by_time_timeline                     | True    |
-| graphql_timeline_v2_user_media_timeline                                 | True    |
-| graphql_timeline_v2_user_profile_timeline                               | True    |
-| graphql_timeline_v2_user_profile_with_replies_timeline                  | True    |
-| gryphon_optout_in_settings                                              | True    |
-| guest_broadcasting_timeline_decorations_enabled                         | True    |
-| hashflags_animation_like_button_enabled                                 | True    |
-| home_timeline_feedback_immediate_dismiss_enabled                        | True    |
-| home_timeline_feedback_immediate_dismiss_treatment                      | True    |
-| home_timeline_latest_timeline_switch_enabled                            | True    |
-| home_timeline_like_reactivity_enabled                                   | True    |
-| home_timeline_like_reactivity_fatigue                                   | True    |
-| home_timeline_scribing_section_change_enabled                           | True    |
-| home_timeline_spheres_detail_page_muting_enabled                        | True    |
-| home_timeline_spheres_max_user_owned_or_subscribed_lists_count          | True    |
-| home_timeline_spheres_ranking_mode_control_enabled                      | True    |
-| home_timeline_tweet_auto_inline_reply_enabled                           | True    |
-| identity_verification_debadging_notification_enabled                    | True    |
-| identity_verification_educational_prompt_enabled                        | True    |
-| identity_verification_intake_enabled                                    | True    |
-| identity_verification_notable_demo_survey                               | True    |
-| interactive_text_enabled                                                | True    |
-| live_event_docking_enabled                                              | True    |
-| live_event_interstitial_seen_cache_enabled                              | True    |
-| live_event_multi_video_auto_advance_dock_enabled                        | True    |
-| live_event_multi_video_auto_advance_enabled                             | True    |
-| live_event_multi_video_auto_advance_fullscreen_enabled                  | True    |
-| live_event_multi_video_auto_advance_transition_duration_seconds         | True    |
-| live_event_multi_video_enabled                                          | True    |
-| live_event_timeline_default_refresh_rate_interval_seconds               | True    |
-| live_event_timeline_minimum_refresh_rate_interval_seconds               | True    |
-| live_event_timeline_server_controlled_refresh_rate_enabled              | True    |
-| livepipeline_client_enabled                                             | True    |
-| livepipeline_dm_features_enabled                                        | True    |
-| livepipeline_tweetengagement_enabled                                    | True    |
-| longform_ad_free_articles_badging_enabled                               | True    |
-| longform_top_articles_friends_of_friends_enabled                        | True    |
-| longform_top_articles_time_window_enabled                               | True    |
-| machine_translation_logged_out_enabled                                  | True    |
-| media_edge_to_edge_content_enabled                                      | True    |
-| moment_annotations_enabled                                              | True    |
-| moments_new_share_variant_floating_action_button                        | True    |
-| network_layer_503_backoff_mode                                          | True    |
-| news_landing_page_enabled                                               | True    |
-| noteworthy_accounts_screen_enabled                                      | True    |
-| ocf_2fa_enrollment_bouncer_enabled                                      | True    |
-| ocf_2fa_enrollment_enabled                                              | True    |
-| ocf_2fa_unenrollment_enabled                                            | True    |
-| onboarding_connect_tab_urt_graphql_enabled                              | True    |
-| onboarding_enter_username_hidden_prefill_enabled                        | True    |
-| onboarding_enter_username_hidden_skip_enabled                           | True    |
-| papago_tweet_translation_from_korean_entity_protected                   | True    |
-| papago_tweet_translation_from_korean_entity_protected_destinations      | True    |
-| papago_tweet_translation_from_korean_entity_unprotected                 | True    |
-| papago_tweet_translation_from_korean_entity_unprotected_destinations    | True    |
-| papago_tweet_translation_to_korean                                      | True    |
-| papago_tweet_translation_to_korean_sources                              | True    |
-| professional_launchpad_m1_enabled                                       | True    |
-| professional_launchpad_upload_address_book                              | True    |
-| profile_foundations_about_tab_enabled                                   | True    |
-| profile_foundations_about_tab_tooltip_enabled                           | True    |
-| profile_foundations_header_fields_hidden                                | True    |
-| profile_foundations_tweet_stats_enabled                                 | True    |
-| profile_foundations_tweet_stats_tweet_count                             | True    |
-| profile_foundations_tweet_stats_tweet_frequency                         | True    |
-| profile_foundations_tweet_stats_tweet_topics                            | True    |
-| profile_navigation_likes_tab_prominence_enabled                         | True    |
-| report_center_mvp_r1_enabled                                            | True    |
-| report_center_mvp_r2_enabled                                            | True    |
-| responsive_web_3rd_party_category_branch                                | True    |
-| responsive_web_3rd_party_category_double_click                          | True    |
-| responsive_web_3rd_party_category_external_referer                      | True    |
-| responsive_web_3rd_party_category_ga                                    | True    |
-| responsive_web_3rd_party_category_google_platform                       | True    |
-| responsive_web_3rd_party_category_google_recaptcha                      | True    |
-| responsive_web_3rd_party_category_player_card                           | True    |
-| responsive_web_3rd_party_category_sentry                                | True    |
-| responsive_web_3rd_party_category_sign_in_with_apple                    | True    |
-| responsive_web_account_access_language_lo_banners                       | True    |
-| responsive_web_account_access_language_lo_splash_sidebar                | True    |
-| responsive_web_account_search_readability_enabled                       | True    |
-| responsive_web_alt_svc                                                  | True    |
-| responsive_web_alt_text_nudges_enabled                                  | True    |
-| responsive_web_alt_text_nudges_settings_enabled                         | True    |
-| responsive_web_alt_text_translations_enabled                            | True    |
-| responsive_web_api_transition_enabled                                   | True    |
-| responsive_web_article_nudge_enabled                                    | True    |
-| responsive_web_audio_space_ring_home_timeline                           | True    |
-| responsive_web_author_labels_avatar_label_enabled                       | True    |
-| responsive_web_author_labels_focal_label_enabled                        | True    |
-| responsive_web_author_labels_handle_label_enabled                       | True    |
-| responsive_web_auto_logout_multiaccount_enabled                         | True    |
-| responsive_web_auto_logout_restrictedauthtoken_enabled                  | True    |
-| responsive_web_auto_logout_twid_enabled                                 | True    |
-| responsive_web_behavioral_events_communities_enabled                    | True    |
-| responsive_web_behavioral_events_enabled                                | True    |
-| responsive_web_behavioral_events_home_enabled                           | True    |
-| responsive_web_behavioral_events_htl_breadcrumbs                        | True    |
-| responsive_web_behavioral_events_target_view_v2_enabled                 | True    |
-| responsive_web_birdwatch_aliases_enabled                                | True    |
-| responsive_web_birdwatch_appeals_enabled                                | True    |
-| responsive_web_birdwatch_consumption_enabled                            | True    |
-| responsive_web_birdwatch_contribution_enabled                           | True    |
-| responsive_web_birdwatch_country_allowed                                | True    |
-| responsive_web_birdwatch_deleted_notes_enabled                          | True    |
-| responsive_web_birdwatch_earn_in_enabled                                | True    |
-| responsive_web_birdwatch_earn_out_enabled                               | True    |
-| responsive_web_birdwatch_hcomp_user                                     | True    |
-| responsive_web_birdwatch_history_enabled                                | True    |
-| responsive_web_birdwatch_impressions_enabled                            | True    |
-| responsive_web_birdwatch_new_note_submission_modal_enabled              | True    |
-| responsive_web_birdwatch_note_awards_enabled                            | True    |
-| responsive_web_birdwatch_note_writing_enabled                           | True    |
-| responsive_web_birdwatch_pivots_enabled                                 | True    |
-| responsive_web_birdwatch_profile_awards_enabled                         | True    |
-| responsive_web_birdwatch_rating_crowd_enabled                           | True    |
-| responsive_web_birdwatch_rating_mini_survey_enabled                     | True    |
-| responsive_web_birdwatch_rating_participant_enabled                     | True    |
-| responsive_web_birdwatch_ratings_m2_tags_enabled                        | True    |
-| responsive_web_birdwatch_ratings_v2_enabled                             | True    |
-| responsive_web_birdwatch_site_enabled                                   | True    |
-| responsive_web_birdwatch_traffic_lights_enabled                         | True    |
-| responsive_web_branch_cpid_enabled                                      | True    |
-| responsive_web_branch_sdk_enabled                                       | True    |
-| responsive_web_card_conversion_hoisted                                  | True    |
-| responsive_web_card_preconnect_enabled                                  | True    |
-| responsive_web_card_preload_mode                                        | True    |
-| responsive_web_carousel_v2_cards_non_safari_enabled                     | True    |
-| responsive_web_carousel_v2_cards_safari_variant                         | True    |
-| responsive_web_carousel_v2_media_detail_enabled                         | True    |
-| responsive_web_cleanup_macaw_swift_indexed_db                           | True    |
-| responsive_web_collection_ads_enabled                                   | True    |
-| responsive_web_commerce_shop_spotlight_enabled                          | True    |
-| responsive_web_communities_slices_enabled                               | True    |
-| responsive_web_composer_configurable_video_player_enabled               | True    |
-| responsive_web_continue_as_always_enabled                               | True    |
-| responsive_web_continue_as_param_enabled                                | True    |
-| responsive_web_convert_card_video_to_gif_enabled                        | False   |
-| responsive_web_cookie_compliance_1st_party_killswitch_list              | True    |
-| responsive_web_cookie_compliance_banner_enabled                         | True    |
-| responsive_web_cookie_compliance_gingersnap_enabled                     | True    |
-| responsive_web_cookie_consent_signal_enabled                            | False   |
-| responsive_web_cotweet_consumption_enabled                              | True    |
-| responsive_web_csrf_clientside_enabled                                  | True    |
-| responsive_web_dance_cc_tools_enabled                                   | True    |
-| responsive_web_dance_cc_tools_include_development_enabled               | True    |
-| responsive_web_dcm_2_enabled                                            | True    |
-| responsive_web_deamplification_replies_dropdown_selector_enabled        | True    |
-| responsive_web_deamplification_transparent_cursors_enabled              | True    |
-| responsive_web_delegate_enabled                                         | True    |
-| responsive_web_delete_nonempty_tweetstorm_composer_enabled              | True    |
-| responsive_web_device_follow_without_user_follow_enabled                | True    |
-| responsive_web_disconnect_third_party_sso_enabled                       | True    |
-| responsive_web_do_not_launch_me_reverse_home_timeline_enabled           | True    |
-| responsive_web_dockable_autoplay_policy_enabled                         | True    |
-| responsive_web_drew_mute_and_block_enabled                              | True    |
-| responsive_web_drew_profile_block_enabled                               | True    |
-| responsive_web_drew_timeline_block_enabled                              | True    |
-| responsive_web_dtime_fccts_enabled                                      | True    |
-| responsive_web_dtime_show_new_tweets_enabled                            | True    |
-| responsive_web_dtime_sparkle_menu_timelines_directory_enabled           | True    |
-| responsive_web_dtime_timelines_directory_enabled                        | True    |
-| responsive_web_dtime_timelines_preview_enabled                          | True    |
-| responsive_web_dtime_tpat_enabled                                       | True    |
-| responsive_web_edit_tweet_api_enabled                                   | True    |
-| responsive_web_edit_tweet_composition_enabled                           | True    |
-| responsive_web_edit_tweet_enabled                                       | True    |
-| responsive_web_element_size_impression_scribe_enabled                   | True    |
-| responsive_web_enhance_cards_enabled                                    | True    |
-| responsive_web_eu_countries                                             | True    |
-| responsive_web_explorer_ads_enabled                                     | True    |
-| responsive_web_extension_compatibility_hide                             | True    |
-| responsive_web_extension_compatibility_impression_guard                 | True    |
-| responsive_web_extension_compatibility_override_param                   | True    |
-| responsive_web_extension_compatibility_scribe                           | True    |
-| responsive_web_extension_compatibility_size_threshold                   | True    |
-| responsive_web_fake_root_twitter_domain_for_testing                     | True    |
-| responsive_web_feature_gating_enabled                                   | True    |
-| responsive_web_fetch_hashflags_on_boot                                  | True    |
-| responsive_web_footer_categorized_variant_enabled                       | True    |
-| responsive_web_frame_scheduler_enabled                                  | True    |
-| responsive_web_framerate_tracking_home_enabled                          | True    |
-| responsive_web_gaggle_site_enabled                                      | True    |
-| responsive_web_graphql_bookmarks                                        | True    |
-| responsive_web_graphql_conversations_enabled                            | True    |
-| responsive_web_graphql_dark_reads_probability                           | True    |
-| responsive_web_graphql_feedback                                         | True    |
-| responsive_web_graphql_home_enabled                                     | True    |
-| responsive_web_graphql_home_latest_enabled                              | True    |
-| responsive_web_graphql_likes_timeline                                   | True    |
-| responsive_web_graphql_media_timeline                                   | True    |
-| responsive_web_graphql_mutation_bookmarks                               | True    |
-| responsive_web_graphql_relay_users                                      | True    |
-| responsive_web_graphql_timeline_navigation_enabled                      | False   |
-| responsive_web_graphql_topic_timeline_enabled                           | True    |
-| responsive_web_hashtag_highlight_is_enabled                             | True    |
-| responsive_web_hashtag_highlight_show_avatar                            | True    |
-| responsive_web_hashtag_highlight_use_small_font                         | True    |
-| responsive_web_hevc_upload_preview_enabled                              | True    |
-| responsive_web_highlight_details_experiment_bucket                      | True    |
-| responsive_web_home_new_tweets_pill_v2                                  | True    |
-| responsive_web_home_pinned_timelines_latest_enabled                     | True    |
-| responsive_web_home_pinned_timelines_lists_enabled                      | True    |
-| responsive_web_home_sticky_new_tweets_pill_delay_seconds                | True    |
-| responsive_web_home_sticky_new_tweets_pill_duration_seconds             | True    |
-| responsive_web_home_sticky_new_tweets_pill_enabled                      | True    |
-| responsive_web_htl_empty_state_redesign_variant                         | True    |
-| responsive_web_impression_pixel_enabled                                 | True    |
-| responsive_web_impression_tracker_refactor_enabled                      | True    |
-| responsive_web_install_banner_show_immediate                            | True    |
-| responsive_web_instream_video_redesign_enabled                          | True    |
-| responsive_web_instream_video_store_keyed                               | True    |
-| responsive_web_left_nav_refresh_connect_enabled                         | True    |
-| responsive_web_left_nav_refresh_topics_enabled                          | True    |
-| responsive_web_like_by_author_enabled                                   | True    |
-| responsive_web_list_tweet_integration_enabled                           | True    |
-| responsive_web_live_commerce_enabled                                    | True    |
-| responsive_web_live_video_parity_periscope_auth_enabled                 | True    |
-| responsive_web_location_spotlight_display_map                           | True    |
-| responsive_web_location_spotlight_v1_config                             | True    |
-| responsive_web_location_spotlight_v1_display                            | True    |
-| responsive_web_logged_out_gating_13501_ddg                              | True    |
-| responsive_web_logged_out_gating_13622_ddg                              | True    |
-| responsive_web_logged_out_gating_13718_ddg                              | True    |
-| responsive_web_logged_out_gating_14123_ddg                              | True    |
-| responsive_web_logged_out_gating_14788_ddg                              | True    |
-| responsive_web_logged_out_gating_14992_ddg                              | True    |
-| responsive_web_logged_out_gating_aggressive_segments                    | True    |
-| responsive_web_logged_out_gating_less_aggressive_segments               | True    |
-| responsive_web_logged_out_gating_non_holdback_ddgs                      | True    |
-| responsive_web_logged_out_gating_non_impressing_member_segments         | True    |
-| responsive_web_logged_out_notifications_enabled                         | True    |
-| responsive_web_login_input_type_email_enabled                           | True    |
-| responsive_web_login_signup_sheet_app_install_cta_enabled               | True    |
-| responsive_web_media_upload_limit_2g                                    | True    |
-| responsive_web_media_upload_limit_3g                                    | True    |
-| responsive_web_media_upload_limit_slow_2g                               | True    |
-| responsive_web_media_upload_md5_hashing_enabled                         | True    |
-| responsive_web_media_upload_metrics_enabled                             | True    |
-| responsive_web_media_upload_target_jpg_pixels_per_byte                  | True    |
-| responsive_web_menu_section_divider_enabled                             | True    |
-| responsive_web_misinfo_label_revamp_tweaks_enabled                      | True    |
-| responsive_web_mixed_media_consumption_enabled                          | True    |
-| responsive_web_mobile_app_spotlight_v1_config                           | True    |
-| responsive_web_mobile_app_spotlight_v1_display                          | True    |
-| responsive_web_moment_maker_annotations_enabled                         | True    |
-| responsive_web_moment_maker_enabled                                     | True    |
-| responsive_web_moment_maker_promoted_tweets_enabled                     | True    |
-| responsive_web_multiple_account_limit                                   | True    |
-| responsive_web_new_copy_security_key_2fa_enabled                        | True    |
-| responsive_web_newsletters_callout_enabled                              | True    |
-| responsive_web_newsletters_menu_enabled                                 | True    |
-| responsive_web_newsletters_profile_subscribe_enabled                    | True    |
-| responsive_web_newsletters_subscribe_double_opt_in_removal_enabled      | True    |
-| responsive_web_nft_avatar                                               | True    |
-| responsive_web_nft_avatar_help_link                                     | True    |
-| responsive_web_notifications_empty_state_redesign_variant               | True    |
-| responsive_web_ntab_verified_mentions_vit_internal_dogfood              | True    |
-| responsive_web_nux_web_to_app_gating_enabled                            | True    |
-| responsive_web_oauth2_consent_flow_enabled                              | True    |
-| responsive_web_ocf_reportflow_appeals_enabled                           | True    |
-| responsive_web_ocf_reportflow_dms_enabled                               | True    |
-| responsive_web_ocf_reportflow_lists_enabled                             | True    |
-| responsive_web_ocf_reportflow_profiles_enabled                          | True    |
-| responsive_web_ocf_reportflow_testers                                   | True    |
-| responsive_web_ocf_reportflow_tweets_enabled                            | True    |
-| responsive_web_ocf_sms_autoverify_darkwrite                             | True    |
-| responsive_web_ocf_sms_autoverify_enabled                               | True    |
-| responsive_web_offscreen_video_scroller_removal_enabled                 | True    |
-| responsive_web_open_app_appbar_button_enabled                           | True    |
-| responsive_web_open_in_app_prompt_enabled                               | True    |
-| responsive_web_original_tweet_nudge_enabled                             | True    |
-| responsive_web_original_tweet_nudge_show_nudge                          | True    |
-| responsive_web_original_tweet_nudge_supported_languages                 | True    |
-| responsive_web_passwordless_sso_enabled                                 | True    |
-| responsive_web_pinned_replies_enabled                                   | True    |
-| responsive_web_placeholder_siwg_button_enabled                          | True    |
-| responsive_web_prerolls_fullscreen_disabled_on_ios                      | True    |
-| responsive_web_professional_cateogory_icon                              | True    |
-| responsive_web_professional_journeys_holdback_enabled                   | True    |
-| responsive_web_profile_spotlight_v0_config                              | True    |
-| responsive_web_profile_spotlight_v0_display                             | True    |
-| responsive_web_promoted_account_card_enabled                            | True    |
-| responsive_web_promoted_badge_below_header                              | True    |
-| responsive_web_promoted_badge_use_circle_icon                           | True    |
-| responsive_web_qp_graphql_accounts_enabled                              | True    |
-| responsive_web_qp_intro_experiment_enabled                              | True    |
-| responsive_web_qp_payment_select_enabled                                | True    |
-| responsive_web_reactions_api_test                                       | True    |
-| responsive_web_reactions_enabled                                        | True    |
-| responsive_web_reactions_fruit_basket_threshold                         | True    |
-| responsive_web_reactions_legacy_heart                                   | True    |
-| responsive_web_reactions_nux_banner                                     | True    |
-| responsive_web_reader_extended_menu                                     | True    |
-| responsive_web_recent_searches_events_enabled                           | True    |
-| responsive_web_recent_searches_topics_enabled                           | True    |
-| responsive_web_recent_searches_users_enabled                            | True    |
-| responsive_web_relay_users                                              | True    |
-| responsive_web_repeat_profile_visits_notifications_enabled              | True    |
-| responsive_web_reply_nudge_copy_version                                 | True    |
-| responsive_web_reply_nudge_enabled                                      | True    |
-| responsive_web_reply_nudge_show_nudge                                   | True    |
-| responsive_web_reply_nudge_supported_languages                          | True    |
-| responsive_web_reply_nudge_testing_keyword                              | True    |
-| responsive_web_reply_storm_enabled                                      | True    |
-| responsive_web_report_page_not_found                                    | True    |
-| responsive_web_scroller_autopoll_enabled                                | True    |
-| responsive_web_scroller_top_positioning_enabled                         | True    |
-| responsive_web_search_home_page_design_variation                        | True    |
-| responsive_web_send_cookies_metadata_enabled                            | True    |
-| responsive_web_settings_timeline_polling_enabled                        | True    |
-| responsive_web_settings_timeline_polling_interval_ms                    | True    |
-| responsive_web_settings_timeline_refresh_background_interval            | True    |
-| responsive_web_share_action_order_desktop                               | True    |
-| responsive_web_share_action_order_mobile                                | True    |
-| responsive_web_share_only_tweet_url_omit_title_and_text                 | True    |
-| responsive_web_sidebar_ttf_enabled                                      | True    |
-| responsive_web_spud_enabled                                             | True    |
-| responsive_web_sso_redirect_enabled                                     | True    |
-| responsive_web_ssr_footer_categorized_variant_enabled                   | True    |
-| responsive_web_suppress_app_button_banner_suppressed                    | True    |
-| responsive_web_text_conversations_enabled                               | True    |
-| responsive_web_third_party_sso_buttons_enabled                          | True    |
-| responsive_web_timeline_cover_killswitch_enabled                        | True    |
-| responsive_web_timeline_refetching_on_revisit_enabled                   | True    |
-| responsive_web_timeline_relay_lists_management_enabled                  | False   |
-| responsive_web_timeline_relay_user_lists_enabled                        | False   |
-| responsive_web_tracer_global_trace_sample_rate                          | True    |
-| responsive_web_trends_setting_new_endpoints                             | True    |
-| responsive_web_trigger_test_backoff_on_bookmark                         | True    |
-| responsive_web_tweet_analytics_m2_enabled                               | True    |
-| responsive_web_tweet_analytics_m3_enabled                               | True    |
-| responsive_web_tweet_analytics_promoted_audience_demographics_enabled   | True    |
-| responsive_web_tweet_analytics_video_metrics_v2_enabled                 | True    |
-| responsive_web_tweetdeck_menu_item_enabled                              | True    |
-| responsive_web_twitter_article_compose_enabled                          | True    |
-| responsive_web_twitter_article_geo_gated                                | True    |
-| responsive_web_twitter_article_gif_picker_enabled                       | True    |
-| responsive_web_twitter_article_max_times_show_tweet_banner              | True    |
-| responsive_web_twitter_article_tweet_other_notes_enabled                | True    |
-| responsive_web_twitter_article_tweet_own_notes_enabled                  | True    |
-| responsive_web_twitter_article_view_enabled                             | True    |
-| responsive_web_typeahead_reverse_bolding_enabled                        | True    |
-| responsive_web_uc_gql_enabled                                           | True    |
-| responsive_web_unsupported_entry_tombstone                              | True    |
-| responsive_web_use_app_button_variations                                | True    |
-| responsive_web_use_app_prompt_copy_variant                              | True    |
-| responsive_web_use_app_prompt_enabled                                   | True    |
-| responsive_web_use_badge_counts_for_ntab                                | True    |
-| responsive_web_user_profile_header_relay                                | True    |
-| responsive_web_vdl_dash_redesign_enabled                                | True    |
-| responsive_web_video_pcomplete_enabled                                  | True    |
-| responsive_web_video_promoted_logging_enabled                           | True    |
-| responsive_web_video_trimmer_enabled                                    | True    |
-| responsive_web_vod_muted_captions_enabled                               | True    |
-| responsive_web_vs_config_resize_observer_enabled                        | True    |
-| responsive_web_zipkin_api_requests_enabled                              | True    |
-| responsive_web_zipkin_api_requests_paths_allowlist                      | True    |
-| rito_safety_mode_blocked_profile_enabled                                | True    |
-| rito_safety_mode_features_enabled                                       | True    |
-| rito_safety_mode_modal_prompt_enabled                                   | True    |
-| rito_safety_mode_settings_enabled                                       | True    |
-| rweb_home_perf_client_prefetch_mode                                     | True    |
-| rweb_reply_downvote_before_like                                         | True    |
-| rweb_reply_downvote_enabled                                             | True    |
-| rweb_reply_downvote_inline_days                                         | True    |
-| rweb_reply_downvote_inline_education                                    | True    |
-| rweb_reply_downvote_inline_survey                                       | True    |
-| rweb_reply_downvote_nux_inline_days                                     | True    |
-| rweb_video_tagging_enabled                                              | True    |
-| sc_r4_enabled                                                           | True    |
-| scribe_api_error_sample_size                                            | True    |
-| scribe_api_sample_size                                                  | True    |
-| scribe_cdn_host_list                                                    | True    |
-| scribe_cdn_sample_size                                                  | True    |
-| scribe_web_nav_sample_size                                              | True    |
-| sensitive_media_settings_enabled                                        | True    |
-| sensitive_tweet_warnings_enabled                                        | True    |
-| settings_revamp_search_bar_enabled                                      | True    |
-| share_animation_after_like_enabled                                      | True    |
-| smbo_legacy_pac_is_in_follow_position_test                              | True    |
-| smbo_legacy_pac_is_social_context_enabled_test                          | True    |
-| social_context_and_topic_context_refresh_alignment_enabled              | True    |
-| spaces_2022_h2_clipping                                                 | True    |
-| spaces_2022_h2_clipping_consumption                                     | True    |
-| spaces_2022_h2_clipping_duration_seconds                                | True    |
-| spaces_2022_h2_follow_host                                              | True    |
-| spaces_2022_h2_spacebar                                                 | True    |
-| spaces_2022_h2_spacebar_use_mock_data                                   | True    |
-| spaces_2022_h2_spacebar_web_use_topnavbar                               | True    |
-| spaces_2022_h2_spaces_communities                                       | True    |
-| standardized_nudges_misinfo                                             | True    |
-| stateful_login_enabled                                                  | True    |
-| subscriptions_blue_premium_labeling_enabled                             | True    |
-| subscriptions_enabled                                                   | True    |
-| subscriptions_feature_1002                                              | True    |
-| subscriptions_feature_1003                                              | True    |
-| subscriptions_feature_1005                                              | True    |
-| subscriptions_feature_1006                                              | True    |
-| subscriptions_feature_1007                                              | True    |
-| subscriptions_feature_1009                                              | True    |
-| subscriptions_feature_1011                                              | True    |
-| subscriptions_feature_labs_1001                                         | True    |
-| subscriptions_feature_labs_1004                                         | True    |
-| subscriptions_long_video_rweb_new_copy_enabled                          | True    |
-| subscriptions_long_video_upload                                         | True    |
-| subscriptions_long_video_upload_override                                | True    |
-| subscriptions_management_enabled                                        | True    |
-| subscriptions_marketing_page_refresh_enabled                            | True    |
-| subscriptions_product_feature_list_api_enabled                          | True    |
-| subscriptions_settings_item_enabled                                     | True    |
-| subscriptions_sign_up_enabled                                           | True    |
-| subscriptions_stripe_testing                                            | True    |
-| subscriptions_tab_customization_on_android_enabled                      | True    |
-| subscriptions_top_articles_on_ios_enabled                               | True    |
-| subscriptions_twitter_blue_logo_enabled                                 | True    |
-| super_follow_android_web_subscription_enabled                           | True    |
-| super_follow_exclusive_tweet_creation_api_enabled                       | True    |
-| super_follow_tweet_api_enabled                                          | True    |
-| super_follow_user_api_enabled                                           | True    |
-| super_follow_web_application_enabled                                    | True    |
-| super_follow_web_deactivate_enabled                                     | True    |
-| super_follow_web_debug_enabled                                          | True    |
-| super_follow_web_edit_perks_enabled                                     | True    |
-| super_follow_web_monetization_dashboard_enabled                         | True    |
-| super_follow_web_onboarding_enabled                                     | True    |
-| targeted_project_friday_enabled                                         | True    |
-| tokens_delete_too_on_password_change                                    | True    |
-| topic_landing_page_clearer_controls_enabled                             | True    |
-| topic_landing_page_cta_text                                             | True    |
-| topic_landing_page_share_enabled                                        | True    |
-| topics_context_controls_followed_variation                              | True    |
-| topics_context_controls_implicit_context_x_enabled                      | True    |
-| topics_context_controls_implicit_variation                              | True    |
-| topics_context_controls_inline_prompt_enabled                           | True    |
-| topics_discovery_page_enabled                                           | True    |
-| toxic_reply_filter_settings_enabled                                     | True    |
-| traffic_rewrite_map                                                     | True    |
-| trusted_friends_audience_control_exp_variant                            | True    |
-| trusted_friends_consumption_enabled                                     | True    |
-| trusted_friends_dash_discovery_enabled                                  | True    |
-| trusted_friends_tweet_creation_enabled                                  | True    |
-| tweet_limited_actions_config_community_tweet_community_deleted          | True    |
-| tweet_limited_actions_config_community_tweet_community_not_found        | True    |
-| tweet_limited_actions_config_community_tweet_community_suspended        | True    |
-| tweet_limited_actions_config_community_tweet_hidden                     | True    |
-| tweet_limited_actions_config_community_tweet_member                     | True    |
-| tweet_limited_actions_config_community_tweet_member_removed             | True    |
-| tweet_limited_actions_config_community_tweet_non_member                 | True    |
-| tweet_limited_actions_config_disable_state_media_autoplay               | True    |
-| tweet_limited_actions_config_enabled                                    | True    |
-| tweet_limited_actions_config_limit_trusted_friends_tweet                | True    |
-| tweet_limited_actions_config_non_compliant                              | True    |
-| tweet_limited_actions_config_soft_nudge_with_quote_tweet                | True    |
-| tweet_translation_timeline_enabled                                      | True    |
-| tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | True    |
-| tweet_with_visibility_results_prefer_gql_soft_interventions_enabled     | True    |
-| tweet_with_visibility_results_prefer_gql_tombstones_enabled             | True    |
-| ucpd_enabled                                                            | True    |
-| unified_cards_ad_metadata_container_dynamic_card_content_query_enabled  | True    |
-| unified_cards_follow_card_consumption_enabled                           | True    |
-| user_display_name_max_limit                                             | True    |
-| verified_phone_label_enabled                                            | True    |
-| vibe_api_enabled                                                        | False   |
-| vibe_tweet_context_enabled                                              | False   |
-| vod_attribution_tweet_detail_pivot_enabled                              | True    |
-| voice_consumption_enabled                                               | True    |
-| voice_rooms_card_version                                                | True    |
-| voice_rooms_discovery_page_enabled                                      | True    |
-| voice_rooms_end_screen_participants                                     | True    |
-| voice_rooms_expanded_dock                                               | True    |
-| voice_rooms_expanded_dock_reactions                                     | True    |
-| voice_rooms_host_analytics_enabled                                      | True    |
-| voice_rooms_reactions_enabled                                           | True    |
-| voice_rooms_recent_search_audiospace_ring_enabled                       | True    |
-| voice_rooms_replay_consumption                                          | True    |
-| voice_rooms_search_results_page_audiospace_ring_enabled                 | True    |
-| voice_rooms_sharing_listening_data_with_followers_setting_enabled       | True    |
-| voice_rooms_speaking_enabled                                            | True    |
-| voice_rooms_typeahead_audiospace_ring_enabled                           | True    |
-| web_video_bitrate_persistence_enabled                                   | True    |
-| web_video_caption_repositioning_enabled                                 | True    |
-| web_video_hls_android_mse_enabled                                       | True    |
-| web_video_hls_mp4_threshold_sec                                         | True    |
-| web_video_hls_variant_version                                           | True    |
-| web_video_hlsjs_version                                                 | True    |
-| web_video_hlsjs_worker_enabled                                          | True    |
-| web_video_playback_rate_enabled                                         | True    |
-| web_video_player_size_cap_disabled                                      | True    |
-| web_video_prefetch_playlist_autoplay_disabled                           | True    |
-| web_video_smart_buffering_enabled                                       | True    |
-| web_video_transcribed_captions_enabled                                  | True    |
+| constant   | value   |
+|:-----------|:--------|
+| prod       | prod    |
+| staging    | staging |
+| devel      | devel   |
+
+| constant                                                                              | value   |
+|:--------------------------------------------------------------------------------------|:--------|
+| 2fa_temporary_password_enabled                                                        | True    |
+| account_2fa_standalone_security_key_enabled                                           | True    |
+| account_country_setting_countries_whitelist                                           | True    |
+| account_session_console_from_graphql_enabled                                          | True    |
+| account_taxonomy_automated_label_enabled                                              | True    |
+| account_taxonomy_automation_opt_in_enabled                                            | True    |
+| ads_spacing_client_fallback_minimum_spacing                                           | True    |
+| arkose_challenge_lo_web_notification_dev                                              | True    |
+| arkose_challenge_lo_web_notification_mobile_prod                                      | True    |
+| arkose_challenge_lo_web_notification_prod                                             | True    |
+| arkose_challenge_login_web_devel                                                      | True    |
+| arkose_challenge_login_web_prod                                                       | True    |
+| arkose_challenge_open_app_dev                                                         | True    |
+| arkose_challenge_open_app_prod                                                        | True    |
+| arkose_challenge_signup_mobile_dev                                                    | True    |
+| arkose_challenge_signup_mobile_prod                                                   | True    |
+| arkose_challenge_signup_web_dev                                                       | True    |
+| arkose_challenge_signup_web_prod                                                      | True    |
+| Arkose_rweb_hosted_page                                                               | True    |
+| Arkose_use_invisible_challenge_key                                                    | True    |
+| author_moderated_replies_urt_container_enabled                                        | True    |
+| branded_like_preview_enabled                                                          | True    |
+| c9s_auto_collapse_community_detail_header_enabled                                     | True    |
+| c9s_communities_search_enabled                                                        | True    |
+| c9s_community_composer_hashtag_suggestions_enabled                                    | True    |
+| c9s_community_creation_enabled                                                        | True    |
+| c9s_community_creation_form_membership_type_enabled                                   | True    |
+| c9s_community_creation_setup_checklist_enabled                                        | True    |
+| c9s_community_deletion_enabled                                                        | True    |
+| c9s_community_hashtags_carousel_enabled                                               | True    |
+| c9s_community_hashtags_enabled                                                        | True    |
+| c9s_edit_moderators_enabled                                                           | True    |
+| c9s_enabled                                                                           | True    |
+| c9s_highlight_tweet_enabled                                                           | True    |
+| c9s_list_members_action_api_enabled                                                   | True    |
+| c9s_logged_out_access_enabled                                                         | True    |
+| c9s_max_community_description_length                                                  | True    |
+| c9s_max_community_name_length                                                         | True    |
+| c9s_max_rule_count                                                                    | True    |
+| c9s_max_rule_description_length                                                       | True    |
+| c9s_max_rule_name_length                                                              | True    |
+| c9s_members_list_search_enabled                                                       | True    |
+| c9s_moderation_enabled                                                                | True    |
+| c9s_nav_list_activity_details_enabled                                                 | True    |
+| c9s_participation_enabled                                                             | True    |
+| c9s_poll_creation_enabled                                                             | True    |
+| c9s_remove_member_enabled                                                             | True    |
+| c9s_remove_member_list_enabled                                                        | True    |
+| c9s_report_community_enabled                                                          | True    |
+| c9s_rule_management_enabled                                                           | True    |
+| c9s_spotlight_consumption_enabled                                                     | True    |
+| c9s_spotlight_creation_enabled                                                        | True    |
+| c9s_tab_visibility                                                                    | True    |
+| c9s_timelines_default_selection                                                       | True    |
+| c9s_timelines_ranking_enabled                                                         | True    |
+| c9s_unread_indicator_global_enabled                                                   | True    |
+| c9s_unread_indicator_mod_actions_enabled                                              | True    |
+| c9s_unread_indicator_tweets_enabled                                                   | True    |
+| card_compose_preview_retry_after_ms                                                   | True    |
+| card_compose_preview_retry_max                                                        | True    |
+| content_language_setting_enabled                                                      | True    |
+| conversation_controls_change_enabled                                                  | True    |
+| conversation_controls_change_tooltip_enabled                                          | True    |
+| conversation_controls_limited_replies_consumption_configuration                       | True    |
+| conversation_controls_limited_replies_creation_enabled                                | True    |
+| conversation_controls_persistence_enabled                                             | True    |
+| conversational_safety_heads_up_treatment_A_enabled                                    | True    |
+| dash_region_specific_de_and_tr_media_transparency_items_enabled                       | True    |
+| dash_region_specific_de_media_transparency_items_enabled                              | True    |
+| direct_messages_incremental_holdback_2022h1                                           | True    |
+| dm_conversation_labels_max_pinned_count                                               | True    |
+| dm_conversation_labels_pinned_education_enabled                                       | True    |
+| dm_conversation_labels_pinned_enabled                                                 | True    |
+| dm_conversations_muting_enabled                                                       | True    |
+| dm_conversations_nsfw_media_filter_enabled                                            | True    |
+| dm_education_flags_prompt                                                             | True    |
+| dm_evolution_add_participants_enabled                                                 | True    |
+| dm_evolution_conversation_read_enabled                                                | True    |
+| dm_evolution_conversation_write_enabled                                               | True    |
+| dm_evolution_enabled                                                                  | True    |
+| dm_evolution_group_conversation_management_ct_enabled                                 | True    |
+| dm_evolution_inbox_primary_enabled                                                    | True    |
+| dm_evolution_inbox_secondary_enabled                                                  | True    |
+| dm_evolution_inbox_tertiary_enabled                                                   | True    |
+| dm_evolution_message_creation_enabled                                                 | True    |
+| dm_evolution_message_hide_enabled                                                     | True    |
+| dm_evolution_messaging_interactions_ct_enabled                                        | True    |
+| dm_evolution_reaction_write_enabled                                                   | True    |
+| dm_evolution_responsive_web_early_bird_only_switch                                    | True    |
+| dm_evolution_typing_indicator_enabled                                                 | True    |
+| dm_inbox_search_groups_bucket_size                                                    | True    |
+| dm_inbox_search_max_recent_searches_stored                                            | True    |
+| dm_inbox_search_message_attachment_previews_enabled                                   | True    |
+| dm_inbox_search_message_results_enabled                                               | True    |
+| dm_inbox_search_messages_bucket_size                                                  | True    |
+| dm_inbox_search_modular_results_enabled                                               | True    |
+| dm_inbox_search_people_bucket_size                                                    | True    |
+| dm_inbox_search_query_highlighting_conversation_results_enabled                       | True    |
+| dm_inbox_search_query_highlighting_message_results_enabled                            | True    |
+| dm_reactions_config_active_reactions                                                  | True    |
+| dm_reactions_config_inactive_reactions                                                | True    |
+| dm_share_sheet_send_individually_enabled                                              | True    |
+| dm_share_sheet_send_individually_max_count                                            | True    |
+| dm_vdl_chat_p0_enabled                                                                | True    |
+| dm_vdl_enabled                                                                        | True    |
+| dm_vdl_inbox_p0_enabled                                                               | True    |
+| dm_voice_rendering_enabled                                                            | True    |
+| dont_mention_me_enabled                                                               | True    |
+| dont_mention_me_mentions_tab_education_enabled                                        | True    |
+| dont_mention_me_view_api_enabled                                                      | True    |
+| ecd_dispute_form_link_enabled                                                         | True    |
+| employee_role                                                                         | True    |
+| enable_label_appealing_misinfo_enabled                                                | True    |
+| enable_label_appealing_sensitive_content_enabled                                      | True    |
+| explore_relaunch_enable_immersive_web                                                 | True    |
+| explore_relaunch_enable_immersive_web_navigation_button                               | True    |
+| explore_relaunch_enable_immersive_web_tap_to_hide                                     | True    |
+| explore_relaunch_enabled                                                              | True    |
+| explore_relaunch_onboarding_bar_show_count                                            | True    |
+| explore_relaunch_updated_scrubber_position                                            | True    |
+| explore_settings_trends_policy_url                                                    | True    |
+| focused_timeline_actions_onboarding_likes                                             | True    |
+| follow_nudge_conversation_enabled                                                     | True    |
+| follow_nudge_search_enabled                                                           | True    |
+| global_mention_settings_enabled                                                       | True    |
+| graphql_composer_and_dm_card_previews_enabled                                         | True    |
+| graphql_is_translatable_rweb_tweet_is_translatable_enabled                            | True    |
+| graphql_mutation_destroy_mode                                                         | True    |
+| graphql_mutation_retweet_mode                                                         | True    |
+| graphql_mutation_unretweet_mode                                                       | True    |
+| graphql_mutation_update_mode                                                          | True    |
+| graphql_timeline_v2_bookmark_timeline                                                 | True    |
+| graphql_timeline_v2_query_threaded_conversation_with_injections                       | True    |
+| graphql_timeline_v2_user_favorites_by_time_timeline                                   | True    |
+| graphql_timeline_v2_user_media_timeline                                               | True    |
+| graphql_timeline_v2_user_profile_timeline                                             | True    |
+| graphql_timeline_v2_user_profile_with_replies_timeline                                | True    |
+| gryphon_optout_in_settings                                                            | True    |
+| guest_broadcasting_timeline_decorations_enabled                                       | True    |
+| hashflags_animation_like_button_enabled                                               | True    |
+| home_timeline_extended_reactivity_tweet_clicks_enabled                                | True    |
+| home_timeline_extended_reactivity_tweet_clicks_fatigue                                | True    |
+| home_timeline_extended_reactivity_tweet_clicks_trigger_seconds                        | True    |
+| home_timeline_latest_timeline_switch_enabled                                          | True    |
+| home_timeline_like_reactivity_enabled                                                 | True    |
+| home_timeline_like_reactivity_fatigue                                                 | True    |
+| home_timeline_scribing_section_change_enabled                                         | True    |
+| home_timeline_spheres_detail_page_muting_enabled                                      | True    |
+| home_timeline_spheres_max_user_owned_or_subscribed_lists_count                        | True    |
+| home_timeline_spheres_ranking_mode_control_enabled                                    | True    |
+| home_timeline_tweet_auto_inline_reply_enabled                                         | True    |
+| identity_verification_debadging_notification_enabled                                  | True    |
+| identity_verification_educational_prompt_enabled                                      | True    |
+| identity_verification_intake_enabled                                                  | True    |
+| identity_verification_notable_demo_survey                                             | True    |
+| interactive_text_enabled                                                              | True    |
+| linked_search_experiment                                                              | True    |
+| live_event_docking_enabled                                                            | True    |
+| live_event_interstitial_seen_cache_enabled                                            | True    |
+| live_event_multi_video_auto_advance_dock_enabled                                      | True    |
+| live_event_multi_video_auto_advance_enabled                                           | True    |
+| live_event_multi_video_auto_advance_fullscreen_enabled                                | True    |
+| live_event_multi_video_auto_advance_transition_duration_seconds                       | True    |
+| live_event_multi_video_enabled                                                        | True    |
+| live_event_timeline_default_refresh_rate_interval_seconds                             | True    |
+| live_event_timeline_minimum_refresh_rate_interval_seconds                             | True    |
+| live_event_timeline_server_controlled_refresh_rate_enabled                            | True    |
+| livepipeline_client_enabled                                                           | True    |
+| livepipeline_tweetengagement_enabled                                                  | True    |
+| longform_ad_free_articles_badging_enabled                                             | True    |
+| longform_top_articles_friends_of_friends_enabled                                      | True    |
+| longform_top_articles_time_window_enabled                                             | True    |
+| machine_translation_logged_out_enabled                                                | True    |
+| media_edge_to_edge_content_enabled                                                    | True    |
+| media_infra_play_icon_version_number                                                  | True    |
+| moment_annotations_enabled                                                            | True    |
+| moments_new_share_variant_floating_action_button                                      | True    |
+| network_layer_503_backoff_mode                                                        | True    |
+| news_landing_page_enabled                                                             | True    |
+| noteworthy_accounts_screen_enabled                                                    | True    |
+| ocf_2fa_enrollment_bouncer_enabled                                                    | True    |
+| ocf_2fa_enrollment_enabled                                                            | True    |
+| ocf_2fa_unenrollment_enabled                                                          | True    |
+| onboarding_connect_tab_urt_graphql_enabled                                            | True    |
+| onboarding_project_uls_enabled                                                        | True    |
+| papago_tweet_translation_from_korean_entity_protected                                 | True    |
+| papago_tweet_translation_from_korean_entity_protected_destinations                    | True    |
+| papago_tweet_translation_from_korean_entity_unprotected                               | True    |
+| papago_tweet_translation_from_korean_entity_unprotected_destinations                  | True    |
+| papago_tweet_translation_to_korean                                                    | True    |
+| papago_tweet_translation_to_korean_sources                                            | True    |
+| professional_launchpad_m1_enabled                                                     | True    |
+| professional_launchpad_upload_address_book                                            | True    |
+| profile_foundations_about_tab_enabled                                                 | True    |
+| profile_foundations_about_tab_tooltip_enabled                                         | True    |
+| profile_foundations_header_fields_hidden                                              | True    |
+| profile_foundations_tweet_stats_enabled                                               | True    |
+| profile_foundations_tweet_stats_tweet_count                                           | True    |
+| profile_foundations_tweet_stats_tweet_frequency                                       | True    |
+| profile_foundations_tweet_stats_tweet_topics                                          | True    |
+| profile_navigation_likes_tab_prominence_enabled                                       | True    |
+| report_center_mvp_r1_enabled                                                          | True    |
+| report_center_mvp_r2_enabled                                                          | True    |
+| responsive_web_3rd_party_category_branch                                              | True    |
+| responsive_web_3rd_party_category_double_click                                        | True    |
+| responsive_web_3rd_party_category_external_referer                                    | True    |
+| responsive_web_3rd_party_category_ga                                                  | True    |
+| responsive_web_3rd_party_category_google_platform                                     | True    |
+| responsive_web_3rd_party_category_google_recaptcha                                    | True    |
+| responsive_web_3rd_party_category_player_card                                         | True    |
+| responsive_web_3rd_party_category_sentry                                              | True    |
+| responsive_web_3rd_party_category_sign_in_with_apple                                  | True    |
+| responsive_web_account_access_language_lo_banners                                     | True    |
+| responsive_web_account_access_language_lo_splash_sidebar                              | True    |
+| responsive_web_account_search_readability_enabled                                     | True    |
+| responsive_web_alt_svc                                                                | True    |
+| responsive_web_alt_text_nudges_enabled                                                | True    |
+| responsive_web_alt_text_nudges_settings_enabled                                       | True    |
+| responsive_web_alt_text_translations_enabled                                          | True    |
+| responsive_web_api_transition_enabled                                                 | True    |
+| responsive_web_article_nudge_enabled                                                  | True    |
+| responsive_web_audio_space_ring_home_timeline                                         | True    |
+| responsive_web_author_labels_avatar_label_enabled                                     | True    |
+| responsive_web_author_labels_focal_label_enabled                                      | True    |
+| responsive_web_author_labels_handle_label_enabled                                     | True    |
+| responsive_web_auto_logout_multiaccount_enabled                                       | True    |
+| responsive_web_auto_logout_restrictedauthtoken_enabled                                | True    |
+| responsive_web_auto_logout_twid_enabled                                               | True    |
+| responsive_web_behavioral_events_communities_enabled                                  | True    |
+| responsive_web_behavioral_events_enabled                                              | True    |
+| responsive_web_behavioral_events_home_enabled                                         | True    |
+| responsive_web_behavioral_events_htl_breadcrumbs                                      | True    |
+| responsive_web_behavioral_events_session_id_enabled                                   | True    |
+| responsive_web_behavioral_events_target_view_v2_enabled                               | True    |
+| responsive_web_birdwatch_aliases_enabled                                              | True    |
+| responsive_web_birdwatch_appeals_enabled                                              | True    |
+| responsive_web_birdwatch_consumption_enabled                                          | True    |
+| responsive_web_birdwatch_contribution_enabled                                         | True    |
+| responsive_web_birdwatch_country_allowed                                              | True    |
+| responsive_web_birdwatch_deleted_notes_enabled                                        | True    |
+| responsive_web_birdwatch_earn_in_enabled                                              | True    |
+| responsive_web_birdwatch_earn_out_enabled                                             | True    |
+| responsive_web_birdwatch_hcomp_user                                                   | True    |
+| responsive_web_birdwatch_history_enabled                                              | True    |
+| responsive_web_birdwatch_impressions_enabled                                          | True    |
+| responsive_web_birdwatch_new_note_submission_modal_enabled                            | True    |
+| responsive_web_birdwatch_note_awards_enabled                                          | True    |
+| responsive_web_birdwatch_note_writing_enabled                                         | True    |
+| responsive_web_birdwatch_pivots_enabled                                               | True    |
+| responsive_web_birdwatch_profile_awards_enabled                                       | True    |
+| responsive_web_birdwatch_rating_crowd_enabled                                         | True    |
+| responsive_web_birdwatch_rating_mini_survey_enabled                                   | True    |
+| responsive_web_birdwatch_rating_participant_enabled                                   | True    |
+| responsive_web_birdwatch_ratings_m2_tags_enabled                                      | True    |
+| responsive_web_birdwatch_ratings_v2_enabled                                           | True    |
+| responsive_web_birdwatch_site_enabled                                                 | True    |
+| responsive_web_birdwatch_traffic_lights_enabled                                       | True    |
+| responsive_web_branch_cpid_enabled                                                    | True    |
+| responsive_web_branch_sdk_enabled                                                     | True    |
+| responsive_web_captions_always_display_enabled                                        | True    |
+| responsive_web_card_conversion_hoisted                                                | True    |
+| responsive_web_card_preconnect_enabled                                                | True    |
+| responsive_web_card_preload_mode                                                      | True    |
+| responsive_web_carousel_v2_cards_non_safari_enabled                                   | True    |
+| responsive_web_carousel_v2_cards_safari_variant                                       | True    |
+| responsive_web_carousel_v2_media_detail_enabled                                       | True    |
+| responsive_web_cleanup_macaw_swift_indexed_db                                         | True    |
+| responsive_web_collection_ads_enabled                                                 | True    |
+| responsive_web_commerce_shop_spotlight_enabled                                        | True    |
+| responsive_web_communities_slices_enabled                                             | True    |
+| responsive_web_composer_configurable_video_player_enabled                             | True    |
+| responsive_web_continue_as_always_enabled                                             | True    |
+| responsive_web_continue_as_param_enabled                                              | True    |
+| responsive_web_convert_card_video_to_gif_enabled                                      | False   |
+| responsive_web_cookie_compliance_1st_party_killswitch_list                            | True    |
+| responsive_web_cookie_compliance_banner_enabled                                       | True    |
+| responsive_web_cookie_compliance_gingersnap_enabled                                   | True    |
+| responsive_web_cookie_consent_signal_enabled                                          | False   |
+| responsive_web_cotweet_consumption_enabled                                            | True    |
+| responsive_web_csrf_clientside_enabled                                                | True    |
+| responsive_web_dance_cc_tools_enabled                                                 | True    |
+| responsive_web_dance_cc_tools_include_development_enabled                             | True    |
+| responsive_web_dcm_2_enabled                                                          | True    |
+| responsive_web_deamplification_replies_dropdown_selector_enabled                      | True    |
+| responsive_web_deamplification_transparent_cursors_enabled                            | True    |
+| responsive_web_delegate_enabled                                                       | True    |
+| responsive_web_delete_nonempty_tweetstorm_composer_enabled                            | True    |
+| responsive_web_device_follow_without_user_follow_enabled                              | True    |
+| responsive_web_disconnect_third_party_sso_enabled                                     | True    |
+| responsive_web_do_not_launch_me_reverse_home_timeline_enabled                         | True    |
+| responsive_web_dockable_autoplay_policy_enabled                                       | True    |
+| responsive_web_drew_mute_and_block_enabled                                            | True    |
+| responsive_web_drew_profile_block_enabled                                             | True    |
+| responsive_web_drew_timeline_block_enabled                                            | True    |
+| responsive_web_dtime_fccts_enabled                                                    | True    |
+| responsive_web_dtime_featured_timelines_modal_enabled                                 | True    |
+| responsive_web_dtime_show_new_tweets_enabled                                          | True    |
+| responsive_web_dtime_sparkle_menu_featured_timelines_enabled                          | True    |
+| responsive_web_dtime_timelines_directory_enabled                                      | True    |
+| responsive_web_dtime_timelines_preview_enabled                                        | True    |
+| responsive_web_dtime_tpat_enabled                                                     | True    |
+| responsive_web_dynamic_product_ads_enabled                                            | True    |
+| responsive_web_edit_tweet_api_enabled                                                 | True    |
+| responsive_web_edit_tweet_composition_enabled                                         | True    |
+| responsive_web_edit_tweet_enabled                                                     | True    |
+| responsive_web_edit_tweet_perspective_enabled                                         | True    |
+| responsive_web_edit_tweet_upsell_enabled                                              | True    |
+| responsive_web_element_size_impression_scribe_enabled                                 | True    |
+| responsive_web_enhance_cards_enabled                                                  | True    |
+| responsive_web_eu_countries                                                           | True    |
+| responsive_web_explorer_ads_enabled                                                   | True    |
+| responsive_web_extension_compatibility_hide                                           | True    |
+| responsive_web_extension_compatibility_impression_guard                               | True    |
+| responsive_web_extension_compatibility_override_param                                 | True    |
+| responsive_web_extension_compatibility_scribe                                         | True    |
+| responsive_web_extension_compatibility_size_threshold                                 | True    |
+| responsive_web_fake_root_twitter_domain_for_testing                                   | True    |
+| responsive_web_feature_gating_enabled                                                 | True    |
+| responsive_web_fetch_hashflags_on_boot                                                | True    |
+| responsive_web_footer_categorized_variant_enabled                                     | True    |
+| responsive_web_frame_scheduler_enabled                                                | True    |
+| responsive_web_framerate_tracking_home_enabled                                        | True    |
+| responsive_web_gaggle_site_enabled                                                    | True    |
+| responsive_web_graphql_conversations_enabled                                          | True    |
+| responsive_web_graphql_dark_reads_probability                                         | True    |
+| responsive_web_graphql_feedback                                                       | True    |
+| responsive_web_graphql_home_enabled                                                   | True    |
+| responsive_web_graphql_home_latest_enabled                                            | True    |
+| responsive_web_graphql_likes_timeline                                                 | True    |
+| responsive_web_graphql_media_timeline                                                 | True    |
+| responsive_web_graphql_relay_users                                                    | True    |
+| responsive_web_graphql_timeline_navigation_enabled                                    | False   |
+| responsive_web_graphql_topic_timeline_enabled                                         | True    |
+| responsive_web_hashtag_highlight_is_enabled                                           | True    |
+| responsive_web_hashtag_highlight_show_avatar                                          | True    |
+| responsive_web_hashtag_highlight_use_small_font                                       | True    |
+| responsive_web_hevc_upload_preview_enabled                                            | True    |
+| responsive_web_home_new_tweets_pill_v2                                                | True    |
+| responsive_web_home_pinned_timelines_latest_enabled                                   | True    |
+| responsive_web_home_pinned_timelines_lists_enabled                                    | True    |
+| responsive_web_home_sticky_new_tweets_pill_delay_seconds                              | True    |
+| responsive_web_home_sticky_new_tweets_pill_duration_seconds                           | True    |
+| responsive_web_home_sticky_new_tweets_pill_enabled                                    | True    |
+| responsive_web_htl_empty_state_redesign_variant                                       | True    |
+| responsive_web_impression_pixel_enabled                                               | True    |
+| responsive_web_impression_tracker_refactor_enabled                                    | True    |
+| responsive_web_install_banner_show_immediate                                          | True    |
+| responsive_web_instream_video_redesign_enabled                                        | True    |
+| responsive_web_instream_video_store_keyed                                             | True    |
+| responsive_web_lbm_v2_home_enabled                                                    | True    |
+| responsive_web_lbm_v2_replies_enabled                                                 | True    |
+| responsive_web_left_nav_refresh_connect_enabled                                       | True    |
+| responsive_web_left_nav_refresh_topics_enabled                                        | True    |
+| responsive_web_like_by_author_enabled                                                 | True    |
+| responsive_web_like_by_author_new_line                                                | True    |
+| responsive_web_list_tweet_integration_enabled                                         | True    |
+| responsive_web_live_commerce_enabled                                                  | True    |
+| responsive_web_live_video_parity_periscope_auth_enabled                               | True    |
+| responsive_web_location_spotlight_display_map                                         | True    |
+| responsive_web_location_spotlight_v1_config                                           | True    |
+| responsive_web_location_spotlight_v1_display                                          | True    |
+| responsive_web_logged_out_gating_13501_ddg                                            | True    |
+| responsive_web_logged_out_gating_13622_ddg                                            | True    |
+| responsive_web_logged_out_gating_13718_ddg                                            | True    |
+| responsive_web_logged_out_gating_14123_ddg                                            | True    |
+| responsive_web_logged_out_gating_14788_ddg                                            | True    |
+| responsive_web_logged_out_gating_14992_ddg                                            | True    |
+| responsive_web_logged_out_gating_15377_ddg                                            | True    |
+| responsive_web_logged_out_gating_aggressive_segments                                  | True    |
+| responsive_web_logged_out_gating_less_aggressive_segments                             | True    |
+| responsive_web_logged_out_gating_non_holdback_ddgs                                    | True    |
+| responsive_web_logged_out_gating_non_impressing_member_segments                       | True    |
+| responsive_web_logged_out_notifications_enabled                                       | True    |
+| responsive_web_logged_out_notifications_including_home                                | True    |
+| responsive_web_login_input_type_email_enabled                                         | True    |
+| responsive_web_login_signup_sheet_app_install_cta_enabled                             | True    |
+| responsive_web_media_upload_limit_2g                                                  | True    |
+| responsive_web_media_upload_limit_3g                                                  | True    |
+| responsive_web_media_upload_limit_slow_2g                                             | True    |
+| responsive_web_media_upload_md5_hashing_enabled                                       | True    |
+| responsive_web_media_upload_metrics_enabled                                           | True    |
+| responsive_web_media_upload_target_jpg_pixels_per_byte                                | True    |
+| responsive_web_menu_section_divider_enabled                                           | True    |
+| responsive_web_misinfo_label_revamp_tweaks_enabled                                    | True    |
+| responsive_web_mixed_media_consumption_enabled                                        | True    |
+| responsive_web_mobile_app_spotlight_v1_config                                         | True    |
+| responsive_web_mobile_app_spotlight_v1_display                                        | True    |
+| responsive_web_moment_maker_annotations_enabled                                       | True    |
+| responsive_web_moment_maker_enabled                                                   | True    |
+| responsive_web_moment_maker_promoted_tweets_enabled                                   | True    |
+| responsive_web_multiple_account_limit                                                 | True    |
+| responsive_web_new_copy_security_key_2fa_enabled                                      | True    |
+| responsive_web_newsletters_callout_enabled                                            | True    |
+| responsive_web_newsletters_menu_enabled                                               | True    |
+| responsive_web_newsletters_profile_subscribe_enabled                                  | True    |
+| responsive_web_newsletters_subscribe_double_opt_in_removal_enabled                    | True    |
+| responsive_web_nft_avatar                                                             | True    |
+| responsive_web_nft_avatar_help_link                                                   | True    |
+| responsive_web_notifications_empty_state_redesign_variant                             | True    |
+| responsive_web_ntab_verified_mentions_vit_internal_dogfood                            | True    |
+| responsive_web_nux_web_to_app_drop_gate_enabled                                       | True    |
+| responsive_web_oauth2_consent_flow_enabled                                            | True    |
+| responsive_web_ocf_reportflow_appeals_enabled                                         | True    |
+| responsive_web_ocf_reportflow_dms_enabled                                             | True    |
+| responsive_web_ocf_reportflow_lists_enabled                                           | True    |
+| responsive_web_ocf_reportflow_profiles_enabled                                        | True    |
+| responsive_web_ocf_reportflow_spaces_enabled                                          | True    |
+| responsive_web_ocf_reportflow_suspension_appeals_enabled                              | True    |
+| responsive_web_ocf_reportflow_testers                                                 | True    |
+| responsive_web_ocf_reportflow_tweets_enabled                                          | True    |
+| responsive_web_ocf_sms_autoverify_darkwrite                                           | True    |
+| responsive_web_ocf_sms_autoverify_enabled                                             | True    |
+| responsive_web_offscreen_video_scroller_removal_enabled                               | True    |
+| responsive_web_open_app_appbar_button_enabled                                         | True    |
+| responsive_web_open_in_app_prompt_enabled                                             | True    |
+| responsive_web_opengraph_image_tweet_copy_1                                           | True    |
+| responsive_web_opengraph_play_icon_overlay                                            | True    |
+| responsive_web_opengraph_video_tweet_copy_1                                           | True    |
+| responsive_web_original_tweet_nudge_enabled                                           | True    |
+| responsive_web_original_tweet_nudge_show_nudge                                        | True    |
+| responsive_web_original_tweet_nudge_supported_languages                               | True    |
+| responsive_web_passwordless_sso_enabled                                               | True    |
+| responsive_web_pinned_replies_enabled                                                 | True    |
+| responsive_web_placeholder_siwg_button_enabled                                        | True    |
+| responsive_web_prerolls_fullscreen_disabled_on_ios                                    | True    |
+| responsive_web_professional_cateogory_icon                                            | True    |
+| responsive_web_professional_journeys_holdback_enabled                                 | True    |
+| responsive_web_profile_spotlight_v0_config                                            | True    |
+| responsive_web_profile_spotlight_v0_display                                           | True    |
+| responsive_web_promoted_account_card_enabled                                          | True    |
+| responsive_web_promoted_badge_below_header                                            | True    |
+| responsive_web_promoted_badge_use_circle_icon                                         | True    |
+| responsive_web_qp_graphql_accounts_enabled                                            | True    |
+| responsive_web_qp_intro_experiment_enabled                                            | True    |
+| responsive_web_qp_payment_select_enabled                                              | True    |
+| responsive_web_reactions_api_test                                                     | True    |
+| responsive_web_reactions_enabled                                                      | True    |
+| responsive_web_reactions_fruit_basket_threshold                                       | True    |
+| responsive_web_reactions_legacy_heart                                                 | True    |
+| responsive_web_reactions_nux_banner                                                   | True    |
+| responsive_web_reader_extended_menu                                                   | True    |
+| responsive_web_recent_searches_events_enabled                                         | True    |
+| responsive_web_recent_searches_topics_enabled                                         | True    |
+| responsive_web_recent_searches_users_enabled                                          | True    |
+| responsive_web_relay_users                                                            | True    |
+| responsive_web_repeat_profile_visits_notifications_device_follow_only_version_enabled | True    |
+| responsive_web_repeat_profile_visits_notifications_enabled                            | True    |
+| responsive_web_reply_nudge_copy_version                                               | True    |
+| responsive_web_reply_nudge_enabled                                                    | True    |
+| responsive_web_reply_nudge_show_nudge                                                 | True    |
+| responsive_web_reply_nudge_supported_languages                                        | True    |
+| responsive_web_reply_nudge_testing_keyword                                            | True    |
+| responsive_web_reply_storm_enabled                                                    | True    |
+| responsive_web_report_page_not_found                                                  | True    |
+| responsive_web_scroller_autopoll_enabled                                              | True    |
+| responsive_web_scroller_top_positioning_enabled                                       | True    |
+| responsive_web_search_home_page_design_variation                                      | True    |
+| responsive_web_send_cookies_metadata_enabled                                          | True    |
+| responsive_web_settings_timeline_polling_enabled                                      | True    |
+| responsive_web_settings_timeline_polling_interval_ms                                  | True    |
+| responsive_web_settings_timeline_refresh_background_interval                          | True    |
+| responsive_web_share_action_order_desktop                                             | True    |
+| responsive_web_share_action_order_mobile                                              | True    |
+| responsive_web_share_only_tweet_url_omit_title_and_text                               | True    |
+| responsive_web_sidebar_ttf_enabled                                                    | True    |
+| responsive_web_spud_enabled                                                           | True    |
+| responsive_web_sso_redirect_enabled                                                   | True    |
+| responsive_web_ssr_footer_categorized_variant_enabled                                 | True    |
+| responsive_web_ssr_verified_crawler_rux_injections_enabled                            | True    |
+| responsive_web_suppress_app_button_banner_suppressed                                  | True    |
+| responsive_web_text_conversations_enabled                                             | True    |
+| responsive_web_themed_scrollbars                                                      | True    |
+| responsive_web_third_party_sso_buttons_enabled                                        | True    |
+| responsive_web_timeline_cover_killswitch_enabled                                      | True    |
+| responsive_web_timeline_refetching_on_revisit_enabled                                 | True    |
+| responsive_web_timeline_relay_lists_management_enabled                                | False   |
+| responsive_web_timeline_relay_user_lists_enabled                                      | False   |
+| responsive_web_tracer_global_trace_sample_rate                                        | True    |
+| responsive_web_trends_setting_new_endpoints                                           | True    |
+| responsive_web_tweet_analytics_m2_enabled                                             | True    |
+| responsive_web_tweet_analytics_m3_enabled                                             | True    |
+| responsive_web_tweet_analytics_promoted_audience_demographics_enabled                 | True    |
+| responsive_web_tweet_analytics_video_metrics_v2_enabled                               | True    |
+| responsive_web_tweetdeck_menu_item_enabled                                            | True    |
+| responsive_web_twitter_article_compose_enabled                                        | True    |
+| responsive_web_twitter_article_cover_aspect_ratio_5_2                                 | True    |
+| responsive_web_twitter_article_data_v2_enabled                                        | True    |
+| responsive_web_twitter_article_geo_gated                                              | True    |
+| responsive_web_twitter_article_max_times_show_tweet_banner                            | True    |
+| responsive_web_twitter_article_tweet_other_notes_enabled                              | True    |
+| responsive_web_twitter_article_tweet_own_notes_enabled                                | True    |
+| responsive_web_twitter_article_view_enabled                                           | True    |
+| responsive_web_twitter_blue_home_redesign_enabled                                     | True    |
+| responsive_web_twitter_blue_signup_nux_enabled                                        | True    |
+| responsive_web_typeahead_reverse_bolding_enabled                                      | True    |
+| responsive_web_uc_gql_enabled                                                         | True    |
+| responsive_web_unsupported_entry_tombstone                                            | True    |
+| responsive_web_use_app_button_variations                                              | True    |
+| responsive_web_use_app_prompt_copy_variant                                            | True    |
+| responsive_web_use_app_prompt_enabled                                                 | True    |
+| responsive_web_use_badge_counts_for_ntab                                              | True    |
+| responsive_web_user_profile_header_relay                                              | True    |
+| responsive_web_vdl_dash_redesign_enabled                                              | True    |
+| responsive_web_video_pcomplete_enabled                                                | True    |
+| responsive_web_video_promoted_logging_enabled                                         | True    |
+| responsive_web_video_trimmer_enabled                                                  | True    |
+| responsive_web_vod_muted_captions_enabled                                             | True    |
+| responsive_web_vs_config_resize_observer_enabled                                      | True    |
+| responsive_web_zipkin_api_requests_enabled                                            | True    |
+| responsive_web_zipkin_api_requests_paths_allowlist                                    | True    |
+| rito_safety_mode_blocked_profile_enabled                                              | True    |
+| rito_safety_mode_features_enabled                                                     | True    |
+| rito_safety_mode_modal_prompt_enabled                                                 | True    |
+| rito_safety_mode_settings_enabled                                                     | True    |
+| rweb_home_perf_client_prefetch_mode                                                   | True    |
+| rweb_home_perf_client_prefetch_timeout_ms                                             | True    |
+| rweb_reply_downvote_before_like                                                       | True    |
+| rweb_reply_downvote_enabled                                                           | True    |
+| rweb_reply_downvote_inline_days                                                       | True    |
+| rweb_reply_downvote_inline_education                                                  | True    |
+| rweb_reply_downvote_inline_survey                                                     | True    |
+| rweb_reply_downvote_nux_inline_days                                                   | True    |
+| rweb_update_fatigue_switch_to_app_day_timeout                                         | True    |
+| rweb_update_fatigue_switch_to_app_link                                                | True    |
+| rweb_video_tagging_enabled                                                            | True    |
+| sc_mock_data_enabled                                                                  | True    |
+| sc_r4_enabled                                                                         | True    |
+| scribe_api_error_sample_size                                                          | True    |
+| scribe_api_sample_size                                                                | True    |
+| scribe_cdn_host_list                                                                  | True    |
+| scribe_cdn_sample_size                                                                | True    |
+| scribe_web_nav_sample_size                                                            | True    |
+| sensitive_media_settings_enabled                                                      | True    |
+| sensitive_tweet_warnings_enabled                                                      | True    |
+| settings_revamp_search_bar_enabled                                                    | True    |
+| share_animation_after_like_enabled                                                    | True    |
+| shortened_tracking_parameters_mapping                                                 | True    |
+| smbo_legacy_pac_is_in_follow_position_test                                            | True    |
+| social_context_and_topic_context_refresh_alignment_enabled                            | True    |
+| spaces_2022_h2_clipping                                                               | True    |
+| spaces_2022_h2_clipping_consumption                                                   | True    |
+| spaces_2022_h2_clipping_duration_seconds                                              | True    |
+| spaces_2022_h2_follow_host                                                            | True    |
+| spaces_2022_h2_reactions_web_send                                                     | True    |
+| spaces_2022_h2_spacebar                                                               | True    |
+| spaces_2022_h2_spacebar_use_mock_data                                                 | True    |
+| spaces_2022_h2_spacebar_web_sidebar                                                   | True    |
+| spaces_2022_h2_spacebar_web_topnavbar                                                 | True    |
+| spaces_2022_h2_spacebar_web_use_topnavbar                                             | True    |
+| spaces_2022_h2_spaces_communities                                                     | True    |
+| standardized_nudges_misinfo                                                           | True    |
+| standardized_nudges_toxicity                                                          | True    |
+| stateful_login_enabled                                                                | True    |
+| subscriptions_blue_premium_labeling_enabled                                           | True    |
+| subscriptions_enabled                                                                 | True    |
+| subscriptions_feature_1002                                                            | True    |
+| subscriptions_feature_1003                                                            | True    |
+| subscriptions_feature_1005                                                            | True    |
+| subscriptions_feature_1006                                                            | True    |
+| subscriptions_feature_1007                                                            | True    |
+| subscriptions_feature_1009                                                            | True    |
+| subscriptions_feature_1011                                                            | True    |
+| subscriptions_feature_labs_1001                                                       | True    |
+| subscriptions_feature_labs_1004                                                       | True    |
+| subscriptions_long_video_rweb_new_copy_enabled                                        | True    |
+| subscriptions_long_video_upload                                                       | True    |
+| subscriptions_long_video_upload_override                                              | True    |
+| subscriptions_management_enabled                                                      | True    |
+| subscriptions_marketing_page_refresh_enabled                                          | True    |
+| subscriptions_product_feature_list_api_enabled                                        | True    |
+| subscriptions_settings_item_enabled                                                   | True    |
+| subscriptions_sign_up_enabled                                                         | True    |
+| subscriptions_stripe_testing                                                          | True    |
+| subscriptions_tab_customization_on_android_enabled                                    | True    |
+| subscriptions_top_articles_on_ios_enabled                                             | True    |
+| subscriptions_twitter_blue_logo_enabled                                               | True    |
+| super_follow_android_web_subscription_enabled                                         | True    |
+| super_follow_exclusive_tweet_creation_api_enabled                                     | True    |
+| super_follow_tweet_api_enabled                                                        | True    |
+| super_follow_user_api_enabled                                                         | True    |
+| super_follow_web_application_enabled                                                  | True    |
+| super_follow_web_deactivate_enabled                                                   | True    |
+| super_follow_web_debug_enabled                                                        | True    |
+| super_follow_web_edit_perks_enabled                                                   | True    |
+| super_follow_web_monetization_dashboard_enabled                                       | True    |
+| super_follow_web_onboarding_enabled                                                   | True    |
+| targeted_project_friday_enabled                                                       | True    |
+| tokens_delete_too_on_password_change                                                  | True    |
+| topic_landing_page_clearer_controls_enabled                                           | True    |
+| topic_landing_page_cta_text                                                           | True    |
+| topic_landing_page_share_enabled                                                      | True    |
+| topics_context_controls_followed_variation                                            | True    |
+| topics_context_controls_implicit_context_x_enabled                                    | True    |
+| topics_context_controls_implicit_variation                                            | True    |
+| topics_context_controls_inline_prompt_enabled                                         | True    |
+| topics_discovery_page_enabled                                                         | True    |
+| toxic_reply_filter_inline_callout_enabled                                             | True    |
+| toxic_reply_filter_settings_enabled                                                   | True    |
+| traffic_rewrite_map                                                                   | True    |
+| trusted_friends_audience_control_exp_variant                                          | True    |
+| trusted_friends_consumption_enabled                                                   | True    |
+| trusted_friends_dash_discovery_enabled                                                | True    |
+| trusted_friends_tweet_creation_enabled                                                | True    |
+| tweet_limited_actions_config_community_tweet_community_deleted                        | True    |
+| tweet_limited_actions_config_community_tweet_community_not_found                      | True    |
+| tweet_limited_actions_config_community_tweet_community_suspended                      | True    |
+| tweet_limited_actions_config_community_tweet_hidden                                   | True    |
+| tweet_limited_actions_config_community_tweet_member                                   | True    |
+| tweet_limited_actions_config_community_tweet_member_removed                           | True    |
+| tweet_limited_actions_config_community_tweet_non_member                               | True    |
+| tweet_limited_actions_config_disable_state_media_autoplay                             | True    |
+| tweet_limited_actions_config_dpa_enabled                                              | True    |
+| tweet_limited_actions_config_dynamic_product_ad                                       | True    |
+| tweet_limited_actions_config_enabled                                                  | True    |
+| tweet_limited_actions_config_limit_trusted_friends_tweet                              | True    |
+| tweet_limited_actions_config_non_compliant                                            | True    |
+| tweet_limited_actions_config_skip_tweet_detail                                        | True    |
+| tweet_limited_actions_config_skip_tweet_detail_enabled                                | True    |
+| tweet_limited_actions_config_soft_nudge_with_quote_tweet                              | True    |
+| tweet_translation_timeline_enabled                                                    | True    |
+| tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled               | True    |
+| tweetypie_unmention_optimization_enabled                                              | True    |
+| ucpd_enabled                                                                          | True    |
+| unified_cards_ad_metadata_container_dynamic_card_content_query_enabled                | True    |
+| unified_cards_collection_ads_convert_to_image_website_card                            | True    |
+| unified_cards_dpa_cta_button_enabled                                                  | True    |
+| unified_cards_dpa_metadata_enabled                                                    | True    |
+| unified_cards_dpa_placeholder_media_key                                               | True    |
+| unified_cards_follow_card_consumption_enabled                                         | True    |
+| user_display_name_max_limit                                                           | True    |
+| verified_phone_label_enabled                                                          | True    |
+| vibe_api_enabled                                                                      | False   |
+| vibe_tweet_context_enabled                                                            | False   |
+| vod_attribution_tweet_detail_pivot_enabled                                            | True    |
+| voice_consumption_enabled                                                             | True    |
+| voice_rooms_card_version                                                              | True    |
+| voice_rooms_discovery_page_enabled                                                    | True    |
+| voice_rooms_end_screen_participants                                                   | True    |
+| voice_rooms_expanded_dock                                                             | True    |
+| voice_rooms_expanded_dock_reactions                                                   | True    |
+| voice_rooms_host_analytics_enabled                                                    | True    |
+| voice_rooms_recent_search_audiospace_ring_enabled                                     | True    |
+| voice_rooms_replay_consumption                                                        | True    |
+| voice_rooms_search_results_page_audiospace_ring_enabled                               | True    |
+| voice_rooms_sharing_listening_data_with_followers_setting_enabled                     | True    |
+| voice_rooms_speaking_enabled                                                          | True    |
+| voice_rooms_typeahead_audiospace_ring_enabled                                         | True    |
+| web_video_bitrate_persistence_enabled                                                 | True    |
+| web_video_caption_repositioning_enabled                                               | True    |
+| web_video_hls_android_mse_enabled                                                     | True    |
+| web_video_hls_mp4_threshold_sec                                                       | True    |
+| web_video_hls_variant_version                                                         | True    |
+| web_video_hlsjs_version                                                               | True    |
+| web_video_hlsjs_worker_enabled                                                        | True    |
+| web_video_playback_rate_enabled                                                       | True    |
+| web_video_player_size_cap_disabled                                                    | True    |
+| web_video_prefetch_playlist_autoplay_disabled                                         | True    |
+| web_video_smart_buffering_enabled                                                     | True    |
+| web_video_transcribed_captions_enabled                                                | True    |
 
 | constant   | value   |
 |:-----------|:--------|
@@ -1005,9 +1052,15 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant   | value   |
 |:-----------|:--------|
-| nudge      | Nudge   |
-| prompt     | Prompt  |
-| require    | Require |
+| tl         | fil     |
+| no         | nb      |
+
+| constant   | value   |
+|:-----------|:--------|
+| None       | None    |
+| Nudge      | Nudge   |
+| Prompt     | Prompt  |
+| Require    | Require |
 
 | constant   | value                                                    |
 |:-----------|:---------------------------------------------------------|
@@ -1040,10 +1093,10 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant        | value   |
 |:----------------|:--------|
-| cardWidth       | a       |
+| cardWidth       | o       |
 | columnWidths    | i       |
 | sideNavWidths   | r       |
-| contentWidths   | o       |
+| contentWidths   | a       |
 | wideTabBarWidth | s       |
 | dmDrawerHeight  | l       |
 | dmDrawerWidth   | d       |
@@ -1138,80 +1191,6 @@ This document is entirely auto-generated and may contain errors.<br>
 | Market     |       3 |
 | Access     |       4 |
 
-|   constant | value                                         |
-|-----------:|:----------------------------------------------|
-|         01 | twcamp^share\|twsrc^android\|twgr^sms         |
-|         02 | twcamp^share\|twsrc^android\|twgr^email       |
-|         03 | twcamp^share\|twsrc^android\|twgr^gmail       |
-|         04 | twcamp^share\|twsrc^android\|twgr^facebook    |
-|         05 | twcamp^share\|twsrc^android\|twgr^wechat      |
-|         06 | twcamp^share\|twsrc^android\|twgr^line        |
-|         07 | twcamp^share\|twsrc^android\|twgr^fbmessenger |
-|         08 | twcamp^share\|twsrc^android\|twgr^whatsapp    |
-|         09 | twcamp^share\|twsrc^android\|twgr^other       |
-|         10 | twcamp^share\|twsrc^ios\|twgr^sms             |
-|         11 | twcamp^share\|twsrc^ios\|twgr^email           |
-|         12 | twcamp^share\|twsrc^ios\|twgr^other           |
-|         13 | twcamp^share\|twsrc^android\|twgr^download    |
-|         14 | twcamp^share\|twsrc^ios\|twgr^download        |
-|         15 | twcamp^share\|twsrc^android\|twgr^hangouts    |
-|         16 | twcamp^share\|twsrc^android\|twgr^twitterdm   |
-|         17 | twcamp^share\|twsrc^m5\|twgr^email            |
-|         18 | twcamp^share\|twsrc^m5\|twgr^download         |
-|         19 | twcamp^share\|twsrc^android\|twgr^copy        |
-|         20 | twcamp^share\|twsrc^m5\|twgr^copy             |
-|         21 | twcamp^share\|twsrc^ios\|twgr^copy            |
-|         22 | twcamp^share\|twsrc^ios\|twgr^snapchat        |
-|         23 | twcamp^share\|twsrc^android\|twgr^snapchat    |
-|         24 | twcamp^share\|twsrc^ios\|twgr^whatsapp        |
-|         25 | twcamp^share\|twsrc^ios\|twgr^fbmessenger     |
-|         26 | twcamp^share\|twsrc^ios\|twgr^facebook        |
-|         27 | twcamp^share\|twsrc^ios\|twgr^gmail           |
-|         28 | twcamp^share\|twsrc^ios\|twgr^telegram        |
-|         29 | twcamp^share\|twsrc^ios\|twgr^line            |
-|         30 | twcamp^share\|twsrc^ios\|twgr^viber           |
-|         31 | twcamp^share\|twsrc^android\|twgr^slack       |
-|         32 | twcamp^share\|twsrc^android\|twgr^kakao       |
-|         33 | twcamp^share\|twsrc^android\|twgr^discord     |
-|         34 | twcamp^share\|twsrc^android\|twgr^reddit      |
-|         35 | twcamp^share\|twsrc^android\|twgr^telegram    |
-|         36 | twcamp^share\|twsrc^android\|twgr^instagram   |
-|         37 | twcamp^share\|twsrc^android\|twgr^daum        |
-|         38 | twcamp^share\|twsrc^ios\|twgr^instagram       |
-|         39 | twcamp^share\|twsrc^ios\|twgr^linkedin        |
-|         40 | twcamp^share\|twsrc^android\|twgr^linkedin    |
-|         41 | twcamp^share\|twsrc^gryphon\|twgr^copy        |
-|         42 | twcamp^share\|twsrc^iphone\|twgr^sms          |
-|         43 | twcamp^share\|twsrc^iphone\|twgr^email        |
-|         44 | twcamp^share\|twsrc^iphone\|twgr^other        |
-|         45 | twcamp^share\|twsrc^iphone\|twgr^download     |
-|         46 | twcamp^share\|twsrc^iphone\|twgr^copy         |
-|         47 | twcamp^share\|twsrc^iphone\|twgr^snapchat     |
-|         48 | twcamp^share\|twsrc^iphone\|twgr^whatsapp     |
-|         49 | twcamp^share\|twsrc^iphone\|twgr^fbmessenger  |
-|         50 | twcamp^share\|twsrc^iphone\|twgr^facebook     |
-|         51 | twcamp^share\|twsrc^iphone\|twgr^gmail        |
-|         52 | twcamp^share\|twsrc^iphone\|twgr^telegram     |
-|         53 | twcamp^share\|twsrc^iphone\|twgr^line         |
-|         54 | twcamp^share\|twsrc^iphone\|twgr^viber        |
-|         55 | twcamp^share\|twsrc^iphone\|twgr^instagram    |
-|         56 | twcamp^share\|twsrc^iphone\|twgr^linkedin     |
-|         57 | twcamp^share\|twsrc^ipad\|twgr^sms            |
-|         58 | twcamp^share\|twsrc^ipad\|twgr^email          |
-|         59 | twcamp^share\|twsrc^ipad\|twgr^other          |
-|         60 | twcamp^share\|twsrc^ipad\|twgr^download       |
-|         61 | twcamp^share\|twsrc^ipad\|twgr^copy           |
-|         62 | twcamp^share\|twsrc^ipad\|twgr^snapchat       |
-|         63 | twcamp^share\|twsrc^ipad\|twgr^whatsapp       |
-|         64 | twcamp^share\|twsrc^ipad\|twgr^fbmessenger    |
-|         65 | twcamp^share\|twsrc^ipad\|twgr^facebook       |
-|         66 | twcamp^share\|twsrc^ipad\|twgr^gmail          |
-|         67 | twcamp^share\|twsrc^ipad\|twgr^telegram       |
-|         68 | twcamp^share\|twsrc^ipad\|twgr^line           |
-|         69 | twcamp^share\|twsrc^ipad\|twgr^viber          |
-|         70 | twcamp^share\|twsrc^ipad\|twgr^instagram      |
-|         71 | twcamp^share\|twsrc^ipad\|twgr^linkedin       |
-
 | constant     | value         |
 |:-------------|:--------------|
 | ContinueWith | continue_with |
@@ -1220,13 +1199,13 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant                     | value        |
 |:-----------------------------|:-------------|
-| createAccountLabel           | a().eb022176 |
-| createAccountPhoneEmailLabel | a().gcfef7b6 |
-| logInLabel                   | a().e919c3bc |
-| signInLabel                  | a().e5b0e544 |
-| signUpLabel                  | a().a565833e |
-| signUpPhoneEmailLabel        | a().aa95ddc0 |
-| useAppLabel                  | a().gd93944e |
+| createAccountLabel           | o().eb022176 |
+| createAccountPhoneEmailLabel | o().gcfef7b6 |
+| logInLabel                   | o().e919c3bc |
+| signInLabel                  | o().e5b0e544 |
+| signUpLabel                  | o().a565833e |
+| signUpPhoneEmailLabel        | o().aa95ddc0 |
+| useAppLabel                  | o().gd93944e |
 
 | constant        | value       |
 |:----------------|:------------|
@@ -1236,12 +1215,13 @@ This document is entirely auto-generated and may contain errors.<br>
 | ThirdVariation  | treatment_3 |
 | FourthVariation | treatment_4 |
 
-| constant   | value    |
-|:-----------|:---------|
-| RESIZE     | resize   |
-| UPLOAD     | upload   |
-| METADATA   | metadata |
-| MAXSIZE    | maxsize  |
+| constant    | value       |
+|:------------|:------------|
+| RESIZE      | resize      |
+| UPLOAD      | upload      |
+| METADATA    | metadata    |
+| MAXDURATION | maxduration |
+| MAXSIZE     | maxsize     |
 
 | constant        | value                  |
 |:----------------|:-----------------------|
@@ -1337,6 +1317,12 @@ This document is entirely auto-generated and may contain errors.<br>
 | LargeCompact  | large_compact  |
 | Large         | large          |
 
+| constant          | value     |
+|:------------------|:----------|
+| CheckmarkAndClose | checkmark |
+| Text              | text      |
+| ThumbsUpAndDown   | thumbs    |
+
 | constant   | value   |
 |:-----------|:--------|
 | Toolbar    | toolbar |
@@ -1354,6 +1340,12 @@ This document is entirely auto-generated and may contain errors.<br>
 | Failure    | failure |
 | Cancel     | cancel  |
 
+| constant     | value          |
+|:-------------|:---------------|
+| Icon         | icon           |
+| FullWidth    | full_width     |
+| FullBleedTop | full_bleed_top |
+
 | constant       | value            |
 |:---------------|:-----------------|
 | PhoneOnly      | phone_only       |
@@ -1367,6 +1359,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | AlertDialog                      | ALERT_DIALOG                         |
 | AlertDialogSupressClientEvents   | ALERT_DIALOG_SUPRESS_CLIENT_EVENTS   |
 | AppDownloadCTA                   | APP_DOWNLOAD_CTA                     |
+| AppLocaleUpdate                  | APP_LOCALE_UPDATE                    |
 | BrowsableNux                     | BROWSABLE_NUX                        |
 | CallToAction                     | CALL_TO_ACTION                       |
 | CheckLoggedInAccount             | CHECK_LOGGED_IN_ACCOUNT              |
@@ -1404,6 +1397,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | SignupReview                     | SIGNUP_REVIEW                        |
 | TopicsSelector                   | TOPICS_SELECTOR                      |
 | TweetSelectionURT                | TWEET_SELECTION_URT                  |
+| TypeaheadSearch                  | TYPEAHEAD_SEARCH                     |
 | UploadMedia                      | UPLOAD_MEDIA                         |
 | UpdateUsers                      | UPDATE_USERS                         |
 | UserRecommendations              | USER_RECOMMENDATIONS_LIST            |
@@ -1484,6 +1478,11 @@ This document is entirely auto-generated and may contain errors.<br>
 | Checkbox   | checkbox |
 | Follow     | follow   |
 
+| constant   | value   |
+|:-----------|:--------|
+| Tile       | tile    |
+| List       | list    |
+
 | constant   | value     |
 |:-----------|:----------|
 | Always     | always    |
@@ -1560,6 +1559,13 @@ This document is entirely auto-generated and may contain errors.<br>
 | SectionTitle   | section_title   |
 | Detail         | detail          |
 
+| constant   | value   |
+|:-----------|:--------|
+| All        | all     |
+| Users      | users   |
+| Topics     | topics  |
+| Events     | events  |
+
 | constant            | value               |
 |:--------------------|:--------------------|
 | ...i.YE             | _                   |
@@ -1584,7 +1590,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{[r.Z.CASHTAG]:"void 0",[r.Z.EMOJI]:"void 0",[r.Z.HASHTAG]:"o.HASHTAG_CLICK",[r.Z.INTERACTIVE_CONVERSATION]:"o.URL_CLICK",[r.Z.INTERACTIVE_HIGHLIGHT]:"o.URL_CLICK",[r.Z.MEDIA]:"void 0",[r.Z.MENTION]:"o.USER_MENTION_CLICK",[r.Z.TEXT]:"void 0",[r.Z.URL]:"o.URL_CLICK"}
+{[r.Z.CASHTAG]:"void 0",[r.Z.EMOJI]:"void 0",[r.Z.HASHTAG]:"a.HASHTAG_CLICK",[r.Z.INTERACTIVE_CONVERSATION]:"a.URL_CLICK",[r.Z.INTERACTIVE_HIGHLIGHT]:"a.URL_CLICK",[r.Z.MEDIA]:"void 0",[r.Z.MENTION]:"a.USER_MENTION_CLICK",[r.Z.TEXT]:"void 0",[r.Z.URL]:"a.URL_CLICK"}
 ```
 | constant   | value   |
 |:-----------|:--------|
@@ -1611,8 +1617,10 @@ This document is entirely auto-generated and may contain errors.<br>
 | List                  | list                    |
 | Moment                | moment                  |
 | RemoveCommunityMember | remove_community_member |
+| Space                 | space                   |
 | Tweet                 | status                  |
 | User                  | user                    |
+| AppealSuspension      | appealsuspension        |
 
 | constant               | value                    |
 |:-----------------------|:-------------------------|
@@ -1636,12 +1644,12 @@ This document is entirely auto-generated and may contain errors.<br>
 | PENDING    | Pending   |
 | SCHEDULED  | Scheduled |
 
-| constant        | value                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
-|:----------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| ItemType        | {'TWEET': '0', 'USER': '3', 'ACTIVITY': '5', 'MESSAGE': '6', 'STORY': '7', 'TREND': '8', 'LIST': '11', 'SEARCH': '12', 'SAVED_SEARCH': '13', 'PEOPLE_SEARCH': '14', 'EVENT': '16', 'CUSTOM_TIMELINE': '17', 'GEO_DETAILS': '19', 'NOTIFICATION_DETAILS': '20', 'CONTACT': '21', 'STREAM': '22', 'QUOTED_TWEET': '23', 'COMMERCE_PAGE': '24', 'CARD': '25', 'TCO_RESOLUTION': '26', 'FEEDBACK_REQUEST': '27', 'LIVE_VIDEO_EVENT': '28', 'CAROUSEL': '29', 'STICKER': '31', 'STICKER_GROUP': '32', 'SELF_THREAD': '33', 'PERISCOPE_BROADCAST': '34', 'HARDWARE_INFO': '35', 'TOPIC': '36', 'FLEET': '37', 'AUDIO_SPACE': '38', 'BIRDWATCH_PIVOT': '39', 'IN_APP_PURCHASE': '40', 'GRYPHON': '41', 'RELEVANCE_PROMPT': '45', 'ARTICLE': '51'} |
-| CardType        | {'PHOTO_TWEET': '1', 'PHOTO_CARD': '2', 'PLAYER_CARD': '3', 'SUMMARY_CARD': '4', 'PROMOTION_CARD': '5', 'PLUS_CARD': '6'}                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
-| AssociationType | {'ASSOCIATED_TWEET': '1', 'PLATFORM_CARD_PUBLISHER': '2', 'PLATFORM_CARD_CREATOR': '3', 'CONVERSATION_ORIGIN': '4', 'ASSOCIATED_USER': '5', 'ASSOCIATED_TIMELINE': '6'}                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
-| EventInitiator  | {'CLIENT_SIDE_USER': '0', 'SERVER_SIDE_USER': '1', 'CLIENT_SIDE_APP': '2', 'SERVER_SIDE_APP': '3'}                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+| constant        | value                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+|:----------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| ItemType        | {'TWEET': '0', 'USER': '3', 'ACTIVITY': '5', 'MESSAGE': '6', 'STORY': '7', 'TREND': '8', 'LIST': '11', 'SEARCH': '12', 'SAVED_SEARCH': '13', 'PEOPLE_SEARCH': '14', 'EVENT': '16', 'CUSTOM_TIMELINE': '17', 'GEO_DETAILS': '19', 'NOTIFICATION_DETAILS': '20', 'CONTACT': '21', 'STREAM': '22', 'QUOTED_TWEET': '23', 'COMMERCE_PAGE': '24', 'CARD': '25', 'TCO_RESOLUTION': '26', 'FEEDBACK_REQUEST': '27', 'LIVE_VIDEO_EVENT': '28', 'CAROUSEL': '29', 'STICKER': '31', 'STICKER_GROUP': '32', 'SELF_THREAD': '33', 'PERISCOPE_BROADCAST': '34', 'HARDWARE_INFO': '35', 'TOPIC': '36', 'FLEET': '37', 'AUDIO_SPACE': '38', 'BIRDWATCH_PIVOT': '39', 'IN_APP_PURCHASE': '40', 'GRYPHON': '41', 'RELEVANCE_PROMPT': '45', 'ARTICLE': '51', 'TOMBSTONE': '55'} |
+| CardType        | {'PHOTO_TWEET': '1', 'PHOTO_CARD': '2', 'PLAYER_CARD': '3', 'SUMMARY_CARD': '4', 'PROMOTION_CARD': '5', 'PLUS_CARD': '6'}                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
+| AssociationType | {'ASSOCIATED_TWEET': '1', 'PLATFORM_CARD_PUBLISHER': '2', 'PLATFORM_CARD_CREATOR': '3', 'CONVERSATION_ORIGIN': '4', 'ASSOCIATED_USER': '5', 'ASSOCIATED_TIMELINE': '6'}                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
+| EventInitiator  | {'CLIENT_SIDE_USER': '0', 'SERVER_SIDE_USER': '1', 'CLIENT_SIDE_APP': '2', 'SERVER_SIDE_APP': '3'}                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
 
 | constant   | value     |
 |:-----------|:----------|
@@ -1749,6 +1757,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | MediaPreviewGroupCaption   | media_preview_group_caption          |
 | MediaMonetizationSettings  | media_monetization_settings          |
 | MutedKeywords              | muted_keywords                       |
+| OcfTypeaheadSearch         | ocf_typeahead_search                 |
 | SearchBox                  | search_box                           |
 | TrustedFriendsSuggested    | trusted_friends_list_management_page |
 | Unknown                    | unknown                              |
@@ -1989,7 +1998,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | constant   | value     |
 |:-----------|:----------|
 | domains    | void 0    |
-| loadStatus | o.ZP.NONE |
+| loadStatus | a.ZP.NONE |
 
 | constant     | value        |
 |:-------------|:-------------|
@@ -2006,7 +2015,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | constant    | value     |
 |:------------|:----------|
 | memberships | []        |
-| fetchStatus | a.ZP.NONE |
+| fetchStatus | o.ZP.NONE |
 
 | constant     | value        |
 |:-------------|:-------------|
@@ -2169,9 +2178,15 @@ This document is entirely auto-generated and may contain errors.<br>
 # Error
 {"REQUEST":`${"u"}/DECLINE_PENDING_FOLLOWER_REQUEST`,"SUCCESS":`${"u"}/DECLINE_PENDING_FOLLOWER_SUCCESS`,"FAILURE":`${"u"}/DECLINE_PENDING_FOLLOWER_FAILURE`}
 ```
+| constant   | value   |
+|:-----------|:--------|
+| NONE       | none    |
+| CLIENT     | all     |
+| SERVER     | server  |
+
 | constant         | value     |
 |:-----------------|:----------|
-| fetchStatus      | o.ZP.NONE |
+| fetchStatus      | a.ZP.NONE |
 | selectedTimeline | l         |
 | useLatest        | False     |
 
@@ -2498,6 +2513,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | Display                          | Display                          |
 | Download                         | Download                         |
 | DownloadYourData                 | DownloadYourData                 |
+| EarlyAccess                      | EarlyAccess                      |
 | Email                            | Email                            |
 | EmailNotifications               | EmailNotifications               |
 | FeatureSwitches                  | FeatureSwitches                  |
@@ -2513,6 +2529,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | LoginVerificationEnrollment      | LoginVerificationEnrollment      |
 | ManageSecurityKey                | ManageSecurityKey                |
 | ManageSubscription               | ManageSubscription               |
+| Mentions                         | Mentions                         |
 | Monetization                     | Monetization                     |
 | MonetizationDashboard            | MonetizationDashboard            |
 | Mute                             | Mute                             |
@@ -2520,6 +2537,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | MutedAccounts                    | MutedAccounts                    |
 | MutedKeywordDetail               | MutedKeywordDetail               |
 | MutedKeywords                    | MutedKeywords                    |
+| News                             | News                             |
 | NotificationAdvancedFilters      | NotificationAdvancedFilters      |
 | NotificationFilters              | NotificationFilters              |
 | NotificationPreferences          | NotificationPreferences          |
@@ -2579,7 +2597,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{[u.COLLECTION]:"o",[u.LIKED]:"a",[u.USER]:"s",[u.SEARCH]:"l"}
+{[u.COLLECTION]:"a",[u.LIKED]:"o",[u.USER]:"s",[u.SEARCH]:"l"}
 ```
 | constant          | value              |
 |:------------------|:-------------------|
@@ -2587,6 +2605,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | Objective         | objective          |
 | Targeting         | targeting          |
 | TargetingLocation | targeting_location |
+| TargetingGender   | targeting_gender   |
 | BudgetSelect      | budget_select      |
 | Review            | review             |
 | Payment           | payment            |
@@ -2695,6 +2714,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | constant                      | value                         |
 |:------------------------------|:------------------------------|
 | APP_STORE_DETAILS             | app_store_details             |
+| BACKGROUND_COLOR              | background_color              |
 | BUTTON_GROUP                  | button_group                  |
 | COMMUNITY_DETAILS             | community_details             |
 | DETAILS                       | details                       |
@@ -2703,11 +2723,13 @@ This document is entirely auto-generated and may contain errors.<br>
 | MEDIA                         | media                         |
 | MEDIA_WITH_DETAILS_HORIZONTAL | media_with_details_horizontal |
 | POLL                          | poll                          |
+| SPACE                         | space                         |
 | SWIPEABLE_MEDIA               | swipeable_media               |
 | TOPIC_DETAILS                 | topic_details                 |
 | TWITTER_LIST_DETAILS          | twitter_list_details          |
 | DPA_DETAILS                   | dpa_details                   |
 | FOLLOW_BUTTON                 | follow_button                 |
+| FACEPILE                      | facepile                      |
 
 | constant   | value         |
 |:-----------|:--------------|
@@ -2718,7 +2740,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{[o.sj.AMPLIFY]:{"conversionHandler":"()"{"cardId":"e","cardType":"t","converterOptions":"n","data":"i"}{"const s=()(0,a.FL)",l=parseInt(i,\"image_value\",\"player_image_original\")/parseInt(0,a.SIi,\"string_value\",\"player_width\",10),d=(0,a.SIi,\"string_value\",\"player_height\",10)(0,a.SI),c=(i,...
+{[a.sj.AMPLIFY]:{"conversionHandler":"()"{"cardId":"e","cardType":"t","converterOptions":"n","data":"i"}{"const s=()(0,o.FL)",l=parseInt(i,\"image_value\",\"player_image_original\")/parseInt(0,o.SIi,\"string_value\",\"player_width\",10),d=(0,o.SIi,\"string_value\",\"player_height\",10)(0,o.SI),c=(i,...
 ```
 | constant   | value                              |
 |:-----------|:-----------------------------------|
@@ -2778,6 +2800,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | UC_APP_STORE_OPEN_LINK     | unified_card_app_store_open_link |
 | USER_SWIPE                 | user_swipe                       |
 | VOTE                       | vote                             |
+| DPA_PLACEHOLDER_SHOW       | dpa_placeholder_card_show        |
 
 | constant                               | value                                  |
 |:---------------------------------------|:---------------------------------------|
@@ -2796,12 +2819,19 @@ This document is entirely auto-generated and may contain errors.<br>
 | UNIFIED_CARD_COMPONENT_BUTTON_CLICK    | unified_card_component_button_click    |
 | UNIFIED_CARD_COMPONENT_APP_STORE_CLICK | unified_card_component_app_store_click |
 
+| constant   | value    |
+|:-----------|:---------|
+| GENERIC    | generic  |
+| COMPOSE    | compose  |
+| DM         | dm       |
+| REMINDER   | reminder |
+
 | constant   | value     |
 |:-----------|:----------|
-| FOLLOWERS  | FOLLOWERS |
-| LIKES      | LIKES     |
-| SHARES     | SHARES    |
-| JOINED     | JOINED    |
+| FOLLOWERS  | Followers |
+| LIKES      | Likes     |
+| SHARES     | Shares    |
+| JOINED     | Joined    |
 
 | constant     | value             |
 |:-------------|:------------------|
@@ -2822,6 +2852,11 @@ This document is entirely auto-generated and may contain errors.<br>
 | cardCarouselClickableNavArea                | control |
 | headsUpVariant                              | control |
 | collectionAdsEnabled                        | False   |
+| dynamicProductAdsEnabled                    | False   |
+| shouldConvertCollectionToImageWebsiteCard   | False   |
+| dpaMetadataEnabled                          | False   |
+| dpaCtaEnabled                               | False   |
+| dpaPlaceholderMediaKeys                     | False   |
 | explorerAdsEnabled                          | False   |
 | withEditCallout                             | False   |
 | withEdgeToEdgeContent                       | False   |
@@ -2855,7 +2890,8 @@ This document is entirely auto-generated and may contain errors.<br>
 | userAvatarLabel                             | False   |
 | canVerifiedCrawlerConsumeSensitiveMedia     | False   |
 | isUnifiedCardsFollowCardEnabled             | False   |
-| ...o                                        | _       |
+| isLinkedSearchExperimentEnabled             | False   |
+| ...a                                        | _       |
 
 | constant   | value     |
 |:-----------|:----------|
@@ -2913,7 +2949,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{"isExternal()"{"try"{const n=a();return this._customIsExternal?this._customIsExternal(e,t){"hrefHostname":"n","href":"e"}}"catch()"{"return!0"}},"setIsExternal()"{"this._customIsExternal=e"},"clearIsExternal()"{"this._customIsExternal=null"},"onLinkClick()"{"this._customOnLinkClick&&this._customOnL...
+{"isExternal()"{"try"{const n=o();return this._customIsExternal?this._customIsExternal(e,t){"hrefHostname":"n","href":"e"}}"catch()"{"return!0"}},"setIsExternal()"{"this._customIsExternal=e"},"clearIsExternal()"{"this._customIsExternal=null"},"onLinkClick()"{"this._customOnLinkClick&&this._customOnL...
 ```
 | constant     | value   |
 |:-------------|:--------|
@@ -2986,10 +3022,10 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant           | value        |
 |:-------------------|:-------------|
-| relativeDays       | a().c333da63 |
-| time               | a().d725a289 |
-| weekdayMonthAndDay | a().h8054d91 |
-| scheduledStart     | a().d0e7b11b |
+| relativeDays       | o().c333da63 |
+| time               | o().d725a289 |
+| weekdayMonthAndDay | o().h8054d91 |
+| scheduledStart     | o().d0e7b11b |
 
 | constant   | value               |
 |:-----------|:--------------------|
@@ -3222,29 +3258,29 @@ This document is entirely auto-generated and may contain errors.<br>
 |:--------------------------------|:-------------------------------|
 | ...s()                          | _                              |
 | activeFaintGray                 | rgba(r.CV.light)               |
-| activeBlack                     | o.bs.black(230, 236, 240, 0.7) |
-| adFreeLabelBackground           | a.Z.color.baseColor.blue0      |
-| adFreeLabelText                 | a.Z.color.baseColor.blue900    |
-| hoverBlack                      | o.bs.black(.07)                |
-| navigationBackground            | o.Cj                           |
-| navigationBackground95          | o.bs.white(.03)                |
-| cellBackground                  | o.Cj                           |
-| borderColor                     | a.Z.color.baseColor.gray50     |
-| nestedBorderColor               | a.Z.color.baseColor.gray200    |
-| dmReceivedBubbleBackground      | a.Z.color.baseColor.gray50     |
-| badgeColor                      | a.Z.color.baseColor.blue500    |
-| maskColor                       | o.bs.black(.95)                |
-| hoverLabelColor                 | o.bs.black(.4)                 |
-| elevatedBackground              | o.Cj                           |
-| elevatedBackgroundShadow        | o.bs.black(.6)                 |
-| brandColor                      | a.Z.color.baseColor.blue500    |
-| whiteOnColor                    | o.Cj                           |
-| buttonBlack                     | a.Z.color.baseColor.gray1100   |
-| buttonWhite                     | o.Cj                           |
-| buttonOutlinedBorder            | a.Z.color.baseColor.gray200    |
-| buttonDestructionOutlinedBorder | a.Z.color.baseColor.red100     |
-| appBarBackground                | o.bs.white(.1)                 |
-| appBarFirefoxBackground         | o.bs.white(.85)                |
+| activeBlack                     | a.bs.black(230, 236, 240, 0.7) |
+| adFreeLabelBackground           | o.Z.color.baseColor.blue0      |
+| adFreeLabelText                 | o.Z.color.baseColor.blue900    |
+| hoverBlack                      | a.bs.black(.07)                |
+| navigationBackground            | a.Cj                           |
+| navigationBackground95          | a.bs.white(.03)                |
+| cellBackground                  | a.Cj                           |
+| borderColor                     | o.Z.color.baseColor.gray50     |
+| nestedBorderColor               | o.Z.color.baseColor.gray200    |
+| dmReceivedBubbleBackground      | o.Z.color.baseColor.gray50     |
+| badgeColor                      | o.Z.color.baseColor.blue500    |
+| maskColor                       | a.bs.black(.95)                |
+| hoverLabelColor                 | a.bs.black(.4)                 |
+| elevatedBackground              | a.Cj                           |
+| elevatedBackgroundShadow        | a.bs.black(.6)                 |
+| brandColor                      | o.Z.color.baseColor.blue500    |
+| whiteOnColor                    | a.Cj                           |
+| buttonBlack                     | o.Z.color.baseColor.gray1100   |
+| buttonWhite                     | a.Cj                           |
+| buttonOutlinedBorder            | o.Z.color.baseColor.gray200    |
+| buttonDestructionOutlinedBorder | o.Z.color.baseColor.red100     |
+| appBarBackground                | a.bs.white(.1)                 |
+| appBarFirefoxBackground         | a.bs.white(.85)                |
 
 | constant                   | value                       |
 |:---------------------------|:----------------------------|
@@ -3255,89 +3291,89 @@ This document is entirely auto-generated and may contain errors.<br>
 | gray300                    | #697987                     |
 | gray200                    | #697987                     |
 | gray100                    | #E5EAEC                     |
-| gray50                     | a.Z.color.baseColor.gray200 |
-| gray0                      | a.Z.color.baseColor.gray50  |
-| navigationBackground95     | o.Cj                        |
-| borderColor                | a.Z.color.baseColor.gray300 |
-| nestedBorderColor          | a.Z.color.baseColor.gray300 |
-| dmReceivedBubbleBackground | a.Z.color.baseColor.gray200 |
+| gray50                     | o.Z.color.baseColor.gray200 |
+| gray0                      | o.Z.color.baseColor.gray50  |
+| navigationBackground95     | a.Cj                        |
+| borderColor                | o.Z.color.baseColor.gray300 |
+| nestedBorderColor          | o.Z.color.baseColor.gray300 |
+| dmReceivedBubbleBackground | o.Z.color.baseColor.gray200 |
 | badgeColor                 | #264A9D                     |
-| buttonOutlinedBorder       | a.Z.color.baseColor.gray700 |
+| buttonOutlinedBorder       | o.Z.color.baseColor.gray700 |
 
 | constant                        | value                        |
 |:--------------------------------|:-----------------------------|
 | ...s()                          | _                            |
 | activeFaintGray                 | rgba(r.CV.dark)              |
-| activeBlack                     | o.bs.white(20, 29, 38, 0.7)  |
-| adFreeLabelBackground           | a.Z.color.baseColor.blue1000 |
-| adFreeLabelText                 | a.Z.color.baseColor.blue100  |
-| hoverBlack                      | o.bs.white(.07)              |
+| activeBlack                     | a.bs.white(20, 29, 38, 0.7)  |
+| adFreeLabelBackground           | o.Z.color.baseColor.blue1000 |
+| adFreeLabelText                 | o.Z.color.baseColor.blue100  |
+| hoverBlack                      | a.bs.white(.07)              |
 | navigationBackground            | #15202B                      |
-| navigationBackground95          | o.bs.dim(.03)                |
+| navigationBackground95          | a.bs.dim(.03)                |
 | cellBackground                  | #15202B                      |
 | borderColor                     | #38444D                      |
 | nestedBorderColor               | #38444D                      |
 | dmReceivedBubbleBackground      | #3D5466                      |
-| badgeColor                      | o.Cj                         |
-| maskColor                       | o.bs.gray700(.95)            |
-| hoverLabelColor                 | o.bs.gray700(.4)             |
+| badgeColor                      | a.Cj                         |
+| maskColor                       | a.bs.gray700(.95)            |
+| hoverLabelColor                 | a.bs.gray700(.4)             |
 | elevatedBackground              | #1C2C3C                      |
-| elevatedBackgroundShadow        | o.bs.dim(.8)                 |
-| brandColor                      | o.Cj                         |
-| whiteOnColor                    | o.Cj                         |
-| buttonBlack                     | a.Z.color.baseColor.gray50   |
-| buttonWhite                     | a.Z.color.baseColor.gray1100 |
-| buttonOutlinedBorder            | a.Z.color.baseColor.gray700  |
+| elevatedBackgroundShadow        | a.bs.dim(.8)                 |
+| brandColor                      | a.Cj                         |
+| whiteOnColor                    | a.Cj                         |
+| buttonBlack                     | o.Z.color.baseColor.gray50   |
+| buttonWhite                     | o.Z.color.baseColor.gray1100 |
+| buttonOutlinedBorder            | o.Z.color.baseColor.gray700  |
 | buttonDestructionOutlinedBorder | #67070F                      |
-| appBarBackground                | o.bs.dim(.1)                 |
-| appBarFirefoxBackground         | o.bs.dim(.75)                |
+| appBarBackground                | a.bs.dim(.1)                 |
+| appBarFirefoxBackground         | a.bs.dim(.75)                |
 
 | constant                   | value                        |
 |:---------------------------|:-----------------------------|
 | ...g                       | _                            |
 | ...s()                     | _                            |
-| text                       | o.Cj                         |
+| text                       | a.Cj                         |
 | navigationBackground95     | #15202B                      |
 | unreadCellBackground       | #325D7D                      |
 | dmReceivedBubbleBackground | #B8CBD9                      |
-| badgeColor                 | o.Cj                         |
-| whiteOnColor               | a.Z.color.baseColor.gray1100 |
-| buttonOutlinedBorder       | a.Z.color.baseColor.gray300  |
+| badgeColor                 | a.Cj                         |
+| whiteOnColor               | o.Z.color.baseColor.gray1100 |
+| buttonOutlinedBorder       | o.Z.color.baseColor.gray300  |
 
 | constant                        | value                        |
 |:--------------------------------|:-----------------------------|
 | ...s()                          | _                            |
 | activeFaintGray                 | rgba(r.CV.darker)            |
-| activeBlack                     | o.bs.white(18, 21, 23, 0.7)  |
-| adFreeLabelBackground           | a.Z.color.baseColor.blue1000 |
-| adFreeLabelText                 | a.Z.color.baseColor.blue100  |
-| hoverBlack                      | o.bs.white(.07)              |
-| navigationBackground            | o.E5                         |
-| navigationBackground95          | o.bs.black(.03)              |
-| cellBackground                  | o.E5                         |
+| activeBlack                     | a.bs.white(18, 21, 23, 0.7)  |
+| adFreeLabelBackground           | o.Z.color.baseColor.blue1000 |
+| adFreeLabelText                 | o.Z.color.baseColor.blue100  |
+| hoverBlack                      | a.bs.white(.07)              |
+| navigationBackground            | a.E5                         |
+| navigationBackground95          | a.bs.black(.03)              |
+| cellBackground                  | a.E5                         |
 | unreadCellBackground            | #041722                      |
 | borderColor                     | #2F3336                      |
 | nestedBorderColor               | #2F3336                      |
 | dmReceivedBubbleBackground      | #2F3336                      |
-| badgeColor                      | a.Z.color.darkColor.gray1000 |
-| maskColor                       | o.bs.gray700(.95)            |
-| hoverLabelColor                 | o.bs.gray700(.4)             |
+| badgeColor                      | o.Z.color.darkColor.gray1000 |
+| maskColor                       | a.bs.gray700(.95)            |
+| hoverLabelColor                 | a.bs.gray700(.4)             |
 | elevatedBackground              | #1B2023                      |
-| elevatedBackgroundShadow        | o.bs.black(.8)               |
-| brandColor                      | a.Z.color.darkColor.gray1000 |
-| whiteOnColor                    | o.Cj                         |
-| buttonBlack                     | a.Z.color.baseColor.gray50   |
-| buttonWhite                     | a.Z.color.baseColor.gray1100 |
-| buttonOutlinedBorder            | a.Z.color.baseColor.gray700  |
+| elevatedBackgroundShadow        | a.bs.black(.8)               |
+| brandColor                      | o.Z.color.darkColor.gray1000 |
+| whiteOnColor                    | a.Cj                         |
+| buttonBlack                     | o.Z.color.baseColor.gray50   |
+| buttonWhite                     | o.Z.color.baseColor.gray1100 |
+| buttonOutlinedBorder            | o.Z.color.baseColor.gray700  |
 | buttonDestructionOutlinedBorder | #67070F                      |
-| appBarBackground                | o.bs.black(.1)               |
-| appBarFirefoxBackground         | o.bs.black(.65)              |
+| appBarBackground                | a.bs.black(.1)               |
+| appBarFirefoxBackground         | a.bs.black(.65)              |
 
 | constant                   | value                        |
 |:---------------------------|:-----------------------------|
 | ...v                       | _                            |
 | ...s()                     | _                            |
-| text                       | o.Cj                         |
+| text                       | a.Cj                         |
 | navigationBackground       | #050505                      |
 | navigationBackground95     | #050505                      |
 | cellBackground             | #050505                      |
@@ -3345,9 +3381,9 @@ This document is entirely auto-generated and may contain errors.<br>
 | borderColor                | #3D4145                      |
 | nestedBorderColor          | #3D4145                      |
 | dmReceivedBubbleBackground | #929CA6                      |
-| badgeColor                 | o.Cj                         |
-| whiteOnColor               | a.Z.color.baseColor.gray1100 |
-| buttonOutlinedBorder       | a.Z.color.baseColor.gray300  |
+| badgeColor                 | a.Cj                         |
+| whiteOnColor               | o.Z.color.baseColor.gray1100 |
+| buttonOutlinedBorder       | o.Z.color.baseColor.gray300  |
 
 | constant   | value               |
 |:-----------|:--------------------|
@@ -3387,9 +3423,9 @@ This document is entirely auto-generated and may contain errors.<br>
 | borderRadiiPx       | l       |
 | borderWidths        | u       |
 | borderWidthsPx      | c       |
-| breakpoints         | o       |
+| breakpoints         | a       |
 | componentDimensions | T       |
-| componentZIndices   | a       |
+| componentZIndices   | o       |
 | fontSizes           | f       |
 | fontSizesPx         | v       |
 | fontWeights         | p       |
@@ -3402,7 +3438,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{"..._()":{"scale":"a"}"ot0",b.obn,t,"r"}
+{"..._()":{"scale":"o"}"at0",b.obn,t,"r"}
 ```
 | constant     |   value |
 |:-------------|--------:|
