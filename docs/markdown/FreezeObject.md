@@ -415,7 +415,6 @@ This document is entirely auto-generated and may contain errors.<br>
 | dm_conversations_muting_enabled                                                       | True    |
 | dm_conversations_nsfw_media_filter_enabled                                            | True    |
 | dm_education_flags_prompt                                                             | True    |
-| dm_evolution_add_participants_enabled                                                 | True    |
 | dm_evolution_conversation_read_enabled                                                | True    |
 | dm_evolution_conversation_write_enabled                                               | True    |
 | dm_evolution_enabled                                                                  | True    |
@@ -472,6 +471,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | graphql_timeline_v2_user_media_timeline                                               | True    |
 | graphql_timeline_v2_user_profile_timeline                                             | True    |
 | graphql_timeline_v2_user_profile_with_replies_timeline                                | True    |
+| gryphon_hide_quick_promote                                                            | True    |
 | gryphon_optout_in_settings                                                            | True    |
 | guest_broadcasting_timeline_decorations_enabled                                       | True    |
 | hashflags_animation_like_button_enabled                                               | True    |
@@ -796,6 +796,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | responsive_web_scroller_top_positioning_enabled                                       | True    |
 | responsive_web_search_home_page_design_variation                                      | True    |
 | responsive_web_send_cookies_metadata_enabled                                          | True    |
+| responsive_web_seo_profile_metatags_experiment_enabled                                | True    |
 | responsive_web_settings_timeline_polling_enabled                                      | True    |
 | responsive_web_settings_timeline_polling_interval_ms                                  | True    |
 | responsive_web_settings_timeline_refresh_background_interval                          | True    |
@@ -923,7 +924,6 @@ This document is entirely auto-generated and may contain errors.<br>
 | super_follow_web_deactivate_enabled                                                   | True    |
 | super_follow_web_debug_enabled                                                        | True    |
 | super_follow_web_edit_perks_enabled                                                   | True    |
-| super_follow_web_monetization_dashboard_enabled                                       | True    |
 | super_follow_web_onboarding_enabled                                                   | True    |
 | targeted_project_friday_enabled                                                       | True    |
 | tokens_delete_too_on_password_change                                                  | True    |
@@ -2805,6 +2805,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | NEWSLETTER_SUBSCRIBE_CLICK | newsletter_subscribe_click       |
 | PROFILE_CLICK              | profile_click                    |
 | READ_LATEST_CLICK          | read_latest_click                |
+| READ_NOTE_CLICK            | read_note_click                  |
 | REMINDER                   | reminder                         |
 | ROTATE_MODEL               | rotate_model                     |
 | SELECTOR_TAPPED            | selector_tapped                  |
