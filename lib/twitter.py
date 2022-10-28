@@ -15,6 +15,6 @@ class twitter_home:
     def get_main_script_url(self) -> str:
         reg_script = '<script type="text/javascript" charset="utf-8" nonce="{nonce}" crossorigin="anonymous" src="{src}"></script>'.format(
             nonce="([a-zA-Z0-9]{48})",
-            src="(https://abs\.twimg\.com\/responsive\-web\/client\-web\/main\.[a-z0-9]{9}\.js)",
+            src="(https://abs\.twimg\.com\/responsive\-web\/client\-web\/main\.[a-z0-9]{8}\.js)",
         )
         return re.findall(reg_script, self.response.text)[0][1]
