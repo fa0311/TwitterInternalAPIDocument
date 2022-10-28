@@ -79,8 +79,11 @@ else:
             diff_data = diff(graphql_output, old_graphql_data,lambda x: x["exports"]["operationName"])
             for title, items in diff_data.items():
                 body.h3(title)
-                for item in items:
-                    body.p(item)
+                if len(items) > 0:
+                    for item in items:
+                        body.p(item)
+                else:
+                    body.p("None")
 
         if old_data == data:
             print(f"No change to {file_name}")
