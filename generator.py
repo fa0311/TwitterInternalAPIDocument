@@ -3,6 +3,7 @@ import json
 import os
 from github import Github
 from lib.md_generator.md_generator import md_generator
+from lib.diff import diff
 from lib.twitter import twitter_home
 from lib.js_parser.js_parser import js
 
@@ -65,12 +66,21 @@ else:
     branch = "develop"
     send_pull_request = False
 
+    body = md_generator()
     for file_name, data in file.items():
         if os.path.exists(file_name):
             with open(file_name, "r") as f:
                 old_data = f.read()
         else:
             old_data = ""
+
+        if file_name.endswith("GraphQL.json"):
+            old_graphql_data = json.loads(old_data)
+            diff_data = diff(graphql_output, old_graphql_data,lambda x: x["exports"]["operationName"])
+            for title, items in diff_data.items():
+                body.h3(title)
+                for item in items:
+                    body.p(item)
 
         if old_data == data:
             print(f"No change to {file_name}")
@@ -90,8 +100,6 @@ else:
                 print("Not Found")
 
     if send_pull_request:
-        body = md_generator()
-        body.p("update document")
         try:
             repo.create_pull(
                 title="Update Document", body=body.output, head=branch, base="master"
