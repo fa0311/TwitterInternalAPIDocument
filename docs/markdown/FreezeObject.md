@@ -111,11 +111,6 @@ This document is entirely auto-generated and may contain errors.<br>
 | result     | []                          |
 | entities   | {'contentControlTools': {}} |
 
-| constant   | value   |
-|:-----------|:--------|
-| Enabled    | Enabled |
-| None       | None    |
-
 | constant   | value       |
 |:-----------|:------------|
 | BEHAVIORAL | behavioral  |
@@ -422,7 +417,6 @@ This document is entirely auto-generated and may contain errors.<br>
 | dm_evolution_inbox_secondary_enabled                                                  | True    |
 | dm_evolution_inbox_tertiary_enabled                                                   | True    |
 | dm_evolution_message_creation_enabled                                                 | True    |
-| dm_evolution_messaging_interactions_ct_enabled                                        | True    |
 | dm_evolution_responsive_web_early_bird_only_switch                                    | True    |
 | dm_inbox_search_groups_bucket_size                                                    | True    |
 | dm_inbox_search_max_recent_searches_stored                                            | True    |
@@ -507,7 +501,8 @@ This document is entirely auto-generated and may contain errors.<br>
 | longform_ad_free_articles_badging_enabled                                             | True    |
 | longform_top_articles_friends_of_friends_enabled                                      | True    |
 | longform_top_articles_time_window_enabled                                             | True    |
-| machine_translation_logged_out_enabled                                                | True    |
+| machine_translation_holdback_logged_in                                                | True    |
+| machine_translation_holdback_logged_out                                               | True    |
 | media_edge_to_edge_content_enabled                                                    | True    |
 | media_infra_play_icon_version_number                                                  | True    |
 | moment_annotations_enabled                                                            | True    |
@@ -527,6 +522,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | papago_tweet_translation_to_korean                                                    | True    |
 | papago_tweet_translation_to_korean_sources                                            | True    |
 | professional_launchpad_m1_enabled                                                     | True    |
+| professional_launchpad_mobile_promotable_timeline                                     | True    |
 | professional_launchpad_upload_address_book                                            | True    |
 | professional_scp_v2_enabled                                                           | True    |
 | profile_foundations_about_tab_enabled                                                 | True    |
@@ -596,6 +592,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | responsive_web_branch_cpid_enabled                                                    | True    |
 | responsive_web_branch_sdk_enabled                                                     | True    |
 | responsive_web_captions_always_display_enabled                                        | True    |
+| responsive_web_captions_always_display_settings_enabled                               | True    |
 | responsive_web_card_conversion_hoisted                                                | True    |
 | responsive_web_card_preconnect_enabled                                                | True    |
 | responsive_web_card_preload_mode                                                      | True    |
@@ -958,7 +955,6 @@ This document is entirely auto-generated and may contain errors.<br>
 | tweet_limited_actions_config_skip_tweet_detail                                        | True    |
 | tweet_limited_actions_config_skip_tweet_detail_enabled                                | True    |
 | tweet_limited_actions_config_soft_nudge_with_quote_tweet                              | True    |
-| tweet_translation_timeline_enabled                                                    | True    |
 | tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled               | True    |
 | tweetypie_unmention_optimization_enabled                                              | True    |
 | twitter_chat_communities_chat_enabled                                                 | True    |
@@ -1068,6 +1064,11 @@ This document is entirely auto-generated and may contain errors.<br>
 | Nudge      | Nudge   |
 | Prompt     | Prompt  |
 | Require    | Require |
+
+| constant   | value   |
+|:-----------|:--------|
+| Enabled    | Enabled |
+| None       | None    |
 
 | constant   | value                                                    |
 |:-----------|:---------------------------------------------------------|
@@ -1699,6 +1700,17 @@ This document is entirely auto-generated and may contain errors.<br>
 | constant   | value   |
 |:-----------|:--------|
 | Topics     | topics  |
+
+| constant     | value        |
+|:-------------|:-------------|
+| BINGBOT      | bingbot      |
+| DISCORDBOT   | discordbot   |
+| FACEBOOKBOT  | facebookbot  |
+| GOOGLEBOT    | googlebot    |
+| LINESPIDER   | linespider   |
+| PINTERESTBOT | pinterestbot |
+| TWITTERBOT   | twitterbot   |
+| YANDEXBOT    | yandexbot    |
 
 | constant   |   value |
 |:-----------|--------:|
@@ -2725,6 +2737,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | constant                        | value                           |
 |:--------------------------------|:--------------------------------|
 | APP_STORE_DETAILS               | app_store_details               |
+| ATTRIBUTION                     | attribution                     |
 | BACKGROUND_COLOR                | background_color                |
 | BUTTON_GROUP                    | button_group                    |
 | COMMUNITY_DETAILS               | community_details               |
@@ -3099,8 +3112,8 @@ This document is entirely auto-generated and may contain errors.<br>
 | constant   | value   |
 |:-----------|:--------|
 | light      | light   |
+| dim        | dim     |
 | dark       | dark    |
-| darker     | darker  |
 
 | constant   | value      |
 |:-----------|:-----------|
@@ -3316,7 +3329,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | constant                        | value                        |
 |:--------------------------------|:-----------------------------|
 | ...s()                          | _                            |
-| activeFaintGray                 | rgba(r.CV.dark)              |
+| activeFaintGray                 | rgba(r.CV.dim)               |
 | activeBlack                     | a.bs.white(20, 29, 38, 0.7)  |
 | adFreeLabelBackground           | o.Z.color.baseColor.blue1000 |
 | adFreeLabelText                 | o.Z.color.baseColor.blue100  |
@@ -3356,7 +3369,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | constant                        | value                        |
 |:--------------------------------|:-----------------------------|
 | ...s()                          | _                            |
-| activeFaintGray                 | rgba(r.CV.darker)            |
+| activeFaintGray                 | rgba(r.CV.dark)              |
 | activeBlack                     | a.bs.white(18, 21, 23, 0.7)  |
 | adFreeLabelBackground           | o.Z.color.baseColor.blue1000 |
 | adFreeLabelText                 | o.Z.color.baseColor.blue100  |
@@ -3384,7 +3397,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant                   | value                        |
 |:---------------------------|:-----------------------------|
-| ...v                       | _                            |
+| ...y                       | _                            |
 | ...s()                     | _                            |
 | text                       | a.Cj                         |
 | navigationBackground       | #050505                      |
