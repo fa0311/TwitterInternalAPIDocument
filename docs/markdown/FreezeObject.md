@@ -695,6 +695,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | responsive_web_location_spotlight_v1_config                                           | True    |
 | responsive_web_location_spotlight_v1_display                                          | True    |
 | responsive_web_logged_out_explore_enabled                                             | True    |
+| responsive_web_logged_out_explore_home_path_enabled                                   | True    |
 | responsive_web_logged_out_gating_13501_ddg                                            | True    |
 | responsive_web_logged_out_gating_13622_ddg                                            | True    |
 | responsive_web_logged_out_gating_13718_ddg                                            | True    |
