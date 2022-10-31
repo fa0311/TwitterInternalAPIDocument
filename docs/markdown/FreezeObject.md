@@ -719,6 +719,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | responsive_web_media_upload_target_jpg_pixels_per_byte                                | True    |
 | responsive_web_menu_section_divider_enabled                                           | True    |
 | responsive_web_misinfo_label_revamp_tweaks_enabled                                    | True    |
+| responsive_web_mixed_media_composition_enabled                                        | True    |
 | responsive_web_mixed_media_consumption_enabled                                        | True    |
 | responsive_web_mobile_app_spotlight_v1_config                                         | True    |
 | responsive_web_mobile_app_spotlight_v1_display                                        | True    |
@@ -796,6 +797,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | responsive_web_search_home_page_design_variation                                      | True    |
 | responsive_web_send_cookies_metadata_enabled                                          | True    |
 | responsive_web_seo_profile_metatags_experiment_enabled                                | True    |
+| responsive_web_seo_tweet_metatags_experiment_enabled                                  | True    |
 | responsive_web_settings_timeline_polling_enabled                                      | True    |
 | responsive_web_settings_timeline_polling_interval_ms                                  | True    |
 | responsive_web_settings_timeline_refresh_background_interval                          | True    |
@@ -830,6 +832,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | responsive_web_twitter_article_tweet_other_notes_enabled                              | True    |
 | responsive_web_twitter_article_tweet_own_notes_enabled                                | True    |
 | responsive_web_twitter_article_view_enabled                                           | True    |
+| responsive_web_twitter_blue_growth_primary_nav_enabled                                | True    |
 | responsive_web_twitter_blue_home_redesign_enabled                                     | True    |
 | responsive_web_twitter_blue_signup_nux_enabled                                        | True    |
 | responsive_web_typeahead_reverse_bolding_enabled                                      | True    |
@@ -846,6 +849,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | responsive_web_video_trimmer_enabled                                                  | True    |
 | responsive_web_vod_muted_captions_enabled                                             | True    |
 | responsive_web_vs_config_resize_observer_enabled                                      | True    |
+| responsive_web_webp_images                                                            | True    |
 | responsive_web_zipkin_api_requests_enabled                                            | True    |
 | responsive_web_zipkin_api_requests_paths_allowlist                                    | True    |
 | rito_safety_mode_blocked_profile_enabled                                              | True    |
@@ -924,6 +928,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | super_follow_web_debug_enabled                                                        | True    |
 | super_follow_web_edit_perks_enabled                                                   | True    |
 | super_follow_web_onboarding_enabled                                                   | True    |
+| super_follow_web_rename_enabled                                                       | True    |
 | targeted_project_friday_enabled                                                       | True    |
 | tokens_delete_too_on_password_change                                                  | True    |
 | topic_landing_page_clearer_controls_enabled                                           | True    |
@@ -2918,6 +2923,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | userAvatarLabel                             | False   |
 | canVerifiedCrawlerConsumeSensitiveMedia     | False   |
 | isUnifiedCardsFollowCardEnabled             | False   |
+| isSuperFollowsRenamed                       | False   |
 | isLinkedSearchExperimentEnabled             | False   |
 | ...a                                        | _       |
 
