@@ -499,6 +499,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | livepipeline_client_enabled                                                           | True    |
 | livepipeline_tweetengagement_enabled                                                  | True    |
 | longform_ad_free_articles_badging_enabled                                             | True    |
+| longform_reader_mode_view_in_reader_mode_entry_button_enabled                         | True    |
 | longform_top_articles_friends_of_friends_enabled                                      | True    |
 | longform_top_articles_time_window_enabled                                             | True    |
 | machine_translation_holdback_logged_in                                                | True    |
@@ -691,6 +692,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | responsive_web_live_commerce_enabled                                                  | True    |
 | responsive_web_live_video_parity_periscope_auth_enabled                               | True    |
 | responsive_web_lo_gating_prominent_sta_button_paths                                   | True    |
+| responsive_web_locale_context_direction_enabled                                       | True    |
 | responsive_web_location_spotlight_display_map                                         | True    |
 | responsive_web_location_spotlight_v1_config                                           | True    |
 | responsive_web_location_spotlight_v1_display                                          | True    |
@@ -835,6 +837,11 @@ This document is entirely auto-generated and may contain errors.<br>
 | responsive_web_twitter_blue_growth_primary_nav_enabled                                | True    |
 | responsive_web_twitter_blue_home_redesign_enabled                                     | True    |
 | responsive_web_twitter_blue_signup_nux_enabled                                        | True    |
+| responsive_web_twitter_blue_verified_badge_is_enabled                                 | True    |
+| responsive_web_twitter_blue_verified_badge_ntab_empty_state_enabled                   | True    |
+| responsive_web_twitter_blue_verified_badge_ntab_verified_as_first_tab                 | True    |
+| responsive_web_twitter_blue_verified_badge_settings_blue_verified_features_enabled    | True    |
+| responsive_web_twitter_blue_verified_badge_updated_news_settings_copy_enabled         | True    |
 | responsive_web_typeahead_reverse_bolding_enabled                                      | True    |
 | responsive_web_uc_gql_enabled                                                         | True    |
 | responsive_web_unsupported_entry_tombstone                                            | True    |
@@ -1168,36 +1175,41 @@ This document is entirely auto-generated and may contain errors.<br>
 |:-----------|:--------|
 | latency    | l       |
 
-| constant                      | value                            |
-|:------------------------------|:---------------------------------|
-| AlarmClock                    | alarm-clock                      |
-| BabyBirdWithPoolFloat         | baby-bird-with-pool-float        |
-| Bell                          | bell                             |
-| Binoculars                    | binoculars                       |
-| BookInBirdCage                | book-in-bird-cage                |
-| CalculatorWithEggPaper        | calculator-with-egg-paper        |
-| CrackedEggMicrophones         | cracked-egg-microphones          |
-| Emoji                         | emoji                            |
-| FallenIceCreamCone            | fallen-ice-cream-cone            |
-| GoldfishWithMailbox           | goldfish-with-mailbox            |
-| HatchedBabyChick              | hatched-baby-chick               |
-| Hearts                        | hearts                           |
-| JumperCables                  | jumper-cables                    |
-| LongformNote                  | longform-note                    |
-| MaskedDollHeadWithCamera      | masked-doll-head-with-camera     |
-| Megaphone                     | megaphone                        |
-| NoEntrySign                   | no-entry-sign                    |
-| OwlTurnedHead                 | owl-turned-head                  |
-| PaintCoveredHand              | paint-covered-hand               |
-| Parrot                        | parrot                           |
-| PortraitBustWearingSunglasses | portrait-bust-wearing-sunglasses |
-| RoosterHead                   | rooster-head                     |
-| RubberChicken                 | rubber-chicken                   |
-| Toaster                       | toaster                          |
-| Turtle                        | turtle                           |
-| UnfinishedPotatoHeads         | unfinished-potato-heads          |
-| YellowBirdsPowerLine          | yellow-birds-power-line          |
+| constant                      | value                         |
+|:------------------------------|:------------------------------|
+| AlarmClock                    | AlarmClock                    |
+| BabyBirdWithPoolFloat         | BabyBirdWithPoolFloat         |
+| Bell                          | Bell                          |
+| Binoculars                    | Binoculars                    |
+| BookInBirdCage                | BookInBirdCage                |
+| CalculatorWithEggPaper        | CalculatorWithEggPaper        |
+| CrackedEggMicrophones         | CrackedEggMicrophones         |
+| Emoji                         | Emoji                         |
+| FallenIceCreamCone            | FallenIceCreamCone            |
+| GoldfishWithMailbox           | GoldfishWithMailbox           |
+| HatchedBabyChick              | HatchedBabyChick              |
+| Hearts                        | Hearts                        |
+| JumperCables                  | JumperCables                  |
+| LongformNote                  | LongformNote                  |
+| MaskedDollHeadWithCamera      | MaskedDollHeadWithCamera      |
+| Megaphone                     | Megaphone                     |
+| NoEntrySign                   | NoEntrySign                   |
+| OwlTurnedHead                 | OwlTurnedHead                 |
+| PaintCoveredHand              | PaintCoveredHand              |
+| Parrot                        | Parrot                        |
+| PortraitBustWearingSunglasses | PortraitBustWearingSunglasses |
+| RoosterHead                   | RoosterHead                   |
+| RubberChicken                 | RubberChicken                 |
+| Toaster                       | Toaster                       |
+| Turtle                        | Turtle                        |
+| UnfinishedPotatoHeads         | UnfinishedPotatoHeads         |
+| YellowBirdsPowerLine          | YellowBirdsPowerLine          |
+| VerificationCheck             | VerificationCheck             |
 
+```internal process
+# Error
+{[i.AlarmClock]:"a()",[i.BabyBirdWithPoolFloat]:"a([\"https://abs.twimg.com/responsive-web/client-web/alarm-clock-400x200.v1.da96e5d9.png\",\"https://abs.twimg.com/responsive-web/client-web/alarm-clock-800x400.v1.6c5b3fe9.png\",\"https://abs.twimg.com/responsive-web/client-web/alarm-clock-1200x600.v...
+```
 | constant   |   value |
 |:-----------|--------:|
 | Web        |       0 |
@@ -2923,8 +2935,10 @@ This document is entirely auto-generated and may contain errors.<br>
 | userAvatarLabel                             | False   |
 | canVerifiedCrawlerConsumeSensitiveMedia     | False   |
 | isUnifiedCardsFollowCardEnabled             | False   |
-| isSuperFollowsRenamed                       | False   |
+| shouldUseLocaleContextDirection             | False   |
 | isLinkedSearchExperimentEnabled             | False   |
+| isSuperFollowsRenamed                       | False   |
+| blueVerifiedBadgeIsEnabled                  | False   |
 | ...a                                        | _       |
 
 | constant   | value     |
@@ -3165,17 +3179,31 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant      | value        |
 |:--------------|:-------------|
-| superFollower | p().b0063ac6 |
+| superFollower | m().b0063ac6 |
+
+| constant      | value        |
+|:--------------|:-------------|
+| superFollower | m().fc065ee4 |
 
 | constant      | value                                                                                                                                                                                                                              |
 |:--------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| superFollower | {'graphic': 'm.Z', 'headline': 'p().ca80fe70', 'subtext': 'p().c4183c30', 'actionLabel': 'p().g7099a02', 'actionLink': 'https://help.twitter.com/en/using-twitter/super-follows#sfexpect', 'secondaryActionLabel': 'p().c2637ef6'} |
+| superFollower | {'graphic': 'h.Z', 'headline': 'm().ca80fe70', 'subtext': 'm().c4183c30', 'actionLabel': 'm().g7099a02', 'actionLink': 'https://help.twitter.com/en/using-twitter/super-follows#sfexpect', 'secondaryActionLabel': 'm().c2637ef6'} |
+
+| constant      | value                                                                                                                                                                                                                              |
+|:--------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| superFollower | {'graphic': 'h.Z', 'headline': 'm().e453f536', 'subtext': 'm().dea63fc4', 'actionLabel': 'm().g7099a02', 'actionLink': 'https://help.twitter.com/en/using-twitter/super-follows#sfexpect', 'secondaryActionLabel': 'm().c2637ef6'} |
 
 | constant        | value        |
 |:----------------|:-------------|
-| followsYou      | p().efb17190 |
-| superFollowsYou | p().a7c3a6e0 |
-| superFollower   | p().a3df6df8 |
+| followsYou      | m().efb17190 |
+| superFollowsYou | m().a7c3a6e0 |
+| superFollower   | m().a3df6df8 |
+
+| constant        | value        |
+|:----------------|:-------------|
+| followsYou      | m().efb17190 |
+| superFollowsYou | m().g57b5f6c |
+| superFollower   | m().e589ffa8 |
 
 | constant        | value   |
 |:----------------|:--------|

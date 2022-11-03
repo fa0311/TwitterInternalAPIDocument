@@ -22,7 +22,7 @@ json.dumps({
 ```
 `json.dumps` is equivalent to `JSON.stringify` in javaScript<br>
 ## TweetResultByRestId<br>
-Request URL: `https://twitter.com/i/api/graphql/kwxRoeleY6vKLFdSNTshxw/TweetResultByRestId`<br>
+Request URL: `https://twitter.com/i/api/graphql/RKTEerre_yxxOJplwwXdpQ/TweetResultByRestId`<br>
 Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
@@ -48,6 +48,7 @@ Login Required: `Future`<br>
 | tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | True      |
 | interactive_text_enabled                                                | boolean | True      |
 | responsive_web_text_conversations_enabled                               | boolean | True      |
+| responsive_web_twitter_blue_verified_badge_is_enabled                   | boolean | True      |
 | verified_phone_label_enabled                                            | boolean | True      |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | False     |
 | responsive_web_enhance_cards_enabled                                    | boolean | True      |
@@ -264,7 +265,7 @@ Login Required: `Future`<br>
 #### queryId<br>
 `None`<br>
 ## CreateTweet<br>
-Request URL: `https://twitter.com/i/api/graphql/fl261vHLCoQQ5x7cpPEobQ/CreateTweet`<br>
+Request URL: `https://twitter.com/i/api/graphql/znCBT5T-VuJFVKmKvj2RVQ/CreateTweet`<br>
 Request Method: `POST`<br>
 Login Required: `Future`<br>
 ### Param<br>
@@ -286,6 +287,7 @@ Login Required: `Future`<br>
 | graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | True      |
 | interactive_text_enabled                                                | boolean | True      |
 | responsive_web_text_conversations_enabled                               | boolean | True      |
+| responsive_web_twitter_blue_verified_badge_is_enabled                   | boolean | True      |
 | verified_phone_label_enabled                                            | boolean | True      |
 | standardized_nudges_misinfo                                             | boolean | True      |
 | tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | True      |
@@ -295,7 +297,7 @@ Login Required: `Future`<br>
 #### queryId<br>
 `None`<br>
 ## CreateTweet<br>
-Request URL: `https://twitter.com/i/api/graphql/fl261vHLCoQQ5x7cpPEobQ/CreateTweet`<br>
+Request URL: `https://twitter.com/i/api/graphql/znCBT5T-VuJFVKmKvj2RVQ/CreateTweet`<br>
 Request Method: `POST`<br>
 Login Required: `Future`<br>
 ### Param<br>
@@ -318,6 +320,7 @@ Login Required: `Future`<br>
 | graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | True      |
 | interactive_text_enabled                                                | boolean | True      |
 | responsive_web_text_conversations_enabled                               | boolean | True      |
+| responsive_web_twitter_blue_verified_badge_is_enabled                   | boolean | True      |
 | verified_phone_label_enabled                                            | boolean | True      |
 | standardized_nudges_misinfo                                             | boolean | True      |
 | tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | True      |
@@ -401,7 +404,7 @@ Login Required: `Future`<br>
 #### queryId<br>
 `None`<br>
 ## AudioSpaceById<br>
-Request URL: `https://twitter.com/i/api/graphql/VMyHNAHBWtMm71Y3B5RX9A/AudioSpaceById`<br>
+Request URL: `https://twitter.com/i/api/graphql/Ha9BKBF0uAz9d4-lz0jnYA/AudioSpaceById`<br>
 Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
@@ -418,6 +421,7 @@ Login Required: `Future`<br>
 |:------------------------------------------------------------------------|:--------|:----------|
 | spaces_2022_h2_clipping                                                 | boolean | True      |
 | spaces_2022_h2_spaces_communities                                       | boolean | True      |
+| responsive_web_twitter_blue_verified_badge_is_enabled                   | boolean | True      |
 | verified_phone_label_enabled                                            | boolean | True      |
 | tweetypie_unmention_optimization_enabled                                | boolean | True      |
 | responsive_web_uc_gql_enabled                                           | boolean | True      |
@@ -477,7 +481,7 @@ Login Required: `Future`<br>
 #### queryId<br>
 `None`<br>
 ## CardPreviewByTweetText<br>
-Request URL: `https://twitter.com/i/api/graphql/TQABzjUjhx6oz1LUkT_S6w/CardPreviewByTweetText`<br>
+Request URL: `https://twitter.com/i/api/graphql/xdgz4z6YU1CNRXD5GY-8vQ/CardPreviewByTweetText`<br>
 Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
@@ -487,16 +491,17 @@ Login Required: `Future`<br>
 | tweetText | Future | r          |
 
 #### features<br>
-| key                                                | type    | default   |
-|:---------------------------------------------------|:--------|:----------|
-| responsive_web_enhance_cards_enabled               | boolean | True      |
-| verified_phone_label_enabled                       | boolean | True      |
-| responsive_web_graphql_timeline_navigation_enabled | boolean | False     |
+| key                                                   | type    | default   |
+|:------------------------------------------------------|:--------|:----------|
+| responsive_web_enhance_cards_enabled                  | boolean | True      |
+| responsive_web_twitter_blue_verified_badge_is_enabled | boolean | True      |
+| verified_phone_label_enabled                          | boolean | True      |
+| responsive_web_graphql_timeline_navigation_enabled    | boolean | False     |
 
 #### queryId<br>
 `None`<br>
 ## UrtFixtures<br>
-Request URL: `https://twitter.com/i/api/graphql/E7lr7dZVYUwqDMy6LKkPXA/UrtFixtures`<br>
+Request URL: `https://twitter.com/i/api/graphql/EMgItvgUsx44IFgSaNKzBw/UrtFixtures`<br>
 Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
@@ -509,6 +514,7 @@ Login Required: `Future`<br>
 #### features<br>
 | key                                                                     | type    | default   |
 |:------------------------------------------------------------------------|:--------|:----------|
+| responsive_web_twitter_blue_verified_badge_is_enabled                   | boolean | True      |
 | verified_phone_label_enabled                                            | boolean | True      |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | False     |
 | unified_cards_ad_metadata_container_dynamic_card_content_query_enabled  | boolean | True      |
@@ -540,7 +546,7 @@ Login Required: `Future`<br>
 #### queryId<br>
 `None`<br>
 ## ConnectTabTimeline<br>
-Request URL: `https://twitter.com/i/api/graphql/t1AJQj3YGQF4AxhjDda9bQ/ConnectTabTimeline`<br>
+Request URL: `https://twitter.com/i/api/graphql/rLuUGLOJKAQyqaALd-IREg/ConnectTabTimeline`<br>
 Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
@@ -555,6 +561,7 @@ Login Required: `Future`<br>
 #### features<br>
 | key                                                                     | type    | default   |
 |:------------------------------------------------------------------------|:--------|:----------|
+| responsive_web_twitter_blue_verified_badge_is_enabled                   | boolean | True      |
 | verified_phone_label_enabled                                            | boolean | True      |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | False     |
 | unified_cards_ad_metadata_container_dynamic_card_content_query_enabled  | boolean | True      |
@@ -572,7 +579,7 @@ Login Required: `Future`<br>
 #### queryId<br>
 `None`<br>
 ## GetTweetReactionTimeline<br>
-Request URL: `https://twitter.com/i/api/graphql/FQztFSqgXWNvDZ3UKd07tw/GetTweetReactionTimeline`<br>
+Request URL: `https://twitter.com/i/api/graphql/yNUmEuKlmggi-HFK87MbIw/GetTweetReactionTimeline`<br>
 Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
@@ -583,15 +590,16 @@ Login Required: `Future`<br>
 | withSuperFollowsUserFields | Future | t.isTrue() |
 
 #### features<br>
-| key                                                | type    | default   |
-|:---------------------------------------------------|:--------|:----------|
-| verified_phone_label_enabled                       | boolean | True      |
-| responsive_web_graphql_timeline_navigation_enabled | boolean | False     |
+| key                                                   | type    | default   |
+|:------------------------------------------------------|:--------|:----------|
+| responsive_web_twitter_blue_verified_badge_is_enabled | boolean | True      |
+| verified_phone_label_enabled                          | boolean | True      |
+| responsive_web_graphql_timeline_navigation_enabled    | boolean | False     |
 
 #### queryId<br>
 `None`<br>
 ## Favoriters<br>
-Request URL: `https://twitter.com/i/api/graphql/oUaZM91B4-FeRD6gTGLIxQ/Favoriters`<br>
+Request URL: `https://twitter.com/i/api/graphql/vHwDErHAReTBqHY_N9aHaA/Favoriters`<br>
 Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
@@ -607,6 +615,7 @@ Login Required: `Future`<br>
 #### features<br>
 | key                                                                     | type    | default   |
 |:------------------------------------------------------------------------|:--------|:----------|
+| responsive_web_twitter_blue_verified_badge_is_enabled                   | boolean | True      |
 | verified_phone_label_enabled                                            | boolean | True      |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | False     |
 | unified_cards_ad_metadata_container_dynamic_card_content_query_enabled  | boolean | True      |
@@ -624,7 +633,7 @@ Login Required: `Future`<br>
 #### queryId<br>
 `None`<br>
 ## Retweeters<br>
-Request URL: `https://twitter.com/i/api/graphql/th80phg7_aRdUlINpD41ng/Retweeters`<br>
+Request URL: `https://twitter.com/i/api/graphql/I09N_p5WxiCz5mqt034wSA/Retweeters`<br>
 Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
@@ -640,6 +649,7 @@ Login Required: `Future`<br>
 #### features<br>
 | key                                                                     | type    | default   |
 |:------------------------------------------------------------------------|:--------|:----------|
+| responsive_web_twitter_blue_verified_badge_is_enabled                   | boolean | True      |
 | verified_phone_label_enabled                                            | boolean | True      |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | False     |
 | unified_cards_ad_metadata_container_dynamic_card_content_query_enabled  | boolean | True      |
@@ -657,7 +667,7 @@ Login Required: `Future`<br>
 #### queryId<br>
 `None`<br>
 ## TweetEditHistory<br>
-Request URL: `https://twitter.com/i/api/graphql/dOTLr2MtA4UKWGWI-mSPHg/TweetEditHistory`<br>
+Request URL: `https://twitter.com/i/api/graphql/HI4zM7ZsAfEUxCP7ODlBkA/TweetEditHistory`<br>
 Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
@@ -680,6 +690,7 @@ Login Required: `Future`<br>
 | graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | True      |
 | interactive_text_enabled                                                | boolean | True      |
 | responsive_web_text_conversations_enabled                               | boolean | True      |
+| responsive_web_twitter_blue_verified_badge_is_enabled                   | boolean | True      |
 | verified_phone_label_enabled                                            | boolean | True      |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | False     |
 | responsive_web_enhance_cards_enabled                                    | boolean | True      |
@@ -735,7 +746,7 @@ Login Required: `Future`<br>
 #### queryId<br>
 `None`<br>
 ## UsersVerifiedAvatars<br>
-Request URL: `https://twitter.com/i/api/graphql/_-551vdsE782ujbAhHfWvA/UsersVerifiedAvatars`<br>
+Request URL: `https://twitter.com/i/api/graphql/AkfLpq1RURPtDOcd56qyCg/UsersVerifiedAvatars`<br>
 Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
@@ -745,11 +756,14 @@ Login Required: `Future`<br>
 | userIds | Future | r          |
 
 #### features<br>
-`None`<br>
+| key                                                   | type    | default   |
+|:------------------------------------------------------|:--------|:----------|
+| responsive_web_twitter_blue_verified_badge_is_enabled | boolean | True      |
+
 #### queryId<br>
 `None`<br>
 ## BirdwatchFetchNotes<br>
-Request URL: `https://twitter.com/i/api/graphql/NgplD9V94m3dPHryBc9vwg/BirdwatchFetchNotes`<br>
+Request URL: `https://twitter.com/i/api/graphql/OYoxgEiQU3-FqTX8x1AtEw/BirdwatchFetchNotes`<br>
 Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
@@ -760,10 +774,11 @@ Login Required: `Future`<br>
 | ...()(0,g.S) | Future | _          |
 
 #### features<br>
-| key                                                | type    | default   |
-|:---------------------------------------------------|:--------|:----------|
-| responsive_web_graphql_timeline_navigation_enabled | boolean | False     |
-| verified_phone_label_enabled                       | boolean | True      |
+| key                                                   | type    | default   |
+|:------------------------------------------------------|:--------|:----------|
+| responsive_web_graphql_timeline_navigation_enabled    | boolean | False     |
+| responsive_web_twitter_blue_verified_badge_is_enabled | boolean | True      |
+| verified_phone_label_enabled                          | boolean | True      |
 
 #### queryId<br>
 `None`<br>
@@ -793,7 +808,7 @@ Login Required: `Future`<br>
 #### queryId<br>
 `None`<br>
 ## BirdwatchCreateNote<br>
-Request URL: `https://twitter.com/i/api/graphql/mRbCwKKO2h9tWYJhObidPQ/BirdwatchCreateNote`<br>
+Request URL: `https://twitter.com/i/api/graphql/6wjp8p4aLDHmA8olWLXK8Q/BirdwatchCreateNote`<br>
 Request Method: `POST`<br>
 Login Required: `Future`<br>
 ### Param<br>
@@ -805,10 +820,11 @@ Login Required: `Future`<br>
 | ...()(0,g.S) | Future | _          |
 
 #### features<br>
-| key                                                | type    | default   |
-|:---------------------------------------------------|:--------|:----------|
-| responsive_web_graphql_timeline_navigation_enabled | boolean | False     |
-| verified_phone_label_enabled                       | boolean | True      |
+| key                                                   | type    | default   |
+|:------------------------------------------------------|:--------|:----------|
+| responsive_web_graphql_timeline_navigation_enabled    | boolean | False     |
+| responsive_web_twitter_blue_verified_badge_is_enabled | boolean | True      |
+| verified_phone_label_enabled                          | boolean | True      |
 
 #### queryId<br>
 `None`<br>
@@ -841,7 +857,7 @@ Login Required: `Future`<br>
 #### queryId<br>
 `None`<br>
 ## BirdwatchFetchOneNote<br>
-Request URL: `https://twitter.com/i/api/graphql/ZXuhUmNrYjsZL06hLuqi3g/BirdwatchFetchOneNote`<br>
+Request URL: `https://twitter.com/i/api/graphql/gkhw-r_XWNaDSpT9hvB2qw/BirdwatchFetchOneNote`<br>
 Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
@@ -852,10 +868,11 @@ Login Required: `Future`<br>
 | ...()(0,g.S) | Future | _          |
 
 #### features<br>
-| key                                                | type    | default   |
-|:---------------------------------------------------|:--------|:----------|
-| responsive_web_graphql_timeline_navigation_enabled | boolean | False     |
-| verified_phone_label_enabled                       | boolean | True      |
+| key                                                   | type    | default   |
+|:------------------------------------------------------|:--------|:----------|
+| responsive_web_graphql_timeline_navigation_enabled    | boolean | False     |
+| responsive_web_twitter_blue_verified_badge_is_enabled | boolean | True      |
+| verified_phone_label_enabled                          | boolean | True      |
 
 #### queryId<br>
 `None`<br>
@@ -874,7 +891,7 @@ Login Required: `Future`<br>
 #### queryId<br>
 `None`<br>
 ## BirdwatchFetchContributorNotesSlice<br>
-Request URL: `https://twitter.com/i/api/graphql/cepLjqKclbMEidmIz9xagw/BirdwatchFetchContributorNotesSlice`<br>
+Request URL: `https://twitter.com/i/api/graphql/IF3H8diRqOrKEsiA5Jw0nQ/BirdwatchFetchContributorNotesSlice`<br>
 Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
@@ -898,13 +915,14 @@ Login Required: `Future`<br>
 | tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | True      |
 | interactive_text_enabled                                                | boolean | True      |
 | responsive_web_text_conversations_enabled                               | boolean | True      |
+| responsive_web_twitter_blue_verified_badge_is_enabled                   | boolean | True      |
 | verified_phone_label_enabled                                            | boolean | True      |
 | responsive_web_enhance_cards_enabled                                    | boolean | True      |
 
 #### queryId<br>
 `None`<br>
 ## BirdwatchFetchContributorNotesSlice<br>
-Request URL: `https://twitter.com/i/api/graphql/cepLjqKclbMEidmIz9xagw/BirdwatchFetchContributorNotesSlice`<br>
+Request URL: `https://twitter.com/i/api/graphql/IF3H8diRqOrKEsiA5Jw0nQ/BirdwatchFetchContributorNotesSlice`<br>
 Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
@@ -928,6 +946,7 @@ Login Required: `Future`<br>
 | tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | True      |
 | interactive_text_enabled                                                | boolean | True      |
 | responsive_web_text_conversations_enabled                               | boolean | True      |
+| responsive_web_twitter_blue_verified_badge_is_enabled                   | boolean | True      |
 | verified_phone_label_enabled                                            | boolean | True      |
 | responsive_web_enhance_cards_enabled                                    | boolean | True      |
 
@@ -981,7 +1000,7 @@ Login Required: `Future`<br>
 #### queryId<br>
 `None`<br>
 ## BirdwatchFetchGlobalTimeline<br>
-Request URL: `https://twitter.com/i/api/graphql/fsKhfc7GuChW8hnyQhcBOw/BirdwatchFetchGlobalTimeline`<br>
+Request URL: `https://twitter.com/i/api/graphql/dZ0xVYs1BhwfnrajMau1PA/BirdwatchFetchGlobalTimeline`<br>
 Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
@@ -993,6 +1012,7 @@ Login Required: `Future`<br>
 #### features<br>
 | key                                                                     | type    | default   |
 |:------------------------------------------------------------------------|:--------|:----------|
+| responsive_web_twitter_blue_verified_badge_is_enabled                   | boolean | True      |
 | verified_phone_label_enabled                                            | boolean | True      |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | False     |
 | unified_cards_ad_metadata_container_dynamic_card_content_query_enabled  | boolean | True      |
@@ -1125,7 +1145,7 @@ Login Required: `Future`<br>
 #### queryId<br>
 `None`<br>
 ## Bookmarks<br>
-Request URL: `https://twitter.com/i/api/graphql/5uvc5yxX6N-riEWIlF2yaA/Bookmarks`<br>
+Request URL: `https://twitter.com/i/api/graphql/ea4-_p-ZN9xwhQYOyGpf4w/Bookmarks`<br>
 Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
@@ -1141,6 +1161,7 @@ Login Required: `Future`<br>
 | key                                                                     | type    | default   |
 |:------------------------------------------------------------------------|:--------|:----------|
 | graphql_timeline_v2_bookmark_timeline                                   | boolean | True      |
+| responsive_web_twitter_blue_verified_badge_is_enabled                   | boolean | True      |
 | verified_phone_label_enabled                                            | boolean | True      |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | False     |
 | unified_cards_ad_metadata_container_dynamic_card_content_query_enabled  | boolean | True      |
@@ -1158,7 +1179,7 @@ Login Required: `Future`<br>
 #### queryId<br>
 `None`<br>
 ## BookmarkFolderTimeline<br>
-Request URL: `https://twitter.com/i/api/graphql/8cs2OXSI_CPlE0HeSdW2oA/BookmarkFolderTimeline`<br>
+Request URL: `https://twitter.com/i/api/graphql/JnWrqRE9ay3TNi87PGtOgw/BookmarkFolderTimeline`<br>
 Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
@@ -1173,6 +1194,7 @@ Login Required: `Future`<br>
 #### features<br>
 | key                                                                     | type    | default   |
 |:------------------------------------------------------------------------|:--------|:----------|
+| responsive_web_twitter_blue_verified_badge_is_enabled                   | boolean | True      |
 | verified_phone_label_enabled                                            | boolean | True      |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | False     |
 | unified_cards_ad_metadata_container_dynamic_card_content_query_enabled  | boolean | True      |
@@ -1204,7 +1226,7 @@ Login Required: `Future`<br>
 #### queryId<br>
 `None`<br>
 ## CreateCommunity<br>
-Request URL: `https://twitter.com/i/api/graphql/wiL8hs76YM7APjl36rkDDQ/CreateCommunity`<br>
+Request URL: `https://twitter.com/i/api/graphql/uUUni5GBsZ7dsL3OAfxqZg/CreateCommunity`<br>
 Request Method: `POST`<br>
 Login Required: `Future`<br>
 ### Param<br>
@@ -1218,15 +1240,16 @@ Login Required: `Future`<br>
 | ...()(0,g.S)  | Future | _          |
 
 #### features<br>
-| key                                                | type    | default   |
-|:---------------------------------------------------|:--------|:----------|
-| verified_phone_label_enabled                       | boolean | True      |
-| responsive_web_graphql_timeline_navigation_enabled | boolean | False     |
+| key                                                   | type    | default   |
+|:------------------------------------------------------|:--------|:----------|
+| responsive_web_twitter_blue_verified_badge_is_enabled | boolean | True      |
+| verified_phone_label_enabled                          | boolean | True      |
+| responsive_web_graphql_timeline_navigation_enabled    | boolean | False     |
 
 #### queryId<br>
 `None`<br>
 ## CommunityByRestId<br>
-Request URL: `https://twitter.com/i/api/graphql/JHlHxTx8EGIDamaZt-Aubg/CommunityByRestId`<br>
+Request URL: `https://twitter.com/i/api/graphql/GS_YnJexJjRMdr8wXyajPA/CommunityByRestId`<br>
 Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
@@ -1237,15 +1260,16 @@ Login Required: `Future`<br>
 | ...()(0,g.S) | Future | _             |
 
 #### features<br>
-| key                                                | type    | default   |
-|:---------------------------------------------------|:--------|:----------|
-| verified_phone_label_enabled                       | boolean | True      |
-| responsive_web_graphql_timeline_navigation_enabled | boolean | False     |
+| key                                                   | type    | default   |
+|:------------------------------------------------------|:--------|:----------|
+| responsive_web_twitter_blue_verified_badge_is_enabled | boolean | True      |
+| verified_phone_label_enabled                          | boolean | True      |
+| responsive_web_graphql_timeline_navigation_enabled    | boolean | False     |
 
 #### queryId<br>
 `None`<br>
 ## CommunityAboutTimeline<br>
-Request URL: `https://twitter.com/i/api/graphql/v-gADFra7fArMJduRKZzEQ/CommunityAboutTimeline`<br>
+Request URL: `https://twitter.com/i/api/graphql/sRNV-VmshHvuuzdUb7u87Q/CommunityAboutTimeline`<br>
 Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
@@ -1259,6 +1283,7 @@ Login Required: `Future`<br>
 #### features<br>
 | key                                                                     | type    | default   |
 |:------------------------------------------------------------------------|:--------|:----------|
+| responsive_web_twitter_blue_verified_badge_is_enabled                   | boolean | True      |
 | verified_phone_label_enabled                                            | boolean | True      |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | False     |
 | unified_cards_ad_metadata_container_dynamic_card_content_query_enabled  | boolean | True      |
@@ -1276,7 +1301,7 @@ Login Required: `Future`<br>
 #### queryId<br>
 `None`<br>
 ## CommunityTweetsTimeline<br>
-Request URL: `https://twitter.com/i/api/graphql/FNh2YHnQUokovJKpy7EdUQ/CommunityTweetsTimeline`<br>
+Request URL: `https://twitter.com/i/api/graphql/WkELlyxUKipDSLH7nqnMaw/CommunityTweetsTimeline`<br>
 Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
@@ -1290,6 +1315,7 @@ Login Required: `Future`<br>
 #### features<br>
 | key                                                                     | type    | default   |
 |:------------------------------------------------------------------------|:--------|:----------|
+| responsive_web_twitter_blue_verified_badge_is_enabled                   | boolean | True      |
 | verified_phone_label_enabled                                            | boolean | True      |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | False     |
 | unified_cards_ad_metadata_container_dynamic_card_content_query_enabled  | boolean | True      |
@@ -1307,7 +1333,7 @@ Login Required: `Future`<br>
 #### queryId<br>
 `None`<br>
 ## CommunityTweetsRankedTimeline<br>
-Request URL: `https://twitter.com/i/api/graphql/ifNG-HJ2M1A6PPRbq4etfQ/CommunityTweetsRankedTimeline`<br>
+Request URL: `https://twitter.com/i/api/graphql/z4QDKtA8JDqjaMhkW2DEzA/CommunityTweetsRankedTimeline`<br>
 Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
@@ -1321,6 +1347,7 @@ Login Required: `Future`<br>
 #### features<br>
 | key                                                                     | type    | default   |
 |:------------------------------------------------------------------------|:--------|:----------|
+| responsive_web_twitter_blue_verified_badge_is_enabled                   | boolean | True      |
 | verified_phone_label_enabled                                            | boolean | True      |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | False     |
 | unified_cards_ad_metadata_container_dynamic_card_content_query_enabled  | boolean | True      |
@@ -1338,7 +1365,7 @@ Login Required: `Future`<br>
 #### queryId<br>
 `None`<br>
 ## CommunitiesMembershipsTimeline<br>
-Request URL: `https://twitter.com/i/api/graphql/Fie3NlhRZPmWSWjKYNJfFw/CommunitiesMembershipsTimeline`<br>
+Request URL: `https://twitter.com/i/api/graphql/_a4mi0r8adesHaBoK6ehKQ/CommunitiesMembershipsTimeline`<br>
 Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
@@ -1352,6 +1379,7 @@ Login Required: `Future`<br>
 #### features<br>
 | key                                                                     | type    | default   |
 |:------------------------------------------------------------------------|:--------|:----------|
+| responsive_web_twitter_blue_verified_badge_is_enabled                   | boolean | True      |
 | verified_phone_label_enabled                                            | boolean | True      |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | False     |
 | unified_cards_ad_metadata_container_dynamic_card_content_query_enabled  | boolean | True      |
@@ -1369,7 +1397,7 @@ Login Required: `Future`<br>
 #### queryId<br>
 `None`<br>
 ## CommunitiesMembershipsSlice<br>
-Request URL: `https://twitter.com/i/api/graphql/be1L5mFgEld-QcXuEK6BNQ/CommunitiesMembershipsSlice`<br>
+Request URL: `https://twitter.com/i/api/graphql/X-68yrVponyHOLxp0fzXJQ/CommunitiesMembershipsSlice`<br>
 Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
@@ -1380,15 +1408,16 @@ Login Required: `Future`<br>
 | ...n         | Future | _          |
 
 #### features<br>
-| key                                                | type    | default   |
-|:---------------------------------------------------|:--------|:----------|
-| verified_phone_label_enabled                       | boolean | True      |
-| responsive_web_graphql_timeline_navigation_enabled | boolean | False     |
+| key                                                   | type    | default   |
+|:------------------------------------------------------|:--------|:----------|
+| responsive_web_twitter_blue_verified_badge_is_enabled | boolean | True      |
+| verified_phone_label_enabled                          | boolean | True      |
+| responsive_web_graphql_timeline_navigation_enabled    | boolean | False     |
 
 #### queryId<br>
 `None`<br>
 ## CommunityModerationTweetCasesSlice<br>
-Request URL: `https://twitter.com/i/api/graphql/8KH3H8LeS3LUdXeGVB_4fw/CommunityModerationTweetCasesSlice`<br>
+Request URL: `https://twitter.com/i/api/graphql/d-hbNWQ8GpfTGgEqbDNaqQ/CommunityModerationTweetCasesSlice`<br>
 Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
@@ -1411,6 +1440,7 @@ Login Required: `Future`<br>
 | tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | True      |
 | interactive_text_enabled                                                | boolean | True      |
 | responsive_web_text_conversations_enabled                               | boolean | True      |
+| responsive_web_twitter_blue_verified_badge_is_enabled                   | boolean | True      |
 | verified_phone_label_enabled                                            | boolean | True      |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | False     |
 | responsive_web_enhance_cards_enabled                                    | boolean | True      |
@@ -1418,7 +1448,7 @@ Login Required: `Future`<br>
 #### queryId<br>
 `None`<br>
 ## CommunitiesMainDiscoveryModule<br>
-Request URL: `https://twitter.com/i/api/graphql/wwd9HaLIQaGorIAxtZVq0A/CommunitiesMainDiscoveryModule`<br>
+Request URL: `https://twitter.com/i/api/graphql/dpOOip4Swrgab-mBLx5f_g/CommunitiesMainDiscoveryModule`<br>
 Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
@@ -1432,6 +1462,7 @@ Login Required: `Future`<br>
 #### features<br>
 | key                                                                     | type    | default   |
 |:------------------------------------------------------------------------|:--------|:----------|
+| responsive_web_twitter_blue_verified_badge_is_enabled                   | boolean | True      |
 | verified_phone_label_enabled                                            | boolean | True      |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | False     |
 | unified_cards_ad_metadata_container_dynamic_card_content_query_enabled  | boolean | True      |
@@ -1449,7 +1480,7 @@ Login Required: `Future`<br>
 #### queryId<br>
 `None`<br>
 ## CommunitiesMainPageTimeline<br>
-Request URL: `https://twitter.com/i/api/graphql/A88OwhsjJoF8o-ch-Zwt7A/CommunitiesMainPageTimeline`<br>
+Request URL: `https://twitter.com/i/api/graphql/1u0YeTK6GM6dhvrBSoyZbQ/CommunitiesMainPageTimeline`<br>
 Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
@@ -1463,6 +1494,7 @@ Login Required: `Future`<br>
 #### features<br>
 | key                                                                     | type    | default   |
 |:------------------------------------------------------------------------|:--------|:----------|
+| responsive_web_twitter_blue_verified_badge_is_enabled                   | boolean | True      |
 | verified_phone_label_enabled                                            | boolean | True      |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | False     |
 | unified_cards_ad_metadata_container_dynamic_card_content_query_enabled  | boolean | True      |
@@ -1480,7 +1512,7 @@ Login Required: `Future`<br>
 #### queryId<br>
 `None`<br>
 ## CommunityHashtagsTimeline<br>
-Request URL: `https://twitter.com/i/api/graphql/mAm6cAXOD_8nEJj9CUjJRA/CommunityHashtagsTimeline`<br>
+Request URL: `https://twitter.com/i/api/graphql/KynZkoypT29vbOd143Ps8w/CommunityHashtagsTimeline`<br>
 Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
@@ -1494,6 +1526,7 @@ Login Required: `Future`<br>
 #### features<br>
 | key                                                                     | type    | default   |
 |:------------------------------------------------------------------------|:--------|:----------|
+| responsive_web_twitter_blue_verified_badge_is_enabled                   | boolean | True      |
 | verified_phone_label_enabled                                            | boolean | True      |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | False     |
 | unified_cards_ad_metadata_container_dynamic_card_content_query_enabled  | boolean | True      |
@@ -1511,7 +1544,7 @@ Login Required: `Future`<br>
 #### queryId<br>
 `None`<br>
 ## CommunityDiscoveryTimeline<br>
-Request URL: `https://twitter.com/i/api/graphql/UhAzEfDGmSULUoCHfChvdQ/CommunityDiscoveryTimeline`<br>
+Request URL: `https://twitter.com/i/api/graphql/SIHV2OzCk8e9naIfwhalVQ/CommunityDiscoveryTimeline`<br>
 Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
@@ -1524,6 +1557,7 @@ Login Required: `Future`<br>
 #### features<br>
 | key                                                                     | type    | default   |
 |:------------------------------------------------------------------------|:--------|:----------|
+| responsive_web_twitter_blue_verified_badge_is_enabled                   | boolean | True      |
 | verified_phone_label_enabled                                            | boolean | True      |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | False     |
 | unified_cards_ad_metadata_container_dynamic_card_content_query_enabled  | boolean | True      |
@@ -1541,7 +1575,7 @@ Login Required: `Future`<br>
 #### queryId<br>
 `None`<br>
 ## CommunityModerationKeepTweet<br>
-Request URL: `https://twitter.com/i/api/graphql/AXfT7AD_4I_y-6feW_p5gw/CommunityModerationKeepTweet`<br>
+Request URL: `https://twitter.com/i/api/graphql/a7OcKHSVGRK0GYOa11caBQ/CommunityModerationKeepTweet`<br>
 Request Method: `POST`<br>
 Login Required: `Future`<br>
 ### Param<br>
@@ -1552,15 +1586,16 @@ Login Required: `Future`<br>
 | ...()(0,g.S) | Future | _          |
 
 #### features<br>
-| key                                                | type    | default   |
-|:---------------------------------------------------|:--------|:----------|
-| verified_phone_label_enabled                       | boolean | True      |
-| responsive_web_graphql_timeline_navigation_enabled | boolean | False     |
+| key                                                   | type    | default   |
+|:------------------------------------------------------|:--------|:----------|
+| responsive_web_twitter_blue_verified_badge_is_enabled | boolean | True      |
+| verified_phone_label_enabled                          | boolean | True      |
+| responsive_web_graphql_timeline_navigation_enabled    | boolean | False     |
 
 #### queryId<br>
 `None`<br>
 ## JoinCommunity<br>
-Request URL: `https://twitter.com/i/api/graphql/I04meiO4dHCl2KFU9wZknA/JoinCommunity`<br>
+Request URL: `https://twitter.com/i/api/graphql/u4PgNqze4A2T17GbySYraw/JoinCommunity`<br>
 Request Method: `POST`<br>
 Login Required: `Future`<br>
 ### Param<br>
@@ -1571,15 +1606,16 @@ Login Required: `Future`<br>
 | ...()(0,g.S) | Future | _             |
 
 #### features<br>
-| key                                                | type    | default   |
-|:---------------------------------------------------|:--------|:----------|
-| verified_phone_label_enabled                       | boolean | True      |
-| responsive_web_graphql_timeline_navigation_enabled | boolean | False     |
+| key                                                   | type    | default   |
+|:------------------------------------------------------|:--------|:----------|
+| responsive_web_twitter_blue_verified_badge_is_enabled | boolean | True      |
+| verified_phone_label_enabled                          | boolean | True      |
+| responsive_web_graphql_timeline_navigation_enabled    | boolean | False     |
 
 #### queryId<br>
 `None`<br>
 ## RequestToJoinCommunity<br>
-Request URL: `https://twitter.com/i/api/graphql/maXfqM5Y5z8oDOpdbeub7Q/RequestToJoinCommunity`<br>
+Request URL: `https://twitter.com/i/api/graphql/kloa05ND5gN5M0e2Jey9-Q/RequestToJoinCommunity`<br>
 Request Method: `POST`<br>
 Login Required: `Future`<br>
 ### Param<br>
@@ -1590,15 +1626,16 @@ Login Required: `Future`<br>
 | ...()(0,g.S) | Future | _             |
 
 #### features<br>
-| key                                                | type    | default   |
-|:---------------------------------------------------|:--------|:----------|
-| verified_phone_label_enabled                       | boolean | True      |
-| responsive_web_graphql_timeline_navigation_enabled | boolean | False     |
+| key                                                   | type    | default   |
+|:------------------------------------------------------|:--------|:----------|
+| responsive_web_twitter_blue_verified_badge_is_enabled | boolean | True      |
+| verified_phone_label_enabled                          | boolean | True      |
+| responsive_web_graphql_timeline_navigation_enabled    | boolean | False     |
 
 #### queryId<br>
 `None`<br>
 ## LeaveCommunity<br>
-Request URL: `https://twitter.com/i/api/graphql/ijXJHXuoPno-VjcklwA56g/LeaveCommunity`<br>
+Request URL: `https://twitter.com/i/api/graphql/DWBEg-QgQc0QNKdBNZ5b1A/LeaveCommunity`<br>
 Request Method: `POST`<br>
 Login Required: `Future`<br>
 ### Param<br>
@@ -1609,15 +1646,16 @@ Login Required: `Future`<br>
 | ...()(0,g.S) | Future | _             |
 
 #### features<br>
-| key                                                | type    | default   |
-|:---------------------------------------------------|:--------|:----------|
-| verified_phone_label_enabled                       | boolean | True      |
-| responsive_web_graphql_timeline_navigation_enabled | boolean | False     |
+| key                                                   | type    | default   |
+|:------------------------------------------------------|:--------|:----------|
+| responsive_web_twitter_blue_verified_badge_is_enabled | boolean | True      |
+| verified_phone_label_enabled                          | boolean | True      |
+| responsive_web_graphql_timeline_navigation_enabled    | boolean | False     |
 
 #### queryId<br>
 `None`<br>
 ## CommunityUserInvite<br>
-Request URL: `https://twitter.com/i/api/graphql/TyBoUatRGhYWhUMPpC0IpA/CommunityUserInvite`<br>
+Request URL: `https://twitter.com/i/api/graphql/el2xSrgrXBxyWvbz193qaA/CommunityUserInvite`<br>
 Request Method: `POST`<br>
 Login Required: `Future`<br>
 ### Param<br>
@@ -1628,11 +1666,14 @@ Login Required: `Future`<br>
 | userId      | Future | t.userId      |
 
 #### features<br>
-`None`<br>
+| key                                                   | type    | default   |
+|:------------------------------------------------------|:--------|:----------|
+| responsive_web_twitter_blue_verified_badge_is_enabled | boolean | True      |
+
 #### queryId<br>
 `None`<br>
 ## CommunityUpdateRole<br>
-Request URL: `https://twitter.com/i/api/graphql/4kIaES9a1XdkFo43A9t9MQ/CommunityUpdateRole`<br>
+Request URL: `https://twitter.com/i/api/graphql/5SPJ9B2kOYlaqwfdQ7htZw/CommunityUpdateRole`<br>
 Request Method: `POST`<br>
 Login Required: `Future`<br>
 ### Param<br>
@@ -1643,15 +1684,16 @@ Login Required: `Future`<br>
 | ...()(0,g.S) | Future | _          |
 
 #### features<br>
-| key                                                | type    | default   |
-|:---------------------------------------------------|:--------|:----------|
-| verified_phone_label_enabled                       | boolean | True      |
-| responsive_web_graphql_timeline_navigation_enabled | boolean | False     |
+| key                                                   | type    | default   |
+|:------------------------------------------------------|:--------|:----------|
+| responsive_web_twitter_blue_verified_badge_is_enabled | boolean | True      |
+| verified_phone_label_enabled                          | boolean | True      |
+| responsive_web_graphql_timeline_navigation_enabled    | boolean | False     |
 
 #### queryId<br>
 `None`<br>
 ## CommunityEditName<br>
-Request URL: `https://twitter.com/i/api/graphql/9_fR4lDXk16L2u_mMrB11g/CommunityEditName`<br>
+Request URL: `https://twitter.com/i/api/graphql/ldBvUb6dbcOdGXP3vf5Y3g/CommunityEditName`<br>
 Request Method: `POST`<br>
 Login Required: `Future`<br>
 ### Param<br>
@@ -1663,15 +1705,16 @@ Login Required: `Future`<br>
 | ...()(0,g.S) | Future | _             |
 
 #### features<br>
-| key                                                | type    | default   |
-|:---------------------------------------------------|:--------|:----------|
-| verified_phone_label_enabled                       | boolean | True      |
-| responsive_web_graphql_timeline_navigation_enabled | boolean | False     |
+| key                                                   | type    | default   |
+|:------------------------------------------------------|:--------|:----------|
+| responsive_web_twitter_blue_verified_badge_is_enabled | boolean | True      |
+| verified_phone_label_enabled                          | boolean | True      |
+| responsive_web_graphql_timeline_navigation_enabled    | boolean | False     |
 
 #### queryId<br>
 `None`<br>
 ## CommunityEditPurpose<br>
-Request URL: `https://twitter.com/i/api/graphql/_rlCiscx1t9SVDJsxW4WTw/CommunityEditPurpose`<br>
+Request URL: `https://twitter.com/i/api/graphql/0Uw80o1gh1pQ2RJx8u0K_A/CommunityEditPurpose`<br>
 Request Method: `POST`<br>
 Login Required: `Future`<br>
 ### Param<br>
@@ -1683,15 +1726,16 @@ Login Required: `Future`<br>
 | ...()(0,g.S) | Future | _             |
 
 #### features<br>
-| key                                                | type    | default   |
-|:---------------------------------------------------|:--------|:----------|
-| verified_phone_label_enabled                       | boolean | True      |
-| responsive_web_graphql_timeline_navigation_enabled | boolean | False     |
+| key                                                   | type    | default   |
+|:------------------------------------------------------|:--------|:----------|
+| responsive_web_twitter_blue_verified_badge_is_enabled | boolean | True      |
+| verified_phone_label_enabled                          | boolean | True      |
+| responsive_web_graphql_timeline_navigation_enabled    | boolean | False     |
 
 #### queryId<br>
 `None`<br>
 ## CommunityEditTheme<br>
-Request URL: `https://twitter.com/i/api/graphql/7uNdSWPXtpe4cEVq9YJxpA/CommunityEditTheme`<br>
+Request URL: `https://twitter.com/i/api/graphql/DaPQS4RoYrILg-QX-kwIyw/CommunityEditTheme`<br>
 Request Method: `POST`<br>
 Login Required: `Future`<br>
 ### Param<br>
@@ -1703,15 +1747,16 @@ Login Required: `Future`<br>
 | ...()(0,g.S) | Future | _             |
 
 #### features<br>
-| key                                                | type    | default   |
-|:---------------------------------------------------|:--------|:----------|
-| verified_phone_label_enabled                       | boolean | True      |
-| responsive_web_graphql_timeline_navigation_enabled | boolean | False     |
+| key                                                   | type    | default   |
+|:------------------------------------------------------|:--------|:----------|
+| responsive_web_twitter_blue_verified_badge_is_enabled | boolean | True      |
+| verified_phone_label_enabled                          | boolean | True      |
+| responsive_web_graphql_timeline_navigation_enabled    | boolean | False     |
 
 #### queryId<br>
 `None`<br>
 ## CommunityEditRule<br>
-Request URL: `https://twitter.com/i/api/graphql/Ld8yImfKbSaHJmIu6CS5fw/CommunityEditRule`<br>
+Request URL: `https://twitter.com/i/api/graphql/oAA9Gyc5UhAZP3-_aUo88g/CommunityEditRule`<br>
 Request Method: `POST`<br>
 Login Required: `Future`<br>
 ### Param<br>
@@ -1725,15 +1770,16 @@ Login Required: `Future`<br>
 | ...()(0,g.S) | Future | _             |
 
 #### features<br>
-| key                                                | type    | default   |
-|:---------------------------------------------------|:--------|:----------|
-| verified_phone_label_enabled                       | boolean | True      |
-| responsive_web_graphql_timeline_navigation_enabled | boolean | False     |
+| key                                                   | type    | default   |
+|:------------------------------------------------------|:--------|:----------|
+| responsive_web_twitter_blue_verified_badge_is_enabled | boolean | True      |
+| verified_phone_label_enabled                          | boolean | True      |
+| responsive_web_graphql_timeline_navigation_enabled    | boolean | False     |
 
 #### queryId<br>
 `None`<br>
 ## CommunityCreateRule<br>
-Request URL: `https://twitter.com/i/api/graphql/dV2Cii41AxvQdFRu1X0NXA/CommunityCreateRule`<br>
+Request URL: `https://twitter.com/i/api/graphql/MUys_jLrkVDM7fVMlJhsEQ/CommunityCreateRule`<br>
 Request Method: `POST`<br>
 Login Required: `Future`<br>
 ### Param<br>
@@ -1746,15 +1792,16 @@ Login Required: `Future`<br>
 | ...()(0,g.S) | Future | _             |
 
 #### features<br>
-| key                                                | type    | default   |
-|:---------------------------------------------------|:--------|:----------|
-| verified_phone_label_enabled                       | boolean | True      |
-| responsive_web_graphql_timeline_navigation_enabled | boolean | False     |
+| key                                                   | type    | default   |
+|:------------------------------------------------------|:--------|:----------|
+| responsive_web_twitter_blue_verified_badge_is_enabled | boolean | True      |
+| verified_phone_label_enabled                          | boolean | True      |
+| responsive_web_graphql_timeline_navigation_enabled    | boolean | False     |
 
 #### queryId<br>
 `None`<br>
 ## CommunityRemoveRule<br>
-Request URL: `https://twitter.com/i/api/graphql/2DYzTRdbiVYazVl08BDKZg/CommunityRemoveRule`<br>
+Request URL: `https://twitter.com/i/api/graphql/oLsw1u3HutX9Tax-dr88Ow/CommunityRemoveRule`<br>
 Request Method: `POST`<br>
 Login Required: `Future`<br>
 ### Param<br>
@@ -1766,15 +1813,16 @@ Login Required: `Future`<br>
 | ...()(0,g.S) | Future | _             |
 
 #### features<br>
-| key                                                | type    | default   |
-|:---------------------------------------------------|:--------|:----------|
-| verified_phone_label_enabled                       | boolean | True      |
-| responsive_web_graphql_timeline_navigation_enabled | boolean | False     |
+| key                                                   | type    | default   |
+|:------------------------------------------------------|:--------|:----------|
+| responsive_web_twitter_blue_verified_badge_is_enabled | boolean | True      |
+| verified_phone_label_enabled                          | boolean | True      |
+| responsive_web_graphql_timeline_navigation_enabled    | boolean | False     |
 
 #### queryId<br>
 `None`<br>
 ## CommunityReorderRules<br>
-Request URL: `https://twitter.com/i/api/graphql/0gr6P5oEJ-psq9on7B-uAQ/CommunityReorderRules`<br>
+Request URL: `https://twitter.com/i/api/graphql/jIq-IIeWvp5AKNRBFTSiaA/CommunityReorderRules`<br>
 Request Method: `POST`<br>
 Login Required: `Future`<br>
 ### Param<br>
@@ -1786,15 +1834,16 @@ Login Required: `Future`<br>
 | ...()(0,g.S) | Future | _             |
 
 #### features<br>
-| key                                                | type    | default   |
-|:---------------------------------------------------|:--------|:----------|
-| verified_phone_label_enabled                       | boolean | True      |
-| responsive_web_graphql_timeline_navigation_enabled | boolean | False     |
+| key                                                   | type    | default   |
+|:------------------------------------------------------|:--------|:----------|
+| responsive_web_twitter_blue_verified_badge_is_enabled | boolean | True      |
+| verified_phone_label_enabled                          | boolean | True      |
+| responsive_web_graphql_timeline_navigation_enabled    | boolean | False     |
 
 #### queryId<br>
 `None`<br>
 ## CommunityEditBannerMedia<br>
-Request URL: `https://twitter.com/i/api/graphql/omQs3AVtlx4O4G_h6BV_zA/CommunityEditBannerMedia`<br>
+Request URL: `https://twitter.com/i/api/graphql/gI0aWiPJYl2Q1PMazHhmOg/CommunityEditBannerMedia`<br>
 Request Method: `POST`<br>
 Login Required: `Future`<br>
 ### Param<br>
@@ -1806,15 +1855,16 @@ Login Required: `Future`<br>
 | ...()(0,g.S) | Future | _             |
 
 #### features<br>
-| key                                                | type    | default   |
-|:---------------------------------------------------|:--------|:----------|
-| verified_phone_label_enabled                       | boolean | True      |
-| responsive_web_graphql_timeline_navigation_enabled | boolean | False     |
+| key                                                   | type    | default   |
+|:------------------------------------------------------|:--------|:----------|
+| responsive_web_twitter_blue_verified_badge_is_enabled | boolean | True      |
+| verified_phone_label_enabled                          | boolean | True      |
+| responsive_web_graphql_timeline_navigation_enabled    | boolean | False     |
 
 #### queryId<br>
 `None`<br>
 ## CommunityRemoveBannerMedia<br>
-Request URL: `https://twitter.com/i/api/graphql/u2VbyOif69zjm6l8BgRzKw/CommunityRemoveBannerMedia`<br>
+Request URL: `https://twitter.com/i/api/graphql/VWrnXHdLZCY3dFew72V86g/CommunityRemoveBannerMedia`<br>
 Request Method: `POST`<br>
 Login Required: `Future`<br>
 ### Param<br>
@@ -1825,10 +1875,11 @@ Login Required: `Future`<br>
 | ...()(0,g.S) | Future | _             |
 
 #### features<br>
-| key                                                | type    | default   |
-|:---------------------------------------------------|:--------|:----------|
-| verified_phone_label_enabled                       | boolean | True      |
-| responsive_web_graphql_timeline_navigation_enabled | boolean | False     |
+| key                                                   | type    | default   |
+|:------------------------------------------------------|:--------|:----------|
+| responsive_web_twitter_blue_verified_badge_is_enabled | boolean | True      |
+| verified_phone_label_enabled                          | boolean | True      |
+| responsive_web_graphql_timeline_navigation_enabled    | boolean | False     |
 
 #### queryId<br>
 `None`<br>
@@ -1900,7 +1951,7 @@ Login Required: `Future`<br>
 #### queryId<br>
 `None`<br>
 ## TweetDetail<br>
-Request URL: `https://twitter.com/i/api/graphql/lwMlLKa0uCr-By_siQJaGQ/TweetDetail`<br>
+Request URL: `https://twitter.com/i/api/graphql/BoHLKeBvibdYDiJON1oqTg/TweetDetail`<br>
 Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
@@ -1925,6 +1976,7 @@ Login Required: `Future`<br>
 #### features<br>
 | key                                                                     | type    | default   |
 |:------------------------------------------------------------------------|:--------|:----------|
+| responsive_web_twitter_blue_verified_badge_is_enabled                   | boolean | True      |
 | verified_phone_label_enabled                                            | boolean | True      |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | False     |
 | unified_cards_ad_metadata_container_dynamic_card_content_query_enabled  | boolean | True      |
@@ -1956,7 +2008,7 @@ Login Required: `Future`<br>
 #### queryId<br>
 `None`<br>
 ## DmAllSearchSlice<br>
-Request URL: `https://twitter.com/i/api/graphql/O6OBLKIO-w7TlUPne5iKKg/DmAllSearchSlice`<br>
+Request URL: `https://twitter.com/i/api/graphql/ZjdL4uZkhRXCPKGE5CRtEw/DmAllSearchSlice`<br>
 Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
@@ -1973,10 +2025,11 @@ Login Required: `Future`<br>
 | withSuperFollowsUserFields      | Future | t.isTrue("rito_safety_mode_blocked_profile_enabled")                                                                                                                                 |
 
 #### features<br>
-| key                                                | type    | default   |
-|:---------------------------------------------------|:--------|:----------|
-| verified_phone_label_enabled                       | boolean | True      |
-| responsive_web_graphql_timeline_navigation_enabled | boolean | False     |
+| key                                                   | type    | default   |
+|:------------------------------------------------------|:--------|:----------|
+| responsive_web_twitter_blue_verified_badge_is_enabled | boolean | True      |
+| verified_phone_label_enabled                          | boolean | True      |
+| responsive_web_graphql_timeline_navigation_enabled    | boolean | False     |
 
 #### queryId<br>
 `None`<br>
@@ -2011,7 +2064,7 @@ Login Required: `Future`<br>
 #### queryId<br>
 `None`<br>
 ## DmMutedTimeline<br>
-Request URL: `https://twitter.com/i/api/graphql/L7q6VfH47-5SgosVXIyomw/DmMutedTimeline`<br>
+Request URL: `https://twitter.com/i/api/graphql/y3uKc4Gmwq0nzuubHk1ksg/DmMutedTimeline`<br>
 Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
@@ -2026,6 +2079,7 @@ Login Required: `Future`<br>
 #### features<br>
 | key                                                                     | type    | default   |
 |:------------------------------------------------------------------------|:--------|:----------|
+| responsive_web_twitter_blue_verified_badge_is_enabled                   | boolean | True      |
 | verified_phone_label_enabled                                            | boolean | True      |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | False     |
 | unified_cards_ad_metadata_container_dynamic_card_content_query_enabled  | boolean | True      |
@@ -2127,7 +2181,7 @@ Login Required: `Future`<br>
 #### queryId<br>
 `None`<br>
 ## ForYouExplore<br>
-Request URL: `https://twitter.com/i/api/graphql/QtSTNkDxIEW0Is1xIVKxvw/ForYouExplore`<br>
+Request URL: `https://twitter.com/i/api/graphql/WGCFbp2BqGlP3NGt2DJ8zQ/ForYouExplore`<br>
 Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
@@ -2141,6 +2195,7 @@ Login Required: `Future`<br>
 #### features<br>
 | key                                                                     | type    | default   |
 |:------------------------------------------------------------------------|:--------|:----------|
+| responsive_web_twitter_blue_verified_badge_is_enabled                   | boolean | True      |
 | verified_phone_label_enabled                                            | boolean | True      |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | False     |
 | unified_cards_ad_metadata_container_dynamic_card_content_query_enabled  | boolean | True      |
@@ -2158,7 +2213,7 @@ Login Required: `Future`<br>
 #### queryId<br>
 `None`<br>
 ## ImmersiveMedia<br>
-Request URL: `https://twitter.com/i/api/graphql/8OzmTXcl-LNFUtn1Nm4N4Q/ImmersiveMedia`<br>
+Request URL: `https://twitter.com/i/api/graphql/36pMOwzEAOigRVwjHcP1ZA/ImmersiveMedia`<br>
 Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
@@ -2172,6 +2227,7 @@ Login Required: `Future`<br>
 #### features<br>
 | key                                                                     | type    | default   |
 |:------------------------------------------------------------------------|:--------|:----------|
+| responsive_web_twitter_blue_verified_badge_is_enabled                   | boolean | True      |
 | verified_phone_label_enabled                                            | boolean | True      |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | False     |
 | unified_cards_ad_metadata_container_dynamic_card_content_query_enabled  | boolean | True      |
@@ -2189,7 +2245,7 @@ Login Required: `Future`<br>
 #### queryId<br>
 `None`<br>
 ## Followers<br>
-Request URL: `https://twitter.com/i/api/graphql/Z9HvJpL_ARzj3eQiLG8iUQ/Followers`<br>
+Request URL: `https://twitter.com/i/api/graphql/_gXC5CopoM8fIgawvyGpIg/Followers`<br>
 Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
@@ -2205,6 +2261,7 @@ Login Required: `Future`<br>
 #### features<br>
 | key                                                                     | type    | default   |
 |:------------------------------------------------------------------------|:--------|:----------|
+| responsive_web_twitter_blue_verified_badge_is_enabled                   | boolean | True      |
 | verified_phone_label_enabled                                            | boolean | True      |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | False     |
 | unified_cards_ad_metadata_container_dynamic_card_content_query_enabled  | boolean | True      |
@@ -2222,7 +2279,7 @@ Login Required: `Future`<br>
 #### queryId<br>
 `None`<br>
 ## FollowersYouKnow<br>
-Request URL: `https://twitter.com/i/api/graphql/9rGNkxeO3eQ4_3UeSdM_Vw/FollowersYouKnow`<br>
+Request URL: `https://twitter.com/i/api/graphql/0hh4SWxF5ZLArQEJNig7kg/FollowersYouKnow`<br>
 Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
@@ -2238,6 +2295,7 @@ Login Required: `Future`<br>
 #### features<br>
 | key                                                                     | type    | default   |
 |:------------------------------------------------------------------------|:--------|:----------|
+| responsive_web_twitter_blue_verified_badge_is_enabled                   | boolean | True      |
 | verified_phone_label_enabled                                            | boolean | True      |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | False     |
 | unified_cards_ad_metadata_container_dynamic_card_content_query_enabled  | boolean | True      |
@@ -2255,7 +2313,7 @@ Login Required: `Future`<br>
 #### queryId<br>
 `None`<br>
 ## Following<br>
-Request URL: `https://twitter.com/i/api/graphql/LnVgK2Ps475XdH6vyAr-0Q/Following`<br>
+Request URL: `https://twitter.com/i/api/graphql/9rGM7YNDYuiqd0Cb0ZwLJw/Following`<br>
 Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
@@ -2271,6 +2329,7 @@ Login Required: `Future`<br>
 #### features<br>
 | key                                                                     | type    | default   |
 |:------------------------------------------------------------------------|:--------|:----------|
+| responsive_web_twitter_blue_verified_badge_is_enabled                   | boolean | True      |
 | verified_phone_label_enabled                                            | boolean | True      |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | False     |
 | unified_cards_ad_metadata_container_dynamic_card_content_query_enabled  | boolean | True      |
@@ -2288,7 +2347,7 @@ Login Required: `Future`<br>
 #### queryId<br>
 `None`<br>
 ## SuperFollowers<br>
-Request URL: `https://twitter.com/i/api/graphql/ZgNI-LIap8d2NAkUKo8TDw/SuperFollowers`<br>
+Request URL: `https://twitter.com/i/api/graphql/DmGBcxuI4lWd3z_mV_2M6Q/SuperFollowers`<br>
 Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
@@ -2303,6 +2362,7 @@ Login Required: `Future`<br>
 #### features<br>
 | key                                                                     | type    | default   |
 |:------------------------------------------------------------------------|:--------|:----------|
+| responsive_web_twitter_blue_verified_badge_is_enabled                   | boolean | True      |
 | verified_phone_label_enabled                                            | boolean | True      |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | False     |
 | unified_cards_ad_metadata_container_dynamic_card_content_query_enabled  | boolean | True      |
@@ -2320,7 +2380,7 @@ Login Required: `Future`<br>
 #### queryId<br>
 `None`<br>
 ## ModeratedTimeline<br>
-Request URL: `https://twitter.com/i/api/graphql/TWhvkJQUnit2D-9HAIdg_w/ModeratedTimeline`<br>
+Request URL: `https://twitter.com/i/api/graphql/c9IdrvgCZw7oxPZFPBpyrg/ModeratedTimeline`<br>
 Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
@@ -2336,6 +2396,7 @@ Login Required: `Future`<br>
 #### features<br>
 | key                                                                     | type    | default   |
 |:------------------------------------------------------------------------|:--------|:----------|
+| responsive_web_twitter_blue_verified_badge_is_enabled                   | boolean | True      |
 | verified_phone_label_enabled                                            | boolean | True      |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | False     |
 | unified_cards_ad_metadata_container_dynamic_card_content_query_enabled  | boolean | True      |
@@ -2353,7 +2414,7 @@ Login Required: `Future`<br>
 #### queryId<br>
 `None`<br>
 ## MutedAccounts<br>
-Request URL: `https://twitter.com/i/api/graphql/U49mG6zE23yF3NiqD30-WQ/MutedAccounts`<br>
+Request URL: `https://twitter.com/i/api/graphql/ULTlax3qxeRRfbT8bya1TQ/MutedAccounts`<br>
 Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
@@ -2368,6 +2429,7 @@ Login Required: `Future`<br>
 #### features<br>
 | key                                                                     | type    | default   |
 |:------------------------------------------------------------------------|:--------|:----------|
+| responsive_web_twitter_blue_verified_badge_is_enabled                   | boolean | True      |
 | verified_phone_label_enabled                                            | boolean | True      |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | False     |
 | unified_cards_ad_metadata_container_dynamic_card_content_query_enabled  | boolean | True      |
@@ -2385,7 +2447,7 @@ Login Required: `Future`<br>
 #### queryId<br>
 `None`<br>
 ## GenericTimelineById<br>
-Request URL: `https://twitter.com/i/api/graphql/oFzskqUbKqlSG2eiPm-4Cg/GenericTimelineById`<br>
+Request URL: `https://twitter.com/i/api/graphql/00Sr8WO2kvcZ2hrQfH0w7g/GenericTimelineById`<br>
 Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
@@ -2401,6 +2463,7 @@ Login Required: `Future`<br>
 #### features<br>
 | key                                                                     | type    | default   |
 |:------------------------------------------------------------------------|:--------|:----------|
+| responsive_web_twitter_blue_verified_badge_is_enabled                   | boolean | True      |
 | verified_phone_label_enabled                                            | boolean | True      |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | False     |
 | unified_cards_ad_metadata_container_dynamic_card_content_query_enabled  | boolean | True      |
@@ -2429,7 +2492,7 @@ Login Required: `Future`<br>
 #### queryId<br>
 `None`<br>
 ## ListAddMember<br>
-Request URL: `https://twitter.com/i/api/graphql/ROtJkLLsXH1bs6p3VseAuw/ListAddMember`<br>
+Request URL: `https://twitter.com/i/api/graphql/oD7xZZJ4l7RJqD3vgRMWjA/ListAddMember`<br>
 Request Method: `POST`<br>
 Login Required: `Future`<br>
 ### Param<br>
@@ -2441,15 +2504,16 @@ Login Required: `Future`<br>
 | ...()(0,g.S) | Future | _          |
 
 #### features<br>
-| key                                                | type    | default   |
-|:---------------------------------------------------|:--------|:----------|
-| verified_phone_label_enabled                       | boolean | True      |
-| responsive_web_graphql_timeline_navigation_enabled | boolean | False     |
+| key                                                   | type    | default   |
+|:------------------------------------------------------|:--------|:----------|
+| responsive_web_twitter_blue_verified_badge_is_enabled | boolean | True      |
+| verified_phone_label_enabled                          | boolean | True      |
+| responsive_web_graphql_timeline_navigation_enabled    | boolean | False     |
 
 #### queryId<br>
 `None`<br>
 ## CreateList<br>
-Request URL: `https://twitter.com/i/api/graphql/JEVoRbu65VMwvTlGt34DNg/CreateList`<br>
+Request URL: `https://twitter.com/i/api/graphql/33U6lIy9S_CjNSgYXKDEng/CreateList`<br>
 Request Method: `POST`<br>
 Login Required: `Future`<br>
 ### Param<br>
@@ -2462,15 +2526,16 @@ Login Required: `Future`<br>
 | ...()(0,g.S) | Future | _                         |
 
 #### features<br>
-| key                                                | type    | default   |
-|:---------------------------------------------------|:--------|:----------|
-| verified_phone_label_enabled                       | boolean | True      |
-| responsive_web_graphql_timeline_navigation_enabled | boolean | False     |
+| key                                                   | type    | default   |
+|:------------------------------------------------------|:--------|:----------|
+| responsive_web_twitter_blue_verified_badge_is_enabled | boolean | True      |
+| verified_phone_label_enabled                          | boolean | True      |
+| responsive_web_graphql_timeline_navigation_enabled    | boolean | False     |
 
 #### queryId<br>
 `None`<br>
 ## EditListBanner<br>
-Request URL: `https://twitter.com/i/api/graphql/0rRRjN0izJuy7dyCJ3ynOQ/EditListBanner`<br>
+Request URL: `https://twitter.com/i/api/graphql/mSN9U0iUa2z4fFg0JTO2qQ/EditListBanner`<br>
 Request Method: `POST`<br>
 Login Required: `Future`<br>
 ### Param<br>
@@ -2482,10 +2547,11 @@ Login Required: `Future`<br>
 | ...()(0,g.S) | Future | _          |
 
 #### features<br>
-| key                                                | type    | default   |
-|:---------------------------------------------------|:--------|:----------|
-| verified_phone_label_enabled                       | boolean | True      |
-| responsive_web_graphql_timeline_navigation_enabled | boolean | False     |
+| key                                                   | type    | default   |
+|:------------------------------------------------------|:--------|:----------|
+| responsive_web_twitter_blue_verified_badge_is_enabled | boolean | True      |
+| verified_phone_label_enabled                          | boolean | True      |
+| responsive_web_graphql_timeline_navigation_enabled    | boolean | False     |
 
 #### queryId<br>
 `None`<br>
@@ -2504,7 +2570,7 @@ Login Required: `Future`<br>
 #### queryId<br>
 `None`<br>
 ## DeleteListBanner<br>
-Request URL: `https://twitter.com/i/api/graphql/Weg_cj2p2avV6zLSaMF1UQ/DeleteListBanner`<br>
+Request URL: `https://twitter.com/i/api/graphql/_7mC01JCOYv2y-oDkNq8jg/DeleteListBanner`<br>
 Request Method: `POST`<br>
 Login Required: `Future`<br>
 ### Param<br>
@@ -2515,15 +2581,16 @@ Login Required: `Future`<br>
 | ...()(0,g.S) | Future | _          |
 
 #### features<br>
-| key                                                | type    | default   |
-|:---------------------------------------------------|:--------|:----------|
-| verified_phone_label_enabled                       | boolean | True      |
-| responsive_web_graphql_timeline_navigation_enabled | boolean | False     |
+| key                                                   | type    | default   |
+|:------------------------------------------------------|:--------|:----------|
+| responsive_web_twitter_blue_verified_badge_is_enabled | boolean | True      |
+| verified_phone_label_enabled                          | boolean | True      |
+| responsive_web_graphql_timeline_navigation_enabled    | boolean | False     |
 
 #### queryId<br>
 `None`<br>
 ## ListBySlug<br>
-Request URL: `https://twitter.com/i/api/graphql/Ifw9XtDrqu8CC4h0AIdQOw/ListBySlug`<br>
+Request URL: `https://twitter.com/i/api/graphql/Gz6SODtBmiJiPUM6EhDZug/ListBySlug`<br>
 Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
@@ -2535,15 +2602,16 @@ Login Required: `Future`<br>
 | ...()(0,g.S) | Future | _          |
 
 #### features<br>
-| key                                                | type    | default   |
-|:---------------------------------------------------|:--------|:----------|
-| verified_phone_label_enabled                       | boolean | True      |
-| responsive_web_graphql_timeline_navigation_enabled | boolean | False     |
+| key                                                   | type    | default   |
+|:------------------------------------------------------|:--------|:----------|
+| responsive_web_twitter_blue_verified_badge_is_enabled | boolean | True      |
+| verified_phone_label_enabled                          | boolean | True      |
+| responsive_web_graphql_timeline_navigation_enabled    | boolean | False     |
 
 #### queryId<br>
 `None`<br>
 ## ListByRestId<br>
-Request URL: `https://twitter.com/i/api/graphql/I8NyYUS1US1kI7XrXqt4Zg/ListByRestId`<br>
+Request URL: `https://twitter.com/i/api/graphql/3Rnx7ebPrd5yx3EIlBqeOQ/ListByRestId`<br>
 Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
@@ -2554,15 +2622,16 @@ Login Required: `Future`<br>
 | ...()(0,g.S) | Future | _          |
 
 #### features<br>
-| key                                                | type    | default   |
-|:---------------------------------------------------|:--------|:----------|
-| verified_phone_label_enabled                       | boolean | True      |
-| responsive_web_graphql_timeline_navigation_enabled | boolean | False     |
+| key                                                   | type    | default   |
+|:------------------------------------------------------|:--------|:----------|
+| responsive_web_twitter_blue_verified_badge_is_enabled | boolean | True      |
+| verified_phone_label_enabled                          | boolean | True      |
+| responsive_web_graphql_timeline_navigation_enabled    | boolean | False     |
 
 #### queryId<br>
 `None`<br>
 ## ListMembers<br>
-Request URL: `https://twitter.com/i/api/graphql/Gf66Y1SqCmtjVXH-WhB9vw/ListMembers`<br>
+Request URL: `https://twitter.com/i/api/graphql/6i82-1wRWNkzReI8o3yfUQ/ListMembers`<br>
 Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
@@ -2578,6 +2647,7 @@ Login Required: `Future`<br>
 #### features<br>
 | key                                                                     | type    | default   |
 |:------------------------------------------------------------------------|:--------|:----------|
+| responsive_web_twitter_blue_verified_badge_is_enabled                   | boolean | True      |
 | verified_phone_label_enabled                                            | boolean | True      |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | False     |
 | unified_cards_ad_metadata_container_dynamic_card_content_query_enabled  | boolean | True      |
@@ -2595,7 +2665,7 @@ Login Required: `Future`<br>
 #### queryId<br>
 `None`<br>
 ## ListSubscribers<br>
-Request URL: `https://twitter.com/i/api/graphql/-HhhXhcWmA7WZgbRXaHV5Q/ListSubscribers`<br>
+Request URL: `https://twitter.com/i/api/graphql/tzTyyV3TeaAc54G9lvsh-Q/ListSubscribers`<br>
 Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
@@ -2610,6 +2680,7 @@ Login Required: `Future`<br>
 #### features<br>
 | key                                                                     | type    | default   |
 |:------------------------------------------------------------------------|:--------|:----------|
+| responsive_web_twitter_blue_verified_badge_is_enabled                   | boolean | True      |
 | verified_phone_label_enabled                                            | boolean | True      |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | False     |
 | unified_cards_ad_metadata_container_dynamic_card_content_query_enabled  | boolean | True      |
@@ -2627,7 +2698,7 @@ Login Required: `Future`<br>
 #### queryId<br>
 `None`<br>
 ## ListOwnerships<br>
-Request URL: `https://twitter.com/i/api/graphql/kVNiUkFwsK6kquA88ay5rw/ListOwnerships`<br>
+Request URL: `https://twitter.com/i/api/graphql/W1GyVNu0kB4nA0AhLpuWQQ/ListOwnerships`<br>
 Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
@@ -2643,6 +2714,7 @@ Login Required: `Future`<br>
 #### features<br>
 | key                                                                     | type    | default   |
 |:------------------------------------------------------------------------|:--------|:----------|
+| responsive_web_twitter_blue_verified_badge_is_enabled                   | boolean | True      |
 | verified_phone_label_enabled                                            | boolean | True      |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | False     |
 | unified_cards_ad_metadata_container_dynamic_card_content_query_enabled  | boolean | True      |
@@ -2660,7 +2732,7 @@ Login Required: `Future`<br>
 #### queryId<br>
 `None`<br>
 ## ListMemberships<br>
-Request URL: `https://twitter.com/i/api/graphql/iNahdUw94pX75jFFjG_22g/ListMemberships`<br>
+Request URL: `https://twitter.com/i/api/graphql/hJYxPjx4OxE4fiHw-j4YtA/ListMemberships`<br>
 Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
@@ -2675,6 +2747,7 @@ Login Required: `Future`<br>
 #### features<br>
 | key                                                                     | type    | default   |
 |:------------------------------------------------------------------------|:--------|:----------|
+| responsive_web_twitter_blue_verified_badge_is_enabled                   | boolean | True      |
 | verified_phone_label_enabled                                            | boolean | True      |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | False     |
 | unified_cards_ad_metadata_container_dynamic_card_content_query_enabled  | boolean | True      |
@@ -2692,7 +2765,7 @@ Login Required: `Future`<br>
 #### queryId<br>
 `None`<br>
 ## ListRemoveMember<br>
-Request URL: `https://twitter.com/i/api/graphql/a7VjuNtwHQLWM1q5qB_Tgw/ListRemoveMember`<br>
+Request URL: `https://twitter.com/i/api/graphql/-UD5zcmE1K-ByMCpsMQXNA/ListRemoveMember`<br>
 Request Method: `POST`<br>
 Login Required: `Future`<br>
 ### Param<br>
@@ -2704,15 +2777,16 @@ Login Required: `Future`<br>
 | ...()(0,g.S) | Future | _          |
 
 #### features<br>
-| key                                                | type    | default   |
-|:---------------------------------------------------|:--------|:----------|
-| verified_phone_label_enabled                       | boolean | True      |
-| responsive_web_graphql_timeline_navigation_enabled | boolean | False     |
+| key                                                   | type    | default   |
+|:------------------------------------------------------|:--------|:----------|
+| responsive_web_twitter_blue_verified_badge_is_enabled | boolean | True      |
+| verified_phone_label_enabled                          | boolean | True      |
+| responsive_web_graphql_timeline_navigation_enabled    | boolean | False     |
 
 #### queryId<br>
 `None`<br>
 ## ListUnpinOne<br>
-Request URL: `https://twitter.com/i/api/graphql/fr5EYPAwsv59cknlK9vk1A/ListUnpinOne`<br>
+Request URL: `https://twitter.com/i/api/graphql/ITSJj_mKU9Wg3IbNzfzp_w/ListUnpinOne`<br>
 Request Method: `POST`<br>
 Login Required: `Future`<br>
 ### Param<br>
@@ -2723,15 +2797,16 @@ Login Required: `Future`<br>
 | ...a   | Future | _          |
 
 #### features<br>
-| key                                                | type    | default   |
-|:---------------------------------------------------|:--------|:----------|
-| verified_phone_label_enabled                       | boolean | True      |
-| responsive_web_graphql_timeline_navigation_enabled | boolean | False     |
+| key                                                   | type    | default   |
+|:------------------------------------------------------|:--------|:----------|
+| responsive_web_twitter_blue_verified_badge_is_enabled | boolean | True      |
+| verified_phone_label_enabled                          | boolean | True      |
+| responsive_web_graphql_timeline_navigation_enabled    | boolean | False     |
 
 #### queryId<br>
 `None`<br>
 ## ListPinOne<br>
-Request URL: `https://twitter.com/i/api/graphql/jl4rHz6g_pkm5_e-nBdDjw/ListPinOne`<br>
+Request URL: `https://twitter.com/i/api/graphql/mECa8rxMnKsCEpt3Ryasbg/ListPinOne`<br>
 Request Method: `POST`<br>
 Login Required: `Future`<br>
 ### Param<br>
@@ -2742,15 +2817,16 @@ Login Required: `Future`<br>
 | ...a   | Future | _          |
 
 #### features<br>
-| key                                                | type    | default   |
-|:---------------------------------------------------|:--------|:----------|
-| verified_phone_label_enabled                       | boolean | True      |
-| responsive_web_graphql_timeline_navigation_enabled | boolean | False     |
+| key                                                   | type    | default   |
+|:------------------------------------------------------|:--------|:----------|
+| responsive_web_twitter_blue_verified_badge_is_enabled | boolean | True      |
+| verified_phone_label_enabled                          | boolean | True      |
+| responsive_web_graphql_timeline_navigation_enabled    | boolean | False     |
 
 #### queryId<br>
 `None`<br>
 ## ListsPinMany<br>
-Request URL: `https://twitter.com/i/api/graphql/_F3TCyLtYBRBoMwe5WzPxw/ListsPinMany`<br>
+Request URL: `https://twitter.com/i/api/graphql/6SAF4mccyY_5xCS2l2PIiw/ListsPinMany`<br>
 Request Method: `POST`<br>
 Login Required: `Future`<br>
 ### Param<br>
@@ -2761,15 +2837,16 @@ Login Required: `Future`<br>
 | ...()(0,g.S) | Future | _          |
 
 #### features<br>
-| key                                                | type    | default   |
-|:---------------------------------------------------|:--------|:----------|
-| verified_phone_label_enabled                       | boolean | True      |
-| responsive_web_graphql_timeline_navigation_enabled | boolean | False     |
+| key                                                   | type    | default   |
+|:------------------------------------------------------|:--------|:----------|
+| responsive_web_twitter_blue_verified_badge_is_enabled | boolean | True      |
+| verified_phone_label_enabled                          | boolean | True      |
+| responsive_web_graphql_timeline_navigation_enabled    | boolean | False     |
 
 #### queryId<br>
 `None`<br>
 ## ListSubscribe<br>
-Request URL: `https://twitter.com/i/api/graphql/0jCJkvMfhGJuQahCWDb2WQ/ListSubscribe`<br>
+Request URL: `https://twitter.com/i/api/graphql/_71kktdGu233FoLHbYsGWQ/ListSubscribe`<br>
 Request Method: `POST`<br>
 Login Required: `Future`<br>
 ### Param<br>
@@ -2780,15 +2857,16 @@ Login Required: `Future`<br>
 | ...()(0,g.S) | Future | _          |
 
 #### features<br>
-| key                                                | type    | default   |
-|:---------------------------------------------------|:--------|:----------|
-| verified_phone_label_enabled                       | boolean | True      |
-| responsive_web_graphql_timeline_navigation_enabled | boolean | False     |
+| key                                                   | type    | default   |
+|:------------------------------------------------------|:--------|:----------|
+| responsive_web_twitter_blue_verified_badge_is_enabled | boolean | True      |
+| verified_phone_label_enabled                          | boolean | True      |
+| responsive_web_graphql_timeline_navigation_enabled    | boolean | False     |
 
 #### queryId<br>
 `None`<br>
 ## ListUnsubscribe<br>
-Request URL: `https://twitter.com/i/api/graphql/IuoomJWQq5KWExOQocCu4g/ListUnsubscribe`<br>
+Request URL: `https://twitter.com/i/api/graphql/gEw93c2Glk3vwM1KnrV9AQ/ListUnsubscribe`<br>
 Request Method: `POST`<br>
 Login Required: `Future`<br>
 ### Param<br>
@@ -2799,10 +2877,11 @@ Login Required: `Future`<br>
 | ...()(0,g.S) | Future | _          |
 
 #### features<br>
-| key                                                | type    | default   |
-|:---------------------------------------------------|:--------|:----------|
-| verified_phone_label_enabled                       | boolean | True      |
-| responsive_web_graphql_timeline_navigation_enabled | boolean | False     |
+| key                                                   | type    | default   |
+|:------------------------------------------------------|:--------|:----------|
+| responsive_web_twitter_blue_verified_badge_is_enabled | boolean | True      |
+| verified_phone_label_enabled                          | boolean | True      |
+| responsive_web_graphql_timeline_navigation_enabled    | boolean | False     |
 
 #### queryId<br>
 `None`<br>
@@ -2835,7 +2914,7 @@ Login Required: `Future`<br>
 #### queryId<br>
 `None`<br>
 ## UpdateList<br>
-Request URL: `https://twitter.com/i/api/graphql/YEBCEmKOYnrbc0l1HTtu6Q/UpdateList`<br>
+Request URL: `https://twitter.com/i/api/graphql/Am63m8FeQRQ8752q0nH01A/UpdateList`<br>
 Request Method: `POST`<br>
 Login Required: `Future`<br>
 ### Param<br>
@@ -2849,15 +2928,16 @@ Login Required: `Future`<br>
 | ...()(0,g.S) | Future | _                         |
 
 #### features<br>
-| key                                                | type    | default   |
-|:---------------------------------------------------|:--------|:----------|
-| verified_phone_label_enabled                       | boolean | True      |
-| responsive_web_graphql_timeline_navigation_enabled | boolean | False     |
+| key                                                   | type    | default   |
+|:------------------------------------------------------|:--------|:----------|
+| responsive_web_twitter_blue_verified_badge_is_enabled | boolean | True      |
+| verified_phone_label_enabled                          | boolean | True      |
+| responsive_web_graphql_timeline_navigation_enabled    | boolean | False     |
 
 #### queryId<br>
 `None`<br>
 ## CombinedLists<br>
-Request URL: `https://twitter.com/i/api/graphql/JTnVYTCA_u9okcJ6GXfPJQ/CombinedLists`<br>
+Request URL: `https://twitter.com/i/api/graphql/iy7AGNe9wEON8h59v0DEYg/CombinedLists`<br>
 Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
@@ -2872,6 +2952,7 @@ Login Required: `Future`<br>
 #### features<br>
 | key                                                                     | type    | default   |
 |:------------------------------------------------------------------------|:--------|:----------|
+| responsive_web_twitter_blue_verified_badge_is_enabled                   | boolean | True      |
 | verified_phone_label_enabled                                            | boolean | True      |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | False     |
 | unified_cards_ad_metadata_container_dynamic_card_content_query_enabled  | boolean | True      |
@@ -2889,7 +2970,7 @@ Login Required: `Future`<br>
 #### queryId<br>
 `None`<br>
 ## ListsManagementPageTimeline<br>
-Request URL: `https://twitter.com/i/api/graphql/WaHReALcp0st0ChcyEJiow/ListsManagementPageTimeline`<br>
+Request URL: `https://twitter.com/i/api/graphql/baWPOSy2E5oWX7NAWbJVjw/ListsManagementPageTimeline`<br>
 Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
@@ -2903,6 +2984,7 @@ Login Required: `Future`<br>
 #### features<br>
 | key                                                                     | type    | default   |
 |:------------------------------------------------------------------------|:--------|:----------|
+| responsive_web_twitter_blue_verified_badge_is_enabled                   | boolean | True      |
 | verified_phone_label_enabled                                            | boolean | True      |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | False     |
 | unified_cards_ad_metadata_container_dynamic_card_content_query_enabled  | boolean | True      |
@@ -2920,7 +3002,7 @@ Login Required: `Future`<br>
 #### queryId<br>
 `None`<br>
 ## ListPins<br>
-Request URL: `https://twitter.com/i/api/graphql/wzp1cZqdVxhp1AF79tHmHg/ListPins`<br>
+Request URL: `https://twitter.com/i/api/graphql/REGT5XU2K_4x8KQ-rjsIVw/ListPins`<br>
 Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
@@ -2930,15 +3012,16 @@ Login Required: `Future`<br>
 | ...()(0,g.S) | Future | _          |
 
 #### features<br>
-| key                                                | type    | default   |
-|:---------------------------------------------------|:--------|:----------|
-| verified_phone_label_enabled                       | boolean | True      |
-| responsive_web_graphql_timeline_navigation_enabled | boolean | False     |
+| key                                                   | type    | default   |
+|:------------------------------------------------------|:--------|:----------|
+| responsive_web_twitter_blue_verified_badge_is_enabled | boolean | True      |
+| verified_phone_label_enabled                          | boolean | True      |
+| responsive_web_graphql_timeline_navigation_enabled    | boolean | False     |
 
 #### queryId<br>
 `None`<br>
 ## ListsDiscovery<br>
-Request URL: `https://twitter.com/i/api/graphql/FURBvh6Hx3xgQnefd-rrdg/ListsDiscovery`<br>
+Request URL: `https://twitter.com/i/api/graphql/PL2pjufsPbrRhYaKIE4PGw/ListsDiscovery`<br>
 Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
@@ -2952,6 +3035,7 @@ Login Required: `Future`<br>
 #### features<br>
 | key                                                                     | type    | default   |
 |:------------------------------------------------------------------------|:--------|:----------|
+| responsive_web_twitter_blue_verified_badge_is_enabled                   | boolean | True      |
 | verified_phone_label_enabled                                            | boolean | True      |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | False     |
 | unified_cards_ad_metadata_container_dynamic_card_content_query_enabled  | boolean | True      |
@@ -2969,7 +3053,7 @@ Login Required: `Future`<br>
 #### queryId<br>
 `None`<br>
 ## UserAboutTimeline<br>
-Request URL: `https://twitter.com/i/api/graphql/izC84YPakdLNbu4rLqiHDA/UserAboutTimeline`<br>
+Request URL: `https://twitter.com/i/api/graphql/G4NsXlMBD0izBYpilEDvQQ/UserAboutTimeline`<br>
 Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
@@ -2985,6 +3069,7 @@ Login Required: `Future`<br>
 #### features<br>
 | key                                                                     | type    | default   |
 |:------------------------------------------------------------------------|:--------|:----------|
+| responsive_web_twitter_blue_verified_badge_is_enabled                   | boolean | True      |
 | verified_phone_label_enabled                                            | boolean | True      |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | False     |
 | unified_cards_ad_metadata_container_dynamic_card_content_query_enabled  | boolean | True      |
@@ -3002,7 +3087,7 @@ Login Required: `Future`<br>
 #### queryId<br>
 `None`<br>
 ## UserTweets<br>
-Request URL: `https://twitter.com/i/api/graphql/9JANivy-Q1QD1ZEIsN4lPA/UserTweets`<br>
+Request URL: `https://twitter.com/i/api/graphql/25oeBocoJ0NLTbSBegxleg/UserTweets`<br>
 Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
@@ -3021,6 +3106,7 @@ Login Required: `Future`<br>
 #### features<br>
 | key                                                                     | type    | default   |
 |:------------------------------------------------------------------------|:--------|:----------|
+| responsive_web_twitter_blue_verified_badge_is_enabled                   | boolean | True      |
 | verified_phone_label_enabled                                            | boolean | True      |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | False     |
 | unified_cards_ad_metadata_container_dynamic_card_content_query_enabled  | boolean | True      |
@@ -3038,7 +3124,7 @@ Login Required: `Future`<br>
 #### queryId<br>
 `None`<br>
 ## UserTweetsAndReplies<br>
-Request URL: `https://twitter.com/i/api/graphql/iYJBi7mdGCsSG-bO-T8THA/UserTweetsAndReplies`<br>
+Request URL: `https://twitter.com/i/api/graphql/s0hG9oAmWEYVBqOLJP-TBQ/UserTweetsAndReplies`<br>
 Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
@@ -3057,6 +3143,7 @@ Login Required: `Future`<br>
 #### features<br>
 | key                                                                     | type    | default   |
 |:------------------------------------------------------------------------|:--------|:----------|
+| responsive_web_twitter_blue_verified_badge_is_enabled                   | boolean | True      |
 | verified_phone_label_enabled                                            | boolean | True      |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | False     |
 | unified_cards_ad_metadata_container_dynamic_card_content_query_enabled  | boolean | True      |
@@ -3074,7 +3161,7 @@ Login Required: `Future`<br>
 #### queryId<br>
 `None`<br>
 ## UserSuperFollowTweets<br>
-Request URL: `https://twitter.com/i/api/graphql/yIYVhHpC-XjaErApbBtdzQ/UserSuperFollowTweets`<br>
+Request URL: `https://twitter.com/i/api/graphql/osIED89Xk0_NKFqgSWpgJg/UserSuperFollowTweets`<br>
 Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
@@ -3091,6 +3178,7 @@ Login Required: `Future`<br>
 #### features<br>
 | key                                                                     | type    | default   |
 |:------------------------------------------------------------------------|:--------|:----------|
+| responsive_web_twitter_blue_verified_badge_is_enabled                   | boolean | True      |
 | verified_phone_label_enabled                                            | boolean | True      |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | False     |
 | unified_cards_ad_metadata_container_dynamic_card_content_query_enabled  | boolean | True      |
@@ -3108,7 +3196,7 @@ Login Required: `Future`<br>
 #### queryId<br>
 `None`<br>
 ## UserPromotableTweets<br>
-Request URL: `https://twitter.com/i/api/graphql/KmIqY1SjxoPC0WBQWJB6qQ/UserPromotableTweets`<br>
+Request URL: `https://twitter.com/i/api/graphql/56eGxRLB5xReLdWB0PNaig/UserPromotableTweets`<br>
 Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
@@ -3120,6 +3208,7 @@ Login Required: `Future`<br>
 #### features<br>
 | key                                                                     | type    | default   |
 |:------------------------------------------------------------------------|:--------|:----------|
+| responsive_web_twitter_blue_verified_badge_is_enabled                   | boolean | True      |
 | verified_phone_label_enabled                                            | boolean | True      |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | False     |
 | unified_cards_ad_metadata_container_dynamic_card_content_query_enabled  | boolean | True      |
@@ -3137,7 +3226,7 @@ Login Required: `Future`<br>
 #### queryId<br>
 `None`<br>
 ## Likes<br>
-Request URL: `https://twitter.com/i/api/graphql/SqBARVBWCWlcMK52gkSidQ/Likes`<br>
+Request URL: `https://twitter.com/i/api/graphql/lr2pk7rKqCqLSqWRGRaW5Q/Likes`<br>
 Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
@@ -3157,6 +3246,7 @@ Login Required: `Future`<br>
 #### features<br>
 | key                                                                     | type    | default   |
 |:------------------------------------------------------------------------|:--------|:----------|
+| responsive_web_twitter_blue_verified_badge_is_enabled                   | boolean | True      |
 | verified_phone_label_enabled                                            | boolean | True      |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | False     |
 | unified_cards_ad_metadata_container_dynamic_card_content_query_enabled  | boolean | True      |
@@ -3174,7 +3264,7 @@ Login Required: `Future`<br>
 #### queryId<br>
 `None`<br>
 ## UserMedia<br>
-Request URL: `https://twitter.com/i/api/graphql/ZHtFChNlCOwB9BZ-5BJsEA/UserMedia`<br>
+Request URL: `https://twitter.com/i/api/graphql/pPv9g3uSVHOxOCMpx0Gtug/UserMedia`<br>
 Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
@@ -3194,6 +3284,7 @@ Login Required: `Future`<br>
 #### features<br>
 | key                                                                     | type    | default   |
 |:------------------------------------------------------------------------|:--------|:----------|
+| responsive_web_twitter_blue_verified_badge_is_enabled                   | boolean | True      |
 | verified_phone_label_enabled                                            | boolean | True      |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | False     |
 | unified_cards_ad_metadata_container_dynamic_card_content_query_enabled  | boolean | True      |
@@ -3225,7 +3316,7 @@ Login Required: `Future`<br>
 #### queryId<br>
 `None`<br>
 ## RitoActionedTweetsTimeline<br>
-Request URL: `https://twitter.com/i/api/graphql/AgQXCQa9JDXto_2qAf-jPA/RitoActionedTweetsTimeline`<br>
+Request URL: `https://twitter.com/i/api/graphql/St0cxU6IRuItc7f0Ps-a9g/RitoActionedTweetsTimeline`<br>
 Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
@@ -3240,6 +3331,7 @@ Login Required: `Future`<br>
 #### features<br>
 | key                                                                     | type    | default   |
 |:------------------------------------------------------------------------|:--------|:----------|
+| responsive_web_twitter_blue_verified_badge_is_enabled                   | boolean | True      |
 | verified_phone_label_enabled                                            | boolean | True      |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | False     |
 | unified_cards_ad_metadata_container_dynamic_card_content_query_enabled  | boolean | True      |
@@ -3271,7 +3363,7 @@ Login Required: `Future`<br>
 #### queryId<br>
 `None`<br>
 ## RitoFlaggedAccountsTimeline<br>
-Request URL: `https://twitter.com/i/api/graphql/5BoZX2gfbLOav25umZc0zA/RitoFlaggedAccountsTimeline`<br>
+Request URL: `https://twitter.com/i/api/graphql/21YhSM0hck0RKIXme6evXQ/RitoFlaggedAccountsTimeline`<br>
 Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
@@ -3285,6 +3377,7 @@ Login Required: `Future`<br>
 #### features<br>
 | key                                                                     | type    | default   |
 |:------------------------------------------------------------------------|:--------|:----------|
+| responsive_web_twitter_blue_verified_badge_is_enabled                   | boolean | True      |
 | verified_phone_label_enabled                                            | boolean | True      |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | False     |
 | unified_cards_ad_metadata_container_dynamic_card_content_query_enabled  | boolean | True      |
@@ -3302,7 +3395,7 @@ Login Required: `Future`<br>
 #### queryId<br>
 `None`<br>
 ## RitoFlaggedTweetsTimeline<br>
-Request URL: `https://twitter.com/i/api/graphql/Cx-93zRWmmyzTFgeFjmxaQ/RitoFlaggedTweetsTimeline`<br>
+Request URL: `https://twitter.com/i/api/graphql/EWbD2e8CZCVFE_2uwBgKnQ/RitoFlaggedTweetsTimeline`<br>
 Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
@@ -3317,6 +3410,7 @@ Login Required: `Future`<br>
 #### features<br>
 | key                                                                     | type    | default   |
 |:------------------------------------------------------------------------|:--------|:----------|
+| responsive_web_twitter_blue_verified_badge_is_enabled                   | boolean | True      |
 | verified_phone_label_enabled                                            | boolean | True      |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | False     |
 | unified_cards_ad_metadata_container_dynamic_card_content_query_enabled  | boolean | True      |
@@ -3586,7 +3680,7 @@ Login Required: `Future`<br>
 #### queryId<br>
 `None`<br>
 ## ArticleTweetsTimeline<br>
-Request URL: `https://twitter.com/i/api/graphql/e6uptlMo3W-JFwUfvBUDgg/ArticleTweetsTimeline`<br>
+Request URL: `https://twitter.com/i/api/graphql/tvgw5gtcC27iNqQUzy7shg/ArticleTweetsTimeline`<br>
 Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
@@ -3600,6 +3694,7 @@ Login Required: `Future`<br>
 #### features<br>
 | key                                                                     | type    | default   |
 |:------------------------------------------------------------------------|:--------|:----------|
+| responsive_web_twitter_blue_verified_badge_is_enabled                   | boolean | True      |
 | verified_phone_label_enabled                                            | boolean | True      |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | False     |
 | unified_cards_ad_metadata_container_dynamic_card_content_query_enabled  | boolean | True      |
@@ -3617,7 +3712,7 @@ Login Required: `Future`<br>
 #### queryId<br>
 `None`<br>
 ## ArticleTimeline<br>
-Request URL: `https://twitter.com/i/api/graphql/_UFyBq7sifzVNDUc8DCN3g/ArticleTimeline`<br>
+Request URL: `https://twitter.com/i/api/graphql/_qeAdwr6JrwJ4g8U1FrnTg/ArticleTimeline`<br>
 Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
@@ -3631,6 +3726,7 @@ Login Required: `Future`<br>
 #### features<br>
 | key                                                                     | type    | default   |
 |:------------------------------------------------------------------------|:--------|:----------|
+| responsive_web_twitter_blue_verified_badge_is_enabled                   | boolean | True      |
 | verified_phone_label_enabled                                            | boolean | True      |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | False     |
 | unified_cards_ad_metadata_container_dynamic_card_content_query_enabled  | boolean | True      |
@@ -3648,7 +3744,7 @@ Login Required: `Future`<br>
 #### queryId<br>
 `None`<br>
 ## TopicTimeline<br>
-Request URL: `https://twitter.com/i/api/graphql/UTqPQVOrkxEUjlOUJtezZw/TopicTimeline`<br>
+Request URL: `https://twitter.com/i/api/graphql/4emZpe0r583TRJwnuYnkBA/TopicTimeline`<br>
 Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
@@ -3660,6 +3756,7 @@ Login Required: `Future`<br>
 #### features<br>
 | key                                                                     | type    | default   |
 |:------------------------------------------------------------------------|:--------|:----------|
+| responsive_web_twitter_blue_verified_badge_is_enabled                   | boolean | True      |
 | verified_phone_label_enabled                                            | boolean | True      |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | False     |
 | unified_cards_ad_metadata_container_dynamic_card_content_query_enabled  | boolean | True      |
@@ -3677,7 +3774,7 @@ Login Required: `Future`<br>
 #### queryId<br>
 `None`<br>
 ## TopicLandingPage<br>
-Request URL: `https://twitter.com/i/api/graphql/YlsqRr90gnfnnx27j-XLqQ/TopicLandingPage`<br>
+Request URL: `https://twitter.com/i/api/graphql/LQAUgm0DiMTFcK98fd0KCQ/TopicLandingPage`<br>
 Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
@@ -3689,6 +3786,7 @@ Login Required: `Future`<br>
 #### features<br>
 | key                                                                     | type    | default   |
 |:------------------------------------------------------------------------|:--------|:----------|
+| responsive_web_twitter_blue_verified_badge_is_enabled                   | boolean | True      |
 | verified_phone_label_enabled                                            | boolean | True      |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | False     |
 | unified_cards_ad_metadata_container_dynamic_card_content_query_enabled  | boolean | True      |
@@ -3706,7 +3804,7 @@ Login Required: `Future`<br>
 #### queryId<br>
 `None`<br>
 ## TopicsManagementPage<br>
-Request URL: `https://twitter.com/i/api/graphql/fzzUZtwsz6Rj1PGXeqf8Zg/TopicsManagementPage`<br>
+Request URL: `https://twitter.com/i/api/graphql/Lt9WPkNBUP-LtG_OPW9FkA/TopicsManagementPage`<br>
 Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
@@ -3719,6 +3817,7 @@ Login Required: `Future`<br>
 #### features<br>
 | key                                                                     | type    | default   |
 |:------------------------------------------------------------------------|:--------|:----------|
+| responsive_web_twitter_blue_verified_badge_is_enabled                   | boolean | True      |
 | verified_phone_label_enabled                                            | boolean | True      |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | False     |
 | unified_cards_ad_metadata_container_dynamic_card_content_query_enabled  | boolean | True      |
@@ -3750,7 +3849,7 @@ Login Required: `Future`<br>
 #### queryId<br>
 `None`<br>
 ## TopicsPickerPageById<br>
-Request URL: `https://twitter.com/i/api/graphql/WsYkYH9L4gJJgsIOvKUe7Q/TopicsPickerPageById`<br>
+Request URL: `https://twitter.com/i/api/graphql/xE9YgVic_l4XyZDSwVb1ow/TopicsPickerPageById`<br>
 Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
@@ -3763,6 +3862,7 @@ Login Required: `Future`<br>
 #### features<br>
 | key                                                                     | type    | default   |
 |:------------------------------------------------------------------------|:--------|:----------|
+| responsive_web_twitter_blue_verified_badge_is_enabled                   | boolean | True      |
 | verified_phone_label_enabled                                            | boolean | True      |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | False     |
 | unified_cards_ad_metadata_container_dynamic_card_content_query_enabled  | boolean | True      |
@@ -3780,7 +3880,7 @@ Login Required: `Future`<br>
 #### queryId<br>
 `None`<br>
 ## TopicsPickerPage<br>
-Request URL: `https://twitter.com/i/api/graphql/IRb-ofbvdDOSwn3MltIk2w/TopicsPickerPage`<br>
+Request URL: `https://twitter.com/i/api/graphql/wXuiyRAuwYlz8AO2gpbuDg/TopicsPickerPage`<br>
 Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
@@ -3792,6 +3892,7 @@ Login Required: `Future`<br>
 #### features<br>
 | key                                                                     | type    | default   |
 |:------------------------------------------------------------------------|:--------|:----------|
+| responsive_web_twitter_blue_verified_badge_is_enabled                   | boolean | True      |
 | verified_phone_label_enabled                                            | boolean | True      |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | False     |
 | unified_cards_ad_metadata_container_dynamic_card_content_query_enabled  | boolean | True      |
@@ -3809,7 +3910,7 @@ Login Required: `Future`<br>
 #### queryId<br>
 `None`<br>
 ## ViewingOtherUsersTopicsPage<br>
-Request URL: `https://twitter.com/i/api/graphql/bWVhcflBkzrotU_ornr3uA/ViewingOtherUsersTopicsPage`<br>
+Request URL: `https://twitter.com/i/api/graphql/G29lL2Yy-6ha1BSJbhfp0Q/ViewingOtherUsersTopicsPage`<br>
 Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
@@ -3824,6 +3925,7 @@ Login Required: `Future`<br>
 #### features<br>
 | key                                                                     | type    | default   |
 |:------------------------------------------------------------------------|:--------|:----------|
+| responsive_web_twitter_blue_verified_badge_is_enabled                   | boolean | True      |
 | verified_phone_label_enabled                                            | boolean | True      |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | False     |
 | unified_cards_ad_metadata_container_dynamic_card_content_query_enabled  | boolean | True      |
@@ -3841,7 +3943,7 @@ Login Required: `Future`<br>
 #### queryId<br>
 `None`<br>
 ## NoteworthyAccountsPage<br>
-Request URL: `https://twitter.com/i/api/graphql/D-nGZJoqDyCD9_cMPR3oeA/NoteworthyAccountsPage`<br>
+Request URL: `https://twitter.com/i/api/graphql/xQUzNxuokiu-ApybwO77ow/NoteworthyAccountsPage`<br>
 Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
@@ -3855,6 +3957,7 @@ Login Required: `Future`<br>
 #### features<br>
 | key                                                                     | type    | default   |
 |:------------------------------------------------------------------------|:--------|:----------|
+| responsive_web_twitter_blue_verified_badge_is_enabled                   | boolean | True      |
 | verified_phone_label_enabled                                            | boolean | True      |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | False     |
 | unified_cards_ad_metadata_container_dynamic_card_content_query_enabled  | boolean | True      |
@@ -3928,7 +4031,7 @@ Login Required: `Future`<br>
 #### queryId<br>
 `None`<br>
 ## TopicToFollowSidebar<br>
-Request URL: `https://twitter.com/i/api/graphql/P6TP39KrJznmpLREBO-niQ/TopicToFollowSidebar`<br>
+Request URL: `https://twitter.com/i/api/graphql/92aqkmAM0LY20tCAPdOtvw/TopicToFollowSidebar`<br>
 Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
@@ -3941,6 +4044,7 @@ Login Required: `Future`<br>
 #### features<br>
 | key                                                                     | type    | default   |
 |:------------------------------------------------------------------------|:--------|:----------|
+| responsive_web_twitter_blue_verified_badge_is_enabled                   | boolean | True      |
 | verified_phone_label_enabled                                            | boolean | True      |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | False     |
 | unified_cards_ad_metadata_container_dynamic_card_content_query_enabled  | boolean | True      |
@@ -3998,7 +4102,7 @@ Login Required: `Future`<br>
 #### queryId<br>
 `None`<br>
 ## TwitterArticleByRestId<br>
-Request URL: `https://twitter.com/i/api/graphql/60KDKG_Kf-04LoH9KLRvGg/TwitterArticleByRestId`<br>
+Request URL: `https://twitter.com/i/api/graphql/uLmpbyRjm8BYhMTWr5-vcw/TwitterArticleByRestId`<br>
 Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
@@ -4012,6 +4116,7 @@ Login Required: `Future`<br>
 | key                                                                     | type    | default   |
 |:------------------------------------------------------------------------|:--------|:----------|
 | responsive_web_twitter_article_data_v2_enabled                          | boolean | True      |
+| responsive_web_twitter_blue_verified_badge_is_enabled                   | boolean | True      |
 | verified_phone_label_enabled                                            | boolean | True      |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | False     |
 | tweetypie_unmention_optimization_enabled                                | boolean | True      |
@@ -4028,7 +4133,7 @@ Login Required: `Future`<br>
 #### queryId<br>
 `None`<br>
 ## TwitterArticleCreate<br>
-Request URL: `https://twitter.com/i/api/graphql/G7LsqQzz2zFd7bkW2zbGrQ/TwitterArticleCreate`<br>
+Request URL: `https://twitter.com/i/api/graphql/duJJegN1edPOcPOW-jKp6g/TwitterArticleCreate`<br>
 Request Method: `POST`<br>
 Login Required: `Future`<br>
 ### Param<br>
@@ -4042,6 +4147,7 @@ Login Required: `Future`<br>
 | key                                                                     | type    | default   |
 |:------------------------------------------------------------------------|:--------|:----------|
 | responsive_web_twitter_article_data_v2_enabled                          | boolean | True      |
+| responsive_web_twitter_blue_verified_badge_is_enabled                   | boolean | True      |
 | verified_phone_label_enabled                                            | boolean | True      |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | False     |
 | tweetypie_unmention_optimization_enabled                                | boolean | True      |
@@ -4072,7 +4178,7 @@ Login Required: `Future`<br>
 #### queryId<br>
 `None`<br>
 ## TwitterArticleUpdateCoverImage<br>
-Request URL: `https://twitter.com/i/api/graphql/D5wT8OAuOUVY-EYg2eWlDw/TwitterArticleUpdateCoverImage`<br>
+Request URL: `https://twitter.com/i/api/graphql/-hpqsWfmxY9YccXcLf15FA/TwitterArticleUpdateCoverImage`<br>
 Request Method: `POST`<br>
 Login Required: `Future`<br>
 ### Param<br>
@@ -4087,6 +4193,7 @@ Login Required: `Future`<br>
 | key                                                                     | type    | default   |
 |:------------------------------------------------------------------------|:--------|:----------|
 | responsive_web_twitter_article_data_v2_enabled                          | boolean | True      |
+| responsive_web_twitter_blue_verified_badge_is_enabled                   | boolean | True      |
 | verified_phone_label_enabled                                            | boolean | True      |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | False     |
 | tweetypie_unmention_optimization_enabled                                | boolean | True      |
@@ -4103,7 +4210,7 @@ Login Required: `Future`<br>
 #### queryId<br>
 `None`<br>
 ## TwitterArticleUpdateData<br>
-Request URL: `https://twitter.com/i/api/graphql/5Jovlx4Xe6UOExFJp1PqWQ/TwitterArticleUpdateData`<br>
+Request URL: `https://twitter.com/i/api/graphql/FhMX48N0zFpop3NdOHyezQ/TwitterArticleUpdateData`<br>
 Request Method: `POST`<br>
 Login Required: `Future`<br>
 ### Param<br>
@@ -4118,6 +4225,7 @@ Login Required: `Future`<br>
 | key                                                                     | type    | default   |
 |:------------------------------------------------------------------------|:--------|:----------|
 | responsive_web_twitter_article_data_v2_enabled                          | boolean | True      |
+| responsive_web_twitter_blue_verified_badge_is_enabled                   | boolean | True      |
 | verified_phone_label_enabled                                            | boolean | True      |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | False     |
 | tweetypie_unmention_optimization_enabled                                | boolean | True      |
@@ -4134,7 +4242,7 @@ Login Required: `Future`<br>
 #### queryId<br>
 `None`<br>
 ## TwitterArticleUpdateMedia<br>
-Request URL: `https://twitter.com/i/api/graphql/874rKVpf580igffIQZa3Zg/TwitterArticleUpdateMedia`<br>
+Request URL: `https://twitter.com/i/api/graphql/YrFGxKBGKAGxHqhqHIHLGw/TwitterArticleUpdateMedia`<br>
 Request Method: `POST`<br>
 Login Required: `Future`<br>
 ### Param<br>
@@ -4149,6 +4257,7 @@ Login Required: `Future`<br>
 | key                                                                     | type    | default   |
 |:------------------------------------------------------------------------|:--------|:----------|
 | responsive_web_twitter_article_data_v2_enabled                          | boolean | True      |
+| responsive_web_twitter_blue_verified_badge_is_enabled                   | boolean | True      |
 | verified_phone_label_enabled                                            | boolean | True      |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | False     |
 | tweetypie_unmention_optimization_enabled                                | boolean | True      |
@@ -4165,7 +4274,7 @@ Login Required: `Future`<br>
 #### queryId<br>
 `None`<br>
 ## TwitterArticleUpdateTitle<br>
-Request URL: `https://twitter.com/i/api/graphql/yPMODs_hldtaVEYpy3r-2Q/TwitterArticleUpdateTitle`<br>
+Request URL: `https://twitter.com/i/api/graphql/BhQCHCV15_tURwY5-X41HA/TwitterArticleUpdateTitle`<br>
 Request Method: `POST`<br>
 Login Required: `Future`<br>
 ### Param<br>
@@ -4180,6 +4289,7 @@ Login Required: `Future`<br>
 | key                                                                     | type    | default   |
 |:------------------------------------------------------------------------|:--------|:----------|
 | responsive_web_twitter_article_data_v2_enabled                          | boolean | True      |
+| responsive_web_twitter_blue_verified_badge_is_enabled                   | boolean | True      |
 | verified_phone_label_enabled                                            | boolean | True      |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | False     |
 | tweetypie_unmention_optimization_enabled                                | boolean | True      |
@@ -4196,7 +4306,7 @@ Login Required: `Future`<br>
 #### queryId<br>
 `None`<br>
 ## TwitterArticleUpdateVisibility<br>
-Request URL: `https://twitter.com/i/api/graphql/sJMuPfC2eAQ-E1xRwq2ulw/TwitterArticleUpdateVisibility`<br>
+Request URL: `https://twitter.com/i/api/graphql/n8UG7F56szDxZhwryRZr0Q/TwitterArticleUpdateVisibility`<br>
 Request Method: `POST`<br>
 Login Required: `Future`<br>
 ### Param<br>
@@ -4211,6 +4321,7 @@ Login Required: `Future`<br>
 | key                                                                     | type    | default   |
 |:------------------------------------------------------------------------|:--------|:----------|
 | responsive_web_twitter_article_data_v2_enabled                          | boolean | True      |
+| responsive_web_twitter_blue_verified_badge_is_enabled                   | boolean | True      |
 | verified_phone_label_enabled                                            | boolean | True      |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | False     |
 | tweetypie_unmention_optimization_enabled                                | boolean | True      |
@@ -4227,7 +4338,7 @@ Login Required: `Future`<br>
 #### queryId<br>
 `None`<br>
 ## TwitterArticlesSlice<br>
-Request URL: `https://twitter.com/i/api/graphql/JSTuCGetCxcnv_JkZIk3Cg/TwitterArticlesSlice`<br>
+Request URL: `https://twitter.com/i/api/graphql/_WccxtEQTj3QAVTc2F_u7w/TwitterArticlesSlice`<br>
 Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
@@ -4241,6 +4352,7 @@ Login Required: `Future`<br>
 | key                                                                     | type    | default   |
 |:------------------------------------------------------------------------|:--------|:----------|
 | responsive_web_twitter_article_data_v2_enabled                          | boolean | True      |
+| responsive_web_twitter_blue_verified_badge_is_enabled                   | boolean | True      |
 | verified_phone_label_enabled                                            | boolean | True      |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | False     |
 | tweetypie_unmention_optimization_enabled                                | boolean | True      |
@@ -4257,7 +4369,7 @@ Login Required: `Future`<br>
 #### queryId<br>
 `None`<br>
 ## TrustedFriendsTypeahead<br>
-Request URL: `https://twitter.com/i/api/graphql/4lk-D0Y8kfimSyPJjEocsA/TrustedFriendsTypeahead`<br>
+Request URL: `https://twitter.com/i/api/graphql/wfVaMHyeA2Y0cKn9RziHmA/TrustedFriendsTypeahead`<br>
 Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
@@ -4268,11 +4380,14 @@ Login Required: `Future`<br>
 | prefix           | Future | t.prefix           |
 
 #### features<br>
-`None`<br>
+| key                                                   | type    | default   |
+|:------------------------------------------------------|:--------|:----------|
+| responsive_web_twitter_blue_verified_badge_is_enabled | boolean | True      |
+
 #### queryId<br>
 `None`<br>
 ## CommunityUserRelationshipTypeahead<br>
-Request URL: `https://twitter.com/i/api/graphql/mHD64WE922Oa5EmHCgwOcg/CommunityUserRelationshipTypeahead`<br>
+Request URL: `https://twitter.com/i/api/graphql/C9CUCfAvlaMEhJBmM2hZkg/CommunityUserRelationshipTypeahead`<br>
 Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
@@ -4283,11 +4398,14 @@ Login Required: `Future`<br>
 | prefix      | Future | t.prefix      |
 
 #### features<br>
-`None`<br>
+| key                                                   | type    | default   |
+|:------------------------------------------------------|:--------|:----------|
+| responsive_web_twitter_blue_verified_badge_is_enabled | boolean | True      |
+
 #### queryId<br>
 `None`<br>
 ## CommunityMemberRelationshipTypeahead<br>
-Request URL: `https://twitter.com/i/api/graphql/EaCbT1bOCOFxrDbDapS-Dw/CommunityMemberRelationshipTypeahead`<br>
+Request URL: `https://twitter.com/i/api/graphql/npEFiYc3sCX-YDHZ1B69nw/CommunityMemberRelationshipTypeahead`<br>
 Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
@@ -4298,11 +4416,14 @@ Login Required: `Future`<br>
 | prefix      | Future | t.prefix      |
 
 #### features<br>
-`None`<br>
+| key                                                   | type    | default   |
+|:------------------------------------------------------|:--------|:----------|
+| responsive_web_twitter_blue_verified_badge_is_enabled | boolean | True      |
+
 #### queryId<br>
 `None`<br>
 ## Viewer<br>
-Request URL: `https://twitter.com/i/api/graphql/4QPkwYytsKyIpDhtEGzsrw/Viewer`<br>
+Request URL: `https://twitter.com/i/api/graphql/iugWi6fZBxE7Qzt_5PiIYw/Viewer`<br>
 Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
@@ -4314,15 +4435,16 @@ Login Required: `Future`<br>
 | withSuperFollowsUserFields | Future | t.isTrue("c9s_community_creation_enabled") |
 
 #### features<br>
-| key                                                | type    | default   |
-|:---------------------------------------------------|:--------|:----------|
-| verified_phone_label_enabled                       | boolean | True      |
-| responsive_web_graphql_timeline_navigation_enabled | boolean | False     |
+| key                                                   | type    | default   |
+|:------------------------------------------------------|:--------|:----------|
+| responsive_web_twitter_blue_verified_badge_is_enabled | boolean | True      |
+| verified_phone_label_enabled                          | boolean | True      |
+| responsive_web_graphql_timeline_navigation_enabled    | boolean | False     |
 
 #### queryId<br>
 `None`<br>
 ## UserByScreenName<br>
-Request URL: `https://twitter.com/i/api/graphql/HThKoC4xtXHcuMIok4O0HA/UserByScreenName`<br>
+Request URL: `https://twitter.com/i/api/graphql/ptQPCD7NrFS_TW71Lq07nw/UserByScreenName`<br>
 Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
@@ -4334,15 +4456,16 @@ Login Required: `Future`<br>
 | withSuperFollowsUserFields | Future | t.isTrue("rito_safety_mode_blocked_profile_enabled") |
 
 #### features<br>
-| key                                                | type    | default   |
-|:---------------------------------------------------|:--------|:----------|
-| verified_phone_label_enabled                       | boolean | True      |
-| responsive_web_graphql_timeline_navigation_enabled | boolean | False     |
+| key                                                   | type    | default   |
+|:------------------------------------------------------|:--------|:----------|
+| responsive_web_twitter_blue_verified_badge_is_enabled | boolean | True      |
+| verified_phone_label_enabled                          | boolean | True      |
+| responsive_web_graphql_timeline_navigation_enabled    | boolean | False     |
 
 #### queryId<br>
 `None`<br>
 ## UserByRestId<br>
-Request URL: `https://twitter.com/i/api/graphql/h8lgEqxcqoXc7XAvK6lUeA/UserByRestId`<br>
+Request URL: `https://twitter.com/i/api/graphql/Qs44y3K0SXxItjNi6mUFQA/UserByRestId`<br>
 Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
@@ -4354,15 +4477,16 @@ Login Required: `Future`<br>
 | withSuperFollowsUserFields | Future | t.isTrue("rito_safety_mode_blocked_profile_enabled") |
 
 #### features<br>
-| key                                                | type    | default   |
-|:---------------------------------------------------|:--------|:----------|
-| verified_phone_label_enabled                       | boolean | True      |
-| responsive_web_graphql_timeline_navigation_enabled | boolean | False     |
+| key                                                   | type    | default   |
+|:------------------------------------------------------|:--------|:----------|
+| responsive_web_twitter_blue_verified_badge_is_enabled | boolean | True      |
+| verified_phone_label_enabled                          | boolean | True      |
+| responsive_web_graphql_timeline_navigation_enabled    | boolean | False     |
 
 #### queryId<br>
 `None`<br>
 ## UsersByRestIds<br>
-Request URL: `https://twitter.com/i/api/graphql/qG_b0Zd9n0GpaZVUuSlZWA/UsersByRestIds`<br>
+Request URL: `https://twitter.com/i/api/graphql/_MrlIB_y3BWSLB-XeU9XVA/UsersByRestIds`<br>
 Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
@@ -4373,10 +4497,11 @@ Login Required: `Future`<br>
 | withSuperFollowsUserFields | Future | t.isTrue(",") |
 
 #### features<br>
-| key                                                | type    | default   |
-|:---------------------------------------------------|:--------|:----------|
-| verified_phone_label_enabled                       | boolean | True      |
-| responsive_web_graphql_timeline_navigation_enabled | boolean | False     |
+| key                                                   | type    | default   |
+|:------------------------------------------------------|:--------|:----------|
+| responsive_web_twitter_blue_verified_badge_is_enabled | boolean | True      |
+| verified_phone_label_enabled                          | boolean | True      |
+| responsive_web_graphql_timeline_navigation_enabled    | boolean | False     |
 
 #### queryId<br>
 `None`<br>
