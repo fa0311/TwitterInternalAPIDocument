@@ -837,11 +837,11 @@ This document is entirely auto-generated and may contain errors.<br>
 | responsive_web_twitter_blue_growth_primary_nav_enabled                                | True    |
 | responsive_web_twitter_blue_home_redesign_enabled                                     | True    |
 | responsive_web_twitter_blue_signup_nux_enabled                                        | True    |
+| responsive_web_twitter_blue_subscriptions_disabled                                    | True    |
 | responsive_web_twitter_blue_verified_badge_is_enabled                                 | True    |
 | responsive_web_twitter_blue_verified_badge_ntab_empty_state_enabled                   | True    |
 | responsive_web_twitter_blue_verified_badge_ntab_verified_as_first_tab                 | True    |
 | responsive_web_twitter_blue_verified_badge_settings_blue_verified_features_enabled    | True    |
-| responsive_web_twitter_blue_verified_badge_updated_news_settings_copy_enabled         | True    |
 | responsive_web_typeahead_reverse_bolding_enabled                                      | True    |
 | responsive_web_uc_gql_enabled                                                         | True    |
 | responsive_web_unsupported_entry_tombstone                                            | True    |
