@@ -730,6 +730,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | responsive_web_moment_maker_promoted_tweets_enabled                                   | True    |
 | responsive_web_multiple_account_limit                                                 | True    |
 | responsive_web_new_copy_security_key_2fa_enabled                                      | True    |
+| responsive_web_new_user_badge_color_enabled                                           | True    |
 | responsive_web_newsletters_callout_enabled                                            | True    |
 | responsive_web_newsletters_menu_enabled                                               | True    |
 | responsive_web_newsletters_profile_subscribe_enabled                                  | True    |
@@ -839,6 +840,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | responsive_web_twitter_blue_signup_nux_enabled                                        | True    |
 | responsive_web_twitter_blue_subscriptions_disabled                                    | True    |
 | responsive_web_twitter_blue_verified_badge_is_enabled                                 | True    |
+| responsive_web_twitter_blue_verified_badge_ntab_all_badge_is_enabled                  | True    |
 | responsive_web_twitter_blue_verified_badge_ntab_empty_state_enabled                   | True    |
 | responsive_web_twitter_blue_verified_badge_ntab_verified_tab_index                    | True    |
 | responsive_web_twitter_blue_verified_badge_settings_blue_verified_features_enabled    | True    |
@@ -903,6 +905,8 @@ This document is entirely auto-generated and may contain errors.<br>
 | standardized_nudges_misinfo                                                           | True    |
 | standardized_nudges_toxicity                                                          | True    |
 | stateful_login_enabled                                                                | True    |
+| stateful_login_intent_enabled                                                         | True    |
+| stateful_login_smart_lock_enabled                                                     | True    |
 | subscriptions_blue_premium_labeling_enabled                                           | True    |
 | subscriptions_enabled                                                                 | True    |
 | subscriptions_feature_1002                                                            | True    |
@@ -2939,6 +2943,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | isLinkedSearchExperimentEnabled             | False   |
 | isSuperFollowsRenamed                       | False   |
 | blueVerifiedBadgeIsEnabled                  | False   |
+| newBadgeColorEnabled                        | False   |
 | ...a                                        | _       |
 
 | constant   | value     |
@@ -3134,8 +3139,8 @@ This document is entirely auto-generated and may contain errors.<br>
 | constant   | value   |
 |:-----------|:--------|
 | light      | light   |
-| dim        | dim     |
 | dark       | dark    |
+| darker     | darker  |
 
 | constant   | value      |
 |:-----------|:-----------|
@@ -3331,6 +3336,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | nestedBorderColor               | o.Z.color.baseColor.gray200    |
 | dmReceivedBubbleBackground      | o.Z.color.baseColor.gray50     |
 | badgeColor                      | o.Z.color.baseColor.blue500    |
+| badgeColorNew                   | o.Z.color.baseColor.blue500    |
 | maskColor                       | a.bs.black(.95)                |
 | hoverLabelColor                 | a.bs.black(.4)                 |
 | elevatedBackground              | a.Cj                           |
@@ -3360,12 +3366,13 @@ This document is entirely auto-generated and may contain errors.<br>
 | nestedBorderColor          | o.Z.color.baseColor.gray300 |
 | dmReceivedBubbleBackground | o.Z.color.baseColor.gray200 |
 | badgeColor                 | #264A9D                     |
+| badgeColorNew              | #264A9D                     |
 | buttonOutlinedBorder       | o.Z.color.baseColor.gray700 |
 
 | constant                        | value                        |
 |:--------------------------------|:-----------------------------|
 | ...s()                          | _                            |
-| activeFaintGray                 | rgba(r.CV.dim)               |
+| activeFaintGray                 | rgba(r.CV.dark)              |
 | activeBlack                     | a.bs.white(20, 29, 38, 0.7)  |
 | adFreeLabelBackground           | o.Z.color.baseColor.blue1000 |
 | adFreeLabelText                 | o.Z.color.baseColor.blue100  |
@@ -3377,6 +3384,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | nestedBorderColor               | #38444D                      |
 | dmReceivedBubbleBackground      | #3D5466                      |
 | badgeColor                      | a.Cj                         |
+| badgeColorNew                   | o.Z.color.baseColor.blue500  |
 | maskColor                       | a.bs.gray700(.95)            |
 | hoverLabelColor                 | a.bs.gray700(.4)             |
 | elevatedBackground              | #1C2C3C                      |
@@ -3399,13 +3407,14 @@ This document is entirely auto-generated and may contain errors.<br>
 | unreadCellBackground       | #325D7D                      |
 | dmReceivedBubbleBackground | #B8CBD9                      |
 | badgeColor                 | a.Cj                         |
+| badgeColorNew              | #264A9D                      |
 | whiteOnColor               | o.Z.color.baseColor.gray1100 |
 | buttonOutlinedBorder       | o.Z.color.baseColor.gray300  |
 
 | constant                        | value                        |
 |:--------------------------------|:-----------------------------|
 | ...s()                          | _                            |
-| activeFaintGray                 | rgba(r.CV.dark)              |
+| activeFaintGray                 | rgba(r.CV.darker)            |
 | activeBlack                     | a.bs.white(18, 21, 23, 0.7)  |
 | adFreeLabelBackground           | o.Z.color.baseColor.blue1000 |
 | adFreeLabelText                 | o.Z.color.baseColor.blue100  |
@@ -3418,6 +3427,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | nestedBorderColor               | #2F3336                      |
 | dmReceivedBubbleBackground      | #2F3336                      |
 | badgeColor                      | o.Z.color.darkColor.gray1000 |
+| badgeColorNew                   | o.Z.color.baseColor.blue500  |
 | maskColor                       | a.bs.gray700(.95)            |
 | hoverLabelColor                 | a.bs.gray700(.4)             |
 | elevatedBackground              | #1B2023                      |
@@ -3433,7 +3443,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant                   | value                        |
 |:---------------------------|:-----------------------------|
-| ...y                       | _                            |
+| ...v                       | _                            |
 | ...s()                     | _                            |
 | text                       | a.Cj                         |
 | navigationBackground       | #050505                      |
@@ -3444,6 +3454,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | nestedBorderColor          | #3D4145                      |
 | dmReceivedBubbleBackground | #929CA6                      |
 | badgeColor                 | a.Cj                         |
+| badgeColorNew              | #264A9D                      |
 | whiteOnColor               | o.Z.color.baseColor.gray1100 |
 | buttonOutlinedBorder       | o.Z.color.baseColor.gray300  |
 

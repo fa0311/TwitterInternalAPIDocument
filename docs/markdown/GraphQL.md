@@ -3520,6 +3520,17 @@ Login Required: `Future`<br>
 `None`<br>
 #### queryId<br>
 `None`<br>
+## ProfileUserPhoneState<br>
+Request URL: `https://twitter.com/i/api/graphql/5kUWP8C1hcd6omvg6HXXTQ/ProfileUserPhoneState`<br>
+Request Method: `GET`<br>
+Login Required: `Future`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
 ## updateAltTextPromptPreference<br>
 Request URL: `https://twitter.com/i/api/graphql/aQKrduk_DA46XfOQDkcEng/updateAltTextPromptPreference`<br>
 Request Method: `POST`<br>
