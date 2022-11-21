@@ -336,6 +336,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | account_taxonomy_automated_label_enabled                                              | True    |
 | account_taxonomy_automation_opt_in_enabled                                            | True    |
 | ads_spacing_client_fallback_minimum_spacing                                           | True    |
+| ads_spacing_client_fallback_minimum_spacing_verified_blue                             | True    |
 | arkose_challenge_lo_web_notification_dev                                              | True    |
 | arkose_challenge_lo_web_notification_mobile_prod                                      | True    |
 | arkose_challenge_lo_web_notification_prod                                             | True    |
@@ -618,7 +619,6 @@ This document is entirely auto-generated and may contain errors.<br>
 | responsive_web_dance_cc_tools_include_development_enabled                             | True    |
 | responsive_web_dcm_2_enabled                                                          | True    |
 | responsive_web_deamplification_replies_dropdown_selector_enabled                      | True    |
-| responsive_web_deamplification_transparent_cursors_enabled                            | True    |
 | responsive_web_delete_nonempty_tweetstorm_composer_enabled                            | True    |
 | responsive_web_device_follow_without_user_follow_enabled                              | True    |
 | responsive_web_disconnect_third_party_sso_enabled                                     | True    |
@@ -773,7 +773,6 @@ This document is entirely auto-generated and may contain errors.<br>
 | responsive_web_promoted_account_card_enabled                                          | True    |
 | responsive_web_promoted_badge_below_header                                            | True    |
 | responsive_web_promoted_badge_use_circle_icon                                         | True    |
-| responsive_web_qp_graphql_accounts_enabled                                            | True    |
 | responsive_web_qp_intro_experiment_enabled                                            | True    |
 | responsive_web_qp_payment_select_enabled                                              | True    |
 | responsive_web_reactions_api_test                                                     | True    |
