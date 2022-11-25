@@ -62,6 +62,15 @@ class js_search_data:
     def __repr__(self):
         return json.dumps(self.children)
 
+    def to_list(self):
+        output = []
+        for child in self.children:
+            if type(child) is js_data:
+                output.append(child.to_list())
+            else:
+                output.append(child)
+        return output
+
 
 def search_js(text: js_data, search: str) -> list[js_search_data]:
     output = []

@@ -29,9 +29,13 @@ def gen_md_graphql(graphql_output: list, feature_switches_output: list) -> md_ge
     md.p("`json.dumps` is equivalent to `JSON.stringify` in javaScript")
 
     for graphql in graphql_output:
-        exports = graphql["exports"]
-        query = graphql["query"]
-        switches = exports["metadata"]["featureSwitches"]
+        try:
+            exports = graphql["exports"]
+            query = graphql["query"]
+            switches = exports["metadata"]["featureSwitches"]
+        except KeyError:
+            print("KeyError: " + str(graphql))
+            continue
 
         md.h2(exports["operationName"])
         md.p("Request URL", end=": ")
