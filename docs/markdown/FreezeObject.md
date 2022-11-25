@@ -446,6 +446,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | explore_relaunch_enable_immersive_web                                                 | True    |
 | explore_relaunch_enable_immersive_web_navigation_button                               | True    |
 | explore_relaunch_enable_immersive_web_tap_to_hide                                     | True    |
+| explore_relaunch_enable_video_carousels_immersive_viewer                              | True    |
 | explore_relaunch_enabled                                                              | True    |
 | explore_relaunch_onboarding_bar_show_count                                            | True    |
 | explore_relaunch_updated_scrubber_position                                            | True    |
@@ -469,6 +470,10 @@ This document is entirely auto-generated and may contain errors.<br>
 | gryphon_hide_quick_promote                                                            | True    |
 | gryphon_optout_in_settings                                                            | True    |
 | guest_broadcasting_timeline_decorations_enabled                                       | True    |
+| hashfetti_all_hashflags                                                               | True    |
+| hashfetti_duration_ms                                                                 | True    |
+| hashfetti_enabled                                                                     | True    |
+| hashfetti_particle_count                                                              | True    |
 | hashflags_animation_like_button_enabled                                               | True    |
 | home_timeline_extended_reactivity_tweet_clicks_enabled                                | True    |
 | home_timeline_extended_reactivity_tweet_clicks_fatigue                                | True    |
@@ -573,7 +578,6 @@ This document is entirely auto-generated and may contain errors.<br>
 | responsive_web_birdwatch_consumption_enabled                                          | True    |
 | responsive_web_birdwatch_contribution_enabled                                         | True    |
 | responsive_web_birdwatch_country_allowed                                              | True    |
-| responsive_web_birdwatch_deleted_notes_enabled                                        | True    |
 | responsive_web_birdwatch_earn_in_enabled                                              | True    |
 | responsive_web_birdwatch_earn_out_enabled                                             | True    |
 | responsive_web_birdwatch_hcomp_user                                                   | True    |
@@ -836,6 +840,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | responsive_web_twitter_article_view_enabled                                           | True    |
 | responsive_web_twitter_blue_growth_primary_nav_enabled                                | True    |
 | responsive_web_twitter_blue_home_redesign_enabled                                     | True    |
+| responsive_web_twitter_blue_new_verification_copy_is_enabled                          | True    |
 | responsive_web_twitter_blue_signup_nux_enabled                                        | True    |
 | responsive_web_twitter_blue_subscriptions_disabled                                    | True    |
 | responsive_web_twitter_blue_verified_badge_is_enabled                                 | True    |
@@ -915,6 +920,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | subscriptions_feature_1007                                                            | True    |
 | subscriptions_feature_1009                                                            | True    |
 | subscriptions_feature_1011                                                            | True    |
+| subscriptions_feature_1013                                                            | True    |
 | subscriptions_feature_labs_1001                                                       | True    |
 | subscriptions_feature_labs_1004                                                       | True    |
 | subscriptions_long_video_rweb_new_copy_enabled                                        | True    |
