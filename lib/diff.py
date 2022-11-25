@@ -3,8 +3,8 @@ from black import out
 
 def diff(new_data, old_data, key_func):
     output = {
-        "add":[],
-        "remove":[],
+        "add": [],
+        "remove": [],
     }
     for new in new_data:
         for old in old_data:

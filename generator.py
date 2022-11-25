@@ -76,7 +76,11 @@ else:
 
         if file_name.endswith("GraphQL.json"):
             old_graphql_data = json.loads(old_data)
-            diff_data = diff(graphql_output, old_graphql_data,lambda x: x["exports"]["operationName"])
+            diff_data = diff(
+                graphql_output,
+                old_graphql_data,
+                lambda x: x["exports"]["operationName"],
+            )
             for title, items in diff_data.items():
                 body.h3(title)
                 if len(items) > 0:
