@@ -1,6 +1,7 @@
 import requests
 import json
 import os
+import datetime
 from github import Github
 from lib.md_generator.md_generator import md_generator
 from lib.diff import diff
@@ -107,6 +108,26 @@ else:
                 print("Not Found")
 
     if send_pull_request:
+        file_name = "docs/markdown/ChangeLog.md"
+        if os.path.exists(file_name):
+            with open(file_name, "r") as f:
+                change_log = f.read()
+        else:
+            change_log = ""
+        change_log += "##{time}{br}{new}".format(
+            br="<br>\n",
+            time=datetime.datetime.now().strftime("%Y/%m/%d"),
+            new=body.output,
+        )
+
+        f = repo.get_contents(file_name, ref=branch)
+        repo.update_file(
+            f.path,
+            message=f"Update {file_name} on {branch} branch",
+            content=change_log,
+            sha=f.sha,
+            branch=branch,
+        )
         try:
             repo.create_pull(
                 title="Update Document", body=body.output, head=branch, base="master"
