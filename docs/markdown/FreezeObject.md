@@ -353,6 +353,8 @@ This document is entirely auto-generated and may contain errors.<br>
 | Arkose_rweb_hosted_page                                                               | True    |
 | Arkose_use_invisible_challenge_key                                                    | True    |
 | author_moderated_replies_urt_container_enabled                                        | True    |
+| blue_business_square_avatar_consumption_ui_enabled                                    | True    |
+| blue_longer_video_enabled                                                             | True    |
 | branded_like_preview_enabled                                                          | True    |
 | c9s_auto_collapse_community_detail_header_enabled                                     | True    |
 | c9s_communities_search_enabled                                                        | True    |
@@ -662,7 +664,6 @@ This document is entirely auto-generated and may contain errors.<br>
 | responsive_web_framerate_tracking_home_enabled                                        | True    |
 | responsive_web_gaggle_site_enabled                                                    | True    |
 | responsive_web_graphql_conversations_enabled                                          | True    |
-| responsive_web_graphql_dark_reads_probability                                         | True    |
 | responsive_web_graphql_feedback                                                       | True    |
 | responsive_web_graphql_home_enabled                                                   | True    |
 | responsive_web_graphql_likes_timeline                                                 | True    |
@@ -700,6 +701,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | responsive_web_location_spotlight_display_map                                         | True    |
 | responsive_web_location_spotlight_v1_config                                           | True    |
 | responsive_web_location_spotlight_v1_display                                          | True    |
+| responsive_web_logged_out_device_follow_is_enabled_on_tdp                             | True    |
 | responsive_web_logged_out_explore_enabled                                             | True    |
 | responsive_web_logged_out_explore_home_path_enabled                                   | True    |
 | responsive_web_logged_out_gating_13501_ddg                                            | True    |
@@ -743,6 +745,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | responsive_web_nft_avatar_help_link                                                   | True    |
 | responsive_web_notifications_empty_state_redesign_variant                             | True    |
 | responsive_web_notifications_overrides_desktop_enabled                                | True    |
+| responsive_web_notifications_overrides_max_notification_slots                         | True    |
 | responsive_web_notifications_overrides_mobile_enabled                                 | True    |
 | responsive_web_ntab_verified_mentions_vit_internal_dogfood                            | True    |
 | responsive_web_nux_web_to_app_drop_gate_enabled                                       | True    |
@@ -912,6 +915,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | stateful_login_intent_enabled                                                         | True    |
 | stateful_login_smart_lock_enabled                                                     | True    |
 | subscriptions_blue_premium_labeling_enabled                                           | True    |
+| subscriptions_blue_verified_edit_profile_enabled                                      | True    |
 | subscriptions_enabled                                                                 | True    |
 | subscriptions_feature_1002                                                            | True    |
 | subscriptions_feature_1003                                                            | True    |
