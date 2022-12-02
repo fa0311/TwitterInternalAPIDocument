@@ -751,7 +751,7 @@ Login Required: `Future`<br>
 #### queryId<br>
 `None`<br>
 ## UsersVerifiedAvatars<br>
-Request URL: `https://twitter.com/i/api/graphql/AkfLpq1RURPtDOcd56qyCg/UsersVerifiedAvatars`<br>
+Request URL: `https://twitter.com/i/api/graphql/2GG0in75SNCqtCn6xyyf7w/UsersVerifiedAvatars`<br>
 Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
@@ -764,6 +764,7 @@ Login Required: `Future`<br>
 | key                                                   | type    | default   |
 |:------------------------------------------------------|:--------|:----------|
 | responsive_web_twitter_blue_verified_badge_is_enabled | boolean | True      |
+| blue_business_consumption_api_enabled                 | boolean | True      |
 
 #### queryId<br>
 `None`<br>
