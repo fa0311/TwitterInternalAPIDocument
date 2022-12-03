@@ -32,8 +32,3 @@ None<br>
 UsersGraphQLFetchByScreenNameQuery <br>
 ### remove<br>
 DisableUserAccountLabel<br>
-##2022/12/02<br>
-### add<br>
-None<br>
-### remove<br>
-None<br>
