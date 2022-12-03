@@ -401,6 +401,8 @@ This document is entirely auto-generated and may contain errors.<br>
 | conversation_controls_limited_replies_creation_enabled                                | True    |
 | conversation_controls_persistence_enabled                                             | True    |
 | conversational_safety_heads_up_treatment_A_enabled                                    | True    |
+| creator_monetization_web_tips_dashboard_enabled                                       | True    |
+| creator_monetization_web_tips_onboarding_enabled                                      | True    |
 | dash_region_specific_de_and_tr_media_transparency_items_enabled                       | True    |
 | dash_region_specific_de_media_transparency_items_enabled                              | True    |
 | direct_messages_incremental_holdback_2022h1                                           | True    |
@@ -773,7 +775,6 @@ This document is entirely auto-generated and may contain errors.<br>
 | responsive_web_professional_journeys_holdback_enabled                                 | True    |
 | responsive_web_profile_spotlight_v0_config                                            | True    |
 | responsive_web_profile_spotlight_v0_display                                           | True    |
-| responsive_web_promoted_account_card_enabled                                          | True    |
 | responsive_web_promoted_badge_below_header                                            | True    |
 | responsive_web_promoted_badge_use_circle_icon                                         | True    |
 | responsive_web_qp_intro_experiment_enabled                                            | True    |
@@ -837,6 +838,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | responsive_web_twitter_article_tweet_other_notes_enabled                              | True    |
 | responsive_web_twitter_article_tweet_own_notes_enabled                                | True    |
 | responsive_web_twitter_article_view_enabled                                           | True    |
+| responsive_web_twitter_blue_eligibility_flow_enabled                                  | True    |
 | responsive_web_twitter_blue_growth_primary_nav_enabled                                | True    |
 | responsive_web_twitter_blue_home_redesign_enabled                                     | True    |
 | responsive_web_twitter_blue_new_verification_copy_is_enabled                          | True    |
@@ -983,16 +985,18 @@ This document is entirely auto-generated and may contain errors.<br>
 | twitter_chat_communities_chat_enabled                                                 | True    |
 | twitter_delegate_enabled                                                              | True    |
 | ucpd_enabled                                                                          | True    |
-| unified_cards_ad_metadata_container_dynamic_card_content_query_enabled                | True    |
 | unified_cards_collection_ads_convert_to_image_website_card                            | True    |
 | unified_cards_dpa_cta_button_enabled                                                  | True    |
 | unified_cards_dpa_metadata_enabled                                                    | True    |
 | unified_cards_dpa_placeholder_media_key                                               | True    |
-| unified_cards_follow_card_consumption_enabled                                         | True    |
 | user_display_name_max_limit                                                           | True    |
 | verified_phone_label_enabled                                                          | True    |
 | vibe_api_enabled                                                                      | False   |
 | vibe_tweet_context_enabled                                                            | False   |
+| view_counts_author_visibility_enabled                                                 | True    |
+| view_counts_everywhere_api_enabled                                                    | True    |
+| view_counts_public_visibility_enabled                                                 | True    |
+| view_counts_share_at_end_enabled                                                      | True    |
 | vod_attribution_tweet_detail_pivot_enabled                                            | True    |
 | voice_consumption_enabled                                                             | True    |
 | voice_rooms_card_version                                                              | True    |
@@ -2619,6 +2623,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | TailoredAudiences                | TailoredAudiences                |
 | Teams                            | Teams                            |
 | TemporaryPassword                | TemporaryPassword                |
+| Tips                             | Tips                             |
 | TransparencyDashboard            | TransparencyDashboard            |
 | TwitterBlue                      | TwitterBlue                      |
 | TwitterInterests                 | TwitterInterests                 |
@@ -2943,7 +2948,6 @@ This document is entirely auto-generated and may contain errors.<br>
 | isEmbedBrandLinkExperimentEnabled           | False   |
 | userAvatarLabel                             | False   |
 | canVerifiedCrawlerConsumeSensitiveMedia     | False   |
-| isUnifiedCardsFollowCardEnabled             | False   |
 | shouldUseLocaleContextDirection             | False   |
 | isLinkedSearchExperimentEnabled             | False   |
 | isSuperFollowsRenamed                       | False   |
@@ -3198,11 +3202,11 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant      | value                                                                                                                                                                                                                              |
 |:--------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| superFollower | {'graphic': '_.Z', 'headline': 'm().ca80fe70', 'subtext': 'm().c4183c30', 'actionLabel': 'm().g7099a02', 'actionLink': 'https://help.twitter.com/en/using-twitter/super-follows#sfexpect', 'secondaryActionLabel': 'm().c2637ef6'} |
+| superFollower | {'graphic': 'h.Z', 'headline': 'm().ca80fe70', 'subtext': 'm().c4183c30', 'actionLabel': 'm().g7099a02', 'actionLink': 'https://help.twitter.com/en/using-twitter/super-follows#sfexpect', 'secondaryActionLabel': 'm().c2637ef6'} |
 
 | constant      | value                                                                                                                                                                                                                              |
 |:--------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| superFollower | {'graphic': '_.Z', 'headline': 'm().e453f536', 'subtext': 'm().dea63fc4', 'actionLabel': 'm().g7099a02', 'actionLink': 'https://help.twitter.com/en/using-twitter/super-follows#sfexpect', 'secondaryActionLabel': 'm().c2637ef6'} |
+| superFollower | {'graphic': 'h.Z', 'headline': 'm().e453f536', 'subtext': 'm().dea63fc4', 'actionLabel': 'm().g7099a02', 'actionLink': 'https://help.twitter.com/en/using-twitter/super-follows#sfexpect', 'secondaryActionLabel': 'm().c2637ef6'} |
 
 | constant        | value        |
 |:----------------|:-------------|
@@ -3366,7 +3370,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant                   | value                       |
 |:---------------------------|:----------------------------|
-| ...h                       | _                           |
+| ..._                       | _                           |
 | ...s()                     | _                           |
 | text                       | #141D26                     |
 | gray700                    | #3B4C5C                     |
@@ -3474,23 +3478,23 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant   | value               |
 |:-----------|:--------------------|
-| space1     | _.spaces.space1     |
+| space1     | h.spaces.space1     |
 | space2     | n()                 |
-| space4     | n(_.spaces.space2)  |
-| space8     | n(_.spaces.space4)  |
-| space12    | n(_.spaces.space8)  |
-| space16    | n(_.spaces.space12) |
-| space20    | n(_.spaces.space16) |
-| space24    | n(_.spaces.space20) |
-| space28    | n(_.spaces.space24) |
-| space32    | n(_.spaces.space28) |
-| space36    | n(_.spaces.space32) |
-| space40    | n(_.spaces.space36) |
-| space48    | n(_.spaces.space40) |
-| space56    | n(_.spaces.space48) |
-| space64    | n(_.spaces.space56) |
-| space72    | n(_.spaces.space64) |
-| space80    | n(_.spaces.space72) |
+| space4     | n(h.spaces.space2)  |
+| space8     | n(h.spaces.space4)  |
+| space12    | n(h.spaces.space8)  |
+| space16    | n(h.spaces.space12) |
+| space20    | n(h.spaces.space16) |
+| space24    | n(h.spaces.space20) |
+| space28    | n(h.spaces.space24) |
+| space32    | n(h.spaces.space28) |
+| space36    | n(h.spaces.space32) |
+| space40    | n(h.spaces.space36) |
+| space48    | n(h.spaces.space40) |
+| space56    | n(h.spaces.space48) |
+| space64    | n(h.spaces.space56) |
+| space72    | n(h.spaces.space64) |
+| space80    | n(h.spaces.space72) |
 
 | constant              | value     |
 |:----------------------|:----------|
@@ -3517,7 +3521,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | fontSizesPx         | v       |
 | fontWeights         | p       |
 | lineHeights         | b       |
-| lineHeightsPx       | h       |
+| lineHeightsPx       | _       |
 | scales              | i.Tp    |
 | scaleMultipler      | t       |
 | spaces              | y       |
@@ -3525,7 +3529,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{"...h()":{"scale":"o"}"at0",b.obn,t,"r"}
+{"..._()":{"scale":"o"}"at0",b.obn,t,"r"}
 ```
 | constant     |   value |
 |:-------------|--------:|
