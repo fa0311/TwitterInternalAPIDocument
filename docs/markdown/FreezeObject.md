@@ -330,11 +330,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | constant                                                                              | value   |
 |:--------------------------------------------------------------------------------------|:--------|
 | 2fa_temporary_password_enabled                                                        | True    |
-| account_2fa_standalone_security_key_enabled                                           | True    |
 | account_country_setting_countries_whitelist                                           | True    |
-| account_session_console_from_graphql_enabled                                          | True    |
-| account_taxonomy_automated_label_enabled                                              | True    |
-| account_taxonomy_automation_opt_in_enabled                                            | True    |
 | ads_spacing_client_fallback_minimum_spacing                                           | True    |
 | ads_spacing_client_fallback_minimum_spacing_verified_blue                             | True    |
 | arkose_challenge_lo_web_notification_dev                                              | True    |
@@ -353,6 +349,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | Arkose_rweb_hosted_page                                                               | True    |
 | Arkose_use_invisible_challenge_key                                                    | True    |
 | author_moderated_replies_urt_container_enabled                                        | True    |
+| blue_business_consumption_api_enabled                                                 | True    |
 | blue_business_square_avatar_consumption_ui_enabled                                    | True    |
 | blue_longer_video_enabled                                                             | True    |
 | branded_like_preview_enabled                                                          | True    |
@@ -447,7 +444,6 @@ This document is entirely auto-generated and may contain errors.<br>
 | enable_label_appealing_sensitive_content_enabled                                      | True    |
 | explore_relaunch_enable_immersive_web                                                 | True    |
 | explore_relaunch_enable_immersive_web_navigation_button                               | True    |
-| explore_relaunch_enable_immersive_web_tap_to_hide                                     | True    |
 | explore_relaunch_enable_video_carousels_immersive_viewer                              | True    |
 | explore_relaunch_enabled                                                              | True    |
 | explore_relaunch_onboarding_bar_show_count                                            | True    |
@@ -2952,6 +2948,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | isLinkedSearchExperimentEnabled             | False   |
 | isSuperFollowsRenamed                       | False   |
 | blueVerifiedBadgeIsEnabled                  | False   |
+| blueBusinessVerifiedBadgeEnabled            | False   |
 | newBadgeColorEnabled                        | False   |
 | ...a                                        | _       |
 
@@ -3201,11 +3198,11 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant      | value                                                                                                                                                                                                                              |
 |:--------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| superFollower | {'graphic': 'h.Z', 'headline': 'm().ca80fe70', 'subtext': 'm().c4183c30', 'actionLabel': 'm().g7099a02', 'actionLink': 'https://help.twitter.com/en/using-twitter/super-follows#sfexpect', 'secondaryActionLabel': 'm().c2637ef6'} |
+| superFollower | {'graphic': '_.Z', 'headline': 'm().ca80fe70', 'subtext': 'm().c4183c30', 'actionLabel': 'm().g7099a02', 'actionLink': 'https://help.twitter.com/en/using-twitter/super-follows#sfexpect', 'secondaryActionLabel': 'm().c2637ef6'} |
 
 | constant      | value                                                                                                                                                                                                                              |
 |:--------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| superFollower | {'graphic': 'h.Z', 'headline': 'm().e453f536', 'subtext': 'm().dea63fc4', 'actionLabel': 'm().g7099a02', 'actionLink': 'https://help.twitter.com/en/using-twitter/super-follows#sfexpect', 'secondaryActionLabel': 'm().c2637ef6'} |
+| superFollower | {'graphic': '_.Z', 'headline': 'm().e453f536', 'subtext': 'm().dea63fc4', 'actionLabel': 'm().g7099a02', 'actionLink': 'https://help.twitter.com/en/using-twitter/super-follows#sfexpect', 'secondaryActionLabel': 'm().c2637ef6'} |
 
 | constant        | value        |
 |:----------------|:-------------|
@@ -3224,6 +3221,14 @@ This document is entirely auto-generated and may contain errors.<br>
 | followsYou      | gray700 |
 | superFollowsYou | plum700 |
 | superFollower   | plum700 |
+
+| constant   | value      |
+|:-----------|:-----------|
+| blue       | blue       |
+| business   | business   |
+| government | government |
+| verified   | verified   |
+| none       | none       |
 
 | constant     | value       |
 |:-------------|:------------|
@@ -3361,7 +3366,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant                   | value                       |
 |:---------------------------|:----------------------------|
-| ..._                       | _                           |
+| ...h                       | _                           |
 | ...s()                     | _                           |
 | text                       | #141D26                     |
 | gray700                    | #3B4C5C                     |
@@ -3469,23 +3474,23 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant   | value               |
 |:-----------|:--------------------|
-| space1     | h.spaces.space1     |
+| space1     | _.spaces.space1     |
 | space2     | n()                 |
-| space4     | n(h.spaces.space2)  |
-| space8     | n(h.spaces.space4)  |
-| space12    | n(h.spaces.space8)  |
-| space16    | n(h.spaces.space12) |
-| space20    | n(h.spaces.space16) |
-| space24    | n(h.spaces.space20) |
-| space28    | n(h.spaces.space24) |
-| space32    | n(h.spaces.space28) |
-| space36    | n(h.spaces.space32) |
-| space40    | n(h.spaces.space36) |
-| space48    | n(h.spaces.space40) |
-| space56    | n(h.spaces.space48) |
-| space64    | n(h.spaces.space56) |
-| space72    | n(h.spaces.space64) |
-| space80    | n(h.spaces.space72) |
+| space4     | n(_.spaces.space2)  |
+| space8     | n(_.spaces.space4)  |
+| space12    | n(_.spaces.space8)  |
+| space16    | n(_.spaces.space12) |
+| space20    | n(_.spaces.space16) |
+| space24    | n(_.spaces.space20) |
+| space28    | n(_.spaces.space24) |
+| space32    | n(_.spaces.space28) |
+| space36    | n(_.spaces.space32) |
+| space40    | n(_.spaces.space36) |
+| space48    | n(_.spaces.space40) |
+| space56    | n(_.spaces.space48) |
+| space64    | n(_.spaces.space56) |
+| space72    | n(_.spaces.space64) |
+| space80    | n(_.spaces.space72) |
 
 | constant              | value     |
 |:----------------------|:----------|
@@ -3512,7 +3517,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | fontSizesPx         | v       |
 | fontWeights         | p       |
 | lineHeights         | b       |
-| lineHeightsPx       | _       |
+| lineHeightsPx       | h       |
 | scales              | i.Tp    |
 | scaleMultipler      | t       |
 | spaces              | y       |
@@ -3520,7 +3525,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{"..._()":{"scale":"o"}"at0",b.obn,t,"r"}
+{"...h()":{"scale":"o"}"at0",b.obn,t,"r"}
 ```
 | constant     |   value |
 |:-------------|--------:|

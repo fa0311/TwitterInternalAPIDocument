@@ -90,7 +90,7 @@
   },
   {
     "n": "93764",
-    "func_name": "O",
+    "func_name": "Z",
     "func_name_init": "M",
     "query": {
       "tweet_id": "i"
@@ -127,7 +127,7 @@
   {
     "n": "38150",
     "func_name": "F",
-    "func_name_init": "Z",
+    "func_name_init": "O",
     "query": {
       "tweet_id": "r",
       "...()&&": {
@@ -186,7 +186,7 @@
   },
   {
     "n": "60445",
-    "func_name": "P",
+    "func_name": "x",
     "func_name_init": "R",
     "query": {
       "source_tweet_id": "r",
@@ -204,7 +204,7 @@
   },
   {
     "n": "60445",
-    "func_name": "P",
+    "func_name": "x",
     "func_name_init": "R",
     "query": {
       "source_tweet_id": "r",
@@ -269,8 +269,8 @@
   },
   {
     "n": "17439",
-    "func_name": "$",
-    "func_name_init": "G",
+    "func_name": "G",
+    "func_name_init": "$",
     "query": {
       "tweetId": "n"
     },
@@ -357,7 +357,7 @@
   {
     "n": "9578",
     "func_name": "L",
-    "func_name_init": "x",
+    "func_name_init": "P",
     "query": {
       "tweet_id": "s",
       "dark_request": "!1"
@@ -374,7 +374,7 @@
   {
     "n": "9578",
     "func_name": "L",
-    "func_name_init": "x",
+    "func_name_init": "P",
     "query": {
       "tweet_id": "s",
       "comparison_id": "r",
@@ -391,8 +391,8 @@
   },
   {
     "n": "8378",
-    "func_name": "_",
-    "func_name_init": "h",
+    "func_name": "h",
+    "func_name_init": "_",
     "query": {
       "tweet_id": "n",
       "mode": "r"
@@ -525,7 +525,7 @@
   {
     "n": "47546",
     "func_name": "Fa",
-    "func_name_init": "Za",
+    "func_name_init": "Oa",
     "query": {
       "tweetText": "r"
     },
@@ -751,7 +751,7 @@
   },
   {
     "n": "95378",
-    "func_name": "h",
+    "func_name": "_",
     "func_name_init": "m",
     "query": {
       "rest_id": "t"
@@ -819,12 +819,13 @@
       "userIds": "r"
     },
     "exports": {
-      "queryId": "AkfLpq1RURPtDOcd56qyCg",
+      "queryId": "2GG0in75SNCqtCn6xyyf7w",
       "operationName": "UsersVerifiedAvatars",
       "operationType": "query",
       "metadata": {
         "featureSwitches": [
-          "responsive_web_twitter_blue_verified_badge_is_enabled"
+          "responsive_web_twitter_blue_verified_badge_is_enabled",
+          "blue_business_consumption_api_enabled"
         ]
       }
     }
@@ -853,7 +854,7 @@
   {
     "n": "85949",
     "func_name": "Lt",
-    "func_name_init": "xt",
+    "func_name_init": "Pt",
     "query": {},
     "exports": {
       "queryId": "cED9wJy8Nd1kZCCYuIq9zQ",
@@ -920,8 +921,8 @@
   },
   {
     "n": "36858",
-    "func_name": "_t",
-    "func_name_init": "ht",
+    "func_name": "ht",
+    "func_name_init": "_t",
     "query": {
       "note_id": "t.note_id"
     },
@@ -1081,7 +1082,7 @@
   },
   {
     "n": "78111",
-    "func_name": "Pt",
+    "func_name": "xt",
     "func_name_init": "Rt",
     "query": {},
     "exports": {
@@ -1213,7 +1214,7 @@
   {
     "n": "14034",
     "func_name": "Qt",
-    "func_name_init": "$t",
+    "func_name_init": "Gt",
     "query": {
       "...t": "_"
     },
@@ -1258,7 +1259,7 @@
   },
   {
     "n": "76845",
-    "func_name": "Gt",
+    "func_name": "$t",
     "func_name_init": "Kt",
     "query": {
       "count": "n",
@@ -1573,8 +1574,8 @@
   },
   {
     "n": "85861",
-    "func_name": "$n",
-    "func_name_init": "Gn",
+    "func_name": "Gn",
+    "func_name_init": "$n",
     "query": {
       "...n": "_",
       "withCommunity": "!0",
@@ -1767,8 +1768,8 @@
   },
   {
     "n": "4093",
-    "func_name": "_i",
-    "func_name_init": "hi",
+    "func_name": "hi",
+    "func_name_init": "_i",
     "query": {
       "communityId": "n.communityId",
       "...()(0,y.S)": "_"
@@ -1872,7 +1873,7 @@
   },
   {
     "n": "4389",
-    "func_name": "Gi",
+    "func_name": "$i",
     "func_name_init": "Ki",
     "query": {
       "communityId": "n.communityId",
@@ -2008,7 +2009,7 @@
   {
     "n": "36058",
     "func_name": "Qi",
-    "func_name_init": "$i",
+    "func_name_init": "Gi",
     "query": {
       "communityId": "n.communityId",
       "...()(0,y.S)": "_"
@@ -2092,8 +2093,8 @@
   },
   {
     "n": "76092",
-    "func_name": "_r",
-    "func_name_init": "hr",
+    "func_name": "hr",
+    "func_name_init": "_r",
     "query": {},
     "exports": {
       "queryId": "kOKEPqQB769u1TI5FJt-tw",
@@ -2150,7 +2151,7 @@
   },
   {
     "n": "12875",
-    "func_name": "Pl",
+    "func_name": "xl",
     "func_name_init": "Rl",
     "query": {
       "...t": "_"
@@ -2358,7 +2359,7 @@
   },
   {
     "n": "84318",
-    "func_name": "ha",
+    "func_name": "_a",
     "func_name_init": "ma",
     "query": {
       "count": "null==n?void 0:n.count",
@@ -2392,7 +2393,7 @@
   {
     "n": "57765",
     "func_name": "ba",
-    "func_name_init": "_a",
+    "func_name_init": "ha",
     "query": {
       "pinned_tweet_id": "null==n?void 0:n.pinned_tweet_id",
       "page_name": "null==n?void 0:n.page_name",
@@ -2459,7 +2460,7 @@
   },
   {
     "n": "13004",
-    "func_name": "P",
+    "func_name": "x",
     "func_name_init": "R",
     "query": {
       "userId": "r",
@@ -2495,7 +2496,7 @@
   {
     "n": "70395",
     "func_name": "L",
-    "func_name_init": "x",
+    "func_name_init": "P",
     "query": {
       "userId": "r",
       "count": "n",
@@ -2564,7 +2565,7 @@
   {
     "n": "53846",
     "func_name": "F",
-    "func_name_init": "Z",
+    "func_name_init": "O",
     "query": {
       "rootTweetId": "r",
       "count": "n",
@@ -2632,7 +2633,7 @@
   },
   {
     "n": "84559",
-    "func_name": "O",
+    "func_name": "Z",
     "func_name_init": "M",
     "query": {
       "timelineId": "r",
@@ -2726,8 +2727,8 @@
   },
   {
     "n": "28983",
-    "func_name": "$a",
-    "func_name_init": "Ga",
+    "func_name": "Ga",
+    "func_name_init": "$a",
     "query": {
       "listId": "r",
       "mediaId": "a",
@@ -2863,8 +2864,8 @@
   },
   {
     "n": "31297",
-    "func_name": "Zo",
-    "func_name_init": "Oo",
+    "func_name": "Oo",
+    "func_name_init": "Zo",
     "query": {
       "listId": "o",
       "count": "r",
@@ -2898,7 +2899,7 @@
   {
     "n": "1655",
     "func_name": "bo",
-    "func_name_init": "_o",
+    "func_name_init": "ho",
     "query": {
       "userId": "s",
       "isListMemberTargetUserId": "o",
@@ -3030,8 +3031,8 @@
   },
   {
     "n": "16914",
-    "func_name": "xo",
-    "func_name_init": "Po",
+    "func_name": "Po",
+    "func_name_init": "xo",
     "query": {
       "listIds": "i",
       "...()(0,y.S)": "_"
@@ -3093,7 +3094,7 @@
   },
   {
     "n": "63222",
-    "func_name": "ho",
+    "func_name": "_o",
     "func_name_init": "mo",
     "query": {
       "listId": "i"
@@ -3270,7 +3271,7 @@
   {
     "n": "25886",
     "func_name": "Ls",
-    "func_name_init": "xs",
+    "func_name_init": "Ps",
     "query": {
       "rest_id": "r",
       "count": "n",
@@ -3417,7 +3418,7 @@
   {
     "n": "46977",
     "func_name": "Fs",
-    "func_name_init": "Zs",
+    "func_name_init": "Os",
     "query": "{\"userId\":\"i\",\"count\":\"t\",\"cursor\":\"string\"==typeof n?n:\"void 0\",\"includePromotedContent\":\"!1\",\"withDownvotePerspective\":\"!1\",\"withReactionsMetadata\":\"!1\",\"withReactionsPerspective\":\"!1\",\"withSuperFollowsTweetFields\":\"!1\",\"withSuperFollowsUserFields\":\"!1\",\"withVoice\":\"!1\"}",
     "exports": {
       "queryId": "cYIqCTeHNHhq6gvW3fI_1w",
@@ -3445,7 +3446,7 @@
   },
   {
     "n": "52318",
-    "func_name": "Ps",
+    "func_name": "xs",
     "func_name_init": "Rs",
     "query": {
       "userId": "r",
@@ -3484,7 +3485,7 @@
   },
   {
     "n": "83038",
-    "func_name": "Os",
+    "func_name": "Zs",
     "func_name_init": "Ms",
     "query": {
       "userId": "r",
@@ -3738,8 +3739,8 @@
   },
   {
     "n": "62152",
-    "func_name": "$l",
-    "func_name_init": "Gl",
+    "func_name": "Gl",
+    "func_name_init": "$l",
     "query": {},
     "exports": {
       "queryId": "C3RJFfMsb_KcEytpKmRRkw",
@@ -3856,8 +3857,8 @@
   },
   {
     "n": "77146",
-    "func_name": "_d",
-    "func_name_init": "hd",
+    "func_name": "hd",
+    "func_name_init": "_d",
     "query": {
       "dataSaverEnabled": "t",
       "deviceId": "n",
@@ -4237,8 +4238,8 @@
   },
   {
     "n": "73277",
-    "func_name": "$d",
-    "func_name_init": "Gd",
+    "func_name": "Gd",
+    "func_name_init": "$d",
     "query": {
       "rest_id": "a",
       "cursor": "r",
@@ -4318,8 +4319,8 @@
   },
   {
     "n": "2796",
-    "func_name": "_c",
-    "func_name_init": "hc",
+    "func_name": "hc",
+    "func_name_init": "_c",
     "query": {
       "topicId": "i"
     },
@@ -4366,8 +4367,8 @@
   },
   {
     "n": "30474",
-    "func_name": "$c",
-    "func_name_init": "Gc",
+    "func_name": "Gc",
+    "func_name_init": "$c",
     "query": {},
     "exports": {
       "queryId": "QjN8ZdavFDqxUjNn3r9cig",
@@ -4445,8 +4446,8 @@
   },
   {
     "n": "43746",
-    "func_name": "_u",
-    "func_name_init": "hu",
+    "func_name": "hu",
+    "func_name_init": "_u",
     "query": {
       "data": {
         "content_state_json": "i"
@@ -4631,7 +4632,7 @@
   },
   {
     "n": "45776",
-    "func_name": "Pu",
+    "func_name": "xu",
     "func_name_init": "Ru",
     "query": {
       "twitterArticleId": "i",
@@ -4735,7 +4736,7 @@
   {
     "n": "84478",
     "func_name": "Fu",
-    "func_name_init": "Zu",
+    "func_name_init": "Ou",
     "query": {
       "communityId": "t.communityId",
       "prefix": "t.prefix"
@@ -4799,7 +4800,7 @@
   {
     "n": "88441",
     "func_name": "Qu",
-    "func_name_init": "$u",
+    "func_name_init": "Gu",
     "query": {
       "userId": "n",
       "withSafetyModeUserFields": "t.isTrue()",
@@ -4841,7 +4842,7 @@
   },
   {
     "n": "16881",
-    "func_name": "Gu",
+    "func_name": "$u",
     "func_name_init": "Ku",
     "query": {
       "target_user_id": "t"
