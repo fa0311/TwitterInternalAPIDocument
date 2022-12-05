@@ -82,11 +82,13 @@ else:
                 old_graphql_data,
                 lambda x: x["exports"]["operationName"],
             )
+            change_len = 0
             for title, items in diff_data.items():
                 body.h3(title)
                 if len(items) > 0:
                     for item in items:
                         body.p(item)
+                        change_len += 1
                 else:
                     body.p("None")
 
@@ -108,26 +110,27 @@ else:
                 print("Not Found")
 
     if send_pull_request:
-        file_name = "docs/markdown/ChangeLog.md"
-        if os.path.exists(file_name):
-            with open(file_name, "r") as f:
-                change_log = f.read()
-        else:
-            change_log = ""
-        change_log += "##{time}{br}{new}".format(
-            br="<br>\n",
-            time=datetime.datetime.now().strftime("%Y/%m/%d"),
-            new=body.output,
-        )
+        if change_len > 0:
+            file_name = "docs/markdown/ChangeLog.md"
+            if os.path.exists(file_name):
+                with open(file_name, "r") as f:
+                    change_log = f.read()
+            else:
+                change_log = ""
+            change_log += "##{time}{br}{new}".format(
+                br="<br>\n",
+                time=datetime.datetime.now().strftime("%Y/%m/%d"),
+                new=body.output,
+            )
 
-        f = repo.get_contents(file_name, ref=branch)
-        repo.update_file(
-            f.path,
-            message=f"Update {file_name} on {branch} branch",
-            content=change_log,
-            sha=f.sha,
-            branch=branch,
-        )
+            f = repo.get_contents(file_name, ref=branch)
+            repo.update_file(
+                f.path,
+                message=f"Update {file_name} on {branch} branch",
+                content=change_log,
+                sha=f.sha,
+                branch=branch,
+            )
         try:
             repo.create_pull(
                 title="Update Document", body=body.output, head=branch, base="master"

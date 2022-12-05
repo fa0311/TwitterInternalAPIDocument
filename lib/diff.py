@@ -1,6 +1,3 @@
-from black import out
-
-
 def diff(new_data, old_data, key_func):
     output = {
         "add": [],
