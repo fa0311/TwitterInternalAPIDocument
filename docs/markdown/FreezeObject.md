@@ -183,18 +183,6 @@ This document is entirely auto-generated and may contain errors.<br>
 | Text          | text          |
 | SideNavButton | sideNavButton |
 
-| constant   | value                     |
-|:-----------|:--------------------------|
-| REQUEST    | rweb/CREATE_NOTE_/REQUEST |
-| SUCCESS    | rweb/CREATE_NOTE_/SUCCESS |
-| FAILURE    | rweb/CREATE_NOTE_/FAILURE |
-
-| constant   | value                     |
-|:-----------|:--------------------------|
-| REQUEST    | rweb/CREATE_NOTE_/REQUEST |
-| SUCCESS    | rweb/CREATE_NOTE_/SUCCESS |
-| FAILURE    | rweb/CREATE_NOTE_/FAILURE |
-
 | constant   | value     |
 |:-----------|:----------|
 | follow     | follow    |
@@ -510,6 +498,14 @@ This document is entirely auto-generated and may contain errors.<br>
 | longform_top_articles_time_window_enabled                                             | True    |
 | machine_translation_holdback_logged_in                                                | True    |
 | machine_translation_holdback_logged_out                                               | True    |
+| media_async_upload_amplify_duration_threshold                                         | True    |
+| media_async_upload_longer_video_max_video_duration                                    | True    |
+| media_async_upload_longer_video_max_video_size                                        | True    |
+| media_async_upload_max_avatar_gif_size                                                | True    |
+| media_async_upload_max_gif_size                                                       | True    |
+| media_async_upload_max_image_size                                                     | True    |
+| media_async_upload_max_video_duration                                                 | True    |
+| media_async_upload_max_video_size                                                     | True    |
 | media_edge_to_edge_content_enabled                                                    | True    |
 | media_infra_play_icon_version_number                                                  | True    |
 | moment_annotations_enabled                                                            | True    |
@@ -714,6 +710,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | responsive_web_logged_out_gating_non_holdback_ddgs                                    | True    |
 | responsive_web_logged_out_gating_non_impressing_member_segments                       | True    |
 | responsive_web_logged_out_notifications_enabled                                       | True    |
+| responsive_web_logged_out_notifications_fatigue_days_count                            | True    |
 | responsive_web_logged_out_notifications_including_home                                | True    |
 | responsive_web_login_input_type_email_enabled                                         | True    |
 | responsive_web_login_signup_sheet_app_install_cta_enabled                             | True    |
@@ -745,6 +742,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | responsive_web_notifications_overrides_desktop_enabled                                | True    |
 | responsive_web_notifications_overrides_max_notification_slots                         | True    |
 | responsive_web_notifications_overrides_mobile_enabled                                 | True    |
+| responsive_web_notifications_overrides_relevancy_half_life                            | True    |
 | responsive_web_ntab_verified_mentions_vit_internal_dogfood                            | True    |
 | responsive_web_nux_web_to_app_drop_gate_enabled                                       | True    |
 | responsive_web_oauth2_consent_flow_enabled                                            | True    |
@@ -844,6 +842,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | responsive_web_twitter_blue_new_verification_copy_is_enabled                          | True    |
 | responsive_web_twitter_blue_signup_nux_enabled                                        | True    |
 | responsive_web_twitter_blue_subscriptions_disabled                                    | True    |
+| responsive_web_twitter_blue_upgrade_enabled                                           | True    |
 | responsive_web_twitter_blue_verified_badge_is_enabled                                 | True    |
 | responsive_web_twitter_blue_verified_badge_ntab_all_badge_is_enabled                  | True    |
 | responsive_web_twitter_blue_verified_badge_ntab_empty_state_enabled                   | True    |
@@ -2048,17 +2047,6 @@ This document is entirely auto-generated and may contain errors.<br>
 | WiFiOnly   | WiFiOnly |
 | Always     | Always   |
 
-| constant   | value     |
-|:-----------|:----------|
-| domains    | void 0    |
-| loadStatus | a.ZP.NONE |
-
-| constant     | value        |
-|:-------------|:-------------|
-| Unconfirmed  | Unconfirmed  |
-| Subscribed   | Subscribed   |
-| Unsubscribed | Unsubscribed |
-
 | constant   | value                                                      |
 |:-----------|:-----------------------------------------------------------|
 | REQUEST    | rweb/communityMemberships/FETCH_RECENT_MEMBERSHIPS_REQUEST |
@@ -2088,7 +2076,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{[k.DEFAULT]:"R.UNDETERMINED",[k.DENIED]:"R.OFF",[k.GRANTED]:"R.ON"}
+{[I.DEFAULT]:"R.UNDETERMINED",[I.DENIED]:"R.OFF",[I.GRANTED]:"R.ON"}
 ```
 | constant   | value                                        |
 |:-----------|:---------------------------------------------|
@@ -2322,18 +2310,6 @@ This document is entirely auto-generated and may contain errors.<br>
 | REQUEST    | rweb/ocf/FETCH_BROWSABLE_NUX_RECOMMENDATIONS_REQUEST |
 | SUCCESS    | rweb/ocf/FETCH_BROWSABLE_NUX_RECOMMENDATIONS_SUCCESS |
 | FAILURE    | rweb/ocf/FETCH_BROWSABLE_NUX_RECOMMENDATIONS_FAILURE |
-
-| constant   | value                            |
-|:-----------|:---------------------------------|
-| REQUEST    | rweb/promotedContent/LOG_REQUEST |
-| SUCCESS    | rweb/promotedContent/LOG_SUCCESS |
-| FAILURE    | rweb/promotedContent/LOG_FAILURE |
-
-| constant   | value                                         |
-|:-----------|:----------------------------------------------|
-| REQUEST    | rweb/revueAccount/FETCH_REVUE_ACCOUNT_REQUEST |
-| SUCCESS    | rweb/revueAccount/FETCH_REVUE_ACCOUNT_SUCCESS |
-| FAILURE    | rweb/revueAccount/FETCH_REVUE_ACCOUNT_FAILURE |
 
 | constant   | value                                   |
 |:-----------|:----------------------------------------|
@@ -2796,10 +2772,6 @@ This document is entirely auto-generated and may contain errors.<br>
 | User       | user_value    |
 | Boolean    | boolean_value |
 
-```internal process
-# Error
-{[a.sj.AMPLIFY]:{"conversionHandler":"()"{"cardId":"e","cardType":"t","converterOptions":"n","data":"i"}{"const s=()(0,o.FL)",l=parseInt(i,\"image_value\",\"player_image_original\")/parseInt(0,o.SIi,\"string_value\",\"player_width\",10),d=(0,o.SIi,\"string_value\",\"player_height\",10)(0,o.SI),c=(i,...
-```
 | constant   | value                              |
 |:-----------|:-----------------------------------|
 | large      | {'title': '1', 'description': '2'} |
@@ -2823,20 +2795,6 @@ This document is entirely auto-generated and may contain errors.<br>
 | large      | DEPRECATED_normal        |
 | medium     | DEPRECATED_normalCompact |
 | small      | DEPRECATED_normalCompact |
-
-| constant   | value   |
-|:-----------|:--------|
-| FILL       | Fill    |
-| FIXED      | Fixed   |
-
-| constant     | value        |
-|:-------------|:-------------|
-| CONTROL      | control      |
-| GRAY_DETAILS | gray_details |
-
-| constant   | value     |
-|:-----------|:----------|
-| NOT_READY  | not_ready |
 
 | constant                   | value                            |
 |:---------------------------|:---------------------------------|
@@ -2956,19 +2914,6 @@ This document is entirely auto-generated and may contain errors.<br>
 | newBadgeColorEnabled                        | False   |
 | ...a                                        | _       |
 
-| constant   | value     |
-|:-----------|:----------|
-| onlyText   | only-text |
-| iconText   | icon-text |
-
-| constant   | value     |
-|:-----------|:----------|
-| user       | user      |
-| topic      | topic     |
-| list       | list      |
-| community  | community |
-| spaces     | spaces    |
-
 | constant         | value            |
 |:-----------------|:-----------------|
 | CommunityNotes   | CommunityNotes   |
@@ -3014,12 +2959,6 @@ This document is entirely auto-generated and may contain errors.<br>
 # Error
 {"isExternal()"{"try"{const n=o();return this._customIsExternal?this._customIsExternal(e,t){"hrefHostname":"n","href":"e"}}"catch()"{"return!0"}},"setIsExternal()"{"this._customIsExternal=e"},"clearIsExternal()"{"this._customIsExternal=null"},"onLinkClick()"{"this._customOnLinkClick&&this._customOnL...
 ```
-| constant     | value   |
-|:-------------|:--------|
-| ANIMATED_GIF | d       |
-| VIDEO        | c       |
-| VINE         | u       |
-
 | constant   | value   |
 |:-----------|:--------|
 | Hmm        | Hmm     |
@@ -3461,7 +3400,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant                   | value                        |
 |:---------------------------|:-----------------------------|
-| ...v                       | _                            |
+| ...f                       | _                            |
 | ...s()                     | _                            |
 | text                       | a.Cj                         |
 | navigationBackground       | #050505                      |
@@ -3498,7 +3437,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant              | value     |
 |:----------------------|:----------|
-| appBarHeight          | E         |
+| appBarHeight          | T         |
 | appBarHeightPx        | S         |
 | conversationLineWidth | g.space2  |
 | gutterHorizontal      | y.space16 |
@@ -3515,10 +3454,10 @@ This document is entirely auto-generated and may contain errors.<br>
 | borderWidths        | u       |
 | borderWidthsPx      | c       |
 | breakpoints         | a       |
-| componentDimensions | T       |
+| componentDimensions | E       |
 | componentZIndices   | o       |
-| fontSizes           | f       |
-| fontSizesPx         | v       |
+| fontSizes           | v       |
+| fontSizesPx         | f       |
 | fontWeights         | p       |
 | lineHeights         | b       |
 | lineHeightsPx       | _       |
@@ -3550,12 +3489,4 @@ This document is entirely auto-generated and may contain errors.<br>
 | PAUSED     |       2 |
 | SUCCEEDED  |       3 |
 | FAILED     |       4 |
-
-| constant         | value            |
-|:-----------------|:-----------------|
-| BROADCAST        | broadcast        |
-| DM               | dm               |
-| TWEET            | tweet            |
-| STATIC_BROADCAST | static_broadcast |
-| AUDIO_SPACE      | audio_space      |
 
