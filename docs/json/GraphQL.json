@@ -549,8 +549,8 @@
   },
   {
     "n": "9791",
-    "func_name": "nc",
-    "func_name_init": "tc",
+    "func_name": "rc",
+    "func_name_init": "ic",
     "query": {
       "includePromotedContent": "!0",
       "...()(0,y.d)": "_"
@@ -581,8 +581,8 @@
   },
   {
     "n": "43147",
-    "func_name": "ec",
-    "func_name_init": "Xd",
+    "func_name": "nc",
+    "func_name_init": "tc",
     "query": {
       "...t": "_"
     },
@@ -597,8 +597,8 @@
   },
   {
     "n": "42945",
-    "func_name": "Jd",
-    "func_name_init": "Yd",
+    "func_name": "ec",
+    "func_name_init": "Xd",
     "query": {
       "count": "i",
       "cursor": "r",
@@ -631,8 +631,8 @@
   },
   {
     "n": "61710",
-    "func_name": "Lc",
-    "func_name_init": "Zc",
+    "func_name": "Fc",
+    "func_name_init": "Oc",
     "query": {
       "tweetId": "n",
       "withSuperFollowsUserFields": "t.isTrue()"
@@ -652,8 +652,8 @@
   },
   {
     "n": "68110",
-    "func_name": "Ic",
-    "func_name_init": "Dc",
+    "func_name": "xc",
+    "func_name_init": "Rc",
     "query": {
       "tweetId": "r",
       "count": "n",
@@ -687,8 +687,8 @@
   },
   {
     "n": "36852",
-    "func_name": "xc",
-    "func_name_init": "Rc",
+    "func_name": "Mc",
+    "func_name_init": "Pc",
     "query": {
       "tweetId": "r",
       "count": "n",
@@ -722,8 +722,8 @@
   },
   {
     "n": "20431",
-    "func_name": "Mc",
-    "func_name_init": "Pc",
+    "func_name": "Lc",
+    "func_name_init": "Zc",
     "query": {
       "tweetId": "n",
       "...()(0,y.d)": "_",
@@ -3962,8 +3962,8 @@
   },
   {
     "n": "73402",
-    "func_name": "hd",
-    "func_name_init": "md",
+    "func_name": "bd",
+    "func_name_init": "_d",
     "query": {},
     "exports": {
       "queryId": "Me2CVcAXxvK2WMr-Nh_Qqg",
@@ -3976,8 +3976,8 @@
   },
   {
     "n": "9907",
-    "func_name": "fd",
-    "func_name_init": "yd",
+    "func_name": "wd",
+    "func_name_init": "vd",
     "query": {
       "...n": "_",
       "...()(0,y.d)": "_",
@@ -4009,8 +4009,8 @@
   },
   {
     "n": "72165",
-    "func_name": "gd",
-    "func_name_init": "bd",
+    "func_name": "fd",
+    "func_name_init": "yd",
     "query": {
       "...n": "_",
       "...()(0,y.d)": "_",
@@ -4042,8 +4042,8 @@
   },
   {
     "n": "68903",
-    "func_name": "Nd",
-    "func_name_init": "Bd",
+    "func_name": "Hd",
+    "func_name_init": "Ud",
     "query": "{\"rest_id\":\"o\",\"cursor\":\"r\",\"context\":\"JSON.stringify()\"{\"data_lookup_id\":\"a\"}\"0\",\"y.dt\"}",
     "exports": {
       "queryId": "_grv13dq6qKIHsstD4ALiQ",
@@ -4071,8 +4071,8 @@
   },
   {
     "n": "10522",
-    "func_name": "kd",
-    "func_name_init": "Ad",
+    "func_name": "Id",
+    "func_name_init": "Dd",
     "query": "{\"rest_id\":\"o\",\"cursor\":\"r\",\"context\":\"JSON.stringify()\"{\"data_lookup_id\":\"a\"}\"0\",\"y.dt\"}",
     "exports": {
       "queryId": "P2MSwAMmlC85SMpyPy1_og",
@@ -4100,8 +4100,8 @@
   },
   {
     "n": "86069",
-    "func_name": "Md",
-    "func_name_init": "Pd",
+    "func_name": "Ld",
+    "func_name_init": "Zd",
     "query": {
       "cursor": "r",
       "...()(0,y.d)": "_"
@@ -4132,8 +4132,8 @@
   },
   {
     "n": "7968",
-    "func_name": "xd",
-    "func_name_init": "Rd",
+    "func_name": "Md",
+    "func_name_init": "Pd",
     "query": {
       "topicId": "i"
     },
@@ -4148,8 +4148,8 @@
   },
   {
     "n": "25455",
-    "func_name": "Fd",
-    "func_name_init": "Od",
+    "func_name": "Nd",
+    "func_name_init": "Bd",
     "query": {
       "topicId": "r",
       "...()(0,y.d)": "_"
@@ -4180,8 +4180,8 @@
   },
   {
     "n": "66206",
-    "func_name": "Ld",
-    "func_name_init": "Zd",
+    "func_name": "Fd",
+    "func_name_init": "Od",
     "query": {
       "...()(0,y.d)": "_"
     },
@@ -4211,8 +4211,8 @@
   },
   {
     "n": "14246",
-    "func_name": "Kd",
-    "func_name_init": "jd",
+    "func_name": "Gd",
+    "func_name_init": "$d",
     "query": {
       "userId": "o",
       "cursor": "a",
@@ -4245,8 +4245,8 @@
   },
   {
     "n": "73277",
-    "func_name": "Td",
-    "func_name_init": "Sd",
+    "func_name": "Cd",
+    "func_name_init": "Ed",
     "query": {
       "rest_id": "a",
       "cursor": "r",
@@ -4278,8 +4278,8 @@
   },
   {
     "n": "11405",
-    "func_name": "Cd",
-    "func_name_init": "Ed",
+    "func_name": "kd",
+    "func_name_init": "Ad",
     "query": {
       "topicId": "i"
     },
@@ -4294,8 +4294,8 @@
   },
   {
     "n": "47156",
-    "func_name": "Vd",
-    "func_name_init": "Wd",
+    "func_name": "Kd",
+    "func_name_init": "jd",
     "query": {
       "topicId": "i"
     },
@@ -4310,8 +4310,8 @@
   },
   {
     "n": "15065",
-    "func_name": "Id",
-    "func_name_init": "Dd",
+    "func_name": "xd",
+    "func_name_init": "Rd",
     "query": {
       "topicId": "i"
     },
@@ -4326,8 +4326,8 @@
   },
   {
     "n": "2796",
-    "func_name": "qd",
-    "func_name_init": "zd",
+    "func_name": "Vd",
+    "func_name_init": "Wd",
     "query": {
       "topicId": "i"
     },
@@ -4342,8 +4342,8 @@
   },
   {
     "n": "81138",
-    "func_name": "Hd",
-    "func_name_init": "Ud",
+    "func_name": "qd",
+    "func_name_init": "zd",
     "query": {
       "userId": "r",
       "...()(0,y.d)": "_"
@@ -4374,8 +4374,8 @@
   },
   {
     "n": "30474",
-    "func_name": "Tc",
-    "func_name_init": "Sc",
+    "func_name": "Cc",
+    "func_name_init": "Ec",
     "query": {},
     "exports": {
       "queryId": "QjN8ZdavFDqxUjNn3r9cig",
@@ -4388,8 +4388,8 @@
   },
   {
     "n": "21037",
-    "func_name": "Cc",
-    "func_name_init": "Ec",
+    "func_name": "kc",
+    "func_name_init": "Ac",
     "query": {},
     "exports": {
       "queryId": "2tP8XUYeLHKjq5RHvuvpZw",
@@ -4402,8 +4402,8 @@
   },
   {
     "n": "32399",
-    "func_name": "Bc",
-    "func_name_init": "Fc",
+    "func_name": "Uc",
+    "func_name_init": "Nc",
     "query": {
       "rest_id": "t"
     },
@@ -4421,8 +4421,8 @@
   },
   {
     "n": "18424",
-    "func_name": "Kc",
-    "func_name_init": "jc",
+    "func_name": "Gc",
+    "func_name_init": "$c",
     "query": {
       "twitterArticleId": "i",
       "...()(0,y.d)": "_"
@@ -4454,8 +4454,8 @@
   },
   {
     "n": "43746",
-    "func_name": "qc",
-    "func_name_init": "zc",
+    "func_name": "Vc",
+    "func_name_init": "Wc",
     "query": {
       "data": {
         "content_state_json": "i"
@@ -4489,8 +4489,8 @@
   },
   {
     "n": "96430",
-    "func_name": "Vc",
-    "func_name_init": "Wc",
+    "func_name": "Kc",
+    "func_name_init": "jc",
     "query": {
       "twitterArticleId": "n"
     },
@@ -4505,8 +4505,8 @@
   },
   {
     "n": "91661",
-    "func_name": "Yc",
-    "func_name_init": "Qc",
+    "func_name": "Xc",
+    "func_name_init": "Jc",
     "query": {
       "twitterArticleId": "r",
       "mediaId": "i",
@@ -4539,8 +4539,8 @@
   },
   {
     "n": "4588",
-    "func_name": "Xc",
-    "func_name_init": "Jc",
+    "func_name": "tu",
+    "func_name_init": "eu",
     "query": {
       "twitterArticleId": "a",
       "data": {
@@ -4577,8 +4577,8 @@
   },
   {
     "n": "9181",
-    "func_name": "tu",
-    "func_name_init": "eu",
+    "func_name": "iu",
+    "func_name_init": "nu",
     "query": {
       "twitterArticleId": "r",
       "mediaKeys": "i",
@@ -4611,8 +4611,8 @@
   },
   {
     "n": "27189",
-    "func_name": "iu",
-    "func_name_init": "nu",
+    "func_name": "au",
+    "func_name_init": "ru",
     "query": {
       "twitterArticleId": "r",
       "title": "i",
@@ -4645,8 +4645,8 @@
   },
   {
     "n": "45776",
-    "func_name": "au",
-    "func_name_init": "ru",
+    "func_name": "su",
+    "func_name_init": "ou",
     "query": {
       "twitterArticleId": "i",
       "visibility": "r",
@@ -4679,8 +4679,8 @@
   },
   {
     "n": "65523",
-    "func_name": "Gc",
-    "func_name_init": "$c",
+    "func_name": "Yc",
+    "func_name_init": "Qc",
     "query": {
       "...n": "_",
       "...()(0,y.d)": "_"
@@ -4712,8 +4712,8 @@
   },
   {
     "n": "55895",
-    "func_name": "bu",
-    "func_name_init": "_u",
+    "func_name": "yu",
+    "func_name_init": "gu",
     "query": {
       "trustedFriendsId": "t.trustedFriendsId",
       "prefix": "t.prefix"
@@ -4731,8 +4731,8 @@
   },
   {
     "n": "76776",
-    "func_name": "hu",
-    "func_name_init": "mu",
+    "func_name": "bu",
+    "func_name_init": "_u",
     "query": {
       "communityId": "t.communityId",
       "prefix": "t.prefix"
@@ -4750,8 +4750,8 @@
   },
   {
     "n": "84478",
-    "func_name": "pu",
-    "func_name_init": "uu",
+    "func_name": "hu",
+    "func_name_init": "mu",
     "query": {
       "communityId": "t.communityId",
       "prefix": "t.prefix"
@@ -4769,8 +4769,8 @@
   },
   {
     "n": "95674",
-    "func_name": "xu",
-    "func_name_init": "Ru",
+    "func_name": "Mu",
+    "func_name_init": "Pu",
     "query": {
       "withCommunitiesMemberships": "t.isTrue()",
       "withCommunitiesCreation": "t.isTrue(\"c9s_enabled\")",
@@ -4791,8 +4791,8 @@
   },
   {
     "n": "44538",
-    "func_name": "ku",
-    "func_name_init": "Au",
+    "func_name": "Iu",
+    "func_name_init": "Du",
     "query": {
       "screen_name": "n",
       "withSafetyModeUserFields": "t.isTrue()",
@@ -4814,8 +4814,8 @@
   },
   {
     "n": "88441",
-    "func_name": "Cu",
-    "func_name_init": "Eu",
+    "func_name": "ku",
+    "func_name_init": "Au",
     "query": {
       "userId": "n",
       "withSafetyModeUserFields": "t.isTrue()",
@@ -4836,8 +4836,8 @@
   },
   {
     "n": "82079",
-    "func_name": "Iu",
-    "func_name_init": "Du",
+    "func_name": "xu",
+    "func_name_init": "Ru",
     "query": {
       "userIds": "n.split()",
       "withSuperFollowsUserFields": "t.isTrue(\",\")"
@@ -4857,8 +4857,8 @@
   },
   {
     "n": "16881",
-    "func_name": "Tu",
-    "func_name_init": "Su",
+    "func_name": "Cu",
+    "func_name_init": "Eu",
     "query": {
       "target_user_id": "t"
     },
