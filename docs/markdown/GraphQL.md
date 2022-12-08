@@ -866,6 +866,20 @@ Login Required: `Future`<br>
 `None`<br>
 #### queryId<br>
 `None`<br>
+## BirdwatchEditNotificationSettings<br>
+Request URL: `https://twitter.com/i/api/graphql/FLgLReVIssXjB_ui3wcrRQ/BirdwatchEditNotificationSettings`<br>
+Request Method: `POST`<br>
+Login Required: `Future`<br>
+### Param<br>
+#### variables<br>
+| key      | type   | variable   |
+|:---------|:-------|:-----------|
+| settings | Future | t.settings |
+
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
 ## BirdwatchFetchOneNote<br>
 Request URL: `https://twitter.com/i/api/graphql/0lV0jTLmog69Cg-xNN9ogA/BirdwatchFetchOneNote`<br>
 Request Method: `GET`<br>
@@ -965,7 +979,7 @@ Login Required: `Future`<br>
 #### queryId<br>
 `None`<br>
 ## BirdwatchFetchAuthenticatedUserProfile<br>
-Request URL: `https://twitter.com/i/api/graphql/1AdvbF0AMpC5QNcy2OLeag/BirdwatchFetchAuthenticatedUserProfile`<br>
+Request URL: `https://twitter.com/i/api/graphql/pMbW6Y4LuS5MzlSOEqERJQ/BirdwatchFetchAuthenticatedUserProfile`<br>
 Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
@@ -2132,7 +2146,7 @@ Login Required: `Future`<br>
 | key                | type   | variable   |
 |:-------------------|:-------|:-----------|
 | draft_tweet_id     | Future | n          |
-| post_tweet_request | Future | Lr()       |
+| post_tweet_request | Future | Fr()       |
 
 #### features<br>
 `None`<br>
@@ -2161,7 +2175,7 @@ Login Required: `Future`<br>
 #### variables<br>
 | key                | type   | variable   |
 |:-------------------|:-------|:-----------|
-| post_tweet_request | Future | Lr()       |
+| post_tweet_request | Future | Fr()       |
 
 #### features<br>
 `None`<br>
@@ -3463,7 +3477,7 @@ Login Required: `Future`<br>
 | key                | type   | variable   |
 |:-------------------|:-------|:-----------|
 | post_tweet_request | Future | r          |
-| execute_at         | Future | fl()       |
+| execute_at         | Future | wl()       |
 
 #### features<br>
 `None`<br>
@@ -3494,7 +3508,7 @@ Login Required: `Future`<br>
 |:-------------------|:-------|:-----------|
 | scheduled_tweet_id | Future | i          |
 | post_tweet_request | Future | a          |
-| execute_at         | Future | fl()       |
+| execute_at         | Future | wl()       |
 
 #### features<br>
 `None`<br>
@@ -4401,7 +4415,7 @@ Login Required: `Future`<br>
 #### queryId<br>
 `None`<br>
 ## TrustedFriendsTypeahead<br>
-Request URL: `https://twitter.com/i/api/graphql/wfVaMHyeA2Y0cKn9RziHmA/TrustedFriendsTypeahead`<br>
+Request URL: `https://twitter.com/i/api/graphql/K68SNPXXT2pcSypG7eUmHQ/TrustedFriendsTypeahead`<br>
 Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
