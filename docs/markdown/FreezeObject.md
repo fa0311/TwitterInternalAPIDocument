@@ -336,7 +336,6 @@ This document is entirely auto-generated and may contain errors.<br>
 | arkose_challenge_transparent_signup_prod                                              | True    |
 | Arkose_rweb_hosted_page                                                               | True    |
 | Arkose_use_invisible_challenge_key                                                    | True    |
-| author_moderated_replies_urt_container_enabled                                        | True    |
 | blue_business_consumption_api_enabled                                                 | True    |
 | blue_business_square_avatar_consumption_ui_enabled                                    | True    |
 | blue_longer_video_enabled                                                             | True    |
@@ -3075,6 +3074,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant   | value   |
 |:-----------|:--------|
+| xxSmall    | xxSmall |
 | xSmall     | xSmall  |
 | small      | small   |
 | normal     | normal  |
@@ -3083,7 +3083,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{[i.xSmall]:".9",[i.small]:".95",[i.normal]:"1",[i.large]:"1.1",[i.xLarge]:"1.2"}
+{[i.xxSmall]:".85",[i.xSmall]:".9",[i.small]:".95",[i.normal]:"1",[i.large]:"1.1",[i.xLarge]:"1.2"}
 ```
 | constant   | value   |
 |:-----------|:--------|
