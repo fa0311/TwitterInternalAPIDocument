@@ -492,6 +492,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | livepipeline_client_enabled                                                           | True    |
 | livepipeline_tweetengagement_enabled                                                  | True    |
 | longform_ad_free_articles_badging_enabled                                             | True    |
+| longform_notetweets_max_tweet_per_thread                                              | True    |
 | longform_reader_mode_view_in_reader_mode_entry_button_enabled                         | True    |
 | longform_top_articles_friends_of_friends_enabled                                      | True    |
 | longform_top_articles_time_window_enabled                                             | True    |
@@ -2854,10 +2855,11 @@ This document is entirely auto-generated and may contain errors.<br>
 | navButtons   | navigationButtons |
 | carouselRoot | carouselRoot      |
 
-| constant    |   value |
-|:------------|--------:|
-| testBoolean |   False |
-| testNumber  |       1 |
+| constant          |   value |
+|:------------------|--------:|
+| testBoolean       |   False |
+| testNumber        |       1 |
+| testViewCountShow |    True |
 
 | constant                                    | value   |
 |:--------------------------------------------|:--------|
@@ -2911,6 +2913,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | blueVerifiedBadgeIsEnabled                  | False   |
 | blueBusinessVerifiedBadgeEnabled            | False   |
 | newBadgeColorEnabled                        | False   |
+| tweetViewCountsEnabled                      | False   |
 | ...a                                        | _       |
 
 | constant         | value            |

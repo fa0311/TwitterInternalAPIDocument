@@ -32,3 +32,8 @@ None<br>
 UsersGraphQLFetchByScreenNameQuery <br>
 ### remove<br>
 DisableUserAccountLabel<br>
+##2022/12/08<br>
+### add<br>
+BirdwatchEditNotificationSettings<br>
+### remove<br>
+None<br>
