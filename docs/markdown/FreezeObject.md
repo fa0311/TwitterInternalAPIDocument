@@ -177,12 +177,6 @@ This document is entirely auto-generated and may contain errors.<br>
 | Apple      | apple   |
 | Google     | google  |
 
-| constant      | value         |
-|:--------------|:--------------|
-| Icon          | icon          |
-| Text          | text          |
-| SideNavButton | sideNavButton |
-
 | constant   | value     |
 |:-----------|:----------|
 | follow     | follow    |
@@ -337,6 +331,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | Arkose_rweb_hosted_page                                                               | True    |
 | Arkose_use_invisible_challenge_key                                                    | True    |
 | blue_business_consumption_api_enabled                                                 | True    |
+| blue_business_grey_checkmark_enabled                                                  | True    |
 | blue_business_square_avatar_consumption_ui_enabled                                    | True    |
 | blue_longer_video_enabled                                                             | True    |
 | branded_like_preview_enabled                                                          | True    |
@@ -442,6 +437,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | follow_nudge_conversation_enabled                                                     | True    |
 | follow_nudge_search_enabled                                                           | True    |
 | global_mention_settings_enabled                                                       | True    |
+| graduated_access_user_prompt_enabled                                                  | True    |
 | graphql_composer_and_dm_card_previews_enabled                                         | True    |
 | graphql_is_translatable_rweb_tweet_is_translatable_enabled                            | True    |
 | graphql_mutation_destroy_mode                                                         | True    |
@@ -492,6 +488,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | livepipeline_client_enabled                                                           | True    |
 | livepipeline_tweetengagement_enabled                                                  | True    |
 | longform_ad_free_articles_badging_enabled                                             | True    |
+| longform_notetweets_consumption_enabled                                               | True    |
 | longform_notetweets_max_tweet_per_thread                                              | True    |
 | longform_reader_mode_view_in_reader_mode_entry_button_enabled                         | True    |
 | longform_top_articles_friends_of_friends_enabled                                      | True    |
@@ -833,6 +830,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | responsive_web_twitter_article_data_v2_enabled                                        | True    |
 | responsive_web_twitter_article_geo_gated                                              | True    |
 | responsive_web_twitter_article_max_times_show_tweet_banner                            | True    |
+| responsive_web_twitter_article_notes_tab_enabled                                      | True    |
 | responsive_web_twitter_article_tweet_other_notes_enabled                              | True    |
 | responsive_web_twitter_article_tweet_own_notes_enabled                                | True    |
 | responsive_web_twitter_article_view_enabled                                           | True    |
@@ -1187,41 +1185,6 @@ This document is entirely auto-generated and may contain errors.<br>
 |:-----------|:--------|
 | latency    | l       |
 
-| constant                      | value                         |
-|:------------------------------|:------------------------------|
-| AlarmClock                    | AlarmClock                    |
-| BabyBirdWithPoolFloat         | BabyBirdWithPoolFloat         |
-| Bell                          | Bell                          |
-| Binoculars                    | Binoculars                    |
-| BookInBirdCage                | BookInBirdCage                |
-| CalculatorWithEggPaper        | CalculatorWithEggPaper        |
-| CrackedEggMicrophones         | CrackedEggMicrophones         |
-| Emoji                         | Emoji                         |
-| FallenIceCreamCone            | FallenIceCreamCone            |
-| GoldfishWithMailbox           | GoldfishWithMailbox           |
-| HatchedBabyChick              | HatchedBabyChick              |
-| Hearts                        | Hearts                        |
-| JumperCables                  | JumperCables                  |
-| LongformNote                  | LongformNote                  |
-| MaskedDollHeadWithCamera      | MaskedDollHeadWithCamera      |
-| Megaphone                     | Megaphone                     |
-| NoEntrySign                   | NoEntrySign                   |
-| OwlTurnedHead                 | OwlTurnedHead                 |
-| PaintCoveredHand              | PaintCoveredHand              |
-| Parrot                        | Parrot                        |
-| PortraitBustWearingSunglasses | PortraitBustWearingSunglasses |
-| RoosterHead                   | RoosterHead                   |
-| RubberChicken                 | RubberChicken                 |
-| Toaster                       | Toaster                       |
-| Turtle                        | Turtle                        |
-| UnfinishedPotatoHeads         | UnfinishedPotatoHeads         |
-| YellowBirdsPowerLine          | YellowBirdsPowerLine          |
-| VerificationCheck             | VerificationCheck             |
-
-```internal process
-# Error
-{[i.AlarmClock]:"a()",[i.BabyBirdWithPoolFloat]:"a([\"https://abs.twimg.com/responsive-web/client-web/alarm-clock-400x200.v1.da96e5d9.png\",\"https://abs.twimg.com/responsive-web/client-web/alarm-clock-800x400.v1.6c5b3fe9.png\",\"https://abs.twimg.com/responsive-web/client-web/alarm-clock-1200x600.v...
-```
 | constant   |   value |
 |:-----------|--------:|
 | Web        |       0 |
@@ -1286,34 +1249,6 @@ This document is entirely auto-generated and may contain errors.<br>
 | Avatar          | avatar           |
 | Verification    | verification     |
 | TwitterArticle  | twitter_article  |
-
-| constant   | value    |
-|:-----------|:---------|
-| private    | private  |
-| public     | public   |
-| unlisted   | unlisted |
-
-| constant          | value               |
-|:------------------|:--------------------|
-| CurationStudio    | CURATION_STUDIO     |
-| MomentMakerLite   | MOMENT_MAKER_LITE   |
-| MomentMakerMobile | MOMENT_MAKER_MOBILE |
-| MomentMakerPro    | MOMENT_MAKER_PRO    |
-
-| constant         | value             |
-|:-----------------|:------------------|
-| moveTweet        | MOVE              |
-| moveAnnotation   | MOVE_ANNOTATION   |
-| removeTweet      | DELETE            |
-| deleteAnnotation | DELETE_ANNOTATION |
-| addTweet         | ADD               |
-| addAnnotation    | ADD_ANNOTATION    |
-| updateAnnotation | UPDATE_ANNOTATION |
-
-| constant       | value          |
-|:---------------|:---------------|
-| LANDSCAPE_16_9 | LANDSCAPE_16_9 |
-| SQUARE         | SQUARE         |
 
 | constant         | value               |
 |:-----------------|:--------------------|
@@ -2620,17 +2555,6 @@ This document is entirely auto-generated and may contain errors.<br>
 | HarmfullyMisleading                |         |
 | PotentiallyMisleading              |         |
 
-| constant   | value      |
-|:-----------|:-----------|
-| COLLECTION | collection |
-| LIKED      | liked      |
-| USER       | user       |
-| SEARCH     | search     |
-
-```internal process
-# Error
-{[u.COLLECTION]:"a",[u.LIKED]:"o",[u.USER]:"s",[u.SEARCH]:"l"}
-```
 | constant          | value              |
 |:------------------|:-------------------|
 | Intro             | intro              |
@@ -2704,18 +2628,6 @@ This document is entirely auto-generated and may contain errors.<br>
 |:-----------|:----------|
 | READONLY   | readonly  |
 | READWRITE  | readwrite |
-
-| constant   |   value |
-|:-----------|--------:|
-| normal     |     100 |
-| long       |     250 |
-| longer     |     500 |
-
-| constant   | value   |
-|:-----------|:--------|
-| animate    | animate |
-| static     | static  |
-| prep       | prep    |
 
 | constant   |   value |
 |:-----------|--------:|
@@ -2912,6 +2824,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | isSuperFollowsRenamed                       | False   |
 | blueVerifiedBadgeIsEnabled                  | False   |
 | blueBusinessVerifiedBadgeEnabled            | False   |
+| blueGovernmentVerifiedBadgeEnabled          | False   |
 | newBadgeColorEnabled                        | False   |
 | tweetViewCountsEnabled                      | False   |
 | ...a                                        | _       |
@@ -2952,9 +2865,9 @@ This document is entirely auto-generated and may contain errors.<br>
 | constant      | value                                                                    |
 |:--------------|:-------------------------------------------------------------------------|
 | live          | {'backgroundColor': 'magenta500', 'bold': '!0', 'color': 'whiteOnColor'} |
-| alt           | C                                                                        |
-| gif           | C                                                                        |
-| hd            | C                                                                        |
+| alt           | E                                                                        |
+| gif           | E                                                                        |
+| hd            | E                                                                        |
 | likedByAuthor | {'backgroundColor': 'gray50', 'bold': '!1', 'color': 'gray700'}          |
 
 ```internal process
@@ -3440,7 +3353,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant              | value     |
 |:----------------------|:----------|
-| appBarHeight          | T         |
+| appBarHeight          | C         |
 | appBarHeightPx        | S         |
 | conversationLineWidth | g.space2  |
 | gutterHorizontal      | y.space16 |
@@ -3457,7 +3370,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | borderWidths        | u       |
 | borderWidthsPx      | c       |
 | breakpoints         | a       |
-| componentDimensions | E       |
+| componentDimensions | T       |
 | componentZIndices   | o       |
 | fontSizes           | v       |
 | fontSizesPx         | f       |
