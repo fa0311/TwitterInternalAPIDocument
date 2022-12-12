@@ -37,3 +37,27 @@ DisableUserAccountLabel<br>
 BirdwatchEditNotificationSettings<br>
 ### remove<br>
 None<br>
+##2022/12/11<br>
+### add<br>
+None<br>
+### remove<br>
+UserAccountLabel<br>
+UsersGraphQLFetchByScreenNameQuery<br>
+adFreeArticleDomains<br>
+BirdwatchFetchNotes<br>
+BirdwatchProfileAcknowledgeEarnOut<br>
+BirdwatchCreateAppeal<br>
+BirdwatchCreateNote<br>
+BirdwatchDeleteNote<br>
+BirdwatchDeleteRating<br>
+BirdwatchEditNotificationSettings<br>
+BirdwatchFetchOneNote<br>
+BirdwatchFetchBirdwatchProfile<br>
+BirdwatchFetchContributorNotesSlice<br>
+BirdwatchFetchContributorNotesSlice<br>
+BirdwatchFetchAuthenticatedUserProfile<br>
+BirdwatchFetchAliasSelfSelectStatus<br>
+BirdwatchAliasSelect<br>
+BirdwatchFetchPublicData<br>
+BirdwatchFetchGlobalTimeline<br>
+BirdwatchFetchAliasSelfSelectOptions<br>
