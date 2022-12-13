@@ -18,13 +18,13 @@ This document is entirely auto-generated and may contain errors.<br>
 | ONE_TO_ONE | OneToOneDm |
 | UNKNOWN    | Unknown    |
 
-| constant               | value                                 |
-|:-----------------------|:--------------------------------------|
-| MessageCreate          | a.ENTRY_TYPE.MESSAGE                  |
-| ParticipantsJoin       | a.ENTRY_TYPE.PARTICIPANTS_JOIN        |
-| ParticipantsLeave      | a.ENTRY_TYPE.PARTICIPANTS_LEAVE       |
-| ConversationNameUpdate | a.ENTRY_TYPE.CONVERSATION_NAME_UPDATE |
-| JoinConversation       | a.ENTRY_TYPE.JOIN_CONVERSATION        |
+| constant               | value                         |
+|:-----------------------|:------------------------------|
+| MessageCreate          | a.Cr.MESSAGE                  |
+| ParticipantsJoin       | a.Cr.PARTICIPANTS_JOIN        |
+| ParticipantsLeave      | a.Cr.PARTICIPANTS_LEAVE       |
+| ConversationNameUpdate | a.Cr.CONVERSATION_NAME_UPDATE |
+| JoinConversation       | a.Cr.JOIN_CONVERSATION        |
 
 | constant   | value   |
 |:-----------|:--------|
@@ -376,7 +376,6 @@ This document is entirely auto-generated and may contain errors.<br>
 | c9s_unread_indicator_tweets_enabled                                                   | True    |
 | card_compose_preview_retry_after_ms                                                   | True    |
 | card_compose_preview_retry_max                                                        | True    |
-| content_language_setting_enabled                                                      | True    |
 | conversation_controls_change_enabled                                                  | True    |
 | conversation_controls_change_tooltip_enabled                                          | True    |
 | conversation_controls_limited_replies_consumption_configuration                       | True    |
@@ -990,10 +989,8 @@ This document is entirely auto-generated and may contain errors.<br>
 | verified_phone_label_enabled                                                          | True    |
 | vibe_api_enabled                                                                      | False   |
 | vibe_tweet_context_enabled                                                            | False   |
-| view_counts_author_visibility_enabled                                                 | True    |
 | view_counts_everywhere_api_enabled                                                    | True    |
 | view_counts_public_visibility_enabled                                                 | True    |
-| view_counts_share_at_end_enabled                                                      | True    |
 | vod_attribution_tweet_detail_pivot_enabled                                            | True    |
 | voice_consumption_enabled                                                             | True    |
 | voice_rooms_card_version                                                              | True    |
@@ -2073,29 +2070,6 @@ This document is entirely auto-generated and may contain errors.<br>
 | constant       | value          |
 |:---------------|:---------------|
 | MUTUAL_FRIENDS | mutual_friends |
-
-| constant   | value                              |
-|:-----------|:-----------------------------------|
-| REQUEST    | rweb/directMessages/SEARCH_REQUEST |
-| SUCCESS    | rweb/directMessages/SEARCH_SUCCESS |
-| FAILURE    | rweb/directMessages/SEARCH_FAILURE |
-
-| constant    | value      |
-|:------------|:-----------|
-| PINNED      | Pinned     |
-| REPLY_LATER | ReplyLater |
-
-| constant   | value     |
-|:-----------|:----------|
-| PRIMARY    | primary   |
-| SECONDARY  | secondary |
-| TERTIARY   | tertiary  |
-
-| constant   | value     |
-|:-----------|:----------|
-| CLOSED     | closed    |
-| COLLAPSED  | collapsed |
-| EXPANDED   | expanded  |
 
 | constant   | value                                       |
 |:-----------|:--------------------------------------------|
