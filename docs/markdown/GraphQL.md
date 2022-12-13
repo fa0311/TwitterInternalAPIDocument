@@ -22,7 +22,7 @@ json.dumps({
 ```
 `json.dumps` is equivalent to `JSON.stringify` in javaScript<br>
 ## AudioSpaceById<br>
-Request URL: `https://twitter.com/i/api/graphql/457bi4v0vk0_ry5ZDbjlrA/AudioSpaceById`<br>
+Request URL: `https://twitter.com/i/api/graphql/uJNP4BVkYBk72TQI_Rzrdg/AudioSpaceById`<br>
 Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
@@ -42,6 +42,7 @@ Login Required: `Future`<br>
 | responsive_web_twitter_blue_verified_badge_is_enabled                   | boolean | True      |
 | verified_phone_label_enabled                                            | boolean | True      |
 | view_counts_public_visibility_enabled                                   | boolean | True      |
+| view_counts_everywhere_api_enabled                                      | boolean | True      |
 | tweetypie_unmention_optimization_enabled                                | boolean | True      |
 | responsive_web_uc_gql_enabled                                           | boolean | True      |
 | vibe_api_enabled                                                        | boolean | False     |
@@ -100,7 +101,7 @@ Login Required: `Future`<br>
 #### queryId<br>
 `None`<br>
 ## Followers<br>
-Request URL: `https://twitter.com/i/api/graphql/ayUZDoCGDwwmUwY05wo1QQ/Followers`<br>
+Request URL: `https://twitter.com/i/api/graphql/-Jrsc1390gh1jJ0TEKoPBQ/Followers`<br>
 Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
@@ -120,6 +121,7 @@ Login Required: `Future`<br>
 | verified_phone_label_enabled                                            | boolean | True      |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | False     |
 | view_counts_public_visibility_enabled                                   | boolean | True      |
+| view_counts_everywhere_api_enabled                                      | boolean | True      |
 | tweetypie_unmention_optimization_enabled                                | boolean | True      |
 | responsive_web_uc_gql_enabled                                           | boolean | True      |
 | vibe_api_enabled                                                        | boolean | False     |
@@ -134,7 +136,7 @@ Login Required: `Future`<br>
 #### queryId<br>
 `None`<br>
 ## FollowersYouKnow<br>
-Request URL: `https://twitter.com/i/api/graphql/jQYRk21eSWdjbBMy4a0_Cg/FollowersYouKnow`<br>
+Request URL: `https://twitter.com/i/api/graphql/M08BQ6rQXpPKxxfedPAXng/FollowersYouKnow`<br>
 Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
@@ -154,6 +156,7 @@ Login Required: `Future`<br>
 | verified_phone_label_enabled                                            | boolean | True      |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | False     |
 | view_counts_public_visibility_enabled                                   | boolean | True      |
+| view_counts_everywhere_api_enabled                                      | boolean | True      |
 | tweetypie_unmention_optimization_enabled                                | boolean | True      |
 | responsive_web_uc_gql_enabled                                           | boolean | True      |
 | vibe_api_enabled                                                        | boolean | False     |
@@ -168,7 +171,7 @@ Login Required: `Future`<br>
 #### queryId<br>
 `None`<br>
 ## Following<br>
-Request URL: `https://twitter.com/i/api/graphql/BZrvu0vJthL9lGVBH4RMPg/Following`<br>
+Request URL: `https://twitter.com/i/api/graphql/w_Kd5Rx3cXf_dzLZzxzFzQ/Following`<br>
 Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
@@ -188,6 +191,7 @@ Login Required: `Future`<br>
 | verified_phone_label_enabled                                            | boolean | True      |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | False     |
 | view_counts_public_visibility_enabled                                   | boolean | True      |
+| view_counts_everywhere_api_enabled                                      | boolean | True      |
 | tweetypie_unmention_optimization_enabled                                | boolean | True      |
 | responsive_web_uc_gql_enabled                                           | boolean | True      |
 | vibe_api_enabled                                                        | boolean | False     |
@@ -202,7 +206,7 @@ Login Required: `Future`<br>
 #### queryId<br>
 `None`<br>
 ## SuperFollowers<br>
-Request URL: `https://twitter.com/i/api/graphql/wo_oIRRMlldN58xjabII6A/SuperFollowers`<br>
+Request URL: `https://twitter.com/i/api/graphql/33nL4GMvxgm3lm4nJzE3pg/SuperFollowers`<br>
 Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
@@ -221,6 +225,7 @@ Login Required: `Future`<br>
 | verified_phone_label_enabled                                            | boolean | True      |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | False     |
 | view_counts_public_visibility_enabled                                   | boolean | True      |
+| view_counts_everywhere_api_enabled                                      | boolean | True      |
 | tweetypie_unmention_optimization_enabled                                | boolean | True      |
 | responsive_web_uc_gql_enabled                                           | boolean | True      |
 | vibe_api_enabled                                                        | boolean | False     |
@@ -235,7 +240,7 @@ Login Required: `Future`<br>
 #### queryId<br>
 `None`<br>
 ## ModeratedTimeline<br>
-Request URL: `https://twitter.com/i/api/graphql/tpgYXVkRlNdhBdDeqqm29g/ModeratedTimeline`<br>
+Request URL: `https://twitter.com/i/api/graphql/h4jLnwgcWehhlrp5iQkaAg/ModeratedTimeline`<br>
 Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
@@ -255,6 +260,7 @@ Login Required: `Future`<br>
 | verified_phone_label_enabled                                            | boolean | True      |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | False     |
 | view_counts_public_visibility_enabled                                   | boolean | True      |
+| view_counts_everywhere_api_enabled                                      | boolean | True      |
 | tweetypie_unmention_optimization_enabled                                | boolean | True      |
 | responsive_web_uc_gql_enabled                                           | boolean | True      |
 | vibe_api_enabled                                                        | boolean | False     |
@@ -269,7 +275,7 @@ Login Required: `Future`<br>
 #### queryId<br>
 `None`<br>
 ## MutedAccounts<br>
-Request URL: `https://twitter.com/i/api/graphql/7EQ6kBcxGzbZ7oRO9Gza7g/MutedAccounts`<br>
+Request URL: `https://twitter.com/i/api/graphql/un9Jsjwsk5NrgKwidHJGlg/MutedAccounts`<br>
 Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
@@ -288,6 +294,7 @@ Login Required: `Future`<br>
 | verified_phone_label_enabled                                            | boolean | True      |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | False     |
 | view_counts_public_visibility_enabled                                   | boolean | True      |
+| view_counts_everywhere_api_enabled                                      | boolean | True      |
 | tweetypie_unmention_optimization_enabled                                | boolean | True      |
 | responsive_web_uc_gql_enabled                                           | boolean | True      |
 | vibe_api_enabled                                                        | boolean | False     |
@@ -302,7 +309,7 @@ Login Required: `Future`<br>
 #### queryId<br>
 `None`<br>
 ## GenericTimelineById<br>
-Request URL: `https://twitter.com/i/api/graphql/8Yat8WylEu6wG79YxIJ1NA/GenericTimelineById`<br>
+Request URL: `https://twitter.com/i/api/graphql/2AL0tgYzleYoLYpQrEL8tw/GenericTimelineById`<br>
 Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
@@ -322,6 +329,7 @@ Login Required: `Future`<br>
 | verified_phone_label_enabled                                            | boolean | True      |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | False     |
 | view_counts_public_visibility_enabled                                   | boolean | True      |
+| view_counts_everywhere_api_enabled                                      | boolean | True      |
 | tweetypie_unmention_optimization_enabled                                | boolean | True      |
 | responsive_web_uc_gql_enabled                                           | boolean | True      |
 | vibe_api_enabled                                                        | boolean | False     |
@@ -336,7 +344,7 @@ Login Required: `Future`<br>
 #### queryId<br>
 `None`<br>
 ## TweetResultByRestId<br>
-Request URL: `https://twitter.com/i/api/graphql/xq9OwGKm0Gx0VDKEAsUSAQ/TweetResultByRestId`<br>
+Request URL: `https://twitter.com/i/api/graphql/IePs97BurToarwpnaocAbw/TweetResultByRestId`<br>
 Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
@@ -354,6 +362,7 @@ Login Required: `Future`<br>
 | key                                                                     | type    | default   |
 |:------------------------------------------------------------------------|:--------|:----------|
 | view_counts_public_visibility_enabled                                   | boolean | True      |
+| view_counts_everywhere_api_enabled                                      | boolean | True      |
 | tweetypie_unmention_optimization_enabled                                | boolean | True      |
 | responsive_web_uc_gql_enabled                                           | boolean | True      |
 | vibe_api_enabled                                                        | boolean | False     |
@@ -580,7 +589,7 @@ Login Required: `Future`<br>
 #### queryId<br>
 `None`<br>
 ## CreateTweet<br>
-Request URL: `https://twitter.com/i/api/graphql/sqNNr7rKZwnDQZkIiyvcrA/CreateTweet`<br>
+Request URL: `https://twitter.com/i/api/graphql/fRxwfuLK8auLlUTncgJHbw/CreateTweet`<br>
 Request Method: `POST`<br>
 Login Required: `Future`<br>
 ### Param<br>
@@ -596,6 +605,7 @@ Login Required: `Future`<br>
 | key                                                                     | type    | default   |
 |:------------------------------------------------------------------------|:--------|:----------|
 | view_counts_public_visibility_enabled                                   | boolean | True      |
+| view_counts_everywhere_api_enabled                                      | boolean | True      |
 | tweetypie_unmention_optimization_enabled                                | boolean | True      |
 | responsive_web_uc_gql_enabled                                           | boolean | True      |
 | vibe_api_enabled                                                        | boolean | False     |
@@ -613,7 +623,7 @@ Login Required: `Future`<br>
 #### queryId<br>
 `None`<br>
 ## CreateTweet<br>
-Request URL: `https://twitter.com/i/api/graphql/sqNNr7rKZwnDQZkIiyvcrA/CreateTweet`<br>
+Request URL: `https://twitter.com/i/api/graphql/fRxwfuLK8auLlUTncgJHbw/CreateTweet`<br>
 Request Method: `POST`<br>
 Login Required: `Future`<br>
 ### Param<br>
@@ -630,6 +640,7 @@ Login Required: `Future`<br>
 | key                                                                     | type    | default   |
 |:------------------------------------------------------------------------|:--------|:----------|
 | view_counts_public_visibility_enabled                                   | boolean | True      |
+| view_counts_everywhere_api_enabled                                      | boolean | True      |
 | tweetypie_unmention_optimization_enabled                                | boolean | True      |
 | responsive_web_uc_gql_enabled                                           | boolean | True      |
 | vibe_api_enabled                                                        | boolean | False     |
@@ -741,7 +752,7 @@ Login Required: `Future`<br>
 #### queryId<br>
 `None`<br>
 ## UrtFixtures<br>
-Request URL: `https://twitter.com/i/api/graphql/_068KGzaWBk5bROpnsKB4A/UrtFixtures`<br>
+Request URL: `https://twitter.com/i/api/graphql/2Ekr0P73YaEESB11s06u0w/UrtFixtures`<br>
 Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
@@ -749,7 +760,7 @@ Login Required: `Future`<br>
 | key                    | type   | variable   |
 |:-----------------------|:-------|:-----------|
 | includePromotedContent | Future | True       |
-| ...()(0,x.d)           | Future | _          |
+| ...()(0,P.d)           | Future | _          |
 
 #### features<br>
 | key                                                                     | type    | default   |
@@ -758,6 +769,7 @@ Login Required: `Future`<br>
 | verified_phone_label_enabled                                            | boolean | True      |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | False     |
 | view_counts_public_visibility_enabled                                   | boolean | True      |
+| view_counts_everywhere_api_enabled                                      | boolean | True      |
 | tweetypie_unmention_optimization_enabled                                | boolean | True      |
 | responsive_web_uc_gql_enabled                                           | boolean | True      |
 | vibe_api_enabled                                                        | boolean | False     |
@@ -786,7 +798,7 @@ Login Required: `Future`<br>
 #### queryId<br>
 `None`<br>
 ## ConnectTabTimeline<br>
-Request URL: `https://twitter.com/i/api/graphql/3pATBAcVbQfW8q87iizxGA/ConnectTabTimeline`<br>
+Request URL: `https://twitter.com/i/api/graphql/MVNTxQ0eulxWV6T1oJex_g/ConnectTabTimeline`<br>
 Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
@@ -796,7 +808,7 @@ Login Required: `Future`<br>
 | count        | Future | i          |
 | cursor       | Future | r          |
 | context      | Future | n          |
-| ...()(0,x.d) | Future | _          |
+| ...()(0,P.d) | Future | _          |
 
 #### features<br>
 | key                                                                     | type    | default   |
@@ -805,6 +817,7 @@ Login Required: `Future`<br>
 | verified_phone_label_enabled                                            | boolean | True      |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | False     |
 | view_counts_public_visibility_enabled                                   | boolean | True      |
+| view_counts_everywhere_api_enabled                                      | boolean | True      |
 | tweetypie_unmention_optimization_enabled                                | boolean | True      |
 | responsive_web_uc_gql_enabled                                           | boolean | True      |
 | vibe_api_enabled                                                        | boolean | False     |
@@ -839,7 +852,7 @@ Login Required: `Future`<br>
 #### queryId<br>
 `None`<br>
 ## Favoriters<br>
-Request URL: `https://twitter.com/i/api/graphql/6WA3hNg7M2B9gFM4atXZ3Q/Favoriters`<br>
+Request URL: `https://twitter.com/i/api/graphql/ZD3hAo97BbofWpy43e9uUw/Favoriters`<br>
 Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
@@ -850,7 +863,7 @@ Login Required: `Future`<br>
 | count                  | Future | n          |
 | cursor                 | Future | i          |
 | includePromotedContent | Future | True       |
-| ...()(0,x.d)           | Future | _          |
+| ...()(0,P.d)           | Future | _          |
 
 #### features<br>
 | key                                                                     | type    | default   |
@@ -859,6 +872,7 @@ Login Required: `Future`<br>
 | verified_phone_label_enabled                                            | boolean | True      |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | False     |
 | view_counts_public_visibility_enabled                                   | boolean | True      |
+| view_counts_everywhere_api_enabled                                      | boolean | True      |
 | tweetypie_unmention_optimization_enabled                                | boolean | True      |
 | responsive_web_uc_gql_enabled                                           | boolean | True      |
 | vibe_api_enabled                                                        | boolean | False     |
@@ -873,7 +887,7 @@ Login Required: `Future`<br>
 #### queryId<br>
 `None`<br>
 ## Retweeters<br>
-Request URL: `https://twitter.com/i/api/graphql/eVxQ1SJS5g6hecM_AzpZMg/Retweeters`<br>
+Request URL: `https://twitter.com/i/api/graphql/L7KcNl1dBZ7ZcceanSRm6A/Retweeters`<br>
 Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
@@ -884,7 +898,7 @@ Login Required: `Future`<br>
 | count                  | Future | n          |
 | cursor                 | Future | i          |
 | includePromotedContent | Future | True       |
-| ...()(0,x.d)           | Future | _          |
+| ...()(0,P.d)           | Future | _          |
 
 #### features<br>
 | key                                                                     | type    | default   |
@@ -893,6 +907,7 @@ Login Required: `Future`<br>
 | verified_phone_label_enabled                                            | boolean | True      |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | False     |
 | view_counts_public_visibility_enabled                                   | boolean | True      |
+| view_counts_everywhere_api_enabled                                      | boolean | True      |
 | tweetypie_unmention_optimization_enabled                                | boolean | True      |
 | responsive_web_uc_gql_enabled                                           | boolean | True      |
 | vibe_api_enabled                                                        | boolean | False     |
@@ -907,7 +922,7 @@ Login Required: `Future`<br>
 #### queryId<br>
 `None`<br>
 ## TweetEditHistory<br>
-Request URL: `https://twitter.com/i/api/graphql/2CE5ITHgDKCZRFLxkNsv-w/TweetEditHistory`<br>
+Request URL: `https://twitter.com/i/api/graphql/umionEgFl5XFVsXV_n8MWQ/TweetEditHistory`<br>
 Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
@@ -915,13 +930,14 @@ Login Required: `Future`<br>
 | key                                    | type   | variable   |
 |:---------------------------------------|:-------|:-----------|
 | tweetId                                | Future | n          |
-| ...()(0,x.d)                           | Future | _          |
+| ...()(0,P.d)                           | Future | _          |
 | withQuickPromoteEligibilityTweetFields | Future | True       |
 
 #### features<br>
 | key                                                                     | type    | default   |
 |:------------------------------------------------------------------------|:--------|:----------|
 | view_counts_public_visibility_enabled                                   | boolean | True      |
+| view_counts_everywhere_api_enabled                                      | boolean | True      |
 | standardized_nudges_misinfo                                             | boolean | True      |
 | tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | True      |
 | tweetypie_unmention_optimization_enabled                                | boolean | True      |
@@ -1083,7 +1099,7 @@ Login Required: `Future`<br>
 #### queryId<br>
 `None`<br>
 ## Bookmarks<br>
-Request URL: `https://twitter.com/i/api/graphql/b3zhHRwPZeclVCUdDpYQRQ/Bookmarks`<br>
+Request URL: `https://twitter.com/i/api/graphql/1a_VekDPBjbXyW9o6araAQ/Bookmarks`<br>
 Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
@@ -1093,7 +1109,7 @@ Login Required: `Future`<br>
 | count                  | Future | n          |
 | cursor                 | Future | i          |
 | includePromotedContent | Future | True       |
-| ...()(0,x.d)           | Future | _          |
+| ...()(0,P.d)           | Future | _          |
 
 #### features<br>
 | key                                                                     | type    | default   |
@@ -1103,6 +1119,7 @@ Login Required: `Future`<br>
 | verified_phone_label_enabled                                            | boolean | True      |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | False     |
 | view_counts_public_visibility_enabled                                   | boolean | True      |
+| view_counts_everywhere_api_enabled                                      | boolean | True      |
 | tweetypie_unmention_optimization_enabled                                | boolean | True      |
 | responsive_web_uc_gql_enabled                                           | boolean | True      |
 | vibe_api_enabled                                                        | boolean | False     |
@@ -1117,7 +1134,7 @@ Login Required: `Future`<br>
 #### queryId<br>
 `None`<br>
 ## BookmarkFolderTimeline<br>
-Request URL: `https://twitter.com/i/api/graphql/YHUwAELPSmiN5Z_UtKi1og/BookmarkFolderTimeline`<br>
+Request URL: `https://twitter.com/i/api/graphql/mSoAP3LfV5vzNjO60jp5Ww/BookmarkFolderTimeline`<br>
 Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
@@ -1127,7 +1144,7 @@ Login Required: `Future`<br>
 | bookmark_collection_id | Future | n          |
 | cursor                 | Future | i          |
 | includePromotedContent | Future | True       |
-| ...()(0,x.d)           | Future | _          |
+| ...()(0,P.d)           | Future | _          |
 
 #### features<br>
 | key                                                                     | type    | default   |
@@ -1136,6 +1153,7 @@ Login Required: `Future`<br>
 | verified_phone_label_enabled                                            | boolean | True      |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | False     |
 | view_counts_public_visibility_enabled                                   | boolean | True      |
+| view_counts_everywhere_api_enabled                                      | boolean | True      |
 | tweetypie_unmention_optimization_enabled                                | boolean | True      |
 | responsive_web_uc_gql_enabled                                           | boolean | True      |
 | vibe_api_enabled                                                        | boolean | False     |
@@ -1175,7 +1193,7 @@ Login Required: `Future`<br>
 | description   | Future | i          |
 | joinPolicy    | Future | a          |
 | invitesPolicy | Future | r          |
-| ...()(0,x.S)  | Future | _          |
+| ...()(0,P.S)  | Future | _          |
 
 #### features<br>
 | key                                                   | type    | default   |
@@ -1195,7 +1213,7 @@ Login Required: `Future`<br>
 | key          | type   | variable      |
 |:-------------|:-------|:--------------|
 | communityId  | Future | n.communityId |
-| ...()(0,x.S) | Future | _             |
+| ...()(0,P.S) | Future | _             |
 
 #### features<br>
 | key                                                   | type    | default   |
@@ -1207,7 +1225,7 @@ Login Required: `Future`<br>
 #### queryId<br>
 `None`<br>
 ## CommunityAboutTimeline<br>
-Request URL: `https://twitter.com/i/api/graphql/wT8X9GapTIGcukMn2fi--g/CommunityAboutTimeline`<br>
+Request URL: `https://twitter.com/i/api/graphql/cNKzqzBxZElXrL-nj4Tvrw/CommunityAboutTimeline`<br>
 Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
@@ -1216,7 +1234,7 @@ Login Required: `Future`<br>
 |:--------------------------|:-------|:-----------|
 | ...n                      | Future | _          |
 | withCommunity             | Future | t.isTrue() |
-| ...("c9s_enabled")(0,x.d) | Future | _          |
+| ...("c9s_enabled")(0,P.d) | Future | _          |
 
 #### features<br>
 | key                                                                     | type    | default   |
@@ -1225,6 +1243,7 @@ Login Required: `Future`<br>
 | verified_phone_label_enabled                                            | boolean | True      |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | False     |
 | view_counts_public_visibility_enabled                                   | boolean | True      |
+| view_counts_everywhere_api_enabled                                      | boolean | True      |
 | tweetypie_unmention_optimization_enabled                                | boolean | True      |
 | responsive_web_uc_gql_enabled                                           | boolean | True      |
 | vibe_api_enabled                                                        | boolean | False     |
@@ -1239,7 +1258,7 @@ Login Required: `Future`<br>
 #### queryId<br>
 `None`<br>
 ## CommunityTweetsTimeline<br>
-Request URL: `https://twitter.com/i/api/graphql/BkGI8qWsiKhqBgFU4YmhJg/CommunityTweetsTimeline`<br>
+Request URL: `https://twitter.com/i/api/graphql/vyvFrMqjGqr7vug21DeP7w/CommunityTweetsTimeline`<br>
 Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
@@ -1248,7 +1267,7 @@ Login Required: `Future`<br>
 |:--------------------------|:-------|:-----------|
 | ...n                      | Future | _          |
 | withCommunity             | Future | t.isTrue() |
-| ...("c9s_enabled")(0,x.d) | Future | _          |
+| ...("c9s_enabled")(0,P.d) | Future | _          |
 
 #### features<br>
 | key                                                                     | type    | default   |
@@ -1257,6 +1276,7 @@ Login Required: `Future`<br>
 | verified_phone_label_enabled                                            | boolean | True      |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | False     |
 | view_counts_public_visibility_enabled                                   | boolean | True      |
+| view_counts_everywhere_api_enabled                                      | boolean | True      |
 | tweetypie_unmention_optimization_enabled                                | boolean | True      |
 | responsive_web_uc_gql_enabled                                           | boolean | True      |
 | vibe_api_enabled                                                        | boolean | False     |
@@ -1271,7 +1291,7 @@ Login Required: `Future`<br>
 #### queryId<br>
 `None`<br>
 ## CommunityTweetsRankedTimeline<br>
-Request URL: `https://twitter.com/i/api/graphql/7N61uklBftFwUWesPK07og/CommunityTweetsRankedTimeline`<br>
+Request URL: `https://twitter.com/i/api/graphql/cGvk9n6CItSW6uiohp54XQ/CommunityTweetsRankedTimeline`<br>
 Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
@@ -1280,7 +1300,7 @@ Login Required: `Future`<br>
 |:--------------------------|:-------|:-----------|
 | ...n                      | Future | _          |
 | withCommunity             | Future | t.isTrue() |
-| ...("c9s_enabled")(0,x.d) | Future | _          |
+| ...("c9s_enabled")(0,P.d) | Future | _          |
 
 #### features<br>
 | key                                                                     | type    | default   |
@@ -1289,6 +1309,7 @@ Login Required: `Future`<br>
 | verified_phone_label_enabled                                            | boolean | True      |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | False     |
 | view_counts_public_visibility_enabled                                   | boolean | True      |
+| view_counts_everywhere_api_enabled                                      | boolean | True      |
 | tweetypie_unmention_optimization_enabled                                | boolean | True      |
 | responsive_web_uc_gql_enabled                                           | boolean | True      |
 | vibe_api_enabled                                                        | boolean | False     |
@@ -1303,7 +1324,7 @@ Login Required: `Future`<br>
 #### queryId<br>
 `None`<br>
 ## CommunitiesMembershipsTimeline<br>
-Request URL: `https://twitter.com/i/api/graphql/OjQTu9bNbLDplV-EK_JxhQ/CommunitiesMembershipsTimeline`<br>
+Request URL: `https://twitter.com/i/api/graphql/97Y6qkf-zQLKQWzPlKz1gQ/CommunitiesMembershipsTimeline`<br>
 Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
@@ -1312,7 +1333,7 @@ Login Required: `Future`<br>
 |:--------------------------|:-------|:-----------|
 | ...n                      | Future | _          |
 | withCommunity             | Future | t.isTrue() |
-| ...("c9s_enabled")(0,x.d) | Future | _          |
+| ...("c9s_enabled")(0,P.d) | Future | _          |
 
 #### features<br>
 | key                                                                     | type    | default   |
@@ -1321,6 +1342,7 @@ Login Required: `Future`<br>
 | verified_phone_label_enabled                                            | boolean | True      |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | False     |
 | view_counts_public_visibility_enabled                                   | boolean | True      |
+| view_counts_everywhere_api_enabled                                      | boolean | True      |
 | tweetypie_unmention_optimization_enabled                                | boolean | True      |
 | responsive_web_uc_gql_enabled                                           | boolean | True      |
 | vibe_api_enabled                                                        | boolean | False     |
@@ -1342,7 +1364,7 @@ Login Required: `Future`<br>
 #### variables<br>
 | key          | type   | variable   |
 |:-------------|:-------|:-----------|
-| ...()(0,x.S) | Future | _          |
+| ...()(0,P.S) | Future | _          |
 | ...n         | Future | _          |
 
 #### features<br>
@@ -1355,7 +1377,7 @@ Login Required: `Future`<br>
 #### queryId<br>
 `None`<br>
 ## CommunityModerationTweetCasesSlice<br>
-Request URL: `https://twitter.com/i/api/graphql/mW2VDcr0MQaen_LTnexb7w/CommunityModerationTweetCasesSlice`<br>
+Request URL: `https://twitter.com/i/api/graphql/hHLVis6OImlFXJlwNGJEdQ/CommunityModerationTweetCasesSlice`<br>
 Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
@@ -1364,12 +1386,13 @@ Login Required: `Future`<br>
 |:--------------------------|:-------|:-----------|
 | ...n                      | Future | _          |
 | withCommunity             | Future | t.isTrue() |
-| ...("c9s_enabled")(0,x.S) | Future | _          |
+| ...("c9s_enabled")(0,P.S) | Future | _          |
 
 #### features<br>
 | key                                                                     | type    | default   |
 |:------------------------------------------------------------------------|:--------|:----------|
 | view_counts_public_visibility_enabled                                   | boolean | True      |
+| view_counts_everywhere_api_enabled                                      | boolean | True      |
 | tweetypie_unmention_optimization_enabled                                | boolean | True      |
 | responsive_web_uc_gql_enabled                                           | boolean | True      |
 | vibe_api_enabled                                                        | boolean | False     |
@@ -1387,7 +1410,7 @@ Login Required: `Future`<br>
 #### queryId<br>
 `None`<br>
 ## CommunitiesMainDiscoveryModule<br>
-Request URL: `https://twitter.com/i/api/graphql/hij6pvVapkXNeWyu0WsBYQ/CommunitiesMainDiscoveryModule`<br>
+Request URL: `https://twitter.com/i/api/graphql/xFUoqxXtdVe82vrss3kMrw/CommunitiesMainDiscoveryModule`<br>
 Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
@@ -1396,7 +1419,7 @@ Login Required: `Future`<br>
 |:--------------|:-------|:-----------|
 | ...n          | Future | _          |
 | withCommunity | Future | True       |
-| ...()(0,x.d)  | Future | _          |
+| ...()(0,P.d)  | Future | _          |
 
 #### features<br>
 | key                                                                     | type    | default   |
@@ -1405,6 +1428,7 @@ Login Required: `Future`<br>
 | verified_phone_label_enabled                                            | boolean | True      |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | False     |
 | view_counts_public_visibility_enabled                                   | boolean | True      |
+| view_counts_everywhere_api_enabled                                      | boolean | True      |
 | tweetypie_unmention_optimization_enabled                                | boolean | True      |
 | responsive_web_uc_gql_enabled                                           | boolean | True      |
 | vibe_api_enabled                                                        | boolean | False     |
@@ -1419,7 +1443,7 @@ Login Required: `Future`<br>
 #### queryId<br>
 `None`<br>
 ## CommunitiesMainPageTimeline<br>
-Request URL: `https://twitter.com/i/api/graphql/FcKjchTAr_WLM8sg9uPYTg/CommunitiesMainPageTimeline`<br>
+Request URL: `https://twitter.com/i/api/graphql/Py40OPMCe2LkOUKsMwBB6A/CommunitiesMainPageTimeline`<br>
 Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
@@ -1428,7 +1452,7 @@ Login Required: `Future`<br>
 |:--------------------------|:-------|:-----------|
 | ...n                      | Future | _          |
 | withCommunity             | Future | t.isTrue() |
-| ...("c9s_enabled")(0,x.d) | Future | _          |
+| ...("c9s_enabled")(0,P.d) | Future | _          |
 
 #### features<br>
 | key                                                                     | type    | default   |
@@ -1437,6 +1461,7 @@ Login Required: `Future`<br>
 | verified_phone_label_enabled                                            | boolean | True      |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | False     |
 | view_counts_public_visibility_enabled                                   | boolean | True      |
+| view_counts_everywhere_api_enabled                                      | boolean | True      |
 | tweetypie_unmention_optimization_enabled                                | boolean | True      |
 | responsive_web_uc_gql_enabled                                           | boolean | True      |
 | vibe_api_enabled                                                        | boolean | False     |
@@ -1451,7 +1476,7 @@ Login Required: `Future`<br>
 #### queryId<br>
 `None`<br>
 ## CommunityHashtagsTimeline<br>
-Request URL: `https://twitter.com/i/api/graphql/62wBu8YI9chIZa5END1Dgg/CommunityHashtagsTimeline`<br>
+Request URL: `https://twitter.com/i/api/graphql/F2Iq9EGetTJjswTusbItxg/CommunityHashtagsTimeline`<br>
 Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
@@ -1459,7 +1484,7 @@ Login Required: `Future`<br>
 | key                       | type   | variable   |
 |:--------------------------|:-------|:-----------|
 | withCommunity             | Future | t.isTrue() |
-| ...("c9s_enabled")(0,x.d) | Future | _          |
+| ...("c9s_enabled")(0,P.d) | Future | _          |
 | ...n                      | Future | _          |
 
 #### features<br>
@@ -1469,6 +1494,7 @@ Login Required: `Future`<br>
 | verified_phone_label_enabled                                            | boolean | True      |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | False     |
 | view_counts_public_visibility_enabled                                   | boolean | True      |
+| view_counts_everywhere_api_enabled                                      | boolean | True      |
 | tweetypie_unmention_optimization_enabled                                | boolean | True      |
 | responsive_web_uc_gql_enabled                                           | boolean | True      |
 | vibe_api_enabled                                                        | boolean | False     |
@@ -1483,7 +1509,7 @@ Login Required: `Future`<br>
 #### queryId<br>
 `None`<br>
 ## CommunityDiscoveryTimeline<br>
-Request URL: `https://twitter.com/i/api/graphql/z_p4E1VtrwQIDMfHOOpqXw/CommunityDiscoveryTimeline`<br>
+Request URL: `https://twitter.com/i/api/graphql/Jo7Tk7K7yetK05L4nS6-1g/CommunityDiscoveryTimeline`<br>
 Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
@@ -1491,7 +1517,7 @@ Login Required: `Future`<br>
 | key                       | type   | variable   |
 |:--------------------------|:-------|:-----------|
 | withCommunity             | Future | t.isTrue() |
-| ...("c9s_enabled")(0,x.d) | Future | _          |
+| ...("c9s_enabled")(0,P.d) | Future | _          |
 
 #### features<br>
 | key                                                                     | type    | default   |
@@ -1500,6 +1526,7 @@ Login Required: `Future`<br>
 | verified_phone_label_enabled                                            | boolean | True      |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | False     |
 | view_counts_public_visibility_enabled                                   | boolean | True      |
+| view_counts_everywhere_api_enabled                                      | boolean | True      |
 | tweetypie_unmention_optimization_enabled                                | boolean | True      |
 | responsive_web_uc_gql_enabled                                           | boolean | True      |
 | vibe_api_enabled                                                        | boolean | False     |
@@ -1522,7 +1549,7 @@ Login Required: `Future`<br>
 | key          | type   | variable   |
 |:-------------|:-------|:-----------|
 | tweetId      | Future | n.tweetId  |
-| ...()(0,x.S) | Future | _          |
+| ...()(0,P.S) | Future | _          |
 
 #### features<br>
 | key                                                   | type    | default   |
@@ -1542,7 +1569,7 @@ Login Required: `Future`<br>
 | key          | type   | variable      |
 |:-------------|:-------|:--------------|
 | communityId  | Future | n.communityId |
-| ...()(0,x.S) | Future | _             |
+| ...()(0,P.S) | Future | _             |
 
 #### features<br>
 | key                                                   | type    | default   |
@@ -1562,7 +1589,7 @@ Login Required: `Future`<br>
 | key          | type   | variable      |
 |:-------------|:-------|:--------------|
 | communityId  | Future | n.communityId |
-| ...()(0,x.S) | Future | _             |
+| ...()(0,P.S) | Future | _             |
 
 #### features<br>
 | key                                                   | type    | default   |
@@ -1582,7 +1609,7 @@ Login Required: `Future`<br>
 | key          | type   | variable      |
 |:-------------|:-------|:--------------|
 | communityId  | Future | n.communityId |
-| ...()(0,x.S) | Future | _             |
+| ...()(0,P.S) | Future | _             |
 
 #### features<br>
 | key                                                   | type    | default   |
@@ -1620,7 +1647,7 @@ Login Required: `Future`<br>
 | key          | type   | variable   |
 |:-------------|:-------|:-----------|
 | ...n         | Future | _          |
-| ...()(0,x.S) | Future | _          |
+| ...()(0,P.S) | Future | _          |
 
 #### features<br>
 | key                                                   | type    | default   |
@@ -1641,7 +1668,7 @@ Login Required: `Future`<br>
 |:-------------|:-------|:--------------|
 | communityId  | Future | n.communityId |
 | name         | Future | n.name        |
-| ...()(0,x.S) | Future | _             |
+| ...()(0,P.S) | Future | _             |
 
 #### features<br>
 | key                                                   | type    | default   |
@@ -1662,7 +1689,7 @@ Login Required: `Future`<br>
 |:-------------|:-------|:--------------|
 | communityId  | Future | n.communityId |
 | description  | Future | n.purpose     |
-| ...()(0,x.S) | Future | _             |
+| ...()(0,P.S) | Future | _             |
 
 #### features<br>
 | key                                                   | type    | default   |
@@ -1683,7 +1710,7 @@ Login Required: `Future`<br>
 |:-------------|:-------|:--------------|
 | communityId  | Future | n.communityId |
 | theme        | Future | n.theme       |
-| ...()(0,x.S) | Future | _             |
+| ...()(0,P.S) | Future | _             |
 
 #### features<br>
 | key                                                   | type    | default   |
@@ -1706,7 +1733,7 @@ Login Required: `Future`<br>
 | ruleId       | Future | n.ruleId      |
 | name         | Future | n.name        |
 | description  | Future | n.description |
-| ...()(0,x.S) | Future | _             |
+| ...()(0,P.S) | Future | _             |
 
 #### features<br>
 | key                                                   | type    | default   |
@@ -1728,7 +1755,7 @@ Login Required: `Future`<br>
 | communityId  | Future | n.communityId |
 | name         | Future | n.name        |
 | description  | Future | n.description |
-| ...()(0,x.S) | Future | _             |
+| ...()(0,P.S) | Future | _             |
 
 #### features<br>
 | key                                                   | type    | default   |
@@ -1749,7 +1776,7 @@ Login Required: `Future`<br>
 |:-------------|:-------|:--------------|
 | communityId  | Future | n.communityId |
 | ruleId       | Future | n.ruleId      |
-| ...()(0,x.S) | Future | _             |
+| ...()(0,P.S) | Future | _             |
 
 #### features<br>
 | key                                                   | type    | default   |
@@ -1770,7 +1797,7 @@ Login Required: `Future`<br>
 |:-------------|:-------|:--------------|
 | communityId  | Future | n.communityId |
 | ruleIds      | Future | n.ruleIds     |
-| ...()(0,x.S) | Future | _             |
+| ...()(0,P.S) | Future | _             |
 
 #### features<br>
 | key                                                   | type    | default   |
@@ -1791,7 +1818,7 @@ Login Required: `Future`<br>
 |:-------------|:-------|:--------------|
 | communityId  | Future | n.communityId |
 | mediaId      | Future | n.mediaId     |
-| ...()(0,x.S) | Future | _             |
+| ...()(0,P.S) | Future | _             |
 
 #### features<br>
 | key                                                   | type    | default   |
@@ -1811,7 +1838,7 @@ Login Required: `Future`<br>
 | key          | type   | variable      |
 |:-------------|:-------|:--------------|
 | communityId  | Future | n.communityId |
-| ...()(0,x.S) | Future | _             |
+| ...()(0,P.S) | Future | _             |
 
 #### features<br>
 | key                                                   | type    | default   |
@@ -1890,7 +1917,7 @@ Login Required: `Future`<br>
 #### queryId<br>
 `None`<br>
 ## TweetDetail<br>
-Request URL: `https://twitter.com/i/api/graphql/ClMtsP2naZ-J_90LAMKU6w/TweetDetail`<br>
+Request URL: `https://twitter.com/i/api/graphql/aUdRtbhzqV5lfAZxe2NvTw/TweetDetail`<br>
 Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
@@ -1907,7 +1934,7 @@ Login Required: `Future`<br>
 | withCommunity                                              | Future | t.isTrue()                            |
 | withQuickPromoteEligibilityTweetFields                     | Future | True                                  |
 | withBirdwatchNotes                                         | Future | t.isTrue("c9s_enabled")               |
-| ...("responsive_web_birdwatch_consumption_enabled")(0,x.d) | Future | _                                     |
+| ...("responsive_web_birdwatch_consumption_enabled")(0,P.d) | Future | _                                     |
 | withVoice                                                  | Future | t.isTrue(t)                           |
 | withV2Timeline                                             | Future | t.isTrue("voice_consumption_enabled") |
 | isReaderMode                                               | Future | a                                     |
@@ -1919,6 +1946,7 @@ Login Required: `Future`<br>
 | verified_phone_label_enabled                                            | boolean | True      |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | False     |
 | view_counts_public_visibility_enabled                                   | boolean | True      |
+| view_counts_everywhere_api_enabled                                      | boolean | True      |
 | tweetypie_unmention_optimization_enabled                                | boolean | True      |
 | responsive_web_uc_gql_enabled                                           | boolean | True      |
 | vibe_api_enabled                                                        | boolean | False     |
@@ -2003,7 +2031,7 @@ Login Required: `Future`<br>
 #### queryId<br>
 `None`<br>
 ## DmMutedTimeline<br>
-Request URL: `https://twitter.com/i/api/graphql/o963L1Oszye_hyO6sHLamw/DmMutedTimeline`<br>
+Request URL: `https://twitter.com/i/api/graphql/ksFYCHBL9-JrZQ1ZxcROfQ/DmMutedTimeline`<br>
 Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
@@ -2013,7 +2041,7 @@ Login Required: `Future`<br>
 | count                  | Future | n          |
 | cursor                 | Future | i          |
 | includePromotedContent | Future | False      |
-| ...()(0,x.d)           | Future | _          |
+| ...()(0,P.d)           | Future | _          |
 
 #### features<br>
 | key                                                                     | type    | default   |
@@ -2022,6 +2050,7 @@ Login Required: `Future`<br>
 | verified_phone_label_enabled                                            | boolean | True      |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | False     |
 | view_counts_public_visibility_enabled                                   | boolean | True      |
+| view_counts_everywhere_api_enabled                                      | boolean | True      |
 | tweetypie_unmention_optimization_enabled                                | boolean | True      |
 | responsive_web_uc_gql_enabled                                           | boolean | True      |
 | vibe_api_enabled                                                        | boolean | False     |
@@ -2120,7 +2149,7 @@ Login Required: `Future`<br>
 #### queryId<br>
 `None`<br>
 ## ForYouExplore<br>
-Request URL: `https://twitter.com/i/api/graphql/lfPVRBb9kgWE14auTxixvg/ForYouExplore`<br>
+Request URL: `https://twitter.com/i/api/graphql/AVBZbHUVtQrZGl6n1v2cNQ/ForYouExplore`<br>
 Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
@@ -2129,7 +2158,7 @@ Login Required: `Future`<br>
 |:-------------|:-------|:------------------------|
 | count        | Future | null==n?void 0:n.count  |
 | cursor       | Future | null==n?void 0:n.cursor |
-| ...()(0,x.d) | Future | _                       |
+| ...()(0,P.d) | Future | _                       |
 
 #### features<br>
 | key                                                                     | type    | default   |
@@ -2138,6 +2167,7 @@ Login Required: `Future`<br>
 | verified_phone_label_enabled                                            | boolean | True      |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | False     |
 | view_counts_public_visibility_enabled                                   | boolean | True      |
+| view_counts_everywhere_api_enabled                                      | boolean | True      |
 | tweetypie_unmention_optimization_enabled                                | boolean | True      |
 | responsive_web_uc_gql_enabled                                           | boolean | True      |
 | vibe_api_enabled                                                        | boolean | False     |
@@ -2152,7 +2182,7 @@ Login Required: `Future`<br>
 #### queryId<br>
 `None`<br>
 ## ImmersiveMedia<br>
-Request URL: `https://twitter.com/i/api/graphql/cgNiRqWvKeQzP0BIhRhZfg/ImmersiveMedia`<br>
+Request URL: `https://twitter.com/i/api/graphql/zBbI0u6FhEZ42dFGc8uPjA/ImmersiveMedia`<br>
 Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
@@ -2161,7 +2191,7 @@ Login Required: `Future`<br>
 |:----------------|:-------|:---------------------------------|
 | pinned_tweet_id | Future | null==n?void 0:n.pinned_tweet_id |
 | page_name       | Future | null==n?void 0:n.page_name       |
-| ...()(0,x.d)    | Future | _                                |
+| ...()(0,P.d)    | Future | _                                |
 
 #### features<br>
 | key                                                                     | type    | default   |
@@ -2170,6 +2200,7 @@ Login Required: `Future`<br>
 | verified_phone_label_enabled                                            | boolean | True      |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | False     |
 | view_counts_public_visibility_enabled                                   | boolean | True      |
+| view_counts_everywhere_api_enabled                                      | boolean | True      |
 | tweetypie_unmention_optimization_enabled                                | boolean | True      |
 | responsive_web_uc_gql_enabled                                           | boolean | True      |
 | vibe_api_enabled                                                        | boolean | False     |
@@ -2204,7 +2235,7 @@ Login Required: `Future`<br>
 |:-------------|:-------|:-----------|
 | listId       | Future | r          |
 | userId       | Future | a          |
-| ...()(0,x.S) | Future | _          |
+| ...()(0,P.S) | Future | _          |
 
 #### features<br>
 | key                                                   | type    | default   |
@@ -2226,7 +2257,7 @@ Login Required: `Future`<br>
 | isPrivate    | Future | private===a.toLowerCase() |
 | name         | Future | o                         |
 | description  | Future | r                         |
-| ...()(0,x.S) | Future | _                         |
+| ...()(0,P.S) | Future | _                         |
 
 #### features<br>
 | key                                                   | type    | default   |
@@ -2247,7 +2278,7 @@ Login Required: `Future`<br>
 |:-------------|:-------|:-----------|
 | listId       | Future | r          |
 | mediaId      | Future | a          |
-| ...()(0,x.S) | Future | _          |
+| ...()(0,P.S) | Future | _          |
 
 #### features<br>
 | key                                                   | type    | default   |
@@ -2281,7 +2312,7 @@ Login Required: `Future`<br>
 | key          | type   | variable   |
 |:-------------|:-------|:-----------|
 | listId       | Future | r          |
-| ...()(0,x.S) | Future | _          |
+| ...()(0,P.S) | Future | _          |
 
 #### features<br>
 | key                                                   | type    | default   |
@@ -2302,7 +2333,7 @@ Login Required: `Future`<br>
 |:-------------|:-------|:-----------|
 | screenName   | Future | i          |
 | listSlug     | Future | r          |
-| ...()(0,x.S) | Future | _          |
+| ...()(0,P.S) | Future | _          |
 
 #### features<br>
 | key                                                   | type    | default   |
@@ -2322,7 +2353,7 @@ Login Required: `Future`<br>
 | key          | type   | variable   |
 |:-------------|:-------|:-----------|
 | listId       | Future | n.list_id  |
-| ...()(0,x.S) | Future | _          |
+| ...()(0,P.S) | Future | _          |
 
 #### features<br>
 | key                                                   | type    | default   |
@@ -2334,7 +2365,7 @@ Login Required: `Future`<br>
 #### queryId<br>
 `None`<br>
 ## ListMembers<br>
-Request URL: `https://twitter.com/i/api/graphql/aoxbxB0FXH1wVA5MjiQibQ/ListMembers`<br>
+Request URL: `https://twitter.com/i/api/graphql/HxAFOEFKAN834yjh0PxuGA/ListMembers`<br>
 Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
@@ -2344,7 +2375,7 @@ Login Required: `Future`<br>
 | listId                   | Future | o           |
 | count                    | Future | r           |
 | cursor                   | Future | a           |
-| ...()(0,x.d)             | Future | _           |
+| ...()(0,P.d)             | Future | _           |
 | withSafetyModeUserFields | Future | t.isTrue(t) |
 
 #### features<br>
@@ -2354,6 +2385,7 @@ Login Required: `Future`<br>
 | verified_phone_label_enabled                                            | boolean | True      |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | False     |
 | view_counts_public_visibility_enabled                                   | boolean | True      |
+| view_counts_everywhere_api_enabled                                      | boolean | True      |
 | tweetypie_unmention_optimization_enabled                                | boolean | True      |
 | responsive_web_uc_gql_enabled                                           | boolean | True      |
 | vibe_api_enabled                                                        | boolean | False     |
@@ -2368,7 +2400,7 @@ Login Required: `Future`<br>
 #### queryId<br>
 `None`<br>
 ## ListSubscribers<br>
-Request URL: `https://twitter.com/i/api/graphql/kX5f9FXAaFElxfgGXVIuNA/ListSubscribers`<br>
+Request URL: `https://twitter.com/i/api/graphql/Hi5c5UNFOAPMToZi3DR5nQ/ListSubscribers`<br>
 Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
@@ -2378,7 +2410,7 @@ Login Required: `Future`<br>
 | listId       | Future | o          |
 | count        | Future | r          |
 | cursor       | Future | a          |
-| ...()(0,x.d) | Future | _          |
+| ...()(0,P.d) | Future | _          |
 
 #### features<br>
 | key                                                                     | type    | default   |
@@ -2387,6 +2419,7 @@ Login Required: `Future`<br>
 | verified_phone_label_enabled                                            | boolean | True      |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | False     |
 | view_counts_public_visibility_enabled                                   | boolean | True      |
+| view_counts_everywhere_api_enabled                                      | boolean | True      |
 | tweetypie_unmention_optimization_enabled                                | boolean | True      |
 | responsive_web_uc_gql_enabled                                           | boolean | True      |
 | vibe_api_enabled                                                        | boolean | False     |
@@ -2401,7 +2434,7 @@ Login Required: `Future`<br>
 #### queryId<br>
 `None`<br>
 ## ListOwnerships<br>
-Request URL: `https://twitter.com/i/api/graphql/DfGbogt4xPGIqerE4tYAJA/ListOwnerships`<br>
+Request URL: `https://twitter.com/i/api/graphql/ic9HYd8an9SPm7i6-yOrKQ/ListOwnerships`<br>
 Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
@@ -2412,7 +2445,7 @@ Login Required: `Future`<br>
 | isListMemberTargetUserId | Future | o          |
 | count                    | Future | r          |
 | cursor                   | Future | a          |
-| ...()(0,x.d)             | Future | _          |
+| ...()(0,P.d)             | Future | _          |
 
 #### features<br>
 | key                                                                     | type    | default   |
@@ -2421,6 +2454,7 @@ Login Required: `Future`<br>
 | verified_phone_label_enabled                                            | boolean | True      |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | False     |
 | view_counts_public_visibility_enabled                                   | boolean | True      |
+| view_counts_everywhere_api_enabled                                      | boolean | True      |
 | tweetypie_unmention_optimization_enabled                                | boolean | True      |
 | responsive_web_uc_gql_enabled                                           | boolean | True      |
 | vibe_api_enabled                                                        | boolean | False     |
@@ -2435,7 +2469,7 @@ Login Required: `Future`<br>
 #### queryId<br>
 `None`<br>
 ## ListMemberships<br>
-Request URL: `https://twitter.com/i/api/graphql/kVwGVJYjV6UTBBbF-xyL1A/ListMemberships`<br>
+Request URL: `https://twitter.com/i/api/graphql/Z0-IPUiW6xXMftxaPw6F6Q/ListMemberships`<br>
 Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
@@ -2445,7 +2479,7 @@ Login Required: `Future`<br>
 | userId       | Future | o          |
 | count        | Future | r          |
 | cursor       | Future | a          |
-| ...()(0,x.d) | Future | _          |
+| ...()(0,P.d) | Future | _          |
 
 #### features<br>
 | key                                                                     | type    | default   |
@@ -2454,6 +2488,7 @@ Login Required: `Future`<br>
 | verified_phone_label_enabled                                            | boolean | True      |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | False     |
 | view_counts_public_visibility_enabled                                   | boolean | True      |
+| view_counts_everywhere_api_enabled                                      | boolean | True      |
 | tweetypie_unmention_optimization_enabled                                | boolean | True      |
 | responsive_web_uc_gql_enabled                                           | boolean | True      |
 | vibe_api_enabled                                                        | boolean | False     |
@@ -2477,7 +2512,7 @@ Login Required: `Future`<br>
 |:-------------|:-------|:-----------|
 | listId       | Future | r          |
 | userId       | Future | a          |
-| ...()(0,x.S) | Future | _          |
+| ...()(0,P.S) | Future | _          |
 
 #### features<br>
 | key                                                   | type    | default   |
@@ -2537,7 +2572,7 @@ Login Required: `Future`<br>
 | key          | type   | variable   |
 |:-------------|:-------|:-----------|
 | listIds      | Future | i          |
-| ...()(0,x.S) | Future | _          |
+| ...()(0,P.S) | Future | _          |
 
 #### features<br>
 | key                                                   | type    | default   |
@@ -2557,7 +2592,7 @@ Login Required: `Future`<br>
 | key          | type   | variable   |
 |:-------------|:-------|:-----------|
 | listId       | Future | r          |
-| ...()(0,x.S) | Future | _          |
+| ...()(0,P.S) | Future | _          |
 
 #### features<br>
 | key                                                   | type    | default   |
@@ -2577,7 +2612,7 @@ Login Required: `Future`<br>
 | key          | type   | variable   |
 |:-------------|:-------|:-----------|
 | listId       | Future | r          |
-| ...()(0,x.S) | Future | _          |
+| ...()(0,P.S) | Future | _          |
 
 #### features<br>
 | key                                                   | type    | default   |
@@ -2628,7 +2663,7 @@ Login Required: `Future`<br>
 | isPrivate    | Future | private===o.toLowerCase() |
 | description  | Future | r                         |
 | name         | Future | s                         |
-| ...()(0,x.S) | Future | _                         |
+| ...()(0,P.S) | Future | _                         |
 
 #### features<br>
 | key                                                   | type    | default   |
@@ -2640,7 +2675,7 @@ Login Required: `Future`<br>
 #### queryId<br>
 `None`<br>
 ## CombinedLists<br>
-Request URL: `https://twitter.com/i/api/graphql/bwfwK3TtkdRDMJNmrfea2Q/CombinedLists`<br>
+Request URL: `https://twitter.com/i/api/graphql/xbRrm-m6JjVT4DQ1wj0ICQ/CombinedLists`<br>
 Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
@@ -2650,7 +2685,7 @@ Login Required: `Future`<br>
 | userId       | Future | r          |
 | count        | Future | n          |
 | cursor       | Future | i          |
-| ...()(0,x.d) | Future | _          |
+| ...()(0,P.d) | Future | _          |
 
 #### features<br>
 | key                                                                     | type    | default   |
@@ -2659,6 +2694,7 @@ Login Required: `Future`<br>
 | verified_phone_label_enabled                                            | boolean | True      |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | False     |
 | view_counts_public_visibility_enabled                                   | boolean | True      |
+| view_counts_everywhere_api_enabled                                      | boolean | True      |
 | tweetypie_unmention_optimization_enabled                                | boolean | True      |
 | responsive_web_uc_gql_enabled                                           | boolean | True      |
 | vibe_api_enabled                                                        | boolean | False     |
@@ -2673,7 +2709,7 @@ Login Required: `Future`<br>
 #### queryId<br>
 `None`<br>
 ## ListsManagementPageTimeline<br>
-Request URL: `https://twitter.com/i/api/graphql/WkbLbio6Snr5VPhW5Oe15w/ListsManagementPageTimeline`<br>
+Request URL: `https://twitter.com/i/api/graphql/d9IpOYBv8qZI5bctag-rxQ/ListsManagementPageTimeline`<br>
 Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
@@ -2682,7 +2718,7 @@ Login Required: `Future`<br>
 |:-------------|:-------|:-----------|
 | count        | Future | n          |
 | cursor       | Future | i          |
-| ...()(0,x.d) | Future | _          |
+| ...()(0,P.d) | Future | _          |
 
 #### features<br>
 | key                                                                     | type    | default   |
@@ -2691,6 +2727,7 @@ Login Required: `Future`<br>
 | verified_phone_label_enabled                                            | boolean | True      |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | False     |
 | view_counts_public_visibility_enabled                                   | boolean | True      |
+| view_counts_everywhere_api_enabled                                      | boolean | True      |
 | tweetypie_unmention_optimization_enabled                                | boolean | True      |
 | responsive_web_uc_gql_enabled                                           | boolean | True      |
 | vibe_api_enabled                                                        | boolean | False     |
@@ -2712,7 +2749,7 @@ Login Required: `Future`<br>
 #### variables<br>
 | key          | type   | variable   |
 |:-------------|:-------|:-----------|
-| ...()(0,x.S) | Future | _          |
+| ...()(0,P.S) | Future | _          |
 
 #### features<br>
 | key                                                   | type    | default   |
@@ -2724,7 +2761,7 @@ Login Required: `Future`<br>
 #### queryId<br>
 `None`<br>
 ## ListsDiscovery<br>
-Request URL: `https://twitter.com/i/api/graphql/sI-IgkazlUiZ4m1Yn7gvAg/ListsDiscovery`<br>
+Request URL: `https://twitter.com/i/api/graphql/pwB2KreEtKYbrX9tAZapcQ/ListsDiscovery`<br>
 Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
@@ -2733,7 +2770,7 @@ Login Required: `Future`<br>
 |:-------------|:-------|:-----------|
 | count        | Future | n          |
 | cursor       | Future | i          |
-| ...()(0,x.d) | Future | _          |
+| ...()(0,P.d) | Future | _          |
 
 #### features<br>
 | key                                                                     | type    | default   |
@@ -2742,6 +2779,7 @@ Login Required: `Future`<br>
 | verified_phone_label_enabled                                            | boolean | True      |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | False     |
 | view_counts_public_visibility_enabled                                   | boolean | True      |
+| view_counts_everywhere_api_enabled                                      | boolean | True      |
 | tweetypie_unmention_optimization_enabled                                | boolean | True      |
 | responsive_web_uc_gql_enabled                                           | boolean | True      |
 | vibe_api_enabled                                                        | boolean | False     |
@@ -2756,7 +2794,7 @@ Login Required: `Future`<br>
 #### queryId<br>
 `None`<br>
 ## UserAboutTimeline<br>
-Request URL: `https://twitter.com/i/api/graphql/NQyPgLUWO_pXtp0yIvMvpg/UserAboutTimeline`<br>
+Request URL: `https://twitter.com/i/api/graphql/L7Aa2o93P4xkvKMftq6ALQ/UserAboutTimeline`<br>
 Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
@@ -2767,7 +2805,7 @@ Login Required: `Future`<br>
 | count                  | Future | n          |
 | cursor                 | Future | i          |
 | includePromotedContent | Future | False      |
-| ...()(0,x.d)           | Future | _          |
+| ...()(0,P.d)           | Future | _          |
 
 #### features<br>
 | key                                                                     | type    | default   |
@@ -2776,6 +2814,7 @@ Login Required: `Future`<br>
 | verified_phone_label_enabled                                            | boolean | True      |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | False     |
 | view_counts_public_visibility_enabled                                   | boolean | True      |
+| view_counts_everywhere_api_enabled                                      | boolean | True      |
 | tweetypie_unmention_optimization_enabled                                | boolean | True      |
 | responsive_web_uc_gql_enabled                                           | boolean | True      |
 | vibe_api_enabled                                                        | boolean | False     |
@@ -2790,7 +2829,7 @@ Login Required: `Future`<br>
 #### queryId<br>
 `None`<br>
 ## UserTweets<br>
-Request URL: `https://twitter.com/i/api/graphql/-YSGbk4o-UiAnIcRRxH_8Q/UserTweets`<br>
+Request URL: `https://twitter.com/i/api/graphql/1yamZy1WELW6Q5sK3W7TKA/UserTweets`<br>
 Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
@@ -2802,7 +2841,7 @@ Login Required: `Future`<br>
 | cursor                                 | Future | i                                     |
 | includePromotedContent                 | Future | True                                  |
 | withQuickPromoteEligibilityTweetFields | Future | True                                  |
-| ...()(0,x.d)                           | Future | _                                     |
+| ...()(0,P.d)                           | Future | _                                     |
 | withVoice                              | Future | t.isTrue(t)                           |
 | withV2Timeline                         | Future | t.isTrue("voice_consumption_enabled") |
 
@@ -2813,6 +2852,7 @@ Login Required: `Future`<br>
 | verified_phone_label_enabled                                            | boolean | True      |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | False     |
 | view_counts_public_visibility_enabled                                   | boolean | True      |
+| view_counts_everywhere_api_enabled                                      | boolean | True      |
 | tweetypie_unmention_optimization_enabled                                | boolean | True      |
 | responsive_web_uc_gql_enabled                                           | boolean | True      |
 | vibe_api_enabled                                                        | boolean | False     |
@@ -2827,7 +2867,7 @@ Login Required: `Future`<br>
 #### queryId<br>
 `None`<br>
 ## UserTweetsAndReplies<br>
-Request URL: `https://twitter.com/i/api/graphql/onmJ9fXFDFeK2B8_yQYcDg/UserTweetsAndReplies`<br>
+Request URL: `https://twitter.com/i/api/graphql/CPV9CFxCE1azncOWYjW4WQ/UserTweetsAndReplies`<br>
 Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
@@ -2839,7 +2879,7 @@ Login Required: `Future`<br>
 | cursor                    | Future | i                                     |
 | includePromotedContent    | Future | True                                  |
 | withCommunity             | Future | t.isTrue()                            |
-| ...("c9s_enabled")(0,x.d) | Future | _                                     |
+| ...("c9s_enabled")(0,P.d) | Future | _                                     |
 | withVoice                 | Future | t.isTrue(t)                           |
 | withV2Timeline            | Future | t.isTrue("voice_consumption_enabled") |
 
@@ -2850,6 +2890,7 @@ Login Required: `Future`<br>
 | verified_phone_label_enabled                                            | boolean | True      |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | False     |
 | view_counts_public_visibility_enabled                                   | boolean | True      |
+| view_counts_everywhere_api_enabled                                      | boolean | True      |
 | tweetypie_unmention_optimization_enabled                                | boolean | True      |
 | responsive_web_uc_gql_enabled                                           | boolean | True      |
 | vibe_api_enabled                                                        | boolean | False     |
@@ -2864,7 +2905,7 @@ Login Required: `Future`<br>
 #### queryId<br>
 `None`<br>
 ## UserSuperFollowTweets<br>
-Request URL: `https://twitter.com/i/api/graphql/snYgYSX58kUaw4AQSuz4Qg/UserSuperFollowTweets`<br>
+Request URL: `https://twitter.com/i/api/graphql/-P94A1iR_zoHfjZFcSjIHQ/UserSuperFollowTweets`<br>
 Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
@@ -2875,7 +2916,7 @@ Login Required: `Future`<br>
 | count                  | Future | n           |
 | cursor                 | Future | i           |
 | includePromotedContent | Future | True        |
-| ...()(0,x.d)           | Future | _           |
+| ...()(0,P.d)           | Future | _           |
 | withVoice              | Future | t.isTrue(t) |
 
 #### features<br>
@@ -2885,6 +2926,7 @@ Login Required: `Future`<br>
 | verified_phone_label_enabled                                            | boolean | True      |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | False     |
 | view_counts_public_visibility_enabled                                   | boolean | True      |
+| view_counts_everywhere_api_enabled                                      | boolean | True      |
 | tweetypie_unmention_optimization_enabled                                | boolean | True      |
 | responsive_web_uc_gql_enabled                                           | boolean | True      |
 | vibe_api_enabled                                                        | boolean | False     |
@@ -2899,7 +2941,7 @@ Login Required: `Future`<br>
 #### queryId<br>
 `None`<br>
 ## UserPromotableTweets<br>
-Request URL: `https://twitter.com/i/api/graphql/teObW64YiX3C80p9dcffvg/UserPromotableTweets`<br>
+Request URL: `https://twitter.com/i/api/graphql/GYyr5B5LvXphSWPChrXlSQ/UserPromotableTweets`<br>
 Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
@@ -2915,6 +2957,7 @@ Login Required: `Future`<br>
 | verified_phone_label_enabled                                            | boolean | True      |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | False     |
 | view_counts_public_visibility_enabled                                   | boolean | True      |
+| view_counts_everywhere_api_enabled                                      | boolean | True      |
 | tweetypie_unmention_optimization_enabled                                | boolean | True      |
 | responsive_web_uc_gql_enabled                                           | boolean | True      |
 | vibe_api_enabled                                                        | boolean | False     |
@@ -2929,7 +2972,7 @@ Login Required: `Future`<br>
 #### queryId<br>
 `None`<br>
 ## Likes<br>
-Request URL: `https://twitter.com/i/api/graphql/EG2HIdzWiBe0oIoERAUTaA/Likes`<br>
+Request URL: `https://twitter.com/i/api/graphql/Q0iAzHNbtz-SNbzxkONfzA/Likes`<br>
 Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
@@ -2940,7 +2983,7 @@ Login Required: `Future`<br>
 | count                  | Future | n                                     |
 | cursor                 | Future | i                                     |
 | includePromotedContent | Future | False                                 |
-| ...()(0,x.d)           | Future | _                                     |
+| ...()(0,P.d)           | Future | _                                     |
 | withClientEventToken   | Future | False                                 |
 | withBirdwatchNotes     | Future | False                                 |
 | withVoice              | Future | t.isTrue(t)                           |
@@ -2953,6 +2996,7 @@ Login Required: `Future`<br>
 | verified_phone_label_enabled                                            | boolean | True      |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | False     |
 | view_counts_public_visibility_enabled                                   | boolean | True      |
+| view_counts_everywhere_api_enabled                                      | boolean | True      |
 | tweetypie_unmention_optimization_enabled                                | boolean | True      |
 | responsive_web_uc_gql_enabled                                           | boolean | True      |
 | vibe_api_enabled                                                        | boolean | False     |
@@ -2967,7 +3011,7 @@ Login Required: `Future`<br>
 #### queryId<br>
 `None`<br>
 ## UserMedia<br>
-Request URL: `https://twitter.com/i/api/graphql/ojKlWLVp7ttCKanb7rii6Q/UserMedia`<br>
+Request URL: `https://twitter.com/i/api/graphql/70Lluv89iacBIE1j2K_xUw/UserMedia`<br>
 Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
@@ -2978,7 +3022,7 @@ Login Required: `Future`<br>
 | count                  | Future | n                                     |
 | cursor                 | Future | i                                     |
 | includePromotedContent | Future | False                                 |
-| ...()(0,x.d)           | Future | _                                     |
+| ...()(0,P.d)           | Future | _                                     |
 | withClientEventToken   | Future | False                                 |
 | withBirdwatchNotes     | Future | False                                 |
 | withVoice              | Future | t.isTrue(t)                           |
@@ -2991,6 +3035,7 @@ Login Required: `Future`<br>
 | verified_phone_label_enabled                                            | boolean | True      |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | False     |
 | view_counts_public_visibility_enabled                                   | boolean | True      |
+| view_counts_everywhere_api_enabled                                      | boolean | True      |
 | tweetypie_unmention_optimization_enabled                                | boolean | True      |
 | responsive_web_uc_gql_enabled                                           | boolean | True      |
 | vibe_api_enabled                                                        | boolean | False     |
@@ -3019,7 +3064,7 @@ Login Required: `Future`<br>
 #### queryId<br>
 `None`<br>
 ## RitoActionedTweetsTimeline<br>
-Request URL: `https://twitter.com/i/api/graphql/bBdOO_vpavYHLehIssgWLA/RitoActionedTweetsTimeline`<br>
+Request URL: `https://twitter.com/i/api/graphql/zArFx0h_Q7RE8OHkkXGY-w/RitoActionedTweetsTimeline`<br>
 Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
@@ -3028,7 +3073,7 @@ Login Required: `Future`<br>
 |:-------------------------|:-------|:------------|
 | cursor                   | Future | n           |
 | rest_id                  | Future | i           |
-| ...()(0,x.d)             | Future | _           |
+| ...()(0,P.d)             | Future | _           |
 | withSafetyModeUserFields | Future | t.isTrue(t) |
 
 #### features<br>
@@ -3038,6 +3083,7 @@ Login Required: `Future`<br>
 | verified_phone_label_enabled                                            | boolean | True      |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | False     |
 | view_counts_public_visibility_enabled                                   | boolean | True      |
+| view_counts_everywhere_api_enabled                                      | boolean | True      |
 | tweetypie_unmention_optimization_enabled                                | boolean | True      |
 | responsive_web_uc_gql_enabled                                           | boolean | True      |
 | vibe_api_enabled                                                        | boolean | False     |
@@ -3066,7 +3112,7 @@ Login Required: `Future`<br>
 #### queryId<br>
 `None`<br>
 ## RitoFlaggedAccountsTimeline<br>
-Request URL: `https://twitter.com/i/api/graphql/bSXoUmd8W6VrbDojCKO-Pg/RitoFlaggedAccountsTimeline`<br>
+Request URL: `https://twitter.com/i/api/graphql/cVDFiaU6G5bShPxaoOInYg/RitoFlaggedAccountsTimeline`<br>
 Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
@@ -3074,7 +3120,7 @@ Login Required: `Future`<br>
 | key                      | type   | variable    |
 |:-------------------------|:-------|:------------|
 | cursor                   | Future | n           |
-| ...()(0,x.d)             | Future | _           |
+| ...()(0,P.d)             | Future | _           |
 | withSafetyModeUserFields | Future | t.isTrue(t) |
 
 #### features<br>
@@ -3084,6 +3130,7 @@ Login Required: `Future`<br>
 | verified_phone_label_enabled                                            | boolean | True      |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | False     |
 | view_counts_public_visibility_enabled                                   | boolean | True      |
+| view_counts_everywhere_api_enabled                                      | boolean | True      |
 | tweetypie_unmention_optimization_enabled                                | boolean | True      |
 | responsive_web_uc_gql_enabled                                           | boolean | True      |
 | vibe_api_enabled                                                        | boolean | False     |
@@ -3098,7 +3145,7 @@ Login Required: `Future`<br>
 #### queryId<br>
 `None`<br>
 ## RitoFlaggedTweetsTimeline<br>
-Request URL: `https://twitter.com/i/api/graphql/iPkakVGPBq8NgJ7q9i5mxQ/RitoFlaggedTweetsTimeline`<br>
+Request URL: `https://twitter.com/i/api/graphql/0XG0ilRekFJ8h3hKfos0Gw/RitoFlaggedTweetsTimeline`<br>
 Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
@@ -3107,7 +3154,7 @@ Login Required: `Future`<br>
 |:-------------------------|:-------|:------------|
 | cursor                   | Future | n           |
 | rest_id                  | Future | i           |
-| ...()(0,x.d)             | Future | _           |
+| ...()(0,P.d)             | Future | _           |
 | withSafetyModeUserFields | Future | t.isTrue(t) |
 
 #### features<br>
@@ -3117,6 +3164,7 @@ Login Required: `Future`<br>
 | verified_phone_label_enabled                                            | boolean | True      |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | False     |
 | view_counts_public_visibility_enabled                                   | boolean | True      |
+| view_counts_everywhere_api_enabled                                      | boolean | True      |
 | tweetypie_unmention_optimization_enabled                                | boolean | True      |
 | responsive_web_uc_gql_enabled                                           | boolean | True      |
 | vibe_api_enabled                                                        | boolean | False     |
@@ -3394,7 +3442,7 @@ Login Required: `Future`<br>
 #### queryId<br>
 `None`<br>
 ## ArticleTweetsTimeline<br>
-Request URL: `https://twitter.com/i/api/graphql/setH1iFonmb2nDEMSxTsiw/ArticleTweetsTimeline`<br>
+Request URL: `https://twitter.com/i/api/graphql/o0gQdxxvlH5XvuP2OMKVpw/ArticleTweetsTimeline`<br>
 Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
@@ -3402,7 +3450,7 @@ Login Required: `Future`<br>
 | key                 | type   | variable   |
 |:--------------------|:-------|:-----------|
 | ...n                | Future | _          |
-| ...()(0,x.d)        | Future | _          |
+| ...()(0,P.d)        | Future | _          |
 | articleListSeedType | Future | i          |
 
 #### features<br>
@@ -3412,6 +3460,7 @@ Login Required: `Future`<br>
 | verified_phone_label_enabled                                            | boolean | True      |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | False     |
 | view_counts_public_visibility_enabled                                   | boolean | True      |
+| view_counts_everywhere_api_enabled                                      | boolean | True      |
 | tweetypie_unmention_optimization_enabled                                | boolean | True      |
 | responsive_web_uc_gql_enabled                                           | boolean | True      |
 | vibe_api_enabled                                                        | boolean | False     |
@@ -3426,7 +3475,7 @@ Login Required: `Future`<br>
 #### queryId<br>
 `None`<br>
 ## ArticleTimeline<br>
-Request URL: `https://twitter.com/i/api/graphql/IAJ3uSHKP3_D9ot0_8lEHA/ArticleTimeline`<br>
+Request URL: `https://twitter.com/i/api/graphql/_PIeZUa9Cx_2zBjq9GzU7Q/ArticleTimeline`<br>
 Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
@@ -3434,7 +3483,7 @@ Login Required: `Future`<br>
 | key                 | type   | variable   |
 |:--------------------|:-------|:-----------|
 | ...n                | Future | _          |
-| ...()(0,x.d)        | Future | _          |
+| ...()(0,P.d)        | Future | _          |
 | articleListSeedType | Future | i          |
 
 #### features<br>
@@ -3444,6 +3493,7 @@ Login Required: `Future`<br>
 | verified_phone_label_enabled                                            | boolean | True      |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | False     |
 | view_counts_public_visibility_enabled                                   | boolean | True      |
+| view_counts_everywhere_api_enabled                                      | boolean | True      |
 | tweetypie_unmention_optimization_enabled                                | boolean | True      |
 | responsive_web_uc_gql_enabled                                           | boolean | True      |
 | vibe_api_enabled                                                        | boolean | False     |
@@ -3458,14 +3508,14 @@ Login Required: `Future`<br>
 #### queryId<br>
 `None`<br>
 ## TopicTimeline<br>
-Request URL: `https://twitter.com/i/api/graphql/_grv13dq6qKIHsstD4ALiQ/TopicTimeline`<br>
+Request URL: `https://twitter.com/i/api/graphql/Q2KD2mrLzGAv5yjba9LmiQ/TopicTimeline`<br>
 Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
 #### variables<br>
 ```internal process
 # Error
-{"rest_id":"o","cursor":"r","context":"JSON.stringify()"{"data_lookup_id":"a"}"0","x.dt"}
+{"rest_id":"o","cursor":"r","context":"JSON.stringify()"{"data_lookup_id":"a"}"0","P.dt"}
 ```
 #### features<br>
 | key                                                                     | type    | default   |
@@ -3474,6 +3524,7 @@ Login Required: `Future`<br>
 | verified_phone_label_enabled                                            | boolean | True      |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | False     |
 | view_counts_public_visibility_enabled                                   | boolean | True      |
+| view_counts_everywhere_api_enabled                                      | boolean | True      |
 | tweetypie_unmention_optimization_enabled                                | boolean | True      |
 | responsive_web_uc_gql_enabled                                           | boolean | True      |
 | vibe_api_enabled                                                        | boolean | False     |
@@ -3488,14 +3539,14 @@ Login Required: `Future`<br>
 #### queryId<br>
 `None`<br>
 ## TopicLandingPage<br>
-Request URL: `https://twitter.com/i/api/graphql/P2MSwAMmlC85SMpyPy1_og/TopicLandingPage`<br>
+Request URL: `https://twitter.com/i/api/graphql/0GVsiRRDl9DznJYLiG6PRQ/TopicLandingPage`<br>
 Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
 #### variables<br>
 ```internal process
 # Error
-{"rest_id":"o","cursor":"r","context":"JSON.stringify()"{"data_lookup_id":"a"}"0","x.dt"}
+{"rest_id":"o","cursor":"r","context":"JSON.stringify()"{"data_lookup_id":"a"}"0","P.dt"}
 ```
 #### features<br>
 | key                                                                     | type    | default   |
@@ -3504,6 +3555,7 @@ Login Required: `Future`<br>
 | verified_phone_label_enabled                                            | boolean | True      |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | False     |
 | view_counts_public_visibility_enabled                                   | boolean | True      |
+| view_counts_everywhere_api_enabled                                      | boolean | True      |
 | tweetypie_unmention_optimization_enabled                                | boolean | True      |
 | responsive_web_uc_gql_enabled                                           | boolean | True      |
 | vibe_api_enabled                                                        | boolean | False     |
@@ -3518,7 +3570,7 @@ Login Required: `Future`<br>
 #### queryId<br>
 `None`<br>
 ## TopicsManagementPage<br>
-Request URL: `https://twitter.com/i/api/graphql/fDs-DsL-Sx5iufoBqyRXCg/TopicsManagementPage`<br>
+Request URL: `https://twitter.com/i/api/graphql/1BF3BeJq7D7UMcPG18ja2g/TopicsManagementPage`<br>
 Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
@@ -3526,7 +3578,7 @@ Login Required: `Future`<br>
 | key          | type   | variable   |
 |:-------------|:-------|:-----------|
 | cursor       | Future | r          |
-| ...()(0,x.d) | Future | _          |
+| ...()(0,P.d) | Future | _          |
 
 #### features<br>
 | key                                                                     | type    | default   |
@@ -3535,6 +3587,7 @@ Login Required: `Future`<br>
 | verified_phone_label_enabled                                            | boolean | True      |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | False     |
 | view_counts_public_visibility_enabled                                   | boolean | True      |
+| view_counts_everywhere_api_enabled                                      | boolean | True      |
 | tweetypie_unmention_optimization_enabled                                | boolean | True      |
 | responsive_web_uc_gql_enabled                                           | boolean | True      |
 | vibe_api_enabled                                                        | boolean | False     |
@@ -3563,7 +3616,7 @@ Login Required: `Future`<br>
 #### queryId<br>
 `None`<br>
 ## TopicsPickerPageById<br>
-Request URL: `https://twitter.com/i/api/graphql/3dkE-DAg8DECwj01okBjHw/TopicsPickerPageById`<br>
+Request URL: `https://twitter.com/i/api/graphql/7Wzaat1NvVgX7tVdmOyIog/TopicsPickerPageById`<br>
 Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
@@ -3571,7 +3624,7 @@ Login Required: `Future`<br>
 | key          | type   | variable   |
 |:-------------|:-------|:-----------|
 | topicId      | Future | r          |
-| ...()(0,x.d) | Future | _          |
+| ...()(0,P.d) | Future | _          |
 
 #### features<br>
 | key                                                                     | type    | default   |
@@ -3580,6 +3633,7 @@ Login Required: `Future`<br>
 | verified_phone_label_enabled                                            | boolean | True      |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | False     |
 | view_counts_public_visibility_enabled                                   | boolean | True      |
+| view_counts_everywhere_api_enabled                                      | boolean | True      |
 | tweetypie_unmention_optimization_enabled                                | boolean | True      |
 | responsive_web_uc_gql_enabled                                           | boolean | True      |
 | vibe_api_enabled                                                        | boolean | False     |
@@ -3594,14 +3648,14 @@ Login Required: `Future`<br>
 #### queryId<br>
 `None`<br>
 ## TopicsPickerPage<br>
-Request URL: `https://twitter.com/i/api/graphql/hHFqeAyo0ZxITUlDFJtvhg/TopicsPickerPage`<br>
+Request URL: `https://twitter.com/i/api/graphql/sN4w24GPa-g8weZlWcfAmA/TopicsPickerPage`<br>
 Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
 #### variables<br>
 | key          | type   | variable   |
 |:-------------|:-------|:-----------|
-| ...()(0,x.d) | Future | _          |
+| ...()(0,P.d) | Future | _          |
 
 #### features<br>
 | key                                                                     | type    | default   |
@@ -3610,6 +3664,7 @@ Login Required: `Future`<br>
 | verified_phone_label_enabled                                            | boolean | True      |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | False     |
 | view_counts_public_visibility_enabled                                   | boolean | True      |
+| view_counts_everywhere_api_enabled                                      | boolean | True      |
 | tweetypie_unmention_optimization_enabled                                | boolean | True      |
 | responsive_web_uc_gql_enabled                                           | boolean | True      |
 | vibe_api_enabled                                                        | boolean | False     |
@@ -3624,7 +3679,7 @@ Login Required: `Future`<br>
 #### queryId<br>
 `None`<br>
 ## ViewingOtherUsersTopicsPage<br>
-Request URL: `https://twitter.com/i/api/graphql/6kjd97sarD9V9IQd3Ole4g/ViewingOtherUsersTopicsPage`<br>
+Request URL: `https://twitter.com/i/api/graphql/L9ofTNF7lP4tPXvEkLKReA/ViewingOtherUsersTopicsPage`<br>
 Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
@@ -3634,7 +3689,7 @@ Login Required: `Future`<br>
 | userId       | Future | o          |
 | cursor       | Future | a          |
 | context      | Future | r          |
-| ...()(0,x.d) | Future | _          |
+| ...()(0,P.d) | Future | _          |
 
 #### features<br>
 | key                                                                     | type    | default   |
@@ -3643,6 +3698,7 @@ Login Required: `Future`<br>
 | verified_phone_label_enabled                                            | boolean | True      |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | False     |
 | view_counts_public_visibility_enabled                                   | boolean | True      |
+| view_counts_everywhere_api_enabled                                      | boolean | True      |
 | tweetypie_unmention_optimization_enabled                                | boolean | True      |
 | responsive_web_uc_gql_enabled                                           | boolean | True      |
 | vibe_api_enabled                                                        | boolean | False     |
@@ -3657,7 +3713,7 @@ Login Required: `Future`<br>
 #### queryId<br>
 `None`<br>
 ## NoteworthyAccountsPage<br>
-Request URL: `https://twitter.com/i/api/graphql/imi9ybUaClA87ClMLZeE-Q/NoteworthyAccountsPage`<br>
+Request URL: `https://twitter.com/i/api/graphql/fpw9DmjMG4EnWqG9_N79Vg/NoteworthyAccountsPage`<br>
 Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
@@ -3666,7 +3722,7 @@ Login Required: `Future`<br>
 |:-------------|:-------|:-----------|
 | rest_id      | Future | a          |
 | cursor       | Future | r          |
-| ...()(0,x.d) | Future | _          |
+| ...()(0,P.d) | Future | _          |
 
 #### features<br>
 | key                                                                     | type    | default   |
@@ -3675,6 +3731,7 @@ Login Required: `Future`<br>
 | verified_phone_label_enabled                                            | boolean | True      |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | False     |
 | view_counts_public_visibility_enabled                                   | boolean | True      |
+| view_counts_everywhere_api_enabled                                      | boolean | True      |
 | tweetypie_unmention_optimization_enabled                                | boolean | True      |
 | responsive_web_uc_gql_enabled                                           | boolean | True      |
 | vibe_api_enabled                                                        | boolean | False     |
@@ -3745,7 +3802,7 @@ Login Required: `Future`<br>
 #### queryId<br>
 `None`<br>
 ## TopicToFollowSidebar<br>
-Request URL: `https://twitter.com/i/api/graphql/rB6bZcc6kIyTTb6YKHK39A/TopicToFollowSidebar`<br>
+Request URL: `https://twitter.com/i/api/graphql/hG3IaJWhiogiKED-Z25qVw/TopicToFollowSidebar`<br>
 Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
@@ -3753,7 +3810,7 @@ Login Required: `Future`<br>
 | key          | type   | variable   |
 |:-------------|:-------|:-----------|
 | userId       | Future | r          |
-| ...()(0,x.d) | Future | _          |
+| ...()(0,P.d) | Future | _          |
 
 #### features<br>
 | key                                                                     | type    | default   |
@@ -3762,6 +3819,7 @@ Login Required: `Future`<br>
 | verified_phone_label_enabled                                            | boolean | True      |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | False     |
 | view_counts_public_visibility_enabled                                   | boolean | True      |
+| view_counts_everywhere_api_enabled                                      | boolean | True      |
 | tweetypie_unmention_optimization_enabled                                | boolean | True      |
 | responsive_web_uc_gql_enabled                                           | boolean | True      |
 | vibe_api_enabled                                                        | boolean | False     |
@@ -3816,7 +3874,7 @@ Login Required: `Future`<br>
 #### queryId<br>
 `None`<br>
 ## TwitterArticleByRestId<br>
-Request URL: `https://twitter.com/i/api/graphql/7573Ur6at0EKV1eEk54CiA/TwitterArticleByRestId`<br>
+Request URL: `https://twitter.com/i/api/graphql/UvaGLBeKJqUvVgaNjUYouA/TwitterArticleByRestId`<br>
 Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
@@ -3824,7 +3882,7 @@ Login Required: `Future`<br>
 | key              | type   | variable   |
 |:-----------------|:-------|:-----------|
 | twitterArticleId | Future | i          |
-| ...()(0,x.d)     | Future | _          |
+| ...()(0,P.d)     | Future | _          |
 
 #### features<br>
 | key                                                                     | type    | default   |
@@ -3833,6 +3891,7 @@ Login Required: `Future`<br>
 | responsive_web_twitter_blue_verified_badge_is_enabled                   | boolean | True      |
 | verified_phone_label_enabled                                            | boolean | True      |
 | view_counts_public_visibility_enabled                                   | boolean | True      |
+| view_counts_everywhere_api_enabled                                      | boolean | True      |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | False     |
 | tweetypie_unmention_optimization_enabled                                | boolean | True      |
 | responsive_web_uc_gql_enabled                                           | boolean | True      |
@@ -3848,7 +3907,7 @@ Login Required: `Future`<br>
 #### queryId<br>
 `None`<br>
 ## TwitterArticleCreate<br>
-Request URL: `https://twitter.com/i/api/graphql/ZwW1dtYxMGldYWRlb5sjLg/TwitterArticleCreate`<br>
+Request URL: `https://twitter.com/i/api/graphql/PSmbG7vF6-VYxMOOxElWJQ/TwitterArticleCreate`<br>
 Request Method: `POST`<br>
 Login Required: `Future`<br>
 ### Param<br>
@@ -3856,7 +3915,7 @@ Login Required: `Future`<br>
 | key          | type   | variable                    |
 |:-------------|:-------|:----------------------------|
 | data         | Future | {'content_state_json': 'i'} |
-| ...()(0,x.d) | Future | _                           |
+| ...()(0,P.d) | Future | _                           |
 
 #### features<br>
 | key                                                                     | type    | default   |
@@ -3865,6 +3924,7 @@ Login Required: `Future`<br>
 | responsive_web_twitter_blue_verified_badge_is_enabled                   | boolean | True      |
 | verified_phone_label_enabled                                            | boolean | True      |
 | view_counts_public_visibility_enabled                                   | boolean | True      |
+| view_counts_everywhere_api_enabled                                      | boolean | True      |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | False     |
 | tweetypie_unmention_optimization_enabled                                | boolean | True      |
 | responsive_web_uc_gql_enabled                                           | boolean | True      |
@@ -3894,7 +3954,7 @@ Login Required: `Future`<br>
 #### queryId<br>
 `None`<br>
 ## TwitterArticleUpdateCoverImage<br>
-Request URL: `https://twitter.com/i/api/graphql/GCZOvD35KUEAP1cUjHnlBg/TwitterArticleUpdateCoverImage`<br>
+Request URL: `https://twitter.com/i/api/graphql/poBfQXlIevVs_j5Td8XP2g/TwitterArticleUpdateCoverImage`<br>
 Request Method: `POST`<br>
 Login Required: `Future`<br>
 ### Param<br>
@@ -3903,7 +3963,7 @@ Login Required: `Future`<br>
 |:-----------------|:-------|:-----------|
 | twitterArticleId | Future | r          |
 | mediaId          | Future | i          |
-| ...()(0,x.d)     | Future | _          |
+| ...()(0,P.d)     | Future | _          |
 
 #### features<br>
 | key                                                                     | type    | default   |
@@ -3912,6 +3972,7 @@ Login Required: `Future`<br>
 | responsive_web_twitter_blue_verified_badge_is_enabled                   | boolean | True      |
 | verified_phone_label_enabled                                            | boolean | True      |
 | view_counts_public_visibility_enabled                                   | boolean | True      |
+| view_counts_everywhere_api_enabled                                      | boolean | True      |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | False     |
 | tweetypie_unmention_optimization_enabled                                | boolean | True      |
 | responsive_web_uc_gql_enabled                                           | boolean | True      |
@@ -3927,7 +3988,7 @@ Login Required: `Future`<br>
 #### queryId<br>
 `None`<br>
 ## TwitterArticleUpdateData<br>
-Request URL: `https://twitter.com/i/api/graphql/EIfHkTIFwXNI0eBWQLo7bQ/TwitterArticleUpdateData`<br>
+Request URL: `https://twitter.com/i/api/graphql/JQpujtQ_ayFZcI884jof5g/TwitterArticleUpdateData`<br>
 Request Method: `POST`<br>
 Login Required: `Future`<br>
 ### Param<br>
@@ -3936,7 +3997,7 @@ Login Required: `Future`<br>
 |:-----------------|:-------|:-----------------------------------------------------------------|
 | twitterArticleId | Future | a                                                                |
 | data             | Future | {'content_state_json': 'i', 'plaintext': 'r', 'word_count': 'o'} |
-| ...()(0,x.d)     | Future | _                                                                |
+| ...()(0,P.d)     | Future | _                                                                |
 
 #### features<br>
 | key                                                                     | type    | default   |
@@ -3945,6 +4006,7 @@ Login Required: `Future`<br>
 | responsive_web_twitter_blue_verified_badge_is_enabled                   | boolean | True      |
 | verified_phone_label_enabled                                            | boolean | True      |
 | view_counts_public_visibility_enabled                                   | boolean | True      |
+| view_counts_everywhere_api_enabled                                      | boolean | True      |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | False     |
 | tweetypie_unmention_optimization_enabled                                | boolean | True      |
 | responsive_web_uc_gql_enabled                                           | boolean | True      |
@@ -3960,7 +4022,7 @@ Login Required: `Future`<br>
 #### queryId<br>
 `None`<br>
 ## TwitterArticleUpdateMedia<br>
-Request URL: `https://twitter.com/i/api/graphql/MwqBOeaj1othKvJALdxaqA/TwitterArticleUpdateMedia`<br>
+Request URL: `https://twitter.com/i/api/graphql/cv06EXmkS8f8oX2pVp_dxQ/TwitterArticleUpdateMedia`<br>
 Request Method: `POST`<br>
 Login Required: `Future`<br>
 ### Param<br>
@@ -3969,7 +4031,7 @@ Login Required: `Future`<br>
 |:-----------------|:-------|:-----------|
 | twitterArticleId | Future | r          |
 | mediaKeys        | Future | i          |
-| ...()(0,x.d)     | Future | _          |
+| ...()(0,P.d)     | Future | _          |
 
 #### features<br>
 | key                                                                     | type    | default   |
@@ -3978,6 +4040,7 @@ Login Required: `Future`<br>
 | responsive_web_twitter_blue_verified_badge_is_enabled                   | boolean | True      |
 | verified_phone_label_enabled                                            | boolean | True      |
 | view_counts_public_visibility_enabled                                   | boolean | True      |
+| view_counts_everywhere_api_enabled                                      | boolean | True      |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | False     |
 | tweetypie_unmention_optimization_enabled                                | boolean | True      |
 | responsive_web_uc_gql_enabled                                           | boolean | True      |
@@ -3993,7 +4056,7 @@ Login Required: `Future`<br>
 #### queryId<br>
 `None`<br>
 ## TwitterArticleUpdateTitle<br>
-Request URL: `https://twitter.com/i/api/graphql/mlN-RB5oW3C280rWr2UkyQ/TwitterArticleUpdateTitle`<br>
+Request URL: `https://twitter.com/i/api/graphql/9UB24OCt0Imoq6b3pINcrw/TwitterArticleUpdateTitle`<br>
 Request Method: `POST`<br>
 Login Required: `Future`<br>
 ### Param<br>
@@ -4002,7 +4065,7 @@ Login Required: `Future`<br>
 |:-----------------|:-------|:-----------|
 | twitterArticleId | Future | r          |
 | title            | Future | i          |
-| ...()(0,x.d)     | Future | _          |
+| ...()(0,P.d)     | Future | _          |
 
 #### features<br>
 | key                                                                     | type    | default   |
@@ -4011,6 +4074,7 @@ Login Required: `Future`<br>
 | responsive_web_twitter_blue_verified_badge_is_enabled                   | boolean | True      |
 | verified_phone_label_enabled                                            | boolean | True      |
 | view_counts_public_visibility_enabled                                   | boolean | True      |
+| view_counts_everywhere_api_enabled                                      | boolean | True      |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | False     |
 | tweetypie_unmention_optimization_enabled                                | boolean | True      |
 | responsive_web_uc_gql_enabled                                           | boolean | True      |
@@ -4026,7 +4090,7 @@ Login Required: `Future`<br>
 #### queryId<br>
 `None`<br>
 ## TwitterArticleUpdateVisibility<br>
-Request URL: `https://twitter.com/i/api/graphql/fj8RfxUaC7mWPxCmNtpNsA/TwitterArticleUpdateVisibility`<br>
+Request URL: `https://twitter.com/i/api/graphql/S0lJ0QkqZkToHfHStovs6A/TwitterArticleUpdateVisibility`<br>
 Request Method: `POST`<br>
 Login Required: `Future`<br>
 ### Param<br>
@@ -4035,7 +4099,7 @@ Login Required: `Future`<br>
 |:-----------------|:-------|:-----------|
 | twitterArticleId | Future | i          |
 | visibility       | Future | r          |
-| ...()(0,x.d)     | Future | _          |
+| ...()(0,P.d)     | Future | _          |
 
 #### features<br>
 | key                                                                     | type    | default   |
@@ -4044,6 +4108,7 @@ Login Required: `Future`<br>
 | responsive_web_twitter_blue_verified_badge_is_enabled                   | boolean | True      |
 | verified_phone_label_enabled                                            | boolean | True      |
 | view_counts_public_visibility_enabled                                   | boolean | True      |
+| view_counts_everywhere_api_enabled                                      | boolean | True      |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | False     |
 | tweetypie_unmention_optimization_enabled                                | boolean | True      |
 | responsive_web_uc_gql_enabled                                           | boolean | True      |
@@ -4059,7 +4124,7 @@ Login Required: `Future`<br>
 #### queryId<br>
 `None`<br>
 ## TwitterArticlesSlice<br>
-Request URL: `https://twitter.com/i/api/graphql/SbwhauXP_PLp-iYDCnAH8A/TwitterArticlesSlice`<br>
+Request URL: `https://twitter.com/i/api/graphql/p7ls-e-nVoYohJo5NIRz3Q/TwitterArticlesSlice`<br>
 Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
@@ -4067,7 +4132,7 @@ Login Required: `Future`<br>
 | key          | type   | variable   |
 |:-------------|:-------|:-----------|
 | ...n         | Future | _          |
-| ...()(0,x.d) | Future | _          |
+| ...()(0,P.d) | Future | _          |
 
 #### features<br>
 | key                                                                     | type    | default   |
@@ -4076,6 +4141,7 @@ Login Required: `Future`<br>
 | responsive_web_twitter_blue_verified_badge_is_enabled                   | boolean | True      |
 | verified_phone_label_enabled                                            | boolean | True      |
 | view_counts_public_visibility_enabled                                   | boolean | True      |
+| view_counts_everywhere_api_enabled                                      | boolean | True      |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | False     |
 | tweetypie_unmention_optimization_enabled                                | boolean | True      |
 | responsive_web_uc_gql_enabled                                           | boolean | True      |
