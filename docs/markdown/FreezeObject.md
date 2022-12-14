@@ -330,6 +330,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | arkose_challenge_transparent_signup_prod                                              | True    |
 | Arkose_rweb_hosted_page                                                               | True    |
 | Arkose_use_invisible_challenge_key                                                    | True    |
+| blue_business_affiliate_badge_consumption_ui_enabled                                  | True    |
 | blue_business_consumption_api_enabled                                                 | True    |
 | blue_business_grey_checkmark_enabled                                                  | True    |
 | blue_business_square_avatar_consumption_ui_enabled                                    | True    |
@@ -2797,6 +2798,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | isLinkedSearchExperimentEnabled             | False   |
 | isSuperFollowsRenamed                       | False   |
 | blueVerifiedBadgeIsEnabled                  | False   |
+| blueBusinessAffiliateBadgeEnabled           | False   |
 | blueBusinessVerifiedBadgeEnabled            | False   |
 | blueGovernmentVerifiedBadgeEnabled          | False   |
 | newBadgeColorEnabled                        | False   |
