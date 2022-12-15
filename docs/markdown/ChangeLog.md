@@ -61,3 +61,9 @@ BirdwatchAliasSelect<br>
 BirdwatchFetchPublicData<br>
 BirdwatchFetchGlobalTimeline<br>
 BirdwatchFetchAliasSelfSelectOptions<br>
+##2022/12/15<br>
+### add<br>
+None<br>
+### remove<br>
+UrtFixtures<br>
+ConnectTabTimeline<br>
