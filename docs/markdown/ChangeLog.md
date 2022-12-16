@@ -67,3 +67,31 @@ None<br>
 ### remove<br>
 UrtFixtures<br>
 ConnectTabTimeline<br>
+##2022/12/16<br>
+### add<br>
+None<br>
+### remove<br>
+ListAddMember<br>
+CreateList<br>
+EditListBanner<br>
+DeleteList<br>
+DeleteListBanner<br>
+ListBySlug<br>
+ListByRestId<br>
+ListMembers<br>
+ListSubscribers<br>
+ListOwnerships<br>
+ListMemberships<br>
+ListRemoveMember<br>
+ListUnpinOne<br>
+ListPinOne<br>
+ListsPinMany<br>
+ListSubscribe<br>
+ListUnsubscribe<br>
+MuteList<br>
+UnmuteList<br>
+UpdateList<br>
+CombinedLists<br>
+ListsManagementPageTimeline<br>
+ListPins<br>
+ListsDiscovery<br>
