@@ -437,6 +437,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | follow_nudge_conversation_enabled                                                     | True    |
 | follow_nudge_search_enabled                                                           | True    |
 | global_mention_settings_enabled                                                       | True    |
+| graduated_access_invisible_treatment_enabled                                          | True    |
 | graduated_access_user_prompt_enabled                                                  | True    |
 | graphql_composer_and_dm_card_previews_enabled                                         | True    |
 | graphql_is_translatable_rweb_tweet_is_translatable_enabled                            | True    |
@@ -1933,18 +1934,6 @@ This document is entirely auto-generated and may contain errors.<br>
 | Default    | Default |
 | Hero       | Hero    |
 
-| constant          | value             |
-|:------------------|:------------------|
-| List              | List              |
-| ListTile          | ListTile          |
-| ListWithPin       | ListWithPin       |
-| ListWithSubscribe | ListWithSubscribe |
-
-| constant   | value         |
-|:-----------|:--------------|
-| Creation   | list_creation |
-| Edit       | list_edit     |
-
 | constant       | value          |
 |:---------------|:---------------|
 | Basic          | Basic          |
@@ -2347,6 +2336,12 @@ This document is entirely auto-generated and may contain errors.<br>
 |:-------------|:-------------|
 | homeTimeline | homeTimeline |
 | modal        | modal        |
+
+| constant   | value                          |
+|:-----------|:-------------------------------|
+| REQUEST    | rweb/typeaheadV2/FETCH_REQUEST |
+| SUCCESS    | rweb/typeaheadV2/FETCH_SUCCESS |
+| FAILURE    | rweb/typeaheadV2/FETCH_FAILURE |
 
 | constant   | value                                |
 |:-----------|:-------------------------------------|
@@ -3100,6 +3095,11 @@ This document is entirely auto-generated and may contain errors.<br>
 | hover      | hover      |
 | click      | click      |
 | force      | force      |
+
+| constant   | value   |
+|:-----------|:--------|
+| large      | large   |
+| small      | small   |
 
 | constant   | value   |
 |:-----------|:--------|
