@@ -87,10 +87,10 @@ else:
                 body.h3(title)
                 if len(items) > 0:
                     for item in items:
-                        body.p(item)
+                        body.li(item)
                         change_len += 1
                 else:
-                    body.p("None")
+                    body.li("None")
 
         if old_data == data:
             print(f"No change to {file_name}")
@@ -117,7 +117,7 @@ else:
                     change_log = f.read()
             else:
                 change_log = ""
-            change_log += "##{time}{br}{new}".format(
+            change_log += "## {time}{br}{new}".format(
                 br="<br>\n",
                 time=datetime.datetime.now().strftime("%Y/%m/%d"),
                 new=body.output,
