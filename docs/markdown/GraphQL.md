@@ -343,6 +343,20 @@ Login Required: `Future`<br>
 
 #### queryId<br>
 `None`<br>
+## TopicFollow<br>
+Request URL: `https://twitter.com/i/api/graphql/ElqSLWFmsPL4NlZI5e1Grg/TopicFollow`<br>
+Request Method: `POST`<br>
+Login Required: `Future`<br>
+### Param<br>
+#### variables<br>
+| key     | type   | variable   |
+|:--------|:-------|:-----------|
+| topicId | Future | i          |
+
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
 ## TweetResultByRestId<br>
 Request URL: `https://twitter.com/i/api/graphql/HtSXz4lDHANsgSZx_SoPKw/TweetResultByRestId`<br>
 Request Method: `GET`<br>
@@ -2860,332 +2874,6 @@ Login Required: `Future`<br>
 
 #### queryId<br>
 `None`<br>
-## TopicTimeline<br>
-Request URL: `https://twitter.com/i/api/graphql/6jrNAoBKZGetR6Jle3cxQg/TopicTimeline`<br>
-Request Method: `GET`<br>
-Login Required: `Future`<br>
-### Param<br>
-#### variables<br>
-```internal process
-# Error
-{"rest_id":"o","cursor":"r","context":"JSON.stringify()"{"data_lookup_id":"a"}"0","P.dt"}
-```
-#### features<br>
-| key                                                                     | type    | default   |
-|:------------------------------------------------------------------------|:--------|:----------|
-| responsive_web_twitter_blue_verified_badge_is_enabled                   | boolean | True      |
-| verified_phone_label_enabled                                            | boolean | True      |
-| responsive_web_graphql_timeline_navigation_enabled                      | boolean | False     |
-| view_counts_public_visibility_enabled                                   | boolean | True      |
-| view_counts_everywhere_api_enabled                                      | boolean | True      |
-| tweetypie_unmention_optimization_enabled                                | boolean | True      |
-| responsive_web_uc_gql_enabled                                           | boolean | True      |
-| vibe_api_enabled                                                        | boolean | False     |
-| responsive_web_edit_tweet_api_enabled                                   | boolean | True      |
-| graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | True      |
-| standardized_nudges_misinfo                                             | boolean | True      |
-| tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | True      |
-| interactive_text_enabled                                                | boolean | True      |
-| responsive_web_text_conversations_enabled                               | boolean | True      |
-| responsive_web_enhance_cards_enabled                                    | boolean | True      |
-
-#### queryId<br>
-`None`<br>
-## TopicLandingPage<br>
-Request URL: `https://twitter.com/i/api/graphql/9mELAze6KN4AkDhYeOw_ng/TopicLandingPage`<br>
-Request Method: `GET`<br>
-Login Required: `Future`<br>
-### Param<br>
-#### variables<br>
-```internal process
-# Error
-{"rest_id":"o","cursor":"r","context":"JSON.stringify()"{"data_lookup_id":"a"}"0","P.dt"}
-```
-#### features<br>
-| key                                                                     | type    | default   |
-|:------------------------------------------------------------------------|:--------|:----------|
-| responsive_web_twitter_blue_verified_badge_is_enabled                   | boolean | True      |
-| verified_phone_label_enabled                                            | boolean | True      |
-| responsive_web_graphql_timeline_navigation_enabled                      | boolean | False     |
-| view_counts_public_visibility_enabled                                   | boolean | True      |
-| view_counts_everywhere_api_enabled                                      | boolean | True      |
-| tweetypie_unmention_optimization_enabled                                | boolean | True      |
-| responsive_web_uc_gql_enabled                                           | boolean | True      |
-| vibe_api_enabled                                                        | boolean | False     |
-| responsive_web_edit_tweet_api_enabled                                   | boolean | True      |
-| graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | True      |
-| standardized_nudges_misinfo                                             | boolean | True      |
-| tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | True      |
-| interactive_text_enabled                                                | boolean | True      |
-| responsive_web_text_conversations_enabled                               | boolean | True      |
-| responsive_web_enhance_cards_enabled                                    | boolean | True      |
-
-#### queryId<br>
-`None`<br>
-## TopicsManagementPage<br>
-Request URL: `https://twitter.com/i/api/graphql/5x1bsZSlwks9kDr3OeNKRg/TopicsManagementPage`<br>
-Request Method: `GET`<br>
-Login Required: `Future`<br>
-### Param<br>
-#### variables<br>
-| key          | type   | variable   |
-|:-------------|:-------|:-----------|
-| cursor       | Future | r          |
-| ...()(0,P.d) | Future | _          |
-
-#### features<br>
-| key                                                                     | type    | default   |
-|:------------------------------------------------------------------------|:--------|:----------|
-| responsive_web_twitter_blue_verified_badge_is_enabled                   | boolean | True      |
-| verified_phone_label_enabled                                            | boolean | True      |
-| responsive_web_graphql_timeline_navigation_enabled                      | boolean | False     |
-| view_counts_public_visibility_enabled                                   | boolean | True      |
-| view_counts_everywhere_api_enabled                                      | boolean | True      |
-| tweetypie_unmention_optimization_enabled                                | boolean | True      |
-| responsive_web_uc_gql_enabled                                           | boolean | True      |
-| vibe_api_enabled                                                        | boolean | False     |
-| responsive_web_edit_tweet_api_enabled                                   | boolean | True      |
-| graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | True      |
-| standardized_nudges_misinfo                                             | boolean | True      |
-| tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | True      |
-| interactive_text_enabled                                                | boolean | True      |
-| responsive_web_text_conversations_enabled                               | boolean | True      |
-| responsive_web_enhance_cards_enabled                                    | boolean | True      |
-
-#### queryId<br>
-`None`<br>
-## TopicByRestId<br>
-Request URL: `https://twitter.com/i/api/graphql/4OUZZOonV2h60I0wdlQb_w/TopicByRestId`<br>
-Request Method: `GET`<br>
-Login Required: `Future`<br>
-### Param<br>
-#### variables<br>
-| key     | type   | variable   |
-|:--------|:-------|:-----------|
-| topicId | Future | i          |
-
-#### features<br>
-`None`<br>
-#### queryId<br>
-`None`<br>
-## TopicsPickerPageById<br>
-Request URL: `https://twitter.com/i/api/graphql/-2K3sM0C6c_qNIWbwzQyeQ/TopicsPickerPageById`<br>
-Request Method: `GET`<br>
-Login Required: `Future`<br>
-### Param<br>
-#### variables<br>
-| key          | type   | variable   |
-|:-------------|:-------|:-----------|
-| topicId      | Future | r          |
-| ...()(0,P.d) | Future | _          |
-
-#### features<br>
-| key                                                                     | type    | default   |
-|:------------------------------------------------------------------------|:--------|:----------|
-| responsive_web_twitter_blue_verified_badge_is_enabled                   | boolean | True      |
-| verified_phone_label_enabled                                            | boolean | True      |
-| responsive_web_graphql_timeline_navigation_enabled                      | boolean | False     |
-| view_counts_public_visibility_enabled                                   | boolean | True      |
-| view_counts_everywhere_api_enabled                                      | boolean | True      |
-| tweetypie_unmention_optimization_enabled                                | boolean | True      |
-| responsive_web_uc_gql_enabled                                           | boolean | True      |
-| vibe_api_enabled                                                        | boolean | False     |
-| responsive_web_edit_tweet_api_enabled                                   | boolean | True      |
-| graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | True      |
-| standardized_nudges_misinfo                                             | boolean | True      |
-| tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | True      |
-| interactive_text_enabled                                                | boolean | True      |
-| responsive_web_text_conversations_enabled                               | boolean | True      |
-| responsive_web_enhance_cards_enabled                                    | boolean | True      |
-
-#### queryId<br>
-`None`<br>
-## TopicsPickerPage<br>
-Request URL: `https://twitter.com/i/api/graphql/gf73mx0IQ5iUIJT8IGRqVQ/TopicsPickerPage`<br>
-Request Method: `GET`<br>
-Login Required: `Future`<br>
-### Param<br>
-#### variables<br>
-| key          | type   | variable   |
-|:-------------|:-------|:-----------|
-| ...()(0,P.d) | Future | _          |
-
-#### features<br>
-| key                                                                     | type    | default   |
-|:------------------------------------------------------------------------|:--------|:----------|
-| responsive_web_twitter_blue_verified_badge_is_enabled                   | boolean | True      |
-| verified_phone_label_enabled                                            | boolean | True      |
-| responsive_web_graphql_timeline_navigation_enabled                      | boolean | False     |
-| view_counts_public_visibility_enabled                                   | boolean | True      |
-| view_counts_everywhere_api_enabled                                      | boolean | True      |
-| tweetypie_unmention_optimization_enabled                                | boolean | True      |
-| responsive_web_uc_gql_enabled                                           | boolean | True      |
-| vibe_api_enabled                                                        | boolean | False     |
-| responsive_web_edit_tweet_api_enabled                                   | boolean | True      |
-| graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | True      |
-| standardized_nudges_misinfo                                             | boolean | True      |
-| tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | True      |
-| interactive_text_enabled                                                | boolean | True      |
-| responsive_web_text_conversations_enabled                               | boolean | True      |
-| responsive_web_enhance_cards_enabled                                    | boolean | True      |
-
-#### queryId<br>
-`None`<br>
-## ViewingOtherUsersTopicsPage<br>
-Request URL: `https://twitter.com/i/api/graphql/GS1zbaDE-QgECod_wkfBmA/ViewingOtherUsersTopicsPage`<br>
-Request Method: `GET`<br>
-Login Required: `Future`<br>
-### Param<br>
-#### variables<br>
-| key          | type   | variable   |
-|:-------------|:-------|:-----------|
-| userId       | Future | o          |
-| cursor       | Future | a          |
-| context      | Future | r          |
-| ...()(0,P.d) | Future | _          |
-
-#### features<br>
-| key                                                                     | type    | default   |
-|:------------------------------------------------------------------------|:--------|:----------|
-| responsive_web_twitter_blue_verified_badge_is_enabled                   | boolean | True      |
-| verified_phone_label_enabled                                            | boolean | True      |
-| responsive_web_graphql_timeline_navigation_enabled                      | boolean | False     |
-| view_counts_public_visibility_enabled                                   | boolean | True      |
-| view_counts_everywhere_api_enabled                                      | boolean | True      |
-| tweetypie_unmention_optimization_enabled                                | boolean | True      |
-| responsive_web_uc_gql_enabled                                           | boolean | True      |
-| vibe_api_enabled                                                        | boolean | False     |
-| responsive_web_edit_tweet_api_enabled                                   | boolean | True      |
-| graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | True      |
-| standardized_nudges_misinfo                                             | boolean | True      |
-| tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | True      |
-| interactive_text_enabled                                                | boolean | True      |
-| responsive_web_text_conversations_enabled                               | boolean | True      |
-| responsive_web_enhance_cards_enabled                                    | boolean | True      |
-
-#### queryId<br>
-`None`<br>
-## NoteworthyAccountsPage<br>
-Request URL: `https://twitter.com/i/api/graphql/DTe3H-nfK-wHsNtppziT9A/NoteworthyAccountsPage`<br>
-Request Method: `GET`<br>
-Login Required: `Future`<br>
-### Param<br>
-#### variables<br>
-| key          | type   | variable   |
-|:-------------|:-------|:-----------|
-| rest_id      | Future | a          |
-| cursor       | Future | r          |
-| ...()(0,P.d) | Future | _          |
-
-#### features<br>
-| key                                                                     | type    | default   |
-|:------------------------------------------------------------------------|:--------|:----------|
-| responsive_web_twitter_blue_verified_badge_is_enabled                   | boolean | True      |
-| verified_phone_label_enabled                                            | boolean | True      |
-| responsive_web_graphql_timeline_navigation_enabled                      | boolean | False     |
-| view_counts_public_visibility_enabled                                   | boolean | True      |
-| view_counts_everywhere_api_enabled                                      | boolean | True      |
-| tweetypie_unmention_optimization_enabled                                | boolean | True      |
-| responsive_web_uc_gql_enabled                                           | boolean | True      |
-| vibe_api_enabled                                                        | boolean | False     |
-| responsive_web_edit_tweet_api_enabled                                   | boolean | True      |
-| graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | True      |
-| standardized_nudges_misinfo                                             | boolean | True      |
-| tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | True      |
-| interactive_text_enabled                                                | boolean | True      |
-| responsive_web_text_conversations_enabled                               | boolean | True      |
-| responsive_web_enhance_cards_enabled                                    | boolean | True      |
-
-#### queryId<br>
-`None`<br>
-## TopicFollow<br>
-Request URL: `https://twitter.com/i/api/graphql/ElqSLWFmsPL4NlZI5e1Grg/TopicFollow`<br>
-Request Method: `POST`<br>
-Login Required: `Future`<br>
-### Param<br>
-#### variables<br>
-| key     | type   | variable   |
-|:--------|:-------|:-----------|
-| topicId | Future | i          |
-
-#### features<br>
-`None`<br>
-#### queryId<br>
-`None`<br>
-## TopicUnfollow<br>
-Request URL: `https://twitter.com/i/api/graphql/srwjU6JM_ZKTj_QMfUGNcw/TopicUnfollow`<br>
-Request Method: `POST`<br>
-Login Required: `Future`<br>
-### Param<br>
-#### variables<br>
-| key     | type   | variable   |
-|:--------|:-------|:-----------|
-| topicId | Future | i          |
-
-#### features<br>
-`None`<br>
-#### queryId<br>
-`None`<br>
-## TopicNotInterested<br>
-Request URL: `https://twitter.com/i/api/graphql/cPCFdDAaqRjlMRYInZzoDA/TopicNotInterested`<br>
-Request Method: `POST`<br>
-Login Required: `Future`<br>
-### Param<br>
-#### variables<br>
-| key     | type   | variable   |
-|:--------|:-------|:-----------|
-| topicId | Future | i          |
-
-#### features<br>
-`None`<br>
-#### queryId<br>
-`None`<br>
-## TopicUndoNotInterested<br>
-Request URL: `https://twitter.com/i/api/graphql/4tVnt6FoSxaX8L-mDDJo4Q/TopicUndoNotInterested`<br>
-Request Method: `POST`<br>
-Login Required: `Future`<br>
-### Param<br>
-#### variables<br>
-| key     | type   | variable   |
-|:--------|:-------|:-----------|
-| topicId | Future | i          |
-
-#### features<br>
-`None`<br>
-#### queryId<br>
-`None`<br>
-## TopicToFollowSidebar<br>
-Request URL: `https://twitter.com/i/api/graphql/BHmqi2k5qdtAGOvFTYU0zg/TopicToFollowSidebar`<br>
-Request Method: `GET`<br>
-Login Required: `Future`<br>
-### Param<br>
-#### variables<br>
-| key          | type   | variable   |
-|:-------------|:-------|:-----------|
-| userId       | Future | r          |
-| ...()(0,P.d) | Future | _          |
-
-#### features<br>
-| key                                                                     | type    | default   |
-|:------------------------------------------------------------------------|:--------|:----------|
-| responsive_web_twitter_blue_verified_badge_is_enabled                   | boolean | True      |
-| verified_phone_label_enabled                                            | boolean | True      |
-| responsive_web_graphql_timeline_navigation_enabled                      | boolean | False     |
-| view_counts_public_visibility_enabled                                   | boolean | True      |
-| view_counts_everywhere_api_enabled                                      | boolean | True      |
-| tweetypie_unmention_optimization_enabled                                | boolean | True      |
-| responsive_web_uc_gql_enabled                                           | boolean | True      |
-| vibe_api_enabled                                                        | boolean | False     |
-| responsive_web_edit_tweet_api_enabled                                   | boolean | True      |
-| graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | True      |
-| standardized_nudges_misinfo                                             | boolean | True      |
-| tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | True      |
-| interactive_text_enabled                                                | boolean | True      |
-| responsive_web_text_conversations_enabled                               | boolean | True      |
-| responsive_web_enhance_cards_enabled                                    | boolean | True      |
-
-#### queryId<br>
-`None`<br>
 ## AuthenticatedUserTFLists<br>
 Request URL: `https://twitter.com/i/api/graphql/QjN8ZdavFDqxUjNn3r9cig/AuthenticatedUserTFLists`<br>
 Request Method: `GET`<br>
@@ -3510,7 +3198,7 @@ Login Required: `Future`<br>
 #### queryId<br>
 `None`<br>
 ## TrustedFriendsTypeahead<br>
-Request URL: `https://twitter.com/i/api/graphql/K68SNPXXT2pcSypG7eUmHQ/TrustedFriendsTypeahead`<br>
+Request URL: `https://twitter.com/i/api/graphql/_vUIWq3vpyL0amiNTjrM-w/TrustedFriendsTypeahead`<br>
 Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
@@ -3524,6 +3212,7 @@ Login Required: `Future`<br>
 | key                                                   | type    | default   |
 |:------------------------------------------------------|:--------|:----------|
 | responsive_web_twitter_blue_verified_badge_is_enabled | boolean | True      |
+| responsive_web_graphql_timeline_navigation_enabled    | boolean | False     |
 
 #### queryId<br>
 `None`<br>
