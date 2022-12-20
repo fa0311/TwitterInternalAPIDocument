@@ -333,6 +333,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | blue_business_affiliate_badge_consumption_ui_enabled                                  | True    |
 | blue_business_consumption_api_enabled                                                 | True    |
 | blue_business_grey_checkmark_enabled                                                  | True    |
+| blue_business_new_gold_badge_enabled                                                  | True    |
 | blue_business_square_avatar_consumption_ui_enabled                                    | True    |
 | blue_longer_video_enabled                                                             | True    |
 | branded_like_preview_enabled                                                          | True    |
@@ -868,6 +869,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | rito_safety_mode_features_enabled                                                     | True    |
 | rito_safety_mode_modal_prompt_enabled                                                 | True    |
 | rito_safety_mode_settings_enabled                                                     | True    |
+| rweb_home_perf_client_prefetch_bypass_sw                                              | True    |
 | rweb_home_perf_client_prefetch_mode                                                   | True    |
 | rweb_home_perf_client_prefetch_timeout_ms                                             | True    |
 | rweb_reply_downvote_before_like                                                       | True    |
@@ -886,6 +888,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | scribe_cdn_host_list                                                                  | True    |
 | scribe_cdn_sample_size                                                                | True    |
 | scribe_web_nav_sample_size                                                            | True    |
+| search_results_disable_latest_tab_when_logged_out                                     | True    |
 | sensitive_media_settings_enabled                                                      | True    |
 | sensitive_tweet_warnings_enabled                                                      | True    |
 | settings_revamp_search_bar_enabled                                                    | True    |
@@ -1644,6 +1647,14 @@ This document is entirely auto-generated and may contain errors.<br>
 | User       | user    |
 | Image      | image   |
 | Video      | video   |
+
+| constant   | value   |
+|:-----------|:--------|
+| live       | top     |
+| top        | top     |
+| user       | user    |
+| image      | image   |
+| video      | video   |
 
 | constant   | value   |
 |:-----------|:--------|
@@ -2795,6 +2806,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | blueVerifiedBadgeIsEnabled                  | False   |
 | blueBusinessAffiliateBadgeEnabled           | False   |
 | blueBusinessVerifiedBadgeEnabled            | False   |
+| blueBusinessNewGoldBadgeEnabled             | False   |
 | blueGovernmentVerifiedBadgeEnabled          | False   |
 | newBadgeColorEnabled                        | False   |
 | tweetViewCountsEnabled                      | False   |
