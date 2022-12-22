@@ -26,11 +26,15 @@ print(f"src: {src}")
 response = requests.get(src, headers=twitter.headers)
 
 parsed_list = js(response.text).parser()
+
+# with open("parsed_list.json", "w", encoding="utf-8") as f:
+#     json.dump(parsed_list.to_list(), f, ensure_ascii=False, indent=2)
+
 graphql_output = get_graphql(parsed_list)
 graphql_output = marge_exports(parsed_list, graphql_output)
 
 freeze_object_output = get_freeze_object(parsed_list)
-feature_switches_output = get_feature_switches(parsed_list)
+# feature_switches_output = get_feature_switches(parsed_list)
 
 if os.environ.get("ENV", "Develop") != "GithubAction":
     os.makedirs("docs/json", exist_ok=True)
@@ -40,7 +44,7 @@ if os.environ.get("ENV", "Develop") != "GithubAction":
         json.dump(graphql_output, f, ensure_ascii=False, indent=2)
     # with open("docs/json/FreezeObject.json", "w") as f:
     #     json.dump(freeze_object_output, f, ensure_ascii=False, indent=2)
-    gen_md_graphql(graphql_output, feature_switches_output).save(
+    gen_md_graphql(graphql_output, response.text).save(
         "docs/markdown/GraphQL.md"
     )
     gen_md_freeze_object(freeze_object_output).save("docs/markdown/FreezeObject.md")
@@ -55,7 +59,7 @@ else:
         #     freeze_object_output, ensure_ascii=False, indent=2
         # ),
         "docs/markdown/GraphQL.md": gen_md_graphql(
-            graphql_output, feature_switches_output
+            graphql_output, response.text
         ).output,
         "docs/markdown/FreezeObject.md": gen_md_freeze_object(
             freeze_object_output
