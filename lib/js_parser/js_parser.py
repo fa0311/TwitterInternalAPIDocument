@@ -8,7 +8,7 @@ class js:
         self.length = len(self.script)
         self.key = 0
 
-    def parser(self) -> list:
+    def parser(self):
         output = js_data()
         value = ""
         while self.length > self.key:
