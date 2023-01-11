@@ -818,7 +818,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant            | value               |
 |:--------------------|:--------------------|
-| ...i.YE             | _                   |
+| ...r.YE             | _                   |
 | EMBEDDED_MEDIA      | embedded_media      |
 | FOOTER_PROFILE      | footer_profile      |
 | HASHTAG_CLICK       | hashtag_click       |
@@ -840,7 +840,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{[r.Z.CASHTAG]:"void 0",[r.Z.EMOJI]:"void 0",[r.Z.HASHTAG]:"a.HASHTAG_CLICK",[r.Z.INTERACTIVE_CONVERSATION]:"a.URL_CLICK",[r.Z.INTERACTIVE_HIGHLIGHT]:"a.URL_CLICK",[r.Z.MEDIA]:"void 0",[r.Z.MENTION]:"a.USER_MENTION_CLICK",[r.Z.TEXT]:"void 0",[r.Z.URL]:"a.URL_CLICK"}
+{[i.Z.CASHTAG]:"void 0",[i.Z.EMOJI]:"void 0",[i.Z.HASHTAG]:"a.HASHTAG_CLICK",[i.Z.INTERACTIVE_CONVERSATION]:"a.URL_CLICK",[i.Z.INTERACTIVE_HIGHLIGHT]:"a.URL_CLICK",[i.Z.MEDIA]:"void 0",[i.Z.MENTION]:"a.USER_MENTION_CLICK",[i.Z.TEXT]:"void 0",[i.Z.URL]:"a.URL_CLICK"}
 ```
 | constant   | value   |
 |:-----------|:--------|
@@ -883,16 +883,6 @@ This document is entirely auto-generated and may contain errors.<br>
 | Moment                 | moment                   |
 | Tweet                  | status                   |
 | User                   | user                     |
-
-| constant   | value     |
-|:-----------|:----------|
-| CANCELED   | Canceled  |
-| COMPLETED  | Completed |
-| DISMISSED  | Dismissed |
-| DRAFT      | Draft     |
-| FAILED     | Failed    |
-| PENDING    | Pending   |
-| SCHEDULED  | Scheduled |
 
 | constant        | value                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
 |:----------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -1301,18 +1291,6 @@ This document is entirely auto-generated and may contain errors.<br>
 | SUCCESS    | rweb/devices/FETCH_PUSH_NOTIFICATION_PERMISSION_STATE_SUCCESS |
 | FAILURE    | rweb/devices/FETCH_PUSH_NOTIFICATION_PERMISSION_STATE_FAILURE |
 
-| constant   | value                                       |
-|:-----------|:--------------------------------------------|
-| REQUEST    | rweb/draftTweets/FETCH_DRAFT_TWEETS_REQUEST |
-| SUCCESS    | rweb/draftTweets/FETCH_DRAFT_TWEETS_SUCCESS |
-| FAILURE    | rweb/draftTweets/FETCH_DRAFT_TWEETS_FAILURE |
-
-| constant   | value                                       |
-|:-----------|:--------------------------------------------|
-| REQUEST    | rweb/draftTweets/DELETE_DRAFT_TWEET_REQUEST |
-| SUCCESS    | rweb/draftTweets/DELETE_DRAFT_TWEET_SUCCESS |
-| FAILURE    | rweb/draftTweets/DELETE_DRAFT_TWEET_FAILURE |
-
 | constant                        | value   |
 |:--------------------------------|:--------|
 | broadcasts                      | c       |
@@ -1535,53 +1513,6 @@ This document is entirely auto-generated and may contain errors.<br>
 | since_id     | i.TOP    |
 | up_cursor    | i.TOP    |
 
-| constant   | value                               |
-|:-----------|:------------------------------------|
-| REQUEST    | rweb/tweetComposer/SCHEDULE_REQUEST |
-| SUCCESS    | rweb/tweetComposer/SCHEDULE_SUCCESS |
-| FAILURE    | rweb/tweetComposer/SCHEDULE_FAILURE |
-
-| constant   | value                            |
-|:-----------|:---------------------------------|
-| REQUEST    | rweb/tweetComposer/DRAFT_REQUEST |
-| SUCCESS    | rweb/tweetComposer/DRAFT_SUCCESS |
-| FAILURE    | rweb/tweetComposer/DRAFT_FAILURE |
-
-| constant   | value                           |
-|:-----------|:--------------------------------|
-| REQUEST    | rweb/tweetComposer/SEND_REQUEST |
-| SUCCESS    | rweb/tweetComposer/SEND_SUCCESS |
-| FAILURE    | rweb/tweetComposer/SEND_FAILURE |
-
-| constant   | value                                   |
-|:-----------|:----------------------------------------|
-| REQUEST    | rweb/tweetComposer/SEND_PREVIEW_REQUEST |
-| SUCCESS    | rweb/tweetComposer/SEND_PREVIEW_SUCCESS |
-| FAILURE    | rweb/tweetComposer/SEND_PREVIEW_FAILURE |
-
-| constant         | value   |
-|:-----------------|:--------|
-| text             |         |
-| cardUrl          | void 0  |
-| mediaIds         | []      |
-| mediaTags        | []      |
-| gifMetadata      | void 0  |
-| pollActive       | False   |
-| pollChoices      | void 0  |
-| pollDuration     | void 0  |
-| pollValid        | False   |
-| scheduledFor     | void 0  |
-| scheduledTweetId | void 0  |
-| draftTweetId     | void 0  |
-| taggedLocation   | void 0  |
-| isEmpty          | True    |
-| isValid          | False   |
-
-| constant     | value        |
-|:-------------|:-------------|
-| homeTimeline | homeTimeline |
-| modal        | modal        |
-
 | constant   | value                          |
 |:-----------|:-------------------------------|
 | REQUEST    | rweb/typeaheadV2/FETCH_REQUEST |
@@ -1605,12 +1536,6 @@ This document is entirely auto-generated and may contain errors.<br>
 | All        | all      |
 | Mentions   | mentions |
 | Verified   | verified |
-
-| constant     | value        |
-|:-------------|:-------------|
-| default      | default      |
-| with_replies | with_replies |
-| superfollows | superfollows |
 
 | constant   | value                                |
 |:-----------|:-------------------------------------|
@@ -1647,116 +1572,6 @@ This document is entirely auto-generated and may contain errors.<br>
 | AudioSpaceTab       | AudioSpaceTab       |
 | AudioSpaceSearch    | AudioSpaceSearch    |
 | AudioSpacebarScreen | AudioSpacebarScreen |
-
-| constant                         | value                            |
-|:---------------------------------|:---------------------------------|
-| About                            | About                            |
-| Accessibility                    | Accessibility                    |
-| AccessibilityDisplayAndLanguages | AccessibilityDisplayAndLanguages |
-| Account                          | Account                          |
-| AccountActivity                  | AccountActivity                  |
-| AccountAutomation                | AccountAutomation                |
-| AccountHistory                   | AccountHistory                   |
-| AccountInformation               | AccountInformation               |
-| AccountVerification              | AccountVerification              |
-| ActiveSessionDetail              | ActiveSessionDetail              |
-| AddMutedKeywordDetail            | AddMutedKeywordDetail            |
-| Ads                              | Ads                              |
-| AdsPreferences                   | AdsPreferences                   |
-| Age                              | Age                              |
-| ApplicationDetail                | ApplicationDetail                |
-| Applications                     | Applications                     |
-| AppsAndSessions                  | AppsAndSessions                  |
-| AudienceAndTagging               | AudienceAndTagging               |
-| AutoblockedAccounts              | AutoblockedAccounts              |
-| BackupCode                       | BackupCode                       |
-| BlockedAccounts                  | BlockedAccounts                  |
-| ConnectedAccounts                | ConnectedAccounts                |
-| ConnectedApps                    | ConnectedApps                    |
-| Contacts                         | Contacts                         |
-| ContactsDashboard                | ContactsDashboard                |
-| ContentPreferences               | ContentPreferences               |
-| ContentYouSee                    | ContentYouSee                    |
-| CookiePreferences                | CookiePreferences                |
-| Country                          | Country                          |
-| Data                             | Data                             |
-| DataDownload                     | DataDownload                     |
-| DataSharingWithBusinessPartners  | DataSharingWithBusinessPartners  |
-| DeactivateAccount                | DeactivateAccount                |
-| DeactivatedAccount               | DeactivatedAccount               |
-| Delegate                         | Delegate                         |
-| DelegateGroupDetail              | DelegateGroupDetail              |
-| DelegateGroups                   | DelegateGroups                   |
-| DelegateMembers                  | DelegateMembers                  |
-| DeviceFollows                    | DeviceFollows                    |
-| Devices                          | Devices                          |
-| DirectMessages                   | DirectMessages                   |
-| Display                          | Display                          |
-| Download                         | Download                         |
-| DownloadYourData                 | DownloadYourData                 |
-| EarlyAccess                      | EarlyAccess                      |
-| Email                            | Email                            |
-| EmailNotifications               | EmailNotifications               |
-| FeatureSwitches                  | FeatureSwitches                  |
-| FilteredReplies                  | FilteredReplies                  |
-| Gender                           | Gender                           |
-| Language                         | Language                         |
-| Languages                        | Languages                        |
-| Location                         | Location                         |
-| LocationInformation              | LocationInformation              |
-| Locations                        | Locations                        |
-| LoginHistory                     | LoginHistory                     |
-| LoginVerification                | LoginVerification                |
-| LoginVerificationEnrollment      | LoginVerificationEnrollment      |
-| ManageSecurityKey                | ManageSecurityKey                |
-| ManageSubscription               | ManageSubscription               |
-| Mentions                         | Mentions                         |
-| Monetization                     | Monetization                     |
-| MonetizationDashboard            | MonetizationDashboard            |
-| Mute                             | Mute                             |
-| MuteAndBlock                     | MuteAndBlock                     |
-| MutedAccounts                    | MutedAccounts                    |
-| MutedKeywordDetail               | MutedKeywordDetail               |
-| MutedKeywords                    | MutedKeywords                    |
-| News                             | News                             |
-| NotificationAdvancedFilters      | NotificationAdvancedFilters      |
-| NotificationFilters              | NotificationFilters              |
-| NotificationPreferences          | NotificationPreferences          |
-| Notifications                    | Notifications                    |
-| OffTwitterActivity               | OffTwitterActivity               |
-| PartnerInterests                 | PartnerInterests                 |
-| Password                         | Password                         |
-| Personalization                  | Personalization                  |
-| Phone                            | Phone                            |
-| PrivacyAndSafety                 | PrivacyAndSafety                 |
-| PushNotifications                | PushNotifications                |
-| Replies                          | Replies                          |
-| ReportCenter                     | ReportCenter                     |
-| RequestData                      | RequestData                      |
-| RitoActionedTweets               | RitoActionedTweets               |
-| Safety                           | Safety                           |
-| SafetyMode                       | SafetyMode                       |
-| ScreenName                       | ScreenName                       |
-| Security                         | Security                         |
-| SecurityAndAccountAccess         | SecurityAndAccountAccess         |
-| SecurityKeys                     | SecurityKeys                     |
-| SensitiveMedia                   | SensitiveMedia                   |
-| Sessions                         | Sessions                         |
-| Spaces                           | Spaces                           |
-| SuperFollows                     | SuperFollows                     |
-| T1Labs                           | T1Labs                           |
-| Tagging                          | Tagging                          |
-| TailoredAudiences                | TailoredAudiences                |
-| Teams                            | Teams                            |
-| TemporaryPassword                | TemporaryPassword                |
-| Tips                             | Tips                             |
-| TransparencyDashboard            | TransparencyDashboard            |
-| TwitterBlue                      | TwitterBlue                      |
-| TwitterInterests                 | TwitterInterests                 |
-| UndoTweet                        | UndoTweet                        |
-| VideoAutoplay                    | VideoAutoplay                    |
-| YourTweets                       | YourTweets                       |
-| YTDLanguage                      | YTDLanguage                      |
 
 | constant           | value              |
 |:-------------------|:-------------------|
@@ -2082,9 +1897,9 @@ This document is entirely auto-generated and may contain errors.<br>
 | constant      | value                                                                    |
 |:--------------|:-------------------------------------------------------------------------|
 | live          | {'backgroundColor': 'magenta500', 'bold': '!0', 'color': 'whiteOnColor'} |
-| alt           | E                                                                        |
-| gif           | E                                                                        |
-| hd            | E                                                                        |
+| alt           | A                                                                        |
+| gif           | A                                                                        |
+| hd            | A                                                                        |
 | likedByAuthor | {'backgroundColor': 'gray50', 'bold': '!1', 'color': 'gray700'}          |
 
 ```internal process
@@ -2129,59 +1944,6 @@ This document is entirely auto-generated and may contain errors.<br>
 | TextOnly             | TextOnly             |
 | Topic                | Topic                |
 | Trending             | Trending             |
-
-| constant     | value        |
-|:-------------|:-------------|
-| Canceled     | Canceled     |
-| Ended        | Ended        |
-| NotStarted   | NotStarted   |
-| PrePublished | PrePublished |
-| Running      | Running      |
-| TimedOut     | TimedOut     |
-
-| constant    | value       |
-|:------------|:------------|
-| scheduled   | scheduled   |
-| ended       | ended       |
-| live        | live        |
-| canceled    | canceled    |
-| unavailable | unavailable |
-| replay      | replay      |
-
-| constant           |   value |
-|:-------------------|--------:|
-| general            |       0 |
-| employeesOnly      |       1 |
-| superFollowersOnly |       2 |
-
-| constant           | value        |
-|:-------------------|:-------------|
-| relativeDays       | o().c333da63 |
-| time               | o().d725a289 |
-| weekdayMonthAndDay | o().h8054d91 |
-| scheduledStart     | o().d0e7b11b |
-
-| constant   | value               |
-|:-----------|:--------------------|
-| today      | u().relativeDays()  |
-| tomorrow   | u(0).relativeDays() |
-
-| constant             | value                |
-|:---------------------|:---------------------|
-| none                 | none                 |
-| host                 | host                 |
-| hostWithSpeaker      | hostWithSpeaker      |
-| hostWithTwoSpeakers  | hostWithTwoSpeakers  |
-| hostWithManySpeakers | hostWithManySpeakers |
-
-| constant     | value        |
-|:-------------|:-------------|
-| Canceled     | Canceled     |
-| Ended        | Ended        |
-| NotStarted   | NotStarted   |
-| PrePublished | PrePublished |
-| Running      | Running      |
-| TimedOut     | TimedOut     |
 
 | constant                 | value                    |
 |:-------------------------|:-------------------------|
@@ -2264,39 +2026,15 @@ This document is entirely auto-generated and may contain errors.<br>
 | gray700    | gray700  |
 | gray1100   | gray1100 |
 
-| constant      | value        |
-|:--------------|:-------------|
-| superFollower | m().b0063ac6 |
-
-| constant      | value        |
-|:--------------|:-------------|
-| superFollower | m().fc065ee4 |
-
-| constant      | value                                                                                                                                                                                                                              |
-|:--------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| superFollower | {'graphic': 'h.Z', 'headline': 'm().ca80fe70', 'subtext': 'm().c4183c30', 'actionLabel': 'm().g7099a02', 'actionLink': 'https://help.twitter.com/en/using-twitter/super-follows#sfexpect', 'secondaryActionLabel': 'm().c2637ef6'} |
-
-| constant      | value                                                                                                                                                                                                                              |
-|:--------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| superFollower | {'graphic': 'h.Z', 'headline': 'm().e453f536', 'subtext': 'm().dea63fc4', 'actionLabel': 'm().g7099a02', 'actionLink': 'https://help.twitter.com/en/using-twitter/super-follows#sfexpect', 'secondaryActionLabel': 'm().c2637ef6'} |
-
-| constant        | value        |
-|:----------------|:-------------|
-| followsYou      | m().efb17190 |
-| superFollowsYou | m().a7c3a6e0 |
-| superFollower   | m().a3df6df8 |
-
-| constant        | value        |
-|:----------------|:-------------|
-| followsYou      | m().efb17190 |
-| superFollowsYou | m().g57b5f6c |
-| superFollower   | m().e589ffa8 |
-
-| constant        | value   |
-|:----------------|:--------|
-| followsYou      | gray700 |
-| superFollowsYou | plum700 |
-| superFollower   | plum700 |
+| constant               | value                  |
+|:-----------------------|:-----------------------|
+| circle                 | circle                 |
+| hex                    | hex                    |
+| square                 | square                 |
+| none                   | none                   |
+| circle-svg             | circle-svg             |
+| circle-shape-func      | circle-shape-func      |
+| circle-shape-func-crop | circle-shape-func-crop |
 
 | constant   | value      |
 |:-----------|:-----------|
@@ -2321,12 +2059,6 @@ This document is entirely auto-generated and may contain errors.<br>
 | NORMAL     |       1 |
 | SPACE      |       0 |
 | INELIGIBLE |      -1 |
-
-| constant    | value       |
-|:------------|:------------|
-| on          | on          |
-| off         | off         |
-| unavailable | unavailable |
 
 | constant     | value        |
 |:-------------|:-------------|
