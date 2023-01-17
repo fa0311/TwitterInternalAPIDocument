@@ -1703,30 +1703,6 @@ This document is entirely auto-generated and may contain errors.<br>
 | User       | user_value    |
 | Boolean    | boolean_value |
 
-| constant   | value                              |
-|:-----------|:-----------------------------------|
-| large      | {'title': '1', 'description': '2'} |
-| medium     | {'title': '2', 'description': '1'} |
-| small      | {'title': '2', 'description': '0'} |
-
-| constant   | value                              |
-|:-----------|:-----------------------------------|
-| large      | {'title': '1', 'description': '2'} |
-| medium     | {'title': '2', 'description': '1'} |
-| small      | {'title': '2', 'description': '0'} |
-
-| constant   |   value |
-|:-----------|--------:|
-| large      |       5 |
-| medium     |       4 |
-| small      |       3 |
-
-| constant   | value                    |
-|:-----------|:-------------------------|
-| large      | DEPRECATED_normal        |
-| medium     | DEPRECATED_normalCompact |
-| small      | DEPRECATED_normalCompact |
-
 | constant                   | value                            |
 |:---------------------------|:---------------------------------|
 | AUTO_SWIPE                 | auto_swipe                       |
@@ -1780,11 +1756,6 @@ This document is entirely auto-generated and may contain errors.<br>
 | LIKES      | Likes     |
 | SHARES     | Shares    |
 | JOINED     | Joined    |
-
-| constant     | value             |
-|:-------------|:------------------|
-| navButtons   | navigationButtons |
-| carouselRoot | carouselRoot      |
 
 | constant          |   value |
 |:------------------|--------:|
@@ -1844,7 +1815,6 @@ This document is entirely auto-generated and may contain errors.<br>
 | blueVerifiedBadgeIsEnabled                  | False   |
 | blueBusinessAffiliateBadgeEnabled           | False   |
 | blueBusinessVerifiedBadgeEnabled            | False   |
-| blueBusinessNewGoldBadgeEnabled             | False   |
 | blueGovernmentVerifiedBadgeEnabled          | False   |
 | newBadgeColorEnabled                        | False   |
 | tweetViewCountsEnabled                      | False   |
@@ -2026,22 +1996,6 @@ This document is entirely auto-generated and may contain errors.<br>
 | verified   | verified   |
 | none       | none       |
 
-| constant     | value       |
-|:-------------|:------------|
-| INITIAL      | initial     |
-| AUTO_PAUSED  | autoPaused  |
-| USER_PAUSED  | userPaused  |
-| AUTO_PLAYING | autoPlaying |
-| USER_PLAYING | userPlaying |
-| FINISHED     | finished    |
-
-| constant   |   value |
-|:-----------|--------:|
-| DOCKABLE   |       2 |
-| NORMAL     |       1 |
-| SPACE      |       0 |
-| INELIGIBLE |      -1 |
-
 | constant     | value        |
 |:-------------|:-------------|
 | interactive  | interactive  |
@@ -2111,6 +2065,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | red700             | red700             |
 | red900             | red900             |
 | teal300            | teal300            |
+| teal500            | teal500            |
 | teal600            | teal600            |
 | teal700            | teal700            |
 | teal900            | teal900            |
