@@ -133,3 +133,11 @@
 ### remove<br>
 - CommunityTweetsRankedTimeline<br>
 - CommunityTweetsTimeline<br>
+## 2023/01/17<br>
+### add<br>
+- None<br>
+### remove<br>
+- CreateTweet<br>
+- CreateTweet<br>
+- SubcribeToRevueNewsletter<br>
+- RevueAccountByRestId<br>
