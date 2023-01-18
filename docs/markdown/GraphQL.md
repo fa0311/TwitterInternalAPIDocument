@@ -22,7 +22,7 @@ json.dumps({
 ```
 `json.dumps` is equivalent to `JSON.stringify` in javaScript<br>
 ## AudioSpaceById<br>
-Request URL: `https://twitter.com/i/api/graphql/H14Mu6tXpg30rvjYPMxSmw/AudioSpaceById`<br>
+Request URL: `https://twitter.com/i/api/graphql/iHxorsuwbp4tXNaOy2iUSA/AudioSpaceById`<br>
 Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
@@ -378,7 +378,7 @@ Login Required: `Future`<br>
 | withBirdwatchNotes        | Future | t.isTrue()                                               |
 | withVoice                 | Future | t.isTrue("responsive_web_birdwatch_consumption_enabled") |
 | withCommunity             | Future | t.isTrue("voice_consumption_enabled")                    |
-| ...("c9s_enabled")(0,u.d) | Future | _                                                        |
+| ...("c9s_enabled")(0,p.d) | Future | _                                                        |
 
 #### features<br>
 | key                                                                     | type    | default   |
@@ -611,76 +611,6 @@ Login Required: `Future`<br>
 `None`<br>
 #### queryId<br>
 `None`<br>
-## CreateTweet<br>
-Request URL: `https://twitter.com/i/api/graphql/yL4KIHnJPXt-JUpRDrBDDw/CreateTweet`<br>
-Request Method: `POST`<br>
-Login Required: `Future`<br>
-### Param<br>
-#### variables<br>
-| key          | type   | variable      |
-|:-------------|:-------|:--------------|
-| ...r         | Future | _             |
-| ...()&&      | Future | {'...l': '_'} |
-| ...()(0,u.d) | Future | _             |
-
-#### features<br>
-| key                                                                     | type    | default   |
-|:------------------------------------------------------------------------|:--------|:----------|
-| view_counts_public_visibility_enabled                                   | boolean | True      |
-| view_counts_everywhere_api_enabled                                      | boolean | False     |
-| longform_notetweets_consumption_enabled                                 | boolean | False     |
-| tweetypie_unmention_optimization_enabled                                | boolean | False     |
-| responsive_web_uc_gql_enabled                                           | boolean | False     |
-| vibe_api_enabled                                                        | boolean | True      |
-| responsive_web_edit_tweet_api_enabled                                   | boolean | True      |
-| graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | False     |
-| interactive_text_enabled                                                | boolean | True      |
-| responsive_web_text_conversations_enabled                               | boolean | True      |
-| responsive_web_twitter_blue_verified_badge_is_enabled                   | boolean | True      |
-| verified_phone_label_enabled                                            | boolean | True      |
-| standardized_nudges_misinfo                                             | boolean | False     |
-| tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | True      |
-| responsive_web_graphql_timeline_navigation_enabled                      | boolean | False     |
-| responsive_web_enhance_cards_enabled                                    | boolean | False     |
-
-#### queryId<br>
-`None`<br>
-## CreateTweet<br>
-Request URL: `https://twitter.com/i/api/graphql/yL4KIHnJPXt-JUpRDrBDDw/CreateTweet`<br>
-Request Method: `POST`<br>
-Login Required: `Future`<br>
-### Param<br>
-#### variables<br>
-| key           | type   | variable      |
-|:--------------|:-------|:--------------|
-| ...o          | Future | _             |
-| comparison_id | Future | s             |
-| dark_request  | Future | True          |
-| ...()&&       | Future | {'...l': '_'} |
-| ...()(0,u.d)  | Future | _             |
-
-#### features<br>
-| key                                                                     | type    | default   |
-|:------------------------------------------------------------------------|:--------|:----------|
-| view_counts_public_visibility_enabled                                   | boolean | True      |
-| view_counts_everywhere_api_enabled                                      | boolean | False     |
-| longform_notetweets_consumption_enabled                                 | boolean | False     |
-| tweetypie_unmention_optimization_enabled                                | boolean | False     |
-| responsive_web_uc_gql_enabled                                           | boolean | False     |
-| vibe_api_enabled                                                        | boolean | True      |
-| responsive_web_edit_tweet_api_enabled                                   | boolean | True      |
-| graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | False     |
-| interactive_text_enabled                                                | boolean | True      |
-| responsive_web_text_conversations_enabled                               | boolean | True      |
-| responsive_web_twitter_blue_verified_badge_is_enabled                   | boolean | True      |
-| verified_phone_label_enabled                                            | boolean | True      |
-| standardized_nudges_misinfo                                             | boolean | False     |
-| tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | True      |
-| responsive_web_graphql_timeline_navigation_enabled                      | boolean | False     |
-| responsive_web_enhance_cards_enabled                                    | boolean | False     |
-
-#### queryId<br>
-`None`<br>
 ## DeleteTweet<br>
 Request URL: `https://twitter.com/i/api/graphql/VaenaVgh5q5ih7kvyVjgtg/DeleteTweet`<br>
 Request Method: `POST`<br>
@@ -807,7 +737,7 @@ Login Required: `Future`<br>
 | count                  | Future | n          |
 | cursor                 | Future | i          |
 | includePromotedContent | Future | True       |
-| ...()(0,x.d)           | Future | _          |
+| ...()(0,R.d)           | Future | _          |
 
 #### features<br>
 | key                                                                     | type    | default   |
@@ -843,7 +773,7 @@ Login Required: `Future`<br>
 | count                  | Future | n          |
 | cursor                 | Future | i          |
 | includePromotedContent | Future | True       |
-| ...()(0,x.d)           | Future | _          |
+| ...()(0,R.d)           | Future | _          |
 
 #### features<br>
 | key                                                                     | type    | default   |
@@ -876,7 +806,7 @@ Login Required: `Future`<br>
 | key                                    | type   | variable   |
 |:---------------------------------------|:-------|:-----------|
 | tweetId                                | Future | n          |
-| ...()(0,x.d)                           | Future | _          |
+| ...()(0,R.d)                           | Future | _          |
 | withQuickPromoteEligibilityTweetFields | Future | True       |
 
 #### features<br>
@@ -932,7 +862,7 @@ Login Required: `Future`<br>
 #### queryId<br>
 `None`<br>
 ## BizProfileFetchUser<br>
-Request URL: `https://twitter.com/i/api/graphql/Rp94IhO-2f4Gqi7MSwBquA/BizProfileFetchUser`<br>
+Request URL: `https://twitter.com/i/api/graphql/6OFpJ3TH3p8JpwOSgfgyhg/BizProfileFetchUser`<br>
 Request Method: `GET`<br>
 Login Required: `Future`<br>
 ### Param<br>
@@ -940,24 +870,6 @@ Login Required: `Future`<br>
 | key     | type   | variable   |
 |:--------|:-------|:-----------|
 | rest_id | Future | t.rest_id  |
-
-#### features<br>
-`None`<br>
-#### queryId<br>
-`None`<br>
-## SubcribeToRevueNewsletter<br>
-Request URL: `https://twitter.com/i/api/graphql/yUpmLojxsGPk0Sh3JHfEcQ/SubcribeToRevueNewsletter`<br>
-Request Method: `POST`<br>
-Login Required: `Future`<br>
-### Param<br>
-#### variables<br>
-| key            | type   | variable         |
-|:---------------|:-------|:-----------------|
-| revueAccountId | Future | t.revueAccountId |
-| doubleOptIn    | Future | t.doubleOptIn    |
-| via            | Future | t.via            |
-| client         | Future | t.client         |
-| element        | Future | t.element        |
 
 #### features<br>
 `None`<br>
@@ -1057,7 +969,7 @@ Login Required: `Future`<br>
 | count                  | Future | n          |
 | cursor                 | Future | i          |
 | includePromotedContent | Future | True       |
-| ...()(0,x.d)           | Future | _          |
+| ...()(0,R.d)           | Future | _          |
 
 #### features<br>
 | key                                                                     | type    | default   |
@@ -1093,7 +1005,7 @@ Login Required: `Future`<br>
 | bookmark_collection_id | Future | n          |
 | cursor                 | Future | i          |
 | includePromotedContent | Future | True       |
-| ...()(0,x.d)           | Future | _          |
+| ...()(0,R.d)           | Future | _          |
 
 #### features<br>
 | key                                                                     | type    | default   |
@@ -1141,7 +1053,7 @@ Login Required: `Future`<br>
 |:-------------|:-------|:--------------|
 | communityId  | Future | n.communityId |
 | name         | Future | n.name        |
-| ...()(0,x.S) | Future | _             |
+| ...()(0,R.S) | Future | _             |
 
 #### features<br>
 | key                                                   | type    | default   |
@@ -1162,7 +1074,7 @@ Login Required: `Future`<br>
 |:-------------|:-------|:--------------|
 | communityId  | Future | n.communityId |
 | description  | Future | n.purpose     |
-| ...()(0,x.S) | Future | _             |
+| ...()(0,R.S) | Future | _             |
 
 #### features<br>
 | key                                                   | type    | default   |
@@ -1183,7 +1095,7 @@ Login Required: `Future`<br>
 |:-------------|:-------|:--------------|
 | communityId  | Future | n.communityId |
 | theme        | Future | n.theme       |
-| ...()(0,x.S) | Future | _             |
+| ...()(0,R.S) | Future | _             |
 
 #### features<br>
 | key                                                   | type    | default   |
@@ -1206,7 +1118,7 @@ Login Required: `Future`<br>
 | ruleId       | Future | n.ruleId      |
 | name         | Future | n.name        |
 | description  | Future | n.description |
-| ...()(0,x.S) | Future | _             |
+| ...()(0,R.S) | Future | _             |
 
 #### features<br>
 | key                                                   | type    | default   |
@@ -1228,7 +1140,7 @@ Login Required: `Future`<br>
 | communityId  | Future | n.communityId |
 | name         | Future | n.name        |
 | description  | Future | n.description |
-| ...()(0,x.S) | Future | _             |
+| ...()(0,R.S) | Future | _             |
 
 #### features<br>
 | key                                                   | type    | default   |
@@ -1249,7 +1161,7 @@ Login Required: `Future`<br>
 |:-------------|:-------|:--------------|
 | communityId  | Future | n.communityId |
 | ruleId       | Future | n.ruleId      |
-| ...()(0,x.S) | Future | _             |
+| ...()(0,R.S) | Future | _             |
 
 #### features<br>
 | key                                                   | type    | default   |
@@ -1270,7 +1182,7 @@ Login Required: `Future`<br>
 |:-------------|:-------|:--------------|
 | communityId  | Future | n.communityId |
 | ruleIds      | Future | n.ruleIds     |
-| ...()(0,x.S) | Future | _             |
+| ...()(0,R.S) | Future | _             |
 
 #### features<br>
 | key                                                   | type    | default   |
@@ -1291,7 +1203,7 @@ Login Required: `Future`<br>
 |:-------------|:-------|:--------------|
 | communityId  | Future | n.communityId |
 | mediaId      | Future | n.mediaId     |
-| ...()(0,x.S) | Future | _             |
+| ...()(0,R.S) | Future | _             |
 
 #### features<br>
 | key                                                   | type    | default   |
@@ -1311,7 +1223,7 @@ Login Required: `Future`<br>
 | key          | type   | variable      |
 |:-------------|:-------|:--------------|
 | communityId  | Future | n.communityId |
-| ...()(0,x.S) | Future | _             |
+| ...()(0,R.S) | Future | _             |
 
 #### features<br>
 | key                                                   | type    | default   |
@@ -1407,7 +1319,7 @@ Login Required: `Future`<br>
 | withCommunity                                              | Future | t.isTrue()                            |
 | withQuickPromoteEligibilityTweetFields                     | Future | True                                  |
 | withBirdwatchNotes                                         | Future | t.isTrue("c9s_enabled")               |
-| ...("responsive_web_birdwatch_consumption_enabled")(0,x.d) | Future | _                                     |
+| ...("responsive_web_birdwatch_consumption_enabled")(0,R.d) | Future | _                                     |
 | withVoice                                                  | Future | t.isTrue(t)                           |
 | withV2Timeline                                             | Future | t.isTrue("voice_consumption_enabled") |
 | isReaderMode                                               | Future | a                                     |
@@ -1471,7 +1383,7 @@ Login Required: `Future`<br>
 | key                | type   | variable   |
 |:-------------------|:-------|:-----------|
 | draft_tweet_id     | Future | n          |
-| post_tweet_request | Future | Kt()       |
+| post_tweet_request | Future | qt()       |
 
 #### features<br>
 `None`<br>
@@ -1500,7 +1412,7 @@ Login Required: `Future`<br>
 #### variables<br>
 | key                | type   | variable   |
 |:-------------------|:-------|:-----------|
-| post_tweet_request | Future | Kt()       |
+| post_tweet_request | Future | qt()       |
 
 #### features<br>
 `None`<br>
@@ -1542,7 +1454,7 @@ Login Required: `Future`<br>
 |:-------------|:-------|:------------------------|
 | count        | Future | null==n?void 0:n.count  |
 | cursor       | Future | null==n?void 0:n.cursor |
-| ...()(0,x.d) | Future | _                       |
+| ...()(0,R.d) | Future | _                       |
 
 #### features<br>
 | key                                                                     | type    | default   |
@@ -1576,7 +1488,7 @@ Login Required: `Future`<br>
 |:----------------|:-------|:---------------------------------|
 | pinned_tweet_id | Future | null==n?void 0:n.pinned_tweet_id |
 | page_name       | Future | null==n?void 0:n.page_name       |
-| ...()(0,x.d)    | Future | _                                |
+| ...()(0,R.d)    | Future | _                                |
 
 #### features<br>
 | key                                                                     | type    | default   |
@@ -1623,7 +1535,7 @@ Login Required: `Future`<br>
 | count                  | Future | n          |
 | cursor                 | Future | i          |
 | includePromotedContent | Future | False      |
-| ...()(0,x.d)           | Future | _          |
+| ...()(0,R.d)           | Future | _          |
 
 #### features<br>
 | key                                                                     | type    | default   |
@@ -1660,7 +1572,7 @@ Login Required: `Future`<br>
 | cursor                                 | Future | i                                     |
 | includePromotedContent                 | Future | True                                  |
 | withQuickPromoteEligibilityTweetFields | Future | True                                  |
-| ...()(0,x.d)                           | Future | _                                     |
+| ...()(0,R.d)                           | Future | _                                     |
 | withVoice                              | Future | t.isTrue(t)                           |
 | withV2Timeline                         | Future | t.isTrue("voice_consumption_enabled") |
 
@@ -1699,7 +1611,7 @@ Login Required: `Future`<br>
 | cursor                    | Future | i                                     |
 | includePromotedContent    | Future | True                                  |
 | withCommunity             | Future | t.isTrue()                            |
-| ...("c9s_enabled")(0,x.d) | Future | _                                     |
+| ...("c9s_enabled")(0,R.d) | Future | _                                     |
 | withVoice                 | Future | t.isTrue(t)                           |
 | withV2Timeline            | Future | t.isTrue("voice_consumption_enabled") |
 
@@ -1737,7 +1649,7 @@ Login Required: `Future`<br>
 | count                  | Future | n           |
 | cursor                 | Future | i           |
 | includePromotedContent | Future | True        |
-| ...()(0,x.d)           | Future | _           |
+| ...()(0,R.d)           | Future | _           |
 | withVoice              | Future | t.isTrue(t) |
 
 #### features<br>
@@ -1806,7 +1718,7 @@ Login Required: `Future`<br>
 | count                  | Future | n                                     |
 | cursor                 | Future | i                                     |
 | includePromotedContent | Future | False                                 |
-| ...()(0,x.d)           | Future | _                                     |
+| ...()(0,R.d)           | Future | _                                     |
 | withClientEventToken   | Future | False                                 |
 | withBirdwatchNotes     | Future | False                                 |
 | withVoice              | Future | t.isTrue(t)                           |
@@ -1846,7 +1758,7 @@ Login Required: `Future`<br>
 | count                  | Future | n                                     |
 | cursor                 | Future | i                                     |
 | includePromotedContent | Future | False                                 |
-| ...()(0,x.d)           | Future | _                                     |
+| ...()(0,R.d)           | Future | _                                     |
 | withClientEventToken   | Future | False                                 |
 | withBirdwatchNotes     | Future | False                                 |
 | withVoice              | Future | t.isTrue(t)                           |
@@ -1874,20 +1786,6 @@ Login Required: `Future`<br>
 
 #### queryId<br>
 `None`<br>
-## RevueAccountByRestId<br>
-Request URL: `https://twitter.com/i/api/graphql/NFARV9iE-FIK7FOsO_d23Q/RevueAccountByRestId`<br>
-Request Method: `GET`<br>
-Login Required: `Future`<br>
-### Param<br>
-#### variables<br>
-| key     | type   | variable   |
-|:--------|:-------|:-----------|
-| rest_id | Future | t.rest_id  |
-
-#### features<br>
-`None`<br>
-#### queryId<br>
-`None`<br>
 ## RitoActionedTweetsTimeline<br>
 Request URL: `https://twitter.com/i/api/graphql/slCftAUT5YHue4K4EME-QA/RitoActionedTweetsTimeline`<br>
 Request Method: `GET`<br>
@@ -1898,7 +1796,7 @@ Login Required: `Future`<br>
 |:-------------------------|:-------|:------------|
 | cursor                   | Future | n           |
 | rest_id                  | Future | i           |
-| ...()(0,x.d)             | Future | _           |
+| ...()(0,R.d)             | Future | _           |
 | withSafetyModeUserFields | Future | t.isTrue(t) |
 
 #### features<br>
@@ -1946,7 +1844,7 @@ Login Required: `Future`<br>
 | key                      | type   | variable    |
 |:-------------------------|:-------|:------------|
 | cursor                   | Future | n           |
-| ...()(0,x.d)             | Future | _           |
+| ...()(0,R.d)             | Future | _           |
 | withSafetyModeUserFields | Future | t.isTrue(t) |
 
 #### features<br>
@@ -1981,7 +1879,7 @@ Login Required: `Future`<br>
 |:-------------------------|:-------|:------------|
 | cursor                   | Future | n           |
 | rest_id                  | Future | i           |
-| ...()(0,x.d)             | Future | _           |
+| ...()(0,R.d)             | Future | _           |
 | withSafetyModeUserFields | Future | t.isTrue(t) |
 
 #### features<br>
@@ -2029,7 +1927,7 @@ Login Required: `Future`<br>
 | key                | type   | variable   |
 |:-------------------|:-------|:-----------|
 | post_tweet_request | Future | r          |
-| execute_at         | Future | Wi()       |
+| execute_at         | Future | Hi()       |
 
 #### features<br>
 `None`<br>
@@ -2060,7 +1958,7 @@ Login Required: `Future`<br>
 |:-------------------|:-------|:-----------|
 | scheduled_tweet_id | Future | i          |
 | post_tweet_request | Future | a          |
-| execute_at         | Future | Wi()       |
+| execute_at         | Future | Hi()       |
 
 #### features<br>
 `None`<br>
@@ -2278,7 +2176,7 @@ Login Required: `Future`<br>
 | key                 | type   | variable   |
 |:--------------------|:-------|:-----------|
 | ...n                | Future | _          |
-| ...()(0,x.d)        | Future | _          |
+| ...()(0,R.d)        | Future | _          |
 | articleListSeedType | Future | i          |
 
 #### features<br>
@@ -2312,7 +2210,7 @@ Login Required: `Future`<br>
 | key                 | type   | variable   |
 |:--------------------|:-------|:-----------|
 | ...n                | Future | _          |
-| ...()(0,x.d)        | Future | _          |
+| ...()(0,R.d)        | Future | _          |
 | articleListSeedType | Future | i          |
 
 #### features<br>
@@ -2386,7 +2284,7 @@ Login Required: `Future`<br>
 | key              | type   | variable   |
 |:-----------------|:-------|:-----------|
 | twitterArticleId | Future | i          |
-| ...()(0,x.d)     | Future | _          |
+| ...()(0,R.d)     | Future | _          |
 
 #### features<br>
 | key                                                                     | type    | default   |
@@ -2420,7 +2318,7 @@ Login Required: `Future`<br>
 | key          | type   | variable                    |
 |:-------------|:-------|:----------------------------|
 | data         | Future | {'content_state_json': 'i'} |
-| ...()(0,x.d) | Future | _                           |
+| ...()(0,R.d) | Future | _                           |
 
 #### features<br>
 | key                                                                     | type    | default   |
@@ -2469,7 +2367,7 @@ Login Required: `Future`<br>
 |:-----------------|:-------|:-----------|
 | twitterArticleId | Future | r          |
 | mediaId          | Future | i          |
-| ...()(0,x.d)     | Future | _          |
+| ...()(0,R.d)     | Future | _          |
 
 #### features<br>
 | key                                                                     | type    | default   |
@@ -2504,7 +2402,7 @@ Login Required: `Future`<br>
 |:-----------------|:-------|:-----------------------------------------------------------------|
 | twitterArticleId | Future | a                                                                |
 | data             | Future | {'content_state_json': 'i', 'plaintext': 'r', 'word_count': 'o'} |
-| ...()(0,x.d)     | Future | _                                                                |
+| ...()(0,R.d)     | Future | _                                                                |
 
 #### features<br>
 | key                                                                     | type    | default   |
@@ -2539,7 +2437,7 @@ Login Required: `Future`<br>
 |:-----------------|:-------|:-----------|
 | twitterArticleId | Future | r          |
 | mediaKeys        | Future | i          |
-| ...()(0,x.d)     | Future | _          |
+| ...()(0,R.d)     | Future | _          |
 
 #### features<br>
 | key                                                                     | type    | default   |
@@ -2574,7 +2472,7 @@ Login Required: `Future`<br>
 |:-----------------|:-------|:-----------|
 | twitterArticleId | Future | r          |
 | title            | Future | i          |
-| ...()(0,x.d)     | Future | _          |
+| ...()(0,R.d)     | Future | _          |
 
 #### features<br>
 | key                                                                     | type    | default   |
@@ -2609,7 +2507,7 @@ Login Required: `Future`<br>
 |:-----------------|:-------|:-----------|
 | twitterArticleId | Future | i          |
 | visibility       | Future | r          |
-| ...()(0,x.d)     | Future | _          |
+| ...()(0,R.d)     | Future | _          |
 
 #### features<br>
 | key                                                                     | type    | default   |
@@ -2643,7 +2541,7 @@ Login Required: `Future`<br>
 | key          | type   | variable   |
 |:-------------|:-------|:-----------|
 | ...n         | Future | _          |
-| ...()(0,x.d) | Future | _          |
+| ...()(0,R.d) | Future | _          |
 
 #### features<br>
 | key                                                                     | type    | default   |
