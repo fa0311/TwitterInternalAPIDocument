@@ -22,8 +22,12 @@ def get_graphql(parsed_list: list) -> list:
         match_func = search_js_reg(graphql_parent, reg_func)
         while match_func == []:
             graphql_parent = graphql_parent.parent
+            if graphql_parent == None:
+                break
             match_func = search_js_reg(graphql_parent, reg_func)
 
+        if match_func == []:
+            continue
         reg_func_init = "{func}=n\({arg}\)".format(
             func=re.escape(match_func[0].data[0]),
             arg="([0-9]{1,5})",
