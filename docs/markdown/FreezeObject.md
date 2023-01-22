@@ -2287,7 +2287,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant                   | value                        |
 |:---------------------------|:-----------------------------|
-| ...D                       | _                            |
+| ..._                       | _                            |
 | ...l()                     | _                            |
 | text                       | o.Cj                         |
 | navigationBackground       | #050505                      |
@@ -2327,9 +2327,9 @@ This document is entirely auto-generated and may contain errors.<br>
 | appBarHeight          | v         |
 | appBarHeightPx        | y         |
 | conversationLineWidth | S.space2  |
-| gutterHorizontal      | _.space16 |
+| gutterHorizontal      | D.space16 |
 | gutterHorizontalPx    | S.space16 |
-| gutterVertical        | _.space12 |
+| gutterVertical        | D.space12 |
 | gutterVerticalPx      | S.space12 |
 
 | constant            | value   |
@@ -2344,13 +2344,13 @@ This document is entirely auto-generated and may contain errors.<br>
 | componentDimensions | M       |
 | componentZIndices   | o       |
 | fontSizes           | g       |
-| fontSizesPx         | D       |
+| fontSizesPx         | _       |
 | fontWeights         | b       |
 | lineHeights         | A       |
 | lineHeightsPx       | h       |
 | scales              | d.Tp    |
 | scaleMultipler      | n       |
-| spaces              | _       |
+| spaces              | D       |
 | spacesPx            | S       |
 
 ```internal process
