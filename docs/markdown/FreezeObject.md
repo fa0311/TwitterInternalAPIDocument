@@ -2369,6 +2369,26 @@ This document is entirely auto-generated and may contain errors.<br>
 | RIGHT_BOTTOM |       7 |
 | RIGHT_TOP    |       8 |
 
+| constant           |   value |
+|:-------------------|--------:|
+| FILE_TOO_LARGE     |       2 |
+| INTERNAL_ERROR     |     131 |
+| INVALID_MEDIA      |       1 |
+| RATE_LIMIT         |      88 |
+| TIMEOUT            |      67 |
+| UNSUPPORTED_MEDIA  |       3 |
+| ZERO_FILE_LENGTH   |       4 |
+| CANCELED           |     999 |
+| INVALID_RES_STATUS |      -1 |
+
+|   constant | value               |
+|-----------:|:--------------------|
+|          0 | h.INTERNAL_ERROR    |
+|          1 | h.INVALID_MEDIA     |
+|          2 | h.FILE_TOO_LARGE    |
+|          3 | h.UNSUPPORTED_MEDIA |
+|          4 | h.TIMEOUT           |
+
 | constant   |   value |
 |:-----------|--------:|
 | RESET      |       0 |
