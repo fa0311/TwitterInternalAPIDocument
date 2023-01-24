@@ -1599,6 +1599,10 @@ This document is entirely auto-generated and may contain errors.<br>
 | SUCCESS    | rweb/typeaheadUsers/PREFETCH_SUCCESS |
 | FAILURE    | rweb/typeaheadUsers/PREFETCH_FAILURE |
 
+| constant   | value   |
+|:-----------|:--------|
+| LAUNCH     | launch  |
+
 | constant     | value        |
 |:-------------|:-------------|
 | Top          | Top          |
