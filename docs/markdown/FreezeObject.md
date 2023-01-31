@@ -488,6 +488,10 @@ This document is entirely auto-generated and may contain errors.<br>
 | LIST        | list        |
 | CUSTOM      | custom      |
 
+```internal process
+# Error
+{[d.HOME]:"home",[d.HOME_LATEST]:"latest",[d.LIST]:"pinned_list"}
+```
 | constant     | value         |
 |:-------------|:--------------|
 | ContinueWith | continue_with |
