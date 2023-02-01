@@ -9,6 +9,7 @@ from lib.twitter import twitter_home
 from lib.js_parser.js_parser import js
 import logging
 import coloredlogs
+from tqdm import tqdm
 
 from lib.graphql import (
     get_graphql,
@@ -25,9 +26,11 @@ coloredlogs.install(
     level=logging.DEBUG,
     fmt="[%(levelname)s] %(relativeCreated)dms %(message)s",
 )
+logging.getLogger("urllib3").setLevel(logging.WARNING)
 
 twitter = twitter_home()
 src = twitter.get_main_script_url()
+logging.log(f"src: {src}")
 response = requests.get(src, headers=twitter.headers)
 
 parsed_list = js(response.text).parser()
@@ -78,7 +81,7 @@ else:
     send_pull_request = False
 
     body = md_generator()
-    for file_name, data in file.items():
+    for file_name, data in tqdm(file.items()):
         if os.path.exists(file_name):
             with open(file_name, "r") as f:
                 old_data = f.read()
@@ -103,9 +106,9 @@ else:
                     body.li("None")
 
         if old_data == data:
-            print(f"No change to {file_name}")
+            logging.debug(f"No change to {file_name}")
         else:
-            print(f"Commit to {file_name}")
+            logging.debug(f"Commit to {file_name}")
             send_pull_request = True
             try:
                 f = repo.get_contents(file_name, ref=branch)
@@ -117,7 +120,7 @@ else:
                     branch=branch,
                 )
             except:
-                print("Not Found")
+                logging.warning("Not Found")
 
     if send_pull_request:
         if change_len > 0:
@@ -146,6 +149,6 @@ else:
                 title="Update Document", body=body.output, head=branch, base="master"
             )
         except:
-            print("A pull request already exists")
+            logging.warning("A pull request already exists")
 
 logging.debug("All completed")
