@@ -217,10 +217,8 @@
 - BirdwatchFetchAliasSelfSelectOptions<br>
 ### remove<br>
 - None<br>
-## 2023/01/20<br>
+## 2023/02/01<br>
 ### add<br>
-- None<br>
-### remove<br>
 - TweetResultByRestId<br>
 - FavoriteTweet<br>
 - UnfavoriteTweet<br>
@@ -246,15 +244,15 @@
 - UnsubscribeFromScheduledSpace<br>
 - AudioSpaceSearch<br>
 - CardPreviewByTweetText<br>
-- UrtFixtures<br>
-- timelinesFeedback<br>
-- ConnectTabTimeline<br>
 - GetTweetReactionTimeline<br>
 - Favoriters<br>
 - Retweeters<br>
 - TweetEditHistory<br>
+- UrtFixtures<br>
+- timelinesFeedback<br>
+- ConnectTabTimeline<br>
 - UserAccountLabel<br>
-- UsersGraphQLFetchByScreenNameQuery<br>
+- DisableUserAccountLabel<br>
 - adFreeArticleDomains<br>
 - articleNudgeDomains<br>
 - UsersVerifiedAvatars<br>
@@ -369,6 +367,7 @@
 - UserPromotableTweets<br>
 - Likes<br>
 - UserMedia<br>
+- UserBusinessProfileTeamTimeline<br>
 - RitoActionedTweetsTimeline<br>
 - DismissRitoSuggestedAction<br>
 - RitoFlaggedAccountsTimeline<br>
@@ -395,7 +394,6 @@
 - SubscriptionProductFeaturesFetch<br>
 - ArticleTweetsTimeline<br>
 - ArticleTimeline<br>
-- TopicTimeline<br>
 - TopicLandingPage<br>
 - TopicsManagementPage<br>
 - TopicByRestId<br>
@@ -429,3 +427,5 @@
 - UsersByRestIds<br>
 - RemoveFollower<br>
 - BirdwatchFetchAliasSelfSelectOptions<br>
+### remove<br>
+- None<br>
