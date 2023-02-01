@@ -12,9 +12,6 @@ from tqdm import tqdm
 
 def get_graphql(parsed_list: js_data) -> list:
 
-    with open("aaaaaa.json", "w", encoding="utf-8") as f:
-        json.dump(parsed_list.to_list(), f, ensure_ascii=False, indent=2)
-
     reg_graphql = "e\.graphQL\({func}\(\),$".format(func="([a-zA-Z_\$]{1,2})")
     graphql_list = search_js_reg(parsed_list, reg_graphql)
     graphql_output = []
