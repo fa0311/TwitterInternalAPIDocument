@@ -1,4 +1,5 @@
 from lib.md_generator.md_generator import md_generator
+import logging
 
 
 def gen_md_graphql(graphql_output: list, response: str) -> md_generator:
@@ -34,7 +35,7 @@ def gen_md_graphql(graphql_output: list, response: str) -> md_generator:
             query = graphql["query"]
             switches = exports["metadata"]["featureSwitches"]
         except KeyError:
-            print("KeyError: " + str(graphql))
+            logging.warning("KeyError: " + str(graphql))
             continue
 
         md.h2(exports["operationName"])
