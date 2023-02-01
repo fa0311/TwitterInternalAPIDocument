@@ -27,6 +27,7 @@ coloredlogs.install(
     fmt="[%(levelname)s] %(relativeCreated)dms %(message)s",
 )
 logging.getLogger("urllib3").setLevel(logging.WARNING)
+logging.getLogger("PyGithub").setLevel(logging.WARNING)
 
 twitter = twitter_home()
 src = twitter.get_main_script_url()
