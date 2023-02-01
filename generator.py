@@ -7,6 +7,8 @@ from lib.md_generator.md_generator import md_generator
 from lib.diff import diff
 from lib.twitter import twitter_home
 from lib.js_parser.js_parser import js
+import logging
+import coloredlogs
 
 from lib.graphql import (
     get_graphql,
@@ -19,10 +21,13 @@ from lib.md import (
     gen_md_freeze_object,
 )
 
+coloredlogs.install(
+    level=logging.DEBUG,
+    fmt="[%(levelname)s] %(relativeCreated)dms %(message)s",
+)
 
 twitter = twitter_home()
 src = twitter.get_main_script_url()
-print(f"src: {src}")
 response = requests.get(src, headers=twitter.headers)
 
 parsed_list = js(response.text).parser()
@@ -31,10 +36,13 @@ parsed_list = js(response.text).parser()
 #     json.dump(parsed_list.to_list(), f, ensure_ascii=False, indent=2)
 
 graphql_output = get_graphql(parsed_list)
+logging.debug("get_graphql is completed")
 graphql_output = marge_exports(parsed_list, graphql_output)
-
+logging.debug("marge_exports is completed")
 freeze_object_output = get_freeze_object(parsed_list)
+logging.debug("get_freeze_object is completed")
 # feature_switches_output = get_feature_switches(parsed_list)
+# logging.debug("get_feature_switches is completed")
 
 if os.environ.get("ENV", "Develop") != "GithubAction":
     os.makedirs("docs/json", exist_ok=True)
@@ -44,9 +52,7 @@ if os.environ.get("ENV", "Develop") != "GithubAction":
         json.dump(graphql_output, f, ensure_ascii=False, indent=2)
     # with open("docs/json/FreezeObject.json", "w") as f:
     #     json.dump(freeze_object_output, f, ensure_ascii=False, indent=2)
-    gen_md_graphql(graphql_output, response.text).save(
-        "docs/markdown/GraphQL.md"
-    )
+    gen_md_graphql(graphql_output, response.text).save("docs/markdown/GraphQL.md")
     gen_md_freeze_object(freeze_object_output).save("docs/markdown/FreezeObject.md")
 
 else:
@@ -141,3 +147,5 @@ else:
             )
         except:
             print("A pull request already exists")
+
+logging.debug("All completed")
