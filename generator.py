@@ -23,15 +23,13 @@ from lib.md import (
 )
 
 coloredlogs.install(
-    level=logging.DEBUG,
+    level=logging.INFO,
     fmt="[%(levelname)s] %(relativeCreated)dms %(message)s",
 )
-logging.getLogger("urllib3").setLevel(logging.WARNING)
-logging.getLogger("PyGithub").setLevel(logging.WARNING)
 
 twitter = twitter_home()
 src = twitter.get_main_script_url()
-logging.debug(f"src: {src}")
+logging.info(f"src: {src}")
 response = requests.get(src, headers=twitter.headers)
 
 parsed_list = js(response.text).parser()
@@ -40,13 +38,13 @@ parsed_list = js(response.text).parser()
 #     json.dump(parsed_list.to_list(), f, ensure_ascii=False, indent=2)
 
 graphql_output = get_graphql(parsed_list)
-logging.debug("get_graphql is completed")
+logging.info("get_graphql is completed")
 graphql_output = marge_exports(parsed_list, graphql_output)
-logging.debug("marge_exports is completed")
+logging.info("marge_exports is completed")
 freeze_object_output = get_freeze_object(parsed_list)
-logging.debug("get_freeze_object is completed")
+logging.info("get_freeze_object is completed")
 # feature_switches_output = get_feature_switches(parsed_list)
-# logging.debug("get_feature_switches is completed")
+# logging.info("get_feature_switches is completed")
 
 if os.environ.get("ENV", "Develop") != "GithubAction":
     os.makedirs("docs/json", exist_ok=True)
@@ -107,9 +105,9 @@ else:
                     body.li("None")
 
         if old_data == data:
-            logging.debug(f"No change to {file_name}")
+            logging.info(f"No change to {file_name}")
         else:
-            logging.debug(f"Commit to {file_name}")
+            logging.info(f"Commit to {file_name}")
             send_pull_request = True
             try:
                 f = repo.get_contents(file_name, ref=branch)
@@ -152,4 +150,4 @@ else:
         except:
             logging.warning("A pull request already exists")
 
-logging.debug("All completed")
+logging.info("All completed")
