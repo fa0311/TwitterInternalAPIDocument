@@ -162,7 +162,7 @@ if os.environ.get("ENV", "Develop") == "GithubAction":
                     branch=branch,
                 )
             except:
-                logging.warning("Not Found")
+                logging.warning(f"Not Found {file_name} on {branch} branch")
 
     if send_pull_request:
         try:
