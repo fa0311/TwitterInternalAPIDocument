@@ -1,5 +1,32 @@
 # Twitter Internal Constants Document<br>
 This document is entirely auto-generated and may contain errors.<br>
+| constant                          | value                                                                                                                          |
+|:----------------------------------|:-------------------------------------------------------------------------------------------------------------------------------|
+| NOT_RESPONDER                     | {'DELAY': 'se', 'RESPONDER_GRANT': 'pe', 'RESPONDER_RELEASE': 'se', 'RESPONDER_TERMINATED': 'se', 'LONG_PRESS_DETECTED': 'se'} |
+| RESPONDER_INACTIVE_PRESS_START    | {'DELAY': 'fe', 'RESPONDER_GRANT': 'se', 'RESPONDER_RELEASE': 'ce', 'RESPONDER_TERMINATED': 'ce', 'LONG_PRESS_DETECTED': 'se'} |
+| RESPONDER_ACTIVE_PRESS_START      | {'DELAY': 'se', 'RESPONDER_GRANT': 'se', 'RESPONDER_RELEASE': 'ce', 'RESPONDER_TERMINATED': 'ce', 'LONG_PRESS_DETECTED': 'de'} |
+| RESPONDER_ACTIVE_LONG_PRESS_START | {'DELAY': 'se', 'RESPONDER_GRANT': 'se', 'RESPONDER_RELEASE': 'ce', 'RESPONDER_TERMINATED': 'ce', 'LONG_PRESS_DETECTED': 'de'} |
+| ERROR                             | {'DELAY': 'ce', 'RESPONDER_GRANT': 'pe', 'RESPONDER_RELEASE': 'ce', 'RESPONDER_TERMINATED': 'ce', 'LONG_PRESS_DETECTED': 'ce'} |
+
+| constant     | value        |
+|:-------------|:-------------|
+| RANGE_ADD    | RANGE_ADD    |
+| RANGE_DELETE | RANGE_DELETE |
+| NODE_DELETE  | NODE_DELETE  |
+
+| constant   | value   |
+|:-----------|:--------|
+| APPEND     | append  |
+| PREPEND    | prepend |
+
+| constant                    | value   |
+|:----------------------------|:--------|
+| __UNPUBLISH_RECORD_SENTINEL | True    |
+
+| constant                          | value   |
+|:----------------------------------|:--------|
+| __LIVE_RESOLVER_SUSPENSE_SENTINEL | True    |
+
 | constant   | value    |
 |:-----------|:---------|
 | Live       | Live     |
