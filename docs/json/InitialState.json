@@ -76,12 +76,12 @@
       "errors": {},
       "fetchStatus": {}
     },
-    "translationsProfiles": {
+    "imageCache": {
       "entities": {},
       "errors": {},
       "fetchStatus": {}
     },
-    "imageCache": {
+    "translationsProfiles": {
       "entities": {},
       "errors": {},
       "fetchStatus": {}
@@ -111,12 +111,12 @@
       "errors": {},
       "fetchStatus": {}
     },
-    "liveEvents": {
+    "legacyAndUnifiedCards": {
       "entities": {},
       "errors": {},
       "fetchStatus": {}
     },
-    "legacyAndUnifiedCards": {
+    "liveEvents": {
       "entities": {},
       "errors": {},
       "fetchStatus": {}
@@ -4170,7 +4170,7 @@
           "value": "true"
         },
         "responsive_web_logged_out_notifications_fatigue_days_count": {
-          "value": "7"
+          "value": "5"
         },
         "responsive_web_logged_out_notifications_including_home": {
           "value": "false"
@@ -5325,10 +5325,20 @@
           "value": "false"
         }
       },
-      "impression_pointers": {},
-      "impressions": {},
+      "impression_pointers": {
+        "responsive_web_logged_out_notifications_fatigue_days_count": [
+          "mr_logged_out_web_notifs_prompt_fatigue_15965"
+        ]
+      },
+      "impressions": {
+        "mr_logged_out_web_notifs_prompt_fatigue_15965": {
+          "key": "mr_logged_out_web_notifs_prompt_fatigue_15965",
+          "bucket": "relaxed_fatigue",
+          "version": "1"
+        }
+      },
       "keysRead": {},
-      "settingsVersion": "a8488f0c305919bbbfbd51a9ac206ed5",
+      "settingsVersion": "db92ed7b5d7d4cd4a9fa59d05ac79deb",
       "behavioralEventAllowlist": {
         "children": {
           "messages": {
@@ -5372,6 +5382,27 @@
                   }
                 },
                 "isTerminal": "0"
+              }
+            },
+            "isTerminal": "0"
+          },
+          "notification": {
+            "children": {
+              "background": {
+                "children": {
+                  "impress": {
+                    "isTerminal": "1"
+                  }
+                },
+                "isTerminal": "0"
+              }
+            },
+            "isTerminal": "0"
+          },
+          "fullscreen_media": {
+            "children": {
+              "impress": {
+                "isTerminal": "1"
               }
             },
             "isTerminal": "0"
@@ -5522,6 +5553,25 @@
                   }
                 },
                 "isTerminal": "0"
+              }
+            },
+            "isTerminal": "0"
+          },
+          "**": {
+            "children": {
+              "tap": {
+                "isTerminal": "1"
+              },
+              "rules": {
+                "children": {
+                  "impress": {
+                    "isTerminal": "1"
+                  }
+                },
+                "isTerminal": "0"
+              },
+              "click": {
+                "isTerminal": "1"
               }
             },
             "isTerminal": "0"
@@ -5739,7 +5789,7 @@
     "country": "US",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "167535556110897723",
+    "guestId": "167537203696281626",
     "hasCommunityMemberships": "false",
     "language": "en",
     "oneFactorLoginEligibility": {
@@ -5869,7 +5919,7 @@
           "pollValid": "false",
           "isEmpty": "true",
           "isValid": "false",
-          "key": "composer-309117"
+          "key": "composer-343743"
         }
       ],
       "excludedRecipients": [],
@@ -5891,7 +5941,7 @@
           "pollValid": "false",
           "isEmpty": "true",
           "isValid": "false",
-          "key": "composer-309118"
+          "key": "composer-343744"
         }
       ],
       "excludedRecipients": [],
@@ -5907,8 +5957,9 @@
     "fetchStatus": "none"
   },
   "geoLocation": {},
-  "userTweetStats": {
-    "tweet_stats": {}
+  "dmDrawer": {
+    "poppedOutConversationId": "null",
+    "drawerVisibility": "collapsed"
   },
   "instreamVideo": {
     "OTHER": {
@@ -5925,16 +5976,25 @@
     "fetchStatus": "none"
   },
   "listMemberships": {},
+  "userTweetStats": {
+    "tweet_stats": {}
+  },
   "developerToolDiscovery": {
     "fetchStatus": "none",
     "profileUpsellDismissedEpochMillis": "0",
     "settingsUpsellDismissedEpochMillis": "0"
   },
   "knownFollowers": {},
-  "dmDrawer": {
-    "poppedOutConversationId": "null",
-    "drawerVisibility": "collapsed"
+  "dmComposer": {},
+  "recentSearches": {
+    "fetched": "false",
+    "recentSearches": []
   },
+  "savedSearches": {
+    "fetchStatus": "none",
+    "savedSearches": []
+  },
+  "channelsTimelineBehavior": {},
   "articles": {
     "articles": {}
   },
@@ -5951,18 +6011,30 @@
     "isUploading": "false",
     "profileSettings": "null"
   },
-  "dmComposer": {},
-  "recentSearches": {
-    "fetched": "false",
-    "recentSearches": []
-  },
-  "savedSearches": {
-    "fetchStatus": "none",
-    "savedSearches": []
-  },
-  "liveEventInterstitials": {
-    "seenEvents": [],
+  "trustedFriends": {
+    "lists": [],
     "fetchStatus": "none"
+  },
+  "adFreeArticles": {
+    "loadStatus": "none"
+  },
+  "cardState": {},
+  "promotedContent": {},
+  "editTweet": {
+    "fetchStatus": "none",
+    "editTweetLimitedMarketPromptDismissedEpochMilliseconds": "0"
+  },
+  "placePicker": {
+    "initial": {
+      "fetchStatus": "none"
+    },
+    "lastSearch": {
+      "fetchStatus": "none"
+    }
+  },
+  "scheduledTweets": {
+    "fetchStatus": "none",
+    "scheduledTweets": []
   },
   "ads": {
     "typeahead": {
@@ -6005,36 +6077,14 @@
     "promoteErrorCode": "null",
     "objective": "Engagements"
   },
-  "trustedFriends": {
-    "lists": [],
+  "liveEventInterstitials": {
+    "seenEvents": [],
     "fetchStatus": "none"
-  },
-  "adFreeArticles": {
-    "loadStatus": "none"
-  },
-  "cardState": {},
-  "promotedContent": {},
-  "editTweet": {
-    "fetchStatus": "none",
-    "editTweetLimitedMarketPromptDismissedEpochMilliseconds": "0"
-  },
-  "placePicker": {
-    "initial": {
-      "fetchStatus": "none"
-    },
-    "lastSearch": {
-      "fetchStatus": "none"
-    }
-  },
-  "scheduledTweets": {
-    "fetchStatus": "none",
-    "scheduledTweets": []
   },
   "availableLanguages": {
     "fetchStatus": "none",
     "languages": []
   },
-  "channelsTimelineBehavior": {},
   "oAuthConsent": {
     "fetchStatus": "none",
     "postStatus": "none"
