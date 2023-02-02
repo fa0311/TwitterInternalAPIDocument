@@ -119,16 +119,18 @@ for title, data in diff_data.items():
 else:
     body.li("None")
 
-items.update(
-    {
-        FileConf.CHANGE_LOG_MD: items_backup[FileConf.CHANGE_LOG_MD]
-        + "## {time}{br}{new}".format(
-            br="<br>\n",
-            time=datetime.datetime.now().strftime("%Y/%m/%d"),
-            new=body.output,
-        )
-    }
-)
+
+if change_len > 0:
+    items.update(
+        {
+            FileConf.CHANGE_LOG_MD: items_backup[FileConf.CHANGE_LOG_MD]
+            + "## {time}{br}{new}".format(
+                br="<br>\n",
+                time=datetime.datetime.now().strftime("%Y/%m/%d"),
+                new=body.output,
+            )
+        }
+    )
 
 
 # === WRITE ===
