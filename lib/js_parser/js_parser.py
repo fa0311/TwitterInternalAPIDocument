@@ -1,6 +1,5 @@
 import json
 import re
-from tqdm import tqdm
 
 
 class js:

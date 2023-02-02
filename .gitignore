@@ -1,3 +1,4 @@
 *.js
 /.venv
 __pycache__
+*.backup

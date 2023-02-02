@@ -39,9 +39,5 @@ class md_generator:
         else:
             return text
 
-    def save(self, file_name: str):
-        with open(file_name, "w") as f:
-            f.write(self.output)
-
     def print(self):
         print(self.output)
