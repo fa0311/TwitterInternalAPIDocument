@@ -119,17 +119,13 @@ for title, data in diff_data.items():
 else:
     body.li("None")
 
+items.update({FileConf.CHANGE_LOG_MD: items_backup[FileConf.CHANGE_LOG_MD]})
 
 if change_len > 0:
-    items.update(
-        {
-            FileConf.CHANGE_LOG_MD: items_backup[FileConf.CHANGE_LOG_MD]
-            + "## {time}{br}{new}".format(
-                br="<br>\n",
-                time=datetime.datetime.now().strftime("%Y/%m/%d"),
-                new=body.output,
-            )
-        }
+    items[FileConf.CHANGE_LOG_MD] += "## {time}{br}{new}".format(
+        br="<br>\n",
+        time=datetime.datetime.now().strftime("%Y/%m/%d"),
+        new=body.output,
     )
 
 
@@ -171,5 +167,11 @@ if os.environ.get("ENV", "Develop") == "GithubAction":
             )
         except:
             logging.warning("A pull request already exists")
+else:
+    for file_name in FileConf.FILES:
+        if items[file_name] == items_backup[file_name]:
+            logging.info(f"No change to {file_name}")
+        else:
+            logging.info(f"Commit to {file_name}")
 
 logging.info("All completed")

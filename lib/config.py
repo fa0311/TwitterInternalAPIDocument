@@ -6,8 +6,6 @@ class FileConf:
     CHANGE_LOG_MD = "docs/markdown/ChangeLog.md"
     INITIAL_STATE_JSON = "docs/json/InitialState.json"
     META_DATA_JSON = "docs/json/MetaData.json"
-
-    FREEZE_OBJECT_JSON = "docs/json/FreezeObject.json"
     FILES = [
         GRAPH_QL_JSON,
         GRAPH_QL_MD,
