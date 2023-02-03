@@ -1,4 +1,3 @@
-import requests
 import json
 import os
 import datetime
@@ -31,6 +30,13 @@ logging.info("init is completed")
 # === Requests ===
 
 twitter = twitter_home()
+
+if  os.path.isfile('cookie.json'):
+    twitter.load('cookie.json')
+    logging.info("cookie load is completed")
+twitter.get_home()
+
+
 script = "".join(twitter.get_script())
 parsed_script_list = js(script).parser()
 src = twitter.get_script_url()
@@ -62,13 +68,13 @@ logging.info("script decode is completed")
 # === Road ===
 
 response = "".join(
-    [requests.get(s, headers=twitter.get_header()).text for s in tqdm(src)]
+    [twitter.session.get(s, headers=twitter.get_header()).text for s in tqdm(src)]
 )
 parsed_list = js(response).parser()
-logging.info("Script loading is completed")
+logging.info("script loading is completed")
 
 i18n_response = {
-    k: requests.get(s, headers=twitter.get_header()).text
+    k: twitter.session.get(s, headers=twitter.get_header()).text
     for k, s in tqdm(i18n_src.items())
 }
 logging.info("i18n loading is completed")

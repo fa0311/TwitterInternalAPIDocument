@@ -1,5 +1,6 @@
 import requests
 import re
+from TwitterFrontendFlow.TwitterFrontendFlow.TwitterFrontendFlow import *
 
 
 class twitter_home:
@@ -7,8 +8,28 @@ class twitter_home:
     LATEST_USER_AGENT = "https://raw.githubusercontent.com/TechfaneTechnologies/latest-user-agent/main/user_agents.json"
 
     def __init__(self):
-        self.user_agent_list = requests.get(self.LATEST_USER_AGENT).json()
-        self.response = requests.get(self.TWITTER_HOME, headers=self.get_header())
+        self.session = requests.session()
+        self.user_agent_list = self.session.get(self.LATEST_USER_AGENT).json()
+
+    def login(self, userid: str, password: str):
+        
+        flow = TwitterFrontendFlow()
+        flow.session = self.session
+        flow.login_flow()
+        flow.LoginJsInstrumentationSubtask()
+        flow.LoginEnterUserIdentifierSSO(userid)
+        flow.LoginEnterPassword(password)
+        flow.AccountDuplicationCheck()
+        if "LoginSuccessSubtask" not in flow.get_subtask_ids():
+            raise Exception("login error")
+
+    def load(self, file_path: str):
+        flow = TwitterFrontendFlow()
+        flow.session = self.session
+        flow.LoadCookies(file_path)
+
+    def get_home(self):
+        self.response = self.session.get(self.TWITTER_HOME, headers=self.get_header())
 
     def get_header(self):
         return {"User-Agent": self.user_agent_list[0]}

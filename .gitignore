@@ -2,3 +2,5 @@
 /.venv
 __pycache__
 *.backup
+/TwitterFrontendFlow
+/cookie.json

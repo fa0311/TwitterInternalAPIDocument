@@ -44,6 +44,14 @@ Note written by the developer.
 git clone https://github.com/fa0311/TwitterInternalAPIDocument.git
 cd TwitterInternalAPIDocument
 pip install -r requirements.txt
+git clone https://github.com/fa0311/TwitterFrontendFlow.git
+```
+
+optional
+
+```shell
+python TwitterFrontendFlow/sample2.py
+
 ```
 
 ## Reference
