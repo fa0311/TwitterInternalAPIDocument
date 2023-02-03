@@ -8,7 +8,7 @@ class js:
         self.length = len(self.script)
         self.key = 0
 
-    def parser(self):
+    def parser(self, init=True):
         output = js_data()
         value = ""
         while self.length > self.key:
@@ -17,13 +17,16 @@ class js:
             if char == "{":
                 output.children.append(value)
                 value = ""
-                output.children.append(self.parser())
+                output.children.append(self.parser(init=False))
                 output.children[-1].parent = output
                 output.children[-1].before = output.children[-2]
             elif char == "}":
                 if value != "":
                     output.children.append(value)
-                return output
+                if init:
+                    value = ""
+                else:
+                    return output
             else:
                 value += char
         if value != "":

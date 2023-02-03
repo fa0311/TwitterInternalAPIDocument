@@ -39,10 +39,33 @@ logging.info("backup is completed")
 twitter = twitter_home()
 script = "".join(twitter.get_script())
 parsed_script_list = js(script).parser()
-
-
 src = twitter.get_script_url()
 [logging.info(f"src:{s}") for s in src]
+
+# === Initial decode ===
+
+initial_state = search_js(parsed_script_list, "window.__INITIAL_STATE__=")[0].after
+initial_output = json.loads(json_parser(initial_state))
+
+meta_data = search_js(parsed_script_list, ";window.__META_DATA__=")[0].after
+meta_output = json.loads(json_parser(meta_data))
+
+script_load_data = search_js_reg(parsed_script_list, "Promise.all")[0].after
+script_load_json = json.loads(json_parser(script_load_data))
+script_load_output = {}
+base_url = "https://abs.twimg.com/responsive-web/client-web/"
+for k in script_load_json:
+    url = "{0}{1}.{2}a.js".format(base_url, k, script_load_json[k])
+    script_load_output[k] = url
+    if k.startswith("i18n"):
+        pass
+    elif k.startswith("endpoints"):
+        src.append(url)
+
+logging.info("script decode is completed")
+
+# === Road ===
+
 response = "".join(
     [requests.get(s, headers=twitter.get_header()).text for s in tqdm(src)]
 )
@@ -54,21 +77,14 @@ logging.info("request is completed")
 parsed_list = js(response).parser()
 logging.info("parsed_list is completed")
 
-
 graphql_output = get_graphql(parsed_list)
 logging.info("get_graphql is completed")
 graphql_output = marge_exports(parsed_list, graphql_output)
 logging.info("marge_exports is completed")
+graphql_output = marge_metadata(graphql_output, initial_output)
+logging.info("marge_metadata is completed")
 freeze_object_output = get_freeze_object(parsed_list)
 logging.info("get_freeze_object is completed")
-
-
-initial_state = search_js(parsed_script_list, "window.__INITIAL_STATE__=")[0].after
-initial_output = json.loads(json_parser(initial_state))
-
-meta_data = search_js(parsed_script_list, ";window.__META_DATA__=")[0].after
-meta_output = json.loads(json_parser(meta_data))
-logging.info("script decode is completed")
 
 # feature_switches_output = get_feature_switches(parsed_list)
 # logging.info("get_feature_switches is completed")
@@ -78,16 +94,21 @@ if DEBUG:
         "parsed_list.json",
         json.dumps(parsed_list.to_list(), **dumps_args),
     )
+    write(
+        "parsed_script_list.json",
+        json.dumps(parsed_script_list.to_list(), **dumps_args),
+    )
 
 
 # === OUTPUT ===
 items = {
     FileConf.GRAPH_QL_JSON: json.dumps(graphql_output, **dumps_args),
-    FileConf.GRAPH_QL_MD: gen_md_graphql(graphql_output, response).output,
+    FileConf.GRAPH_QL_MD: gen_md_graphql(graphql_output).output,
     FileConf.FREEZE_OBJECT_MD: gen_md_freeze_object(freeze_object_output).output,
     FileConf.FREEZE_OBJECT_JSON: json.dumps(freeze_object_output, **dumps_args),
     FileConf.INITIAL_STATE_JSON: json.dumps(initial_output, **dumps_args),
     FileConf.META_DATA_JSON: json.dumps(meta_output, **dumps_args),
+    FileConf.SCRIPT_LOAD_JSON: json.dumps(script_load_output, **dumps_args),
 }
 
 

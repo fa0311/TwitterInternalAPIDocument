@@ -2,7 +2,7 @@ from lib.md_generator.md_generator import md_generator
 import logging
 
 
-def gen_md_graphql(graphql_output: list, response: str) -> md_generator:
+def gen_md_graphql(graphql_output: list) -> md_generator:
     md = md_generator()
     md.h1("Twitter Internal GraphQL API Document")
     md.p("This document is entirely auto-generated and may contain errors.")
@@ -77,8 +77,10 @@ def gen_md_graphql(graphql_output: list, response: str) -> md_generator:
         if type(switches) is list and len(switches) > 0:
             datafram = []
             for switch in exports["metadata"]["featureSwitches"]:
-                default = '.isTrue("' + switch + '")' in response
-                datafram.append({"key": switch, "type": "boolean", "default": default})
+                break
+                datafram.append(
+                    {"key": switch, "type": "boolean", "default": switch[0]}
+                )
             md.table(datafram)
         elif type(switches) is list and len(switches) == 0:
             md.inline("None")

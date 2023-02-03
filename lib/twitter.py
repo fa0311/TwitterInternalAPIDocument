@@ -23,6 +23,6 @@ class twitter_home:
     def get_script(self) -> list[str]:
         reg_script = '<script type="text/javascript" charset="utf-8" nonce="{nonce}">{any}</script>'.format(
             nonce="([a-zA-Z0-9]{48})",
-            any="(.*?)",
+            any="([\s\S]*?)",
         )
         return [script[1] for script in re.findall(reg_script, self.response.text)]
