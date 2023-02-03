@@ -17,6 +17,10 @@ The documentation in the [Develop branch](https://github.com/fa0311/TwitterInter
 [Twitter Static Constants Document](./docs/markdown/FreezeObject.md)  
 [Twitter Static Constants Json](./docs/json/FreezeObject.json)
 
+### Twitter Internationalization
+
+[Twitter Internationalization Json](./docs/json/i18n)
+
 ### Twitter Script
 
 [Twitter Script Json](./docs/json/ScriptLoadJson.json)
