@@ -2226,5 +2226,44 @@
     "PAUSED": "2",
     "SUCCEEDED": "3",
     "FAILED": "4"
+  },
+  {
+    "result": "",
+    "entities": {
+      "contentControlTools": {}
+    }
+  },
+  {
+    "result": [],
+    "entities": {
+      "contentControlTools": {}
+    }
+  },
+  {
+    "List": "List",
+    "ListTile": "ListTile",
+    "ListWithPin": "ListWithPin",
+    "ListWithSubscribe": "ListWithSubscribe"
+  },
+  {
+    "Creation": "list_creation",
+    "Edit": "list_edit"
+  },
+  {
+    "None": "None",
+    "Nudge": "Nudge",
+    "Prompt": "Prompt",
+    "Require": "Require"
+  },
+  {
+    "Enabled": "Enabled",
+    "None": "None"
+  },
+  {
+    "Hmm": "Hmm",
+    "Sad": "Sad",
+    "Haha": "Haha",
+    "Cheer": "Cheer",
+    "Like": "Like"
   }
 ]

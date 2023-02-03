@@ -4,13 +4,13 @@
   "sha": "bebeb11e164985b91d7438c616fa8d8bbb138807",
   "isLoggedIn": "false",
   "hasMultiAccountCookie": "false",
-  "countryCode": "US",
+  "countryCode": "JP",
   "uaParserTags": [
     "m2",
     "rweb",
     "msw"
   ],
-  "serverDate": "1675372037039",
+  "serverDate": "1675420990080",
   "cookies": {
     "version": "1661819456366",
     "fetchedTime": "1661971138705",
