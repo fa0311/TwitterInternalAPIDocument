@@ -1,6 +1,5 @@
 import json
 import re
-from tqdm import tqdm
 
 
 class js:
@@ -9,7 +8,7 @@ class js:
         self.length = len(self.script)
         self.key = 0
 
-    def parser(self):
+    def parser(self, init=True):
         output = js_data()
         value = ""
         while self.length > self.key:
@@ -18,13 +17,16 @@ class js:
             if char == "{":
                 output.children.append(value)
                 value = ""
-                output.children.append(self.parser())
+                output.children.append(self.parser(init=False))
                 output.children[-1].parent = output
                 output.children[-1].before = output.children[-2]
             elif char == "}":
                 if value != "":
                     output.children.append(value)
-                return output
+                if init:
+                    value = ""
+                else:
+                    return output
             else:
                 value += char
         if value != "":
@@ -123,26 +125,45 @@ def json_parser(text: js_data):
             json = json_parser(data)
         else:
             data = (
-                data.replace("?void 0:", "{void}")
+                data.replace("null==t?void 0:", "{optional}")
+                .replace("?void 0:", "{void}")
                 .replace('"private"', "{private}")
                 .replace('"none"', "{none}")
             )
             placeholder = parentheses_placeholder(data)
             json_child = ""
             json = re.sub(
-                f"(,|^)(\.\.\.{reg_other}+)(,|$)", r'\1"\2":"_"\3', placeholder.text
+                f"(,|^)(\.\.\.{reg_other}+)(,|$)",
+                r'\1"\2":"_"\3',
+                placeholder.text,
             )
             while json_child != json:
                 json_child = json
                 json = re.sub(
-                    f"(,|^)(\.\.\.{reg_other}+)(,|$)", r'\1"\2":"_"\3', json_child
+                    f"(,|^)(\.\.\.{reg_other}+)(,|$)",
+                    r'\1"\2":"_"\3',
+                    json_child,
                 )
-            json = re.sub(f"(,|^)({reg_other}+)(:|$)", r'\1"\2"\3', json)
-            json = re.sub(f"(:|^)({reg_other}+)(,|$)", r'\1"\2"\3', json)
+            json = re.sub(
+                f"(,|^)({reg_other}+)(:|$)",
+                r'\1"\2"\3',
+                json,
+            )
+            json = re.sub(
+                f"(:|^)({reg_other}+)(,|$)",
+                r'\1"\2"\3',
+                json,
+            )
             args = [
                 "(" + parsed.replace('"', '\\"') + ")" for parsed in placeholder.list
             ]
-            json = json.format(*args, void="?void 0:", private="private", none="none")
+            json = json.format(
+                *args,
+                optional="(optional) ",
+                void="?void 0:",
+                private="private",
+                none="none",
+            )
         output += json
     output = output.replace(':"_"{', ":{")
     return "{" + output + "}"
