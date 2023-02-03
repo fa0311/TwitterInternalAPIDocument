@@ -3,4 +3,4 @@
 __pycache__
 *.backup
 /TwitterFrontendFlow
-/cookie.json
+/*cookie.json
