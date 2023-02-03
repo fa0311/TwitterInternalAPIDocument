@@ -23,7 +23,7 @@ coloredlogs.install(
     level=logging.INFO,
     fmt="[%(levelname)s] %(relativeCreated)dms %(message)s",
 )
-DEBUG = True
+DEBUG = False
 dumps_args = {"ensure_ascii": False, "indent": 2}
 logging.info("init is completed")
 
