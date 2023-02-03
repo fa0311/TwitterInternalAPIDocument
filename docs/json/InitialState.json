@@ -120,11 +120,6 @@
       "entities": {},
       "errors": {},
       "fetchStatus": {}
-    },
-    "places": {
-      "entities": {},
-      "errors": {},
-      "fetchStatus": {}
     }
   },
   "featureSwitch": {
@@ -3219,7 +3214,7 @@
           "value": "false"
         },
         "dm_education_flags_prompt": {
-          "value": "true"
+          "value": "false"
         },
         "dm_evolution_conversation_read_enabled": {
           "value": "false"
@@ -3548,7 +3543,7 @@
           "value": "true"
         },
         "longform_ad_free_articles_badging_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "longform_notetweets_composition_without_claims_enabled": {
           "value": "false"
@@ -3800,7 +3795,7 @@
           "value": "true"
         },
         "responsive_web_birdwatch_consumption_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "responsive_web_birdwatch_contribution_enabled": {
           "value": "false"
@@ -3830,10 +3825,10 @@
           "value": "false"
         },
         "responsive_web_birdwatch_pivots_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "responsive_web_birdwatch_rating_crowd_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "responsive_web_birdwatch_rating_mini_survey_enabled": {
           "value": "false"
@@ -3893,7 +3888,7 @@
           "value": "true"
         },
         "responsive_web_commerce_shop_spotlight_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "responsive_web_communities_slices_enabled": {
           "value": "true"
@@ -4515,7 +4510,7 @@
           "value": "false"
         },
         "responsive_web_twitter_article_geo_gated": {
-          "value": "true"
+          "value": "false"
         },
         "responsive_web_twitter_article_max_times_show_tweet_banner": {
           "value": "0"
@@ -4524,13 +4519,13 @@
           "value": "false"
         },
         "responsive_web_twitter_article_tweet_other_notes_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "responsive_web_twitter_article_tweet_own_notes_enabled": {
           "value": "false"
         },
         "responsive_web_twitter_article_view_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "responsive_web_twitter_blue_growth_primary_nav_enabled": {
           "value": "true"
@@ -4930,7 +4925,7 @@
           "value": "true"
         },
         "super_follow_android_web_subscription_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "super_follow_exclusive_tweet_creation_api_enabled": {
           "value": "true"
@@ -4942,7 +4937,7 @@
           "value": "true"
         },
         "super_follow_web_application_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "super_follow_web_deactivate_enabled": {
           "value": "true"
@@ -5333,7 +5328,7 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "76acbea7ae3ee4ae5ec69ff00f04985f",
+      "settingsVersion": "253f8d32b323c6624b3ed2baa023a89c",
       "behavioralEventAllowlist": {
         "children": {
           "messages": {
@@ -5377,6 +5372,27 @@
                   }
                 },
                 "isTerminal": "0"
+              }
+            },
+            "isTerminal": "0"
+          },
+          "notification": {
+            "children": {
+              "background": {
+                "children": {
+                  "impress": {
+                    "isTerminal": "1"
+                  }
+                },
+                "isTerminal": "0"
+              }
+            },
+            "isTerminal": "0"
+          },
+          "fullscreen_media": {
+            "children": {
+              "impress": {
+                "isTerminal": "1"
               }
             },
             "isTerminal": "0"
@@ -5527,6 +5543,25 @@
                   }
                 },
                 "isTerminal": "0"
+              }
+            },
+            "isTerminal": "0"
+          },
+          "**": {
+            "children": {
+              "tap": {
+                "isTerminal": "1"
+              },
+              "rules": {
+                "children": {
+                  "impress": {
+                    "isTerminal": "1"
+                  }
+                },
+                "isTerminal": "0"
+              },
+              "click": {
+                "isTerminal": "1"
               }
             },
             "isTerminal": "0"
@@ -5741,10 +5776,10 @@
     "fetchStatus": "none"
   },
   "session": {
-    "country": "JP",
+    "country": "US",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "167542099000394311",
+    "guestId": "167542130088931625",
     "hasCommunityMemberships": "false",
     "language": "en",
     "oneFactorLoginEligibility": {
@@ -5874,7 +5909,7 @@
           "pollValid": "false",
           "isEmpty": "true",
           "isValid": "false",
-          "key": "composer-473097"
+          "key": "composer-876187"
         }
       ],
       "excludedRecipients": [],
@@ -5896,7 +5931,7 @@
           "pollValid": "false",
           "isEmpty": "true",
           "isValid": "false",
-          "key": "composer-473098"
+          "key": "composer-876188"
         }
       ],
       "excludedRecipients": [],
@@ -5912,13 +5947,6 @@
     "fetchStatus": "none"
   },
   "geoLocation": {},
-  "dmDrawer": {
-    "poppedOutConversationId": "null",
-    "drawerVisibility": "collapsed"
-  },
-  "userTweetStats": {
-    "tweet_stats": {}
-  },
   "instreamVideo": {
     "OTHER": {
       "fetchStatus": "none",
@@ -5934,13 +5962,69 @@
     "fetchStatus": "none"
   },
   "listMemberships": {},
+  "dmDrawer": {
+    "poppedOutConversationId": "null",
+    "drawerVisibility": "collapsed"
+  },
+  "userTweetStats": {
+    "tweet_stats": {}
+  },
   "developerToolDiscovery": {
     "fetchStatus": "none",
     "profileUpsellDismissedEpochMillis": "0",
     "settingsUpsellDismissedEpochMillis": "0"
   },
   "knownFollowers": {},
+  "trustedFriends": {
+    "lists": [],
+    "fetchStatus": "none"
+  },
+  "adFreeArticles": {
+    "loadStatus": "none"
+  },
+  "cardState": {},
+  "promotedContent": {},
+  "dmComposer": {},
+  "articles": {
+    "articles": {}
+  },
   "liveTweetCounts": {},
+  "nudges": {
+    "actioned_tweets": {}
+  },
+  "editTweet": {
+    "fetchStatus": "none",
+    "editTweetLimitedMarketPromptDismissedEpochMilliseconds": "0"
+  },
+  "placePicker": {
+    "initial": {
+      "fetchStatus": "none"
+    },
+    "lastSearch": {
+      "fetchStatus": "none"
+    }
+  },
+  "scheduledTweets": {
+    "fetchStatus": "none",
+    "scheduledTweets": []
+  },
+  "settings/usernames": {
+    "isLoaded": "false"
+  },
+  "settings/profile": {
+    "avatarMediaId": "null",
+    "bannerMediaId": "null",
+    "isUploading": "false",
+    "profileSettings": "null"
+  },
+  "recentSearches": {
+    "fetched": "false",
+    "recentSearches": []
+  },
+  "savedSearches": {
+    "fetchStatus": "none",
+    "savedSearches": []
+  },
   "ads": {
     "typeahead": {
       "targetingLocation": {},
@@ -5982,60 +6066,11 @@
     "promoteErrorCode": "null",
     "objective": "Engagements"
   },
-  "trustedFriends": {
-    "lists": [],
-    "fetchStatus": "none"
-  },
-  "adFreeArticles": {
-    "loadStatus": "none"
-  },
-  "cardState": {},
-  "promotedContent": {},
-  "dmComposer": {},
-  "articles": {
-    "articles": {}
-  },
-  "nudges": {
-    "actioned_tweets": {}
-  },
-  "editTweet": {
-    "fetchStatus": "none",
-    "editTweetLimitedMarketPromptDismissedEpochMilliseconds": "0"
-  },
-  "placePicker": {
-    "initial": {
-      "fetchStatus": "none"
-    },
-    "lastSearch": {
-      "fetchStatus": "none"
-    }
-  },
-  "scheduledTweets": {
-    "fetchStatus": "none",
-    "scheduledTweets": []
-  },
-  "recentSearches": {
-    "fetched": "false",
-    "recentSearches": []
-  },
-  "savedSearches": {
-    "fetchStatus": "none",
-    "savedSearches": []
-  },
-  "settings/usernames": {
-    "isLoaded": "false"
-  },
-  "settings/profile": {
-    "avatarMediaId": "null",
-    "bannerMediaId": "null",
-    "isUploading": "false",
-    "profileSettings": "null"
-  },
+  "channelsTimelineBehavior": {},
   "liveEventInterstitials": {
     "seenEvents": [],
     "fetchStatus": "none"
   },
-  "channelsTimelineBehavior": {},
   "availableLanguages": {
     "fetchStatus": "none",
     "languages": []
@@ -6043,5 +6078,86 @@
   "oAuthConsent": {
     "fetchStatus": "none",
     "postStatus": "none"
+  },
+  "twitterArticles": {
+    "editorState": {
+      "_immutable": {
+        "allowUndo": "true",
+        "currentContent": {
+          "entityMap": {},
+          "blockMap": {
+            "3crgl": {
+              "key": "3crgl",
+              "type": "unstyled",
+              "text": "",
+              "characterList": [],
+              "depth": "0",
+              "data": {}
+            }
+          },
+          "selectionBefore": {
+            "anchorKey": "3crgl",
+            "anchorOffset": "0",
+            "focusKey": "3crgl",
+            "focusOffset": "0",
+            "isBackward": "false",
+            "hasFocus": "false"
+          },
+          "selectionAfter": {
+            "anchorKey": "3crgl",
+            "anchorOffset": "0",
+            "focusKey": "3crgl",
+            "focusOffset": "0",
+            "isBackward": "false",
+            "hasFocus": "false"
+          }
+        },
+        "decorator": {
+          "_decorators": [
+            {},
+            {},
+            {}
+          ]
+        },
+        "directionMap": {
+          "3crgl": "LTR"
+        },
+        "forceSelection": "false",
+        "inCompositionMode": "false",
+        "inlineStyleOverride": "null",
+        "lastChangeType": "null",
+        "nativelyRenderedContent": "null",
+        "redoStack": [],
+        "selection": {
+          "anchorKey": "3crgl",
+          "anchorOffset": "0",
+          "focusKey": "3crgl",
+          "focusOffset": "0",
+          "isBackward": "false",
+          "hasFocus": "false"
+        },
+        "treeMap": {
+          "3crgl": [
+            {
+              "start": "0",
+              "end": "0",
+              "decoratorKey": "null",
+              "leaves": [
+                {
+                  "start": "0",
+                  "end": "0"
+                }
+              ]
+            }
+          ]
+        },
+        "undoStack": []
+      }
+    },
+    "isTwitterArticleLoading": "false",
+    "mediaEntityKeyToFilesMap": {},
+    "mediaIdToLocalMediaIdMap": {},
+    "prevMediaEntityKeys": [],
+    "prevTwitterArticleMedia": []
   }
 }
