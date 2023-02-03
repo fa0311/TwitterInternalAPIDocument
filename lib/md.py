@@ -3,6 +3,18 @@ import logging
 
 
 def gen_md_graphql(graphql_output: list) -> md_generator:
+    type_converter = {
+        "!0": "boolean",
+        "!1": "boolean",
+        "true": "boolean",
+        "false": "boolean",
+    }
+    variable_converter = {
+        "!0": True,
+        "!1": False,
+        "true": True,
+        "false": False,
+    }
     md = md_generator()
     md.h1("Twitter Internal GraphQL API Document")
     md.p("This document is entirely auto-generated and may contain errors.")
@@ -52,7 +64,7 @@ def gen_md_graphql(graphql_output: list) -> md_generator:
         else:
             md.inline("GET")
         md.p("Login Required", end=": ")
-        md.inline("Future")
+        md.inline("...")
 
         md.h3("Param")
         md.h4("variables")
@@ -61,26 +73,63 @@ def gen_md_graphql(graphql_output: list) -> md_generator:
             for key in query.keys():
                 value = query[key]
                 if type(value) is str:
-                    value = {"!0": True, "!1": False}.get(value, value)
-                datafram.append({"key": key, "type": "Future", "variable": value})
+                    datafram.append(
+                        {
+                            "key": key,
+                            "type": type_converter.get(value, "..."),
+                            "variable": variable_converter.get(value, value),
+                        }
+                    )
+                else:
+                    datafram.append(
+                        {
+                            "key": key,
+                            "type": "...",
+                            "variable": value,
+                        }
+                    )
             md.table(datafram)
         elif type(query) is list and len(query) == 0:
             md.inline("None")
         elif type(query) is str:
             if len(query) > 300:
                 query = query[:300] + "..."
-            md.code("# Error\n" + query, title="internal process")
+            md.code(
+                "# Error\n" + query,
+                title="internal process",
+            )
         else:
             md.inline("None")
 
         md.h4("features")
         if type(switches) is list and len(switches) > 0:
             datafram = []
-            for switch in exports["metadata"]["featureSwitches"]:
-                break
-                datafram.append(
-                    {"key": switch, "type": "boolean", "default": switch[0]}
-                )
+            for key in exports["metadata"]["featureSwitches"]:
+                switch = exports["metadata"]["featureSwitch"][key]
+                if switch == None:
+                    datafram.append(
+                        {
+                            "key": key,
+                            "type": "...",
+                            "default": "error",
+                        }
+                    )
+                elif type(switch["value"]) is str:
+                    datafram.append(
+                        {
+                            "key": key,
+                            "type": type_converter.get(switch["value"], "..."),
+                            "variable": variable_converter.get(switch["value"], "..."),
+                        }
+                    )
+                else:
+                    datafram.append(
+                        {
+                            "key": key,
+                            "type": "...",
+                            "default": switch["value"],
+                        }
+                    )
             md.table(datafram)
         elif type(switches) is list and len(switches) == 0:
             md.inline("None")
@@ -95,7 +144,9 @@ def gen_md_graphql(graphql_output: list) -> md_generator:
     return md
 
 
-def gen_md_freeze_object(freeze_object_output: list) -> md_generator:
+def gen_md_freeze_object(
+    freeze_object_output: list,
+) -> md_generator:
     md = md_generator()
     md.h1("Twitter Internal Constants Document")
     md.p("This document is entirely auto-generated and may contain errors.")
@@ -107,10 +158,18 @@ def gen_md_freeze_object(freeze_object_output: list) -> md_generator:
                 value = freeze_object[key]
                 if type(value) is str:
                     value = {"!0": True, "!1": False}.get(value, value)
-                datafram.append({"constant": key, "value": md.table_escape(value)})
+                datafram.append(
+                    {
+                        "constant": key,
+                        "value": md.table_escape(value),
+                    }
+                )
             md.table(datafram)
         else:
             if len(freeze_object) > 300:
                 freeze_object = freeze_object[:300] + "..."
-            md.code("# Error\n" + freeze_object, title="internal process")
+            md.code(
+                "# Error\n" + freeze_object,
+                title="internal process",
+            )
     return md

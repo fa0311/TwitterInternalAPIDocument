@@ -125,26 +125,45 @@ def json_parser(text: js_data):
             json = json_parser(data)
         else:
             data = (
-                data.replace("?void 0:", "{void}")
+                data.replace("null==t?void 0:", "{optional}")
+                .replace("?void 0:", "{void}")
                 .replace('"private"', "{private}")
                 .replace('"none"', "{none}")
             )
             placeholder = parentheses_placeholder(data)
             json_child = ""
             json = re.sub(
-                f"(,|^)(\.\.\.{reg_other}+)(,|$)", r'\1"\2":"_"\3', placeholder.text
+                f"(,|^)(\.\.\.{reg_other}+)(,|$)",
+                r'\1"\2":"_"\3',
+                placeholder.text,
             )
             while json_child != json:
                 json_child = json
                 json = re.sub(
-                    f"(,|^)(\.\.\.{reg_other}+)(,|$)", r'\1"\2":"_"\3', json_child
+                    f"(,|^)(\.\.\.{reg_other}+)(,|$)",
+                    r'\1"\2":"_"\3',
+                    json_child,
                 )
-            json = re.sub(f"(,|^)({reg_other}+)(:|$)", r'\1"\2"\3', json)
-            json = re.sub(f"(:|^)({reg_other}+)(,|$)", r'\1"\2"\3', json)
+            json = re.sub(
+                f"(,|^)({reg_other}+)(:|$)",
+                r'\1"\2"\3',
+                json,
+            )
+            json = re.sub(
+                f"(:|^)({reg_other}+)(,|$)",
+                r'\1"\2"\3',
+                json,
+            )
             args = [
                 "(" + parsed.replace('"', '\\"') + ")" for parsed in placeholder.list
             ]
-            json = json.format(*args, void="?void 0:", private="private", none="none")
+            json = json.format(
+                *args,
+                optional="(optional) ",
+                void="?void 0:",
+                private="private",
+                none="none",
+            )
         output += json
     output = output.replace(':"_"{', ":{")
     return "{" + output + "}"

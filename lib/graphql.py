@@ -1,12 +1,7 @@
 import logging
 import re
 import json
-from lib.js_parser.js_parser import (
-    search_js,
-    search_js_reg,
-    json_parser,
-    js_data,
-)
+from lib.js_parser.js_parser import *
 from tqdm import tqdm
 
 
@@ -57,7 +52,9 @@ def get_graphql(parsed_list: js_data) -> list:
 def marge_exports(parsed_list: list, graphql_output: list) -> list:
     exports = search_js(parsed_list, "e.exports=")
     reg_exports = "{comma}{int}:{var}=>".format(
-        comma=",?", int="([0-9]{1,5})", var="(e|\([a-z,]*?\))"
+        comma=",?",
+        int="([0-9]{1,5})",
+        var="(e|\([a-z,]*?\))",
     )
     for export in exports:
         n = re.findall(reg_exports, export.parent.before)[0][0]
@@ -90,7 +87,12 @@ def marge_exports(parsed_list: list, graphql_output: list) -> list:
                             }
                         }
                     )
-    return list(filter(lambda x: x.get("exports", False), graphql_output))
+    return list(
+        filter(
+            lambda x: x.get("exports", False),
+            graphql_output,
+        )
+    )
 
 
 def marge_metadata(graphql_output: list, initial_output: dict) -> list:
@@ -105,7 +107,6 @@ def marge_metadata(graphql_output: list, initial_output: dict) -> list:
         if k == "user":
             for k in initial_output["featureSwitch"]["user"].keys():
                 featureSwitches[k] = initial_output["featureSwitch"]["user"][k]
-    print(featureSwitches)
     for i in range(len(graphql_output)):
         graphql_output[i]["exports"]["metadata"]["featureSwitch"] = {}
         for switch in graphql_output[i]["exports"]["metadata"]["featureSwitches"]:
