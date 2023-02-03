@@ -1875,6 +1875,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | retweet        | t                                                 |
 | share          | s                                                 |
 | downvote       | d                                                 |
+| bookmark       | b                                                 |
 | reactUndo      | q 0                                               |
 | reactHmm       | q 1                                               |
 | reactSad       | q 2                                               |
