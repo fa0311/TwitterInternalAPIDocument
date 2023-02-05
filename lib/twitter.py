@@ -1,18 +1,17 @@
 import requests
 import re
-from TwitterFrontendFlow.TwitterFrontendFlow.TwitterFrontendFlow import *
 
 
 class twitter_home:
     TWITTER_HOME = "https://twitter.com/home"
     LATEST_USER_AGENT = "https://raw.githubusercontent.com/TechfaneTechnologies/latest-user-agent/main/user_agents.json"
+    TWITTER_FRONTEND_FLOW = False
 
     def __init__(self):
         self.session = requests.session()
         self.user_agent_list = self.session.get(self.LATEST_USER_AGENT).json()
 
     def login(self, userid: str, password: str):
-
         flow = TwitterFrontendFlow()
         flow.session = self.session
         flow.login_flow()
@@ -47,3 +46,10 @@ class twitter_home:
             any="([\s\S]*?)",
         )
         return [script[1] for script in re.findall(reg_script, self.response.text)]
+
+
+try:
+    from TwitterFrontendFlow.TwitterFrontendFlow.TwitterFrontendFlow import *
+    twitter_home.TWITTER_FRONTEND_FLOW = True
+except:
+    pass

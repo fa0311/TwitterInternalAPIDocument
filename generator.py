@@ -31,7 +31,7 @@ logging.info("init is completed")
 
 twitter = twitter_home()
 
-if os.path.isfile("cookie.json"):
+if twitter_home.TWITTER_FRONTEND_FLOW and os.path.isfile("cookie.json"):
     twitter.load("cookie.json")
     logging.info("cookie load is completed")
 twitter.get_home()
