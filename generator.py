@@ -31,8 +31,8 @@ logging.info("init is completed")
 
 twitter = twitter_home()
 
-if  os.path.isfile('cookie.json'):
-    twitter.load('cookie.json')
+if os.path.isfile("cookie.json"):
+    twitter.load("cookie.json")
     logging.info("cookie load is completed")
 twitter.get_home()
 
@@ -62,6 +62,9 @@ for k in script_load_json:
         i18n_src[k] = url
     elif k.startswith("endpoints"):
         src.append(url)
+    elif k.startswith("shared~endpoints"):
+        src.append(url)
+
 
 logging.info("script decode is completed")
 
@@ -160,8 +163,8 @@ for title, data in diff_data.items():
         for li in data:
             body.li(li)
             change_len += 1
-else:
-    body.li("None")
+    else:
+        body.li("None")
 
 items.update({FileConf.CHANGE_LOG_MD: items_backup[FileConf.CHANGE_LOG_MD]})
 

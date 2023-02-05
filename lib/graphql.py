@@ -50,6 +50,7 @@ def get_graphql(parsed_list: js_data) -> list:
 
 
 def marge_exports(parsed_list: list, graphql_output: list) -> list:
+    exports_output = []
     exports = search_js(parsed_list, "e.exports=")
     reg_exports = "{comma}{int}:{var}=>".format(
         comma=",?",
@@ -58,11 +59,12 @@ def marge_exports(parsed_list: list, graphql_output: list) -> list:
     )
     for export in exports:
         n = re.findall(reg_exports, export.parent.before)[0][0]
-        for key in range(len(graphql_output)):
-            if graphql_output[key]["n"] == n:
-                graphql_output[key].update(
-                    {"exports": json.loads(json_parser(export.parent.children[1]))}
-                )
+        try:
+            data = json.loads(json_parser(export.parent.children[1]))
+            if data["metadata"] is not None:
+                exports_output.append({"n": n, "exports": data})
+        except:
+            pass
 
     reg_exports_ext = ';{var}.hash="{hash}",e.exports={var}'.format(
         hash="[a-z0-9]{32}", var="[a-zA-Z0-9]{1,2}"
@@ -72,27 +74,26 @@ def marge_exports(parsed_list: list, graphql_output: list) -> list:
         params = search_js(export.before, ",params:")
         if len(params) > 0:
             n = re.findall(reg_exports, export.parent.before)[0][0]
-            for key in range(len(graphql_output)):
-                if graphql_output[key]["n"] == n:
-                    data = json.loads(json_parser(params[0].after))
-                    graphql_output[key].update(
-                        {
-                            "exports": {
-                                "queryId": data["id"],
-                                "operationName": data["name"],
-                                "operationType": data["operationKind"],
-                                "metadata": {
-                                    "featureSwitches": data["metadata"]["features"],
-                                },
-                            }
-                        }
-                    )
-    return list(
-        filter(
-            lambda x: x.get("exports", False),
-            graphql_output,
-        )
-    )
+            data = json.loads(json_parser(params[0].after))
+            exports_output.append(
+                {
+                    "n": n,
+                    "exports": {
+                        "queryId": data["id"],
+                        "operationName": data["name"],
+                        "operationType": data["operationKind"],
+                        "metadata": {
+                            "featureSwitches": data["metadata"].get("features", [])
+                        },
+                    },
+                }
+            )
+
+    for key in range(len(exports_output)):
+        for graphql in graphql_output:
+            if exports_output[key]["n"] == graphql["n"]:
+                exports_output[key].update(graphql)
+    return exports_output
 
 
 def marge_metadata(graphql_output: list, initial_output: dict) -> list:

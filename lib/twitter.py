@@ -12,7 +12,7 @@ class twitter_home:
         self.user_agent_list = self.session.get(self.LATEST_USER_AGENT).json()
 
     def login(self, userid: str, password: str):
-        
+
         flow = TwitterFrontendFlow()
         flow.session = self.session
         flow.login_flow()
