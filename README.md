@@ -62,11 +62,7 @@ python TwitterFrontendFlow/sample2.py
 
 ## Fast development of modules using this document
 
-```python
-
-
-```
-
+...
 Can also be used in combination with [TwitterInternalAPIDocument](https://github.com/fa0311/TwitterInternalAPIDocument)
 
 ## Reference

@@ -165,7 +165,7 @@ def to_api(graphql_output: list, kwargs: dict) -> dict:
             features[key] = variable_converter.get(switch["value"])
 
         api_output["graphql"][exports["operationName"]] = {
-            "url": "https://twitter.com/i/api/graphql/{queryId}/{operationName}".format(
+            "url": "https://api.twitter.com/graphql/{queryId}/{operationName}".format(
                 **exports
             ),
             "queryId": exports["queryId"],
