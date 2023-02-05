@@ -84,6 +84,13 @@ logging.info("i18n loading is completed")
 
 # === Parse ===
 
+header = twitter.get_header()
+header.update(
+    {
+        "authorization": "Bearer AAAAAAAAAAAAAAAAAAAAANRILgAAAAAAnNwIzUejRCOuH5E6I8xnZz4puTs%3D1Zv7ttfk8LF81IUq16cHjhLTvJu4FA33AGWWjCpTnA"
+    }
+)
+
 graphql_output = get_graphql(parsed_list)
 logging.info("get_graphql is completed")
 graphql_output = marge_exports(parsed_list, graphql_output)
@@ -92,7 +99,7 @@ graphql_output = marge_metadata(graphql_output, initial_output)
 logging.info("marge_metadata is completed")
 freeze_object_output = get_freeze_object(parsed_list)
 logging.info("get_freeze_object is completed")
-api_output = to_api(graphql_output,{"header":twitter.get_header()})
+api_output = to_api(graphql_output, {"header": header})
 logging.info("to_api is completed")
 
 

@@ -44,7 +44,7 @@ def gen_md_graphql(graphql_output: list) -> md_generator:
     for graphql in graphql_output:
         try:
             exports = graphql["exports"]
-            query = graphql.get("query",{})
+            query = graphql.get("query", {})
             switches = exports["metadata"]["featureSwitches"]
         except KeyError:
             logging.warning("KeyError: " + str(graphql))
@@ -53,7 +53,7 @@ def gen_md_graphql(graphql_output: list) -> md_generator:
         md.h2(exports["operationName"])
         md.p("Request URL", end=": ")
         md.inline(
-            "https://twitter.com/i/api/graphql/{queryId}/{operationName}".format(
+            "https://api.twitter.com/graphql/{queryId}/{operationName}".format(
                 **exports
             )
         )
