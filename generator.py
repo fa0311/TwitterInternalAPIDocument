@@ -101,16 +101,17 @@ i18n_output = {k: get_i18n(r) for k, r in i18n_response.items()}
 logging.info("get_i18n is completed")
 
 if DEBUG:
+    os.makedirs("debug", exist_ok=True)
     write(
-        "parsed_list.json",
+        "debug/parsed_list.json",
         json.dumps(parsed_list.to_list(), **dumps_args),
     )
     write(
-        "parsed_script_list.json",
+        "debug/parsed_script_list.json",
         json.dumps(parsed_script_list.to_list(), **dumps_args),
     )
     write(
-        "i18n_response.json",
+        "debug/i18n_response.json",
         json.dumps(i18n_response, **dumps_args),
     )
 

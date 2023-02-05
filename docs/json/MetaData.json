@@ -2,15 +2,15 @@
   "env": "prod",
   "isCanary": "false",
   "sha": "71e980807c1d455550e11883afec9c821da2e41e",
-  "isLoggedIn": "false",
+  "isLoggedIn": "true",
   "hasMultiAccountCookie": "false",
-  "countryCode": "US",
+  "countryCode": "JP",
   "uaParserTags": [
     "m2",
     "rweb",
     "msw"
   ],
-  "serverDate": "1675544819531",
+  "serverDate": "1675623027318",
   "cookies": {
     "version": "1661819456366",
     "fetchedTime": "1661971138705",
