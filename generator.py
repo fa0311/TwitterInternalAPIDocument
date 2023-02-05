@@ -31,8 +31,8 @@ logging.info("init is completed")
 
 twitter = twitter_home()
 
-if  os.path.isfile('cookie.json'):
-    twitter.load('cookie.json')
+if twitter_home.TWITTER_FRONTEND_FLOW and os.path.isfile("cookie.json"):
+    twitter.load("cookie.json")
     logging.info("cookie load is completed")
 twitter.get_home()
 
@@ -62,6 +62,9 @@ for k in script_load_json:
         i18n_src[k] = url
     elif k.startswith("endpoints"):
         src.append(url)
+    elif k.startswith("shared~endpoints"):
+        src.append(url)
+
 
 logging.info("script decode is completed")
 
@@ -98,16 +101,17 @@ i18n_output = {k: get_i18n(r) for k, r in i18n_response.items()}
 logging.info("get_i18n is completed")
 
 if DEBUG:
+    os.makedirs("debug", exist_ok=True)
     write(
-        "parsed_list.json",
+        "debug/parsed_list.json",
         json.dumps(parsed_list.to_list(), **dumps_args),
     )
     write(
-        "parsed_script_list.json",
+        "debug/parsed_script_list.json",
         json.dumps(parsed_script_list.to_list(), **dumps_args),
     )
     write(
-        "i18n_response.json",
+        "debug/i18n_response.json",
         json.dumps(i18n_response, **dumps_args),
     )
 
@@ -160,8 +164,8 @@ for title, data in diff_data.items():
         for li in data:
             body.li(li)
             change_len += 1
-else:
-    body.li("None")
+    else:
+        body.li("None")
 
 items.update({FileConf.CHANGE_LOG_MD: items_backup[FileConf.CHANGE_LOG_MD]})
 

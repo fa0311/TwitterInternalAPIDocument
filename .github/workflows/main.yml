@@ -32,8 +32,6 @@ jobs:
             ${{ runner.os }}-pip-
       - name: Install dependencies
         run: pip install -r requirements.txt
-      - name: Install TwitterFrontendFlow
-        run: git clone https://github.com/fa0311/TwitterFrontendFlow.git
       - name: Run Python
         run: python generator.py
         env:
