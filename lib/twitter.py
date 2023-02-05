@@ -50,6 +50,7 @@ class twitter_home:
 
 try:
     from TwitterFrontendFlow.TwitterFrontendFlow.TwitterFrontendFlow import *
+
     twitter_home.TWITTER_FRONTEND_FLOW = True
 except:
     pass

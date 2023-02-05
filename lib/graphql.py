@@ -148,16 +148,14 @@ def get_feature_switches(parsed_list: list) -> list:
             return feature_switches[0]
 
 
-def to_api(graphql_output:list,kwargs:dict)->dict:
+def to_api(graphql_output: list, kwargs: dict) -> dict:
     variable_converter = {
         "!0": True,
         "!1": False,
         "true": True,
         "false": False,
     }
-    api_output = {
-        "graphql":{}
-    }
+    api_output = {"graphql": {}}
 
     for graphql in graphql_output:
         features = {}
@@ -167,12 +165,13 @@ def to_api(graphql_output:list,kwargs:dict)->dict:
             features[key] = variable_converter.get(switch["value"])
 
         api_output["graphql"][exports["operationName"]] = {
-            "url":"https://twitter.com/i/api/graphql/{queryId}/{operationName}".format(**exports),
+            "url": "https://twitter.com/i/api/graphql/{queryId}/{operationName}".format(
+                **exports
+            ),
+            "queryId": exports["queryId"],
             "method": "POST" if exports["operationType"] == "mutation" else "GET",
-            "features":features
+            "features": features,
         }
-
-
 
     api_output.update(kwargs)
     return api_output
