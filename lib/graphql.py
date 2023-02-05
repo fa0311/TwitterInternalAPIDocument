@@ -116,6 +116,9 @@ def marge_metadata(graphql_output: list, initial_output: dict) -> list:
                     graphql_output[i]["exports"]["metadata"]["featureSwitch"][
                         switch
                     ] = featureSwitches[k]
+                    break
+            else:
+                logging.warning("NotFoundKey: " + switch)
     return graphql_output
 
 
@@ -143,3 +146,33 @@ def get_feature_switches(parsed_list: list) -> list:
         feature_switches = get_freeze_object(exports.parent, disable_tqdm=True)
         if len(feature_switches) > 0:
             return feature_switches[0]
+
+
+def to_api(graphql_output:list,kwargs:dict)->dict:
+    variable_converter = {
+        "!0": True,
+        "!1": False,
+        "true": True,
+        "false": False,
+    }
+    api_output = {
+        "graphql":{}
+    }
+
+    for graphql in graphql_output:
+        features = {}
+        exports = graphql["exports"]
+        for key in exports["metadata"]["featureSwitches"]:
+            switch = exports["metadata"]["featureSwitch"][key]
+            features[key] = variable_converter.get(switch["value"])
+
+        api_output["graphql"][exports["operationName"]] = {
+            "url":"https://twitter.com/i/api/graphql/{queryId}/{operationName}".format(**exports),
+            "method": "POST" if exports["operationType"] == "mutation" else "GET",
+            "features":features
+        }
+
+
+
+    api_output.update(kwargs)
+    return api_output

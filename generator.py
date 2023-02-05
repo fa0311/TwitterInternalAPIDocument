@@ -92,6 +92,8 @@ graphql_output = marge_metadata(graphql_output, initial_output)
 logging.info("marge_metadata is completed")
 freeze_object_output = get_freeze_object(parsed_list)
 logging.info("get_freeze_object is completed")
+api_output = to_api(graphql_output,{"header":twitter.get_header()})
+logging.info("to_api is completed")
 
 
 # feature_switches_output = get_feature_switches(parsed_list)
@@ -124,6 +126,7 @@ items = {
     FileConf.INITIAL_STATE_JSON: json.dumps(initial_output, **dumps_args),
     FileConf.META_DATA_JSON: json.dumps(meta_output, **dumps_args),
     FileConf.SCRIPT_LOAD_JSON: json.dumps(script_load_output, **dumps_args),
+    FileConf.API_JSON: json.dumps(api_output, **dumps_args),
     FileConf.CHANGE_LOG_MD: "",
 }
 

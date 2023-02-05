@@ -7,3 +7,4 @@ class FileConf:
     INITIAL_STATE_JSON = "docs/json/InitialState.json"
     META_DATA_JSON = "docs/json/MetaData.json"
     SCRIPT_LOAD_JSON = "docs/json/ScriptLoadJson.json"
+    API_JSON = "docs/json/API.json"
