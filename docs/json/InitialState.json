@@ -86,7 +86,7 @@
       "errors": {},
       "fetchStatus": {}
     },
-    "emailValidity": {
+    "legacyAndUnifiedCards": {
       "entities": {},
       "errors": {},
       "fetchStatus": {}
@@ -101,17 +101,17 @@
       "errors": {},
       "fetchStatus": {}
     },
+    "emailValidity": {
+      "entities": {},
+      "errors": {},
+      "fetchStatus": {}
+    },
     "passwordValidity": {
       "entities": {},
       "errors": {},
       "fetchStatus": {}
     },
     "phoneNumberValidity": {
-      "entities": {},
-      "errors": {},
-      "fetchStatus": {}
-    },
-    "legacyAndUnifiedCards": {
       "entities": {},
       "errors": {},
       "fetchStatus": {}
@@ -3549,7 +3549,7 @@
           "value": "true"
         },
         "longform_ad_free_articles_badging_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "longform_notetweets_composition_without_claims_enabled": {
           "value": "false"
@@ -3801,7 +3801,7 @@
           "value": "true"
         },
         "responsive_web_birdwatch_consumption_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "responsive_web_birdwatch_contribution_enabled": {
           "value": "false"
@@ -3831,10 +3831,10 @@
           "value": "false"
         },
         "responsive_web_birdwatch_pivots_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "responsive_web_birdwatch_rating_crowd_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "responsive_web_birdwatch_rating_mini_survey_enabled": {
           "value": "false"
@@ -3894,7 +3894,7 @@
           "value": "true"
         },
         "responsive_web_commerce_shop_spotlight_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "responsive_web_communities_slices_enabled": {
           "value": "true"
@@ -4131,7 +4131,7 @@
           "value": "false"
         },
         "responsive_web_live_commerce_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "responsive_web_live_video_parity_periscope_auth_enabled": {
           "value": "false"
@@ -4916,7 +4916,7 @@
           "value": "true"
         },
         "subscriptions_sign_up_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "subscriptions_stripe_testing": {
           "value": "false"
@@ -4931,7 +4931,7 @@
           "value": "true"
         },
         "super_follow_android_web_subscription_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "super_follow_exclusive_tweet_creation_api_enabled": {
           "value": "true"
@@ -4943,7 +4943,7 @@
           "value": "true"
         },
         "super_follow_web_application_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "super_follow_web_deactivate_enabled": {
           "value": "true"
@@ -5334,7 +5334,7 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "6e0fa9c54573bc5b8ad1e344108cf647",
+      "settingsVersion": "b4dd275d47bc2d623acd2da5f9d68a4a",
       "behavioralEventAllowlist": {
         "children": {
           "messages": {
@@ -5378,27 +5378,6 @@
                   }
                 },
                 "isTerminal": "0"
-              }
-            },
-            "isTerminal": "0"
-          },
-          "notification": {
-            "children": {
-              "background": {
-                "children": {
-                  "impress": {
-                    "isTerminal": "1"
-                  }
-                },
-                "isTerminal": "0"
-              }
-            },
-            "isTerminal": "0"
-          },
-          "fullscreen_media": {
-            "children": {
-              "impress": {
-                "isTerminal": "1"
               }
             },
             "isTerminal": "0"
@@ -5549,25 +5528,6 @@
                   }
                 },
                 "isTerminal": "0"
-              }
-            },
-            "isTerminal": "0"
-          },
-          "**": {
-            "children": {
-              "tap": {
-                "isTerminal": "1"
-              },
-              "rules": {
-                "children": {
-                  "impress": {
-                    "isTerminal": "1"
-                  }
-                },
-                "isTerminal": "0"
-              },
-              "click": {
-                "isTerminal": "1"
               }
             },
             "isTerminal": "0"
@@ -5782,10 +5742,10 @@
     "fetchStatus": "none"
   },
   "session": {
-    "country": "XX",
+    "country": "US",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "167563119023350768",
+    "guestId": "167563181599729109",
     "hasCommunityMemberships": "false",
     "language": "en",
     "oneFactorLoginEligibility": {
@@ -5915,7 +5875,7 @@
           "pollValid": "false",
           "isEmpty": "true",
           "isValid": "false",
-          "key": "composer-913125"
+          "key": "composer-456945"
         }
       ],
       "excludedRecipients": [],
@@ -5937,7 +5897,7 @@
           "pollValid": "false",
           "isEmpty": "true",
           "isValid": "false",
-          "key": "composer-913126"
+          "key": "composer-456946"
         }
       ],
       "excludedRecipients": [],
@@ -5968,10 +5928,6 @@
     "fetchStatus": "none"
   },
   "listMemberships": {},
-  "dmDrawer": {
-    "poppedOutConversationId": "null",
-    "drawerVisibility": "collapsed"
-  },
   "dmComposer": {},
   "recentSearches": {
     "fetched": "false",
@@ -5980,6 +5936,10 @@
   "savedSearches": {
     "fetchStatus": "none",
     "savedSearches": []
+  },
+  "dmDrawer": {
+    "poppedOutConversationId": "null",
+    "drawerVisibility": "collapsed"
   },
   "userTweetStats": {
     "tweet_stats": {}
@@ -5990,6 +5950,15 @@
     "settingsUpsellDismissedEpochMillis": "0"
   },
   "knownFollowers": {},
+  "trustedFriends": {
+    "lists": [],
+    "fetchStatus": "none"
+  },
+  "adFreeArticles": {
+    "loadStatus": "none"
+  },
+  "cardState": {},
+  "promotedContent": {},
   "articles": {
     "articles": {}
   },
@@ -5997,14 +5966,21 @@
   "nudges": {
     "actioned_tweets": {}
   },
-  "settings/usernames": {
-    "isLoaded": "false"
+  "editTweet": {
+    "fetchStatus": "none",
+    "editTweetLimitedMarketPromptDismissedEpochMilliseconds": "0"
   },
-  "settings/profile": {
-    "avatarMediaId": "null",
-    "bannerMediaId": "null",
-    "isUploading": "false",
-    "profileSettings": "null"
+  "placePicker": {
+    "initial": {
+      "fetchStatus": "none"
+    },
+    "lastSearch": {
+      "fetchStatus": "none"
+    }
+  },
+  "scheduledTweets": {
+    "fetchStatus": "none",
+    "scheduledTweets": []
   },
   "ads": {
     "typeahead": {
@@ -6047,42 +6023,26 @@
     "promoteErrorCode": "null",
     "objective": "Engagements"
   },
-  "trustedFriends": {
-    "lists": [],
-    "fetchStatus": "none"
+  "settings/usernames": {
+    "isLoaded": "false"
   },
-  "adFreeArticles": {
-    "loadStatus": "none"
-  },
-  "cardState": {},
-  "promotedContent": {},
-  "editTweet": {
-    "fetchStatus": "none",
-    "editTweetLimitedMarketPromptDismissedEpochMilliseconds": "0"
-  },
-  "placePicker": {
-    "initial": {
-      "fetchStatus": "none"
-    },
-    "lastSearch": {
-      "fetchStatus": "none"
-    }
-  },
-  "scheduledTweets": {
-    "fetchStatus": "none",
-    "scheduledTweets": []
+  "settings/profile": {
+    "avatarMediaId": "null",
+    "bannerMediaId": "null",
+    "isUploading": "false",
+    "profileSettings": "null"
   },
   "channelsTimelineBehavior": {},
-  "liveEventInterstitials": {
-    "seenEvents": [],
-    "fetchStatus": "none"
+  "availableLanguages": {
+    "fetchStatus": "none",
+    "languages": []
   },
   "oAuthConsent": {
     "fetchStatus": "none",
     "postStatus": "none"
   },
-  "availableLanguages": {
-    "fetchStatus": "none",
-    "languages": []
+  "liveEventInterstitials": {
+    "seenEvents": [],
+    "fetchStatus": "none"
   }
 }
