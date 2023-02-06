@@ -32,6 +32,8 @@ def get_graphql(parsed_list: js_data) -> list:
             arg="([0-9]{1,5})",
         )
         match_func_init = search_js_reg(graphql_parent, reg_func_init)
+        if match_func_init == []:
+            continue
         n = match_func_init[0].data[0]
         query = json_parser(graphql.after)
         try:

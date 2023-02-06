@@ -65,6 +65,8 @@ for k in script_load_json:
         src.append(url)
     elif k.startswith("shared~endpoints"):
         src.append(url)
+    elif k.startswith("shared~loader"):
+        src.append(url)
 
 
 logging.info("script decode is completed")
