@@ -1,0 +1,442 @@
+[
+  {
+    "queryId": "account/multi/list",
+    "method": "get"
+  },
+  {
+    "queryId": "onboarding/sso_init",
+    "method": "post"
+  },
+  {
+    "queryId": "account/logout",
+    "method": "post"
+  },
+  {
+    "queryId": "account/multi/clean",
+    "method": "post"
+  },
+  {
+    "queryId": "account/multi/add",
+    "method": "post"
+  },
+  {
+    "queryId": "account/multi/switch",
+    "method": "post"
+  },
+  {
+    "queryId": "account/multi/logout_all",
+    "method": "post"
+  },
+  {
+    "queryId": "oauth/authenticate_periscope",
+    "method": "get"
+  },
+  {
+    "queryId": "paseto/token",
+    "method": "post"
+  },
+  {
+    "queryId": "people_discovery/profile_follow",
+    "method": "get"
+  },
+  {
+    "queryId": "onboarding/bounce",
+    "method": "post"
+  },
+  {
+    "queryId": "mutes/conversations/create",
+    "method": "post"
+  },
+  {
+    "queryId": "mutes/conversations/destroy",
+    "method": "post"
+  },
+  {
+    "queryId": "statuses/retweet",
+    "method": "post"
+  },
+  {
+    "queryId": "statuses/unretweet",
+    "method": "post"
+  },
+  {
+    "queryId": "statuses/update",
+    "method": "post"
+  },
+  {
+    "queryId": "statuses/destroy",
+    "method": "post"
+  },
+  {
+    "queryId": "statuses/lookup",
+    "method": "get"
+  },
+  {
+    "queryId": "account/pin_tweet",
+    "method": "post"
+  },
+  {
+    "queryId": "account/unpin_tweet",
+    "method": "post"
+  },
+  {
+    "queryId": "media/media_tags/delete",
+    "method": "post"
+  },
+  {
+    "queryId": "friendships/create",
+    "method": "post"
+  },
+  {
+    "queryId": "friendships/destroy",
+    "method": "post"
+  },
+  {
+    "queryId": "friendships/cancel",
+    "method": "post"
+  },
+  {
+    "queryId": "blocks/create",
+    "method": "post"
+  },
+  {
+    "queryId": "blocks/destroy",
+    "method": "post"
+  },
+  {
+    "queryId": "mutes/users/create",
+    "method": "post"
+  },
+  {
+    "queryId": "mutes/users/destroy",
+    "method": "post"
+  },
+  {
+    "queryId": "users/lookup",
+    "method": "get"
+  },
+  {
+    "queryId": "collections/entries",
+    "method": "get"
+  },
+  {
+    "queryId": "users/email_phone_info",
+    "method": "get"
+  },
+  {
+    "queryId": "account/resend_confirmation_email",
+    "method": "post"
+  },
+  {
+    "queryId": "device/unregister",
+    "method": "post"
+  },
+  {
+    "queryId": "dm/welcome_messages/add_to_conversation",
+    "method": "post"
+  },
+  {
+    "queryId": "dm/conversation",
+    "method": "get"
+  },
+  {
+    "queryId": "dm/inbox_initial_state",
+    "method": "get"
+  },
+  {
+    "queryId": "dm/user_updates",
+    "method": "get"
+  },
+  {
+    "queryId": "dm/search/query",
+    "method": "post"
+  },
+  {
+    "queryId": "dm/new",
+    "method": "post"
+  },
+  {
+    "queryId": "/dm/user/update_relationship_state",
+    "method": "post"
+  },
+  {
+    "queryId": "dm/reaction/new",
+    "method": "post"
+  },
+  {
+    "queryId": "dm/reaction/delete",
+    "method": "post"
+  },
+  {
+    "queryId": "dm/permissions",
+    "method": "get"
+  },
+  {
+    "queryId": "dm/destroy",
+    "method": "post"
+  },
+  {
+    "queryId": "direct_messages/report_spam",
+    "method": "post"
+  },
+  {
+    "queryId": "dm/update_last_seen_event_id",
+    "method": "post"
+  },
+  {
+    "queryId": "help/settings",
+    "method": "get"
+  },
+  {
+    "queryId": "help/languages",
+    "method": "get"
+  },
+  {
+    "queryId": "friendships/incoming",
+    "method": "get"
+  },
+  {
+    "queryId": "friends/list",
+    "method": "get"
+  },
+  {
+    "queryId": "friends/following/list",
+    "method": "get"
+  },
+  {
+    "queryId": "friendships/accept",
+    "method": "post"
+  },
+  {
+    "queryId": "friendships/deny",
+    "method": "post"
+  },
+  {
+    "queryId": "friendships/update",
+    "method": "post"
+  },
+  {
+    "queryId": "friendships/create_all",
+    "method": "post"
+  },
+  {
+    "queryId": "friendships/destroy_all",
+    "method": "post"
+  },
+  {
+    "queryId": "foundmedia/categories",
+    "method": "get"
+  },
+  {
+    "queryId": "foundmedia/search",
+    "method": "get"
+  },
+  {
+    "queryId": "rux/logged_out/segmentations",
+    "method": "get"
+  },
+  {
+    "queryId": "jot/client_event",
+    "method": "post"
+  },
+  {
+    "queryId": "jot/error_log",
+    "method": "post"
+  },
+  {
+    "queryId": "jot/external_referer",
+    "method": "post"
+  },
+  {
+    "queryId": "lists/members/create_all",
+    "method": "post"
+  },
+  {
+    "queryId": "lists/statuses",
+    "method": "get"
+  },
+  {
+    "queryId": "lists/members",
+    "method": "get"
+  },
+  {
+    "queryId": "lists/subscribers",
+    "method": "get"
+  },
+  {
+    "queryId": "lists/memberships",
+    "method": "get"
+  },
+  {
+    "queryId": "live_pipeline/update_subscriptions",
+    "method": "post"
+  },
+  {
+    "queryId": "media/metadata/create",
+    "method": "post"
+  },
+  {
+    "queryId": "media/subtitles/create",
+    "method": "post"
+  },
+  {
+    "queryId": "moments/create",
+    "method": "post"
+  },
+  {
+    "queryId": "mutes/keywords/list",
+    "method": "get"
+  },
+  {
+    "queryId": "mutes/keywords/destroy",
+    "method": "post"
+  },
+  {
+    "queryId": "mutes/keywords/update",
+    "method": "post"
+  },
+  {
+    "queryId": "account/personalization/twitter_interests",
+    "method": "get"
+  },
+  {
+    "queryId": "account/personalization/email_your_data",
+    "method": "post"
+  },
+  {
+    "queryId": "account/personalization/set_optout_cookies",
+    "method": "get"
+  },
+  {
+    "queryId": "geo/places",
+    "method": "get"
+  },
+  {
+    "queryId": "promoted_content/log",
+    "method": "post"
+  },
+  {
+    "queryId": "users/recommendations",
+    "method": "get"
+  },
+  {
+    "queryId": "report/flow",
+    "method": "post"
+  },
+  {
+    "queryId": "saved_searches/list",
+    "method": "get"
+  },
+  {
+    "queryId": "saved_searches/create",
+    "method": "post"
+  },
+  {
+    "queryId": "account/settings",
+    "method": "get"
+  },
+  {
+    "queryId": "account/settings",
+    "method": "post"
+  },
+  {
+    "queryId": "sso/delete_connection",
+    "method": "post"
+  },
+  {
+    "queryId": "account/remove_profile_banner",
+    "method": "post"
+  },
+  {
+    "queryId": "account/update_profile_image",
+    "method": "post"
+  },
+  {
+    "queryId": "account/update_profile_banner",
+    "method": "post"
+  },
+  {
+    "queryId": "account/deactivate",
+    "method": "post"
+  },
+  {
+    "queryId": "account/verify_password",
+    "method": "post"
+  },
+  {
+    "queryId": "application/rate_limit_status",
+    "method": "get"
+  },
+  {
+    "queryId": "hashflags",
+    "method": "get"
+  },
+  {
+    "queryId": "geo/delete_location_data",
+    "method": "post"
+  },
+  {
+    "queryId": "contacts/destroy/all",
+    "method": "post"
+  },
+  {
+    "queryId": "mutes/advanced_filters",
+    "method": "get"
+  },
+  {
+    "queryId": "mutes/advanced_filters",
+    "method": "post"
+  },
+  {
+    "queryId": "account/update_profile",
+    "method": "post"
+  },
+  {
+    "queryId": "oauth/list",
+    "method": "get"
+  },
+  {
+    "queryId": "oauth/revoke",
+    "method": "post"
+  },
+  {
+    "queryId": "trends/available",
+    "method": "get"
+  },
+  {
+    "queryId": "account/backup_code",
+    "method": "get"
+  },
+  {
+    "queryId": "account/backup_code",
+    "method": "post"
+  },
+  {
+    "queryId": "account/login_verification/temporary_password",
+    "method": "post"
+  },
+  {
+    "queryId": "bouncer/opt_in",
+    "method": "post"
+  },
+  {
+    "queryId": "account/login_verification/remove_method",
+    "method": "post"
+  },
+  {
+    "queryId": "account/login_verification/rename_security_key_method",
+    "method": "post"
+  },
+  {
+    "queryId": "search/typeahead",
+    "method": "get"
+  },
+  {
+    "queryId": "account/password_strength",
+    "method": "post"
+  },
+  {
+    "queryId": "users/phone_number_available",
+    "method": "get"
+  }
+]
