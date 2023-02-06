@@ -3,7 +3,7 @@ import json
 from TwitterFrontendFlow.TwitterFrontendFlow.TwitterFrontendFlow import *
 
 api = requests.get(
-    "https://github.com/fa0311/TwitterInternalAPIDocument/blob/v1.2/docs/json/API.json"
+    "https://raw.githubusercontent.com/fa0311/TwitterInternalAPIDocument/v1.2/docs/json/API.json"
 ).json()
 
 # Always use new APIs
