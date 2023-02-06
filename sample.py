@@ -1,8 +1,9 @@
 import requests
 import json
+from TwitterFrontendFlow.TwitterFrontendFlow.TwitterFrontendFlow import *
 
 api = requests.get(
-    "https://raw.githubusercontent.com/fa0311/TwitterInternalAPIDocument/develop/docs/json/API.json"
+    "https://github.com/fa0311/TwitterInternalAPIDocument/blob/v1.2/docs/json/API.json"
 ).json()
 
 # Always use new APIs
@@ -10,19 +11,21 @@ api = requests.get(
 
 headers=api["header"]
 session = requests.session()
-session.get("https://twitter.com/", headers={"User-Agent": headers["User-Agent"]})
+session.get("https://developer.twitter.com", headers={"User-Agent": headers["User-Agent"]})
 x_guest_token  = session.post("https://api.twitter.com/1.1/guest/activate.json",headers=headers).json()["guest_token"]
-headers.update({
-            "Content-type": "application/json",
-            "x-guest-token": x_guest_token,
-            "x-twitter-active-user": "yes",
-            "x-twitter-client-language": "en",
-})
 
 # <Recommendation> You can also use TwitterFrontendFlow
 # flow = TwitterFrontendFlow()
 # session = flow.session
 # x_guest_token = flow.x_guest_token
+
+headers.update({
+            "Content-type": "application/json",
+            "x-guest-token": x_guest_token,
+            "x-csrf-token": session.cookies.get("ct0"),
+            "x-twitter-active-user": "yes",
+            "x-twitter-client-language": "en",
+})
 
 # API you want to use
 operationName = "UserTweets"
@@ -57,5 +60,12 @@ if data["method"] == "GET":
 elif data["method"] == "POST":
     response = session.post(data["url"],headers=headers, json=parameters).json()
 
-
-print(response)
+for instructions in response["data"]["user"]["result"]["timeline_v2"]["timeline"]["instructions"]:
+    try:
+        for entries in instructions["entries"]:
+            try:
+                print(entries["content"]["itemContent"]["tweet_results"]["result"]["legacy"]["full_text"])
+            except:
+                pass
+    except:
+        pass

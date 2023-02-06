@@ -14,10 +14,6 @@ The documentation in the [Develop branch](https://github.com/fa0311/TwitterInter
 [Twitter Internal GraphQL API Json](./docs/json/GraphQL.json)  
 [Change Log](./docs/markdown/ChangeLog.md)
 
-### API
-
-[API](./docs/json/API.json)
-
 ### Twitter Static Constants
 
 [Twitter Static Constants Document](./docs/markdown/FreezeObject.md)  
@@ -62,8 +58,8 @@ python TwitterFrontendFlow/sample2.py
 
 ## Fast development of modules using this document
 
-...
-Can also be used in combination with [TwitterInternalAPIDocument](https://github.com/fa0311/TwitterInternalAPIDocument)
+[sample.py](./sample.py)  
+[API](./docs/json/API.json)  
 
 ## Reference
 
