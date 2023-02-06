@@ -81,6 +81,11 @@
       "errors": {},
       "fetchStatus": {}
     },
+    "translationsProfiles": {
+      "entities": {},
+      "errors": {},
+      "fetchStatus": {}
+    },
     "emailValidity": {
       "entities": {},
       "errors": {},
@@ -106,22 +111,12 @@
       "errors": {},
       "fetchStatus": {}
     },
-    "translationsProfiles": {
-      "entities": {},
-      "errors": {},
-      "fetchStatus": {}
-    },
     "legacyAndUnifiedCards": {
       "entities": {},
       "errors": {},
       "fetchStatus": {}
     },
     "liveEvents": {
-      "entities": {},
-      "errors": {},
-      "fetchStatus": {}
-    },
-    "places": {
       "entities": {},
       "errors": {},
       "fetchStatus": {}
@@ -3042,7 +3037,7 @@
           "value": "true"
         },
         "blue_business_affiliates_list_consumption_ui_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "blue_business_consumption_api_enabled": {
           "value": "true"
@@ -4193,7 +4188,7 @@
           "value": "true"
         },
         "responsive_web_logged_out_notifications_fatigue_days_count": {
-          "value": "3"
+          "value": "7"
         },
         "responsive_web_logged_out_notifications_including_home": {
           "value": "false"
@@ -5348,20 +5343,10 @@
           "value": "false"
         }
       },
-      "impression_pointers": {
-        "responsive_web_logged_out_notifications_fatigue_days_count": [
-          "mr_logged_out_web_notifs_prompt_fatigue_15965"
-        ]
-      },
-      "impressions": {
-        "mr_logged_out_web_notifs_prompt_fatigue_15965": {
-          "key": "mr_logged_out_web_notifs_prompt_fatigue_15965",
-          "bucket": "aggressive_fatigue",
-          "version": "1"
-        }
-      },
+      "impression_pointers": {},
+      "impressions": {},
       "keysRead": {},
-      "settingsVersion": "7102b89a174ebb165800a73cb29fd6ca",
+      "settingsVersion": "764d259b6936699d53728eb0647634e0",
       "behavioralEventAllowlist": {
         "children": {
           "messages": {
@@ -5405,6 +5390,27 @@
                   }
                 },
                 "isTerminal": "0"
+              }
+            },
+            "isTerminal": "0"
+          },
+          "notification": {
+            "children": {
+              "background": {
+                "children": {
+                  "impress": {
+                    "isTerminal": "1"
+                  }
+                },
+                "isTerminal": "0"
+              }
+            },
+            "isTerminal": "0"
+          },
+          "fullscreen_media": {
+            "children": {
+              "impress": {
+                "isTerminal": "1"
               }
             },
             "isTerminal": "0"
@@ -5555,6 +5561,25 @@
                   }
                 },
                 "isTerminal": "0"
+              }
+            },
+            "isTerminal": "0"
+          },
+          "**": {
+            "children": {
+              "tap": {
+                "isTerminal": "1"
+              },
+              "rules": {
+                "children": {
+                  "impress": {
+                    "isTerminal": "1"
+                  }
+                },
+                "isTerminal": "0"
+              },
+              "click": {
+                "isTerminal": "1"
               }
             },
             "isTerminal": "0"
@@ -5772,7 +5797,7 @@
     "country": "US",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "167569011081505920",
+    "guestId": "167571767613590494",
     "hasCommunityMemberships": "false",
     "language": "en",
     "oneFactorLoginEligibility": {
@@ -5902,7 +5927,7 @@
           "pollValid": "false",
           "isEmpty": "true",
           "isValid": "false",
-          "key": "composer-92883"
+          "key": "composer-141603"
         }
       ],
       "excludedRecipients": [],
@@ -5924,7 +5949,7 @@
           "pollValid": "false",
           "isEmpty": "true",
           "isValid": "false",
-          "key": "composer-92884"
+          "key": "composer-141604"
         }
       ],
       "excludedRecipients": [],
@@ -5940,20 +5965,6 @@
     "fetchStatus": "none"
   },
   "geoLocation": {},
-  "articles": {
-    "articles": {}
-  },
-  "liveTweetCounts": {},
-  "nudges": {
-    "actioned_tweets": {}
-  },
-  "dmDrawer": {
-    "poppedOutConversationId": "null",
-    "drawerVisibility": "collapsed"
-  },
-  "settings/usernames": {
-    "isLoaded": "false"
-  },
   "instreamVideo": {
     "OTHER": {
       "fetchStatus": "none",
@@ -5969,13 +5980,19 @@
     "fetchStatus": "none"
   },
   "listMemberships": {},
-  "settings/profile": {
-    "avatarMediaId": "null",
-    "bannerMediaId": "null",
-    "isUploading": "false",
-    "profileSettings": "null"
+  "dmDrawer": {
+    "poppedOutConversationId": "null",
+    "drawerVisibility": "collapsed"
   },
   "dmComposer": {},
+  "recentSearches": {
+    "fetched": "false",
+    "recentSearches": []
+  },
+  "savedSearches": {
+    "fetchStatus": "none",
+    "savedSearches": []
+  },
   "userTweetStats": {
     "tweet_stats": {}
   },
@@ -5985,13 +6002,21 @@
     "settingsUpsellDismissedEpochMillis": "0"
   },
   "knownFollowers": {},
-  "recentSearches": {
-    "fetched": "false",
-    "recentSearches": []
+  "articles": {
+    "articles": {}
   },
-  "savedSearches": {
-    "fetchStatus": "none",
-    "savedSearches": []
+  "liveTweetCounts": {},
+  "nudges": {
+    "actioned_tweets": {}
+  },
+  "settings/usernames": {
+    "isLoaded": "false"
+  },
+  "settings/profile": {
+    "avatarMediaId": "null",
+    "bannerMediaId": "null",
+    "isUploading": "false",
+    "profileSettings": "null"
   },
   "trustedFriends": {
     "lists": [],
@@ -6017,10 +6042,6 @@
   "scheduledTweets": {
     "fetchStatus": "none",
     "scheduledTweets": []
-  },
-  "availableLanguages": {
-    "fetchStatus": "none",
-    "languages": []
   },
   "ads": {
     "typeahead": {
@@ -6063,9 +6084,13 @@
     "promoteErrorCode": "null",
     "objective": "Engagements"
   },
+  "availableLanguages": {
+    "fetchStatus": "none",
+    "languages": []
+  },
+  "channelsTimelineBehavior": {},
   "liveEventInterstitials": {
     "seenEvents": [],
     "fetchStatus": "none"
-  },
-  "channelsTimelineBehavior": {}
+  }
 }
