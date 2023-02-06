@@ -81,12 +81,7 @@
       "errors": {},
       "fetchStatus": {}
     },
-    "translationsProfiles": {
-      "entities": {},
-      "errors": {},
-      "fetchStatus": {}
-    },
-    "legacyAndUnifiedCards": {
+    "emailValidity": {
       "entities": {},
       "errors": {},
       "fetchStatus": {}
@@ -101,11 +96,6 @@
       "errors": {},
       "fetchStatus": {}
     },
-    "emailValidity": {
-      "entities": {},
-      "errors": {},
-      "fetchStatus": {}
-    },
     "passwordValidity": {
       "entities": {},
       "errors": {},
@@ -116,7 +106,22 @@
       "errors": {},
       "fetchStatus": {}
     },
+    "translationsProfiles": {
+      "entities": {},
+      "errors": {},
+      "fetchStatus": {}
+    },
+    "legacyAndUnifiedCards": {
+      "entities": {},
+      "errors": {},
+      "fetchStatus": {}
+    },
     "liveEvents": {
+      "entities": {},
+      "errors": {},
+      "fetchStatus": {}
+    },
+    "places": {
       "entities": {},
       "errors": {},
       "fetchStatus": {}
@@ -885,9 +890,6 @@
       "home_timeline_spheres_ranking_mode_control_enabled": {
         "value": "true"
       },
-      "home_timeline_tweet_auto_inline_reply_enabled": {
-        "value": "false"
-      },
       "identity_verification_debadging_notification_enabled": {
         "value": "true"
       },
@@ -953,6 +955,9 @@
       },
       "longform_notetweets_max_tweet_per_thread": {
         "value": "25"
+      },
+      "longform_notetweets_max_weighted_character_length": {
+        "value": "4000"
       },
       "longform_reader_mode_view_in_reader_mode_entry_button_enabled": {
         "value": "false"
@@ -1458,8 +1463,14 @@
       "responsive_web_gaggle_site_enabled": {
         "value": "false"
       },
+      "responsive_web_graphql_exclude_directive_enabled": {
+        "value": "false"
+      },
       "responsive_web_graphql_feedback": {
         "value": "true"
+      },
+      "responsive_web_graphql_skip_user_profile_image_extensions_enabled": {
+        "value": "false"
       },
       "responsive_web_graphql_timeline_navigation_enabled": {
         "value": "true"
@@ -1733,6 +1744,9 @@
       "responsive_web_placeholder_siwg_button_enabled": {
         "value": "false"
       },
+      "responsive_web_preload_app_shell_enabled": {
+        "value": "false"
+      },
       "responsive_web_prerolls_fullscreen_disabled_on_ios": {
         "value": "false"
       },
@@ -1825,6 +1839,9 @@
       "responsive_web_send_cookies_metadata_enabled": {
         "value": "true"
       },
+      "responsive_web_server_user_profile_fetch_enabled": {
+        "value": "false"
+      },
       "responsive_web_settings_timeline_polling_enabled": {
         "value": "false"
       },
@@ -1872,9 +1889,6 @@
       },
       "responsive_web_timeline_cover_killswitch_enabled": {
         "value": "false"
-      },
-      "responsive_web_timeline_refetching_on_revisit_enabled": {
-        "value": "true"
       },
       "responsive_web_timeline_relay_lists_management_enabled": {
         "value": "false"
@@ -2008,9 +2022,6 @@
         "value": "false"
       },
       "rweb_bookmarks_on_tweet_detail_enabled": {
-        "value": "false"
-      },
-      "rweb_bookmarks_on_tweet_detail_long_press_enabled": {
         "value": "false"
       },
       "rweb_home_nav_single_direction_scroll_enabled": {
@@ -2725,7 +2736,7 @@
         "value": "false"
       }
     },
-    "featureSetToken": "eb3847ef58f9d329372905df50a243b76a43afc9",
+    "featureSetToken": "6fa1278bd1b63bb56b3797b7a225cb4745bb2c73",
     "isLoaded": "true",
     "isLoading": "false",
     "useEventAllowlist": "true",
@@ -3491,9 +3502,6 @@
         "home_timeline_spheres_ranking_mode_control_enabled": {
           "value": "true"
         },
-        "home_timeline_tweet_auto_inline_reply_enabled": {
-          "value": "false"
-        },
         "identity_verification_debadging_notification_enabled": {
           "value": "true"
         },
@@ -3559,6 +3567,9 @@
         },
         "longform_notetweets_max_tweet_per_thread": {
           "value": "25"
+        },
+        "longform_notetweets_max_weighted_character_length": {
+          "value": "4000"
         },
         "longform_reader_mode_view_in_reader_mode_entry_button_enabled": {
           "value": "false"
@@ -4064,8 +4075,14 @@
         "responsive_web_gaggle_site_enabled": {
           "value": "false"
         },
+        "responsive_web_graphql_exclude_directive_enabled": {
+          "value": "false"
+        },
         "responsive_web_graphql_feedback": {
           "value": "true"
+        },
+        "responsive_web_graphql_skip_user_profile_image_extensions_enabled": {
+          "value": "false"
         },
         "responsive_web_graphql_timeline_navigation_enabled": {
           "value": "true"
@@ -4176,7 +4193,7 @@
           "value": "true"
         },
         "responsive_web_logged_out_notifications_fatigue_days_count": {
-          "value": "7"
+          "value": "3"
         },
         "responsive_web_logged_out_notifications_including_home": {
           "value": "false"
@@ -4339,6 +4356,9 @@
         "responsive_web_placeholder_siwg_button_enabled": {
           "value": "false"
         },
+        "responsive_web_preload_app_shell_enabled": {
+          "value": "false"
+        },
         "responsive_web_prerolls_fullscreen_disabled_on_ios": {
           "value": "false"
         },
@@ -4431,6 +4451,9 @@
         "responsive_web_send_cookies_metadata_enabled": {
           "value": "true"
         },
+        "responsive_web_server_user_profile_fetch_enabled": {
+          "value": "false"
+        },
         "responsive_web_settings_timeline_polling_enabled": {
           "value": "false"
         },
@@ -4478,9 +4501,6 @@
         },
         "responsive_web_timeline_cover_killswitch_enabled": {
           "value": "false"
-        },
-        "responsive_web_timeline_refetching_on_revisit_enabled": {
-          "value": "true"
         },
         "responsive_web_timeline_relay_lists_management_enabled": {
           "value": "false"
@@ -4614,9 +4634,6 @@
           "value": "false"
         },
         "rweb_bookmarks_on_tweet_detail_enabled": {
-          "value": "false"
-        },
-        "rweb_bookmarks_on_tweet_detail_long_press_enabled": {
           "value": "false"
         },
         "rweb_home_nav_single_direction_scroll_enabled": {
@@ -5331,10 +5348,20 @@
           "value": "false"
         }
       },
-      "impression_pointers": {},
-      "impressions": {},
+      "impression_pointers": {
+        "responsive_web_logged_out_notifications_fatigue_days_count": [
+          "mr_logged_out_web_notifs_prompt_fatigue_15965"
+        ]
+      },
+      "impressions": {
+        "mr_logged_out_web_notifs_prompt_fatigue_15965": {
+          "key": "mr_logged_out_web_notifs_prompt_fatigue_15965",
+          "bucket": "aggressive_fatigue",
+          "version": "1"
+        }
+      },
       "keysRead": {},
-      "settingsVersion": "b4dd275d47bc2d623acd2da5f9d68a4a",
+      "settingsVersion": "7102b89a174ebb165800a73cb29fd6ca",
       "behavioralEventAllowlist": {
         "children": {
           "messages": {
@@ -5745,7 +5772,7 @@
     "country": "US",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "167563181599729109",
+    "guestId": "167569011081505920",
     "hasCommunityMemberships": "false",
     "language": "en",
     "oneFactorLoginEligibility": {
@@ -5875,7 +5902,7 @@
           "pollValid": "false",
           "isEmpty": "true",
           "isValid": "false",
-          "key": "composer-456945"
+          "key": "composer-92883"
         }
       ],
       "excludedRecipients": [],
@@ -5897,7 +5924,7 @@
           "pollValid": "false",
           "isEmpty": "true",
           "isValid": "false",
-          "key": "composer-456946"
+          "key": "composer-92884"
         }
       ],
       "excludedRecipients": [],
@@ -5913,6 +5940,20 @@
     "fetchStatus": "none"
   },
   "geoLocation": {},
+  "articles": {
+    "articles": {}
+  },
+  "liveTweetCounts": {},
+  "nudges": {
+    "actioned_tweets": {}
+  },
+  "dmDrawer": {
+    "poppedOutConversationId": "null",
+    "drawerVisibility": "collapsed"
+  },
+  "settings/usernames": {
+    "isLoaded": "false"
+  },
   "instreamVideo": {
     "OTHER": {
       "fetchStatus": "none",
@@ -5928,19 +5969,13 @@
     "fetchStatus": "none"
   },
   "listMemberships": {},
+  "settings/profile": {
+    "avatarMediaId": "null",
+    "bannerMediaId": "null",
+    "isUploading": "false",
+    "profileSettings": "null"
+  },
   "dmComposer": {},
-  "recentSearches": {
-    "fetched": "false",
-    "recentSearches": []
-  },
-  "savedSearches": {
-    "fetchStatus": "none",
-    "savedSearches": []
-  },
-  "dmDrawer": {
-    "poppedOutConversationId": "null",
-    "drawerVisibility": "collapsed"
-  },
   "userTweetStats": {
     "tweet_stats": {}
   },
@@ -5950,6 +5985,14 @@
     "settingsUpsellDismissedEpochMillis": "0"
   },
   "knownFollowers": {},
+  "recentSearches": {
+    "fetched": "false",
+    "recentSearches": []
+  },
+  "savedSearches": {
+    "fetchStatus": "none",
+    "savedSearches": []
+  },
   "trustedFriends": {
     "lists": [],
     "fetchStatus": "none"
@@ -5959,13 +6002,6 @@
   },
   "cardState": {},
   "promotedContent": {},
-  "articles": {
-    "articles": {}
-  },
-  "liveTweetCounts": {},
-  "nudges": {
-    "actioned_tweets": {}
-  },
   "editTweet": {
     "fetchStatus": "none",
     "editTweetLimitedMarketPromptDismissedEpochMilliseconds": "0"
@@ -5981,6 +6017,10 @@
   "scheduledTweets": {
     "fetchStatus": "none",
     "scheduledTweets": []
+  },
+  "availableLanguages": {
+    "fetchStatus": "none",
+    "languages": []
   },
   "ads": {
     "typeahead": {
@@ -6023,26 +6063,9 @@
     "promoteErrorCode": "null",
     "objective": "Engagements"
   },
-  "settings/usernames": {
-    "isLoaded": "false"
-  },
-  "settings/profile": {
-    "avatarMediaId": "null",
-    "bannerMediaId": "null",
-    "isUploading": "false",
-    "profileSettings": "null"
-  },
-  "channelsTimelineBehavior": {},
-  "availableLanguages": {
-    "fetchStatus": "none",
-    "languages": []
-  },
-  "oAuthConsent": {
-    "fetchStatus": "none",
-    "postStatus": "none"
-  },
   "liveEventInterstitials": {
     "seenEvents": [],
     "fetchStatus": "none"
-  }
+  },
+  "channelsTimelineBehavior": {}
 }

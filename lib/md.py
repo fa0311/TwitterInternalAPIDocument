@@ -144,6 +144,17 @@ def gen_md_graphql(graphql_output: list) -> md_generator:
     return md
 
 
+def gen_md_v11(v11_output: list) -> md_generator:
+    md = md_generator()
+    for v11 in v11_output:
+        md.h2(v11["queryId"])
+        md.p("Request URL", end=": ")
+        md.inline("https://api.twitter.com/1.1/{queryId}.json".format(queryId=v11["queryId"]))
+
+        md.p("Request Method", end=": ")
+        md.inline(v11["method"].upper())
+    return md
+
 def gen_md_freeze_object(
     freeze_object_output: list,
 ) -> md_generator:

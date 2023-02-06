@@ -15,6 +15,7 @@ from lib.config import *
 from lib.io import *
 from lib.config import *
 from lib.md_generator.i18n import *
+from lib.legacy import *
 
 # === Confing ===
 
@@ -64,6 +65,8 @@ for k in script_load_json:
         src.append(url)
     elif k.startswith("shared~endpoints"):
         src.append(url)
+    elif k.startswith("shared~loader"):
+        src.append(url)
 
 
 logging.info("script decode is completed")
@@ -102,6 +105,8 @@ logging.info("get_freeze_object is completed")
 api_output = to_api(graphql_output, {"header": header})
 logging.info("to_api is completed")
 
+v11_output = get_v11(parsed_list)
+logging.info("get_v11 is completed")
 
 # feature_switches_output = get_feature_switches(parsed_list)
 # logging.info("get_feature_switches is completed")
@@ -128,6 +133,8 @@ if DEBUG:
 items = {
     FileConf.GRAPH_QL_JSON: json.dumps(graphql_output, **dumps_args),
     FileConf.GRAPH_QL_MD: gen_md_graphql(graphql_output).output,
+    FileConf.V11_QL_JSON: json.dumps(v11_output, **dumps_args),
+    FileConf.V11_QL_MD: gen_md_v11(v11_output).output,
     FileConf.FREEZE_OBJECT_MD: gen_md_freeze_object(freeze_object_output).output,
     FileConf.FREEZE_OBJECT_JSON: json.dumps(freeze_object_output, **dumps_args),
     FileConf.INITIAL_STATE_JSON: json.dumps(initial_output, **dumps_args),
