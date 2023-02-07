@@ -76,6 +76,16 @@
       "errors": {},
       "fetchStatus": {}
     },
+    "liveEvents": {
+      "entities": {},
+      "errors": {},
+      "fetchStatus": {}
+    },
+    "bookmarkFolders": {
+      "entities": {},
+      "errors": {},
+      "fetchStatus": {}
+    },
     "imageCache": {
       "entities": {},
       "errors": {},
@@ -96,11 +106,6 @@
       "errors": {},
       "fetchStatus": {}
     },
-    "bookmarkFolders": {
-      "entities": {},
-      "errors": {},
-      "fetchStatus": {}
-    },
     "passwordValidity": {
       "entities": {},
       "errors": {},
@@ -112,11 +117,6 @@
       "fetchStatus": {}
     },
     "legacyAndUnifiedCards": {
-      "entities": {},
-      "errors": {},
-      "fetchStatus": {}
-    },
-    "liveEvents": {
       "entities": {},
       "errors": {},
       "fetchStatus": {}
@@ -425,7 +425,7 @@
         "value": "true"
       },
       "blue_business_affiliates_list_consumption_ui_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "blue_business_consumption_api_enabled": {
         "value": "true"
@@ -1130,9 +1130,6 @@
       },
       "responsive_web_account_search_readability_enabled": {
         "value": "true"
-      },
-      "responsive_web_alt_svc": {
-        "value": "false"
       },
       "responsive_web_alt_text_nudges_enabled": {
         "value": "true"
@@ -2731,7 +2728,7 @@
         "value": "false"
       }
     },
-    "featureSetToken": "6fa1278bd1b63bb56b3797b7a225cb4745bb2c73",
+    "featureSetToken": "a98e6f13eae1796a746f5f683efc4ad4050591c5",
     "isLoaded": "true",
     "isLoading": "false",
     "useEventAllowlist": "true",
@@ -3742,9 +3739,6 @@
         },
         "responsive_web_account_search_readability_enabled": {
           "value": "true"
-        },
-        "responsive_web_alt_svc": {
-          "value": "false"
         },
         "responsive_web_alt_text_nudges_enabled": {
           "value": "true"
@@ -5346,7 +5340,7 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "764d259b6936699d53728eb0647634e0",
+      "settingsVersion": "b4dd275d47bc2d623acd2da5f9d68a4a",
       "behavioralEventAllowlist": {
         "children": {
           "messages": {
@@ -5390,27 +5384,6 @@
                   }
                 },
                 "isTerminal": "0"
-              }
-            },
-            "isTerminal": "0"
-          },
-          "notification": {
-            "children": {
-              "background": {
-                "children": {
-                  "impress": {
-                    "isTerminal": "1"
-                  }
-                },
-                "isTerminal": "0"
-              }
-            },
-            "isTerminal": "0"
-          },
-          "fullscreen_media": {
-            "children": {
-              "impress": {
-                "isTerminal": "1"
               }
             },
             "isTerminal": "0"
@@ -5561,25 +5534,6 @@
                   }
                 },
                 "isTerminal": "0"
-              }
-            },
-            "isTerminal": "0"
-          },
-          "**": {
-            "children": {
-              "tap": {
-                "isTerminal": "1"
-              },
-              "rules": {
-                "children": {
-                  "impress": {
-                    "isTerminal": "1"
-                  }
-                },
-                "isTerminal": "0"
-              },
-              "click": {
-                "isTerminal": "1"
               }
             },
             "isTerminal": "0"
@@ -5797,7 +5751,7 @@
     "country": "US",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "167571767613590494",
+    "guestId": "167580403530444215",
     "hasCommunityMemberships": "false",
     "language": "en",
     "oneFactorLoginEligibility": {
@@ -5813,13 +5767,6 @@
     "tweets": {}
   },
   "navigation": {},
-  "homeTimeline": {
-    "fetchStatus": "none",
-    "selectedTimeline": {
-      "type": "home"
-    },
-    "useLatest": "false"
-  },
   "audio": {
     "conversationLookup": {}
   },
@@ -5843,6 +5790,13 @@
   "teams": {
     "fetchStatus": "none",
     "teams": {}
+  },
+  "homeTimeline": {
+    "fetchStatus": "none",
+    "selectedTimeline": {
+      "type": "home"
+    },
+    "useLatest": "false"
   },
   "badgeCount": {
     "unreadDMCount": "0",
@@ -5905,7 +5859,6 @@
     "sendPinCode": "false",
     "browsableNuxRecommendations": []
   },
-  "ssrExperiments": {},
   "draftTweets": {
     "fetchStatus": "none",
     "draftTweets": []
@@ -5927,7 +5880,7 @@
           "pollValid": "false",
           "isEmpty": "true",
           "isValid": "false",
-          "key": "composer-141603"
+          "key": "composer-199693"
         }
       ],
       "excludedRecipients": [],
@@ -5949,7 +5902,7 @@
           "pollValid": "false",
           "isEmpty": "true",
           "isValid": "false",
-          "key": "composer-141604"
+          "key": "composer-199694"
         }
       ],
       "excludedRecipients": [],
@@ -5958,6 +5911,70 @@
     }
   },
   "previews": {},
+  "directMessages": {
+    "conversations": {},
+    "entries": {
+      "entries": {},
+      "entryIdsByConversationId": {},
+      "reactionsByMessageId": {}
+    },
+    "inbox": {
+      "cursors": {
+        "inbox": {
+          "fetchStatus": "none"
+        },
+        "trusted": {
+          "fetchStatus": "none"
+        },
+        "untrusted": {
+          "fetchStatus": "none"
+        },
+        "untrusted_low_quality": {
+          "fetchStatus": "none"
+        }
+      },
+      "lastSeenEventIds": {}
+    },
+    "search": {
+      "searchResults": {},
+      "recentSearches": []
+    },
+    "updates": {
+      "isLoaded": "false",
+      "isLoading": "false"
+    }
+  },
+  "pinnedLists": {
+    "count": "0",
+    "fetchStatus": "none"
+  },
+  "listMemberships": {},
+  "decks": {
+    "decks": {},
+    "order": []
+  },
+  "columns": {
+    "columns": {}
+  },
+  "clientsettings": {
+    "navbarExpanded": "true",
+    "composerExpanded": "false",
+    "defaultColumnMediaPreviewSize": "cropped",
+    "defaultColumnWidth": "medium"
+  },
+  "localsettings": {
+    "disableAccountSyncPolling": "false"
+  },
+  "onboardingstate": {
+    "showImportModal": "false",
+    "showOnboardingTour": "false",
+    "betaSurveyDismissed": "false"
+  },
+  "accountsync": {
+    "hasGryphonAccess": "false",
+    "fetchStatus": "none"
+  },
+  "ssrExperiments": {},
   "loggedOutNotifications": {
     "inAppPrompt": "not_seen",
     "browserPrompt": "not_seen",
@@ -5965,6 +5982,13 @@
     "fetchStatus": "none"
   },
   "geoLocation": {},
+  "dmDrawer": {
+    "poppedOutConversationId": "null",
+    "drawerVisibility": "collapsed"
+  },
+  "userTweetStats": {
+    "tweet_stats": {}
+  },
   "instreamVideo": {
     "OTHER": {
       "fetchStatus": "none",
@@ -5974,27 +5998,6 @@
       "dynamicIVCollection": {},
       "prerollEligibilityCollection": {}
     }
-  },
-  "pinnedLists": {
-    "count": "0",
-    "fetchStatus": "none"
-  },
-  "listMemberships": {},
-  "dmDrawer": {
-    "poppedOutConversationId": "null",
-    "drawerVisibility": "collapsed"
-  },
-  "dmComposer": {},
-  "recentSearches": {
-    "fetched": "false",
-    "recentSearches": []
-  },
-  "savedSearches": {
-    "fetchStatus": "none",
-    "savedSearches": []
-  },
-  "userTweetStats": {
-    "tweet_stats": {}
   },
   "developerToolDiscovery": {
     "fetchStatus": "none",
@@ -6017,6 +6020,15 @@
     "bannerMediaId": "null",
     "isUploading": "false",
     "profileSettings": "null"
+  },
+  "dmComposer": {},
+  "recentSearches": {
+    "fetched": "false",
+    "recentSearches": []
+  },
+  "savedSearches": {
+    "fetchStatus": "none",
+    "savedSearches": []
   },
   "trustedFriends": {
     "lists": [],
@@ -6042,6 +6054,10 @@
   "scheduledTweets": {
     "fetchStatus": "none",
     "scheduledTweets": []
+  },
+  "availableLanguages": {
+    "fetchStatus": "none",
+    "languages": []
   },
   "ads": {
     "typeahead": {
@@ -6084,13 +6100,13 @@
     "promoteErrorCode": "null",
     "objective": "Engagements"
   },
-  "availableLanguages": {
+  "oAuthConsent": {
     "fetchStatus": "none",
-    "languages": []
+    "postStatus": "none"
   },
-  "channelsTimelineBehavior": {},
   "liveEventInterstitials": {
     "seenEvents": [],
     "fetchStatus": "none"
-  }
+  },
+  "channelsTimelineBehavior": {}
 }
