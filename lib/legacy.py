@@ -10,7 +10,7 @@ def get_v11(parsed_list: js_data) -> dict:
         method="(get|post)", queryId="([a-z_/]*?)"
     )
     v11_list = search_js_reg(parsed_list, reg_graphql)
-    v11_list_unique:list[js_search_data] = []
+    v11_list_unique: list[js_search_data] = []
 
     for i in v11_list:
         for ii in v11_list_unique:
@@ -19,4 +19,6 @@ def get_v11(parsed_list: js_data) -> dict:
         else:
             v11_list_unique.append(i)
 
-    return [{"queryId": v11.data[0][1], "method": v11.data[0][0]} for v11 in v11_list_unique]
+    return [
+        {"queryId": v11.data[0][1], "method": v11.data[0][0]} for v11 in v11_list_unique
+    ]

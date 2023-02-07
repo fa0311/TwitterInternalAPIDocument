@@ -2,7 +2,7 @@ class FileConf:
     GRAPH_QL_JSON = "docs/json/GraphQL.json"
     GRAPH_QL_MD = "docs/markdown/GraphQL.md"
     V11_QL_JSON = "docs/json/v1.1.json"
-    V11_QL_MD= "docs/markdown/v1.1.md"
+    V11_QL_MD = "docs/markdown/v1.1.md"
     FREEZE_OBJECT_JSON = "docs/json/FreezeObject.json"
     FREEZE_OBJECT_MD = "docs/markdown/FreezeObject.md"
     CHANGE_LOG_MD = "docs/markdown/ChangeLog.md"
