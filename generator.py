@@ -145,7 +145,7 @@ items = {
 }
 
 for k, o in i18n_output.items():
-    items.update({f"docs/json/{k}.arb": json.dumps(o, **dumps_args)})
+    items.update({f"docs/json/{k}.json": json.dumps(o, **dumps_args)})
 
 
 # === Backup and File Check===
