@@ -32,18 +32,6 @@
     "method": "get"
   },
   {
-    "queryId": "paseto/token",
-    "method": "post"
-  },
-  {
-    "queryId": "people_discovery/profile_follow",
-    "method": "get"
-  },
-  {
-    "queryId": "onboarding/bounce",
-    "method": "post"
-  },
-  {
     "queryId": "mutes/conversations/create",
     "method": "post"
   },
@@ -114,6 +102,18 @@
   {
     "queryId": "users/lookup",
     "method": "get"
+  },
+  {
+    "queryId": "paseto/token",
+    "method": "post"
+  },
+  {
+    "queryId": "people_discovery/profile_follow",
+    "method": "get"
+  },
+  {
+    "queryId": "onboarding/bounce",
+    "method": "post"
   },
   {
     "queryId": "collections/entries",
