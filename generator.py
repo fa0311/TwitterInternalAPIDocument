@@ -23,7 +23,7 @@ DEBUG =  os.environ.get("DEBUG", "False") == "True"
 ENV = os.environ.get("ENV", "Develop")
 GITHUB_TOKEN = os.environ.get("GITHUB_TOKEN",None)
 REPOSITORY = os.environ.get("REPOSITORY",None)
-SCAN_TYPE = os.environ.get("SCAN_TYPE", "General")
+SCAN_TYPE = os.environ.get("SCAN_TYPE", "Full")
 TQDM_DISABLE = os.environ.get("TQDM_DISABLE", "False") == "True"
 LOGGING_LEVEL = os.environ.get("LOGGING_LEVEL", "Into").upper()
 

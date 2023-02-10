@@ -128,7 +128,7 @@ def gen_md_graphql(graphql_output: list) -> md_generator:
         if type(switches) is list and len(switches) > 0:
             datafram = []
             for key in exports["metadata"]["featureSwitches"]:
-                switch = exports["metadata"]["featureSwitch"][key]
+                switch = exports["metadata"]["featureSwitch"].get(key,None)
                 if switch == None:
                     datafram.append(
                         {
