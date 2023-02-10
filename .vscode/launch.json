@@ -19,7 +19,7 @@
       "env": {
         "ENV": "Develop",
         "DEBUG": "True",
-        "SCAN_TYPE": "Full",
+        "SCAN_TYPE": "General",
         "TQDM_DISABLE": "False",
         "LOGGING_LEVEL": "Into"
       }

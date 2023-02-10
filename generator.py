@@ -70,7 +70,7 @@ for k in script_load_json:
     script_load_output[k] = url
     if k.startswith("i18n"):
         i18n_src[k] = url
-    elif SCAN_TYPE == "FULL":
+    elif SCAN_TYPE == "Full":
         src.append(url)
     elif k.startswith("endpoints"):
         src.append(url)
