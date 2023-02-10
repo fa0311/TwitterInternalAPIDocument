@@ -163,8 +163,11 @@ def to_api(graphql_output: list, kwargs: dict) -> dict:
         features = {}
         exports = graphql["exports"]
         for key in exports["metadata"]["featureSwitches"]:
-            switch = exports["metadata"]["featureSwitch"][key]
-            features[key] = variable_converter.get(switch["value"])
+            switch = exports["metadata"]["featureSwitch"].get(key, None)
+            if switch != None:
+                features[key] = variable_converter.get(switch["value"])
+            else:
+                logging.warning("NotFoundKey: " + key)
 
         api_output["graphql"][exports["operationName"]] = {
             "url": "https://api.twitter.com/graphql/{queryId}/{operationName}".format(

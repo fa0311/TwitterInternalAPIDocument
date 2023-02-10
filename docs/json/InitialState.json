@@ -91,11 +91,6 @@
       "errors": {},
       "fetchStatus": {}
     },
-    "translationsProfiles": {
-      "entities": {},
-      "errors": {},
-      "fetchStatus": {}
-    },
     "emailValidity": {
       "entities": {},
       "errors": {},
@@ -116,7 +111,17 @@
       "errors": {},
       "fetchStatus": {}
     },
+    "translationsProfiles": {
+      "entities": {},
+      "errors": {},
+      "fetchStatus": {}
+    },
     "legacyAndUnifiedCards": {
+      "entities": {},
+      "errors": {},
+      "fetchStatus": {}
+    },
+    "places": {
       "entities": {},
       "errors": {},
       "fetchStatus": {}
@@ -2117,12 +2122,6 @@
       "settings_revamp_search_bar_enabled": {
         "value": "false"
       },
-      "share_animation_after_like_enabled": {
-        "value": "false"
-      },
-      "share_h1_2023_trigger": {
-        "value": ""
-      },
       "shortened_tracking_parameters_mapping": {
         "value": [
           "01:twcamp^share|twsrc^android|twgr^sms",
@@ -2728,7 +2727,7 @@
         "value": "false"
       }
     },
-    "featureSetToken": "a98e6f13eae1796a746f5f683efc4ad4050591c5",
+    "featureSetToken": "3a808613d23ba55dbdc178aad779d95d419092d1",
     "isLoaded": "true",
     "isLoading": "false",
     "useEventAllowlist": "true",
@@ -4726,12 +4725,6 @@
         "settings_revamp_search_bar_enabled": {
           "value": "false"
         },
-        "share_animation_after_like_enabled": {
-          "value": "false"
-        },
-        "share_h1_2023_trigger": {
-          "value": ""
-        },
         "shortened_tracking_parameters_mapping": {
           "value": [
             "01:twcamp^share|twsrc^android|twgr^sms",
@@ -5751,7 +5744,7 @@
     "country": "US",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "167580403530444215",
+    "guestId": "167597685227209690",
     "hasCommunityMemberships": "false",
     "language": "en",
     "oneFactorLoginEligibility": {
@@ -5791,6 +5784,41 @@
     "fetchStatus": "none",
     "teams": {}
   },
+  "slices": {},
+  "mediaUpload": [],
+  "directMessages": {
+    "conversations": {},
+    "entries": {
+      "entries": {},
+      "entryIdsByConversationId": {},
+      "reactionsByMessageId": {}
+    },
+    "inbox": {
+      "cursors": {
+        "inbox": {
+          "fetchStatus": "none"
+        },
+        "trusted": {
+          "fetchStatus": "none"
+        },
+        "untrusted": {
+          "fetchStatus": "none"
+        },
+        "untrusted_low_quality": {
+          "fetchStatus": "none"
+        }
+      },
+      "lastSeenEventIds": {}
+    },
+    "search": {
+      "searchResults": {},
+      "recentSearches": []
+    },
+    "updates": {
+      "isLoaded": "false",
+      "isLoading": "false"
+    }
+  },
   "homeTimeline": {
     "fetchStatus": "none",
     "selectedTimeline": {
@@ -5798,12 +5826,40 @@
     },
     "useLatest": "false"
   },
+  "pinnedLists": {
+    "count": "0",
+    "fetchStatus": "none"
+  },
+  "listMemberships": {},
+  "decks": {
+    "decks": {},
+    "order": []
+  },
+  "columns": {
+    "columns": {}
+  },
+  "clientsettings": {
+    "navbarExpanded": "true",
+    "composerExpanded": "false",
+    "defaultColumnMediaPreviewSize": "cropped",
+    "defaultColumnWidth": "medium"
+  },
+  "localsettings": {
+    "disableAccountSyncPolling": "false"
+  },
+  "onboardingstate": {
+    "showImportModal": "false",
+    "showOnboardingTour": "false",
+    "betaSurveyDismissed": "false"
+  },
+  "accountsync": {
+    "hasGryphonAccess": "false",
+    "fetchStatus": "none"
+  },
   "badgeCount": {
     "unreadDMCount": "0",
     "unreadNTabCount": "0"
   },
-  "slices": {},
-  "mediaUpload": [],
   "communityFlags": {
     "initialized": "false",
     "flags": {}
@@ -5880,7 +5936,7 @@
           "pollValid": "false",
           "isEmpty": "true",
           "isValid": "false",
-          "key": "composer-199693"
+          "key": "composer-795747"
         }
       ],
       "excludedRecipients": [],
@@ -5902,7 +5958,7 @@
           "pollValid": "false",
           "isEmpty": "true",
           "isValid": "false",
-          "key": "composer-199694"
+          "key": "composer-795748"
         }
       ],
       "excludedRecipients": [],
@@ -5911,69 +5967,6 @@
     }
   },
   "previews": {},
-  "directMessages": {
-    "conversations": {},
-    "entries": {
-      "entries": {},
-      "entryIdsByConversationId": {},
-      "reactionsByMessageId": {}
-    },
-    "inbox": {
-      "cursors": {
-        "inbox": {
-          "fetchStatus": "none"
-        },
-        "trusted": {
-          "fetchStatus": "none"
-        },
-        "untrusted": {
-          "fetchStatus": "none"
-        },
-        "untrusted_low_quality": {
-          "fetchStatus": "none"
-        }
-      },
-      "lastSeenEventIds": {}
-    },
-    "search": {
-      "searchResults": {},
-      "recentSearches": []
-    },
-    "updates": {
-      "isLoaded": "false",
-      "isLoading": "false"
-    }
-  },
-  "pinnedLists": {
-    "count": "0",
-    "fetchStatus": "none"
-  },
-  "listMemberships": {},
-  "decks": {
-    "decks": {},
-    "order": []
-  },
-  "columns": {
-    "columns": {}
-  },
-  "clientsettings": {
-    "navbarExpanded": "true",
-    "composerExpanded": "false",
-    "defaultColumnMediaPreviewSize": "cropped",
-    "defaultColumnWidth": "medium"
-  },
-  "localsettings": {
-    "disableAccountSyncPolling": "false"
-  },
-  "onboardingstate": {
-    "showImportModal": "false",
-    "showOnboardingTour": "false",
-    "betaSurveyDismissed": "false"
-  },
-  "accountsync": {
-    "hasGryphonAccess": "false",
-    "fetchStatus": "none"
-  },
   "ssrExperiments": {},
   "loggedOutNotifications": {
     "inAppPrompt": "not_seen",
@@ -5982,12 +5975,19 @@
     "fetchStatus": "none"
   },
   "geoLocation": {},
+  "articles": {
+    "articles": {}
+  },
+  "liveTweetCounts": {},
+  "nudges": {
+    "actioned_tweets": {}
+  },
   "dmDrawer": {
     "poppedOutConversationId": "null",
     "drawerVisibility": "collapsed"
   },
-  "userTweetStats": {
-    "tweet_stats": {}
+  "settings/usernames": {
+    "isLoaded": "false"
   },
   "instreamVideo": {
     "OTHER": {
@@ -5999,22 +5999,6 @@
       "prerollEligibilityCollection": {}
     }
   },
-  "developerToolDiscovery": {
-    "fetchStatus": "none",
-    "profileUpsellDismissedEpochMillis": "0",
-    "settingsUpsellDismissedEpochMillis": "0"
-  },
-  "knownFollowers": {},
-  "articles": {
-    "articles": {}
-  },
-  "liveTweetCounts": {},
-  "nudges": {
-    "actioned_tweets": {}
-  },
-  "settings/usernames": {
-    "isLoaded": "false"
-  },
   "settings/profile": {
     "avatarMediaId": "null",
     "bannerMediaId": "null",
@@ -6022,6 +6006,15 @@
     "profileSettings": "null"
   },
   "dmComposer": {},
+  "userTweetStats": {
+    "tweet_stats": {}
+  },
+  "developerToolDiscovery": {
+    "fetchStatus": "none",
+    "profileUpsellDismissedEpochMillis": "0",
+    "settingsUpsellDismissedEpochMillis": "0"
+  },
+  "knownFollowers": {},
   "recentSearches": {
     "fetched": "false",
     "recentSearches": []
@@ -6055,9 +6048,9 @@
     "fetchStatus": "none",
     "scheduledTweets": []
   },
-  "availableLanguages": {
-    "fetchStatus": "none",
-    "languages": []
+  "liveEventInterstitials": {
+    "seenEvents": [],
+    "fetchStatus": "none"
   },
   "ads": {
     "typeahead": {
@@ -6100,13 +6093,13 @@
     "promoteErrorCode": "null",
     "objective": "Engagements"
   },
+  "availableLanguages": {
+    "fetchStatus": "none",
+    "languages": []
+  },
+  "channelsTimelineBehavior": {},
   "oAuthConsent": {
     "fetchStatus": "none",
     "postStatus": "none"
-  },
-  "liveEventInterstitials": {
-    "seenEvents": [],
-    "fetchStatus": "none"
-  },
-  "channelsTimelineBehavior": {}
+  }
 }

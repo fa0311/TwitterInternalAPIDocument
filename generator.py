@@ -4,6 +4,7 @@ import datetime
 from github import Github
 import logging
 import coloredlogs
+from functools import partialmethod
 
 from lib.md_generator.md_generator import *
 from lib.diff import *
@@ -18,15 +19,23 @@ from lib.md_generator.i18n import *
 from lib.legacy import *
 
 # === Confing ===
+DEBUG =  os.environ.get("DEBUG", "False") == "True"
+ENV = os.environ.get("ENV", "Develop")
+GITHUB_TOKEN = os.environ.get("GITHUB_TOKEN",None)
+REPOSITORY = os.environ.get("REPOSITORY",None)
+SCAN_TYPE = os.environ.get("SCAN_TYPE", "Full")
+TQDM_DISABLE = os.environ.get("TQDM_DISABLE", "False") == "True"
+LOGGING_LEVEL = os.environ.get("LOGGING_LEVEL", "Into").upper()
 
 coloredlogs.install(
-    level=logging.INFO,
+    level=logging.getLevelName(LOGGING_LEVEL),
     fmt="[%(levelname)s] %(relativeCreated)dms %(message)s",
 )
-DEBUG = False
 dumps_args = {"ensure_ascii": False, "indent": 2}
-logging.info("init is completed")
+if TQDM_DISABLE:
+    tqdm.__init__ = partialmethod(tqdm.__init__, disable=True)
 
+logging.info("init is completed")
 
 # === Requests ===
 
@@ -61,6 +70,8 @@ for k in script_load_json:
     script_load_output[k] = url
     if k.startswith("i18n"):
         i18n_src[k] = url
+    elif SCAN_TYPE == "Full":
+        src.append(url)
     elif k.startswith("endpoints"):
         src.append(url)
     elif k.startswith("shared~endpoints"):
@@ -199,10 +210,10 @@ if change_len > 0:
 
 # === GITHUB ===
 
-if os.environ.get("ENV", "Develop") == "GithubAction":
+if ENV == "GithubAction":
 
-    g = Github(os.environ["GITHUB_TOKEN"])
-    repo = g.get_repo(os.environ["REPOSITORY"])
+    g = Github(GITHUB_TOKEN)
+    repo = g.get_repo(REPOSITORY)
     branch = "develop"
     send_pull_request = False
 
