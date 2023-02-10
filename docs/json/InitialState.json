@@ -76,12 +76,7 @@
       "errors": {},
       "fetchStatus": {}
     },
-    "liveEvents": {
-      "entities": {},
-      "errors": {},
-      "fetchStatus": {}
-    },
-    "bookmarkFolders": {
+    "translationsProfiles": {
       "entities": {},
       "errors": {},
       "fetchStatus": {}
@@ -101,6 +96,11 @@
       "errors": {},
       "fetchStatus": {}
     },
+    "bookmarkFolders": {
+      "entities": {},
+      "errors": {},
+      "fetchStatus": {}
+    },
     "passwordValidity": {
       "entities": {},
       "errors": {},
@@ -111,17 +111,12 @@
       "errors": {},
       "fetchStatus": {}
     },
-    "translationsProfiles": {
-      "entities": {},
-      "errors": {},
-      "fetchStatus": {}
-    },
     "legacyAndUnifiedCards": {
       "entities": {},
       "errors": {},
       "fetchStatus": {}
     },
-    "places": {
+    "liveEvents": {
       "entities": {},
       "errors": {},
       "fetchStatus": {}
@@ -743,7 +738,7 @@
       "follow_nudge_conversation_enabled": {
         "value": "false"
       },
-      "freedom_of_speech_not_reach_appeal_label_enabled": {
+      "freedom_of_speech_not_reach_author_label_enabled": {
         "value": "false"
       },
       "global_mention_settings_enabled": {
@@ -1651,18 +1646,6 @@
       },
       "responsive_web_notifications_empty_state_redesign_variant": {
         "value": "control"
-      },
-      "responsive_web_notifications_overrides_desktop_enabled": {
-        "value": "false"
-      },
-      "responsive_web_notifications_overrides_max_notification_slots": {
-        "value": "1"
-      },
-      "responsive_web_notifications_overrides_mobile_enabled": {
-        "value": "false"
-      },
-      "responsive_web_notifications_overrides_relevancy_half_life": {
-        "value": "48"
       },
       "responsive_web_ntab_verified_mentions_vit_internal_dogfood": {
         "value": "true"
@@ -2727,7 +2710,7 @@
         "value": "false"
       }
     },
-    "featureSetToken": "3a808613d23ba55dbdc178aad779d95d419092d1",
+    "featureSetToken": "e793c50257dff78da8f7c5ee103934c149d832f7",
     "isLoaded": "true",
     "isLoading": "false",
     "useEventAllowlist": "true",
@@ -3346,7 +3329,7 @@
         "follow_nudge_conversation_enabled": {
           "value": "false"
         },
-        "freedom_of_speech_not_reach_appeal_label_enabled": {
+        "freedom_of_speech_not_reach_author_label_enabled": {
           "value": "false"
         },
         "global_mention_settings_enabled": {
@@ -4255,18 +4238,6 @@
         "responsive_web_notifications_empty_state_redesign_variant": {
           "value": "control"
         },
-        "responsive_web_notifications_overrides_desktop_enabled": {
-          "value": "false"
-        },
-        "responsive_web_notifications_overrides_max_notification_slots": {
-          "value": "1"
-        },
-        "responsive_web_notifications_overrides_mobile_enabled": {
-          "value": "false"
-        },
-        "responsive_web_notifications_overrides_relevancy_half_life": {
-          "value": "48"
-        },
         "responsive_web_ntab_verified_mentions_vit_internal_dogfood": {
           "value": "true"
         },
@@ -4891,7 +4862,7 @@
           "value": "false"
         },
         "subscriptions_feature_1014": {
-          "value": "false"
+          "value": "true"
         },
         "subscriptions_feature_labs_1001": {
           "value": "true"
@@ -5330,10 +5301,23 @@
           "value": "false"
         }
       },
-      "impression_pointers": {},
-      "impressions": {},
+      "impression_pointers": {
+        "responsive_web_logged_out_explore_home_path_enabled": [
+          "rweb_logged_out_explore_15835"
+        ],
+        "responsive_web_logged_out_explore_enabled": [
+          "rweb_logged_out_explore_15835"
+        ]
+      },
+      "impressions": {
+        "rweb_logged_out_explore_15835": {
+          "key": "rweb_logged_out_explore_15835",
+          "bucket": "control",
+          "version": "3"
+        }
+      },
       "keysRead": {},
-      "settingsVersion": "b4dd275d47bc2d623acd2da5f9d68a4a",
+      "settingsVersion": "adafc7f2483dc90f4687937b0c86d6ae",
       "behavioralEventAllowlist": {
         "children": {
           "messages": {
@@ -5377,6 +5361,27 @@
                   }
                 },
                 "isTerminal": "0"
+              }
+            },
+            "isTerminal": "0"
+          },
+          "notification": {
+            "children": {
+              "background": {
+                "children": {
+                  "impress": {
+                    "isTerminal": "1"
+                  }
+                },
+                "isTerminal": "0"
+              }
+            },
+            "isTerminal": "0"
+          },
+          "fullscreen_media": {
+            "children": {
+              "impress": {
+                "isTerminal": "1"
               }
             },
             "isTerminal": "0"
@@ -5531,6 +5536,25 @@
             },
             "isTerminal": "0"
           },
+          "**": {
+            "children": {
+              "tap": {
+                "isTerminal": "1"
+              },
+              "rules": {
+                "children": {
+                  "impress": {
+                    "isTerminal": "1"
+                  }
+                },
+                "isTerminal": "0"
+              },
+              "click": {
+                "isTerminal": "1"
+              }
+            },
+            "isTerminal": "0"
+          },
           "push_notification": {
             "children": {
               "background": {
@@ -5651,17 +5675,6 @@
       }
     }
   },
-  "typeaheadUsers": {
-    "fetchStatus": "none",
-    "users": {},
-    "denylist": {},
-    "lastUpdated": "0",
-    "index": {}
-  },
-  "altTextPromptPreference": {
-    "fetchStatus": "none",
-    "updateStatus": "none"
-  },
   "settings": {
     "local": {
       "nextPushCheckin": "0",
@@ -5726,25 +5739,11 @@
       "checkin_time": "null"
     }
   },
-  "toasts": [],
-  "educationFlags": {},
-  "userClaim": {
-    "config": {
-      "subscriptions": {},
-      "features": {}
-    },
-    "debug": {},
-    "fetchStatus": "none"
-  },
-  "subscriptionProductFeatures": {
-    "data": {},
-    "fetchStatus": "none"
-  },
   "session": {
     "country": "US",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "167597685227209690",
+    "guestId": "167606323008515752",
     "hasCommunityMemberships": "false",
     "language": "en",
     "oneFactorLoginEligibility": {
@@ -5752,354 +5751,10 @@
     },
     "ssoInitTokens": {}
   },
-  "conversationFollowNudge": {
-    "conversationIdMap": {}
-  },
-  "urt": {},
-  "visibilityResults": {
-    "tweets": {}
-  },
-  "navigation": {},
-  "audio": {
-    "conversationLookup": {}
-  },
-  "multiAccount": {
-    "fetchStatus": "none",
-    "users": [],
-    "badgeCounts": {},
-    "addAccountFetchStatus": "none"
-  },
-  "typeaheadV2": {
-    "remoteResults": {},
-    "cachedIds": []
-  },
-  "hashflags": {
-    "fetchStatus": "none",
-    "hashflags": {
-      "brandedHashtags": {},
-      "brandedLikes": {}
-    }
-  },
-  "teams": {
-    "fetchStatus": "none",
-    "teams": {}
-  },
-  "slices": {},
-  "mediaUpload": [],
-  "directMessages": {
-    "conversations": {},
-    "entries": {
-      "entries": {},
-      "entryIdsByConversationId": {},
-      "reactionsByMessageId": {}
-    },
-    "inbox": {
-      "cursors": {
-        "inbox": {
-          "fetchStatus": "none"
-        },
-        "trusted": {
-          "fetchStatus": "none"
-        },
-        "untrusted": {
-          "fetchStatus": "none"
-        },
-        "untrusted_low_quality": {
-          "fetchStatus": "none"
-        }
-      },
-      "lastSeenEventIds": {}
-    },
-    "search": {
-      "searchResults": {},
-      "recentSearches": []
-    },
-    "updates": {
-      "isLoaded": "false",
-      "isLoading": "false"
-    }
-  },
-  "homeTimeline": {
-    "fetchStatus": "none",
-    "selectedTimeline": {
-      "type": "home"
-    },
-    "useLatest": "false"
-  },
-  "pinnedLists": {
-    "count": "0",
-    "fetchStatus": "none"
-  },
-  "listMemberships": {},
-  "decks": {
-    "decks": {},
-    "order": []
-  },
-  "columns": {
-    "columns": {}
-  },
-  "clientsettings": {
-    "navbarExpanded": "true",
-    "composerExpanded": "false",
-    "defaultColumnMediaPreviewSize": "cropped",
-    "defaultColumnWidth": "medium"
-  },
-  "localsettings": {
-    "disableAccountSyncPolling": "false"
-  },
-  "onboardingstate": {
-    "showImportModal": "false",
-    "showOnboardingTour": "false",
-    "betaSurveyDismissed": "false"
-  },
-  "accountsync": {
-    "hasGryphonAccess": "false",
-    "fetchStatus": "none"
-  },
-  "badgeCount": {
-    "unreadDMCount": "0",
-    "unreadNTabCount": "0"
-  },
-  "communityFlags": {
-    "initialized": "false",
-    "flags": {}
-  },
-  "communityMemberships": {
-    "memberships": [],
-    "fetchStatus": "none"
-  },
-  "friendships": {
-    "pendingFollowers": {
-      "acceptedIds": [],
-      "ids": [],
-      "fetchStatus": {
-        "bottom": "none",
-        "top": "none"
-      },
-      "hydratedIds": [],
-      "hydratingStatus": "none"
-    }
-  },
-  "personalization": {
-    "preferences": {
-      "data": {},
-      "fetchStatus": "none"
-    },
-    "data": {
-      "data": {},
-      "fetchStatus": "none"
-    },
-    "twitter_interests": {
-      "data": {},
-      "fetchStatus": "none"
-    },
-    "partner_interests": {
-      "data": {},
-      "fetchStatus": "none"
-    }
-  },
-  "ocf": {
-    "failureMessage": "",
-    "fetchStatus": "none",
-    "shouldAbort": "false",
-    "shouldEndFlow": "false",
-    "submitFailed": "false",
-    "subtasks": [],
-    "subtaskInputs": {},
-    "navigationContext": {
-      "action": "",
-      "link": ""
-    },
-    "navigationStack": [],
-    "flowData": {},
-    "sendPinCode": "false",
-    "browsableNuxRecommendations": []
-  },
-  "draftTweets": {
-    "fetchStatus": "none",
-    "draftTweets": []
-  },
-  "tweetComposer": {
-    "activeParentKey": "modal",
-    "homeTimeline": {
-      "activeComposerIndex": "0",
-      "audienceControls": {
-        "_type": "conversation_controls",
-        "conversationControlsValue": "all"
-      },
-      "composerData": [
-        {
-          "text": "",
-          "mediaIds": [],
-          "mediaTags": [],
-          "pollActive": "false",
-          "pollValid": "false",
-          "isEmpty": "true",
-          "isValid": "false",
-          "key": "composer-795747"
-        }
-      ],
-      "excludedRecipients": [],
-      "isSending": "false",
-      "sentTweetsCount": "0"
-    },
-    "modal": {
-      "activeComposerIndex": "0",
-      "audienceControls": {
-        "_type": "conversation_controls",
-        "conversationControlsValue": "all"
-      },
-      "composerData": [
-        {
-          "text": "",
-          "mediaIds": [],
-          "mediaTags": [],
-          "pollActive": "false",
-          "pollValid": "false",
-          "isEmpty": "true",
-          "isValid": "false",
-          "key": "composer-795748"
-        }
-      ],
-      "excludedRecipients": [],
-      "isSending": "false",
-      "sentTweetsCount": "0"
-    }
-  },
-  "previews": {},
-  "ssrExperiments": {},
-  "loggedOutNotifications": {
-    "inAppPrompt": "not_seen",
-    "browserPrompt": "not_seen",
-    "arkosePrompt": "not_seen",
-    "fetchStatus": "none"
-  },
-  "geoLocation": {},
-  "articles": {
-    "articles": {}
-  },
-  "liveTweetCounts": {},
-  "nudges": {
-    "actioned_tweets": {}
-  },
-  "dmDrawer": {
-    "poppedOutConversationId": "null",
-    "drawerVisibility": "collapsed"
-  },
-  "settings/usernames": {
-    "isLoaded": "false"
-  },
-  "instreamVideo": {
-    "OTHER": {
-      "fetchStatus": "none",
-      "eligibleTweets": [],
-      "promotedMetadataCollection": {},
-      "prerollMetadataCollection": {},
-      "dynamicIVCollection": {},
-      "prerollEligibilityCollection": {}
-    }
-  },
-  "settings/profile": {
-    "avatarMediaId": "null",
-    "bannerMediaId": "null",
-    "isUploading": "false",
-    "profileSettings": "null"
-  },
-  "dmComposer": {},
-  "userTweetStats": {
-    "tweet_stats": {}
-  },
-  "developerToolDiscovery": {
-    "fetchStatus": "none",
-    "profileUpsellDismissedEpochMillis": "0",
-    "settingsUpsellDismissedEpochMillis": "0"
-  },
-  "knownFollowers": {},
-  "recentSearches": {
-    "fetched": "false",
-    "recentSearches": []
-  },
-  "savedSearches": {
-    "fetchStatus": "none",
-    "savedSearches": []
-  },
-  "trustedFriends": {
-    "lists": [],
-    "fetchStatus": "none"
-  },
-  "adFreeArticles": {
-    "loadStatus": "none"
-  },
-  "cardState": {},
-  "promotedContent": {},
-  "editTweet": {
-    "fetchStatus": "none",
-    "editTweetLimitedMarketPromptDismissedEpochMilliseconds": "0"
-  },
-  "placePicker": {
-    "initial": {
-      "fetchStatus": "none"
-    },
-    "lastSearch": {
-      "fetchStatus": "none"
-    }
-  },
-  "scheduledTweets": {
-    "fetchStatus": "none",
-    "scheduledTweets": []
-  },
-  "liveEventInterstitials": {
-    "seenEvents": [],
-    "fetchStatus": "none"
-  },
   "ads": {
     "typeahead": {
       "targetingLocation": {},
       "forecastAudience": {}
     }
-  },
-  "quickPromote": {
-    "account": {
-      "adsAccount": "null",
-      "accountDataFetchStatus": "none",
-      "fundingInstruments": [],
-      "selectedFundingInstrument": "null",
-      "campaigns": "null"
-    },
-    "targeting": {
-      "initialTargetedLocationsFetchStatus": "none",
-      "targetedLocations": [],
-      "locationQuery": "",
-      "ageBucket": "AgeOver13",
-      "gender": "AnyGender"
-    },
-    "budget": {
-      "errorMessage": "null",
-      "dailyBudget": "100",
-      "durationDays": "5",
-      "availableBudgets": "null",
-      "availableBudgetsFetchStatus": "none",
-      "currency": "null"
-    },
-    "eligibility": {},
-    "couponsFetchStatus": "none",
-    "enrollCouponStatus": "none",
-    "enrollCouponErrorCode": "null",
-    "firstLoad": "false",
-    "paymentMethods": [],
-    "selectedPaymentMethod": "null",
-    "paymentMethodsFetchStatus": "none",
-    "promoteStatus": "none",
-    "promoteErrorCode": "null",
-    "objective": "Engagements"
-  },
-  "availableLanguages": {
-    "fetchStatus": "none",
-    "languages": []
-  },
-  "channelsTimelineBehavior": {},
-  "oAuthConsent": {
-    "fetchStatus": "none",
-    "postStatus": "none"
   }
 }
