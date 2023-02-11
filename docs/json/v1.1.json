@@ -438,5 +438,93 @@
   {
     "queryId": "users/phone_number_available",
     "method": "get"
+  },
+  {
+    "queryId": "account/not_my_account/disassociate",
+    "method": "post"
+  },
+  {
+    "queryId": "account/not_my_account/get_masked_data",
+    "method": "get"
+  },
+  {
+    "queryId": "attribution/event",
+    "method": "post"
+  },
+  {
+    "queryId": "branch/init",
+    "method": "post"
+  },
+  {
+    "queryId": "branch/callback",
+    "method": "post"
+  },
+  {
+    "queryId": "broadcasts/show",
+    "method": "get"
+  },
+  {
+    "queryId": "contacts/addressbook",
+    "method": "get"
+  },
+  {
+    "queryId": "notifications/settings/save",
+    "method": "post"
+  },
+  {
+    "queryId": "notifications/settings/login",
+    "method": "post"
+  },
+  {
+    "queryId": "notifications/settings/checkin",
+    "method": "post"
+  },
+  {
+    "queryId": "notifications/settings/logout",
+    "method": "post"
+  },
+  {
+    "queryId": "onboarding/task",
+    "method": "post"
+  },
+  {
+    "queryId": "onboarding/contacts_authorize",
+    "method": "post"
+  },
+  {
+    "queryId": "onboarding/contacts_import_status",
+    "method": "get"
+  },
+  {
+    "queryId": "onboarding/verification_status",
+    "method": "get"
+  },
+  {
+    "queryId": "onboarding/referrer",
+    "method": "post"
+  },
+  {
+    "queryId": "onboarding/begin_verification",
+    "method": "post"
+  },
+  {
+    "queryId": "onboarding/verify",
+    "method": "post"
+  },
+  {
+    "queryId": "onboarding/fetch_user_recommendations",
+    "method": "post"
+  },
+  {
+    "queryId": "account/user_twitter_data",
+    "method": "get"
+  },
+  {
+    "queryId": "branch_session",
+    "method": "get"
+  },
+  {
+    "queryId": "branch_session_first",
+    "method": "get"
   }
 ]
