@@ -6864,8 +6864,8 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant    | value     |
 |:------------|:----------|
-| fetchStatus | p.ZP.NONE |
-| config      | fe        |
+| fetchStatus | f.ZP.NONE |
+| config      | ye        |
 
 | constant   | value   |
 |:-----------|:--------|
