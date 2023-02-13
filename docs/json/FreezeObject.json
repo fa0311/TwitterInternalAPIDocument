@@ -6253,8 +6253,8 @@
     "SET_CONFIG": "rweb/verifiedOrgConfig/SET"
   },
   {
-    "fetchStatus": "p.ZP.NONE",
-    "config": "fe"
+    "fetchStatus": "f.ZP.NONE",
+    "config": "ye"
   },
   {
     "search": "search"
