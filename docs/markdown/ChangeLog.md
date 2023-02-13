@@ -404,3 +404,8 @@
 - UnpinTweetFromCommunityMutation<br>
 ### remove<br>
 - None<br>
+## 2023/02/13<br>
+### add<br>
+- WelcomeScreenMutation<br>
+### remove<br>
+- None<br>
