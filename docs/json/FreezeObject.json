@@ -4269,7 +4269,7 @@
   },
   {
     "all": {
-      "icon": "yi",
+      "icon": "Ti",
       "label": "x().i8ea6d4e"
     },
     "community": {
@@ -4277,7 +4277,7 @@
       "label": "x().ec5a4a26"
     },
     "by_invitation": {
-      "icon": "Ti",
+      "icon": "yi",
       "label": "x().b454300a"
     },
     "community_members": {
@@ -4285,7 +4285,7 @@
       "label": "x().i13be5a0"
     },
     "super_followers_exclusive": {
-      "icon": "yi",
+      "icon": "Ti",
       "label": "x().feb7560a"
     },
     "trusted_friends_tweet": {
@@ -4293,7 +4293,7 @@
       "label": "u"
     }
   },
-  "{[ha.Original]:\"OriginalTweet\",[ha.Quote]:\"QuoteTweet\",[ha.Reply]:\"Reply\",[ha.Thread]:\"Retweet\"}",
+  "{[ma.Original]:\"OriginalTweet\",[ma.Quote]:\"QuoteTweet\",[ma.Reply]:\"Reply\",[ma.Thread]:\"Retweet\"}",
   {
     "in": "in",
     "out": "out",
@@ -4305,13 +4305,13 @@
     "Quote": "quote",
     "Thread": "thread"
   },
-  "{[ha.Original]:\"original_tweet\",[ha.Quote]:\"quote_tweet\",[ha.Reply]:\"reply\"}",
+  "{[ma.Original]:\"original_tweet\",[ma.Quote]:\"quote_tweet\",[ma.Reply]:\"reply\"}",
   {
     "LOCAL_STATE_LOADED": "rweb/editTweet/LOCAL_STATE_LOADED",
     "LOCAL_STATE_REQUEST": "rweb/editTweet/LOCAL_STATE_REQUEST"
   },
   {
-    "fetchStatus": "eo.ZP.NONE",
+    "fetchStatus": "to.ZP.NONE",
     "editTweetLimitedMarketPromptDismissedEpochMilliseconds": "0"
   },
   {
