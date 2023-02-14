@@ -3958,6 +3958,12 @@
       "method": "GET",
       "features": {}
     },
+    "WelcomeScreenMutation": {
+      "url": "https://api.twitter.com/graphql/vmeQkOLp4CLZ2zG0AgIe3A/WelcomeScreenMutation",
+      "queryId": "vmeQkOLp4CLZ2zG0AgIe3A",
+      "method": "POST",
+      "features": {}
+    },
     "FollowHostButtonQuery": {
       "url": "https://api.twitter.com/graphql/kURURMFUKw2d-eHgilgSzA/FollowHostButtonQuery",
       "queryId": "kURURMFUKw2d-eHgilgSzA",

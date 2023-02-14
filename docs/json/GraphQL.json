@@ -33312,6 +33312,18 @@
     }
   },
   {
+    "n": "88988",
+    "exports": {
+      "queryId": "vmeQkOLp4CLZ2zG0AgIe3A",
+      "operationName": "WelcomeScreenMutation",
+      "operationType": "mutation",
+      "metadata": {
+        "featureSwitches": [],
+        "featureSwitch": {}
+      }
+    }
+  },
+  {
     "n": "42384",
     "exports": {
       "queryId": "kURURMFUKw2d-eHgilgSzA",
