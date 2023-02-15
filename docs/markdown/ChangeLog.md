@@ -409,3 +409,12 @@
 - WelcomeScreenMutation<br>
 ### remove<br>
 - None<br>
+## 2023/02/15<br>
+### add<br>
+- None<br>
+### remove<br>
+- ContentControlToolDisable<br>
+- ContentControlToolEnable<br>
+- ContentControlToolFetchAll<br>
+- ContentControlToolFetchAllUserEnabled<br>
+- ContentControlToolFetchOne<br>
