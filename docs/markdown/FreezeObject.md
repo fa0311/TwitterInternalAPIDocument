@@ -4601,16 +4601,16 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant                  | value                                   |
 |:--------------------------|:----------------------------------------|
-| all                       | {'icon': 'yi', 'label': 'x().i8ea6d4e'} |
+| all                       | {'icon': 'Ti', 'label': 'x().i8ea6d4e'} |
 | community                 | {'icon': 'wi', 'label': 'x().ec5a4a26'} |
-| by_invitation             | {'icon': 'Ti', 'label': 'x().b454300a'} |
+| by_invitation             | {'icon': 'yi', 'label': 'x().b454300a'} |
 | community_members         | {'icon': 'fi', 'label': 'x().i13be5a0'} |
-| super_followers_exclusive | {'icon': 'yi', 'label': 'x().feb7560a'} |
+| super_followers_exclusive | {'icon': 'Ti', 'label': 'x().feb7560a'} |
 | trusted_friends_tweet     | {'icon': 'bi', 'label': 'u'}            |
 
 ```internal process
 # Error
-{[ha.Original]:"OriginalTweet",[ha.Quote]:"QuoteTweet",[ha.Reply]:"Reply",[ha.Thread]:"Retweet"}
+{[ma.Original]:"OriginalTweet",[ma.Quote]:"QuoteTweet",[ma.Reply]:"Reply",[ma.Thread]:"Retweet"}
 ```
 | constant   | value   |
 |:-----------|:--------|
@@ -4627,7 +4627,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{[ha.Original]:"original_tweet",[ha.Quote]:"quote_tweet",[ha.Reply]:"reply"}
+{[ma.Original]:"original_tweet",[ma.Quote]:"quote_tweet",[ma.Reply]:"reply"}
 ```
 | constant            | value                              |
 |:--------------------|:-----------------------------------|
@@ -4636,7 +4636,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant                                               | value      |
 |:-------------------------------------------------------|:-----------|
-| fetchStatus                                            | eo.ZP.NONE |
+| fetchStatus                                            | to.ZP.NONE |
 | editTweetLimitedMarketPromptDismissedEpochMilliseconds | 0          |
 
 | constant   | value   |
