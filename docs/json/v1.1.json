@@ -448,10 +448,6 @@
     "method": "get"
   },
   {
-    "queryId": "attribution/event",
-    "method": "post"
-  },
-  {
     "queryId": "branch/init",
     "method": "post"
   },
