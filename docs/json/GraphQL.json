@@ -35179,6 +35179,18 @@
     }
   },
   {
+    "n": "16765",
+    "exports": {
+      "queryId": "Ro4_N0mgeE5CyS6oD_Y13w",
+      "operationName": "TabBarCreateStripePortalUrlMutation",
+      "operationType": "mutation",
+      "metadata": {
+        "featureSwitches": [],
+        "featureSwitch": {}
+      }
+    }
+  },
+  {
     "n": "88988",
     "exports": {
       "queryId": "vmeQkOLp4CLZ2zG0AgIe3A",
