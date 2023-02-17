@@ -474,11 +474,27 @@ This document is entirely auto-generated and may contain errors.<br>
 |:------------|:------------|
 | HOME        | home        |
 | HOME_LATEST | home_latest |
-| LIST        | list        |
+
+| constant   | value   |
+|:-----------|:--------|
+| LIST       | list    |
+
+| constant   | value   |
+|:-----------|:--------|
+| ...t       | _       |
+| ...a       | _       |
+
+| constant   | value   |
+|:-----------|:--------|
+| type       | o.HOME  |
+
+| constant   | value         |
+|:-----------|:--------------|
+| type       | o.HOME_LATEST |
 
 ```internal process
 # Error
-{[t.HOME]:"home",[t.HOME_LATEST]:"latest",[t.LIST]:"pinned_list"}
+{[o.HOME]:"home",[o.HOME_LATEST]:"latest",[o.LIST]:"pinned_list"}
 ```
 | constant     | value         |
 |:-------------|:--------------|
@@ -1800,6 +1816,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | dpaCtaEnabled                               | False   |
 | dpaPlaceholderMediaKeys                     | False   |
 | explorerAdsEnabled                          | False   |
+| fosnrSoftInterventionsEnabled               | False   |
 | withEditCallout                             | False   |
 | withEdgeToEdgeContent                       | False   |
 | withEdgeToEdgeTweetAnatomy                  | False   |
@@ -2234,23 +2251,23 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant   | value               |
 |:-----------|:--------------------|
-| space1     | m.spaces.space1     |
+| space1     | p.spaces.space1     |
 | space2     | d()                 |
-| space4     | d(m.spaces.space2)  |
-| space8     | d(m.spaces.space4)  |
-| space12    | d(m.spaces.space8)  |
-| space16    | d(m.spaces.space12) |
-| space20    | d(m.spaces.space16) |
-| space24    | d(m.spaces.space20) |
-| space28    | d(m.spaces.space24) |
-| space32    | d(m.spaces.space28) |
-| space36    | d(m.spaces.space32) |
-| space40    | d(m.spaces.space36) |
-| space48    | d(m.spaces.space40) |
-| space56    | d(m.spaces.space48) |
-| space64    | d(m.spaces.space56) |
-| space72    | d(m.spaces.space64) |
-| space80    | d(m.spaces.space72) |
+| space4     | d(p.spaces.space2)  |
+| space8     | d(p.spaces.space4)  |
+| space12    | d(p.spaces.space8)  |
+| space16    | d(p.spaces.space12) |
+| space20    | d(p.spaces.space16) |
+| space24    | d(p.spaces.space20) |
+| space28    | d(p.spaces.space24) |
+| space32    | d(p.spaces.space28) |
+| space36    | d(p.spaces.space32) |
+| space40    | d(p.spaces.space36) |
+| space48    | d(p.spaces.space40) |
+| space56    | d(p.spaces.space48) |
+| space64    | d(p.spaces.space56) |
+| space72    | d(p.spaces.space64) |
+| space80    | d(p.spaces.space72) |
 
 | constant              | value     |
 |:----------------------|:----------|
@@ -6801,7 +6818,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | constant    | value     |
 |:------------|:----------|
 | fetchStatus | f.ZP.NONE |
-| config      | pe        |
+| config      | ye        |
 
 | constant   | value   |
 |:-----------|:--------|

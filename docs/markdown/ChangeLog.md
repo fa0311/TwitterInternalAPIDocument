@@ -418,3 +418,8 @@
 - ContentControlToolFetchAll<br>
 - ContentControlToolFetchAllUserEnabled<br>
 - ContentControlToolFetchOne<br>
+## 2023/02/16<br>
+### add<br>
+- TabBarCreateStripePortalUrlMutation<br>
+### remove<br>
+- None<br>

@@ -4086,6 +4086,12 @@
       "method": "GET",
       "features": {}
     },
+    "TabBarCreateStripePortalUrlMutation": {
+      "url": "https://api.twitter.com/graphql/Ro4_N0mgeE5CyS6oD_Y13w/TabBarCreateStripePortalUrlMutation",
+      "queryId": "Ro4_N0mgeE5CyS6oD_Y13w",
+      "method": "POST",
+      "features": {}
+    },
     "WelcomeScreenMutation": {
       "url": "https://api.twitter.com/graphql/vmeQkOLp4CLZ2zG0AgIe3A/WelcomeScreenMutation",
       "queryId": "vmeQkOLp4CLZ2zG0AgIe3A",
