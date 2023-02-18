@@ -231,7 +231,7 @@ Login Required: `...`<br>
 #### variables<br>
 | key      | type   | variable   |
 |:---------|:-------|:-----------|
-| tweet_id | ...    | i          |
+| tweet_id | ...    | o          |
 
 #### features<br>
 | key                                                                     | type    | variable   |
@@ -1875,7 +1875,7 @@ Login Required: `...`<br>
 #### variables<br>
 | key      | type   | variable   |
 |:---------|:-------|:-----------|
-| tweet_id | ...    | i          |
+| tweet_id | ...    | o          |
 
 #### features<br>
 | key                                                                     | type    | variable   |
@@ -2969,7 +2969,7 @@ Login Required: `...`<br>
 #### variables<br>
 | key      | type   | variable   |
 |:---------|:-------|:-----------|
-| tweet_id | ...    | i          |
+| tweet_id | ...    | o          |
 
 #### features<br>
 | key                                                                     | type    | variable   |
@@ -3662,7 +3662,7 @@ Login Required: `...`<br>
 #### variables<br>
 | key      | type   | variable   |
 |:---------|:-------|:-----------|
-| tweet_id | ...    | i          |
+| tweet_id | ...    | o          |
 
 #### features<br>
 | key                                                                     | type    | variable   |
@@ -4999,7 +4999,7 @@ Login Required: `...`<br>
 #### variables<br>
 | key      | type   | variable   |
 |:---------|:-------|:-----------|
-| tweet_id | ...    | i          |
+| tweet_id | ...    | o          |
 
 #### features<br>
 | key                                                                     | type    | variable   |
@@ -5394,7 +5394,7 @@ Login Required: `...`<br>
 #### variables<br>
 | key      | type   | variable   |
 |:---------|:-------|:-----------|
-| tweet_id | ...    | i          |
+| tweet_id | ...    | o          |
 
 #### features<br>
 | key                                                                     | type    | variable   |
@@ -6638,7 +6638,7 @@ Login Required: `...`<br>
 #### variables<br>
 | key      | type   | variable   |
 |:---------|:-------|:-----------|
-| tweet_id | ...    | i          |
+| tweet_id | ...    | o          |
 
 #### features<br>
 | key                                                                     | type    | variable   |
@@ -7460,7 +7460,7 @@ Login Required: `...`<br>
 #### variables<br>
 | key      | type   | variable   |
 |:---------|:-------|:-----------|
-| tweet_id | ...    | i          |
+| tweet_id | ...    | o          |
 
 #### features<br>
 | key                                                                     | type    | variable   |
@@ -10768,7 +10768,7 @@ Login Required: `...`<br>
 #### variables<br>
 | key      | type   | variable   |
 |:---------|:-------|:-----------|
-| tweet_id | ...    | i          |
+| tweet_id | ...    | o          |
 
 #### features<br>
 | key                                                                     | type    | variable   |
@@ -16922,7 +16922,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## MonetizationAwardsRevenueQuery<br>
-Request URL: `https://api.twitter.com/graphql/n_8DEszcTWYxHgUnMGR8vw/MonetizationAwardsRevenueQuery`<br>
+Request URL: `https://api.twitter.com/graphql/9xngWNpJAcj6aqVT-CHnQg/MonetizationAwardsRevenueQuery`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -16947,7 +16947,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## MonetizationAwardsTransactionsQuery<br>
-Request URL: `https://api.twitter.com/graphql/6JGwvxtSd1eFTOWaHEkAUg/MonetizationAwardsTransactionsQuery`<br>
+Request URL: `https://api.twitter.com/graphql/RKvVpvTG5st6x0Hn8H5KRQ/MonetizationAwardsTransactionsQuery`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -16983,7 +16983,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## MonetizationSuperFollowsNewSubscriptionsQuery<br>
-Request URL: `https://api.twitter.com/graphql/kzpLZ6KeDZ_lotfRoxIePg/MonetizationSuperFollowsNewSubscriptionsQuery`<br>
+Request URL: `https://api.twitter.com/graphql/ZotH_UkGrPzoJU52mCpoRg/MonetizationSuperFollowsNewSubscriptionsQuery`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -17011,7 +17011,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## MonetizationSuperFollowsRenewalsQuery<br>
-Request URL: `https://api.twitter.com/graphql/2QASyo6GGsSamHC_Oz_sqg/MonetizationSuperFollowsRenewalsQuery`<br>
+Request URL: `https://api.twitter.com/graphql/JWgs6cZZoZNHYZI8TW_--A/MonetizationSuperFollowsRenewalsQuery`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -17025,7 +17025,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## MonetizationSuperFollowsRevenueQuery<br>
-Request URL: `https://api.twitter.com/graphql/1C4Ulpazk8NE0jzOx7krYw/MonetizationSuperFollowsRevenueQuery`<br>
+Request URL: `https://api.twitter.com/graphql/7PXGYikfKCW-3xHgOJLbBA/MonetizationSuperFollowsRevenueQuery`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -17039,7 +17039,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## MonetizationSuperFollowsSettingsQuery<br>
-Request URL: `https://api.twitter.com/graphql/FEgryu7DU8x4i1FBqzzGzw/MonetizationSuperFollowsSettingsQuery`<br>
+Request URL: `https://api.twitter.com/graphql/bNj-Dz-K9F1GCHs8V0pruA/MonetizationSuperFollowsSettingsQuery`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -17097,7 +17097,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## SuperFollowsSettingsQuery<br>
-Request URL: `https://api.twitter.com/graphql/0O6t1hTvRxm_SLarwb1F9g/SuperFollowsSettingsQuery`<br>
+Request URL: `https://api.twitter.com/graphql/RtDladlaM2F-YLtsM2uKHA/SuperFollowsSettingsQuery`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -17558,7 +17558,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## AffiliatesScreenAffiliatesQuery<br>
-Request URL: `https://api.twitter.com/graphql/dZT-8dKX9k4_0rplISnH5g/AffiliatesScreenAffiliatesQuery`<br>
+Request URL: `https://api.twitter.com/graphql/zx0fONKSja5cbu8UqLtUPg/AffiliatesScreenAffiliatesQuery`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -17583,7 +17583,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## InvitationListItemResendInvitationMutation<br>
-Request URL: `https://api.twitter.com/graphql/Jk-kQiyU2Rh6r7gylTsLtA/InvitationListItemResendInvitationMutation`<br>
+Request URL: `https://api.twitter.com/graphql/3ghnm2BDb3fTLphhSFvx-Q/InvitationListItemResendInvitationMutation`<br>
 Request Method: `POST`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -17597,7 +17597,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## InviteScreenMutation<br>
-Request URL: `https://api.twitter.com/graphql/dvDIQlpJ0rXUiwhzoQfpBA/InviteScreenMutation`<br>
+Request URL: `https://api.twitter.com/graphql/Sk4gYN1iePEBfe62kjiVmA/InviteScreenMutation`<br>
 Request Method: `POST`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -17621,6 +17621,17 @@ Login Required: `...`<br>
 `None`<br>
 #### queryId<br>
 `None`<br>
+## SettingsScreenCancelSubscriptionMutation<br>
+Request URL: `https://api.twitter.com/graphql/UaL8qHOdA_HHqwjNX4Q74Q/SettingsScreenCancelSubscriptionMutation`<br>
+Request Method: `POST`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
 ## TabBarCreateStripePortalUrlMutation<br>
 Request URL: `https://api.twitter.com/graphql/Ro4_N0mgeE5CyS6oD_Y13w/TabBarCreateStripePortalUrlMutation`<br>
 Request Method: `POST`<br>
@@ -17635,6 +17646,17 @@ Login Required: `...`<br>
 ## WelcomeScreenMutation<br>
 Request URL: `https://api.twitter.com/graphql/vmeQkOLp4CLZ2zG0AgIe3A/WelcomeScreenMutation`<br>
 Request Method: `POST`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
+## WelcomeScreenPricesQuery<br>
+Request URL: `https://api.twitter.com/graphql/9qzUc0WGin_YIP7GCUemHQ/WelcomeScreenPricesQuery`<br>
+Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
