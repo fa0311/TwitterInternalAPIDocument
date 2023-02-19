@@ -5340,7 +5340,7 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "8798cb4d0c5b517febc1318a8623a2a4",
+      "settingsVersion": "047a6161f16ecf5c4c39917d0d9954b4",
       "behavioralEventAllowlist": {
         "children": {
           "messages": {
@@ -5384,27 +5384,6 @@
                   }
                 },
                 "isTerminal": "0"
-              }
-            },
-            "isTerminal": "0"
-          },
-          "notification": {
-            "children": {
-              "background": {
-                "children": {
-                  "impress": {
-                    "isTerminal": "1"
-                  }
-                },
-                "isTerminal": "0"
-              }
-            },
-            "isTerminal": "0"
-          },
-          "fullscreen_media": {
-            "children": {
-              "impress": {
-                "isTerminal": "1"
               }
             },
             "isTerminal": "0"
@@ -5555,25 +5534,6 @@
                   }
                 },
                 "isTerminal": "0"
-              }
-            },
-            "isTerminal": "0"
-          },
-          "**": {
-            "children": {
-              "tap": {
-                "isTerminal": "1"
-              },
-              "rules": {
-                "children": {
-                  "impress": {
-                    "isTerminal": "1"
-                  }
-                },
-                "isTerminal": "0"
-              },
-              "click": {
-                "isTerminal": "1"
               }
             },
             "isTerminal": "0"
@@ -5766,7 +5726,7 @@
     "country": "US",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "167675440080571127",
+    "guestId": "167684080169913125",
     "hasCommunityMemberships": "false",
     "language": "en",
     "oneFactorLoginEligibility": {
