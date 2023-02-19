@@ -511,7 +511,7 @@
     "func_name": "y",
     "func_name_init": "g",
     "query": {
-      "tweet_id": "i"
+      "tweet_id": "o"
     }
   },
   {
@@ -3940,7 +3940,7 @@
     "func_name": "y",
     "func_name_init": "g",
     "query": {
-      "tweet_id": "i"
+      "tweet_id": "o"
     }
   },
   {
@@ -6210,7 +6210,7 @@
     "func_name": "y",
     "func_name_init": "g",
     "query": {
-      "tweet_id": "i"
+      "tweet_id": "o"
     }
   },
   {
@@ -7803,7 +7803,7 @@
     "func_name": "y",
     "func_name_init": "g",
     "query": {
-      "tweet_id": "i"
+      "tweet_id": "o"
     }
   },
   {
@@ -10752,7 +10752,7 @@
     "func_name": "y",
     "func_name_init": "g",
     "query": {
-      "tweet_id": "i"
+      "tweet_id": "o"
     }
   },
   {
@@ -11739,7 +11739,7 @@
     "func_name": "y",
     "func_name_init": "g",
     "query": {
-      "tweet_id": "i"
+      "tweet_id": "o"
     }
   },
   {
@@ -14344,7 +14344,7 @@
     "func_name": "y",
     "func_name_init": "g",
     "query": {
-      "tweet_id": "i"
+      "tweet_id": "o"
     }
   },
   {
@@ -16351,7 +16351,7 @@
     "func_name": "y",
     "func_name_init": "g",
     "query": {
-      "tweet_id": "i"
+      "tweet_id": "o"
     }
   },
   {
@@ -22969,7 +22969,7 @@
     "func_name": "y",
     "func_name_init": "g",
     "query": {
-      "tweet_id": "i"
+      "tweet_id": "o"
     }
   },
   {
@@ -34273,7 +34273,7 @@
   {
     "n": "72958",
     "exports": {
-      "queryId": "n_8DEszcTWYxHgUnMGR8vw",
+      "queryId": "9xngWNpJAcj6aqVT-CHnQg",
       "operationName": "MonetizationAwardsRevenueQuery",
       "operationType": "query",
       "metadata": {
@@ -34303,7 +34303,7 @@
   {
     "n": "71656",
     "exports": {
-      "queryId": "6JGwvxtSd1eFTOWaHEkAUg",
+      "queryId": "RKvVpvTG5st6x0Hn8H5KRQ",
       "operationName": "MonetizationAwardsTransactionsQuery",
       "operationType": "query",
       "metadata": {
@@ -34345,7 +34345,7 @@
   {
     "n": "14438",
     "exports": {
-      "queryId": "kzpLZ6KeDZ_lotfRoxIePg",
+      "queryId": "ZotH_UkGrPzoJU52mCpoRg",
       "operationName": "MonetizationSuperFollowsNewSubscriptionsQuery",
       "operationType": "query",
       "metadata": {
@@ -34381,7 +34381,7 @@
   {
     "n": "46389",
     "exports": {
-      "queryId": "2QASyo6GGsSamHC_Oz_sqg",
+      "queryId": "JWgs6cZZoZNHYZI8TW_--A",
       "operationName": "MonetizationSuperFollowsRenewalsQuery",
       "operationType": "query",
       "metadata": {
@@ -34399,7 +34399,7 @@
   {
     "n": "73699",
     "exports": {
-      "queryId": "1C4Ulpazk8NE0jzOx7krYw",
+      "queryId": "7PXGYikfKCW-3xHgOJLbBA",
       "operationName": "MonetizationSuperFollowsRevenueQuery",
       "operationType": "query",
       "metadata": {
@@ -34417,7 +34417,7 @@
   {
     "n": "48465",
     "exports": {
-      "queryId": "FEgryu7DU8x4i1FBqzzGzw",
+      "queryId": "bNj-Dz-K9F1GCHs8V0pruA",
       "operationName": "MonetizationSuperFollowsSettingsQuery",
       "operationType": "query",
       "metadata": {
@@ -34483,7 +34483,7 @@
   {
     "n": "7164",
     "exports": {
-      "queryId": "0O6t1hTvRxm_SLarwb1F9g",
+      "queryId": "RtDladlaM2F-YLtsM2uKHA",
       "operationName": "SuperFollowsSettingsQuery",
       "operationType": "query",
       "metadata": {
@@ -35103,7 +35103,7 @@
   {
     "n": "51379",
     "exports": {
-      "queryId": "dZT-8dKX9k4_0rplISnH5g",
+      "queryId": "zx0fONKSja5cbu8UqLtUPg",
       "operationName": "AffiliatesScreenAffiliatesQuery",
       "operationType": "query",
       "metadata": {
@@ -35133,7 +35133,7 @@
   {
     "n": "23067",
     "exports": {
-      "queryId": "Jk-kQiyU2Rh6r7gylTsLtA",
+      "queryId": "3ghnm2BDb3fTLphhSFvx-Q",
       "operationName": "InvitationListItemResendInvitationMutation",
       "operationType": "mutation",
       "metadata": {
@@ -35151,7 +35151,7 @@
   {
     "n": "85055",
     "exports": {
-      "queryId": "dvDIQlpJ0rXUiwhzoQfpBA",
+      "queryId": "Sk4gYN1iePEBfe62kjiVmA",
       "operationName": "InviteScreenMutation",
       "operationType": "mutation",
       "metadata": {
@@ -35179,6 +35179,18 @@
     }
   },
   {
+    "n": "19599",
+    "exports": {
+      "queryId": "UaL8qHOdA_HHqwjNX4Q74Q",
+      "operationName": "SettingsScreenCancelSubscriptionMutation",
+      "operationType": "mutation",
+      "metadata": {
+        "featureSwitches": [],
+        "featureSwitch": {}
+      }
+    }
+  },
+  {
     "n": "16765",
     "exports": {
       "queryId": "Ro4_N0mgeE5CyS6oD_Y13w",
@@ -35196,6 +35208,18 @@
       "queryId": "vmeQkOLp4CLZ2zG0AgIe3A",
       "operationName": "WelcomeScreenMutation",
       "operationType": "mutation",
+      "metadata": {
+        "featureSwitches": [],
+        "featureSwitch": {}
+      }
+    }
+  },
+  {
+    "n": "80375",
+    "exports": {
+      "queryId": "9qzUc0WGin_YIP7GCUemHQ",
+      "operationName": "WelcomeScreenPricesQuery",
+      "operationType": "query",
       "metadata": {
         "featureSwitches": [],
         "featureSwitch": {}

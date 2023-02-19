@@ -423,3 +423,9 @@
 - TabBarCreateStripePortalUrlMutation<br>
 ### remove<br>
 - None<br>
+## 2023/02/18<br>
+### add<br>
+- SettingsScreenCancelSubscriptionMutation<br>
+- WelcomeScreenPricesQuery<br>
+### remove<br>
+- None<br>
