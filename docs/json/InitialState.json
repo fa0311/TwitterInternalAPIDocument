@@ -120,6 +120,11 @@
       "entities": {},
       "errors": {},
       "fetchStatus": {}
+    },
+    "places": {
+      "entities": {},
+      "errors": {},
+      "fetchStatus": {}
     }
   },
   "featureSwitch": {
@@ -5337,20 +5342,10 @@
           "value": "false"
         }
       },
-      "impression_pointers": {
-        "web_video_safari_hlsjs_enabled": [
-          "web_video_safari_hlsjs_16262"
-        ]
-      },
-      "impressions": {
-        "web_video_safari_hlsjs_16262": {
-          "key": "web_video_safari_hlsjs_16262",
-          "bucket": "control",
-          "version": "1"
-        }
-      },
+      "impression_pointers": {},
+      "impressions": {},
       "keysRead": {},
-      "settingsVersion": "f07931de6f354fa652518ef352ede5c4",
+      "settingsVersion": "662c50f94576f5489fd4b5f2bb729211",
       "behavioralEventAllowlist": {
         "children": {
           "messages": {
@@ -5736,7 +5731,7 @@
     "country": "US",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "167710006182108796",
+    "guestId": "167718647458275898",
     "hasCommunityMemberships": "false",
     "language": "en",
     "oneFactorLoginEligibility": {
