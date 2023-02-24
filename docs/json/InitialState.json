@@ -81,12 +81,7 @@
       "errors": {},
       "fetchStatus": {}
     },
-    "translationsProfiles": {
-      "entities": {},
-      "errors": {},
-      "fetchStatus": {}
-    },
-    "emailValidity": {
+    "legacyAndUnifiedCards": {
       "entities": {},
       "errors": {},
       "fetchStatus": {}
@@ -101,6 +96,16 @@
       "errors": {},
       "fetchStatus": {}
     },
+    "translationsProfiles": {
+      "entities": {},
+      "errors": {},
+      "fetchStatus": {}
+    },
+    "emailValidity": {
+      "entities": {},
+      "errors": {},
+      "fetchStatus": {}
+    },
     "passwordValidity": {
       "entities": {},
       "errors": {},
@@ -111,17 +116,7 @@
       "errors": {},
       "fetchStatus": {}
     },
-    "legacyAndUnifiedCards": {
-      "entities": {},
-      "errors": {},
-      "fetchStatus": {}
-    },
     "liveEvents": {
-      "entities": {},
-      "errors": {},
-      "fetchStatus": {}
-    },
-    "places": {
       "entities": {},
       "errors": {},
       "fetchStatus": {}
@@ -4879,7 +4874,7 @@
           "value": "false"
         },
         "subscriptions_feature_1007": {
-          "value": "true"
+          "value": "false"
         },
         "subscriptions_feature_1009": {
           "value": "true"
@@ -5342,10 +5337,20 @@
           "value": "false"
         }
       },
-      "impression_pointers": {},
-      "impressions": {},
+      "impression_pointers": {
+        "web_video_safari_hlsjs_enabled": [
+          "web_video_safari_hlsjs_16262"
+        ]
+      },
+      "impressions": {
+        "web_video_safari_hlsjs_16262": {
+          "key": "web_video_safari_hlsjs_16262",
+          "bucket": "control",
+          "version": "1"
+        }
+      },
       "keysRead": {},
-      "settingsVersion": "662c50f94576f5489fd4b5f2bb729211",
+      "settingsVersion": "43fe3903ed085855baf141dee9950d6b",
       "behavioralEventAllowlist": {
         "children": {
           "messages": {
@@ -5731,7 +5736,7 @@
     "country": "US",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "167718647458275898",
+    "guestId": "167727276572018543",
     "hasCommunityMemberships": "false",
     "language": "en",
     "oneFactorLoginEligibility": {
