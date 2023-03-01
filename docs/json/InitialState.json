@@ -75,18 +75,56 @@
       "entities": {},
       "errors": {},
       "fetchStatus": {}
+    },
+    "imageCache": {
+      "entities": {},
+      "errors": {},
+      "fetchStatus": {}
+    },
+    "emailValidity": {
+      "entities": {},
+      "errors": {},
+      "fetchStatus": {}
+    },
+    "translationsTweets": {
+      "entities": {},
+      "errors": {},
+      "fetchStatus": {}
+    },
+    "bookmarkFolders": {
+      "entities": {},
+      "errors": {},
+      "fetchStatus": {}
+    },
+    "passwordValidity": {
+      "entities": {},
+      "errors": {},
+      "fetchStatus": {}
+    },
+    "phoneNumberValidity": {
+      "entities": {},
+      "errors": {},
+      "fetchStatus": {}
+    },
+    "translationsProfiles": {
+      "entities": {},
+      "errors": {},
+      "fetchStatus": {}
+    },
+    "legacyAndUnifiedCards": {
+      "entities": {},
+      "errors": {},
+      "fetchStatus": {}
+    },
+    "liveEvents": {
+      "entities": {},
+      "errors": {},
+      "fetchStatus": {}
     }
   },
   "featureSwitch": {
-    "debug": {},
     "defaultConfig": {
       "2fa_temporary_password_enabled": {
-        "value": "false"
-      },
-      "Arkose_rweb_hosted_page": {
-        "value": "true"
-      },
-      "Arkose_use_invisible_challenge_key": {
         "value": "false"
       },
       "account_country_setting_countries_whitelist": {
@@ -375,6 +413,12 @@
       },
       "arkose_challenge_transparent_signup_prod": {
         "value": "4CB8C8B0-40FF-439C-9D0D-9A389ADA18CB"
+      },
+      "Arkose_rweb_hosted_page": {
+        "value": "true"
+      },
+      "Arkose_use_invisible_challenge_key": {
+        "value": "false"
       },
       "blue_business_affiliate_badge_consumption_ui_enabled": {
         "value": "true"
@@ -1694,12 +1738,6 @@
       "responsive_web_profile_spotlight_v0_display": {
         "value": "true"
       },
-      "responsive_web_promoted_badge_below_header": {
-        "value": "false"
-      },
-      "responsive_web_promoted_badge_use_circle_icon": {
-        "value": "false"
-      },
       "responsive_web_qp_intro_experiment_enabled": {
         "value": "false"
       },
@@ -2686,19 +2724,9 @@
         "value": "false"
       }
     },
-    "featureSetToken": "1648701e87746c9d44d9a4bd1dc7b05738b0bfa0",
-    "isLoaded": "true",
-    "isLoading": "false",
-    "useEventAllowlist": "true",
     "user": {
       "config": {
         "2fa_temporary_password_enabled": {
-          "value": "false"
-        },
-        "Arkose_rweb_hosted_page": {
-          "value": "true"
-        },
-        "Arkose_use_invisible_challenge_key": {
           "value": "false"
         },
         "account_country_setting_countries_whitelist": {
@@ -2987,6 +3015,12 @@
         },
         "arkose_challenge_transparent_signup_prod": {
           "value": "4CB8C8B0-40FF-439C-9D0D-9A389ADA18CB"
+        },
+        "Arkose_rweb_hosted_page": {
+          "value": "true"
+        },
+        "Arkose_use_invisible_challenge_key": {
+          "value": "false"
         },
         "blue_business_affiliate_badge_consumption_ui_enabled": {
           "value": "true"
@@ -3891,7 +3925,7 @@
           "value": "false"
         },
         "responsive_web_cotweet_consumption_enabled": {
-          "value": "true"
+          "value": "false"
         },
         "responsive_web_csrf_clientside_enabled": {
           "value": "true"
@@ -4305,12 +4339,6 @@
         },
         "responsive_web_profile_spotlight_v0_display": {
           "value": "true"
-        },
-        "responsive_web_promoted_badge_below_header": {
-          "value": "false"
-        },
-        "responsive_web_promoted_badge_use_circle_icon": {
-          "value": "false"
         },
         "responsive_web_qp_intro_experiment_enabled": {
           "value": "false"
@@ -5301,7 +5329,7 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "047a6161f16ecf5c4c39917d0d9954b4",
+      "settingsVersion": "61cbbc8268a22ca0a76c68315109e3f1",
       "behavioralEventAllowlist": {
         "children": {
           "messages": {
@@ -5345,6 +5373,27 @@
                   }
                 },
                 "isTerminal": "0"
+              }
+            },
+            "isTerminal": "0"
+          },
+          "notification": {
+            "children": {
+              "background": {
+                "children": {
+                  "impress": {
+                    "isTerminal": "1"
+                  }
+                },
+                "isTerminal": "0"
+              }
+            },
+            "isTerminal": "0"
+          },
+          "fullscreen_media": {
+            "children": {
+              "impress": {
+                "isTerminal": "1"
               }
             },
             "isTerminal": "0"
@@ -5499,6 +5548,25 @@
             },
             "isTerminal": "0"
           },
+          "**": {
+            "children": {
+              "tap": {
+                "isTerminal": "1"
+              },
+              "rules": {
+                "children": {
+                  "impress": {
+                    "isTerminal": "1"
+                  }
+                },
+                "isTerminal": "0"
+              },
+              "click": {
+                "isTerminal": "1"
+              }
+            },
+            "isTerminal": "0"
+          },
           "push_notification": {
             "children": {
               "background": {
@@ -5617,7 +5685,12 @@
           }
         }
       }
-    }
+    },
+    "debug": {},
+    "featureSetToken": "eef50e9bb2be0f611bd9b8704e5e59344c6fe274",
+    "isLoaded": "true",
+    "isLoading": "false",
+    "useEventAllowlist": "true"
   },
   "settings": {
     "local": {
@@ -5687,12 +5760,18 @@
     "country": "US",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "167761845629259839",
+    "guestId": "167770486193637578",
     "hasCommunityMemberships": "false",
     "language": "en",
     "oneFactorLoginEligibility": {
       "fetchStatus": "none"
     },
     "ssoInitTokens": {}
+  },
+  "ads": {
+    "typeahead": {
+      "targetingLocation": {},
+      "forecastAudience": {}
+    }
   }
 }
