@@ -132,7 +132,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant              | value                 |
 |:----------------------|:----------------------|
-| ...Vc                 | _                     |
+| ...Gc                 | _                     |
 | ColumnFromPath        | ColumnFromPath        |
 | ColumnTimelineAdapter | ColumnTimelineAdapter |
 
@@ -408,7 +408,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | contentWidths   | r       |
 | wideTabBarWidth | l       |
 | dmDrawerHeight  | i       |
-| dmDrawerWidth   | u       |
+| dmDrawerWidth   | s       |
 
 | constant           | value          |
 |:-------------------|:---------------|
@@ -1323,21 +1323,21 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant                        | value   |
 |:--------------------------------|:--------|
-| broadcasts                      | s       |
-| cards                           | s       |
-| commerceItems                   | s       |
-| communities                     | s       |
-| conversations                   | s       |
-| entries                         | s       |
-| lists                           | s       |
-| moments                         | s       |
-| topics                          | s       |
-| tweets                          | s       |
-| twitterArticles                 | s       |
-| trustedFriends                  | s       |
-| userPresence                    | s       |
-| userCommunityInviteActionResult | s       |
-| users                           | s       |
+| broadcasts                      | u       |
+| cards                           | u       |
+| commerceItems                   | u       |
+| communities                     | u       |
+| conversations                   | u       |
+| entries                         | u       |
+| lists                           | u       |
+| moments                         | u       |
+| topics                          | u       |
+| tweets                          | u       |
+| twitterArticles                 | u       |
+| trustedFriends                  | u       |
+| userPresence                    | u       |
+| userCommunityInviteActionResult | u       |
+| users                           | u       |
 
 | constant   | value                                             |
 |:-----------|:--------------------------------------------------|
@@ -1801,64 +1801,63 @@ This document is entirely auto-generated and may contain errors.<br>
 | testNumber        |       1 |
 | testViewCountShow |    True |
 
-| constant                                    | value   |
-|:--------------------------------------------|:--------|
-| avatarURIForHashtagHighlight                | void 0  |
-| c9sEnabled                                  | False   |
-| c9sThemesEnabled                            | False   |
-| c9sHashtagsEnabled                          | False   |
-| cardCarouselClickableNavArea                | control |
-| headsUpVariant                              | control |
-| collectionAdsEnabled                        | False   |
-| dynamicProductAdsEnabled                    | False   |
-| shouldConvertCollectionToImageWebsiteCard   | False   |
-| dpaMetadataEnabled                          | False   |
-| dpaCtaEnabled                               | False   |
-| dpaPlaceholderMediaKeys                     | False   |
-| explorerAdsEnabled                          | False   |
-| fosnrSoftInterventionsEnabled               | False   |
-| withEditCallout                             | False   |
-| withEdgeToEdgeContent                       | False   |
-| withEdgeToEdgeTweetAnatomy                  | False   |
-| highlightedHashtag                          | void 0  |
-| isCopyrightDisputeLinkEnabled               | False   |
-| isDeveloperBuiltCardEnabled                 | False   |
-| isDMDrawer                                  | False   |
-| isEditTweetConsumptionEnabled               | False   |
-| isVibeTweetConsumptionEnabled               | False   |
-| misinfoLabelRevampTweaksEnabled             | False   |
-| mixedMediaEnabled                           | False   |
-| nonSafariShouldUseCardCarouselV2            | False   |
-| onMediaHashtagHighlightClick                | void 0  |
-| safariShouldUseCardCarouselV2               | control |
-| sensitiveMediaWarningsEnabled               | False   |
-| shouldPreconnectToCardDestinations          | False   |
-| shouldUseSmallFontForHashtagHighlight       | False   |
-| trustedFriendsEnabled                       | False   |
-| trustedFriendsCreationEnabled               | False   |
-| tweetRendersPromotedContentBadgeBelowHeader | False   |
-| twitterArticleLearnMoreBannerEnabled        | False   |
-| socialContextRefreshEnabled                 | False   |
-| trustedFriendsInfo                          | void 0  |
-| isCarouselItem                              | False   |
-| isCollaborativeTweetConsumptionEnabled      | False   |
-| followButtonAtBottomOfPromotedUserCard      | False   |
-| tweetMediaItemImmersiveViewerEntryPoint     | void 0  |
-| withVodTweetDetailAttribution               | False   |
-| isEmbedBrandLinkExperimentEnabled           | False   |
-| userAvatarLabel                             | False   |
-| canVerifiedCrawlerConsumeSensitiveMedia     | False   |
-| shouldUseLocaleContextDirection             | False   |
-| isLinkedSearchExperimentEnabled             | False   |
-| isSuperFollowsRenamed                       | False   |
-| blueVerifiedBadgeIsEnabled                  | False   |
-| blueBusinessAffiliateBadgeEnabled           | False   |
-| blueBusinessVerifiedBadgeEnabled            | False   |
-| blueGovernmentVerifiedBadgeEnabled          | False   |
-| newBadgeColorEnabled                        | False   |
-| tweetViewCountsEnabled                      | False   |
-| businessGovernmentVerifiedNewIconsEnabled   | False   |
-| ...r                                        | _       |
+| constant                                  | value   |
+|:------------------------------------------|:--------|
+| avatarURIForHashtagHighlight              | void 0  |
+| c9sEnabled                                | False   |
+| c9sThemesEnabled                          | False   |
+| c9sHashtagsEnabled                        | False   |
+| cardCarouselClickableNavArea              | control |
+| headsUpVariant                            | control |
+| collectionAdsEnabled                      | False   |
+| dynamicProductAdsEnabled                  | False   |
+| shouldConvertCollectionToImageWebsiteCard | False   |
+| dpaMetadataEnabled                        | False   |
+| dpaCtaEnabled                             | False   |
+| dpaPlaceholderMediaKeys                   | False   |
+| explorerAdsEnabled                        | False   |
+| fosnrSoftInterventionsEnabled             | False   |
+| withEditCallout                           | False   |
+| withEdgeToEdgeContent                     | False   |
+| withEdgeToEdgeTweetAnatomy                | False   |
+| highlightedHashtag                        | void 0  |
+| isCopyrightDisputeLinkEnabled             | False   |
+| isDeveloperBuiltCardEnabled               | False   |
+| isDMDrawer                                | False   |
+| isEditTweetConsumptionEnabled             | False   |
+| isVibeTweetConsumptionEnabled             | False   |
+| misinfoLabelRevampTweaksEnabled           | False   |
+| mixedMediaEnabled                         | False   |
+| nonSafariShouldUseCardCarouselV2          | False   |
+| onMediaHashtagHighlightClick              | void 0  |
+| safariShouldUseCardCarouselV2             | control |
+| sensitiveMediaWarningsEnabled             | False   |
+| shouldPreconnectToCardDestinations        | False   |
+| shouldUseSmallFontForHashtagHighlight     | False   |
+| trustedFriendsEnabled                     | False   |
+| trustedFriendsCreationEnabled             | False   |
+| twitterArticleLearnMoreBannerEnabled      | False   |
+| socialContextRefreshEnabled               | False   |
+| trustedFriendsInfo                        | void 0  |
+| isCarouselItem                            | False   |
+| isCollaborativeTweetConsumptionEnabled    | False   |
+| followButtonAtBottomOfPromotedUserCard    | False   |
+| tweetMediaItemImmersiveViewerEntryPoint   | void 0  |
+| withVodTweetDetailAttribution             | False   |
+| isEmbedBrandLinkExperimentEnabled         | False   |
+| userAvatarLabel                           | False   |
+| canVerifiedCrawlerConsumeSensitiveMedia   | False   |
+| shouldUseLocaleContextDirection           | False   |
+| isLinkedSearchExperimentEnabled           | False   |
+| isSuperFollowsRenamed                     | False   |
+| blueVerifiedBadgeIsEnabled                | False   |
+| blueBusinessAffiliateBadgeEnabled         | False   |
+| blueBusinessVerifiedBadgeEnabled          | False   |
+| blueGovernmentVerifiedBadgeEnabled        | False   |
+| newBadgeColorEnabled                      | False   |
+| tweetViewCountsEnabled                    | False   |
+| businessGovernmentVerifiedNewIconsEnabled | False   |
+| ...r                                      | _       |
 
 | constant         | value            |
 |:-----------------|:-----------------|
@@ -2277,10 +2276,10 @@ This document is entirely auto-generated and may contain errors.<br>
 |:--------------------|:--------|
 | aspectRatios        | l       |
 | baseFontSize        | M       |
-| borderRadii         | u       |
+| borderRadii         | s       |
 | borderRadiiPx       | i       |
 | borderWidths        | c       |
-| borderWidthsPx      | s       |
+| borderWidthsPx      | u       |
 | breakpoints         | r       |
 | componentDimensions | v       |
 | componentZIndices   | o       |
@@ -3331,13 +3330,13 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant         | value        |
 |:-----------------|:-------------|
-| see_more         | S().ffd9cfe6 |
-| discover_more    | S().d172116a |
-| more             | S().h63a5c3c |
-| more_tweets      | S().iac074c4 |
-| more_suggestions | S().g11ebd34 |
-| browse           | S().g4a6901a |
-| browse_tweets    | S().b1abb17e |
+| see_more         | x().ffd9cfe6 |
+| discover_more    | x().d172116a |
+| more             | x().h63a5c3c |
+| more_tweets      | x().iac074c4 |
+| more_suggestions | x().g11ebd34 |
+| browse           | x().g4a6901a |
+| browse_tweets    | x().b1abb17e |
 
 | constant   | value        |
 |:-----------|:-------------|
@@ -4407,12 +4406,12 @@ This document is entirely auto-generated and may contain errors.<br>
 | constant   | value   |
 |:-----------|:--------|
 | SENSITIVE  | h       |
-| BLOCKED    | b       |
-| BLOCKED_BY | _       |
+| BLOCKED    | _       |
+| BLOCKED_BY | b       |
 
 ```internal process
 # Error
-{[h]:"g",[b]:"y",[_]:"f"}
+{[h]:"g",[_]:"y",[b]:"f"}
 ```
 | constant             | value     |
 |:---------------------|:----------|
@@ -6837,8 +6836,20 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant    | value     |
 |:------------|:----------|
-| fetchStatus | f.ZP.NONE |
-| config      | Le        |
+| fetchStatus | p.ZP.NONE |
+| config      | we        |
+
+| constant   |   value |
+|:-----------|--------:|
+| normal     |     100 |
+| long       |     250 |
+| longer     |     500 |
+
+| constant   | value   |
+|:-----------|:--------|
+| animate    | animate |
+| static     | static  |
+| prep       | prep    |
 
 | constant   | value      |
 |:-----------|:-----------|
