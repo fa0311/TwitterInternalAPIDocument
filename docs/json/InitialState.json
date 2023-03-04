@@ -81,7 +81,12 @@
       "errors": {},
       "fetchStatus": {}
     },
-    "legacyAndUnifiedCards": {
+    "translationsProfiles": {
+      "entities": {},
+      "errors": {},
+      "fetchStatus": {}
+    },
+    "emailValidity": {
       "entities": {},
       "errors": {},
       "fetchStatus": {}
@@ -96,22 +101,17 @@
       "errors": {},
       "fetchStatus": {}
     },
-    "translationsProfiles": {
-      "entities": {},
-      "errors": {},
-      "fetchStatus": {}
-    },
-    "emailValidity": {
-      "entities": {},
-      "errors": {},
-      "fetchStatus": {}
-    },
     "passwordValidity": {
       "entities": {},
       "errors": {},
       "fetchStatus": {}
     },
     "phoneNumberValidity": {
+      "entities": {},
+      "errors": {},
+      "fetchStatus": {}
+    },
+    "legacyAndUnifiedCards": {
       "entities": {},
       "errors": {},
       "fetchStatus": {}
@@ -3589,7 +3589,7 @@
           "value": "2097152"
         },
         "media_async_upload_longer_video_resolution_selector": {
-          "value": "false"
+          "value": "true"
         },
         "media_async_upload_max_avatar_gif_size": {
           "value": "5"
@@ -5329,7 +5329,7 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "e7b60689e1f1e3b8cf978be195e13c28",
+      "settingsVersion": "665b6968ccbd9aec2a007e8e94bafa35",
       "behavioralEventAllowlist": {
         "children": {
           "messages": {
@@ -5720,7 +5720,7 @@
     "country": "US",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "167787761978324120",
+    "guestId": "167796399744193154",
     "hasCommunityMemberships": "false",
     "language": "en",
     "oneFactorLoginEligibility": {
