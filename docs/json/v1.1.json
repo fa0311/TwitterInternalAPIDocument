@@ -32,10 +32,6 @@
     "method": "get"
   },
   {
-    "queryId": "paseto/token",
-    "method": "post"
-  },
-  {
     "queryId": "people_discovery/profile_follow",
     "method": "get"
   },
@@ -182,10 +178,6 @@
   {
     "queryId": "dm/update_last_seen_event_id",
     "method": "post"
-  },
-  {
-    "queryId": "help/settings",
-    "method": "get"
   },
   {
     "queryId": "help/languages",
