@@ -240,22 +240,6 @@
     "method": "post"
   },
   {
-    "queryId": "lists/members/create_all",
-    "method": "post"
-  },
-  {
-    "queryId": "lists/statuses",
-    "method": "get"
-  },
-  {
-    "queryId": "lists/members",
-    "method": "get"
-  },
-  {
-    "queryId": "lists/subscribers",
-    "method": "get"
-  },
-  {
     "queryId": "lists/memberships",
     "method": "get"
   },
