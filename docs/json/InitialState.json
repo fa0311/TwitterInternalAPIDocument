@@ -76,17 +76,17 @@
       "errors": {},
       "fetchStatus": {}
     },
-    "imageCache": {
-      "entities": {},
-      "errors": {},
-      "fetchStatus": {}
-    },
     "translationsProfiles": {
       "entities": {},
       "errors": {},
       "fetchStatus": {}
     },
-    "emailValidity": {
+    "imageCache": {
+      "entities": {},
+      "errors": {},
+      "fetchStatus": {}
+    },
+    "legacyAndUnifiedCards": {
       "entities": {},
       "errors": {},
       "fetchStatus": {}
@@ -101,22 +101,17 @@
       "errors": {},
       "fetchStatus": {}
     },
+    "emailValidity": {
+      "entities": {},
+      "errors": {},
+      "fetchStatus": {}
+    },
     "passwordValidity": {
       "entities": {},
       "errors": {},
       "fetchStatus": {}
     },
     "phoneNumberValidity": {
-      "entities": {},
-      "errors": {},
-      "fetchStatus": {}
-    },
-    "legacyAndUnifiedCards": {
-      "entities": {},
-      "errors": {},
-      "fetchStatus": {}
-    },
-    "liveEvents": {
       "entities": {},
       "errors": {},
       "fetchStatus": {}
@@ -432,6 +427,9 @@
       "blue_business_subscriptions_management_page_updates_enabled": {
         "value": "true"
       },
+      "blue_business_username_change_prompt_enabled": {
+        "value": "false"
+      },
       "blue_business_verified_admin_cancellation_flow_enabled": {
         "value": "false"
       },
@@ -679,9 +677,6 @@
           "😠:angry",
           "😷:mask"
         ]
-      },
-      "dm_share_sheet_send_individually_enabled": {
-        "value": "true"
       },
       "dm_share_sheet_send_individually_max_count": {
         "value": "20"
@@ -987,7 +982,7 @@
         "value": "2097152"
       },
       "media_async_upload_longer_video_resolution_selector": {
-        "value": "false"
+        "value": "true"
       },
       "media_async_upload_max_avatar_gif_size": {
         "value": "5"
@@ -1323,7 +1318,7 @@
         "value": "false"
       },
       "responsive_web_cotweet_consumption_enabled": {
-        "value": "true"
+        "value": "false"
       },
       "responsive_web_csrf_clientside_enabled": {
         "value": "true"
@@ -1493,9 +1488,6 @@
       "responsive_web_home_sticky_new_tweets_pill_enabled": {
         "value": "true"
       },
-      "responsive_web_htl_empty_state_redesign_variant": {
-        "value": "control"
-      },
       "responsive_web_impression_pixel_enabled": {
         "value": "true"
       },
@@ -1617,15 +1609,6 @@
         "value": "false"
       },
       "responsive_web_mobile_app_spotlight_v1_display": {
-        "value": "false"
-      },
-      "responsive_web_moment_maker_annotations_enabled": {
-        "value": "false"
-      },
-      "responsive_web_moment_maker_enabled": {
-        "value": "false"
-      },
-      "responsive_web_moment_maker_promoted_tweets_enabled": {
         "value": "false"
       },
       "responsive_web_multiple_account_limit": {
@@ -2649,7 +2632,7 @@
         "value": "true"
       },
       "vod_attribution_tweet_detail_pivot_enabled": {
-        "value": "true"
+        "value": "false"
       },
       "voice_consumption_enabled": {
         "value": "true"
@@ -3034,6 +3017,9 @@
         "blue_business_subscriptions_management_page_updates_enabled": {
           "value": "true"
         },
+        "blue_business_username_change_prompt_enabled": {
+          "value": "false"
+        },
         "blue_business_verified_admin_cancellation_flow_enabled": {
           "value": "false"
         },
@@ -3281,9 +3267,6 @@
             "😠:angry",
             "😷:mask"
           ]
-        },
-        "dm_share_sheet_send_individually_enabled": {
-          "value": "true"
         },
         "dm_share_sheet_send_individually_max_count": {
           "value": "20"
@@ -4095,9 +4078,6 @@
         "responsive_web_home_sticky_new_tweets_pill_enabled": {
           "value": "true"
         },
-        "responsive_web_htl_empty_state_redesign_variant": {
-          "value": "control"
-        },
         "responsive_web_impression_pixel_enabled": {
           "value": "true"
         },
@@ -4219,15 +4199,6 @@
           "value": "false"
         },
         "responsive_web_mobile_app_spotlight_v1_display": {
-          "value": "false"
-        },
-        "responsive_web_moment_maker_annotations_enabled": {
-          "value": "false"
-        },
-        "responsive_web_moment_maker_enabled": {
-          "value": "false"
-        },
-        "responsive_web_moment_maker_promoted_tweets_enabled": {
           "value": "false"
         },
         "responsive_web_multiple_account_limit": {
@@ -5329,7 +5300,7 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "0bd88924d1f65d6dd8f85a3b27f7612e",
+      "settingsVersion": "047a6161f16ecf5c4c39917d0d9954b4",
       "behavioralEventAllowlist": {
         "children": {
           "messages": {
@@ -5373,27 +5344,6 @@
                   }
                 },
                 "isTerminal": "0"
-              }
-            },
-            "isTerminal": "0"
-          },
-          "notification": {
-            "children": {
-              "background": {
-                "children": {
-                  "impress": {
-                    "isTerminal": "1"
-                  }
-                },
-                "isTerminal": "0"
-              }
-            },
-            "isTerminal": "0"
-          },
-          "fullscreen_media": {
-            "children": {
-              "impress": {
-                "isTerminal": "1"
               }
             },
             "isTerminal": "0"
@@ -5548,25 +5498,6 @@
             },
             "isTerminal": "0"
           },
-          "**": {
-            "children": {
-              "tap": {
-                "isTerminal": "1"
-              },
-              "rules": {
-                "children": {
-                  "impress": {
-                    "isTerminal": "1"
-                  }
-                },
-                "isTerminal": "0"
-              },
-              "click": {
-                "isTerminal": "1"
-              }
-            },
-            "isTerminal": "0"
-          },
           "push_notification": {
             "children": {
               "background": {
@@ -5687,7 +5618,7 @@
       }
     },
     "debug": {},
-    "featureSetToken": "eef50e9bb2be0f611bd9b8704e5e59344c6fe274",
+    "featureSetToken": "f9374cb3466d504079d69127e93cf8bc9db42f9e",
     "isLoaded": "true",
     "isLoading": "false",
     "useEventAllowlist": "true"
@@ -5760,7 +5691,7 @@
     "country": "US",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "167805042010934327",
+    "guestId": "167813688193350140",
     "hasCommunityMemberships": "false",
     "language": "en",
     "oneFactorLoginEligibility": {
