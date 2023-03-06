@@ -499,7 +499,7 @@
       "count": "t",
       "cursor": "n",
       "includePromotedContent": "!1",
-      "...()(0,s.d)": "_"
+      "...()(0,l.d)": "_"
     }
   },
   {
@@ -595,7 +595,7 @@
       "count": "t",
       "cursor": "n",
       "includePromotedContent": "!1",
-      "...()(0,s.d)": "_"
+      "...()(0,l.d)": "_"
     }
   },
   {
@@ -876,7 +876,7 @@
       "count": "t",
       "cursor": "n",
       "includePromotedContent": "!1",
-      "...()(0,s.d)": "_"
+      "...()(0,l.d)": "_"
     }
   },
   {
@@ -971,7 +971,7 @@
       "count": "t",
       "cursor": "n",
       "includePromotedContent": "!1",
-      "...()(0,s.d)": "_"
+      "...()(0,l.d)": "_"
     }
   },
   {
@@ -1856,8 +1856,8 @@
     "func_name": "h",
     "func_name_init": "v",
     "query": {
-      "tweet_id": "n",
-      "mode": "o"
+      "userIds": "n.split()",
+      "withSuperFollowsUserFields": "t.isTrue(\",\")"
     }
   },
   {
@@ -3927,7 +3927,7 @@
       "count": "t",
       "cursor": "n",
       "includePromotedContent": "!1",
-      "...()(0,s.d)": "_"
+      "...()(0,l.d)": "_"
     }
   },
   {
@@ -4023,7 +4023,7 @@
       "count": "t",
       "cursor": "n",
       "includePromotedContent": "!1",
-      "...()(0,s.d)": "_"
+      "...()(0,l.d)": "_"
     }
   },
   {
@@ -4304,7 +4304,7 @@
       "count": "t",
       "cursor": "n",
       "includePromotedContent": "!1",
-      "...()(0,s.d)": "_"
+      "...()(0,l.d)": "_"
     }
   },
   {
@@ -4399,7 +4399,7 @@
       "count": "t",
       "cursor": "n",
       "includePromotedContent": "!1",
-      "...()(0,s.d)": "_"
+      "...()(0,l.d)": "_"
     }
   },
   {
@@ -6208,7 +6208,7 @@
       "count": "t",
       "cursor": "n",
       "includePromotedContent": "!1",
-      "...()(0,s.d)": "_"
+      "...()(0,l.d)": "_"
     }
   },
   {
@@ -6304,7 +6304,7 @@
       "count": "t",
       "cursor": "n",
       "includePromotedContent": "!1",
-      "...()(0,s.d)": "_"
+      "...()(0,l.d)": "_"
     }
   },
   {
@@ -6585,7 +6585,7 @@
       "count": "t",
       "cursor": "n",
       "includePromotedContent": "!1",
-      "...()(0,s.d)": "_"
+      "...()(0,l.d)": "_"
     }
   },
   {
@@ -6680,7 +6680,7 @@
       "count": "t",
       "cursor": "n",
       "includePromotedContent": "!1",
-      "...()(0,s.d)": "_"
+      "...()(0,l.d)": "_"
     }
   },
   {
@@ -7810,7 +7810,7 @@
       "count": "t",
       "cursor": "n",
       "includePromotedContent": "!1",
-      "...()(0,s.d)": "_"
+      "...()(0,l.d)": "_"
     }
   },
   {
@@ -7906,7 +7906,7 @@
       "count": "t",
       "cursor": "n",
       "includePromotedContent": "!1",
-      "...()(0,s.d)": "_"
+      "...()(0,l.d)": "_"
     }
   },
   {
@@ -9581,7 +9581,7 @@
       "count": "t",
       "cursor": "n",
       "includePromotedContent": "!1",
-      "...()(0,s.d)": "_"
+      "...()(0,l.d)": "_"
     }
   },
   {
@@ -9676,7 +9676,7 @@
       "count": "t",
       "cursor": "n",
       "includePromotedContent": "!1",
-      "...()(0,s.d)": "_"
+      "...()(0,l.d)": "_"
     }
   },
   {
@@ -10777,7 +10777,7 @@
       "count": "t",
       "cursor": "n",
       "includePromotedContent": "!1",
-      "...()(0,s.d)": "_"
+      "...()(0,l.d)": "_"
     }
   },
   {
@@ -10873,7 +10873,7 @@
       "count": "t",
       "cursor": "n",
       "includePromotedContent": "!1",
-      "...()(0,s.d)": "_"
+      "...()(0,l.d)": "_"
     }
   },
   {
@@ -11154,7 +11154,7 @@
       "count": "t",
       "cursor": "n",
       "includePromotedContent": "!1",
-      "...()(0,s.d)": "_"
+      "...()(0,l.d)": "_"
     }
   },
   {
@@ -11249,7 +11249,7 @@
       "count": "t",
       "cursor": "n",
       "includePromotedContent": "!1",
-      "...()(0,s.d)": "_"
+      "...()(0,l.d)": "_"
     }
   },
   {
@@ -11768,7 +11768,7 @@
       "count": "t",
       "cursor": "n",
       "includePromotedContent": "!1",
-      "...()(0,s.d)": "_"
+      "...()(0,l.d)": "_"
     }
   },
   {
@@ -11864,7 +11864,7 @@
       "count": "t",
       "cursor": "n",
       "includePromotedContent": "!1",
-      "...()(0,s.d)": "_"
+      "...()(0,l.d)": "_"
     }
   },
   {
@@ -12045,8 +12045,8 @@
         }
       }
     },
-    "func_name": "s",
-    "func_name_init": "l",
+    "func_name": "l",
+    "func_name_init": "s",
     "query": {
       "userId": "i",
       "count": "t",
@@ -12245,7 +12245,7 @@
       "count": "t",
       "cursor": "n",
       "includePromotedContent": "!1",
-      "...()(0,s.d)": "_"
+      "...()(0,l.d)": "_"
     }
   },
   {
@@ -12340,7 +12340,7 @@
       "count": "t",
       "cursor": "n",
       "includePromotedContent": "!1",
-      "...()(0,s.d)": "_"
+      "...()(0,l.d)": "_"
     }
   },
   {
@@ -14393,7 +14393,7 @@
       "count": "t",
       "cursor": "n",
       "includePromotedContent": "!1",
-      "...()(0,s.d)": "_"
+      "...()(0,l.d)": "_"
     }
   },
   {
@@ -14489,7 +14489,7 @@
       "count": "t",
       "cursor": "n",
       "includePromotedContent": "!1",
-      "...()(0,s.d)": "_"
+      "...()(0,l.d)": "_"
     }
   },
   {
@@ -14770,7 +14770,7 @@
       "count": "t",
       "cursor": "n",
       "includePromotedContent": "!1",
-      "...()(0,s.d)": "_"
+      "...()(0,l.d)": "_"
     }
   },
   {
@@ -14952,7 +14952,7 @@
       "count": "t",
       "cursor": "n",
       "includePromotedContent": "!1",
-      "...()(0,s.d)": "_"
+      "...()(0,l.d)": "_"
     }
   },
   {
@@ -16348,7 +16348,7 @@
       "count": "t",
       "cursor": "n",
       "includePromotedContent": "!1",
-      "...()(0,s.d)": "_"
+      "...()(0,l.d)": "_"
     }
   },
   {
@@ -16444,7 +16444,7 @@
       "count": "t",
       "cursor": "n",
       "includePromotedContent": "!1",
-      "...()(0,s.d)": "_"
+      "...()(0,l.d)": "_"
     }
   },
   {
@@ -16725,7 +16725,7 @@
       "count": "t",
       "cursor": "n",
       "includePromotedContent": "!1",
-      "...()(0,s.d)": "_"
+      "...()(0,l.d)": "_"
     }
   },
   {
@@ -16820,7 +16820,7 @@
       "count": "t",
       "cursor": "n",
       "includePromotedContent": "!1",
-      "...()(0,s.d)": "_"
+      "...()(0,l.d)": "_"
     }
   },
   {
@@ -22261,8 +22261,8 @@
     "func_name": "h",
     "func_name_init": "v",
     "query": {
-      "tweet_id": "n",
-      "mode": "o"
+      "userIds": "n.split()",
+      "withSuperFollowsUserFields": "t.isTrue(\",\")"
     }
   },
   {
@@ -22985,7 +22985,7 @@
       "count": "t",
       "cursor": "n",
       "includePromotedContent": "!1",
-      "...()(0,s.d)": "_"
+      "...()(0,l.d)": "_"
     }
   },
   {
@@ -23081,7 +23081,7 @@
       "count": "t",
       "cursor": "n",
       "includePromotedContent": "!1",
-      "...()(0,s.d)": "_"
+      "...()(0,l.d)": "_"
     }
   },
   {
@@ -23625,8 +23625,8 @@
         }
       }
     },
-    "func_name": "s",
-    "func_name_init": "l",
+    "func_name": "l",
+    "func_name_init": "s",
     "query": {
       "userId": "i",
       "count": "t",
@@ -25255,7 +25255,7 @@
       "count": "t",
       "cursor": "n",
       "includePromotedContent": "!1",
-      "...()(0,s.d)": "_"
+      "...()(0,l.d)": "_"
     }
   },
   {
@@ -26071,7 +26071,7 @@
       "count": "t",
       "cursor": "n",
       "includePromotedContent": "!1",
-      "...()(0,s.d)": "_"
+      "...()(0,l.d)": "_"
     }
   },
   {
@@ -34444,7 +34444,7 @@
   {
     "n": "48465",
     "exports": {
-      "queryId": "bNj-Dz-K9F1GCHs8V0pruA",
+      "queryId": "aFWWcodXU_NhvBbfkXjleQ",
       "operationName": "MonetizationSuperFollowsSettingsQuery",
       "operationType": "query",
       "metadata": {
@@ -34510,7 +34510,7 @@
   {
     "n": "7164",
     "exports": {
-      "queryId": "RtDladlaM2F-YLtsM2uKHA",
+      "queryId": "a5NihPIqetRdmuJWRyXPCw",
       "operationName": "SuperFollowsSettingsQuery",
       "operationType": "query",
       "metadata": {
@@ -34812,7 +34812,7 @@
   {
     "n": "9563",
     "exports": {
-      "queryId": "_ldIok-qW3TO0o9FGU2rIw",
+      "queryId": "TtPtRW7yaLbnwCFJANYNFQ",
       "operationName": "TwitterCoinsManagementCoinPackQuery",
       "operationType": "query",
       "metadata": {
@@ -35185,7 +35185,7 @@
   {
     "n": "79761",
     "exports": {
-      "queryId": "bv6PUXQe88oQ9ES6I7ZoKw",
+      "queryId": "uL8VjhRk3pAmkLBxVMv5cA",
       "operationName": "InviteScreenQuery",
       "operationType": "query",
       "metadata": {
