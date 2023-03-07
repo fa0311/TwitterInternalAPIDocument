@@ -76,12 +76,12 @@
       "errors": {},
       "fetchStatus": {}
     },
-    "translationsProfiles": {
+    "imageCache": {
       "entities": {},
       "errors": {},
       "fetchStatus": {}
     },
-    "imageCache": {
+    "translationsProfiles": {
       "entities": {},
       "errors": {},
       "fetchStatus": {}
@@ -112,6 +112,11 @@
       "fetchStatus": {}
     },
     "phoneNumberValidity": {
+      "entities": {},
+      "errors": {},
+      "fetchStatus": {}
+    },
+    "liveEvents": {
       "entities": {},
       "errors": {},
       "fetchStatus": {}
@@ -1317,9 +1322,6 @@
       "responsive_web_cookie_consent_signal_enabled": {
         "value": "false"
       },
-      "responsive_web_cotweet_consumption_enabled": {
-        "value": "false"
-      },
       "responsive_web_csrf_clientside_enabled": {
         "value": "true"
       },
@@ -2256,7 +2258,7 @@
         "value": "false"
       },
       "subscriptions_feature_1014": {
-        "value": "false"
+        "value": "true"
       },
       "subscriptions_feature_labs_1001": {
         "value": "true"
@@ -3907,9 +3909,6 @@
         "responsive_web_cookie_consent_signal_enabled": {
           "value": "false"
         },
-        "responsive_web_cotweet_consumption_enabled": {
-          "value": "false"
-        },
         "responsive_web_csrf_clientside_enabled": {
           "value": "true"
         },
@@ -5222,7 +5221,7 @@
           "value": "true"
         },
         "vod_attribution_tweet_detail_pivot_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "voice_consumption_enabled": {
           "value": "true"
@@ -5291,337 +5290,31 @@
           "value": "false"
         },
         "web_video_safari_hlsjs_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "web_video_transcribed_captions_enabled": {
           "value": "false"
         }
       },
-      "impression_pointers": {},
-      "impressions": {},
-      "keysRead": {},
-      "settingsVersion": "047a6161f16ecf5c4c39917d0d9954b4",
-      "behavioralEventAllowlist": {
-        "children": {
-          "messages": {
-            "children": {
-              "message": {
-                "children": {
-                  "card": {
-                    "children": {
-                      "community_card": {
-                        "children": {
-                          "click": {
-                            "isTerminal": "1"
-                          },
-                          "impress": {
-                            "isTerminal": "1"
-                          }
-                        },
-                        "isTerminal": "0"
-                      }
-                    },
-                    "isTerminal": "0"
-                  }
-                },
-                "isTerminal": "0"
-              }
-            },
-            "isTerminal": "0"
-          },
-          "community": {
-            "children": {
-              "impress": {
-                "isTerminal": "1"
-              },
-              "**": {
-                "children": {
-                  "impress": {
-                    "isTerminal": "1"
-                  },
-                  "click": {
-                    "isTerminal": "1"
-                  }
-                },
-                "isTerminal": "0"
-              }
-            },
-            "isTerminal": "0"
-          },
-          "home": {
-            "children": {
-              "timeline": {
-                "children": {
-                  "tweet": {
-                    "children": {
-                      "*": {
-                        "children": {
-                          "click": {
-                            "isTerminal": "1"
-                          }
-                        },
-                        "isTerminal": "0"
-                      },
-                      "avatar": {
-                        "children": {
-                          "click": {
-                            "isTerminal": "1"
-                          }
-                        },
-                        "isTerminal": "0"
-                      },
-                      "image": {
-                        "children": {
-                          "click": {
-                            "isTerminal": "1"
-                          }
-                        },
-                        "isTerminal": "0"
-                      },
-                      "click": {
-                        "isTerminal": "1"
-                      },
-                      "menu_control": {
-                        "children": {
-                          "*": {
-                            "children": {
-                              "click": {
-                                "isTerminal": "1"
-                              }
-                            },
-                            "isTerminal": "0"
-                          }
-                        },
-                        "isTerminal": "0"
-                      },
-                      "quote_tweet": {
-                        "children": {
-                          "image": {
-                            "children": {
-                              "click": {
-                                "isTerminal": "1"
-                              }
-                            },
-                            "isTerminal": "0"
-                          }
-                        },
-                        "isTerminal": "0"
-                      },
-                      "user": {
-                        "children": {
-                          "click": {
-                            "isTerminal": "1"
-                          }
-                        },
-                        "isTerminal": "0"
-                      }
-                    },
-                    "isTerminal": "0"
-                  }
-                },
-                "isTerminal": "0"
-              }
-            },
-            "isTerminal": "0"
-          },
-          "profile": {
-            "children": {
-              "tweets_replies": {
-                "children": {
-                  "impress": {
-                    "isTerminal": "1"
-                  }
-                },
-                "isTerminal": "0"
-              },
-              "impress": {
-                "isTerminal": "1"
-              },
-              "*": {
-                "children": {
-                  "click": {
-                    "isTerminal": "1"
-                  },
-                  "timeline": {
-                    "children": {
-                      "**": {
-                        "children": {
-                          "click": {
-                            "isTerminal": "1"
-                          }
-                        },
-                        "isTerminal": "0"
-                      }
-                    },
-                    "isTerminal": "0"
-                  }
-                },
-                "isTerminal": "0"
-              },
-              "likes": {
-                "children": {
-                  "impress": {
-                    "isTerminal": "1"
-                  }
-                },
-                "isTerminal": "0"
-              },
-              "menu_control": {
-                "children": {
-                  "*": {
-                    "children": {
-                      "click": {
-                        "isTerminal": "1"
-                      }
-                    },
-                    "isTerminal": "0"
-                  }
-                },
-                "isTerminal": "0"
-              },
-              "media": {
-                "children": {
-                  "impress": {
-                    "isTerminal": "1"
-                  }
-                },
-                "isTerminal": "0"
-              },
-              "tweets": {
-                "children": {
-                  "impress": {
-                    "isTerminal": "1"
-                  }
-                },
-                "isTerminal": "0"
-              }
-            },
-            "isTerminal": "0"
-          },
-          "push_notification": {
-            "children": {
-              "background": {
-                "children": {
-                  "dismiss": {
-                    "children": {
-                      "click": {
-                        "isTerminal": "1"
-                      }
-                    },
-                    "isTerminal": "0"
-                  },
-                  "click": {
-                    "isTerminal": "1"
-                  },
-                  "impress": {
-                    "isTerminal": "1"
-                  }
-                },
-                "isTerminal": "0"
-              }
-            },
-            "isTerminal": "0"
-          },
-          "communities": {
-            "children": {
-              "**": {
-                "children": {
-                  "click": {
-                    "isTerminal": "1"
-                  },
-                  "impress": {
-                    "isTerminal": "1"
-                  }
-                },
-                "isTerminal": "0"
-              },
-              "impress": {
-                "isTerminal": "1"
-              }
-            },
-            "isTerminal": "0"
-          },
-          "tweet_details": {
-            "children": {
-              "timeline": {
-                "children": {
-                  "tweet": {
-                    "children": {
-                      "menu_control": {
-                        "children": {
-                          "*": {
-                            "children": {
-                              "click": {
-                                "isTerminal": "1"
-                              }
-                            },
-                            "isTerminal": "0"
-                          }
-                        },
-                        "isTerminal": "0"
-                      },
-                      "*": {
-                        "children": {
-                          "click": {
-                            "isTerminal": "1"
-                          }
-                        },
-                        "isTerminal": "0"
-                      }
-                    },
-                    "isTerminal": "0"
-                  },
-                  "focal_tweet": {
-                    "children": {
-                      "*": {
-                        "children": {
-                          "click": {
-                            "isTerminal": "1"
-                          }
-                        },
-                        "isTerminal": "0"
-                      },
-                      "menu_control": {
-                        "children": {
-                          "*": {
-                            "children": {
-                              "click": {
-                                "isTerminal": "1"
-                              }
-                            },
-                            "isTerminal": "0"
-                          }
-                        },
-                        "isTerminal": "0"
-                      }
-                    },
-                    "isTerminal": "0"
-                  }
-                },
-                "isTerminal": "0"
-              },
-              "impress": {
-                "isTerminal": "1"
-              }
-            },
-            "isTerminal": "0"
-          },
-          "fullscreen_image": {
-            "children": {
-              "impress": {
-                "isTerminal": "1"
-              }
-            },
-            "isTerminal": "0"
-          }
+      "impression_pointers": {
+        "web_video_safari_hlsjs_enabled": [
+          "web_video_safari_hlsjs_16262"
+        ]
+      },
+      "impressions": {
+        "web_video_safari_hlsjs_16262": {
+          "key": "web_video_safari_hlsjs_16262",
+          "bucket": "treatment",
+          "version": "1"
         }
-      }
+      },
+      "keysRead": {},
+      "settingsVersion": "0f64427ca05f28ea7a6bc28e1194a2bf"
     },
     "debug": {},
-    "featureSetToken": "f9374cb3466d504079d69127e93cf8bc9db42f9e",
+    "featureSetToken": "1a291e72d764ed4ec6a8659c8cddbdedc45ff539",
     "isLoaded": "true",
-    "isLoading": "false",
-    "useEventAllowlist": "true"
+    "isLoading": "false"
   },
   "settings": {
     "local": {
@@ -5691,7 +5384,7 @@
     "country": "US",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "167813688193350140",
+    "guestId": "167822325719697932",
     "hasCommunityMemberships": "false",
     "language": "en",
     "oneFactorLoginEligibility": {
