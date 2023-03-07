@@ -227,7 +227,7 @@ Login Required: `...`<br>
 | count                  | ...     | t          |
 | cursor                 | ...     | n          |
 | includePromotedContent | boolean | False      |
-| ...()(0,s.d)           | ...     | _          |
+| ...()(0,l.d)           | ...     | _          |
 
 #### features<br>
 | key                                                                     | type    |   variable | default   |
@@ -266,7 +266,7 @@ Login Required: `...`<br>
 | count                  | ...     | t          |
 | cursor                 | ...     | n          |
 | includePromotedContent | boolean | False      |
-| ...()(0,s.d)           | ...     | _          |
+| ...()(0,l.d)           | ...     | _          |
 
 #### features<br>
 | key                                                                     | type    |   variable | default   |
@@ -376,7 +376,7 @@ Login Required: `...`<br>
 | count                  | ...     | t          |
 | cursor                 | ...     | n          |
 | includePromotedContent | boolean | False      |
-| ...()(0,s.d)           | ...     | _          |
+| ...()(0,l.d)           | ...     | _          |
 
 #### features<br>
 | key                                                                     | type    |   variable | default   |
@@ -414,7 +414,7 @@ Login Required: `...`<br>
 | count                  | ...     | t          |
 | cursor                 | ...     | n          |
 | includePromotedContent | boolean | False      |
-| ...()(0,s.d)           | ...     | _          |
+| ...()(0,l.d)           | ...     | _          |
 
 #### features<br>
 | key                                                                     | type    |   variable | default   |
@@ -931,10 +931,10 @@ Request Method: `POST`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key      | type   | variable   |
-|:---------|:-------|:-----------|
-| tweet_id | ...    | n          |
-| mode     | ...    | o          |
+| key                        | type   | variable      |
+|:---------------------------|:-------|:--------------|
+| userIds                    | ...    | n.split()     |
+| withSuperFollowsUserFields | ...    | t.isTrue(",") |
 
 #### features<br>
 `None`<br>
@@ -1882,7 +1882,7 @@ Login Required: `...`<br>
 | count                  | ...     | t          |
 | cursor                 | ...     | n          |
 | includePromotedContent | boolean | False      |
-| ...()(0,s.d)           | ...     | _          |
+| ...()(0,l.d)           | ...     | _          |
 
 #### features<br>
 | key                                                                     | type    |   variable | default   |
@@ -1921,7 +1921,7 @@ Login Required: `...`<br>
 | count                  | ...     | t          |
 | cursor                 | ...     | n          |
 | includePromotedContent | boolean | False      |
-| ...()(0,s.d)           | ...     | _          |
+| ...()(0,l.d)           | ...     | _          |
 
 #### features<br>
 | key                                                                     | type    |   variable | default   |
@@ -2031,7 +2031,7 @@ Login Required: `...`<br>
 | count                  | ...     | t          |
 | cursor                 | ...     | n          |
 | includePromotedContent | boolean | False      |
-| ...()(0,s.d)           | ...     | _          |
+| ...()(0,l.d)           | ...     | _          |
 
 #### features<br>
 | key                                                                     | type    |   variable | default   |
@@ -2069,7 +2069,7 @@ Login Required: `...`<br>
 | count                  | ...     | t          |
 | cursor                 | ...     | n          |
 | includePromotedContent | boolean | False      |
-| ...()(0,s.d)           | ...     | _          |
+| ...()(0,l.d)           | ...     | _          |
 
 #### features<br>
 | key                                                                     | type    |   variable | default   |
@@ -2993,7 +2993,7 @@ Login Required: `...`<br>
 | count                  | ...     | t          |
 | cursor                 | ...     | n          |
 | includePromotedContent | boolean | False      |
-| ...()(0,s.d)           | ...     | _          |
+| ...()(0,l.d)           | ...     | _          |
 
 #### features<br>
 | key                                                                     | type    |   variable | default   |
@@ -3032,7 +3032,7 @@ Login Required: `...`<br>
 | count                  | ...     | t          |
 | cursor                 | ...     | n          |
 | includePromotedContent | boolean | False      |
-| ...()(0,s.d)           | ...     | _          |
+| ...()(0,l.d)           | ...     | _          |
 
 #### features<br>
 | key                                                                     | type    |   variable | default   |
@@ -3142,7 +3142,7 @@ Login Required: `...`<br>
 | count                  | ...     | t          |
 | cursor                 | ...     | n          |
 | includePromotedContent | boolean | False      |
-| ...()(0,s.d)           | ...     | _          |
+| ...()(0,l.d)           | ...     | _          |
 
 #### features<br>
 | key                                                                     | type    |   variable | default   |
@@ -3180,7 +3180,7 @@ Login Required: `...`<br>
 | count                  | ...     | t          |
 | cursor                 | ...     | n          |
 | includePromotedContent | boolean | False      |
-| ...()(0,s.d)           | ...     | _          |
+| ...()(0,l.d)           | ...     | _          |
 
 #### features<br>
 | key                                                                     | type    |   variable | default   |
@@ -3701,7 +3701,7 @@ Login Required: `...`<br>
 | count                  | ...     | t          |
 | cursor                 | ...     | n          |
 | includePromotedContent | boolean | False      |
-| ...()(0,s.d)           | ...     | _          |
+| ...()(0,l.d)           | ...     | _          |
 
 #### features<br>
 | key                                                                     | type    |   variable | default   |
@@ -3740,7 +3740,7 @@ Login Required: `...`<br>
 | count                  | ...     | t          |
 | cursor                 | ...     | n          |
 | includePromotedContent | boolean | False      |
-| ...()(0,s.d)           | ...     | _          |
+| ...()(0,l.d)           | ...     | _          |
 
 #### features<br>
 | key                                                                     | type    |   variable | default   |
@@ -4466,7 +4466,7 @@ Login Required: `...`<br>
 | count                  | ...     | t          |
 | cursor                 | ...     | n          |
 | includePromotedContent | boolean | False      |
-| ...()(0,s.d)           | ...     | _          |
+| ...()(0,l.d)           | ...     | _          |
 
 #### features<br>
 | key                                                                     | type    |   variable | default   |
@@ -4504,7 +4504,7 @@ Login Required: `...`<br>
 | count                  | ...     | t          |
 | cursor                 | ...     | n          |
 | includePromotedContent | boolean | False      |
-| ...()(0,s.d)           | ...     | _          |
+| ...()(0,l.d)           | ...     | _          |
 
 #### features<br>
 | key                                                                     | type    |   variable | default   |
@@ -5062,7 +5062,7 @@ Login Required: `...`<br>
 | count                  | ...     | t          |
 | cursor                 | ...     | n          |
 | includePromotedContent | boolean | False      |
-| ...()(0,s.d)           | ...     | _          |
+| ...()(0,l.d)           | ...     | _          |
 
 #### features<br>
 | key                                                                     | type    |   variable | default   |
@@ -5101,7 +5101,7 @@ Login Required: `...`<br>
 | count                  | ...     | t          |
 | cursor                 | ...     | n          |
 | includePromotedContent | boolean | False      |
-| ...()(0,s.d)           | ...     | _          |
+| ...()(0,l.d)           | ...     | _          |
 
 #### features<br>
 | key                                                                     | type    |   variable | default   |
@@ -5211,7 +5211,7 @@ Login Required: `...`<br>
 | count                  | ...     | t          |
 | cursor                 | ...     | n          |
 | includePromotedContent | boolean | False      |
-| ...()(0,s.d)           | ...     | _          |
+| ...()(0,l.d)           | ...     | _          |
 
 #### features<br>
 | key                                                                     | type    |   variable | default   |
@@ -5249,7 +5249,7 @@ Login Required: `...`<br>
 | count                  | ...     | t          |
 | cursor                 | ...     | n          |
 | includePromotedContent | boolean | False      |
-| ...()(0,s.d)           | ...     | _          |
+| ...()(0,l.d)           | ...     | _          |
 
 #### features<br>
 | key                                                                     | type    |   variable | default   |
@@ -5467,7 +5467,7 @@ Login Required: `...`<br>
 | count                  | ...     | t          |
 | cursor                 | ...     | n          |
 | includePromotedContent | boolean | False      |
-| ...()(0,s.d)           | ...     | _          |
+| ...()(0,l.d)           | ...     | _          |
 
 #### features<br>
 | key                                                                     | type    |   variable | default   |
@@ -5506,7 +5506,7 @@ Login Required: `...`<br>
 | count                  | ...     | t          |
 | cursor                 | ...     | n          |
 | includePromotedContent | boolean | False      |
-| ...()(0,s.d)           | ...     | _          |
+| ...()(0,l.d)           | ...     | _          |
 
 #### features<br>
 | key                                                                     | type    |   variable | default   |
@@ -5659,7 +5659,7 @@ Login Required: `...`<br>
 | count                  | ...     | t          |
 | cursor                 | ...     | n          |
 | includePromotedContent | boolean | False      |
-| ...()(0,s.d)           | ...     | _          |
+| ...()(0,l.d)           | ...     | _          |
 
 #### features<br>
 | key                                                                     | type    |   variable | default   |
@@ -5697,7 +5697,7 @@ Login Required: `...`<br>
 | count                  | ...     | t          |
 | cursor                 | ...     | n          |
 | includePromotedContent | boolean | False      |
-| ...()(0,s.d)           | ...     | _          |
+| ...()(0,l.d)           | ...     | _          |
 
 #### features<br>
 | key                                                                     | type    |   variable | default   |
@@ -6737,7 +6737,7 @@ Login Required: `...`<br>
 | count                  | ...     | t          |
 | cursor                 | ...     | n          |
 | includePromotedContent | boolean | False      |
-| ...()(0,s.d)           | ...     | _          |
+| ...()(0,l.d)           | ...     | _          |
 
 #### features<br>
 | key                                                                     | type    |   variable | default   |
@@ -6776,7 +6776,7 @@ Login Required: `...`<br>
 | count                  | ...     | t          |
 | cursor                 | ...     | n          |
 | includePromotedContent | boolean | False      |
-| ...()(0,s.d)           | ...     | _          |
+| ...()(0,l.d)           | ...     | _          |
 
 #### features<br>
 | key                                                                     | type    |   variable | default   |
@@ -6886,7 +6886,7 @@ Login Required: `...`<br>
 | count                  | ...     | t          |
 | cursor                 | ...     | n          |
 | includePromotedContent | boolean | False      |
-| ...()(0,s.d)           | ...     | _          |
+| ...()(0,l.d)           | ...     | _          |
 
 #### features<br>
 | key                                                                     | type    |   variable | default   |
@@ -6956,7 +6956,7 @@ Login Required: `...`<br>
 | count                  | ...     | t          |
 | cursor                 | ...     | n          |
 | includePromotedContent | boolean | False      |
-| ...()(0,s.d)           | ...     | _          |
+| ...()(0,l.d)           | ...     | _          |
 
 #### features<br>
 | key                                                                     | type    |   variable | default   |
@@ -7535,7 +7535,7 @@ Login Required: `...`<br>
 | count                  | ...     | t          |
 | cursor                 | ...     | n          |
 | includePromotedContent | boolean | False      |
-| ...()(0,s.d)           | ...     | _          |
+| ...()(0,l.d)           | ...     | _          |
 
 #### features<br>
 | key                                                                     | type    |   variable | default   |
@@ -7574,7 +7574,7 @@ Login Required: `...`<br>
 | count                  | ...     | t          |
 | cursor                 | ...     | n          |
 | includePromotedContent | boolean | False      |
-| ...()(0,s.d)           | ...     | _          |
+| ...()(0,l.d)           | ...     | _          |
 
 #### features<br>
 | key                                                                     | type    |   variable | default   |
@@ -7684,7 +7684,7 @@ Login Required: `...`<br>
 | count                  | ...     | t          |
 | cursor                 | ...     | n          |
 | includePromotedContent | boolean | False      |
-| ...()(0,s.d)           | ...     | _          |
+| ...()(0,l.d)           | ...     | _          |
 
 #### features<br>
 | key                                                                     | type    |   variable | default   |
@@ -7722,7 +7722,7 @@ Login Required: `...`<br>
 | count                  | ...     | t          |
 | cursor                 | ...     | n          |
 | includePromotedContent | boolean | False      |
-| ...()(0,s.d)           | ...     | _          |
+| ...()(0,l.d)           | ...     | _          |
 
 #### features<br>
 | key                                                                     | type    |   variable | default   |
@@ -10445,10 +10445,10 @@ Request Method: `POST`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key      | type   | variable   |
-|:---------|:-------|:-----------|
-| tweet_id | ...    | n          |
-| mode     | ...    | o          |
+| key                        | type   | variable      |
+|:---------------------------|:-------|:--------------|
+| userIds                    | ...    | n.split()     |
+| withSuperFollowsUserFields | ...    | t.isTrue(",") |
 
 #### features<br>
 `None`<br>
@@ -10875,7 +10875,7 @@ Login Required: `...`<br>
 | count                  | ...     | t          |
 | cursor                 | ...     | n          |
 | includePromotedContent | boolean | False      |
-| ...()(0,s.d)           | ...     | _          |
+| ...()(0,l.d)           | ...     | _          |
 
 #### features<br>
 | key                                                                     | type    |   variable | default   |
@@ -10914,7 +10914,7 @@ Login Required: `...`<br>
 | count                  | ...     | t          |
 | cursor                 | ...     | n          |
 | includePromotedContent | boolean | False      |
-| ...()(0,s.d)           | ...     | _          |
+| ...()(0,l.d)           | ...     | _          |
 
 #### features<br>
 | key                                                                     | type    |   variable | default   |
@@ -11855,7 +11855,7 @@ Login Required: `...`<br>
 | count                  | ...     | t          |
 | cursor                 | ...     | n          |
 | includePromotedContent | boolean | False      |
-| ...()(0,s.d)           | ...     | _          |
+| ...()(0,l.d)           | ...     | _          |
 
 #### features<br>
 | key                                                                     | type    |   variable | default   |
@@ -12314,7 +12314,7 @@ Login Required: `...`<br>
 | count                  | ...     | t          |
 | cursor                 | ...     | n          |
 | includePromotedContent | boolean | False      |
-| ...()(0,s.d)           | ...     | _          |
+| ...()(0,l.d)           | ...     | _          |
 
 #### features<br>
 | key                                                                     | type    |   variable | default   |
@@ -17186,7 +17186,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## MonetizationSuperFollowsSettingsQuery<br>
-Request URL: `https://api.twitter.com/graphql/bNj-Dz-K9F1GCHs8V0pruA/MonetizationSuperFollowsSettingsQuery`<br>
+Request URL: `https://api.twitter.com/graphql/aFWWcodXU_NhvBbfkXjleQ/MonetizationSuperFollowsSettingsQuery`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -17244,7 +17244,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## SuperFollowsSettingsQuery<br>
-Request URL: `https://api.twitter.com/graphql/RtDladlaM2F-YLtsM2uKHA/SuperFollowsSettingsQuery`<br>
+Request URL: `https://api.twitter.com/graphql/a5NihPIqetRdmuJWRyXPCw/SuperFollowsSettingsQuery`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -17487,7 +17487,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## TwitterCoinsManagementCoinPackQuery<br>
-Request URL: `https://api.twitter.com/graphql/_ldIok-qW3TO0o9FGU2rIw/TwitterCoinsManagementCoinPackQuery`<br>
+Request URL: `https://api.twitter.com/graphql/TtPtRW7yaLbnwCFJANYNFQ/TwitterCoinsManagementCoinPackQuery`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -17748,7 +17748,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## InviteScreenQuery<br>
-Request URL: `https://api.twitter.com/graphql/bv6PUXQe88oQ9ES6I7ZoKw/InviteScreenQuery`<br>
+Request URL: `https://api.twitter.com/graphql/uL8VjhRk3pAmkLBxVMv5cA/InviteScreenQuery`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
