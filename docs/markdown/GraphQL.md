@@ -334,10 +334,11 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key             | type    | variable   |
-|:----------------|:--------|:-----------|
-| source_tweet_id | ...     | s          |
-| dark_request    | boolean | False      |
+| key           | type   | variable      |
+|:--------------|:-------|:--------------|
+| tweet_id      | ...    | r             |
+| reaction_type | ...    | i             |
+| ...()&&       | ...    | {'...t': '_'} |
 
 #### features<br>
 | key                                                                     | type    |   variable | default   |
@@ -410,12 +411,12 @@ Login Required: `...`<br>
 #### variables<br>
 | key                       | type    | variable                                                 |
 |:--------------------------|:--------|:---------------------------------------------------------|
-| tweetId                   | ...     | i                                                        |
+| tweetId                   | ...     | r                                                        |
 | includePromotedContent    | boolean | True                                                     |
 | withBirdwatchNotes        | ...     | t.isTrue()                                               |
 | withVoice                 | ...     | t.isTrue("responsive_web_birdwatch_consumption_enabled") |
 | withCommunity             | ...     | t.isTrue("voice_consumption_enabled")                    |
-| ...("c9s_enabled")(0,_.d) | ...     | _                                                        |
+| ...("c9s_enabled")(0,u.d) | ...     | _                                                        |
 
 #### features<br>
 | key                                                                     | type    |   variable | default   |
@@ -947,14 +948,9 @@ Request Method: `POST`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key                       | type    | variable                                                 |
-|:--------------------------|:--------|:---------------------------------------------------------|
-| tweetId                   | ...     | r                                                        |
-| includePromotedContent    | boolean | True                                                     |
-| withBirdwatchNotes        | ...     | t.isTrue()                                               |
-| withVoice                 | ...     | t.isTrue("responsive_web_birdwatch_consumption_enabled") |
-| withCommunity             | ...     | t.isTrue("voice_consumption_enabled")                    |
-| ...("c9s_enabled")(0,u.d) | ...     | _                                                        |
+| key      | type   | variable   |
+|:---------|:-------|:-----------|
+| tweet_id | ...    | r          |
 
 #### features<br>
 `None`<br>
@@ -1989,10 +1985,11 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key             | type    | variable   |
-|:----------------|:--------|:-----------|
-| source_tweet_id | ...     | s          |
-| dark_request    | boolean | False      |
+| key           | type   | variable      |
+|:--------------|:-------|:--------------|
+| tweet_id      | ...    | r             |
+| reaction_type | ...    | i             |
+| ...()&&       | ...    | {'...t': '_'} |
 
 #### features<br>
 | key                                                                     | type    |   variable | default   |
@@ -2065,12 +2062,12 @@ Login Required: `...`<br>
 #### variables<br>
 | key                       | type    | variable                                                 |
 |:--------------------------|:--------|:---------------------------------------------------------|
-| tweetId                   | ...     | i                                                        |
+| tweetId                   | ...     | r                                                        |
 | includePromotedContent    | boolean | True                                                     |
 | withBirdwatchNotes        | ...     | t.isTrue()                                               |
 | withVoice                 | ...     | t.isTrue("responsive_web_birdwatch_consumption_enabled") |
 | withCommunity             | ...     | t.isTrue("voice_consumption_enabled")                    |
-| ...("c9s_enabled")(0,_.d) | ...     | _                                                        |
+| ...("c9s_enabled")(0,u.d) | ...     | _                                                        |
 
 #### features<br>
 | key                                                                     | type    |   variable | default   |
@@ -3101,10 +3098,11 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key             | type    | variable   |
-|:----------------|:--------|:-----------|
-| source_tweet_id | ...     | s          |
-| dark_request    | boolean | False      |
+| key           | type   | variable      |
+|:--------------|:-------|:--------------|
+| tweet_id      | ...    | r             |
+| reaction_type | ...    | i             |
+| ...()&&       | ...    | {'...t': '_'} |
 
 #### features<br>
 | key                                                                     | type    |   variable | default   |
@@ -3177,12 +3175,12 @@ Login Required: `...`<br>
 #### variables<br>
 | key                       | type    | variable                                                 |
 |:--------------------------|:--------|:---------------------------------------------------------|
-| tweetId                   | ...     | i                                                        |
+| tweetId                   | ...     | r                                                        |
 | includePromotedContent    | boolean | True                                                     |
 | withBirdwatchNotes        | ...     | t.isTrue()                                               |
 | withVoice                 | ...     | t.isTrue("responsive_web_birdwatch_consumption_enabled") |
 | withCommunity             | ...     | t.isTrue("voice_consumption_enabled")                    |
-| ...("c9s_enabled")(0,_.d) | ...     | _                                                        |
+| ...("c9s_enabled")(0,u.d) | ...     | _                                                        |
 
 #### features<br>
 | key                                                                     | type    |   variable | default   |
@@ -4426,10 +4424,11 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key             | type    | variable   |
-|:----------------|:--------|:-----------|
-| source_tweet_id | ...     | s          |
-| dark_request    | boolean | False      |
+| key           | type   | variable      |
+|:--------------|:-------|:--------------|
+| tweet_id      | ...    | r             |
+| reaction_type | ...    | i             |
+| ...()&&       | ...    | {'...t': '_'} |
 
 #### features<br>
 | key                                                                     | type    |   variable | default   |
@@ -4502,12 +4501,12 @@ Login Required: `...`<br>
 #### variables<br>
 | key                       | type    | variable                                                 |
 |:--------------------------|:--------|:---------------------------------------------------------|
-| tweetId                   | ...     | i                                                        |
+| tweetId                   | ...     | r                                                        |
 | includePromotedContent    | boolean | True                                                     |
 | withBirdwatchNotes        | ...     | t.isTrue()                                               |
 | withVoice                 | ...     | t.isTrue("responsive_web_birdwatch_consumption_enabled") |
 | withCommunity             | ...     | t.isTrue("voice_consumption_enabled")                    |
-| ...("c9s_enabled")(0,_.d) | ...     | _                                                        |
+| ...("c9s_enabled")(0,u.d) | ...     | _                                                        |
 
 #### features<br>
 | key                                                                     | type    |   variable | default   |
@@ -5172,10 +5171,11 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key             | type    | variable   |
-|:----------------|:--------|:-----------|
-| source_tweet_id | ...     | s          |
-| dark_request    | boolean | False      |
+| key           | type   | variable      |
+|:--------------|:-------|:--------------|
+| tweet_id      | ...    | r             |
+| reaction_type | ...    | i             |
+| ...()&&       | ...    | {'...t': '_'} |
 
 #### features<br>
 | key                                                                     | type    |   variable | default   |
@@ -5248,12 +5248,12 @@ Login Required: `...`<br>
 #### variables<br>
 | key                       | type    | variable                                                 |
 |:--------------------------|:--------|:---------------------------------------------------------|
-| tweetId                   | ...     | i                                                        |
+| tweetId                   | ...     | r                                                        |
 | includePromotedContent    | boolean | True                                                     |
 | withBirdwatchNotes        | ...     | t.isTrue()                                               |
 | withVoice                 | ...     | t.isTrue("responsive_web_birdwatch_consumption_enabled") |
 | withCommunity             | ...     | t.isTrue("voice_consumption_enabled")                    |
-| ...("c9s_enabled")(0,_.d) | ...     | _                                                        |
+| ...("c9s_enabled")(0,u.d) | ...     | _                                                        |
 
 #### features<br>
 | key                                                                     | type    |   variable | default   |
@@ -5621,10 +5621,11 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key             | type    | variable   |
-|:----------------|:--------|:-----------|
-| source_tweet_id | ...     | s          |
-| dark_request    | boolean | False      |
+| key           | type   | variable      |
+|:--------------|:-------|:--------------|
+| tweet_id      | ...    | r             |
+| reaction_type | ...    | i             |
+| ...()&&       | ...    | {'...t': '_'} |
 
 #### features<br>
 | key                                                                     | type    |   variable | default   |
@@ -5697,12 +5698,12 @@ Login Required: `...`<br>
 #### variables<br>
 | key                       | type    | variable                                                 |
 |:--------------------------|:--------|:---------------------------------------------------------|
-| tweetId                   | ...     | i                                                        |
+| tweetId                   | ...     | r                                                        |
 | includePromotedContent    | boolean | True                                                     |
 | withBirdwatchNotes        | ...     | t.isTrue()                                               |
 | withVoice                 | ...     | t.isTrue("responsive_web_birdwatch_consumption_enabled") |
 | withCommunity             | ...     | t.isTrue("voice_consumption_enabled")                    |
-| ...("c9s_enabled")(0,_.d) | ...     | _                                                        |
+| ...("c9s_enabled")(0,u.d) | ...     | _                                                        |
 
 #### features<br>
 | key                                                                     | type    |   variable | default   |
@@ -6849,10 +6850,11 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key             | type    | variable   |
-|:----------------|:--------|:-----------|
-| source_tweet_id | ...     | s          |
-| dark_request    | boolean | False      |
+| key           | type   | variable      |
+|:--------------|:-------|:--------------|
+| tweet_id      | ...    | r             |
+| reaction_type | ...    | i             |
+| ...()&&       | ...    | {'...t': '_'} |
 
 #### features<br>
 | key                                                                     | type    |   variable | default   |
@@ -6957,12 +6959,12 @@ Login Required: `...`<br>
 #### variables<br>
 | key                       | type    | variable                                                 |
 |:--------------------------|:--------|:---------------------------------------------------------|
-| tweetId                   | ...     | i                                                        |
+| tweetId                   | ...     | r                                                        |
 | includePromotedContent    | boolean | True                                                     |
 | withBirdwatchNotes        | ...     | t.isTrue()                                               |
 | withVoice                 | ...     | t.isTrue("responsive_web_birdwatch_consumption_enabled") |
 | withCommunity             | ...     | t.isTrue("voice_consumption_enabled")                    |
-| ...("c9s_enabled")(0,_.d) | ...     | _                                                        |
+| ...("c9s_enabled")(0,u.d) | ...     | _                                                        |
 
 #### features<br>
 | key                                                                     | type    |   variable | default   |
@@ -7648,10 +7650,11 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key             | type    | variable   |
-|:----------------|:--------|:-----------|
-| source_tweet_id | ...     | s          |
-| dark_request    | boolean | False      |
+| key           | type   | variable      |
+|:--------------|:-------|:--------------|
+| tweet_id      | ...    | r             |
+| reaction_type | ...    | i             |
+| ...()&&       | ...    | {'...t': '_'} |
 
 #### features<br>
 | key                                                                     | type    |   variable | default   |
@@ -7724,12 +7727,12 @@ Login Required: `...`<br>
 #### variables<br>
 | key                       | type    | variable                                                 |
 |:--------------------------|:--------|:---------------------------------------------------------|
-| tweetId                   | ...     | i                                                        |
+| tweetId                   | ...     | r                                                        |
 | includePromotedContent    | boolean | True                                                     |
 | withBirdwatchNotes        | ...     | t.isTrue()                                               |
 | withVoice                 | ...     | t.isTrue("responsive_web_birdwatch_consumption_enabled") |
 | withCommunity             | ...     | t.isTrue("voice_consumption_enabled")                    |
-| ...("c9s_enabled")(0,_.d) | ...     | _                                                        |
+| ...("c9s_enabled")(0,u.d) | ...     | _                                                        |
 
 #### features<br>
 | key                                                                     | type    |   variable | default   |
@@ -10478,14 +10481,9 @@ Request Method: `POST`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key                       | type    | variable                                                 |
-|:--------------------------|:--------|:---------------------------------------------------------|
-| tweetId                   | ...     | r                                                        |
-| includePromotedContent    | boolean | True                                                     |
-| withBirdwatchNotes        | ...     | t.isTrue()                                               |
-| withVoice                 | ...     | t.isTrue("responsive_web_birdwatch_consumption_enabled") |
-| withCommunity             | ...     | t.isTrue("voice_consumption_enabled")                    |
-| ...("c9s_enabled")(0,u.d) | ...     | _                                                        |
+| key      | type   | variable   |
+|:---------|:-------|:-----------|
+| tweet_id | ...    | r          |
 
 #### features<br>
 `None`<br>
@@ -11821,10 +11819,11 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key             | type    | variable   |
-|:----------------|:--------|:-----------|
-| source_tweet_id | ...     | s          |
-| dark_request    | boolean | False      |
+| key           | type   | variable      |
+|:--------------|:-------|:--------------|
+| tweet_id      | ...    | r             |
+| reaction_type | ...    | i             |
+| ...()&&       | ...    | {'...t': '_'} |
 
 #### features<br>
 | key                                                                     | type    |   variable | default   |
@@ -12316,12 +12315,12 @@ Login Required: `...`<br>
 #### variables<br>
 | key                       | type    | variable                                                 |
 |:--------------------------|:--------|:---------------------------------------------------------|
-| tweetId                   | ...     | i                                                        |
+| tweetId                   | ...     | r                                                        |
 | includePromotedContent    | boolean | True                                                     |
 | withBirdwatchNotes        | ...     | t.isTrue()                                               |
 | withVoice                 | ...     | t.isTrue("responsive_web_birdwatch_consumption_enabled") |
 | withCommunity             | ...     | t.isTrue("voice_consumption_enabled")                    |
-| ...("c9s_enabled")(0,_.d) | ...     | _                                                        |
+| ...("c9s_enabled")(0,u.d) | ...     | _                                                        |
 
 #### features<br>
 | key                                                                     | type    |   variable | default   |
@@ -17738,7 +17737,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## InviteScreenQuery<br>
-Request URL: `https://api.twitter.com/graphql/uL8VjhRk3pAmkLBxVMv5cA/InviteScreenQuery`<br>
+Request URL: `https://api.twitter.com/graphql/bv6PUXQe88oQ9ES6I7ZoKw/InviteScreenQuery`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
