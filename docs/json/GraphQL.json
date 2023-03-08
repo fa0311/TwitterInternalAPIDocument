@@ -779,8 +779,11 @@
     "func_name": "F",
     "func_name_init": "A",
     "query": {
-      "source_tweet_id": "s",
-      "dark_request": "!1"
+      "tweet_id": "r",
+      "reaction_type": "i",
+      "...()&&": {
+        "...t": "_"
+      }
     }
   },
   {
@@ -964,15 +967,15 @@
         }
       }
     },
-    "func_name": "G",
+    "func_name": "K",
     "func_name_init": "S",
     "query": {
-      "tweetId": "i",
+      "tweetId": "r",
       "includePromotedContent": "!0",
       "withBirdwatchNotes": "t.isTrue()",
       "withVoice": "t.isTrue(\"responsive_web_birdwatch_consumption_enabled\")",
       "withCommunity": "t.isTrue(\"voice_consumption_enabled\")",
-      "...(\"c9s_enabled\")(0,_.d)": "_"
+      "...(\"c9s_enabled\")(0,u.d)": "_"
     }
   },
   {
@@ -1872,15 +1875,10 @@
         "featureSwitch": {}
       }
     },
-    "func_name": "K",
+    "func_name": "g",
     "func_name_init": "f",
     "query": {
-      "tweetId": "r",
-      "includePromotedContent": "!0",
-      "withBirdwatchNotes": "t.isTrue()",
-      "withVoice": "t.isTrue(\"responsive_web_birdwatch_consumption_enabled\")",
-      "withCommunity": "t.isTrue(\"voice_consumption_enabled\")",
-      "...(\"c9s_enabled\")(0,u.d)": "_"
+      "tweet_id": "r"
     }
   },
   {
@@ -4211,8 +4209,11 @@
     "func_name": "F",
     "func_name_init": "A",
     "query": {
-      "source_tweet_id": "s",
-      "dark_request": "!1"
+      "tweet_id": "r",
+      "reaction_type": "i",
+      "...()&&": {
+        "...t": "_"
+      }
     }
   },
   {
@@ -4396,15 +4397,15 @@
         }
       }
     },
-    "func_name": "G",
+    "func_name": "K",
     "func_name_init": "S",
     "query": {
-      "tweetId": "i",
+      "tweetId": "r",
       "includePromotedContent": "!0",
       "withBirdwatchNotes": "t.isTrue()",
       "withVoice": "t.isTrue(\"responsive_web_birdwatch_consumption_enabled\")",
       "withCommunity": "t.isTrue(\"voice_consumption_enabled\")",
-      "...(\"c9s_enabled\")(0,_.d)": "_"
+      "...(\"c9s_enabled\")(0,u.d)": "_"
     }
   },
   {
@@ -6493,8 +6494,11 @@
     "func_name": "F",
     "func_name_init": "A",
     "query": {
-      "source_tweet_id": "s",
-      "dark_request": "!1"
+      "tweet_id": "r",
+      "reaction_type": "i",
+      "...()&&": {
+        "...t": "_"
+      }
     }
   },
   {
@@ -6678,15 +6682,15 @@
         }
       }
     },
-    "func_name": "G",
+    "func_name": "K",
     "func_name_init": "S",
     "query": {
-      "tweetId": "i",
+      "tweetId": "r",
       "includePromotedContent": "!0",
       "withBirdwatchNotes": "t.isTrue()",
       "withVoice": "t.isTrue(\"responsive_web_birdwatch_consumption_enabled\")",
       "withCommunity": "t.isTrue(\"voice_consumption_enabled\")",
-      "...(\"c9s_enabled\")(0,_.d)": "_"
+      "...(\"c9s_enabled\")(0,u.d)": "_"
     }
   },
   {
@@ -9490,8 +9494,11 @@
     "func_name": "F",
     "func_name_init": "A",
     "query": {
-      "source_tweet_id": "s",
-      "dark_request": "!1"
+      "tweet_id": "r",
+      "reaction_type": "i",
+      "...()&&": {
+        "...t": "_"
+      }
     }
   },
   {
@@ -9675,15 +9682,15 @@
         }
       }
     },
-    "func_name": "G",
+    "func_name": "K",
     "func_name_init": "S",
     "query": {
-      "tweetId": "i",
+      "tweetId": "r",
       "includePromotedContent": "!0",
       "withBirdwatchNotes": "t.isTrue()",
       "withVoice": "t.isTrue(\"responsive_web_birdwatch_consumption_enabled\")",
       "withCommunity": "t.isTrue(\"voice_consumption_enabled\")",
-      "...(\"c9s_enabled\")(0,_.d)": "_"
+      "...(\"c9s_enabled\")(0,u.d)": "_"
     }
   },
   {
@@ -11064,8 +11071,11 @@
     "func_name": "F",
     "func_name_init": "A",
     "query": {
-      "source_tweet_id": "s",
-      "dark_request": "!1"
+      "tweet_id": "r",
+      "reaction_type": "i",
+      "...()&&": {
+        "...t": "_"
+      }
     }
   },
   {
@@ -11249,15 +11259,15 @@
         }
       }
     },
-    "func_name": "G",
+    "func_name": "K",
     "func_name_init": "S",
     "query": {
-      "tweetId": "i",
+      "tweetId": "r",
       "includePromotedContent": "!0",
       "withBirdwatchNotes": "t.isTrue()",
       "withVoice": "t.isTrue(\"responsive_web_birdwatch_consumption_enabled\")",
       "withCommunity": "t.isTrue(\"voice_consumption_enabled\")",
-      "...(\"c9s_enabled\")(0,_.d)": "_"
+      "...(\"c9s_enabled\")(0,u.d)": "_"
     }
   },
   {
@@ -12156,8 +12166,11 @@
     "func_name": "F",
     "func_name_init": "A",
     "query": {
-      "source_tweet_id": "s",
-      "dark_request": "!1"
+      "tweet_id": "r",
+      "reaction_type": "i",
+      "...()&&": {
+        "...t": "_"
+      }
     }
   },
   {
@@ -12341,15 +12354,15 @@
         }
       }
     },
-    "func_name": "G",
+    "func_name": "K",
     "func_name_init": "S",
     "query": {
-      "tweetId": "i",
+      "tweetId": "r",
       "includePromotedContent": "!0",
       "withBirdwatchNotes": "t.isTrue()",
       "withVoice": "t.isTrue(\"responsive_web_birdwatch_consumption_enabled\")",
       "withCommunity": "t.isTrue(\"voice_consumption_enabled\")",
-      "...(\"c9s_enabled\")(0,_.d)": "_"
+      "...(\"c9s_enabled\")(0,u.d)": "_"
     }
   },
   {
@@ -14682,8 +14695,11 @@
     "func_name": "F",
     "func_name_init": "A",
     "query": {
-      "source_tweet_id": "s",
-      "dark_request": "!1"
+      "tweet_id": "r",
+      "reaction_type": "i",
+      "...()&&": {
+        "...t": "_"
+      }
     }
   },
   {
@@ -14954,15 +14970,15 @@
         }
       }
     },
-    "func_name": "G",
+    "func_name": "K",
     "func_name_init": "S",
     "query": {
-      "tweetId": "i",
+      "tweetId": "r",
       "includePromotedContent": "!0",
       "withBirdwatchNotes": "t.isTrue()",
       "withVoice": "t.isTrue(\"responsive_web_birdwatch_consumption_enabled\")",
       "withCommunity": "t.isTrue(\"voice_consumption_enabled\")",
-      "...(\"c9s_enabled\")(0,_.d)": "_"
+      "...(\"c9s_enabled\")(0,u.d)": "_"
     }
   },
   {
@@ -16638,8 +16654,11 @@
     "func_name": "F",
     "func_name_init": "A",
     "query": {
-      "source_tweet_id": "s",
-      "dark_request": "!1"
+      "tweet_id": "r",
+      "reaction_type": "i",
+      "...()&&": {
+        "...t": "_"
+      }
     }
   },
   {
@@ -16823,15 +16842,15 @@
         }
       }
     },
-    "func_name": "G",
+    "func_name": "K",
     "func_name_init": "S",
     "query": {
-      "tweetId": "i",
+      "tweetId": "r",
       "includePromotedContent": "!0",
       "withBirdwatchNotes": "t.isTrue()",
       "withVoice": "t.isTrue(\"responsive_web_birdwatch_consumption_enabled\")",
       "withCommunity": "t.isTrue(\"voice_consumption_enabled\")",
-      "...(\"c9s_enabled\")(0,_.d)": "_"
+      "...(\"c9s_enabled\")(0,u.d)": "_"
     }
   },
   {
@@ -22299,15 +22318,10 @@
         "featureSwitch": {}
       }
     },
-    "func_name": "K",
+    "func_name": "g",
     "func_name_init": "f",
     "query": {
-      "tweetId": "r",
-      "includePromotedContent": "!0",
-      "withBirdwatchNotes": "t.isTrue()",
-      "withVoice": "t.isTrue(\"responsive_web_birdwatch_consumption_enabled\")",
-      "withCommunity": "t.isTrue(\"voice_consumption_enabled\")",
-      "...(\"c9s_enabled\")(0,u.d)": "_"
+      "tweet_id": "r"
     }
   },
   {
@@ -25172,8 +25186,11 @@
     "func_name": "F",
     "func_name_init": "A",
     "query": {
-      "source_tweet_id": "s",
-      "dark_request": "!1"
+      "tweet_id": "r",
+      "reaction_type": "i",
+      "...()&&": {
+        "...t": "_"
+      }
     }
   },
   {
@@ -26078,15 +26095,15 @@
         }
       }
     },
-    "func_name": "G",
+    "func_name": "K",
     "func_name_init": "S",
     "query": {
-      "tweetId": "i",
+      "tweetId": "r",
       "includePromotedContent": "!0",
       "withBirdwatchNotes": "t.isTrue()",
       "withVoice": "t.isTrue(\"responsive_web_birdwatch_consumption_enabled\")",
       "withCommunity": "t.isTrue(\"voice_consumption_enabled\")",
-      "...(\"c9s_enabled\")(0,_.d)": "_"
+      "...(\"c9s_enabled\")(0,u.d)": "_"
     }
   },
   {
@@ -33930,7 +33947,7 @@
     }
   },
   {
-    "n": "52468",
+    "n": "97252",
     "exports": {
       "queryId": "lieM2QpB7PLqe0qyABV3KA",
       "operationName": "PrimaryContentQuery",
@@ -35190,7 +35207,7 @@
   {
     "n": "79761",
     "exports": {
-      "queryId": "uL8VjhRk3pAmkLBxVMv5cA",
+      "queryId": "bv6PUXQe88oQ9ES6I7ZoKw",
       "operationName": "InviteScreenQuery",
       "operationType": "query",
       "metadata": {
