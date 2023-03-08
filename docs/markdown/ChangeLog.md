@@ -436,3 +436,9 @@
 - adFreeArticleDomains<br>
 - adFreeArticleDomains<br>
 - InvitationListItemDeleteInvitationMutation<br>
+## 2023/03/07<br>
+### add<br>
+- None<br>
+### remove<br>
+- DelegatedAccountListQuery<br>
+- DMPinnedInboxQuery<br>
