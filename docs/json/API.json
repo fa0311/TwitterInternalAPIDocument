@@ -4061,8 +4061,8 @@
       }
     },
     "InviteScreenQuery": {
-      "url": "https://api.twitter.com/graphql/uL8VjhRk3pAmkLBxVMv5cA/InviteScreenQuery",
-      "queryId": "uL8VjhRk3pAmkLBxVMv5cA",
+      "url": "https://api.twitter.com/graphql/bv6PUXQe88oQ9ES6I7ZoKw/InviteScreenQuery",
+      "queryId": "bv6PUXQe88oQ9ES6I7ZoKw",
       "method": "GET",
       "features": {}
     },
@@ -4116,7 +4116,7 @@
     }
   },
   "header": {
-    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36",
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
     "authorization": "Bearer AAAAAAAAAAAAAAAAAAAAANRILgAAAAAAnNwIzUejRCOuH5E6I8xnZz4puTs%3D1Zv7ttfk8LF81IUq16cHjhLTvJu4FA33AGWWjCpTnA"
   }
 }
