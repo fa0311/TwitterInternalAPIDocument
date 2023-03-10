@@ -5340,8 +5340,8 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant      | value                                                                      |
 |:--------------|:---------------------------------------------------------------------------|
-| earnings      | {'link': '/settings/monetization/earnings', 'text': 'c', 'size': 'xLarge'} |
-| payoutHistory | {'link': '/settings/monetization/payout_history', 'text': 'u'}             |
+| earnings      | {'link': '/settings/monetization/earnings', 'text': 'u', 'size': 'xLarge'} |
+| payoutHistory | {'link': '/settings/monetization/payout_history', 'text': 'c'}             |
 
 | constant   | value                                                                |
 |:-----------|:---------------------------------------------------------------------|
