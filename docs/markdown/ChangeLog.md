@@ -442,3 +442,11 @@
 ### remove<br>
 - DelegatedAccountListQuery<br>
 - DMPinnedInboxQuery<br>
+## 2023/03/10<br>
+### add<br>
+- AccountSwitcherDelegateQuery<br>
+- PriceQuery<br>
+- useAffiliatesAndInvitesQuery<br>
+### remove<br>
+- InviteScreenQuery<br>
+- WelcomeScreenPricesQuery<br>
