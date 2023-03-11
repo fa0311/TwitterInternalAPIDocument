@@ -4906,12 +4906,12 @@
   {
     "earnings": {
       "link": "/settings/monetization/earnings",
-      "text": "c",
+      "text": "u",
       "size": "xLarge"
     },
     "payoutHistory": {
       "link": "/settings/monetization/payout_history",
-      "text": "u"
+      "text": "c"
     }
   },
   {
@@ -5717,7 +5717,7 @@
     "Cheer": "Cheer",
     "Like": "Like"
   },
-  "{\"ActionsBar\":\"f.Z\",\"ActionMenu\":\"function()\"{\"Icon\":\"e\",\"isDisabled\":\"t\",\"items\":\"n\",\"onOpen\":\"i\"}{\"const o=r.useCallback()\"{\"items\":\"n\",\"onCloseRequested\":\"e\"}{\"Icon\":\"e\",\"isDisabled\":\"t\",\"onClick\":\"i\",\"renderActionMenu\":\"o\"}},\"CallToAction\":\"a.ZP\",\"EditCallout\":\"C.Z\",\"Education\":\"E.Z\",\"HighlightedUserLabel\":\"c.Z\",\"Media\":\"k.Z\",\"Place\":\"o.ZP\",\"PromotedDetails\":\"u.Z\",\"PromotedUserProfileCard\":\"x\",\"ReplyContext\":\"L.ZP\",\"RichContent\":\"P.Z\",\"SocialContext\":\"y.Z\",\"Text\":\"A.Z\",\"Tombstone\":\"b.Z\",\"Timestamp\":\"p.Z\",\"UserAvatar\":\"D.Z\",\"UserFollowIndicator\":\"F.Z\",\"UserName\":\"R.Z\",\"VibePill\":\"U.Z\"}",
+  "{\"ActionsBar\":\"f.Z\",\"ActionMenu\":\"function()\"{\"Icon\":\"e\",\"isDisabled\":\"t\",\"items\":\"n\",\"onOpen\":\"i\"}{\"const o=r.useCallback()\"{\"items\":\"n\",\"onCloseRequested\":\"e\"}{\"Icon\":\"e\",\"isDisabled\":\"t\",\"onClick\":\"i\",\"renderActionMenu\":\"o\"}},\"CallToAction\":\"a.ZP\",\"EditCallout\":\"C.Z\",\"Education\":\"E.Z\",\"HighlightedUserLabel\":\"c.Z\",\"Media\":\"k.Z\",\"Place\":\"o.ZP\",\"PromotedDetails\":\"u.Z\",\"PromotedUserProfileCard\":\"x\",\"ReplyContext\":\"L.ZP\",\"RichContent\":\"P.Z\",\"SocialContext\":\"y.Z\",\"Text\":\"A.Z\",\"Tombstone\":\"b.Z\",\"Timestamp\":\"p.Z\",\"UserAvatar\":\"D.Z\",\"UserFollowIndicator\":\"M.Z\",\"UserName\":\"R.Z\",\"VibePill\":\"U.Z\"}",
   {
     "original": "original",
     "banner": "banner",
