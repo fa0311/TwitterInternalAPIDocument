@@ -120,6 +120,11 @@
       "entities": {},
       "errors": {},
       "fetchStatus": {}
+    },
+    "places": {
+      "entities": {},
+      "errors": {},
+      "fetchStatus": {}
     }
   },
   "featureSwitch": {
@@ -5206,26 +5211,16 @@
           "value": "false"
         },
         "web_video_safari_hlsjs_enabled": {
-          "value": "true"
+          "value": "false"
         },
         "web_video_transcribed_captions_enabled": {
           "value": "false"
         }
       },
-      "impression_pointers": {
-        "web_video_safari_hlsjs_enabled": [
-          "web_video_safari_hlsjs_16262"
-        ]
-      },
-      "impressions": {
-        "web_video_safari_hlsjs_16262": {
-          "key": "web_video_safari_hlsjs_16262",
-          "bucket": "treatment",
-          "version": "1"
-        }
-      },
+      "impression_pointers": {},
+      "impressions": {},
       "keysRead": {},
-      "settingsVersion": "78cf43908616f68a9087b5f50b51795e"
+      "settingsVersion": "0dce15d4ec68e7494789954021dab8c1"
     },
     "debug": {},
     "featureSetToken": "71326ea3307c1dd6d8dee7c165ac1598d3251ec3",
@@ -5300,7 +5295,7 @@
     "country": "US",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "167856879482281414",
+    "guestId": "167865521166401633",
     "hasCommunityMemberships": "false",
     "language": "en",
     "oneFactorLoginEligibility": {
