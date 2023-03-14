@@ -120,11 +120,6 @@
       "entities": {},
       "errors": {},
       "fetchStatus": {}
-    },
-    "places": {
-      "entities": {},
-      "errors": {},
-      "fetchStatus": {}
     }
   },
   "featureSwitch": {
@@ -3279,7 +3274,7 @@
           "value": "false"
         },
         "explore_relaunch_onboarding_bar_show_count": {
-          "value": "3"
+          "value": "100000"
         },
         "explore_relaunch_updated_scrubber_position": {
           "value": "false"
@@ -4530,7 +4525,7 @@
           "value": "7"
         },
         "rweb_tweets_tweet_detail_font_size": {
-          "value": "headline2"
+          "value": "title4"
         },
         "rweb_update_fatigue_switch_to_app_day_timeout": {
           "value": "7"
@@ -5211,16 +5206,34 @@
           "value": "false"
         },
         "web_video_safari_hlsjs_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "web_video_transcribed_captions_enabled": {
           "value": "false"
         }
       },
-      "impression_pointers": {},
-      "impressions": {},
+      "impression_pointers": {
+        "rweb_tweets_tweet_detail_font_size": [
+          "rweb_tweet_detail_font_size_holdback_16263"
+        ],
+        "web_video_safari_hlsjs_enabled": [
+          "web_video_safari_hlsjs_16262"
+        ]
+      },
+      "impressions": {
+        "rweb_tweet_detail_font_size_holdback_16263": {
+          "key": "rweb_tweet_detail_font_size_holdback_16263",
+          "bucket": "treatment",
+          "version": "1"
+        },
+        "web_video_safari_hlsjs_16262": {
+          "key": "web_video_safari_hlsjs_16262",
+          "bucket": "treatment",
+          "version": "1"
+        }
+      },
       "keysRead": {},
-      "settingsVersion": "0dce15d4ec68e7494789954021dab8c1"
+      "settingsVersion": "a912add46492eeb573e279df723907e8"
     },
     "debug": {},
     "featureSetToken": "71326ea3307c1dd6d8dee7c165ac1598d3251ec3",
@@ -5295,7 +5308,7 @@
     "country": "US",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "167865521166401633",
+    "guestId": "167876570458513421",
     "hasCommunityMemberships": "false",
     "language": "en",
     "oneFactorLoginEligibility": {
