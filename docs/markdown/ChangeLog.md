@@ -450,3 +450,13 @@
 ### remove<br>
 - InviteScreenQuery<br>
 - WelcomeScreenPricesQuery<br>
+## 2023/03/15<br>
+### add<br>
+- DelegatedAccountListQuery<br>
+- AdsCategoriesMutation<br>
+- AdsCategoriesQuery<br>
+- useCreateInvitationMutation<br>
+### remove<br>
+- ForYouExplore<br>
+- ForYouExplore<br>
+- InvitationListItemResendInvitationMutation<br>
