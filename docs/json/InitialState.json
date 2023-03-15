@@ -76,12 +76,17 @@
       "errors": {},
       "fetchStatus": {}
     },
+    "translationsProfiles": {
+      "entities": {},
+      "errors": {},
+      "fetchStatus": {}
+    },
     "imageCache": {
       "entities": {},
       "errors": {},
       "fetchStatus": {}
     },
-    "translationsProfiles": {
+    "liveEvents": {
       "entities": {},
       "errors": {},
       "fetchStatus": {}
@@ -112,11 +117,6 @@
       "fetchStatus": {}
     },
     "legacyAndUnifiedCards": {
-      "entities": {},
-      "errors": {},
-      "fetchStatus": {}
-    },
-    "liveEvents": {
       "entities": {},
       "errors": {},
       "fetchStatus": {}
@@ -4525,7 +4525,7 @@
           "value": "7"
         },
         "rweb_tweets_tweet_detail_font_size": {
-          "value": "title4"
+          "value": "headline2"
         },
         "rweb_update_fatigue_switch_to_app_day_timeout": {
           "value": "7"
@@ -5213,19 +5213,11 @@
         }
       },
       "impression_pointers": {
-        "rweb_tweets_tweet_detail_font_size": [
-          "rweb_tweet_detail_font_size_holdback_16263"
-        ],
         "web_video_safari_hlsjs_enabled": [
           "web_video_safari_hlsjs_16262"
         ]
       },
       "impressions": {
-        "rweb_tweet_detail_font_size_holdback_16263": {
-          "key": "rweb_tweet_detail_font_size_holdback_16263",
-          "bucket": "treatment",
-          "version": "1"
-        },
         "web_video_safari_hlsjs_16262": {
           "key": "web_video_safari_hlsjs_16262",
           "bucket": "treatment",
@@ -5233,7 +5225,7 @@
         }
       },
       "keysRead": {},
-      "settingsVersion": "a912add46492eeb573e279df723907e8"
+      "settingsVersion": "9e85a8346645a0a34b6ae7f074efdef4"
     },
     "debug": {},
     "featureSetToken": "71326ea3307c1dd6d8dee7c165ac1598d3251ec3",
@@ -5308,7 +5300,7 @@
     "country": "US",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "167876570458513421",
+    "guestId": "167882803917736438",
     "hasCommunityMemberships": "false",
     "language": "en",
     "oneFactorLoginEligibility": {
