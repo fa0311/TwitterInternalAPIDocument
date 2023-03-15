@@ -32,18 +32,6 @@
     "method": "get"
   },
   {
-    "queryId": "people_discovery/profile_follow",
-    "method": "get"
-  },
-  {
-    "queryId": "onboarding/bounce",
-    "method": "post"
-  },
-  {
-    "queryId": "collections/entries",
-    "method": "get"
-  },
-  {
     "queryId": "mutes/conversations/create",
     "method": "post"
   },
@@ -113,6 +101,26 @@
   },
   {
     "queryId": "users/lookup",
+    "method": "get"
+  },
+  {
+    "queryId": "branch_session",
+    "method": "get"
+  },
+  {
+    "queryId": "branch_session_first",
+    "method": "get"
+  },
+  {
+    "queryId": "people_discovery/profile_follow",
+    "method": "get"
+  },
+  {
+    "queryId": "onboarding/bounce",
+    "method": "post"
+  },
+  {
+    "queryId": "collections/entries",
     "method": "get"
   },
   {
@@ -489,14 +497,6 @@
   },
   {
     "queryId": "account/user_twitter_data",
-    "method": "get"
-  },
-  {
-    "queryId": "branch_session",
-    "method": "get"
-  },
-  {
-    "queryId": "branch_session_first",
     "method": "get"
   }
 ]
