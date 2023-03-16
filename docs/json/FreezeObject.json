@@ -143,7 +143,7 @@
     "AudioModule": "AudioModule"
   },
   {
-    "...qc": "_",
+    "...au": "_",
     "ColumnFromPath": "ColumnFromPath",
     "ColumnTimelineAdapter": "ColumnTimelineAdapter"
   },
@@ -814,7 +814,8 @@
     "Tweet": "status",
     "User": "user",
     "AppealSuspension": "appealsuspension",
-    "VfAppealTweet": "vfappealtweet"
+    "LimitedDiscoveryAppealTweet": "limiteddiscoveryappealtweet",
+    "ProfileOnlyDiscoveryAppealTweet": "profileonlydiscoveryappealtweet"
   },
   {
     "Hidden": "hidden",
@@ -1721,7 +1722,6 @@
     "isDMDrawer": "!1",
     "isEditTweetConsumptionEnabled": "!1",
     "isVibeTweetConsumptionEnabled": "!1",
-    "misinfoLabelRevampTweaksEnabled": "!1",
     "mixedMediaEnabled": "!1",
     "nonSafariShouldUseCardCarouselV2": "!1",
     "onMediaHashtagHighlightClick": "void 0",
@@ -1735,7 +1735,6 @@
     "socialContextRefreshEnabled": "!1",
     "trustedFriendsInfo": "void 0",
     "isCarouselItem": "!1",
-    "isCollaborativeTweetConsumptionEnabled": "!1",
     "followButtonAtBottomOfPromotedUserCard": "!1",
     "tweetMediaItemImmersiveViewerEntryPoint": "void 0",
     "withVodTweetDetailAttribution": "!1",
@@ -1797,36 +1796,6 @@
     "circle-svg": "circle-svg",
     "circle-shape-func": "circle-shape-func",
     "circle-shape-func-crop": "circle-shape-func-crop"
-  },
-  {
-    "Bird": "Bird",
-    "Community": "Community",
-    "Conversation": "Conversation",
-    "Facepile": "Facepile",
-    "Feedback": "Feedback",
-    "Follow": "Follow",
-    "FollowFollowed": "FollowFollowed",
-    "FollowFollowing": "FollowFollowing",
-    "FollowMutual": "FollowMutual",
-    "Like": "Like",
-    "List": "List",
-    "Location": "Location",
-    "Megaphone": "Megaphone",
-    "Moment": "Moment",
-    "NewTweets": "NewTweets",
-    "NewUser": "NewUser",
-    "Pin": "Pin",
-    "Reply": "Reply",
-    "RelatedTweets": "RelatedTweets",
-    "ReplyPin": "ReplyPin",
-    "Retweet": "Retweet",
-    "SmartBlockExpiration": "SmartBlockExpiration",
-    "SocialProof": "SocialProof",
-    "Spaces": "Spaces",
-    "Sparkle": "Sparkle",
-    "TextOnly": "TextOnly",
-    "Topic": "Topic",
-    "Trending": "Trending"
   },
   {
     "CASHTAG": "cashtag",
@@ -2195,239 +2164,6 @@
     "FAILED": "4"
   },
   {
-    "SINGLE_TWEET": "off",
-    "FIRST_TWEET": "first",
-    "SUBSEQUENT_TWEET": "subsequent"
-  },
-  {
-    "ja": "!0",
-    "zh-cn": "!0",
-    "zh-tw": "!0",
-    "ko": "!0"
-  },
-  {
-    "SINGLE_TWEET": "off",
-    "FIRST_TWEET": "first",
-    "SUBSEQUENT_TWEET": "subsequent"
-  },
-  {
-    "ja": "!0",
-    "zh-cn": "!0",
-    "zh-tw": "!0",
-    "ko": "!0"
-  },
-  {
-    "GROUP": "GroupDm",
-    "ONE_TO_ONE": "OneToOneDm",
-    "UNKNOWN": "Unknown"
-  },
-  {
-    "MessageCreate": "r.Cr.MESSAGE",
-    "ParticipantsJoin": "r.Cr.PARTICIPANTS_JOIN",
-    "ParticipantsLeave": "r.Cr.PARTICIPANTS_LEAVE",
-    "ConversationNameUpdate": "r.Cr.CONVERSATION_NAME_UPDATE",
-    "JoinConversation": "r.Cr.JOIN_CONVERSATION"
-  },
-  {
-    "ONE_TO_ONE": "ONE_TO_ONE",
-    "GROUP": "GROUP_DM"
-  },
-  {
-    "AT_END": "AT_END",
-    "HAS_MORE": "HAS_MORE"
-  },
-  {
-    "CONVERSATION_AVATAR_UPDATE": "conversation_avatar_update",
-    "CONVERSATION_NAME_UPDATE": "conversation_name_update",
-    "CONVERSATION_PROFILE_INFO_HEADER": "conversation_profile_info_header",
-    "CONVERSATION_READ": "conversation_read",
-    "CONVO_METADATA_UPDATE": "convo_metadata_update",
-    "DELEGATE_ALERT_BANNER": "delegate_alert_banner",
-    "DISABLE_NOTIFICATIONS": "disable_notifications",
-    "ENABLE_NOTIFICATIONS": "enable_notifications",
-    "JOIN_CONVERSATION": "join_conversation",
-    "LOADING_INDICATOR": "loading_indicator",
-    "MARK_ALL_AS_READ": "mark_all_as_read",
-    "MENTION_NOTIFICATIONS_UPDATE": "mention_notifications_setting_update",
-    "MESSAGE": "message",
-    "MESSAGE_DELETE": "message_delete",
-    "MESSAGE_MARK_AS_NOT_SPAM": "message_unmark_as_spam",
-    "MESSAGE_MARK_AS_SPAM": "message_mark_as_spam",
-    "NEW_MESSAGES_DIVIDER": "new_messages_divider",
-    "PARTICIPANTS_JOIN": "participants_join",
-    "PARTICIPANTS_LEAVE": "participants_leave",
-    "REACTION_CREATE": "reaction_create",
-    "REACTION_DELETE": "reaction_delete",
-    "READ_ONLY_INDICATOR": "read_only_indicator",
-    "REMOVE_CONVERSATION": "remove_conversation",
-    "TRUST_CONVERSATION": "trust_conversation",
-    "TYPING_INDICATOR": "typing_indicator",
-    "WELCOME_MESSAGE": "welcome_message_create"
-  },
-  {
-    "MUTUAL_FRIENDS": "mutual_friends"
-  },
-  {
-    "SINGLE_TWEET": "off",
-    "FIRST_TWEET": "first",
-    "SUBSEQUENT_TWEET": "subsequent"
-  },
-  {
-    "ja": "!0",
-    "zh-cn": "!0",
-    "zh-tw": "!0",
-    "ko": "!0"
-  },
-  {
-    "List": "List",
-    "ListTile": "ListTile",
-    "ListWithPin": "ListWithPin",
-    "ListWithSubscribe": "ListWithSubscribe"
-  },
-  {
-    "Creation": "list_creation",
-    "Edit": "list_edit"
-  },
-  {
-    "SINGLE_TWEET": "off",
-    "FIRST_TWEET": "first",
-    "SUBSEQUENT_TWEET": "subsequent"
-  },
-  {
-    "ja": "!0",
-    "zh-cn": "!0",
-    "zh-tw": "!0",
-    "ko": "!0"
-  },
-  {
-    "None": "None",
-    "Nudge": "Nudge",
-    "Prompt": "Prompt",
-    "Require": "Require"
-  },
-  {
-    "Enabled": "Enabled",
-    "None": "None"
-  },
-  {
-    "Hmm": "Hmm",
-    "Sad": "Sad",
-    "Haha": "Haha",
-    "Cheer": "Cheer",
-    "Like": "Like"
-  },
-  {
-    "SINGLE_TWEET": "off",
-    "FIRST_TWEET": "first",
-    "SUBSEQUENT_TWEET": "subsequent"
-  },
-  {
-    "ja": "!0",
-    "zh-cn": "!0",
-    "zh-tw": "!0",
-    "ko": "!0"
-  },
-  {
-    "SINGLE_TWEET": "off",
-    "FIRST_TWEET": "first",
-    "SUBSEQUENT_TWEET": "subsequent"
-  },
-  {
-    "ja": "!0",
-    "zh-cn": "!0",
-    "zh-tw": "!0",
-    "ko": "!0"
-  },
-  {
-    "SINGLE_TWEET": "off",
-    "FIRST_TWEET": "first",
-    "SUBSEQUENT_TWEET": "subsequent"
-  },
-  {
-    "GROUP": "GroupDm",
-    "ONE_TO_ONE": "OneToOneDm",
-    "UNKNOWN": "Unknown"
-  },
-  {
-    "MessageCreate": "a.Cr.MESSAGE",
-    "ParticipantsJoin": "a.Cr.PARTICIPANTS_JOIN",
-    "ParticipantsLeave": "a.Cr.PARTICIPANTS_LEAVE",
-    "ConversationNameUpdate": "a.Cr.CONVERSATION_NAME_UPDATE",
-    "JoinConversation": "a.Cr.JOIN_CONVERSATION"
-  },
-  {
-    "None": "None",
-    "Nudge": "Nudge",
-    "Prompt": "Prompt",
-    "Require": "Require"
-  },
-  {
-    "Enabled": "Enabled",
-    "None": "None"
-  },
-  {
-    "ja": "!0",
-    "zh-cn": "!0",
-    "zh-tw": "!0",
-    "ko": "!0"
-  },
-  {
-    "List": "List",
-    "ListTile": "ListTile",
-    "ListWithPin": "ListWithPin",
-    "ListWithSubscribe": "ListWithSubscribe"
-  },
-  {
-    "Creation": "list_creation",
-    "Edit": "list_edit"
-  },
-  {
-    "ONE_TO_ONE": "ONE_TO_ONE",
-    "GROUP": "GROUP_DM"
-  },
-  {
-    "AT_END": "AT_END",
-    "HAS_MORE": "HAS_MORE"
-  },
-  {
-    "CONVERSATION_AVATAR_UPDATE": "conversation_avatar_update",
-    "CONVERSATION_NAME_UPDATE": "conversation_name_update",
-    "CONVERSATION_PROFILE_INFO_HEADER": "conversation_profile_info_header",
-    "CONVERSATION_READ": "conversation_read",
-    "CONVO_METADATA_UPDATE": "convo_metadata_update",
-    "DELEGATE_ALERT_BANNER": "delegate_alert_banner",
-    "DISABLE_NOTIFICATIONS": "disable_notifications",
-    "ENABLE_NOTIFICATIONS": "enable_notifications",
-    "JOIN_CONVERSATION": "join_conversation",
-    "LOADING_INDICATOR": "loading_indicator",
-    "MARK_ALL_AS_READ": "mark_all_as_read",
-    "MENTION_NOTIFICATIONS_UPDATE": "mention_notifications_setting_update",
-    "MESSAGE": "message",
-    "MESSAGE_DELETE": "message_delete",
-    "MESSAGE_MARK_AS_NOT_SPAM": "message_unmark_as_spam",
-    "MESSAGE_MARK_AS_SPAM": "message_mark_as_spam",
-    "NEW_MESSAGES_DIVIDER": "new_messages_divider",
-    "PARTICIPANTS_JOIN": "participants_join",
-    "PARTICIPANTS_LEAVE": "participants_leave",
-    "REACTION_CREATE": "reaction_create",
-    "REACTION_DELETE": "reaction_delete",
-    "READ_ONLY_INDICATOR": "read_only_indicator",
-    "REMOVE_CONVERSATION": "remove_conversation",
-    "TRUST_CONVERSATION": "trust_conversation",
-    "TYPING_INDICATOR": "typing_indicator",
-    "WELCOME_MESSAGE": "welcome_message_create"
-  },
-  {
-    "MUTUAL_FRIENDS": "mutual_friends"
-  },
-  {
-    "Hmm": "Hmm",
-    "Sad": "Sad",
-    "Haha": "Haha",
-    "Cheer": "Cheer",
-    "Like": "Like"
-  },
-  {
     "live": {
       "backgroundColor": "magenta500",
       "bold": "!0",
@@ -2452,9 +2188,9 @@
       "bold": "!0",
       "fontSize": "subtext3"
     },
-    "alt": "x",
-    "gif": "x",
-    "hd": "x",
+    "alt": "S",
+    "gif": "S",
+    "hd": "S",
     "likedByAuthor": {
       "backgroundColor": "gray50",
       "bold": "!1",
@@ -2469,7 +2205,7 @@
   },
   {
     "superFollower": {
-      "graphic": "b.default",
+      "graphic": "g.default",
       "headline": "m().ca80fe70",
       "subtext": "m().c4183c30",
       "actionLabel": "m().g7099a02",
@@ -2479,7 +2215,7 @@
   },
   {
     "superFollower": {
-      "graphic": "b.default",
+      "graphic": "g.default",
       "headline": "m().e453f536",
       "subtext": "m().dea63fc4",
       "actionLabel": "m().g7099a02",
@@ -2547,6 +2283,36 @@
   {
     "CashtagClick": "cashtag_click",
     "HashtagClick": "hashtag_click"
+  },
+  {
+    "Bird": "Bird",
+    "Community": "Community",
+    "Conversation": "Conversation",
+    "Facepile": "Facepile",
+    "Feedback": "Feedback",
+    "Follow": "Follow",
+    "FollowFollowed": "FollowFollowed",
+    "FollowFollowing": "FollowFollowing",
+    "FollowMutual": "FollowMutual",
+    "Like": "Like",
+    "List": "List",
+    "Location": "Location",
+    "Megaphone": "Megaphone",
+    "Moment": "Moment",
+    "NewTweets": "NewTweets",
+    "NewUser": "NewUser",
+    "Pin": "Pin",
+    "Reply": "Reply",
+    "RelatedTweets": "RelatedTweets",
+    "ReplyPin": "ReplyPin",
+    "Retweet": "Retweet",
+    "SmartBlockExpiration": "SmartBlockExpiration",
+    "SocialProof": "SocialProof",
+    "Spaces": "Spaces",
+    "Sparkle": "Sparkle",
+    "TextOnly": "TextOnly",
+    "Topic": "Topic",
+    "Trending": "Trending"
   },
   {
     "x": "x",
@@ -3393,6 +3159,36 @@
     "prep": "prep"
   },
   {
+    "Bird": "Bird",
+    "Community": "Community",
+    "Conversation": "Conversation",
+    "Facepile": "Facepile",
+    "Feedback": "Feedback",
+    "Follow": "Follow",
+    "FollowFollowed": "FollowFollowed",
+    "FollowFollowing": "FollowFollowing",
+    "FollowMutual": "FollowMutual",
+    "Like": "Like",
+    "List": "List",
+    "Location": "Location",
+    "Megaphone": "Megaphone",
+    "Moment": "Moment",
+    "NewTweets": "NewTweets",
+    "NewUser": "NewUser",
+    "Pin": "Pin",
+    "Reply": "Reply",
+    "RelatedTweets": "RelatedTweets",
+    "ReplyPin": "ReplyPin",
+    "Retweet": "Retweet",
+    "SmartBlockExpiration": "SmartBlockExpiration",
+    "SocialProof": "SocialProof",
+    "Spaces": "Spaces",
+    "Sparkle": "Sparkle",
+    "TextOnly": "TextOnly",
+    "Topic": "Topic",
+    "Trending": "Trending"
+  },
+  {
     "onlyText": "only-text",
     "iconText": "icon-text"
   },
@@ -3493,6 +3289,36 @@
     "REQUEST": "rweb/savedSearches/DELETE_SAVED_SEARCH_REQUEST",
     "SUCCESS": "rweb/savedSearches/DELETE_SAVED_SEARCH_SUCCESS",
     "FAILURE": "rweb/savedSearches/DELETE_SAVED_SEARCH_FAILURE"
+  },
+  {
+    "Bird": "Bird",
+    "Community": "Community",
+    "Conversation": "Conversation",
+    "Facepile": "Facepile",
+    "Feedback": "Feedback",
+    "Follow": "Follow",
+    "FollowFollowed": "FollowFollowed",
+    "FollowFollowing": "FollowFollowing",
+    "FollowMutual": "FollowMutual",
+    "Like": "Like",
+    "List": "List",
+    "Location": "Location",
+    "Megaphone": "Megaphone",
+    "Moment": "Moment",
+    "NewTweets": "NewTweets",
+    "NewUser": "NewUser",
+    "Pin": "Pin",
+    "Reply": "Reply",
+    "RelatedTweets": "RelatedTweets",
+    "ReplyPin": "ReplyPin",
+    "Retweet": "Retweet",
+    "SmartBlockExpiration": "SmartBlockExpiration",
+    "SocialProof": "SocialProof",
+    "Spaces": "Spaces",
+    "Sparkle": "Sparkle",
+    "TextOnly": "TextOnly",
+    "Topic": "Topic",
+    "Trending": "Trending"
   },
   {
     "permissionStatus": "void 0",
@@ -3801,6 +3627,66 @@
     "password": "password",
     "username": "username_or_email"
   },
+  {
+    "Bird": "Bird",
+    "Community": "Community",
+    "Conversation": "Conversation",
+    "Facepile": "Facepile",
+    "Feedback": "Feedback",
+    "Follow": "Follow",
+    "FollowFollowed": "FollowFollowed",
+    "FollowFollowing": "FollowFollowing",
+    "FollowMutual": "FollowMutual",
+    "Like": "Like",
+    "List": "List",
+    "Location": "Location",
+    "Megaphone": "Megaphone",
+    "Moment": "Moment",
+    "NewTweets": "NewTweets",
+    "NewUser": "NewUser",
+    "Pin": "Pin",
+    "Reply": "Reply",
+    "RelatedTweets": "RelatedTweets",
+    "ReplyPin": "ReplyPin",
+    "Retweet": "Retweet",
+    "SmartBlockExpiration": "SmartBlockExpiration",
+    "SocialProof": "SocialProof",
+    "Spaces": "Spaces",
+    "Sparkle": "Sparkle",
+    "TextOnly": "TextOnly",
+    "Topic": "Topic",
+    "Trending": "Trending"
+  },
+  {
+    "Bird": "Bird",
+    "Community": "Community",
+    "Conversation": "Conversation",
+    "Facepile": "Facepile",
+    "Feedback": "Feedback",
+    "Follow": "Follow",
+    "FollowFollowed": "FollowFollowed",
+    "FollowFollowing": "FollowFollowing",
+    "FollowMutual": "FollowMutual",
+    "Like": "Like",
+    "List": "List",
+    "Location": "Location",
+    "Megaphone": "Megaphone",
+    "Moment": "Moment",
+    "NewTweets": "NewTweets",
+    "NewUser": "NewUser",
+    "Pin": "Pin",
+    "Reply": "Reply",
+    "RelatedTweets": "RelatedTweets",
+    "ReplyPin": "ReplyPin",
+    "Retweet": "Retweet",
+    "SmartBlockExpiration": "SmartBlockExpiration",
+    "SocialProof": "SocialProof",
+    "Spaces": "Spaces",
+    "Sparkle": "Sparkle",
+    "TextOnly": "TextOnly",
+    "Topic": "Topic",
+    "Trending": "Trending"
+  },
   "{[H.v.FOLLOWS]:\"X\",[H.v.FRIENDS_OF_FRIENDS]:\"U\"}",
   {
     "START": "start",
@@ -3871,15 +3757,6 @@
   },
   {
     "TopicFilled": "TOPIC_FILLED"
-  },
-  {
-    "Notes": "Notes",
-    "Ratings": "Ratings"
-  },
-  {
-    "Positive": "Positive",
-    "Negative": "Negative",
-    "Neutral": "Neutral"
   },
   {
     "REQUEST": "rweb/birdwatchNotes/FETCH_DATA_REQUEST",
@@ -3965,6 +3842,15 @@
     "Other": "Other"
   },
   {
+    "Notes": "Notes",
+    "Ratings": "Ratings"
+  },
+  {
+    "Positive": "Positive",
+    "Negative": "Negative",
+    "Neutral": "Neutral"
+  },
+  {
     "Hidden": "Hidden",
     "Ratings": "Rating",
     "Note": "Note"
@@ -3975,11 +3861,11 @@
     },
     "openSuccessful": {
       "shouldShow": "!0",
-      "badgeType": "x.n.Ratings"
+      "badgeType": "I.Ratings"
     },
     "openHelpful": {
       "shouldShow": "!0",
-      "badgeType": "x.n.Notes"
+      "badgeType": "I.Notes"
     }
   },
   {
@@ -4019,7 +3905,7 @@
     "Cheer": "Cheer",
     "Like": "Like"
   },
-  "{\"ActionsBar\":\"f.Z\",\"ActionMenu\":\"function()\"{\"Icon\":\"e\",\"isDisabled\":\"t\",\"items\":\"n\",\"onOpen\":\"i\"}{\"const r=o.useCallback()\"{\"items\":\"n\",\"onCloseRequested\":\"e\"}{\"Icon\":\"e\",\"isDisabled\":\"t\",\"onClick\":\"i\",\"renderActionMenu\":\"r\"}},\"CallToAction\":\"a.ZP\",\"EditCallout\":\"C.Z\",\"Education\":\"E.Z\",\"HighlightedUserLabel\":\"c.Z\",\"Media\":\"_.Z\",\"Place\":\"r.ZP\",\"PromotedDetails\":\"u.Z\",\"PromotedUserProfileCard\":\"x\",\"ReplyContext\":\"P.ZP\",\"RichContent\":\"L.Z\",\"SocialContext\":\"b.Z\",\"Text\":\"A.Z\",\"Tombstone\":\"w.Z\",\"Timestamp\":\"p.Z\",\"UserAvatar\":\"D.Z\",\"UserFollowIndicator\":\"F.Z\",\"UserName\":\"M.Z\",\"VibePill\":\"U.Z\"}",
+  "{\"ActionsBar\":\"f.Z\",\"ActionMenu\":\"function()\"{\"Icon\":\"e\",\"isDisabled\":\"t\",\"items\":\"n\",\"onOpen\":\"i\"}{\"const r=o.useCallback()\"{\"items\":\"n\",\"onCloseRequested\":\"e\"}{\"Icon\":\"e\",\"isDisabled\":\"t\",\"onClick\":\"i\",\"renderActionMenu\":\"r\"}},\"CallToAction\":\"a.ZP\",\"EditCallout\":\"C.Z\",\"Education\":\"E.Z\",\"HighlightedUserLabel\":\"c.Z\",\"Media\":\"Z.Z\",\"Place\":\"r.ZP\",\"PromotedDetails\":\"u.Z\",\"PromotedUserProfileCard\":\"x\",\"ReplyContext\":\"P.ZP\",\"RichContent\":\"L.Z\",\"SocialContext\":\"b.Z\",\"Text\":\"A.Z\",\"Tombstone\":\"w.Z\",\"Timestamp\":\"p.Z\",\"UserAvatar\":\"D.Z\",\"UserFollowIndicator\":\"F.Z\",\"UserName\":\"M.Z\",\"VibePill\":\"H.Z\"}",
   {
     "private": "private",
     "public": "public",
@@ -4189,6 +4075,14 @@
     "prep": "prep"
   },
   {
+    "MUTABLE": "MUTABLE",
+    "IMMUTABLE": "IMMUTABLE",
+    "SEGMENTED": "SEGMENTED"
+  },
+  {
+    "TWEMOJI": "TWEMOJI"
+  },
+  {
     "REQUEST": "rweb/trustedFriendsLists/FETCH_TRUSTED_FRIENDS_LISTS_REQUEST",
     "SUCCESS": "rweb/trustedFriendsLists/FETCH_TRUSTED_FRIENDS_LISTS_SUCCESS",
     "FAILURE": "rweb/trustedFriendsLists/FETCH_TRUSTED_FRIENDS_LISTS_FAILURE"
@@ -4211,35 +4105,45 @@
   },
   {
     "all": {
-      "icon": "pi",
-      "label": "x().i8ea6d4e"
+      "icon": "wn",
+      "label": "S().i8ea6d4e"
     },
     "community": {
-      "icon": "_i",
-      "label": "x().ec5a4a26"
+      "icon": "bn",
+      "label": "S().ec5a4a26"
     },
     "by_invitation": {
-      "icon": "gi",
-      "label": "x().b454300a"
+      "icon": "Tn",
+      "label": "S().b454300a"
     },
     "community_members": {
-      "icon": "yi",
-      "label": "x().i13be5a0"
+      "icon": "Cn",
+      "label": "S().i13be5a0"
     },
     "super_followers_exclusive": {
-      "icon": "pi",
-      "label": "x().feb7560a"
+      "icon": "wn",
+      "label": "S().feb7560a"
     },
     "trusted_friends_tweet": {
-      "icon": "Ti",
-      "label": "u"
+      "icon": "vn",
+      "label": "d"
     }
   },
-  "{[pa.Original]:\"OriginalTweet\",[pa.Quote]:\"QuoteTweet\",[pa.Reply]:\"Reply\",[pa.Thread]:\"Retweet\"}",
+  "{[Ua.Original]:\"OriginalTweet\",[Ua.Quote]:\"QuoteTweet\",[Ua.Reply]:\"Reply\",[Ua.Thread]:\"Retweet\"}",
   {
     "in": "in",
     "out": "out",
     "static": "static"
+  },
+  {
+    "reset": {
+      "_type": "reset",
+      "type": "reset"
+    },
+    "set": {
+      "_type": "set",
+      "type": "set"
+    }
   },
   {
     "Original": "original",
@@ -4247,13 +4151,13 @@
     "Quote": "quote",
     "Thread": "thread"
   },
-  "{[pa.Original]:\"original_tweet\",[pa.Quote]:\"quote_tweet\",[pa.Reply]:\"reply\"}",
+  "{[Ua.Original]:\"original_tweet\",[Ua.Quote]:\"quote_tweet\",[Ua.Reply]:\"reply\"}",
   {
     "LOCAL_STATE_LOADED": "rweb/editTweet/LOCAL_STATE_LOADED",
     "LOCAL_STATE_REQUEST": "rweb/editTweet/LOCAL_STATE_REQUEST"
   },
   {
-    "fetchStatus": "to.ZP.NONE",
+    "fetchStatus": "Uo.ZP.NONE",
     "editTweetLimitedMarketPromptDismissedEpochMilliseconds": "0"
   },
   {
@@ -4484,7 +4388,7 @@
     "Cheer": "Cheer",
     "Like": "Like"
   },
-  "{\"ActionsBar\":\"b.Z\",\"ActionMenu\":\"function()\"{\"Icon\":\"e\",\"isDisabled\":\"t\",\"items\":\"n\",\"onOpen\":\"i\"}{\"const o=r.useCallback()\"{\"items\":\"n\",\"onCloseRequested\":\"e\"}{\"Icon\":\"e\",\"isDisabled\":\"t\",\"onClick\":\"i\",\"renderActionMenu\":\"o\"}},\"CallToAction\":\"a.ZP\",\"EditCallout\":\"y.Z\",\"Education\":\"T.Z\",\"HighlightedUserLabel\":\"c.Z\",\"Media\":\"C.Z\",\"Place\":\"o.ZP\",\"PromotedDetails\":\"u.Z\",\"PromotedUserProfileCard\":\"k\",\"ReplyContext\":\"D.ZP\",\"RichContent\":\"P.Z\",\"SocialContext\":\"h.Z\",\"Text\":\"L.Z\",\"Tombstone\":\"w.Z\",\"Timestamp\":\"p.Z\",\"UserAvatar\":\"A.Z\",\"UserFollowIndicator\":\"M.Z\",\"UserName\":\"R.Z\",\"VibePill\":\"U.Z\"}",
+  "{\"ActionsBar\":\"y.Z\",\"ActionMenu\":\"function()\"{\"Icon\":\"e\",\"isDisabled\":\"t\",\"items\":\"n\",\"onOpen\":\"i\"}{\"const o=r.useCallback()\"{\"items\":\"n\",\"onCloseRequested\":\"e\"}{\"Icon\":\"e\",\"isDisabled\":\"t\",\"onClick\":\"i\",\"renderActionMenu\":\"o\"}},\"CallToAction\":\"a.ZP\",\"EditCallout\":\"b.Z\",\"Education\":\"T.Z\",\"HighlightedUserLabel\":\"c.Z\",\"Media\":\"C.Z\",\"Place\":\"o.ZP\",\"PromotedDetails\":\"u.Z\",\"PromotedUserProfileCard\":\"k\",\"ReplyContext\":\"D.ZP\",\"RichContent\":\"P.Z\",\"SocialContext\":\"h.Z\",\"Text\":\"L.Z\",\"Tombstone\":\"w.Z\",\"Timestamp\":\"p.Z\",\"UserAvatar\":\"A.Z\",\"UserFollowIndicator\":\"M.Z\",\"UserName\":\"R.Z\",\"VibePill\":\"U.Z\"}",
   {
     "REQUEST": "rweb/promotedContent/LOG_REQUEST",
     "SUCCESS": "rweb/promotedContent/LOG_SUCCESS",
@@ -4526,10 +4430,10 @@
   },
   {
     "DELEGATE_ERR_002": "z",
-    "DELEGATE_ERR_003": "H",
-    "DELEGATE_ERR_004": "U",
+    "DELEGATE_ERR_003": "U",
+    "DELEGATE_ERR_004": "H",
     "DELEGATE_ERR_005": "V",
-    "DELEGATE_ERR_006": "G"
+    "DELEGATE_ERR_006": "B"
   },
   {
     "memberSelection": "MemberSelection",
@@ -4563,6 +4467,36 @@
     "ActionMenu": "ActionMenu",
     "InviteMenu": "InviteMenu",
     "NotificationCount": "NotificationCount"
+  },
+  {
+    "Bird": "Bird",
+    "Community": "Community",
+    "Conversation": "Conversation",
+    "Facepile": "Facepile",
+    "Feedback": "Feedback",
+    "Follow": "Follow",
+    "FollowFollowed": "FollowFollowed",
+    "FollowFollowing": "FollowFollowing",
+    "FollowMutual": "FollowMutual",
+    "Like": "Like",
+    "List": "List",
+    "Location": "Location",
+    "Megaphone": "Megaphone",
+    "Moment": "Moment",
+    "NewTweets": "NewTweets",
+    "NewUser": "NewUser",
+    "Pin": "Pin",
+    "Reply": "Reply",
+    "RelatedTweets": "RelatedTweets",
+    "ReplyPin": "ReplyPin",
+    "Retweet": "Retweet",
+    "SmartBlockExpiration": "SmartBlockExpiration",
+    "SocialProof": "SocialProof",
+    "Spaces": "Spaces",
+    "Sparkle": "Sparkle",
+    "TextOnly": "TextOnly",
+    "Topic": "Topic",
+    "Trending": "Trending"
   },
   {
     "START": "start",
@@ -5523,8 +5457,39 @@
     "FAILURE": "rweb/oAuthConsent/POST_CONSENT_FAILURE"
   },
   {
+    "Bird": "Bird",
+    "Community": "Community",
+    "Conversation": "Conversation",
+    "Facepile": "Facepile",
+    "Feedback": "Feedback",
+    "Follow": "Follow",
+    "FollowFollowed": "FollowFollowed",
+    "FollowFollowing": "FollowFollowing",
+    "FollowMutual": "FollowMutual",
+    "Like": "Like",
+    "List": "List",
+    "Location": "Location",
+    "Megaphone": "Megaphone",
+    "Moment": "Moment",
+    "NewTweets": "NewTweets",
+    "NewUser": "NewUser",
+    "Pin": "Pin",
+    "Reply": "Reply",
+    "RelatedTweets": "RelatedTweets",
+    "ReplyPin": "ReplyPin",
+    "Retweet": "Retweet",
+    "SmartBlockExpiration": "SmartBlockExpiration",
+    "SocialProof": "SocialProof",
+    "Spaces": "Spaces",
+    "Sparkle": "Sparkle",
+    "TextOnly": "TextOnly",
+    "Topic": "Topic",
+    "Trending": "Trending"
+  },
+  {
     "AppealTweetWarning": "appealtweet",
-    "VfAppealTweet": "vfappealtweet",
+    "LimitedDiscoveryAppealTweet": "limiteddiscoveryappealtweet",
+    "ProfileOnlyDiscoveryAppealTweet": "profileonlydiscoveryappealtweet",
     "DMConversation": "reportdmconversation",
     "DMMessage": "reportdmconversation",
     "HideCommunityTweet": "hidetweet",
@@ -5688,7 +5653,8 @@
   },
   {
     "AppealTweetWarning": "appealtweet",
-    "VfAppealTweet": "vfappealtweet",
+    "LimitedDiscoveryAppealTweet": "limiteddiscoveryappealtweet",
+    "ProfileOnlyDiscoveryAppealTweet": "profileonlydiscoveryappealtweet",
     "DMConversation": "reportdmconversation",
     "DMMessage": "reportdmconversation",
     "HideCommunityTweet": "hidetweet",
@@ -5717,7 +5683,7 @@
     "Cheer": "Cheer",
     "Like": "Like"
   },
-  "{\"ActionsBar\":\"f.Z\",\"ActionMenu\":\"function()\"{\"Icon\":\"e\",\"isDisabled\":\"t\",\"items\":\"n\",\"onOpen\":\"i\"}{\"const o=r.useCallback()\"{\"items\":\"n\",\"onCloseRequested\":\"e\"}{\"Icon\":\"e\",\"isDisabled\":\"t\",\"onClick\":\"i\",\"renderActionMenu\":\"o\"}},\"CallToAction\":\"a.ZP\",\"EditCallout\":\"C.Z\",\"Education\":\"E.Z\",\"HighlightedUserLabel\":\"c.Z\",\"Media\":\"k.Z\",\"Place\":\"o.ZP\",\"PromotedDetails\":\"u.Z\",\"PromotedUserProfileCard\":\"x\",\"ReplyContext\":\"L.ZP\",\"RichContent\":\"P.Z\",\"SocialContext\":\"y.Z\",\"Text\":\"A.Z\",\"Tombstone\":\"b.Z\",\"Timestamp\":\"p.Z\",\"UserAvatar\":\"D.Z\",\"UserFollowIndicator\":\"M.Z\",\"UserName\":\"R.Z\",\"VibePill\":\"U.Z\"}",
+  "{\"ActionsBar\":\"f.Z\",\"ActionMenu\":\"function()\"{\"Icon\":\"e\",\"isDisabled\":\"t\",\"items\":\"n\",\"onOpen\":\"i\"}{\"const r=o.useCallback()\"{\"items\":\"n\",\"onCloseRequested\":\"e\"}{\"Icon\":\"e\",\"isDisabled\":\"t\",\"onClick\":\"i\",\"renderActionMenu\":\"r\"}},\"CallToAction\":\"a.ZP\",\"EditCallout\":\"C.Z\",\"Education\":\"E.Z\",\"HighlightedUserLabel\":\"c.Z\",\"Media\":\"k.Z\",\"Place\":\"r.ZP\",\"PromotedDetails\":\"u.Z\",\"PromotedUserProfileCard\":\"x\",\"ReplyContext\":\"L.ZP\",\"RichContent\":\"P.Z\",\"SocialContext\":\"y.Z\",\"Text\":\"A.Z\",\"Tombstone\":\"b.Z\",\"Timestamp\":\"p.Z\",\"UserAvatar\":\"D.Z\",\"UserFollowIndicator\":\"M.Z\",\"UserName\":\"R.Z\",\"VibePill\":\"U.Z\"}",
   {
     "original": "original",
     "banner": "banner",
@@ -6204,8 +6170,8 @@
     "SET_CONFIG": "rweb/verifiedOrgConfig/SET"
   },
   {
-    "fetchStatus": "p.ZP.NONE",
-    "config": "xe"
+    "fetchStatus": "y.ZP.NONE",
+    "config": "ze"
   },
   {
     "normal": "100",
@@ -6232,6 +6198,239 @@
   },
   {
     "search": "search"
+  },
+  {
+    "SINGLE_TWEET": "off",
+    "FIRST_TWEET": "first",
+    "SUBSEQUENT_TWEET": "subsequent"
+  },
+  {
+    "ja": "!0",
+    "zh-cn": "!0",
+    "zh-tw": "!0",
+    "ko": "!0"
+  },
+  {
+    "SINGLE_TWEET": "off",
+    "FIRST_TWEET": "first",
+    "SUBSEQUENT_TWEET": "subsequent"
+  },
+  {
+    "ja": "!0",
+    "zh-cn": "!0",
+    "zh-tw": "!0",
+    "ko": "!0"
+  },
+  {
+    "GROUP": "GroupDm",
+    "ONE_TO_ONE": "OneToOneDm",
+    "UNKNOWN": "Unknown"
+  },
+  {
+    "MessageCreate": "r.Cr.MESSAGE",
+    "ParticipantsJoin": "r.Cr.PARTICIPANTS_JOIN",
+    "ParticipantsLeave": "r.Cr.PARTICIPANTS_LEAVE",
+    "ConversationNameUpdate": "r.Cr.CONVERSATION_NAME_UPDATE",
+    "JoinConversation": "r.Cr.JOIN_CONVERSATION"
+  },
+  {
+    "ONE_TO_ONE": "ONE_TO_ONE",
+    "GROUP": "GROUP_DM"
+  },
+  {
+    "AT_END": "AT_END",
+    "HAS_MORE": "HAS_MORE"
+  },
+  {
+    "CONVERSATION_AVATAR_UPDATE": "conversation_avatar_update",
+    "CONVERSATION_NAME_UPDATE": "conversation_name_update",
+    "CONVERSATION_PROFILE_INFO_HEADER": "conversation_profile_info_header",
+    "CONVERSATION_READ": "conversation_read",
+    "CONVO_METADATA_UPDATE": "convo_metadata_update",
+    "DELEGATE_ALERT_BANNER": "delegate_alert_banner",
+    "DISABLE_NOTIFICATIONS": "disable_notifications",
+    "ENABLE_NOTIFICATIONS": "enable_notifications",
+    "JOIN_CONVERSATION": "join_conversation",
+    "LOADING_INDICATOR": "loading_indicator",
+    "MARK_ALL_AS_READ": "mark_all_as_read",
+    "MENTION_NOTIFICATIONS_UPDATE": "mention_notifications_setting_update",
+    "MESSAGE": "message",
+    "MESSAGE_DELETE": "message_delete",
+    "MESSAGE_MARK_AS_NOT_SPAM": "message_unmark_as_spam",
+    "MESSAGE_MARK_AS_SPAM": "message_mark_as_spam",
+    "NEW_MESSAGES_DIVIDER": "new_messages_divider",
+    "PARTICIPANTS_JOIN": "participants_join",
+    "PARTICIPANTS_LEAVE": "participants_leave",
+    "REACTION_CREATE": "reaction_create",
+    "REACTION_DELETE": "reaction_delete",
+    "READ_ONLY_INDICATOR": "read_only_indicator",
+    "REMOVE_CONVERSATION": "remove_conversation",
+    "TRUST_CONVERSATION": "trust_conversation",
+    "TYPING_INDICATOR": "typing_indicator",
+    "WELCOME_MESSAGE": "welcome_message_create"
+  },
+  {
+    "MUTUAL_FRIENDS": "mutual_friends"
+  },
+  {
+    "SINGLE_TWEET": "off",
+    "FIRST_TWEET": "first",
+    "SUBSEQUENT_TWEET": "subsequent"
+  },
+  {
+    "ja": "!0",
+    "zh-cn": "!0",
+    "zh-tw": "!0",
+    "ko": "!0"
+  },
+  {
+    "List": "List",
+    "ListTile": "ListTile",
+    "ListWithPin": "ListWithPin",
+    "ListWithSubscribe": "ListWithSubscribe"
+  },
+  {
+    "Creation": "list_creation",
+    "Edit": "list_edit"
+  },
+  {
+    "SINGLE_TWEET": "off",
+    "FIRST_TWEET": "first",
+    "SUBSEQUENT_TWEET": "subsequent"
+  },
+  {
+    "ja": "!0",
+    "zh-cn": "!0",
+    "zh-tw": "!0",
+    "ko": "!0"
+  },
+  {
+    "None": "None",
+    "Nudge": "Nudge",
+    "Prompt": "Prompt",
+    "Require": "Require"
+  },
+  {
+    "Enabled": "Enabled",
+    "None": "None"
+  },
+  {
+    "Hmm": "Hmm",
+    "Sad": "Sad",
+    "Haha": "Haha",
+    "Cheer": "Cheer",
+    "Like": "Like"
+  },
+  {
+    "SINGLE_TWEET": "off",
+    "FIRST_TWEET": "first",
+    "SUBSEQUENT_TWEET": "subsequent"
+  },
+  {
+    "ja": "!0",
+    "zh-cn": "!0",
+    "zh-tw": "!0",
+    "ko": "!0"
+  },
+  {
+    "SINGLE_TWEET": "off",
+    "FIRST_TWEET": "first",
+    "SUBSEQUENT_TWEET": "subsequent"
+  },
+  {
+    "ja": "!0",
+    "zh-cn": "!0",
+    "zh-tw": "!0",
+    "ko": "!0"
+  },
+  {
+    "SINGLE_TWEET": "off",
+    "FIRST_TWEET": "first",
+    "SUBSEQUENT_TWEET": "subsequent"
+  },
+  {
+    "GROUP": "GroupDm",
+    "ONE_TO_ONE": "OneToOneDm",
+    "UNKNOWN": "Unknown"
+  },
+  {
+    "MessageCreate": "a.Cr.MESSAGE",
+    "ParticipantsJoin": "a.Cr.PARTICIPANTS_JOIN",
+    "ParticipantsLeave": "a.Cr.PARTICIPANTS_LEAVE",
+    "ConversationNameUpdate": "a.Cr.CONVERSATION_NAME_UPDATE",
+    "JoinConversation": "a.Cr.JOIN_CONVERSATION"
+  },
+  {
+    "None": "None",
+    "Nudge": "Nudge",
+    "Prompt": "Prompt",
+    "Require": "Require"
+  },
+  {
+    "Enabled": "Enabled",
+    "None": "None"
+  },
+  {
+    "ja": "!0",
+    "zh-cn": "!0",
+    "zh-tw": "!0",
+    "ko": "!0"
+  },
+  {
+    "List": "List",
+    "ListTile": "ListTile",
+    "ListWithPin": "ListWithPin",
+    "ListWithSubscribe": "ListWithSubscribe"
+  },
+  {
+    "Creation": "list_creation",
+    "Edit": "list_edit"
+  },
+  {
+    "ONE_TO_ONE": "ONE_TO_ONE",
+    "GROUP": "GROUP_DM"
+  },
+  {
+    "AT_END": "AT_END",
+    "HAS_MORE": "HAS_MORE"
+  },
+  {
+    "CONVERSATION_AVATAR_UPDATE": "conversation_avatar_update",
+    "CONVERSATION_NAME_UPDATE": "conversation_name_update",
+    "CONVERSATION_PROFILE_INFO_HEADER": "conversation_profile_info_header",
+    "CONVERSATION_READ": "conversation_read",
+    "CONVO_METADATA_UPDATE": "convo_metadata_update",
+    "DELEGATE_ALERT_BANNER": "delegate_alert_banner",
+    "DISABLE_NOTIFICATIONS": "disable_notifications",
+    "ENABLE_NOTIFICATIONS": "enable_notifications",
+    "JOIN_CONVERSATION": "join_conversation",
+    "LOADING_INDICATOR": "loading_indicator",
+    "MARK_ALL_AS_READ": "mark_all_as_read",
+    "MENTION_NOTIFICATIONS_UPDATE": "mention_notifications_setting_update",
+    "MESSAGE": "message",
+    "MESSAGE_DELETE": "message_delete",
+    "MESSAGE_MARK_AS_NOT_SPAM": "message_unmark_as_spam",
+    "MESSAGE_MARK_AS_SPAM": "message_mark_as_spam",
+    "NEW_MESSAGES_DIVIDER": "new_messages_divider",
+    "PARTICIPANTS_JOIN": "participants_join",
+    "PARTICIPANTS_LEAVE": "participants_leave",
+    "REACTION_CREATE": "reaction_create",
+    "REACTION_DELETE": "reaction_delete",
+    "READ_ONLY_INDICATOR": "read_only_indicator",
+    "REMOVE_CONVERSATION": "remove_conversation",
+    "TRUST_CONVERSATION": "trust_conversation",
+    "TYPING_INDICATOR": "typing_indicator",
+    "WELCOME_MESSAGE": "welcome_message_create"
+  },
+  {
+    "MUTUAL_FRIENDS": "mutual_friends"
+  },
+  {
+    "Hmm": "Hmm",
+    "Sad": "Sad",
+    "Haha": "Haha",
+    "Cheer": "Cheer",
+    "Like": "Like"
   },
   {
     "DISMISSED": "dismissed",
@@ -6432,6 +6631,36 @@
     "ON_FOLLOW": "onFollow"
   },
   {
+    "Bird": "Bird",
+    "Community": "Community",
+    "Conversation": "Conversation",
+    "Facepile": "Facepile",
+    "Feedback": "Feedback",
+    "Follow": "Follow",
+    "FollowFollowed": "FollowFollowed",
+    "FollowFollowing": "FollowFollowing",
+    "FollowMutual": "FollowMutual",
+    "Like": "Like",
+    "List": "List",
+    "Location": "Location",
+    "Megaphone": "Megaphone",
+    "Moment": "Moment",
+    "NewTweets": "NewTweets",
+    "NewUser": "NewUser",
+    "Pin": "Pin",
+    "Reply": "Reply",
+    "RelatedTweets": "RelatedTweets",
+    "ReplyPin": "ReplyPin",
+    "Retweet": "Retweet",
+    "SmartBlockExpiration": "SmartBlockExpiration",
+    "SocialProof": "SocialProof",
+    "Spaces": "Spaces",
+    "Sparkle": "Sparkle",
+    "TextOnly": "TextOnly",
+    "Topic": "Topic",
+    "Trending": "Trending"
+  },
+  {
     "Compact": "Compact",
     "Normal": "Normal",
     "Large": "Large",
@@ -6549,6 +6778,36 @@
     "PHOTO": "photo",
     "GIF": "animated_gif",
     "TEXT": "text"
+  },
+  {
+    "Bird": "Bird",
+    "Community": "Community",
+    "Conversation": "Conversation",
+    "Facepile": "Facepile",
+    "Feedback": "Feedback",
+    "Follow": "Follow",
+    "FollowFollowed": "FollowFollowed",
+    "FollowFollowing": "FollowFollowing",
+    "FollowMutual": "FollowMutual",
+    "Like": "Like",
+    "List": "List",
+    "Location": "Location",
+    "Megaphone": "Megaphone",
+    "Moment": "Moment",
+    "NewTweets": "NewTweets",
+    "NewUser": "NewUser",
+    "Pin": "Pin",
+    "Reply": "Reply",
+    "RelatedTweets": "RelatedTweets",
+    "ReplyPin": "ReplyPin",
+    "Retweet": "Retweet",
+    "SmartBlockExpiration": "SmartBlockExpiration",
+    "SocialProof": "SocialProof",
+    "Spaces": "Spaces",
+    "Sparkle": "Sparkle",
+    "TextOnly": "TextOnly",
+    "Topic": "Topic",
+    "Trending": "Trending"
   },
   {
     "START": "start",
