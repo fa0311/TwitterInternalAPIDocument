@@ -81,11 +81,6 @@
       "errors": {},
       "fetchStatus": {}
     },
-    "translationsProfiles": {
-      "entities": {},
-      "errors": {},
-      "fetchStatus": {}
-    },
     "emailValidity": {
       "entities": {},
       "errors": {},
@@ -107,6 +102,11 @@
       "fetchStatus": {}
     },
     "phoneNumberValidity": {
+      "entities": {},
+      "errors": {},
+      "fetchStatus": {}
+    },
+    "translationsProfiles": {
       "entities": {},
       "errors": {},
       "fetchStatus": {}
@@ -686,6 +686,9 @@
           "😷:mask"
         ]
       },
+      "dm_secret_conversations_enabled": {
+        "value": "false"
+      },
       "dm_share_sheet_send_individually_max_count": {
         "value": "20"
       },
@@ -1190,17 +1193,11 @@
       "responsive_web_birdwatch_earn_out_enabled": {
         "value": "true"
       },
-      "responsive_web_birdwatch_hcomp_user": {
-        "value": "false"
-      },
       "responsive_web_birdwatch_history_enabled": {
         "value": "false"
       },
       "responsive_web_birdwatch_impressions_enabled": {
         "value": "false"
-      },
-      "responsive_web_birdwatch_new_note_submission_modal_enabled": {
-        "value": "true"
       },
       "responsive_web_birdwatch_note_writing_enabled": {
         "value": "false"
@@ -1717,6 +1714,9 @@
       "responsive_web_recent_searches_users_enabled": {
         "value": "true"
       },
+      "responsive_web_redux_use_fragment_enabled": {
+        "value": "false"
+      },
       "responsive_web_repeat_profile_visits_notifications_device_follow_only_version_enabled": {
         "value": "false"
       },
@@ -1950,7 +1950,7 @@
         "value": "false"
       },
       "rweb_home_ntp_refactor_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "rweb_home_perf_client_prefetch_bypass_sw": {
         "value": "false"
@@ -3228,6 +3228,9 @@
             "😷:mask"
           ]
         },
+        "dm_secret_conversations_enabled": {
+          "value": "false"
+        },
         "dm_share_sheet_send_individually_max_count": {
           "value": "20"
         },
@@ -3732,17 +3735,11 @@
         "responsive_web_birdwatch_earn_out_enabled": {
           "value": "true"
         },
-        "responsive_web_birdwatch_hcomp_user": {
-          "value": "false"
-        },
         "responsive_web_birdwatch_history_enabled": {
           "value": "false"
         },
         "responsive_web_birdwatch_impressions_enabled": {
           "value": "false"
-        },
-        "responsive_web_birdwatch_new_note_submission_modal_enabled": {
-          "value": "true"
         },
         "responsive_web_birdwatch_note_writing_enabled": {
           "value": "false"
@@ -4258,6 +4255,9 @@
         },
         "responsive_web_recent_searches_users_enabled": {
           "value": "true"
+        },
+        "responsive_web_redux_use_fragment_enabled": {
+          "value": "false"
         },
         "responsive_web_repeat_profile_visits_notifications_device_follow_only_version_enabled": {
           "value": "false"
@@ -5209,10 +5209,10 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "8ac28c606592f75393479655c24dedc1"
+      "settingsVersion": "2f99ade4d945d1ece43d37168bab9d15"
     },
     "debug": {},
-    "featureSetToken": "9f6e8613061225e421dd697e3e4baf4a6c18b4e0",
+    "featureSetToken": "b5b820b7881296f8f225277c5f71a5703376c9d0",
     "isLoaded": "true",
     "isLoading": "false"
   },
@@ -5284,7 +5284,7 @@
     "country": "US",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "167891445606853633",
+    "guestId": "167900085116959164",
     "hasCommunityMemberships": "false",
     "language": "en",
     "oneFactorLoginEligibility": {
