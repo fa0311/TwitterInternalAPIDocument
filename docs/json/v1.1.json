@@ -248,6 +248,10 @@
     "method": "post"
   },
   {
+    "queryId": "keyregistry/register",
+    "method": "post"
+  },
+  {
     "queryId": "lists/memberships",
     "method": "get"
   },
