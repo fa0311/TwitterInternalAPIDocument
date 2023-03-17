@@ -2834,10 +2834,13 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key                                          | type   | variable   |
-|:---------------------------------------------|:-------|:-----------|
-| userId                                       | ...    | n          |
-| sharingAudiospacesListeningDataWithFollowers | ...    | t          |
+| key                    | type    | variable   |
+|:-----------------------|:--------|:-----------|
+| userId                 | ...     | i          |
+| count                  | ...     | t          |
+| cursor                 | ...     | n          |
+| includePromotedContent | boolean | False      |
+| ...()(0,l.d)           | ...     | _          |
 
 #### features<br>
 | key                                                                     | type    |   variable | default   |
@@ -3548,10 +3551,11 @@ Request Method: `POST`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key                    | type   | variable   |
-|:-----------------------|:-------|:-----------|
-| bookmark_collection_id | ...    | t          |
-| tweet_id               | ...    | r          |
+| key              | type   | variable   |
+|:-----------------|:-------|:-----------|
+| twitterArticleId | ...    | l          |
+| visibility       | ...    | s          |
+| ...()(0,a.d)     | ...    | _          |
 
 #### features<br>
 `None`<br>
@@ -4480,10 +4484,13 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key                                          | type   | variable   |
-|:---------------------------------------------|:-------|:-----------|
-| userId                                       | ...    | n          |
-| sharingAudiospacesListeningDataWithFollowers | ...    | t          |
+| key                    | type    | variable   |
+|:-----------------------|:--------|:-----------|
+| userId                 | ...     | i          |
+| count                  | ...     | t          |
+| cursor                 | ...     | n          |
+| includePromotedContent | boolean | False      |
+| ...()(0,l.d)           | ...     | _          |
 
 #### features<br>
 | key                                                                     | type    |   variable | default   |
@@ -4874,11 +4881,12 @@ Request Method: `POST`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key          | type   | variable      |
-|:-------------|:-------|:--------------|
-| communityId  | ...    | t.communityId |
-| ruleIds      | ...    | t.ruleIds     |
-| ...()(0,r.S) | ...    | _             |
+| key                    | type    | variable   |
+|:-----------------------|:--------|:-----------|
+| count                  | ...     | n          |
+| cursor                 | ...     | i          |
+| includePromotedContent | boolean | False      |
+| ...()(0,o.d)           | ...     | _          |
 
 #### features<br>
 | key                                                               | type    | variable   |
@@ -5604,10 +5612,13 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key                                          | type   | variable   |
-|:---------------------------------------------|:-------|:-----------|
-| userId                                       | ...    | n          |
-| sharingAudiospacesListeningDataWithFollowers | ...    | t          |
+| key                    | type    | variable   |
+|:-----------------------|:--------|:-----------|
+| userId                 | ...     | i          |
+| count                  | ...     | t          |
+| cursor                 | ...     | n          |
+| includePromotedContent | boolean | False      |
+| ...()(0,l.d)           | ...     | _          |
 
 #### features<br>
 | key                                                                     | type    |   variable | default   |
@@ -6311,10 +6322,13 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key                                          | type   | variable   |
-|:---------------------------------------------|:-------|:-----------|
-| userId                                       | ...    | n          |
-| sharingAudiospacesListeningDataWithFollowers | ...    | t          |
+| key                    | type    | variable   |
+|:-----------------------|:--------|:-----------|
+| userId                 | ...     | i          |
+| count                  | ...     | t          |
+| cursor                 | ...     | n          |
+| includePromotedContent | boolean | False      |
+| ...()(0,l.d)           | ...     | _          |
 
 #### features<br>
 | key                                                                     | type    |   variable | default   |
@@ -7671,10 +7685,13 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key                                          | type   | variable   |
-|:---------------------------------------------|:-------|:-----------|
-| userId                                       | ...    | n          |
-| sharingAudiospacesListeningDataWithFollowers | ...    | t          |
+| key                    | type    | variable   |
+|:-----------------------|:--------|:-----------|
+| userId                 | ...     | i          |
+| count                  | ...     | t          |
+| cursor                 | ...     | n          |
+| includePromotedContent | boolean | False      |
+| ...()(0,l.d)           | ...     | _          |
 
 #### features<br>
 | key                                                                     | type    |   variable | default   |
@@ -8075,10 +8092,13 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key                                          | type   | variable   |
-|:---------------------------------------------|:-------|:-----------|
-| userId                                       | ...    | n          |
-| sharingAudiospacesListeningDataWithFollowers | ...    | t          |
+| key                    | type    | variable   |
+|:-----------------------|:--------|:-----------|
+| userId                 | ...     | i          |
+| count                  | ...     | t          |
+| cursor                 | ...     | n          |
+| includePromotedContent | boolean | False      |
+| ...()(0,l.d)           | ...     | _          |
 
 #### features<br>
 | key                                                                     | type    |   variable | default   |
@@ -9349,10 +9369,13 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key                                          | type   | variable   |
-|:---------------------------------------------|:-------|:-----------|
-| userId                                       | ...    | n          |
-| sharingAudiospacesListeningDataWithFollowers | ...    | t          |
+| key                    | type    | variable   |
+|:-----------------------|:--------|:-----------|
+| userId                 | ...     | i          |
+| count                  | ...     | t          |
+| cursor                 | ...     | n          |
+| includePromotedContent | boolean | False      |
+| ...()(0,l.d)           | ...     | _          |
 
 #### features<br>
 | key                                                                     | type    |   variable | default   |
@@ -10146,10 +10169,13 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key                                          | type   | variable   |
-|:---------------------------------------------|:-------|:-----------|
-| userId                                       | ...    | n          |
-| sharingAudiospacesListeningDataWithFollowers | ...    | t          |
+| key                    | type    | variable   |
+|:-----------------------|:--------|:-----------|
+| userId                 | ...     | i          |
+| count                  | ...     | t          |
+| cursor                 | ...     | n          |
+| includePromotedContent | boolean | False      |
+| ...()(0,l.d)           | ...     | _          |
 
 #### features<br>
 | key                                                                     | type    |   variable | default   |
@@ -11196,6 +11222,38 @@ Login Required: `...`<br>
 `None`<br>
 #### features<br>
 `None`<br>
+#### queryId<br>
+`None`<br>
+## ExplorePage<br>
+Request URL: `https://api.twitter.com/graphql/yF0e2a26mrZQdZSQrokPiw/ExplorePage`<br>
+Request Method: `GET`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+| key                                                                     | type    |   variable | default   |
+|:------------------------------------------------------------------------|:--------|-----------:|:----------|
+| responsive_web_twitter_blue_verified_badge_is_enabled                   | boolean |          1 | nan       |
+| responsive_web_graphql_exclude_directive_enabled                        | boolean |          1 | nan       |
+| verified_phone_label_enabled                                            | boolean |          0 | nan       |
+| responsive_web_graphql_timeline_navigation_enabled                      | boolean |          1 | nan       |
+| responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean |          0 | nan       |
+| tweetypie_unmention_optimization_enabled                                | boolean |          1 | nan       |
+| vibe_api_enabled                                                        | boolean |          1 | nan       |
+| responsive_web_edit_tweet_api_enabled                                   | boolean |          1 | nan       |
+| graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean |          1 | nan       |
+| view_counts_everywhere_api_enabled                                      | boolean |          1 | nan       |
+| longform_notetweets_consumption_enabled                                 | boolean |          1 | nan       |
+| tweet_awards_web_tipping_enabled                                        | boolean |          0 | nan       |
+| freedom_of_speech_not_reach_fetch_enabled                               | boolean |          0 | nan       |
+| standardized_nudges_misinfo                                             | boolean |          1 | nan       |
+| tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean |          0 | nan       |
+| interactive_text_enabled                                                | boolean |          1 | nan       |
+| responsive_web_text_conversations_enabled                               | boolean |          0 | nan       |
+| longform_notetweets_richtext_consumption_enabled                        | ...     |        nan | error     |
+| responsive_web_enhance_cards_enabled                                    | boolean |          0 | nan       |
+
 #### queryId<br>
 `None`<br>
 ## FavoriteTweet<br>
@@ -12658,11 +12716,12 @@ Request Method: `POST`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key          | type   | variable      |
-|:-------------|:-------|:--------------|
-| communityId  | ...    | t.communityId |
-| ruleIds      | ...    | t.ruleIds     |
-| ...()(0,r.S) | ...    | _             |
+| key                    | type    | variable   |
+|:-----------------------|:--------|:-----------|
+| count                  | ...     | n          |
+| cursor                 | ...     | i          |
+| includePromotedContent | boolean | False      |
+| ...()(0,o.d)           | ...     | _          |
 
 #### features<br>
 | key                                                               | type    | variable   |
@@ -13389,6 +13448,38 @@ Login Required: `...`<br>
 `None`<br>
 #### queryId<br>
 `None`<br>
+## ExplorePage<br>
+Request URL: `https://api.twitter.com/graphql/yF0e2a26mrZQdZSQrokPiw/ExplorePage`<br>
+Request Method: `GET`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+| key                                                                     | type    |   variable | default   |
+|:------------------------------------------------------------------------|:--------|-----------:|:----------|
+| responsive_web_twitter_blue_verified_badge_is_enabled                   | boolean |          1 | nan       |
+| responsive_web_graphql_exclude_directive_enabled                        | boolean |          1 | nan       |
+| verified_phone_label_enabled                                            | boolean |          0 | nan       |
+| responsive_web_graphql_timeline_navigation_enabled                      | boolean |          1 | nan       |
+| responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean |          0 | nan       |
+| tweetypie_unmention_optimization_enabled                                | boolean |          1 | nan       |
+| vibe_api_enabled                                                        | boolean |          1 | nan       |
+| responsive_web_edit_tweet_api_enabled                                   | boolean |          1 | nan       |
+| graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean |          1 | nan       |
+| view_counts_everywhere_api_enabled                                      | boolean |          1 | nan       |
+| longform_notetweets_consumption_enabled                                 | boolean |          1 | nan       |
+| tweet_awards_web_tipping_enabled                                        | boolean |          0 | nan       |
+| freedom_of_speech_not_reach_fetch_enabled                               | boolean |          0 | nan       |
+| standardized_nudges_misinfo                                             | boolean |          1 | nan       |
+| tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean |          0 | nan       |
+| interactive_text_enabled                                                | boolean |          1 | nan       |
+| responsive_web_text_conversations_enabled                               | boolean |          0 | nan       |
+| longform_notetweets_richtext_consumption_enabled                        | ...     |        nan | error     |
+| responsive_web_enhance_cards_enabled                                    | boolean |          0 | nan       |
+
+#### queryId<br>
+`None`<br>
 ## FavoriteTweet<br>
 Request URL: `https://api.twitter.com/graphql/lI07N6Otwv1PhnEgXILM7A/FavoriteTweet`<br>
 Request Method: `POST`<br>
@@ -13527,10 +13618,13 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key                                          | type   | variable   |
-|:---------------------------------------------|:-------|:-----------|
-| userId                                       | ...    | n          |
-| sharingAudiospacesListeningDataWithFollowers | ...    | t          |
+| key                    | type    | variable   |
+|:-----------------------|:--------|:-----------|
+| userId                 | ...     | i          |
+| count                  | ...     | t          |
+| cursor                 | ...     | n          |
+| includePromotedContent | boolean | False      |
+| ...()(0,l.d)           | ...     | _          |
 
 #### features<br>
 | key                                                                     | type    |   variable | default   |
@@ -14653,10 +14747,11 @@ Request Method: `POST`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key                    | type   | variable   |
-|:-----------------------|:-------|:-----------|
-| bookmark_collection_id | ...    | t          |
-| tweet_id               | ...    | r          |
+| key              | type   | variable   |
+|:-----------------|:-------|:-----------|
+| twitterArticleId | ...    | l          |
+| visibility       | ...    | s          |
+| ...()(0,a.d)     | ...    | _          |
 
 #### features<br>
 `None`<br>
@@ -17641,8 +17736,19 @@ Login Required: `...`<br>
 `None`<br>
 #### queryId<br>
 `None`<br>
+## AffiliateListItemUpdateAffiliateTypeMutation<br>
+Request URL: `https://api.twitter.com/graphql/v5rNoNo7tAvWpUn6pIdo9A/AffiliateListItemUpdateAffiliateTypeMutation`<br>
+Request Method: `POST`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
 ## AffiliatesScreenAffiliatesQuery<br>
-Request URL: `https://api.twitter.com/graphql/3f8FcHmXgM2gn1Z2cTa8HA/AffiliatesScreenAffiliatesQuery`<br>
+Request URL: `https://api.twitter.com/graphql/0OGz7UtpFJ7gPkFh16s5Ow/AffiliatesScreenAffiliatesQuery`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
