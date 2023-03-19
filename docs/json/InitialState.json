@@ -81,12 +81,17 @@
       "errors": {},
       "fetchStatus": {}
     },
+    "liveEvents": {
+      "entities": {},
+      "errors": {},
+      "fetchStatus": {}
+    },
     "translationsProfiles": {
       "entities": {},
       "errors": {},
       "fetchStatus": {}
     },
-    "emailValidity": {
+    "legacyAndUnifiedCards": {
       "entities": {},
       "errors": {},
       "fetchStatus": {}
@@ -101,6 +106,11 @@
       "errors": {},
       "fetchStatus": {}
     },
+    "emailValidity": {
+      "entities": {},
+      "errors": {},
+      "fetchStatus": {}
+    },
     "passwordValidity": {
       "entities": {},
       "errors": {},
@@ -111,12 +121,7 @@
       "errors": {},
       "fetchStatus": {}
     },
-    "legacyAndUnifiedCards": {
-      "entities": {},
-      "errors": {},
-      "fetchStatus": {}
-    },
-    "liveEvents": {
+    "places": {
       "entities": {},
       "errors": {},
       "fetchStatus": {}
@@ -5206,20 +5211,10 @@
           "value": "false"
         }
       },
-      "impression_pointers": {
-        "web_video_safari_hlsjs_enabled": [
-          "web_video_safari_hlsjs_16262"
-        ]
-      },
-      "impressions": {
-        "web_video_safari_hlsjs_16262": {
-          "key": "web_video_safari_hlsjs_16262",
-          "bucket": "control",
-          "version": "1"
-        }
-      },
+      "impression_pointers": {},
+      "impressions": {},
       "keysRead": {},
-      "settingsVersion": "b2f5d3edcdeea05adc8641b60d41e46b"
+      "settingsVersion": "2f99ade4d945d1ece43d37168bab9d15"
     },
     "debug": {},
     "featureSetToken": "b5b820b7881296f8f225277c5f71a5703376c9d0",
@@ -5294,7 +5289,7 @@
     "country": "US",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "167908721879682741",
+    "guestId": "167917361378655589",
     "hasCommunityMemberships": "false",
     "language": "en",
     "oneFactorLoginEligibility": {
