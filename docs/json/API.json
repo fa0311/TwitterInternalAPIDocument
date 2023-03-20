@@ -4049,8 +4049,8 @@
       }
     },
     "PriceQuery": {
-      "url": "https://api.twitter.com/graphql/fEIrXM_SROA9quiRBq2QDA/PriceQuery",
-      "queryId": "fEIrXM_SROA9quiRBq2QDA",
+      "url": "https://api.twitter.com/graphql/rwqWKdwSGJjqFRPDCWMeTw/PriceQuery",
+      "queryId": "rwqWKdwSGJjqFRPDCWMeTw",
       "method": "GET",
       "features": {}
     },
