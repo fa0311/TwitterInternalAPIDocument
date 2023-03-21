@@ -17776,7 +17776,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## PriceQuery<br>
-Request URL: `https://api.twitter.com/graphql/fEIrXM_SROA9quiRBq2QDA/PriceQuery`<br>
+Request URL: `https://api.twitter.com/graphql/rwqWKdwSGJjqFRPDCWMeTw/PriceQuery`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>

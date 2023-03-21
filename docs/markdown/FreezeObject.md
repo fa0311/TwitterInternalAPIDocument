@@ -4372,6 +4372,16 @@ This document is entirely auto-generated and may contain errors.<br>
 | static     | static  |
 | prep       | prep    |
 
+| constant   | value     |
+|:-----------|:----------|
+| MUTABLE    | MUTABLE   |
+| IMMUTABLE  | IMMUTABLE |
+| SEGMENTED  | SEGMENTED |
+
+| constant   | value   |
+|:-----------|:--------|
+| TWEMOJI    | TWEMOJI |
+
 | constant   | value                                                        |
 |:-----------|:-------------------------------------------------------------|
 | REQUEST    | rweb/trustedFriendsLists/FETCH_TRUSTED_FRIENDS_LISTS_REQUEST |
@@ -4399,22 +4409,27 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant                  | value                                   |
 |:--------------------------|:----------------------------------------|
-| all                       | {'icon': 'pi', 'label': 'x().i8ea6d4e'} |
-| community                 | {'icon': '_i', 'label': 'x().ec5a4a26'} |
-| by_invitation             | {'icon': 'gi', 'label': 'x().b454300a'} |
-| community_members         | {'icon': 'yi', 'label': 'x().i13be5a0'} |
-| super_followers_exclusive | {'icon': 'pi', 'label': 'x().feb7560a'} |
-| trusted_friends_tweet     | {'icon': 'Ti', 'label': 'u'}            |
+| all                       | {'icon': 'Tn', 'label': 'S().i8ea6d4e'} |
+| community                 | {'icon': 'bn', 'label': 'S().ec5a4a26'} |
+| by_invitation             | {'icon': 'wn', 'label': 'S().b454300a'} |
+| community_members         | {'icon': 'Cn', 'label': 'S().i13be5a0'} |
+| super_followers_exclusive | {'icon': 'Tn', 'label': 'S().feb7560a'} |
+| trusted_friends_tweet     | {'icon': 'vn', 'label': 'd'}            |
 
 ```internal process
 # Error
-{[pa.Original]:"OriginalTweet",[pa.Quote]:"QuoteTweet",[pa.Reply]:"Reply",[pa.Thread]:"Retweet"}
+{[Ua.Original]:"OriginalTweet",[Ua.Quote]:"QuoteTweet",[Ua.Reply]:"Reply",[Ua.Thread]:"Retweet"}
 ```
 | constant   | value   |
 |:-----------|:--------|
 | in         | in      |
 | out        | out     |
 | static     | static  |
+
+| constant   | value                               |
+|:-----------|:------------------------------------|
+| reset      | {'_type': 'reset', 'type': 'reset'} |
+| set        | {'_type': 'set', 'type': 'set'}     |
 
 | constant   | value    |
 |:-----------|:---------|
@@ -4425,7 +4440,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{[pa.Original]:"original_tweet",[pa.Quote]:"quote_tweet",[pa.Reply]:"reply"}
+{[Ua.Original]:"original_tweet",[Ua.Quote]:"quote_tweet",[Ua.Reply]:"reply"}
 ```
 | constant            | value                              |
 |:--------------------|:-----------------------------------|
@@ -4434,7 +4449,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant                                               | value      |
 |:-------------------------------------------------------|:-----------|
-| fetchStatus                                            | go.ZP.NONE |
+| fetchStatus                                            | Uo.ZP.NONE |
 | editTweetLimitedMarketPromptDismissedEpochMilliseconds | 0          |
 
 | constant   | value   |
@@ -4703,16 +4718,6 @@ This document is entirely auto-generated and may contain errors.<br>
 # Error
 {"ActionsBar":"y.Z","ActionMenu":"function()"{"Icon":"e","isDisabled":"t","items":"n","onOpen":"i"}{"const o=r.useCallback()"{"items":"n","onCloseRequested":"e"}{"Icon":"e","isDisabled":"t","onClick":"i","renderActionMenu":"o"}},"CallToAction":"a.ZP","EditCallout":"b.Z","Education":"T.Z","Highlighte...
 ```
-| constant   | value     |
-|:-----------|:----------|
-| MUTABLE    | MUTABLE   |
-| IMMUTABLE  | IMMUTABLE |
-| SEGMENTED  | SEGMENTED |
-
-| constant   | value   |
-|:-----------|:--------|
-| TWEMOJI    | TWEMOJI |
-
 | constant   | value                            |
 |:-----------|:---------------------------------|
 | REQUEST    | rweb/promotedContent/LOG_REQUEST |

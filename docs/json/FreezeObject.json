@@ -4075,6 +4075,14 @@
     "prep": "prep"
   },
   {
+    "MUTABLE": "MUTABLE",
+    "IMMUTABLE": "IMMUTABLE",
+    "SEGMENTED": "SEGMENTED"
+  },
+  {
+    "TWEMOJI": "TWEMOJI"
+  },
+  {
     "REQUEST": "rweb/trustedFriendsLists/FETCH_TRUSTED_FRIENDS_LISTS_REQUEST",
     "SUCCESS": "rweb/trustedFriendsLists/FETCH_TRUSTED_FRIENDS_LISTS_SUCCESS",
     "FAILURE": "rweb/trustedFriendsLists/FETCH_TRUSTED_FRIENDS_LISTS_FAILURE"
@@ -4097,35 +4105,45 @@
   },
   {
     "all": {
-      "icon": "pi",
-      "label": "x().i8ea6d4e"
+      "icon": "Tn",
+      "label": "S().i8ea6d4e"
     },
     "community": {
-      "icon": "_i",
-      "label": "x().ec5a4a26"
+      "icon": "bn",
+      "label": "S().ec5a4a26"
     },
     "by_invitation": {
-      "icon": "gi",
-      "label": "x().b454300a"
+      "icon": "wn",
+      "label": "S().b454300a"
     },
     "community_members": {
-      "icon": "yi",
-      "label": "x().i13be5a0"
+      "icon": "Cn",
+      "label": "S().i13be5a0"
     },
     "super_followers_exclusive": {
-      "icon": "pi",
-      "label": "x().feb7560a"
+      "icon": "Tn",
+      "label": "S().feb7560a"
     },
     "trusted_friends_tweet": {
-      "icon": "Ti",
-      "label": "u"
+      "icon": "vn",
+      "label": "d"
     }
   },
-  "{[pa.Original]:\"OriginalTweet\",[pa.Quote]:\"QuoteTweet\",[pa.Reply]:\"Reply\",[pa.Thread]:\"Retweet\"}",
+  "{[Ua.Original]:\"OriginalTweet\",[Ua.Quote]:\"QuoteTweet\",[Ua.Reply]:\"Reply\",[Ua.Thread]:\"Retweet\"}",
   {
     "in": "in",
     "out": "out",
     "static": "static"
+  },
+  {
+    "reset": {
+      "_type": "reset",
+      "type": "reset"
+    },
+    "set": {
+      "_type": "set",
+      "type": "set"
+    }
   },
   {
     "Original": "original",
@@ -4133,13 +4151,13 @@
     "Quote": "quote",
     "Thread": "thread"
   },
-  "{[pa.Original]:\"original_tweet\",[pa.Quote]:\"quote_tweet\",[pa.Reply]:\"reply\"}",
+  "{[Ua.Original]:\"original_tweet\",[Ua.Quote]:\"quote_tweet\",[Ua.Reply]:\"reply\"}",
   {
     "LOCAL_STATE_LOADED": "rweb/editTweet/LOCAL_STATE_LOADED",
     "LOCAL_STATE_REQUEST": "rweb/editTweet/LOCAL_STATE_REQUEST"
   },
   {
-    "fetchStatus": "go.ZP.NONE",
+    "fetchStatus": "Uo.ZP.NONE",
     "editTweetLimitedMarketPromptDismissedEpochMilliseconds": "0"
   },
   {
@@ -4371,14 +4389,6 @@
     "Like": "Like"
   },
   "{\"ActionsBar\":\"y.Z\",\"ActionMenu\":\"function()\"{\"Icon\":\"e\",\"isDisabled\":\"t\",\"items\":\"n\",\"onOpen\":\"i\"}{\"const o=r.useCallback()\"{\"items\":\"n\",\"onCloseRequested\":\"e\"}{\"Icon\":\"e\",\"isDisabled\":\"t\",\"onClick\":\"i\",\"renderActionMenu\":\"o\"}},\"CallToAction\":\"a.ZP\",\"EditCallout\":\"b.Z\",\"Education\":\"T.Z\",\"HighlightedUserLabel\":\"c.Z\",\"Media\":\"C.Z\",\"Place\":\"o.ZP\",\"PromotedDetails\":\"u.Z\",\"PromotedUserProfileCard\":\"k\",\"ReplyContext\":\"D.ZP\",\"RichContent\":\"P.Z\",\"SocialContext\":\"h.Z\",\"Text\":\"L.Z\",\"Tombstone\":\"w.Z\",\"Timestamp\":\"p.Z\",\"UserAvatar\":\"A.Z\",\"UserFollowIndicator\":\"M.Z\",\"UserName\":\"R.Z\",\"VibePill\":\"U.Z\"}",
-  {
-    "MUTABLE": "MUTABLE",
-    "IMMUTABLE": "IMMUTABLE",
-    "SEGMENTED": "SEGMENTED"
-  },
-  {
-    "TWEMOJI": "TWEMOJI"
-  },
   {
     "REQUEST": "rweb/promotedContent/LOG_REQUEST",
     "SUCCESS": "rweb/promotedContent/LOG_SUCCESS",
