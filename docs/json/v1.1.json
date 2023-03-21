@@ -176,6 +176,10 @@
     "method": "get"
   },
   {
+    "queryId": "dm/permissions/secret_endpoint",
+    "method": "get"
+  },
+  {
     "queryId": "dm/destroy",
     "method": "post"
   },
