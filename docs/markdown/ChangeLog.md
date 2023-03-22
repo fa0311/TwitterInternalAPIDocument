@@ -487,3 +487,8 @@
 - evolutionDMDrawerQuery<br>
 - evolutionDmConversationMetadataQuery<br>
 - evolutionDmConversationTimelineQuery<br>
+## 2023/03/22<br>
+### add<br>
+- useRelayDelegateDataQuery<br>
+### remove<br>
+- None<br>
