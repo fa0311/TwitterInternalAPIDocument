@@ -1818,6 +1818,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | newBadgeColorEnabled                      | False   |
 | tweetViewCountsEnabled                    | False   |
 | businessGovernmentVerifiedNewIconsEnabled | False   |
+| webImageLargeWebpVariants                 | False   |
 | ...o                                      | _       |
 
 | constant         | value            |
@@ -3252,7 +3253,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{"ActionsBar":"y.Z","ActionMenu":"function()"{"Icon":"e","isDisabled":"t","items":"n","onOpen":"o"}{"const r=i.useCallback()"{"items":"n","onCloseRequested":"e"}{"Icon":"e","isDisabled":"t","onClick":"o","renderActionMenu":"r"}},"CallToAction":"a.ZP","EditCallout":"f.Z","Education":"T.Z","Highlighte...
+{"ActionsBar":"f.Z","ActionMenu":"function()"{"Icon":"e","isDisabled":"t","items":"n","onOpen":"o"}{"const r=i.useCallback()"{"items":"n","onCloseRequested":"e"}{"Icon":"e","isDisabled":"t","onClick":"o","renderActionMenu":"r"}},"CallToAction":"a.ZP","EditCallout":"y.Z","Education":"T.Z","Highlighte...
 ```
 | constant                      | value                         |
 |:------------------------------|:------------------------------|
@@ -3850,6 +3851,294 @@ This document is entirely auto-generated and may contain errors.<br>
 | ConversationNameUpdate | s.Cr.CONVERSATION_NAME_UPDATE |
 | JoinConversation       | s.Cr.JOIN_CONVERSATION        |
 
+| constant         | value      |
+|:-----------------|:-----------|
+| SINGLE_TWEET     | off        |
+| FIRST_TWEET      | first      |
+| SUBSEQUENT_TWEET | subsequent |
+
+| constant   | value   |
+|:-----------|:--------|
+| ja         | True    |
+| zh-cn      | True    |
+| zh-tw      | True    |
+| ko         | True    |
+
+| constant         | value      |
+|:-----------------|:-----------|
+| SINGLE_TWEET     | off        |
+| FIRST_TWEET      | first      |
+| SUBSEQUENT_TWEET | subsequent |
+
+| constant   | value   |
+|:-----------|:--------|
+| ja         | True    |
+| zh-cn      | True    |
+| zh-tw      | True    |
+| ko         | True    |
+
+| constant   | value      |
+|:-----------|:-----------|
+| GROUP      | GroupDm    |
+| ONE_TO_ONE | OneToOneDm |
+| UNKNOWN    | Unknown    |
+
+| constant               | value                         |
+|:-----------------------|:------------------------------|
+| MessageCreate          | r.Cr.MESSAGE                  |
+| ParticipantsJoin       | r.Cr.PARTICIPANTS_JOIN        |
+| ParticipantsLeave      | r.Cr.PARTICIPANTS_LEAVE       |
+| ConversationNameUpdate | r.Cr.CONVERSATION_NAME_UPDATE |
+| JoinConversation       | r.Cr.JOIN_CONVERSATION        |
+
+| constant   | value      |
+|:-----------|:-----------|
+| ONE_TO_ONE | ONE_TO_ONE |
+| GROUP      | GROUP_DM   |
+
+| constant   | value    |
+|:-----------|:---------|
+| AT_END     | AT_END   |
+| HAS_MORE   | HAS_MORE |
+
+| constant                         | value                                |
+|:---------------------------------|:-------------------------------------|
+| CONVERSATION_AVATAR_UPDATE       | conversation_avatar_update           |
+| CONVERSATION_NAME_UPDATE         | conversation_name_update             |
+| CONVERSATION_PROFILE_INFO_HEADER | conversation_profile_info_header     |
+| CONVERSATION_READ                | conversation_read                    |
+| CONVO_METADATA_UPDATE            | convo_metadata_update                |
+| DELEGATE_ALERT_BANNER            | delegate_alert_banner                |
+| DISABLE_NOTIFICATIONS            | disable_notifications                |
+| ENABLE_NOTIFICATIONS             | enable_notifications                 |
+| JOIN_CONVERSATION                | join_conversation                    |
+| LOADING_INDICATOR                | loading_indicator                    |
+| MARK_ALL_AS_READ                 | mark_all_as_read                     |
+| MENTION_NOTIFICATIONS_UPDATE     | mention_notifications_setting_update |
+| MESSAGE                          | message                              |
+| MESSAGE_DELETE                   | message_delete                       |
+| MESSAGE_MARK_AS_NOT_SPAM         | message_unmark_as_spam               |
+| MESSAGE_MARK_AS_SPAM             | message_mark_as_spam                 |
+| NEW_MESSAGES_DIVIDER             | new_messages_divider                 |
+| PARTICIPANTS_JOIN                | participants_join                    |
+| PARTICIPANTS_LEAVE               | participants_leave                   |
+| REACTION_CREATE                  | reaction_create                      |
+| REACTION_DELETE                  | reaction_delete                      |
+| READ_ONLY_INDICATOR              | read_only_indicator                  |
+| REMOVE_CONVERSATION              | remove_conversation                  |
+| TRUST_CONVERSATION               | trust_conversation                   |
+| TYPING_INDICATOR                 | typing_indicator                     |
+| WELCOME_MESSAGE                  | welcome_message_create               |
+
+| constant       | value          |
+|:---------------|:---------------|
+| MUTUAL_FRIENDS | mutual_friends |
+
+| constant         | value      |
+|:-----------------|:-----------|
+| SINGLE_TWEET     | off        |
+| FIRST_TWEET      | first      |
+| SUBSEQUENT_TWEET | subsequent |
+
+| constant   | value   |
+|:-----------|:--------|
+| ja         | True    |
+| zh-cn      | True    |
+| zh-tw      | True    |
+| ko         | True    |
+
+| constant          | value             |
+|:------------------|:------------------|
+| List              | List              |
+| ListTile          | ListTile          |
+| ListWithPin       | ListWithPin       |
+| ListWithSubscribe | ListWithSubscribe |
+
+| constant   | value         |
+|:-----------|:--------------|
+| Creation   | list_creation |
+| Edit       | list_edit     |
+
+| constant         | value      |
+|:-----------------|:-----------|
+| SINGLE_TWEET     | off        |
+| FIRST_TWEET      | first      |
+| SUBSEQUENT_TWEET | subsequent |
+
+| constant   | value   |
+|:-----------|:--------|
+| ja         | True    |
+| zh-cn      | True    |
+| zh-tw      | True    |
+| ko         | True    |
+
+| constant   | value   |
+|:-----------|:--------|
+| None       | None    |
+| Nudge      | Nudge   |
+| Prompt     | Prompt  |
+| Require    | Require |
+
+| constant   | value   |
+|:-----------|:--------|
+| Enabled    | Enabled |
+| None       | None    |
+
+| constant   | value   |
+|:-----------|:--------|
+| Hmm        | Hmm     |
+| Sad        | Sad     |
+| Haha       | Haha    |
+| Cheer      | Cheer   |
+| Like       | Like    |
+
+| constant         | value      |
+|:-----------------|:-----------|
+| SINGLE_TWEET     | off        |
+| FIRST_TWEET      | first      |
+| SUBSEQUENT_TWEET | subsequent |
+
+| constant   | value   |
+|:-----------|:--------|
+| ja         | True    |
+| zh-cn      | True    |
+| zh-tw      | True    |
+| ko         | True    |
+
+| constant         | value      |
+|:-----------------|:-----------|
+| SINGLE_TWEET     | off        |
+| FIRST_TWEET      | first      |
+| SUBSEQUENT_TWEET | subsequent |
+
+| constant         | value      |
+|:-----------------|:-----------|
+| SINGLE_TWEET     | off        |
+| FIRST_TWEET      | first      |
+| SUBSEQUENT_TWEET | subsequent |
+
+| constant   | value   |
+|:-----------|:--------|
+| ja         | True    |
+| zh-cn      | True    |
+| zh-tw      | True    |
+| ko         | True    |
+
+| constant         | value      |
+|:-----------------|:-----------|
+| SINGLE_TWEET     | off        |
+| FIRST_TWEET      | first      |
+| SUBSEQUENT_TWEET | subsequent |
+
+| constant   | value   |
+|:-----------|:--------|
+| ja         | True    |
+| zh-cn      | True    |
+| zh-tw      | True    |
+| ko         | True    |
+
+| constant         | value      |
+|:-----------------|:-----------|
+| SINGLE_TWEET     | off        |
+| FIRST_TWEET      | first      |
+| SUBSEQUENT_TWEET | subsequent |
+
+| constant   | value      |
+|:-----------|:-----------|
+| GROUP      | GroupDm    |
+| ONE_TO_ONE | OneToOneDm |
+| UNKNOWN    | Unknown    |
+
+| constant               | value                         |
+|:-----------------------|:------------------------------|
+| MessageCreate          | a.Cr.MESSAGE                  |
+| ParticipantsJoin       | a.Cr.PARTICIPANTS_JOIN        |
+| ParticipantsLeave      | a.Cr.PARTICIPANTS_LEAVE       |
+| ConversationNameUpdate | a.Cr.CONVERSATION_NAME_UPDATE |
+| JoinConversation       | a.Cr.JOIN_CONVERSATION        |
+
+| constant   | value   |
+|:-----------|:--------|
+| None       | None    |
+| Nudge      | Nudge   |
+| Prompt     | Prompt  |
+| Require    | Require |
+
+| constant   | value   |
+|:-----------|:--------|
+| Enabled    | Enabled |
+| None       | None    |
+
+| constant   | value   |
+|:-----------|:--------|
+| ja         | True    |
+| zh-cn      | True    |
+| zh-tw      | True    |
+| ko         | True    |
+
+| constant          | value             |
+|:------------------|:------------------|
+| List              | List              |
+| ListTile          | ListTile          |
+| ListWithPin       | ListWithPin       |
+| ListWithSubscribe | ListWithSubscribe |
+
+| constant   | value         |
+|:-----------|:--------------|
+| Creation   | list_creation |
+| Edit       | list_edit     |
+
+| constant   | value      |
+|:-----------|:-----------|
+| ONE_TO_ONE | ONE_TO_ONE |
+| GROUP      | GROUP_DM   |
+
+| constant   | value    |
+|:-----------|:---------|
+| AT_END     | AT_END   |
+| HAS_MORE   | HAS_MORE |
+
+| constant                         | value                                |
+|:---------------------------------|:-------------------------------------|
+| CONVERSATION_AVATAR_UPDATE       | conversation_avatar_update           |
+| CONVERSATION_NAME_UPDATE         | conversation_name_update             |
+| CONVERSATION_PROFILE_INFO_HEADER | conversation_profile_info_header     |
+| CONVERSATION_READ                | conversation_read                    |
+| CONVO_METADATA_UPDATE            | convo_metadata_update                |
+| DELEGATE_ALERT_BANNER            | delegate_alert_banner                |
+| DISABLE_NOTIFICATIONS            | disable_notifications                |
+| ENABLE_NOTIFICATIONS             | enable_notifications                 |
+| JOIN_CONVERSATION                | join_conversation                    |
+| LOADING_INDICATOR                | loading_indicator                    |
+| MARK_ALL_AS_READ                 | mark_all_as_read                     |
+| MENTION_NOTIFICATIONS_UPDATE     | mention_notifications_setting_update |
+| MESSAGE                          | message                              |
+| MESSAGE_DELETE                   | message_delete                       |
+| MESSAGE_MARK_AS_NOT_SPAM         | message_unmark_as_spam               |
+| MESSAGE_MARK_AS_SPAM             | message_mark_as_spam                 |
+| NEW_MESSAGES_DIVIDER             | new_messages_divider                 |
+| PARTICIPANTS_JOIN                | participants_join                    |
+| PARTICIPANTS_LEAVE               | participants_leave                   |
+| REACTION_CREATE                  | reaction_create                      |
+| REACTION_DELETE                  | reaction_delete                      |
+| READ_ONLY_INDICATOR              | read_only_indicator                  |
+| REMOVE_CONVERSATION              | remove_conversation                  |
+| TRUST_CONVERSATION               | trust_conversation                   |
+| TYPING_INDICATOR                 | typing_indicator                     |
+| WELCOME_MESSAGE                  | welcome_message_create               |
+
+| constant       | value          |
+|:---------------|:---------------|
+| MUTUAL_FRIENDS | mutual_friends |
+
+| constant   | value   |
+|:-----------|:--------|
+| Hmm        | Hmm     |
+| Sad        | Sad     |
+| Haha       | Haha    |
+| Cheer      | Cheer   |
+| Like       | Like    |
+
 | constant   | value             |
 |:-----------|:------------------|
 | password   | password          |
@@ -4414,7 +4703,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | by_invitation             | {'icon': 'wn', 'label': 'S().b454300a'} |
 | community_members         | {'icon': 'Cn', 'label': 'S().i13be5a0'} |
 | super_followers_exclusive | {'icon': 'Tn', 'label': 'S().feb7560a'} |
-| trusted_friends_tweet     | {'icon': 'vn', 'label': 'd'}            |
+| trusted_friends_tweet     | {'icon': 'xn', 'label': 'd'}            |
 
 ```internal process
 # Error
@@ -4449,7 +4738,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant                                               | value      |
 |:-------------------------------------------------------|:-----------|
-| fetchStatus                                            | Uo.ZP.NONE |
+| fetchStatus                                            | Ao.ZP.NONE |
 | editTweetLimitedMarketPromptDismissedEpochMilliseconds | 0          |
 
 | constant   | value   |
@@ -6791,275 +7080,6 @@ This document is entirely auto-generated and may contain errors.<br>
 | constant   | value   |
 |:-----------|:--------|
 | search     | search  |
-
-| constant         | value      |
-|:-----------------|:-----------|
-| SINGLE_TWEET     | off        |
-| FIRST_TWEET      | first      |
-| SUBSEQUENT_TWEET | subsequent |
-
-| constant   | value   |
-|:-----------|:--------|
-| ja         | True    |
-| zh-cn      | True    |
-| zh-tw      | True    |
-| ko         | True    |
-
-| constant         | value      |
-|:-----------------|:-----------|
-| SINGLE_TWEET     | off        |
-| FIRST_TWEET      | first      |
-| SUBSEQUENT_TWEET | subsequent |
-
-| constant   | value   |
-|:-----------|:--------|
-| ja         | True    |
-| zh-cn      | True    |
-| zh-tw      | True    |
-| ko         | True    |
-
-| constant   | value      |
-|:-----------|:-----------|
-| GROUP      | GroupDm    |
-| ONE_TO_ONE | OneToOneDm |
-| UNKNOWN    | Unknown    |
-
-| constant               | value                         |
-|:-----------------------|:------------------------------|
-| MessageCreate          | r.Cr.MESSAGE                  |
-| ParticipantsJoin       | r.Cr.PARTICIPANTS_JOIN        |
-| ParticipantsLeave      | r.Cr.PARTICIPANTS_LEAVE       |
-| ConversationNameUpdate | r.Cr.CONVERSATION_NAME_UPDATE |
-| JoinConversation       | r.Cr.JOIN_CONVERSATION        |
-
-| constant   | value      |
-|:-----------|:-----------|
-| ONE_TO_ONE | ONE_TO_ONE |
-| GROUP      | GROUP_DM   |
-
-| constant   | value    |
-|:-----------|:---------|
-| AT_END     | AT_END   |
-| HAS_MORE   | HAS_MORE |
-
-| constant                         | value                                |
-|:---------------------------------|:-------------------------------------|
-| CONVERSATION_AVATAR_UPDATE       | conversation_avatar_update           |
-| CONVERSATION_NAME_UPDATE         | conversation_name_update             |
-| CONVERSATION_PROFILE_INFO_HEADER | conversation_profile_info_header     |
-| CONVERSATION_READ                | conversation_read                    |
-| CONVO_METADATA_UPDATE            | convo_metadata_update                |
-| DELEGATE_ALERT_BANNER            | delegate_alert_banner                |
-| DISABLE_NOTIFICATIONS            | disable_notifications                |
-| ENABLE_NOTIFICATIONS             | enable_notifications                 |
-| JOIN_CONVERSATION                | join_conversation                    |
-| LOADING_INDICATOR                | loading_indicator                    |
-| MARK_ALL_AS_READ                 | mark_all_as_read                     |
-| MENTION_NOTIFICATIONS_UPDATE     | mention_notifications_setting_update |
-| MESSAGE                          | message                              |
-| MESSAGE_DELETE                   | message_delete                       |
-| MESSAGE_MARK_AS_NOT_SPAM         | message_unmark_as_spam               |
-| MESSAGE_MARK_AS_SPAM             | message_mark_as_spam                 |
-| NEW_MESSAGES_DIVIDER             | new_messages_divider                 |
-| PARTICIPANTS_JOIN                | participants_join                    |
-| PARTICIPANTS_LEAVE               | participants_leave                   |
-| REACTION_CREATE                  | reaction_create                      |
-| REACTION_DELETE                  | reaction_delete                      |
-| READ_ONLY_INDICATOR              | read_only_indicator                  |
-| REMOVE_CONVERSATION              | remove_conversation                  |
-| TRUST_CONVERSATION               | trust_conversation                   |
-| TYPING_INDICATOR                 | typing_indicator                     |
-| WELCOME_MESSAGE                  | welcome_message_create               |
-
-| constant       | value          |
-|:---------------|:---------------|
-| MUTUAL_FRIENDS | mutual_friends |
-
-| constant         | value      |
-|:-----------------|:-----------|
-| SINGLE_TWEET     | off        |
-| FIRST_TWEET      | first      |
-| SUBSEQUENT_TWEET | subsequent |
-
-| constant   | value   |
-|:-----------|:--------|
-| ja         | True    |
-| zh-cn      | True    |
-| zh-tw      | True    |
-| ko         | True    |
-
-| constant          | value             |
-|:------------------|:------------------|
-| List              | List              |
-| ListTile          | ListTile          |
-| ListWithPin       | ListWithPin       |
-| ListWithSubscribe | ListWithSubscribe |
-
-| constant   | value         |
-|:-----------|:--------------|
-| Creation   | list_creation |
-| Edit       | list_edit     |
-
-| constant         | value      |
-|:-----------------|:-----------|
-| SINGLE_TWEET     | off        |
-| FIRST_TWEET      | first      |
-| SUBSEQUENT_TWEET | subsequent |
-
-| constant   | value   |
-|:-----------|:--------|
-| ja         | True    |
-| zh-cn      | True    |
-| zh-tw      | True    |
-| ko         | True    |
-
-| constant   | value   |
-|:-----------|:--------|
-| None       | None    |
-| Nudge      | Nudge   |
-| Prompt     | Prompt  |
-| Require    | Require |
-
-| constant   | value   |
-|:-----------|:--------|
-| Enabled    | Enabled |
-| None       | None    |
-
-| constant   | value   |
-|:-----------|:--------|
-| Hmm        | Hmm     |
-| Sad        | Sad     |
-| Haha       | Haha    |
-| Cheer      | Cheer   |
-| Like       | Like    |
-
-| constant         | value      |
-|:-----------------|:-----------|
-| SINGLE_TWEET     | off        |
-| FIRST_TWEET      | first      |
-| SUBSEQUENT_TWEET | subsequent |
-
-| constant   | value   |
-|:-----------|:--------|
-| ja         | True    |
-| zh-cn      | True    |
-| zh-tw      | True    |
-| ko         | True    |
-
-| constant         | value      |
-|:-----------------|:-----------|
-| SINGLE_TWEET     | off        |
-| FIRST_TWEET      | first      |
-| SUBSEQUENT_TWEET | subsequent |
-
-| constant   | value   |
-|:-----------|:--------|
-| ja         | True    |
-| zh-cn      | True    |
-| zh-tw      | True    |
-| ko         | True    |
-
-| constant         | value      |
-|:-----------------|:-----------|
-| SINGLE_TWEET     | off        |
-| FIRST_TWEET      | first      |
-| SUBSEQUENT_TWEET | subsequent |
-
-| constant   | value      |
-|:-----------|:-----------|
-| GROUP      | GroupDm    |
-| ONE_TO_ONE | OneToOneDm |
-| UNKNOWN    | Unknown    |
-
-| constant               | value                         |
-|:-----------------------|:------------------------------|
-| MessageCreate          | a.Cr.MESSAGE                  |
-| ParticipantsJoin       | a.Cr.PARTICIPANTS_JOIN        |
-| ParticipantsLeave      | a.Cr.PARTICIPANTS_LEAVE       |
-| ConversationNameUpdate | a.Cr.CONVERSATION_NAME_UPDATE |
-| JoinConversation       | a.Cr.JOIN_CONVERSATION        |
-
-| constant   | value   |
-|:-----------|:--------|
-| None       | None    |
-| Nudge      | Nudge   |
-| Prompt     | Prompt  |
-| Require    | Require |
-
-| constant   | value   |
-|:-----------|:--------|
-| Enabled    | Enabled |
-| None       | None    |
-
-| constant   | value   |
-|:-----------|:--------|
-| ja         | True    |
-| zh-cn      | True    |
-| zh-tw      | True    |
-| ko         | True    |
-
-| constant          | value             |
-|:------------------|:------------------|
-| List              | List              |
-| ListTile          | ListTile          |
-| ListWithPin       | ListWithPin       |
-| ListWithSubscribe | ListWithSubscribe |
-
-| constant   | value         |
-|:-----------|:--------------|
-| Creation   | list_creation |
-| Edit       | list_edit     |
-
-| constant   | value      |
-|:-----------|:-----------|
-| ONE_TO_ONE | ONE_TO_ONE |
-| GROUP      | GROUP_DM   |
-
-| constant   | value    |
-|:-----------|:---------|
-| AT_END     | AT_END   |
-| HAS_MORE   | HAS_MORE |
-
-| constant                         | value                                |
-|:---------------------------------|:-------------------------------------|
-| CONVERSATION_AVATAR_UPDATE       | conversation_avatar_update           |
-| CONVERSATION_NAME_UPDATE         | conversation_name_update             |
-| CONVERSATION_PROFILE_INFO_HEADER | conversation_profile_info_header     |
-| CONVERSATION_READ                | conversation_read                    |
-| CONVO_METADATA_UPDATE            | convo_metadata_update                |
-| DELEGATE_ALERT_BANNER            | delegate_alert_banner                |
-| DISABLE_NOTIFICATIONS            | disable_notifications                |
-| ENABLE_NOTIFICATIONS             | enable_notifications                 |
-| JOIN_CONVERSATION                | join_conversation                    |
-| LOADING_INDICATOR                | loading_indicator                    |
-| MARK_ALL_AS_READ                 | mark_all_as_read                     |
-| MENTION_NOTIFICATIONS_UPDATE     | mention_notifications_setting_update |
-| MESSAGE                          | message                              |
-| MESSAGE_DELETE                   | message_delete                       |
-| MESSAGE_MARK_AS_NOT_SPAM         | message_unmark_as_spam               |
-| MESSAGE_MARK_AS_SPAM             | message_mark_as_spam                 |
-| NEW_MESSAGES_DIVIDER             | new_messages_divider                 |
-| PARTICIPANTS_JOIN                | participants_join                    |
-| PARTICIPANTS_LEAVE               | participants_leave                   |
-| REACTION_CREATE                  | reaction_create                      |
-| REACTION_DELETE                  | reaction_delete                      |
-| READ_ONLY_INDICATOR              | read_only_indicator                  |
-| REMOVE_CONVERSATION              | remove_conversation                  |
-| TRUST_CONVERSATION               | trust_conversation                   |
-| TYPING_INDICATOR                 | typing_indicator                     |
-| WELCOME_MESSAGE                  | welcome_message_create               |
-
-| constant       | value          |
-|:---------------|:---------------|
-| MUTUAL_FRIENDS | mutual_friends |
-
-| constant   | value   |
-|:-----------|:--------|
-| Hmm        | Hmm     |
-| Sad        | Sad     |
-| Haha       | Haha    |
-| Cheer      | Cheer   |
-| Like       | Like    |
 
 | constant   | value     |
 |:-----------|:----------|
