@@ -1660,20 +1660,11 @@
       "responsive_web_qp_payment_select_enabled": {
         "value": "true"
       },
-      "responsive_web_reactions_api_test": {
-        "value": "false"
-      },
       "responsive_web_reactions_enabled": {
         "value": "false"
       },
       "responsive_web_reactions_fruit_basket_threshold": {
         "value": "20"
-      },
-      "responsive_web_reactions_legacy_heart": {
-        "value": "true"
-      },
-      "responsive_web_reactions_nux_banner": {
-        "value": "false"
       },
       "responsive_web_reader_extended_menu": {
         "value": "true"
@@ -1914,7 +1905,7 @@
         "value": "false"
       },
       "rweb_bookmarks_on_tweet_detail_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "rweb_home_nav_ring_buffer_max_count": {
         "value": "10"
@@ -2599,6 +2590,9 @@
       },
       "voice_rooms_typeahead_audiospace_ring_enabled": {
         "value": "true"
+      },
+      "web_image_large_webp_variants": {
+        "value": "false"
       },
       "web_video_bitrate_persistence_enabled": {
         "value": "false"
@@ -4172,20 +4166,11 @@
         "responsive_web_qp_payment_select_enabled": {
           "value": "true"
         },
-        "responsive_web_reactions_api_test": {
-          "value": "false"
-        },
         "responsive_web_reactions_enabled": {
           "value": "false"
         },
         "responsive_web_reactions_fruit_basket_threshold": {
           "value": "20"
-        },
-        "responsive_web_reactions_legacy_heart": {
-          "value": "true"
-        },
-        "responsive_web_reactions_nux_banner": {
-          "value": "false"
         },
         "responsive_web_reader_extended_menu": {
           "value": "true"
@@ -4426,7 +4411,7 @@
           "value": "false"
         },
         "rweb_bookmarks_on_tweet_detail_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "rweb_home_nav_ring_buffer_max_count": {
           "value": "10"
@@ -5112,6 +5097,9 @@
         "voice_rooms_typeahead_audiospace_ring_enabled": {
           "value": "true"
         },
+        "web_image_large_webp_variants": {
+          "value": "false"
+        },
         "web_video_bitrate_persistence_enabled": {
           "value": "false"
         },
@@ -5152,7 +5140,7 @@
       "settingsVersion": "2f99ade4d945d1ece43d37168bab9d15"
     },
     "debug": {},
-    "featureSetToken": "4f76d97fae47155c4956cc3551ca4bc90ec56051",
+    "featureSetToken": "0bcb9b9c62dc40a6e338dfe84f69c67e5c8a8745",
     "isLoaded": "true",
     "isLoading": "false"
   },
@@ -5224,7 +5212,7 @@
     "country": "US",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "167943283057425548",
+    "guestId": "167951921617294987",
     "hasCommunityMemberships": "false",
     "language": "en",
     "oneFactorLoginEligibility": {

@@ -32,46 +32,6 @@
     "method": "get"
   },
   {
-    "queryId": "mutes/conversations/create",
-    "method": "post"
-  },
-  {
-    "queryId": "mutes/conversations/destroy",
-    "method": "post"
-  },
-  {
-    "queryId": "statuses/retweet",
-    "method": "post"
-  },
-  {
-    "queryId": "statuses/unretweet",
-    "method": "post"
-  },
-  {
-    "queryId": "statuses/update",
-    "method": "post"
-  },
-  {
-    "queryId": "statuses/destroy",
-    "method": "post"
-  },
-  {
-    "queryId": "statuses/lookup",
-    "method": "get"
-  },
-  {
-    "queryId": "account/pin_tweet",
-    "method": "post"
-  },
-  {
-    "queryId": "account/unpin_tweet",
-    "method": "post"
-  },
-  {
-    "queryId": "media/media_tags/delete",
-    "method": "post"
-  },
-  {
     "queryId": "friendships/create",
     "method": "post"
   },
