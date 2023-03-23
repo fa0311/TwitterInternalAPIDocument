@@ -131,7 +131,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant              | value                 |
 |:----------------------|:----------------------|
-| ...nu                 | _                     |
+| ...Ji                 | _                     |
 | ColumnFromPath        | ColumnFromPath        |
 | ColumnTimelineAdapter | ColumnTimelineAdapter |
 
@@ -302,6 +302,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | soft_nudge_with_quote_tweet         | tweet_limited_actions_config_soft_nudge_with_quote_tweet         |
 | dynamic_product_ad                  | tweet_limited_actions_config_dynamic_product_ad                  |
 | skip_tweet_detail                   | tweet_limited_actions_config_skip_tweet_detail                   |
+| freedom_of_speech_not_reach         | tweet_limited_actions_config_freedom_of_speech_not_reach         |
 
 | constant   | value   |
 |:-----------|:--------|
@@ -3069,13 +3070,14 @@ This document is entirely auto-generated and may contain errors.<br>
 | Interested  | interested |
 | Favorite    | favorite   |
 
-| constant               | value                          |
-|:-----------------------|:-------------------------------|
-| HiddenCommunityTweet   | community_tweet_hidden         |
-| CommunityNonMember     | community_tweet_non_member     |
-| CommunityMemberRemoved | community_tweet_member_removed |
-| NonCompliant           | non_compliant                  |
-| TrustedFriendsTweet    | limit_trusted_friends_tweet    |
+| constant                | value                          |
+|:------------------------|:-------------------------------|
+| HiddenCommunityTweet    | community_tweet_hidden         |
+| CommunityNonMember      | community_tweet_non_member     |
+| CommunityMemberRemoved  | community_tweet_member_removed |
+| NonCompliant            | non_compliant                  |
+| TrustedFriendsTweet     | limit_trusted_friends_tweet    |
+| FreedomOfSpeechNotReach | freedom_of_speech_not_reach    |
 
 | constant   | value     |
 |:-----------|:----------|
@@ -4698,16 +4700,16 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant                  | value                                   |
 |:--------------------------|:----------------------------------------|
-| all                       | {'icon': 'Tn', 'label': 'S().i8ea6d4e'} |
-| community                 | {'icon': 'bn', 'label': 'S().ec5a4a26'} |
-| by_invitation             | {'icon': 'wn', 'label': 'S().b454300a'} |
-| community_members         | {'icon': 'Cn', 'label': 'S().i13be5a0'} |
-| super_followers_exclusive | {'icon': 'Tn', 'label': 'S().feb7560a'} |
-| trusted_friends_tweet     | {'icon': 'xn', 'label': 'd'}            |
+| all                       | {'icon': 'ti', 'label': 'S().i8ea6d4e'} |
+| community                 | {'icon': 'ii', 'label': 'S().ec5a4a26'} |
+| by_invitation             | {'icon': 'ni', 'label': 'S().b454300a'} |
+| community_members         | {'icon': 'si', 'label': 'S().i13be5a0'} |
+| super_followers_exclusive | {'icon': 'ti', 'label': 'S().feb7560a'} |
+| trusted_friends_tweet     | {'icon': 'ai', 'label': 'd'}            |
 
 ```internal process
 # Error
-{[Ua.Original]:"OriginalTweet",[Ua.Quote]:"QuoteTweet",[Ua.Reply]:"Reply",[Ua.Thread]:"Retweet"}
+{[Ja.Original]:"OriginalTweet",[Ja.Quote]:"QuoteTweet",[Ja.Reply]:"Reply",[Ja.Thread]:"Retweet"}
 ```
 | constant   | value   |
 |:-----------|:--------|
@@ -4720,6 +4722,15 @@ This document is entirely auto-generated and may contain errors.<br>
 | reset      | {'_type': 'reset', 'type': 'reset'} |
 | set        | {'_type': 'set', 'type': 'set'}     |
 
+| constant   | value   |
+|:-----------|:--------|
+| Bold       | Bold    |
+| Italic     | Italic  |
+
+```internal process
+# Error
+{[Is.Bold]:"BOLD",[Is.Italic]:"ITALIC"}
+```
 | constant   | value    |
 |:-----------|:---------|
 | Original   | original |
@@ -4729,7 +4740,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{[Ua.Original]:"original_tweet",[Ua.Quote]:"quote_tweet",[Ua.Reply]:"reply"}
+{[Ja.Original]:"original_tweet",[Ja.Quote]:"quote_tweet",[Ja.Reply]:"reply"}
 ```
 | constant            | value                              |
 |:--------------------|:-----------------------------------|
@@ -4738,7 +4749,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant                                               | value      |
 |:-------------------------------------------------------|:-----------|
-| fetchStatus                                            | Ao.ZP.NONE |
+| fetchStatus                                            | zo.ZP.NONE |
 | editTweetLimitedMarketPromptDismissedEpochMilliseconds | 0          |
 
 | constant   | value   |
@@ -5005,7 +5016,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{"ActionsBar":"y.Z","ActionMenu":"function()"{"Icon":"e","isDisabled":"t","items":"n","onOpen":"i"}{"const o=r.useCallback()"{"items":"n","onCloseRequested":"e"}{"Icon":"e","isDisabled":"t","onClick":"i","renderActionMenu":"o"}},"CallToAction":"a.ZP","EditCallout":"b.Z","Education":"T.Z","Highlighte...
+{"ActionsBar":"b.Z","ActionMenu":"function()"{"Icon":"e","isDisabled":"t","items":"n","onOpen":"i"}{"const o=r.useCallback()"{"items":"n","onCloseRequested":"e"}{"Icon":"e","isDisabled":"t","onClick":"i","renderActionMenu":"o"}},"CallToAction":"a.ZP","EditCallout":"y.Z","Education":"T.Z","Highlighte...
 ```
 | constant   | value                            |
 |:-----------|:---------------------------------|
@@ -5529,8 +5540,8 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant      | value                                                                      |
 |:--------------|:---------------------------------------------------------------------------|
-| earnings      | {'link': '/settings/monetization/earnings', 'text': 'u', 'size': 'xLarge'} |
-| payoutHistory | {'link': '/settings/monetization/payout_history', 'text': 'c'}             |
+| earnings      | {'link': '/settings/monetization/earnings', 'text': 'c', 'size': 'xLarge'} |
+| payoutHistory | {'link': '/settings/monetization/payout_history', 'text': 'u'}             |
 
 | constant   | value                                                                |
 |:-----------|:---------------------------------------------------------------------|
@@ -6775,20 +6786,6 @@ This document is entirely auto-generated and may contain errors.<br>
 | LIST_UPDATE      | list_update      |
 | INITIAL_POSITION | initial_position |
 
-| constant   | value                                                            |
-|:-----------|:-----------------------------------------------------------------|
-| REQUEST    | rweb/tweetReactionTimeline/FETCH_TWEET_REACTION_TIMELINE_REQUEST |
-| SUCCESS    | rweb/tweetReactionTimeline/FETCH_TWEET_REACTION_TIMELINE_SUCCESS |
-| FAILURE    | rweb/tweetReactionTimeline/FETCH_TWEET_REACTION_TIMELINE_FAILURE |
-
-| constant   | value   |
-|:-----------|:--------|
-| Hmm        | Hmm     |
-| Sad        | Sad     |
-| Haha       | Haha    |
-| Cheer      | Cheer   |
-| Like       | Like    |
-
 | constant   | value      |
 |:-----------|:-----------|
 | GIF        | TweetGif   |
@@ -7049,7 +7046,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | constant    | value     |
 |:------------|:----------|
 | fetchStatus | f.ZP.NONE |
-| config      | Ne        |
+| config      | Te        |
 
 | constant   |   value |
 |:-----------|--------:|
@@ -7437,11 +7434,11 @@ This document is entirely auto-generated and may contain errors.<br>
 ```
 ```internal process
 # Error
-{"__proto__":"null","DEG2RAD":"rt","RAD2DEG":"at","generateUUID":"ot","clamp":"lt","euclideanModulo":"ct","mapLinear":"function()"{return n+()*(t-e)/(s-n)},"inverseLerp":"function()"{return t!==e?()/(i-t):"0"},"lerp":"ht","damp":"function()"{"return ht()"},"pingpong":"function()"{return e-Math.abs()...
+{"__proto__":"null","DEG2RAD":"at","RAD2DEG":"ot","generateUUID":"lt","clamp":"ct","euclideanModulo":"ht","mapLinear":"function()"{return n+()*(t-e)/(s-n)},"inverseLerp":"function()"{return t!==e?()/(i-t):"0"},"lerp":"ut","damp":"function()"{"return ut()"},"pingpong":"function()"{return e-Math.abs()...
 ```
 ```internal process
 # Error
-{"__proto__":"null","ArcCurve":"Pa","CatmullRomCurve3":"Ga","CubicBezierCurve":"Wa","CubicBezierCurve3":"qa","EllipseCurve":"Ra","LineCurve":"ja","LineCurve3":"class extends Qa"{"constructor()"{"super()",this.type="LineCurve3",this.isLineCurve3=!0,this.v1=t,"this.v2=e"}"getPoint()"{const i=e;return ...
+{"__proto__":"null","ArcCurve":"Na","CatmullRomCurve3":"za","CubicBezierCurve":"qa","CubicBezierCurve3":"ja","EllipseCurve":"Pa","LineCurve":"Ya","LineCurve3":"class extends Ra"{"constructor()"{"super()",this.type="LineCurve3",this.isLineCurve3=!0,this.v1=t,"this.v2=e"}"getPoint()"{const i=e;return ...
 ```
 | constant   | value   |
 |:-----------|:--------|
