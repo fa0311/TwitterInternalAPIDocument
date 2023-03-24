@@ -5065,8 +5065,8 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant         | value   |
 |:-----------------|:--------|
-| DELEGATE_ERR_002 | z       |
-| DELEGATE_ERR_003 | U       |
+| DELEGATE_ERR_002 | U       |
+| DELEGATE_ERR_003 | z       |
 | DELEGATE_ERR_004 | H       |
 | DELEGATE_ERR_005 | V       |
 | DELEGATE_ERR_006 | B       |
