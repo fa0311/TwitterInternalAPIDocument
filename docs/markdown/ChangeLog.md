@@ -499,3 +499,8 @@
 ### remove<br>
 - DMPinnedInboxQuery<br>
 - InviteScreenMutation<br>
+## 2023/03/24<br>
+### add<br>
+- None<br>
+### remove<br>
+- DelegatedAccountListQuery<br>
