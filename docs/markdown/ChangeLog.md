@@ -504,3 +504,8 @@
 - None<br>
 ### remove<br>
 - DelegatedAccountListQuery<br>
+## 2023/03/25<br>
+### add<br>
+- WelcomeScreenQuery<br>
+### remove<br>
+- None<br>
