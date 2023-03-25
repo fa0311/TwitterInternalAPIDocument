@@ -17803,6 +17803,17 @@ Login Required: `...`<br>
 `None`<br>
 #### queryId<br>
 `None`<br>
+## WelcomeScreenQuery<br>
+Request URL: `https://api.twitter.com/graphql/W1DvxxUmlaikRiHK3zzFXA/WelcomeScreenQuery`<br>
+Request Method: `GET`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
 ## useAffiliatesAndInvitesQuery<br>
 Request URL: `https://api.twitter.com/graphql/R23fc4rldc6jOdcv8u_nRw/useAffiliatesAndInvitesQuery`<br>
 Request Method: `GET`<br>
