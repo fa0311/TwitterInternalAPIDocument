@@ -4700,16 +4700,16 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant                  | value                                   |
 |:--------------------------|:----------------------------------------|
-| all                       | {'icon': 'ti', 'label': 'S().i8ea6d4e'} |
-| community                 | {'icon': 'ii', 'label': 'S().ec5a4a26'} |
-| by_invitation             | {'icon': 'ni', 'label': 'S().b454300a'} |
-| community_members         | {'icon': 'si', 'label': 'S().i13be5a0'} |
-| super_followers_exclusive | {'icon': 'ti', 'label': 'S().feb7560a'} |
-| trusted_friends_tweet     | {'icon': 'ai', 'label': 'd'}            |
+| all                       | {'icon': 'ni', 'label': 'I().i8ea6d4e'} |
+| community                 | {'icon': 'si', 'label': 'I().ec5a4a26'} |
+| by_invitation             | {'icon': 'ii', 'label': 'I().b454300a'} |
+| community_members         | {'icon': 'ai', 'label': 'I().i13be5a0'} |
+| super_followers_exclusive | {'icon': 'ni', 'label': 'I().feb7560a'} |
+| trusted_friends_tweet     | {'icon': 'oi', 'label': 'd'}            |
 
 ```internal process
 # Error
-{[Ja.Original]:"OriginalTweet",[Ja.Quote]:"QuoteTweet",[Ja.Reply]:"Reply",[Ja.Thread]:"Retweet"}
+{[co.Original]:"OriginalTweet",[co.Quote]:"QuoteTweet",[co.Reply]:"Reply",[co.Thread]:"Retweet"}
 ```
 | constant   | value   |
 |:-----------|:--------|
@@ -4727,10 +4727,11 @@ This document is entirely auto-generated and may contain errors.<br>
 | Bold       | Bold    |
 | Italic     | Italic  |
 
-```internal process
-# Error
-{[Is.Bold]:"BOLD",[Is.Italic]:"ITALIC"}
-```
+| constant   | value   |
+|:-----------|:--------|
+| Bold       | BOLD    |
+| Italic     | ITALIC  |
+
 | constant   | value    |
 |:-----------|:---------|
 | Original   | original |
@@ -4740,7 +4741,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{[Ja.Original]:"original_tweet",[Ja.Quote]:"quote_tweet",[Ja.Reply]:"reply"}
+{[co.Original]:"original_tweet",[co.Quote]:"quote_tweet",[co.Reply]:"reply"}
 ```
 | constant            | value                              |
 |:--------------------|:-----------------------------------|
@@ -4749,7 +4750,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant                                               | value      |
 |:-------------------------------------------------------|:-----------|
-| fetchStatus                                            | zo.ZP.NONE |
+| fetchStatus                                            | Xo.ZP.NONE |
 | editTweetLimitedMarketPromptDismissedEpochMilliseconds | 0          |
 
 | constant   | value   |
