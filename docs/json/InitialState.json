@@ -5143,10 +5143,31 @@
           "value": "false"
         }
       },
-      "impression_pointers": {},
-      "impressions": {},
+      "impression_pointers": {
+        "responsive_web_logged_out_explore_home_path_enabled": [
+          "rweb_logged_out_explore_15835"
+        ],
+        "web_video_safari_hlsjs_enabled": [
+          "web_video_safari_hlsjs_16262"
+        ],
+        "responsive_web_logged_out_explore_enabled": [
+          "rweb_logged_out_explore_15835"
+        ]
+      },
+      "impressions": {
+        "rweb_logged_out_explore_15835": {
+          "key": "rweb_logged_out_explore_15835",
+          "bucket": "control",
+          "version": "3"
+        },
+        "web_video_safari_hlsjs_16262": {
+          "key": "web_video_safari_hlsjs_16262",
+          "bucket": "control",
+          "version": "1"
+        }
+      },
       "keysRead": {},
-      "settingsVersion": "936157aa6116571acbd4186e8844148d"
+      "settingsVersion": "a5eebf0c7e12035da7cc8e1029ec0e6c"
     },
     "debug": {},
     "featureSetToken": "363cfb8070a7036d0888e9886c3989cbd8b42bc3",
@@ -5221,7 +5242,7 @@
     "country": "XX",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "167977838749441687",
+    "guestId": "167986480316578975",
     "hasCommunityMemberships": "false",
     "language": "en",
     "oneFactorLoginEligibility": {
