@@ -136,7 +136,7 @@
     "method": "get"
   },
   {
-    "queryId": "dm/permissions/secret_endpoint",
+    "queryId": "dm/permissions/secret",
     "method": "get"
   },
   {

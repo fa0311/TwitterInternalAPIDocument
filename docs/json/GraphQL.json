@@ -35441,6 +35441,18 @@
     }
   },
   {
+    "n": "57176",
+    "exports": {
+      "queryId": "W1DvxxUmlaikRiHK3zzFXA",
+      "operationName": "WelcomeScreenQuery",
+      "operationType": "query",
+      "metadata": {
+        "featureSwitches": [],
+        "featureSwitch": {}
+      }
+    }
+  },
+  {
     "n": "61192",
     "exports": {
       "queryId": "R23fc4rldc6jOdcv8u_nRw",

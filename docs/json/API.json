@@ -4009,6 +4009,12 @@
       "method": "POST",
       "features": {}
     },
+    "WelcomeScreenQuery": {
+      "url": "https://api.twitter.com/graphql/W1DvxxUmlaikRiHK3zzFXA/WelcomeScreenQuery",
+      "queryId": "W1DvxxUmlaikRiHK3zzFXA",
+      "method": "GET",
+      "features": {}
+    },
     "useAffiliatesAndInvitesQuery": {
       "url": "https://api.twitter.com/graphql/R23fc4rldc6jOdcv8u_nRw/useAffiliatesAndInvitesQuery",
       "queryId": "R23fc4rldc6jOdcv8u_nRw",

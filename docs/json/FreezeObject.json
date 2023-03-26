@@ -4357,31 +4357,31 @@
   },
   {
     "all": {
-      "icon": "ti",
-      "label": "S().i8ea6d4e"
+      "icon": "ni",
+      "label": "I().i8ea6d4e"
     },
     "community": {
-      "icon": "ii",
-      "label": "S().ec5a4a26"
+      "icon": "si",
+      "label": "I().ec5a4a26"
     },
     "by_invitation": {
-      "icon": "ni",
-      "label": "S().b454300a"
+      "icon": "ii",
+      "label": "I().b454300a"
     },
     "community_members": {
-      "icon": "si",
-      "label": "S().i13be5a0"
+      "icon": "ai",
+      "label": "I().i13be5a0"
     },
     "super_followers_exclusive": {
-      "icon": "ti",
-      "label": "S().feb7560a"
+      "icon": "ni",
+      "label": "I().feb7560a"
     },
     "trusted_friends_tweet": {
-      "icon": "ai",
+      "icon": "oi",
       "label": "d"
     }
   },
-  "{[Ja.Original]:\"OriginalTweet\",[Ja.Quote]:\"QuoteTweet\",[Ja.Reply]:\"Reply\",[Ja.Thread]:\"Retweet\"}",
+  "{[co.Original]:\"OriginalTweet\",[co.Quote]:\"QuoteTweet\",[co.Reply]:\"Reply\",[co.Thread]:\"Retweet\"}",
   {
     "in": "in",
     "out": "out",
@@ -4401,20 +4401,23 @@
     "Bold": "Bold",
     "Italic": "Italic"
   },
-  "{[Is.Bold]:\"BOLD\",[Is.Italic]:\"ITALIC\"}",
+  {
+    "Bold": "BOLD",
+    "Italic": "ITALIC"
+  },
   {
     "Original": "original",
     "Reply": "reply",
     "Quote": "quote",
     "Thread": "thread"
   },
-  "{[Ja.Original]:\"original_tweet\",[Ja.Quote]:\"quote_tweet\",[Ja.Reply]:\"reply\"}",
+  "{[co.Original]:\"original_tweet\",[co.Quote]:\"quote_tweet\",[co.Reply]:\"reply\"}",
   {
     "LOCAL_STATE_LOADED": "rweb/editTweet/LOCAL_STATE_LOADED",
     "LOCAL_STATE_REQUEST": "rweb/editTweet/LOCAL_STATE_REQUEST"
   },
   {
-    "fetchStatus": "zo.ZP.NONE",
+    "fetchStatus": "Xo.ZP.NONE",
     "editTweetLimitedMarketPromptDismissedEpochMilliseconds": "0"
   },
   {
