@@ -2994,17 +2994,22 @@ This document is entirely auto-generated and may contain errors.<br>
 # Error
 {"data":{"lists":[]},"error":"null","fetchStatus":{[i.Yj.BOTTOM]:"o.ZP.NONE",[i.Yj.TOP]:"o.ZP.NONE"}}
 ```
-| constant   | value                                      |
-|:-----------|:-------------------------------------------|
-| REQUEST    | rweb/pinnedLists/FETCH_REMOTE_PINS_REQUEST |
-| SUCCESS    | rweb/pinnedLists/FETCH_REMOTE_PINS_SUCCESS |
-| FAILURE    | rweb/pinnedLists/FETCH_REMOTE_PINS_FAILURE |
+| constant   | value                               |
+|:-----------|:------------------------------------|
+| REQUEST    | rweb/pinnedLists/FETCH_PINS_REQUEST |
+| SUCCESS    | rweb/pinnedLists/FETCH_PINS_SUCCESS |
+| FAILURE    | rweb/pinnedLists/FETCH_PINS_FAILURE |
+
+| constant   | value                                   |
+|:-----------|:----------------------------------------|
+| REQUEST    | rweb/pinnedLists/PIN_MANY_LISTS_REQUEST |
+| SUCCESS    | rweb/pinnedLists/PIN_MANY_LISTS_SUCCESS |
+| FAILURE    | rweb/pinnedLists/PIN_MANY_LISTS_FAILURE |
 
 | constant    | value     |
 |:------------|:----------|
-| remote      | void 0    |
-| count       | 0         |
-| fetchStatus | i.ZP.NONE |
+| fetchStatus | l.ZP.NONE |
+| listIds     | void 0    |
 
 | constant    | value       |
 |:------------|:------------|
@@ -4709,7 +4714,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{[co.Original]:"OriginalTweet",[co.Quote]:"QuoteTweet",[co.Reply]:"Reply",[co.Thread]:"Retweet"}
+{[ho.Original]:"OriginalTweet",[ho.Quote]:"QuoteTweet",[ho.Reply]:"Reply",[ho.Thread]:"Retweet"}
 ```
 | constant   | value   |
 |:-----------|:--------|
@@ -4741,7 +4746,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{[co.Original]:"original_tweet",[co.Quote]:"quote_tweet",[co.Reply]:"reply"}
+{[ho.Original]:"original_tweet",[ho.Quote]:"quote_tweet",[ho.Reply]:"reply"}
 ```
 | constant            | value                              |
 |:--------------------|:-----------------------------------|
@@ -4750,7 +4755,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant                                               | value      |
 |:-------------------------------------------------------|:-----------|
-| fetchStatus                                            | Xo.ZP.NONE |
+| fetchStatus                                            | Yo.ZP.NONE |
 | editTweetLimitedMarketPromptDismissedEpochMilliseconds | 0          |
 
 | constant   | value   |
@@ -5539,10 +5544,24 @@ This document is entirely auto-generated and may contain errors.<br>
 | Filtering  | optInFiltering |
 | Blocking   | optInBlocking  |
 
+| constant   | value      |
+|:-----------|:-----------|
+| primary0   | primary    |
+| blue0      | blue500    |
+| green0     | green500   |
+| magenta0   | magenta500 |
+| orange0    | orange500  |
+| plum0      | plum500    |
+| purple0    | purple500  |
+| red0       | red500     |
+| teal0      | teal500    |
+| yellow0    | yellow500  |
+| gray0      | gray500    |
+
 | constant      | value                                                                      |
 |:--------------|:---------------------------------------------------------------------------|
-| earnings      | {'link': '/settings/monetization/earnings', 'text': 'c', 'size': 'xLarge'} |
-| payoutHistory | {'link': '/settings/monetization/payout_history', 'text': 'u'}             |
+| earnings      | {'link': '/settings/monetization/earnings', 'text': 'd', 'size': 'xLarge'} |
+| payoutHistory | {'link': '/settings/monetization/payout_history', 'text': 'c'}             |
 
 | constant   | value                                                                |
 |:-----------|:---------------------------------------------------------------------|
@@ -5567,20 +5586,6 @@ This document is entirely auto-generated and may contain errors.<br>
 | REQUEST    | rweb/subscriptionPayments/FETCH_SUBSCRIPTION_PRODUCT_CUSTOMER_PORTAL_URL_REQUEST |
 | SUCCESS    | rweb/subscriptionPayments/FETCH_SUBSCRIPTION_PRODUCT_CUSTOMER_PORTAL_URL_SUCCESS |
 | FAILURE    | rweb/subscriptionPayments/FETCH_SUBSCRIPTION_PRODUCT_CUSTOMER_PORTAL_URL_FAILURE |
-
-| constant   | value      |
-|:-----------|:-----------|
-| primary0   | primary    |
-| blue0      | blue500    |
-| green0     | green500   |
-| magenta0   | magenta500 |
-| orange0    | orange500  |
-| plum0      | plum500    |
-| purple0    | purple500  |
-| red0       | red500     |
-| teal0      | teal500    |
-| yellow0    | yellow500  |
-| gray0      | gray500    |
 
 | constant   | value                                               |
 |:-----------|:----------------------------------------------------|
@@ -6836,6 +6841,20 @@ This document is entirely auto-generated and may contain errors.<br>
 | apple      | https://apps.apple.com/account/billing                                                                               |
 | google     | https://play.google.com/store/account/subscriptions?sku=com.twitter.google.rogue.one.1.1&package=com.twitter.android |
 
+| constant   | value      |
+|:-----------|:-----------|
+| primary0   | primary    |
+| blue0      | blue500    |
+| green0     | green500   |
+| magenta0   | magenta500 |
+| orange0    | orange500  |
+| plum0      | plum500    |
+| purple0    | purple500  |
+| red0       | red500     |
+| teal0      | teal500    |
+| yellow0    | yellow500  |
+| gray0      | gray500    |
+
 | constant   | value   |
 |:-----------|:--------|
 | Beta       | Beta    |
@@ -7047,7 +7066,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | constant    | value     |
 |:------------|:----------|
 | fetchStatus | f.ZP.NONE |
-| config      | Te        |
+| config      | Ae        |
 
 | constant   |   value |
 |:-----------|--------:|
@@ -7060,20 +7079,6 @@ This document is entirely auto-generated and may contain errors.<br>
 | animate    | animate |
 | static     | static  |
 | prep       | prep    |
-
-| constant   | value      |
-|:-----------|:-----------|
-| primary0   | primary    |
-| blue0      | blue500    |
-| green0     | green500   |
-| magenta0   | magenta500 |
-| orange0    | orange500  |
-| plum0      | plum500    |
-| purple0    | purple500  |
-| red0       | red500     |
-| teal0      | teal500    |
-| yellow0    | yellow500  |
-| gray0      | gray500    |
 
 | constant   | value   |
 |:-----------|:--------|
