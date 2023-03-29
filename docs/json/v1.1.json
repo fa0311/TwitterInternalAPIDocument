@@ -116,10 +116,6 @@
     "method": "post"
   },
   {
-    "queryId": "dm/new",
-    "method": "post"
-  },
-  {
     "queryId": "/dm/user/update_relationship_state",
     "method": "post"
   },
