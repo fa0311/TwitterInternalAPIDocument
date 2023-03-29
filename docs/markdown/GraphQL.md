@@ -1749,7 +1749,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## BirdwatchCreateNote<br>
-Request URL: `https://api.twitter.com/graphql/0NTp75x6x6U1TLiUnYeHAA/BirdwatchCreateNote`<br>
+Request URL: `https://api.twitter.com/graphql/4KFvTXKTC64_dtm46rN3aA/BirdwatchCreateNote`<br>
 Request Method: `POST`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -1767,7 +1767,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## BirdwatchCreateRating<br>
-Request URL: `https://api.twitter.com/graphql/xWLuzZoATvfEIEGxnsLt7w/BirdwatchCreateRating`<br>
+Request URL: `https://api.twitter.com/graphql/bD3AEK9BMCSpRods_ng2fA/BirdwatchCreateRating`<br>
 Request Method: `POST`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -3377,11 +3377,11 @@ Request Method: `POST`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key                                    | type    | variable   |
-|:---------------------------------------|:--------|:-----------|
-| tweetId                                | ...     | n          |
-| ...()(0,i.d)                           | ...     | _          |
-| withQuickPromoteEligibilityTweetFields | boolean | True       |
+| key          | type   | variable      |
+|:-------------|:-------|:--------------|
+| communityId  | ...    | t.communityId |
+| theme        | ...    | t.theme       |
+| ...()(0,a.S) | ...    | _             |
 
 #### features<br>
 | key                                                               | type    | variable   |
@@ -10344,7 +10344,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## BirdwatchCreateNote<br>
-Request URL: `https://api.twitter.com/graphql/0NTp75x6x6U1TLiUnYeHAA/BirdwatchCreateNote`<br>
+Request URL: `https://api.twitter.com/graphql/4KFvTXKTC64_dtm46rN3aA/BirdwatchCreateNote`<br>
 Request Method: `POST`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -10362,7 +10362,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## BirdwatchCreateRating<br>
-Request URL: `https://api.twitter.com/graphql/xWLuzZoATvfEIEGxnsLt7w/BirdwatchCreateRating`<br>
+Request URL: `https://api.twitter.com/graphql/bD3AEK9BMCSpRods_ng2fA/BirdwatchCreateRating`<br>
 Request Method: `POST`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -11138,11 +11138,11 @@ Request Method: `POST`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key                                    | type    | variable   |
-|:---------------------------------------|:--------|:-----------|
-| tweetId                                | ...     | n          |
-| ...()(0,i.d)                           | ...     | _          |
-| withQuickPromoteEligibilityTweetFields | boolean | True       |
+| key          | type   | variable      |
+|:-------------|:-------|:--------------|
+| communityId  | ...    | t.communityId |
+| theme        | ...    | t.theme       |
+| ...()(0,a.S) | ...    | _             |
 
 #### features<br>
 | key                                                               | type    | variable   |
@@ -17746,7 +17746,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## AffiliatesScreenAffiliatesQuery<br>
-Request URL: `https://api.twitter.com/graphql/0OGz7UtpFJ7gPkFh16s5Ow/AffiliatesScreenAffiliatesQuery`<br>
+Request URL: `https://api.twitter.com/graphql/aEzRMDKCND_BuvrOZq2J2Q/AffiliatesScreenAffiliatesQuery`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
