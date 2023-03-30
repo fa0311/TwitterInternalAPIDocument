@@ -19,6 +19,25 @@
       "env": {
         "ENV": "Develop",
         "DEBUG": "True",
+        "CLIENT_TYPE": "Responsive",
+        "OUTPUT_DIR": "docs",
+        "SCAN_TYPE": "Full",
+        "TQDM_DISABLE": "False",
+        "LOGGING_LEVEL": "Into"
+      }
+    },
+    {
+      "name": "Generator-Deck",
+      "type": "python",
+      "request": "launch",
+      "program": "generator.py",
+      "console": "integratedTerminal",
+      "justMyCode": true,
+      "env": {
+        "ENV": "Develop",
+        "DEBUG": "True",
+        "CLIENT_TYPE": "Deck",
+        "OUTPUT_DIR": "docs/deck",
         "SCAN_TYPE": "Full",
         "TQDM_DISABLE": "False",
         "LOGGING_LEVEL": "Into"

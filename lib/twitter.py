@@ -4,6 +4,7 @@ import re
 
 class twitter_home:
     TWITTER_HOME = "https://twitter.com/home"
+    CLIENT = "responsive-web"
     LATEST_USER_AGENT = "https://raw.githubusercontent.com/TechfaneTechnologies/latest-user-agent/main/user_agents.json"
     TWITTER_FRONTEND_FLOW = False
 
@@ -34,9 +35,12 @@ class twitter_home:
         return {"User-Agent": self.user_agent_list[0]}
 
     def get_script_url(self) -> list[str]:
+        src = "(https://abs\.twimg\.com\/{0}\/client-web\/[a-zA-Z0-9\.]*?\.js)".format(
+            re.escape(self.CLIENT)
+        )
         reg_script = '<script type="text/javascript" charset="utf-8" nonce="{nonce}" crossorigin="anonymous" src="{src}"></script>'.format(
             nonce="([a-zA-Z0-9]{48})",
-            src="(https://abs\.twimg\.com\/responsive\-web\/client\-web\/[a-zA-Z0-9\.]*?\.js)",
+            src=src,
         )
         return [url[1] for url in re.findall(reg_script, self.response.text)]
 
@@ -46,6 +50,11 @@ class twitter_home:
             any="([\s\S]*?)",
         )
         return [script[1] for script in re.findall(reg_script, self.response.text)]
+
+
+class twitter_deck(twitter_home):
+    TWITTER_HOME = "https://tweetdeck.twitter.com"
+    CLIENT = "gryphon-client"
 
 
 try:

@@ -21,6 +21,8 @@ from lib.legacy import *
 # === Confing ===
 DEBUG = os.environ.get("DEBUG", "False") == "True"
 ENV = os.environ.get("ENV", "Develop")
+CLIENT_TYPE = os.environ.get("CLIENT_TYPE", "Responsive")
+OUTPUT_DIR = os.environ.get("OUTPUT_DIR", "docs")
 GITHUB_TOKEN = os.environ.get("GITHUB_TOKEN", None)
 REPOSITORY = os.environ.get("REPOSITORY", None)
 SCAN_TYPE = os.environ.get("SCAN_TYPE", "Full")
@@ -39,7 +41,10 @@ logging.info("init is completed")
 
 # === Requests ===
 
-twitter = twitter_home()
+if CLIENT_TYPE == "Responsive":
+    twitter = twitter_home()
+elif CLIENT_TYPE == "Deck":
+    twitter = twitter_deck()
 
 if twitter_home.TWITTER_FRONTEND_FLOW and os.path.isfile("cookie.json"):
     twitter.load("cookie.json")
@@ -64,7 +69,7 @@ meta_output = json.loads(json_parser(meta_data))
 script_load_data = search_js_reg(parsed_script_list, "Promise.all")[0].after
 script_load_json = json.loads(json_parser(script_load_data))
 script_load_output = {}
-base_url = "https://abs.twimg.com/responsive-web/client-web/"
+base_url = "https://abs.twimg.com/{0}/client-web/".format(twitter.CLIENT)
 for k in script_load_json:
     url = "{0}{1}.{2}a.js".format(base_url, k, script_load_json[k])
     script_load_output[k] = url
@@ -141,7 +146,7 @@ if DEBUG:
     )
 
 # === OUTPUT ===
-items = {
+items_base = {
     FileConf.GRAPH_QL_JSON: json.dumps(graphql_output, **dumps_args),
     FileConf.GRAPH_QL_MD: gen_md_graphql(graphql_output).output,
     FileConf.V11_QL_JSON: json.dumps(v11_output, **dumps_args),
@@ -154,6 +159,8 @@ items = {
     FileConf.API_JSON: json.dumps(api_output, **dumps_args),
     FileConf.CHANGE_LOG_MD: "",
 }
+output_dir = OUTPUT_DIR if OUTPUT_DIR[-1] == "/" else "{0}{1}".format(OUTPUT_DIR, "/")
+items = {"{0}{1}".format(output_dir, k): items_base[k] for k in items_base.keys()}
 
 for k, o in i18n_output.items():
     items.update({f"docs/json/{k}.json": json.dumps(o, **dumps_args)})
@@ -195,15 +202,20 @@ for title, data in diff_data.items():
     else:
         body.li("None")
 
-items.update({FileConf.CHANGE_LOG_MD: items_backup[FileConf.CHANGE_LOG_MD]})
-
+change_log = items_backup.get(FileConf.CHANGE_LOG_MD, "")
 if change_len > 0:
-    items[FileConf.CHANGE_LOG_MD] += "## {time}{br}{new}".format(
+    change_log += "## {time}{br}{new}".format(
         br="<br>\n",
         time=datetime.datetime.now().strftime("%Y/%m/%d"),
         new=body.output,
     )
 
+
+# === File Check===
+
+items_base.update({FileConf.CHANGE_LOG_MD: change_log})
+items = {"{0}{1}".format(output_dir, k): items_base[k] for k in items_base.keys()}
+[open(f, "a+").close() for f in items.keys()]
 
 # === WRITE ===
 [write(k, items[k]) for k in items.keys()]
@@ -246,6 +258,10 @@ if ENV == "GithubAction":
             )
         except:
             logging.warning("A pull request already exists")
+            head = "fa0311:{0}".format(branch)
+            repo.get_pulls(state="open", head=head)[0].create_comment(
+                body=body.output,
+            )
 else:
     for file_name in items.keys():
         if items[file_name] == items_backup[file_name]:
