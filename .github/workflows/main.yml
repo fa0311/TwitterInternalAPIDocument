@@ -38,3 +38,11 @@ jobs:
           ENV: "GithubAction"
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           REPOSITORY: ${{ github.repository }}
+      - name: Run Python (Deck)
+        run: python generator.py
+        env:
+          ENV: "GithubAction"
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          REPOSITORY: ${{ github.repository }}
+          CLIENT_TYPE: Deck
+          OUTPUT_DIR: docs/deck

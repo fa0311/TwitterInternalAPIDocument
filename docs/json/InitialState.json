@@ -81,17 +81,12 @@
       "errors": {},
       "fetchStatus": {}
     },
-    "liveEvents": {
-      "entities": {},
-      "errors": {},
-      "fetchStatus": {}
-    },
     "imageCache": {
       "entities": {},
       "errors": {},
       "fetchStatus": {}
     },
-    "emailValidity": {
+    "legacyAndUnifiedCards": {
       "entities": {},
       "errors": {},
       "fetchStatus": {}
@@ -106,6 +101,11 @@
       "errors": {},
       "fetchStatus": {}
     },
+    "emailValidity": {
+      "entities": {},
+      "errors": {},
+      "fetchStatus": {}
+    },
     "passwordValidity": {
       "entities": {},
       "errors": {},
@@ -116,7 +116,7 @@
       "errors": {},
       "fetchStatus": {}
     },
-    "legacyAndUnifiedCards": {
+    "liveEvents": {
       "entities": {},
       "errors": {},
       "fetchStatus": {}
@@ -3250,10 +3250,10 @@
           "value": "false"
         },
         "graduated_access_invisible_treatment_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "graduated_access_user_prompt_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "graphql_composer_and_dm_card_previews_enabled": {
           "value": "false"
@@ -3454,7 +3454,7 @@
           "value": "0"
         },
         "longform_notetweets_tweet_storm_enabled": {
-          "value": "true"
+          "value": "false"
         },
         "longform_reader_mode_view_in_reader_mode_entry_button_enabled": {
           "value": "false"
@@ -5161,7 +5161,7 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "a791afc4a3e3195adb4a9a18c07cbaa1"
+      "settingsVersion": "8890448e8fb828d0c1d7dc93e363e541"
     },
     "debug": {},
     "featureSetToken": "66c97d44a2bf2fdb241491a57b0d6daa6b952bd5",
@@ -5236,7 +5236,7 @@
     "country": "US",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "168012403426790591",
+    "guestId": "168021041553880589",
     "hasCommunityMemberships": "false",
     "language": "en",
     "oneFactorLoginEligibility": {
