@@ -98,7 +98,7 @@ def marge_exports(parsed_list: list, graphql_output: list) -> list:
     return exports_output
 
 
-def marge_metadata(graphql_output: list, initial_output: dict) -> list:
+def marge_feature_switch(initial_output: dict) -> dict:
     featureSwitches = {}
     for k in initial_output["featureSwitch"].keys():
         if k == "debug":
@@ -110,14 +110,18 @@ def marge_metadata(graphql_output: list, initial_output: dict) -> list:
         if k == "user":
             for k in initial_output["featureSwitch"]["user"].keys():
                 featureSwitches[k] = initial_output["featureSwitch"]["user"][k]
+    return featureSwitches
+
+
+def marge_metadata(graphql_output: list, feature_switch: dict) -> list:
     for i in range(len(graphql_output)):
         graphql_output[i]["exports"]["metadata"]["featureSwitch"] = {}
         for switch in graphql_output[i]["exports"]["metadata"]["featureSwitches"]:
-            for k in featureSwitches:
+            for k in feature_switch:
                 if switch == k:
                     graphql_output[i]["exports"]["metadata"]["featureSwitch"][
                         switch
-                    ] = featureSwitches[k]
+                    ] = feature_switch[k]
                     break
             else:
                 logging.warning("NotFoundKey: " + switch)

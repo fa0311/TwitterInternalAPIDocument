@@ -114,7 +114,9 @@ graphql_output = get_graphql(parsed_list)
 logging.info("get_graphql is completed")
 graphql_output = marge_exports(parsed_list, graphql_output)
 logging.info("marge_exports is completed")
-graphql_output = marge_metadata(graphql_output, initial_output)
+feature_switch = marge_feature_switch(initial_output)
+logging.info("marge_exports is completed")
+graphql_output = marge_metadata(graphql_output, feature_switch)
 logging.info("marge_metadata is completed")
 freeze_object_output = get_freeze_object(parsed_list)
 logging.info("get_freeze_object is completed")
@@ -146,7 +148,8 @@ if DEBUG:
     )
 
 # === OUTPUT ===
-items_base = {
+output_dir = OUTPUT_DIR if OUTPUT_DIR[-1] == "/" else f"{OUTPUT_DIR}/"
+items = {
     FileConf.GRAPH_QL_JSON: json.dumps(graphql_output, **dumps_args),
     FileConf.GRAPH_QL_MD: gen_md_graphql(graphql_output).output,
     FileConf.V11_QL_JSON: json.dumps(v11_output, **dumps_args),
@@ -159,12 +162,10 @@ items_base = {
     FileConf.API_JSON: json.dumps(api_output, **dumps_args),
     FileConf.CHANGE_LOG_MD: "",
 }
-output_dir = OUTPUT_DIR if OUTPUT_DIR[-1] == "/" else "{0}{1}".format(OUTPUT_DIR, "/")
-items = {"{0}{1}".format(output_dir, k): items_base[k] for k in items_base.keys()}
-
 for k, o in i18n_output.items():
-    items.update({f"docs/json/{k}.json": json.dumps(o, **dumps_args)})
+    items.update({f"json/{k}.json": json.dumps(o, **dumps_args)})
 
+items = {f"{output_dir}{k}": items[k] for k in items.keys()}
 
 # === Backup and File Check===
 [os.makedirs("/".join(f.split("/")[:-1]), exist_ok=True) for f in items.keys()]
@@ -178,23 +179,26 @@ logging.info("backup is completed")
 items_backup = {k: read(f"{k}.backup") for k in items.keys()}
 
 
-# === DIFF ===
+# === DIFF API ===
 
 
 body = md_generator()
+body.h3("API")
 try:
-    backup_graphql_data = json.loads(items_backup[FileConf.GRAPH_QL_JSON])
+    backup_graphql_data = json.loads(
+        items_backup[f"{output_dir}{FileConf.GRAPH_QL_JSON}"]
+    )
 except:
     backup_graphql_data = {}
 
-diff_data = diff(
+diff_data = diff_list(
     graphql_output,
     backup_graphql_data,
     lambda x: x["exports"]["operationName"],
 )
 change_len = 0
 for title, data in diff_data.items():
-    body.h3(title)
+    body.h4(title)
     if len(data) > 0:
         for li in data:
             body.li(li)
@@ -202,7 +206,36 @@ for title, data in diff_data.items():
     else:
         body.li("None")
 
-change_log = items_backup.get(FileConf.CHANGE_LOG_MD, "")
+# === DIFF Feature Switch ===
+
+body.h3("Feature Switch")
+
+try:
+    backup_initial_state = json.loads(
+        items_backup[f"{output_dir}{FileConf.INITIAL_STATE_JSON}"]
+    )
+    backup_feature_switch = marge_feature_switch(backup_initial_state)
+except:
+    backup_initial_state = {}
+    backup_feature_switch = {}
+
+diff_data = diff_dict(
+    feature_switch,
+    backup_feature_switch,
+)
+change_len = 0
+for title, data in diff_data.items():
+    body.h4(title)
+    if len(data) > 0:
+        for li in data:
+            body.li(li)
+            change_len += 1
+    else:
+        body.li("None")
+
+# === Gen Change Log ===
+
+change_log = items_backup.get(f"{output_dir}{FileConf.CHANGE_LOG_MD}", "")
 if change_len > 0:
     change_log += "## {time}{br}{new}".format(
         br="<br>\n",
@@ -210,11 +243,9 @@ if change_len > 0:
         new=body.output,
     )
 
-
 # === File Check===
 
-items_base.update({FileConf.CHANGE_LOG_MD: change_log})
-items = {"{0}{1}".format(output_dir, k): items_base[k] for k in items_base.keys()}
+items.update({f"{output_dir}{FileConf.CHANGE_LOG_MD}": change_log})
 [open(f, "a+").close() for f in items.keys()]
 
 # === WRITE ===
