@@ -4714,7 +4714,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{[ho.Original]:"OriginalTweet",[ho.Quote]:"QuoteTweet",[ho.Reply]:"Reply",[ho.Thread]:"Retweet"}
+{[mo.Original]:"OriginalTweet",[mo.Quote]:"QuoteTweet",[mo.Reply]:"Reply",[mo.Thread]:"Retweet"}
 ```
 | constant   | value   |
 |:-----------|:--------|
@@ -4746,7 +4746,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{[ho.Original]:"original_tweet",[ho.Quote]:"quote_tweet",[ho.Reply]:"reply"}
+{[mo.Original]:"original_tweet",[mo.Quote]:"quote_tweet",[mo.Reply]:"reply"}
 ```
 | constant            | value                              |
 |:--------------------|:-----------------------------------|
@@ -4755,7 +4755,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant                                               | value      |
 |:-------------------------------------------------------|:-----------|
-| fetchStatus                                            | Yo.ZP.NONE |
+| fetchStatus                                            | er.ZP.NONE |
 | editTweetLimitedMarketPromptDismissedEpochMilliseconds | 0          |
 
 | constant   | value   |
@@ -5071,8 +5071,8 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant         | value   |
 |:-----------------|:--------|
-| DELEGATE_ERR_002 | U       |
-| DELEGATE_ERR_003 | z       |
+| DELEGATE_ERR_002 | z       |
+| DELEGATE_ERR_003 | U       |
 | DELEGATE_ERR_004 | H       |
 | DELEGATE_ERR_005 | V       |
 | DELEGATE_ERR_006 | B       |
@@ -7065,8 +7065,14 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant    | value     |
 |:------------|:----------|
-| fetchStatus | f.ZP.NONE |
-| config      | Ae        |
+| fetchStatus | p.ZP.NONE |
+| config      | we        |
+
+| constant     | value        |
+|:-------------|:-------------|
+| createInvite | createInvite |
+| resendInvite | resendInvite |
+| deleteInvite | deleteInvite |
 
 | constant   |   value |
 |:-----------|--------:|
