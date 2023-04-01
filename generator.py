@@ -263,9 +263,9 @@ if ENV == "GithubAction":
 
     for file_name in set(list(items.keys()) + list(items_backup.keys())):
         try:
-            if items[file_name] == items_backup[file_name]:
+            if items.get(file_name, None) == items_backup.get(file_name, None):
                 logging.info(f"No change to {file_name}")
-            elif items_backup[file_name] == None:
+            elif items_backup.get(file_name, None) == None:
                 logging.info(f"Create to {file_name}")
                 repo.create_file(
                     file_name,
@@ -273,7 +273,7 @@ if ENV == "GithubAction":
                     content=items[file_name],
                     branch=branch,
                 )
-            elif items[file_name] == None:
+            elif items.get(file_name, None) == None:
                 logging.info(f"Remove to {file_name}")
                 repo.delete_file(
                     file_name,
