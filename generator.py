@@ -286,7 +286,7 @@ if ENV == "GithubAction":
                 repo.update_file(
                     file_name,
                     message=f"Update {file_name} on {branch} branch",
-                    content=items["new"],
+                    content=items[file_name],
                     sha=repo.get_contents(file_name, ref=branch).sha,
                     branch=branch,
                 )
