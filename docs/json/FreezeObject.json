@@ -4385,7 +4385,7 @@
       "label": "d"
     }
   },
-  "{[ho.Original]:\"OriginalTweet\",[ho.Quote]:\"QuoteTweet\",[ho.Reply]:\"Reply\",[ho.Thread]:\"Retweet\"}",
+  "{[mo.Original]:\"OriginalTweet\",[mo.Quote]:\"QuoteTweet\",[mo.Reply]:\"Reply\",[mo.Thread]:\"Retweet\"}",
   {
     "in": "in",
     "out": "out",
@@ -4415,13 +4415,13 @@
     "Quote": "quote",
     "Thread": "thread"
   },
-  "{[ho.Original]:\"original_tweet\",[ho.Quote]:\"quote_tweet\",[ho.Reply]:\"reply\"}",
+  "{[mo.Original]:\"original_tweet\",[mo.Quote]:\"quote_tweet\",[mo.Reply]:\"reply\"}",
   {
     "LOCAL_STATE_LOADED": "rweb/editTweet/LOCAL_STATE_LOADED",
     "LOCAL_STATE_REQUEST": "rweb/editTweet/LOCAL_STATE_REQUEST"
   },
   {
-    "fetchStatus": "Yo.ZP.NONE",
+    "fetchStatus": "er.ZP.NONE",
     "editTweetLimitedMarketPromptDismissedEpochMilliseconds": "0"
   },
   {
@@ -4693,8 +4693,8 @@
     "PendingFollowUser": "PendingFollowUser"
   },
   {
-    "DELEGATE_ERR_002": "U",
-    "DELEGATE_ERR_003": "z",
+    "DELEGATE_ERR_002": "z",
+    "DELEGATE_ERR_003": "U",
     "DELEGATE_ERR_004": "H",
     "DELEGATE_ERR_005": "V",
     "DELEGATE_ERR_006": "B"
@@ -6440,8 +6440,13 @@
     "SET_CONFIG": "rweb/verifiedOrgConfig/SET"
   },
   {
-    "fetchStatus": "f.ZP.NONE",
-    "config": "Ae"
+    "fetchStatus": "p.ZP.NONE",
+    "config": "we"
+  },
+  {
+    "createInvite": "createInvite",
+    "resendInvite": "resendInvite",
+    "deleteInvite": "deleteInvite"
   },
   {
     "normal": "100",

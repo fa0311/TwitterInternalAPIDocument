@@ -177,7 +177,9 @@ logging.info("backup is completed")
 
 # === READ ===
 items_backup = {k: read(f"{k}.backup") for k in items.keys()}
-
+items_backup = {
+    k: items_backup[k] for k in items_backup.keys() if items_backup[k] != ""
+}
 
 # === DIFF API ===
 
@@ -258,41 +260,52 @@ if ENV == "GithubAction":
     g = Github(GITHUB_TOKEN)
     repo = g.get_repo(REPOSITORY)
     branch = "develop"
-    send_pull_request = False
 
-    for file_name in items.keys():
-
-        if items[file_name] == items_backup[file_name]:
-            logging.info(f"No change to {file_name}")
-        else:
-            logging.info(f"Commit to {file_name}")
-            send_pull_request = True
-            try:
-                f = repo.get_contents(file_name, ref=branch)
-                repo.update_file(
-                    f.path,
+    for file_name in set(list(items.keys()) + list(items_backup.keys())):
+        try:
+            if items.get(file_name, None) == items_backup.get(file_name, None):
+                logging.info(f"No change to {file_name}")
+            elif items_backup.get(file_name, None) == None:
+                logging.info(f"Create to {file_name}")
+                repo.create_file(
+                    file_name,
                     message=f"Update {file_name} on {branch} branch",
                     content=items[file_name],
-                    sha=f.sha,
                     branch=branch,
                 )
-            except:
-                logging.warning(f"Not Found {file_name} on {branch} branch")
-
-    if send_pull_request:
-        try:
-            repo.create_pull(
-                title="Update Document",
-                body=body.output,
-                head=branch,
-                base="master",
-            )
+            elif items.get(file_name, None) == None:
+                logging.info(f"Remove to {file_name}")
+                repo.delete_file(
+                    file_name,
+                    message=f"Remove {file_name} on {branch} branch",
+                    sha=repo.get_contents(file_name, ref=branch).sha,
+                    branch=branch,
+                )
+            else:
+                logging.info(f"Update to {file_name}")
+                repo.update_file(
+                    file_name,
+                    message=f"Update {file_name} on {branch} branch",
+                    content=items[file_name],
+                    sha=repo.get_contents(file_name, ref=branch).sha,
+                    branch=branch,
+                )
         except:
-            logging.warning("A pull request already exists")
-            head = "fa0311:{0}".format(branch)
-            repo.get_pulls(state="open", head=head)[0].create_comment(
-                body=body.output,
-            )
+            logging.warning(f"Error to {file_name}")
+
+    try:
+        repo.create_pull(
+            title="Update Document",
+            body=body.output,
+            head=branch,
+            base="master",
+        )
+    except:
+        logging.warning("A pull request already exists")
+        head = "fa0311:{0}".format(branch)
+        repo.get_pulls(state="open", head=head)[0].create_issue_comment(
+            body=body.output,
+        )
 else:
     for file_name in items.keys():
         if items[file_name] == items_backup[file_name]:

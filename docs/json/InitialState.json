@@ -86,7 +86,7 @@
       "errors": {},
       "fetchStatus": {}
     },
-    "legacyAndUnifiedCards": {
+    "emailValidity": {
       "entities": {},
       "errors": {},
       "fetchStatus": {}
@@ -101,11 +101,6 @@
       "errors": {},
       "fetchStatus": {}
     },
-    "emailValidity": {
-      "entities": {},
-      "errors": {},
-      "fetchStatus": {}
-    },
     "passwordValidity": {
       "entities": {},
       "errors": {},
@@ -116,7 +111,17 @@
       "errors": {},
       "fetchStatus": {}
     },
+    "legacyAndUnifiedCards": {
+      "entities": {},
+      "errors": {},
+      "fetchStatus": {}
+    },
     "liveEvents": {
+      "entities": {},
+      "errors": {},
+      "fetchStatus": {}
+    },
+    "places": {
       "entities": {},
       "errors": {},
       "fetchStatus": {}
@@ -431,6 +436,9 @@
       },
       "blue_business_consumption_api_enabled": {
         "value": "true"
+      },
+      "blue_business_profile_image_shape_enabled": {
+        "value": "false"
       },
       "blue_business_subscriptions_management_page_updates_enabled": {
         "value": "true"
@@ -936,7 +944,7 @@
         "value": "0"
       },
       "longform_notetweets_tweet_storm_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "longform_reader_mode_view_in_reader_mode_entry_button_enabled": {
         "value": "false"
@@ -2200,6 +2208,9 @@
       "subscriptions_management_enabled": {
         "value": "true"
       },
+      "subscriptions_marketing_page_annual_redesign_content_enabled": {
+        "value": "false"
+      },
       "subscriptions_marketing_page_include_tax_enabled": {
         "value": "false"
       },
@@ -2950,6 +2961,9 @@
         "blue_business_consumption_api_enabled": {
           "value": "true"
         },
+        "blue_business_profile_image_shape_enabled": {
+          "value": "false"
+        },
         "blue_business_subscriptions_management_page_updates_enabled": {
           "value": "true"
         },
@@ -3274,7 +3288,7 @@
           "value": "graphql_only"
         },
         "graphql_timeline_v2_bookmark_timeline": {
-          "value": "false"
+          "value": "true"
         },
         "graphql_timeline_v2_query_threaded_conversation_with_injections": {
           "value": "true"
@@ -4718,6 +4732,9 @@
         "subscriptions_management_enabled": {
           "value": "true"
         },
+        "subscriptions_marketing_page_annual_redesign_content_enabled": {
+          "value": "false"
+        },
         "subscriptions_marketing_page_include_tax_enabled": {
           "value": "false"
         },
@@ -5161,10 +5178,10 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "8890448e8fb828d0c1d7dc93e363e541"
+      "settingsVersion": "ef6a2895263542b4a5065b33d33c8e15"
     },
     "debug": {},
-    "featureSetToken": "66c97d44a2bf2fdb241491a57b0d6daa6b952bd5",
+    "featureSetToken": "017e57817c663ccc464589198fbfdc97483f982e",
     "isLoaded": "true",
     "isLoading": "false"
   },
@@ -5236,7 +5253,7 @@
     "country": "US",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "168021041553880589",
+    "guestId": "168037819868361333",
     "hasCommunityMemberships": "false",
     "language": "en",
     "oneFactorLoginEligibility": {
