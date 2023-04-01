@@ -115,6 +115,11 @@
       "entities": {},
       "errors": {},
       "fetchStatus": {}
+    },
+    "legacyAndUnifiedCards": {
+      "entities": {},
+      "errors": {},
+      "fetchStatus": {}
     }
   },
   "featureSwitch": {
@@ -5196,16 +5201,26 @@
           "value": "false"
         },
         "web_video_safari_hlsjs_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "web_video_transcribed_captions_enabled": {
           "value": "false"
         }
       },
-      "impression_pointers": {},
-      "impressions": {},
+      "impression_pointers": {
+        "web_video_safari_hlsjs_enabled": [
+          "web_video_safari_hlsjs_16262"
+        ]
+      },
+      "impressions": {
+        "web_video_safari_hlsjs_16262": {
+          "key": "web_video_safari_hlsjs_16262",
+          "bucket": "treatment",
+          "version": "1"
+        }
+      },
       "keysRead": {},
-      "settingsVersion": "5ccf9c054c4c8e88c1779203c8f3a0ff"
+      "settingsVersion": "fb2ddd01e88d0837d76f4cc6463c4a17"
     },
     "debug": {},
     "featureSetToken": "b5b820b7881296f8f225277c5f71a5703376c9d0",
@@ -5280,7 +5295,7 @@
     "country": "US",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "168037855383333039",
+    "guestId": "168038345547947050",
     "hasCommunityMemberships": "false",
     "language": "en",
     "oneFactorLoginEligibility": {
