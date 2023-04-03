@@ -54,7 +54,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## UsersVerifiedAvatars<br>
-Request URL: `https://api.twitter.com/graphql/pNpPbYKtMTdqXgET8fNQIA/UsersVerifiedAvatars`<br>
+Request URL: `https://api.twitter.com/graphql/tJsRd-5hFH3Zy7_4V9nqIg/UsersVerifiedAvatars`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -63,867 +63,10 @@ Login Required: `...`<br>
 #### features<br>
 | key                                                | type    | variable   |
 |:---------------------------------------------------|:--------|:-----------|
+| blue_business_profile_image_shape_enabled          | boolean | False      |
 | blue_business_consumption_api_enabled              | boolean | True       |
 | responsive_web_graphql_timeline_navigation_enabled | boolean | True       |
 
-#### queryId<br>
-`None`<br>
-## CheckTweetForNudge<br>
-Request URL: `https://api.twitter.com/graphql/C2dcvh7H69JALtomErxWlA/CheckTweetForNudge`<br>
-Request Method: `POST`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-| key                          | type    | variable   |
-|:-----------------------------|:--------|:-----------|
-| standardized_nudges_toxicity | boolean | False      |
-
-#### queryId<br>
-`None`<br>
-## ConversationControlChange<br>
-Request URL: `https://api.twitter.com/graphql/hb1elGcj6769uT8qVYqtjw/ConversationControlChange`<br>
-Request Method: `POST`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-`None`<br>
-#### queryId<br>
-`None`<br>
-## ConversationControlDelete<br>
-Request URL: `https://api.twitter.com/graphql/OoMO_aSZ1ZXjegeamF9QmA/ConversationControlDelete`<br>
-Request Method: `POST`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-`None`<br>
-#### queryId<br>
-`None`<br>
-## CreateBookmark<br>
-Request URL: `https://api.twitter.com/graphql/aoDbu3RHznuiSkQ9aNM67Q/CreateBookmark`<br>
-Request Method: `POST`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-`None`<br>
-#### queryId<br>
-`None`<br>
-## CreateNoteTweet<br>
-Request URL: `https://api.twitter.com/graphql/K5kylRYkO5r0LS4Rtsyrwg/CreateNoteTweet`<br>
-Request Method: `POST`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-| key                                                                     | type    |   variable | default   |
-|:------------------------------------------------------------------------|:--------|-----------:|:----------|
-| tweetypie_unmention_optimization_enabled                                | boolean |          1 | nan       |
-| vibe_api_enabled                                                        | boolean |          1 | nan       |
-| responsive_web_edit_tweet_api_enabled                                   | boolean |          1 | nan       |
-| graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean |          1 | nan       |
-| view_counts_everywhere_api_enabled                                      | boolean |          1 | nan       |
-| longform_notetweets_consumption_enabled                                 | boolean |          1 | nan       |
-| tweet_awards_web_tipping_enabled                                        | boolean |          0 | nan       |
-| interactive_text_enabled                                                | boolean |          1 | nan       |
-| responsive_web_text_conversations_enabled                               | boolean |          0 | nan       |
-| longform_notetweets_richtext_consumption_enabled                        | ...     |        nan | error     |
-| blue_business_profile_image_shape_enabled                               | boolean |          0 | nan       |
-| responsive_web_graphql_exclude_directive_enabled                        | boolean |          1 | nan       |
-| verified_phone_label_enabled                                            | boolean |          0 | nan       |
-| freedom_of_speech_not_reach_fetch_enabled                               | boolean |          0 | nan       |
-| standardized_nudges_misinfo                                             | boolean |          1 | nan       |
-| tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean |          0 | nan       |
-| responsive_web_graphql_timeline_navigation_enabled                      | boolean |          1 | nan       |
-| responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean |          0 | nan       |
-| responsive_web_enhance_cards_enabled                                    | boolean |          0 | nan       |
-
-#### queryId<br>
-`None`<br>
-## CreateRetweet<br>
-Request URL: `https://api.twitter.com/graphql/ojPdsZsimiJrUGLR1sjUtA/CreateRetweet`<br>
-Request Method: `POST`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-`None`<br>
-#### queryId<br>
-`None`<br>
-## CreateTweet<br>
-Request URL: `https://api.twitter.com/graphql/VtVTvbMKuYFBF9m1s4L1sw/CreateTweet`<br>
-Request Method: `POST`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-| key                                                                     | type    |   variable | default   |
-|:------------------------------------------------------------------------|:--------|-----------:|:----------|
-| tweetypie_unmention_optimization_enabled                                | boolean |          1 | nan       |
-| vibe_api_enabled                                                        | boolean |          1 | nan       |
-| responsive_web_edit_tweet_api_enabled                                   | boolean |          1 | nan       |
-| graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean |          1 | nan       |
-| view_counts_everywhere_api_enabled                                      | boolean |          1 | nan       |
-| longform_notetweets_consumption_enabled                                 | boolean |          1 | nan       |
-| tweet_awards_web_tipping_enabled                                        | boolean |          0 | nan       |
-| interactive_text_enabled                                                | boolean |          1 | nan       |
-| responsive_web_text_conversations_enabled                               | boolean |          0 | nan       |
-| longform_notetweets_richtext_consumption_enabled                        | ...     |        nan | error     |
-| blue_business_profile_image_shape_enabled                               | boolean |          0 | nan       |
-| responsive_web_graphql_exclude_directive_enabled                        | boolean |          1 | nan       |
-| verified_phone_label_enabled                                            | boolean |          0 | nan       |
-| freedom_of_speech_not_reach_fetch_enabled                               | boolean |          0 | nan       |
-| standardized_nudges_misinfo                                             | boolean |          1 | nan       |
-| tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean |          0 | nan       |
-| responsive_web_graphql_timeline_navigation_enabled                      | boolean |          1 | nan       |
-| responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean |          0 | nan       |
-| responsive_web_enhance_cards_enabled                                    | boolean |          0 | nan       |
-
-#### queryId<br>
-`None`<br>
-## CreateTweetDownvote<br>
-Request URL: `https://api.twitter.com/graphql/Eo65jl-gww30avDgrXvhUA/CreateTweetDownvote`<br>
-Request Method: `POST`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-`None`<br>
-#### queryId<br>
-`None`<br>
-## CreateTweetReaction<br>
-Request URL: `https://api.twitter.com/graphql/D7M6X3h4-mJE8UB1Ap3_dQ/CreateTweetReaction`<br>
-Request Method: `POST`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-`None`<br>
-#### queryId<br>
-`None`<br>
-## DeleteBookmark<br>
-Request URL: `https://api.twitter.com/graphql/Wlmlj2-xzyS1GN3a6cj-mQ/DeleteBookmark`<br>
-Request Method: `POST`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-`None`<br>
-#### queryId<br>
-`None`<br>
-## DeleteRetweet<br>
-Request URL: `https://api.twitter.com/graphql/iQtK4dl5hBmXewYZuEOKVw/DeleteRetweet`<br>
-Request Method: `POST`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-`None`<br>
-#### queryId<br>
-`None`<br>
-## DeleteTweet<br>
-Request URL: `https://api.twitter.com/graphql/VaenaVgh5q5ih7kvyVjgtg/DeleteTweet`<br>
-Request Method: `POST`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-`None`<br>
-#### queryId<br>
-`None`<br>
-## DeleteTweetDownvote<br>
-Request URL: `https://api.twitter.com/graphql/VNEvEGXaUAMfiExP8Tbezw/DeleteTweetDownvote`<br>
-Request Method: `POST`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-`None`<br>
-#### queryId<br>
-`None`<br>
-## DeleteTweetReaction<br>
-Request URL: `https://api.twitter.com/graphql/GKwK0Rj4EdkfwdHQMZTpuw/DeleteTweetReaction`<br>
-Request Method: `POST`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-`None`<br>
-#### queryId<br>
-`None`<br>
-## FavoriteTweet<br>
-Request URL: `https://api.twitter.com/graphql/lI07N6Otwv1PhnEgXILM7A/FavoriteTweet`<br>
-Request Method: `POST`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-`None`<br>
-#### queryId<br>
-`None`<br>
-## ModerateTweet<br>
-Request URL: `https://api.twitter.com/graphql/pjFnHGVqCjTcZol0xcBJjw/ModerateTweet`<br>
-Request Method: `POST`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-`None`<br>
-#### queryId<br>
-`None`<br>
-## TweetResultByRestId<br>
-Request URL: `https://api.twitter.com/graphql/xnhK0CseM9am03fYIMntTg/TweetResultByRestId`<br>
-Request Method: `GET`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-| key                                                                     | type    |   variable | default   |
-|:------------------------------------------------------------------------|:--------|-----------:|:----------|
-| tweetypie_unmention_optimization_enabled                                | boolean |          1 | nan       |
-| vibe_api_enabled                                                        | boolean |          1 | nan       |
-| responsive_web_edit_tweet_api_enabled                                   | boolean |          1 | nan       |
-| graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean |          1 | nan       |
-| view_counts_everywhere_api_enabled                                      | boolean |          1 | nan       |
-| longform_notetweets_consumption_enabled                                 | boolean |          1 | nan       |
-| tweet_awards_web_tipping_enabled                                        | boolean |          0 | nan       |
-| freedom_of_speech_not_reach_fetch_enabled                               | boolean |          0 | nan       |
-| standardized_nudges_misinfo                                             | boolean |          1 | nan       |
-| tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean |          0 | nan       |
-| interactive_text_enabled                                                | boolean |          1 | nan       |
-| responsive_web_text_conversations_enabled                               | boolean |          0 | nan       |
-| longform_notetweets_richtext_consumption_enabled                        | ...     |        nan | error     |
-| blue_business_profile_image_shape_enabled                               | boolean |          0 | nan       |
-| responsive_web_graphql_exclude_directive_enabled                        | boolean |          1 | nan       |
-| verified_phone_label_enabled                                            | boolean |          0 | nan       |
-| responsive_web_graphql_timeline_navigation_enabled                      | boolean |          1 | nan       |
-| responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean |          0 | nan       |
-| responsive_web_enhance_cards_enabled                                    | boolean |          0 | nan       |
-
-#### queryId<br>
-`None`<br>
-## UnfavoriteTweet<br>
-Request URL: `https://api.twitter.com/graphql/ZYKSe-w7KEslx3JhSIk5LA/UnfavoriteTweet`<br>
-Request Method: `POST`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-`None`<br>
-#### queryId<br>
-`None`<br>
-## UnmentionUserFromConversation<br>
-Request URL: `https://api.twitter.com/graphql/xVW9j3OqoBRY9d6_2OONEg/UnmentionUserFromConversation`<br>
-Request Method: `POST`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-`None`<br>
-#### queryId<br>
-`None`<br>
-## UnmoderateTweet<br>
-Request URL: `https://api.twitter.com/graphql/pVSyu6PA57TLvIE4nN2tsA/UnmoderateTweet`<br>
-Request Method: `POST`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-`None`<br>
-#### queryId<br>
-`None`<br>
-## CheckTweetForNudge<br>
-Request URL: `https://api.twitter.com/graphql/C2dcvh7H69JALtomErxWlA/CheckTweetForNudge`<br>
-Request Method: `POST`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-| key                          | type    | variable   |
-|:-----------------------------|:--------|:-----------|
-| standardized_nudges_toxicity | boolean | False      |
-
-#### queryId<br>
-`None`<br>
-## ConversationControlChange<br>
-Request URL: `https://api.twitter.com/graphql/hb1elGcj6769uT8qVYqtjw/ConversationControlChange`<br>
-Request Method: `POST`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-`None`<br>
-#### queryId<br>
-`None`<br>
-## ConversationControlDelete<br>
-Request URL: `https://api.twitter.com/graphql/OoMO_aSZ1ZXjegeamF9QmA/ConversationControlDelete`<br>
-Request Method: `POST`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-`None`<br>
-#### queryId<br>
-`None`<br>
-## CreateBookmark<br>
-Request URL: `https://api.twitter.com/graphql/aoDbu3RHznuiSkQ9aNM67Q/CreateBookmark`<br>
-Request Method: `POST`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-`None`<br>
-#### queryId<br>
-`None`<br>
-## CreateNoteTweet<br>
-Request URL: `https://api.twitter.com/graphql/K5kylRYkO5r0LS4Rtsyrwg/CreateNoteTweet`<br>
-Request Method: `POST`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-| key                                                                     | type    |   variable | default   |
-|:------------------------------------------------------------------------|:--------|-----------:|:----------|
-| tweetypie_unmention_optimization_enabled                                | boolean |          1 | nan       |
-| vibe_api_enabled                                                        | boolean |          1 | nan       |
-| responsive_web_edit_tweet_api_enabled                                   | boolean |          1 | nan       |
-| graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean |          1 | nan       |
-| view_counts_everywhere_api_enabled                                      | boolean |          1 | nan       |
-| longform_notetweets_consumption_enabled                                 | boolean |          1 | nan       |
-| tweet_awards_web_tipping_enabled                                        | boolean |          0 | nan       |
-| interactive_text_enabled                                                | boolean |          1 | nan       |
-| responsive_web_text_conversations_enabled                               | boolean |          0 | nan       |
-| longform_notetweets_richtext_consumption_enabled                        | ...     |        nan | error     |
-| blue_business_profile_image_shape_enabled                               | boolean |          0 | nan       |
-| responsive_web_graphql_exclude_directive_enabled                        | boolean |          1 | nan       |
-| verified_phone_label_enabled                                            | boolean |          0 | nan       |
-| freedom_of_speech_not_reach_fetch_enabled                               | boolean |          0 | nan       |
-| standardized_nudges_misinfo                                             | boolean |          1 | nan       |
-| tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean |          0 | nan       |
-| responsive_web_graphql_timeline_navigation_enabled                      | boolean |          1 | nan       |
-| responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean |          0 | nan       |
-| responsive_web_enhance_cards_enabled                                    | boolean |          0 | nan       |
-
-#### queryId<br>
-`None`<br>
-## CreateRetweet<br>
-Request URL: `https://api.twitter.com/graphql/ojPdsZsimiJrUGLR1sjUtA/CreateRetweet`<br>
-Request Method: `POST`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-`None`<br>
-#### queryId<br>
-`None`<br>
-## CreateTweet<br>
-Request URL: `https://api.twitter.com/graphql/VtVTvbMKuYFBF9m1s4L1sw/CreateTweet`<br>
-Request Method: `POST`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-| key                                                                     | type    |   variable | default   |
-|:------------------------------------------------------------------------|:--------|-----------:|:----------|
-| tweetypie_unmention_optimization_enabled                                | boolean |          1 | nan       |
-| vibe_api_enabled                                                        | boolean |          1 | nan       |
-| responsive_web_edit_tweet_api_enabled                                   | boolean |          1 | nan       |
-| graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean |          1 | nan       |
-| view_counts_everywhere_api_enabled                                      | boolean |          1 | nan       |
-| longform_notetweets_consumption_enabled                                 | boolean |          1 | nan       |
-| tweet_awards_web_tipping_enabled                                        | boolean |          0 | nan       |
-| interactive_text_enabled                                                | boolean |          1 | nan       |
-| responsive_web_text_conversations_enabled                               | boolean |          0 | nan       |
-| longform_notetweets_richtext_consumption_enabled                        | ...     |        nan | error     |
-| blue_business_profile_image_shape_enabled                               | boolean |          0 | nan       |
-| responsive_web_graphql_exclude_directive_enabled                        | boolean |          1 | nan       |
-| verified_phone_label_enabled                                            | boolean |          0 | nan       |
-| freedom_of_speech_not_reach_fetch_enabled                               | boolean |          0 | nan       |
-| standardized_nudges_misinfo                                             | boolean |          1 | nan       |
-| tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean |          0 | nan       |
-| responsive_web_graphql_timeline_navigation_enabled                      | boolean |          1 | nan       |
-| responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean |          0 | nan       |
-| responsive_web_enhance_cards_enabled                                    | boolean |          0 | nan       |
-
-#### queryId<br>
-`None`<br>
-## CreateTweetDownvote<br>
-Request URL: `https://api.twitter.com/graphql/Eo65jl-gww30avDgrXvhUA/CreateTweetDownvote`<br>
-Request Method: `POST`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-`None`<br>
-#### queryId<br>
-`None`<br>
-## CreateTweetReaction<br>
-Request URL: `https://api.twitter.com/graphql/D7M6X3h4-mJE8UB1Ap3_dQ/CreateTweetReaction`<br>
-Request Method: `POST`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-`None`<br>
-#### queryId<br>
-`None`<br>
-## DeleteBookmark<br>
-Request URL: `https://api.twitter.com/graphql/Wlmlj2-xzyS1GN3a6cj-mQ/DeleteBookmark`<br>
-Request Method: `POST`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-`None`<br>
-#### queryId<br>
-`None`<br>
-## DeleteRetweet<br>
-Request URL: `https://api.twitter.com/graphql/iQtK4dl5hBmXewYZuEOKVw/DeleteRetweet`<br>
-Request Method: `POST`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-`None`<br>
-#### queryId<br>
-`None`<br>
-## DeleteTweet<br>
-Request URL: `https://api.twitter.com/graphql/VaenaVgh5q5ih7kvyVjgtg/DeleteTweet`<br>
-Request Method: `POST`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-`None`<br>
-#### queryId<br>
-`None`<br>
-## DeleteTweetDownvote<br>
-Request URL: `https://api.twitter.com/graphql/VNEvEGXaUAMfiExP8Tbezw/DeleteTweetDownvote`<br>
-Request Method: `POST`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-`None`<br>
-#### queryId<br>
-`None`<br>
-## DeleteTweetReaction<br>
-Request URL: `https://api.twitter.com/graphql/GKwK0Rj4EdkfwdHQMZTpuw/DeleteTweetReaction`<br>
-Request Method: `POST`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-`None`<br>
-#### queryId<br>
-`None`<br>
-## FavoriteTweet<br>
-Request URL: `https://api.twitter.com/graphql/lI07N6Otwv1PhnEgXILM7A/FavoriteTweet`<br>
-Request Method: `POST`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-`None`<br>
-#### queryId<br>
-`None`<br>
-## ModerateTweet<br>
-Request URL: `https://api.twitter.com/graphql/pjFnHGVqCjTcZol0xcBJjw/ModerateTweet`<br>
-Request Method: `POST`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-`None`<br>
-#### queryId<br>
-`None`<br>
-## TweetResultByRestId<br>
-Request URL: `https://api.twitter.com/graphql/xnhK0CseM9am03fYIMntTg/TweetResultByRestId`<br>
-Request Method: `GET`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-| key                                                                     | type    |   variable | default   |
-|:------------------------------------------------------------------------|:--------|-----------:|:----------|
-| tweetypie_unmention_optimization_enabled                                | boolean |          1 | nan       |
-| vibe_api_enabled                                                        | boolean |          1 | nan       |
-| responsive_web_edit_tweet_api_enabled                                   | boolean |          1 | nan       |
-| graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean |          1 | nan       |
-| view_counts_everywhere_api_enabled                                      | boolean |          1 | nan       |
-| longform_notetweets_consumption_enabled                                 | boolean |          1 | nan       |
-| tweet_awards_web_tipping_enabled                                        | boolean |          0 | nan       |
-| freedom_of_speech_not_reach_fetch_enabled                               | boolean |          0 | nan       |
-| standardized_nudges_misinfo                                             | boolean |          1 | nan       |
-| tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean |          0 | nan       |
-| interactive_text_enabled                                                | boolean |          1 | nan       |
-| responsive_web_text_conversations_enabled                               | boolean |          0 | nan       |
-| longform_notetweets_richtext_consumption_enabled                        | ...     |        nan | error     |
-| blue_business_profile_image_shape_enabled                               | boolean |          0 | nan       |
-| responsive_web_graphql_exclude_directive_enabled                        | boolean |          1 | nan       |
-| verified_phone_label_enabled                                            | boolean |          0 | nan       |
-| responsive_web_graphql_timeline_navigation_enabled                      | boolean |          1 | nan       |
-| responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean |          0 | nan       |
-| responsive_web_enhance_cards_enabled                                    | boolean |          0 | nan       |
-
-#### queryId<br>
-`None`<br>
-## UnfavoriteTweet<br>
-Request URL: `https://api.twitter.com/graphql/ZYKSe-w7KEslx3JhSIk5LA/UnfavoriteTweet`<br>
-Request Method: `POST`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-`None`<br>
-#### queryId<br>
-`None`<br>
-## UnmentionUserFromConversation<br>
-Request URL: `https://api.twitter.com/graphql/xVW9j3OqoBRY9d6_2OONEg/UnmentionUserFromConversation`<br>
-Request Method: `POST`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-`None`<br>
-#### queryId<br>
-`None`<br>
-## UnmoderateTweet<br>
-Request URL: `https://api.twitter.com/graphql/pVSyu6PA57TLvIE4nN2tsA/UnmoderateTweet`<br>
-Request Method: `POST`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-`None`<br>
-#### queryId<br>
-`None`<br>
-## CheckTweetForNudge<br>
-Request URL: `https://api.twitter.com/graphql/C2dcvh7H69JALtomErxWlA/CheckTweetForNudge`<br>
-Request Method: `POST`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-| key                          | type    | variable   |
-|:-----------------------------|:--------|:-----------|
-| standardized_nudges_toxicity | boolean | False      |
-
-#### queryId<br>
-`None`<br>
-## ConversationControlChange<br>
-Request URL: `https://api.twitter.com/graphql/hb1elGcj6769uT8qVYqtjw/ConversationControlChange`<br>
-Request Method: `POST`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-`None`<br>
-#### queryId<br>
-`None`<br>
-## ConversationControlDelete<br>
-Request URL: `https://api.twitter.com/graphql/OoMO_aSZ1ZXjegeamF9QmA/ConversationControlDelete`<br>
-Request Method: `POST`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-`None`<br>
-#### queryId<br>
-`None`<br>
-## CreateBookmark<br>
-Request URL: `https://api.twitter.com/graphql/aoDbu3RHznuiSkQ9aNM67Q/CreateBookmark`<br>
-Request Method: `POST`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-`None`<br>
-#### queryId<br>
-`None`<br>
-## CreateNoteTweet<br>
-Request URL: `https://api.twitter.com/graphql/K5kylRYkO5r0LS4Rtsyrwg/CreateNoteTweet`<br>
-Request Method: `POST`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-| key                                                                     | type    |   variable | default   |
-|:------------------------------------------------------------------------|:--------|-----------:|:----------|
-| tweetypie_unmention_optimization_enabled                                | boolean |          1 | nan       |
-| vibe_api_enabled                                                        | boolean |          1 | nan       |
-| responsive_web_edit_tweet_api_enabled                                   | boolean |          1 | nan       |
-| graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean |          1 | nan       |
-| view_counts_everywhere_api_enabled                                      | boolean |          1 | nan       |
-| longform_notetweets_consumption_enabled                                 | boolean |          1 | nan       |
-| tweet_awards_web_tipping_enabled                                        | boolean |          0 | nan       |
-| interactive_text_enabled                                                | boolean |          1 | nan       |
-| responsive_web_text_conversations_enabled                               | boolean |          0 | nan       |
-| longform_notetweets_richtext_consumption_enabled                        | ...     |        nan | error     |
-| blue_business_profile_image_shape_enabled                               | boolean |          0 | nan       |
-| responsive_web_graphql_exclude_directive_enabled                        | boolean |          1 | nan       |
-| verified_phone_label_enabled                                            | boolean |          0 | nan       |
-| freedom_of_speech_not_reach_fetch_enabled                               | boolean |          0 | nan       |
-| standardized_nudges_misinfo                                             | boolean |          1 | nan       |
-| tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean |          0 | nan       |
-| responsive_web_graphql_timeline_navigation_enabled                      | boolean |          1 | nan       |
-| responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean |          0 | nan       |
-| responsive_web_enhance_cards_enabled                                    | boolean |          0 | nan       |
-
-#### queryId<br>
-`None`<br>
-## CreateRetweet<br>
-Request URL: `https://api.twitter.com/graphql/ojPdsZsimiJrUGLR1sjUtA/CreateRetweet`<br>
-Request Method: `POST`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-`None`<br>
-#### queryId<br>
-`None`<br>
-## CreateTweet<br>
-Request URL: `https://api.twitter.com/graphql/VtVTvbMKuYFBF9m1s4L1sw/CreateTweet`<br>
-Request Method: `POST`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-| key                                                                     | type    |   variable | default   |
-|:------------------------------------------------------------------------|:--------|-----------:|:----------|
-| tweetypie_unmention_optimization_enabled                                | boolean |          1 | nan       |
-| vibe_api_enabled                                                        | boolean |          1 | nan       |
-| responsive_web_edit_tweet_api_enabled                                   | boolean |          1 | nan       |
-| graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean |          1 | nan       |
-| view_counts_everywhere_api_enabled                                      | boolean |          1 | nan       |
-| longform_notetweets_consumption_enabled                                 | boolean |          1 | nan       |
-| tweet_awards_web_tipping_enabled                                        | boolean |          0 | nan       |
-| interactive_text_enabled                                                | boolean |          1 | nan       |
-| responsive_web_text_conversations_enabled                               | boolean |          0 | nan       |
-| longform_notetweets_richtext_consumption_enabled                        | ...     |        nan | error     |
-| blue_business_profile_image_shape_enabled                               | boolean |          0 | nan       |
-| responsive_web_graphql_exclude_directive_enabled                        | boolean |          1 | nan       |
-| verified_phone_label_enabled                                            | boolean |          0 | nan       |
-| freedom_of_speech_not_reach_fetch_enabled                               | boolean |          0 | nan       |
-| standardized_nudges_misinfo                                             | boolean |          1 | nan       |
-| tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean |          0 | nan       |
-| responsive_web_graphql_timeline_navigation_enabled                      | boolean |          1 | nan       |
-| responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean |          0 | nan       |
-| responsive_web_enhance_cards_enabled                                    | boolean |          0 | nan       |
-
-#### queryId<br>
-`None`<br>
-## CreateTweetDownvote<br>
-Request URL: `https://api.twitter.com/graphql/Eo65jl-gww30avDgrXvhUA/CreateTweetDownvote`<br>
-Request Method: `POST`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-`None`<br>
-#### queryId<br>
-`None`<br>
-## CreateTweetReaction<br>
-Request URL: `https://api.twitter.com/graphql/D7M6X3h4-mJE8UB1Ap3_dQ/CreateTweetReaction`<br>
-Request Method: `POST`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-`None`<br>
-#### queryId<br>
-`None`<br>
-## DeleteBookmark<br>
-Request URL: `https://api.twitter.com/graphql/Wlmlj2-xzyS1GN3a6cj-mQ/DeleteBookmark`<br>
-Request Method: `POST`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-`None`<br>
-#### queryId<br>
-`None`<br>
-## DeleteRetweet<br>
-Request URL: `https://api.twitter.com/graphql/iQtK4dl5hBmXewYZuEOKVw/DeleteRetweet`<br>
-Request Method: `POST`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-`None`<br>
-#### queryId<br>
-`None`<br>
-## DeleteTweet<br>
-Request URL: `https://api.twitter.com/graphql/VaenaVgh5q5ih7kvyVjgtg/DeleteTweet`<br>
-Request Method: `POST`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-`None`<br>
-#### queryId<br>
-`None`<br>
-## DeleteTweetDownvote<br>
-Request URL: `https://api.twitter.com/graphql/VNEvEGXaUAMfiExP8Tbezw/DeleteTweetDownvote`<br>
-Request Method: `POST`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-`None`<br>
-#### queryId<br>
-`None`<br>
-## DeleteTweetReaction<br>
-Request URL: `https://api.twitter.com/graphql/GKwK0Rj4EdkfwdHQMZTpuw/DeleteTweetReaction`<br>
-Request Method: `POST`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-`None`<br>
-#### queryId<br>
-`None`<br>
-## FavoriteTweet<br>
-Request URL: `https://api.twitter.com/graphql/lI07N6Otwv1PhnEgXILM7A/FavoriteTweet`<br>
-Request Method: `POST`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-`None`<br>
-#### queryId<br>
-`None`<br>
-## ModerateTweet<br>
-Request URL: `https://api.twitter.com/graphql/pjFnHGVqCjTcZol0xcBJjw/ModerateTweet`<br>
-Request Method: `POST`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-`None`<br>
-#### queryId<br>
-`None`<br>
-## TweetResultByRestId<br>
-Request URL: `https://api.twitter.com/graphql/xnhK0CseM9am03fYIMntTg/TweetResultByRestId`<br>
-Request Method: `GET`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-| key                                                                     | type    |   variable | default   |
-|:------------------------------------------------------------------------|:--------|-----------:|:----------|
-| tweetypie_unmention_optimization_enabled                                | boolean |          1 | nan       |
-| vibe_api_enabled                                                        | boolean |          1 | nan       |
-| responsive_web_edit_tweet_api_enabled                                   | boolean |          1 | nan       |
-| graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean |          1 | nan       |
-| view_counts_everywhere_api_enabled                                      | boolean |          1 | nan       |
-| longform_notetweets_consumption_enabled                                 | boolean |          1 | nan       |
-| tweet_awards_web_tipping_enabled                                        | boolean |          0 | nan       |
-| freedom_of_speech_not_reach_fetch_enabled                               | boolean |          0 | nan       |
-| standardized_nudges_misinfo                                             | boolean |          1 | nan       |
-| tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean |          0 | nan       |
-| interactive_text_enabled                                                | boolean |          1 | nan       |
-| responsive_web_text_conversations_enabled                               | boolean |          0 | nan       |
-| longform_notetweets_richtext_consumption_enabled                        | ...     |        nan | error     |
-| blue_business_profile_image_shape_enabled                               | boolean |          0 | nan       |
-| responsive_web_graphql_exclude_directive_enabled                        | boolean |          1 | nan       |
-| verified_phone_label_enabled                                            | boolean |          0 | nan       |
-| responsive_web_graphql_timeline_navigation_enabled                      | boolean |          1 | nan       |
-| responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean |          0 | nan       |
-| responsive_web_enhance_cards_enabled                                    | boolean |          0 | nan       |
-
-#### queryId<br>
-`None`<br>
-## UnfavoriteTweet<br>
-Request URL: `https://api.twitter.com/graphql/ZYKSe-w7KEslx3JhSIk5LA/UnfavoriteTweet`<br>
-Request Method: `POST`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-`None`<br>
-#### queryId<br>
-`None`<br>
-## UnmentionUserFromConversation<br>
-Request URL: `https://api.twitter.com/graphql/xVW9j3OqoBRY9d6_2OONEg/UnmentionUserFromConversation`<br>
-Request Method: `POST`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-`None`<br>
-#### queryId<br>
-`None`<br>
-## UnmoderateTweet<br>
-Request URL: `https://api.twitter.com/graphql/pVSyu6PA57TLvIE4nN2tsA/UnmoderateTweet`<br>
-Request Method: `POST`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-`None`<br>
 #### queryId<br>
 `None`<br>
 ## CheckTweetForNudge<br>
@@ -1325,10 +468,13 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key               | type   | variable   |
-|:------------------|:-------|:-----------|
-| userId            | ...    | n          |
-| dmNsfwMediaFilter | ...    | t          |
+| key                    | type    | variable   |
+|:-----------------------|:--------|:-----------|
+| userId                 | ...     | i          |
+| count                  | ...     | t          |
+| cursor                 | ...     | n          |
+| includePromotedContent | boolean | False      |
+| ...()(0,l.d)           | ...     | _          |
 
 #### features<br>
 | key                                                                     | type    |   variable | default   |
@@ -1999,10 +1145,10 @@ Request Method: `POST`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-```internal process
-# Error
-{"rawQuery":o||"","count":"n","cursor":"i","querySource":"s","product":"l","...()(0,r.d)":"_"}
-```
+| key   | type   | variable   |
+|:------|:-------|:-----------|
+| ...o  | ...    | _          |
+
 #### features<br>
 `None`<br>
 #### queryId<br>
@@ -2013,15 +1159,17 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key                        | type   | variable                |
-|:---------------------------|:-------|:------------------------|
-| withCommunitiesMemberships | ...    | t.isTrue()              |
-| withCommunitiesCreation    | ...    | t.isTrue("c9s_enabled") |
+| key                    | type    | variable   |
+|:-----------------------|:--------|:-----------|
+| count                  | ...     | t          |
+| cursor                 | ...     | r          |
+| includePromotedContent | boolean | True       |
+| ...()(0,i.d)           | ...     | _          |
 
 #### features<br>
 | key                                                                     | type    |   variable | default   |
 |:------------------------------------------------------------------------|:--------|-----------:|:----------|
-| graphql_timeline_v2_bookmark_timeline                                   | boolean |          0 | nan       |
+| graphql_timeline_v2_bookmark_timeline                                   | boolean |          1 | nan       |
 | blue_business_profile_image_shape_enabled                               | boolean |          0 | nan       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean |          1 | nan       |
 | verified_phone_label_enabled                                            | boolean |          0 | nan       |
@@ -2050,9 +1198,9 @@ Request Method: `POST`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key     | type   | variable   |
-|:--------|:-------|:-----------|
-| userIds | ...    | t.split()  |
+| key   | type   | variable   |
+|:------|:-------|:-----------|
+| ...o  | ...    | _          |
 
 #### features<br>
 `None`<br>
@@ -2064,11 +1212,7 @@ Request Method: `POST`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key                      | type   | variable   |
-|:-------------------------|:-------|:-----------|
-| screen_name              | ...    | n          |
-| withSafetyModeUserFields | ...    | t.isTrue() |
-
+`None`<br>
 #### features<br>
 `None`<br>
 #### queryId<br>
@@ -2079,10 +1223,9 @@ Request Method: `POST`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key                      | type   | variable   |
-|:-------------------------|:-------|:-----------|
-| userId                   | ...    | n          |
-| withSafetyModeUserFields | ...    | t.isTrue() |
+| key                    | type   | variable   |
+|:-----------------------|:-------|:-----------|
+| bookmark_collection_id | ...    | t          |
 
 #### features<br>
 `None`<br>
@@ -2094,11 +1237,10 @@ Request Method: `POST`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key              | type   | variable   |
-|:-----------------|:-------|:-----------|
-| twitterArticleId | ...    | s          |
-| title            | ...    | l          |
-| ...()(0,a.d)     | ...    | _          |
+| key                    | type   | variable   |
+|:-----------------------|:-------|:-----------|
+| bookmark_collection_id | ...    | t          |
+| name                   | ...    | r          |
 
 #### features<br>
 `None`<br>
@@ -2962,10 +2104,13 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key               | type   | variable   |
-|:------------------|:-------|:-----------|
-| userId            | ...    | n          |
-| dmNsfwMediaFilter | ...    | t          |
+| key                    | type    | variable   |
+|:-----------------------|:--------|:-----------|
+| userId                 | ...     | i          |
+| count                  | ...     | t          |
+| cursor                 | ...     | n          |
+| includePromotedContent | boolean | False      |
+| ...()(0,l.d)           | ...     | _          |
 
 #### features<br>
 | key                                                                     | type    |   variable | default   |
@@ -3797,11 +2942,10 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key              | type   | variable   |
-|:-----------------|:-------|:-----------|
-| dataSaverEnabled | ...    | t          |
-| deviceId         | ...    | n          |
-| videoAutoplay    | ...    | i          |
+| key                             | type   | variable                                                                                |
+|:--------------------------------|:-------|:----------------------------------------------------------------------------------------|
+| ...t                            | ...    | _                                                                                       |
+| withConversationQueryHighlights | ...    | i.isTrue()&&i.isTrue("dm_inbox_search_query_highlighting_conversation_results_enabled") |
 
 #### features<br>
 `None`<br>
@@ -4029,10 +3173,13 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key               | type   | variable   |
-|:------------------|:-------|:-----------|
-| userId            | ...    | n          |
-| dmNsfwMediaFilter | ...    | t          |
+| key                    | type    | variable   |
+|:-----------------------|:--------|:-----------|
+| userId                 | ...     | i          |
+| count                  | ...     | t          |
+| cursor                 | ...     | n          |
+| includePromotedContent | boolean | False      |
+| ...()(0,l.d)           | ...     | _          |
 
 #### features<br>
 | key                                                                     | type    |   variable | default   |
@@ -4725,10 +3872,13 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key               | type   | variable   |
-|:------------------|:-------|:-----------|
-| userId            | ...    | n          |
-| dmNsfwMediaFilter | ...    | t          |
+| key                    | type    | variable   |
+|:-----------------------|:--------|:-----------|
+| userId                 | ...     | i          |
+| count                  | ...     | t          |
+| cursor                 | ...     | n          |
+| includePromotedContent | boolean | False      |
+| ...()(0,l.d)           | ...     | _          |
 
 #### features<br>
 | key                                                                     | type    |   variable | default   |
@@ -6074,10 +5224,13 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key               | type   | variable   |
-|:------------------|:-------|:-----------|
-| userId            | ...    | n          |
-| dmNsfwMediaFilter | ...    | t          |
+| key                    | type    | variable   |
+|:-----------------------|:--------|:-----------|
+| userId                 | ...     | i          |
+| count                  | ...     | t          |
+| cursor                 | ...     | n          |
+| includePromotedContent | boolean | False      |
+| ...()(0,l.d)           | ...     | _          |
 
 #### features<br>
 | key                                                                     | type    |   variable | default   |
@@ -6467,10 +5620,13 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key               | type   | variable   |
-|:------------------|:-------|:-----------|
-| userId            | ...    | n          |
-| dmNsfwMediaFilter | ...    | t          |
+| key                    | type    | variable   |
+|:-----------------------|:--------|:-----------|
+| userId                 | ...     | i          |
+| count                  | ...     | t          |
+| cursor                 | ...     | n          |
+| includePromotedContent | boolean | False      |
+| ...()(0,l.d)           | ...     | _          |
 
 #### features<br>
 | key                                                                     | type    |   variable | default   |
@@ -7730,10 +6886,13 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key               | type   | variable   |
-|:------------------|:-------|:-----------|
-| userId            | ...    | n          |
-| dmNsfwMediaFilter | ...    | t          |
+| key                    | type    | variable   |
+|:-----------------------|:--------|:-----------|
+| userId                 | ...     | i          |
+| count                  | ...     | t          |
+| cursor                 | ...     | n          |
+| includePromotedContent | boolean | False      |
+| ...()(0,l.d)           | ...     | _          |
 
 #### features<br>
 | key                                                                     | type    |   variable | default   |
@@ -8516,10 +7675,13 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key               | type   | variable   |
-|:------------------|:-------|:-----------|
-| userId            | ...    | n          |
-| dmNsfwMediaFilter | ...    | t          |
+| key                    | type    | variable   |
+|:-----------------------|:--------|:-----------|
+| userId                 | ...     | i          |
+| count                  | ...     | t          |
+| cursor                 | ...     | n          |
+| includePromotedContent | boolean | False      |
+| ...()(0,l.d)           | ...     | _          |
 
 #### features<br>
 | key                                                                     | type    |   variable | default   |
@@ -9448,7 +8610,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## TrustedFriendsTypeahead<br>
-Request URL: `https://api.twitter.com/graphql/5Lk54zXPQ43I-LChXe-aIQ/TrustedFriendsTypeahead`<br>
+Request URL: `https://api.twitter.com/graphql/RRnOwHttRGscWKC1zY9VRA/TrustedFriendsTypeahead`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -9457,6 +8619,7 @@ Login Required: `...`<br>
 #### features<br>
 | key                                                | type    | variable   |
 |:---------------------------------------------------|:--------|:-----------|
+| blue_business_profile_image_shape_enabled          | boolean | False      |
 | responsive_web_graphql_timeline_navigation_enabled | boolean | True       |
 
 #### queryId<br>
@@ -10566,10 +9729,10 @@ Request Method: `POST`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-```internal process
-# Error
-{"rawQuery":o||"","count":"n","cursor":"i","querySource":"s","product":"l","...()(0,r.d)":"_"}
-```
+| key   | type   | variable   |
+|:------|:-------|:-----------|
+| ...o  | ...    | _          |
+
 #### features<br>
 `None`<br>
 #### queryId<br>
@@ -10580,15 +9743,17 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key                        | type   | variable                |
-|:---------------------------|:-------|:------------------------|
-| withCommunitiesMemberships | ...    | t.isTrue()              |
-| withCommunitiesCreation    | ...    | t.isTrue("c9s_enabled") |
+| key                    | type    | variable   |
+|:-----------------------|:--------|:-----------|
+| count                  | ...     | t          |
+| cursor                 | ...     | r          |
+| includePromotedContent | boolean | True       |
+| ...()(0,i.d)           | ...     | _          |
 
 #### features<br>
 | key                                                                     | type    |   variable | default   |
 |:------------------------------------------------------------------------|:--------|-----------:|:----------|
-| graphql_timeline_v2_bookmark_timeline                                   | boolean |          0 | nan       |
+| graphql_timeline_v2_bookmark_timeline                                   | boolean |          1 | nan       |
 | blue_business_profile_image_shape_enabled                               | boolean |          0 | nan       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean |          1 | nan       |
 | verified_phone_label_enabled                                            | boolean |          0 | nan       |
@@ -11385,9 +10550,9 @@ Request Method: `POST`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key     | type   | variable   |
-|:--------|:-------|:-----------|
-| userIds | ...    | t.split()  |
+| key   | type   | variable   |
+|:------|:-------|:-----------|
+| ...o  | ...    | _          |
 
 #### features<br>
 `None`<br>
@@ -11573,11 +10738,7 @@ Request Method: `POST`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key                      | type   | variable   |
-|:-------------------------|:-------|:-----------|
-| screen_name              | ...    | n          |
-| withSafetyModeUserFields | ...    | t.isTrue() |
-
+`None`<br>
 #### features<br>
 `None`<br>
 #### queryId<br>
@@ -11599,10 +10760,9 @@ Request Method: `POST`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key                      | type   | variable   |
-|:-------------------------|:-------|:-----------|
-| userId                   | ...    | n          |
-| withSafetyModeUserFields | ...    | t.isTrue() |
+| key                    | type   | variable   |
+|:-----------------------|:-------|:-----------|
+| bookmark_collection_id | ...    | t          |
 
 #### features<br>
 `None`<br>
@@ -11815,11 +10975,10 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key              | type   | variable   |
-|:-----------------|:-------|:-----------|
-| dataSaverEnabled | ...    | t          |
-| deviceId         | ...    | n          |
-| videoAutoplay    | ...    | i          |
+| key                             | type   | variable                                                                                |
+|:--------------------------------|:-------|:----------------------------------------------------------------------------------------|
+| ...t                            | ...    | _                                                                                       |
+| withConversationQueryHighlights | ...    | i.isTrue()&&i.isTrue("dm_inbox_search_query_highlighting_conversation_results_enabled") |
 
 #### features<br>
 `None`<br>
@@ -11831,11 +10990,10 @@ Request Method: `POST`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key              | type   | variable   |
-|:-----------------|:-------|:-----------|
-| twitterArticleId | ...    | s          |
-| title            | ...    | l          |
-| ...()(0,a.d)     | ...    | _          |
+| key                    | type   | variable   |
+|:-----------------------|:-------|:-----------|
+| bookmark_collection_id | ...    | t          |
+| name                   | ...    | r          |
 
 #### features<br>
 `None`<br>
@@ -11988,10 +11146,13 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key               | type   | variable   |
-|:------------------|:-------|:-----------|
-| userId            | ...    | n          |
-| dmNsfwMediaFilter | ...    | t          |
+| key                    | type    | variable   |
+|:-----------------------|:--------|:-----------|
+| userId                 | ...     | i          |
+| count                  | ...     | t          |
+| cursor                 | ...     | n          |
+| includePromotedContent | boolean | False      |
+| ...()(0,l.d)           | ...     | _          |
 
 #### features<br>
 | key                                                                     | type    |   variable | default   |
@@ -13711,7 +12872,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## TrustedFriendsTypeahead<br>
-Request URL: `https://api.twitter.com/graphql/5Lk54zXPQ43I-LChXe-aIQ/TrustedFriendsTypeahead`<br>
+Request URL: `https://api.twitter.com/graphql/RRnOwHttRGscWKC1zY9VRA/TrustedFriendsTypeahead`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -13720,6 +12881,7 @@ Login Required: `...`<br>
 #### features<br>
 | key                                                | type    | variable   |
 |:---------------------------------------------------|:--------|:-----------|
+| blue_business_profile_image_shape_enabled          | boolean | False      |
 | responsive_web_graphql_timeline_navigation_enabled | boolean | True       |
 
 #### queryId<br>
@@ -14657,1436 +13819,6 @@ Login Required: `...`<br>
 
 #### queryId<br>
 `None`<br>
-## CheckTweetForNudge<br>
-Request URL: `https://api.twitter.com/graphql/C2dcvh7H69JALtomErxWlA/CheckTweetForNudge`<br>
-Request Method: `POST`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-| key                          | type    | variable   |
-|:-----------------------------|:--------|:-----------|
-| standardized_nudges_toxicity | boolean | False      |
-
-#### queryId<br>
-`None`<br>
-## ConversationControlChange<br>
-Request URL: `https://api.twitter.com/graphql/hb1elGcj6769uT8qVYqtjw/ConversationControlChange`<br>
-Request Method: `POST`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-`None`<br>
-#### queryId<br>
-`None`<br>
-## ConversationControlDelete<br>
-Request URL: `https://api.twitter.com/graphql/OoMO_aSZ1ZXjegeamF9QmA/ConversationControlDelete`<br>
-Request Method: `POST`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-`None`<br>
-#### queryId<br>
-`None`<br>
-## CreateBookmark<br>
-Request URL: `https://api.twitter.com/graphql/aoDbu3RHznuiSkQ9aNM67Q/CreateBookmark`<br>
-Request Method: `POST`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-`None`<br>
-#### queryId<br>
-`None`<br>
-## CreateNoteTweet<br>
-Request URL: `https://api.twitter.com/graphql/K5kylRYkO5r0LS4Rtsyrwg/CreateNoteTweet`<br>
-Request Method: `POST`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-| key                                                                     | type    |   variable | default   |
-|:------------------------------------------------------------------------|:--------|-----------:|:----------|
-| tweetypie_unmention_optimization_enabled                                | boolean |          1 | nan       |
-| vibe_api_enabled                                                        | boolean |          1 | nan       |
-| responsive_web_edit_tweet_api_enabled                                   | boolean |          1 | nan       |
-| graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean |          1 | nan       |
-| view_counts_everywhere_api_enabled                                      | boolean |          1 | nan       |
-| longform_notetweets_consumption_enabled                                 | boolean |          1 | nan       |
-| tweet_awards_web_tipping_enabled                                        | boolean |          0 | nan       |
-| interactive_text_enabled                                                | boolean |          1 | nan       |
-| responsive_web_text_conversations_enabled                               | boolean |          0 | nan       |
-| longform_notetweets_richtext_consumption_enabled                        | ...     |        nan | error     |
-| blue_business_profile_image_shape_enabled                               | boolean |          0 | nan       |
-| responsive_web_graphql_exclude_directive_enabled                        | boolean |          1 | nan       |
-| verified_phone_label_enabled                                            | boolean |          0 | nan       |
-| freedom_of_speech_not_reach_fetch_enabled                               | boolean |          0 | nan       |
-| standardized_nudges_misinfo                                             | boolean |          1 | nan       |
-| tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean |          0 | nan       |
-| responsive_web_graphql_timeline_navigation_enabled                      | boolean |          1 | nan       |
-| responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean |          0 | nan       |
-| responsive_web_enhance_cards_enabled                                    | boolean |          0 | nan       |
-
-#### queryId<br>
-`None`<br>
-## CreateRetweet<br>
-Request URL: `https://api.twitter.com/graphql/ojPdsZsimiJrUGLR1sjUtA/CreateRetweet`<br>
-Request Method: `POST`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-`None`<br>
-#### queryId<br>
-`None`<br>
-## CreateTweet<br>
-Request URL: `https://api.twitter.com/graphql/VtVTvbMKuYFBF9m1s4L1sw/CreateTweet`<br>
-Request Method: `POST`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-| key                                                                     | type    |   variable | default   |
-|:------------------------------------------------------------------------|:--------|-----------:|:----------|
-| tweetypie_unmention_optimization_enabled                                | boolean |          1 | nan       |
-| vibe_api_enabled                                                        | boolean |          1 | nan       |
-| responsive_web_edit_tweet_api_enabled                                   | boolean |          1 | nan       |
-| graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean |          1 | nan       |
-| view_counts_everywhere_api_enabled                                      | boolean |          1 | nan       |
-| longform_notetweets_consumption_enabled                                 | boolean |          1 | nan       |
-| tweet_awards_web_tipping_enabled                                        | boolean |          0 | nan       |
-| interactive_text_enabled                                                | boolean |          1 | nan       |
-| responsive_web_text_conversations_enabled                               | boolean |          0 | nan       |
-| longform_notetweets_richtext_consumption_enabled                        | ...     |        nan | error     |
-| blue_business_profile_image_shape_enabled                               | boolean |          0 | nan       |
-| responsive_web_graphql_exclude_directive_enabled                        | boolean |          1 | nan       |
-| verified_phone_label_enabled                                            | boolean |          0 | nan       |
-| freedom_of_speech_not_reach_fetch_enabled                               | boolean |          0 | nan       |
-| standardized_nudges_misinfo                                             | boolean |          1 | nan       |
-| tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean |          0 | nan       |
-| responsive_web_graphql_timeline_navigation_enabled                      | boolean |          1 | nan       |
-| responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean |          0 | nan       |
-| responsive_web_enhance_cards_enabled                                    | boolean |          0 | nan       |
-
-#### queryId<br>
-`None`<br>
-## CreateTweetDownvote<br>
-Request URL: `https://api.twitter.com/graphql/Eo65jl-gww30avDgrXvhUA/CreateTweetDownvote`<br>
-Request Method: `POST`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-`None`<br>
-#### queryId<br>
-`None`<br>
-## CreateTweetReaction<br>
-Request URL: `https://api.twitter.com/graphql/D7M6X3h4-mJE8UB1Ap3_dQ/CreateTweetReaction`<br>
-Request Method: `POST`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-`None`<br>
-#### queryId<br>
-`None`<br>
-## DeleteBookmark<br>
-Request URL: `https://api.twitter.com/graphql/Wlmlj2-xzyS1GN3a6cj-mQ/DeleteBookmark`<br>
-Request Method: `POST`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-`None`<br>
-#### queryId<br>
-`None`<br>
-## DeleteRetweet<br>
-Request URL: `https://api.twitter.com/graphql/iQtK4dl5hBmXewYZuEOKVw/DeleteRetweet`<br>
-Request Method: `POST`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-`None`<br>
-#### queryId<br>
-`None`<br>
-## DeleteTweet<br>
-Request URL: `https://api.twitter.com/graphql/VaenaVgh5q5ih7kvyVjgtg/DeleteTweet`<br>
-Request Method: `POST`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-`None`<br>
-#### queryId<br>
-`None`<br>
-## DeleteTweetDownvote<br>
-Request URL: `https://api.twitter.com/graphql/VNEvEGXaUAMfiExP8Tbezw/DeleteTweetDownvote`<br>
-Request Method: `POST`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-`None`<br>
-#### queryId<br>
-`None`<br>
-## DeleteTweetReaction<br>
-Request URL: `https://api.twitter.com/graphql/GKwK0Rj4EdkfwdHQMZTpuw/DeleteTweetReaction`<br>
-Request Method: `POST`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-`None`<br>
-#### queryId<br>
-`None`<br>
-## FavoriteTweet<br>
-Request URL: `https://api.twitter.com/graphql/lI07N6Otwv1PhnEgXILM7A/FavoriteTweet`<br>
-Request Method: `POST`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-`None`<br>
-#### queryId<br>
-`None`<br>
-## ModerateTweet<br>
-Request URL: `https://api.twitter.com/graphql/pjFnHGVqCjTcZol0xcBJjw/ModerateTweet`<br>
-Request Method: `POST`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-`None`<br>
-#### queryId<br>
-`None`<br>
-## TweetResultByRestId<br>
-Request URL: `https://api.twitter.com/graphql/xnhK0CseM9am03fYIMntTg/TweetResultByRestId`<br>
-Request Method: `GET`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-| key                                                                     | type    |   variable | default   |
-|:------------------------------------------------------------------------|:--------|-----------:|:----------|
-| tweetypie_unmention_optimization_enabled                                | boolean |          1 | nan       |
-| vibe_api_enabled                                                        | boolean |          1 | nan       |
-| responsive_web_edit_tweet_api_enabled                                   | boolean |          1 | nan       |
-| graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean |          1 | nan       |
-| view_counts_everywhere_api_enabled                                      | boolean |          1 | nan       |
-| longform_notetweets_consumption_enabled                                 | boolean |          1 | nan       |
-| tweet_awards_web_tipping_enabled                                        | boolean |          0 | nan       |
-| freedom_of_speech_not_reach_fetch_enabled                               | boolean |          0 | nan       |
-| standardized_nudges_misinfo                                             | boolean |          1 | nan       |
-| tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean |          0 | nan       |
-| interactive_text_enabled                                                | boolean |          1 | nan       |
-| responsive_web_text_conversations_enabled                               | boolean |          0 | nan       |
-| longform_notetweets_richtext_consumption_enabled                        | ...     |        nan | error     |
-| blue_business_profile_image_shape_enabled                               | boolean |          0 | nan       |
-| responsive_web_graphql_exclude_directive_enabled                        | boolean |          1 | nan       |
-| verified_phone_label_enabled                                            | boolean |          0 | nan       |
-| responsive_web_graphql_timeline_navigation_enabled                      | boolean |          1 | nan       |
-| responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean |          0 | nan       |
-| responsive_web_enhance_cards_enabled                                    | boolean |          0 | nan       |
-
-#### queryId<br>
-`None`<br>
-## UnfavoriteTweet<br>
-Request URL: `https://api.twitter.com/graphql/ZYKSe-w7KEslx3JhSIk5LA/UnfavoriteTweet`<br>
-Request Method: `POST`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-`None`<br>
-#### queryId<br>
-`None`<br>
-## UnmentionUserFromConversation<br>
-Request URL: `https://api.twitter.com/graphql/xVW9j3OqoBRY9d6_2OONEg/UnmentionUserFromConversation`<br>
-Request Method: `POST`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-`None`<br>
-#### queryId<br>
-`None`<br>
-## UnmoderateTweet<br>
-Request URL: `https://api.twitter.com/graphql/pVSyu6PA57TLvIE4nN2tsA/UnmoderateTweet`<br>
-Request Method: `POST`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-`None`<br>
-#### queryId<br>
-`None`<br>
-## CheckTweetForNudge<br>
-Request URL: `https://api.twitter.com/graphql/C2dcvh7H69JALtomErxWlA/CheckTweetForNudge`<br>
-Request Method: `POST`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-| key                          | type    | variable   |
-|:-----------------------------|:--------|:-----------|
-| standardized_nudges_toxicity | boolean | False      |
-
-#### queryId<br>
-`None`<br>
-## ConversationControlChange<br>
-Request URL: `https://api.twitter.com/graphql/hb1elGcj6769uT8qVYqtjw/ConversationControlChange`<br>
-Request Method: `POST`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-`None`<br>
-#### queryId<br>
-`None`<br>
-## ConversationControlDelete<br>
-Request URL: `https://api.twitter.com/graphql/OoMO_aSZ1ZXjegeamF9QmA/ConversationControlDelete`<br>
-Request Method: `POST`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-`None`<br>
-#### queryId<br>
-`None`<br>
-## CreateBookmark<br>
-Request URL: `https://api.twitter.com/graphql/aoDbu3RHznuiSkQ9aNM67Q/CreateBookmark`<br>
-Request Method: `POST`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-`None`<br>
-#### queryId<br>
-`None`<br>
-## CreateNoteTweet<br>
-Request URL: `https://api.twitter.com/graphql/K5kylRYkO5r0LS4Rtsyrwg/CreateNoteTweet`<br>
-Request Method: `POST`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-| key                                                                     | type    |   variable | default   |
-|:------------------------------------------------------------------------|:--------|-----------:|:----------|
-| tweetypie_unmention_optimization_enabled                                | boolean |          1 | nan       |
-| vibe_api_enabled                                                        | boolean |          1 | nan       |
-| responsive_web_edit_tweet_api_enabled                                   | boolean |          1 | nan       |
-| graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean |          1 | nan       |
-| view_counts_everywhere_api_enabled                                      | boolean |          1 | nan       |
-| longform_notetweets_consumption_enabled                                 | boolean |          1 | nan       |
-| tweet_awards_web_tipping_enabled                                        | boolean |          0 | nan       |
-| interactive_text_enabled                                                | boolean |          1 | nan       |
-| responsive_web_text_conversations_enabled                               | boolean |          0 | nan       |
-| longform_notetweets_richtext_consumption_enabled                        | ...     |        nan | error     |
-| blue_business_profile_image_shape_enabled                               | boolean |          0 | nan       |
-| responsive_web_graphql_exclude_directive_enabled                        | boolean |          1 | nan       |
-| verified_phone_label_enabled                                            | boolean |          0 | nan       |
-| freedom_of_speech_not_reach_fetch_enabled                               | boolean |          0 | nan       |
-| standardized_nudges_misinfo                                             | boolean |          1 | nan       |
-| tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean |          0 | nan       |
-| responsive_web_graphql_timeline_navigation_enabled                      | boolean |          1 | nan       |
-| responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean |          0 | nan       |
-| responsive_web_enhance_cards_enabled                                    | boolean |          0 | nan       |
-
-#### queryId<br>
-`None`<br>
-## CreateRetweet<br>
-Request URL: `https://api.twitter.com/graphql/ojPdsZsimiJrUGLR1sjUtA/CreateRetweet`<br>
-Request Method: `POST`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-`None`<br>
-#### queryId<br>
-`None`<br>
-## CreateTweet<br>
-Request URL: `https://api.twitter.com/graphql/VtVTvbMKuYFBF9m1s4L1sw/CreateTweet`<br>
-Request Method: `POST`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-| key                                                                     | type    |   variable | default   |
-|:------------------------------------------------------------------------|:--------|-----------:|:----------|
-| tweetypie_unmention_optimization_enabled                                | boolean |          1 | nan       |
-| vibe_api_enabled                                                        | boolean |          1 | nan       |
-| responsive_web_edit_tweet_api_enabled                                   | boolean |          1 | nan       |
-| graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean |          1 | nan       |
-| view_counts_everywhere_api_enabled                                      | boolean |          1 | nan       |
-| longform_notetweets_consumption_enabled                                 | boolean |          1 | nan       |
-| tweet_awards_web_tipping_enabled                                        | boolean |          0 | nan       |
-| interactive_text_enabled                                                | boolean |          1 | nan       |
-| responsive_web_text_conversations_enabled                               | boolean |          0 | nan       |
-| longform_notetweets_richtext_consumption_enabled                        | ...     |        nan | error     |
-| blue_business_profile_image_shape_enabled                               | boolean |          0 | nan       |
-| responsive_web_graphql_exclude_directive_enabled                        | boolean |          1 | nan       |
-| verified_phone_label_enabled                                            | boolean |          0 | nan       |
-| freedom_of_speech_not_reach_fetch_enabled                               | boolean |          0 | nan       |
-| standardized_nudges_misinfo                                             | boolean |          1 | nan       |
-| tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean |          0 | nan       |
-| responsive_web_graphql_timeline_navigation_enabled                      | boolean |          1 | nan       |
-| responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean |          0 | nan       |
-| responsive_web_enhance_cards_enabled                                    | boolean |          0 | nan       |
-
-#### queryId<br>
-`None`<br>
-## CreateTweetDownvote<br>
-Request URL: `https://api.twitter.com/graphql/Eo65jl-gww30avDgrXvhUA/CreateTweetDownvote`<br>
-Request Method: `POST`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-`None`<br>
-#### queryId<br>
-`None`<br>
-## CreateTweetReaction<br>
-Request URL: `https://api.twitter.com/graphql/D7M6X3h4-mJE8UB1Ap3_dQ/CreateTweetReaction`<br>
-Request Method: `POST`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-`None`<br>
-#### queryId<br>
-`None`<br>
-## DeleteBookmark<br>
-Request URL: `https://api.twitter.com/graphql/Wlmlj2-xzyS1GN3a6cj-mQ/DeleteBookmark`<br>
-Request Method: `POST`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-`None`<br>
-#### queryId<br>
-`None`<br>
-## DeleteRetweet<br>
-Request URL: `https://api.twitter.com/graphql/iQtK4dl5hBmXewYZuEOKVw/DeleteRetweet`<br>
-Request Method: `POST`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-`None`<br>
-#### queryId<br>
-`None`<br>
-## DeleteTweet<br>
-Request URL: `https://api.twitter.com/graphql/VaenaVgh5q5ih7kvyVjgtg/DeleteTweet`<br>
-Request Method: `POST`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-`None`<br>
-#### queryId<br>
-`None`<br>
-## DeleteTweetDownvote<br>
-Request URL: `https://api.twitter.com/graphql/VNEvEGXaUAMfiExP8Tbezw/DeleteTweetDownvote`<br>
-Request Method: `POST`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-`None`<br>
-#### queryId<br>
-`None`<br>
-## DeleteTweetReaction<br>
-Request URL: `https://api.twitter.com/graphql/GKwK0Rj4EdkfwdHQMZTpuw/DeleteTweetReaction`<br>
-Request Method: `POST`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-`None`<br>
-#### queryId<br>
-`None`<br>
-## FavoriteTweet<br>
-Request URL: `https://api.twitter.com/graphql/lI07N6Otwv1PhnEgXILM7A/FavoriteTweet`<br>
-Request Method: `POST`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-`None`<br>
-#### queryId<br>
-`None`<br>
-## ModerateTweet<br>
-Request URL: `https://api.twitter.com/graphql/pjFnHGVqCjTcZol0xcBJjw/ModerateTweet`<br>
-Request Method: `POST`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-`None`<br>
-#### queryId<br>
-`None`<br>
-## TweetResultByRestId<br>
-Request URL: `https://api.twitter.com/graphql/xnhK0CseM9am03fYIMntTg/TweetResultByRestId`<br>
-Request Method: `GET`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-| key                                                                     | type    |   variable | default   |
-|:------------------------------------------------------------------------|:--------|-----------:|:----------|
-| tweetypie_unmention_optimization_enabled                                | boolean |          1 | nan       |
-| vibe_api_enabled                                                        | boolean |          1 | nan       |
-| responsive_web_edit_tweet_api_enabled                                   | boolean |          1 | nan       |
-| graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean |          1 | nan       |
-| view_counts_everywhere_api_enabled                                      | boolean |          1 | nan       |
-| longform_notetweets_consumption_enabled                                 | boolean |          1 | nan       |
-| tweet_awards_web_tipping_enabled                                        | boolean |          0 | nan       |
-| freedom_of_speech_not_reach_fetch_enabled                               | boolean |          0 | nan       |
-| standardized_nudges_misinfo                                             | boolean |          1 | nan       |
-| tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean |          0 | nan       |
-| interactive_text_enabled                                                | boolean |          1 | nan       |
-| responsive_web_text_conversations_enabled                               | boolean |          0 | nan       |
-| longform_notetweets_richtext_consumption_enabled                        | ...     |        nan | error     |
-| blue_business_profile_image_shape_enabled                               | boolean |          0 | nan       |
-| responsive_web_graphql_exclude_directive_enabled                        | boolean |          1 | nan       |
-| verified_phone_label_enabled                                            | boolean |          0 | nan       |
-| responsive_web_graphql_timeline_navigation_enabled                      | boolean |          1 | nan       |
-| responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean |          0 | nan       |
-| responsive_web_enhance_cards_enabled                                    | boolean |          0 | nan       |
-
-#### queryId<br>
-`None`<br>
-## UnfavoriteTweet<br>
-Request URL: `https://api.twitter.com/graphql/ZYKSe-w7KEslx3JhSIk5LA/UnfavoriteTweet`<br>
-Request Method: `POST`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-`None`<br>
-#### queryId<br>
-`None`<br>
-## UnmentionUserFromConversation<br>
-Request URL: `https://api.twitter.com/graphql/xVW9j3OqoBRY9d6_2OONEg/UnmentionUserFromConversation`<br>
-Request Method: `POST`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-`None`<br>
-#### queryId<br>
-`None`<br>
-## UnmoderateTweet<br>
-Request URL: `https://api.twitter.com/graphql/pVSyu6PA57TLvIE4nN2tsA/UnmoderateTweet`<br>
-Request Method: `POST`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-`None`<br>
-#### queryId<br>
-`None`<br>
-## CheckTweetForNudge<br>
-Request URL: `https://api.twitter.com/graphql/C2dcvh7H69JALtomErxWlA/CheckTweetForNudge`<br>
-Request Method: `POST`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-| key                          | type    | variable   |
-|:-----------------------------|:--------|:-----------|
-| standardized_nudges_toxicity | boolean | False      |
-
-#### queryId<br>
-`None`<br>
-## ConversationControlChange<br>
-Request URL: `https://api.twitter.com/graphql/hb1elGcj6769uT8qVYqtjw/ConversationControlChange`<br>
-Request Method: `POST`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-`None`<br>
-#### queryId<br>
-`None`<br>
-## ConversationControlDelete<br>
-Request URL: `https://api.twitter.com/graphql/OoMO_aSZ1ZXjegeamF9QmA/ConversationControlDelete`<br>
-Request Method: `POST`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-`None`<br>
-#### queryId<br>
-`None`<br>
-## CreateBookmark<br>
-Request URL: `https://api.twitter.com/graphql/aoDbu3RHznuiSkQ9aNM67Q/CreateBookmark`<br>
-Request Method: `POST`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-`None`<br>
-#### queryId<br>
-`None`<br>
-## CreateNoteTweet<br>
-Request URL: `https://api.twitter.com/graphql/K5kylRYkO5r0LS4Rtsyrwg/CreateNoteTweet`<br>
-Request Method: `POST`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-| key                                                                     | type    |   variable | default   |
-|:------------------------------------------------------------------------|:--------|-----------:|:----------|
-| tweetypie_unmention_optimization_enabled                                | boolean |          1 | nan       |
-| vibe_api_enabled                                                        | boolean |          1 | nan       |
-| responsive_web_edit_tweet_api_enabled                                   | boolean |          1 | nan       |
-| graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean |          1 | nan       |
-| view_counts_everywhere_api_enabled                                      | boolean |          1 | nan       |
-| longform_notetweets_consumption_enabled                                 | boolean |          1 | nan       |
-| tweet_awards_web_tipping_enabled                                        | boolean |          0 | nan       |
-| interactive_text_enabled                                                | boolean |          1 | nan       |
-| responsive_web_text_conversations_enabled                               | boolean |          0 | nan       |
-| longform_notetweets_richtext_consumption_enabled                        | ...     |        nan | error     |
-| blue_business_profile_image_shape_enabled                               | boolean |          0 | nan       |
-| responsive_web_graphql_exclude_directive_enabled                        | boolean |          1 | nan       |
-| verified_phone_label_enabled                                            | boolean |          0 | nan       |
-| freedom_of_speech_not_reach_fetch_enabled                               | boolean |          0 | nan       |
-| standardized_nudges_misinfo                                             | boolean |          1 | nan       |
-| tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean |          0 | nan       |
-| responsive_web_graphql_timeline_navigation_enabled                      | boolean |          1 | nan       |
-| responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean |          0 | nan       |
-| responsive_web_enhance_cards_enabled                                    | boolean |          0 | nan       |
-
-#### queryId<br>
-`None`<br>
-## CreateRetweet<br>
-Request URL: `https://api.twitter.com/graphql/ojPdsZsimiJrUGLR1sjUtA/CreateRetweet`<br>
-Request Method: `POST`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-`None`<br>
-#### queryId<br>
-`None`<br>
-## CreateTweet<br>
-Request URL: `https://api.twitter.com/graphql/VtVTvbMKuYFBF9m1s4L1sw/CreateTweet`<br>
-Request Method: `POST`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-| key                                                                     | type    |   variable | default   |
-|:------------------------------------------------------------------------|:--------|-----------:|:----------|
-| tweetypie_unmention_optimization_enabled                                | boolean |          1 | nan       |
-| vibe_api_enabled                                                        | boolean |          1 | nan       |
-| responsive_web_edit_tweet_api_enabled                                   | boolean |          1 | nan       |
-| graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean |          1 | nan       |
-| view_counts_everywhere_api_enabled                                      | boolean |          1 | nan       |
-| longform_notetweets_consumption_enabled                                 | boolean |          1 | nan       |
-| tweet_awards_web_tipping_enabled                                        | boolean |          0 | nan       |
-| interactive_text_enabled                                                | boolean |          1 | nan       |
-| responsive_web_text_conversations_enabled                               | boolean |          0 | nan       |
-| longform_notetweets_richtext_consumption_enabled                        | ...     |        nan | error     |
-| blue_business_profile_image_shape_enabled                               | boolean |          0 | nan       |
-| responsive_web_graphql_exclude_directive_enabled                        | boolean |          1 | nan       |
-| verified_phone_label_enabled                                            | boolean |          0 | nan       |
-| freedom_of_speech_not_reach_fetch_enabled                               | boolean |          0 | nan       |
-| standardized_nudges_misinfo                                             | boolean |          1 | nan       |
-| tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean |          0 | nan       |
-| responsive_web_graphql_timeline_navigation_enabled                      | boolean |          1 | nan       |
-| responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean |          0 | nan       |
-| responsive_web_enhance_cards_enabled                                    | boolean |          0 | nan       |
-
-#### queryId<br>
-`None`<br>
-## CreateTweetDownvote<br>
-Request URL: `https://api.twitter.com/graphql/Eo65jl-gww30avDgrXvhUA/CreateTweetDownvote`<br>
-Request Method: `POST`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-`None`<br>
-#### queryId<br>
-`None`<br>
-## CreateTweetReaction<br>
-Request URL: `https://api.twitter.com/graphql/D7M6X3h4-mJE8UB1Ap3_dQ/CreateTweetReaction`<br>
-Request Method: `POST`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-`None`<br>
-#### queryId<br>
-`None`<br>
-## DeleteBookmark<br>
-Request URL: `https://api.twitter.com/graphql/Wlmlj2-xzyS1GN3a6cj-mQ/DeleteBookmark`<br>
-Request Method: `POST`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-`None`<br>
-#### queryId<br>
-`None`<br>
-## DeleteRetweet<br>
-Request URL: `https://api.twitter.com/graphql/iQtK4dl5hBmXewYZuEOKVw/DeleteRetweet`<br>
-Request Method: `POST`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-`None`<br>
-#### queryId<br>
-`None`<br>
-## DeleteTweet<br>
-Request URL: `https://api.twitter.com/graphql/VaenaVgh5q5ih7kvyVjgtg/DeleteTweet`<br>
-Request Method: `POST`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-`None`<br>
-#### queryId<br>
-`None`<br>
-## DeleteTweetDownvote<br>
-Request URL: `https://api.twitter.com/graphql/VNEvEGXaUAMfiExP8Tbezw/DeleteTweetDownvote`<br>
-Request Method: `POST`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-`None`<br>
-#### queryId<br>
-`None`<br>
-## DeleteTweetReaction<br>
-Request URL: `https://api.twitter.com/graphql/GKwK0Rj4EdkfwdHQMZTpuw/DeleteTweetReaction`<br>
-Request Method: `POST`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-`None`<br>
-#### queryId<br>
-`None`<br>
-## FavoriteTweet<br>
-Request URL: `https://api.twitter.com/graphql/lI07N6Otwv1PhnEgXILM7A/FavoriteTweet`<br>
-Request Method: `POST`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-`None`<br>
-#### queryId<br>
-`None`<br>
-## ModerateTweet<br>
-Request URL: `https://api.twitter.com/graphql/pjFnHGVqCjTcZol0xcBJjw/ModerateTweet`<br>
-Request Method: `POST`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-`None`<br>
-#### queryId<br>
-`None`<br>
-## TweetResultByRestId<br>
-Request URL: `https://api.twitter.com/graphql/xnhK0CseM9am03fYIMntTg/TweetResultByRestId`<br>
-Request Method: `GET`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-| key                                                                     | type    |   variable | default   |
-|:------------------------------------------------------------------------|:--------|-----------:|:----------|
-| tweetypie_unmention_optimization_enabled                                | boolean |          1 | nan       |
-| vibe_api_enabled                                                        | boolean |          1 | nan       |
-| responsive_web_edit_tweet_api_enabled                                   | boolean |          1 | nan       |
-| graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean |          1 | nan       |
-| view_counts_everywhere_api_enabled                                      | boolean |          1 | nan       |
-| longform_notetweets_consumption_enabled                                 | boolean |          1 | nan       |
-| tweet_awards_web_tipping_enabled                                        | boolean |          0 | nan       |
-| freedom_of_speech_not_reach_fetch_enabled                               | boolean |          0 | nan       |
-| standardized_nudges_misinfo                                             | boolean |          1 | nan       |
-| tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean |          0 | nan       |
-| interactive_text_enabled                                                | boolean |          1 | nan       |
-| responsive_web_text_conversations_enabled                               | boolean |          0 | nan       |
-| longform_notetweets_richtext_consumption_enabled                        | ...     |        nan | error     |
-| blue_business_profile_image_shape_enabled                               | boolean |          0 | nan       |
-| responsive_web_graphql_exclude_directive_enabled                        | boolean |          1 | nan       |
-| verified_phone_label_enabled                                            | boolean |          0 | nan       |
-| responsive_web_graphql_timeline_navigation_enabled                      | boolean |          1 | nan       |
-| responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean |          0 | nan       |
-| responsive_web_enhance_cards_enabled                                    | boolean |          0 | nan       |
-
-#### queryId<br>
-`None`<br>
-## UnfavoriteTweet<br>
-Request URL: `https://api.twitter.com/graphql/ZYKSe-w7KEslx3JhSIk5LA/UnfavoriteTweet`<br>
-Request Method: `POST`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-`None`<br>
-#### queryId<br>
-`None`<br>
-## UnmentionUserFromConversation<br>
-Request URL: `https://api.twitter.com/graphql/xVW9j3OqoBRY9d6_2OONEg/UnmentionUserFromConversation`<br>
-Request Method: `POST`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-`None`<br>
-#### queryId<br>
-`None`<br>
-## UnmoderateTweet<br>
-Request URL: `https://api.twitter.com/graphql/pVSyu6PA57TLvIE4nN2tsA/UnmoderateTweet`<br>
-Request Method: `POST`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-`None`<br>
-#### queryId<br>
-`None`<br>
-## CheckTweetForNudge<br>
-Request URL: `https://api.twitter.com/graphql/C2dcvh7H69JALtomErxWlA/CheckTweetForNudge`<br>
-Request Method: `POST`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-| key                          | type    | variable   |
-|:-----------------------------|:--------|:-----------|
-| standardized_nudges_toxicity | boolean | False      |
-
-#### queryId<br>
-`None`<br>
-## ConversationControlChange<br>
-Request URL: `https://api.twitter.com/graphql/hb1elGcj6769uT8qVYqtjw/ConversationControlChange`<br>
-Request Method: `POST`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-`None`<br>
-#### queryId<br>
-`None`<br>
-## ConversationControlDelete<br>
-Request URL: `https://api.twitter.com/graphql/OoMO_aSZ1ZXjegeamF9QmA/ConversationControlDelete`<br>
-Request Method: `POST`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-`None`<br>
-#### queryId<br>
-`None`<br>
-## CreateBookmark<br>
-Request URL: `https://api.twitter.com/graphql/aoDbu3RHznuiSkQ9aNM67Q/CreateBookmark`<br>
-Request Method: `POST`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-`None`<br>
-#### queryId<br>
-`None`<br>
-## CreateNoteTweet<br>
-Request URL: `https://api.twitter.com/graphql/K5kylRYkO5r0LS4Rtsyrwg/CreateNoteTweet`<br>
-Request Method: `POST`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-| key                                                                     | type    |   variable | default   |
-|:------------------------------------------------------------------------|:--------|-----------:|:----------|
-| tweetypie_unmention_optimization_enabled                                | boolean |          1 | nan       |
-| vibe_api_enabled                                                        | boolean |          1 | nan       |
-| responsive_web_edit_tweet_api_enabled                                   | boolean |          1 | nan       |
-| graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean |          1 | nan       |
-| view_counts_everywhere_api_enabled                                      | boolean |          1 | nan       |
-| longform_notetweets_consumption_enabled                                 | boolean |          1 | nan       |
-| tweet_awards_web_tipping_enabled                                        | boolean |          0 | nan       |
-| interactive_text_enabled                                                | boolean |          1 | nan       |
-| responsive_web_text_conversations_enabled                               | boolean |          0 | nan       |
-| longform_notetweets_richtext_consumption_enabled                        | ...     |        nan | error     |
-| blue_business_profile_image_shape_enabled                               | boolean |          0 | nan       |
-| responsive_web_graphql_exclude_directive_enabled                        | boolean |          1 | nan       |
-| verified_phone_label_enabled                                            | boolean |          0 | nan       |
-| freedom_of_speech_not_reach_fetch_enabled                               | boolean |          0 | nan       |
-| standardized_nudges_misinfo                                             | boolean |          1 | nan       |
-| tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean |          0 | nan       |
-| responsive_web_graphql_timeline_navigation_enabled                      | boolean |          1 | nan       |
-| responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean |          0 | nan       |
-| responsive_web_enhance_cards_enabled                                    | boolean |          0 | nan       |
-
-#### queryId<br>
-`None`<br>
-## CreateRetweet<br>
-Request URL: `https://api.twitter.com/graphql/ojPdsZsimiJrUGLR1sjUtA/CreateRetweet`<br>
-Request Method: `POST`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-`None`<br>
-#### queryId<br>
-`None`<br>
-## CreateTweet<br>
-Request URL: `https://api.twitter.com/graphql/VtVTvbMKuYFBF9m1s4L1sw/CreateTweet`<br>
-Request Method: `POST`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-| key                                                                     | type    |   variable | default   |
-|:------------------------------------------------------------------------|:--------|-----------:|:----------|
-| tweetypie_unmention_optimization_enabled                                | boolean |          1 | nan       |
-| vibe_api_enabled                                                        | boolean |          1 | nan       |
-| responsive_web_edit_tweet_api_enabled                                   | boolean |          1 | nan       |
-| graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean |          1 | nan       |
-| view_counts_everywhere_api_enabled                                      | boolean |          1 | nan       |
-| longform_notetweets_consumption_enabled                                 | boolean |          1 | nan       |
-| tweet_awards_web_tipping_enabled                                        | boolean |          0 | nan       |
-| interactive_text_enabled                                                | boolean |          1 | nan       |
-| responsive_web_text_conversations_enabled                               | boolean |          0 | nan       |
-| longform_notetweets_richtext_consumption_enabled                        | ...     |        nan | error     |
-| blue_business_profile_image_shape_enabled                               | boolean |          0 | nan       |
-| responsive_web_graphql_exclude_directive_enabled                        | boolean |          1 | nan       |
-| verified_phone_label_enabled                                            | boolean |          0 | nan       |
-| freedom_of_speech_not_reach_fetch_enabled                               | boolean |          0 | nan       |
-| standardized_nudges_misinfo                                             | boolean |          1 | nan       |
-| tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean |          0 | nan       |
-| responsive_web_graphql_timeline_navigation_enabled                      | boolean |          1 | nan       |
-| responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean |          0 | nan       |
-| responsive_web_enhance_cards_enabled                                    | boolean |          0 | nan       |
-
-#### queryId<br>
-`None`<br>
-## CreateTweetDownvote<br>
-Request URL: `https://api.twitter.com/graphql/Eo65jl-gww30avDgrXvhUA/CreateTweetDownvote`<br>
-Request Method: `POST`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-`None`<br>
-#### queryId<br>
-`None`<br>
-## CreateTweetReaction<br>
-Request URL: `https://api.twitter.com/graphql/D7M6X3h4-mJE8UB1Ap3_dQ/CreateTweetReaction`<br>
-Request Method: `POST`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-`None`<br>
-#### queryId<br>
-`None`<br>
-## DeleteBookmark<br>
-Request URL: `https://api.twitter.com/graphql/Wlmlj2-xzyS1GN3a6cj-mQ/DeleteBookmark`<br>
-Request Method: `POST`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-`None`<br>
-#### queryId<br>
-`None`<br>
-## DeleteRetweet<br>
-Request URL: `https://api.twitter.com/graphql/iQtK4dl5hBmXewYZuEOKVw/DeleteRetweet`<br>
-Request Method: `POST`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-`None`<br>
-#### queryId<br>
-`None`<br>
-## DeleteTweet<br>
-Request URL: `https://api.twitter.com/graphql/VaenaVgh5q5ih7kvyVjgtg/DeleteTweet`<br>
-Request Method: `POST`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-`None`<br>
-#### queryId<br>
-`None`<br>
-## DeleteTweetDownvote<br>
-Request URL: `https://api.twitter.com/graphql/VNEvEGXaUAMfiExP8Tbezw/DeleteTweetDownvote`<br>
-Request Method: `POST`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-`None`<br>
-#### queryId<br>
-`None`<br>
-## DeleteTweetReaction<br>
-Request URL: `https://api.twitter.com/graphql/GKwK0Rj4EdkfwdHQMZTpuw/DeleteTweetReaction`<br>
-Request Method: `POST`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-`None`<br>
-#### queryId<br>
-`None`<br>
-## FavoriteTweet<br>
-Request URL: `https://api.twitter.com/graphql/lI07N6Otwv1PhnEgXILM7A/FavoriteTweet`<br>
-Request Method: `POST`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-`None`<br>
-#### queryId<br>
-`None`<br>
-## ModerateTweet<br>
-Request URL: `https://api.twitter.com/graphql/pjFnHGVqCjTcZol0xcBJjw/ModerateTweet`<br>
-Request Method: `POST`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-`None`<br>
-#### queryId<br>
-`None`<br>
-## TweetResultByRestId<br>
-Request URL: `https://api.twitter.com/graphql/xnhK0CseM9am03fYIMntTg/TweetResultByRestId`<br>
-Request Method: `GET`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-| key                                                                     | type    |   variable | default   |
-|:------------------------------------------------------------------------|:--------|-----------:|:----------|
-| tweetypie_unmention_optimization_enabled                                | boolean |          1 | nan       |
-| vibe_api_enabled                                                        | boolean |          1 | nan       |
-| responsive_web_edit_tweet_api_enabled                                   | boolean |          1 | nan       |
-| graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean |          1 | nan       |
-| view_counts_everywhere_api_enabled                                      | boolean |          1 | nan       |
-| longform_notetweets_consumption_enabled                                 | boolean |          1 | nan       |
-| tweet_awards_web_tipping_enabled                                        | boolean |          0 | nan       |
-| freedom_of_speech_not_reach_fetch_enabled                               | boolean |          0 | nan       |
-| standardized_nudges_misinfo                                             | boolean |          1 | nan       |
-| tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean |          0 | nan       |
-| interactive_text_enabled                                                | boolean |          1 | nan       |
-| responsive_web_text_conversations_enabled                               | boolean |          0 | nan       |
-| longform_notetweets_richtext_consumption_enabled                        | ...     |        nan | error     |
-| blue_business_profile_image_shape_enabled                               | boolean |          0 | nan       |
-| responsive_web_graphql_exclude_directive_enabled                        | boolean |          1 | nan       |
-| verified_phone_label_enabled                                            | boolean |          0 | nan       |
-| responsive_web_graphql_timeline_navigation_enabled                      | boolean |          1 | nan       |
-| responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean |          0 | nan       |
-| responsive_web_enhance_cards_enabled                                    | boolean |          0 | nan       |
-
-#### queryId<br>
-`None`<br>
-## UnfavoriteTweet<br>
-Request URL: `https://api.twitter.com/graphql/ZYKSe-w7KEslx3JhSIk5LA/UnfavoriteTweet`<br>
-Request Method: `POST`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-`None`<br>
-#### queryId<br>
-`None`<br>
-## UnmentionUserFromConversation<br>
-Request URL: `https://api.twitter.com/graphql/xVW9j3OqoBRY9d6_2OONEg/UnmentionUserFromConversation`<br>
-Request Method: `POST`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-`None`<br>
-#### queryId<br>
-`None`<br>
-## UnmoderateTweet<br>
-Request URL: `https://api.twitter.com/graphql/pVSyu6PA57TLvIE4nN2tsA/UnmoderateTweet`<br>
-Request Method: `POST`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-`None`<br>
-#### queryId<br>
-`None`<br>
-## CheckTweetForNudge<br>
-Request URL: `https://api.twitter.com/graphql/C2dcvh7H69JALtomErxWlA/CheckTweetForNudge`<br>
-Request Method: `POST`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-| key                          | type    | variable   |
-|:-----------------------------|:--------|:-----------|
-| standardized_nudges_toxicity | boolean | False      |
-
-#### queryId<br>
-`None`<br>
-## ConversationControlChange<br>
-Request URL: `https://api.twitter.com/graphql/hb1elGcj6769uT8qVYqtjw/ConversationControlChange`<br>
-Request Method: `POST`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-`None`<br>
-#### queryId<br>
-`None`<br>
-## ConversationControlDelete<br>
-Request URL: `https://api.twitter.com/graphql/OoMO_aSZ1ZXjegeamF9QmA/ConversationControlDelete`<br>
-Request Method: `POST`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-`None`<br>
-#### queryId<br>
-`None`<br>
-## CreateBookmark<br>
-Request URL: `https://api.twitter.com/graphql/aoDbu3RHznuiSkQ9aNM67Q/CreateBookmark`<br>
-Request Method: `POST`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-`None`<br>
-#### queryId<br>
-`None`<br>
-## CreateNoteTweet<br>
-Request URL: `https://api.twitter.com/graphql/K5kylRYkO5r0LS4Rtsyrwg/CreateNoteTweet`<br>
-Request Method: `POST`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-| key                                                                     | type    |   variable | default   |
-|:------------------------------------------------------------------------|:--------|-----------:|:----------|
-| tweetypie_unmention_optimization_enabled                                | boolean |          1 | nan       |
-| vibe_api_enabled                                                        | boolean |          1 | nan       |
-| responsive_web_edit_tweet_api_enabled                                   | boolean |          1 | nan       |
-| graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean |          1 | nan       |
-| view_counts_everywhere_api_enabled                                      | boolean |          1 | nan       |
-| longform_notetweets_consumption_enabled                                 | boolean |          1 | nan       |
-| tweet_awards_web_tipping_enabled                                        | boolean |          0 | nan       |
-| interactive_text_enabled                                                | boolean |          1 | nan       |
-| responsive_web_text_conversations_enabled                               | boolean |          0 | nan       |
-| longform_notetweets_richtext_consumption_enabled                        | ...     |        nan | error     |
-| blue_business_profile_image_shape_enabled                               | boolean |          0 | nan       |
-| responsive_web_graphql_exclude_directive_enabled                        | boolean |          1 | nan       |
-| verified_phone_label_enabled                                            | boolean |          0 | nan       |
-| freedom_of_speech_not_reach_fetch_enabled                               | boolean |          0 | nan       |
-| standardized_nudges_misinfo                                             | boolean |          1 | nan       |
-| tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean |          0 | nan       |
-| responsive_web_graphql_timeline_navigation_enabled                      | boolean |          1 | nan       |
-| responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean |          0 | nan       |
-| responsive_web_enhance_cards_enabled                                    | boolean |          0 | nan       |
-
-#### queryId<br>
-`None`<br>
-## CreateRetweet<br>
-Request URL: `https://api.twitter.com/graphql/ojPdsZsimiJrUGLR1sjUtA/CreateRetweet`<br>
-Request Method: `POST`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-`None`<br>
-#### queryId<br>
-`None`<br>
-## CreateTweet<br>
-Request URL: `https://api.twitter.com/graphql/VtVTvbMKuYFBF9m1s4L1sw/CreateTweet`<br>
-Request Method: `POST`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-| key                                                                     | type    |   variable | default   |
-|:------------------------------------------------------------------------|:--------|-----------:|:----------|
-| tweetypie_unmention_optimization_enabled                                | boolean |          1 | nan       |
-| vibe_api_enabled                                                        | boolean |          1 | nan       |
-| responsive_web_edit_tweet_api_enabled                                   | boolean |          1 | nan       |
-| graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean |          1 | nan       |
-| view_counts_everywhere_api_enabled                                      | boolean |          1 | nan       |
-| longform_notetweets_consumption_enabled                                 | boolean |          1 | nan       |
-| tweet_awards_web_tipping_enabled                                        | boolean |          0 | nan       |
-| interactive_text_enabled                                                | boolean |          1 | nan       |
-| responsive_web_text_conversations_enabled                               | boolean |          0 | nan       |
-| longform_notetweets_richtext_consumption_enabled                        | ...     |        nan | error     |
-| blue_business_profile_image_shape_enabled                               | boolean |          0 | nan       |
-| responsive_web_graphql_exclude_directive_enabled                        | boolean |          1 | nan       |
-| verified_phone_label_enabled                                            | boolean |          0 | nan       |
-| freedom_of_speech_not_reach_fetch_enabled                               | boolean |          0 | nan       |
-| standardized_nudges_misinfo                                             | boolean |          1 | nan       |
-| tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean |          0 | nan       |
-| responsive_web_graphql_timeline_navigation_enabled                      | boolean |          1 | nan       |
-| responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean |          0 | nan       |
-| responsive_web_enhance_cards_enabled                                    | boolean |          0 | nan       |
-
-#### queryId<br>
-`None`<br>
-## CreateTweetDownvote<br>
-Request URL: `https://api.twitter.com/graphql/Eo65jl-gww30avDgrXvhUA/CreateTweetDownvote`<br>
-Request Method: `POST`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-`None`<br>
-#### queryId<br>
-`None`<br>
-## CreateTweetReaction<br>
-Request URL: `https://api.twitter.com/graphql/D7M6X3h4-mJE8UB1Ap3_dQ/CreateTweetReaction`<br>
-Request Method: `POST`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-`None`<br>
-#### queryId<br>
-`None`<br>
-## DeleteBookmark<br>
-Request URL: `https://api.twitter.com/graphql/Wlmlj2-xzyS1GN3a6cj-mQ/DeleteBookmark`<br>
-Request Method: `POST`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-`None`<br>
-#### queryId<br>
-`None`<br>
-## DeleteRetweet<br>
-Request URL: `https://api.twitter.com/graphql/iQtK4dl5hBmXewYZuEOKVw/DeleteRetweet`<br>
-Request Method: `POST`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-`None`<br>
-#### queryId<br>
-`None`<br>
-## DeleteTweet<br>
-Request URL: `https://api.twitter.com/graphql/VaenaVgh5q5ih7kvyVjgtg/DeleteTweet`<br>
-Request Method: `POST`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-`None`<br>
-#### queryId<br>
-`None`<br>
-## DeleteTweetDownvote<br>
-Request URL: `https://api.twitter.com/graphql/VNEvEGXaUAMfiExP8Tbezw/DeleteTweetDownvote`<br>
-Request Method: `POST`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-`None`<br>
-#### queryId<br>
-`None`<br>
-## DeleteTweetReaction<br>
-Request URL: `https://api.twitter.com/graphql/GKwK0Rj4EdkfwdHQMZTpuw/DeleteTweetReaction`<br>
-Request Method: `POST`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-`None`<br>
-#### queryId<br>
-`None`<br>
-## FavoriteTweet<br>
-Request URL: `https://api.twitter.com/graphql/lI07N6Otwv1PhnEgXILM7A/FavoriteTweet`<br>
-Request Method: `POST`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-`None`<br>
-#### queryId<br>
-`None`<br>
-## ModerateTweet<br>
-Request URL: `https://api.twitter.com/graphql/pjFnHGVqCjTcZol0xcBJjw/ModerateTweet`<br>
-Request Method: `POST`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-`None`<br>
-#### queryId<br>
-`None`<br>
-## TweetResultByRestId<br>
-Request URL: `https://api.twitter.com/graphql/xnhK0CseM9am03fYIMntTg/TweetResultByRestId`<br>
-Request Method: `GET`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-| key                                                                     | type    |   variable | default   |
-|:------------------------------------------------------------------------|:--------|-----------:|:----------|
-| tweetypie_unmention_optimization_enabled                                | boolean |          1 | nan       |
-| vibe_api_enabled                                                        | boolean |          1 | nan       |
-| responsive_web_edit_tweet_api_enabled                                   | boolean |          1 | nan       |
-| graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean |          1 | nan       |
-| view_counts_everywhere_api_enabled                                      | boolean |          1 | nan       |
-| longform_notetweets_consumption_enabled                                 | boolean |          1 | nan       |
-| tweet_awards_web_tipping_enabled                                        | boolean |          0 | nan       |
-| freedom_of_speech_not_reach_fetch_enabled                               | boolean |          0 | nan       |
-| standardized_nudges_misinfo                                             | boolean |          1 | nan       |
-| tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean |          0 | nan       |
-| interactive_text_enabled                                                | boolean |          1 | nan       |
-| responsive_web_text_conversations_enabled                               | boolean |          0 | nan       |
-| longform_notetweets_richtext_consumption_enabled                        | ...     |        nan | error     |
-| blue_business_profile_image_shape_enabled                               | boolean |          0 | nan       |
-| responsive_web_graphql_exclude_directive_enabled                        | boolean |          1 | nan       |
-| verified_phone_label_enabled                                            | boolean |          0 | nan       |
-| responsive_web_graphql_timeline_navigation_enabled                      | boolean |          1 | nan       |
-| responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean |          0 | nan       |
-| responsive_web_enhance_cards_enabled                                    | boolean |          0 | nan       |
-
-#### queryId<br>
-`None`<br>
-## UnfavoriteTweet<br>
-Request URL: `https://api.twitter.com/graphql/ZYKSe-w7KEslx3JhSIk5LA/UnfavoriteTweet`<br>
-Request Method: `POST`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-`None`<br>
-#### queryId<br>
-`None`<br>
-## UnmentionUserFromConversation<br>
-Request URL: `https://api.twitter.com/graphql/xVW9j3OqoBRY9d6_2OONEg/UnmentionUserFromConversation`<br>
-Request Method: `POST`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-`None`<br>
-#### queryId<br>
-`None`<br>
-## UnmoderateTweet<br>
-Request URL: `https://api.twitter.com/graphql/pVSyu6PA57TLvIE4nN2tsA/UnmoderateTweet`<br>
-Request Method: `POST`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-`None`<br>
-#### queryId<br>
-`None`<br>
 ## CommunitiesTabBarItemQuery<br>
 Request URL: `https://api.twitter.com/graphql/ZesI-zwzK86uoWFu5IhLDg/CommunitiesTabBarItemQuery`<br>
 Request Method: `GET`<br>
@@ -16207,6 +13939,17 @@ Login Required: `...`<br>
 `None`<br>
 #### queryId<br>
 `None`<br>
+## DelegatedAccountListQuery<br>
+Request URL: `https://api.twitter.com/graphql/TyEY0nJqyMRs-pKlOeNBIA/DelegatedAccountListQuery`<br>
+Request Method: `GET`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
 ## DelegateAlertBannerContainerQuery<br>
 Request URL: `https://api.twitter.com/graphql/zuUTzlnI-XomL9lfWFqSKg/DelegateAlertBannerContainerQuery`<br>
 Request Method: `GET`<br>
@@ -16316,6 +14059,17 @@ Login Required: `...`<br>
 ## DMPinnedInboxDelete_Mutation<br>
 Request URL: `https://api.twitter.com/graphql/_TQxP2Rb0expwVP9ktGrTQ/DMPinnedInboxDelete_Mutation`<br>
 Request Method: `POST`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
+## DMPinnedInboxQuery<br>
+Request URL: `https://api.twitter.com/graphql/_gBQBgClVuMQb8efxWkbbQ/DMPinnedInboxQuery`<br>
+Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
@@ -16584,21 +14338,6 @@ Login Required: `...`<br>
 `None`<br>
 #### features<br>
 `None`<br>
-#### queryId<br>
-`None`<br>
-## PrimaryContentQuery<br>
-Request URL: `https://api.twitter.com/graphql/DPcSNOtovRKeAwtHAqwUlg/PrimaryContentQuery`<br>
-Request Method: `GET`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-| key                                 | type    |   variable | default   |
-|:------------------------------------|:--------|-----------:|:----------|
-| c9s_list_members_action_api_enabled | boolean |          0 | nan       |
-| c9s_superc9s_indication_enabled     | ...     |        nan | error     |
-
 #### queryId<br>
 `None`<br>
 ## actions_approveMemberRequest_Mutation<br>
