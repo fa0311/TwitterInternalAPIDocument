@@ -4135,6 +4135,11 @@
     "Require": "Require"
   },
   {
+    "Composition": "composition",
+    "DMComposition": "dm_composition",
+    "NoteComposition": "note_composition"
+  },
+  {
     "REQUEST": "rweb/placePicker/SEARCH_REQUEST",
     "SUCCESS": "rweb/placePicker/SEARCH_SUCCESS",
     "FAILURE": "rweb/placePicker/SEARCH_FAILURE"
@@ -5496,6 +5501,11 @@
     "TWITTER_ARTICLES_TAB": "TWITTER_ARTICLES_TAB",
     "TWITTER_ARTICLE_VIEW": "TWITTER_ARTICLE_VIEW",
     "LONGFORM_COMPOSER": "LONGFORM_COMPOSER"
+  },
+  {
+    "Composition": "composition",
+    "DMComposition": "dm_composition",
+    "NoteComposition": "note_composition"
   },
   {
     "REQUEST": "rweb/availableLanguages/FETCH_AVAILABLE_LANGUAGES_REQUEST",
