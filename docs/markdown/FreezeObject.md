@@ -4421,6 +4421,12 @@ This document is entirely auto-generated and may contain errors.<br>
 | Prompt     | Prompt  |
 | Require    | Require |
 
+| constant        | value            |
+|:----------------|:-----------------|
+| Composition     | composition      |
+| DMComposition   | dm_composition   |
+| NoteComposition | note_composition |
+
 | constant   | value                           |
 |:-----------|:--------------------------------|
 | REQUEST    | rweb/placePicker/SEARCH_REQUEST |
@@ -5962,6 +5968,12 @@ This document is entirely auto-generated and may contain errors.<br>
 | TWITTER_ARTICLES_TAB | TWITTER_ARTICLES_TAB |
 | TWITTER_ARTICLE_VIEW | TWITTER_ARTICLE_VIEW |
 | LONGFORM_COMPOSER    | LONGFORM_COMPOSER    |
+
+| constant        | value            |
+|:----------------|:-----------------|
+| Composition     | composition      |
+| DMComposition   | dm_composition   |
+| NoteComposition | note_composition |
 
 | constant   | value                                                     |
 |:-----------|:----------------------------------------------------------|
