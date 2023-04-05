@@ -32,43 +32,55 @@
     "method": "get"
   },
   {
-    "queryId": "mutes/conversations/create",
+    "queryId": "dm/welcome_messages/add_to_conversation",
     "method": "post"
   },
   {
-    "queryId": "mutes/conversations/destroy",
-    "method": "post"
-  },
-  {
-    "queryId": "statuses/retweet",
-    "method": "post"
-  },
-  {
-    "queryId": "statuses/unretweet",
-    "method": "post"
-  },
-  {
-    "queryId": "statuses/update",
-    "method": "post"
-  },
-  {
-    "queryId": "statuses/destroy",
-    "method": "post"
-  },
-  {
-    "queryId": "statuses/lookup",
+    "queryId": "dm/conversation",
     "method": "get"
   },
   {
-    "queryId": "account/pin_tweet",
+    "queryId": "dm/inbox_initial_state",
+    "method": "get"
+  },
+  {
+    "queryId": "dm/user_updates",
+    "method": "get"
+  },
+  {
+    "queryId": "dm/search/query",
     "method": "post"
   },
   {
-    "queryId": "account/unpin_tweet",
+    "queryId": "/dm/user/update_relationship_state",
     "method": "post"
   },
   {
-    "queryId": "media/media_tags/delete",
+    "queryId": "dm/reaction/new",
+    "method": "post"
+  },
+  {
+    "queryId": "dm/reaction/delete",
+    "method": "post"
+  },
+  {
+    "queryId": "dm/permissions",
+    "method": "get"
+  },
+  {
+    "queryId": "dm/permissions/secret",
+    "method": "get"
+  },
+  {
+    "queryId": "dm/destroy",
+    "method": "post"
+  },
+  {
+    "queryId": "direct_messages/report_spam",
+    "method": "post"
+  },
+  {
+    "queryId": "dm/update_last_seen_event_id",
     "method": "post"
   },
   {
@@ -133,58 +145,6 @@
   },
   {
     "queryId": "device/unregister",
-    "method": "post"
-  },
-  {
-    "queryId": "dm/welcome_messages/add_to_conversation",
-    "method": "post"
-  },
-  {
-    "queryId": "dm/conversation",
-    "method": "get"
-  },
-  {
-    "queryId": "dm/inbox_initial_state",
-    "method": "get"
-  },
-  {
-    "queryId": "dm/user_updates",
-    "method": "get"
-  },
-  {
-    "queryId": "dm/search/query",
-    "method": "post"
-  },
-  {
-    "queryId": "dm/new",
-    "method": "post"
-  },
-  {
-    "queryId": "/dm/user/update_relationship_state",
-    "method": "post"
-  },
-  {
-    "queryId": "dm/reaction/new",
-    "method": "post"
-  },
-  {
-    "queryId": "dm/reaction/delete",
-    "method": "post"
-  },
-  {
-    "queryId": "dm/permissions",
-    "method": "get"
-  },
-  {
-    "queryId": "dm/destroy",
-    "method": "post"
-  },
-  {
-    "queryId": "direct_messages/report_spam",
-    "method": "post"
-  },
-  {
-    "queryId": "dm/update_last_seen_event_id",
     "method": "post"
   },
   {
