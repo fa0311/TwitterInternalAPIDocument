@@ -509,3 +509,28 @@
 - WelcomeScreenQuery<br>
 ### remove<br>
 - None<br>
+## 2023/04/01<br>
+### API<br>
+#### add<br>
+- TweetCoinDetailsScreenQuery<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- blue_business_profile_image_shape_enabled<br>
+- subscriptions_marketing_page_annual_redesign_content_enabled<br>
+#### remove<br>
+- None<br>
+## 2023/04/03<br>
+### API<br>
+#### add<br>
+- DelegatedAccountListQuery<br>
+- DMPinnedInboxQuery<br>
+#### remove<br>
+- PrimaryContentQuery<br>
+### Feature Switch<br>
+#### add<br>
+- graduated_access_botmaker_decider_enabled<br>
+- longform_notetweets_mobile_richtextinput<br>
+#### remove<br>
+- None<br>
