@@ -58,7 +58,7 @@ parameters = {
     "features": json.dumps(data["features"]),
 }
 
-data["url"] = "https://api.twitter.com/graphql/oPHs3ydu7ZOOy2f02soaPA/UserTweets"
+data["url"] = "https://twitter.com/i/api/graphql/oPHs3ydu7ZOOy2f02soaPA/UserTweets"
 
 
 if data["method"] == "GET":
