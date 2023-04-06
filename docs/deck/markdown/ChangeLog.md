@@ -66,3 +66,14 @@
 - responsive_web_reactions_nux_banner<br>
 - rweb_home_ntp_refactor_enabled<br>
 - stateful_login_smart_lock_enabled<br>
+## 2023/04/06<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- responsive_web_vdl_dash_redesign_enabled<br>
