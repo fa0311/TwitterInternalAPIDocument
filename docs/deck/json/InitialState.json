@@ -86,31 +86,6 @@
       "errors": {},
       "fetchStatus": {}
     },
-    "imageCache": {
-      "entities": {},
-      "errors": {},
-      "fetchStatus": {}
-    },
-    "emailValidity": {
-      "entities": {},
-      "errors": {},
-      "fetchStatus": {}
-    },
-    "translationsTweets": {
-      "entities": {},
-      "errors": {},
-      "fetchStatus": {}
-    },
-    "passwordValidity": {
-      "entities": {},
-      "errors": {},
-      "fetchStatus": {}
-    },
-    "phoneNumberValidity": {
-      "entities": {},
-      "errors": {},
-      "fetchStatus": {}
-    },
     "translationsProfiles": {
       "entities": {},
       "errors": {},
@@ -425,7 +400,7 @@
         "value": "true"
       },
       "blue_business_government_badge_picker_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "blue_business_profile_image_shape_enabled": {
         "value": "false"
@@ -1863,9 +1838,6 @@
       },
       "responsive_web_use_badge_counts_for_ntab": {
         "value": "false"
-      },
-      "responsive_web_vdl_dash_redesign_enabled": {
-        "value": "true"
       },
       "responsive_web_verified_organizations_m2_enabled": {
         "value": "true"
@@ -4391,9 +4363,6 @@
         "responsive_web_use_badge_counts_for_ntab": {
           "value": "false"
         },
-        "responsive_web_vdl_dash_redesign_enabled": {
-          "value": "true"
-        },
         "responsive_web_verified_organizations_m2_enabled": {
           "value": "true"
         },
@@ -5170,22 +5139,22 @@
         }
       },
       "impression_pointers": {
-        "web_video_safari_hlsjs_enabled": [
-          "web_video_safari_hlsjs_16262"
+        "machine_translation_holdback_logged_out": [
+          "machine_translation_for_logged_out_users_holdback_15725"
         ]
       },
       "impressions": {
-        "web_video_safari_hlsjs_16262": {
-          "key": "web_video_safari_hlsjs_16262",
+        "machine_translation_for_logged_out_users_holdback_15725": {
+          "key": "machine_translation_for_logged_out_users_holdback_15725",
           "bucket": "control",
           "version": "1"
         }
       },
       "keysRead": {},
-      "settingsVersion": "8eb3e3879710cfa031eb86efc5bf494f"
+      "settingsVersion": "db422f5eac84af41d202828565dec1d9"
     },
     "debug": {},
-    "featureSetToken": "82f69772b4b669b84d81dc02dd435e672160d20a",
+    "featureSetToken": "1125dfc0e58b6b58dc077819f7dc049aaaabae08",
     "isLoaded": "true",
     "isLoading": "false"
   },
@@ -5257,7 +5226,7 @@
     "country": "US",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "168077052499625548",
+    "guestId": "168081549567222407",
     "hasCommunityMemberships": "false",
     "language": "en",
     "oneFactorLoginEligibility": {

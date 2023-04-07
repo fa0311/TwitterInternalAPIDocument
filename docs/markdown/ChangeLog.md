@@ -534,3 +534,18 @@
 - longform_notetweets_mobile_richtextinput<br>
 #### remove<br>
 - None<br>
+## 2023/04/06<br>
+### API<br>
+#### add<br>
+- PrimaryContentQuery<br>
+- CancelModalMutation<br>
+#### remove<br>
+- SettingsScreenCancelSubscriptionMutation<br>
+### Feature Switch<br>
+#### add<br>
+- blue_business_government_badge_picker_enabled<br>
+#### remove<br>
+- blue_business_badge_picker_enabled<br>
+- responsive_web_birdwatch_earn_in_enabled<br>
+- responsive_web_vdl_dash_redesign_enabled<br>
+- responsive_web_verified_organizations_m2_enabled<br>

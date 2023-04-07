@@ -120,11 +120,6 @@
       "entities": {},
       "errors": {},
       "fetchStatus": {}
-    },
-    "places": {
-      "entities": {},
-      "errors": {},
-      "fetchStatus": {}
     }
   },
   "featureSwitch": {
@@ -431,10 +426,10 @@
       "blue_business_affiliates_list_consumption_ui_enabled": {
         "value": "true"
       },
-      "blue_business_badge_picker_enabled": {
+      "blue_business_consumption_api_enabled": {
         "value": "true"
       },
-      "blue_business_consumption_api_enabled": {
+      "blue_business_government_badge_picker_enabled": {
         "value": "true"
       },
       "blue_business_profile_image_shape_enabled": {
@@ -1183,9 +1178,6 @@
       "responsive_web_birdwatch_country_allowed": {
         "value": "true"
       },
-      "responsive_web_birdwatch_earn_in_enabled": {
-        "value": "true"
-      },
       "responsive_web_birdwatch_earn_out_enabled": {
         "value": "true"
       },
@@ -1877,12 +1869,6 @@
       "responsive_web_use_badge_counts_for_ntab": {
         "value": "false"
       },
-      "responsive_web_vdl_dash_redesign_enabled": {
-        "value": "true"
-      },
-      "responsive_web_verified_organizations_m2_enabled": {
-        "value": "true"
-      },
       "responsive_web_video_pcomplete_enabled": {
         "value": "true"
       },
@@ -2215,13 +2201,13 @@
         "value": "true"
       },
       "subscriptions_marketing_page_annual_redesign_content_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "subscriptions_marketing_page_include_tax_enabled": {
         "value": "false"
       },
       "subscriptions_marketing_page_tiered_redesign_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "subscriptions_product_feature_list_api_enabled": {
         "value": "false"
@@ -2961,10 +2947,10 @@
         "blue_business_affiliates_list_consumption_ui_enabled": {
           "value": "true"
         },
-        "blue_business_badge_picker_enabled": {
+        "blue_business_consumption_api_enabled": {
           "value": "true"
         },
-        "blue_business_consumption_api_enabled": {
+        "blue_business_government_badge_picker_enabled": {
           "value": "true"
         },
         "blue_business_profile_image_shape_enabled": {
@@ -3713,9 +3699,6 @@
         "responsive_web_birdwatch_country_allowed": {
           "value": "true"
         },
-        "responsive_web_birdwatch_earn_in_enabled": {
-          "value": "true"
-        },
         "responsive_web_birdwatch_earn_out_enabled": {
           "value": "true"
         },
@@ -4407,12 +4390,6 @@
         "responsive_web_use_badge_counts_for_ntab": {
           "value": "false"
         },
-        "responsive_web_vdl_dash_redesign_enabled": {
-          "value": "true"
-        },
-        "responsive_web_verified_organizations_m2_enabled": {
-          "value": "true"
-        },
         "responsive_web_video_pcomplete_enabled": {
           "value": "true"
         },
@@ -4491,7 +4468,7 @@
           "value": "false"
         },
         "rweb_tweets_tweet_detail_font_size": {
-          "value": "title4"
+          "value": "headline2"
         },
         "rweb_update_fatigue_switch_to_app_day_timeout": {
           "value": "7"
@@ -5190,28 +5167,20 @@
       "impression_pointers": {
         "rweb_tweets_tweet_detail_font_size": [
           "rweb_tweet_detail_font_size_holdback_16263"
-        ],
-        "web_video_safari_hlsjs_enabled": [
-          "web_video_safari_hlsjs_16262"
         ]
       },
       "impressions": {
         "rweb_tweet_detail_font_size_holdback_16263": {
           "key": "rweb_tweet_detail_font_size_holdback_16263",
-          "bucket": "treatment",
-          "version": "1"
-        },
-        "web_video_safari_hlsjs_16262": {
-          "key": "web_video_safari_hlsjs_16262",
           "bucket": "control",
           "version": "1"
         }
       },
       "keysRead": {},
-      "settingsVersion": "6b83da154bb46080b6d3af7c817cc465"
+      "settingsVersion": "0dd8b48c643080c2cb9e10e4e14089a4"
     },
     "debug": {},
-    "featureSetToken": "16f02850a84c63ab362d4a3b251173a24a62bf15",
+    "featureSetToken": "c6697b63f33ccf5b739bc78bb74463de94f7f49b",
     "isLoaded": "true",
     "isLoading": "false"
   },
@@ -5283,7 +5252,7 @@
     "country": "US",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "168077021593283719",
+    "guestId": "168081519276124395",
     "hasCommunityMemberships": "false",
     "language": "en",
     "oneFactorLoginEligibility": {
