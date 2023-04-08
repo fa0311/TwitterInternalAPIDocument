@@ -3622,13 +3622,13 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant         | value        |
 |:-----------------|:-------------|
-| see_more         | x().ffd9cfe6 |
-| discover_more    | x().d172116a |
-| more             | x().h63a5c3c |
-| more_tweets      | x().iac074c4 |
-| more_suggestions | x().g11ebd34 |
-| browse           | x().g4a6901a |
-| browse_tweets    | x().b1abb17e |
+| see_more         | I().ffd9cfe6 |
+| discover_more    | I().d172116a |
+| more             | I().h63a5c3c |
+| more_tweets      | I().iac074c4 |
+| more_suggestions | I().g11ebd34 |
+| browse           | I().g4a6901a |
+| browse_tweets    | I().b1abb17e |
 
 | constant   | value        |
 |:-----------|:-------------|
