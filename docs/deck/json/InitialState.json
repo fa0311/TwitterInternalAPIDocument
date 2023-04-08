@@ -90,6 +90,31 @@
       "entities": {},
       "errors": {},
       "fetchStatus": {}
+    },
+    "imageCache": {
+      "entities": {},
+      "errors": {},
+      "fetchStatus": {}
+    },
+    "emailValidity": {
+      "entities": {},
+      "errors": {},
+      "fetchStatus": {}
+    },
+    "translationsTweets": {
+      "entities": {},
+      "errors": {},
+      "fetchStatus": {}
+    },
+    "passwordValidity": {
+      "entities": {},
+      "errors": {},
+      "fetchStatus": {}
+    },
+    "phoneNumberValidity": {
+      "entities": {},
+      "errors": {},
+      "fetchStatus": {}
     }
   },
   "featureSwitch": {
@@ -5138,20 +5163,10 @@
           "value": "false"
         }
       },
-      "impression_pointers": {
-        "machine_translation_holdback_logged_out": [
-          "machine_translation_for_logged_out_users_holdback_15725"
-        ]
-      },
-      "impressions": {
-        "machine_translation_for_logged_out_users_holdback_15725": {
-          "key": "machine_translation_for_logged_out_users_holdback_15725",
-          "bucket": "control",
-          "version": "1"
-        }
-      },
+      "impression_pointers": {},
+      "impressions": {},
       "keysRead": {},
-      "settingsVersion": "db422f5eac84af41d202828565dec1d9"
+      "settingsVersion": "bdb02306e540be9a7c15b418263c939a"
     },
     "debug": {},
     "featureSetToken": "1125dfc0e58b6b58dc077819f7dc049aaaabae08",
@@ -5226,7 +5241,7 @@
     "country": "US",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "168081549567222407",
+    "guestId": "168090180095144815",
     "hasCommunityMemberships": "false",
     "language": "en",
     "oneFactorLoginEligibility": {
