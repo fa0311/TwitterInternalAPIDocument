@@ -4030,16 +4030,16 @@
       "method": "GET",
       "features": {}
     },
+    "CancelModalMutation": {
+      "url": "https://twitter.com/i/api/graphql/KZeNJv26eQ1JCIMbcwMXng/CancelModalMutation",
+      "queryId": "KZeNJv26eQ1JCIMbcwMXng",
+      "method": "POST",
+      "features": {}
+    },
     "PriceQuery": {
       "url": "https://twitter.com/i/api/graphql/X8Nj2SgEktmjI5dAiJnsIw/PriceQuery",
       "queryId": "X8Nj2SgEktmjI5dAiJnsIw",
       "method": "GET",
-      "features": {}
-    },
-    "SettingsScreenCancelSubscriptionMutation": {
-      "url": "https://twitter.com/i/api/graphql/UaL8qHOdA_HHqwjNX4Q74Q/SettingsScreenCancelSubscriptionMutation",
-      "queryId": "UaL8qHOdA_HHqwjNX4Q74Q",
-      "method": "POST",
       "features": {}
     },
     "TabBarCreateStripePortalUrlMutation": {

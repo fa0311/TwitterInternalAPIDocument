@@ -77,3 +77,14 @@
 - None<br>
 #### remove<br>
 - responsive_web_vdl_dash_redesign_enabled<br>
+## 2023/04/08<br>
+### API<br>
+#### add<br>
+- CancelModalMutation<br>
+#### remove<br>
+- SettingsScreenCancelSubscriptionMutation<br>
+### Feature Switch<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- responsive_web_verified_organizations_m2_enabled<br>
