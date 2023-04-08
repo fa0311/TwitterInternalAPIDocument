@@ -13011,9 +13011,9 @@ Login Required: `...`<br>
 `None`<br>
 #### queryId<br>
 `None`<br>
-## PriceQuery<br>
-Request URL: `https://twitter.com/i/api/graphql/X8Nj2SgEktmjI5dAiJnsIw/PriceQuery`<br>
-Request Method: `GET`<br>
+## CancelModalMutation<br>
+Request URL: `https://twitter.com/i/api/graphql/KZeNJv26eQ1JCIMbcwMXng/CancelModalMutation`<br>
+Request Method: `POST`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
@@ -13022,9 +13022,9 @@ Login Required: `...`<br>
 `None`<br>
 #### queryId<br>
 `None`<br>
-## SettingsScreenCancelSubscriptionMutation<br>
-Request URL: `https://twitter.com/i/api/graphql/UaL8qHOdA_HHqwjNX4Q74Q/SettingsScreenCancelSubscriptionMutation`<br>
-Request Method: `POST`<br>
+## PriceQuery<br>
+Request URL: `https://twitter.com/i/api/graphql/X8Nj2SgEktmjI5dAiJnsIw/PriceQuery`<br>
+Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
