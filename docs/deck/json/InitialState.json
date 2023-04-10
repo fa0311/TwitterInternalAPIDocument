@@ -5151,16 +5151,26 @@
           "value": "false"
         },
         "web_video_safari_hlsjs_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "web_video_transcribed_captions_enabled": {
           "value": "false"
         }
       },
-      "impression_pointers": {},
-      "impressions": {},
+      "impression_pointers": {
+        "web_video_safari_hlsjs_enabled": [
+          "web_video_safari_hlsjs_16262"
+        ]
+      },
+      "impressions": {
+        "web_video_safari_hlsjs_16262": {
+          "key": "web_video_safari_hlsjs_16262",
+          "bucket": "treatment",
+          "version": "1"
+        }
+      },
       "keysRead": {},
-      "settingsVersion": "bdb02306e540be9a7c15b418263c939a"
+      "settingsVersion": "2a9d56fd3ddc6a8b2e11bd9931893a7e"
     },
     "debug": {},
     "featureSetToken": "c6697b63f33ccf5b739bc78bb74463de94f7f49b",
@@ -5235,7 +5245,7 @@
     "country": "US",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "168107463684154826",
+    "guestId": "168116106143306249",
     "hasCommunityMemberships": "false",
     "language": "en",
     "oneFactorLoginEligibility": {
