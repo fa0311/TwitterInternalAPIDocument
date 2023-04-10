@@ -5157,20 +5157,10 @@
           "value": "false"
         }
       },
-      "impression_pointers": {
-        "web_video_safari_hlsjs_enabled": [
-          "web_video_safari_hlsjs_16262"
-        ]
-      },
-      "impressions": {
-        "web_video_safari_hlsjs_16262": {
-          "key": "web_video_safari_hlsjs_16262",
-          "bucket": "control",
-          "version": "1"
-        }
-      },
+      "impression_pointers": {},
+      "impressions": {},
       "keysRead": {},
-      "settingsVersion": "910c60a7916aa45fa40ab9d4084e970f"
+      "settingsVersion": "bdb02306e540be9a7c15b418263c939a"
     },
     "debug": {},
     "featureSetToken": "c6697b63f33ccf5b739bc78bb74463de94f7f49b",
@@ -5245,7 +5235,7 @@
     "country": "US",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "168098820389222775",
+    "guestId": "168107463684154826",
     "hasCommunityMemberships": "false",
     "language": "en",
     "oneFactorLoginEligibility": {
@@ -5280,6 +5270,12 @@
     "updates": {
       "isLoaded": "false",
       "isLoading": "false"
+    }
+  },
+  "ads": {
+    "typeahead": {
+      "targetingLocation": {},
+      "forecastAudience": {}
     }
   }
 }
