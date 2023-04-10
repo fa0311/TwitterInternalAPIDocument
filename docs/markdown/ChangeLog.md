@@ -549,3 +549,19 @@
 - responsive_web_birdwatch_earn_in_enabled<br>
 - responsive_web_vdl_dash_redesign_enabled<br>
 - responsive_web_verified_organizations_m2_enabled<br>
+## 2023/04/10<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- CreateTweetReaction<br>
+- DeleteTweetReaction<br>
+- GetTweetReactionTimeline<br>
+- GetTweetReactionTimeline<br>
+### Feature Switch<br>
+#### add<br>
+- longform_notetweets_rich_text_read_enabled<br>
+#### remove<br>
+- responsive_web_reactions_enabled<br>
+- responsive_web_twitter_blue_verified_badge_is_enabled<br>
+- rweb_reply_downvote_nux_inline_days<br>
