@@ -1822,7 +1822,6 @@ This document is entirely auto-generated and may contain errors.<br>
 | shouldUseLocaleContextDirection           | False   |
 | isLinkedSearchExperimentEnabled           | False   |
 | isSuperFollowsRenamed                     | False   |
-| blueVerifiedBadgeIsEnabled                | False   |
 | blueBusinessAffiliateBadgeEnabled         | False   |
 | blueBusinessVerifiedBadgeEnabled          | False   |
 | blueGovernmentVerifiedBadgeEnabled        | False   |
@@ -2186,23 +2185,23 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant   | value               |
 |:-----------|:--------------------|
-| space1     | h.spaces.space1     |
+| space1     | p.spaces.space1     |
 | space2     | n()                 |
-| space4     | n(h.spaces.space2)  |
-| space8     | n(h.spaces.space4)  |
-| space12    | n(h.spaces.space8)  |
-| space16    | n(h.spaces.space12) |
-| space20    | n(h.spaces.space16) |
-| space24    | n(h.spaces.space20) |
-| space28    | n(h.spaces.space24) |
-| space32    | n(h.spaces.space28) |
-| space36    | n(h.spaces.space32) |
-| space40    | n(h.spaces.space36) |
-| space48    | n(h.spaces.space40) |
-| space56    | n(h.spaces.space48) |
-| space64    | n(h.spaces.space56) |
-| space72    | n(h.spaces.space64) |
-| space80    | n(h.spaces.space72) |
+| space4     | n(p.spaces.space2)  |
+| space8     | n(p.spaces.space4)  |
+| space12    | n(p.spaces.space8)  |
+| space16    | n(p.spaces.space12) |
+| space20    | n(p.spaces.space16) |
+| space24    | n(p.spaces.space20) |
+| space28    | n(p.spaces.space24) |
+| space32    | n(p.spaces.space28) |
+| space36    | n(p.spaces.space32) |
+| space40    | n(p.spaces.space36) |
+| space48    | n(p.spaces.space40) |
+| space56    | n(p.spaces.space48) |
+| space64    | n(p.spaces.space56) |
+| space72    | n(p.spaces.space64) |
+| space80    | n(p.spaces.space72) |
 
 | constant              | value     |
 |:----------------------|:----------|
@@ -2960,7 +2959,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant                | value                   |
 |:------------------------|:------------------------|
-| ...n                    | _                       |
+| ...a                    | _                       |
 | DeprecatedMediaFocus    | DeprecatedMediaFocus    |
 | EmphasizedPromotedTweet | EmphasizedPromotedTweet |
 | MapCardPromotedTweet    | MapCardPromotedTweet    |
@@ -3586,14 +3585,6 @@ This document is entirely auto-generated and may contain errors.<br>
 | Enabled    | Enabled |
 | None       | None    |
 
-| constant   | value   |
-|:-----------|:--------|
-| Hmm        | Hmm     |
-| Sad        | Sad     |
-| Haha       | Haha    |
-| Cheer      | Cheer   |
-| Like       | Like    |
-
 | constant   | value      |
 |:-----------|:-----------|
 | GROUP      | GroupDm    |
@@ -3674,14 +3665,6 @@ This document is entirely auto-generated and may contain errors.<br>
 | constant       | value          |
 |:---------------|:---------------|
 | MUTUAL_FRIENDS | mutual_friends |
-
-| constant   | value   |
-|:-----------|:--------|
-| Hmm        | Hmm     |
-| Sad        | Sad     |
-| Haha       | Haha    |
-| Cheer      | Cheer   |
-| Like       | Like    |
 
 | constant   | value             |
 |:-----------|:------------------|
@@ -3902,13 +3885,13 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant         | value        |
 |:-----------------|:-------------|
-| see_more         | I().ffd9cfe6 |
-| discover_more    | I().d172116a |
-| more             | I().h63a5c3c |
-| more_tweets      | I().iac074c4 |
-| more_suggestions | I().g11ebd34 |
-| browse           | I().g4a6901a |
-| browse_tweets    | I().b1abb17e |
+| see_more         | x().ffd9cfe6 |
+| discover_more    | x().d172116a |
+| more             | x().h63a5c3c |
+| more_tweets      | x().iac074c4 |
+| more_suggestions | x().g11ebd34 |
+| browse           | x().g4a6901a |
+| browse_tweets    | x().b1abb17e |
 
 | constant   | value     |
 |:-----------|:----------|
