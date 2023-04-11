@@ -240,7 +240,6 @@ This document is entirely auto-generated and may contain errors.<br>
 | Autoplay              | Autoplay              |
 | ConversationControls  | conversation_controls |
 | Delete                | delete                |
-| ReplyDownvote         | ReplyDownVote         |
 | Edit                  | edit                  |
 | Embed                 | Embed                 |
 | Follow                | Follow                |
@@ -269,7 +268,6 @@ This document is entirely auto-generated and may contain errors.<br>
 | add_to_moment            | AddToMoment           |
 | autoplay                 | Autoplay              |
 | copy_link                | CopyLink              |
-| downvote                 | ReplyDownVote         |
 | embed                    | Embed                 |
 | follow                   | Follow                |
 | hide_community_tweet     | HideCommunityTweet    |
@@ -280,7 +278,6 @@ This document is entirely auto-generated and may contain errors.<br>
 | quote_tweet              | QuoteTweet            |
 | remove_from_community    | RemoveFromCommunity   |
 | reply                    | Reply                 |
-| reply_down_vote          | ReplyDownVote         |
 | retweet                  | Retweet               |
 | send_via_dm              | SendViaDm             |
 | share_tweet_via          | ShareTweetVia         |
@@ -1856,12 +1853,6 @@ This document is entirely auto-generated and may contain errors.<br>
 | share          | s                                                 |
 | downvote       | d                                                 |
 | bookmark       | b                                                 |
-| reactUndo      | q 0                                               |
-| reactHmm       | q 1                                               |
-| reactSad       | q 2                                               |
-| reactHaha      | q 3                                               |
-| reactCheer     | q 4                                               |
-| reactLike      | q 5                                               |
 | openMediaModal | o                                                 |
 | audio          | {'dock': 'a d', 'play': 'a space', 'mute': 'a m'} |
 
@@ -3111,13 +3102,6 @@ This document is entirely auto-generated and may contain errors.<br>
 | DM         | dm        |
 | SHARE_VIA  | share_via |
 
-| constant   | value     |
-|:-----------|:----------|
-| NONE       | none      |
-| THANKS     | thanks    |
-| EDUCATION  | education |
-| SURVEY     | survey    |
-
 | constant       | value   |
 |:---------------|:--------|
 | replyCount     | void 0  |
@@ -3285,16 +3269,16 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant                          | value               |
 |:----------------------------------|:--------------------|
-| num_of_followers                  | W.Z.Follow          |
-| bio                               | W.Z.TextOnly        |
-| location                          | W.Z.Location        |
-| num_tweets                        | W.Z.NewTweets       |
-| follow_relationship               | W.Z.Follow          |
-| followers_follow                  | W.Z.Follow          |
-| social_proof                      | W.Z.SocialProof     |
-| follow_relationship_mutual_follow | W.Z.FollowMutual    |
-| follow_relationship_followed      | W.Z.FollowFollowed  |
-| follow_relationship_following     | W.Z.FollowFollowing |
+| num_of_followers                  | H.Z.Follow          |
+| bio                               | H.Z.TextOnly        |
+| location                          | H.Z.Location        |
+| num_tweets                        | H.Z.NewTweets       |
+| follow_relationship               | H.Z.Follow          |
+| followers_follow                  | H.Z.Follow          |
+| social_proof                      | H.Z.SocialProof     |
+| follow_relationship_mutual_follow | H.Z.FollowMutual    |
+| follow_relationship_followed      | H.Z.FollowFollowed  |
+| follow_relationship_following     | H.Z.FollowFollowing |
 | highlighted_label                 | HighlightedIcon     |
 
 | constant   | value   |
@@ -3814,14 +3798,6 @@ This document is entirely auto-generated and may contain errors.<br>
 | Speakers         | Speakers         |
 | TunedIn          | TunedIn          |
 
-| constant   | value   |
-|:-----------|:--------|
-| Hmm        | Hmm     |
-| Sad        | Sad     |
-| Haha       | Haha    |
-| Cheer      | Cheer   |
-| Like       | Like    |
-
 | constant    | value        |
 |:------------|:-------------|
 | TopicFilled | TOPIC_FILLED |
@@ -3918,7 +3894,7 @@ This document is entirely auto-generated and may contain errors.<br>
 ```
 ```internal process
 # Error
-{[o.sj.AMPLIFY]:{"conversionHandler":"()"{"cardId":"e","cardType":"t","converterOptions":"i","data":"n"}{"const r=()(0,s.FL)",d=parseInt(n,\"image_value\",\"player_image_original\")/parseInt(0,s.SIn,\"string_value\",\"player_width\",10),l=(0,s.SIn,\"string_value\",\"player_height\",10)(0,s.SI),c=(n,...
+{[o.sj.AMPLIFY]:{"conversionHandler":"()"{"cardId":"e","cardType":"t","converterOptions":"i","data":"n"}{"const r=()(0,s.FL)",l=parseInt(n,\"image_value\",\"player_image_original\")/parseInt(0,s.SIn,\"string_value\",\"player_width\",10),d=(0,s.SIn,\"string_value\",\"player_height\",10)(0,s.SI),c=(n,...
 ```
 | constant   | value                                  |
 |:-----------|:---------------------------------------|
@@ -5654,8 +5630,8 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant   | value   |
 |:-----------|:--------|
-| relevant   | _       |
-| all        | g       |
+| relevant   | g       |
+| all        | b       |
 
 | constant   | value                                |
 |:-----------|:-------------------------------------|
@@ -6110,8 +6086,8 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant    | value     |
 |:------------|:----------|
-| fetchStatus | y.ZP.NONE |
-| config      | Ze        |
+| fetchStatus | _.ZP.NONE |
+| config      | ze        |
 
 | constant        | value           |
 |:----------------|:----------------|
