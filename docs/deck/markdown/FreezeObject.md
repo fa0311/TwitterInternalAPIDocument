@@ -240,7 +240,6 @@ This document is entirely auto-generated and may contain errors.<br>
 | Autoplay              | Autoplay              |
 | ConversationControls  | conversation_controls |
 | Delete                | delete                |
-| ReplyDownvote         | ReplyDownVote         |
 | Edit                  | edit                  |
 | Embed                 | Embed                 |
 | Follow                | Follow                |
@@ -269,7 +268,6 @@ This document is entirely auto-generated and may contain errors.<br>
 | add_to_moment            | AddToMoment           |
 | autoplay                 | Autoplay              |
 | copy_link                | CopyLink              |
-| downvote                 | ReplyDownVote         |
 | embed                    | Embed                 |
 | follow                   | Follow                |
 | hide_community_tweet     | HideCommunityTweet    |
@@ -280,7 +278,6 @@ This document is entirely auto-generated and may contain errors.<br>
 | quote_tweet              | QuoteTweet            |
 | remove_from_community    | RemoveFromCommunity   |
 | reply                    | Reply                 |
-| reply_down_vote          | ReplyDownVote         |
 | retweet                  | Retweet               |
 | send_via_dm              | SendViaDm             |
 | share_tweet_via          | ShareTweetVia         |
@@ -2469,7 +2466,6 @@ This document is entirely auto-generated and may contain errors.<br>
 | shouldUseLocaleContextDirection           | False   |
 | isLinkedSearchExperimentEnabled           | False   |
 | isSuperFollowsRenamed                     | False   |
-| blueVerifiedBadgeIsEnabled                | False   |
 | blueBusinessAffiliateBadgeEnabled         | False   |
 | blueBusinessVerifiedBadgeEnabled          | False   |
 | blueGovernmentVerifiedBadgeEnabled        | False   |
@@ -2504,12 +2500,6 @@ This document is entirely auto-generated and may contain errors.<br>
 | share          | s                                                 |
 | downvote       | d                                                 |
 | bookmark       | b                                                 |
-| reactUndo      | q 0                                               |
-| reactHmm       | q 1                                               |
-| reactSad       | q 2                                               |
-| reactHaha      | q 3                                               |
-| reactCheer     | q 4                                               |
-| reactLike      | q 5                                               |
 | openMediaModal | o                                                 |
 | audio          | {'dock': 'a d', 'play': 'a space', 'mute': 'a m'} |
 
@@ -3156,16 +3146,16 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant                          | value               |
 |:----------------------------------|:--------------------|
-| num_of_followers                  | W.Z.Follow          |
-| bio                               | W.Z.TextOnly        |
-| location                          | W.Z.Location        |
-| num_tweets                        | W.Z.NewTweets       |
-| follow_relationship               | W.Z.Follow          |
-| followers_follow                  | W.Z.Follow          |
-| social_proof                      | W.Z.SocialProof     |
-| follow_relationship_mutual_follow | W.Z.FollowMutual    |
-| follow_relationship_followed      | W.Z.FollowFollowed  |
-| follow_relationship_following     | W.Z.FollowFollowing |
+| num_of_followers                  | H.Z.Follow          |
+| bio                               | H.Z.TextOnly        |
+| location                          | H.Z.Location        |
+| num_tweets                        | H.Z.NewTweets       |
+| follow_relationship               | H.Z.Follow          |
+| followers_follow                  | H.Z.Follow          |
+| social_proof                      | H.Z.SocialProof     |
+| follow_relationship_mutual_follow | H.Z.FollowMutual    |
+| follow_relationship_followed      | H.Z.FollowFollowed  |
+| follow_relationship_following     | H.Z.FollowFollowing |
 | highlighted_label                 | HighlightedIcon     |
 
 | constant      | value         |
@@ -3295,15 +3285,15 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{[Yt.X.conversationSettings]:{"component":"nn","showInStack":"!0"},[Yt.X.drawerToggle]:{"component":"mn","showInStack":"!1"},[Yt.X.makeDeck]:{"component":"wn","showInStack":"!0"},[Yt.X.manualRefresh]:{"component":"Dn","showInStack":"!0"},[Yt.X.newMessage]:{"component":"_n","showInStack":"!0"},[Yt.X....
+{[jt.X.conversationSettings]:{"component":"Gt","showInStack":"!0"},[jt.X.drawerToggle]:{"component":"ln","showInStack":"!1"},[jt.X.makeDeck]:{"component":"un","showInStack":"!0"},[jt.X.manualRefresh]:{"component":"wn","showInStack":"!0"},[jt.X.newMessage]:{"component":"En","showInStack":"!0"},[jt.X....
 ```
 ```internal process
 # Error
-{[on.r.labs]:{"title":"i().f6e88162"},[on.r.options]:{"title":"i().e6df688c"},[on.r.search]:{"title":"i().a9ae1e78"}}
+{[Yt.r.labs]:{"title":"i().f6e88162"},[Yt.r.options]:{"title":"i().e6df688c"},[Yt.r.search]:{"title":"i().a9ae1e78"}}
 ```
 ```internal process
 # Error
-{[on.I1.clearBookmarks]:{"component":"ns"},[on.I1.clearTweets]:{"component":"is"},[on.I1.columnDebugInfo]:{"component":"zo"},[on.I1.columnDebugState]:{"component":"Wo"},[on.I1.sharingDebug]:{"component":"lo.Z"},[on.I1.contentDisplay]:{"component":"Bo"},[on.I1.conversationInfo]:{"component":"gr"},[on...
+{[Yt.I1.clearBookmarks]:{"component":"cs"},[Yt.I1.clearTweets]:{"component":"bs"},[Yt.I1.columnDebugInfo]:{"component":"jo"},[Yt.I1.columnDebugState]:{"component":"Uo"},[Yt.I1.sharingDebug]:{"component":"co.Z"},[Yt.I1.contentDisplay]:{"component":"No"},[Yt.I1.conversationInfo]:{"component":"Cr"},[Yt...
 ```
 | constant          | value             |
 |:------------------|:------------------|
@@ -3571,14 +3561,6 @@ This document is entirely auto-generated and may contain errors.<br>
 | Running      | Running      |
 | TimedOut     | TimedOut     |
 
-| constant   | value   |
-|:-----------|:--------|
-| Hmm        | Hmm     |
-| Sad        | Sad     |
-| Haha       | Haha    |
-| Cheer      | Cheer   |
-| Like       | Like    |
-
 | constant                | value                          |
 |:------------------------|:-------------------------------|
 | HiddenCommunityTweet    | community_tweet_hidden         |
@@ -3594,13 +3576,6 @@ This document is entirely auto-generated and may contain errors.<br>
 | COPY_LINK  | copy_link |
 | DM         | dm        |
 | SHARE_VIA  | share_via |
-
-| constant   | value     |
-|:-----------|:----------|
-| NONE       | none      |
-| THANKS     | thanks    |
-| EDUCATION  | education |
-| SURVEY     | survey    |
 
 | constant       | value   |
 |:---------------|:--------|
@@ -3622,13 +3597,13 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant         | value        |
 |:-----------------|:-------------|
-| see_more         | I().ffd9cfe6 |
-| discover_more    | I().d172116a |
-| more             | I().h63a5c3c |
-| more_tweets      | I().iac074c4 |
-| more_suggestions | I().g11ebd34 |
-| browse           | I().g4a6901a |
-| browse_tweets    | I().b1abb17e |
+| see_more         | x().ffd9cfe6 |
+| discover_more    | x().d172116a |
+| more             | x().h63a5c3c |
+| more_tweets      | x().iac074c4 |
+| more_suggestions | x().g11ebd34 |
+| browse           | x().g4a6901a |
+| browse_tweets    | x().b1abb17e |
 
 | constant   | value        |
 |:-----------|:-------------|
@@ -4231,14 +4206,6 @@ This document is entirely auto-generated and may contain errors.<br>
 | Enabled    | Enabled |
 | None       | None    |
 
-| constant   | value   |
-|:-----------|:--------|
-| Hmm        | Hmm     |
-| Sad        | Sad     |
-| Haha       | Haha    |
-| Cheer      | Cheer   |
-| Like       | Like    |
-
 | constant   | value      |
 |:-----------|:-----------|
 | GROUP      | GroupDm    |
@@ -4264,14 +4231,6 @@ This document is entirely auto-generated and may contain errors.<br>
 |:-----------|:--------|
 | Enabled    | Enabled |
 | None       | None    |
-
-| constant   | value   |
-|:-----------|:--------|
-| Hmm        | Hmm     |
-| Sad        | Sad     |
-| Haha       | Haha    |
-| Cheer      | Cheer   |
-| Like       | Like    |
 
 | constant   | value             |
 |:-----------|:------------------|
@@ -4630,7 +4589,7 @@ This document is entirely auto-generated and may contain errors.<br>
 ```
 ```internal process
 # Error
-{"ActionsBar":"C.Z","ActionMenu":"function()"{"Icon":"e","isDisabled":"t","items":"n","onOpen":"i"}{"const o=r.useCallback()"{"items":"n","onCloseRequested":"e"}{"Icon":"e","isDisabled":"t","onClick":"i","renderActionMenu":"o"}},"CallToAction":"a.ZP","EditCallout":"f.Z","Education":"_.Z","Highlighte...
+{"ActionsBar":"C.Z","ActionMenu":"function()"{"Icon":"e","isDisabled":"t","items":"n","onOpen":"r"}{"const o=i.useCallback()"{"items":"n","onCloseRequested":"e"}{"Icon":"e","isDisabled":"t","onClick":"r","renderActionMenu":"o"}},"CallToAction":"a.ZP","EditCallout":"f.Z","Education":"_.Z","Highlighte...
 ```
 | constant   | value    |
 |:-----------|:---------|
@@ -5689,6 +5648,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | Download                         | Download                         |
 | DownloadYourData                 | DownloadYourData                 |
 | EarlyAccess                      | EarlyAccess                      |
+| EarlybirdSettings                | EarlybirdSettings                |
 | Email                            | Email                            |
 | EmailNotifications               | EmailNotifications               |
 | FeatureSwitches                  | FeatureSwitches                  |
@@ -6348,8 +6308,8 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant   | value   |
 |:-----------|:--------|
-| relevant   | _       |
-| all        | g       |
+| relevant   | g       |
+| all        | b       |
 
 | constant   | value                                |
 |:-----------|:-------------------------------------|
@@ -6938,8 +6898,8 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant    | value     |
 |:------------|:----------|
-| fetchStatus | y.ZP.NONE |
-| config      | xe        |
+| fetchStatus | _.ZP.NONE |
+| config      | Ze        |
 
 | constant        | value           |
 |:----------------|:----------------|
@@ -7597,11 +7557,11 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant      | value                                                                                                                                                                                                                                    |
 |:--------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| superFollower | {'graphic': 'f.default', 'headline': 'p().ca80fe70', 'subtext': 'p().c4183c30', 'actionLabel': 'p().g7099a02', 'actionLink': 'https://help.twitter.com/en/using-twitter/super-follows#sfexpect', 'secondaryActionLabel': 'p().c2637ef6'} |
+| superFollower | {'graphic': 'y.default', 'headline': 'p().ca80fe70', 'subtext': 'p().c4183c30', 'actionLabel': 'p().g7099a02', 'actionLink': 'https://help.twitter.com/en/using-twitter/super-follows#sfexpect', 'secondaryActionLabel': 'p().c2637ef6'} |
 
 | constant      | value                                                                                                                                                                                                                                    |
 |:--------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| superFollower | {'graphic': 'f.default', 'headline': 'p().e453f536', 'subtext': 'p().dea63fc4', 'actionLabel': 'p().g7099a02', 'actionLink': 'https://help.twitter.com/en/using-twitter/super-follows#sfexpect', 'secondaryActionLabel': 'p().c2637ef6'} |
+| superFollower | {'graphic': 'y.default', 'headline': 'p().e453f536', 'subtext': 'p().dea63fc4', 'actionLabel': 'p().g7099a02', 'actionLink': 'https://help.twitter.com/en/using-twitter/super-follows#sfexpect', 'secondaryActionLabel': 'p().c2637ef6'} |
 
 | constant        | value        |
 |:----------------|:-------------|
@@ -7660,7 +7620,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{[o.sj.AMPLIFY]:{"conversionHandler":"()"{"cardId":"e","cardType":"t","converterOptions":"n","data":"i"}{"const s=()(0,r.FL)",d=parseInt(i,\"image_value\",\"player_image_original\")/parseInt(0,r.SIi,\"string_value\",\"player_width\",10),l=(0,r.SIi,\"string_value\",\"player_height\",10)(0,r.SI),_=(i,...
+{[o.sj.AMPLIFY]:{"conversionHandler":"()"{"cardId":"e","cardType":"t","converterOptions":"i","data":"n"}{"const s=()(0,r.FL)",d=parseInt(n,\"image_value\",\"player_image_original\")/parseInt(0,r.SIn,\"string_value\",\"player_width\",10),l=(0,r.SIn,\"string_value\",\"player_height\",10)(0,r.SI),_=(n,...
 ```
 | constant       | value        |
 |:---------------|:-------------|
