@@ -583,3 +583,23 @@
 - rweb_reply_downvote_inline_days<br>
 - rweb_reply_downvote_inline_education<br>
 - rweb_reply_downvote_inline_survey<br>
+## 2023/04/14<br>
+### API<br>
+#### add<br>
+- BlueVerifiedProfileEditCalloutQuery<br>
+#### remove<br>
+- CreateTweetDownvote<br>
+- DeleteTweetDownvote<br>
+### Feature Switch<br>
+#### add<br>
+- responsive_web_qp_keyword_targeting_enabled<br>
+- responsive_web_user_badge_education_redesign_enabled<br>
+- responsive_web_vo_upfront_payment_enabled<br>
+- rweb_lists_search_enabled<br>
+- subscriptions_blue_verified_edit_profile_backend_error_message_enabled<br>
+- super_follow_tweet_label_redesign_enabled<br>
+#### remove<br>
+- responsive_web_qp_intro_experiment_enabled<br>
+- responsive_web_qp_payment_select_enabled<br>
+- rweb_reply_downvote_enabled<br>
+- super_follow_web_rename_enabled<br>
