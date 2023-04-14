@@ -565,3 +565,21 @@
 - responsive_web_reactions_enabled<br>
 - responsive_web_twitter_blue_verified_badge_is_enabled<br>
 - rweb_reply_downvote_nux_inline_days<br>
+## 2023/04/11<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- responsive_web_follower_count_reduction_copy_enabled<br>
+- rweb_home_mixer_enable_social_context_filter_social_contexts<br>
+#### remove<br>
+- responsive_web_account_search_readability_enabled<br>
+- responsive_web_feature_gating_enabled<br>
+- responsive_web_typeahead_reverse_bolding_enabled<br>
+- rweb_reply_downvote_before_like<br>
+- rweb_reply_downvote_inline_days<br>
+- rweb_reply_downvote_inline_education<br>
+- rweb_reply_downvote_inline_survey<br>

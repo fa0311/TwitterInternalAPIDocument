@@ -3247,8 +3247,8 @@
       "features": {}
     },
     "useRelayDelegateDataQuery": {
-      "url": "https://twitter.com/i/api/graphql/W0icJh-3l51CDwxm73DHfw/useRelayDelegateDataQuery",
-      "queryId": "W0icJh-3l51CDwxm73DHfw",
+      "url": "https://twitter.com/i/api/graphql/BAMss4qXZvxtUJdCn__AnA/useRelayDelegateDataQuery",
+      "queryId": "BAMss4qXZvxtUJdCn__AnA",
       "method": "GET",
       "features": {}
     },
@@ -3297,8 +3297,8 @@
       "features": {}
     },
     "DelegatedAccountListQuery": {
-      "url": "https://twitter.com/i/api/graphql/TyEY0nJqyMRs-pKlOeNBIA/DelegatedAccountListQuery",
-      "queryId": "TyEY0nJqyMRs-pKlOeNBIA",
+      "url": "https://twitter.com/i/api/graphql/b0NSGdpcMo6KAYbeYpIXRA/DelegatedAccountListQuery",
+      "queryId": "b0NSGdpcMo6KAYbeYpIXRA",
       "method": "GET",
       "features": {}
     },
@@ -3545,8 +3545,8 @@
       "features": {}
     },
     "GroupDetailDelegateQuery": {
-      "url": "https://twitter.com/i/api/graphql/T6KnioZKtRrKqh1cYfDHqw/GroupDetailDelegateQuery",
-      "queryId": "T6KnioZKtRrKqh1cYfDHqw",
+      "url": "https://twitter.com/i/api/graphql/wukK4h-BcKgSGlEU-hAtng/GroupDetailDelegateQuery",
+      "queryId": "wukK4h-BcKgSGlEU-hAtng",
       "method": "GET",
       "features": {
         "responsive_web_graphql_timeline_navigation_enabled": true
@@ -3559,8 +3559,8 @@
       "features": {}
     },
     "GroupsDelegateQuery": {
-      "url": "https://twitter.com/i/api/graphql/2LpVVlPdTRlLvJCK0IjlhQ/GroupsDelegateQuery",
-      "queryId": "2LpVVlPdTRlLvJCK0IjlhQ",
+      "url": "https://twitter.com/i/api/graphql/n1GJpi0gdaioyoc_xAocsA/GroupsDelegateQuery",
+      "queryId": "n1GJpi0gdaioyoc_xAocsA",
       "method": "GET",
       "features": {}
     },
@@ -3583,8 +3583,8 @@
       "features": {}
     },
     "MembersDelegateQuery": {
-      "url": "https://twitter.com/i/api/graphql/Z31PBJiv4LJjdi9f1vGW0A/MembersDelegateQuery",
-      "queryId": "Z31PBJiv4LJjdi9f1vGW0A",
+      "url": "https://twitter.com/i/api/graphql/rbxOB044qx_iXNsD5vR1xQ/MembersDelegateQuery",
+      "queryId": "rbxOB044qx_iXNsD5vR1xQ",
       "method": "GET",
       "features": {
         "responsive_web_graphql_timeline_navigation_enabled": true

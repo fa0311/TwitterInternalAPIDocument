@@ -12166,7 +12166,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## useRelayDelegateDataQuery<br>
-Request URL: `https://twitter.com/i/api/graphql/W0icJh-3l51CDwxm73DHfw/useRelayDelegateDataQuery`<br>
+Request URL: `https://twitter.com/i/api/graphql/BAMss4qXZvxtUJdCn__AnA/useRelayDelegateDataQuery`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -12242,7 +12242,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## DelegatedAccountListQuery<br>
-Request URL: `https://twitter.com/i/api/graphql/TyEY0nJqyMRs-pKlOeNBIA/DelegatedAccountListQuery`<br>
+Request URL: `https://twitter.com/i/api/graphql/b0NSGdpcMo6KAYbeYpIXRA/DelegatedAccountListQuery`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -12735,7 +12735,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## GroupDetailDelegateQuery<br>
-Request URL: `https://twitter.com/i/api/graphql/T6KnioZKtRrKqh1cYfDHqw/GroupDetailDelegateQuery`<br>
+Request URL: `https://twitter.com/i/api/graphql/wukK4h-BcKgSGlEU-hAtng/GroupDetailDelegateQuery`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -12760,7 +12760,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## GroupsDelegateQuery<br>
-Request URL: `https://twitter.com/i/api/graphql/2LpVVlPdTRlLvJCK0IjlhQ/GroupsDelegateQuery`<br>
+Request URL: `https://twitter.com/i/api/graphql/n1GJpi0gdaioyoc_xAocsA/GroupsDelegateQuery`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -12804,7 +12804,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## MembersDelegateQuery<br>
-Request URL: `https://twitter.com/i/api/graphql/Z31PBJiv4LJjdi9f1vGW0A/MembersDelegateQuery`<br>
+Request URL: `https://twitter.com/i/api/graphql/rbxOB044qx_iXNsD5vR1xQ/MembersDelegateQuery`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
