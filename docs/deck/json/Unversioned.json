@@ -1,0 +1,20 @@
+[
+  {
+    "queryId": "/login/one_factor_eligible",
+    "dispatch_key": "getUnversioned",
+    "dispatch": [
+      "get",
+      "Unversioned",
+      "Unversioned"
+    ]
+  },
+  {
+    "queryId": "/account/sessions/revoke",
+    "dispatch_key": "postUnversioned",
+    "dispatch": [
+      "post",
+      "Unversioned",
+      "Unversioned"
+    ]
+  }
+]

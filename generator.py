@@ -77,6 +77,9 @@ for k in script_load_json:
         i18n_src[k] = url
     elif SCAN_TYPE == "Full":
         src.append(url)
+    elif SCAN_TYPE == "Api":
+        if k.startswith("api"):
+            src.append(url)
     elif k.startswith("endpoints"):
         src.append(url)
     elif k.startswith("shared~endpoints"):
@@ -123,8 +126,9 @@ logging.info("get_freeze_object is completed")
 api_output = to_api(graphql_output, {"header": header})
 logging.info("to_api is completed")
 
-v11_output = get_v11(parsed_list)
-logging.info("get_v11 is completed")
+dispatch_output = split_dispatch(get_dispatch(parsed_list))
+logging.info("get_dispatch is completed")
+
 
 # feature_switches_output = get_feature_switches(parsed_list)
 # logging.info("get_feature_switches is completed")
@@ -152,8 +156,12 @@ output_dir = OUTPUT_DIR if OUTPUT_DIR[-1] == "/" else f"{OUTPUT_DIR}/"
 items = {
     FileConf.GRAPH_QL_JSON: json.dumps(graphql_output, **dumps_args),
     FileConf.GRAPH_QL_MD: gen_md_graphql(graphql_output).output,
-    FileConf.V11_QL_JSON: json.dumps(v11_output, **dumps_args),
-    FileConf.V11_QL_MD: gen_md_v11(v11_output).output,
+    FileConf.V11_QL_JSON: json.dumps(dispatch_output[0], **dumps_args),
+    FileConf.V11_QL_MD: gen_md_dispatch(dispatch_output[0]).output,
+    FileConf.V2_QL_JSON: json.dumps(dispatch_output[1], **dumps_args),
+    FileConf.V2_QL_MD: gen_md_dispatch(dispatch_output[1]).output,
+    FileConf.UNVERSIONED_QL_JSON: json.dumps(dispatch_output[2], **dumps_args),
+    FileConf.UNVERSIONED_QL_MD: gen_md_dispatch(dispatch_output[2]).output,
     FileConf.FREEZE_OBJECT_MD: gen_md_freeze_object(freeze_object_output).output,
     FileConf.FREEZE_OBJECT_JSON: json.dumps(freeze_object_output, **dumps_args),
     FileConf.INITIAL_STATE_JSON: json.dumps(initial_output, **dumps_args),
@@ -256,7 +264,6 @@ items.update({f"{output_dir}{FileConf.CHANGE_LOG_MD}": change_log})
 # === GITHUB ===
 
 if ENV == "GithubAction":
-
     g = Github(GITHUB_TOKEN)
     repo = g.get_repo(REPOSITORY)
     branch = "develop"
@@ -308,7 +315,7 @@ if ENV == "GithubAction":
         )
 else:
     for file_name in items.keys():
-        if items[file_name] == items_backup[file_name]:
+        if items.get(file_name, "") == items_backup.get(file_name, ""):
             logging.info(f"No change to {file_name}")
         else:
             logging.info(f"Commit to {file_name}")

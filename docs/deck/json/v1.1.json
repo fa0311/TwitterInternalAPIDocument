@@ -1,466 +1,1073 @@
 [
   {
     "queryId": "account/multi/list",
-    "method": "get"
+    "dispatch_key": "get",
+    "dispatch": [
+      "get",
+      "",
+      "https://api.twitter.com/1.1/{queryId}.json"
+    ]
   },
   {
     "queryId": "onboarding/sso_init",
-    "method": "post"
+    "dispatch_key": "post",
+    "dispatch": [
+      "post",
+      "",
+      "https://api.twitter.com/1.1/{queryId}.json"
+    ]
   },
   {
     "queryId": "account/logout",
-    "method": "post"
+    "dispatch_key": "post",
+    "dispatch": [
+      "post",
+      "",
+      "https://api.twitter.com/1.1/{queryId}.json"
+    ]
   },
   {
     "queryId": "account/multi/clean",
-    "method": "post"
+    "dispatch_key": "post",
+    "dispatch": [
+      "post",
+      "",
+      "https://api.twitter.com/1.1/{queryId}.json"
+    ]
   },
   {
     "queryId": "account/multi/add",
-    "method": "post"
+    "dispatch_key": "post",
+    "dispatch": [
+      "post",
+      "",
+      "https://api.twitter.com/1.1/{queryId}.json"
+    ]
   },
   {
     "queryId": "account/multi/switch",
-    "method": "post"
+    "dispatch_key": "post",
+    "dispatch": [
+      "post",
+      "",
+      "https://api.twitter.com/1.1/{queryId}.json"
+    ]
   },
   {
     "queryId": "account/multi/logout_all",
-    "method": "post"
+    "dispatch_key": "post",
+    "dispatch": [
+      "post",
+      "",
+      "https://api.twitter.com/1.1/{queryId}.json"
+    ]
   },
   {
     "queryId": "oauth/authenticate_periscope",
-    "method": "get"
+    "dispatch_key": "get",
+    "dispatch": [
+      "get",
+      "",
+      "https://api.twitter.com/1.1/{queryId}.json"
+    ]
   },
   {
     "queryId": "dm/welcome_messages/add_to_conversation",
-    "method": "post"
+    "dispatch_key": "post",
+    "dispatch": [
+      "post",
+      "",
+      "https://api.twitter.com/1.1/{queryId}.json"
+    ]
   },
   {
     "queryId": "dm/conversation",
-    "method": "get"
+    "dispatch_key": "get",
+    "dispatch": [
+      "get",
+      "",
+      "https://api.twitter.com/1.1/{queryId}.json"
+    ]
   },
   {
     "queryId": "dm/inbox_initial_state",
-    "method": "get"
+    "dispatch_key": "get",
+    "dispatch": [
+      "get",
+      "",
+      "https://api.twitter.com/1.1/{queryId}.json"
+    ]
   },
   {
     "queryId": "dm/user_updates",
-    "method": "get"
+    "dispatch_key": "get",
+    "dispatch": [
+      "get",
+      "",
+      "https://api.twitter.com/1.1/{queryId}.json"
+    ]
   },
   {
     "queryId": "dm/search/query",
-    "method": "post"
+    "dispatch_key": "post",
+    "dispatch": [
+      "post",
+      "",
+      "https://api.twitter.com/1.1/{queryId}.json"
+    ]
   },
   {
     "queryId": "/dm/user/update_relationship_state",
-    "method": "post"
+    "dispatch_key": "post",
+    "dispatch": [
+      "post",
+      "",
+      "https://api.twitter.com/1.1/{queryId}.json"
+    ]
   },
   {
     "queryId": "dm/reaction/new",
-    "method": "post"
+    "dispatch_key": "post",
+    "dispatch": [
+      "post",
+      "",
+      "https://api.twitter.com/1.1/{queryId}.json"
+    ]
   },
   {
     "queryId": "dm/reaction/delete",
-    "method": "post"
+    "dispatch_key": "post",
+    "dispatch": [
+      "post",
+      "",
+      "https://api.twitter.com/1.1/{queryId}.json"
+    ]
   },
   {
     "queryId": "dm/permissions",
-    "method": "get"
+    "dispatch_key": "get",
+    "dispatch": [
+      "get",
+      "",
+      "https://api.twitter.com/1.1/{queryId}.json"
+    ]
   },
   {
     "queryId": "dm/permissions/secret",
-    "method": "get"
+    "dispatch_key": "get",
+    "dispatch": [
+      "get",
+      "",
+      "https://api.twitter.com/1.1/{queryId}.json"
+    ]
   },
   {
     "queryId": "dm/destroy",
-    "method": "post"
+    "dispatch_key": "post",
+    "dispatch": [
+      "post",
+      "",
+      "https://api.twitter.com/1.1/{queryId}.json"
+    ]
   },
   {
     "queryId": "direct_messages/report_spam",
-    "method": "post"
+    "dispatch_key": "post",
+    "dispatch": [
+      "post",
+      "",
+      "https://api.twitter.com/1.1/{queryId}.json"
+    ]
   },
   {
     "queryId": "dm/update_last_seen_event_id",
-    "method": "post"
+    "dispatch_key": "post",
+    "dispatch": [
+      "post",
+      "",
+      "https://api.twitter.com/1.1/{queryId}.json"
+    ]
   },
   {
     "queryId": "friendships/create",
-    "method": "post"
+    "dispatch_key": "post",
+    "dispatch": [
+      "post",
+      "",
+      "https://api.twitter.com/1.1/{queryId}.json"
+    ]
   },
   {
     "queryId": "friendships/destroy",
-    "method": "post"
+    "dispatch_key": "post",
+    "dispatch": [
+      "post",
+      "",
+      "https://api.twitter.com/1.1/{queryId}.json"
+    ]
   },
   {
     "queryId": "friendships/cancel",
-    "method": "post"
+    "dispatch_key": "post",
+    "dispatch": [
+      "post",
+      "",
+      "https://api.twitter.com/1.1/{queryId}.json"
+    ]
   },
   {
     "queryId": "blocks/create",
-    "method": "post"
+    "dispatch_key": "post",
+    "dispatch": [
+      "post",
+      "",
+      "https://api.twitter.com/1.1/{queryId}.json"
+    ]
   },
   {
     "queryId": "blocks/destroy",
-    "method": "post"
+    "dispatch_key": "post",
+    "dispatch": [
+      "post",
+      "",
+      "https://api.twitter.com/1.1/{queryId}.json"
+    ]
   },
   {
     "queryId": "mutes/users/create",
-    "method": "post"
+    "dispatch_key": "post",
+    "dispatch": [
+      "post",
+      "",
+      "https://api.twitter.com/1.1/{queryId}.json"
+    ]
   },
   {
     "queryId": "mutes/users/destroy",
-    "method": "post"
+    "dispatch_key": "post",
+    "dispatch": [
+      "post",
+      "",
+      "https://api.twitter.com/1.1/{queryId}.json"
+    ]
   },
   {
     "queryId": "users/lookup",
-    "method": "get"
+    "dispatch_key": "get",
+    "dispatch": [
+      "get",
+      "",
+      "https://api.twitter.com/1.1/{queryId}.json"
+    ]
   },
   {
     "queryId": "branch_session",
-    "method": "get"
+    "dispatch_key": "get",
+    "dispatch": [
+      "get",
+      "",
+      "https://api.twitter.com/1.1/{queryId}.json"
+    ]
   },
   {
     "queryId": "branch_session_first",
-    "method": "get"
+    "dispatch_key": "get",
+    "dispatch": [
+      "get",
+      "",
+      "https://api.twitter.com/1.1/{queryId}.json"
+    ]
   },
   {
     "queryId": "people_discovery/profile_follow",
-    "method": "get"
+    "dispatch_key": "get",
+    "dispatch": [
+      "get",
+      "",
+      "https://api.twitter.com/1.1/{queryId}.json"
+    ]
   },
   {
     "queryId": "onboarding/bounce",
-    "method": "post"
+    "dispatch_key": "post",
+    "dispatch": [
+      "post",
+      "",
+      "https://api.twitter.com/1.1/{queryId}.json"
+    ]
   },
   {
     "queryId": "collections/entries",
-    "method": "get"
+    "dispatch_key": "get",
+    "dispatch": [
+      "get",
+      "",
+      "https://api.twitter.com/1.1/{queryId}.json"
+    ]
   },
   {
     "queryId": "users/email_phone_info",
-    "method": "get"
+    "dispatch_key": "get",
+    "dispatch": [
+      "get",
+      "",
+      "https://api.twitter.com/1.1/{queryId}.json"
+    ]
   },
   {
     "queryId": "account/resend_confirmation_email",
-    "method": "post"
+    "dispatch_key": "post",
+    "dispatch": [
+      "post",
+      "",
+      "https://api.twitter.com/1.1/{queryId}.json"
+    ]
   },
   {
     "queryId": "device/unregister",
-    "method": "post"
+    "dispatch_key": "post",
+    "dispatch": [
+      "post",
+      "",
+      "https://api.twitter.com/1.1/{queryId}.json"
+    ]
   },
   {
     "queryId": "help/languages",
-    "method": "get"
+    "dispatch_key": "get",
+    "dispatch": [
+      "get",
+      "",
+      "https://api.twitter.com/1.1/{queryId}.json"
+    ]
   },
   {
     "queryId": "friendships/incoming",
-    "method": "get"
+    "dispatch_key": "get",
+    "dispatch": [
+      "get",
+      "",
+      "https://api.twitter.com/1.1/{queryId}.json"
+    ]
   },
   {
     "queryId": "friends/list",
-    "method": "get"
+    "dispatch_key": "get",
+    "dispatch": [
+      "get",
+      "",
+      "https://api.twitter.com/1.1/{queryId}.json"
+    ]
   },
   {
     "queryId": "friends/following/list",
-    "method": "get"
+    "dispatch_key": "get",
+    "dispatch": [
+      "get",
+      "",
+      "https://api.twitter.com/1.1/{queryId}.json"
+    ]
   },
   {
     "queryId": "friendships/accept",
-    "method": "post"
+    "dispatch_key": "post",
+    "dispatch": [
+      "post",
+      "",
+      "https://api.twitter.com/1.1/{queryId}.json"
+    ]
   },
   {
     "queryId": "friendships/deny",
-    "method": "post"
+    "dispatch_key": "post",
+    "dispatch": [
+      "post",
+      "",
+      "https://api.twitter.com/1.1/{queryId}.json"
+    ]
   },
   {
     "queryId": "friendships/update",
-    "method": "post"
+    "dispatch_key": "post",
+    "dispatch": [
+      "post",
+      "",
+      "https://api.twitter.com/1.1/{queryId}.json"
+    ]
   },
   {
     "queryId": "friendships/create_all",
-    "method": "post"
+    "dispatch_key": "post",
+    "dispatch": [
+      "post",
+      "",
+      "https://api.twitter.com/1.1/{queryId}.json"
+    ]
   },
   {
     "queryId": "friendships/destroy_all",
-    "method": "post"
+    "dispatch_key": "post",
+    "dispatch": [
+      "post",
+      "",
+      "https://api.twitter.com/1.1/{queryId}.json"
+    ]
   },
   {
     "queryId": "foundmedia/categories",
-    "method": "get"
+    "dispatch_key": "get",
+    "dispatch": [
+      "get",
+      "",
+      "https://api.twitter.com/1.1/{queryId}.json"
+    ]
   },
   {
     "queryId": "foundmedia/search",
-    "method": "get"
+    "dispatch_key": "get",
+    "dispatch": [
+      "get",
+      "",
+      "https://api.twitter.com/1.1/{queryId}.json"
+    ]
   },
   {
     "queryId": "rux/logged_out/segmentations",
-    "method": "get"
+    "dispatch_key": "get",
+    "dispatch": [
+      "get",
+      "",
+      "https://api.twitter.com/1.1/{queryId}.json"
+    ]
   },
   {
     "queryId": "jot/client_event",
-    "method": "post"
+    "dispatch_key": "post",
+    "dispatch": [
+      "post",
+      "",
+      "https://api.twitter.com/1.1/{queryId}.json"
+    ]
   },
   {
     "queryId": "jot/error_log",
-    "method": "post"
+    "dispatch_key": "post",
+    "dispatch": [
+      "post",
+      "",
+      "https://api.twitter.com/1.1/{queryId}.json"
+    ]
   },
   {
     "queryId": "jot/external_referer",
-    "method": "post"
+    "dispatch_key": "post",
+    "dispatch": [
+      "post",
+      "",
+      "https://api.twitter.com/1.1/{queryId}.json"
+    ]
   },
   {
     "queryId": "keyregistry/register",
-    "method": "post"
+    "dispatch_key": "post",
+    "dispatch": [
+      "post",
+      "",
+      "https://api.twitter.com/1.1/{queryId}.json"
+    ]
   },
   {
     "queryId": "lists/memberships",
-    "method": "get"
+    "dispatch_key": "get",
+    "dispatch": [
+      "get",
+      "",
+      "https://api.twitter.com/1.1/{queryId}.json"
+    ]
   },
   {
     "queryId": "live_pipeline/update_subscriptions",
-    "method": "post"
+    "dispatch_key": "post",
+    "dispatch": [
+      "post",
+      "",
+      "https://api.twitter.com/1.1/{queryId}.json"
+    ]
   },
   {
     "queryId": "media/metadata/create",
-    "method": "post"
+    "dispatch_key": "post",
+    "dispatch": [
+      "post",
+      "",
+      "https://api.twitter.com/1.1/{queryId}.json"
+    ]
   },
   {
     "queryId": "media/subtitles/create",
-    "method": "post"
+    "dispatch_key": "post",
+    "dispatch": [
+      "post",
+      "",
+      "https://api.twitter.com/1.1/{queryId}.json"
+    ]
   },
   {
     "queryId": "moments/create",
-    "method": "post"
+    "dispatch_key": "post",
+    "dispatch": [
+      "post",
+      "",
+      "https://api.twitter.com/1.1/{queryId}.json"
+    ]
   },
   {
     "queryId": "mutes/keywords/list",
-    "method": "get"
+    "dispatch_key": "get",
+    "dispatch": [
+      "get",
+      "",
+      "https://api.twitter.com/1.1/{queryId}.json"
+    ]
   },
   {
     "queryId": "mutes/keywords/destroy",
-    "method": "post"
+    "dispatch_key": "post",
+    "dispatch": [
+      "post",
+      "",
+      "https://api.twitter.com/1.1/{queryId}.json"
+    ]
   },
   {
     "queryId": "mutes/keywords/update",
-    "method": "post"
+    "dispatch_key": "post",
+    "dispatch": [
+      "post",
+      "",
+      "https://api.twitter.com/1.1/{queryId}.json"
+    ]
   },
   {
     "queryId": "account/personalization/twitter_interests",
-    "method": "get"
+    "dispatch_key": "get",
+    "dispatch": [
+      "get",
+      "",
+      "https://api.twitter.com/1.1/{queryId}.json"
+    ]
   },
   {
     "queryId": "account/personalization/email_your_data",
-    "method": "post"
+    "dispatch_key": "post",
+    "dispatch": [
+      "post",
+      "",
+      "https://api.twitter.com/1.1/{queryId}.json"
+    ]
   },
   {
     "queryId": "account/personalization/set_optout_cookies",
-    "method": "get"
+    "dispatch_key": "get",
+    "dispatch": [
+      "get",
+      "",
+      "https://api.twitter.com/1.1/{queryId}.json"
+    ]
   },
   {
     "queryId": "geo/places",
-    "method": "get"
+    "dispatch_key": "get",
+    "dispatch": [
+      "get",
+      "",
+      "https://api.twitter.com/1.1/{queryId}.json"
+    ]
   },
   {
     "queryId": "promoted_content/log",
-    "method": "post"
+    "dispatch_key": "post",
+    "dispatch": [
+      "post",
+      "",
+      "https://api.twitter.com/1.1/{queryId}.json"
+    ]
   },
   {
     "queryId": "users/recommendations",
-    "method": "get"
+    "dispatch_key": "get",
+    "dispatch": [
+      "get",
+      "",
+      "https://api.twitter.com/1.1/{queryId}.json"
+    ]
   },
   {
     "queryId": "report/flow",
-    "method": "post"
+    "dispatch_key": "post",
+    "dispatch": [
+      "post",
+      "",
+      "https://api.twitter.com/1.1/{queryId}.json"
+    ]
   },
   {
     "queryId": "saved_searches/list",
-    "method": "get"
+    "dispatch_key": "get",
+    "dispatch": [
+      "get",
+      "",
+      "https://api.twitter.com/1.1/{queryId}.json"
+    ]
   },
   {
     "queryId": "saved_searches/create",
-    "method": "post"
+    "dispatch_key": "post",
+    "dispatch": [
+      "post",
+      "",
+      "https://api.twitter.com/1.1/{queryId}.json"
+    ]
   },
   {
     "queryId": "account/settings",
-    "method": "get"
+    "dispatch_key": "get",
+    "dispatch": [
+      "get",
+      "",
+      "https://api.twitter.com/1.1/{queryId}.json"
+    ]
   },
   {
     "queryId": "account/settings",
-    "method": "post"
+    "dispatch_key": "post",
+    "dispatch": [
+      "post",
+      "",
+      "https://api.twitter.com/1.1/{queryId}.json"
+    ]
   },
   {
     "queryId": "sso/delete_connection",
-    "method": "post"
+    "dispatch_key": "post",
+    "dispatch": [
+      "post",
+      "",
+      "https://api.twitter.com/1.1/{queryId}.json"
+    ]
   },
   {
     "queryId": "account/remove_profile_banner",
-    "method": "post"
+    "dispatch_key": "post",
+    "dispatch": [
+      "post",
+      "",
+      "https://api.twitter.com/1.1/{queryId}.json"
+    ]
   },
   {
     "queryId": "account/update_profile_image",
-    "method": "post"
+    "dispatch_key": "post",
+    "dispatch": [
+      "post",
+      "",
+      "https://api.twitter.com/1.1/{queryId}.json"
+    ]
   },
   {
     "queryId": "account/update_profile_banner",
-    "method": "post"
+    "dispatch_key": "post",
+    "dispatch": [
+      "post",
+      "",
+      "https://api.twitter.com/1.1/{queryId}.json"
+    ]
   },
   {
     "queryId": "account/deactivate",
-    "method": "post"
+    "dispatch_key": "post",
+    "dispatch": [
+      "post",
+      "",
+      "https://api.twitter.com/1.1/{queryId}.json"
+    ]
   },
   {
     "queryId": "account/verify_password",
-    "method": "post"
+    "dispatch_key": "post",
+    "dispatch": [
+      "post",
+      "",
+      "https://api.twitter.com/1.1/{queryId}.json"
+    ]
   },
   {
     "queryId": "application/rate_limit_status",
-    "method": "get"
+    "dispatch_key": "get",
+    "dispatch": [
+      "get",
+      "",
+      "https://api.twitter.com/1.1/{queryId}.json"
+    ]
   },
   {
     "queryId": "hashflags",
-    "method": "get"
+    "dispatch_key": "get",
+    "dispatch": [
+      "get",
+      "",
+      "https://api.twitter.com/1.1/{queryId}.json"
+    ]
   },
   {
     "queryId": "geo/delete_location_data",
-    "method": "post"
+    "dispatch_key": "post",
+    "dispatch": [
+      "post",
+      "",
+      "https://api.twitter.com/1.1/{queryId}.json"
+    ]
   },
   {
     "queryId": "contacts/destroy/all",
-    "method": "post"
+    "dispatch_key": "post",
+    "dispatch": [
+      "post",
+      "",
+      "https://api.twitter.com/1.1/{queryId}.json"
+    ]
   },
   {
     "queryId": "mutes/advanced_filters",
-    "method": "get"
+    "dispatch_key": "get",
+    "dispatch": [
+      "get",
+      "",
+      "https://api.twitter.com/1.1/{queryId}.json"
+    ]
   },
   {
     "queryId": "mutes/advanced_filters",
-    "method": "post"
+    "dispatch_key": "post",
+    "dispatch": [
+      "post",
+      "",
+      "https://api.twitter.com/1.1/{queryId}.json"
+    ]
   },
   {
     "queryId": "account/update_profile",
-    "method": "post"
+    "dispatch_key": "post",
+    "dispatch": [
+      "post",
+      "",
+      "https://api.twitter.com/1.1/{queryId}.json"
+    ]
   },
   {
     "queryId": "oauth/list",
-    "method": "get"
+    "dispatch_key": "get",
+    "dispatch": [
+      "get",
+      "",
+      "https://api.twitter.com/1.1/{queryId}.json"
+    ]
   },
   {
     "queryId": "oauth/revoke",
-    "method": "post"
+    "dispatch_key": "post",
+    "dispatch": [
+      "post",
+      "",
+      "https://api.twitter.com/1.1/{queryId}.json"
+    ]
+  },
+  {
+    "queryId": "account/change_password",
+    "dispatch_key": "postI",
+    "dispatch": [
+      "post",
+      "I",
+      "https://twitter.com/i/api/1.1/{queryId}.json"
+    ]
   },
   {
     "queryId": "trends/available",
-    "method": "get"
+    "dispatch_key": "get",
+    "dispatch": [
+      "get",
+      "",
+      "https://api.twitter.com/1.1/{queryId}.json"
+    ]
   },
   {
     "queryId": "account/backup_code",
-    "method": "get"
+    "dispatch_key": "get",
+    "dispatch": [
+      "get",
+      "",
+      "https://api.twitter.com/1.1/{queryId}.json"
+    ]
   },
   {
     "queryId": "account/backup_code",
-    "method": "post"
+    "dispatch_key": "post",
+    "dispatch": [
+      "post",
+      "",
+      "https://api.twitter.com/1.1/{queryId}.json"
+    ]
   },
   {
     "queryId": "account/login_verification/temporary_password",
-    "method": "post"
+    "dispatch_key": "post",
+    "dispatch": [
+      "post",
+      "",
+      "https://api.twitter.com/1.1/{queryId}.json"
+    ]
   },
   {
-    "queryId": "bouncer/opt_in",
-    "method": "post"
+    "queryId": "account/login_verification_enrollment",
+    "dispatch_key": "delete",
+    "dispatch": [
+      "delete",
+      "",
+      "https://api.twitter.com/1.1/{queryId}.json"
+    ]
   },
   {
     "queryId": "account/login_verification/remove_method",
-    "method": "post"
+    "dispatch_key": "post",
+    "dispatch": [
+      "post",
+      "",
+      "https://api.twitter.com/1.1/{queryId}.json"
+    ]
   },
   {
     "queryId": "account/login_verification/rename_security_key_method",
-    "method": "post"
+    "dispatch_key": "post",
+    "dispatch": [
+      "post",
+      "",
+      "https://api.twitter.com/1.1/{queryId}.json"
+    ]
   },
   {
     "queryId": "search/typeahead",
-    "method": "get"
+    "dispatch_key": "get",
+    "dispatch": [
+      "get",
+      "",
+      "https://api.twitter.com/1.1/{queryId}.json"
+    ]
   },
   {
     "queryId": "account/password_strength",
-    "method": "post"
+    "dispatch_key": "post",
+    "dispatch": [
+      "post",
+      "",
+      "https://api.twitter.com/1.1/{queryId}.json"
+    ]
   },
   {
     "queryId": "users/phone_number_available",
-    "method": "get"
+    "dispatch_key": "get",
+    "dispatch": [
+      "get",
+      "",
+      "https://api.twitter.com/1.1/{queryId}.json"
+    ]
+  },
+  {
+    "queryId": "users/email_available",
+    "dispatch_key": "getI",
+    "dispatch": [
+      "get",
+      "I",
+      "https://twitter.com/i/api/1.1/{queryId}.json"
+    ]
   },
   {
     "queryId": "account/not_my_account/disassociate",
-    "method": "post"
+    "dispatch_key": "post",
+    "dispatch": [
+      "post",
+      "",
+      "https://api.twitter.com/1.1/{queryId}.json"
+    ]
   },
   {
     "queryId": "account/not_my_account/get_masked_data",
-    "method": "get"
+    "dispatch_key": "get",
+    "dispatch": [
+      "get",
+      "",
+      "https://api.twitter.com/1.1/{queryId}.json"
+    ]
   },
   {
     "queryId": "branch/init",
-    "method": "post"
+    "dispatch_key": "post",
+    "dispatch": [
+      "post",
+      "",
+      "https://api.twitter.com/1.1/{queryId}.json"
+    ]
   },
   {
     "queryId": "branch/callback",
-    "method": "post"
+    "dispatch_key": "post",
+    "dispatch": [
+      "post",
+      "",
+      "https://api.twitter.com/1.1/{queryId}.json"
+    ]
   },
   {
     "queryId": "broadcasts/show",
-    "method": "get"
+    "dispatch_key": "get",
+    "dispatch": [
+      "get",
+      "",
+      "https://api.twitter.com/1.1/{queryId}.json"
+    ]
   },
   {
     "queryId": "contacts/addressbook",
-    "method": "get"
+    "dispatch_key": "get",
+    "dispatch": [
+      "get",
+      "",
+      "https://api.twitter.com/1.1/{queryId}.json"
+    ]
   },
   {
     "queryId": "notifications/settings/save",
-    "method": "post"
+    "dispatch_key": "post",
+    "dispatch": [
+      "post",
+      "",
+      "https://api.twitter.com/1.1/{queryId}.json"
+    ]
   },
   {
     "queryId": "notifications/settings/login",
-    "method": "post"
+    "dispatch_key": "post",
+    "dispatch": [
+      "post",
+      "",
+      "https://api.twitter.com/1.1/{queryId}.json"
+    ]
   },
   {
     "queryId": "notifications/settings/checkin",
-    "method": "post"
+    "dispatch_key": "post",
+    "dispatch": [
+      "post",
+      "",
+      "https://api.twitter.com/1.1/{queryId}.json"
+    ]
   },
   {
     "queryId": "notifications/settings/logout",
-    "method": "post"
+    "dispatch_key": "post",
+    "dispatch": [
+      "post",
+      "",
+      "https://api.twitter.com/1.1/{queryId}.json"
+    ]
   },
   {
     "queryId": "onboarding/task",
-    "method": "post"
+    "dispatch_key": "post",
+    "dispatch": [
+      "post",
+      "",
+      "https://api.twitter.com/1.1/{queryId}.json"
+    ]
   },
   {
     "queryId": "onboarding/contacts_authorize",
-    "method": "post"
+    "dispatch_key": "post",
+    "dispatch": [
+      "post",
+      "",
+      "https://api.twitter.com/1.1/{queryId}.json"
+    ]
   },
   {
     "queryId": "onboarding/contacts_import_status",
-    "method": "get"
+    "dispatch_key": "get",
+    "dispatch": [
+      "get",
+      "",
+      "https://api.twitter.com/1.1/{queryId}.json"
+    ]
   },
   {
     "queryId": "onboarding/verification_status",
-    "method": "get"
+    "dispatch_key": "get",
+    "dispatch": [
+      "get",
+      "",
+      "https://api.twitter.com/1.1/{queryId}.json"
+    ]
   },
   {
     "queryId": "onboarding/referrer",
-    "method": "post"
+    "dispatch_key": "post",
+    "dispatch": [
+      "post",
+      "",
+      "https://api.twitter.com/1.1/{queryId}.json"
+    ]
   },
   {
     "queryId": "onboarding/begin_verification",
-    "method": "post"
+    "dispatch_key": "post",
+    "dispatch": [
+      "post",
+      "",
+      "https://api.twitter.com/1.1/{queryId}.json"
+    ]
   },
   {
     "queryId": "onboarding/verify",
-    "method": "post"
+    "dispatch_key": "post",
+    "dispatch": [
+      "post",
+      "",
+      "https://api.twitter.com/1.1/{queryId}.json"
+    ]
   },
   {
     "queryId": "onboarding/fetch_user_recommendations",
-    "method": "post"
+    "dispatch_key": "post",
+    "dispatch": [
+      "post",
+      "",
+      "https://api.twitter.com/1.1/{queryId}.json"
+    ]
   },
   {
     "queryId": "account/user_twitter_data",
-    "method": "get"
+    "dispatch_key": "get",
+    "dispatch": [
+      "get",
+      "",
+      "https://api.twitter.com/1.1/{queryId}.json"
+    ]
+  },
+  {
+    "queryId": "account/user_twitter_data",
+    "dispatch_key": "put",
+    "dispatch": [
+      "put",
+      "",
+      "https://api.twitter.com/1.1/{queryId}.json"
+    ]
   }
 ]
