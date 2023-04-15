@@ -128,7 +128,7 @@ def gen_md_graphql(graphql_output: list) -> md_generator:
         if type(switches) is list and len(switches) > 0:
             datafram = []
             for key in exports["metadata"]["featureSwitches"]:
-                switch = exports["metadata"]["featureSwitch"].get(key,None)
+                switch = exports["metadata"]["featureSwitch"].get(key, None)
                 if switch == None:
                     datafram.append(
                         {
@@ -167,17 +167,14 @@ def gen_md_graphql(graphql_output: list) -> md_generator:
     return md
 
 
-def gen_md_v11(v11_output: list) -> md_generator:
+def gen_md_dispatch(dispatch_output: list) -> md_generator:
     md = md_generator()
-    for v11 in v11_output:
-        md.h2(v11["queryId"])
+    for d in dispatch_output:
+        md.h2(d["queryId"])
         md.p("Request URL", end=": ")
-        md.inline(
-            "https://api.twitter.com/1.1/{queryId}.json".format(queryId=v11["queryId"])
-        )
-
+        md.inline(d["dispatch"][2].format(queryId=d["queryId"]))
         md.p("Request Method", end=": ")
-        md.inline(v11["method"].upper())
+        md.inline(d["dispatch"][0].upper())
     return md
 
 
