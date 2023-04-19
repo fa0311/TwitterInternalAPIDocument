@@ -603,3 +603,16 @@
 - responsive_web_qp_payment_select_enabled<br>
 - rweb_reply_downvote_enabled<br>
 - super_follow_web_rename_enabled<br>
+## 2023/04/19<br>
+### API<br>
+#### add<br>
+- BirdwatchFetchCanTweetBeMediaNote<br>
+- BirdwatchFetchCanTweetBeMediaNote<br>
+#### remove<br>
+- PrimaryContentQuery<br>
+### Feature Switch<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- blue_business_consumption_api_enabled<br>
+- rweb_bookmarks_on_tweet_detail_enabled<br>
