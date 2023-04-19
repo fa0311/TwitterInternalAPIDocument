@@ -1238,7 +1238,7 @@
     "OFF": "Off",
     "UNDETERMINED": "Undetermined"
   },
-  "{[P.DEFAULT]:\"E.UNDETERMINED\",[P.DENIED]:\"E.OFF\",[P.GRANTED]:\"E.ON\"}",
+  "{[P.DEFAULT]:\"B.UNDETERMINED\",[P.DENIED]:\"B.OFF\",[P.GRANTED]:\"B.ON\"}",
   {
     "REQUEST": "rweb/devices/REMOVE_PUSH_DESTINATION_REQUEST",
     "SUCCESS": "rweb/devices/REMOVE_PUSH_DESTINATION_SUCCESS",
@@ -1710,6 +1710,7 @@
   },
   {
     "avatarURIForHashtagHighlight": "void 0",
+    "birdwatchPivotsEnabled": "!0",
     "c9sEnabled": "!1",
     "c9sThemesEnabled": "!1",
     "c9sHashtagsEnabled": "!1",
@@ -1782,7 +1783,6 @@
     "reply": "r",
     "retweet": "t",
     "share": "s",
-    "downvote": "d",
     "bookmark": "b",
     "openMediaModal": "o",
     "audio": {
@@ -2585,7 +2585,8 @@
   },
   {
     "ONE_TO_ONE": "ONE_TO_ONE",
-    "GROUP": "GROUP_DM"
+    "GROUP": "GROUP_DM",
+    "SECRET_ONE_TO_ONE": "SECRET_ONE_TO_ONE"
   },
   {
     "AT_END": "AT_END",
@@ -2600,6 +2601,7 @@
     "DELEGATE_ALERT_BANNER": "delegate_alert_banner",
     "DISABLE_NOTIFICATIONS": "disable_notifications",
     "ENABLE_NOTIFICATIONS": "enable_notifications",
+    "ENCRYPTED_CONVERSATION": "encrypted_conversation",
     "JOIN_CONVERSATION": "join_conversation",
     "LOADING_INDICATOR": "loading_indicator",
     "MARK_ALL_AS_READ": "mark_all_as_read",
@@ -3310,7 +3312,8 @@
   },
   {
     "ONE_TO_ONE": "ONE_TO_ONE",
-    "GROUP": "GROUP_DM"
+    "GROUP": "GROUP_DM",
+    "SECRET_ONE_TO_ONE": "SECRET_ONE_TO_ONE"
   },
   {
     "AT_END": "AT_END",
@@ -3325,6 +3328,7 @@
     "DELEGATE_ALERT_BANNER": "delegate_alert_banner",
     "DISABLE_NOTIFICATIONS": "disable_notifications",
     "ENABLE_NOTIFICATIONS": "enable_notifications",
+    "ENCRYPTED_CONVERSATION": "encrypted_conversation",
     "JOIN_CONVERSATION": "join_conversation",
     "LOADING_INDICATOR": "loading_indicator",
     "MARK_ALL_AS_READ": "mark_all_as_read",
@@ -3401,7 +3405,8 @@
   },
   {
     "ONE_TO_ONE": "ONE_TO_ONE",
-    "GROUP": "GROUP_DM"
+    "GROUP": "GROUP_DM",
+    "SECRET_ONE_TO_ONE": "SECRET_ONE_TO_ONE"
   },
   {
     "AT_END": "AT_END",
@@ -3416,6 +3421,7 @@
     "DELEGATE_ALERT_BANNER": "delegate_alert_banner",
     "DISABLE_NOTIFICATIONS": "disable_notifications",
     "ENABLE_NOTIFICATIONS": "enable_notifications",
+    "ENCRYPTED_CONVERSATION": "encrypted_conversation",
     "JOIN_CONVERSATION": "join_conversation",
     "LOADING_INDICATOR": "loading_indicator",
     "MARK_ALL_AS_READ": "mark_all_as_read",
@@ -3624,13 +3630,13 @@
     "LikedByAuthor": "liked-by-author"
   },
   {
-    "see_more": "x().ffd9cfe6",
-    "discover_more": "x().d172116a",
-    "more": "x().h63a5c3c",
-    "more_tweets": "x().iac074c4",
-    "more_suggestions": "x().g11ebd34",
-    "browse": "x().g4a6901a",
-    "browse_tweets": "x().b1abb17e"
+    "see_more": "S().ffd9cfe6",
+    "discover_more": "S().d172116a",
+    "more": "S().h63a5c3c",
+    "more_tweets": "S().iac074c4",
+    "more_suggestions": "S().g11ebd34",
+    "browse": "S().g4a6901a",
+    "browse_tweets": "S().b1abb17e"
   },
   {
     "DISMISSED": "dismissed",
@@ -3780,7 +3786,7 @@
     "SUCCESS": "rweb/bookmarkFolders/CREATE_BOOKMARK_FOLDERS_SUCCESS",
     "FAILURE": "rweb/bookmarkFolders/CREATE_BOOKMARK_FOLDERS_FAILURE"
   },
-  "{\"ActionsBar\":\"w.Z\",\"ActionMenu\":\"function()\"{\"Icon\":\"e\",\"isDisabled\":\"t\",\"items\":\"n\",\"onOpen\":\"i\"}{\"const o=a.useCallback()\"{\"items\":\"n\",\"onCloseRequested\":\"e\"}{\"Icon\":\"e\",\"isDisabled\":\"t\",\"onClick\":\"i\",\"renderActionMenu\":\"o\"}},\"CallToAction\":\"r.ZP\",\"EditCallout\":\"f.Z\",\"Education\":\"_.Z\",\"HighlightedUserLabel\":\"d.Z\",\"Media\":\"E.Z\",\"Place\":\"o.ZP\",\"PromotedDetails\":\"u.Z\",\"PromotedUserProfileCard\":\"P\",\"ReplyContext\":\"L.ZP\",\"RichContent\":\"D.Z\",\"SocialContext\":\"b.Z\",\"Text\":\"M.Z\",\"Tombstone\":\"y.Z\",\"Timestamp\":\"p.Z\",\"UserAvatar\":\"k.Z\",\"UserFollowIndicator\":\"U.Z\",\"UserName\":\"A.Z\",\"VibePill\":\"B.Z\"}",
+  "{\"ActionsBar\":\"w.Z\",\"ActionMenu\":\"function()\"{\"Icon\":\"e\",\"isDisabled\":\"t\",\"items\":\"n\",\"onOpen\":\"i\"}{\"const o=a.useCallback()\"{\"items\":\"n\",\"onCloseRequested\":\"e\"}{\"Icon\":\"e\",\"isDisabled\":\"t\",\"onClick\":\"i\",\"renderActionMenu\":\"o\"}},\"CallToAction\":\"r.ZP\",\"EditCallout\":\"f.Z\",\"Education\":\"_.Z\",\"HighlightedUserLabel\":\"d.Z\",\"Media\":\"E.Z\",\"Place\":\"o.ZP\",\"PromotedDetails\":\"u.Z\",\"PromotedUserProfileCard\":\"S\",\"ReplyContext\":\"L.ZP\",\"RichContent\":\"D.Z\",\"SocialContext\":\"b.Z\",\"Text\":\"M.Z\",\"Tombstone\":\"y.Z\",\"Timestamp\":\"p.Z\",\"UserAvatar\":\"k.Z\",\"UserFollowIndicator\":\"U.Z\",\"UserName\":\"A.Z\",\"VibePill\":\"B.Z\"}",
   {
     "private": "private",
     "public": "public",
@@ -3992,7 +3998,7 @@
       "label": "d"
     }
   },
-  "{[mo.Original]:\"OriginalTweet\",[mo.Quote]:\"QuoteTweet\",[mo.Reply]:\"Reply\",[mo.Thread]:\"Retweet\"}",
+  "{[hr.Original]:\"OriginalTweet\",[hr.Quote]:\"QuoteTweet\",[hr.Reply]:\"Reply\",[hr.Thread]:\"Retweet\"}",
   {
     "in": "in",
     "out": "out",
@@ -4014,13 +4020,13 @@
     "Quote": "quote",
     "Thread": "thread"
   },
-  "{[mo.Original]:\"original_tweet\",[mo.Quote]:\"quote_tweet\",[mo.Reply]:\"reply\"}",
+  "{[hr.Original]:\"original_tweet\",[hr.Quote]:\"quote_tweet\",[hr.Reply]:\"reply\"}",
   {
     "LOCAL_STATE_LOADED": "rweb/editTweet/LOCAL_STATE_LOADED",
     "LOCAL_STATE_REQUEST": "rweb/editTweet/LOCAL_STATE_REQUEST"
   },
   {
-    "fetchStatus": "Jo.ZP.NONE",
+    "fetchStatus": "Yr.ZP.NONE",
     "editTweetLimitedMarketPromptDismissedEpochMilliseconds": "0"
   },
   {
@@ -4028,6 +4034,11 @@
     "Nudge": "Nudge",
     "Prompt": "Prompt",
     "Require": "Require"
+  },
+  {
+    "Composition": "composition",
+    "DMComposition": "dm_composition",
+    "NoteComposition": "note_composition"
   },
   {
     "REQUEST": "rweb/placePicker/SEARCH_REQUEST",
@@ -4849,6 +4860,17 @@
     "Composition": "composition",
     "DMComposition": "dm_composition",
     "NoteComposition": "note_composition"
+  },
+  {
+    "Cashtag": "cashtag",
+    "Hashtag": "hashtag",
+    "Mention": "mention",
+    "Url": "url",
+    "List": "twitterList"
+  },
+  {
+    "CashtagClick": "cashtag_click",
+    "HashtagClick": "hashtag_click"
   },
   {
     "Cashtag": "cashtag",
@@ -5712,6 +5734,28 @@
     "ON_FOLLOW": "onFollow"
   },
   {
+    "Cashtag": "cashtag",
+    "Hashtag": "hashtag",
+    "Mention": "mention",
+    "Url": "url",
+    "List": "twitterList"
+  },
+  {
+    "CashtagClick": "cashtag_click",
+    "HashtagClick": "hashtag_click"
+  },
+  {
+    "Cashtag": "cashtag",
+    "Hashtag": "hashtag",
+    "Mention": "mention",
+    "Url": "url",
+    "List": "twitterList"
+  },
+  {
+    "CashtagClick": "cashtag_click",
+    "HashtagClick": "hashtag_click"
+  },
+  {
     "IncentiveFocus": "IncentiveFocus",
     "TopicFocus": "TopicFocus"
   },
@@ -5758,6 +5802,17 @@
     "TextOnly": "TextOnly",
     "Topic": "Topic",
     "Trending": "Trending"
+  },
+  {
+    "Cashtag": "cashtag",
+    "Hashtag": "hashtag",
+    "Mention": "mention",
+    "Url": "url",
+    "List": "twitterList"
+  },
+  {
+    "CashtagClick": "cashtag_click",
+    "HashtagClick": "hashtag_click"
   },
   {
     "Compact": "Compact",
@@ -5859,7 +5914,7 @@
     "SETTINGS_LOADED": "rweb/immersiveViewer/SETTINGS_LOADED"
   },
   {
-    "fetchStatus": "Se.ZP.NONE",
+    "fetchStatus": "Ie.ZP.NONE",
     "mobileViewCount": "0"
   },
   {
