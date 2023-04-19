@@ -1297,7 +1297,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{[P.DEFAULT]:"E.UNDETERMINED",[P.DENIED]:"E.OFF",[P.GRANTED]:"E.ON"}
+{[P.DEFAULT]:"B.UNDETERMINED",[P.DENIED]:"B.OFF",[P.GRANTED]:"B.ON"}
 ```
 | constant   | value                                        |
 |:-----------|:---------------------------------------------|
@@ -1779,6 +1779,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | constant                                  | value   |
 |:------------------------------------------|:--------|
 | avatarURIForHashtagHighlight              | void 0  |
+| birdwatchPivotsEnabled                    | True    |
 | c9sEnabled                                | False   |
 | c9sThemesEnabled                          | False   |
 | c9sHashtagsEnabled                        | False   |
@@ -1855,7 +1856,6 @@ This document is entirely auto-generated and may contain errors.<br>
 | reply          | r                                                 |
 | retweet        | t                                                 |
 | share          | s                                                 |
-| downvote       | d                                                 |
 | bookmark       | b                                                 |
 | openMediaModal | o                                                 |
 | audio          | {'dock': 'a d', 'play': 'a space', 'mute': 'a m'} |
@@ -2706,10 +2706,11 @@ This document is entirely auto-generated and may contain errors.<br>
 | CashtagClick | cashtag_click |
 | HashtagClick | hashtag_click |
 
-| constant   | value      |
-|:-----------|:-----------|
-| ONE_TO_ONE | ONE_TO_ONE |
-| GROUP      | GROUP_DM   |
+| constant          | value             |
+|:------------------|:------------------|
+| ONE_TO_ONE        | ONE_TO_ONE        |
+| GROUP             | GROUP_DM          |
+| SECRET_ONE_TO_ONE | SECRET_ONE_TO_ONE |
 
 | constant   | value    |
 |:-----------|:---------|
@@ -2726,6 +2727,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | DELEGATE_ALERT_BANNER            | delegate_alert_banner                |
 | DISABLE_NOTIFICATIONS            | disable_notifications                |
 | ENABLE_NOTIFICATIONS             | enable_notifications                 |
+| ENCRYPTED_CONVERSATION           | encrypted_conversation               |
 | JOIN_CONVERSATION                | join_conversation                    |
 | LOADING_INDICATOR                | loading_indicator                    |
 | MARK_ALL_AS_READ                 | mark_all_as_read                     |
@@ -3492,10 +3494,11 @@ This document is entirely auto-generated and may contain errors.<br>
 | ConversationNameUpdate | r.Cr.CONVERSATION_NAME_UPDATE |
 | JoinConversation       | r.Cr.JOIN_CONVERSATION        |
 
-| constant   | value      |
-|:-----------|:-----------|
-| ONE_TO_ONE | ONE_TO_ONE |
-| GROUP      | GROUP_DM   |
+| constant          | value             |
+|:------------------|:------------------|
+| ONE_TO_ONE        | ONE_TO_ONE        |
+| GROUP             | GROUP_DM          |
+| SECRET_ONE_TO_ONE | SECRET_ONE_TO_ONE |
 
 | constant   | value    |
 |:-----------|:---------|
@@ -3512,6 +3515,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | DELEGATE_ALERT_BANNER            | delegate_alert_banner                |
 | DISABLE_NOTIFICATIONS            | disable_notifications                |
 | ENABLE_NOTIFICATIONS             | enable_notifications                 |
+| ENCRYPTED_CONVERSATION           | encrypted_conversation               |
 | JOIN_CONVERSATION                | join_conversation                    |
 | LOADING_INDICATOR                | loading_indicator                    |
 | MARK_ALL_AS_READ                 | mark_all_as_read                     |
@@ -3597,10 +3601,11 @@ This document is entirely auto-generated and may contain errors.<br>
 | Creation   | list_creation |
 | Edit       | list_edit     |
 
-| constant   | value      |
-|:-----------|:-----------|
-| ONE_TO_ONE | ONE_TO_ONE |
-| GROUP      | GROUP_DM   |
+| constant          | value             |
+|:------------------|:------------------|
+| ONE_TO_ONE        | ONE_TO_ONE        |
+| GROUP             | GROUP_DM          |
+| SECRET_ONE_TO_ONE | SECRET_ONE_TO_ONE |
 
 | constant   | value    |
 |:-----------|:---------|
@@ -3617,6 +3622,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | DELEGATE_ALERT_BANNER            | delegate_alert_banner                |
 | DISABLE_NOTIFICATIONS            | disable_notifications                |
 | ENABLE_NOTIFICATIONS             | enable_notifications                 |
+| ENCRYPTED_CONVERSATION           | encrypted_conversation               |
 | JOIN_CONVERSATION                | join_conversation                    |
 | LOADING_INDICATOR                | loading_indicator                    |
 | MARK_ALL_AS_READ                 | mark_all_as_read                     |
@@ -3851,13 +3857,13 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant         | value        |
 |:-----------------|:-------------|
-| see_more         | x().ffd9cfe6 |
-| discover_more    | x().d172116a |
-| more             | x().h63a5c3c |
-| more_tweets      | x().iac074c4 |
-| more_suggestions | x().g11ebd34 |
-| browse           | x().g4a6901a |
-| browse_tweets    | x().b1abb17e |
+| see_more         | S().ffd9cfe6 |
+| discover_more    | S().d172116a |
+| more             | S().h63a5c3c |
+| more_tweets      | S().iac074c4 |
+| more_suggestions | S().g11ebd34 |
+| browse           | S().g4a6901a |
+| browse_tweets    | S().b1abb17e |
 
 | constant   | value     |
 |:-----------|:----------|
@@ -4266,7 +4272,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{[mo.Original]:"OriginalTweet",[mo.Quote]:"QuoteTweet",[mo.Reply]:"Reply",[mo.Thread]:"Retweet"}
+{[hr.Original]:"OriginalTweet",[hr.Quote]:"QuoteTweet",[hr.Reply]:"Reply",[hr.Thread]:"Retweet"}
 ```
 | constant   | value   |
 |:-----------|:--------|
@@ -4288,7 +4294,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{[mo.Original]:"original_tweet",[mo.Quote]:"quote_tweet",[mo.Reply]:"reply"}
+{[hr.Original]:"original_tweet",[hr.Quote]:"quote_tweet",[hr.Reply]:"reply"}
 ```
 | constant            | value                              |
 |:--------------------|:-----------------------------------|
@@ -4297,7 +4303,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant                                               | value      |
 |:-------------------------------------------------------|:-----------|
-| fetchStatus                                            | Jo.ZP.NONE |
+| fetchStatus                                            | Yr.ZP.NONE |
 | editTweetLimitedMarketPromptDismissedEpochMilliseconds | 0          |
 
 | constant   | value   |
@@ -4306,6 +4312,12 @@ This document is entirely auto-generated and may contain errors.<br>
 | Nudge      | Nudge   |
 | Prompt     | Prompt  |
 | Require    | Require |
+
+| constant        | value            |
+|:----------------|:-----------------|
+| Composition     | composition      |
+| DMComposition   | dm_composition   |
+| NoteComposition | note_composition |
 
 | constant   | value                           |
 |:-----------|:--------------------------------|
@@ -5251,6 +5263,19 @@ This document is entirely auto-generated and may contain errors.<br>
 | Composition     | composition      |
 | DMComposition   | dm_composition   |
 | NoteComposition | note_composition |
+
+| constant   | value       |
+|:-----------|:------------|
+| Cashtag    | cashtag     |
+| Hashtag    | hashtag     |
+| Mention    | mention     |
+| Url        | url         |
+| List       | twitterList |
+
+| constant     | value         |
+|:-------------|:--------------|
+| CashtagClick | cashtag_click |
+| HashtagClick | hashtag_click |
 
 | constant   | value       |
 |:-----------|:------------|
@@ -6239,6 +6264,32 @@ This document is entirely auto-generated and may contain errors.<br>
 | ON_LIKE        | onLike       |
 | ON_FOLLOW      | onFollow     |
 
+| constant   | value       |
+|:-----------|:------------|
+| Cashtag    | cashtag     |
+| Hashtag    | hashtag     |
+| Mention    | mention     |
+| Url        | url         |
+| List       | twitterList |
+
+| constant     | value         |
+|:-------------|:--------------|
+| CashtagClick | cashtag_click |
+| HashtagClick | hashtag_click |
+
+| constant   | value       |
+|:-----------|:------------|
+| Cashtag    | cashtag     |
+| Hashtag    | hashtag     |
+| Mention    | mention     |
+| Url        | url         |
+| List       | twitterList |
+
+| constant     | value         |
+|:-------------|:--------------|
+| CashtagClick | cashtag_click |
+| HashtagClick | hashtag_click |
+
 | constant       | value          |
 |:---------------|:---------------|
 | IncentiveFocus | IncentiveFocus |
@@ -6293,6 +6344,19 @@ This document is entirely auto-generated and may contain errors.<br>
 | TextOnly             | TextOnly             |
 | Topic                | Topic                |
 | Trending             | Trending             |
+
+| constant   | value       |
+|:-----------|:------------|
+| Cashtag    | cashtag     |
+| Hashtag    | hashtag     |
+| Mention    | mention     |
+| Url        | url         |
+| List       | twitterList |
+
+| constant     | value         |
+|:-------------|:--------------|
+| CashtagClick | cashtag_click |
+| HashtagClick | hashtag_click |
 
 | constant        | value           |
 |:----------------|:----------------|
@@ -6424,7 +6488,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant        | value      |
 |:----------------|:-----------|
-| fetchStatus     | Se.ZP.NONE |
+| fetchStatus     | Ie.ZP.NONE |
 | mobileViewCount | 0          |
 
 | constant   | value        |
