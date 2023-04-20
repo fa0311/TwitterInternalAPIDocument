@@ -537,10 +537,11 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key                        | type   | variable                |
-|:---------------------------|:-------|:------------------------|
-| withCommunitiesMemberships | ...    | t.isTrue()              |
-| withCommunitiesCreation    | ...    | t.isTrue("c9s_enabled") |
+| key                        | type   | variable                                                         |
+|:---------------------------|:-------|:-----------------------------------------------------------------|
+| withCommunitiesMemberships | ...    | t.isTrue()                                                       |
+| withSubscribedTab          | ...    | t.isTrue("c9s_enabled")                                          |
+| withCommunitiesCreation    | ...    | t.isTrue("super_follow_subscriptions_home_timeline_tab_enabled") |
 
 #### features<br>
 | key                                                                     | type    | variable   |
@@ -1899,10 +1900,11 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key                        | type   | variable                |
-|:---------------------------|:-------|:------------------------|
-| withCommunitiesMemberships | ...    | t.isTrue()              |
-| withCommunitiesCreation    | ...    | t.isTrue("c9s_enabled") |
+| key                        | type   | variable                                                         |
+|:---------------------------|:-------|:-----------------------------------------------------------------|
+| withCommunitiesMemberships | ...    | t.isTrue()                                                       |
+| withSubscribedTab          | ...    | t.isTrue("c9s_enabled")                                          |
+| withCommunitiesCreation    | ...    | t.isTrue("super_follow_subscriptions_home_timeline_tab_enabled") |
 
 #### features<br>
 | key                                                                     | type    | variable   |
@@ -2687,10 +2689,11 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key                        | type   | variable                |
-|:---------------------------|:-------|:------------------------|
-| withCommunitiesMemberships | ...    | t.isTrue()              |
-| withCommunitiesCreation    | ...    | t.isTrue("c9s_enabled") |
+| key                        | type   | variable                                                         |
+|:---------------------------|:-------|:-----------------------------------------------------------------|
+| withCommunitiesMemberships | ...    | t.isTrue()                                                       |
+| withSubscribedTab          | ...    | t.isTrue("c9s_enabled")                                          |
+| withCommunitiesCreation    | ...    | t.isTrue("super_follow_subscriptions_home_timeline_tab_enabled") |
 
 #### features<br>
 | key                                                                     | type    | variable   |
@@ -2847,6 +2850,38 @@ Login Required: `...`<br>
 | verified_phone_label_enabled                                      | boolean | False      |
 | responsive_web_graphql_skip_user_profile_image_extensions_enabled | boolean | False      |
 | responsive_web_graphql_timeline_navigation_enabled                | boolean | True       |
+
+#### queryId<br>
+`None`<br>
+## CreatorSubscriptionsTimeline<br>
+Request URL: `https://twitter.com/i/api/graphql/l6wWOFrs8vM8aEYrTAbuWQ/CreatorSubscriptionsTimeline`<br>
+Request Method: `GET`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+| key                                                                     | type    | variable   |
+|:------------------------------------------------------------------------|:--------|:-----------|
+| blue_business_profile_image_shape_enabled                               | boolean | True       |
+| responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
+| verified_phone_label_enabled                                            | boolean | False      |
+| responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
+| responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean | False      |
+| tweetypie_unmention_optimization_enabled                                | boolean | True       |
+| vibe_api_enabled                                                        | boolean | True       |
+| responsive_web_edit_tweet_api_enabled                                   | boolean | True       |
+| graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | True       |
+| view_counts_everywhere_api_enabled                                      | boolean | True       |
+| longform_notetweets_consumption_enabled                                 | boolean | True       |
+| tweet_awards_web_tipping_enabled                                        | boolean | False      |
+| freedom_of_speech_not_reach_fetch_enabled                               | boolean | False      |
+| standardized_nudges_misinfo                                             | boolean | True       |
+| tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | False      |
+| interactive_text_enabled                                                | boolean | True       |
+| responsive_web_text_conversations_enabled                               | boolean | False      |
+| longform_notetweets_rich_text_read_enabled                              | boolean | True       |
+| responsive_web_enhance_cards_enabled                                    | boolean | False      |
 
 #### queryId<br>
 `None`<br>
@@ -3187,10 +3222,11 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key                        | type   | variable                |
-|:---------------------------|:-------|:------------------------|
-| withCommunitiesMemberships | ...    | t.isTrue()              |
-| withCommunitiesCreation    | ...    | t.isTrue("c9s_enabled") |
+| key                        | type   | variable                                                         |
+|:---------------------------|:-------|:-----------------------------------------------------------------|
+| withCommunitiesMemberships | ...    | t.isTrue()                                                       |
+| withSubscribedTab          | ...    | t.isTrue("c9s_enabled")                                          |
+| withCommunitiesCreation    | ...    | t.isTrue("super_follow_subscriptions_home_timeline_tab_enabled") |
 
 #### features<br>
 | key                                                                     | type    | variable   |
@@ -4293,10 +4329,11 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key                        | type   | variable                |
-|:---------------------------|:-------|:------------------------|
-| withCommunitiesMemberships | ...    | t.isTrue()              |
-| withCommunitiesCreation    | ...    | t.isTrue("c9s_enabled") |
+| key                        | type   | variable                                                         |
+|:---------------------------|:-------|:-----------------------------------------------------------------|
+| withCommunitiesMemberships | ...    | t.isTrue()                                                       |
+| withSubscribedTab          | ...    | t.isTrue("c9s_enabled")                                          |
+| withCommunitiesCreation    | ...    | t.isTrue("super_follow_subscriptions_home_timeline_tab_enabled") |
 
 #### features<br>
 | key                                                                     | type    | variable   |
@@ -4694,10 +4731,11 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key                        | type   | variable                |
-|:---------------------------|:-------|:------------------------|
-| withCommunitiesMemberships | ...    | t.isTrue()              |
-| withCommunitiesCreation    | ...    | t.isTrue("c9s_enabled") |
+| key                        | type   | variable                                                         |
+|:---------------------------|:-------|:-----------------------------------------------------------------|
+| withCommunitiesMemberships | ...    | t.isTrue()                                                       |
+| withSubscribedTab          | ...    | t.isTrue("c9s_enabled")                                          |
+| withCommunitiesCreation    | ...    | t.isTrue("super_follow_subscriptions_home_timeline_tab_enabled") |
 
 #### features<br>
 | key                                                                     | type    | variable   |
@@ -5966,10 +6004,11 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key                        | type   | variable                |
-|:---------------------------|:-------|:------------------------|
-| withCommunitiesMemberships | ...    | t.isTrue()              |
-| withCommunitiesCreation    | ...    | t.isTrue("c9s_enabled") |
+| key                        | type   | variable                                                         |
+|:---------------------------|:-------|:-----------------------------------------------------------------|
+| withCommunitiesMemberships | ...    | t.isTrue()                                                       |
+| withSubscribedTab          | ...    | t.isTrue("c9s_enabled")                                          |
+| withCommunitiesCreation    | ...    | t.isTrue("super_follow_subscriptions_home_timeline_tab_enabled") |
 
 #### features<br>
 | key                                                                     | type    | variable   |
@@ -6805,10 +6844,11 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key                        | type   | variable                |
-|:---------------------------|:-------|:------------------------|
-| withCommunitiesMemberships | ...    | t.isTrue()              |
-| withCommunitiesCreation    | ...    | t.isTrue("c9s_enabled") |
+| key                        | type   | variable                                                         |
+|:---------------------------|:-------|:-----------------------------------------------------------------|
+| withCommunitiesMemberships | ...    | t.isTrue()                                                       |
+| withSubscribedTab          | ...    | t.isTrue("c9s_enabled")                                          |
+| withCommunitiesCreation    | ...    | t.isTrue("super_follow_subscriptions_home_timeline_tab_enabled") |
 
 #### features<br>
 | key                                                                     | type    | variable   |
@@ -7503,7 +7543,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## Viewer<br>
-Request URL: `https://twitter.com/i/api/graphql/okNaf-6AQWu2DD2H_MAoVw/Viewer`<br>
+Request URL: `https://twitter.com/i/api/graphql/4w4qP2V3R0dfKe4NcsbnlA/Viewer`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -8944,6 +8984,38 @@ Login Required: `...`<br>
 `None`<br>
 #### queryId<br>
 `None`<br>
+## CreatorSubscriptionsTimeline<br>
+Request URL: `https://twitter.com/i/api/graphql/l6wWOFrs8vM8aEYrTAbuWQ/CreatorSubscriptionsTimeline`<br>
+Request Method: `GET`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+| key                                                                     | type    | variable   |
+|:------------------------------------------------------------------------|:--------|:-----------|
+| blue_business_profile_image_shape_enabled                               | boolean | True       |
+| responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
+| verified_phone_label_enabled                                            | boolean | False      |
+| responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
+| responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean | False      |
+| tweetypie_unmention_optimization_enabled                                | boolean | True       |
+| vibe_api_enabled                                                        | boolean | True       |
+| responsive_web_edit_tweet_api_enabled                                   | boolean | True       |
+| graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | True       |
+| view_counts_everywhere_api_enabled                                      | boolean | True       |
+| longform_notetweets_consumption_enabled                                 | boolean | True       |
+| tweet_awards_web_tipping_enabled                                        | boolean | False      |
+| freedom_of_speech_not_reach_fetch_enabled                               | boolean | False      |
+| standardized_nudges_misinfo                                             | boolean | True       |
+| tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | False      |
+| interactive_text_enabled                                                | boolean | True       |
+| responsive_web_text_conversations_enabled                               | boolean | False      |
+| longform_notetweets_rich_text_read_enabled                              | boolean | True       |
+| responsive_web_enhance_cards_enabled                                    | boolean | False      |
+
+#### queryId<br>
+`None`<br>
 ## DataSaverMode<br>
 Request URL: `https://twitter.com/i/api/graphql/xF6sXnKJfS2AOylzxRjf6A/DataSaverMode`<br>
 Request Method: `GET`<br>
@@ -9446,10 +9518,11 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key                        | type   | variable                |
-|:---------------------------|:-------|:------------------------|
-| withCommunitiesMemberships | ...    | t.isTrue()              |
-| withCommunitiesCreation    | ...    | t.isTrue("c9s_enabled") |
+| key                        | type   | variable                                                         |
+|:---------------------------|:-------|:-----------------------------------------------------------------|
+| withCommunitiesMemberships | ...    | t.isTrue()                                                       |
+| withSubscribedTab          | ...    | t.isTrue("c9s_enabled")                                          |
+| withCommunitiesCreation    | ...    | t.isTrue("super_follow_subscriptions_home_timeline_tab_enabled") |
 
 #### features<br>
 | key                                                                     | type    | variable   |
@@ -12023,7 +12096,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## Viewer<br>
-Request URL: `https://twitter.com/i/api/graphql/okNaf-6AQWu2DD2H_MAoVw/Viewer`<br>
+Request URL: `https://twitter.com/i/api/graphql/4w4qP2V3R0dfKe4NcsbnlA/Viewer`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
