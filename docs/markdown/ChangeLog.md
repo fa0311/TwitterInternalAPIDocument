@@ -616,3 +616,19 @@
 #### remove<br>
 - blue_business_consumption_api_enabled<br>
 - rweb_bookmarks_on_tweet_detail_enabled<br>
+## 2023/04/20<br>
+### API<br>
+#### add<br>
+- CreatorSubscriptionsTimeline<br>
+- CreatorSubscriptionsTimeline<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- creator_monetization_profile_subscription_tweets_tab_enabled<br>
+- rweb_enable_logged_out_search_search_bar_enabled<br>
+- super_follow_subscriptions_home_timeline_tab_enabled<br>
+#### remove<br>
+- rweb_home_nav_ring_buffer_max_count<br>
+- rweb_home_nav_ring_buffer_refresh_delay_ms<br>
+- rweb_home_nav_single_direction_scroll_enabled<br>
