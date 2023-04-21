@@ -17321,7 +17321,7 @@
   {
     "n": "81732",
     "exports": {
-      "queryId": "4w4qP2V3R0dfKe4NcsbnlA",
+      "queryId": "XeaGEEWXp54Km4mVNvcMmg",
       "operationName": "Viewer",
       "operationType": "query",
       "metadata": {
@@ -27151,7 +27151,7 @@
   {
     "n": "81732",
     "exports": {
-      "queryId": "4w4qP2V3R0dfKe4NcsbnlA",
+      "queryId": "XeaGEEWXp54Km4mVNvcMmg",
       "operationName": "Viewer",
       "operationType": "query",
       "metadata": {
@@ -29076,12 +29076,18 @@
   {
     "n": "71190",
     "exports": {
-      "queryId": "IPGuEFp8xDTO8z-GfM_JIQ",
+      "queryId": "RM_GpjWsezBynXW4N7VJWQ",
       "operationName": "SuperFollowsSubscribeQuery",
       "operationType": "query",
       "metadata": {
-        "featureSwitches": [],
-        "featureSwitch": {}
+        "featureSwitches": [
+          "super_follow_subscriptions_tax_calculation_enabled"
+        ],
+        "featureSwitch": {
+          "super_follow_subscriptions_tax_calculation_enabled": {
+            "value": "false"
+          }
+        }
       }
     }
   },
