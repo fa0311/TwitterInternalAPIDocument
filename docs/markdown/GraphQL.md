@@ -7543,7 +7543,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## Viewer<br>
-Request URL: `https://twitter.com/i/api/graphql/4w4qP2V3R0dfKe4NcsbnlA/Viewer`<br>
+Request URL: `https://twitter.com/i/api/graphql/XeaGEEWXp54Km4mVNvcMmg/Viewer`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -12096,7 +12096,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## Viewer<br>
-Request URL: `https://twitter.com/i/api/graphql/4w4qP2V3R0dfKe4NcsbnlA/Viewer`<br>
+Request URL: `https://twitter.com/i/api/graphql/XeaGEEWXp54Km4mVNvcMmg/Viewer`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -13557,14 +13557,17 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## SuperFollowsSubscribeQuery<br>
-Request URL: `https://twitter.com/i/api/graphql/IPGuEFp8xDTO8z-GfM_JIQ/SuperFollowsSubscribeQuery`<br>
+Request URL: `https://twitter.com/i/api/graphql/RM_GpjWsezBynXW4N7VJWQ/SuperFollowsSubscribeQuery`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
 `None`<br>
 #### features<br>
-`None`<br>
+| key                                                | type    | variable   |
+|:---------------------------------------------------|:--------|:-----------|
+| super_follow_subscriptions_tax_calculation_enabled | boolean | False      |
+
 #### queryId<br>
 `None`<br>
 ## useSuperFollowsCreateStripeSubscriptionUrlMutation<br>
