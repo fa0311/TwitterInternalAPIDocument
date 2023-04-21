@@ -3218,8 +3218,8 @@
       }
     },
     "Viewer": {
-      "url": "https://twitter.com/i/api/graphql/4w4qP2V3R0dfKe4NcsbnlA/Viewer",
-      "queryId": "4w4qP2V3R0dfKe4NcsbnlA",
+      "url": "https://twitter.com/i/api/graphql/XeaGEEWXp54Km4mVNvcMmg/Viewer",
+      "queryId": "XeaGEEWXp54Km4mVNvcMmg",
       "method": "GET",
       "features": {
         "blue_business_profile_image_shape_enabled": true,
@@ -3998,10 +3998,12 @@
       "features": {}
     },
     "SuperFollowsSubscribeQuery": {
-      "url": "https://twitter.com/i/api/graphql/IPGuEFp8xDTO8z-GfM_JIQ/SuperFollowsSubscribeQuery",
-      "queryId": "IPGuEFp8xDTO8z-GfM_JIQ",
+      "url": "https://twitter.com/i/api/graphql/RM_GpjWsezBynXW4N7VJWQ/SuperFollowsSubscribeQuery",
+      "queryId": "RM_GpjWsezBynXW4N7VJWQ",
       "method": "GET",
-      "features": {}
+      "features": {
+        "super_follow_subscriptions_tax_calculation_enabled": false
+      }
     },
     "useSuperFollowsCreateStripeSubscriptionUrlMutation": {
       "url": "https://twitter.com/i/api/graphql/1nNykZ_aQohdxHKoykBVmg/useSuperFollowsCreateStripeSubscriptionUrlMutation",
