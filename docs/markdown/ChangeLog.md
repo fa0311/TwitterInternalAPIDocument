@@ -632,3 +632,15 @@
 - rweb_home_nav_ring_buffer_max_count<br>
 - rweb_home_nav_ring_buffer_refresh_delay_ms<br>
 - rweb_home_nav_single_direction_scroll_enabled<br>
+## 2023/04/21<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- responsive_web_subscribers_ntab_for_creators_enabled<br>
+- super_follow_subscriptions_tax_calculation_enabled<br>
+#### remove<br>
+- None<br>
