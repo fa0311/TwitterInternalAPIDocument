@@ -469,7 +469,7 @@
   {
     "type": "l.CREATOR_SUBSCRIPTIONS"
   },
-  "{[l.HOME]:\"home\",[l.HOME_LATEST]:\"latest\",[l.LIST]:\"pinned_list\",[l.CREATOR_SUBSCRIPTIONS]:\"creator_subscriptions\"}",
+  "{[l.HOME]:\"home\",[l.HOME_LATEST]:\"latest\",[l.LIST]:\"pinned_list\",[l.CREATOR_SUBSCRIPTIONS]:\"subscribed\"}",
   {
     "ContinueWith": "continue_with",
     "LogIn": "login",
@@ -1443,7 +1443,8 @@
   {
     "All": "all",
     "Mentions": "mentions",
-    "Verified": "verified"
+    "Verified": "verified",
+    "Subscribers": "subscribers"
   },
   {
     "REQUEST": "rweb/userClaims/FETCH_CLAIMS_REQUEST",
@@ -3665,6 +3666,11 @@
     "FAILURE": "rweb/birdwatchNotes/FETCH_DATA_FAILURE"
   },
   {
+    "REQUEST": "rweb/birdwatchNotes/FETCH_CAN_BE_MEDIA_NOTE_REQUEST",
+    "SUCCESS": "rweb/birdwatchNotes/FETCH_CAN_BE_MEDIA_NOTE_SUCCESS",
+    "FAILURE": "rweb/birdwatchNotes/FETCH_CAN_BE_MEDIA_NOTE_FAILURE"
+  },
+  {
     "REQUEST": "rweb/birdwatchNotes/FETCH_ALIAS_REQUEST",
     "SUCCESS": "rweb/birdwatchNotes/FETCH_ALIAS_SUCCESS",
     "FAILURE": "rweb/birdwatchNotes/FETCH_ALIAS_FAILURE"
@@ -4001,7 +4007,7 @@
       "label": "u"
     }
   },
-  "{[pr.Original]:\"OriginalTweet\",[pr.Quote]:\"QuoteTweet\",[pr.Reply]:\"Reply\",[pr.Thread]:\"Retweet\"}",
+  "{[hr.Original]:\"OriginalTweet\",[hr.Quote]:\"QuoteTweet\",[hr.Reply]:\"Reply\",[hr.Thread]:\"Retweet\"}",
   {
     "in": "in",
     "out": "out",
@@ -4023,13 +4029,13 @@
     "Quote": "quote",
     "Thread": "thread"
   },
-  "{[pr.Original]:\"original_tweet\",[pr.Quote]:\"quote_tweet\",[pr.Reply]:\"reply\"}",
+  "{[hr.Original]:\"original_tweet\",[hr.Quote]:\"quote_tweet\",[hr.Reply]:\"reply\"}",
   {
     "LOCAL_STATE_LOADED": "rweb/editTweet/LOCAL_STATE_LOADED",
     "LOCAL_STATE_REQUEST": "rweb/editTweet/LOCAL_STATE_REQUEST"
   },
   {
-    "fetchStatus": "eo.ZP.NONE",
+    "fetchStatus": "Xr.ZP.NONE",
     "editTweetLimitedMarketPromptDismissedEpochMilliseconds": "0"
   },
   {
