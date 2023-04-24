@@ -1426,13 +1426,27 @@ This document is entirely auto-generated and may contain errors.<br>
 | SruUpload                  | sru_upload_no_eager                     |
 | UploadSubmitUntilSruFinish | upload_submit_until_sru_finish_no_eager |
 
-| constant   | value   |
-|:-----------|:--------|
-| All        | all     |
-| Short      | short   |
-| Medium     | medium  |
-| Long       | long    |
-| XLong      | xlong   |
+| constant       | value          |
+|:---------------|:---------------|
+| All            | all            |
+| Short          | short          |
+| Medium         | medium         |
+| Long           | long           |
+| XLong          | xlong          |
+| L90to140s      | l90to140s      |
+| L140to300s     | l140to300s     |
+| L300to600s     | l300to600s     |
+| L600to1200s    | l600to1200s    |
+| L1200to1800s   | l1200to1800s   |
+| L1800to2700s   | l1800to2700s   |
+| L2700to3600s   | l2700to3600s   |
+| L3600to4500s   | l3600to4500s   |
+| L4500to5400s   | l4500to5400s   |
+| L5400to6300s   | l5400to6300s   |
+| L6300to7200s   | l6300to7200s   |
+| L7200to10800s  | l7200to10800s  |
+| L10800to14400s | l10800to14400s |
+| LGT14400s      | lgt14400s      |
 
 | constant   | value                  |
 |:-----------|:-----------------------|
