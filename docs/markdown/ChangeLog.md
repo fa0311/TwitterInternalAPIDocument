@@ -644,3 +644,14 @@
 - super_follow_subscriptions_tax_calculation_enabled<br>
 #### remove<br>
 - None<br>
+## 2023/04/24<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- blue_business_vo_free_affiliate_limit<br>
+#### remove<br>
+- None<br>
