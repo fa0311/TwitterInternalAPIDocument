@@ -134,7 +134,7 @@
             "value": "false"
           },
           "freedom_of_speech_not_reach_fetch_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "standardized_nudges_misinfo": {
             "value": "true"
@@ -236,7 +236,7 @@
             "value": "false"
           },
           "freedom_of_speech_not_reach_fetch_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "standardized_nudges_misinfo": {
             "value": "true"
@@ -368,7 +368,7 @@
             "value": "false"
           },
           "freedom_of_speech_not_reach_fetch_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "standardized_nudges_misinfo": {
             "value": "true"
@@ -531,7 +531,7 @@
             "value": "false"
           },
           "freedom_of_speech_not_reach_fetch_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "standardized_nudges_misinfo": {
             "value": "true"
@@ -621,7 +621,7 @@
             "value": "false"
           },
           "freedom_of_speech_not_reach_fetch_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "standardized_nudges_misinfo": {
             "value": "true"
@@ -711,7 +711,7 @@
             "value": "false"
           },
           "freedom_of_speech_not_reach_fetch_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "standardized_nudges_misinfo": {
             "value": "true"
@@ -816,7 +816,7 @@
             "value": "false"
           },
           "freedom_of_speech_not_reach_fetch_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "standardized_nudges_misinfo": {
             "value": "true"
@@ -915,7 +915,7 @@
             "value": "false"
           },
           "freedom_of_speech_not_reach_fetch_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "standardized_nudges_misinfo": {
             "value": "true"
@@ -1014,7 +1014,7 @@
             "value": "false"
           },
           "freedom_of_speech_not_reach_fetch_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "standardized_nudges_misinfo": {
             "value": "true"
@@ -1110,7 +1110,7 @@
             "value": "false"
           },
           "freedom_of_speech_not_reach_fetch_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "standardized_nudges_misinfo": {
             "value": "true"
@@ -1207,7 +1207,7 @@
             "value": "false"
           },
           "freedom_of_speech_not_reach_fetch_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "standardized_nudges_misinfo": {
             "value": "true"
@@ -1305,7 +1305,7 @@
             "value": "false"
           },
           "freedom_of_speech_not_reach_fetch_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "standardized_nudges_misinfo": {
             "value": "true"
@@ -1402,7 +1402,7 @@
             "value": "false"
           },
           "freedom_of_speech_not_reach_fetch_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "standardized_nudges_misinfo": {
             "value": "true"
@@ -1572,7 +1572,7 @@
             "value": "false"
           },
           "freedom_of_speech_not_reach_fetch_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "standardized_nudges_misinfo": {
             "value": "true"
@@ -1701,7 +1701,7 @@
             "value": "false"
           },
           "freedom_of_speech_not_reach_fetch_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "standardized_nudges_misinfo": {
             "value": "true"
@@ -1957,7 +1957,7 @@
             "value": "false"
           },
           "freedom_of_speech_not_reach_fetch_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "standardized_nudges_misinfo": {
             "value": "true"
@@ -2151,7 +2151,7 @@
             "value": "false"
           },
           "freedom_of_speech_not_reach_fetch_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "standardized_nudges_misinfo": {
             "value": "true"
@@ -2282,7 +2282,7 @@
             "value": "false"
           },
           "freedom_of_speech_not_reach_fetch_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "standardized_nudges_misinfo": {
             "value": "true"
@@ -2472,7 +2472,7 @@
             "value": "false"
           },
           "freedom_of_speech_not_reach_fetch_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "standardized_nudges_misinfo": {
             "value": "true"
@@ -2562,7 +2562,7 @@
             "value": "false"
           },
           "freedom_of_speech_not_reach_fetch_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "standardized_nudges_misinfo": {
             "value": "true"
@@ -2652,7 +2652,7 @@
             "value": "false"
           },
           "freedom_of_speech_not_reach_fetch_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "standardized_nudges_misinfo": {
             "value": "true"
@@ -2742,7 +2742,7 @@
             "value": "false"
           },
           "freedom_of_speech_not_reach_fetch_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "standardized_nudges_misinfo": {
             "value": "true"
@@ -2832,7 +2832,7 @@
             "value": "false"
           },
           "freedom_of_speech_not_reach_fetch_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "standardized_nudges_misinfo": {
             "value": "true"
@@ -2956,7 +2956,7 @@
             "value": "false"
           },
           "freedom_of_speech_not_reach_fetch_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "standardized_nudges_misinfo": {
             "value": "true"
@@ -3046,7 +3046,7 @@
             "value": "false"
           },
           "freedom_of_speech_not_reach_fetch_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "standardized_nudges_misinfo": {
             "value": "true"
@@ -3170,7 +3170,7 @@
             "value": "false"
           },
           "freedom_of_speech_not_reach_fetch_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "standardized_nudges_misinfo": {
             "value": "true"
@@ -3294,7 +3294,7 @@
             "value": "false"
           },
           "freedom_of_speech_not_reach_fetch_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "standardized_nudges_misinfo": {
             "value": "true"
@@ -3471,7 +3471,7 @@
             "value": "false"
           },
           "freedom_of_speech_not_reach_fetch_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "standardized_nudges_misinfo": {
             "value": "true"
@@ -3610,7 +3610,7 @@
             "value": "false"
           },
           "freedom_of_speech_not_reach_fetch_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "standardized_nudges_misinfo": {
             "value": "true"
@@ -3700,7 +3700,7 @@
             "value": "false"
           },
           "freedom_of_speech_not_reach_fetch_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "standardized_nudges_misinfo": {
             "value": "true"
@@ -3836,7 +3836,7 @@
             "value": "false"
           },
           "freedom_of_speech_not_reach_fetch_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "standardized_nudges_misinfo": {
             "value": "true"
@@ -3935,7 +3935,7 @@
             "value": "false"
           },
           "freedom_of_speech_not_reach_fetch_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "standardized_nudges_misinfo": {
             "value": "true"
@@ -4034,7 +4034,7 @@
             "value": "false"
           },
           "freedom_of_speech_not_reach_fetch_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "standardized_nudges_misinfo": {
             "value": "true"
@@ -4130,7 +4130,7 @@
             "value": "false"
           },
           "freedom_of_speech_not_reach_fetch_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "standardized_nudges_misinfo": {
             "value": "true"
@@ -4227,7 +4227,7 @@
             "value": "false"
           },
           "freedom_of_speech_not_reach_fetch_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "standardized_nudges_misinfo": {
             "value": "true"
@@ -4325,7 +4325,7 @@
             "value": "false"
           },
           "freedom_of_speech_not_reach_fetch_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "standardized_nudges_misinfo": {
             "value": "true"
@@ -4422,7 +4422,7 @@
             "value": "false"
           },
           "freedom_of_speech_not_reach_fetch_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "standardized_nudges_misinfo": {
             "value": "true"
@@ -4864,7 +4864,7 @@
             "value": "false"
           },
           "freedom_of_speech_not_reach_fetch_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "standardized_nudges_misinfo": {
             "value": "true"
@@ -5017,7 +5017,7 @@
             "value": "false"
           },
           "freedom_of_speech_not_reach_fetch_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "standardized_nudges_misinfo": {
             "value": "true"
@@ -5217,7 +5217,7 @@
             "value": "false"
           },
           "freedom_of_speech_not_reach_fetch_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "standardized_nudges_misinfo": {
             "value": "true"
@@ -5322,7 +5322,7 @@
             "value": "false"
           },
           "freedom_of_speech_not_reach_fetch_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "standardized_nudges_misinfo": {
             "value": "true"
@@ -5412,7 +5412,7 @@
             "value": "false"
           },
           "freedom_of_speech_not_reach_fetch_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "standardized_nudges_misinfo": {
             "value": "true"
@@ -5502,7 +5502,7 @@
             "value": "false"
           },
           "freedom_of_speech_not_reach_fetch_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "standardized_nudges_misinfo": {
             "value": "true"
@@ -5592,7 +5592,7 @@
             "value": "false"
           },
           "freedom_of_speech_not_reach_fetch_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "standardized_nudges_misinfo": {
             "value": "true"
@@ -5691,7 +5691,7 @@
             "value": "false"
           },
           "freedom_of_speech_not_reach_fetch_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "standardized_nudges_misinfo": {
             "value": "true"
@@ -5790,7 +5790,7 @@
             "value": "false"
           },
           "freedom_of_speech_not_reach_fetch_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "standardized_nudges_misinfo": {
             "value": "true"
@@ -5886,7 +5886,7 @@
             "value": "false"
           },
           "freedom_of_speech_not_reach_fetch_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "standardized_nudges_misinfo": {
             "value": "true"
@@ -5983,7 +5983,7 @@
             "value": "false"
           },
           "freedom_of_speech_not_reach_fetch_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "standardized_nudges_misinfo": {
             "value": "true"
@@ -6081,7 +6081,7 @@
             "value": "false"
           },
           "freedom_of_speech_not_reach_fetch_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "standardized_nudges_misinfo": {
             "value": "true"
@@ -6178,7 +6178,7 @@
             "value": "false"
           },
           "freedom_of_speech_not_reach_fetch_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "standardized_nudges_misinfo": {
             "value": "true"
@@ -6314,7 +6314,7 @@
             "value": "false"
           },
           "freedom_of_speech_not_reach_fetch_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "standardized_nudges_misinfo": {
             "value": "true"
@@ -6404,7 +6404,7 @@
             "value": "false"
           },
           "freedom_of_speech_not_reach_fetch_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "standardized_nudges_misinfo": {
             "value": "true"
@@ -6494,7 +6494,7 @@
             "value": "false"
           },
           "freedom_of_speech_not_reach_fetch_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "standardized_nudges_misinfo": {
             "value": "true"
@@ -6622,7 +6622,7 @@
             "value": "false"
           },
           "freedom_of_speech_not_reach_fetch_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "standardized_nudges_misinfo": {
             "value": "true"
@@ -6712,7 +6712,7 @@
             "value": "false"
           },
           "freedom_of_speech_not_reach_fetch_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "standardized_nudges_misinfo": {
             "value": "true"
@@ -6802,7 +6802,7 @@
             "value": "false"
           },
           "freedom_of_speech_not_reach_fetch_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "standardized_nudges_misinfo": {
             "value": "true"
@@ -6892,7 +6892,7 @@
             "value": "false"
           },
           "freedom_of_speech_not_reach_fetch_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "standardized_nudges_misinfo": {
             "value": "true"
@@ -6990,7 +6990,7 @@
             "value": "false"
           },
           "freedom_of_speech_not_reach_fetch_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "standardized_nudges_misinfo": {
             "value": "true"
@@ -7089,7 +7089,7 @@
             "value": "false"
           },
           "freedom_of_speech_not_reach_fetch_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "standardized_nudges_misinfo": {
             "value": "true"
@@ -7188,7 +7188,7 @@
             "value": "false"
           },
           "freedom_of_speech_not_reach_fetch_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "standardized_nudges_misinfo": {
             "value": "true"
@@ -7284,7 +7284,7 @@
             "value": "false"
           },
           "freedom_of_speech_not_reach_fetch_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "standardized_nudges_misinfo": {
             "value": "true"
@@ -7586,7 +7586,7 @@
             "value": "false"
           },
           "freedom_of_speech_not_reach_fetch_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "standardized_nudges_misinfo": {
             "value": "true"
@@ -7693,7 +7693,7 @@
             "value": "false"
           },
           "freedom_of_speech_not_reach_fetch_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "standardized_nudges_misinfo": {
             "value": "true"
@@ -7783,7 +7783,7 @@
             "value": "false"
           },
           "freedom_of_speech_not_reach_fetch_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "standardized_nudges_misinfo": {
             "value": "true"
@@ -7873,7 +7873,7 @@
             "value": "false"
           },
           "freedom_of_speech_not_reach_fetch_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "standardized_nudges_misinfo": {
             "value": "true"
@@ -7972,7 +7972,7 @@
             "value": "false"
           },
           "freedom_of_speech_not_reach_fetch_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "standardized_nudges_misinfo": {
             "value": "true"
@@ -8088,7 +8088,7 @@
             "value": "false"
           },
           "freedom_of_speech_not_reach_fetch_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "standardized_nudges_misinfo": {
             "value": "true"
@@ -8306,7 +8306,7 @@
             "value": "false"
           },
           "freedom_of_speech_not_reach_fetch_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "standardized_nudges_misinfo": {
             "value": "true"
@@ -8476,7 +8476,7 @@
             "value": "false"
           },
           "freedom_of_speech_not_reach_fetch_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "standardized_nudges_misinfo": {
             "value": "true"
@@ -8716,7 +8716,7 @@
             "value": "false"
           },
           "freedom_of_speech_not_reach_fetch_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "standardized_nudges_misinfo": {
             "value": "true"
@@ -8812,7 +8812,7 @@
             "value": "false"
           },
           "freedom_of_speech_not_reach_fetch_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "standardized_nudges_misinfo": {
             "value": "true"
@@ -8950,7 +8950,7 @@
             "value": "false"
           },
           "freedom_of_speech_not_reach_fetch_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "standardized_nudges_misinfo": {
             "value": "true"
@@ -9048,7 +9048,7 @@
             "value": "false"
           },
           "freedom_of_speech_not_reach_fetch_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "standardized_nudges_misinfo": {
             "value": "true"
@@ -9145,7 +9145,7 @@
             "value": "false"
           },
           "freedom_of_speech_not_reach_fetch_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "standardized_nudges_misinfo": {
             "value": "true"
@@ -9281,7 +9281,7 @@
             "value": "false"
           },
           "freedom_of_speech_not_reach_fetch_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "standardized_nudges_misinfo": {
             "value": "true"
@@ -9371,7 +9371,7 @@
             "value": "false"
           },
           "freedom_of_speech_not_reach_fetch_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "standardized_nudges_misinfo": {
             "value": "true"
@@ -9461,7 +9461,7 @@
             "value": "false"
           },
           "freedom_of_speech_not_reach_fetch_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "standardized_nudges_misinfo": {
             "value": "true"
@@ -9563,7 +9563,7 @@
             "value": "false"
           },
           "freedom_of_speech_not_reach_fetch_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "standardized_nudges_misinfo": {
             "value": "true"
@@ -9662,7 +9662,7 @@
             "value": "false"
           },
           "freedom_of_speech_not_reach_fetch_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "standardized_nudges_misinfo": {
             "value": "true"
@@ -9761,7 +9761,7 @@
             "value": "false"
           },
           "freedom_of_speech_not_reach_fetch_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "standardized_nudges_misinfo": {
             "value": "true"
@@ -9857,7 +9857,7 @@
             "value": "false"
           },
           "freedom_of_speech_not_reach_fetch_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "standardized_nudges_misinfo": {
             "value": "true"
@@ -9954,7 +9954,7 @@
             "value": "false"
           },
           "freedom_of_speech_not_reach_fetch_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "standardized_nudges_misinfo": {
             "value": "true"
@@ -10052,7 +10052,7 @@
             "value": "false"
           },
           "freedom_of_speech_not_reach_fetch_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "standardized_nudges_misinfo": {
             "value": "true"
@@ -10149,7 +10149,7 @@
             "value": "false"
           },
           "freedom_of_speech_not_reach_fetch_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "standardized_nudges_misinfo": {
             "value": "true"
@@ -10309,7 +10309,7 @@
             "value": "false"
           },
           "freedom_of_speech_not_reach_fetch_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "standardized_nudges_misinfo": {
             "value": "true"
@@ -10399,7 +10399,7 @@
             "value": "false"
           },
           "freedom_of_speech_not_reach_fetch_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "standardized_nudges_misinfo": {
             "value": "true"
@@ -10489,7 +10489,7 @@
             "value": "false"
           },
           "freedom_of_speech_not_reach_fetch_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "standardized_nudges_misinfo": {
             "value": "true"
@@ -10579,7 +10579,7 @@
             "value": "false"
           },
           "freedom_of_speech_not_reach_fetch_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "standardized_nudges_misinfo": {
             "value": "true"
@@ -10678,7 +10678,7 @@
             "value": "false"
           },
           "freedom_of_speech_not_reach_fetch_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "standardized_nudges_misinfo": {
             "value": "true"
@@ -10777,7 +10777,7 @@
             "value": "false"
           },
           "freedom_of_speech_not_reach_fetch_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "standardized_nudges_misinfo": {
             "value": "true"
@@ -10873,7 +10873,7 @@
             "value": "false"
           },
           "freedom_of_speech_not_reach_fetch_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "standardized_nudges_misinfo": {
             "value": "true"
@@ -10970,7 +10970,7 @@
             "value": "false"
           },
           "freedom_of_speech_not_reach_fetch_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "standardized_nudges_misinfo": {
             "value": "true"
@@ -11073,7 +11073,7 @@
             "value": "false"
           },
           "freedom_of_speech_not_reach_fetch_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "standardized_nudges_misinfo": {
             "value": "true"
@@ -11171,7 +11171,7 @@
             "value": "false"
           },
           "freedom_of_speech_not_reach_fetch_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "standardized_nudges_misinfo": {
             "value": "true"
@@ -11268,7 +11268,7 @@
             "value": "false"
           },
           "freedom_of_speech_not_reach_fetch_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "standardized_nudges_misinfo": {
             "value": "true"
@@ -11365,7 +11365,7 @@
             "value": "false"
           },
           "freedom_of_speech_not_reach_fetch_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "standardized_nudges_misinfo": {
             "value": "true"
@@ -11464,7 +11464,7 @@
             "value": "false"
           },
           "freedom_of_speech_not_reach_fetch_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "standardized_nudges_misinfo": {
             "value": "true"
@@ -11566,7 +11566,7 @@
             "value": "false"
           },
           "freedom_of_speech_not_reach_fetch_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "standardized_nudges_misinfo": {
             "value": "true"
@@ -11669,7 +11669,7 @@
             "value": "false"
           },
           "freedom_of_speech_not_reach_fetch_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "standardized_nudges_misinfo": {
             "value": "true"
@@ -11762,7 +11762,7 @@
             "value": "false"
           },
           "freedom_of_speech_not_reach_fetch_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "standardized_nudges_misinfo": {
             "value": "true"
@@ -11862,7 +11862,7 @@
             "value": "false"
           },
           "freedom_of_speech_not_reach_fetch_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "standardized_nudges_misinfo": {
             "value": "true"
@@ -11964,7 +11964,7 @@
             "value": "false"
           },
           "freedom_of_speech_not_reach_fetch_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "standardized_nudges_misinfo": {
             "value": "true"
@@ -12225,7 +12225,7 @@
             "value": "false"
           },
           "freedom_of_speech_not_reach_fetch_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "standardized_nudges_misinfo": {
             "value": "true"
@@ -12315,7 +12315,7 @@
             "value": "false"
           },
           "freedom_of_speech_not_reach_fetch_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "standardized_nudges_misinfo": {
             "value": "true"
@@ -12412,7 +12412,7 @@
             "value": "false"
           },
           "freedom_of_speech_not_reach_fetch_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "standardized_nudges_misinfo": {
             "value": "true"
@@ -12822,7 +12822,7 @@
             "value": "false"
           },
           "freedom_of_speech_not_reach_fetch_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "standardized_nudges_misinfo": {
             "value": "true"
@@ -12912,7 +12912,7 @@
             "value": "false"
           },
           "freedom_of_speech_not_reach_fetch_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "standardized_nudges_misinfo": {
             "value": "true"
@@ -13002,7 +13002,7 @@
             "value": "false"
           },
           "freedom_of_speech_not_reach_fetch_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "standardized_nudges_misinfo": {
             "value": "true"
@@ -13092,7 +13092,7 @@
             "value": "false"
           },
           "freedom_of_speech_not_reach_fetch_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "standardized_nudges_misinfo": {
             "value": "true"
@@ -13182,7 +13182,7 @@
             "value": "false"
           },
           "freedom_of_speech_not_reach_fetch_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "standardized_nudges_misinfo": {
             "value": "true"
@@ -13272,7 +13272,7 @@
             "value": "false"
           },
           "freedom_of_speech_not_reach_fetch_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "standardized_nudges_misinfo": {
             "value": "true"
@@ -13371,7 +13371,7 @@
             "value": "false"
           },
           "freedom_of_speech_not_reach_fetch_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "standardized_nudges_misinfo": {
             "value": "true"
@@ -13470,7 +13470,7 @@
             "value": "false"
           },
           "freedom_of_speech_not_reach_fetch_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "standardized_nudges_misinfo": {
             "value": "true"
@@ -13566,7 +13566,7 @@
             "value": "false"
           },
           "freedom_of_speech_not_reach_fetch_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "standardized_nudges_misinfo": {
             "value": "true"
@@ -13663,7 +13663,7 @@
             "value": "false"
           },
           "freedom_of_speech_not_reach_fetch_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "standardized_nudges_misinfo": {
             "value": "true"
@@ -13761,7 +13761,7 @@
             "value": "false"
           },
           "freedom_of_speech_not_reach_fetch_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "standardized_nudges_misinfo": {
             "value": "true"
@@ -13858,7 +13858,7 @@
             "value": "false"
           },
           "freedom_of_speech_not_reach_fetch_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "standardized_nudges_misinfo": {
             "value": "true"
@@ -13955,7 +13955,7 @@
             "value": "false"
           },
           "freedom_of_speech_not_reach_fetch_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "standardized_nudges_misinfo": {
             "value": "true"
@@ -14069,7 +14069,7 @@
             "value": "false"
           },
           "freedom_of_speech_not_reach_fetch_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "standardized_nudges_misinfo": {
             "value": "true"
@@ -14196,7 +14196,7 @@
             "value": "false"
           },
           "freedom_of_speech_not_reach_fetch_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "standardized_nudges_misinfo": {
             "value": "true"
@@ -14326,7 +14326,7 @@
             "value": "false"
           },
           "freedom_of_speech_not_reach_fetch_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "standardized_nudges_misinfo": {
             "value": "true"
@@ -14422,7 +14422,7 @@
             "value": "false"
           },
           "freedom_of_speech_not_reach_fetch_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "standardized_nudges_misinfo": {
             "value": "true"
@@ -14517,7 +14517,7 @@
             "value": "false"
           },
           "freedom_of_speech_not_reach_fetch_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "standardized_nudges_misinfo": {
             "value": "true"
@@ -14652,7 +14652,7 @@
             "value": "false"
           },
           "freedom_of_speech_not_reach_fetch_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "standardized_nudges_misinfo": {
             "value": "true"
@@ -14774,7 +14774,7 @@
             "value": "false"
           },
           "freedom_of_speech_not_reach_fetch_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "standardized_nudges_misinfo": {
             "value": "true"
@@ -14873,7 +14873,7 @@
             "value": "false"
           },
           "freedom_of_speech_not_reach_fetch_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "standardized_nudges_misinfo": {
             "value": "true"
@@ -14936,7 +14936,7 @@
         ],
         "featureSwitch": {
           "freedom_of_speech_not_reach_fetch_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "standardized_nudges_misinfo": {
             "value": "true"
@@ -15069,7 +15069,7 @@
             "value": "false"
           },
           "freedom_of_speech_not_reach_fetch_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "standardized_nudges_misinfo": {
             "value": "true"
@@ -15159,7 +15159,7 @@
             "value": "false"
           },
           "freedom_of_speech_not_reach_fetch_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "standardized_nudges_misinfo": {
             "value": "true"
@@ -15249,7 +15249,7 @@
             "value": "false"
           },
           "freedom_of_speech_not_reach_fetch_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "standardized_nudges_misinfo": {
             "value": "true"
@@ -15339,7 +15339,7 @@
             "value": "false"
           },
           "freedom_of_speech_not_reach_fetch_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "standardized_nudges_misinfo": {
             "value": "true"
@@ -15438,7 +15438,7 @@
             "value": "false"
           },
           "freedom_of_speech_not_reach_fetch_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "standardized_nudges_misinfo": {
             "value": "true"
@@ -15537,7 +15537,7 @@
             "value": "false"
           },
           "freedom_of_speech_not_reach_fetch_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "standardized_nudges_misinfo": {
             "value": "true"
@@ -15633,7 +15633,7 @@
             "value": "false"
           },
           "freedom_of_speech_not_reach_fetch_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "standardized_nudges_misinfo": {
             "value": "true"
@@ -15730,7 +15730,7 @@
             "value": "false"
           },
           "freedom_of_speech_not_reach_fetch_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "standardized_nudges_misinfo": {
             "value": "true"
@@ -15828,7 +15828,7 @@
             "value": "false"
           },
           "freedom_of_speech_not_reach_fetch_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "standardized_nudges_misinfo": {
             "value": "true"
@@ -15925,7 +15925,7 @@
             "value": "false"
           },
           "freedom_of_speech_not_reach_fetch_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "standardized_nudges_misinfo": {
             "value": "true"
@@ -16092,7 +16092,7 @@
             "value": "false"
           },
           "freedom_of_speech_not_reach_fetch_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "standardized_nudges_misinfo": {
             "value": "true"
@@ -16198,7 +16198,7 @@
             "value": "false"
           },
           "freedom_of_speech_not_reach_fetch_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "standardized_nudges_misinfo": {
             "value": "true"
@@ -16292,7 +16292,7 @@
             "value": "false"
           },
           "freedom_of_speech_not_reach_fetch_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "standardized_nudges_misinfo": {
             "value": "true"
@@ -16386,7 +16386,7 @@
             "value": "false"
           },
           "freedom_of_speech_not_reach_fetch_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "standardized_nudges_misinfo": {
             "value": "true"
@@ -16480,7 +16480,7 @@
             "value": "false"
           },
           "freedom_of_speech_not_reach_fetch_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "standardized_nudges_misinfo": {
             "value": "true"
@@ -16574,7 +16574,7 @@
             "value": "false"
           },
           "freedom_of_speech_not_reach_fetch_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "standardized_nudges_misinfo": {
             "value": "true"
@@ -16668,7 +16668,7 @@
             "value": "false"
           },
           "freedom_of_speech_not_reach_fetch_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "standardized_nudges_misinfo": {
             "value": "true"
@@ -16762,7 +16762,7 @@
             "value": "false"
           },
           "freedom_of_speech_not_reach_fetch_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "standardized_nudges_misinfo": {
             "value": "true"
@@ -16898,7 +16898,7 @@
             "value": "false"
           },
           "freedom_of_speech_not_reach_fetch_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "standardized_nudges_misinfo": {
             "value": "true"
@@ -16988,7 +16988,7 @@
             "value": "false"
           },
           "freedom_of_speech_not_reach_fetch_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "standardized_nudges_misinfo": {
             "value": "true"
@@ -17078,7 +17078,7 @@
             "value": "false"
           },
           "freedom_of_speech_not_reach_fetch_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "standardized_nudges_misinfo": {
             "value": "true"
@@ -17180,7 +17180,7 @@
             "value": "false"
           },
           "freedom_of_speech_not_reach_fetch_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "standardized_nudges_misinfo": {
             "value": "true"
@@ -17430,7 +17430,7 @@
             "value": "false"
           },
           "freedom_of_speech_not_reach_fetch_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "standardized_nudges_misinfo": {
             "value": "true"
@@ -17520,7 +17520,7 @@
             "value": "false"
           },
           "freedom_of_speech_not_reach_fetch_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "standardized_nudges_misinfo": {
             "value": "true"
@@ -17615,7 +17615,7 @@
             "value": "false"
           },
           "freedom_of_speech_not_reach_fetch_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "standardized_nudges_misinfo": {
             "value": "true"
@@ -17780,7 +17780,7 @@
             "value": "false"
           },
           "freedom_of_speech_not_reach_fetch_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "standardized_nudges_misinfo": {
             "value": "true"
@@ -18036,7 +18036,7 @@
             "value": "false"
           },
           "freedom_of_speech_not_reach_fetch_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "standardized_nudges_misinfo": {
             "value": "true"
@@ -18230,7 +18230,7 @@
             "value": "false"
           },
           "freedom_of_speech_not_reach_fetch_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "standardized_nudges_misinfo": {
             "value": "true"
@@ -18320,7 +18320,7 @@
             "value": "false"
           },
           "freedom_of_speech_not_reach_fetch_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "standardized_nudges_misinfo": {
             "value": "true"
@@ -18410,7 +18410,7 @@
             "value": "false"
           },
           "freedom_of_speech_not_reach_fetch_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "standardized_nudges_misinfo": {
             "value": "true"
@@ -18500,7 +18500,7 @@
             "value": "false"
           },
           "freedom_of_speech_not_reach_fetch_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "standardized_nudges_misinfo": {
             "value": "true"
@@ -18631,7 +18631,7 @@
             "value": "false"
           },
           "freedom_of_speech_not_reach_fetch_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "standardized_nudges_misinfo": {
             "value": "true"
@@ -18762,7 +18762,7 @@
             "value": "false"
           },
           "freedom_of_speech_not_reach_fetch_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "standardized_nudges_misinfo": {
             "value": "true"
@@ -18860,7 +18860,7 @@
             "value": "false"
           },
           "freedom_of_speech_not_reach_fetch_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "standardized_nudges_misinfo": {
             "value": "true"
@@ -18950,7 +18950,7 @@
             "value": "false"
           },
           "freedom_of_speech_not_reach_fetch_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "standardized_nudges_misinfo": {
             "value": "true"
@@ -19074,7 +19074,7 @@
             "value": "false"
           },
           "freedom_of_speech_not_reach_fetch_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "standardized_nudges_misinfo": {
             "value": "true"
@@ -19164,7 +19164,7 @@
             "value": "false"
           },
           "freedom_of_speech_not_reach_fetch_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "standardized_nudges_misinfo": {
             "value": "true"
@@ -19322,7 +19322,7 @@
             "value": "false"
           },
           "freedom_of_speech_not_reach_fetch_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "standardized_nudges_misinfo": {
             "value": "true"
@@ -19616,7 +19616,7 @@
             "value": "false"
           },
           "freedom_of_speech_not_reach_fetch_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "standardized_nudges_misinfo": {
             "value": "true"
@@ -19805,7 +19805,7 @@
             "value": "false"
           },
           "freedom_of_speech_not_reach_fetch_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "standardized_nudges_misinfo": {
             "value": "true"
@@ -20046,7 +20046,7 @@
             "value": "false"
           },
           "freedom_of_speech_not_reach_fetch_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "standardized_nudges_misinfo": {
             "value": "true"
@@ -20136,7 +20136,7 @@
             "value": "false"
           },
           "freedom_of_speech_not_reach_fetch_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "standardized_nudges_misinfo": {
             "value": "true"
@@ -20284,7 +20284,7 @@
             "value": "false"
           },
           "freedom_of_speech_not_reach_fetch_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "standardized_nudges_misinfo": {
             "value": "true"
@@ -20451,7 +20451,7 @@
             "value": "false"
           },
           "freedom_of_speech_not_reach_fetch_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "standardized_nudges_misinfo": {
             "value": "true"
@@ -20747,7 +20747,7 @@
             "value": "false"
           },
           "freedom_of_speech_not_reach_fetch_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "standardized_nudges_misinfo": {
             "value": "true"
@@ -20953,7 +20953,7 @@
             "value": "false"
           },
           "freedom_of_speech_not_reach_fetch_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "standardized_nudges_misinfo": {
             "value": "true"
@@ -21043,7 +21043,7 @@
             "value": "false"
           },
           "freedom_of_speech_not_reach_fetch_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "standardized_nudges_misinfo": {
             "value": "true"
@@ -21154,7 +21154,7 @@
             "value": "false"
           },
           "freedom_of_speech_not_reach_fetch_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "standardized_nudges_misinfo": {
             "value": "true"
@@ -21253,7 +21253,7 @@
             "value": "false"
           },
           "freedom_of_speech_not_reach_fetch_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "standardized_nudges_misinfo": {
             "value": "true"
@@ -21352,7 +21352,7 @@
             "value": "false"
           },
           "freedom_of_speech_not_reach_fetch_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "standardized_nudges_misinfo": {
             "value": "true"
@@ -21448,7 +21448,7 @@
             "value": "false"
           },
           "freedom_of_speech_not_reach_fetch_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "standardized_nudges_misinfo": {
             "value": "true"
@@ -21560,7 +21560,7 @@
             "value": "false"
           },
           "freedom_of_speech_not_reach_fetch_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "standardized_nudges_misinfo": {
             "value": "true"
@@ -21650,7 +21650,7 @@
             "value": "false"
           },
           "freedom_of_speech_not_reach_fetch_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "standardized_nudges_misinfo": {
             "value": "true"
@@ -21740,7 +21740,7 @@
             "value": "false"
           },
           "freedom_of_speech_not_reach_fetch_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "standardized_nudges_misinfo": {
             "value": "true"
@@ -21830,7 +21830,7 @@
             "value": "false"
           },
           "freedom_of_speech_not_reach_fetch_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "standardized_nudges_misinfo": {
             "value": "true"
@@ -22138,7 +22138,7 @@
             "value": "false"
           },
           "freedom_of_speech_not_reach_fetch_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "standardized_nudges_misinfo": {
             "value": "true"
@@ -22257,7 +22257,7 @@
             "value": "false"
           },
           "freedom_of_speech_not_reach_fetch_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "standardized_nudges_misinfo": {
             "value": "true"
@@ -22347,7 +22347,7 @@
             "value": "false"
           },
           "freedom_of_speech_not_reach_fetch_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "standardized_nudges_misinfo": {
             "value": "true"
@@ -22437,7 +22437,7 @@
             "value": "false"
           },
           "freedom_of_speech_not_reach_fetch_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "standardized_nudges_misinfo": {
             "value": "true"
@@ -22536,7 +22536,7 @@
             "value": "false"
           },
           "freedom_of_speech_not_reach_fetch_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "standardized_nudges_misinfo": {
             "value": "true"
@@ -22652,7 +22652,7 @@
             "value": "false"
           },
           "freedom_of_speech_not_reach_fetch_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "standardized_nudges_misinfo": {
             "value": "true"
@@ -22882,7 +22882,7 @@
             "value": "false"
           },
           "freedom_of_speech_not_reach_fetch_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "standardized_nudges_misinfo": {
             "value": "true"
@@ -23052,7 +23052,7 @@
             "value": "false"
           },
           "freedom_of_speech_not_reach_fetch_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "standardized_nudges_misinfo": {
             "value": "true"
@@ -23292,7 +23292,7 @@
             "value": "false"
           },
           "freedom_of_speech_not_reach_fetch_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "standardized_nudges_misinfo": {
             "value": "true"
@@ -23388,7 +23388,7 @@
             "value": "false"
           },
           "freedom_of_speech_not_reach_fetch_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "standardized_nudges_misinfo": {
             "value": "true"
@@ -23538,7 +23538,7 @@
             "value": "false"
           },
           "freedom_of_speech_not_reach_fetch_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "standardized_nudges_misinfo": {
             "value": "true"
@@ -23636,7 +23636,7 @@
             "value": "false"
           },
           "freedom_of_speech_not_reach_fetch_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "standardized_nudges_misinfo": {
             "value": "true"
@@ -23733,7 +23733,7 @@
             "value": "false"
           },
           "freedom_of_speech_not_reach_fetch_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "standardized_nudges_misinfo": {
             "value": "true"
@@ -24004,7 +24004,7 @@
             "value": "false"
           },
           "freedom_of_speech_not_reach_fetch_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "standardized_nudges_misinfo": {
             "value": "true"
@@ -24103,7 +24103,7 @@
             "value": "false"
           },
           "freedom_of_speech_not_reach_fetch_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "standardized_nudges_misinfo": {
             "value": "true"
@@ -24193,7 +24193,7 @@
             "value": "false"
           },
           "freedom_of_speech_not_reach_fetch_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "standardized_nudges_misinfo": {
             "value": "true"
@@ -24290,7 +24290,7 @@
             "value": "false"
           },
           "freedom_of_speech_not_reach_fetch_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "standardized_nudges_misinfo": {
             "value": "true"
@@ -24436,7 +24436,7 @@
             "value": "false"
           },
           "freedom_of_speech_not_reach_fetch_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "standardized_nudges_misinfo": {
             "value": "true"
@@ -24586,7 +24586,7 @@
             "value": "false"
           },
           "freedom_of_speech_not_reach_fetch_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "standardized_nudges_misinfo": {
             "value": "true"
@@ -24712,7 +24712,7 @@
             "value": "false"
           },
           "freedom_of_speech_not_reach_fetch_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "standardized_nudges_misinfo": {
             "value": "true"
@@ -24839,7 +24839,7 @@
             "value": "false"
           },
           "freedom_of_speech_not_reach_fetch_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "standardized_nudges_misinfo": {
             "value": "true"
@@ -24969,7 +24969,7 @@
             "value": "false"
           },
           "freedom_of_speech_not_reach_fetch_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "standardized_nudges_misinfo": {
             "value": "true"
@@ -25065,7 +25065,7 @@
             "value": "false"
           },
           "freedom_of_speech_not_reach_fetch_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "standardized_nudges_misinfo": {
             "value": "true"
@@ -25160,7 +25160,7 @@
             "value": "false"
           },
           "freedom_of_speech_not_reach_fetch_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "standardized_nudges_misinfo": {
             "value": "true"
@@ -25278,7 +25278,7 @@
             "value": "false"
           },
           "freedom_of_speech_not_reach_fetch_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "standardized_nudges_misinfo": {
             "value": "true"
@@ -25332,7 +25332,7 @@
         ],
         "featureSwitch": {
           "freedom_of_speech_not_reach_fetch_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "standardized_nudges_misinfo": {
             "value": "true"
@@ -25496,7 +25496,7 @@
             "value": "false"
           },
           "freedom_of_speech_not_reach_fetch_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "standardized_nudges_misinfo": {
             "value": "true"
@@ -25602,7 +25602,7 @@
             "value": "false"
           },
           "freedom_of_speech_not_reach_fetch_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "standardized_nudges_misinfo": {
             "value": "true"
@@ -25696,7 +25696,7 @@
             "value": "false"
           },
           "freedom_of_speech_not_reach_fetch_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "standardized_nudges_misinfo": {
             "value": "true"
@@ -25790,7 +25790,7 @@
             "value": "false"
           },
           "freedom_of_speech_not_reach_fetch_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "standardized_nudges_misinfo": {
             "value": "true"
@@ -25884,7 +25884,7 @@
             "value": "false"
           },
           "freedom_of_speech_not_reach_fetch_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "standardized_nudges_misinfo": {
             "value": "true"
@@ -25978,7 +25978,7 @@
             "value": "false"
           },
           "freedom_of_speech_not_reach_fetch_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "standardized_nudges_misinfo": {
             "value": "true"
@@ -26072,7 +26072,7 @@
             "value": "false"
           },
           "freedom_of_speech_not_reach_fetch_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "standardized_nudges_misinfo": {
             "value": "true"
@@ -26166,7 +26166,7 @@
             "value": "false"
           },
           "freedom_of_speech_not_reach_fetch_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "standardized_nudges_misinfo": {
             "value": "true"
@@ -26268,7 +26268,7 @@
             "value": "false"
           },
           "freedom_of_speech_not_reach_fetch_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "standardized_nudges_misinfo": {
             "value": "true"
@@ -26358,7 +26358,7 @@
             "value": "false"
           },
           "freedom_of_speech_not_reach_fetch_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "standardized_nudges_misinfo": {
             "value": "true"
@@ -26474,7 +26474,7 @@
             "value": "false"
           },
           "freedom_of_speech_not_reach_fetch_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "standardized_nudges_misinfo": {
             "value": "true"
@@ -26656,7 +26656,7 @@
             "value": "false"
           },
           "freedom_of_speech_not_reach_fetch_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "standardized_nudges_misinfo": {
             "value": "true"
@@ -26759,7 +26759,7 @@
             "value": "false"
           },
           "freedom_of_speech_not_reach_fetch_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "standardized_nudges_misinfo": {
             "value": "true"
@@ -26864,7 +26864,7 @@
             "value": "false"
           },
           "freedom_of_speech_not_reach_fetch_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "standardized_nudges_misinfo": {
             "value": "true"
@@ -26964,7 +26964,7 @@
             "value": "false"
           },
           "freedom_of_speech_not_reach_fetch_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "standardized_nudges_misinfo": {
             "value": "true"
@@ -27066,7 +27066,7 @@
             "value": "false"
           },
           "freedom_of_speech_not_reach_fetch_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "standardized_nudges_misinfo": {
             "value": "true"
@@ -27287,7 +27287,7 @@
             "value": "false"
           },
           "freedom_of_speech_not_reach_fetch_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "standardized_nudges_misinfo": {
             "value": "true"
@@ -27436,7 +27436,7 @@
             "value": "true"
           },
           "freedom_of_speech_not_reach_fetch_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "graphql_is_translatable_rweb_tweet_is_translatable_enabled": {
             "value": "true"
@@ -28776,7 +28776,7 @@
   {
     "n": "61067",
     "exports": {
-      "queryId": "1PcjM2Rbmn8rKYj8trjO6w",
+      "queryId": "vnwexpl0q33_Bky-SROVww",
       "operationName": "TweetActivityQuery",
       "operationType": "query",
       "metadata": {
@@ -28956,7 +28956,7 @@
             "value": "true"
           },
           "freedom_of_speech_not_reach_fetch_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "graphql_is_translatable_rweb_tweet_is_translatable_enabled": {
             "value": "true"
