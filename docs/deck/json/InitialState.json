@@ -3229,13 +3229,13 @@
           "value": "false"
         },
         "freedom_of_speech_not_reach_author_label_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "freedom_of_speech_not_reach_fetch_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "freedom_of_speech_not_reach_pivot_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "global_mention_settings_enabled": {
           "value": "false"
@@ -4364,7 +4364,7 @@
           "value": "false"
         },
         "responsive_web_user_badge_education_redesign_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "responsive_web_video_pcomplete_enabled": {
           "value": "true"
@@ -4433,7 +4433,7 @@
           "value": "true"
         },
         "rweb_tweets_tweet_detail_font_size": {
-          "value": "title4"
+          "value": "headline2"
         },
         "rweb_update_fatigue_switch_to_app_day_timeout": {
           "value": "7"
@@ -5137,34 +5137,26 @@
           "value": "false"
         },
         "web_video_safari_hlsjs_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "web_video_transcribed_captions_enabled": {
           "value": "false"
         }
       },
       "impression_pointers": {
-        "rweb_tweets_tweet_detail_font_size": [
-          "rweb_tweet_detail_font_size_holdback_16263"
-        ],
         "web_video_safari_hlsjs_enabled": [
           "web_video_safari_hlsjs_16262"
         ]
       },
       "impressions": {
-        "rweb_tweet_detail_font_size_holdback_16263": {
-          "key": "rweb_tweet_detail_font_size_holdback_16263",
-          "bucket": "treatment",
-          "version": "1"
-        },
         "web_video_safari_hlsjs_16262": {
           "key": "web_video_safari_hlsjs_16262",
-          "bucket": "control",
+          "bucket": "treatment",
           "version": "1"
         }
       },
       "keysRead": {},
-      "settingsVersion": "72cb47a637dcf4aec4acaa98179854ed"
+      "settingsVersion": "300b33dd98797f761e9f2da286b69168"
     },
     "debug": {},
     "featureSetToken": "5dfe3def7f85c58da485a309fea16bf330112ca4",
@@ -5239,7 +5231,7 @@
     "country": "US",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "168228418181142297",
+    "guestId": "168237074532490837",
     "hasCommunityMemberships": "false",
     "language": "en",
     "oneFactorLoginEligibility": {
@@ -5274,12 +5266,6 @@
     "updates": {
       "isLoaded": "false",
       "isLoading": "false"
-    }
-  },
-  "ads": {
-    "typeahead": {
-      "targetingLocation": {},
-      "forecastAudience": {}
     }
   }
 }
