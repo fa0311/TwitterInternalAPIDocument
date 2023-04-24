@@ -115,11 +115,6 @@
       "entities": {},
       "errors": {},
       "fetchStatus": {}
-    },
-    "liveEvents": {
-      "entities": {},
-      "errors": {},
-      "fetchStatus": {}
     }
   },
   "featureSwitch": {
@@ -444,6 +439,9 @@
       "blue_business_verified_admin_enabled": {
         "value": "true"
       },
+      "blue_business_vo_free_affiliate_limit": {
+        "value": "5"
+      },
       "blue_business_vo_nav_for_legacy_verified": {
         "value": "false"
       },
@@ -723,13 +721,13 @@
         "value": "false"
       },
       "freedom_of_speech_not_reach_author_label_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "freedom_of_speech_not_reach_fetch_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "freedom_of_speech_not_reach_pivot_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "global_mention_settings_enabled": {
         "value": "false"
@@ -1861,7 +1859,7 @@
         "value": "false"
       },
       "responsive_web_user_badge_education_redesign_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "responsive_web_video_pcomplete_enabled": {
         "value": "true"
@@ -2961,6 +2959,9 @@
         "blue_business_verified_admin_enabled": {
           "value": "true"
         },
+        "blue_business_vo_free_affiliate_limit": {
+          "value": "5"
+        },
         "blue_business_vo_nav_for_legacy_verified": {
           "value": "true"
         },
@@ -3240,13 +3241,13 @@
           "value": "false"
         },
         "freedom_of_speech_not_reach_author_label_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "freedom_of_speech_not_reach_fetch_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "freedom_of_speech_not_reach_pivot_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "global_mention_settings_enabled": {
           "value": "false"
@@ -4378,7 +4379,7 @@
           "value": "false"
         },
         "responsive_web_user_badge_education_redesign_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "responsive_web_video_pcomplete_enabled": {
           "value": "true"
@@ -5162,7 +5163,7 @@
       "settingsVersion": "b62d448dd8b64026ced7c2a0a2b1065d"
     },
     "debug": {},
-    "featureSetToken": "50421eba3da9f316dc7f0fe12b809ae795b8f0f3",
+    "featureSetToken": "cb8640b703aa1b81ecc2d70ad11fcf2ba1e8db39",
     "isLoaded": "true",
     "isLoading": "false"
   },
@@ -5234,18 +5235,12 @@
     "country": "US",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "168228396053131633",
+    "guestId": "168237041569152260",
     "hasCommunityMemberships": "false",
     "language": "en",
     "oneFactorLoginEligibility": {
       "fetchStatus": "none"
     },
     "ssoInitTokens": {}
-  },
-  "ads": {
-    "typeahead": {
-      "targetingLocation": {},
-      "forecastAudience": {}
-    }
   }
 }
