@@ -655,3 +655,18 @@
 - blue_business_vo_free_affiliate_limit<br>
 #### remove<br>
 - None<br>
+## 2023/04/26<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- super_follow_onboarding_application_redesign_enabled<br>
+- super_follow_onboarding_blue_verified_requirement_enabled<br>
+- super_follow_subscriptions_home_timeline_tab_sticky_enabled<br>
+#### remove<br>
+- responsive_web_recent_searches_events_enabled<br>
+- responsive_web_recent_searches_topics_enabled<br>
+- responsive_web_recent_searches_users_enabled<br>
