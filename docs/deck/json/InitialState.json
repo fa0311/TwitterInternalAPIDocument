@@ -96,12 +96,17 @@
       "errors": {},
       "fetchStatus": {}
     },
-    "emailValidity": {
+    "legacyAndUnifiedCards": {
       "entities": {},
       "errors": {},
       "fetchStatus": {}
     },
     "translationsTweets": {
+      "entities": {},
+      "errors": {},
+      "fetchStatus": {}
+    },
+    "emailValidity": {
       "entities": {},
       "errors": {},
       "fetchStatus": {}
@@ -4421,7 +4426,7 @@
           "value": "false"
         },
         "rweb_home_perf_client_prefetch_mode": {
-          "value": "all"
+          "value": "none"
         },
         "rweb_home_perf_client_prefetch_timeout_ms": {
           "value": "0"
@@ -5146,7 +5151,7 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "7e19832a2896af25c9ffb7053e570708"
+      "settingsVersion": "1e4aabc5dc0945e57f750bfe8c67ca7c"
     },
     "debug": {},
     "featureSetToken": "5dfe3def7f85c58da485a309fea16bf330112ca4",
@@ -5221,7 +5226,7 @@
     "country": "XX",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "168245707815453165",
+    "guestId": "168254356538264367",
     "hasCommunityMemberships": "false",
     "language": "en",
     "oneFactorLoginEligibility": {
