@@ -3334,14 +3334,14 @@
       "features": {}
     },
     "useDMReactionMutationAddMutation": {
-      "url": "https://twitter.com/i/api/graphql/VvqwjKXjT6j6CTqvlqdYCw/useDMReactionMutationAddMutation",
-      "queryId": "VvqwjKXjT6j6CTqvlqdYCw",
+      "url": "https://twitter.com/i/api/graphql/EaE7Q-zObRQ3BBC4JOeONw/useDMReactionMutationAddMutation",
+      "queryId": "EaE7Q-zObRQ3BBC4JOeONw",
       "method": "POST",
       "features": {}
     },
     "useDMReactionMutationRemoveMutation": {
-      "url": "https://twitter.com/i/api/graphql/-vqtYGrnU8xx1d_9tVE0lw/useDMReactionMutationRemoveMutation",
-      "queryId": "-vqtYGrnU8xx1d_9tVE0lw",
+      "url": "https://twitter.com/i/api/graphql/bV_Nim3RYHsaJwMkTXJ6ew/useDMReactionMutationRemoveMutation",
+      "queryId": "bV_Nim3RYHsaJwMkTXJ6ew",
       "method": "POST",
       "features": {}
     },
@@ -3776,8 +3776,8 @@
       "features": {}
     },
     "SuperFollowsSettingsQuery": {
-      "url": "https://twitter.com/i/api/graphql/txZt97F9g8zSNZyrzrMVOg/SuperFollowsSettingsQuery",
-      "queryId": "txZt97F9g8zSNZyrzrMVOg",
+      "url": "https://twitter.com/i/api/graphql/XoBIApMtazjWCdEtT4-eLw/SuperFollowsSettingsQuery",
+      "queryId": "XoBIApMtazjWCdEtT4-eLw",
       "method": "GET",
       "features": {}
     },
