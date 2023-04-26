@@ -3561,10 +3561,10 @@ Request Method: `POST`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key          | type   | variable      |
-|:-------------|:-------|:--------------|
-| communityId  | ...    | n.communityId |
-| ...()(0,a.S) | ...    | _             |
+| key    | type   | variable   |
+|:-------|:-------|:-----------|
+| listId | ...    | l          |
+| ...a   | ...    | _          |
 
 #### features<br>
 `None`<br>
@@ -10018,10 +10018,10 @@ Request Method: `POST`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key          | type   | variable      |
-|:-------------|:-------|:--------------|
-| communityId  | ...    | n.communityId |
-| ...()(0,a.S) | ...    | _             |
+| key    | type   | variable   |
+|:-------|:-------|:-----------|
+| listId | ...    | l          |
+| ...a   | ...    | _          |
 
 #### features<br>
 `None`<br>
@@ -12326,7 +12326,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## useDMReactionMutationAddMutation<br>
-Request URL: `https://twitter.com/i/api/graphql/VvqwjKXjT6j6CTqvlqdYCw/useDMReactionMutationAddMutation`<br>
+Request URL: `https://twitter.com/i/api/graphql/EaE7Q-zObRQ3BBC4JOeONw/useDMReactionMutationAddMutation`<br>
 Request Method: `POST`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -12337,7 +12337,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## useDMReactionMutationRemoveMutation<br>
-Request URL: `https://twitter.com/i/api/graphql/-vqtYGrnU8xx1d_9tVE0lw/useDMReactionMutationRemoveMutation`<br>
+Request URL: `https://twitter.com/i/api/graphql/bV_Nim3RYHsaJwMkTXJ6ew/useDMReactionMutationRemoveMutation`<br>
 Request Method: `POST`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -13173,7 +13173,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## SuperFollowsSettingsQuery<br>
-Request URL: `https://twitter.com/i/api/graphql/txZt97F9g8zSNZyrzrMVOg/SuperFollowsSettingsQuery`<br>
+Request URL: `https://twitter.com/i/api/graphql/XoBIApMtazjWCdEtT4-eLw/SuperFollowsSettingsQuery`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
