@@ -114,3 +114,25 @@
 - rweb_reply_downvote_inline_education<br>
 - rweb_reply_downvote_inline_survey<br>
 - rweb_reply_downvote_nux_inline_days<br>
+## 2023/04/18<br>
+### API<br>
+#### add<br>
+- BirdwatchFetchCanTweetBeMediaNote<br>
+- BirdwatchFetchCanTweetBeMediaNote<br>
+- BlueVerifiedProfileEditCalloutQuery<br>
+#### remove<br>
+- CreateTweetDownvote<br>
+- DeleteTweetDownvote<br>
+### Feature Switch<br>
+#### add<br>
+- responsive_web_qp_keyword_targeting_enabled<br>
+- responsive_web_user_badge_education_redesign_enabled<br>
+- rweb_lists_search_enabled<br>
+- subscriptions_blue_verified_edit_profile_backend_error_message_enabled<br>
+- super_follow_tweet_label_redesign_enabled<br>
+#### remove<br>
+- blue_business_consumption_api_enabled<br>
+- responsive_web_qp_intro_experiment_enabled<br>
+- responsive_web_qp_payment_select_enabled<br>
+- rweb_reply_downvote_enabled<br>
+- super_follow_web_rename_enabled<br>
