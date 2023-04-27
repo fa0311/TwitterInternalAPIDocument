@@ -1,6 +1,6 @@
 {
   "env": "prod",
-  "isCanary": "true",
+  "isCanary": "false",
   "sha": "3568c363ce56aca1c66aa32edc8c1057c97ffa36",
   "isLoggedIn": "false",
   "hasMultiAccountCookie": "false",
@@ -9,7 +9,7 @@
     "rweb",
     "msw"
   ],
-  "serverDate": "1682543565447",
+  "serverDate": "1682629870021",
   "cookies": {
     "version": "1661819456366",
     "fetchedTime": "1661971138705",
@@ -102,10 +102,5 @@
         "zipbox_forms_auth_token"
       ]
     }
-  },
-  "tags": {
-    "environment": "client",
-    "isLoggedIn": "false",
-    "lang": "en"
   }
 }
