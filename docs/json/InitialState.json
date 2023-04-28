@@ -111,12 +111,12 @@
       "errors": {},
       "fetchStatus": {}
     },
-    "liveEvents": {
+    "legacyAndUnifiedCards": {
       "entities": {},
       "errors": {},
       "fetchStatus": {}
     },
-    "legacyAndUnifiedCards": {
+    "liveEvents": {
       "entities": {},
       "errors": {},
       "fetchStatus": {}
@@ -4745,7 +4745,7 @@
           "value": "false"
         },
         "super_follow_subscriptions_tax_calculation_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "super_follow_tweet_label_redesign_enabled": {
           "value": "true"
@@ -5165,7 +5165,7 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "1a11cc33086ad5ebe1915d8faaab1b16"
+      "settingsVersion": "e728830710e9762e4affc43ec5d2fe6f"
     },
     "debug": {},
     "featureSetToken": "ba69fa11eb4119669061dd66081683c75aa73358",
@@ -5240,7 +5240,7 @@
     "country": "US",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "168262960565890845",
+    "guestId": "168271598666354122",
     "hasCommunityMemberships": "false",
     "language": "en",
     "oneFactorLoginEligibility": {
