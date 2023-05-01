@@ -4433,7 +4433,7 @@
           "value": "true"
         },
         "rweb_tweets_tweet_detail_font_size": {
-          "value": "title4"
+          "value": "headline2"
         },
         "rweb_update_fatigue_switch_to_app_day_timeout": {
           "value": "7"
@@ -5143,20 +5143,10 @@
           "value": "false"
         }
       },
-      "impression_pointers": {
-        "rweb_tweets_tweet_detail_font_size": [
-          "rweb_tweet_detail_font_size_holdback_16263"
-        ]
-      },
-      "impressions": {
-        "rweb_tweet_detail_font_size_holdback_16263": {
-          "key": "rweb_tweet_detail_font_size_holdback_16263",
-          "bucket": "treatment",
-          "version": "1"
-        }
-      },
+      "impression_pointers": {},
+      "impressions": {},
       "keysRead": {},
-      "settingsVersion": "b10c1f53e026df72b1a9e38ed11fcd7d"
+      "settingsVersion": "1e4aabc5dc0945e57f750bfe8c67ca7c"
     },
     "debug": {},
     "featureSetToken": "5dfe3def7f85c58da485a309fea16bf330112ca4",
@@ -5231,7 +5221,7 @@
     "country": "XX",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "168280264731943597",
+    "guestId": "168288895853333041",
     "hasCommunityMemberships": "false",
     "language": "en",
     "oneFactorLoginEligibility": {
@@ -5266,12 +5256,6 @@
     "updates": {
       "isLoaded": "false",
       "isLoading": "false"
-    }
-  },
-  "ads": {
-    "typeahead": {
-      "targetingLocation": {},
-      "forecastAudience": {}
     }
   }
 }
