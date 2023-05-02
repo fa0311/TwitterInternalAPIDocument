@@ -3513,6 +3513,14 @@
       "method": "GET",
       "features": {}
     },
+    "PrimaryContentQuery": {
+      "url": "https://twitter.com/i/api/graphql/DPcSNOtovRKeAwtHAqwUlg/PrimaryContentQuery",
+      "queryId": "DPcSNOtovRKeAwtHAqwUlg",
+      "method": "GET",
+      "features": {
+        "c9s_list_members_action_api_enabled": false
+      }
+    },
     "actions_approveMemberRequest_Mutation": {
       "url": "https://twitter.com/i/api/graphql/LVHUDWQ4jsU9iixwJUbT4Q/actions_approveMemberRequest_Mutation",
       "queryId": "LVHUDWQ4jsU9iixwJUbT4Q",
@@ -3776,8 +3784,8 @@
       "features": {}
     },
     "SuperFollowsSettingsQuery": {
-      "url": "https://twitter.com/i/api/graphql/XoBIApMtazjWCdEtT4-eLw/SuperFollowsSettingsQuery",
-      "queryId": "XoBIApMtazjWCdEtT4-eLw",
+      "url": "https://twitter.com/i/api/graphql/W33-bIVbJf2fdfXLR8FDEA/SuperFollowsSettingsQuery",
+      "queryId": "W33-bIVbJf2fdfXLR8FDEA",
       "method": "GET",
       "features": {}
     },
@@ -4002,7 +4010,7 @@
       "queryId": "RM_GpjWsezBynXW4N7VJWQ",
       "method": "GET",
       "features": {
-        "super_follow_subscriptions_tax_calculation_enabled": false
+        "super_follow_subscriptions_tax_calculation_enabled": true
       }
     },
     "useSuperFollowsCreateStripeSubscriptionUrlMutation": {
