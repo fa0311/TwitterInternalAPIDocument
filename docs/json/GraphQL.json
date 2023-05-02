@@ -2305,9 +2305,13 @@
         }
       }
     },
-    "func_name": "T",
+    "func_name": "_",
     "func_name_init": "k",
-    "query": {}
+    "query": {
+      "tweetId": "n",
+      "...()(0,i.d)": "_",
+      "withQuickPromoteEligibilityTweetFields": "!0"
+    }
   },
   {
     "n": "5509",
@@ -18654,9 +18658,13 @@
         }
       }
     },
-    "func_name": "T",
+    "func_name": "_",
     "func_name_init": "k",
-    "query": {}
+    "query": {
+      "tweetId": "n",
+      "...()(0,i.d)": "_",
+      "withQuickPromoteEligibilityTweetFields": "!0"
+    }
   },
   {
     "n": "6123",
@@ -27876,6 +27884,30 @@
     }
   },
   {
+    "n": "51740",
+    "exports": {
+      "queryId": "EaE7Q-zObRQ3BBC4JOeONw",
+      "operationName": "useDMReactionMutationAddMutation",
+      "operationType": "mutation",
+      "metadata": {
+        "featureSwitches": [],
+        "featureSwitch": {}
+      }
+    }
+  },
+  {
+    "n": "62718",
+    "exports": {
+      "queryId": "bV_Nim3RYHsaJwMkTXJ6ew",
+      "operationName": "useDMReactionMutationRemoveMutation",
+      "operationType": "mutation",
+      "metadata": {
+        "featureSwitches": [],
+        "featureSwitch": {}
+      }
+    }
+  },
+  {
     "n": "82045",
     "exports": {
       "queryId": "A9Lt_vHgiD1zkiB2fdU9Zw",
@@ -28040,6 +28072,25 @@
       "metadata": {
         "featureSwitches": [],
         "featureSwitch": {}
+      }
+    }
+  },
+  {
+    "n": "97252",
+    "exports": {
+      "queryId": "DPcSNOtovRKeAwtHAqwUlg",
+      "operationName": "PrimaryContentQuery",
+      "operationType": "query",
+      "metadata": {
+        "featureSwitches": [
+          "c9s_list_members_action_api_enabled",
+          "c9s_superc9s_indication_enabled"
+        ],
+        "featureSwitch": {
+          "c9s_list_members_action_api_enabled": {
+            "value": "false"
+          }
+        }
       }
     }
   },
@@ -28574,7 +28625,7 @@
   {
     "n": "7164",
     "exports": {
-      "queryId": "XoBIApMtazjWCdEtT4-eLw",
+      "queryId": "W33-bIVbJf2fdfXLR8FDEA",
       "operationName": "SuperFollowsSettingsQuery",
       "operationType": "query",
       "metadata": {
@@ -29085,7 +29136,7 @@
         ],
         "featureSwitch": {
           "super_follow_subscriptions_tax_calculation_enabled": {
-            "value": "false"
+            "value": "true"
           }
         }
       }
