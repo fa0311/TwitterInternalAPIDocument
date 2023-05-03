@@ -120,11 +120,6 @@
       "entities": {},
       "errors": {},
       "fetchStatus": {}
-    },
-    "places": {
-      "entities": {},
-      "errors": {},
-      "fetchStatus": {}
     }
   },
   "featureSwitch": {
@@ -2979,7 +2974,7 @@
           "value": "true"
         },
         "blue_business_vo_free_affiliate_limit": {
-          "value": "5"
+          "value": "2"
         },
         "blue_business_vo_nav_for_legacy_verified": {
           "value": "true"
@@ -3509,10 +3504,10 @@
           "value": "600"
         },
         "media_async_upload_longer_video_max_video_duration": {
-          "value": "3660"
+          "value": "7260"
         },
         "media_async_upload_longer_video_max_video_size": {
-          "value": "2097152"
+          "value": "8388608"
         },
         "media_async_upload_longer_video_resolution_selector": {
           "value": "true"
@@ -5179,26 +5174,16 @@
           "value": "false"
         },
         "web_video_safari_hlsjs_enabled": {
-          "value": "true"
+          "value": "false"
         },
         "web_video_transcribed_captions_enabled": {
           "value": "false"
         }
       },
-      "impression_pointers": {
-        "web_video_safari_hlsjs_enabled": [
-          "web_video_safari_hlsjs_16262"
-        ]
-      },
-      "impressions": {
-        "web_video_safari_hlsjs_16262": {
-          "key": "web_video_safari_hlsjs_16262",
-          "bucket": "treatment",
-          "version": "1"
-        }
-      },
+      "impression_pointers": {},
+      "impressions": {},
       "keysRead": {},
-      "settingsVersion": "51e85aac62bada635291ca0056138542"
+      "settingsVersion": "51d40ffe76a2770527d3c57cf463655e"
     },
     "debug": {},
     "featureSetToken": "14514c65d51e50ad23ea6ce8ab62d79ec1ad9cc0",
@@ -5273,7 +5258,7 @@
     "country": "US",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "168306159550997841",
+    "guestId": "168314800502287403",
     "hasCommunityMemberships": "false",
     "language": "en",
     "oneFactorLoginEligibility": {
