@@ -3475,10 +3475,10 @@
           "value": "600"
         },
         "media_async_upload_longer_video_max_video_duration": {
-          "value": "3660"
+          "value": "7260"
         },
         "media_async_upload_longer_video_max_video_size": {
-          "value": "2097152"
+          "value": "8388608"
         },
         "media_async_upload_longer_video_resolution_selector": {
           "value": "true"
@@ -5143,10 +5143,20 @@
           "value": "false"
         }
       },
-      "impression_pointers": {},
-      "impressions": {},
+      "impression_pointers": {
+        "web_video_safari_hlsjs_enabled": [
+          "web_video_safari_hlsjs_16262"
+        ]
+      },
+      "impressions": {
+        "web_video_safari_hlsjs_16262": {
+          "key": "web_video_safari_hlsjs_16262",
+          "bucket": "control",
+          "version": "1"
+        }
+      },
       "keysRead": {},
-      "settingsVersion": "ddd4ac97c652c00ebcc7395dd5229340"
+      "settingsVersion": "de701716b8b9a3327fb7327fda0eb37c"
     },
     "debug": {},
     "featureSetToken": "5dfe3def7f85c58da485a309fea16bf330112ca4",
@@ -5221,7 +5231,7 @@
     "country": "US",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "168306186662456802",
+    "guestId": "168314821709510297",
     "hasCommunityMemberships": "false",
     "language": "en",
     "oneFactorLoginEligibility": {
