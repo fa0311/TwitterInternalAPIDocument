@@ -670,3 +670,16 @@
 - responsive_web_recent_searches_events_enabled<br>
 - responsive_web_recent_searches_topics_enabled<br>
 - responsive_web_recent_searches_users_enabled<br>
+## 2023/05/02<br>
+### API<br>
+#### add<br>
+- PrimaryContentQuery<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- longform_notetweets_inline_media_enabled<br>
+- responsive_web_ocf_reportflow_promoted_enabled<br>
+- super_follow_onboarding_application_perks_enabled<br>
+#### remove<br>
+- None<br>
