@@ -5230,7 +5230,7 @@
     "country": "US",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "168323466089075969",
+    "guestId": "168332100323111929",
     "hasCommunityMemberships": "false",
     "language": "en",
     "oneFactorLoginEligibility": {
@@ -5265,12 +5265,6 @@
     "updates": {
       "isLoaded": "false",
       "isLoading": "false"
-    }
-  },
-  "ads": {
-    "typeahead": {
-      "targetingLocation": {},
-      "forecastAudience": {}
     }
   }
 }
