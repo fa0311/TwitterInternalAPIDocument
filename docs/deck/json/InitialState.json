@@ -4826,7 +4826,8 @@
             "share_tweet_via",
             "view_hidden_replies",
             "view_tweet_activity",
-            "vote_on_poll"
+            "vote_on_poll",
+            "highlight"
           ]
         },
         "tweet_limited_actions_config_community_tweet_community_not_found": {
@@ -4849,7 +4850,8 @@
             "share_tweet_via",
             "view_hidden_replies",
             "view_tweet_activity",
-            "vote_on_poll"
+            "vote_on_poll",
+            "highlight"
           ]
         },
         "tweet_limited_actions_config_community_tweet_community_suspended": {
@@ -4872,7 +4874,8 @@
             "share_tweet_via",
             "view_hidden_replies",
             "view_tweet_activity",
-            "vote_on_poll"
+            "vote_on_poll",
+            "highlight"
           ]
         },
         "tweet_limited_actions_config_community_tweet_hidden": {
@@ -4894,14 +4897,16 @@
             "share_tweet_via",
             "view_hidden_replies",
             "view_tweet_activity",
-            "vote_on_poll"
+            "vote_on_poll",
+            "highlight"
           ]
         },
         "tweet_limited_actions_config_community_tweet_member": {
           "value": [
             "embed",
             "pin_to_profile",
-            "retweet"
+            "retweet",
+            "highlight"
           ]
         },
         "tweet_limited_actions_config_community_tweet_member_removed": {
@@ -4924,7 +4929,8 @@
             "share_tweet_via",
             "view_hidden_replies",
             "view_tweet_activity",
-            "vote_on_poll"
+            "vote_on_poll",
+            "highlight"
           ]
         },
         "tweet_limited_actions_config_community_tweet_non_member": {
@@ -4937,7 +4943,8 @@
             "reply_down_vote",
             "retweet",
             "share_tweet_via",
-            "vote_on_poll"
+            "vote_on_poll",
+            "highlight"
           ]
         },
         "tweet_limited_actions_config_disable_state_media_autoplay": {
@@ -4974,7 +4981,8 @@
             "copy_link",
             "send_via_dm",
             "like",
-            "embed"
+            "embed",
+            "highlight"
           ]
         },
         "tweet_limited_actions_config_limit_trusted_friends_tweet": {
@@ -5001,7 +5009,8 @@
             "pin_to_profile",
             "view_tweet_activity",
             "share_tweet_via",
-            "copy_link"
+            "copy_link",
+            "highlight"
           ]
         },
         "tweet_limited_actions_config_skip_tweet_detail": {
@@ -5143,20 +5152,10 @@
           "value": "false"
         }
       },
-      "impression_pointers": {
-        "web_video_safari_hlsjs_enabled": [
-          "web_video_safari_hlsjs_16262"
-        ]
-      },
-      "impressions": {
-        "web_video_safari_hlsjs_16262": {
-          "key": "web_video_safari_hlsjs_16262",
-          "bucket": "control",
-          "version": "1"
-        }
-      },
+      "impression_pointers": {},
+      "impressions": {},
       "keysRead": {},
-      "settingsVersion": "de701716b8b9a3327fb7327fda0eb37c"
+      "settingsVersion": "9526a098f9044270964268df582f787d"
     },
     "debug": {},
     "featureSetToken": "5dfe3def7f85c58da485a309fea16bf330112ca4",
@@ -5231,7 +5230,7 @@
     "country": "US",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "168314821709510297",
+    "guestId": "168332100323111929",
     "hasCommunityMemberships": "false",
     "language": "en",
     "oneFactorLoginEligibility": {
@@ -5266,12 +5265,6 @@
     "updates": {
       "isLoaded": "false",
       "isLoading": "false"
-    }
-  },
-  "ads": {
-    "typeahead": {
-      "targetingLocation": {},
-      "forecastAudience": {}
     }
   }
 }
