@@ -4600,16 +4600,16 @@
           "value": "true"
         },
         "spaces_2022_h2_reactions_web_send": {
-          "value": "false"
+          "value": "true"
         },
         "spaces_2022_h2_spacebar_use_mock_data": {
           "value": "false"
         },
         "spaces_2022_h2_spacebar_web_sidebar": {
-          "value": "false"
+          "value": "true"
         },
         "spaces_2022_h2_spacebar_web_topnavbar": {
-          "value": "disabled"
+          "value": "purple"
         },
         "spaces_2022_h2_spacebar_web_use_topnavbar": {
           "value": "true"
@@ -5146,7 +5146,7 @@
           "value": "false"
         },
         "web_video_safari_hlsjs_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "web_video_transcribed_captions_enabled": {
           "value": "false"
@@ -5155,7 +5155,7 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "9526a098f9044270964268df582f787d"
+      "settingsVersion": "4e6d4da1c3cd1985a769b53ea388191a"
     },
     "debug": {},
     "featureSetToken": "5dfe3def7f85c58da485a309fea16bf330112ca4",
@@ -5230,7 +5230,7 @@
     "country": "US",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "168332100323111929",
+    "guestId": "168340752778724823",
     "hasCommunityMemberships": "false",
     "language": "en",
     "oneFactorLoginEligibility": {
@@ -5265,6 +5265,12 @@
     "updates": {
       "isLoaded": "false",
       "isLoading": "false"
+    }
+  },
+  "ads": {
+    "typeahead": {
+      "targetingLocation": {},
+      "forecastAudience": {}
     }
   }
 }
