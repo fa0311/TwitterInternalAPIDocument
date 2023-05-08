@@ -716,3 +716,14 @@
 - responsive_web_birdwatch_rating_mini_survey_enabled<br>
 - responsive_web_birdwatch_traffic_lights_enabled<br>
 - responsive_web_secret_dms<br>
+## 2023/05/08<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- spaces_2022_h2_spacebar_web_use_topnavbar<br>
