@@ -3558,8 +3558,8 @@
       "features": {}
     },
     "managementListsPageTimelineQuery": {
-      "url": "https://twitter.com/i/api/graphql/WGRyTk4MvmZJArjT_ZpdWA/managementListsPageTimelineQuery",
-      "queryId": "WGRyTk4MvmZJArjT_ZpdWA",
+      "url": "https://twitter.com/i/api/graphql/P5eX9gk6uk074s4L4G1X6A/managementListsPageTimelineQuery",
+      "queryId": "P5eX9gk6uk074s4L4G1X6A",
       "method": "GET",
       "features": {
         "blue_business_profile_image_shape_enabled": true,
@@ -3831,6 +3831,12 @@
     "moderatorsSliceTimeline_Query": {
       "url": "https://twitter.com/i/api/graphql/0MgU66yLfLlhaNQDFfQwzA/moderatorsSliceTimeline_Query",
       "queryId": "0MgU66yLfLlhaNQDFfQwzA",
+      "method": "GET",
+      "features": {}
+    },
+    "QuickPromoteLiteRecommendedKeywordsQuery": {
+      "url": "https://twitter.com/i/api/graphql/WQ2-bNb5RVhDy2g1Dc3DtA/QuickPromoteLiteRecommendedKeywordsQuery",
+      "queryId": "WQ2-bNb5RVhDy2g1Dc3DtA",
       "method": "GET",
       "features": {}
     },
@@ -4227,8 +4233,8 @@
       }
     },
     "combinedListsPageTimelineQuery": {
-      "url": "https://twitter.com/i/api/graphql/3kLI3nHzQbZvxiEy0x4wvw/combinedListsPageTimelineQuery",
-      "queryId": "3kLI3nHzQbZvxiEy0x4wvw",
+      "url": "https://twitter.com/i/api/graphql/NghAx8ZgL1H3FSsc40AQ-A/combinedListsPageTimelineQuery",
+      "queryId": "NghAx8ZgL1H3FSsc40AQ-A",
       "method": "GET",
       "features": {
         "blue_business_profile_image_shape_enabled": true,
