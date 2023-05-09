@@ -86,7 +86,7 @@
       "errors": {},
       "fetchStatus": {}
     },
-    "legacyAndUnifiedCards": {
+    "emailValidity": {
       "entities": {},
       "errors": {},
       "fetchStatus": {}
@@ -101,17 +101,17 @@
       "errors": {},
       "fetchStatus": {}
     },
-    "emailValidity": {
-      "entities": {},
-      "errors": {},
-      "fetchStatus": {}
-    },
     "passwordValidity": {
       "entities": {},
       "errors": {},
       "fetchStatus": {}
     },
     "phoneNumberValidity": {
+      "entities": {},
+      "errors": {},
+      "fetchStatus": {}
+    },
+    "legacyAndUnifiedCards": {
       "entities": {},
       "errors": {},
       "fetchStatus": {}
@@ -1876,7 +1876,7 @@
         "value": "false"
       },
       "responsive_web_user_badge_education_get_verified_button_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "responsive_web_user_badge_education_redesign_enabled": {
         "value": "true"
@@ -2120,13 +2120,10 @@
         "value": "false"
       },
       "spaces_2022_h2_spacebar_web_sidebar": {
-        "value": "false"
+        "value": "true"
       },
       "spaces_2022_h2_spacebar_web_topnavbar": {
-        "value": "disabled"
-      },
-      "spaces_2022_h2_spacebar_web_use_topnavbar": {
-        "value": "true"
+        "value": "purple"
       },
       "spaces_2022_h2_spaces_communities": {
         "value": "true"
@@ -4687,9 +4684,6 @@
         "spaces_2022_h2_spacebar_web_topnavbar": {
           "value": "purple"
         },
-        "spaces_2022_h2_spacebar_web_use_topnavbar": {
-          "value": "true"
-        },
         "spaces_2022_h2_spaces_communities": {
           "value": "true"
         },
@@ -5249,10 +5243,10 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "4d7072e70e3d69bb54bb91341c7c3b22"
+      "settingsVersion": "b62d448dd8b64026ced7c2a0a2b1065d"
     },
     "debug": {},
-    "featureSetToken": "1312946ba808a83da5bccc4a337c6796f68ae98d",
+    "featureSetToken": "5905d9c95e4dbd6a5237badbebc7f0388703164b",
     "isLoaded": "true",
     "isLoading": "false"
   },
@@ -5324,7 +5318,7 @@
     "country": "US",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "168349362908001207",
+    "guestId": "168358000012302079",
     "hasCommunityMemberships": "false",
     "language": "en",
     "oneFactorLoginEligibility": {
