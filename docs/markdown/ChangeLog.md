@@ -727,3 +727,14 @@
 - None<br>
 #### remove<br>
 - spaces_2022_h2_spacebar_web_use_topnavbar<br>
+## 2023/05/09<br>
+### API<br>
+#### add<br>
+- QuickPromoteLiteRecommendedKeywordsQuery<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- blue_business_affiliate_badge_consumption_ui_enabled<br>
