@@ -738,3 +738,14 @@
 - None<br>
 #### remove<br>
 - blue_business_affiliate_badge_consumption_ui_enabled<br>
+## 2023/05/10<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- responsive_web_birdwatch_note_limit_enabled<br>
+#### remove<br>
+- None<br>
