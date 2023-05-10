@@ -86,7 +86,12 @@
       "errors": {},
       "fetchStatus": {}
     },
-    "emailValidity": {
+    "liveEvents": {
+      "entities": {},
+      "errors": {},
+      "fetchStatus": {}
+    },
+    "legacyAndUnifiedCards": {
       "entities": {},
       "errors": {},
       "fetchStatus": {}
@@ -101,22 +106,17 @@
       "errors": {},
       "fetchStatus": {}
     },
+    "emailValidity": {
+      "entities": {},
+      "errors": {},
+      "fetchStatus": {}
+    },
     "passwordValidity": {
       "entities": {},
       "errors": {},
       "fetchStatus": {}
     },
     "phoneNumberValidity": {
-      "entities": {},
-      "errors": {},
-      "fetchStatus": {}
-    },
-    "legacyAndUnifiedCards": {
-      "entities": {},
-      "errors": {},
-      "fetchStatus": {}
-    },
-    "liveEvents": {
       "entities": {},
       "errors": {},
       "fetchStatus": {}
@@ -420,9 +420,6 @@
       "Arkose_use_invisible_challenge_key": {
         "value": "false"
       },
-      "blue_business_affiliate_badge_consumption_ui_enabled": {
-        "value": "true"
-      },
       "blue_business_affiliates_list_consumption_ui_enabled": {
         "value": "true"
       },
@@ -687,7 +684,7 @@
         ]
       },
       "dm_reactions_emoji_picker_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "dm_replies_ui_rendering_enabled": {
         "value": "false"
@@ -2979,9 +2976,6 @@
         "Arkose_use_invisible_challenge_key": {
           "value": "false"
         },
-        "blue_business_affiliate_badge_consumption_ui_enabled": {
-          "value": "true"
-        },
         "blue_business_affiliates_list_consumption_ui_enabled": {
           "value": "true"
         },
@@ -3246,7 +3240,7 @@
           ]
         },
         "dm_reactions_emoji_picker_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "dm_replies_ui_rendering_enabled": {
           "value": "false"
@@ -5246,7 +5240,7 @@
       "settingsVersion": "b62d448dd8b64026ced7c2a0a2b1065d"
     },
     "debug": {},
-    "featureSetToken": "5905d9c95e4dbd6a5237badbebc7f0388703164b",
+    "featureSetToken": "272fa2c1c23594f134952f1faddc8b045291e73b",
     "isLoaded": "true",
     "isLoading": "false"
   },
@@ -5318,7 +5312,7 @@
     "country": "US",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "168358000012302079",
+    "guestId": "168366638655841618",
     "hasCommunityMemberships": "false",
     "language": "en",
     "oneFactorLoginEligibility": {

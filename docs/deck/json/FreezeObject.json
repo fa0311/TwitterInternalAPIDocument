@@ -148,7 +148,7 @@
     "AudioModule": "AudioModule"
   },
   {
-    "...Xd": "_",
+    "...qd": "_",
     "ColumnFromPath": "ColumnFromPath",
     "ColumnTimelineAdapter": "ColumnTimelineAdapter"
   },
@@ -256,6 +256,7 @@
     "ShareTweetVia": "ShareTweetVia",
     "ShowRetweetActionMenu": "ShowRetweetActionMenu",
     "PinToProfile": "PinToProfile",
+    "Highlight": "Highlight",
     "UnpinCommunityTweet": "unpin_community_tweet",
     "Unretweet": "unretweet",
     "ViewHiddenReplies": "ViewHiddenReplies",
@@ -273,6 +274,7 @@
     "lists_add_remove": "ListsAddRemove",
     "mute_conversation": "MuteConversation",
     "pin_to_profile": "PinToProfile",
+    "highlight": "Highlight",
     "quote_tweet": "QuoteTweet",
     "remove_from_community": "RemoveFromCommunity",
     "reply": "Reply",
@@ -447,7 +449,8 @@
   },
   {
     "HOME": "home",
-    "HOME_LATEST": "home_latest"
+    "HOME_LATEST": "home_latest",
+    "CREATOR_SUBSCRIPTIONS": "creator_subscriptions"
   },
   {
     "LIST": "list"
@@ -456,13 +459,17 @@
     "...d": "_",
     "...a": "_"
   },
+  "{[r.HOME]:\"!0\",[r.HOME_LATEST]:\"!0\",[r.CREATOR_SUBSCRIPTIONS]:\"super_follow_subscriptions_home_timeline_tab_sticky_enabled\",[r.LIST]:\"!1\"}",
   {
     "type": "r.HOME"
   },
   {
     "type": "r.HOME_LATEST"
   },
-  "{[r.HOME]:\"home\",[r.HOME_LATEST]:\"latest\",[r.LIST]:\"pinned_list\"}",
+  {
+    "type": "r.CREATOR_SUBSCRIPTIONS"
+  },
+  "{[r.HOME]:\"home\",[r.HOME_LATEST]:\"latest\",[r.LIST]:\"pinned_list\",[r.CREATOR_SUBSCRIPTIONS]:\"subscribed\"}",
   {
     "ContinueWith": "continue_with",
     "LogIn": "login",
@@ -928,10 +935,11 @@
     "HASHTAG": "hashtag"
   },
   {
+    "Event": "event",
+    "List": "list",
     "Keyword": "keyword",
-    "User": "user",
     "Topic": "topic",
-    "Event": "event"
+    "User": "user"
   },
   {
     "SavedSearch": "savedSearch",
@@ -1325,6 +1333,11 @@
     "MUTUAL_FRIENDS": "mutual_friends"
   },
   {
+    "UNINITIATED": "UNINITIATED",
+    "EXISTING": "EXISTING",
+    "DEVICE_NOT_A_MEMBER": "DEVICE_NOT_A_MEMBER"
+  },
+  {
     "REQUEST": "rweb/directMessages/SEARCH_REQUEST",
     "SUCCESS": "rweb/directMessages/SEARCH_SUCCESS",
     "FAILURE": "rweb/directMessages/SEARCH_FAILURE"
@@ -1445,7 +1458,21 @@
     "Short": "short",
     "Medium": "medium",
     "Long": "long",
-    "XLong": "xlong"
+    "XLong": "xlong",
+    "L90to140s": "l90to140s",
+    "L140to300s": "l140to300s",
+    "L300to600s": "l300to600s",
+    "L600to1200s": "l600to1200s",
+    "L1200to1800s": "l1200to1800s",
+    "L1800to2700s": "l1800to2700s",
+    "L2700to3600s": "l2700to3600s",
+    "L3600to4500s": "l3600to4500s",
+    "L4500to5400s": "l4500to5400s",
+    "L5400to6300s": "l5400to6300s",
+    "L6300to7200s": "l6300to7200s",
+    "L7200to10800s": "l7200to10800s",
+    "L10800to14400s": "l10800to14400s",
+    "LGT14400s": "lgt14400s"
   },
   {
     "REQUEST": "rweb/ocf/FETCH_REQUEST",
@@ -1618,12 +1645,14 @@
   {
     "All": "all",
     "Mentions": "mentions",
-    "Verified": "verified"
+    "Verified": "verified",
+    "Subscribers": "subscribers"
   },
   {
     "default": "default",
     "with_replies": "with_replies",
-    "superfollows": "superfollows"
+    "superfollows": "superfollows",
+    "highlights": "highlights"
   },
   {
     "REQUEST": "rweb/userClaims/FETCH_CLAIMS_REQUEST",
@@ -2257,6 +2286,23 @@
     "JOINED": "Joined"
   },
   {
+    "Bold": "Bold",
+    "Italic": "Italic"
+  },
+  {
+    "Bold": "BOLD",
+    "Italic": "ITALIC"
+  },
+  {
+    "MUTABLE": "MUTABLE",
+    "IMMUTABLE": "IMMUTABLE",
+    "SEGMENTED": "SEGMENTED"
+  },
+  {
+    "TWEMOJI": "TWEMOJI",
+    "INLINE_IMAGE": "INLINE_IMAGE"
+  },
+  {
     "testBoolean": "!1",
     "testNumber": "1",
     "testViewCountShow": "!0"
@@ -2369,9 +2415,9 @@
       "bold": "!0",
       "fontSize": "subtext3"
     },
-    "alt": "k",
-    "gif": "k",
-    "hd": "k",
+    "alt": "M",
+    "gif": "M",
+    "hd": "M",
     "likedByAuthor": {
       "backgroundColor": "gray50",
       "bold": "!1",
@@ -2389,22 +2435,6 @@
   {
     "CashtagClick": "cashtag_click",
     "HashtagClick": "hashtag_click"
-  },
-  {
-    "MUTABLE": "MUTABLE",
-    "IMMUTABLE": "IMMUTABLE",
-    "SEGMENTED": "SEGMENTED"
-  },
-  {
-    "TWEMOJI": "TWEMOJI"
-  },
-  {
-    "Bold": "Bold",
-    "Italic": "Italic"
-  },
-  {
-    "Bold": "BOLD",
-    "Italic": "ITALIC"
   },
   {
     "circle": "circle",
@@ -2736,7 +2766,7 @@
     "borderWidths": "c",
     "borderWidthsPx": "u",
     "breakpoints": "r",
-    "componentDimensions": "M",
+    "componentDimensions": "k",
     "componentZIndices": "o",
     "fontSizes": "w",
     "fontSizesPx": "y",
@@ -2772,11 +2802,11 @@
     "INVALID_RES_STATUS": -1
   },
   {
-    "0": "D.INTERNAL_ERROR",
-    "1": "D.INVALID_MEDIA",
-    "2": "D.FILE_TOO_LARGE",
-    "3": "D.UNSUPPORTED_MEDIA",
-    "4": "D.TIMEOUT"
+    "0": "g.INTERNAL_ERROR",
+    "1": "g.INVALID_MEDIA",
+    "2": "g.FILE_TOO_LARGE",
+    "3": "g.UNSUPPORTED_MEDIA",
+    "4": "g.TIMEOUT"
   },
   {
     "RESET": "0",
@@ -3445,7 +3475,7 @@
     "yellow0": "yellow500",
     "gray0": "gray500"
   },
-  "{\"ActionsBar\":\"y.Z\",\"ActionMenu\":\"function()\"{\"Icon\":\"e\",\"isDisabled\":\"t\",\"items\":\"n\",\"onOpen\":\"o\"}{\"const r=i.useCallback()\"{\"items\":\"n\",\"onCloseRequested\":\"e\"}{\"Icon\":\"e\",\"isDisabled\":\"t\",\"onClick\":\"o\",\"renderActionMenu\":\"r\"}},\"CallToAction\":\"a.ZP\",\"EditCallout\":\"f.Z\",\"Education\":\"C.Z\",\"HighlightedUserLabel\":\"c.Z\",\"Media\":\"T.Z\",\"Place\":\"r.ZP\",\"PromotedDetails\":\"u.Z\",\"PromotedUserProfileCard\":\"Z\",\"ReplyContext\":\"P.ZP\",\"RichContent\":\"L.Z\",\"SocialContext\":\"w.Z\",\"Text\":\"A.Z\",\"Tombstone\":\"g.Z\",\"Timestamp\":\"m.Z\",\"UserAvatar\":\"D.Z\",\"UserFollowIndicator\":\"N.Z\",\"UserName\":\"U.Z\",\"VibePill\":\"F.Z\"}",
+  "{\"ActionsBar\":\"f.Z\",\"ActionMenu\":\"function()\"{\"Icon\":\"e\",\"isDisabled\":\"t\",\"items\":\"n\",\"onOpen\":\"i\"}{\"const r=o.useCallback()\"{\"items\":\"n\",\"onCloseRequested\":\"e\"}{\"Icon\":\"e\",\"isDisabled\":\"t\",\"onClick\":\"i\",\"renderActionMenu\":\"r\"}},\"CallToAction\":\"a.ZP\",\"EditCallout\":\"y.Z\",\"Education\":\"C.Z\",\"HighlightedUserLabel\":\"c.Z\",\"Media\":\"T.Z\",\"Place\":\"r.ZP\",\"PromotedDetails\":\"u.Z\",\"PromotedUserProfileCard\":\"Z\",\"ReplyContext\":\"P.ZP\",\"RichContent\":\"L.Z\",\"SocialContext\":\"w.Z\",\"Text\":\"A.Z\",\"Tombstone\":\"g.Z\",\"Timestamp\":\"m.Z\",\"UserAvatar\":\"D.Z\",\"UserFollowIndicator\":\"N.Z\",\"UserName\":\"U.Z\",\"VibePill\":\"F.Z\"}",
   {
     "Bird": "Bird",
     "Community": "Community",
@@ -3536,7 +3566,8 @@
     "UserCompact": "UserCompact",
     "UserConcise": "UserConcise",
     "UserDetailed": "UserDetailed",
-    "PendingFollowUser": "PendingFollowUser"
+    "PendingFollowUser": "PendingFollowUser",
+    "SubscribableUser": "SubscribableUser"
   },
   {
     "ARROW_RIGHT": "ARROW_RIGHT",
@@ -3603,10 +3634,6 @@
     "Critical": "critical",
     "OnDemand": "ondemand",
     "Preload": "preload"
-  },
-  {
-    "CLIENT": "CLIENT",
-    "URT": "URT"
   },
   {
     "Cell": "Cell",
@@ -3983,7 +4010,8 @@
     "UserCompact": "UserCompact",
     "UserConcise": "UserConcise",
     "UserDetailed": "UserDetailed",
-    "PendingFollowUser": "PendingFollowUser"
+    "PendingFollowUser": "PendingFollowUser",
+    "SubscribableUser": "SubscribableUser"
   },
   {
     "INITIAL": "initial",
@@ -4122,6 +4150,11 @@
     "FAILURE": "rweb/birdwatchNotes/FETCH_DATA_FAILURE"
   },
   {
+    "REQUEST": "rweb/birdwatchNotes/FETCH_CAN_BE_MEDIA_NOTE_REQUEST",
+    "SUCCESS": "rweb/birdwatchNotes/FETCH_CAN_BE_MEDIA_NOTE_SUCCESS",
+    "FAILURE": "rweb/birdwatchNotes/FETCH_CAN_BE_MEDIA_NOTE_FAILURE"
+  },
+  {
     "REQUEST": "rweb/birdwatchNotes/FETCH_ALIAS_REQUEST",
     "SUCCESS": "rweb/birdwatchNotes/FETCH_ALIAS_SUCCESS",
     "FAILURE": "rweb/birdwatchNotes/FETCH_ALIAS_FAILURE"
@@ -4227,7 +4260,7 @@
     }
   },
   "{[o.sj.AMPLIFY]:{\"conversionHandler\":\"()\"{\"cardId\":\"e\",\"cardType\":\"t\",\"converterOptions\":\"a\",\"data\":\"n\"}{\"const r=()(0,l.FL)\",s=parseInt(n,\\\"image_value\\\",\\\"player_image_original\\\")/parseInt(0,l.SIn,\\\"string_value\\\",\\\"player_width\\\",10),c=(0,l.SIn,\\\"string_value\\\",\\\"player_height\\\",10)(0,l.SI),d=(n,\\\"string_value\\\",\\\"content_duration_seconds\\\")(0,l.SI),u=(n,\\\"string_value\\\",\\\"title\\\")(0,l.SI);return{\"cardState\":\"o.uW.DEFAULT\",\"layout\":{[o.uW.DEFAULT]:{\"size\":\"large\"},[o.uW.CONDENSED]:{\"size\":\"small\"},[o.uW.STATIC]:{\"size\":\"large\"}},\"card\":{\"card_name\":\"t\",\"on_visibility\":{\"scribe\":\"show\"},\"id\":\"e\",\"components\":{[o.uW.DEFAULT]:d||u?[o.Fw.MEDIA,o.Fw.DETAILS]:[o.Fw.MEDIA],[o.uW.STATIC]:d||u?[o.Fw.MEDIA_STATIC,o.Fw.DETAILS_STATIC]:[o.Fw.MEDIA_STATIC]},\"destinations\":{[o.Fw.DESTINATION_STATIC]:{\"type\":\"o._g.BROWSER\",\"data\":{\"url_data\":{\"url\":a.tweetPermalink||o.$H},\"scribe\":\"open_link\",\"promoted_log\":\"i.YE.CARD_URL_CLICK\"}}},\"media_entities\":{[o.Fw.IMAGE_ENTITY]:\"()(0,l.WW)\"{}{\"type\":\"video\",\"aspect_ratio\":\"s\",\"content_id\":\"()(0,l.SI)\",\"...c?\":{\"duration_ms\":1e3*parseInt()}:\"null\",\"vmap_url\":\"()(0,l.SI)\",\"poster_image\":\"r\",\"publisher_id\":(n,\\\"string_value\\\",\\\"amplify_url_vmap\\\")(0,l.SI)||a.tweetUserId,\"variants\":[]}},\"components_data\":{[o.Fw.MEDIA]:{\"type\":\"o.Qe.MEDIA\",\"data\":{\"id\":\"o.Fw.VIDEO_ENTITY\"}},[o.Fw.MEDIA_STATIC]:{\"type\":\"o.Qe.MEDIA\",\"data\":{\"id\":\"o.Fw.IMAGE_ENTITY\",\"destination\":\"o.Fw.DESTINATION_STATIC\",\"overlay\":{\"type\":\"o._5.PLAY\"}}},[o.Fw.DETAILS]:{\"type\":\"o.Qe.DETAILS\",\"data\":{\"description\":\"u?\"{\"content\":\"u\"}:\"void 0\",\"title\":\"d?\"{\"content\":\"d\"}:\"void 0\"}},[o.Fw.DETAILS_STATIC]:{\"type\":\"o.Qe.DETAILS\",\"data\":{\"description\":\"u?\"{\"content\":\"u\"}:\"void 0\",\"destination\":\"o.Fw.DESTINATION_STATIC\",\"title\":\"d?\"{\"content\":\"d\"}:\"void 0\"}}}}}},\"shouldRenderCard\":e=>()(0,l.BY)},[o.sj.APP]:{\"conversionHandler\":\"()\"{\"cardId\":\"e\",\"cardType\":\"t\",\"data\":\"a\"}{\"const n=()(0,l.FL)\",s=(a,\\\"image_value\\\",\\\"thumbnail_original\\\")(0,l.SI),c=(a,\\\"string_value\\\",\\\"description\\\")(0,l.SI),d=(a,\\\"string_value\\\",\\\"app_star_rating\\\")(0,l.SI),\"u=c&&d?r.v.renderRatingsLabel(a,\\\"string_value\\\",\\\"app_num_ratings\\\")\"{\"appStarRating\":\"c\",\"appNumRatings\":\"d\"}\"0\",l.SIa,\"string_value\",\"card_url\"{\"cardState\":\"o.uW.DEFAULT\",\"layout\":{[o.uW.DEFAULT]:{\"size\":\"small\"},[o.uW.CONDENSED]:{\"size\":\"small\"}},\"card\":{\"card_name\":\"t\",\"on_visibility\":{\"scribe\":\"show\"},\"id\":\"e\",\"components\":{[o.uW.DEFAULT]:[o.Fw.MEDIA,o.Fw.DETAILS]},\"destinations\":{[o.Fw.DESTINATION]:{\"type\":\"o._g.BROWSER\",\"data\":{\"url_data\":{\"url\":\"()(0,l.SI)\",\"...u?null\":{\"vanity\":\"p\"}},\"scribe\":\"open_link\",\"promoted_log\":\"i.YE.CARD_URL_CLICK\"}}},\"media_entities\":{\"...n?\":{[o.Fw.IMAGE_ENTITY]:\"()(0,l.WW)\"}:\"null\"},\"components_data\":{[o.Fw.MEDIA]:{\"type\":\"o.Qe.MEDIA\",\"data\":{\"id\":n?o.Fw.IMAGE_ENTITY:\"null\",\"aspect_ratio\":\"1\",\"destination\":\"o.Fw.DESTINATION\"}},[o.Fw.DETAILS]:{\"type\":\"o.Qe.DETAILS\",\"data\":{\"description\":\"s?\"{\"content\":\"s\"}:\"void 0\",\"destination\":\"o.Fw.DESTINATION\",\"footer\":\"u\",\"title\":{\"content\":\"()(0,l.SI)\"}}}}}}},\"shouldRenderCard\":e=>()(0,l.BY)},[o.sj.AUDIOSPACE]:{\"conversionHandler\":\"()\"{\"cardId\":\"e\",\"cardType\":\"t\",\"converterOptions\":\"a\",\"data\":\"n\"}{\"cardState\":\"o.uW.DEFAULT\",\"layout\":{[o.uW.DEFAULT]:{\"size\":\"large\"},[o.uW.CONDENSED]:{\"size\":\"large\"},[o.uW.STATIC]:{\"size\":\"large\"}},\"card\":{\"card_name\":\"t\",\"on_visibility\":{\"scribe\":\"show\"},\"id\":\"e\",\"components\":{[o.uW.DEFAULT]:[o.Fw.SPACE],[o.uW.STATIC]:[o.Fw.SPACE]},\"destinations\":{},\"media_entities\":{},\"components_data\":{[o.Fw.SPACE]:{\"type\":\"space\",\"data\":{\"id\":\"()(0,l.SI)\",\"clip_metadata\":\"(n,\\\"string_value\\\",\\\"id\\\")(0,l.SI)\"}}}}}},[o.sj.BROADCAST]:{\"conversionHandler\":\"()\"{\"cardId\":\"e\",\"cardType\":\"t\",\"data\":\"a\",\"users\":\"n\"}{\"const p=()(0,l.N8)\",m=p&&n[p.id_str],_=(a,\\\"user_value\\\",\\\"site\\\")(0,l.SI),E=(a,\\\"string_value\\\",\\\"broadcaster_display_name\\\")(0,l.SI),g=E===u,h=(a,\\\"string_value\\\",\\\"broadcast_state\\\")(0,l.FL),b=(a,\\\"image_value\\\",\\\"broadcast_thumbnail_original\\\")(0,l.FL)||d,\"y=g?b\":\"h\",I=(a,\\\"image_value\\\",\\\"broadcast_pre_live_slate\\\")(0,l.SI),\"w=g&&I?r.v.renderStartingTimeLabel(a,\\\"string_value\\\",\\\"broadcast_scheduled_start_time\\\")\":\"void 0\",T=s.Z.theme.aspectRatios.landscape,f=Math.max(I);return{\"cardState\":\"o.uW.DEFAULT\",\"layout\":{[o.uW.DEFAULT]:{\"size\":\"large\"},[o.uW.CONDENSED]:{\"size\":\"small\"},[o.uW.STATIC]:{\"size\":y?\"large\":\"small\"}},\"card\":{\"card_name\":\"t\",\"get_fetch_interval_for_updates\":{[o.uW.DEFAULT]:()=>\"NOT_STARTED\"===E&&parseInt()<=Date.now(I,10)?{\"...c.oQ\":\"_\",\"initialPoll\":\"!0\"}:\"c.oQ\"},\"on_visibility\":{\"scribe\":\"show\"},\"id\":\"e\",\"components\":{[o.uW.DEFAULT]:[g?o.Fw.MEDIA_SECONDARY:\"o.Fw.MEDIA\",o.Fw.DETAILS],[o.uW.STATIC]:[o.Fw.MEDIA_SECONDARY,o.Fw.DETAILS]},\"destinations\":{[o.Fw.DESTINATION]:{\"type\":\"o._g.BROADCAST\",\"data\":{\"broadcast_data\":{\"id\":\"()(0,l.SI)\"},\"scribe\":\"open_link\",\"promoted_log\":\"i.YE.CARD_URL_CLICK\"}}},\"media_entities\":{\"...y?\":{[o.Fw.IMAGE_ENTITY]:\"()(0,l.WW)\"}:\"null\",[o.Fw.VIDEO_ENTITY]:{\"type\":\"live_broadcast\",\"aspect_ratio\":\"f\",\"broadcast_id\":\"()(0,l.SI)\",\"content_id\":\"(a,\\\"string_value\\\",\\\"broadcast_id\\\")(0,l.SI)\",\"destination\":\"o.Fw.DESTINATION\",\"...y?\":{\"poster_image\":\"y\"}:\"null\",\"timecode\":()(0,l.SI)||(a,\\\"string_value\\\",\\\"broadcast_timecode\\\")(0,l.SI)}},\"components_data\":{[o.Fw.MEDIA]:{\"type\":\"o.Qe.MEDIA\",\"data\":{\"id\":\"o.Fw.VIDEO_ENTITY\",\"aspect_ratio\":\"f\"}},[o.Fw.MEDIA_SECONDARY]:{\"type\":\"o.Qe.MEDIA\",\"data\":{\"id\":y?o.Fw.IMAGE_ENTITY:\"null\",\"aspect_ratio\":\"T\",\"destination\":\"o.Fw.DESTINATION\",\"overlay\":\"g?w?\"{\"type\":\"o._5.LABEL\",\"text\":\"w\"}:void 0:{\"type\":\"o._5.PLAY\"}}},[o.Fw.DETAILS]:{\"type\":\"o.Qe.DETAILS\",\"data\":{\"destination\":\"o.Fw.DESTINATION\",\"...m?\":{\"attribution\":\"m\"}:{\"category\":{\"content\":\"_\"}},\"title\":{\"content\":\"()(0,l.SI)\"}}}}}}},\"shouldRenderCard\":e=>()(0,l.BY)},[o.sj.DIRECT_STORE_LINK_APP]:{\"conversionHandler\":\"()\"{\"cardId\":\"e\",\"cardType\":\"t\",\"data\":\"a\"}{\"const n=()(0,l.FL)\",s=(a,\\\"image_value\\\",\\\"thumbnail_original\\\")(0,l.SI),c=(a,\\\"string_value\\\",\\\"description\\\")(0,l.SI),d=(a,\\\"string_value\\\",\\\"app_star_rating\\\")(0,l.SI),\"u=c&&d?r.v.renderRatingsLabel(a,\\\"string_value\\\",\\\"app_num_ratings\\\")\"{\"appStarRating\":\"c\",\"appNumRatings\":\"d\"}\"0\",l.SIa,\"string_value\",\"card_url\"{\"cardState\":\"o.uW.DEFAULT\",\"layout\":{[o.uW.DEFAULT]:{\"size\":\"small\"},[o.uW.CONDENSED]:{\"size\":\"small\"}},\"card\":{\"card_name\":\"t\",\"on_visibility\":{\"scribe\":\"show\"},\"id\":\"e\",\"components\":{[o.uW.DEFAULT]:[o.Fw.MEDIA,o.Fw.DETAILS]},\"destinations\":{[o.Fw.DESTINATION]:{\"type\":\"o._g.BROWSER\",\"data\":{\"url_data\":{\"url\":\"()(0,l.SI)\",\"...u?null\":{\"vanity\":\"p\"}},\"scribe\":\"open_link\",\"promoted_log\":\"i.YE.CARD_URL_CLICK\"}}},\"media_entities\":{\"...n?\":{[o.Fw.IMAGE_ENTITY]:\"()(0,l.WW)\"}:\"null\"},\"components_data\":{[o.Fw.MEDIA]:{\"type\":\"o.Qe.MEDIA\",\"data\":{\"id\":n?o.Fw.IMAGE_ENTITY:\"null\",\"aspect_ratio\":\"1\",\"destination\":\"o.Fw.DESTINATION\"}},[o.Fw.DETAILS]:{\"type\":\"o.Qe.DETAILS\",\"data\":{\"description\":\"s?\"{\"content\":\"s\"}:\"void 0\",\"destination\":\"o.Fw.DESTINATION\",\"footer\":\"u\",\"title\":{\"content\":\"()(0,l.SI)\"}}}}}}},\"shouldRenderCard\":e=>()(0,l.BY)},[o.sj.IMAGE_DIRECT_MESSAGE]:{\"conversionHandler\":\"()\"{\"cardId\":\"e\",\"cardType\":\"t\",\"converterOptions\":\"a\",\"data\":\"n\",\"users\":\"s\"}{\"const c=()(0,l.FL)\",\"d=a.tweetPermalink?r.v.getMediaDetailsLink(n,\\\"image_value\\\",\\\"image_original\\\")\":\"void 0\",u=e=>[1,2,3,4].map(a.tweetPermalink){\"const a=()(0,l.SI)\"{\"t\"}`0,l.SIn,\"string_value\",`cta${\"t\"}_wm_id`{\"type\":\"i.lW.DM\",\"data\":{\"cta\":\"a\",\"wm_id\":\"o\",\"destination\":\"e\",\"icon\":\"dm\",\"index\":\"t\"}}:\"null\"}{\"cardState\":\"o.uW.DEFAULT\",\"layout\":{[o.uW.DEFAULT]:{\"size\":\"large\"},[o.uW.CONDENSED]:{\"size\":\"large\"}},\"card\":{\"card_name\":\"t\",\"on_visibility\":{\"scribe\":\"show\"},\"id\":\"e\",\"components\":{[o.uW.DEFAULT]:[o.Fw.MEDIA,...g?[o.Fw.DETAILS]:[],o.Fw.BUTTON_GROUP],[o.uW.STATIC]:[o.Fw.MEDIA_STATIC,...g?[o.Fw.DETAILS]:[],o.Fw.BUTTON_GROUP_STATIC]},\"destinations\":{[o.Fw.DESTINATION]:{\"type\":\"o._g.ACTION\",\"data\":{\"action_data\":{\"persist\":\"!1\",\"type\":\"dm\",\"recipient\":\"_.id_str\"},\"auth_required\":\"!0\",\"scribe\":\"click\",\"promoted_log\":\"i.YE.DM_BUTTON_CLICK\"}},[o.Fw.DESTINATION_STATIC]:{\"type\":\"o._g.BROWSER\",\"data\":{\"url_data\":{\"url\":a.tweetPermalink||o.$H},\"scribe\":\"open_link\",\"promoted_log\":\"i.YE.CARD_URL_CLICK\"}},\"...d?\":{[o.Fw.DESTINATION_EMBEDDED_MEDIA]:{\"type\":\"o._g.BROWSER\",\"data\":{\"url_data\":{\"url\":\"d\"},\"scribe\":\"show\",\"promoted_log\":\"i.YE.EMBEDDED_MEDIA\"}}}:\"null\"},\"media_entities\":{[o.Fw.IMAGE_ENTITY]:\"()(0,l.WW)\"},\"components_data\":{[o.Fw.MEDIA]:{\"type\":\"o.Qe.MEDIA\",\"data\":{\"id\":\"o.Fw.IMAGE_ENTITY\",\"...d?\":{\"destination\":\"o.Fw.DESTINATION_EMBEDDED_MEDIA\"}:\"null\"}},[o.Fw.MEDIA_STATIC]:{\"type\":\"o.Qe.MEDIA\",\"data\":{\"id\":\"o.Fw.IMAGE_ENTITY\",\"destination\":\"o.Fw.DESTINATION_STATIC\"}},\"...g?\":{[o.Fw.DETAILS]:{\"type\":\"o.Qe.DETAILS\",\"data\":{\"attribution\":\"E\"}}}:\"null\",[o.Fw.BUTTON_GROUP]:{\"type\":\"o.Qe.BUTTON_GROUP\",\"data\":{\"buttons\":\"p\"}},[o.Fw.BUTTON_GROUP_STATIC]:{\"type\":\"o.Qe.BUTTON_GROUP\",\"data\":{\"buttons\":\"m\"}}}}}},\"shouldRenderCard\":e=>()(0,l.BY)},[o.sj.LIVE_EVENT]:{\"conversionHandler\":\"()\"{\"cardId\":\"e\",\"cardType\":\"t\",\"converterOptions\":\"a\",\"data\":\"n\",\"users\":\"r\"}{\"const d=()(0,l.N8)\",u=d&&r[d.id_str],p=(n,o.P2.User,\\\"author\\\")(0,l.SI),m=(n,o.P2.String,\\\"event_id\\\")(0,l.SI),h=(n,o.P2.String,\\\"event_category\\\")(0,l.SI),b=\"broadcast\"===h,y=\"video\"===h,I=(n,o.P2.String,\\\"media_type\\\")(0,l.SI),w=Math.max(n,o.P2.String,\\\"broadcast_id\\\"),T=(parseInt0,l.SIn,o.P2.String,\\\"broadcast_width\\\",10/parseInt0,l.SIn,o.P2.String,\\\"broadcast_height\\\",10,1)(0,l.SI),f=(n,o.P2.String,\\\"broadcast_media_key\\\")(0,l.SI),S=(n,o.P2.String,\\\"media_tweet_id\\\")(0,l.FL),v=(n,o.P2.Image,\\\"event_thumbnail\\\")(0,l.FL),\"A=b?v\":\"S\",C=b?void 0:[{\"h\":\"parseInt()\",\"w\":\"parseInt(0,l.SIn,o.P2.String,\\\"event_thumbnail_media_size_crops_16x9_h\\\",10)\",\"x\":\"parseInt(0,l.SIn,o.P2.String,\\\"event_thumbnail_media_size_crops_16x9_w\\\",10)\",\"y\":\"parseInt(0,l.SIn,o.P2.String,\\\"event_thumbnail_media_size_crops_16x9_x\\\",10)\"}],D=()(0,l.SI),N=(n,o.P2.String,\\\"remind_me_notification_id\\\")(0,l.kC)&&!!D,Z=(n,o.P2.Boolean,\\\"remind_me_toggle_visible\\\")(0,l.kC),\"O=Z?E\":_;return{\"cardState\":\"o.uW.DEFAULT\",\"layout\":{[o.uW.DEFAULT]:{\"size\":\"large\"},[o.uW.CONDENSED]:{\"size\":\"small\"},[o.uW.DATA_SAVER]:{\"size\":\"small\"},[o.uW.SECONDARY]:{\"size\":\"small\",\"reverse\":\"!0\"},[o.uW.STATIC]:{\"size\":A?\"large\":\"small\"}},\"card\":{\"card_name\":\"t\",\"get_fetch_interval_for_updates\":{[o.uW.DEFAULT]:\"c.gc\",[o.uW.DATA_SAVER]:\"c.gc\"},\"on_visibility\":{\"scribe\":\"show\"},\"id\":\"e\",\"components\":{[o.uW.DEFAULT]:[b||y?o.Fw.MEDIA:\"o.Fw.MEDIA_STATIC\",o.Fw.DETAILS,o.Fw.BUTTON_GROUP],[o.uW.DATA_SAVER]:[o.Fw.MEDIA_STATIC,o.Fw.DETAILS,o.Fw.BUTTON_GROUP],[o.uW.SECONDARY]:[o.Fw.MEDIA_STATIC,o.Fw.DETAILS],[o.uW.STATIC]:[o.Fw.MEDIA_STATIC,o.Fw.DETAILS,o.Fw.BUTTON_GROUP_STATIC]},\"destinations\":{[o.Fw.DESTINATION]:{\"type\":\"o._g.EVENT\",\"data\":{\"event_data\":{\"id\":\"p\"},\"scribe\":\"open_link\",\"promoted_log\":\"i.YE.CARD_URL_CLICK\"}},[o.Fw.DESTINATION_SECONDARY]:{\"type\":\"o._g.ACTION\",\"data\":{\"action_data\":{\"persist\":\"!0\",\"type\":\"reminder\"},\"auth_required\":\"!0\",\"scribe\":\"reminder\",\"promoted_log\":\"i.YE.CARD_URL_CLICK\"}},[o.Fw.DESTINATION_STATIC]:{\"type\":\"o._g.BROWSER\",\"data\":{\"url_data\":{\"url\":a&&a.tweetPermalink||o.$H},\"scribe\":\"open_link\",\"promoted_log\":\"i.YE.CARD_URL_CLICK\"}}},\"media_entities\":{\"...A?\":{[o.Fw.IMAGE_ENTITY]:\"()(0,l.WW)\"}:\"null\",[o.Fw.VIDEO_ENTITY]:\"b?\"{\"type\":\"live_broadcast\",\"aspect_ratio\":\"w\",\"broadcast_id\":\"I\",\"content_id\":\"T\",\"destination\":\"o.Fw.DESTINATION\",\"poster_image\":\"A\",\"timecode\":\"()(0,l.SI)\"}:{\"type\":\"tweet_video\",\"aspect_ratio\":\"s.Z.theme.aspectRatios.landscape\",\"media_tweet_id\":\"f\",\"event_id\":\"p\",\"poster_image\":\"A\"}},\"components_data\":{[o.Fw.MEDIA]:{\"type\":\"o.Qe.MEDIA\",\"data\":{\"id\":\"o.Fw.VIDEO_ENTITY\",\"aspect_ratio\":b?w:\"s.Z.theme.aspectRatios.landscape\"}},[o.Fw.MEDIA_STATIC]:{\"type\":\"o.Qe.MEDIA\",\"data\":{\"id\":\"o.Fw.IMAGE_ENTITY\",\"aspect_ratio\":\"s.Z.theme.aspectRatios.landscape\",\"destination\":\"o.Fw.DESTINATION\"}},[o.Fw.BUTTON_GROUP]:{\"type\":\"o.Qe.BUTTON_GROUP\",\"data\":{\"...N?\":{\"buttons\":[g(){\"cta\":\"O\",\"destination\":\"o.Fw.DESTINATION_SECONDARY\",\"eventId\":\"p\",\"index\":\"0\",\"isSelected\":\"Z\",\"notificationId\":\"D\"}}:\"null\"}},[o.Fw.BUTTON_GROUP_STATIC]:{\"type\":\"o.Qe.BUTTON_GROUP\",\"data\":{\"...N?\":{\"buttons\":[g(){\"cta\":\"O\",\"destination\":\"o.Fw.DESTINATION_STATIC\",\"eventId\":\"p\",\"index\":\"0\",\"isSelected\":\"Z\",\"notificationId\":\"D\"}}:\"null\"}},[o.Fw.DETAILS]:{\"type\":\"o.Qe.DETAILS\",\"data\":{\"destination\":\"o.Fw.DESTINATION\",\"...u?\":{\"attribution\":\"u\"}:\"m?\"{\"category\":{\"content\":\"m\"}}:\"null\",\"title\":{\"content\":\"()(0,l.SI)\"}}}}}}},\"shouldRenderCard\":e=>()(0,l.BY)},[o.sj.MESSAGE_ME]:{\"conversionHandler\":\"()\"{\"cardId\":\"e\",\"cardType\":\"t\",\"converterOptions\":\"a\",\"data\":\"n\"}{\"const s=()(0,l.SI)\",c=(n,\\\"string_value\\\",\\\"default_composer_text\\\")(0,l.SI),d=(n,\\\"string_value\\\",\\\"welcome_message_id\\\")(0,l.N8);return{\"cardState\":\"o.uW.DEFAULT\",\"layout\":{[o.uW.DEFAULT]:{\"size\":\"large\",\"chromeless\":\"!0\"},[o.uW.CONDENSED]:{\"size\":\"large\",\"chromeless\":\"!0\"},[o.uW.STATIC]:{\"size\":\"large\",\"chromeless\":\"!0\"}},\"card\":{\"card_name\":\"t\",\"on_visibility\":{\"scribe\":\"message_me_show\"},\"id\":\"e\",\"components\":{[o.uW.DEFAULT]:[o.Fw.BUTTON_GROUP],[o.uW.STATIC]:[o.Fw.BUTTON_GROUP_STATIC]},\"destinations\":{[o.Fw.DESTINATION]:{\"type\":\"o._g.ACTION\",\"data\":{\"action_data\":{\"persist\":\"!1\",\"type\":\"dm\",\"recipient\":\"d.id_str\"},\"auth_required\":\"!0\",\"scribe\":\"message_me_click\",\"promoted_log\":\"i.YE.CARD_URL_CLICK\"}},[o.Fw.DESTINATION_STATIC]:{\"type\":\"o._g.BROWSER\",\"data\":{\"url_data\":{\"url\":a.tweetPermalink||o.$H},\"scribe\":\"open_link\",\"promoted_log\":\"i.YE.CARD_URL_CLICK\"}}},\"media_entities\":{},\"components_data\":{[o.Fw.BUTTON_GROUP]:{\"type\":\"o.Qe.BUTTON_GROUP\",\"data\":{\"buttons\":[h(){\"composer_text\":\"s\",\"cta\":\"r.v.getMessageMeString()\",\"index\":\"0\",\"wm_id\":\"c\",\"destination\":\"o.Fw.DESTINATION\"}}},[o.Fw.BUTTON_GROUP_STATIC]:{\"type\":\"o.Qe.BUTTON_GROUP\",\"data\":{\"buttons\":[h(){\"composer_text\":\"s\",\"cta\":\"r.v.getMessageMeString()\",\"index\":\"0\",\"wm_id\":\"c\",\"destination\":\"o.Fw.DESTINATION_STATIC\"}}}}}}},\"shouldRenderCard\":()=>(e,t)(0,l.BY)&&t.tweetUserId===(e,e=>e\\\"recipient\\\".and\\\"cta\\\")(0,l.N8).id_str},[o.sj.MOMENT]:{\"conversionHandler\":\"()\"{\"cardId\":\"e\",\"cardType\":\"t\",\"data\":\"a\",\"users\":\"n\"}{const r=()(0,l.FL)||{\"url\":\"()(0,l.SI)\",\"width\":parseInt(a,\\\"string_value\\\",\\\"cover_format_media_url\\\")||0,\"height\":parseInt(0,l.SIa,\\\"string_value\\\",\\\"cover_format_media_size_w\\\",10)||0},s=()(0,l.N8),c=s&&n[s.id_str],d=(a,\\\"user_value\\\",\\\"author\\\")(0,l.SI),u=(a,\\\"string_value\\\",\\\"title\\\")(0,l.SI),p=(a,\\\"string_value\\\",\\\"description\\\")(0,l.SI);return{\"cardState\":\"o.uW.DEFAULT\",\"layout\":{[o.uW.DEFAULT]:{\"size\":\"small\",\"reverse\":\"!0\"},[o.uW.CONDENSED]:{\"size\":\"small\",\"reverse\":\"!0\"}},\"card\":{\"card_name\":\"t\",\"on_visibility\":{\"scribe\":\"show\"},\"id\":\"e\",\"components\":{[o.uW.DEFAULT]:[o.Fw.MEDIA,o.Fw.DETAILS]},\"destinations\":{[o.Fw.DESTINATION]:{\"type\":\"o._g.MOMENT\",\"data\":{\"moment_data\":{\"moment\":\"()(0,l.SI)\"},\"scribe\":\"open_link\",\"promoted_log\":\"i.YE.CARD_URL_CLICK\"}}},\"media_entities\":{[o.Fw.IMAGE_ENTITY]:\"()(0,l.WW)\"},\"components_data\":{[o.Fw.MEDIA]:{\"type\":\"o.Qe.MEDIA\",\"data\":{\"id\":\"o.Fw.IMAGE_ENTITY\",\"aspect_ratio\":\"1\",\"overlay\":{\"type\":\"o._5.MOMENTS\"},\"destination\":\"o.Fw.DESTINATION\"}},[o.Fw.DETAILS]:{\"type\":\"o.Qe.DETAILS\",\"data\":{\"attribution\":\"c\",\"category\":\"!c&&p?\"{\"content\":\"p\"}:\"void 0\",\"description\":\"u?\"{\"content\":\"u\"}:\"void 0\",\"destination\":\"o.Fw.DESTINATION\",\"title\":\"d?\"{\"content\":\"d\"}:\"void 0\"}}}}}},\"shouldRenderCard\":e=>()(0,l.BY)},[o.sj.NEWSLETTER_ISSUE]:{\"conversionHandler\":\"null\",\"shouldRenderCard\":()=>!1},[o.sj.NEWSLETTER_PUBLICATION]:{\"conversionHandler\":\"null\",\"shouldRenderCard\":()=>!1},[o.sj.NOTE]:{\"conversionHandler\":\"()\"{\"cardId\":\"e\",\"cardType\":\"t\",\"converterOptions\":\"a\",\"data\":\"n\"}{\"const\"{\"isLoggedIn\":\"r\"}\"=a\",c=()(0,l.SI),d=(n,\\\"string_value\\\",\\\"card_url\\\")(0,l.SI),u=(n,\\\"string_value\\\",\\\"note_title\\\")(0,l.SI),p=(n,\\\"string_value\\\",\\\"note_description\\\")(0,l.FL),_=(n,\\\"image_value\\\",\\\"cover_image\\\")(0,l.SI),E=_&&parseFloat(n,\\\"string_value\\\",\\\"cover_image_aspect_ratio\\\"),g=(_)(0,l.SI),h=(n,\\\"string_value\\\",\\\"author_screen_name\\\")(0,l.SI),\"v=\"{\"id_str\":\"()(0,l.SI)\",\"profile_image_url_https\":\"(n,\\\"string_value\\\",\\\"author_user_id\\\")(0,l.SI)\",\"protected\":\"(n,\\\"string_value\\\",\\\"author_profile_image_url\\\")(0,l.kC)\",\"verified\":\"(n,\\\"boolean_value\\\",\\\"is_author_protected\\\")(0,l.kC)\",\"name\":\"h\",\"screen_name\":\"g\",\"is_blue_verified\":\"(n,\\\"boolean_value\\\",\\\"is_author_verified\\\")(0,l.kC)\"},\"A=()\"{\"switch()\"{case\"yellow0\":case\"orange0\":case\"red0\":case\"magenta0\":case\"plum0\":case\"purple0\":case\"blue0\":case\"teal0\":case\"green0\":case\"gray0\":return e;default:\"return\"}}\"()(0,l.SI)(n,\\\"string_value\\\",\\\"background_color\\\",C=parseInt)(0,l.SI)\",100,l.SIn,\"string_value\",\"published_time_ms\"C{\"const e=()\"{const t=60*e*1e3;return{\"readTime\":\"b.createElement()\"{\"short\":\"!0\",\"timeMs\":\"t\"}}}\"Cm(;N=b.createElement).I18NFormatMessage\",{\"$i18n\":\"dfde726b\"},\"e.readTime\"}const Z=A||s.Z.isDarkMode()?\"gray900\":\"gray700\",\"O=b.createElement()\"{\"color\":\"Z\",\"timestamp\":\"Number()\"}\"0\",y.Z[O,...N?[N]:[]]{\"cardState\":\"o.uW.DEFAULT\",\"layout\":{[o.uW.DEFAULT]:{\"size\":\"large\"}},\"card\":{\"card_name\":\"t\",\"on_visibility\":{\"scribe\":\"show\"},\"id\":\"e\",\"components\":{[o.uW.DEFAULT]:[o.Fw.ATTRIBUTION,o.Fw.MEDIA,o.Fw.DETAILS,o.Fw.BUTTON_GROUP,o.Fw.BACKGROUND_COLOR]},\"destinations\":{[o.Fw.DESTINATION]:{\"type\":\"o._g.BROWSER\",\"data\":{\"url_data\":{\"url\":\"c\"},\"scribe\":\"i.bQ.OPEN_LINK\",\"promoted_log\":\"i.YE.CARD_URL_CLICK\"}},[o.Fw.DESTINATION_SECONDARY]:{\"type\":\"o._g.BROWSER\",\"data\":{\"url_data\":{\"url\":\"c\"},\"scribe\":\"i.bQ.READ_NOTE_CLICK\",\"promoted_log\":\"i.YE.CARD_URL_CLICK\"}}},\"media_entities\":{\"...p?\":{[o.Fw.IMAGE_ENTITY]:\"()(0,l.WW)\"}:\"null\"},\"components_data\":{[o.Fw.MEDIA]:{\"type\":\"o.Qe.MEDIA\",\"data\":{\"id\":p?o.Fw.IMAGE_ENTITY:\"null\",\"aspect_ratio\":E||2.5,\"destination\":\"o.Fw.DESTINATION\"}},[o.Fw.DETAILS]:{\"type\":\"o.Qe.DETAILS_WITH_MIDDOT_GROUP\",\"data\":{\"...u?\":{\"description\":{\"content\":\"u\"}}:\"null\",\"descriptionMaxLines\":\"3\",\"descriptionTextColor\":\"Z\",\"destination\":\"o.Fw.DESTINATION\",\"label\":\"T\",\"middotGroupContents\":\"F\",\"middotGroupOnTop\":\"!0\",\"middotGroupSize\":\"large\",\"middotGroupTextColor\":\"Z\",\"showDescriptionOnSmallScreens\":\"!0\",\"title\":{\"content\":\"d\"},\"titleMaxLines\":\"0\",\"titleSize\":\"large\",\"titleWeight\":\"heavy\"}},[o.Fw.ATTRIBUTION]:{\"type\":\"o.Qe.ATTRIBUTION\",\"data\":{\"scribeAction\":\"avatar_click\",\"user\":\"v\"}},[o.Fw.BUTTON_GROUP]:{\"type\":\"o.Qe.BUTTON_GROUP\",\"data\":{\"buttons\":[{\"type\":\"i.lW.GENERIC\",\"data\":{\"accessibilityLabel\":\"f\",\"cta\":\"f\",\"destination\":\"o.Fw.DESTINATION_SECONDARY\",\"index\":\"0\",\"styleType\":\"primaryFilled\"}},...r?[{\"type\":\"i.lW.GENERIC\",\"data\":{\"buttonType\":\"bookmark\",\"cta\":\"S\",\"index\":\"1\"}}]:[]],\"layout\":\"horizontal\"}},[o.Fw.BACKGROUND_COLOR]:{\"type\":\"o.Qe.BACKGROUND_COLOR\",\"data\":{\"backgroundColor\":\"A\"}}}}}},\"shouldRenderCard\":e=>()(0,l.BY)},[o.sj.PERISCOPE_BROADCAST]:{\"conversionHandler\":\"()\"{\"cardId\":\"e\",\"cardType\":\"t\",\"data\":\"a\",\"users\":\"n\"}{\"const r=()(0,l.FL)\",s=Math.max(a,\\\"image_value\\\",\\\"thumbnail_original\\\"),c=(parseInt0,l.SIa,\\\"string_value\\\",\\\"broadcast_width\\\",10/parseInt0,l.SIa,\\\"string_value\\\",\\\"broadcast_height\\\",10,1)(0,l.SI),d=c?n[c]:\"void 0\",u=(a,\\\"string_value\\\",\\\"broadcaster_twitter_id\\\")(0,l.SI);return{\"cardState\":\"o.uW.DEFAULT\",\"layout\":{[o.uW.DEFAULT]:{\"size\":\"large\"},[o.uW.CONDENSED]:{\"size\":\"small\"},[o.uW.STATIC]:{\"size\":r?\"large\":\"small\"}},\"card\":{\"card_name\":\"t\",\"on_visibility\":{\"scribe\":\"show\"},\"id\":\"e\",\"components\":{[o.uW.DEFAULT]:[o.Fw.MEDIA,o.Fw.DETAILS],[o.uW.STATIC]:[o.Fw.MEDIA_STATIC,o.Fw.DETAILS]},\"destinations\":{[o.Fw.DESTINATION]:{\"type\":\"o._g.BROWSER\",\"data\":{\"url_data\":{\"url\":\"()(0,l.SI)\",\"vanity\":\"(a,\\\"string_value\\\",\\\"card_url\\\")(0,l.SI)\"},\"scribe\":\"open_link\",\"promoted_log\":\"i.YE.CARD_URL_CLICK\"}}},\"media_entities\":{\"...r?\":{[o.Fw.IMAGE_ENTITY]:\"()(0,l.WW)\"}:\"null\",[o.Fw.VIDEO_ENTITY]:{\"type\":\"live_broadcast\",\"aspect_ratio\":\"s\",\"broadcast_id\":\"()(0,l.SI)\",\"content_id\":\"(a,\\\"string_value\\\",\\\"id\\\")(0,l.SI)\",\"destination\":\"o.Fw.DESTINATION\",\"...r?\":{\"poster_image\":\"r\"}:\"null\",\"timecode\":()(0,l.SI)||(a,\\\"string_value\\\",\\\"timecode\\\")(0,l.SI)}},\"components_data\":{[o.Fw.MEDIA]:{\"type\":\"o.Qe.MEDIA\",\"data\":{\"id\":\"o.Fw.VIDEO_ENTITY\",\"aspect_ratio\":\"s\"}},[o.Fw.MEDIA_STATIC]:{\"type\":\"o.Qe.MEDIA\",\"data\":{\"id\":r?o.Fw.IMAGE_ENTITY:\"null\",\"destination\":\"o.Fw.DESTINATION\",\"overlay\":{\"type\":\"o._5.PLAY\"}}},[o.Fw.DETAILS]:{\"type\":\"o.Qe.DETAILS\",\"data\":{\"attribution\":\"d\",\"description\":\"u?\"{\"content\":\"u\"}:\"void 0\",\"destination\":\"o.Fw.DESTINATION\",\"title\":\"c?void 0:\"{\"content\":\"()(0,l.SI)\"}}}}}}},\"shouldRenderCard\":e=>()(0,l.BY)},[o.sj.PLAYER]:{\"conversionHandler\":\"()\"{\"cardId\":\"e\",\"cardType\":\"t\",\"converterOptions\":\"a\",\"data\":\"n\",\"users\":\"s\"}{\"const c=()(0,l.FL)\",d=(n,\\\"image_value\\\",\\\"player_image_original\\\")(0,l.SI),u=(n,\\\"string_value\\\",\\\"description\\\")(0,l.SI),\"p=a.tweetId?r.v.getPlayerCardIFrameUrl(n,\\\"string_value\\\",\\\"player_url\\\")\":\"void 0\",m=parseInt(a.tweetId)/parseInt(0,l.SIn,\\\"string_value\\\",\\\"player_width\\\",10),_=[o.Fw.MEDIA,o.Fw.DETAILS],E=[o.Fw.MEDIA_STATIC,o.Fw.DETAILS_SECONDARY];return(0,l.SIn,\\\"string_value\\\",\\\"player_height\\\",10)(0,l.qj){\"name\":\"t\",\"binding_values\":\"n\"}{\"cardId\":\"e\",\"cardType\":\"t\",\"data\":\"n\",\"converterOptions\":\"a\",\"users\":\"s\"}{\"cardState\":\"o.uW.DEFAULT\",\"layout\":{[o.uW.DEFAULT]:{\"size\":\"small\"},[o.uW.CONDENSED]:{\"size\":\"small\"},[o.uW.SECONDARY]:{\"size\":\"large\"},[o.uW.STATIC]:{\"size\":\"small\"},[o.uW.DATA_SAVER]:{\"size\":\"small\"}},\"card\":{\"card_name\":\"t\",\"on_visibility\":{\"scribe\":\"show\"},\"id\":\"e\",\"components\":{[o.uW.DEFAULT]:p?_:\"E\",[o.uW.SECONDARY]:[o.Fw.MEDIA_SECONDARY,o.Fw.DETAILS_SECONDARY],[o.uW.STATIC]:\"E\",[o.uW.DATA_SAVER]:[o.Fw.MEDIA_STATIC,o.Fw.DETAILS_SECONDARY]},\"destinations\":{[o.Fw.DESTINATION]:{\"type\":\"o._g.ACTION\",\"data\":{\"action_data\":{\"next_state\":\"o.uW.SECONDARY\",\"persist\":\"!1\",\"vanity\":\"()(0,l.SI)\"},\"scribe\":\"click\",\"promoted_log\":\"i.YE.CARD_URL_CLICK\"}},[o.Fw.DESTINATION_SECONDARY]:{\"type\":\"o._g.BROWSER\",\"data\":{\"url_data\":{\"url\":\"()(0,l.SI)\",\"vanity\":\"(n,\\\"string_value\\\",\\\"card_url\\\")(0,l.SI)\"},\"scribe\":\"open_link\",\"promoted_log\":\"i.YE.CARD_URL_CLICK\"}}},\"media_entities\":\"v()\",\"components_data\":{[o.Fw.MEDIA]:{\"type\":\"o.Qe.MEDIA\",\"data\":{\"id\":c?o.Fw.IMAGE_ENTITY:\"null\",\"aspect_ratio\":\"1\",\"overlay\":{\"type\":\"o._5.PLAY\"},\"destination\":u?o.Fw.DESTINATION:\"o.Fw.DESTINATION_SECONDARY\"}},[o.Fw.MEDIA_SECONDARY]:{\"type\":\"o.Qe.MEDIA\",\"data\":{\"id\":u?o.Fw.IFRAME_ENTITY:\"null\",\"aspect_ratio\":\"m\"}},[o.Fw.MEDIA_STATIC]:{\"type\":\"o.Qe.MEDIA\",\"data\":{\"id\":c?o.Fw.IMAGE_ENTITY:\"null\",\"aspect_ratio\":\"1\",\"overlay\":{\"type\":\"o._5.PLAY\"},\"destination\":\"o.Fw.DESTINATION_SECONDARY\"}},[o.Fw.DETAILS]:{\"type\":\"o.Qe.DETAILS\",\"data\":{\"destination\":u?o.Fw.DESTINATION:\"o.Fw.DESTINATION_SECONDARY\",\"...d?\":{\"description\":{\"content\":\"d\"}}:\"null\",\"title\":{\"content\":\"()(0,l.SI)\"}}},[o.Fw.DETAILS_SECONDARY]:{\"type\":\"o.Qe.DETAILS\",\"data\":{\"destination\":\"o.Fw.DESTINATION_SECONDARY\",\"...d?\":{\"description\":{\"content\":\"d\"}}:\"null\",\"title\":{\"content\":\"()(0,l.SI)\"}}}}}}},\"shouldRenderCard\":e=>()(0,l.qj){\"name\":\"player\",\"binding_values\":\"e\"}\"0\",l.BYe,(?)0,l.BYe,\"(e=>e\\\"card_url\\\".and\\\"title\\\".and\\\"player_width\\\".and\\\"player_height\\\".and\\\"player_image_original\\\".and\\\"player_stream_url\\\".and\\\"player_stream_content_type\\\":)\"},[o.sj.POLL_2_CHOICE_TEXT]:{\"conversionHandler\":\"D\",\"shouldRenderCard\":\"C\"},[o.sj.POLL_3_CHOICE_TEXT]:{\"conversionHandler\":\"D\",\"shouldRenderCard\":\"C\"},[o.sj.POLL_4_CHOICE_TEXT]:{\"conversionHandler\":\"D\",\"shouldRenderCard\":\"C\"},[o.sj.POLL_2_CHOICE_IMAGE]:{\"conversionHandler\":\"D\",\"shouldRenderCard\":\"C\"},[o.sj.POLL_3_CHOICE_IMAGE]:{\"conversionHandler\":\"D\",\"shouldRenderCard\":\"C\"},[o.sj.POLL_4_CHOICE_IMAGE]:{\"conversionHandler\":\"D\",\"shouldRenderCard\":\"C\"},[o.sj.POLL_2_CHOICE_VIDEO]:{\"conversionHandler\":\"D\",\"shouldRenderCard\":\"C\"},[o.sj.POLL_3_CHOICE_VIDEO]:{\"conversionHandler\":\"D\",\"shouldRenderCard\":\"C\"},[o.sj.POLL_4_CHOICE_VIDEO]:{\"conversionHandler\":\"D\",\"shouldRenderCard\":\"C\"},[o.sj.PROMO_IMAGE_CONVO]:{\"conversionHandler\":\"()\"{\"cardId\":\"e\",\"cardType\":\"t\",\"converterOptions\":\"a\",\"data\":\"n\"}{\"const s=()(0,l.SI)\",\"c=a.tweetPermalink?r.v.getMediaDetailsLink(n,\\\"string_value\\\",\\\"thank_you_url\\\")\":\"void 0\",d=(a.tweetPermalink)(0,l.FL),u=(n,\\\"image_value\\\",[\\\"cover_promo_image\\\",\\\"promo_image\\\"])(0,l.FL),p=(n,\\\"image_value\\\",\\\"promo_image\\\")(0,l.SI),m=e=>[\"one\",\"two\",\"three\",\"four\"].map(n,\\\"string_value\\\",\\\"title\\\"){\"const o=()(0,l.SI)\"{\"t\"}`0,l.SIn,\"string_value\",`cta_${\"t\"}_tweet`{\"type\":\"i.lW.COMPOSE\",\"data\":{\"icon\":\"compose\",\"index\":\"a\",\"cta\":\"r.v.renderTweetActionLabel()\",\"tweet\":\"s\",\"destination\":\"e\"}}:\"null\"}{\"cardState\":\"o.uW.DEFAULT\",\"layout\":{[o.uW.DEFAULT]:{\"size\":\"large\"},[o.uW.CONDENSED]:{\"size\":\"small\"},[o.uW.SECONDARY]:{\"size\":\"large\"}},\"card\":{\"card_name\":\"t\",\"on_visibility\":{\"scribe\":\"show\"},\"id\":\"e\",\"components\":{\"default\":[o.Fw.MEDIA,o.Fw.DETAILS,o.Fw.BUTTON_GROUP],\"secondary\":[o.Fw.MEDIA_SECONDARY,o.Fw.DETAILS_SECONDARY],\"static\":[o.Fw.MEDIA_STATIC,o.Fw.DETAILS_STATIC,o.Fw.BUTTON_GROUP_STATIC]},\"destinations\":{[o.Fw.DESTINATION]:{\"type\":\"o._g.ACTION\",\"data\":{\"action_data\":{\"next_state\":\"o.uW.SECONDARY\",\"persist\":\"!0\",\"type\":\"compose\"},\"auth_required\":\"!0\",\"scribe\":\"click\",\"promoted_log\":\"i.YE.CONVO_BUTTON_CLICK\"}},\"...c?\":{[o.Fw.DESTINATION_EMBEDDED_MEDIA]:{\"type\":\"o._g.BROWSER\",\"data\":{\"url_data\":{\"url\":\"c\"},\"scribe\":\"show\",\"promoted_log\":\"i.YE.EMBEDDED_MEDIA\"}}}:\"null\",\"...s?\":{[o.Fw.DESTINATION_SECONDARY]:{\"type\":\"o._g.BROWSER\",\"data\":{\"url_data\":{\"url\":\"s\",\"vanity\":\"()(0,l.SI)\"},\"scribe\":\"open_link\",\"promoted_log\":\"i.YE.CARD_URL_CLICK\"}}}:\"null\",[o.Fw.DESTINATION_STATIC]:{\"type\":\"o._g.BROWSER\",\"data\":{\"url_data\":{\"url\":a.tweetPermalink||o.$H},\"scribe\":\"open_link\",\"promoted_log\":\"i.YE.CARD_URL_CLICK\"}}},\"media_entities\":{[o.Fw.IMAGE_ENTITY]:\"()(0,l.WW)\",[o.Fw.IMAGE_ENTITY_SECONDARY]:\"(d)(0,l.WW)\"},\"components_data\":{[o.Fw.MEDIA]:{\"type\":\"o.Qe.MEDIA\",\"data\":{\"id\":\"o.Fw.IMAGE_ENTITY\",\"...c?\":{\"destination\":\"o.Fw.DESTINATION_EMBEDDED_MEDIA\"}:\"null\"}},[o.Fw.MEDIA_SECONDARY]:{\"type\":\"o.Qe.MEDIA\",\"data\":{\"id\":\"o.Fw.IMAGE_ENTITY_SECONDARY\",\"destination\":\"o.Fw.DESTINATION_SECONDARY\"}},[o.Fw.MEDIA_STATIC]:{\"type\":\"o.Qe.MEDIA\",\"data\":{\"id\":\"o.Fw.IMAGE_ENTITY\",\"destination\":\"o.Fw.DESTINATION_STATIC\"}},[o.Fw.DETAILS]:{\"type\":\"o.Qe.DETAILS\",\"data\":{\"...p?\":{\"title\":{\"content\":\"p\"}}:\"null\"}},[o.Fw.DETAILS_SECONDARY]:{\"type\":\"o.Qe.DETAILS\",\"data\":{\"title\":{\"content\":\"()(0,l.SI)\"},\"...s?\":{\"destination\":\"o.Fw.DESTINATION_SECONDARY\"}:\"null\"}},[o.Fw.DETAILS_STATIC]:{\"type\":\"o.Qe.DETAILS\",\"data\":{\"...p?\":{\"title\":{\"content\":\"p\"}}:\"null\"}},[o.Fw.BUTTON_GROUP]:{\"type\":\"o.Qe.BUTTON_GROUP\",\"data\":{\"buttons\":\"_\"}},[o.Fw.BUTTON_GROUP_STATIC]:{\"type\":\"o.Qe.BUTTON_GROUP\",\"data\":{\"buttons\":\"E\"}}}}}},\"shouldRenderCard\":e=>()(0,l.BY)},[o.sj.PROMO_VIDEO_CONVO]:{\"conversionHandler\":\"()\"{\"cardId\":\"e\",\"cardType\":\"t\",\"converterOptions\":\"a\",\"data\":\"n\"}{\"const s=()(0,l.SI)\",\"c=a.tweetPermalink?r.v.getMediaDetailsLink(n,\\\"string_value\\\",\\\"thank_you_url\\\")\":\"void 0\",d=(a.tweetPermalink)(0,l.FL),u=(n,\\\"image_value\\\",[\\\"cover_player_image_original\\\",\\\"player_image_original\\\"])(0,l.FL),p=(n,\\\"image_value\\\",\\\"player_image_original\\\")(0,l.FL),m=(n,\\\"image_value\\\",\\\"cover_promo_image_original\\\")(0,l.SI),_=parseInt(n,\\\"string_value\\\",\\\"title\\\")/parseInt(0,l.SIn,\\\"string_value\\\",\\\"cover_player_width\\\",10),E=parseInt(0,l.SIn,\\\"string_value\\\",\\\"cover_player_height\\\",10)/parseInt(0,l.SIn,\\\"string_value\\\",\\\"player_width\\\",10),g=e=>[\"one\",\"two\",\"three\",\"four\"].map(0,l.SIn,\\\"string_value\\\",\\\"player_height\\\",10){\"const o=()(0,l.SI)\"{\"t\"}`0,l.SIn,\"string_value\",`cta_${\"t\"}_tweet`{\"type\":\"i.lW.COMPOSE\",\"data\":{\"icon\":\"compose\",\"index\":\"a\",\"cta\":\"r.v.renderTweetActionLabel()\",\"tweet\":\"s\",\"destination\":\"e\"}}:\"null\"}{\"cardState\":\"o.uW.DEFAULT\",\"layout\":{[o.uW.DEFAULT]:{\"size\":\"large\"},[o.uW.CONDENSED]:{\"size\":\"small\"},[o.uW.SECONDARY]:{\"size\":\"large\"},[o.uW.STATIC]:{\"size\":\"large\"}},\"card\":{\"card_name\":\"t\",\"on_visibility\":{\"scribe\":\"show\"},\"id\":\"e\",\"components\":{\"default\":[o.Fw.MEDIA,o.Fw.DETAILS,o.Fw.BUTTON_GROUP],\"secondary\":[o.Fw.MEDIA_SECONDARY,o.Fw.DETAILS_SECONDARY],\"static\":[o.Fw.MEDIA_STATIC,o.Fw.DETAILS_STATIC,o.Fw.BUTTON_GROUP_STATIC]},\"destinations\":{[o.Fw.DESTINATION]:{\"type\":\"o._g.ACTION\",\"data\":{\"action_data\":{\"next_state\":\"o.uW.SECONDARY\",\"persist\":\"!0\",\"type\":\"compose\"},\"auth_required\":\"!0\",\"scribe\":\"click\",\"promoted_log\":\"i.YE.CONVO_BUTTON_CLICK\"}},\"...c?\":{[o.Fw.DESTINATION_EMBEDDED_MEDIA]:{\"type\":\"o._g.BROWSER\",\"data\":{\"url_data\":{\"url\":\"c\"},\"scribe\":\"show\",\"promoted_log\":\"i.YE.EMBEDDED_MEDIA\"}}}:\"null\",\"...s?\":{[o.Fw.DESTINATION_SECONDARY]:{\"type\":\"o._g.BROWSER\",\"data\":{\"url_data\":{\"url\":\"s\",\"vanity\":\"()(0,l.SI)\"},\"scribe\":\"open_link\",\"promoted_log\":\"i.YE.CARD_URL_CLICK\"}}}:\"null\",[o.Fw.DESTINATION_STATIC]:{\"type\":\"o._g.BROWSER\",\"data\":{\"url_data\":{\"url\":a.tweetPermalink||o.$H},\"scribe\":\"open_link\",\"promoted_log\":\"i.YE.CARD_URL_CLICK\"}}},\"media_entities\":{\"...y?\":{[o.Fw.VIDEO_ENTITY]:{\"type\":\"video\",\"aspect_ratio\":\"_\",\"content_id\":\"()(0,l.cT)\",\"...S?\":{\"duration_ms\":1e3*parseInt()}:\"null\",\"vmap_url\":\"y\",\"poster_image\":\"d\",\"publisher_id\":T?T.id_str:\"a.tweetUserId\"}}:\"null\",[o.Fw.VIDEO_ENTITY_SECONDARY]:{\"type\":\"video\",\"aspect_ratio\":\"E\",\"content_id\":\"()(0,l.cT)\",\"duration_ms\":f?1e3*parseInt(I):\"void 0\",\"vmap_url\":\"I\",\"poster_image\":\"u\",\"publisher_id\":T?T.id_str:\"a.tweetUserId\",\"...w?\":{\"variants\":[{\"src\":\"w\",\"type\":\"application/x-mpegURL\"}]}:\"null\"},[o.Fw.IMAGE_ENTITY]:\"()(0,l.WW)\"{}\"0\",l.WWu||{}},\"components_data\":{[o.Fw.MEDIA]:{\"type\":\"o.Qe.MEDIA\",\"data\":{\"id\":y?o.Fw.VIDEO_ENTITY:p?o.Fw.IMAGE_ENTITY:\"o.Fw.VIDEO_ENTITY_SECONDARY\",\"...!y&&p&&c?\":{\"destination\":\"o.Fw.DESTINATION_EMBEDDED_MEDIA\"}:\"null\"}},[o.Fw.MEDIA_SECONDARY]:{\"type\":\"o.Qe.MEDIA\",\"data\":{\"id\":\"o.Fw.VIDEO_ENTITY_SECONDARY\"}},[o.Fw.MEDIA_STATIC]:{\"type\":\"o.Qe.MEDIA\",\"data\":{\"id\":u?o.Fw.IMAGE_ENTITY_STATIC:\"o.Fw.IMAGE_ENTITY\",\"destination\":\"o.Fw.DESTINATION_STATIC\",\"aspect_ratio\":\"u?void 0:1.91\"}},[o.Fw.DETAILS]:{\"type\":\"o.Qe.DETAILS\",\"data\":{\"...m?\":{\"title\":{\"content\":\"m\"}}:\"null\"}},[o.Fw.DETAILS_SECONDARY]:{\"type\":\"o.Qe.DETAILS\",\"data\":{\"title\":{\"content\":\"()(0,l.SI)\"},\"...s?\":{\"destination\":\"o.Fw.DESTINATION_SECONDARY\"}:\"null\"}},[o.Fw.DETAILS_STATIC]:{\"type\":\"o.Qe.DETAILS\",\"data\":{\"...m?\":{\"title\":{\"content\":\"m\"}}:\"null\"}},[o.Fw.BUTTON_GROUP]:{\"type\":\"o.Qe.BUTTON_GROUP\",\"data\":{\"buttons\":\"h\"}},[o.Fw.BUTTON_GROUP_STATIC]:{\"type\":\"o.Qe.BUTTON_GROUP\",\"data\":{\"buttons\":\"b\"}}}}}},\"shouldRenderCard\":e=>()(0,l.BY)},[o.sj.SUMMARY]:{\"conversionHandler\":\"()\"{\"cardId\":\"e\",\"cardType\":\"t\",\"data\":\"a\"}{\"const n=()(0,l.FL)\",r=(a,\\\"image_value\\\",\\\"thumbnail_image_original\\\")(0,l.SI);return{\"cardState\":\"o.uW.DEFAULT\",\"layout\":{[o.uW.DEFAULT]:{\"size\":\"small\"},[o.uW.CONDENSED]:{\"size\":\"small\"}},\"card\":{\"card_name\":\"t\",\"on_visibility\":{\"scribe\":\"show\"},\"id\":\"e\",\"components\":{[o.uW.DEFAULT]:[o.Fw.MEDIA,o.Fw.DETAILS]},\"destinations\":{[o.Fw.DESTINATION]:{\"type\":\"o._g.BROWSER\",\"data\":{\"url_data\":{\"domain\":\"()(0,l.SI)\",\"url\":\"(a,\\\"string_value\\\",[\\\"domain\\\",\\\"vanity_url\\\"])(0,l.SI)\",\"vanity\":\"(a,\\\"string_value\\\",\\\"card_url\\\")(0,l.SI)\"},\"scribe\":\"open_link\",\"promoted_log\":\"i.YE.CARD_URL_CLICK\"}}},\"media_entities\":{\"...n?\":{[o.Fw.IMAGE_ENTITY]:\"()(0,l.WW)\"}:\"null\"},\"components_data\":{[o.Fw.MEDIA]:{\"type\":\"o.Qe.MEDIA\",\"data\":{\"id\":n?o.Fw.IMAGE_ENTITY:\"null\",\"aspect_ratio\":\"1\",\"destination\":\"o.Fw.DESTINATION\"}},[o.Fw.DETAILS]:{\"type\":\"o.Qe.DETAILS\",\"data\":{\"destination\":\"o.Fw.DESTINATION\",\"...r?\":{\"description\":{\"content\":\"r\"}}:\"null\",\"title\":{\"content\":\"()(0,l.SI)\"}}}}}}},\"shouldRenderCard\":e=>()(0,l.BY)},[o.sj.SUMMARY_LARGE_IMAGE]:{\"conversionHandler\":\"()\"{\"cardId\":\"e\",\"cardType\":\"t\",\"data\":\"a\"}{\"const n=()(0,l.FL)\",r=(a,\\\"image_value\\\",\\\"summary_photo_image_original\\\")(0,l.SI);return{\"cardState\":\"o.uW.DEFAULT\",\"layout\":{[o.uW.DEFAULT]:{\"size\":n?\"large\":\"small\"},[o.uW.CONDENSED]:{\"size\":\"small\"}},\"card\":{\"card_name\":\"t\",\"on_visibility\":{\"scribe\":\"show\"},\"id\":\"e\",\"components\":{[o.uW.DEFAULT]:[o.Fw.MEDIA,o.Fw.DETAILS]},\"destinations\":{[o.Fw.DESTINATION]:{\"type\":\"o._g.BROWSER\",\"data\":{\"url_data\":{\"domain\":\"()(0,l.SI)\",\"url\":\"(a,\\\"string_value\\\",[\\\"domain\\\",\\\"vanity_url\\\"])(0,l.SI)\",\"vanity\":\"(a,\\\"string_value\\\",\\\"card_url\\\")(0,l.SI)\"},\"scribe\":\"open_link\",\"promoted_log\":\"i.YE.CARD_URL_CLICK\"}}},\"media_entities\":{\"...n?\":{[o.Fw.IMAGE_ENTITY]:\"()(0,l.WW)\"}:\"null\"},\"components_data\":{[o.Fw.MEDIA]:{\"type\":\"o.Qe.MEDIA\",\"data\":{\"id\":n?o.Fw.IMAGE_ENTITY:\"null\",\"aspect_ratio\":n?1.91:\"1\",\"destination\":\"o.Fw.DESTINATION\"}},[o.Fw.DETAILS]:{\"type\":\"o.Qe.DETAILS\",\"data\":{\"destination\":\"o.Fw.DESTINATION\",\"...r?\":{\"description\":{\"content\":\"r\"}}:\"null\",\"title\":{\"content\":\"()(0,l.SI)\"}}}}}}},\"shouldRenderCard\":e=>()(0,l.BY)},[o.sj.UNIFIED_CARD]:{\"conversionHandler\":\"N.O4\",\"shouldRenderCard\":\"N.AU\"},[o.sj.VIDEO_DIRECT_MESSAGE]:{\"conversionHandler\":\"()\"{\"cardId\":\"e\",\"cardType\":\"t\",\"converterOptions\":\"a\",\"data\":\"n\",\"users\":\"r\"}{\"const s=()(0,l.FL)\",c=(n,\\\"image_value\\\",\\\"player_image_original\\\")(0,l.SI),d=parseInt(n,\\\"string_value\\\",\\\"player_stream_url\\\")/parseInt(0,l.SIn,\\\"string_value\\\",\\\"player_width\\\",10),u=(0,l.SIn,\\\"string_value\\\",\\\"player_height\\\",10)(0,l.SI),p=e=>[1,2,3,4].map(n,\\\"string_value\\\",\\\"content_duration_seconds\\\"){\"const a=()(0,l.SI)\"{\"t\"}`0,l.SIn,\"string_value\",`cta${\"t\"}_wm_id`{\"type\":\"i.lW.DM\",\"data\":{\"icon\":\"dm\",\"index\":\"t\",\"cta\":\"a\",\"wm_id\":\"o\",\"destination\":\"e\"}}:\"null\"}{\"cardState\":\"o.uW.DEFAULT\",\"layout\":{[o.uW.DEFAULT]:{\"size\":\"large\"},[o.uW.CONDENSED]:{\"size\":\"large\"},[o.uW.STATIC]:{\"size\":\"large\"}},\"card\":{\"card_name\":\"t\",\"on_visibility\":{\"scribe\":\"show\"},\"id\":\"e\",\"components\":{[o.uW.DEFAULT]:[o.Fw.MEDIA,...h?[o.Fw.DETAILS]:[],o.Fw.BUTTON_GROUP],[o.uW.STATIC]:[o.Fw.MEDIA_STATIC,...h?[o.Fw.DETAILS]:[],o.Fw.BUTTON_GROUP_STATIC]},\"destinations\":{[o.Fw.DESTINATION]:{\"type\":\"o._g.ACTION\",\"data\":{\"action_data\":{\"persist\":\"!1\",\"type\":\"dm\",\"recipient\":\"E.id_str\"},\"auth_required\":\"!0\",\"scribe\":\"click\",\"promoted_log\":\"i.YE.DM_BUTTON_CLICK\"}},[o.Fw.DESTINATION_STATIC]:{\"type\":\"o._g.BROWSER\",\"data\":{\"url_data\":{\"url\":a.tweetPermalink||o.$H},\"scribe\":\"open_link\",\"promoted_log\":\"i.YE.CARD_URL_CLICK\"}}},\"media_entities\":{[o.Fw.IMAGE_ENTITY]:\"()(0,l.WW)\"{}{\"type\":\"video\",\"aspect_ratio\":\"d\",\"content_id\":()(0,l.SI)||(n,\\\"string_value\\\",\\\"player_content_id\\\")(0,l.cT),\"...u?\":{\"duration_ms\":1e3*parseInt()}:\"null\",\"vmap_url\":\"c\",\"poster_image\":\"s\",\"publisher_id\":()(0,l.SI)||a.tweetUserId,\"variants\":[{\"src\":\"()(0,l.SI)\",\"type\":\"application/x-mpegURL\"}]}},\"components_data\":{[o.Fw.MEDIA]:{\"type\":\"o.Qe.MEDIA\",\"data\":{\"id\":\"o.Fw.VIDEO_ENTITY\"}},[o.Fw.MEDIA_STATIC]:{\"type\":\"o.Qe.MEDIA\",\"data\":{\"id\":\"o.Fw.IMAGE_ENTITY\",\"destination\":\"o.Fw.DESTINATION_STATIC\"}},\"...h?\":{[o.Fw.DETAILS]:{\"type\":\"o.Qe.DETAILS\",\"data\":{\"attribution\":\"g\"}}}:\"null\",[o.Fw.BUTTON_GROUP]:{\"type\":\"o.Qe.BUTTON_GROUP\",\"data\":{\"buttons\":\"m\"}},[o.Fw.BUTTON_GROUP_STATIC]:{\"type\":\"o.Qe.BUTTON_GROUP\",\"data\":{\"buttons\":\"_\"}}}}}},\"shouldRenderCard\":e=>()(0,l.BY)}}",
-  "{\"ActionsBar\":\"C.Z\",\"ActionMenu\":\"function()\"{\"Icon\":\"e\",\"isDisabled\":\"t\",\"items\":\"n\",\"onOpen\":\"r\"}{\"const o=i.useCallback()\"{\"items\":\"n\",\"onCloseRequested\":\"e\"}{\"Icon\":\"e\",\"isDisabled\":\"t\",\"onClick\":\"r\",\"renderActionMenu\":\"o\"}},\"CallToAction\":\"a.ZP\",\"EditCallout\":\"f.Z\",\"Education\":\"_.Z\",\"HighlightedUserLabel\":\"c.Z\",\"Media\":\"E.Z\",\"Place\":\"o.ZP\",\"PromotedDetails\":\"u.Z\",\"PromotedUserProfileCard\":\"P\",\"ReplyContext\":\"L.ZP\",\"RichContent\":\"k.Z\",\"SocialContext\":\"b.Z\",\"Text\":\"D.Z\",\"Tombstone\":\"w.Z\",\"Timestamp\":\"p.Z\",\"UserAvatar\":\"M.Z\",\"UserFollowIndicator\":\"N.Z\",\"UserName\":\"A.Z\",\"VibePill\":\"B.Z\"}",
+  "{\"ActionsBar\":\"C.Z\",\"ActionMenu\":\"function()\"{\"Icon\":\"e\",\"isDisabled\":\"t\",\"items\":\"n\",\"onOpen\":\"i\"}{\"const o=r.useCallback()\"{\"items\":\"n\",\"onCloseRequested\":\"e\"}{\"Icon\":\"e\",\"isDisabled\":\"t\",\"onClick\":\"i\",\"renderActionMenu\":\"o\"}},\"CallToAction\":\"a.ZP\",\"EditCallout\":\"f.Z\",\"Education\":\"_.Z\",\"HighlightedUserLabel\":\"c.Z\",\"Media\":\"E.Z\",\"Place\":\"o.ZP\",\"PromotedDetails\":\"u.Z\",\"PromotedUserProfileCard\":\"P\",\"ReplyContext\":\"L.ZP\",\"RichContent\":\"k.Z\",\"SocialContext\":\"g.Z\",\"Text\":\"M.Z\",\"Tombstone\":\"w.Z\",\"Timestamp\":\"p.Z\",\"UserAvatar\":\"A.Z\",\"UserFollowIndicator\":\"N.Z\",\"UserName\":\"D.Z\",\"VibePill\":\"B.Z\"}",
   {
     "private": "private",
     "public": "public",
@@ -4412,57 +4445,83 @@
     "ExperimentalUserTypeahead": "ExperimentalUserTypeahead"
   },
   {
-    "REQUEST": "rweb/trustedFriendsLists/FETCH_TRUSTED_FRIENDS_LISTS_REQUEST",
-    "SUCCESS": "rweb/trustedFriendsLists/FETCH_TRUSTED_FRIENDS_LISTS_SUCCESS",
-    "FAILURE": "rweb/trustedFriendsLists/FETCH_TRUSTED_FRIENDS_LISTS_FAILURE"
+    "REQUEST": "rweb/quickPromote/eligibilityRequest",
+    "SUCCESS": "rweb/quickPromote/eligibilitySuccess",
+    "FAILURE": "rweb/quickPromote/eligibilityFailure"
   },
   {
-    "REQUEST": "rweb/trustedFriendsLists/CREATE_TRUSTED_FRIENDS_LIST_REQUEST",
-    "SUCCESS": "rweb/trustedFriendsLists/CREATE_TRUSTED_FRIENDS_LIST_SUCCESS",
-    "FAILURE": "rweb/trustedFriendsLists/CREATE_TRUSTED_FRIENDS_LIST_FAILURE"
+    "REQUEST": "rweb/quickPromote/promoteRequest",
+    "SUCCESS": "rweb/quickPromote/promoteSuccess",
+    "FAILURE": "rweb/quickPromote/promoteFailure"
   },
   {
-    "lists": [],
-    "fetchStatus": "E.ZP.NONE"
+    "Any": "AnyGender",
+    "Male": "Male",
+    "Female": "Female"
   },
   {
-    "Crop": "crop",
-    "AltText": "alt_text",
-    "SensitiveMedia": "sensitive_media",
-    "Subtitles": "subtitles",
-    "Trimmer": "trimmer"
+    "AGE_13_TO_24": "Age13To24",
+    "AGE_13_TO_34": "Age13To34",
+    "AGE_13_TO_49": "Age13To49",
+    "AGE_13_TO_54": "Age13To54",
+    "AGE_18_TO_24": "Age18To24",
+    "AGE_18_TO_34": "Age18To34",
+    "AGE_18_TO_49": "Age18To49",
+    "AGE_18_TO_54": "Age18To54",
+    "AGE_21_TO_34": "Age21To34",
+    "AGE_21_TO_49": "Age21To49",
+    "AGE_21_TO_54": "Age21To54",
+    "AGE_25_TO_49": "Age25To49",
+    "AGE_25_TO_54": "Age25To54",
+    "AGE_35_TO_49": "Age35To49",
+    "AGE_35_TO_54": "Age35To54",
+    "AGE_OVER_13": "AgeOver13",
+    "AGE_OVER_18": "AgeOver18",
+    "AGE_OVER_21": "AgeOver21",
+    "AGE_OVER_25": "AgeOver25",
+    "AGE_OVER_35": "AgeOver35",
+    "AGE_OVER_50": "AgeOver50"
   },
+  "{[a.AGE_13_TO_24]:{\"minAge\":\"13\",\"maxAge\":\"24\"},[a.AGE_13_TO_34]:{\"minAge\":\"13\",\"maxAge\":\"34\"},[a.AGE_13_TO_49]:{\"minAge\":\"13\",\"maxAge\":\"49\"},[a.AGE_13_TO_54]:{\"minAge\":\"13\",\"maxAge\":\"54\"},[a.AGE_18_TO_24]:{\"minAge\":\"18\",\"maxAge\":\"24\"},[a.AGE_18_TO_34]:{\"minAge\":\"18\",\"maxAge\":\"34\"},[a.AGE_18_TO_49]:{\"minAge\":\"18\",\"maxAge\":\"49\"},[a.AGE_18_TO_54]:{\"minAge\":\"18\",\"maxAge\":\"54\"},[a.AGE_21_TO_34]:{\"minAge\":\"21\",\"maxAge\":\"34\"},[a.AGE_21_TO_49]:{\"minAge\":\"21\",\"maxAge\":\"49\"},[a.AGE_21_TO_54]:{\"minAge\":\"21\",\"maxAge\":\"54\"},[a.AGE_25_TO_49]:{\"minAge\":\"25\",\"maxAge\":\"49\"},[a.AGE_25_TO_54]:{\"minAge\":\"25\",\"maxAge\":\"54\"},[a.AGE_35_TO_49]:{\"minAge\":\"35\",\"maxAge\":\"49\"},[a.AGE_35_TO_54]:{\"minAge\":\"35\",\"maxAge\":\"54\"},[a.AGE_OVER_13]:{\"minAge\":\"13\"},[a.AGE_OVER_18]:{\"minAge\":\"18\"},[a.AGE_OVER_21]:{\"minAge\":\"21\"},[a.AGE_OVER_25]:{\"minAge\":\"25\"},[a.AGE_OVER_35]:{\"minAge\":\"35\"},[a.AGE_OVER_50]:{\"minAge\":\"50\"}}",
   {
-    "all": {
-      "icon": "Xi",
-      "label": "S().i8ea6d4e"
+    "13": {
+      "24": "a.AGE_13_TO_24",
+      "34": "a.AGE_13_TO_34",
+      "49": "a.AGE_13_TO_49",
+      "54": "a.AGE_13_TO_54",
+      "over": "a.AGE_OVER_13"
     },
-    "community": {
-      "icon": "en",
-      "label": "S().ec5a4a26"
+    "18": {
+      "24": "a.AGE_18_TO_24",
+      "34": "a.AGE_18_TO_34",
+      "49": "a.AGE_18_TO_49",
+      "54": "a.AGE_18_TO_54",
+      "over": "a.AGE_OVER_18"
     },
-    "by_invitation": {
-      "icon": "Ji",
-      "label": "S().b454300a"
+    "21": {
+      "34": "a.AGE_21_TO_34",
+      "49": "a.AGE_21_TO_49",
+      "54": "a.AGE_21_TO_54",
+      "over": "a.AGE_OVER_21"
     },
-    "community_members": {
-      "icon": "tn",
-      "label": "S().i13be5a0"
+    "25": {
+      "49": "a.AGE_25_TO_49",
+      "54": "a.AGE_25_TO_54",
+      "over": "a.AGE_OVER_25"
     },
-    "super_followers_exclusive": {
-      "icon": "Xi",
-      "label": "S().feb7560a"
+    "35": {
+      "49": "a.AGE_35_TO_49",
+      "54": "a.AGE_35_TO_54",
+      "over": "a.AGE_OVER_35"
     },
-    "trusted_friends_tweet": {
-      "icon": "nn",
-      "label": "d"
+    "50": {
+      "over": "a.AGE_OVER_50"
     }
   },
-  "{[mo.Original]:\"OriginalTweet\",[mo.Quote]:\"QuoteTweet\",[mo.Reply]:\"Reply\",[mo.Thread]:\"Retweet\"}",
   {
-    "in": "in",
-    "out": "out",
-    "static": "static"
+    "Engagements": "Engagements",
+    "Followers": "Followers",
+    "WebsiteClicks": "WebsiteClicks"
   },
   {
     "reset": {
@@ -4475,18 +4534,57 @@
     }
   },
   {
+    "Crop": "crop",
+    "AltText": "alt_text",
+    "SensitiveMedia": "sensitive_media",
+    "Subtitles": "subtitles",
+    "Trimmer": "trimmer"
+  },
+  {
+    "all": {
+      "icon": "tn",
+      "label": "C().i8ea6d4e"
+    },
+    "community": {
+      "icon": "sn",
+      "label": "C().ec5a4a26"
+    },
+    "by_invitation": {
+      "icon": "nn",
+      "label": "C().b454300a"
+    },
+    "community_members": {
+      "icon": "an",
+      "label": "C().i13be5a0"
+    },
+    "super_followers_exclusive": {
+      "icon": "tn",
+      "label": "C().feb7560a"
+    },
+    "trusted_friends_tweet": {
+      "icon": "on",
+      "label": "u"
+    }
+  },
+  "{[Aa.Original]:\"OriginalTweet\",[Aa.Quote]:\"QuoteTweet\",[Aa.Reply]:\"Reply\",[Aa.Thread]:\"Retweet\"}",
+  {
+    "in": "in",
+    "out": "out",
+    "static": "static"
+  },
+  {
     "Original": "original",
     "Reply": "reply",
     "Quote": "quote",
     "Thread": "thread"
   },
-  "{[mo.Original]:\"original_tweet\",[mo.Quote]:\"quote_tweet\",[mo.Reply]:\"reply\"}",
+  "{[Aa.Original]:\"original_tweet\",[Aa.Quote]:\"quote_tweet\",[Aa.Reply]:\"reply\"}",
   {
     "LOCAL_STATE_LOADED": "rweb/editTweet/LOCAL_STATE_LOADED",
     "LOCAL_STATE_REQUEST": "rweb/editTweet/LOCAL_STATE_REQUEST"
   },
   {
-    "fetchStatus": "Jo.ZP.NONE",
+    "fetchStatus": "wo.ZP.NONE",
     "editTweetLimitedMarketPromptDismissedEpochMilliseconds": "0"
   },
   {
@@ -4536,6 +4634,20 @@
     "lastSearch": "lastSearch"
   },
   {
+    "REQUEST": "rweb/trustedFriendsLists/FETCH_TRUSTED_FRIENDS_LISTS_REQUEST",
+    "SUCCESS": "rweb/trustedFriendsLists/FETCH_TRUSTED_FRIENDS_LISTS_SUCCESS",
+    "FAILURE": "rweb/trustedFriendsLists/FETCH_TRUSTED_FRIENDS_LISTS_FAILURE"
+  },
+  {
+    "REQUEST": "rweb/trustedFriendsLists/CREATE_TRUSTED_FRIENDS_LIST_REQUEST",
+    "SUCCESS": "rweb/trustedFriendsLists/CREATE_TRUSTED_FRIENDS_LIST_SUCCESS",
+    "FAILURE": "rweb/trustedFriendsLists/CREATE_TRUSTED_FRIENDS_LIST_FAILURE"
+  },
+  {
+    "lists": [],
+    "fetchStatus": "a.ZP.NONE"
+  },
+  {
     "REQUEST": "rweb/scheduledTweets/FETCH_SCHEDULED_TWEETS_REQUEST",
     "SUCCESS": "rweb/scheduledTweets/FETCH_SCHEDULED_TWEETS_SUCCESS",
     "FAILURE": "rweb/scheduledTweets/FETCH_SCHEDULED_TWEETS_FAILURE"
@@ -4562,7 +4674,7 @@
     "SUCCESS": "rweb/scheduledTweets/DELETE_SCHEDULED_TWEET_SUCCESS",
     "FAILURE": "rweb/scheduledTweets/DELETE_SCHEDULED_TWEET_FAILURE"
   },
-  "{\"ActionsBar\":\"b.Z\",\"ActionMenu\":\"function()\"{\"Icon\":\"e\",\"isDisabled\":\"t\",\"items\":\"n\",\"onOpen\":\"i\"}{\"const o=r.useCallback()\"{\"items\":\"n\",\"onCloseRequested\":\"e\"}{\"Icon\":\"e\",\"isDisabled\":\"t\",\"onClick\":\"i\",\"renderActionMenu\":\"o\"}},\"CallToAction\":\"a.ZP\",\"EditCallout\":\"f.Z\",\"Education\":\"C.Z\",\"HighlightedUserLabel\":\"d.Z\",\"Media\":\"E.Z\",\"Place\":\"o.ZP\",\"PromotedDetails\":\"u.Z\",\"PromotedUserProfileCard\":\"D\",\"ReplyContext\":\"k.ZP\",\"RichContent\":\"L.Z\",\"SocialContext\":\"_.Z\",\"Text\":\"P.Z\",\"Tombstone\":\"g.Z\",\"Timestamp\":\"p.Z\",\"UserAvatar\":\"A.Z\",\"UserFollowIndicator\":\"R.Z\",\"UserName\":\"U.Z\",\"VibePill\":\"F.Z\"}",
+  "{\"ActionsBar\":\"b.Z\",\"ActionMenu\":\"function()\"{\"Icon\":\"e\",\"isDisabled\":\"t\",\"items\":\"n\",\"onOpen\":\"i\"}{\"const o=r.useCallback()\"{\"items\":\"n\",\"onCloseRequested\":\"e\"}{\"Icon\":\"e\",\"isDisabled\":\"t\",\"onClick\":\"i\",\"renderActionMenu\":\"o\"}},\"CallToAction\":\"a.ZP\",\"EditCallout\":\"f.Z\",\"Education\":\"C.Z\",\"HighlightedUserLabel\":\"d.Z\",\"Media\":\"E.Z\",\"Place\":\"o.ZP\",\"PromotedDetails\":\"u.Z\",\"PromotedUserProfileCard\":\"L\",\"ReplyContext\":\"k.ZP\",\"RichContent\":\"P.Z\",\"SocialContext\":\"_.Z\",\"Text\":\"D.Z\",\"Tombstone\":\"g.Z\",\"Timestamp\":\"p.Z\",\"UserAvatar\":\"A.Z\",\"UserFollowIndicator\":\"R.Z\",\"UserName\":\"M.Z\",\"VibePill\":\"F.Z\"}",
   {
     "TWEET_CARET": "tweet_caret",
     "PROFILE": "user_profile",
@@ -4577,7 +4689,8 @@
     "UserCompact": "UserCompact",
     "UserConcise": "UserConcise",
     "UserDetailed": "UserDetailed",
-    "PendingFollowUser": "PendingFollowUser"
+    "PendingFollowUser": "PendingFollowUser",
+    "SubscribableUser": "SubscribableUser"
   },
   {
     "START": "start",
@@ -4589,7 +4702,8 @@
     "UserCompact": "UserCompact",
     "UserConcise": "UserConcise",
     "UserDetailed": "UserDetailed",
-    "PendingFollowUser": "PendingFollowUser"
+    "PendingFollowUser": "PendingFollowUser",
+    "SubscribableUser": "SubscribableUser"
   },
   {
     "DELEGATE_ERR_002": "U",
@@ -5009,12 +5123,12 @@
   {
     "earnings": {
       "link": "/settings/monetization/earnings",
-      "text": "d",
+      "text": "p",
       "size": "xLarge"
     },
     "payoutHistory": {
       "link": "/settings/monetization/payout_history",
-      "text": "c"
+      "text": "b"
     }
   },
   {
@@ -5047,7 +5161,7 @@
     "SUCCESS": "rweb/safetyMode/FETCH_SAFETY_MODE_SETTINGS_SUCCESS",
     "FAILURE": "rweb/safetyMode/FETCH_SAFETY_MODE_SETTINGS_FAILURE"
   },
-  "{[x.ActionedTweets]:{\"backLocation\":\"I\",\"confirmationSheetHeadline\":\"()(0,o.X_)\"{\"screenName\":\"m\"}{\"screenName\":\"m\"}},[x.PreviewFlaggedTweets]:{\"backLocation\":\"A\",\"confirmationSheetHeadline\":\"S()\"{\"screenName\":\"m\"}{\"screenName\":\"m\"}}}",
+  "{[x.ActionedTweets]:{\"backLocation\":\"I\",\"confirmationSheetHeadline\":\"()(0,o.X_)\"{\"screenName\":\"m\"}{\"screenName\":\"m\"}},[x.PreviewFlaggedTweets]:{\"backLocation\":\"A\",\"confirmationSheetHeadline\":\"v()\"{\"screenName\":\"m\"}{\"screenName\":\"m\"}}}",
   {
     "ActionedTweets": "actioned_tweets",
     "PreviewFlaggedTweets": "preview_flagged_tweets"
@@ -5076,7 +5190,7 @@
     "following": "following",
     "none": "none"
   },
-  "{\"root\":`${\"i\"}/application`,\"eligibility\":`${\"i\"}/application/eligibility`,\"confirmAge\":`${\"i\"}/application/confirm_age`,\"completeProfile\":`${\"i\"}/application/complete_profile`,\"submit\":`${\"i\"}/application/submit`,\"submitCategories\":`${\"i\"}/application/submit_categories`,\"submitCategoriesOther\":`${\"i\"}/application/submit_categories_other`,\"submitPlatforms\":`${\"i\"}/application/submit_platforms`,\"submitPlatformsOther\":`${\"i\"}/application/submit_platforms_other`,\"submitted\":`${\"i\"}/application/submitted`,\"waitlisted\":`${\"i\"}/application/waitlisted`,\"rejected\":`${\"i\"}/application/rejected`}",
+  "{\"root\":`${\"i\"}/application`,\"eligibility\":`${\"i\"}/application/eligibility`,\"pricing\":`${\"i\"}/application/pricing`,\"confirmAge\":`${\"i\"}/application/confirm_age`,\"completeProfile\":`${\"i\"}/application/complete_profile`,\"submit\":`${\"i\"}/application/submit`,\"submitCategories\":`${\"i\"}/application/submit_categories`,\"submitCategoriesOther\":`${\"i\"}/application/submit_categories_other`,\"submitPlatforms\":`${\"i\"}/application/submit_platforms`,\"submitPlatformsOther\":`${\"i\"}/application/submit_platforms_other`,\"submitted\":`${\"i\"}/application/submitted`,\"waitlisted\":`${\"i\"}/application/waitlisted`,\"rejected\":`${\"i\"}/application/rejected`}",
   "{\"root\":`${\"i\"}/onboarding`,\"perksIntro\":`${\"i\"}/onboarding/perks_intro`,\"perksDescription\":`${\"i\"}/onboarding/perks_description`,\"perksBadges\":`${\"i\"}/onboarding/perks_badges`,\"perksConfirm\":`${\"i\"}/onboarding/perks_confirm`,\"pricing\":`${\"i\"}/onboarding/pricing`,\"pricingConfirm\":`${\"i\"}/onboarding/pricing_confirm`,\"stripeSetup\":`${\"i\"}/onboarding/stripe_setup`,\"stripePending\":`${\"i\"}/onboarding/stripe_pending`,\"stripeCompleted\":`${\"i\"}/onboarding/stripe_completed`}",
   "{\"root\":`${\"i\"}/management`,\"perksIntro\":`${\"i\"}/management/perks_intro`,\"perksDescription\":`${\"i\"}/management/perks_description`,\"perksConfirm\":`${\"i\"}/management/perks_confirm`}",
   {
@@ -5320,7 +5434,7 @@
     "yellow0": "yellow500",
     "gray0": "gray500"
   },
-  "{\"root\":`${\"t\"}/application`,\"eligibility\":`${\"t\"}/application/eligibility`,\"confirmAge\":`${\"t\"}/application/confirm_age`,\"completeProfile\":`${\"t\"}/application/complete_profile`,\"submit\":`${\"t\"}/application/submit`,\"submitCategories\":`${\"t\"}/application/submit_categories`,\"submitCategoriesOther\":`${\"t\"}/application/submit_categories_other`,\"submitPlatforms\":`${\"t\"}/application/submit_platforms`,\"submitPlatformsOther\":`${\"t\"}/application/submit_platforms_other`,\"submitted\":`${\"t\"}/application/submitted`,\"waitlisted\":`${\"t\"}/application/waitlisted`,\"rejected\":`${\"t\"}/application/rejected`}",
+  "{\"root\":`${\"t\"}/application`,\"eligibility\":`${\"t\"}/application/eligibility`,\"pricing\":`${\"t\"}/application/pricing`,\"confirmAge\":`${\"t\"}/application/confirm_age`,\"completeProfile\":`${\"t\"}/application/complete_profile`,\"submit\":`${\"t\"}/application/submit`,\"submitCategories\":`${\"t\"}/application/submit_categories`,\"submitCategoriesOther\":`${\"t\"}/application/submit_categories_other`,\"submitPlatforms\":`${\"t\"}/application/submit_platforms`,\"submitPlatformsOther\":`${\"t\"}/application/submit_platforms_other`,\"submitted\":`${\"t\"}/application/submitted`,\"waitlisted\":`${\"t\"}/application/waitlisted`,\"rejected\":`${\"t\"}/application/rejected`}",
   "{\"root\":`${\"t\"}/onboarding`,\"perksIntro\":`${\"t\"}/onboarding/perks_intro`,\"perksDescription\":`${\"t\"}/onboarding/perks_description`,\"perksBadges\":`${\"t\"}/onboarding/perks_badges`,\"perksConfirm\":`${\"t\"}/onboarding/perks_confirm`,\"pricing\":`${\"t\"}/onboarding/pricing`,\"pricingConfirm\":`${\"t\"}/onboarding/pricing_confirm`,\"stripeSetup\":`${\"t\"}/onboarding/stripe_setup`,\"stripePending\":`${\"t\"}/onboarding/stripe_pending`,\"stripeCompleted\":`${\"t\"}/onboarding/stripe_completed`}",
   "{\"root\":`${\"t\"}/management`,\"perksIntro\":`${\"t\"}/management/perks_intro`,\"perksDescription\":`${\"t\"}/management/perks_description`,\"perksConfirm\":`${\"t\"}/management/perks_confirm`}",
   {
@@ -5685,7 +5799,7 @@
     "Space": "reportspace",
     "AppealSuspension": "appealsuspension"
   },
-  "{\"ActionsBar\":\"C.Z\",\"ActionMenu\":\"function()\"{\"Icon\":\"e\",\"isDisabled\":\"t\",\"items\":\"n\",\"onOpen\":\"r\"}{\"const a=i.useCallback()\"{\"items\":\"n\",\"onCloseRequested\":\"e\"}{\"Icon\":\"e\",\"isDisabled\":\"t\",\"onClick\":\"r\",\"renderActionMenu\":\"a\"}},\"CallToAction\":\"l.ZP\",\"EditCallout\":\"f.Z\",\"Education\":\"_.Z\",\"HighlightedUserLabel\":\"d.Z\",\"Media\":\"T.Z\",\"Place\":\"a.ZP\",\"PromotedDetails\":\"u.Z\",\"PromotedUserProfileCard\":\"S\",\"ReplyContext\":\"L.ZP\",\"RichContent\":\"P.Z\",\"SocialContext\":\"g.Z\",\"Text\":\"D.Z\",\"Tombstone\":\"y.Z\",\"Timestamp\":\"p.Z\",\"UserAvatar\":\"F.Z\",\"UserFollowIndicator\":\"M.Z\",\"UserName\":\"U.Z\",\"VibePill\":\"R.Z\"}",
+  "{\"ActionsBar\":\"C.Z\",\"ActionMenu\":\"function()\"{\"Icon\":\"e\",\"isDisabled\":\"t\",\"items\":\"n\",\"onOpen\":\"r\"}{\"const a=i.useCallback()\"{\"items\":\"n\",\"onCloseRequested\":\"e\"}{\"Icon\":\"e\",\"isDisabled\":\"t\",\"onClick\":\"r\",\"renderActionMenu\":\"a\"}},\"CallToAction\":\"o.ZP\",\"EditCallout\":\"f.Z\",\"Education\":\"_.Z\",\"HighlightedUserLabel\":\"c.Z\",\"Media\":\"T.Z\",\"Place\":\"a.ZP\",\"PromotedDetails\":\"u.Z\",\"PromotedUserProfileCard\":\"S\",\"ReplyContext\":\"L.ZP\",\"RichContent\":\"P.Z\",\"SocialContext\":\"h.Z\",\"Text\":\"U.Z\",\"Tombstone\":\"y.Z\",\"Timestamp\":\"p.Z\",\"UserAvatar\":\"F.Z\",\"UserFollowIndicator\":\"A.Z\",\"UserName\":\"M.Z\",\"VibePill\":\"D.Z\"}",
   {
     "original": "original",
     "banner": "banner",
@@ -5753,6 +5867,20 @@
     "Favorite": "favorite"
   },
   {
+    "REQUEST": "rweb/trustedFriendsLists/FETCH_TRUSTED_FRIENDS_LISTS_REQUEST",
+    "SUCCESS": "rweb/trustedFriendsLists/FETCH_TRUSTED_FRIENDS_LISTS_SUCCESS",
+    "FAILURE": "rweb/trustedFriendsLists/FETCH_TRUSTED_FRIENDS_LISTS_FAILURE"
+  },
+  {
+    "REQUEST": "rweb/trustedFriendsLists/CREATE_TRUSTED_FRIENDS_LIST_REQUEST",
+    "SUCCESS": "rweb/trustedFriendsLists/CREATE_TRUSTED_FRIENDS_LIST_SUCCESS",
+    "FAILURE": "rweb/trustedFriendsLists/CREATE_TRUSTED_FRIENDS_LIST_FAILURE"
+  },
+  {
+    "lists": [],
+    "fetchStatus": "n.ZP.NONE"
+  },
+  {
     "relevant": "relevant",
     "all": "all"
   },
@@ -5772,85 +5900,6 @@
     "teal0": "teal500",
     "yellow0": "yellow500",
     "gray0": "gray500"
-  },
-  {
-    "REQUEST": "rweb/quickPromote/eligibilityRequest",
-    "SUCCESS": "rweb/quickPromote/eligibilitySuccess",
-    "FAILURE": "rweb/quickPromote/eligibilityFailure"
-  },
-  {
-    "REQUEST": "rweb/quickPromote/promoteRequest",
-    "SUCCESS": "rweb/quickPromote/promoteSuccess",
-    "FAILURE": "rweb/quickPromote/promoteFailure"
-  },
-  {
-    "Any": "AnyGender",
-    "Male": "Male",
-    "Female": "Female"
-  },
-  {
-    "AGE_13_TO_24": "Age13To24",
-    "AGE_13_TO_34": "Age13To34",
-    "AGE_13_TO_49": "Age13To49",
-    "AGE_13_TO_54": "Age13To54",
-    "AGE_18_TO_24": "Age18To24",
-    "AGE_18_TO_34": "Age18To34",
-    "AGE_18_TO_49": "Age18To49",
-    "AGE_18_TO_54": "Age18To54",
-    "AGE_21_TO_34": "Age21To34",
-    "AGE_21_TO_49": "Age21To49",
-    "AGE_21_TO_54": "Age21To54",
-    "AGE_25_TO_49": "Age25To49",
-    "AGE_25_TO_54": "Age25To54",
-    "AGE_35_TO_49": "Age35To49",
-    "AGE_35_TO_54": "Age35To54",
-    "AGE_OVER_13": "AgeOver13",
-    "AGE_OVER_18": "AgeOver18",
-    "AGE_OVER_21": "AgeOver21",
-    "AGE_OVER_25": "AgeOver25",
-    "AGE_OVER_35": "AgeOver35",
-    "AGE_OVER_50": "AgeOver50"
-  },
-  "{[n.AGE_13_TO_24]:{\"minAge\":\"13\",\"maxAge\":\"24\"},[n.AGE_13_TO_34]:{\"minAge\":\"13\",\"maxAge\":\"34\"},[n.AGE_13_TO_49]:{\"minAge\":\"13\",\"maxAge\":\"49\"},[n.AGE_13_TO_54]:{\"minAge\":\"13\",\"maxAge\":\"54\"},[n.AGE_18_TO_24]:{\"minAge\":\"18\",\"maxAge\":\"24\"},[n.AGE_18_TO_34]:{\"minAge\":\"18\",\"maxAge\":\"34\"},[n.AGE_18_TO_49]:{\"minAge\":\"18\",\"maxAge\":\"49\"},[n.AGE_18_TO_54]:{\"minAge\":\"18\",\"maxAge\":\"54\"},[n.AGE_21_TO_34]:{\"minAge\":\"21\",\"maxAge\":\"34\"},[n.AGE_21_TO_49]:{\"minAge\":\"21\",\"maxAge\":\"49\"},[n.AGE_21_TO_54]:{\"minAge\":\"21\",\"maxAge\":\"54\"},[n.AGE_25_TO_49]:{\"minAge\":\"25\",\"maxAge\":\"49\"},[n.AGE_25_TO_54]:{\"minAge\":\"25\",\"maxAge\":\"54\"},[n.AGE_35_TO_49]:{\"minAge\":\"35\",\"maxAge\":\"49\"},[n.AGE_35_TO_54]:{\"minAge\":\"35\",\"maxAge\":\"54\"},[n.AGE_OVER_13]:{\"minAge\":\"13\"},[n.AGE_OVER_18]:{\"minAge\":\"18\"},[n.AGE_OVER_21]:{\"minAge\":\"21\"},[n.AGE_OVER_25]:{\"minAge\":\"25\"},[n.AGE_OVER_35]:{\"minAge\":\"35\"},[n.AGE_OVER_50]:{\"minAge\":\"50\"}}",
-  {
-    "13": {
-      "24": "n.AGE_13_TO_24",
-      "34": "n.AGE_13_TO_34",
-      "49": "n.AGE_13_TO_49",
-      "54": "n.AGE_13_TO_54",
-      "over": "n.AGE_OVER_13"
-    },
-    "18": {
-      "24": "n.AGE_18_TO_24",
-      "34": "n.AGE_18_TO_34",
-      "49": "n.AGE_18_TO_49",
-      "54": "n.AGE_18_TO_54",
-      "over": "n.AGE_OVER_18"
-    },
-    "21": {
-      "34": "n.AGE_21_TO_34",
-      "49": "n.AGE_21_TO_49",
-      "54": "n.AGE_21_TO_54",
-      "over": "n.AGE_OVER_21"
-    },
-    "25": {
-      "49": "n.AGE_25_TO_49",
-      "54": "n.AGE_25_TO_54",
-      "over": "n.AGE_OVER_25"
-    },
-    "35": {
-      "49": "n.AGE_35_TO_49",
-      "54": "n.AGE_35_TO_54",
-      "over": "n.AGE_OVER_35"
-    },
-    "50": {
-      "over": "n.AGE_OVER_50"
-    }
-  },
-  {
-    "Engagements": "Engagements",
-    "Followers": "Followers",
-    "WebsiteClicks": "WebsiteClicks"
   },
   {
     "CONTROL": "0",
@@ -5941,7 +5990,8 @@
     "UserCompact": "UserCompact",
     "UserConcise": "UserConcise",
     "UserDetailed": "UserDetailed",
-    "PendingFollowUser": "PendingFollowUser"
+    "PendingFollowUser": "PendingFollowUser",
+    "SubscribableUser": "SubscribableUser"
   },
   {
     "TWEET_CARET": "tweet_caret",
@@ -5957,7 +6007,8 @@
     "UserCompact": "UserCompact",
     "UserConcise": "UserConcise",
     "UserDetailed": "UserDetailed",
-    "PendingFollowUser": "PendingFollowUser"
+    "PendingFollowUser": "PendingFollowUser",
+    "SubscribableUser": "SubscribableUser"
   },
   {
     "START": "start",
@@ -6053,6 +6104,20 @@
     "Completed": "completed"
   },
   {
+    "REQUEST": "rweb/trustedFriendsLists/FETCH_TRUSTED_FRIENDS_LISTS_REQUEST",
+    "SUCCESS": "rweb/trustedFriendsLists/FETCH_TRUSTED_FRIENDS_LISTS_SUCCESS",
+    "FAILURE": "rweb/trustedFriendsLists/FETCH_TRUSTED_FRIENDS_LISTS_FAILURE"
+  },
+  {
+    "REQUEST": "rweb/trustedFriendsLists/CREATE_TRUSTED_FRIENDS_LIST_REQUEST",
+    "SUCCESS": "rweb/trustedFriendsLists/CREATE_TRUSTED_FRIENDS_LIST_SUCCESS",
+    "FAILURE": "rweb/trustedFriendsLists/CREATE_TRUSTED_FRIENDS_LIST_FAILURE"
+  },
+  {
+    "lists": [],
+    "fetchStatus": "s.ZP.NONE"
+  },
+  {
     "Recommendations": "recommendations",
     "Search": "search"
   },
@@ -6127,7 +6192,8 @@
     "UserCompact": "UserCompact",
     "UserConcise": "UserConcise",
     "UserDetailed": "UserDetailed",
-    "PendingFollowUser": "PendingFollowUser"
+    "PendingFollowUser": "PendingFollowUser",
+    "SubscribableUser": "SubscribableUser"
   },
   {
     "navButtons": "navigationButtons",
@@ -6174,30 +6240,30 @@
   {
     "default": "tweets",
     "with_replies": "tweets_and_replies",
-    "superfollows": "superfollows_tweets"
+    "superfollows": "superfollows_tweets",
+    "highlights": "highlights_tweets"
   },
   {
     "default": "r().ccc9153f",
     "with_replies": "r().ccc9153f",
-    "superfollows": "r().d77ea487"
+    "superfollows": "r().d77ea487",
+    "highlights": "r().ac3f4be9"
   },
-  "{\"default\":()=>r().g784d3c6,\"with_replies\":()=>r().g784d3c6,\"superfollows\":()=>r().ce659062}",
+  "{\"default\":()=>r().g784d3c6,\"with_replies\":()=>r().g784d3c6,\"superfollows\":()=>r().ce659062,\"highlights\":()=>r().ja665c0c}",
   "{\"default\":()=>r().d1e5e328,\"with_replies\":()=>r().d1e5e328,\"superfollows\":()=>r().bb3406a6}",
-  {
-    "default": "r().dc1f8991",
-    "with_replies": "r().dc1f8991",
-    "superfollows": "r().ba145149"
-  },
+  "{\"default\":\"r().dc1f8991\",\"with_replies\":\"r().dc1f8991\",\"superfollows\":\"r().ba145149\",\"highlights\":()=>r().ja665c0c}",
   "{\"default\":()=>r().e4f9514c,\"with_replies\":()=>r().e4f9514c,\"superfollows\":()=>r().cb59ea14}",
   {
     "default": "r().cc01c9b5",
     "with_replies": "r().cc01c9b5",
-    "superfollows": "r().c137eff1"
+    "superfollows": "r().c137eff1",
+    "highlights": "r().e8300dbb"
   },
   {
     "default": "r().c6ea308b",
     "with_replies": "r().e021c003",
-    "superfollows": "r().ee210f41"
+    "superfollows": "r().ee210f41",
+    "highlights": "r().g7ccac9d"
   },
   {
     "REQUEST": "rweb/userTweetStats/FETCH_USER_TWEET_STATS_REQUEST",
@@ -6243,7 +6309,7 @@
   },
   {
     "fetchStatus": "_.ZP.NONE",
-    "config": "xe"
+    "config": "Ze"
   },
   {
     "createInvite": "createInvite",
@@ -6266,6 +6332,11 @@
     "search": "search"
   },
   {
+    "Default": "Default",
+    "Pivot": "Pivot",
+    "Reorder": "Reorder"
+  },
+  {
     "REQUEST": "rweb/savedSearches/FETCH_SAVED_SEARCHES_REQUEST",
     "SUCCESS": "rweb/savedSearches/FETCH_SAVED_SEARCHES_SUCCESS",
     "FAILURE": "rweb/savedSearches/FETCH_SAVED_SEARCHES_FAILURE"
@@ -6279,20 +6350,6 @@
     "REQUEST": "rweb/savedSearches/DELETE_SAVED_SEARCH_REQUEST",
     "SUCCESS": "rweb/savedSearches/DELETE_SAVED_SEARCH_SUCCESS",
     "FAILURE": "rweb/savedSearches/DELETE_SAVED_SEARCH_FAILURE"
-  },
-  {
-    "REQUEST": "rweb/trustedFriendsLists/FETCH_TRUSTED_FRIENDS_LISTS_REQUEST",
-    "SUCCESS": "rweb/trustedFriendsLists/FETCH_TRUSTED_FRIENDS_LISTS_SUCCESS",
-    "FAILURE": "rweb/trustedFriendsLists/FETCH_TRUSTED_FRIENDS_LISTS_FAILURE"
-  },
-  {
-    "REQUEST": "rweb/trustedFriendsLists/CREATE_TRUSTED_FRIENDS_LIST_REQUEST",
-    "SUCCESS": "rweb/trustedFriendsLists/CREATE_TRUSTED_FRIENDS_LIST_SUCCESS",
-    "FAILURE": "rweb/trustedFriendsLists/CREATE_TRUSTED_FRIENDS_LIST_FAILURE"
-  },
-  {
-    "lists": [],
-    "fetchStatus": "r.ZP.NONE"
   },
   {
     "newColumn": "newColumn",
@@ -6469,7 +6526,8 @@
     "UserCompact": "UserCompact",
     "UserConcise": "UserConcise",
     "UserDetailed": "UserDetailed",
-    "PendingFollowUser": "PendingFollowUser"
+    "PendingFollowUser": "PendingFollowUser",
+    "SubscribableUser": "SubscribableUser"
   },
   {
     "INSIDE": "inside",
@@ -6692,7 +6750,7 @@
     "IncentiveFocus": "IncentiveFocus",
     "TopicFocus": "TopicFocus"
   },
-  "{[A.LIVE_EVENT]:\"!0\",[A.MOMENT]:\"!0\",[A.SUMMARY]:\"!0\",[A.SUMMARY_LARGE_IMAGE]:\"!0\",[A.AUDIOSPACE]:\"!0\"}",
+  "{[x.LIVE_EVENT]:\"!0\",[x.MOMENT]:\"!0\",[x.SUMMARY]:\"!0\",[x.SUMMARY_LARGE_IMAGE]:\"!0\",[x.AUDIOSPACE]:\"!0\"}",
   {
     "CompactPrompt": "compactPrompt",
     "HeaderImagePrompt": "headerImagePrompt",

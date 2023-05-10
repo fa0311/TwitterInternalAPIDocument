@@ -126,24 +126,6 @@
     ]
   },
   {
-    "queryId": "dm/reaction/new",
-    "dispatch_key": "post",
-    "dispatch": [
-      "post",
-      "",
-      "https://api.twitter.com/1.1/{queryId}.json"
-    ]
-  },
-  {
-    "queryId": "dm/reaction/delete",
-    "dispatch_key": "post",
-    "dispatch": [
-      "post",
-      "",
-      "https://api.twitter.com/1.1/{queryId}.json"
-    ]
-  },
-  {
     "queryId": "dm/permissions",
     "dispatch_key": "get",
     "dispatch": [
@@ -157,15 +139,6 @@
     "dispatch_key": "get",
     "dispatch": [
       "get",
-      "",
-      "https://api.twitter.com/1.1/{queryId}.json"
-    ]
-  },
-  {
-    "queryId": "dm/destroy",
-    "dispatch_key": "post",
-    "dispatch": [
-      "post",
       "",
       "https://api.twitter.com/1.1/{queryId}.json"
     ]
