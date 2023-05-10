@@ -4764,10 +4764,10 @@
           "value": "true"
         },
         "super_follow_onboarding_application_perks_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "super_follow_onboarding_application_redesign_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "super_follow_onboarding_blue_verified_requirement_enabled": {
           "value": "true"
@@ -5211,7 +5211,7 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "f51e764224e3adaad49d4744e557b307"
+      "settingsVersion": "2d77235f640beedf8ff173d64a8ee50a"
     },
     "debug": {},
     "featureSetToken": "5905d9c95e4dbd6a5237badbebc7f0388703164b",
@@ -5286,7 +5286,7 @@
     "country": "US",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "168366669944058446",
+    "guestId": "168375333438416430",
     "hasCommunityMemberships": "false",
     "language": "en",
     "oneFactorLoginEligibility": {
