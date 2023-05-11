@@ -2046,7 +2046,7 @@
         ],
         "featureSwitch": {
           "responsive_web_birdwatch_note_limit_enabled": {
-            "value": "false"
+            "value": "true"
           }
         }
       }
@@ -19782,7 +19782,7 @@
         ],
         "featureSwitch": {
           "responsive_web_birdwatch_note_limit_enabled": {
-            "value": "false"
+            "value": "true"
           }
         }
       }
