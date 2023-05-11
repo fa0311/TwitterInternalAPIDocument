@@ -3408,10 +3408,10 @@
           "value": "true"
         },
         "highlights_tweets_action_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "highlights_tweets_tab_ui_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "home_timeline_like_reactivity_enabled": {
           "value": "true"
@@ -5211,7 +5211,7 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "2d77235f640beedf8ff173d64a8ee50a"
+      "settingsVersion": "0cd3a6fb9d55bd047265798c98fdce1e"
     },
     "debug": {},
     "featureSetToken": "5905d9c95e4dbd6a5237badbebc7f0388703164b",
@@ -5286,7 +5286,7 @@
     "country": "US",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "168375333438416430",
+    "guestId": "168383961156202139",
     "hasCommunityMemberships": "false",
     "language": "en",
     "oneFactorLoginEligibility": {
