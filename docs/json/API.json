@@ -646,10 +646,12 @@
       "features": {}
     },
     "BirdwatchFetchAuthenticatedUserProfile": {
-      "url": "https://twitter.com/i/api/graphql/pMbW6Y4LuS5MzlSOEqERJQ/BirdwatchFetchAuthenticatedUserProfile",
-      "queryId": "pMbW6Y4LuS5MzlSOEqERJQ",
+      "url": "https://twitter.com/i/api/graphql/wPAWxQMAlJP7SpkwiQnn9w/BirdwatchFetchAuthenticatedUserProfile",
+      "queryId": "wPAWxQMAlJP7SpkwiQnn9w",
       "method": "GET",
-      "features": {}
+      "features": {
+        "responsive_web_birdwatch_note_limit_enabled": false
+      }
     },
     "BirdwatchFetchBirdwatchProfile": {
       "url": "https://twitter.com/i/api/graphql/btgGtchypc3D491MJ7XXWA/BirdwatchFetchBirdwatchProfile",

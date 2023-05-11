@@ -86,12 +86,7 @@
       "errors": {},
       "fetchStatus": {}
     },
-    "liveEvents": {
-      "entities": {},
-      "errors": {},
-      "fetchStatus": {}
-    },
-    "legacyAndUnifiedCards": {
+    "emailValidity": {
       "entities": {},
       "errors": {},
       "fetchStatus": {}
@@ -106,17 +101,22 @@
       "errors": {},
       "fetchStatus": {}
     },
-    "emailValidity": {
-      "entities": {},
-      "errors": {},
-      "fetchStatus": {}
-    },
     "passwordValidity": {
       "entities": {},
       "errors": {},
       "fetchStatus": {}
     },
     "phoneNumberValidity": {
+      "entities": {},
+      "errors": {},
+      "fetchStatus": {}
+    },
+    "legacyAndUnifiedCards": {
+      "entities": {},
+      "errors": {},
+      "fetchStatus": {}
+    },
+    "liveEvents": {
       "entities": {},
       "errors": {},
       "fetchStatus": {}
@@ -687,7 +687,7 @@
         "value": "true"
       },
       "dm_replies_ui_rendering_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "dm_secret_conversations_enabled": {
         "value": "false"
@@ -1215,6 +1215,9 @@
         "value": "false"
       },
       "responsive_web_birdwatch_media_notes_enabled": {
+        "value": "false"
+      },
+      "responsive_web_birdwatch_note_limit_enabled": {
         "value": "false"
       },
       "responsive_web_birdwatch_note_writing_enabled": {
@@ -3243,7 +3246,7 @@
           "value": "true"
         },
         "dm_replies_ui_rendering_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "dm_secret_conversations_enabled": {
           "value": "false"
@@ -3772,6 +3775,9 @@
         },
         "responsive_web_birdwatch_media_notes_enabled": {
           "value": "false"
+        },
+        "responsive_web_birdwatch_note_limit_enabled": {
+          "value": "true"
         },
         "responsive_web_birdwatch_note_writing_enabled": {
           "value": "false"
@@ -4790,10 +4796,10 @@
           "value": "true"
         },
         "super_follow_onboarding_application_perks_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "super_follow_onboarding_application_redesign_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "super_follow_onboarding_blue_verified_requirement_enabled": {
           "value": "true"
@@ -5237,10 +5243,10 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "b62d448dd8b64026ced7c2a0a2b1065d"
+      "settingsVersion": "a1b5d61f5624efcafc960d48de828fb3"
     },
     "debug": {},
-    "featureSetToken": "272fa2c1c23594f134952f1faddc8b045291e73b",
+    "featureSetToken": "6df1e9f3875bbd43a2220fa17874900f81007a1b",
     "isLoaded": "true",
     "isLoading": "false"
   },
@@ -5312,7 +5318,7 @@
     "country": "US",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "168366638655841618",
+    "guestId": "168375299440456743",
     "hasCommunityMemberships": "false",
     "language": "en",
     "oneFactorLoginEligibility": {

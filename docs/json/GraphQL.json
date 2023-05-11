@@ -2037,12 +2037,18 @@
   {
     "n": "68783",
     "exports": {
-      "queryId": "pMbW6Y4LuS5MzlSOEqERJQ",
+      "queryId": "wPAWxQMAlJP7SpkwiQnn9w",
       "operationName": "BirdwatchFetchAuthenticatedUserProfile",
       "operationType": "query",
       "metadata": {
-        "featureSwitches": [],
-        "featureSwitch": {}
+        "featureSwitches": [
+          "responsive_web_birdwatch_note_limit_enabled"
+        ],
+        "featureSwitch": {
+          "responsive_web_birdwatch_note_limit_enabled": {
+            "value": "false"
+          }
+        }
       }
     }
   },
@@ -19767,12 +19773,18 @@
   {
     "n": "68783",
     "exports": {
-      "queryId": "pMbW6Y4LuS5MzlSOEqERJQ",
+      "queryId": "wPAWxQMAlJP7SpkwiQnn9w",
       "operationName": "BirdwatchFetchAuthenticatedUserProfile",
       "operationType": "query",
       "metadata": {
-        "featureSwitches": [],
-        "featureSwitch": {}
+        "featureSwitches": [
+          "responsive_web_birdwatch_note_limit_enabled"
+        ],
+        "featureSwitch": {
+          "responsive_web_birdwatch_note_limit_enabled": {
+            "value": "false"
+          }
+        }
       }
     }
   },
