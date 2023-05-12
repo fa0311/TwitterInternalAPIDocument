@@ -13342,6 +13342,18 @@
     }
   },
   {
+    "n": "47639",
+    "exports": {
+      "queryId": "hiAXpFX4zFb6vOvGctGYyQ",
+      "operationName": "BoostAudienceEstimate",
+      "operationType": "query",
+      "metadata": {
+        "featureSwitches": [],
+        "featureSwitch": {}
+      }
+    }
+  },
+  {
     "n": "70648",
     "exports": {
       "queryId": "mbK3oSQotwcJXyQIBE3uYw",
@@ -19023,7 +19035,7 @@
             "value": "false"
           },
           "highlights_tweets_tab_ui_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "creator_subscriptions_tweet_preview_api_enabled": {
             "value": "false"
@@ -19065,7 +19077,7 @@
             "value": "false"
           },
           "highlights_tweets_tab_ui_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "creator_subscriptions_tweet_preview_api_enabled": {
             "value": "false"
@@ -26091,6 +26103,18 @@
     }
   },
   {
+    "n": "47639",
+    "exports": {
+      "queryId": "hiAXpFX4zFb6vOvGctGYyQ",
+      "operationName": "BoostAudienceEstimate",
+      "operationType": "query",
+      "metadata": {
+        "featureSwitches": [],
+        "featureSwitch": {}
+      }
+    }
+  },
+  {
     "n": "70648",
     "exports": {
       "queryId": "mbK3oSQotwcJXyQIBE3uYw",
@@ -29035,7 +29059,7 @@
             "value": "false"
           },
           "highlights_tweets_tab_ui_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "creator_subscriptions_tweet_preview_api_enabled": {
             "value": "false"
@@ -29077,7 +29101,7 @@
             "value": "false"
           },
           "highlights_tweets_tab_ui_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "creator_subscriptions_tweet_preview_api_enabled": {
             "value": "false"
