@@ -5556,6 +5556,17 @@ Login Required: `...`<br>
 `None`<br>
 #### queryId<br>
 `None`<br>
+## BoostAudienceEstimate<br>
+Request URL: `https://twitter.com/i/api/graphql/hiAXpFX4zFb6vOvGctGYyQ/BoostAudienceEstimate`<br>
+Request Method: `GET`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
 ## Budgets<br>
 Request URL: `https://twitter.com/i/api/graphql/mbK3oSQotwcJXyQIBE3uYw/Budgets`<br>
 Request Method: `GET`<br>
@@ -7920,7 +7931,7 @@ Login Required: `...`<br>
 | blue_business_profile_image_shape_enabled                         | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                  | boolean | True       |
 | verified_phone_label_enabled                                      | boolean | False      |
-| highlights_tweets_tab_ui_enabled                                  | boolean | False      |
+| highlights_tweets_tab_ui_enabled                                  | boolean | True       |
 | creator_subscriptions_tweet_preview_api_enabled                   | boolean | False      |
 | responsive_web_graphql_skip_user_profile_image_extensions_enabled | boolean | False      |
 | responsive_web_graphql_timeline_navigation_enabled                | boolean | True       |
@@ -7940,7 +7951,7 @@ Login Required: `...`<br>
 | blue_business_profile_image_shape_enabled                         | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                  | boolean | True       |
 | verified_phone_label_enabled                                      | boolean | False      |
-| highlights_tweets_tab_ui_enabled                                  | boolean | False      |
+| highlights_tweets_tab_ui_enabled                                  | boolean | True       |
 | creator_subscriptions_tweet_preview_api_enabled                   | boolean | False      |
 | responsive_web_graphql_skip_user_profile_image_extensions_enabled | boolean | False      |
 | responsive_web_graphql_timeline_navigation_enabled                | boolean | True       |
@@ -11105,6 +11116,17 @@ Login Required: `...`<br>
 `None`<br>
 #### queryId<br>
 `None`<br>
+## BoostAudienceEstimate<br>
+Request URL: `https://twitter.com/i/api/graphql/hiAXpFX4zFb6vOvGctGYyQ/BoostAudienceEstimate`<br>
+Request Method: `GET`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
 ## Budgets<br>
 Request URL: `https://twitter.com/i/api/graphql/mbK3oSQotwcJXyQIBE3uYw/Budgets`<br>
 Request Method: `GET`<br>
@@ -12351,7 +12373,7 @@ Login Required: `...`<br>
 | blue_business_profile_image_shape_enabled                         | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                  | boolean | True       |
 | verified_phone_label_enabled                                      | boolean | False      |
-| highlights_tweets_tab_ui_enabled                                  | boolean | False      |
+| highlights_tweets_tab_ui_enabled                                  | boolean | True       |
 | creator_subscriptions_tweet_preview_api_enabled                   | boolean | False      |
 | responsive_web_graphql_skip_user_profile_image_extensions_enabled | boolean | False      |
 | responsive_web_graphql_timeline_navigation_enabled                | boolean | True       |
@@ -12371,7 +12393,7 @@ Login Required: `...`<br>
 | blue_business_profile_image_shape_enabled                         | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                  | boolean | True       |
 | verified_phone_label_enabled                                      | boolean | False      |
-| highlights_tweets_tab_ui_enabled                                  | boolean | False      |
+| highlights_tweets_tab_ui_enabled                                  | boolean | True       |
 | creator_subscriptions_tweet_preview_api_enabled                   | boolean | False      |
 | responsive_web_graphql_skip_user_profile_image_extensions_enabled | boolean | False      |
 | responsive_web_graphql_timeline_navigation_enabled                | boolean | True       |
