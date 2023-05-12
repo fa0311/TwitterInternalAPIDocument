@@ -1004,7 +1004,7 @@ Login Required: `...`<br>
 #### features<br>
 | key                                         | type    | variable   |
 |:--------------------------------------------|:--------|:-----------|
-| responsive_web_birdwatch_note_limit_enabled | boolean | False      |
+| responsive_web_birdwatch_note_limit_enabled | boolean | True       |
 
 #### queryId<br>
 `None`<br>
@@ -8316,7 +8316,7 @@ Login Required: `...`<br>
 #### features<br>
 | key                                         | type    | variable   |
 |:--------------------------------------------|:--------|:-----------|
-| responsive_web_birdwatch_note_limit_enabled | boolean | False      |
+| responsive_web_birdwatch_note_limit_enabled | boolean | True       |
 
 #### queryId<br>
 `None`<br>

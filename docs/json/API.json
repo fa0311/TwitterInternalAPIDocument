@@ -650,7 +650,7 @@
       "queryId": "wPAWxQMAlJP7SpkwiQnn9w",
       "method": "GET",
       "features": {
-        "responsive_web_birdwatch_note_limit_enabled": false
+        "responsive_web_birdwatch_note_limit_enabled": true
       }
     },
     "BirdwatchFetchBirdwatchProfile": {
