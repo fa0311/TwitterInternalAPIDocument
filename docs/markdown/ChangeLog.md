@@ -760,3 +760,15 @@
 - highlights_tweets_tab_upsell<br>
 #### remove<br>
 - None<br>
+## 2023/05/12<br>
+### API<br>
+#### add<br>
+- BoostAudienceEstimate<br>
+- BoostAudienceEstimate<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- rweb_client_transaction_id_enabled<br>
+#### remove<br>
+- None<br>
