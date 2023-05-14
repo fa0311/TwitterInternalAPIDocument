@@ -120,11 +120,6 @@
       "entities": {},
       "errors": {},
       "fetchStatus": {}
-    },
-    "places": {
-      "entities": {},
-      "errors": {},
-      "fetchStatus": {}
     }
   },
   "featureSwitch": {
@@ -5335,7 +5330,7 @@
     "country": "US",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "168401194356988761",
+    "guestId": "168409842384603960",
     "hasCommunityMemberships": "false",
     "language": "en",
     "oneFactorLoginEligibility": {
