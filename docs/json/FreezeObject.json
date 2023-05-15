@@ -3829,7 +3829,7 @@
     "SUCCESS": "rweb/bookmarkFolders/CREATE_BOOKMARK_FOLDERS_SUCCESS",
     "FAILURE": "rweb/bookmarkFolders/CREATE_BOOKMARK_FOLDERS_FAILURE"
   },
-  "{\"ActionsBar\":\"C.Z\",\"ActionMenu\":\"function()\"{\"Icon\":\"e\",\"isDisabled\":\"t\",\"items\":\"n\",\"onOpen\":\"i\"}{\"const o=a.useCallback()\"{\"items\":\"n\",\"onCloseRequested\":\"e\"}{\"Icon\":\"e\",\"isDisabled\":\"t\",\"onClick\":\"i\",\"renderActionMenu\":\"o\"}},\"CallToAction\":\"r.ZP\",\"EditCallout\":\"f.Z\",\"Education\":\"_.Z\",\"HighlightedUserLabel\":\"d.Z\",\"Media\":\"I.Z\",\"Place\":\"o.ZP\",\"PromotedDetails\":\"u.Z\",\"PromotedUserProfileCard\":\"P\",\"ReplyContext\":\"M.ZP\",\"RichContent\":\"L.Z\",\"SocialContext\":\"b.Z\",\"Text\":\"D.Z\",\"Tombstone\":\"g.Z\",\"Timestamp\":\"p.Z\",\"UserAvatar\":\"k.Z\",\"UserFollowIndicator\":\"B.Z\",\"UserName\":\"A.Z\",\"VibePill\":\"U.Z\"}",
+  "{\"ActionsBar\":\"C.Z\",\"ActionMenu\":\"function()\"{\"Icon\":\"e\",\"isDisabled\":\"t\",\"items\":\"n\",\"onOpen\":\"i\"}{\"const a=o.useCallback()\"{\"items\":\"n\",\"onCloseRequested\":\"e\"}{\"Icon\":\"e\",\"isDisabled\":\"t\",\"onClick\":\"i\",\"renderActionMenu\":\"a\"}},\"CallToAction\":\"r.ZP\",\"EditCallout\":\"f.Z\",\"Education\":\"_.Z\",\"HighlightedUserLabel\":\"d.Z\",\"Media\":\"I.Z\",\"Place\":\"a.ZP\",\"PromotedDetails\":\"u.Z\",\"PromotedUserProfileCard\":\"P\",\"ReplyContext\":\"M.ZP\",\"RichContent\":\"L.Z\",\"SocialContext\":\"b.Z\",\"Text\":\"D.Z\",\"Tombstone\":\"g.Z\",\"Timestamp\":\"p.Z\",\"UserAvatar\":\"k.Z\",\"UserFollowIndicator\":\"B.Z\",\"UserName\":\"A.Z\",\"VibePill\":\"U.Z\"}",
   {
     "private": "private",
     "public": "public",
@@ -4144,7 +4144,7 @@
       "label": "u"
     }
   },
-  "{[Ma.Original]:\"OriginalTweet\",[Ma.Quote]:\"QuoteTweet\",[Ma.Reply]:\"Reply\",[Ma.Thread]:\"Retweet\"}",
+  "{[Ba.Original]:\"OriginalTweet\",[Ba.Quote]:\"QuoteTweet\",[Ba.Reply]:\"Reply\",[Ba.Thread]:\"Retweet\"}",
   {
     "in": "in",
     "out": "out",
@@ -4156,13 +4156,13 @@
     "Quote": "quote",
     "Thread": "thread"
   },
-  "{[Ma.Original]:\"original_tweet\",[Ma.Quote]:\"quote_tweet\",[Ma.Reply]:\"reply\"}",
+  "{[Ba.Original]:\"original_tweet\",[Ba.Quote]:\"quote_tweet\",[Ba.Reply]:\"reply\"}",
   {
     "LOCAL_STATE_LOADED": "rweb/editTweet/LOCAL_STATE_LOADED",
     "LOCAL_STATE_REQUEST": "rweb/editTweet/LOCAL_STATE_REQUEST"
   },
   {
-    "fetchStatus": "vo.ZP.NONE",
+    "fetchStatus": "Io.ZP.NONE",
     "editTweetLimitedMarketPromptDismissedEpochMilliseconds": "0"
   },
   {
@@ -5565,26 +5565,26 @@
     "highlights": "highlights_tweets"
   },
   {
-    "default": "t().ccc9153f",
-    "with_replies": "t().ccc9153f",
-    "superfollows": "t().d77ea487",
-    "highlights": "t().ac3f4be9"
+    "default": "s().ccc9153f",
+    "with_replies": "s().ccc9153f",
+    "superfollows": "s().d77ea487",
+    "highlights": "s().ac3f4be9"
   },
-  "{\"default\":()=>t().g784d3c6,\"with_replies\":()=>t().g784d3c6,\"superfollows\":()=>t().ce659062,\"highlights\":()=>t().ja665c0c}",
-  "{\"default\":()=>t().d1e5e328,\"with_replies\":()=>t().d1e5e328,\"superfollows\":()=>t().bb3406a6}",
-  "{\"default\":\"t().dc1f8991\",\"with_replies\":\"t().dc1f8991\",\"superfollows\":\"t().ba145149\",\"highlights\":()=>t().ja665c0c}",
-  "{\"default\":()=>t().e4f9514c,\"with_replies\":()=>t().e4f9514c,\"superfollows\":()=>t().cb59ea14}",
+  "{\"default\":()=>s().g784d3c6,\"with_replies\":()=>s().g784d3c6,\"superfollows\":()=>s().ce659062,\"highlights\":()=>s().ja665c0c}",
+  "{\"default\":()=>s().d1e5e328,\"with_replies\":()=>s().d1e5e328,\"superfollows\":()=>s().bb3406a6}",
+  "{\"default\":\"s().dc1f8991\",\"with_replies\":\"s().dc1f8991\",\"superfollows\":\"s().ba145149\",\"highlights\":()=>s().ja665c0c}",
+  "{\"default\":()=>s().e4f9514c,\"with_replies\":()=>s().e4f9514c,\"superfollows\":()=>s().cb59ea14}",
   {
-    "default": "t().cc01c9b5",
-    "with_replies": "t().cc01c9b5",
-    "superfollows": "t().c137eff1",
-    "highlights": "t().e8300dbb"
+    "default": "s().cc01c9b5",
+    "with_replies": "s().cc01c9b5",
+    "superfollows": "s().c137eff1",
+    "highlights": "s().e8300dbb"
   },
   {
-    "default": "t().c6ea308b",
-    "with_replies": "t().e021c003",
-    "superfollows": "t().ee210f41",
-    "highlights": "t().g7ccac9d"
+    "default": "s().c6ea308b",
+    "with_replies": "s().e021c003",
+    "superfollows": "s().ee210f41",
+    "highlights": "s().g7ccac9d"
   },
   {
     "REQUEST": "rweb/userTweetStats/FETCH_USER_TWEET_STATS_REQUEST",
