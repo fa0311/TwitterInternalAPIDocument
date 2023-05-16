@@ -191,3 +191,19 @@
 - rweb_home_nav_ring_buffer_refresh_delay_ms<br>
 - rweb_home_nav_single_direction_scroll_enabled<br>
 - spaces_2022_h2_spacebar_web_use_topnavbar<br>
+## 2023/05/16<br>
+### API<br>
+#### add<br>
+- BoostAudienceEstimate<br>
+- BoostAudienceEstimate<br>
+- ViewerUserAvatarQuery<br>
+- QuickPromoteLiteRecommendedKeywordsQuery<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- highlights_tweets_tab_upsell<br>
+- responsive_web_birdwatch_note_limit_enabled<br>
+- rweb_client_transaction_id_enabled<br>
+#### remove<br>
+- blue_business_affiliate_badge_consumption_ui_enabled<br>
