@@ -54,24 +54,6 @@
     ]
   },
   {
-    "queryId": "search/adaptive",
-    "dispatch_key": "getURT",
-    "dispatch": [
-      "get",
-      "URT",
-      "https://twitter.com/i/api/2/{queryId}.json"
-    ]
-  },
-  {
-    "queryId": "timeline/fixture",
-    "dispatch_key": "getURT",
-    "dispatch": [
-      "get",
-      "URT",
-      "https://twitter.com/i/api/2/{queryId}.json"
-    ]
-  },
-  {
     "queryId": "guide",
     "dispatch_key": "getURT",
     "dispatch": [
@@ -99,6 +81,15 @@
     ]
   },
   {
+    "queryId": "onboarding/fetch_user_recommendations_urt",
+    "dispatch_key": "getURT",
+    "dispatch": [
+      "get",
+      "URT",
+      "https://twitter.com/i/api/2/{queryId}.json"
+    ]
+  },
+  {
     "queryId": "people_discovery/modules_urt",
     "dispatch_key": "getURT",
     "dispatch": [
@@ -108,7 +99,16 @@
     ]
   },
   {
-    "queryId": "onboarding/fetch_user_recommendations_urt",
+    "queryId": "search/adaptive",
+    "dispatch_key": "getURT",
+    "dispatch": [
+      "get",
+      "URT",
+      "https://twitter.com/i/api/2/{queryId}.json"
+    ]
+  },
+  {
+    "queryId": "timeline/fixture",
     "dispatch_key": "getURT",
     "dispatch": [
       "get",
