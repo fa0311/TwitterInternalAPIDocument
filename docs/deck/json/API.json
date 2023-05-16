@@ -646,10 +646,12 @@
       "features": {}
     },
     "BirdwatchFetchAuthenticatedUserProfile": {
-      "url": "https://twitter.com/i/api/graphql/pMbW6Y4LuS5MzlSOEqERJQ/BirdwatchFetchAuthenticatedUserProfile",
-      "queryId": "pMbW6Y4LuS5MzlSOEqERJQ",
+      "url": "https://twitter.com/i/api/graphql/wPAWxQMAlJP7SpkwiQnn9w/BirdwatchFetchAuthenticatedUserProfile",
+      "queryId": "wPAWxQMAlJP7SpkwiQnn9w",
       "method": "GET",
-      "features": {}
+      "features": {
+        "responsive_web_birdwatch_note_limit_enabled": true
+      }
     },
     "BirdwatchFetchBirdwatchProfile": {
       "url": "https://twitter.com/i/api/graphql/btgGtchypc3D491MJ7XXWA/BirdwatchFetchBirdwatchProfile",
@@ -2398,6 +2400,12 @@
       "method": "GET",
       "features": {}
     },
+    "BoostAudienceEstimate": {
+      "url": "https://twitter.com/i/api/graphql/hiAXpFX4zFb6vOvGctGYyQ/BoostAudienceEstimate",
+      "queryId": "hiAXpFX4zFb6vOvGctGYyQ",
+      "method": "GET",
+      "features": {}
+    },
     "Budgets": {
       "url": "https://twitter.com/i/api/graphql/mbK3oSQotwcJXyQIBE3uYw/Budgets",
       "queryId": "mbK3oSQotwcJXyQIBE3uYw",
@@ -3465,7 +3473,7 @@
         "blue_business_profile_image_shape_enabled": true,
         "responsive_web_graphql_exclude_directive_enabled": true,
         "verified_phone_label_enabled": false,
-        "highlights_tweets_tab_ui_enabled": false,
+        "highlights_tweets_tab_ui_enabled": true,
         "creator_subscriptions_tweet_preview_api_enabled": false,
         "responsive_web_graphql_skip_user_profile_image_extensions_enabled": false,
         "responsive_web_graphql_timeline_navigation_enabled": true
@@ -3479,7 +3487,7 @@
         "blue_business_profile_image_shape_enabled": true,
         "responsive_web_graphql_exclude_directive_enabled": true,
         "verified_phone_label_enabled": false,
-        "highlights_tweets_tab_ui_enabled": false,
+        "highlights_tweets_tab_ui_enabled": true,
         "creator_subscriptions_tweet_preview_api_enabled": false,
         "responsive_web_graphql_skip_user_profile_image_extensions_enabled": false,
         "responsive_web_graphql_timeline_navigation_enabled": true
@@ -3612,8 +3620,8 @@
       "features": {}
     },
     "managementListsPageTimelineQuery": {
-      "url": "https://twitter.com/i/api/graphql/WGRyTk4MvmZJArjT_ZpdWA/managementListsPageTimelineQuery",
-      "queryId": "WGRyTk4MvmZJArjT_ZpdWA",
+      "url": "https://twitter.com/i/api/graphql/P5eX9gk6uk074s4L4G1X6A/managementListsPageTimelineQuery",
+      "queryId": "P5eX9gk6uk074s4L4G1X6A",
       "method": "GET",
       "features": {
         "blue_business_profile_image_shape_enabled": true,
@@ -3661,6 +3669,12 @@
     "usersModuleProtectedQuery": {
       "url": "https://twitter.com/i/api/graphql//usersModuleProtectedQuery",
       "queryId": "",
+      "method": "GET",
+      "features": {}
+    },
+    "ViewerUserAvatarQuery": {
+      "url": "https://twitter.com/i/api/graphql/5aZkHavcr0LziRNbD4EZ1g/ViewerUserAvatarQuery",
+      "queryId": "5aZkHavcr0LziRNbD4EZ1g",
       "method": "GET",
       "features": {}
     },
@@ -3915,6 +3929,12 @@
     "moderatorsSliceTimeline_Query": {
       "url": "https://twitter.com/i/api/graphql/0MgU66yLfLlhaNQDFfQwzA/moderatorsSliceTimeline_Query",
       "queryId": "0MgU66yLfLlhaNQDFfQwzA",
+      "method": "GET",
+      "features": {}
+    },
+    "QuickPromoteLiteRecommendedKeywordsQuery": {
+      "url": "https://twitter.com/i/api/graphql/WQ2-bNb5RVhDy2g1Dc3DtA/QuickPromoteLiteRecommendedKeywordsQuery",
+      "queryId": "WQ2-bNb5RVhDy2g1Dc3DtA",
       "method": "GET",
       "features": {}
     },
@@ -4265,8 +4285,8 @@
       "features": {}
     },
     "combinedListsPageTimelineQuery": {
-      "url": "https://twitter.com/i/api/graphql/3kLI3nHzQbZvxiEy0x4wvw/combinedListsPageTimelineQuery",
-      "queryId": "3kLI3nHzQbZvxiEy0x4wvw",
+      "url": "https://twitter.com/i/api/graphql/NghAx8ZgL1H3FSsc40AQ-A/combinedListsPageTimelineQuery",
+      "queryId": "NghAx8ZgL1H3FSsc40AQ-A",
       "method": "GET",
       "features": {
         "blue_business_profile_image_shape_enabled": true,

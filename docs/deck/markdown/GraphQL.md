@@ -952,14 +952,17 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## BirdwatchFetchAuthenticatedUserProfile<br>
-Request URL: `https://twitter.com/i/api/graphql/pMbW6Y4LuS5MzlSOEqERJQ/BirdwatchFetchAuthenticatedUserProfile`<br>
+Request URL: `https://twitter.com/i/api/graphql/wPAWxQMAlJP7SpkwiQnn9w/BirdwatchFetchAuthenticatedUserProfile`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
 `None`<br>
 #### features<br>
-`None`<br>
+| key                                         | type    | variable   |
+|:--------------------------------------------|:--------|:-----------|
+| responsive_web_birdwatch_note_limit_enabled | boolean | True       |
+
 #### queryId<br>
 `None`<br>
 ## BirdwatchFetchBirdwatchProfile<br>
@@ -5183,6 +5186,17 @@ Login Required: `...`<br>
 `None`<br>
 #### queryId<br>
 `None`<br>
+## BoostAudienceEstimate<br>
+Request URL: `https://twitter.com/i/api/graphql/hiAXpFX4zFb6vOvGctGYyQ/BoostAudienceEstimate`<br>
+Request Method: `GET`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
 ## Budgets<br>
 Request URL: `https://twitter.com/i/api/graphql/mbK3oSQotwcJXyQIBE3uYw/Budgets`<br>
 Request Method: `GET`<br>
@@ -7380,7 +7394,7 @@ Login Required: `...`<br>
 | blue_business_profile_image_shape_enabled                         | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                  | boolean | True       |
 | verified_phone_label_enabled                                      | boolean | False      |
-| highlights_tweets_tab_ui_enabled                                  | boolean | False      |
+| highlights_tweets_tab_ui_enabled                                  | boolean | True       |
 | creator_subscriptions_tweet_preview_api_enabled                   | boolean | False      |
 | responsive_web_graphql_skip_user_profile_image_extensions_enabled | boolean | False      |
 | responsive_web_graphql_timeline_navigation_enabled                | boolean | True       |
@@ -7400,7 +7414,7 @@ Login Required: `...`<br>
 | blue_business_profile_image_shape_enabled                         | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                  | boolean | True       |
 | verified_phone_label_enabled                                      | boolean | False      |
-| highlights_tweets_tab_ui_enabled                                  | boolean | False      |
+| highlights_tweets_tab_ui_enabled                                  | boolean | True       |
 | creator_subscriptions_tweet_preview_api_enabled                   | boolean | False      |
 | responsive_web_graphql_skip_user_profile_image_extensions_enabled | boolean | False      |
 | responsive_web_graphql_timeline_navigation_enabled                | boolean | True       |
@@ -7921,14 +7935,17 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## BirdwatchFetchAuthenticatedUserProfile<br>
-Request URL: `https://twitter.com/i/api/graphql/pMbW6Y4LuS5MzlSOEqERJQ/BirdwatchFetchAuthenticatedUserProfile`<br>
+Request URL: `https://twitter.com/i/api/graphql/wPAWxQMAlJP7SpkwiQnn9w/BirdwatchFetchAuthenticatedUserProfile`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
 `None`<br>
 #### features<br>
-`None`<br>
+| key                                         | type    | variable   |
+|:--------------------------------------------|:--------|:-----------|
+| responsive_web_birdwatch_note_limit_enabled | boolean | True       |
+
 #### queryId<br>
 `None`<br>
 ## BirdwatchFetchBirdwatchProfile<br>
@@ -10764,6 +10781,17 @@ Login Required: `...`<br>
 `None`<br>
 #### queryId<br>
 `None`<br>
+## BoostAudienceEstimate<br>
+Request URL: `https://twitter.com/i/api/graphql/hiAXpFX4zFb6vOvGctGYyQ/BoostAudienceEstimate`<br>
+Request Method: `GET`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
 ## Budgets<br>
 Request URL: `https://twitter.com/i/api/graphql/mbK3oSQotwcJXyQIBE3uYw/Budgets`<br>
 Request Method: `GET`<br>
@@ -11937,7 +11965,7 @@ Login Required: `...`<br>
 | blue_business_profile_image_shape_enabled                         | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                  | boolean | True       |
 | verified_phone_label_enabled                                      | boolean | False      |
-| highlights_tweets_tab_ui_enabled                                  | boolean | False      |
+| highlights_tweets_tab_ui_enabled                                  | boolean | True       |
 | creator_subscriptions_tweet_preview_api_enabled                   | boolean | False      |
 | responsive_web_graphql_skip_user_profile_image_extensions_enabled | boolean | False      |
 | responsive_web_graphql_timeline_navigation_enabled                | boolean | True       |
@@ -11957,7 +11985,7 @@ Login Required: `...`<br>
 | blue_business_profile_image_shape_enabled                         | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                  | boolean | True       |
 | verified_phone_label_enabled                                      | boolean | False      |
-| highlights_tweets_tab_ui_enabled                                  | boolean | False      |
+| highlights_tweets_tab_ui_enabled                                  | boolean | True       |
 | creator_subscriptions_tweet_preview_api_enabled                   | boolean | False      |
 | responsive_web_graphql_skip_user_profile_image_extensions_enabled | boolean | False      |
 | responsive_web_graphql_timeline_navigation_enabled                | boolean | True       |
@@ -12316,7 +12344,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## managementListsPageTimelineQuery<br>
-Request URL: `https://twitter.com/i/api/graphql/WGRyTk4MvmZJArjT_ZpdWA/managementListsPageTimelineQuery`<br>
+Request URL: `https://twitter.com/i/api/graphql/P5eX9gk6uk074s4L4G1X6A/managementListsPageTimelineQuery`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -12385,6 +12413,17 @@ Login Required: `...`<br>
 `None`<br>
 ## usersModuleProtectedQuery<br>
 Request URL: `https://twitter.com/i/api/graphql//usersModuleProtectedQuery`<br>
+Request Method: `GET`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
+## ViewerUserAvatarQuery<br>
+Request URL: `https://twitter.com/i/api/graphql/5aZkHavcr0LziRNbD4EZ1g/ViewerUserAvatarQuery`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -12917,6 +12956,17 @@ Login Required: `...`<br>
 `None`<br>
 ## moderatorsSliceTimeline_Query<br>
 Request URL: `https://twitter.com/i/api/graphql/0MgU66yLfLlhaNQDFfQwzA/moderatorsSliceTimeline_Query`<br>
+Request Method: `GET`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
+## QuickPromoteLiteRecommendedKeywordsQuery<br>
+Request URL: `https://twitter.com/i/api/graphql/WQ2-bNb5RVhDy2g1Dc3DtA/QuickPromoteLiteRecommendedKeywordsQuery`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -13556,7 +13606,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## combinedListsPageTimelineQuery<br>
-Request URL: `https://twitter.com/i/api/graphql/3kLI3nHzQbZvxiEy0x4wvw/combinedListsPageTimelineQuery`<br>
+Request URL: `https://twitter.com/i/api/graphql/NghAx8ZgL1H3FSsc40AQ-A/combinedListsPageTimelineQuery`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>

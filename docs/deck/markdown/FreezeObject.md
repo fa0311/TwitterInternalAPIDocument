@@ -2528,8 +2528,8 @@ This document is entirely auto-generated and may contain errors.<br>
 | canVerifiedCrawlerConsumeSensitiveMedia   | False   |
 | shouldUseLocaleContextDirection           | False   |
 | isLinkedSearchExperimentEnabled           | False   |
-| blueBusinessAffiliateBadgeEnabled         | False   |
 | blueBusinessVerifiedBadgeEnabled          | False   |
+| blueBusinessAffiliateBadgeEnabled         | False   |
 | blueGovernmentVerifiedBadgeEnabled        | False   |
 | newBadgeColorEnabled                      | False   |
 | tweetViewCountsEnabled                    | False   |
@@ -2571,9 +2571,9 @@ This document is entirely auto-generated and may contain errors.<br>
 | subscriptionSaving | {'backgroundColor': 'green50', 'color': 'green900', 'bold': '!0', 'radius': '9999', 'fontSize': 'subtext3'} |
 | bestValue          | {'backgroundColor': 'green50', 'color': 'green900', 'bold': '!0', 'fontSize': 'subtext3'}                   |
 | mostPopular        | {'backgroundColor': 'purple50', 'color': 'purple900', 'bold': '!0', 'fontSize': 'subtext3'}                 |
-| alt                | M                                                                                                           |
-| gif                | M                                                                                                           |
-| hd                 | M                                                                                                           |
+| alt                | C                                                                                                           |
+| gif                | C                                                                                                           |
+| hd                 | C                                                                                                           |
 | likedByAuthor      | {'backgroundColor': 'gray50', 'bold': '!1', 'color': 'gray700'}                                             |
 
 ```internal process
@@ -3313,7 +3313,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{[jt.X.conversationSettings]:{"component":"Gt","showInStack":"!0"},[jt.X.drawerToggle]:{"component":"ln","showInStack":"!1"},[jt.X.makeDeck]:{"component":"un","showInStack":"!0"},[jt.X.manualRefresh]:{"component":"wn","showInStack":"!0"},[jt.X.newMessage]:{"component":"En","showInStack":"!0"},[jt.X....
+{[Ut.X.conversationSettings]:{"component":"Gt","showInStack":"!0"},[Ut.X.drawerToggle]:{"component":"ln","showInStack":"!1"},[Ut.X.makeDeck]:{"component":"un","showInStack":"!0"},[Ut.X.manualRefresh]:{"component":"wn","showInStack":"!0"},[Ut.X.newMessage]:{"component":"En","showInStack":"!0"},[Ut.X....
 ```
 ```internal process
 # Error
@@ -3321,7 +3321,7 @@ This document is entirely auto-generated and may contain errors.<br>
 ```
 ```internal process
 # Error
-{[Yt.I1.clearBookmarks]:{"component":"Wr"},[Yt.I1.clearTweets]:{"component":"qr"},[Yt.I1.columnDebugInfo]:{"component":"Eo"},[Yt.I1.columnDebugState]:{"component":"Do"},[Yt.I1.sharingDebug]:{"component":"Wl.Z"},[Yt.I1.contentDisplay]:{"component":"Co"},[Yt.I1.conversationInfo]:{"component":"tr"},[Yt...
+{[Yt.I1.clearBookmarks]:{"component":"ns"},[Yt.I1.clearTweets]:{"component":"is"},[Yt.I1.columnDebugInfo]:{"component":"Bo"},[Yt.I1.columnDebugState]:{"component":"Vo"},[Yt.I1.sharingDebug]:{"component":"ao.Z"},[Yt.I1.contentDisplay]:{"component":"Ro"},[Yt.I1.conversationInfo]:{"component":"br"},[Yt...
 ```
 | constant          | value             |
 |:------------------|:------------------|
@@ -4830,16 +4830,16 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{[a.AGE_13_TO_24]:{"minAge":"13","maxAge":"24"},[a.AGE_13_TO_34]:{"minAge":"13","maxAge":"34"},[a.AGE_13_TO_49]:{"minAge":"13","maxAge":"49"},[a.AGE_13_TO_54]:{"minAge":"13","maxAge":"54"},[a.AGE_18_TO_24]:{"minAge":"18","maxAge":"24"},[a.AGE_18_TO_34]:{"minAge":"18","maxAge":"34"},[a.AGE_18_TO_49]:...
+{[n.AGE_13_TO_24]:{"minAge":"13","maxAge":"24"},[n.AGE_13_TO_34]:{"minAge":"13","maxAge":"34"},[n.AGE_13_TO_49]:{"minAge":"13","maxAge":"49"},[n.AGE_13_TO_54]:{"minAge":"13","maxAge":"54"},[n.AGE_18_TO_24]:{"minAge":"18","maxAge":"24"},[n.AGE_18_TO_34]:{"minAge":"18","maxAge":"34"},[n.AGE_18_TO_49]:...
 ```
 |   constant | value                                                                                                                     |
 |-----------:|:--------------------------------------------------------------------------------------------------------------------------|
-|         13 | {'24': 'a.AGE_13_TO_24', '34': 'a.AGE_13_TO_34', '49': 'a.AGE_13_TO_49', '54': 'a.AGE_13_TO_54', 'over': 'a.AGE_OVER_13'} |
-|         18 | {'24': 'a.AGE_18_TO_24', '34': 'a.AGE_18_TO_34', '49': 'a.AGE_18_TO_49', '54': 'a.AGE_18_TO_54', 'over': 'a.AGE_OVER_18'} |
-|         21 | {'34': 'a.AGE_21_TO_34', '49': 'a.AGE_21_TO_49', '54': 'a.AGE_21_TO_54', 'over': 'a.AGE_OVER_21'}                         |
-|         25 | {'49': 'a.AGE_25_TO_49', '54': 'a.AGE_25_TO_54', 'over': 'a.AGE_OVER_25'}                                                 |
-|         35 | {'49': 'a.AGE_35_TO_49', '54': 'a.AGE_35_TO_54', 'over': 'a.AGE_OVER_35'}                                                 |
-|         50 | {'over': 'a.AGE_OVER_50'}                                                                                                 |
+|         13 | {'24': 'n.AGE_13_TO_24', '34': 'n.AGE_13_TO_34', '49': 'n.AGE_13_TO_49', '54': 'n.AGE_13_TO_54', 'over': 'n.AGE_OVER_13'} |
+|         18 | {'24': 'n.AGE_18_TO_24', '34': 'n.AGE_18_TO_34', '49': 'n.AGE_18_TO_49', '54': 'n.AGE_18_TO_54', 'over': 'n.AGE_OVER_18'} |
+|         21 | {'34': 'n.AGE_21_TO_34', '49': 'n.AGE_21_TO_49', '54': 'n.AGE_21_TO_54', 'over': 'n.AGE_OVER_21'}                         |
+|         25 | {'49': 'n.AGE_25_TO_49', '54': 'n.AGE_25_TO_54', 'over': 'n.AGE_OVER_25'}                                                 |
+|         35 | {'49': 'n.AGE_35_TO_49', '54': 'n.AGE_35_TO_54', 'over': 'n.AGE_OVER_35'}                                                 |
+|         50 | {'over': 'n.AGE_OVER_50'}                                                                                                 |
 
 | constant      | value         |
 |:--------------|:--------------|
@@ -4871,7 +4871,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{[Aa.Original]:"OriginalTweet",[Aa.Quote]:"QuoteTweet",[Aa.Reply]:"Reply",[Aa.Thread]:"Retweet"}
+{[Oa.Original]:"OriginalTweet",[Oa.Quote]:"QuoteTweet",[Oa.Reply]:"Reply",[Oa.Thread]:"Retweet"}
 ```
 | constant   | value   |
 |:-----------|:--------|
@@ -4888,7 +4888,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{[Aa.Original]:"original_tweet",[Aa.Quote]:"quote_tweet",[Aa.Reply]:"reply"}
+{[Oa.Original]:"original_tweet",[Oa.Quote]:"quote_tweet",[Oa.Reply]:"reply"}
 ```
 | constant            | value                              |
 |:--------------------|:-----------------------------------|
@@ -4897,7 +4897,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant                                               | value      |
 |:-------------------------------------------------------|:-----------|
-| fetchStatus                                            | wo.ZP.NONE |
+| fetchStatus                                            | Io.ZP.NONE |
 | editTweetLimitedMarketPromptDismissedEpochMilliseconds | 0          |
 
 | constant   | value   |
@@ -5042,8 +5042,8 @@ This document is entirely auto-generated and may contain errors.<br>
 |:-----------------|:--------|
 | DELEGATE_ERR_002 | U       |
 | DELEGATE_ERR_003 | z       |
-| DELEGATE_ERR_004 | V       |
-| DELEGATE_ERR_005 | H       |
+| DELEGATE_ERR_004 | H       |
+| DELEGATE_ERR_005 | V       |
 | DELEGATE_ERR_006 | G       |
 
 | constant          | value             |
@@ -6845,7 +6845,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | constant    | value     |
 |:------------|:----------|
 | fetchStatus | _.ZP.NONE |
-| config      | Ze        |
+| config      | xe        |
 
 | constant        | value           |
 |:----------------|:----------------|
@@ -7250,17 +7250,17 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant      | value        |
 |:--------------|:-------------|
-| superFollower | u().fc065ee4 |
+| superFollower | p().fc065ee4 |
 
 | constant      | value                                                                                                                                                                                                                                    |
 |:--------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| superFollower | {'graphic': 'p.default', 'headline': 'u().e453f536', 'subtext': 'u().dea63fc4', 'actionLabel': 'u().g7099a02', 'actionLink': 'https://help.twitter.com/en/using-twitter/super-follows#sfexpect', 'secondaryActionLabel': 'u().c2637ef6'} |
+| superFollower | {'graphic': 'u.default', 'headline': 'p().e453f536', 'subtext': 'p().dea63fc4', 'actionLabel': 'p().g7099a02', 'actionLink': 'https://help.twitter.com/en/using-twitter/super-follows#sfexpect', 'secondaryActionLabel': 'p().c2637ef6'} |
 
 | constant        | value        |
 |:----------------|:-------------|
-| followsYou      | u().efb17190 |
-| superFollowsYou | u().g57b5f6c |
-| superFollower   | u().e589ffa8 |
+| followsYou      | p().efb17190 |
+| superFollowsYou | p().g57b5f6c |
+| superFollower   | p().e589ffa8 |
 
 | constant        | value   |
 |:----------------|:--------|
