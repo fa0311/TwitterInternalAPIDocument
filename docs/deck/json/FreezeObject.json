@@ -239,7 +239,7 @@
     "Autoplay": "Autoplay",
     "ConversationControls": "conversation_controls",
     "Delete": "delete",
-    "Edit": "edit",
+    "EditTweet": "EditTweet",
     "Embed": "Embed",
     "Follow": "Follow",
     "HideCommunityTweet": "HideCommunityTweet",
@@ -284,7 +284,8 @@
     "show_retweet_action_menu": "ShowRetweetActionMenu",
     "view_hidden_replies": "ViewHiddenReplies",
     "view_tweet_activity": "ViewTweetActivity",
-    "vote_on_poll": "VoteOnPoll"
+    "vote_on_poll": "VoteOnPoll",
+    "edit_tweet": "EditTweet"
   },
   {
     "enabled": "tweet_limited_actions_config_enabled",
@@ -2415,9 +2416,9 @@
       "bold": "!0",
       "fontSize": "subtext3"
     },
-    "alt": "C",
-    "gif": "C",
-    "hd": "C",
+    "alt": "M",
+    "gif": "M",
+    "hd": "M",
     "likedByAuthor": {
       "backgroundColor": "gray50",
       "bold": "!1",

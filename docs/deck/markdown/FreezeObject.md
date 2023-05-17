@@ -240,7 +240,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | Autoplay              | Autoplay              |
 | ConversationControls  | conversation_controls |
 | Delete                | delete                |
-| Edit                  | edit                  |
+| EditTweet             | EditTweet             |
 | Embed                 | Embed                 |
 | Follow                | Follow                |
 | HideCommunityTweet    | HideCommunityTweet    |
@@ -287,6 +287,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | view_hidden_replies      | ViewHiddenReplies     |
 | view_tweet_activity      | ViewTweetActivity     |
 | vote_on_poll             | VoteOnPoll            |
+| edit_tweet               | EditTweet             |
 
 | constant                            | value                                                            |
 |:------------------------------------|:-----------------------------------------------------------------|
@@ -2571,9 +2572,9 @@ This document is entirely auto-generated and may contain errors.<br>
 | subscriptionSaving | {'backgroundColor': 'green50', 'color': 'green900', 'bold': '!0', 'radius': '9999', 'fontSize': 'subtext3'} |
 | bestValue          | {'backgroundColor': 'green50', 'color': 'green900', 'bold': '!0', 'fontSize': 'subtext3'}                   |
 | mostPopular        | {'backgroundColor': 'purple50', 'color': 'purple900', 'bold': '!0', 'fontSize': 'subtext3'}                 |
-| alt                | C                                                                                                           |
-| gif                | C                                                                                                           |
-| hd                 | C                                                                                                           |
+| alt                | M                                                                                                           |
+| gif                | M                                                                                                           |
+| hd                 | M                                                                                                           |
 | likedByAuthor      | {'backgroundColor': 'gray50', 'bold': '!1', 'color': 'gray700'}                                             |
 
 ```internal process

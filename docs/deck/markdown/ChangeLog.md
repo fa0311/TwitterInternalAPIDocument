@@ -207,3 +207,17 @@
 - rweb_client_transaction_id_enabled<br>
 #### remove<br>
 - blue_business_affiliate_badge_consumption_ui_enabled<br>
+## 2023/05/17<br>
+### API<br>
+#### add<br>
+- ListSearchTimeline<br>
+- ListSearchTimeline<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- dm_replies_long_press_to_reply_enabled<br>
+- dm_replies_rweb_media_rendering_enabled<br>
+#### remove<br>
+- responsive_web_birdwatch_history_enabled<br>
+- vibe_tweet_context_enabled<br>
