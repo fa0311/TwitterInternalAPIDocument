@@ -786,3 +786,14 @@
 #### remove<br>
 - responsive_web_birdwatch_history_enabled<br>
 - vibe_tweet_context_enabled<br>
+## 2023/05/17<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- responsive_web_birdwatch_appeals_enabled<br>
