@@ -542,10 +542,13 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key                                          | type   | variable   |
-|:---------------------------------------------|:-------|:-----------|
-| userId                                       | ...    | n          |
-| sharingAudiospacesListeningDataWithFollowers | ...    | t          |
+| key                    | type    | variable   |
+|:-----------------------|:--------|:-----------|
+| rootTweetId            | ...     | l          |
+| count                  | ...     | n          |
+| cursor                 | ...     | i          |
+| includePromotedContent | boolean | False      |
+| ...()(0,_.d)           | ...     | _          |
 
 #### features<br>
 | key                                                                     | type    | variable   |
@@ -703,11 +706,10 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key      | type   | variable          |
-|:---------|:-------|:------------------|
-| userId   | ...    | n                 |
-| enabled  | ...    | none!==t          |
-| duration | ...    | none===t?void 0:t |
+| key                                          | type   | variable   |
+|:---------------------------------------------|:-------|:-----------|
+| userId                                       | ...    | n          |
+| sharingAudiospacesListeningDataWithFollowers | ...    | t          |
 
 #### features<br>
 | key                                                                     | type    | variable   |
@@ -1989,10 +1991,13 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key                                          | type   | variable   |
-|:---------------------------------------------|:-------|:-----------|
-| userId                                       | ...    | n          |
-| sharingAudiospacesListeningDataWithFollowers | ...    | t          |
+| key                    | type    | variable   |
+|:-----------------------|:--------|:-----------|
+| rootTweetId            | ...     | l          |
+| count                  | ...     | n          |
+| cursor                 | ...     | i          |
+| includePromotedContent | boolean | False      |
+| ...()(0,_.d)           | ...     | _          |
 
 #### features<br>
 | key                                                                     | type    | variable   |
@@ -2150,11 +2155,10 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key      | type   | variable          |
-|:---------|:-------|:------------------|
-| userId   | ...    | n                 |
-| enabled  | ...    | none!==t          |
-| duration | ...    | none===t?void 0:t |
+| key                                          | type   | variable   |
+|:---------------------------------------------|:-------|:-----------|
+| userId                                       | ...    | n          |
+| sharingAudiospacesListeningDataWithFollowers | ...    | t          |
 
 #### features<br>
 | key                                                                     | type    | variable   |
@@ -2820,10 +2824,13 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key                                          | type   | variable   |
-|:---------------------------------------------|:-------|:-----------|
-| userId                                       | ...    | n          |
-| sharingAudiospacesListeningDataWithFollowers | ...    | t          |
+| key                    | type    | variable   |
+|:-----------------------|:--------|:-----------|
+| rootTweetId            | ...     | l          |
+| count                  | ...     | n          |
+| cursor                 | ...     | i          |
+| includePromotedContent | boolean | False      |
+| ...()(0,_.d)           | ...     | _          |
 
 #### features<br>
 | key                                                                     | type    | variable   |
@@ -2981,11 +2988,10 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key      | type   | variable          |
-|:---------|:-------|:------------------|
-| userId   | ...    | n                 |
-| enabled  | ...    | none!==t          |
-| duration | ...    | none===t?void 0:t |
+| key                                          | type   | variable   |
+|:---------------------------------------------|:-------|:-----------|
+| userId                                       | ...    | n          |
+| sharingAudiospacesListeningDataWithFollowers | ...    | t          |
 
 #### features<br>
 | key                                                                     | type    | variable   |
@@ -3392,10 +3398,13 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key                                          | type   | variable   |
-|:---------------------------------------------|:-------|:-----------|
-| userId                                       | ...    | n          |
-| sharingAudiospacesListeningDataWithFollowers | ...    | t          |
+| key                    | type    | variable   |
+|:-----------------------|:--------|:-----------|
+| rootTweetId            | ...     | l          |
+| count                  | ...     | n          |
+| cursor                 | ...     | i          |
+| includePromotedContent | boolean | False      |
+| ...()(0,_.d)           | ...     | _          |
 
 #### features<br>
 | key                                                                     | type    | variable   |
@@ -4202,11 +4211,10 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key      | type   | variable          |
-|:---------|:-------|:------------------|
-| userId   | ...    | n                 |
-| enabled  | ...    | none!==t          |
-| duration | ...    | none===t?void 0:t |
+| key                                          | type   | variable   |
+|:---------------------------------------------|:-------|:-----------|
+| userId                                       | ...    | n          |
+| sharingAudiospacesListeningDataWithFollowers | ...    | t          |
 
 #### features<br>
 | key                                                                     | type    | variable   |
@@ -4465,10 +4473,13 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key                                          | type   | variable   |
-|:---------------------------------------------|:-------|:-----------|
-| userId                                       | ...    | n          |
-| sharingAudiospacesListeningDataWithFollowers | ...    | t          |
+| key                    | type    | variable   |
+|:-----------------------|:--------|:-----------|
+| rootTweetId            | ...     | l          |
+| count                  | ...     | n          |
+| cursor                 | ...     | i          |
+| includePromotedContent | boolean | False      |
+| ...()(0,_.d)           | ...     | _          |
 
 #### features<br>
 | key                                                                     | type    | variable   |
@@ -4626,11 +4637,10 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key      | type   | variable          |
-|:---------|:-------|:------------------|
-| userId   | ...    | n                 |
-| enabled  | ...    | none!==t          |
-| duration | ...    | none===t?void 0:t |
+| key                                          | type   | variable   |
+|:---------------------------------------------|:-------|:-----------|
+| userId                                       | ...    | n          |
+| sharingAudiospacesListeningDataWithFollowers | ...    | t          |
 
 #### features<br>
 | key                                                                     | type    | variable   |
@@ -4900,10 +4910,13 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key                                          | type   | variable   |
-|:---------------------------------------------|:-------|:-----------|
-| userId                                       | ...    | n          |
-| sharingAudiospacesListeningDataWithFollowers | ...    | t          |
+| key                    | type    | variable   |
+|:-----------------------|:--------|:-----------|
+| rootTweetId            | ...     | l          |
+| count                  | ...     | n          |
+| cursor                 | ...     | i          |
+| includePromotedContent | boolean | False      |
+| ...()(0,_.d)           | ...     | _          |
 
 #### features<br>
 | key                                                                     | type    | variable   |
@@ -5107,11 +5120,10 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key      | type   | variable          |
-|:---------|:-------|:------------------|
-| userId   | ...    | n                 |
-| enabled  | ...    | none!==t          |
-| duration | ...    | none===t?void 0:t |
+| key                                          | type   | variable   |
+|:---------------------------------------------|:-------|:-----------|
+| userId                                       | ...    | n          |
+| sharingAudiospacesListeningDataWithFollowers | ...    | t          |
 
 #### features<br>
 | key                                                                     | type    | variable   |
@@ -5449,7 +5461,12 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-`None`<br>
+| key      | type   | variable          |
+|:---------|:-------|:------------------|
+| userId   | ...    | n                 |
+| enabled  | ...    | none!==t          |
+| duration | ...    | none===t?void 0:t |
+
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
@@ -5870,17 +5887,6 @@ Login Required: `...`<br>
 `None`<br>
 #### queryId<br>
 `None`<br>
-## updateCaptionsAlwaysDisplayPreference<br>
-Request URL: `https://twitter.com/i/api/graphql/uCUQhvZ5sJ9qHinRp6CFlQ/updateCaptionsAlwaysDisplayPreference`<br>
-Request Method: `POST`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-`None`<br>
-#### queryId<br>
-`None`<br>
 ## DataSaverMode<br>
 Request URL: `https://twitter.com/i/api/graphql/xF6sXnKJfS2AOylzxRjf6A/DataSaverMode`<br>
 Request Method: `GET`<br>
@@ -6289,10 +6295,13 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key                                          | type   | variable   |
-|:---------------------------------------------|:-------|:-----------|
-| userId                                       | ...    | n          |
-| sharingAudiospacesListeningDataWithFollowers | ...    | t          |
+| key                    | type    | variable   |
+|:-----------------------|:--------|:-----------|
+| rootTweetId            | ...     | l          |
+| count                  | ...     | n          |
+| cursor                 | ...     | i          |
+| includePromotedContent | boolean | False      |
+| ...()(0,_.d)           | ...     | _          |
 
 #### features<br>
 | key                                                                     | type    | variable   |
@@ -6490,11 +6499,10 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key      | type   | variable          |
-|:---------|:-------|:------------------|
-| userId   | ...    | n                 |
-| enabled  | ...    | none!==t          |
-| duration | ...    | none===t?void 0:t |
+| key                                          | type   | variable   |
+|:---------------------------------------------|:-------|:-----------|
+| userId                                       | ...    | n          |
+| sharingAudiospacesListeningDataWithFollowers | ...    | t          |
 
 #### features<br>
 | key                                                                     | type    | variable   |
@@ -7192,10 +7200,13 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key                                          | type   | variable   |
-|:---------------------------------------------|:-------|:-----------|
-| userId                                       | ...    | n          |
-| sharingAudiospacesListeningDataWithFollowers | ...    | t          |
+| key                    | type    | variable   |
+|:-----------------------|:--------|:-----------|
+| rootTweetId            | ...     | l          |
+| count                  | ...     | n          |
+| cursor                 | ...     | i          |
+| includePromotedContent | boolean | False      |
+| ...()(0,_.d)           | ...     | _          |
 
 #### features<br>
 | key                                                                     | type    | variable   |
@@ -7353,11 +7364,10 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key      | type   | variable          |
-|:---------|:-------|:------------------|
-| userId   | ...    | n                 |
-| enabled  | ...    | none!==t          |
-| duration | ...    | none===t?void 0:t |
+| key                                          | type   | variable   |
+|:---------------------------------------------|:-------|:-----------|
+| userId                                       | ...    | n          |
+| sharingAudiospacesListeningDataWithFollowers | ...    | t          |
 
 #### features<br>
 | key                                                                     | type    | variable   |
@@ -8182,17 +8192,6 @@ Login Required: `...`<br>
 ## getCaptionsAlwaysDisplayPreference<br>
 Request URL: `https://twitter.com/i/api/graphql/BwgMOGpOViDS0ri7VUgglg/getCaptionsAlwaysDisplayPreference`<br>
 Request Method: `GET`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-`None`<br>
-#### queryId<br>
-`None`<br>
-## updateCaptionsAlwaysDisplayPreference<br>
-Request URL: `https://twitter.com/i/api/graphql/uCUQhvZ5sJ9qHinRp6CFlQ/updateCaptionsAlwaysDisplayPreference`<br>
-Request Method: `POST`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
@@ -10035,10 +10034,13 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key                                          | type   | variable   |
-|:---------------------------------------------|:-------|:-----------|
-| userId                                       | ...    | n          |
-| sharingAudiospacesListeningDataWithFollowers | ...    | t          |
+| key                    | type    | variable   |
+|:-----------------------|:--------|:-----------|
+| rootTweetId            | ...     | l          |
+| count                  | ...     | n          |
+| cursor                 | ...     | i          |
+| includePromotedContent | boolean | False      |
+| ...()(0,_.d)           | ...     | _          |
 
 #### features<br>
 | key                                                                     | type    | variable   |
@@ -11576,11 +11578,10 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key      | type   | variable          |
-|:---------|:-------|:------------------|
-| userId   | ...    | n                 |
-| enabled  | ...    | none!==t          |
-| duration | ...    | none===t?void 0:t |
+| key                                          | type   | variable   |
+|:---------------------------------------------|:-------|:-----------|
+| userId                                       | ...    | n          |
+| sharingAudiospacesListeningDataWithFollowers | ...    | t          |
 
 #### features<br>
 | key                                                                     | type    | variable   |
@@ -12713,7 +12714,12 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-`None`<br>
+| key      | type   | variable          |
+|:---------|:-------|:------------------|
+| userId   | ...    | n                 |
+| enabled  | ...    | none!==t          |
+| duration | ...    | none===t?void 0:t |
+
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
@@ -14303,7 +14309,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## SuperFollowsSubscribeQuery<br>
-Request URL: `https://twitter.com/i/api/graphql/RM_GpjWsezBynXW4N7VJWQ/SuperFollowsSubscribeQuery`<br>
+Request URL: `https://twitter.com/i/api/graphql/cwNDNtLO0yfGhoXuZM4_sA/SuperFollowsSubscribeQuery`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>

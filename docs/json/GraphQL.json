@@ -1152,8 +1152,11 @@
     "func_name": "x",
     "func_name_init": "q",
     "query": {
-      "userId": "n",
-      "sharingAudiospacesListeningDataWithFollowers": "t"
+      "rootTweetId": "l",
+      "count": "n",
+      "cursor": "i",
+      "includePromotedContent": "!1",
+      "...()(0,_.d)": "_"
     }
   },
   {
@@ -1590,8 +1593,7 @@
     "func_name_init": "L",
     "query": {
       "userId": "n",
-      "enabled": "none!==t",
-      "duration": "none===t?void 0:t"
+      "sharingAudiospacesListeningDataWithFollowers": "t"
     }
   },
   {
@@ -4465,8 +4467,11 @@
     "func_name": "x",
     "func_name_init": "q",
     "query": {
-      "userId": "n",
-      "sharingAudiospacesListeningDataWithFollowers": "t"
+      "rootTweetId": "l",
+      "count": "n",
+      "cursor": "i",
+      "includePromotedContent": "!1",
+      "...()(0,_.d)": "_"
     }
   },
   {
@@ -4903,8 +4908,7 @@
     "func_name_init": "L",
     "query": {
       "userId": "n",
-      "enabled": "none!==t",
-      "duration": "none===t?void 0:t"
+      "sharingAudiospacesListeningDataWithFollowers": "t"
     }
   },
   {
@@ -6380,8 +6384,11 @@
     "func_name": "x",
     "func_name_init": "q",
     "query": {
-      "userId": "n",
-      "sharingAudiospacesListeningDataWithFollowers": "t"
+      "rootTweetId": "l",
+      "count": "n",
+      "cursor": "i",
+      "includePromotedContent": "!1",
+      "...()(0,_.d)": "_"
     }
   },
   {
@@ -6818,8 +6825,7 @@
     "func_name_init": "L",
     "query": {
       "userId": "n",
-      "enabled": "none!==t",
-      "duration": "none===t?void 0:t"
+      "sharingAudiospacesListeningDataWithFollowers": "t"
     }
   },
   {
@@ -7941,8 +7947,11 @@
     "func_name": "x",
     "func_name_init": "q",
     "query": {
-      "userId": "n",
-      "sharingAudiospacesListeningDataWithFollowers": "t"
+      "rootTweetId": "l",
+      "count": "n",
+      "cursor": "i",
+      "includePromotedContent": "!1",
+      "...()(0,_.d)": "_"
     }
   },
   {
@@ -9967,8 +9976,7 @@
     "func_name_init": "L",
     "query": {
       "userId": "n",
-      "enabled": "none!==t",
-      "duration": "none===t?void 0:t"
+      "sharingAudiospacesListeningDataWithFollowers": "t"
     }
   },
   {
@@ -10656,8 +10664,11 @@
     "func_name": "x",
     "func_name_init": "q",
     "query": {
-      "userId": "n",
-      "sharingAudiospacesListeningDataWithFollowers": "t"
+      "rootTweetId": "l",
+      "count": "n",
+      "cursor": "i",
+      "includePromotedContent": "!1",
+      "...()(0,_.d)": "_"
     }
   },
   {
@@ -11094,8 +11105,7 @@
     "func_name_init": "L",
     "query": {
       "userId": "n",
-      "enabled": "none!==t",
-      "duration": "none===t?void 0:t"
+      "sharingAudiospacesListeningDataWithFollowers": "t"
     }
   },
   {
@@ -11795,8 +11805,11 @@
     "func_name": "x",
     "func_name_init": "q",
     "query": {
-      "userId": "n",
-      "sharingAudiospacesListeningDataWithFollowers": "t"
+      "rootTweetId": "l",
+      "count": "n",
+      "cursor": "i",
+      "includePromotedContent": "!1",
+      "...()(0,_.d)": "_"
     }
   },
   {
@@ -12348,8 +12361,7 @@
     "func_name_init": "L",
     "query": {
       "userId": "n",
-      "enabled": "none!==t",
-      "duration": "none===t?void 0:t"
+      "sharingAudiospacesListeningDataWithFollowers": "t"
     }
   },
   {
@@ -13238,7 +13250,11 @@
     },
     "func_name": "T",
     "func_name_init": "x",
-    "query": {}
+    "query": {
+      "userId": "n",
+      "enabled": "none!==t",
+      "duration": "none===t?void 0:t"
+    }
   },
   {
     "n": "22227",
@@ -13872,18 +13888,6 @@
       "queryId": "BwgMOGpOViDS0ri7VUgglg",
       "operationName": "getCaptionsAlwaysDisplayPreference",
       "operationType": "query",
-      "metadata": {
-        "featureSwitches": [],
-        "featureSwitch": {}
-      }
-    }
-  },
-  {
-    "n": "48310",
-    "exports": {
-      "queryId": "uCUQhvZ5sJ9qHinRp6CFlQ",
-      "operationName": "updateCaptionsAlwaysDisplayPreference",
-      "operationType": "mutation",
       "metadata": {
         "featureSwitches": [],
         "featureSwitch": {}
@@ -14882,8 +14886,11 @@
     "func_name": "x",
     "func_name_init": "q",
     "query": {
-      "userId": "n",
-      "sharingAudiospacesListeningDataWithFollowers": "t"
+      "rootTweetId": "l",
+      "count": "n",
+      "cursor": "i",
+      "includePromotedContent": "!1",
+      "...()(0,_.d)": "_"
     }
   },
   {
@@ -15429,8 +15436,7 @@
     "func_name_init": "L",
     "query": {
       "userId": "n",
-      "enabled": "none!==t",
-      "duration": "none===t?void 0:t"
+      "sharingAudiospacesListeningDataWithFollowers": "t"
     }
   },
   {
@@ -17192,8 +17198,11 @@
     "func_name": "x",
     "func_name_init": "q",
     "query": {
-      "userId": "n",
-      "sharingAudiospacesListeningDataWithFollowers": "t"
+      "rootTweetId": "l",
+      "count": "n",
+      "cursor": "i",
+      "includePromotedContent": "!1",
+      "...()(0,_.d)": "_"
     }
   },
   {
@@ -17630,8 +17639,7 @@
     "func_name_init": "L",
     "query": {
       "userId": "n",
-      "enabled": "none!==t",
-      "duration": "none===t?void 0:t"
+      "sharingAudiospacesListeningDataWithFollowers": "t"
     }
   },
   {
@@ -19626,18 +19634,6 @@
       "queryId": "BwgMOGpOViDS0ri7VUgglg",
       "operationName": "getCaptionsAlwaysDisplayPreference",
       "operationType": "query",
-      "metadata": {
-        "featureSwitches": [],
-        "featureSwitch": {}
-      }
-    }
-  },
-  {
-    "n": "48310",
-    "exports": {
-      "queryId": "uCUQhvZ5sJ9qHinRp6CFlQ",
-      "operationName": "updateCaptionsAlwaysDisplayPreference",
-      "operationType": "mutation",
       "metadata": {
         "featureSwitches": [],
         "featureSwitch": {}
@@ -23618,8 +23614,11 @@
     "func_name": "x",
     "func_name_init": "q",
     "query": {
-      "userId": "n",
-      "sharingAudiospacesListeningDataWithFollowers": "t"
+      "rootTweetId": "l",
+      "count": "n",
+      "cursor": "i",
+      "includePromotedContent": "!1",
+      "...()(0,_.d)": "_"
     }
   },
   {
@@ -27155,8 +27154,7 @@
     "func_name_init": "L",
     "query": {
       "userId": "n",
-      "enabled": "none!==t",
-      "duration": "none===t?void 0:t"
+      "sharingAudiospacesListeningDataWithFollowers": "t"
     }
   },
   {
@@ -30005,7 +30003,11 @@
     },
     "func_name": "T",
     "func_name_init": "x",
-    "query": {}
+    "query": {
+      "userId": "n",
+      "enabled": "none!==t",
+      "duration": "none===t?void 0:t"
+    }
   },
   {
     "n": "82079",
@@ -32086,7 +32088,7 @@
   {
     "n": "71190",
     "exports": {
-      "queryId": "RM_GpjWsezBynXW4N7VJWQ",
+      "queryId": "cwNDNtLO0yfGhoXuZM4_sA",
       "operationName": "SuperFollowsSubscribeQuery",
       "operationType": "query",
       "metadata": {
