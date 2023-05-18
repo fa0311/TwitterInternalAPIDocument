@@ -2595,12 +2595,6 @@
       "method": "GET",
       "features": {}
     },
-    "updateCaptionsAlwaysDisplayPreference": {
-      "url": "https://twitter.com/i/api/graphql/uCUQhvZ5sJ9qHinRp6CFlQ/updateCaptionsAlwaysDisplayPreference",
-      "queryId": "uCUQhvZ5sJ9qHinRp6CFlQ",
-      "method": "POST",
-      "features": {}
-    },
     "DataSaverMode": {
       "url": "https://twitter.com/i/api/graphql/xF6sXnKJfS2AOylzxRjf6A/DataSaverMode",
       "queryId": "xF6sXnKJfS2AOylzxRjf6A",
@@ -4329,8 +4323,8 @@
       "features": {}
     },
     "SuperFollowsSubscribeQuery": {
-      "url": "https://twitter.com/i/api/graphql/RM_GpjWsezBynXW4N7VJWQ/SuperFollowsSubscribeQuery",
-      "queryId": "RM_GpjWsezBynXW4N7VJWQ",
+      "url": "https://twitter.com/i/api/graphql/cwNDNtLO0yfGhoXuZM4_sA/SuperFollowsSubscribeQuery",
+      "queryId": "cwNDNtLO0yfGhoXuZM4_sA",
       "method": "GET",
       "features": {
         "super_follow_subscriptions_tax_calculation_enabled": true
