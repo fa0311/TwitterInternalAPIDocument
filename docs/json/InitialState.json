@@ -76,11 +76,6 @@
       "errors": {},
       "fetchStatus": {}
     },
-    "translationsProfiles": {
-      "entities": {},
-      "errors": {},
-      "fetchStatus": {}
-    },
     "imageCache": {
       "entities": {},
       "errors": {},
@@ -107,6 +102,11 @@
       "fetchStatus": {}
     },
     "phoneNumberValidity": {
+      "entities": {},
+      "errors": {},
+      "fetchStatus": {}
+    },
+    "translationsProfiles": {
       "entities": {},
       "errors": {},
       "fetchStatus": {}
@@ -3007,7 +3007,7 @@
           "value": "5"
         },
         "blue_business_vo_nav_for_legacy_verified": {
-          "value": "false"
+          "value": "true"
         },
         "blue_longer_video_enabled": {
           "value": "false"
@@ -3175,7 +3175,7 @@
           "value": "false"
         },
         "creator_subscriptions_tweet_preview_api_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "dash_region_specific_de_and_tr_media_transparency_items_enabled": {
           "value": "false"
@@ -3525,7 +3525,7 @@
           "value": "true"
         },
         "longform_ad_free_articles_badging_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "longform_notetweets_composition_without_claims_enabled": {
           "value": "false"
@@ -3771,7 +3771,7 @@
           "value": "true"
         },
         "responsive_web_birdwatch_consumption_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "responsive_web_birdwatch_contribution_enabled": {
           "value": "false"
@@ -3789,10 +3789,10 @@
           "value": "false"
         },
         "responsive_web_birdwatch_pivots_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "responsive_web_birdwatch_rating_crowd_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "responsive_web_birdwatch_rating_participant_enabled": {
           "value": "false"
@@ -3843,7 +3843,7 @@
           "value": "true"
         },
         "responsive_web_commerce_shop_spotlight_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "responsive_web_communities_slices_enabled": {
           "value": "true"
@@ -4053,7 +4053,7 @@
           "value": "false"
         },
         "responsive_web_live_commerce_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "responsive_web_live_video_parity_periscope_auth_enabled": {
           "value": "false"
@@ -4784,7 +4784,7 @@
           "value": "true"
         },
         "subscriptions_sign_up_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "subscriptions_stripe_testing": {
           "value": "false"
@@ -4799,7 +4799,7 @@
           "value": "true"
         },
         "super_follow_android_web_subscription_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "super_follow_exclusive_tweet_creation_api_enabled": {
           "value": "true"
@@ -4829,7 +4829,7 @@
           "value": "true"
         },
         "super_follow_web_application_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "super_follow_web_deactivate_enabled": {
           "value": "true"
@@ -5249,7 +5249,7 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "4327ced4a97d399e0ae108e9311095e7"
+      "settingsVersion": "dd6877f62ce844cb1311d35c654a47b5"
     },
     "debug": {},
     "featureSetToken": "9bd6c856719d8458ddd2d1c66ed52119def88f25",
@@ -5322,10 +5322,10 @@
     }
   },
   "session": {
-    "country": "XX",
+    "country": "US",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "168435759546174768",
+    "guestId": "168444400432769539",
     "hasCommunityMemberships": "false",
     "language": "en",
     "oneFactorLoginEligibility": {
