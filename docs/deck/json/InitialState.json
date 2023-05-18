@@ -3148,7 +3148,7 @@
           "value": "false"
         },
         "creator_subscriptions_tweet_preview_api_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "dash_region_specific_de_and_tr_media_transparency_items_enabled": {
           "value": "false"
@@ -3498,7 +3498,7 @@
           "value": "true"
         },
         "longform_ad_free_articles_badging_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "longform_notetweets_composition_without_claims_enabled": {
           "value": "false"
@@ -3747,7 +3747,7 @@
           "value": "true"
         },
         "responsive_web_birdwatch_consumption_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "responsive_web_birdwatch_contribution_enabled": {
           "value": "false"
@@ -3765,10 +3765,10 @@
           "value": "false"
         },
         "responsive_web_birdwatch_pivots_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "responsive_web_birdwatch_rating_crowd_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "responsive_web_birdwatch_rating_participant_enabled": {
           "value": "false"
@@ -3819,7 +3819,7 @@
           "value": "true"
         },
         "responsive_web_commerce_shop_spotlight_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "responsive_web_communities_slices_enabled": {
           "value": "true"
@@ -4029,7 +4029,7 @@
           "value": "false"
         },
         "responsive_web_live_commerce_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "responsive_web_live_video_parity_periscope_auth_enabled": {
           "value": "false"
@@ -4773,7 +4773,7 @@
           "value": "true"
         },
         "super_follow_android_web_subscription_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "super_follow_exclusive_tweet_creation_api_enabled": {
           "value": "true"
@@ -4803,7 +4803,7 @@
           "value": "true"
         },
         "super_follow_web_application_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "super_follow_web_deactivate_enabled": {
           "value": "true"
@@ -5223,7 +5223,7 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "51d61f9418b34609a2b3f95ca2010d34"
+      "settingsVersion": "8533c28c7ab66e3bafde71662198d7bd"
     },
     "debug": {},
     "featureSetToken": "f4618e3e88ffea023ce98f70debd065962ca2c75",
@@ -5296,10 +5296,10 @@
     }
   },
   "session": {
-    "country": "XX",
+    "country": "US",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "168435787169599446",
+    "guestId": "168444430714127892",
     "hasCommunityMemberships": "false",
     "language": "en",
     "oneFactorLoginEligibility": {
