@@ -381,7 +381,7 @@
         ],
         "featureSwitch": {
           "creator_subscriptions_tweet_preview_api_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "tweetypie_unmention_optimization_enabled": {
             "value": "true"
@@ -550,7 +550,7 @@
             "value": "false"
           },
           "creator_subscriptions_tweet_preview_api_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_graphql_timeline_navigation_enabled": {
             "value": "true"
@@ -652,7 +652,7 @@
             "value": "false"
           },
           "creator_subscriptions_tweet_preview_api_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_graphql_timeline_navigation_enabled": {
             "value": "true"
@@ -754,7 +754,7 @@
             "value": "false"
           },
           "creator_subscriptions_tweet_preview_api_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_graphql_timeline_navigation_enabled": {
             "value": "true"
@@ -871,7 +871,7 @@
             "value": "false"
           },
           "creator_subscriptions_tweet_preview_api_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_graphql_timeline_navigation_enabled": {
             "value": "true"
@@ -982,7 +982,7 @@
             "value": "false"
           },
           "creator_subscriptions_tweet_preview_api_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_graphql_timeline_navigation_enabled": {
             "value": "true"
@@ -1093,7 +1093,7 @@
             "value": "false"
           },
           "creator_subscriptions_tweet_preview_api_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_graphql_timeline_navigation_enabled": {
             "value": "true"
@@ -1204,7 +1204,7 @@
             "value": "false"
           },
           "creator_subscriptions_tweet_preview_api_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_graphql_timeline_navigation_enabled": {
             "value": "true"
@@ -1314,7 +1314,7 @@
             "value": "false"
           },
           "creator_subscriptions_tweet_preview_api_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_graphql_timeline_navigation_enabled": {
             "value": "true"
@@ -1424,7 +1424,7 @@
             "value": "false"
           },
           "creator_subscriptions_tweet_preview_api_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_graphql_timeline_navigation_enabled": {
             "value": "true"
@@ -1533,7 +1533,7 @@
             "value": "false"
           },
           "creator_subscriptions_tweet_preview_api_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_graphql_timeline_navigation_enabled": {
             "value": "true"
@@ -1715,7 +1715,7 @@
             "value": "false"
           },
           "creator_subscriptions_tweet_preview_api_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_graphql_skip_user_profile_image_extensions_enabled": {
             "value": "false"
@@ -1852,7 +1852,7 @@
         ],
         "featureSwitch": {
           "creator_subscriptions_tweet_preview_api_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "tweetypie_unmention_optimization_enabled": {
             "value": "true"
@@ -2129,7 +2129,7 @@
             "value": "false"
           },
           "creator_subscriptions_tweet_preview_api_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "tweetypie_unmention_optimization_enabled": {
             "value": "true"
@@ -2329,7 +2329,7 @@
             "value": "false"
           },
           "creator_subscriptions_tweet_preview_api_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_graphql_timeline_navigation_enabled": {
             "value": "true"
@@ -2472,7 +2472,7 @@
             "value": "false"
           },
           "creator_subscriptions_tweet_preview_api_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_graphql_timeline_navigation_enabled": {
             "value": "true"
@@ -2682,7 +2682,7 @@
             "value": "false"
           },
           "creator_subscriptions_tweet_preview_api_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_graphql_timeline_navigation_enabled": {
             "value": "true"
@@ -2784,7 +2784,7 @@
             "value": "false"
           },
           "creator_subscriptions_tweet_preview_api_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_graphql_timeline_navigation_enabled": {
             "value": "true"
@@ -2886,7 +2886,7 @@
             "value": "false"
           },
           "creator_subscriptions_tweet_preview_api_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_graphql_timeline_navigation_enabled": {
             "value": "true"
@@ -2988,7 +2988,7 @@
             "value": "false"
           },
           "creator_subscriptions_tweet_preview_api_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_graphql_timeline_navigation_enabled": {
             "value": "true"
@@ -3090,7 +3090,7 @@
             "value": "false"
           },
           "creator_subscriptions_tweet_preview_api_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_graphql_timeline_navigation_enabled": {
             "value": "true"
@@ -3226,7 +3226,7 @@
             "value": "false"
           },
           "creator_subscriptions_tweet_preview_api_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_graphql_timeline_navigation_enabled": {
             "value": "true"
@@ -3328,7 +3328,7 @@
             "value": "false"
           },
           "creator_subscriptions_tweet_preview_api_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_graphql_timeline_navigation_enabled": {
             "value": "true"
@@ -3464,7 +3464,7 @@
             "value": "false"
           },
           "creator_subscriptions_tweet_preview_api_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_graphql_timeline_navigation_enabled": {
             "value": "true"
@@ -3600,7 +3600,7 @@
             "value": "false"
           },
           "creator_subscriptions_tweet_preview_api_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_graphql_timeline_navigation_enabled": {
             "value": "true"
@@ -3791,7 +3791,7 @@
         ],
         "featureSwitch": {
           "creator_subscriptions_tweet_preview_api_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "tweetypie_unmention_optimization_enabled": {
             "value": "true"
@@ -3936,7 +3936,7 @@
             "value": "false"
           },
           "creator_subscriptions_tweet_preview_api_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_graphql_timeline_navigation_enabled": {
             "value": "true"
@@ -4038,7 +4038,7 @@
             "value": "false"
           },
           "creator_subscriptions_tweet_preview_api_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_graphql_timeline_navigation_enabled": {
             "value": "true"
@@ -4186,7 +4186,7 @@
             "value": "false"
           },
           "creator_subscriptions_tweet_preview_api_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_graphql_timeline_navigation_enabled": {
             "value": "true"
@@ -4297,7 +4297,7 @@
             "value": "false"
           },
           "creator_subscriptions_tweet_preview_api_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_graphql_timeline_navigation_enabled": {
             "value": "true"
@@ -4408,7 +4408,7 @@
             "value": "false"
           },
           "creator_subscriptions_tweet_preview_api_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_graphql_timeline_navigation_enabled": {
             "value": "true"
@@ -4519,7 +4519,7 @@
             "value": "false"
           },
           "creator_subscriptions_tweet_preview_api_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_graphql_timeline_navigation_enabled": {
             "value": "true"
@@ -4629,7 +4629,7 @@
             "value": "false"
           },
           "creator_subscriptions_tweet_preview_api_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_graphql_timeline_navigation_enabled": {
             "value": "true"
@@ -4739,7 +4739,7 @@
             "value": "false"
           },
           "creator_subscriptions_tweet_preview_api_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_graphql_timeline_navigation_enabled": {
             "value": "true"
@@ -4848,7 +4848,7 @@
             "value": "false"
           },
           "creator_subscriptions_tweet_preview_api_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_graphql_timeline_navigation_enabled": {
             "value": "true"
@@ -5303,7 +5303,7 @@
             "value": "false"
           },
           "creator_subscriptions_tweet_preview_api_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_graphql_timeline_navigation_enabled": {
             "value": "true"
@@ -5468,7 +5468,7 @@
             "value": "false"
           },
           "creator_subscriptions_tweet_preview_api_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_graphql_timeline_navigation_enabled": {
             "value": "true"
@@ -5680,7 +5680,7 @@
             "value": "false"
           },
           "creator_subscriptions_tweet_preview_api_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_graphql_timeline_navigation_enabled": {
             "value": "true"
@@ -5797,7 +5797,7 @@
             "value": "false"
           },
           "creator_subscriptions_tweet_preview_api_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_graphql_timeline_navigation_enabled": {
             "value": "true"
@@ -5899,7 +5899,7 @@
             "value": "false"
           },
           "creator_subscriptions_tweet_preview_api_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_graphql_timeline_navigation_enabled": {
             "value": "true"
@@ -6001,7 +6001,7 @@
             "value": "false"
           },
           "creator_subscriptions_tweet_preview_api_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_graphql_timeline_navigation_enabled": {
             "value": "true"
@@ -6103,7 +6103,7 @@
             "value": "false"
           },
           "creator_subscriptions_tweet_preview_api_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_graphql_timeline_navigation_enabled": {
             "value": "true"
@@ -6214,7 +6214,7 @@
             "value": "false"
           },
           "creator_subscriptions_tweet_preview_api_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_graphql_timeline_navigation_enabled": {
             "value": "true"
@@ -6325,7 +6325,7 @@
             "value": "false"
           },
           "creator_subscriptions_tweet_preview_api_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_graphql_timeline_navigation_enabled": {
             "value": "true"
@@ -6436,7 +6436,7 @@
             "value": "false"
           },
           "creator_subscriptions_tweet_preview_api_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_graphql_timeline_navigation_enabled": {
             "value": "true"
@@ -6546,7 +6546,7 @@
             "value": "false"
           },
           "creator_subscriptions_tweet_preview_api_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_graphql_timeline_navigation_enabled": {
             "value": "true"
@@ -6656,7 +6656,7 @@
             "value": "false"
           },
           "creator_subscriptions_tweet_preview_api_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_graphql_timeline_navigation_enabled": {
             "value": "true"
@@ -6765,7 +6765,7 @@
             "value": "false"
           },
           "creator_subscriptions_tweet_preview_api_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_graphql_timeline_navigation_enabled": {
             "value": "true"
@@ -6914,7 +6914,7 @@
             "value": "false"
           },
           "creator_subscriptions_tweet_preview_api_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_graphql_timeline_navigation_enabled": {
             "value": "true"
@@ -7016,7 +7016,7 @@
             "value": "false"
           },
           "creator_subscriptions_tweet_preview_api_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_graphql_timeline_navigation_enabled": {
             "value": "true"
@@ -7118,7 +7118,7 @@
             "value": "false"
           },
           "creator_subscriptions_tweet_preview_api_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_graphql_timeline_navigation_enabled": {
             "value": "true"
@@ -7258,7 +7258,7 @@
             "value": "false"
           },
           "creator_subscriptions_tweet_preview_api_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_graphql_timeline_navigation_enabled": {
             "value": "true"
@@ -7360,7 +7360,7 @@
             "value": "false"
           },
           "creator_subscriptions_tweet_preview_api_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_graphql_timeline_navigation_enabled": {
             "value": "true"
@@ -7462,7 +7462,7 @@
             "value": "false"
           },
           "creator_subscriptions_tweet_preview_api_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_graphql_timeline_navigation_enabled": {
             "value": "true"
@@ -7564,7 +7564,7 @@
             "value": "false"
           },
           "creator_subscriptions_tweet_preview_api_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_graphql_timeline_navigation_enabled": {
             "value": "true"
@@ -7666,7 +7666,7 @@
             "value": "false"
           },
           "creator_subscriptions_tweet_preview_api_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_graphql_timeline_navigation_enabled": {
             "value": "true"
@@ -7777,7 +7777,7 @@
             "value": "false"
           },
           "creator_subscriptions_tweet_preview_api_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_graphql_timeline_navigation_enabled": {
             "value": "true"
@@ -7888,7 +7888,7 @@
             "value": "false"
           },
           "creator_subscriptions_tweet_preview_api_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_graphql_timeline_navigation_enabled": {
             "value": "true"
@@ -7999,7 +7999,7 @@
             "value": "false"
           },
           "creator_subscriptions_tweet_preview_api_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_graphql_timeline_navigation_enabled": {
             "value": "true"
@@ -8299,7 +8299,7 @@
             "value": "false"
           },
           "creator_subscriptions_tweet_preview_api_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_graphql_timeline_navigation_enabled": {
             "value": "true"
@@ -8413,7 +8413,7 @@
             "value": "false"
           },
           "creator_subscriptions_tweet_preview_api_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_graphql_timeline_navigation_enabled": {
             "value": "true"
@@ -8515,7 +8515,7 @@
             "value": "false"
           },
           "creator_subscriptions_tweet_preview_api_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_graphql_timeline_navigation_enabled": {
             "value": "true"
@@ -8617,7 +8617,7 @@
             "value": "false"
           },
           "creator_subscriptions_tweet_preview_api_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_graphql_timeline_navigation_enabled": {
             "value": "true"
@@ -8719,7 +8719,7 @@
             "value": "false"
           },
           "creator_subscriptions_tweet_preview_api_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_graphql_timeline_navigation_enabled": {
             "value": "true"
@@ -8833,7 +8833,7 @@
             "value": "false"
           },
           "creator_subscriptions_tweet_preview_api_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_graphql_timeline_navigation_enabled": {
             "value": "true"
@@ -9049,7 +9049,7 @@
             "value": "false"
           },
           "creator_subscriptions_tweet_preview_api_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_graphql_timeline_navigation_enabled": {
             "value": "true"
@@ -9227,7 +9227,7 @@
             "value": "false"
           },
           "creator_subscriptions_tweet_preview_api_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_graphql_timeline_navigation_enabled": {
             "value": "true"
@@ -9455,7 +9455,7 @@
             "value": "false"
           },
           "creator_subscriptions_tweet_preview_api_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_graphql_timeline_navigation_enabled": {
             "value": "true"
@@ -9557,7 +9557,7 @@
             "value": "false"
           },
           "creator_subscriptions_tweet_preview_api_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_graphql_timeline_navigation_enabled": {
             "value": "true"
@@ -9697,7 +9697,7 @@
             "value": "false"
           },
           "creator_subscriptions_tweet_preview_api_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_graphql_timeline_navigation_enabled": {
             "value": "true"
@@ -9807,7 +9807,7 @@
             "value": "false"
           },
           "creator_subscriptions_tweet_preview_api_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_graphql_timeline_navigation_enabled": {
             "value": "true"
@@ -9916,7 +9916,7 @@
             "value": "false"
           },
           "creator_subscriptions_tweet_preview_api_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_graphql_timeline_navigation_enabled": {
             "value": "true"
@@ -10065,7 +10065,7 @@
             "value": "false"
           },
           "creator_subscriptions_tweet_preview_api_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_graphql_timeline_navigation_enabled": {
             "value": "true"
@@ -10167,7 +10167,7 @@
             "value": "false"
           },
           "creator_subscriptions_tweet_preview_api_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_graphql_timeline_navigation_enabled": {
             "value": "true"
@@ -10269,7 +10269,7 @@
             "value": "false"
           },
           "creator_subscriptions_tweet_preview_api_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_graphql_timeline_navigation_enabled": {
             "value": "true"
@@ -10383,7 +10383,7 @@
             "value": "false"
           },
           "creator_subscriptions_tweet_preview_api_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_graphql_timeline_navigation_enabled": {
             "value": "true"
@@ -10494,7 +10494,7 @@
             "value": "false"
           },
           "creator_subscriptions_tweet_preview_api_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_graphql_timeline_navigation_enabled": {
             "value": "true"
@@ -10605,7 +10605,7 @@
             "value": "false"
           },
           "creator_subscriptions_tweet_preview_api_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_graphql_timeline_navigation_enabled": {
             "value": "true"
@@ -10716,7 +10716,7 @@
             "value": "false"
           },
           "creator_subscriptions_tweet_preview_api_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_graphql_timeline_navigation_enabled": {
             "value": "true"
@@ -10826,7 +10826,7 @@
             "value": "false"
           },
           "creator_subscriptions_tweet_preview_api_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_graphql_timeline_navigation_enabled": {
             "value": "true"
@@ -10936,7 +10936,7 @@
             "value": "false"
           },
           "creator_subscriptions_tweet_preview_api_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_graphql_timeline_navigation_enabled": {
             "value": "true"
@@ -11045,7 +11045,7 @@
             "value": "false"
           },
           "creator_subscriptions_tweet_preview_api_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_graphql_timeline_navigation_enabled": {
             "value": "true"
@@ -11218,7 +11218,7 @@
             "value": "false"
           },
           "creator_subscriptions_tweet_preview_api_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_graphql_timeline_navigation_enabled": {
             "value": "true"
@@ -11320,7 +11320,7 @@
             "value": "false"
           },
           "creator_subscriptions_tweet_preview_api_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_graphql_timeline_navigation_enabled": {
             "value": "true"
@@ -11422,7 +11422,7 @@
             "value": "false"
           },
           "creator_subscriptions_tweet_preview_api_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_graphql_timeline_navigation_enabled": {
             "value": "true"
@@ -11524,7 +11524,7 @@
             "value": "false"
           },
           "creator_subscriptions_tweet_preview_api_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_graphql_timeline_navigation_enabled": {
             "value": "true"
@@ -11635,7 +11635,7 @@
             "value": "false"
           },
           "creator_subscriptions_tweet_preview_api_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_graphql_timeline_navigation_enabled": {
             "value": "true"
@@ -11746,7 +11746,7 @@
             "value": "false"
           },
           "creator_subscriptions_tweet_preview_api_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_graphql_timeline_navigation_enabled": {
             "value": "true"
@@ -11857,7 +11857,7 @@
             "value": "false"
           },
           "creator_subscriptions_tweet_preview_api_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_graphql_timeline_navigation_enabled": {
             "value": "true"
@@ -11967,7 +11967,7 @@
             "value": "false"
           },
           "creator_subscriptions_tweet_preview_api_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_graphql_timeline_navigation_enabled": {
             "value": "true"
@@ -12082,7 +12082,7 @@
             "value": "false"
           },
           "creator_subscriptions_tweet_preview_api_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_graphql_timeline_navigation_enabled": {
             "value": "true"
@@ -12192,7 +12192,7 @@
             "value": "false"
           },
           "creator_subscriptions_tweet_preview_api_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_graphql_timeline_navigation_enabled": {
             "value": "true"
@@ -12301,7 +12301,7 @@
             "value": "false"
           },
           "creator_subscriptions_tweet_preview_api_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_graphql_timeline_navigation_enabled": {
             "value": "true"
@@ -12409,7 +12409,7 @@
             "value": "false"
           },
           "creator_subscriptions_tweet_preview_api_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_graphql_timeline_navigation_enabled": {
             "value": "true"
@@ -12520,7 +12520,7 @@
             "value": "false"
           },
           "creator_subscriptions_tweet_preview_api_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_graphql_timeline_navigation_enabled": {
             "value": "true"
@@ -12634,7 +12634,7 @@
             "value": "false"
           },
           "creator_subscriptions_tweet_preview_api_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_graphql_timeline_navigation_enabled": {
             "value": "true"
@@ -12746,7 +12746,7 @@
             "value": "false"
           },
           "creator_subscriptions_tweet_preview_api_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_graphql_timeline_navigation_enabled": {
             "value": "true"
@@ -12861,7 +12861,7 @@
             "value": "false"
           },
           "creator_subscriptions_tweet_preview_api_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_graphql_timeline_navigation_enabled": {
             "value": "true"
@@ -12966,7 +12966,7 @@
             "value": "false"
           },
           "creator_subscriptions_tweet_preview_api_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_graphql_timeline_navigation_enabled": {
             "value": "true"
@@ -13078,7 +13078,7 @@
             "value": "false"
           },
           "creator_subscriptions_tweet_preview_api_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_graphql_timeline_navigation_enabled": {
             "value": "true"
@@ -13192,7 +13192,7 @@
             "value": "false"
           },
           "creator_subscriptions_tweet_preview_api_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_graphql_timeline_navigation_enabled": {
             "value": "true"
@@ -13474,7 +13474,7 @@
             "value": "false"
           },
           "creator_subscriptions_tweet_preview_api_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_graphql_timeline_navigation_enabled": {
             "value": "true"
@@ -13576,7 +13576,7 @@
             "value": "false"
           },
           "creator_subscriptions_tweet_preview_api_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_graphql_timeline_navigation_enabled": {
             "value": "true"
@@ -13685,7 +13685,7 @@
             "value": "false"
           },
           "creator_subscriptions_tweet_preview_api_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_graphql_timeline_navigation_enabled": {
             "value": "true"
@@ -14095,7 +14095,7 @@
             "value": "false"
           },
           "creator_subscriptions_tweet_preview_api_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_graphql_timeline_navigation_enabled": {
             "value": "true"
@@ -14197,7 +14197,7 @@
             "value": "false"
           },
           "creator_subscriptions_tweet_preview_api_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_graphql_timeline_navigation_enabled": {
             "value": "true"
@@ -14299,7 +14299,7 @@
             "value": "false"
           },
           "creator_subscriptions_tweet_preview_api_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_graphql_timeline_navigation_enabled": {
             "value": "true"
@@ -14401,7 +14401,7 @@
             "value": "false"
           },
           "creator_subscriptions_tweet_preview_api_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_graphql_timeline_navigation_enabled": {
             "value": "true"
@@ -14503,7 +14503,7 @@
             "value": "false"
           },
           "creator_subscriptions_tweet_preview_api_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_graphql_timeline_navigation_enabled": {
             "value": "true"
@@ -14605,7 +14605,7 @@
             "value": "false"
           },
           "creator_subscriptions_tweet_preview_api_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_graphql_timeline_navigation_enabled": {
             "value": "true"
@@ -14716,7 +14716,7 @@
             "value": "false"
           },
           "creator_subscriptions_tweet_preview_api_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_graphql_timeline_navigation_enabled": {
             "value": "true"
@@ -14827,7 +14827,7 @@
             "value": "false"
           },
           "creator_subscriptions_tweet_preview_api_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_graphql_timeline_navigation_enabled": {
             "value": "true"
@@ -14938,7 +14938,7 @@
             "value": "false"
           },
           "creator_subscriptions_tweet_preview_api_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_graphql_timeline_navigation_enabled": {
             "value": "true"
@@ -15048,7 +15048,7 @@
             "value": "false"
           },
           "creator_subscriptions_tweet_preview_api_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_graphql_timeline_navigation_enabled": {
             "value": "true"
@@ -15158,7 +15158,7 @@
             "value": "false"
           },
           "creator_subscriptions_tweet_preview_api_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_graphql_timeline_navigation_enabled": {
             "value": "true"
@@ -15273,7 +15273,7 @@
             "value": "false"
           },
           "creator_subscriptions_tweet_preview_api_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "tweetypie_unmention_optimization_enabled": {
             "value": "true"
@@ -15376,7 +15376,7 @@
             "value": "false"
           },
           "creator_subscriptions_tweet_preview_api_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_graphql_timeline_navigation_enabled": {
             "value": "true"
@@ -15507,7 +15507,7 @@
             "value": "false"
           },
           "creator_subscriptions_tweet_preview_api_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "tweetypie_unmention_optimization_enabled": {
             "value": "true"
@@ -15640,7 +15640,7 @@
             "value": "false"
           },
           "creator_subscriptions_tweet_preview_api_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_graphql_timeline_navigation_enabled": {
             "value": "true"
@@ -15788,7 +15788,7 @@
             "value": "false"
           },
           "creator_subscriptions_tweet_preview_api_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "tweetypie_unmention_optimization_enabled": {
             "value": "true"
@@ -15896,7 +15896,7 @@
             "value": "false"
           },
           "creator_subscriptions_tweet_preview_api_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "tweetypie_unmention_optimization_enabled": {
             "value": "true"
@@ -16003,7 +16003,7 @@
             "value": "false"
           },
           "creator_subscriptions_tweet_preview_api_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "tweetypie_unmention_optimization_enabled": {
             "value": "true"
@@ -16152,7 +16152,7 @@
             "value": "false"
           },
           "creator_subscriptions_tweet_preview_api_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "tweetypie_unmention_optimization_enabled": {
             "value": "true"
@@ -16280,7 +16280,7 @@
             "value": "false"
           },
           "creator_subscriptions_tweet_preview_api_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_graphql_timeline_navigation_enabled": {
             "value": "true"
@@ -16391,7 +16391,7 @@
             "value": "false"
           },
           "creator_subscriptions_tweet_preview_api_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_graphql_timeline_navigation_enabled": {
             "value": "true"
@@ -16547,7 +16547,7 @@
             "value": "true"
           },
           "creator_subscriptions_tweet_preview_api_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_graphql_skip_user_profile_image_extensions_enabled": {
             "value": "false"
@@ -16611,7 +16611,7 @@
             "value": "false"
           },
           "creator_subscriptions_tweet_preview_api_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_graphql_timeline_navigation_enabled": {
             "value": "true"
@@ -16713,7 +16713,7 @@
             "value": "false"
           },
           "creator_subscriptions_tweet_preview_api_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_graphql_timeline_navigation_enabled": {
             "value": "true"
@@ -16815,7 +16815,7 @@
             "value": "false"
           },
           "creator_subscriptions_tweet_preview_api_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_graphql_timeline_navigation_enabled": {
             "value": "true"
@@ -16917,7 +16917,7 @@
             "value": "false"
           },
           "creator_subscriptions_tweet_preview_api_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_graphql_timeline_navigation_enabled": {
             "value": "true"
@@ -17028,7 +17028,7 @@
             "value": "false"
           },
           "creator_subscriptions_tweet_preview_api_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_graphql_timeline_navigation_enabled": {
             "value": "true"
@@ -17139,7 +17139,7 @@
             "value": "false"
           },
           "creator_subscriptions_tweet_preview_api_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_graphql_timeline_navigation_enabled": {
             "value": "true"
@@ -17250,7 +17250,7 @@
             "value": "false"
           },
           "creator_subscriptions_tweet_preview_api_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_graphql_timeline_navigation_enabled": {
             "value": "true"
@@ -17360,7 +17360,7 @@
             "value": "false"
           },
           "creator_subscriptions_tweet_preview_api_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_graphql_timeline_navigation_enabled": {
             "value": "true"
@@ -17470,7 +17470,7 @@
             "value": "false"
           },
           "creator_subscriptions_tweet_preview_api_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_graphql_timeline_navigation_enabled": {
             "value": "true"
@@ -17579,7 +17579,7 @@
             "value": "false"
           },
           "creator_subscriptions_tweet_preview_api_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_graphql_timeline_navigation_enabled": {
             "value": "true"
@@ -17758,7 +17758,7 @@
             "value": "false"
           },
           "creator_subscriptions_tweet_preview_api_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_graphql_timeline_navigation_enabled": {
             "value": "true"
@@ -17872,7 +17872,7 @@
             "value": "false"
           },
           "creator_subscriptions_tweet_preview_api_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_graphql_timeline_navigation_enabled": {
             "value": "true"
@@ -17974,7 +17974,7 @@
             "value": "false"
           },
           "creator_subscriptions_tweet_preview_api_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_graphql_timeline_navigation_enabled": {
             "value": "true"
@@ -18076,7 +18076,7 @@
             "value": "false"
           },
           "creator_subscriptions_tweet_preview_api_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_graphql_timeline_navigation_enabled": {
             "value": "true"
@@ -18178,7 +18178,7 @@
             "value": "false"
           },
           "creator_subscriptions_tweet_preview_api_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_graphql_timeline_navigation_enabled": {
             "value": "true"
@@ -18280,7 +18280,7 @@
             "value": "false"
           },
           "creator_subscriptions_tweet_preview_api_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_graphql_timeline_navigation_enabled": {
             "value": "true"
@@ -18382,7 +18382,7 @@
             "value": "false"
           },
           "creator_subscriptions_tweet_preview_api_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_graphql_timeline_navigation_enabled": {
             "value": "true"
@@ -18484,7 +18484,7 @@
             "value": "false"
           },
           "creator_subscriptions_tweet_preview_api_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_graphql_timeline_navigation_enabled": {
             "value": "true"
@@ -18629,7 +18629,7 @@
             "value": "false"
           },
           "creator_subscriptions_tweet_preview_api_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_graphql_timeline_navigation_enabled": {
             "value": "true"
@@ -18737,7 +18737,7 @@
             "value": "false"
           },
           "creator_subscriptions_tweet_preview_api_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "tweetypie_unmention_optimization_enabled": {
             "value": "true"
@@ -18833,7 +18833,7 @@
             "value": "false"
           },
           "creator_subscriptions_tweet_preview_api_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_graphql_timeline_navigation_enabled": {
             "value": "true"
@@ -18935,7 +18935,7 @@
             "value": "false"
           },
           "creator_subscriptions_tweet_preview_api_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_graphql_timeline_navigation_enabled": {
             "value": "true"
@@ -19049,7 +19049,7 @@
             "value": "false"
           },
           "creator_subscriptions_tweet_preview_api_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_graphql_timeline_navigation_enabled": {
             "value": "true"
@@ -19148,7 +19148,7 @@
             "value": "true"
           },
           "creator_subscriptions_tweet_preview_api_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_graphql_skip_user_profile_image_extensions_enabled": {
             "value": "false"
@@ -19190,7 +19190,7 @@
             "value": "true"
           },
           "creator_subscriptions_tweet_preview_api_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_graphql_skip_user_profile_image_extensions_enabled": {
             "value": "false"
@@ -19327,7 +19327,7 @@
             "value": "false"
           },
           "creator_subscriptions_tweet_preview_api_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_graphql_timeline_navigation_enabled": {
             "value": "true"
@@ -19429,7 +19429,7 @@
             "value": "false"
           },
           "creator_subscriptions_tweet_preview_api_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_graphql_timeline_navigation_enabled": {
             "value": "true"
@@ -19535,7 +19535,7 @@
             "value": "false"
           },
           "creator_subscriptions_tweet_preview_api_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_graphql_skip_user_profile_image_extensions_enabled": {
             "value": "false"
@@ -19696,7 +19696,7 @@
         ],
         "featureSwitch": {
           "creator_subscriptions_tweet_preview_api_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "tweetypie_unmention_optimization_enabled": {
             "value": "true"
@@ -19973,7 +19973,7 @@
             "value": "false"
           },
           "creator_subscriptions_tweet_preview_api_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "tweetypie_unmention_optimization_enabled": {
             "value": "true"
@@ -20173,7 +20173,7 @@
             "value": "false"
           },
           "creator_subscriptions_tweet_preview_api_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_graphql_timeline_navigation_enabled": {
             "value": "true"
@@ -20275,7 +20275,7 @@
             "value": "false"
           },
           "creator_subscriptions_tweet_preview_api_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_graphql_timeline_navigation_enabled": {
             "value": "true"
@@ -20377,7 +20377,7 @@
             "value": "false"
           },
           "creator_subscriptions_tweet_preview_api_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_graphql_timeline_navigation_enabled": {
             "value": "true"
@@ -20479,7 +20479,7 @@
             "value": "false"
           },
           "creator_subscriptions_tweet_preview_api_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_graphql_timeline_navigation_enabled": {
             "value": "true"
@@ -20622,7 +20622,7 @@
             "value": "false"
           },
           "creator_subscriptions_tweet_preview_api_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_graphql_timeline_navigation_enabled": {
             "value": "true"
@@ -20770,7 +20770,7 @@
             "value": "false"
           },
           "creator_subscriptions_tweet_preview_api_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_graphql_timeline_navigation_enabled": {
             "value": "true"
@@ -20872,7 +20872,7 @@
             "value": "false"
           },
           "creator_subscriptions_tweet_preview_api_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_graphql_timeline_navigation_enabled": {
             "value": "true"
@@ -20974,7 +20974,7 @@
             "value": "false"
           },
           "creator_subscriptions_tweet_preview_api_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_graphql_timeline_navigation_enabled": {
             "value": "true"
@@ -21110,7 +21110,7 @@
             "value": "false"
           },
           "creator_subscriptions_tweet_preview_api_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_graphql_timeline_navigation_enabled": {
             "value": "true"
@@ -21212,7 +21212,7 @@
             "value": "false"
           },
           "creator_subscriptions_tweet_preview_api_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_graphql_timeline_navigation_enabled": {
             "value": "true"
@@ -21382,7 +21382,7 @@
             "value": "false"
           },
           "creator_subscriptions_tweet_preview_api_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_graphql_timeline_navigation_enabled": {
             "value": "true"
@@ -21688,7 +21688,7 @@
             "value": "false"
           },
           "creator_subscriptions_tweet_preview_api_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_graphql_timeline_navigation_enabled": {
             "value": "true"
@@ -21891,7 +21891,7 @@
         ],
         "featureSwitch": {
           "creator_subscriptions_tweet_preview_api_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "tweetypie_unmention_optimization_enabled": {
             "value": "true"
@@ -22138,7 +22138,7 @@
             "value": "false"
           },
           "creator_subscriptions_tweet_preview_api_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_graphql_timeline_navigation_enabled": {
             "value": "true"
@@ -22240,7 +22240,7 @@
             "value": "false"
           },
           "creator_subscriptions_tweet_preview_api_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_graphql_timeline_navigation_enabled": {
             "value": "true"
@@ -22400,7 +22400,7 @@
             "value": "false"
           },
           "creator_subscriptions_tweet_preview_api_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_graphql_timeline_navigation_enabled": {
             "value": "true"
@@ -22579,7 +22579,7 @@
             "value": "false"
           },
           "creator_subscriptions_tweet_preview_api_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_graphql_timeline_navigation_enabled": {
             "value": "true"
@@ -22887,7 +22887,7 @@
             "value": "false"
           },
           "creator_subscriptions_tweet_preview_api_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_graphql_timeline_navigation_enabled": {
             "value": "true"
@@ -23114,7 +23114,7 @@
             "value": "false"
           },
           "creator_subscriptions_tweet_preview_api_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "tweetypie_unmention_optimization_enabled": {
             "value": "true"
@@ -23210,7 +23210,7 @@
             "value": "false"
           },
           "creator_subscriptions_tweet_preview_api_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_graphql_timeline_navigation_enabled": {
             "value": "true"
@@ -23333,7 +23333,7 @@
             "value": "false"
           },
           "creator_subscriptions_tweet_preview_api_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_graphql_timeline_navigation_enabled": {
             "value": "true"
@@ -23444,7 +23444,7 @@
             "value": "false"
           },
           "creator_subscriptions_tweet_preview_api_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_graphql_timeline_navigation_enabled": {
             "value": "true"
@@ -23555,7 +23555,7 @@
             "value": "false"
           },
           "creator_subscriptions_tweet_preview_api_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_graphql_timeline_navigation_enabled": {
             "value": "true"
@@ -23666,7 +23666,7 @@
             "value": "false"
           },
           "creator_subscriptions_tweet_preview_api_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_graphql_timeline_navigation_enabled": {
             "value": "true"
@@ -23791,7 +23791,7 @@
             "value": "false"
           },
           "creator_subscriptions_tweet_preview_api_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_graphql_timeline_navigation_enabled": {
             "value": "true"
@@ -23893,7 +23893,7 @@
             "value": "false"
           },
           "creator_subscriptions_tweet_preview_api_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_graphql_timeline_navigation_enabled": {
             "value": "true"
@@ -23995,7 +23995,7 @@
             "value": "false"
           },
           "creator_subscriptions_tweet_preview_api_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_graphql_timeline_navigation_enabled": {
             "value": "true"
@@ -24097,7 +24097,7 @@
             "value": "false"
           },
           "creator_subscriptions_tweet_preview_api_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_graphql_timeline_navigation_enabled": {
             "value": "true"
@@ -24402,7 +24402,7 @@
             "value": "false"
           },
           "creator_subscriptions_tweet_preview_api_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_graphql_timeline_navigation_enabled": {
             "value": "true"
@@ -24528,7 +24528,7 @@
             "value": "false"
           },
           "creator_subscriptions_tweet_preview_api_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_graphql_timeline_navigation_enabled": {
             "value": "true"
@@ -24630,7 +24630,7 @@
             "value": "false"
           },
           "creator_subscriptions_tweet_preview_api_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_graphql_timeline_navigation_enabled": {
             "value": "true"
@@ -24732,7 +24732,7 @@
             "value": "false"
           },
           "creator_subscriptions_tweet_preview_api_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_graphql_timeline_navigation_enabled": {
             "value": "true"
@@ -24834,7 +24834,7 @@
             "value": "false"
           },
           "creator_subscriptions_tweet_preview_api_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_graphql_timeline_navigation_enabled": {
             "value": "true"
@@ -24948,7 +24948,7 @@
             "value": "false"
           },
           "creator_subscriptions_tweet_preview_api_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_graphql_timeline_navigation_enabled": {
             "value": "true"
@@ -25176,7 +25176,7 @@
             "value": "false"
           },
           "creator_subscriptions_tweet_preview_api_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_graphql_timeline_navigation_enabled": {
             "value": "true"
@@ -25316,7 +25316,7 @@
             "value": "false"
           },
           "creator_subscriptions_tweet_preview_api_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_graphql_timeline_navigation_enabled": {
             "value": "true"
@@ -25456,7 +25456,7 @@
             "value": "false"
           },
           "creator_subscriptions_tweet_preview_api_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_graphql_timeline_navigation_enabled": {
             "value": "true"
@@ -25684,7 +25684,7 @@
             "value": "false"
           },
           "creator_subscriptions_tweet_preview_api_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_graphql_timeline_navigation_enabled": {
             "value": "true"
@@ -25786,7 +25786,7 @@
             "value": "false"
           },
           "creator_subscriptions_tweet_preview_api_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_graphql_timeline_navigation_enabled": {
             "value": "true"
@@ -25938,7 +25938,7 @@
             "value": "false"
           },
           "creator_subscriptions_tweet_preview_api_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_graphql_timeline_navigation_enabled": {
             "value": "true"
@@ -26048,7 +26048,7 @@
             "value": "false"
           },
           "creator_subscriptions_tweet_preview_api_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_graphql_timeline_navigation_enabled": {
             "value": "true"
@@ -26163,7 +26163,7 @@
             "value": "false"
           },
           "creator_subscriptions_tweet_preview_api_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "tweetypie_unmention_optimization_enabled": {
             "value": "true"
@@ -26452,7 +26452,7 @@
             "value": "false"
           },
           "creator_subscriptions_tweet_preview_api_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_graphql_timeline_navigation_enabled": {
             "value": "true"
@@ -26563,7 +26563,7 @@
             "value": "false"
           },
           "creator_subscriptions_tweet_preview_api_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_graphql_timeline_navigation_enabled": {
             "value": "true"
@@ -26665,7 +26665,7 @@
             "value": "false"
           },
           "creator_subscriptions_tweet_preview_api_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_graphql_timeline_navigation_enabled": {
             "value": "true"
@@ -26774,7 +26774,7 @@
             "value": "false"
           },
           "creator_subscriptions_tweet_preview_api_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_graphql_timeline_navigation_enabled": {
             "value": "true"
@@ -26932,7 +26932,7 @@
             "value": "false"
           },
           "creator_subscriptions_tweet_preview_api_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_graphql_timeline_navigation_enabled": {
             "value": "true"
@@ -27094,7 +27094,7 @@
             "value": "false"
           },
           "creator_subscriptions_tweet_preview_api_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_graphql_timeline_navigation_enabled": {
             "value": "true"
@@ -27237,7 +27237,7 @@
             "value": "false"
           },
           "creator_subscriptions_tweet_preview_api_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "tweetypie_unmention_optimization_enabled": {
             "value": "true"
@@ -27370,7 +27370,7 @@
             "value": "false"
           },
           "creator_subscriptions_tweet_preview_api_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_graphql_timeline_navigation_enabled": {
             "value": "true"
@@ -27518,7 +27518,7 @@
             "value": "false"
           },
           "creator_subscriptions_tweet_preview_api_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "tweetypie_unmention_optimization_enabled": {
             "value": "true"
@@ -27626,7 +27626,7 @@
             "value": "false"
           },
           "creator_subscriptions_tweet_preview_api_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "tweetypie_unmention_optimization_enabled": {
             "value": "true"
@@ -27733,7 +27733,7 @@
             "value": "false"
           },
           "creator_subscriptions_tweet_preview_api_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "tweetypie_unmention_optimization_enabled": {
             "value": "true"
@@ -27857,7 +27857,7 @@
             "value": "false"
           },
           "creator_subscriptions_tweet_preview_api_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_graphql_timeline_navigation_enabled": {
             "value": "true"
@@ -28004,7 +28004,7 @@
             "value": "true"
           },
           "creator_subscriptions_tweet_preview_api_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_graphql_skip_user_profile_image_extensions_enabled": {
             "value": "false"
@@ -28098,7 +28098,7 @@
             "value": "false"
           },
           "creator_subscriptions_tweet_preview_api_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_graphql_timeline_navigation_enabled": {
             "value": "true"
@@ -28212,7 +28212,7 @@
             "value": "false"
           },
           "creator_subscriptions_tweet_preview_api_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_graphql_timeline_navigation_enabled": {
             "value": "true"
@@ -28314,7 +28314,7 @@
             "value": "false"
           },
           "creator_subscriptions_tweet_preview_api_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_graphql_timeline_navigation_enabled": {
             "value": "true"
@@ -28416,7 +28416,7 @@
             "value": "false"
           },
           "creator_subscriptions_tweet_preview_api_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_graphql_timeline_navigation_enabled": {
             "value": "true"
@@ -28518,7 +28518,7 @@
             "value": "false"
           },
           "creator_subscriptions_tweet_preview_api_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_graphql_timeline_navigation_enabled": {
             "value": "true"
@@ -28620,7 +28620,7 @@
             "value": "false"
           },
           "creator_subscriptions_tweet_preview_api_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_graphql_timeline_navigation_enabled": {
             "value": "true"
@@ -28722,7 +28722,7 @@
             "value": "false"
           },
           "creator_subscriptions_tweet_preview_api_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_graphql_timeline_navigation_enabled": {
             "value": "true"
@@ -28824,7 +28824,7 @@
             "value": "false"
           },
           "creator_subscriptions_tweet_preview_api_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_graphql_timeline_navigation_enabled": {
             "value": "true"
@@ -28935,7 +28935,7 @@
             "value": "false"
           },
           "creator_subscriptions_tweet_preview_api_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_graphql_timeline_navigation_enabled": {
             "value": "true"
@@ -29037,7 +29037,7 @@
             "value": "false"
           },
           "creator_subscriptions_tweet_preview_api_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_graphql_timeline_navigation_enabled": {
             "value": "true"
@@ -29165,7 +29165,7 @@
             "value": "false"
           },
           "creator_subscriptions_tweet_preview_api_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_graphql_timeline_navigation_enabled": {
             "value": "true"
@@ -29264,7 +29264,7 @@
             "value": "true"
           },
           "creator_subscriptions_tweet_preview_api_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_graphql_skip_user_profile_image_extensions_enabled": {
             "value": "false"
@@ -29306,7 +29306,7 @@
             "value": "true"
           },
           "creator_subscriptions_tweet_preview_api_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_graphql_skip_user_profile_image_extensions_enabled": {
             "value": "false"
@@ -29375,7 +29375,7 @@
             "value": "false"
           },
           "creator_subscriptions_tweet_preview_api_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_graphql_timeline_navigation_enabled": {
             "value": "true"
@@ -29487,7 +29487,7 @@
             "value": "false"
           },
           "creator_subscriptions_tweet_preview_api_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_graphql_timeline_navigation_enabled": {
             "value": "true"
@@ -29602,7 +29602,7 @@
             "value": "false"
           },
           "creator_subscriptions_tweet_preview_api_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_graphql_timeline_navigation_enabled": {
             "value": "true"
@@ -29719,7 +29719,7 @@
             "value": "false"
           },
           "creator_subscriptions_tweet_preview_api_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_graphql_timeline_navigation_enabled": {
             "value": "true"
@@ -29831,7 +29831,7 @@
             "value": "false"
           },
           "creator_subscriptions_tweet_preview_api_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_graphql_timeline_navigation_enabled": {
             "value": "true"
@@ -29945,7 +29945,7 @@
             "value": "false"
           },
           "creator_subscriptions_tweet_preview_api_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_graphql_timeline_navigation_enabled": {
             "value": "true"
@@ -30181,7 +30181,7 @@
             "value": "false"
           },
           "creator_subscriptions_tweet_preview_api_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "tweetypie_unmention_optimization_enabled": {
             "value": "true"
@@ -30348,7 +30348,7 @@
             "value": "true"
           },
           "creator_subscriptions_tweet_preview_api_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "freedom_of_speech_not_reach_fetch_enabled": {
             "value": "true"
@@ -31959,7 +31959,7 @@
             "value": "true"
           },
           "creator_subscriptions_tweet_preview_api_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "freedom_of_speech_not_reach_fetch_enabled": {
             "value": "true"

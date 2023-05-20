@@ -797,3 +797,15 @@
 - None<br>
 #### remove<br>
 - responsive_web_birdwatch_appeals_enabled<br>
+## 2023/05/19<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- highlights_tweets_action_menu_upsell_enabled<br>
+- highlights_tweets_tab_upsell_enabled<br>
+#### remove<br>
+- highlights_tweets_tab_upsell<br>

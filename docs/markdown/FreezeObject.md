@@ -3225,6 +3225,11 @@ This document is entirely auto-generated and may contain errors.<br>
 | community  | community |
 | spaces     | spaces    |
 
+| constant   | value     |
+|:-----------|:----------|
+| follow     | follow    |
+| subscribe  | subscribe |
+
 | constant                 | value                  |
 |:-------------------------|:-----------------------|
 | CONVERSATION_CREATE      | ConversationCreate     |

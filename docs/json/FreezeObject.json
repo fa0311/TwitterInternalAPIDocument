@@ -3064,6 +3064,10 @@
     "spaces": "spaces"
   },
   {
+    "follow": "follow",
+    "subscribe": "subscribe"
+  },
+  {
     "CONVERSATION_CREATE": "ConversationCreate",
     "CONVERSATION_NAME_UPDATE": "ConversationNameUpdate",
     "JOIN_CONVERSATION": "JoinConversation",
