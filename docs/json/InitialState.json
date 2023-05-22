@@ -106,12 +106,12 @@
       "errors": {},
       "fetchStatus": {}
     },
-    "translationsProfiles": {
+    "legacyAndUnifiedCards": {
       "entities": {},
       "errors": {},
       "fetchStatus": {}
     },
-    "legacyAndUnifiedCards": {
+    "translationsProfiles": {
       "entities": {},
       "errors": {},
       "fetchStatus": {}
@@ -5252,10 +5252,20 @@
           "value": "false"
         }
       },
-      "impression_pointers": {},
-      "impressions": {},
+      "impression_pointers": {
+        "rweb_tweets_tweet_detail_font_size": [
+          "rweb_tweet_detail_font_size_holdback_16263"
+        ]
+      },
+      "impressions": {
+        "rweb_tweet_detail_font_size_holdback_16263": {
+          "key": "rweb_tweet_detail_font_size_holdback_16263",
+          "bucket": "control",
+          "version": "1"
+        }
+      },
       "keysRead": {},
-      "settingsVersion": "b62d448dd8b64026ced7c2a0a2b1065d"
+      "settingsVersion": "12d27afb55cb3cd5d50432cb95951107"
     },
     "debug": {},
     "featureSetToken": "df20be7cb3d3d65aff838bbf9c02dc3087faa316",
@@ -5331,7 +5341,7 @@
     "country": "US",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "168461676834307784",
+    "guestId": "168470317986170128",
     "hasCommunityMemberships": "false",
     "language": "en",
     "oneFactorLoginEligibility": {
