@@ -85,11 +85,6 @@
       "entities": {},
       "errors": {},
       "fetchStatus": {}
-    },
-    "translationsProfiles": {
-      "entities": {},
-      "errors": {},
-      "fetchStatus": {}
     }
   },
   "featureSwitch": {
@@ -3145,7 +3140,7 @@
           "value": "1"
         },
         "creator_subscriptions_subscription_count_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "creator_subscriptions_tweet_preview_api_enabled": {
           "value": "true"
@@ -5053,7 +5048,8 @@
             "send_via_dm",
             "like",
             "embed",
-            "highlight"
+            "highlight",
+            "edit_tweet"
           ]
         },
         "tweet_limited_actions_config_limit_trusted_friends_tweet": {
@@ -5223,7 +5219,7 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "8533c28c7ab66e3bafde71662198d7bd"
+      "settingsVersion": "9aaf3abd4154bf0d95079ce0b0d32952"
     },
     "debug": {},
     "featureSetToken": "f4618e3e88ffea023ce98f70debd065962ca2c75",
@@ -5299,7 +5295,7 @@
     "country": "US",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "168470343848169368",
+    "guestId": "168478991399131620",
     "hasCommunityMemberships": "false",
     "language": "en",
     "oneFactorLoginEligibility": {
