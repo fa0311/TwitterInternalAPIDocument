@@ -106,12 +106,12 @@
       "errors": {},
       "fetchStatus": {}
     },
-    "legacyAndUnifiedCards": {
+    "translationsProfiles": {
       "entities": {},
       "errors": {},
       "fetchStatus": {}
     },
-    "translationsProfiles": {
+    "legacyAndUnifiedCards": {
       "entities": {},
       "errors": {},
       "fetchStatus": {}
@@ -2239,6 +2239,9 @@
       "subscriptions_twitter_blue_logo_enabled": {
         "value": "true"
       },
+      "subscriptions_verification_info_verified_since_enabled": {
+        "value": "false"
+      },
       "super_follow_android_web_subscription_enabled": {
         "value": "false"
       },
@@ -3175,7 +3178,7 @@
           "value": "1"
         },
         "creator_subscriptions_subscription_count_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "creator_subscriptions_tweet_preview_api_enabled": {
           "value": "true"
@@ -4804,6 +4807,9 @@
         "subscriptions_twitter_blue_logo_enabled": {
           "value": "true"
         },
+        "subscriptions_verification_info_verified_since_enabled": {
+          "value": "false"
+        },
         "super_follow_android_web_subscription_enabled": {
           "value": "true"
         },
@@ -5085,7 +5091,8 @@
             "send_via_dm",
             "like",
             "embed",
-            "highlight"
+            "highlight",
+            "edit_tweet"
           ]
         },
         "tweet_limited_actions_config_limit_trusted_friends_tweet": {
@@ -5252,23 +5259,13 @@
           "value": "false"
         }
       },
-      "impression_pointers": {
-        "rweb_tweets_tweet_detail_font_size": [
-          "rweb_tweet_detail_font_size_holdback_16263"
-        ]
-      },
-      "impressions": {
-        "rweb_tweet_detail_font_size_holdback_16263": {
-          "key": "rweb_tweet_detail_font_size_holdback_16263",
-          "bucket": "control",
-          "version": "1"
-        }
-      },
+      "impression_pointers": {},
+      "impressions": {},
       "keysRead": {},
-      "settingsVersion": "12d27afb55cb3cd5d50432cb95951107"
+      "settingsVersion": "14b2d84316c70f31e8a4dc15a4d7cf5b"
     },
     "debug": {},
-    "featureSetToken": "df20be7cb3d3d65aff838bbf9c02dc3087faa316",
+    "featureSetToken": "5a5e2b2dcbf80ff00d1a45c6ae8525ef09f4e2d4",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -5341,7 +5338,7 @@
     "country": "US",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "168470317986170128",
+    "guestId": "168478961237757606",
     "hasCommunityMemberships": "false",
     "language": "en",
     "oneFactorLoginEligibility": {
