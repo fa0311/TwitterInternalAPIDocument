@@ -264,7 +264,7 @@ Login Required: `...`<br>
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
-| creator_subscriptions_tweet_preview_api_enabled                         | boolean | False      |
+| creator_subscriptions_tweet_preview_api_enabled                         | boolean | True       |
 | tweetypie_unmention_optimization_enabled                                | boolean | True       |
 | vibe_api_enabled                                                        | boolean | True       |
 | responsive_web_edit_tweet_api_enabled                                   | boolean | True       |
@@ -350,7 +350,7 @@ Login Required: `...`<br>
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
-| creator_subscriptions_tweet_preview_api_enabled                         | boolean | False      |
+| creator_subscriptions_tweet_preview_api_enabled                         | boolean | True       |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
 | responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean | False      |
 | tweetypie_unmention_optimization_enabled                                | boolean | True       |
@@ -385,7 +385,7 @@ Login Required: `...`<br>
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
-| creator_subscriptions_tweet_preview_api_enabled                         | boolean | False      |
+| creator_subscriptions_tweet_preview_api_enabled                         | boolean | True       |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
 | responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean | False      |
 | tweetypie_unmention_optimization_enabled                                | boolean | True       |
@@ -420,7 +420,7 @@ Login Required: `...`<br>
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
-| creator_subscriptions_tweet_preview_api_enabled                         | boolean | False      |
+| creator_subscriptions_tweet_preview_api_enabled                         | boolean | True       |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
 | responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean | False      |
 | tweetypie_unmention_optimization_enabled                                | boolean | True       |
@@ -466,7 +466,7 @@ Login Required: `...`<br>
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
-| creator_subscriptions_tweet_preview_api_enabled                         | boolean | False      |
+| creator_subscriptions_tweet_preview_api_enabled                         | boolean | True       |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
 | responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean | False      |
 | tweetypie_unmention_optimization_enabled                                | boolean | True       |
@@ -501,7 +501,7 @@ Login Required: `...`<br>
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
-| creator_subscriptions_tweet_preview_api_enabled                         | boolean | False      |
+| creator_subscriptions_tweet_preview_api_enabled                         | boolean | True       |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
 | responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean | False      |
 | tweetypie_unmention_optimization_enabled                                | boolean | True       |
@@ -536,7 +536,7 @@ Login Required: `...`<br>
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
-| creator_subscriptions_tweet_preview_api_enabled                         | boolean | False      |
+| creator_subscriptions_tweet_preview_api_enabled                         | boolean | True       |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
 | responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean | False      |
 | tweetypie_unmention_optimization_enabled                                | boolean | True       |
@@ -571,7 +571,7 @@ Login Required: `...`<br>
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
-| creator_subscriptions_tweet_preview_api_enabled                         | boolean | False      |
+| creator_subscriptions_tweet_preview_api_enabled                         | boolean | True       |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
 | responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean | False      |
 | tweetypie_unmention_optimization_enabled                                | boolean | True       |
@@ -606,7 +606,7 @@ Login Required: `...`<br>
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
-| creator_subscriptions_tweet_preview_api_enabled                         | boolean | False      |
+| creator_subscriptions_tweet_preview_api_enabled                         | boolean | True       |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
 | responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean | False      |
 | tweetypie_unmention_optimization_enabled                                | boolean | True       |
@@ -641,7 +641,7 @@ Login Required: `...`<br>
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
-| creator_subscriptions_tweet_preview_api_enabled                         | boolean | False      |
+| creator_subscriptions_tweet_preview_api_enabled                         | boolean | True       |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
 | responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean | False      |
 | tweetypie_unmention_optimization_enabled                                | boolean | True       |
@@ -676,7 +676,7 @@ Login Required: `...`<br>
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
-| creator_subscriptions_tweet_preview_api_enabled                         | boolean | False      |
+| creator_subscriptions_tweet_preview_api_enabled                         | boolean | True       |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
 | responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean | False      |
 | tweetypie_unmention_optimization_enabled                                | boolean | True       |
@@ -711,6 +711,79 @@ Login Required: `...`<br>
 
 #### features<br>
 `None`<br>
+#### queryId<br>
+`None`<br>
+## UserCreatorSubscribers<br>
+Request URL: `https://twitter.com/i/api/graphql/l7s7vpP-OrlDgH2JbEciVw/UserCreatorSubscribers`<br>
+Request Method: `GET`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+| key          | type   | variable   |
+|:-------------|:-------|:-----------|
+| ...()(0,s.S) | ...    | _          |
+
+#### features<br>
+| key                                                                     | type    | variable   |
+|:------------------------------------------------------------------------|:--------|:-----------|
+| rweb_lists_timeline_redesign_enabled                                    | boolean | False      |
+| blue_business_profile_image_shape_enabled                               | boolean | True       |
+| responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
+| verified_phone_label_enabled                                            | boolean | False      |
+| creator_subscriptions_tweet_preview_api_enabled                         | boolean | True       |
+| responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
+| responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean | False      |
+| tweetypie_unmention_optimization_enabled                                | boolean | True       |
+| vibe_api_enabled                                                        | boolean | True       |
+| responsive_web_edit_tweet_api_enabled                                   | boolean | True       |
+| graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | True       |
+| view_counts_everywhere_api_enabled                                      | boolean | True       |
+| longform_notetweets_consumption_enabled                                 | boolean | True       |
+| tweet_awards_web_tipping_enabled                                        | boolean | False      |
+| freedom_of_speech_not_reach_fetch_enabled                               | boolean | True       |
+| standardized_nudges_misinfo                                             | boolean | True       |
+| tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | False      |
+| interactive_text_enabled                                                | boolean | True       |
+| responsive_web_text_conversations_enabled                               | boolean | False      |
+| longform_notetweets_rich_text_read_enabled                              | boolean | True       |
+| longform_notetweets_inline_media_enabled                                | boolean | False      |
+| responsive_web_enhance_cards_enabled                                    | boolean | False      |
+
+#### queryId<br>
+`None`<br>
+## UserCreatorSubscriptions<br>
+Request URL: `https://twitter.com/i/api/graphql/tYBBTloRA-3zbhs2YRRYyA/UserCreatorSubscriptions`<br>
+Request Method: `GET`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+| key                                                                     | type    | variable   |
+|:------------------------------------------------------------------------|:--------|:-----------|
+| rweb_lists_timeline_redesign_enabled                                    | boolean | False      |
+| blue_business_profile_image_shape_enabled                               | boolean | True       |
+| responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
+| verified_phone_label_enabled                                            | boolean | False      |
+| creator_subscriptions_tweet_preview_api_enabled                         | boolean | True       |
+| responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
+| responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean | False      |
+| tweetypie_unmention_optimization_enabled                                | boolean | True       |
+| vibe_api_enabled                                                        | boolean | True       |
+| responsive_web_edit_tweet_api_enabled                                   | boolean | True       |
+| graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | True       |
+| view_counts_everywhere_api_enabled                                      | boolean | True       |
+| longform_notetweets_consumption_enabled                                 | boolean | True       |
+| tweet_awards_web_tipping_enabled                                        | boolean | False      |
+| freedom_of_speech_not_reach_fetch_enabled                               | boolean | True       |
+| standardized_nudges_misinfo                                             | boolean | True       |
+| tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | False      |
+| interactive_text_enabled                                                | boolean | True       |
+| responsive_web_text_conversations_enabled                               | boolean | False      |
+| longform_notetweets_rich_text_read_enabled                              | boolean | True       |
+| longform_notetweets_inline_media_enabled                                | boolean | False      |
+| responsive_web_enhance_cards_enabled                                    | boolean | False      |
+
 #### queryId<br>
 `None`<br>
 ## ViewerTeams<br>
@@ -757,7 +830,7 @@ Login Required: `...`<br>
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
-| creator_subscriptions_tweet_preview_api_enabled                         | boolean | False      |
+| creator_subscriptions_tweet_preview_api_enabled                         | boolean | True       |
 | responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean | False      |
 | tweetypie_unmention_optimization_enabled                                | boolean | True       |
 | vibe_api_enabled                                                        | boolean | True       |
@@ -832,7 +905,7 @@ Login Required: `...`<br>
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
-| creator_subscriptions_tweet_preview_api_enabled                         | boolean | False      |
+| creator_subscriptions_tweet_preview_api_enabled                         | boolean | True       |
 | tweetypie_unmention_optimization_enabled                                | boolean | True       |
 | vibe_api_enabled                                                        | boolean | True       |
 | responsive_web_edit_tweet_api_enabled                                   | boolean | True       |
@@ -1003,7 +1076,7 @@ Login Required: `...`<br>
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
 | rweb_lists_timeline_redesign_enabled                                    | boolean | False      |
 | responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean | False      |
-| creator_subscriptions_tweet_preview_api_enabled                         | boolean | False      |
+| creator_subscriptions_tweet_preview_api_enabled                         | boolean | True       |
 | tweetypie_unmention_optimization_enabled                                | boolean | True       |
 | vibe_api_enabled                                                        | boolean | True       |
 | responsive_web_edit_tweet_api_enabled                                   | boolean | True       |
@@ -1105,7 +1178,7 @@ Login Required: `...`<br>
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
-| creator_subscriptions_tweet_preview_api_enabled                         | boolean | False      |
+| creator_subscriptions_tweet_preview_api_enabled                         | boolean | True       |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
 | responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean | False      |
 | tweetypie_unmention_optimization_enabled                                | boolean | True       |
@@ -1143,10 +1216,7 @@ Request Method: `POST`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-```internal process
-# Error
-{"rawQuery":s||"","count":"n","cursor":"i","querySource":"l","...()(0,r.d)":"_"}
-```
+`None`<br>
 #### features<br>
 `None`<br>
 #### queryId<br>
@@ -1166,7 +1236,7 @@ Login Required: `...`<br>
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
-| creator_subscriptions_tweet_preview_api_enabled                         | boolean | False      |
+| creator_subscriptions_tweet_preview_api_enabled                         | boolean | True       |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
 | responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean | False      |
 | tweetypie_unmention_optimization_enabled                                | boolean | True       |
@@ -1239,8 +1309,8 @@ Login Required: `...`<br>
 #### variables<br>
 | key              | type   | variable   |
 |:-----------------|:-------|:-----------|
-| twitterArticleId | ...    | s          |
-| title            | ...    | l          |
+| twitterArticleId | ...    | l          |
+| visibility       | ...    | s          |
 | ...()(0,a.d)     | ...    | _          |
 
 #### features<br>
@@ -1272,7 +1342,7 @@ Login Required: `...`<br>
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
-| creator_subscriptions_tweet_preview_api_enabled                         | boolean | False      |
+| creator_subscriptions_tweet_preview_api_enabled                         | boolean | True       |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
 | responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean | False      |
 | tweetypie_unmention_optimization_enabled                                | boolean | True       |
@@ -1307,7 +1377,7 @@ Login Required: `...`<br>
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
-| creator_subscriptions_tweet_preview_api_enabled                         | boolean | False      |
+| creator_subscriptions_tweet_preview_api_enabled                         | boolean | True       |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
 | responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean | False      |
 | tweetypie_unmention_optimization_enabled                                | boolean | True       |
@@ -1342,7 +1412,7 @@ Login Required: `...`<br>
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
-| creator_subscriptions_tweet_preview_api_enabled                         | boolean | False      |
+| creator_subscriptions_tweet_preview_api_enabled                         | boolean | True       |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
 | responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean | False      |
 | tweetypie_unmention_optimization_enabled                                | boolean | True       |
@@ -1377,7 +1447,7 @@ Login Required: `...`<br>
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
-| creator_subscriptions_tweet_preview_api_enabled                         | boolean | False      |
+| creator_subscriptions_tweet_preview_api_enabled                         | boolean | True       |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
 | responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean | False      |
 | tweetypie_unmention_optimization_enabled                                | boolean | True       |
@@ -1412,7 +1482,7 @@ Login Required: `...`<br>
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
-| creator_subscriptions_tweet_preview_api_enabled                         | boolean | False      |
+| creator_subscriptions_tweet_preview_api_enabled                         | boolean | True       |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
 | responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean | False      |
 | tweetypie_unmention_optimization_enabled                                | boolean | True       |
@@ -1465,7 +1535,7 @@ Login Required: `...`<br>
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
-| creator_subscriptions_tweet_preview_api_enabled                         | boolean | False      |
+| creator_subscriptions_tweet_preview_api_enabled                         | boolean | True       |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
 | responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean | False      |
 | tweetypie_unmention_optimization_enabled                                | boolean | True       |
@@ -1500,7 +1570,7 @@ Login Required: `...`<br>
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
-| creator_subscriptions_tweet_preview_api_enabled                         | boolean | False      |
+| creator_subscriptions_tweet_preview_api_enabled                         | boolean | True       |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
 | responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean | False      |
 | tweetypie_unmention_optimization_enabled                                | boolean | True       |
@@ -1553,7 +1623,7 @@ Login Required: `...`<br>
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
-| creator_subscriptions_tweet_preview_api_enabled                         | boolean | False      |
+| creator_subscriptions_tweet_preview_api_enabled                         | boolean | True       |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
 | responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean | False      |
 | tweetypie_unmention_optimization_enabled                                | boolean | True       |
@@ -1606,7 +1676,7 @@ Login Required: `...`<br>
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
-| creator_subscriptions_tweet_preview_api_enabled                         | boolean | False      |
+| creator_subscriptions_tweet_preview_api_enabled                         | boolean | True       |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
 | responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean | False      |
 | tweetypie_unmention_optimization_enabled                                | boolean | True       |
@@ -1691,7 +1761,7 @@ Login Required: `...`<br>
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
-| creator_subscriptions_tweet_preview_api_enabled                         | boolean | False      |
+| creator_subscriptions_tweet_preview_api_enabled                         | boolean | True       |
 | tweetypie_unmention_optimization_enabled                                | boolean | True       |
 | vibe_api_enabled                                                        | boolean | True       |
 | responsive_web_edit_tweet_api_enabled                                   | boolean | True       |
@@ -1747,7 +1817,7 @@ Login Required: `...`<br>
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
-| creator_subscriptions_tweet_preview_api_enabled                         | boolean | False      |
+| creator_subscriptions_tweet_preview_api_enabled                         | boolean | True       |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
 | responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean | False      |
 | tweetypie_unmention_optimization_enabled                                | boolean | True       |
@@ -1782,7 +1852,7 @@ Login Required: `...`<br>
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
-| creator_subscriptions_tweet_preview_api_enabled                         | boolean | False      |
+| creator_subscriptions_tweet_preview_api_enabled                         | boolean | True       |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
 | responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean | False      |
 | tweetypie_unmention_optimization_enabled                                | boolean | True       |
@@ -1846,7 +1916,7 @@ Login Required: `...`<br>
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
-| creator_subscriptions_tweet_preview_api_enabled                         | boolean | False      |
+| creator_subscriptions_tweet_preview_api_enabled                         | boolean | True       |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
 | responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean | False      |
 | tweetypie_unmention_optimization_enabled                                | boolean | True       |
@@ -1881,7 +1951,7 @@ Login Required: `...`<br>
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
-| creator_subscriptions_tweet_preview_api_enabled                         | boolean | False      |
+| creator_subscriptions_tweet_preview_api_enabled                         | boolean | True       |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
 | responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean | False      |
 | tweetypie_unmention_optimization_enabled                                | boolean | True       |
@@ -1916,7 +1986,7 @@ Login Required: `...`<br>
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
-| creator_subscriptions_tweet_preview_api_enabled                         | boolean | False      |
+| creator_subscriptions_tweet_preview_api_enabled                         | boolean | True       |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
 | responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean | False      |
 | tweetypie_unmention_optimization_enabled                                | boolean | True       |
@@ -1951,7 +2021,7 @@ Login Required: `...`<br>
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
-| creator_subscriptions_tweet_preview_api_enabled                         | boolean | False      |
+| creator_subscriptions_tweet_preview_api_enabled                         | boolean | True       |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
 | responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean | False      |
 | tweetypie_unmention_optimization_enabled                                | boolean | True       |
@@ -1986,7 +2056,7 @@ Login Required: `...`<br>
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
-| creator_subscriptions_tweet_preview_api_enabled                         | boolean | False      |
+| creator_subscriptions_tweet_preview_api_enabled                         | boolean | True       |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
 | responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean | False      |
 | tweetypie_unmention_optimization_enabled                                | boolean | True       |
@@ -2021,7 +2091,7 @@ Login Required: `...`<br>
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
-| creator_subscriptions_tweet_preview_api_enabled                         | boolean | False      |
+| creator_subscriptions_tweet_preview_api_enabled                         | boolean | True       |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
 | responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean | False      |
 | tweetypie_unmention_optimization_enabled                                | boolean | True       |
@@ -2056,7 +2126,80 @@ Login Required: `...`<br>
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
-| creator_subscriptions_tweet_preview_api_enabled                         | boolean | False      |
+| creator_subscriptions_tweet_preview_api_enabled                         | boolean | True       |
+| responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
+| responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean | False      |
+| tweetypie_unmention_optimization_enabled                                | boolean | True       |
+| vibe_api_enabled                                                        | boolean | True       |
+| responsive_web_edit_tweet_api_enabled                                   | boolean | True       |
+| graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | True       |
+| view_counts_everywhere_api_enabled                                      | boolean | True       |
+| longform_notetweets_consumption_enabled                                 | boolean | True       |
+| tweet_awards_web_tipping_enabled                                        | boolean | False      |
+| freedom_of_speech_not_reach_fetch_enabled                               | boolean | True       |
+| standardized_nudges_misinfo                                             | boolean | True       |
+| tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | False      |
+| interactive_text_enabled                                                | boolean | True       |
+| responsive_web_text_conversations_enabled                               | boolean | False      |
+| longform_notetweets_rich_text_read_enabled                              | boolean | True       |
+| longform_notetweets_inline_media_enabled                                | boolean | False      |
+| responsive_web_enhance_cards_enabled                                    | boolean | False      |
+
+#### queryId<br>
+`None`<br>
+## UserCreatorSubscribers<br>
+Request URL: `https://twitter.com/i/api/graphql/l7s7vpP-OrlDgH2JbEciVw/UserCreatorSubscribers`<br>
+Request Method: `GET`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+| key          | type   | variable   |
+|:-------------|:-------|:-----------|
+| ...()(0,s.S) | ...    | _          |
+
+#### features<br>
+| key                                                                     | type    | variable   |
+|:------------------------------------------------------------------------|:--------|:-----------|
+| rweb_lists_timeline_redesign_enabled                                    | boolean | False      |
+| blue_business_profile_image_shape_enabled                               | boolean | True       |
+| responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
+| verified_phone_label_enabled                                            | boolean | False      |
+| creator_subscriptions_tweet_preview_api_enabled                         | boolean | True       |
+| responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
+| responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean | False      |
+| tweetypie_unmention_optimization_enabled                                | boolean | True       |
+| vibe_api_enabled                                                        | boolean | True       |
+| responsive_web_edit_tweet_api_enabled                                   | boolean | True       |
+| graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | True       |
+| view_counts_everywhere_api_enabled                                      | boolean | True       |
+| longform_notetweets_consumption_enabled                                 | boolean | True       |
+| tweet_awards_web_tipping_enabled                                        | boolean | False      |
+| freedom_of_speech_not_reach_fetch_enabled                               | boolean | True       |
+| standardized_nudges_misinfo                                             | boolean | True       |
+| tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | False      |
+| interactive_text_enabled                                                | boolean | True       |
+| responsive_web_text_conversations_enabled                               | boolean | False      |
+| longform_notetweets_rich_text_read_enabled                              | boolean | True       |
+| longform_notetweets_inline_media_enabled                                | boolean | False      |
+| responsive_web_enhance_cards_enabled                                    | boolean | False      |
+
+#### queryId<br>
+`None`<br>
+## UserCreatorSubscriptions<br>
+Request URL: `https://twitter.com/i/api/graphql/tYBBTloRA-3zbhs2YRRYyA/UserCreatorSubscriptions`<br>
+Request Method: `GET`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+| key                                                                     | type    | variable   |
+|:------------------------------------------------------------------------|:--------|:-----------|
+| rweb_lists_timeline_redesign_enabled                                    | boolean | False      |
+| blue_business_profile_image_shape_enabled                               | boolean | True       |
+| responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
+| verified_phone_label_enabled                                            | boolean | False      |
+| creator_subscriptions_tweet_preview_api_enabled                         | boolean | True       |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
 | responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean | False      |
 | tweetypie_unmention_optimization_enabled                                | boolean | True       |
@@ -2271,7 +2414,7 @@ Login Required: `...`<br>
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
-| creator_subscriptions_tweet_preview_api_enabled                         | boolean | False      |
+| creator_subscriptions_tweet_preview_api_enabled                         | boolean | True       |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
 | responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean | False      |
 | tweetypie_unmention_optimization_enabled                                | boolean | True       |
@@ -2335,7 +2478,7 @@ Login Required: `...`<br>
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
-| creator_subscriptions_tweet_preview_api_enabled                         | boolean | False      |
+| creator_subscriptions_tweet_preview_api_enabled                         | boolean | True       |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
 | responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean | False      |
 | tweetypie_unmention_optimization_enabled                                | boolean | True       |
@@ -2458,7 +2601,7 @@ Login Required: `...`<br>
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
-| creator_subscriptions_tweet_preview_api_enabled                         | boolean | False      |
+| creator_subscriptions_tweet_preview_api_enabled                         | boolean | True       |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
 | responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean | False      |
 | tweetypie_unmention_optimization_enabled                                | boolean | True       |
@@ -2504,7 +2647,7 @@ Login Required: `...`<br>
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
-| creator_subscriptions_tweet_preview_api_enabled                         | boolean | False      |
+| creator_subscriptions_tweet_preview_api_enabled                         | boolean | True       |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
 | responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean | False      |
 | tweetypie_unmention_optimization_enabled                                | boolean | True       |
@@ -2539,7 +2682,7 @@ Login Required: `...`<br>
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
-| creator_subscriptions_tweet_preview_api_enabled                         | boolean | False      |
+| creator_subscriptions_tweet_preview_api_enabled                         | boolean | True       |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
 | responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean | False      |
 | tweetypie_unmention_optimization_enabled                                | boolean | True       |
@@ -2574,7 +2717,7 @@ Login Required: `...`<br>
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
-| creator_subscriptions_tweet_preview_api_enabled                         | boolean | False      |
+| creator_subscriptions_tweet_preview_api_enabled                         | boolean | True       |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
 | responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean | False      |
 | tweetypie_unmention_optimization_enabled                                | boolean | True       |
@@ -2609,7 +2752,7 @@ Login Required: `...`<br>
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
-| creator_subscriptions_tweet_preview_api_enabled                         | boolean | False      |
+| creator_subscriptions_tweet_preview_api_enabled                         | boolean | True       |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
 | responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean | False      |
 | tweetypie_unmention_optimization_enabled                                | boolean | True       |
@@ -2644,7 +2787,7 @@ Login Required: `...`<br>
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
-| creator_subscriptions_tweet_preview_api_enabled                         | boolean | False      |
+| creator_subscriptions_tweet_preview_api_enabled                         | boolean | True       |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
 | responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean | False      |
 | tweetypie_unmention_optimization_enabled                                | boolean | True       |
@@ -2679,7 +2822,7 @@ Login Required: `...`<br>
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
-| creator_subscriptions_tweet_preview_api_enabled                         | boolean | False      |
+| creator_subscriptions_tweet_preview_api_enabled                         | boolean | True       |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
 | responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean | False      |
 | tweetypie_unmention_optimization_enabled                                | boolean | True       |
@@ -2714,7 +2857,7 @@ Login Required: `...`<br>
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
-| creator_subscriptions_tweet_preview_api_enabled                         | boolean | False      |
+| creator_subscriptions_tweet_preview_api_enabled                         | boolean | True       |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
 | responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean | False      |
 | tweetypie_unmention_optimization_enabled                                | boolean | True       |
@@ -2749,7 +2892,7 @@ Login Required: `...`<br>
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
-| creator_subscriptions_tweet_preview_api_enabled                         | boolean | False      |
+| creator_subscriptions_tweet_preview_api_enabled                         | boolean | True       |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
 | responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean | False      |
 | tweetypie_unmention_optimization_enabled                                | boolean | True       |
@@ -2784,7 +2927,7 @@ Login Required: `...`<br>
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
-| creator_subscriptions_tweet_preview_api_enabled                         | boolean | False      |
+| creator_subscriptions_tweet_preview_api_enabled                         | boolean | True       |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
 | responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean | False      |
 | tweetypie_unmention_optimization_enabled                                | boolean | True       |
@@ -2819,7 +2962,80 @@ Login Required: `...`<br>
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
-| creator_subscriptions_tweet_preview_api_enabled                         | boolean | False      |
+| creator_subscriptions_tweet_preview_api_enabled                         | boolean | True       |
+| responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
+| responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean | False      |
+| tweetypie_unmention_optimization_enabled                                | boolean | True       |
+| vibe_api_enabled                                                        | boolean | True       |
+| responsive_web_edit_tweet_api_enabled                                   | boolean | True       |
+| graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | True       |
+| view_counts_everywhere_api_enabled                                      | boolean | True       |
+| longform_notetweets_consumption_enabled                                 | boolean | True       |
+| tweet_awards_web_tipping_enabled                                        | boolean | False      |
+| freedom_of_speech_not_reach_fetch_enabled                               | boolean | True       |
+| standardized_nudges_misinfo                                             | boolean | True       |
+| tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | False      |
+| interactive_text_enabled                                                | boolean | True       |
+| responsive_web_text_conversations_enabled                               | boolean | False      |
+| longform_notetweets_rich_text_read_enabled                              | boolean | True       |
+| longform_notetweets_inline_media_enabled                                | boolean | False      |
+| responsive_web_enhance_cards_enabled                                    | boolean | False      |
+
+#### queryId<br>
+`None`<br>
+## UserCreatorSubscribers<br>
+Request URL: `https://twitter.com/i/api/graphql/l7s7vpP-OrlDgH2JbEciVw/UserCreatorSubscribers`<br>
+Request Method: `GET`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+| key          | type   | variable   |
+|:-------------|:-------|:-----------|
+| ...()(0,s.S) | ...    | _          |
+
+#### features<br>
+| key                                                                     | type    | variable   |
+|:------------------------------------------------------------------------|:--------|:-----------|
+| rweb_lists_timeline_redesign_enabled                                    | boolean | False      |
+| blue_business_profile_image_shape_enabled                               | boolean | True       |
+| responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
+| verified_phone_label_enabled                                            | boolean | False      |
+| creator_subscriptions_tweet_preview_api_enabled                         | boolean | True       |
+| responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
+| responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean | False      |
+| tweetypie_unmention_optimization_enabled                                | boolean | True       |
+| vibe_api_enabled                                                        | boolean | True       |
+| responsive_web_edit_tweet_api_enabled                                   | boolean | True       |
+| graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | True       |
+| view_counts_everywhere_api_enabled                                      | boolean | True       |
+| longform_notetweets_consumption_enabled                                 | boolean | True       |
+| tweet_awards_web_tipping_enabled                                        | boolean | False      |
+| freedom_of_speech_not_reach_fetch_enabled                               | boolean | True       |
+| standardized_nudges_misinfo                                             | boolean | True       |
+| tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | False      |
+| interactive_text_enabled                                                | boolean | True       |
+| responsive_web_text_conversations_enabled                               | boolean | False      |
+| longform_notetweets_rich_text_read_enabled                              | boolean | True       |
+| longform_notetweets_inline_media_enabled                                | boolean | False      |
+| responsive_web_enhance_cards_enabled                                    | boolean | False      |
+
+#### queryId<br>
+`None`<br>
+## UserCreatorSubscriptions<br>
+Request URL: `https://twitter.com/i/api/graphql/tYBBTloRA-3zbhs2YRRYyA/UserCreatorSubscriptions`<br>
+Request Method: `GET`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+| key                                                                     | type    | variable   |
+|:------------------------------------------------------------------------|:--------|:-----------|
+| rweb_lists_timeline_redesign_enabled                                    | boolean | False      |
+| blue_business_profile_image_shape_enabled                               | boolean | True       |
+| responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
+| verified_phone_label_enabled                                            | boolean | False      |
+| creator_subscriptions_tweet_preview_api_enabled                         | boolean | True       |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
 | responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean | False      |
 | tweetypie_unmention_optimization_enabled                                | boolean | True       |
@@ -2872,7 +3088,7 @@ Login Required: `...`<br>
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
-| creator_subscriptions_tweet_preview_api_enabled                         | boolean | False      |
+| creator_subscriptions_tweet_preview_api_enabled                         | boolean | True       |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
 | responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean | False      |
 | tweetypie_unmention_optimization_enabled                                | boolean | True       |
@@ -2907,7 +3123,7 @@ Login Required: `...`<br>
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
-| creator_subscriptions_tweet_preview_api_enabled                         | boolean | False      |
+| creator_subscriptions_tweet_preview_api_enabled                         | boolean | True       |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
 | responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean | False      |
 | tweetypie_unmention_optimization_enabled                                | boolean | True       |
@@ -2942,7 +3158,7 @@ Login Required: `...`<br>
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
-| creator_subscriptions_tweet_preview_api_enabled                         | boolean | False      |
+| creator_subscriptions_tweet_preview_api_enabled                         | boolean | True       |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
 | responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean | False      |
 | tweetypie_unmention_optimization_enabled                                | boolean | True       |
@@ -2996,7 +3212,7 @@ Login Required: `...`<br>
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
-| creator_subscriptions_tweet_preview_api_enabled                         | boolean | False      |
+| creator_subscriptions_tweet_preview_api_enabled                         | boolean | True       |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
 | responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean | False      |
 | tweetypie_unmention_optimization_enabled                                | boolean | True       |
@@ -3031,7 +3247,7 @@ Login Required: `...`<br>
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
-| creator_subscriptions_tweet_preview_api_enabled                         | boolean | False      |
+| creator_subscriptions_tweet_preview_api_enabled                         | boolean | True       |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
 | responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean | False      |
 | tweetypie_unmention_optimization_enabled                                | boolean | True       |
@@ -3066,7 +3282,7 @@ Login Required: `...`<br>
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
-| creator_subscriptions_tweet_preview_api_enabled                         | boolean | False      |
+| creator_subscriptions_tweet_preview_api_enabled                         | boolean | True       |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
 | responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean | False      |
 | tweetypie_unmention_optimization_enabled                                | boolean | True       |
@@ -3101,7 +3317,7 @@ Login Required: `...`<br>
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
-| creator_subscriptions_tweet_preview_api_enabled                         | boolean | False      |
+| creator_subscriptions_tweet_preview_api_enabled                         | boolean | True       |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
 | responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean | False      |
 | tweetypie_unmention_optimization_enabled                                | boolean | True       |
@@ -3136,7 +3352,7 @@ Login Required: `...`<br>
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
-| creator_subscriptions_tweet_preview_api_enabled                         | boolean | False      |
+| creator_subscriptions_tweet_preview_api_enabled                         | boolean | True       |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
 | responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean | False      |
 | tweetypie_unmention_optimization_enabled                                | boolean | True       |
@@ -3171,7 +3387,7 @@ Login Required: `...`<br>
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
-| creator_subscriptions_tweet_preview_api_enabled                         | boolean | False      |
+| creator_subscriptions_tweet_preview_api_enabled                         | boolean | True       |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
 | responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean | False      |
 | tweetypie_unmention_optimization_enabled                                | boolean | True       |
@@ -3206,7 +3422,7 @@ Login Required: `...`<br>
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
-| creator_subscriptions_tweet_preview_api_enabled                         | boolean | False      |
+| creator_subscriptions_tweet_preview_api_enabled                         | boolean | True       |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
 | responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean | False      |
 | tweetypie_unmention_optimization_enabled                                | boolean | True       |
@@ -3241,7 +3457,7 @@ Login Required: `...`<br>
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
-| creator_subscriptions_tweet_preview_api_enabled                         | boolean | False      |
+| creator_subscriptions_tweet_preview_api_enabled                         | boolean | True       |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
 | responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean | False      |
 | tweetypie_unmention_optimization_enabled                                | boolean | True       |
@@ -3371,7 +3587,7 @@ Login Required: `...`<br>
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
-| creator_subscriptions_tweet_preview_api_enabled                         | boolean | False      |
+| creator_subscriptions_tweet_preview_api_enabled                         | boolean | True       |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
 | responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean | False      |
 | tweetypie_unmention_optimization_enabled                                | boolean | True       |
@@ -3417,7 +3633,7 @@ Login Required: `...`<br>
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
-| creator_subscriptions_tweet_preview_api_enabled                         | boolean | False      |
+| creator_subscriptions_tweet_preview_api_enabled                         | boolean | True       |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
 | responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean | False      |
 | tweetypie_unmention_optimization_enabled                                | boolean | True       |
@@ -3452,7 +3668,7 @@ Login Required: `...`<br>
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
-| creator_subscriptions_tweet_preview_api_enabled                         | boolean | False      |
+| creator_subscriptions_tweet_preview_api_enabled                         | boolean | True       |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
 | responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean | False      |
 | tweetypie_unmention_optimization_enabled                                | boolean | True       |
@@ -3487,7 +3703,7 @@ Login Required: `...`<br>
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
-| creator_subscriptions_tweet_preview_api_enabled                         | boolean | False      |
+| creator_subscriptions_tweet_preview_api_enabled                         | boolean | True       |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
 | responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean | False      |
 | tweetypie_unmention_optimization_enabled                                | boolean | True       |
@@ -3522,7 +3738,7 @@ Login Required: `...`<br>
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
-| creator_subscriptions_tweet_preview_api_enabled                         | boolean | False      |
+| creator_subscriptions_tweet_preview_api_enabled                         | boolean | True       |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
 | responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean | False      |
 | tweetypie_unmention_optimization_enabled                                | boolean | True       |
@@ -3568,7 +3784,7 @@ Login Required: `...`<br>
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
-| creator_subscriptions_tweet_preview_api_enabled                         | boolean | False      |
+| creator_subscriptions_tweet_preview_api_enabled                         | boolean | True       |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
 | responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean | False      |
 | tweetypie_unmention_optimization_enabled                                | boolean | True       |
@@ -3660,7 +3876,7 @@ Login Required: `...`<br>
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
-| creator_subscriptions_tweet_preview_api_enabled                         | boolean | False      |
+| creator_subscriptions_tweet_preview_api_enabled                         | boolean | True       |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
 | responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean | False      |
 | tweetypie_unmention_optimization_enabled                                | boolean | True       |
@@ -3733,7 +3949,7 @@ Login Required: `...`<br>
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
-| creator_subscriptions_tweet_preview_api_enabled                         | boolean | False      |
+| creator_subscriptions_tweet_preview_api_enabled                         | boolean | True       |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
 | responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean | False      |
 | tweetypie_unmention_optimization_enabled                                | boolean | True       |
@@ -3836,7 +4052,7 @@ Login Required: `...`<br>
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
-| creator_subscriptions_tweet_preview_api_enabled                         | boolean | False      |
+| creator_subscriptions_tweet_preview_api_enabled                         | boolean | True       |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
 | responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean | False      |
 | tweetypie_unmention_optimization_enabled                                | boolean | True       |
@@ -3871,7 +4087,7 @@ Login Required: `...`<br>
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
-| creator_subscriptions_tweet_preview_api_enabled                         | boolean | False      |
+| creator_subscriptions_tweet_preview_api_enabled                         | boolean | True       |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
 | responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean | False      |
 | tweetypie_unmention_optimization_enabled                                | boolean | True       |
@@ -3925,7 +4141,7 @@ Login Required: `...`<br>
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
-| creator_subscriptions_tweet_preview_api_enabled                         | boolean | False      |
+| creator_subscriptions_tweet_preview_api_enabled                         | boolean | True       |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
 | responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean | False      |
 | tweetypie_unmention_optimization_enabled                                | boolean | True       |
@@ -3960,7 +4176,7 @@ Login Required: `...`<br>
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
-| creator_subscriptions_tweet_preview_api_enabled                         | boolean | False      |
+| creator_subscriptions_tweet_preview_api_enabled                         | boolean | True       |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
 | responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean | False      |
 | tweetypie_unmention_optimization_enabled                                | boolean | True       |
@@ -3995,7 +4211,80 @@ Login Required: `...`<br>
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
-| creator_subscriptions_tweet_preview_api_enabled                         | boolean | False      |
+| creator_subscriptions_tweet_preview_api_enabled                         | boolean | True       |
+| responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
+| responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean | False      |
+| tweetypie_unmention_optimization_enabled                                | boolean | True       |
+| vibe_api_enabled                                                        | boolean | True       |
+| responsive_web_edit_tweet_api_enabled                                   | boolean | True       |
+| graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | True       |
+| view_counts_everywhere_api_enabled                                      | boolean | True       |
+| longform_notetweets_consumption_enabled                                 | boolean | True       |
+| tweet_awards_web_tipping_enabled                                        | boolean | False      |
+| freedom_of_speech_not_reach_fetch_enabled                               | boolean | True       |
+| standardized_nudges_misinfo                                             | boolean | True       |
+| tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | False      |
+| interactive_text_enabled                                                | boolean | True       |
+| responsive_web_text_conversations_enabled                               | boolean | False      |
+| longform_notetweets_rich_text_read_enabled                              | boolean | True       |
+| longform_notetweets_inline_media_enabled                                | boolean | False      |
+| responsive_web_enhance_cards_enabled                                    | boolean | False      |
+
+#### queryId<br>
+`None`<br>
+## UserCreatorSubscribers<br>
+Request URL: `https://twitter.com/i/api/graphql/l7s7vpP-OrlDgH2JbEciVw/UserCreatorSubscribers`<br>
+Request Method: `GET`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+| key          | type   | variable   |
+|:-------------|:-------|:-----------|
+| ...()(0,s.S) | ...    | _          |
+
+#### features<br>
+| key                                                                     | type    | variable   |
+|:------------------------------------------------------------------------|:--------|:-----------|
+| rweb_lists_timeline_redesign_enabled                                    | boolean | False      |
+| blue_business_profile_image_shape_enabled                               | boolean | True       |
+| responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
+| verified_phone_label_enabled                                            | boolean | False      |
+| creator_subscriptions_tweet_preview_api_enabled                         | boolean | True       |
+| responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
+| responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean | False      |
+| tweetypie_unmention_optimization_enabled                                | boolean | True       |
+| vibe_api_enabled                                                        | boolean | True       |
+| responsive_web_edit_tweet_api_enabled                                   | boolean | True       |
+| graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | True       |
+| view_counts_everywhere_api_enabled                                      | boolean | True       |
+| longform_notetweets_consumption_enabled                                 | boolean | True       |
+| tweet_awards_web_tipping_enabled                                        | boolean | False      |
+| freedom_of_speech_not_reach_fetch_enabled                               | boolean | True       |
+| standardized_nudges_misinfo                                             | boolean | True       |
+| tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | False      |
+| interactive_text_enabled                                                | boolean | True       |
+| responsive_web_text_conversations_enabled                               | boolean | False      |
+| longform_notetweets_rich_text_read_enabled                              | boolean | True       |
+| longform_notetweets_inline_media_enabled                                | boolean | False      |
+| responsive_web_enhance_cards_enabled                                    | boolean | False      |
+
+#### queryId<br>
+`None`<br>
+## UserCreatorSubscriptions<br>
+Request URL: `https://twitter.com/i/api/graphql/tYBBTloRA-3zbhs2YRRYyA/UserCreatorSubscriptions`<br>
+Request Method: `GET`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+| key                                                                     | type    | variable   |
+|:------------------------------------------------------------------------|:--------|:-----------|
+| rweb_lists_timeline_redesign_enabled                                    | boolean | False      |
+| blue_business_profile_image_shape_enabled                               | boolean | True       |
+| responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
+| verified_phone_label_enabled                                            | boolean | False      |
+| creator_subscriptions_tweet_preview_api_enabled                         | boolean | True       |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
 | responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean | False      |
 | tweetypie_unmention_optimization_enabled                                | boolean | True       |
@@ -4048,7 +4337,7 @@ Login Required: `...`<br>
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
-| creator_subscriptions_tweet_preview_api_enabled                         | boolean | False      |
+| creator_subscriptions_tweet_preview_api_enabled                         | boolean | True       |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
 | responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean | False      |
 | tweetypie_unmention_optimization_enabled                                | boolean | True       |
@@ -4083,7 +4372,7 @@ Login Required: `...`<br>
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
-| creator_subscriptions_tweet_preview_api_enabled                         | boolean | False      |
+| creator_subscriptions_tweet_preview_api_enabled                         | boolean | True       |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
 | responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean | False      |
 | tweetypie_unmention_optimization_enabled                                | boolean | True       |
@@ -4118,7 +4407,7 @@ Login Required: `...`<br>
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
-| creator_subscriptions_tweet_preview_api_enabled                         | boolean | False      |
+| creator_subscriptions_tweet_preview_api_enabled                         | boolean | True       |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
 | responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean | False      |
 | tweetypie_unmention_optimization_enabled                                | boolean | True       |
@@ -4164,7 +4453,7 @@ Login Required: `...`<br>
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
-| creator_subscriptions_tweet_preview_api_enabled                         | boolean | False      |
+| creator_subscriptions_tweet_preview_api_enabled                         | boolean | True       |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
 | responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean | False      |
 | tweetypie_unmention_optimization_enabled                                | boolean | True       |
@@ -4199,7 +4488,7 @@ Login Required: `...`<br>
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
-| creator_subscriptions_tweet_preview_api_enabled                         | boolean | False      |
+| creator_subscriptions_tweet_preview_api_enabled                         | boolean | True       |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
 | responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean | False      |
 | tweetypie_unmention_optimization_enabled                                | boolean | True       |
@@ -4234,7 +4523,7 @@ Login Required: `...`<br>
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
-| creator_subscriptions_tweet_preview_api_enabled                         | boolean | False      |
+| creator_subscriptions_tweet_preview_api_enabled                         | boolean | True       |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
 | responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean | False      |
 | tweetypie_unmention_optimization_enabled                                | boolean | True       |
@@ -4269,7 +4558,7 @@ Login Required: `...`<br>
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
-| creator_subscriptions_tweet_preview_api_enabled                         | boolean | False      |
+| creator_subscriptions_tweet_preview_api_enabled                         | boolean | True       |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
 | responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean | False      |
 | tweetypie_unmention_optimization_enabled                                | boolean | True       |
@@ -4304,7 +4593,7 @@ Login Required: `...`<br>
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
-| creator_subscriptions_tweet_preview_api_enabled                         | boolean | False      |
+| creator_subscriptions_tweet_preview_api_enabled                         | boolean | True       |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
 | responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean | False      |
 | tweetypie_unmention_optimization_enabled                                | boolean | True       |
@@ -4339,7 +4628,7 @@ Login Required: `...`<br>
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
-| creator_subscriptions_tweet_preview_api_enabled                         | boolean | False      |
+| creator_subscriptions_tweet_preview_api_enabled                         | boolean | True       |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
 | responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean | False      |
 | tweetypie_unmention_optimization_enabled                                | boolean | True       |
@@ -4374,7 +4663,80 @@ Login Required: `...`<br>
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
-| creator_subscriptions_tweet_preview_api_enabled                         | boolean | False      |
+| creator_subscriptions_tweet_preview_api_enabled                         | boolean | True       |
+| responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
+| responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean | False      |
+| tweetypie_unmention_optimization_enabled                                | boolean | True       |
+| vibe_api_enabled                                                        | boolean | True       |
+| responsive_web_edit_tweet_api_enabled                                   | boolean | True       |
+| graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | True       |
+| view_counts_everywhere_api_enabled                                      | boolean | True       |
+| longform_notetweets_consumption_enabled                                 | boolean | True       |
+| tweet_awards_web_tipping_enabled                                        | boolean | False      |
+| freedom_of_speech_not_reach_fetch_enabled                               | boolean | True       |
+| standardized_nudges_misinfo                                             | boolean | True       |
+| tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | False      |
+| interactive_text_enabled                                                | boolean | True       |
+| responsive_web_text_conversations_enabled                               | boolean | False      |
+| longform_notetweets_rich_text_read_enabled                              | boolean | True       |
+| longform_notetweets_inline_media_enabled                                | boolean | False      |
+| responsive_web_enhance_cards_enabled                                    | boolean | False      |
+
+#### queryId<br>
+`None`<br>
+## UserCreatorSubscribers<br>
+Request URL: `https://twitter.com/i/api/graphql/l7s7vpP-OrlDgH2JbEciVw/UserCreatorSubscribers`<br>
+Request Method: `GET`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+| key          | type   | variable   |
+|:-------------|:-------|:-----------|
+| ...()(0,s.S) | ...    | _          |
+
+#### features<br>
+| key                                                                     | type    | variable   |
+|:------------------------------------------------------------------------|:--------|:-----------|
+| rweb_lists_timeline_redesign_enabled                                    | boolean | False      |
+| blue_business_profile_image_shape_enabled                               | boolean | True       |
+| responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
+| verified_phone_label_enabled                                            | boolean | False      |
+| creator_subscriptions_tweet_preview_api_enabled                         | boolean | True       |
+| responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
+| responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean | False      |
+| tweetypie_unmention_optimization_enabled                                | boolean | True       |
+| vibe_api_enabled                                                        | boolean | True       |
+| responsive_web_edit_tweet_api_enabled                                   | boolean | True       |
+| graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | True       |
+| view_counts_everywhere_api_enabled                                      | boolean | True       |
+| longform_notetweets_consumption_enabled                                 | boolean | True       |
+| tweet_awards_web_tipping_enabled                                        | boolean | False      |
+| freedom_of_speech_not_reach_fetch_enabled                               | boolean | True       |
+| standardized_nudges_misinfo                                             | boolean | True       |
+| tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | False      |
+| interactive_text_enabled                                                | boolean | True       |
+| responsive_web_text_conversations_enabled                               | boolean | False      |
+| longform_notetweets_rich_text_read_enabled                              | boolean | True       |
+| longform_notetweets_inline_media_enabled                                | boolean | False      |
+| responsive_web_enhance_cards_enabled                                    | boolean | False      |
+
+#### queryId<br>
+`None`<br>
+## UserCreatorSubscriptions<br>
+Request URL: `https://twitter.com/i/api/graphql/tYBBTloRA-3zbhs2YRRYyA/UserCreatorSubscriptions`<br>
+Request Method: `GET`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+| key                                                                     | type    | variable   |
+|:------------------------------------------------------------------------|:--------|:-----------|
+| rweb_lists_timeline_redesign_enabled                                    | boolean | False      |
+| blue_business_profile_image_shape_enabled                               | boolean | True       |
+| responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
+| verified_phone_label_enabled                                            | boolean | False      |
+| creator_subscriptions_tweet_preview_api_enabled                         | boolean | True       |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
 | responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean | False      |
 | tweetypie_unmention_optimization_enabled                                | boolean | True       |
@@ -4449,7 +4811,7 @@ Login Required: `...`<br>
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
-| creator_subscriptions_tweet_preview_api_enabled                         | boolean | False      |
+| creator_subscriptions_tweet_preview_api_enabled                         | boolean | True       |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
 | responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean | False      |
 | tweetypie_unmention_optimization_enabled                                | boolean | True       |
@@ -4484,7 +4846,7 @@ Login Required: `...`<br>
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
-| creator_subscriptions_tweet_preview_api_enabled                         | boolean | False      |
+| creator_subscriptions_tweet_preview_api_enabled                         | boolean | True       |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
 | responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean | False      |
 | tweetypie_unmention_optimization_enabled                                | boolean | True       |
@@ -4519,7 +4881,7 @@ Login Required: `...`<br>
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
-| creator_subscriptions_tweet_preview_api_enabled                         | boolean | False      |
+| creator_subscriptions_tweet_preview_api_enabled                         | boolean | True       |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
 | responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean | False      |
 | tweetypie_unmention_optimization_enabled                                | boolean | True       |
@@ -4554,7 +4916,7 @@ Login Required: `...`<br>
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
-| creator_subscriptions_tweet_preview_api_enabled                         | boolean | False      |
+| creator_subscriptions_tweet_preview_api_enabled                         | boolean | True       |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
 | responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean | False      |
 | tweetypie_unmention_optimization_enabled                                | boolean | True       |
@@ -4589,7 +4951,7 @@ Login Required: `...`<br>
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
-| creator_subscriptions_tweet_preview_api_enabled                         | boolean | False      |
+| creator_subscriptions_tweet_preview_api_enabled                         | boolean | True       |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
 | responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean | False      |
 | tweetypie_unmention_optimization_enabled                                | boolean | True       |
@@ -4624,7 +4986,7 @@ Login Required: `...`<br>
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
-| creator_subscriptions_tweet_preview_api_enabled                         | boolean | False      |
+| creator_subscriptions_tweet_preview_api_enabled                         | boolean | True       |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
 | responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean | False      |
 | tweetypie_unmention_optimization_enabled                                | boolean | True       |
@@ -4659,7 +5021,7 @@ Login Required: `...`<br>
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
-| creator_subscriptions_tweet_preview_api_enabled                         | boolean | False      |
+| creator_subscriptions_tweet_preview_api_enabled                         | boolean | True       |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
 | responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean | False      |
 | tweetypie_unmention_optimization_enabled                                | boolean | True       |
@@ -4694,7 +5056,7 @@ Login Required: `...`<br>
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
-| creator_subscriptions_tweet_preview_api_enabled                         | boolean | False      |
+| creator_subscriptions_tweet_preview_api_enabled                         | boolean | True       |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
 | responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean | False      |
 | tweetypie_unmention_optimization_enabled                                | boolean | True       |
@@ -4729,7 +5091,7 @@ Login Required: `...`<br>
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
-| creator_subscriptions_tweet_preview_api_enabled                         | boolean | False      |
+| creator_subscriptions_tweet_preview_api_enabled                         | boolean | True       |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
 | responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean | False      |
 | tweetypie_unmention_optimization_enabled                                | boolean | True       |
@@ -4764,7 +5126,7 @@ Login Required: `...`<br>
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
-| creator_subscriptions_tweet_preview_api_enabled                         | boolean | False      |
+| creator_subscriptions_tweet_preview_api_enabled                         | boolean | True       |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
 | responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean | False      |
 | tweetypie_unmention_optimization_enabled                                | boolean | True       |
@@ -4799,7 +5161,7 @@ Login Required: `...`<br>
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
-| creator_subscriptions_tweet_preview_api_enabled                         | boolean | False      |
+| creator_subscriptions_tweet_preview_api_enabled                         | boolean | True       |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
 | responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean | False      |
 | tweetypie_unmention_optimization_enabled                                | boolean | True       |
@@ -4834,7 +5196,7 @@ Login Required: `...`<br>
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
-| creator_subscriptions_tweet_preview_api_enabled                         | boolean | False      |
+| creator_subscriptions_tweet_preview_api_enabled                         | boolean | True       |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
 | responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean | False      |
 | tweetypie_unmention_optimization_enabled                                | boolean | True       |
@@ -4861,11 +5223,16 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key                        | type   | variable                                                         |
-|:---------------------------|:-------|:-----------------------------------------------------------------|
-| withCommunitiesMemberships | ...    | t.isTrue()                                                       |
-| withSubscribedTab          | ...    | t.isTrue("c9s_enabled")                                          |
-| withCommunitiesCreation    | ...    | t.isTrue("super_follow_subscriptions_home_timeline_tab_enabled") |
+| key                    | type    | variable    |
+|:-----------------------|:--------|:------------|
+| userId                 | ...     | r           |
+| count                  | ...     | t           |
+| cursor                 | ...     | n           |
+| teamName               | ...     | i           |
+| includePromotedContent | boolean | False       |
+| ...()(0,a.d)           | ...     | _           |
+| withClientEventToken   | boolean | False       |
+| withVoice              | ...     | _.isTrue(_) |
 
 #### features<br>
 | key                                                                     | type    | variable   |
@@ -4874,7 +5241,80 @@ Login Required: `...`<br>
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
-| creator_subscriptions_tweet_preview_api_enabled                         | boolean | False      |
+| creator_subscriptions_tweet_preview_api_enabled                         | boolean | True       |
+| responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
+| responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean | False      |
+| tweetypie_unmention_optimization_enabled                                | boolean | True       |
+| vibe_api_enabled                                                        | boolean | True       |
+| responsive_web_edit_tweet_api_enabled                                   | boolean | True       |
+| graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | True       |
+| view_counts_everywhere_api_enabled                                      | boolean | True       |
+| longform_notetweets_consumption_enabled                                 | boolean | True       |
+| tweet_awards_web_tipping_enabled                                        | boolean | False      |
+| freedom_of_speech_not_reach_fetch_enabled                               | boolean | True       |
+| standardized_nudges_misinfo                                             | boolean | True       |
+| tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | False      |
+| interactive_text_enabled                                                | boolean | True       |
+| responsive_web_text_conversations_enabled                               | boolean | False      |
+| longform_notetweets_rich_text_read_enabled                              | boolean | True       |
+| longform_notetweets_inline_media_enabled                                | boolean | False      |
+| responsive_web_enhance_cards_enabled                                    | boolean | False      |
+
+#### queryId<br>
+`None`<br>
+## UserCreatorSubscribers<br>
+Request URL: `https://twitter.com/i/api/graphql/l7s7vpP-OrlDgH2JbEciVw/UserCreatorSubscribers`<br>
+Request Method: `GET`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+| key          | type   | variable   |
+|:-------------|:-------|:-----------|
+| ...()(0,s.S) | ...    | _          |
+
+#### features<br>
+| key                                                                     | type    | variable   |
+|:------------------------------------------------------------------------|:--------|:-----------|
+| rweb_lists_timeline_redesign_enabled                                    | boolean | False      |
+| blue_business_profile_image_shape_enabled                               | boolean | True       |
+| responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
+| verified_phone_label_enabled                                            | boolean | False      |
+| creator_subscriptions_tweet_preview_api_enabled                         | boolean | True       |
+| responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
+| responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean | False      |
+| tweetypie_unmention_optimization_enabled                                | boolean | True       |
+| vibe_api_enabled                                                        | boolean | True       |
+| responsive_web_edit_tweet_api_enabled                                   | boolean | True       |
+| graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | True       |
+| view_counts_everywhere_api_enabled                                      | boolean | True       |
+| longform_notetweets_consumption_enabled                                 | boolean | True       |
+| tweet_awards_web_tipping_enabled                                        | boolean | False      |
+| freedom_of_speech_not_reach_fetch_enabled                               | boolean | True       |
+| standardized_nudges_misinfo                                             | boolean | True       |
+| tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | False      |
+| interactive_text_enabled                                                | boolean | True       |
+| responsive_web_text_conversations_enabled                               | boolean | False      |
+| longform_notetweets_rich_text_read_enabled                              | boolean | True       |
+| longform_notetweets_inline_media_enabled                                | boolean | False      |
+| responsive_web_enhance_cards_enabled                                    | boolean | False      |
+
+#### queryId<br>
+`None`<br>
+## UserCreatorSubscriptions<br>
+Request URL: `https://twitter.com/i/api/graphql/tYBBTloRA-3zbhs2YRRYyA/UserCreatorSubscriptions`<br>
+Request Method: `GET`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+| key                                                                     | type    | variable   |
+|:------------------------------------------------------------------------|:--------|:-----------|
+| rweb_lists_timeline_redesign_enabled                                    | boolean | False      |
+| blue_business_profile_image_shape_enabled                               | boolean | True       |
+| responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
+| verified_phone_label_enabled                                            | boolean | False      |
+| creator_subscriptions_tweet_preview_api_enabled                         | boolean | True       |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
 | responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean | False      |
 | tweetypie_unmention_optimization_enabled                                | boolean | True       |
@@ -4909,7 +5349,7 @@ Login Required: `...`<br>
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
-| creator_subscriptions_tweet_preview_api_enabled                         | boolean | False      |
+| creator_subscriptions_tweet_preview_api_enabled                         | boolean | True       |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
 | responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean | False      |
 | tweetypie_unmention_optimization_enabled                                | boolean | True       |
@@ -4944,7 +5384,7 @@ Login Required: `...`<br>
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
-| creator_subscriptions_tweet_preview_api_enabled                         | boolean | False      |
+| creator_subscriptions_tweet_preview_api_enabled                         | boolean | True       |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
 | responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean | False      |
 | tweetypie_unmention_optimization_enabled                                | boolean | True       |
@@ -4979,7 +5419,7 @@ Login Required: `...`<br>
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
-| creator_subscriptions_tweet_preview_api_enabled                         | boolean | False      |
+| creator_subscriptions_tweet_preview_api_enabled                         | boolean | True       |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
 | responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean | False      |
 | tweetypie_unmention_optimization_enabled                                | boolean | True       |
@@ -5022,7 +5462,7 @@ Login Required: `...`<br>
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
-| creator_subscriptions_tweet_preview_api_enabled                         | boolean | False      |
+| creator_subscriptions_tweet_preview_api_enabled                         | boolean | True       |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
 | responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean | False      |
 | tweetypie_unmention_optimization_enabled                                | boolean | True       |
@@ -5057,7 +5497,7 @@ Login Required: `...`<br>
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
-| creator_subscriptions_tweet_preview_api_enabled                         | boolean | False      |
+| creator_subscriptions_tweet_preview_api_enabled                         | boolean | True       |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
 | responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean | False      |
 | tweetypie_unmention_optimization_enabled                                | boolean | True       |
@@ -5092,7 +5532,7 @@ Login Required: `...`<br>
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
-| creator_subscriptions_tweet_preview_api_enabled                         | boolean | False      |
+| creator_subscriptions_tweet_preview_api_enabled                         | boolean | True       |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
 | responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean | False      |
 | tweetypie_unmention_optimization_enabled                                | boolean | True       |
@@ -5266,7 +5706,7 @@ Login Required: `...`<br>
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
-| creator_subscriptions_tweet_preview_api_enabled                         | boolean | False      |
+| creator_subscriptions_tweet_preview_api_enabled                         | boolean | True       |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
 | responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean | False      |
 | tweetypie_unmention_optimization_enabled                                | boolean | True       |
@@ -5301,7 +5741,7 @@ Login Required: `...`<br>
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
-| creator_subscriptions_tweet_preview_api_enabled                         | boolean | False      |
+| creator_subscriptions_tweet_preview_api_enabled                         | boolean | True       |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
 | responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean | False      |
 | tweetypie_unmention_optimization_enabled                                | boolean | True       |
@@ -5336,7 +5776,7 @@ Login Required: `...`<br>
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
-| creator_subscriptions_tweet_preview_api_enabled                         | boolean | False      |
+| creator_subscriptions_tweet_preview_api_enabled                         | boolean | True       |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
 | responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean | False      |
 | tweetypie_unmention_optimization_enabled                                | boolean | True       |
@@ -5481,17 +5921,6 @@ Login Required: `...`<br>
 ## getCaptionsAlwaysDisplayPreference<br>
 Request URL: `https://twitter.com/i/api/graphql/BwgMOGpOViDS0ri7VUgglg/getCaptionsAlwaysDisplayPreference`<br>
 Request Method: `GET`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-`None`<br>
-#### queryId<br>
-`None`<br>
-## updateCaptionsAlwaysDisplayPreference<br>
-Request URL: `https://twitter.com/i/api/graphql/uCUQhvZ5sJ9qHinRp6CFlQ/updateCaptionsAlwaysDisplayPreference`<br>
-Request Method: `POST`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
@@ -5657,7 +6086,7 @@ Login Required: `...`<br>
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
-| creator_subscriptions_tweet_preview_api_enabled                         | boolean | False      |
+| creator_subscriptions_tweet_preview_api_enabled                         | boolean | True       |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
 | responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean | False      |
 | tweetypie_unmention_optimization_enabled                                | boolean | True       |
@@ -5692,7 +6121,7 @@ Login Required: `...`<br>
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
-| creator_subscriptions_tweet_preview_api_enabled                         | boolean | False      |
+| creator_subscriptions_tweet_preview_api_enabled                         | boolean | True       |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
 | responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean | False      |
 | tweetypie_unmention_optimization_enabled                                | boolean | True       |
@@ -5727,7 +6156,7 @@ Login Required: `...`<br>
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
-| creator_subscriptions_tweet_preview_api_enabled                         | boolean | False      |
+| creator_subscriptions_tweet_preview_api_enabled                         | boolean | True       |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
 | responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean | False      |
 | tweetypie_unmention_optimization_enabled                                | boolean | True       |
@@ -5762,7 +6191,7 @@ Login Required: `...`<br>
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
-| creator_subscriptions_tweet_preview_api_enabled                         | boolean | False      |
+| creator_subscriptions_tweet_preview_api_enabled                         | boolean | True       |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
 | responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean | False      |
 | tweetypie_unmention_optimization_enabled                                | boolean | True       |
@@ -5797,7 +6226,7 @@ Login Required: `...`<br>
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
-| creator_subscriptions_tweet_preview_api_enabled                         | boolean | False      |
+| creator_subscriptions_tweet_preview_api_enabled                         | boolean | True       |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
 | responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean | False      |
 | tweetypie_unmention_optimization_enabled                                | boolean | True       |
@@ -5832,7 +6261,7 @@ Login Required: `...`<br>
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
-| creator_subscriptions_tweet_preview_api_enabled                         | boolean | False      |
+| creator_subscriptions_tweet_preview_api_enabled                         | boolean | True       |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
 | responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean | False      |
 | tweetypie_unmention_optimization_enabled                                | boolean | True       |
@@ -5867,7 +6296,7 @@ Login Required: `...`<br>
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
-| creator_subscriptions_tweet_preview_api_enabled                         | boolean | False      |
+| creator_subscriptions_tweet_preview_api_enabled                         | boolean | True       |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
 | responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean | False      |
 | tweetypie_unmention_optimization_enabled                                | boolean | True       |
@@ -5902,7 +6331,7 @@ Login Required: `...`<br>
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
-| creator_subscriptions_tweet_preview_api_enabled                         | boolean | False      |
+| creator_subscriptions_tweet_preview_api_enabled                         | boolean | True       |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
 | responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean | False      |
 | tweetypie_unmention_optimization_enabled                                | boolean | True       |
@@ -5937,7 +6366,7 @@ Login Required: `...`<br>
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
-| creator_subscriptions_tweet_preview_api_enabled                         | boolean | False      |
+| creator_subscriptions_tweet_preview_api_enabled                         | boolean | True       |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
 | responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean | False      |
 | tweetypie_unmention_optimization_enabled                                | boolean | True       |
@@ -5972,7 +6401,7 @@ Login Required: `...`<br>
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
-| creator_subscriptions_tweet_preview_api_enabled                         | boolean | False      |
+| creator_subscriptions_tweet_preview_api_enabled                         | boolean | True       |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
 | responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean | False      |
 | tweetypie_unmention_optimization_enabled                                | boolean | True       |
@@ -6007,7 +6436,7 @@ Login Required: `...`<br>
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
-| creator_subscriptions_tweet_preview_api_enabled                         | boolean | False      |
+| creator_subscriptions_tweet_preview_api_enabled                         | boolean | True       |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
 | responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean | False      |
 | tweetypie_unmention_optimization_enabled                                | boolean | True       |
@@ -6044,7 +6473,7 @@ Login Required: `...`<br>
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
 | rweb_lists_timeline_redesign_enabled                                    | boolean | False      |
 | responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean | False      |
-| creator_subscriptions_tweet_preview_api_enabled                         | boolean | False      |
+| creator_subscriptions_tweet_preview_api_enabled                         | boolean | True       |
 | tweetypie_unmention_optimization_enabled                                | boolean | True       |
 | vibe_api_enabled                                                        | boolean | True       |
 | responsive_web_edit_tweet_api_enabled                                   | boolean | True       |
@@ -6077,7 +6506,7 @@ Login Required: `...`<br>
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
-| creator_subscriptions_tweet_preview_api_enabled                         | boolean | False      |
+| creator_subscriptions_tweet_preview_api_enabled                         | boolean | True       |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
 | responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean | False      |
 | tweetypie_unmention_optimization_enabled                                | boolean | True       |
@@ -6104,7 +6533,10 @@ Request Method: `POST`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-`None`<br>
+| key     | type   | variable   |
+|:--------|:-------|:-----------|
+| topicId | ...    | n          |
+
 #### features<br>
 `None`<br>
 #### queryId<br>
@@ -6125,7 +6557,7 @@ Login Required: `...`<br>
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
 | rweb_lists_timeline_redesign_enabled                                    | boolean | False      |
 | responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean | False      |
-| creator_subscriptions_tweet_preview_api_enabled                         | boolean | False      |
+| creator_subscriptions_tweet_preview_api_enabled                         | boolean | True       |
 | tweetypie_unmention_optimization_enabled                                | boolean | True       |
 | vibe_api_enabled                                                        | boolean | True       |
 | responsive_web_edit_tweet_api_enabled                                   | boolean | True       |
@@ -6180,7 +6612,7 @@ Login Required: `...`<br>
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
-| creator_subscriptions_tweet_preview_api_enabled                         | boolean | False      |
+| creator_subscriptions_tweet_preview_api_enabled                         | boolean | True       |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
 | responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean | False      |
 | tweetypie_unmention_optimization_enabled                                | boolean | True       |
@@ -6239,7 +6671,7 @@ Login Required: `...`<br>
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
 | rweb_lists_timeline_redesign_enabled                                    | boolean | False      |
 | responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean | False      |
-| creator_subscriptions_tweet_preview_api_enabled                         | boolean | False      |
+| creator_subscriptions_tweet_preview_api_enabled                         | boolean | True       |
 | tweetypie_unmention_optimization_enabled                                | boolean | True       |
 | vibe_api_enabled                                                        | boolean | True       |
 | responsive_web_edit_tweet_api_enabled                                   | boolean | True       |
@@ -6274,7 +6706,7 @@ Login Required: `...`<br>
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
 | rweb_lists_timeline_redesign_enabled                                    | boolean | False      |
 | responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean | False      |
-| creator_subscriptions_tweet_preview_api_enabled                         | boolean | False      |
+| creator_subscriptions_tweet_preview_api_enabled                         | boolean | True       |
 | tweetypie_unmention_optimization_enabled                                | boolean | True       |
 | vibe_api_enabled                                                        | boolean | True       |
 | responsive_web_edit_tweet_api_enabled                                   | boolean | True       |
@@ -6309,7 +6741,80 @@ Login Required: `...`<br>
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
 | rweb_lists_timeline_redesign_enabled                                    | boolean | False      |
 | responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean | False      |
-| creator_subscriptions_tweet_preview_api_enabled                         | boolean | False      |
+| creator_subscriptions_tweet_preview_api_enabled                         | boolean | True       |
+| tweetypie_unmention_optimization_enabled                                | boolean | True       |
+| vibe_api_enabled                                                        | boolean | True       |
+| responsive_web_edit_tweet_api_enabled                                   | boolean | True       |
+| graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | True       |
+| view_counts_everywhere_api_enabled                                      | boolean | True       |
+| longform_notetweets_consumption_enabled                                 | boolean | True       |
+| tweet_awards_web_tipping_enabled                                        | boolean | False      |
+| freedom_of_speech_not_reach_fetch_enabled                               | boolean | True       |
+| standardized_nudges_misinfo                                             | boolean | True       |
+| tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | False      |
+| interactive_text_enabled                                                | boolean | True       |
+| responsive_web_text_conversations_enabled                               | boolean | False      |
+| longform_notetweets_rich_text_read_enabled                              | boolean | True       |
+| longform_notetweets_inline_media_enabled                                | boolean | False      |
+| responsive_web_enhance_cards_enabled                                    | boolean | False      |
+
+#### queryId<br>
+`None`<br>
+## UserCreatorSubscribers<br>
+Request URL: `https://twitter.com/i/api/graphql/l7s7vpP-OrlDgH2JbEciVw/UserCreatorSubscribers`<br>
+Request Method: `GET`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+| key          | type   | variable   |
+|:-------------|:-------|:-----------|
+| ...()(0,s.S) | ...    | _          |
+
+#### features<br>
+| key                                                                     | type    | variable   |
+|:------------------------------------------------------------------------|:--------|:-----------|
+| rweb_lists_timeline_redesign_enabled                                    | boolean | False      |
+| blue_business_profile_image_shape_enabled                               | boolean | True       |
+| responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
+| verified_phone_label_enabled                                            | boolean | False      |
+| creator_subscriptions_tweet_preview_api_enabled                         | boolean | True       |
+| responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
+| responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean | False      |
+| tweetypie_unmention_optimization_enabled                                | boolean | True       |
+| vibe_api_enabled                                                        | boolean | True       |
+| responsive_web_edit_tweet_api_enabled                                   | boolean | True       |
+| graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | True       |
+| view_counts_everywhere_api_enabled                                      | boolean | True       |
+| longform_notetweets_consumption_enabled                                 | boolean | True       |
+| tweet_awards_web_tipping_enabled                                        | boolean | False      |
+| freedom_of_speech_not_reach_fetch_enabled                               | boolean | True       |
+| standardized_nudges_misinfo                                             | boolean | True       |
+| tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | False      |
+| interactive_text_enabled                                                | boolean | True       |
+| responsive_web_text_conversations_enabled                               | boolean | False      |
+| longform_notetweets_rich_text_read_enabled                              | boolean | True       |
+| longform_notetweets_inline_media_enabled                                | boolean | False      |
+| responsive_web_enhance_cards_enabled                                    | boolean | False      |
+
+#### queryId<br>
+`None`<br>
+## UserCreatorSubscriptions<br>
+Request URL: `https://twitter.com/i/api/graphql/tYBBTloRA-3zbhs2YRRYyA/UserCreatorSubscriptions`<br>
+Request Method: `GET`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+| key                                                                     | type    | variable   |
+|:------------------------------------------------------------------------|:--------|:-----------|
+| rweb_lists_timeline_redesign_enabled                                    | boolean | False      |
+| blue_business_profile_image_shape_enabled                               | boolean | True       |
+| responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
+| verified_phone_label_enabled                                            | boolean | False      |
+| creator_subscriptions_tweet_preview_api_enabled                         | boolean | True       |
+| responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
+| responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean | False      |
 | tweetypie_unmention_optimization_enabled                                | boolean | True       |
 | vibe_api_enabled                                                        | boolean | True       |
 | responsive_web_edit_tweet_api_enabled                                   | boolean | True       |
@@ -6362,7 +6867,7 @@ Login Required: `...`<br>
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
 | rweb_lists_timeline_redesign_enabled                                    | boolean | False      |
 | responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean | False      |
-| creator_subscriptions_tweet_preview_api_enabled                         | boolean | False      |
+| creator_subscriptions_tweet_preview_api_enabled                         | boolean | True       |
 | tweetypie_unmention_optimization_enabled                                | boolean | True       |
 | vibe_api_enabled                                                        | boolean | True       |
 | responsive_web_edit_tweet_api_enabled                                   | boolean | True       |
@@ -6417,7 +6922,7 @@ Login Required: `...`<br>
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
-| creator_subscriptions_tweet_preview_api_enabled                         | boolean | False      |
+| creator_subscriptions_tweet_preview_api_enabled                         | boolean | True       |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
 | responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean | False      |
 | tweetypie_unmention_optimization_enabled                                | boolean | True       |
@@ -6452,7 +6957,7 @@ Login Required: `...`<br>
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
-| creator_subscriptions_tweet_preview_api_enabled                         | boolean | False      |
+| creator_subscriptions_tweet_preview_api_enabled                         | boolean | True       |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
 | responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean | False      |
 | tweetypie_unmention_optimization_enabled                                | boolean | True       |
@@ -6502,7 +7007,7 @@ Login Required: `...`<br>
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
-| creator_subscriptions_tweet_preview_api_enabled                         | boolean | False      |
+| creator_subscriptions_tweet_preview_api_enabled                         | boolean | True       |
 | responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean | False      |
 | responsive_web_enhance_cards_enabled                                    | boolean | False      |
 
@@ -6522,7 +7027,7 @@ Login Required: `...`<br>
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
-| creator_subscriptions_tweet_preview_api_enabled                         | boolean | False      |
+| creator_subscriptions_tweet_preview_api_enabled                         | boolean | True       |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
 | responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean | False      |
 | tweetypie_unmention_optimization_enabled                                | boolean | True       |
@@ -6557,7 +7062,7 @@ Login Required: `...`<br>
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
-| creator_subscriptions_tweet_preview_api_enabled                         | boolean | False      |
+| creator_subscriptions_tweet_preview_api_enabled                         | boolean | True       |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
 | responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean | False      |
 | tweetypie_unmention_optimization_enabled                                | boolean | True       |
@@ -6592,7 +7097,7 @@ Login Required: `...`<br>
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
-| creator_subscriptions_tweet_preview_api_enabled                         | boolean | False      |
+| creator_subscriptions_tweet_preview_api_enabled                         | boolean | True       |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
 | responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean | False      |
 | tweetypie_unmention_optimization_enabled                                | boolean | True       |
@@ -6627,7 +7132,7 @@ Login Required: `...`<br>
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
-| creator_subscriptions_tweet_preview_api_enabled                         | boolean | False      |
+| creator_subscriptions_tweet_preview_api_enabled                         | boolean | True       |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
 | responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean | False      |
 | tweetypie_unmention_optimization_enabled                                | boolean | True       |
@@ -6662,7 +7167,7 @@ Login Required: `...`<br>
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
-| creator_subscriptions_tweet_preview_api_enabled                         | boolean | False      |
+| creator_subscriptions_tweet_preview_api_enabled                         | boolean | True       |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
 | responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean | False      |
 | tweetypie_unmention_optimization_enabled                                | boolean | True       |
@@ -6697,7 +7202,7 @@ Login Required: `...`<br>
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
-| creator_subscriptions_tweet_preview_api_enabled                         | boolean | False      |
+| creator_subscriptions_tweet_preview_api_enabled                         | boolean | True       |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
 | responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean | False      |
 | tweetypie_unmention_optimization_enabled                                | boolean | True       |
@@ -6732,7 +7237,7 @@ Login Required: `...`<br>
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
-| creator_subscriptions_tweet_preview_api_enabled                         | boolean | False      |
+| creator_subscriptions_tweet_preview_api_enabled                         | boolean | True       |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
 | responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean | False      |
 | tweetypie_unmention_optimization_enabled                                | boolean | True       |
@@ -6767,7 +7272,7 @@ Login Required: `...`<br>
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
-| creator_subscriptions_tweet_preview_api_enabled                         | boolean | False      |
+| creator_subscriptions_tweet_preview_api_enabled                         | boolean | True       |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
 | responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean | False      |
 | tweetypie_unmention_optimization_enabled                                | boolean | True       |
@@ -6802,7 +7307,7 @@ Login Required: `...`<br>
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
-| creator_subscriptions_tweet_preview_api_enabled                         | boolean | False      |
+| creator_subscriptions_tweet_preview_api_enabled                         | boolean | True       |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
 | responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean | False      |
 | tweetypie_unmention_optimization_enabled                                | boolean | True       |
@@ -6837,7 +7342,7 @@ Login Required: `...`<br>
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
-| creator_subscriptions_tweet_preview_api_enabled                         | boolean | False      |
+| creator_subscriptions_tweet_preview_api_enabled                         | boolean | True       |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
 | responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean | False      |
 | tweetypie_unmention_optimization_enabled                                | boolean | True       |
@@ -6870,6 +7375,79 @@ Login Required: `...`<br>
 |:------------------------------------------------|:--------|:-----------|
 | profile_foundations_tweet_stats_enabled         | boolean | False      |
 | profile_foundations_tweet_stats_tweet_frequency | boolean | False      |
+
+#### queryId<br>
+`None`<br>
+## UserCreatorSubscribers<br>
+Request URL: `https://twitter.com/i/api/graphql/l7s7vpP-OrlDgH2JbEciVw/UserCreatorSubscribers`<br>
+Request Method: `GET`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+| key          | type   | variable   |
+|:-------------|:-------|:-----------|
+| ...()(0,s.S) | ...    | _          |
+
+#### features<br>
+| key                                                                     | type    | variable   |
+|:------------------------------------------------------------------------|:--------|:-----------|
+| rweb_lists_timeline_redesign_enabled                                    | boolean | False      |
+| blue_business_profile_image_shape_enabled                               | boolean | True       |
+| responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
+| verified_phone_label_enabled                                            | boolean | False      |
+| creator_subscriptions_tweet_preview_api_enabled                         | boolean | True       |
+| responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
+| responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean | False      |
+| tweetypie_unmention_optimization_enabled                                | boolean | True       |
+| vibe_api_enabled                                                        | boolean | True       |
+| responsive_web_edit_tweet_api_enabled                                   | boolean | True       |
+| graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | True       |
+| view_counts_everywhere_api_enabled                                      | boolean | True       |
+| longform_notetweets_consumption_enabled                                 | boolean | True       |
+| tweet_awards_web_tipping_enabled                                        | boolean | False      |
+| freedom_of_speech_not_reach_fetch_enabled                               | boolean | True       |
+| standardized_nudges_misinfo                                             | boolean | True       |
+| tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | False      |
+| interactive_text_enabled                                                | boolean | True       |
+| responsive_web_text_conversations_enabled                               | boolean | False      |
+| longform_notetweets_rich_text_read_enabled                              | boolean | True       |
+| longform_notetweets_inline_media_enabled                                | boolean | False      |
+| responsive_web_enhance_cards_enabled                                    | boolean | False      |
+
+#### queryId<br>
+`None`<br>
+## UserCreatorSubscriptions<br>
+Request URL: `https://twitter.com/i/api/graphql/tYBBTloRA-3zbhs2YRRYyA/UserCreatorSubscriptions`<br>
+Request Method: `GET`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+| key                                                                     | type    | variable   |
+|:------------------------------------------------------------------------|:--------|:-----------|
+| rweb_lists_timeline_redesign_enabled                                    | boolean | False      |
+| blue_business_profile_image_shape_enabled                               | boolean | True       |
+| responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
+| verified_phone_label_enabled                                            | boolean | False      |
+| creator_subscriptions_tweet_preview_api_enabled                         | boolean | True       |
+| responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
+| responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean | False      |
+| tweetypie_unmention_optimization_enabled                                | boolean | True       |
+| vibe_api_enabled                                                        | boolean | True       |
+| responsive_web_edit_tweet_api_enabled                                   | boolean | True       |
+| graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | True       |
+| view_counts_everywhere_api_enabled                                      | boolean | True       |
+| longform_notetweets_consumption_enabled                                 | boolean | True       |
+| tweet_awards_web_tipping_enabled                                        | boolean | False      |
+| freedom_of_speech_not_reach_fetch_enabled                               | boolean | True       |
+| standardized_nudges_misinfo                                             | boolean | True       |
+| tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | False      |
+| interactive_text_enabled                                                | boolean | True       |
+| responsive_web_text_conversations_enabled                               | boolean | False      |
+| longform_notetweets_rich_text_read_enabled                              | boolean | True       |
+| longform_notetweets_inline_media_enabled                                | boolean | False      |
+| responsive_web_enhance_cards_enabled                                    | boolean | False      |
 
 #### queryId<br>
 `None`<br>
@@ -6906,7 +7484,7 @@ Login Required: `...`<br>
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
 | responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean | False      |
-| creator_subscriptions_tweet_preview_api_enabled                         | boolean | False      |
+| creator_subscriptions_tweet_preview_api_enabled                         | boolean | True       |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
 | tweetypie_unmention_optimization_enabled                                | boolean | True       |
 | vibe_api_enabled                                                        | boolean | True       |
@@ -6952,7 +7530,7 @@ Login Required: `...`<br>
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
 | responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean | False      |
-| creator_subscriptions_tweet_preview_api_enabled                         | boolean | False      |
+| creator_subscriptions_tweet_preview_api_enabled                         | boolean | True       |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
 | tweetypie_unmention_optimization_enabled                                | boolean | True       |
 | vibe_api_enabled                                                        | boolean | True       |
@@ -6987,7 +7565,7 @@ Login Required: `...`<br>
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
 | responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean | False      |
-| creator_subscriptions_tweet_preview_api_enabled                         | boolean | False      |
+| creator_subscriptions_tweet_preview_api_enabled                         | boolean | True       |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
 | tweetypie_unmention_optimization_enabled                                | boolean | True       |
 | vibe_api_enabled                                                        | boolean | True       |
@@ -7022,7 +7600,7 @@ Login Required: `...`<br>
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
 | responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean | False      |
-| creator_subscriptions_tweet_preview_api_enabled                         | boolean | False      |
+| creator_subscriptions_tweet_preview_api_enabled                         | boolean | True       |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
 | tweetypie_unmention_optimization_enabled                                | boolean | True       |
 | vibe_api_enabled                                                        | boolean | True       |
@@ -7057,7 +7635,7 @@ Login Required: `...`<br>
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
 | responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean | False      |
-| creator_subscriptions_tweet_preview_api_enabled                         | boolean | False      |
+| creator_subscriptions_tweet_preview_api_enabled                         | boolean | True       |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
 | tweetypie_unmention_optimization_enabled                                | boolean | True       |
 | vibe_api_enabled                                                        | boolean | True       |
@@ -7092,7 +7670,7 @@ Login Required: `...`<br>
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
 | responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean | False      |
-| creator_subscriptions_tweet_preview_api_enabled                         | boolean | False      |
+| creator_subscriptions_tweet_preview_api_enabled                         | boolean | True       |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
 | tweetypie_unmention_optimization_enabled                                | boolean | True       |
 | vibe_api_enabled                                                        | boolean | True       |
@@ -7127,7 +7705,7 @@ Login Required: `...`<br>
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
 | responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean | False      |
-| creator_subscriptions_tweet_preview_api_enabled                         | boolean | False      |
+| creator_subscriptions_tweet_preview_api_enabled                         | boolean | True       |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
 | tweetypie_unmention_optimization_enabled                                | boolean | True       |
 | vibe_api_enabled                                                        | boolean | True       |
@@ -7162,7 +7740,7 @@ Login Required: `...`<br>
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
 | responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean | False      |
-| creator_subscriptions_tweet_preview_api_enabled                         | boolean | False      |
+| creator_subscriptions_tweet_preview_api_enabled                         | boolean | True       |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
 | tweetypie_unmention_optimization_enabled                                | boolean | True       |
 | vibe_api_enabled                                                        | boolean | True       |
@@ -7233,7 +7811,7 @@ Login Required: `...`<br>
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
-| creator_subscriptions_tweet_preview_api_enabled                         | boolean | False      |
+| creator_subscriptions_tweet_preview_api_enabled                         | boolean | True       |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
 | responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean | False      |
 | tweetypie_unmention_optimization_enabled                                | boolean | True       |
@@ -7270,7 +7848,7 @@ Login Required: `...`<br>
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
 | rweb_lists_timeline_redesign_enabled                                    | boolean | False      |
 | responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean | False      |
-| creator_subscriptions_tweet_preview_api_enabled                         | boolean | False      |
+| creator_subscriptions_tweet_preview_api_enabled                         | boolean | True       |
 | tweetypie_unmention_optimization_enabled                                | boolean | True       |
 | vibe_api_enabled                                                        | boolean | True       |
 | responsive_web_edit_tweet_api_enabled                                   | boolean | True       |
@@ -7303,7 +7881,7 @@ Login Required: `...`<br>
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
-| creator_subscriptions_tweet_preview_api_enabled                         | boolean | False      |
+| creator_subscriptions_tweet_preview_api_enabled                         | boolean | True       |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
 | responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean | False      |
 | tweetypie_unmention_optimization_enabled                                | boolean | True       |
@@ -7338,7 +7916,7 @@ Login Required: `...`<br>
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
-| creator_subscriptions_tweet_preview_api_enabled                         | boolean | False      |
+| creator_subscriptions_tweet_preview_api_enabled                         | boolean | True       |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
 | responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean | False      |
 | tweetypie_unmention_optimization_enabled                                | boolean | True       |
@@ -7384,7 +7962,7 @@ Login Required: `...`<br>
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
-| creator_subscriptions_tweet_preview_api_enabled                         | boolean | False      |
+| creator_subscriptions_tweet_preview_api_enabled                         | boolean | True       |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
 | responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean | False      |
 | tweetypie_unmention_optimization_enabled                                | boolean | True       |
@@ -7417,7 +7995,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## UserByRestId<br>
-Request URL: `https://twitter.com/i/api/graphql/1YAM811Q8Ry4XyPpJclURQ/UserByRestId`<br>
+Request URL: `https://twitter.com/i/api/graphql/t5uBZX04s6lkQ-EogvCf2Q/UserByRestId`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -7430,14 +8008,14 @@ Login Required: `...`<br>
 | responsive_web_graphql_exclude_directive_enabled                  | boolean | True       |
 | verified_phone_label_enabled                                      | boolean | False      |
 | highlights_tweets_tab_ui_enabled                                  | boolean | True       |
-| creator_subscriptions_tweet_preview_api_enabled                   | boolean | False      |
+| creator_subscriptions_tweet_preview_api_enabled                   | boolean | True       |
 | responsive_web_graphql_skip_user_profile_image_extensions_enabled | boolean | False      |
 | responsive_web_graphql_timeline_navigation_enabled                | boolean | True       |
 
 #### queryId<br>
 `None`<br>
 ## UserByScreenName<br>
-Request URL: `https://twitter.com/i/api/graphql/pVrmNaXcxPjisIvKtLDMEA/UserByScreenName`<br>
+Request URL: `https://twitter.com/i/api/graphql/-wEuf2ML_4-FAKqIuaTVsA/UserByScreenName`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -7449,8 +8027,9 @@ Login Required: `...`<br>
 | blue_business_profile_image_shape_enabled                         | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                  | boolean | True       |
 | verified_phone_label_enabled                                      | boolean | False      |
+| subscriptions_verification_info_verified_since_enabled            | boolean | False      |
 | highlights_tweets_tab_ui_enabled                                  | boolean | True       |
-| creator_subscriptions_tweet_preview_api_enabled                   | boolean | False      |
+| creator_subscriptions_tweet_preview_api_enabled                   | boolean | True       |
 | responsive_web_graphql_skip_user_profile_image_extensions_enabled | boolean | False      |
 | responsive_web_graphql_timeline_navigation_enabled                | boolean | True       |
 
@@ -7671,7 +8250,7 @@ Login Required: `...`<br>
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
-| creator_subscriptions_tweet_preview_api_enabled                         | boolean | False      |
+| creator_subscriptions_tweet_preview_api_enabled                         | boolean | True       |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
 | responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean | False      |
 | tweetypie_unmention_optimization_enabled                                | boolean | True       |
@@ -7706,7 +8285,7 @@ Login Required: `...`<br>
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
-| creator_subscriptions_tweet_preview_api_enabled                         | boolean | False      |
+| creator_subscriptions_tweet_preview_api_enabled                         | boolean | True       |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
 | responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean | False      |
 | tweetypie_unmention_optimization_enabled                                | boolean | True       |
@@ -7742,7 +8321,7 @@ Login Required: `...`<br>
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
-| creator_subscriptions_tweet_preview_api_enabled                         | boolean | False      |
+| creator_subscriptions_tweet_preview_api_enabled                         | boolean | True       |
 | responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean | False      |
 | tweetypie_unmention_optimization_enabled                                | boolean | True       |
 | vibe_api_enabled                                                        | boolean | True       |
@@ -7807,17 +8386,6 @@ Login Required: `...`<br>
 `None`<br>
 #### queryId<br>
 `None`<br>
-## updateCaptionsAlwaysDisplayPreference<br>
-Request URL: `https://twitter.com/i/api/graphql/uCUQhvZ5sJ9qHinRp6CFlQ/updateCaptionsAlwaysDisplayPreference`<br>
-Request Method: `POST`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-`None`<br>
-#### queryId<br>
-`None`<br>
 ## AuthenticatedUserTFLists<br>
 Request URL: `https://twitter.com/i/api/graphql/QjN8ZdavFDqxUjNn3r9cig/AuthenticatedUserTFLists`<br>
 Request Method: `GET`<br>
@@ -7850,7 +8418,7 @@ Login Required: `...`<br>
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
-| creator_subscriptions_tweet_preview_api_enabled                         | boolean | False      |
+| creator_subscriptions_tweet_preview_api_enabled                         | boolean | True       |
 | tweetypie_unmention_optimization_enabled                                | boolean | True       |
 | vibe_api_enabled                                                        | boolean | True       |
 | responsive_web_edit_tweet_api_enabled                                   | boolean | True       |
@@ -8021,7 +8589,7 @@ Login Required: `...`<br>
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
 | rweb_lists_timeline_redesign_enabled                                    | boolean | False      |
 | responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean | False      |
-| creator_subscriptions_tweet_preview_api_enabled                         | boolean | False      |
+| creator_subscriptions_tweet_preview_api_enabled                         | boolean | True       |
 | tweetypie_unmention_optimization_enabled                                | boolean | True       |
 | vibe_api_enabled                                                        | boolean | True       |
 | responsive_web_edit_tweet_api_enabled                                   | boolean | True       |
@@ -8123,7 +8691,7 @@ Login Required: `...`<br>
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
-| creator_subscriptions_tweet_preview_api_enabled                         | boolean | False      |
+| creator_subscriptions_tweet_preview_api_enabled                         | boolean | True       |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
 | responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean | False      |
 | tweetypie_unmention_optimization_enabled                                | boolean | True       |
@@ -8158,7 +8726,7 @@ Login Required: `...`<br>
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
-| creator_subscriptions_tweet_preview_api_enabled                         | boolean | False      |
+| creator_subscriptions_tweet_preview_api_enabled                         | boolean | True       |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
 | responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean | False      |
 | tweetypie_unmention_optimization_enabled                                | boolean | True       |
@@ -8193,7 +8761,7 @@ Login Required: `...`<br>
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
-| creator_subscriptions_tweet_preview_api_enabled                         | boolean | False      |
+| creator_subscriptions_tweet_preview_api_enabled                         | boolean | True       |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
 | responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean | False      |
 | tweetypie_unmention_optimization_enabled                                | boolean | True       |
@@ -8228,7 +8796,7 @@ Login Required: `...`<br>
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
-| creator_subscriptions_tweet_preview_api_enabled                         | boolean | False      |
+| creator_subscriptions_tweet_preview_api_enabled                         | boolean | True       |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
 | responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean | False      |
 | tweetypie_unmention_optimization_enabled                                | boolean | True       |
@@ -8266,10 +8834,7 @@ Request Method: `POST`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-```internal process
-# Error
-{"rawQuery":s||"","count":"n","cursor":"i","querySource":"l","...()(0,r.d)":"_"}
-```
+`None`<br>
 #### features<br>
 `None`<br>
 #### queryId<br>
@@ -8289,7 +8854,7 @@ Login Required: `...`<br>
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
-| creator_subscriptions_tweet_preview_api_enabled                         | boolean | False      |
+| creator_subscriptions_tweet_preview_api_enabled                         | boolean | True       |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
 | responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean | False      |
 | tweetypie_unmention_optimization_enabled                                | boolean | True       |
@@ -8343,7 +8908,7 @@ Login Required: `...`<br>
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
-| creator_subscriptions_tweet_preview_api_enabled                         | boolean | False      |
+| creator_subscriptions_tweet_preview_api_enabled                         | boolean | True       |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
 | responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean | False      |
 | tweetypie_unmention_optimization_enabled                                | boolean | True       |
@@ -8378,7 +8943,7 @@ Login Required: `...`<br>
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
-| creator_subscriptions_tweet_preview_api_enabled                         | boolean | False      |
+| creator_subscriptions_tweet_preview_api_enabled                         | boolean | True       |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
 | responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean | False      |
 | tweetypie_unmention_optimization_enabled                                | boolean | True       |
@@ -8413,7 +8978,7 @@ Login Required: `...`<br>
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
-| creator_subscriptions_tweet_preview_api_enabled                         | boolean | False      |
+| creator_subscriptions_tweet_preview_api_enabled                         | boolean | True       |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
 | responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean | False      |
 | tweetypie_unmention_optimization_enabled                                | boolean | True       |
@@ -8466,7 +9031,7 @@ Login Required: `...`<br>
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
-| creator_subscriptions_tweet_preview_api_enabled                         | boolean | False      |
+| creator_subscriptions_tweet_preview_api_enabled                         | boolean | True       |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
 | responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean | False      |
 | tweetypie_unmention_optimization_enabled                                | boolean | True       |
@@ -8501,7 +9066,7 @@ Login Required: `...`<br>
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
-| creator_subscriptions_tweet_preview_api_enabled                         | boolean | False      |
+| creator_subscriptions_tweet_preview_api_enabled                         | boolean | True       |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
 | responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean | False      |
 | tweetypie_unmention_optimization_enabled                                | boolean | True       |
@@ -8572,7 +9137,7 @@ Login Required: `...`<br>
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
-| creator_subscriptions_tweet_preview_api_enabled                         | boolean | False      |
+| creator_subscriptions_tweet_preview_api_enabled                         | boolean | True       |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
 | responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean | False      |
 | tweetypie_unmention_optimization_enabled                                | boolean | True       |
@@ -8715,7 +9280,7 @@ Login Required: `...`<br>
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
-| creator_subscriptions_tweet_preview_api_enabled                         | boolean | False      |
+| creator_subscriptions_tweet_preview_api_enabled                         | boolean | True       |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
 | responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean | False      |
 | tweetypie_unmention_optimization_enabled                                | boolean | True       |
@@ -8811,7 +9376,7 @@ Login Required: `...`<br>
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
-| creator_subscriptions_tweet_preview_api_enabled                         | boolean | False      |
+| creator_subscriptions_tweet_preview_api_enabled                         | boolean | True       |
 | tweetypie_unmention_optimization_enabled                                | boolean | True       |
 | vibe_api_enabled                                                        | boolean | True       |
 | responsive_web_edit_tweet_api_enabled                                   | boolean | True       |
@@ -8921,7 +9486,7 @@ Login Required: `...`<br>
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
-| creator_subscriptions_tweet_preview_api_enabled                         | boolean | False      |
+| creator_subscriptions_tweet_preview_api_enabled                         | boolean | True       |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
 | responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean | False      |
 | tweetypie_unmention_optimization_enabled                                | boolean | True       |
@@ -8956,7 +9521,7 @@ Login Required: `...`<br>
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
-| creator_subscriptions_tweet_preview_api_enabled                         | boolean | False      |
+| creator_subscriptions_tweet_preview_api_enabled                         | boolean | True       |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
 | responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean | False      |
 | tweetypie_unmention_optimization_enabled                                | boolean | True       |
@@ -9031,7 +9596,7 @@ Login Required: `...`<br>
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
-| creator_subscriptions_tweet_preview_api_enabled                         | boolean | False      |
+| creator_subscriptions_tweet_preview_api_enabled                         | boolean | True       |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
 | responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean | False      |
 | tweetypie_unmention_optimization_enabled                                | boolean | True       |
@@ -9132,7 +9697,7 @@ Login Required: `...`<br>
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
-| creator_subscriptions_tweet_preview_api_enabled                         | boolean | False      |
+| creator_subscriptions_tweet_preview_api_enabled                         | boolean | True       |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
 | responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean | False      |
 | tweetypie_unmention_optimization_enabled                                | boolean | True       |
@@ -9317,7 +9882,7 @@ Login Required: `...`<br>
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
-| creator_subscriptions_tweet_preview_api_enabled                         | boolean | False      |
+| creator_subscriptions_tweet_preview_api_enabled                         | boolean | True       |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
 | responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean | False      |
 | tweetypie_unmention_optimization_enabled                                | boolean | True       |
@@ -9442,7 +10007,7 @@ Login Required: `...`<br>
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
 | rweb_lists_timeline_redesign_enabled                                    | boolean | False      |
 | responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean | False      |
-| creator_subscriptions_tweet_preview_api_enabled                         | boolean | False      |
+| creator_subscriptions_tweet_preview_api_enabled                         | boolean | True       |
 | tweetypie_unmention_optimization_enabled                                | boolean | True       |
 | vibe_api_enabled                                                        | boolean | True       |
 | responsive_web_edit_tweet_api_enabled                                   | boolean | True       |
@@ -9475,7 +10040,7 @@ Login Required: `...`<br>
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
-| creator_subscriptions_tweet_preview_api_enabled                         | boolean | False      |
+| creator_subscriptions_tweet_preview_api_enabled                         | boolean | True       |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
 | responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean | False      |
 | tweetypie_unmention_optimization_enabled                                | boolean | True       |
@@ -9521,7 +10086,7 @@ Login Required: `...`<br>
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
-| creator_subscriptions_tweet_preview_api_enabled                         | boolean | False      |
+| creator_subscriptions_tweet_preview_api_enabled                         | boolean | True       |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
 | responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean | False      |
 | tweetypie_unmention_optimization_enabled                                | boolean | True       |
@@ -9556,7 +10121,7 @@ Login Required: `...`<br>
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
-| creator_subscriptions_tweet_preview_api_enabled                         | boolean | False      |
+| creator_subscriptions_tweet_preview_api_enabled                         | boolean | True       |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
 | responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean | False      |
 | tweetypie_unmention_optimization_enabled                                | boolean | True       |
@@ -9591,7 +10156,7 @@ Login Required: `...`<br>
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
-| creator_subscriptions_tweet_preview_api_enabled                         | boolean | False      |
+| creator_subscriptions_tweet_preview_api_enabled                         | boolean | True       |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
 | responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean | False      |
 | tweetypie_unmention_optimization_enabled                                | boolean | True       |
@@ -9626,7 +10191,7 @@ Login Required: `...`<br>
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
-| creator_subscriptions_tweet_preview_api_enabled                         | boolean | False      |
+| creator_subscriptions_tweet_preview_api_enabled                         | boolean | True       |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
 | responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean | False      |
 | tweetypie_unmention_optimization_enabled                                | boolean | True       |
@@ -9826,7 +10391,7 @@ Login Required: `...`<br>
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
-| creator_subscriptions_tweet_preview_api_enabled                         | boolean | False      |
+| creator_subscriptions_tweet_preview_api_enabled                         | boolean | True       |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
 | responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean | False      |
 | tweetypie_unmention_optimization_enabled                                | boolean | True       |
@@ -9861,7 +10426,7 @@ Login Required: `...`<br>
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
-| creator_subscriptions_tweet_preview_api_enabled                         | boolean | False      |
+| creator_subscriptions_tweet_preview_api_enabled                         | boolean | True       |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
 | responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean | False      |
 | tweetypie_unmention_optimization_enabled                                | boolean | True       |
@@ -9896,7 +10461,7 @@ Login Required: `...`<br>
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
-| creator_subscriptions_tweet_preview_api_enabled                         | boolean | False      |
+| creator_subscriptions_tweet_preview_api_enabled                         | boolean | True       |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
 | responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean | False      |
 | tweetypie_unmention_optimization_enabled                                | boolean | True       |
@@ -9931,7 +10496,7 @@ Login Required: `...`<br>
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
-| creator_subscriptions_tweet_preview_api_enabled                         | boolean | False      |
+| creator_subscriptions_tweet_preview_api_enabled                         | boolean | True       |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
 | responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean | False      |
 | tweetypie_unmention_optimization_enabled                                | boolean | True       |
@@ -10061,7 +10626,7 @@ Login Required: `...`<br>
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
-| creator_subscriptions_tweet_preview_api_enabled                         | boolean | False      |
+| creator_subscriptions_tweet_preview_api_enabled                         | boolean | True       |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
 | responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean | False      |
 | tweetypie_unmention_optimization_enabled                                | boolean | True       |
@@ -10118,7 +10683,7 @@ Login Required: `...`<br>
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
-| creator_subscriptions_tweet_preview_api_enabled                         | boolean | False      |
+| creator_subscriptions_tweet_preview_api_enabled                         | boolean | True       |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
 | responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean | False      |
 | tweetypie_unmention_optimization_enabled                                | boolean | True       |
@@ -10153,7 +10718,7 @@ Login Required: `...`<br>
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
-| creator_subscriptions_tweet_preview_api_enabled                         | boolean | False      |
+| creator_subscriptions_tweet_preview_api_enabled                         | boolean | True       |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
 | responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean | False      |
 | tweetypie_unmention_optimization_enabled                                | boolean | True       |
@@ -10188,7 +10753,7 @@ Login Required: `...`<br>
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
-| creator_subscriptions_tweet_preview_api_enabled                         | boolean | False      |
+| creator_subscriptions_tweet_preview_api_enabled                         | boolean | True       |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
 | responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean | False      |
 | tweetypie_unmention_optimization_enabled                                | boolean | True       |
@@ -10223,7 +10788,7 @@ Login Required: `...`<br>
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
-| creator_subscriptions_tweet_preview_api_enabled                         | boolean | False      |
+| creator_subscriptions_tweet_preview_api_enabled                         | boolean | True       |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
 | responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean | False      |
 | tweetypie_unmention_optimization_enabled                                | boolean | True       |
@@ -10269,7 +10834,7 @@ Login Required: `...`<br>
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
-| creator_subscriptions_tweet_preview_api_enabled                         | boolean | False      |
+| creator_subscriptions_tweet_preview_api_enabled                         | boolean | True       |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
 | responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean | False      |
 | tweetypie_unmention_optimization_enabled                                | boolean | True       |
@@ -10372,7 +10937,7 @@ Login Required: `...`<br>
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
-| creator_subscriptions_tweet_preview_api_enabled                         | boolean | False      |
+| creator_subscriptions_tweet_preview_api_enabled                         | boolean | True       |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
 | responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean | False      |
 | tweetypie_unmention_optimization_enabled                                | boolean | True       |
@@ -10426,7 +10991,7 @@ Login Required: `...`<br>
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
-| creator_subscriptions_tweet_preview_api_enabled                         | boolean | False      |
+| creator_subscriptions_tweet_preview_api_enabled                         | boolean | True       |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
 | responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean | False      |
 | tweetypie_unmention_optimization_enabled                                | boolean | True       |
@@ -10480,7 +11045,7 @@ Login Required: `...`<br>
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
-| creator_subscriptions_tweet_preview_api_enabled                         | boolean | False      |
+| creator_subscriptions_tweet_preview_api_enabled                         | boolean | True       |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
 | responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean | False      |
 | tweetypie_unmention_optimization_enabled                                | boolean | True       |
@@ -10583,7 +11148,7 @@ Login Required: `...`<br>
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
-| creator_subscriptions_tweet_preview_api_enabled                         | boolean | False      |
+| creator_subscriptions_tweet_preview_api_enabled                         | boolean | True       |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
 | responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean | False      |
 | tweetypie_unmention_optimization_enabled                                | boolean | True       |
@@ -10618,7 +11183,7 @@ Login Required: `...`<br>
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
-| creator_subscriptions_tweet_preview_api_enabled                         | boolean | False      |
+| creator_subscriptions_tweet_preview_api_enabled                         | boolean | True       |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
 | responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean | False      |
 | tweetypie_unmention_optimization_enabled                                | boolean | True       |
@@ -10683,7 +11248,7 @@ Login Required: `...`<br>
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
-| creator_subscriptions_tweet_preview_api_enabled                         | boolean | False      |
+| creator_subscriptions_tweet_preview_api_enabled                         | boolean | True       |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
 | responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean | False      |
 | tweetypie_unmention_optimization_enabled                                | boolean | True       |
@@ -10718,7 +11283,7 @@ Login Required: `...`<br>
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
-| creator_subscriptions_tweet_preview_api_enabled                         | boolean | False      |
+| creator_subscriptions_tweet_preview_api_enabled                         | boolean | True       |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
 | responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean | False      |
 | tweetypie_unmention_optimization_enabled                                | boolean | True       |
@@ -10755,7 +11320,7 @@ Login Required: `...`<br>
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
 | rweb_lists_timeline_redesign_enabled                                    | boolean | False      |
 | responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean | False      |
-| creator_subscriptions_tweet_preview_api_enabled                         | boolean | False      |
+| creator_subscriptions_tweet_preview_api_enabled                         | boolean | True       |
 | tweetypie_unmention_optimization_enabled                                | boolean | True       |
 | vibe_api_enabled                                                        | boolean | True       |
 | responsive_web_edit_tweet_api_enabled                                   | boolean | True       |
@@ -10936,8 +11501,8 @@ Login Required: `...`<br>
 #### variables<br>
 | key              | type   | variable   |
 |:-----------------|:-------|:-----------|
-| twitterArticleId | ...    | s          |
-| title            | ...    | l          |
+| twitterArticleId | ...    | l          |
+| visibility       | ...    | s          |
 | ...()(0,a.d)     | ...    | _          |
 
 #### features<br>
@@ -10958,7 +11523,7 @@ Login Required: `...`<br>
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
-| creator_subscriptions_tweet_preview_api_enabled                         | boolean | False      |
+| creator_subscriptions_tweet_preview_api_enabled                         | boolean | True       |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
 | responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean | False      |
 | tweetypie_unmention_optimization_enabled                                | boolean | True       |
@@ -10993,7 +11558,7 @@ Login Required: `...`<br>
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
-| creator_subscriptions_tweet_preview_api_enabled                         | boolean | False      |
+| creator_subscriptions_tweet_preview_api_enabled                         | boolean | True       |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
 | responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean | False      |
 | tweetypie_unmention_optimization_enabled                                | boolean | True       |
@@ -11028,7 +11593,7 @@ Login Required: `...`<br>
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
-| creator_subscriptions_tweet_preview_api_enabled                         | boolean | False      |
+| creator_subscriptions_tweet_preview_api_enabled                         | boolean | True       |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
 | responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean | False      |
 | tweetypie_unmention_optimization_enabled                                | boolean | True       |
@@ -11063,7 +11628,7 @@ Login Required: `...`<br>
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
-| creator_subscriptions_tweet_preview_api_enabled                         | boolean | False      |
+| creator_subscriptions_tweet_preview_api_enabled                         | boolean | True       |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
 | responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean | False      |
 | tweetypie_unmention_optimization_enabled                                | boolean | True       |
@@ -11142,7 +11707,7 @@ Login Required: `...`<br>
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
-| creator_subscriptions_tweet_preview_api_enabled                         | boolean | False      |
+| creator_subscriptions_tweet_preview_api_enabled                         | boolean | True       |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
 | responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean | False      |
 | tweetypie_unmention_optimization_enabled                                | boolean | True       |
@@ -11232,7 +11797,7 @@ Login Required: `...`<br>
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
-| creator_subscriptions_tweet_preview_api_enabled                         | boolean | False      |
+| creator_subscriptions_tweet_preview_api_enabled                         | boolean | True       |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
 | responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean | False      |
 | tweetypie_unmention_optimization_enabled                                | boolean | True       |
@@ -11270,7 +11835,10 @@ Request Method: `POST`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-`None`<br>
+| key     | type   | variable   |
+|:--------|:-------|:-----------|
+| topicId | ...    | n          |
+
 #### features<br>
 `None`<br>
 #### queryId<br>
@@ -11291,7 +11859,7 @@ Login Required: `...`<br>
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
 | rweb_lists_timeline_redesign_enabled                                    | boolean | False      |
 | responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean | False      |
-| creator_subscriptions_tweet_preview_api_enabled                         | boolean | False      |
+| creator_subscriptions_tweet_preview_api_enabled                         | boolean | True       |
 | tweetypie_unmention_optimization_enabled                                | boolean | True       |
 | vibe_api_enabled                                                        | boolean | True       |
 | responsive_web_edit_tweet_api_enabled                                   | boolean | True       |
@@ -11346,7 +11914,7 @@ Login Required: `...`<br>
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
-| creator_subscriptions_tweet_preview_api_enabled                         | boolean | False      |
+| creator_subscriptions_tweet_preview_api_enabled                         | boolean | True       |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
 | responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean | False      |
 | tweetypie_unmention_optimization_enabled                                | boolean | True       |
@@ -11405,7 +11973,7 @@ Login Required: `...`<br>
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
 | rweb_lists_timeline_redesign_enabled                                    | boolean | False      |
 | responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean | False      |
-| creator_subscriptions_tweet_preview_api_enabled                         | boolean | False      |
+| creator_subscriptions_tweet_preview_api_enabled                         | boolean | True       |
 | tweetypie_unmention_optimization_enabled                                | boolean | True       |
 | vibe_api_enabled                                                        | boolean | True       |
 | responsive_web_edit_tweet_api_enabled                                   | boolean | True       |
@@ -11440,7 +12008,7 @@ Login Required: `...`<br>
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
 | rweb_lists_timeline_redesign_enabled                                    | boolean | False      |
 | responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean | False      |
-| creator_subscriptions_tweet_preview_api_enabled                         | boolean | False      |
+| creator_subscriptions_tweet_preview_api_enabled                         | boolean | True       |
 | tweetypie_unmention_optimization_enabled                                | boolean | True       |
 | vibe_api_enabled                                                        | boolean | True       |
 | responsive_web_edit_tweet_api_enabled                                   | boolean | True       |
@@ -11475,7 +12043,7 @@ Login Required: `...`<br>
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
 | rweb_lists_timeline_redesign_enabled                                    | boolean | False      |
 | responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean | False      |
-| creator_subscriptions_tweet_preview_api_enabled                         | boolean | False      |
+| creator_subscriptions_tweet_preview_api_enabled                         | boolean | True       |
 | tweetypie_unmention_optimization_enabled                                | boolean | True       |
 | vibe_api_enabled                                                        | boolean | True       |
 | responsive_web_edit_tweet_api_enabled                                   | boolean | True       |
@@ -11523,7 +12091,7 @@ Login Required: `...`<br>
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
-| creator_subscriptions_tweet_preview_api_enabled                         | boolean | False      |
+| creator_subscriptions_tweet_preview_api_enabled                         | boolean | True       |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
 | responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean | False      |
 | tweetypie_unmention_optimization_enabled                                | boolean | True       |
@@ -11573,7 +12141,7 @@ Login Required: `...`<br>
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
-| creator_subscriptions_tweet_preview_api_enabled                         | boolean | False      |
+| creator_subscriptions_tweet_preview_api_enabled                         | boolean | True       |
 | responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean | False      |
 | responsive_web_enhance_cards_enabled                                    | boolean | False      |
 
@@ -11609,7 +12177,7 @@ Login Required: `...`<br>
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
 | responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean | False      |
-| creator_subscriptions_tweet_preview_api_enabled                         | boolean | False      |
+| creator_subscriptions_tweet_preview_api_enabled                         | boolean | True       |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
 | tweetypie_unmention_optimization_enabled                                | boolean | True       |
 | vibe_api_enabled                                                        | boolean | True       |
@@ -11655,7 +12223,7 @@ Login Required: `...`<br>
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
 | responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean | False      |
-| creator_subscriptions_tweet_preview_api_enabled                         | boolean | False      |
+| creator_subscriptions_tweet_preview_api_enabled                         | boolean | True       |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
 | tweetypie_unmention_optimization_enabled                                | boolean | True       |
 | vibe_api_enabled                                                        | boolean | True       |
@@ -11690,7 +12258,7 @@ Login Required: `...`<br>
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
 | responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean | False      |
-| creator_subscriptions_tweet_preview_api_enabled                         | boolean | False      |
+| creator_subscriptions_tweet_preview_api_enabled                         | boolean | True       |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
 | tweetypie_unmention_optimization_enabled                                | boolean | True       |
 | vibe_api_enabled                                                        | boolean | True       |
@@ -11725,7 +12293,7 @@ Login Required: `...`<br>
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
 | responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean | False      |
-| creator_subscriptions_tweet_preview_api_enabled                         | boolean | False      |
+| creator_subscriptions_tweet_preview_api_enabled                         | boolean | True       |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
 | tweetypie_unmention_optimization_enabled                                | boolean | True       |
 | vibe_api_enabled                                                        | boolean | True       |
@@ -11760,7 +12328,7 @@ Login Required: `...`<br>
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
 | responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean | False      |
-| creator_subscriptions_tweet_preview_api_enabled                         | boolean | False      |
+| creator_subscriptions_tweet_preview_api_enabled                         | boolean | True       |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
 | tweetypie_unmention_optimization_enabled                                | boolean | True       |
 | vibe_api_enabled                                                        | boolean | True       |
@@ -11795,7 +12363,7 @@ Login Required: `...`<br>
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
 | responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean | False      |
-| creator_subscriptions_tweet_preview_api_enabled                         | boolean | False      |
+| creator_subscriptions_tweet_preview_api_enabled                         | boolean | True       |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
 | tweetypie_unmention_optimization_enabled                                | boolean | True       |
 | vibe_api_enabled                                                        | boolean | True       |
@@ -11830,7 +12398,7 @@ Login Required: `...`<br>
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
 | responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean | False      |
-| creator_subscriptions_tweet_preview_api_enabled                         | boolean | False      |
+| creator_subscriptions_tweet_preview_api_enabled                         | boolean | True       |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
 | tweetypie_unmention_optimization_enabled                                | boolean | True       |
 | vibe_api_enabled                                                        | boolean | True       |
@@ -11865,7 +12433,7 @@ Login Required: `...`<br>
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
 | responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean | False      |
-| creator_subscriptions_tweet_preview_api_enabled                         | boolean | False      |
+| creator_subscriptions_tweet_preview_api_enabled                         | boolean | True       |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
 | tweetypie_unmention_optimization_enabled                                | boolean | True       |
 | vibe_api_enabled                                                        | boolean | True       |
@@ -11910,7 +12478,7 @@ Login Required: `...`<br>
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
-| creator_subscriptions_tweet_preview_api_enabled                         | boolean | False      |
+| creator_subscriptions_tweet_preview_api_enabled                         | boolean | True       |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
 | responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean | False      |
 | tweetypie_unmention_optimization_enabled                                | boolean | True       |
@@ -11945,7 +12513,7 @@ Login Required: `...`<br>
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
-| creator_subscriptions_tweet_preview_api_enabled                         | boolean | False      |
+| creator_subscriptions_tweet_preview_api_enabled                         | boolean | True       |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
 | responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean | False      |
 | tweetypie_unmention_optimization_enabled                                | boolean | True       |
@@ -11988,11 +12556,16 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key                        | type   | variable                                                         |
-|:---------------------------|:-------|:-----------------------------------------------------------------|
-| withCommunitiesMemberships | ...    | t.isTrue()                                                       |
-| withSubscribedTab          | ...    | t.isTrue("c9s_enabled")                                          |
-| withCommunitiesCreation    | ...    | t.isTrue("super_follow_subscriptions_home_timeline_tab_enabled") |
+| key                    | type    | variable    |
+|:-----------------------|:--------|:------------|
+| userId                 | ...     | r           |
+| count                  | ...     | t           |
+| cursor                 | ...     | n           |
+| teamName               | ...     | i           |
+| includePromotedContent | boolean | False       |
+| ...()(0,a.d)           | ...     | _           |
+| withClientEventToken   | boolean | False       |
+| withVoice              | ...     | _.isTrue(_) |
 
 #### features<br>
 | key                                                                     | type    | variable   |
@@ -12001,7 +12574,7 @@ Login Required: `...`<br>
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
-| creator_subscriptions_tweet_preview_api_enabled                         | boolean | False      |
+| creator_subscriptions_tweet_preview_api_enabled                         | boolean | True       |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
 | responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean | False      |
 | tweetypie_unmention_optimization_enabled                                | boolean | True       |
@@ -12023,7 +12596,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## UserByRestId<br>
-Request URL: `https://twitter.com/i/api/graphql/1YAM811Q8Ry4XyPpJclURQ/UserByRestId`<br>
+Request URL: `https://twitter.com/i/api/graphql/t5uBZX04s6lkQ-EogvCf2Q/UserByRestId`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -12036,14 +12609,14 @@ Login Required: `...`<br>
 | responsive_web_graphql_exclude_directive_enabled                  | boolean | True       |
 | verified_phone_label_enabled                                      | boolean | False      |
 | highlights_tweets_tab_ui_enabled                                  | boolean | True       |
-| creator_subscriptions_tweet_preview_api_enabled                   | boolean | False      |
+| creator_subscriptions_tweet_preview_api_enabled                   | boolean | True       |
 | responsive_web_graphql_skip_user_profile_image_extensions_enabled | boolean | False      |
 | responsive_web_graphql_timeline_navigation_enabled                | boolean | True       |
 
 #### queryId<br>
 `None`<br>
 ## UserByScreenName<br>
-Request URL: `https://twitter.com/i/api/graphql/pVrmNaXcxPjisIvKtLDMEA/UserByScreenName`<br>
+Request URL: `https://twitter.com/i/api/graphql/-wEuf2ML_4-FAKqIuaTVsA/UserByScreenName`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -12055,8 +12628,9 @@ Login Required: `...`<br>
 | blue_business_profile_image_shape_enabled                         | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                  | boolean | True       |
 | verified_phone_label_enabled                                      | boolean | False      |
+| subscriptions_verification_info_verified_since_enabled            | boolean | False      |
 | highlights_tweets_tab_ui_enabled                                  | boolean | True       |
-| creator_subscriptions_tweet_preview_api_enabled                   | boolean | False      |
+| creator_subscriptions_tweet_preview_api_enabled                   | boolean | True       |
 | responsive_web_graphql_skip_user_profile_image_extensions_enabled | boolean | False      |
 | responsive_web_graphql_timeline_navigation_enabled                | boolean | True       |
 
@@ -12073,6 +12647,79 @@ Login Required: `...`<br>
 `None`<br>
 #### queryId<br>
 `None`<br>
+## UserCreatorSubscribers<br>
+Request URL: `https://twitter.com/i/api/graphql/l7s7vpP-OrlDgH2JbEciVw/UserCreatorSubscribers`<br>
+Request Method: `GET`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+| key          | type   | variable   |
+|:-------------|:-------|:-----------|
+| ...()(0,s.S) | ...    | _          |
+
+#### features<br>
+| key                                                                     | type    | variable   |
+|:------------------------------------------------------------------------|:--------|:-----------|
+| rweb_lists_timeline_redesign_enabled                                    | boolean | False      |
+| blue_business_profile_image_shape_enabled                               | boolean | True       |
+| responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
+| verified_phone_label_enabled                                            | boolean | False      |
+| creator_subscriptions_tweet_preview_api_enabled                         | boolean | True       |
+| responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
+| responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean | False      |
+| tweetypie_unmention_optimization_enabled                                | boolean | True       |
+| vibe_api_enabled                                                        | boolean | True       |
+| responsive_web_edit_tweet_api_enabled                                   | boolean | True       |
+| graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | True       |
+| view_counts_everywhere_api_enabled                                      | boolean | True       |
+| longform_notetweets_consumption_enabled                                 | boolean | True       |
+| tweet_awards_web_tipping_enabled                                        | boolean | False      |
+| freedom_of_speech_not_reach_fetch_enabled                               | boolean | True       |
+| standardized_nudges_misinfo                                             | boolean | True       |
+| tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | False      |
+| interactive_text_enabled                                                | boolean | True       |
+| responsive_web_text_conversations_enabled                               | boolean | False      |
+| longform_notetweets_rich_text_read_enabled                              | boolean | True       |
+| longform_notetweets_inline_media_enabled                                | boolean | False      |
+| responsive_web_enhance_cards_enabled                                    | boolean | False      |
+
+#### queryId<br>
+`None`<br>
+## UserCreatorSubscriptions<br>
+Request URL: `https://twitter.com/i/api/graphql/tYBBTloRA-3zbhs2YRRYyA/UserCreatorSubscriptions`<br>
+Request Method: `GET`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+| key                                                                     | type    | variable   |
+|:------------------------------------------------------------------------|:--------|:-----------|
+| rweb_lists_timeline_redesign_enabled                                    | boolean | False      |
+| blue_business_profile_image_shape_enabled                               | boolean | True       |
+| responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
+| verified_phone_label_enabled                                            | boolean | False      |
+| creator_subscriptions_tweet_preview_api_enabled                         | boolean | True       |
+| responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
+| responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean | False      |
+| tweetypie_unmention_optimization_enabled                                | boolean | True       |
+| vibe_api_enabled                                                        | boolean | True       |
+| responsive_web_edit_tweet_api_enabled                                   | boolean | True       |
+| graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | True       |
+| view_counts_everywhere_api_enabled                                      | boolean | True       |
+| longform_notetweets_consumption_enabled                                 | boolean | True       |
+| tweet_awards_web_tipping_enabled                                        | boolean | False      |
+| freedom_of_speech_not_reach_fetch_enabled                               | boolean | True       |
+| standardized_nudges_misinfo                                             | boolean | True       |
+| tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | False      |
+| interactive_text_enabled                                                | boolean | True       |
+| responsive_web_text_conversations_enabled                               | boolean | False      |
+| longform_notetweets_rich_text_read_enabled                              | boolean | True       |
+| longform_notetweets_inline_media_enabled                                | boolean | False      |
+| responsive_web_enhance_cards_enabled                                    | boolean | False      |
+
+#### queryId<br>
+`None`<br>
 ## UserHighlightsTweets<br>
 Request URL: `https://twitter.com/i/api/graphql/D2WyxrKOtYzYj6_XO-kfXw/UserHighlightsTweets`<br>
 Request Method: `GET`<br>
@@ -12087,7 +12734,7 @@ Login Required: `...`<br>
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
-| creator_subscriptions_tweet_preview_api_enabled                         | boolean | False      |
+| creator_subscriptions_tweet_preview_api_enabled                         | boolean | True       |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
 | responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean | False      |
 | tweetypie_unmention_optimization_enabled                                | boolean | True       |
@@ -12122,7 +12769,7 @@ Login Required: `...`<br>
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
-| creator_subscriptions_tweet_preview_api_enabled                         | boolean | False      |
+| creator_subscriptions_tweet_preview_api_enabled                         | boolean | True       |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
 | responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean | False      |
 | tweetypie_unmention_optimization_enabled                                | boolean | True       |
@@ -12157,7 +12804,7 @@ Login Required: `...`<br>
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
-| creator_subscriptions_tweet_preview_api_enabled                         | boolean | False      |
+| creator_subscriptions_tweet_preview_api_enabled                         | boolean | True       |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
 | responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean | False      |
 | tweetypie_unmention_optimization_enabled                                | boolean | True       |
@@ -12211,7 +12858,7 @@ Login Required: `...`<br>
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
-| creator_subscriptions_tweet_preview_api_enabled                         | boolean | False      |
+| creator_subscriptions_tweet_preview_api_enabled                         | boolean | True       |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
 | responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean | False      |
 | tweetypie_unmention_optimization_enabled                                | boolean | True       |
@@ -12246,7 +12893,7 @@ Login Required: `...`<br>
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
-| creator_subscriptions_tweet_preview_api_enabled                         | boolean | False      |
+| creator_subscriptions_tweet_preview_api_enabled                         | boolean | True       |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
 | responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean | False      |
 | tweetypie_unmention_optimization_enabled                                | boolean | True       |
@@ -12281,7 +12928,7 @@ Login Required: `...`<br>
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
-| creator_subscriptions_tweet_preview_api_enabled                         | boolean | False      |
+| creator_subscriptions_tweet_preview_api_enabled                         | boolean | True       |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
 | responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean | False      |
 | tweetypie_unmention_optimization_enabled                                | boolean | True       |
@@ -12383,7 +13030,7 @@ Login Required: `...`<br>
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
 | rweb_lists_timeline_redesign_enabled                                    | boolean | False      |
 | responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean | False      |
-| creator_subscriptions_tweet_preview_api_enabled                         | boolean | False      |
+| creator_subscriptions_tweet_preview_api_enabled                         | boolean | True       |
 | tweetypie_unmention_optimization_enabled                                | boolean | True       |
 | vibe_api_enabled                                                        | boolean | True       |
 | responsive_web_edit_tweet_api_enabled                                   | boolean | True       |
@@ -12424,7 +13071,7 @@ Login Required: `...`<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
-| creator_subscriptions_tweet_preview_api_enabled                         | boolean | False      |
+| creator_subscriptions_tweet_preview_api_enabled                         | boolean | True       |
 | freedom_of_speech_not_reach_fetch_enabled                               | boolean | True       |
 | graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | True       |
 | interactive_text_enabled                                                | boolean | True       |
@@ -12492,8 +13139,8 @@ Login Required: `...`<br>
 `None`<br>
 #### queryId<br>
 `None`<br>
-## ViewerUserAvatarQuery<br>
-Request URL: `https://twitter.com/i/api/graphql/5aZkHavcr0LziRNbD4EZ1g/ViewerUserAvatarQuery`<br>
+## DelegateSwitcherQuery<br>
+Request URL: `https://twitter.com/i/api/graphql/Zxod4aJ7tiea7A0hqTxh-g/DelegateSwitcherQuery`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -13697,7 +14344,7 @@ Login Required: `...`<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
-| creator_subscriptions_tweet_preview_api_enabled                         | boolean | False      |
+| creator_subscriptions_tweet_preview_api_enabled                         | boolean | True       |
 | freedom_of_speech_not_reach_fetch_enabled                               | boolean | True       |
 | graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | True       |
 | interactive_text_enabled                                                | boolean | True       |
@@ -13833,7 +14480,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## SuperFollowsSubscribeQuery<br>
-Request URL: `https://twitter.com/i/api/graphql/RM_GpjWsezBynXW4N7VJWQ/SuperFollowsSubscribeQuery`<br>
+Request URL: `https://twitter.com/i/api/graphql/cwNDNtLO0yfGhoXuZM4_sA/SuperFollowsSubscribeQuery`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -13989,6 +14636,17 @@ Login Required: `...`<br>
 `None`<br>
 #### queryId<br>
 `None`<br>
+## DelegateSwitcherQuery<br>
+Request URL: `https://twitter.com/i/api/graphql/Zxod4aJ7tiea7A0hqTxh-g/DelegateSwitcherQuery`<br>
+Request Method: `GET`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
 ## FollowResourceButtonColumnMutation<br>
 Request URL: `https://twitter.com/i/api/graphql/ffs8wfy3-doFmQZAxRiW9A/FollowResourceButtonColumnMutation`<br>
 Request Method: `POST`<br>
@@ -14002,17 +14660,6 @@ Login Required: `...`<br>
 `None`<br>
 ## SharedResourceFollowModalColumnQuery<br>
 Request URL: `https://twitter.com/i/api/graphql/NmJS0Mmr25vNhTP9IflbPQ/SharedResourceFollowModalColumnQuery`<br>
-Request Method: `GET`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-`None`<br>
-#### queryId<br>
-`None`<br>
-## DelegateSwitcherListQuery<br>
-Request URL: `https://twitter.com/i/api/graphql/7jK4SKZ0qwF8eY0hZ-LObw/DelegateSwitcherListQuery`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
