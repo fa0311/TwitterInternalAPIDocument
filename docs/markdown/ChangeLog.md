@@ -837,3 +837,18 @@
 - subscriptions_verification_info_verified_since_enabled<br>
 #### remove<br>
 - None<br>
+## 2023/05/25<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- getCaptionsAlwaysDisplayPreference<br>
+- getCaptionsAlwaysDisplayPreference<br>
+### Feature Switch<br>
+#### add<br>
+- creator_subscriptions_subscribe_button_tweet_detail_enabled<br>
+- dm_reactions_rweb_emoji_picker_enabled<br>
+- responsive_web_birdwatch_top_contributor_score_cutoff<br>
+- responsive_web_verified_organizations_invoice_enabled<br>
+#### remove<br>
+- responsive_web_vo_upfront_payment_enabled<br>
