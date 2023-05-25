@@ -879,11 +879,6 @@ This document is entirely auto-generated and may contain errors.<br>
 | failure            | failure              |
 | skipParamCollision | skip_param_collision |
 
-| constant   | value    |
-|:-----------|:---------|
-| APK_PUSH   | apk_push |
-| WEB_PUSH   | web_push |
-
 | constant                        | value                           |
 |:--------------------------------|:--------------------------------|
 | AppealTweetWarning              | appeal_tweet_warning            |
@@ -3601,11 +3596,6 @@ This document is entirely auto-generated and may contain errors.<br>
 | Prompt     | Prompt  |
 | Require    | Require |
 
-| constant   | value   |
-|:-----------|:--------|
-| Enabled    | Enabled |
-| None       | None    |
-
 | constant   | value      |
 |:-----------|:-----------|
 | GROUP      | GroupDm    |
@@ -3626,11 +3616,6 @@ This document is entirely auto-generated and may contain errors.<br>
 | Nudge      | Nudge   |
 | Prompt     | Prompt  |
 | Require    | Require |
-
-| constant   | value   |
-|:-----------|:--------|
-| Enabled    | Enabled |
-| None       | None    |
 
 | constant          | value             |
 |:------------------|:------------------|
@@ -3876,32 +3861,13 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant         | value        |
 |:-----------------|:-------------|
-| see_more         | S().ffd9cfe6 |
-| discover_more    | S().d172116a |
-| more             | S().h63a5c3c |
-| more_tweets      | S().iac074c4 |
-| more_suggestions | S().g11ebd34 |
-| browse           | S().g4a6901a |
-| browse_tweets    | S().b1abb17e |
-
-| constant   | value     |
-|:-----------|:----------|
-| DISMISSED  | dismissed |
-| APPROVED   | approved  |
-| NOT_SEEN   | not_seen  |
-| SEEN       | seen      |
-
-| constant   | value                                     |
-|:-----------|:------------------------------------------|
-| REQUEST    | rweb/loggedOutNotifications/FETCH_REQUEST |
-| SUCCESS    | rweb/loggedOutNotifications/FETCH_SUCCESS |
-| FAILURE    | rweb/loggedOutNotifications/FETCH_FAILURE |
-
-| constant   | value                                               |
-|:-----------|:----------------------------------------------------|
-| REQUEST    | rweb/loggedOutNotifications/SAVE_PUSH_TOKEN_REQUEST |
-| SUCCESS    | rweb/loggedOutNotifications/SAVE_PUSH_TOKEN_SUCCESS |
-| FAILURE    | rweb/loggedOutNotifications/SAVE_PUSH_TOKEN_FAILURE |
+| see_more         | k().ffd9cfe6 |
+| discover_more    | k().d172116a |
+| more             | k().h63a5c3c |
+| more_tweets      | k().iac074c4 |
+| more_suggestions | k().g11ebd34 |
+| browse           | k().g4a6901a |
+| browse_tweets    | k().b1abb17e |
 
 ```internal process
 # Error
@@ -5124,11 +5090,6 @@ This document is entirely auto-generated and may contain errors.<br>
 | Prompt     | Prompt  |
 | Require    | Require |
 
-| constant   | value   |
-|:-----------|:--------|
-| Enabled    | Enabled |
-| None       | None    |
-
 | constant         | value            |
 |:-----------------|:-----------------|
 | NEW              | NEW              |
@@ -5251,18 +5212,6 @@ This document is entirely auto-generated and may contain errors.<br>
 | VideoAutoplay                    | VideoAutoplay                    |
 | YourTweets                       | YourTweets                       |
 | YTDLanguage                      | YTDLanguage                      |
-
-| constant   | value                                                                                 |
-|:-----------|:--------------------------------------------------------------------------------------|
-| REQUEST    | rweb/captionsAlwaysDisplayPreference/FETCH_CAPTIONS_ALWAYS_DISPLAY_PREFERENCE_REQUEST |
-| SUCCESS    | rweb/captionsAlwaysDisplayPreference/FETCH_CAPTIONS_ALWAYS_DISPLAY_PREFERENCE_SUCCESS |
-| FAILURE    | rweb/captionsAlwaysDisplayPreference/FETCH_CAPTIONS_ALWAYS_DISPLAY_PREFERENCE_FAILURE |
-
-| constant   | value                                                                                  |
-|:-----------|:---------------------------------------------------------------------------------------|
-| REQUEST    | rweb/captionsAlwaysDisplayPreference/UPDATE_CAPTIONS_ALWAYS_DISPLAY_PREFERENCE_REQUEST |
-| SUCCESS    | rweb/captionsAlwaysDisplayPreference/UPDATE_CAPTIONS_ALWAYS_DISPLAY_PREFERENCE_SUCCESS |
-| FAILURE    | rweb/captionsAlwaysDisplayPreference/UPDATE_CAPTIONS_ALWAYS_DISPLAY_PREFERENCE_FAILURE |
 
 | constant      | value        |
 |:--------------|:-------------|
@@ -6105,25 +6054,6 @@ This document is entirely auto-generated and may contain errors.<br>
 | constant   | value   |
 |:-----------|:--------|
 | search     | search  |
-
-| constant   | value     |
-|:-----------|:----------|
-| DISMISSED  | dismissed |
-| APPROVED   | approved  |
-| NOT_SEEN   | not_seen  |
-| SEEN       | seen      |
-
-| constant   | value                                     |
-|:-----------|:------------------------------------------|
-| REQUEST    | rweb/loggedOutNotifications/FETCH_REQUEST |
-| SUCCESS    | rweb/loggedOutNotifications/FETCH_SUCCESS |
-| FAILURE    | rweb/loggedOutNotifications/FETCH_FAILURE |
-
-| constant   | value                                               |
-|:-----------|:----------------------------------------------------|
-| REQUEST    | rweb/loggedOutNotifications/SAVE_PUSH_TOKEN_REQUEST |
-| SUCCESS    | rweb/loggedOutNotifications/SAVE_PUSH_TOKEN_SUCCESS |
-| FAILURE    | rweb/loggedOutNotifications/SAVE_PUSH_TOKEN_FAILURE |
 
 | constant     | value       |
 |:-------------|:------------|
