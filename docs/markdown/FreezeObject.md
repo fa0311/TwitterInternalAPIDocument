@@ -121,6 +121,12 @@ This document is entirely auto-generated and may contain errors.<br>
 | REDUX      | redux       |
 | SCRIBE     | scribe      |
 
+| constant     | value                     |
+|:-------------|:--------------------------|
+| delegations  | /i/delegate/delegations   |
+| switch       | /i/delegate/switch        |
+| notSupported | /i/delegate/not-supported |
+
 | constant                | value                   |
 |:------------------------|:------------------------|
 | appReloader             | appReloader             |
@@ -137,7 +143,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant              | value                 |
 |:----------------------|:----------------------|
-| ...cu                 | _                     |
+| ...Su                 | _                     |
 | ColumnFromPath        | ColumnFromPath        |
 | ColumnTimelineAdapter | ColumnTimelineAdapter |
 
@@ -2163,7 +2169,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant                   | value                        |
 |:---------------------------|:-----------------------------|
-| ...D                       | _                            |
+| ...A                       | _                            |
 | ...l()                     | _                            |
 | text                       | r.Cj                         |
 | navigationBackground95     | #15202B                      |
@@ -2243,11 +2249,11 @@ This document is entirely auto-generated and may contain errors.<br>
 |:----------------------|:----------|
 | appBarHeight          | C         |
 | appBarHeightPx        | y         |
-| conversationLineWidth | D.space2  |
+| conversationLineWidth | A.space2  |
 | gutterHorizontal      | S.space16 |
-| gutterHorizontalPx    | D.space16 |
+| gutterHorizontalPx    | A.space16 |
 | gutterVertical        | S.space12 |
-| gutterVerticalPx      | D.space12 |
+| gutterVerticalPx      | A.space12 |
 
 | constant            | value   |
 |:--------------------|:--------|
@@ -2263,16 +2269,16 @@ This document is entirely auto-generated and may contain errors.<br>
 | fontSizes           | g       |
 | fontSizesPx         | w       |
 | fontWeights         | b       |
-| lineHeights         | A       |
+| lineHeights         | D       |
 | lineHeightsPx       | m       |
 | scales              | a.Tp    |
 | scaleMultipler      | d       |
 | spaces              | S       |
-| spacesPx            | D       |
+| spacesPx            | A       |
 
 ```internal process
 # Error
-{"...m()":{"scale":"r"}"od0",A.obn,d,"t"}
+{"...m()":{"scale":"r"}"od0",D.obn,d,"t"}
 ```
 | constant     |   value |
 |:-------------|--------:|
@@ -2300,11 +2306,11 @@ This document is entirely auto-generated and may contain errors.<br>
 
 |   constant | value               |
 |-----------:|:--------------------|
-|          0 | D.INTERNAL_ERROR    |
-|          1 | D.INVALID_MEDIA     |
-|          2 | D.FILE_TOO_LARGE    |
-|          3 | D.UNSUPPORTED_MEDIA |
-|          4 | D.TIMEOUT           |
+|          0 | A.INTERNAL_ERROR    |
+|          1 | A.INVALID_MEDIA     |
+|          2 | A.FILE_TOO_LARGE    |
+|          3 | A.UNSUPPORTED_MEDIA |
+|          4 | A.TIMEOUT           |
 
 | constant   |   value |
 |:-----------|--------:|
@@ -2639,6 +2645,16 @@ This document is entirely auto-generated and may contain errors.<br>
 | static     | static  |
 | prep       | prep    |
 
+| constant            | value                              |
+|:--------------------|:-----------------------------------|
+| LOCAL_STATE_LOADED  | rweb/editTweet/LOCAL_STATE_LOADED  |
+| LOCAL_STATE_REQUEST | rweb/editTweet/LOCAL_STATE_REQUEST |
+
+| constant                                               | value     |
+|:-------------------------------------------------------|:----------|
+| fetchStatus                                            | p.ZP.NONE |
+| editTweetLimitedMarketPromptDismissedEpochMilliseconds | 0         |
+
 | constant   | value     |
 |:-----------|:----------|
 | CANCELED   | Canceled  |
@@ -2660,6 +2676,67 @@ This document is entirely auto-generated and may contain errors.<br>
 | REQUEST    | rweb/draftTweets/DELETE_DRAFT_TWEET_REQUEST |
 | SUCCESS    | rweb/draftTweets/DELETE_DRAFT_TWEET_SUCCESS |
 | FAILURE    | rweb/draftTweets/DELETE_DRAFT_TWEET_FAILURE |
+
+| constant         | value   |
+|:-----------------|:--------|
+| permissionStatus | void 0  |
+| position         | void 0  |
+
+| constant   | value   |
+|:-----------|:--------|
+| granted    | granted |
+| denied     | denied  |
+| prompt     | prompt  |
+
+| constant             |   value |
+|:---------------------|--------:|
+| PERMISSION_DENIED    |       1 |
+| POSITION_UNAVAILABLE |       2 |
+| TIMEOUT              |       3 |
+
+| constant   | value                           |
+|:-----------|:--------------------------------|
+| REQUEST    | rweb/placePicker/SEARCH_REQUEST |
+| SUCCESS    | rweb/placePicker/SEARCH_SUCCESS |
+| FAILURE    | rweb/placePicker/SEARCH_FAILURE |
+
+| constant          | value                        |
+|:------------------|:-----------------------------|
+| initial           | {'fetchStatus': 'o.ZP.NONE'} |
+| lastSearch        | {'fetchStatus': 'o.ZP.NONE'} |
+| lastSelectedPlace | void 0                       |
+
+| constant               | value                  |
+|:-----------------------|:-----------------------|
+| profile_location       | profile_location       |
+| tweet_compose_location | tweet_compose_location |
+
+| constant   | value      |
+|:-----------|:-----------|
+| foursquare | foursquare |
+| yelp       | yelp       |
+
+| constant   | value      |
+|:-----------|:-----------|
+| initial    | initial    |
+| lastSearch | lastSearch |
+
+| constant   | value                                                        |
+|:-----------|:-------------------------------------------------------------|
+| REQUEST    | rweb/trustedFriendsLists/FETCH_TRUSTED_FRIENDS_LISTS_REQUEST |
+| SUCCESS    | rweb/trustedFriendsLists/FETCH_TRUSTED_FRIENDS_LISTS_SUCCESS |
+| FAILURE    | rweb/trustedFriendsLists/FETCH_TRUSTED_FRIENDS_LISTS_FAILURE |
+
+| constant   | value                                                        |
+|:-----------|:-------------------------------------------------------------|
+| REQUEST    | rweb/trustedFriendsLists/CREATE_TRUSTED_FRIENDS_LIST_REQUEST |
+| SUCCESS    | rweb/trustedFriendsLists/CREATE_TRUSTED_FRIENDS_LIST_SUCCESS |
+| FAILURE    | rweb/trustedFriendsLists/CREATE_TRUSTED_FRIENDS_LIST_FAILURE |
+
+| constant    | value     |
+|:------------|:----------|
+| lists       | []        |
+| fetchStatus | o.ZP.NONE |
 
 | constant   | value                               |
 |:-----------|:------------------------------------|
@@ -3367,23 +3444,6 @@ This document is entirely auto-generated and may contain errors.<br>
 | Invalid                   | invalid                   |
 | NotSet                    | notSet                    |
 
-| constant         | value   |
-|:-----------------|:--------|
-| permissionStatus | void 0  |
-| position         | void 0  |
-
-| constant   | value   |
-|:-----------|:--------|
-| granted    | granted |
-| denied     | denied  |
-| prompt     | prompt  |
-
-| constant             |   value |
-|:---------------------|--------:|
-| PERMISSION_DENIED    |       1 |
-| POSITION_UNAVAILABLE |       2 |
-| TIMEOUT              |       3 |
-
 | constant   | value   |
 |:-----------|:--------|
 | light      | default |
@@ -3520,11 +3580,11 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant               | value                         |
 |:-----------------------|:------------------------------|
-| MessageCreate          | _.Cr.MESSAGE                  |
-| ParticipantsJoin       | _.Cr.PARTICIPANTS_JOIN        |
-| ParticipantsLeave      | _.Cr.PARTICIPANTS_LEAVE       |
-| ConversationNameUpdate | _.Cr.CONVERSATION_NAME_UPDATE |
-| JoinConversation       | _.Cr.JOIN_CONVERSATION        |
+| MessageCreate          | r.Cr.MESSAGE                  |
+| ParticipantsJoin       | r.Cr.PARTICIPANTS_JOIN        |
+| ParticipantsLeave      | r.Cr.PARTICIPANTS_LEAVE       |
+| ConversationNameUpdate | r.Cr.CONVERSATION_NAME_UPDATE |
+| JoinConversation       | r.Cr.JOIN_CONVERSATION        |
 
 | constant          | value             |
 |:------------------|:------------------|
@@ -4028,7 +4088,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{"ActionsBar":"C.Z","ActionMenu":"function()"{"Icon":"e","isDisabled":"t","items":"n","onOpen":"i"}{"const a=o.useCallback()"{"items":"n","onCloseRequested":"e"}{"Icon":"e","isDisabled":"t","onClick":"i","renderActionMenu":"a"}},"CallToAction":"r.ZP","EditCallout":"f.Z","Education":"_.Z","Highlighte...
+{"ActionsBar":"C.Z","ActionMenu":"function()"{"Icon":"e","isDisabled":"t","items":"n","onOpen":"i"}{"const o=a.useCallback()"{"items":"n","onCloseRequested":"e"}{"Icon":"e","isDisabled":"t","onClick":"i","renderActionMenu":"o"}},"CallToAction":"r.ZP","EditCallout":"f.Z","Education":"_.Z","Highlighte...
 ```
 | constant   | value    |
 |:-----------|:---------|
@@ -4337,16 +4397,16 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant                  | value                                   |
 |:--------------------------|:----------------------------------------|
-| all                       | {'icon': 'ii', 'label': 'C().i8ea6d4e'} |
-| community                 | {'icon': 'ai', 'label': 'C().ec5a4a26'} |
-| by_invitation             | {'icon': 'si', 'label': 'C().b454300a'} |
-| community_members         | {'icon': 'oi', 'label': 'C().i13be5a0'} |
-| super_followers_exclusive | {'icon': 'ii', 'label': 'C().feb7560a'} |
-| trusted_friends_tweet     | {'icon': 'ri', 'label': 'u'}            |
+| all                       | {'icon': 'nn', 'label': 'C().i8ea6d4e'} |
+| community                 | {'icon': 'an', 'label': 'C().ec5a4a26'} |
+| by_invitation             | {'icon': 'sn', 'label': 'C().b454300a'} |
+| community_members         | {'icon': 'rn', 'label': 'C().i13be5a0'} |
+| super_followers_exclusive | {'icon': 'nn', 'label': 'C().feb7560a'} |
+| trusted_friends_tweet     | {'icon': 'on', 'label': 'u'}            |
 
 ```internal process
 # Error
-{[Oa.Original]:"OriginalTweet",[Oa.Quote]:"QuoteTweet",[Oa.Reply]:"Reply",[Oa.Thread]:"Retweet"}
+{[Da.Original]:"OriginalTweet",[Da.Quote]:"QuoteTweet",[Da.Reply]:"Reply",[Da.Thread]:"Retweet"}
 ```
 | constant   | value   |
 |:-----------|:--------|
@@ -4363,18 +4423,8 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{[Oa.Original]:"original_tweet",[Oa.Quote]:"quote_tweet",[Oa.Reply]:"reply"}
+{[Da.Original]:"original_tweet",[Da.Quote]:"quote_tweet",[Da.Reply]:"reply"}
 ```
-| constant            | value                              |
-|:--------------------|:-----------------------------------|
-| LOCAL_STATE_LOADED  | rweb/editTweet/LOCAL_STATE_LOADED  |
-| LOCAL_STATE_REQUEST | rweb/editTweet/LOCAL_STATE_REQUEST |
-
-| constant                                               | value      |
-|:-------------------------------------------------------|:-----------|
-| fetchStatus                                            | Po.ZP.NONE |
-| editTweetLimitedMarketPromptDismissedEpochMilliseconds | 0          |
-
 | constant   | value   |
 |:-----------|:--------|
 | None       | None    |
@@ -4382,55 +4432,11 @@ This document is entirely auto-generated and may contain errors.<br>
 | Prompt     | Prompt  |
 | Require    | Require |
 
-| constant   | value                           |
-|:-----------|:--------------------------------|
-| REQUEST    | rweb/placePicker/SEARCH_REQUEST |
-| SUCCESS    | rweb/placePicker/SEARCH_SUCCESS |
-| FAILURE    | rweb/placePicker/SEARCH_FAILURE |
-
-| constant          | value                        |
-|:------------------|:-----------------------------|
-| initial           | {'fetchStatus': 'a.ZP.NONE'} |
-| lastSearch        | {'fetchStatus': 'a.ZP.NONE'} |
-| lastSelectedPlace | void 0                       |
-
-| constant               | value                  |
-|:-----------------------|:-----------------------|
-| profile_location       | profile_location       |
-| tweet_compose_location | tweet_compose_location |
-
-| constant   | value      |
-|:-----------|:-----------|
-| foursquare | foursquare |
-| yelp       | yelp       |
-
-| constant   | value      |
-|:-----------|:-----------|
-| initial    | initial    |
-| lastSearch | lastSearch |
-
 | constant   | value   |
 |:-----------|:--------|
 | Default    | Default |
 | Pivot      | Pivot   |
 | Reorder    | Reorder |
-
-| constant         | value   |
-|:-----------------|:--------|
-| permissionStatus | void 0  |
-| position         | void 0  |
-
-| constant   | value   |
-|:-----------|:--------|
-| granted    | granted |
-| denied     | denied  |
-| prompt     | prompt  |
-
-| constant             |   value |
-|:---------------------|--------:|
-| PERMISSION_DENIED    |       1 |
-| POSITION_UNAVAILABLE |       2 |
-| TIMEOUT              |       3 |
 
 | constant   | value                                               |
 |:-----------|:----------------------------------------------------|
@@ -4443,23 +4449,6 @@ This document is entirely auto-generated and may contain errors.<br>
 | REQUEST    | rweb/scheduledTweets/DELETE_SCHEDULED_TWEET_REQUEST |
 | SUCCESS    | rweb/scheduledTweets/DELETE_SCHEDULED_TWEET_SUCCESS |
 | FAILURE    | rweb/scheduledTweets/DELETE_SCHEDULED_TWEET_FAILURE |
-
-| constant   | value                                                        |
-|:-----------|:-------------------------------------------------------------|
-| REQUEST    | rweb/trustedFriendsLists/FETCH_TRUSTED_FRIENDS_LISTS_REQUEST |
-| SUCCESS    | rweb/trustedFriendsLists/FETCH_TRUSTED_FRIENDS_LISTS_SUCCESS |
-| FAILURE    | rweb/trustedFriendsLists/FETCH_TRUSTED_FRIENDS_LISTS_FAILURE |
-
-| constant   | value                                                        |
-|:-----------|:-------------------------------------------------------------|
-| REQUEST    | rweb/trustedFriendsLists/CREATE_TRUSTED_FRIENDS_LIST_REQUEST |
-| SUCCESS    | rweb/trustedFriendsLists/CREATE_TRUSTED_FRIENDS_LIST_SUCCESS |
-| FAILURE    | rweb/trustedFriendsLists/CREATE_TRUSTED_FRIENDS_LIST_FAILURE |
-
-| constant    | value     |
-|:------------|:----------|
-| lists       | []        |
-| fetchStatus | a.ZP.NONE |
 
 | constant   | value                                                     |
 |:-----------|:----------------------------------------------------------|
@@ -5032,7 +5021,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{[x.ActionedTweets]:{"backLocation":"I","confirmationSheetHeadline":"()(0,o.X_)"{"screenName":"m"}{"screenName":"m"}},[x.PreviewFlaggedTweets]:{"backLocation":"A","confirmationSheetHeadline":"v()"{"screenName":"m"}{"screenName":"m"}}}
+{[x.ActionedTweets]:{"backLocation":"A","confirmationSheetHeadline":"()(0,o.X_)"{"screenName":"m"}{"screenName":"m"}},[x.PreviewFlaggedTweets]:{"backLocation":"I","confirmationSheetHeadline":"v()"{"screenName":"m"}{"screenName":"m"}}}
 ```
 | constant             | value                  |
 |:---------------------|:-----------------------|
@@ -5653,23 +5642,6 @@ This document is entirely auto-generated and may contain errors.<br>
 | OffensiveProfileContent | offensive_profile_content |
 | SensitiveMedia          | sensitive_media           |
 | Timeout                 | timeout                   |
-
-| constant   | value                                                        |
-|:-----------|:-------------------------------------------------------------|
-| REQUEST    | rweb/trustedFriendsLists/FETCH_TRUSTED_FRIENDS_LISTS_REQUEST |
-| SUCCESS    | rweb/trustedFriendsLists/FETCH_TRUSTED_FRIENDS_LISTS_SUCCESS |
-| FAILURE    | rweb/trustedFriendsLists/FETCH_TRUSTED_FRIENDS_LISTS_FAILURE |
-
-| constant   | value                                                        |
-|:-----------|:-------------------------------------------------------------|
-| REQUEST    | rweb/trustedFriendsLists/CREATE_TRUSTED_FRIENDS_LIST_REQUEST |
-| SUCCESS    | rweb/trustedFriendsLists/CREATE_TRUSTED_FRIENDS_LIST_SUCCESS |
-| FAILURE    | rweb/trustedFriendsLists/CREATE_TRUSTED_FRIENDS_LIST_FAILURE |
-
-| constant    | value     |
-|:------------|:----------|
-| lists       | []        |
-| fetchStatus | E.ZP.NONE |
 
 | constant   | value    |
 |:-----------|:---------|
