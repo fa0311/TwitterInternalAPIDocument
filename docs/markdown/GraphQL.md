@@ -346,7 +346,7 @@ Login Required: `...`<br>
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
-| rweb_lists_timeline_redesign_enabled                                    | boolean | False      |
+| rweb_lists_timeline_redesign_enabled                                    | boolean | True       |
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -381,7 +381,7 @@ Login Required: `...`<br>
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
-| rweb_lists_timeline_redesign_enabled                                    | boolean | False      |
+| rweb_lists_timeline_redesign_enabled                                    | boolean | True       |
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -416,7 +416,7 @@ Login Required: `...`<br>
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
-| rweb_lists_timeline_redesign_enabled                                    | boolean | False      |
+| rweb_lists_timeline_redesign_enabled                                    | boolean | True       |
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -469,7 +469,7 @@ Login Required: `...`<br>
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
-| rweb_lists_timeline_redesign_enabled                                    | boolean | False      |
+| rweb_lists_timeline_redesign_enabled                                    | boolean | True       |
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -511,7 +511,7 @@ Login Required: `...`<br>
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
-| rweb_lists_timeline_redesign_enabled                                    | boolean | False      |
+| rweb_lists_timeline_redesign_enabled                                    | boolean | True       |
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -553,7 +553,7 @@ Login Required: `...`<br>
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
-| rweb_lists_timeline_redesign_enabled                                    | boolean | False      |
+| rweb_lists_timeline_redesign_enabled                                    | boolean | True       |
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -594,7 +594,7 @@ Login Required: `...`<br>
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
-| rweb_lists_timeline_redesign_enabled                                    | boolean | False      |
+| rweb_lists_timeline_redesign_enabled                                    | boolean | True       |
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -635,7 +635,7 @@ Login Required: `...`<br>
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
-| rweb_lists_timeline_redesign_enabled                                    | boolean | False      |
+| rweb_lists_timeline_redesign_enabled                                    | boolean | True       |
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -675,7 +675,7 @@ Login Required: `...`<br>
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
-| rweb_lists_timeline_redesign_enabled                                    | boolean | False      |
+| rweb_lists_timeline_redesign_enabled                                    | boolean | True       |
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -713,7 +713,7 @@ Login Required: `...`<br>
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
-| rweb_lists_timeline_redesign_enabled                                    | boolean | False      |
+| rweb_lists_timeline_redesign_enabled                                    | boolean | True       |
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -767,7 +767,7 @@ Login Required: `...`<br>
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
-| rweb_lists_timeline_redesign_enabled                                    | boolean | False      |
+| rweb_lists_timeline_redesign_enabled                                    | boolean | True       |
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -809,7 +809,7 @@ Login Required: `...`<br>
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
-| rweb_lists_timeline_redesign_enabled                                    | boolean | False      |
+| rweb_lists_timeline_redesign_enabled                                    | boolean | True       |
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -1122,7 +1122,7 @@ Login Required: `...`<br>
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
-| rweb_lists_timeline_redesign_enabled                                    | boolean | False      |
+| rweb_lists_timeline_redesign_enabled                                    | boolean | True       |
 | responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean | False      |
 | creator_subscriptions_tweet_preview_api_enabled                         | boolean | True       |
 | tweetypie_unmention_optimization_enabled                                | boolean | True       |
@@ -1228,7 +1228,7 @@ Login Required: `...`<br>
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
-| rweb_lists_timeline_redesign_enabled                                    | boolean | False      |
+| rweb_lists_timeline_redesign_enabled                                    | boolean | True       |
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -1295,7 +1295,7 @@ Login Required: `...`<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
 | graphql_timeline_v2_bookmark_timeline                                   | boolean | True       |
-| rweb_lists_timeline_redesign_enabled                                    | boolean | False      |
+| rweb_lists_timeline_redesign_enabled                                    | boolean | True       |
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -1410,7 +1410,7 @@ Login Required: `...`<br>
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
-| rweb_lists_timeline_redesign_enabled                                    | boolean | False      |
+| rweb_lists_timeline_redesign_enabled                                    | boolean | True       |
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -1445,7 +1445,7 @@ Login Required: `...`<br>
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
-| rweb_lists_timeline_redesign_enabled                                    | boolean | False      |
+| rweb_lists_timeline_redesign_enabled                                    | boolean | True       |
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -1480,7 +1480,7 @@ Login Required: `...`<br>
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
-| rweb_lists_timeline_redesign_enabled                                    | boolean | False      |
+| rweb_lists_timeline_redesign_enabled                                    | boolean | True       |
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -1515,7 +1515,7 @@ Login Required: `...`<br>
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
-| rweb_lists_timeline_redesign_enabled                                    | boolean | False      |
+| rweb_lists_timeline_redesign_enabled                                    | boolean | True       |
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -1550,7 +1550,7 @@ Login Required: `...`<br>
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
-| rweb_lists_timeline_redesign_enabled                                    | boolean | False      |
+| rweb_lists_timeline_redesign_enabled                                    | boolean | True       |
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -1603,7 +1603,7 @@ Login Required: `...`<br>
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
-| rweb_lists_timeline_redesign_enabled                                    | boolean | False      |
+| rweb_lists_timeline_redesign_enabled                                    | boolean | True       |
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -1638,7 +1638,7 @@ Login Required: `...`<br>
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
-| rweb_lists_timeline_redesign_enabled                                    | boolean | False      |
+| rweb_lists_timeline_redesign_enabled                                    | boolean | True       |
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -1691,7 +1691,7 @@ Login Required: `...`<br>
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
-| rweb_lists_timeline_redesign_enabled                                    | boolean | False      |
+| rweb_lists_timeline_redesign_enabled                                    | boolean | True       |
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -1744,7 +1744,7 @@ Login Required: `...`<br>
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
-| rweb_lists_timeline_redesign_enabled                                    | boolean | False      |
+| rweb_lists_timeline_redesign_enabled                                    | boolean | True       |
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -1885,7 +1885,7 @@ Login Required: `...`<br>
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
-| rweb_lists_timeline_redesign_enabled                                    | boolean | False      |
+| rweb_lists_timeline_redesign_enabled                                    | boolean | True       |
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -1920,7 +1920,7 @@ Login Required: `...`<br>
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
-| rweb_lists_timeline_redesign_enabled                                    | boolean | False      |
+| rweb_lists_timeline_redesign_enabled                                    | boolean | True       |
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -1991,7 +1991,7 @@ Login Required: `...`<br>
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
-| rweb_lists_timeline_redesign_enabled                                    | boolean | False      |
+| rweb_lists_timeline_redesign_enabled                                    | boolean | True       |
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -2033,7 +2033,7 @@ Login Required: `...`<br>
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
-| rweb_lists_timeline_redesign_enabled                                    | boolean | False      |
+| rweb_lists_timeline_redesign_enabled                                    | boolean | True       |
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -2075,7 +2075,7 @@ Login Required: `...`<br>
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
-| rweb_lists_timeline_redesign_enabled                                    | boolean | False      |
+| rweb_lists_timeline_redesign_enabled                                    | boolean | True       |
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -2116,7 +2116,7 @@ Login Required: `...`<br>
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
-| rweb_lists_timeline_redesign_enabled                                    | boolean | False      |
+| rweb_lists_timeline_redesign_enabled                                    | boolean | True       |
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -2157,7 +2157,7 @@ Login Required: `...`<br>
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
-| rweb_lists_timeline_redesign_enabled                                    | boolean | False      |
+| rweb_lists_timeline_redesign_enabled                                    | boolean | True       |
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -2197,7 +2197,7 @@ Login Required: `...`<br>
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
-| rweb_lists_timeline_redesign_enabled                                    | boolean | False      |
+| rweb_lists_timeline_redesign_enabled                                    | boolean | True       |
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -2235,7 +2235,7 @@ Login Required: `...`<br>
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
-| rweb_lists_timeline_redesign_enabled                                    | boolean | False      |
+| rweb_lists_timeline_redesign_enabled                                    | boolean | True       |
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -2275,7 +2275,7 @@ Login Required: `...`<br>
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
-| rweb_lists_timeline_redesign_enabled                                    | boolean | False      |
+| rweb_lists_timeline_redesign_enabled                                    | boolean | True       |
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -2317,7 +2317,7 @@ Login Required: `...`<br>
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
-| rweb_lists_timeline_redesign_enabled                                    | boolean | False      |
+| rweb_lists_timeline_redesign_enabled                                    | boolean | True       |
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -2532,7 +2532,7 @@ Login Required: `...`<br>
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
-| rweb_lists_timeline_redesign_enabled                                    | boolean | False      |
+| rweb_lists_timeline_redesign_enabled                                    | boolean | True       |
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -2615,7 +2615,7 @@ Login Required: `...`<br>
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
-| rweb_lists_timeline_redesign_enabled                                    | boolean | False      |
+| rweb_lists_timeline_redesign_enabled                                    | boolean | True       |
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -2742,7 +2742,7 @@ Login Required: `...`<br>
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
-| rweb_lists_timeline_redesign_enabled                                    | boolean | False      |
+| rweb_lists_timeline_redesign_enabled                                    | boolean | True       |
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -2788,7 +2788,7 @@ Login Required: `...`<br>
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
-| rweb_lists_timeline_redesign_enabled                                    | boolean | False      |
+| rweb_lists_timeline_redesign_enabled                                    | boolean | True       |
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -2823,7 +2823,7 @@ Login Required: `...`<br>
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
-| rweb_lists_timeline_redesign_enabled                                    | boolean | False      |
+| rweb_lists_timeline_redesign_enabled                                    | boolean | True       |
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -2858,7 +2858,7 @@ Login Required: `...`<br>
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
-| rweb_lists_timeline_redesign_enabled                                    | boolean | False      |
+| rweb_lists_timeline_redesign_enabled                                    | boolean | True       |
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -2900,7 +2900,7 @@ Login Required: `...`<br>
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
-| rweb_lists_timeline_redesign_enabled                                    | boolean | False      |
+| rweb_lists_timeline_redesign_enabled                                    | boolean | True       |
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -2942,7 +2942,7 @@ Login Required: `...`<br>
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
-| rweb_lists_timeline_redesign_enabled                                    | boolean | False      |
+| rweb_lists_timeline_redesign_enabled                                    | boolean | True       |
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -2984,7 +2984,7 @@ Login Required: `...`<br>
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
-| rweb_lists_timeline_redesign_enabled                                    | boolean | False      |
+| rweb_lists_timeline_redesign_enabled                                    | boolean | True       |
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -3025,7 +3025,7 @@ Login Required: `...`<br>
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
-| rweb_lists_timeline_redesign_enabled                                    | boolean | False      |
+| rweb_lists_timeline_redesign_enabled                                    | boolean | True       |
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -3066,7 +3066,7 @@ Login Required: `...`<br>
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
-| rweb_lists_timeline_redesign_enabled                                    | boolean | False      |
+| rweb_lists_timeline_redesign_enabled                                    | boolean | True       |
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -3106,7 +3106,7 @@ Login Required: `...`<br>
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
-| rweb_lists_timeline_redesign_enabled                                    | boolean | False      |
+| rweb_lists_timeline_redesign_enabled                                    | boolean | True       |
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -3144,7 +3144,7 @@ Login Required: `...`<br>
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
-| rweb_lists_timeline_redesign_enabled                                    | boolean | False      |
+| rweb_lists_timeline_redesign_enabled                                    | boolean | True       |
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -3184,7 +3184,7 @@ Login Required: `...`<br>
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
-| rweb_lists_timeline_redesign_enabled                                    | boolean | False      |
+| rweb_lists_timeline_redesign_enabled                                    | boolean | True       |
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -3226,7 +3226,7 @@ Login Required: `...`<br>
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
-| rweb_lists_timeline_redesign_enabled                                    | boolean | False      |
+| rweb_lists_timeline_redesign_enabled                                    | boolean | True       |
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -3279,7 +3279,7 @@ Login Required: `...`<br>
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
-| rweb_lists_timeline_redesign_enabled                                    | boolean | False      |
+| rweb_lists_timeline_redesign_enabled                                    | boolean | True       |
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -3314,7 +3314,7 @@ Login Required: `...`<br>
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
-| rweb_lists_timeline_redesign_enabled                                    | boolean | False      |
+| rweb_lists_timeline_redesign_enabled                                    | boolean | True       |
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -3349,7 +3349,7 @@ Login Required: `...`<br>
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
-| rweb_lists_timeline_redesign_enabled                                    | boolean | False      |
+| rweb_lists_timeline_redesign_enabled                                    | boolean | True       |
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -3403,7 +3403,7 @@ Login Required: `...`<br>
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
-| rweb_lists_timeline_redesign_enabled                                    | boolean | False      |
+| rweb_lists_timeline_redesign_enabled                                    | boolean | True       |
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -3438,7 +3438,7 @@ Login Required: `...`<br>
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
-| rweb_lists_timeline_redesign_enabled                                    | boolean | False      |
+| rweb_lists_timeline_redesign_enabled                                    | boolean | True       |
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -3473,7 +3473,7 @@ Login Required: `...`<br>
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
-| rweb_lists_timeline_redesign_enabled                                    | boolean | False      |
+| rweb_lists_timeline_redesign_enabled                                    | boolean | True       |
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -3508,7 +3508,7 @@ Login Required: `...`<br>
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
-| rweb_lists_timeline_redesign_enabled                                    | boolean | False      |
+| rweb_lists_timeline_redesign_enabled                                    | boolean | True       |
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -3550,7 +3550,7 @@ Login Required: `...`<br>
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
-| rweb_lists_timeline_redesign_enabled                                    | boolean | False      |
+| rweb_lists_timeline_redesign_enabled                                    | boolean | True       |
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -3592,7 +3592,7 @@ Login Required: `...`<br>
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
-| rweb_lists_timeline_redesign_enabled                                    | boolean | False      |
+| rweb_lists_timeline_redesign_enabled                                    | boolean | True       |
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -3634,7 +3634,7 @@ Login Required: `...`<br>
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
-| rweb_lists_timeline_redesign_enabled                                    | boolean | False      |
+| rweb_lists_timeline_redesign_enabled                                    | boolean | True       |
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -3675,7 +3675,7 @@ Login Required: `...`<br>
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
-| rweb_lists_timeline_redesign_enabled                                    | boolean | False      |
+| rweb_lists_timeline_redesign_enabled                                    | boolean | True       |
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -3710,7 +3710,7 @@ Login Required: `...`<br>
 #### features<br>
 | key                                                               | type    | variable   |
 |:------------------------------------------------------------------|:--------|:-----------|
-| rweb_lists_timeline_redesign_enabled                              | boolean | False      |
+| rweb_lists_timeline_redesign_enabled                              | boolean | True       |
 | blue_business_profile_image_shape_enabled                         | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                  | boolean | True       |
 | verified_phone_label_enabled                                      | boolean | False      |
@@ -3729,7 +3729,7 @@ Login Required: `...`<br>
 #### features<br>
 | key                                                               | type    | variable   |
 |:------------------------------------------------------------------|:--------|:-----------|
-| rweb_lists_timeline_redesign_enabled                              | boolean | False      |
+| rweb_lists_timeline_redesign_enabled                              | boolean | True       |
 | blue_business_profile_image_shape_enabled                         | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                  | boolean | True       |
 | verified_phone_label_enabled                                      | boolean | False      |
@@ -3748,7 +3748,7 @@ Login Required: `...`<br>
 #### features<br>
 | key                                                               | type    | variable   |
 |:------------------------------------------------------------------|:--------|:-----------|
-| rweb_lists_timeline_redesign_enabled                              | boolean | False      |
+| rweb_lists_timeline_redesign_enabled                              | boolean | True       |
 | blue_business_profile_image_shape_enabled                         | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                  | boolean | True       |
 | verified_phone_label_enabled                                      | boolean | False      |
@@ -3767,7 +3767,7 @@ Login Required: `...`<br>
 #### features<br>
 | key                                                               | type    | variable   |
 |:------------------------------------------------------------------|:--------|:-----------|
-| rweb_lists_timeline_redesign_enabled                              | boolean | False      |
+| rweb_lists_timeline_redesign_enabled                              | boolean | True       |
 | blue_business_profile_image_shape_enabled                         | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                  | boolean | True       |
 | verified_phone_label_enabled                                      | boolean | False      |
@@ -3786,7 +3786,7 @@ Login Required: `...`<br>
 #### features<br>
 | key                                                               | type    | variable   |
 |:------------------------------------------------------------------|:--------|:-----------|
-| rweb_lists_timeline_redesign_enabled                              | boolean | False      |
+| rweb_lists_timeline_redesign_enabled                              | boolean | True       |
 | blue_business_profile_image_shape_enabled                         | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                  | boolean | True       |
 | verified_phone_label_enabled                                      | boolean | False      |
@@ -3805,7 +3805,7 @@ Login Required: `...`<br>
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
-| rweb_lists_timeline_redesign_enabled                                    | boolean | False      |
+| rweb_lists_timeline_redesign_enabled                                    | boolean | True       |
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -3851,7 +3851,7 @@ Login Required: `...`<br>
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
-| rweb_lists_timeline_redesign_enabled                                    | boolean | False      |
+| rweb_lists_timeline_redesign_enabled                                    | boolean | True       |
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -3886,7 +3886,7 @@ Login Required: `...`<br>
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
-| rweb_lists_timeline_redesign_enabled                                    | boolean | False      |
+| rweb_lists_timeline_redesign_enabled                                    | boolean | True       |
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -3921,7 +3921,7 @@ Login Required: `...`<br>
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
-| rweb_lists_timeline_redesign_enabled                                    | boolean | False      |
+| rweb_lists_timeline_redesign_enabled                                    | boolean | True       |
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -3956,7 +3956,7 @@ Login Required: `...`<br>
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
-| rweb_lists_timeline_redesign_enabled                                    | boolean | False      |
+| rweb_lists_timeline_redesign_enabled                                    | boolean | True       |
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -4002,7 +4002,7 @@ Login Required: `...`<br>
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
-| rweb_lists_timeline_redesign_enabled                                    | boolean | False      |
+| rweb_lists_timeline_redesign_enabled                                    | boolean | True       |
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -4037,7 +4037,7 @@ Login Required: `...`<br>
 #### features<br>
 | key                                                               | type    | variable   |
 |:------------------------------------------------------------------|:--------|:-----------|
-| rweb_lists_timeline_redesign_enabled                              | boolean | False      |
+| rweb_lists_timeline_redesign_enabled                              | boolean | True       |
 | blue_business_profile_image_shape_enabled                         | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                  | boolean | True       |
 | verified_phone_label_enabled                                      | boolean | False      |
@@ -4056,7 +4056,7 @@ Login Required: `...`<br>
 #### features<br>
 | key                                                               | type    | variable   |
 |:------------------------------------------------------------------|:--------|:-----------|
-| rweb_lists_timeline_redesign_enabled                              | boolean | False      |
+| rweb_lists_timeline_redesign_enabled                              | boolean | True       |
 | blue_business_profile_image_shape_enabled                         | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                  | boolean | True       |
 | verified_phone_label_enabled                                      | boolean | False      |
@@ -4075,7 +4075,7 @@ Login Required: `...`<br>
 #### features<br>
 | key                                                               | type    | variable   |
 |:------------------------------------------------------------------|:--------|:-----------|
-| rweb_lists_timeline_redesign_enabled                              | boolean | False      |
+| rweb_lists_timeline_redesign_enabled                              | boolean | True       |
 | blue_business_profile_image_shape_enabled                         | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                  | boolean | True       |
 | verified_phone_label_enabled                                      | boolean | False      |
@@ -4094,7 +4094,7 @@ Login Required: `...`<br>
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
-| rweb_lists_timeline_redesign_enabled                                    | boolean | False      |
+| rweb_lists_timeline_redesign_enabled                                    | boolean | True       |
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -4129,7 +4129,7 @@ Login Required: `...`<br>
 #### features<br>
 | key                                                               | type    | variable   |
 |:------------------------------------------------------------------|:--------|:-----------|
-| rweb_lists_timeline_redesign_enabled                              | boolean | False      |
+| rweb_lists_timeline_redesign_enabled                              | boolean | True       |
 | blue_business_profile_image_shape_enabled                         | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                  | boolean | True       |
 | verified_phone_label_enabled                                      | boolean | False      |
@@ -4148,7 +4148,7 @@ Login Required: `...`<br>
 #### features<br>
 | key                                                               | type    | variable   |
 |:------------------------------------------------------------------|:--------|:-----------|
-| rweb_lists_timeline_redesign_enabled                              | boolean | False      |
+| rweb_lists_timeline_redesign_enabled                              | boolean | True       |
 | blue_business_profile_image_shape_enabled                         | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                  | boolean | True       |
 | verified_phone_label_enabled                                      | boolean | False      |
@@ -4167,7 +4167,7 @@ Login Required: `...`<br>
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
-| rweb_lists_timeline_redesign_enabled                                    | boolean | False      |
+| rweb_lists_timeline_redesign_enabled                                    | boolean | True       |
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -4213,7 +4213,7 @@ Login Required: `...`<br>
 #### features<br>
 | key                                                               | type    | variable   |
 |:------------------------------------------------------------------|:--------|:-----------|
-| rweb_lists_timeline_redesign_enabled                              | boolean | False      |
+| rweb_lists_timeline_redesign_enabled                              | boolean | True       |
 | blue_business_profile_image_shape_enabled                         | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                  | boolean | True       |
 | verified_phone_label_enabled                                      | boolean | False      |
@@ -4232,7 +4232,7 @@ Login Required: `...`<br>
 #### features<br>
 | key                                                               | type    | variable   |
 |:------------------------------------------------------------------|:--------|:-----------|
-| rweb_lists_timeline_redesign_enabled                              | boolean | False      |
+| rweb_lists_timeline_redesign_enabled                              | boolean | True       |
 | blue_business_profile_image_shape_enabled                         | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                  | boolean | True       |
 | verified_phone_label_enabled                                      | boolean | False      |
@@ -4251,7 +4251,7 @@ Login Required: `...`<br>
 #### features<br>
 | key                                                               | type    | variable   |
 |:------------------------------------------------------------------|:--------|:-----------|
-| rweb_lists_timeline_redesign_enabled                              | boolean | False      |
+| rweb_lists_timeline_redesign_enabled                              | boolean | True       |
 | blue_business_profile_image_shape_enabled                         | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                  | boolean | True       |
 | verified_phone_label_enabled                                      | boolean | False      |
@@ -4270,7 +4270,7 @@ Login Required: `...`<br>
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
-| rweb_lists_timeline_redesign_enabled                                    | boolean | False      |
+| rweb_lists_timeline_redesign_enabled                                    | boolean | True       |
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -4305,7 +4305,7 @@ Login Required: `...`<br>
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
-| rweb_lists_timeline_redesign_enabled                                    | boolean | False      |
+| rweb_lists_timeline_redesign_enabled                                    | boolean | True       |
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -4340,7 +4340,7 @@ Login Required: `...`<br>
 #### features<br>
 | key                                                               | type    | variable   |
 |:------------------------------------------------------------------|:--------|:-----------|
-| rweb_lists_timeline_redesign_enabled                              | boolean | False      |
+| rweb_lists_timeline_redesign_enabled                              | boolean | True       |
 | blue_business_profile_image_shape_enabled                         | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                  | boolean | True       |
 | verified_phone_label_enabled                                      | boolean | False      |
@@ -4365,7 +4365,7 @@ Login Required: `...`<br>
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
-| rweb_lists_timeline_redesign_enabled                                    | boolean | False      |
+| rweb_lists_timeline_redesign_enabled                                    | boolean | True       |
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -4405,7 +4405,7 @@ Login Required: `...`<br>
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
-| rweb_lists_timeline_redesign_enabled                                    | boolean | False      |
+| rweb_lists_timeline_redesign_enabled                                    | boolean | True       |
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -4443,7 +4443,7 @@ Login Required: `...`<br>
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
-| rweb_lists_timeline_redesign_enabled                                    | boolean | False      |
+| rweb_lists_timeline_redesign_enabled                                    | boolean | True       |
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -4483,7 +4483,7 @@ Login Required: `...`<br>
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
-| rweb_lists_timeline_redesign_enabled                                    | boolean | False      |
+| rweb_lists_timeline_redesign_enabled                                    | boolean | True       |
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -4525,7 +4525,7 @@ Login Required: `...`<br>
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
-| rweb_lists_timeline_redesign_enabled                                    | boolean | False      |
+| rweb_lists_timeline_redesign_enabled                                    | boolean | True       |
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -4578,7 +4578,7 @@ Login Required: `...`<br>
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
-| rweb_lists_timeline_redesign_enabled                                    | boolean | False      |
+| rweb_lists_timeline_redesign_enabled                                    | boolean | True       |
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -4613,7 +4613,7 @@ Login Required: `...`<br>
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
-| rweb_lists_timeline_redesign_enabled                                    | boolean | False      |
+| rweb_lists_timeline_redesign_enabled                                    | boolean | True       |
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -4648,7 +4648,7 @@ Login Required: `...`<br>
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
-| rweb_lists_timeline_redesign_enabled                                    | boolean | False      |
+| rweb_lists_timeline_redesign_enabled                                    | boolean | True       |
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -4701,7 +4701,7 @@ Login Required: `...`<br>
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
-| rweb_lists_timeline_redesign_enabled                                    | boolean | False      |
+| rweb_lists_timeline_redesign_enabled                                    | boolean | True       |
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -4743,7 +4743,7 @@ Login Required: `...`<br>
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
-| rweb_lists_timeline_redesign_enabled                                    | boolean | False      |
+| rweb_lists_timeline_redesign_enabled                                    | boolean | True       |
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -4785,7 +4785,7 @@ Login Required: `...`<br>
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
-| rweb_lists_timeline_redesign_enabled                                    | boolean | False      |
+| rweb_lists_timeline_redesign_enabled                                    | boolean | True       |
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -4826,7 +4826,7 @@ Login Required: `...`<br>
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
-| rweb_lists_timeline_redesign_enabled                                    | boolean | False      |
+| rweb_lists_timeline_redesign_enabled                                    | boolean | True       |
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -4867,7 +4867,7 @@ Login Required: `...`<br>
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
-| rweb_lists_timeline_redesign_enabled                                    | boolean | False      |
+| rweb_lists_timeline_redesign_enabled                                    | boolean | True       |
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -4907,7 +4907,7 @@ Login Required: `...`<br>
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
-| rweb_lists_timeline_redesign_enabled                                    | boolean | False      |
+| rweb_lists_timeline_redesign_enabled                                    | boolean | True       |
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -4945,7 +4945,7 @@ Login Required: `...`<br>
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
-| rweb_lists_timeline_redesign_enabled                                    | boolean | False      |
+| rweb_lists_timeline_redesign_enabled                                    | boolean | True       |
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -4985,7 +4985,7 @@ Login Required: `...`<br>
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
-| rweb_lists_timeline_redesign_enabled                                    | boolean | False      |
+| rweb_lists_timeline_redesign_enabled                                    | boolean | True       |
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -5027,7 +5027,7 @@ Login Required: `...`<br>
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
-| rweb_lists_timeline_redesign_enabled                                    | boolean | False      |
+| rweb_lists_timeline_redesign_enabled                                    | boolean | True       |
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -5102,7 +5102,7 @@ Login Required: `...`<br>
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
-| rweb_lists_timeline_redesign_enabled                                    | boolean | False      |
+| rweb_lists_timeline_redesign_enabled                                    | boolean | True       |
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -5137,7 +5137,7 @@ Login Required: `...`<br>
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
-| rweb_lists_timeline_redesign_enabled                                    | boolean | False      |
+| rweb_lists_timeline_redesign_enabled                                    | boolean | True       |
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -5172,7 +5172,7 @@ Login Required: `...`<br>
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
-| rweb_lists_timeline_redesign_enabled                                    | boolean | False      |
+| rweb_lists_timeline_redesign_enabled                                    | boolean | True       |
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -5214,7 +5214,7 @@ Login Required: `...`<br>
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
-| rweb_lists_timeline_redesign_enabled                                    | boolean | False      |
+| rweb_lists_timeline_redesign_enabled                                    | boolean | True       |
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -5256,7 +5256,7 @@ Login Required: `...`<br>
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
-| rweb_lists_timeline_redesign_enabled                                    | boolean | False      |
+| rweb_lists_timeline_redesign_enabled                                    | boolean | True       |
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -5298,7 +5298,7 @@ Login Required: `...`<br>
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
-| rweb_lists_timeline_redesign_enabled                                    | boolean | False      |
+| rweb_lists_timeline_redesign_enabled                                    | boolean | True       |
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -5339,7 +5339,7 @@ Login Required: `...`<br>
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
-| rweb_lists_timeline_redesign_enabled                                    | boolean | False      |
+| rweb_lists_timeline_redesign_enabled                                    | boolean | True       |
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -5385,7 +5385,7 @@ Login Required: `...`<br>
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
-| rweb_lists_timeline_redesign_enabled                                    | boolean | False      |
+| rweb_lists_timeline_redesign_enabled                                    | boolean | True       |
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -5426,7 +5426,7 @@ Login Required: `...`<br>
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
-| rweb_lists_timeline_redesign_enabled                                    | boolean | False      |
+| rweb_lists_timeline_redesign_enabled                                    | boolean | True       |
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -5466,7 +5466,7 @@ Login Required: `...`<br>
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
-| rweb_lists_timeline_redesign_enabled                                    | boolean | False      |
+| rweb_lists_timeline_redesign_enabled                                    | boolean | True       |
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -5504,7 +5504,7 @@ Login Required: `...`<br>
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
-| rweb_lists_timeline_redesign_enabled                                    | boolean | False      |
+| rweb_lists_timeline_redesign_enabled                                    | boolean | True       |
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -5546,7 +5546,7 @@ Login Required: `...`<br>
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
-| rweb_lists_timeline_redesign_enabled                                    | boolean | False      |
+| rweb_lists_timeline_redesign_enabled                                    | boolean | True       |
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -5591,7 +5591,7 @@ Login Required: `...`<br>
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
-| rweb_lists_timeline_redesign_enabled                                    | boolean | False      |
+| rweb_lists_timeline_redesign_enabled                                    | boolean | True       |
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -5631,7 +5631,7 @@ Login Required: `...`<br>
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
-| rweb_lists_timeline_redesign_enabled                                    | boolean | False      |
+| rweb_lists_timeline_redesign_enabled                                    | boolean | True       |
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -5673,7 +5673,7 @@ Login Required: `...`<br>
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
-| rweb_lists_timeline_redesign_enabled                                    | boolean | False      |
+| rweb_lists_timeline_redesign_enabled                                    | boolean | True       |
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -5716,7 +5716,7 @@ Login Required: `...`<br>
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
-| rweb_lists_timeline_redesign_enabled                                    | boolean | False      |
+| rweb_lists_timeline_redesign_enabled                                    | boolean | True       |
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -5762,7 +5762,7 @@ Login Required: `...`<br>
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
-| rweb_lists_timeline_redesign_enabled                                    | boolean | False      |
+| rweb_lists_timeline_redesign_enabled                                    | boolean | True       |
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -5800,7 +5800,7 @@ Login Required: `...`<br>
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
-| rweb_lists_timeline_redesign_enabled                                    | boolean | False      |
+| rweb_lists_timeline_redesign_enabled                                    | boolean | True       |
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -5843,7 +5843,7 @@ Login Required: `...`<br>
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
-| rweb_lists_timeline_redesign_enabled                                    | boolean | False      |
+| rweb_lists_timeline_redesign_enabled                                    | boolean | True       |
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -5888,7 +5888,7 @@ Login Required: `...`<br>
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
-| rweb_lists_timeline_redesign_enabled                                    | boolean | False      |
+| rweb_lists_timeline_redesign_enabled                                    | boolean | True       |
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -5933,7 +5933,7 @@ Login Required: `...`<br>
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
-| rweb_lists_timeline_redesign_enabled                                    | boolean | False      |
+| rweb_lists_timeline_redesign_enabled                                    | boolean | True       |
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -6107,7 +6107,7 @@ Login Required: `...`<br>
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
-| rweb_lists_timeline_redesign_enabled                                    | boolean | False      |
+| rweb_lists_timeline_redesign_enabled                                    | boolean | True       |
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -6147,7 +6147,7 @@ Login Required: `...`<br>
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
-| rweb_lists_timeline_redesign_enabled                                    | boolean | False      |
+| rweb_lists_timeline_redesign_enabled                                    | boolean | True       |
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -6188,7 +6188,7 @@ Login Required: `...`<br>
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
-| rweb_lists_timeline_redesign_enabled                                    | boolean | False      |
+| rweb_lists_timeline_redesign_enabled                                    | boolean | True       |
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -6326,17 +6326,6 @@ Login Required: `...`<br>
 ## updateAltTextPromptPreference<br>
 Request URL: `https://twitter.com/i/api/graphql/aQKrduk_DA46XfOQDkcEng/updateAltTextPromptPreference`<br>
 Request Method: `POST`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-`None`<br>
-#### queryId<br>
-`None`<br>
-## getCaptionsAlwaysDisplayPreference<br>
-Request URL: `https://twitter.com/i/api/graphql/BwgMOGpOViDS0ri7VUgglg/getCaptionsAlwaysDisplayPreference`<br>
-Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
@@ -6498,7 +6487,7 @@ Login Required: `...`<br>
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
-| rweb_lists_timeline_redesign_enabled                                    | boolean | False      |
+| rweb_lists_timeline_redesign_enabled                                    | boolean | True       |
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -6533,7 +6522,7 @@ Login Required: `...`<br>
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
-| rweb_lists_timeline_redesign_enabled                                    | boolean | False      |
+| rweb_lists_timeline_redesign_enabled                                    | boolean | True       |
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -6568,7 +6557,7 @@ Login Required: `...`<br>
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
-| rweb_lists_timeline_redesign_enabled                                    | boolean | False      |
+| rweb_lists_timeline_redesign_enabled                                    | boolean | True       |
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -6603,7 +6592,7 @@ Login Required: `...`<br>
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
-| rweb_lists_timeline_redesign_enabled                                    | boolean | False      |
+| rweb_lists_timeline_redesign_enabled                                    | boolean | True       |
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -6638,7 +6627,7 @@ Login Required: `...`<br>
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
-| rweb_lists_timeline_redesign_enabled                                    | boolean | False      |
+| rweb_lists_timeline_redesign_enabled                                    | boolean | True       |
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -6680,7 +6669,7 @@ Login Required: `...`<br>
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
-| rweb_lists_timeline_redesign_enabled                                    | boolean | False      |
+| rweb_lists_timeline_redesign_enabled                                    | boolean | True       |
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -6722,7 +6711,7 @@ Login Required: `...`<br>
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
-| rweb_lists_timeline_redesign_enabled                                    | boolean | False      |
+| rweb_lists_timeline_redesign_enabled                                    | boolean | True       |
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -6764,7 +6753,7 @@ Login Required: `...`<br>
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
-| rweb_lists_timeline_redesign_enabled                                    | boolean | False      |
+| rweb_lists_timeline_redesign_enabled                                    | boolean | True       |
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -6805,7 +6794,7 @@ Login Required: `...`<br>
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
-| rweb_lists_timeline_redesign_enabled                                    | boolean | False      |
+| rweb_lists_timeline_redesign_enabled                                    | boolean | True       |
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -6846,7 +6835,7 @@ Login Required: `...`<br>
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
-| rweb_lists_timeline_redesign_enabled                                    | boolean | False      |
+| rweb_lists_timeline_redesign_enabled                                    | boolean | True       |
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -6886,7 +6875,7 @@ Login Required: `...`<br>
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
-| rweb_lists_timeline_redesign_enabled                                    | boolean | False      |
+| rweb_lists_timeline_redesign_enabled                                    | boolean | True       |
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -6930,7 +6919,7 @@ Login Required: `...`<br>
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
-| rweb_lists_timeline_redesign_enabled                                    | boolean | False      |
+| rweb_lists_timeline_redesign_enabled                                    | boolean | True       |
 | responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean | False      |
 | creator_subscriptions_tweet_preview_api_enabled                         | boolean | True       |
 | tweetypie_unmention_optimization_enabled                                | boolean | True       |
@@ -6964,7 +6953,7 @@ Login Required: `...`<br>
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
-| rweb_lists_timeline_redesign_enabled                                    | boolean | False      |
+| rweb_lists_timeline_redesign_enabled                                    | boolean | True       |
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -7020,7 +7009,7 @@ Login Required: `...`<br>
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
-| rweb_lists_timeline_redesign_enabled                                    | boolean | False      |
+| rweb_lists_timeline_redesign_enabled                                    | boolean | True       |
 | responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean | False      |
 | creator_subscriptions_tweet_preview_api_enabled                         | boolean | True       |
 | tweetypie_unmention_optimization_enabled                                | boolean | True       |
@@ -7083,7 +7072,7 @@ Login Required: `...`<br>
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
-| rweb_lists_timeline_redesign_enabled                                    | boolean | False      |
+| rweb_lists_timeline_redesign_enabled                                    | boolean | True       |
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -7154,7 +7143,7 @@ Login Required: `...`<br>
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
-| rweb_lists_timeline_redesign_enabled                                    | boolean | False      |
+| rweb_lists_timeline_redesign_enabled                                    | boolean | True       |
 | responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean | False      |
 | creator_subscriptions_tweet_preview_api_enabled                         | boolean | True       |
 | tweetypie_unmention_optimization_enabled                                | boolean | True       |
@@ -7192,7 +7181,7 @@ Login Required: `...`<br>
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
-| rweb_lists_timeline_redesign_enabled                                    | boolean | False      |
+| rweb_lists_timeline_redesign_enabled                                    | boolean | True       |
 | responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean | False      |
 | creator_subscriptions_tweet_preview_api_enabled                         | boolean | True       |
 | tweetypie_unmention_optimization_enabled                                | boolean | True       |
@@ -7231,7 +7220,7 @@ Login Required: `...`<br>
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
-| rweb_lists_timeline_redesign_enabled                                    | boolean | False      |
+| rweb_lists_timeline_redesign_enabled                                    | boolean | True       |
 | responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean | False      |
 | creator_subscriptions_tweet_preview_api_enabled                         | boolean | True       |
 | tweetypie_unmention_optimization_enabled                                | boolean | True       |
@@ -7267,7 +7256,7 @@ Login Required: `...`<br>
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
-| rweb_lists_timeline_redesign_enabled                                    | boolean | False      |
+| rweb_lists_timeline_redesign_enabled                                    | boolean | True       |
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -7309,7 +7298,7 @@ Login Required: `...`<br>
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
-| rweb_lists_timeline_redesign_enabled                                    | boolean | False      |
+| rweb_lists_timeline_redesign_enabled                                    | boolean | True       |
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -7372,7 +7361,7 @@ Login Required: `...`<br>
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
-| rweb_lists_timeline_redesign_enabled                                    | boolean | False      |
+| rweb_lists_timeline_redesign_enabled                                    | boolean | True       |
 | responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean | False      |
 | creator_subscriptions_tweet_preview_api_enabled                         | boolean | True       |
 | tweetypie_unmention_optimization_enabled                                | boolean | True       |
@@ -7432,7 +7421,7 @@ Login Required: `...`<br>
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
-| rweb_lists_timeline_redesign_enabled                                    | boolean | False      |
+| rweb_lists_timeline_redesign_enabled                                    | boolean | True       |
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -7474,7 +7463,7 @@ Login Required: `...`<br>
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
-| rweb_lists_timeline_redesign_enabled                                    | boolean | False      |
+| rweb_lists_timeline_redesign_enabled                                    | boolean | True       |
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -7524,7 +7513,7 @@ Login Required: `...`<br>
 | view_counts_everywhere_api_enabled                                      | boolean | True       |
 | longform_notetweets_consumption_enabled                                 | boolean | True       |
 | tweet_awards_web_tipping_enabled                                        | boolean | False      |
-| rweb_lists_timeline_redesign_enabled                                    | boolean | False      |
+| rweb_lists_timeline_redesign_enabled                                    | boolean | True       |
 | interactive_text_enabled                                                | boolean | True       |
 | responsive_web_text_conversations_enabled                               | boolean | False      |
 | longform_notetweets_rich_text_read_enabled                              | boolean | True       |
@@ -7549,7 +7538,7 @@ Login Required: `...`<br>
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
-| rweb_lists_timeline_redesign_enabled                                    | boolean | False      |
+| rweb_lists_timeline_redesign_enabled                                    | boolean | True       |
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -7584,7 +7573,7 @@ Login Required: `...`<br>
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
-| rweb_lists_timeline_redesign_enabled                                    | boolean | False      |
+| rweb_lists_timeline_redesign_enabled                                    | boolean | True       |
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -7619,7 +7608,7 @@ Login Required: `...`<br>
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
-| rweb_lists_timeline_redesign_enabled                                    | boolean | False      |
+| rweb_lists_timeline_redesign_enabled                                    | boolean | True       |
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -7661,7 +7650,7 @@ Login Required: `...`<br>
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
-| rweb_lists_timeline_redesign_enabled                                    | boolean | False      |
+| rweb_lists_timeline_redesign_enabled                                    | boolean | True       |
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -7703,7 +7692,7 @@ Login Required: `...`<br>
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
-| rweb_lists_timeline_redesign_enabled                                    | boolean | False      |
+| rweb_lists_timeline_redesign_enabled                                    | boolean | True       |
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -7745,7 +7734,7 @@ Login Required: `...`<br>
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
-| rweb_lists_timeline_redesign_enabled                                    | boolean | False      |
+| rweb_lists_timeline_redesign_enabled                                    | boolean | True       |
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -7786,7 +7775,7 @@ Login Required: `...`<br>
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
-| rweb_lists_timeline_redesign_enabled                                    | boolean | False      |
+| rweb_lists_timeline_redesign_enabled                                    | boolean | True       |
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -7827,7 +7816,7 @@ Login Required: `...`<br>
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
-| rweb_lists_timeline_redesign_enabled                                    | boolean | False      |
+| rweb_lists_timeline_redesign_enabled                                    | boolean | True       |
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -7867,7 +7856,7 @@ Login Required: `...`<br>
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
-| rweb_lists_timeline_redesign_enabled                                    | boolean | False      |
+| rweb_lists_timeline_redesign_enabled                                    | boolean | True       |
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -7905,7 +7894,7 @@ Login Required: `...`<br>
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
-| rweb_lists_timeline_redesign_enabled                                    | boolean | False      |
+| rweb_lists_timeline_redesign_enabled                                    | boolean | True       |
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -7963,7 +7952,7 @@ Login Required: `...`<br>
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
-| rweb_lists_timeline_redesign_enabled                                    | boolean | False      |
+| rweb_lists_timeline_redesign_enabled                                    | boolean | True       |
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -8005,7 +7994,7 @@ Login Required: `...`<br>
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
-| rweb_lists_timeline_redesign_enabled                                    | boolean | False      |
+| rweb_lists_timeline_redesign_enabled                                    | boolean | True       |
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -8386,7 +8375,7 @@ Login Required: `...`<br>
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
-| rweb_lists_timeline_redesign_enabled                                    | boolean | False      |
+| rweb_lists_timeline_redesign_enabled                                    | boolean | True       |
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -8425,7 +8414,7 @@ Login Required: `...`<br>
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
-| rweb_lists_timeline_redesign_enabled                                    | boolean | False      |
+| rweb_lists_timeline_redesign_enabled                                    | boolean | True       |
 | responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean | False      |
 | creator_subscriptions_tweet_preview_api_enabled                         | boolean | True       |
 | tweetypie_unmention_optimization_enabled                                | boolean | True       |
@@ -8456,7 +8445,7 @@ Login Required: `...`<br>
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
-| rweb_lists_timeline_redesign_enabled                                    | boolean | False      |
+| rweb_lists_timeline_redesign_enabled                                    | boolean | True       |
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -8491,7 +8480,7 @@ Login Required: `...`<br>
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
-| rweb_lists_timeline_redesign_enabled                                    | boolean | False      |
+| rweb_lists_timeline_redesign_enabled                                    | boolean | True       |
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -8537,7 +8526,7 @@ Login Required: `...`<br>
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
-| rweb_lists_timeline_redesign_enabled                                    | boolean | False      |
+| rweb_lists_timeline_redesign_enabled                                    | boolean | True       |
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -8671,7 +8660,7 @@ Login Required: `...`<br>
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
-| rweb_lists_timeline_redesign_enabled                                    | boolean | False      |
+| rweb_lists_timeline_redesign_enabled                                    | boolean | True       |
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -8706,7 +8695,7 @@ Login Required: `...`<br>
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
-| rweb_lists_timeline_redesign_enabled                                    | boolean | False      |
+| rweb_lists_timeline_redesign_enabled                                    | boolean | True       |
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -8792,17 +8781,6 @@ Login Required: `...`<br>
 ## updateAltTextPromptPreference<br>
 Request URL: `https://twitter.com/i/api/graphql/aQKrduk_DA46XfOQDkcEng/updateAltTextPromptPreference`<br>
 Request Method: `POST`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-`None`<br>
-#### queryId<br>
-`None`<br>
-## getCaptionsAlwaysDisplayPreference<br>
-Request URL: `https://twitter.com/i/api/graphql/BwgMOGpOViDS0ri7VUgglg/getCaptionsAlwaysDisplayPreference`<br>
-Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
@@ -9012,7 +8990,7 @@ Login Required: `...`<br>
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
-| rweb_lists_timeline_redesign_enabled                                    | boolean | False      |
+| rweb_lists_timeline_redesign_enabled                                    | boolean | True       |
 | responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean | False      |
 | creator_subscriptions_tweet_preview_api_enabled                         | boolean | True       |
 | tweetypie_unmention_optimization_enabled                                | boolean | True       |
@@ -9112,7 +9090,7 @@ Login Required: `...`<br>
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
-| rweb_lists_timeline_redesign_enabled                                    | boolean | False      |
+| rweb_lists_timeline_redesign_enabled                                    | boolean | True       |
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -9147,7 +9125,7 @@ Login Required: `...`<br>
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
-| rweb_lists_timeline_redesign_enabled                                    | boolean | False      |
+| rweb_lists_timeline_redesign_enabled                                    | boolean | True       |
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -9182,7 +9160,7 @@ Login Required: `...`<br>
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
-| rweb_lists_timeline_redesign_enabled                                    | boolean | False      |
+| rweb_lists_timeline_redesign_enabled                                    | boolean | True       |
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -9223,7 +9201,7 @@ Login Required: `...`<br>
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
-| rweb_lists_timeline_redesign_enabled                                    | boolean | False      |
+| rweb_lists_timeline_redesign_enabled                                    | boolean | True       |
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -9290,7 +9268,7 @@ Login Required: `...`<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
 | graphql_timeline_v2_bookmark_timeline                                   | boolean | True       |
-| rweb_lists_timeline_redesign_enabled                                    | boolean | False      |
+| rweb_lists_timeline_redesign_enabled                                    | boolean | True       |
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -9344,7 +9322,7 @@ Login Required: `...`<br>
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
-| rweb_lists_timeline_redesign_enabled                                    | boolean | False      |
+| rweb_lists_timeline_redesign_enabled                                    | boolean | True       |
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -9379,7 +9357,7 @@ Login Required: `...`<br>
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
-| rweb_lists_timeline_redesign_enabled                                    | boolean | False      |
+| rweb_lists_timeline_redesign_enabled                                    | boolean | True       |
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -9414,7 +9392,7 @@ Login Required: `...`<br>
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
-| rweb_lists_timeline_redesign_enabled                                    | boolean | False      |
+| rweb_lists_timeline_redesign_enabled                                    | boolean | True       |
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -9467,7 +9445,7 @@ Login Required: `...`<br>
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
-| rweb_lists_timeline_redesign_enabled                                    | boolean | False      |
+| rweb_lists_timeline_redesign_enabled                                    | boolean | True       |
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -9502,7 +9480,7 @@ Login Required: `...`<br>
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
-| rweb_lists_timeline_redesign_enabled                                    | boolean | False      |
+| rweb_lists_timeline_redesign_enabled                                    | boolean | True       |
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -9573,7 +9551,7 @@ Login Required: `...`<br>
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
-| rweb_lists_timeline_redesign_enabled                                    | boolean | False      |
+| rweb_lists_timeline_redesign_enabled                                    | boolean | True       |
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -9716,7 +9694,7 @@ Login Required: `...`<br>
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
-| rweb_lists_timeline_redesign_enabled                                    | boolean | False      |
+| rweb_lists_timeline_redesign_enabled                                    | boolean | True       |
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -9922,7 +9900,7 @@ Login Required: `...`<br>
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
-| rweb_lists_timeline_redesign_enabled                                    | boolean | False      |
+| rweb_lists_timeline_redesign_enabled                                    | boolean | True       |
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -9957,7 +9935,7 @@ Login Required: `...`<br>
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
-| rweb_lists_timeline_redesign_enabled                                    | boolean | False      |
+| rweb_lists_timeline_redesign_enabled                                    | boolean | True       |
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -10032,7 +10010,7 @@ Login Required: `...`<br>
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
-| rweb_lists_timeline_redesign_enabled                                    | boolean | False      |
+| rweb_lists_timeline_redesign_enabled                                    | boolean | True       |
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -10136,7 +10114,7 @@ Login Required: `...`<br>
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
-| rweb_lists_timeline_redesign_enabled                                    | boolean | False      |
+| rweb_lists_timeline_redesign_enabled                                    | boolean | True       |
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -10343,7 +10321,7 @@ Login Required: `...`<br>
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
-| rweb_lists_timeline_redesign_enabled                                    | boolean | False      |
+| rweb_lists_timeline_redesign_enabled                                    | boolean | True       |
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -10478,7 +10456,7 @@ Login Required: `...`<br>
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
-| rweb_lists_timeline_redesign_enabled                                    | boolean | False      |
+| rweb_lists_timeline_redesign_enabled                                    | boolean | True       |
 | responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean | False      |
 | creator_subscriptions_tweet_preview_api_enabled                         | boolean | True       |
 | tweetypie_unmention_optimization_enabled                                | boolean | True       |
@@ -10516,7 +10494,7 @@ Login Required: `...`<br>
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
-| rweb_lists_timeline_redesign_enabled                                    | boolean | False      |
+| rweb_lists_timeline_redesign_enabled                                    | boolean | True       |
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -10569,7 +10547,7 @@ Login Required: `...`<br>
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
-| rweb_lists_timeline_redesign_enabled                                    | boolean | False      |
+| rweb_lists_timeline_redesign_enabled                                    | boolean | True       |
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -10611,7 +10589,7 @@ Login Required: `...`<br>
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
-| rweb_lists_timeline_redesign_enabled                                    | boolean | False      |
+| rweb_lists_timeline_redesign_enabled                                    | boolean | True       |
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -10653,7 +10631,7 @@ Login Required: `...`<br>
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
-| rweb_lists_timeline_redesign_enabled                                    | boolean | False      |
+| rweb_lists_timeline_redesign_enabled                                    | boolean | True       |
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -10694,7 +10672,7 @@ Login Required: `...`<br>
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
-| rweb_lists_timeline_redesign_enabled                                    | boolean | False      |
+| rweb_lists_timeline_redesign_enabled                                    | boolean | True       |
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -10740,7 +10718,7 @@ Login Required: `...`<br>
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
-| rweb_lists_timeline_redesign_enabled                                    | boolean | False      |
+| rweb_lists_timeline_redesign_enabled                                    | boolean | True       |
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -10775,7 +10753,7 @@ Login Required: `...`<br>
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
-| rweb_lists_timeline_redesign_enabled                                    | boolean | False      |
+| rweb_lists_timeline_redesign_enabled                                    | boolean | True       |
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -10810,7 +10788,7 @@ Login Required: `...`<br>
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
-| rweb_lists_timeline_redesign_enabled                                    | boolean | False      |
+| rweb_lists_timeline_redesign_enabled                                    | boolean | True       |
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -10856,7 +10834,7 @@ Login Required: `...`<br>
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
-| rweb_lists_timeline_redesign_enabled                                    | boolean | False      |
+| rweb_lists_timeline_redesign_enabled                                    | boolean | True       |
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -10891,7 +10869,7 @@ Login Required: `...`<br>
 #### features<br>
 | key                                                               | type    | variable   |
 |:------------------------------------------------------------------|:--------|:-----------|
-| rweb_lists_timeline_redesign_enabled                              | boolean | False      |
+| rweb_lists_timeline_redesign_enabled                              | boolean | True       |
 | blue_business_profile_image_shape_enabled                         | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                  | boolean | True       |
 | verified_phone_label_enabled                                      | boolean | False      |
@@ -10910,7 +10888,7 @@ Login Required: `...`<br>
 #### features<br>
 | key                                                               | type    | variable   |
 |:------------------------------------------------------------------|:--------|:-----------|
-| rweb_lists_timeline_redesign_enabled                              | boolean | False      |
+| rweb_lists_timeline_redesign_enabled                              | boolean | True       |
 | blue_business_profile_image_shape_enabled                         | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                  | boolean | True       |
 | verified_phone_label_enabled                                      | boolean | False      |
@@ -10929,7 +10907,7 @@ Login Required: `...`<br>
 #### features<br>
 | key                                                               | type    | variable   |
 |:------------------------------------------------------------------|:--------|:-----------|
-| rweb_lists_timeline_redesign_enabled                              | boolean | False      |
+| rweb_lists_timeline_redesign_enabled                              | boolean | True       |
 | blue_business_profile_image_shape_enabled                         | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                  | boolean | True       |
 | verified_phone_label_enabled                                      | boolean | False      |
@@ -10948,7 +10926,7 @@ Login Required: `...`<br>
 #### features<br>
 | key                                                               | type    | variable   |
 |:------------------------------------------------------------------|:--------|:-----------|
-| rweb_lists_timeline_redesign_enabled                              | boolean | False      |
+| rweb_lists_timeline_redesign_enabled                              | boolean | True       |
 | blue_business_profile_image_shape_enabled                         | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                  | boolean | True       |
 | verified_phone_label_enabled                                      | boolean | False      |
@@ -10967,7 +10945,7 @@ Login Required: `...`<br>
 #### features<br>
 | key                                                               | type    | variable   |
 |:------------------------------------------------------------------|:--------|:-----------|
-| rweb_lists_timeline_redesign_enabled                              | boolean | False      |
+| rweb_lists_timeline_redesign_enabled                              | boolean | True       |
 | blue_business_profile_image_shape_enabled                         | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                  | boolean | True       |
 | verified_phone_label_enabled                                      | boolean | False      |
@@ -10986,7 +10964,7 @@ Login Required: `...`<br>
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
-| rweb_lists_timeline_redesign_enabled                                    | boolean | False      |
+| rweb_lists_timeline_redesign_enabled                                    | boolean | True       |
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -11043,7 +11021,7 @@ Login Required: `...`<br>
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
-| rweb_lists_timeline_redesign_enabled                                    | boolean | False      |
+| rweb_lists_timeline_redesign_enabled                                    | boolean | True       |
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -11078,7 +11056,7 @@ Login Required: `...`<br>
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
-| rweb_lists_timeline_redesign_enabled                                    | boolean | False      |
+| rweb_lists_timeline_redesign_enabled                                    | boolean | True       |
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -11113,7 +11091,7 @@ Login Required: `...`<br>
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
-| rweb_lists_timeline_redesign_enabled                                    | boolean | False      |
+| rweb_lists_timeline_redesign_enabled                                    | boolean | True       |
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -11148,7 +11126,7 @@ Login Required: `...`<br>
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
-| rweb_lists_timeline_redesign_enabled                                    | boolean | False      |
+| rweb_lists_timeline_redesign_enabled                                    | boolean | True       |
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -11194,7 +11172,7 @@ Login Required: `...`<br>
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
-| rweb_lists_timeline_redesign_enabled                                    | boolean | False      |
+| rweb_lists_timeline_redesign_enabled                                    | boolean | True       |
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -11229,7 +11207,7 @@ Login Required: `...`<br>
 #### features<br>
 | key                                                               | type    | variable   |
 |:------------------------------------------------------------------|:--------|:-----------|
-| rweb_lists_timeline_redesign_enabled                              | boolean | False      |
+| rweb_lists_timeline_redesign_enabled                              | boolean | True       |
 | blue_business_profile_image_shape_enabled                         | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                  | boolean | True       |
 | verified_phone_label_enabled                                      | boolean | False      |
@@ -11248,7 +11226,7 @@ Login Required: `...`<br>
 #### features<br>
 | key                                                               | type    | variable   |
 |:------------------------------------------------------------------|:--------|:-----------|
-| rweb_lists_timeline_redesign_enabled                              | boolean | False      |
+| rweb_lists_timeline_redesign_enabled                              | boolean | True       |
 | blue_business_profile_image_shape_enabled                         | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                  | boolean | True       |
 | verified_phone_label_enabled                                      | boolean | False      |
@@ -11278,7 +11256,7 @@ Login Required: `...`<br>
 #### features<br>
 | key                                                               | type    | variable   |
 |:------------------------------------------------------------------|:--------|:-----------|
-| rweb_lists_timeline_redesign_enabled                              | boolean | False      |
+| rweb_lists_timeline_redesign_enabled                              | boolean | True       |
 | blue_business_profile_image_shape_enabled                         | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                  | boolean | True       |
 | verified_phone_label_enabled                                      | boolean | False      |
@@ -11297,7 +11275,7 @@ Login Required: `...`<br>
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
-| rweb_lists_timeline_redesign_enabled                                    | boolean | False      |
+| rweb_lists_timeline_redesign_enabled                                    | boolean | True       |
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -11332,7 +11310,7 @@ Login Required: `...`<br>
 #### features<br>
 | key                                                               | type    | variable   |
 |:------------------------------------------------------------------|:--------|:-----------|
-| rweb_lists_timeline_redesign_enabled                              | boolean | False      |
+| rweb_lists_timeline_redesign_enabled                              | boolean | True       |
 | blue_business_profile_image_shape_enabled                         | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                  | boolean | True       |
 | verified_phone_label_enabled                                      | boolean | False      |
@@ -11351,7 +11329,7 @@ Login Required: `...`<br>
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
-| rweb_lists_timeline_redesign_enabled                                    | boolean | False      |
+| rweb_lists_timeline_redesign_enabled                                    | boolean | True       |
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -11386,7 +11364,7 @@ Login Required: `...`<br>
 #### features<br>
 | key                                                               | type    | variable   |
 |:------------------------------------------------------------------|:--------|:-----------|
-| rweb_lists_timeline_redesign_enabled                              | boolean | False      |
+| rweb_lists_timeline_redesign_enabled                              | boolean | True       |
 | blue_business_profile_image_shape_enabled                         | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                  | boolean | True       |
 | verified_phone_label_enabled                                      | boolean | False      |
@@ -11405,7 +11383,7 @@ Login Required: `...`<br>
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
-| rweb_lists_timeline_redesign_enabled                                    | boolean | False      |
+| rweb_lists_timeline_redesign_enabled                                    | boolean | True       |
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -11451,7 +11429,7 @@ Login Required: `...`<br>
 #### features<br>
 | key                                                               | type    | variable   |
 |:------------------------------------------------------------------|:--------|:-----------|
-| rweb_lists_timeline_redesign_enabled                              | boolean | False      |
+| rweb_lists_timeline_redesign_enabled                              | boolean | True       |
 | blue_business_profile_image_shape_enabled                         | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                  | boolean | True       |
 | verified_phone_label_enabled                                      | boolean | False      |
@@ -11470,7 +11448,7 @@ Login Required: `...`<br>
 #### features<br>
 | key                                                               | type    | variable   |
 |:------------------------------------------------------------------|:--------|:-----------|
-| rweb_lists_timeline_redesign_enabled                              | boolean | False      |
+| rweb_lists_timeline_redesign_enabled                              | boolean | True       |
 | blue_business_profile_image_shape_enabled                         | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                  | boolean | True       |
 | verified_phone_label_enabled                                      | boolean | False      |
@@ -11489,7 +11467,7 @@ Login Required: `...`<br>
 #### features<br>
 | key                                                               | type    | variable   |
 |:------------------------------------------------------------------|:--------|:-----------|
-| rweb_lists_timeline_redesign_enabled                              | boolean | False      |
+| rweb_lists_timeline_redesign_enabled                              | boolean | True       |
 | blue_business_profile_image_shape_enabled                         | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                  | boolean | True       |
 | verified_phone_label_enabled                                      | boolean | False      |
@@ -11508,7 +11486,7 @@ Login Required: `...`<br>
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
-| rweb_lists_timeline_redesign_enabled                                    | boolean | False      |
+| rweb_lists_timeline_redesign_enabled                                    | boolean | True       |
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -11543,7 +11521,7 @@ Login Required: `...`<br>
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
-| rweb_lists_timeline_redesign_enabled                                    | boolean | False      |
+| rweb_lists_timeline_redesign_enabled                                    | boolean | True       |
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -11578,7 +11556,7 @@ Login Required: `...`<br>
 #### features<br>
 | key                                                               | type    | variable   |
 |:------------------------------------------------------------------|:--------|:-----------|
-| rweb_lists_timeline_redesign_enabled                              | boolean | False      |
+| rweb_lists_timeline_redesign_enabled                              | boolean | True       |
 | blue_business_profile_image_shape_enabled                         | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                  | boolean | True       |
 | verified_phone_label_enabled                                      | boolean | False      |
@@ -11614,7 +11592,7 @@ Login Required: `...`<br>
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
-| rweb_lists_timeline_redesign_enabled                                    | boolean | False      |
+| rweb_lists_timeline_redesign_enabled                                    | boolean | True       |
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -11654,7 +11632,7 @@ Login Required: `...`<br>
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
-| rweb_lists_timeline_redesign_enabled                                    | boolean | False      |
+| rweb_lists_timeline_redesign_enabled                                    | boolean | True       |
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -11698,7 +11676,7 @@ Login Required: `...`<br>
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
-| rweb_lists_timeline_redesign_enabled                                    | boolean | False      |
+| rweb_lists_timeline_redesign_enabled                                    | boolean | True       |
 | responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean | False      |
 | creator_subscriptions_tweet_preview_api_enabled                         | boolean | True       |
 | tweetypie_unmention_optimization_enabled                                | boolean | True       |
@@ -11905,7 +11883,7 @@ Login Required: `...`<br>
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
-| rweb_lists_timeline_redesign_enabled                                    | boolean | False      |
+| rweb_lists_timeline_redesign_enabled                                    | boolean | True       |
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -11940,7 +11918,7 @@ Login Required: `...`<br>
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
-| rweb_lists_timeline_redesign_enabled                                    | boolean | False      |
+| rweb_lists_timeline_redesign_enabled                                    | boolean | True       |
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -11980,7 +11958,7 @@ Login Required: `...`<br>
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
-| rweb_lists_timeline_redesign_enabled                                    | boolean | False      |
+| rweb_lists_timeline_redesign_enabled                                    | boolean | True       |
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -12021,7 +11999,7 @@ Login Required: `...`<br>
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
-| rweb_lists_timeline_redesign_enabled                                    | boolean | False      |
+| rweb_lists_timeline_redesign_enabled                                    | boolean | True       |
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -12100,7 +12078,7 @@ Login Required: `...`<br>
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
-| rweb_lists_timeline_redesign_enabled                                    | boolean | False      |
+| rweb_lists_timeline_redesign_enabled                                    | boolean | True       |
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -12193,7 +12171,7 @@ Login Required: `...`<br>
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
-| rweb_lists_timeline_redesign_enabled                                    | boolean | False      |
+| rweb_lists_timeline_redesign_enabled                                    | boolean | True       |
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -12260,7 +12238,7 @@ Login Required: `...`<br>
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
-| rweb_lists_timeline_redesign_enabled                                    | boolean | False      |
+| rweb_lists_timeline_redesign_enabled                                    | boolean | True       |
 | responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean | False      |
 | creator_subscriptions_tweet_preview_api_enabled                         | boolean | True       |
 | tweetypie_unmention_optimization_enabled                                | boolean | True       |
@@ -12323,7 +12301,7 @@ Login Required: `...`<br>
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
-| rweb_lists_timeline_redesign_enabled                                    | boolean | False      |
+| rweb_lists_timeline_redesign_enabled                                    | boolean | True       |
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -12394,7 +12372,7 @@ Login Required: `...`<br>
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
-| rweb_lists_timeline_redesign_enabled                                    | boolean | False      |
+| rweb_lists_timeline_redesign_enabled                                    | boolean | True       |
 | responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean | False      |
 | creator_subscriptions_tweet_preview_api_enabled                         | boolean | True       |
 | tweetypie_unmention_optimization_enabled                                | boolean | True       |
@@ -12432,7 +12410,7 @@ Login Required: `...`<br>
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
-| rweb_lists_timeline_redesign_enabled                                    | boolean | False      |
+| rweb_lists_timeline_redesign_enabled                                    | boolean | True       |
 | responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean | False      |
 | creator_subscriptions_tweet_preview_api_enabled                         | boolean | True       |
 | tweetypie_unmention_optimization_enabled                                | boolean | True       |
@@ -12471,7 +12449,7 @@ Login Required: `...`<br>
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
-| rweb_lists_timeline_redesign_enabled                                    | boolean | False      |
+| rweb_lists_timeline_redesign_enabled                                    | boolean | True       |
 | responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean | False      |
 | creator_subscriptions_tweet_preview_api_enabled                         | boolean | True       |
 | tweetypie_unmention_optimization_enabled                                | boolean | True       |
@@ -12517,7 +12495,7 @@ Login Required: `...`<br>
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
-| rweb_lists_timeline_redesign_enabled                                    | boolean | False      |
+| rweb_lists_timeline_redesign_enabled                                    | boolean | True       |
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -12567,7 +12545,7 @@ Login Required: `...`<br>
 | view_counts_everywhere_api_enabled                                      | boolean | True       |
 | longform_notetweets_consumption_enabled                                 | boolean | True       |
 | tweet_awards_web_tipping_enabled                                        | boolean | False      |
-| rweb_lists_timeline_redesign_enabled                                    | boolean | False      |
+| rweb_lists_timeline_redesign_enabled                                    | boolean | True       |
 | interactive_text_enabled                                                | boolean | True       |
 | responsive_web_text_conversations_enabled                               | boolean | False      |
 | longform_notetweets_rich_text_read_enabled                              | boolean | True       |
@@ -12912,7 +12890,7 @@ Login Required: `...`<br>
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
-| rweb_lists_timeline_redesign_enabled                                    | boolean | False      |
+| rweb_lists_timeline_redesign_enabled                                    | boolean | True       |
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -12954,7 +12932,7 @@ Login Required: `...`<br>
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
-| rweb_lists_timeline_redesign_enabled                                    | boolean | False      |
+| rweb_lists_timeline_redesign_enabled                                    | boolean | True       |
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -13013,7 +12991,7 @@ Login Required: `...`<br>
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
-| rweb_lists_timeline_redesign_enabled                                    | boolean | False      |
+| rweb_lists_timeline_redesign_enabled                                    | boolean | True       |
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -13105,7 +13083,7 @@ Login Required: `...`<br>
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
-| rweb_lists_timeline_redesign_enabled                                    | boolean | False      |
+| rweb_lists_timeline_redesign_enabled                                    | boolean | True       |
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -13147,7 +13125,7 @@ Login Required: `...`<br>
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
-| rweb_lists_timeline_redesign_enabled                                    | boolean | False      |
+| rweb_lists_timeline_redesign_enabled                                    | boolean | True       |
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -13190,7 +13168,7 @@ Login Required: `...`<br>
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
-| rweb_lists_timeline_redesign_enabled                                    | boolean | False      |
+| rweb_lists_timeline_redesign_enabled                                    | boolean | True       |
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -13236,7 +13214,7 @@ Login Required: `...`<br>
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
-| rweb_lists_timeline_redesign_enabled                                    | boolean | False      |
+| rweb_lists_timeline_redesign_enabled                                    | boolean | True       |
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -13274,7 +13252,7 @@ Login Required: `...`<br>
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
-| rweb_lists_timeline_redesign_enabled                                    | boolean | False      |
+| rweb_lists_timeline_redesign_enabled                                    | boolean | True       |
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -13328,7 +13306,7 @@ Login Required: `...`<br>
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
-| rweb_lists_timeline_redesign_enabled                                    | boolean | False      |
+| rweb_lists_timeline_redesign_enabled                                    | boolean | True       |
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -13373,7 +13351,7 @@ Login Required: `...`<br>
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
-| rweb_lists_timeline_redesign_enabled                                    | boolean | False      |
+| rweb_lists_timeline_redesign_enabled                                    | boolean | True       |
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -13418,7 +13396,7 @@ Login Required: `...`<br>
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
-| rweb_lists_timeline_redesign_enabled                                    | boolean | False      |
+| rweb_lists_timeline_redesign_enabled                                    | boolean | True       |
 | blue_business_profile_image_shape_enabled                               | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -13528,7 +13506,7 @@ Login Required: `...`<br>
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
-| rweb_lists_timeline_redesign_enabled                                    | boolean | False      |
+| rweb_lists_timeline_redesign_enabled                                    | boolean | True       |
 | responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean | False      |
 | creator_subscriptions_tweet_preview_api_enabled                         | boolean | True       |
 | tweetypie_unmention_optimization_enabled                                | boolean | True       |
@@ -13639,7 +13617,7 @@ Login Required: `...`<br>
 | responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean | False      |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
 | responsive_web_text_conversations_enabled                               | boolean | False      |
-| rweb_lists_timeline_redesign_enabled                                    | boolean | False      |
+| rweb_lists_timeline_redesign_enabled                                    | boolean | True       |
 | standardized_nudges_misinfo                                             | boolean | True       |
 | tweet_awards_web_tipping_enabled                                        | boolean | False      |
 | tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | False      |
@@ -14932,7 +14910,7 @@ Login Required: `...`<br>
 | responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean | False      |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
 | responsive_web_text_conversations_enabled                               | boolean | False      |
-| rweb_lists_timeline_redesign_enabled                                    | boolean | False      |
+| rweb_lists_timeline_redesign_enabled                                    | boolean | True       |
 | standardized_nudges_misinfo                                             | boolean | True       |
 | tweet_awards_web_tipping_enabled                                        | boolean | False      |
 | tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | False      |

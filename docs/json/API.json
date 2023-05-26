@@ -194,7 +194,7 @@
       "queryId": "3Jf98hrBD9_-WJtg8w4jKA",
       "method": "GET",
       "features": {
-        "rweb_lists_timeline_redesign_enabled": false,
+        "rweb_lists_timeline_redesign_enabled": true,
         "blue_business_profile_image_shape_enabled": true,
         "responsive_web_graphql_exclude_directive_enabled": true,
         "verified_phone_label_enabled": false,
@@ -223,7 +223,7 @@
       "queryId": "nJUeL1KIaR2idom9FBNIoQ",
       "method": "GET",
       "features": {
-        "rweb_lists_timeline_redesign_enabled": false,
+        "rweb_lists_timeline_redesign_enabled": true,
         "blue_business_profile_image_shape_enabled": true,
         "responsive_web_graphql_exclude_directive_enabled": true,
         "verified_phone_label_enabled": false,
@@ -252,7 +252,7 @@
       "queryId": "XYOfeB7PjUyRlIqEOix-oA",
       "method": "GET",
       "features": {
-        "rweb_lists_timeline_redesign_enabled": false,
+        "rweb_lists_timeline_redesign_enabled": true,
         "blue_business_profile_image_shape_enabled": true,
         "responsive_web_graphql_exclude_directive_enabled": true,
         "verified_phone_label_enabled": false,
@@ -287,7 +287,7 @@
       "queryId": "fmp6rQCkeM5p0tJQOMSBag",
       "method": "GET",
       "features": {
-        "rweb_lists_timeline_redesign_enabled": false,
+        "rweb_lists_timeline_redesign_enabled": true,
         "blue_business_profile_image_shape_enabled": true,
         "responsive_web_graphql_exclude_directive_enabled": true,
         "verified_phone_label_enabled": false,
@@ -316,7 +316,7 @@
       "queryId": "kM8S6MKw7NmKX2yZNWWVqQ",
       "method": "GET",
       "features": {
-        "rweb_lists_timeline_redesign_enabled": false,
+        "rweb_lists_timeline_redesign_enabled": true,
         "blue_business_profile_image_shape_enabled": true,
         "responsive_web_graphql_exclude_directive_enabled": true,
         "verified_phone_label_enabled": false,
@@ -345,7 +345,7 @@
       "queryId": "q4cKckK0lNxWkHfAXXXzJQ",
       "method": "GET",
       "features": {
-        "rweb_lists_timeline_redesign_enabled": false,
+        "rweb_lists_timeline_redesign_enabled": true,
         "blue_business_profile_image_shape_enabled": true,
         "responsive_web_graphql_exclude_directive_enabled": true,
         "verified_phone_label_enabled": false,
@@ -374,7 +374,7 @@
       "queryId": "Ah2K7ACCzCkqSyjJb3lJNg",
       "method": "GET",
       "features": {
-        "rweb_lists_timeline_redesign_enabled": false,
+        "rweb_lists_timeline_redesign_enabled": true,
         "blue_business_profile_image_shape_enabled": true,
         "responsive_web_graphql_exclude_directive_enabled": true,
         "verified_phone_label_enabled": false,
@@ -403,7 +403,7 @@
       "queryId": "e5tzuf-cuGRqyGguK8WA1A",
       "method": "GET",
       "features": {
-        "rweb_lists_timeline_redesign_enabled": false,
+        "rweb_lists_timeline_redesign_enabled": true,
         "blue_business_profile_image_shape_enabled": true,
         "responsive_web_graphql_exclude_directive_enabled": true,
         "verified_phone_label_enabled": false,
@@ -432,7 +432,7 @@
       "queryId": "r0J0DrnXptImeiaYBVp5vQ",
       "method": "GET",
       "features": {
-        "rweb_lists_timeline_redesign_enabled": false,
+        "rweb_lists_timeline_redesign_enabled": true,
         "blue_business_profile_image_shape_enabled": true,
         "responsive_web_graphql_exclude_directive_enabled": true,
         "verified_phone_label_enabled": false,
@@ -461,7 +461,7 @@
       "queryId": "okr7pnpLkcFiZb8L4s19LQ",
       "method": "GET",
       "features": {
-        "rweb_lists_timeline_redesign_enabled": false,
+        "rweb_lists_timeline_redesign_enabled": true,
         "blue_business_profile_image_shape_enabled": true,
         "responsive_web_graphql_exclude_directive_enabled": true,
         "verified_phone_label_enabled": false,
@@ -496,7 +496,7 @@
       "queryId": "l7s7vpP-OrlDgH2JbEciVw",
       "method": "GET",
       "features": {
-        "rweb_lists_timeline_redesign_enabled": false,
+        "rweb_lists_timeline_redesign_enabled": true,
         "blue_business_profile_image_shape_enabled": true,
         "responsive_web_graphql_exclude_directive_enabled": true,
         "verified_phone_label_enabled": false,
@@ -525,7 +525,7 @@
       "queryId": "tYBBTloRA-3zbhs2YRRYyA",
       "method": "GET",
       "features": {
-        "rweb_lists_timeline_redesign_enabled": false,
+        "rweb_lists_timeline_redesign_enabled": true,
         "blue_business_profile_image_shape_enabled": true,
         "responsive_web_graphql_exclude_directive_enabled": true,
         "verified_phone_label_enabled": false,
@@ -732,7 +732,7 @@
         "responsive_web_graphql_exclude_directive_enabled": true,
         "verified_phone_label_enabled": false,
         "responsive_web_graphql_timeline_navigation_enabled": true,
-        "rweb_lists_timeline_redesign_enabled": false,
+        "rweb_lists_timeline_redesign_enabled": true,
         "responsive_web_graphql_skip_user_profile_image_extensions_enabled": false,
         "creator_subscriptions_tweet_preview_api_enabled": true,
         "tweetypie_unmention_optimization_enabled": true,
@@ -799,7 +799,7 @@
       "queryId": "dUKOljanJMEn7LuotOghkg",
       "method": "GET",
       "features": {
-        "rweb_lists_timeline_redesign_enabled": false,
+        "rweb_lists_timeline_redesign_enabled": true,
         "blue_business_profile_image_shape_enabled": true,
         "responsive_web_graphql_exclude_directive_enabled": true,
         "verified_phone_label_enabled": false,
@@ -841,7 +841,7 @@
       "method": "GET",
       "features": {
         "graphql_timeline_v2_bookmark_timeline": true,
-        "rweb_lists_timeline_redesign_enabled": false,
+        "rweb_lists_timeline_redesign_enabled": true,
         "blue_business_profile_image_shape_enabled": true,
         "responsive_web_graphql_exclude_directive_enabled": true,
         "verified_phone_label_enabled": false,
@@ -906,7 +906,7 @@
       "queryId": "TDRNGiQQxVFGCcilLh308Q",
       "method": "GET",
       "features": {
-        "rweb_lists_timeline_redesign_enabled": false,
+        "rweb_lists_timeline_redesign_enabled": true,
         "blue_business_profile_image_shape_enabled": true,
         "responsive_web_graphql_exclude_directive_enabled": true,
         "verified_phone_label_enabled": false,
@@ -935,7 +935,7 @@
       "queryId": "phhbnHy1AdkZxl4JNxU_pQ",
       "method": "GET",
       "features": {
-        "rweb_lists_timeline_redesign_enabled": false,
+        "rweb_lists_timeline_redesign_enabled": true,
         "blue_business_profile_image_shape_enabled": true,
         "responsive_web_graphql_exclude_directive_enabled": true,
         "verified_phone_label_enabled": false,
@@ -976,7 +976,7 @@
       "queryId": "O1c7DuSqSyYZY8kXBv2LIQ",
       "method": "GET",
       "features": {
-        "rweb_lists_timeline_redesign_enabled": false,
+        "rweb_lists_timeline_redesign_enabled": true,
         "blue_business_profile_image_shape_enabled": true,
         "responsive_web_graphql_exclude_directive_enabled": true,
         "verified_phone_label_enabled": false,
@@ -1005,7 +1005,7 @@
       "queryId": "-IQY85xCTZNveiDNMluNGQ",
       "method": "GET",
       "features": {
-        "rweb_lists_timeline_redesign_enabled": false,
+        "rweb_lists_timeline_redesign_enabled": true,
         "blue_business_profile_image_shape_enabled": true,
         "responsive_web_graphql_exclude_directive_enabled": true,
         "verified_phone_label_enabled": false,
@@ -1046,7 +1046,7 @@
       "queryId": "omWyDTyKyqgfVyx51ZhLLg",
       "method": "GET",
       "features": {
-        "rweb_lists_timeline_redesign_enabled": false,
+        "rweb_lists_timeline_redesign_enabled": true,
         "blue_business_profile_image_shape_enabled": true,
         "responsive_web_graphql_exclude_directive_enabled": true,
         "verified_phone_label_enabled": false,
@@ -1087,7 +1087,7 @@
       "queryId": "ZDfOWAKpMQbbDRACq_aMRw",
       "method": "GET",
       "features": {
-        "rweb_lists_timeline_redesign_enabled": false,
+        "rweb_lists_timeline_redesign_enabled": true,
         "blue_business_profile_image_shape_enabled": true,
         "responsive_web_graphql_exclude_directive_enabled": true,
         "verified_phone_label_enabled": false,
@@ -1192,7 +1192,7 @@
       "queryId": "1aPIVZJZGp6WwwOQxI-VOQ",
       "method": "GET",
       "features": {
-        "rweb_lists_timeline_redesign_enabled": false,
+        "rweb_lists_timeline_redesign_enabled": true,
         "blue_business_profile_image_shape_enabled": true,
         "responsive_web_graphql_exclude_directive_enabled": true,
         "verified_phone_label_enabled": false,
@@ -1221,7 +1221,7 @@
       "queryId": "9nnDM-yum8Te--T2REfgkg",
       "method": "GET",
       "features": {
-        "rweb_lists_timeline_redesign_enabled": false,
+        "rweb_lists_timeline_redesign_enabled": true,
         "blue_business_profile_image_shape_enabled": true,
         "responsive_web_graphql_exclude_directive_enabled": true,
         "verified_phone_label_enabled": false,
@@ -1376,7 +1376,7 @@
       "queryId": "miKSMGb2R1SewIJv2-ablQ",
       "method": "GET",
       "features": {
-        "rweb_lists_timeline_redesign_enabled": false,
+        "rweb_lists_timeline_redesign_enabled": true,
         "blue_business_profile_image_shape_enabled": true,
         "responsive_web_graphql_exclude_directive_enabled": true,
         "verified_phone_label_enabled": false,
@@ -1423,7 +1423,7 @@
       "queryId": "f_uQNTGwH90odWoXBQNivQ",
       "method": "GET",
       "features": {
-        "rweb_lists_timeline_redesign_enabled": false,
+        "rweb_lists_timeline_redesign_enabled": true,
         "blue_business_profile_image_shape_enabled": true,
         "responsive_web_graphql_exclude_directive_enabled": true,
         "verified_phone_label_enabled": false,
@@ -1500,7 +1500,7 @@
       "queryId": "g2Zc9GpoWRm5KempHyv3qw",
       "method": "GET",
       "features": {
-        "rweb_lists_timeline_redesign_enabled": false,
+        "rweb_lists_timeline_redesign_enabled": true,
         "blue_business_profile_image_shape_enabled": true,
         "responsive_web_graphql_exclude_directive_enabled": true,
         "verified_phone_label_enabled": false,
@@ -1535,7 +1535,7 @@
       "queryId": "AT3bQwrWSsbAbMgy_5C8CQ",
       "method": "GET",
       "features": {
-        "rweb_lists_timeline_redesign_enabled": false,
+        "rweb_lists_timeline_redesign_enabled": true,
         "blue_business_profile_image_shape_enabled": true,
         "responsive_web_graphql_exclude_directive_enabled": true,
         "verified_phone_label_enabled": false,
@@ -1564,7 +1564,7 @@
       "queryId": "WGbQHjliog_TsbB16fwZsA",
       "method": "GET",
       "features": {
-        "rweb_lists_timeline_redesign_enabled": false,
+        "rweb_lists_timeline_redesign_enabled": true,
         "blue_business_profile_image_shape_enabled": true,
         "responsive_web_graphql_exclude_directive_enabled": true,
         "verified_phone_label_enabled": false,
@@ -1593,7 +1593,7 @@
       "queryId": "Yw1pKqHDSlwP4RIHPVA1gg",
       "method": "GET",
       "features": {
-        "rweb_lists_timeline_redesign_enabled": false,
+        "rweb_lists_timeline_redesign_enabled": true,
         "blue_business_profile_image_shape_enabled": true,
         "responsive_web_graphql_exclude_directive_enabled": true,
         "verified_phone_label_enabled": false,
@@ -1635,7 +1635,7 @@
       "queryId": "MDxKOwd-vjXr0hxuJaxKgw",
       "method": "GET",
       "features": {
-        "rweb_lists_timeline_redesign_enabled": false,
+        "rweb_lists_timeline_redesign_enabled": true,
         "blue_business_profile_image_shape_enabled": true,
         "responsive_web_graphql_exclude_directive_enabled": true,
         "verified_phone_label_enabled": false,
@@ -1664,7 +1664,7 @@
       "queryId": "Vupsa0nLEL7N6gmmQhnJlA",
       "method": "POST",
       "features": {
-        "rweb_lists_timeline_redesign_enabled": false,
+        "rweb_lists_timeline_redesign_enabled": true,
         "blue_business_profile_image_shape_enabled": true,
         "responsive_web_graphql_exclude_directive_enabled": true,
         "verified_phone_label_enabled": false,
@@ -1677,7 +1677,7 @@
       "queryId": "YUAPFZrj8hpFG9SMLbxLRw",
       "method": "POST",
       "features": {
-        "rweb_lists_timeline_redesign_enabled": false,
+        "rweb_lists_timeline_redesign_enabled": true,
         "blue_business_profile_image_shape_enabled": true,
         "responsive_web_graphql_exclude_directive_enabled": true,
         "verified_phone_label_enabled": false,
@@ -1690,7 +1690,7 @@
       "queryId": "7OyDpqeNFY2VVw5f4YkO1g",
       "method": "POST",
       "features": {
-        "rweb_lists_timeline_redesign_enabled": false,
+        "rweb_lists_timeline_redesign_enabled": true,
         "blue_business_profile_image_shape_enabled": true,
         "responsive_web_graphql_exclude_directive_enabled": true,
         "verified_phone_label_enabled": false,
@@ -1703,7 +1703,7 @@
       "queryId": "m8nDdGpQPNiVXBAMoRQopQ",
       "method": "GET",
       "features": {
-        "rweb_lists_timeline_redesign_enabled": false,
+        "rweb_lists_timeline_redesign_enabled": true,
         "blue_business_profile_image_shape_enabled": true,
         "responsive_web_graphql_exclude_directive_enabled": true,
         "verified_phone_label_enabled": false,
@@ -1716,7 +1716,7 @@
       "queryId": "FVPxhgu-rifOsznYw6n_xw",
       "method": "POST",
       "features": {
-        "rweb_lists_timeline_redesign_enabled": false,
+        "rweb_lists_timeline_redesign_enabled": true,
         "blue_business_profile_image_shape_enabled": true,
         "responsive_web_graphql_exclude_directive_enabled": true,
         "verified_phone_label_enabled": false,
@@ -1729,7 +1729,7 @@
       "queryId": "9k8Hk6aphKPwGq1V74Jwhg",
       "method": "GET",
       "features": {
-        "rweb_lists_timeline_redesign_enabled": false,
+        "rweb_lists_timeline_redesign_enabled": true,
         "blue_business_profile_image_shape_enabled": true,
         "responsive_web_graphql_exclude_directive_enabled": true,
         "verified_phone_label_enabled": false,
@@ -1764,7 +1764,7 @@
       "queryId": "-cQg57zstd92TFv9zGR8jQ",
       "method": "GET",
       "features": {
-        "rweb_lists_timeline_redesign_enabled": false,
+        "rweb_lists_timeline_redesign_enabled": true,
         "blue_business_profile_image_shape_enabled": true,
         "responsive_web_graphql_exclude_directive_enabled": true,
         "verified_phone_label_enabled": false,
@@ -1793,7 +1793,7 @@
       "queryId": "rFvb5VowTcZnu8XkYcTJdQ",
       "method": "GET",
       "features": {
-        "rweb_lists_timeline_redesign_enabled": false,
+        "rweb_lists_timeline_redesign_enabled": true,
         "blue_business_profile_image_shape_enabled": true,
         "responsive_web_graphql_exclude_directive_enabled": true,
         "verified_phone_label_enabled": false,
@@ -1822,7 +1822,7 @@
       "queryId": "WNPuPcdHeWhLeXNHQawDKA",
       "method": "GET",
       "features": {
-        "rweb_lists_timeline_redesign_enabled": false,
+        "rweb_lists_timeline_redesign_enabled": true,
         "blue_business_profile_image_shape_enabled": true,
         "responsive_web_graphql_exclude_directive_enabled": true,
         "verified_phone_label_enabled": false,
@@ -1851,7 +1851,7 @@
       "queryId": "7lZI8Asl_8Rw2agp9mkd8g",
       "method": "GET",
       "features": {
-        "rweb_lists_timeline_redesign_enabled": false,
+        "rweb_lists_timeline_redesign_enabled": true,
         "blue_business_profile_image_shape_enabled": true,
         "responsive_web_graphql_exclude_directive_enabled": true,
         "verified_phone_label_enabled": false,
@@ -1886,7 +1886,7 @@
       "queryId": "ppQKGtSUBDAMsrkC__XE1Q",
       "method": "GET",
       "features": {
-        "rweb_lists_timeline_redesign_enabled": false,
+        "rweb_lists_timeline_redesign_enabled": true,
         "blue_business_profile_image_shape_enabled": true,
         "responsive_web_graphql_exclude_directive_enabled": true,
         "verified_phone_label_enabled": false,
@@ -1915,7 +1915,7 @@
       "queryId": "d18zaIOhoeOldj7wijgjTg",
       "method": "POST",
       "features": {
-        "rweb_lists_timeline_redesign_enabled": false,
+        "rweb_lists_timeline_redesign_enabled": true,
         "blue_business_profile_image_shape_enabled": true,
         "responsive_web_graphql_exclude_directive_enabled": true,
         "verified_phone_label_enabled": false,
@@ -1928,7 +1928,7 @@
       "queryId": "LpbU9IVW-sPBeGs6pmRqrg",
       "method": "GET",
       "features": {
-        "rweb_lists_timeline_redesign_enabled": false,
+        "rweb_lists_timeline_redesign_enabled": true,
         "blue_business_profile_image_shape_enabled": true,
         "responsive_web_graphql_exclude_directive_enabled": true,
         "verified_phone_label_enabled": false,
@@ -1941,7 +1941,7 @@
       "queryId": "PSmgvSQYduHFYeaz6-39OQ",
       "method": "GET",
       "features": {
-        "rweb_lists_timeline_redesign_enabled": false,
+        "rweb_lists_timeline_redesign_enabled": true,
         "blue_business_profile_image_shape_enabled": true,
         "responsive_web_graphql_exclude_directive_enabled": true,
         "verified_phone_label_enabled": false,
@@ -1954,7 +1954,7 @@
       "queryId": "q0etZpaZHJDkmpmheOdHpQ",
       "method": "GET",
       "features": {
-        "rweb_lists_timeline_redesign_enabled": false,
+        "rweb_lists_timeline_redesign_enabled": true,
         "blue_business_profile_image_shape_enabled": true,
         "responsive_web_graphql_exclude_directive_enabled": true,
         "verified_phone_label_enabled": false,
@@ -1983,7 +1983,7 @@
       "queryId": "L66MbjfIJx7ttuQOwCnD-Q",
       "method": "POST",
       "features": {
-        "rweb_lists_timeline_redesign_enabled": false,
+        "rweb_lists_timeline_redesign_enabled": true,
         "blue_business_profile_image_shape_enabled": true,
         "responsive_web_graphql_exclude_directive_enabled": true,
         "verified_phone_label_enabled": false,
@@ -1996,7 +1996,7 @@
       "queryId": "YIn-NH9ZGXkH-bT3i9829w",
       "method": "POST",
       "features": {
-        "rweb_lists_timeline_redesign_enabled": false,
+        "rweb_lists_timeline_redesign_enabled": true,
         "blue_business_profile_image_shape_enabled": true,
         "responsive_web_graphql_exclude_directive_enabled": true,
         "verified_phone_label_enabled": false,
@@ -2009,7 +2009,7 @@
       "queryId": "DW7rr-jTRPrRYYGXdqn4zw",
       "method": "GET",
       "features": {
-        "rweb_lists_timeline_redesign_enabled": false,
+        "rweb_lists_timeline_redesign_enabled": true,
         "blue_business_profile_image_shape_enabled": true,
         "responsive_web_graphql_exclude_directive_enabled": true,
         "verified_phone_label_enabled": false,
@@ -2044,7 +2044,7 @@
       "queryId": "Mt3NY2sx-n8Pyns4oxw1uw",
       "method": "POST",
       "features": {
-        "rweb_lists_timeline_redesign_enabled": false,
+        "rweb_lists_timeline_redesign_enabled": true,
         "blue_business_profile_image_shape_enabled": true,
         "responsive_web_graphql_exclude_directive_enabled": true,
         "verified_phone_label_enabled": false,
@@ -2057,7 +2057,7 @@
       "queryId": "wV8r3YkbuL_9QTbY9If5Pg",
       "method": "POST",
       "features": {
-        "rweb_lists_timeline_redesign_enabled": false,
+        "rweb_lists_timeline_redesign_enabled": true,
         "blue_business_profile_image_shape_enabled": true,
         "responsive_web_graphql_exclude_directive_enabled": true,
         "verified_phone_label_enabled": false,
@@ -2070,7 +2070,7 @@
       "queryId": "-3t-fHm2tHafdEpOqqzesA",
       "method": "POST",
       "features": {
-        "rweb_lists_timeline_redesign_enabled": false,
+        "rweb_lists_timeline_redesign_enabled": true,
         "blue_business_profile_image_shape_enabled": true,
         "responsive_web_graphql_exclude_directive_enabled": true,
         "verified_phone_label_enabled": false,
@@ -2083,7 +2083,7 @@
       "queryId": "YZLrEvmtbvwHr7aUjkP1Xw",
       "method": "GET",
       "features": {
-        "rweb_lists_timeline_redesign_enabled": false,
+        "rweb_lists_timeline_redesign_enabled": true,
         "blue_business_profile_image_shape_enabled": true,
         "responsive_web_graphql_exclude_directive_enabled": true,
         "verified_phone_label_enabled": false,
@@ -2112,7 +2112,7 @@
       "queryId": "5HGqOQG51gkkrNzL0W1G9Q",
       "method": "GET",
       "features": {
-        "rweb_lists_timeline_redesign_enabled": false,
+        "rweb_lists_timeline_redesign_enabled": true,
         "blue_business_profile_image_shape_enabled": true,
         "responsive_web_graphql_exclude_directive_enabled": true,
         "verified_phone_label_enabled": false,
@@ -2141,7 +2141,7 @@
       "queryId": "uXPC2DKHcG5WJjiiln0w2w",
       "method": "POST",
       "features": {
-        "rweb_lists_timeline_redesign_enabled": false,
+        "rweb_lists_timeline_redesign_enabled": true,
         "blue_business_profile_image_shape_enabled": true,
         "responsive_web_graphql_exclude_directive_enabled": true,
         "verified_phone_label_enabled": false,
@@ -2172,7 +2172,7 @@
       "queryId": "FenMZDRGyp6gG3Wx8vHvkg",
       "method": "GET",
       "features": {
-        "rweb_lists_timeline_redesign_enabled": false,
+        "rweb_lists_timeline_redesign_enabled": true,
         "blue_business_profile_image_shape_enabled": true,
         "responsive_web_graphql_exclude_directive_enabled": true,
         "verified_phone_label_enabled": false,
@@ -2201,7 +2201,7 @@
       "queryId": "werXDifnSJtcWUSjVjTXIQ",
       "method": "GET",
       "features": {
-        "rweb_lists_timeline_redesign_enabled": false,
+        "rweb_lists_timeline_redesign_enabled": true,
         "blue_business_profile_image_shape_enabled": true,
         "responsive_web_graphql_exclude_directive_enabled": true,
         "verified_phone_label_enabled": false,
@@ -2230,7 +2230,7 @@
       "queryId": "N1T22GLYezfp2cpnS-Nivg",
       "method": "GET",
       "features": {
-        "rweb_lists_timeline_redesign_enabled": false,
+        "rweb_lists_timeline_redesign_enabled": true,
         "blue_business_profile_image_shape_enabled": true,
         "responsive_web_graphql_exclude_directive_enabled": true,
         "verified_phone_label_enabled": false,
@@ -2259,7 +2259,7 @@
       "queryId": "D2WyxrKOtYzYj6_XO-kfXw",
       "method": "GET",
       "features": {
-        "rweb_lists_timeline_redesign_enabled": false,
+        "rweb_lists_timeline_redesign_enabled": true,
         "blue_business_profile_image_shape_enabled": true,
         "responsive_web_graphql_exclude_directive_enabled": true,
         "verified_phone_label_enabled": false,
@@ -2288,7 +2288,7 @@
       "queryId": "qQoeS7szGavsi8-ehD2AWg",
       "method": "GET",
       "features": {
-        "rweb_lists_timeline_redesign_enabled": false,
+        "rweb_lists_timeline_redesign_enabled": true,
         "blue_business_profile_image_shape_enabled": true,
         "responsive_web_graphql_exclude_directive_enabled": true,
         "verified_phone_label_enabled": false,
@@ -2317,7 +2317,7 @@
       "queryId": "etQ2Ovt6XpT7amDgVSbXvA",
       "method": "GET",
       "features": {
-        "rweb_lists_timeline_redesign_enabled": false,
+        "rweb_lists_timeline_redesign_enabled": true,
         "blue_business_profile_image_shape_enabled": true,
         "responsive_web_graphql_exclude_directive_enabled": true,
         "verified_phone_label_enabled": false,
@@ -2346,7 +2346,7 @@
       "queryId": "I2gzL9TB_2IWa5pqqWRddg",
       "method": "GET",
       "features": {
-        "rweb_lists_timeline_redesign_enabled": false,
+        "rweb_lists_timeline_redesign_enabled": true,
         "blue_business_profile_image_shape_enabled": true,
         "responsive_web_graphql_exclude_directive_enabled": true,
         "verified_phone_label_enabled": false,
@@ -2375,7 +2375,7 @@
       "queryId": "WzJjibAcDa-oCjCcLOotcg",
       "method": "GET",
       "features": {
-        "rweb_lists_timeline_redesign_enabled": false,
+        "rweb_lists_timeline_redesign_enabled": true,
         "blue_business_profile_image_shape_enabled": true,
         "responsive_web_graphql_exclude_directive_enabled": true,
         "verified_phone_label_enabled": false,
@@ -2404,7 +2404,7 @@
       "queryId": "fn9oRltM1N4thkh5CVusPg",
       "method": "GET",
       "features": {
-        "rweb_lists_timeline_redesign_enabled": false,
+        "rweb_lists_timeline_redesign_enabled": true,
         "blue_business_profile_image_shape_enabled": true,
         "responsive_web_graphql_exclude_directive_enabled": true,
         "verified_phone_label_enabled": false,
@@ -2499,7 +2499,7 @@
       "queryId": "DYW85A1ptzjpQtwjz9S1wA",
       "method": "GET",
       "features": {
-        "rweb_lists_timeline_redesign_enabled": false,
+        "rweb_lists_timeline_redesign_enabled": true,
         "blue_business_profile_image_shape_enabled": true,
         "responsive_web_graphql_exclude_directive_enabled": true,
         "verified_phone_label_enabled": false,
@@ -2528,7 +2528,7 @@
       "queryId": "glyzt5THcCSlzyQkEpWwGw",
       "method": "GET",
       "features": {
-        "rweb_lists_timeline_redesign_enabled": false,
+        "rweb_lists_timeline_redesign_enabled": true,
         "blue_business_profile_image_shape_enabled": true,
         "responsive_web_graphql_exclude_directive_enabled": true,
         "verified_phone_label_enabled": false,
@@ -2557,7 +2557,7 @@
       "queryId": "lx7ESTXeykLWNL-5cMh_jA",
       "method": "GET",
       "features": {
-        "rweb_lists_timeline_redesign_enabled": false,
+        "rweb_lists_timeline_redesign_enabled": true,
         "blue_business_profile_image_shape_enabled": true,
         "responsive_web_graphql_exclude_directive_enabled": true,
         "verified_phone_label_enabled": false,
@@ -2647,12 +2647,6 @@
       "method": "POST",
       "features": {}
     },
-    "getCaptionsAlwaysDisplayPreference": {
-      "url": "https://twitter.com/i/api/graphql/BwgMOGpOViDS0ri7VUgglg/getCaptionsAlwaysDisplayPreference",
-      "queryId": "BwgMOGpOViDS0ri7VUgglg",
-      "method": "GET",
-      "features": {}
-    },
     "DataSaverMode": {
       "url": "https://twitter.com/i/api/graphql/xF6sXnKJfS2AOylzxRjf6A/DataSaverMode",
       "queryId": "xF6sXnKJfS2AOylzxRjf6A",
@@ -2736,7 +2730,7 @@
       "queryId": "99h7-v-l3eaWRVnyFh15HA",
       "method": "GET",
       "features": {
-        "rweb_lists_timeline_redesign_enabled": false,
+        "rweb_lists_timeline_redesign_enabled": true,
         "blue_business_profile_image_shape_enabled": true,
         "responsive_web_graphql_exclude_directive_enabled": true,
         "verified_phone_label_enabled": false,
@@ -2765,7 +2759,7 @@
       "queryId": "yhwV4UX520Fi4Mj218k8SA",
       "method": "GET",
       "features": {
-        "rweb_lists_timeline_redesign_enabled": false,
+        "rweb_lists_timeline_redesign_enabled": true,
         "blue_business_profile_image_shape_enabled": true,
         "responsive_web_graphql_exclude_directive_enabled": true,
         "verified_phone_label_enabled": false,
@@ -2798,7 +2792,7 @@
         "responsive_web_graphql_exclude_directive_enabled": true,
         "verified_phone_label_enabled": false,
         "responsive_web_graphql_timeline_navigation_enabled": true,
-        "rweb_lists_timeline_redesign_enabled": false,
+        "rweb_lists_timeline_redesign_enabled": true,
         "responsive_web_graphql_skip_user_profile_image_extensions_enabled": false,
         "creator_subscriptions_tweet_preview_api_enabled": true,
         "tweetypie_unmention_optimization_enabled": true,
@@ -2833,7 +2827,7 @@
         "responsive_web_graphql_exclude_directive_enabled": true,
         "verified_phone_label_enabled": false,
         "responsive_web_graphql_timeline_navigation_enabled": true,
-        "rweb_lists_timeline_redesign_enabled": false,
+        "rweb_lists_timeline_redesign_enabled": true,
         "responsive_web_graphql_skip_user_profile_image_extensions_enabled": false,
         "creator_subscriptions_tweet_preview_api_enabled": true,
         "tweetypie_unmention_optimization_enabled": true,
@@ -2870,7 +2864,7 @@
       "queryId": "FkZb_xYbhsnQhMPq3CDGGg",
       "method": "GET",
       "features": {
-        "rweb_lists_timeline_redesign_enabled": false,
+        "rweb_lists_timeline_redesign_enabled": true,
         "blue_business_profile_image_shape_enabled": true,
         "responsive_web_graphql_exclude_directive_enabled": true,
         "verified_phone_label_enabled": false,
@@ -2915,7 +2909,7 @@
         "responsive_web_graphql_exclude_directive_enabled": true,
         "verified_phone_label_enabled": false,
         "responsive_web_graphql_timeline_navigation_enabled": true,
-        "rweb_lists_timeline_redesign_enabled": false,
+        "rweb_lists_timeline_redesign_enabled": true,
         "responsive_web_graphql_skip_user_profile_image_extensions_enabled": false,
         "creator_subscriptions_tweet_preview_api_enabled": true,
         "tweetypie_unmention_optimization_enabled": true,
@@ -2944,7 +2938,7 @@
         "responsive_web_graphql_exclude_directive_enabled": true,
         "verified_phone_label_enabled": false,
         "responsive_web_graphql_timeline_navigation_enabled": true,
-        "rweb_lists_timeline_redesign_enabled": false,
+        "rweb_lists_timeline_redesign_enabled": true,
         "responsive_web_graphql_skip_user_profile_image_extensions_enabled": false,
         "creator_subscriptions_tweet_preview_api_enabled": true,
         "tweetypie_unmention_optimization_enabled": true,
@@ -2973,7 +2967,7 @@
         "responsive_web_graphql_exclude_directive_enabled": true,
         "verified_phone_label_enabled": false,
         "responsive_web_graphql_timeline_navigation_enabled": true,
-        "rweb_lists_timeline_redesign_enabled": false,
+        "rweb_lists_timeline_redesign_enabled": true,
         "responsive_web_graphql_skip_user_profile_image_extensions_enabled": false,
         "creator_subscriptions_tweet_preview_api_enabled": true,
         "tweetypie_unmention_optimization_enabled": true,
@@ -3002,7 +2996,7 @@
         "responsive_web_graphql_exclude_directive_enabled": true,
         "verified_phone_label_enabled": false,
         "responsive_web_graphql_timeline_navigation_enabled": true,
-        "rweb_lists_timeline_redesign_enabled": false,
+        "rweb_lists_timeline_redesign_enabled": true,
         "responsive_web_graphql_skip_user_profile_image_extensions_enabled": false,
         "creator_subscriptions_tweet_preview_api_enabled": true,
         "tweetypie_unmention_optimization_enabled": true,
@@ -3039,7 +3033,7 @@
       "queryId": "mDc_nU8xGv0cLRWtTaIEug",
       "method": "GET",
       "features": {
-        "rweb_lists_timeline_redesign_enabled": false,
+        "rweb_lists_timeline_redesign_enabled": true,
         "blue_business_profile_image_shape_enabled": true,
         "responsive_web_graphql_exclude_directive_enabled": true,
         "verified_phone_label_enabled": false,
@@ -3068,7 +3062,7 @@
       "queryId": "RCR9gqwYD1NEgi9FWzA50A",
       "method": "GET",
       "features": {
-        "rweb_lists_timeline_redesign_enabled": false,
+        "rweb_lists_timeline_redesign_enabled": true,
         "blue_business_profile_image_shape_enabled": true,
         "responsive_web_graphql_exclude_directive_enabled": true,
         "verified_phone_label_enabled": false,
@@ -3107,7 +3101,7 @@
         "view_counts_everywhere_api_enabled": true,
         "longform_notetweets_consumption_enabled": true,
         "tweet_awards_web_tipping_enabled": false,
-        "rweb_lists_timeline_redesign_enabled": false,
+        "rweb_lists_timeline_redesign_enabled": true,
         "interactive_text_enabled": true,
         "responsive_web_text_conversations_enabled": false,
         "longform_notetweets_rich_text_read_enabled": true,
@@ -3394,7 +3388,7 @@
       "queryId": "kZPmN4NTaf3W_aQMGyNawA",
       "method": "GET",
       "features": {
-        "rweb_lists_timeline_redesign_enabled": false,
+        "rweb_lists_timeline_redesign_enabled": true,
         "blue_business_profile_image_shape_enabled": true,
         "responsive_web_graphql_exclude_directive_enabled": true,
         "verified_phone_label_enabled": false,
@@ -3427,7 +3421,7 @@
         "responsive_web_graphql_exclude_directive_enabled": true,
         "verified_phone_label_enabled": false,
         "responsive_web_graphql_timeline_navigation_enabled": true,
-        "rweb_lists_timeline_redesign_enabled": false,
+        "rweb_lists_timeline_redesign_enabled": true,
         "responsive_web_graphql_skip_user_profile_image_extensions_enabled": false,
         "creator_subscriptions_tweet_preview_api_enabled": true,
         "tweetypie_unmention_optimization_enabled": true,
@@ -3452,7 +3446,7 @@
       "queryId": "7RR9j7sqhBQfh4rMX0-6DQ",
       "method": "GET",
       "features": {
-        "rweb_lists_timeline_redesign_enabled": false,
+        "rweb_lists_timeline_redesign_enabled": true,
         "blue_business_profile_image_shape_enabled": true,
         "responsive_web_graphql_exclude_directive_enabled": true,
         "verified_phone_label_enabled": false,
@@ -3481,7 +3475,7 @@
       "queryId": "7jT5GT59P8IFjgxwqnEdQw",
       "method": "GET",
       "features": {
-        "rweb_lists_timeline_redesign_enabled": false,
+        "rweb_lists_timeline_redesign_enabled": true,
         "blue_business_profile_image_shape_enabled": true,
         "responsive_web_graphql_exclude_directive_enabled": true,
         "verified_phone_label_enabled": false,
@@ -3516,7 +3510,7 @@
       "queryId": "1zyNXoj8NfltDsKRdDAjGw",
       "method": "GET",
       "features": {
-        "rweb_lists_timeline_redesign_enabled": false,
+        "rweb_lists_timeline_redesign_enabled": true,
         "blue_business_profile_image_shape_enabled": true,
         "responsive_web_graphql_exclude_directive_enabled": true,
         "verified_phone_label_enabled": false,
@@ -3666,7 +3660,7 @@
         "responsive_web_graphql_skip_user_profile_image_extensions_enabled": false,
         "responsive_web_graphql_timeline_navigation_enabled": true,
         "responsive_web_text_conversations_enabled": false,
-        "rweb_lists_timeline_redesign_enabled": false,
+        "rweb_lists_timeline_redesign_enabled": true,
         "standardized_nudges_misinfo": true,
         "tweet_awards_web_tipping_enabled": false,
         "tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled": false,
@@ -4341,7 +4335,7 @@
         "responsive_web_graphql_skip_user_profile_image_extensions_enabled": false,
         "responsive_web_graphql_timeline_navigation_enabled": true,
         "responsive_web_text_conversations_enabled": false,
-        "rweb_lists_timeline_redesign_enabled": false,
+        "rweb_lists_timeline_redesign_enabled": true,
         "standardized_nudges_misinfo": true,
         "tweet_awards_web_tipping_enabled": false,
         "tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled": false,
