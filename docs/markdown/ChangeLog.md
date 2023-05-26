@@ -852,3 +852,16 @@
 - responsive_web_verified_organizations_invoice_enabled<br>
 #### remove<br>
 - responsive_web_vo_upfront_payment_enabled<br>
+## 2023/05/26<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- DMMessageSearchTabQuery<br>
+### Feature Switch<br>
+#### add<br>
+- responsive_web_verified_organizations_verified_entry_enabled<br>
+#### remove<br>
+- blue_business_affiliates_list_consumption_ui_enabled<br>
+- blue_business_government_badge_picker_enabled<br>
+- blue_business_profile_image_shape_enabled<br>

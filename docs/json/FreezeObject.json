@@ -135,6 +135,11 @@
     "SCRIBE": "scribe"
   },
   {
+    "delegations": "/i/delegate/delegations",
+    "switch": "/i/delegate/switch",
+    "notSupported": "/i/delegate/not-supported"
+  },
+  {
     "appReloader": "appReloader",
     "badgeTimers": "badgeTimers",
     "userPresence": "userPresence",
@@ -148,7 +153,7 @@
     "AudioModule": "AudioModule"
   },
   {
-    "...cu": "_",
+    "...Su": "_",
     "ColumnFromPath": "ColumnFromPath",
     "ColumnTimelineAdapter": "ColumnTimelineAdapter"
   },
@@ -2063,7 +2068,7 @@
     "appBarFirefoxBackground": "r.bs.dim(.75)"
   },
   {
-    "...D": "_",
+    "...A": "_",
     "...l()": "_",
     "text": "r.Cj",
     "navigationBackground95": "#15202B",
@@ -2139,11 +2144,11 @@
   {
     "appBarHeight": "C",
     "appBarHeightPx": "y",
-    "conversationLineWidth": "D.space2",
+    "conversationLineWidth": "A.space2",
     "gutterHorizontal": "S.space16",
-    "gutterHorizontalPx": "D.space16",
+    "gutterHorizontalPx": "A.space16",
     "gutterVertical": "S.space12",
-    "gutterVerticalPx": "D.space12"
+    "gutterVerticalPx": "A.space12"
   },
   {
     "aspectRatios": "l",
@@ -2158,14 +2163,14 @@
     "fontSizes": "g",
     "fontSizesPx": "w",
     "fontWeights": "b",
-    "lineHeights": "A",
+    "lineHeights": "D",
     "lineHeightsPx": "m",
     "scales": "a.Tp",
     "scaleMultipler": "d",
     "spaces": "S",
-    "spacesPx": "D"
+    "spacesPx": "A"
   },
-  "{\"...m()\":{\"scale\":\"r\"}\"od0\",A.obn,d,\"t\"}",
+  "{\"...m()\":{\"scale\":\"r\"}\"od0\",D.obn,d,\"t\"}",
   {
     "UNKNOWN": "0",
     "TOP_LEFT": "1",
@@ -2189,11 +2194,11 @@
     "INVALID_RES_STATUS": -1
   },
   {
-    "0": "D.INTERNAL_ERROR",
-    "1": "D.INVALID_MEDIA",
-    "2": "D.FILE_TOO_LARGE",
-    "3": "D.UNSUPPORTED_MEDIA",
-    "4": "D.TIMEOUT"
+    "0": "A.INTERNAL_ERROR",
+    "1": "A.INVALID_MEDIA",
+    "2": "A.FILE_TOO_LARGE",
+    "3": "A.UNSUPPORTED_MEDIA",
+    "4": "A.TIMEOUT"
   },
   {
     "RESET": "0",
@@ -2527,6 +2532,14 @@
     "prep": "prep"
   },
   {
+    "LOCAL_STATE_LOADED": "rweb/editTweet/LOCAL_STATE_LOADED",
+    "LOCAL_STATE_REQUEST": "rweb/editTweet/LOCAL_STATE_REQUEST"
+  },
+  {
+    "fetchStatus": "p.ZP.NONE",
+    "editTweetLimitedMarketPromptDismissedEpochMilliseconds": "0"
+  },
+  {
     "CANCELED": "Canceled",
     "COMPLETED": "Completed",
     "DISMISSED": "Dismissed",
@@ -2544,6 +2557,60 @@
     "REQUEST": "rweb/draftTweets/DELETE_DRAFT_TWEET_REQUEST",
     "SUCCESS": "rweb/draftTweets/DELETE_DRAFT_TWEET_SUCCESS",
     "FAILURE": "rweb/draftTweets/DELETE_DRAFT_TWEET_FAILURE"
+  },
+  {
+    "permissionStatus": "void 0",
+    "position": "void 0"
+  },
+  {
+    "granted": "granted",
+    "denied": "denied",
+    "prompt": "prompt"
+  },
+  {
+    "PERMISSION_DENIED": "1",
+    "POSITION_UNAVAILABLE": "2",
+    "TIMEOUT": "3"
+  },
+  {
+    "REQUEST": "rweb/placePicker/SEARCH_REQUEST",
+    "SUCCESS": "rweb/placePicker/SEARCH_SUCCESS",
+    "FAILURE": "rweb/placePicker/SEARCH_FAILURE"
+  },
+  {
+    "initial": {
+      "fetchStatus": "o.ZP.NONE"
+    },
+    "lastSearch": {
+      "fetchStatus": "o.ZP.NONE"
+    },
+    "lastSelectedPlace": "void 0"
+  },
+  {
+    "profile_location": "profile_location",
+    "tweet_compose_location": "tweet_compose_location"
+  },
+  {
+    "foursquare": "foursquare",
+    "yelp": "yelp"
+  },
+  {
+    "initial": "initial",
+    "lastSearch": "lastSearch"
+  },
+  {
+    "REQUEST": "rweb/trustedFriendsLists/FETCH_TRUSTED_FRIENDS_LISTS_REQUEST",
+    "SUCCESS": "rweb/trustedFriendsLists/FETCH_TRUSTED_FRIENDS_LISTS_SUCCESS",
+    "FAILURE": "rweb/trustedFriendsLists/FETCH_TRUSTED_FRIENDS_LISTS_FAILURE"
+  },
+  {
+    "REQUEST": "rweb/trustedFriendsLists/CREATE_TRUSTED_FRIENDS_LIST_REQUEST",
+    "SUCCESS": "rweb/trustedFriendsLists/CREATE_TRUSTED_FRIENDS_LIST_SUCCESS",
+    "FAILURE": "rweb/trustedFriendsLists/CREATE_TRUSTED_FRIENDS_LIST_FAILURE"
+  },
+  {
+    "lists": [],
+    "fetchStatus": "o.ZP.NONE"
   },
   {
     "REQUEST": "rweb/tweetComposer/SCHEDULE_REQUEST",
@@ -3191,20 +3258,6 @@
     "NotSet": "notSet"
   },
   {
-    "permissionStatus": "void 0",
-    "position": "void 0"
-  },
-  {
-    "granted": "granted",
-    "denied": "denied",
-    "prompt": "prompt"
-  },
-  {
-    "PERMISSION_DENIED": "1",
-    "POSITION_UNAVAILABLE": "2",
-    "TIMEOUT": "3"
-  },
-  {
     "light": "default",
     "dark": "dim",
     "darker": "dark"
@@ -3332,11 +3385,11 @@
     "UNKNOWN": "Unknown"
   },
   {
-    "MessageCreate": "_.Cr.MESSAGE",
-    "ParticipantsJoin": "_.Cr.PARTICIPANTS_JOIN",
-    "ParticipantsLeave": "_.Cr.PARTICIPANTS_LEAVE",
-    "ConversationNameUpdate": "_.Cr.CONVERSATION_NAME_UPDATE",
-    "JoinConversation": "_.Cr.JOIN_CONVERSATION"
+    "MessageCreate": "r.Cr.MESSAGE",
+    "ParticipantsJoin": "r.Cr.PARTICIPANTS_JOIN",
+    "ParticipantsLeave": "r.Cr.PARTICIPANTS_LEAVE",
+    "ConversationNameUpdate": "r.Cr.CONVERSATION_NAME_UPDATE",
+    "JoinConversation": "r.Cr.JOIN_CONVERSATION"
   },
   {
     "ONE_TO_ONE": "ONE_TO_ONE",
@@ -3776,7 +3829,7 @@
     "SUCCESS": "rweb/bookmarkFolders/CREATE_BOOKMARK_FOLDERS_SUCCESS",
     "FAILURE": "rweb/bookmarkFolders/CREATE_BOOKMARK_FOLDERS_FAILURE"
   },
-  "{\"ActionsBar\":\"C.Z\",\"ActionMenu\":\"function()\"{\"Icon\":\"e\",\"isDisabled\":\"t\",\"items\":\"n\",\"onOpen\":\"i\"}{\"const a=o.useCallback()\"{\"items\":\"n\",\"onCloseRequested\":\"e\"}{\"Icon\":\"e\",\"isDisabled\":\"t\",\"onClick\":\"i\",\"renderActionMenu\":\"a\"}},\"CallToAction\":\"r.ZP\",\"EditCallout\":\"f.Z\",\"Education\":\"_.Z\",\"HighlightedUserLabel\":\"d.Z\",\"Media\":\"I.Z\",\"Place\":\"a.ZP\",\"PromotedDetails\":\"u.Z\",\"PromotedUserProfileCard\":\"P\",\"ReplyContext\":\"M.ZP\",\"RichContent\":\"L.Z\",\"SocialContext\":\"b.Z\",\"Text\":\"D.Z\",\"Tombstone\":\"g.Z\",\"Timestamp\":\"p.Z\",\"UserAvatar\":\"k.Z\",\"UserFollowIndicator\":\"B.Z\",\"UserName\":\"A.Z\",\"VibePill\":\"U.Z\"}",
+  "{\"ActionsBar\":\"C.Z\",\"ActionMenu\":\"function()\"{\"Icon\":\"e\",\"isDisabled\":\"t\",\"items\":\"n\",\"onOpen\":\"i\"}{\"const o=a.useCallback()\"{\"items\":\"n\",\"onCloseRequested\":\"e\"}{\"Icon\":\"e\",\"isDisabled\":\"t\",\"onClick\":\"i\",\"renderActionMenu\":\"o\"}},\"CallToAction\":\"r.ZP\",\"EditCallout\":\"f.Z\",\"Education\":\"_.Z\",\"HighlightedUserLabel\":\"d.Z\",\"Media\":\"I.Z\",\"Place\":\"o.ZP\",\"PromotedDetails\":\"u.Z\",\"PromotedUserProfileCard\":\"M\",\"ReplyContext\":\"P.ZP\",\"RichContent\":\"L.Z\",\"SocialContext\":\"b.Z\",\"Text\":\"D.Z\",\"Tombstone\":\"g.Z\",\"Timestamp\":\"p.Z\",\"UserAvatar\":\"k.Z\",\"UserFollowIndicator\":\"B.Z\",\"UserName\":\"A.Z\",\"VibePill\":\"U.Z\"}",
   {
     "private": "private",
     "public": "public",
@@ -4067,31 +4120,31 @@
   },
   {
     "all": {
-      "icon": "ii",
+      "icon": "nn",
       "label": "C().i8ea6d4e"
     },
     "community": {
-      "icon": "ai",
+      "icon": "an",
       "label": "C().ec5a4a26"
     },
     "by_invitation": {
-      "icon": "si",
+      "icon": "sn",
       "label": "C().b454300a"
     },
     "community_members": {
-      "icon": "oi",
+      "icon": "rn",
       "label": "C().i13be5a0"
     },
     "super_followers_exclusive": {
-      "icon": "ii",
+      "icon": "nn",
       "label": "C().feb7560a"
     },
     "trusted_friends_tweet": {
-      "icon": "ri",
+      "icon": "on",
       "label": "u"
     }
   },
-  "{[Oa.Original]:\"OriginalTweet\",[Oa.Quote]:\"QuoteTweet\",[Oa.Reply]:\"Reply\",[Oa.Thread]:\"Retweet\"}",
+  "{[Da.Original]:\"OriginalTweet\",[Da.Quote]:\"QuoteTweet\",[Da.Reply]:\"Reply\",[Da.Thread]:\"Retweet\"}",
   {
     "in": "in",
     "out": "out",
@@ -4103,15 +4156,7 @@
     "Quote": "quote",
     "Thread": "thread"
   },
-  "{[Oa.Original]:\"original_tweet\",[Oa.Quote]:\"quote_tweet\",[Oa.Reply]:\"reply\"}",
-  {
-    "LOCAL_STATE_LOADED": "rweb/editTweet/LOCAL_STATE_LOADED",
-    "LOCAL_STATE_REQUEST": "rweb/editTweet/LOCAL_STATE_REQUEST"
-  },
-  {
-    "fetchStatus": "Po.ZP.NONE",
-    "editTweetLimitedMarketPromptDismissedEpochMilliseconds": "0"
-  },
+  "{[Da.Original]:\"original_tweet\",[Da.Quote]:\"quote_tweet\",[Da.Reply]:\"reply\"}",
   {
     "None": "None",
     "Nudge": "Nudge",
@@ -4119,49 +4164,9 @@
     "Require": "Require"
   },
   {
-    "REQUEST": "rweb/placePicker/SEARCH_REQUEST",
-    "SUCCESS": "rweb/placePicker/SEARCH_SUCCESS",
-    "FAILURE": "rweb/placePicker/SEARCH_FAILURE"
-  },
-  {
-    "initial": {
-      "fetchStatus": "a.ZP.NONE"
-    },
-    "lastSearch": {
-      "fetchStatus": "a.ZP.NONE"
-    },
-    "lastSelectedPlace": "void 0"
-  },
-  {
-    "profile_location": "profile_location",
-    "tweet_compose_location": "tweet_compose_location"
-  },
-  {
-    "foursquare": "foursquare",
-    "yelp": "yelp"
-  },
-  {
-    "initial": "initial",
-    "lastSearch": "lastSearch"
-  },
-  {
     "Default": "Default",
     "Pivot": "Pivot",
     "Reorder": "Reorder"
-  },
-  {
-    "permissionStatus": "void 0",
-    "position": "void 0"
-  },
-  {
-    "granted": "granted",
-    "denied": "denied",
-    "prompt": "prompt"
-  },
-  {
-    "PERMISSION_DENIED": "1",
-    "POSITION_UNAVAILABLE": "2",
-    "TIMEOUT": "3"
   },
   {
     "REQUEST": "rweb/scheduledTweets/FETCH_SCHEDULED_TWEETS_REQUEST",
@@ -4172,20 +4177,6 @@
     "REQUEST": "rweb/scheduledTweets/DELETE_SCHEDULED_TWEET_REQUEST",
     "SUCCESS": "rweb/scheduledTweets/DELETE_SCHEDULED_TWEET_SUCCESS",
     "FAILURE": "rweb/scheduledTweets/DELETE_SCHEDULED_TWEET_FAILURE"
-  },
-  {
-    "REQUEST": "rweb/trustedFriendsLists/FETCH_TRUSTED_FRIENDS_LISTS_REQUEST",
-    "SUCCESS": "rweb/trustedFriendsLists/FETCH_TRUSTED_FRIENDS_LISTS_SUCCESS",
-    "FAILURE": "rweb/trustedFriendsLists/FETCH_TRUSTED_FRIENDS_LISTS_FAILURE"
-  },
-  {
-    "REQUEST": "rweb/trustedFriendsLists/CREATE_TRUSTED_FRIENDS_LIST_REQUEST",
-    "SUCCESS": "rweb/trustedFriendsLists/CREATE_TRUSTED_FRIENDS_LIST_SUCCESS",
-    "FAILURE": "rweb/trustedFriendsLists/CREATE_TRUSTED_FRIENDS_LIST_FAILURE"
-  },
-  {
-    "lists": [],
-    "fetchStatus": "a.ZP.NONE"
   },
   {
     "REQUEST": "rweb/availableLanguages/FETCH_AVAILABLE_LANGUAGES_REQUEST",
@@ -4681,7 +4672,7 @@
     "SUCCESS": "rweb/safetyMode/FETCH_SAFETY_MODE_SETTINGS_SUCCESS",
     "FAILURE": "rweb/safetyMode/FETCH_SAFETY_MODE_SETTINGS_FAILURE"
   },
-  "{[x.ActionedTweets]:{\"backLocation\":\"I\",\"confirmationSheetHeadline\":\"()(0,o.X_)\"{\"screenName\":\"m\"}{\"screenName\":\"m\"}},[x.PreviewFlaggedTweets]:{\"backLocation\":\"A\",\"confirmationSheetHeadline\":\"v()\"{\"screenName\":\"m\"}{\"screenName\":\"m\"}}}",
+  "{[x.ActionedTweets]:{\"backLocation\":\"A\",\"confirmationSheetHeadline\":\"()(0,o.X_)\"{\"screenName\":\"m\"}{\"screenName\":\"m\"}},[x.PreviewFlaggedTweets]:{\"backLocation\":\"I\",\"confirmationSheetHeadline\":\"v()\"{\"screenName\":\"m\"}{\"screenName\":\"m\"}}}",
   {
     "ActionedTweets": "actioned_tweets",
     "PreviewFlaggedTweets": "preview_flagged_tweets"
@@ -5185,7 +5176,7 @@
     "Space": "reportspace",
     "AppealSuspension": "appealsuspension"
   },
-  "{\"ActionsBar\":\"C.Z\",\"ActionMenu\":\"function()\"{\"Icon\":\"e\",\"isDisabled\":\"t\",\"items\":\"n\",\"onOpen\":\"i\"}{\"const r=a.useCallback()\"{\"items\":\"n\",\"onCloseRequested\":\"e\"}{\"Icon\":\"e\",\"isDisabled\":\"t\",\"onClick\":\"i\",\"renderActionMenu\":\"r\"}},\"CallToAction\":\"l.ZP\",\"EditCallout\":\"_.Z\",\"Education\":\"f.Z\",\"HighlightedUserLabel\":\"d.Z\",\"Media\":\"T.Z\",\"Place\":\"r.ZP\",\"PromotedDetails\":\"u.Z\",\"PromotedUserProfileCard\":\"S\",\"ReplyContext\":\"L.ZP\",\"RichContent\":\"P.Z\",\"SocialContext\":\"y.Z\",\"Text\":\"M.Z\",\"Tombstone\":\"h.Z\",\"Timestamp\":\"p.Z\",\"UserAvatar\":\"D.Z\",\"UserFollowIndicator\":\"F.Z\",\"UserName\":\"R.Z\",\"VibePill\":\"U.Z\"}",
+  "{\"ActionsBar\":\"C.Z\",\"ActionMenu\":\"function()\"{\"Icon\":\"e\",\"isDisabled\":\"t\",\"items\":\"n\",\"onOpen\":\"i\"}{\"const r=a.useCallback()\"{\"items\":\"n\",\"onCloseRequested\":\"e\"}{\"Icon\":\"e\",\"isDisabled\":\"t\",\"onClick\":\"i\",\"renderActionMenu\":\"r\"}},\"CallToAction\":\"l.ZP\",\"EditCallout\":\"_.Z\",\"Education\":\"f.Z\",\"HighlightedUserLabel\":\"d.Z\",\"Media\":\"T.Z\",\"Place\":\"r.ZP\",\"PromotedDetails\":\"u.Z\",\"PromotedUserProfileCard\":\"S\",\"ReplyContext\":\"L.ZP\",\"RichContent\":\"M.Z\",\"SocialContext\":\"y.Z\",\"Text\":\"P.Z\",\"Tombstone\":\"h.Z\",\"Timestamp\":\"p.Z\",\"UserAvatar\":\"D.Z\",\"UserFollowIndicator\":\"F.Z\",\"UserName\":\"R.Z\",\"VibePill\":\"U.Z\"}",
   {
     "original": "original",
     "banner": "banner",
@@ -5218,20 +5209,6 @@
     "OffensiveProfileContent": "offensive_profile_content",
     "SensitiveMedia": "sensitive_media",
     "Timeout": "timeout"
-  },
-  {
-    "REQUEST": "rweb/trustedFriendsLists/FETCH_TRUSTED_FRIENDS_LISTS_REQUEST",
-    "SUCCESS": "rweb/trustedFriendsLists/FETCH_TRUSTED_FRIENDS_LISTS_SUCCESS",
-    "FAILURE": "rweb/trustedFriendsLists/FETCH_TRUSTED_FRIENDS_LISTS_FAILURE"
-  },
-  {
-    "REQUEST": "rweb/trustedFriendsLists/CREATE_TRUSTED_FRIENDS_LIST_REQUEST",
-    "SUCCESS": "rweb/trustedFriendsLists/CREATE_TRUSTED_FRIENDS_LIST_SUCCESS",
-    "FAILURE": "rweb/trustedFriendsLists/CREATE_TRUSTED_FRIENDS_LIST_FAILURE"
-  },
-  {
-    "lists": [],
-    "fetchStatus": "E.ZP.NONE"
   },
   {
     "relevant": "relevant",
