@@ -3769,7 +3769,7 @@
           "value": "true"
         },
         "responsive_web_birdwatch_media_notes_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "responsive_web_birdwatch_note_limit_enabled": {
           "value": "true"
@@ -4505,7 +4505,7 @@
           "value": "true"
         },
         "rweb_tweets_tweet_detail_font_size": {
-          "value": "title4"
+          "value": "headline2"
         },
         "rweb_update_fatigue_switch_to_app_day_timeout": {
           "value": "7"
@@ -5240,20 +5240,10 @@
           "value": "false"
         }
       },
-      "impression_pointers": {
-        "rweb_tweets_tweet_detail_font_size": [
-          "rweb_tweet_detail_font_size_holdback_16263"
-        ]
-      },
-      "impressions": {
-        "rweb_tweet_detail_font_size_holdback_16263": {
-          "key": "rweb_tweet_detail_font_size_holdback_16263",
-          "bucket": "treatment",
-          "version": "1"
-        }
-      },
+      "impression_pointers": {},
+      "impressions": {},
       "keysRead": {},
-      "settingsVersion": "f27b049d1c43a0c3497e368915c7bb16"
+      "settingsVersion": "fd02065257b9f8092557a2cb41ca9a4e"
     },
     "debug": {},
     "featureSetToken": "968c5767f3809041f54183ab8c7e1956a002b33e",
@@ -5329,7 +5319,7 @@
     "country": "US",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "168539463799293204",
+    "guestId": "168548106300021626",
     "hasCommunityMemberships": "false",
     "language": "en",
     "oneFactorLoginEligibility": {
