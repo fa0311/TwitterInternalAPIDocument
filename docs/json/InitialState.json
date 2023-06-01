@@ -120,11 +120,6 @@
       "entities": {},
       "errors": {},
       "fetchStatus": {}
-    },
-    "places": {
-      "entities": {},
-      "errors": {},
-      "fetchStatus": {}
     }
   },
   "featureSwitch": {
@@ -600,7 +595,7 @@
         "value": "false"
       },
       "creator_subscriptions_subscribe_button_tweet_detail_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "creator_subscriptions_subscriber_count_enabled": {
         "value": "false"
@@ -883,6 +878,12 @@
       "hashflags_animation_like_button_enabled": {
         "value": "true"
       },
+      "hidden_profile_likes_enabled": {
+        "value": "false"
+      },
+      "hidden_profile_likes_settings_enabled": {
+        "value": "false"
+      },
       "highlights_tweets_action_enabled": {
         "value": "true"
       },
@@ -977,7 +978,7 @@
         "value": "true"
       },
       "longform_notetweets_drafts_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "longform_notetweets_inline_media_enabled": {
         "value": "false"
@@ -1223,7 +1224,7 @@
         "value": "true"
       },
       "responsive_web_birdwatch_media_notes_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "responsive_web_birdwatch_note_limit_enabled": {
         "value": "true"
@@ -2576,6 +2577,12 @@
           "show_retweet_action_menu"
         ]
       },
+      "tweet_with_visibility_results_all_gql_limited_actions_enabled": {
+        "value": "false"
+      },
+      "tweet_with_visibility_results_partial_gql_limited_actions_enabled": {
+        "value": "false"
+      },
       "tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled": {
         "value": "false"
       },
@@ -2610,9 +2617,6 @@
       },
       "verified_phone_label_enabled": {
         "value": "false"
-      },
-      "vibe_api_enabled": {
-        "value": "true"
       },
       "view_counts_everywhere_api_enabled": {
         "value": "true"
@@ -3454,6 +3458,12 @@
         },
         "hashflags_animation_like_button_enabled": {
           "value": "true"
+        },
+        "hidden_profile_likes_enabled": {
+          "value": "false"
+        },
+        "hidden_profile_likes_settings_enabled": {
+          "value": "false"
         },
         "highlights_tweets_action_enabled": {
           "value": "true"
@@ -4820,7 +4830,7 @@
           "value": "true"
         },
         "subscriptions_verification_info_verified_since_enabled": {
-          "value": "true"
+          "value": "false"
         },
         "super_follow_android_web_subscription_enabled": {
           "value": "true"
@@ -5148,6 +5158,12 @@
             "show_retweet_action_menu"
           ]
         },
+        "tweet_with_visibility_results_all_gql_limited_actions_enabled": {
+          "value": "false"
+        },
+        "tweet_with_visibility_results_partial_gql_limited_actions_enabled": {
+          "value": "false"
+        },
         "tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled": {
           "value": "false"
         },
@@ -5182,9 +5198,6 @@
         },
         "verified_phone_label_enabled": {
           "value": "false"
-        },
-        "vibe_api_enabled": {
-          "value": "true"
         },
         "view_counts_everywhere_api_enabled": {
           "value": "true"
@@ -5274,10 +5287,10 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "66bfd5d1ead4bcf56ba45fc6c0e251d5"
+      "settingsVersion": "b73510e377c93d7ad7d1ade3a2ebf5ad"
     },
     "debug": {},
-    "featureSetToken": "116b9acdd8d4c216eaa9ca94e6db9990e766e0eb",
+    "featureSetToken": "0c1d6447297d5e89b08f758622e4f2b69f522cd6",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -5350,7 +5363,7 @@
     "country": "US",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "168556721704693146",
+    "guestId": "168565358949436821",
     "hasCommunityMemberships": "false",
     "language": "en",
     "oneFactorLoginEligibility": {
