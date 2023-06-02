@@ -143,7 +143,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant              | value                 |
 |:----------------------|:----------------------|
-| ...Su                 | _                     |
+| ...gu                 | _                     |
 | ColumnFromPath        | ColumnFromPath        |
 | ColumnTimelineAdapter | ColumnTimelineAdapter |
 
@@ -1848,7 +1848,6 @@ This document is entirely auto-generated and may contain errors.<br>
 | isDeveloperBuiltCardEnabled               | False   |
 | isDMDrawer                                | False   |
 | isEditTweetConsumptionEnabled             | False   |
-| isVibeTweetConsumptionEnabled             | False   |
 | mixedMediaEnabled                         | False   |
 | nonSafariShouldUseCardCarouselV2          | False   |
 | onMediaHashtagHighlightClick              | void 0  |
@@ -4088,7 +4087,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{"ActionsBar":"C.Z","ActionMenu":"function()"{"Icon":"e","isDisabled":"t","items":"n","onOpen":"i"}{"const o=a.useCallback()"{"items":"n","onCloseRequested":"e"}{"Icon":"e","isDisabled":"t","onClick":"i","renderActionMenu":"o"}},"CallToAction":"r.ZP","EditCallout":"f.Z","Education":"_.Z","Highlighte...
+{"ActionsBar":"C.Z","ActionMenu":"function()"{"Icon":"e","isDisabled":"t","items":"n","onOpen":"i"}{"const a=o.useCallback()"{"items":"n","onCloseRequested":"e"}{"Icon":"e","isDisabled":"t","onClick":"i","renderActionMenu":"a"}},"CallToAction":"r.ZP","EditCallout":"f.Z","Education":"_.Z","Highlighte...
 ```
 | constant   | value    |
 |:-----------|:---------|
@@ -4397,12 +4396,12 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant                  | value                                   |
 |:--------------------------|:----------------------------------------|
-| all                       | {'icon': 'nn', 'label': 'C().i8ea6d4e'} |
-| community                 | {'icon': 'an', 'label': 'C().ec5a4a26'} |
-| by_invitation             | {'icon': 'sn', 'label': 'C().b454300a'} |
-| community_members         | {'icon': 'rn', 'label': 'C().i13be5a0'} |
-| super_followers_exclusive | {'icon': 'nn', 'label': 'C().feb7560a'} |
-| trusted_friends_tweet     | {'icon': 'on', 'label': 'u'}            |
+| all                       | {'icon': 'ii', 'label': 'C().i8ea6d4e'} |
+| community                 | {'icon': 'ai', 'label': 'C().ec5a4a26'} |
+| by_invitation             | {'icon': 'si', 'label': 'C().b454300a'} |
+| community_members         | {'icon': 'ri', 'label': 'C().i13be5a0'} |
+| super_followers_exclusive | {'icon': 'ii', 'label': 'C().feb7560a'} |
+| trusted_friends_tweet     | {'icon': 'oi', 'label': 'u'}            |
 
 ```internal process
 # Error
@@ -5174,6 +5173,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | Personalization                  | Personalization                  |
 | Phone                            | Phone                            |
 | PrivacyAndSafety                 | PrivacyAndSafety                 |
+| ProfileCustomization             | ProfileCustomization             |
 | PushNotifications                | PushNotifications                |
 | Replies                          | Replies                          |
 | ReportCenter                     | ReportCenter                     |

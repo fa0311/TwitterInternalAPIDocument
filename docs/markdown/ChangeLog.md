@@ -865,3 +865,21 @@
 - blue_business_affiliates_list_consumption_ui_enabled<br>
 - blue_business_government_badge_picker_enabled<br>
 - blue_business_profile_image_shape_enabled<br>
+## 2023/06/01<br>
+### API<br>
+#### add<br>
+- TargetingKeywordsQuery<br>
+- HiddenLikesTabSettingsMutation<br>
+- HiddenLikesTabSettingsQuery<br>
+- useAffiliatesPriceQuery<br>
+#### remove<br>
+- QuickPromoteLiteRecommendedKeywordsQuery<br>
+- PriceQuery<br>
+### Feature Switch<br>
+#### add<br>
+- hidden_profile_likes_enabled<br>
+- hidden_profile_likes_settings_enabled<br>
+- tweet_with_visibility_results_all_gql_limited_actions_enabled<br>
+- tweet_with_visibility_results_partial_gql_limited_actions_enabled<br>
+#### remove<br>
+- vibe_api_enabled<br>
