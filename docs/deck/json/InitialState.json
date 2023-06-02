@@ -5252,20 +5252,10 @@
           "value": "false"
         }
       },
-      "impression_pointers": {
-        "rweb_tweets_tweet_detail_font_size": [
-          "rweb_tweet_detail_font_size_holdback_16263"
-        ]
-      },
-      "impressions": {
-        "rweb_tweet_detail_font_size_holdback_16263": {
-          "key": "rweb_tweet_detail_font_size_holdback_16263",
-          "bucket": "control",
-          "version": "1"
-        }
-      },
+      "impression_pointers": {},
+      "impressions": {},
       "keysRead": {},
-      "settingsVersion": "e400f1f8a357545ae475e997622273b9"
+      "settingsVersion": "c5436f1d74ccb045e70284f8845145b1"
     },
     "debug": {},
     "featureSetToken": "0c1d6447297d5e89b08f758622e4f2b69f522cd6",
@@ -5341,7 +5331,7 @@
     "country": "US",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "168565388005954623",
+    "guestId": "168574020050069200",
     "hasCommunityMemberships": "false",
     "language": "en",
     "oneFactorLoginEligibility": {
