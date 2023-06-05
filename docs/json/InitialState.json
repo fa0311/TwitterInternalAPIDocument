@@ -86,7 +86,7 @@
       "errors": {},
       "fetchStatus": {}
     },
-    "legacyAndUnifiedCards": {
+    "emailValidity": {
       "entities": {},
       "errors": {},
       "fetchStatus": {}
@@ -101,11 +101,6 @@
       "errors": {},
       "fetchStatus": {}
     },
-    "emailValidity": {
-      "entities": {},
-      "errors": {},
-      "fetchStatus": {}
-    },
     "passwordValidity": {
       "entities": {},
       "errors": {},
@@ -116,7 +111,17 @@
       "errors": {},
       "fetchStatus": {}
     },
+    "legacyAndUnifiedCards": {
+      "entities": {},
+      "errors": {},
+      "fetchStatus": {}
+    },
     "liveEvents": {
+      "entities": {},
+      "errors": {},
+      "fetchStatus": {}
+    },
+    "places": {
       "entities": {},
       "errors": {},
       "fetchStatus": {}
@@ -4719,7 +4724,7 @@
           "value": "false"
         },
         "spaces_2022_h2_spacebar_web_sidebar": {
-          "value": "true"
+          "value": "false"
         },
         "spaces_2022_h2_spacebar_web_topnavbar": {
           "value": "purple"
@@ -5287,7 +5292,7 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "b62d448dd8b64026ced7c2a0a2b1065d"
+      "settingsVersion": "f2c10d922e01207c729d3cb4faa7d427"
     },
     "debug": {},
     "featureSetToken": "0c1d6447297d5e89b08f758622e4f2b69f522cd6",
@@ -5363,7 +5368,7 @@
     "country": "US",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "168591278880644644",
+    "guestId": "168599918777688295",
     "hasCommunityMemberships": "false",
     "language": "en",
     "oneFactorLoginEligibility": {
