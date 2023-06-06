@@ -883,3 +883,26 @@
 - tweet_with_visibility_results_partial_gql_limited_actions_enabled<br>
 #### remove<br>
 - vibe_api_enabled<br>
+## 2023/06/06<br>
+### API<br>
+#### add<br>
+- TweetBoostButtonQuery<br>
+- OrderSummaryStripeInvoiceMutation<br>
+- useCreateApplicationMutation<br>
+- useProductSkuQuery<br>
+- useVerifiedOrgConfigQuery<br>
+#### remove<br>
+- CardPreviewByTweetText<br>
+- CardPreviewByTweetText<br>
+- PrimaryContentQuery<br>
+- WelcomeScreenQuery<br>
+### Feature Switch<br>
+#### add<br>
+- creator_subscriptions_subscribe_action_tweet_menu_enabled<br>
+- responsive_web_birdwatch_netzdg_enabled<br>
+- responsive_web_one_hour_edit_window_enabled<br>
+- responsive_web_verified_organizations_application_form_enabled<br>
+#### remove<br>
+- graphql_composer_and_dm_card_previews_enabled<br>
+- interactive_text_enabled<br>
+- responsive_web_text_conversations_enabled<br>

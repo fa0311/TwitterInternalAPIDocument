@@ -143,7 +143,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant              | value                 |
 |:----------------------|:----------------------|
-| ...gu                 | _                     |
+| ...yu                 | _                     |
 | ColumnFromPath        | ColumnFromPath        |
 | ColumnTimelineAdapter | ColumnTimelineAdapter |
 
@@ -2651,7 +2651,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant                                               | value     |
 |:-------------------------------------------------------|:----------|
-| fetchStatus                                            | p.ZP.NONE |
+| fetchStatus                                            | d.ZP.NONE |
 | editTweetLimitedMarketPromptDismissedEpochMilliseconds | 0         |
 
 | constant   | value     |
@@ -3285,8 +3285,9 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant   | value     |
 |:-----------|:----------|
-| onlyText   | only-text |
 | iconText   | icon-text |
+| onlyIcon   | only-icon |
+| onlyText   | only-text |
 
 | constant   | value     |
 |:-----------|:----------|
@@ -4221,12 +4222,6 @@ This document is entirely auto-generated and may contain errors.<br>
 | Moderator  | ModeratorInvitesAllowed |
 | Admin      | AdminInvitesAllowed     |
 
-| constant   | value   |
-|:-----------|:--------|
-| Default    | Default |
-| Pivot      | Pivot   |
-| Reorder    | Reorder |
-
 | constant         | value                           |
 |:-----------------|:--------------------------------|
 | joinAvailable    | CommunityJoinAction             |
@@ -4396,16 +4391,16 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant                  | value                                   |
 |:--------------------------|:----------------------------------------|
-| all                       | {'icon': 'ii', 'label': 'C().i8ea6d4e'} |
-| community                 | {'icon': 'ai', 'label': 'C().ec5a4a26'} |
-| by_invitation             | {'icon': 'si', 'label': 'C().b454300a'} |
-| community_members         | {'icon': 'ri', 'label': 'C().i13be5a0'} |
-| super_followers_exclusive | {'icon': 'ii', 'label': 'C().feb7560a'} |
-| trusted_friends_tweet     | {'icon': 'oi', 'label': 'u'}            |
+| all                       | {'icon': 'sn', 'label': 'C().i8ea6d4e'} |
+| community                 | {'icon': 'rn', 'label': 'C().ec5a4a26'} |
+| by_invitation             | {'icon': 'an', 'label': 'C().b454300a'} |
+| community_members         | {'icon': 'on', 'label': 'C().i13be5a0'} |
+| super_followers_exclusive | {'icon': 'sn', 'label': 'C().feb7560a'} |
+| trusted_friends_tweet     | {'icon': 'ln', 'label': 'u'}            |
 
 ```internal process
 # Error
-{[Da.Original]:"OriginalTweet",[Da.Quote]:"QuoteTweet",[Da.Reply]:"Reply",[Da.Thread]:"Retweet"}
+{[Fa.Original]:"OriginalTweet",[Fa.Quote]:"QuoteTweet",[Fa.Reply]:"Reply",[Fa.Thread]:"Retweet"}
 ```
 | constant   | value   |
 |:-----------|:--------|
@@ -4422,7 +4417,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{[Da.Original]:"original_tweet",[Da.Quote]:"quote_tweet",[Da.Reply]:"reply"}
+{[Fa.Original]:"original_tweet",[Fa.Quote]:"quote_tweet",[Fa.Reply]:"reply"}
 ```
 | constant   | value   |
 |:-----------|:--------|
@@ -6013,15 +6008,16 @@ This document is entirely auto-generated and may contain errors.<br>
 | constant    | value     |
 |:------------|:----------|
 | fetchStatus | _.ZP.NONE |
-| config      | ze        |
+| config      | Oe        |
 
-| constant        | value           |
-|:----------------|:----------------|
-| createInvite    | createInvite    |
-| resendInvite    | resendInvite    |
-| deleteInvite    | deleteInvite    |
-| assignBadge     | assignBadge     |
-| deleteAffiliate | deleteAffiliate |
+| constant          | value             |
+|:------------------|:------------------|
+| createInvite      | createInvite      |
+| resendInvite      | resendInvite      |
+| deleteInvite      | deleteInvite      |
+| assignBadge       | assignBadge       |
+| deleteAffiliate   | deleteAffiliate   |
+| createApplication | createApplication |
 
 | constant   | value   |
 |:-----------|:--------|

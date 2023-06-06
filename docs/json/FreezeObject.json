@@ -153,7 +153,7 @@
     "AudioModule": "AudioModule"
   },
   {
-    "...gu": "_",
+    "...yu": "_",
     "ColumnFromPath": "ColumnFromPath",
     "ColumnTimelineAdapter": "ColumnTimelineAdapter"
   },
@@ -2535,7 +2535,7 @@
     "LOCAL_STATE_REQUEST": "rweb/editTweet/LOCAL_STATE_REQUEST"
   },
   {
-    "fetchStatus": "p.ZP.NONE",
+    "fetchStatus": "d.ZP.NONE",
     "editTweetLimitedMarketPromptDismissedEpochMilliseconds": "0"
   },
   {
@@ -3115,8 +3115,9 @@
     "Trending": "Trending"
   },
   {
-    "onlyText": "only-text",
-    "iconText": "icon-text"
+    "iconText": "icon-text",
+    "onlyIcon": "only-icon",
+    "onlyText": "only-text"
   },
   {
     "user": "user",
@@ -3938,11 +3939,6 @@
     "Admin": "AdminInvitesAllowed"
   },
   {
-    "Default": "Default",
-    "Pivot": "Pivot",
-    "Reorder": "Reorder"
-  },
-  {
     "joinAvailable": "CommunityJoinAction",
     "joinUnavailable": "CommunityJoinActionUnavailable",
     "leaveAvailable": "CommunityLeaveAction",
@@ -4119,31 +4115,31 @@
   },
   {
     "all": {
-      "icon": "ii",
+      "icon": "sn",
       "label": "C().i8ea6d4e"
     },
     "community": {
-      "icon": "ai",
+      "icon": "rn",
       "label": "C().ec5a4a26"
     },
     "by_invitation": {
-      "icon": "si",
+      "icon": "an",
       "label": "C().b454300a"
     },
     "community_members": {
-      "icon": "ri",
+      "icon": "on",
       "label": "C().i13be5a0"
     },
     "super_followers_exclusive": {
-      "icon": "ii",
+      "icon": "sn",
       "label": "C().feb7560a"
     },
     "trusted_friends_tweet": {
-      "icon": "oi",
+      "icon": "ln",
       "label": "u"
     }
   },
-  "{[Da.Original]:\"OriginalTweet\",[Da.Quote]:\"QuoteTweet\",[Da.Reply]:\"Reply\",[Da.Thread]:\"Retweet\"}",
+  "{[Fa.Original]:\"OriginalTweet\",[Fa.Quote]:\"QuoteTweet\",[Fa.Reply]:\"Reply\",[Fa.Thread]:\"Retweet\"}",
   {
     "in": "in",
     "out": "out",
@@ -4155,7 +4151,7 @@
     "Quote": "quote",
     "Thread": "thread"
   },
-  "{[Da.Original]:\"original_tweet\",[Da.Quote]:\"quote_tweet\",[Da.Reply]:\"reply\"}",
+  "{[Fa.Original]:\"original_tweet\",[Fa.Quote]:\"quote_tweet\",[Fa.Reply]:\"reply\"}",
   {
     "None": "None",
     "Nudge": "Nudge",
@@ -5176,7 +5172,7 @@
     "Space": "reportspace",
     "AppealSuspension": "appealsuspension"
   },
-  "{\"ActionsBar\":\"C.Z\",\"ActionMenu\":\"function()\"{\"Icon\":\"e\",\"isDisabled\":\"t\",\"items\":\"n\",\"onOpen\":\"i\"}{\"const r=a.useCallback()\"{\"items\":\"n\",\"onCloseRequested\":\"e\"}{\"Icon\":\"e\",\"isDisabled\":\"t\",\"onClick\":\"i\",\"renderActionMenu\":\"r\"}},\"CallToAction\":\"l.ZP\",\"EditCallout\":\"_.Z\",\"Education\":\"f.Z\",\"HighlightedUserLabel\":\"d.Z\",\"Media\":\"T.Z\",\"Place\":\"r.ZP\",\"PromotedDetails\":\"u.Z\",\"PromotedUserProfileCard\":\"S\",\"ReplyContext\":\"L.ZP\",\"RichContent\":\"M.Z\",\"SocialContext\":\"g.Z\",\"Text\":\"D.Z\",\"Tombstone\":\"h.Z\",\"Timestamp\":\"p.Z\",\"UserAvatar\":\"P.Z\",\"UserFollowIndicator\":\"F.Z\",\"UserName\":\"R.Z\"}",
+  "{\"ActionsBar\":\"C.Z\",\"ActionMenu\":\"function()\"{\"Icon\":\"e\",\"isDisabled\":\"t\",\"items\":\"n\",\"onOpen\":\"i\"}{\"const r=a.useCallback()\"{\"items\":\"n\",\"onCloseRequested\":\"e\"}{\"Icon\":\"e\",\"isDisabled\":\"t\",\"onClick\":\"i\",\"renderActionMenu\":\"r\"}},\"CallToAction\":\"l.ZP\",\"EditCallout\":\"_.Z\",\"Education\":\"f.Z\",\"HighlightedUserLabel\":\"d.Z\",\"Media\":\"T.Z\",\"Place\":\"r.ZP\",\"PromotedDetails\":\"u.Z\",\"PromotedUserProfileCard\":\"S\",\"ReplyContext\":\"L.ZP\",\"RichContent\":\"M.Z\",\"SocialContext\":\"g.Z\",\"Text\":\"P.Z\",\"Tombstone\":\"h.Z\",\"Timestamp\":\"p.Z\",\"UserAvatar\":\"D.Z\",\"UserFollowIndicator\":\"F.Z\",\"UserName\":\"R.Z\"}",
   {
     "original": "original",
     "banner": "banner",
@@ -5516,14 +5512,15 @@
   },
   {
     "fetchStatus": "_.ZP.NONE",
-    "config": "ze"
+    "config": "Oe"
   },
   {
     "createInvite": "createInvite",
     "resendInvite": "resendInvite",
     "deleteInvite": "deleteInvite",
     "assignBadge": "assignBadge",
-    "deleteAffiliate": "deleteAffiliate"
+    "deleteAffiliate": "deleteAffiliate",
+    "createApplication": "createApplication"
   },
   {
     "search": "search"
