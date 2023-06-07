@@ -906,3 +906,15 @@
 - graphql_composer_and_dm_card_previews_enabled<br>
 - interactive_text_enabled<br>
 - responsive_web_text_conversations_enabled<br>
+## 2023/06/07<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- responsive_web_twitter_blue_upsell_right_column<br>
+- responsive_web_verified_organizations_affiliate_fetch_limit<br>
+#### remove<br>
+- None<br>
