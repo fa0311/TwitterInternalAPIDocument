@@ -143,7 +143,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant              | value                 |
 |:----------------------|:----------------------|
-| ...yu                 | _                     |
+| ...Cu                 | _                     |
 | ColumnFromPath        | ColumnFromPath        |
 | ColumnTimelineAdapter | ColumnTimelineAdapter |
 
@@ -4059,8 +4059,8 @@ This document is entirely auto-generated and may contain errors.<br>
 | constant       | value                                          |
 |:---------------|:-----------------------------------------------|
 | closed         | {'shouldShow': '!1'}                           |
-| openSuccessful | {'shouldShow': '!0', 'badgeType': 'I.Ratings'} |
-| openHelpful    | {'shouldShow': '!0', 'badgeType': 'I.Notes'}   |
+| openSuccessful | {'shouldShow': '!0', 'badgeType': 'N.Ratings'} |
+| openHelpful    | {'shouldShow': '!0', 'badgeType': 'N.Notes'}   |
 
 | constant   | value                                               |
 |:-----------|:----------------------------------------------------|
