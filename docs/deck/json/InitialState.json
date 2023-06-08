@@ -4687,7 +4687,7 @@
           "value": "false"
         },
         "spaces_2022_h2_spacebar_web_sidebar": {
-          "value": "true"
+          "value": "false"
         },
         "spaces_2022_h2_spacebar_web_topnavbar": {
           "value": "purple"
@@ -5255,7 +5255,7 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "f6343f5f5d4044a74f11c5ae57de9c06"
+      "settingsVersion": "47f50d61f054f834f2f6a6210ea735e2"
     },
     "debug": {},
     "featureSetToken": "0c1d6447297d5e89b08f758622e4f2b69f522cd6",
@@ -5331,7 +5331,7 @@
     "country": "US",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "168617229949850251",
+    "guestId": "168625873727206203",
     "hasCommunityMemberships": "false",
     "language": "en",
     "oneFactorLoginEligibility": {
