@@ -918,3 +918,22 @@
 - responsive_web_verified_organizations_affiliate_fetch_limit<br>
 #### remove<br>
 - None<br>
+## 2023/06/13<br>
+### API<br>
+#### add<br>
+- useVerifiedOrgFeaturesQuery<br>
+- AddJobScreenMutation<br>
+- EditJobScreenMutation<br>
+- EditJobScreenQuery<br>
+- JobListItemDeleteMutation<br>
+- JobListItemFeatureMutation<br>
+- JobListItemUnfeatureMutation<br>
+- JobSplashScreenConfigMutation<br>
+- JobsScreenJobsQuery<br>
+#### remove<br>
+- VerifiedRouteQuery<br>
+### Feature Switch<br>
+#### add<br>
+- recruiting_verified_orgs_admin_enabled<br>
+#### remove<br>
+- None<br>
