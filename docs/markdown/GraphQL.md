@@ -12610,17 +12610,6 @@ Login Required: `...`<br>
 
 #### queryId<br>
 `None`<br>
-## VerifiedRouteQuery<br>
-Request URL: `https://twitter.com/i/api/graphql/inQHR9aa8pXO9Jqy4swaJw/VerifiedRouteQuery`<br>
-Request Method: `GET`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-`None`<br>
-#### queryId<br>
-`None`<br>
 ## urtModuleOperationsInjectEntryQuery<br>
 Request URL: `https://twitter.com/i/api/graphql/null/urtModuleOperationsInjectEntryQuery`<br>
 Request Method: `GET`<br>
@@ -12644,7 +12633,18 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## useRelayDelegateDataQuery<br>
-Request URL: `https://twitter.com/i/api/graphql/BAMss4qXZvxtUJdCn__AnA/useRelayDelegateDataQuery`<br>
+Request URL: `https://twitter.com/i/api/graphql/uVSfSBLEpnAQ7NfZ4umyXg/useRelayDelegateDataQuery`<br>
+Request Method: `GET`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
+## useVerifiedOrgFeaturesQuery<br>
+Request URL: `https://twitter.com/i/api/graphql/_vBVewDGn9HREt21OO0gxQ/useVerifiedOrgFeaturesQuery`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -12708,7 +12708,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## DelegatedAccountListQuery<br>
-Request URL: `https://twitter.com/i/api/graphql/b0NSGdpcMo6KAYbeYpIXRA/DelegatedAccountListQuery`<br>
+Request URL: `https://twitter.com/i/api/graphql/JLJ7DuNkbMTyl96zVOtH0Q/DelegatedAccountListQuery`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -14058,6 +14058,17 @@ Login Required: `...`<br>
 `None`<br>
 #### queryId<br>
 `None`<br>
+## AddJobScreenMutation<br>
+Request URL: `https://twitter.com/i/api/graphql/nXmoyIo-rw3qGS_MDHLaBA/AddJobScreenMutation`<br>
+Request Method: `POST`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
 ## AffiliateListItemMutation<br>
 Request URL: `https://twitter.com/i/api/graphql/QSueyUwwWLaV6s50Z8Ct4Q/AffiliateListItemMutation`<br>
 Request Method: `POST`<br>
@@ -14094,6 +14105,83 @@ Login Required: `...`<br>
 ## CancelModalMutation<br>
 Request URL: `https://twitter.com/i/api/graphql/KZeNJv26eQ1JCIMbcwMXng/CancelModalMutation`<br>
 Request Method: `POST`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
+## EditJobScreenMutation<br>
+Request URL: `https://twitter.com/i/api/graphql/hoGtY5BHxtQ49IIUBoGPFA/EditJobScreenMutation`<br>
+Request Method: `POST`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
+## EditJobScreenQuery<br>
+Request URL: `https://twitter.com/i/api/graphql/DHFd6In-bqfEtlTR_GyN6w/EditJobScreenQuery`<br>
+Request Method: `GET`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
+## JobListItemDeleteMutation<br>
+Request URL: `https://twitter.com/i/api/graphql/NXPgeVAY8XkK6xckO4WKGQ/JobListItemDeleteMutation`<br>
+Request Method: `POST`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
+## JobListItemFeatureMutation<br>
+Request URL: `https://twitter.com/i/api/graphql/-TkDQMRqYiRti2ZvQO0JrA/JobListItemFeatureMutation`<br>
+Request Method: `POST`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
+## JobListItemUnfeatureMutation<br>
+Request URL: `https://twitter.com/i/api/graphql/8b-5thQwsUpLs6xt_mczqQ/JobListItemUnfeatureMutation`<br>
+Request Method: `POST`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
+## JobSplashScreenConfigMutation<br>
+Request URL: `https://twitter.com/i/api/graphql/yH3YjN-Rp8Hwnwo72A_EeQ/JobSplashScreenConfigMutation`<br>
+Request Method: `POST`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
+## JobsScreenJobsQuery<br>
+Request URL: `https://twitter.com/i/api/graphql/V1CHkYzJ6kAzVrUc4dlXLA/JobsScreenJobsQuery`<br>
+Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>

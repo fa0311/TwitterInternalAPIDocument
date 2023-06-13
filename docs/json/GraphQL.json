@@ -28056,18 +28056,6 @@
     }
   },
   {
-    "n": "91011",
-    "exports": {
-      "queryId": "inQHR9aa8pXO9Jqy4swaJw",
-      "operationName": "VerifiedRouteQuery",
-      "operationType": "query",
-      "metadata": {
-        "featureSwitches": [],
-        "featureSwitch": {}
-      }
-    }
-  },
-  {
     "n": "90176",
     "exports": {
       "queryId": "null",
@@ -28094,8 +28082,20 @@
   {
     "n": "35503",
     "exports": {
-      "queryId": "BAMss4qXZvxtUJdCn__AnA",
+      "queryId": "uVSfSBLEpnAQ7NfZ4umyXg",
       "operationName": "useRelayDelegateDataQuery",
+      "operationType": "query",
+      "metadata": {
+        "featureSwitches": [],
+        "featureSwitch": {}
+      }
+    }
+  },
+  {
+    "n": "51810",
+    "exports": {
+      "queryId": "_vBVewDGn9HREt21OO0gxQ",
+      "operationName": "useVerifiedOrgFeaturesQuery",
       "operationType": "query",
       "metadata": {
         "featureSwitches": [],
@@ -28216,7 +28216,7 @@
   {
     "n": "73792",
     "exports": {
-      "queryId": "b0NSGdpcMo6KAYbeYpIXRA",
+      "queryId": "JLJ7DuNkbMTyl96zVOtH0Q",
       "operationName": "DelegatedAccountListQuery",
       "operationType": "query",
       "metadata": {
@@ -29842,6 +29842,18 @@
     }
   },
   {
+    "n": "7279",
+    "exports": {
+      "queryId": "nXmoyIo-rw3qGS_MDHLaBA",
+      "operationName": "AddJobScreenMutation",
+      "operationType": "mutation",
+      "metadata": {
+        "featureSwitches": [],
+        "featureSwitch": {}
+      }
+    }
+  },
+  {
     "n": "28506",
     "exports": {
       "queryId": "QSueyUwwWLaV6s50Z8Ct4Q",
@@ -29883,6 +29895,90 @@
       "queryId": "KZeNJv26eQ1JCIMbcwMXng",
       "operationName": "CancelModalMutation",
       "operationType": "mutation",
+      "metadata": {
+        "featureSwitches": [],
+        "featureSwitch": {}
+      }
+    }
+  },
+  {
+    "n": "24574",
+    "exports": {
+      "queryId": "hoGtY5BHxtQ49IIUBoGPFA",
+      "operationName": "EditJobScreenMutation",
+      "operationType": "mutation",
+      "metadata": {
+        "featureSwitches": [],
+        "featureSwitch": {}
+      }
+    }
+  },
+  {
+    "n": "8975",
+    "exports": {
+      "queryId": "DHFd6In-bqfEtlTR_GyN6w",
+      "operationName": "EditJobScreenQuery",
+      "operationType": "query",
+      "metadata": {
+        "featureSwitches": [],
+        "featureSwitch": {}
+      }
+    }
+  },
+  {
+    "n": "36081",
+    "exports": {
+      "queryId": "NXPgeVAY8XkK6xckO4WKGQ",
+      "operationName": "JobListItemDeleteMutation",
+      "operationType": "mutation",
+      "metadata": {
+        "featureSwitches": [],
+        "featureSwitch": {}
+      }
+    }
+  },
+  {
+    "n": "37056",
+    "exports": {
+      "queryId": "-TkDQMRqYiRti2ZvQO0JrA",
+      "operationName": "JobListItemFeatureMutation",
+      "operationType": "mutation",
+      "metadata": {
+        "featureSwitches": [],
+        "featureSwitch": {}
+      }
+    }
+  },
+  {
+    "n": "26959",
+    "exports": {
+      "queryId": "8b-5thQwsUpLs6xt_mczqQ",
+      "operationName": "JobListItemUnfeatureMutation",
+      "operationType": "mutation",
+      "metadata": {
+        "featureSwitches": [],
+        "featureSwitch": {}
+      }
+    }
+  },
+  {
+    "n": "54346",
+    "exports": {
+      "queryId": "yH3YjN-Rp8Hwnwo72A_EeQ",
+      "operationName": "JobSplashScreenConfigMutation",
+      "operationType": "mutation",
+      "metadata": {
+        "featureSwitches": [],
+        "featureSwitch": {}
+      }
+    }
+  },
+  {
+    "n": "43215",
+    "exports": {
+      "queryId": "V1CHkYzJ6kAzVrUc4dlXLA",
+      "operationName": "JobsScreenJobsQuery",
+      "operationType": "query",
       "metadata": {
         "featureSwitches": [],
         "featureSwitch": {}
