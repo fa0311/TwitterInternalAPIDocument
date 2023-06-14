@@ -3304,12 +3304,6 @@
       "method": "POST",
       "features": {}
     },
-    "VerifiedRouteQuery": {
-      "url": "https://twitter.com/i/api/graphql/inQHR9aa8pXO9Jqy4swaJw/VerifiedRouteQuery",
-      "queryId": "inQHR9aa8pXO9Jqy4swaJw",
-      "method": "GET",
-      "features": {}
-    },
     "managementListsPageTimelineQuery": {
       "url": "https://twitter.com/i/api/graphql/Eeops6sca6M4FywiUnIpjg/managementListsPageTimelineQuery",
       "queryId": "Eeops6sca6M4FywiUnIpjg",
@@ -3348,8 +3342,14 @@
       "features": {}
     },
     "useRelayDelegateDataQuery": {
-      "url": "https://twitter.com/i/api/graphql/BAMss4qXZvxtUJdCn__AnA/useRelayDelegateDataQuery",
-      "queryId": "BAMss4qXZvxtUJdCn__AnA",
+      "url": "https://twitter.com/i/api/graphql/uVSfSBLEpnAQ7NfZ4umyXg/useRelayDelegateDataQuery",
+      "queryId": "uVSfSBLEpnAQ7NfZ4umyXg",
+      "method": "GET",
+      "features": {}
+    },
+    "useVerifiedOrgFeaturesQuery": {
+      "url": "https://twitter.com/i/api/graphql/_vBVewDGn9HREt21OO0gxQ/useVerifiedOrgFeaturesQuery",
+      "queryId": "_vBVewDGn9HREt21OO0gxQ",
       "method": "GET",
       "features": {}
     },
@@ -3360,8 +3360,8 @@
       "features": {}
     },
     "DelegateSwitcherQuery": {
-      "url": "https://twitter.com/i/api/graphql/Zxod4aJ7tiea7A0hqTxh-g/DelegateSwitcherQuery",
-      "queryId": "Zxod4aJ7tiea7A0hqTxh-g",
+      "url": "https://twitter.com/i/api/graphql/yrxbfHVblqnj11Fdsxd2Wg/DelegateSwitcherQuery",
+      "queryId": "yrxbfHVblqnj11Fdsxd2Wg",
       "method": "GET",
       "features": {}
     },
@@ -3371,15 +3371,15 @@
       "method": "GET",
       "features": {}
     },
-    "AccountSwitcherDelegateQuery": {
-      "url": "https://twitter.com/i/api/graphql/1gowCMPzY09WyApNQM68kA/AccountSwitcherDelegateQuery",
-      "queryId": "1gowCMPzY09WyApNQM68kA",
+    "DelegatedAccountListQuery": {
+      "url": "https://twitter.com/i/api/graphql/JLJ7DuNkbMTyl96zVOtH0Q/DelegatedAccountListQuery",
+      "queryId": "JLJ7DuNkbMTyl96zVOtH0Q",
       "method": "GET",
       "features": {}
     },
-    "DelegatedAccountListQuery": {
-      "url": "https://twitter.com/i/api/graphql/b0NSGdpcMo6KAYbeYpIXRA/DelegatedAccountListQuery",
-      "queryId": "b0NSGdpcMo6KAYbeYpIXRA",
+    "AccountSwitcherDelegateQuery": {
+      "url": "https://twitter.com/i/api/graphql/1gowCMPzY09WyApNQM68kA/AccountSwitcherDelegateQuery",
+      "queryId": "1gowCMPzY09WyApNQM68kA",
       "method": "GET",
       "features": {}
     },
@@ -3387,12 +3387,6 @@
       "url": "https://twitter.com/i/api/graphql/zuUTzlnI-XomL9lfWFqSKg/DelegateAlertBannerContainerQuery",
       "queryId": "zuUTzlnI-XomL9lfWFqSKg",
       "method": "GET",
-      "features": {}
-    },
-    "DMMessageDeleteMutation": {
-      "url": "https://twitter.com/i/api/graphql/BJ6DtxA2llfjnRoRjaiIiw/DMMessageDeleteMutation",
-      "queryId": "BJ6DtxA2llfjnRoRjaiIiw",
-      "method": "POST",
       "features": {}
     },
     "useDMReactionMutationAddMutation": {
@@ -3404,6 +3398,12 @@
     "useDMReactionMutationRemoveMutation": {
       "url": "https://twitter.com/i/api/graphql/bV_Nim3RYHsaJwMkTXJ6ew/useDMReactionMutationRemoveMutation",
       "queryId": "bV_Nim3RYHsaJwMkTXJ6ew",
+      "method": "POST",
+      "features": {}
+    },
+    "DMMessageDeleteMutation": {
+      "url": "https://twitter.com/i/api/graphql/BJ6DtxA2llfjnRoRjaiIiw/DMMessageDeleteMutation",
+      "queryId": "BJ6DtxA2llfjnRoRjaiIiw",
       "method": "POST",
       "features": {}
     },
@@ -3759,6 +3759,18 @@
       "url": "https://twitter.com/i/api/graphql/YWGRWrle16Fb6JvAjvjoTQ/useEditSensitiveMediaSettingsMutation",
       "queryId": "YWGRWrle16Fb6JvAjvjoTQ",
       "method": "POST",
+      "features": {}
+    },
+    "PreviewsEnabledButtonMutation": {
+      "url": "https://twitter.com/i/api/graphql/QrvZinvdKXtDKnHMnG4Vmg/PreviewsEnabledButtonMutation",
+      "queryId": "QrvZinvdKXtDKnHMnG4Vmg",
+      "method": "POST",
+      "features": {}
+    },
+    "PreviewsEnabledButtonQuery": {
+      "url": "https://twitter.com/i/api/graphql/qy8TYcwuhLG8WqKI9o5tJQ/PreviewsEnabledButtonQuery",
+      "queryId": "qy8TYcwuhLG8WqKI9o5tJQ",
+      "method": "GET",
       "features": {}
     },
     "useSuperFollowsDeactivateMutation": {
