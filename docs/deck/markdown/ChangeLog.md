@@ -319,3 +319,17 @@
 - graphql_composer_and_dm_card_previews_enabled<br>
 - interactive_text_enabled<br>
 - responsive_web_text_conversations_enabled<br>
+## 2023/06/14<br>
+### API<br>
+#### add<br>
+- useVerifiedOrgFeaturesQuery<br>
+- PreviewsEnabledButtonMutation<br>
+- PreviewsEnabledButtonQuery<br>
+#### remove<br>
+- VerifiedRouteQuery<br>
+### Feature Switch<br>
+#### add<br>
+- responsive_web_creator_preferences_previews_enabled_setting<br>
+- rweb_2_column_htl_prototype<br>
+#### remove<br>
+- None<br>

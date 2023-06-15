@@ -2395,11 +2395,12 @@
         }
       }
     },
-    "func_name": "P",
+    "func_name": "_",
     "func_name_init": "k",
     "query": {
-      "listId": "l",
-      "...a": "_"
+      "tweetId": "n",
+      "...()(0,i.d)": "_",
+      "withQuickPromoteEligibilityTweetFields": "!0"
     }
   },
   {
@@ -19414,11 +19415,12 @@
         }
       }
     },
-    "func_name": "P",
+    "func_name": "_",
     "func_name_init": "k",
     "query": {
-      "listId": "l",
-      "...a": "_"
+      "tweetId": "n",
+      "...()(0,i.d)": "_",
+      "withQuickPromoteEligibilityTweetFields": "!0"
     }
   },
   {
@@ -28730,6 +28732,25 @@
     }
   },
   {
+    "n": "97252",
+    "exports": {
+      "queryId": "DPcSNOtovRKeAwtHAqwUlg",
+      "operationName": "PrimaryContentQuery",
+      "operationType": "query",
+      "metadata": {
+        "featureSwitches": [
+          "c9s_list_members_action_api_enabled",
+          "c9s_superc9s_indication_enabled"
+        ],
+        "featureSwitch": {
+          "c9s_list_members_action_api_enabled": {
+            "value": "false"
+          }
+        }
+      }
+    }
+  },
+  {
     "n": "91382",
     "exports": {
       "queryId": "LVHUDWQ4jsU9iixwJUbT4Q",
@@ -29107,6 +29128,30 @@
       "queryId": "YWGRWrle16Fb6JvAjvjoTQ",
       "operationName": "useEditSensitiveMediaSettingsMutation",
       "operationType": "mutation",
+      "metadata": {
+        "featureSwitches": [],
+        "featureSwitch": {}
+      }
+    }
+  },
+  {
+    "n": "90670",
+    "exports": {
+      "queryId": "QrvZinvdKXtDKnHMnG4Vmg",
+      "operationName": "PreviewsEnabledButtonMutation",
+      "operationType": "mutation",
+      "metadata": {
+        "featureSwitches": [],
+        "featureSwitch": {}
+      }
+    }
+  },
+  {
+    "n": "45297",
+    "exports": {
+      "queryId": "qy8TYcwuhLG8WqKI9o5tJQ",
+      "operationName": "PreviewsEnabledButtonQuery",
+      "operationType": "query",
       "metadata": {
         "featureSwitches": [],
         "featureSwitch": {}
@@ -29575,6 +29620,18 @@
       "queryId": "QP5WVTrpvWikhlKybPX5jQ",
       "operationName": "useCoinPurchaseSessionUrlMutation",
       "operationType": "mutation",
+      "metadata": {
+        "featureSwitches": [],
+        "featureSwitch": {}
+      }
+    }
+  },
+  {
+    "n": "77884",
+    "exports": {
+      "queryId": "LZuezk5WyBssr6WviS2LCA",
+      "operationName": "UserJobListQueryScreenJobsQuery",
+      "operationType": "query",
       "metadata": {
         "featureSwitches": [],
         "featureSwitch": {}
