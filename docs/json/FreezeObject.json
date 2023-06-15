@@ -915,18 +915,12 @@
     "NORMAL": "normal"
   },
   {
+    "Image": "image",
+    "List": "list",
     "Live": "live",
     "Top": "top",
     "User": "user",
-    "Image": "image",
     "Video": "video"
-  },
-  {
-    "live": "top",
-    "top": "top",
-    "user": "user",
-    "image": "image",
-    "video": "video"
   },
   {
     "SEARCH": "search",
@@ -2226,9 +2220,9 @@
       "bold": "!0",
       "fontSize": "subtext3"
     },
-    "alt": "x",
-    "gif": "x",
-    "hd": "x",
+    "alt": "S",
+    "gif": "S",
+    "hd": "S",
     "likedByAuthor": {
       "backgroundColor": "gray50",
       "bold": "!1",
@@ -2977,7 +2971,7 @@
     "FocalTweet": "FocalTweet"
   },
   {
-    "...a": "_",
+    "...t": "_",
     "DeprecatedMediaFocus": "DeprecatedMediaFocus",
     "EmphasizedPromotedTweet": "EmphasizedPromotedTweet",
     "MapCardPromotedTweet": "MapCardPromotedTweet",
@@ -5592,7 +5586,7 @@
   },
   {
     "fetchStatus": "k.ZP.NONE",
-    "config": "Be"
+    "config": "Ne"
   },
   {
     "createInvite": "createInvite",
