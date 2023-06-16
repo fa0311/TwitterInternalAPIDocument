@@ -86,7 +86,7 @@
       "errors": {},
       "fetchStatus": {}
     },
-    "legacyAndUnifiedCards": {
+    "emailValidity": {
       "entities": {},
       "errors": {},
       "fetchStatus": {}
@@ -101,17 +101,17 @@
       "errors": {},
       "fetchStatus": {}
     },
-    "emailValidity": {
-      "entities": {},
-      "errors": {},
-      "fetchStatus": {}
-    },
     "passwordValidity": {
       "entities": {},
       "errors": {},
       "fetchStatus": {}
     },
     "phoneNumberValidity": {
+      "entities": {},
+      "errors": {},
+      "fetchStatus": {}
+    },
+    "legacyAndUnifiedCards": {
       "entities": {},
       "errors": {},
       "fetchStatus": {}
@@ -1973,8 +1973,14 @@
       "rweb_home_perf_client_prefetch_timeout_ms": {
         "value": "0"
       },
+      "rweb_lists_global_search_enabled": {
+        "value": "false"
+      },
       "rweb_lists_search_enabled": {
         "value": "true"
+      },
+      "rweb_lists_timeline_minimal_follow_button_enabled": {
+        "value": "false"
       },
       "rweb_lists_timeline_redesign_enabled": {
         "value": "true"
@@ -3580,7 +3586,7 @@
           "value": "true"
         },
         "longform_notetweets_inline_media_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "longform_notetweets_max_tweet_per_thread": {
           "value": "25"
@@ -4575,6 +4581,9 @@
         "rweb_home_perf_client_prefetch_timeout_ms": {
           "value": "0"
         },
+        "rweb_lists_global_search_enabled": {
+          "value": "false"
+        },
         "rweb_lists_search_enabled": {
           "value": "true"
         },
@@ -5332,10 +5341,10 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "bfd5082fa4e7b4150a82adf296fefa21"
+      "settingsVersion": "0284bee5ba5fa49623d80a4d41f8fa79"
     },
     "debug": {},
-    "featureSetToken": "641a248750690388db975d3ee2a86e8132bda378",
+    "featureSetToken": "72f1cc16b42f5ad991a5f9673ba013bd89554ee9",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -5408,7 +5417,7 @@
     "country": "US",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "168677681214774373",
+    "guestId": "168686320562993089",
     "hasCommunityMemberships": "false",
     "language": "en",
     "oneFactorLoginEligibility": {

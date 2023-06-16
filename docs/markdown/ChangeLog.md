@@ -953,3 +953,15 @@
 - rweb_2_column_htl_prototype<br>
 #### remove<br>
 - None<br>
+## 2023/06/15<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- rweb_lists_global_search_enabled<br>
+- rweb_lists_timeline_minimal_follow_button_enabled<br>
+#### remove<br>
+- None<br>
