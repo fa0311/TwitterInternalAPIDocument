@@ -125,7 +125,7 @@
             "value": "true"
           },
           "longform_notetweets_inline_media_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_graphql_exclude_directive_enabled": {
             "value": "true"
@@ -215,7 +215,7 @@
             "value": "true"
           },
           "longform_notetweets_inline_media_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_graphql_exclude_directive_enabled": {
             "value": "true"
@@ -378,7 +378,7 @@
             "value": "true"
           },
           "longform_notetweets_inline_media_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_graphql_exclude_directive_enabled": {
             "value": "true"
@@ -530,7 +530,7 @@
             "value": "true"
           },
           "longform_notetweets_inline_media_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -616,7 +616,7 @@
             "value": "true"
           },
           "longform_notetweets_inline_media_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -702,7 +702,7 @@
             "value": "true"
           },
           "longform_notetweets_inline_media_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -803,7 +803,7 @@
             "value": "true"
           },
           "longform_notetweets_inline_media_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -898,7 +898,7 @@
             "value": "true"
           },
           "longform_notetweets_inline_media_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -993,7 +993,7 @@
             "value": "true"
           },
           "longform_notetweets_inline_media_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -1084,7 +1084,7 @@
             "value": "true"
           },
           "longform_notetweets_inline_media_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -1178,7 +1178,7 @@
             "value": "true"
           },
           "longform_notetweets_inline_media_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -1271,7 +1271,7 @@
             "value": "true"
           },
           "longform_notetweets_inline_media_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -1364,7 +1364,7 @@
             "value": "true"
           },
           "longform_notetweets_inline_media_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -1476,7 +1476,7 @@
             "value": "true"
           },
           "longform_notetweets_inline_media_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -1569,7 +1569,7 @@
             "value": "true"
           },
           "longform_notetweets_inline_media_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -1712,7 +1712,7 @@
             "value": "true"
           },
           "longform_notetweets_inline_media_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -1830,7 +1830,7 @@
             "value": "true"
           },
           "longform_notetweets_inline_media_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_graphql_exclude_directive_enabled": {
             "value": "true"
@@ -2084,7 +2084,7 @@
             "value": "true"
           },
           "longform_notetweets_inline_media_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -2266,7 +2266,7 @@
             "value": "true"
           },
           "longform_notetweets_inline_media_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -2393,7 +2393,7 @@
             "value": "true"
           },
           "longform_notetweets_inline_media_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -2588,7 +2588,7 @@
             "value": "true"
           },
           "longform_notetweets_inline_media_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -2674,7 +2674,7 @@
             "value": "true"
           },
           "longform_notetweets_inline_media_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -2760,7 +2760,7 @@
             "value": "true"
           },
           "longform_notetweets_inline_media_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -2846,7 +2846,7 @@
             "value": "true"
           },
           "longform_notetweets_inline_media_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -2932,7 +2932,7 @@
             "value": "true"
           },
           "longform_notetweets_inline_media_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -3048,7 +3048,7 @@
             "value": "true"
           },
           "longform_notetweets_inline_media_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -3134,7 +3134,7 @@
             "value": "true"
           },
           "longform_notetweets_inline_media_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -3250,7 +3250,7 @@
             "value": "true"
           },
           "longform_notetweets_inline_media_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -3366,7 +3366,7 @@
             "value": "true"
           },
           "longform_notetweets_inline_media_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -3526,7 +3526,7 @@
             "value": "true"
           },
           "longform_notetweets_inline_media_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_graphql_exclude_directive_enabled": {
             "value": "true"
@@ -3654,7 +3654,7 @@
             "value": "true"
           },
           "longform_notetweets_inline_media_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -3740,7 +3740,7 @@
             "value": "true"
           },
           "longform_notetweets_inline_media_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -3868,7 +3868,7 @@
             "value": "true"
           },
           "longform_notetweets_inline_media_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -3963,7 +3963,7 @@
             "value": "true"
           },
           "longform_notetweets_inline_media_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -4058,7 +4058,7 @@
             "value": "true"
           },
           "longform_notetweets_inline_media_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -4149,7 +4149,7 @@
             "value": "true"
           },
           "longform_notetweets_inline_media_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -4243,7 +4243,7 @@
             "value": "true"
           },
           "longform_notetweets_inline_media_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -4336,7 +4336,7 @@
             "value": "true"
           },
           "longform_notetweets_inline_media_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -4429,7 +4429,7 @@
             "value": "true"
           },
           "longform_notetweets_inline_media_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -4524,7 +4524,7 @@
             "value": "true"
           },
           "longform_notetweets_inline_media_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -4617,7 +4617,7 @@
             "value": "true"
           },
           "longform_notetweets_inline_media_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -5014,7 +5014,7 @@
             "value": "true"
           },
           "longform_notetweets_inline_media_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -5159,7 +5159,7 @@
             "value": "true"
           },
           "longform_notetweets_inline_media_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -5355,7 +5355,7 @@
             "value": "true"
           },
           "longform_notetweets_inline_media_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -5456,7 +5456,7 @@
             "value": "true"
           },
           "longform_notetweets_inline_media_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -5542,7 +5542,7 @@
             "value": "true"
           },
           "longform_notetweets_inline_media_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -5628,7 +5628,7 @@
             "value": "true"
           },
           "longform_notetweets_inline_media_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -5714,7 +5714,7 @@
             "value": "true"
           },
           "longform_notetweets_inline_media_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -5809,7 +5809,7 @@
             "value": "true"
           },
           "longform_notetweets_inline_media_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -5904,7 +5904,7 @@
             "value": "true"
           },
           "longform_notetweets_inline_media_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -5995,7 +5995,7 @@
             "value": "true"
           },
           "longform_notetweets_inline_media_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -6089,7 +6089,7 @@
             "value": "true"
           },
           "longform_notetweets_inline_media_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -6182,7 +6182,7 @@
             "value": "true"
           },
           "longform_notetweets_inline_media_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -6275,7 +6275,7 @@
             "value": "true"
           },
           "longform_notetweets_inline_media_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -6370,7 +6370,7 @@
             "value": "true"
           },
           "longform_notetweets_inline_media_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -6463,7 +6463,7 @@
             "value": "true"
           },
           "longform_notetweets_inline_media_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -6590,7 +6590,7 @@
             "value": "true"
           },
           "longform_notetweets_inline_media_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -6676,7 +6676,7 @@
             "value": "true"
           },
           "longform_notetweets_inline_media_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -6762,7 +6762,7 @@
             "value": "true"
           },
           "longform_notetweets_inline_media_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -6848,7 +6848,7 @@
             "value": "true"
           },
           "longform_notetweets_inline_media_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -6934,7 +6934,7 @@
             "value": "true"
           },
           "longform_notetweets_inline_media_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -7020,7 +7020,7 @@
             "value": "true"
           },
           "longform_notetweets_inline_media_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -7106,7 +7106,7 @@
             "value": "true"
           },
           "longform_notetweets_inline_media_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -7200,7 +7200,7 @@
             "value": "true"
           },
           "longform_notetweets_inline_media_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -7295,7 +7295,7 @@
             "value": "true"
           },
           "longform_notetweets_inline_media_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -7390,7 +7390,7 @@
             "value": "true"
           },
           "longform_notetweets_inline_media_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -7481,7 +7481,7 @@
             "value": "true"
           },
           "longform_notetweets_inline_media_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -7780,7 +7780,7 @@
             "value": "true"
           },
           "longform_notetweets_inline_media_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -7883,7 +7883,7 @@
             "value": "true"
           },
           "longform_notetweets_inline_media_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -7969,7 +7969,7 @@
             "value": "true"
           },
           "longform_notetweets_inline_media_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -8055,7 +8055,7 @@
             "value": "true"
           },
           "longform_notetweets_inline_media_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -8150,7 +8150,7 @@
             "value": "true"
           },
           "longform_notetweets_inline_media_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -8261,7 +8261,7 @@
             "value": "true"
           },
           "longform_notetweets_inline_media_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -8476,7 +8476,7 @@
             "value": "true"
           },
           "longform_notetweets_inline_media_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -8642,7 +8642,7 @@
             "value": "true"
           },
           "longform_notetweets_inline_media_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -8878,7 +8878,7 @@
             "value": "true"
           },
           "longform_notetweets_inline_media_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -8970,7 +8970,7 @@
             "value": "true"
           },
           "longform_notetweets_inline_media_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -9103,7 +9103,7 @@
             "value": "true"
           },
           "longform_notetweets_inline_media_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -9196,7 +9196,7 @@
             "value": "true"
           },
           "longform_notetweets_inline_media_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -9289,7 +9289,7 @@
             "value": "true"
           },
           "longform_notetweets_inline_media_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -9384,7 +9384,7 @@
             "value": "true"
           },
           "longform_notetweets_inline_media_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -9477,7 +9477,7 @@
             "value": "true"
           },
           "longform_notetweets_inline_media_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -9604,7 +9604,7 @@
             "value": "true"
           },
           "longform_notetweets_inline_media_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -9690,7 +9690,7 @@
             "value": "true"
           },
           "longform_notetweets_inline_media_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -9776,7 +9776,7 @@
             "value": "true"
           },
           "longform_notetweets_inline_media_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -9874,7 +9874,7 @@
             "value": "true"
           },
           "longform_notetweets_inline_media_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -9969,7 +9969,7 @@
             "value": "true"
           },
           "longform_notetweets_inline_media_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -10064,7 +10064,7 @@
             "value": "true"
           },
           "longform_notetweets_inline_media_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -10155,7 +10155,7 @@
             "value": "true"
           },
           "longform_notetweets_inline_media_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -10249,7 +10249,7 @@
             "value": "true"
           },
           "longform_notetweets_inline_media_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -10342,7 +10342,7 @@
             "value": "true"
           },
           "longform_notetweets_inline_media_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -10435,7 +10435,7 @@
             "value": "true"
           },
           "longform_notetweets_inline_media_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -10530,7 +10530,7 @@
             "value": "true"
           },
           "longform_notetweets_inline_media_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -10623,7 +10623,7 @@
             "value": "true"
           },
           "longform_notetweets_inline_media_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -10774,7 +10774,7 @@
             "value": "true"
           },
           "longform_notetweets_inline_media_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -10860,7 +10860,7 @@
             "value": "true"
           },
           "longform_notetweets_inline_media_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -10946,7 +10946,7 @@
             "value": "true"
           },
           "longform_notetweets_inline_media_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -11032,7 +11032,7 @@
             "value": "true"
           },
           "longform_notetweets_inline_media_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -11127,7 +11127,7 @@
             "value": "true"
           },
           "longform_notetweets_inline_media_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -11222,7 +11222,7 @@
             "value": "true"
           },
           "longform_notetweets_inline_media_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -11313,7 +11313,7 @@
             "value": "true"
           },
           "longform_notetweets_inline_media_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -11407,7 +11407,7 @@
             "value": "true"
           },
           "longform_notetweets_inline_media_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -11506,7 +11506,7 @@
             "value": "true"
           },
           "longform_notetweets_inline_media_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -11599,7 +11599,7 @@
             "value": "true"
           },
           "longform_notetweets_inline_media_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -11692,7 +11692,7 @@
             "value": "true"
           },
           "longform_notetweets_inline_media_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -11787,7 +11787,7 @@
             "value": "true"
           },
           "longform_notetweets_inline_media_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -11882,7 +11882,7 @@
             "value": "true"
           },
           "longform_notetweets_inline_media_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -11980,7 +11980,7 @@
             "value": "true"
           },
           "longform_notetweets_inline_media_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -12073,7 +12073,7 @@
             "value": "true"
           },
           "longform_notetweets_inline_media_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -12165,7 +12165,7 @@
             "value": "true"
           },
           "longform_notetweets_inline_media_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -12261,7 +12261,7 @@
             "value": "true"
           },
           "longform_notetweets_inline_media_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -12360,7 +12360,7 @@
             "value": "true"
           },
           "longform_notetweets_inline_media_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -12449,7 +12449,7 @@
             "value": "true"
           },
           "longform_notetweets_inline_media_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -12545,7 +12545,7 @@
             "value": "true"
           },
           "longform_notetweets_inline_media_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -12643,7 +12643,7 @@
             "value": "true"
           },
           "longform_notetweets_inline_media_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -12908,7 +12908,7 @@
             "value": "true"
           },
           "longform_notetweets_inline_media_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -12994,7 +12994,7 @@
             "value": "true"
           },
           "longform_notetweets_inline_media_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -13087,7 +13087,7 @@
             "value": "true"
           },
           "longform_notetweets_inline_media_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -13469,7 +13469,7 @@
             "value": "true"
           },
           "longform_notetweets_inline_media_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -13555,7 +13555,7 @@
             "value": "true"
           },
           "longform_notetweets_inline_media_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -13641,7 +13641,7 @@
             "value": "true"
           },
           "longform_notetweets_inline_media_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -13727,7 +13727,7 @@
             "value": "true"
           },
           "longform_notetweets_inline_media_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -13813,7 +13813,7 @@
             "value": "true"
           },
           "longform_notetweets_inline_media_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -13899,7 +13899,7 @@
             "value": "true"
           },
           "longform_notetweets_inline_media_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -13994,7 +13994,7 @@
             "value": "true"
           },
           "longform_notetweets_inline_media_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -14089,7 +14089,7 @@
             "value": "true"
           },
           "longform_notetweets_inline_media_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -14180,7 +14180,7 @@
             "value": "true"
           },
           "longform_notetweets_inline_media_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -14274,7 +14274,7 @@
             "value": "true"
           },
           "longform_notetweets_inline_media_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -14367,7 +14367,7 @@
             "value": "true"
           },
           "longform_notetweets_inline_media_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -14460,7 +14460,7 @@
             "value": "true"
           },
           "longform_notetweets_inline_media_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -14553,7 +14553,7 @@
             "value": "true"
           },
           "longform_notetweets_inline_media_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -14665,7 +14665,7 @@
             "value": "true"
           },
           "longform_notetweets_inline_media_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -14788,7 +14788,7 @@
             "value": "true"
           },
           "longform_notetweets_inline_media_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -14914,7 +14914,7 @@
             "value": "true"
           },
           "longform_notetweets_inline_media_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -15006,7 +15006,7 @@
             "value": "true"
           },
           "longform_notetweets_inline_media_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -15097,7 +15097,7 @@
             "value": "true"
           },
           "longform_notetweets_inline_media_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -15189,7 +15189,7 @@
             "value": "true"
           },
           "longform_notetweets_inline_media_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -15282,7 +15282,7 @@
             "value": "true"
           },
           "longform_notetweets_inline_media_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -15409,7 +15409,7 @@
             "value": "true"
           },
           "longform_notetweets_inline_media_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -15527,7 +15527,7 @@
             "value": "true"
           },
           "longform_notetweets_inline_media_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -15622,7 +15622,7 @@
             "value": "true"
           },
           "longform_notetweets_inline_media_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -15702,7 +15702,7 @@
             "value": "true"
           },
           "longform_notetweets_inline_media_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_graphql_exclude_directive_enabled": {
             "value": "true"
@@ -15810,7 +15810,7 @@
             "value": "true"
           },
           "longform_notetweets_inline_media_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -15896,7 +15896,7 @@
             "value": "true"
           },
           "longform_notetweets_inline_media_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -15982,7 +15982,7 @@
             "value": "true"
           },
           "longform_notetweets_inline_media_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -16068,7 +16068,7 @@
             "value": "true"
           },
           "longform_notetweets_inline_media_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -16163,7 +16163,7 @@
             "value": "true"
           },
           "longform_notetweets_inline_media_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -16258,7 +16258,7 @@
             "value": "true"
           },
           "longform_notetweets_inline_media_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -16349,7 +16349,7 @@
             "value": "true"
           },
           "longform_notetweets_inline_media_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -16443,7 +16443,7 @@
             "value": "true"
           },
           "longform_notetweets_inline_media_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -16536,7 +16536,7 @@
             "value": "true"
           },
           "longform_notetweets_inline_media_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -16629,7 +16629,7 @@
             "value": "true"
           },
           "longform_notetweets_inline_media_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -16751,7 +16751,7 @@
             "value": "true"
           },
           "longform_notetweets_inline_media_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -16844,7 +16844,7 @@
             "value": "true"
           },
           "longform_notetweets_inline_media_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -16971,7 +16971,7 @@
             "value": "true"
           },
           "longform_notetweets_inline_media_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -17069,7 +17069,7 @@
             "value": "true"
           },
           "longform_notetweets_inline_media_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -17155,7 +17155,7 @@
             "value": "true"
           },
           "longform_notetweets_inline_media_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -17241,7 +17241,7 @@
             "value": "true"
           },
           "longform_notetweets_inline_media_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -17327,7 +17327,7 @@
             "value": "true"
           },
           "longform_notetweets_inline_media_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -17413,7 +17413,7 @@
             "value": "true"
           },
           "longform_notetweets_inline_media_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -17499,7 +17499,7 @@
             "value": "true"
           },
           "longform_notetweets_inline_media_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -17585,7 +17585,7 @@
             "value": "true"
           },
           "longform_notetweets_inline_media_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -17713,7 +17713,7 @@
             "value": "true"
           },
           "longform_notetweets_inline_media_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -17799,7 +17799,7 @@
             "value": "true"
           },
           "longform_notetweets_inline_media_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -17885,7 +17885,7 @@
             "value": "true"
           },
           "longform_notetweets_inline_media_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -17971,7 +17971,7 @@
             "value": "true"
           },
           "longform_notetweets_inline_media_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -18069,7 +18069,7 @@
             "value": "true"
           },
           "longform_notetweets_inline_media_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -18327,7 +18327,7 @@
             "value": "true"
           },
           "longform_notetweets_inline_media_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -18413,7 +18413,7 @@
             "value": "true"
           },
           "longform_notetweets_inline_media_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -18503,7 +18503,7 @@
             "value": "true"
           },
           "longform_notetweets_inline_media_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -18633,7 +18633,7 @@
             "value": "true"
           },
           "longform_notetweets_inline_media_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_graphql_exclude_directive_enabled": {
             "value": "true"
@@ -18887,7 +18887,7 @@
             "value": "true"
           },
           "longform_notetweets_inline_media_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -19069,7 +19069,7 @@
             "value": "true"
           },
           "longform_notetweets_inline_media_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -19155,7 +19155,7 @@
             "value": "true"
           },
           "longform_notetweets_inline_media_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -19241,7 +19241,7 @@
             "value": "true"
           },
           "longform_notetweets_inline_media_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -19327,7 +19327,7 @@
             "value": "true"
           },
           "longform_notetweets_inline_media_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -19454,7 +19454,7 @@
             "value": "true"
           },
           "longform_notetweets_inline_media_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -19548,7 +19548,7 @@
             "value": "true"
           },
           "longform_notetweets_inline_media_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -19642,7 +19642,7 @@
             "value": "true"
           },
           "longform_notetweets_inline_media_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -19728,7 +19728,7 @@
             "value": "true"
           },
           "longform_notetweets_inline_media_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -19844,7 +19844,7 @@
             "value": "true"
           },
           "longform_notetweets_inline_media_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -19930,7 +19930,7 @@
             "value": "true"
           },
           "longform_notetweets_inline_media_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -20076,7 +20076,7 @@
             "value": "true"
           },
           "longform_notetweets_inline_media_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -20342,7 +20342,7 @@
             "value": "true"
           },
           "longform_notetweets_inline_media_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -20514,7 +20514,7 @@
             "value": "true"
           },
           "longform_notetweets_inline_media_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_graphql_exclude_directive_enabled": {
             "value": "true"
@@ -20732,7 +20732,7 @@
             "value": "true"
           },
           "longform_notetweets_inline_media_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -20818,7 +20818,7 @@
             "value": "true"
           },
           "longform_notetweets_inline_media_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -20958,7 +20958,7 @@
             "value": "true"
           },
           "longform_notetweets_inline_media_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -21121,7 +21121,7 @@
             "value": "true"
           },
           "longform_notetweets_inline_media_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -21409,7 +21409,7 @@
             "value": "true"
           },
           "longform_notetweets_inline_media_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -21614,7 +21614,7 @@
             "value": "true"
           },
           "longform_notetweets_inline_media_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -21700,7 +21700,7 @@
             "value": "true"
           },
           "longform_notetweets_inline_media_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -21807,7 +21807,7 @@
             "value": "true"
           },
           "longform_notetweets_inline_media_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -21902,7 +21902,7 @@
             "value": "true"
           },
           "longform_notetweets_inline_media_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -21997,7 +21997,7 @@
             "value": "true"
           },
           "longform_notetweets_inline_media_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -22088,7 +22088,7 @@
             "value": "true"
           },
           "longform_notetweets_inline_media_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -22197,7 +22197,7 @@
             "value": "true"
           },
           "longform_notetweets_inline_media_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -22283,7 +22283,7 @@
             "value": "true"
           },
           "longform_notetweets_inline_media_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -22369,7 +22369,7 @@
             "value": "true"
           },
           "longform_notetweets_inline_media_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -22455,7 +22455,7 @@
             "value": "true"
           },
           "longform_notetweets_inline_media_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -22759,7 +22759,7 @@
             "value": "true"
           },
           "longform_notetweets_inline_media_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -22874,7 +22874,7 @@
             "value": "true"
           },
           "longform_notetweets_inline_media_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -22960,7 +22960,7 @@
             "value": "true"
           },
           "longform_notetweets_inline_media_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -23046,7 +23046,7 @@
             "value": "true"
           },
           "longform_notetweets_inline_media_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -23141,7 +23141,7 @@
             "value": "true"
           },
           "longform_notetweets_inline_media_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -23252,7 +23252,7 @@
             "value": "true"
           },
           "longform_notetweets_inline_media_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -23479,7 +23479,7 @@
             "value": "true"
           },
           "longform_notetweets_inline_media_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -23605,7 +23605,7 @@
             "value": "true"
           },
           "longform_notetweets_inline_media_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -23731,7 +23731,7 @@
             "value": "true"
           },
           "longform_notetweets_inline_media_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -23967,7 +23967,7 @@
             "value": "true"
           },
           "longform_notetweets_inline_media_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -24059,7 +24059,7 @@
             "value": "true"
           },
           "longform_notetweets_inline_media_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -24204,7 +24204,7 @@
             "value": "true"
           },
           "longform_notetweets_inline_media_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -24297,7 +24297,7 @@
             "value": "true"
           },
           "longform_notetweets_inline_media_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -24390,7 +24390,7 @@
             "value": "true"
           },
           "longform_notetweets_inline_media_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -24670,7 +24670,7 @@
             "value": "true"
           },
           "longform_notetweets_inline_media_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -24765,7 +24765,7 @@
             "value": "true"
           },
           "longform_notetweets_inline_media_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -24851,7 +24851,7 @@
             "value": "true"
           },
           "longform_notetweets_inline_media_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -24944,7 +24944,7 @@
             "value": "true"
           },
           "longform_notetweets_inline_media_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -25086,7 +25086,7 @@
             "value": "true"
           },
           "longform_notetweets_inline_media_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -25232,7 +25232,7 @@
             "value": "true"
           },
           "longform_notetweets_inline_media_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -25356,7 +25356,7 @@
             "value": "true"
           },
           "longform_notetweets_inline_media_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -25479,7 +25479,7 @@
             "value": "true"
           },
           "longform_notetweets_inline_media_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -25605,7 +25605,7 @@
             "value": "true"
           },
           "longform_notetweets_inline_media_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -25697,7 +25697,7 @@
             "value": "true"
           },
           "longform_notetweets_inline_media_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -25788,7 +25788,7 @@
             "value": "true"
           },
           "longform_notetweets_inline_media_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -25898,7 +25898,7 @@
             "value": "true"
           },
           "longform_notetweets_inline_media_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -25969,7 +25969,7 @@
             "value": "true"
           },
           "longform_notetweets_inline_media_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_graphql_exclude_directive_enabled": {
             "value": "true"
@@ -26104,7 +26104,7 @@
             "value": "true"
           },
           "longform_notetweets_inline_media_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -26202,7 +26202,7 @@
             "value": "true"
           },
           "longform_notetweets_inline_media_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -26288,7 +26288,7 @@
             "value": "true"
           },
           "longform_notetweets_inline_media_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -26374,7 +26374,7 @@
             "value": "true"
           },
           "longform_notetweets_inline_media_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -26460,7 +26460,7 @@
             "value": "true"
           },
           "longform_notetweets_inline_media_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -26546,7 +26546,7 @@
             "value": "true"
           },
           "longform_notetweets_inline_media_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -26632,7 +26632,7 @@
             "value": "true"
           },
           "longform_notetweets_inline_media_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -26718,7 +26718,7 @@
             "value": "true"
           },
           "longform_notetweets_inline_media_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -26816,7 +26816,7 @@
             "value": "true"
           },
           "longform_notetweets_inline_media_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -26902,7 +26902,7 @@
             "value": "true"
           },
           "longform_notetweets_inline_media_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -27014,7 +27014,7 @@
             "value": "true"
           },
           "longform_notetweets_inline_media_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -27212,7 +27212,7 @@
             "value": "true"
           },
           "longform_notetweets_inline_media_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -27305,7 +27305,7 @@
             "value": "true"
           },
           "longform_notetweets_inline_media_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -27397,7 +27397,7 @@
             "value": "true"
           },
           "longform_notetweets_inline_media_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -27493,7 +27493,7 @@
             "value": "true"
           },
           "longform_notetweets_inline_media_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -27592,7 +27592,7 @@
             "value": "true"
           },
           "longform_notetweets_inline_media_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -27693,7 +27693,7 @@
             "value": "true"
           },
           "longform_notetweets_inline_media_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -27789,7 +27789,7 @@
             "value": "true"
           },
           "longform_notetweets_inline_media_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -27887,7 +27887,7 @@
             "value": "true"
           },
           "longform_notetweets_inline_media_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -28092,7 +28092,7 @@
             "value": "true"
           },
           "longform_notetweets_inline_media_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -28107,6 +28107,18 @@
       "cursor": "r",
       "context": "i",
       "...()(0,a.d)": "_"
+    }
+  },
+  {
+    "n": "12533",
+    "exports": {
+      "queryId": "ZesI-zwzK86uoWFu5IhLDg",
+      "operationName": "CommunitiesTabBarItemQuery",
+      "operationType": "query",
+      "metadata": {
+        "featureSwitches": [],
+        "featureSwitch": {}
+      }
     }
   },
   {
@@ -28222,7 +28234,7 @@
             "value": "true"
           },
           "longform_notetweets_inline_media_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "longform_notetweets_rich_text_read_enabled": {
             "value": "true"
@@ -29803,7 +29815,7 @@
             "value": "true"
           },
           "longform_notetweets_inline_media_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "longform_notetweets_rich_text_read_enabled": {
             "value": "true"

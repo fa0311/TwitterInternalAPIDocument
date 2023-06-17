@@ -128,7 +128,7 @@ Login Required: `...`<br>
 | longform_notetweets_consumption_enabled                                 | boolean | True       |
 | tweet_awards_web_tipping_enabled                                        | boolean | False      |
 | longform_notetweets_rich_text_read_enabled                              | boolean | True       |
-| longform_notetweets_inline_media_enabled                                | boolean | False      |
+| longform_notetweets_inline_media_enabled                                | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
 | freedom_of_speech_not_reach_fetch_enabled                               | boolean | True       |
@@ -168,7 +168,7 @@ Login Required: `...`<br>
 | longform_notetweets_consumption_enabled                                 | boolean | True       |
 | tweet_awards_web_tipping_enabled                                        | boolean | False      |
 | longform_notetweets_rich_text_read_enabled                              | boolean | True       |
-| longform_notetweets_inline_media_enabled                                | boolean | False      |
+| longform_notetweets_inline_media_enabled                                | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
 | freedom_of_speech_not_reach_fetch_enabled                               | boolean | True       |
@@ -267,7 +267,7 @@ Login Required: `...`<br>
 | standardized_nudges_misinfo                                             | boolean | True       |
 | tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | False      |
 | longform_notetweets_rich_text_read_enabled                              | boolean | True       |
-| longform_notetweets_inline_media_enabled                                | boolean | False      |
+| longform_notetweets_inline_media_enabled                                | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
 | responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean | False      |
@@ -349,7 +349,7 @@ Login Required: `...`<br>
 | standardized_nudges_misinfo                                             | boolean | True       |
 | tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | False      |
 | longform_notetweets_rich_text_read_enabled                              | boolean | True       |
-| longform_notetweets_inline_media_enabled                                | boolean | False      |
+| longform_notetweets_inline_media_enabled                                | boolean | True       |
 | responsive_web_enhance_cards_enabled                                    | boolean | False      |
 
 #### queryId<br>
@@ -380,7 +380,7 @@ Login Required: `...`<br>
 | standardized_nudges_misinfo                                             | boolean | True       |
 | tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | False      |
 | longform_notetweets_rich_text_read_enabled                              | boolean | True       |
-| longform_notetweets_inline_media_enabled                                | boolean | False      |
+| longform_notetweets_inline_media_enabled                                | boolean | True       |
 | responsive_web_enhance_cards_enabled                                    | boolean | False      |
 
 #### queryId<br>
@@ -411,7 +411,7 @@ Login Required: `...`<br>
 | standardized_nudges_misinfo                                             | boolean | True       |
 | tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | False      |
 | longform_notetweets_rich_text_read_enabled                              | boolean | True       |
-| longform_notetweets_inline_media_enabled                                | boolean | False      |
+| longform_notetweets_inline_media_enabled                                | boolean | True       |
 | responsive_web_enhance_cards_enabled                                    | boolean | False      |
 
 #### queryId<br>
@@ -460,7 +460,7 @@ Login Required: `...`<br>
 | standardized_nudges_misinfo                                             | boolean | True       |
 | tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | False      |
 | longform_notetweets_rich_text_read_enabled                              | boolean | True       |
-| longform_notetweets_inline_media_enabled                                | boolean | False      |
+| longform_notetweets_inline_media_enabled                                | boolean | True       |
 | responsive_web_enhance_cards_enabled                                    | boolean | False      |
 
 #### queryId<br>
@@ -498,7 +498,7 @@ Login Required: `...`<br>
 | standardized_nudges_misinfo                                             | boolean | True       |
 | tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | False      |
 | longform_notetweets_rich_text_read_enabled                              | boolean | True       |
-| longform_notetweets_inline_media_enabled                                | boolean | False      |
+| longform_notetweets_inline_media_enabled                                | boolean | True       |
 | responsive_web_enhance_cards_enabled                                    | boolean | False      |
 
 #### queryId<br>
@@ -532,7 +532,7 @@ Login Required: `...`<br>
 | standardized_nudges_misinfo                                             | boolean | True       |
 | tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | False      |
 | longform_notetweets_rich_text_read_enabled                              | boolean | True       |
-| longform_notetweets_inline_media_enabled                                | boolean | False      |
+| longform_notetweets_inline_media_enabled                                | boolean | True       |
 | responsive_web_enhance_cards_enabled                                    | boolean | False      |
 
 #### queryId<br>
@@ -569,7 +569,7 @@ Login Required: `...`<br>
 | standardized_nudges_misinfo                                             | boolean | True       |
 | tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | False      |
 | longform_notetweets_rich_text_read_enabled                              | boolean | True       |
-| longform_notetweets_inline_media_enabled                                | boolean | False      |
+| longform_notetweets_inline_media_enabled                                | boolean | True       |
 | responsive_web_enhance_cards_enabled                                    | boolean | False      |
 
 #### queryId<br>
@@ -605,7 +605,7 @@ Login Required: `...`<br>
 | standardized_nudges_misinfo                                             | boolean | True       |
 | tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | False      |
 | longform_notetweets_rich_text_read_enabled                              | boolean | True       |
-| longform_notetweets_inline_media_enabled                                | boolean | False      |
+| longform_notetweets_inline_media_enabled                                | boolean | True       |
 | responsive_web_enhance_cards_enabled                                    | boolean | False      |
 
 #### queryId<br>
@@ -641,7 +641,7 @@ Login Required: `...`<br>
 | standardized_nudges_misinfo                                             | boolean | True       |
 | tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | False      |
 | longform_notetweets_rich_text_read_enabled                              | boolean | True       |
-| longform_notetweets_inline_media_enabled                                | boolean | False      |
+| longform_notetweets_inline_media_enabled                                | boolean | True       |
 | responsive_web_enhance_cards_enabled                                    | boolean | False      |
 
 #### queryId<br>
@@ -679,7 +679,7 @@ Login Required: `...`<br>
 | standardized_nudges_misinfo                                             | boolean | True       |
 | tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | False      |
 | longform_notetweets_rich_text_read_enabled                              | boolean | True       |
-| longform_notetweets_inline_media_enabled                                | boolean | False      |
+| longform_notetweets_inline_media_enabled                                | boolean | True       |
 | responsive_web_enhance_cards_enabled                                    | boolean | False      |
 
 #### queryId<br>
@@ -729,7 +729,7 @@ Login Required: `...`<br>
 | standardized_nudges_misinfo                                             | boolean | True       |
 | tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | False      |
 | longform_notetweets_rich_text_read_enabled                              | boolean | True       |
-| longform_notetweets_inline_media_enabled                                | boolean | False      |
+| longform_notetweets_inline_media_enabled                                | boolean | True       |
 | responsive_web_enhance_cards_enabled                                    | boolean | False      |
 
 #### queryId<br>
@@ -764,7 +764,7 @@ Login Required: `...`<br>
 | standardized_nudges_misinfo                                             | boolean | True       |
 | tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | False      |
 | longform_notetweets_rich_text_read_enabled                              | boolean | True       |
-| longform_notetweets_inline_media_enabled                                | boolean | False      |
+| longform_notetweets_inline_media_enabled                                | boolean | True       |
 | responsive_web_enhance_cards_enabled                                    | boolean | False      |
 
 #### queryId<br>
@@ -827,7 +827,7 @@ Login Required: `...`<br>
 | tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | False      |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
 | longform_notetweets_rich_text_read_enabled                              | boolean | True       |
-| longform_notetweets_inline_media_enabled                                | boolean | False      |
+| longform_notetweets_inline_media_enabled                                | boolean | True       |
 | responsive_web_enhance_cards_enabled                                    | boolean | False      |
 
 #### queryId<br>
@@ -897,7 +897,7 @@ Login Required: `...`<br>
 | standardized_nudges_misinfo                                             | boolean | True       |
 | tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | False      |
 | longform_notetweets_rich_text_read_enabled                              | boolean | True       |
-| longform_notetweets_inline_media_enabled                                | boolean | False      |
+| longform_notetweets_inline_media_enabled                                | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
@@ -1062,7 +1062,7 @@ Login Required: `...`<br>
 | standardized_nudges_misinfo                                             | boolean | True       |
 | tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | False      |
 | longform_notetweets_rich_text_read_enabled                              | boolean | True       |
-| longform_notetweets_inline_media_enabled                                | boolean | False      |
+| longform_notetweets_inline_media_enabled                                | boolean | True       |
 | responsive_web_enhance_cards_enabled                                    | boolean | False      |
 
 #### queryId<br>
@@ -1166,7 +1166,7 @@ Login Required: `...`<br>
 | standardized_nudges_misinfo                                             | boolean | True       |
 | tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | False      |
 | longform_notetweets_rich_text_read_enabled                              | boolean | True       |
-| longform_notetweets_inline_media_enabled                                | boolean | False      |
+| longform_notetweets_inline_media_enabled                                | boolean | True       |
 | responsive_web_enhance_cards_enabled                                    | boolean | False      |
 
 #### queryId<br>
@@ -1229,7 +1229,7 @@ Login Required: `...`<br>
 | standardized_nudges_misinfo                                             | boolean | True       |
 | tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | False      |
 | longform_notetweets_rich_text_read_enabled                              | boolean | True       |
-| longform_notetweets_inline_media_enabled                                | boolean | False      |
+| longform_notetweets_inline_media_enabled                                | boolean | True       |
 | responsive_web_enhance_cards_enabled                                    | boolean | False      |
 
 #### queryId<br>
@@ -1344,7 +1344,7 @@ Login Required: `...`<br>
 | standardized_nudges_misinfo                                             | boolean | True       |
 | tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | False      |
 | longform_notetweets_rich_text_read_enabled                              | boolean | True       |
-| longform_notetweets_inline_media_enabled                                | boolean | False      |
+| longform_notetweets_inline_media_enabled                                | boolean | True       |
 | responsive_web_enhance_cards_enabled                                    | boolean | False      |
 
 #### queryId<br>
@@ -1375,7 +1375,7 @@ Login Required: `...`<br>
 | standardized_nudges_misinfo                                             | boolean | True       |
 | tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | False      |
 | longform_notetweets_rich_text_read_enabled                              | boolean | True       |
-| longform_notetweets_inline_media_enabled                                | boolean | False      |
+| longform_notetweets_inline_media_enabled                                | boolean | True       |
 | responsive_web_enhance_cards_enabled                                    | boolean | False      |
 
 #### queryId<br>
@@ -1406,7 +1406,7 @@ Login Required: `...`<br>
 | standardized_nudges_misinfo                                             | boolean | True       |
 | tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | False      |
 | longform_notetweets_rich_text_read_enabled                              | boolean | True       |
-| longform_notetweets_inline_media_enabled                                | boolean | False      |
+| longform_notetweets_inline_media_enabled                                | boolean | True       |
 | responsive_web_enhance_cards_enabled                                    | boolean | False      |
 
 #### queryId<br>
@@ -1437,7 +1437,7 @@ Login Required: `...`<br>
 | standardized_nudges_misinfo                                             | boolean | True       |
 | tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | False      |
 | longform_notetweets_rich_text_read_enabled                              | boolean | True       |
-| longform_notetweets_inline_media_enabled                                | boolean | False      |
+| longform_notetweets_inline_media_enabled                                | boolean | True       |
 | responsive_web_enhance_cards_enabled                                    | boolean | False      |
 
 #### queryId<br>
@@ -1468,7 +1468,7 @@ Login Required: `...`<br>
 | standardized_nudges_misinfo                                             | boolean | True       |
 | tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | False      |
 | longform_notetweets_rich_text_read_enabled                              | boolean | True       |
-| longform_notetweets_inline_media_enabled                                | boolean | False      |
+| longform_notetweets_inline_media_enabled                                | boolean | True       |
 | responsive_web_enhance_cards_enabled                                    | boolean | False      |
 
 #### queryId<br>
@@ -1516,7 +1516,7 @@ Login Required: `...`<br>
 | standardized_nudges_misinfo                                             | boolean | True       |
 | tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | False      |
 | longform_notetweets_rich_text_read_enabled                              | boolean | True       |
-| longform_notetweets_inline_media_enabled                                | boolean | False      |
+| longform_notetweets_inline_media_enabled                                | boolean | True       |
 | responsive_web_enhance_cards_enabled                                    | boolean | False      |
 
 #### queryId<br>
@@ -1547,7 +1547,7 @@ Login Required: `...`<br>
 | standardized_nudges_misinfo                                             | boolean | True       |
 | tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | False      |
 | longform_notetweets_rich_text_read_enabled                              | boolean | True       |
-| longform_notetweets_inline_media_enabled                                | boolean | False      |
+| longform_notetweets_inline_media_enabled                                | boolean | True       |
 | responsive_web_enhance_cards_enabled                                    | boolean | False      |
 
 #### queryId<br>
@@ -1595,7 +1595,7 @@ Login Required: `...`<br>
 | standardized_nudges_misinfo                                             | boolean | True       |
 | tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | False      |
 | longform_notetweets_rich_text_read_enabled                              | boolean | True       |
-| longform_notetweets_inline_media_enabled                                | boolean | False      |
+| longform_notetweets_inline_media_enabled                                | boolean | True       |
 | responsive_web_enhance_cards_enabled                                    | boolean | False      |
 
 #### queryId<br>
@@ -1643,7 +1643,7 @@ Login Required: `...`<br>
 | standardized_nudges_misinfo                                             | boolean | True       |
 | tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | False      |
 | longform_notetweets_rich_text_read_enabled                              | boolean | True       |
-| longform_notetweets_inline_media_enabled                                | boolean | False      |
+| longform_notetweets_inline_media_enabled                                | boolean | True       |
 | responsive_web_enhance_cards_enabled                                    | boolean | False      |
 
 #### queryId<br>
@@ -1720,7 +1720,7 @@ Login Required: `...`<br>
 | standardized_nudges_misinfo                                             | boolean | True       |
 | tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | False      |
 | longform_notetweets_rich_text_read_enabled                              | boolean | True       |
-| longform_notetweets_inline_media_enabled                                | boolean | False      |
+| longform_notetweets_inline_media_enabled                                | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
 | responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean | False      |
@@ -1772,7 +1772,7 @@ Login Required: `...`<br>
 | standardized_nudges_misinfo                                             | boolean | True       |
 | tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | False      |
 | longform_notetweets_rich_text_read_enabled                              | boolean | True       |
-| longform_notetweets_inline_media_enabled                                | boolean | False      |
+| longform_notetweets_inline_media_enabled                                | boolean | True       |
 | responsive_web_enhance_cards_enabled                                    | boolean | False      |
 
 #### queryId<br>
@@ -1803,7 +1803,7 @@ Login Required: `...`<br>
 | standardized_nudges_misinfo                                             | boolean | True       |
 | tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | False      |
 | longform_notetweets_rich_text_read_enabled                              | boolean | True       |
-| longform_notetweets_inline_media_enabled                                | boolean | False      |
+| longform_notetweets_inline_media_enabled                                | boolean | True       |
 | responsive_web_enhance_cards_enabled                                    | boolean | False      |
 
 #### queryId<br>
@@ -1869,7 +1869,7 @@ Login Required: `...`<br>
 | standardized_nudges_misinfo                                             | boolean | True       |
 | tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | False      |
 | longform_notetweets_rich_text_read_enabled                              | boolean | True       |
-| longform_notetweets_inline_media_enabled                                | boolean | False      |
+| longform_notetweets_inline_media_enabled                                | boolean | True       |
 | responsive_web_enhance_cards_enabled                                    | boolean | False      |
 
 #### queryId<br>
@@ -1907,7 +1907,7 @@ Login Required: `...`<br>
 | standardized_nudges_misinfo                                             | boolean | True       |
 | tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | False      |
 | longform_notetweets_rich_text_read_enabled                              | boolean | True       |
-| longform_notetweets_inline_media_enabled                                | boolean | False      |
+| longform_notetweets_inline_media_enabled                                | boolean | True       |
 | responsive_web_enhance_cards_enabled                                    | boolean | False      |
 
 #### queryId<br>
@@ -1941,7 +1941,7 @@ Login Required: `...`<br>
 | standardized_nudges_misinfo                                             | boolean | True       |
 | tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | False      |
 | longform_notetweets_rich_text_read_enabled                              | boolean | True       |
-| longform_notetweets_inline_media_enabled                                | boolean | False      |
+| longform_notetweets_inline_media_enabled                                | boolean | True       |
 | responsive_web_enhance_cards_enabled                                    | boolean | False      |
 
 #### queryId<br>
@@ -1978,7 +1978,7 @@ Login Required: `...`<br>
 | standardized_nudges_misinfo                                             | boolean | True       |
 | tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | False      |
 | longform_notetweets_rich_text_read_enabled                              | boolean | True       |
-| longform_notetweets_inline_media_enabled                                | boolean | False      |
+| longform_notetweets_inline_media_enabled                                | boolean | True       |
 | responsive_web_enhance_cards_enabled                                    | boolean | False      |
 
 #### queryId<br>
@@ -2014,7 +2014,7 @@ Login Required: `...`<br>
 | standardized_nudges_misinfo                                             | boolean | True       |
 | tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | False      |
 | longform_notetweets_rich_text_read_enabled                              | boolean | True       |
-| longform_notetweets_inline_media_enabled                                | boolean | False      |
+| longform_notetweets_inline_media_enabled                                | boolean | True       |
 | responsive_web_enhance_cards_enabled                                    | boolean | False      |
 
 #### queryId<br>
@@ -2050,7 +2050,7 @@ Login Required: `...`<br>
 | standardized_nudges_misinfo                                             | boolean | True       |
 | tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | False      |
 | longform_notetweets_rich_text_read_enabled                              | boolean | True       |
-| longform_notetweets_inline_media_enabled                                | boolean | False      |
+| longform_notetweets_inline_media_enabled                                | boolean | True       |
 | responsive_web_enhance_cards_enabled                                    | boolean | False      |
 
 #### queryId<br>
@@ -2088,7 +2088,7 @@ Login Required: `...`<br>
 | standardized_nudges_misinfo                                             | boolean | True       |
 | tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | False      |
 | longform_notetweets_rich_text_read_enabled                              | boolean | True       |
-| longform_notetweets_inline_media_enabled                                | boolean | False      |
+| longform_notetweets_inline_media_enabled                                | boolean | True       |
 | responsive_web_enhance_cards_enabled                                    | boolean | False      |
 
 #### queryId<br>
@@ -2124,7 +2124,7 @@ Login Required: `...`<br>
 | standardized_nudges_misinfo                                             | boolean | True       |
 | tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | False      |
 | longform_notetweets_rich_text_read_enabled                              | boolean | True       |
-| longform_notetweets_inline_media_enabled                                | boolean | False      |
+| longform_notetweets_inline_media_enabled                                | boolean | True       |
 | responsive_web_enhance_cards_enabled                                    | boolean | False      |
 
 #### queryId<br>
@@ -2159,7 +2159,7 @@ Login Required: `...`<br>
 | standardized_nudges_misinfo                                             | boolean | True       |
 | tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | False      |
 | longform_notetweets_rich_text_read_enabled                              | boolean | True       |
-| longform_notetweets_inline_media_enabled                                | boolean | False      |
+| longform_notetweets_inline_media_enabled                                | boolean | True       |
 | responsive_web_enhance_cards_enabled                                    | boolean | False      |
 
 #### queryId<br>
@@ -2363,7 +2363,7 @@ Login Required: `...`<br>
 | standardized_nudges_misinfo                                             | boolean | True       |
 | tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | False      |
 | longform_notetweets_rich_text_read_enabled                              | boolean | True       |
-| longform_notetweets_inline_media_enabled                                | boolean | False      |
+| longform_notetweets_inline_media_enabled                                | boolean | True       |
 | responsive_web_enhance_cards_enabled                                    | boolean | False      |
 
 #### queryId<br>
@@ -2441,7 +2441,7 @@ Login Required: `...`<br>
 | standardized_nudges_misinfo                                             | boolean | True       |
 | tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | False      |
 | longform_notetweets_rich_text_read_enabled                              | boolean | True       |
-| longform_notetweets_inline_media_enabled                                | boolean | False      |
+| longform_notetweets_inline_media_enabled                                | boolean | True       |
 | responsive_web_enhance_cards_enabled                                    | boolean | False      |
 
 #### queryId<br>
@@ -2564,7 +2564,7 @@ Login Required: `...`<br>
 | standardized_nudges_misinfo                                             | boolean | True       |
 | tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | False      |
 | longform_notetweets_rich_text_read_enabled                              | boolean | True       |
-| longform_notetweets_inline_media_enabled                                | boolean | False      |
+| longform_notetweets_inline_media_enabled                                | boolean | True       |
 | responsive_web_enhance_cards_enabled                                    | boolean | False      |
 
 #### queryId<br>
@@ -2606,7 +2606,7 @@ Login Required: `...`<br>
 | standardized_nudges_misinfo                                             | boolean | True       |
 | tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | False      |
 | longform_notetweets_rich_text_read_enabled                              | boolean | True       |
-| longform_notetweets_inline_media_enabled                                | boolean | False      |
+| longform_notetweets_inline_media_enabled                                | boolean | True       |
 | responsive_web_enhance_cards_enabled                                    | boolean | False      |
 
 #### queryId<br>
@@ -2637,7 +2637,7 @@ Login Required: `...`<br>
 | standardized_nudges_misinfo                                             | boolean | True       |
 | tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | False      |
 | longform_notetweets_rich_text_read_enabled                              | boolean | True       |
-| longform_notetweets_inline_media_enabled                                | boolean | False      |
+| longform_notetweets_inline_media_enabled                                | boolean | True       |
 | responsive_web_enhance_cards_enabled                                    | boolean | False      |
 
 #### queryId<br>
@@ -2668,7 +2668,7 @@ Login Required: `...`<br>
 | standardized_nudges_misinfo                                             | boolean | True       |
 | tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | False      |
 | longform_notetweets_rich_text_read_enabled                              | boolean | True       |
-| longform_notetweets_inline_media_enabled                                | boolean | False      |
+| longform_notetweets_inline_media_enabled                                | boolean | True       |
 | responsive_web_enhance_cards_enabled                                    | boolean | False      |
 
 #### queryId<br>
@@ -2706,7 +2706,7 @@ Login Required: `...`<br>
 | standardized_nudges_misinfo                                             | boolean | True       |
 | tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | False      |
 | longform_notetweets_rich_text_read_enabled                              | boolean | True       |
-| longform_notetweets_inline_media_enabled                                | boolean | False      |
+| longform_notetweets_inline_media_enabled                                | boolean | True       |
 | responsive_web_enhance_cards_enabled                                    | boolean | False      |
 
 #### queryId<br>
@@ -2744,7 +2744,7 @@ Login Required: `...`<br>
 | standardized_nudges_misinfo                                             | boolean | True       |
 | tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | False      |
 | longform_notetweets_rich_text_read_enabled                              | boolean | True       |
-| longform_notetweets_inline_media_enabled                                | boolean | False      |
+| longform_notetweets_inline_media_enabled                                | boolean | True       |
 | responsive_web_enhance_cards_enabled                                    | boolean | False      |
 
 #### queryId<br>
@@ -2778,7 +2778,7 @@ Login Required: `...`<br>
 | standardized_nudges_misinfo                                             | boolean | True       |
 | tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | False      |
 | longform_notetweets_rich_text_read_enabled                              | boolean | True       |
-| longform_notetweets_inline_media_enabled                                | boolean | False      |
+| longform_notetweets_inline_media_enabled                                | boolean | True       |
 | responsive_web_enhance_cards_enabled                                    | boolean | False      |
 
 #### queryId<br>
@@ -2815,7 +2815,7 @@ Login Required: `...`<br>
 | standardized_nudges_misinfo                                             | boolean | True       |
 | tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | False      |
 | longform_notetweets_rich_text_read_enabled                              | boolean | True       |
-| longform_notetweets_inline_media_enabled                                | boolean | False      |
+| longform_notetweets_inline_media_enabled                                | boolean | True       |
 | responsive_web_enhance_cards_enabled                                    | boolean | False      |
 
 #### queryId<br>
@@ -2851,7 +2851,7 @@ Login Required: `...`<br>
 | standardized_nudges_misinfo                                             | boolean | True       |
 | tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | False      |
 | longform_notetweets_rich_text_read_enabled                              | boolean | True       |
-| longform_notetweets_inline_media_enabled                                | boolean | False      |
+| longform_notetweets_inline_media_enabled                                | boolean | True       |
 | responsive_web_enhance_cards_enabled                                    | boolean | False      |
 
 #### queryId<br>
@@ -2887,7 +2887,7 @@ Login Required: `...`<br>
 | standardized_nudges_misinfo                                             | boolean | True       |
 | tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | False      |
 | longform_notetweets_rich_text_read_enabled                              | boolean | True       |
-| longform_notetweets_inline_media_enabled                                | boolean | False      |
+| longform_notetweets_inline_media_enabled                                | boolean | True       |
 | responsive_web_enhance_cards_enabled                                    | boolean | False      |
 
 #### queryId<br>
@@ -2925,7 +2925,7 @@ Login Required: `...`<br>
 | standardized_nudges_misinfo                                             | boolean | True       |
 | tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | False      |
 | longform_notetweets_rich_text_read_enabled                              | boolean | True       |
-| longform_notetweets_inline_media_enabled                                | boolean | False      |
+| longform_notetweets_inline_media_enabled                                | boolean | True       |
 | responsive_web_enhance_cards_enabled                                    | boolean | False      |
 
 #### queryId<br>
@@ -2961,7 +2961,7 @@ Login Required: `...`<br>
 | standardized_nudges_misinfo                                             | boolean | True       |
 | tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | False      |
 | longform_notetweets_rich_text_read_enabled                              | boolean | True       |
-| longform_notetweets_inline_media_enabled                                | boolean | False      |
+| longform_notetweets_inline_media_enabled                                | boolean | True       |
 | responsive_web_enhance_cards_enabled                                    | boolean | False      |
 
 #### queryId<br>
@@ -2996,7 +2996,7 @@ Login Required: `...`<br>
 | standardized_nudges_misinfo                                             | boolean | True       |
 | tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | False      |
 | longform_notetweets_rich_text_read_enabled                              | boolean | True       |
-| longform_notetweets_inline_media_enabled                                | boolean | False      |
+| longform_notetweets_inline_media_enabled                                | boolean | True       |
 | responsive_web_enhance_cards_enabled                                    | boolean | False      |
 
 #### queryId<br>
@@ -3047,7 +3047,7 @@ Login Required: `...`<br>
 | standardized_nudges_misinfo                                             | boolean | True       |
 | tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | False      |
 | longform_notetweets_rich_text_read_enabled                              | boolean | True       |
-| longform_notetweets_inline_media_enabled                                | boolean | False      |
+| longform_notetweets_inline_media_enabled                                | boolean | True       |
 | responsive_web_enhance_cards_enabled                                    | boolean | False      |
 
 #### queryId<br>
@@ -3078,7 +3078,7 @@ Login Required: `...`<br>
 | standardized_nudges_misinfo                                             | boolean | True       |
 | tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | False      |
 | longform_notetweets_rich_text_read_enabled                              | boolean | True       |
-| longform_notetweets_inline_media_enabled                                | boolean | False      |
+| longform_notetweets_inline_media_enabled                                | boolean | True       |
 | responsive_web_enhance_cards_enabled                                    | boolean | False      |
 
 #### queryId<br>
@@ -3109,7 +3109,7 @@ Login Required: `...`<br>
 | standardized_nudges_misinfo                                             | boolean | True       |
 | tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | False      |
 | longform_notetweets_rich_text_read_enabled                              | boolean | True       |
-| longform_notetweets_inline_media_enabled                                | boolean | False      |
+| longform_notetweets_inline_media_enabled                                | boolean | True       |
 | responsive_web_enhance_cards_enabled                                    | boolean | False      |
 
 #### queryId<br>
@@ -3140,7 +3140,7 @@ Login Required: `...`<br>
 | standardized_nudges_misinfo                                             | boolean | True       |
 | tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | False      |
 | longform_notetweets_rich_text_read_enabled                              | boolean | True       |
-| longform_notetweets_inline_media_enabled                                | boolean | False      |
+| longform_notetweets_inline_media_enabled                                | boolean | True       |
 | responsive_web_enhance_cards_enabled                                    | boolean | False      |
 
 #### queryId<br>
@@ -3171,7 +3171,7 @@ Login Required: `...`<br>
 | standardized_nudges_misinfo                                             | boolean | True       |
 | tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | False      |
 | longform_notetweets_rich_text_read_enabled                              | boolean | True       |
-| longform_notetweets_inline_media_enabled                                | boolean | False      |
+| longform_notetweets_inline_media_enabled                                | boolean | True       |
 | responsive_web_enhance_cards_enabled                                    | boolean | False      |
 
 #### queryId<br>
@@ -3202,7 +3202,7 @@ Login Required: `...`<br>
 | standardized_nudges_misinfo                                             | boolean | True       |
 | tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | False      |
 | longform_notetweets_rich_text_read_enabled                              | boolean | True       |
-| longform_notetweets_inline_media_enabled                                | boolean | False      |
+| longform_notetweets_inline_media_enabled                                | boolean | True       |
 | responsive_web_enhance_cards_enabled                                    | boolean | False      |
 
 #### queryId<br>
@@ -3239,7 +3239,7 @@ Login Required: `...`<br>
 | standardized_nudges_misinfo                                             | boolean | True       |
 | tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | False      |
 | longform_notetweets_rich_text_read_enabled                              | boolean | True       |
-| longform_notetweets_inline_media_enabled                                | boolean | False      |
+| longform_notetweets_inline_media_enabled                                | boolean | True       |
 | responsive_web_enhance_cards_enabled                                    | boolean | False      |
 
 #### queryId<br>
@@ -3277,7 +3277,7 @@ Login Required: `...`<br>
 | standardized_nudges_misinfo                                             | boolean | True       |
 | tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | False      |
 | longform_notetweets_rich_text_read_enabled                              | boolean | True       |
-| longform_notetweets_inline_media_enabled                                | boolean | False      |
+| longform_notetweets_inline_media_enabled                                | boolean | True       |
 | responsive_web_enhance_cards_enabled                                    | boolean | False      |
 
 #### queryId<br>
@@ -3315,7 +3315,7 @@ Login Required: `...`<br>
 | standardized_nudges_misinfo                                             | boolean | True       |
 | tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | False      |
 | longform_notetweets_rich_text_read_enabled                              | boolean | True       |
-| longform_notetweets_inline_media_enabled                                | boolean | False      |
+| longform_notetweets_inline_media_enabled                                | boolean | True       |
 | responsive_web_enhance_cards_enabled                                    | boolean | False      |
 
 #### queryId<br>
@@ -3349,7 +3349,7 @@ Login Required: `...`<br>
 | standardized_nudges_misinfo                                             | boolean | True       |
 | tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | False      |
 | longform_notetweets_rich_text_read_enabled                              | boolean | True       |
-| longform_notetweets_inline_media_enabled                                | boolean | False      |
+| longform_notetweets_inline_media_enabled                                | boolean | True       |
 | responsive_web_enhance_cards_enabled                                    | boolean | False      |
 
 #### queryId<br>
@@ -3386,7 +3386,7 @@ Login Required: `...`<br>
 | standardized_nudges_misinfo                                             | boolean | True       |
 | tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | False      |
 | longform_notetweets_rich_text_read_enabled                              | boolean | True       |
-| longform_notetweets_inline_media_enabled                                | boolean | False      |
+| longform_notetweets_inline_media_enabled                                | boolean | True       |
 | responsive_web_enhance_cards_enabled                                    | boolean | False      |
 
 #### queryId<br>
@@ -3532,7 +3532,7 @@ Login Required: `...`<br>
 | standardized_nudges_misinfo                                             | boolean | True       |
 | tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | False      |
 | longform_notetweets_rich_text_read_enabled                              | boolean | True       |
-| longform_notetweets_inline_media_enabled                                | boolean | False      |
+| longform_notetweets_inline_media_enabled                                | boolean | True       |
 | responsive_web_enhance_cards_enabled                                    | boolean | False      |
 
 #### queryId<br>
@@ -3577,7 +3577,7 @@ Login Required: `...`<br>
 | standardized_nudges_misinfo                                             | boolean | True       |
 | tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | False      |
 | longform_notetweets_rich_text_read_enabled                              | boolean | True       |
-| longform_notetweets_inline_media_enabled                                | boolean | False      |
+| longform_notetweets_inline_media_enabled                                | boolean | True       |
 | responsive_web_enhance_cards_enabled                                    | boolean | False      |
 
 #### queryId<br>
@@ -3608,7 +3608,7 @@ Login Required: `...`<br>
 | standardized_nudges_misinfo                                             | boolean | True       |
 | tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | False      |
 | longform_notetweets_rich_text_read_enabled                              | boolean | True       |
-| longform_notetweets_inline_media_enabled                                | boolean | False      |
+| longform_notetweets_inline_media_enabled                                | boolean | True       |
 | responsive_web_enhance_cards_enabled                                    | boolean | False      |
 
 #### queryId<br>
@@ -3646,7 +3646,7 @@ Login Required: `...`<br>
 | standardized_nudges_misinfo                                             | boolean | True       |
 | tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | False      |
 | longform_notetweets_rich_text_read_enabled                              | boolean | True       |
-| longform_notetweets_inline_media_enabled                                | boolean | False      |
+| longform_notetweets_inline_media_enabled                                | boolean | True       |
 | responsive_web_enhance_cards_enabled                                    | boolean | False      |
 
 #### queryId<br>
@@ -3683,7 +3683,7 @@ Login Required: `...`<br>
 | standardized_nudges_misinfo                                             | boolean | True       |
 | tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | False      |
 | longform_notetweets_rich_text_read_enabled                              | boolean | True       |
-| longform_notetweets_inline_media_enabled                                | boolean | False      |
+| longform_notetweets_inline_media_enabled                                | boolean | True       |
 | responsive_web_enhance_cards_enabled                                    | boolean | False      |
 
 #### queryId<br>
@@ -3735,7 +3735,7 @@ Login Required: `...`<br>
 | standardized_nudges_misinfo                                             | boolean | True       |
 | tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | False      |
 | longform_notetweets_rich_text_read_enabled                              | boolean | True       |
-| longform_notetweets_inline_media_enabled                                | boolean | False      |
+| longform_notetweets_inline_media_enabled                                | boolean | True       |
 | responsive_web_enhance_cards_enabled                                    | boolean | False      |
 
 #### queryId<br>
@@ -3832,7 +3832,7 @@ Login Required: `...`<br>
 | standardized_nudges_misinfo                                             | boolean | True       |
 | tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | False      |
 | longform_notetweets_rich_text_read_enabled                              | boolean | True       |
-| longform_notetweets_inline_media_enabled                                | boolean | False      |
+| longform_notetweets_inline_media_enabled                                | boolean | True       |
 | responsive_web_enhance_cards_enabled                                    | boolean | False      |
 
 #### queryId<br>
@@ -3913,7 +3913,7 @@ Login Required: `...`<br>
 | standardized_nudges_misinfo                                             | boolean | True       |
 | tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | False      |
 | longform_notetweets_rich_text_read_enabled                              | boolean | True       |
-| longform_notetweets_inline_media_enabled                                | boolean | False      |
+| longform_notetweets_inline_media_enabled                                | boolean | True       |
 | responsive_web_enhance_cards_enabled                                    | boolean | False      |
 
 #### queryId<br>
@@ -4033,7 +4033,7 @@ Login Required: `...`<br>
 | standardized_nudges_misinfo                                             | boolean | True       |
 | tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | False      |
 | longform_notetweets_rich_text_read_enabled                              | boolean | True       |
-| longform_notetweets_inline_media_enabled                                | boolean | False      |
+| longform_notetweets_inline_media_enabled                                | boolean | True       |
 | responsive_web_enhance_cards_enabled                                    | boolean | False      |
 
 #### queryId<br>
@@ -4069,7 +4069,7 @@ Login Required: `...`<br>
 | standardized_nudges_misinfo                                             | boolean | True       |
 | tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | False      |
 | longform_notetweets_rich_text_read_enabled                              | boolean | True       |
-| longform_notetweets_inline_media_enabled                                | boolean | False      |
+| longform_notetweets_inline_media_enabled                                | boolean | True       |
 | responsive_web_enhance_cards_enabled                                    | boolean | False      |
 
 #### queryId<br>
@@ -4127,7 +4127,7 @@ Login Required: `...`<br>
 | standardized_nudges_misinfo                                             | boolean | True       |
 | tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | False      |
 | longform_notetweets_rich_text_read_enabled                              | boolean | True       |
-| longform_notetweets_inline_media_enabled                                | boolean | False      |
+| longform_notetweets_inline_media_enabled                                | boolean | True       |
 | responsive_web_enhance_cards_enabled                                    | boolean | False      |
 
 #### queryId<br>
@@ -4163,7 +4163,7 @@ Login Required: `...`<br>
 | standardized_nudges_misinfo                                             | boolean | True       |
 | tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | False      |
 | longform_notetweets_rich_text_read_enabled                              | boolean | True       |
-| longform_notetweets_inline_media_enabled                                | boolean | False      |
+| longform_notetweets_inline_media_enabled                                | boolean | True       |
 | responsive_web_enhance_cards_enabled                                    | boolean | False      |
 
 #### queryId<br>
@@ -4201,7 +4201,7 @@ Login Required: `...`<br>
 | standardized_nudges_misinfo                                             | boolean | True       |
 | tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | False      |
 | longform_notetweets_rich_text_read_enabled                              | boolean | True       |
-| longform_notetweets_inline_media_enabled                                | boolean | False      |
+| longform_notetweets_inline_media_enabled                                | boolean | True       |
 | responsive_web_enhance_cards_enabled                                    | boolean | False      |
 
 #### queryId<br>
@@ -4237,7 +4237,7 @@ Login Required: `...`<br>
 | standardized_nudges_misinfo                                             | boolean | True       |
 | tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | False      |
 | longform_notetweets_rich_text_read_enabled                              | boolean | True       |
-| longform_notetweets_inline_media_enabled                                | boolean | False      |
+| longform_notetweets_inline_media_enabled                                | boolean | True       |
 | responsive_web_enhance_cards_enabled                                    | boolean | False      |
 
 #### queryId<br>
@@ -4272,7 +4272,7 @@ Login Required: `...`<br>
 | standardized_nudges_misinfo                                             | boolean | True       |
 | tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | False      |
 | longform_notetweets_rich_text_read_enabled                              | boolean | True       |
-| longform_notetweets_inline_media_enabled                                | boolean | False      |
+| longform_notetweets_inline_media_enabled                                | boolean | True       |
 | responsive_web_enhance_cards_enabled                                    | boolean | False      |
 
 #### queryId<br>
@@ -4323,7 +4323,7 @@ Login Required: `...`<br>
 | standardized_nudges_misinfo                                             | boolean | True       |
 | tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | False      |
 | longform_notetweets_rich_text_read_enabled                              | boolean | True       |
-| longform_notetweets_inline_media_enabled                                | boolean | False      |
+| longform_notetweets_inline_media_enabled                                | boolean | True       |
 | responsive_web_enhance_cards_enabled                                    | boolean | False      |
 
 #### queryId<br>
@@ -4354,7 +4354,7 @@ Login Required: `...`<br>
 | standardized_nudges_misinfo                                             | boolean | True       |
 | tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | False      |
 | longform_notetweets_rich_text_read_enabled                              | boolean | True       |
-| longform_notetweets_inline_media_enabled                                | boolean | False      |
+| longform_notetweets_inline_media_enabled                                | boolean | True       |
 | responsive_web_enhance_cards_enabled                                    | boolean | False      |
 
 #### queryId<br>
@@ -4385,7 +4385,7 @@ Login Required: `...`<br>
 | standardized_nudges_misinfo                                             | boolean | True       |
 | tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | False      |
 | longform_notetweets_rich_text_read_enabled                              | boolean | True       |
-| longform_notetweets_inline_media_enabled                                | boolean | False      |
+| longform_notetweets_inline_media_enabled                                | boolean | True       |
 | responsive_web_enhance_cards_enabled                                    | boolean | False      |
 
 #### queryId<br>
@@ -4434,7 +4434,7 @@ Login Required: `...`<br>
 | standardized_nudges_misinfo                                             | boolean | True       |
 | tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | False      |
 | longform_notetweets_rich_text_read_enabled                              | boolean | True       |
-| longform_notetweets_inline_media_enabled                                | boolean | False      |
+| longform_notetweets_inline_media_enabled                                | boolean | True       |
 | responsive_web_enhance_cards_enabled                                    | boolean | False      |
 
 #### queryId<br>
@@ -4472,7 +4472,7 @@ Login Required: `...`<br>
 | standardized_nudges_misinfo                                             | boolean | True       |
 | tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | False      |
 | longform_notetweets_rich_text_read_enabled                              | boolean | True       |
-| longform_notetweets_inline_media_enabled                                | boolean | False      |
+| longform_notetweets_inline_media_enabled                                | boolean | True       |
 | responsive_web_enhance_cards_enabled                                    | boolean | False      |
 
 #### queryId<br>
@@ -4506,7 +4506,7 @@ Login Required: `...`<br>
 | standardized_nudges_misinfo                                             | boolean | True       |
 | tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | False      |
 | longform_notetweets_rich_text_read_enabled                              | boolean | True       |
-| longform_notetweets_inline_media_enabled                                | boolean | False      |
+| longform_notetweets_inline_media_enabled                                | boolean | True       |
 | responsive_web_enhance_cards_enabled                                    | boolean | False      |
 
 #### queryId<br>
@@ -4543,7 +4543,7 @@ Login Required: `...`<br>
 | standardized_nudges_misinfo                                             | boolean | True       |
 | tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | False      |
 | longform_notetweets_rich_text_read_enabled                              | boolean | True       |
-| longform_notetweets_inline_media_enabled                                | boolean | False      |
+| longform_notetweets_inline_media_enabled                                | boolean | True       |
 | responsive_web_enhance_cards_enabled                                    | boolean | False      |
 
 #### queryId<br>
@@ -4579,7 +4579,7 @@ Login Required: `...`<br>
 | standardized_nudges_misinfo                                             | boolean | True       |
 | tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | False      |
 | longform_notetweets_rich_text_read_enabled                              | boolean | True       |
-| longform_notetweets_inline_media_enabled                                | boolean | False      |
+| longform_notetweets_inline_media_enabled                                | boolean | True       |
 | responsive_web_enhance_cards_enabled                                    | boolean | False      |
 
 #### queryId<br>
@@ -4615,7 +4615,7 @@ Login Required: `...`<br>
 | standardized_nudges_misinfo                                             | boolean | True       |
 | tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | False      |
 | longform_notetweets_rich_text_read_enabled                              | boolean | True       |
-| longform_notetweets_inline_media_enabled                                | boolean | False      |
+| longform_notetweets_inline_media_enabled                                | boolean | True       |
 | responsive_web_enhance_cards_enabled                                    | boolean | False      |
 
 #### queryId<br>
@@ -4653,7 +4653,7 @@ Login Required: `...`<br>
 | standardized_nudges_misinfo                                             | boolean | True       |
 | tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | False      |
 | longform_notetweets_rich_text_read_enabled                              | boolean | True       |
-| longform_notetweets_inline_media_enabled                                | boolean | False      |
+| longform_notetweets_inline_media_enabled                                | boolean | True       |
 | responsive_web_enhance_cards_enabled                                    | boolean | False      |
 
 #### queryId<br>
@@ -4689,7 +4689,7 @@ Login Required: `...`<br>
 | standardized_nudges_misinfo                                             | boolean | True       |
 | tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | False      |
 | longform_notetweets_rich_text_read_enabled                              | boolean | True       |
-| longform_notetweets_inline_media_enabled                                | boolean | False      |
+| longform_notetweets_inline_media_enabled                                | boolean | True       |
 | responsive_web_enhance_cards_enabled                                    | boolean | False      |
 
 #### queryId<br>
@@ -4724,7 +4724,7 @@ Login Required: `...`<br>
 | standardized_nudges_misinfo                                             | boolean | True       |
 | tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | False      |
 | longform_notetweets_rich_text_read_enabled                              | boolean | True       |
-| longform_notetweets_inline_media_enabled                                | boolean | False      |
+| longform_notetweets_inline_media_enabled                                | boolean | True       |
 | responsive_web_enhance_cards_enabled                                    | boolean | False      |
 
 #### queryId<br>
@@ -4797,7 +4797,7 @@ Login Required: `...`<br>
 | standardized_nudges_misinfo                                             | boolean | True       |
 | tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | False      |
 | longform_notetweets_rich_text_read_enabled                              | boolean | True       |
-| longform_notetweets_inline_media_enabled                                | boolean | False      |
+| longform_notetweets_inline_media_enabled                                | boolean | True       |
 | responsive_web_enhance_cards_enabled                                    | boolean | False      |
 
 #### queryId<br>
@@ -4828,7 +4828,7 @@ Login Required: `...`<br>
 | standardized_nudges_misinfo                                             | boolean | True       |
 | tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | False      |
 | longform_notetweets_rich_text_read_enabled                              | boolean | True       |
-| longform_notetweets_inline_media_enabled                                | boolean | False      |
+| longform_notetweets_inline_media_enabled                                | boolean | True       |
 | responsive_web_enhance_cards_enabled                                    | boolean | False      |
 
 #### queryId<br>
@@ -4859,7 +4859,7 @@ Login Required: `...`<br>
 | standardized_nudges_misinfo                                             | boolean | True       |
 | tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | False      |
 | longform_notetweets_rich_text_read_enabled                              | boolean | True       |
-| longform_notetweets_inline_media_enabled                                | boolean | False      |
+| longform_notetweets_inline_media_enabled                                | boolean | True       |
 | responsive_web_enhance_cards_enabled                                    | boolean | False      |
 
 #### queryId<br>
@@ -4897,7 +4897,7 @@ Login Required: `...`<br>
 | standardized_nudges_misinfo                                             | boolean | True       |
 | tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | False      |
 | longform_notetweets_rich_text_read_enabled                              | boolean | True       |
-| longform_notetweets_inline_media_enabled                                | boolean | False      |
+| longform_notetweets_inline_media_enabled                                | boolean | True       |
 | responsive_web_enhance_cards_enabled                                    | boolean | False      |
 
 #### queryId<br>
@@ -4935,7 +4935,7 @@ Login Required: `...`<br>
 | standardized_nudges_misinfo                                             | boolean | True       |
 | tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | False      |
 | longform_notetweets_rich_text_read_enabled                              | boolean | True       |
-| longform_notetweets_inline_media_enabled                                | boolean | False      |
+| longform_notetweets_inline_media_enabled                                | boolean | True       |
 | responsive_web_enhance_cards_enabled                                    | boolean | False      |
 
 #### queryId<br>
@@ -4969,7 +4969,7 @@ Login Required: `...`<br>
 | standardized_nudges_misinfo                                             | boolean | True       |
 | tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | False      |
 | longform_notetweets_rich_text_read_enabled                              | boolean | True       |
-| longform_notetweets_inline_media_enabled                                | boolean | False      |
+| longform_notetweets_inline_media_enabled                                | boolean | True       |
 | responsive_web_enhance_cards_enabled                                    | boolean | False      |
 
 #### queryId<br>
@@ -5006,7 +5006,7 @@ Login Required: `...`<br>
 | standardized_nudges_misinfo                                             | boolean | True       |
 | tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | False      |
 | longform_notetweets_rich_text_read_enabled                              | boolean | True       |
-| longform_notetweets_inline_media_enabled                                | boolean | False      |
+| longform_notetweets_inline_media_enabled                                | boolean | True       |
 | responsive_web_enhance_cards_enabled                                    | boolean | False      |
 
 #### queryId<br>
@@ -5048,7 +5048,7 @@ Login Required: `...`<br>
 | standardized_nudges_misinfo                                             | boolean | True       |
 | tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | False      |
 | longform_notetweets_rich_text_read_enabled                              | boolean | True       |
-| longform_notetweets_inline_media_enabled                                | boolean | False      |
+| longform_notetweets_inline_media_enabled                                | boolean | True       |
 | responsive_web_enhance_cards_enabled                                    | boolean | False      |
 
 #### queryId<br>
@@ -5084,7 +5084,7 @@ Login Required: `...`<br>
 | standardized_nudges_misinfo                                             | boolean | True       |
 | tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | False      |
 | longform_notetweets_rich_text_read_enabled                              | boolean | True       |
-| longform_notetweets_inline_media_enabled                                | boolean | False      |
+| longform_notetweets_inline_media_enabled                                | boolean | True       |
 | responsive_web_enhance_cards_enabled                                    | boolean | False      |
 
 #### queryId<br>
@@ -5120,7 +5120,7 @@ Login Required: `...`<br>
 | standardized_nudges_misinfo                                             | boolean | True       |
 | tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | False      |
 | longform_notetweets_rich_text_read_enabled                              | boolean | True       |
-| longform_notetweets_inline_media_enabled                                | boolean | False      |
+| longform_notetweets_inline_media_enabled                                | boolean | True       |
 | responsive_web_enhance_cards_enabled                                    | boolean | False      |
 
 #### queryId<br>
@@ -5158,7 +5158,7 @@ Login Required: `...`<br>
 | standardized_nudges_misinfo                                             | boolean | True       |
 | tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | False      |
 | longform_notetweets_rich_text_read_enabled                              | boolean | True       |
-| longform_notetweets_inline_media_enabled                                | boolean | False      |
+| longform_notetweets_inline_media_enabled                                | boolean | True       |
 | responsive_web_enhance_cards_enabled                                    | boolean | False      |
 
 #### queryId<br>
@@ -5196,7 +5196,7 @@ Login Required: `...`<br>
 | standardized_nudges_misinfo                                             | boolean | True       |
 | tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | False      |
 | longform_notetweets_rich_text_read_enabled                              | boolean | True       |
-| longform_notetweets_inline_media_enabled                                | boolean | False      |
+| longform_notetweets_inline_media_enabled                                | boolean | True       |
 | responsive_web_enhance_cards_enabled                                    | boolean | False      |
 
 #### queryId<br>
@@ -5237,7 +5237,7 @@ Login Required: `...`<br>
 | standardized_nudges_misinfo                                             | boolean | True       |
 | tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | False      |
 | longform_notetweets_rich_text_read_enabled                              | boolean | True       |
-| longform_notetweets_inline_media_enabled                                | boolean | False      |
+| longform_notetweets_inline_media_enabled                                | boolean | True       |
 | responsive_web_enhance_cards_enabled                                    | boolean | False      |
 
 #### queryId<br>
@@ -5273,7 +5273,7 @@ Login Required: `...`<br>
 | standardized_nudges_misinfo                                             | boolean | True       |
 | tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | False      |
 | longform_notetweets_rich_text_read_enabled                              | boolean | True       |
-| longform_notetweets_inline_media_enabled                                | boolean | False      |
+| longform_notetweets_inline_media_enabled                                | boolean | True       |
 | responsive_web_enhance_cards_enabled                                    | boolean | False      |
 
 #### queryId<br>
@@ -5308,7 +5308,7 @@ Login Required: `...`<br>
 | standardized_nudges_misinfo                                             | boolean | True       |
 | tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | False      |
 | longform_notetweets_rich_text_read_enabled                              | boolean | True       |
-| longform_notetweets_inline_media_enabled                                | boolean | False      |
+| longform_notetweets_inline_media_enabled                                | boolean | True       |
 | responsive_web_enhance_cards_enabled                                    | boolean | False      |
 
 #### queryId<br>
@@ -5347,7 +5347,7 @@ Login Required: `...`<br>
 | standardized_nudges_misinfo                                             | boolean | True       |
 | tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | False      |
 | longform_notetweets_rich_text_read_enabled                              | boolean | True       |
-| longform_notetweets_inline_media_enabled                                | boolean | False      |
+| longform_notetweets_inline_media_enabled                                | boolean | True       |
 | responsive_web_enhance_cards_enabled                                    | boolean | False      |
 
 #### queryId<br>
@@ -5389,7 +5389,7 @@ Login Required: `...`<br>
 | standardized_nudges_misinfo                                             | boolean | True       |
 | tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | False      |
 | longform_notetweets_rich_text_read_enabled                              | boolean | True       |
-| longform_notetweets_inline_media_enabled                                | boolean | False      |
+| longform_notetweets_inline_media_enabled                                | boolean | True       |
 | responsive_web_enhance_cards_enabled                                    | boolean | False      |
 
 #### queryId<br>
@@ -5423,7 +5423,7 @@ Login Required: `...`<br>
 | standardized_nudges_misinfo                                             | boolean | True       |
 | tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | False      |
 | longform_notetweets_rich_text_read_enabled                              | boolean | True       |
-| longform_notetweets_inline_media_enabled                                | boolean | False      |
+| longform_notetweets_inline_media_enabled                                | boolean | True       |
 | responsive_web_enhance_cards_enabled                                    | boolean | False      |
 
 #### queryId<br>
@@ -5462,7 +5462,7 @@ Login Required: `...`<br>
 | standardized_nudges_misinfo                                             | boolean | True       |
 | tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | False      |
 | longform_notetweets_rich_text_read_enabled                              | boolean | True       |
-| longform_notetweets_inline_media_enabled                                | boolean | False      |
+| longform_notetweets_inline_media_enabled                                | boolean | True       |
 | responsive_web_enhance_cards_enabled                                    | boolean | False      |
 
 #### queryId<br>
@@ -5503,7 +5503,7 @@ Login Required: `...`<br>
 | standardized_nudges_misinfo                                             | boolean | True       |
 | tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | False      |
 | longform_notetweets_rich_text_read_enabled                              | boolean | True       |
-| longform_notetweets_inline_media_enabled                                | boolean | False      |
+| longform_notetweets_inline_media_enabled                                | boolean | True       |
 | responsive_web_enhance_cards_enabled                                    | boolean | False      |
 
 #### queryId<br>
@@ -5544,7 +5544,7 @@ Login Required: `...`<br>
 | standardized_nudges_misinfo                                             | boolean | True       |
 | tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | False      |
 | longform_notetweets_rich_text_read_enabled                              | boolean | True       |
-| longform_notetweets_inline_media_enabled                                | boolean | False      |
+| longform_notetweets_inline_media_enabled                                | boolean | True       |
 | responsive_web_enhance_cards_enabled                                    | boolean | False      |
 
 #### queryId<br>
@@ -5716,7 +5716,7 @@ Login Required: `...`<br>
 | standardized_nudges_misinfo                                             | boolean | True       |
 | tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | False      |
 | longform_notetweets_rich_text_read_enabled                              | boolean | True       |
-| longform_notetweets_inline_media_enabled                                | boolean | False      |
+| longform_notetweets_inline_media_enabled                                | boolean | True       |
 | responsive_web_enhance_cards_enabled                                    | boolean | False      |
 
 #### queryId<br>
@@ -5752,7 +5752,7 @@ Login Required: `...`<br>
 | standardized_nudges_misinfo                                             | boolean | True       |
 | tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | False      |
 | longform_notetweets_rich_text_read_enabled                              | boolean | True       |
-| longform_notetweets_inline_media_enabled                                | boolean | False      |
+| longform_notetweets_inline_media_enabled                                | boolean | True       |
 | responsive_web_enhance_cards_enabled                                    | boolean | False      |
 
 #### queryId<br>
@@ -5789,7 +5789,7 @@ Login Required: `...`<br>
 | standardized_nudges_misinfo                                             | boolean | True       |
 | tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | False      |
 | longform_notetweets_rich_text_read_enabled                              | boolean | True       |
-| longform_notetweets_inline_media_enabled                                | boolean | False      |
+| longform_notetweets_inline_media_enabled                                | boolean | True       |
 | responsive_web_enhance_cards_enabled                                    | boolean | False      |
 
 #### queryId<br>
@@ -6084,7 +6084,7 @@ Login Required: `...`<br>
 | standardized_nudges_misinfo                                             | boolean | True       |
 | tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | False      |
 | longform_notetweets_rich_text_read_enabled                              | boolean | True       |
-| longform_notetweets_inline_media_enabled                                | boolean | False      |
+| longform_notetweets_inline_media_enabled                                | boolean | True       |
 | responsive_web_enhance_cards_enabled                                    | boolean | False      |
 
 #### queryId<br>
@@ -6115,7 +6115,7 @@ Login Required: `...`<br>
 | standardized_nudges_misinfo                                             | boolean | True       |
 | tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | False      |
 | longform_notetweets_rich_text_read_enabled                              | boolean | True       |
-| longform_notetweets_inline_media_enabled                                | boolean | False      |
+| longform_notetweets_inline_media_enabled                                | boolean | True       |
 | responsive_web_enhance_cards_enabled                                    | boolean | False      |
 
 #### queryId<br>
@@ -6146,7 +6146,7 @@ Login Required: `...`<br>
 | standardized_nudges_misinfo                                             | boolean | True       |
 | tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | False      |
 | longform_notetweets_rich_text_read_enabled                              | boolean | True       |
-| longform_notetweets_inline_media_enabled                                | boolean | False      |
+| longform_notetweets_inline_media_enabled                                | boolean | True       |
 | responsive_web_enhance_cards_enabled                                    | boolean | False      |
 
 #### queryId<br>
@@ -6177,7 +6177,7 @@ Login Required: `...`<br>
 | standardized_nudges_misinfo                                             | boolean | True       |
 | tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | False      |
 | longform_notetweets_rich_text_read_enabled                              | boolean | True       |
-| longform_notetweets_inline_media_enabled                                | boolean | False      |
+| longform_notetweets_inline_media_enabled                                | boolean | True       |
 | responsive_web_enhance_cards_enabled                                    | boolean | False      |
 
 #### queryId<br>
@@ -6208,7 +6208,7 @@ Login Required: `...`<br>
 | standardized_nudges_misinfo                                             | boolean | True       |
 | tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | False      |
 | longform_notetweets_rich_text_read_enabled                              | boolean | True       |
-| longform_notetweets_inline_media_enabled                                | boolean | False      |
+| longform_notetweets_inline_media_enabled                                | boolean | True       |
 | responsive_web_enhance_cards_enabled                                    | boolean | False      |
 
 #### queryId<br>
@@ -6246,7 +6246,7 @@ Login Required: `...`<br>
 | standardized_nudges_misinfo                                             | boolean | True       |
 | tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | False      |
 | longform_notetweets_rich_text_read_enabled                              | boolean | True       |
-| longform_notetweets_inline_media_enabled                                | boolean | False      |
+| longform_notetweets_inline_media_enabled                                | boolean | True       |
 | responsive_web_enhance_cards_enabled                                    | boolean | False      |
 
 #### queryId<br>
@@ -6284,7 +6284,7 @@ Login Required: `...`<br>
 | standardized_nudges_misinfo                                             | boolean | True       |
 | tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | False      |
 | longform_notetweets_rich_text_read_enabled                              | boolean | True       |
-| longform_notetweets_inline_media_enabled                                | boolean | False      |
+| longform_notetweets_inline_media_enabled                                | boolean | True       |
 | responsive_web_enhance_cards_enabled                                    | boolean | False      |
 
 #### queryId<br>
@@ -6318,7 +6318,7 @@ Login Required: `...`<br>
 | standardized_nudges_misinfo                                             | boolean | True       |
 | tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | False      |
 | longform_notetweets_rich_text_read_enabled                              | boolean | True       |
-| longform_notetweets_inline_media_enabled                                | boolean | False      |
+| longform_notetweets_inline_media_enabled                                | boolean | True       |
 | responsive_web_enhance_cards_enabled                                    | boolean | False      |
 
 #### queryId<br>
@@ -6355,7 +6355,7 @@ Login Required: `...`<br>
 | standardized_nudges_misinfo                                             | boolean | True       |
 | tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | False      |
 | longform_notetweets_rich_text_read_enabled                              | boolean | True       |
-| longform_notetweets_inline_media_enabled                                | boolean | False      |
+| longform_notetweets_inline_media_enabled                                | boolean | True       |
 | responsive_web_enhance_cards_enabled                                    | boolean | False      |
 
 #### queryId<br>
@@ -6391,7 +6391,7 @@ Login Required: `...`<br>
 | standardized_nudges_misinfo                                             | boolean | True       |
 | tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | False      |
 | longform_notetweets_rich_text_read_enabled                              | boolean | True       |
-| longform_notetweets_inline_media_enabled                                | boolean | False      |
+| longform_notetweets_inline_media_enabled                                | boolean | True       |
 | responsive_web_enhance_cards_enabled                                    | boolean | False      |
 
 #### queryId<br>
@@ -6427,7 +6427,7 @@ Login Required: `...`<br>
 | standardized_nudges_misinfo                                             | boolean | True       |
 | tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | False      |
 | longform_notetweets_rich_text_read_enabled                              | boolean | True       |
-| longform_notetweets_inline_media_enabled                                | boolean | False      |
+| longform_notetweets_inline_media_enabled                                | boolean | True       |
 | responsive_web_enhance_cards_enabled                                    | boolean | False      |
 
 #### queryId<br>
@@ -6463,7 +6463,7 @@ Login Required: `...`<br>
 | standardized_nudges_misinfo                                             | boolean | True       |
 | tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | False      |
 | longform_notetweets_rich_text_read_enabled                              | boolean | True       |
-| longform_notetweets_inline_media_enabled                                | boolean | False      |
+| longform_notetweets_inline_media_enabled                                | boolean | True       |
 | responsive_web_enhance_cards_enabled                                    | boolean | False      |
 
 #### queryId<br>
@@ -6501,7 +6501,7 @@ Login Required: `...`<br>
 | standardized_nudges_misinfo                                             | boolean | True       |
 | tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | False      |
 | longform_notetweets_rich_text_read_enabled                              | boolean | True       |
-| longform_notetweets_inline_media_enabled                                | boolean | False      |
+| longform_notetweets_inline_media_enabled                                | boolean | True       |
 | responsive_web_enhance_cards_enabled                                    | boolean | False      |
 
 #### queryId<br>
@@ -6549,7 +6549,7 @@ Login Required: `...`<br>
 | standardized_nudges_misinfo                                             | boolean | True       |
 | tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | False      |
 | longform_notetweets_rich_text_read_enabled                              | boolean | True       |
-| longform_notetweets_inline_media_enabled                                | boolean | False      |
+| longform_notetweets_inline_media_enabled                                | boolean | True       |
 | responsive_web_enhance_cards_enabled                                    | boolean | False      |
 
 #### queryId<br>
@@ -6612,7 +6612,7 @@ Login Required: `...`<br>
 | standardized_nudges_misinfo                                             | boolean | True       |
 | tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | False      |
 | longform_notetweets_rich_text_read_enabled                              | boolean | True       |
-| longform_notetweets_inline_media_enabled                                | boolean | False      |
+| longform_notetweets_inline_media_enabled                                | boolean | True       |
 | responsive_web_enhance_cards_enabled                                    | boolean | False      |
 
 #### queryId<br>
@@ -6675,7 +6675,7 @@ Login Required: `...`<br>
 | standardized_nudges_misinfo                                             | boolean | True       |
 | tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | False      |
 | longform_notetweets_rich_text_read_enabled                              | boolean | True       |
-| longform_notetweets_inline_media_enabled                                | boolean | False      |
+| longform_notetweets_inline_media_enabled                                | boolean | True       |
 | responsive_web_enhance_cards_enabled                                    | boolean | False      |
 
 #### queryId<br>
@@ -6709,7 +6709,7 @@ Login Required: `...`<br>
 | standardized_nudges_misinfo                                             | boolean | True       |
 | tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | False      |
 | longform_notetweets_rich_text_read_enabled                              | boolean | True       |
-| longform_notetweets_inline_media_enabled                                | boolean | False      |
+| longform_notetweets_inline_media_enabled                                | boolean | True       |
 | responsive_web_enhance_cards_enabled                                    | boolean | False      |
 
 #### queryId<br>
@@ -6744,7 +6744,7 @@ Login Required: `...`<br>
 | standardized_nudges_misinfo                                             | boolean | True       |
 | tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | False      |
 | longform_notetweets_rich_text_read_enabled                              | boolean | True       |
-| longform_notetweets_inline_media_enabled                                | boolean | False      |
+| longform_notetweets_inline_media_enabled                                | boolean | True       |
 | responsive_web_enhance_cards_enabled                                    | boolean | False      |
 
 #### queryId<br>
@@ -6780,7 +6780,7 @@ Login Required: `...`<br>
 | standardized_nudges_misinfo                                             | boolean | True       |
 | tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | False      |
 | longform_notetweets_rich_text_read_enabled                              | boolean | True       |
-| longform_notetweets_inline_media_enabled                                | boolean | False      |
+| longform_notetweets_inline_media_enabled                                | boolean | True       |
 | responsive_web_enhance_cards_enabled                                    | boolean | False      |
 
 #### queryId<br>
@@ -6815,7 +6815,7 @@ Login Required: `...`<br>
 | standardized_nudges_misinfo                                             | boolean | True       |
 | tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | False      |
 | longform_notetweets_rich_text_read_enabled                              | boolean | True       |
-| longform_notetweets_inline_media_enabled                                | boolean | False      |
+| longform_notetweets_inline_media_enabled                                | boolean | True       |
 | responsive_web_enhance_cards_enabled                                    | boolean | False      |
 
 #### queryId<br>
@@ -6872,7 +6872,7 @@ Login Required: `...`<br>
 | standardized_nudges_misinfo                                             | boolean | True       |
 | tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | False      |
 | longform_notetweets_rich_text_read_enabled                              | boolean | True       |
-| longform_notetweets_inline_media_enabled                                | boolean | False      |
+| longform_notetweets_inline_media_enabled                                | boolean | True       |
 | responsive_web_enhance_cards_enabled                                    | boolean | False      |
 
 #### queryId<br>
@@ -6932,7 +6932,7 @@ Login Required: `...`<br>
 | standardized_nudges_misinfo                                             | boolean | True       |
 | tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | False      |
 | longform_notetweets_rich_text_read_enabled                              | boolean | True       |
-| longform_notetweets_inline_media_enabled                                | boolean | False      |
+| longform_notetweets_inline_media_enabled                                | boolean | True       |
 | responsive_web_enhance_cards_enabled                                    | boolean | False      |
 
 #### queryId<br>
@@ -6970,7 +6970,7 @@ Login Required: `...`<br>
 | standardized_nudges_misinfo                                             | boolean | True       |
 | tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | False      |
 | longform_notetweets_rich_text_read_enabled                              | boolean | True       |
-| longform_notetweets_inline_media_enabled                                | boolean | False      |
+| longform_notetweets_inline_media_enabled                                | boolean | True       |
 | responsive_web_enhance_cards_enabled                                    | boolean | False      |
 
 #### queryId<br>
@@ -7001,7 +7001,7 @@ Login Required: `...`<br>
 | tweet_awards_web_tipping_enabled                                        | boolean | False      |
 | rweb_lists_timeline_redesign_enabled                                    | boolean | True       |
 | longform_notetweets_rich_text_read_enabled                              | boolean | True       |
-| longform_notetweets_inline_media_enabled                                | boolean | False      |
+| longform_notetweets_inline_media_enabled                                | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
@@ -7037,7 +7037,7 @@ Login Required: `...`<br>
 | standardized_nudges_misinfo                                             | boolean | True       |
 | tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | False      |
 | longform_notetweets_rich_text_read_enabled                              | boolean | True       |
-| longform_notetweets_inline_media_enabled                                | boolean | False      |
+| longform_notetweets_inline_media_enabled                                | boolean | True       |
 | responsive_web_enhance_cards_enabled                                    | boolean | False      |
 
 #### queryId<br>
@@ -7068,7 +7068,7 @@ Login Required: `...`<br>
 | standardized_nudges_misinfo                                             | boolean | True       |
 | tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | False      |
 | longform_notetweets_rich_text_read_enabled                              | boolean | True       |
-| longform_notetweets_inline_media_enabled                                | boolean | False      |
+| longform_notetweets_inline_media_enabled                                | boolean | True       |
 | responsive_web_enhance_cards_enabled                                    | boolean | False      |
 
 #### queryId<br>
@@ -7099,7 +7099,7 @@ Login Required: `...`<br>
 | standardized_nudges_misinfo                                             | boolean | True       |
 | tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | False      |
 | longform_notetweets_rich_text_read_enabled                              | boolean | True       |
-| longform_notetweets_inline_media_enabled                                | boolean | False      |
+| longform_notetweets_inline_media_enabled                                | boolean | True       |
 | responsive_web_enhance_cards_enabled                                    | boolean | False      |
 
 #### queryId<br>
@@ -7137,7 +7137,7 @@ Login Required: `...`<br>
 | standardized_nudges_misinfo                                             | boolean | True       |
 | tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | False      |
 | longform_notetweets_rich_text_read_enabled                              | boolean | True       |
-| longform_notetweets_inline_media_enabled                                | boolean | False      |
+| longform_notetweets_inline_media_enabled                                | boolean | True       |
 | responsive_web_enhance_cards_enabled                                    | boolean | False      |
 
 #### queryId<br>
@@ -7175,7 +7175,7 @@ Login Required: `...`<br>
 | standardized_nudges_misinfo                                             | boolean | True       |
 | tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | False      |
 | longform_notetweets_rich_text_read_enabled                              | boolean | True       |
-| longform_notetweets_inline_media_enabled                                | boolean | False      |
+| longform_notetweets_inline_media_enabled                                | boolean | True       |
 | responsive_web_enhance_cards_enabled                                    | boolean | False      |
 
 #### queryId<br>
@@ -7209,7 +7209,7 @@ Login Required: `...`<br>
 | standardized_nudges_misinfo                                             | boolean | True       |
 | tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | False      |
 | longform_notetweets_rich_text_read_enabled                              | boolean | True       |
-| longform_notetweets_inline_media_enabled                                | boolean | False      |
+| longform_notetweets_inline_media_enabled                                | boolean | True       |
 | responsive_web_enhance_cards_enabled                                    | boolean | False      |
 
 #### queryId<br>
@@ -7246,7 +7246,7 @@ Login Required: `...`<br>
 | standardized_nudges_misinfo                                             | boolean | True       |
 | tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | False      |
 | longform_notetweets_rich_text_read_enabled                              | boolean | True       |
-| longform_notetweets_inline_media_enabled                                | boolean | False      |
+| longform_notetweets_inline_media_enabled                                | boolean | True       |
 | responsive_web_enhance_cards_enabled                                    | boolean | False      |
 
 #### queryId<br>
@@ -7282,7 +7282,7 @@ Login Required: `...`<br>
 | standardized_nudges_misinfo                                             | boolean | True       |
 | tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | False      |
 | longform_notetweets_rich_text_read_enabled                              | boolean | True       |
-| longform_notetweets_inline_media_enabled                                | boolean | False      |
+| longform_notetweets_inline_media_enabled                                | boolean | True       |
 | responsive_web_enhance_cards_enabled                                    | boolean | False      |
 
 #### queryId<br>
@@ -7318,7 +7318,7 @@ Login Required: `...`<br>
 | standardized_nudges_misinfo                                             | boolean | True       |
 | tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | False      |
 | longform_notetweets_rich_text_read_enabled                              | boolean | True       |
-| longform_notetweets_inline_media_enabled                                | boolean | False      |
+| longform_notetweets_inline_media_enabled                                | boolean | True       |
 | responsive_web_enhance_cards_enabled                                    | boolean | False      |
 
 #### queryId<br>
@@ -7356,7 +7356,7 @@ Login Required: `...`<br>
 | standardized_nudges_misinfo                                             | boolean | True       |
 | tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | False      |
 | longform_notetweets_rich_text_read_enabled                              | boolean | True       |
-| longform_notetweets_inline_media_enabled                                | boolean | False      |
+| longform_notetweets_inline_media_enabled                                | boolean | True       |
 | responsive_web_enhance_cards_enabled                                    | boolean | False      |
 
 #### queryId<br>
@@ -7410,7 +7410,7 @@ Login Required: `...`<br>
 | standardized_nudges_misinfo                                             | boolean | True       |
 | tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | False      |
 | longform_notetweets_rich_text_read_enabled                              | boolean | True       |
-| longform_notetweets_inline_media_enabled                                | boolean | False      |
+| longform_notetweets_inline_media_enabled                                | boolean | True       |
 | responsive_web_enhance_cards_enabled                                    | boolean | False      |
 
 #### queryId<br>
@@ -7445,7 +7445,7 @@ Login Required: `...`<br>
 | standardized_nudges_misinfo                                             | boolean | True       |
 | tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | False      |
 | longform_notetweets_rich_text_read_enabled                              | boolean | True       |
-| longform_notetweets_inline_media_enabled                                | boolean | False      |
+| longform_notetweets_inline_media_enabled                                | boolean | True       |
 | responsive_web_enhance_cards_enabled                                    | boolean | False      |
 
 #### queryId<br>
@@ -7496,7 +7496,7 @@ Login Required: `...`<br>
 | standardized_nudges_misinfo                                             | boolean | True       |
 | tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | False      |
 | longform_notetweets_rich_text_read_enabled                              | boolean | True       |
-| longform_notetweets_inline_media_enabled                                | boolean | False      |
+| longform_notetweets_inline_media_enabled                                | boolean | True       |
 | responsive_web_enhance_cards_enabled                                    | boolean | False      |
 
 #### queryId<br>
@@ -7538,7 +7538,7 @@ Login Required: `...`<br>
 | standardized_nudges_misinfo                                             | boolean | True       |
 | tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | False      |
 | longform_notetweets_rich_text_read_enabled                              | boolean | True       |
-| longform_notetweets_inline_media_enabled                                | boolean | False      |
+| longform_notetweets_inline_media_enabled                                | boolean | True       |
 | responsive_web_enhance_cards_enabled                                    | boolean | False      |
 
 #### queryId<br>
@@ -7569,7 +7569,7 @@ Login Required: `...`<br>
 | standardized_nudges_misinfo                                             | boolean | True       |
 | tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | False      |
 | longform_notetweets_rich_text_read_enabled                              | boolean | True       |
-| longform_notetweets_inline_media_enabled                                | boolean | False      |
+| longform_notetweets_inline_media_enabled                                | boolean | True       |
 | responsive_web_enhance_cards_enabled                                    | boolean | False      |
 
 #### queryId<br>
@@ -7600,7 +7600,7 @@ Login Required: `...`<br>
 | standardized_nudges_misinfo                                             | boolean | True       |
 | tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | False      |
 | longform_notetweets_rich_text_read_enabled                              | boolean | True       |
-| longform_notetweets_inline_media_enabled                                | boolean | False      |
+| longform_notetweets_inline_media_enabled                                | boolean | True       |
 | responsive_web_enhance_cards_enabled                                    | boolean | False      |
 
 #### queryId<br>
@@ -7631,7 +7631,7 @@ Login Required: `...`<br>
 | standardized_nudges_misinfo                                             | boolean | True       |
 | tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | False      |
 | longform_notetweets_rich_text_read_enabled                              | boolean | True       |
-| longform_notetweets_inline_media_enabled                                | boolean | False      |
+| longform_notetweets_inline_media_enabled                                | boolean | True       |
 | responsive_web_enhance_cards_enabled                                    | boolean | False      |
 
 #### queryId<br>
@@ -7662,7 +7662,7 @@ Login Required: `...`<br>
 | standardized_nudges_misinfo                                             | boolean | True       |
 | tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | False      |
 | longform_notetweets_rich_text_read_enabled                              | boolean | True       |
-| longform_notetweets_inline_media_enabled                                | boolean | False      |
+| longform_notetweets_inline_media_enabled                                | boolean | True       |
 | responsive_web_enhance_cards_enabled                                    | boolean | False      |
 
 #### queryId<br>
@@ -7693,7 +7693,7 @@ Login Required: `...`<br>
 | standardized_nudges_misinfo                                             | boolean | True       |
 | tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | False      |
 | longform_notetweets_rich_text_read_enabled                              | boolean | True       |
-| longform_notetweets_inline_media_enabled                                | boolean | False      |
+| longform_notetweets_inline_media_enabled                                | boolean | True       |
 | responsive_web_enhance_cards_enabled                                    | boolean | False      |
 
 #### queryId<br>
@@ -7724,7 +7724,7 @@ Login Required: `...`<br>
 | standardized_nudges_misinfo                                             | boolean | True       |
 | tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | False      |
 | longform_notetweets_rich_text_read_enabled                              | boolean | True       |
-| longform_notetweets_inline_media_enabled                                | boolean | False      |
+| longform_notetweets_inline_media_enabled                                | boolean | True       |
 | responsive_web_enhance_cards_enabled                                    | boolean | False      |
 
 #### queryId<br>
@@ -7791,7 +7791,7 @@ Login Required: `...`<br>
 | standardized_nudges_misinfo                                             | boolean | True       |
 | tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | False      |
 | longform_notetweets_rich_text_read_enabled                              | boolean | True       |
-| longform_notetweets_inline_media_enabled                                | boolean | False      |
+| longform_notetweets_inline_media_enabled                                | boolean | True       |
 | responsive_web_enhance_cards_enabled                                    | boolean | False      |
 
 #### queryId<br>
@@ -7822,7 +7822,7 @@ Login Required: `...`<br>
 | standardized_nudges_misinfo                                             | boolean | True       |
 | tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | False      |
 | longform_notetweets_rich_text_read_enabled                              | boolean | True       |
-| longform_notetweets_inline_media_enabled                                | boolean | False      |
+| longform_notetweets_inline_media_enabled                                | boolean | True       |
 | responsive_web_enhance_cards_enabled                                    | boolean | False      |
 
 #### queryId<br>
@@ -7853,7 +7853,7 @@ Login Required: `...`<br>
 | standardized_nudges_misinfo                                             | boolean | True       |
 | tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | False      |
 | longform_notetweets_rich_text_read_enabled                              | boolean | True       |
-| longform_notetweets_inline_media_enabled                                | boolean | False      |
+| longform_notetweets_inline_media_enabled                                | boolean | True       |
 | responsive_web_enhance_cards_enabled                                    | boolean | False      |
 
 #### queryId<br>
@@ -7884,7 +7884,7 @@ Login Required: `...`<br>
 | standardized_nudges_misinfo                                             | boolean | True       |
 | tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | False      |
 | longform_notetweets_rich_text_read_enabled                              | boolean | True       |
-| longform_notetweets_inline_media_enabled                                | boolean | False      |
+| longform_notetweets_inline_media_enabled                                | boolean | True       |
 | responsive_web_enhance_cards_enabled                                    | boolean | False      |
 
 #### queryId<br>
@@ -7926,7 +7926,7 @@ Login Required: `...`<br>
 | standardized_nudges_misinfo                                             | boolean | True       |
 | tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | False      |
 | longform_notetweets_rich_text_read_enabled                              | boolean | True       |
-| longform_notetweets_inline_media_enabled                                | boolean | False      |
+| longform_notetweets_inline_media_enabled                                | boolean | True       |
 | responsive_web_enhance_cards_enabled                                    | boolean | False      |
 
 #### queryId<br>
@@ -8054,7 +8054,7 @@ Login Required: `...`<br>
 | standardized_nudges_misinfo                                             | boolean | True       |
 | tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | False      |
 | longform_notetweets_rich_text_read_enabled                              | boolean | True       |
-| longform_notetweets_inline_media_enabled                                | boolean | False      |
+| longform_notetweets_inline_media_enabled                                | boolean | True       |
 | responsive_web_enhance_cards_enabled                                    | boolean | False      |
 
 #### queryId<br>
@@ -8085,7 +8085,7 @@ Login Required: `...`<br>
 | standardized_nudges_misinfo                                             | boolean | True       |
 | tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | False      |
 | longform_notetweets_rich_text_read_enabled                              | boolean | True       |
-| longform_notetweets_inline_media_enabled                                | boolean | False      |
+| longform_notetweets_inline_media_enabled                                | boolean | True       |
 | responsive_web_enhance_cards_enabled                                    | boolean | False      |
 
 #### queryId<br>
@@ -8117,7 +8117,7 @@ Login Required: `...`<br>
 | tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | False      |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
 | longform_notetweets_rich_text_read_enabled                              | boolean | True       |
-| longform_notetweets_inline_media_enabled                                | boolean | False      |
+| longform_notetweets_inline_media_enabled                                | boolean | True       |
 | responsive_web_enhance_cards_enabled                                    | boolean | False      |
 
 #### queryId<br>
@@ -8198,7 +8198,7 @@ Login Required: `...`<br>
 | standardized_nudges_misinfo                                             | boolean | True       |
 | tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | False      |
 | longform_notetweets_rich_text_read_enabled                              | boolean | True       |
-| longform_notetweets_inline_media_enabled                                | boolean | False      |
+| longform_notetweets_inline_media_enabled                                | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
@@ -8363,7 +8363,7 @@ Login Required: `...`<br>
 | standardized_nudges_misinfo                                             | boolean | True       |
 | tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | False      |
 | longform_notetweets_rich_text_read_enabled                              | boolean | True       |
-| longform_notetweets_inline_media_enabled                                | boolean | False      |
+| longform_notetweets_inline_media_enabled                                | boolean | True       |
 | responsive_web_enhance_cards_enabled                                    | boolean | False      |
 
 #### queryId<br>
@@ -8461,7 +8461,7 @@ Login Required: `...`<br>
 | standardized_nudges_misinfo                                             | boolean | True       |
 | tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | False      |
 | longform_notetweets_rich_text_read_enabled                              | boolean | True       |
-| longform_notetweets_inline_media_enabled                                | boolean | False      |
+| longform_notetweets_inline_media_enabled                                | boolean | True       |
 | responsive_web_enhance_cards_enabled                                    | boolean | False      |
 
 #### queryId<br>
@@ -8492,7 +8492,7 @@ Login Required: `...`<br>
 | standardized_nudges_misinfo                                             | boolean | True       |
 | tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | False      |
 | longform_notetweets_rich_text_read_enabled                              | boolean | True       |
-| longform_notetweets_inline_media_enabled                                | boolean | False      |
+| longform_notetweets_inline_media_enabled                                | boolean | True       |
 | responsive_web_enhance_cards_enabled                                    | boolean | False      |
 
 #### queryId<br>
@@ -8523,7 +8523,7 @@ Login Required: `...`<br>
 | standardized_nudges_misinfo                                             | boolean | True       |
 | tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | False      |
 | longform_notetweets_rich_text_read_enabled                              | boolean | True       |
-| longform_notetweets_inline_media_enabled                                | boolean | False      |
+| longform_notetweets_inline_media_enabled                                | boolean | True       |
 | responsive_web_enhance_cards_enabled                                    | boolean | False      |
 
 #### queryId<br>
@@ -8560,7 +8560,7 @@ Login Required: `...`<br>
 | standardized_nudges_misinfo                                             | boolean | True       |
 | tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | False      |
 | longform_notetweets_rich_text_read_enabled                              | boolean | True       |
-| longform_notetweets_inline_media_enabled                                | boolean | False      |
+| longform_notetweets_inline_media_enabled                                | boolean | True       |
 | responsive_web_enhance_cards_enabled                                    | boolean | False      |
 
 #### queryId<br>
@@ -8623,7 +8623,7 @@ Login Required: `...`<br>
 | standardized_nudges_misinfo                                             | boolean | True       |
 | tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | False      |
 | longform_notetweets_rich_text_read_enabled                              | boolean | True       |
-| longform_notetweets_inline_media_enabled                                | boolean | False      |
+| longform_notetweets_inline_media_enabled                                | boolean | True       |
 | responsive_web_enhance_cards_enabled                                    | boolean | False      |
 
 #### queryId<br>
@@ -8660,7 +8660,7 @@ Login Required: `...`<br>
 | standardized_nudges_misinfo                                             | boolean | True       |
 | tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | False      |
 | longform_notetweets_rich_text_read_enabled                              | boolean | True       |
-| longform_notetweets_inline_media_enabled                                | boolean | False      |
+| longform_notetweets_inline_media_enabled                                | boolean | True       |
 | responsive_web_enhance_cards_enabled                                    | boolean | False      |
 
 #### queryId<br>
@@ -8691,7 +8691,7 @@ Login Required: `...`<br>
 | standardized_nudges_misinfo                                             | boolean | True       |
 | tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | False      |
 | longform_notetweets_rich_text_read_enabled                              | boolean | True       |
-| longform_notetweets_inline_media_enabled                                | boolean | False      |
+| longform_notetweets_inline_media_enabled                                | boolean | True       |
 | responsive_web_enhance_cards_enabled                                    | boolean | False      |
 
 #### queryId<br>
@@ -8722,7 +8722,7 @@ Login Required: `...`<br>
 | standardized_nudges_misinfo                                             | boolean | True       |
 | tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | False      |
 | longform_notetweets_rich_text_read_enabled                              | boolean | True       |
-| longform_notetweets_inline_media_enabled                                | boolean | False      |
+| longform_notetweets_inline_media_enabled                                | boolean | True       |
 | responsive_web_enhance_cards_enabled                                    | boolean | False      |
 
 #### queryId<br>
@@ -8770,7 +8770,7 @@ Login Required: `...`<br>
 | standardized_nudges_misinfo                                             | boolean | True       |
 | tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | False      |
 | longform_notetweets_rich_text_read_enabled                              | boolean | True       |
-| longform_notetweets_inline_media_enabled                                | boolean | False      |
+| longform_notetweets_inline_media_enabled                                | boolean | True       |
 | responsive_web_enhance_cards_enabled                                    | boolean | False      |
 
 #### queryId<br>
@@ -8801,7 +8801,7 @@ Login Required: `...`<br>
 | standardized_nudges_misinfo                                             | boolean | True       |
 | tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | False      |
 | longform_notetweets_rich_text_read_enabled                              | boolean | True       |
-| longform_notetweets_inline_media_enabled                                | boolean | False      |
+| longform_notetweets_inline_media_enabled                                | boolean | True       |
 | responsive_web_enhance_cards_enabled                                    | boolean | False      |
 
 #### queryId<br>
@@ -8866,7 +8866,7 @@ Login Required: `...`<br>
 | standardized_nudges_misinfo                                             | boolean | True       |
 | tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | False      |
 | longform_notetweets_rich_text_read_enabled                              | boolean | True       |
-| longform_notetweets_inline_media_enabled                                | boolean | False      |
+| longform_notetweets_inline_media_enabled                                | boolean | True       |
 | responsive_web_enhance_cards_enabled                                    | boolean | False      |
 
 #### queryId<br>
@@ -8999,7 +8999,7 @@ Login Required: `...`<br>
 | standardized_nudges_misinfo                                             | boolean | True       |
 | tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | False      |
 | longform_notetweets_rich_text_read_enabled                              | boolean | True       |
-| longform_notetweets_inline_media_enabled                                | boolean | False      |
+| longform_notetweets_inline_media_enabled                                | boolean | True       |
 | responsive_web_enhance_cards_enabled                                    | boolean | False      |
 
 #### queryId<br>
@@ -9087,7 +9087,7 @@ Login Required: `...`<br>
 | standardized_nudges_misinfo                                             | boolean | True       |
 | tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | False      |
 | longform_notetweets_rich_text_read_enabled                              | boolean | True       |
-| longform_notetweets_inline_media_enabled                                | boolean | False      |
+| longform_notetweets_inline_media_enabled                                | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
 | responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean | False      |
@@ -9190,7 +9190,7 @@ Login Required: `...`<br>
 | standardized_nudges_misinfo                                             | boolean | True       |
 | tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | False      |
 | longform_notetweets_rich_text_read_enabled                              | boolean | True       |
-| longform_notetweets_inline_media_enabled                                | boolean | False      |
+| longform_notetweets_inline_media_enabled                                | boolean | True       |
 | responsive_web_enhance_cards_enabled                                    | boolean | False      |
 
 #### queryId<br>
@@ -9221,7 +9221,7 @@ Login Required: `...`<br>
 | standardized_nudges_misinfo                                             | boolean | True       |
 | tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | False      |
 | longform_notetweets_rich_text_read_enabled                              | boolean | True       |
-| longform_notetweets_inline_media_enabled                                | boolean | False      |
+| longform_notetweets_inline_media_enabled                                | boolean | True       |
 | responsive_web_enhance_cards_enabled                                    | boolean | False      |
 
 #### queryId<br>
@@ -9291,7 +9291,7 @@ Login Required: `...`<br>
 | standardized_nudges_misinfo                                             | boolean | True       |
 | tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | False      |
 | longform_notetweets_rich_text_read_enabled                              | boolean | True       |
-| longform_notetweets_inline_media_enabled                                | boolean | False      |
+| longform_notetweets_inline_media_enabled                                | boolean | True       |
 | responsive_web_enhance_cards_enabled                                    | boolean | False      |
 
 #### queryId<br>
@@ -9391,7 +9391,7 @@ Login Required: `...`<br>
 | standardized_nudges_misinfo                                             | boolean | True       |
 | tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | False      |
 | longform_notetweets_rich_text_read_enabled                              | boolean | True       |
-| longform_notetweets_inline_media_enabled                                | boolean | False      |
+| longform_notetweets_inline_media_enabled                                | boolean | True       |
 | responsive_web_enhance_cards_enabled                                    | boolean | False      |
 
 #### queryId<br>
@@ -9593,7 +9593,7 @@ Login Required: `...`<br>
 | standardized_nudges_misinfo                                             | boolean | True       |
 | tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | False      |
 | longform_notetweets_rich_text_read_enabled                              | boolean | True       |
-| longform_notetweets_inline_media_enabled                                | boolean | False      |
+| longform_notetweets_inline_media_enabled                                | boolean | True       |
 | responsive_web_enhance_cards_enabled                                    | boolean | False      |
 
 #### queryId<br>
@@ -9723,7 +9723,7 @@ Login Required: `...`<br>
 | standardized_nudges_misinfo                                             | boolean | True       |
 | tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | False      |
 | longform_notetweets_rich_text_read_enabled                              | boolean | True       |
-| longform_notetweets_inline_media_enabled                                | boolean | False      |
+| longform_notetweets_inline_media_enabled                                | boolean | True       |
 | responsive_web_enhance_cards_enabled                                    | boolean | False      |
 
 #### queryId<br>
@@ -9761,7 +9761,7 @@ Login Required: `...`<br>
 | standardized_nudges_misinfo                                             | boolean | True       |
 | tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | False      |
 | longform_notetweets_rich_text_read_enabled                              | boolean | True       |
-| longform_notetweets_inline_media_enabled                                | boolean | False      |
+| longform_notetweets_inline_media_enabled                                | boolean | True       |
 | responsive_web_enhance_cards_enabled                                    | boolean | False      |
 
 #### queryId<br>
@@ -9810,7 +9810,7 @@ Login Required: `...`<br>
 | standardized_nudges_misinfo                                             | boolean | True       |
 | tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | False      |
 | longform_notetweets_rich_text_read_enabled                              | boolean | True       |
-| longform_notetweets_inline_media_enabled                                | boolean | False      |
+| longform_notetweets_inline_media_enabled                                | boolean | True       |
 | responsive_web_enhance_cards_enabled                                    | boolean | False      |
 
 #### queryId<br>
@@ -9848,7 +9848,7 @@ Login Required: `...`<br>
 | standardized_nudges_misinfo                                             | boolean | True       |
 | tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | False      |
 | longform_notetweets_rich_text_read_enabled                              | boolean | True       |
-| longform_notetweets_inline_media_enabled                                | boolean | False      |
+| longform_notetweets_inline_media_enabled                                | boolean | True       |
 | responsive_web_enhance_cards_enabled                                    | boolean | False      |
 
 #### queryId<br>
@@ -9882,7 +9882,7 @@ Login Required: `...`<br>
 | standardized_nudges_misinfo                                             | boolean | True       |
 | tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | False      |
 | longform_notetweets_rich_text_read_enabled                              | boolean | True       |
-| longform_notetweets_inline_media_enabled                                | boolean | False      |
+| longform_notetweets_inline_media_enabled                                | boolean | True       |
 | responsive_web_enhance_cards_enabled                                    | boolean | False      |
 
 #### queryId<br>
@@ -9919,7 +9919,7 @@ Login Required: `...`<br>
 | standardized_nudges_misinfo                                             | boolean | True       |
 | tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | False      |
 | longform_notetweets_rich_text_read_enabled                              | boolean | True       |
-| longform_notetweets_inline_media_enabled                                | boolean | False      |
+| longform_notetweets_inline_media_enabled                                | boolean | True       |
 | responsive_web_enhance_cards_enabled                                    | boolean | False      |
 
 #### queryId<br>
@@ -9961,7 +9961,7 @@ Login Required: `...`<br>
 | standardized_nudges_misinfo                                             | boolean | True       |
 | tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | False      |
 | longform_notetweets_rich_text_read_enabled                              | boolean | True       |
-| longform_notetweets_inline_media_enabled                                | boolean | False      |
+| longform_notetweets_inline_media_enabled                                | boolean | True       |
 | responsive_web_enhance_cards_enabled                                    | boolean | False      |
 
 #### queryId<br>
@@ -9992,7 +9992,7 @@ Login Required: `...`<br>
 | standardized_nudges_misinfo                                             | boolean | True       |
 | tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | False      |
 | longform_notetweets_rich_text_read_enabled                              | boolean | True       |
-| longform_notetweets_inline_media_enabled                                | boolean | False      |
+| longform_notetweets_inline_media_enabled                                | boolean | True       |
 | responsive_web_enhance_cards_enabled                                    | boolean | False      |
 
 #### queryId<br>
@@ -10023,7 +10023,7 @@ Login Required: `...`<br>
 | standardized_nudges_misinfo                                             | boolean | True       |
 | tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | False      |
 | longform_notetweets_rich_text_read_enabled                              | boolean | True       |
-| longform_notetweets_inline_media_enabled                                | boolean | False      |
+| longform_notetweets_inline_media_enabled                                | boolean | True       |
 | responsive_web_enhance_cards_enabled                                    | boolean | False      |
 
 #### queryId<br>
@@ -10065,7 +10065,7 @@ Login Required: `...`<br>
 | standardized_nudges_misinfo                                             | boolean | True       |
 | tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | False      |
 | longform_notetweets_rich_text_read_enabled                              | boolean | True       |
-| longform_notetweets_inline_media_enabled                                | boolean | False      |
+| longform_notetweets_inline_media_enabled                                | boolean | True       |
 | responsive_web_enhance_cards_enabled                                    | boolean | False      |
 
 #### queryId<br>
@@ -10211,7 +10211,7 @@ Login Required: `...`<br>
 | standardized_nudges_misinfo                                             | boolean | True       |
 | tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | False      |
 | longform_notetweets_rich_text_read_enabled                              | boolean | True       |
-| longform_notetweets_inline_media_enabled                                | boolean | False      |
+| longform_notetweets_inline_media_enabled                                | boolean | True       |
 | responsive_web_enhance_cards_enabled                                    | boolean | False      |
 
 #### queryId<br>
@@ -10267,7 +10267,7 @@ Login Required: `...`<br>
 | standardized_nudges_misinfo                                             | boolean | True       |
 | tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | False      |
 | longform_notetweets_rich_text_read_enabled                              | boolean | True       |
-| longform_notetweets_inline_media_enabled                                | boolean | False      |
+| longform_notetweets_inline_media_enabled                                | boolean | True       |
 | responsive_web_enhance_cards_enabled                                    | boolean | False      |
 
 #### queryId<br>
@@ -10298,7 +10298,7 @@ Login Required: `...`<br>
 | standardized_nudges_misinfo                                             | boolean | True       |
 | tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | False      |
 | longform_notetweets_rich_text_read_enabled                              | boolean | True       |
-| longform_notetweets_inline_media_enabled                                | boolean | False      |
+| longform_notetweets_inline_media_enabled                                | boolean | True       |
 | responsive_web_enhance_cards_enabled                                    | boolean | False      |
 
 #### queryId<br>
@@ -10336,7 +10336,7 @@ Login Required: `...`<br>
 | standardized_nudges_misinfo                                             | boolean | True       |
 | tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | False      |
 | longform_notetweets_rich_text_read_enabled                              | boolean | True       |
-| longform_notetweets_inline_media_enabled                                | boolean | False      |
+| longform_notetweets_inline_media_enabled                                | boolean | True       |
 | responsive_web_enhance_cards_enabled                                    | boolean | False      |
 
 #### queryId<br>
@@ -10373,7 +10373,7 @@ Login Required: `...`<br>
 | standardized_nudges_misinfo                                             | boolean | True       |
 | tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | False      |
 | longform_notetweets_rich_text_read_enabled                              | boolean | True       |
-| longform_notetweets_inline_media_enabled                                | boolean | False      |
+| longform_notetweets_inline_media_enabled                                | boolean | True       |
 | responsive_web_enhance_cards_enabled                                    | boolean | False      |
 
 #### queryId<br>
@@ -10425,7 +10425,7 @@ Login Required: `...`<br>
 | standardized_nudges_misinfo                                             | boolean | True       |
 | tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | False      |
 | longform_notetweets_rich_text_read_enabled                              | boolean | True       |
-| longform_notetweets_inline_media_enabled                                | boolean | False      |
+| longform_notetweets_inline_media_enabled                                | boolean | True       |
 | responsive_web_enhance_cards_enabled                                    | boolean | False      |
 
 #### queryId<br>
@@ -10533,7 +10533,7 @@ Login Required: `...`<br>
 | standardized_nudges_misinfo                                             | boolean | True       |
 | tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | False      |
 | longform_notetweets_rich_text_read_enabled                              | boolean | True       |
-| longform_notetweets_inline_media_enabled                                | boolean | False      |
+| longform_notetweets_inline_media_enabled                                | boolean | True       |
 | responsive_web_enhance_cards_enabled                                    | boolean | False      |
 
 #### queryId<br>
@@ -10586,7 +10586,7 @@ Login Required: `...`<br>
 | standardized_nudges_misinfo                                             | boolean | True       |
 | tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | False      |
 | longform_notetweets_rich_text_read_enabled                              | boolean | True       |
-| longform_notetweets_inline_media_enabled                                | boolean | False      |
+| longform_notetweets_inline_media_enabled                                | boolean | True       |
 | responsive_web_enhance_cards_enabled                                    | boolean | False      |
 
 #### queryId<br>
@@ -10645,7 +10645,7 @@ Login Required: `...`<br>
 | standardized_nudges_misinfo                                             | boolean | True       |
 | tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | False      |
 | longform_notetweets_rich_text_read_enabled                              | boolean | True       |
-| longform_notetweets_inline_media_enabled                                | boolean | False      |
+| longform_notetweets_inline_media_enabled                                | boolean | True       |
 | responsive_web_enhance_cards_enabled                                    | boolean | False      |
 
 #### queryId<br>
@@ -10765,7 +10765,7 @@ Login Required: `...`<br>
 | standardized_nudges_misinfo                                             | boolean | True       |
 | tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | False      |
 | longform_notetweets_rich_text_read_enabled                              | boolean | True       |
-| longform_notetweets_inline_media_enabled                                | boolean | False      |
+| longform_notetweets_inline_media_enabled                                | boolean | True       |
 | responsive_web_enhance_cards_enabled                                    | boolean | False      |
 
 #### queryId<br>
@@ -10801,7 +10801,7 @@ Login Required: `...`<br>
 | standardized_nudges_misinfo                                             | boolean | True       |
 | tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | False      |
 | longform_notetweets_rich_text_read_enabled                              | boolean | True       |
-| longform_notetweets_inline_media_enabled                                | boolean | False      |
+| longform_notetweets_inline_media_enabled                                | boolean | True       |
 | responsive_web_enhance_cards_enabled                                    | boolean | False      |
 
 #### queryId<br>
@@ -10870,7 +10870,7 @@ Login Required: `...`<br>
 | standardized_nudges_misinfo                                             | boolean | True       |
 | tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | False      |
 | longform_notetweets_rich_text_read_enabled                              | boolean | True       |
-| longform_notetweets_inline_media_enabled                                | boolean | False      |
+| longform_notetweets_inline_media_enabled                                | boolean | True       |
 | responsive_web_enhance_cards_enabled                                    | boolean | False      |
 
 #### queryId<br>
@@ -10906,7 +10906,7 @@ Login Required: `...`<br>
 | standardized_nudges_misinfo                                             | boolean | True       |
 | tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | False      |
 | longform_notetweets_rich_text_read_enabled                              | boolean | True       |
-| longform_notetweets_inline_media_enabled                                | boolean | False      |
+| longform_notetweets_inline_media_enabled                                | boolean | True       |
 | responsive_web_enhance_cards_enabled                                    | boolean | False      |
 
 #### queryId<br>
@@ -10942,7 +10942,7 @@ Login Required: `...`<br>
 | standardized_nudges_misinfo                                             | boolean | True       |
 | tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | False      |
 | longform_notetweets_rich_text_read_enabled                              | boolean | True       |
-| longform_notetweets_inline_media_enabled                                | boolean | False      |
+| longform_notetweets_inline_media_enabled                                | boolean | True       |
 | responsive_web_enhance_cards_enabled                                    | boolean | False      |
 
 #### queryId<br>
@@ -11150,7 +11150,7 @@ Login Required: `...`<br>
 | standardized_nudges_misinfo                                             | boolean | True       |
 | tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | False      |
 | longform_notetweets_rich_text_read_enabled                              | boolean | True       |
-| longform_notetweets_inline_media_enabled                                | boolean | False      |
+| longform_notetweets_inline_media_enabled                                | boolean | True       |
 | responsive_web_enhance_cards_enabled                                    | boolean | False      |
 
 #### queryId<br>
@@ -11181,7 +11181,7 @@ Login Required: `...`<br>
 | standardized_nudges_misinfo                                             | boolean | True       |
 | tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | False      |
 | longform_notetweets_rich_text_read_enabled                              | boolean | True       |
-| longform_notetweets_inline_media_enabled                                | boolean | False      |
+| longform_notetweets_inline_media_enabled                                | boolean | True       |
 | responsive_web_enhance_cards_enabled                                    | boolean | False      |
 
 #### queryId<br>
@@ -11217,7 +11217,7 @@ Login Required: `...`<br>
 | standardized_nudges_misinfo                                             | boolean | True       |
 | tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | False      |
 | longform_notetweets_rich_text_read_enabled                              | boolean | True       |
-| longform_notetweets_inline_media_enabled                                | boolean | False      |
+| longform_notetweets_inline_media_enabled                                | boolean | True       |
 | responsive_web_enhance_cards_enabled                                    | boolean | False      |
 
 #### queryId<br>
@@ -11254,7 +11254,7 @@ Login Required: `...`<br>
 | standardized_nudges_misinfo                                             | boolean | True       |
 | tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | False      |
 | longform_notetweets_rich_text_read_enabled                              | boolean | True       |
-| longform_notetweets_inline_media_enabled                                | boolean | False      |
+| longform_notetweets_inline_media_enabled                                | boolean | True       |
 | responsive_web_enhance_cards_enabled                                    | boolean | False      |
 
 #### queryId<br>
@@ -11329,7 +11329,7 @@ Login Required: `...`<br>
 | standardized_nudges_misinfo                                             | boolean | True       |
 | tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | False      |
 | longform_notetweets_rich_text_read_enabled                              | boolean | True       |
-| longform_notetweets_inline_media_enabled                                | boolean | False      |
+| longform_notetweets_inline_media_enabled                                | boolean | True       |
 | responsive_web_enhance_cards_enabled                                    | boolean | False      |
 
 #### queryId<br>
@@ -11422,7 +11422,7 @@ Login Required: `...`<br>
 | standardized_nudges_misinfo                                             | boolean | True       |
 | tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | False      |
 | longform_notetweets_rich_text_read_enabled                              | boolean | True       |
-| longform_notetweets_inline_media_enabled                                | boolean | False      |
+| longform_notetweets_inline_media_enabled                                | boolean | True       |
 | responsive_web_enhance_cards_enabled                                    | boolean | False      |
 
 #### queryId<br>
@@ -11481,7 +11481,7 @@ Login Required: `...`<br>
 | standardized_nudges_misinfo                                             | boolean | True       |
 | tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | False      |
 | longform_notetweets_rich_text_read_enabled                              | boolean | True       |
-| longform_notetweets_inline_media_enabled                                | boolean | False      |
+| longform_notetweets_inline_media_enabled                                | boolean | True       |
 | responsive_web_enhance_cards_enabled                                    | boolean | False      |
 
 #### queryId<br>
@@ -11544,7 +11544,7 @@ Login Required: `...`<br>
 | standardized_nudges_misinfo                                             | boolean | True       |
 | tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | False      |
 | longform_notetweets_rich_text_read_enabled                              | boolean | True       |
-| longform_notetweets_inline_media_enabled                                | boolean | False      |
+| longform_notetweets_inline_media_enabled                                | boolean | True       |
 | responsive_web_enhance_cards_enabled                                    | boolean | False      |
 
 #### queryId<br>
@@ -11607,7 +11607,7 @@ Login Required: `...`<br>
 | standardized_nudges_misinfo                                             | boolean | True       |
 | tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | False      |
 | longform_notetweets_rich_text_read_enabled                              | boolean | True       |
-| longform_notetweets_inline_media_enabled                                | boolean | False      |
+| longform_notetweets_inline_media_enabled                                | boolean | True       |
 | responsive_web_enhance_cards_enabled                                    | boolean | False      |
 
 #### queryId<br>
@@ -11641,7 +11641,7 @@ Login Required: `...`<br>
 | standardized_nudges_misinfo                                             | boolean | True       |
 | tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | False      |
 | longform_notetweets_rich_text_read_enabled                              | boolean | True       |
-| longform_notetweets_inline_media_enabled                                | boolean | False      |
+| longform_notetweets_inline_media_enabled                                | boolean | True       |
 | responsive_web_enhance_cards_enabled                                    | boolean | False      |
 
 #### queryId<br>
@@ -11676,7 +11676,7 @@ Login Required: `...`<br>
 | standardized_nudges_misinfo                                             | boolean | True       |
 | tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | False      |
 | longform_notetweets_rich_text_read_enabled                              | boolean | True       |
-| longform_notetweets_inline_media_enabled                                | boolean | False      |
+| longform_notetweets_inline_media_enabled                                | boolean | True       |
 | responsive_web_enhance_cards_enabled                                    | boolean | False      |
 
 #### queryId<br>
@@ -11721,7 +11721,7 @@ Login Required: `...`<br>
 | standardized_nudges_misinfo                                             | boolean | True       |
 | tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | False      |
 | longform_notetweets_rich_text_read_enabled                              | boolean | True       |
-| longform_notetweets_inline_media_enabled                                | boolean | False      |
+| longform_notetweets_inline_media_enabled                                | boolean | True       |
 | responsive_web_enhance_cards_enabled                                    | boolean | False      |
 
 #### queryId<br>
@@ -11752,7 +11752,7 @@ Login Required: `...`<br>
 | tweet_awards_web_tipping_enabled                                        | boolean | False      |
 | rweb_lists_timeline_redesign_enabled                                    | boolean | True       |
 | longform_notetweets_rich_text_read_enabled                              | boolean | True       |
-| longform_notetweets_inline_media_enabled                                | boolean | False      |
+| longform_notetweets_inline_media_enabled                                | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
@@ -11806,7 +11806,7 @@ Login Required: `...`<br>
 | standardized_nudges_misinfo                                             | boolean | True       |
 | tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | False      |
 | longform_notetweets_rich_text_read_enabled                              | boolean | True       |
-| longform_notetweets_inline_media_enabled                                | boolean | False      |
+| longform_notetweets_inline_media_enabled                                | boolean | True       |
 | responsive_web_enhance_cards_enabled                                    | boolean | False      |
 
 #### queryId<br>
@@ -11848,7 +11848,7 @@ Login Required: `...`<br>
 | standardized_nudges_misinfo                                             | boolean | True       |
 | tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | False      |
 | longform_notetweets_rich_text_read_enabled                              | boolean | True       |
-| longform_notetweets_inline_media_enabled                                | boolean | False      |
+| longform_notetweets_inline_media_enabled                                | boolean | True       |
 | responsive_web_enhance_cards_enabled                                    | boolean | False      |
 
 #### queryId<br>
@@ -11879,7 +11879,7 @@ Login Required: `...`<br>
 | standardized_nudges_misinfo                                             | boolean | True       |
 | tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | False      |
 | longform_notetweets_rich_text_read_enabled                              | boolean | True       |
-| longform_notetweets_inline_media_enabled                                | boolean | False      |
+| longform_notetweets_inline_media_enabled                                | boolean | True       |
 | responsive_web_enhance_cards_enabled                                    | boolean | False      |
 
 #### queryId<br>
@@ -11910,7 +11910,7 @@ Login Required: `...`<br>
 | standardized_nudges_misinfo                                             | boolean | True       |
 | tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | False      |
 | longform_notetweets_rich_text_read_enabled                              | boolean | True       |
-| longform_notetweets_inline_media_enabled                                | boolean | False      |
+| longform_notetweets_inline_media_enabled                                | boolean | True       |
 | responsive_web_enhance_cards_enabled                                    | boolean | False      |
 
 #### queryId<br>
@@ -11941,7 +11941,7 @@ Login Required: `...`<br>
 | standardized_nudges_misinfo                                             | boolean | True       |
 | tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | False      |
 | longform_notetweets_rich_text_read_enabled                              | boolean | True       |
-| longform_notetweets_inline_media_enabled                                | boolean | False      |
+| longform_notetweets_inline_media_enabled                                | boolean | True       |
 | responsive_web_enhance_cards_enabled                                    | boolean | False      |
 
 #### queryId<br>
@@ -11972,7 +11972,7 @@ Login Required: `...`<br>
 | standardized_nudges_misinfo                                             | boolean | True       |
 | tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | False      |
 | longform_notetweets_rich_text_read_enabled                              | boolean | True       |
-| longform_notetweets_inline_media_enabled                                | boolean | False      |
+| longform_notetweets_inline_media_enabled                                | boolean | True       |
 | responsive_web_enhance_cards_enabled                                    | boolean | False      |
 
 #### queryId<br>
@@ -12003,7 +12003,7 @@ Login Required: `...`<br>
 | standardized_nudges_misinfo                                             | boolean | True       |
 | tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | False      |
 | longform_notetweets_rich_text_read_enabled                              | boolean | True       |
-| longform_notetweets_inline_media_enabled                                | boolean | False      |
+| longform_notetweets_inline_media_enabled                                | boolean | True       |
 | responsive_web_enhance_cards_enabled                                    | boolean | False      |
 
 #### queryId<br>
@@ -12034,7 +12034,7 @@ Login Required: `...`<br>
 | standardized_nudges_misinfo                                             | boolean | True       |
 | tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | False      |
 | longform_notetweets_rich_text_read_enabled                              | boolean | True       |
-| longform_notetweets_inline_media_enabled                                | boolean | False      |
+| longform_notetweets_inline_media_enabled                                | boolean | True       |
 | responsive_web_enhance_cards_enabled                                    | boolean | False      |
 
 #### queryId<br>
@@ -12076,7 +12076,7 @@ Login Required: `...`<br>
 | standardized_nudges_misinfo                                             | boolean | True       |
 | tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | False      |
 | longform_notetweets_rich_text_read_enabled                              | boolean | True       |
-| longform_notetweets_inline_media_enabled                                | boolean | False      |
+| longform_notetweets_inline_media_enabled                                | boolean | True       |
 | responsive_web_enhance_cards_enabled                                    | boolean | False      |
 
 #### queryId<br>
@@ -12114,7 +12114,7 @@ Login Required: `...`<br>
 | standardized_nudges_misinfo                                             | boolean | True       |
 | tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | False      |
 | longform_notetweets_rich_text_read_enabled                              | boolean | True       |
-| longform_notetweets_inline_media_enabled                                | boolean | False      |
+| longform_notetweets_inline_media_enabled                                | boolean | True       |
 | responsive_web_enhance_cards_enabled                                    | boolean | False      |
 
 #### queryId<br>
@@ -12169,7 +12169,7 @@ Login Required: `...`<br>
 | standardized_nudges_misinfo                                             | boolean | True       |
 | tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | False      |
 | longform_notetweets_rich_text_read_enabled                              | boolean | True       |
-| longform_notetweets_inline_media_enabled                                | boolean | False      |
+| longform_notetweets_inline_media_enabled                                | boolean | True       |
 | responsive_web_enhance_cards_enabled                                    | boolean | False      |
 
 #### queryId<br>
@@ -12257,7 +12257,7 @@ Login Required: `...`<br>
 | standardized_nudges_misinfo                                             | boolean | True       |
 | tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | False      |
 | longform_notetweets_rich_text_read_enabled                              | boolean | True       |
-| longform_notetweets_inline_media_enabled                                | boolean | False      |
+| longform_notetweets_inline_media_enabled                                | boolean | True       |
 | responsive_web_enhance_cards_enabled                                    | boolean | False      |
 
 #### queryId<br>
@@ -12292,7 +12292,7 @@ Login Required: `...`<br>
 | standardized_nudges_misinfo                                             | boolean | True       |
 | tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | False      |
 | longform_notetweets_rich_text_read_enabled                              | boolean | True       |
-| longform_notetweets_inline_media_enabled                                | boolean | False      |
+| longform_notetweets_inline_media_enabled                                | boolean | True       |
 | responsive_web_enhance_cards_enabled                                    | boolean | False      |
 
 #### queryId<br>
@@ -12331,7 +12331,7 @@ Login Required: `...`<br>
 | standardized_nudges_misinfo                                             | boolean | True       |
 | tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | False      |
 | longform_notetweets_rich_text_read_enabled                              | boolean | True       |
-| longform_notetweets_inline_media_enabled                                | boolean | False      |
+| longform_notetweets_inline_media_enabled                                | boolean | True       |
 | responsive_web_enhance_cards_enabled                                    | boolean | False      |
 
 #### queryId<br>
@@ -12373,7 +12373,7 @@ Login Required: `...`<br>
 | standardized_nudges_misinfo                                             | boolean | True       |
 | tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | False      |
 | longform_notetweets_rich_text_read_enabled                              | boolean | True       |
-| longform_notetweets_inline_media_enabled                                | boolean | False      |
+| longform_notetweets_inline_media_enabled                                | boolean | True       |
 | responsive_web_enhance_cards_enabled                                    | boolean | False      |
 
 #### queryId<br>
@@ -12407,7 +12407,7 @@ Login Required: `...`<br>
 | standardized_nudges_misinfo                                             | boolean | True       |
 | tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | False      |
 | longform_notetweets_rich_text_read_enabled                              | boolean | True       |
-| longform_notetweets_inline_media_enabled                                | boolean | False      |
+| longform_notetweets_inline_media_enabled                                | boolean | True       |
 | responsive_web_enhance_cards_enabled                                    | boolean | False      |
 
 #### queryId<br>
@@ -12457,7 +12457,7 @@ Login Required: `...`<br>
 | standardized_nudges_misinfo                                             | boolean | True       |
 | tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | False      |
 | longform_notetweets_rich_text_read_enabled                              | boolean | True       |
-| longform_notetweets_inline_media_enabled                                | boolean | False      |
+| longform_notetweets_inline_media_enabled                                | boolean | True       |
 | responsive_web_enhance_cards_enabled                                    | boolean | False      |
 
 #### queryId<br>
@@ -12498,7 +12498,7 @@ Login Required: `...`<br>
 | standardized_nudges_misinfo                                             | boolean | True       |
 | tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | False      |
 | longform_notetweets_rich_text_read_enabled                              | boolean | True       |
-| longform_notetweets_inline_media_enabled                                | boolean | False      |
+| longform_notetweets_inline_media_enabled                                | boolean | True       |
 | responsive_web_enhance_cards_enabled                                    | boolean | False      |
 
 #### queryId<br>
@@ -12539,7 +12539,7 @@ Login Required: `...`<br>
 | standardized_nudges_misinfo                                             | boolean | True       |
 | tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | False      |
 | longform_notetweets_rich_text_read_enabled                              | boolean | True       |
-| longform_notetweets_inline_media_enabled                                | boolean | False      |
+| longform_notetweets_inline_media_enabled                                | boolean | True       |
 | responsive_web_enhance_cards_enabled                                    | boolean | False      |
 
 #### queryId<br>
@@ -12641,9 +12641,20 @@ Login Required: `...`<br>
 | standardized_nudges_misinfo                                             | boolean | True       |
 | tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | False      |
 | longform_notetweets_rich_text_read_enabled                              | boolean | True       |
-| longform_notetweets_inline_media_enabled                                | boolean | False      |
+| longform_notetweets_inline_media_enabled                                | boolean | True       |
 | responsive_web_enhance_cards_enabled                                    | boolean | False      |
 
+#### queryId<br>
+`None`<br>
+## CommunitiesTabBarItemQuery<br>
+Request URL: `https://twitter.com/i/api/graphql/ZesI-zwzK86uoWFu5IhLDg/CommunitiesTabBarItemQuery`<br>
+Request Method: `GET`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
 #### queryId<br>
 `None`<br>
 ## urtModuleOperationsInjectEntryQuery<br>
@@ -12726,7 +12737,7 @@ Login Required: `...`<br>
 | freedom_of_speech_not_reach_fetch_enabled                               | boolean | True       |
 | graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | True       |
 | longform_notetweets_consumption_enabled                                 | boolean | True       |
-| longform_notetweets_inline_media_enabled                                | boolean | False      |
+| longform_notetweets_inline_media_enabled                                | boolean | True       |
 | longform_notetweets_rich_text_read_enabled                              | boolean | True       |
 | responsive_web_edit_tweet_api_enabled                                   | boolean | True       |
 | responsive_web_enhance_cards_enabled                                    | boolean | False      |
@@ -14034,7 +14045,7 @@ Login Required: `...`<br>
 | freedom_of_speech_not_reach_fetch_enabled                               | boolean | True       |
 | graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | True       |
 | longform_notetweets_consumption_enabled                                 | boolean | True       |
-| longform_notetweets_inline_media_enabled                                | boolean | False      |
+| longform_notetweets_inline_media_enabled                                | boolean | True       |
 | longform_notetweets_rich_text_read_enabled                              | boolean | True       |
 | responsive_web_edit_tweet_api_enabled                                   | boolean | True       |
 | responsive_web_enhance_cards_enabled                                    | boolean | False      |
