@@ -801,7 +801,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## AudioSpaceById<br>
-Request URL: `https://twitter.com/i/api/graphql/SKjMMjvqRUUGgkATihdNRQ/AudioSpaceById`<br>
+Request URL: `https://twitter.com/i/api/graphql/JZagg6bQEMUFzEKdDvWI4w/AudioSpaceById`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -8091,7 +8091,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## AudioSpaceById<br>
-Request URL: `https://twitter.com/i/api/graphql/SKjMMjvqRUUGgkATihdNRQ/AudioSpaceById`<br>
+Request URL: `https://twitter.com/i/api/graphql/JZagg6bQEMUFzEKdDvWI4w/AudioSpaceById`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -14277,6 +14277,17 @@ Login Required: `...`<br>
 ## JobsScreenJobsQuery<br>
 Request URL: `https://twitter.com/i/api/graphql/V1CHkYzJ6kAzVrUc4dlXLA/JobsScreenJobsQuery`<br>
 Request Method: `GET`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
+## OrderSummaryStripeAffiliateUpdateMutation<br>
+Request URL: `https://twitter.com/i/api/graphql/X_1-9fST-6QH3cakZ2r2zw/OrderSummaryStripeAffiliateUpdateMutation`<br>
+Request Method: `POST`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
