@@ -965,3 +965,15 @@
 - rweb_lists_timeline_minimal_follow_button_enabled<br>
 #### remove<br>
 - None<br>
+## 2023/06/19<br>
+### API<br>
+#### add<br>
+- OrderSummaryStripeAffiliateUpdateMutation<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- highlights_tweets_upsell_on_pin_action_enabled<br>
+- responsive_web_verified_organizations_invoice_update_enabled<br>
+#### remove<br>
+- None<br>
