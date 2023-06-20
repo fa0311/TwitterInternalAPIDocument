@@ -1634,7 +1634,7 @@
   {
     "n": "64332",
     "exports": {
-      "queryId": "SKjMMjvqRUUGgkATihdNRQ",
+      "queryId": "JZagg6bQEMUFzEKdDvWI4w",
       "operationName": "AudioSpaceById",
       "operationType": "query",
       "metadata": {
@@ -18425,7 +18425,7 @@
   {
     "n": "64332",
     "exports": {
-      "queryId": "SKjMMjvqRUUGgkATihdNRQ",
+      "queryId": "JZagg6bQEMUFzEKdDvWI4w",
       "operationName": "AudioSpaceById",
       "operationType": "query",
       "metadata": {
@@ -30100,6 +30100,18 @@
       "queryId": "V1CHkYzJ6kAzVrUc4dlXLA",
       "operationName": "JobsScreenJobsQuery",
       "operationType": "query",
+      "metadata": {
+        "featureSwitches": [],
+        "featureSwitch": {}
+      }
+    }
+  },
+  {
+    "n": "51570",
+    "exports": {
+      "queryId": "X_1-9fST-6QH3cakZ2r2zw",
+      "operationName": "OrderSummaryStripeAffiliateUpdateMutation",
+      "operationType": "mutation",
       "metadata": {
         "featureSwitches": [],
         "featureSwitch": {}

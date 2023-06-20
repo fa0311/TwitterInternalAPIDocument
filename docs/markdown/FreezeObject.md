@@ -4947,6 +4947,118 @@ This document is entirely auto-generated and may contain errors.<br>
 |:-----------|:------------|
 | WebSidebar | web_sidebar |
 
+| constant                         | value                            |
+|:---------------------------------|:---------------------------------|
+| About                            | About                            |
+| Accessibility                    | Accessibility                    |
+| AccessibilityDisplayAndLanguages | AccessibilityDisplayAndLanguages |
+| Account                          | Account                          |
+| AccountActivity                  | AccountActivity                  |
+| AccountAutomation                | AccountAutomation                |
+| AccountHistory                   | AccountHistory                   |
+| AccountInformation               | AccountInformation               |
+| AccountVerification              | AccountVerification              |
+| ActiveSessionDetail              | ActiveSessionDetail              |
+| AddMutedKeywordDetail            | AddMutedKeywordDetail            |
+| Ads                              | Ads                              |
+| AdsPreferences                   | AdsPreferences                   |
+| Age                              | Age                              |
+| ApplicationDetail                | ApplicationDetail                |
+| Applications                     | Applications                     |
+| AppsAndSessions                  | AppsAndSessions                  |
+| AudienceAndTagging               | AudienceAndTagging               |
+| AutoblockedAccounts              | AutoblockedAccounts              |
+| BackupCode                       | BackupCode                       |
+| BlockedAccounts                  | BlockedAccounts                  |
+| Coins                            | Coins                            |
+| ConnectedAccounts                | ConnectedAccounts                |
+| ConnectedApps                    | ConnectedApps                    |
+| Contacts                         | Contacts                         |
+| ContactsDashboard                | ContactsDashboard                |
+| ContentPreferences               | ContentPreferences               |
+| ContentYouSee                    | ContentYouSee                    |
+| CookiePreferences                | CookiePreferences                |
+| Country                          | Country                          |
+| Data                             | Data                             |
+| DataDownload                     | DataDownload                     |
+| DataSharingWithBusinessPartners  | DataSharingWithBusinessPartners  |
+| DeactivateAccount                | DeactivateAccount                |
+| DeactivatedAccount               | DeactivatedAccount               |
+| Delegate                         | Delegate                         |
+| DelegateGroupDetail              | DelegateGroupDetail              |
+| DelegateGroups                   | DelegateGroups                   |
+| DelegateMembers                  | DelegateMembers                  |
+| DeviceFollows                    | DeviceFollows                    |
+| Devices                          | Devices                          |
+| DirectMessages                   | DirectMessages                   |
+| Display                          | Display                          |
+| Download                         | Download                         |
+| DownloadYourData                 | DownloadYourData                 |
+| EarlyAccess                      | EarlyAccess                      |
+| EarlybirdSettings                | EarlybirdSettings                |
+| Email                            | Email                            |
+| EmailNotifications               | EmailNotifications               |
+| FeatureSwitches                  | FeatureSwitches                  |
+| FilteredReplies                  | FilteredReplies                  |
+| Gender                           | Gender                           |
+| Language                         | Language                         |
+| Languages                        | Languages                        |
+| Location                         | Location                         |
+| LocationInformation              | LocationInformation              |
+| Locations                        | Locations                        |
+| LoginHistory                     | LoginHistory                     |
+| LoginVerification                | LoginVerification                |
+| LoginVerificationEnrollment      | LoginVerificationEnrollment      |
+| ManageSecurityKey                | ManageSecurityKey                |
+| ManageSubscription               | ManageSubscription               |
+| Mentions                         | Mentions                         |
+| Monetization                     | Monetization                     |
+| MonetizationDashboard            | MonetizationDashboard            |
+| Mute                             | Mute                             |
+| MuteAndBlock                     | MuteAndBlock                     |
+| MutedAccounts                    | MutedAccounts                    |
+| MutedKeywordDetail               | MutedKeywordDetail               |
+| MutedKeywords                    | MutedKeywords                    |
+| News                             | News                             |
+| NotificationAdvancedFilters      | NotificationAdvancedFilters      |
+| NotificationFilters              | NotificationFilters              |
+| NotificationPreferences          | NotificationPreferences          |
+| Notifications                    | Notifications                    |
+| OffTwitterActivity               | OffTwitterActivity               |
+| PartnerInterests                 | PartnerInterests                 |
+| Password                         | Password                         |
+| Personalization                  | Personalization                  |
+| Phone                            | Phone                            |
+| PrivacyAndSafety                 | PrivacyAndSafety                 |
+| ProfileCustomization             | ProfileCustomization             |
+| PushNotifications                | PushNotifications                |
+| Replies                          | Replies                          |
+| ReportCenter                     | ReportCenter                     |
+| RequestData                      | RequestData                      |
+| RitoActionedTweets               | RitoActionedTweets               |
+| Safety                           | Safety                           |
+| SafetyMode                       | SafetyMode                       |
+| ScreenName                       | ScreenName                       |
+| Security                         | Security                         |
+| SecurityAndAccountAccess         | SecurityAndAccountAccess         |
+| SecurityKeys                     | SecurityKeys                     |
+| SensitiveMedia                   | SensitiveMedia                   |
+| Sessions                         | Sessions                         |
+| Spaces                           | Spaces                           |
+| SuperFollows                     | SuperFollows                     |
+| T1Labs                           | T1Labs                           |
+| Tagging                          | Tagging                          |
+| TailoredAudiences                | TailoredAudiences                |
+| Teams                            | Teams                            |
+| TemporaryPassword                | TemporaryPassword                |
+| TransparencyDashboard            | TransparencyDashboard            |
+| TwitterBlue                      | TwitterBlue                      |
+| TwitterInterests                 | TwitterInterests                 |
+| UndoTweet                        | UndoTweet                        |
+| VideoAutoplay                    | VideoAutoplay                    |
+| YourTweets                       | YourTweets                       |
+| YTDLanguage                      | YTDLanguage                      |
+
 | constant   | value                                           |
 |:-----------|:------------------------------------------------|
 | REQUEST    | rweb/settings/usernames/FETCH_USERNAMES_REQUEST |
@@ -5124,13 +5236,6 @@ This document is entirely auto-generated and may contain errors.<br>
 | SUCCESS    | rweb/accountTaxonomy/DISABLE_USER_ACCOUNT_LABEL_SUCCESS |
 | FAILURE    | rweb/accountTaxonomy/DISABLE_USER_ACCOUNT_LABEL_FAILURE |
 
-| constant   | value   |
-|:-----------|:--------|
-| None       | None    |
-| Nudge      | Nudge   |
-| Prompt     | Prompt  |
-| Require    | Require |
-
 | constant         | value            |
 |:-----------------|:-----------------|
 | NEW              | NEW              |
@@ -5143,117 +5248,12 @@ This document is entirely auto-generated and may contain errors.<br>
 | FAILED           | FAILED           |
 | NONE             | NONE             |
 
-| constant                         | value                            |
-|:---------------------------------|:---------------------------------|
-| About                            | About                            |
-| Accessibility                    | Accessibility                    |
-| AccessibilityDisplayAndLanguages | AccessibilityDisplayAndLanguages |
-| Account                          | Account                          |
-| AccountActivity                  | AccountActivity                  |
-| AccountAutomation                | AccountAutomation                |
-| AccountHistory                   | AccountHistory                   |
-| AccountInformation               | AccountInformation               |
-| AccountVerification              | AccountVerification              |
-| ActiveSessionDetail              | ActiveSessionDetail              |
-| AddMutedKeywordDetail            | AddMutedKeywordDetail            |
-| Ads                              | Ads                              |
-| AdsPreferences                   | AdsPreferences                   |
-| Age                              | Age                              |
-| ApplicationDetail                | ApplicationDetail                |
-| Applications                     | Applications                     |
-| AppsAndSessions                  | AppsAndSessions                  |
-| AudienceAndTagging               | AudienceAndTagging               |
-| AutoblockedAccounts              | AutoblockedAccounts              |
-| BackupCode                       | BackupCode                       |
-| BlockedAccounts                  | BlockedAccounts                  |
-| Coins                            | Coins                            |
-| ConnectedAccounts                | ConnectedAccounts                |
-| ConnectedApps                    | ConnectedApps                    |
-| Contacts                         | Contacts                         |
-| ContactsDashboard                | ContactsDashboard                |
-| ContentPreferences               | ContentPreferences               |
-| ContentYouSee                    | ContentYouSee                    |
-| CookiePreferences                | CookiePreferences                |
-| Country                          | Country                          |
-| Data                             | Data                             |
-| DataDownload                     | DataDownload                     |
-| DataSharingWithBusinessPartners  | DataSharingWithBusinessPartners  |
-| DeactivateAccount                | DeactivateAccount                |
-| DeactivatedAccount               | DeactivatedAccount               |
-| Delegate                         | Delegate                         |
-| DelegateGroupDetail              | DelegateGroupDetail              |
-| DelegateGroups                   | DelegateGroups                   |
-| DelegateMembers                  | DelegateMembers                  |
-| DeviceFollows                    | DeviceFollows                    |
-| Devices                          | Devices                          |
-| DirectMessages                   | DirectMessages                   |
-| Display                          | Display                          |
-| Download                         | Download                         |
-| DownloadYourData                 | DownloadYourData                 |
-| EarlyAccess                      | EarlyAccess                      |
-| EarlybirdSettings                | EarlybirdSettings                |
-| Email                            | Email                            |
-| EmailNotifications               | EmailNotifications               |
-| FeatureSwitches                  | FeatureSwitches                  |
-| FilteredReplies                  | FilteredReplies                  |
-| Gender                           | Gender                           |
-| Language                         | Language                         |
-| Languages                        | Languages                        |
-| Location                         | Location                         |
-| LocationInformation              | LocationInformation              |
-| Locations                        | Locations                        |
-| LoginHistory                     | LoginHistory                     |
-| LoginVerification                | LoginVerification                |
-| LoginVerificationEnrollment      | LoginVerificationEnrollment      |
-| ManageSecurityKey                | ManageSecurityKey                |
-| ManageSubscription               | ManageSubscription               |
-| Mentions                         | Mentions                         |
-| Monetization                     | Monetization                     |
-| MonetizationDashboard            | MonetizationDashboard            |
-| Mute                             | Mute                             |
-| MuteAndBlock                     | MuteAndBlock                     |
-| MutedAccounts                    | MutedAccounts                    |
-| MutedKeywordDetail               | MutedKeywordDetail               |
-| MutedKeywords                    | MutedKeywords                    |
-| News                             | News                             |
-| NotificationAdvancedFilters      | NotificationAdvancedFilters      |
-| NotificationFilters              | NotificationFilters              |
-| NotificationPreferences          | NotificationPreferences          |
-| Notifications                    | Notifications                    |
-| OffTwitterActivity               | OffTwitterActivity               |
-| PartnerInterests                 | PartnerInterests                 |
-| Password                         | Password                         |
-| Personalization                  | Personalization                  |
-| Phone                            | Phone                            |
-| PrivacyAndSafety                 | PrivacyAndSafety                 |
-| ProfileCustomization             | ProfileCustomization             |
-| PushNotifications                | PushNotifications                |
-| Replies                          | Replies                          |
-| ReportCenter                     | ReportCenter                     |
-| RequestData                      | RequestData                      |
-| RitoActionedTweets               | RitoActionedTweets               |
-| Safety                           | Safety                           |
-| SafetyMode                       | SafetyMode                       |
-| ScreenName                       | ScreenName                       |
-| Security                         | Security                         |
-| SecurityAndAccountAccess         | SecurityAndAccountAccess         |
-| SecurityKeys                     | SecurityKeys                     |
-| SensitiveMedia                   | SensitiveMedia                   |
-| Sessions                         | Sessions                         |
-| Spaces                           | Spaces                           |
-| SuperFollows                     | SuperFollows                     |
-| T1Labs                           | T1Labs                           |
-| Tagging                          | Tagging                          |
-| TailoredAudiences                | TailoredAudiences                |
-| Teams                            | Teams                            |
-| TemporaryPassword                | TemporaryPassword                |
-| TransparencyDashboard            | TransparencyDashboard            |
-| TwitterBlue                      | TwitterBlue                      |
-| TwitterInterests                 | TwitterInterests                 |
-| UndoTweet                        | UndoTweet                        |
-| VideoAutoplay                    | VideoAutoplay                    |
-| YourTweets                       | YourTweets                       |
-| YTDLanguage                      | YTDLanguage                      |
+| constant   | value   |
+|:-----------|:--------|
+| None       | None    |
+| Nudge      | Nudge   |
+| Prompt     | Prompt  |
+| Require    | Require |
 
 | constant      | value        |
 |:--------------|:-------------|
@@ -6106,6 +6106,24 @@ This document is entirely auto-generated and may contain errors.<br>
 | featureJob            | featureJob            |
 | unfeatureJob          | unfeatureJob          |
 | configureOrganization | configureOrganization |
+
+```internal process
+# Error
+{[b.hA.generate]:"m().dca6b3ac",[b.hA.updateSeats]:"m().c97ad52a"}
+```
+```internal process
+# Error
+{[b.hA.generate]:"m().f6513c94",[b.hA.updateSeats]:"m().b538d7b8"}
+```
+```internal process
+# Error
+{[C.hA.generate]:"b().fc1f43d0",[C.hA.updateSeats]:"b().c97ad52a"}
+```
+| constant         | value            |
+|:-----------------|:-----------------|
+| generate         | generate         |
+| updateSeats      | updateSeats      |
+| switchFromDirect | switchFromDirect |
 
 | constant   | value   |
 |:-----------|:--------|

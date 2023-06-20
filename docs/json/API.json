@@ -506,8 +506,8 @@
       "features": {}
     },
     "AudioSpaceById": {
-      "url": "https://twitter.com/i/api/graphql/SKjMMjvqRUUGgkATihdNRQ/AudioSpaceById",
-      "queryId": "SKjMMjvqRUUGgkATihdNRQ",
+      "url": "https://twitter.com/i/api/graphql/JZagg6bQEMUFzEKdDvWI4w/AudioSpaceById",
+      "queryId": "JZagg6bQEMUFzEKdDvWI4w",
       "method": "GET",
       "features": {
         "spaces_2022_h2_clipping": true,
@@ -4098,6 +4098,12 @@
       "url": "https://twitter.com/i/api/graphql/V1CHkYzJ6kAzVrUc4dlXLA/JobsScreenJobsQuery",
       "queryId": "V1CHkYzJ6kAzVrUc4dlXLA",
       "method": "GET",
+      "features": {}
+    },
+    "OrderSummaryStripeAffiliateUpdateMutation": {
+      "url": "https://twitter.com/i/api/graphql/X_1-9fST-6QH3cakZ2r2zw/OrderSummaryStripeAffiliateUpdateMutation",
+      "queryId": "X_1-9fST-6QH3cakZ2r2zw",
+      "method": "POST",
       "features": {}
     },
     "OrderSummaryStripeInvoiceMutation": {
