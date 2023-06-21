@@ -85,6 +85,36 @@
       "entities": {},
       "errors": {},
       "fetchStatus": {}
+    },
+    "translationsProfiles": {
+      "entities": {},
+      "errors": {},
+      "fetchStatus": {}
+    },
+    "imageCache": {
+      "entities": {},
+      "errors": {},
+      "fetchStatus": {}
+    },
+    "emailValidity": {
+      "entities": {},
+      "errors": {},
+      "fetchStatus": {}
+    },
+    "translationsTweets": {
+      "entities": {},
+      "errors": {},
+      "fetchStatus": {}
+    },
+    "passwordValidity": {
+      "entities": {},
+      "errors": {},
+      "fetchStatus": {}
+    },
+    "phoneNumberValidity": {
+      "entities": {},
+      "errors": {},
+      "fetchStatus": {}
     }
   },
   "featureSwitch": {
@@ -4467,13 +4497,13 @@
           "value": "false"
         },
         "responsive_web_use_app_button_variations": {
-          "value": "treatment_1"
+          "value": "control"
         },
         "responsive_web_use_app_prompt_copy_variant": {
           "value": "prompt_better"
         },
         "responsive_web_use_app_prompt_enabled": {
-          "value": "true"
+          "value": "false"
         },
         "responsive_web_use_badge_counts_for_ntab": {
           "value": "false"
@@ -5185,10 +5215,10 @@
           "value": "false"
         },
         "tweet_with_visibility_results_partial_gql_limited_actions_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "tweetypie_unmention_optimization_enabled": {
           "value": "true"
@@ -5310,7 +5340,7 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "c939fe24321e1c3ba9fbe07d90d117f5"
+      "settingsVersion": "76a880014498f5c96955e32f5d4c8b38"
     },
     "debug": {},
     "featureSetToken": "eb00150f4c22a143a7bb5e8c041532c9e5e6a62a",
@@ -5386,7 +5416,7 @@
     "country": "US",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "168729542096393562",
+    "guestId": "168738189459485097",
     "hasCommunityMemberships": "false",
     "language": "en",
     "oneFactorLoginEligibility": {
@@ -5421,6 +5451,12 @@
     "updates": {
       "isLoaded": "false",
       "isLoading": "false"
+    }
+  },
+  "ads": {
+    "typeahead": {
+      "targetingLocation": {},
+      "forecastAudience": {}
     }
   }
 }
