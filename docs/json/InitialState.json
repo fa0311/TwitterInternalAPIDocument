@@ -76,6 +76,11 @@
       "errors": {},
       "fetchStatus": {}
     },
+    "translationsProfiles": {
+      "entities": {},
+      "errors": {},
+      "fetchStatus": {}
+    },
     "imageCache": {
       "entities": {},
       "errors": {},
@@ -106,17 +111,17 @@
       "errors": {},
       "fetchStatus": {}
     },
-    "translationsProfiles": {
-      "entities": {},
-      "errors": {},
-      "fetchStatus": {}
-    },
     "legacyAndUnifiedCards": {
       "entities": {},
       "errors": {},
       "fetchStatus": {}
     },
     "liveEvents": {
+      "entities": {},
+      "errors": {},
+      "fetchStatus": {}
+    },
+    "places": {
       "entities": {},
       "errors": {},
       "fetchStatus": {}
@@ -3943,7 +3948,7 @@
           "value": "false"
         },
         "responsive_web_creator_preferences_previews_enabled_setting": {
-          "value": "false"
+          "value": "true"
         },
         "responsive_web_csrf_clientside_enabled": {
           "value": "true"
@@ -4505,13 +4510,13 @@
           "value": "false"
         },
         "responsive_web_use_app_button_variations": {
-          "value": "treatment_1"
+          "value": "control"
         },
         "responsive_web_use_app_prompt_copy_variant": {
           "value": "prompt_better"
         },
         "responsive_web_use_app_prompt_enabled": {
-          "value": "true"
+          "value": "false"
         },
         "responsive_web_use_badge_counts_for_ntab": {
           "value": "false"
@@ -5228,10 +5233,10 @@
           "value": "false"
         },
         "tweet_with_visibility_results_partial_gql_limited_actions_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "tweetypie_unmention_optimization_enabled": {
           "value": "true"
@@ -5353,7 +5358,7 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "7c218335090ded2f89598abf2c258f80"
+      "settingsVersion": "7804d4d7b01980426b751c33dec0cddc"
     },
     "debug": {},
     "featureSetToken": "bf65c64f3d63350c9e68a6ebab52d60d14f052e6",
@@ -5429,7 +5434,7 @@
     "country": "US",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "168720879121635361",
+    "guestId": "168738165923947397",
     "hasCommunityMemberships": "false",
     "language": "en",
     "oneFactorLoginEligibility": {
