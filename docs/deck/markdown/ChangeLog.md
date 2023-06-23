@@ -350,3 +350,17 @@
 - rweb_lists_timeline_minimal_follow_button_enabled<br>
 #### remove<br>
 - super_follow_onboarding_application_redesign_enabled<br>
+## 2023/06/22<br>
+### API<br>
+#### add<br>
+- ManageAffiliateBadgesQuery<br>
+- MonetizationCreatorSettingsQuery<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- blue_business_affiliates_list_order_setting_enabled<br>
+- responsive_web_ad_revenue_sharing_enabled<br>
+- responsive_web_twitter_article_seed_tweet_enabled<br>
+#### remove<br>
+- None<br>
