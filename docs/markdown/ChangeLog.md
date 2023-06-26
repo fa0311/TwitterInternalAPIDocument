@@ -977,3 +977,26 @@
 - responsive_web_verified_organizations_invoice_update_enabled<br>
 #### remove<br>
 - None<br>
+## 2023/06/26<br>
+### API<br>
+#### add<br>
+- ManageAffiliateBadgesQuery<br>
+- MonetizationCreatorSettingsQuery<br>
+- useCreateLocationSpotlightMutation<br>
+- useUpdateLocationSpotlightMutation<br>
+- useFetchAdminJobsQuery<br>
+- useUpdateOrganizationMutation<br>
+#### remove<br>
+- GroupDetailDelegateQuery<br>
+- ProfileSpotlights_EditableProfileSpotlightsQuery<br>
+- UpdateProfileSpotlightVisibilityMutation<br>
+- JobsScreenJobsQuery<br>
+### Feature Switch<br>
+#### add<br>
+- blue_business_affiliates_list_order_setting_enabled<br>
+- responsive_web_ad_revenue_sharing_enabled<br>
+- responsive_web_twitter_article_seed_tweet_detail_enabled<br>
+- responsive_web_twitter_article_seed_tweet_enabled<br>
+- responsive_web_twitter_article_tweet_consumption_enabled<br>
+#### remove<br>
+- super_follow_onboarding_application_redesign_enabled<br>
