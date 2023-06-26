@@ -3299,10 +3299,10 @@
           ]
         },
         "dm_reactions_emoji_picker_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "dm_reactions_rweb_emoji_picker_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "dm_replies_long_press_to_reply_enabled": {
           "value": "true"
@@ -5358,7 +5358,7 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "41ff12867a1e3c5d01c3e34ddb8fd13f"
+      "settingsVersion": "addf22472418e35862ae438d7fa794ef"
     },
     "debug": {},
     "featureSetToken": "902e8e113ea47eeca9483dabe3edabcbfde323a2",
@@ -5431,7 +5431,7 @@
     "country": "US",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "168772746560215242",
+    "guestId": "168781397686878592",
     "hasCommunityMemberships": "false",
     "language": "en",
     "oneFactorLoginEligibility": {
@@ -5471,6 +5471,12 @@
   "developer": {
     "dtabBarInfo": {
       "hide": "false"
+    }
+  },
+  "ads": {
+    "typeahead": {
+      "targetingLocation": {},
+      "forecastAudience": {}
     }
   }
 }
