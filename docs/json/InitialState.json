@@ -51,6 +51,11 @@
       "errors": {},
       "fetchStatus": {}
     },
+    "articleEntities": {
+      "entities": {},
+      "errors": {},
+      "fetchStatus": {}
+    },
     "twitterArticles": {
       "entities": {},
       "errors": {},
@@ -81,7 +86,7 @@
       "errors": {},
       "fetchStatus": {}
     },
-    "legacyAndUnifiedCards": {
+    "emailValidity": {
       "entities": {},
       "errors": {},
       "fetchStatus": {}
@@ -96,16 +101,6 @@
       "errors": {},
       "fetchStatus": {}
     },
-    "translationsProfiles": {
-      "entities": {},
-      "errors": {},
-      "fetchStatus": {}
-    },
-    "emailValidity": {
-      "entities": {},
-      "errors": {},
-      "fetchStatus": {}
-    },
     "passwordValidity": {
       "entities": {},
       "errors": {},
@@ -116,12 +111,17 @@
       "errors": {},
       "fetchStatus": {}
     },
+    "translationsProfiles": {
+      "entities": {},
+      "errors": {},
+      "fetchStatus": {}
+    },
     "liveEvents": {
       "entities": {},
       "errors": {},
       "fetchStatus": {}
     },
-    "places": {
+    "legacyAndUnifiedCards": {
       "entities": {},
       "errors": {},
       "fetchStatus": {}
@@ -425,6 +425,9 @@
       "Arkose_use_invisible_challenge_key": {
         "value": "false"
       },
+      "blue_business_affiliates_list_order_setting_enabled": {
+        "value": "false"
+      },
       "blue_business_subscriptions_management_page_updates_enabled": {
         "value": "true"
       },
@@ -689,10 +692,10 @@
         "value": "true"
       },
       "dm_reactions_rweb_emoji_picker_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "dm_replies_long_press_to_reply_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "dm_replies_rweb_media_rendering_enabled": {
         "value": "true"
@@ -902,7 +905,7 @@
         "value": "false"
       },
       "highlights_tweets_upsell_on_pin_action_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "home_timeline_like_reactivity_enabled": {
         "value": "true"
@@ -992,7 +995,7 @@
         "value": "25"
       },
       "longform_notetweets_max_weighted_character_length": {
-        "value": "10000"
+        "value": "25000"
       },
       "longform_notetweets_mobile_richtextinput": {
         "value": "false"
@@ -1189,6 +1192,9 @@
       "responsive_web_account_access_language_lo_splash_sidebar": {
         "value": "control"
       },
+      "responsive_web_ad_revenue_sharing_enabled": {
+        "value": "false"
+      },
       "responsive_web_alt_text_nudges_enabled": {
         "value": "true"
       },
@@ -1334,7 +1340,7 @@
         "value": "false"
       },
       "responsive_web_creator_preferences_previews_enabled_setting": {
-        "value": "false"
+        "value": "true"
       },
       "responsive_web_csrf_clientside_enabled": {
         "value": "true"
@@ -1862,6 +1868,15 @@
       "responsive_web_twitter_article_notes_tab_enabled": {
         "value": "false"
       },
+      "responsive_web_twitter_article_seed_tweet_detail_enabled": {
+        "value": "false"
+      },
+      "responsive_web_twitter_article_seed_tweet_enabled": {
+        "value": "false"
+      },
+      "responsive_web_twitter_article_tweet_consumption_enabled": {
+        "value": "false"
+      },
       "responsive_web_twitter_article_tweet_other_notes_enabled": {
         "value": "true"
       },
@@ -1896,10 +1911,10 @@
         "value": "false"
       },
       "responsive_web_use_app_button_variations": {
-        "value": "treatment_1"
+        "value": "control"
       },
       "responsive_web_use_app_prompt_copy_variant": {
-        "value": ""
+        "value": "prompt_better"
       },
       "responsive_web_use_app_prompt_enabled": {
         "value": "false"
@@ -2176,7 +2191,7 @@
         "value": "false"
       },
       "spaces_2022_h2_spacebar_web_sidebar": {
-        "value": "false"
+        "value": "true"
       },
       "spaces_2022_h2_spacebar_web_topnavbar": {
         "value": "purple"
@@ -2296,9 +2311,6 @@
         "value": "true"
       },
       "super_follow_onboarding_application_perks_enabled": {
-        "value": "true"
-      },
-      "super_follow_onboarding_application_redesign_enabled": {
         "value": "true"
       },
       "super_follow_onboarding_blue_verified_requirement_enabled": {
@@ -2619,10 +2631,10 @@
         "value": "false"
       },
       "tweet_with_visibility_results_partial_gql_limited_actions_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "tweetypie_unmention_optimization_enabled": {
         "value": "true"
@@ -3037,6 +3049,9 @@
           "value": "true"
         },
         "Arkose_use_invisible_challenge_key": {
+          "value": "false"
+        },
+        "blue_business_affiliates_list_order_setting_enabled": {
           "value": "false"
         },
         "blue_business_subscriptions_management_page_updates_enabled": {
@@ -3803,6 +3818,9 @@
         "responsive_web_account_access_language_lo_splash_sidebar": {
           "value": "control"
         },
+        "responsive_web_ad_revenue_sharing_enabled": {
+          "value": "false"
+        },
         "responsive_web_alt_text_nudges_enabled": {
           "value": "true"
         },
@@ -4476,6 +4494,15 @@
         "responsive_web_twitter_article_notes_tab_enabled": {
           "value": "false"
         },
+        "responsive_web_twitter_article_seed_tweet_detail_enabled": {
+          "value": "false"
+        },
+        "responsive_web_twitter_article_seed_tweet_enabled": {
+          "value": "false"
+        },
+        "responsive_web_twitter_article_tweet_consumption_enabled": {
+          "value": "false"
+        },
         "responsive_web_twitter_article_tweet_other_notes_enabled": {
           "value": "true"
         },
@@ -4910,9 +4937,6 @@
           "value": "true"
         },
         "super_follow_onboarding_application_perks_enabled": {
-          "value": "true"
-        },
-        "super_follow_onboarding_application_redesign_enabled": {
           "value": "true"
         },
         "super_follow_onboarding_blue_verified_requirement_enabled": {
@@ -5358,10 +5382,10 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "1cdb4c3dcadf28055ed5739909950040"
+      "settingsVersion": "3b824020366fe0f597606dab108dc310"
     },
     "debug": {},
-    "featureSetToken": "bf65c64f3d63350c9e68a6ebab52d60d14f052e6",
+    "featureSetToken": "564835a3a5a8aae86505d720af6234ca244a559b",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -5392,9 +5416,6 @@
       "dataSaverMode": "false"
     },
     "transient": {
-      "dtabBarInfo": {
-        "hide": "false"
-      },
       "loginPromptShown": "false",
       "lastViewedDmInboxPath": "/messages",
       "themeFocus": ""
@@ -5434,13 +5455,18 @@
     "country": "US",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "168772723413842283",
+    "guestId": "168781365450492894",
     "hasCommunityMemberships": "false",
     "language": "en",
     "oneFactorLoginEligibility": {
       "fetchStatus": "none"
     },
     "ssoInitTokens": {}
+  },
+  "developer": {
+    "dtabBarInfo": {
+      "hide": "false"
+    }
   },
   "ads": {
     "typeahead": {
