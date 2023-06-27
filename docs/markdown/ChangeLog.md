@@ -1000,3 +1000,14 @@
 - responsive_web_twitter_article_tweet_consumption_enabled<br>
 #### remove<br>
 - super_follow_onboarding_application_redesign_enabled<br>
+## 2023/06/27<br>
+### API<br>
+#### add<br>
+- AccountAnalyticsQuery<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- responsive_web_account_analytics_enabled<br>
+#### remove<br>
+- None<br>
