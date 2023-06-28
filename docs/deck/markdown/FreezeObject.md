@@ -1466,6 +1466,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | moments                         | u       |
 | topics                          | u       |
 | tweets                          | u       |
+| articleEntities                 | u       |
 | twitterArticles                 | u       |
 | trustedFriends                  | u       |
 | userPresence                    | u       |
@@ -2634,9 +2635,9 @@ This document is entirely auto-generated and may contain errors.<br>
 | subscriptionSaving | {'backgroundColor': 'green50', 'color': 'green900', 'bold': '!0', 'radius': '9999', 'fontSize': 'subtext3'} |
 | bestValue          | {'backgroundColor': 'green50', 'color': 'green900', 'bold': '!0', 'fontSize': 'subtext3'}                   |
 | mostPopular        | {'backgroundColor': 'purple50', 'color': 'purple900', 'bold': '!0', 'fontSize': 'subtext3'}                 |
-| alt                | k                                                                                                           |
-| gif                | k                                                                                                           |
-| hd                 | k                                                                                                           |
+| alt                | C                                                                                                           |
+| gif                | C                                                                                                           |
+| hd                 | C                                                                                                           |
 | likedByAuthor      | {'backgroundColor': 'gray50', 'bold': '!1', 'color': 'gray700'}                                             |
 
 ```internal process
@@ -2948,7 +2949,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant                   | value                        |
 |:---------------------------|:-----------------------------|
-| ...y                       | _                            |
+| ...S                       | _                            |
 | ...o()                     | _                            |
 | text                       | l.Cj                         |
 | navigationBackground       | #050505                      |
@@ -2988,15 +2989,15 @@ This document is entirely auto-generated and may contain errors.<br>
 | appBarHeight          | v         |
 | appBarHeightPx        | f         |
 | conversationLineWidth | g.space2  |
-| gutterHorizontal      | S.space16 |
+| gutterHorizontal      | y.space16 |
 | gutterHorizontalPx    | g.space16 |
-| gutterVertical        | S.space12 |
+| gutterVertical        | y.space12 |
 | gutterVerticalPx      | g.space12 |
 
 | constant            | value   |
 |:--------------------|:--------|
 | aspectRatios        | o       |
-| baseFontSize        | A       |
+| baseFontSize        | w       |
 | borderRadii         | s       |
 | borderRadiiPx       | i       |
 | borderWidths        | c       |
@@ -3004,14 +3005,14 @@ This document is entirely auto-generated and may contain errors.<br>
 | breakpoints         | r       |
 | componentDimensions | M       |
 | componentZIndices   | l       |
-| fontSizes           | w       |
-| fontSizesPx         | y       |
+| fontSizes           | A       |
+| fontSizesPx         | S       |
 | fontWeights         | b       |
 | lineHeights         | D       |
 | lineHeightsPx       | h       |
 | scales              | d.Tp    |
 | scaleMultipler      | n       |
-| spaces              | S       |
+| spaces              | y       |
 | spacesPx            | g       |
 
 ```internal process
@@ -3058,26 +3059,6 @@ This document is entirely auto-generated and may contain errors.<br>
 | SUCCEEDED  |       3 |
 | FAILED     |       4 |
 
-| constant      | value        |
-|:--------------|:-------------|
-| superFollower | u().fc065ee4 |
-
-| constant      | value                                                                                                                                                                                                                                    |
-|:--------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| superFollower | {'graphic': 'p.default', 'headline': 'u().e453f536', 'subtext': 'u().dea63fc4', 'actionLabel': 'u().g7099a02', 'actionLink': 'https://help.twitter.com/en/using-twitter/super-follows#sfexpect', 'secondaryActionLabel': 'u().c2637ef6'} |
-
-| constant        | value        |
-|:----------------|:-------------|
-| followsYou      | u().efb17190 |
-| superFollowsYou | u().g57b5f6c |
-| superFollower   | u().a77a27c0 |
-
-| constant        | value   |
-|:----------------|:--------|
-| followsYou      | gray700 |
-| superFollowsYou | plum700 |
-| superFollower   | plum700 |
-
 | constant             | value                |
 |:---------------------|:---------------------|
 | Bird                 | Bird                 |
@@ -3108,6 +3089,26 @@ This document is entirely auto-generated and may contain errors.<br>
 | TextOnly             | TextOnly             |
 | Topic                | Topic                |
 | Trending             | Trending             |
+
+| constant      | value        |
+|:--------------|:-------------|
+| superFollower | u().fc065ee4 |
+
+| constant      | value                                                                                                                                                                                                                                    |
+|:--------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| superFollower | {'graphic': 'p.default', 'headline': 'u().e453f536', 'subtext': 'u().dea63fc4', 'actionLabel': 'u().g7099a02', 'actionLink': 'https://help.twitter.com/en/using-twitter/super-follows#sfexpect', 'secondaryActionLabel': 'u().c2637ef6'} |
+
+| constant        | value        |
+|:----------------|:-------------|
+| followsYou      | u().efb17190 |
+| superFollowsYou | u().g57b5f6c |
+| superFollower   | u().a77a27c0 |
+
+| constant        | value   |
+|:----------------|:--------|
+| followsYou      | gray700 |
+| superFollowsYou | plum700 |
+| superFollower   | plum700 |
 
 | constant              | value                                                                                                                                                                                                                                                         |
 |:----------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -3364,15 +3365,15 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{[Gt.X.conversationSettings]:{"component":"Jt","showInStack":"!0"},[Gt.X.drawerToggle]:{"component":"cn","showInStack":"!1"},[Gt.X.makeDeck]:{"component":"bn","showInStack":"!0"},[Gt.X.manualRefresh]:{"component":"Cn","showInStack":"!0"},[Gt.X.newMessage]:{"component":"Tn","showInStack":"!0"},[Gt.X....
+{[ne.r.labs]:{"title":"i().f6e88162"},[ne.r.options]:{"title":"i().e6df688c"},[ne.r.search]:{"title":"i().a9ae1e78"}}
 ```
 ```internal process
 # Error
-{[nn.r.labs]:{"title":"i().f6e88162"},[nn.r.options]:{"title":"i().e6df688c"},[nn.r.search]:{"title":"i().a9ae1e78"}}
+{[ne.I1.clearBookmarks]:{"component":"Gt"},[ne.I1.clearTweets]:{"component":"tn"},[ne.I1.columnDebugInfo]:{"component":"be"},[ne.I1.columnDebugState]:{"component":"ye"},[ne.I1.sharingDebug]:{"component":"se.Z"},[ne.I1.contentDisplay]:{"component":"he"},[ne.I1.conversationInfo]:{"component":"et"},[ne...
 ```
 ```internal process
 # Error
-{[nn.I1.clearBookmarks]:{"component":"Gr"},[nn.I1.clearTweets]:{"component":"ts"},[nn.I1.columnDebugInfo]:{"component":"_o"},[nn.I1.columnDebugState]:{"component":"Lo"},[nn.I1.sharingDebug]:{"component":"Gl.Z"},[nn.I1.contentDisplay]:{"component":"Ao"},[nn.I1.conversationInfo]:{"component":"ir"},[nn...
+{[Bo.X.conversationSettings]:{"component":"Ho","showInStack":"!0"},[Bo.X.drawerToggle]:{"component":"Qo","showInStack":"!1"},[Bo.X.makeDeck]:{"component":"Jo","showInStack":"!0"},[Bo.X.manualRefresh]:{"component":"ss","showInStack":"!0"},[Bo.X.newMessage]:{"component":"ms","showInStack":"!0"},[Bo.X....
 ```
 | constant          | value             |
 |:------------------|:------------------|
@@ -3776,13 +3777,13 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant         | value        |
 |:-----------------|:-------------|
-| see_more         | Z().ffd9cfe6 |
-| discover_more    | Z().d172116a |
-| more             | Z().h63a5c3c |
-| more_tweets      | Z().iac074c4 |
-| more_suggestions | Z().g11ebd34 |
-| browse           | Z().g4a6901a |
-| browse_tweets    | Z().b1abb17e |
+| see_more         | L().ffd9cfe6 |
+| discover_more    | L().d172116a |
+| more             | L().h63a5c3c |
+| more_tweets      | L().iac074c4 |
+| more_suggestions | L().g11ebd34 |
+| browse           | L().g4a6901a |
+| browse_tweets    | L().b1abb17e |
 
 | constant   | value        |
 |:-----------|:-------------|
@@ -3856,6 +3857,46 @@ This document is entirely auto-generated and may contain errors.<br>
 | TextOnly             | TextOnly             |
 | Topic                | Topic                |
 | Trending             | Trending             |
+
+| constant      | value        |
+|:--------------|:-------------|
+| superFollower | m().fc065ee4 |
+
+| constant      | value                                                                                                                                                                                                                                    |
+|:--------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| superFollower | {'graphic': 'y.default', 'headline': 'm().e453f536', 'subtext': 'm().dea63fc4', 'actionLabel': 'm().g7099a02', 'actionLink': 'https://help.twitter.com/en/using-twitter/super-follows#sfexpect', 'secondaryActionLabel': 'm().c2637ef6'} |
+
+| constant        | value        |
+|:----------------|:-------------|
+| followsYou      | m().efb17190 |
+| superFollowsYou | m().g57b5f6c |
+| superFollower   | m().a77a27c0 |
+
+| constant        | value   |
+|:----------------|:--------|
+| followsYou      | gray700 |
+| superFollowsYou | plum700 |
+| superFollower   | plum700 |
+
+| constant      | value        |
+|:--------------|:-------------|
+| superFollower | u().fc065ee4 |
+
+| constant      | value                                                                                                                                                                                                                                    |
+|:--------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| superFollower | {'graphic': 'h.default', 'headline': 'u().e453f536', 'subtext': 'u().dea63fc4', 'actionLabel': 'u().g7099a02', 'actionLink': 'https://help.twitter.com/en/using-twitter/super-follows#sfexpect', 'secondaryActionLabel': 'u().c2637ef6'} |
+
+| constant        | value        |
+|:----------------|:-------------|
+| followsYou      | u().efb17190 |
+| superFollowsYou | u().g57b5f6c |
+| superFollower   | u().a77a27c0 |
+
+| constant        | value   |
+|:----------------|:--------|
+| followsYou      | gray700 |
+| superFollowsYou | plum700 |
+| superFollower   | plum700 |
 
 | constant       | value          |
 |:---------------|:---------------|
@@ -3958,6 +3999,13 @@ This document is entirely auto-generated and may contain errors.<br>
 | PagedCarouselFeedbackItem | pagedCarouselFeedbackItem |
 | Message                   | message                   |
 
+| constant                   | value                      |
+|:---------------------------|:---------------------------|
+| EntityFollowPrompt         | entityFollowPrompt         |
+| UserFollowPrompt           | userFollowPrompt           |
+| RelevancePrompt            | relevancePrompt            |
+| OnboardingLikesStartPrompt | onboardingLikesStartPrompt |
+
 | constant   | value   |
 |:-----------|:--------|
 | Expand     | Expand  |
@@ -3971,13 +4019,6 @@ This document is entirely auto-generated and may contain errors.<br>
 | Standard     | standard     |
 | Broadcast    | broadcast    |
 | CallToAction | callToAction |
-
-| constant                   | value                      |
-|:---------------------------|:---------------------------|
-| EntityFollowPrompt         | entityFollowPrompt         |
-| UserFollowPrompt           | userFollowPrompt           |
-| RelevancePrompt            | relevancePrompt            |
-| OnboardingLikesStartPrompt | onboardingLikesStartPrompt |
 
 | constant                       | value                          |
 |:-------------------------------|:-------------------------------|
@@ -4226,6 +4267,13 @@ This document is entirely auto-generated and may contain errors.<br>
 | DMComposition   | dm_composition   |
 | NoteComposition | note_composition |
 
+| constant        | value           |
+|:----------------|:----------------|
+| RATE_LIMITED    | rate_limited    |
+| CREATE_GROUP    | create_group    |
+| MESSAGE_REQUEST | message_request |
+| ADD_TO_GROUP    | add_to_group    |
+
 | constant   | value      |
 |:-----------|:-----------|
 | GROUP      | GroupDm    |
@@ -4413,6 +4461,26 @@ This document is entirely auto-generated and may contain errors.<br>
 | Topic                | Topic                |
 | Trending             | Trending             |
 
+| constant      | value        |
+|:--------------|:-------------|
+| superFollower | u().fc065ee4 |
+
+| constant      | value                                                                                                                                                                                                                                    |
+|:--------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| superFollower | {'graphic': 'p.default', 'headline': 'u().e453f536', 'subtext': 'u().dea63fc4', 'actionLabel': 'u().g7099a02', 'actionLink': 'https://help.twitter.com/en/using-twitter/super-follows#sfexpect', 'secondaryActionLabel': 'u().c2637ef6'} |
+
+| constant        | value        |
+|:----------------|:-------------|
+| followsYou      | u().efb17190 |
+| superFollowsYou | u().g57b5f6c |
+| superFollower   | u().a77a27c0 |
+
+| constant        | value   |
+|:----------------|:--------|
+| followsYou      | gray700 |
+| superFollowsYou | plum700 |
+| superFollower   | plum700 |
+
 | constant             | value                |
 |:---------------------|:---------------------|
 | Bird                 | Bird                 |
@@ -4443,6 +4511,26 @@ This document is entirely auto-generated and may contain errors.<br>
 | TextOnly             | TextOnly             |
 | Topic                | Topic                |
 | Trending             | Trending             |
+
+| constant      | value        |
+|:--------------|:-------------|
+| superFollower | u().fc065ee4 |
+
+| constant      | value                                                                                                                                                                                                                                    |
+|:--------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| superFollower | {'graphic': 'p.default', 'headline': 'u().e453f536', 'subtext': 'u().dea63fc4', 'actionLabel': 'u().g7099a02', 'actionLink': 'https://help.twitter.com/en/using-twitter/super-follows#sfexpect', 'secondaryActionLabel': 'u().c2637ef6'} |
+
+| constant        | value        |
+|:----------------|:-------------|
+| followsYou      | u().efb17190 |
+| superFollowsYou | u().g57b5f6c |
+| superFollower   | u().a77a27c0 |
+
+| constant        | value   |
+|:----------------|:--------|
+| followsYou      | gray700 |
+| superFollowsYou | plum700 |
+| superFollower   | plum700 |
 
 | constant    | value        |
 |:------------|:-------------|
@@ -5834,6 +5922,26 @@ This document is entirely auto-generated and may contain errors.<br>
 | success    | {'accessibilityLiveRegion': 'polite'}    |
 | warning    | {'accessibilityLiveRegion': 'polite'}    |
 
+| constant      | value        |
+|:--------------|:-------------|
+| superFollower | m().fc065ee4 |
+
+| constant      | value                                                                                                                                                                                                                                    |
+|:--------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| superFollower | {'graphic': 'p.default', 'headline': 'm().e453f536', 'subtext': 'm().dea63fc4', 'actionLabel': 'm().g7099a02', 'actionLink': 'https://help.twitter.com/en/using-twitter/super-follows#sfexpect', 'secondaryActionLabel': 'm().c2637ef6'} |
+
+| constant        | value        |
+|:----------------|:-------------|
+| followsYou      | m().efb17190 |
+| superFollowsYou | m().g57b5f6c |
+| superFollower   | m().a77a27c0 |
+
+| constant        | value   |
+|:----------------|:--------|
+| followsYou      | gray700 |
+| superFollowsYou | plum700 |
+| superFollower   | plum700 |
+
 | constant   | value                                            |
 |:-----------|:-------------------------------------------------|
 | REQUEST    | rweb/oAuthConsent/FETCH_CONSENT_METADATA_REQUEST |
@@ -5972,6 +6080,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | Location    | AboutModule       |
 | Shop        | ShopModule        |
 | Communities | CommunitiesModule |
+| Jobs        | JobsModule        |
 
 | constant    | value       |
 |:------------|:------------|
@@ -6344,6 +6453,26 @@ This document is entirely auto-generated and may contain errors.<br>
 | LIST_UPDATE      | list_update      |
 | INITIAL_POSITION | initial_position |
 
+| constant      | value        |
+|:--------------|:-------------|
+| superFollower | m().fc065ee4 |
+
+| constant      | value                                                                                                                                                                                                                                    |
+|:--------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| superFollower | {'graphic': 'p.default', 'headline': 'm().e453f536', 'subtext': 'm().dea63fc4', 'actionLabel': 'm().g7099a02', 'actionLink': 'https://help.twitter.com/en/using-twitter/super-follows#sfexpect', 'secondaryActionLabel': 'm().c2637ef6'} |
+
+| constant        | value        |
+|:----------------|:-------------|
+| followsYou      | m().efb17190 |
+| superFollowsYou | m().g57b5f6c |
+| superFollower   | m().a77a27c0 |
+
+| constant        | value   |
+|:----------------|:--------|
+| followsYou      | gray700 |
+| superFollowsYou | plum700 |
+| superFollower   | plum700 |
+
 | constant   | value      |
 |:-----------|:-----------|
 | GIF        | TweetGif   |
@@ -6452,6 +6581,26 @@ This document is entirely auto-generated and may contain errors.<br>
 | Pinning    | Pinning    |
 | Reordering | Reordering |
 
+| constant      | value        |
+|:--------------|:-------------|
+| superFollower | u().fc065ee4 |
+
+| constant      | value                                                                                                                                                                                                                                    |
+|:--------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| superFollower | {'graphic': 'p.default', 'headline': 'u().e453f536', 'subtext': 'u().dea63fc4', 'actionLabel': 'u().g7099a02', 'actionLink': 'https://help.twitter.com/en/using-twitter/super-follows#sfexpect', 'secondaryActionLabel': 'u().c2637ef6'} |
+
+| constant        | value        |
+|:----------------|:-------------|
+| followsYou      | u().efb17190 |
+| superFollowsYou | u().g57b5f6c |
+| superFollower   | u().a77a27c0 |
+
+| constant        | value   |
+|:----------------|:--------|
+| followsYou      | gray700 |
+| superFollowsYou | plum700 |
+| superFollower   | plum700 |
+
 | constant     | value             |
 |:-------------|:------------------|
 | navButtons   | navigationButtons |
@@ -6494,6 +6643,26 @@ This document is entirely auto-generated and may contain errors.<br>
 | START      | start   |
 | END        | end     |
 
+| constant      | value        |
+|:--------------|:-------------|
+| superFollower | m().fc065ee4 |
+
+| constant      | value                                                                                                                                                                                                                                    |
+|:--------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| superFollower | {'graphic': 'p.default', 'headline': 'm().e453f536', 'subtext': 'm().dea63fc4', 'actionLabel': 'm().g7099a02', 'actionLink': 'https://help.twitter.com/en/using-twitter/super-follows#sfexpect', 'secondaryActionLabel': 'm().c2637ef6'} |
+
+| constant        | value        |
+|:----------------|:-------------|
+| followsYou      | m().efb17190 |
+| superFollowsYou | m().g57b5f6c |
+| superFollower   | m().a77a27c0 |
+
+| constant        | value   |
+|:----------------|:--------|
+| followsYou      | gray700 |
+| superFollowsYou | plum700 |
+| superFollower   | plum700 |
+
 | constant   | value   |
 |:-----------|:--------|
 | START      | start   |
@@ -6512,11 +6681,11 @@ This document is entirely auto-generated and may contain errors.<br>
 ```
 ```internal process
 # Error
-{"default":()=>r().g784d3c6,"with_replies":()=>r().g784d3c6,"superfollows":()=>r().ce659062,"highlights":()=>r().hdd7a54e}
+{"default":()=>r().g784d3c6,"with_replies":()=>r().g784d3c6,"superfollows":()=>r().ce659062,"highlights":()=>r().f1e98cc2}
 ```
 ```internal process
 # Error
-{"default":()=>r().d1e5e328,"with_replies":()=>r().d1e5e328,"superfollows":()=>r().bb3406a6}
+{"default":()=>r().d1e5e328,"with_replies":()=>r().d1e5e328,"superfollows":()=>r().bb3406a6,"highlights":()=>r().b7c3572e}
 ```
 ```internal process
 # Error
@@ -6582,14 +6751,6 @@ This document is entirely auto-generated and may contain errors.<br>
 | JOBS          | Jobs          |
 | FEATURED_JOBS | Featured Jobs |
 
-| constant         | value                                 |
-|:-----------------|:--------------------------------------|
-| SET_REFETCH_JOBS | rweb/verifiedOrgJobs/SET_REFETCH_JOBS |
-
-| constant    | value   |
-|:------------|:--------|
-| refetchJobs | False   |
-
 | constant       | value                          |
 |:---------------|:-------------------------------|
 | CONFIG_LOADED  | rweb/verifiedOrgConfig/LOADED  |
@@ -6599,7 +6760,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | constant    | value     |
 |:------------|:----------|
 | fetchStatus | k.ZP.NONE |
-| config      | Ne        |
+| config      | Re        |
 
 | constant              | value                 |
 |:----------------------|:----------------------|
@@ -6620,6 +6781,11 @@ This document is entirely auto-generated and may contain errors.<br>
 # Error
 {[b.hA.generate]:"m().dca6b3ac",[b.hA.updateSeats]:"m().c97ad52a"}
 ```
+| constant   |   value |
+|:-----------|--------:|
+| INACTIVE   |       0 |
+| ACTIVE     |      10 |
+
 ```internal process
 # Error
 {[C.hA.generate]:"b().fc1f43d0",[C.hA.updateSeats]:"b().c97ad52a"}
@@ -6676,6 +6842,26 @@ This document is entirely auto-generated and may contain errors.<br>
 | newColumn  | newColumn  |
 | search     | search     |
 | searchUser | searchUser |
+
+| constant      | value        |
+|:--------------|:-------------|
+| superFollower | m().fc065ee4 |
+
+| constant      | value                                                                                                                                                                                                                                    |
+|:--------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| superFollower | {'graphic': 'p.default', 'headline': 'm().e453f536', 'subtext': 'm().dea63fc4', 'actionLabel': 'm().g7099a02', 'actionLink': 'https://help.twitter.com/en/using-twitter/super-follows#sfexpect', 'secondaryActionLabel': 'm().c2637ef6'} |
+
+| constant        | value        |
+|:----------------|:-------------|
+| followsYou      | m().efb17190 |
+| superFollowsYou | m().g57b5f6c |
+| superFollower   | m().a77a27c0 |
+
+| constant        | value   |
+|:----------------|:--------|
+| followsYou      | gray700 |
+| superFollowsYou | plum700 |
+| superFollower   | plum700 |
 
 | constant             | value                |
 |:---------------------|:---------------------|
@@ -6781,6 +6967,26 @@ This document is entirely auto-generated and may contain errors.<br>
 # Error
 {[a.wide]:"500",[a.narrow]:"285",[a.veryNarrow]:"200"}
 ```
+| constant      | value        |
+|:--------------|:-------------|
+| superFollower | m().fc065ee4 |
+
+| constant      | value                                                                                                                                                                                                                                    |
+|:--------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| superFollower | {'graphic': 'u.default', 'headline': 'm().e453f536', 'subtext': 'm().dea63fc4', 'actionLabel': 'm().g7099a02', 'actionLink': 'https://help.twitter.com/en/using-twitter/super-follows#sfexpect', 'secondaryActionLabel': 'm().c2637ef6'} |
+
+| constant        | value        |
+|:----------------|:-------------|
+| followsYou      | m().efb17190 |
+| superFollowsYou | m().g57b5f6c |
+| superFollower   | m().a77a27c0 |
+
+| constant        | value   |
+|:----------------|:--------|
+| followsYou      | gray700 |
+| superFollowsYou | plum700 |
+| superFollower   | plum700 |
+
 | constant       | value          |
 |:---------------|:---------------|
 | TWEET_CARET    | tweet_caret    |
@@ -6815,6 +7021,68 @@ This document is entirely auto-generated and may contain errors.<br>
 | MOVEMENT         | movement         |
 | LIST_UPDATE      | list_update      |
 | INITIAL_POSITION | initial_position |
+
+| constant   | value    |
+|:-----------|:---------|
+| host       | host     |
+| cohost     | cohost   |
+| speaker    | speaker  |
+| listener   | listener |
+
+| constant             | value                |
+|:---------------------|:---------------------|
+| Bird                 | Bird                 |
+| Community            | Community            |
+| Conversation         | Conversation         |
+| Facepile             | Facepile             |
+| Feedback             | Feedback             |
+| Follow               | Follow               |
+| FollowFollowed       | FollowFollowed       |
+| FollowFollowing      | FollowFollowing      |
+| FollowMutual         | FollowMutual         |
+| Like                 | Like                 |
+| List                 | List                 |
+| Location             | Location             |
+| Megaphone            | Megaphone            |
+| Moment               | Moment               |
+| NewTweets            | NewTweets            |
+| NewUser              | NewUser              |
+| Pin                  | Pin                  |
+| Reply                | Reply                |
+| RelatedTweets        | RelatedTweets        |
+| ReplyPin             | ReplyPin             |
+| Retweet              | Retweet              |
+| SmartBlockExpiration | SmartBlockExpiration |
+| SocialProof          | SocialProof          |
+| Spaces               | Spaces               |
+| Sparkle              | Sparkle              |
+| TextOnly             | TextOnly             |
+| Topic                | Topic                |
+| Trending             | Trending             |
+
+| constant      | value        |
+|:--------------|:-------------|
+| superFollower | m().fc065ee4 |
+
+| constant      | value                                                                                                                                                                                                                                    |
+|:--------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| superFollower | {'graphic': 'p.default', 'headline': 'm().e453f536', 'subtext': 'm().dea63fc4', 'actionLabel': 'm().g7099a02', 'actionLink': 'https://help.twitter.com/en/using-twitter/super-follows#sfexpect', 'secondaryActionLabel': 'm().c2637ef6'} |
+
+| constant        | value        |
+|:----------------|:-------------|
+| followsYou      | m().efb17190 |
+| superFollowsYou | m().g57b5f6c |
+| superFollower   | m().a77a27c0 |
+
+| constant        | value   |
+|:----------------|:--------|
+| followsYou      | gray700 |
+| superFollowsYou | plum700 |
+| superFollower   | plum700 |
+
+| constant            |   value |
+|:--------------------|--------:|
+| SIDEBAR_SPACE_LIMIT |       3 |
 
 | constant              | value   |
 |:----------------------|:--------|
@@ -6925,25 +7193,6 @@ This document is entirely auto-generated and may contain errors.<br>
 | success    | {'accessibilityLiveRegion': 'polite'}    |
 | warning    | {'accessibilityLiveRegion': 'polite'}    |
 
-| constant   | value      |
-|:-----------|:-----------|
-| Scheduled  | Scheduled  |
-| InProgress | InProgress |
-| Completed  | Completed  |
-| Postponed  | Postponed  |
-| Cancelled  | Cancelled  |
-| Unused6    | _Unused6   |
-| Unused7    | _Unused7   |
-
-| constant       | value          |
-|:---------------|:---------------|
-| IncentiveFocus | IncentiveFocus |
-| TopicFocus     | TopicFocus     |
-
-```internal process
-# Error
-{[D.LIVE_EVENT]:"!0",[D.MOMENT]:"!0",[D.SUMMARY]:"!0",[D.SUMMARY_LARGE_IMAGE]:"!0",[D.AUDIOSPACE]:"!0"}
-```
 | constant          | value             |
 |:------------------|:------------------|
 | CompactPrompt     | compactPrompt     |
@@ -6955,6 +7204,66 @@ This document is entirely auto-generated and may contain errors.<br>
 |:-----------|:--------|
 | START      | start   |
 | END        | end     |
+
+| constant      | value        |
+|:--------------|:-------------|
+| superFollower | u().fc065ee4 |
+
+| constant      | value                                                                                                                                                                                                                                    |
+|:--------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| superFollower | {'graphic': 'p.default', 'headline': 'u().e453f536', 'subtext': 'u().dea63fc4', 'actionLabel': 'u().g7099a02', 'actionLink': 'https://help.twitter.com/en/using-twitter/super-follows#sfexpect', 'secondaryActionLabel': 'u().c2637ef6'} |
+
+| constant        | value        |
+|:----------------|:-------------|
+| followsYou      | u().efb17190 |
+| superFollowsYou | u().g57b5f6c |
+| superFollower   | u().a77a27c0 |
+
+| constant        | value   |
+|:----------------|:--------|
+| followsYou      | gray700 |
+| superFollowsYou | plum700 |
+| superFollower   | plum700 |
+
+| constant      | value        |
+|:--------------|:-------------|
+| superFollower | u().fc065ee4 |
+
+| constant      | value                                                                                                                                                                                                                                    |
+|:--------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| superFollower | {'graphic': 'p.default', 'headline': 'u().e453f536', 'subtext': 'u().dea63fc4', 'actionLabel': 'u().g7099a02', 'actionLink': 'https://help.twitter.com/en/using-twitter/super-follows#sfexpect', 'secondaryActionLabel': 'u().c2637ef6'} |
+
+| constant        | value        |
+|:----------------|:-------------|
+| followsYou      | u().efb17190 |
+| superFollowsYou | u().g57b5f6c |
+| superFollower   | u().a77a27c0 |
+
+| constant        | value   |
+|:----------------|:--------|
+| followsYou      | gray700 |
+| superFollowsYou | plum700 |
+| superFollower   | plum700 |
+
+| constant      | value        |
+|:--------------|:-------------|
+| superFollower | p().fc065ee4 |
+
+| constant      | value                                                                                                                                                                                                                                    |
+|:--------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| superFollower | {'graphic': 'u.default', 'headline': 'p().e453f536', 'subtext': 'p().dea63fc4', 'actionLabel': 'p().g7099a02', 'actionLink': 'https://help.twitter.com/en/using-twitter/super-follows#sfexpect', 'secondaryActionLabel': 'p().c2637ef6'} |
+
+| constant        | value        |
+|:----------------|:-------------|
+| followsYou      | p().efb17190 |
+| superFollowsYou | p().g57b5f6c |
+| superFollower   | p().a77a27c0 |
+
+| constant        | value   |
+|:----------------|:--------|
+| followsYou      | gray700 |
+| superFollowsYou | plum700 |
+| superFollower   | plum700 |
 
 | constant       | value        |
 |:---------------|:-------------|
@@ -6995,18 +7304,25 @@ This document is entirely auto-generated and may contain errors.<br>
 | Topic                | Topic                |
 | Trending             | Trending             |
 
-| constant   | value   |
-|:-----------|:--------|
-| TWEET      | tweets  |
-| USER       | users   |
+| constant      | value        |
+|:--------------|:-------------|
+| superFollower | u().fc065ee4 |
 
-| constant                  | value                     |
-|:--------------------------|:--------------------------|
-| UserCompact               | UserCompact               |
-| UserConcise               | UserConcise               |
-| UserDetailed              | UserDetailed              |
-| ExperimentalUserTypeahead | ExperimentalUserTypeahead |
-| SubscribableUser          | SubscribableUser          |
+| constant      | value                                                                                                                                                                                                                                    |
+|:--------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| superFollower | {'graphic': 'p.default', 'headline': 'u().e453f536', 'subtext': 'u().dea63fc4', 'actionLabel': 'u().g7099a02', 'actionLink': 'https://help.twitter.com/en/using-twitter/super-follows#sfexpect', 'secondaryActionLabel': 'u().c2637ef6'} |
+
+| constant        | value        |
+|:----------------|:-------------|
+| followsYou      | u().efb17190 |
+| superFollowsYou | u().g57b5f6c |
+| superFollower   | u().a77a27c0 |
+
+| constant        | value   |
+|:----------------|:--------|
+| followsYou      | gray700 |
+| superFollowsYou | plum700 |
+| superFollower   | plum700 |
 
 | constant        | value           |
 |:----------------|:----------------|
@@ -7027,6 +7343,69 @@ This document is entirely auto-generated and may contain errors.<br>
 |:-----------|:--------|
 | START      | start   |
 | END        | end     |
+
+| constant   | value      |
+|:-----------|:-----------|
+| Scheduled  | Scheduled  |
+| InProgress | InProgress |
+| Completed  | Completed  |
+| Postponed  | Postponed  |
+| Cancelled  | Cancelled  |
+| Unused6    | _Unused6   |
+| Unused7    | _Unused7   |
+
+| constant   | value   |
+|:-----------|:--------|
+| TWEET      | tweets  |
+| USER       | users   |
+
+| constant                  | value                     |
+|:--------------------------|:--------------------------|
+| UserCompact               | UserCompact               |
+| UserConcise               | UserConcise               |
+| UserDetailed              | UserDetailed              |
+| ExperimentalUserTypeahead | ExperimentalUserTypeahead |
+| SubscribableUser          | SubscribableUser          |
+
+| constant      | value        |
+|:--------------|:-------------|
+| superFollower | u().fc065ee4 |
+
+| constant      | value                                                                                                                                                                                                                                    |
+|:--------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| superFollower | {'graphic': 'p.default', 'headline': 'u().e453f536', 'subtext': 'u().dea63fc4', 'actionLabel': 'u().g7099a02', 'actionLink': 'https://help.twitter.com/en/using-twitter/super-follows#sfexpect', 'secondaryActionLabel': 'u().c2637ef6'} |
+
+| constant        | value        |
+|:----------------|:-------------|
+| followsYou      | u().efb17190 |
+| superFollowsYou | u().g57b5f6c |
+| superFollower   | u().a77a27c0 |
+
+| constant        | value   |
+|:----------------|:--------|
+| followsYou      | gray700 |
+| superFollowsYou | plum700 |
+| superFollower   | plum700 |
+
+| constant      | value        |
+|:--------------|:-------------|
+| superFollower | u().fc065ee4 |
+
+| constant      | value                                                                                                                                                                                                                                    |
+|:--------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| superFollower | {'graphic': 'p.default', 'headline': 'u().e453f536', 'subtext': 'u().dea63fc4', 'actionLabel': 'u().g7099a02', 'actionLink': 'https://help.twitter.com/en/using-twitter/super-follows#sfexpect', 'secondaryActionLabel': 'u().c2637ef6'} |
+
+| constant        | value        |
+|:----------------|:-------------|
+| followsYou      | u().efb17190 |
+| superFollowsYou | u().g57b5f6c |
+| superFollower   | u().a77a27c0 |
+
+| constant        | value   |
+|:----------------|:--------|
+| followsYou      | gray700 |
+| superFollowsYou | plum700 |
+| superFollower   | plum700 |
 
 | constant         | value            |
 |:-----------------|:-----------------|
@@ -7049,6 +7428,15 @@ This document is entirely auto-generated and may contain errors.<br>
 # Error
 {[o.sj.AMPLIFY]:{"conversionHandler":"()"{"cardId":"e","cardType":"t","converterOptions":"n","data":"i"}{"const s=()(0,r.FL)",d=parseInt(i,\"image_value\",\"player_image_original\")/parseInt(0,r.SIi,\"string_value\",\"player_width\",10),l=(0,r.SIi,\"string_value\",\"player_height\",10)(0,r.SI),_=(i,...
 ```
+| constant       | value          |
+|:---------------|:---------------|
+| IncentiveFocus | IncentiveFocus |
+| TopicFocus     | TopicFocus     |
+
+```internal process
+# Error
+{[D.LIVE_EVENT]:"!0",[D.MOMENT]:"!0",[D.SUMMARY]:"!0",[D.SUMMARY_LARGE_IMAGE]:"!0",[D.AUDIOSPACE]:"!0"}
+```
 | constant       | value        |
 |:---------------|:-------------|
 | ON_LINGER      | onLinger     |
@@ -7069,48 +7457,6 @@ This document is entirely auto-generated and may contain errors.<br>
 |:-----------|:--------|
 | START      | start   |
 | END        | end     |
-
-| constant   | value    |
-|:-----------|:---------|
-| host       | host     |
-| cohost     | cohost   |
-| speaker    | speaker  |
-| listener   | listener |
-
-| constant             | value                |
-|:---------------------|:---------------------|
-| Bird                 | Bird                 |
-| Community            | Community            |
-| Conversation         | Conversation         |
-| Facepile             | Facepile             |
-| Feedback             | Feedback             |
-| Follow               | Follow               |
-| FollowFollowed       | FollowFollowed       |
-| FollowFollowing      | FollowFollowing      |
-| FollowMutual         | FollowMutual         |
-| Like                 | Like                 |
-| List                 | List                 |
-| Location             | Location             |
-| Megaphone            | Megaphone            |
-| Moment               | Moment               |
-| NewTweets            | NewTweets            |
-| NewUser              | NewUser              |
-| Pin                  | Pin                  |
-| Reply                | Reply                |
-| RelatedTweets        | RelatedTweets        |
-| ReplyPin             | ReplyPin             |
-| Retweet              | Retweet              |
-| SmartBlockExpiration | SmartBlockExpiration |
-| SocialProof          | SocialProof          |
-| Spaces               | Spaces               |
-| Sparkle              | Sparkle              |
-| TextOnly             | TextOnly             |
-| Topic                | Topic                |
-| Trending             | Trending             |
-
-| constant            |   value |
-|:--------------------|--------:|
-| SIDEBAR_SPACE_LIMIT |       3 |
 
 | constant   | value      |
 |:-----------|:-----------|
@@ -7178,7 +7524,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant        | value      |
 |:----------------|:-----------|
-| fetchStatus     | Ie.ZP.NONE |
+| fetchStatus     | xe.ZP.NONE |
 | mobileViewCount | 0          |
 
 | constant   | value        |

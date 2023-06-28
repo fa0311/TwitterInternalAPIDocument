@@ -39,8 +39,8 @@
       "features": {}
     },
     "CreateNoteTweet": {
-      "url": "https://twitter.com/i/api/graphql/tz0Tk9uQecrv22YwKSL-Yw/CreateNoteTweet",
-      "queryId": "tz0Tk9uQecrv22YwKSL-Yw",
+      "url": "https://twitter.com/i/api/graphql/6itFl98PDPsfak38KEZIUQ/CreateNoteTweet",
+      "queryId": "6itFl98PDPsfak38KEZIUQ",
       "method": "POST",
       "features": {
         "tweetypie_unmention_optimization_enabled": true,
@@ -48,6 +48,7 @@
         "graphql_is_translatable_rweb_tweet_is_translatable_enabled": true,
         "view_counts_everywhere_api_enabled": true,
         "longform_notetweets_consumption_enabled": true,
+        "responsive_web_twitter_article_tweet_consumption_enabled": false,
         "tweet_awards_web_tipping_enabled": false,
         "longform_notetweets_rich_text_read_enabled": true,
         "longform_notetweets_inline_media_enabled": true,
@@ -68,8 +69,8 @@
       "features": {}
     },
     "CreateTweet": {
-      "url": "https://twitter.com/i/api/graphql/GUFG748vuvmewdXbB5uPKg/CreateTweet",
-      "queryId": "GUFG748vuvmewdXbB5uPKg",
+      "url": "https://twitter.com/i/api/graphql/6U6KGtRciVNlwWKCpfs1fQ/CreateTweet",
+      "queryId": "6U6KGtRciVNlwWKCpfs1fQ",
       "method": "POST",
       "features": {
         "tweetypie_unmention_optimization_enabled": true,
@@ -77,6 +78,7 @@
         "graphql_is_translatable_rweb_tweet_is_translatable_enabled": true,
         "view_counts_everywhere_api_enabled": true,
         "longform_notetweets_consumption_enabled": true,
+        "responsive_web_twitter_article_tweet_consumption_enabled": false,
         "tweet_awards_web_tipping_enabled": false,
         "longform_notetweets_rich_text_read_enabled": true,
         "longform_notetweets_inline_media_enabled": true,
@@ -127,8 +129,8 @@
       "features": {}
     },
     "TweetResultByRestId": {
-      "url": "https://twitter.com/i/api/graphql/V3vfsYzNEyD9tsf4xoFRgw/TweetResultByRestId",
-      "queryId": "V3vfsYzNEyD9tsf4xoFRgw",
+      "url": "https://twitter.com/i/api/graphql/yTM6jzwc9SUoiobb62UlSA/TweetResultByRestId",
+      "queryId": "yTM6jzwc9SUoiobb62UlSA",
       "method": "GET",
       "features": {
         "creator_subscriptions_tweet_preview_api_enabled": true,
@@ -137,6 +139,7 @@
         "graphql_is_translatable_rweb_tweet_is_translatable_enabled": true,
         "view_counts_everywhere_api_enabled": true,
         "longform_notetweets_consumption_enabled": true,
+        "responsive_web_twitter_article_tweet_consumption_enabled": false,
         "tweet_awards_web_tipping_enabled": false,
         "freedom_of_speech_not_reach_fetch_enabled": true,
         "standardized_nudges_misinfo": true,
@@ -177,8 +180,8 @@
       }
     },
     "BlockedAccountsAll": {
-      "url": "https://twitter.com/i/api/graphql/Pcuz1wFGlrnLNw6cwkVVqQ/BlockedAccountsAll",
-      "queryId": "Pcuz1wFGlrnLNw6cwkVVqQ",
+      "url": "https://twitter.com/i/api/graphql/IgmluWHsw1AVzdesODPKNg/BlockedAccountsAll",
+      "queryId": "IgmluWHsw1AVzdesODPKNg",
       "method": "GET",
       "features": {
         "rweb_lists_timeline_redesign_enabled": true,
@@ -192,6 +195,7 @@
         "graphql_is_translatable_rweb_tweet_is_translatable_enabled": true,
         "view_counts_everywhere_api_enabled": true,
         "longform_notetweets_consumption_enabled": true,
+        "responsive_web_twitter_article_tweet_consumption_enabled": false,
         "tweet_awards_web_tipping_enabled": false,
         "freedom_of_speech_not_reach_fetch_enabled": true,
         "standardized_nudges_misinfo": true,
@@ -202,8 +206,8 @@
       }
     },
     "BlockedAccountsAutoBlock": {
-      "url": "https://twitter.com/i/api/graphql/yuWMRcOBjkUS-vMOMwnfmA/BlockedAccountsAutoBlock",
-      "queryId": "yuWMRcOBjkUS-vMOMwnfmA",
+      "url": "https://twitter.com/i/api/graphql/jDw70Cm2MT3soStM6RlhTA/BlockedAccountsAutoBlock",
+      "queryId": "jDw70Cm2MT3soStM6RlhTA",
       "method": "GET",
       "features": {
         "rweb_lists_timeline_redesign_enabled": true,
@@ -217,6 +221,7 @@
         "graphql_is_translatable_rweb_tweet_is_translatable_enabled": true,
         "view_counts_everywhere_api_enabled": true,
         "longform_notetweets_consumption_enabled": true,
+        "responsive_web_twitter_article_tweet_consumption_enabled": false,
         "tweet_awards_web_tipping_enabled": false,
         "freedom_of_speech_not_reach_fetch_enabled": true,
         "standardized_nudges_misinfo": true,
@@ -227,8 +232,8 @@
       }
     },
     "BlockedAccountsImported": {
-      "url": "https://twitter.com/i/api/graphql/4icaUI1CudRf370MPzafdQ/BlockedAccountsImported",
-      "queryId": "4icaUI1CudRf370MPzafdQ",
+      "url": "https://twitter.com/i/api/graphql/iHxq35j-Lko07NPoQz6mJA/BlockedAccountsImported",
+      "queryId": "iHxq35j-Lko07NPoQz6mJA",
       "method": "GET",
       "features": {
         "rweb_lists_timeline_redesign_enabled": true,
@@ -242,6 +247,7 @@
         "graphql_is_translatable_rweb_tweet_is_translatable_enabled": true,
         "view_counts_everywhere_api_enabled": true,
         "longform_notetweets_consumption_enabled": true,
+        "responsive_web_twitter_article_tweet_consumption_enabled": false,
         "tweet_awards_web_tipping_enabled": false,
         "freedom_of_speech_not_reach_fetch_enabled": true,
         "standardized_nudges_misinfo": true,
@@ -258,8 +264,8 @@
       "features": {}
     },
     "Followers": {
-      "url": "https://twitter.com/i/api/graphql/p6UBN_rxXbMPhq2cj54HbA/Followers",
-      "queryId": "p6UBN_rxXbMPhq2cj54HbA",
+      "url": "https://twitter.com/i/api/graphql/XrDpPmmTss6Eff4CPRzW6w/Followers",
+      "queryId": "XrDpPmmTss6Eff4CPRzW6w",
       "method": "GET",
       "features": {
         "rweb_lists_timeline_redesign_enabled": true,
@@ -273,6 +279,7 @@
         "graphql_is_translatable_rweb_tweet_is_translatable_enabled": true,
         "view_counts_everywhere_api_enabled": true,
         "longform_notetweets_consumption_enabled": true,
+        "responsive_web_twitter_article_tweet_consumption_enabled": false,
         "tweet_awards_web_tipping_enabled": false,
         "freedom_of_speech_not_reach_fetch_enabled": true,
         "standardized_nudges_misinfo": true,
@@ -283,8 +290,8 @@
       }
     },
     "FollowersYouKnow": {
-      "url": "https://twitter.com/i/api/graphql/0pSExgZVoccfzjfwa4SRfQ/FollowersYouKnow",
-      "queryId": "0pSExgZVoccfzjfwa4SRfQ",
+      "url": "https://twitter.com/i/api/graphql/jxq8ZHP5p3Fwl8rnjEFwmA/FollowersYouKnow",
+      "queryId": "jxq8ZHP5p3Fwl8rnjEFwmA",
       "method": "GET",
       "features": {
         "rweb_lists_timeline_redesign_enabled": true,
@@ -298,6 +305,7 @@
         "graphql_is_translatable_rweb_tweet_is_translatable_enabled": true,
         "view_counts_everywhere_api_enabled": true,
         "longform_notetweets_consumption_enabled": true,
+        "responsive_web_twitter_article_tweet_consumption_enabled": false,
         "tweet_awards_web_tipping_enabled": false,
         "freedom_of_speech_not_reach_fetch_enabled": true,
         "standardized_nudges_misinfo": true,
@@ -308,8 +316,8 @@
       }
     },
     "Following": {
-      "url": "https://twitter.com/i/api/graphql/84K8ewNkzD7q4rbfbjV5mw/Following",
-      "queryId": "84K8ewNkzD7q4rbfbjV5mw",
+      "url": "https://twitter.com/i/api/graphql/0Hd6qQjswQrJbDQuRj3TKA/Following",
+      "queryId": "0Hd6qQjswQrJbDQuRj3TKA",
       "method": "GET",
       "features": {
         "rweb_lists_timeline_redesign_enabled": true,
@@ -323,6 +331,7 @@
         "graphql_is_translatable_rweb_tweet_is_translatable_enabled": true,
         "view_counts_everywhere_api_enabled": true,
         "longform_notetweets_consumption_enabled": true,
+        "responsive_web_twitter_article_tweet_consumption_enabled": false,
         "tweet_awards_web_tipping_enabled": false,
         "freedom_of_speech_not_reach_fetch_enabled": true,
         "standardized_nudges_misinfo": true,
@@ -333,8 +342,8 @@
       }
     },
     "GenericTimelineById": {
-      "url": "https://twitter.com/i/api/graphql/PiEgwToYrkEtRmSIVJG6QQ/GenericTimelineById",
-      "queryId": "PiEgwToYrkEtRmSIVJG6QQ",
+      "url": "https://twitter.com/i/api/graphql/fdg1qSneoCPqI6FR0rTHgA/GenericTimelineById",
+      "queryId": "fdg1qSneoCPqI6FR0rTHgA",
       "method": "GET",
       "features": {
         "rweb_lists_timeline_redesign_enabled": true,
@@ -348,6 +357,7 @@
         "graphql_is_translatable_rweb_tweet_is_translatable_enabled": true,
         "view_counts_everywhere_api_enabled": true,
         "longform_notetweets_consumption_enabled": true,
+        "responsive_web_twitter_article_tweet_consumption_enabled": false,
         "tweet_awards_web_tipping_enabled": false,
         "freedom_of_speech_not_reach_fetch_enabled": true,
         "standardized_nudges_misinfo": true,
@@ -358,8 +368,8 @@
       }
     },
     "ModeratedTimeline": {
-      "url": "https://twitter.com/i/api/graphql/eRRrkcY9KrL0ufkmGnBMqA/ModeratedTimeline",
-      "queryId": "eRRrkcY9KrL0ufkmGnBMqA",
+      "url": "https://twitter.com/i/api/graphql/Vi9AO0BmtxltMZAK-1wEUA/ModeratedTimeline",
+      "queryId": "Vi9AO0BmtxltMZAK-1wEUA",
       "method": "GET",
       "features": {
         "rweb_lists_timeline_redesign_enabled": true,
@@ -373,6 +383,7 @@
         "graphql_is_translatable_rweb_tweet_is_translatable_enabled": true,
         "view_counts_everywhere_api_enabled": true,
         "longform_notetweets_consumption_enabled": true,
+        "responsive_web_twitter_article_tweet_consumption_enabled": false,
         "tweet_awards_web_tipping_enabled": false,
         "freedom_of_speech_not_reach_fetch_enabled": true,
         "standardized_nudges_misinfo": true,
@@ -383,8 +394,8 @@
       }
     },
     "MutedAccounts": {
-      "url": "https://twitter.com/i/api/graphql/zqqArvSjQDtM6fINgNztjQ/MutedAccounts",
-      "queryId": "zqqArvSjQDtM6fINgNztjQ",
+      "url": "https://twitter.com/i/api/graphql/bmiYS7ZE0JhlqSCxU7UFSg/MutedAccounts",
+      "queryId": "bmiYS7ZE0JhlqSCxU7UFSg",
       "method": "GET",
       "features": {
         "rweb_lists_timeline_redesign_enabled": true,
@@ -398,6 +409,7 @@
         "graphql_is_translatable_rweb_tweet_is_translatable_enabled": true,
         "view_counts_everywhere_api_enabled": true,
         "longform_notetweets_consumption_enabled": true,
+        "responsive_web_twitter_article_tweet_consumption_enabled": false,
         "tweet_awards_web_tipping_enabled": false,
         "freedom_of_speech_not_reach_fetch_enabled": true,
         "standardized_nudges_misinfo": true,
@@ -408,8 +420,8 @@
       }
     },
     "SuperFollowers": {
-      "url": "https://twitter.com/i/api/graphql/Pi0w9WaZUYAw6kr3hIjMUw/SuperFollowers",
-      "queryId": "Pi0w9WaZUYAw6kr3hIjMUw",
+      "url": "https://twitter.com/i/api/graphql/9ytAv6kuxg_t6ozuivHMvA/SuperFollowers",
+      "queryId": "9ytAv6kuxg_t6ozuivHMvA",
       "method": "GET",
       "features": {
         "rweb_lists_timeline_redesign_enabled": true,
@@ -423,6 +435,7 @@
         "graphql_is_translatable_rweb_tweet_is_translatable_enabled": true,
         "view_counts_everywhere_api_enabled": true,
         "longform_notetweets_consumption_enabled": true,
+        "responsive_web_twitter_article_tweet_consumption_enabled": false,
         "tweet_awards_web_tipping_enabled": false,
         "freedom_of_speech_not_reach_fetch_enabled": true,
         "standardized_nudges_misinfo": true,
@@ -439,8 +452,8 @@
       "features": {}
     },
     "UserCreatorSubscribers": {
-      "url": "https://twitter.com/i/api/graphql/PeWHgCfHTImh8jqHVDIoXQ/UserCreatorSubscribers",
-      "queryId": "PeWHgCfHTImh8jqHVDIoXQ",
+      "url": "https://twitter.com/i/api/graphql/Vm83nPQDR3WGFWsbzCozQw/UserCreatorSubscribers",
+      "queryId": "Vm83nPQDR3WGFWsbzCozQw",
       "method": "GET",
       "features": {
         "rweb_lists_timeline_redesign_enabled": true,
@@ -454,6 +467,7 @@
         "graphql_is_translatable_rweb_tweet_is_translatable_enabled": true,
         "view_counts_everywhere_api_enabled": true,
         "longform_notetweets_consumption_enabled": true,
+        "responsive_web_twitter_article_tweet_consumption_enabled": false,
         "tweet_awards_web_tipping_enabled": false,
         "freedom_of_speech_not_reach_fetch_enabled": true,
         "standardized_nudges_misinfo": true,
@@ -464,8 +478,8 @@
       }
     },
     "UserCreatorSubscriptions": {
-      "url": "https://twitter.com/i/api/graphql/5-20xVJ8nFt-Qs27NOlgyg/UserCreatorSubscriptions",
-      "queryId": "5-20xVJ8nFt-Qs27NOlgyg",
+      "url": "https://twitter.com/i/api/graphql/6AYoI77B58Jlsy5nb03Xfg/UserCreatorSubscriptions",
+      "queryId": "6AYoI77B58Jlsy5nb03Xfg",
       "method": "GET",
       "features": {
         "rweb_lists_timeline_redesign_enabled": true,
@@ -479,6 +493,7 @@
         "graphql_is_translatable_rweb_tweet_is_translatable_enabled": true,
         "view_counts_everywhere_api_enabled": true,
         "longform_notetweets_consumption_enabled": true,
+        "responsive_web_twitter_article_tweet_consumption_enabled": false,
         "tweet_awards_web_tipping_enabled": false,
         "freedom_of_speech_not_reach_fetch_enabled": true,
         "standardized_nudges_misinfo": true,
@@ -506,8 +521,8 @@
       "features": {}
     },
     "AudioSpaceById": {
-      "url": "https://twitter.com/i/api/graphql/JZagg6bQEMUFzEKdDvWI4w/AudioSpaceById",
-      "queryId": "JZagg6bQEMUFzEKdDvWI4w",
+      "url": "https://twitter.com/i/api/graphql/JYFr9W6k3gLMRxA2uF5GnA/AudioSpaceById",
+      "queryId": "JYFr9W6k3gLMRxA2uF5GnA",
       "method": "GET",
       "features": {
         "spaces_2022_h2_clipping": true,
@@ -521,6 +536,7 @@
         "graphql_is_translatable_rweb_tweet_is_translatable_enabled": true,
         "view_counts_everywhere_api_enabled": true,
         "longform_notetweets_consumption_enabled": true,
+        "responsive_web_twitter_article_tweet_consumption_enabled": false,
         "tweet_awards_web_tipping_enabled": false,
         "freedom_of_speech_not_reach_fetch_enabled": true,
         "standardized_nudges_misinfo": true,
@@ -556,8 +572,8 @@
       "features": {}
     },
     "BirdwatchFetchContributorNotesSlice": {
-      "url": "https://twitter.com/i/api/graphql/tVA_CK5BXnjxkLb9-w8Fww/BirdwatchFetchContributorNotesSlice",
-      "queryId": "tVA_CK5BXnjxkLb9-w8Fww",
+      "url": "https://twitter.com/i/api/graphql/DpDVr9f09HxZhtlUe8GskQ/BirdwatchFetchContributorNotesSlice",
+      "queryId": "DpDVr9f09HxZhtlUe8GskQ",
       "method": "GET",
       "features": {
         "creator_subscriptions_tweet_preview_api_enabled": true,
@@ -566,6 +582,7 @@
         "graphql_is_translatable_rweb_tweet_is_translatable_enabled": true,
         "view_counts_everywhere_api_enabled": true,
         "longform_notetweets_consumption_enabled": true,
+        "responsive_web_twitter_article_tweet_consumption_enabled": false,
         "tweet_awards_web_tipping_enabled": false,
         "freedom_of_speech_not_reach_fetch_enabled": true,
         "standardized_nudges_misinfo": true,
@@ -653,8 +670,8 @@
       "features": {}
     },
     "BirdwatchFetchGlobalTimeline": {
-      "url": "https://twitter.com/i/api/graphql/xHnbCFq_NWR9V78CeHl66w/BirdwatchFetchGlobalTimeline",
-      "queryId": "xHnbCFq_NWR9V78CeHl66w",
+      "url": "https://twitter.com/i/api/graphql/ZPZEu90v1a3JU8TiMdBBtw/BirdwatchFetchGlobalTimeline",
+      "queryId": "ZPZEu90v1a3JU8TiMdBBtw",
       "method": "GET",
       "features": {
         "responsive_web_graphql_exclude_directive_enabled": true,
@@ -668,6 +685,7 @@
         "graphql_is_translatable_rweb_tweet_is_translatable_enabled": true,
         "view_counts_everywhere_api_enabled": true,
         "longform_notetweets_consumption_enabled": true,
+        "responsive_web_twitter_article_tweet_consumption_enabled": false,
         "tweet_awards_web_tipping_enabled": false,
         "freedom_of_speech_not_reach_fetch_enabled": true,
         "standardized_nudges_misinfo": true,
@@ -718,8 +736,8 @@
       "features": {}
     },
     "BookmarkFolderTimeline": {
-      "url": "https://twitter.com/i/api/graphql/gvAXqKO_76Czj9hFsibpPQ/BookmarkFolderTimeline",
-      "queryId": "gvAXqKO_76Czj9hFsibpPQ",
+      "url": "https://twitter.com/i/api/graphql/0NnaYxg_1zP4mYvp1WMK3Q/BookmarkFolderTimeline",
+      "queryId": "0NnaYxg_1zP4mYvp1WMK3Q",
       "method": "GET",
       "features": {
         "rweb_lists_timeline_redesign_enabled": true,
@@ -733,6 +751,7 @@
         "graphql_is_translatable_rweb_tweet_is_translatable_enabled": true,
         "view_counts_everywhere_api_enabled": true,
         "longform_notetweets_consumption_enabled": true,
+        "responsive_web_twitter_article_tweet_consumption_enabled": false,
         "tweet_awards_web_tipping_enabled": false,
         "freedom_of_speech_not_reach_fetch_enabled": true,
         "standardized_nudges_misinfo": true,
@@ -755,8 +774,8 @@
       "features": {}
     },
     "Bookmarks": {
-      "url": "https://twitter.com/i/api/graphql/T_KdFAsbFcoh-w-sz21H_Q/Bookmarks",
-      "queryId": "T_KdFAsbFcoh-w-sz21H_Q",
+      "url": "https://twitter.com/i/api/graphql/zma1V_TmGL0ah_kzRj6j1Q/Bookmarks",
+      "queryId": "zma1V_TmGL0ah_kzRj6j1Q",
       "method": "GET",
       "features": {
         "graphql_timeline_v2_bookmark_timeline": true,
@@ -771,6 +790,7 @@
         "graphql_is_translatable_rweb_tweet_is_translatable_enabled": true,
         "view_counts_everywhere_api_enabled": true,
         "longform_notetweets_consumption_enabled": true,
+        "responsive_web_twitter_article_tweet_consumption_enabled": false,
         "tweet_awards_web_tipping_enabled": false,
         "freedom_of_speech_not_reach_fetch_enabled": true,
         "standardized_nudges_misinfo": true,
@@ -810,6 +830,12 @@
       "method": "POST",
       "features": {}
     },
+    "PutClientEducationFlag": {
+      "url": "https://twitter.com/i/api/graphql/IjQ-egg0uPkY11NyPMfRMQ/PutClientEducationFlag",
+      "queryId": "IjQ-egg0uPkY11NyPMfRMQ",
+      "method": "POST",
+      "features": {}
+    },
     "LiveCommerceItemsSlice": {
       "url": "https://twitter.com/i/api/graphql/-lnNX56S2YrZYrLzbccFAQ/LiveCommerceItemsSlice",
       "queryId": "-lnNX56S2YrZYrLzbccFAQ",
@@ -817,8 +843,8 @@
       "features": {}
     },
     "CommunitiesMainDiscoveryModule": {
-      "url": "https://twitter.com/i/api/graphql/tuzWHCguuPH54mnEWuC1vw/CommunitiesMainDiscoveryModule",
-      "queryId": "tuzWHCguuPH54mnEWuC1vw",
+      "url": "https://twitter.com/i/api/graphql/qyawyEVDKkO9kRhqpMcAeA/CommunitiesMainDiscoveryModule",
+      "queryId": "qyawyEVDKkO9kRhqpMcAeA",
       "method": "GET",
       "features": {
         "rweb_lists_timeline_redesign_enabled": true,
@@ -832,6 +858,7 @@
         "graphql_is_translatable_rweb_tweet_is_translatable_enabled": true,
         "view_counts_everywhere_api_enabled": true,
         "longform_notetweets_consumption_enabled": true,
+        "responsive_web_twitter_article_tweet_consumption_enabled": false,
         "tweet_awards_web_tipping_enabled": false,
         "freedom_of_speech_not_reach_fetch_enabled": true,
         "standardized_nudges_misinfo": true,
@@ -842,8 +869,8 @@
       }
     },
     "CommunitiesMainPageTimeline": {
-      "url": "https://twitter.com/i/api/graphql/6XmiVdcMjTsyPT4w8fdXlg/CommunitiesMainPageTimeline",
-      "queryId": "6XmiVdcMjTsyPT4w8fdXlg",
+      "url": "https://twitter.com/i/api/graphql/8gYP0SX8knK2kW_O7jIo-Q/CommunitiesMainPageTimeline",
+      "queryId": "8gYP0SX8knK2kW_O7jIo-Q",
       "method": "GET",
       "features": {
         "rweb_lists_timeline_redesign_enabled": true,
@@ -857,6 +884,7 @@
         "graphql_is_translatable_rweb_tweet_is_translatable_enabled": true,
         "view_counts_everywhere_api_enabled": true,
         "longform_notetweets_consumption_enabled": true,
+        "responsive_web_twitter_article_tweet_consumption_enabled": false,
         "tweet_awards_web_tipping_enabled": false,
         "freedom_of_speech_not_reach_fetch_enabled": true,
         "standardized_nudges_misinfo": true,
@@ -878,8 +906,8 @@
       }
     },
     "CommunitiesMembershipsTimeline": {
-      "url": "https://twitter.com/i/api/graphql/yuAToPXQcwdYX9ldv23gKA/CommunitiesMembershipsTimeline",
-      "queryId": "yuAToPXQcwdYX9ldv23gKA",
+      "url": "https://twitter.com/i/api/graphql/TC9o6rJugjrrA6sGshof6g/CommunitiesMembershipsTimeline",
+      "queryId": "TC9o6rJugjrrA6sGshof6g",
       "method": "GET",
       "features": {
         "rweb_lists_timeline_redesign_enabled": true,
@@ -893,6 +921,7 @@
         "graphql_is_translatable_rweb_tweet_is_translatable_enabled": true,
         "view_counts_everywhere_api_enabled": true,
         "longform_notetweets_consumption_enabled": true,
+        "responsive_web_twitter_article_tweet_consumption_enabled": false,
         "tweet_awards_web_tipping_enabled": false,
         "freedom_of_speech_not_reach_fetch_enabled": true,
         "standardized_nudges_misinfo": true,
@@ -903,8 +932,8 @@
       }
     },
     "CommunityAboutTimeline": {
-      "url": "https://twitter.com/i/api/graphql/yi1sVACXAwbhO9NC7Q6tpA/CommunityAboutTimeline",
-      "queryId": "yi1sVACXAwbhO9NC7Q6tpA",
+      "url": "https://twitter.com/i/api/graphql/AS1oGieH3u9Rcnrp4V-oDw/CommunityAboutTimeline",
+      "queryId": "AS1oGieH3u9Rcnrp4V-oDw",
       "method": "GET",
       "features": {
         "rweb_lists_timeline_redesign_enabled": true,
@@ -918,6 +947,7 @@
         "graphql_is_translatable_rweb_tweet_is_translatable_enabled": true,
         "view_counts_everywhere_api_enabled": true,
         "longform_notetweets_consumption_enabled": true,
+        "responsive_web_twitter_article_tweet_consumption_enabled": false,
         "tweet_awards_web_tipping_enabled": false,
         "freedom_of_speech_not_reach_fetch_enabled": true,
         "standardized_nudges_misinfo": true,
@@ -939,8 +969,8 @@
       }
     },
     "CommunityDiscoveryTimeline": {
-      "url": "https://twitter.com/i/api/graphql/Fnx3tMZIx8187WCnK_g4JA/CommunityDiscoveryTimeline",
-      "queryId": "Fnx3tMZIx8187WCnK_g4JA",
+      "url": "https://twitter.com/i/api/graphql/8pZrbAybxAefGtvTuVg5Ig/CommunityDiscoveryTimeline",
+      "queryId": "8pZrbAybxAefGtvTuVg5Ig",
       "method": "GET",
       "features": {
         "rweb_lists_timeline_redesign_enabled": true,
@@ -954,6 +984,7 @@
         "graphql_is_translatable_rweb_tweet_is_translatable_enabled": true,
         "view_counts_everywhere_api_enabled": true,
         "longform_notetweets_consumption_enabled": true,
+        "responsive_web_twitter_article_tweet_consumption_enabled": false,
         "tweet_awards_web_tipping_enabled": false,
         "freedom_of_speech_not_reach_fetch_enabled": true,
         "standardized_nudges_misinfo": true,
@@ -975,8 +1006,8 @@
       }
     },
     "CommunityHashtagsTimeline": {
-      "url": "https://twitter.com/i/api/graphql/u7iFcx8-2ktMGtO9Zrheuw/CommunityHashtagsTimeline",
-      "queryId": "u7iFcx8-2ktMGtO9Zrheuw",
+      "url": "https://twitter.com/i/api/graphql/u8xQJU930xifgaMFDbnG0g/CommunityHashtagsTimeline",
+      "queryId": "u8xQJU930xifgaMFDbnG0g",
       "method": "GET",
       "features": {
         "rweb_lists_timeline_redesign_enabled": true,
@@ -990,6 +1021,7 @@
         "graphql_is_translatable_rweb_tweet_is_translatable_enabled": true,
         "view_counts_everywhere_api_enabled": true,
         "longform_notetweets_consumption_enabled": true,
+        "responsive_web_twitter_article_tweet_consumption_enabled": false,
         "tweet_awards_web_tipping_enabled": false,
         "freedom_of_speech_not_reach_fetch_enabled": true,
         "standardized_nudges_misinfo": true,
@@ -1033,8 +1065,8 @@
       }
     },
     "CommunityModerationTweetCasesSlice": {
-      "url": "https://twitter.com/i/api/graphql/jDXMgyg0OaHXfF_blucQaQ/CommunityModerationTweetCasesSlice",
-      "queryId": "jDXMgyg0OaHXfF_blucQaQ",
+      "url": "https://twitter.com/i/api/graphql/nEZHbpA_K2c7-h_INuw5eQ/CommunityModerationTweetCasesSlice",
+      "queryId": "nEZHbpA_K2c7-h_INuw5eQ",
       "method": "GET",
       "features": {
         "creator_subscriptions_tweet_preview_api_enabled": true,
@@ -1043,6 +1075,7 @@
         "graphql_is_translatable_rweb_tweet_is_translatable_enabled": true,
         "view_counts_everywhere_api_enabled": true,
         "longform_notetweets_consumption_enabled": true,
+        "responsive_web_twitter_article_tweet_consumption_enabled": false,
         "tweet_awards_web_tipping_enabled": false,
         "freedom_of_speech_not_reach_fetch_enabled": true,
         "standardized_nudges_misinfo": true,
@@ -1068,8 +1101,8 @@
       }
     },
     "CommunityTweetsRankedTimeline": {
-      "url": "https://twitter.com/i/api/graphql/RYFAej_wA-z2m3NNF7L-pQ/CommunityTweetsRankedTimeline",
-      "queryId": "RYFAej_wA-z2m3NNF7L-pQ",
+      "url": "https://twitter.com/i/api/graphql/TpbMnfEWArgsBrpRYpR3cg/CommunityTweetsRankedTimeline",
+      "queryId": "TpbMnfEWArgsBrpRYpR3cg",
       "method": "GET",
       "features": {
         "rweb_lists_timeline_redesign_enabled": true,
@@ -1083,6 +1116,7 @@
         "graphql_is_translatable_rweb_tweet_is_translatable_enabled": true,
         "view_counts_everywhere_api_enabled": true,
         "longform_notetweets_consumption_enabled": true,
+        "responsive_web_twitter_article_tweet_consumption_enabled": false,
         "tweet_awards_web_tipping_enabled": false,
         "freedom_of_speech_not_reach_fetch_enabled": true,
         "standardized_nudges_misinfo": true,
@@ -1093,8 +1127,8 @@
       }
     },
     "CommunityTweetsTimeline": {
-      "url": "https://twitter.com/i/api/graphql/AAsNKo0P3qv3EPKe7ZdqZQ/CommunityTweetsTimeline",
-      "queryId": "AAsNKo0P3qv3EPKe7ZdqZQ",
+      "url": "https://twitter.com/i/api/graphql/vnhLhRzoQ8_PAe5iAcg2TQ/CommunityTweetsTimeline",
+      "queryId": "vnhLhRzoQ8_PAe5iAcg2TQ",
       "method": "GET",
       "features": {
         "rweb_lists_timeline_redesign_enabled": true,
@@ -1108,6 +1142,7 @@
         "graphql_is_translatable_rweb_tweet_is_translatable_enabled": true,
         "view_counts_everywhere_api_enabled": true,
         "longform_notetweets_consumption_enabled": true,
+        "responsive_web_twitter_article_tweet_consumption_enabled": false,
         "tweet_awards_web_tipping_enabled": false,
         "freedom_of_speech_not_reach_fetch_enabled": true,
         "standardized_nudges_misinfo": true,
@@ -1234,8 +1269,8 @@
       }
     },
     "TweetDetail": {
-      "url": "https://twitter.com/i/api/graphql/y_LhvlZL58Xso-m76pqOXw/TweetDetail",
-      "queryId": "y_LhvlZL58Xso-m76pqOXw",
+      "url": "https://twitter.com/i/api/graphql/mRGzBDycChVNcpi9Y3AIRA/TweetDetail",
+      "queryId": "mRGzBDycChVNcpi9Y3AIRA",
       "method": "GET",
       "features": {
         "rweb_lists_timeline_redesign_enabled": true,
@@ -1249,6 +1284,7 @@
         "graphql_is_translatable_rweb_tweet_is_translatable_enabled": true,
         "view_counts_everywhere_api_enabled": true,
         "longform_notetweets_consumption_enabled": true,
+        "responsive_web_twitter_article_tweet_consumption_enabled": false,
         "tweet_awards_web_tipping_enabled": false,
         "freedom_of_speech_not_reach_fetch_enabled": true,
         "standardized_nudges_misinfo": true,
@@ -1276,8 +1312,8 @@
       "features": {}
     },
     "DmMutedTimeline": {
-      "url": "https://twitter.com/i/api/graphql/uINc_UQC6sNgF1mLrWR8Aw/DmMutedTimeline",
-      "queryId": "uINc_UQC6sNgF1mLrWR8Aw",
+      "url": "https://twitter.com/i/api/graphql/p0LnETvFCRmLPriFEA_CwQ/DmMutedTimeline",
+      "queryId": "p0LnETvFCRmLPriFEA_CwQ",
       "method": "GET",
       "features": {
         "rweb_lists_timeline_redesign_enabled": true,
@@ -1291,6 +1327,7 @@
         "graphql_is_translatable_rweb_tweet_is_translatable_enabled": true,
         "view_counts_everywhere_api_enabled": true,
         "longform_notetweets_consumption_enabled": true,
+        "responsive_web_twitter_article_tweet_consumption_enabled": false,
         "tweet_awards_web_tipping_enabled": false,
         "freedom_of_speech_not_reach_fetch_enabled": true,
         "standardized_nudges_misinfo": true,
@@ -1349,8 +1386,8 @@
       "features": {}
     },
     "ImmersiveMedia": {
-      "url": "https://twitter.com/i/api/graphql/F7kVvRnLQmc_kWJZB0EVLA/ImmersiveMedia",
-      "queryId": "F7kVvRnLQmc_kWJZB0EVLA",
+      "url": "https://twitter.com/i/api/graphql/wT1Izj6KkrVArTgSb8CVsg/ImmersiveMedia",
+      "queryId": "wT1Izj6KkrVArTgSb8CVsg",
       "method": "GET",
       "features": {
         "rweb_lists_timeline_redesign_enabled": true,
@@ -1364,6 +1401,7 @@
         "graphql_is_translatable_rweb_tweet_is_translatable_enabled": true,
         "view_counts_everywhere_api_enabled": true,
         "longform_notetweets_consumption_enabled": true,
+        "responsive_web_twitter_article_tweet_consumption_enabled": false,
         "tweet_awards_web_tipping_enabled": false,
         "freedom_of_speech_not_reach_fetch_enabled": true,
         "standardized_nudges_misinfo": true,
@@ -1380,8 +1418,8 @@
       "features": {}
     },
     "CreatorSubscriptionsTimeline": {
-      "url": "https://twitter.com/i/api/graphql/uatb5cg2CDnlzrs-BUxQvA/CreatorSubscriptionsTimeline",
-      "queryId": "uatb5cg2CDnlzrs-BUxQvA",
+      "url": "https://twitter.com/i/api/graphql/hxbdTdN1NPG8TbMUHZpTHw/CreatorSubscriptionsTimeline",
+      "queryId": "hxbdTdN1NPG8TbMUHZpTHw",
       "method": "GET",
       "features": {
         "rweb_lists_timeline_redesign_enabled": true,
@@ -1395,6 +1433,7 @@
         "graphql_is_translatable_rweb_tweet_is_translatable_enabled": true,
         "view_counts_everywhere_api_enabled": true,
         "longform_notetweets_consumption_enabled": true,
+        "responsive_web_twitter_article_tweet_consumption_enabled": false,
         "tweet_awards_web_tipping_enabled": false,
         "freedom_of_speech_not_reach_fetch_enabled": true,
         "standardized_nudges_misinfo": true,
@@ -1405,8 +1444,8 @@
       }
     },
     "HomeLatestTimeline": {
-      "url": "https://twitter.com/i/api/graphql/gExnU9ZBhHFknL2n59kneg/HomeLatestTimeline",
-      "queryId": "gExnU9ZBhHFknL2n59kneg",
+      "url": "https://twitter.com/i/api/graphql/Skg7cRnsgu2yNew65VzYOg/HomeLatestTimeline",
+      "queryId": "Skg7cRnsgu2yNew65VzYOg",
       "method": "GET",
       "features": {
         "rweb_lists_timeline_redesign_enabled": true,
@@ -1420,6 +1459,7 @@
         "graphql_is_translatable_rweb_tweet_is_translatable_enabled": true,
         "view_counts_everywhere_api_enabled": true,
         "longform_notetweets_consumption_enabled": true,
+        "responsive_web_twitter_article_tweet_consumption_enabled": false,
         "tweet_awards_web_tipping_enabled": false,
         "freedom_of_speech_not_reach_fetch_enabled": true,
         "standardized_nudges_misinfo": true,
@@ -1430,8 +1470,8 @@
       }
     },
     "HomeTimeline": {
-      "url": "https://twitter.com/i/api/graphql/_gQ69G6aUoK0ZfUGJPPlbA/HomeTimeline",
-      "queryId": "_gQ69G6aUoK0ZfUGJPPlbA",
+      "url": "https://twitter.com/i/api/graphql/qsrV8bB4sKkhtAZ11nUTAg/HomeTimeline",
+      "queryId": "qsrV8bB4sKkhtAZ11nUTAg",
       "method": "GET",
       "features": {
         "rweb_lists_timeline_redesign_enabled": true,
@@ -1445,6 +1485,7 @@
         "graphql_is_translatable_rweb_tweet_is_translatable_enabled": true,
         "view_counts_everywhere_api_enabled": true,
         "longform_notetweets_consumption_enabled": true,
+        "responsive_web_twitter_article_tweet_consumption_enabled": false,
         "tweet_awards_web_tipping_enabled": false,
         "freedom_of_speech_not_reach_fetch_enabled": true,
         "standardized_nudges_misinfo": true,
@@ -1455,8 +1496,8 @@
       }
     },
     "CombinedLists": {
-      "url": "https://twitter.com/i/api/graphql/shlB-JWg5Tj9X-AO8rHZAA/CombinedLists",
-      "queryId": "shlB-JWg5Tj9X-AO8rHZAA",
+      "url": "https://twitter.com/i/api/graphql/4EoR-3xp_kHjjtLdSJ-5lg/CombinedLists",
+      "queryId": "4EoR-3xp_kHjjtLdSJ-5lg",
       "method": "GET",
       "features": {
         "rweb_lists_timeline_redesign_enabled": true,
@@ -1470,6 +1511,7 @@
         "graphql_is_translatable_rweb_tweet_is_translatable_enabled": true,
         "view_counts_everywhere_api_enabled": true,
         "longform_notetweets_consumption_enabled": true,
+        "responsive_web_twitter_article_tweet_consumption_enabled": false,
         "tweet_awards_web_tipping_enabled": false,
         "freedom_of_speech_not_reach_fetch_enabled": true,
         "standardized_nudges_misinfo": true,
@@ -1540,8 +1582,8 @@
       }
     },
     "ListCreationRecommendedUsers": {
-      "url": "https://twitter.com/i/api/graphql/pnr6_K-K_odplWV3yRAWvQ/ListCreationRecommendedUsers",
-      "queryId": "pnr6_K-K_odplWV3yRAWvQ",
+      "url": "https://twitter.com/i/api/graphql/rYlul3QOGx_qgkpwaRApWQ/ListCreationRecommendedUsers",
+      "queryId": "rYlul3QOGx_qgkpwaRApWQ",
       "method": "GET",
       "features": {
         "rweb_lists_timeline_redesign_enabled": true,
@@ -1555,6 +1597,7 @@
         "graphql_is_translatable_rweb_tweet_is_translatable_enabled": true,
         "view_counts_everywhere_api_enabled": true,
         "longform_notetweets_consumption_enabled": true,
+        "responsive_web_twitter_article_tweet_consumption_enabled": false,
         "tweet_awards_web_tipping_enabled": false,
         "freedom_of_speech_not_reach_fetch_enabled": true,
         "standardized_nudges_misinfo": true,
@@ -1571,8 +1614,8 @@
       "features": {}
     },
     "ListEditRecommendedUsers": {
-      "url": "https://twitter.com/i/api/graphql/BiOEjK8ooeg1SVsz8EV7wg/ListEditRecommendedUsers",
-      "queryId": "BiOEjK8ooeg1SVsz8EV7wg",
+      "url": "https://twitter.com/i/api/graphql/UD7jtTzj6daA_-8Jq8pA9A/ListEditRecommendedUsers",
+      "queryId": "UD7jtTzj6daA_-8Jq8pA9A",
       "method": "GET",
       "features": {
         "rweb_lists_timeline_redesign_enabled": true,
@@ -1586,6 +1629,7 @@
         "graphql_is_translatable_rweb_tweet_is_translatable_enabled": true,
         "view_counts_everywhere_api_enabled": true,
         "longform_notetweets_consumption_enabled": true,
+        "responsive_web_twitter_article_tweet_consumption_enabled": false,
         "tweet_awards_web_tipping_enabled": false,
         "freedom_of_speech_not_reach_fetch_enabled": true,
         "standardized_nudges_misinfo": true,
@@ -1596,8 +1640,8 @@
       }
     },
     "ListLatestTweetsTimeline": {
-      "url": "https://twitter.com/i/api/graphql/rpxPwUK2Bjd46jw6S4YBNQ/ListLatestTweetsTimeline",
-      "queryId": "rpxPwUK2Bjd46jw6S4YBNQ",
+      "url": "https://twitter.com/i/api/graphql/hVmwm1awr93NKXPGdTXoGg/ListLatestTweetsTimeline",
+      "queryId": "hVmwm1awr93NKXPGdTXoGg",
       "method": "GET",
       "features": {
         "rweb_lists_timeline_redesign_enabled": true,
@@ -1611,6 +1655,7 @@
         "graphql_is_translatable_rweb_tweet_is_translatable_enabled": true,
         "view_counts_everywhere_api_enabled": true,
         "longform_notetweets_consumption_enabled": true,
+        "responsive_web_twitter_article_tweet_consumption_enabled": false,
         "tweet_awards_web_tipping_enabled": false,
         "freedom_of_speech_not_reach_fetch_enabled": true,
         "standardized_nudges_misinfo": true,
@@ -1621,8 +1666,8 @@
       }
     },
     "ListMembers": {
-      "url": "https://twitter.com/i/api/graphql/9JCr3zuwkY0eVTca2B5PfA/ListMembers",
-      "queryId": "9JCr3zuwkY0eVTca2B5PfA",
+      "url": "https://twitter.com/i/api/graphql/ksgBamZAFcgUA3pDrzrNzg/ListMembers",
+      "queryId": "ksgBamZAFcgUA3pDrzrNzg",
       "method": "GET",
       "features": {
         "rweb_lists_timeline_redesign_enabled": true,
@@ -1636,6 +1681,7 @@
         "graphql_is_translatable_rweb_tweet_is_translatable_enabled": true,
         "view_counts_everywhere_api_enabled": true,
         "longform_notetweets_consumption_enabled": true,
+        "responsive_web_twitter_article_tweet_consumption_enabled": false,
         "tweet_awards_web_tipping_enabled": false,
         "freedom_of_speech_not_reach_fetch_enabled": true,
         "standardized_nudges_misinfo": true,
@@ -1646,8 +1692,8 @@
       }
     },
     "ListMemberships": {
-      "url": "https://twitter.com/i/api/graphql/kcrTXswftN-sChY9gGqFoA/ListMemberships",
-      "queryId": "kcrTXswftN-sChY9gGqFoA",
+      "url": "https://twitter.com/i/api/graphql/yqgrcjWJZXdIu-ne-yNn2A/ListMemberships",
+      "queryId": "yqgrcjWJZXdIu-ne-yNn2A",
       "method": "GET",
       "features": {
         "rweb_lists_timeline_redesign_enabled": true,
@@ -1661,6 +1707,7 @@
         "graphql_is_translatable_rweb_tweet_is_translatable_enabled": true,
         "view_counts_everywhere_api_enabled": true,
         "longform_notetweets_consumption_enabled": true,
+        "responsive_web_twitter_article_tweet_consumption_enabled": false,
         "tweet_awards_web_tipping_enabled": false,
         "freedom_of_speech_not_reach_fetch_enabled": true,
         "standardized_nudges_misinfo": true,
@@ -1677,8 +1724,8 @@
       "features": {}
     },
     "ListOwnerships": {
-      "url": "https://twitter.com/i/api/graphql/1gng6kQFicly6UtrihUvNA/ListOwnerships",
-      "queryId": "1gng6kQFicly6UtrihUvNA",
+      "url": "https://twitter.com/i/api/graphql/hrkjtsbN614s7XRJVEe2mQ/ListOwnerships",
+      "queryId": "hrkjtsbN614s7XRJVEe2mQ",
       "method": "GET",
       "features": {
         "rweb_lists_timeline_redesign_enabled": true,
@@ -1692,6 +1739,7 @@
         "graphql_is_translatable_rweb_tweet_is_translatable_enabled": true,
         "view_counts_everywhere_api_enabled": true,
         "longform_notetweets_consumption_enabled": true,
+        "responsive_web_twitter_article_tweet_consumption_enabled": false,
         "tweet_awards_web_tipping_enabled": false,
         "freedom_of_speech_not_reach_fetch_enabled": true,
         "standardized_nudges_misinfo": true,
@@ -1738,8 +1786,8 @@
       }
     },
     "ListRankedTweetsTimeline": {
-      "url": "https://twitter.com/i/api/graphql/k1YsA6QXbTZw8Ay5URAgFw/ListRankedTweetsTimeline",
-      "queryId": "k1YsA6QXbTZw8Ay5URAgFw",
+      "url": "https://twitter.com/i/api/graphql/EwgJQCRyJUzLtqQyNsPZwA/ListRankedTweetsTimeline",
+      "queryId": "EwgJQCRyJUzLtqQyNsPZwA",
       "method": "GET",
       "features": {
         "rweb_lists_timeline_redesign_enabled": true,
@@ -1753,6 +1801,7 @@
         "graphql_is_translatable_rweb_tweet_is_translatable_enabled": true,
         "view_counts_everywhere_api_enabled": true,
         "longform_notetweets_consumption_enabled": true,
+        "responsive_web_twitter_article_tweet_consumption_enabled": false,
         "tweet_awards_web_tipping_enabled": false,
         "freedom_of_speech_not_reach_fetch_enabled": true,
         "standardized_nudges_misinfo": true,
@@ -1787,8 +1836,8 @@
       }
     },
     "ListSubscribers": {
-      "url": "https://twitter.com/i/api/graphql/4c0OAAYhC6lXRcxVEh5Fuw/ListSubscribers",
-      "queryId": "4c0OAAYhC6lXRcxVEh5Fuw",
+      "url": "https://twitter.com/i/api/graphql/hnarlneLW8uKyHqAanPUVw/ListSubscribers",
+      "queryId": "hnarlneLW8uKyHqAanPUVw",
       "method": "GET",
       "features": {
         "rweb_lists_timeline_redesign_enabled": true,
@@ -1802,6 +1851,7 @@
         "graphql_is_translatable_rweb_tweet_is_translatable_enabled": true,
         "view_counts_everywhere_api_enabled": true,
         "longform_notetweets_consumption_enabled": true,
+        "responsive_web_twitter_article_tweet_consumption_enabled": false,
         "tweet_awards_web_tipping_enabled": false,
         "freedom_of_speech_not_reach_fetch_enabled": true,
         "standardized_nudges_misinfo": true,
@@ -1854,8 +1904,8 @@
       }
     },
     "ListsDiscovery": {
-      "url": "https://twitter.com/i/api/graphql/Q0ogX6f_t7twVvIlobknJA/ListsDiscovery",
-      "queryId": "Q0ogX6f_t7twVvIlobknJA",
+      "url": "https://twitter.com/i/api/graphql/ZvUmGjPs3cHOKBib4oFQUg/ListsDiscovery",
+      "queryId": "ZvUmGjPs3cHOKBib4oFQUg",
       "method": "GET",
       "features": {
         "rweb_lists_timeline_redesign_enabled": true,
@@ -1869,6 +1919,7 @@
         "graphql_is_translatable_rweb_tweet_is_translatable_enabled": true,
         "view_counts_everywhere_api_enabled": true,
         "longform_notetweets_consumption_enabled": true,
+        "responsive_web_twitter_article_tweet_consumption_enabled": false,
         "tweet_awards_web_tipping_enabled": false,
         "freedom_of_speech_not_reach_fetch_enabled": true,
         "standardized_nudges_misinfo": true,
@@ -1879,8 +1930,8 @@
       }
     },
     "ListsManagementPageTimeline": {
-      "url": "https://twitter.com/i/api/graphql/7kRfxx2Ah-uWFl_0leHE5Q/ListsManagementPageTimeline",
-      "queryId": "7kRfxx2Ah-uWFl_0leHE5Q",
+      "url": "https://twitter.com/i/api/graphql/rLkBBwyJD5YK3YHzxJXJVA/ListsManagementPageTimeline",
+      "queryId": "rLkBBwyJD5YK3YHzxJXJVA",
       "method": "GET",
       "features": {
         "rweb_lists_timeline_redesign_enabled": true,
@@ -1894,6 +1945,7 @@
         "graphql_is_translatable_rweb_tweet_is_translatable_enabled": true,
         "view_counts_everywhere_api_enabled": true,
         "longform_notetweets_consumption_enabled": true,
+        "responsive_web_twitter_article_tweet_consumption_enabled": false,
         "tweet_awards_web_tipping_enabled": false,
         "freedom_of_speech_not_reach_fetch_enabled": true,
         "standardized_nudges_misinfo": true,
@@ -1934,8 +1986,8 @@
       "features": {}
     },
     "Likes": {
-      "url": "https://twitter.com/i/api/graphql/eS2hTr4cFDxqE-3k7B3RiA/Likes",
-      "queryId": "eS2hTr4cFDxqE-3k7B3RiA",
+      "url": "https://twitter.com/i/api/graphql/-yyB9cKVEbTzd8Wc3VH6iw/Likes",
+      "queryId": "-yyB9cKVEbTzd8Wc3VH6iw",
       "method": "GET",
       "features": {
         "rweb_lists_timeline_redesign_enabled": true,
@@ -1949,6 +2001,7 @@
         "graphql_is_translatable_rweb_tweet_is_translatable_enabled": true,
         "view_counts_everywhere_api_enabled": true,
         "longform_notetweets_consumption_enabled": true,
+        "responsive_web_twitter_article_tweet_consumption_enabled": false,
         "tweet_awards_web_tipping_enabled": false,
         "freedom_of_speech_not_reach_fetch_enabled": true,
         "standardized_nudges_misinfo": true,
@@ -1959,8 +2012,8 @@
       }
     },
     "UserAboutTimeline": {
-      "url": "https://twitter.com/i/api/graphql/hV-kDzw4BAFR859NKi4oYw/UserAboutTimeline",
-      "queryId": "hV-kDzw4BAFR859NKi4oYw",
+      "url": "https://twitter.com/i/api/graphql/rPh0m6NUHO2Gs09dNu_99w/UserAboutTimeline",
+      "queryId": "rPh0m6NUHO2Gs09dNu_99w",
       "method": "GET",
       "features": {
         "rweb_lists_timeline_redesign_enabled": true,
@@ -1974,6 +2027,7 @@
         "graphql_is_translatable_rweb_tweet_is_translatable_enabled": true,
         "view_counts_everywhere_api_enabled": true,
         "longform_notetweets_consumption_enabled": true,
+        "responsive_web_twitter_article_tweet_consumption_enabled": false,
         "tweet_awards_web_tipping_enabled": false,
         "freedom_of_speech_not_reach_fetch_enabled": true,
         "standardized_nudges_misinfo": true,
@@ -1984,8 +2038,8 @@
       }
     },
     "UserBusinessProfileTeamTimeline": {
-      "url": "https://twitter.com/i/api/graphql/PdH_z0EqIXDwRVx1YI9AOA/UserBusinessProfileTeamTimeline",
-      "queryId": "PdH_z0EqIXDwRVx1YI9AOA",
+      "url": "https://twitter.com/i/api/graphql/BMOfqVv1pVA3E3GjqgkmvA/UserBusinessProfileTeamTimeline",
+      "queryId": "BMOfqVv1pVA3E3GjqgkmvA",
       "method": "GET",
       "features": {
         "rweb_lists_timeline_redesign_enabled": true,
@@ -1999,6 +2053,7 @@
         "graphql_is_translatable_rweb_tweet_is_translatable_enabled": true,
         "view_counts_everywhere_api_enabled": true,
         "longform_notetweets_consumption_enabled": true,
+        "responsive_web_twitter_article_tweet_consumption_enabled": false,
         "tweet_awards_web_tipping_enabled": false,
         "freedom_of_speech_not_reach_fetch_enabled": true,
         "standardized_nudges_misinfo": true,
@@ -2009,8 +2064,8 @@
       }
     },
     "UserHighlightsTweets": {
-      "url": "https://twitter.com/i/api/graphql/WNdPqrQSFki52qg9S3MUgQ/UserHighlightsTweets",
-      "queryId": "WNdPqrQSFki52qg9S3MUgQ",
+      "url": "https://twitter.com/i/api/graphql/GfMwVaEqWVyZvNNtFTRXHQ/UserHighlightsTweets",
+      "queryId": "GfMwVaEqWVyZvNNtFTRXHQ",
       "method": "GET",
       "features": {
         "rweb_lists_timeline_redesign_enabled": true,
@@ -2024,6 +2079,7 @@
         "graphql_is_translatable_rweb_tweet_is_translatable_enabled": true,
         "view_counts_everywhere_api_enabled": true,
         "longform_notetweets_consumption_enabled": true,
+        "responsive_web_twitter_article_tweet_consumption_enabled": false,
         "tweet_awards_web_tipping_enabled": false,
         "freedom_of_speech_not_reach_fetch_enabled": true,
         "standardized_nudges_misinfo": true,
@@ -2034,8 +2090,8 @@
       }
     },
     "UserMedia": {
-      "url": "https://twitter.com/i/api/graphql/DS-VuCsWccOB6usNhbUB8w/UserMedia",
-      "queryId": "DS-VuCsWccOB6usNhbUB8w",
+      "url": "https://twitter.com/i/api/graphql/bWkgtCfbg40fvZLggaNfuA/UserMedia",
+      "queryId": "bWkgtCfbg40fvZLggaNfuA",
       "method": "GET",
       "features": {
         "rweb_lists_timeline_redesign_enabled": true,
@@ -2049,6 +2105,7 @@
         "graphql_is_translatable_rweb_tweet_is_translatable_enabled": true,
         "view_counts_everywhere_api_enabled": true,
         "longform_notetweets_consumption_enabled": true,
+        "responsive_web_twitter_article_tweet_consumption_enabled": false,
         "tweet_awards_web_tipping_enabled": false,
         "freedom_of_speech_not_reach_fetch_enabled": true,
         "standardized_nudges_misinfo": true,
@@ -2059,8 +2116,8 @@
       }
     },
     "UserPromotableTweets": {
-      "url": "https://twitter.com/i/api/graphql/SZVkrCz2a4el0etSEXKFWA/UserPromotableTweets",
-      "queryId": "SZVkrCz2a4el0etSEXKFWA",
+      "url": "https://twitter.com/i/api/graphql/b2a1Dvg4SmzIBgStATuxRQ/UserPromotableTweets",
+      "queryId": "b2a1Dvg4SmzIBgStATuxRQ",
       "method": "GET",
       "features": {
         "rweb_lists_timeline_redesign_enabled": true,
@@ -2074,6 +2131,7 @@
         "graphql_is_translatable_rweb_tweet_is_translatable_enabled": true,
         "view_counts_everywhere_api_enabled": true,
         "longform_notetweets_consumption_enabled": true,
+        "responsive_web_twitter_article_tweet_consumption_enabled": false,
         "tweet_awards_web_tipping_enabled": false,
         "freedom_of_speech_not_reach_fetch_enabled": true,
         "standardized_nudges_misinfo": true,
@@ -2084,8 +2142,8 @@
       }
     },
     "UserSuperFollowTweets": {
-      "url": "https://twitter.com/i/api/graphql/8IBCZh5YsiQCA_rI0ndcmw/UserSuperFollowTweets",
-      "queryId": "8IBCZh5YsiQCA_rI0ndcmw",
+      "url": "https://twitter.com/i/api/graphql/G6MNm-Dzfzpsc6X4YIfJIA/UserSuperFollowTweets",
+      "queryId": "G6MNm-Dzfzpsc6X4YIfJIA",
       "method": "GET",
       "features": {
         "rweb_lists_timeline_redesign_enabled": true,
@@ -2099,6 +2157,7 @@
         "graphql_is_translatable_rweb_tweet_is_translatable_enabled": true,
         "view_counts_everywhere_api_enabled": true,
         "longform_notetweets_consumption_enabled": true,
+        "responsive_web_twitter_article_tweet_consumption_enabled": false,
         "tweet_awards_web_tipping_enabled": false,
         "freedom_of_speech_not_reach_fetch_enabled": true,
         "standardized_nudges_misinfo": true,
@@ -2109,8 +2168,8 @@
       }
     },
     "UserTweets": {
-      "url": "https://twitter.com/i/api/graphql/IbbiOlpCpHB2KgFO3hDJvQ/UserTweets",
-      "queryId": "IbbiOlpCpHB2KgFO3hDJvQ",
+      "url": "https://twitter.com/i/api/graphql/sPOiMsDrOtmxC00E01DkTA/UserTweets",
+      "queryId": "sPOiMsDrOtmxC00E01DkTA",
       "method": "GET",
       "features": {
         "rweb_lists_timeline_redesign_enabled": true,
@@ -2124,6 +2183,7 @@
         "graphql_is_translatable_rweb_tweet_is_translatable_enabled": true,
         "view_counts_everywhere_api_enabled": true,
         "longform_notetweets_consumption_enabled": true,
+        "responsive_web_twitter_article_tweet_consumption_enabled": false,
         "tweet_awards_web_tipping_enabled": false,
         "freedom_of_speech_not_reach_fetch_enabled": true,
         "standardized_nudges_misinfo": true,
@@ -2134,8 +2194,8 @@
       }
     },
     "UserTweetsAndReplies": {
-      "url": "https://twitter.com/i/api/graphql/W-gl4NxQS3DdkhBnBqqWpA/UserTweetsAndReplies",
-      "queryId": "W-gl4NxQS3DdkhBnBqqWpA",
+      "url": "https://twitter.com/i/api/graphql/ahLGvWSvDCr-57-E8GXGCQ/UserTweetsAndReplies",
+      "queryId": "ahLGvWSvDCr-57-E8GXGCQ",
       "method": "GET",
       "features": {
         "rweb_lists_timeline_redesign_enabled": true,
@@ -2149,6 +2209,7 @@
         "graphql_is_translatable_rweb_tweet_is_translatable_enabled": true,
         "view_counts_everywhere_api_enabled": true,
         "longform_notetweets_consumption_enabled": true,
+        "responsive_web_twitter_article_tweet_consumption_enabled": false,
         "tweet_awards_web_tipping_enabled": false,
         "freedom_of_speech_not_reach_fetch_enabled": true,
         "standardized_nudges_misinfo": true,
@@ -2225,8 +2286,8 @@
       "features": {}
     },
     "RitoActionedTweetsTimeline": {
-      "url": "https://twitter.com/i/api/graphql/ee_UcNeYkQh4uU2NFYpYSQ/RitoActionedTweetsTimeline",
-      "queryId": "ee_UcNeYkQh4uU2NFYpYSQ",
+      "url": "https://twitter.com/i/api/graphql/TKO78HrzBNHv-ehIgQ6uyA/RitoActionedTweetsTimeline",
+      "queryId": "TKO78HrzBNHv-ehIgQ6uyA",
       "method": "GET",
       "features": {
         "rweb_lists_timeline_redesign_enabled": true,
@@ -2240,6 +2301,7 @@
         "graphql_is_translatable_rweb_tweet_is_translatable_enabled": true,
         "view_counts_everywhere_api_enabled": true,
         "longform_notetweets_consumption_enabled": true,
+        "responsive_web_twitter_article_tweet_consumption_enabled": false,
         "tweet_awards_web_tipping_enabled": false,
         "freedom_of_speech_not_reach_fetch_enabled": true,
         "standardized_nudges_misinfo": true,
@@ -2250,8 +2312,8 @@
       }
     },
     "RitoFlaggedAccountsTimeline": {
-      "url": "https://twitter.com/i/api/graphql/_bLEnV3rKDDdGuA6zPesrg/RitoFlaggedAccountsTimeline",
-      "queryId": "_bLEnV3rKDDdGuA6zPesrg",
+      "url": "https://twitter.com/i/api/graphql/0iRRw0HlY8UYm1YLb1y4pQ/RitoFlaggedAccountsTimeline",
+      "queryId": "0iRRw0HlY8UYm1YLb1y4pQ",
       "method": "GET",
       "features": {
         "rweb_lists_timeline_redesign_enabled": true,
@@ -2265,6 +2327,7 @@
         "graphql_is_translatable_rweb_tweet_is_translatable_enabled": true,
         "view_counts_everywhere_api_enabled": true,
         "longform_notetweets_consumption_enabled": true,
+        "responsive_web_twitter_article_tweet_consumption_enabled": false,
         "tweet_awards_web_tipping_enabled": false,
         "freedom_of_speech_not_reach_fetch_enabled": true,
         "standardized_nudges_misinfo": true,
@@ -2275,8 +2338,8 @@
       }
     },
     "RitoFlaggedTweetsTimeline": {
-      "url": "https://twitter.com/i/api/graphql/2w4uosbUtZQzP2wqKMfM7w/RitoFlaggedTweetsTimeline",
-      "queryId": "2w4uosbUtZQzP2wqKMfM7w",
+      "url": "https://twitter.com/i/api/graphql/5HZ25v3MwpSttWTK6pYnmQ/RitoFlaggedTweetsTimeline",
+      "queryId": "5HZ25v3MwpSttWTK6pYnmQ",
       "method": "GET",
       "features": {
         "rweb_lists_timeline_redesign_enabled": true,
@@ -2290,6 +2353,7 @@
         "graphql_is_translatable_rweb_tweet_is_translatable_enabled": true,
         "view_counts_everywhere_api_enabled": true,
         "longform_notetweets_consumption_enabled": true,
+        "responsive_web_twitter_article_tweet_consumption_enabled": false,
         "tweet_awards_web_tipping_enabled": false,
         "freedom_of_speech_not_reach_fetch_enabled": true,
         "standardized_nudges_misinfo": true,
@@ -2298,6 +2362,12 @@
         "longform_notetweets_inline_media_enabled": true,
         "responsive_web_enhance_cards_enabled": false
       }
+    },
+    "ConvertRitoSuggestedActions": {
+      "url": "https://twitter.com/i/api/graphql/2njnYoE69O2jdUM7KMEnDw/ConvertRitoSuggestedActions",
+      "queryId": "2njnYoE69O2jdUM7KMEnDw",
+      "method": "POST",
+      "features": {}
     },
     "RitoSuggestedActionsFacePile": {
       "url": "https://twitter.com/i/api/graphql/GnQKeEdL1LyeK3dTQCS1yw/RitoSuggestedActionsFacePile",
@@ -2444,8 +2514,8 @@
       "features": {}
     },
     "ArticleTimeline": {
-      "url": "https://twitter.com/i/api/graphql/h5EfB24jxK8u0M3sK_LoOw/ArticleTimeline",
-      "queryId": "h5EfB24jxK8u0M3sK_LoOw",
+      "url": "https://twitter.com/i/api/graphql/1lcWLT4isViFwoJPQx22tw/ArticleTimeline",
+      "queryId": "1lcWLT4isViFwoJPQx22tw",
       "method": "GET",
       "features": {
         "rweb_lists_timeline_redesign_enabled": true,
@@ -2459,6 +2529,7 @@
         "graphql_is_translatable_rweb_tweet_is_translatable_enabled": true,
         "view_counts_everywhere_api_enabled": true,
         "longform_notetweets_consumption_enabled": true,
+        "responsive_web_twitter_article_tweet_consumption_enabled": false,
         "tweet_awards_web_tipping_enabled": false,
         "freedom_of_speech_not_reach_fetch_enabled": true,
         "standardized_nudges_misinfo": true,
@@ -2469,8 +2540,8 @@
       }
     },
     "ArticleTweetsTimeline": {
-      "url": "https://twitter.com/i/api/graphql/cl43slywRsypREmdvCPdTA/ArticleTweetsTimeline",
-      "queryId": "cl43slywRsypREmdvCPdTA",
+      "url": "https://twitter.com/i/api/graphql/qua11o-h0DbXQ6YiK2uQ_Q/ArticleTweetsTimeline",
+      "queryId": "qua11o-h0DbXQ6YiK2uQ_Q",
       "method": "GET",
       "features": {
         "rweb_lists_timeline_redesign_enabled": true,
@@ -2484,6 +2555,7 @@
         "graphql_is_translatable_rweb_tweet_is_translatable_enabled": true,
         "view_counts_everywhere_api_enabled": true,
         "longform_notetweets_consumption_enabled": true,
+        "responsive_web_twitter_article_tweet_consumption_enabled": false,
         "tweet_awards_web_tipping_enabled": false,
         "freedom_of_speech_not_reach_fetch_enabled": true,
         "standardized_nudges_misinfo": true,
@@ -2494,8 +2566,8 @@
       }
     },
     "NoteworthyAccountsPage": {
-      "url": "https://twitter.com/i/api/graphql/5T0DqIWdaFLHn-LpAmp6yw/NoteworthyAccountsPage",
-      "queryId": "5T0DqIWdaFLHn-LpAmp6yw",
+      "url": "https://twitter.com/i/api/graphql/oadagv0fDJHOzUo6K4u0ow/NoteworthyAccountsPage",
+      "queryId": "oadagv0fDJHOzUo6K4u0ow",
       "method": "GET",
       "features": {
         "responsive_web_graphql_exclude_directive_enabled": true,
@@ -2509,6 +2581,7 @@
         "graphql_is_translatable_rweb_tweet_is_translatable_enabled": true,
         "view_counts_everywhere_api_enabled": true,
         "longform_notetweets_consumption_enabled": true,
+        "responsive_web_twitter_article_tweet_consumption_enabled": false,
         "tweet_awards_web_tipping_enabled": false,
         "freedom_of_speech_not_reach_fetch_enabled": true,
         "standardized_nudges_misinfo": true,
@@ -2525,8 +2598,8 @@
       "features": {}
     },
     "TopicLandingPage": {
-      "url": "https://twitter.com/i/api/graphql/MXSB2EiDmB1NKAaZQeATgA/TopicLandingPage",
-      "queryId": "MXSB2EiDmB1NKAaZQeATgA",
+      "url": "https://twitter.com/i/api/graphql/2Axr_6kFNS2ETPQit49qRA/TopicLandingPage",
+      "queryId": "2Axr_6kFNS2ETPQit49qRA",
       "method": "GET",
       "features": {
         "responsive_web_graphql_exclude_directive_enabled": true,
@@ -2540,6 +2613,7 @@
         "graphql_is_translatable_rweb_tweet_is_translatable_enabled": true,
         "view_counts_everywhere_api_enabled": true,
         "longform_notetweets_consumption_enabled": true,
+        "responsive_web_twitter_article_tweet_consumption_enabled": false,
         "tweet_awards_web_tipping_enabled": false,
         "freedom_of_speech_not_reach_fetch_enabled": true,
         "standardized_nudges_misinfo": true,
@@ -2562,8 +2636,8 @@
       "features": {}
     },
     "TopicToFollowSidebar": {
-      "url": "https://twitter.com/i/api/graphql/EbRQWOtsieApV3mvVsb9LA/TopicToFollowSidebar",
-      "queryId": "EbRQWOtsieApV3mvVsb9LA",
+      "url": "https://twitter.com/i/api/graphql/LaaEsGtg5MYsw44cvQ6LPA/TopicToFollowSidebar",
+      "queryId": "LaaEsGtg5MYsw44cvQ6LPA",
       "method": "GET",
       "features": {
         "rweb_lists_timeline_redesign_enabled": true,
@@ -2577,6 +2651,7 @@
         "graphql_is_translatable_rweb_tweet_is_translatable_enabled": true,
         "view_counts_everywhere_api_enabled": true,
         "longform_notetweets_consumption_enabled": true,
+        "responsive_web_twitter_article_tweet_consumption_enabled": false,
         "tweet_awards_web_tipping_enabled": false,
         "freedom_of_speech_not_reach_fetch_enabled": true,
         "standardized_nudges_misinfo": true,
@@ -2599,8 +2674,8 @@
       "features": {}
     },
     "TopicsManagementPage": {
-      "url": "https://twitter.com/i/api/graphql/-BXyIVFeEjHzUmroNmeJ-w/TopicsManagementPage",
-      "queryId": "-BXyIVFeEjHzUmroNmeJ-w",
+      "url": "https://twitter.com/i/api/graphql/sPNFm-v16mbiuHmyFH75YQ/TopicsManagementPage",
+      "queryId": "sPNFm-v16mbiuHmyFH75YQ",
       "method": "GET",
       "features": {
         "responsive_web_graphql_exclude_directive_enabled": true,
@@ -2614,6 +2689,7 @@
         "graphql_is_translatable_rweb_tweet_is_translatable_enabled": true,
         "view_counts_everywhere_api_enabled": true,
         "longform_notetweets_consumption_enabled": true,
+        "responsive_web_twitter_article_tweet_consumption_enabled": false,
         "tweet_awards_web_tipping_enabled": false,
         "freedom_of_speech_not_reach_fetch_enabled": true,
         "standardized_nudges_misinfo": true,
@@ -2624,8 +2700,8 @@
       }
     },
     "TopicsPickerPage": {
-      "url": "https://twitter.com/i/api/graphql/5P6sAbK4evf-3nVJYqG0jA/TopicsPickerPage",
-      "queryId": "5P6sAbK4evf-3nVJYqG0jA",
+      "url": "https://twitter.com/i/api/graphql/McZ3yKuxYwCbxA6uaR8g9Q/TopicsPickerPage",
+      "queryId": "McZ3yKuxYwCbxA6uaR8g9Q",
       "method": "GET",
       "features": {
         "responsive_web_graphql_exclude_directive_enabled": true,
@@ -2639,6 +2715,7 @@
         "graphql_is_translatable_rweb_tweet_is_translatable_enabled": true,
         "view_counts_everywhere_api_enabled": true,
         "longform_notetweets_consumption_enabled": true,
+        "responsive_web_twitter_article_tweet_consumption_enabled": false,
         "tweet_awards_web_tipping_enabled": false,
         "freedom_of_speech_not_reach_fetch_enabled": true,
         "standardized_nudges_misinfo": true,
@@ -2649,8 +2726,8 @@
       }
     },
     "TopicsPickerPageById": {
-      "url": "https://twitter.com/i/api/graphql/LuGJFZ3i2NGrt65W_ndqUA/TopicsPickerPageById",
-      "queryId": "LuGJFZ3i2NGrt65W_ndqUA",
+      "url": "https://twitter.com/i/api/graphql/OW3eC-h1cixacPKBqKlDNg/TopicsPickerPageById",
+      "queryId": "OW3eC-h1cixacPKBqKlDNg",
       "method": "GET",
       "features": {
         "responsive_web_graphql_exclude_directive_enabled": true,
@@ -2664,6 +2741,7 @@
         "graphql_is_translatable_rweb_tweet_is_translatable_enabled": true,
         "view_counts_everywhere_api_enabled": true,
         "longform_notetweets_consumption_enabled": true,
+        "responsive_web_twitter_article_tweet_consumption_enabled": false,
         "tweet_awards_web_tipping_enabled": false,
         "freedom_of_speech_not_reach_fetch_enabled": true,
         "standardized_nudges_misinfo": true,
@@ -2674,8 +2752,8 @@
       }
     },
     "ViewingOtherUsersTopicsPage": {
-      "url": "https://twitter.com/i/api/graphql/6JhZAE4jEPP_QPvahpX_8A/ViewingOtherUsersTopicsPage",
-      "queryId": "6JhZAE4jEPP_QPvahpX_8A",
+      "url": "https://twitter.com/i/api/graphql/SfxvkpCb9kAQk_v5rfVnsQ/ViewingOtherUsersTopicsPage",
+      "queryId": "SfxvkpCb9kAQk_v5rfVnsQ",
       "method": "GET",
       "features": {
         "responsive_web_graphql_exclude_directive_enabled": true,
@@ -2689,6 +2767,7 @@
         "graphql_is_translatable_rweb_tweet_is_translatable_enabled": true,
         "view_counts_everywhere_api_enabled": true,
         "longform_notetweets_consumption_enabled": true,
+        "responsive_web_twitter_article_tweet_consumption_enabled": false,
         "tweet_awards_web_tipping_enabled": false,
         "freedom_of_speech_not_reach_fetch_enabled": true,
         "standardized_nudges_misinfo": true,
@@ -2711,8 +2790,8 @@
       "features": {}
     },
     "Favoriters": {
-      "url": "https://twitter.com/i/api/graphql/RhSkws6ajRVjcpFk7w3i2w/Favoriters",
-      "queryId": "RhSkws6ajRVjcpFk7w3i2w",
+      "url": "https://twitter.com/i/api/graphql/jYy4aDu6hkqgv5wmb5AcoQ/Favoriters",
+      "queryId": "jYy4aDu6hkqgv5wmb5AcoQ",
       "method": "GET",
       "features": {
         "rweb_lists_timeline_redesign_enabled": true,
@@ -2726,6 +2805,7 @@
         "graphql_is_translatable_rweb_tweet_is_translatable_enabled": true,
         "view_counts_everywhere_api_enabled": true,
         "longform_notetweets_consumption_enabled": true,
+        "responsive_web_twitter_article_tweet_consumption_enabled": false,
         "tweet_awards_web_tipping_enabled": false,
         "freedom_of_speech_not_reach_fetch_enabled": true,
         "standardized_nudges_misinfo": true,
@@ -2736,8 +2816,8 @@
       }
     },
     "Retweeters": {
-      "url": "https://twitter.com/i/api/graphql/usEFAhyoBIqf7Pm0GDeCDA/Retweeters",
-      "queryId": "usEFAhyoBIqf7Pm0GDeCDA",
+      "url": "https://twitter.com/i/api/graphql/KUUN0q7-qESMddQjt6PS5Q/Retweeters",
+      "queryId": "KUUN0q7-qESMddQjt6PS5Q",
       "method": "GET",
       "features": {
         "rweb_lists_timeline_redesign_enabled": true,
@@ -2751,6 +2831,7 @@
         "graphql_is_translatable_rweb_tweet_is_translatable_enabled": true,
         "view_counts_everywhere_api_enabled": true,
         "longform_notetweets_consumption_enabled": true,
+        "responsive_web_twitter_article_tweet_consumption_enabled": false,
         "tweet_awards_web_tipping_enabled": false,
         "freedom_of_speech_not_reach_fetch_enabled": true,
         "standardized_nudges_misinfo": true,
@@ -2761,8 +2842,8 @@
       }
     },
     "TweetEditHistory": {
-      "url": "https://twitter.com/i/api/graphql/b1iEj53tbGOrAOc-ofh1Bg/TweetEditHistory",
-      "queryId": "b1iEj53tbGOrAOc-ofh1Bg",
+      "url": "https://twitter.com/i/api/graphql/GtXv03H3ZQmxE-YiNm4lHA/TweetEditHistory",
+      "queryId": "GtXv03H3ZQmxE-YiNm4lHA",
       "method": "GET",
       "features": {
         "freedom_of_speech_not_reach_fetch_enabled": true,
@@ -2773,6 +2854,7 @@
         "graphql_is_translatable_rweb_tweet_is_translatable_enabled": true,
         "view_counts_everywhere_api_enabled": true,
         "longform_notetweets_consumption_enabled": true,
+        "responsive_web_twitter_article_tweet_consumption_enabled": false,
         "tweet_awards_web_tipping_enabled": false,
         "rweb_lists_timeline_redesign_enabled": true,
         "longform_notetweets_rich_text_read_enabled": true,
@@ -2795,8 +2877,8 @@
       }
     },
     "TwitterArticleCreate": {
-      "url": "https://twitter.com/i/api/graphql/yBKZtVVvjerrhQ5int0mlA/TwitterArticleCreate",
-      "queryId": "yBKZtVVvjerrhQ5int0mlA",
+      "url": "https://twitter.com/i/api/graphql/WoX3UMqq8YwkLHJNpTUssQ/TwitterArticleCreate",
+      "queryId": "WoX3UMqq8YwkLHJNpTUssQ",
       "method": "POST",
       "features": {
         "responsive_web_twitter_article_data_v2_enabled": false,
@@ -2810,6 +2892,7 @@
         "graphql_is_translatable_rweb_tweet_is_translatable_enabled": true,
         "view_counts_everywhere_api_enabled": true,
         "longform_notetweets_consumption_enabled": true,
+        "responsive_web_twitter_article_tweet_consumption_enabled": false,
         "tweet_awards_web_tipping_enabled": false,
         "freedom_of_speech_not_reach_fetch_enabled": true,
         "standardized_nudges_misinfo": true,
@@ -2826,8 +2909,8 @@
       "features": {}
     },
     "TwitterArticleByRestId": {
-      "url": "https://twitter.com/i/api/graphql/d_8FwKdtRaF80vxhMPWciA/TwitterArticleByRestId",
-      "queryId": "d_8FwKdtRaF80vxhMPWciA",
+      "url": "https://twitter.com/i/api/graphql/hiw_DS4EM50OcqHV6IpW7w/TwitterArticleByRestId",
+      "queryId": "hiw_DS4EM50OcqHV6IpW7w",
       "method": "GET",
       "features": {
         "responsive_web_twitter_article_data_v2_enabled": false,
@@ -2841,6 +2924,7 @@
         "graphql_is_translatable_rweb_tweet_is_translatable_enabled": true,
         "view_counts_everywhere_api_enabled": true,
         "longform_notetweets_consumption_enabled": true,
+        "responsive_web_twitter_article_tweet_consumption_enabled": false,
         "tweet_awards_web_tipping_enabled": false,
         "freedom_of_speech_not_reach_fetch_enabled": true,
         "standardized_nudges_misinfo": true,
@@ -2851,8 +2935,8 @@
       }
     },
     "TwitterArticleUpdateCoverImage": {
-      "url": "https://twitter.com/i/api/graphql/MKqTxRCpjs7k5aG5GJQKbA/TwitterArticleUpdateCoverImage",
-      "queryId": "MKqTxRCpjs7k5aG5GJQKbA",
+      "url": "https://twitter.com/i/api/graphql/L3E6EFJWb8IjyLxVN3xKnQ/TwitterArticleUpdateCoverImage",
+      "queryId": "L3E6EFJWb8IjyLxVN3xKnQ",
       "method": "POST",
       "features": {
         "responsive_web_twitter_article_data_v2_enabled": false,
@@ -2866,6 +2950,7 @@
         "graphql_is_translatable_rweb_tweet_is_translatable_enabled": true,
         "view_counts_everywhere_api_enabled": true,
         "longform_notetweets_consumption_enabled": true,
+        "responsive_web_twitter_article_tweet_consumption_enabled": false,
         "tweet_awards_web_tipping_enabled": false,
         "freedom_of_speech_not_reach_fetch_enabled": true,
         "standardized_nudges_misinfo": true,
@@ -2876,8 +2961,8 @@
       }
     },
     "TwitterArticleUpdateData": {
-      "url": "https://twitter.com/i/api/graphql/ymtpabCpOJSF_z0EE1xYXA/TwitterArticleUpdateData",
-      "queryId": "ymtpabCpOJSF_z0EE1xYXA",
+      "url": "https://twitter.com/i/api/graphql/ohF_NWNy-dZPKN5_acEfrg/TwitterArticleUpdateData",
+      "queryId": "ohF_NWNy-dZPKN5_acEfrg",
       "method": "POST",
       "features": {
         "responsive_web_twitter_article_data_v2_enabled": false,
@@ -2891,6 +2976,7 @@
         "graphql_is_translatable_rweb_tweet_is_translatable_enabled": true,
         "view_counts_everywhere_api_enabled": true,
         "longform_notetweets_consumption_enabled": true,
+        "responsive_web_twitter_article_tweet_consumption_enabled": false,
         "tweet_awards_web_tipping_enabled": false,
         "freedom_of_speech_not_reach_fetch_enabled": true,
         "standardized_nudges_misinfo": true,
@@ -2901,8 +2987,8 @@
       }
     },
     "TwitterArticleUpdateMedia": {
-      "url": "https://twitter.com/i/api/graphql/WpliLPs99ishg5OOlj1b7w/TwitterArticleUpdateMedia",
-      "queryId": "WpliLPs99ishg5OOlj1b7w",
+      "url": "https://twitter.com/i/api/graphql/fJtQowBhcbJ6KTR_seSy0w/TwitterArticleUpdateMedia",
+      "queryId": "fJtQowBhcbJ6KTR_seSy0w",
       "method": "POST",
       "features": {
         "responsive_web_twitter_article_data_v2_enabled": false,
@@ -2916,6 +3002,7 @@
         "graphql_is_translatable_rweb_tweet_is_translatable_enabled": true,
         "view_counts_everywhere_api_enabled": true,
         "longform_notetweets_consumption_enabled": true,
+        "responsive_web_twitter_article_tweet_consumption_enabled": false,
         "tweet_awards_web_tipping_enabled": false,
         "freedom_of_speech_not_reach_fetch_enabled": true,
         "standardized_nudges_misinfo": true,
@@ -2926,8 +3013,8 @@
       }
     },
     "TwitterArticleUpdateTitle": {
-      "url": "https://twitter.com/i/api/graphql/Y4yv9dmWrn96TciVjLZB4A/TwitterArticleUpdateTitle",
-      "queryId": "Y4yv9dmWrn96TciVjLZB4A",
+      "url": "https://twitter.com/i/api/graphql/fvy6ch6-uvc5LKiPW5K7eQ/TwitterArticleUpdateTitle",
+      "queryId": "fvy6ch6-uvc5LKiPW5K7eQ",
       "method": "POST",
       "features": {
         "responsive_web_twitter_article_data_v2_enabled": false,
@@ -2941,6 +3028,7 @@
         "graphql_is_translatable_rweb_tweet_is_translatable_enabled": true,
         "view_counts_everywhere_api_enabled": true,
         "longform_notetweets_consumption_enabled": true,
+        "responsive_web_twitter_article_tweet_consumption_enabled": false,
         "tweet_awards_web_tipping_enabled": false,
         "freedom_of_speech_not_reach_fetch_enabled": true,
         "standardized_nudges_misinfo": true,
@@ -2951,8 +3039,8 @@
       }
     },
     "TwitterArticleUpdateVisibility": {
-      "url": "https://twitter.com/i/api/graphql/uec7IPeai83loq0ye4IDeQ/TwitterArticleUpdateVisibility",
-      "queryId": "uec7IPeai83loq0ye4IDeQ",
+      "url": "https://twitter.com/i/api/graphql/iwQds2yZkUTor7SeA3UizQ/TwitterArticleUpdateVisibility",
+      "queryId": "iwQds2yZkUTor7SeA3UizQ",
       "method": "POST",
       "features": {
         "responsive_web_twitter_article_data_v2_enabled": false,
@@ -2966,6 +3054,7 @@
         "graphql_is_translatable_rweb_tweet_is_translatable_enabled": true,
         "view_counts_everywhere_api_enabled": true,
         "longform_notetweets_consumption_enabled": true,
+        "responsive_web_twitter_article_tweet_consumption_enabled": false,
         "tweet_awards_web_tipping_enabled": false,
         "freedom_of_speech_not_reach_fetch_enabled": true,
         "standardized_nudges_misinfo": true,
@@ -2976,8 +3065,8 @@
       }
     },
     "TwitterArticlesSlice": {
-      "url": "https://twitter.com/i/api/graphql/Q-Ptjg7eECXGs9VwqBLrZQ/TwitterArticlesSlice",
-      "queryId": "Q-Ptjg7eECXGs9VwqBLrZQ",
+      "url": "https://twitter.com/i/api/graphql/xosiPs-oTH8DJLTqEANkLw/TwitterArticlesSlice",
+      "queryId": "xosiPs-oTH8DJLTqEANkLw",
       "method": "GET",
       "features": {
         "responsive_web_twitter_article_data_v2_enabled": false,
@@ -2991,6 +3080,7 @@
         "graphql_is_translatable_rweb_tweet_is_translatable_enabled": true,
         "view_counts_everywhere_api_enabled": true,
         "longform_notetweets_consumption_enabled": true,
+        "responsive_web_twitter_article_tweet_consumption_enabled": false,
         "tweet_awards_web_tipping_enabled": false,
         "freedom_of_speech_not_reach_fetch_enabled": true,
         "standardized_nudges_misinfo": true,
@@ -3021,8 +3111,8 @@
       }
     },
     "ConnectTabTimeline": {
-      "url": "https://twitter.com/i/api/graphql/pXfR2wSXLlTovIHKmqdyuw/ConnectTabTimeline",
-      "queryId": "pXfR2wSXLlTovIHKmqdyuw",
+      "url": "https://twitter.com/i/api/graphql/E4XpbntNRRRJHn2ONk-1_w/ConnectTabTimeline",
+      "queryId": "E4XpbntNRRRJHn2ONk-1_w",
       "method": "GET",
       "features": {
         "rweb_lists_timeline_redesign_enabled": true,
@@ -3036,6 +3126,7 @@
         "graphql_is_translatable_rweb_tweet_is_translatable_enabled": true,
         "view_counts_everywhere_api_enabled": true,
         "longform_notetweets_consumption_enabled": true,
+        "responsive_web_twitter_article_tweet_consumption_enabled": false,
         "tweet_awards_web_tipping_enabled": false,
         "freedom_of_speech_not_reach_fetch_enabled": true,
         "standardized_nudges_misinfo": true,
@@ -3046,8 +3137,8 @@
       }
     },
     "ExplorePage": {
-      "url": "https://twitter.com/i/api/graphql/1ip29wecxHDnW5k_IDQ9QA/ExplorePage",
-      "queryId": "1ip29wecxHDnW5k_IDQ9QA",
+      "url": "https://twitter.com/i/api/graphql/YgP_R2v80juuRNUtNIJvFA/ExplorePage",
+      "queryId": "YgP_R2v80juuRNUtNIJvFA",
       "method": "GET",
       "features": {
         "responsive_web_graphql_exclude_directive_enabled": true,
@@ -3061,6 +3152,7 @@
         "graphql_is_translatable_rweb_tweet_is_translatable_enabled": true,
         "view_counts_everywhere_api_enabled": true,
         "longform_notetweets_consumption_enabled": true,
+        "responsive_web_twitter_article_tweet_consumption_enabled": false,
         "tweet_awards_web_tipping_enabled": false,
         "freedom_of_speech_not_reach_fetch_enabled": true,
         "standardized_nudges_misinfo": true,
@@ -3071,8 +3163,8 @@
       }
     },
     "ListSearchTimeline": {
-      "url": "https://twitter.com/i/api/graphql/YZDpzZUQpvV_W0eaaRBomw/ListSearchTimeline",
-      "queryId": "YZDpzZUQpvV_W0eaaRBomw",
+      "url": "https://twitter.com/i/api/graphql/DaJpzFxKU9fQ4VO2nTmveA/ListSearchTimeline",
+      "queryId": "DaJpzFxKU9fQ4VO2nTmveA",
       "method": "GET",
       "features": {
         "rweb_lists_timeline_redesign_enabled": true,
@@ -3086,6 +3178,7 @@
         "graphql_is_translatable_rweb_tweet_is_translatable_enabled": true,
         "view_counts_everywhere_api_enabled": true,
         "longform_notetweets_consumption_enabled": true,
+        "responsive_web_twitter_article_tweet_consumption_enabled": false,
         "tweet_awards_web_tipping_enabled": false,
         "freedom_of_speech_not_reach_fetch_enabled": true,
         "standardized_nudges_misinfo": true,
@@ -3096,8 +3189,8 @@
       }
     },
     "SearchTimeline": {
-      "url": "https://twitter.com/i/api/graphql/KxeokD-ak2KkrK8w8cZZ4g/SearchTimeline",
-      "queryId": "KxeokD-ak2KkrK8w8cZZ4g",
+      "url": "https://twitter.com/i/api/graphql/WIMMmnOH68vsK2gGLBBWAg/SearchTimeline",
+      "queryId": "WIMMmnOH68vsK2gGLBBWAg",
       "method": "GET",
       "features": {
         "rweb_lists_timeline_redesign_enabled": true,
@@ -3111,6 +3204,7 @@
         "graphql_is_translatable_rweb_tweet_is_translatable_enabled": true,
         "view_counts_everywhere_api_enabled": true,
         "longform_notetweets_consumption_enabled": true,
+        "responsive_web_twitter_article_tweet_consumption_enabled": false,
         "tweet_awards_web_tipping_enabled": false,
         "freedom_of_speech_not_reach_fetch_enabled": true,
         "standardized_nudges_misinfo": true,
@@ -3127,8 +3221,8 @@
       "features": {}
     },
     "UrtFixtures": {
-      "url": "https://twitter.com/i/api/graphql/U2dtZotAFt8ycPJX9NyeRw/UrtFixtures",
-      "queryId": "U2dtZotAFt8ycPJX9NyeRw",
+      "url": "https://twitter.com/i/api/graphql/iSsrYgSE7e8peVttqULHUg/UrtFixtures",
+      "queryId": "iSsrYgSE7e8peVttqULHUg",
       "method": "GET",
       "features": {
         "rweb_lists_timeline_redesign_enabled": true,
@@ -3142,6 +3236,7 @@
         "graphql_is_translatable_rweb_tweet_is_translatable_enabled": true,
         "view_counts_everywhere_api_enabled": true,
         "longform_notetweets_consumption_enabled": true,
+        "responsive_web_twitter_article_tweet_consumption_enabled": false,
         "tweet_awards_web_tipping_enabled": false,
         "freedom_of_speech_not_reach_fetch_enabled": true,
         "standardized_nudges_misinfo": true,
@@ -3292,18 +3387,6 @@
       "method": "POST",
       "features": {}
     },
-    "ConvertRitoSuggestedActions": {
-      "url": "https://twitter.com/i/api/graphql/2njnYoE69O2jdUM7KMEnDw/ConvertRitoSuggestedActions",
-      "queryId": "2njnYoE69O2jdUM7KMEnDw",
-      "method": "POST",
-      "features": {}
-    },
-    "PutClientEducationFlag": {
-      "url": "https://twitter.com/i/api/graphql/IjQ-egg0uPkY11NyPMfRMQ/PutClientEducationFlag",
-      "queryId": "IjQ-egg0uPkY11NyPMfRMQ",
-      "method": "POST",
-      "features": {}
-    },
     "CommunitiesTabBarItemQuery": {
       "url": "https://twitter.com/i/api/graphql/ZesI-zwzK86uoWFu5IhLDg/CommunitiesTabBarItemQuery",
       "queryId": "ZesI-zwzK86uoWFu5IhLDg",
@@ -3311,8 +3394,8 @@
       "features": {}
     },
     "managementListsPageTimelineQuery": {
-      "url": "https://twitter.com/i/api/graphql/xMydr4iBDIRXSJarZHgeCw/managementListsPageTimelineQuery",
-      "queryId": "xMydr4iBDIRXSJarZHgeCw",
+      "url": "https://twitter.com/i/api/graphql/qFgQuLinXKOoLTXOQ4RECg/managementListsPageTimelineQuery",
+      "queryId": "qFgQuLinXKOoLTXOQ4RECg",
       "method": "GET",
       "features": {
         "creator_subscriptions_tweet_preview_api_enabled": true,
@@ -3326,6 +3409,7 @@
         "responsive_web_graphql_exclude_directive_enabled": true,
         "responsive_web_graphql_skip_user_profile_image_extensions_enabled": false,
         "responsive_web_graphql_timeline_navigation_enabled": true,
+        "responsive_web_twitter_article_tweet_consumption_enabled": false,
         "rweb_lists_timeline_redesign_enabled": true,
         "standardized_nudges_misinfo": true,
         "tweet_awards_web_tipping_enabled": false,
@@ -3395,12 +3479,6 @@
       "method": "GET",
       "features": {}
     },
-    "DMMessageDeleteMutation": {
-      "url": "https://twitter.com/i/api/graphql/BJ6DtxA2llfjnRoRjaiIiw/DMMessageDeleteMutation",
-      "queryId": "BJ6DtxA2llfjnRoRjaiIiw",
-      "method": "POST",
-      "features": {}
-    },
     "useDMReactionMutationAddMutation": {
       "url": "https://twitter.com/i/api/graphql/VyDyV9pC2oZEj6g52hgnhA/useDMReactionMutationAddMutation",
       "queryId": "VyDyV9pC2oZEj6g52hgnhA",
@@ -3410,6 +3488,12 @@
     "useDMReactionMutationRemoveMutation": {
       "url": "https://twitter.com/i/api/graphql/bV_Nim3RYHsaJwMkTXJ6ew/useDMReactionMutationRemoveMutation",
       "queryId": "bV_Nim3RYHsaJwMkTXJ6ew",
+      "method": "POST",
+      "features": {}
+    },
+    "DMMessageDeleteMutation": {
+      "url": "https://twitter.com/i/api/graphql/BJ6DtxA2llfjnRoRjaiIiw/DMMessageDeleteMutation",
+      "queryId": "BJ6DtxA2llfjnRoRjaiIiw",
       "method": "POST",
       "features": {}
     },
@@ -3492,6 +3576,12 @@
         "responsive_web_graphql_timeline_navigation_enabled": true,
         "verified_phone_label_enabled": false
       }
+    },
+    "AccountAnalyticsQuery": {
+      "url": "https://twitter.com/i/api/graphql/2OuO3ei9ql8RxWtiqXWw4w/AccountAnalyticsQuery",
+      "queryId": "2OuO3ei9ql8RxWtiqXWw4w",
+      "method": "GET",
+      "features": {}
     },
     "CarouselQuery": {
       "url": "https://twitter.com/i/api/graphql/A9Lt_vHgiD1zkiB2fdU9Zw/CarouselQuery",
@@ -3929,8 +4019,8 @@
       }
     },
     "UpdateProfileSpotlightVisibilityMutation": {
-      "url": "https://twitter.com/i/api/graphql/mDq5tCOsuuDzxezaI30d3A/UpdateProfileSpotlightVisibilityMutation",
-      "queryId": "mDq5tCOsuuDzxezaI30d3A",
+      "url": "https://twitter.com/i/api/graphql/8tvJu9RpHZAo38sZFFyxNQ/UpdateProfileSpotlightVisibilityMutation",
+      "queryId": "8tvJu9RpHZAo38sZFFyxNQ",
       "method": "POST",
       "features": {}
     },
@@ -3940,9 +4030,15 @@
       "method": "GET",
       "features": {}
     },
+    "useCreateLocationSpotlightMutation": {
+      "url": "https://twitter.com/i/api/graphql/bAnFWtbuSGoAJ2QuJvLFgg/useCreateLocationSpotlightMutation",
+      "queryId": "bAnFWtbuSGoAJ2QuJvLFgg",
+      "method": "POST",
+      "features": {}
+    },
     "useDeleteLocationSpotlightMutation": {
-      "url": "https://twitter.com/i/api/graphql/2ohYQLw6z3bqaCjSqs_LBQ/useDeleteLocationSpotlightMutation",
-      "queryId": "2ohYQLw6z3bqaCjSqs_LBQ",
+      "url": "https://twitter.com/i/api/graphql/g2HTZb33Guh7J-rQtme6yw/useDeleteLocationSpotlightMutation",
+      "queryId": "g2HTZb33Guh7J-rQtme6yw",
       "method": "POST",
       "features": {}
     },
@@ -3950,6 +4046,12 @@
       "url": "https://twitter.com/i/api/graphql/1fFcufgOXV2EXGD578RpQw/useMapImageLoaderQuery",
       "queryId": "1fFcufgOXV2EXGD578RpQw",
       "method": "GET",
+      "features": {}
+    },
+    "useUpdateLocationSpotlightMutation": {
+      "url": "https://twitter.com/i/api/graphql/vSXKvYOe9B1Bils14YfnFQ/useUpdateLocationSpotlightMutation",
+      "queryId": "vSXKvYOe9B1Bils14YfnFQ",
+      "method": "POST",
       "features": {}
     },
     "ProfessionalHomeQuery": {
@@ -4015,14 +4117,14 @@
       "features": {}
     },
     "UserJobListQueryScreenJobsQuery": {
-      "url": "https://twitter.com/i/api/graphql/LZuezk5WyBssr6WviS2LCA/UserJobListQueryScreenJobsQuery",
-      "queryId": "LZuezk5WyBssr6WviS2LCA",
+      "url": "https://twitter.com/i/api/graphql/XNEaR2j4YgcxfzmW2n_cew/UserJobListQueryScreenJobsQuery",
+      "queryId": "XNEaR2j4YgcxfzmW2n_cew",
       "method": "GET",
       "features": {}
     },
     "combinedListsPageTimelineQuery": {
-      "url": "https://twitter.com/i/api/graphql/V_M5yKWfLOCoXpczz9Xh4A/combinedListsPageTimelineQuery",
-      "queryId": "V_M5yKWfLOCoXpczz9Xh4A",
+      "url": "https://twitter.com/i/api/graphql/v1Pvxd1bptLUTgS2j6QjrQ/combinedListsPageTimelineQuery",
+      "queryId": "v1Pvxd1bptLUTgS2j6QjrQ",
       "method": "GET",
       "features": {
         "creator_subscriptions_tweet_preview_api_enabled": true,
@@ -4036,6 +4138,7 @@
         "responsive_web_graphql_exclude_directive_enabled": true,
         "responsive_web_graphql_skip_user_profile_image_extensions_enabled": false,
         "responsive_web_graphql_timeline_navigation_enabled": true,
+        "responsive_web_twitter_article_tweet_consumption_enabled": false,
         "rweb_lists_timeline_redesign_enabled": true,
         "standardized_nudges_misinfo": true,
         "tweet_awards_web_tipping_enabled": false,
@@ -4122,14 +4225,14 @@
       "features": {}
     },
     "ProfileSpotlightsQuery": {
-      "url": "https://twitter.com/i/api/graphql/9zwVLJ48lmVUk8u_Gh9DmA/ProfileSpotlightsQuery",
-      "queryId": "9zwVLJ48lmVUk8u_Gh9DmA",
+      "url": "https://twitter.com/i/api/graphql/ZQEuHPrIYlvh1NAyIQHP_w/ProfileSpotlightsQuery",
+      "queryId": "ZQEuHPrIYlvh1NAyIQHP_w",
       "method": "GET",
       "features": {}
     },
     "AddJobScreenMutation": {
-      "url": "https://twitter.com/i/api/graphql/nXmoyIo-rw3qGS_MDHLaBA/AddJobScreenMutation",
-      "queryId": "nXmoyIo-rw3qGS_MDHLaBA",
+      "url": "https://twitter.com/i/api/graphql/T3rZlisl5NVlJDySN-0XGg/AddJobScreenMutation",
+      "queryId": "T3rZlisl5NVlJDySN-0XGg",
       "method": "POST",
       "features": {}
     },
@@ -4158,14 +4261,14 @@
       "features": {}
     },
     "EditJobScreenMutation": {
-      "url": "https://twitter.com/i/api/graphql/hoGtY5BHxtQ49IIUBoGPFA/EditJobScreenMutation",
-      "queryId": "hoGtY5BHxtQ49IIUBoGPFA",
+      "url": "https://twitter.com/i/api/graphql/SVwU9sC2EnOTJvfb7OTXZg/EditJobScreenMutation",
+      "queryId": "SVwU9sC2EnOTJvfb7OTXZg",
       "method": "POST",
       "features": {}
     },
     "EditJobScreenQuery": {
-      "url": "https://twitter.com/i/api/graphql/DHFd6In-bqfEtlTR_GyN6w/EditJobScreenQuery",
-      "queryId": "DHFd6In-bqfEtlTR_GyN6w",
+      "url": "https://twitter.com/i/api/graphql/GtxpxZSBrfh5SaDoHHOEJA/EditJobScreenQuery",
+      "queryId": "GtxpxZSBrfh5SaDoHHOEJA",
       "method": "GET",
       "features": {}
     },
@@ -4191,12 +4294,6 @@
       "url": "https://twitter.com/i/api/graphql/yH3YjN-Rp8Hwnwo72A_EeQ/JobSplashScreenConfigMutation",
       "queryId": "yH3YjN-Rp8Hwnwo72A_EeQ",
       "method": "POST",
-      "features": {}
-    },
-    "JobsScreenJobsQuery": {
-      "url": "https://twitter.com/i/api/graphql/V1CHkYzJ6kAzVrUc4dlXLA/JobsScreenJobsQuery",
-      "queryId": "V1CHkYzJ6kAzVrUc4dlXLA",
-      "method": "GET",
       "features": {}
     },
     "OrderSummaryStripeAffiliateUpdateMutation": {
@@ -4253,10 +4350,22 @@
       "method": "POST",
       "features": {}
     },
+    "useFetchAdminJobsQuery": {
+      "url": "https://twitter.com/i/api/graphql/4cQdyOTs65lEsz4Diovj5w/useFetchAdminJobsQuery",
+      "queryId": "4cQdyOTs65lEsz4Diovj5w",
+      "method": "GET",
+      "features": {}
+    },
     "useProductSkuQuery": {
       "url": "https://twitter.com/i/api/graphql/J4jkAy2kC6O59mP-94xOzA/useProductSkuQuery",
       "queryId": "J4jkAy2kC6O59mP-94xOzA",
       "method": "GET",
+      "features": {}
+    },
+    "useUpdateOrganizationMutation": {
+      "url": "https://twitter.com/i/api/graphql/3d5aRPlWe8vuZJubHK7BLg/useUpdateOrganizationMutation",
+      "queryId": "3d5aRPlWe8vuZJubHK7BLg",
+      "method": "POST",
       "features": {}
     },
     "useVerifiedOrgConfigQuery": {

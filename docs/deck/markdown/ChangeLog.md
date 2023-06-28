@@ -364,3 +364,20 @@
 - responsive_web_twitter_article_seed_tweet_enabled<br>
 #### remove<br>
 - None<br>
+## 2023/06/27<br>
+### API<br>
+#### add<br>
+- AccountAnalyticsQuery<br>
+- useCreateLocationSpotlightMutation<br>
+- useUpdateLocationSpotlightMutation<br>
+- useFetchAdminJobsQuery<br>
+- useUpdateOrganizationMutation<br>
+#### remove<br>
+- JobsScreenJobsQuery<br>
+### Feature Switch<br>
+#### add<br>
+- responsive_web_account_analytics_enabled<br>
+- responsive_web_twitter_article_seed_tweet_detail_enabled<br>
+- responsive_web_twitter_article_tweet_consumption_enabled<br>
+#### remove<br>
+- None<br>
