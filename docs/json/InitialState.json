@@ -91,7 +91,7 @@
       "errors": {},
       "fetchStatus": {}
     },
-    "legacyAndUnifiedCards": {
+    "emailValidity": {
       "entities": {},
       "errors": {},
       "fetchStatus": {}
@@ -106,17 +106,17 @@
       "errors": {},
       "fetchStatus": {}
     },
-    "emailValidity": {
-      "entities": {},
-      "errors": {},
-      "fetchStatus": {}
-    },
     "passwordValidity": {
       "entities": {},
       "errors": {},
       "fetchStatus": {}
     },
     "phoneNumberValidity": {
+      "entities": {},
+      "errors": {},
+      "fetchStatus": {}
+    },
+    "legacyAndUnifiedCards": {
       "entities": {},
       "errors": {},
       "fetchStatus": {}
@@ -3531,7 +3531,7 @@
           "value": "true"
         },
         "highlights_tweets_tab_upsell_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "highlights_tweets_upsell_on_pin_action_enabled": {
           "value": "true"
@@ -5388,7 +5388,7 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "46133b92c78d4e80c13bcd721b1f09da"
+      "settingsVersion": "e7196024bdce55213920fc10c14a4040"
     },
     "debug": {},
     "featureSetToken": "5a70c164abf1dc599597fb42431cfda1656acc87",
@@ -5461,7 +5461,7 @@
     "country": "US",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "168790002998244445",
+    "guestId": "168798644147280449",
     "hasCommunityMemberships": "false",
     "language": "en",
     "oneFactorLoginEligibility": {
