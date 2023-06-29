@@ -12356,12 +12356,7 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key                                    | type    | variable   |
-|:---------------------------------------|:--------|:-----------|
-| tweetId                                | ...     | n          |
-| ...()(0,i.d)                           | ...     | _          |
-| withQuickPromoteEligibilityTweetFields | boolean | True       |
-
+`None`<br>
 #### features<br>
 `None`<br>
 #### queryId<br>
@@ -12452,21 +12447,6 @@ Login Required: `...`<br>
 `None`<br>
 #### features<br>
 `None`<br>
-#### queryId<br>
-`None`<br>
-## PrimaryContentQuery<br>
-Request URL: `https://twitter.com/i/api/graphql/DPcSNOtovRKeAwtHAqwUlg/PrimaryContentQuery`<br>
-Request Method: `GET`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-| key                                 | type    |   variable | default   |
-|:------------------------------------|:--------|-----------:|:----------|
-| c9s_list_members_action_api_enabled | boolean |          0 | nan       |
-| c9s_superc9s_indication_enabled     | ...     |        nan | error     |
-
 #### queryId<br>
 `None`<br>
 ## actions_approveMemberRequest_Mutation<br>
@@ -12692,6 +12672,17 @@ Login Required: `...`<br>
 `None`<br>
 #### queryId<br>
 `None`<br>
+## useSuperFollowsCreateStripePortalUrlMutation<br>
+Request URL: `https://twitter.com/i/api/graphql/cot9fAsCQIQGNYu9Rica6w/useSuperFollowsCreateStripePortalUrlMutation`<br>
+Request Method: `POST`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
 ## AdsCategoriesMutation<br>
 Request URL: `https://twitter.com/i/api/graphql/eRWyTnzFgPgv9D4W8ujf6A/AdsCategoriesMutation`<br>
 Request Method: `POST`<br>
@@ -12737,7 +12728,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## ManageAffiliateBadgesQuery<br>
-Request URL: `https://twitter.com/i/api/graphql/04XJ0LTu1fcHByvZ7KnUKQ/ManageAffiliateBadgesQuery`<br>
+Request URL: `https://twitter.com/i/api/graphql/CT653aMU4uP9EedJJWuSZg/ManageAffiliateBadgesQuery`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -12772,6 +12763,17 @@ Login Required: `...`<br>
 ## RepliesGetUserToxicReplyFilterSettingQuery<br>
 Request URL: `https://twitter.com/i/api/graphql/kmAhocLFK1cbzXxGq5Boow/RepliesGetUserToxicReplyFilterSettingQuery`<br>
 Request Method: `GET`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
+## useManagedAffiliationsUpdateMutation<br>
+Request URL: `https://twitter.com/i/api/graphql/tHVYwctPhLe1BXEkVqAdwQ/useManagedAffiliationsUpdateMutation`<br>
+Request Method: `POST`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
@@ -13396,17 +13398,6 @@ Login Required: `...`<br>
 `None`<br>
 ## useSuperFollowsChangeBadgePrivacyRemoveMutation<br>
 Request URL: `https://twitter.com/i/api/graphql/Mg-0dMrg-__WGhnWqj4nfQ/useSuperFollowsChangeBadgePrivacyRemoveMutation`<br>
-Request Method: `POST`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-`None`<br>
-#### queryId<br>
-`None`<br>
-## useSuperFollowsCreateStripePortalUrlMutation<br>
-Request URL: `https://twitter.com/i/api/graphql/cot9fAsCQIQGNYu9Rica6w/useSuperFollowsCreateStripePortalUrlMutation`<br>
 Request Method: `POST`<br>
 Login Required: `...`<br>
 ### Param<br>
