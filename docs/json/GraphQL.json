@@ -29388,13 +29388,6 @@
         "featureSwitches": [],
         "featureSwitch": {}
       }
-    },
-    "func_name": "_",
-    "func_name_init": "k",
-    "query": {
-      "tweetId": "n",
-      "...()(0,i.d)": "_",
-      "withQuickPromoteEligibilityTweetFields": "!0"
     }
   },
   {
@@ -29490,25 +29483,6 @@
       "metadata": {
         "featureSwitches": [],
         "featureSwitch": {}
-      }
-    }
-  },
-  {
-    "n": "97252",
-    "exports": {
-      "queryId": "DPcSNOtovRKeAwtHAqwUlg",
-      "operationName": "PrimaryContentQuery",
-      "operationType": "query",
-      "metadata": {
-        "featureSwitches": [
-          "c9s_list_members_action_api_enabled",
-          "c9s_superc9s_indication_enabled"
-        ],
-        "featureSwitch": {
-          "c9s_list_members_action_api_enabled": {
-            "value": "false"
-          }
-        }
       }
     }
   },
@@ -29759,6 +29733,18 @@
     }
   },
   {
+    "n": "10645",
+    "exports": {
+      "queryId": "cot9fAsCQIQGNYu9Rica6w",
+      "operationName": "useSuperFollowsCreateStripePortalUrlMutation",
+      "operationType": "mutation",
+      "metadata": {
+        "featureSwitches": [],
+        "featureSwitch": {}
+      }
+    }
+  },
+  {
     "n": "32473",
     "exports": {
       "queryId": "eRWyTnzFgPgv9D4W8ujf6A",
@@ -29809,7 +29795,7 @@
   {
     "n": "44263",
     "exports": {
-      "queryId": "04XJ0LTu1fcHByvZ7KnUKQ",
+      "queryId": "CT653aMU4uP9EedJJWuSZg",
       "operationName": "ManageAffiliateBadgesQuery",
       "operationType": "query",
       "metadata": {
@@ -29848,6 +29834,18 @@
       "queryId": "kmAhocLFK1cbzXxGq5Boow",
       "operationName": "RepliesGetUserToxicReplyFilterSettingQuery",
       "operationType": "query",
+      "metadata": {
+        "featureSwitches": [],
+        "featureSwitch": {}
+      }
+    }
+  },
+  {
+    "n": "53977",
+    "exports": {
+      "queryId": "tHVYwctPhLe1BXEkVqAdwQ",
+      "operationName": "useManagedAffiliationsUpdateMutation",
+      "operationType": "mutation",
       "metadata": {
         "featureSwitches": [],
         "featureSwitch": {}
@@ -30609,18 +30607,6 @@
     "exports": {
       "queryId": "Mg-0dMrg-__WGhnWqj4nfQ",
       "operationName": "useSuperFollowsChangeBadgePrivacyRemoveMutation",
-      "operationType": "mutation",
-      "metadata": {
-        "featureSwitches": [],
-        "featureSwitch": {}
-      }
-    }
-  },
-  {
-    "n": "10645",
-    "exports": {
-      "queryId": "cot9fAsCQIQGNYu9Rica6w",
-      "operationName": "useSuperFollowsCreateStripePortalUrlMutation",
       "operationType": "mutation",
       "metadata": {
         "featureSwitches": [],
