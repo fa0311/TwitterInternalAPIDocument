@@ -381,3 +381,17 @@
 - responsive_web_twitter_article_tweet_consumption_enabled<br>
 #### remove<br>
 - None<br>
+## 2023/06/29<br>
+### API<br>
+#### add<br>
+- useManagedAffiliationsUpdateMutation<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- dm_verified_allow_dms_from_setting_enabled<br>
+- responsive_web_subscriptions_setting_enabled<br>
+- responsive_web_twitter_article_character_limit<br>
+- subscriptions_feature_article_composer<br>
+#### remove<br>
+- responsive_web_twitter_article_compose_enabled<br>
