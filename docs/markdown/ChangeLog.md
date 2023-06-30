@@ -1025,3 +1025,17 @@
 - subscriptions_feature_article_composer<br>
 #### remove<br>
 - responsive_web_twitter_article_compose_enabled<br>
+## 2023/06/30<br>
+### API<br>
+#### add<br>
+- DMMessageSearchTabQuery<br>
+- JobsSettingsScreenSettingsQuery<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- responsive_web_media_download_video_enabled<br>
+- responsive_web_media_sensitive_allow_download_video<br>
+- responsive_web_twitter_article_v2_apis_enabled<br>
+#### remove<br>
+- None<br>
