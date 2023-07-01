@@ -6,6 +6,20 @@ The documentation in the [Develop branch](https://github.com/fa0311/TwitterInter
 
 [Stable branch](https://github.com/fa0311/TwitterInternalAPIDocument/tree/master)  /  [Develop branch](https://github.com/fa0311/TwitterInternalAPIDocument/tree/develop)  /  [Logged in branch](https://github.com/fa0311/TwitterInternalAPIDocument/tree/twitter-login)  /[Twitter Blue branch](https://github.com/fa0311/TwitterInternalAPIDocument/tree/twitter-blue)  
 
+## What is this?
+This is incomplete documentation of Twitter's internal API.
+This is the limit of static analysis, and it is very difficult to improve the system any further.
+This document is dedicated to automated analysis at the expense of accuracy.
+
+### How does it work?
+Be the first to know about changes to Twitter's internal API.
+You can find out information about APIs under development that cannot be called from the UI.
+It also serves as a reverse engineering assistant.
+
+### Do you have accurate documentation?
+yes.
+<https://github.com/fa0311/twitter-openapi>
+
 ## Document
 
 ### GraphQL API
