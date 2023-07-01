@@ -1673,7 +1673,7 @@
         "value": "true"
       },
       "responsive_web_open_app_appbar_button_enabled": {
-        "value": "true"
+        "value": "false"
       },
       "responsive_web_open_in_app_prompt_enabled": {
         "value": "false"
@@ -1812,7 +1812,7 @@
         "value": "true"
       },
       "responsive_web_subscriptions_setting_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "responsive_web_suppress_app_button_banner_suppressed": {
         "value": "false"
@@ -4182,10 +4182,10 @@
           "value": "true"
         },
         "responsive_web_logged_out_explore_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "responsive_web_logged_out_explore_home_path_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "responsive_web_logged_out_gating_13622_ddg": {
           "value": ""
@@ -4320,7 +4320,7 @@
           "value": "true"
         },
         "responsive_web_open_app_appbar_button_enabled": {
-          "value": "true"
+          "value": "false"
         },
         "responsive_web_open_in_app_prompt_enabled": {
           "value": "false"
@@ -5406,13 +5406,26 @@
           "value": "false"
         }
       },
-      "impression_pointers": {},
-      "impressions": {},
+      "impression_pointers": {
+        "responsive_web_logged_out_explore_home_path_enabled": [
+          "logged_out_timeline_16271"
+        ],
+        "responsive_web_logged_out_explore_enabled": [
+          "logged_out_timeline_16271"
+        ]
+      },
+      "impressions": {
+        "logged_out_timeline_16271": {
+          "key": "logged_out_timeline_16271",
+          "bucket": "treatment",
+          "version": "10"
+        }
+      },
       "keysRead": {},
-      "settingsVersion": "5b4a089513ea0a0fa8947e81c8b6dfd4"
+      "settingsVersion": "ef448e64ec72058bd7693699446c6402"
     },
     "debug": {},
-    "featureSetToken": "e2e92701d348112610c61955baf3ceabb6236eeb",
+    "featureSetToken": "dc3f69dcaefae825a8db82b4e1fb339062e4a3fe",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -5482,7 +5495,7 @@
     "country": "US",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "168815921897385516",
+    "guestId": "168824561869903427",
     "hasCommunityMemberships": "false",
     "language": "en",
     "oneFactorLoginEligibility": {
@@ -5493,6 +5506,12 @@
   "developer": {
     "dtabBarInfo": {
       "hide": "false"
+    }
+  },
+  "ads": {
+    "typeahead": {
+      "targetingLocation": {},
+      "forecastAudience": {}
     }
   }
 }
