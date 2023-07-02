@@ -110,6 +110,11 @@
       "entities": {},
       "errors": {},
       "fetchStatus": {}
+    },
+    "translationsProfiles": {
+      "entities": {},
+      "errors": {},
+      "fetchStatus": {}
     }
   },
   "featureSwitch": {
@@ -4182,10 +4187,10 @@
           "value": "true"
         },
         "responsive_web_logged_out_explore_enabled": {
-          "value": "true"
+          "value": "false"
         },
         "responsive_web_logged_out_explore_home_path_enabled": {
-          "value": "true"
+          "value": "false"
         },
         "responsive_web_logged_out_gating_13622_ddg": {
           "value": ""
@@ -4730,7 +4735,7 @@
           "value": "false"
         },
         "search_timelines_graphql_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "sensitive_media_settings_enabled": {
           "value": "false"
@@ -5406,23 +5411,10 @@
           "value": "false"
         }
       },
-      "impression_pointers": {
-        "responsive_web_logged_out_explore_home_path_enabled": [
-          "logged_out_timeline_16271"
-        ],
-        "responsive_web_logged_out_explore_enabled": [
-          "logged_out_timeline_16271"
-        ]
-      },
-      "impressions": {
-        "logged_out_timeline_16271": {
-          "key": "logged_out_timeline_16271",
-          "bucket": "treatment",
-          "version": "10"
-        }
-      },
+      "impression_pointers": {},
+      "impressions": {},
       "keysRead": {},
-      "settingsVersion": "ef448e64ec72058bd7693699446c6402"
+      "settingsVersion": "04c1c81e2215399e241700479e701fe0"
     },
     "debug": {},
     "featureSetToken": "dc3f69dcaefae825a8db82b4e1fb339062e4a3fe",
@@ -5495,7 +5487,7 @@
     "country": "US",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "168824561869903427",
+    "guestId": "168829768191610374",
     "hasCommunityMemberships": "false",
     "language": "en",
     "oneFactorLoginEligibility": {
