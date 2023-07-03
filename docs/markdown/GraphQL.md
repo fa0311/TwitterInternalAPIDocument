@@ -14062,7 +14062,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## MonetizationCreatorSettingsQuery<br>
-Request URL: `https://twitter.com/i/api/graphql/mr0kQqTd1pb1nOktITTVCQ/MonetizationCreatorSettingsQuery`<br>
+Request URL: `https://twitter.com/i/api/graphql/uK8g8QGuaB3lyueE-aAkEA/MonetizationCreatorSettingsQuery`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
