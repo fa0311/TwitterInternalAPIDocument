@@ -2635,9 +2635,9 @@ This document is entirely auto-generated and may contain errors.<br>
 | subscriptionSaving | {'backgroundColor': 'green50', 'color': 'green900', 'bold': '!0', 'radius': '9999', 'fontSize': 'subtext3'} |
 | bestValue          | {'backgroundColor': 'green50', 'color': 'green900', 'bold': '!0', 'fontSize': 'subtext3'}                   |
 | mostPopular        | {'backgroundColor': 'purple50', 'color': 'purple900', 'bold': '!0', 'fontSize': 'subtext3'}                 |
-| alt                | k                                                                                                           |
-| gif                | k                                                                                                           |
-| hd                 | k                                                                                                           |
+| alt                | v                                                                                                           |
+| gif                | v                                                                                                           |
+| hd                 | v                                                                                                           |
 | likedByAuthor      | {'backgroundColor': 'gray50', 'bold': '!1', 'color': 'gray700'}                                             |
 
 ```internal process
@@ -2908,7 +2908,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant                   | value                        |
 |:---------------------------|:-----------------------------|
-| ...g                       | _                            |
+| ...A                       | _                            |
 | ...o()                     | _                            |
 | text                       | l.Cj                         |
 | navigationBackground95     | #15202B                      |
@@ -2949,7 +2949,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant                   | value                        |
 |:---------------------------|:-----------------------------|
-| ...A                       | _                            |
+| ...y                       | _                            |
 | ...o()                     | _                            |
 | text                       | l.Cj                         |
 | navigationBackground       | #050505                      |
@@ -2988,32 +2988,32 @@ This document is entirely auto-generated and may contain errors.<br>
 |:----------------------|:----------|
 | appBarHeight          | M         |
 | appBarHeightPx        | f         |
-| conversationLineWidth | g.space2  |
-| gutterHorizontal      | y.space16 |
-| gutterHorizontalPx    | g.space16 |
-| gutterVertical        | y.space12 |
-| gutterVerticalPx      | g.space12 |
+| conversationLineWidth | A.space2  |
+| gutterHorizontal      | g.space16 |
+| gutterHorizontalPx    | A.space16 |
+| gutterVertical        | g.space12 |
+| gutterVerticalPx      | A.space12 |
 
 | constant            | value   |
 |:--------------------|:--------|
 | aspectRatios        | o       |
-| baseFontSize        | w       |
+| baseFontSize        | S       |
 | borderRadii         | s       |
 | borderRadiiPx       | i       |
 | borderWidths        | c       |
 | borderWidthsPx      | u       |
 | breakpoints         | r       |
-| componentDimensions | v       |
+| componentDimensions | k       |
 | componentZIndices   | l       |
-| fontSizes           | S       |
-| fontSizesPx         | A       |
+| fontSizes           | w       |
+| fontSizesPx         | y       |
 | fontWeights         | b       |
 | lineHeights         | D       |
 | lineHeightsPx       | h       |
 | scales              | d.Tp    |
 | scaleMultipler      | n       |
-| spaces              | y       |
-| spacesPx            | g       |
+| spaces              | g       |
+| spacesPx            | A       |
 
 ```internal process
 # Error
@@ -3045,11 +3045,11 @@ This document is entirely auto-generated and may contain errors.<br>
 
 |   constant | value               |
 |-----------:|:--------------------|
-|          0 | g.INTERNAL_ERROR    |
-|          1 | g.INVALID_MEDIA     |
-|          2 | g.FILE_TOO_LARGE    |
-|          3 | g.UNSUPPORTED_MEDIA |
-|          4 | g.TIMEOUT           |
+|          0 | A.INTERNAL_ERROR    |
+|          1 | A.INVALID_MEDIA     |
+|          2 | A.FILE_TOO_LARGE    |
+|          3 | A.UNSUPPORTED_MEDIA |
+|          4 | A.TIMEOUT           |
 
 | constant   |   value |
 |:-----------|--------:|
@@ -3752,59 +3752,10 @@ This document is entirely auto-generated and may contain errors.<br>
 | SUCCESS    | rweb/promotedContent/LOG_SUCCESS |
 | FAILURE    | rweb/promotedContent/LOG_FAILURE |
 
-| constant      | value           |
-|:--------------|:----------------|
-| Author        | author          |
-| LikedByAuthor | liked-by-author |
-
-| constant         | value        |
-|:-----------------|:-------------|
-| see_more         | A().ffd9cfe6 |
-| discover_more    | A().d172116a |
-| more             | A().h63a5c3c |
-| more_tweets      | A().iac074c4 |
-| more_suggestions | A().g11ebd34 |
-| browse           | A().g4a6901a |
-| browse_tweets    | A().b1abb17e |
-
-| constant   | value        |
-|:-----------|:-------------|
-| follow     | a().i79ab12a |
-| following  | a().d960b55c |
-| unfollow   | a().c0f56044 |
-
-| constant              | value        |
-|:----------------------|:-------------|
-| follow                | a().fcf51fe6 |
-| following             | a().e9a90d72 |
-| unfollow              | a().bf403716 |
-| confirmationHeadline  | a().c9f08e29 |
-| confirmationSheetText | a().abc600f4 |
-
-| constant              | value        |
-|:----------------------|:-------------|
-| follow                | a().cd876e02 |
-| following             | a().f2816e02 |
-| unfollow              | a().f5b04fbc |
-| confirmationHeadline  | a().c481ae3f |
-| confirmationSheetText | a().aa3ba124 |
-
-| constant              | value        |
-|:----------------------|:-------------|
-| follow                | a().e0e730b0 |
-| following             | a().e0e730b0 |
-| unfollow              | a().b1850062 |
-| confirmationHeadline  | a().gd3f996f |
-| confirmationSheetText | a().i36c403c |
-
-| constant    | value      |
-|:------------|:-----------|
-| Default     | default    |
-| FollowTopic | follow     |
-| Star        | star       |
-| Interested  | interested |
-| Favorite    | favorite   |
-
+```internal process
+# Error
+{"ActionsBar":"C.Z","ActionMenu":"function()"{"Icon":"e","isDisabled":"t","items":"n","onOpen":"i"}{"const r=o.useCallback()"{"items":"n","onCloseRequested":"e"}{"Icon":"e","isDisabled":"t","onClick":"i","renderActionMenu":"r"}},"CallToAction":"a.ZP","EditCallout":"f.Z","Education":"E.Z","Highlighte...
+```
 | constant                | value                          |
 |:------------------------|:-------------------------------|
 | HiddenCommunityTweet    | community_tweet_hidden         |
@@ -3880,15 +3831,64 @@ This document is entirely auto-generated and may contain errors.<br>
 | yellow0    | yellow500  |
 | gray0      | gray500    |
 
+| constant      | value           |
+|:--------------|:----------------|
+| Author        | author          |
+| LikedByAuthor | liked-by-author |
+
+| constant         | value        |
+|:-----------------|:-------------|
+| see_more         | P().ffd9cfe6 |
+| discover_more    | P().d172116a |
+| more             | P().h63a5c3c |
+| more_tweets      | P().iac074c4 |
+| more_suggestions | P().g11ebd34 |
+| browse           | P().g4a6901a |
+| browse_tweets    | P().b1abb17e |
+
+| constant   | value        |
+|:-----------|:-------------|
+| follow     | a().i79ab12a |
+| following  | a().d960b55c |
+| unfollow   | a().c0f56044 |
+
+| constant              | value        |
+|:----------------------|:-------------|
+| follow                | a().fcf51fe6 |
+| following             | a().e9a90d72 |
+| unfollow              | a().bf403716 |
+| confirmationHeadline  | a().c9f08e29 |
+| confirmationSheetText | a().abc600f4 |
+
+| constant              | value        |
+|:----------------------|:-------------|
+| follow                | a().cd876e02 |
+| following             | a().f2816e02 |
+| unfollow              | a().f5b04fbc |
+| confirmationHeadline  | a().c481ae3f |
+| confirmationSheetText | a().aa3ba124 |
+
+| constant              | value        |
+|:----------------------|:-------------|
+| follow                | a().e0e730b0 |
+| following             | a().e0e730b0 |
+| unfollow              | a().b1850062 |
+| confirmationHeadline  | a().gd3f996f |
+| confirmationSheetText | a().i36c403c |
+
+| constant    | value      |
+|:------------|:-----------|
+| Default     | default    |
+| FollowTopic | follow     |
+| Star        | star       |
+| Interested  | interested |
+| Favorite    | favorite   |
+
 | constant      | value         |
 |:--------------|:--------------|
 | single_line   | singleline    |
 | format_inline | format-inline |
 
-```internal process
-# Error
-{"ActionsBar":"v.Z","ActionMenu":"function()"{"Icon":"e","isDisabled":"t","items":"n","onOpen":"i"}{"const r=o.useCallback()"{"items":"n","onCloseRequested":"e"}{"Icon":"e","isDisabled":"t","onClick":"i","renderActionMenu":"r"}},"CallToAction":"a.ZP","EditCallout":"y.Z","Education":"T.Z","Highlighte...
-```
 | constant             | value                |
 |:---------------------|:---------------------|
 | Bird                 | Bird                 |
@@ -4075,7 +4075,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant                | value                   |
 |:------------------------|:------------------------|
-| ...a                    | _                       |
+| ...r                    | _                       |
 | DeprecatedMediaFocus    | DeprecatedMediaFocus    |
 | EmphasizedPromotedTweet | EmphasizedPromotedTweet |
 | MapCardPromotedTweet    | MapCardPromotedTweet    |
@@ -4631,10 +4631,6 @@ This document is entirely auto-generated and may contain errors.<br>
 # Error
 {[o.sj.AMPLIFY]:{"conversionHandler":"()"{"cardId":"e","cardType":"t","converterOptions":"a","data":"n"}{"const r=()(0,l.FL)",s=parseInt(n,\"image_value\",\"player_image_original\")/parseInt(0,l.SIn,\"string_value\",\"player_width\",10),c=(0,l.SIn,\"string_value\",\"player_height\",10)(0,l.SI),d=(n,...
 ```
-```internal process
-# Error
-{"ActionsBar":"C.Z","ActionMenu":"function()"{"Icon":"e","isDisabled":"t","items":"n","onOpen":"i"}{"const o=r.useCallback()"{"items":"n","onCloseRequested":"e"}{"Icon":"e","isDisabled":"t","onClick":"i","renderActionMenu":"o"}},"CallToAction":"a.ZP","EditCallout":"f.Z","Education":"_.Z","Highlighte...
-```
 | constant   | value    |
 |:-----------|:---------|
 | private    | private  |
@@ -4820,6 +4816,31 @@ This document is entirely auto-generated and may contain errors.<br>
 | Home       | home    |
 | Latest     | latest  |
 
+| constant       | value           |
+|:---------------|:----------------|
+| Crop           | crop            |
+| AltText        | alt_text        |
+| SensitiveMedia | sensitive_media |
+| Subtitles      | subtitles       |
+| Trimmer        | trimmer         |
+
+| constant   | value                               |
+|:-----------|:------------------------------------|
+| reset      | {'_type': 'reset', 'type': 'reset'} |
+| set        | {'_type': 'set', 'type': 'set'}     |
+
+| constant   | value   |
+|:-----------|:--------|
+| MEDIA      | Media   |
+| GIFS       | GIFs    |
+| TWEETS     | Tweets  |
+
+| constant   | value     |
+|:-----------|:----------|
+| ALL        | All       |
+| DRAFTS     | Drafts    |
+| PUBLISHED  | Published |
+
 | constant   | value                                |
 |:-----------|:-------------------------------------|
 | REQUEST    | rweb/quickPromote/eligibilityRequest |
@@ -4881,6 +4902,18 @@ This document is entirely auto-generated and may contain errors.<br>
 | Followers     | Followers     |
 | WebsiteClicks | WebsiteClicks |
 
+| constant   | value                                               |
+|:-----------|:----------------------------------------------------|
+| REQUEST    | rweb/scheduledTweets/FETCH_SCHEDULED_TWEETS_REQUEST |
+| SUCCESS    | rweb/scheduledTweets/FETCH_SCHEDULED_TWEETS_SUCCESS |
+| FAILURE    | rweb/scheduledTweets/FETCH_SCHEDULED_TWEETS_FAILURE |
+
+| constant   | value                                               |
+|:-----------|:----------------------------------------------------|
+| REQUEST    | rweb/scheduledTweets/DELETE_SCHEDULED_TWEET_REQUEST |
+| SUCCESS    | rweb/scheduledTweets/DELETE_SCHEDULED_TWEET_SUCCESS |
+| FAILURE    | rweb/scheduledTweets/DELETE_SCHEDULED_TWEET_FAILURE |
+
 | constant   | value                               |
 |:-----------|:------------------------------------|
 | reset      | {'_type': 'reset', 'type': 'reset'} |
@@ -4894,26 +4927,14 @@ This document is entirely auto-generated and may contain errors.<br>
 | Subtitles      | subtitles       |
 | Trimmer        | trimmer         |
 
-| constant   | value                                               |
-|:-----------|:----------------------------------------------------|
-| REQUEST    | rweb/scheduledTweets/FETCH_SCHEDULED_TWEETS_REQUEST |
-| SUCCESS    | rweb/scheduledTweets/FETCH_SCHEDULED_TWEETS_SUCCESS |
-| FAILURE    | rweb/scheduledTweets/FETCH_SCHEDULED_TWEETS_FAILURE |
-
-| constant   | value                                               |
-|:-----------|:----------------------------------------------------|
-| REQUEST    | rweb/scheduledTweets/DELETE_SCHEDULED_TWEET_REQUEST |
-| SUCCESS    | rweb/scheduledTweets/DELETE_SCHEDULED_TWEET_SUCCESS |
-| FAILURE    | rweb/scheduledTweets/DELETE_SCHEDULED_TWEET_FAILURE |
-
 | constant                  | value                                   |
 |:--------------------------|:----------------------------------------|
-| all                       | {'icon': 'sn', 'label': 'C().i8ea6d4e'} |
-| community                 | {'icon': 'on', 'label': 'C().ec5a4a26'} |
-| by_invitation             | {'icon': 'an', 'label': 'C().b454300a'} |
-| community_members         | {'icon': 'rn', 'label': 'C().i13be5a0'} |
-| super_followers_exclusive | {'icon': 'sn', 'label': 'C().bf8d98f4'} |
-| trusted_friends_tweet     | {'icon': 'ln', 'label': 'u'}            |
+| all                       | {'icon': 'si', 'label': 'C().i8ea6d4e'} |
+| community                 | {'icon': 'ri', 'label': 'C().ec5a4a26'} |
+| by_invitation             | {'icon': 'ai', 'label': 'C().b454300a'} |
+| community_members         | {'icon': 'oi', 'label': 'C().i13be5a0'} |
+| super_followers_exclusive | {'icon': 'si', 'label': 'C().bf8d98f4'} |
+| trusted_friends_tweet     | {'icon': 'li', 'label': 'u'}            |
 
 ```internal process
 # Error
@@ -4943,18 +4964,6 @@ This document is entirely auto-generated and may contain errors.<br>
 | Prompt     | Prompt  |
 | Require    | Require |
 
-| constant       | value           |
-|:---------------|:----------------|
-| Crop           | crop            |
-| AltText        | alt_text        |
-| SensitiveMedia | sensitive_media |
-| Subtitles      | subtitles       |
-| Trimmer        | trimmer         |
-
-```internal process
-# Error
-{"ActionsBar":"b.Z","ActionMenu":"function()"{"Icon":"e","isDisabled":"t","items":"n","onOpen":"i"}{"const o=r.useCallback()"{"items":"n","onCloseRequested":"e"}{"Icon":"e","isDisabled":"t","onClick":"i","renderActionMenu":"o"}},"CallToAction":"a.ZP","EditCallout":"f.Z","Education":"C.Z","Highlighte...
-```
 | constant   | value   |
 |:-----------|:--------|
 | START      | start   |
@@ -6097,10 +6106,6 @@ This document is entirely auto-generated and may contain errors.<br>
 | Space                           | reportspace                     |
 | AppealSuspension                | appealsuspension                |
 
-```internal process
-# Error
-{"ActionsBar":"C.Z","ActionMenu":"function()"{"Icon":"e","isDisabled":"t","items":"n","onOpen":"i"}{"const a=r.useCallback()"{"items":"n","onCloseRequested":"e"}{"Icon":"e","isDisabled":"t","onClick":"i","renderActionMenu":"a"}},"CallToAction":"o.ZP","EditCallout":"f.Z","Education":"_.Z","Highlighte...
-```
 | constant   | value    |
 |:-----------|:---------|
 | original   | original |
@@ -6271,38 +6276,9 @@ This document is entirely auto-generated and may contain errors.<br>
 | START      | start   |
 | END        | end     |
 
-| constant                | value                          |
-|:------------------------|:-------------------------------|
-| HiddenCommunityTweet    | community_tweet_hidden         |
-| CommunityNonMember      | community_tweet_non_member     |
-| CommunityMemberRemoved  | community_tweet_member_removed |
-| NonCompliant            | non_compliant                  |
-| TrustedFriendsTweet     | limit_trusted_friends_tweet    |
-| FreedomOfSpeechNotReach | freedom_of_speech_not_reach    |
-
-| constant   | value     |
-|:-----------|:----------|
-| BOOKMARK   | bookmark  |
-| COPY_LINK  | copy_link |
-| DM         | dm        |
-| SHARE_VIA  | share_via |
-
-| constant       | value   |
-|:---------------|:--------|
-| replyCount     | void 0  |
-| likeCount      | void 0  |
-| retweetCount   | void 0  |
-| viewCount      | void 0  |
-| viewCountState | void 0  |
-
-| constant   | value   |
-|:-----------|:--------|
-| domains    | void 0  |
-| articles   | new Set |
-
 ```internal process
 # Error
-{[o.sj.AMPLIFY]:{"conversionHandler":"()"{"cardId":"e","cardType":"t","converterOptions":"i","data":"n"}{"const r=()(0,s.FL)",l=parseInt(n,\"image_value\",\"player_image_original\")/parseInt(0,s.SIn,\"string_value\",\"player_width\",10),d=(0,s.SIn,\"string_value\",\"player_height\",10)(0,s.SI),c=(n,...
+{[o.sj.AMPLIFY]:{"conversionHandler":"()"{"cardId":"e","cardType":"t","converterOptions":"a","data":"i"}{"const s=()(0,r.FL)",d=parseInt(i,\"image_value\",\"player_image_original\")/parseInt(0,r.SIi,\"string_value\",\"player_width\",10),l=(0,r.SIi,\"string_value\",\"player_height\",10)(0,r.SI),_=(i,...
 ```
 | constant     | value             |
 |:-------------|:------------------|
@@ -6335,22 +6311,24 @@ This document is entirely auto-generated and may contain errors.<br>
 | superFollowsYou | plum700 |
 | superFollower   | plum700 |
 
-| constant   | value   |
-|:-----------|:--------|
-| MEDIA      | Media   |
-| GIFS       | GIFs    |
-| TWEETS     | Tweets  |
-
-| constant   | value     |
-|:-----------|:----------|
-| ALL        | All       |
-| DRAFTS     | Drafts    |
-| PUBLISHED  | Published |
-
 | constant   | value                                                                                                                |
 |:-----------|:---------------------------------------------------------------------------------------------------------------------|
 | apple      | https://apps.apple.com/account/billing                                                                               |
 | google     | https://play.google.com/store/account/subscriptions?sku=com.twitter.google.rogue.one.1.1&package=com.twitter.android |
+
+| constant   | value      |
+|:-----------|:-----------|
+| primary0   | primary    |
+| blue0      | blue500    |
+| green0     | green500   |
+| magenta0   | magenta500 |
+| orange0    | orange500  |
+| plum0      | plum500    |
+| purple0    | purple500  |
+| red0       | red500     |
+| teal0      | teal500    |
+| yellow0    | yellow500  |
+| gray0      | gray500    |
 
 | constant   | value   |
 |:-----------|:--------|
@@ -6358,6 +6336,20 @@ This document is entirely auto-generated and may contain errors.<br>
 | Live       | Live    |
 | Sandbox    | Sandbox |
 | Test       | Test    |
+
+| constant   | value      |
+|:-----------|:-----------|
+| primary0   | primary    |
+| blue0      | blue500    |
+| green0     | green500   |
+| magenta0   | magenta500 |
+| orange0    | orange500  |
+| plum0      | plum500    |
+| purple0    | purple500  |
+| red0       | red500     |
+| teal0      | teal500    |
+| yellow0    | yellow500  |
+| gray0      | gray500    |
 
 | constant   | value       |
 |:-----------|:------------|
@@ -6473,38 +6465,6 @@ This document is entirely auto-generated and may contain errors.<br>
 | START      | start   |
 | END        | end     |
 
-| constant   | value      |
-|:-----------|:-----------|
-| GIF        | TweetGif   |
-| IMAGE      | TweetImage |
-| VIDEO      | TweetVideo |
-
-| constant   | value     |
-|:-----------|:----------|
-| DRAFT      | Draft     |
-| PUBLISHED  | Published |
-
-| constant   | value       |
-|:-----------|:------------|
-| DRAFT      | o.DRAFT     |
-| PUBLISHED  | o.PUBLISHED |
-| ALL        | void 0      |
-
-| constant   | value   |
-|:-----------|:--------|
-| MEDIA      | MEDIA   |
-| TWEET      | TWEET   |
-
-| constant   | value     |
-|:-----------|:----------|
-| IMMUTABLE  | IMMUTABLE |
-
-| constant             | value                |
-|:---------------------|:---------------------|
-| TWITTER_ARTICLES_TAB | TWITTER_ARTICLES_TAB |
-| TWITTER_ARTICLE_VIEW | TWITTER_ARTICLE_VIEW |
-| LONGFORM_COMPOSER    | LONGFORM_COMPOSER    |
-
 | constant     | value               |
 |:-------------|:--------------------|
 | default      | tweets              |
@@ -6578,6 +6538,11 @@ This document is entirely auto-generated and may contain errors.<br>
 |:-----------|:----------|
 | Affiliate  | Affiliate |
 
+| constant   |   value |
+|:-----------|--------:|
+| INACTIVE   |       0 |
+| ACTIVE     |      10 |
+
 | constant    | value       |
 |:------------|:------------|
 | ACCOUNTS    | Accounts    |
@@ -6597,7 +6562,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | constant    | value     |
 |:------------|:----------|
 | fetchStatus | k.ZP.NONE |
-| config      | Re        |
+| config      | Be        |
 
 | constant              | value                 |
 |:----------------------|:----------------------|
@@ -6618,11 +6583,6 @@ This document is entirely auto-generated and may contain errors.<br>
 # Error
 {[b.hA.generate]:"m().dca6b3ac",[b.hA.updateSeats]:"m().c97ad52a"}
 ```
-| constant   |   value |
-|:-----------|--------:|
-| INACTIVE   |       0 |
-| ACTIVE     |      10 |
-
 ```internal process
 # Error
 {[C.hA.generate]:"b().fc1f43d0",[C.hA.updateSeats]:"b().c97ad52a"}
@@ -6725,17 +6685,17 @@ This document is entirely auto-generated and may contain errors.<br>
 ```
 | constant      | value        |
 |:--------------|:-------------|
-| superFollower | m().fc065ee4 |
+| superFollower | u().fc065ee4 |
 
 | constant      | value                                                                                                                                                                                                                                    |
 |:--------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| superFollower | {'graphic': 'u.default', 'headline': 'm().e453f536', 'subtext': 'm().dea63fc4', 'actionLabel': 'm().g7099a02', 'actionLink': 'https://help.twitter.com/en/using-twitter/super-follows#sfexpect', 'secondaryActionLabel': 'm().c2637ef6'} |
+| superFollower | {'graphic': 'm.default', 'headline': 'u().e453f536', 'subtext': 'u().dea63fc4', 'actionLabel': 'u().g7099a02', 'actionLink': 'https://help.twitter.com/en/using-twitter/super-follows#sfexpect', 'secondaryActionLabel': 'u().c2637ef6'} |
 
 | constant        | value        |
 |:----------------|:-------------|
-| followsYou      | m().efb17190 |
-| superFollowsYou | m().g57b5f6c |
-| superFollower   | m().a77a27c0 |
+| followsYou      | u().efb17190 |
+| superFollowsYou | u().g57b5f6c |
+| superFollower   | u().a77a27c0 |
 
 | constant        | value   |
 |:----------------|:--------|
@@ -7046,17 +7006,17 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant      | value        |
 |:--------------|:-------------|
-| superFollower | p().fc065ee4 |
+| superFollower | u().fc065ee4 |
 
 | constant      | value                                                                                                                                                                                                                                    |
 |:--------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| superFollower | {'graphic': 'u.default', 'headline': 'p().e453f536', 'subtext': 'p().dea63fc4', 'actionLabel': 'p().g7099a02', 'actionLink': 'https://help.twitter.com/en/using-twitter/super-follows#sfexpect', 'secondaryActionLabel': 'p().c2637ef6'} |
+| superFollower | {'graphic': 'p.default', 'headline': 'u().e453f536', 'subtext': 'u().dea63fc4', 'actionLabel': 'u().g7099a02', 'actionLink': 'https://help.twitter.com/en/using-twitter/super-follows#sfexpect', 'secondaryActionLabel': 'u().c2637ef6'} |
 
 | constant        | value        |
 |:----------------|:-------------|
-| followsYou      | p().efb17190 |
-| superFollowsYou | p().g57b5f6c |
-| superFollower   | p().a77a27c0 |
+| followsYou      | u().efb17190 |
+| superFollowsYou | u().g57b5f6c |
+| superFollower   | u().a77a27c0 |
 
 | constant        | value   |
 |:----------------|:--------|
@@ -7155,17 +7115,17 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant      | value        |
 |:--------------|:-------------|
-| superFollower | u().fc065ee4 |
+| superFollower | m().fc065ee4 |
 
 | constant      | value                                                                                                                                                                                                                                    |
 |:--------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| superFollower | {'graphic': 'p.default', 'headline': 'u().e453f536', 'subtext': 'u().dea63fc4', 'actionLabel': 'u().g7099a02', 'actionLink': 'https://help.twitter.com/en/using-twitter/super-follows#sfexpect', 'secondaryActionLabel': 'u().c2637ef6'} |
+| superFollower | {'graphic': 'p.default', 'headline': 'm().e453f536', 'subtext': 'm().dea63fc4', 'actionLabel': 'm().g7099a02', 'actionLink': 'https://help.twitter.com/en/using-twitter/super-follows#sfexpect', 'secondaryActionLabel': 'm().c2637ef6'} |
 
 | constant        | value        |
 |:----------------|:-------------|
-| followsYou      | u().efb17190 |
-| superFollowsYou | u().g57b5f6c |
-| superFollower   | u().a77a27c0 |
+| followsYou      | m().efb17190 |
+| superFollowsYou | m().g57b5f6c |
+| superFollower   | m().a77a27c0 |
 
 | constant        | value   |
 |:----------------|:--------|
@@ -7212,7 +7172,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{[o.sj.AMPLIFY]:{"conversionHandler":"()"{"cardId":"e","cardType":"t","converterOptions":"n","data":"i"}{"const s=()(0,r.FL)",d=parseInt(i,\"image_value\",\"player_image_original\")/parseInt(0,r.SIi,\"string_value\",\"player_width\",10),l=(0,r.SIi,\"string_value\",\"player_height\",10)(0,r.SI),_=(i,...
+{[o.sj.AMPLIFY]:{"conversionHandler":"()"{"cardId":"e","cardType":"t","converterOptions":"i","data":"n"}{"const s=()(0,r.FL)",d=parseInt(n,\"image_value\",\"player_image_original\")/parseInt(0,r.SIn,\"string_value\",\"player_width\",10),l=(0,r.SIn,\"string_value\",\"player_height\",10)(0,r.SI),_=(n,...
 ```
 | constant       | value          |
 |:---------------|:---------------|
