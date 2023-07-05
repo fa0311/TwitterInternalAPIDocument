@@ -1039,3 +1039,14 @@
 - responsive_web_twitter_article_v2_apis_enabled<br>
 #### remove<br>
 - None<br>
+## 2023/07/05<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- responsive_web_twitter_article_title_limit<br>
+#### remove<br>
+- None<br>
