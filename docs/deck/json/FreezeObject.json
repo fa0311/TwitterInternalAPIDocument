@@ -2408,7 +2408,6 @@
     "userAvatarLabel": "!1",
     "canVerifiedCrawlerConsumeSensitiveMedia": "!1",
     "shouldUseLocaleContextDirection": "!1",
-    "isLinkedSearchExperimentEnabled": "!1",
     "blueBusinessVerifiedBadgeEnabled": "!1",
     "blueBusinessAffiliateBadgeEnabled": "!1",
     "blueGovernmentVerifiedBadgeEnabled": "!1",
@@ -5206,7 +5205,7 @@
     "SUCCESS": "rweb/safetyMode/FETCH_SAFETY_MODE_SETTINGS_SUCCESS",
     "FAILURE": "rweb/safetyMode/FETCH_SAFETY_MODE_SETTINGS_FAILURE"
   },
-  "{[x.ActionedTweets]:{\"backLocation\":\"A\",\"confirmationSheetHeadline\":\"()(0,o.X_)\"{\"screenName\":\"m\"}{\"screenName\":\"m\"}},[x.PreviewFlaggedTweets]:{\"backLocation\":\"I\",\"confirmationSheetHeadline\":\"Z()\"{\"screenName\":\"m\"}{\"screenName\":\"m\"}}}",
+  "{[I.ActionedTweets]:{\"backLocation\":\"A\",\"confirmationSheetHeadline\":\"()(0,o.X_)\"{\"screenName\":\"m\"}{\"screenName\":\"m\"}},[I.PreviewFlaggedTweets]:{\"backLocation\":\"x\",\"confirmationSheetHeadline\":\"Z()\"{\"screenName\":\"m\"}{\"screenName\":\"m\"}}}",
   {
     "ActionedTweets": "actioned_tweets",
     "PreviewFlaggedTweets": "preview_flagged_tweets"
@@ -5369,8 +5368,7 @@
   {
     "COMPOSE_MESSAGE": "0",
     "CREATE_GROUP": "1",
-    "SHARE_TWEET": "2",
-    "SHARE_TWEET_INDIVIDUALLY": "3"
+    "SHARE_TWEET_INDIVIDUALLY": "2"
   },
   {
     "single_line": "singleline",
@@ -6023,10 +6021,10 @@
     "highlights": "highlights_tweets"
   },
   "{\"default\":\"()\"{\"screenName\":\"e\"}{\"screenName\":\"e\"}{\"screenName\":\"e\"}{\"screenName\":\"e\"}{\"screenName\":\"e\"}{\"screenName\":\"e\"}{\"screenName\":\"e\"}{\"screenName\":\"e\"}}",
-  "{\"default\":()=>r().g784d3c6,\"with_replies\":()=>r().g784d3c6,\"superfollows\":()=>r().ce659062,\"highlights\":()=>r().f1e98cc2}",
-  "{\"default\":()=>r().d1e5e328,\"with_replies\":()=>r().d1e5e328,\"superfollows\":()=>r().bb3406a6,\"highlights\":()=>r().b7c3572e}",
+  "{\"default\":()=>s().g784d3c6,\"with_replies\":()=>s().g784d3c6,\"superfollows\":()=>s().ce659062,\"highlights\":()=>s().f1e98cc2}",
+  "{\"default\":()=>s().d1e5e328,\"with_replies\":()=>s().d1e5e328,\"superfollows\":()=>s().bb3406a6,\"highlights\":()=>s().b7c3572e}",
   "{\"default\":\"()\"{\"screenName\":\"e\"}{\"screenName\":\"e\"}{\"screenName\":\"e\"}{\"screenName\":\"e\"}{\"screenName\":\"e\"}{\"screenName\":\"e\"}}",
-  "{\"default\":()=>r().e4f9514c,\"with_replies\":()=>r().e4f9514c,\"superfollows\":()=>r().cb59ea14}",
+  "{\"default\":()=>s().e4f9514c,\"with_replies\":()=>s().e4f9514c,\"superfollows\":()=>s().cb59ea14}",
   "{\"default\":\"()\"{\"fullName\":\"e\"}{\"fullName\":\"e\"}{\"fullName\":\"e\"}{\"fullName\":\"e\"}{\"fullName\":\"e\"}{\"fullName\":\"e\"}{\"fullName\":\"e\"}{\"fullName\":\"e\"}}",
   "{\"default\":\"()\"{\"fullName\":\"e\",\"screenName\":\"n\"}{\"fullName\":\"e\",\"screenName\":\"n\"}{\"fullName\":\"e\",\"screenName\":\"n\"}{\"fullName\":\"e\",\"screenName\":\"n\"}{\"fullName\":\"e\",\"screenName\":\"n\"}{\"fullName\":\"e\",\"screenName\":\"n\"}{\"fullName\":\"e\",\"screenName\":\"n\"}{\"fullName\":\"e\",\"screenName\":\"n\"}}",
   {

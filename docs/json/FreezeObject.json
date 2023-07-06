@@ -153,7 +153,7 @@
     "AudioModule": "AudioModule"
   },
   {
-    "...ds": "_",
+    "...Ru": "_",
     "ColumnFromPath": "ColumnFromPath",
     "ColumnTimelineAdapter": "ColumnTimelineAdapter"
   },
@@ -1792,7 +1792,6 @@
     "userAvatarLabel": "!1",
     "canVerifiedCrawlerConsumeSensitiveMedia": "!1",
     "shouldUseLocaleContextDirection": "!1",
-    "isLinkedSearchExperimentEnabled": "!1",
     "blueBusinessVerifiedBadgeEnabled": "!1",
     "blueBusinessAffiliateBadgeEnabled": "!1",
     "blueGovernmentVerifiedBadgeEnabled": "!1",
@@ -4875,9 +4874,9 @@
     "following": "following",
     "none": "none"
   },
-  "{\"root\":`${\"l\"}/application`,\"eligibility\":`${\"l\"}/application/eligibility`,\"pricing\":`${\"l\"}/application/pricing`,\"completeProfile\":`${\"l\"}/application/complete_profile`,\"submit\":`${\"l\"}/application/submit`,\"submitted\":`${\"l\"}/application/submitted`,\"waitlisted\":`${\"l\"}/application/waitlisted`,\"rejected\":`${\"l\"}/application/rejected`}",
-  "{\"root\":`${\"l\"}/onboarding`,\"perksIntro\":`${\"l\"}/onboarding/perks_intro`,\"perksDescription\":`${\"l\"}/onboarding/perks_description`,\"perksBadges\":`${\"l\"}/onboarding/perks_badges`,\"perksConfirm\":`${\"l\"}/onboarding/perks_confirm`,\"pricing\":`${\"l\"}/onboarding/pricing`,\"pricingConfirm\":`${\"l\"}/onboarding/pricing_confirm`,\"stripeSetup\":`${\"l\"}/onboarding/stripe_setup`,\"stripePending\":`${\"l\"}/onboarding/stripe_pending`,\"stripeCompleted\":`${\"l\"}/onboarding/stripe_completed`}",
-  "{\"root\":`${\"l\"}/management`,\"perksIntro\":`${\"l\"}/management/perks_intro`,\"perksDescription\":`${\"l\"}/management/perks_description`,\"perksConfirm\":`${\"l\"}/management/perks_confirm`}",
+  "{\"root\":`${\"i\"}/application`,\"eligibility\":`${\"i\"}/application/eligibility`,\"pricing\":`${\"i\"}/application/pricing`,\"completeProfile\":`${\"i\"}/application/complete_profile`,\"submit\":`${\"i\"}/application/submit`,\"submitted\":`${\"i\"}/application/submitted`,\"waitlisted\":`${\"i\"}/application/waitlisted`,\"rejected\":`${\"i\"}/application/rejected`}",
+  "{\"root\":`${\"i\"}/onboarding`,\"perksIntro\":`${\"i\"}/onboarding/perks_intro`,\"perksDescription\":`${\"i\"}/onboarding/perks_description`,\"perksBadges\":`${\"i\"}/onboarding/perks_badges`,\"perksConfirm\":`${\"i\"}/onboarding/perks_confirm`,\"pricing\":`${\"i\"}/onboarding/pricing`,\"pricingConfirm\":`${\"i\"}/onboarding/pricing_confirm`,\"stripeSetup\":`${\"i\"}/onboarding/stripe_setup`,\"stripePending\":`${\"i\"}/onboarding/stripe_pending`,\"stripeCompleted\":`${\"i\"}/onboarding/stripe_completed`}",
+  "{\"root\":`${\"i\"}/management`,\"perksIntro\":`${\"i\"}/management/perks_intro`,\"perksDescription\":`${\"i\"}/management/perks_description`,\"perksConfirm\":`${\"i\"}/management/perks_confirm`}",
   {
     "REQUEST": "rweb/accountTaxonomy/FETCH_USER_ACCOUNT_LABEL_REQUEST",
     "SUCCESS": "rweb/accountTaxonomy/FETCH_USER_ACCOUNT_LABEL_SUCCESS",
@@ -4992,8 +4991,7 @@
   {
     "COMPOSE_MESSAGE": "0",
     "CREATE_GROUP": "1",
-    "SHARE_TWEET": "2",
-    "SHARE_TWEET_INDIVIDUALLY": "3"
+    "SHARE_TWEET_INDIVIDUALLY": "2"
   },
   {
     "single_line": "singleline",
@@ -5585,10 +5583,10 @@
     "highlights": "highlights_tweets"
   },
   "{\"default\":\"()\"{\"screenName\":\"e\"}{\"screenName\":\"e\"}{\"screenName\":\"e\"}{\"screenName\":\"e\"}{\"screenName\":\"e\"}{\"screenName\":\"e\"}{\"screenName\":\"e\"}{\"screenName\":\"e\"}}",
-  "{\"default\":()=>s().g784d3c6,\"with_replies\":()=>s().g784d3c6,\"superfollows\":()=>s().ce659062,\"highlights\":()=>s().f1e98cc2}",
-  "{\"default\":()=>s().d1e5e328,\"with_replies\":()=>s().d1e5e328,\"superfollows\":()=>s().bb3406a6,\"highlights\":()=>s().b7c3572e}",
+  "{\"default\":()=>t().g784d3c6,\"with_replies\":()=>t().g784d3c6,\"superfollows\":()=>t().ce659062,\"highlights\":()=>t().f1e98cc2}",
+  "{\"default\":()=>t().d1e5e328,\"with_replies\":()=>t().d1e5e328,\"superfollows\":()=>t().bb3406a6,\"highlights\":()=>t().b7c3572e}",
   "{\"default\":\"()\"{\"screenName\":\"e\"}{\"screenName\":\"e\"}{\"screenName\":\"e\"}{\"screenName\":\"e\"}{\"screenName\":\"e\"}{\"screenName\":\"e\"}}",
-  "{\"default\":()=>s().e4f9514c,\"with_replies\":()=>s().e4f9514c,\"superfollows\":()=>s().cb59ea14}",
+  "{\"default\":()=>t().e4f9514c,\"with_replies\":()=>t().e4f9514c,\"superfollows\":()=>t().cb59ea14}",
   "{\"default\":\"()\"{\"fullName\":\"e\"}{\"fullName\":\"e\"}{\"fullName\":\"e\"}{\"fullName\":\"e\"}{\"fullName\":\"e\"}{\"fullName\":\"e\"}{\"fullName\":\"e\"}{\"fullName\":\"e\"}}",
   "{\"default\":\"()\"{\"fullName\":\"e\",\"screenName\":\"n\"}{\"fullName\":\"e\",\"screenName\":\"n\"}{\"fullName\":\"e\",\"screenName\":\"n\"}{\"fullName\":\"e\",\"screenName\":\"n\"}{\"fullName\":\"e\",\"screenName\":\"n\"}{\"fullName\":\"e\",\"screenName\":\"n\"}{\"fullName\":\"e\",\"screenName\":\"n\"}{\"fullName\":\"e\",\"screenName\":\"n\"}}",
   {
