@@ -2591,7 +2591,6 @@ This document is entirely auto-generated and may contain errors.<br>
 | userAvatarLabel                           | False   |
 | canVerifiedCrawlerConsumeSensitiveMedia   | False   |
 | shouldUseLocaleContextDirection           | False   |
-| isLinkedSearchExperimentEnabled           | False   |
 | blueBusinessVerifiedBadgeEnabled          | False   |
 | blueBusinessAffiliateBadgeEnabled         | False   |
 | blueGovernmentVerifiedBadgeEnabled        | False   |
@@ -5583,7 +5582,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{[x.ActionedTweets]:{"backLocation":"A","confirmationSheetHeadline":"()(0,o.X_)"{"screenName":"m"}{"screenName":"m"}},[x.PreviewFlaggedTweets]:{"backLocation":"I","confirmationSheetHeadline":"Z()"{"screenName":"m"}{"screenName":"m"}}}
+{[I.ActionedTweets]:{"backLocation":"A","confirmationSheetHeadline":"()(0,o.X_)"{"screenName":"m"}{"screenName":"m"}},[I.PreviewFlaggedTweets]:{"backLocation":"x","confirmationSheetHeadline":"Z()"{"screenName":"m"}{"screenName":"m"}}}
 ```
 | constant             | value                  |
 |:---------------------|:-----------------------|
@@ -5769,8 +5768,7 @@ This document is entirely auto-generated and may contain errors.<br>
 |:-------------------------|--------:|
 | COMPOSE_MESSAGE          |       0 |
 | CREATE_GROUP             |       1 |
-| SHARE_TWEET              |       2 |
-| SHARE_TWEET_INDIVIDUALLY |       3 |
+| SHARE_TWEET_INDIVIDUALLY |       2 |
 
 | constant      | value         |
 |:--------------|:--------------|
@@ -6478,11 +6476,11 @@ This document is entirely auto-generated and may contain errors.<br>
 ```
 ```internal process
 # Error
-{"default":()=>r().g784d3c6,"with_replies":()=>r().g784d3c6,"superfollows":()=>r().ce659062,"highlights":()=>r().f1e98cc2}
+{"default":()=>s().g784d3c6,"with_replies":()=>s().g784d3c6,"superfollows":()=>s().ce659062,"highlights":()=>s().f1e98cc2}
 ```
 ```internal process
 # Error
-{"default":()=>r().d1e5e328,"with_replies":()=>r().d1e5e328,"superfollows":()=>r().bb3406a6,"highlights":()=>r().b7c3572e}
+{"default":()=>s().d1e5e328,"with_replies":()=>s().d1e5e328,"superfollows":()=>s().bb3406a6,"highlights":()=>s().b7c3572e}
 ```
 ```internal process
 # Error
@@ -6490,7 +6488,7 @@ This document is entirely auto-generated and may contain errors.<br>
 ```
 ```internal process
 # Error
-{"default":()=>r().e4f9514c,"with_replies":()=>r().e4f9514c,"superfollows":()=>r().cb59ea14}
+{"default":()=>s().e4f9514c,"with_replies":()=>s().e4f9514c,"superfollows":()=>s().cb59ea14}
 ```
 ```internal process
 # Error
