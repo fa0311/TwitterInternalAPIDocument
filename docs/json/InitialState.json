@@ -3420,13 +3420,13 @@
           "value": ""
         },
         "gryphon_timeline_polling_latest_interval_ms": {
-          "value": "15000"
+          "value": "30000"
         },
         "gryphon_timeline_polling_overrides": {
           "value": "explore,,60000"
         },
         "gryphon_timeline_polling_top_interval_ms": {
-          "value": "60000"
+          "value": "90000"
         },
         "gryphon_user_role": {
           "value": ""
@@ -5313,7 +5313,7 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "4babf97219b83a3d3635c934fdba8a1a"
+      "settingsVersion": "71fced883c5d75cb6868f6b4f76b6fd4"
     },
     "debug": {},
     "featureSetToken": "7faaed0da44e42c5e07eaf4423993f22fef192e6",
@@ -5386,7 +5386,7 @@
     "country": "US",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "168867766088904420",
+    "guestId": "168876403325068635",
     "hasCommunityMemberships": "false",
     "language": "en",
     "oneFactorLoginEligibility": {
