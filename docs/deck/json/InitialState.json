@@ -3430,13 +3430,13 @@
           "value": ""
         },
         "gryphon_timeline_polling_latest_interval_ms": {
-          "value": "15000"
+          "value": "30000"
         },
         "gryphon_timeline_polling_overrides": {
           "value": "explore,,60000"
         },
         "gryphon_timeline_polling_top_interval_ms": {
-          "value": "60000"
+          "value": "90000"
         },
         "gryphon_user_role": {
           "value": ""
@@ -5321,7 +5321,7 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "75abf57dbf7b08b2b49c608f52f5ba97"
+      "settingsVersion": "3fe1e3662d0fcc2ea5454f5c1026f187"
     },
     "debug": {},
     "featureSetToken": "7faaed0da44e42c5e07eaf4423993f22fef192e6",
@@ -5394,7 +5394,7 @@
     "country": "US",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "168867799659964698",
+    "guestId": "168876435642752549",
     "hasCommunityMemberships": "false",
     "language": "en",
     "oneFactorLoginEligibility": {
@@ -5434,6 +5434,12 @@
   "developer": {
     "dtabBarInfo": {
       "hide": "false"
+    }
+  },
+  "ads": {
+    "typeahead": {
+      "targetingLocation": {},
+      "forecastAudience": {}
     }
   }
 }
