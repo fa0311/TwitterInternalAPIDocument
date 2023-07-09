@@ -110,11 +110,6 @@
       "entities": {},
       "errors": {},
       "fetchStatus": {}
-    },
-    "translationsProfiles": {
-      "entities": {},
-      "errors": {},
-      "fetchStatus": {}
     }
   },
   "featureSwitch": {
@@ -4547,7 +4542,7 @@
           "value": "false"
         },
         "rweb_client_transaction_id_enabled": {
-          "value": "true"
+          "value": "false"
         },
         "rweb_enable_logged_out_search_search_bar_enabled": {
           "value": "false"
@@ -5318,7 +5313,7 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "cc1c09f36d66d2a55239180213c1dd7b"
+      "settingsVersion": "71fced883c5d75cb6868f6b4f76b6fd4"
     },
     "debug": {},
     "featureSetToken": "7faaed0da44e42c5e07eaf4423993f22fef192e6",
@@ -5391,7 +5386,7 @@
     "country": "US",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "168885042052752848",
+    "guestId": "168893682334058867",
     "hasCommunityMemberships": "false",
     "language": "en",
     "oneFactorLoginEligibility": {
@@ -5402,6 +5397,12 @@
   "developer": {
     "dtabBarInfo": {
       "hide": "false"
+    }
+  },
+  "ads": {
+    "typeahead": {
+      "targetingLocation": {},
+      "forecastAudience": {}
     }
   }
 }
