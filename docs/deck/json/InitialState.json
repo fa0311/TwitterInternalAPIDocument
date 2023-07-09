@@ -3406,7 +3406,7 @@
           "value": "true"
         },
         "gryphon_optout_in_settings": {
-          "value": "false"
+          "value": "true"
         },
         "gryphon_redux_perf_optimization_enabled": {
           "value": "true"
@@ -5321,7 +5321,7 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "3fe1e3662d0fcc2ea5454f5c1026f187"
+      "settingsVersion": "1bc1bfa646e927b215a8410910073656"
     },
     "debug": {},
     "featureSetToken": "7faaed0da44e42c5e07eaf4423993f22fef192e6",
@@ -5394,7 +5394,7 @@
     "country": "US",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "168876435642752549",
+    "guestId": "168885075568715962",
     "hasCommunityMemberships": "false",
     "language": "en",
     "oneFactorLoginEligibility": {
@@ -5434,12 +5434,6 @@
   "developer": {
     "dtabBarInfo": {
       "hide": "false"
-    }
-  },
-  "ads": {
-    "typeahead": {
-      "targetingLocation": {},
-      "forecastAudience": {}
     }
   }
 }
