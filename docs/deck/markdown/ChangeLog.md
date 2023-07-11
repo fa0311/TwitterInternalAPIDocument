@@ -441,3 +441,24 @@
 - responsive_web_vs_config_resize_observer_enabled<br>
 - subscriptions_feature_labs_1001<br>
 - topics_discovery_page_enabled<br>
+## 2023/07/11<br>
+### API<br>
+#### add<br>
+- ArticleEntityPublish<br>
+- ArticleEntityUpdateTitle<br>
+- ArticleEntityPublish<br>
+- ArticleEntityUpdateTitle<br>
+- HiddenSubscriptionsSettingsMutation<br>
+- HiddenSubscriptionsSettingsQuery<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- hidden_profile_subscriptions_enabled<br>
+- hidden_profile_subscriptions_settings_enabled<br>
+- responsive_web_verified_organizations_free_to_invoice_enabled<br>
+- responsive_web_verified_organizations_paid_to_invoice_enabled<br>
+- rweb_2_column_htl_prototype_virtual_scroller_enabled<br>
+#### remove<br>
+- responsive_web_mixed_media_composition_enabled<br>
+- responsive_web_mixed_media_consumption_enabled<br>
