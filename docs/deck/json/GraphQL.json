@@ -1750,8 +1750,39 @@
   {
     "n": "47937",
     "exports": {
-      "queryId": "TBUwnqPK6LmPOv1oAeVkvA",
+      "queryId": "TwePpOYa7dY5lAD1wmNfRQ",
       "operationName": "ArticleEntityDraftCreate",
+      "operationType": "mutation",
+      "metadata": {
+        "featureSwitches": [
+          "responsive_web_graphql_exclude_directive_enabled",
+          "verified_phone_label_enabled",
+          "responsive_web_graphql_skip_user_profile_image_extensions_enabled",
+          "responsive_web_graphql_timeline_navigation_enabled"
+        ],
+        "fieldToggles": [],
+        "featureSwitch": {
+          "responsive_web_graphql_exclude_directive_enabled": {
+            "value": "true"
+          },
+          "verified_phone_label_enabled": {
+            "value": "false"
+          },
+          "responsive_web_graphql_skip_user_profile_image_extensions_enabled": {
+            "value": "false"
+          },
+          "responsive_web_graphql_timeline_navigation_enabled": {
+            "value": "true"
+          }
+        }
+      }
+    }
+  },
+  {
+    "n": "95861",
+    "exports": {
+      "queryId": "eJD-b-ZugfWDyjJULgFbQw",
+      "operationName": "ArticleEntityPublish",
       "operationType": "mutation",
       "metadata": {
         "featureSwitches": [
@@ -1781,8 +1812,39 @@
   {
     "n": "96386",
     "exports": {
-      "queryId": "KXqBm7ujhIiMkt2ntyFBRQ",
+      "queryId": "cM1oiuxB30esc1PLu39F1g",
       "operationName": "ArticleEntityUpdateContent",
+      "operationType": "mutation",
+      "metadata": {
+        "featureSwitches": [
+          "responsive_web_graphql_exclude_directive_enabled",
+          "verified_phone_label_enabled",
+          "responsive_web_graphql_skip_user_profile_image_extensions_enabled",
+          "responsive_web_graphql_timeline_navigation_enabled"
+        ],
+        "fieldToggles": [],
+        "featureSwitch": {
+          "responsive_web_graphql_exclude_directive_enabled": {
+            "value": "true"
+          },
+          "verified_phone_label_enabled": {
+            "value": "false"
+          },
+          "responsive_web_graphql_skip_user_profile_image_extensions_enabled": {
+            "value": "false"
+          },
+          "responsive_web_graphql_timeline_navigation_enabled": {
+            "value": "true"
+          }
+        }
+      }
+    }
+  },
+  {
+    "n": "36877",
+    "exports": {
+      "queryId": "Ac-ndS_MiJiz4FgiqQ2HPQ",
+      "operationName": "ArticleEntityUpdateTitle",
       "operationType": "mutation",
       "metadata": {
         "featureSwitches": [
@@ -2212,13 +2274,19 @@
   {
     "n": "64497",
     "exports": {
-      "queryId": "GAjIlojf2Zsrl2dmwUzETg",
+      "queryId": "uAOtY5wHBEZE1LOhxzFvkQ",
       "operationName": "BirdwatchFetchCanTweetBeMediaNote",
       "operationType": "query",
       "metadata": {
-        "featureSwitches": [],
+        "featureSwitches": [
+          "responsive_web_birdwatch_media_notes_enabled"
+        ],
         "fieldToggles": [],
-        "featureSwitch": {}
+        "featureSwitch": {
+          "responsive_web_birdwatch_media_notes_enabled": {
+            "value": "true"
+          }
+        }
       }
     }
   },
@@ -2714,14 +2782,11 @@
         "featureSwitch": {}
       }
     },
-    "func_name": "A",
+    "func_name": "E",
     "func_name_init": "T",
     "query": {
-      "userId": "l",
-      "count": "n",
-      "cursor": "i",
-      "includePromotedContent": "!1",
-      "...()(0,o.d)": "_"
+      "listId": "l",
+      "...a": "_"
     }
   },
   {
@@ -19275,12 +19340,13 @@
   {
     "n": "88441",
     "exports": {
-      "queryId": "Lxg1V9AiIzzXEiP2c8dRnw",
+      "queryId": "S9mANwp62gTpw9j02v6NnQ",
       "operationName": "UserByRestId",
       "operationType": "query",
       "metadata": {
         "featureSwitches": [
           "hidden_profile_likes_enabled",
+          "hidden_profile_subscriptions_enabled",
           "responsive_web_graphql_exclude_directive_enabled",
           "verified_phone_label_enabled",
           "highlights_tweets_tab_ui_enabled",
@@ -19291,6 +19357,9 @@
         "fieldToggles": [],
         "featureSwitch": {
           "hidden_profile_likes_enabled": {
+            "value": "false"
+          },
+          "hidden_profile_subscriptions_enabled": {
             "value": "false"
           },
           "responsive_web_graphql_exclude_directive_enabled": {
@@ -19318,12 +19387,13 @@
   {
     "n": "44538",
     "exports": {
-      "queryId": "oUZZZ8Oddwxs8Cd3iW3UEA",
+      "queryId": "-c-UsNrqZVyM84KoRToO6A",
       "operationName": "UserByScreenName",
       "operationType": "query",
       "metadata": {
         "featureSwitches": [
           "hidden_profile_likes_enabled",
+          "hidden_profile_subscriptions_enabled",
           "responsive_web_graphql_exclude_directive_enabled",
           "verified_phone_label_enabled",
           "subscriptions_verification_info_verified_since_enabled",
@@ -19335,6 +19405,9 @@
         "fieldToggles": [],
         "featureSwitch": {
           "hidden_profile_likes_enabled": {
+            "value": "false"
+          },
+          "hidden_profile_subscriptions_enabled": {
             "value": "false"
           },
           "responsive_web_graphql_exclude_directive_enabled": {
@@ -19614,8 +19687,39 @@
   {
     "n": "47937",
     "exports": {
-      "queryId": "TBUwnqPK6LmPOv1oAeVkvA",
+      "queryId": "TwePpOYa7dY5lAD1wmNfRQ",
       "operationName": "ArticleEntityDraftCreate",
+      "operationType": "mutation",
+      "metadata": {
+        "featureSwitches": [
+          "responsive_web_graphql_exclude_directive_enabled",
+          "verified_phone_label_enabled",
+          "responsive_web_graphql_skip_user_profile_image_extensions_enabled",
+          "responsive_web_graphql_timeline_navigation_enabled"
+        ],
+        "fieldToggles": [],
+        "featureSwitch": {
+          "responsive_web_graphql_exclude_directive_enabled": {
+            "value": "true"
+          },
+          "verified_phone_label_enabled": {
+            "value": "false"
+          },
+          "responsive_web_graphql_skip_user_profile_image_extensions_enabled": {
+            "value": "false"
+          },
+          "responsive_web_graphql_timeline_navigation_enabled": {
+            "value": "true"
+          }
+        }
+      }
+    }
+  },
+  {
+    "n": "95861",
+    "exports": {
+      "queryId": "eJD-b-ZugfWDyjJULgFbQw",
+      "operationName": "ArticleEntityPublish",
       "operationType": "mutation",
       "metadata": {
         "featureSwitches": [
@@ -19645,8 +19749,39 @@
   {
     "n": "96386",
     "exports": {
-      "queryId": "KXqBm7ujhIiMkt2ntyFBRQ",
+      "queryId": "cM1oiuxB30esc1PLu39F1g",
       "operationName": "ArticleEntityUpdateContent",
+      "operationType": "mutation",
+      "metadata": {
+        "featureSwitches": [
+          "responsive_web_graphql_exclude_directive_enabled",
+          "verified_phone_label_enabled",
+          "responsive_web_graphql_skip_user_profile_image_extensions_enabled",
+          "responsive_web_graphql_timeline_navigation_enabled"
+        ],
+        "fieldToggles": [],
+        "featureSwitch": {
+          "responsive_web_graphql_exclude_directive_enabled": {
+            "value": "true"
+          },
+          "verified_phone_label_enabled": {
+            "value": "false"
+          },
+          "responsive_web_graphql_skip_user_profile_image_extensions_enabled": {
+            "value": "false"
+          },
+          "responsive_web_graphql_timeline_navigation_enabled": {
+            "value": "true"
+          }
+        }
+      }
+    }
+  },
+  {
+    "n": "36877",
+    "exports": {
+      "queryId": "Ac-ndS_MiJiz4FgiqQ2HPQ",
+      "operationName": "ArticleEntityUpdateTitle",
       "operationType": "mutation",
       "metadata": {
         "featureSwitches": [
@@ -20296,13 +20431,19 @@
   {
     "n": "64497",
     "exports": {
-      "queryId": "GAjIlojf2Zsrl2dmwUzETg",
+      "queryId": "uAOtY5wHBEZE1LOhxzFvkQ",
       "operationName": "BirdwatchFetchCanTweetBeMediaNote",
       "operationType": "query",
       "metadata": {
-        "featureSwitches": [],
+        "featureSwitches": [
+          "responsive_web_birdwatch_media_notes_enabled"
+        ],
         "fieldToggles": [],
-        "featureSwitch": {}
+        "featureSwitch": {
+          "responsive_web_birdwatch_media_notes_enabled": {
+            "value": "true"
+          }
+        }
       }
     }
   },
@@ -26565,14 +26706,11 @@
         "featureSwitch": {}
       }
     },
-    "func_name": "A",
+    "func_name": "E",
     "func_name_init": "T",
     "query": {
-      "userId": "l",
-      "count": "n",
-      "cursor": "i",
-      "includePromotedContent": "!1",
-      "...()(0,o.d)": "_"
+      "listId": "l",
+      "...a": "_"
     }
   },
   {
@@ -29196,12 +29334,13 @@
   {
     "n": "88441",
     "exports": {
-      "queryId": "Lxg1V9AiIzzXEiP2c8dRnw",
+      "queryId": "S9mANwp62gTpw9j02v6NnQ",
       "operationName": "UserByRestId",
       "operationType": "query",
       "metadata": {
         "featureSwitches": [
           "hidden_profile_likes_enabled",
+          "hidden_profile_subscriptions_enabled",
           "responsive_web_graphql_exclude_directive_enabled",
           "verified_phone_label_enabled",
           "highlights_tweets_tab_ui_enabled",
@@ -29212,6 +29351,9 @@
         "fieldToggles": [],
         "featureSwitch": {
           "hidden_profile_likes_enabled": {
+            "value": "false"
+          },
+          "hidden_profile_subscriptions_enabled": {
             "value": "false"
           },
           "responsive_web_graphql_exclude_directive_enabled": {
@@ -29239,12 +29381,13 @@
   {
     "n": "44538",
     "exports": {
-      "queryId": "oUZZZ8Oddwxs8Cd3iW3UEA",
+      "queryId": "-c-UsNrqZVyM84KoRToO6A",
       "operationName": "UserByScreenName",
       "operationType": "query",
       "metadata": {
         "featureSwitches": [
           "hidden_profile_likes_enabled",
+          "hidden_profile_subscriptions_enabled",
           "responsive_web_graphql_exclude_directive_enabled",
           "verified_phone_label_enabled",
           "subscriptions_verification_info_verified_since_enabled",
@@ -29256,6 +29399,9 @@
         "fieldToggles": [],
         "featureSwitch": {
           "hidden_profile_likes_enabled": {
+            "value": "false"
+          },
+          "hidden_profile_subscriptions_enabled": {
             "value": "false"
           },
           "responsive_web_graphql_exclude_directive_enabled": {
@@ -30868,7 +31014,7 @@
   {
     "n": "14558",
     "exports": {
-      "queryId": "2OuO3ei9ql8RxWtiqXWw4w",
+      "queryId": "SNB2czvgQ4DY-zI7FQ3VkQ",
       "operationName": "AccountAnalyticsQuery",
       "operationType": "query",
       "metadata": {
@@ -30935,6 +31081,14 @@
         "featureSwitches": [],
         "featureSwitch": {}
       }
+    },
+    "func_name": "K",
+    "func_name_init": "V",
+    "query": {
+      "userId": "s",
+      "cursor": "a",
+      "context": "l",
+      "...()(0,r.d)": "_"
     }
   },
   {
@@ -31009,7 +31163,7 @@
   {
     "n": "87697",
     "exports": {
-      "queryId": "WZkL3cX8Ht0d8TQO20Bk6w",
+      "queryId": "A43pTj3n1rqmulwHSmdZjA",
       "operationName": "MemberRequests_Query",
       "operationType": "query",
       "metadata": {
@@ -31076,7 +31230,7 @@
   {
     "n": "91382",
     "exports": {
-      "queryId": "LVHUDWQ4jsU9iixwJUbT4Q",
+      "queryId": "FwPFkkuxK8qU_i0r4ZCoLA",
       "operationName": "actions_approveMemberRequest_Mutation",
       "operationType": "mutation",
       "metadata": {
@@ -31088,7 +31242,7 @@
   {
     "n": "50085",
     "exports": {
-      "queryId": "5AncQiBia2eEnbL_0_jYAA",
+      "queryId": "ROzYn8Lsywr6xFty6st6RQ",
       "operationName": "actions_denyMemberRequest_Mutation",
       "operationType": "mutation",
       "metadata": {
@@ -31372,6 +31526,30 @@
     "exports": {
       "queryId": "J9In7cq0qeok1s5Rvlnwug",
       "operationName": "HiddenLikesTabSettingsQuery",
+      "operationType": "query",
+      "metadata": {
+        "featureSwitches": [],
+        "featureSwitch": {}
+      }
+    }
+  },
+  {
+    "n": "45721",
+    "exports": {
+      "queryId": "xC9DvIAKUd4SniHOiu_gKQ",
+      "operationName": "HiddenSubscriptionsSettingsMutation",
+      "operationType": "mutation",
+      "metadata": {
+        "featureSwitches": [],
+        "featureSwitch": {}
+      }
+    }
+  },
+  {
+    "n": "63142",
+    "exports": {
+      "queryId": "ldJqaSE5oJEZGyznNtJl7w",
+      "operationName": "HiddenSubscriptionsSettingsQuery",
       "operationType": "query",
       "metadata": {
         "featureSwitches": [],
@@ -31788,7 +31966,7 @@
   {
     "n": "56683",
     "exports": {
-      "queryId": "8tvJu9RpHZAo38sZFFyxNQ",
+      "queryId": "3taqa1qsqV-tu0jNAgjGZQ",
       "operationName": "UpdateProfileSpotlightVisibilityMutation",
       "operationType": "mutation",
       "metadata": {
@@ -31812,7 +31990,7 @@
   {
     "n": "77225",
     "exports": {
-      "queryId": "bAnFWtbuSGoAJ2QuJvLFgg",
+      "queryId": "9VeUvsIj7zFNHumBpHpErQ",
       "operationName": "useCreateLocationSpotlightMutation",
       "operationType": "mutation",
       "metadata": {
@@ -31824,7 +32002,7 @@
   {
     "n": "07893",
     "exports": {
-      "queryId": "g2HTZb33Guh7J-rQtme6yw",
+      "queryId": "JriEwaRhArrOBrfRSOxz7Q",
       "operationName": "useDeleteLocationSpotlightMutation",
       "operationType": "mutation",
       "metadata": {
@@ -31848,7 +32026,7 @@
   {
     "n": "48958",
     "exports": {
-      "queryId": "vSXKvYOe9B1Bils14YfnFQ",
+      "queryId": "rJJxLsW6frl2QsrnNoIJOg",
       "operationName": "useUpdateLocationSpotlightMutation",
       "operationType": "mutation",
       "metadata": {
@@ -32242,7 +32420,7 @@
   {
     "n": "74854",
     "exports": {
-      "queryId": "ZQEuHPrIYlvh1NAyIQHP_w",
+      "queryId": "ZVMba_OK3u9SgzRTTNPbwg",
       "operationName": "ProfileSpotlightsQuery",
       "operationType": "query",
       "metadata": {
