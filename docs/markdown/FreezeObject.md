@@ -143,7 +143,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant              | value                 |
 |:----------------------|:----------------------|
-| ...Ru                 | _                     |
+| ...Nu                 | _                     |
 | ColumnFromPath        | ColumnFromPath        |
 | ColumnTimelineAdapter | ColumnTimelineAdapter |
 
@@ -419,8 +419,8 @@ This document is entirely auto-generated and may contain errors.<br>
 |:----------------|:--------|
 | cardWidth       | o       |
 | columnWidths    | t       |
-| sideNavWidths   | r       |
-| contentWidths   | a       |
+| sideNavWidths   | a       |
+| contentWidths   | r       |
 | wideTabBarWidth | l       |
 | dmDrawerHeight  | i       |
 | dmDrawerWidth   | u       |
@@ -483,27 +483,27 @@ This document is entirely auto-generated and may contain errors.<br>
 | constant   | value   |
 |:-----------|:--------|
 | ...t       | _       |
-| ...r       | _       |
+| ...a       | _       |
 
 ```internal process
 # Error
-{[a.HOME]:"!0",[a.HOME_LATEST]:"!0",[a.CREATOR_SUBSCRIPTIONS]:"super_follow_subscriptions_home_timeline_tab_sticky_enabled",[a.LIST]:"!1"}
+{[r.HOME]:"!0",[r.HOME_LATEST]:"!0",[r.CREATOR_SUBSCRIPTIONS]:"super_follow_subscriptions_home_timeline_tab_sticky_enabled",[r.LIST]:"!1"}
 ```
 | constant   | value   |
 |:-----------|:--------|
-| type       | a.HOME  |
+| type       | r.HOME  |
 
 | constant   | value         |
 |:-----------|:--------------|
-| type       | a.HOME_LATEST |
+| type       | r.HOME_LATEST |
 
 | constant   | value                   |
 |:-----------|:------------------------|
-| type       | a.CREATOR_SUBSCRIPTIONS |
+| type       | r.CREATOR_SUBSCRIPTIONS |
 
 ```internal process
 # Error
-{[a.HOME]:"home",[a.HOME_LATEST]:"latest",[a.LIST]:"pinned_list",[a.CREATOR_SUBSCRIPTIONS]:"subscribed"}
+{[r.HOME]:"home",[r.HOME_LATEST]:"latest",[r.LIST]:"pinned_list",[r.CREATOR_SUBSCRIPTIONS]:"subscribed"}
 ```
 | constant     | value         |
 |:-------------|:--------------|
@@ -856,7 +856,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant            | value               |
 |:--------------------|:--------------------|
-| ...r.YE             | _                   |
+| ...a.YE             | _                   |
 | EMBEDDED_MEDIA      | embedded_media      |
 | FOOTER_PROFILE      | footer_profile      |
 | HASHTAG_CLICK       | hashtag_click       |
@@ -878,7 +878,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{[t.Z.CASHTAG]:"void 0",[t.Z.EMOJI]:"void 0",[t.Z.HASHTAG]:"a.HASHTAG_CLICK",[t.Z.MEDIA]:"void 0",[t.Z.MENTION]:"a.USER_MENTION_CLICK",[t.Z.TEXT]:"void 0",[t.Z.URL]:"a.URL_CLICK"}
+{[t.Z.CASHTAG]:"void 0",[t.Z.EMOJI]:"void 0",[t.Z.HASHTAG]:"r.HASHTAG_CLICK",[t.Z.MEDIA]:"void 0",[t.Z.MENTION]:"r.USER_MENTION_CLICK",[t.Z.TEXT]:"void 0",[t.Z.URL]:"r.URL_CLICK"}
 ```
 | constant   | value   |
 |:-----------|:--------|
@@ -1172,7 +1172,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | constant             | value                |
 |:---------------------|:---------------------|
 | ...t                 | _                    |
-| ...r                 | _                    |
+| ...a                 | _                    |
 | Community            | Community            |
 | Pin                  | Pin                  |
 | Like                 | Like                 |
@@ -1310,7 +1310,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{[P.DEFAULT]:"E.UNDETERMINED",[P.DENIED]:"E.OFF",[P.GRANTED]:"E.ON"}
+{[P.DEFAULT]:"B.UNDETERMINED",[P.DENIED]:"B.OFF",[P.GRANTED]:"B.ON"}
 ```
 | constant   | value                                        |
 |:-----------|:---------------------------------------------|
@@ -1848,7 +1848,6 @@ This document is entirely auto-generated and may contain errors.<br>
 | isDeveloperBuiltCardEnabled               | False   |
 | isDMDrawer                                | False   |
 | isEditTweetConsumptionEnabled             | False   |
-| mixedMediaEnabled                         | False   |
 | nonSafariShouldUseCardCarouselV2          | False   |
 | onMediaHashtagHighlightClick              | void 0  |
 | safariShouldUseCardCarouselV2             | control |
@@ -1876,7 +1875,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | businessGovernmentVerifiedNewIconsEnabled | False   |
 | webImageLargeWebpVariants                 | False   |
 | redesignedLabelForSubscribedTweets        | False   |
-| ...a                                      | _       |
+| ...r                                      | _       |
 
 | constant         | value            |
 |:-----------------|:-----------------|
@@ -2083,7 +2082,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | constant                        | value                          |
 |:--------------------------------|:-------------------------------|
 | ...l()                          | _                              |
-| activeFaintGray                 | rgba(a.CV.light)               |
+| activeFaintGray                 | rgba(r.CV.light)               |
 | activeBlack                     | o.bs.black(230, 236, 240, 0.7) |
 | hoverBlack                      | o.bs.black(.07)                |
 | navigationBackground            | o.Cj                           |
@@ -2129,7 +2128,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | constant                        | value                        |
 |:--------------------------------|:-----------------------------|
 | ...l()                          | _                            |
-| activeFaintGray                 | rgba(a.CV.dark)              |
+| activeFaintGray                 | rgba(r.CV.dark)              |
 | activeBlack                     | o.bs.white(20, 29, 38, 0.7)  |
 | hoverBlack                      | o.bs.white(.07)              |
 | navigationBackground            | #15202B                      |
@@ -2169,7 +2168,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | constant                        | value                        |
 |:--------------------------------|:-----------------------------|
 | ...l()                          | _                            |
-| activeFaintGray                 | rgba(a.CV.darker)            |
+| activeFaintGray                 | rgba(r.CV.darker)            |
 | activeBlack                     | o.bs.white(18, 21, 23, 0.7)  |
 | hoverBlack                      | o.bs.white(.07)              |
 | navigationBackground            | o.E5                         |
@@ -2249,7 +2248,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | borderRadiiPx       | i       |
 | borderWidths        | c       |
 | borderWidthsPx      | s       |
-| breakpoints         | a       |
+| breakpoints         | r       |
 | componentDimensions | v       |
 | componentZIndices   | o       |
 | fontSizes           | M       |
@@ -2264,7 +2263,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{"...m()":{"scale":"o"}"ad0",A.obn,d,"r"}
+{"...m()":{"scale":"o"}"rd0",A.obn,d,"a"}
 ```
 | constant     |   value |
 |:-------------|--------:|
@@ -2859,6 +2858,120 @@ This document is entirely auto-generated and may contain errors.<br>
 |:-----------|:--------|
 | Bold       | BOLD    |
 | Italic     | ITALIC  |
+
+| constant                         | value                            |
+|:---------------------------------|:---------------------------------|
+| About                            | About                            |
+| Accessibility                    | Accessibility                    |
+| AccessibilityDisplayAndLanguages | AccessibilityDisplayAndLanguages |
+| Account                          | Account                          |
+| AccountActivity                  | AccountActivity                  |
+| AccountAutomation                | AccountAutomation                |
+| AccountHistory                   | AccountHistory                   |
+| AccountInformation               | AccountInformation               |
+| AccountVerification              | AccountVerification              |
+| ActiveSessionDetail              | ActiveSessionDetail              |
+| AddMutedKeywordDetail            | AddMutedKeywordDetail            |
+| Ads                              | Ads                              |
+| AdsPreferences                   | AdsPreferences                   |
+| Age                              | Age                              |
+| ApplicationDetail                | ApplicationDetail                |
+| Applications                     | Applications                     |
+| AppsAndSessions                  | AppsAndSessions                  |
+| AudienceAndTagging               | AudienceAndTagging               |
+| AutoblockedAccounts              | AutoblockedAccounts              |
+| BackupCode                       | BackupCode                       |
+| BlockedAccounts                  | BlockedAccounts                  |
+| Coins                            | Coins                            |
+| ConnectedAccounts                | ConnectedAccounts                |
+| ConnectedApps                    | ConnectedApps                    |
+| Contacts                         | Contacts                         |
+| ContactsDashboard                | ContactsDashboard                |
+| ContentPreferences               | ContentPreferences               |
+| ContentYouSee                    | ContentYouSee                    |
+| CookiePreferences                | CookiePreferences                |
+| Country                          | Country                          |
+| Data                             | Data                             |
+| DataDownload                     | DataDownload                     |
+| DataSharingWithBusinessPartners  | DataSharingWithBusinessPartners  |
+| DeactivateAccount                | DeactivateAccount                |
+| DeactivatedAccount               | DeactivatedAccount               |
+| Delegate                         | Delegate                         |
+| DelegateGroupDetail              | DelegateGroupDetail              |
+| DelegateGroups                   | DelegateGroups                   |
+| DelegateMembers                  | DelegateMembers                  |
+| DeviceFollows                    | DeviceFollows                    |
+| Devices                          | Devices                          |
+| DirectMessages                   | DirectMessages                   |
+| Display                          | Display                          |
+| Download                         | Download                         |
+| DownloadYourData                 | DownloadYourData                 |
+| EarlyAccess                      | EarlyAccess                      |
+| EarlybirdSettings                | EarlybirdSettings                |
+| Email                            | Email                            |
+| EmailNotifications               | EmailNotifications               |
+| FeatureSwitches                  | FeatureSwitches                  |
+| FilteredReplies                  | FilteredReplies                  |
+| Gender                           | Gender                           |
+| Language                         | Language                         |
+| Languages                        | Languages                        |
+| Location                         | Location                         |
+| LocationInformation              | LocationInformation              |
+| Locations                        | Locations                        |
+| LoginHistory                     | LoginHistory                     |
+| LoginVerification                | LoginVerification                |
+| LoginVerificationEnrollment      | LoginVerificationEnrollment      |
+| ManageAffiliateBadges            | ManageAffiliateBadges            |
+| ManageSecurityKey                | ManageSecurityKey                |
+| ManageSubscription               | ManageSubscription               |
+| Mentions                         | Mentions                         |
+| Monetization                     | Monetization                     |
+| MonetizationDashboard            | MonetizationDashboard            |
+| Mute                             | Mute                             |
+| MuteAndBlock                     | MuteAndBlock                     |
+| MutedAccounts                    | MutedAccounts                    |
+| MutedKeywordDetail               | MutedKeywordDetail               |
+| MutedKeywords                    | MutedKeywords                    |
+| News                             | News                             |
+| NotificationAdvancedFilters      | NotificationAdvancedFilters      |
+| NotificationFilters              | NotificationFilters              |
+| NotificationPreferences          | NotificationPreferences          |
+| Notifications                    | Notifications                    |
+| OffTwitterActivity               | OffTwitterActivity               |
+| PartnerInterests                 | PartnerInterests                 |
+| Password                         | Password                         |
+| Personalization                  | Personalization                  |
+| Phone                            | Phone                            |
+| PrivacyAndSafety                 | PrivacyAndSafety                 |
+| ProfileCustomization             | ProfileCustomization             |
+| PushNotifications                | PushNotifications                |
+| Replies                          | Replies                          |
+| ReportCenter                     | ReportCenter                     |
+| RequestData                      | RequestData                      |
+| RitoActionedTweets               | RitoActionedTweets               |
+| Safety                           | Safety                           |
+| SafetyMode                       | SafetyMode                       |
+| ScreenName                       | ScreenName                       |
+| Security                         | Security                         |
+| SecurityAndAccountAccess         | SecurityAndAccountAccess         |
+| SecurityKeys                     | SecurityKeys                     |
+| SensitiveMedia                   | SensitiveMedia                   |
+| Sessions                         | Sessions                         |
+| Spaces                           | Spaces                           |
+| Subscription                     | Subscriptions                    |
+| SuperFollows                     | SuperFollows                     |
+| T1Labs                           | T1Labs                           |
+| Tagging                          | Tagging                          |
+| TailoredAudiences                | TailoredAudiences                |
+| Teams                            | Teams                            |
+| TemporaryPassword                | TemporaryPassword                |
+| TransparencyDashboard            | TransparencyDashboard            |
+| TwitterBlue                      | TwitterBlue                      |
+| TwitterInterests                 | TwitterInterests                 |
+| UndoTweet                        | UndoTweet                        |
+| VideoAutoplay                    | VideoAutoplay                    |
+| YourTweets                       | YourTweets                       |
+| YTDLanguage                      | YTDLanguage                      |
 
 | constant   | value       |
 |:-----------|:------------|
@@ -3474,16 +3587,16 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant                          | value               |
 |:----------------------------------|:--------------------|
-| num_of_followers                  | z.Z.Follow          |
-| bio                               | z.Z.TextOnly        |
-| location                          | z.Z.Location        |
-| num_tweets                        | z.Z.NewTweets       |
-| follow_relationship               | z.Z.Follow          |
-| followers_follow                  | z.Z.Follow          |
-| social_proof                      | z.Z.SocialProof     |
-| follow_relationship_mutual_follow | z.Z.FollowMutual    |
-| follow_relationship_followed      | z.Z.FollowFollowed  |
-| follow_relationship_following     | z.Z.FollowFollowing |
+| num_of_followers                  | q.Z.Follow          |
+| bio                               | q.Z.TextOnly        |
+| location                          | q.Z.Location        |
+| num_tweets                        | q.Z.NewTweets       |
+| follow_relationship               | q.Z.Follow          |
+| followers_follow                  | q.Z.Follow          |
+| social_proof                      | q.Z.SocialProof     |
+| follow_relationship_mutual_follow | q.Z.FollowMutual    |
+| follow_relationship_followed      | q.Z.FollowFollowed  |
+| follow_relationship_following     | q.Z.FollowFollowing |
 | highlighted_label                 | HighlightedIcon     |
 
 | constant   | value   |
@@ -4251,12 +4364,12 @@ This document is entirely auto-generated and may contain errors.<br>
 | constant   | value   |
 |:-----------|:--------|
 | SENSITIVE  | p       |
-| BLOCKED    | b       |
-| BLOCKED_BY | _       |
+| BLOCKED    | _       |
+| BLOCKED_BY | b       |
 
 ```internal process
 # Error
-{[p]:"g",[b]:"y",[_]:"f"}
+{[p]:"g",[_]:"y",[b]:"f"}
 ```
 | constant             | value     |
 |:---------------------|:----------|
@@ -4323,6 +4436,29 @@ This document is entirely auto-generated and may contain errors.<br>
 | Member     | MemberInvitesAllowed    |
 | Moderator  | ModeratorInvitesAllowed |
 | Admin      | AdminInvitesAllowed     |
+
+| constant         | value                           |
+|:-----------------|:--------------------------------|
+| joinAvailable    | CommunityJoinAction             |
+| joinUnavailable  | CommunityJoinActionUnavailable  |
+| leaveAvailable   | CommunityLeaveAction            |
+| leaveUnavailable | CommunityLeaveActionUnavailable |
+
+| constant          | value             |
+|:------------------|:------------------|
+| Unavailable       | Unavailable       |
+| ViewerNotMember   | ViewerNotMember   |
+| ViewerIsSoleAdmin | ViewerIsSoleAdmin |
+
+| constant                  | value                 |
+|:--------------------------|:----------------------|
+| Unavailable               | Unavailable           |
+| ViewerIsMember            | ViewerIsMember        |
+| ViewerIsRemoved           | ViewerIsRemoved       |
+| ViewerNotInvited          | ViewerNotInvited      |
+| ViewerIsProtected         | ViewerIsProtected     |
+| ViewerRequestPending      | ViewerRequestPending  |
+| ViewerJoinRequestRequired | ViewerRequestRequired |
 
 | constant      | value          |
 |:--------------|:---------------|
@@ -4401,6 +4537,11 @@ This document is entirely auto-generated and may contain errors.<br>
 | MEDIA      | Media   |
 | GIFS       | GIFs    |
 | TWEETS     | Tweets  |
+
+| constant    | value       |
+|:------------|:------------|
+| Public      | Public      |
+| Subscribers | Subscribers |
 
 | constant   | value                                                     |
 |:-----------|:----------------------------------------------------------|
@@ -4490,12 +4631,12 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant                  | value                                   |
 |:--------------------------|:----------------------------------------|
-| all                       | {'icon': 'sn', 'label': 'C().i8ea6d4e'} |
-| community                 | {'icon': 'rn', 'label': 'C().ec5a4a26'} |
-| by_invitation             | {'icon': 'an', 'label': 'C().b454300a'} |
-| community_members         | {'icon': 'on', 'label': 'C().i13be5a0'} |
-| super_followers_exclusive | {'icon': 'sn', 'label': 'C().bf8d98f4'} |
-| trusted_friends_tweet     | {'icon': 'ln', 'label': 'u'}            |
+| all                       | {'icon': 'si', 'label': 'C().i8ea6d4e'} |
+| community                 | {'icon': 'ri', 'label': 'C().ec5a4a26'} |
+| by_invitation             | {'icon': 'ai', 'label': 'C().b454300a'} |
+| community_members         | {'icon': 'oi', 'label': 'C().i13be5a0'} |
+| super_followers_exclusive | {'icon': 'si', 'label': 'C().bf8d98f4'} |
+| trusted_friends_tweet     | {'icon': 'li', 'label': 'u'}            |
 
 ```internal process
 # Error
@@ -4593,8 +4734,8 @@ This document is entirely auto-generated and may contain errors.<br>
 | DELEGATE_ERR_002 | U       |
 | DELEGATE_ERR_003 | G       |
 | DELEGATE_ERR_004 | O       |
-| DELEGATE_ERR_005 | V       |
-| DELEGATE_ERR_006 | H       |
+| DELEGATE_ERR_005 | H       |
+| DELEGATE_ERR_006 | V       |
 
 | constant          | value             |
 |:------------------|:------------------|
@@ -4913,21 +5054,21 @@ This document is entirely auto-generated and may contain errors.<br>
 ```
 ```internal process
 # Error
-{[b.pl.TEST_INPUT]:{"type":"input","props":{"title":"test input form","description":"description here","items":[{"dataKey":"b.GG.NEWS","label":"news url","required":"!0"},{"dataKey":"b.GG.PUBLIC","label":"public url","required":"!1"}],"allowAddFields":"!0"}},[b.pl.TEST_PIVOT]:{"type":"pivot","props"...
+{[N.pl.TEST_INPUT]:{"type":"input","props":{"title":"test input form","description":"description here","items":[{"dataKey":"N.GG.NEWS","label":"news url","required":"!0"},{"dataKey":"N.GG.PUBLIC","label":"public url","required":"!1"}],"allowAddFields":"!0"}},[N.pl.TEST_PIVOT]:{"type":"pivot","props"...
 ```
 ```internal process
 # Error
-{[b.pl.AUTHENTICITY_TYPE_SELECT]:"()"{"notabilityCategory":"e","notabilitySubcategory":"t","userEmail":"i"}{"type":"radio","props":{"description":"mt().description","getNextFormStep":e=>{"switch()"{"case b.L_.IDENTITY_DOCUMENT":return b.pl.INTAKE_TYPE_SELECT;case b.L_.EMAIL:return b.pl.EMAIL_VERIFIC...
+{[N.pl.AUTHENTICITY_TYPE_SELECT]:"()"{"notabilityCategory":"e","notabilitySubcategory":"t","userEmail":"i"}{"type":"radio","props":{"description":"Tt().description","getNextFormStep":e=>{"switch()"{"case N.L_.IDENTITY_DOCUMENT":return N.pl.INTAKE_TYPE_SELECT;case N.L_.EMAIL:return N.pl.EMAIL_VERIFIC...
 ```
 ```internal process
 # Error
-{[b.pl.NOTABILITY_CATEGORY_SELECT]:"()"{"followersEligible":"e=!1","mentionsEligible":"t=!1"}{"type":"radio","props":{"description":"mi.description","getNextFormStep":e=>{"switch()"{"case b.eV.ACTIVISM":return b.pl.ACTIVIST_SUBCATEGORY;case b.eV.INFLUENCER_OTHER:return b.pl.INFLUENCER_SUBCATEGORY;ca...
+{[N.pl.NOTABILITY_CATEGORY_SELECT]:"()"{"followersEligible":"e=!1","mentionsEligible":"t=!1"}{"type":"radio","props":{"description":"Ti.description","getNextFormStep":e=>{"switch()"{"case N.eV.ACTIVISM":return N.pl.ACTIVIST_SUBCATEGORY;case N.eV.INFLUENCER_OTHER:return N.pl.INFLUENCER_SUBCATEGORY;ca...
 ```
 | constant   | value   |
 |:-----------|:--------|
 | ...Nt      | _       |
-| ...Cr      | _       |
-| ...ae      | _       |
+| ...Ar      | _       |
+| ...ie      | _       |
 
 | constant   | value   |
 |:-----------|:--------|
@@ -4942,120 +5083,6 @@ This document is entirely auto-generated and may contain errors.<br>
 | constant   | value       |
 |:-----------|:------------|
 | WebSidebar | web_sidebar |
-
-| constant                         | value                            |
-|:---------------------------------|:---------------------------------|
-| About                            | About                            |
-| Accessibility                    | Accessibility                    |
-| AccessibilityDisplayAndLanguages | AccessibilityDisplayAndLanguages |
-| Account                          | Account                          |
-| AccountActivity                  | AccountActivity                  |
-| AccountAutomation                | AccountAutomation                |
-| AccountHistory                   | AccountHistory                   |
-| AccountInformation               | AccountInformation               |
-| AccountVerification              | AccountVerification              |
-| ActiveSessionDetail              | ActiveSessionDetail              |
-| AddMutedKeywordDetail            | AddMutedKeywordDetail            |
-| Ads                              | Ads                              |
-| AdsPreferences                   | AdsPreferences                   |
-| Age                              | Age                              |
-| ApplicationDetail                | ApplicationDetail                |
-| Applications                     | Applications                     |
-| AppsAndSessions                  | AppsAndSessions                  |
-| AudienceAndTagging               | AudienceAndTagging               |
-| AutoblockedAccounts              | AutoblockedAccounts              |
-| BackupCode                       | BackupCode                       |
-| BlockedAccounts                  | BlockedAccounts                  |
-| Coins                            | Coins                            |
-| ConnectedAccounts                | ConnectedAccounts                |
-| ConnectedApps                    | ConnectedApps                    |
-| Contacts                         | Contacts                         |
-| ContactsDashboard                | ContactsDashboard                |
-| ContentPreferences               | ContentPreferences               |
-| ContentYouSee                    | ContentYouSee                    |
-| CookiePreferences                | CookiePreferences                |
-| Country                          | Country                          |
-| Data                             | Data                             |
-| DataDownload                     | DataDownload                     |
-| DataSharingWithBusinessPartners  | DataSharingWithBusinessPartners  |
-| DeactivateAccount                | DeactivateAccount                |
-| DeactivatedAccount               | DeactivatedAccount               |
-| Delegate                         | Delegate                         |
-| DelegateGroupDetail              | DelegateGroupDetail              |
-| DelegateGroups                   | DelegateGroups                   |
-| DelegateMembers                  | DelegateMembers                  |
-| DeviceFollows                    | DeviceFollows                    |
-| Devices                          | Devices                          |
-| DirectMessages                   | DirectMessages                   |
-| Display                          | Display                          |
-| Download                         | Download                         |
-| DownloadYourData                 | DownloadYourData                 |
-| EarlyAccess                      | EarlyAccess                      |
-| EarlybirdSettings                | EarlybirdSettings                |
-| Email                            | Email                            |
-| EmailNotifications               | EmailNotifications               |
-| FeatureSwitches                  | FeatureSwitches                  |
-| FilteredReplies                  | FilteredReplies                  |
-| Gender                           | Gender                           |
-| Language                         | Language                         |
-| Languages                        | Languages                        |
-| Location                         | Location                         |
-| LocationInformation              | LocationInformation              |
-| Locations                        | Locations                        |
-| LoginHistory                     | LoginHistory                     |
-| LoginVerification                | LoginVerification                |
-| LoginVerificationEnrollment      | LoginVerificationEnrollment      |
-| ManageAffiliateBadges            | ManageAffiliateBadges            |
-| ManageSecurityKey                | ManageSecurityKey                |
-| ManageSubscription               | ManageSubscription               |
-| Mentions                         | Mentions                         |
-| Monetization                     | Monetization                     |
-| MonetizationDashboard            | MonetizationDashboard            |
-| Mute                             | Mute                             |
-| MuteAndBlock                     | MuteAndBlock                     |
-| MutedAccounts                    | MutedAccounts                    |
-| MutedKeywordDetail               | MutedKeywordDetail               |
-| MutedKeywords                    | MutedKeywords                    |
-| News                             | News                             |
-| NotificationAdvancedFilters      | NotificationAdvancedFilters      |
-| NotificationFilters              | NotificationFilters              |
-| NotificationPreferences          | NotificationPreferences          |
-| Notifications                    | Notifications                    |
-| OffTwitterActivity               | OffTwitterActivity               |
-| PartnerInterests                 | PartnerInterests                 |
-| Password                         | Password                         |
-| Personalization                  | Personalization                  |
-| Phone                            | Phone                            |
-| PrivacyAndSafety                 | PrivacyAndSafety                 |
-| ProfileCustomization             | ProfileCustomization             |
-| PushNotifications                | PushNotifications                |
-| Replies                          | Replies                          |
-| ReportCenter                     | ReportCenter                     |
-| RequestData                      | RequestData                      |
-| RitoActionedTweets               | RitoActionedTweets               |
-| Safety                           | Safety                           |
-| SafetyMode                       | SafetyMode                       |
-| ScreenName                       | ScreenName                       |
-| Security                         | Security                         |
-| SecurityAndAccountAccess         | SecurityAndAccountAccess         |
-| SecurityKeys                     | SecurityKeys                     |
-| SensitiveMedia                   | SensitiveMedia                   |
-| Sessions                         | Sessions                         |
-| Spaces                           | Spaces                           |
-| Subscription                     | Subscriptions                    |
-| SuperFollows                     | SuperFollows                     |
-| T1Labs                           | T1Labs                           |
-| Tagging                          | Tagging                          |
-| TailoredAudiences                | TailoredAudiences                |
-| Teams                            | Teams                            |
-| TemporaryPassword                | TemporaryPassword                |
-| TransparencyDashboard            | TransparencyDashboard            |
-| TwitterBlue                      | TwitterBlue                      |
-| TwitterInterests                 | TwitterInterests                 |
-| UndoTweet                        | UndoTweet                        |
-| VideoAutoplay                    | VideoAutoplay                    |
-| YourTweets                       | YourTweets                       |
-| YTDLanguage                      | YTDLanguage                      |
 
 | constant   | value                                           |
 |:-----------|:------------------------------------------------|
@@ -5419,6 +5446,12 @@ This document is entirely auto-generated and may contain errors.<br>
 | Star        | star       |
 | Interested  | interested |
 | Favorite    | favorite   |
+
+| constant        | value            |
+|:----------------|:-----------------|
+| Composition     | composition      |
+| DMComposition   | dm_composition   |
+| NoteComposition | note_composition |
 
 | constant   | value       |
 |:-----------|:------------|
@@ -5823,7 +5856,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{[P.cU.CurrentCountryMatch]:"0",[P.cU.Match]:"1",[P.cU.NoMatch]:"2"}
+{[v.cU.CurrentCountryMatch]:"0",[v.cU.Match]:"1",[v.cU.NoMatch]:"2"}
 ```
 | constant   | value        |
 |:-----------|:-------------|
@@ -6142,7 +6175,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | constant    | value     |
 |:------------|:----------|
 | fetchStatus | k.ZP.NONE |
-| config      | Be        |
+| config      | je        |
 
 | constant              | value                 |
 |:----------------------|:----------------------|
@@ -6159,13 +6192,20 @@ This document is entirely auto-generated and may contain errors.<br>
 | unfeatureJob          | unfeatureJob          |
 | configureOrganization | configureOrganization |
 
+| constant        | value           |
+|:----------------|:----------------|
+| RATE_LIMITED    | rate_limited    |
+| CREATE_GROUP    | create_group    |
+| MESSAGE_REQUEST | message_request |
+| ADD_TO_GROUP    | add_to_group    |
+
 ```internal process
 # Error
-{[b.hA.generate]:"m().dca6b3ac",[b.hA.updateSeats]:"m().c97ad52a"}
+{[_.hA.generate]:"m().dca6b3ac",[_.hA.updateSeats]:"m().c97ad52a"}
 ```
 ```internal process
 # Error
-{[Z.hA.generate]:"b().fc1f43d0",[Z.hA.updateSeats]:"b().c97ad52a"}
+{[w.hA.generate]:"b().fc1f43d0",[w.hA.updateSeats]:"b().c97ad52a"}
 ```
 | constant         | value            |
 |:-----------------|:-----------------|
@@ -6276,6 +6316,11 @@ This document is entirely auto-generated and may contain errors.<br>
 | PendingFollowUser | PendingFollowUser |
 | SubscribableUser  | SubscribableUser  |
 
+| constant    | value       |
+|:------------|:------------|
+| ...E.n$     | _           |
+| UNAVAILABLE | UNAVAILABLE |
+
 | constant   | value   |
 |:-----------|:--------|
 | INSIDE     | inside  |
@@ -6291,17 +6336,6 @@ This document is entirely auto-generated and may contain errors.<br>
 | MOVEMENT         | movement         |
 | LIST_UPDATE      | list_update      |
 | INITIAL_POSITION | initial_position |
-
-| constant   | value    |
-|:-----------|:---------|
-| host       | host     |
-| cohost     | cohost   |
-| speaker    | speaker  |
-| listener   | listener |
-
-| constant            |   value |
-|:--------------------|--------:|
-| SIDEBAR_SPACE_LIMIT |       3 |
 
 | constant              | value   |
 |:----------------------|:--------|
@@ -6558,6 +6592,17 @@ This document is entirely auto-generated and may contain errors.<br>
 | ON_LIKE        | onLike       |
 | ON_FOLLOW      | onFollow     |
 
+| constant   | value    |
+|:-----------|:---------|
+| host       | host     |
+| cohost     | cohost   |
+| speaker    | speaker  |
+| listener   | listener |
+
+| constant            |   value |
+|:--------------------|--------:|
+| SIDEBAR_SPACE_LIMIT |       3 |
+
 | constant   | value      |
 |:-----------|:-----------|
 | wide       | wide       |
@@ -6626,11 +6671,6 @@ This document is entirely auto-generated and may contain errors.<br>
 | VOD              | vod             |
 | GIF              | gif             |
 | SLATE            | slate           |
-
-| constant    | value       |
-|:------------|:------------|
-| ...E.n$     | _           |
-| UNAVAILABLE | UNAVAILABLE |
 
 | constant        | value                                |
 |:----------------|:-------------------------------------|
