@@ -2598,6 +2598,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | businessGovernmentVerifiedNewIconsEnabled | False   |
 | webImageLargeWebpVariants                 | False   |
 | redesignedLabelForSubscribedTweets        | False   |
+| renderArticleCardInTweet                  | False   |
 | ...r                                      | _       |
 
 | constant         | value            |
@@ -2633,10 +2634,11 @@ This document is entirely auto-generated and may contain errors.<br>
 | subscriptionSaving | {'backgroundColor': 'green50', 'color': 'green900', 'bold': '!0', 'radius': '9999', 'fontSize': 'subtext3'} |
 | bestValue          | {'backgroundColor': 'green50', 'color': 'green900', 'bold': '!0', 'fontSize': 'subtext3'}                   |
 | mostPopular        | {'backgroundColor': 'purple50', 'color': 'purple900', 'bold': '!0', 'fontSize': 'subtext3'}                 |
-| alt                | v                                                                                                           |
-| gif                | v                                                                                                           |
-| hd                 | v                                                                                                           |
+| alt                | C                                                                                                           |
+| gif                | C                                                                                                           |
+| hd                 | C                                                                                                           |
 | likedByAuthor      | {'backgroundColor': 'gray50', 'bold': '!1', 'color': 'gray700'}                                             |
+| article            | {'bold': '!0', 'backgroundColor': 'gray50', 'color': 'gray700'}                                             |
 
 ```internal process
 # Error
@@ -3752,7 +3754,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{"ActionsBar":"C.Z","ActionMenu":"function()"{"Icon":"e","isDisabled":"t","items":"n","onOpen":"i"}{"const r=o.useCallback()"{"items":"n","onCloseRequested":"e"}{"Icon":"e","isDisabled":"t","onClick":"i","renderActionMenu":"r"}},"CallToAction":"a.ZP","EditCallout":"f.Z","Education":"E.Z","Highlighte...
+{"ActionsBar":"C.Z","ActionMenu":"function()"{"Icon":"e","isDisabled":"t","items":"n","onOpen":"i"}{"const r=o.useCallback()"{"items":"n","onCloseRequested":"e"}{"Icon":"e","isDisabled":"t","onClick":"i","renderActionMenu":"r"}},"CallToAction":"a.ZP","EditCallout":"x.Z","Education":"S.Z","Highlighte...
 ```
 | constant                | value                          |
 |:------------------------|:-------------------------------|
@@ -3951,6 +3953,8 @@ This document is entirely auto-generated and may contain errors.<br>
 | AccountVerification              | AccountVerification              |
 | ActiveSessionDetail              | ActiveSessionDetail              |
 | AddMutedKeywordDetail            | AddMutedKeywordDetail            |
+| AdRevShareApplication            | AdRevShareApplication            |
+| AdRevShareEligibility            | AdRevShareEligibility            |
 | Ads                              | Ads                              |
 | AdsPreferences                   | AdsPreferences                   |
 | Age                              | Age                              |
@@ -4377,12 +4381,13 @@ This document is entirely auto-generated and may contain errors.<br>
 | DMComposition   | dm_composition   |
 | NoteComposition | note_composition |
 
-| constant        | value           |
-|:----------------|:----------------|
-| RATE_LIMITED    | rate_limited    |
-| CREATE_GROUP    | create_group    |
-| MESSAGE_REQUEST | message_request |
-| ADD_TO_GROUP    | add_to_group    |
+| constant         | value            |
+|:-----------------|:-----------------|
+| RATE_LIMITED     | rate_limited     |
+| CREATE_GROUP     | create_group     |
+| MESSAGE_REQUEST  | message_request  |
+| ADD_TO_GROUP     | add_to_group     |
+| CREATE_COMMUNITY | create_community |
 
 | constant   | value      |
 |:-----------|:-----------|
@@ -4761,7 +4766,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{[o.sj.AMPLIFY]:{"conversionHandler":"()"{"cardId":"e","cardType":"t","converterOptions":"a","data":"n"}{"const r=()(0,l.FL)",s=parseInt(n,\"image_value\",\"player_image_original\")/parseInt(0,l.SIn,\"string_value\",\"player_width\",10),c=(0,l.SIn,\"string_value\",\"player_height\",10)(0,l.SI),d=(n,...
+{[o.sj.AMPLIFY]:{"conversionHandler":"()"{"cardId":"e","cardType":"t","converterOptions":"a","data":"n"}{"const l=()(0,r.FL)",s=parseInt(n,\"image_value\",\"player_image_original\")/parseInt(0,r.SIn,\"string_value\",\"player_width\",10),c=(0,r.SIn,\"string_value\",\"player_height\",10)(0,r.SI),d=(n,...
 ```
 | constant   | value    |
 |:-----------|:---------|
@@ -4971,6 +4976,12 @@ This document is entirely auto-generated and may contain errors.<br>
 |:------------|:------------|
 | Public      | Public      |
 | Subscribers | Subscribers |
+
+| constant    | value       |
+|:------------|:------------|
+| Draft       | Draft       |
+| Published   | Published   |
+| SoftDeleted | SoftDeleted |
 
 | constant   | value     |
 |:-----------|:----------|
@@ -5601,7 +5612,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{[I.ActionedTweets]:{"backLocation":"A","confirmationSheetHeadline":"()(0,o.X_)"{"screenName":"m"}{"screenName":"m"}},[I.PreviewFlaggedTweets]:{"backLocation":"x","confirmationSheetHeadline":"Z()"{"screenName":"m"}{"screenName":"m"}}}
+{[I.ActionedTweets]:{"backLocation":"x","confirmationSheetHeadline":"()(0,o.X_)"{"screenName":"m"}{"screenName":"m"}},[I.PreviewFlaggedTweets]:{"backLocation":"A","confirmationSheetHeadline":"Z()"{"screenName":"m"}{"screenName":"m"}}}
 ```
 | constant             | value                  |
 |:---------------------|:-----------------------|
@@ -5771,6 +5782,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | AppStore   | AppStore  |
 | PlayStore  | PlayStore |
 | Stripe     | Stripe    |
+| Web        | Web       |
 
 | constant   | value   |
 |:-----------|:--------|
@@ -6555,10 +6567,11 @@ This document is entirely auto-generated and may contain errors.<br>
 |:-----------|:----------|
 | Affiliate  | Affiliate |
 
-| constant   |   value |
-|:-----------|--------:|
-| INACTIVE   |       0 |
-| ACTIVE     |      10 |
+| constant     |   value |
+|:-------------|--------:|
+| ENROLLED     |       0 |
+| WAITLISTED   |       1 |
+| JOBS_ENABLED |      10 |
 
 | constant    | value       |
 |:------------|:------------|
@@ -6596,20 +6609,23 @@ This document is entirely auto-generated and may contain errors.<br>
 | unfeatureJob          | unfeatureJob          |
 | configureOrganization | configureOrganization |
 
-| constant        | value           |
-|:----------------|:----------------|
-| RATE_LIMITED    | rate_limited    |
-| CREATE_GROUP    | create_group    |
-| MESSAGE_REQUEST | message_request |
-| ADD_TO_GROUP    | add_to_group    |
-
 ```internal process
 # Error
 {[k.hA.generate]:"m().dca6b3ac",[k.hA.updateSeats]:"m().c97ad52a"}
 ```
+| constant   | value                  |
+|:-----------|:-----------------------|
+| page       | verified-organizations |
+| section    | hiring                 |
+
+| constant   | value             |
+|:-----------|:------------------|
+| ...Y       | _                 |
+| component  | job-splash-screen |
+
 ```internal process
 # Error
-{[I.hA.generate]:"b().fc1f43d0",[I.hA.updateSeats]:"b().c97ad52a"}
+{[L.hA.generate]:"b().fc1f43d0",[L.hA.updateSeats]:"b().c97ad52a"}
 ```
 | constant         | value            |
 |:-----------------|:-----------------|
@@ -6709,17 +6725,17 @@ This document is entirely auto-generated and may contain errors.<br>
 ```
 | constant      | value        |
 |:--------------|:-------------|
-| superFollower | u().fc065ee4 |
+| superFollower | m().fc065ee4 |
 
 | constant      | value                                                                                                                                                                                                                                    |
 |:--------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| superFollower | {'graphic': 'm.default', 'headline': 'u().e453f536', 'subtext': 'u().dea63fc4', 'actionLabel': 'u().g7099a02', 'actionLink': 'https://help.twitter.com/en/using-twitter/super-follows#sfexpect', 'secondaryActionLabel': 'u().c2637ef6'} |
+| superFollower | {'graphic': 'u.default', 'headline': 'm().e453f536', 'subtext': 'm().dea63fc4', 'actionLabel': 'm().g7099a02', 'actionLink': 'https://help.twitter.com/en/using-twitter/super-follows#sfexpect', 'secondaryActionLabel': 'm().c2637ef6'} |
 
 | constant        | value        |
 |:----------------|:-------------|
-| followsYou      | u().efb17190 |
-| superFollowsYou | u().g57b5f6c |
-| superFollower   | u().a77a27c0 |
+| followsYou      | m().efb17190 |
+| superFollowsYou | m().g57b5f6c |
+| superFollower   | m().a77a27c0 |
 
 | constant        | value   |
 |:----------------|:--------|
@@ -7082,17 +7098,17 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant      | value        |
 |:--------------|:-------------|
-| superFollower | m().fc065ee4 |
+| superFollower | u().fc065ee4 |
 
 | constant      | value                                                                                                                                                                                                                                    |
 |:--------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| superFollower | {'graphic': 'p.default', 'headline': 'm().e453f536', 'subtext': 'm().dea63fc4', 'actionLabel': 'm().g7099a02', 'actionLink': 'https://help.twitter.com/en/using-twitter/super-follows#sfexpect', 'secondaryActionLabel': 'm().c2637ef6'} |
+| superFollower | {'graphic': 'p.default', 'headline': 'u().e453f536', 'subtext': 'u().dea63fc4', 'actionLabel': 'u().g7099a02', 'actionLink': 'https://help.twitter.com/en/using-twitter/super-follows#sfexpect', 'secondaryActionLabel': 'u().c2637ef6'} |
 
 | constant        | value        |
 |:----------------|:-------------|
-| followsYou      | m().efb17190 |
-| superFollowsYou | m().g57b5f6c |
-| superFollower   | m().a77a27c0 |
+| followsYou      | u().efb17190 |
+| superFollowsYou | u().g57b5f6c |
+| superFollower   | u().a77a27c0 |
 
 | constant        | value   |
 |:----------------|:--------|
