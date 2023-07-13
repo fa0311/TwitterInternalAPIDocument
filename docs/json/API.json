@@ -3645,8 +3645,8 @@
       "features": {}
     },
     "CommunitiesCreateButtonQuery": {
-      "url": "https://twitter.com/i/api/graphql/8daJzV6tGCTssiKBRFpXtQ/CommunitiesCreateButtonQuery",
-      "queryId": "8daJzV6tGCTssiKBRFpXtQ",
+      "url": "https://twitter.com/i/api/graphql/ScODPHsG2d28Xr-rDSBThg/CommunitiesCreateButtonQuery",
+      "queryId": "ScODPHsG2d28Xr-rDSBThg",
       "method": "GET",
       "features": {}
     },
@@ -3910,6 +3910,12 @@
       "method": "GET",
       "features": {}
     },
+    "TwitterBlueQuery": {
+      "url": "https://twitter.com/i/api/graphql/Z63wt_H1R7-XSZYYDEsOkg/TwitterBlueQuery",
+      "queryId": "Z63wt_H1R7-XSZYYDEsOkg",
+      "method": "GET",
+      "features": {}
+    },
     "useManagedAffiliationsUpdateMutation": {
       "url": "https://twitter.com/i/api/graphql/tHVYwctPhLe1BXEkVqAdwQ/useManagedAffiliationsUpdateMutation",
       "queryId": "tHVYwctPhLe1BXEkVqAdwQ",
@@ -4028,6 +4034,18 @@
       "url": "https://twitter.com/i/api/graphql/01C9DqWmpi6YUNYaIWMBwA/useAwardsDeactivateMutation",
       "queryId": "01C9DqWmpi6YUNYaIWMBwA",
       "method": "POST",
+      "features": {}
+    },
+    "AdRevShareApplicationQuery": {
+      "url": "https://twitter.com/i/api/graphql/Z3h2-itJOJ0nhdASx_Isyg/AdRevShareApplicationQuery",
+      "queryId": "Z3h2-itJOJ0nhdASx_Isyg",
+      "method": "GET",
+      "features": {}
+    },
+    "AdRevShareEligibilityScreenQuery": {
+      "url": "https://twitter.com/i/api/graphql/8hG0WXQLjE4baibOhn-nWw/AdRevShareEligibilityScreenQuery",
+      "queryId": "8hG0WXQLjE4baibOhn-nWw",
+      "method": "GET",
       "features": {}
     },
     "SuperFollowsApplicationSubmitScreenMutation": {
