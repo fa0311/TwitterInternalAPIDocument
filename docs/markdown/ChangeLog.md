@@ -1117,3 +1117,16 @@
 #### remove<br>
 - responsive_web_twitter_blue_verified_badge_ntab_all_badge_is_enabled<br>
 - responsive_web_twitter_blue_verified_badge_ntab_verified_tab_index<br>
+## 2023/07/13<br>
+### API<br>
+#### add<br>
+- TwitterBlueQuery<br>
+- AdRevShareApplicationQuery<br>
+- AdRevShareEligibilityScreenQuery<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- responsive_web_twitter_article_seed_tweet_summary_enabled<br>
+#### remove<br>
+- responsive_web_user_badge_education_redesign_enabled<br>
