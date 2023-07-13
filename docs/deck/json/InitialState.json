@@ -115,11 +115,6 @@
       "entities": {},
       "errors": {},
       "fetchStatus": {}
-    },
-    "translationsProfiles": {
-      "entities": {},
-      "errors": {},
-      "fetchStatus": {}
     }
   },
   "featureSwitch": {
@@ -421,6 +416,9 @@
         "value": "false"
       },
       "blue_business_affiliates_list_order_setting_enabled": {
+        "value": "false"
+      },
+      "blue_business_multi_affiliates_ui_enabled": {
         "value": "false"
       },
       "blue_business_subscriptions_management_page_updates_enabled": {
@@ -1119,6 +1117,9 @@
         "value": "false"
       },
       "recruiting_verified_orgs_admin_enabled": {
+        "value": "false"
+      },
+      "recruiting_verified_orgs_enroll_allowed": {
         "value": "false"
       },
       "report_center_mvp_r1_enabled": {
@@ -1842,6 +1843,9 @@
       "responsive_web_twitter_article_seed_tweet_enabled": {
         "value": "false"
       },
+      "responsive_web_twitter_article_seed_tweet_summary_enabled": {
+        "value": "false"
+      },
       "responsive_web_twitter_article_title_limit": {
         "value": "200"
       },
@@ -1869,14 +1873,8 @@
       "responsive_web_twitter_blue_upsell_right_column": {
         "value": "false"
       },
-      "responsive_web_twitter_blue_verified_badge_ntab_all_badge_is_enabled": {
-        "value": "false"
-      },
       "responsive_web_twitter_blue_verified_badge_ntab_empty_state_enabled": {
         "value": "true"
-      },
-      "responsive_web_twitter_blue_verified_badge_ntab_verified_tab_index": {
-        "value": "2"
       },
       "responsive_web_twitter_blue_verified_badge_settings_blue_verified_features_enabled": {
         "value": "true"
@@ -1897,9 +1895,6 @@
         "value": "false"
       },
       "responsive_web_user_badge_education_get_verified_button_enabled": {
-        "value": "true"
-      },
-      "responsive_web_user_badge_education_redesign_enabled": {
         "value": "true"
       },
       "responsive_web_verified_organizations_affiliate_fetch_limit": {
@@ -1986,7 +1981,7 @@
         "value": "true"
       },
       "rweb_lists_timeline_minimal_follow_button_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "rweb_lists_timeline_redesign_enabled": {
         "value": "true"
@@ -3031,6 +3026,9 @@
         "blue_business_affiliates_list_order_setting_enabled": {
           "value": "false"
         },
+        "blue_business_multi_affiliates_ui_enabled": {
+          "value": "false"
+        },
         "blue_business_subscriptions_management_page_updates_enabled": {
           "value": "false"
         },
@@ -3727,6 +3725,9 @@
           "value": "false"
         },
         "recruiting_verified_orgs_admin_enabled": {
+          "value": "false"
+        },
+        "recruiting_verified_orgs_enroll_allowed": {
           "value": "false"
         },
         "report_center_mvp_r1_enabled": {
@@ -4450,6 +4451,9 @@
         "responsive_web_twitter_article_seed_tweet_enabled": {
           "value": "false"
         },
+        "responsive_web_twitter_article_seed_tweet_summary_enabled": {
+          "value": "false"
+        },
         "responsive_web_twitter_article_title_limit": {
           "value": "200"
         },
@@ -4477,14 +4481,8 @@
         "responsive_web_twitter_blue_upsell_right_column": {
           "value": "false"
         },
-        "responsive_web_twitter_blue_verified_badge_ntab_all_badge_is_enabled": {
-          "value": "false"
-        },
         "responsive_web_twitter_blue_verified_badge_ntab_empty_state_enabled": {
           "value": "true"
-        },
-        "responsive_web_twitter_blue_verified_badge_ntab_verified_tab_index": {
-          "value": "2"
         },
         "responsive_web_twitter_blue_verified_badge_settings_blue_verified_features_enabled": {
           "value": "true"
@@ -4505,9 +4503,6 @@
           "value": "false"
         },
         "responsive_web_user_badge_education_get_verified_button_enabled": {
-          "value": "true"
-        },
-        "responsive_web_user_badge_education_redesign_enabled": {
           "value": "true"
         },
         "responsive_web_verified_organizations_affiliate_fetch_limit": {
@@ -5339,10 +5334,10 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "af5922eb74ae6a881ef1d0a353d2d395"
+      "settingsVersion": "47cdc7f36c611c0a245a9938dd02b42f"
     },
     "debug": {},
-    "featureSetToken": "e3dd7d76072d27a6f036efcae1fc7b35bfdb38ea",
+    "featureSetToken": "6f3a30ae80aa32d405418a466dd7e94f6bd69cbd",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -5412,7 +5407,7 @@
     "country": "US",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "168919641312021302",
+    "guestId": "168928283313005152",
     "hasCommunityMemberships": "false",
     "language": "en",
     "oneFactorLoginEligibility": {
