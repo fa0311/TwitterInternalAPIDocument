@@ -1103,3 +1103,17 @@
 #### remove<br>
 - responsive_web_mixed_media_composition_enabled<br>
 - responsive_web_mixed_media_consumption_enabled<br>
+## 2023/07/12<br>
+### API<br>
+#### add<br>
+- ArticleEntityUpdateCoverMedia<br>
+- ArticleEntityUpdateCoverMedia<br>
+#### remove<br>
+- DMPinnedInboxQuery<br>
+### Feature Switch<br>
+#### add<br>
+- blue_business_multi_affiliates_ui_enabled<br>
+- recruiting_verified_orgs_enroll_allowed<br>
+#### remove<br>
+- responsive_web_twitter_blue_verified_badge_ntab_all_badge_is_enabled<br>
+- responsive_web_twitter_blue_verified_badge_ntab_verified_tab_index<br>
