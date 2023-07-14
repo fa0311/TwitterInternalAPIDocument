@@ -265,6 +265,7 @@
   "d7b51c68": "الاشتراكات",
   "ff9ed474": "إجمالي الأرباح",
   "b431a5c6": "Ad Rev Share",
+  "d73814e0": "Ad Rev Share Application",
   "dd0c889e": "تخصيص الملف الشخصيّ",
   "ib35705e": "إدارة الاشتراك",
   "cf131522": "إدارة شارات الحسابات التابعة",
@@ -2277,6 +2278,19 @@
   "da4cd6fa": "Unfortunately, you’re not yet eligible for Ads Revenue Sharing. You’ll need to meet the below requirements to participate:",
   "d3789528": "About Ad Rev Share",
   "iaee3944": "5M+ Tweet impressions in each month for the last 3 months",
+  "e7b9e978": "Ad Revenue Share Application",
+  "b13a8b8e": "Ads Revenue Share",
+  "ea0cfd92": "Earn more for your content on Twitter by applying to the Ads revenue share program.",
+  "eb6d9270": "Get paid for your content",
+  "a778472e": "Details:",
+  "bfd39026": "Payouts are monthly, deposited via your Stripe account",
+  "g67ed846": "Payout amounts vary per month depending on the ad revenue generated on your posts",
+  "cf14c14a": "Minimum payout is $50 per month",
+  "dbe1d026": "Your content must be original and not mostly re-posts of other content",
+  "i6c6debc": "Your account must be Verified",
+  "ffc701a6": "I agree",
+  "jbdd370b": "Twitter Rules",
+  "c54f0e01": "Creator Monetization Standards.",
   "fb00a8ee": "من جهاز الكمبيوتر الخاص بك، يمكنك الآن تحميل وتغريد مقاطع فيديو تصل مدتها إلى 10 دقائق.",
   "h7693c0e": "يمكنك تحميل وتغريد مقاطع فيديو تصل مدتها إلى 10 دقائق.",
   "cac1046e": "عمليات تحميل فيديو بدقة 1080 بكسل",
@@ -2514,6 +2528,8 @@
   "b12f5fe2": "يمكن للمستخدمين الموثَّقين فقط إرسال طلبات الرسائل الخاصة إلى الأشخاص الذين لا يتابعونهم. سجّل في Twitter Blue للمتابعة.",
   "gdf28f56": "تعذرت إضافة بعض المشاركين إلى المحادثة",
   "g2e888ee": "يمكن للمستخدمين الموثَّقين فقط إضافة الأشخاص الذين لا يتابعونهم. سجّل في Twitter Blue للمتابعة.",
+  "df3d6e2c": "Get verified to create a community",
+  "ba2adbf0": "Only verified users can create a community. Sign up for Twitter Blue to continue.",
   "f09be7f8": "وثّق حسابك",
   "hd7d278c": "لا، شكرًا",
   "dd8272fd": "{count} رسا({count},ئل,لةً,لة واحدة,لة,لتان,لة) جديدة",
@@ -3065,8 +3081,8 @@
   "e804a3d8": "يبدو أنك لست مشاركًا في برنامج ملاحظات المجتمع التجريبي. انضم الآن للمساهمة في زيادة الوعي لدى الآخرين على Twitter.",
   "c87f3cf8": "الملاحظة",
   "a5b19492": "هذه الملاحظة غير موجودة",
-  "g5eb5a16": "معرفة المزيد عن ملاحظات المجتمع",
   "c7b59cde": "إعدادات ملاحظات المجتمع",
+  "d63f2781": "Find out more.",
   "e1288bdc": "الحصول على تنبيه في حال احتاجت ملاحظة ما إلى تقييم",
   "ca14eab4": "يمكنك تلقي تنبيهات في حال احتاجت ملاحظة مجتمع إلى تقييمك.",
   "gb2bc3d0": "دائمًا 🔥",
@@ -4327,6 +4343,7 @@
   "d8ed0aae": "هذا الحساب موَثّق لأنه مشترك في ميزة Twitter Blue.",
   "h3f32740": "تغريدات هذا الحساب محميّة. يُمكن لمتابِعيه فقط قراءتها.",
   "g776ca50": "حساب موَثَّق",
+  "ad465ee8": "Set primary affiliation",
   "d01612d3": "موثَّق منذ {date}.",
   "e14d8719": "{year} قبل الميلاد",
   "b7caffb7": "+{name}",

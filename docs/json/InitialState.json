@@ -1838,6 +1838,9 @@
       "responsive_web_twitter_article_seed_tweet_enabled": {
         "value": "false"
       },
+      "responsive_web_twitter_article_seed_tweet_summary_enabled": {
+        "value": "false"
+      },
       "responsive_web_twitter_article_title_limit": {
         "value": "200"
       },
@@ -1887,9 +1890,6 @@
         "value": "false"
       },
       "responsive_web_user_badge_education_get_verified_button_enabled": {
-        "value": "true"
-      },
-      "responsive_web_user_badge_education_redesign_enabled": {
         "value": "true"
       },
       "responsive_web_verified_organizations_affiliate_fetch_limit": {
@@ -4446,6 +4446,9 @@
         "responsive_web_twitter_article_seed_tweet_enabled": {
           "value": "false"
         },
+        "responsive_web_twitter_article_seed_tweet_summary_enabled": {
+          "value": "false"
+        },
         "responsive_web_twitter_article_title_limit": {
           "value": "200"
         },
@@ -4495,9 +4498,6 @@
           "value": "false"
         },
         "responsive_web_user_badge_education_get_verified_button_enabled": {
-          "value": "true"
-        },
-        "responsive_web_user_badge_education_redesign_enabled": {
           "value": "true"
         },
         "responsive_web_verified_organizations_affiliate_fetch_limit": {
@@ -5334,7 +5334,7 @@
       "settingsVersion": "beace7c1990571c35e198e81648b536a"
     },
     "debug": {},
-    "featureSetToken": "e1202c6b849ac8bc1b783236fa883137780fc5e8",
+    "featureSetToken": "6f3a30ae80aa32d405418a466dd7e94f6bd69cbd",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -5404,7 +5404,7 @@
     "country": "US",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "168919603606944956",
+    "guestId": "168928245205502565",
     "hasCommunityMemberships": "false",
     "language": "en",
     "oneFactorLoginEligibility": {

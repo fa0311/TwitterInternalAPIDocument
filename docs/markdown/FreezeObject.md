@@ -1875,6 +1875,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | businessGovernmentVerifiedNewIconsEnabled | False   |
 | webImageLargeWebpVariants                 | False   |
 | redesignedLabelForSubscribedTweets        | False   |
+| renderArticleCardInTweet                  | False   |
 | ...r                                      | _       |
 
 | constant         | value            |
@@ -2311,10 +2312,11 @@ This document is entirely auto-generated and may contain errors.<br>
 | subscriptionSaving | {'backgroundColor': 'green50', 'color': 'green900', 'bold': '!0', 'radius': '9999', 'fontSize': 'subtext3'} |
 | bestValue          | {'backgroundColor': 'green50', 'color': 'green900', 'bold': '!0', 'fontSize': 'subtext3'}                   |
 | mostPopular        | {'backgroundColor': 'purple50', 'color': 'purple900', 'bold': '!0', 'fontSize': 'subtext3'}                 |
-| alt                | S                                                                                                           |
-| gif                | S                                                                                                           |
-| hd                 | S                                                                                                           |
+| alt                | k                                                                                                           |
+| gif                | k                                                                                                           |
+| hd                 | k                                                                                                           |
 | likedByAuthor      | {'backgroundColor': 'gray50', 'bold': '!1', 'color': 'gray700'}                                             |
+| article            | {'bold': '!0', 'backgroundColor': 'gray50', 'color': 'gray700'}                                             |
 
 | constant      | value        |
 |:--------------|:-------------|
@@ -2872,6 +2874,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | AccountVerification              | AccountVerification              |
 | ActiveSessionDetail              | ActiveSessionDetail              |
 | AddMutedKeywordDetail            | AddMutedKeywordDetail            |
+| AdRevShareApplication            | AdRevShareApplication            |
 | AdRevShareEligibility            | AdRevShareEligibility            |
 | Ads                              | Ads                              |
 | AdsPreferences                   | AdsPreferences                   |
@@ -3776,12 +3779,13 @@ This document is entirely auto-generated and may contain errors.<br>
 | DMComposition   | dm_composition   |
 | NoteComposition | note_composition |
 
-| constant        | value           |
-|:----------------|:----------------|
-| RATE_LIMITED    | rate_limited    |
-| CREATE_GROUP    | create_group    |
-| MESSAGE_REQUEST | message_request |
-| ADD_TO_GROUP    | add_to_group    |
+| constant         | value            |
+|:-----------------|:-----------------|
+| RATE_LIMITED     | rate_limited     |
+| CREATE_GROUP     | create_group     |
+| MESSAGE_REQUEST  | message_request  |
+| ADD_TO_GROUP     | add_to_group     |
+| CREATE_COMMUNITY | create_community |
 
 | constant   | value      |
 |:-----------|:-----------|
@@ -4147,7 +4151,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{"ActionsBar":"y.Z","ActionMenu":"function()"{"Icon":"e","isDisabled":"t","items":"n","onOpen":"i"}{"const r=o.useCallback()"{"items":"n","onCloseRequested":"e"}{"Icon":"e","isDisabled":"t","onClick":"i","renderActionMenu":"r"}},"CallToAction":"a.ZP","EditCallout":"v.Z","Education":"C.Z","Highlighte...
+{"ActionsBar":"y.Z","ActionMenu":"function()"{"Icon":"e","isDisabled":"t","items":"n","onOpen":"i"}{"const r=o.useCallback()"{"items":"n","onCloseRequested":"e"}{"Icon":"e","isDisabled":"t","onClick":"i","renderActionMenu":"r"}},"CallToAction":"a.ZP","EditCallout":"k.Z","Education":"S.Z","Highlighte...
 ```
 ```internal process
 # Error
@@ -4304,7 +4308,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{"ActionsBar":"C.Z","ActionMenu":"function()"{"Icon":"e","isDisabled":"t","items":"n","onOpen":"i"}{"const r=o.useCallback()"{"items":"n","onCloseRequested":"e"}{"Icon":"e","isDisabled":"t","onClick":"i","renderActionMenu":"r"}},"CallToAction":"a.ZP","EditCallout":"f.Z","Education":"E.Z","Highlighte...
+{"ActionsBar":"C.Z","ActionMenu":"function()"{"Icon":"e","isDisabled":"t","items":"n","onOpen":"i"}{"const r=o.useCallback()"{"items":"n","onCloseRequested":"e"}{"Icon":"e","isDisabled":"t","onClick":"i","renderActionMenu":"r"}},"CallToAction":"a.ZP","EditCallout":"S.Z","Education":"k.Z","Highlighte...
 ```
 | constant   | value    |
 |:-----------|:---------|
@@ -4520,6 +4524,14 @@ This document is entirely auto-generated and may contain errors.<br>
 | Home       | home    |
 | Latest     | latest  |
 
+| constant         | value            |
+|:-----------------|:-----------------|
+| RATE_LIMITED     | rate_limited     |
+| CREATE_GROUP     | create_group     |
+| MESSAGE_REQUEST  | message_request  |
+| ADD_TO_GROUP     | add_to_group     |
+| CREATE_COMMUNITY | create_community |
+
 | constant       | value           |
 |:---------------|:----------------|
 | Crop           | crop            |
@@ -4705,7 +4717,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{"ActionsBar":"f.Z","ActionMenu":"function()"{"Icon":"e","isDisabled":"t","items":"n","onOpen":"i"}{"const o=r.useCallback()"{"items":"n","onCloseRequested":"e"}{"Icon":"e","isDisabled":"t","onClick":"i","renderActionMenu":"o"}},"CallToAction":"a.ZP","EditCallout":"v.Z","Education":"C.Z","Highlighte...
+{"ActionsBar":"f.Z","ActionMenu":"function()"{"Icon":"e","isDisabled":"t","items":"n","onOpen":"i"}{"const o=r.useCallback()"{"items":"n","onCloseRequested":"e"}{"Icon":"e","isDisabled":"t","onClick":"i","renderActionMenu":"o"}},"CallToAction":"a.ZP","EditCallout":"S.Z","Education":"k.Z","Highlighte...
 ```
 | constant       | value          |
 |:---------------|:---------------|
@@ -5393,6 +5405,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | AppStore   | AppStore  |
 | PlayStore  | PlayStore |
 | Stripe     | Stripe    |
+| Web        | Web       |
 
 | constant   | value   |
 |:-----------|:--------|
@@ -5747,7 +5760,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{"ActionsBar":"C.Z","ActionMenu":"function()"{"Icon":"e","isDisabled":"t","items":"n","onOpen":"i"}{"const o=r.useCallback()"{"items":"n","onCloseRequested":"e"}{"Icon":"e","isDisabled":"t","onClick":"i","renderActionMenu":"o"}},"CallToAction":"a.ZP","EditCallout":"f.Z","Education":"E.Z","Highlighte...
+{"ActionsBar":"C.Z","ActionMenu":"function()"{"Icon":"e","isDisabled":"t","items":"n","onOpen":"i"}{"const o=r.useCallback()"{"items":"n","onCloseRequested":"e"}{"Icon":"e","isDisabled":"t","onClick":"i","renderActionMenu":"o"}},"CallToAction":"a.ZP","EditCallout":"x.Z","Education":"S.Z","Highlighte...
 ```
 | constant   | value    |
 |:-----------|:---------|
@@ -6200,12 +6213,13 @@ This document is entirely auto-generated and may contain errors.<br>
 | unfeatureJob          | unfeatureJob          |
 | configureOrganization | configureOrganization |
 
-| constant        | value           |
-|:----------------|:----------------|
-| RATE_LIMITED    | rate_limited    |
-| CREATE_GROUP    | create_group    |
-| MESSAGE_REQUEST | message_request |
-| ADD_TO_GROUP    | add_to_group    |
+| constant         | value            |
+|:-----------------|:-----------------|
+| RATE_LIMITED     | rate_limited     |
+| CREATE_GROUP     | create_group     |
+| MESSAGE_REQUEST  | message_request  |
+| ADD_TO_GROUP     | add_to_group     |
+| CREATE_COMMUNITY | create_community |
 
 ```internal process
 # Error
