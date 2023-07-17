@@ -110,11 +110,6 @@
       "entities": {},
       "errors": {},
       "fetchStatus": {}
-    },
-    "translationsProfiles": {
-      "entities": {},
-      "errors": {},
-      "fetchStatus": {}
     }
   },
   "featureSwitch": {
@@ -3440,7 +3435,7 @@
           "value": "30000"
         },
         "gryphon_timeline_polling_overrides": {
-          "value": "explore,,60000;search,latest,60000;list,latest,60000;profile,latest,60000"
+          "value": "explore,,60000"
         },
         "gryphon_timeline_polling_top_interval_ms": {
           "value": "120000"
@@ -5333,10 +5328,23 @@
           "value": "false"
         }
       },
-      "impression_pointers": {},
-      "impressions": {},
+      "impression_pointers": {
+        "responsive_web_logged_out_explore_home_path_enabled": [
+          "logged_out_timeline_16271"
+        ],
+        "responsive_web_logged_out_explore_enabled": [
+          "logged_out_timeline_16271"
+        ]
+      },
+      "impressions": {
+        "logged_out_timeline_16271": {
+          "key": "logged_out_timeline_16271",
+          "bucket": "control",
+          "version": "10"
+        }
+      },
       "keysRead": {},
-      "settingsVersion": "0e95c91e429ec2de9dcfa5861a387a04"
+      "settingsVersion": "c5cb344a36d4d3cbc0cc24d9612ec450"
     },
     "debug": {},
     "featureSetToken": "6f3a30ae80aa32d405418a466dd7e94f6bd69cbd",
@@ -5409,7 +5417,7 @@
     "country": "US",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "168954161086052997",
+    "guestId": "168962801705536277",
     "hasCommunityMemberships": "false",
     "language": "en",
     "oneFactorLoginEligibility": {
