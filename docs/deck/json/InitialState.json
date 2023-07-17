@@ -3445,7 +3445,7 @@
           "value": "30000"
         },
         "gryphon_timeline_polling_overrides": {
-          "value": "explore,,60000;search,latest,60000;list,latest,60000;profile,latest,60000"
+          "value": "explore,,60000"
         },
         "gryphon_timeline_polling_top_interval_ms": {
           "value": "120000"
@@ -5300,7 +5300,7 @@
           "value": "false"
         },
         "web_image_large_webp_variants": {
-          "value": "true"
+          "value": "false"
         },
         "web_video_bitrate_persistence_enabled": {
           "value": "false"
@@ -5339,7 +5339,7 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "1e9ebf1e9e0d460766064b7876462e8d"
+      "settingsVersion": "ab83f920b128eeeae03b3c2abaa7a297"
     },
     "debug": {},
     "featureSetToken": "6f3a30ae80aa32d405418a466dd7e94f6bd69cbd",
@@ -5412,7 +5412,7 @@
     "country": "US",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "168954192108437912",
+    "guestId": "168962833410234678",
     "hasCommunityMemberships": "false",
     "language": "en",
     "oneFactorLoginEligibility": {
