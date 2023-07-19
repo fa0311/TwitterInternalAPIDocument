@@ -1130,3 +1130,24 @@
 - responsive_web_twitter_article_seed_tweet_summary_enabled<br>
 #### remove<br>
 - responsive_web_user_badge_education_redesign_enabled<br>
+## 2023/07/18<br>
+### API<br>
+#### add<br>
+- ListsDiscoveryListMixer<br>
+- ListsDiscoveryListMixer<br>
+- PrimaryContentQuery<br>
+- AdRevShareApplicationMutation<br>
+- AdRevShareDashboardScreenQuery<br>
+- useStripeConnectAccountCreateMutation<br>
+#### remove<br>
+- DelegateAlertBannerContainerQuery<br>
+### Feature Switch<br>
+#### add<br>
+- c9s_timelines_top_latest_enabled<br>
+- responsive_web_stripe_account_creation_enabled<br>
+- responsive_web_twitter_article_content_debounce_ms<br>
+#### remove<br>
+- c9s_timelines_ranking_enabled<br>
+- responsive_web_business_government_verified_new_icons_enabled<br>
+- responsive_web_share_action_order_desktop<br>
+- responsive_web_share_action_order_mobile<br>
