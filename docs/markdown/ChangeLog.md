@@ -1151,3 +1151,22 @@
 - responsive_web_business_government_verified_new_icons_enabled<br>
 - responsive_web_share_action_order_desktop<br>
 - responsive_web_share_action_order_mobile<br>
+## 2023/07/20<br>
+### API<br>
+#### add<br>
+- UserPreferences<br>
+- UserPreferences<br>
+- HiddenVerifiedCheckmarkSettingsMutation<br>
+- HiddenVerifiedCheckmarkSettingsQuery<br>
+- ProgramLinkPivotQuery<br>
+- AdRevShareApplicationConfirmationQuery<br>
+- JobsApiDeckContainerMutation<br>
+- SyncAtsJobsSyncMutation<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- recruiting_verified_orgs_ats_integration_enabled<br>
+- subscriptions_is_blue_verified_hide_checkmark_enabled<br>
+#### remove<br>
+- identity_verification_educational_prompt_enabled<br>
