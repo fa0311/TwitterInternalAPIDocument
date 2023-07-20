@@ -3719,7 +3719,7 @@
           "value": "false"
         },
         "recruiting_jobs_list_consumption_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "recruiting_verified_orgs_admin_enabled": {
           "value": "false"
@@ -5217,7 +5217,7 @@
           "value": "false"
         },
         "twitter_delegate_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "ucpd_enabled": {
           "value": "true"
@@ -5330,7 +5330,7 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "beace7c1990571c35e198e81648b536a"
+      "settingsVersion": "4a8d403af8bce5877ebeb182ddae028b"
     },
     "debug": {},
     "featureSetToken": "93068a706810d6dd87cce4df97dd6d8933e72570",
@@ -5403,7 +5403,7 @@
     "country": "US",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "168971439087423043",
+    "guestId": "168980078853272178",
     "hasCommunityMemberships": "false",
     "language": "en",
     "oneFactorLoginEligibility": {
@@ -5443,6 +5443,12 @@
     "updates": {
       "isLoaded": "false",
       "isLoading": "false"
+    }
+  },
+  "ads": {
+    "typeahead": {
+      "targetingLocation": {},
+      "forecastAudience": {}
     }
   }
 }
