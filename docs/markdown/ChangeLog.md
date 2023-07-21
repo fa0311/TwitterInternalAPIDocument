@@ -1170,3 +1170,17 @@
 - subscriptions_is_blue_verified_hide_checkmark_enabled<br>
 #### remove<br>
 - identity_verification_educational_prompt_enabled<br>
+## 2023/07/21<br>
+### API<br>
+#### add<br>
+- ArticleEntityDelete<br>
+- ArticleEntityUnpublish<br>
+- ArticleEntityDelete<br>
+- ArticleEntityUnpublish<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- rweb_panning_nav_behavior<br>
+#### remove<br>
+- None<br>
