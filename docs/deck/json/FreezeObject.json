@@ -5382,7 +5382,7 @@
     "SUCCESS": "rweb/safetyMode/FETCH_SAFETY_MODE_SETTINGS_SUCCESS",
     "FAILURE": "rweb/safetyMode/FETCH_SAFETY_MODE_SETTINGS_FAILURE"
   },
-  "{[I.ActionedTweets]:{\"backLocation\":\"A\",\"confirmationSheetHeadline\":\"()(0,o.X_)\"{\"screenName\":\"m\"}{\"screenName\":\"m\"}},[I.PreviewFlaggedTweets]:{\"backLocation\":\"x\",\"confirmationSheetHeadline\":\"S()\"{\"screenName\":\"m\"}{\"screenName\":\"m\"}}}",
+  "{[P.ActionedTweets]:{\"backLocation\":\"A\",\"confirmationSheetHeadline\":\"()(0,o.X_)\"{\"screenName\":\"m\"}{\"screenName\":\"m\"}},[P.PreviewFlaggedTweets]:{\"backLocation\":\"x\",\"confirmationSheetHeadline\":\"S()\"{\"screenName\":\"m\"}{\"screenName\":\"m\"}}}",
   {
     "ActionedTweets": "actioned_tweets",
     "PreviewFlaggedTweets": "preview_flagged_tweets"
