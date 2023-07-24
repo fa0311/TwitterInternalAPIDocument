@@ -1184,3 +1184,15 @@
 - rweb_panning_nav_behavior<br>
 #### remove<br>
 - None<br>
+## 2023/07/24<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- responsive_web_birdwatch_top_contributor_enabled<br>
+- responsive_web_birdwatch_top_contributor_ratio_cutoff<br>
+#### remove<br>
+- None<br>
