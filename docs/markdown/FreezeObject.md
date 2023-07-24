@@ -2323,7 +2323,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant      | value                                                                                                                                                                                                                                    |
 |:--------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| superFollower | {'graphic': 'g.default', 'headline': 'p().e453f536', 'subtext': 'p().dea63fc4', 'actionLabel': 'p().g7099a02', 'actionLink': 'https://help.twitter.com/en/using-twitter/super-follows#sfexpect', 'secondaryActionLabel': 'p().c2637ef6'} |
+| superFollower | {'graphic': 'm.default', 'headline': 'p().e453f536', 'subtext': 'p().dea63fc4', 'actionLabel': 'p().g7099a02', 'actionLink': 'https://help.twitter.com/en/using-twitter/super-follows#sfexpect', 'secondaryActionLabel': 'p().c2637ef6'} |
 
 | constant        | value        |
 |:----------------|:-------------|
@@ -2703,13 +2703,12 @@ This document is entirely auto-generated and may contain errors.<br>
 | TWEET      | tweets  |
 | USER       | users   |
 
-| constant                  | value                     |
-|:--------------------------|:--------------------------|
-| UserCompact               | UserCompact               |
-| UserConcise               | UserConcise               |
-| UserDetailed              | UserDetailed              |
-| ExperimentalUserTypeahead | ExperimentalUserTypeahead |
-| SubscribableUser          | SubscribableUser          |
+| constant         | value            |
+|:-----------------|:-----------------|
+| UserCompact      | UserCompact      |
+| UserConcise      | UserConcise      |
+| UserDetailed     | UserDetailed     |
+| SubscribableUser | SubscribableUser |
 
 | constant                          | value                             |
 |:----------------------------------|:----------------------------------|
@@ -3359,6 +3358,12 @@ This document is entirely auto-generated and may contain errors.<br>
 | pinnedLists         | pinnedLists         |
 | ownedSubscribedList | ownedSubscribedList |
 
+| constant    | value       |
+|:------------|:------------|
+| Draft       | Draft       |
+| Published   | Published   |
+| SoftDeleted | SoftDeleted |
+
 | constant      | value           |
 |:--------------|:----------------|
 | Author        | author          |
@@ -3455,6 +3460,27 @@ This document is entirely auto-generated and may contain errors.<br>
 | FAILED     | Failed    |
 | PENDING    | Pending   |
 | SCHEDULED  | Scheduled |
+
+| constant   | value   |
+|:-----------|:--------|
+| MEDIA      | MEDIA   |
+| TWEET      | TWEET   |
+
+| constant   | value     |
+|:-----------|:----------|
+| IMMUTABLE  | IMMUTABLE |
+
+| constant   | value      |
+|:-----------|:-----------|
+| GIF        | TweetGif   |
+| IMAGE      | TweetImage |
+| VIDEO      | TweetVideo |
+
+| constant             | value                |
+|:---------------------|:---------------------|
+| TWITTER_ARTICLES_TAB | TWITTER_ARTICLES_TAB |
+| TWITTER_ARTICLE_VIEW | TWITTER_ARTICLE_VIEW |
+| LONGFORM_COMPOSER    | LONGFORM_COMPOSER    |
 
 | constant   | value   |
 |:-----------|:--------|
@@ -3592,38 +3618,6 @@ This document is entirely auto-generated and may contain errors.<br>
 |:-------------|:-------------|
 | homeTimeline | homeTimeline |
 | modal        | modal        |
-
-| constant   | value      |
-|:-----------|:-----------|
-| GIF        | TweetGif   |
-| IMAGE      | TweetImage |
-| VIDEO      | TweetVideo |
-
-| constant   | value     |
-|:-----------|:----------|
-| DRAFT      | Draft     |
-| PUBLISHED  | Published |
-
-| constant   | value       |
-|:-----------|:------------|
-| DRAFT      | i.DRAFT     |
-| PUBLISHED  | i.PUBLISHED |
-| ALL        | void 0      |
-
-| constant   | value   |
-|:-----------|:--------|
-| MEDIA      | MEDIA   |
-| TWEET      | TWEET   |
-
-| constant   | value     |
-|:-----------|:----------|
-| IMMUTABLE  | IMMUTABLE |
-
-| constant             | value                |
-|:---------------------|:---------------------|
-| TWITTER_ARTICLES_TAB | TWITTER_ARTICLES_TAB |
-| TWITTER_ARTICLE_VIEW | TWITTER_ARTICLE_VIEW |
-| LONGFORM_COMPOSER    | LONGFORM_COMPOSER    |
 
 | constant   |   value |
 |:-----------|--------:|
@@ -3828,16 +3822,16 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant                          | value               |
 |:----------------------------------|:--------------------|
-| num_of_followers                  | q.Z.Follow          |
-| bio                               | q.Z.TextOnly        |
-| location                          | q.Z.Location        |
-| num_tweets                        | q.Z.NewTweets       |
-| follow_relationship               | q.Z.Follow          |
-| followers_follow                  | q.Z.Follow          |
-| social_proof                      | q.Z.SocialProof     |
-| follow_relationship_mutual_follow | q.Z.FollowMutual    |
-| follow_relationship_followed      | q.Z.FollowFollowed  |
-| follow_relationship_following     | q.Z.FollowFollowing |
+| num_of_followers                  | B.Z.Follow          |
+| bio                               | B.Z.TextOnly        |
+| location                          | B.Z.Location        |
+| num_tweets                        | B.Z.NewTweets       |
+| follow_relationship               | B.Z.Follow          |
+| followers_follow                  | B.Z.Follow          |
+| social_proof                      | B.Z.SocialProof     |
+| follow_relationship_mutual_follow | B.Z.FollowMutual    |
+| follow_relationship_followed      | B.Z.FollowFollowed  |
+| follow_relationship_following     | B.Z.FollowFollowing |
 | highlighted_label                 | HighlightedIcon     |
 
 | constant   | value   |
@@ -5027,6 +5021,38 @@ This document is entirely auto-generated and may contain errors.<br>
 | Subtitles      | subtitles       |
 | Trimmer        | trimmer         |
 
+| constant   | value      |
+|:-----------|:-----------|
+| GIF        | TweetGif   |
+| IMAGE      | TweetImage |
+| VIDEO      | TweetVideo |
+
+| constant   | value     |
+|:-----------|:----------|
+| DRAFT      | Draft     |
+| PUBLISHED  | Published |
+
+| constant   | value       |
+|:-----------|:------------|
+| DRAFT      | r.DRAFT     |
+| PUBLISHED  | r.PUBLISHED |
+| ALL        | void 0      |
+
+| constant   | value   |
+|:-----------|:--------|
+| MEDIA      | MEDIA   |
+| TWEET      | TWEET   |
+
+| constant   | value     |
+|:-----------|:----------|
+| IMMUTABLE  | IMMUTABLE |
+
+| constant             | value                |
+|:---------------------|:---------------------|
+| TWITTER_ARTICLES_TAB | TWITTER_ARTICLES_TAB |
+| TWITTER_ARTICLE_VIEW | TWITTER_ARTICLE_VIEW |
+| LONGFORM_COMPOSER    | LONGFORM_COMPOSER    |
+
 | constant   | value                               |
 |:-----------|:------------------------------------|
 | reset      | {'_type': 'reset', 'type': 'reset'} |
@@ -5042,12 +5068,6 @@ This document is entirely auto-generated and may contain errors.<br>
 |:------------|:------------|
 | Public      | Public      |
 | Subscribers | Subscribers |
-
-| constant    | value       |
-|:------------|:------------|
-| Draft       | Draft       |
-| Published   | Published   |
-| SoftDeleted | SoftDeleted |
 
 | constant   | value     |
 |:-----------|:----------|
