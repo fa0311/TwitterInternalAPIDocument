@@ -414,8 +414,8 @@
   {
     "cardWidth": "o",
     "columnWidths": "t",
-    "sideNavWidths": "r",
-    "contentWidths": "a",
+    "sideNavWidths": "a",
+    "contentWidths": "r",
     "wideTabBarWidth": "l",
     "dmDrawerHeight": "i",
     "dmDrawerWidth": "u"
@@ -468,19 +468,19 @@
   },
   {
     "...t": "_",
-    "...r": "_"
+    "...a": "_"
   },
-  "{[a.HOME]:\"!0\",[a.HOME_LATEST]:\"!0\",[a.CREATOR_SUBSCRIPTIONS]:\"super_follow_subscriptions_home_timeline_tab_sticky_enabled\",[a.LIST]:\"!1\"}",
+  "{[r.HOME]:\"!0\",[r.HOME_LATEST]:\"!0\",[r.CREATOR_SUBSCRIPTIONS]:\"super_follow_subscriptions_home_timeline_tab_sticky_enabled\",[r.LIST]:\"!1\"}",
   {
-    "type": "a.HOME"
-  },
-  {
-    "type": "a.HOME_LATEST"
+    "type": "r.HOME"
   },
   {
-    "type": "a.CREATOR_SUBSCRIPTIONS"
+    "type": "r.HOME_LATEST"
   },
-  "{[a.HOME]:\"home\",[a.HOME_LATEST]:\"latest\",[a.LIST]:\"pinned_list\",[a.CREATOR_SUBSCRIPTIONS]:\"subscribed\"}",
+  {
+    "type": "r.CREATOR_SUBSCRIPTIONS"
+  },
+  "{[r.HOME]:\"home\",[r.HOME_LATEST]:\"latest\",[r.LIST]:\"pinned_list\",[r.CREATOR_SUBSCRIPTIONS]:\"subscribed\"}",
   {
     "ContinueWith": "continue_with",
     "LogIn": "login",
@@ -787,7 +787,7 @@
     "Events": "events"
   },
   {
-    "...r.YE": "_",
+    "...a.YE": "_",
     "EMBEDDED_MEDIA": "embedded_media",
     "FOOTER_PROFILE": "footer_profile",
     "HASHTAG_CLICK": "hashtag_click",
@@ -806,7 +806,7 @@
     "TREND_VIEW": "trend_view",
     "TREND_CLICK": "trend_click"
   },
-  "{[t.Z.CASHTAG]:\"void 0\",[t.Z.EMOJI]:\"void 0\",[t.Z.HASHTAG]:\"a.HASHTAG_CLICK\",[t.Z.MEDIA]:\"void 0\",[t.Z.MENTION]:\"a.USER_MENTION_CLICK\",[t.Z.TEXT]:\"void 0\",[t.Z.URL]:\"a.URL_CLICK\"}",
+  "{[t.Z.CASHTAG]:\"void 0\",[t.Z.EMOJI]:\"void 0\",[t.Z.HASHTAG]:\"r.HASHTAG_CLICK\",[t.Z.MEDIA]:\"void 0\",[t.Z.MENTION]:\"r.USER_MENTION_CLICK\",[t.Z.TEXT]:\"void 0\",[t.Z.URL]:\"r.URL_CLICK\"}",
   {
     "TWEET": "tweets",
     "USER": "users"
@@ -1128,7 +1128,7 @@
   },
   {
     "...t": "_",
-    "...r": "_",
+    "...a": "_",
     "Community": "Community",
     "Pin": "Pin",
     "Like": "Like",
@@ -1799,7 +1799,7 @@
     "webImageLargeWebpVariants": "!1",
     "redesignedLabelForSubscribedTweets": "!1",
     "renderArticleCardInTweet": "!1",
-    "...a": "_"
+    "...r": "_"
   },
   {
     "CommunityNotes": "CommunityNotes",
@@ -1986,7 +1986,7 @@
   },
   {
     "...l()": "_",
-    "activeFaintGray": "rgba(a.CV.light)",
+    "activeFaintGray": "rgba(r.CV.light)",
     "activeBlack": "o.bs.black(230, 236, 240, 0.7)",
     "hoverBlack": "o.bs.black(.07)",
     "navigationBackground": "o.Cj",
@@ -2030,7 +2030,7 @@
   },
   {
     "...l()": "_",
-    "activeFaintGray": "rgba(a.CV.dark)",
+    "activeFaintGray": "rgba(r.CV.dark)",
     "activeBlack": "o.bs.white(20, 29, 38, 0.7)",
     "hoverBlack": "o.bs.white(.07)",
     "navigationBackground": "#15202B",
@@ -2068,7 +2068,7 @@
   },
   {
     "...l()": "_",
-    "activeFaintGray": "rgba(a.CV.darker)",
+    "activeFaintGray": "rgba(r.CV.darker)",
     "activeBlack": "o.bs.white(18, 21, 23, 0.7)",
     "hoverBlack": "o.bs.white(.07)",
     "navigationBackground": "o.E5",
@@ -2144,7 +2144,7 @@
     "borderRadiiPx": "i",
     "borderWidths": "c",
     "borderWidthsPx": "s",
-    "breakpoints": "a",
+    "breakpoints": "r",
     "componentDimensions": "v",
     "componentZIndices": "o",
     "fontSizes": "M",
@@ -2157,7 +2157,7 @@
     "spaces": "S",
     "spacesPx": "D"
   },
-  "{\"...m()\":{\"scale\":\"o\"}\"ad0\",A.obn,d,\"r\"}",
+  "{\"...m()\":{\"scale\":\"o\"}\"rd0\",A.obn,d,\"a\"}",
   {
     "UNKNOWN": "0",
     "TOP_LEFT": "1",
@@ -2587,6 +2587,17 @@
     "TimedOut": "TimedOut"
   },
   {
+    "TWEET": "tweets",
+    "USER": "users"
+  },
+  {
+    "UserCompact": "UserCompact",
+    "UserConcise": "UserConcise",
+    "UserDetailed": "UserDetailed",
+    "ExperimentalUserTypeahead": "ExperimentalUserTypeahead",
+    "SubscribableUser": "SubscribableUser"
+  },
+  {
     "About": "About",
     "Accessibility": "Accessibility",
     "AccessibilityDisplayAndLanguages": "AccessibilityDisplayAndLanguages",
@@ -2843,6 +2854,36 @@
   {
     "CashtagClick": "cashtag_click",
     "HashtagClick": "hashtag_click"
+  },
+  {
+    "Bird": "Bird",
+    "Community": "Community",
+    "Conversation": "Conversation",
+    "Facepile": "Facepile",
+    "Feedback": "Feedback",
+    "Follow": "Follow",
+    "FollowFollowed": "FollowFollowed",
+    "FollowFollowing": "FollowFollowing",
+    "FollowMutual": "FollowMutual",
+    "Like": "Like",
+    "List": "List",
+    "Location": "Location",
+    "Megaphone": "Megaphone",
+    "Moment": "Moment",
+    "NewTweets": "NewTweets",
+    "NewUser": "NewUser",
+    "Pin": "Pin",
+    "Reply": "Reply",
+    "RelatedTweets": "RelatedTweets",
+    "ReplyPin": "ReplyPin",
+    "Retweet": "Retweet",
+    "SmartBlockExpiration": "SmartBlockExpiration",
+    "SocialProof": "SocialProof",
+    "Spaces": "Spaces",
+    "Sparkle": "Sparkle",
+    "TextOnly": "TextOnly",
+    "Topic": "Topic",
+    "Trending": "Trending"
   },
   {
     "normal": "100",
@@ -3478,47 +3519,6 @@
   {
     "CashtagClick": "cashtag_click",
     "HashtagClick": "hashtag_click"
-  },
-  {
-    "TWEET": "tweets",
-    "USER": "users"
-  },
-  {
-    "UserCompact": "UserCompact",
-    "UserConcise": "UserConcise",
-    "UserDetailed": "UserDetailed",
-    "ExperimentalUserTypeahead": "ExperimentalUserTypeahead",
-    "SubscribableUser": "SubscribableUser"
-  },
-  {
-    "Bird": "Bird",
-    "Community": "Community",
-    "Conversation": "Conversation",
-    "Facepile": "Facepile",
-    "Feedback": "Feedback",
-    "Follow": "Follow",
-    "FollowFollowed": "FollowFollowed",
-    "FollowFollowing": "FollowFollowing",
-    "FollowMutual": "FollowMutual",
-    "Like": "Like",
-    "List": "List",
-    "Location": "Location",
-    "Megaphone": "Megaphone",
-    "Moment": "Moment",
-    "NewTweets": "NewTweets",
-    "NewUser": "NewUser",
-    "Pin": "Pin",
-    "Reply": "Reply",
-    "RelatedTweets": "RelatedTweets",
-    "ReplyPin": "ReplyPin",
-    "Retweet": "Retweet",
-    "SmartBlockExpiration": "SmartBlockExpiration",
-    "SocialProof": "SocialProof",
-    "Spaces": "Spaces",
-    "Sparkle": "Sparkle",
-    "TextOnly": "TextOnly",
-    "Topic": "Topic",
-    "Trending": "Trending"
   },
   {
     "normal": "100",
@@ -4427,7 +4427,8 @@
   },
   {
     "Notes": "Notes",
-    "Ratings": "Ratings"
+    "Ratings": "Ratings",
+    "TopContributor": "TopContributor"
   },
   {
     "Positive": "Positive",
@@ -4445,11 +4446,11 @@
     },
     "openSuccessful": {
       "shouldShow": "!0",
-      "badgeType": "N.Ratings"
+      "badgeType": "I.Ratings"
     },
     "openHelpful": {
       "shouldShow": "!0",
-      "badgeType": "N.Notes"
+      "badgeType": "I.Notes"
     }
   },
   {
@@ -5113,7 +5114,7 @@
     "Bold": "BOLD",
     "Italic": "ITALIC"
   },
-  "{\"ActionsBar\":\"w.Z\",\"ActionMenu\":\"function()\"{\"Icon\":\"e\",\"isDisabled\":\"t\",\"items\":\"n\",\"onOpen\":\"r\"}{\"const o=i.useCallback()\"{\"items\":\"n\",\"onCloseRequested\":\"e\"}{\"Icon\":\"e\",\"isDisabled\":\"t\",\"onClick\":\"r\",\"renderActionMenu\":\"o\"}},\"CallToAction\":\"a.ZP\",\"EditCallout\":\"D.Z\",\"Education\":\"I.Z\",\"HighlightedUserLabel\":\"l.Z\",\"Media\":\"A.Z\",\"Place\":\"o.ZP\",\"PromotedDetails\":\"d.Z\",\"PromotedUserProfileCard\":\"L\",\"ReplyContext\":\"R.ZP\",\"RichContent\":\"F.Z\",\"SocialContext\":\"g.Z\",\"Text\":\"Z.Z\",\"Tombstone\":\"m.Z\",\"Timestamp\":\"p.Z\",\"UserAvatar\":\"B.Z\",\"UserFollowIndicator\":\"N.Z\",\"UserName\":\"K.Z\",\"ArticleCard\":\"k\"}",
+  "{\"ActionsBar\":\"w.Z\",\"ActionMenu\":\"function()\"{\"Icon\":\"e\",\"isDisabled\":\"t\",\"items\":\"n\",\"onOpen\":\"r\"}{\"const o=i.useCallback()\"{\"items\":\"n\",\"onCloseRequested\":\"e\"}{\"Icon\":\"e\",\"isDisabled\":\"t\",\"onClick\":\"r\",\"renderActionMenu\":\"o\"}},\"CallToAction\":\"a.ZP\",\"EditCallout\":\"D.Z\",\"Education\":\"I.Z\",\"HighlightedUserLabel\":\"l.Z\",\"Media\":\"A.Z\",\"Place\":\"o.ZP\",\"PromotedDetails\":\"d.Z\",\"PromotedUserProfileCard\":\"L\",\"ReplyContext\":\"R.ZP\",\"RichContent\":\"F.Z\",\"SocialContext\":\"g.Z\",\"Text\":\"B.Z\",\"Tombstone\":\"m.Z\",\"Timestamp\":\"p.Z\",\"UserAvatar\":\"K.Z\",\"UserFollowIndicator\":\"N.Z\",\"UserName\":\"Z.Z\",\"ArticleCard\":\"k\"}",
   {
     "TWEET_CARET": "tweet_caret",
     "PROFILE": "user_profile",
