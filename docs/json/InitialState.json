@@ -1240,6 +1240,12 @@
       "responsive_web_birdwatch_site_enabled": {
         "value": "true"
       },
+      "responsive_web_birdwatch_top_contributor_enabled": {
+        "value": "false"
+      },
+      "responsive_web_birdwatch_top_contributor_ratio_cutoff": {
+        "value": "4"
+      },
       "responsive_web_birdwatch_top_contributor_score_cutoff": {
         "value": "10"
       },
@@ -3851,6 +3857,12 @@
         "responsive_web_birdwatch_site_enabled": {
           "value": "true"
         },
+        "responsive_web_birdwatch_top_contributor_enabled": {
+          "value": "false"
+        },
+        "responsive_web_birdwatch_top_contributor_ratio_cutoff": {
+          "value": "4"
+        },
         "responsive_web_birdwatch_top_contributor_score_cutoff": {
           "value": "10"
         },
@@ -5340,7 +5352,7 @@
       "settingsVersion": "e98417ffff2e1fbf13ea348e764939c1"
     },
     "debug": {},
-    "featureSetToken": "c8885c395062acf68b60424231f90ab4273a1be7",
+    "featureSetToken": "92af34f3fb62bd4ad309f363fc128947b4577414",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -5410,7 +5422,7 @@
     "country": "US",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "169014638770108246",
+    "guestId": "169019811497812332",
     "hasCommunityMemberships": "false",
     "language": "en",
     "oneFactorLoginEligibility": {
@@ -5421,12 +5433,6 @@
   "developer": {
     "dtabBarInfo": {
       "hide": "false"
-    }
-  },
-  "ads": {
-    "typeahead": {
-      "targetingLocation": {},
-      "forecastAudience": {}
     }
   }
 }
