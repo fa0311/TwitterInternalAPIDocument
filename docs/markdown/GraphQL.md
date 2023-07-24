@@ -13306,6 +13306,17 @@ Login Required: `...`<br>
 `None`<br>
 #### queryId<br>
 `None`<br>
+## DelegatedAccountListQuery<br>
+Request URL: `https://twitter.com/i/api/graphql/JLJ7DuNkbMTyl96zVOtH0Q/DelegatedAccountListQuery`<br>
+Request Method: `GET`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
 ## CommunitiesDashMenuItemQuery<br>
 Request URL: `https://twitter.com/i/api/graphql/cFC8pqLWsfzTUOY674C6OA/CommunitiesDashMenuItemQuery`<br>
 Request Method: `GET`<br>
@@ -13348,17 +13359,6 @@ Login Required: `...`<br>
 | verified_phone_label_enabled                                            | boolean | False      |
 | view_counts_everywhere_api_enabled                                      | boolean | True       |
 
-#### queryId<br>
-`None`<br>
-## DelegatedAccountListQuery<br>
-Request URL: `https://twitter.com/i/api/graphql/JLJ7DuNkbMTyl96zVOtH0Q/DelegatedAccountListQuery`<br>
-Request Method: `GET`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-`None`<br>
 #### queryId<br>
 `None`<br>
 ## AccountSwitcherDelegateQuery<br>
@@ -14116,7 +14116,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## MonetizationCreatorSettingsQuery<br>
-Request URL: `https://twitter.com/i/api/graphql/JG4PKdXPPISCFoA0_Kt9gg/MonetizationCreatorSettingsQuery`<br>
+Request URL: `https://twitter.com/i/api/graphql/ahqosLt4DRBDtwLWCtETIQ/MonetizationCreatorSettingsQuery`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -14413,7 +14413,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## AdRevShareApplicationQuery<br>
-Request URL: `https://twitter.com/i/api/graphql/Z3h2-itJOJ0nhdASx_Isyg/AdRevShareApplicationQuery`<br>
+Request URL: `https://twitter.com/i/api/graphql/as9YjV4wKSpVHCVnGkDVEA/AdRevShareApplicationQuery`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -14424,7 +14424,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## AdRevShareDashboardScreenQuery<br>
-Request URL: `https://twitter.com/i/api/graphql/cKSW0xGeB4gPaDTj8tAp-w/AdRevShareDashboardScreenQuery`<br>
+Request URL: `https://twitter.com/i/api/graphql/fnn_1MIuDUD6ar84wdtmfw/AdRevShareDashboardScreenQuery`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -14731,7 +14731,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## UserJobListQueryScreenJobsQuery<br>
-Request URL: `https://twitter.com/i/api/graphql/XNEaR2j4YgcxfzmW2n_cew/UserJobListQueryScreenJobsQuery`<br>
+Request URL: `https://twitter.com/i/api/graphql/JARKPRa82Y0cRt8x9CwnIQ/UserJobListQueryScreenJobsQuery`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>

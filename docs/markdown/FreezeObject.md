@@ -419,8 +419,8 @@ This document is entirely auto-generated and may contain errors.<br>
 |:----------------|:--------|
 | cardWidth       | o       |
 | columnWidths    | t       |
-| sideNavWidths   | r       |
-| contentWidths   | a       |
+| sideNavWidths   | a       |
+| contentWidths   | r       |
 | wideTabBarWidth | l       |
 | dmDrawerHeight  | i       |
 | dmDrawerWidth   | u       |
@@ -483,27 +483,27 @@ This document is entirely auto-generated and may contain errors.<br>
 | constant   | value   |
 |:-----------|:--------|
 | ...t       | _       |
-| ...r       | _       |
+| ...a       | _       |
 
 ```internal process
 # Error
-{[a.HOME]:"!0",[a.HOME_LATEST]:"!0",[a.CREATOR_SUBSCRIPTIONS]:"super_follow_subscriptions_home_timeline_tab_sticky_enabled",[a.LIST]:"!1"}
+{[r.HOME]:"!0",[r.HOME_LATEST]:"!0",[r.CREATOR_SUBSCRIPTIONS]:"super_follow_subscriptions_home_timeline_tab_sticky_enabled",[r.LIST]:"!1"}
 ```
 | constant   | value   |
 |:-----------|:--------|
-| type       | a.HOME  |
+| type       | r.HOME  |
 
 | constant   | value         |
 |:-----------|:--------------|
-| type       | a.HOME_LATEST |
+| type       | r.HOME_LATEST |
 
 | constant   | value                   |
 |:-----------|:------------------------|
-| type       | a.CREATOR_SUBSCRIPTIONS |
+| type       | r.CREATOR_SUBSCRIPTIONS |
 
 ```internal process
 # Error
-{[a.HOME]:"home",[a.HOME_LATEST]:"latest",[a.LIST]:"pinned_list",[a.CREATOR_SUBSCRIPTIONS]:"subscribed"}
+{[r.HOME]:"home",[r.HOME_LATEST]:"latest",[r.LIST]:"pinned_list",[r.CREATOR_SUBSCRIPTIONS]:"subscribed"}
 ```
 | constant     | value         |
 |:-------------|:--------------|
@@ -856,7 +856,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant            | value               |
 |:--------------------|:--------------------|
-| ...r.YE             | _                   |
+| ...a.YE             | _                   |
 | EMBEDDED_MEDIA      | embedded_media      |
 | FOOTER_PROFILE      | footer_profile      |
 | HASHTAG_CLICK       | hashtag_click       |
@@ -878,7 +878,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{[t.Z.CASHTAG]:"void 0",[t.Z.EMOJI]:"void 0",[t.Z.HASHTAG]:"a.HASHTAG_CLICK",[t.Z.MEDIA]:"void 0",[t.Z.MENTION]:"a.USER_MENTION_CLICK",[t.Z.TEXT]:"void 0",[t.Z.URL]:"a.URL_CLICK"}
+{[t.Z.CASHTAG]:"void 0",[t.Z.EMOJI]:"void 0",[t.Z.HASHTAG]:"r.HASHTAG_CLICK",[t.Z.MEDIA]:"void 0",[t.Z.MENTION]:"r.USER_MENTION_CLICK",[t.Z.TEXT]:"void 0",[t.Z.URL]:"r.URL_CLICK"}
 ```
 | constant   | value   |
 |:-----------|:--------|
@@ -1172,7 +1172,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | constant             | value                |
 |:---------------------|:---------------------|
 | ...t                 | _                    |
-| ...r                 | _                    |
+| ...a                 | _                    |
 | Community            | Community            |
 | Pin                  | Pin                  |
 | Like                 | Like                 |
@@ -1875,7 +1875,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | webImageLargeWebpVariants                 | False   |
 | redesignedLabelForSubscribedTweets        | False   |
 | renderArticleCardInTweet                  | False   |
-| ...a                                      | _       |
+| ...r                                      | _       |
 
 | constant         | value            |
 |:-----------------|:-----------------|
@@ -2082,7 +2082,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | constant                        | value                          |
 |:--------------------------------|:-------------------------------|
 | ...l()                          | _                              |
-| activeFaintGray                 | rgba(a.CV.light)               |
+| activeFaintGray                 | rgba(r.CV.light)               |
 | activeBlack                     | o.bs.black(230, 236, 240, 0.7) |
 | hoverBlack                      | o.bs.black(.07)                |
 | navigationBackground            | o.Cj                           |
@@ -2128,7 +2128,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | constant                        | value                        |
 |:--------------------------------|:-----------------------------|
 | ...l()                          | _                            |
-| activeFaintGray                 | rgba(a.CV.dark)              |
+| activeFaintGray                 | rgba(r.CV.dark)              |
 | activeBlack                     | o.bs.white(20, 29, 38, 0.7)  |
 | hoverBlack                      | o.bs.white(.07)              |
 | navigationBackground            | #15202B                      |
@@ -2168,7 +2168,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | constant                        | value                        |
 |:--------------------------------|:-----------------------------|
 | ...l()                          | _                            |
-| activeFaintGray                 | rgba(a.CV.darker)            |
+| activeFaintGray                 | rgba(r.CV.darker)            |
 | activeBlack                     | o.bs.white(18, 21, 23, 0.7)  |
 | hoverBlack                      | o.bs.white(.07)              |
 | navigationBackground            | o.E5                         |
@@ -2248,7 +2248,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | borderRadiiPx       | i       |
 | borderWidths        | c       |
 | borderWidthsPx      | s       |
-| breakpoints         | a       |
+| breakpoints         | r       |
 | componentDimensions | v       |
 | componentZIndices   | o       |
 | fontSizes           | M       |
@@ -2263,7 +2263,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{"...m()":{"scale":"o"}"ad0",A.obn,d,"r"}
+{"...m()":{"scale":"o"}"rd0",A.obn,d,"a"}
 ```
 | constant     |   value |
 |:-------------|--------:|
@@ -2698,6 +2698,19 @@ This document is entirely auto-generated and may contain errors.<br>
 | Running      | Running      |
 | TimedOut     | TimedOut     |
 
+| constant   | value   |
+|:-----------|:--------|
+| TWEET      | tweets  |
+| USER       | users   |
+
+| constant                  | value                     |
+|:--------------------------|:--------------------------|
+| UserCompact               | UserCompact               |
+| UserConcise               | UserConcise               |
+| UserDetailed              | UserDetailed              |
+| ExperimentalUserTypeahead | ExperimentalUserTypeahead |
+| SubscribableUser          | SubscribableUser          |
+
 | constant                          | value                             |
 |:----------------------------------|:----------------------------------|
 | About                             | About                             |
@@ -2978,6 +2991,37 @@ This document is entirely auto-generated and may contain errors.<br>
 |:-------------|:--------------|
 | CashtagClick | cashtag_click |
 | HashtagClick | hashtag_click |
+
+| constant             | value                |
+|:---------------------|:---------------------|
+| Bird                 | Bird                 |
+| Community            | Community            |
+| Conversation         | Conversation         |
+| Facepile             | Facepile             |
+| Feedback             | Feedback             |
+| Follow               | Follow               |
+| FollowFollowed       | FollowFollowed       |
+| FollowFollowing      | FollowFollowing      |
+| FollowMutual         | FollowMutual         |
+| Like                 | Like                 |
+| List                 | List                 |
+| Location             | Location             |
+| Megaphone            | Megaphone            |
+| Moment               | Moment               |
+| NewTweets            | NewTweets            |
+| NewUser              | NewUser              |
+| Pin                  | Pin                  |
+| Reply                | Reply                |
+| RelatedTweets        | RelatedTweets        |
+| ReplyPin             | ReplyPin             |
+| Retweet              | Retweet              |
+| SmartBlockExpiration | SmartBlockExpiration |
+| SocialProof          | SocialProof          |
+| Spaces               | Spaces               |
+| Sparkle              | Sparkle              |
+| TextOnly             | TextOnly             |
+| Topic                | Topic                |
+| Trending             | Trending             |
 
 | constant   |   value |
 |:-----------|--------:|
@@ -3684,50 +3728,6 @@ This document is entirely auto-generated and may contain errors.<br>
 |:-------------|:--------------|
 | CashtagClick | cashtag_click |
 | HashtagClick | hashtag_click |
-
-| constant   | value   |
-|:-----------|:--------|
-| TWEET      | tweets  |
-| USER       | users   |
-
-| constant                  | value                     |
-|:--------------------------|:--------------------------|
-| UserCompact               | UserCompact               |
-| UserConcise               | UserConcise               |
-| UserDetailed              | UserDetailed              |
-| ExperimentalUserTypeahead | ExperimentalUserTypeahead |
-| SubscribableUser          | SubscribableUser          |
-
-| constant             | value                |
-|:---------------------|:---------------------|
-| Bird                 | Bird                 |
-| Community            | Community            |
-| Conversation         | Conversation         |
-| Facepile             | Facepile             |
-| Feedback             | Feedback             |
-| Follow               | Follow               |
-| FollowFollowed       | FollowFollowed       |
-| FollowFollowing      | FollowFollowing      |
-| FollowMutual         | FollowMutual         |
-| Like                 | Like                 |
-| List                 | List                 |
-| Location             | Location             |
-| Megaphone            | Megaphone            |
-| Moment               | Moment               |
-| NewTweets            | NewTweets            |
-| NewUser              | NewUser              |
-| Pin                  | Pin                  |
-| Reply                | Reply                |
-| RelatedTweets        | RelatedTweets        |
-| ReplyPin             | ReplyPin             |
-| Retweet              | Retweet              |
-| SmartBlockExpiration | SmartBlockExpiration |
-| SocialProof          | SocialProof          |
-| Spaces               | Spaces               |
-| Sparkle              | Sparkle              |
-| TextOnly             | TextOnly             |
-| Topic                | Topic                |
-| Trending             | Trending             |
 
 | constant   |   value |
 |:-----------|--------:|
@@ -4758,10 +4758,11 @@ This document is entirely auto-generated and may contain errors.<br>
 | NoteNotNeeded       | NoteNotNeeded       |
 | Other               | Other               |
 
-| constant   | value   |
-|:-----------|:--------|
-| Notes      | Notes   |
-| Ratings    | Ratings |
+| constant       | value          |
+|:---------------|:---------------|
+| Notes          | Notes          |
+| Ratings        | Ratings        |
+| TopContributor | TopContributor |
 
 | constant   | value    |
 |:-----------|:---------|
@@ -4778,8 +4779,8 @@ This document is entirely auto-generated and may contain errors.<br>
 | constant       | value                                          |
 |:---------------|:-----------------------------------------------|
 | closed         | {'shouldShow': '!1'}                           |
-| openSuccessful | {'shouldShow': '!0', 'badgeType': 'N.Ratings'} |
-| openHelpful    | {'shouldShow': '!0', 'badgeType': 'N.Notes'}   |
+| openSuccessful | {'shouldShow': '!0', 'badgeType': 'I.Ratings'} |
+| openHelpful    | {'shouldShow': '!0', 'badgeType': 'I.Notes'}   |
 
 | constant   | value                                               |
 |:-----------|:----------------------------------------------------|
