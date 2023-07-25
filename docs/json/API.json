@@ -826,6 +826,12 @@
       "method": "GET",
       "features": {}
     },
+    "BirdwatchFetchSignUpEligiblity": {
+      "url": "https://twitter.com/i/api/graphql/yASGrjmFWghK2T0XC3uGVg/BirdwatchFetchSignUpEligiblity",
+      "queryId": "yASGrjmFWghK2T0XC3uGVg",
+      "method": "GET",
+      "features": {}
+    },
     "BirdwatchProfileAcknowledgeEarnOut": {
       "url": "https://twitter.com/i/api/graphql/cED9wJy8Nd1kZCCYuIq9zQ/BirdwatchProfileAcknowledgeEarnOut",
       "queryId": "cED9wJy8Nd1kZCCYuIq9zQ",
