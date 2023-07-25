@@ -2238,7 +2238,7 @@
   },
   {
     "superFollower": {
-      "graphic": "g.default",
+      "graphic": "m.default",
       "headline": "p().e453f536",
       "subtext": "p().dea63fc4",
       "actionLabel": "p().g7099a02",
@@ -2594,7 +2594,6 @@
     "UserCompact": "UserCompact",
     "UserConcise": "UserConcise",
     "UserDetailed": "UserDetailed",
-    "ExperimentalUserTypeahead": "ExperimentalUserTypeahead",
     "SubscribableUser": "SubscribableUser"
   },
   {
@@ -3205,6 +3204,11 @@
     "ownedSubscribedList": "ownedSubscribedList"
   },
   {
+    "Draft": "Draft",
+    "Published": "Published",
+    "SoftDeleted": "SoftDeleted"
+  },
+  {
     "Author": "author",
     "LikedByAuthor": "liked-by-author"
   },
@@ -3287,6 +3291,23 @@
     "FAILED": "Failed",
     "PENDING": "Pending",
     "SCHEDULED": "Scheduled"
+  },
+  {
+    "MEDIA": "MEDIA",
+    "TWEET": "TWEET"
+  },
+  {
+    "IMMUTABLE": "IMMUTABLE"
+  },
+  {
+    "GIF": "TweetGif",
+    "IMAGE": "TweetImage",
+    "VIDEO": "TweetVideo"
+  },
+  {
+    "TWITTER_ARTICLES_TAB": "TWITTER_ARTICLES_TAB",
+    "TWITTER_ARTICLE_VIEW": "TWITTER_ARTICLE_VIEW",
+    "LONGFORM_COMPOSER": "LONGFORM_COMPOSER"
   },
   {
     "domains": "void 0",
@@ -3406,32 +3427,6 @@
   {
     "homeTimeline": "homeTimeline",
     "modal": "modal"
-  },
-  {
-    "GIF": "TweetGif",
-    "IMAGE": "TweetImage",
-    "VIDEO": "TweetVideo"
-  },
-  {
-    "DRAFT": "Draft",
-    "PUBLISHED": "Published"
-  },
-  {
-    "DRAFT": "i.DRAFT",
-    "PUBLISHED": "i.PUBLISHED",
-    "ALL": "void 0"
-  },
-  {
-    "MEDIA": "MEDIA",
-    "TWEET": "TWEET"
-  },
-  {
-    "IMMUTABLE": "IMMUTABLE"
-  },
-  {
-    "TWITTER_ARTICLES_TAB": "TWITTER_ARTICLES_TAB",
-    "TWITTER_ARTICLE_VIEW": "TWITTER_ARTICLE_VIEW",
-    "LONGFORM_COMPOSER": "LONGFORM_COMPOSER"
   },
   {
     "normal": "100",
@@ -3605,16 +3600,16 @@
     "MESSAGE": "message"
   },
   {
-    "num_of_followers": "q.Z.Follow",
-    "bio": "q.Z.TextOnly",
-    "location": "q.Z.Location",
-    "num_tweets": "q.Z.NewTweets",
-    "follow_relationship": "q.Z.Follow",
-    "followers_follow": "q.Z.Follow",
-    "social_proof": "q.Z.SocialProof",
-    "follow_relationship_mutual_follow": "q.Z.FollowMutual",
-    "follow_relationship_followed": "q.Z.FollowFollowed",
-    "follow_relationship_following": "q.Z.FollowFollowing",
+    "num_of_followers": "B.Z.Follow",
+    "bio": "B.Z.TextOnly",
+    "location": "B.Z.Location",
+    "num_tweets": "B.Z.NewTweets",
+    "follow_relationship": "B.Z.Follow",
+    "followers_follow": "B.Z.Follow",
+    "social_proof": "B.Z.SocialProof",
+    "follow_relationship_mutual_follow": "B.Z.FollowMutual",
+    "follow_relationship_followed": "B.Z.FollowFollowed",
+    "follow_relationship_following": "B.Z.FollowFollowing",
     "highlighted_label": "HighlightedIcon"
   },
   {
@@ -4655,6 +4650,32 @@
     "Trimmer": "trimmer"
   },
   {
+    "GIF": "TweetGif",
+    "IMAGE": "TweetImage",
+    "VIDEO": "TweetVideo"
+  },
+  {
+    "DRAFT": "Draft",
+    "PUBLISHED": "Published"
+  },
+  {
+    "DRAFT": "r.DRAFT",
+    "PUBLISHED": "r.PUBLISHED",
+    "ALL": "void 0"
+  },
+  {
+    "MEDIA": "MEDIA",
+    "TWEET": "TWEET"
+  },
+  {
+    "IMMUTABLE": "IMMUTABLE"
+  },
+  {
+    "TWITTER_ARTICLES_TAB": "TWITTER_ARTICLES_TAB",
+    "TWITTER_ARTICLE_VIEW": "TWITTER_ARTICLE_VIEW",
+    "LONGFORM_COMPOSER": "LONGFORM_COMPOSER"
+  },
+  {
     "reset": {
       "_type": "reset",
       "type": "reset"
@@ -4672,11 +4693,6 @@
   {
     "Public": "Public",
     "Subscribers": "Subscribers"
-  },
-  {
-    "Draft": "Draft",
-    "Published": "Published",
-    "SoftDeleted": "SoftDeleted"
   },
   {
     "ALL": "All",
