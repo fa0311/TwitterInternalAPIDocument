@@ -2682,6 +2682,21 @@
     }
   },
   {
+    "n": "57246",
+    "exports": {
+      "queryId": "yASGrjmFWghK2T0XC3uGVg",
+      "operationName": "BirdwatchFetchSignUpEligiblity",
+      "operationType": "query",
+      "metadata": {
+        "featureSwitches": [
+          "responsive_web_birdwatch_signup_prompt_enabled"
+        ],
+        "fieldToggles": [],
+        "featureSwitch": {}
+      }
+    }
+  },
+  {
     "n": "85949",
     "exports": {
       "queryId": "cED9wJy8Nd1kZCCYuIq9zQ",
@@ -21797,6 +21812,21 @@
       "operationType": "query",
       "metadata": {
         "featureSwitches": [],
+        "fieldToggles": [],
+        "featureSwitch": {}
+      }
+    }
+  },
+  {
+    "n": "57246",
+    "exports": {
+      "queryId": "yASGrjmFWghK2T0XC3uGVg",
+      "operationName": "BirdwatchFetchSignUpEligiblity",
+      "operationType": "query",
+      "metadata": {
+        "featureSwitches": [
+          "responsive_web_birdwatch_signup_prompt_enabled"
+        ],
         "fieldToggles": [],
         "featureSwitch": {}
       }
