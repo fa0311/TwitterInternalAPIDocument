@@ -575,6 +575,9 @@
       "conversation_controls_limited_replies_creation_enabled": {
         "value": "true"
       },
+      "conversation_controls_my_subscribers_enabled": {
+        "value": "false"
+      },
       "conversation_controls_persistence_enabled": {
         "value": "true"
       },
@@ -3192,6 +3195,9 @@
         "conversation_controls_limited_replies_creation_enabled": {
           "value": "true"
         },
+        "conversation_controls_my_subscribers_enabled": {
+          "value": "false"
+        },
         "conversation_controls_persistence_enabled": {
           "value": "true"
         },
@@ -5352,7 +5358,7 @@
       "settingsVersion": "e98417ffff2e1fbf13ea348e764939c1"
     },
     "debug": {},
-    "featureSetToken": "92af34f3fb62bd4ad309f363fc128947b4577414",
+    "featureSetToken": "eebb356443c71a2584005114df573a56acd48135",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -5422,7 +5428,7 @@
     "country": "US",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "169023285160671279",
+    "guestId": "169031919702000445",
     "hasCommunityMemberships": "false",
     "language": "en",
     "oneFactorLoginEligibility": {
