@@ -1767,6 +1767,39 @@
     }
   },
   {
+    "n": "42795",
+    "exports": {
+      "queryId": "qAmpPj2LVSI__wu9xbz31Q",
+      "operationName": "ArticleEntityByRestId",
+      "operationType": "query",
+      "metadata": {
+        "featureSwitches": [
+          "responsive_web_graphql_exclude_directive_enabled",
+          "verified_phone_label_enabled",
+          "responsive_web_graphql_skip_user_profile_image_extensions_enabled",
+          "responsive_web_graphql_timeline_navigation_enabled"
+        ],
+        "fieldToggles": [
+          "withAuxiliaryUserLabels"
+        ],
+        "featureSwitch": {
+          "responsive_web_graphql_exclude_directive_enabled": {
+            "value": "true"
+          },
+          "verified_phone_label_enabled": {
+            "value": "false"
+          },
+          "responsive_web_graphql_skip_user_profile_image_extensions_enabled": {
+            "value": "false"
+          },
+          "responsive_web_graphql_timeline_navigation_enabled": {
+            "value": "true"
+          }
+        }
+      }
+    }
+  },
+  {
     "n": "03868",
     "exports": {
       "queryId": "nhh7yxry53CVCsJvazZz0Q",
@@ -1782,7 +1815,7 @@
   {
     "n": "47937",
     "exports": {
-      "queryId": "_z3r5jdoJFu3rT-Xes1RpA",
+      "queryId": "7nXfS8mag3P6dvpT2vJAHg",
       "operationName": "ArticleEntityDraftCreate",
       "operationType": "mutation",
       "metadata": {
@@ -1815,7 +1848,7 @@
   {
     "n": "95861",
     "exports": {
-      "queryId": "czZpQlG-eIPJe_Isd_HVTg",
+      "queryId": "i7VzadMWuhMHEhzq3l1p7w",
       "operationName": "ArticleEntityPublish",
       "operationType": "mutation",
       "metadata": {
@@ -1848,7 +1881,7 @@
   {
     "n": "87081",
     "exports": {
-      "queryId": "QGkiSB3xBYgZonx8wT9Gtg",
+      "queryId": "wzmDAs4t1v6-mDrPcy8luQ",
       "operationName": "ArticleEntityUnpublish",
       "operationType": "mutation",
       "metadata": {
@@ -1881,7 +1914,7 @@
   {
     "n": "96386",
     "exports": {
-      "queryId": "sNxgg-tMZRFDU8C1pAHyQQ",
+      "queryId": "gDxlluzAKdvk-tA5nltZBA",
       "operationName": "ArticleEntityUpdateContent",
       "operationType": "mutation",
       "metadata": {
@@ -1914,7 +1947,7 @@
   {
     "n": "39278",
     "exports": {
-      "queryId": "mUAj0ybNmKt-QMsxMcd11Q",
+      "queryId": "9v6HeCbfr2dwBXP-N_9GQQ",
       "operationName": "ArticleEntityUpdateCoverMedia",
       "operationType": "mutation",
       "metadata": {
@@ -1947,7 +1980,7 @@
   {
     "n": "36877",
     "exports": {
-      "queryId": "T2h-ACIHsazXf3F4_uYgAQ",
+      "queryId": "w6kmUm_tAQWPWC_hD9dxag",
       "operationName": "ArticleEntityUpdateTitle",
       "operationType": "mutation",
       "metadata": {
@@ -2572,6 +2605,21 @@
       "operationType": "query",
       "metadata": {
         "featureSwitches": [],
+        "fieldToggles": [],
+        "featureSwitch": {}
+      }
+    }
+  },
+  {
+    "n": "57246",
+    "exports": {
+      "queryId": "yASGrjmFWghK2T0XC3uGVg",
+      "operationName": "BirdwatchFetchSignUpEligiblity",
+      "operationType": "query",
+      "metadata": {
+        "featureSwitches": [
+          "responsive_web_birdwatch_signup_prompt_enabled"
+        ],
         "fieldToggles": [],
         "featureSwitch": {}
       }
@@ -20086,6 +20134,39 @@
     }
   },
   {
+    "n": "42795",
+    "exports": {
+      "queryId": "qAmpPj2LVSI__wu9xbz31Q",
+      "operationName": "ArticleEntityByRestId",
+      "operationType": "query",
+      "metadata": {
+        "featureSwitches": [
+          "responsive_web_graphql_exclude_directive_enabled",
+          "verified_phone_label_enabled",
+          "responsive_web_graphql_skip_user_profile_image_extensions_enabled",
+          "responsive_web_graphql_timeline_navigation_enabled"
+        ],
+        "fieldToggles": [
+          "withAuxiliaryUserLabels"
+        ],
+        "featureSwitch": {
+          "responsive_web_graphql_exclude_directive_enabled": {
+            "value": "true"
+          },
+          "verified_phone_label_enabled": {
+            "value": "false"
+          },
+          "responsive_web_graphql_skip_user_profile_image_extensions_enabled": {
+            "value": "false"
+          },
+          "responsive_web_graphql_timeline_navigation_enabled": {
+            "value": "true"
+          }
+        }
+      }
+    }
+  },
+  {
     "n": "03868",
     "exports": {
       "queryId": "nhh7yxry53CVCsJvazZz0Q",
@@ -20101,7 +20182,7 @@
   {
     "n": "47937",
     "exports": {
-      "queryId": "_z3r5jdoJFu3rT-Xes1RpA",
+      "queryId": "7nXfS8mag3P6dvpT2vJAHg",
       "operationName": "ArticleEntityDraftCreate",
       "operationType": "mutation",
       "metadata": {
@@ -20134,7 +20215,7 @@
   {
     "n": "95861",
     "exports": {
-      "queryId": "czZpQlG-eIPJe_Isd_HVTg",
+      "queryId": "i7VzadMWuhMHEhzq3l1p7w",
       "operationName": "ArticleEntityPublish",
       "operationType": "mutation",
       "metadata": {
@@ -20167,7 +20248,7 @@
   {
     "n": "87081",
     "exports": {
-      "queryId": "QGkiSB3xBYgZonx8wT9Gtg",
+      "queryId": "wzmDAs4t1v6-mDrPcy8luQ",
       "operationName": "ArticleEntityUnpublish",
       "operationType": "mutation",
       "metadata": {
@@ -20200,7 +20281,7 @@
   {
     "n": "96386",
     "exports": {
-      "queryId": "sNxgg-tMZRFDU8C1pAHyQQ",
+      "queryId": "gDxlluzAKdvk-tA5nltZBA",
       "operationName": "ArticleEntityUpdateContent",
       "operationType": "mutation",
       "metadata": {
@@ -20233,7 +20314,7 @@
   {
     "n": "39278",
     "exports": {
-      "queryId": "mUAj0ybNmKt-QMsxMcd11Q",
+      "queryId": "9v6HeCbfr2dwBXP-N_9GQQ",
       "operationName": "ArticleEntityUpdateCoverMedia",
       "operationType": "mutation",
       "metadata": {
@@ -20266,7 +20347,7 @@
   {
     "n": "36877",
     "exports": {
-      "queryId": "T2h-ACIHsazXf3F4_uYgAQ",
+      "queryId": "w6kmUm_tAQWPWC_hD9dxag",
       "operationName": "ArticleEntityUpdateTitle",
       "operationType": "mutation",
       "metadata": {
@@ -21113,6 +21194,21 @@
       "operationType": "query",
       "metadata": {
         "featureSwitches": [],
+        "fieldToggles": [],
+        "featureSwitch": {}
+      }
+    }
+  },
+  {
+    "n": "57246",
+    "exports": {
+      "queryId": "yASGrjmFWghK2T0XC3uGVg",
+      "operationName": "BirdwatchFetchSignUpEligiblity",
+      "operationType": "query",
+      "metadata": {
+        "featureSwitches": [
+          "responsive_web_birdwatch_signup_prompt_enabled"
+        ],
         "fieldToggles": [],
         "featureSwitch": {}
       }
@@ -31350,6 +31446,18 @@
     }
   },
   {
+    "n": "73792",
+    "exports": {
+      "queryId": "JLJ7DuNkbMTyl96zVOtH0Q",
+      "operationName": "DelegatedAccountListQuery",
+      "operationType": "query",
+      "metadata": {
+        "featureSwitches": [],
+        "featureSwitch": {}
+      }
+    }
+  },
+  {
     "n": "68409",
     "exports": {
       "queryId": "cFC8pqLWsfzTUOY674C6OA",
@@ -31366,18 +31474,6 @@
     "exports": {
       "queryId": "1gowCMPzY09WyApNQM68kA",
       "operationName": "AccountSwitcherDelegateQuery",
-      "operationType": "query",
-      "metadata": {
-        "featureSwitches": [],
-        "featureSwitch": {}
-      }
-    }
-  },
-  {
-    "n": "73792",
-    "exports": {
-      "queryId": "JLJ7DuNkbMTyl96zVOtH0Q",
-      "operationName": "DelegatedAccountListQuery",
       "operationType": "query",
       "metadata": {
         "featureSwitches": [],
@@ -31696,18 +31792,6 @@
     }
   },
   {
-    "n": "73792",
-    "exports": {
-      "queryId": "JLJ7DuNkbMTyl96zVOtH0Q",
-      "operationName": "DelegatedAccountListQuery",
-      "operationType": "query",
-      "metadata": {
-        "featureSwitches": [],
-        "featureSwitch": {}
-      }
-    }
-  },
-  {
     "n": "14558",
     "exports": {
       "queryId": "SNB2czvgQ4DY-zI7FQ3VkQ",
@@ -31790,12 +31874,14 @@
         "featureSwitch": {}
       }
     },
-    "func_name": "w",
-    "func_name_init": "b",
+    "func_name": "S",
+    "func_name_init": "k",
     "query": {
-      "...i": "_",
-      "withCommunity": "!0",
-      "...()(0,a.d)": "_"
+      "timelineId": "l",
+      "count": "i",
+      "cursor": "n",
+      "withQuickPromoteEligibilityTweetFields": "!0",
+      "...()(0,o.d)": "_"
     }
   },
   {
@@ -32282,7 +32368,7 @@
   {
     "n": "91788",
     "exports": {
-      "queryId": "JG4PKdXPPISCFoA0_Kt9gg",
+      "queryId": "ahqosLt4DRBDtwLWCtETIQ",
       "operationName": "MonetizationCreatorSettingsQuery",
       "operationType": "query",
       "metadata": {
@@ -32606,7 +32692,7 @@
   {
     "n": "02185",
     "exports": {
-      "queryId": "Z3h2-itJOJ0nhdASx_Isyg",
+      "queryId": "as9YjV4wKSpVHCVnGkDVEA",
       "operationName": "AdRevShareApplicationQuery",
       "operationType": "query",
       "metadata": {
@@ -32618,7 +32704,7 @@
   {
     "n": "68227",
     "exports": {
-      "queryId": "cKSW0xGeB4gPaDTj8tAp-w",
+      "queryId": "fnn_1MIuDUD6ar84wdtmfw",
       "operationName": "AdRevShareDashboardScreenQuery",
       "operationType": "query",
       "metadata": {
@@ -32970,7 +33056,7 @@
   {
     "n": "77884",
     "exports": {
-      "queryId": "XNEaR2j4YgcxfzmW2n_cew",
+      "queryId": "JARKPRa82Y0cRt8x9CwnIQ",
       "operationName": "UserJobListQueryScreenJobsQuery",
       "operationType": "query",
       "metadata": {
@@ -33572,10 +33658,34 @@
     }
   },
   {
+    "n": "06643",
+    "exports": {
+      "queryId": "1gowCMPzY09WyApNQM68kA",
+      "operationName": "AccountSwitcherDelegateQuery",
+      "operationType": "query",
+      "metadata": {
+        "featureSwitches": [],
+        "featureSwitch": {}
+      }
+    }
+  },
+  {
     "n": "29878",
     "exports": {
       "queryId": "yrxbfHVblqnj11Fdsxd2Wg",
       "operationName": "DelegateSwitcherQuery",
+      "operationType": "query",
+      "metadata": {
+        "featureSwitches": [],
+        "featureSwitch": {}
+      }
+    }
+  },
+  {
+    "n": "73792",
+    "exports": {
+      "queryId": "JLJ7DuNkbMTyl96zVOtH0Q",
+      "operationName": "DelegatedAccountListQuery",
       "operationType": "query",
       "metadata": {
         "featureSwitches": [],
