@@ -1287,6 +1287,20 @@ Login Required: `...`<br>
 `None`<br>
 #### queryId<br>
 `None`<br>
+## BirdwatchFetchSignUpEligiblity<br>
+Request URL: `https://twitter.com/i/api/graphql/yASGrjmFWghK2T0XC3uGVg/BirdwatchFetchSignUpEligiblity`<br>
+Request Method: `GET`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+| key                                            | type   | default   |
+|:-----------------------------------------------|:-------|:----------|
+| responsive_web_birdwatch_signup_prompt_enabled | ...    | error     |
+
+#### queryId<br>
+`None`<br>
 ## BirdwatchProfileAcknowledgeEarnOut<br>
 Request URL: `https://twitter.com/i/api/graphql/cED9wJy8Nd1kZCCYuIq9zQ/BirdwatchProfileAcknowledgeEarnOut`<br>
 Request Method: `POST`<br>
@@ -9002,6 +9016,20 @@ Login Required: `...`<br>
 `None`<br>
 #### features<br>
 `None`<br>
+#### queryId<br>
+`None`<br>
+## BirdwatchFetchSignUpEligiblity<br>
+Request URL: `https://twitter.com/i/api/graphql/yASGrjmFWghK2T0XC3uGVg/BirdwatchFetchSignUpEligiblity`<br>
+Request Method: `GET`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+| key                                            | type   | default   |
+|:-----------------------------------------------|:-------|:----------|
+| responsive_web_birdwatch_signup_prompt_enabled | ...    | error     |
+
 #### queryId<br>
 `None`<br>
 ## BirdwatchProfileAcknowledgeEarnOut<br>
