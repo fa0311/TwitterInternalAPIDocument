@@ -3864,7 +3864,7 @@
           "value": "true"
         },
         "responsive_web_birdwatch_top_contributor_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "responsive_web_birdwatch_top_contributor_ratio_cutoff": {
           "value": "4"
@@ -4847,7 +4847,7 @@
           "value": "true"
         },
         "subscriptions_feature_1012": {
-          "value": "false"
+          "value": "true"
         },
         "subscriptions_feature_1013": {
           "value": "false"
@@ -5355,7 +5355,7 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "e98417ffff2e1fbf13ea348e764939c1"
+      "settingsVersion": "ff1dc6219f6bb6ade04e7129fe63a456"
     },
     "debug": {},
     "featureSetToken": "eebb356443c71a2584005114df573a56acd48135",
@@ -5428,7 +5428,7 @@
     "country": "US",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "169031919702000445",
+    "guestId": "169040560020796738",
     "hasCommunityMemberships": "false",
     "language": "en",
     "oneFactorLoginEligibility": {
@@ -5439,6 +5439,12 @@
   "developer": {
     "dtabBarInfo": {
       "hide": "false"
+    }
+  },
+  "ads": {
+    "typeahead": {
+      "targetingLocation": {},
+      "forecastAudience": {}
     }
   }
 }
