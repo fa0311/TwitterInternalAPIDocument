@@ -3874,7 +3874,7 @@
           "value": "true"
         },
         "responsive_web_birdwatch_top_contributor_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "responsive_web_birdwatch_top_contributor_ratio_cutoff": {
           "value": "4"
@@ -4855,7 +4855,7 @@
           "value": "false"
         },
         "subscriptions_feature_1012": {
-          "value": "false"
+          "value": "true"
         },
         "subscriptions_feature_1013": {
           "value": "false"
@@ -5363,7 +5363,7 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "47cdc7f36c611c0a245a9938dd02b42f"
+      "settingsVersion": "4f1d926ae1fa0262d50d91c1a32198c4"
     },
     "debug": {},
     "featureSetToken": "eebb356443c71a2584005114df573a56acd48135",
@@ -5436,7 +5436,7 @@
     "country": "US",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "169031960286767804",
+    "guestId": "169040596090330826",
     "hasCommunityMemberships": "false",
     "language": "en",
     "oneFactorLoginEligibility": {
