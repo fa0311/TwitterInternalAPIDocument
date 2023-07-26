@@ -585,6 +585,9 @@
       "conversation_controls_limited_replies_creation_enabled": {
         "value": "true"
       },
+      "conversation_controls_my_subscribers_enabled": {
+        "value": "false"
+      },
       "conversation_controls_persistence_enabled": {
         "value": "true"
       },
@@ -1249,6 +1252,12 @@
       },
       "responsive_web_birdwatch_site_enabled": {
         "value": "true"
+      },
+      "responsive_web_birdwatch_top_contributor_enabled": {
+        "value": "false"
+      },
+      "responsive_web_birdwatch_top_contributor_ratio_cutoff": {
+        "value": "4"
       },
       "responsive_web_birdwatch_top_contributor_score_cutoff": {
         "value": "10"
@@ -3196,6 +3205,9 @@
         "conversation_controls_limited_replies_creation_enabled": {
           "value": "true"
         },
+        "conversation_controls_my_subscribers_enabled": {
+          "value": "false"
+        },
         "conversation_controls_persistence_enabled": {
           "value": "true"
         },
@@ -3860,6 +3872,12 @@
         },
         "responsive_web_birdwatch_site_enabled": {
           "value": "true"
+        },
+        "responsive_web_birdwatch_top_contributor_enabled": {
+          "value": "false"
+        },
+        "responsive_web_birdwatch_top_contributor_ratio_cutoff": {
+          "value": "4"
         },
         "responsive_web_birdwatch_top_contributor_score_cutoff": {
           "value": "10"
@@ -5348,7 +5366,7 @@
       "settingsVersion": "47cdc7f36c611c0a245a9938dd02b42f"
     },
     "debug": {},
-    "featureSetToken": "c8885c395062acf68b60424231f90ab4273a1be7",
+    "featureSetToken": "eebb356443c71a2584005114df573a56acd48135",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -5418,7 +5436,7 @@
     "country": "US",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "169023334206611941",
+    "guestId": "169031960286767804",
     "hasCommunityMemberships": "false",
     "language": "en",
     "oneFactorLoginEligibility": {
@@ -5458,12 +5476,6 @@
   "developer": {
     "dtabBarInfo": {
       "hide": "false"
-    }
-  },
-  "ads": {
-    "typeahead": {
-      "targetingLocation": {},
-      "forecastAudience": {}
     }
   }
 }

@@ -534,3 +534,19 @@
 - rweb_panning_nav_behavior<br>
 #### remove<br>
 - None<br>
+## 2023/07/25<br>
+### API<br>
+#### add<br>
+- ArticleEntityByRestId<br>
+- BirdwatchFetchSignUpEligiblity<br>
+- ArticleEntityByRestId<br>
+- BirdwatchFetchSignUpEligiblity<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- conversation_controls_my_subscribers_enabled<br>
+- responsive_web_birdwatch_top_contributor_enabled<br>
+- responsive_web_birdwatch_top_contributor_ratio_cutoff<br>
+#### remove<br>
+- None<br>
