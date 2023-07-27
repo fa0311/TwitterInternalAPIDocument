@@ -1165,6 +1165,9 @@
       "responsive_web_ad_revenue_sharing_enabled": {
         "value": "false"
       },
+      "responsive_web_ad_revenue_sharing_setup_enabled": {
+        "value": "false"
+      },
       "responsive_web_alt_text_nudges_enabled": {
         "value": "true"
       },
@@ -1240,11 +1243,14 @@
       "responsive_web_birdwatch_require_rating_before_writing_enabled": {
         "value": "false"
       },
+      "responsive_web_birdwatch_signup_prompt_enabled": {
+        "value": "false"
+      },
       "responsive_web_birdwatch_site_enabled": {
         "value": "true"
       },
       "responsive_web_birdwatch_top_contributor_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "responsive_web_birdwatch_top_contributor_ratio_cutoff": {
         "value": "4"
@@ -1960,6 +1966,9 @@
       "rweb_client_transaction_id_enabled": {
         "value": "false"
       },
+      "rweb_deprecate_follower_objective_qp_enabled": {
+        "value": "false"
+      },
       "rweb_enable_logged_out_search_search_bar_enabled": {
         "value": "false"
       },
@@ -2227,7 +2236,7 @@
         "value": "true"
       },
       "subscriptions_feature_1012": {
-        "value": "false"
+        "value": "true"
       },
       "subscriptions_feature_1013": {
         "value": "false"
@@ -2261,9 +2270,6 @@
       },
       "subscriptions_marketing_page_tiered_redesign_enabled": {
         "value": "true"
-      },
-      "subscriptions_product_feature_list_api_enabled": {
-        "value": "false"
       },
       "subscriptions_settings_item_enabled": {
         "value": "true"
@@ -3785,6 +3791,9 @@
         "responsive_web_ad_revenue_sharing_enabled": {
           "value": "false"
         },
+        "responsive_web_ad_revenue_sharing_setup_enabled": {
+          "value": "false"
+        },
         "responsive_web_alt_text_nudges_enabled": {
           "value": "true"
         },
@@ -3858,6 +3867,9 @@
           "value": "true"
         },
         "responsive_web_birdwatch_require_rating_before_writing_enabled": {
+          "value": "false"
+        },
+        "responsive_web_birdwatch_signup_prompt_enabled": {
           "value": "false"
         },
         "responsive_web_birdwatch_site_enabled": {
@@ -4580,6 +4592,9 @@
         "rweb_client_transaction_id_enabled": {
           "value": "true"
         },
+        "rweb_deprecate_follower_objective_qp_enabled": {
+          "value": "true"
+        },
         "rweb_enable_logged_out_search_search_bar_enabled": {
           "value": "false"
         },
@@ -4611,7 +4626,7 @@
           "value": "false"
         },
         "rweb_tweets_boosting_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "rweb_tweets_reply_context_hidden": {
           "value": "true"
@@ -4881,9 +4896,6 @@
         },
         "subscriptions_marketing_page_tiered_redesign_enabled": {
           "value": "true"
-        },
-        "subscriptions_product_feature_list_api_enabled": {
-          "value": "false"
         },
         "subscriptions_settings_item_enabled": {
           "value": "true"
@@ -5316,7 +5328,7 @@
           "value": "true"
         },
         "web_image_large_webp_variants": {
-          "value": "false"
+          "value": "true"
         },
         "web_video_bitrate_persistence_enabled": {
           "value": "false"
@@ -5355,10 +5367,10 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "ff1dc6219f6bb6ade04e7129fe63a456"
+      "settingsVersion": "bd568df7c24668ffba19f66df177698e"
     },
     "debug": {},
-    "featureSetToken": "eebb356443c71a2584005114df573a56acd48135",
+    "featureSetToken": "cc4a07725c2189df52b87c8b52dd46026a6ffd47",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -5428,7 +5440,7 @@
     "country": "US",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "169040560020796738",
+    "guestId": "169049190248857183",
     "hasCommunityMemberships": "false",
     "language": "en",
     "oneFactorLoginEligibility": {
@@ -5439,12 +5451,6 @@
   "developer": {
     "dtabBarInfo": {
       "hide": "false"
-    }
-  },
-  "ads": {
-    "typeahead": {
-      "targetingLocation": {},
-      "forecastAudience": {}
     }
   }
 }
