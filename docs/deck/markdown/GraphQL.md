@@ -911,6 +911,38 @@ Login Required: `...`<br>
 
 #### queryId<br>
 `None`<br>
+## AudioSpaceAddSharing<br>
+Request URL: `https://twitter.com/i/api/graphql/uAuQ44W6FM14q20o6NVQxQ/AudioSpaceAddSharing`<br>
+Request Method: `POST`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+| key                                                                     | type    | variable   |
+|:------------------------------------------------------------------------|:--------|:-----------|
+| creator_subscriptions_tweet_preview_api_enabled                         | boolean | True       |
+| responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
+| verified_phone_label_enabled                                            | boolean | False      |
+| responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean | False      |
+| tweetypie_unmention_optimization_enabled                                | boolean | True       |
+| responsive_web_edit_tweet_api_enabled                                   | boolean | True       |
+| graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | True       |
+| view_counts_everywhere_api_enabled                                      | boolean | True       |
+| longform_notetweets_consumption_enabled                                 | boolean | True       |
+| responsive_web_twitter_article_tweet_consumption_enabled                | boolean | False      |
+| tweet_awards_web_tipping_enabled                                        | boolean | False      |
+| freedom_of_speech_not_reach_fetch_enabled                               | boolean | True       |
+| standardized_nudges_misinfo                                             | boolean | True       |
+| tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | True       |
+| longform_notetweets_rich_text_read_enabled                              | boolean | True       |
+| longform_notetweets_inline_media_enabled                                | boolean | True       |
+| responsive_web_media_download_video_enabled                             | boolean | False      |
+| responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
+| responsive_web_enhance_cards_enabled                                    | boolean | False      |
+
+#### queryId<br>
+`None`<br>
 ## AudioSpaceById<br>
 Request URL: `https://twitter.com/i/api/graphql/NgGZ325iUTdno0iBOZRGOA/AudioSpaceById`<br>
 Request Method: `GET`<br>
@@ -943,6 +975,17 @@ Login Required: `...`<br>
 | responsive_web_media_download_video_enabled                             | boolean | False      |
 | responsive_web_enhance_cards_enabled                                    | boolean | False      |
 
+#### queryId<br>
+`None`<br>
+## AudioSpaceDeleteSharing<br>
+Request URL: `https://twitter.com/i/api/graphql/YMbfLMTUUEzEEMibvvR26Q/AudioSpaceDeleteSharing`<br>
+Request Method: `POST`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
 #### queryId<br>
 `None`<br>
 ## AudioSpaceSearch<br>
@@ -1240,9 +1283,9 @@ Login Required: `...`<br>
 #### variables<br>
 `None`<br>
 #### features<br>
-| key                                            | type   | default   |
-|:-----------------------------------------------|:-------|:----------|
-| responsive_web_birdwatch_signup_prompt_enabled | ...    | error     |
+| key                                            | type    | variable   |
+|:-----------------------------------------------|:--------|:-----------|
+| responsive_web_birdwatch_signup_prompt_enabled | boolean | False      |
 
 #### queryId<br>
 `None`<br>
@@ -5942,28 +5985,6 @@ Login Required: `...`<br>
 `None`<br>
 ## SubscriptionProductDetails<br>
 Request URL: `https://twitter.com/i/api/graphql/f0dExZDmFWFSWMCPQSAemQ/SubscriptionProductDetails`<br>
-Request Method: `GET`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-`None`<br>
-#### queryId<br>
-`None`<br>
-## FeatureSettingsUpdate<br>
-Request URL: `https://twitter.com/i/api/graphql/-btar_vkBwWA7s3YWfp_9g/FeatureSettingsUpdate`<br>
-Request Method: `POST`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-`None`<br>
-#### queryId<br>
-`None`<br>
-## SubscriptionProductFeaturesFetch<br>
-Request URL: `https://twitter.com/i/api/graphql/Me2CVcAXxvK2WMr-Nh_Qqg/SubscriptionProductFeaturesFetch`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -8229,6 +8250,38 @@ Login Required: `...`<br>
 
 #### queryId<br>
 `None`<br>
+## AudioSpaceAddSharing<br>
+Request URL: `https://twitter.com/i/api/graphql/uAuQ44W6FM14q20o6NVQxQ/AudioSpaceAddSharing`<br>
+Request Method: `POST`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+| key                                                                     | type    | variable   |
+|:------------------------------------------------------------------------|:--------|:-----------|
+| creator_subscriptions_tweet_preview_api_enabled                         | boolean | True       |
+| responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
+| verified_phone_label_enabled                                            | boolean | False      |
+| responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean | False      |
+| tweetypie_unmention_optimization_enabled                                | boolean | True       |
+| responsive_web_edit_tweet_api_enabled                                   | boolean | True       |
+| graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | True       |
+| view_counts_everywhere_api_enabled                                      | boolean | True       |
+| longform_notetweets_consumption_enabled                                 | boolean | True       |
+| responsive_web_twitter_article_tweet_consumption_enabled                | boolean | False      |
+| tweet_awards_web_tipping_enabled                                        | boolean | False      |
+| freedom_of_speech_not_reach_fetch_enabled                               | boolean | True       |
+| standardized_nudges_misinfo                                             | boolean | True       |
+| tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | True       |
+| longform_notetweets_rich_text_read_enabled                              | boolean | True       |
+| longform_notetweets_inline_media_enabled                                | boolean | True       |
+| responsive_web_media_download_video_enabled                             | boolean | False      |
+| responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
+| responsive_web_enhance_cards_enabled                                    | boolean | False      |
+
+#### queryId<br>
+`None`<br>
 ## AudioSpaceById<br>
 Request URL: `https://twitter.com/i/api/graphql/NgGZ325iUTdno0iBOZRGOA/AudioSpaceById`<br>
 Request Method: `GET`<br>
@@ -8261,6 +8314,17 @@ Login Required: `...`<br>
 | responsive_web_media_download_video_enabled                             | boolean | False      |
 | responsive_web_enhance_cards_enabled                                    | boolean | False      |
 
+#### queryId<br>
+`None`<br>
+## AudioSpaceDeleteSharing<br>
+Request URL: `https://twitter.com/i/api/graphql/YMbfLMTUUEzEEMibvvR26Q/AudioSpaceDeleteSharing`<br>
+Request Method: `POST`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
 #### queryId<br>
 `None`<br>
 ## AudioSpaceSearch<br>
@@ -8569,9 +8633,9 @@ Login Required: `...`<br>
 #### variables<br>
 `None`<br>
 #### features<br>
-| key                                            | type   | default   |
-|:-----------------------------------------------|:-------|:----------|
-| responsive_web_birdwatch_signup_prompt_enabled | ...    | error     |
+| key                                            | type    | variable   |
+|:-----------------------------------------------|:--------|:-----------|
+| responsive_web_birdwatch_signup_prompt_enabled | boolean | False      |
 
 #### queryId<br>
 `None`<br>
@@ -9907,17 +9971,6 @@ Login Required: `...`<br>
 | responsive_web_media_download_video_enabled                             | boolean | False      |
 | responsive_web_enhance_cards_enabled                                    | boolean | False      |
 
-#### queryId<br>
-`None`<br>
-## FeatureSettingsUpdate<br>
-Request URL: `https://twitter.com/i/api/graphql/-btar_vkBwWA7s3YWfp_9g/FeatureSettingsUpdate`<br>
-Request Method: `POST`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-`None`<br>
 #### queryId<br>
 `None`<br>
 ## Followers<br>
@@ -11584,17 +11637,6 @@ Login Required: `...`<br>
 `None`<br>
 #### queryId<br>
 `None`<br>
-## SubscriptionProductFeaturesFetch<br>
-Request URL: `https://twitter.com/i/api/graphql/Me2CVcAXxvK2WMr-Nh_Qqg/SubscriptionProductFeaturesFetch`<br>
-Request Method: `GET`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-`None`<br>
-#### queryId<br>
-`None`<br>
 ## SuperFollowers<br>
 Request URL: `https://twitter.com/i/api/graphql/gpYqCut7ZBWtTxpHO0TfZQ/SuperFollowers`<br>
 Request Method: `GET`<br>
@@ -13234,13 +13276,11 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key                                    | type    | variable   |
-|:---------------------------------------|:--------|:-----------|
-| timelineId                             | ...     | l          |
-| count                                  | ...     | i          |
-| cursor                                 | ...     | n          |
-| withQuickPromoteEligibilityTweetFields | boolean | True       |
-| ...()(0,o.d)                           | ...     | _          |
+| key              | type   | variable   |
+|:-----------------|:-------|:-----------|
+| twitterArticleId | ...    | s          |
+| title            | ...    | l          |
+| ...()(0,a.d)     | ...    | _          |
 
 #### features<br>
 `None`<br>
@@ -13683,7 +13723,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## MonetizationCreatorSettingsQuery<br>
-Request URL: `https://twitter.com/i/api/graphql/ahqosLt4DRBDtwLWCtETIQ/MonetizationCreatorSettingsQuery`<br>
+Request URL: `https://twitter.com/i/api/graphql/cfZWSJBnKkw-e1Qf5q2VeA/MonetizationCreatorSettingsQuery`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -13949,17 +13989,6 @@ Login Required: `...`<br>
 ## useAwardsDeactivateMutation<br>
 Request URL: `https://twitter.com/i/api/graphql/01C9DqWmpi6YUNYaIWMBwA/useAwardsDeactivateMutation`<br>
 Request Method: `POST`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-`None`<br>
-#### queryId<br>
-`None`<br>
-## AdRevShareApplicationConfirmationQuery<br>
-Request URL: `https://twitter.com/i/api/graphql/8FKWRNhUsMYzHYVEAMM3lA/AdRevShareApplicationConfirmationQuery`<br>
-Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
@@ -14489,7 +14518,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## AddJobScreenQuery<br>
-Request URL: `https://twitter.com/i/api/graphql/GOlyU3CkKL8mMmHoEeXiCw/AddJobScreenQuery`<br>
+Request URL: `https://twitter.com/i/api/graphql/lL5C8h6CPNu6m2eL-tx_pw/AddJobScreenQuery`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
