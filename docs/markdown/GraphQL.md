@@ -565,12 +565,13 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key                    | type    | variable   |
-|:-----------------------|:--------|:-----------|
-| count                  | ...     | i          |
-| cursor                 | ...     | n          |
-| includePromotedContent | boolean | False      |
-| ...()(0,o.d)           | ...     | _          |
+| key                                    | type    | variable   |
+|:---------------------------------------|:--------|:-----------|
+| timelineId                             | ...     | n          |
+| count                                  | ...     | t          |
+| cursor                                 | ...     | i          |
+| withQuickPromoteEligibilityTweetFields | boolean | True       |
+| ...()(0,s.d)                           | ...     | _          |
 
 #### features<br>
 | key                                                                     | type    | variable   |
@@ -604,11 +605,13 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key              | type   | variable   |
-|:-----------------|:-------|:-----------|
-| twitterArticleId | ...    | s          |
-| title            | ...    | l          |
-| ...()(0,a.d)     | ...    | _          |
+| key                    | type    | variable   |
+|:-----------------------|:--------|:-----------|
+| rootTweetId            | ...     | n          |
+| count                  | ...     | t          |
+| cursor                 | ...     | i          |
+| includePromotedContent | boolean | False      |
+| ...()(0,s.d)           | ...     | _          |
 
 #### features<br>
 | key                                                                     | type    | variable   |
@@ -681,12 +684,12 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key          | type   | variable   |
-|:-------------|:-------|:-----------|
-| userId       | ...    | r          |
-| count        | ...    | l          |
-| cursor       | ...    | a          |
-| ...()(0,s.d) | ...    | _          |
+| key                    | type    | variable   |
+|:-----------------------|:--------|:-----------|
+| count                  | ...     | t          |
+| cursor                 | ...     | i          |
+| includePromotedContent | boolean | False      |
+| ...()(0,s.d)           | ...     | _          |
 
 #### features<br>
 | key                                                                     | type    | variable   |
@@ -731,10 +734,13 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key          | type   | variable   |
-|:-------------|:-------|:-----------|
-| ...i         | ...    | _          |
-| ...()(0,a.S) | ...    | _          |
+| key                    | type    | variable   |
+|:-----------------------|:--------|:-----------|
+| userId                 | ...     | n          |
+| count                  | ...     | t          |
+| cursor                 | ...     | i          |
+| includePromotedContent | boolean | False      |
+| ...()(0,s.d)           | ...     | _          |
 
 #### features<br>
 | key                                                                     | type    | variable   |
@@ -768,11 +774,13 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key          | type   | variable   |
-|:-------------|:-------|:-----------|
-| count        | ...    | i          |
-| cursor       | ...    | n          |
-| ...()(0,s.d) | ...    | _          |
+| key                    | type    | variable   |
+|:-----------------------|:--------|:-----------|
+| userId                 | ...     | n          |
+| count                  | ...     | t          |
+| cursor                 | ...     | i          |
+| includePromotedContent | boolean | False      |
+| ...()(0,s.d)           | ...     | _          |
 
 #### features<br>
 | key                                                                     | type    | variable   |
@@ -806,13 +814,7 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key                    | type    | variable   |
-|:-----------------------|:--------|:-----------|
-| count                  | ...     | i          |
-| cursor                 | ...     | n          |
-| includePromotedContent | boolean | False      |
-| ...()(0,o.d)           | ...     | _          |
-
+`None`<br>
 #### features<br>
 | key                                                               | type    | variable   |
 |:------------------------------------------------------------------|:--------|:-----------|
@@ -1189,6 +1191,17 @@ Login Required: `...`<br>
 `None`<br>
 #### queryId<br>
 `None`<br>
+## BirdwatchEditUserSettings<br>
+Request URL: `https://twitter.com/i/api/graphql/k1Unfqb74V4sf2d7-kFkhg/BirdwatchEditUserSettings`<br>
+Request Method: `POST`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
 ## BirdwatchFetchAliasSelfSelectOptions<br>
 Request URL: `https://twitter.com/i/api/graphql/szoXMke8AZOErso908iglw/BirdwatchFetchAliasSelfSelectOptions`<br>
 Request Method: `GET`<br>
@@ -1212,16 +1225,17 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## BirdwatchFetchAuthenticatedUserProfile<br>
-Request URL: `https://twitter.com/i/api/graphql/wPAWxQMAlJP7SpkwiQnn9w/BirdwatchFetchAuthenticatedUserProfile`<br>
+Request URL: `https://twitter.com/i/api/graphql/j0xscK7IT-U52Geu7QEaDQ/BirdwatchFetchAuthenticatedUserProfile`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
 `None`<br>
 #### features<br>
-| key                                         | type    | variable   |
-|:--------------------------------------------|:--------|:-----------|
-| responsive_web_birdwatch_note_limit_enabled | boolean | True       |
+| key                                                 | type    | default   |   variable |
+|:----------------------------------------------------|:--------|:----------|-----------:|
+| responsive_web_birdwatch_mobile_nav_setting_enabled | ...     | error     |        nan |
+| responsive_web_birdwatch_note_limit_enabled         | boolean | nan       |          1 |
 
 #### queryId<br>
 `None`<br>
@@ -1528,11 +1542,10 @@ Request Method: `POST`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key                       | type   | variable   |
-|:--------------------------|:-------|:-----------|
-| ...i                      | ...    | _          |
-| withCommunity             | ...    | t.isTrue() |
-| ...("c9s_enabled")(0,a.S) | ...    | _          |
+| key                    | type   | variable   |
+|:-----------------------|:-------|:-----------|
+| bookmark_collection_id | ...    | t          |
+| tweet_id               | ...    | r          |
 
 #### features<br>
 `None`<br>
@@ -2228,12 +2241,13 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key                    | type    | variable   |
-|:-----------------------|:--------|:-----------|
-| count                  | ...     | i          |
-| cursor                 | ...     | n          |
-| includePromotedContent | boolean | False      |
-| ...()(0,o.d)           | ...     | _          |
+| key                                    | type    | variable   |
+|:---------------------------------------|:--------|:-----------|
+| timelineId                             | ...     | n          |
+| count                                  | ...     | t          |
+| cursor                                 | ...     | i          |
+| withQuickPromoteEligibilityTweetFields | boolean | True       |
+| ...()(0,s.d)                           | ...     | _          |
 
 #### features<br>
 | key                                                                     | type    | variable   |
@@ -2267,11 +2281,13 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key              | type   | variable   |
-|:-----------------|:-------|:-----------|
-| twitterArticleId | ...    | s          |
-| title            | ...    | l          |
-| ...()(0,a.d)     | ...    | _          |
+| key                    | type    | variable   |
+|:-----------------------|:--------|:-----------|
+| rootTweetId            | ...     | n          |
+| count                  | ...     | t          |
+| cursor                 | ...     | i          |
+| includePromotedContent | boolean | False      |
+| ...()(0,s.d)           | ...     | _          |
 
 #### features<br>
 | key                                                                     | type    | variable   |
@@ -2344,12 +2360,12 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key          | type   | variable   |
-|:-------------|:-------|:-----------|
-| userId       | ...    | r          |
-| count        | ...    | l          |
-| cursor       | ...    | a          |
-| ...()(0,s.d) | ...    | _          |
+| key                    | type    | variable   |
+|:-----------------------|:--------|:-----------|
+| count                  | ...     | t          |
+| cursor                 | ...     | i          |
+| includePromotedContent | boolean | False      |
+| ...()(0,s.d)           | ...     | _          |
 
 #### features<br>
 | key                                                                     | type    | variable   |
@@ -2383,10 +2399,13 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key          | type   | variable   |
-|:-------------|:-------|:-----------|
-| ...i         | ...    | _          |
-| ...()(0,a.S) | ...    | _          |
+| key                    | type    | variable   |
+|:-----------------------|:--------|:-----------|
+| userId                 | ...     | n          |
+| count                  | ...     | t          |
+| cursor                 | ...     | i          |
+| includePromotedContent | boolean | False      |
+| ...()(0,s.d)           | ...     | _          |
 
 #### features<br>
 | key                                                                     | type    | variable   |
@@ -2420,11 +2439,13 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key          | type   | variable   |
-|:-------------|:-------|:-----------|
-| count        | ...    | i          |
-| cursor       | ...    | n          |
-| ...()(0,s.d) | ...    | _          |
+| key                    | type    | variable   |
+|:-----------------------|:--------|:-----------|
+| userId                 | ...     | n          |
+| count                  | ...     | t          |
+| cursor                 | ...     | i          |
+| includePromotedContent | boolean | False      |
+| ...()(0,s.d)           | ...     | _          |
 
 #### features<br>
 | key                                                                     | type    | variable   |
@@ -2458,13 +2479,7 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key                    | type    | variable   |
-|:-----------------------|:--------|:-----------|
-| count                  | ...     | i          |
-| cursor                 | ...     | n          |
-| includePromotedContent | boolean | False      |
-| ...()(0,o.d)           | ...     | _          |
-
+`None`<br>
 #### features<br>
 | key                                                               | type    | variable   |
 |:------------------------------------------------------------------|:--------|:-----------|
@@ -3103,12 +3118,13 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key                    | type    | variable   |
-|:-----------------------|:--------|:-----------|
-| count                  | ...     | i          |
-| cursor                 | ...     | n          |
-| includePromotedContent | boolean | False      |
-| ...()(0,o.d)           | ...     | _          |
+| key                                    | type    | variable   |
+|:---------------------------------------|:--------|:-----------|
+| timelineId                             | ...     | n          |
+| count                                  | ...     | t          |
+| cursor                                 | ...     | i          |
+| withQuickPromoteEligibilityTweetFields | boolean | True       |
+| ...()(0,s.d)                           | ...     | _          |
 
 #### features<br>
 | key                                                                     | type    | variable   |
@@ -3142,11 +3158,13 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key              | type   | variable   |
-|:-----------------|:-------|:-----------|
-| twitterArticleId | ...    | s          |
-| title            | ...    | l          |
-| ...()(0,a.d)     | ...    | _          |
+| key                    | type    | variable   |
+|:-----------------------|:--------|:-----------|
+| rootTweetId            | ...     | n          |
+| count                  | ...     | t          |
+| cursor                 | ...     | i          |
+| includePromotedContent | boolean | False      |
+| ...()(0,s.d)           | ...     | _          |
 
 #### features<br>
 | key                                                                     | type    | variable   |
@@ -3219,12 +3237,12 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key          | type   | variable   |
-|:-------------|:-------|:-----------|
-| userId       | ...    | r          |
-| count        | ...    | l          |
-| cursor       | ...    | a          |
-| ...()(0,s.d) | ...    | _          |
+| key                    | type    | variable   |
+|:-----------------------|:--------|:-----------|
+| count                  | ...     | t          |
+| cursor                 | ...     | i          |
+| includePromotedContent | boolean | False      |
+| ...()(0,s.d)           | ...     | _          |
 
 #### features<br>
 | key                                                                     | type    | variable   |
@@ -3258,10 +3276,13 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key          | type   | variable   |
-|:-------------|:-------|:-----------|
-| ...i         | ...    | _          |
-| ...()(0,a.S) | ...    | _          |
+| key                    | type    | variable   |
+|:-----------------------|:--------|:-----------|
+| userId                 | ...     | n          |
+| count                  | ...     | t          |
+| cursor                 | ...     | i          |
+| includePromotedContent | boolean | False      |
+| ...()(0,s.d)           | ...     | _          |
 
 #### features<br>
 | key                                                                     | type    | variable   |
@@ -3295,11 +3316,13 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key          | type   | variable   |
-|:-------------|:-------|:-----------|
-| count        | ...    | i          |
-| cursor       | ...    | n          |
-| ...()(0,s.d) | ...    | _          |
+| key                    | type    | variable   |
+|:-----------------------|:--------|:-----------|
+| userId                 | ...     | n          |
+| count                  | ...     | t          |
+| cursor                 | ...     | i          |
+| includePromotedContent | boolean | False      |
+| ...()(0,s.d)           | ...     | _          |
 
 #### features<br>
 | key                                                                     | type    | variable   |
@@ -3333,13 +3356,7 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key                    | type    | variable   |
-|:-----------------------|:--------|:-----------|
-| count                  | ...     | i          |
-| cursor                 | ...     | n          |
-| includePromotedContent | boolean | False      |
-| ...()(0,o.d)           | ...     | _          |
-
+`None`<br>
 #### features<br>
 | key                                                               | type    | variable   |
 |:------------------------------------------------------------------|:--------|:-----------|
@@ -3707,12 +3724,13 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key                    | type    | variable   |
-|:-----------------------|:--------|:-----------|
-| count                  | ...     | i          |
-| cursor                 | ...     | n          |
-| includePromotedContent | boolean | False      |
-| ...()(0,o.d)           | ...     | _          |
+| key                                    | type    | variable   |
+|:---------------------------------------|:--------|:-----------|
+| timelineId                             | ...     | n          |
+| count                                  | ...     | t          |
+| cursor                                 | ...     | i          |
+| withQuickPromoteEligibilityTweetFields | boolean | True       |
+| ...()(0,s.d)                           | ...     | _          |
 
 #### features<br>
 | key                                                                     | type    | variable   |
@@ -4394,11 +4412,13 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key              | type   | variable   |
-|:-----------------|:-------|:-----------|
-| twitterArticleId | ...    | s          |
-| title            | ...    | l          |
-| ...()(0,a.d)     | ...    | _          |
+| key                    | type    | variable   |
+|:-----------------------|:--------|:-----------|
+| rootTweetId            | ...     | n          |
+| count                  | ...     | t          |
+| cursor                 | ...     | i          |
+| includePromotedContent | boolean | False      |
+| ...()(0,s.d)           | ...     | _          |
 
 #### features<br>
 | key                                                                     | type    | variable   |
@@ -4471,12 +4491,12 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key          | type   | variable   |
-|:-------------|:-------|:-----------|
-| userId       | ...    | r          |
-| count        | ...    | l          |
-| cursor       | ...    | a          |
-| ...()(0,s.d) | ...    | _          |
+| key                    | type    | variable   |
+|:-----------------------|:--------|:-----------|
+| count                  | ...     | t          |
+| cursor                 | ...     | i          |
+| includePromotedContent | boolean | False      |
+| ...()(0,s.d)           | ...     | _          |
 
 #### features<br>
 | key                                                                     | type    | variable   |
@@ -4510,10 +4530,13 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key          | type   | variable   |
-|:-------------|:-------|:-----------|
-| ...i         | ...    | _          |
-| ...()(0,a.S) | ...    | _          |
+| key                    | type    | variable   |
+|:-----------------------|:--------|:-----------|
+| userId                 | ...     | n          |
+| count                  | ...     | t          |
+| cursor                 | ...     | i          |
+| includePromotedContent | boolean | False      |
+| ...()(0,s.d)           | ...     | _          |
 
 #### features<br>
 | key                                                                     | type    | variable   |
@@ -4547,11 +4570,13 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key          | type   | variable   |
-|:-------------|:-------|:-----------|
-| count        | ...    | i          |
-| cursor       | ...    | n          |
-| ...()(0,s.d) | ...    | _          |
+| key                    | type    | variable   |
+|:-----------------------|:--------|:-----------|
+| userId                 | ...     | n          |
+| count                  | ...     | t          |
+| cursor                 | ...     | i          |
+| includePromotedContent | boolean | False      |
+| ...()(0,s.d)           | ...     | _          |
 
 #### features<br>
 | key                                                                     | type    | variable   |
@@ -4585,13 +4610,7 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key                    | type    | variable   |
-|:-----------------------|:--------|:-----------|
-| count                  | ...     | i          |
-| cursor                 | ...     | n          |
-| includePromotedContent | boolean | False      |
-| ...()(0,o.d)           | ...     | _          |
-
+`None`<br>
 #### features<br>
 | key                                                               | type    | variable   |
 |:------------------------------------------------------------------|:--------|:-----------|
@@ -4838,12 +4857,13 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key                    | type    | variable   |
-|:-----------------------|:--------|:-----------|
-| count                  | ...     | i          |
-| cursor                 | ...     | n          |
-| includePromotedContent | boolean | False      |
-| ...()(0,o.d)           | ...     | _          |
+| key                                    | type    | variable   |
+|:---------------------------------------|:--------|:-----------|
+| timelineId                             | ...     | n          |
+| count                                  | ...     | t          |
+| cursor                                 | ...     | i          |
+| withQuickPromoteEligibilityTweetFields | boolean | True       |
+| ...()(0,s.d)                           | ...     | _          |
 
 #### features<br>
 | key                                                                     | type    | variable   |
@@ -4877,11 +4897,13 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key              | type   | variable   |
-|:-----------------|:-------|:-----------|
-| twitterArticleId | ...    | s          |
-| title            | ...    | l          |
-| ...()(0,a.d)     | ...    | _          |
+| key                    | type    | variable   |
+|:-----------------------|:--------|:-----------|
+| rootTweetId            | ...     | n          |
+| count                  | ...     | t          |
+| cursor                 | ...     | i          |
+| includePromotedContent | boolean | False      |
+| ...()(0,s.d)           | ...     | _          |
 
 #### features<br>
 | key                                                                     | type    | variable   |
@@ -4954,12 +4976,12 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key          | type   | variable   |
-|:-------------|:-------|:-----------|
-| userId       | ...    | r          |
-| count        | ...    | l          |
-| cursor       | ...    | a          |
-| ...()(0,s.d) | ...    | _          |
+| key                    | type    | variable   |
+|:-----------------------|:--------|:-----------|
+| count                  | ...     | t          |
+| cursor                 | ...     | i          |
+| includePromotedContent | boolean | False      |
+| ...()(0,s.d)           | ...     | _          |
 
 #### features<br>
 | key                                                                     | type    | variable   |
@@ -4993,10 +5015,13 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key          | type   | variable   |
-|:-------------|:-------|:-----------|
-| ...i         | ...    | _          |
-| ...()(0,a.S) | ...    | _          |
+| key                    | type    | variable   |
+|:-----------------------|:--------|:-----------|
+| userId                 | ...     | n          |
+| count                  | ...     | t          |
+| cursor                 | ...     | i          |
+| includePromotedContent | boolean | False      |
+| ...()(0,s.d)           | ...     | _          |
 
 #### features<br>
 | key                                                                     | type    | variable   |
@@ -5030,11 +5055,13 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key          | type   | variable   |
-|:-------------|:-------|:-----------|
-| count        | ...    | i          |
-| cursor       | ...    | n          |
-| ...()(0,s.d) | ...    | _          |
+| key                    | type    | variable   |
+|:-----------------------|:--------|:-----------|
+| userId                 | ...     | n          |
+| count                  | ...     | t          |
+| cursor                 | ...     | i          |
+| includePromotedContent | boolean | False      |
+| ...()(0,s.d)           | ...     | _          |
 
 #### features<br>
 | key                                                                     | type    | variable   |
@@ -5068,13 +5095,7 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key                    | type    | variable   |
-|:-----------------------|:--------|:-----------|
-| count                  | ...     | i          |
-| cursor                 | ...     | n          |
-| includePromotedContent | boolean | False      |
-| ...()(0,o.d)           | ...     | _          |
-
+`None`<br>
 #### features<br>
 | key                                                               | type    | variable   |
 |:------------------------------------------------------------------|:--------|:-----------|
@@ -5332,12 +5353,13 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key                    | type    | variable   |
-|:-----------------------|:--------|:-----------|
-| count                  | ...     | i          |
-| cursor                 | ...     | n          |
-| includePromotedContent | boolean | False      |
-| ...()(0,o.d)           | ...     | _          |
+| key                                    | type    | variable   |
+|:---------------------------------------|:--------|:-----------|
+| timelineId                             | ...     | n          |
+| count                                  | ...     | t          |
+| cursor                                 | ...     | i          |
+| withQuickPromoteEligibilityTweetFields | boolean | True       |
+| ...()(0,s.d)                           | ...     | _          |
 
 #### features<br>
 | key                                                                     | type    | variable   |
@@ -5415,11 +5437,13 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key              | type   | variable   |
-|:-----------------|:-------|:-----------|
-| twitterArticleId | ...    | s          |
-| title            | ...    | l          |
-| ...()(0,a.d)     | ...    | _          |
+| key                    | type    | variable   |
+|:-----------------------|:--------|:-----------|
+| rootTweetId            | ...     | n          |
+| count                  | ...     | t          |
+| cursor                 | ...     | i          |
+| includePromotedContent | boolean | False      |
+| ...()(0,s.d)           | ...     | _          |
 
 #### features<br>
 | key                                                                     | type    | variable   |
@@ -5492,12 +5516,12 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key          | type   | variable   |
-|:-------------|:-------|:-----------|
-| userId       | ...    | r          |
-| count        | ...    | l          |
-| cursor       | ...    | a          |
-| ...()(0,s.d) | ...    | _          |
+| key                    | type    | variable   |
+|:-----------------------|:--------|:-----------|
+| count                  | ...     | t          |
+| cursor                 | ...     | i          |
+| includePromotedContent | boolean | False      |
+| ...()(0,s.d)           | ...     | _          |
 
 #### features<br>
 | key                                                                     | type    | variable   |
@@ -5614,10 +5638,13 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key          | type   | variable   |
-|:-------------|:-------|:-----------|
-| ...i         | ...    | _          |
-| ...()(0,a.S) | ...    | _          |
+| key                    | type    | variable   |
+|:-----------------------|:--------|:-----------|
+| userId                 | ...     | n          |
+| count                  | ...     | t          |
+| cursor                 | ...     | i          |
+| includePromotedContent | boolean | False      |
+| ...()(0,s.d)           | ...     | _          |
 
 #### features<br>
 | key                                                                     | type    | variable   |
@@ -5651,11 +5678,13 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key          | type   | variable   |
-|:-------------|:-------|:-----------|
-| count        | ...    | i          |
-| cursor       | ...    | n          |
-| ...()(0,s.d) | ...    | _          |
+| key                    | type    | variable   |
+|:-----------------------|:--------|:-----------|
+| userId                 | ...     | n          |
+| count                  | ...     | t          |
+| cursor                 | ...     | i          |
+| includePromotedContent | boolean | False      |
+| ...()(0,s.d)           | ...     | _          |
 
 #### features<br>
 | key                                                                     | type    | variable   |
@@ -5937,13 +5966,7 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key                    | type    | variable   |
-|:-----------------------|:--------|:-----------|
-| count                  | ...     | i          |
-| cursor                 | ...     | n          |
-| includePromotedContent | boolean | False      |
-| ...()(0,o.d)           | ...     | _          |
-
+`None`<br>
 #### features<br>
 | key                                                               | type    | variable   |
 |:------------------------------------------------------------------|:--------|:-----------|
@@ -6739,12 +6762,13 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key                    | type    | variable   |
-|:-----------------------|:--------|:-----------|
-| count                  | ...     | i          |
-| cursor                 | ...     | n          |
-| includePromotedContent | boolean | False      |
-| ...()(0,o.d)           | ...     | _          |
+| key                                    | type    | variable   |
+|:---------------------------------------|:--------|:-----------|
+| timelineId                             | ...     | n          |
+| count                                  | ...     | t          |
+| cursor                                 | ...     | i          |
+| withQuickPromoteEligibilityTweetFields | boolean | True       |
+| ...()(0,s.d)                           | ...     | _          |
 
 #### features<br>
 | key                                                                     | type    | variable   |
@@ -6778,11 +6802,13 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key              | type   | variable   |
-|:-----------------|:-------|:-----------|
-| twitterArticleId | ...    | s          |
-| title            | ...    | l          |
-| ...()(0,a.d)     | ...    | _          |
+| key                    | type    | variable   |
+|:-----------------------|:--------|:-----------|
+| rootTweetId            | ...     | n          |
+| count                  | ...     | t          |
+| cursor                 | ...     | i          |
+| includePromotedContent | boolean | False      |
+| ...()(0,s.d)           | ...     | _          |
 
 #### features<br>
 | key                                                                     | type    | variable   |
@@ -6888,12 +6914,12 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key          | type   | variable   |
-|:-------------|:-------|:-----------|
-| userId       | ...    | r          |
-| count        | ...    | l          |
-| cursor       | ...    | a          |
-| ...()(0,s.d) | ...    | _          |
+| key                    | type    | variable   |
+|:-----------------------|:--------|:-----------|
+| count                  | ...     | t          |
+| cursor                 | ...     | i          |
+| includePromotedContent | boolean | False      |
+| ...()(0,s.d)           | ...     | _          |
 
 #### features<br>
 | key                                                                     | type    | variable   |
@@ -7147,10 +7173,13 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key          | type   | variable   |
-|:-------------|:-------|:-----------|
-| ...i         | ...    | _          |
-| ...()(0,a.S) | ...    | _          |
+| key                    | type    | variable   |
+|:-----------------------|:--------|:-----------|
+| userId                 | ...     | n          |
+| count                  | ...     | t          |
+| cursor                 | ...     | i          |
+| includePromotedContent | boolean | False      |
+| ...()(0,s.d)           | ...     | _          |
 
 #### features<br>
 | key                                                                     | type    | variable   |
@@ -7184,11 +7213,13 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key          | type   | variable   |
-|:-------------|:-------|:-----------|
-| count        | ...    | i          |
-| cursor       | ...    | n          |
-| ...()(0,s.d) | ...    | _          |
+| key                    | type    | variable   |
+|:-----------------------|:--------|:-----------|
+| userId                 | ...     | n          |
+| count                  | ...     | t          |
+| cursor                 | ...     | i          |
+| includePromotedContent | boolean | False      |
+| ...()(0,s.d)           | ...     | _          |
 
 #### features<br>
 | key                                                                     | type    | variable   |
@@ -7222,13 +7253,7 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key                    | type    | variable   |
-|:-----------------------|:--------|:-----------|
-| count                  | ...     | i          |
-| cursor                 | ...     | n          |
-| includePromotedContent | boolean | False      |
-| ...()(0,o.d)           | ...     | _          |
-
+`None`<br>
 #### features<br>
 | key                                                               | type    | variable   |
 |:------------------------------------------------------------------|:--------|:-----------|
@@ -7637,12 +7662,13 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key                    | type    | variable   |
-|:-----------------------|:--------|:-----------|
-| count                  | ...     | i          |
-| cursor                 | ...     | n          |
-| includePromotedContent | boolean | False      |
-| ...()(0,o.d)           | ...     | _          |
+| key                                    | type    | variable   |
+|:---------------------------------------|:--------|:-----------|
+| timelineId                             | ...     | n          |
+| count                                  | ...     | t          |
+| cursor                                 | ...     | i          |
+| withQuickPromoteEligibilityTweetFields | boolean | True       |
+| ...()(0,s.d)                           | ...     | _          |
 
 #### features<br>
 | key                                                                     | type    | variable   |
@@ -7676,11 +7702,13 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key              | type   | variable   |
-|:-----------------|:-------|:-----------|
-| twitterArticleId | ...    | s          |
-| title            | ...    | l          |
-| ...()(0,a.d)     | ...    | _          |
+| key                    | type    | variable   |
+|:-----------------------|:--------|:-----------|
+| rootTweetId            | ...     | n          |
+| count                  | ...     | t          |
+| cursor                 | ...     | i          |
+| includePromotedContent | boolean | False      |
+| ...()(0,s.d)           | ...     | _          |
 
 #### features<br>
 | key                                                                     | type    | variable   |
@@ -7753,12 +7781,12 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key          | type   | variable   |
-|:-------------|:-------|:-----------|
-| userId       | ...    | r          |
-| count        | ...    | l          |
-| cursor       | ...    | a          |
-| ...()(0,s.d) | ...    | _          |
+| key                    | type    | variable   |
+|:-----------------------|:--------|:-----------|
+| count                  | ...     | t          |
+| cursor                 | ...     | i          |
+| includePromotedContent | boolean | False      |
+| ...()(0,s.d)           | ...     | _          |
 
 #### features<br>
 | key                                                                     | type    | variable   |
@@ -7807,10 +7835,13 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key          | type   | variable   |
-|:-------------|:-------|:-----------|
-| ...i         | ...    | _          |
-| ...()(0,a.S) | ...    | _          |
+| key                    | type    | variable   |
+|:-----------------------|:--------|:-----------|
+| userId                 | ...     | n          |
+| count                  | ...     | t          |
+| cursor                 | ...     | i          |
+| includePromotedContent | boolean | False      |
+| ...()(0,s.d)           | ...     | _          |
 
 #### features<br>
 | key                                                                     | type    | variable   |
@@ -7844,11 +7875,13 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key          | type   | variable   |
-|:-------------|:-------|:-----------|
-| count        | ...    | i          |
-| cursor       | ...    | n          |
-| ...()(0,s.d) | ...    | _          |
+| key                    | type    | variable   |
+|:-----------------------|:--------|:-----------|
+| userId                 | ...     | n          |
+| count                  | ...     | t          |
+| cursor                 | ...     | i          |
+| includePromotedContent | boolean | False      |
+| ...()(0,s.d)           | ...     | _          |
 
 #### features<br>
 | key                                                                     | type    | variable   |
@@ -7882,13 +7915,7 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key                    | type    | variable   |
-|:-----------------------|:--------|:-----------|
-| count                  | ...     | i          |
-| cursor                 | ...     | n          |
-| includePromotedContent | boolean | False      |
-| ...()(0,o.d)           | ...     | _          |
-
+`None`<br>
 #### features<br>
 | key                                                               | type    | variable   |
 |:------------------------------------------------------------------|:--------|:-----------|
@@ -8927,6 +8954,17 @@ Login Required: `...`<br>
 `None`<br>
 #### queryId<br>
 `None`<br>
+## BirdwatchEditUserSettings<br>
+Request URL: `https://twitter.com/i/api/graphql/k1Unfqb74V4sf2d7-kFkhg/BirdwatchEditUserSettings`<br>
+Request Method: `POST`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
 ## BirdwatchFetchAliasSelfSelectOptions<br>
 Request URL: `https://twitter.com/i/api/graphql/szoXMke8AZOErso908iglw/BirdwatchFetchAliasSelfSelectOptions`<br>
 Request Method: `GET`<br>
@@ -8950,16 +8988,17 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## BirdwatchFetchAuthenticatedUserProfile<br>
-Request URL: `https://twitter.com/i/api/graphql/wPAWxQMAlJP7SpkwiQnn9w/BirdwatchFetchAuthenticatedUserProfile`<br>
+Request URL: `https://twitter.com/i/api/graphql/j0xscK7IT-U52Geu7QEaDQ/BirdwatchFetchAuthenticatedUserProfile`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
 `None`<br>
 #### features<br>
-| key                                         | type    | variable   |
-|:--------------------------------------------|:--------|:-----------|
-| responsive_web_birdwatch_note_limit_enabled | boolean | True       |
+| key                                                 | type    | default   |   variable |
+|:----------------------------------------------------|:--------|:----------|-----------:|
+| responsive_web_birdwatch_mobile_nav_setting_enabled | ...     | error     |        nan |
+| responsive_web_birdwatch_note_limit_enabled         | boolean | nan       |          1 |
 
 #### queryId<br>
 `None`<br>
@@ -10591,12 +10630,13 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key                    | type    | variable   |
-|:-----------------------|:--------|:-----------|
-| count                  | ...     | i          |
-| cursor                 | ...     | n          |
-| includePromotedContent | boolean | False      |
-| ...()(0,o.d)           | ...     | _          |
+| key                                    | type    | variable   |
+|:---------------------------------------|:--------|:-----------|
+| timelineId                             | ...     | n          |
+| count                                  | ...     | t          |
+| cursor                                 | ...     | i          |
+| withQuickPromoteEligibilityTweetFields | boolean | True       |
+| ...()(0,s.d)                           | ...     | _          |
 
 #### features<br>
 | key                                                                     | type    | variable   |
@@ -11498,11 +11538,13 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key              | type   | variable   |
-|:-----------------|:-------|:-----------|
-| twitterArticleId | ...    | s          |
-| title            | ...    | l          |
-| ...()(0,a.d)     | ...    | _          |
+| key                    | type    | variable   |
+|:-----------------------|:--------|:-----------|
+| rootTweetId            | ...     | n          |
+| count                  | ...     | t          |
+| cursor                 | ...     | i          |
+| includePromotedContent | boolean | False      |
+| ...()(0,s.d)           | ...     | _          |
 
 #### features<br>
 | key                                                                     | type    | variable   |
@@ -11762,11 +11804,10 @@ Request Method: `POST`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key                       | type   | variable   |
-|:--------------------------|:-------|:-----------|
-| ...i                      | ...    | _          |
-| withCommunity             | ...    | t.isTrue() |
-| ...("c9s_enabled")(0,a.S) | ...    | _          |
+| key                    | type   | variable   |
+|:-----------------------|:-------|:-----------|
+| bookmark_collection_id | ...    | t          |
+| tweet_id               | ...    | r          |
 
 #### features<br>
 `None`<br>
@@ -12038,12 +12079,12 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key          | type   | variable   |
-|:-------------|:-------|:-----------|
-| userId       | ...    | r          |
-| count        | ...    | l          |
-| cursor       | ...    | a          |
-| ...()(0,s.d) | ...    | _          |
+| key                    | type    | variable   |
+|:-----------------------|:--------|:-----------|
+| count                  | ...     | t          |
+| cursor                 | ...     | i          |
+| includePromotedContent | boolean | False      |
+| ...()(0,s.d)           | ...     | _          |
 
 #### features<br>
 | key                                                                     | type    | variable   |
@@ -12875,10 +12916,13 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key          | type   | variable   |
-|:-------------|:-------|:-----------|
-| ...i         | ...    | _          |
-| ...()(0,a.S) | ...    | _          |
+| key                    | type    | variable   |
+|:-----------------------|:--------|:-----------|
+| userId                 | ...     | n          |
+| count                  | ...     | t          |
+| cursor                 | ...     | i          |
+| includePromotedContent | boolean | False      |
+| ...()(0,s.d)           | ...     | _          |
 
 #### features<br>
 | key                                                                     | type    | variable   |
@@ -12912,11 +12956,13 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key          | type   | variable   |
-|:-------------|:-------|:-----------|
-| count        | ...    | i          |
-| cursor       | ...    | n          |
-| ...()(0,s.d) | ...    | _          |
+| key                    | type    | variable   |
+|:-----------------------|:--------|:-----------|
+| userId                 | ...     | n          |
+| count                  | ...     | t          |
+| cursor                 | ...     | i          |
+| includePromotedContent | boolean | False      |
+| ...()(0,s.d)           | ...     | _          |
 
 #### features<br>
 | key                                                                     | type    | variable   |
@@ -13265,13 +13311,7 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key                    | type    | variable   |
-|:-----------------------|:--------|:-----------|
-| count                  | ...     | i          |
-| cursor                 | ...     | n          |
-| includePromotedContent | boolean | False      |
-| ...()(0,o.d)           | ...     | _          |
-
+`None`<br>
 #### features<br>
 | key                                                               | type    | variable   |
 |:------------------------------------------------------------------|:--------|:-----------|
@@ -14626,17 +14666,6 @@ Login Required: `...`<br>
 
 #### queryId<br>
 `None`<br>
-## ProfileSpotlights_EditableProfileSpotlightsQuery<br>
-Request URL: `https://twitter.com/i/api/graphql/qrPz1u69sgxCGngi3AFKWw/ProfileSpotlights_EditableProfileSpotlightsQuery`<br>
-Request Method: `GET`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-`None`<br>
-#### queryId<br>
-`None`<br>
 ## LocationSpotlightQuery<br>
 Request URL: `https://twitter.com/i/api/graphql/PtT7DMn9eI8yFh-jkG-fGg/LocationSpotlightQuery`<br>
 Request Method: `GET`<br>
@@ -14649,7 +14678,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## useCreateLocationSpotlightMutation<br>
-Request URL: `https://twitter.com/i/api/graphql/9VeUvsIj7zFNHumBpHpErQ/useCreateLocationSpotlightMutation`<br>
+Request URL: `https://twitter.com/i/api/graphql/RJUArKmr8Yz7iOXtSbWDIg/useCreateLocationSpotlightMutation`<br>
 Request Method: `POST`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -14660,7 +14689,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## useDeleteLocationSpotlightMutation<br>
-Request URL: `https://twitter.com/i/api/graphql/JriEwaRhArrOBrfRSOxz7Q/useDeleteLocationSpotlightMutation`<br>
+Request URL: `https://twitter.com/i/api/graphql/0Jj1xwvz2ATm467fPkAY5w/useDeleteLocationSpotlightMutation`<br>
 Request Method: `POST`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -14682,7 +14711,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## useUpdateLocationSpotlightMutation<br>
-Request URL: `https://twitter.com/i/api/graphql/rJJxLsW6frl2QsrnNoIJOg/useUpdateLocationSpotlightMutation`<br>
+Request URL: `https://twitter.com/i/api/graphql/jNOiWTRw6B_3XqmnSR7iEA/useUpdateLocationSpotlightMutation`<br>
 Request Method: `POST`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -14805,8 +14834,19 @@ Login Required: `...`<br>
 `None`<br>
 #### queryId<br>
 `None`<br>
+## JobScreenQuery<br>
+Request URL: `https://twitter.com/i/api/graphql/c7gn8b84cP88GH3ZOWsH9Q/JobScreenQuery`<br>
+Request Method: `GET`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
 ## UserJobListQueryScreenJobsQuery<br>
-Request URL: `https://twitter.com/i/api/graphql/JARKPRa82Y0cRt8x9CwnIQ/UserJobListQueryScreenJobsQuery`<br>
+Request URL: `https://twitter.com/i/api/graphql/aj_-2oD5RLqnrJn2hlRK-w/UserJobListQueryScreenJobsQuery`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -14975,7 +15015,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## ProfileSpotlightsQuery<br>
-Request URL: `https://twitter.com/i/api/graphql/ZVMba_OK3u9SgzRTTNPbwg/ProfileSpotlightsQuery`<br>
+Request URL: `https://twitter.com/i/api/graphql/ziyNBx5AoF5FLtyv7tqS4w/ProfileSpotlightsQuery`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
