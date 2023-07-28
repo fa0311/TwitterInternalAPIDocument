@@ -1228,3 +1228,18 @@
 - rweb_deprecate_follower_objective_qp_enabled<br>
 #### remove<br>
 - subscriptions_product_feature_list_api_enabled<br>
+## 2023/07/28<br>
+### API<br>
+#### add<br>
+- BirdwatchEditUserSettings<br>
+- BirdwatchEditUserSettings<br>
+- JobScreenQuery<br>
+#### remove<br>
+- ProfileSpotlights_EditableProfileSpotlightsQuery<br>
+### Feature Switch<br>
+#### add<br>
+- promoted_badge_placement_position<br>
+- recruiting_job_page_consumption_enabled<br>
+- rweb_search_media_enabled<br>
+#### remove<br>
+- responsive_web_lo_gating_prominent_sta_button_paths<br>
