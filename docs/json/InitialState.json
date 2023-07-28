@@ -81,6 +81,11 @@
       "errors": {},
       "fetchStatus": {}
     },
+    "translationsProfiles": {
+      "entities": {},
+      "errors": {},
+      "fetchStatus": {}
+    },
     "imageCache": {
       "entities": {},
       "errors": {},
@@ -1108,6 +1113,12 @@
       "profile_foundations_tweet_stats_tweet_topics": {
         "value": "false"
       },
+      "promoted_badge_placement_position": {
+        "value": ""
+      },
+      "recruiting_job_page_consumption_enabled": {
+        "value": "false"
+      },
       "recruiting_jobs_list_consumption_enabled": {
         "value": "false"
       },
@@ -1500,9 +1511,6 @@
       },
       "responsive_web_live_video_parity_periscope_auth_enabled": {
         "value": "false"
-      },
-      "responsive_web_lo_gating_prominent_sta_button_paths": {
-        "value": "switch-to-app-footer"
       },
       "responsive_web_locale_context_direction_enabled": {
         "value": "true"
@@ -1967,7 +1975,7 @@
         "value": "false"
       },
       "rweb_deprecate_follower_objective_qp_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "rweb_enable_logged_out_search_search_bar_enabled": {
         "value": "false"
@@ -1997,6 +2005,9 @@
         "value": "true"
       },
       "rweb_panning_nav_behavior": {
+        "value": "false"
+      },
+      "rweb_search_media_enabled": {
         "value": "false"
       },
       "rweb_tweets_boosting_enabled": {
@@ -3734,6 +3745,12 @@
         "profile_foundations_tweet_stats_tweet_topics": {
           "value": "false"
         },
+        "promoted_badge_placement_position": {
+          "value": ""
+        },
+        "recruiting_job_page_consumption_enabled": {
+          "value": "false"
+        },
         "recruiting_jobs_list_consumption_enabled": {
           "value": "true"
         },
@@ -3789,10 +3806,10 @@
           "value": "true"
         },
         "responsive_web_ad_revenue_sharing_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "responsive_web_ad_revenue_sharing_setup_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "responsive_web_alt_text_nudges_enabled": {
           "value": "true"
@@ -3870,7 +3887,7 @@
           "value": "false"
         },
         "responsive_web_birdwatch_signup_prompt_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "responsive_web_birdwatch_site_enabled": {
           "value": "true"
@@ -4126,9 +4143,6 @@
         },
         "responsive_web_live_video_parity_periscope_auth_enabled": {
           "value": "false"
-        },
-        "responsive_web_lo_gating_prominent_sta_button_paths": {
-          "value": "switch-to-app-footer"
         },
         "responsive_web_locale_context_direction_enabled": {
           "value": "true"
@@ -4623,6 +4637,9 @@
           "value": "true"
         },
         "rweb_panning_nav_behavior": {
+          "value": "false"
+        },
+        "rweb_search_media_enabled": {
           "value": "false"
         },
         "rweb_tweets_boosting_enabled": {
@@ -5328,7 +5345,7 @@
           "value": "true"
         },
         "web_image_large_webp_variants": {
-          "value": "true"
+          "value": "false"
         },
         "web_video_bitrate_persistence_enabled": {
           "value": "false"
@@ -5367,10 +5384,10 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "bd568df7c24668ffba19f66df177698e"
+      "settingsVersion": "f8d6db6f7c9877489a1be24d70f8b3f0"
     },
     "debug": {},
-    "featureSetToken": "cc4a07725c2189df52b87c8b52dd46026a6ffd47",
+    "featureSetToken": "b6c431f3b1ad6d5964a6e333747b711d23f51c53",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -5440,7 +5457,7 @@
     "country": "US",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "169049190248857183",
+    "guestId": "169057837565111024",
     "hasCommunityMemberships": "false",
     "language": "en",
     "oneFactorLoginEligibility": {
@@ -5451,6 +5468,12 @@
   "developer": {
     "dtabBarInfo": {
       "hide": "false"
+    }
+  },
+  "ads": {
+    "typeahead": {
+      "targetingLocation": {},
+      "forecastAudience": {}
     }
   }
 }

@@ -1236,10 +1236,11 @@
     "func_name": "A",
     "func_name_init": "x",
     "query": {
-      "count": "i",
-      "cursor": "n",
-      "includePromotedContent": "!1",
-      "...()(0,o.d)": "_"
+      "timelineId": "n",
+      "count": "t",
+      "cursor": "i",
+      "withQuickPromoteEligibilityTweetFields": "!0",
+      "...()(0,s.d)": "_"
     }
   },
   {
@@ -1340,11 +1341,13 @@
       }
     },
     "func_name": "S",
-    "func_name_init": "k",
+    "func_name_init": "I",
     "query": {
-      "twitterArticleId": "s",
-      "title": "l",
-      "...()(0,a.d)": "_"
+      "rootTweetId": "n",
+      "count": "t",
+      "cursor": "i",
+      "includePromotedContent": "!1",
+      "...()(0,s.d)": "_"
     }
   },
   {
@@ -1551,11 +1554,11 @@
       }
     },
     "func_name": "C",
-    "func_name_init": "B",
+    "func_name_init": "L",
     "query": {
-      "userId": "r",
-      "count": "l",
-      "cursor": "a",
+      "count": "t",
+      "cursor": "i",
+      "includePromotedContent": "!1",
       "...()(0,s.d)": "_"
     }
   },
@@ -1669,11 +1672,14 @@
         }
       }
     },
-    "func_name": "V",
-    "func_name_init": "U",
+    "func_name": "z",
+    "func_name_init": "P",
     "query": {
-      "...i": "_",
-      "...()(0,a.S)": "_"
+      "userId": "n",
+      "count": "t",
+      "cursor": "i",
+      "includePromotedContent": "!1",
+      "...()(0,s.d)": "_"
     }
   },
   {
@@ -1773,11 +1779,13 @@
         }
       }
     },
-    "func_name": "X",
-    "func_name_init": "G",
+    "func_name": "Q",
+    "func_name_init": "B",
     "query": {
-      "count": "i",
-      "cursor": "n",
+      "userId": "n",
+      "count": "t",
+      "cursor": "i",
+      "includePromotedContent": "!1",
       "...()(0,s.d)": "_"
     }
   },
@@ -1812,14 +1820,6 @@
           }
         }
       }
-    },
-    "func_name": "R",
-    "func_name_init": "z",
-    "query": {
-      "count": "i",
-      "cursor": "n",
-      "includePromotedContent": "!1",
-      "...()(0,o.d)": "_"
     }
   },
   {
@@ -2533,6 +2533,19 @@
     }
   },
   {
+    "n": "65964",
+    "exports": {
+      "queryId": "k1Unfqb74V4sf2d7-kFkhg",
+      "operationName": "BirdwatchEditUserSettings",
+      "operationType": "mutation",
+      "metadata": {
+        "featureSwitches": [],
+        "fieldToggles": [],
+        "featureSwitch": {}
+      }
+    }
+  },
+  {
     "n": "18545",
     "exports": {
       "queryId": "szoXMke8AZOErso908iglw",
@@ -2561,11 +2574,12 @@
   {
     "n": "68783",
     "exports": {
-      "queryId": "wPAWxQMAlJP7SpkwiQnn9w",
+      "queryId": "j0xscK7IT-U52Geu7QEaDQ",
       "operationName": "BirdwatchFetchAuthenticatedUserProfile",
       "operationType": "query",
       "metadata": {
         "featureSwitches": [
+          "responsive_web_birdwatch_mobile_nav_setting_enabled",
           "responsive_web_birdwatch_note_limit_enabled"
         ],
         "fieldToggles": [],
@@ -3164,9 +3178,8 @@
     "func_name": "B",
     "func_name_init": "T",
     "query": {
-      "...i": "_",
-      "withCommunity": "t.isTrue()",
-      "...(\"c9s_enabled\")(0,a.S)": "_"
+      "bookmark_collection_id": "t",
+      "tweet_id": "r"
     }
   },
   {
@@ -5065,10 +5078,11 @@
     "func_name": "A",
     "func_name_init": "x",
     "query": {
-      "count": "i",
-      "cursor": "n",
-      "includePromotedContent": "!1",
-      "...()(0,o.d)": "_"
+      "timelineId": "n",
+      "count": "t",
+      "cursor": "i",
+      "withQuickPromoteEligibilityTweetFields": "!0",
+      "...()(0,s.d)": "_"
     }
   },
   {
@@ -5169,11 +5183,13 @@
       }
     },
     "func_name": "S",
-    "func_name_init": "k",
+    "func_name_init": "I",
     "query": {
-      "twitterArticleId": "s",
-      "title": "l",
-      "...()(0,a.d)": "_"
+      "rootTweetId": "n",
+      "count": "t",
+      "cursor": "i",
+      "includePromotedContent": "!1",
+      "...()(0,s.d)": "_"
     }
   },
   {
@@ -5380,11 +5396,11 @@
       }
     },
     "func_name": "C",
-    "func_name_init": "B",
+    "func_name_init": "L",
     "query": {
-      "userId": "r",
-      "count": "l",
-      "cursor": "a",
+      "count": "t",
+      "cursor": "i",
+      "includePromotedContent": "!1",
       "...()(0,s.d)": "_"
     }
   },
@@ -5485,11 +5501,14 @@
         }
       }
     },
-    "func_name": "V",
-    "func_name_init": "U",
+    "func_name": "z",
+    "func_name_init": "P",
     "query": {
-      "...i": "_",
-      "...()(0,a.S)": "_"
+      "userId": "n",
+      "count": "t",
+      "cursor": "i",
+      "includePromotedContent": "!1",
+      "...()(0,s.d)": "_"
     }
   },
   {
@@ -5589,11 +5608,13 @@
         }
       }
     },
-    "func_name": "X",
-    "func_name_init": "G",
+    "func_name": "Q",
+    "func_name_init": "B",
     "query": {
-      "count": "i",
-      "cursor": "n",
+      "userId": "n",
+      "count": "t",
+      "cursor": "i",
+      "includePromotedContent": "!1",
       "...()(0,s.d)": "_"
     }
   },
@@ -5628,14 +5649,6 @@
           }
         }
       }
-    },
-    "func_name": "R",
-    "func_name_init": "z",
-    "query": {
-      "count": "i",
-      "cursor": "n",
-      "includePromotedContent": "!1",
-      "...()(0,o.d)": "_"
     }
   },
   {
@@ -7145,10 +7158,11 @@
     "func_name": "A",
     "func_name_init": "x",
     "query": {
-      "count": "i",
-      "cursor": "n",
-      "includePromotedContent": "!1",
-      "...()(0,o.d)": "_"
+      "timelineId": "n",
+      "count": "t",
+      "cursor": "i",
+      "withQuickPromoteEligibilityTweetFields": "!0",
+      "...()(0,s.d)": "_"
     }
   },
   {
@@ -7249,11 +7263,13 @@
       }
     },
     "func_name": "S",
-    "func_name_init": "k",
+    "func_name_init": "I",
     "query": {
-      "twitterArticleId": "s",
-      "title": "l",
-      "...()(0,a.d)": "_"
+      "rootTweetId": "n",
+      "count": "t",
+      "cursor": "i",
+      "includePromotedContent": "!1",
+      "...()(0,s.d)": "_"
     }
   },
   {
@@ -7460,11 +7476,11 @@
       }
     },
     "func_name": "C",
-    "func_name_init": "B",
+    "func_name_init": "L",
     "query": {
-      "userId": "r",
-      "count": "l",
-      "cursor": "a",
+      "count": "t",
+      "cursor": "i",
+      "includePromotedContent": "!1",
       "...()(0,s.d)": "_"
     }
   },
@@ -7565,11 +7581,14 @@
         }
       }
     },
-    "func_name": "V",
-    "func_name_init": "U",
+    "func_name": "z",
+    "func_name_init": "P",
     "query": {
-      "...i": "_",
-      "...()(0,a.S)": "_"
+      "userId": "n",
+      "count": "t",
+      "cursor": "i",
+      "includePromotedContent": "!1",
+      "...()(0,s.d)": "_"
     }
   },
   {
@@ -7669,11 +7688,13 @@
         }
       }
     },
-    "func_name": "X",
-    "func_name_init": "G",
+    "func_name": "Q",
+    "func_name_init": "B",
     "query": {
-      "count": "i",
-      "cursor": "n",
+      "userId": "n",
+      "count": "t",
+      "cursor": "i",
+      "includePromotedContent": "!1",
       "...()(0,s.d)": "_"
     }
   },
@@ -7708,14 +7729,6 @@
           }
         }
       }
-    },
-    "func_name": "R",
-    "func_name_init": "z",
-    "query": {
-      "count": "i",
-      "cursor": "n",
-      "includePromotedContent": "!1",
-      "...()(0,o.d)": "_"
     }
   },
   {
@@ -8825,10 +8838,11 @@
     "func_name": "A",
     "func_name_init": "x",
     "query": {
-      "count": "i",
-      "cursor": "n",
-      "includePromotedContent": "!1",
-      "...()(0,o.d)": "_"
+      "timelineId": "n",
+      "count": "t",
+      "cursor": "i",
+      "withQuickPromoteEligibilityTweetFields": "!0",
+      "...()(0,s.d)": "_"
     }
   },
   {
@@ -10564,11 +10578,13 @@
       }
     },
     "func_name": "S",
-    "func_name_init": "k",
+    "func_name_init": "I",
     "query": {
-      "twitterArticleId": "s",
-      "title": "l",
-      "...()(0,a.d)": "_"
+      "rootTweetId": "n",
+      "count": "t",
+      "cursor": "i",
+      "includePromotedContent": "!1",
+      "...()(0,s.d)": "_"
     }
   },
   {
@@ -10775,11 +10791,11 @@
       }
     },
     "func_name": "C",
-    "func_name_init": "B",
+    "func_name_init": "L",
     "query": {
-      "userId": "r",
-      "count": "l",
-      "cursor": "a",
+      "count": "t",
+      "cursor": "i",
+      "includePromotedContent": "!1",
       "...()(0,s.d)": "_"
     }
   },
@@ -10880,11 +10896,14 @@
         }
       }
     },
-    "func_name": "V",
-    "func_name_init": "U",
+    "func_name": "z",
+    "func_name_init": "P",
     "query": {
-      "...i": "_",
-      "...()(0,a.S)": "_"
+      "userId": "n",
+      "count": "t",
+      "cursor": "i",
+      "includePromotedContent": "!1",
+      "...()(0,s.d)": "_"
     }
   },
   {
@@ -10984,11 +11003,13 @@
         }
       }
     },
-    "func_name": "X",
-    "func_name_init": "G",
+    "func_name": "Q",
+    "func_name_init": "B",
     "query": {
-      "count": "i",
-      "cursor": "n",
+      "userId": "n",
+      "count": "t",
+      "cursor": "i",
+      "includePromotedContent": "!1",
       "...()(0,s.d)": "_"
     }
   },
@@ -11023,14 +11044,6 @@
           }
         }
       }
-    },
-    "func_name": "R",
-    "func_name_init": "z",
-    "query": {
-      "count": "i",
-      "cursor": "n",
-      "includePromotedContent": "!1",
-      "...()(0,o.d)": "_"
     }
   },
   {
@@ -11761,10 +11774,11 @@
     "func_name": "A",
     "func_name_init": "x",
     "query": {
-      "count": "i",
-      "cursor": "n",
-      "includePromotedContent": "!1",
-      "...()(0,o.d)": "_"
+      "timelineId": "n",
+      "count": "t",
+      "cursor": "i",
+      "withQuickPromoteEligibilityTweetFields": "!0",
+      "...()(0,s.d)": "_"
     }
   },
   {
@@ -11865,11 +11879,13 @@
       }
     },
     "func_name": "S",
-    "func_name_init": "k",
+    "func_name_init": "I",
     "query": {
-      "twitterArticleId": "s",
-      "title": "l",
-      "...()(0,a.d)": "_"
+      "rootTweetId": "n",
+      "count": "t",
+      "cursor": "i",
+      "includePromotedContent": "!1",
+      "...()(0,s.d)": "_"
     }
   },
   {
@@ -12076,11 +12092,11 @@
       }
     },
     "func_name": "C",
-    "func_name_init": "B",
+    "func_name_init": "L",
     "query": {
-      "userId": "r",
-      "count": "l",
-      "cursor": "a",
+      "count": "t",
+      "cursor": "i",
+      "includePromotedContent": "!1",
       "...()(0,s.d)": "_"
     }
   },
@@ -12181,11 +12197,14 @@
         }
       }
     },
-    "func_name": "V",
-    "func_name_init": "U",
+    "func_name": "z",
+    "func_name_init": "P",
     "query": {
-      "...i": "_",
-      "...()(0,a.S)": "_"
+      "userId": "n",
+      "count": "t",
+      "cursor": "i",
+      "includePromotedContent": "!1",
+      "...()(0,s.d)": "_"
     }
   },
   {
@@ -12285,11 +12304,13 @@
         }
       }
     },
-    "func_name": "X",
-    "func_name_init": "G",
+    "func_name": "Q",
+    "func_name_init": "B",
     "query": {
-      "count": "i",
-      "cursor": "n",
+      "userId": "n",
+      "count": "t",
+      "cursor": "i",
+      "includePromotedContent": "!1",
       "...()(0,s.d)": "_"
     }
   },
@@ -12324,14 +12345,6 @@
           }
         }
       }
-    },
-    "func_name": "R",
-    "func_name_init": "z",
-    "query": {
-      "count": "i",
-      "cursor": "n",
-      "includePromotedContent": "!1",
-      "...()(0,o.d)": "_"
     }
   },
   {
@@ -13075,10 +13088,11 @@
     "func_name": "A",
     "func_name_init": "x",
     "query": {
-      "count": "i",
-      "cursor": "n",
-      "includePromotedContent": "!1",
-      "...()(0,o.d)": "_"
+      "timelineId": "n",
+      "count": "t",
+      "cursor": "i",
+      "withQuickPromoteEligibilityTweetFields": "!0",
+      "...()(0,s.d)": "_"
     }
   },
   {
@@ -13290,11 +13304,13 @@
       }
     },
     "func_name": "S",
-    "func_name_init": "k",
+    "func_name_init": "I",
     "query": {
-      "twitterArticleId": "s",
-      "title": "l",
-      "...()(0,a.d)": "_"
+      "rootTweetId": "n",
+      "count": "t",
+      "cursor": "i",
+      "includePromotedContent": "!1",
+      "...()(0,s.d)": "_"
     }
   },
   {
@@ -13501,11 +13517,11 @@
       }
     },
     "func_name": "C",
-    "func_name_init": "B",
+    "func_name_init": "L",
     "query": {
-      "userId": "r",
-      "count": "l",
-      "cursor": "a",
+      "count": "t",
+      "cursor": "i",
+      "includePromotedContent": "!1",
       "...()(0,s.d)": "_"
     }
   },
@@ -13823,11 +13839,14 @@
         }
       }
     },
-    "func_name": "V",
-    "func_name_init": "U",
+    "func_name": "z",
+    "func_name_init": "P",
     "query": {
-      "...i": "_",
-      "...()(0,a.S)": "_"
+      "userId": "n",
+      "count": "t",
+      "cursor": "i",
+      "includePromotedContent": "!1",
+      "...()(0,s.d)": "_"
     }
   },
   {
@@ -13927,11 +13946,13 @@
         }
       }
     },
-    "func_name": "X",
-    "func_name_init": "G",
+    "func_name": "Q",
+    "func_name_init": "B",
     "query": {
-      "count": "i",
-      "cursor": "n",
+      "userId": "n",
+      "count": "t",
+      "cursor": "i",
+      "includePromotedContent": "!1",
       "...()(0,s.d)": "_"
     }
   },
@@ -14614,14 +14635,6 @@
           }
         }
       }
-    },
-    "func_name": "R",
-    "func_name_init": "z",
-    "query": {
-      "count": "i",
-      "cursor": "n",
-      "includePromotedContent": "!1",
-      "...()(0,o.d)": "_"
     }
   },
   {
@@ -16298,10 +16311,11 @@
     "func_name": "A",
     "func_name_init": "x",
     "query": {
-      "count": "i",
-      "cursor": "n",
-      "includePromotedContent": "!1",
-      "...()(0,o.d)": "_"
+      "timelineId": "n",
+      "count": "t",
+      "cursor": "i",
+      "withQuickPromoteEligibilityTweetFields": "!0",
+      "...()(0,s.d)": "_"
     }
   },
   {
@@ -16402,11 +16416,13 @@
       }
     },
     "func_name": "S",
-    "func_name_init": "k",
+    "func_name_init": "I",
     "query": {
-      "twitterArticleId": "s",
-      "title": "l",
-      "...()(0,a.d)": "_"
+      "rootTweetId": "n",
+      "count": "t",
+      "cursor": "i",
+      "includePromotedContent": "!1",
+      "...()(0,s.d)": "_"
     }
   },
   {
@@ -16711,11 +16727,11 @@
       }
     },
     "func_name": "C",
-    "func_name_init": "B",
+    "func_name_init": "L",
     "query": {
-      "userId": "r",
-      "count": "l",
-      "cursor": "a",
+      "count": "t",
+      "cursor": "i",
+      "includePromotedContent": "!1",
       "...()(0,s.d)": "_"
     }
   },
@@ -17371,11 +17387,14 @@
         }
       }
     },
-    "func_name": "V",
-    "func_name_init": "U",
+    "func_name": "z",
+    "func_name_init": "P",
     "query": {
-      "...i": "_",
-      "...()(0,a.S)": "_"
+      "userId": "n",
+      "count": "t",
+      "cursor": "i",
+      "includePromotedContent": "!1",
+      "...()(0,s.d)": "_"
     }
   },
   {
@@ -17475,11 +17494,13 @@
         }
       }
     },
-    "func_name": "X",
-    "func_name_init": "G",
+    "func_name": "Q",
+    "func_name_init": "B",
     "query": {
-      "count": "i",
-      "cursor": "n",
+      "userId": "n",
+      "count": "t",
+      "cursor": "i",
+      "includePromotedContent": "!1",
       "...()(0,s.d)": "_"
     }
   },
@@ -17514,14 +17535,6 @@
           }
         }
       }
-    },
-    "func_name": "R",
-    "func_name_init": "z",
-    "query": {
-      "count": "i",
-      "cursor": "n",
-      "includePromotedContent": "!1",
-      "...()(0,o.d)": "_"
     }
   },
   {
@@ -18682,10 +18695,11 @@
     "func_name": "A",
     "func_name_init": "x",
     "query": {
-      "count": "i",
-      "cursor": "n",
-      "includePromotedContent": "!1",
-      "...()(0,o.d)": "_"
+      "timelineId": "n",
+      "count": "t",
+      "cursor": "i",
+      "withQuickPromoteEligibilityTweetFields": "!0",
+      "...()(0,s.d)": "_"
     }
   },
   {
@@ -18786,11 +18800,13 @@
       }
     },
     "func_name": "S",
-    "func_name_init": "k",
+    "func_name_init": "I",
     "query": {
-      "twitterArticleId": "s",
-      "title": "l",
-      "...()(0,a.d)": "_"
+      "rootTweetId": "n",
+      "count": "t",
+      "cursor": "i",
+      "includePromotedContent": "!1",
+      "...()(0,s.d)": "_"
     }
   },
   {
@@ -18997,11 +19013,11 @@
       }
     },
     "func_name": "C",
-    "func_name_init": "B",
+    "func_name_init": "L",
     "query": {
-      "userId": "r",
-      "count": "l",
-      "cursor": "a",
+      "count": "t",
+      "cursor": "i",
+      "includePromotedContent": "!1",
       "...()(0,s.d)": "_"
     }
   },
@@ -19125,11 +19141,14 @@
         }
       }
     },
-    "func_name": "V",
-    "func_name_init": "U",
+    "func_name": "z",
+    "func_name_init": "P",
     "query": {
-      "...i": "_",
-      "...()(0,a.S)": "_"
+      "userId": "n",
+      "count": "t",
+      "cursor": "i",
+      "includePromotedContent": "!1",
+      "...()(0,s.d)": "_"
     }
   },
   {
@@ -19229,11 +19248,13 @@
         }
       }
     },
-    "func_name": "X",
-    "func_name_init": "G",
+    "func_name": "Q",
+    "func_name_init": "B",
     "query": {
-      "count": "i",
-      "cursor": "n",
+      "userId": "n",
+      "count": "t",
+      "cursor": "i",
+      "includePromotedContent": "!1",
       "...()(0,s.d)": "_"
     }
   },
@@ -19268,14 +19289,6 @@
           }
         }
       }
-    },
-    "func_name": "R",
-    "func_name_init": "z",
-    "query": {
-      "count": "i",
-      "cursor": "n",
-      "includePromotedContent": "!1",
-      "...()(0,o.d)": "_"
     }
   },
   {
@@ -21740,6 +21753,19 @@
     }
   },
   {
+    "n": "65964",
+    "exports": {
+      "queryId": "k1Unfqb74V4sf2d7-kFkhg",
+      "operationName": "BirdwatchEditUserSettings",
+      "operationType": "mutation",
+      "metadata": {
+        "featureSwitches": [],
+        "fieldToggles": [],
+        "featureSwitch": {}
+      }
+    }
+  },
+  {
     "n": "18545",
     "exports": {
       "queryId": "szoXMke8AZOErso908iglw",
@@ -21768,11 +21794,12 @@
   {
     "n": "68783",
     "exports": {
-      "queryId": "wPAWxQMAlJP7SpkwiQnn9w",
+      "queryId": "j0xscK7IT-U52Geu7QEaDQ",
       "operationName": "BirdwatchFetchAuthenticatedUserProfile",
       "operationType": "query",
       "metadata": {
         "featureSwitches": [
+          "responsive_web_birdwatch_mobile_nav_setting_enabled",
           "responsive_web_birdwatch_note_limit_enabled"
         ],
         "fieldToggles": [],
@@ -25500,10 +25527,11 @@
     "func_name": "A",
     "func_name_init": "x",
     "query": {
-      "count": "i",
-      "cursor": "n",
-      "includePromotedContent": "!1",
-      "...()(0,o.d)": "_"
+      "timelineId": "n",
+      "count": "t",
+      "cursor": "i",
+      "withQuickPromoteEligibilityTweetFields": "!0",
+      "...()(0,s.d)": "_"
     }
   },
   {
@@ -27797,11 +27825,13 @@
       }
     },
     "func_name": "S",
-    "func_name_init": "k",
+    "func_name_init": "I",
     "query": {
-      "twitterArticleId": "s",
-      "title": "l",
-      "...()(0,a.d)": "_"
+      "rootTweetId": "n",
+      "count": "t",
+      "cursor": "i",
+      "includePromotedContent": "!1",
+      "...()(0,s.d)": "_"
     }
   },
   {
@@ -28205,9 +28235,8 @@
     "func_name": "B",
     "func_name_init": "T",
     "query": {
-      "...i": "_",
-      "withCommunity": "t.isTrue()",
-      "...(\"c9s_enabled\")(0,a.S)": "_"
+      "bookmark_collection_id": "t",
+      "tweet_id": "r"
     }
   },
   {
@@ -28911,11 +28940,11 @@
       }
     },
     "func_name": "C",
-    "func_name_init": "B",
+    "func_name_init": "L",
     "query": {
-      "userId": "r",
-      "count": "l",
-      "cursor": "a",
+      "count": "t",
+      "cursor": "i",
+      "includePromotedContent": "!1",
       "...()(0,s.d)": "_"
     }
   },
@@ -31084,11 +31113,14 @@
         }
       }
     },
-    "func_name": "V",
-    "func_name_init": "U",
+    "func_name": "z",
+    "func_name_init": "P",
     "query": {
-      "...i": "_",
-      "...()(0,a.S)": "_"
+      "userId": "n",
+      "count": "t",
+      "cursor": "i",
+      "includePromotedContent": "!1",
+      "...()(0,s.d)": "_"
     }
   },
   {
@@ -31188,11 +31220,13 @@
         }
       }
     },
-    "func_name": "X",
-    "func_name_init": "G",
+    "func_name": "Q",
+    "func_name_init": "B",
     "query": {
-      "count": "i",
-      "cursor": "n",
+      "userId": "n",
+      "count": "t",
+      "cursor": "i",
+      "includePromotedContent": "!1",
       "...()(0,s.d)": "_"
     }
   },
@@ -31980,14 +32014,6 @@
           }
         }
       }
-    },
-    "func_name": "R",
-    "func_name_init": "z",
-    "query": {
-      "count": "i",
-      "cursor": "n",
-      "includePromotedContent": "!1",
-      "...()(0,o.d)": "_"
     }
   },
   {
@@ -33680,18 +33706,6 @@
     }
   },
   {
-    "n": "12030",
-    "exports": {
-      "queryId": "qrPz1u69sgxCGngi3AFKWw",
-      "operationName": "ProfileSpotlights_EditableProfileSpotlightsQuery",
-      "operationType": "query",
-      "metadata": {
-        "featureSwitches": [],
-        "featureSwitch": {}
-      }
-    }
-  },
-  {
     "n": "61989",
     "exports": {
       "queryId": "PtT7DMn9eI8yFh-jkG-fGg",
@@ -33706,7 +33720,7 @@
   {
     "n": "77225",
     "exports": {
-      "queryId": "9VeUvsIj7zFNHumBpHpErQ",
+      "queryId": "RJUArKmr8Yz7iOXtSbWDIg",
       "operationName": "useCreateLocationSpotlightMutation",
       "operationType": "mutation",
       "metadata": {
@@ -33718,7 +33732,7 @@
   {
     "n": "7893",
     "exports": {
-      "queryId": "JriEwaRhArrOBrfRSOxz7Q",
+      "queryId": "0Jj1xwvz2ATm467fPkAY5w",
       "operationName": "useDeleteLocationSpotlightMutation",
       "operationType": "mutation",
       "metadata": {
@@ -33742,7 +33756,7 @@
   {
     "n": "48958",
     "exports": {
-      "queryId": "rJJxLsW6frl2QsrnNoIJOg",
+      "queryId": "jNOiWTRw6B_3XqmnSR7iEA",
       "operationName": "useUpdateLocationSpotlightMutation",
       "operationType": "mutation",
       "metadata": {
@@ -33878,9 +33892,21 @@
     }
   },
   {
+    "n": "60759",
+    "exports": {
+      "queryId": "c7gn8b84cP88GH3ZOWsH9Q",
+      "operationName": "JobScreenQuery",
+      "operationType": "query",
+      "metadata": {
+        "featureSwitches": [],
+        "featureSwitch": {}
+      }
+    }
+  },
+  {
     "n": "77884",
     "exports": {
-      "queryId": "JARKPRa82Y0cRt8x9CwnIQ",
+      "queryId": "aj_-2oD5RLqnrJn2hlRK-w",
       "operationName": "UserJobListQueryScreenJobsQuery",
       "operationType": "query",
       "metadata": {
@@ -34136,7 +34162,7 @@
   {
     "n": "74854",
     "exports": {
-      "queryId": "ZVMba_OK3u9SgzRTTNPbwg",
+      "queryId": "ziyNBx5AoF5FLtyv7tqS4w",
       "operationName": "ProfileSpotlightsQuery",
       "operationType": "query",
       "metadata": {

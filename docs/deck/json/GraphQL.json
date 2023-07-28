@@ -29,7 +29,10 @@
           }
         }
       }
-    }
+    },
+    "func_name": "p",
+    "func_name_init": "b",
+    "query": {}
   },
   {
     "n": "08378",
@@ -331,6 +334,14 @@
         "fieldToggles": [],
         "featureSwitch": {}
       }
+    },
+    "func_name": "I",
+    "func_name_init": "P",
+    "query": {
+      "userId": "s",
+      "cursor": "a",
+      "context": "l",
+      "...()(0,r.d)": "_"
     }
   },
   {
@@ -490,6 +501,13 @@
         "fieldToggles": [],
         "featureSwitch": {}
       }
+    },
+    "func_name": "z",
+    "func_name_init": "j",
+    "query": {
+      "listId": "a",
+      "userId": "r",
+      "...()(0,s.S)": "_"
     }
   },
   {
@@ -1616,10 +1634,14 @@
         }
       }
     },
-    "func_name": "U",
-    "func_name_init": "C",
+    "func_name": "z",
+    "func_name_init": "P",
     "query": {
-      "listId": "n"
+      "userId": "n",
+      "count": "t",
+      "cursor": "i",
+      "includePromotedContent": "!1",
+      "...()(0,s.d)": "_"
     }
   },
   {
@@ -2464,6 +2486,19 @@
     }
   },
   {
+    "n": "65964",
+    "exports": {
+      "queryId": "k1Unfqb74V4sf2d7-kFkhg",
+      "operationName": "BirdwatchEditUserSettings",
+      "operationType": "mutation",
+      "metadata": {
+        "featureSwitches": [],
+        "fieldToggles": [],
+        "featureSwitch": {}
+      }
+    }
+  },
+  {
     "n": "18545",
     "exports": {
       "queryId": "szoXMke8AZOErso908iglw",
@@ -2492,11 +2527,12 @@
   {
     "n": "68783",
     "exports": {
-      "queryId": "wPAWxQMAlJP7SpkwiQnn9w",
+      "queryId": "j0xscK7IT-U52Geu7QEaDQ",
       "operationName": "BirdwatchFetchAuthenticatedUserProfile",
       "operationType": "query",
       "metadata": {
         "featureSwitches": [
+          "responsive_web_birdwatch_mobile_nav_setting_enabled",
           "responsive_web_birdwatch_note_limit_enabled"
         ],
         "fieldToggles": [],
@@ -2885,11 +2921,10 @@
         "featureSwitch": {}
       }
     },
-    "func_name": "h",
+    "func_name": "c",
     "func_name_init": "u",
     "query": {
-      "screen_name": "i",
-      "withSafetyModeUserFields": "t.isTrue()"
+      "...o": "_"
     }
   },
   {
@@ -3061,8 +3096,8 @@
     "func_name": "B",
     "func_name_init": "T",
     "query": {
-      "tweetId": "i.tweetId",
-      "...()(0,a.S)": "_"
+      "bookmark_collection_id": "t",
+      "tweet_id": "r"
     }
   },
   {
@@ -5323,10 +5358,14 @@
         }
       }
     },
-    "func_name": "U",
-    "func_name_init": "C",
+    "func_name": "z",
+    "func_name_init": "P",
     "query": {
-      "listId": "n"
+      "userId": "n",
+      "count": "t",
+      "cursor": "i",
+      "includePromotedContent": "!1",
+      "...()(0,s.d)": "_"
     }
   },
   {
@@ -7295,10 +7334,14 @@
         }
       }
     },
-    "func_name": "U",
-    "func_name_init": "C",
+    "func_name": "z",
+    "func_name_init": "P",
     "query": {
-      "listId": "n"
+      "userId": "n",
+      "count": "t",
+      "cursor": "i",
+      "includePromotedContent": "!1",
+      "...()(0,s.d)": "_"
     }
   },
   {
@@ -10536,10 +10579,14 @@
         }
       }
     },
-    "func_name": "U",
-    "func_name_init": "C",
+    "func_name": "z",
+    "func_name_init": "P",
     "query": {
-      "listId": "n"
+      "userId": "n",
+      "count": "t",
+      "cursor": "i",
+      "includePromotedContent": "!1",
+      "...()(0,s.d)": "_"
     }
   },
   {
@@ -11763,10 +11810,14 @@
         }
       }
     },
-    "func_name": "U",
-    "func_name_init": "C",
+    "func_name": "z",
+    "func_name_init": "P",
     "query": {
-      "listId": "n"
+      "userId": "n",
+      "count": "t",
+      "cursor": "i",
+      "includePromotedContent": "!1",
+      "...()(0,s.d)": "_"
     }
   },
   {
@@ -13202,8 +13253,14 @@
     "func_name": "b",
     "func_name_init": "p",
     "query": {
-      "userId": "i",
-      "withSafetyModeUserFields": "t.isTrue()"
+      "userId": "r",
+      "count": "t",
+      "cursor": "i",
+      "teamName": "n",
+      "includePromotedContent": "!1",
+      "...()(0,a.d)": "_",
+      "withClientEventToken": "!1",
+      "withVoice": "_.isTrue(_)"
     }
   },
   {
@@ -13303,10 +13360,14 @@
         }
       }
     },
-    "func_name": "U",
-    "func_name_init": "C",
+    "func_name": "z",
+    "func_name_init": "P",
     "query": {
-      "listId": "n"
+      "userId": "n",
+      "count": "t",
+      "cursor": "i",
+      "includePromotedContent": "!1",
+      "...()(0,s.d)": "_"
     }
   },
   {
@@ -16713,10 +16774,14 @@
         }
       }
     },
-    "func_name": "U",
-    "func_name_init": "C",
+    "func_name": "z",
+    "func_name_init": "P",
     "query": {
-      "listId": "n"
+      "userId": "n",
+      "count": "t",
+      "cursor": "i",
+      "includePromotedContent": "!1",
+      "...()(0,s.d)": "_"
     }
   },
   {
@@ -18368,10 +18433,14 @@
         }
       }
     },
-    "func_name": "U",
-    "func_name_init": "C",
+    "func_name": "z",
+    "func_name_init": "P",
     "query": {
-      "listId": "n"
+      "userId": "n",
+      "count": "t",
+      "cursor": "i",
+      "includePromotedContent": "!1",
+      "...()(0,s.d)": "_"
     }
   },
   {
@@ -20096,10 +20165,7 @@
         "fieldToggles": [],
         "featureSwitch": {}
       }
-    },
-    "func_name": "l",
-    "func_name_init": "a",
-    "query": {}
+    }
   },
   {
     "n": "32747",
@@ -21138,6 +21204,19 @@
     }
   },
   {
+    "n": "65964",
+    "exports": {
+      "queryId": "k1Unfqb74V4sf2d7-kFkhg",
+      "operationName": "BirdwatchEditUserSettings",
+      "operationType": "mutation",
+      "metadata": {
+        "featureSwitches": [],
+        "fieldToggles": [],
+        "featureSwitch": {}
+      }
+    }
+  },
+  {
     "n": "18545",
     "exports": {
       "queryId": "szoXMke8AZOErso908iglw",
@@ -21166,11 +21245,12 @@
   {
     "n": "68783",
     "exports": {
-      "queryId": "wPAWxQMAlJP7SpkwiQnn9w",
+      "queryId": "j0xscK7IT-U52Geu7QEaDQ",
       "operationName": "BirdwatchFetchAuthenticatedUserProfile",
       "operationType": "query",
       "metadata": {
         "featureSwitches": [
+          "responsive_web_birdwatch_mobile_nav_setting_enabled",
           "responsive_web_birdwatch_note_limit_enabled"
         ],
         "fieldToggles": [],
@@ -21853,11 +21933,10 @@
         "featureSwitch": {}
       }
     },
-    "func_name": "h",
+    "func_name": "c",
     "func_name_init": "u",
     "query": {
-      "screen_name": "i",
-      "withSafetyModeUserFields": "t.isTrue()"
+      "...o": "_"
     }
   },
   {
@@ -24910,10 +24989,7 @@
         "fieldToggles": [],
         "featureSwitch": {}
       }
-    },
-    "func_name": "l",
-    "func_name_init": "a",
-    "query": {}
+    }
   },
   {
     "n": "34366",
@@ -27648,8 +27724,8 @@
     "func_name": "B",
     "func_name_init": "T",
     "query": {
-      "tweetId": "i.tweetId",
-      "...()(0,a.S)": "_"
+      "bookmark_collection_id": "t",
+      "tweet_id": "r"
     }
   },
   {
@@ -30271,8 +30347,14 @@
     "func_name": "b",
     "func_name_init": "p",
     "query": {
-      "userId": "i",
-      "withSafetyModeUserFields": "t.isTrue()"
+      "userId": "r",
+      "count": "t",
+      "cursor": "i",
+      "teamName": "n",
+      "includePromotedContent": "!1",
+      "...()(0,a.d)": "_",
+      "withClientEventToken": "!1",
+      "withVoice": "_.isTrue(_)"
     }
   },
   {
@@ -30487,10 +30569,14 @@
         }
       }
     },
-    "func_name": "U",
-    "func_name_init": "C",
+    "func_name": "z",
+    "func_name_init": "P",
     "query": {
-      "listId": "n"
+      "userId": "n",
+      "count": "t",
+      "cursor": "i",
+      "includePromotedContent": "!1",
+      "...()(0,s.d)": "_"
     }
   },
   {
@@ -31652,6 +31738,18 @@
     }
   },
   {
+    "n": "87117",
+    "exports": {
+      "queryId": "BJ6DtxA2llfjnRoRjaiIiw",
+      "operationName": "DMMessageDeleteMutation",
+      "operationType": "mutation",
+      "metadata": {
+        "featureSwitches": [],
+        "featureSwitch": {}
+      }
+    }
+  },
+  {
     "n": "51740",
     "exports": {
       "queryId": "VyDyV9pC2oZEj6g52hgnhA",
@@ -31668,18 +31766,6 @@
     "exports": {
       "queryId": "bV_Nim3RYHsaJwMkTXJ6ew",
       "operationName": "useDMReactionMutationRemoveMutation",
-      "operationType": "mutation",
-      "metadata": {
-        "featureSwitches": [],
-        "featureSwitch": {}
-      }
-    }
-  },
-  {
-    "n": "87117",
-    "exports": {
-      "queryId": "BJ6DtxA2llfjnRoRjaiIiw",
-      "operationName": "DMMessageDeleteMutation",
       "operationType": "mutation",
       "metadata": {
         "featureSwitches": [],
@@ -31962,6 +32048,30 @@
     }
   },
   {
+    "n": "51740",
+    "exports": {
+      "queryId": "VyDyV9pC2oZEj6g52hgnhA",
+      "operationName": "useDMReactionMutationAddMutation",
+      "operationType": "mutation",
+      "metadata": {
+        "featureSwitches": [],
+        "featureSwitch": {}
+      }
+    }
+  },
+  {
+    "n": "62718",
+    "exports": {
+      "queryId": "bV_Nim3RYHsaJwMkTXJ6ew",
+      "operationName": "useDMReactionMutationRemoveMutation",
+      "operationType": "mutation",
+      "metadata": {
+        "featureSwitches": [],
+        "featureSwitch": {}
+      }
+    }
+  },
+  {
     "n": "14558",
     "exports": {
       "queryId": "SNB2czvgQ4DY-zI7FQ3VkQ",
@@ -32043,13 +32153,6 @@
         "featureSwitches": [],
         "featureSwitch": {}
       }
-    },
-    "func_name": "S",
-    "func_name_init": "k",
-    "query": {
-      "twitterArticleId": "s",
-      "title": "l",
-      "...()(0,a.d)": "_"
     }
   },
   {
@@ -33014,7 +33117,7 @@
   {
     "n": "56683",
     "exports": {
-      "queryId": "3taqa1qsqV-tu0jNAgjGZQ",
+      "queryId": "YX7Kg2aCjrhzu8STGd5L2w",
       "operationName": "UpdateProfileSpotlightVisibilityMutation",
       "operationType": "mutation",
       "metadata": {
@@ -33038,7 +33141,7 @@
   {
     "n": "77225",
     "exports": {
-      "queryId": "9VeUvsIj7zFNHumBpHpErQ",
+      "queryId": "RJUArKmr8Yz7iOXtSbWDIg",
       "operationName": "useCreateLocationSpotlightMutation",
       "operationType": "mutation",
       "metadata": {
@@ -33050,7 +33153,7 @@
   {
     "n": "07893",
     "exports": {
-      "queryId": "JriEwaRhArrOBrfRSOxz7Q",
+      "queryId": "0Jj1xwvz2ATm467fPkAY5w",
       "operationName": "useDeleteLocationSpotlightMutation",
       "operationType": "mutation",
       "metadata": {
@@ -33074,7 +33177,7 @@
   {
     "n": "48958",
     "exports": {
-      "queryId": "rJJxLsW6frl2QsrnNoIJOg",
+      "queryId": "jNOiWTRw6B_3XqmnSR7iEA",
       "operationName": "useUpdateLocationSpotlightMutation",
       "operationType": "mutation",
       "metadata": {
@@ -33210,9 +33313,21 @@
     }
   },
   {
+    "n": "60759",
+    "exports": {
+      "queryId": "c7gn8b84cP88GH3ZOWsH9Q",
+      "operationName": "JobScreenQuery",
+      "operationType": "query",
+      "metadata": {
+        "featureSwitches": [],
+        "featureSwitch": {}
+      }
+    }
+  },
+  {
     "n": "77884",
     "exports": {
-      "queryId": "JARKPRa82Y0cRt8x9CwnIQ",
+      "queryId": "aj_-2oD5RLqnrJn2hlRK-w",
       "operationName": "UserJobListQueryScreenJobsQuery",
       "operationType": "query",
       "metadata": {
@@ -33468,7 +33583,7 @@
   {
     "n": "74854",
     "exports": {
-      "queryId": "ZVMba_OK3u9SgzRTTNPbwg",
+      "queryId": "ziyNBx5AoF5FLtyv7tqS4w",
       "operationName": "ProfileSpotlightsQuery",
       "operationType": "query",
       "metadata": {
