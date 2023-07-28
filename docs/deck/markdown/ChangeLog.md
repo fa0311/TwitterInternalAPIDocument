@@ -550,3 +550,23 @@
 - responsive_web_birdwatch_top_contributor_ratio_cutoff<br>
 #### remove<br>
 - None<br>
+## 2023/07/27<br>
+### API<br>
+#### add<br>
+- AudioSpaceAddSharing<br>
+- AudioSpaceDeleteSharing<br>
+- AudioSpaceAddSharing<br>
+- AudioSpaceDeleteSharing<br>
+#### remove<br>
+- FeatureSettingsUpdate<br>
+- SubscriptionProductFeaturesFetch<br>
+- FeatureSettingsUpdate<br>
+- SubscriptionProductFeaturesFetch<br>
+- AdRevShareApplicationConfirmationQuery<br>
+### Feature Switch<br>
+#### add<br>
+- responsive_web_ad_revenue_sharing_setup_enabled<br>
+- responsive_web_birdwatch_signup_prompt_enabled<br>
+- rweb_deprecate_follower_objective_qp_enabled<br>
+#### remove<br>
+- subscriptions_product_feature_list_api_enabled<br>
