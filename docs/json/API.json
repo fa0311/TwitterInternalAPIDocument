@@ -869,7 +869,7 @@
       "queryId": "yASGrjmFWghK2T0XC3uGVg",
       "method": "GET",
       "features": {
-        "responsive_web_birdwatch_signup_prompt_enabled": false
+        "responsive_web_birdwatch_signup_prompt_enabled": true
       }
     },
     "BirdwatchProfileAcknowledgeEarnOut": {
@@ -4479,14 +4479,14 @@
       "features": {}
     },
     "EditJobScreenMutation": {
-      "url": "https://twitter.com/i/api/graphql/qZH9Z2eZEEvYziYidTaGdg/EditJobScreenMutation",
-      "queryId": "qZH9Z2eZEEvYziYidTaGdg",
+      "url": "https://twitter.com/i/api/graphql/bG45WETTgSju7AQdJNgXFQ/EditJobScreenMutation",
+      "queryId": "bG45WETTgSju7AQdJNgXFQ",
       "method": "POST",
       "features": {}
     },
     "EditJobScreenQuery": {
-      "url": "https://twitter.com/i/api/graphql/gvPknlrF3KrJEwCzI3Y71A/EditJobScreenQuery",
-      "queryId": "gvPknlrF3KrJEwCzI3Y71A",
+      "url": "https://twitter.com/i/api/graphql/eAJAvMBB3kxKHiF6Scxxmw/EditJobScreenQuery",
+      "queryId": "eAJAvMBB3kxKHiF6Scxxmw",
       "method": "GET",
       "features": {}
     },
@@ -4587,8 +4587,8 @@
       "features": {}
     },
     "useFetchAdminJobsQuery": {
-      "url": "https://twitter.com/i/api/graphql/jyoco3JpPucKMlYQNOPBjQ/useFetchAdminJobsQuery",
-      "queryId": "jyoco3JpPucKMlYQNOPBjQ",
+      "url": "https://twitter.com/i/api/graphql/Bp6MZJoVRuT2jreJof6MKw/useFetchAdminJobsQuery",
+      "queryId": "Bp6MZJoVRuT2jreJof6MKw",
       "method": "GET",
       "features": {}
     },
