@@ -4651,6 +4651,12 @@ This document is entirely auto-generated and may contain errors.<br>
 # Error
 {[o.sj.AMPLIFY]:{"conversionHandler":"()"{"cardId":"e","cardType":"t","converterOptions":"i","data":"n"}{"const r=()(0,s.FL)",l=parseInt(n,\"image_value\",\"player_image_original\")/parseInt(0,s.SIn,\"string_value\",\"player_width\",10),d=(0,s.SIn,\"string_value\",\"player_height\",10)(0,s.SI),c=(n,...
 ```
+| constant   | value                                                            |
+|:-----------|:-----------------------------------------------------------------|
+| REQUEST    | rweb/birdwatchNotes/EDIT_SHOW_MOBILE_NAVIGATION_SETTINGS_REQUEST |
+| SUCCESS    | rweb/birdwatchNotes/EDIT_SHOW_MOBILE_NAVIGATION_SETTINGS_SUCCESS |
+| FAILURE    | rweb/birdwatchNotes/EDIT_SHOW_MOBILE_NAVIGATION_SETTINGS_FAILURE |
+
 | constant   | value                                  |
 |:-----------|:---------------------------------------|
 | REQUEST    | rweb/birdwatchNotes/FETCH_DATA_REQUEST |
@@ -4780,8 +4786,8 @@ This document is entirely auto-generated and may contain errors.<br>
 | constant       | value                                          |
 |:---------------|:-----------------------------------------------|
 | closed         | {'shouldShow': '!1'}                           |
-| openSuccessful | {'shouldShow': '!0', 'badgeType': 'A.Ratings'} |
-| openHelpful    | {'shouldShow': '!0', 'badgeType': 'A.Notes'}   |
+| openSuccessful | {'shouldShow': '!0', 'badgeType': 'N.Ratings'} |
+| openHelpful    | {'shouldShow': '!0', 'badgeType': 'N.Notes'}   |
 
 | constant   | value                                               |
 |:-----------|:----------------------------------------------------|
