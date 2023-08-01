@@ -2766,7 +2766,7 @@
         "fieldToggles": [],
         "featureSwitch": {
           "responsive_web_birdwatch_signup_prompt_enabled": {
-            "value": "false"
+            "value": "true"
           }
         }
       }
@@ -19986,7 +19986,7 @@
   {
     "n": "44538",
     "exports": {
-      "queryId": "xc8f1g7BYqr6VTzTbvNlGw",
+      "queryId": "SAMkL5y_N9pmahSw8yy6gw",
       "operationName": "UserByScreenName",
       "operationType": "query",
       "metadata": {
@@ -19995,6 +19995,7 @@
           "hidden_profile_subscriptions_enabled",
           "responsive_web_graphql_exclude_directive_enabled",
           "verified_phone_label_enabled",
+          "subscriptions_verification_info_is_identity_verified_enabled",
           "subscriptions_verification_info_verified_since_enabled",
           "highlights_tweets_tab_ui_enabled",
           "creator_subscriptions_tweet_preview_api_enabled",
@@ -20015,6 +20016,9 @@
             "value": "true"
           },
           "verified_phone_label_enabled": {
+            "value": "false"
+          },
+          "subscriptions_verification_info_is_identity_verified_enabled": {
             "value": "false"
           },
           "subscriptions_verification_info_verified_since_enabled": {
@@ -21484,7 +21488,7 @@
         "fieldToggles": [],
         "featureSwitch": {
           "responsive_web_birdwatch_signup_prompt_enabled": {
-            "value": "false"
+            "value": "true"
           }
         }
       }
@@ -30409,7 +30413,7 @@
   {
     "n": "44538",
     "exports": {
-      "queryId": "xc8f1g7BYqr6VTzTbvNlGw",
+      "queryId": "SAMkL5y_N9pmahSw8yy6gw",
       "operationName": "UserByScreenName",
       "operationType": "query",
       "metadata": {
@@ -30418,6 +30422,7 @@
           "hidden_profile_subscriptions_enabled",
           "responsive_web_graphql_exclude_directive_enabled",
           "verified_phone_label_enabled",
+          "subscriptions_verification_info_is_identity_verified_enabled",
           "subscriptions_verification_info_verified_since_enabled",
           "highlights_tweets_tab_ui_enabled",
           "creator_subscriptions_tweet_preview_api_enabled",
@@ -30438,6 +30443,9 @@
             "value": "true"
           },
           "verified_phone_label_enabled": {
+            "value": "false"
+          },
+          "subscriptions_verification_info_is_identity_verified_enabled": {
             "value": "false"
           },
           "subscriptions_verification_info_verified_since_enabled": {
@@ -31861,6 +31869,18 @@
       "queryId": "_TQxP2Rb0expwVP9ktGrTQ",
       "operationName": "DMPinnedInboxDelete_Mutation",
       "operationType": "mutation",
+      "metadata": {
+        "featureSwitches": [],
+        "featureSwitch": {}
+      }
+    }
+  },
+  {
+    "n": "31009",
+    "exports": {
+      "queryId": "_gBQBgClVuMQb8efxWkbbQ",
+      "operationName": "DMPinnedInboxQuery",
+      "operationType": "query",
       "metadata": {
         "featureSwitches": [],
         "featureSwitch": {}
@@ -33667,7 +33687,7 @@
   {
     "n": "24574",
     "exports": {
-      "queryId": "qZH9Z2eZEEvYziYidTaGdg",
+      "queryId": "bG45WETTgSju7AQdJNgXFQ",
       "operationName": "EditJobScreenMutation",
       "operationType": "mutation",
       "metadata": {
@@ -33679,7 +33699,7 @@
   {
     "n": "08975",
     "exports": {
-      "queryId": "gvPknlrF3KrJEwCzI3Y71A",
+      "queryId": "eAJAvMBB3kxKHiF6Scxxmw",
       "operationName": "EditJobScreenQuery",
       "operationType": "query",
       "metadata": {
@@ -33883,7 +33903,7 @@
   {
     "n": "51045",
     "exports": {
-      "queryId": "jyoco3JpPucKMlYQNOPBjQ",
+      "queryId": "Bp6MZJoVRuT2jreJof6MKw",
       "operationName": "useFetchAdminJobsQuery",
       "operationType": "query",
       "metadata": {
