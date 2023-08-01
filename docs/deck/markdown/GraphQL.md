@@ -1312,7 +1312,7 @@ Login Required: `...`<br>
 #### features<br>
 | key                                            | type    | variable   |
 |:-----------------------------------------------|:--------|:-----------|
-| responsive_web_birdwatch_signup_prompt_enabled | boolean | False      |
+| responsive_web_birdwatch_signup_prompt_enabled | boolean | True       |
 
 #### queryId<br>
 `None`<br>
@@ -7894,7 +7894,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## UserByScreenName<br>
-Request URL: `https://twitter.com/i/api/graphql/xc8f1g7BYqr6VTzTbvNlGw/UserByScreenName`<br>
+Request URL: `https://twitter.com/i/api/graphql/SAMkL5y_N9pmahSw8yy6gw/UserByScreenName`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -7907,6 +7907,7 @@ Login Required: `...`<br>
 | hidden_profile_subscriptions_enabled                              | boolean | False      |
 | responsive_web_graphql_exclude_directive_enabled                  | boolean | True       |
 | verified_phone_label_enabled                                      | boolean | False      |
+| subscriptions_verification_info_is_identity_verified_enabled      | boolean | False      |
 | subscriptions_verification_info_verified_since_enabled            | boolean | True       |
 | highlights_tweets_tab_ui_enabled                                  | boolean | True       |
 | creator_subscriptions_tweet_preview_api_enabled                   | boolean | True       |
@@ -8707,7 +8708,7 @@ Login Required: `...`<br>
 #### features<br>
 | key                                            | type    | variable   |
 |:-----------------------------------------------|:--------|:-----------|
-| responsive_web_birdwatch_signup_prompt_enabled | boolean | False      |
+| responsive_web_birdwatch_signup_prompt_enabled | boolean | True       |
 
 #### queryId<br>
 `None`<br>
@@ -12495,7 +12496,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## UserByScreenName<br>
-Request URL: `https://twitter.com/i/api/graphql/xc8f1g7BYqr6VTzTbvNlGw/UserByScreenName`<br>
+Request URL: `https://twitter.com/i/api/graphql/SAMkL5y_N9pmahSw8yy6gw/UserByScreenName`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -12508,6 +12509,7 @@ Login Required: `...`<br>
 | hidden_profile_subscriptions_enabled                              | boolean | False      |
 | responsive_web_graphql_exclude_directive_enabled                  | boolean | True       |
 | verified_phone_label_enabled                                      | boolean | False      |
+| subscriptions_verification_info_is_identity_verified_enabled      | boolean | False      |
 | subscriptions_verification_info_verified_since_enabled            | boolean | True       |
 | highlights_tweets_tab_ui_enabled                                  | boolean | True       |
 | creator_subscriptions_tweet_preview_api_enabled                   | boolean | True       |
@@ -13175,6 +13177,17 @@ Login Required: `...`<br>
 ## DMPinnedInboxDelete_Mutation<br>
 Request URL: `https://twitter.com/i/api/graphql/_TQxP2Rb0expwVP9ktGrTQ/DMPinnedInboxDelete_Mutation`<br>
 Request Method: `POST`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
+## DMPinnedInboxQuery<br>
+Request URL: `https://twitter.com/i/api/graphql/_gBQBgClVuMQb8efxWkbbQ/DMPinnedInboxQuery`<br>
+Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
@@ -14682,7 +14695,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## EditJobScreenMutation<br>
-Request URL: `https://twitter.com/i/api/graphql/qZH9Z2eZEEvYziYidTaGdg/EditJobScreenMutation`<br>
+Request URL: `https://twitter.com/i/api/graphql/bG45WETTgSju7AQdJNgXFQ/EditJobScreenMutation`<br>
 Request Method: `POST`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -14693,7 +14706,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## EditJobScreenQuery<br>
-Request URL: `https://twitter.com/i/api/graphql/gvPknlrF3KrJEwCzI3Y71A/EditJobScreenQuery`<br>
+Request URL: `https://twitter.com/i/api/graphql/eAJAvMBB3kxKHiF6Scxxmw/EditJobScreenQuery`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -14880,7 +14893,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## useFetchAdminJobsQuery<br>
-Request URL: `https://twitter.com/i/api/graphql/jyoco3JpPucKMlYQNOPBjQ/useFetchAdminJobsQuery`<br>
+Request URL: `https://twitter.com/i/api/graphql/Bp6MZJoVRuT2jreJof6MKw/useFetchAdminJobsQuery`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
