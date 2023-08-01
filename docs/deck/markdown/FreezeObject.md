@@ -3635,6 +3635,11 @@ This document is entirely auto-generated and may contain errors.<br>
 |:-----------|:--------|
 | clipId     | clipID  |
 
+| constant   | value      |
+|:-----------|:-----------|
+| mainView   | mainView   |
+| manageView | manageView |
+
 | constant        | value           |
 |:----------------|:----------------|
 | card            | card            |
@@ -4540,6 +4545,12 @@ This document is entirely auto-generated and may contain errors.<br>
 | constant    | value        |
 |:------------|:-------------|
 | TopicFilled | TOPIC_FILLED |
+
+| constant   | value                                                            |
+|:-----------|:-----------------------------------------------------------------|
+| REQUEST    | rweb/birdwatchNotes/EDIT_SHOW_MOBILE_NAVIGATION_SETTINGS_REQUEST |
+| SUCCESS    | rweb/birdwatchNotes/EDIT_SHOW_MOBILE_NAVIGATION_SETTINGS_SUCCESS |
+| FAILURE    | rweb/birdwatchNotes/EDIT_SHOW_MOBILE_NAVIGATION_SETTINGS_FAILURE |
 
 | constant   | value                                  |
 |:-----------|:---------------------------------------|
@@ -5635,7 +5646,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{[P.ActionedTweets]:{"backLocation":"x","confirmationSheetHeadline":"()(0,o.X_)"{"screenName":"m"}{"screenName":"m"}},[P.PreviewFlaggedTweets]:{"backLocation":"A","confirmationSheetHeadline":"S()"{"screenName":"m"}{"screenName":"m"}}}
+{[P.ActionedTweets]:{"backLocation":"A","confirmationSheetHeadline":"()(0,o.X_)"{"screenName":"m"}{"screenName":"m"}},[P.PreviewFlaggedTweets]:{"backLocation":"x","confirmationSheetHeadline":"S()"{"screenName":"m"}{"screenName":"m"}}}
 ```
 | constant             | value                  |
 |:---------------------|:-----------------------|
