@@ -1352,7 +1352,7 @@ Login Required: `...`<br>
 #### features<br>
 | key                                            | type    | variable   |
 |:-----------------------------------------------|:--------|:-----------|
-| responsive_web_birdwatch_signup_prompt_enabled | boolean | False      |
+| responsive_web_birdwatch_signup_prompt_enabled | boolean | True       |
 
 #### queryId<br>
 `None`<br>
@@ -9115,7 +9115,7 @@ Login Required: `...`<br>
 #### features<br>
 | key                                            | type    | variable   |
 |:-----------------------------------------------|:--------|:-----------|
-| responsive_web_birdwatch_signup_prompt_enabled | boolean | False      |
+| responsive_web_birdwatch_signup_prompt_enabled | boolean | True       |
 
 #### queryId<br>
 `None`<br>
@@ -15092,7 +15092,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## EditJobScreenMutation<br>
-Request URL: `https://twitter.com/i/api/graphql/qZH9Z2eZEEvYziYidTaGdg/EditJobScreenMutation`<br>
+Request URL: `https://twitter.com/i/api/graphql/bG45WETTgSju7AQdJNgXFQ/EditJobScreenMutation`<br>
 Request Method: `POST`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -15103,7 +15103,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## EditJobScreenQuery<br>
-Request URL: `https://twitter.com/i/api/graphql/gvPknlrF3KrJEwCzI3Y71A/EditJobScreenQuery`<br>
+Request URL: `https://twitter.com/i/api/graphql/eAJAvMBB3kxKHiF6Scxxmw/EditJobScreenQuery`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -15290,7 +15290,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## useFetchAdminJobsQuery<br>
-Request URL: `https://twitter.com/i/api/graphql/jyoco3JpPucKMlYQNOPBjQ/useFetchAdminJobsQuery`<br>
+Request URL: `https://twitter.com/i/api/graphql/Bp6MZJoVRuT2jreJof6MKw/useFetchAdminJobsQuery`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>

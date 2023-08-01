@@ -2813,7 +2813,7 @@
         "fieldToggles": [],
         "featureSwitch": {
           "responsive_web_birdwatch_signup_prompt_enabled": {
-            "value": "false"
+            "value": "true"
           }
         }
       }
@@ -22033,7 +22033,7 @@
         "fieldToggles": [],
         "featureSwitch": {
           "responsive_web_birdwatch_signup_prompt_enabled": {
-            "value": "false"
+            "value": "true"
           }
         }
       }
@@ -34246,7 +34246,7 @@
   {
     "n": "24574",
     "exports": {
-      "queryId": "qZH9Z2eZEEvYziYidTaGdg",
+      "queryId": "bG45WETTgSju7AQdJNgXFQ",
       "operationName": "EditJobScreenMutation",
       "operationType": "mutation",
       "metadata": {
@@ -34258,7 +34258,7 @@
   {
     "n": "8975",
     "exports": {
-      "queryId": "gvPknlrF3KrJEwCzI3Y71A",
+      "queryId": "eAJAvMBB3kxKHiF6Scxxmw",
       "operationName": "EditJobScreenQuery",
       "operationType": "query",
       "metadata": {
@@ -34462,7 +34462,7 @@
   {
     "n": "51045",
     "exports": {
-      "queryId": "jyoco3JpPucKMlYQNOPBjQ",
+      "queryId": "Bp6MZJoVRuT2jreJof6MKw",
       "operationName": "useFetchAdminJobsQuery",
       "operationType": "query",
       "metadata": {

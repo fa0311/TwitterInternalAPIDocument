@@ -1174,7 +1174,7 @@
         "value": "true"
       },
       "responsive_web_ad_revenue_sharing_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "responsive_web_ad_revenue_sharing_setup_enabled": {
         "value": "false"
@@ -1255,7 +1255,7 @@
         "value": "false"
       },
       "responsive_web_birdwatch_signup_prompt_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "responsive_web_birdwatch_site_enabled": {
         "value": "true"
@@ -5384,10 +5384,10 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "b72a32f71d5eb2af4ae9b8165918c4a1"
+      "settingsVersion": "d0ec073d1aa9af088ea32e500597bfa6"
     },
     "debug": {},
-    "featureSetToken": "b6c431f3b1ad6d5964a6e333747b711d23f51c53",
+    "featureSetToken": "26f202e793f29f9b307efdf9013b8bcfeedb5c56",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -5457,7 +5457,7 @@
     "country": "US",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "169075116374183526",
+    "guestId": "169083761777688694",
     "hasCommunityMemberships": "false",
     "language": "en",
     "oneFactorLoginEligibility": {
@@ -5468,12 +5468,6 @@
   "developer": {
     "dtabBarInfo": {
       "hide": "false"
-    }
-  },
-  "ads": {
-    "typeahead": {
-      "targetingLocation": {},
-      "forecastAudience": {}
     }
   }
 }
