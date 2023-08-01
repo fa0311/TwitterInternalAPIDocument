@@ -161,7 +161,7 @@
     "AudioModule": "AudioModule"
   },
   {
-    "...Iu": "_",
+    "...Lu": "_",
     "ColumnFromPath": "ColumnFromPath",
     "ColumnTimelineAdapter": "ColumnTimelineAdapter"
   },
@@ -2495,6 +2495,10 @@
   },
   {
     "clipId": "clipID"
+  },
+  {
+    "mainView": "mainView",
+    "manageView": "manageView"
   },
   {
     "card": "card",
@@ -5147,7 +5151,7 @@
     "Bold": "BOLD",
     "Italic": "ITALIC"
   },
-  "{\"ActionsBar\":\"b.Z\",\"ActionMenu\":\"function()\"{\"Icon\":\"e\",\"isDisabled\":\"t\",\"items\":\"n\",\"onOpen\":\"r\"}{\"const o=i.useCallback()\"{\"items\":\"n\",\"onCloseRequested\":\"e\"}{\"Icon\":\"e\",\"isDisabled\":\"t\",\"onClick\":\"r\",\"renderActionMenu\":\"o\"}},\"CallToAction\":\"a.ZP\",\"EditCallout\":\"D.Z\",\"Education\":\"I.Z\",\"HighlightedUserLabel\":\"c.Z\",\"Media\":\"A.Z\",\"Place\":\"o.ZP\",\"PromotedDetails\":\"d.Z\",\"PromotedUserProfileCard\":\"L\",\"ReplyContext\":\"R.ZP\",\"RichContent\":\"F.Z\",\"SocialContext\":\"g.Z\",\"Text\":\"B.Z\",\"Tombstone\":\"m.Z\",\"Timestamp\":\"p.Z\",\"UserAvatar\":\"K.Z\",\"UserFollowIndicator\":\"N.Z\",\"UserName\":\"Z.Z\",\"ArticleCard\":\"k\"}",
+  "{\"ActionsBar\":\"w.Z\",\"ActionMenu\":\"function()\"{\"Icon\":\"e\",\"isDisabled\":\"t\",\"items\":\"n\",\"onOpen\":\"r\"}{\"const o=i.useCallback()\"{\"items\":\"n\",\"onCloseRequested\":\"e\"}{\"Icon\":\"e\",\"isDisabled\":\"t\",\"onClick\":\"r\",\"renderActionMenu\":\"o\"}},\"CallToAction\":\"a.ZP\",\"EditCallout\":\"D.Z\",\"Education\":\"I.Z\",\"HighlightedUserLabel\":\"c.Z\",\"Media\":\"A.Z\",\"Place\":\"o.ZP\",\"PromotedDetails\":\"d.Z\",\"PromotedUserProfileCard\":\"L\",\"ReplyContext\":\"R.ZP\",\"RichContent\":\"F.Z\",\"SocialContext\":\"g.Z\",\"Text\":\"B.Z\",\"Tombstone\":\"m.Z\",\"Timestamp\":\"p.Z\",\"UserAvatar\":\"K.Z\",\"UserFollowIndicator\":\"N.Z\",\"UserName\":\"Z.Z\",\"ArticleCard\":\"k\"}",
   {
     "TWEET_CARET": "tweet_caret",
     "PROFILE": "user_profile",
