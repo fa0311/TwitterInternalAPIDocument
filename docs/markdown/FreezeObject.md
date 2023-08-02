@@ -152,7 +152,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant              | value                 |
 |:----------------------|:----------------------|
-| ...Iu                 | _                     |
+| ...Lu                 | _                     |
 | ColumnFromPath        | ColumnFromPath        |
 | ColumnTimelineAdapter | ColumnTimelineAdapter |
 
@@ -2593,6 +2593,11 @@ This document is entirely auto-generated and may contain errors.<br>
 | constant   | value   |
 |:-----------|:--------|
 | clipId     | clipID  |
+
+| constant   | value      |
+|:-----------|:-----------|
+| mainView   | mainView   |
+| manageView | manageView |
 
 | constant        | value           |
 |:----------------|:----------------|
@@ -5538,7 +5543,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{"ActionsBar":"b.Z","ActionMenu":"function()"{"Icon":"e","isDisabled":"t","items":"n","onOpen":"r"}{"const o=i.useCallback()"{"items":"n","onCloseRequested":"e"}{"Icon":"e","isDisabled":"t","onClick":"r","renderActionMenu":"o"}},"CallToAction":"a.ZP","EditCallout":"D.Z","Education":"I.Z","Highlighte...
+{"ActionsBar":"w.Z","ActionMenu":"function()"{"Icon":"e","isDisabled":"t","items":"n","onOpen":"r"}{"const o=i.useCallback()"{"items":"n","onCloseRequested":"e"}{"Icon":"e","isDisabled":"t","onClick":"r","renderActionMenu":"o"}},"CallToAction":"a.ZP","EditCallout":"D.Z","Education":"I.Z","Highlighte...
 ```
 | constant       | value          |
 |:---------------|:---------------|

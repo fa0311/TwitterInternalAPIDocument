@@ -1243,3 +1243,16 @@
 - rweb_search_media_enabled<br>
 #### remove<br>
 - responsive_web_lo_gating_prominent_sta_button_paths<br>
+## 2023/08/01<br>
+### API<br>
+#### add<br>
+- DMPinnedInboxQuery<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- rweb_sidebar_lower_whats_happening_enabled<br>
+- subscriptions_verification_info_is_identity_verified_enabled<br>
+- voice_rooms_cohosts_enabled<br>
+#### remove<br>
+- None<br>
