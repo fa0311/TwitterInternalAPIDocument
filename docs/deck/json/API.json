@@ -3494,7 +3494,7 @@
       "method": "GET",
       "features": {
         "hidden_profile_likes_enabled": false,
-        "hidden_profile_subscriptions_enabled": false,
+        "hidden_profile_subscriptions_enabled": true,
         "responsive_web_graphql_exclude_directive_enabled": true,
         "verified_phone_label_enabled": false,
         "highlights_tweets_tab_ui_enabled": true,
@@ -3509,7 +3509,7 @@
       "method": "GET",
       "features": {
         "hidden_profile_likes_enabled": false,
-        "hidden_profile_subscriptions_enabled": false,
+        "hidden_profile_subscriptions_enabled": true,
         "responsive_web_graphql_exclude_directive_enabled": true,
         "verified_phone_label_enabled": false,
         "subscriptions_verification_info_is_identity_verified_enabled": false,
@@ -3909,8 +3909,8 @@
       "features": {}
     },
     "PrimaryContentQuery": {
-      "url": "https://twitter.com/i/api/graphql/DPcSNOtovRKeAwtHAqwUlg/PrimaryContentQuery",
-      "queryId": "DPcSNOtovRKeAwtHAqwUlg",
+      "url": "https://twitter.com/i/api/graphql/m2HYuTWHWT_CRbb85uCNNg/PrimaryContentQuery",
+      "queryId": "m2HYuTWHWT_CRbb85uCNNg",
       "method": "GET",
       "features": {
         "c9s_list_members_action_api_enabled": false
@@ -4041,6 +4041,20 @@
     "useSuperFollowsCreateStripePortalUrlMutation": {
       "url": "https://twitter.com/i/api/graphql/cot9fAsCQIQGNYu9Rica6w/useSuperFollowsCreateStripePortalUrlMutation",
       "queryId": "cot9fAsCQIQGNYu9Rica6w",
+      "method": "POST",
+      "features": {}
+    },
+    "IDVerificationQuery": {
+      "url": "https://twitter.com/i/api/graphql/3Wx7dsynDTSI0LO52L8L8A/IDVerificationQuery",
+      "queryId": "3Wx7dsynDTSI0LO52L8L8A",
+      "method": "GET",
+      "features": {
+        "identity_verification_hide_verified_label_settings_enabled": false
+      }
+    },
+    "IDVerificationUpdateHideLabelMutation": {
+      "url": "https://twitter.com/i/api/graphql/lqIzyQL1p3XCZg77zekzZA/IDVerificationUpdateHideLabelMutation",
+      "queryId": "lqIzyQL1p3XCZg77zekzZA",
       "method": "POST",
       "features": {}
     },
