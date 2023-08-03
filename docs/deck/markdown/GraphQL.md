@@ -148,10 +148,7 @@ Request Method: `POST`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key          | type   | variable   |
-|:-------------|:-------|:-----------|
-| ...()(0,s.S) | ...    | _          |
-
+`None`<br>
 #### features<br>
 `None`<br>
 #### queryId<br>
@@ -226,13 +223,7 @@ Request Method: `POST`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key          | type   | variable   |
-|:-------------|:-------|:-----------|
-| userId       | ...    | s          |
-| cursor       | ...    | a          |
-| context      | ...    | l          |
-| ...()(0,r.d) | ...    | _          |
-
+`None`<br>
 #### features<br>
 `None`<br>
 #### queryId<br>
@@ -319,12 +310,7 @@ Request Method: `POST`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key          | type   | variable   |
-|:-------------|:-------|:-----------|
-| listId       | ...    | a          |
-| userId       | ...    | r          |
-| ...()(0,s.S) | ...    | _          |
-
+`None`<br>
 #### features<br>
 `None`<br>
 #### queryId<br>
@@ -701,13 +687,9 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key                    | type    | variable   |
-|:-----------------------|:--------|:-----------|
-| userId                 | ...     | n          |
-| count                  | ...     | t          |
-| cursor                 | ...     | i          |
-| includePromotedContent | boolean | False      |
-| ...()(0,s.d)           | ...     | _          |
+| key    | type   | variable   |
+|:-------|:-------|:-----------|
+| listId | ...    | n          |
 
 #### features<br>
 | key                                                                     | type    | variable   |
@@ -2290,13 +2272,9 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key                    | type    | variable   |
-|:-----------------------|:--------|:-----------|
-| userId                 | ...     | n          |
-| count                  | ...     | t          |
-| cursor                 | ...     | i          |
-| includePromotedContent | boolean | False      |
-| ...()(0,s.d)           | ...     | _          |
+| key    | type   | variable   |
+|:-------|:-------|:-----------|
+| listId | ...    | n          |
 
 #### features<br>
 | key                                                                     | type    | variable   |
@@ -3090,13 +3068,9 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key                    | type    | variable   |
-|:-----------------------|:--------|:-----------|
-| userId                 | ...     | n          |
-| count                  | ...     | t          |
-| cursor                 | ...     | i          |
-| includePromotedContent | boolean | False      |
-| ...()(0,s.d)           | ...     | _          |
+| key    | type   | variable   |
+|:-------|:-------|:-----------|
+| listId | ...    | n          |
 
 #### features<br>
 | key                                                                     | type    | variable   |
@@ -4290,13 +4264,9 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key                    | type    | variable   |
-|:-----------------------|:--------|:-----------|
-| userId                 | ...     | n          |
-| count                  | ...     | t          |
-| cursor                 | ...     | i          |
-| includePromotedContent | boolean | False      |
-| ...()(0,s.d)           | ...     | _          |
+| key    | type   | variable   |
+|:-------|:-------|:-----------|
+| listId | ...    | n          |
 
 #### features<br>
 | key                                                                     | type    | variable   |
@@ -4721,13 +4691,9 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key                    | type    | variable   |
-|:-----------------------|:--------|:-----------|
-| userId                 | ...     | n          |
-| count                  | ...     | t          |
-| cursor                 | ...     | i          |
-| includePromotedContent | boolean | False      |
-| ...()(0,s.d)           | ...     | _          |
+| key    | type   | variable   |
+|:-------|:-------|:-----------|
+| listId | ...    | n          |
 
 #### features<br>
 | key                                                                     | type    | variable   |
@@ -5229,16 +5195,10 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key                    | type    | variable    |
-|:-----------------------|:--------|:------------|
-| userId                 | ...     | r           |
-| count                  | ...     | t           |
-| cursor                 | ...     | i           |
-| teamName               | ...     | n           |
-| includePromotedContent | boolean | False       |
-| ...()(0,a.d)           | ...     | _           |
-| withClientEventToken   | boolean | False       |
-| withVoice              | ...     | _.isTrue(_) |
+| key                      | type   | variable   |
+|:-------------------------|:-------|:-----------|
+| userId                   | ...    | i          |
+| withSafetyModeUserFields | ...    | t.isTrue() |
 
 #### features<br>
 | key                                                                     | type    | variable   |
@@ -5272,13 +5232,9 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key                    | type    | variable   |
-|:-----------------------|:--------|:-----------|
-| userId                 | ...     | n          |
-| count                  | ...     | t          |
-| cursor                 | ...     | i          |
-| includePromotedContent | boolean | False      |
-| ...()(0,s.d)           | ...     | _          |
+| key    | type   | variable   |
+|:-------|:-------|:-----------|
+| listId | ...    | n          |
 
 #### features<br>
 | key                                                                     | type    | variable   |
@@ -6701,13 +6657,9 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key                    | type    | variable   |
-|:-----------------------|:--------|:-----------|
-| userId                 | ...     | n          |
-| count                  | ...     | t          |
-| cursor                 | ...     | i          |
-| includePromotedContent | boolean | False      |
-| ...()(0,s.d)           | ...     | _          |
+| key    | type   | variable   |
+|:-------|:-------|:-----------|
+| listId | ...    | n          |
 
 #### features<br>
 | key                                                                     | type    | variable   |
@@ -7290,13 +7242,9 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key                    | type    | variable   |
-|:-----------------------|:--------|:-----------|
-| userId                 | ...     | n          |
-| count                  | ...     | t          |
-| cursor                 | ...     | i          |
-| includePromotedContent | boolean | False      |
-| ...()(0,s.d)           | ...     | _          |
+| key    | type   | variable   |
+|:-------|:-------|:-----------|
+| listId | ...    | n          |
 
 #### features<br>
 | key                                                                     | type    | variable   |
@@ -7883,7 +7831,7 @@ Login Required: `...`<br>
 | key                                                               | type    | variable   |
 |:------------------------------------------------------------------|:--------|:-----------|
 | hidden_profile_likes_enabled                                      | boolean | False      |
-| hidden_profile_subscriptions_enabled                              | boolean | False      |
+| hidden_profile_subscriptions_enabled                              | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                  | boolean | True       |
 | verified_phone_label_enabled                                      | boolean | False      |
 | highlights_tweets_tab_ui_enabled                                  | boolean | True       |
@@ -7904,7 +7852,7 @@ Login Required: `...`<br>
 | key                                                               | type    | variable   |
 |:------------------------------------------------------------------|:--------|:-----------|
 | hidden_profile_likes_enabled                                      | boolean | False      |
-| hidden_profile_subscriptions_enabled                              | boolean | False      |
+| hidden_profile_subscriptions_enabled                              | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                  | boolean | True       |
 | verified_phone_label_enabled                                      | boolean | False      |
 | subscriptions_verification_info_is_identity_verified_enabled      | boolean | False      |
@@ -12437,16 +12385,10 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key                    | type    | variable    |
-|:-----------------------|:--------|:------------|
-| userId                 | ...     | r           |
-| count                  | ...     | t           |
-| cursor                 | ...     | i           |
-| teamName               | ...     | n           |
-| includePromotedContent | boolean | False       |
-| ...()(0,a.d)           | ...     | _           |
-| withClientEventToken   | boolean | False       |
-| withVoice              | ...     | _.isTrue(_) |
+| key                      | type   | variable   |
+|:-------------------------|:-------|:-----------|
+| userId                   | ...    | i          |
+| withSafetyModeUserFields | ...    | t.isTrue() |
 
 #### features<br>
 | key                                                                     | type    | variable   |
@@ -12485,7 +12427,7 @@ Login Required: `...`<br>
 | key                                                               | type    | variable   |
 |:------------------------------------------------------------------|:--------|:-----------|
 | hidden_profile_likes_enabled                                      | boolean | False      |
-| hidden_profile_subscriptions_enabled                              | boolean | False      |
+| hidden_profile_subscriptions_enabled                              | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                  | boolean | True       |
 | verified_phone_label_enabled                                      | boolean | False      |
 | highlights_tweets_tab_ui_enabled                                  | boolean | True       |
@@ -12506,7 +12448,7 @@ Login Required: `...`<br>
 | key                                                               | type    | variable   |
 |:------------------------------------------------------------------|:--------|:-----------|
 | hidden_profile_likes_enabled                                      | boolean | False      |
-| hidden_profile_subscriptions_enabled                              | boolean | False      |
+| hidden_profile_subscriptions_enabled                              | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                  | boolean | True       |
 | verified_phone_label_enabled                                      | boolean | False      |
 | subscriptions_verification_info_is_identity_verified_enabled      | boolean | False      |
@@ -12535,13 +12477,9 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key                    | type    | variable   |
-|:-----------------------|:--------|:-----------|
-| userId                 | ...     | n          |
-| count                  | ...     | t          |
-| cursor                 | ...     | i          |
-| includePromotedContent | boolean | False      |
-| ...()(0,s.d)           | ...     | _          |
+| key    | type   | variable   |
+|:-------|:-------|:-----------|
+| listId | ...    | n          |
 
 #### features<br>
 | key                                                                     | type    | variable   |
@@ -13392,7 +13330,12 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-`None`<br>
+| key              | type   | variable   |
+|:-----------------|:-------|:-----------|
+| twitterArticleId | ...    | s          |
+| title            | ...    | l          |
+| ...()(0,a.d)     | ...    | _          |
+
 #### features<br>
 `None`<br>
 #### queryId<br>
@@ -13486,7 +13429,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## PrimaryContentQuery<br>
-Request URL: `https://twitter.com/i/api/graphql/DPcSNOtovRKeAwtHAqwUlg/PrimaryContentQuery`<br>
+Request URL: `https://twitter.com/i/api/graphql/m2HYuTWHWT_CRbb85uCNNg/PrimaryContentQuery`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -13725,6 +13668,31 @@ Login Required: `...`<br>
 `None`<br>
 ## useSuperFollowsCreateStripePortalUrlMutation<br>
 Request URL: `https://twitter.com/i/api/graphql/cot9fAsCQIQGNYu9Rica6w/useSuperFollowsCreateStripePortalUrlMutation`<br>
+Request Method: `POST`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
+## IDVerificationQuery<br>
+Request URL: `https://twitter.com/i/api/graphql/3Wx7dsynDTSI0LO52L8L8A/IDVerificationQuery`<br>
+Request Method: `GET`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+| key                                                        | type    | variable   |
+|:-----------------------------------------------------------|:--------|:-----------|
+| identity_verification_hide_verified_label_settings_enabled | boolean | False      |
+
+#### queryId<br>
+`None`<br>
+## IDVerificationUpdateHideLabelMutation<br>
+Request URL: `https://twitter.com/i/api/graphql/lqIzyQL1p3XCZg77zekzZA/IDVerificationUpdateHideLabelMutation`<br>
 Request Method: `POST`<br>
 Login Required: `...`<br>
 ### Param<br>
