@@ -20676,7 +20676,7 @@
             "value": "false"
           },
           "hidden_profile_subscriptions_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_graphql_exclude_directive_enabled": {
             "value": "true"
@@ -20727,7 +20727,7 @@
             "value": "false"
           },
           "hidden_profile_subscriptions_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_graphql_exclude_directive_enabled": {
             "value": "true"
@@ -30930,7 +30930,7 @@
             "value": "false"
           },
           "hidden_profile_subscriptions_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_graphql_exclude_directive_enabled": {
             "value": "true"
@@ -30981,7 +30981,7 @@
             "value": "false"
           },
           "hidden_profile_subscriptions_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_graphql_exclude_directive_enabled": {
             "value": "true"
@@ -32865,7 +32865,7 @@
   {
     "n": "97252",
     "exports": {
-      "queryId": "DPcSNOtovRKeAwtHAqwUlg",
+      "queryId": "m2HYuTWHWT_CRbb85uCNNg",
       "operationName": "PrimaryContentQuery",
       "operationType": "query",
       "metadata": {
@@ -33132,6 +33132,36 @@
     "exports": {
       "queryId": "cot9fAsCQIQGNYu9Rica6w",
       "operationName": "useSuperFollowsCreateStripePortalUrlMutation",
+      "operationType": "mutation",
+      "metadata": {
+        "featureSwitches": [],
+        "featureSwitch": {}
+      }
+    }
+  },
+  {
+    "n": "97193",
+    "exports": {
+      "queryId": "3Wx7dsynDTSI0LO52L8L8A",
+      "operationName": "IDVerificationQuery",
+      "operationType": "query",
+      "metadata": {
+        "featureSwitches": [
+          "identity_verification_hide_verified_label_settings_enabled"
+        ],
+        "featureSwitch": {
+          "identity_verification_hide_verified_label_settings_enabled": {
+            "value": "false"
+          }
+        }
+      }
+    }
+  },
+  {
+    "n": "34352",
+    "exports": {
+      "queryId": "lqIzyQL1p3XCZg77zekzZA",
+      "operationName": "IDVerificationUpdateHideLabelMutation",
       "operationType": "mutation",
       "metadata": {
         "featureSwitches": [],
