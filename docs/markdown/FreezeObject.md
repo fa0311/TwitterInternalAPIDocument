@@ -5061,7 +5061,6 @@ This document is entirely auto-generated and may contain errors.<br>
 |:-----------|:------------|
 | DRAFT      | r.DRAFT     |
 | PUBLISHED  | r.PUBLISHED |
-| ALL        | void 0      |
 
 | constant   | value   |
 |:-----------|:--------|
@@ -5091,7 +5090,6 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant   | value     |
 |:-----------|:----------|
-| ALL        | All       |
 | DRAFTS     | Drafts    |
 | PUBLISHED  | Published |
 
