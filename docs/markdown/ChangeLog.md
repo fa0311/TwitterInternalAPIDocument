@@ -1256,3 +1256,32 @@
 - voice_rooms_cohosts_enabled<br>
 #### remove<br>
 - None<br>
+## 2023/08/03<br>
+### API<br>
+#### add<br>
+- IDVerificationQuery<br>
+- IDVerificationUpdateHideLabelMutation<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- card_detail_compact_enabled<br>
+- explore_relaunch_enable_auto_play<br>
+- explore_relaunch_max_video_loop_count<br>
+- explore_relaunch_max_video_loop_threshold_sec<br>
+- identity_verification_hide_verified_label_settings_enabled<br>
+- rweb_lists_discovery_list_mixer_enabled<br>
+- subscriptions_feature_1015<br>
+#### remove<br>
+- None<br>
+## 2023/08/04<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- responsive_web_twitter_blue_upsell_business_enabled<br>
+#### remove<br>
+- None<br>

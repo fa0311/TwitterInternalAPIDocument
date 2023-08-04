@@ -837,7 +837,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## ArticleEntityByRestId<br>
-Request URL: `https://twitter.com/i/api/graphql/qAmpPj2LVSI__wu9xbz31Q/ArticleEntityByRestId`<br>
+Request URL: `https://twitter.com/i/api/graphql/iEW-sX3cA2g0IAHCdBwHOg/ArticleEntityByRestId`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -865,7 +865,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## ArticleEntityDraftCreate<br>
-Request URL: `https://twitter.com/i/api/graphql/7nXfS8mag3P6dvpT2vJAHg/ArticleEntityDraftCreate`<br>
+Request URL: `https://twitter.com/i/api/graphql/JrTPAZJzKEh6sz1oMCn5Nw/ArticleEntityDraftCreate`<br>
 Request Method: `POST`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -882,7 +882,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## ArticleEntityPublish<br>
-Request URL: `https://twitter.com/i/api/graphql/i7VzadMWuhMHEhzq3l1p7w/ArticleEntityPublish`<br>
+Request URL: `https://twitter.com/i/api/graphql/R79idUH30Y1YGHfQf2UEGw/ArticleEntityPublish`<br>
 Request Method: `POST`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -899,7 +899,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## ArticleEntityUnpublish<br>
-Request URL: `https://twitter.com/i/api/graphql/wzmDAs4t1v6-mDrPcy8luQ/ArticleEntityUnpublish`<br>
+Request URL: `https://twitter.com/i/api/graphql/LWBIeS9k8YYe7DC9rGl7Xg/ArticleEntityUnpublish`<br>
 Request Method: `POST`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -916,7 +916,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## ArticleEntityUpdateContent<br>
-Request URL: `https://twitter.com/i/api/graphql/gDxlluzAKdvk-tA5nltZBA/ArticleEntityUpdateContent`<br>
+Request URL: `https://twitter.com/i/api/graphql/zpjfRrELxeKf4mqtK940pg/ArticleEntityUpdateContent`<br>
 Request Method: `POST`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -933,7 +933,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## ArticleEntityUpdateCoverMedia<br>
-Request URL: `https://twitter.com/i/api/graphql/9v6HeCbfr2dwBXP-N_9GQQ/ArticleEntityUpdateCoverMedia`<br>
+Request URL: `https://twitter.com/i/api/graphql/OGFZl1JX9xGTpv7ClwZ7-w/ArticleEntityUpdateCoverMedia`<br>
 Request Method: `POST`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -950,7 +950,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## ArticleEntityUpdateTitle<br>
-Request URL: `https://twitter.com/i/api/graphql/w6kmUm_tAQWPWC_hD9dxag/ArticleEntityUpdateTitle`<br>
+Request URL: `https://twitter.com/i/api/graphql/Edm-A_vgstIwCYX6r4gnkg/ArticleEntityUpdateTitle`<br>
 Request Method: `POST`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -8435,7 +8435,7 @@ Login Required: `...`<br>
 | key                                                               | type    | variable   |
 |:------------------------------------------------------------------|:--------|:-----------|
 | hidden_profile_likes_enabled                                      | boolean | False      |
-| hidden_profile_subscriptions_enabled                              | boolean | False      |
+| hidden_profile_subscriptions_enabled                              | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                  | boolean | True       |
 | verified_phone_label_enabled                                      | boolean | False      |
 | highlights_tweets_tab_ui_enabled                                  | boolean | True       |
@@ -8456,7 +8456,7 @@ Login Required: `...`<br>
 | key                                                               | type    | variable   |
 |:------------------------------------------------------------------|:--------|:-----------|
 | hidden_profile_likes_enabled                                      | boolean | False      |
-| hidden_profile_subscriptions_enabled                              | boolean | False      |
+| hidden_profile_subscriptions_enabled                              | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                  | boolean | True       |
 | verified_phone_label_enabled                                      | boolean | False      |
 | subscriptions_verification_info_is_identity_verified_enabled      | boolean | False      |
@@ -8503,7 +8503,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## ArticleEntityByRestId<br>
-Request URL: `https://twitter.com/i/api/graphql/qAmpPj2LVSI__wu9xbz31Q/ArticleEntityByRestId`<br>
+Request URL: `https://twitter.com/i/api/graphql/iEW-sX3cA2g0IAHCdBwHOg/ArticleEntityByRestId`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -8531,7 +8531,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## ArticleEntityDraftCreate<br>
-Request URL: `https://twitter.com/i/api/graphql/7nXfS8mag3P6dvpT2vJAHg/ArticleEntityDraftCreate`<br>
+Request URL: `https://twitter.com/i/api/graphql/JrTPAZJzKEh6sz1oMCn5Nw/ArticleEntityDraftCreate`<br>
 Request Method: `POST`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -8548,7 +8548,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## ArticleEntityPublish<br>
-Request URL: `https://twitter.com/i/api/graphql/i7VzadMWuhMHEhzq3l1p7w/ArticleEntityPublish`<br>
+Request URL: `https://twitter.com/i/api/graphql/R79idUH30Y1YGHfQf2UEGw/ArticleEntityPublish`<br>
 Request Method: `POST`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -8565,7 +8565,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## ArticleEntityUnpublish<br>
-Request URL: `https://twitter.com/i/api/graphql/wzmDAs4t1v6-mDrPcy8luQ/ArticleEntityUnpublish`<br>
+Request URL: `https://twitter.com/i/api/graphql/LWBIeS9k8YYe7DC9rGl7Xg/ArticleEntityUnpublish`<br>
 Request Method: `POST`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -8582,7 +8582,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## ArticleEntityUpdateContent<br>
-Request URL: `https://twitter.com/i/api/graphql/gDxlluzAKdvk-tA5nltZBA/ArticleEntityUpdateContent`<br>
+Request URL: `https://twitter.com/i/api/graphql/zpjfRrELxeKf4mqtK940pg/ArticleEntityUpdateContent`<br>
 Request Method: `POST`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -8599,7 +8599,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## ArticleEntityUpdateCoverMedia<br>
-Request URL: `https://twitter.com/i/api/graphql/9v6HeCbfr2dwBXP-N_9GQQ/ArticleEntityUpdateCoverMedia`<br>
+Request URL: `https://twitter.com/i/api/graphql/OGFZl1JX9xGTpv7ClwZ7-w/ArticleEntityUpdateCoverMedia`<br>
 Request Method: `POST`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -8616,7 +8616,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## ArticleEntityUpdateTitle<br>
-Request URL: `https://twitter.com/i/api/graphql/w6kmUm_tAQWPWC_hD9dxag/ArticleEntityUpdateTitle`<br>
+Request URL: `https://twitter.com/i/api/graphql/Edm-A_vgstIwCYX6r4gnkg/ArticleEntityUpdateTitle`<br>
 Request Method: `POST`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -12868,7 +12868,7 @@ Login Required: `...`<br>
 | key                                                               | type    | variable   |
 |:------------------------------------------------------------------|:--------|:-----------|
 | hidden_profile_likes_enabled                                      | boolean | False      |
-| hidden_profile_subscriptions_enabled                              | boolean | False      |
+| hidden_profile_subscriptions_enabled                              | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                  | boolean | True       |
 | verified_phone_label_enabled                                      | boolean | False      |
 | highlights_tweets_tab_ui_enabled                                  | boolean | True       |
@@ -12889,7 +12889,7 @@ Login Required: `...`<br>
 | key                                                               | type    | variable   |
 |:------------------------------------------------------------------|:--------|:-----------|
 | hidden_profile_likes_enabled                                      | boolean | False      |
-| hidden_profile_subscriptions_enabled                              | boolean | False      |
+| hidden_profile_subscriptions_enabled                              | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                  | boolean | True       |
 | verified_phone_label_enabled                                      | boolean | False      |
 | subscriptions_verification_info_is_identity_verified_enabled      | boolean | False      |
@@ -13413,7 +13413,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## useVerifiedOrgFeaturesQuery<br>
-Request URL: `https://twitter.com/i/api/graphql/_vBVewDGn9HREt21OO0gxQ/useVerifiedOrgFeaturesQuery`<br>
+Request URL: `https://twitter.com/i/api/graphql/CRzsIa1rDQMVYuqUeYdwCg/useVerifiedOrgFeaturesQuery`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -13907,7 +13907,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## PrimaryContentQuery<br>
-Request URL: `https://twitter.com/i/api/graphql/DPcSNOtovRKeAwtHAqwUlg/PrimaryContentQuery`<br>
+Request URL: `https://twitter.com/i/api/graphql/m2HYuTWHWT_CRbb85uCNNg/PrimaryContentQuery`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -14146,6 +14146,31 @@ Login Required: `...`<br>
 `None`<br>
 ## useSuperFollowsCreateStripePortalUrlMutation<br>
 Request URL: `https://twitter.com/i/api/graphql/cot9fAsCQIQGNYu9Rica6w/useSuperFollowsCreateStripePortalUrlMutation`<br>
+Request Method: `POST`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
+## IDVerificationQuery<br>
+Request URL: `https://twitter.com/i/api/graphql/3Wx7dsynDTSI0LO52L8L8A/IDVerificationQuery`<br>
+Request Method: `GET`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+| key                                                        | type    | variable   |
+|:-----------------------------------------------------------|:--------|:-----------|
+| identity_verification_hide_verified_label_settings_enabled | boolean | False      |
+
+#### queryId<br>
+`None`<br>
+## IDVerificationUpdateHideLabelMutation<br>
+Request URL: `https://twitter.com/i/api/graphql/lqIzyQL1p3XCZg77zekzZA/IDVerificationUpdateHideLabelMutation`<br>
 Request Method: `POST`<br>
 Login Required: `...`<br>
 ### Param<br>
