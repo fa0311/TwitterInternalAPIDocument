@@ -1274,3 +1274,14 @@
 - subscriptions_feature_1015<br>
 #### remove<br>
 - None<br>
+## 2023/08/04<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- responsive_web_twitter_blue_upsell_business_enabled<br>
+#### remove<br>
+- None<br>
