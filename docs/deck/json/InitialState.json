@@ -5408,7 +5408,7 @@
           "value": "false"
         },
         "web_image_large_webp_variants": {
-          "value": "true"
+          "value": "false"
         },
         "web_video_bitrate_persistence_enabled": {
           "value": "false"
@@ -5447,7 +5447,7 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "a74b0f389bee8c9be68544ac9ac18f80"
+      "settingsVersion": "885823f0fc037eac0c68c8f7c5edbdd4"
     },
     "debug": {},
     "featureSetToken": "0f7529108b0318d46fb1c1384a20645718d3b387",
@@ -5520,7 +5520,7 @@
     "country": "US",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "169126997021266332",
+    "guestId": "169135645774633606",
     "hasCommunityMemberships": "false",
     "language": "en",
     "oneFactorLoginEligibility": {
