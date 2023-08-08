@@ -3532,8 +3532,8 @@
       }
     },
     "Viewer": {
-      "url": "https://twitter.com/i/api/graphql/5wNTkTJmk8GZlJmd2rL7eQ/Viewer",
-      "queryId": "5wNTkTJmk8GZlJmd2rL7eQ",
+      "url": "https://twitter.com/i/api/graphql/93NdfGgZRSyQ-6rmHPgdNg/Viewer",
+      "queryId": "93NdfGgZRSyQ-6rmHPgdNg",
       "method": "GET",
       "features": {
         "responsive_web_graphql_exclude_directive_enabled": true,
@@ -3986,34 +3986,16 @@
       "method": "POST",
       "features": {}
     },
-    "HiddenLikesTabSettingsQuery": {
-      "url": "https://twitter.com/i/api/graphql/J9In7cq0qeok1s5Rvlnwug/HiddenLikesTabSettingsQuery",
-      "queryId": "J9In7cq0qeok1s5Rvlnwug",
-      "method": "GET",
-      "features": {}
-    },
     "HiddenSubscriptionsSettingsMutation": {
       "url": "https://twitter.com/i/api/graphql/xC9DvIAKUd4SniHOiu_gKQ/HiddenSubscriptionsSettingsMutation",
       "queryId": "xC9DvIAKUd4SniHOiu_gKQ",
       "method": "POST",
       "features": {}
     },
-    "HiddenSubscriptionsSettingsQuery": {
-      "url": "https://twitter.com/i/api/graphql/ldJqaSE5oJEZGyznNtJl7w/HiddenSubscriptionsSettingsQuery",
-      "queryId": "ldJqaSE5oJEZGyznNtJl7w",
-      "method": "GET",
-      "features": {}
-    },
     "HiddenVerifiedCheckmarkSettingsMutation": {
       "url": "https://twitter.com/i/api/graphql/_P16DPt32NaCPo9bXMci2Q/HiddenVerifiedCheckmarkSettingsMutation",
       "queryId": "_P16DPt32NaCPo9bXMci2Q",
       "method": "POST",
-      "features": {}
-    },
-    "HiddenVerifiedCheckmarkSettingsQuery": {
-      "url": "https://twitter.com/i/api/graphql/VgH9yeBScDoqUX83XPf75g/HiddenVerifiedCheckmarkSettingsQuery",
-      "queryId": "VgH9yeBScDoqUX83XPf75g",
-      "method": "GET",
       "features": {}
     },
     "ManageAffiliateBadgesQuery": {
@@ -4031,6 +4013,12 @@
     "MonetizationSettingsQuery": {
       "url": "https://twitter.com/i/api/graphql/669l97INfasuMJpzgAZckA/MonetizationSettingsQuery",
       "queryId": "669l97INfasuMJpzgAZckA",
+      "method": "GET",
+      "features": {}
+    },
+    "ProfileCustomizationScreenQuery": {
+      "url": "https://twitter.com/i/api/graphql/ViUDXzQkTjCwRXgf3atc7A/ProfileCustomizationScreenQuery",
+      "queryId": "ViUDXzQkTjCwRXgf3atc7A",
       "method": "GET",
       "features": {}
     },
@@ -4349,8 +4337,8 @@
       "features": {}
     },
     "JobScreenQuery": {
-      "url": "https://twitter.com/i/api/graphql/c7gn8b84cP88GH3ZOWsH9Q/JobScreenQuery",
-      "queryId": "c7gn8b84cP88GH3ZOWsH9Q",
+      "url": "https://twitter.com/i/api/graphql/cwWS1GEUzkc4yi8l1csa_g/JobScreenQuery",
+      "queryId": "cwWS1GEUzkc4yi8l1csa_g",
       "method": "GET",
       "features": {}
     },
