@@ -8486,7 +8486,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## Viewer<br>
-Request URL: `https://twitter.com/i/api/graphql/5wNTkTJmk8GZlJmd2rL7eQ/Viewer`<br>
+Request URL: `https://twitter.com/i/api/graphql/93NdfGgZRSyQ-6rmHPgdNg/Viewer`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -13291,7 +13291,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## Viewer<br>
-Request URL: `https://twitter.com/i/api/graphql/5wNTkTJmk8GZlJmd2rL7eQ/Viewer`<br>
+Request URL: `https://twitter.com/i/api/graphql/93NdfGgZRSyQ-6rmHPgdNg/Viewer`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -14213,17 +14213,6 @@ Login Required: `...`<br>
 `None`<br>
 #### queryId<br>
 `None`<br>
-## HiddenLikesTabSettingsQuery<br>
-Request URL: `https://twitter.com/i/api/graphql/J9In7cq0qeok1s5Rvlnwug/HiddenLikesTabSettingsQuery`<br>
-Request Method: `GET`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-`None`<br>
-#### queryId<br>
-`None`<br>
 ## HiddenSubscriptionsSettingsMutation<br>
 Request URL: `https://twitter.com/i/api/graphql/xC9DvIAKUd4SniHOiu_gKQ/HiddenSubscriptionsSettingsMutation`<br>
 Request Method: `POST`<br>
@@ -14235,31 +14224,9 @@ Login Required: `...`<br>
 `None`<br>
 #### queryId<br>
 `None`<br>
-## HiddenSubscriptionsSettingsQuery<br>
-Request URL: `https://twitter.com/i/api/graphql/ldJqaSE5oJEZGyznNtJl7w/HiddenSubscriptionsSettingsQuery`<br>
-Request Method: `GET`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-`None`<br>
-#### queryId<br>
-`None`<br>
 ## HiddenVerifiedCheckmarkSettingsMutation<br>
 Request URL: `https://twitter.com/i/api/graphql/_P16DPt32NaCPo9bXMci2Q/HiddenVerifiedCheckmarkSettingsMutation`<br>
 Request Method: `POST`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-`None`<br>
-#### queryId<br>
-`None`<br>
-## HiddenVerifiedCheckmarkSettingsQuery<br>
-Request URL: `https://twitter.com/i/api/graphql/VgH9yeBScDoqUX83XPf75g/HiddenVerifiedCheckmarkSettingsQuery`<br>
-Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
@@ -14292,6 +14259,17 @@ Login Required: `...`<br>
 `None`<br>
 ## MonetizationSettingsQuery<br>
 Request URL: `https://twitter.com/i/api/graphql/669l97INfasuMJpzgAZckA/MonetizationSettingsQuery`<br>
+Request Method: `GET`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
+## ProfileCustomizationScreenQuery<br>
+Request URL: `https://twitter.com/i/api/graphql/ViUDXzQkTjCwRXgf3atc7A/ProfileCustomizationScreenQuery`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -14873,7 +14851,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## JobScreenQuery<br>
-Request URL: `https://twitter.com/i/api/graphql/c7gn8b84cP88GH3ZOWsH9Q/JobScreenQuery`<br>
+Request URL: `https://twitter.com/i/api/graphql/cwWS1GEUzkc4yi8l1csa_g/JobScreenQuery`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
