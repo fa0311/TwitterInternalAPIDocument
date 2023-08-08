@@ -115,11 +115,6 @@
       "entities": {},
       "errors": {},
       "fetchStatus": {}
-    },
-    "translationsProfiles": {
-      "entities": {},
-      "errors": {},
-      "fetchStatus": {}
     }
   },
   "featureSwitch": {
@@ -741,7 +736,7 @@
         "value": "2"
       },
       "explore_relaunch_max_video_loop_threshold_sec": {
-        "value": "2"
+        "value": "6"
       },
       "explore_relaunch_onboarding_bar_show_count": {
         "value": "100000"
@@ -1272,7 +1267,7 @@
         "value": "true"
       },
       "responsive_web_birdwatch_require_rating_before_writing_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "responsive_web_birdwatch_signup_prompt_enabled": {
         "value": "true"
@@ -1362,6 +1357,9 @@
         "value": "true"
       },
       "responsive_web_deamplification_replies_dropdown_selector_enabled": {
+        "value": "false"
+      },
+      "responsive_web_delete_tweet_stats_enabled": {
         "value": "false"
       },
       "responsive_web_device_follow_without_user_follow_enabled": {
@@ -1905,6 +1903,9 @@
       "responsive_web_twitter_blue_subscriptions_disabled": {
         "value": "false"
       },
+      "responsive_web_twitter_blue_upsell_business_enabled": {
+        "value": "false"
+      },
       "responsive_web_twitter_blue_upsell_right_column": {
         "value": "false"
       },
@@ -2016,7 +2017,7 @@
         "value": "false"
       },
       "rweb_lists_global_search_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "rweb_lists_search_enabled": {
         "value": "true"
@@ -2031,7 +2032,7 @@
         "value": "false"
       },
       "rweb_search_media_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "rweb_sidebar_lower_whats_happening_enabled": {
         "value": "false"
@@ -2050,6 +2051,9 @@
       },
       "rweb_update_fatigue_switch_to_app_link": {
         "value": "BannerSwitchToApp"
+      },
+      "rweb_video_pip_enabled": {
+        "value": "false"
       },
       "rweb_video_tagging_enabled": {
         "value": "false"
@@ -2742,7 +2746,7 @@
         "value": "true"
       },
       "voice_rooms_speaking_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "voice_rooms_typeahead_audiospace_ring_enabled": {
         "value": "true"
@@ -4026,6 +4030,9 @@
         "responsive_web_deamplification_replies_dropdown_selector_enabled": {
           "value": "false"
         },
+        "responsive_web_delete_tweet_stats_enabled": {
+          "value": "false"
+        },
         "responsive_web_device_follow_without_user_follow_enabled": {
           "value": "false"
         },
@@ -4567,6 +4574,9 @@
         "responsive_web_twitter_blue_subscriptions_disabled": {
           "value": "false"
         },
+        "responsive_web_twitter_blue_upsell_business_enabled": {
+          "value": "false"
+        },
         "responsive_web_twitter_blue_upsell_right_column": {
           "value": "false"
         },
@@ -4710,6 +4720,9 @@
         },
         "rweb_update_fatigue_switch_to_app_link": {
           "value": "BannerSwitchToApp"
+        },
+        "rweb_video_pip_enabled": {
+          "value": "false"
         },
         "rweb_video_tagging_enabled": {
           "value": "false"
@@ -5408,7 +5421,7 @@
           "value": "false"
         },
         "web_image_large_webp_variants": {
-          "value": "false"
+          "value": "true"
         },
         "web_video_bitrate_persistence_enabled": {
           "value": "false"
@@ -5447,10 +5460,10 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "b9a1f39cc68502a37000db5041ef6ad7"
+      "settingsVersion": "0514e98c866f896e8b294f42a427ba43"
     },
     "debug": {},
-    "featureSetToken": "0f7529108b0318d46fb1c1384a20645718d3b387",
+    "featureSetToken": "60353257e7579769c35a4bf4513869f401ab9a38",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -5520,7 +5533,7 @@
     "country": "US",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "169144282300882712",
+    "guestId": "169152930868863664",
     "hasCommunityMemberships": "false",
     "language": "en",
     "oneFactorLoginEligibility": {
