@@ -1285,3 +1285,17 @@
 - responsive_web_twitter_blue_upsell_business_enabled<br>
 #### remove<br>
 - None<br>
+## 2023/08/08<br>
+### API<br>
+#### add<br>
+- ProfileCustomizationScreenQuery<br>
+#### remove<br>
+- HiddenLikesTabSettingsQuery<br>
+- HiddenSubscriptionsSettingsQuery<br>
+- HiddenVerifiedCheckmarkSettingsQuery<br>
+### Feature Switch<br>
+#### add<br>
+- responsive_web_delete_tweet_stats_enabled<br>
+- rweb_video_pip_enabled<br>
+#### remove<br>
+- None<br>
