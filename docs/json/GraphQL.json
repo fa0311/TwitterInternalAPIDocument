@@ -20793,7 +20793,7 @@
   {
     "n": "95674",
     "exports": {
-      "queryId": "5wNTkTJmk8GZlJmd2rL7eQ",
+      "queryId": "93NdfGgZRSyQ-6rmHPgdNg",
       "operationName": "Viewer",
       "operationType": "query",
       "metadata": {
@@ -20804,6 +20804,7 @@
           "responsive_web_graphql_timeline_navigation_enabled"
         ],
         "fieldToggles": [
+          "isDelegate",
           "withAuxiliaryUserLabels"
         ],
         "featureSwitch": {
@@ -31961,7 +31962,7 @@
   {
     "n": "95674",
     "exports": {
-      "queryId": "5wNTkTJmk8GZlJmd2rL7eQ",
+      "queryId": "93NdfGgZRSyQ-6rmHPgdNg",
       "operationName": "Viewer",
       "operationType": "query",
       "metadata": {
@@ -31972,6 +31973,7 @@
           "responsive_web_graphql_timeline_navigation_enabled"
         ],
         "fieldToggles": [
+          "isDelegate",
           "withAuxiliaryUserLabels"
         ],
         "featureSwitch": {
@@ -33206,18 +33208,6 @@
     }
   },
   {
-    "n": "38003",
-    "exports": {
-      "queryId": "J9In7cq0qeok1s5Rvlnwug",
-      "operationName": "HiddenLikesTabSettingsQuery",
-      "operationType": "query",
-      "metadata": {
-        "featureSwitches": [],
-        "featureSwitch": {}
-      }
-    }
-  },
-  {
     "n": "45721",
     "exports": {
       "queryId": "xC9DvIAKUd4SniHOiu_gKQ",
@@ -33230,35 +33220,11 @@
     }
   },
   {
-    "n": "15273",
-    "exports": {
-      "queryId": "ldJqaSE5oJEZGyznNtJl7w",
-      "operationName": "HiddenSubscriptionsSettingsQuery",
-      "operationType": "query",
-      "metadata": {
-        "featureSwitches": [],
-        "featureSwitch": {}
-      }
-    }
-  },
-  {
     "n": "6030",
     "exports": {
       "queryId": "_P16DPt32NaCPo9bXMci2Q",
       "operationName": "HiddenVerifiedCheckmarkSettingsMutation",
       "operationType": "mutation",
-      "metadata": {
-        "featureSwitches": [],
-        "featureSwitch": {}
-      }
-    }
-  },
-  {
-    "n": "65923",
-    "exports": {
-      "queryId": "VgH9yeBScDoqUX83XPf75g",
-      "operationName": "HiddenVerifiedCheckmarkSettingsQuery",
-      "operationType": "query",
       "metadata": {
         "featureSwitches": [],
         "featureSwitch": {}
@@ -33294,6 +33260,18 @@
     "exports": {
       "queryId": "669l97INfasuMJpzgAZckA",
       "operationName": "MonetizationSettingsQuery",
+      "operationType": "query",
+      "metadata": {
+        "featureSwitches": [],
+        "featureSwitch": {}
+      }
+    }
+  },
+  {
+    "n": "29",
+    "exports": {
+      "queryId": "ViUDXzQkTjCwRXgf3atc7A",
+      "operationName": "ProfileCustomizationScreenQuery",
       "operationType": "query",
       "metadata": {
         "featureSwitches": [],
@@ -33944,7 +33922,7 @@
   {
     "n": "60759",
     "exports": {
-      "queryId": "c7gn8b84cP88GH3ZOWsH9Q",
+      "queryId": "cwWS1GEUzkc4yi8l1csa_g",
       "operationName": "JobScreenQuery",
       "operationType": "query",
       "metadata": {
