@@ -744,6 +744,9 @@
       "explore_relaunch_updated_scrubber_position": {
         "value": "false"
       },
+      "explore_relaunch_web_playback_bug_fix": {
+        "value": "true"
+      },
       "focused_timeline_actions_onboarding_likes": {
         "value": "3"
       },
@@ -2677,6 +2680,12 @@
       "twitter_delegate_enabled": {
         "value": "false"
       },
+      "twitter_delegate_normal_limit": {
+        "value": "5"
+      },
+      "twitter_delegate_subscriber_limit": {
+        "value": "25"
+      },
       "ucpd_enabled": {
         "value": "true"
       },
@@ -3255,7 +3264,7 @@
           "value": "true"
         },
         "conversation_controls_my_subscribers_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "conversation_controls_persistence_enabled": {
           "value": "true"
@@ -3414,6 +3423,9 @@
         },
         "explore_relaunch_updated_scrubber_position": {
           "value": "false"
+        },
+        "explore_relaunch_web_playback_bug_fix": {
+          "value": "true"
         },
         "focused_timeline_actions_onboarding_likes": {
           "value": "3"
@@ -5346,6 +5358,12 @@
         "twitter_delegate_enabled": {
           "value": "false"
         },
+        "twitter_delegate_normal_limit": {
+          "value": "5"
+        },
+        "twitter_delegate_subscriber_limit": {
+          "value": "25"
+        },
         "ucpd_enabled": {
           "value": "true"
         },
@@ -5421,7 +5439,7 @@
           "value": "false"
         },
         "web_image_large_webp_variants": {
-          "value": "true"
+          "value": "false"
         },
         "web_video_bitrate_persistence_enabled": {
           "value": "false"
@@ -5460,10 +5478,10 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "0514e98c866f896e8b294f42a427ba43"
+      "settingsVersion": "821c15d67c921f99bb67d80aeddbfe2a"
     },
     "debug": {},
-    "featureSetToken": "60353257e7579769c35a4bf4513869f401ab9a38",
+    "featureSetToken": "8d42998c1af1ed7babad400477e0798a28c09305",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -5533,7 +5551,7 @@
     "country": "US",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "169161563854956991",
+    "guestId": "169170210852443108",
     "hasCommunityMemberships": "false",
     "language": "en",
     "oneFactorLoginEligibility": {
