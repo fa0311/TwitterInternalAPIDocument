@@ -631,3 +631,16 @@
 - rweb_video_pip_enabled<br>
 #### remove<br>
 - None<br>
+## 2023/08/10<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- explore_relaunch_web_playback_bug_fix<br>
+- twitter_delegate_normal_limit<br>
+- twitter_delegate_subscriber_limit<br>
+#### remove<br>
+- None<br>

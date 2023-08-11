@@ -744,6 +744,9 @@
       "explore_relaunch_updated_scrubber_position": {
         "value": "false"
       },
+      "explore_relaunch_web_playback_bug_fix": {
+        "value": "true"
+      },
       "focused_timeline_actions_onboarding_likes": {
         "value": "3"
       },
@@ -2677,6 +2680,12 @@
       "twitter_delegate_enabled": {
         "value": "false"
       },
+      "twitter_delegate_normal_limit": {
+        "value": "5"
+      },
+      "twitter_delegate_subscriber_limit": {
+        "value": "25"
+      },
       "ucpd_enabled": {
         "value": "true"
       },
@@ -3255,7 +3264,7 @@
           "value": "true"
         },
         "conversation_controls_my_subscribers_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "conversation_controls_persistence_enabled": {
           "value": "true"
@@ -3414,6 +3423,9 @@
         },
         "explore_relaunch_updated_scrubber_position": {
           "value": "false"
+        },
+        "explore_relaunch_web_playback_bug_fix": {
+          "value": "true"
         },
         "focused_timeline_actions_onboarding_likes": {
           "value": "3"
@@ -5348,6 +5360,12 @@
         "twitter_delegate_enabled": {
           "value": "false"
         },
+        "twitter_delegate_normal_limit": {
+          "value": "5"
+        },
+        "twitter_delegate_subscriber_limit": {
+          "value": "25"
+        },
         "ucpd_enabled": {
           "value": "true"
         },
@@ -5423,7 +5441,7 @@
           "value": "true"
         },
         "web_image_large_webp_variants": {
-          "value": "false"
+          "value": "true"
         },
         "web_video_bitrate_persistence_enabled": {
           "value": "false"
@@ -5462,10 +5480,10 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "e94539f7f4b3fb86556cb49027b46565"
+      "settingsVersion": "13400809f5126038a20baeca128c0d8a"
     },
     "debug": {},
-    "featureSetToken": "60353257e7579769c35a4bf4513869f401ab9a38",
+    "featureSetToken": "8d42998c1af1ed7babad400477e0798a28c09305",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -5535,7 +5553,7 @@
     "country": "US",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "169161521012975021",
+    "guestId": "169170160287222826",
     "hasCommunityMemberships": "false",
     "language": "en",
     "oneFactorLoginEligibility": {
@@ -5546,12 +5564,6 @@
   "developer": {
     "dtabBarInfo": {
       "hide": "false"
-    }
-  },
-  "ads": {
-    "typeahead": {
-      "targetingLocation": {},
-      "forecastAudience": {}
     }
   }
 }
