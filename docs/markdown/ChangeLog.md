@@ -1312,3 +1312,14 @@
 - twitter_delegate_subscriber_limit<br>
 #### remove<br>
 - None<br>
+## 2023/08/11<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- TwitterBlueQuery<br>
+### Feature Switch<br>
+#### add<br>
+- responsive_web_ad_revenue_sharing_number_of_impressions<br>
+#### remove<br>
+- None<br>
