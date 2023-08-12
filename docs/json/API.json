@@ -4034,12 +4034,6 @@
       "method": "GET",
       "features": {}
     },
-    "TwitterBlueQuery": {
-      "url": "https://twitter.com/i/api/graphql/Z63wt_H1R7-XSZYYDEsOkg/TwitterBlueQuery",
-      "queryId": "Z63wt_H1R7-XSZYYDEsOkg",
-      "method": "GET",
-      "features": {}
-    },
     "useManagedAffiliationsUpdateMutation": {
       "url": "https://twitter.com/i/api/graphql/tHVYwctPhLe1BXEkVqAdwQ/useManagedAffiliationsUpdateMutation",
       "queryId": "tHVYwctPhLe1BXEkVqAdwQ",

@@ -33304,18 +33304,6 @@
     }
   },
   {
-    "n": "2777",
-    "exports": {
-      "queryId": "Z63wt_H1R7-XSZYYDEsOkg",
-      "operationName": "TwitterBlueQuery",
-      "operationType": "query",
-      "metadata": {
-        "featureSwitches": [],
-        "featureSwitch": {}
-      }
-    }
-  },
-  {
     "n": "53977",
     "exports": {
       "queryId": "tHVYwctPhLe1BXEkVqAdwQ",

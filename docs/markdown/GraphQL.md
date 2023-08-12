@@ -14301,17 +14301,6 @@ Login Required: `...`<br>
 `None`<br>
 #### queryId<br>
 `None`<br>
-## TwitterBlueQuery<br>
-Request URL: `https://twitter.com/i/api/graphql/Z63wt_H1R7-XSZYYDEsOkg/TwitterBlueQuery`<br>
-Request Method: `GET`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-`None`<br>
-#### queryId<br>
-`None`<br>
 ## useManagedAffiliationsUpdateMutation<br>
 Request URL: `https://twitter.com/i/api/graphql/tHVYwctPhLe1BXEkVqAdwQ/useManagedAffiliationsUpdateMutation`<br>
 Request Method: `POST`<br>
