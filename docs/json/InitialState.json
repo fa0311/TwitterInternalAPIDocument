@@ -5447,7 +5447,7 @@
           "value": "true"
         },
         "web_image_large_webp_variants": {
-          "value": "true"
+          "value": "false"
         },
         "web_video_bitrate_persistence_enabled": {
           "value": "false"
@@ -5486,7 +5486,7 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "7e7869bcabd2e3eaa349a5320edeb8a6"
+      "settingsVersion": "ddd1022485b399e6897404720af4a61b"
     },
     "debug": {},
     "featureSetToken": "43e92f55181eead30d9aa082dbc4ed7cfd7bb7f5",
@@ -5559,7 +5559,7 @@
     "country": "US",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "169187435573502587",
+    "guestId": "169196073825657206",
     "hasCommunityMemberships": "false",
     "language": "en",
     "oneFactorLoginEligibility": {
@@ -5570,6 +5570,12 @@
   "developer": {
     "dtabBarInfo": {
       "hide": "false"
+    }
+  },
+  "ads": {
+    "typeahead": {
+      "targetingLocation": {},
+      "forecastAudience": {}
     }
   }
 }
