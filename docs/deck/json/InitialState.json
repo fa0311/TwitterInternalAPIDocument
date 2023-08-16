@@ -115,6 +115,11 @@
       "entities": {},
       "errors": {},
       "fetchStatus": {}
+    },
+    "translationsProfiles": {
+      "entities": {},
+      "errors": {},
+      "fetchStatus": {}
     }
   },
   "featureSwitch": {
@@ -2641,6 +2646,9 @@
         "gryphon_accountsync_polling_interval_ms": {
           "value": "300000"
         },
+        "gryphon_blue_only_enabled": {
+          "value": "true"
+        },
         "gryphon_fps_tracking_enabled": {
           "value": "true"
         },
@@ -2651,9 +2659,6 @@
           "value": "true"
         },
         "gryphon_optout_hidden_in_navbar": {
-          "value": "true"
-        },
-        "gryphon_optout_in_settings": {
           "value": "true"
         },
         "gryphon_redux_perf_optimization_enabled": {
@@ -3987,7 +3992,7 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "5eabca9d566f462069b97a0d737cf54f"
+      "settingsVersion": "94a1582dc97ce36ce1824a42b37e097c"
     },
     "debug": {},
     "featureSetToken": "b6e4db36276879407fc8836783bad61b8dc0dc06",
@@ -4060,7 +4065,7 @@
     "country": "US",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "169213403688517562",
+    "guestId": "169222048990022058",
     "hasCommunityMemberships": "false",
     "language": "en",
     "oneFactorLoginEligibility": {
