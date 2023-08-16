@@ -624,9 +624,6 @@
       "dm_share_sheet_send_individually_max_count": {
         "value": "20"
       },
-      "dm_verified_allow_dms_from_setting_enabled": {
-        "value": "true"
-      },
       "dm_voice_rendering_enabled": {
         "value": "true"
       },
@@ -714,6 +711,9 @@
       "gryphon_accountsync_polling_interval_ms": {
         "value": "300000"
       },
+      "gryphon_blue_only_enabled": {
+        "value": "true"
+      },
       "gryphon_fps_tracking_enabled": {
         "value": "true"
       },
@@ -794,6 +794,9 @@
       },
       "home_timeline_spheres_max_user_owned_or_subscribed_lists_count": {
         "value": "5"
+      },
+      "identity_verification_consent_opt_in_by_default_enabled": {
+        "value": "true"
       },
       "identity_verification_debadging_notification_enabled": {
         "value": "true"
@@ -1260,13 +1263,7 @@
       "responsive_web_one_hour_edit_window_enabled": {
         "value": "true"
       },
-      "responsive_web_opengraph_image_tweet_copy_1": {
-        "value": "true"
-      },
       "responsive_web_opengraph_play_icon_overlay": {
-        "value": "true"
-      },
-      "responsive_web_opengraph_video_tweet_copy_1": {
         "value": "true"
       },
       "responsive_web_original_tweet_nudge_supported_languages": {
@@ -1316,9 +1313,6 @@
         "value": "true"
       },
       "responsive_web_ssr_footer_categorized_variant_enabled": {
-        "value": "true"
-      },
-      "responsive_web_ssr_verified_crawler_rux_injections_enabled": {
         "value": "true"
       },
       "responsive_web_subscribers_ntab_for_creators_enabled": {
@@ -2566,9 +2560,6 @@
         "dm_share_sheet_send_individually_max_count": {
           "value": "20"
         },
-        "dm_verified_allow_dms_from_setting_enabled": {
-          "value": "true"
-        },
         "dm_voice_rendering_enabled": {
           "value": "true"
         },
@@ -2656,6 +2647,9 @@
         "gryphon_accountsync_polling_interval_ms": {
           "value": "300000"
         },
+        "gryphon_blue_only_enabled": {
+          "value": "true"
+        },
         "gryphon_fps_tracking_enabled": {
           "value": "true"
         },
@@ -2736,6 +2730,9 @@
         },
         "home_timeline_spheres_max_user_owned_or_subscribed_lists_count": {
           "value": "5"
+        },
+        "identity_verification_consent_opt_in_by_default_enabled": {
+          "value": "true"
         },
         "identity_verification_debadging_notification_enabled": {
           "value": "true"
@@ -3223,13 +3220,7 @@
         "responsive_web_one_hour_edit_window_enabled": {
           "value": "true"
         },
-        "responsive_web_opengraph_image_tweet_copy_1": {
-          "value": "true"
-        },
         "responsive_web_opengraph_play_icon_overlay": {
-          "value": "true"
-        },
-        "responsive_web_opengraph_video_tweet_copy_1": {
           "value": "true"
         },
         "responsive_web_original_tweet_nudge_supported_languages": {
@@ -3282,9 +3273,6 @@
           "value": "true"
         },
         "responsive_web_ssr_footer_categorized_variant_enabled": {
-          "value": "true"
-        },
-        "responsive_web_ssr_verified_crawler_rux_injections_enabled": {
           "value": "true"
         },
         "responsive_web_subscribers_ntab_for_creators_enabled": {
@@ -4021,6 +4009,9 @@
         "voice_rooms_typeahead_audiospace_ring_enabled": {
           "value": "true"
         },
+        "web_image_large_webp_variants": {
+          "value": "true"
+        },
         "web_video_caption_repositioning_enabled": {
           "value": "true"
         },
@@ -4049,10 +4040,10 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "b3870371e2dd339574febb64d5352cf7"
+      "settingsVersion": "deb67cfa17d1a6e942c5e83d167c110b"
     },
     "debug": {},
-    "featureSetToken": "b6e4db36276879407fc8836783bad61b8dc0dc06",
+    "featureSetToken": "420df2ea64c82e945380e776c5d0f4f19491e8c3",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -4122,7 +4113,7 @@
     "country": "US",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "169213359968259265",
+    "guestId": "169221998477396029",
     "hasCommunityMemberships": "false",
     "language": "en",
     "oneFactorLoginEligibility": {
@@ -4133,6 +4124,12 @@
   "developer": {
     "dtabBarInfo": {
       "hide": "false"
+    }
+  },
+  "ads": {
+    "typeahead": {
+      "targetingLocation": {},
+      "forecastAudience": {}
     }
   }
 }
