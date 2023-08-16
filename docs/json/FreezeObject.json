@@ -2773,6 +2773,7 @@
     "FilteredReplies": "FilteredReplies",
     "Gender": "Gender",
     "IDVerification": "IDVerification",
+    "IDVerificationRequest": "IDVerificationRequest",
     "Language": "Language",
     "Languages": "Languages",
     "Location": "Location",
@@ -4851,6 +4852,14 @@
     "FAILURE": "rweb/settings/usernames/FETCH_USERNAMES_FAILURE"
   },
   {
+    "CanVerifyIdentity": "CanVerifyIdentity",
+    "IdentityNonVerifiable": "IdentityNonVerifiable",
+    "IdentityVerified": "IdentityVerified",
+    "PendingResult": "PendingResult",
+    "RequestLocked": "RequestLocked",
+    "UnavailableMissingBlueSubscription": "UnavailableMissingBlueSubscription"
+  },
+  {
     "EmptyState": "EmptyState",
     "Callout": "Callout"
   },
@@ -4878,14 +4887,6 @@
     "REQUEST": "rweb/trends/FETCH_TRENDS_SETTINGS_REQUEST",
     "SUCCESS": "rweb/trends/FETCH_TRENDS_SETTINGS_SUCCESS",
     "FAILURE": "rweb/trends/FETCH_TRENDS_SETTINGS_FAILURE"
-  },
-  {
-    "CanVerifyIdentity": "CanVerifyIdentity",
-    "IdentityNonVerifiable": "IdentityNonVerifiable",
-    "IdentityVerified": "IdentityVerified",
-    "PendingResult": "PendingResult",
-    "RequestLocked": "RequestLocked",
-    "UnavailableMissingBlueSubscription": "UnavailableMissingBlueSubscription"
   },
   {
     "REQUEST": "rweb/backupCode/FETCH_BACKUP_CODE_REQUEST",
@@ -4973,7 +4974,7 @@
     "SUCCESS": "rweb/safetyMode/FETCH_SAFETY_MODE_SETTINGS_SUCCESS",
     "FAILURE": "rweb/safetyMode/FETCH_SAFETY_MODE_SETTINGS_FAILURE"
   },
-  "{[x.ActionedTweets]:{\"backLocation\":\"A\",\"confirmationSheetHeadline\":\"()(0,o.X_)\"{\"screenName\":\"m\"}{\"screenName\":\"m\"}},[x.PreviewFlaggedTweets]:{\"backLocation\":\"P\",\"confirmationSheetHeadline\":\"S()\"{\"screenName\":\"m\"}{\"screenName\":\"m\"}}}",
+  "{[I.ActionedTweets]:{\"backLocation\":\"A\",\"confirmationSheetHeadline\":\"()(0,o.X_)\"{\"screenName\":\"m\"}{\"screenName\":\"m\"}},[I.PreviewFlaggedTweets]:{\"backLocation\":\"P\",\"confirmationSheetHeadline\":\"S()\"{\"screenName\":\"m\"}{\"screenName\":\"m\"}}}",
   {
     "ActionedTweets": "actioned_tweets",
     "PreviewFlaggedTweets": "preview_flagged_tweets"
@@ -5513,30 +5514,13 @@
     "TIMELINE": "timeline"
   },
   {
-    "CONTROL": "0",
-    "VARIANT_1": "1",
-    "VARIANT_2": "2",
-    "VARIANT_3": "3",
-    "VARIANT_4": "4",
-    "VARIANT_5": "5",
-    "VARIANT_6": "6",
-    "VARIANT_7": "7",
-    "VARIANT_8": "8"
-  },
-  {
-    "Text": "0",
-    "Image": "1",
-    "Video": "2",
-    "Other": "3"
-  },
-  {
     "COUNTRIES": "0",
     "REGIONS": "1",
     "METROS": "2",
     "CITIES": "3",
     "POSTAL_CODES": "4"
   },
-  "{[v.cU.CurrentCountryMatch]:\"0\",[v.cU.Match]:\"1\",[v.cU.NoMatch]:\"2\"}",
+  "{[P.cU.CurrentCountryMatch]:\"0\",[P.cU.Match]:\"1\",[P.cU.NoMatch]:\"2\"}",
   {
     "13 to 19": "d().d267afa2",
     "20 to 29": "d().db81cab0",
@@ -5869,15 +5853,6 @@
     "Reserved7": "Reserved7"
   },
   {
-    "CONTROL": "0",
-    "VARIANT_1": "1",
-    "VARIANT_2": "2",
-    "VARIANT_3": "3",
-    "VARIANT_4": "4",
-    "VARIANT_5": "5",
-    "VARIANT_6": "6"
-  },
-  {
     "Affiliate": "Affiliate"
   },
   {
@@ -6181,7 +6156,7 @@
     "IncentiveFocus": "IncentiveFocus",
     "TopicFocus": "TopicFocus"
   },
-  "{[D.LIVE_EVENT]:\"!0\",[D.MOMENT]:\"!0\",[D.SUMMARY]:\"!0\",[D.SUMMARY_LARGE_IMAGE]:\"!0\",[D.AUDIOSPACE]:\"!0\"}",
+  "{[f.LIVE_EVENT]:\"!0\",[f.MOMENT]:\"!0\",[f.SUMMARY]:\"!0\",[f.SUMMARY_LARGE_IMAGE]:\"!0\",[f.AUDIOSPACE]:\"!0\"}",
   {
     "CONVERSATION": "conversation",
     "TIMELINE": "timeline"
