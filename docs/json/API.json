@@ -609,10 +609,11 @@
       "features": {}
     },
     "BirdwatchCreateNote": {
-      "url": "https://twitter.com/i/api/graphql/XyDsiC8GORsQe4df_ek8bA/BirdwatchCreateNote",
-      "queryId": "XyDsiC8GORsQe4df_ek8bA",
+      "url": "https://twitter.com/i/api/graphql/8VD4GzE4EJekPRHHJeWz-w/BirdwatchCreateNote",
+      "queryId": "8VD4GzE4EJekPRHHJeWz-w",
       "method": "POST",
       "features": {
+        "responsive_web_birdwatch_media_notes_enabled": true,
         "responsive_web_graphql_timeline_navigation_enabled": true,
         "responsive_web_graphql_exclude_directive_enabled": true
       }
@@ -703,19 +704,21 @@
       }
     },
     "BirdwatchFetchNotes": {
-      "url": "https://twitter.com/i/api/graphql/o_AIinOqZr8Q84Jmv4V7fw/BirdwatchFetchNotes",
-      "queryId": "o_AIinOqZr8Q84Jmv4V7fw",
+      "url": "https://twitter.com/i/api/graphql/4L26HKTbh5dAI6qpaZWugA/BirdwatchFetchNotes",
+      "queryId": "4L26HKTbh5dAI6qpaZWugA",
       "method": "GET",
       "features": {
+        "responsive_web_birdwatch_media_notes_enabled": true,
         "responsive_web_graphql_timeline_navigation_enabled": true,
         "responsive_web_graphql_exclude_directive_enabled": true
       }
     },
     "BirdwatchFetchOneNote": {
-      "url": "https://twitter.com/i/api/graphql/eSyONBAoN113xJNLeojIUg/BirdwatchFetchOneNote",
-      "queryId": "eSyONBAoN113xJNLeojIUg",
+      "url": "https://twitter.com/i/api/graphql/zC-GaIF273kQI27-SopcOw/BirdwatchFetchOneNote",
+      "queryId": "zC-GaIF273kQI27-SopcOw",
       "method": "GET",
       "features": {
+        "responsive_web_birdwatch_media_notes_enabled": true,
         "responsive_web_graphql_timeline_navigation_enabled": true,
         "responsive_web_graphql_exclude_directive_enabled": true
       }
@@ -3328,6 +3331,12 @@
       "method": "POST",
       "features": {}
     },
+    "useIDVerificationSessionUrlMutation": {
+      "url": "https://twitter.com/i/api/graphql/4XoCfSONVTY3lWGDSA8zFw/useIDVerificationSessionUrlMutation",
+      "queryId": "4XoCfSONVTY3lWGDSA8zFw",
+      "method": "POST",
+      "features": {}
+    },
     "AdsCategoriesMutation": {
       "url": "https://twitter.com/i/api/graphql/eRWyTnzFgPgv9D4W8ujf6A/AdsCategoriesMutation",
       "queryId": "eRWyTnzFgPgv9D4W8ujf6A",
@@ -3988,7 +3997,7 @@
     }
   },
   "header": {
-    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36",
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
     "authorization": "Bearer AAAAAAAAAAAAAAAAAAAAANRILgAAAAAAnNwIzUejRCOuH5E6I8xnZz4puTs%3D1Zv7ttfk8LF81IUq16cHjhLTvJu4FA33AGWWjCpTnA"
   }
 }
