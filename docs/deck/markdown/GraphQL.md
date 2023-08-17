@@ -148,7 +148,12 @@ Request Method: `POST`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-`None`<br>
+| key                        | type   | variable                                                         |
+|:---------------------------|:-------|:-----------------------------------------------------------------|
+| withCommunitiesMemberships | ...    | t.isTrue()                                                       |
+| withSubscribedTab          | ...    | t.isTrue("c9s_enabled")                                          |
+| withCommunitiesCreation    | ...    | t.isTrue("super_follow_subscriptions_home_timeline_tab_enabled") |
+
 #### features<br>
 `None`<br>
 #### queryId<br>
@@ -223,7 +228,13 @@ Request Method: `POST`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-`None`<br>
+| key          | type   | variable   |
+|:-------------|:-------|:-----------|
+| userId       | ...    | s          |
+| cursor       | ...    | a          |
+| context      | ...    | l          |
+| ...()(0,r.d) | ...    | _          |
+
 #### features<br>
 `None`<br>
 #### queryId<br>
@@ -310,7 +321,11 @@ Request Method: `POST`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-`None`<br>
+| key          | type   | variable   |
+|:-------------|:-------|:-----------|
+| ...i         | ...    | _          |
+| ...()(0,a.S) | ...    | _          |
+
 #### features<br>
 `None`<br>
 #### queryId<br>
@@ -1073,7 +1088,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## BirdwatchCreateNote<br>
-Request URL: `https://twitter.com/i/api/graphql/XyDsiC8GORsQe4df_ek8bA/BirdwatchCreateNote`<br>
+Request URL: `https://twitter.com/i/api/graphql/8VD4GzE4EJekPRHHJeWz-w/BirdwatchCreateNote`<br>
 Request Method: `POST`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -1082,6 +1097,7 @@ Login Required: `...`<br>
 #### features<br>
 | key                                                               | type    |   variable | default   |
 |:------------------------------------------------------------------|:--------|-----------:|:----------|
+| responsive_web_birdwatch_media_notes_enabled                      | boolean |          1 | nan       |
 | responsive_web_graphql_timeline_navigation_enabled                | boolean |          1 | nan       |
 | responsive_web_graphql_exclude_directive_enabled                  | boolean |          1 | nan       |
 | verified_phone_label_enabled                                      | ...     |        nan | error     |
@@ -1240,7 +1256,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## BirdwatchFetchNotes<br>
-Request URL: `https://twitter.com/i/api/graphql/o_AIinOqZr8Q84Jmv4V7fw/BirdwatchFetchNotes`<br>
+Request URL: `https://twitter.com/i/api/graphql/4L26HKTbh5dAI6qpaZWugA/BirdwatchFetchNotes`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -1249,6 +1265,7 @@ Login Required: `...`<br>
 #### features<br>
 | key                                                               | type    |   variable | default   |
 |:------------------------------------------------------------------|:--------|-----------:|:----------|
+| responsive_web_birdwatch_media_notes_enabled                      | boolean |          1 | nan       |
 | responsive_web_graphql_timeline_navigation_enabled                | boolean |          1 | nan       |
 | responsive_web_graphql_exclude_directive_enabled                  | boolean |          1 | nan       |
 | verified_phone_label_enabled                                      | ...     |        nan | error     |
@@ -1257,7 +1274,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## BirdwatchFetchOneNote<br>
-Request URL: `https://twitter.com/i/api/graphql/eSyONBAoN113xJNLeojIUg/BirdwatchFetchOneNote`<br>
+Request URL: `https://twitter.com/i/api/graphql/zC-GaIF273kQI27-SopcOw/BirdwatchFetchOneNote`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -1266,6 +1283,7 @@ Login Required: `...`<br>
 #### features<br>
 | key                                                               | type    |   variable | default   |
 |:------------------------------------------------------------------|:--------|-----------:|:----------|
+| responsive_web_birdwatch_media_notes_enabled                      | boolean |          1 | nan       |
 | responsive_web_graphql_timeline_navigation_enabled                | boolean |          1 | nan       |
 | responsive_web_graphql_exclude_directive_enabled                  | boolean |          1 | nan       |
 | verified_phone_label_enabled                                      | ...     |        nan | error     |
@@ -5195,10 +5213,16 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key                      | type   | variable   |
-|:-------------------------|:-------|:-----------|
-| userId                   | ...    | i          |
-| withSafetyModeUserFields | ...    | t.isTrue() |
+| key                    | type    | variable    |
+|:-----------------------|:--------|:------------|
+| userId                 | ...     | r           |
+| count                  | ...     | t           |
+| cursor                 | ...     | i           |
+| teamName               | ...     | n           |
+| includePromotedContent | boolean | False       |
+| ...()(0,a.d)           | ...     | _           |
+| withClientEventToken   | boolean | False       |
+| withVoice              | ...     | _.isTrue(_) |
 
 #### features<br>
 | key                                                                     | type    |   variable | default   |
@@ -8435,7 +8459,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## BirdwatchCreateNote<br>
-Request URL: `https://twitter.com/i/api/graphql/XyDsiC8GORsQe4df_ek8bA/BirdwatchCreateNote`<br>
+Request URL: `https://twitter.com/i/api/graphql/8VD4GzE4EJekPRHHJeWz-w/BirdwatchCreateNote`<br>
 Request Method: `POST`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -8444,6 +8468,7 @@ Login Required: `...`<br>
 #### features<br>
 | key                                                               | type    |   variable | default   |
 |:------------------------------------------------------------------|:--------|-----------:|:----------|
+| responsive_web_birdwatch_media_notes_enabled                      | boolean |          1 | nan       |
 | responsive_web_graphql_timeline_navigation_enabled                | boolean |          1 | nan       |
 | responsive_web_graphql_exclude_directive_enabled                  | boolean |          1 | nan       |
 | verified_phone_label_enabled                                      | ...     |        nan | error     |
@@ -8602,7 +8627,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## BirdwatchFetchNotes<br>
-Request URL: `https://twitter.com/i/api/graphql/o_AIinOqZr8Q84Jmv4V7fw/BirdwatchFetchNotes`<br>
+Request URL: `https://twitter.com/i/api/graphql/4L26HKTbh5dAI6qpaZWugA/BirdwatchFetchNotes`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -8611,6 +8636,7 @@ Login Required: `...`<br>
 #### features<br>
 | key                                                               | type    |   variable | default   |
 |:------------------------------------------------------------------|:--------|-----------:|:----------|
+| responsive_web_birdwatch_media_notes_enabled                      | boolean |          1 | nan       |
 | responsive_web_graphql_timeline_navigation_enabled                | boolean |          1 | nan       |
 | responsive_web_graphql_exclude_directive_enabled                  | boolean |          1 | nan       |
 | verified_phone_label_enabled                                      | ...     |        nan | error     |
@@ -8619,7 +8645,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## BirdwatchFetchOneNote<br>
-Request URL: `https://twitter.com/i/api/graphql/eSyONBAoN113xJNLeojIUg/BirdwatchFetchOneNote`<br>
+Request URL: `https://twitter.com/i/api/graphql/zC-GaIF273kQI27-SopcOw/BirdwatchFetchOneNote`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -8628,6 +8654,7 @@ Login Required: `...`<br>
 #### features<br>
 | key                                                               | type    |   variable | default   |
 |:------------------------------------------------------------------|:--------|-----------:|:----------|
+| responsive_web_birdwatch_media_notes_enabled                      | boolean |          1 | nan       |
 | responsive_web_graphql_timeline_navigation_enabled                | boolean |          1 | nan       |
 | responsive_web_graphql_exclude_directive_enabled                  | boolean |          1 | nan       |
 | verified_phone_label_enabled                                      | ...     |        nan | error     |
@@ -12385,10 +12412,16 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key                      | type   | variable   |
-|:-------------------------|:-------|:-----------|
-| userId                   | ...    | i          |
-| withSafetyModeUserFields | ...    | t.isTrue() |
+| key                    | type    | variable    |
+|:-----------------------|:--------|:------------|
+| userId                 | ...     | r           |
+| count                  | ...     | t           |
+| cursor                 | ...     | i           |
+| teamName               | ...     | n           |
+| includePromotedContent | boolean | False       |
+| ...()(0,a.d)           | ...     | _           |
+| withClientEventToken   | boolean | False       |
+| withVoice              | ...     | _.isTrue(_) |
 
 #### features<br>
 | key                                                                     | type    |   variable | default   |
@@ -12984,6 +13017,17 @@ Login Required: `...`<br>
 `None`<br>
 #### queryId<br>
 `None`<br>
+## TargetingKeywordsQuery<br>
+Request URL: `https://twitter.com/i/api/graphql/8Sm_SjESFOaQfO9tUJHB2A/TargetingKeywordsQuery`<br>
+Request Method: `GET`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
 ## DelegatedAccountListQuery<br>
 Request URL: `https://twitter.com/i/api/graphql/JLJ7DuNkbMTyl96zVOtH0Q/DelegatedAccountListQuery`<br>
 Request Method: `GET`<br>
@@ -13017,17 +13061,6 @@ Login Required: `...`<br>
 `None`<br>
 #### queryId<br>
 `None`<br>
-## DMMessageDeleteMutation<br>
-Request URL: `https://twitter.com/i/api/graphql/BJ6DtxA2llfjnRoRjaiIiw/DMMessageDeleteMutation`<br>
-Request Method: `POST`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-`None`<br>
-#### queryId<br>
-`None`<br>
 ## useDMReactionMutationAddMutation<br>
 Request URL: `https://twitter.com/i/api/graphql/VyDyV9pC2oZEj6g52hgnhA/useDMReactionMutationAddMutation`<br>
 Request Method: `POST`<br>
@@ -13041,6 +13074,17 @@ Login Required: `...`<br>
 `None`<br>
 ## useDMReactionMutationRemoveMutation<br>
 Request URL: `https://twitter.com/i/api/graphql/bV_Nim3RYHsaJwMkTXJ6ew/useDMReactionMutationRemoveMutation`<br>
+Request Method: `POST`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
+## DMMessageDeleteMutation<br>
+Request URL: `https://twitter.com/i/api/graphql/BJ6DtxA2llfjnRoRjaiIiw/DMMessageDeleteMutation`<br>
 Request Method: `POST`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -13236,28 +13280,6 @@ Login Required: `...`<br>
 
 #### queryId<br>
 `None`<br>
-## useDMReactionMutationAddMutation<br>
-Request URL: `https://twitter.com/i/api/graphql/VyDyV9pC2oZEj6g52hgnhA/useDMReactionMutationAddMutation`<br>
-Request Method: `POST`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-`None`<br>
-#### queryId<br>
-`None`<br>
-## useDMReactionMutationRemoveMutation<br>
-Request URL: `https://twitter.com/i/api/graphql/bV_Nim3RYHsaJwMkTXJ6ew/useDMReactionMutationRemoveMutation`<br>
-Request Method: `POST`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-`None`<br>
-#### queryId<br>
-`None`<br>
 ## AccountAnalyticsQuery<br>
 Request URL: `https://twitter.com/i/api/graphql/SNB2czvgQ4DY-zI7FQ3VkQ/AccountAnalyticsQuery`<br>
 Request Method: `GET`<br>
@@ -13330,12 +13352,7 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key              | type   | variable   |
-|:-----------------|:-------|:-----------|
-| twitterArticleId | ...    | s          |
-| title            | ...    | l          |
-| ...()(0,a.d)     | ...    | _          |
-
+`None`<br>
 #### features<br>
 `None`<br>
 #### queryId<br>
@@ -13500,17 +13517,6 @@ Login Required: `...`<br>
 `None`<br>
 ## moderatorsSliceTimeline_Query<br>
 Request URL: `https://twitter.com/i/api/graphql/0MgU66yLfLlhaNQDFfQwzA/moderatorsSliceTimeline_Query`<br>
-Request Method: `GET`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-`None`<br>
-#### queryId<br>
-`None`<br>
-## TargetingKeywordsQuery<br>
-Request URL: `https://twitter.com/i/api/graphql/8Sm_SjESFOaQfO9tUJHB2A/TargetingKeywordsQuery`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -13693,6 +13699,17 @@ Login Required: `...`<br>
 `None`<br>
 ## IDVerificationUpdateHideLabelMutation<br>
 Request URL: `https://twitter.com/i/api/graphql/lqIzyQL1p3XCZg77zekzZA/IDVerificationUpdateHideLabelMutation`<br>
+Request Method: `POST`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
+## useIDVerificationSessionUrlMutation<br>
+Request URL: `https://twitter.com/i/api/graphql/4XoCfSONVTY3lWGDSA8zFw/useIDVerificationSessionUrlMutation`<br>
 Request Method: `POST`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -14194,7 +14211,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## UpdateProfileSpotlightVisibilityMutation<br>
-Request URL: `https://twitter.com/i/api/graphql/YX7Kg2aCjrhzu8STGd5L2w/UpdateProfileSpotlightVisibilityMutation`<br>
+Request URL: `https://twitter.com/i/api/graphql/jxDCj3E6BYHF7D12Oc6uOw/UpdateProfileSpotlightVisibilityMutation`<br>
 Request Method: `POST`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -14216,7 +14233,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## useCreateLocationSpotlightMutation<br>
-Request URL: `https://twitter.com/i/api/graphql/RJUArKmr8Yz7iOXtSbWDIg/useCreateLocationSpotlightMutation`<br>
+Request URL: `https://twitter.com/i/api/graphql/pQhzUuxgluxKA5-hV2UwPQ/useCreateLocationSpotlightMutation`<br>
 Request Method: `POST`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -14227,7 +14244,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## useDeleteLocationSpotlightMutation<br>
-Request URL: `https://twitter.com/i/api/graphql/0Jj1xwvz2ATm467fPkAY5w/useDeleteLocationSpotlightMutation`<br>
+Request URL: `https://twitter.com/i/api/graphql/35My5bYhbQIcMKFxZ3O1aA/useDeleteLocationSpotlightMutation`<br>
 Request Method: `POST`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -14249,7 +14266,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## useUpdateLocationSpotlightMutation<br>
-Request URL: `https://twitter.com/i/api/graphql/jNOiWTRw6B_3XqmnSR7iEA/useUpdateLocationSpotlightMutation`<br>
+Request URL: `https://twitter.com/i/api/graphql/gpWUzKGvClKRtduX-Edfpg/useUpdateLocationSpotlightMutation`<br>
 Request Method: `POST`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -14384,7 +14401,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## UserJobListQueryScreenJobsQuery<br>
-Request URL: `https://twitter.com/i/api/graphql/aj_-2oD5RLqnrJn2hlRK-w/UserJobListQueryScreenJobsQuery`<br>
+Request URL: `https://twitter.com/i/api/graphql/eEXpbnXZmCIl67p0hEbb2Q/UserJobListQueryScreenJobsQuery`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -14553,7 +14570,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## ProfileSpotlightsQuery<br>
-Request URL: `https://twitter.com/i/api/graphql/ziyNBx5AoF5FLtyv7tqS4w/ProfileSpotlightsQuery`<br>
+Request URL: `https://twitter.com/i/api/graphql/_pnlqeTOtnpbIL9o-fS_pg/ProfileSpotlightsQuery`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
