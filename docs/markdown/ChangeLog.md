@@ -1597,3 +1597,14 @@
 - responsive_web_opengraph_image_tweet_copy_1<br>
 - responsive_web_opengraph_video_tweet_copy_1<br>
 - responsive_web_ssr_verified_crawler_rux_injections_enabled<br>
+## 2023/08/17<br>
+### API<br>
+#### add<br>
+- ProfileSpotlights_EditableProfileSpotlightsQuery<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- responsive_web_tweetdeck_menu_item_enabled<br>
+#### remove<br>
+- explore_relaunch_enable_immersive_web_navigation_button<br>
