@@ -13495,6 +13495,17 @@ Login Required: `...`<br>
 
 #### queryId<br>
 `None`<br>
+## TargetingKeywordsQuery<br>
+Request URL: `https://twitter.com/i/api/graphql/8Sm_SjESFOaQfO9tUJHB2A/TargetingKeywordsQuery`<br>
+Request Method: `GET`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
 ## AccountSwitcherDelegateQuery<br>
 Request URL: `https://twitter.com/i/api/graphql/1gowCMPzY09WyApNQM68kA/AccountSwitcherDelegateQuery`<br>
 Request Method: `GET`<br>
@@ -13984,17 +13995,6 @@ Login Required: `...`<br>
 `None`<br>
 ## moderatorsSliceTimeline_Query<br>
 Request URL: `https://twitter.com/i/api/graphql/0MgU66yLfLlhaNQDFfQwzA/moderatorsSliceTimeline_Query`<br>
-Request Method: `GET`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-`None`<br>
-#### queryId<br>
-`None`<br>
-## TargetingKeywordsQuery<br>
-Request URL: `https://twitter.com/i/api/graphql/8Sm_SjESFOaQfO9tUJHB2A/TargetingKeywordsQuery`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -14688,6 +14688,17 @@ Login Required: `...`<br>
 
 #### queryId<br>
 `None`<br>
+## ProfileSpotlights_EditableProfileSpotlightsQuery<br>
+Request URL: `https://twitter.com/i/api/graphql/rDGLKxjaiBYOL9AUgJtTKw/ProfileSpotlights_EditableProfileSpotlightsQuery`<br>
+Request Method: `GET`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
 ## LocationSpotlightQuery<br>
 Request URL: `https://twitter.com/i/api/graphql/PtT7DMn9eI8yFh-jkG-fGg/LocationSpotlightQuery`<br>
 Request Method: `GET`<br>
@@ -14700,7 +14711,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## useCreateLocationSpotlightMutation<br>
-Request URL: `https://twitter.com/i/api/graphql/RJUArKmr8Yz7iOXtSbWDIg/useCreateLocationSpotlightMutation`<br>
+Request URL: `https://twitter.com/i/api/graphql/pQhzUuxgluxKA5-hV2UwPQ/useCreateLocationSpotlightMutation`<br>
 Request Method: `POST`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -14711,7 +14722,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## useDeleteLocationSpotlightMutation<br>
-Request URL: `https://twitter.com/i/api/graphql/0Jj1xwvz2ATm467fPkAY5w/useDeleteLocationSpotlightMutation`<br>
+Request URL: `https://twitter.com/i/api/graphql/35My5bYhbQIcMKFxZ3O1aA/useDeleteLocationSpotlightMutation`<br>
 Request Method: `POST`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -14733,7 +14744,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## useUpdateLocationSpotlightMutation<br>
-Request URL: `https://twitter.com/i/api/graphql/jNOiWTRw6B_3XqmnSR7iEA/useUpdateLocationSpotlightMutation`<br>
+Request URL: `https://twitter.com/i/api/graphql/gpWUzKGvClKRtduX-Edfpg/useUpdateLocationSpotlightMutation`<br>
 Request Method: `POST`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -14868,7 +14879,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## UserJobListQueryScreenJobsQuery<br>
-Request URL: `https://twitter.com/i/api/graphql/aj_-2oD5RLqnrJn2hlRK-w/UserJobListQueryScreenJobsQuery`<br>
+Request URL: `https://twitter.com/i/api/graphql/eEXpbnXZmCIl67p0hEbb2Q/UserJobListQueryScreenJobsQuery`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -15037,7 +15048,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## ProfileSpotlightsQuery<br>
-Request URL: `https://twitter.com/i/api/graphql/ziyNBx5AoF5FLtyv7tqS4w/ProfileSpotlightsQuery`<br>
+Request URL: `https://twitter.com/i/api/graphql/_pnlqeTOtnpbIL9o-fS_pg/ProfileSpotlightsQuery`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>

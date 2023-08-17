@@ -905,3 +905,20 @@
 - web_video_player_size_cap_disabled<br>
 - web_video_prefetch_playlist_autoplay_disabled<br>
 - web_video_transcribed_captions_enabled<br>
+## 2023/08/17<br>
+### API<br>
+#### add<br>
+- useIDVerificationSessionUrlMutation<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- gryphon_blue_only_enabled<br>
+- identity_verification_consent_opt_in_by_default_enabled<br>
+- responsive_web_tweetdeck_menu_item_enabled<br>
+#### remove<br>
+- dm_verified_allow_dms_from_setting_enabled<br>
+- explore_relaunch_enable_immersive_web_navigation_button<br>
+- responsive_web_opengraph_image_tweet_copy_1<br>
+- responsive_web_opengraph_video_tweet_copy_1<br>
+- responsive_web_ssr_verified_crawler_rux_injections_enabled<br>

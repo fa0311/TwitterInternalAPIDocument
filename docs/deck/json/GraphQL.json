@@ -25,7 +25,10 @@
         "fieldToggles": [],
         "featureSwitch": {}
       }
-    }
+    },
+    "func_name": "p",
+    "func_name_init": "b",
+    "query": {}
   },
   {
     "n": "08378",
@@ -162,6 +165,13 @@
         "fieldToggles": [],
         "featureSwitch": {}
       }
+    },
+    "func_name": "k",
+    "func_name_init": "f",
+    "query": {
+      "withCommunitiesMemberships": "t.isTrue()",
+      "withSubscribedTab": "t.isTrue(\"c9s_enabled\")",
+      "withCommunitiesCreation": "t.isTrue(\"super_follow_subscriptions_home_timeline_tab_enabled\")"
     }
   },
   {
@@ -286,6 +296,14 @@
         "fieldToggles": [],
         "featureSwitch": {}
       }
+    },
+    "func_name": "I",
+    "func_name_init": "P",
+    "query": {
+      "userId": "s",
+      "cursor": "a",
+      "context": "l",
+      "...()(0,r.d)": "_"
     }
   },
   {
@@ -427,6 +445,12 @@
         "fieldToggles": [],
         "featureSwitch": {}
       }
+    },
+    "func_name": "V",
+    "func_name_init": "j",
+    "query": {
+      "...i": "_",
+      "...()(0,a.S)": "_"
     }
   },
   {
@@ -2000,11 +2024,12 @@
   {
     "n": "04095",
     "exports": {
-      "queryId": "XyDsiC8GORsQe4df_ek8bA",
+      "queryId": "8VD4GzE4EJekPRHHJeWz-w",
       "operationName": "BirdwatchCreateNote",
       "operationType": "mutation",
       "metadata": {
         "featureSwitches": [
+          "responsive_web_birdwatch_media_notes_enabled",
           "responsive_web_graphql_timeline_navigation_enabled",
           "responsive_web_graphql_exclude_directive_enabled",
           "verified_phone_label_enabled",
@@ -2014,6 +2039,9 @@
           "withAuxiliaryUserLabels"
         ],
         "featureSwitch": {
+          "responsive_web_birdwatch_media_notes_enabled": {
+            "value": "true"
+          },
           "responsive_web_graphql_timeline_navigation_enabled": {
             "value": "true"
           },
@@ -2250,11 +2278,12 @@
   {
     "n": "10957",
     "exports": {
-      "queryId": "o_AIinOqZr8Q84Jmv4V7fw",
+      "queryId": "4L26HKTbh5dAI6qpaZWugA",
       "operationName": "BirdwatchFetchNotes",
       "operationType": "query",
       "metadata": {
         "featureSwitches": [
+          "responsive_web_birdwatch_media_notes_enabled",
           "responsive_web_graphql_timeline_navigation_enabled",
           "responsive_web_graphql_exclude_directive_enabled",
           "verified_phone_label_enabled",
@@ -2264,6 +2293,9 @@
           "withAuxiliaryUserLabels"
         ],
         "featureSwitch": {
+          "responsive_web_birdwatch_media_notes_enabled": {
+            "value": "true"
+          },
           "responsive_web_graphql_timeline_navigation_enabled": {
             "value": "true"
           },
@@ -2277,11 +2309,12 @@
   {
     "n": "38389",
     "exports": {
-      "queryId": "eSyONBAoN113xJNLeojIUg",
+      "queryId": "zC-GaIF273kQI27-SopcOw",
       "operationName": "BirdwatchFetchOneNote",
       "operationType": "query",
       "metadata": {
         "featureSwitches": [
+          "responsive_web_birdwatch_media_notes_enabled",
           "responsive_web_graphql_timeline_navigation_enabled",
           "responsive_web_graphql_exclude_directive_enabled",
           "verified_phone_label_enabled",
@@ -2291,6 +2324,9 @@
           "withAuxiliaryUserLabels"
         ],
         "featureSwitch": {
+          "responsive_web_birdwatch_media_notes_enabled": {
+            "value": "true"
+          },
           "responsive_web_graphql_timeline_navigation_enabled": {
             "value": "true"
           },
@@ -10959,8 +10995,14 @@
     "func_name": "b",
     "func_name_init": "p",
     "query": {
-      "userId": "i",
-      "withSafetyModeUserFields": "t.isTrue()"
+      "userId": "r",
+      "count": "t",
+      "cursor": "i",
+      "teamName": "n",
+      "includePromotedContent": "!1",
+      "...()(0,a.d)": "_",
+      "withClientEventToken": "!1",
+      "withVoice": "_.isTrue(_)"
     }
   },
   {
@@ -17520,11 +17562,12 @@
   {
     "n": "04095",
     "exports": {
-      "queryId": "XyDsiC8GORsQe4df_ek8bA",
+      "queryId": "8VD4GzE4EJekPRHHJeWz-w",
       "operationName": "BirdwatchCreateNote",
       "operationType": "mutation",
       "metadata": {
         "featureSwitches": [
+          "responsive_web_birdwatch_media_notes_enabled",
           "responsive_web_graphql_timeline_navigation_enabled",
           "responsive_web_graphql_exclude_directive_enabled",
           "verified_phone_label_enabled",
@@ -17534,6 +17577,9 @@
           "withAuxiliaryUserLabels"
         ],
         "featureSwitch": {
+          "responsive_web_birdwatch_media_notes_enabled": {
+            "value": "true"
+          },
           "responsive_web_graphql_timeline_navigation_enabled": {
             "value": "true"
           },
@@ -17770,11 +17816,12 @@
   {
     "n": "10957",
     "exports": {
-      "queryId": "o_AIinOqZr8Q84Jmv4V7fw",
+      "queryId": "4L26HKTbh5dAI6qpaZWugA",
       "operationName": "BirdwatchFetchNotes",
       "operationType": "query",
       "metadata": {
         "featureSwitches": [
+          "responsive_web_birdwatch_media_notes_enabled",
           "responsive_web_graphql_timeline_navigation_enabled",
           "responsive_web_graphql_exclude_directive_enabled",
           "verified_phone_label_enabled",
@@ -17784,6 +17831,9 @@
           "withAuxiliaryUserLabels"
         ],
         "featureSwitch": {
+          "responsive_web_birdwatch_media_notes_enabled": {
+            "value": "true"
+          },
           "responsive_web_graphql_timeline_navigation_enabled": {
             "value": "true"
           },
@@ -17797,11 +17847,12 @@
   {
     "n": "38389",
     "exports": {
-      "queryId": "eSyONBAoN113xJNLeojIUg",
+      "queryId": "zC-GaIF273kQI27-SopcOw",
       "operationName": "BirdwatchFetchOneNote",
       "operationType": "query",
       "metadata": {
         "featureSwitches": [
+          "responsive_web_birdwatch_media_notes_enabled",
           "responsive_web_graphql_timeline_navigation_enabled",
           "responsive_web_graphql_exclude_directive_enabled",
           "verified_phone_label_enabled",
@@ -17811,6 +17862,9 @@
           "withAuxiliaryUserLabels"
         ],
         "featureSwitch": {
+          "responsive_web_birdwatch_media_notes_enabled": {
+            "value": "true"
+          },
           "responsive_web_graphql_timeline_navigation_enabled": {
             "value": "true"
           },
@@ -25278,8 +25332,14 @@
     "func_name": "b",
     "func_name_init": "p",
     "query": {
-      "userId": "i",
-      "withSafetyModeUserFields": "t.isTrue()"
+      "userId": "r",
+      "count": "t",
+      "cursor": "i",
+      "teamName": "n",
+      "includePromotedContent": "!1",
+      "...()(0,a.d)": "_",
+      "withClientEventToken": "!1",
+      "withVoice": "_.isTrue(_)"
     }
   },
   {
@@ -26409,6 +26469,18 @@
     }
   },
   {
+    "n": "74237",
+    "exports": {
+      "queryId": "8Sm_SjESFOaQfO9tUJHB2A",
+      "operationName": "TargetingKeywordsQuery",
+      "operationType": "query",
+      "metadata": {
+        "featureSwitches": [],
+        "featureSwitch": {}
+      }
+    }
+  },
+  {
     "n": "73792",
     "exports": {
       "queryId": "JLJ7DuNkbMTyl96zVOtH0Q",
@@ -26445,18 +26517,6 @@
     }
   },
   {
-    "n": "87117",
-    "exports": {
-      "queryId": "BJ6DtxA2llfjnRoRjaiIiw",
-      "operationName": "DMMessageDeleteMutation",
-      "operationType": "mutation",
-      "metadata": {
-        "featureSwitches": [],
-        "featureSwitch": {}
-      }
-    }
-  },
-  {
     "n": "51740",
     "exports": {
       "queryId": "VyDyV9pC2oZEj6g52hgnhA",
@@ -26473,6 +26533,18 @@
     "exports": {
       "queryId": "bV_Nim3RYHsaJwMkTXJ6ew",
       "operationName": "useDMReactionMutationRemoveMutation",
+      "operationType": "mutation",
+      "metadata": {
+        "featureSwitches": [],
+        "featureSwitch": {}
+      }
+    }
+  },
+  {
+    "n": "87117",
+    "exports": {
+      "queryId": "BJ6DtxA2llfjnRoRjaiIiw",
+      "operationName": "DMMessageDeleteMutation",
       "operationType": "mutation",
       "metadata": {
         "featureSwitches": [],
@@ -26722,30 +26794,6 @@
     }
   },
   {
-    "n": "51740",
-    "exports": {
-      "queryId": "VyDyV9pC2oZEj6g52hgnhA",
-      "operationName": "useDMReactionMutationAddMutation",
-      "operationType": "mutation",
-      "metadata": {
-        "featureSwitches": [],
-        "featureSwitch": {}
-      }
-    }
-  },
-  {
-    "n": "62718",
-    "exports": {
-      "queryId": "bV_Nim3RYHsaJwMkTXJ6ew",
-      "operationName": "useDMReactionMutationRemoveMutation",
-      "operationType": "mutation",
-      "metadata": {
-        "featureSwitches": [],
-        "featureSwitch": {}
-      }
-    }
-  },
-  {
     "n": "14558",
     "exports": {
       "queryId": "SNB2czvgQ4DY-zI7FQ3VkQ",
@@ -26827,13 +26875,6 @@
         "featureSwitches": [],
         "featureSwitch": {}
       }
-    },
-    "func_name": "S",
-    "func_name_init": "k",
-    "query": {
-      "twitterArticleId": "s",
-      "title": "l",
-      "...()(0,a.d)": "_"
     }
   },
   {
@@ -27012,18 +27053,6 @@
     "exports": {
       "queryId": "0MgU66yLfLlhaNQDFfQwzA",
       "operationName": "moderatorsSliceTimeline_Query",
-      "operationType": "query",
-      "metadata": {
-        "featureSwitches": [],
-        "featureSwitch": {}
-      }
-    }
-  },
-  {
-    "n": "74237",
-    "exports": {
-      "queryId": "8Sm_SjESFOaQfO9tUJHB2A",
-      "operationName": "TargetingKeywordsQuery",
       "operationType": "query",
       "metadata": {
         "featureSwitches": [],
@@ -27224,6 +27253,18 @@
     "exports": {
       "queryId": "lqIzyQL1p3XCZg77zekzZA",
       "operationName": "IDVerificationUpdateHideLabelMutation",
+      "operationType": "mutation",
+      "metadata": {
+        "featureSwitches": [],
+        "featureSwitch": {}
+      }
+    }
+  },
+  {
+    "n": "45755",
+    "exports": {
+      "queryId": "4XoCfSONVTY3lWGDSA8zFw",
+      "operationName": "useIDVerificationSessionUrlMutation",
       "operationType": "mutation",
       "metadata": {
         "featureSwitches": [],
@@ -27775,7 +27816,7 @@
   {
     "n": "56683",
     "exports": {
-      "queryId": "YX7Kg2aCjrhzu8STGd5L2w",
+      "queryId": "jxDCj3E6BYHF7D12Oc6uOw",
       "operationName": "UpdateProfileSpotlightVisibilityMutation",
       "operationType": "mutation",
       "metadata": {
@@ -27799,7 +27840,7 @@
   {
     "n": "77225",
     "exports": {
-      "queryId": "RJUArKmr8Yz7iOXtSbWDIg",
+      "queryId": "pQhzUuxgluxKA5-hV2UwPQ",
       "operationName": "useCreateLocationSpotlightMutation",
       "operationType": "mutation",
       "metadata": {
@@ -27811,7 +27852,7 @@
   {
     "n": "07893",
     "exports": {
-      "queryId": "0Jj1xwvz2ATm467fPkAY5w",
+      "queryId": "35My5bYhbQIcMKFxZ3O1aA",
       "operationName": "useDeleteLocationSpotlightMutation",
       "operationType": "mutation",
       "metadata": {
@@ -27835,7 +27876,7 @@
   {
     "n": "48958",
     "exports": {
-      "queryId": "jNOiWTRw6B_3XqmnSR7iEA",
+      "queryId": "gpWUzKGvClKRtduX-Edfpg",
       "operationName": "useUpdateLocationSpotlightMutation",
       "operationType": "mutation",
       "metadata": {
@@ -27981,7 +28022,7 @@
   {
     "n": "77884",
     "exports": {
-      "queryId": "aj_-2oD5RLqnrJn2hlRK-w",
+      "queryId": "eEXpbnXZmCIl67p0hEbb2Q",
       "operationName": "UserJobListQueryScreenJobsQuery",
       "operationType": "query",
       "metadata": {
@@ -28219,7 +28260,7 @@
   {
     "n": "74854",
     "exports": {
-      "queryId": "ziyNBx5AoF5FLtyv7tqS4w",
+      "queryId": "_pnlqeTOtnpbIL9o-fS_pg",
       "operationName": "ProfileSpotlightsQuery",
       "operationType": "query",
       "metadata": {
