@@ -171,6 +171,7 @@ if DEBUG:
         "debug/i18n_response.json",
         json.dumps(i18n_response, **dumps_args),
     )
+    logging.info("debug is completed")
 
 # === OUTPUT ===
 output_dir = OUTPUT_DIR if OUTPUT_DIR[-1] == "/" else f"{OUTPUT_DIR}/"

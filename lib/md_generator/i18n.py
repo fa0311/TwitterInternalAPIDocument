@@ -20,23 +20,23 @@ def get_i18n(i18n_response: str):
 def i18n_format(script):
     output = re.sub(
         "{join_first}{name}\(e\.{placeholder},{any}\){join_last}".format(
-            join_first="((\"|')\+)?",
-            join_last="(\+(\"|'))?",
+            join_first="(\+)?",
+            join_last="(\+)?",
             name="([a-z])",
             any="([\s\S]*?)",
-            placeholder="([A-Za-z0-9]*)",
+            placeholder="([A-Za-z0-9_]*)",
         ),
-        r"({\4},\5)",
+        r"({\3},\4)",
         script,
     )
     output = re.sub(
         "{join_first}e\.{placeholder}{join_last}".format(
-            join_first="((\"|')\+)?",
-            join_last="(\+(\"|'))?",
-            placeholder="([A-Za-z0-9]*)",
+            join_first="(\+)?",
+            join_last="(\+)?",
+            placeholder="([A-Za-z0-9_]*)",
         ),
-        r"{\3}",
+        r"{\2}",
         output,
     )
 
-    return output.replace('"', "")
+    return output.replace('"', "").replace("'", "")
