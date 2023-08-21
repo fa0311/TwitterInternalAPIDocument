@@ -23,7 +23,9 @@
         "OUTPUT_DIR": "docs",
         "SCAN_TYPE": "Full",
         "TQDM_DISABLE": "False",
-        "LOGGING_LEVEL": "Into"
+        "LOGGING_LEVEL": "Into",
+        "CACHE": "True",
+        "GRAPHQL_CACHE": "True"
       }
     },
     {
@@ -40,7 +42,9 @@
         "OUTPUT_DIR": "docs/deck",
         "SCAN_TYPE": "Full",
         "TQDM_DISABLE": "False",
-        "LOGGING_LEVEL": "Into"
+        "LOGGING_LEVEL": "Into",
+        "CACHE": "True",
+        "GRAPHQL_CACHE": "True"
       }
     }
   ]

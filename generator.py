@@ -28,6 +28,8 @@ REPOSITORY = os.environ.get("REPOSITORY", None)
 SCAN_TYPE = os.environ.get("SCAN_TYPE", "Full")
 TQDM_DISABLE = os.environ.get("TQDM_DISABLE", "False") == "True"
 LOGGING_LEVEL = os.environ.get("LOGGING_LEVEL", "Into").upper()
+CACHE = os.environ.get("CACHE", "False") == "True"
+GRAPHQL_CACHE = os.environ.get("GRAPHQL_CACHE", "False") == "True"
 
 coloredlogs.install(
     level=logging.getLevelName(LOGGING_LEVEL),
@@ -92,17 +94,27 @@ logging.info("script decode is completed")
 
 # === Road ===
 
-response = "".join(
-    [twitter.session.get(s, headers=twitter.get_header()).text for s in tqdm(src)]
-)
-parsed_list = js(response).parser()
-logging.info("script loading is completed")
+if CACHE:
+    response = read("debug/script_response.txt")
+    logging.info("script loading is completed")
+    i18n_response = json.loads(read("debug/i18n_response.json"))
+    logging.info("i18n loading is completed")
 
-i18n_response = {
-    k: twitter.session.get(s, headers=twitter.get_header()).text
-    for k, s in tqdm(i18n_src.items())
-}
-logging.info("i18n loading is completed")
+else:
+    response = "".join(
+        [twitter.session.get(s, headers=twitter.get_header()).text for s in tqdm(src)]
+    )
+    logging.info("script loading is completed")
+
+    i18n_response = {
+        k: twitter.session.get(s, headers=twitter.get_header()).text
+        for k, s in tqdm(i18n_src.items())
+    }
+    logging.info("i18n loading is completed")
+
+
+parsed_list = js(response).parser()
+logging.info("script parser is completed")
 
 # === Parse ===
 
@@ -112,11 +124,16 @@ header.update(
         "authorization": "Bearer AAAAAAAAAAAAAAAAAAAAANRILgAAAAAAnNwIzUejRCOuH5E6I8xnZz4puTs%3D1Zv7ttfk8LF81IUq16cHjhLTvJu4FA33AGWWjCpTnA"
     }
 )
+if GRAPHQL_CACHE:
+    output_dir = OUTPUT_DIR if OUTPUT_DIR[-1] == "/" else f"{OUTPUT_DIR}/"
+    graphql_output = json.loads(read(f"{output_dir}{FileConf.GRAPH_QL_JSON}"))
+    logging.info("graphql loading is completed")
+else:
+    graphql_output = get_graphql(parsed_list)
+    logging.info("get_graphql is completed")
+    graphql_output = marge_exports(parsed_list, graphql_output)
+    logging.info("marge_exports is completed")
 
-graphql_output = get_graphql(parsed_list)
-logging.info("get_graphql is completed")
-graphql_output = marge_exports(parsed_list, graphql_output)
-logging.info("marge_exports is completed")
 feature_switch = marge_feature_switch(initial_output)
 logging.info("marge_exports is completed")
 graphql_output = marge_metadata(graphql_output, feature_switch)
@@ -139,6 +156,10 @@ logging.info("get_i18n is completed")
 if DEBUG:
     os.makedirs("debug", exist_ok=True)
     write(
+        "debug/script_response.txt",
+        response,
+    )
+    write(
         "debug/parsed_list.json",
         json.dumps(parsed_list.to_list(), **dumps_args),
     )
@@ -150,6 +171,7 @@ if DEBUG:
         "debug/i18n_response.json",
         json.dumps(i18n_response, **dumps_args),
     )
+    logging.info("debug is completed")
 
 # === OUTPUT ===
 output_dir = OUTPUT_DIR if OUTPUT_DIR[-1] == "/" else f"{OUTPUT_DIR}/"
