@@ -66,13 +66,11 @@ initial_output = json.loads(json_parser(initial_state))
 meta_data = search_js(parsed_script_list, ";window.__META_DATA__=")[0].after
 meta_output = json.loads(json_parser(meta_data))
 
-script_load_data = search_js_reg(parsed_script_list, "Promise.all")[0].after
-script_load_json = json.loads(json_parser(script_load_data))
+output_dir = OUTPUT_DIR if OUTPUT_DIR[-1] == "/" else f"{OUTPUT_DIR}/"
+script_load_json = json.loads(read(f"{output_dir}{FileConf.SCRIPT_LOAD_JSON}"))
 script_load_output = {}
 base_url = "https://abs.twimg.com/{0}/client-web/".format(twitter.CLIENT)
-for k in script_load_json:
-    url = "{0}{1}.{2}a.js".format(base_url, k, script_load_json[k])
-    script_load_output[k] = url
+for k, url in script_load_json.items():
     if k.startswith("i18n"):
         i18n_src[k] = url
     elif SCAN_TYPE == "Full":
