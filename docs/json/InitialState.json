@@ -81,6 +81,11 @@
       "errors": {},
       "fetchStatus": {}
     },
+    "translationsProfiles": {
+      "entities": {},
+      "errors": {},
+      "fetchStatus": {}
+    },
     "imageCache": {
       "entities": {},
       "errors": {},
@@ -107,11 +112,6 @@
       "fetchStatus": {}
     },
     "phoneNumberValidity": {
-      "entities": {},
-      "errors": {},
-      "fetchStatus": {}
-    },
-    "translationsProfiles": {
       "entities": {},
       "errors": {},
       "fetchStatus": {}
@@ -3235,18 +3235,10 @@
           "value": "true"
         },
         "responsive_web_reply_nudge_copy_version": {
-          "value": "1"
-        },
-        "responsive_web_reply_nudge_enabled": {
-          "value": "true"
-        },
-        "responsive_web_reply_nudge_show_nudge": {
-          "value": "true"
+          "value": "0"
         },
         "responsive_web_reply_nudge_supported_languages": {
-          "value": [
-            "en"
-          ]
+          "value": []
         },
         "responsive_web_search_home_page_design_variation": {
           "value": ""
@@ -4009,6 +4001,9 @@
         "voice_rooms_typeahead_audiospace_ring_enabled": {
           "value": "true"
         },
+        "web_image_large_webp_variants": {
+          "value": "true"
+        },
         "web_video_caption_repositioning_enabled": {
           "value": "true"
         },
@@ -4037,7 +4032,7 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "b3870371e2dd339574febb64d5352cf7"
+      "settingsVersion": "ff2133730244541736c5cf7d8054236f"
     },
     "debug": {},
     "featureSetToken": "1a89e8f8d0fa1e2a1c3f8c77fb8a084926dae097",
@@ -4110,7 +4105,7 @@
     "country": "US",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "169262888395380812",
+    "guestId": "169265200321716249",
     "hasCommunityMemberships": "false",
     "language": "en",
     "oneFactorLoginEligibility": {
