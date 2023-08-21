@@ -108,8 +108,6 @@ def i18n_format_1(script):
 
 
 def i18n_format_2(script):
-    if "Search instead for" in script:
-        print(script)
     data = [""]
     quote = []
     before = ""
