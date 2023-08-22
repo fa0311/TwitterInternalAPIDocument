@@ -1608,3 +1608,15 @@
 - responsive_web_tweetdeck_menu_item_enabled<br>
 #### remove<br>
 - explore_relaunch_enable_immersive_web_navigation_button<br>
+## 2023/08/22<br>
+### API<br>
+#### add<br>
+- GroupDetailDelegateQuery<br>
+#### remove<br>
+- ProfileSpotlights_EditableProfileSpotlightsQuery<br>
+### Feature Switch<br>
+#### add<br>
+- dsa_report_illegal_content_url<br>
+#### remove<br>
+- responsive_web_notifications_empty_state_redesign_variant<br>
+- responsive_web_reply_nudge_show_nudge<br>

@@ -3694,10 +3694,10 @@
         "responsive_web_graphql_timeline_navigation_enabled": true
       }
     },
-    "UpdateProfileSpotlightVisibilityMutation": {
-      "url": "https://twitter.com/i/api/graphql/jxDCj3E6BYHF7D12Oc6uOw/UpdateProfileSpotlightVisibilityMutation",
-      "queryId": "jxDCj3E6BYHF7D12Oc6uOw",
-      "method": "POST",
+    "ProfileSpotlights_EditableProfileSpotlightsQuery": {
+      "url": "https://twitter.com/i/api/graphql/rDGLKxjaiBYOL9AUgJtTKw/ProfileSpotlights_EditableProfileSpotlightsQuery",
+      "queryId": "rDGLKxjaiBYOL9AUgJtTKw",
+      "method": "GET",
       "features": {}
     },
     "LocationSpotlightQuery": {

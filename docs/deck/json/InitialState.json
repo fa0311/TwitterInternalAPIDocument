@@ -115,11 +115,6 @@
       "entities": {},
       "errors": {},
       "fetchStatus": {}
-    },
-    "translationsProfiles": {
-      "entities": {},
-      "errors": {},
-      "fetchStatus": {}
     }
   },
   "featureSwitch": {
@@ -640,6 +635,9 @@
       },
       "dont_mention_me_view_api_enabled": {
         "value": "true"
+      },
+      "dsa_report_illegal_content_url": {
+        "value": ""
       },
       "ecd_dispute_form_link_enabled": {
         "value": "true"
@@ -1244,9 +1242,6 @@
       "responsive_web_nft_avatar_help_link": {
         "value": "https://help.twitter.com/en/using-twitter/twitter-blue-labs#nft"
       },
-      "responsive_web_notifications_empty_state_redesign_variant": {
-        "value": "control"
-      },
       "responsive_web_ntab_verified_mentions_vit_internal_dogfood": {
         "value": "true"
       },
@@ -1285,13 +1280,8 @@
       "responsive_web_reply_nudge_copy_version": {
         "value": "0"
       },
-      "responsive_web_reply_nudge_show_nudge": {
-        "value": "true"
-      },
       "responsive_web_reply_nudge_supported_languages": {
-        "value": [
-          "en"
-        ]
+        "value": []
       },
       "responsive_web_search_home_page_design_variation": {
         "value": ""
@@ -2565,6 +2555,9 @@
         "dont_mention_me_view_api_enabled": {
           "value": "true"
         },
+        "dsa_report_illegal_content_url": {
+          "value": ""
+        },
         "explore_relaunch_max_video_loop_count": {
           "value": "2"
         },
@@ -3155,9 +3148,6 @@
         },
         "responsive_web_nft_avatar_help_link": {
           "value": "https://help.twitter.com/en/using-twitter/twitter-blue-labs#nft"
-        },
-        "responsive_web_notifications_empty_state_redesign_variant": {
-          "value": "control"
         },
         "responsive_web_oauth2_consent_flow_enabled": {
           "value": "true"
@@ -3938,6 +3928,9 @@
         "voice_rooms_speaking_enabled": {
           "value": "true"
         },
+        "web_image_large_webp_variants": {
+          "value": "true"
+        },
         "web_video_caption_repositioning_enabled": {
           "value": "true"
         },
@@ -3966,10 +3959,10 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "bdbe1fe115b0970784d5aebdd6fbac39"
+      "settingsVersion": "bed42450be4ea6e4e55ef9721080d491"
     },
     "debug": {},
-    "featureSetToken": "1a89e8f8d0fa1e2a1c3f8c77fb8a084926dae097",
+    "featureSetToken": "78dd7374bbc6253ea00e2457f806a49e072d7cf8",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -4039,7 +4032,7 @@
     "country": "US",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "169265247058368222",
+    "guestId": "169273883825459570",
     "hasCommunityMemberships": "false",
     "language": "en",
     "oneFactorLoginEligibility": {
