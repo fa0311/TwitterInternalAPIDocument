@@ -922,3 +922,15 @@
 - responsive_web_opengraph_image_tweet_copy_1<br>
 - responsive_web_opengraph_video_tweet_copy_1<br>
 - responsive_web_ssr_verified_crawler_rux_injections_enabled<br>
+## 2023/08/22<br>
+### API<br>
+#### add<br>
+- ProfileSpotlights_EditableProfileSpotlightsQuery<br>
+#### remove<br>
+- UpdateProfileSpotlightVisibilityMutation<br>
+### Feature Switch<br>
+#### add<br>
+- dsa_report_illegal_content_url<br>
+#### remove<br>
+- responsive_web_notifications_empty_state_redesign_variant<br>
+- responsive_web_reply_nudge_show_nudge<br>
