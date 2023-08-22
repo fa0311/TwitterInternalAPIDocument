@@ -636,6 +636,9 @@
       "dont_mention_me_view_api_enabled": {
         "value": "true"
       },
+      "dsa_report_illegal_content_url": {
+        "value": ""
+      },
       "ecd_dispute_form_link_enabled": {
         "value": "true"
       },
@@ -1239,9 +1242,6 @@
       "responsive_web_nft_avatar_help_link": {
         "value": "https://help.twitter.com/en/using-twitter/twitter-blue-labs#nft"
       },
-      "responsive_web_notifications_empty_state_redesign_variant": {
-        "value": "control"
-      },
       "responsive_web_ntab_verified_mentions_vit_internal_dogfood": {
         "value": "true"
       },
@@ -1280,13 +1280,8 @@
       "responsive_web_reply_nudge_copy_version": {
         "value": "0"
       },
-      "responsive_web_reply_nudge_show_nudge": {
-        "value": "true"
-      },
       "responsive_web_reply_nudge_supported_languages": {
-        "value": [
-          "en"
-        ]
+        "value": []
       },
       "responsive_web_search_home_page_design_variation": {
         "value": ""
@@ -2572,6 +2567,9 @@
         "dont_mention_me_view_api_enabled": {
           "value": "true"
         },
+        "dsa_report_illegal_content_url": {
+          "value": ""
+        },
         "ecd_dispute_form_link_enabled": {
           "value": "true"
         },
@@ -3195,9 +3193,6 @@
         },
         "responsive_web_nft_avatar_help_link": {
           "value": "https://help.twitter.com/en/using-twitter/twitter-blue-labs#nft"
-        },
-        "responsive_web_notifications_empty_state_redesign_variant": {
-          "value": "control"
         },
         "responsive_web_ntab_verified_mentions_vit_internal_dogfood": {
           "value": "true"
@@ -4032,10 +4027,10 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "ff2133730244541736c5cf7d8054236f"
+      "settingsVersion": "80cbf55a71a5c75266e441c5495283e6"
     },
     "debug": {},
-    "featureSetToken": "1a89e8f8d0fa1e2a1c3f8c77fb8a084926dae097",
+    "featureSetToken": "78dd7374bbc6253ea00e2457f806a49e072d7cf8",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -4105,7 +4100,7 @@
     "country": "US",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "169265200321716249",
+    "guestId": "169273839716504478",
     "hasCommunityMemberships": "false",
     "language": "en",
     "oneFactorLoginEligibility": {
