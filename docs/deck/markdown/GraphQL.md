@@ -14210,9 +14210,9 @@ Login Required: `...`<br>
 
 #### queryId<br>
 `None`<br>
-## UpdateProfileSpotlightVisibilityMutation<br>
-Request URL: `https://twitter.com/i/api/graphql/jxDCj3E6BYHF7D12Oc6uOw/UpdateProfileSpotlightVisibilityMutation`<br>
-Request Method: `POST`<br>
+## ProfileSpotlights_EditableProfileSpotlightsQuery<br>
+Request URL: `https://twitter.com/i/api/graphql/rDGLKxjaiBYOL9AUgJtTKw/ProfileSpotlights_EditableProfileSpotlightsQuery`<br>
+Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
