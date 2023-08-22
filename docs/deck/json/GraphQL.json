@@ -27814,11 +27814,11 @@
     }
   },
   {
-    "n": "56683",
+    "n": "12030",
     "exports": {
-      "queryId": "jxDCj3E6BYHF7D12Oc6uOw",
-      "operationName": "UpdateProfileSpotlightVisibilityMutation",
-      "operationType": "mutation",
+      "queryId": "rDGLKxjaiBYOL9AUgJtTKw",
+      "operationName": "ProfileSpotlights_EditableProfileSpotlightsQuery",
+      "operationType": "query",
       "metadata": {
         "featureSwitches": [],
         "featureSwitch": {}
