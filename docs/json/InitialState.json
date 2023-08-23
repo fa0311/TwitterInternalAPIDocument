@@ -3996,9 +3996,6 @@
         "voice_rooms_typeahead_audiospace_ring_enabled": {
           "value": "true"
         },
-        "web_image_large_webp_variants": {
-          "value": "true"
-        },
         "web_video_caption_repositioning_enabled": {
           "value": "true"
         },
@@ -4027,7 +4024,7 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "80cbf55a71a5c75266e441c5495283e6"
+      "settingsVersion": "47bf69a8722aee5d6f121ef9b7e6786a"
     },
     "debug": {},
     "featureSetToken": "78dd7374bbc6253ea00e2457f806a49e072d7cf8",
@@ -4100,7 +4097,7 @@
     "country": "US",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "169273839716504478",
+    "guestId": "169282479999222338",
     "hasCommunityMemberships": "false",
     "language": "en",
     "oneFactorLoginEligibility": {
