@@ -1620,3 +1620,15 @@
 #### remove<br>
 - responsive_web_notifications_empty_state_redesign_variant<br>
 - responsive_web_reply_nudge_show_nudge<br>
+## 2023/08/24<br>
+### API<br>
+#### add<br>
+- CheckmarkSettingQuery<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- responsive_web_birdwatch_read_sources_nudge<br>
+#### remove<br>
+- responsive_web_verified_organizations_application_form_enabled<br>
+- responsive_web_verified_organizations_verified_entry_enabled<br>
