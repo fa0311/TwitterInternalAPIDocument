@@ -39,6 +39,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | AudioSpaceRemovedByAdmin          | AudioSpaceRemovedByAdmin          |
 | AudioSpaceMicrophoneStatusChanged | AudioSpaceMicrophoneStatusChanged |
 | AudioSpaceMicrophoneAccessDenied  | AudioSpaceMicrophoneAccessDenied  |
+| AudioSpacePublisherPolled         | AudioSpacePublisherPolled         |
 | AudioSpaceViewerUserRoleChanged   | AudioSpaceViewerUserRoleChanged   |
 | AudioSpaceInvitedToCohost         | AudioSpaceInvitedToCohost         |
 | JanusNewMediaStream               | JanusNewMediaStream               |
@@ -154,7 +155,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant              | value                 |
 |:----------------------|:----------------------|
-| ...ju                 | _                     |
+| ...Uu                 | _                     |
 | ColumnFromPath        | ColumnFromPath        |
 | ColumnTimelineAdapter | ColumnTimelineAdapter |
 
@@ -2465,25 +2466,26 @@ This document is entirely auto-generated and may contain errors.<br>
 | STATIC_BROADCAST | static_broadcast |
 | AUDIO_SPACE      | audio_space      |
 
-| constant      | value        |
-|:--------------|:-------------|
-| superFollower | u().fc065ee4 |
-
-| constant      | value                                                                                                                                                                                                                                    |
-|:--------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| superFollower | {'graphic': 'p.default', 'headline': 'u().e453f536', 'subtext': 'u().dea63fc4', 'actionLabel': 'u().g7099a02', 'actionLink': 'https://help.twitter.com/en/using-twitter/super-follows#sfexpect', 'secondaryActionLabel': 'u().c2637ef6'} |
-
-| constant        | value        |
-|:----------------|:-------------|
-| followsYou      | u().efb17190 |
-| superFollowsYou | u().g57b5f6c |
-| superFollower   | u().a77a27c0 |
-
-| constant        | value   |
-|:----------------|:--------|
-| followsYou      | gray700 |
-| superFollowsYou | plum700 |
-| superFollower   | plum700 |
+| constant               |   value |
+|:-----------------------|--------:|
+| RequestSubmitted       |       1 |
+| RequestCancelled       |       2 |
+| RequestRejected        |       3 |
+| RequestApproved        |       4 |
+| InvitationSent         |       5 |
+| InvitationWithdrawn    |       6 |
+| InvitationDeclined     |       7 |
+| InvitationAccepted     |       8 |
+| StreamNegotiated       |       9 |
+| StreamPublished        |      10 |
+| StreamEjected          |      11 |
+| StreamEnded            |      12 |
+| StreamTimedOut         |      13 |
+| SessionTerminated      |      14 |
+| StreamCountdown        |      15 |
+| AdminStreamPublished   |      16 |
+| HostStreamPublished    |      17 |
+| HostStreamReconnecting |      18 |
 
 | constant                                            |   value |
 |:----------------------------------------------------|--------:|
@@ -2659,12 +2661,23 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{[D.Q.host]:{"title":"mn.hostTitle","maybePluralFormatter":"gn","capacity":"1"},[D.Q.cohost]:{"title":"mn.cohostTitle","maybePluralFormatter":"fn","capacity":"2"},[D.Q.speaker]:{"title":"mn.speakerTitle","maybePluralFormatter":"bn","capacity":"10"},[D.Q.listener]:{"title":"mn.listenerTitle","maybePl...
+{[D.Q.host]:{"title":"gn.hostTitle","maybePluralFormatter":"fn","capacity":"1"},[D.Q.cohost]:{"title":"gn.cohostTitle","maybePluralFormatter":"bn","capacity":"2"},[D.Q.speaker]:{"title":"gn.speakerTitle","maybePluralFormatter":"yn","capacity":"10"},[D.Q.listener]:{"title":"gn.listenerTitle","maybePl...
 ```
-| constant   | value      |
-|:-----------|:-----------|
-| mainView   | mainView   |
-| manageView | manageView |
+| constant        | value           |
+|:----------------|:----------------|
+| onlyInvited     | onlyInvited     |
+| peopleYouFollow | peopleYouFollow |
+| everyone        | everyone        |
+
+```internal process
+# Error
+{[Un.onlyInvited]:"0",[Un.peopleYouFollow]:"1",[Un.everyone]:"2"}
+```
+| constant     | value        |
+|:-------------|:-------------|
+| mainView     | mainView     |
+| manageView   | manageView   |
+| settingsView | settingsView |
 
 | constant        | value           |
 |:----------------|:----------------|
@@ -2681,6 +2694,26 @@ This document is entirely auto-generated and may contain errors.<br>
 | on          | on          |
 | off         | off         |
 | unavailable | unavailable |
+
+| constant      | value        |
+|:--------------|:-------------|
+| superFollower | u().fc065ee4 |
+
+| constant      | value                                                                                                                                                                                                                                    |
+|:--------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| superFollower | {'graphic': 'p.default', 'headline': 'u().e453f536', 'subtext': 'u().dea63fc4', 'actionLabel': 'u().g7099a02', 'actionLink': 'https://help.twitter.com/en/using-twitter/super-follows#sfexpect', 'secondaryActionLabel': 'u().c2637ef6'} |
+
+| constant        | value        |
+|:----------------|:-------------|
+| followsYou      | u().efb17190 |
+| superFollowsYou | u().g57b5f6c |
+| superFollower   | u().a77a27c0 |
+
+| constant        | value   |
+|:----------------|:--------|
+| followsYou      | gray700 |
+| superFollowsYou | plum700 |
+| superFollower   | plum700 |
 
 | constant     | value        |
 |:-------------|:-------------|
@@ -2924,6 +2957,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | AutoblockedAccounts               | AutoblockedAccounts               |
 | BackupCode                        | BackupCode                        |
 | BlockedAccounts                   | BlockedAccounts                   |
+| BlueCheckmark                     | BlueCheckmark                     |
 | Coins                             | Coins                             |
 | ConnectedAccounts                 | ConnectedAccounts                 |
 | ConnectedApps                     | ConnectedApps                     |
@@ -3014,6 +3048,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | TwitterBlue                       | TwitterBlue                       |
 | TwitterInterests                  | TwitterInterests                  |
 | UndoTweet                         | UndoTweet                         |
+| Verification                      | Verification                      |
 | VideoAutoplay                     | VideoAutoplay                     |
 | YourTweets                        | YourTweets                        |
 | YTDLanguage                       | YTDLanguage                       |
@@ -4405,8 +4440,8 @@ This document is entirely auto-generated and may contain errors.<br>
 | constant       | value                                          |
 |:---------------|:-----------------------------------------------|
 | closed         | {'shouldShow': '!1'}                           |
-| openSuccessful | {'shouldShow': '!0', 'badgeType': 'N.Ratings'} |
-| openHelpful    | {'shouldShow': '!0', 'badgeType': 'N.Notes'}   |
+| openSuccessful | {'shouldShow': '!0', 'badgeType': 'x.Ratings'} |
+| openHelpful    | {'shouldShow': '!0', 'badgeType': 'x.Notes'}   |
 
 | constant   | value                                               |
 |:-----------|:----------------------------------------------------|
@@ -4434,7 +4469,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{"ActionsBar":"C.Z","ActionMenu":"function()"{"Icon":"e","isDisabled":"t","items":"n","onOpen":"o"}{"const r=i.useCallback()"{"items":"n","onCloseRequested":"e"}{"Icon":"e","isDisabled":"t","onClick":"o","renderActionMenu":"r"}},"CallToAction":"a.ZP","EditCallout":"S.Z","Education":"k.Z","Highlighte...
+{"ActionsBar":"C.Z","ActionMenu":"function()"{"Icon":"e","isDisabled":"t","items":"n","onOpen":"o"}{"const r=i.useCallback()"{"items":"n","onCloseRequested":"e"}{"Icon":"e","isDisabled":"t","onClick":"o","renderActionMenu":"r"}},"CallToAction":"a.ZP","EditCallout":"x.Z","Education":"k.Z","Highlighte...
 ```
 | constant   | value    |
 |:-----------|:---------|
@@ -5690,7 +5725,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant      | value        |
 |:--------------|:-------------|
-| directMessage | l().je822560 |
+| directMessage | l().h845f282 |
 | email         | l().a3841918 |
 | callFormatter | l().ha9b8035 |
 | textFormatter | l().g2244521 |
@@ -6289,11 +6324,11 @@ This document is entirely auto-generated and may contain errors.<br>
 ```
 ```internal process
 # Error
-{"default":()=>s().g784d3c6,"with_replies":()=>s().g784d3c6,"superfollows":()=>s().ce659062,"highlights":()=>s().f1e98cc2}
+{"default":()=>s().b7363b66,"with_replies":()=>s().b7363b66,"superfollows":()=>s().ce659062,"highlights":()=>s().f1e98cc2}
 ```
 ```internal process
 # Error
-{"default":()=>s().d1e5e328,"with_replies":()=>s().d1e5e328,"superfollows":()=>s().bb3406a6,"highlights":()=>s().b7c3572e}
+{"default":()=>s().d1e5e328,"with_replies":()=>s().d1e5e328,"superfollows":()=>s().hb26a1fe,"highlights":()=>s().b7c3572e}
 ```
 ```internal process
 # Error
@@ -6301,7 +6336,7 @@ This document is entirely auto-generated and may contain errors.<br>
 ```
 ```internal process
 # Error
-{"default":()=>s().e4f9514c,"with_replies":()=>s().e4f9514c,"superfollows":()=>s().cb59ea14}
+{"default":()=>s().f34dfc18,"with_replies":()=>s().f34dfc18,"superfollows":()=>s().h9346040}
 ```
 ```internal process
 # Error
@@ -6358,7 +6393,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | constant    | value     |
 |:------------|:----------|
 | fetchStatus | E.ZP.NONE |
-| config      | qe        |
+| config      | Ge        |
 
 | constant              | value                 |
 |:----------------------|:----------------------|
@@ -6876,9 +6911,4 @@ This document is entirely auto-generated and may contain errors.<br>
 | UserConcise      | UserConcise      |
 | UserDetailed     | UserDetailed     |
 | SubscribableUser | SubscribableUser |
-
-| constant   | value   |
-|:-----------|:--------|
-| START      | start   |
-| END        | end     |
 
