@@ -531,8 +531,8 @@
       }
     },
     "AudioSpaceById": {
-      "url": "https://twitter.com/i/api/graphql/7eNgj7l3XbvFAIvgAksDGA/AudioSpaceById",
-      "queryId": "7eNgj7l3XbvFAIvgAksDGA",
+      "url": "https://twitter.com/i/api/graphql/L2eriVU7WVOMeUEA19r6Ww/AudioSpaceById",
+      "queryId": "L2eriVU7WVOMeUEA19r6Ww",
       "method": "GET",
       "features": {
         "spaces_2022_h2_clipping": true,
@@ -2882,8 +2882,8 @@
       "features": {}
     },
     "UserByRestId": {
-      "url": "https://twitter.com/i/api/graphql/i_0UQ54YrCyqLUvgGzXygA/UserByRestId",
-      "queryId": "i_0UQ54YrCyqLUvgGzXygA",
+      "url": "https://twitter.com/i/api/graphql/QdS5LJDl99iL_KUzckdfNQ/UserByRestId",
+      "queryId": "QdS5LJDl99iL_KUzckdfNQ",
       "method": "GET",
       "features": {
         "hidden_profile_subscriptions_enabled": true,
@@ -2894,8 +2894,8 @@
       }
     },
     "UserByScreenName": {
-      "url": "https://twitter.com/i/api/graphql/SAMkL5y_N9pmahSw8yy6gw/UserByScreenName",
-      "queryId": "SAMkL5y_N9pmahSw8yy6gw",
+      "url": "https://twitter.com/i/api/graphql/G3KGOASz96M-Qu0nwmGXNg/UserByScreenName",
+      "queryId": "G3KGOASz96M-Qu0nwmGXNg",
       "method": "GET",
       "features": {
         "hidden_profile_subscriptions_enabled": true,
@@ -2916,11 +2916,12 @@
       }
     },
     "Viewer": {
-      "url": "https://twitter.com/i/api/graphql/93NdfGgZRSyQ-6rmHPgdNg/Viewer",
-      "queryId": "93NdfGgZRSyQ-6rmHPgdNg",
+      "url": "https://twitter.com/i/api/graphql/BYz-Y5QX227_9x2vrYxLhw/Viewer",
+      "queryId": "BYz-Y5QX227_9x2vrYxLhw",
       "method": "GET",
       "features": {
         "responsive_web_graphql_exclude_directive_enabled": true,
+        "creator_subscriptions_tweet_preview_api_enabled": true,
         "responsive_web_graphql_timeline_navigation_enabled": true
       }
     },
@@ -3354,6 +3355,12 @@
     "AdsCategoriesQuery": {
       "url": "https://twitter.com/i/api/graphql/FO_KX1o77E3vYL14rATn9Q/AdsCategoriesQuery",
       "queryId": "FO_KX1o77E3vYL14rATn9Q",
+      "method": "GET",
+      "features": {}
+    },
+    "CheckmarkSettingQuery": {
+      "url": "https://twitter.com/i/api/graphql/oJhyh6QimXwVWm8iqv4Kpw/CheckmarkSettingQuery",
+      "queryId": "oJhyh6QimXwVWm8iqv4Kpw",
       "method": "GET",
       "features": {}
     },
