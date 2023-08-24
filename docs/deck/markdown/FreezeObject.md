@@ -39,6 +39,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | AudioSpaceRemovedByAdmin          | AudioSpaceRemovedByAdmin          |
 | AudioSpaceMicrophoneStatusChanged | AudioSpaceMicrophoneStatusChanged |
 | AudioSpaceMicrophoneAccessDenied  | AudioSpaceMicrophoneAccessDenied  |
+| AudioSpacePublisherPolled         | AudioSpacePublisherPolled         |
 | AudioSpaceViewerUserRoleChanged   | AudioSpaceViewerUserRoleChanged   |
 | AudioSpaceInvitedToCohost         | AudioSpaceInvitedToCohost         |
 | JanusNewMediaStream               | JanusNewMediaStream               |
@@ -3378,6 +3379,27 @@ This document is entirely auto-generated and may contain errors.<br>
 | single_line   | singleline    |
 | format_inline | format-inline |
 
+| constant               |   value |
+|:-----------------------|--------:|
+| RequestSubmitted       |       1 |
+| RequestCancelled       |       2 |
+| RequestRejected        |       3 |
+| RequestApproved        |       4 |
+| InvitationSent         |       5 |
+| InvitationWithdrawn    |       6 |
+| InvitationDeclined     |       7 |
+| InvitationAccepted     |       8 |
+| StreamNegotiated       |       9 |
+| StreamPublished        |      10 |
+| StreamEjected          |      11 |
+| StreamEnded            |      12 |
+| StreamTimedOut         |      13 |
+| SessionTerminated      |      14 |
+| StreamCountdown        |      15 |
+| AdminStreamPublished   |      16 |
+| HostStreamPublished    |      17 |
+| HostStreamReconnecting |      18 |
+
 | constant                                            |   value |
 |:----------------------------------------------------|--------:|
 | JanusPollerResponseParseError                       |       0 |
@@ -3552,12 +3574,23 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{[z.Q.host]:{"title":"mn.hostTitle","maybePluralFormatter":"gn","capacity":"1"},[z.Q.cohost]:{"title":"mn.cohostTitle","maybePluralFormatter":"fn","capacity":"2"},[z.Q.speaker]:{"title":"mn.speakerTitle","maybePluralFormatter":"bn","capacity":"10"},[z.Q.listener]:{"title":"mn.listenerTitle","maybePl...
+{[z.Q.host]:{"title":"gn.hostTitle","maybePluralFormatter":"fn","capacity":"1"},[z.Q.cohost]:{"title":"gn.cohostTitle","maybePluralFormatter":"bn","capacity":"2"},[z.Q.speaker]:{"title":"gn.speakerTitle","maybePluralFormatter":"yn","capacity":"10"},[z.Q.listener]:{"title":"gn.listenerTitle","maybePl...
 ```
-| constant   | value      |
-|:-----------|:-----------|
-| mainView   | mainView   |
-| manageView | manageView |
+| constant        | value           |
+|:----------------|:----------------|
+| onlyInvited     | onlyInvited     |
+| peopleYouFollow | peopleYouFollow |
+| everyone        | everyone        |
+
+```internal process
+# Error
+{[Vn.onlyInvited]:"0",[Vn.peopleYouFollow]:"1",[Vn.everyone]:"2"}
+```
+| constant     | value        |
+|:-------------|:-------------|
+| mainView     | mainView     |
+| manageView   | manageView   |
+| settingsView | settingsView |
 
 | constant        | value           |
 |:----------------|:----------------|
@@ -4015,6 +4048,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | AutoblockedAccounts               | AutoblockedAccounts               |
 | BackupCode                        | BackupCode                        |
 | BlockedAccounts                   | BlockedAccounts                   |
+| BlueCheckmark                     | BlueCheckmark                     |
 | Coins                             | Coins                             |
 | ConnectedAccounts                 | ConnectedAccounts                 |
 | ConnectedApps                     | ConnectedApps                     |
@@ -4105,6 +4139,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | TwitterBlue                       | TwitterBlue                       |
 | TwitterInterests                  | TwitterInterests                  |
 | UndoTweet                         | UndoTweet                         |
+| Verification                      | Verification                      |
 | VideoAutoplay                     | VideoAutoplay                     |
 | YourTweets                        | YourTweets                        |
 | YTDLanguage                       | YTDLanguage                       |
@@ -4835,13 +4870,13 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant   | value   |
 |:-----------|:--------|
-| SENSITIVE  | h       |
+| SENSITIVE  | p       |
 | BLOCKED    | _       |
 | BLOCKED_BY | b       |
 
 ```internal process
 # Error
-{[h]:"g",[_]:"y",[b]:"f"}
+{[p]:"g",[_]:"y",[b]:"f"}
 ```
 | constant             | value     |
 |:---------------------|:----------|
@@ -6017,7 +6052,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant      | value        |
 |:--------------|:-------------|
-| directMessage | l().je822560 |
+| directMessage | l().h845f282 |
 | email         | l().a3841918 |
 | callFormatter | l().ha9b8035 |
 | textFormatter | l().g2244521 |
@@ -6693,11 +6728,11 @@ This document is entirely auto-generated and may contain errors.<br>
 ```
 ```internal process
 # Error
-{"default":()=>s().g784d3c6,"with_replies":()=>s().g784d3c6,"superfollows":()=>s().ce659062,"highlights":()=>s().f1e98cc2}
+{"default":()=>s().b7363b66,"with_replies":()=>s().b7363b66,"superfollows":()=>s().ce659062,"highlights":()=>s().f1e98cc2}
 ```
 ```internal process
 # Error
-{"default":()=>s().d1e5e328,"with_replies":()=>s().d1e5e328,"superfollows":()=>s().bb3406a6,"highlights":()=>s().b7c3572e}
+{"default":()=>s().d1e5e328,"with_replies":()=>s().d1e5e328,"superfollows":()=>s().hb26a1fe,"highlights":()=>s().b7c3572e}
 ```
 ```internal process
 # Error
@@ -6705,7 +6740,7 @@ This document is entirely auto-generated and may contain errors.<br>
 ```
 ```internal process
 # Error
-{"default":()=>s().e4f9514c,"with_replies":()=>s().e4f9514c,"superfollows":()=>s().cb59ea14}
+{"default":()=>s().f34dfc18,"with_replies":()=>s().f34dfc18,"superfollows":()=>s().h9346040}
 ```
 ```internal process
 # Error
@@ -6762,7 +6797,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | constant    | value     |
 |:------------|:----------|
 | fetchStatus | S.ZP.NONE |
-| config      | qe        |
+| config      | Ge        |
 
 | constant              | value                 |
 |:----------------------|:----------------------|
@@ -6783,7 +6818,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{[_.hA.switchFromDirect]:"m().dca6b3ac",[_.hA.generate]:"m().dca6b3ac",[_.hA.updateSeats]:"m().c97ad52a"}
+{[k.hA.switchFromDirect]:"m().dca6b3ac",[k.hA.generate]:"m().dca6b3ac",[k.hA.updateSeats]:"m().c97ad52a"}
 ```
 | constant   | value                  |
 |:-----------|:-----------------------|
