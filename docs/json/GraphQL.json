@@ -1836,7 +1836,7 @@
   {
     "n": "64332",
     "exports": {
-      "queryId": "7eNgj7l3XbvFAIvgAksDGA",
+      "queryId": "L2eriVU7WVOMeUEA19r6Ww",
       "operationName": "AudioSpaceById",
       "operationType": "query",
       "metadata": {
@@ -17286,7 +17286,7 @@
   {
     "n": "88441",
     "exports": {
-      "queryId": "i_0UQ54YrCyqLUvgGzXygA",
+      "queryId": "QdS5LJDl99iL_KUzckdfNQ",
       "operationName": "UserByRestId",
       "operationType": "query",
       "metadata": {
@@ -17326,7 +17326,7 @@
   {
     "n": "44538",
     "exports": {
-      "queryId": "SAMkL5y_N9pmahSw8yy6gw",
+      "queryId": "G3KGOASz96M-Qu0nwmGXNg",
       "operationName": "UserByScreenName",
       "operationType": "query",
       "metadata": {
@@ -17398,13 +17398,14 @@
   {
     "n": "95674",
     "exports": {
-      "queryId": "93NdfGgZRSyQ-6rmHPgdNg",
+      "queryId": "BYz-Y5QX227_9x2vrYxLhw",
       "operationName": "Viewer",
       "operationType": "query",
       "metadata": {
         "featureSwitches": [
           "responsive_web_graphql_exclude_directive_enabled",
           "verified_phone_label_enabled",
+          "creator_subscriptions_tweet_preview_api_enabled",
           "responsive_web_graphql_skip_user_profile_image_extensions_enabled",
           "responsive_web_graphql_timeline_navigation_enabled"
         ],
@@ -17414,6 +17415,9 @@
         ],
         "featureSwitch": {
           "responsive_web_graphql_exclude_directive_enabled": {
+            "value": "true"
+          },
+          "creator_subscriptions_tweet_preview_api_enabled": {
             "value": "true"
           },
           "responsive_web_graphql_timeline_navigation_enabled": {
@@ -17891,7 +17895,7 @@
   {
     "n": "64332",
     "exports": {
-      "queryId": "7eNgj7l3XbvFAIvgAksDGA",
+      "queryId": "L2eriVU7WVOMeUEA19r6Ww",
       "operationName": "AudioSpaceById",
       "operationType": "query",
       "metadata": {
@@ -25920,7 +25924,7 @@
   {
     "n": "88441",
     "exports": {
-      "queryId": "i_0UQ54YrCyqLUvgGzXygA",
+      "queryId": "QdS5LJDl99iL_KUzckdfNQ",
       "operationName": "UserByRestId",
       "operationType": "query",
       "metadata": {
@@ -25960,7 +25964,7 @@
   {
     "n": "44538",
     "exports": {
-      "queryId": "SAMkL5y_N9pmahSw8yy6gw",
+      "queryId": "G3KGOASz96M-Qu0nwmGXNg",
       "operationName": "UserByScreenName",
       "operationType": "query",
       "metadata": {
@@ -26802,13 +26806,14 @@
   {
     "n": "95674",
     "exports": {
-      "queryId": "93NdfGgZRSyQ-6rmHPgdNg",
+      "queryId": "BYz-Y5QX227_9x2vrYxLhw",
       "operationName": "Viewer",
       "operationType": "query",
       "metadata": {
         "featureSwitches": [
           "responsive_web_graphql_exclude_directive_enabled",
           "verified_phone_label_enabled",
+          "creator_subscriptions_tweet_preview_api_enabled",
           "responsive_web_graphql_skip_user_profile_image_extensions_enabled",
           "responsive_web_graphql_timeline_navigation_enabled"
         ],
@@ -26818,6 +26823,9 @@
         ],
         "featureSwitch": {
           "responsive_web_graphql_exclude_directive_enabled": {
+            "value": "true"
+          },
+          "creator_subscriptions_tweet_preview_api_enabled": {
             "value": "true"
           },
           "responsive_web_graphql_timeline_navigation_enabled": {
@@ -27941,6 +27949,18 @@
     }
   },
   {
+    "n": "22786",
+    "exports": {
+      "queryId": "oJhyh6QimXwVWm8iqv4Kpw",
+      "operationName": "CheckmarkSettingQuery",
+      "operationType": "query",
+      "metadata": {
+        "featureSwitches": [],
+        "featureSwitch": {}
+      }
+    }
+  },
+  {
     "n": "4217",
     "exports": {
       "queryId": "VKbNUE3NwVCyM1vVHhyLPQ",
@@ -27965,7 +27985,7 @@
     }
   },
   {
-    "n": "6030",
+    "n": "1983",
     "exports": {
       "queryId": "_P16DPt32NaCPo9bXMci2Q",
       "operationName": "HiddenVerifiedCheckmarkSettingsMutation",
@@ -28277,7 +28297,7 @@
     }
   },
   {
-    "n": "1983",
+    "n": "57673",
     "exports": {
       "queryId": "01C9DqWmpi6YUNYaIWMBwA",
       "operationName": "useAwardsDeactivateMutation",
