@@ -115,11 +115,6 @@
       "entities": {},
       "errors": {},
       "fetchStatus": {}
-    },
-    "translationsProfiles": {
-      "entities": {},
-      "errors": {},
-      "fetchStatus": {}
     }
   },
   "featureSwitch": {
@@ -1034,6 +1029,9 @@
       "responsive_web_birdwatch_ratings_v2_enabled": {
         "value": "true"
       },
+      "responsive_web_birdwatch_read_sources_nudge": {
+        "value": "control"
+      },
       "responsive_web_birdwatch_require_rating_before_writing_enabled": {
         "value": "true"
       },
@@ -1375,13 +1373,7 @@
       "responsive_web_verified_organizations_affiliate_fetch_limit": {
         "value": "3000"
       },
-      "responsive_web_verified_organizations_application_form_enabled": {
-        "value": "true"
-      },
       "responsive_web_verified_organizations_upgrade_enabled": {
-        "value": "true"
-      },
-      "responsive_web_verified_organizations_verified_entry_enabled": {
         "value": "true"
       },
       "responsive_web_video_pcomplete_enabled": {
@@ -2950,6 +2942,9 @@
         "responsive_web_birdwatch_ratings_v2_enabled": {
           "value": "true"
         },
+        "responsive_web_birdwatch_read_sources_nudge": {
+          "value": "control"
+        },
         "responsive_web_birdwatch_require_rating_before_writing_enabled": {
           "value": "true"
         },
@@ -3282,16 +3277,10 @@
         "responsive_web_verified_organizations_affiliate_fetch_limit": {
           "value": "3000"
         },
-        "responsive_web_verified_organizations_application_form_enabled": {
-          "value": "true"
-        },
         "responsive_web_verified_organizations_invoice_update_enabled": {
           "value": "true"
         },
         "responsive_web_verified_organizations_upgrade_enabled": {
-          "value": "true"
-        },
-        "responsive_web_verified_organizations_verified_entry_enabled": {
           "value": "true"
         },
         "responsive_web_video_pcomplete_enabled": {
@@ -3933,9 +3922,6 @@
         "voice_rooms_speaking_enabled": {
           "value": "true"
         },
-        "web_image_large_webp_variants": {
-          "value": "true"
-        },
         "web_video_caption_repositioning_enabled": {
           "value": "true"
         },
@@ -3961,13 +3947,23 @@
           "value": "true"
         }
       },
-      "impression_pointers": {},
-      "impressions": {},
+      "impression_pointers": {
+        "web_image_large_webp_variants": [
+          "rweb_webp_large_image_variants_16305"
+        ]
+      },
+      "impressions": {
+        "rweb_webp_large_image_variants_16305": {
+          "key": "rweb_webp_large_image_variants_16305",
+          "bucket": "control",
+          "version": "3"
+        }
+      },
       "keysRead": {},
-      "settingsVersion": "bed42450be4ea6e4e55ef9721080d491"
+      "settingsVersion": "babdf6dfc7b1798efdcd30a59270463b"
     },
     "debug": {},
-    "featureSetToken": "78dd7374bbc6253ea00e2457f806a49e072d7cf8",
+    "featureSetToken": "cdb5a557ab2c56b7e63b945bb06e43cf299e3b49",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -4037,7 +4033,7 @@
     "country": "US",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "169282526813936140",
+    "guestId": "169291174467034497",
     "hasCommunityMemberships": "false",
     "language": "en",
     "oneFactorLoginEligibility": {
