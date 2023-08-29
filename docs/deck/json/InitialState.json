@@ -3318,6 +3318,9 @@
         "rweb_home_perf_client_prefetch_timeout_ms": {
           "value": "0"
         },
+        "rweb_lists_discovery_list_mixer_enabled": {
+          "value": "true"
+        },
         "rweb_lists_global_search_enabled": {
           "value": "true"
         },
@@ -3930,9 +3933,6 @@
         "voice_rooms_speaking_enabled": {
           "value": "true"
         },
-        "web_image_large_webp_variants": {
-          "value": "true"
-        },
         "web_video_caption_repositioning_enabled": {
           "value": "true"
         },
@@ -3961,7 +3961,7 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "6adb6e21f555409f27cc1b506f973d5b"
+      "settingsVersion": "5f92aa86b5de8d043cc55105023c7729"
     },
     "debug": {},
     "featureSetToken": "cdb5a557ab2c56b7e63b945bb06e43cf299e3b49",
@@ -4034,7 +4034,7 @@
     "country": "US",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "169317074415474038",
+    "guestId": "169325722610395606",
     "hasCommunityMemberships": "false",
     "language": "en",
     "oneFactorLoginEligibility": {
