@@ -946,3 +946,17 @@
 #### remove<br>
 - responsive_web_verified_organizations_application_form_enabled<br>
 - responsive_web_verified_organizations_verified_entry_enabled<br>
+## 2023/08/29<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- CheckTweetForNudge<br>
+### Feature Switch<br>
+#### add<br>
+- c9s_timelines_top_latest_enabled<br>
+- responsive_web_ad_revenue_sharing_pay_period_enabled<br>
+- rweb_lists_discovery_list_mixer_enabled<br>
+#### remove<br>
+- responsive_web_reply_nudge_copy_version<br>
+- responsive_web_reply_nudge_supported_languages<br>
