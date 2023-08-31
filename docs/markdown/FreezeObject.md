@@ -3971,10 +3971,10 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant           | value   |
 |:-------------------|:--------|
-| full_time          | Et      |
-| full_time_contract | It      |
-| part_time          | vt      |
-| contract_to_hire   | bt      |
+| full_time          | It      |
+| full_time_contract | vt      |
+| part_time          | bt      |
+| contract_to_hire   | Tt      |
 
 | constant     | value        |
 |:-------------|:-------------|
