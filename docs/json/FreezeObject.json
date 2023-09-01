@@ -5125,6 +5125,11 @@
     "Favorite": "favorite"
   },
   {
+    "Composition": "composition",
+    "DMComposition": "dm_composition",
+    "NoteComposition": "note_composition"
+  },
+  {
     "Cashtag": "cashtag",
     "Hashtag": "hashtag",
     "Mention": "mention",
