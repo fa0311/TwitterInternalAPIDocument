@@ -1917,3 +1917,14 @@
 - web_video_transcribed_captions_enabled<br>
 #### remove<br>
 - None<br>
+## 2023/09/01<br>
+### API<br>
+#### add<br>
+- useEmailShareConsentUpdateMutation<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- creator_subscriptions_email_share_enabled<br>
+#### remove<br>
+- None<br>
