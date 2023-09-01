@@ -15045,7 +15045,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## SuperFollowsSubscribeQuery<br>
-Request URL: `https://twitter.com/i/api/graphql/cwNDNtLO0yfGhoXuZM4_sA/SuperFollowsSubscribeQuery`<br>
+Request URL: `https://twitter.com/i/api/graphql/VU-9k-bJdiGJL-z9bU3QQQ/SuperFollowsSubscribeQuery`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -15054,8 +15054,20 @@ Login Required: `...`<br>
 #### features<br>
 | key                                                | type    | variable   |
 |:---------------------------------------------------|:--------|:-----------|
+| creator_subscriptions_email_share_enabled          | boolean | False      |
 | super_follow_subscriptions_tax_calculation_enabled | boolean | True       |
 
+#### queryId<br>
+`None`<br>
+## useEmailShareConsentUpdateMutation<br>
+Request URL: `https://twitter.com/i/api/graphql/cpdX3u0AUkdRb5mc3LpVpg/useEmailShareConsentUpdateMutation`<br>
+Request Method: `POST`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
 #### queryId<br>
 `None`<br>
 ## useSuperFollowsCreateStripeSubscriptionUrlMutation<br>
