@@ -4454,12 +4454,19 @@
       "features": {}
     },
     "SuperFollowsSubscribeQuery": {
-      "url": "https://twitter.com/i/api/graphql/cwNDNtLO0yfGhoXuZM4_sA/SuperFollowsSubscribeQuery",
-      "queryId": "cwNDNtLO0yfGhoXuZM4_sA",
+      "url": "https://twitter.com/i/api/graphql/VU-9k-bJdiGJL-z9bU3QQQ/SuperFollowsSubscribeQuery",
+      "queryId": "VU-9k-bJdiGJL-z9bU3QQQ",
       "method": "GET",
       "features": {
+        "creator_subscriptions_email_share_enabled": false,
         "super_follow_subscriptions_tax_calculation_enabled": true
       }
+    },
+    "useEmailShareConsentUpdateMutation": {
+      "url": "https://twitter.com/i/api/graphql/cpdX3u0AUkdRb5mc3LpVpg/useEmailShareConsentUpdateMutation",
+      "queryId": "cpdX3u0AUkdRb5mc3LpVpg",
+      "method": "POST",
+      "features": {}
     },
     "useSuperFollowsCreateStripeSubscriptionUrlMutation": {
       "url": "https://twitter.com/i/api/graphql/1nNykZ_aQohdxHKoykBVmg/useSuperFollowsCreateStripeSubscriptionUrlMutation",
