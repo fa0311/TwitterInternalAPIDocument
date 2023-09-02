@@ -34263,18 +34263,34 @@
   {
     "n": "71190",
     "exports": {
-      "queryId": "cwNDNtLO0yfGhoXuZM4_sA",
+      "queryId": "VU-9k-bJdiGJL-z9bU3QQQ",
       "operationName": "SuperFollowsSubscribeQuery",
       "operationType": "query",
       "metadata": {
         "featureSwitches": [
+          "creator_subscriptions_email_share_enabled",
           "super_follow_subscriptions_tax_calculation_enabled"
         ],
         "featureSwitch": {
+          "creator_subscriptions_email_share_enabled": {
+            "value": "false"
+          },
           "super_follow_subscriptions_tax_calculation_enabled": {
             "value": "true"
           }
         }
+      }
+    }
+  },
+  {
+    "n": "46474",
+    "exports": {
+      "queryId": "cpdX3u0AUkdRb5mc3LpVpg",
+      "operationName": "useEmailShareConsentUpdateMutation",
+      "operationType": "mutation",
+      "metadata": {
+        "featureSwitches": [],
+        "featureSwitch": {}
       }
     }
   },

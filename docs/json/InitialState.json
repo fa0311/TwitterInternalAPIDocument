@@ -81,11 +81,6 @@
       "errors": {},
       "fetchStatus": {}
     },
-    "translationsProfiles": {
-      "entities": {},
-      "errors": {},
-      "fetchStatus": {}
-    },
     "imageCache": {
       "entities": {},
       "errors": {},
@@ -112,6 +107,11 @@
       "fetchStatus": {}
     },
     "phoneNumberValidity": {
+      "entities": {},
+      "errors": {},
+      "fetchStatus": {}
+    },
+    "translationsProfiles": {
       "entities": {},
       "errors": {},
       "fetchStatus": {}
@@ -599,6 +599,9 @@
         "value": "false"
       },
       "creator_monetization_web_tips_onboarding_enabled": {
+        "value": "false"
+      },
+      "creator_subscriptions_email_share_enabled": {
         "value": "false"
       },
       "creator_subscriptions_subscribe_action_tweet_menu_enabled": {
@@ -3279,6 +3282,9 @@
         "creator_monetization_web_tips_onboarding_enabled": {
           "value": "false"
         },
+        "creator_subscriptions_email_share_enabled": {
+          "value": "false"
+        },
         "creator_subscriptions_subscribe_action_tweet_menu_enabled": {
           "value": "true"
         },
@@ -3840,7 +3846,7 @@
           "value": "false"
         },
         "recruiting_jobs_list_consumption_enabled": {
-          "value": "true"
+          "value": "false"
         },
         "recruiting_verified_orgs_admin_enabled": {
           "value": "true"
@@ -5437,7 +5443,7 @@
           "value": "true"
         },
         "web_image_large_webp_variants": {
-          "value": "true"
+          "value": "false"
         },
         "web_video_bitrate_persistence_enabled": {
           "value": "false"
@@ -5473,13 +5479,23 @@
           "value": "false"
         }
       },
-      "impression_pointers": {},
-      "impressions": {},
+      "impression_pointers": {
+        "web_image_large_webp_variants": [
+          "rweb_webp_large_image_variants_16305"
+        ]
+      },
+      "impressions": {
+        "rweb_webp_large_image_variants_16305": {
+          "key": "rweb_webp_large_image_variants_16305",
+          "bucket": "control",
+          "version": "3"
+        }
+      },
       "keysRead": {},
-      "settingsVersion": "3983354cebbebc3a85f089feca4d1025"
+      "settingsVersion": "5c68ad3248c6ea179b72203245529339"
     },
     "debug": {},
-    "featureSetToken": "46d5c12fab3aadf5ddc285ca3b77e48b04eaff35",
+    "featureSetToken": "b63d5b9a96aac97b65eba391c3252ba37927c2af",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -5549,7 +5565,7 @@
     "country": "US",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "169351599679431941",
+    "guestId": "169360238574226712",
     "hasCommunityMemberships": "false",
     "language": "en",
     "oneFactorLoginEligibility": {
