@@ -81,6 +81,11 @@
       "errors": {},
       "fetchStatus": {}
     },
+    "translationsProfiles": {
+      "entities": {},
+      "errors": {},
+      "fetchStatus": {}
+    },
     "imageCache": {
       "entities": {},
       "errors": {},
@@ -107,11 +112,6 @@
       "fetchStatus": {}
     },
     "phoneNumberValidity": {
-      "entities": {},
-      "errors": {},
-      "fetchStatus": {}
-    },
-    "translationsProfiles": {
       "entities": {},
       "errors": {},
       "fetchStatus": {}
@@ -5403,7 +5403,7 @@
           "value": "true"
         },
         "web_image_large_webp_variants": {
-          "value": "true"
+          "value": "false"
         },
         "web_video_bitrate_persistence_enabled": {
           "value": "false"
@@ -5442,7 +5442,7 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "332b9d55fa7de4026ee55487f04d048b"
+      "settingsVersion": "4725856ddbb3fd6eabf25bd0e87ae919"
     },
     "debug": {},
     "featureSetToken": "a51ec7972f167dcd8524621417f471b72c165c14",
@@ -5515,7 +5515,7 @@
     "country": "US",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "169377517236295569",
+    "guestId": "169386158667261059",
     "hasCommunityMemberships": "false",
     "language": "en",
     "oneFactorLoginEligibility": {
