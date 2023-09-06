@@ -81,11 +81,6 @@
       "errors": {},
       "fetchStatus": {}
     },
-    "translationsProfiles": {
-      "entities": {},
-      "errors": {},
-      "fetchStatus": {}
-    },
     "imageCache": {
       "entities": {},
       "errors": {},
@@ -112,6 +107,11 @@
       "fetchStatus": {}
     },
     "phoneNumberValidity": {
+      "entities": {},
+      "errors": {},
+      "fetchStatus": {}
+    },
+    "translationsProfiles": {
       "entities": {},
       "errors": {},
       "fetchStatus": {}
@@ -666,15 +666,6 @@
       },
       "dm_inbox_search_people_bucket_size": {
         "value": "5"
-      },
-      "dm_replies_long_press_to_reply_enabled": {
-        "value": "true"
-      },
-      "dm_replies_rweb_media_rendering_enabled": {
-        "value": "true"
-      },
-      "dm_replies_ui_rendering_enabled": {
-        "value": "true"
       },
       "dm_secret_conversations_enabled": {
         "value": "false"
@@ -3328,15 +3319,6 @@
         "dm_inbox_search_people_bucket_size": {
           "value": "5"
         },
-        "dm_replies_long_press_to_reply_enabled": {
-          "value": "true"
-        },
-        "dm_replies_rweb_media_rendering_enabled": {
-          "value": "true"
-        },
-        "dm_replies_ui_rendering_enabled": {
-          "value": "true"
-        },
         "dm_secret_conversations_enabled": {
           "value": "false"
         },
@@ -4655,6 +4637,9 @@
         "rweb_enable_logged_out_search_search_bar_enabled": {
           "value": "false"
         },
+        "rweb_home_compact_timeline_enabled": {
+          "value": "false"
+        },
         "rweb_home_mixer_enable_social_context_filter_social_contexts": {
           "value": "true"
         },
@@ -4673,8 +4658,11 @@
         "rweb_lists_pins_prefetch_enabled": {
           "value": "false"
         },
-        "rweb_panning_nav_behavior": {
+        "rweb_mobile_bottom_nav_fab_enabled": {
           "value": "false"
+        },
+        "rweb_panning_nav_behavior": {
+          "value": "true"
         },
         "rweb_quick_promote_boost_enabled": {
           "value": "false"
@@ -5367,7 +5355,7 @@
           "value": "2"
         },
         "voice_rooms_cohosts_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "voice_rooms_discovery_page_enabled": {
           "value": "false"
@@ -5403,7 +5391,7 @@
           "value": "true"
         },
         "web_image_large_webp_variants": {
-          "value": "false"
+          "value": "true"
         },
         "web_video_bitrate_persistence_enabled": {
           "value": "false"
@@ -5439,13 +5427,23 @@
           "value": "false"
         }
       },
-      "impression_pointers": {},
-      "impressions": {},
+      "impression_pointers": {
+        "web_image_large_webp_variants": [
+          "rweb_webp_large_image_variants_16305"
+        ]
+      },
+      "impressions": {
+        "rweb_webp_large_image_variants_16305": {
+          "key": "rweb_webp_large_image_variants_16305",
+          "bucket": "treatment",
+          "version": "3"
+        }
+      },
       "keysRead": {},
-      "settingsVersion": "4725856ddbb3fd6eabf25bd0e87ae919"
+      "settingsVersion": "79ea9af415c20e2d129ed95dd70a477b"
     },
     "debug": {},
-    "featureSetToken": "a51ec7972f167dcd8524621417f471b72c165c14",
+    "featureSetToken": "6b884e52edb8efe9f4a7ebcffa198860632282ca",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -5515,7 +5513,7 @@
     "country": "US",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "169386158667261059",
+    "guestId": "169394799973916800",
     "hasCommunityMemberships": "false",
     "language": "en",
     "oneFactorLoginEligibility": {
