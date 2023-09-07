@@ -4506,8 +4506,8 @@
     "SubscribableUser": "SubscribableUser"
   },
   {
-    "DELEGATE_ERR_002": "A",
-    "DELEGATE_ERR_003": "P",
+    "DELEGATE_ERR_002": "P",
+    "DELEGATE_ERR_003": "U",
     "DELEGATE_ERR_004": "G",
     "DELEGATE_ERR_005": "O",
     "DELEGATE_ERR_006": "z"
@@ -5141,6 +5141,11 @@
     "Star": "star",
     "Interested": "interested",
     "Favorite": "favorite"
+  },
+  {
+    "Composition": "composition",
+    "DMComposition": "dm_composition",
+    "NoteComposition": "note_composition"
   },
   {
     "Cashtag": "cashtag",
@@ -6243,7 +6248,7 @@
     "SETTINGS_LOADED": "rweb/immersiveViewer/SETTINGS_LOADED"
   },
   {
-    "fetchStatus": "Le.ZP.NONE",
+    "fetchStatus": "Pe.ZP.NONE",
     "mobileViewCount": "0"
   },
   {
