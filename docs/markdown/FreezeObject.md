@@ -4805,8 +4805,8 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant         | value   |
 |:-----------------|:--------|
-| DELEGATE_ERR_002 | A       |
-| DELEGATE_ERR_003 | P       |
+| DELEGATE_ERR_002 | P       |
+| DELEGATE_ERR_003 | U       |
 | DELEGATE_ERR_004 | G       |
 | DELEGATE_ERR_005 | O       |
 | DELEGATE_ERR_006 | z       |
@@ -5546,6 +5546,12 @@ This document is entirely auto-generated and may contain errors.<br>
 | Star        | star       |
 | Interested  | interested |
 | Favorite    | favorite   |
+
+| constant        | value            |
+|:----------------|:-----------------|
+| Composition     | composition      |
+| DMComposition   | dm_composition   |
+| NoteComposition | note_composition |
 
 | constant   | value       |
 |:-----------|:------------|
@@ -6856,7 +6862,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant        | value      |
 |:----------------|:-----------|
-| fetchStatus     | Le.ZP.NONE |
+| fetchStatus     | Pe.ZP.NONE |
 | mobileViewCount | 0          |
 
 | constant   | value        |
