@@ -115,6 +115,11 @@
       "entities": {},
       "errors": {},
       "fetchStatus": {}
+    },
+    "translationsProfiles": {
+      "entities": {},
+      "errors": {},
+      "fetchStatus": {}
     }
   },
   "featureSwitch": {
@@ -5305,7 +5310,7 @@
           "value": "false"
         },
         "web_image_large_webp_variants": {
-          "value": "false"
+          "value": "true"
         },
         "web_video_bitrate_persistence_enabled": {
           "value": "false"
@@ -5341,20 +5346,10 @@
           "value": "false"
         }
       },
-      "impression_pointers": {
-        "web_image_large_webp_variants": [
-          "rweb_webp_large_image_variants_16305"
-        ]
-      },
-      "impressions": {
-        "rweb_webp_large_image_variants_16305": {
-          "key": "rweb_webp_large_image_variants_16305",
-          "bucket": "control",
-          "version": "3"
-        }
-      },
+      "impression_pointers": {},
+      "impressions": {},
       "keysRead": {},
-      "settingsVersion": "e4d13ddf678937a7ae2554904774f375"
+      "settingsVersion": "826864e2f591d1da7e1e2443fe69455a"
     },
     "debug": {},
     "featureSetToken": "841ab1d3867bbf5683439a3e54dbad45ce7c3735",
@@ -5427,7 +5422,7 @@
     "country": "US",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "169412132719344992",
+    "guestId": "169420755959981896",
     "hasCommunityMemberships": "false",
     "language": "en",
     "oneFactorLoginEligibility": {
