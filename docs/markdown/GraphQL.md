@@ -1197,29 +1197,33 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## BirdwatchFetchAuthenticatedUserProfile<br>
-Request URL: `https://twitter.com/i/api/graphql/j0xscK7IT-U52Geu7QEaDQ/BirdwatchFetchAuthenticatedUserProfile`<br>
+Request URL: `https://twitter.com/i/api/graphql/JSf0I8AZFRLzAuay4E0eZw/BirdwatchFetchAuthenticatedUserProfile`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
 `None`<br>
 #### features<br>
-| key                                                 | type    | default   |   variable |
-|:----------------------------------------------------|:--------|:----------|-----------:|
-| responsive_web_birdwatch_mobile_nav_setting_enabled | ...     | error     |        nan |
-| responsive_web_birdwatch_note_limit_enabled         | boolean | nan       |          1 |
+| key                                                 | type    |   variable | default   |
+|:----------------------------------------------------|:--------|-----------:|:----------|
+| responsive_web_birdwatch_top_contributor_enabled    | boolean |          1 | nan       |
+| responsive_web_birdwatch_mobile_nav_setting_enabled | ...     |        nan | error     |
+| responsive_web_birdwatch_note_limit_enabled         | boolean |          1 | nan       |
 
 #### queryId<br>
 `None`<br>
 ## BirdwatchFetchBirdwatchProfile<br>
-Request URL: `https://twitter.com/i/api/graphql/btgGtchypc3D491MJ7XXWA/BirdwatchFetchBirdwatchProfile`<br>
+Request URL: `https://twitter.com/i/api/graphql/iL_0nGf1nelAd9Kz-pZJlA/BirdwatchFetchBirdwatchProfile`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
 `None`<br>
 #### features<br>
-`None`<br>
+| key                                              | type    | variable   |
+|:-------------------------------------------------|:--------|:-----------|
+| responsive_web_birdwatch_top_contributor_enabled | boolean | True       |
+
 #### queryId<br>
 `None`<br>
 ## BirdwatchFetchCanTweetBeMediaNote<br>
@@ -5015,6 +5019,23 @@ Login Required: `...`<br>
 `None`<br>
 #### queryId<br>
 `None`<br>
+## PinnedTimelines<br>
+Request URL: `https://twitter.com/i/api/graphql/h0H093ydJCCxORlQqW_1Zw/PinnedTimelines`<br>
+Request Method: `GET`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+| key                                                               | type    | variable   |
+|:------------------------------------------------------------------|:--------|:-----------|
+| responsive_web_graphql_exclude_directive_enabled                  | boolean | True       |
+| verified_phone_label_enabled                                      | boolean | False      |
+| responsive_web_graphql_skip_user_profile_image_extensions_enabled | boolean | False      |
+| responsive_web_graphql_timeline_navigation_enabled                | boolean | True       |
+
+#### queryId<br>
+`None`<br>
 ## BlockedAccountsAll<br>
 Request URL: `https://twitter.com/i/api/graphql/pKPk9HFMklRNOsZV2YDnjw/BlockedAccountsAll`<br>
 Request Method: `GET`<br>
@@ -8729,29 +8750,33 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## BirdwatchFetchAuthenticatedUserProfile<br>
-Request URL: `https://twitter.com/i/api/graphql/j0xscK7IT-U52Geu7QEaDQ/BirdwatchFetchAuthenticatedUserProfile`<br>
+Request URL: `https://twitter.com/i/api/graphql/JSf0I8AZFRLzAuay4E0eZw/BirdwatchFetchAuthenticatedUserProfile`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
 `None`<br>
 #### features<br>
-| key                                                 | type    | default   |   variable |
-|:----------------------------------------------------|:--------|:----------|-----------:|
-| responsive_web_birdwatch_mobile_nav_setting_enabled | ...     | error     |        nan |
-| responsive_web_birdwatch_note_limit_enabled         | boolean | nan       |          1 |
+| key                                                 | type    |   variable | default   |
+|:----------------------------------------------------|:--------|-----------:|:----------|
+| responsive_web_birdwatch_top_contributor_enabled    | boolean |          1 | nan       |
+| responsive_web_birdwatch_mobile_nav_setting_enabled | ...     |        nan | error     |
+| responsive_web_birdwatch_note_limit_enabled         | boolean |          1 | nan       |
 
 #### queryId<br>
 `None`<br>
 ## BirdwatchFetchBirdwatchProfile<br>
-Request URL: `https://twitter.com/i/api/graphql/btgGtchypc3D491MJ7XXWA/BirdwatchFetchBirdwatchProfile`<br>
+Request URL: `https://twitter.com/i/api/graphql/iL_0nGf1nelAd9Kz-pZJlA/BirdwatchFetchBirdwatchProfile`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
 `None`<br>
 #### features<br>
-`None`<br>
+| key                                              | type    | variable   |
+|:-------------------------------------------------|:--------|:-----------|
+| responsive_web_birdwatch_top_contributor_enabled | boolean | True       |
+
 #### queryId<br>
 `None`<br>
 ## BirdwatchFetchCanTweetBeMediaNote<br>
@@ -11369,6 +11394,23 @@ Login Required: `...`<br>
 `None`<br>
 #### features<br>
 `None`<br>
+#### queryId<br>
+`None`<br>
+## PinnedTimelines<br>
+Request URL: `https://twitter.com/i/api/graphql/h0H093ydJCCxORlQqW_1Zw/PinnedTimelines`<br>
+Request Method: `GET`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+| key                                                               | type    | variable   |
+|:------------------------------------------------------------------|:--------|:-----------|
+| responsive_web_graphql_exclude_directive_enabled                  | boolean | True       |
+| verified_phone_label_enabled                                      | boolean | False      |
+| responsive_web_graphql_skip_user_profile_image_extensions_enabled | boolean | False      |
+| responsive_web_graphql_timeline_navigation_enabled                | boolean | True       |
+
 #### queryId<br>
 `None`<br>
 ## ProfileUserPhoneState<br>
