@@ -155,7 +155,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant              | value                 |
 |:----------------------|:----------------------|
-| ...Zu                 | _                     |
+| ...Fu                 | _                     |
 | ColumnFromPath        | ColumnFromPath        |
 | ColumnTimelineAdapter | ColumnTimelineAdapter |
 
@@ -2699,9 +2699,9 @@ This document is entirely auto-generated and may contain errors.<br>
 |:--------------|:-------------|
 | superFollower | u().fc065ee4 |
 
-| constant      | value                                                                                                                                                                                                                                    |
-|:--------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| superFollower | {'graphic': 'p.default', 'headline': 'u().e453f536', 'subtext': 'u().dea63fc4', 'actionLabel': 'u().g7099a02', 'actionLink': 'https://help.twitter.com/en/using-twitter/super-follows#sfexpect', 'secondaryActionLabel': 'u().c2637ef6'} |
+| constant      | value                                                                                                                                                                                                                              |
+|:--------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| superFollower | {'graphic': 'p.default', 'headline': 'u().e453f536', 'subtext': 'u().dea63fc4', 'actionLabel': 'u().g7099a02', 'actionLink': 'https://help.x.com/en/using-twitter/super-follows#sfexpect', 'secondaryActionLabel': 'u().c2637ef6'} |
 
 | constant        | value        |
 |:----------------|:-------------|
@@ -4104,12 +4104,34 @@ This document is entirely auto-generated and may contain errors.<br>
 | EXISTING            | EXISTING            |
 | DEVICE_NOT_A_MEMBER | DEVICE_NOT_A_MEMBER |
 
+| constant   | value                                               |
+|:-----------|:----------------------------------------------------|
+| REQUEST    | rweb/pinnedTimelines/FETCH_PINNED_TIMELINES_REQUEST |
+| SUCCESS    | rweb/pinnedTimelines/FETCH_PINNED_TIMELINES_SUCCESS |
+| FAILURE    | rweb/pinnedTimelines/FETCH_PINNED_TIMELINES_FAILURE |
+
+| constant   | value     |
+|:-----------|:----------|
+| COMMUNITY  | community |
+| LIST       | list      |
+
 | constant   | value   |
 |:-----------|:--------|
 | None       | None    |
 | Nudge      | Nudge   |
 | Prompt     | Prompt  |
 | Require    | Require |
+
+| constant   | value                                               |
+|:-----------|:----------------------------------------------------|
+| REQUEST    | rweb/pinnedTimelines/FETCH_PINNED_TIMELINES_REQUEST |
+| SUCCESS    | rweb/pinnedTimelines/FETCH_PINNED_TIMELINES_SUCCESS |
+| FAILURE    | rweb/pinnedTimelines/FETCH_PINNED_TIMELINES_FAILURE |
+
+| constant   | value     |
+|:-----------|:----------|
+| COMMUNITY  | community |
+| LIST       | list      |
 
 | constant   | value      |
 |:-----------|:-----------|
@@ -4303,7 +4325,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{[o.sj.AMPLIFY]:{"conversionHandler":"()"{"cardId":"e","cardType":"t","converterOptions":"i","data":"n"}{"const s=()(0,r.FL)",l=parseInt(n,\"image_value\",\"player_image_original\")/parseInt(0,r.SIn,\"string_value\",\"player_width\",10),d=(0,r.SIn,\"string_value\",\"player_height\",10)(0,r.SI),c=(n,...
+{[o.sj.AMPLIFY]:{"conversionHandler":"()"{"cardId":"e","cardType":"t","converterOptions":"i","data":"n"}{"const r=()(0,s.FL)",l=parseInt(n,\"image_value\",\"player_image_original\")/parseInt(0,s.SIn,\"string_value\",\"player_width\",10),d=(0,s.SIn,\"string_value\",\"player_height\",10)(0,s.SI),c=(n,...
 ```
 | constant   | value                                                            |
 |:-----------|:-----------------------------------------------------------------|
@@ -4446,8 +4468,8 @@ This document is entirely auto-generated and may contain errors.<br>
 | constant       | value                                          |
 |:---------------|:-----------------------------------------------|
 | closed         | {'shouldShow': '!1'}                           |
-| openSuccessful | {'shouldShow': '!0', 'badgeType': 'A.Ratings'} |
-| openHelpful    | {'shouldShow': '!0', 'badgeType': 'A.Notes'}   |
+| openSuccessful | {'shouldShow': '!0', 'badgeType': 'x.Ratings'} |
+| openHelpful    | {'shouldShow': '!0', 'badgeType': 'x.Notes'}   |
 
 | constant   | value                                               |
 |:-----------|:----------------------------------------------------|
@@ -4475,7 +4497,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{"ActionsBar":"C.Z","ActionMenu":"function()"{"Icon":"e","isDisabled":"t","items":"n","onOpen":"o"}{"const r=i.useCallback()"{"items":"n","onCloseRequested":"e"}{"Icon":"e","isDisabled":"t","onClick":"o","renderActionMenu":"r"}},"CallToAction":"a.ZP","EditCallout":"x.Z","Education":"k.Z","Highlighte...
+{"ActionsBar":"C.Z","ActionMenu":"function()"{"Icon":"e","isDisabled":"t","items":"n","onOpen":"o"}{"const r=i.useCallback()"{"items":"n","onCloseRequested":"e"}{"Icon":"e","isDisabled":"t","onClick":"o","renderActionMenu":"r"}},"CallToAction":"a.ZP","EditCallout":"S.Z","Education":"k.Z","Highlighte...
 ```
 | constant   | value                          |
 |:-----------|:-------------------------------|
@@ -4722,13 +4744,13 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant                  | value                                   |
 |:--------------------------|:----------------------------------------|
-| all                       | {'icon': 'is', 'label': 'C().i8ea6d4e'} |
-| community                 | {'icon': 'ns', 'label': 'C().ec5a4a26'} |
-| by_invitation             | {'icon': 'ss', 'label': 'C().b454300a'} |
-| subscribers               | {'icon': 'is', 'label': 'C().bf8d98f4'} |
-| community_members         | {'icon': 'as', 'label': 'C().i13be5a0'} |
-| super_followers_exclusive | {'icon': 'is', 'label': 'C().ebe1d850'} |
-| trusted_friends_tweet     | {'icon': 'os', 'label': 'u'}            |
+| all                       | {'icon': 'ss', 'label': 'C().i8ea6d4e'} |
+| community                 | {'icon': 'as', 'label': 'C().ec5a4a26'} |
+| by_invitation             | {'icon': 'ns', 'label': 'C().b454300a'} |
+| subscribers               | {'icon': 'ss', 'label': 'C().bf8d98f4'} |
+| community_members         | {'icon': 'os', 'label': 'C().i13be5a0'} |
+| super_followers_exclusive | {'icon': 'ss', 'label': 'C().ebe1d850'} |
+| trusted_friends_tweet     | {'icon': 'rs', 'label': 'u'}            |
 
 | constant   | value   |
 |:-----------|:--------|
@@ -5547,12 +5569,6 @@ This document is entirely auto-generated and may contain errors.<br>
 | Interested  | interested |
 | Favorite    | favorite   |
 
-| constant        | value            |
-|:----------------|:-----------------|
-| Composition     | composition      |
-| DMComposition   | dm_composition   |
-| NoteComposition | note_composition |
-
 | constant   | value       |
 |:-----------|:------------|
 | Cashtag    | cashtag     |
@@ -5898,7 +5914,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{"ActionsBar":"C.Z","ActionMenu":"function()"{"Icon":"e","isDisabled":"t","items":"n","onOpen":"i"}{"const o=r.useCallback()"{"items":"n","onCloseRequested":"e"}{"Icon":"e","isDisabled":"t","onClick":"i","renderActionMenu":"o"}},"CallToAction":"a.ZP","EditCallout":"x.Z","Education":"S.Z","Highlighte...
+{"ActionsBar":"C.Z","ActionMenu":"function()"{"Icon":"e","isDisabled":"t","items":"n","onOpen":"r"}{"const o=i.useCallback()"{"items":"n","onCloseRequested":"e"}{"Icon":"e","isDisabled":"t","onClick":"r","renderActionMenu":"o"}},"CallToAction":"a.ZP","EditCallout":"x.Z","Education":"S.Z","Highlighte...
 ```
 | constant   | value    |
 |:-----------|:---------|
@@ -6862,7 +6878,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant        | value      |
 |:----------------|:-----------|
-| fetchStatus     | Pe.ZP.NONE |
+| fetchStatus     | Le.ZP.NONE |
 | mobileViewCount | 0          |
 
 | constant   | value        |
