@@ -770,18 +770,21 @@
       "features": {}
     },
     "BirdwatchFetchAuthenticatedUserProfile": {
-      "url": "https://twitter.com/i/api/graphql/j0xscK7IT-U52Geu7QEaDQ/BirdwatchFetchAuthenticatedUserProfile",
-      "queryId": "j0xscK7IT-U52Geu7QEaDQ",
+      "url": "https://twitter.com/i/api/graphql/JSf0I8AZFRLzAuay4E0eZw/BirdwatchFetchAuthenticatedUserProfile",
+      "queryId": "JSf0I8AZFRLzAuay4E0eZw",
       "method": "GET",
       "features": {
+        "responsive_web_birdwatch_top_contributor_enabled": true,
         "responsive_web_birdwatch_note_limit_enabled": true
       }
     },
     "BirdwatchFetchBirdwatchProfile": {
-      "url": "https://twitter.com/i/api/graphql/btgGtchypc3D491MJ7XXWA/BirdwatchFetchBirdwatchProfile",
-      "queryId": "btgGtchypc3D491MJ7XXWA",
+      "url": "https://twitter.com/i/api/graphql/iL_0nGf1nelAd9Kz-pZJlA/BirdwatchFetchBirdwatchProfile",
+      "queryId": "iL_0nGf1nelAd9Kz-pZJlA",
       "method": "GET",
-      "features": {}
+      "features": {
+        "responsive_web_birdwatch_top_contributor_enabled": true
+      }
     },
     "BirdwatchFetchCanTweetBeMediaNote": {
       "url": "https://twitter.com/i/api/graphql/631X76cvyQ0CtLViMsdulw/BirdwatchFetchCanTweetBeMediaNote",
@@ -2143,6 +2146,17 @@
       "queryId": "iRe6ig5OV1EzOtldNIuGDQ",
       "method": "POST",
       "features": {}
+    },
+    "PinnedTimelines": {
+      "url": "https://twitter.com/i/api/graphql/h0H093ydJCCxORlQqW_1Zw/PinnedTimelines",
+      "queryId": "h0H093ydJCCxORlQqW_1Zw",
+      "method": "GET",
+      "features": {
+        "responsive_web_graphql_exclude_directive_enabled": true,
+        "verified_phone_label_enabled": false,
+        "responsive_web_graphql_skip_user_profile_image_extensions_enabled": false,
+        "responsive_web_graphql_timeline_navigation_enabled": true
+      }
     },
     "Likes": {
       "url": "https://twitter.com/i/api/graphql/lVf2NuhLoYVrpN4nO7uw0Q/Likes",
