@@ -134,7 +134,7 @@
     "...n": "_"
   },
   {
-    "...o": "_"
+    "...l": "_"
   },
   {
     "instructions": []
@@ -390,11 +390,11 @@
     "max": "400"
   },
   {
-    "cardWidth": "l",
+    "cardWidth": "o",
     "columnWidths": "t",
     "sideNavWidths": "a",
     "contentWidths": "r",
-    "wideTabBarWidth": "o",
+    "wideTabBarWidth": "l",
     "dmDrawerHeight": "i",
     "dmDrawerWidth": "u"
   },
@@ -458,13 +458,13 @@
     "SignUp": "signup"
   },
   {
-    "createAccountLabel": "l().eb022176",
-    "createAccountPhoneEmailLabel": "l().gcfef7b6",
-    "logInLabel": "l().e919c3bc",
-    "signInLabel": "l().e5b0e544",
-    "signUpLabel": "l().a565833e",
-    "signUpPhoneEmailLabel": "l().eb022176",
-    "useAppLabel": "l().gd93944e"
+    "createAccountLabel": "o().eb022176",
+    "createAccountPhoneEmailLabel": "o().gcfef7b6",
+    "logInLabel": "o().e919c3bc",
+    "signInLabel": "o().e5b0e544",
+    "signUpLabel": "o().a565833e",
+    "signUpPhoneEmailLabel": "o().eb022176",
+    "useAppLabel": "o().gd93944e"
   },
   {
     "Control": "control",
@@ -1214,7 +1214,7 @@
   },
   {
     "memberships": [],
-    "fetchStatus": "l.ZP.NONE"
+    "fetchStatus": "o.ZP.NONE"
   },
   {
     "UPDATE_USERS": "UPDATE_USERS"
@@ -1286,7 +1286,7 @@
     "SERVER": "server"
   },
   {
-    "fetchStatus": "o.ZP.NONE",
+    "fetchStatus": "l.ZP.NONE",
     "selectedTimeline": "t.oO"
   },
   {
@@ -1851,9 +1851,9 @@
       "bold": "!0",
       "fontSize": "subtext3"
     },
-    "alt": "_",
-    "gif": "_",
-    "hd": "_",
+    "alt": "C",
+    "gif": "C",
+    "hd": "C",
     "likedByAuthor": {
       "backgroundColor": "gray50",
       "bold": "!1",
@@ -1866,7 +1866,7 @@
       "opacity": ".1"
     }
   },
-  "{\"isExternal()\"{\"try\"{const n=l();return this._customIsExternal?this._customIsExternal(e,d){\"hrefHostname\":\"n\",\"href\":\"e\"}}\"catch()\"{\"return!0\"}},\"setIsExternal()\"{\"this._customIsExternal=e\"},\"clearIsExternal()\"{\"this._customIsExternal=null\"},\"onLinkClick()\"{\"this._customOnLinkClick&&this._customOnLinkClick()\"{\"event\":\"e\",\"link\":\"d\",\"newWindowRequested\":\"n\"}},\"setOnLinkClick()\"{\"this._customOnLinkClick=e\"},\"linkProcessor()\"{\"return this._customLinkProcessor?this._customLinkProcessor()\":\"e\"},\"setLinkProcessor()\"{\"this._customLinkProcessor=e\"},\"hrefProcessor()\"{\"return this._customHrefProcessor?this._customHrefProcessor()\":\"e\"},\"setHrefProcessor()\"{\"this._customHrefProcessor=e\"},\"withAnchorless\":e=>\"string\"==typeof e?{\"anchorless\":\"!0\",\"pathname\":\"e\"}:{\"anchorless\":\"!0\",\"...e\":\"_\"},\"setLinkFromUrtUrl()\"{\"this._customLinkFromUrtUrl=e\"},\"getLinkFromUrtUrl()\"{\"return this._customLinkFromUrtUrl?this._customLinkFromUrtUrl()\":{\"external\":\"!0\",\"pathname\":\"e.url\"}}}",
+  "{\"isExternal()\"{\"try\"{const n=o();return this._customIsExternal?this._customIsExternal(e,d){\"hrefHostname\":\"n\",\"href\":\"e\"}}\"catch()\"{\"return!0\"}},\"setIsExternal()\"{\"this._customIsExternal=e\"},\"clearIsExternal()\"{\"this._customIsExternal=null\"},\"onLinkClick()\"{\"this._customOnLinkClick&&this._customOnLinkClick()\"{\"event\":\"e\",\"link\":\"d\",\"newWindowRequested\":\"n\"}},\"setOnLinkClick()\"{\"this._customOnLinkClick=e\"},\"linkProcessor()\"{\"return this._customLinkProcessor?this._customLinkProcessor()\":\"e\"},\"setLinkProcessor()\"{\"this._customLinkProcessor=e\"},\"hrefProcessor()\"{\"return this._customHrefProcessor?this._customHrefProcessor()\":\"e\"},\"setHrefProcessor()\"{\"this._customHrefProcessor=e\"},\"withAnchorless\":e=>\"string\"==typeof e?{\"anchorless\":\"!0\",\"pathname\":\"e\"}:{\"anchorless\":\"!0\",\"...e\":\"_\"},\"setLinkFromUrtUrl()\"{\"this._customLinkFromUrtUrl=e\"},\"getLinkFromUrtUrl()\"{\"return this._customLinkFromUrtUrl?this._customLinkFromUrtUrl()\":{\"external\":\"!0\",\"pathname\":\"e.url\"}}}",
   {
     "circle": "circle",
     "hex": "hex",
@@ -2023,34 +2023,34 @@
     "text": "text"
   },
   {
-    "...o()": "_",
+    "...l()": "_",
     "activeFaintGray": "rgba(r.CV.light)",
-    "activeBlack": "l.bs.black(230, 236, 240, 0.7)",
-    "hoverBlack": "l.bs.black(.07)",
-    "navigationBackground": "l.Cj",
-    "navigationBackground95": "l.bs.white(.03)",
-    "cellBackground": "l.Cj",
+    "activeBlack": "o.bs.black(230, 236, 240, 0.7)",
+    "hoverBlack": "o.bs.black(.07)",
+    "navigationBackground": "o.Cj",
+    "navigationBackground95": "o.bs.white(.03)",
+    "cellBackground": "o.Cj",
     "borderColor": "t.Z.color.baseColor.gray50",
     "nestedBorderColor": "t.Z.color.baseColor.gray200",
     "dmReceivedBubbleBackground": "t.Z.color.baseColor.gray50",
     "badgeColor": "t.Z.color.baseColor.blue500",
     "badgeColorNew": "t.Z.color.baseColor.blue500",
-    "maskColor": "l.bs.black(.95)",
-    "hoverLabelColor": "l.bs.black(.4)",
-    "elevatedBackground": "l.Cj",
-    "elevatedBackgroundShadow": "l.bs.black(.6)",
+    "maskColor": "o.bs.black(.95)",
+    "hoverLabelColor": "o.bs.black(.4)",
+    "elevatedBackground": "o.Cj",
+    "elevatedBackgroundShadow": "o.bs.black(.6)",
     "brandColor": "t.Z.color.baseColor.gray1100",
-    "whiteOnColor": "l.Cj",
+    "whiteOnColor": "o.Cj",
     "buttonBlack": "t.Z.color.baseColor.gray1100",
-    "buttonWhite": "l.Cj",
+    "buttonWhite": "o.Cj",
     "buttonOutlinedBorder": "t.Z.color.baseColor.gray200",
     "buttonDestructionOutlinedBorder": "t.Z.color.baseColor.red100",
-    "appBarBackground": "l.bs.white(.1)",
-    "appBarFirefoxBackground": "l.bs.white(.85)"
+    "appBarBackground": "o.bs.white(.1)",
+    "appBarFirefoxBackground": "o.bs.white(.85)"
   },
   {
     "...m": "_",
-    "...o()": "_",
+    "...l()": "_",
     "text": "#141D26",
     "gray700": "#3B4C5C",
     "gray300": "#697987",
@@ -2058,7 +2058,7 @@
     "gray100": "#E5EAEC",
     "gray50": "t.Z.color.baseColor.gray200",
     "gray0": "t.Z.color.baseColor.gray50",
-    "navigationBackground95": "l.Cj",
+    "navigationBackground95": "o.Cj",
     "borderColor": "t.Z.color.baseColor.gray300",
     "nestedBorderColor": "t.Z.color.baseColor.gray300",
     "dmReceivedBubbleBackground": "t.Z.color.baseColor.gray200",
@@ -2067,74 +2067,74 @@
     "buttonOutlinedBorder": "t.Z.color.baseColor.gray700"
   },
   {
-    "...o()": "_",
+    "...l()": "_",
     "activeFaintGray": "rgba(r.CV.dark)",
-    "activeBlack": "l.bs.white(20, 29, 38, 0.7)",
-    "hoverBlack": "l.bs.white(.07)",
+    "activeBlack": "o.bs.white(20, 29, 38, 0.7)",
+    "hoverBlack": "o.bs.white(.07)",
     "navigationBackground": "#15202B",
-    "navigationBackground95": "l.bs.dim(.03)",
+    "navigationBackground95": "o.bs.dim(.03)",
     "cellBackground": "#15202B",
     "borderColor": "#38444D",
     "nestedBorderColor": "#38444D",
     "dmReceivedBubbleBackground": "#3D5466",
-    "badgeColor": "l.Cj",
+    "badgeColor": "o.Cj",
     "badgeColorNew": "t.Z.color.baseColor.blue500",
-    "maskColor": "l.bs.gray700(.95)",
-    "hoverLabelColor": "l.bs.gray700(.4)",
+    "maskColor": "o.bs.gray700(.95)",
+    "hoverLabelColor": "o.bs.gray700(.4)",
     "elevatedBackground": "#1C2C3C",
-    "elevatedBackgroundShadow": "l.bs.dim(.8)",
+    "elevatedBackgroundShadow": "o.bs.dim(.8)",
     "brandColor": "t.Z.color.baseColor.gray0",
-    "whiteOnColor": "l.Cj",
+    "whiteOnColor": "o.Cj",
     "buttonBlack": "t.Z.color.baseColor.gray50",
     "buttonWhite": "t.Z.color.baseColor.gray1100",
     "buttonOutlinedBorder": "t.Z.color.baseColor.gray700",
     "buttonDestructionOutlinedBorder": "#67070F",
-    "appBarBackground": "l.bs.dim(.1)",
-    "appBarFirefoxBackground": "l.bs.dim(.75)"
+    "appBarBackground": "o.bs.dim(.1)",
+    "appBarFirefoxBackground": "o.bs.dim(.75)"
   },
   {
     "...D": "_",
-    "...o()": "_",
-    "text": "l.Cj",
+    "...l()": "_",
+    "text": "o.Cj",
     "navigationBackground95": "#15202B",
     "unreadCellBackground": "#325D7D",
     "dmReceivedBubbleBackground": "#B8CBD9",
-    "badgeColor": "l.Cj",
+    "badgeColor": "o.Cj",
     "badgeColorNew": "#264A9D",
     "whiteOnColor": "t.Z.color.baseColor.gray1100",
     "buttonOutlinedBorder": "t.Z.color.baseColor.gray300"
   },
   {
-    "...o()": "_",
+    "...l()": "_",
     "activeFaintGray": "rgba(r.CV.darker)",
-    "activeBlack": "l.bs.white(18, 21, 23, 0.7)",
-    "hoverBlack": "l.bs.white(.07)",
-    "navigationBackground": "l.E5",
-    "navigationBackground95": "l.bs.black(.03)",
-    "cellBackground": "l.E5",
+    "activeBlack": "o.bs.white(18, 21, 23, 0.7)",
+    "hoverBlack": "o.bs.white(.07)",
+    "navigationBackground": "o.E5",
+    "navigationBackground95": "o.bs.black(.03)",
+    "cellBackground": "o.E5",
     "unreadCellBackground": "#041722",
     "borderColor": "#2F3336",
     "nestedBorderColor": "#2F3336",
     "dmReceivedBubbleBackground": "#2F3336",
     "badgeColor": "t.Z.color.darkColor.gray1000",
     "badgeColorNew": "t.Z.color.baseColor.blue500",
-    "maskColor": "l.bs.gray700(.95)",
-    "hoverLabelColor": "l.bs.gray700(.4)",
+    "maskColor": "o.bs.gray700(.95)",
+    "hoverLabelColor": "o.bs.gray700(.4)",
     "elevatedBackground": "#1B2023",
-    "elevatedBackgroundShadow": "l.bs.black(.8)",
+    "elevatedBackgroundShadow": "o.bs.black(.8)",
     "brandColor": "t.Z.color.darkColor.gray1100",
-    "whiteOnColor": "l.Cj",
+    "whiteOnColor": "o.Cj",
     "buttonBlack": "t.Z.color.baseColor.gray50",
     "buttonWhite": "t.Z.color.baseColor.gray1100",
     "buttonOutlinedBorder": "t.Z.color.baseColor.gray700",
     "buttonDestructionOutlinedBorder": "#67070F",
-    "appBarBackground": "l.bs.black(.1)",
-    "appBarFirefoxBackground": "l.bs.black(.65)"
+    "appBarBackground": "o.bs.black(.1)",
+    "appBarFirefoxBackground": "o.bs.black(.65)"
   },
   {
     "...w": "_",
-    "...o()": "_",
-    "text": "l.Cj",
+    "...l()": "_",
+    "text": "o.Cj",
     "navigationBackground": "#050505",
     "navigationBackground95": "#050505",
     "cellBackground": "#050505",
@@ -2142,7 +2142,7 @@
     "borderColor": "#3D4145",
     "nestedBorderColor": "#3D4145",
     "dmReceivedBubbleBackground": "#929CA6",
-    "badgeColor": "l.Cj",
+    "badgeColor": "o.Cj",
     "badgeColorNew": "#264A9D",
     "whiteOnColor": "t.Z.color.baseColor.gray1100",
     "buttonOutlinedBorder": "t.Z.color.baseColor.gray300"
@@ -2167,7 +2167,7 @@
     "space80": "n(p.spaces.space72)"
   },
   {
-    "appBarHeight": "f",
+    "appBarHeight": "T",
     "appBarHeightPx": "y",
     "conversationLineWidth": "D.space2",
     "gutterHorizontal": "S.space16",
@@ -2176,15 +2176,15 @@
     "gutterVerticalPx": "D.space12"
   },
   {
-    "aspectRatios": "o",
+    "aspectRatios": "l",
     "baseFontSize": "M",
     "borderRadii": "u",
     "borderRadiiPx": "i",
     "borderWidths": "c",
     "borderWidthsPx": "s",
     "breakpoints": "r",
-    "componentDimensions": "T",
-    "componentZIndices": "l",
+    "componentDimensions": "f",
+    "componentZIndices": "o",
     "fontSizes": "g",
     "fontSizesPx": "w",
     "fontWeights": "b",
@@ -2195,7 +2195,7 @@
     "spaces": "S",
     "spacesPx": "D"
   },
-  "{\"...m()\":{\"scale\":\"l\"}\"rd0\",A.obn,d,\"a\"}",
+  "{\"...m()\":{\"scale\":\"o\"}\"rd0\",A.obn,d,\"a\"}",
   {
     "UNKNOWN": "0",
     "TOP_LEFT": "1",
@@ -4197,11 +4197,11 @@
     },
     "openSuccessful": {
       "shouldShow": "!0",
-      "badgeType": "x.Ratings"
+      "badgeType": "A.Ratings"
     },
     "openHelpful": {
       "shouldShow": "!0",
-      "badgeType": "x.Notes"
+      "badgeType": "A.Notes"
     }
   },
   {
@@ -4224,7 +4224,7 @@
     "SUCCESS": "rweb/bookmarkFolders/CREATE_BOOKMARK_FOLDERS_SUCCESS",
     "FAILURE": "rweb/bookmarkFolders/CREATE_BOOKMARK_FOLDERS_FAILURE"
   },
-  "{\"ActionsBar\":\"C.Z\",\"ActionMenu\":\"function()\"{\"Icon\":\"e\",\"isDisabled\":\"t\",\"items\":\"n\",\"onOpen\":\"o\"}{\"const r=i.useCallback()\"{\"items\":\"n\",\"onCloseRequested\":\"e\"}{\"Icon\":\"e\",\"isDisabled\":\"t\",\"onClick\":\"o\",\"renderActionMenu\":\"r\"}},\"CallToAction\":\"a.ZP\",\"EditCallout\":\"S.Z\",\"Education\":\"k.Z\",\"HighlightedUserLabel\":\"c.Z\",\"Media\":\"A.Z\",\"Place\":\"r.ZP\",\"PromotedDetails\":\"u.Z\",\"PromotedUserProfileCard\":\"D\",\"ReplyContext\":\"R.ZP\",\"RichContent\":\"U.Z\",\"SocialContext\":\"b.Z\",\"Text\":\"B.Z\",\"Tombstone\":\"w.Z\",\"Timestamp\":\"p.Z\",\"UserAvatar\":\"N.Z\",\"UserFollowIndicator\":\"H.Z\",\"UserName\":\"F.Z\",\"ArticleCard\":\"x\"}",
+  "{\"ActionsBar\":\"C.Z\",\"ActionMenu\":\"function()\"{\"Icon\":\"e\",\"isDisabled\":\"t\",\"items\":\"n\",\"onOpen\":\"o\"}{\"const r=i.useCallback()\"{\"items\":\"n\",\"onCloseRequested\":\"e\"}{\"Icon\":\"e\",\"isDisabled\":\"t\",\"onClick\":\"o\",\"renderActionMenu\":\"r\"}},\"CallToAction\":\"a.ZP\",\"EditCallout\":\"S.Z\",\"Education\":\"k.Z\",\"HighlightedUserLabel\":\"c.Z\",\"Media\":\"A.Z\",\"Place\":\"r.ZP\",\"PromotedDetails\":\"u.Z\",\"PromotedUserProfileCard\":\"D\",\"ReplyContext\":\"R.ZP\",\"RichContent\":\"U.Z\",\"SocialContext\":\"b.Z\",\"Text\":\"F.Z\",\"Tombstone\":\"w.Z\",\"Timestamp\":\"p.Z\",\"UserAvatar\":\"B.Z\",\"UserFollowIndicator\":\"H.Z\",\"UserName\":\"N.Z\",\"ArticleCard\":\"x\"}",
   {
     "REQUEST": "rweb/teams/FETCH_TEAMS_REQUEST",
     "SUCCESS": "rweb/teams/FETCH_TEAMS_SUCCESS",
@@ -5161,6 +5161,11 @@
     "Favorite": "favorite"
   },
   {
+    "Composition": "composition",
+    "DMComposition": "dm_composition",
+    "NoteComposition": "note_composition"
+  },
+  {
     "Cashtag": "cashtag",
     "Hashtag": "hashtag",
     "Mention": "mention",
@@ -5454,7 +5459,7 @@
     "Space": "reportspace",
     "AppealSuspension": "appealsuspension"
   },
-  "{\"ActionsBar\":\"C.Z\",\"ActionMenu\":\"function()\"{\"Icon\":\"e\",\"isDisabled\":\"t\",\"items\":\"n\",\"onOpen\":\"r\"}{\"const o=i.useCallback()\"{\"items\":\"n\",\"onCloseRequested\":\"e\"}{\"Icon\":\"e\",\"isDisabled\":\"t\",\"onClick\":\"r\",\"renderActionMenu\":\"o\"}},\"CallToAction\":\"a.ZP\",\"EditCallout\":\"x.Z\",\"Education\":\"S.Z\",\"HighlightedUserLabel\":\"c.Z\",\"Media\":\"A.Z\",\"Place\":\"o.ZP\",\"PromotedDetails\":\"u.Z\",\"PromotedUserProfileCard\":\"M\",\"ReplyContext\":\"R.ZP\",\"RichContent\":\"F.Z\",\"SocialContext\":\"b.Z\",\"Text\":\"U.Z\",\"Tombstone\":\"g.Z\",\"Timestamp\":\"p.Z\",\"UserAvatar\":\"N.Z\",\"UserFollowIndicator\":\"z.Z\",\"UserName\":\"B.Z\",\"ArticleCard\":\"Z\"}",
+  "{\"ActionsBar\":\"C.Z\",\"ActionMenu\":\"function()\"{\"Icon\":\"e\",\"isDisabled\":\"t\",\"items\":\"n\",\"onOpen\":\"r\"}{\"const o=i.useCallback()\"{\"items\":\"n\",\"onCloseRequested\":\"e\"}{\"Icon\":\"e\",\"isDisabled\":\"t\",\"onClick\":\"r\",\"renderActionMenu\":\"o\"}},\"CallToAction\":\"a.ZP\",\"EditCallout\":\"x.Z\",\"Education\":\"S.Z\",\"HighlightedUserLabel\":\"c.Z\",\"Media\":\"A.Z\",\"Place\":\"o.ZP\",\"PromotedDetails\":\"u.Z\",\"PromotedUserProfileCard\":\"M\",\"ReplyContext\":\"R.ZP\",\"RichContent\":\"F.Z\",\"SocialContext\":\"b.Z\",\"Text\":\"U.Z\",\"Tombstone\":\"w.Z\",\"Timestamp\":\"p.Z\",\"UserAvatar\":\"N.Z\",\"UserFollowIndicator\":\"z.Z\",\"UserName\":\"B.Z\",\"ArticleCard\":\"Z\"}",
   {
     "original": "original",
     "banner": "banner",
