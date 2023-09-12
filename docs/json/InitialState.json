@@ -81,11 +81,6 @@
       "errors": {},
       "fetchStatus": {}
     },
-    "translationsProfiles": {
-      "entities": {},
-      "errors": {},
-      "fetchStatus": {}
-    },
     "imageCache": {
       "entities": {},
       "errors": {},
@@ -112,6 +107,11 @@
       "fetchStatus": {}
     },
     "phoneNumberValidity": {
+      "entities": {},
+      "errors": {},
+      "fetchStatus": {}
+    },
+    "translationsProfiles": {
       "entities": {},
       "errors": {},
       "fetchStatus": {}
@@ -589,6 +589,12 @@
       "dm_education_flags_prompt": {
         "value": "false"
       },
+      "dm_encrypted_franking_sending_enabled": {
+        "value": "false"
+      },
+      "dm_encrypted_franking_verification_enabled": {
+        "value": "false"
+      },
       "dm_inbox_search_groups_bucket_size": {
         "value": "5"
       },
@@ -627,6 +633,9 @@
       },
       "dont_mention_me_view_api_enabled": {
         "value": "true"
+      },
+      "dsa_encrypted_dms_report_flow_enabled": {
+        "value": "false"
       },
       "dsa_report_flow_enabled": {
         "value": "false"
@@ -1853,6 +1862,9 @@
       },
       "responsive_web_user_badge_education_get_verified_button_enabled": {
         "value": "true"
+      },
+      "responsive_web_verified_followers_tab_enabled": {
+        "value": "false"
       },
       "responsive_web_verified_organizations_affiliate_fetch_limit": {
         "value": "3000"
@@ -3178,6 +3190,12 @@
         "dm_education_flags_prompt": {
           "value": "false"
         },
+        "dm_encrypted_franking_sending_enabled": {
+          "value": "false"
+        },
+        "dm_encrypted_franking_verification_enabled": {
+          "value": "false"
+        },
         "dm_inbox_search_groups_bucket_size": {
           "value": "5"
         },
@@ -3216,6 +3234,9 @@
         },
         "dont_mention_me_view_api_enabled": {
           "value": "true"
+        },
+        "dsa_encrypted_dms_report_flow_enabled": {
+          "value": "false"
         },
         "dsa_report_flow_enabled": {
           "value": "false"
@@ -4443,6 +4464,9 @@
         "responsive_web_user_badge_education_get_verified_button_enabled": {
           "value": "true"
         },
+        "responsive_web_verified_followers_tab_enabled": {
+          "value": "true"
+        },
         "responsive_web_verified_organizations_affiliate_fetch_limit": {
           "value": "3000"
         },
@@ -5298,10 +5322,10 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "c7c995804e375fede05636868e00bdd8"
+      "settingsVersion": "0cc7ec4d8a6054bd46e551e29a317195"
     },
     "debug": {},
-    "featureSetToken": "541f4106ca5ac71c6c54ff3e188db77a9858c9e7",
+    "featureSetToken": "e0928a71a6bb00d7d215dade9e5e6d77ac123b65",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -5371,7 +5395,7 @@
     "country": "US",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "169446639258561804",
+    "guestId": "169455280120617246",
     "hasCommunityMemberships": "false",
     "language": "en",
     "oneFactorLoginEligibility": {
