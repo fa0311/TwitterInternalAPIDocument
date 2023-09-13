@@ -92,7 +92,13 @@ Request Method: `POST`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-`None`<br>
+| key          | type   | variable   |
+|:-------------|:-------|:-----------|
+| userId       | ...    | r          |
+| count        | ...    | l          |
+| cursor       | ...    | a          |
+| ...()(0,s.d) | ...    | _          |
+
 #### features<br>
 `None`<br>
 #### queryId<br>
@@ -134,14 +140,7 @@ Request Method: `POST`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key                    | type    | variable   |
-|:-----------------------|:--------|:-----------|
-| userId                 | ...     | l          |
-| count                  | ...     | i          |
-| cursor                 | ...     | n          |
-| includePromotedContent | boolean | False      |
-| ...()(0,o.d)           | ...     | _          |
-
+`None`<br>
 #### features<br>
 `None`<br>
 #### queryId<br>
@@ -216,14 +215,7 @@ Request Method: `POST`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key                    | type    | variable   |
-|:-----------------------|:--------|:-----------|
-| userId                 | ...     | l          |
-| count                  | ...     | i          |
-| cursor                 | ...     | n          |
-| includePromotedContent | boolean | False      |
-| ...()(0,o.d)           | ...     | _          |
-
+`None`<br>
 #### features<br>
 `None`<br>
 #### queryId<br>
@@ -256,7 +248,10 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-`None`<br>
+| key          | type   | variable   |
+|:-------------|:-------|:-----------|
+| ...()(0,s.S) | ...    | _          |
+
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
@@ -310,14 +305,7 @@ Request Method: `POST`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key                                    | type    | variable   |
-|:---------------------------------------|:--------|:-----------|
-| timelineId                             | ...     | l          |
-| count                                  | ...     | i          |
-| cursor                                 | ...     | n          |
-| withQuickPromoteEligibilityTweetFields | boolean | True       |
-| ...()(0,o.d)                           | ...     | _          |
-
+`None`<br>
 #### features<br>
 `None`<br>
 #### queryId<br>
@@ -577,7 +565,14 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-`None`<br>
+| key                    | type    | variable   |
+|:-----------------------|:--------|:-----------|
+| rootTweetId            | ...     | l          |
+| count                  | ...     | i          |
+| cursor                 | ...     | n          |
+| includePromotedContent | boolean | False      |
+| ...()(0,o.d)           | ...     | _          |
+
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
@@ -684,10 +679,7 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key    | type   | variable   |
-|:-------|:-------|:-----------|
-| listId | ...    | n          |
-
+`None`<br>
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
@@ -1164,29 +1156,33 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## BirdwatchFetchAuthenticatedUserProfile<br>
-Request URL: `https://twitter.com/i/api/graphql/j0xscK7IT-U52Geu7QEaDQ/BirdwatchFetchAuthenticatedUserProfile`<br>
+Request URL: `https://twitter.com/i/api/graphql/JSf0I8AZFRLzAuay4E0eZw/BirdwatchFetchAuthenticatedUserProfile`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
 `None`<br>
 #### features<br>
-| key                                                 | type    | default   |   variable |
-|:----------------------------------------------------|:--------|:----------|-----------:|
-| responsive_web_birdwatch_mobile_nav_setting_enabled | ...     | error     |        nan |
-| responsive_web_birdwatch_note_limit_enabled         | boolean | nan       |          1 |
+| key                                                 | type    |   variable | default   |
+|:----------------------------------------------------|:--------|-----------:|:----------|
+| responsive_web_birdwatch_top_contributor_enabled    | boolean |          1 | nan       |
+| responsive_web_birdwatch_mobile_nav_setting_enabled | ...     |        nan | error     |
+| responsive_web_birdwatch_note_limit_enabled         | boolean |          1 | nan       |
 
 #### queryId<br>
 `None`<br>
 ## BirdwatchFetchBirdwatchProfile<br>
-Request URL: `https://twitter.com/i/api/graphql/btgGtchypc3D491MJ7XXWA/BirdwatchFetchBirdwatchProfile`<br>
+Request URL: `https://twitter.com/i/api/graphql/iL_0nGf1nelAd9Kz-pZJlA/BirdwatchFetchBirdwatchProfile`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
 `None`<br>
 #### features<br>
-`None`<br>
+| key                                              | type    | variable   |
+|:-------------------------------------------------|:--------|:-----------|
+| responsive_web_birdwatch_top_contributor_enabled | boolean | True       |
+
 #### queryId<br>
 `None`<br>
 ## BirdwatchFetchCanTweetBeMediaNote<br>
@@ -1367,10 +1363,7 @@ Request Method: `POST`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key   | type   | variable   |
-|:------|:-------|:-----------|
-| ...o  | ...    | _          |
-
+`None`<br>
 #### features<br>
 `None`<br>
 #### queryId<br>
@@ -1458,11 +1451,7 @@ Request Method: `POST`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key                    | type   | variable   |
-|:-----------------------|:-------|:-----------|
-| bookmark_collection_id | ...    | t          |
-| tweet_id               | ...    | r          |
-
+`None`<br>
 #### features<br>
 `None`<br>
 #### queryId<br>
@@ -2157,7 +2146,14 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-`None`<br>
+| key                    | type    | variable   |
+|:-----------------------|:--------|:-----------|
+| rootTweetId            | ...     | l          |
+| count                  | ...     | i          |
+| cursor                 | ...     | n          |
+| includePromotedContent | boolean | False      |
+| ...()(0,o.d)           | ...     | _          |
+
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
@@ -2253,10 +2249,7 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key    | type   | variable   |
-|:-------|:-------|:-----------|
-| listId | ...    | n          |
-
+`None`<br>
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
@@ -2955,7 +2948,14 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-`None`<br>
+| key                    | type    | variable   |
+|:-----------------------|:--------|:-----------|
+| rootTweetId            | ...     | l          |
+| count                  | ...     | i          |
+| cursor                 | ...     | n          |
+| includePromotedContent | boolean | False      |
+| ...()(0,o.d)           | ...     | _          |
+
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
@@ -3051,10 +3051,7 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key    | type   | variable   |
-|:-------|:-------|:-----------|
-| listId | ...    | n          |
-
+`None`<br>
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
@@ -4110,7 +4107,14 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-`None`<br>
+| key                    | type    | variable   |
+|:-----------------------|:--------|:-----------|
+| rootTweetId            | ...     | l          |
+| count                  | ...     | i          |
+| cursor                 | ...     | n          |
+| includePromotedContent | boolean | False      |
+| ...()(0,o.d)           | ...     | _          |
+
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
@@ -4206,10 +4210,7 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key    | type   | variable   |
-|:-------|:-------|:-----------|
-| listId | ...    | n          |
-
+`None`<br>
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
@@ -4525,7 +4526,14 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-`None`<br>
+| key                    | type    | variable   |
+|:-----------------------|:--------|:-----------|
+| rootTweetId            | ...     | l          |
+| count                  | ...     | i          |
+| cursor                 | ...     | n          |
+| includePromotedContent | boolean | False      |
+| ...()(0,o.d)           | ...     | _          |
+
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
@@ -4621,10 +4629,7 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key    | type   | variable   |
-|:-------|:-------|:-----------|
-| listId | ...    | n          |
-
+`None`<br>
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
@@ -4719,6 +4724,23 @@ Login Required: `...`<br>
 `None`<br>
 #### features<br>
 `None`<br>
+#### queryId<br>
+`None`<br>
+## PinnedTimelines<br>
+Request URL: `https://twitter.com/i/api/graphql/h0H093ydJCCxORlQqW_1Zw/PinnedTimelines`<br>
+Request Method: `GET`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+| key                                                               | type    | variable   |
+|:------------------------------------------------------------------|:--------|:-----------|
+| responsive_web_graphql_exclude_directive_enabled                  | boolean | True       |
+| verified_phone_label_enabled                                      | boolean | False      |
+| responsive_web_graphql_skip_user_profile_image_extensions_enabled | boolean | False      |
+| responsive_web_graphql_timeline_navigation_enabled                | boolean | True       |
+
 #### queryId<br>
 `None`<br>
 ## BlockedAccountsAll<br>
@@ -4983,7 +5005,14 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-`None`<br>
+| key                    | type    | variable   |
+|:-----------------------|:--------|:-----------|
+| rootTweetId            | ...     | l          |
+| count                  | ...     | i          |
+| cursor                 | ...     | n          |
+| includePromotedContent | boolean | False      |
+| ...()(0,o.d)           | ...     | _          |
+
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
@@ -5111,17 +5140,7 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key                    | type    | variable    |
-|:-----------------------|:--------|:------------|
-| userId                 | ...     | r           |
-| count                  | ...     | t           |
-| cursor                 | ...     | i           |
-| teamName               | ...     | n           |
-| includePromotedContent | boolean | False       |
-| ...()(0,a.d)           | ...     | _           |
-| withClientEventToken   | boolean | False       |
-| withVoice              | ...     | _.isTrue(_) |
-
+`None`<br>
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
@@ -5153,10 +5172,7 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key    | type   | variable   |
-|:-------|:-------|:-----------|
-| listId | ...    | n          |
-
+`None`<br>
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
@@ -5220,7 +5236,15 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-`None`<br>
+| key                    | type    | variable    |
+|:-----------------------|:--------|:------------|
+| userId                 | ...     | n           |
+| count                  | ...     | t           |
+| cursor                 | ...     | i           |
+| includePromotedContent | boolean | True        |
+| ...()(0,a.d)           | ...     | _           |
+| withVoice              | ...     | _.isTrue(_) |
+
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
@@ -5252,7 +5276,18 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-`None`<br>
+| key                    | type    | variable                              |
+|:-----------------------|:--------|:--------------------------------------|
+| userId                 | ...     | n                                     |
+| count                  | ...     | t                                     |
+| cursor                 | ...     | i                                     |
+| includePromotedContent | boolean | False                                 |
+| ...()(0,a.d)           | ...     | _                                     |
+| withClientEventToken   | boolean | False                                 |
+| withBirdwatchNotes     | boolean | False                                 |
+| withVoice              | ...     | _.isTrue(_)                           |
+| withV2Timeline         | ...     | _.isTrue("voice_consumption_enabled") |
+
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
@@ -5316,15 +5351,7 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key                    | type    | variable    |
-|:-----------------------|:--------|:------------|
-| userId                 | ...     | n           |
-| count                  | ...     | t           |
-| cursor                 | ...     | i           |
-| includePromotedContent | boolean | True        |
-| ...()(0,a.d)           | ...     | _           |
-| withVoice              | ...     | _.isTrue(_) |
-
+`None`<br>
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
@@ -6223,7 +6250,14 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-`None`<br>
+| key                    | type    | variable   |
+|:-----------------------|:--------|:-----------|
+| rootTweetId            | ...     | l          |
+| count                  | ...     | i          |
+| cursor                 | ...     | n          |
+| includePromotedContent | boolean | False      |
+| ...()(0,o.d)           | ...     | _          |
+
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
@@ -6566,10 +6600,7 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key    | type   | variable   |
-|:-------|:-------|:-----------|
-| listId | ...    | n          |
-
+`None`<br>
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
@@ -7024,7 +7055,14 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-`None`<br>
+| key                    | type    | variable   |
+|:-----------------------|:--------|:-----------|
+| rootTweetId            | ...     | l          |
+| count                  | ...     | i          |
+| cursor                 | ...     | n          |
+| includePromotedContent | boolean | False      |
+| ...()(0,o.d)           | ...     | _          |
+
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
@@ -7135,10 +7173,7 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key    | type   | variable   |
-|:-------|:-------|:-----------|
-| listId | ...    | n          |
-
+`None`<br>
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
@@ -8422,29 +8457,33 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## BirdwatchFetchAuthenticatedUserProfile<br>
-Request URL: `https://twitter.com/i/api/graphql/j0xscK7IT-U52Geu7QEaDQ/BirdwatchFetchAuthenticatedUserProfile`<br>
+Request URL: `https://twitter.com/i/api/graphql/JSf0I8AZFRLzAuay4E0eZw/BirdwatchFetchAuthenticatedUserProfile`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
 `None`<br>
 #### features<br>
-| key                                                 | type    | default   |   variable |
-|:----------------------------------------------------|:--------|:----------|-----------:|
-| responsive_web_birdwatch_mobile_nav_setting_enabled | ...     | error     |        nan |
-| responsive_web_birdwatch_note_limit_enabled         | boolean | nan       |          1 |
+| key                                                 | type    |   variable | default   |
+|:----------------------------------------------------|:--------|-----------:|:----------|
+| responsive_web_birdwatch_top_contributor_enabled    | boolean |          1 | nan       |
+| responsive_web_birdwatch_mobile_nav_setting_enabled | ...     |        nan | error     |
+| responsive_web_birdwatch_note_limit_enabled         | boolean |          1 | nan       |
 
 #### queryId<br>
 `None`<br>
 ## BirdwatchFetchBirdwatchProfile<br>
-Request URL: `https://twitter.com/i/api/graphql/btgGtchypc3D491MJ7XXWA/BirdwatchFetchBirdwatchProfile`<br>
+Request URL: `https://twitter.com/i/api/graphql/iL_0nGf1nelAd9Kz-pZJlA/BirdwatchFetchBirdwatchProfile`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
 `None`<br>
 #### features<br>
-`None`<br>
+| key                                              | type    | variable   |
+|:-------------------------------------------------|:--------|:-----------|
+| responsive_web_birdwatch_top_contributor_enabled | boolean | True       |
+
 #### queryId<br>
 `None`<br>
 ## BirdwatchFetchCanTweetBeMediaNote<br>
@@ -8721,10 +8760,7 @@ Request Method: `POST`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key   | type   | variable   |
-|:------|:-------|:-----------|
-| ...o  | ...    | _          |
-
+`None`<br>
 #### features<br>
 `None`<br>
 #### queryId<br>
@@ -11009,7 +11045,14 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-`None`<br>
+| key                    | type    | variable   |
+|:-----------------------|:--------|:-----------|
+| rootTweetId            | ...     | l          |
+| count                  | ...     | i          |
+| cursor                 | ...     | n          |
+| includePromotedContent | boolean | False      |
+| ...()(0,o.d)           | ...     | _          |
+
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
@@ -11130,6 +11173,23 @@ Login Required: `...`<br>
 `None`<br>
 #### features<br>
 `None`<br>
+#### queryId<br>
+`None`<br>
+## PinnedTimelines<br>
+Request URL: `https://twitter.com/i/api/graphql/h0H093ydJCCxORlQqW_1Zw/PinnedTimelines`<br>
+Request Method: `GET`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+| key                                                               | type    | variable   |
+|:------------------------------------------------------------------|:--------|:-----------|
+| responsive_web_graphql_exclude_directive_enabled                  | boolean | True       |
+| verified_phone_label_enabled                                      | boolean | False      |
+| responsive_web_graphql_skip_user_profile_image_extensions_enabled | boolean | False      |
+| responsive_web_graphql_timeline_navigation_enabled                | boolean | True       |
+
 #### queryId<br>
 `None`<br>
 ## ProfileUserPhoneState<br>
@@ -11259,11 +11319,7 @@ Request Method: `POST`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key                    | type   | variable   |
-|:-----------------------|:-------|:-----------|
-| bookmark_collection_id | ...    | t          |
-| tweet_id               | ...    | r          |
-
+`None`<br>
 #### features<br>
 `None`<br>
 #### queryId<br>
@@ -12251,17 +12307,7 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key                    | type    | variable    |
-|:-----------------------|:--------|:------------|
-| userId                 | ...     | r           |
-| count                  | ...     | t           |
-| cursor                 | ...     | i           |
-| teamName               | ...     | n           |
-| includePromotedContent | boolean | False       |
-| ...()(0,a.d)           | ...     | _           |
-| withClientEventToken   | boolean | False       |
-| withVoice              | ...     | _.isTrue(_) |
-
+`None`<br>
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
@@ -12348,10 +12394,7 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key    | type   | variable   |
-|:-------|:-------|:-----------|
-| listId | ...    | n          |
-
+`None`<br>
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
@@ -12415,7 +12458,15 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-`None`<br>
+| key                    | type    | variable    |
+|:-----------------------|:--------|:------------|
+| userId                 | ...     | n           |
+| count                  | ...     | t           |
+| cursor                 | ...     | i           |
+| includePromotedContent | boolean | True        |
+| ...()(0,a.d)           | ...     | _           |
+| withVoice              | ...     | _.isTrue(_) |
+
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
@@ -12447,7 +12498,18 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-`None`<br>
+| key                    | type    | variable                              |
+|:-----------------------|:--------|:--------------------------------------|
+| userId                 | ...     | n                                     |
+| count                  | ...     | t                                     |
+| cursor                 | ...     | i                                     |
+| includePromotedContent | boolean | False                                 |
+| ...()(0,a.d)           | ...     | _                                     |
+| withClientEventToken   | boolean | False                                 |
+| withBirdwatchNotes     | boolean | False                                 |
+| withVoice              | ...     | _.isTrue(_)                           |
+| withV2Timeline         | ...     | _.isTrue("voice_consumption_enabled") |
+
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
@@ -12533,15 +12595,7 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key                    | type    | variable    |
-|:-----------------------|:--------|:------------|
-| userId                 | ...     | n           |
-| count                  | ...     | t           |
-| cursor                 | ...     | i           |
-| includePromotedContent | boolean | True        |
-| ...()(0,a.d)           | ...     | _           |
-| withVoice              | ...     | _.isTrue(_) |
-
+`None`<br>
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
@@ -12896,17 +12950,6 @@ Login Required: `...`<br>
 `None`<br>
 #### queryId<br>
 `None`<br>
-## DMMessageDeleteMutation<br>
-Request URL: `https://twitter.com/i/api/graphql/BJ6DtxA2llfjnRoRjaiIiw/DMMessageDeleteMutation`<br>
-Request Method: `POST`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-`None`<br>
-#### queryId<br>
-`None`<br>
 ## useDMReactionMutationAddMutation<br>
 Request URL: `https://twitter.com/i/api/graphql/VyDyV9pC2oZEj6g52hgnhA/useDMReactionMutationAddMutation`<br>
 Request Method: `POST`<br>
@@ -12920,6 +12963,17 @@ Login Required: `...`<br>
 `None`<br>
 ## useDMReactionMutationRemoveMutation<br>
 Request URL: `https://twitter.com/i/api/graphql/bV_Nim3RYHsaJwMkTXJ6ew/useDMReactionMutationRemoveMutation`<br>
+Request Method: `POST`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
+## DMMessageDeleteMutation<br>
+Request URL: `https://twitter.com/i/api/graphql/BJ6DtxA2llfjnRoRjaiIiw/DMMessageDeleteMutation`<br>
 Request Method: `POST`<br>
 Login Required: `...`<br>
 ### Param<br>

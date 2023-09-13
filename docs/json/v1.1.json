@@ -153,6 +153,15 @@
     ]
   },
   {
+    "queryId": "dm/report",
+    "dispatch_key": "post",
+    "dispatch": [
+      "post",
+      "",
+      "https://api.twitter.com/1.1/{queryId}.json"
+    ]
+  },
+  {
     "queryId": "dm/update_last_seen_event_id",
     "dispatch_key": "post",
     "dispatch": [

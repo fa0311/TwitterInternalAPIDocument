@@ -2955,7 +2955,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant              | value     |
 |:----------------------|:----------|
-| appBarHeight          | k         |
+| appBarHeight          | M         |
 | appBarHeightPx        | f         |
 | conversationLineWidth | A.space2  |
 | gutterHorizontal      | g.space16 |
@@ -2972,7 +2972,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | borderWidths        | c       |
 | borderWidthsPx      | u       |
 | breakpoints         | r       |
-| componentDimensions | M       |
+| componentDimensions | k       |
 | componentZIndices   | l       |
 | fontSizes           | S       |
 | fontSizesPx         | y       |
@@ -3075,9 +3075,9 @@ This document is entirely auto-generated and may contain errors.<br>
 |:--------------|:-------------|
 | superFollower | u().fc065ee4 |
 
-| constant      | value                                                                                                                                                                                                                                    |
-|:--------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| superFollower | {'graphic': 'p.default', 'headline': 'u().e453f536', 'subtext': 'u().dea63fc4', 'actionLabel': 'u().g7099a02', 'actionLink': 'https://help.twitter.com/en/using-twitter/super-follows#sfexpect', 'secondaryActionLabel': 'u().c2637ef6'} |
+| constant      | value                                                                                                                                                                                                                              |
+|:--------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| superFollower | {'graphic': 'p.default', 'headline': 'u().e453f536', 'subtext': 'u().dea63fc4', 'actionLabel': 'u().g7099a02', 'actionLink': 'https://help.x.com/en/using-twitter/super-follows#sfexpect', 'secondaryActionLabel': 'u().c2637ef6'} |
 
 | constant        | value        |
 |:----------------|:-------------|
@@ -4557,12 +4557,34 @@ This document is entirely auto-generated and may contain errors.<br>
 | ConversationNameUpdate | r.Cr.CONVERSATION_NAME_UPDATE |
 | JoinConversation       | r.Cr.JOIN_CONVERSATION        |
 
+| constant   | value                                               |
+|:-----------|:----------------------------------------------------|
+| REQUEST    | rweb/pinnedTimelines/FETCH_PINNED_TIMELINES_REQUEST |
+| SUCCESS    | rweb/pinnedTimelines/FETCH_PINNED_TIMELINES_SUCCESS |
+| FAILURE    | rweb/pinnedTimelines/FETCH_PINNED_TIMELINES_FAILURE |
+
+| constant   | value     |
+|:-----------|:----------|
+| COMMUNITY  | community |
+| LIST       | list      |
+
 | constant   | value   |
 |:-----------|:--------|
 | None       | None    |
 | Nudge      | Nudge   |
 | Prompt     | Prompt  |
 | Require    | Require |
+
+| constant   | value                                               |
+|:-----------|:----------------------------------------------------|
+| REQUEST    | rweb/pinnedTimelines/FETCH_PINNED_TIMELINES_REQUEST |
+| SUCCESS    | rweb/pinnedTimelines/FETCH_PINNED_TIMELINES_SUCCESS |
+| FAILURE    | rweb/pinnedTimelines/FETCH_PINNED_TIMELINES_FAILURE |
+
+| constant   | value     |
+|:-----------|:----------|
+| COMMUNITY  | community |
+| LIST       | list      |
 
 | constant   | value      |
 |:-----------|:-----------|
@@ -5082,13 +5104,13 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant                  | value                                   |
 |:--------------------------|:----------------------------------------|
-| all                       | {'icon': 'nn', 'label': 'C().i8ea6d4e'} |
-| community                 | {'icon': 'rn', 'label': 'C().ec5a4a26'} |
-| by_invitation             | {'icon': 'sn', 'label': 'C().b454300a'} |
-| subscribers               | {'icon': 'nn', 'label': 'C().bf8d98f4'} |
-| community_members         | {'icon': 'on', 'label': 'C().i13be5a0'} |
-| super_followers_exclusive | {'icon': 'nn', 'label': 'C().ebe1d850'} |
-| trusted_friends_tweet     | {'icon': 'an', 'label': 'u'}            |
+| all                       | {'icon': 'sn', 'label': 'C().i8ea6d4e'} |
+| community                 | {'icon': 'on', 'label': 'C().ec5a4a26'} |
+| by_invitation             | {'icon': 'rn', 'label': 'C().b454300a'} |
+| subscribers               | {'icon': 'sn', 'label': 'C().bf8d98f4'} |
+| community_members         | {'icon': 'an', 'label': 'C().i13be5a0'} |
+| super_followers_exclusive | {'icon': 'sn', 'label': 'C().ebe1d850'} |
+| trusted_friends_tweet     | {'icon': 'ln', 'label': 'u'}            |
 
 | constant   | value   |
 |:-----------|:--------|
@@ -5112,7 +5134,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{"ActionsBar":"_.Z","ActionMenu":"function()"{"Icon":"e","isDisabled":"t","items":"n","onOpen":"i"}{"const o=r.useCallback()"{"items":"n","onCloseRequested":"e"}{"Icon":"e","isDisabled":"t","onClick":"i","renderActionMenu":"o"}},"CallToAction":"a.ZP","EditCallout":"Z.Z","Education":"S.Z","Highlighte...
+{"ActionsBar":"_.Z","ActionMenu":"function()"{"Icon":"e","isDisabled":"t","items":"n","onOpen":"i"}{"const o=r.useCallback()"{"items":"n","onCloseRequested":"e"}{"Icon":"e","isDisabled":"t","onClick":"i","renderActionMenu":"o"}},"CallToAction":"a.ZP","EditCallout":"k.Z","Education":"S.Z","Highlighte...
 ```
 | constant       | value          |
 |:---------------|:---------------|
@@ -7231,7 +7253,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant        | value      |
 |:----------------|:-----------|
-| fetchStatus     | Pe.ZP.NONE |
+| fetchStatus     | Le.ZP.NONE |
 | mobileViewCount | 0          |
 
 | constant   | value        |
