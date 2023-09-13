@@ -8282,7 +8282,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## Viewer<br>
-Request URL: `https://twitter.com/i/api/graphql/BYz-Y5QX227_9x2vrYxLhw/Viewer`<br>
+Request URL: `https://twitter.com/i/api/graphql/qevmDaYaF66EOtboiNoQbQ/Viewer`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -13211,7 +13211,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## Viewer<br>
-Request URL: `https://twitter.com/i/api/graphql/BYz-Y5QX227_9x2vrYxLhw/Viewer`<br>
+Request URL: `https://twitter.com/i/api/graphql/qevmDaYaF66EOtboiNoQbQ/Viewer`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
