@@ -3571,8 +3571,8 @@
       }
     },
     "Viewer": {
-      "url": "https://twitter.com/i/api/graphql/BYz-Y5QX227_9x2vrYxLhw/Viewer",
-      "queryId": "BYz-Y5QX227_9x2vrYxLhw",
+      "url": "https://twitter.com/i/api/graphql/qevmDaYaF66EOtboiNoQbQ/Viewer",
+      "queryId": "qevmDaYaF66EOtboiNoQbQ",
       "method": "GET",
       "features": {
         "responsive_web_graphql_exclude_directive_enabled": true,
