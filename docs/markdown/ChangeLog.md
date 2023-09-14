@@ -2074,3 +2074,23 @@
 - responsive_web_home_pinned_timelines_lists_enabled<br>
 - super_follow_subscriptions_home_timeline_tab_enabled<br>
 - super_follow_subscriptions_home_timeline_tab_sticky_enabled<br>
+## 2023/09/14<br>
+### API<br>
+#### add<br>
+- useFetchProfileBlocks_profileExistsQuery<br>
+- useFetchProfileBlocks_profileQuery<br>
+- useFetchProfileBlocks_settingsQuery<br>
+- useCreateRichtextBlockMutation<br>
+- useUpdateRichtextBlockMutation<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- xprofile_consumption_enabled<br>
+- xprofile_editing_enabled<br>
+#### remove<br>
+- responsive_web_preload_app_shell_enabled<br>
+- responsive_web_server_user_profile_fetch_enabled<br>
+- rweb_home_perf_client_prefetch_bypass_sw<br>
+- rweb_home_perf_client_prefetch_mode<br>
+- rweb_home_perf_client_prefetch_timeout_ms<br>
