@@ -418,6 +418,9 @@
       "blue_business_affiliates_list_order_setting_enabled": {
         "value": "false"
       },
+      "blue_business_direct_invites_enabled": {
+        "value": "false"
+      },
       "blue_business_multi_affiliates_ui_enabled": {
         "value": "false"
       },
@@ -635,6 +638,9 @@
         "value": "true"
       },
       "dsa_encrypted_dms_report_flow_enabled": {
+        "value": "false"
+      },
+      "dsa_profile_report_flow_enabled": {
         "value": "false"
       },
       "dsa_report_flow_enabled": {
@@ -1453,12 +1459,6 @@
       "responsive_web_hevc_upload_preview_enabled": {
         "value": "false"
       },
-      "responsive_web_home_pinned_timelines_latest_enabled": {
-        "value": "true"
-      },
-      "responsive_web_home_pinned_timelines_lists_enabled": {
-        "value": "true"
-      },
       "responsive_web_impression_tracker_refactor_enabled": {
         "value": "true"
       },
@@ -1864,7 +1864,7 @@
         "value": "true"
       },
       "responsive_web_verified_followers_tab_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "responsive_web_verified_organizations_affiliate_fetch_limit": {
         "value": "3000"
@@ -1953,6 +1953,9 @@
         "value": "true"
       },
       "rweb_quick_promote_boost_enabled": {
+        "value": "false"
+      },
+      "rweb_recommendations_sidebar_graphql_enabled": {
         "value": "false"
       },
       "rweb_search_media_enabled": {
@@ -2276,12 +2279,6 @@
         "value": "true"
       },
       "super_follow_onboarding_granular_pricing_enabled": {
-        "value": "true"
-      },
-      "super_follow_subscriptions_home_timeline_tab_enabled": {
-        "value": "true"
-      },
-      "super_follow_subscriptions_home_timeline_tab_sticky_enabled": {
         "value": "true"
       },
       "super_follow_subscriptions_tax_calculation_enabled": {
@@ -3019,6 +3016,9 @@
         "blue_business_affiliates_list_order_setting_enabled": {
           "value": "false"
         },
+        "blue_business_direct_invites_enabled": {
+          "value": "false"
+        },
         "blue_business_multi_affiliates_ui_enabled": {
           "value": "false"
         },
@@ -3236,6 +3236,9 @@
           "value": "true"
         },
         "dsa_encrypted_dms_report_flow_enabled": {
+          "value": "false"
+        },
+        "dsa_profile_report_flow_enabled": {
           "value": "false"
         },
         "dsa_report_flow_enabled": {
@@ -4054,12 +4057,6 @@
         "responsive_web_hevc_upload_preview_enabled": {
           "value": "false"
         },
-        "responsive_web_home_pinned_timelines_latest_enabled": {
-          "value": "true"
-        },
-        "responsive_web_home_pinned_timelines_lists_enabled": {
-          "value": "true"
-        },
         "responsive_web_impression_tracker_refactor_enabled": {
           "value": "true"
         },
@@ -4556,6 +4553,9 @@
         "rweb_quick_promote_boost_enabled": {
           "value": "false"
         },
+        "rweb_recommendations_sidebar_graphql_enabled": {
+          "value": "false"
+        },
         "rweb_search_media_enabled": {
           "value": "true"
         },
@@ -4877,12 +4877,6 @@
           "value": "true"
         },
         "super_follow_onboarding_granular_pricing_enabled": {
-          "value": "true"
-        },
-        "super_follow_subscriptions_home_timeline_tab_enabled": {
-          "value": "true"
-        },
-        "super_follow_subscriptions_home_timeline_tab_sticky_enabled": {
           "value": "true"
         },
         "super_follow_subscriptions_tax_calculation_enabled": {
@@ -5322,10 +5316,10 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "0cc7ec4d8a6054bd46e551e29a317195"
+      "settingsVersion": "c7c995804e375fede05636868e00bdd8"
     },
     "debug": {},
-    "featureSetToken": "e0928a71a6bb00d7d215dade9e5e6d77ac123b65",
+    "featureSetToken": "fc031cbdda4e1534f23d7619bb90c1334b80b0d6",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -5395,7 +5389,7 @@
     "country": "US",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "169455280120617246",
+    "guestId": "169463910399405098",
     "hasCommunityMemberships": "false",
     "language": "en",
     "oneFactorLoginEligibility": {

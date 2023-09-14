@@ -2058,3 +2058,19 @@
 - responsive_web_verified_followers_tab_enabled<br>
 #### remove<br>
 - None<br>
+## 2023/09/13<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- blue_business_direct_invites_enabled<br>
+- dsa_profile_report_flow_enabled<br>
+- rweb_recommendations_sidebar_graphql_enabled<br>
+#### remove<br>
+- responsive_web_home_pinned_timelines_latest_enabled<br>
+- responsive_web_home_pinned_timelines_lists_enabled<br>
+- super_follow_subscriptions_home_timeline_tab_enabled<br>
+- super_follow_subscriptions_home_timeline_tab_sticky_enabled<br>
