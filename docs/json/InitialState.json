@@ -1659,9 +1659,6 @@
       "responsive_web_placeholder_siwg_button_enabled": {
         "value": "false"
       },
-      "responsive_web_preload_app_shell_enabled": {
-        "value": "false"
-      },
       "responsive_web_prerolls_fullscreen_disabled_on_ios": {
         "value": "false"
       },
@@ -1706,9 +1703,6 @@
       },
       "responsive_web_send_cookies_metadata_enabled": {
         "value": "true"
-      },
-      "responsive_web_server_user_profile_fetch_enabled": {
-        "value": "false"
       },
       "responsive_web_settings_timeline_polling_enabled": {
         "value": "false"
@@ -1933,15 +1927,6 @@
       },
       "rweb_home_mixer_enable_social_context_filter_social_contexts": {
         "value": "true"
-      },
-      "rweb_home_perf_client_prefetch_bypass_sw": {
-        "value": "false"
-      },
-      "rweb_home_perf_client_prefetch_mode": {
-        "value": "none"
-      },
-      "rweb_home_perf_client_prefetch_timeout_ms": {
-        "value": "0"
       },
       "rweb_lists_discovery_list_mixer_enabled": {
         "value": "true"
@@ -2713,6 +2698,12 @@
       },
       "web_video_transcribed_captions_enabled": {
         "value": "false"
+      },
+      "xprofile_consumption_enabled": {
+        "value": "false"
+      },
+      "xprofile_editing_enabled": {
+        "value": "false"
       }
     },
     "user": {
@@ -3461,19 +3452,19 @@
           "value": "true"
         },
         "identity_verification_hide_verified_label_settings_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "identity_verification_intake_enabled": {
           "value": "false"
         },
         "identity_verification_intake_for_blue_subscribers_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "identity_verification_notable_demo_survey": {
           "value": "false"
         },
         "identity_verification_settings_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "krs_registration_enabled": {
           "value": "false"
@@ -4257,9 +4248,6 @@
         "responsive_web_placeholder_siwg_button_enabled": {
           "value": "false"
         },
-        "responsive_web_preload_app_shell_enabled": {
-          "value": "false"
-        },
         "responsive_web_prerolls_fullscreen_disabled_on_ios": {
           "value": "false"
         },
@@ -4304,9 +4292,6 @@
         },
         "responsive_web_send_cookies_metadata_enabled": {
           "value": "true"
-        },
-        "responsive_web_server_user_profile_fetch_enabled": {
-          "value": "false"
         },
         "responsive_web_settings_timeline_polling_enabled": {
           "value": "false"
@@ -4531,15 +4516,6 @@
         },
         "rweb_home_mixer_enable_social_context_filter_social_contexts": {
           "value": "true"
-        },
-        "rweb_home_perf_client_prefetch_bypass_sw": {
-          "value": "false"
-        },
-        "rweb_home_perf_client_prefetch_mode": {
-          "value": "none"
-        },
-        "rweb_home_perf_client_prefetch_timeout_ms": {
-          "value": "0"
         },
         "rweb_lists_discovery_list_mixer_enabled": {
           "value": "true"
@@ -4859,7 +4835,7 @@
           "value": "true"
         },
         "subscriptions_verification_info_is_identity_verified_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "subscriptions_verification_info_verified_since_enabled": {
           "value": "true"
@@ -5311,15 +5287,21 @@
         },
         "web_video_transcribed_captions_enabled": {
           "value": "false"
+        },
+        "xprofile_consumption_enabled": {
+          "value": "false"
+        },
+        "xprofile_editing_enabled": {
+          "value": "false"
         }
       },
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "c7c995804e375fede05636868e00bdd8"
+      "settingsVersion": "9693489d0c8978d5c39b4dd3dcb4627a"
     },
     "debug": {},
-    "featureSetToken": "fc031cbdda4e1534f23d7619bb90c1334b80b0d6",
+    "featureSetToken": "61c8491db19723040cb908ddf1dcb0ed432c1cf9",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -5389,7 +5371,7 @@
     "country": "US",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "169463910399405098",
+    "guestId": "169472559031957814",
     "hasCommunityMemberships": "false",
     "language": "en",
     "oneFactorLoginEligibility": {
