@@ -2094,3 +2094,16 @@
 - rweb_home_perf_client_prefetch_bypass_sw<br>
 - rweb_home_perf_client_prefetch_mode<br>
 - rweb_home_perf_client_prefetch_timeout_ms<br>
+## 2023/09/16<br>
+### API<br>
+#### add<br>
+- useDeleteProfileBlockMutation<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- recruiting_jobs_list_search_enabled<br>
+#### remove<br>
+- blue_business_subscriptions_management_page_updates_enabled<br>
+- responsive_web_twitter_blue_verified_badge_settings_blue_verified_features_enabled<br>
+- subscriptions_management_enabled<br>
