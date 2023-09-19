@@ -3471,6 +3471,9 @@
         "identity_verification_settings_enabled": {
           "value": "true"
         },
+        "immersive_viewer_enable_profile_viewer": {
+          "value": "false"
+        },
         "krs_registration_enabled": {
           "value": "false"
         },
@@ -5301,7 +5304,7 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "cfec4f87f34f07cb4bf67e79aa4245f0"
+      "settingsVersion": "294f623647dbe0a09e562243d22e43cf"
     },
     "debug": {},
     "featureSetToken": "61c8491db19723040cb908ddf1dcb0ed432c1cf9",
@@ -5374,7 +5377,7 @@
     "country": "US",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "169507167307773457",
+    "guestId": "169515807718549417",
     "hasCommunityMemberships": "false",
     "language": "en",
     "oneFactorLoginEligibility": {
