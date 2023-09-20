@@ -13433,17 +13433,6 @@ Login Required: `...`<br>
 
 #### queryId<br>
 `None`<br>
-## CommunitiesTabBarItemQuery<br>
-Request URL: `https://twitter.com/i/api/graphql/ZesI-zwzK86uoWFu5IhLDg/CommunitiesTabBarItemQuery`<br>
-Request Method: `GET`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-`None`<br>
-#### queryId<br>
-`None`<br>
 ## SensitiveMediaSettingsQuery<br>
 Request URL: `https://twitter.com/i/api/graphql/ft92vAsha0RhDxwgq_ojWQ/SensitiveMediaSettingsQuery`<br>
 Request Method: `GET`<br>
