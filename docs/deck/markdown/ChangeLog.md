@@ -1362,3 +1362,18 @@
 - rweb_home_perf_client_prefetch_timeout_ms<br>
 - super_follow_subscriptions_home_timeline_tab_enabled<br>
 - super_follow_subscriptions_home_timeline_tab_sticky_enabled<br>
+## 2023/09/20<br>
+### API<br>
+#### add<br>
+- useDeleteProfileBlockMutation<br>
+#### remove<br>
+- CommunitiesTabBarItemQuery<br>
+### Feature Switch<br>
+#### add<br>
+- dm_settings_info_page_device_list_enabled<br>
+- immersive_viewer_enable_profile_viewer<br>
+- recruiting_jobs_list_search_enabled<br>
+#### remove<br>
+- blue_business_subscriptions_management_page_updates_enabled<br>
+- responsive_web_twitter_blue_verified_badge_settings_blue_verified_features_enabled<br>
+- subscriptions_management_enabled<br>
