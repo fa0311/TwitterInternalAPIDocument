@@ -31646,18 +31646,6 @@
     }
   },
   {
-    "n": "12533",
-    "exports": {
-      "queryId": "ZesI-zwzK86uoWFu5IhLDg",
-      "operationName": "CommunitiesTabBarItemQuery",
-      "operationType": "query",
-      "metadata": {
-        "featureSwitches": [],
-        "featureSwitch": {}
-      }
-    }
-  },
-  {
     "n": "42452",
     "exports": {
       "queryId": "ft92vAsha0RhDxwgq_ojWQ",
