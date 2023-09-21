@@ -2119,3 +2119,22 @@
 - immersive_viewer_enable_profile_viewer<br>
 #### remove<br>
 - None<br>
+## 2023/09/21<br>
+### API<br>
+#### add<br>
+- ConsentScreen_xprofileMutation<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- gryphon_motion<br>
+- responsive_web_home_pinned_timelines_enabled<br>
+- responsive_web_home_pinned_timelines_prefetch_enabled<br>
+- subscriptions_feature_can_hide_checkmark<br>
+#### remove<br>
+- gryphon_jump_to_latest_enabled<br>
+- gryphon_optout_hidden_in_navbar<br>
+- gryphon_user_role<br>
+- rweb_lists_pins_prefetch_enabled<br>
+- subscriptions_blue_verified_edit_profile_backend_error_message_enabled<br>
+- subscriptions_is_blue_verified_hide_checkmark_enabled<br>
