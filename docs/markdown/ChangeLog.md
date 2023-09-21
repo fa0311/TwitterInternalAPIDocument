@@ -2107,3 +2107,15 @@
 - blue_business_subscriptions_management_page_updates_enabled<br>
 - responsive_web_twitter_blue_verified_badge_settings_blue_verified_features_enabled<br>
 - subscriptions_management_enabled<br>
+## 2023/09/20<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- CommunitiesTabBarItemQuery<br>
+### Feature Switch<br>
+#### add<br>
+- dm_settings_info_page_device_list_enabled<br>
+- immersive_viewer_enable_profile_viewer<br>
+#### remove<br>
+- None<br>

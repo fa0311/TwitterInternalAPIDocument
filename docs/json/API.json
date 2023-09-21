@@ -3582,12 +3582,6 @@
         "responsive_web_graphql_timeline_navigation_enabled": true
       }
     },
-    "CommunitiesTabBarItemQuery": {
-      "url": "https://twitter.com/i/api/graphql/ZesI-zwzK86uoWFu5IhLDg/CommunitiesTabBarItemQuery",
-      "queryId": "ZesI-zwzK86uoWFu5IhLDg",
-      "method": "GET",
-      "features": {}
-    },
     "SensitiveMediaSettingsQuery": {
       "url": "https://twitter.com/i/api/graphql/ft92vAsha0RhDxwgq_ojWQ/SensitiveMediaSettingsQuery",
       "queryId": "ft92vAsha0RhDxwgq_ojWQ",

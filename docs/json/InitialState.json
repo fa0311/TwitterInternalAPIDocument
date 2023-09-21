@@ -619,6 +619,9 @@
       "dm_settings_info_page_allow_subscriber_messages_setting_enabled": {
         "value": "false"
       },
+      "dm_settings_info_page_device_list_enabled": {
+        "value": "false"
+      },
       "dm_share_sheet_send_individually_max_count": {
         "value": "20"
       },
@@ -872,6 +875,9 @@
         "value": "false"
       },
       "identity_verification_settings_enabled": {
+        "value": "false"
+      },
+      "immersive_viewer_enable_profile_viewer": {
         "value": "false"
       },
       "krs_registration_enabled": {
@@ -3202,6 +3208,9 @@
         "dm_settings_info_page_allow_subscriber_messages_setting_enabled": {
           "value": "false"
         },
+        "dm_settings_info_page_device_list_enabled": {
+          "value": "false"
+        },
         "dm_share_sheet_send_individually_max_count": {
           "value": "20"
         },
@@ -3336,6 +3345,9 @@
         },
         "gryphon_jump_to_latest_enabled": {
           "value": "true"
+        },
+        "gryphon_motion": {
+          "value": "false"
         },
         "gryphon_optout_hidden_in_navbar": {
           "value": "false"
@@ -5244,7 +5256,7 @@
           "value": "true"
         },
         "web_image_large_webp_variants": {
-          "value": "true"
+          "value": "false"
         },
         "web_video_bitrate_persistence_enabled": {
           "value": "false"
@@ -5289,10 +5301,10 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "ae02f82de3a4a12f4ebb3602cce87766"
+      "settingsVersion": "91002107c7023758579152a82ce540f9"
     },
     "debug": {},
-    "featureSetToken": "a9e3b6641d835f50bbe3e3d6084c7f374f954776",
+    "featureSetToken": "dba4ab724ba0bf88b4326e1c3a9a5f11d548f50a",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -5362,7 +5374,7 @@
     "country": "US",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "169515760503525634",
+    "guestId": "169524399311857868",
     "hasCommunityMemberships": "false",
     "language": "en",
     "oneFactorLoginEligibility": {
