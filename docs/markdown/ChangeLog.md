@@ -2138,3 +2138,14 @@
 - rweb_lists_pins_prefetch_enabled<br>
 - subscriptions_blue_verified_edit_profile_backend_error_message_enabled<br>
 - subscriptions_is_blue_verified_hide_checkmark_enabled<br>
+## 2023/09/22<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- gryphon_faster_cell_entrance<br>
+#### remove<br>
+- None<br>
