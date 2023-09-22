@@ -748,6 +748,9 @@
       "gryphon_blue_only_enabled": {
         "value": "true"
       },
+      "gryphon_faster_cell_entrance": {
+        "value": "false"
+      },
       "gryphon_fps_tracking_enabled": {
         "value": "true"
       },
@@ -3331,6 +3334,9 @@
         "gryphon_blue_only_enabled": {
           "value": "true"
         },
+        "gryphon_faster_cell_entrance": {
+          "value": "false"
+        },
         "gryphon_fps_tracking_enabled": {
           "value": "true"
         },
@@ -5241,7 +5247,7 @@
           "value": "true"
         },
         "web_image_large_webp_variants": {
-          "value": "false"
+          "value": "true"
         },
         "web_video_bitrate_persistence_enabled": {
           "value": "false"
@@ -5286,10 +5292,10 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "eb4a50dbcd4a80b127da15d009f93dff"
+      "settingsVersion": "3f8687c14d569b58db9838b32c82b168"
     },
     "debug": {},
-    "featureSetToken": "9b32109bc1bcd1c4cab534ce79b4d21f71a00137",
+    "featureSetToken": "5e5bc23c4e42e6729b02b5e673ae8f7d1197212a",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -5359,7 +5365,7 @@
     "country": "US",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "169533038675130282",
+    "guestId": "169541678375791136",
     "hasCommunityMemberships": "false",
     "language": "en",
     "oneFactorLoginEligibility": {
