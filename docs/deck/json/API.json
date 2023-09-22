@@ -1263,8 +1263,8 @@
       }
     },
     "CommunityTweetsRankedTimeline": {
-      "url": "https://twitter.com/i/api/graphql/UwEaY0_gBZFCQq-gEnArjg/CommunityTweetsRankedTimeline",
-      "queryId": "UwEaY0_gBZFCQq-gEnArjg",
+      "url": "https://twitter.com/i/api/graphql/MUshqPh7CuWNuP-0_N6WjQ/CommunityTweetsRankedTimeline",
+      "queryId": "MUshqPh7CuWNuP-0_N6WjQ",
       "method": "GET",
       "features": {
         "responsive_web_graphql_exclude_directive_enabled": true,
@@ -1289,8 +1289,8 @@
       }
     },
     "CommunityTweetsTimeline": {
-      "url": "https://twitter.com/i/api/graphql/X3ziwTzWWeaFPsesEwWY-A/CommunityTweetsTimeline",
-      "queryId": "X3ziwTzWWeaFPsesEwWY-A",
+      "url": "https://twitter.com/i/api/graphql/vqCo3m6EsbCE-tIZRUGDAw/CommunityTweetsTimeline",
+      "queryId": "vqCo3m6EsbCE-tIZRUGDAw",
       "method": "GET",
       "features": {
         "responsive_web_graphql_exclude_directive_enabled": true,
@@ -4228,21 +4228,27 @@
       "features": {}
     },
     "useFetchProfileBlocks_profileExistsQuery": {
-      "url": "https://twitter.com/i/api/graphql/Z2BA99jFw6TxaJM5v7Irmg/useFetchProfileBlocks_profileExistsQuery",
-      "queryId": "Z2BA99jFw6TxaJM5v7Irmg",
+      "url": "https://twitter.com/i/api/graphql/8eSy9I2GQsIwm0u2Xai16w/useFetchProfileBlocks_profileExistsQuery",
+      "queryId": "8eSy9I2GQsIwm0u2Xai16w",
       "method": "GET",
       "features": {}
     },
     "useFetchProfileBlocks_profileQuery": {
-      "url": "https://twitter.com/i/api/graphql/Azv1m7WiLnbn36nNCk7l0Q/useFetchProfileBlocks_profileQuery",
-      "queryId": "Azv1m7WiLnbn36nNCk7l0Q",
+      "url": "https://twitter.com/i/api/graphql/qxwDnpkjvetrIEGPpImePg/useFetchProfileBlocks_profileQuery",
+      "queryId": "qxwDnpkjvetrIEGPpImePg",
       "method": "GET",
       "features": {}
     },
     "useFetchProfileBlocks_settingsQuery": {
-      "url": "https://twitter.com/i/api/graphql/YVjaUz4gOzTvRgxFcsFXeg/useFetchProfileBlocks_settingsQuery",
-      "queryId": "YVjaUz4gOzTvRgxFcsFXeg",
+      "url": "https://twitter.com/i/api/graphql/17FNMUxutwdDLTFFJHR_eA/useFetchProfileBlocks_settingsQuery",
+      "queryId": "17FNMUxutwdDLTFFJHR_eA",
       "method": "GET",
+      "features": {}
+    },
+    "ConsentScreen_xprofileMutation": {
+      "url": "https://twitter.com/i/api/graphql/4RvEtxr03YPi6jxZZ_PkoQ/ConsentScreen_xprofileMutation",
+      "queryId": "4RvEtxr03YPi6jxZZ_PkoQ",
+      "method": "POST",
       "features": {}
     },
     "useCreateRichtextBlockMutation": {
