@@ -5634,6 +5634,12 @@ This document is entirely auto-generated and may contain errors.<br>
 | Interested  | interested |
 | Favorite    | favorite   |
 
+| constant        | value            |
+|:----------------|:-----------------|
+| Composition     | composition      |
+| DMComposition   | dm_composition   |
+| NoteComposition | note_composition |
+
 | constant   | value       |
 |:-----------|:------------|
 | Cashtag    | cashtag     |

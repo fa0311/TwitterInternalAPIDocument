@@ -1,7 +1,7 @@
 {
   "env": "prod",
   "isCanary": "false",
-  "sha": "80ef44ea3fed99cc61ca6b45d5f94dfd488f82a0",
+  "sha": "6cf12418eb9cbea2a33fb2b0edd5892c36e9ab45",
   "isLoggedIn": "false",
   "hasMultiAccountCookie": "false",
   "uaParserTags": [
@@ -9,7 +9,7 @@
     "rweb",
     "msw"
   ],
-  "serverDate": "1695330386864",
+  "serverDate": "1695503155972",
   "cookies": {
     "version": "1661819456366",
     "fetchedTime": "1661971138705",
@@ -102,5 +102,6 @@
         "zipbox_forms_auth_token"
       ]
     }
-  }
+  },
+  "userHash": "f0ab0b46c945729ed334b80d3bb51c8916808c1620450488a8499f13b82cae57"
 }
