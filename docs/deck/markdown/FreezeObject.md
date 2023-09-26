@@ -163,6 +163,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | community_members         | community_members         |
 | super_followers_exclusive | super_followers_exclusive |
 | trusted_friends_tweet     | trusted_friends_tweet     |
+| verified                  | verified                  |
 
 | constant            | value               |
 |:--------------------|:--------------------|
@@ -3066,7 +3067,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant      | value                                                                                                                                                                                                                              |
 |:--------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| superFollower | {'graphic': 'p.default', 'headline': 'u().e453f536', 'subtext': 'u().dea63fc4', 'actionLabel': 'u().g7099a02', 'actionLink': 'https://help.x.com/en/using-twitter/super-follows#sfexpect', 'secondaryActionLabel': 'u().c2637ef6'} |
+| superFollower | {'graphic': 'p.default', 'headline': 'u().e453f536', 'subtext': 'u().bd4cb7a0', 'actionLabel': 'u().g7099a02', 'actionLink': 'https://help.x.com/en/using-twitter/super-follows#sfexpect', 'secondaryActionLabel': 'u().c2637ef6'} |
 
 | constant        | value        |
 |:----------------|:-------------|
@@ -3322,11 +3323,11 @@ This document is entirely auto-generated and may contain errors.<br>
 ```
 ```internal process
 # Error
-{[ae.I1.clearBookmarks]:{"component":"Gt"},[ae.I1.clearTweets]:{"component":"ln"},[ae.I1.columnDebugInfo]:{"component":"ye"},[ae.I1.columnDebugState]:{"component":"ge"},[ae.I1.sharingDebug]:{"component":"se.Z"},[ae.I1.contentDisplay]:{"component":"he"},[ae.I1.conversationInfo]:{"component":"tt"},[ae...
+{[ae.I1.clearBookmarks]:{"component":"Kt"},[ae.I1.clearTweets]:{"component":"ln"},[ae.I1.columnDebugInfo]:{"component":"ye"},[ae.I1.columnDebugState]:{"component":"ge"},[ae.I1.sharingDebug]:{"component":"se.Z"},[ae.I1.contentDisplay]:{"component":"he"},[ae.I1.conversationInfo]:{"component":"tt"},[ae...
 ```
 ```internal process
 # Error
-{[Ro.X.conversationSettings]:{"component":"Wo","showInStack":"!0"},[Ro.X.drawerToggle]:{"component":"qo","showInStack":"!1"},[Ro.X.makeDeck]:{"component":"er","showInStack":"!0"},[Ro.X.newMessage]:{"component":"or","showInStack":"!0"},[Ro.X.remove]:{"component":"rr.Z","showInStack":"!1"},[Ro.X.searc...
+{[Ro.X.conversationSettings]:{"component":"Ho","showInStack":"!0"},[Ro.X.drawerToggle]:{"component":"Uo","showInStack":"!1"},[Ro.X.makeDeck]:{"component":"er","showInStack":"!0"},[Ro.X.newMessage]:{"component":"or","showInStack":"!0"},[Ro.X.remove]:{"component":"rr.Z","showInStack":"!1"},[Ro.X.searc...
 ```
 | constant          | value             |
 |:------------------|:------------------|
@@ -3624,8 +3625,8 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant     | value   |
 |:-------------|:--------|
-| ANIMATED_GIF | c       |
-| VIDEO        | d       |
+| ANIMATED_GIF | d       |
+| VIDEO        | c       |
 | VINE         | u       |
 
 | constant   | value   |
@@ -3977,7 +3978,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{"ActionsBar":"f.Z","ActionMenu":"function()"{"Icon":"e","isDisabled":"t","items":"n","onOpen":"i"}{"const r=o.useCallback()"{"items":"n","onCloseRequested":"e"}{"Icon":"e","isDisabled":"t","onClick":"i","renderActionMenu":"r"}},"CallToAction":"a.ZP","EditCallout":"I.Z","Education":"x.Z","Highlighte...
+{"ActionsBar":"f.Z","ActionMenu":"function()"{"Icon":"e","isDisabled":"t","items":"n","onOpen":"i"}{"const r=o.useCallback()"{"items":"n","onCloseRequested":"e"}{"Icon":"e","isDisabled":"t","onClick":"i","renderActionMenu":"r"}},"CallToAction":"a.ZP","EditCallout":"x.Z","Education":"A.Z","Highlighte...
 ```
 | constant       | value          |
 |:---------------|:---------------|
@@ -4285,7 +4286,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant                | value                   |
 |:------------------------|:------------------------|
-| ...r                    | _                       |
+| ...n                    | _                       |
 | DeprecatedMediaFocus    | DeprecatedMediaFocus    |
 | EmphasizedPromotedTweet | EmphasizedPromotedTweet |
 | MapCardPromotedTweet    | MapCardPromotedTweet    |
@@ -5077,13 +5078,14 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant                  | value                                   |
 |:--------------------------|:----------------------------------------|
-| all                       | {'icon': 'sn', 'label': 'C().i8ea6d4e'} |
-| community                 | {'icon': 'on', 'label': 'C().ec5a4a26'} |
-| by_invitation             | {'icon': 'rn', 'label': 'C().b454300a'} |
-| subscribers               | {'icon': 'sn', 'label': 'C().bf8d98f4'} |
-| community_members         | {'icon': 'an', 'label': 'C().i13be5a0'} |
-| super_followers_exclusive | {'icon': 'sn', 'label': 'C().ebe1d850'} |
-| trusted_friends_tweet     | {'icon': 'ln', 'label': 'u'}            |
+| all                       | {'icon': 'on', 'label': 'C().i8ea6d4e'} |
+| community                 | {'icon': 'rn', 'label': 'C().ec5a4a26'} |
+| by_invitation             | {'icon': 'an', 'label': 'C().b454300a'} |
+| subscribers               | {'icon': 'on', 'label': 'C().bf8d98f4'} |
+| community_members         | {'icon': 'ln', 'label': 'C().i13be5a0'} |
+| super_followers_exclusive | {'icon': 'on', 'label': 'C().ebe1d850'} |
+| trusted_friends_tweet     | {'icon': 'cn', 'label': 'u'}            |
+| verified                  | {'icon': 'dn', 'label': 'C().b121464a'} |
 
 | constant   | value   |
 |:-----------|:--------|
@@ -5107,7 +5109,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{"ActionsBar":"_.Z","ActionMenu":"function()"{"Icon":"e","isDisabled":"t","items":"n","onOpen":"i"}{"const r=o.useCallback()"{"items":"n","onCloseRequested":"e"}{"Icon":"e","isDisabled":"t","onClick":"i","renderActionMenu":"r"}},"CallToAction":"a.ZP","EditCallout":"k.Z","Education":"S.Z","Highlighte...
+{"ActionsBar":"y.Z","ActionMenu":"function()"{"Icon":"e","isDisabled":"t","items":"n","onOpen":"i"}{"const r=o.useCallback()"{"items":"n","onCloseRequested":"e"}{"Icon":"e","isDisabled":"t","onClick":"i","renderActionMenu":"r"}},"CallToAction":"a.ZP","EditCallout":"k.Z","Education":"S.Z","Highlighte...
 ```
 | constant       | value          |
 |:---------------|:---------------|
@@ -5983,6 +5985,36 @@ This document is entirely auto-generated and may contain errors.<br>
 | DMComposition   | dm_composition   |
 | NoteComposition | note_composition |
 
+| constant   | value      |
+|:-----------|:-----------|
+| Scheduled  | Scheduled  |
+| InProgress | InProgress |
+| Completed  | Completed  |
+| Postponed  | Postponed  |
+| Cancelled  | Cancelled  |
+| Unused6    | _Unused6   |
+| Unused7    | _Unused7   |
+
+| constant        | value          |
+|:----------------|:---------------|
+| SCORE           | score          |
+| SECONDARY_SCORE | secondaryScore |
+
+| constant   | value      |
+|:-----------|:-----------|
+| Scheduled  | Scheduled  |
+| InProgress | InProgress |
+| Completed  | Completed  |
+| Postponed  | Postponed  |
+| Cancelled  | Cancelled  |
+| Unused6    | _Unused6   |
+| Unused7    | _Unused7   |
+
+| constant   | value    |
+|:-----------|:---------|
+| Fixed      | fixed    |
+| Variable   | variable |
+
 | constant     | value        |
 |:-------------|:-------------|
 | CONVERSATION | conversation |
@@ -6272,7 +6304,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{"ActionsBar":"C.Z","ActionMenu":"function()"{"Icon":"e","isDisabled":"t","items":"n","onOpen":"i"}{"const o=r.useCallback()"{"items":"n","onCloseRequested":"e"}{"Icon":"e","isDisabled":"t","onClick":"i","renderActionMenu":"o"}},"CallToAction":"a.ZP","EditCallout":"x.Z","Education":"S.Z","Highlighte...
+{"ActionsBar":"C.Z","ActionMenu":"function()"{"Icon":"e","isDisabled":"t","items":"n","onOpen":"i"}{"const o=r.useCallback()"{"items":"n","onCloseRequested":"e"}{"Icon":"e","isDisabled":"t","onClick":"i","renderActionMenu":"o"}},"CallToAction":"a.ZP","EditCallout":"Z.Z","Education":"S.Z","Highlighte...
 ```
 | constant   | value    |
 |:-----------|:---------|
@@ -6662,36 +6694,6 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant   | value      |
 |:-----------|:-----------|
-| Scheduled  | Scheduled  |
-| InProgress | InProgress |
-| Completed  | Completed  |
-| Postponed  | Postponed  |
-| Cancelled  | Cancelled  |
-| Unused6    | _Unused6   |
-| Unused7    | _Unused7   |
-
-| constant        | value          |
-|:----------------|:---------------|
-| SCORE           | score          |
-| SECONDARY_SCORE | secondaryScore |
-
-| constant   | value      |
-|:-----------|:-----------|
-| Scheduled  | Scheduled  |
-| InProgress | InProgress |
-| Completed  | Completed  |
-| Postponed  | Postponed  |
-| Cancelled  | Cancelled  |
-| Unused6    | _Unused6   |
-| Unused7    | _Unused7   |
-
-| constant   | value    |
-|:-----------|:---------|
-| Fixed      | fixed    |
-| Variable   | variable |
-
-| constant   | value      |
-|:-----------|:-----------|
 | Pinning    | Pinning    |
 | Reordering | Reordering |
 
@@ -6925,6 +6927,23 @@ This document is entirely auto-generated and may contain errors.<br>
 | search     | search     |
 | searchUser | searchUser |
 
+| constant   |   value |
+|:-----------|--------:|
+| normal     |     100 |
+| long       |     250 |
+| longer     |     500 |
+
+| constant   | value   |
+|:-----------|:--------|
+| animate    | animate |
+| static     | static  |
+| prep       | prep    |
+
+| constant      | value         |
+|:--------------|:--------------|
+| single_line   | singleline    |
+| format_inline | format-inline |
+
 | constant     | value       |
 |:-------------|:------------|
 | INITIAL      | initial     |
@@ -6940,11 +6959,6 @@ This document is entirely auto-generated and may contain errors.<br>
 | NORMAL     |       1 |
 | SPACE      |       0 |
 | INELIGIBLE |      -1 |
-
-| constant      | value         |
-|:--------------|:--------------|
-| single_line   | singleline    |
-| format_inline | format-inline |
 
 | constant       | value          |
 |:---------------|:---------------|
@@ -7241,6 +7255,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | community     | h().af293dc2 |
 | by_invitation | h().cf7f7e3a |
 | subscribers   | h().ad85cd2e |
+| verified      | h().f19e4bfc |
 
 | constant                       | value                                      |
 |:-------------------------------|:-------------------------------------------|
@@ -7254,6 +7269,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | super_followers_exclusive      | super_followers_exclusive                  |
 | community_tweet_member_removed | community_tweet_member_removed             |
 | trusted_friends_tweet          | trusted_friends_tweet                      |
+| verified                       | change_conversation_control_to_verified    |
 
 | constant   | value      |
 |:-----------|:-----------|
