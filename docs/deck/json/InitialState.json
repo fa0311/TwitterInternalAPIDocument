@@ -3159,7 +3159,7 @@
           "value": "true"
         },
         "gryphon_faster_cell_entrance": {
-          "value": "false"
+          "value": "true"
         },
         "gryphon_fps_tracking_enabled": {
           "value": "true"
@@ -5022,7 +5022,7 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "8c7c99248440693b0ff491027baa2908"
+      "settingsVersion": "1d38ce29b29b8311e4f1d814741ee2f6"
     },
     "debug": {},
     "featureSetToken": "2f2207e8d640232062c186bfe532537656240b07",
@@ -5095,7 +5095,7 @@
     "country": "US",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "169576287507331092",
+    "guestId": "169584922282792759",
     "hasCommunityMemberships": "false",
     "language": "en",
     "oneFactorLoginEligibility": {
