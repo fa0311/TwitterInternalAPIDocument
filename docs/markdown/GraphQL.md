@@ -15457,7 +15457,7 @@ Login Required: `...`<br>
 #### features<br>
 | key                                                | type    | variable   |
 |:---------------------------------------------------|:--------|:-----------|
-| creator_subscriptions_email_share_enabled          | boolean | False      |
+| creator_subscriptions_email_share_enabled          | boolean | True       |
 | super_follow_subscriptions_tax_calculation_enabled | boolean | True       |
 
 #### queryId<br>
