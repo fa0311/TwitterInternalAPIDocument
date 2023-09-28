@@ -1805,7 +1805,6 @@ This document is entirely auto-generated and may contain errors.<br>
 | cardCarouselClickableNavArea              | control |
 | headsUpVariant                            | control |
 | collectionAdsEnabled                      | False   |
-| dynamicProductAdsEnabled                  | False   |
 | shouldConvertCollectionToImageWebsiteCard | False   |
 | dpaMetadataEnabled                        | False   |
 | dpaCtaEnabled                             | False   |
@@ -1916,7 +1915,6 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant   | value   |
 |:-----------|:--------|
-| xxSmall    | xxSmall |
 | xSmall     | xSmall  |
 | small      | small   |
 | normal     | normal  |
@@ -1925,7 +1923,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{[t.xxSmall]:".85",[t.xSmall]:".9",[t.small]:".95",[t.normal]:"1",[t.large]:"1.1",[t.xLarge]:"1.2"}
+{[t.xSmall]:".9",[t.small]:".95",[t.normal]:"1",[t.large]:"1.1",[t.xLarge]:"1.2"}
 ```
 | constant   | value   |
 |:-----------|:--------|
@@ -2198,58 +2196,58 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant   | value               |
 |:-----------|:--------------------|
-| space1     | p.spaces.space1     |
-| space2     | n()                 |
-| space4     | n(p.spaces.space2)  |
-| space8     | n(p.spaces.space4)  |
-| space12    | n(p.spaces.space8)  |
-| space16    | n(p.spaces.space12) |
-| space20    | n(p.spaces.space16) |
-| space24    | n(p.spaces.space20) |
-| space28    | n(p.spaces.space24) |
-| space32    | n(p.spaces.space28) |
-| space36    | n(p.spaces.space32) |
-| space40    | n(p.spaces.space36) |
-| space48    | n(p.spaces.space40) |
-| space56    | n(p.spaces.space48) |
-| space64    | n(p.spaces.space56) |
-| space72    | n(p.spaces.space64) |
-| space80    | n(p.spaces.space72) |
+| space1     | m.spaces.space1     |
+| space2     | h()                 |
+| space4     | h(m.spaces.space2)  |
+| space8     | h(m.spaces.space4)  |
+| space12    | h(m.spaces.space8)  |
+| space16    | h(m.spaces.space12) |
+| space20    | h(m.spaces.space16) |
+| space24    | h(m.spaces.space20) |
+| space28    | h(m.spaces.space24) |
+| space32    | h(m.spaces.space28) |
+| space36    | h(m.spaces.space32) |
+| space40    | h(m.spaces.space36) |
+| space48    | h(m.spaces.space40) |
+| space56    | h(m.spaces.space48) |
+| space64    | h(m.spaces.space56) |
+| space72    | h(m.spaces.space64) |
+| space80    | h(m.spaces.space72) |
 
 | constant              | value     |
 |:----------------------|:----------|
-| appBarHeight          | T         |
-| appBarHeightPx        | y         |
-| conversationLineWidth | D.space2  |
-| gutterHorizontal      | S.space16 |
-| gutterHorizontalPx    | D.space16 |
-| gutterVertical        | S.space12 |
-| gutterVerticalPx      | D.space12 |
+| appBarHeight          | f         |
+| appBarHeightPx        | T         |
+| conversationLineWidth | S.space2  |
+| gutterHorizontal      | w.space16 |
+| gutterHorizontalPx    | S.space16 |
+| gutterVertical        | w.space12 |
+| gutterVerticalPx      | S.space12 |
 
 | constant            | value   |
 |:--------------------|:--------|
 | aspectRatios        | l       |
-| baseFontSize        | M       |
+| baseFontSize        | y       |
 | borderRadii         | u       |
 | borderRadiiPx       | i       |
 | borderWidths        | c       |
 | borderWidthsPx      | s       |
 | breakpoints         | r       |
-| componentDimensions | f       |
+| componentDimensions | v       |
 | componentZIndices   | o       |
-| fontSizes           | g       |
-| fontSizesPx         | w       |
+| fontSizes           | M       |
+| fontSizesPx         | g       |
 | fontWeights         | b       |
-| lineHeights         | A       |
-| lineHeightsPx       | m       |
-| scales              | t.Tp    |
-| scaleMultipler      | d       |
-| spaces              | S       |
-| spacesPx            | D       |
+| lineHeights         | D       |
+| lineHeightsPx       | A       |
+| scales              | d       |
+| scaleMultipler      | n       |
+| spaces              | w       |
+| spacesPx            | S       |
 
 ```internal process
 # Error
-{"...m()":{"scale":"o"}"rd0",A.obn,d,"a"}
+{"...m()":{"scale":"o","scales":"l"}"rd0",A.obn,d,"a"}
 ```
 | constant     |   value |
 |:-------------|--------:|
