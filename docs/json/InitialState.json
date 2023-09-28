@@ -81,11 +81,6 @@
       "errors": {},
       "fetchStatus": {}
     },
-    "translationsProfiles": {
-      "entities": {},
-      "errors": {},
-      "fetchStatus": {}
-    },
     "imageCache": {
       "entities": {},
       "errors": {},
@@ -112,6 +107,11 @@
       "fetchStatus": {}
     },
     "phoneNumberValidity": {
+      "entities": {},
+      "errors": {},
+      "fetchStatus": {}
+    },
+    "translationsProfiles": {
       "entities": {},
       "errors": {},
       "fetchStatus": {}
@@ -560,7 +560,7 @@
         "value": "false"
       },
       "creator_subscriptions_email_share_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "creator_subscriptions_subscribe_action_tweet_menu_enabled": {
         "value": "true"
@@ -758,7 +758,7 @@
         "value": "true"
       },
       "gryphon_faster_cell_entrance": {
-        "value": "false"
+        "value": "true"
       },
       "gryphon_fps_tracking_enabled": {
         "value": "true"
@@ -1346,9 +1346,6 @@
         "value": "true"
       },
       "responsive_web_dockable_autoplay_policy_enabled": {
-        "value": "true"
-      },
-      "responsive_web_dynamic_product_ads_enabled": {
         "value": "true"
       },
       "responsive_web_edit_tweet_api_enabled": {
@@ -3952,9 +3949,6 @@
         "responsive_web_dockable_autoplay_policy_enabled": {
           "value": "true"
         },
-        "responsive_web_dynamic_product_ads_enabled": {
-          "value": "true"
-        },
         "responsive_web_edit_tweet_api_enabled": {
           "value": "true"
         },
@@ -5328,10 +5322,10 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "2f4882929a92bb8f76ce785aaf886d2d"
+      "settingsVersion": "3d145696321b879c0a2c16ab4bfc5341"
     },
     "debug": {},
-    "featureSetToken": "062b053cdcdb91055d0db45b910d2cc46ab1b102",
+    "featureSetToken": "7724d2ed2a4e200dea5938e36a0f1c665ec0121a",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -5401,7 +5395,7 @@
     "country": "US",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "169584880054136469",
+    "guestId": "169593519541763230",
     "hasCommunityMemberships": "false",
     "language": "en",
     "oneFactorLoginEligibility": {
