@@ -4698,7 +4698,7 @@
       "queryId": "VU-9k-bJdiGJL-z9bU3QQQ",
       "method": "GET",
       "features": {
-        "creator_subscriptions_email_share_enabled": false,
+        "creator_subscriptions_email_share_enabled": true,
         "super_follow_subscriptions_tax_calculation_enabled": true
       }
     },
