@@ -35019,7 +35019,7 @@
         ],
         "featureSwitch": {
           "creator_subscriptions_email_share_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "super_follow_subscriptions_tax_calculation_enabled": {
             "value": "true"
