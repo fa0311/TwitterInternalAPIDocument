@@ -149,7 +149,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant              | value                 |
 |:----------------------|:----------------------|
-| ...Gd                 | _                     |
+| ...Wd                 | _                     |
 | ColumnFromPath        | ColumnFromPath        |
 | ColumnTimelineAdapter | ColumnTimelineAdapter |
 
@@ -2043,14 +2043,13 @@ This document is entirely auto-generated and may contain errors.<br>
 | small      | small     |
 | uncropped  | uncropped |
 
-| constant   | value           |
-|:-----------|:----------------|
-| xxSmall    | ExtraExtraSmall |
-| xSmall     | ExtraSmall      |
-| small      | Small           |
-| normal     | Default         |
-| large      | Large           |
-| xLarge     | ExtraLarge      |
+| constant   | value      |
+|:-----------|:-----------|
+| xSmall     | ExtraSmall |
+| small      | Small      |
+| normal     | Default    |
+| large      | Large      |
+| xLarge     | ExtraLarge |
 
 | constant   | value     |
 |:-----------|:----------|
@@ -2514,7 +2513,6 @@ This document is entirely auto-generated and may contain errors.<br>
 | cardCarouselClickableNavArea              | control |
 | headsUpVariant                            | control |
 | collectionAdsEnabled                      | False   |
-| dynamicProductAdsEnabled                  | False   |
 | shouldConvertCollectionToImageWebsiteCard | False   |
 | dpaMetadataEnabled                        | False   |
 | dpaCtaEnabled                             | False   |
@@ -2638,7 +2636,6 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant   | value   |
 |:-----------|:--------|
-| xxSmall    | xxSmall |
 | xSmall     | xSmall  |
 | small      | small   |
 | normal     | normal  |
@@ -2647,7 +2644,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{[d.xxSmall]:".85",[d.xSmall]:".9",[d.small]:".95",[d.normal]:"1",[d.large]:"1.1",[d.xLarge]:"1.2"}
+{[d.xSmall]:".9",[d.small]:".95",[d.normal]:"1",[d.large]:"1.1",[d.xLarge]:"1.2"}
 ```
 | constant   | value   |
 |:-----------|:--------|
@@ -2925,58 +2922,58 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant   | value               |
 |:-----------|:--------------------|
-| space1     | h.spaces.space1     |
-| space2     | t()                 |
-| space4     | t(h.spaces.space2)  |
-| space8     | t(h.spaces.space4)  |
-| space12    | t(h.spaces.space8)  |
-| space16    | t(h.spaces.space12) |
-| space20    | t(h.spaces.space16) |
-| space24    | t(h.spaces.space20) |
-| space28    | t(h.spaces.space24) |
-| space32    | t(h.spaces.space28) |
-| space36    | t(h.spaces.space32) |
-| space40    | t(h.spaces.space36) |
-| space48    | t(h.spaces.space40) |
-| space56    | t(h.spaces.space48) |
-| space64    | t(h.spaces.space56) |
-| space72    | t(h.spaces.space64) |
-| space80    | t(h.spaces.space72) |
+| space1     | m.spaces.space1     |
+| space2     | p()                 |
+| space4     | p(m.spaces.space2)  |
+| space8     | p(m.spaces.space4)  |
+| space12    | p(m.spaces.space8)  |
+| space16    | p(m.spaces.space12) |
+| space20    | p(m.spaces.space16) |
+| space24    | p(m.spaces.space20) |
+| space28    | p(m.spaces.space24) |
+| space32    | p(m.spaces.space28) |
+| space36    | p(m.spaces.space32) |
+| space40    | p(m.spaces.space36) |
+| space48    | p(m.spaces.space40) |
+| space56    | p(m.spaces.space48) |
+| space64    | p(m.spaces.space56) |
+| space72    | p(m.spaces.space64) |
+| space80    | p(m.spaces.space72) |
 
 | constant              | value     |
 |:----------------------|:----------|
-| appBarHeight          | M         |
-| appBarHeightPx        | f         |
-| conversationLineWidth | A.space2  |
-| gutterHorizontal      | g.space16 |
-| gutterHorizontalPx    | A.space16 |
-| gutterVertical        | g.space12 |
-| gutterVerticalPx      | A.space12 |
+| appBarHeight          | k         |
+| appBarHeightPx        | M         |
+| conversationLineWidth | g.space2  |
+| gutterHorizontal      | y.space16 |
+| gutterHorizontalPx    | g.space16 |
+| gutterVertical        | y.space12 |
+| gutterVerticalPx      | g.space12 |
 
 | constant            | value   |
 |:--------------------|:--------|
 | aspectRatios        | o       |
-| baseFontSize        | w       |
+| baseFontSize        | f       |
 | borderRadii         | s       |
 | borderRadiiPx       | i       |
 | borderWidths        | c       |
 | borderWidthsPx      | u       |
 | breakpoints         | r       |
-| componentDimensions | k       |
+| componentDimensions | v       |
 | componentZIndices   | l       |
-| fontSizes           | S       |
-| fontSizesPx         | y       |
+| fontSizes           | w       |
+| fontSizesPx         | S       |
 | fontWeights         | b       |
-| lineHeights         | D       |
-| lineHeightsPx       | m       |
-| scales              | d.Tp    |
-| scaleMultipler      | n       |
-| spaces              | g       |
-| spacesPx            | A       |
+| lineHeights         | A       |
+| lineHeightsPx       | D       |
+| scales              | n       |
+| scaleMultipler      | t       |
+| spaces              | y       |
+| spacesPx            | g       |
 
 ```internal process
 # Error
-{"...m()":{"scale":"l"}"rn0",D.obt,n,"a"}
+{"...m()":{"scale":"l","scales":"o"}"rn0",D.obt,n,"a"}
 ```
 | constant     |   value |
 |:-------------|--------:|
@@ -3065,9 +3062,9 @@ This document is entirely auto-generated and may contain errors.<br>
 |:--------------|:-------------|
 | superFollower | u().fc065ee4 |
 
-| constant      | value                                                                                                                                                                                                                              |
-|:--------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| superFollower | {'graphic': 'p.default', 'headline': 'u().e453f536', 'subtext': 'u().bd4cb7a0', 'actionLabel': 'u().g7099a02', 'actionLink': 'https://help.x.com/en/using-twitter/super-follows#sfexpect', 'secondaryActionLabel': 'u().c2637ef6'} |
+| constant      | value                                                                                                                                                                                                                  |
+|:--------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| superFollower | {'graphic': 'p.default', 'headline': 'u().e453f536', 'subtext': 'u().bd4cb7a0', 'actionLabel': 'u().g7099a02', 'actionLink': 'https://help.x.com/using-twitter/subscriptions', 'secondaryActionLabel': 'u().c2637ef6'} |
 
 | constant        | value        |
 |:----------------|:-------------|
@@ -5111,6 +5108,15 @@ This document is entirely auto-generated and may contain errors.<br>
 # Error
 {"ActionsBar":"y.Z","ActionMenu":"function()"{"Icon":"e","isDisabled":"t","items":"n","onOpen":"i"}{"const r=o.useCallback()"{"items":"n","onCloseRequested":"e"}{"Icon":"e","isDisabled":"t","onClick":"i","renderActionMenu":"r"}},"CallToAction":"a.ZP","EditCallout":"k.Z","Education":"S.Z","Highlighte...
 ```
+| constant   | value    |
+|:-----------|:---------|
+| FOLLOWS    | follows  |
+| CREATORS   | creators |
+
+```internal process
+# Error
+{[g.FOLLOWS]:{"label":"R","url":"/i/connect_people"},[g.CREATORS]:{"label":"v","url":"/i/connect_people?is_creator_only=true"}}
+```
 | constant       | value          |
 |:---------------|:---------------|
 | TWEET_CARET    | tweet_caret    |
@@ -5669,7 +5675,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{[x.ActionedTweets]:{"backLocation":"A","confirmationSheetHeadline":"()(0,o.X_)"{"screenName":"m"}{"screenName":"m"}},[x.PreviewFlaggedTweets]:{"backLocation":"P","confirmationSheetHeadline":"S()"{"screenName":"m"}{"screenName":"m"}}}
+{[x.ActionedTweets]:{"backLocation":"A","confirmationSheetHeadline":"()(0,o.X_)"{"screenName":"m"}{"screenName":"m"}},[x.PreviewFlaggedTweets]:{"backLocation":"P","confirmationSheetHeadline":"Z()"{"screenName":"m"}{"screenName":"m"}}}
 ```
 | constant             | value                  |
 |:---------------------|:-----------------------|

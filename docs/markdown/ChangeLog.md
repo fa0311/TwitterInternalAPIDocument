@@ -2149,3 +2149,33 @@
 - gryphon_faster_cell_entrance<br>
 #### remove<br>
 - None<br>
+## 2023/09/27<br>
+### API<br>
+#### add<br>
+- CommunityTweetSearchModuleQuery<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- c9s_community_tweet_search_enabled<br>
+- conversation_controls_verified_only_enabled<br>
+- creator_subscriptions_connect_tab_enabled<br>
+- rweb_home_bookmark_in_action_bar_enabled<br>
+- rweb_home_refetch_on_refocus_min_delay_seconds<br>
+- subscriptions_feature_account_analytics<br>
+- subscriptions_feature_hide_your_likes<br>
+- subscriptions_feature_highlights<br>
+#### remove<br>
+- hidden_profile_likes_settings_enabled<br>
+- responsive_web_account_analytics_enabled<br>
+## 2023/09/28<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- responsive_web_dynamic_product_ads_enabled<br>
