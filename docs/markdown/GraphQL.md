@@ -14491,7 +14491,7 @@ Login Required: `...`<br>
 #### features<br>
 | key                                                        | type    | variable   |
 |:-----------------------------------------------------------|:--------|:-----------|
-| identity_verification_hide_verified_label_settings_enabled | boolean | False      |
+| identity_verification_hide_verified_label_settings_enabled | boolean | True       |
 
 #### queryId<br>
 `None`<br>
