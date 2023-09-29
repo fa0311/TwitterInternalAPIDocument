@@ -1833,7 +1833,6 @@ This document is entirely auto-generated and may contain errors.<br>
 | isCarouselItem                            | False   |
 | followButtonAtBottomOfPromotedUserCard    | False   |
 | tweetMediaItemImmersiveViewerEntryPoint   | void 0  |
-| withImmersiveViewerPlaybackBugFix         | False   |
 | withVodTweetDetailAttribution             | False   |
 | isEmbedBrandLinkExperimentEnabled         | False   |
 | userAvatarLabel                           | False   |
@@ -2216,8 +2215,8 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant              | value     |
 |:----------------------|:----------|
-| appBarHeight          | f         |
-| appBarHeightPx        | T         |
+| appBarHeight          | T         |
+| appBarHeightPx        | f         |
 | conversationLineWidth | S.space2  |
 | gutterHorizontal      | w.space16 |
 | gutterHorizontalPx    | S.space16 |
@@ -3195,6 +3194,15 @@ This document is entirely auto-generated and may contain errors.<br>
 | SwitchToAppLow5         | switch_to_app_low_5        |
 | SwitchToAppLow9         | switch_to_app_low_9        |
 
+| constant       | value          |
+|:---------------|:---------------|
+| TWEET_CARET    | tweet_caret    |
+| PROFILE        | user_profile   |
+| LIST_DETAIL    | list_detail    |
+| RICH_FEEDBACK  | rich_feedback  |
+| TWEET          | tweet          |
+| FOLLOWERS_LIST | followers_list |
+
 | constant              | value                                                                                                                                                                                                                                                         |
 |:----------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | openKeyboardShortcuts | ?                                                                                                                                                                                                                                                             |
@@ -3230,15 +3238,6 @@ This document is entirely auto-generated and may contain errors.<br>
 | video                 | {'play1': 'k', 'play2': 'space', 'mute': 'm'}                                                                                                                                                                                                                 |
 | columns               | {'createNewColumn': 'c n', 'duplicateColumn': 'c d', 'focusOnReorderButton': 'c r', 'lastColumn': 'c 0', 'nextColumn': ']', 'nthColumn': 'c 1..9', 'prevColumn': '[', 'removeColumn': 'c backspace', 'toggleColumnOptions': 'c o', 'undoRemoveColumn': 'c u'} |
 | decks                 | {'createNewDeck': 'd n', 'editActiveDeck': 'd e', 'lastPinnedDeck': 'd 0', 'manageAllDecks': 'd m', 'nthPinnedDeck': 'd 1..9'}                                                                                                                                |
-
-| constant       | value          |
-|:---------------|:---------------|
-| TWEET_CARET    | tweet_caret    |
-| PROFILE        | user_profile   |
-| LIST_DETAIL    | list_detail    |
-| RICH_FEEDBACK  | rich_feedback  |
-| TWEET          | tweet          |
-| FOLLOWERS_LIST | followers_list |
 
 | constant          | value             |
 |:------------------|:------------------|
@@ -3369,7 +3368,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant                | value                   |
 |:------------------------|:------------------------|
-| ...t                    | _                       |
+| ...d                    | _                       |
 | DeprecatedMediaFocus    | DeprecatedMediaFocus    |
 | EmphasizedPromotedTweet | EmphasizedPromotedTweet |
 | MapCardPromotedTweet    | MapCardPromotedTweet    |
@@ -3870,6 +3869,74 @@ This document is entirely auto-generated and may contain errors.<br>
 | UserDetailed     | UserDetailed     |
 | SubscribableUser | SubscribableUser |
 
+| constant   | value     |
+|:-----------|:----------|
+| follow     | follow    |
+| like       | like      |
+| reply      | reply     |
+| retweet    | retweet   |
+| generic    | generic   |
+| dmshare    | dmshare   |
+| subscribe  | subscribe |
+| topic      | topic     |
+| community  | community |
+| bookmark   | bookmark  |
+
+| constant                | value                      |
+|:------------------------|:---------------------------|
+| BannerSwitchToApp       | banner_switch_to_app       |
+| InterstitialSwitchToApp | interstitial_switch_to_app |
+| NuxAppDownload          | NUX-app-download           |
+| SwitchToAppFooter       | switch-to-app-footer       |
+| UseApp                  | use-app                    |
+| UseAppExtended          | use-app-extended           |
+| SwitchToAppHigh7        | switch_to_app_high_7       |
+| SwitchToAppHigh1        | switch_to_app_high_1       |
+| SwitchToAppHigh2        | switch_to_app_high_2       |
+| SwitchToAppHigh3        | switch_to_app_high_3       |
+| SwitchToAppHigh5        | switch_to_app_high_5       |
+| SwitchToAppLow7         | switch_to_app_low_7        |
+| SwitchToAppLow1         | switch_to_app_low_1        |
+| SwitchToAppLow3         | switch_to_app_low_3        |
+| SwitchToAppLow5         | switch_to_app_low_5        |
+| SwitchToAppLow9         | switch_to_app_low_9        |
+
+| constant              | value                                                                                                                                                                                                                                                         |
+|:----------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| openKeyboardShortcuts | ?                                                                                                                                                                                                                                                             |
+| swipeLeft             | left                                                                                                                                                                                                                                                          |
+| swipeRight            | right                                                                                                                                                                                                                                                         |
+| nextItem              | j                                                                                                                                                                                                                                                             |
+| previousItem          | k                                                                                                                                                                                                                                                             |
+| refresh               | .                                                                                                                                                                                                                                                             |
+| nightMode             | z                                                                                                                                                                                                                                                             |
+| bookmark              | b                                                                                                                                                                                                                                                             |
+| block                 | x                                                                                                                                                                                                                                                             |
+| mute                  | u                                                                                                                                                                                                                                                             |
+| newTweet              | n                                                                                                                                                                                                                                                             |
+| newMessage            | m                                                                                                                                                                                                                                                             |
+| toggleDMDrawer        | i                                                                                                                                                                                                                                                             |
+| goHome                | g h                                                                                                                                                                                                                                                           |
+| goExplore             | g e                                                                                                                                                                                                                                                           |
+| goNotifications       | g n                                                                                                                                                                                                                                                           |
+| goMentions            | g r                                                                                                                                                                                                                                                           |
+| goProfile             | g p                                                                                                                                                                                                                                                           |
+| goLikes               | g l                                                                                                                                                                                                                                                           |
+| goLists               | g i                                                                                                                                                                                                                                                           |
+| goMessages            | g m                                                                                                                                                                                                                                                           |
+| goToDrafts            | g f                                                                                                                                                                                                                                                           |
+| goToScheduled         | g t                                                                                                                                                                                                                                                           |
+| goSettings            | g s                                                                                                                                                                                                                                                           |
+| goToUser              | g u                                                                                                                                                                                                                                                           |
+| goBookmarks           | g b                                                                                                                                                                                                                                                           |
+| goTopArticles         | g a                                                                                                                                                                                                                                                           |
+| goDisplay             | g d                                                                                                                                                                                                                                                           |
+| search                | /                                                                                                                                                                                                                                                             |
+| audio                 | {'dock': 'a d', 'play': 'a space', 'mute': 'a m'}                                                                                                                                                                                                             |
+| video                 | {'play1': 'k', 'play2': 'space', 'mute': 'm'}                                                                                                                                                                                                                 |
+| columns               | {'createNewColumn': 'c n', 'duplicateColumn': 'c d', 'focusOnReorderButton': 'c r', 'lastColumn': 'c 0', 'nextColumn': ']', 'nthColumn': 'c 1..9', 'prevColumn': '[', 'removeColumn': 'c backspace', 'toggleColumnOptions': 'c o', 'undoRemoveColumn': 'c u'} |
+| decks                 | {'createNewDeck': 'd n', 'editActiveDeck': 'd e', 'lastPinnedDeck': 'd 0', 'manageAllDecks': 'd m', 'nthPinnedDeck': 'd 1..9'}                                                                                                                                |
+
 | constant   | value   |
 |:-----------|:--------|
 | Active     | active  |
@@ -3920,6 +3987,74 @@ This document is entirely auto-generated and may contain errors.<br>
 | Partner    |       2 |
 | Market     |       3 |
 | Access     |       4 |
+
+| constant   | value     |
+|:-----------|:----------|
+| follow     | follow    |
+| like       | like      |
+| reply      | reply     |
+| retweet    | retweet   |
+| generic    | generic   |
+| dmshare    | dmshare   |
+| subscribe  | subscribe |
+| topic      | topic     |
+| community  | community |
+| bookmark   | bookmark  |
+
+| constant                | value                      |
+|:------------------------|:---------------------------|
+| BannerSwitchToApp       | banner_switch_to_app       |
+| InterstitialSwitchToApp | interstitial_switch_to_app |
+| NuxAppDownload          | NUX-app-download           |
+| SwitchToAppFooter       | switch-to-app-footer       |
+| UseApp                  | use-app                    |
+| UseAppExtended          | use-app-extended           |
+| SwitchToAppHigh7        | switch_to_app_high_7       |
+| SwitchToAppHigh1        | switch_to_app_high_1       |
+| SwitchToAppHigh2        | switch_to_app_high_2       |
+| SwitchToAppHigh3        | switch_to_app_high_3       |
+| SwitchToAppHigh5        | switch_to_app_high_5       |
+| SwitchToAppLow7         | switch_to_app_low_7        |
+| SwitchToAppLow1         | switch_to_app_low_1        |
+| SwitchToAppLow3         | switch_to_app_low_3        |
+| SwitchToAppLow5         | switch_to_app_low_5        |
+| SwitchToAppLow9         | switch_to_app_low_9        |
+
+| constant              | value                                                                                                                                                                                                                                                         |
+|:----------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| openKeyboardShortcuts | ?                                                                                                                                                                                                                                                             |
+| swipeLeft             | left                                                                                                                                                                                                                                                          |
+| swipeRight            | right                                                                                                                                                                                                                                                         |
+| nextItem              | j                                                                                                                                                                                                                                                             |
+| previousItem          | k                                                                                                                                                                                                                                                             |
+| refresh               | .                                                                                                                                                                                                                                                             |
+| nightMode             | z                                                                                                                                                                                                                                                             |
+| bookmark              | b                                                                                                                                                                                                                                                             |
+| block                 | x                                                                                                                                                                                                                                                             |
+| mute                  | u                                                                                                                                                                                                                                                             |
+| newTweet              | n                                                                                                                                                                                                                                                             |
+| newMessage            | m                                                                                                                                                                                                                                                             |
+| toggleDMDrawer        | i                                                                                                                                                                                                                                                             |
+| goHome                | g h                                                                                                                                                                                                                                                           |
+| goExplore             | g e                                                                                                                                                                                                                                                           |
+| goNotifications       | g n                                                                                                                                                                                                                                                           |
+| goMentions            | g r                                                                                                                                                                                                                                                           |
+| goProfile             | g p                                                                                                                                                                                                                                                           |
+| goLikes               | g l                                                                                                                                                                                                                                                           |
+| goLists               | g i                                                                                                                                                                                                                                                           |
+| goMessages            | g m                                                                                                                                                                                                                                                           |
+| goToDrafts            | g f                                                                                                                                                                                                                                                           |
+| goToScheduled         | g t                                                                                                                                                                                                                                                           |
+| goSettings            | g s                                                                                                                                                                                                                                                           |
+| goToUser              | g u                                                                                                                                                                                                                                                           |
+| goBookmarks           | g b                                                                                                                                                                                                                                                           |
+| goTopArticles         | g a                                                                                                                                                                                                                                                           |
+| goDisplay             | g d                                                                                                                                                                                                                                                           |
+| search                | /                                                                                                                                                                                                                                                             |
+| audio                 | {'dock': 'a d', 'play': 'a space', 'mute': 'a m'}                                                                                                                                                                                                             |
+| video                 | {'play1': 'k', 'play2': 'space', 'mute': 'm'}                                                                                                                                                                                                                 |
+| columns               | {'createNewColumn': 'c n', 'duplicateColumn': 'c d', 'focusOnReorderButton': 'c r', 'lastColumn': 'c 0', 'nextColumn': ']', 'nthColumn': 'c 1..9', 'prevColumn': '[', 'removeColumn': 'c backspace', 'toggleColumnOptions': 'c o', 'undoRemoveColumn': 'c u'} |
+| decks                 | {'createNewDeck': 'd n', 'editActiveDeck': 'd e', 'lastPinnedDeck': 'd 0', 'manageAllDecks': 'd m', 'nthPinnedDeck': 'd 1..9'}                                                                                                                                |
 
 | constant   | value       |
 |:-----------|:------------|
@@ -4293,6 +4428,38 @@ This document is entirely auto-generated and may contain errors.<br>
 | ViewerRequestPending      | ViewerRequestPending  |
 | ViewerJoinRequestRequired | ViewerRequestRequired |
 
+| constant   | value     |
+|:-----------|:----------|
+| follow     | follow    |
+| like       | like      |
+| reply      | reply     |
+| retweet    | retweet   |
+| generic    | generic   |
+| dmshare    | dmshare   |
+| subscribe  | subscribe |
+| topic      | topic     |
+| community  | community |
+| bookmark   | bookmark  |
+
+| constant                | value                      |
+|:------------------------|:---------------------------|
+| BannerSwitchToApp       | banner_switch_to_app       |
+| InterstitialSwitchToApp | interstitial_switch_to_app |
+| NuxAppDownload          | NUX-app-download           |
+| SwitchToAppFooter       | switch-to-app-footer       |
+| UseApp                  | use-app                    |
+| UseAppExtended          | use-app-extended           |
+| SwitchToAppHigh7        | switch_to_app_high_7       |
+| SwitchToAppHigh1        | switch_to_app_high_1       |
+| SwitchToAppHigh2        | switch_to_app_high_2       |
+| SwitchToAppHigh3        | switch_to_app_high_3       |
+| SwitchToAppHigh5        | switch_to_app_high_5       |
+| SwitchToAppLow7         | switch_to_app_low_7        |
+| SwitchToAppLow1         | switch_to_app_low_1        |
+| SwitchToAppLow3         | switch_to_app_low_3        |
+| SwitchToAppLow5         | switch_to_app_low_5        |
+| SwitchToAppLow9         | switch_to_app_low_9        |
+
 | constant       | value          |
 |:---------------|:---------------|
 | TWEET_CARET    | tweet_caret    |
@@ -4301,6 +4468,42 @@ This document is entirely auto-generated and may contain errors.<br>
 | RICH_FEEDBACK  | rich_feedback  |
 | TWEET          | tweet          |
 | FOLLOWERS_LIST | followers_list |
+
+| constant              | value                                                                                                                                                                                                                                                         |
+|:----------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| openKeyboardShortcuts | ?                                                                                                                                                                                                                                                             |
+| swipeLeft             | left                                                                                                                                                                                                                                                          |
+| swipeRight            | right                                                                                                                                                                                                                                                         |
+| nextItem              | j                                                                                                                                                                                                                                                             |
+| previousItem          | k                                                                                                                                                                                                                                                             |
+| refresh               | .                                                                                                                                                                                                                                                             |
+| nightMode             | z                                                                                                                                                                                                                                                             |
+| bookmark              | b                                                                                                                                                                                                                                                             |
+| block                 | x                                                                                                                                                                                                                                                             |
+| mute                  | u                                                                                                                                                                                                                                                             |
+| newTweet              | n                                                                                                                                                                                                                                                             |
+| newMessage            | m                                                                                                                                                                                                                                                             |
+| toggleDMDrawer        | i                                                                                                                                                                                                                                                             |
+| goHome                | g h                                                                                                                                                                                                                                                           |
+| goExplore             | g e                                                                                                                                                                                                                                                           |
+| goNotifications       | g n                                                                                                                                                                                                                                                           |
+| goMentions            | g r                                                                                                                                                                                                                                                           |
+| goProfile             | g p                                                                                                                                                                                                                                                           |
+| goLikes               | g l                                                                                                                                                                                                                                                           |
+| goLists               | g i                                                                                                                                                                                                                                                           |
+| goMessages            | g m                                                                                                                                                                                                                                                           |
+| goToDrafts            | g f                                                                                                                                                                                                                                                           |
+| goToScheduled         | g t                                                                                                                                                                                                                                                           |
+| goSettings            | g s                                                                                                                                                                                                                                                           |
+| goToUser              | g u                                                                                                                                                                                                                                                           |
+| goBookmarks           | g b                                                                                                                                                                                                                                                           |
+| goTopArticles         | g a                                                                                                                                                                                                                                                           |
+| goDisplay             | g d                                                                                                                                                                                                                                                           |
+| search                | /                                                                                                                                                                                                                                                             |
+| audio                 | {'dock': 'a d', 'play': 'a space', 'mute': 'a m'}                                                                                                                                                                                                             |
+| video                 | {'play1': 'k', 'play2': 'space', 'mute': 'm'}                                                                                                                                                                                                                 |
+| columns               | {'createNewColumn': 'c n', 'duplicateColumn': 'c d', 'focusOnReorderButton': 'c r', 'lastColumn': 'c 0', 'nextColumn': ']', 'nthColumn': 'c 1..9', 'prevColumn': '[', 'removeColumn': 'c backspace', 'toggleColumnOptions': 'c o', 'undoRemoveColumn': 'c u'} |
+| decks                 | {'createNewDeck': 'd n', 'editActiveDeck': 'd e', 'lastPinnedDeck': 'd 0', 'manageAllDecks': 'd m', 'nthPinnedDeck': 'd 1..9'}                                                                                                                                |
 
 | constant          | value             |
 |:------------------|:------------------|
@@ -4818,8 +5021,40 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{[R.FOLLOWS]:{"label":"Z","url":"/i/connect_people"},[R.CREATORS]:{"label":"v","url":"/i/connect_people?is_creator_only=true"}}
+{[R.FOLLOWS]:{"label":"v","url":"/i/connect_people"},[R.CREATORS]:{"label":"L","url":"/i/connect_people?is_creator_only=true"}}
 ```
+| constant   | value     |
+|:-----------|:----------|
+| follow     | follow    |
+| like       | like      |
+| reply      | reply     |
+| retweet    | retweet   |
+| generic    | generic   |
+| dmshare    | dmshare   |
+| subscribe  | subscribe |
+| topic      | topic     |
+| community  | community |
+| bookmark   | bookmark  |
+
+| constant                | value                      |
+|:------------------------|:---------------------------|
+| BannerSwitchToApp       | banner_switch_to_app       |
+| InterstitialSwitchToApp | interstitial_switch_to_app |
+| NuxAppDownload          | NUX-app-download           |
+| SwitchToAppFooter       | switch-to-app-footer       |
+| UseApp                  | use-app                    |
+| UseAppExtended          | use-app-extended           |
+| SwitchToAppHigh7        | switch_to_app_high_7       |
+| SwitchToAppHigh1        | switch_to_app_high_1       |
+| SwitchToAppHigh2        | switch_to_app_high_2       |
+| SwitchToAppHigh3        | switch_to_app_high_3       |
+| SwitchToAppHigh5        | switch_to_app_high_5       |
+| SwitchToAppLow7         | switch_to_app_low_7        |
+| SwitchToAppLow1         | switch_to_app_low_1        |
+| SwitchToAppLow3         | switch_to_app_low_3        |
+| SwitchToAppLow5         | switch_to_app_low_5        |
+| SwitchToAppLow9         | switch_to_app_low_9        |
+
 | constant       | value          |
 |:---------------|:---------------|
 | TWEET_CARET    | tweet_caret    |
@@ -4829,15 +5064,41 @@ This document is entirely auto-generated and may contain errors.<br>
 | TWEET          | tweet          |
 | FOLLOWERS_LIST | followers_list |
 
-| constant          | value             |
-|:------------------|:------------------|
-| User              | User              |
-| ProfileCard       | ProfileCard       |
-| UserCompact       | UserCompact       |
-| UserConcise       | UserConcise       |
-| UserDetailed      | UserDetailed      |
-| PendingFollowUser | PendingFollowUser |
-| SubscribableUser  | SubscribableUser  |
+| constant              | value                                                                                                                                                                                                                                                         |
+|:----------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| openKeyboardShortcuts | ?                                                                                                                                                                                                                                                             |
+| swipeLeft             | left                                                                                                                                                                                                                                                          |
+| swipeRight            | right                                                                                                                                                                                                                                                         |
+| nextItem              | j                                                                                                                                                                                                                                                             |
+| previousItem          | k                                                                                                                                                                                                                                                             |
+| refresh               | .                                                                                                                                                                                                                                                             |
+| nightMode             | z                                                                                                                                                                                                                                                             |
+| bookmark              | b                                                                                                                                                                                                                                                             |
+| block                 | x                                                                                                                                                                                                                                                             |
+| mute                  | u                                                                                                                                                                                                                                                             |
+| newTweet              | n                                                                                                                                                                                                                                                             |
+| newMessage            | m                                                                                                                                                                                                                                                             |
+| toggleDMDrawer        | i                                                                                                                                                                                                                                                             |
+| goHome                | g h                                                                                                                                                                                                                                                           |
+| goExplore             | g e                                                                                                                                                                                                                                                           |
+| goNotifications       | g n                                                                                                                                                                                                                                                           |
+| goMentions            | g r                                                                                                                                                                                                                                                           |
+| goProfile             | g p                                                                                                                                                                                                                                                           |
+| goLikes               | g l                                                                                                                                                                                                                                                           |
+| goLists               | g i                                                                                                                                                                                                                                                           |
+| goMessages            | g m                                                                                                                                                                                                                                                           |
+| goToDrafts            | g f                                                                                                                                                                                                                                                           |
+| goToScheduled         | g t                                                                                                                                                                                                                                                           |
+| goSettings            | g s                                                                                                                                                                                                                                                           |
+| goToUser              | g u                                                                                                                                                                                                                                                           |
+| goBookmarks           | g b                                                                                                                                                                                                                                                           |
+| goTopArticles         | g a                                                                                                                                                                                                                                                           |
+| goDisplay             | g d                                                                                                                                                                                                                                                           |
+| search                | /                                                                                                                                                                                                                                                             |
+| audio                 | {'dock': 'a d', 'play': 'a space', 'mute': 'a m'}                                                                                                                                                                                                             |
+| video                 | {'play1': 'k', 'play2': 'space', 'mute': 'm'}                                                                                                                                                                                                                 |
+| columns               | {'createNewColumn': 'c n', 'duplicateColumn': 'c d', 'focusOnReorderButton': 'c r', 'lastColumn': 'c 0', 'nextColumn': ']', 'nthColumn': 'c 1..9', 'prevColumn': '[', 'removeColumn': 'c backspace', 'toggleColumnOptions': 'c o', 'undoRemoveColumn': 'c u'} |
+| decks                 | {'createNewDeck': 'd n', 'editActiveDeck': 'd e', 'lastPinnedDeck': 'd 0', 'manageAllDecks': 'd m', 'nthPinnedDeck': 'd 1..9'}                                                                                                                                |
 
 | constant          | value             |
 |:------------------|:------------------|
@@ -5646,6 +5907,42 @@ This document is entirely auto-generated and may contain errors.<br>
 | CashtagClick | cashtag_click |
 | HashtagClick | hashtag_click |
 
+| constant              | value                                                                                                                                                                                                                                                         |
+|:----------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| openKeyboardShortcuts | ?                                                                                                                                                                                                                                                             |
+| swipeLeft             | left                                                                                                                                                                                                                                                          |
+| swipeRight            | right                                                                                                                                                                                                                                                         |
+| nextItem              | j                                                                                                                                                                                                                                                             |
+| previousItem          | k                                                                                                                                                                                                                                                             |
+| refresh               | .                                                                                                                                                                                                                                                             |
+| nightMode             | z                                                                                                                                                                                                                                                             |
+| bookmark              | b                                                                                                                                                                                                                                                             |
+| block                 | x                                                                                                                                                                                                                                                             |
+| mute                  | u                                                                                                                                                                                                                                                             |
+| newTweet              | n                                                                                                                                                                                                                                                             |
+| newMessage            | m                                                                                                                                                                                                                                                             |
+| toggleDMDrawer        | i                                                                                                                                                                                                                                                             |
+| goHome                | g h                                                                                                                                                                                                                                                           |
+| goExplore             | g e                                                                                                                                                                                                                                                           |
+| goNotifications       | g n                                                                                                                                                                                                                                                           |
+| goMentions            | g r                                                                                                                                                                                                                                                           |
+| goProfile             | g p                                                                                                                                                                                                                                                           |
+| goLikes               | g l                                                                                                                                                                                                                                                           |
+| goLists               | g i                                                                                                                                                                                                                                                           |
+| goMessages            | g m                                                                                                                                                                                                                                                           |
+| goToDrafts            | g f                                                                                                                                                                                                                                                           |
+| goToScheduled         | g t                                                                                                                                                                                                                                                           |
+| goSettings            | g s                                                                                                                                                                                                                                                           |
+| goToUser              | g u                                                                                                                                                                                                                                                           |
+| goBookmarks           | g b                                                                                                                                                                                                                                                           |
+| goTopArticles         | g a                                                                                                                                                                                                                                                           |
+| goDisplay             | g d                                                                                                                                                                                                                                                           |
+| search                | /                                                                                                                                                                                                                                                             |
+| audio                 | {'dock': 'a d', 'play': 'a space', 'mute': 'a m'}                                                                                                                                                                                                             |
+| video                 | {'play1': 'k', 'play2': 'space', 'mute': 'm'}                                                                                                                                                                                                                 |
+| columns               | {'createNewColumn': 'c n', 'duplicateColumn': 'c d', 'focusOnReorderButton': 'c r', 'lastColumn': 'c 0', 'nextColumn': ']', 'nthColumn': 'c 1..9', 'prevColumn': '[', 'removeColumn': 'c backspace', 'toggleColumnOptions': 'c o', 'undoRemoveColumn': 'c u'} |
+| decks                 | {'createNewDeck': 'd n', 'editActiveDeck': 'd e', 'lastPinnedDeck': 'd 0', 'manageAllDecks': 'd m', 'nthPinnedDeck': 'd 1..9'}                                                                                                                                |
+
 | constant   | value      |
 |:-----------|:-----------|
 | Scheduled  | Scheduled  |
@@ -6018,6 +6315,74 @@ This document is entirely auto-generated and may contain errors.<br>
 | banner     | banner   |
 | split      | split    |
 
+| constant   | value     |
+|:-----------|:----------|
+| follow     | follow    |
+| like       | like      |
+| reply      | reply     |
+| retweet    | retweet   |
+| generic    | generic   |
+| dmshare    | dmshare   |
+| subscribe  | subscribe |
+| topic      | topic     |
+| community  | community |
+| bookmark   | bookmark  |
+
+| constant                | value                      |
+|:------------------------|:---------------------------|
+| BannerSwitchToApp       | banner_switch_to_app       |
+| InterstitialSwitchToApp | interstitial_switch_to_app |
+| NuxAppDownload          | NUX-app-download           |
+| SwitchToAppFooter       | switch-to-app-footer       |
+| UseApp                  | use-app                    |
+| UseAppExtended          | use-app-extended           |
+| SwitchToAppHigh7        | switch_to_app_high_7       |
+| SwitchToAppHigh1        | switch_to_app_high_1       |
+| SwitchToAppHigh2        | switch_to_app_high_2       |
+| SwitchToAppHigh3        | switch_to_app_high_3       |
+| SwitchToAppHigh5        | switch_to_app_high_5       |
+| SwitchToAppLow7         | switch_to_app_low_7        |
+| SwitchToAppLow1         | switch_to_app_low_1        |
+| SwitchToAppLow3         | switch_to_app_low_3        |
+| SwitchToAppLow5         | switch_to_app_low_5        |
+| SwitchToAppLow9         | switch_to_app_low_9        |
+
+| constant              | value                                                                                                                                                                                                                                                         |
+|:----------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| openKeyboardShortcuts | ?                                                                                                                                                                                                                                                             |
+| swipeLeft             | left                                                                                                                                                                                                                                                          |
+| swipeRight            | right                                                                                                                                                                                                                                                         |
+| nextItem              | j                                                                                                                                                                                                                                                             |
+| previousItem          | k                                                                                                                                                                                                                                                             |
+| refresh               | .                                                                                                                                                                                                                                                             |
+| nightMode             | z                                                                                                                                                                                                                                                             |
+| bookmark              | b                                                                                                                                                                                                                                                             |
+| block                 | x                                                                                                                                                                                                                                                             |
+| mute                  | u                                                                                                                                                                                                                                                             |
+| newTweet              | n                                                                                                                                                                                                                                                             |
+| newMessage            | m                                                                                                                                                                                                                                                             |
+| toggleDMDrawer        | i                                                                                                                                                                                                                                                             |
+| goHome                | g h                                                                                                                                                                                                                                                           |
+| goExplore             | g e                                                                                                                                                                                                                                                           |
+| goNotifications       | g n                                                                                                                                                                                                                                                           |
+| goMentions            | g r                                                                                                                                                                                                                                                           |
+| goProfile             | g p                                                                                                                                                                                                                                                           |
+| goLikes               | g l                                                                                                                                                                                                                                                           |
+| goLists               | g i                                                                                                                                                                                                                                                           |
+| goMessages            | g m                                                                                                                                                                                                                                                           |
+| goToDrafts            | g f                                                                                                                                                                                                                                                           |
+| goToScheduled         | g t                                                                                                                                                                                                                                                           |
+| goSettings            | g s                                                                                                                                                                                                                                                           |
+| goToUser              | g u                                                                                                                                                                                                                                                           |
+| goBookmarks           | g b                                                                                                                                                                                                                                                           |
+| goTopArticles         | g a                                                                                                                                                                                                                                                           |
+| goDisplay             | g d                                                                                                                                                                                                                                                           |
+| search                | /                                                                                                                                                                                                                                                             |
+| audio                 | {'dock': 'a d', 'play': 'a space', 'mute': 'a m'}                                                                                                                                                                                                             |
+| video                 | {'play1': 'k', 'play2': 'space', 'mute': 'm'}                                                                                                                                                                                                                 |
+| columns               | {'createNewColumn': 'c n', 'duplicateColumn': 'c d', 'focusOnReorderButton': 'c r', 'lastColumn': 'c 0', 'nextColumn': ']', 'nthColumn': 'c 1..9', 'prevColumn': '[', 'removeColumn': 'c backspace', 'toggleColumnOptions': 'c o', 'undoRemoveColumn': 'c u'} |
+| decks                 | {'createNewDeck': 'd n', 'editActiveDeck': 'd e', 'lastPinnedDeck': 'd 0', 'manageAllDecks': 'd m', 'nthPinnedDeck': 'd 1..9'}                                                                                                                                |
+
 | constant   | value    |
 |:-----------|:---------|
 | People     | People   |
@@ -6158,6 +6523,38 @@ This document is entirely auto-generated and may contain errors.<br>
 | completed       | completed        |
 | paused          | paused           |
 
+| constant   | value     |
+|:-----------|:----------|
+| follow     | follow    |
+| like       | like      |
+| reply      | reply     |
+| retweet    | retweet   |
+| generic    | generic   |
+| dmshare    | dmshare   |
+| subscribe  | subscribe |
+| topic      | topic     |
+| community  | community |
+| bookmark   | bookmark  |
+
+| constant                | value                      |
+|:------------------------|:---------------------------|
+| BannerSwitchToApp       | banner_switch_to_app       |
+| InterstitialSwitchToApp | interstitial_switch_to_app |
+| NuxAppDownload          | NUX-app-download           |
+| SwitchToAppFooter       | switch-to-app-footer       |
+| UseApp                  | use-app                    |
+| UseAppExtended          | use-app-extended           |
+| SwitchToAppHigh7        | switch_to_app_high_7       |
+| SwitchToAppHigh1        | switch_to_app_high_1       |
+| SwitchToAppHigh2        | switch_to_app_high_2       |
+| SwitchToAppHigh3        | switch_to_app_high_3       |
+| SwitchToAppHigh5        | switch_to_app_high_5       |
+| SwitchToAppLow7         | switch_to_app_low_7        |
+| SwitchToAppLow1         | switch_to_app_low_1        |
+| SwitchToAppLow3         | switch_to_app_low_3        |
+| SwitchToAppLow5         | switch_to_app_low_5        |
+| SwitchToAppLow9         | switch_to_app_low_9        |
+
 | constant       | value          |
 |:---------------|:---------------|
 | TWEET_CARET    | tweet_caret    |
@@ -6166,6 +6563,42 @@ This document is entirely auto-generated and may contain errors.<br>
 | RICH_FEEDBACK  | rich_feedback  |
 | TWEET          | tweet          |
 | FOLLOWERS_LIST | followers_list |
+
+| constant              | value                                                                                                                                                                                                                                                         |
+|:----------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| openKeyboardShortcuts | ?                                                                                                                                                                                                                                                             |
+| swipeLeft             | left                                                                                                                                                                                                                                                          |
+| swipeRight            | right                                                                                                                                                                                                                                                         |
+| nextItem              | j                                                                                                                                                                                                                                                             |
+| previousItem          | k                                                                                                                                                                                                                                                             |
+| refresh               | .                                                                                                                                                                                                                                                             |
+| nightMode             | z                                                                                                                                                                                                                                                             |
+| bookmark              | b                                                                                                                                                                                                                                                             |
+| block                 | x                                                                                                                                                                                                                                                             |
+| mute                  | u                                                                                                                                                                                                                                                             |
+| newTweet              | n                                                                                                                                                                                                                                                             |
+| newMessage            | m                                                                                                                                                                                                                                                             |
+| toggleDMDrawer        | i                                                                                                                                                                                                                                                             |
+| goHome                | g h                                                                                                                                                                                                                                                           |
+| goExplore             | g e                                                                                                                                                                                                                                                           |
+| goNotifications       | g n                                                                                                                                                                                                                                                           |
+| goMentions            | g r                                                                                                                                                                                                                                                           |
+| goProfile             | g p                                                                                                                                                                                                                                                           |
+| goLikes               | g l                                                                                                                                                                                                                                                           |
+| goLists               | g i                                                                                                                                                                                                                                                           |
+| goMessages            | g m                                                                                                                                                                                                                                                           |
+| goToDrafts            | g f                                                                                                                                                                                                                                                           |
+| goToScheduled         | g t                                                                                                                                                                                                                                                           |
+| goSettings            | g s                                                                                                                                                                                                                                                           |
+| goToUser              | g u                                                                                                                                                                                                                                                           |
+| goBookmarks           | g b                                                                                                                                                                                                                                                           |
+| goTopArticles         | g a                                                                                                                                                                                                                                                           |
+| goDisplay             | g d                                                                                                                                                                                                                                                           |
+| search                | /                                                                                                                                                                                                                                                             |
+| audio                 | {'dock': 'a d', 'play': 'a space', 'mute': 'a m'}                                                                                                                                                                                                             |
+| video                 | {'play1': 'k', 'play2': 'space', 'mute': 'm'}                                                                                                                                                                                                                 |
+| columns               | {'createNewColumn': 'c n', 'duplicateColumn': 'c d', 'focusOnReorderButton': 'c r', 'lastColumn': 'c 0', 'nextColumn': ']', 'nthColumn': 'c 1..9', 'prevColumn': '[', 'removeColumn': 'c backspace', 'toggleColumnOptions': 'c o', 'undoRemoveColumn': 'c u'} |
+| decks                 | {'createNewDeck': 'd n', 'editActiveDeck': 'd e', 'lastPinnedDeck': 'd 0', 'manageAllDecks': 'd m', 'nthPinnedDeck': 'd 1..9'}                                                                                                                                |
 
 | constant          | value             |
 |:------------------|:------------------|
@@ -6177,6 +6610,38 @@ This document is entirely auto-generated and may contain errors.<br>
 | PendingFollowUser | PendingFollowUser |
 | SubscribableUser  | SubscribableUser  |
 
+| constant   | value     |
+|:-----------|:----------|
+| follow     | follow    |
+| like       | like      |
+| reply      | reply     |
+| retweet    | retweet   |
+| generic    | generic   |
+| dmshare    | dmshare   |
+| subscribe  | subscribe |
+| topic      | topic     |
+| community  | community |
+| bookmark   | bookmark  |
+
+| constant                | value                      |
+|:------------------------|:---------------------------|
+| BannerSwitchToApp       | banner_switch_to_app       |
+| InterstitialSwitchToApp | interstitial_switch_to_app |
+| NuxAppDownload          | NUX-app-download           |
+| SwitchToAppFooter       | switch-to-app-footer       |
+| UseApp                  | use-app                    |
+| UseAppExtended          | use-app-extended           |
+| SwitchToAppHigh7        | switch_to_app_high_7       |
+| SwitchToAppHigh1        | switch_to_app_high_1       |
+| SwitchToAppHigh2        | switch_to_app_high_2       |
+| SwitchToAppHigh3        | switch_to_app_high_3       |
+| SwitchToAppHigh5        | switch_to_app_high_5       |
+| SwitchToAppLow7         | switch_to_app_low_7        |
+| SwitchToAppLow1         | switch_to_app_low_1        |
+| SwitchToAppLow3         | switch_to_app_low_3        |
+| SwitchToAppLow5         | switch_to_app_low_5        |
+| SwitchToAppLow9         | switch_to_app_low_9        |
+
 | constant       | value          |
 |:---------------|:---------------|
 | TWEET_CARET    | tweet_caret    |
@@ -6185,6 +6650,42 @@ This document is entirely auto-generated and may contain errors.<br>
 | RICH_FEEDBACK  | rich_feedback  |
 | TWEET          | tweet          |
 | FOLLOWERS_LIST | followers_list |
+
+| constant              | value                                                                                                                                                                                                                                                         |
+|:----------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| openKeyboardShortcuts | ?                                                                                                                                                                                                                                                             |
+| swipeLeft             | left                                                                                                                                                                                                                                                          |
+| swipeRight            | right                                                                                                                                                                                                                                                         |
+| nextItem              | j                                                                                                                                                                                                                                                             |
+| previousItem          | k                                                                                                                                                                                                                                                             |
+| refresh               | .                                                                                                                                                                                                                                                             |
+| nightMode             | z                                                                                                                                                                                                                                                             |
+| bookmark              | b                                                                                                                                                                                                                                                             |
+| block                 | x                                                                                                                                                                                                                                                             |
+| mute                  | u                                                                                                                                                                                                                                                             |
+| newTweet              | n                                                                                                                                                                                                                                                             |
+| newMessage            | m                                                                                                                                                                                                                                                             |
+| toggleDMDrawer        | i                                                                                                                                                                                                                                                             |
+| goHome                | g h                                                                                                                                                                                                                                                           |
+| goExplore             | g e                                                                                                                                                                                                                                                           |
+| goNotifications       | g n                                                                                                                                                                                                                                                           |
+| goMentions            | g r                                                                                                                                                                                                                                                           |
+| goProfile             | g p                                                                                                                                                                                                                                                           |
+| goLikes               | g l                                                                                                                                                                                                                                                           |
+| goLists               | g i                                                                                                                                                                                                                                                           |
+| goMessages            | g m                                                                                                                                                                                                                                                           |
+| goToDrafts            | g f                                                                                                                                                                                                                                                           |
+| goToScheduled         | g t                                                                                                                                                                                                                                                           |
+| goSettings            | g s                                                                                                                                                                                                                                                           |
+| goToUser              | g u                                                                                                                                                                                                                                                           |
+| goBookmarks           | g b                                                                                                                                                                                                                                                           |
+| goTopArticles         | g a                                                                                                                                                                                                                                                           |
+| goDisplay             | g d                                                                                                                                                                                                                                                           |
+| search                | /                                                                                                                                                                                                                                                             |
+| audio                 | {'dock': 'a d', 'play': 'a space', 'mute': 'a m'}                                                                                                                                                                                                             |
+| video                 | {'play1': 'k', 'play2': 'space', 'mute': 'm'}                                                                                                                                                                                                                 |
+| columns               | {'createNewColumn': 'c n', 'duplicateColumn': 'c d', 'focusOnReorderButton': 'c r', 'lastColumn': 'c 0', 'nextColumn': ']', 'nthColumn': 'c 1..9', 'prevColumn': '[', 'removeColumn': 'c backspace', 'toggleColumnOptions': 'c o', 'undoRemoveColumn': 'c u'} |
+| decks                 | {'createNewDeck': 'd n', 'editActiveDeck': 'd e', 'lastPinnedDeck': 'd 0', 'manageAllDecks': 'd m', 'nthPinnedDeck': 'd 1..9'}                                                                                                                                |
 
 | constant          | value             |
 |:------------------|:------------------|
@@ -6347,12 +6848,6 @@ This document is entirely auto-generated and may contain errors.<br>
 | single_line   | singleline    |
 | format_inline | format-inline |
 
-| constant   | value       |
-|:-----------|:------------|
-| NotStarted | not_started |
-| Started    | started     |
-| Completed  | completed   |
-
 | constant        | value           |
 |:----------------|:----------------|
 | Recommendations | recommendations |
@@ -6363,10 +6858,74 @@ This document is entirely auto-generated and may contain errors.<br>
 | Pinning    | Pinning    |
 | Reordering | Reordering |
 
+| constant   | value     |
+|:-----------|:----------|
+| follow     | follow    |
+| like       | like      |
+| reply      | reply     |
+| retweet    | retweet   |
+| generic    | generic   |
+| dmshare    | dmshare   |
+| subscribe  | subscribe |
+| topic      | topic     |
+| community  | community |
+| bookmark   | bookmark  |
+
+| constant                | value                      |
+|:------------------------|:---------------------------|
+| BannerSwitchToApp       | banner_switch_to_app       |
+| InterstitialSwitchToApp | interstitial_switch_to_app |
+| NuxAppDownload          | NUX-app-download           |
+| SwitchToAppFooter       | switch-to-app-footer       |
+| UseApp                  | use-app                    |
+| UseAppExtended          | use-app-extended           |
+| SwitchToAppHigh7        | switch_to_app_high_7       |
+| SwitchToAppHigh1        | switch_to_app_high_1       |
+| SwitchToAppHigh2        | switch_to_app_high_2       |
+| SwitchToAppHigh3        | switch_to_app_high_3       |
+| SwitchToAppHigh5        | switch_to_app_high_5       |
+| SwitchToAppLow7         | switch_to_app_low_7        |
+| SwitchToAppLow1         | switch_to_app_low_1        |
+| SwitchToAppLow3         | switch_to_app_low_3        |
+| SwitchToAppLow5         | switch_to_app_low_5        |
+| SwitchToAppLow9         | switch_to_app_low_9        |
+
 | constant     | value             |
 |:-------------|:------------------|
 | navButtons   | navigationButtons |
 | carouselRoot | carouselRoot      |
+
+| constant   | value     |
+|:-----------|:----------|
+| follow     | follow    |
+| like       | like      |
+| reply      | reply     |
+| retweet    | retweet   |
+| generic    | generic   |
+| dmshare    | dmshare   |
+| subscribe  | subscribe |
+| topic      | topic     |
+| community  | community |
+| bookmark   | bookmark  |
+
+| constant                | value                      |
+|:------------------------|:---------------------------|
+| BannerSwitchToApp       | banner_switch_to_app       |
+| InterstitialSwitchToApp | interstitial_switch_to_app |
+| NuxAppDownload          | NUX-app-download           |
+| SwitchToAppFooter       | switch-to-app-footer       |
+| UseApp                  | use-app                    |
+| UseAppExtended          | use-app-extended           |
+| SwitchToAppHigh7        | switch_to_app_high_7       |
+| SwitchToAppHigh1        | switch_to_app_high_1       |
+| SwitchToAppHigh2        | switch_to_app_high_2       |
+| SwitchToAppHigh3        | switch_to_app_high_3       |
+| SwitchToAppHigh5        | switch_to_app_high_5       |
+| SwitchToAppLow7         | switch_to_app_low_7        |
+| SwitchToAppLow1         | switch_to_app_low_1        |
+| SwitchToAppLow3         | switch_to_app_low_3        |
+| SwitchToAppLow5         | switch_to_app_low_5        |
+| SwitchToAppLow9         | switch_to_app_low_9        |
 
 | constant       | value          |
 |:---------------|:---------------|
@@ -6376,6 +6935,42 @@ This document is entirely auto-generated and may contain errors.<br>
 | RICH_FEEDBACK  | rich_feedback  |
 | TWEET          | tweet          |
 | FOLLOWERS_LIST | followers_list |
+
+| constant              | value                                                                                                                                                                                                                                                         |
+|:----------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| openKeyboardShortcuts | ?                                                                                                                                                                                                                                                             |
+| swipeLeft             | left                                                                                                                                                                                                                                                          |
+| swipeRight            | right                                                                                                                                                                                                                                                         |
+| nextItem              | j                                                                                                                                                                                                                                                             |
+| previousItem          | k                                                                                                                                                                                                                                                             |
+| refresh               | .                                                                                                                                                                                                                                                             |
+| nightMode             | z                                                                                                                                                                                                                                                             |
+| bookmark              | b                                                                                                                                                                                                                                                             |
+| block                 | x                                                                                                                                                                                                                                                             |
+| mute                  | u                                                                                                                                                                                                                                                             |
+| newTweet              | n                                                                                                                                                                                                                                                             |
+| newMessage            | m                                                                                                                                                                                                                                                             |
+| toggleDMDrawer        | i                                                                                                                                                                                                                                                             |
+| goHome                | g h                                                                                                                                                                                                                                                           |
+| goExplore             | g e                                                                                                                                                                                                                                                           |
+| goNotifications       | g n                                                                                                                                                                                                                                                           |
+| goMentions            | g r                                                                                                                                                                                                                                                           |
+| goProfile             | g p                                                                                                                                                                                                                                                           |
+| goLikes               | g l                                                                                                                                                                                                                                                           |
+| goLists               | g i                                                                                                                                                                                                                                                           |
+| goMessages            | g m                                                                                                                                                                                                                                                           |
+| goToDrafts            | g f                                                                                                                                                                                                                                                           |
+| goToScheduled         | g t                                                                                                                                                                                                                                                           |
+| goSettings            | g s                                                                                                                                                                                                                                                           |
+| goToUser              | g u                                                                                                                                                                                                                                                           |
+| goBookmarks           | g b                                                                                                                                                                                                                                                           |
+| goTopArticles         | g a                                                                                                                                                                                                                                                           |
+| goDisplay             | g d                                                                                                                                                                                                                                                           |
+| search                | /                                                                                                                                                                                                                                                             |
+| audio                 | {'dock': 'a d', 'play': 'a space', 'mute': 'a m'}                                                                                                                                                                                                             |
+| video                 | {'play1': 'k', 'play2': 'space', 'mute': 'm'}                                                                                                                                                                                                                 |
+| columns               | {'createNewColumn': 'c n', 'duplicateColumn': 'c d', 'focusOnReorderButton': 'c r', 'lastColumn': 'c 0', 'nextColumn': ']', 'nthColumn': 'c 1..9', 'prevColumn': '[', 'removeColumn': 'c backspace', 'toggleColumnOptions': 'c o', 'undoRemoveColumn': 'c u'} |
+| decks                 | {'createNewDeck': 'd n', 'editActiveDeck': 'd e', 'lastPinnedDeck': 'd 0', 'manageAllDecks': 'd m', 'nthPinnedDeck': 'd 1..9'}                                                                                                                                |
 
 | constant          | value             |
 |:------------------|:------------------|
@@ -6577,6 +7172,38 @@ This document is entirely auto-generated and may contain errors.<br>
 | single_line   | singleline    |
 | format_inline | format-inline |
 
+| constant   | value     |
+|:-----------|:----------|
+| follow     | follow    |
+| like       | like      |
+| reply      | reply     |
+| retweet    | retweet   |
+| generic    | generic   |
+| dmshare    | dmshare   |
+| subscribe  | subscribe |
+| topic      | topic     |
+| community  | community |
+| bookmark   | bookmark  |
+
+| constant                | value                      |
+|:------------------------|:---------------------------|
+| BannerSwitchToApp       | banner_switch_to_app       |
+| InterstitialSwitchToApp | interstitial_switch_to_app |
+| NuxAppDownload          | NUX-app-download           |
+| SwitchToAppFooter       | switch-to-app-footer       |
+| UseApp                  | use-app                    |
+| UseAppExtended          | use-app-extended           |
+| SwitchToAppHigh7        | switch_to_app_high_7       |
+| SwitchToAppHigh1        | switch_to_app_high_1       |
+| SwitchToAppHigh2        | switch_to_app_high_2       |
+| SwitchToAppHigh3        | switch_to_app_high_3       |
+| SwitchToAppHigh5        | switch_to_app_high_5       |
+| SwitchToAppLow7         | switch_to_app_low_7        |
+| SwitchToAppLow1         | switch_to_app_low_1        |
+| SwitchToAppLow3         | switch_to_app_low_3        |
+| SwitchToAppLow5         | switch_to_app_low_5        |
+| SwitchToAppLow9         | switch_to_app_low_9        |
+
 | constant     | value       |
 |:-------------|:------------|
 | INITIAL      | initial     |
@@ -6593,6 +7220,38 @@ This document is entirely auto-generated and may contain errors.<br>
 | SPACE      |       0 |
 | INELIGIBLE |      -1 |
 
+| constant   | value     |
+|:-----------|:----------|
+| follow     | follow    |
+| like       | like      |
+| reply      | reply     |
+| retweet    | retweet   |
+| generic    | generic   |
+| dmshare    | dmshare   |
+| subscribe  | subscribe |
+| topic      | topic     |
+| community  | community |
+| bookmark   | bookmark  |
+
+| constant                | value                      |
+|:------------------------|:---------------------------|
+| BannerSwitchToApp       | banner_switch_to_app       |
+| InterstitialSwitchToApp | interstitial_switch_to_app |
+| NuxAppDownload          | NUX-app-download           |
+| SwitchToAppFooter       | switch-to-app-footer       |
+| UseApp                  | use-app                    |
+| UseAppExtended          | use-app-extended           |
+| SwitchToAppHigh7        | switch_to_app_high_7       |
+| SwitchToAppHigh1        | switch_to_app_high_1       |
+| SwitchToAppHigh2        | switch_to_app_high_2       |
+| SwitchToAppHigh3        | switch_to_app_high_3       |
+| SwitchToAppHigh5        | switch_to_app_high_5       |
+| SwitchToAppLow7         | switch_to_app_low_7        |
+| SwitchToAppLow1         | switch_to_app_low_1        |
+| SwitchToAppLow3         | switch_to_app_low_3        |
+| SwitchToAppLow5         | switch_to_app_low_5        |
+| SwitchToAppLow9         | switch_to_app_low_9        |
+
 | constant       | value          |
 |:---------------|:---------------|
 | TWEET_CARET    | tweet_caret    |
@@ -6601,6 +7260,42 @@ This document is entirely auto-generated and may contain errors.<br>
 | RICH_FEEDBACK  | rich_feedback  |
 | TWEET          | tweet          |
 | FOLLOWERS_LIST | followers_list |
+
+| constant              | value                                                                                                                                                                                                                                                         |
+|:----------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| openKeyboardShortcuts | ?                                                                                                                                                                                                                                                             |
+| swipeLeft             | left                                                                                                                                                                                                                                                          |
+| swipeRight            | right                                                                                                                                                                                                                                                         |
+| nextItem              | j                                                                                                                                                                                                                                                             |
+| previousItem          | k                                                                                                                                                                                                                                                             |
+| refresh               | .                                                                                                                                                                                                                                                             |
+| nightMode             | z                                                                                                                                                                                                                                                             |
+| bookmark              | b                                                                                                                                                                                                                                                             |
+| block                 | x                                                                                                                                                                                                                                                             |
+| mute                  | u                                                                                                                                                                                                                                                             |
+| newTweet              | n                                                                                                                                                                                                                                                             |
+| newMessage            | m                                                                                                                                                                                                                                                             |
+| toggleDMDrawer        | i                                                                                                                                                                                                                                                             |
+| goHome                | g h                                                                                                                                                                                                                                                           |
+| goExplore             | g e                                                                                                                                                                                                                                                           |
+| goNotifications       | g n                                                                                                                                                                                                                                                           |
+| goMentions            | g r                                                                                                                                                                                                                                                           |
+| goProfile             | g p                                                                                                                                                                                                                                                           |
+| goLikes               | g l                                                                                                                                                                                                                                                           |
+| goLists               | g i                                                                                                                                                                                                                                                           |
+| goMessages            | g m                                                                                                                                                                                                                                                           |
+| goToDrafts            | g f                                                                                                                                                                                                                                                           |
+| goToScheduled         | g t                                                                                                                                                                                                                                                           |
+| goSettings            | g s                                                                                                                                                                                                                                                           |
+| goToUser              | g u                                                                                                                                                                                                                                                           |
+| goBookmarks           | g b                                                                                                                                                                                                                                                           |
+| goTopArticles         | g a                                                                                                                                                                                                                                                           |
+| goDisplay             | g d                                                                                                                                                                                                                                                           |
+| search                | /                                                                                                                                                                                                                                                             |
+| audio                 | {'dock': 'a d', 'play': 'a space', 'mute': 'a m'}                                                                                                                                                                                                             |
+| video                 | {'play1': 'k', 'play2': 'space', 'mute': 'm'}                                                                                                                                                                                                                 |
+| columns               | {'createNewColumn': 'c n', 'duplicateColumn': 'c d', 'focusOnReorderButton': 'c r', 'lastColumn': 'c 0', 'nextColumn': ']', 'nthColumn': 'c 1..9', 'prevColumn': '[', 'removeColumn': 'c backspace', 'toggleColumnOptions': 'c o', 'undoRemoveColumn': 'c u'} |
+| decks                 | {'createNewDeck': 'd n', 'editActiveDeck': 'd e', 'lastPinnedDeck': 'd 0', 'manageAllDecks': 'd m', 'nthPinnedDeck': 'd 1..9'}                                                                                                                                |
 
 | constant          | value             |
 |:------------------|:------------------|
