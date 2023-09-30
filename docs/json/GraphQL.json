@@ -33870,7 +33870,7 @@
         ],
         "featureSwitch": {
           "identity_verification_hide_verified_label_settings_enabled": {
-            "value": "false"
+            "value": "true"
           }
         }
       }

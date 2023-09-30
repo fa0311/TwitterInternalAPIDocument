@@ -2179,3 +2179,15 @@
 - None<br>
 #### remove<br>
 - responsive_web_dynamic_product_ads_enabled<br>
+## 2023/09/29<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- conversation_controls_change_enabled<br>
+- conversation_controls_change_tooltip_enabled<br>

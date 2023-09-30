@@ -4157,7 +4157,7 @@
       "queryId": "3Wx7dsynDTSI0LO52L8L8A",
       "method": "GET",
       "features": {
-        "identity_verification_hide_verified_label_settings_enabled": false
+        "identity_verification_hide_verified_label_settings_enabled": true
       }
     },
     "IDVerificationUpdateHideLabelMutation": {
