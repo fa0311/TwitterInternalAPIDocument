@@ -1847,6 +1847,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | redesignedLabelForSubscribedTweets        | False   |
 | renderArticleCardInTweet                  | False   |
 | renderCompactCardDetail                   | False   |
+| roundCountInTweetAction                   | False   |
 | ...r                                      | _       |
 
 | constant         | value            |
