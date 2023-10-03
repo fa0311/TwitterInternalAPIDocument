@@ -15124,6 +15124,17 @@ Login Required: `...`<br>
 
 #### queryId<br>
 `None`<br>
+## JobSearchQueryScreenJobsQuery<br>
+Request URL: `https://twitter.com/i/api/graphql/NXAFsdOLdGUg51b2NyW2pA/JobSearchQueryScreenJobsQuery`<br>
+Request Method: `GET`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
 ## LocationSpotlightQuery<br>
 Request URL: `https://twitter.com/i/api/graphql/PtT7DMn9eI8yFh-jkG-fGg/LocationSpotlightQuery`<br>
 Request Method: `GET`<br>
@@ -15304,7 +15315,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## UserJobListQueryScreenJobsQuery<br>
-Request URL: `https://twitter.com/i/api/graphql/syumIjNEVMpBId7WYw6V-Q/UserJobListQueryScreenJobsQuery`<br>
+Request URL: `https://twitter.com/i/api/graphql/B5oJ8_ksLef_u6Sp8Q-irQ/UserJobListQueryScreenJobsQuery`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
