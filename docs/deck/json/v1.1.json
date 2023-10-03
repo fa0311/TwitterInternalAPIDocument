@@ -297,15 +297,6 @@
     ]
   },
   {
-    "queryId": "help/languages",
-    "dispatch_key": "get",
-    "dispatch": [
-      "get",
-      "",
-      "https://api.twitter.com/1.1/{queryId}.json"
-    ]
-  },
-  {
     "queryId": "friendships/incoming",
     "dispatch_key": "get",
     "dispatch": [
@@ -883,6 +874,15 @@
   },
   {
     "queryId": "contacts/addressbook",
+    "dispatch_key": "get",
+    "dispatch": [
+      "get",
+      "",
+      "https://api.twitter.com/1.1/{queryId}.json"
+    ]
+  },
+  {
+    "queryId": "help/languages",
     "dispatch_key": "get",
     "dispatch": [
       "get",
