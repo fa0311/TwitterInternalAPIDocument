@@ -3757,12 +3757,6 @@
       "method": "GET",
       "features": {}
     },
-    "ViewerHasGryphonAccess": {
-      "url": "https://twitter.com/i/api/graphql/bO8-Z3udl8YNV62_MoRlVg/ViewerHasGryphonAccess",
-      "queryId": "bO8-Z3udl8YNV62_MoRlVg",
-      "method": "GET",
-      "features": {}
-    },
     "UpdateClientSettings": {
       "url": "https://twitter.com/i/api/graphql/MlAbo_-7Kslvk5mojg9ttg/UpdateClientSettings",
       "queryId": "MlAbo_-7Kslvk5mojg9ttg",
@@ -4249,7 +4243,7 @@
       "queryId": "3Wx7dsynDTSI0LO52L8L8A",
       "method": "GET",
       "features": {
-        "identity_verification_hide_verified_label_settings_enabled": false
+        "identity_verification_hide_verified_label_settings_enabled": true
       }
     },
     "IDVerificationUpdateHideLabelMutation": {
@@ -4598,6 +4592,12 @@
         "verified_phone_label_enabled": false
       }
     },
+    "JobSearchQueryScreenJobsQuery": {
+      "url": "https://twitter.com/i/api/graphql/NXAFsdOLdGUg51b2NyW2pA/JobSearchQueryScreenJobsQuery",
+      "queryId": "NXAFsdOLdGUg51b2NyW2pA",
+      "method": "GET",
+      "features": {}
+    },
     "ProfileSpotlights_EditableProfileSpotlightsQuery": {
       "url": "https://twitter.com/i/api/graphql/rDGLKxjaiBYOL9AUgJtTKw/ProfileSpotlights_EditableProfileSpotlightsQuery",
       "queryId": "rDGLKxjaiBYOL9AUgJtTKw",
@@ -4703,8 +4703,8 @@
       "features": {}
     },
     "UserJobListQueryScreenJobsQuery": {
-      "url": "https://twitter.com/i/api/graphql/syumIjNEVMpBId7WYw6V-Q/UserJobListQueryScreenJobsQuery",
-      "queryId": "syumIjNEVMpBId7WYw6V-Q",
+      "url": "https://twitter.com/i/api/graphql/B5oJ8_ksLef_u6Sp8Q-irQ/UserJobListQueryScreenJobsQuery",
+      "queryId": "B5oJ8_ksLef_u6Sp8Q-irQ",
       "method": "GET",
       "features": {}
     },
