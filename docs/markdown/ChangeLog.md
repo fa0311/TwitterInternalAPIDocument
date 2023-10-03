@@ -2246,3 +2246,14 @@
 - subscriptions_tab_customization_on_android_enabled<br>
 - subscriptions_top_articles_on_ios_enabled<br>
 - subscriptions_twitter_blue_logo_enabled<br>
+## 2023/10/03<br>
+### API<br>
+#### add<br>
+- JobSearchQueryScreenJobsQuery<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- recruiting_global_jobs_search_enabled<br>
+#### remove<br>
+- None<br>
