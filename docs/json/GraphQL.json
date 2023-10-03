@@ -34583,6 +34583,18 @@
     }
   },
   {
+    "n": "59942",
+    "exports": {
+      "queryId": "NXAFsdOLdGUg51b2NyW2pA",
+      "operationName": "JobSearchQueryScreenJobsQuery",
+      "operationType": "query",
+      "metadata": {
+        "featureSwitches": [],
+        "featureSwitch": {}
+      }
+    }
+  },
+  {
     "n": "61989",
     "exports": {
       "queryId": "PtT7DMn9eI8yFh-jkG-fGg",
@@ -34783,7 +34795,7 @@
   {
     "n": "77884",
     "exports": {
-      "queryId": "syumIjNEVMpBId7WYw6V-Q",
+      "queryId": "B5oJ8_ksLef_u6Sp8Q-irQ",
       "operationName": "UserJobListQueryScreenJobsQuery",
       "operationType": "query",
       "metadata": {
