@@ -1042,6 +1042,9 @@
       "promoted_badge_placement_position": {
         "value": ""
       },
+      "recruiting_global_jobs_search_enabled": {
+        "value": "false"
+      },
       "recruiting_job_page_consumption_enabled": {
         "value": "true"
       },
@@ -3006,7 +3009,7 @@
           "value": "false"
         },
         "creator_subscriptions_connect_tab_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "creator_subscriptions_email_share_enabled": {
           "value": "true"
@@ -3508,6 +3511,9 @@
         },
         "promoted_badge_placement_position": {
           "value": "right_tweet_header_ad_label"
+        },
+        "recruiting_global_jobs_search_enabled": {
+          "value": "false"
         },
         "recruiting_job_page_consumption_enabled": {
           "value": "true"
@@ -5054,10 +5060,10 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "ef5dd47cb6344770043623967d7430dd"
+      "settingsVersion": "4574b31e5f5d480451546f2fc6d29798"
     },
     "debug": {},
-    "featureSetToken": "b914702cea75348f476527676919ac03b11b1f3e",
+    "featureSetToken": "5648c080c73c4c0ede69093c8ad600f902b3d420",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -5127,7 +5133,7 @@
     "country": "US",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "169628080096267624",
+    "guestId": "169645369606414054",
     "hasCommunityMemberships": "false",
     "language": "en",
     "oneFactorLoginEligibility": {

@@ -70,10 +70,9 @@ Request Method: `POST`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key                      | type   | variable   |
-|:-------------------------|:-------|:-----------|
-| screen_name              | ...    | i          |
-| withSafetyModeUserFields | ...    | t.isTrue() |
+| key   | type   | variable   |
+|:------|:-------|:-----------|
+| ...t  | ...    | _          |
 
 #### features<br>
 `None`<br>
@@ -98,8 +97,9 @@ Login Required: `...`<br>
 #### variables<br>
 | key          | type   | variable   |
 |:-------------|:-------|:-----------|
-| listId       | ...    | i.list_id  |
-| ...()(0,r.S) | ...    | _          |
+| listId       | ...    | r          |
+| userId       | ...    | l          |
+| ...()(0,a.S) | ...    | _          |
 
 #### features<br>
 `None`<br>
@@ -252,9 +252,12 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key    | type   | variable   |
-|:-------|:-------|:-----------|
-| listId | ...    | n          |
+| key                    | type    | variable   |
+|:-----------------------|:--------|:-----------|
+| count                  | ...     | i          |
+| cursor                 | ...     | n          |
+| includePromotedContent | boolean | False      |
+| ...()(0,r.d)           | ...     | _          |
 
 #### features<br>
 | key                                                                     | type    | variable   |
@@ -8043,17 +8046,6 @@ Login Required: `...`<br>
 `None`<br>
 #### queryId<br>
 `None`<br>
-## ViewerHasGryphonAccess<br>
-Request URL: `https://twitter.com/i/api/graphql/bO8-Z3udl8YNV62_MoRlVg/ViewerHasGryphonAccess`<br>
-Request Method: `GET`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-`None`<br>
-#### queryId<br>
-`None`<br>
 ## UpdateClientSettings<br>
 Request URL: `https://twitter.com/i/api/graphql/MlAbo_-7Kslvk5mojg9ttg/UpdateClientSettings`<br>
 Request Method: `POST`<br>
@@ -10380,17 +10372,6 @@ Login Required: `...`<br>
 `None`<br>
 ## ViewerAccountSync<br>
 Request URL: `https://twitter.com/i/api/graphql/4t9h5GMFYewreBfk9TUKhw/ViewerAccountSync`<br>
-Request Method: `GET`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-`None`<br>
-#### queryId<br>
-`None`<br>
-## ViewerHasGryphonAccess<br>
-Request URL: `https://twitter.com/i/api/graphql/bO8-Z3udl8YNV62_MoRlVg/ViewerHasGryphonAccess`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -13974,7 +13955,7 @@ Login Required: `...`<br>
 #### features<br>
 | key                                                        | type    | variable   |
 |:-----------------------------------------------------------|:--------|:-----------|
-| identity_verification_hide_verified_label_settings_enabled | boolean | False      |
+| identity_verification_hide_verified_label_settings_enabled | boolean | True       |
 
 #### queryId<br>
 `None`<br>
@@ -14607,6 +14588,17 @@ Login Required: `...`<br>
 
 #### queryId<br>
 `None`<br>
+## JobSearchQueryScreenJobsQuery<br>
+Request URL: `https://twitter.com/i/api/graphql/NXAFsdOLdGUg51b2NyW2pA/JobSearchQueryScreenJobsQuery`<br>
+Request Method: `GET`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
 ## ProfileSpotlights_EditableProfileSpotlightsQuery<br>
 Request URL: `https://twitter.com/i/api/graphql/rDGLKxjaiBYOL9AUgJtTKw/ProfileSpotlights_EditableProfileSpotlightsQuery`<br>
 Request Method: `GET`<br>
@@ -14798,7 +14790,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## UserJobListQueryScreenJobsQuery<br>
-Request URL: `https://twitter.com/i/api/graphql/syumIjNEVMpBId7WYw6V-Q/UserJobListQueryScreenJobsQuery`<br>
+Request URL: `https://twitter.com/i/api/graphql/B5oJ8_ksLef_u6Sp8Q-irQ/UserJobListQueryScreenJobsQuery`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>

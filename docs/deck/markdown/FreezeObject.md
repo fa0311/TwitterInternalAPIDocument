@@ -149,7 +149,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant              | value                 |
 |:----------------------|:----------------------|
-| ...Wd                 | _                     |
+| ...Nd                 | _                     |
 | ColumnFromPath        | ColumnFromPath        |
 | ColumnTimelineAdapter | ColumnTimelineAdapter |
 
@@ -2274,12 +2274,6 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant   | value                                          |
 |:-----------|:-----------------------------------------------|
-| REQUEST    | gryphon/accountsync/HAS_GRYPHON_ACCESS_REQUEST |
-| SUCCESS    | gryphon/accountsync/HAS_GRYPHON_ACCESS_SUCCESS |
-| FAILURE    | gryphon/accountsync/HAS_GRYPHON_ACCESS_FAILURE |
-
-| constant   | value                                          |
-|:-----------|:-----------------------------------------------|
 | REQUEST    | gryphon/accountsync/FETCH_ACCOUNT_SYNC_REQUEST |
 | SUCCESS    | gryphon/accountsync/FETCH_ACCOUNT_SYNC_SUCCESS |
 | FAILURE    | gryphon/accountsync/FETCH_ACCOUNT_SYNC_FAILURE |
@@ -2541,7 +2535,6 @@ This document is entirely auto-generated and may contain errors.<br>
 | isCarouselItem                            | False   |
 | followButtonAtBottomOfPromotedUserCard    | False   |
 | tweetMediaItemImmersiveViewerEntryPoint   | void 0  |
-| withImmersiveViewerPlaybackBugFix         | False   |
 | withVodTweetDetailAttribution             | False   |
 | isEmbedBrandLinkExperimentEnabled         | False   |
 | userAvatarLabel                           | False   |
@@ -2556,6 +2549,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | redesignedLabelForSubscribedTweets        | False   |
 | renderArticleCardInTweet                  | False   |
 | renderCompactCardDetail                   | False   |
+| roundCountInTweetAction                   | False   |
 | ...r                                      | _       |
 
 | constant         | value            |
@@ -2591,9 +2585,9 @@ This document is entirely auto-generated and may contain errors.<br>
 | subscriptionSaving | {'backgroundColor': 'green50', 'color': 'green900', 'bold': '!0', 'radius': '9999', 'fontSize': 'subtext3'} |
 | bestValue          | {'backgroundColor': 'green50', 'color': 'green900', 'bold': '!0', 'fontSize': 'subtext3'}                   |
 | mostPopular        | {'backgroundColor': 'purple50', 'color': 'purple900', 'bold': '!0', 'fontSize': 'subtext3'}                 |
-| alt                | _                                                                                                           |
-| gif                | _                                                                                                           |
-| hd                 | _                                                                                                           |
+| alt                | T                                                                                                           |
+| gif                | T                                                                                                           |
+| hd                 | T                                                                                                           |
 | likedByAuthor      | {'backgroundColor': 'gray50', 'bold': '!1', 'color': 'gray700'}                                             |
 | article            | {'bold': '!0', 'backgroundColor': 'translucentBlack55', 'color': 'white', 'opacity': '.1'}                  |
 
@@ -3320,11 +3314,11 @@ This document is entirely auto-generated and may contain errors.<br>
 ```
 ```internal process
 # Error
-{[ae.I1.clearBookmarks]:{"component":"Kt"},[ae.I1.clearTweets]:{"component":"ln"},[ae.I1.columnDebugInfo]:{"component":"ye"},[ae.I1.columnDebugState]:{"component":"ge"},[ae.I1.sharingDebug]:{"component":"se.Z"},[ae.I1.contentDisplay]:{"component":"he"},[ae.I1.conversationInfo]:{"component":"tt"},[ae...
+{[ae.I1.clearBookmarks]:{"component":"Gt"},[ae.I1.clearTweets]:{"component":"an"},[ae.I1.columnDebugInfo]:{"component":"ye"},[ae.I1.columnDebugState]:{"component":"ge"},[ae.I1.sharingDebug]:{"component":"se.Z"},[ae.I1.contentDisplay]:{"component":"he"},[ae.I1.conversationInfo]:{"component":"tt"},[ae...
 ```
 ```internal process
 # Error
-{[Ro.X.conversationSettings]:{"component":"Ho","showInStack":"!0"},[Ro.X.drawerToggle]:{"component":"Uo","showInStack":"!1"},[Ro.X.makeDeck]:{"component":"er","showInStack":"!0"},[Ro.X.newMessage]:{"component":"or","showInStack":"!0"},[Ro.X.remove]:{"component":"rr.Z","showInStack":"!1"},[Ro.X.searc...
+{[Fo.X.conversationSettings]:{"component":"zo","showInStack":"!0"},[Fo.X.drawerToggle]:{"component":"Qo","showInStack":"!1"},[Fo.X.makeDeck]:{"component":"Yo","showInStack":"!0"},[Fo.X.newMessage]:{"component":"ar","showInStack":"!0"},[Fo.X.remove]:{"component":"lr.Z","showInStack":"!1"},[Fo.X.searc...
 ```
 | constant          | value             |
 |:------------------|:------------------|
@@ -5075,12 +5069,12 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant                  | value                                   |
 |:--------------------------|:----------------------------------------|
-| all                       | {'icon': 'on', 'label': 'C().i8ea6d4e'} |
+| all                       | {'icon': 'an', 'label': 'C().i8ea6d4e'} |
 | community                 | {'icon': 'rn', 'label': 'C().ec5a4a26'} |
-| by_invitation             | {'icon': 'an', 'label': 'C().b454300a'} |
-| subscribers               | {'icon': 'on', 'label': 'C().bf8d98f4'} |
+| by_invitation             | {'icon': 'on', 'label': 'C().b454300a'} |
+| subscribers               | {'icon': 'an', 'label': 'C().bf8d98f4'} |
 | community_members         | {'icon': 'ln', 'label': 'C().i13be5a0'} |
-| super_followers_exclusive | {'icon': 'on', 'label': 'C().ebe1d850'} |
+| super_followers_exclusive | {'icon': 'an', 'label': 'C().ebe1d850'} |
 | trusted_friends_tweet     | {'icon': 'cn', 'label': 'u'}            |
 | verified                  | {'icon': 'dn', 'label': 'C().b121464a'} |
 
@@ -5115,7 +5109,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{[g.FOLLOWS]:{"label":"R","url":"/i/connect_people"},[g.CREATORS]:{"label":"v","url":"/i/connect_people?is_creator_only=true"}}
+{[R.FOLLOWS]:{"label":"v","url":"/i/connect_people"},[R.CREATORS]:{"label":"L","url":"/i/connect_people?is_creator_only=true"}}
 ```
 | constant       | value          |
 |:---------------|:---------------|
@@ -5675,7 +5669,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{[x.ActionedTweets]:{"backLocation":"A","confirmationSheetHeadline":"()(0,o.X_)"{"screenName":"m"}{"screenName":"m"}},[x.PreviewFlaggedTweets]:{"backLocation":"P","confirmationSheetHeadline":"Z()"{"screenName":"m"}{"screenName":"m"}}}
+{[P.ActionedTweets]:{"backLocation":"A","confirmationSheetHeadline":"()(0,o.X_)"{"screenName":"m"}{"screenName":"m"}},[P.PreviewFlaggedTweets]:{"backLocation":"I","confirmationSheetHeadline":"Z()"{"screenName":"m"}{"screenName":"m"}}}
 ```
 | constant             | value                  |
 |:---------------------|:-----------------------|

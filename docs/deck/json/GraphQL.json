@@ -37,11 +37,10 @@
         "featureSwitch": {}
       }
     },
-    "func_name": "w",
+    "func_name": "b",
     "func_name_init": "c",
     "query": {
-      "screen_name": "i",
-      "withSafetyModeUserFields": "t.isTrue()"
+      "...t": "_"
     }
   },
   {
@@ -72,8 +71,9 @@
     "func_name": "D",
     "func_name_init": "m",
     "query": {
-      "listId": "i.list_id",
-      "...()(0,r.S)": "_"
+      "listId": "r",
+      "userId": "l",
+      "...()(0,a.S)": "_"
     }
   },
   {
@@ -455,7 +455,10 @@
     "func_name": "R",
     "func_name_init": "I",
     "query": {
-      "listId": "n"
+      "count": "i",
+      "cursor": "n",
+      "includePromotedContent": "!1",
+      "...()(0,r.d)": "_"
     }
   },
   {
@@ -20141,19 +20144,6 @@
     }
   },
   {
-    "n": "98678",
-    "exports": {
-      "queryId": "bO8-Z3udl8YNV62_MoRlVg",
-      "operationName": "ViewerHasGryphonAccess",
-      "operationType": "query",
-      "metadata": {
-        "featureSwitches": [],
-        "fieldToggles": [],
-        "featureSwitch": {}
-      }
-    }
-  },
-  {
     "n": "67255",
     "exports": {
       "queryId": "MlAbo_-7Kslvk5mojg9ttg",
@@ -25210,19 +25200,6 @@
     "exports": {
       "queryId": "4t9h5GMFYewreBfk9TUKhw",
       "operationName": "ViewerAccountSync",
-      "operationType": "query",
-      "metadata": {
-        "featureSwitches": [],
-        "fieldToggles": [],
-        "featureSwitch": {}
-      }
-    }
-  },
-  {
-    "n": "98678",
-    "exports": {
-      "queryId": "bO8-Z3udl8YNV62_MoRlVg",
-      "operationName": "ViewerHasGryphonAccess",
       "operationType": "query",
       "metadata": {
         "featureSwitches": [],
@@ -33131,7 +33108,7 @@
         ],
         "featureSwitch": {
           "identity_verification_hide_verified_label_settings_enabled": {
-            "value": "false"
+            "value": "true"
           }
         }
       }
@@ -33844,6 +33821,18 @@
     }
   },
   {
+    "n": "59942",
+    "exports": {
+      "queryId": "NXAFsdOLdGUg51b2NyW2pA",
+      "operationName": "JobSearchQueryScreenJobsQuery",
+      "operationType": "query",
+      "metadata": {
+        "featureSwitches": [],
+        "featureSwitch": {}
+      }
+    }
+  },
+  {
     "n": "12030",
     "exports": {
       "queryId": "rDGLKxjaiBYOL9AUgJtTKw",
@@ -34056,7 +34045,7 @@
   {
     "n": "77884",
     "exports": {
-      "queryId": "syumIjNEVMpBId7WYw6V-Q",
+      "queryId": "B5oJ8_ksLef_u6Sp8Q-irQ",
       "operationName": "UserJobListQueryScreenJobsQuery",
       "operationType": "query",
       "metadata": {
