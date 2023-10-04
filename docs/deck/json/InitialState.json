@@ -115,6 +115,11 @@
       "entities": {},
       "errors": {},
       "fetchStatus": {}
+    },
+    "translationsProfiles": {
+      "entities": {},
+      "errors": {},
+      "fetchStatus": {}
     }
   },
   "featureSwitch": {
@@ -3009,7 +3014,7 @@
           "value": "false"
         },
         "creator_subscriptions_connect_tab_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "creator_subscriptions_email_share_enabled": {
           "value": "true"
@@ -5058,7 +5063,7 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "4ae3697e8c1345db197f99476b891bda"
+      "settingsVersion": "c08dd3ebe733f01e4cb89c85878d6558"
     },
     "debug": {},
     "featureSetToken": "5648c080c73c4c0ede69093c8ad600f902b3d420",
@@ -5131,7 +5136,7 @@
     "country": "US",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "169636775255182459",
+    "guestId": "169645411578652151",
     "hasCommunityMemberships": "false",
     "language": "en",
     "oneFactorLoginEligibility": {
