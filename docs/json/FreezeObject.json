@@ -3281,7 +3281,7 @@
     "FAILURE": "rweb/pinnedLists/PIN_MANY_LISTS_FAILURE"
   },
   {
-    "fetchStatus": "o.ZP.NONE",
+    "fetchStatus": "l.ZP.NONE",
     "listIds": "void 0"
   },
   {
@@ -4424,6 +4424,12 @@
     "NonEligiblePhoneNumber": "NonEligiblePhoneNumber"
   },
   {
+    "HarmfullyMisleading": "HarmfullyMisleading",
+    "MisinformedOrPotentiallyMisleading": "MisinformedOrPotentiallyMisleading",
+    "NotMisleading": "NotMisleading",
+    "PotentiallyMisleading": "PotentiallyMisleading"
+  },
+  {
     "AtRisk": "AtRisk",
     "EarnedIn": "EarnedIn",
     "EarnedOutAcknowledged": "EarnedOutAcknowledged",
@@ -5352,7 +5358,7 @@
     "SUCCESS": "rweb/safetyMode/FETCH_SAFETY_MODE_SETTINGS_SUCCESS",
     "FAILURE": "rweb/safetyMode/FETCH_SAFETY_MODE_SETTINGS_FAILURE"
   },
-  "{[P.ActionedTweets]:{\"backLocation\":\"A\",\"confirmationSheetHeadline\":\"()(0,o.X_)\"{\"screenName\":\"m\"}{\"screenName\":\"m\"}},[P.PreviewFlaggedTweets]:{\"backLocation\":\"I\",\"confirmationSheetHeadline\":\"S()\"{\"screenName\":\"m\"}{\"screenName\":\"m\"}}}",
+  "{[P.ActionedTweets]:{\"backLocation\":\"A\",\"confirmationSheetHeadline\":\"()(0,c.X_)\"{\"screenName\":\"m\"}{\"screenName\":\"m\"}},[P.PreviewFlaggedTweets]:{\"backLocation\":\"I\",\"confirmationSheetHeadline\":\"S()\"{\"screenName\":\"m\"}{\"screenName\":\"m\"}}}",
   {
     "ActionedTweets": "actioned_tweets",
     "PreviewFlaggedTweets": "preview_flagged_tweets"
@@ -5568,6 +5574,11 @@
     "Star": "star",
     "Interested": "interested",
     "Favorite": "favorite"
+  },
+  {
+    "Composition": "composition",
+    "DMComposition": "dm_composition",
+    "NoteComposition": "note_composition"
   },
   {
     "Cashtag": "cashtag",
@@ -6496,8 +6507,8 @@
     "operations": "D",
     "people_hr": "w",
     "finance_accounting": "Z",
-    "legal_compliance": "S",
-    "science_engineering": "$",
+    "legal_compliance": "$",
+    "science_engineering": "S",
     "medical": "z",
     "construction_trades": "E",
     "other": "H"
@@ -6507,14 +6518,14 @@
     "junior": "I",
     "mid_level": "R",
     "senior": "j",
-    "lead": "T",
-    "manager": "O",
+    "lead": "O",
+    "manager": "T",
     "executive": "P"
   },
   {
     "onsite": {
       "label": "M",
-      "description": "N"
+      "description": "W"
     },
     "remote": {
       "label": "q",
@@ -6522,7 +6533,7 @@
     },
     "hybrid": {
       "label": "F",
-      "description": "W"
+      "description": "N"
     }
   },
   {
