@@ -115,11 +115,6 @@
       "entities": {},
       "errors": {},
       "fetchStatus": {}
-    },
-    "translationsProfiles": {
-      "entities": {},
-      "errors": {},
-      "fetchStatus": {}
     }
   },
   "featureSwitch": {
@@ -520,7 +515,7 @@
         "value": "false"
       },
       "card_detail_compact_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "conversation_controls_limited_replies_consumption_configuration": {
         "value": "no_reply"
@@ -544,7 +539,7 @@
         "value": "false"
       },
       "creator_subscriptions_connect_tab_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "creator_subscriptions_email_share_enabled": {
         "value": "true"
@@ -1057,6 +1052,9 @@
         "value": "true"
       },
       "recruiting_jobs_list_search_enabled": {
+        "value": "false"
+      },
+      "recruiting_jobs_list_share_enabled": {
         "value": "false"
       },
       "recruiting_verified_orgs_admin_enabled": {
@@ -2939,7 +2937,7 @@
           "value": "false"
         },
         "c9s_community_tweet_search_enabled": {
-          "value": "true"
+          "value": "false"
         },
         "c9s_enabled": {
           "value": "true"
@@ -2990,7 +2988,7 @@
           "value": "false"
         },
         "card_detail_compact_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "conversation_controls_limited_replies_consumption_configuration": {
           "value": "no_reply"
@@ -3527,6 +3525,9 @@
           "value": "false"
         },
         "recruiting_jobs_list_search_enabled": {
+          "value": "false"
+        },
+        "recruiting_jobs_list_share_enabled": {
           "value": "false"
         },
         "recruiting_verified_orgs_admin_enabled": {
@@ -5063,10 +5064,10 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "c08dd3ebe733f01e4cb89c85878d6558"
+      "settingsVersion": "5ad9d7b27b0e142ccf16d2bc91ea1b4d"
     },
     "debug": {},
-    "featureSetToken": "5648c080c73c4c0ede69093c8ad600f902b3d420",
+    "featureSetToken": "48e59407509b9dd80c813cfebdffe510f3ea043c",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -5136,7 +5137,7 @@
     "country": "US",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "169645411578652151",
+    "guestId": "169654053949663787",
     "hasCommunityMemberships": "false",
     "language": "en",
     "oneFactorLoginEligibility": {
