@@ -3447,7 +3447,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant    | value     |
 |:------------|:----------|
-| fetchStatus | o.ZP.NONE |
+| fetchStatus | l.ZP.NONE |
 | listIds     | void 0    |
 
 | constant            | value               |
@@ -4623,6 +4623,13 @@ This document is entirely auto-generated and may contain errors.<br>
 | NonUniquePhoneNumber   | NonUniquePhoneNumber   |
 | NonEligiblePhoneNumber | NonEligiblePhoneNumber |
 
+| constant                           | value                              |
+|:-----------------------------------|:-----------------------------------|
+| HarmfullyMisleading                | HarmfullyMisleading                |
+| MisinformedOrPotentiallyMisleading | MisinformedOrPotentiallyMisleading |
+| NotMisleading                      | NotMisleading                      |
+| PotentiallyMisleading              | PotentiallyMisleading              |
+
 | constant               | value                  |
 |:-----------------------|:-----------------------|
 | AtRisk                 | AtRisk                 |
@@ -5635,7 +5642,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{[P.ActionedTweets]:{"backLocation":"A","confirmationSheetHeadline":"()(0,o.X_)"{"screenName":"m"}{"screenName":"m"}},[P.PreviewFlaggedTweets]:{"backLocation":"I","confirmationSheetHeadline":"S()"{"screenName":"m"}{"screenName":"m"}}}
+{[P.ActionedTweets]:{"backLocation":"A","confirmationSheetHeadline":"()(0,c.X_)"{"screenName":"m"}{"screenName":"m"}},[P.PreviewFlaggedTweets]:{"backLocation":"I","confirmationSheetHeadline":"S()"{"screenName":"m"}{"screenName":"m"}}}
 ```
 | constant             | value                  |
 |:---------------------|:-----------------------|
@@ -5894,6 +5901,12 @@ This document is entirely auto-generated and may contain errors.<br>
 | Star        | star       |
 | Interested  | interested |
 | Favorite    | favorite   |
+
+| constant        | value            |
+|:----------------|:-----------------|
+| Composition     | composition      |
+| DMComposition   | dm_composition   |
+| NoteComposition | note_composition |
 
 | constant   | value       |
 |:-----------|:------------|
@@ -6822,8 +6835,8 @@ This document is entirely auto-generated and may contain errors.<br>
 | operations           | D       |
 | people_hr            | w       |
 | finance_accounting   | Z       |
-| legal_compliance     | S       |
-| science_engineering  | $       |
+| legal_compliance     | $       |
+| science_engineering  | S       |
 | medical              | z       |
 | construction_trades  | E       |
 | other                | H       |
@@ -6834,15 +6847,15 @@ This document is entirely auto-generated and may contain errors.<br>
 | junior      | I       |
 | mid_level   | R       |
 | senior      | j       |
-| lead        | T       |
-| manager     | O       |
+| lead        | O       |
+| manager     | T       |
 | executive   | P       |
 
 | constant   | value                              |
 |:-----------|:-----------------------------------|
-| onsite     | {'label': 'M', 'description': 'N'} |
+| onsite     | {'label': 'M', 'description': 'W'} |
 | remote     | {'label': 'q', 'description': 'A'} |
-| hybrid     | {'label': 'F', 'description': 'W'} |
+| hybrid     | {'label': 'F', 'description': 'N'} |
 
 | constant      | value         |
 |:--------------|:--------------|

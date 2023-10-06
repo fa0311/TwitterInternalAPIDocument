@@ -81,6 +81,11 @@
       "errors": {},
       "fetchStatus": {}
     },
+    "translationsProfiles": {
+      "entities": {},
+      "errors": {},
+      "fetchStatus": {}
+    },
     "imageCache": {
       "entities": {},
       "errors": {},
@@ -107,11 +112,6 @@
       "fetchStatus": {}
     },
     "phoneNumberValidity": {
-      "entities": {},
-      "errors": {},
-      "fetchStatus": {}
-    },
-    "translationsProfiles": {
       "entities": {},
       "errors": {},
       "fetchStatus": {}
@@ -515,7 +515,7 @@
         "value": "false"
       },
       "card_detail_compact_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "conversation_controls_limited_replies_consumption_configuration": {
         "value": "no_reply"
@@ -539,7 +539,7 @@
         "value": "false"
       },
       "creator_subscriptions_connect_tab_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "creator_subscriptions_email_share_enabled": {
         "value": "true"
@@ -1052,6 +1052,9 @@
         "value": "true"
       },
       "recruiting_jobs_list_search_enabled": {
+        "value": "false"
+      },
+      "recruiting_jobs_list_share_enabled": {
         "value": "false"
       },
       "recruiting_verified_orgs_admin_enabled": {
@@ -2985,7 +2988,7 @@
           "value": "false"
         },
         "card_detail_compact_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "conversation_controls_limited_replies_consumption_configuration": {
           "value": "no_reply"
@@ -3522,6 +3525,9 @@
           "value": "true"
         },
         "recruiting_jobs_list_search_enabled": {
+          "value": "false"
+        },
+        "recruiting_jobs_list_share_enabled": {
           "value": "false"
         },
         "recruiting_verified_orgs_admin_enabled": {
@@ -5060,10 +5066,10 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "4574b31e5f5d480451546f2fc6d29798"
+      "settingsVersion": "ef5dd47cb6344770043623967d7430dd"
     },
     "debug": {},
-    "featureSetToken": "5648c080c73c4c0ede69093c8ad600f902b3d420",
+    "featureSetToken": "48e59407509b9dd80c813cfebdffe510f3ea043c",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -5133,7 +5139,7 @@
     "country": "US",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "169645369606414054",
+    "guestId": "169654000395985553",
     "hasCommunityMemberships": "false",
     "language": "en",
     "oneFactorLoginEligibility": {

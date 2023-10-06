@@ -15260,7 +15260,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## TwitterBlueSignUpV2Query<br>
-Request URL: `https://twitter.com/i/api/graphql/B7I5HPN6jm5Mgv9N8fgFPg/TwitterBlueSignUpV2Query`<br>
+Request URL: `https://twitter.com/i/api/graphql/xU-wKi9U_jjBGuhzqop3kw/TwitterBlueSignUpV2Query`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
