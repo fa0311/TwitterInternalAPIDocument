@@ -2268,3 +2268,17 @@
 - recruiting_jobs_list_share_enabled<br>
 #### remove<br>
 - None<br>
+## 2023/10/07<br>
+### API<br>
+#### add<br>
+- ExtendedProfileSettingsMutation<br>
+- ExtendedProfileSettingsQuery<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- responsive_web_restrict_max_timeline_tweet_height<br>
+- responsive_web_show_similar_posts_pivots_enabled<br>
+- subscriptions_premium_tiers_default_product<br>
+#### remove<br>
+- responsive_web_csrf_clientside_enabled<br>

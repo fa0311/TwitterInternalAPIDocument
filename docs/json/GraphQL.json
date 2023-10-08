@@ -33961,6 +33961,30 @@
     }
   },
   {
+    "n": "47564",
+    "exports": {
+      "queryId": "8QigioON0Eu0cK2CKqk1xw",
+      "operationName": "ExtendedProfileSettingsMutation",
+      "operationType": "mutation",
+      "metadata": {
+        "featureSwitches": [],
+        "featureSwitch": {}
+      }
+    }
+  },
+  {
+    "n": "37893",
+    "exports": {
+      "queryId": "fER4LgL9ZID-HQ4JGYK-AA",
+      "operationName": "ExtendedProfileSettingsQuery",
+      "operationType": "query",
+      "metadata": {
+        "featureSwitches": [],
+        "featureSwitch": {}
+      }
+    }
+  },
+  {
     "n": "4217",
     "exports": {
       "queryId": "VKbNUE3NwVCyM1vVHhyLPQ",
@@ -35079,7 +35103,7 @@
   {
     "n": "7279",
     "exports": {
-      "queryId": "IP18rYrWlc9MLYoHeYOR-Q",
+      "queryId": "GKJ1ao-CYVsDNk-Jisi49g",
       "operationName": "AddJobScreenMutation",
       "operationType": "mutation",
       "metadata": {
@@ -35151,7 +35175,7 @@
   {
     "n": "24574",
     "exports": {
-      "queryId": "OxtUDLblECeld-pcRJ_NRw",
+      "queryId": "MssCMBKoFTbX6iJn-BGnDQ",
       "operationName": "EditJobScreenMutation",
       "operationType": "mutation",
       "metadata": {
@@ -35163,7 +35187,7 @@
   {
     "n": "8975",
     "exports": {
-      "queryId": "dqJn5n5DVPsSTMVnTiXDcQ",
+      "queryId": "1ZaJnRPPXqKjkRjSE2QpZw",
       "operationName": "EditJobScreenQuery",
       "operationType": "query",
       "metadata": {
@@ -35355,7 +35379,7 @@
   {
     "n": "51045",
     "exports": {
-      "queryId": "LX--KlV3ovoEtT-03fKCjA",
+      "queryId": "2nsy0MR8hisVQL5hlk0QuA",
       "operationName": "useFetchAdminJobsQuery",
       "operationType": "query",
       "metadata": {

@@ -4202,6 +4202,18 @@
       "method": "GET",
       "features": {}
     },
+    "ExtendedProfileSettingsMutation": {
+      "url": "https://twitter.com/i/api/graphql/8QigioON0Eu0cK2CKqk1xw/ExtendedProfileSettingsMutation",
+      "queryId": "8QigioON0Eu0cK2CKqk1xw",
+      "method": "POST",
+      "features": {}
+    },
+    "ExtendedProfileSettingsQuery": {
+      "url": "https://twitter.com/i/api/graphql/fER4LgL9ZID-HQ4JGYK-AA/ExtendedProfileSettingsQuery",
+      "queryId": "fER4LgL9ZID-HQ4JGYK-AA",
+      "method": "GET",
+      "features": {}
+    },
     "HiddenLikesTabSettingsMutation": {
       "url": "https://twitter.com/i/api/graphql/VKbNUE3NwVCyM1vVHhyLPQ/HiddenLikesTabSettingsMutation",
       "queryId": "VKbNUE3NwVCyM1vVHhyLPQ",
@@ -4727,8 +4739,8 @@
       "features": {}
     },
     "AddJobScreenMutation": {
-      "url": "https://twitter.com/i/api/graphql/IP18rYrWlc9MLYoHeYOR-Q/AddJobScreenMutation",
-      "queryId": "IP18rYrWlc9MLYoHeYOR-Q",
+      "url": "https://twitter.com/i/api/graphql/GKJ1ao-CYVsDNk-Jisi49g/AddJobScreenMutation",
+      "queryId": "GKJ1ao-CYVsDNk-Jisi49g",
       "method": "POST",
       "features": {}
     },
@@ -4763,14 +4775,14 @@
       "features": {}
     },
     "EditJobScreenMutation": {
-      "url": "https://twitter.com/i/api/graphql/OxtUDLblECeld-pcRJ_NRw/EditJobScreenMutation",
-      "queryId": "OxtUDLblECeld-pcRJ_NRw",
+      "url": "https://twitter.com/i/api/graphql/MssCMBKoFTbX6iJn-BGnDQ/EditJobScreenMutation",
+      "queryId": "MssCMBKoFTbX6iJn-BGnDQ",
       "method": "POST",
       "features": {}
     },
     "EditJobScreenQuery": {
-      "url": "https://twitter.com/i/api/graphql/dqJn5n5DVPsSTMVnTiXDcQ/EditJobScreenQuery",
-      "queryId": "dqJn5n5DVPsSTMVnTiXDcQ",
+      "url": "https://twitter.com/i/api/graphql/1ZaJnRPPXqKjkRjSE2QpZw/EditJobScreenQuery",
+      "queryId": "1ZaJnRPPXqKjkRjSE2QpZw",
       "method": "GET",
       "features": {}
     },
@@ -4865,8 +4877,8 @@
       "features": {}
     },
     "useFetchAdminJobsQuery": {
-      "url": "https://twitter.com/i/api/graphql/LX--KlV3ovoEtT-03fKCjA/useFetchAdminJobsQuery",
-      "queryId": "LX--KlV3ovoEtT-03fKCjA",
+      "url": "https://twitter.com/i/api/graphql/2nsy0MR8hisVQL5hlk0QuA/useFetchAdminJobsQuery",
+      "queryId": "2nsy0MR8hisVQL5hlk0QuA",
       "method": "GET",
       "features": {}
     },
