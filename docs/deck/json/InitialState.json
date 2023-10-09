@@ -2897,7 +2897,7 @@
           "value": "false"
         },
         "blue_business_direct_invites_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "blue_business_multi_affiliates_ui_enabled": {
           "value": "false"
@@ -3002,7 +3002,7 @@
           "value": "true"
         },
         "conversation_controls_verified_only_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "conversational_safety_heads_up_treatment_A_enabled": {
           "value": ""
@@ -5069,7 +5069,7 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "a2f6c3dc655009698b7ad75161e7efc0"
+      "settingsVersion": "a8d03c20c7aa8a5683f1204b98b08259"
     },
     "debug": {},
     "featureSetToken": "48e59407509b9dd80c813cfebdffe510f3ea043c",
@@ -5142,7 +5142,7 @@
     "country": "US",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "169679955467670950",
+    "guestId": "169688596597610416",
     "hasCommunityMemberships": "false",
     "language": "en",
     "oneFactorLoginEligibility": {
