@@ -2282,3 +2282,14 @@
 - subscriptions_premium_tiers_default_product<br>
 #### remove<br>
 - responsive_web_csrf_clientside_enabled<br>
+## 2023/10/10<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- responsive_web_home_pinned_timelines_settings_enabled<br>
+#### remove<br>
+- None<br>
