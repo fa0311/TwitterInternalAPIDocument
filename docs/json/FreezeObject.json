@@ -3307,14 +3307,14 @@
     "following": "a().e9a90d72",
     "unfollow": "a().bf403716",
     "confirmationHeadline": "a().c9f08e29",
-    "confirmationSheetText": "a().abc600f4"
+    "confirmationSheetText": "a().hed4dcd0"
   },
   {
     "follow": "a().cd876e02",
     "following": "a().f2816e02",
     "unfollow": "a().f5b04fbc",
     "confirmationHeadline": "a().c481ae3f",
-    "confirmationSheetText": "a().aa3ba124"
+    "confirmationSheetText": "a().c94116de"
   },
   {
     "follow": "a().e0e730b0",
@@ -4717,11 +4717,11 @@
     },
     "community": {
       "icon": "os",
-      "label": "C().ec5a4a26"
+      "label": "C().a176d0d8"
     },
     "by_invitation": {
       "icon": "as",
-      "label": "C().b454300a"
+      "label": "C().gc7e52ca"
     },
     "subscribers": {
       "icon": "ns",
@@ -5539,14 +5539,14 @@
     "following": "a().e9a90d72",
     "unfollow": "a().bf403716",
     "confirmationHeadline": "a().c9f08e29",
-    "confirmationSheetText": "a().abc600f4"
+    "confirmationSheetText": "a().hed4dcd0"
   },
   {
     "follow": "a().cd876e02",
     "following": "a().f2816e02",
     "unfollow": "a().f5b04fbc",
     "confirmationHeadline": "a().c481ae3f",
-    "confirmationSheetText": "a().aa3ba124"
+    "confirmationSheetText": "a().c94116de"
   },
   {
     "follow": "a().e0e730b0",
@@ -6078,14 +6078,14 @@
     "following": "r().e9a90d72",
     "unfollow": "r().bf403716",
     "confirmationHeadline": "r().c9f08e29",
-    "confirmationSheetText": "r().abc600f4"
+    "confirmationSheetText": "r().hed4dcd0"
   },
   {
     "follow": "r().cd876e02",
     "following": "r().f2816e02",
     "unfollow": "r().f5b04fbc",
     "confirmationHeadline": "r().c481ae3f",
-    "confirmationSheetText": "r().aa3ba124"
+    "confirmationSheetText": "r().c94116de"
   },
   {
     "follow": "r().e0e730b0",
@@ -7256,8 +7256,8 @@
   "{\"minimumRadius\":\"0\",\"maximumRadius\":1/0,\"minimumPolarAngle\":Math.PI/8,\"maximumPolarAngle\":Math.PI-Math.PI/8,\"minimumAzimuthalAngle\":-1/0,\"maximumAzimuthalAngle\":1/0,\"minimumFieldOfView\":\"10\",\"maximumFieldOfView\":\"45\",\"interactionPolicy\":\"always-allow\",\"touchAction\":\"pan-y\"}",
   {
     "all": "h().baffe39a",
-    "community": "h().af293dc2",
-    "by_invitation": "h().cf7f7e3a",
+    "community": "h().i9000126",
+    "by_invitation": "h().e7b4b30a",
     "subscribers": "h().ad85cd2e",
     "verified": "h().f19e4bfc"
   },
