@@ -81,36 +81,6 @@
       "errors": {},
       "fetchStatus": {}
     },
-    "imageCache": {
-      "entities": {},
-      "errors": {},
-      "fetchStatus": {}
-    },
-    "emailValidity": {
-      "entities": {},
-      "errors": {},
-      "fetchStatus": {}
-    },
-    "translationsTweets": {
-      "entities": {},
-      "errors": {},
-      "fetchStatus": {}
-    },
-    "bookmarkFolders": {
-      "entities": {},
-      "errors": {},
-      "fetchStatus": {}
-    },
-    "passwordValidity": {
-      "entities": {},
-      "errors": {},
-      "fetchStatus": {}
-    },
-    "phoneNumberValidity": {
-      "entities": {},
-      "errors": {},
-      "fetchStatus": {}
-    },
     "translationsProfiles": {
       "entities": {},
       "errors": {},
@@ -449,10 +419,10 @@
         "value": "true"
       },
       "c9s_community_answer_box_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "c9s_community_answer_box_join_page_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "c9s_community_composer_hashtag_suggestions_enabled": {
         "value": "false"
@@ -461,7 +431,7 @@
         "value": "false"
       },
       "c9s_community_question_box_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "c9s_community_tweet_search_enabled": {
         "value": "true"
@@ -500,7 +470,7 @@
         "value": "false"
       },
       "c9s_question_editing_box_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "c9s_ssr_enabled": {
         "value": "false"
@@ -818,7 +788,7 @@
         "value": "true"
       },
       "home_timeline_spheres_max_user_owned_or_subscribed_lists_count": {
-        "value": "5"
+        "value": "10"
       },
       "home_timeline_spheres_ranking_mode_control_enabled": {
         "value": "false"
@@ -5084,10 +5054,10 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "5309a3ce59fc5f17fe77461d1555229b"
+      "settingsVersion": "ef5dd47cb6344770043623967d7430dd"
     },
     "debug": {},
-    "featureSetToken": "498b8560ff46524f0cddf358b8b20774885da258",
+    "featureSetToken": "9032837ddb3dafec64fac91750464fcbf32c048a",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -5157,7 +5127,7 @@
     "country": "US",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "169705840244637386",
+    "guestId": "169714476881692110",
     "hasCommunityMemberships": "false",
     "language": "en",
     "oneFactorLoginEligibility": {
@@ -5168,12 +5138,6 @@
   "developer": {
     "dtabBarInfo": {
       "hide": "false"
-    }
-  },
-  "ads": {
-    "typeahead": {
-      "targetingLocation": {},
-      "forecastAudience": {}
     }
   }
 }
