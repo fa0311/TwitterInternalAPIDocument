@@ -2293,3 +2293,14 @@
 - responsive_web_home_pinned_timelines_settings_enabled<br>
 #### remove<br>
 - None<br>
+## 2023/10/13<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- responsive_web_ad_revenue_sharing_pay_period_enabled<br>
