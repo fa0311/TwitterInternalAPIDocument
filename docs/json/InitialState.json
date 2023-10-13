@@ -1081,9 +1081,6 @@
       "responsive_web_ad_revenue_sharing_number_of_impressions": {
         "value": "5"
       },
-      "responsive_web_ad_revenue_sharing_pay_period_enabled": {
-        "value": "true"
-      },
       "responsive_web_ad_revenue_sharing_payout_account_notice_enabled": {
         "value": "false"
       },
@@ -3563,9 +3560,6 @@
         "responsive_web_ad_revenue_sharing_number_of_impressions": {
           "value": "5"
         },
-        "responsive_web_ad_revenue_sharing_pay_period_enabled": {
-          "value": "true"
-        },
         "responsive_web_ad_revenue_sharing_payout_account_notice_enabled": {
           "value": "false"
         },
@@ -5057,7 +5051,7 @@
       "settingsVersion": "ef5dd47cb6344770043623967d7430dd"
     },
     "debug": {},
-    "featureSetToken": "9032837ddb3dafec64fac91750464fcbf32c048a",
+    "featureSetToken": "ea347111f7e00ab9ddb9bbbe28b7dcb824535cdd",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -5127,7 +5121,7 @@
     "country": "US",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "169714476881692110",
+    "guestId": "169723120074575790",
     "hasCommunityMemberships": "false",
     "language": "en",
     "oneFactorLoginEligibility": {
