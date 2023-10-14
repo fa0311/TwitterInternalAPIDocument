@@ -35379,7 +35379,7 @@
   {
     "n": "51045",
     "exports": {
-      "queryId": "VHe0lxp3lVC5pBR9Fxo0Pw",
+      "queryId": "-yP33VDBHDcts6VcjMz4XA",
       "operationName": "useFetchAdminJobsQuery",
       "operationType": "query",
       "metadata": {
@@ -35393,6 +35393,18 @@
     "exports": {
       "queryId": "J4jkAy2kC6O59mP-94xOzA",
       "operationName": "useProductSkuQuery",
+      "operationType": "query",
+      "metadata": {
+        "featureSwitches": [],
+        "featureSwitch": {}
+      }
+    }
+  },
+  {
+    "n": "51108",
+    "exports": {
+      "queryId": "V_nLU15dCFWUWB8MpULF8g",
+      "operationName": "useSearchAdminJobsQuery",
       "operationType": "query",
       "metadata": {
         "featureSwitches": [],
