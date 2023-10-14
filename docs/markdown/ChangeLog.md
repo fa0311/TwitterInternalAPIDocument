@@ -2304,3 +2304,14 @@
 - None<br>
 #### remove<br>
 - responsive_web_ad_revenue_sharing_pay_period_enabled<br>
+## 2023/10/14<br>
+### API<br>
+#### add<br>
+- useSearchAdminJobsQuery<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- responsive_web_show_similar_posts_count<br>
+#### remove<br>
+- responsive_web_verified_followers_tab_enabled<br>
