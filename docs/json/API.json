@@ -4877,14 +4877,20 @@
       "features": {}
     },
     "useFetchAdminJobsQuery": {
-      "url": "https://twitter.com/i/api/graphql/VHe0lxp3lVC5pBR9Fxo0Pw/useFetchAdminJobsQuery",
-      "queryId": "VHe0lxp3lVC5pBR9Fxo0Pw",
+      "url": "https://twitter.com/i/api/graphql/-yP33VDBHDcts6VcjMz4XA/useFetchAdminJobsQuery",
+      "queryId": "-yP33VDBHDcts6VcjMz4XA",
       "method": "GET",
       "features": {}
     },
     "useProductSkuQuery": {
       "url": "https://twitter.com/i/api/graphql/J4jkAy2kC6O59mP-94xOzA/useProductSkuQuery",
       "queryId": "J4jkAy2kC6O59mP-94xOzA",
+      "method": "GET",
+      "features": {}
+    },
+    "useSearchAdminJobsQuery": {
+      "url": "https://twitter.com/i/api/graphql/V_nLU15dCFWUWB8MpULF8g/useSearchAdminJobsQuery",
+      "queryId": "V_nLU15dCFWUWB8MpULF8g",
       "method": "GET",
       "features": {}
     },

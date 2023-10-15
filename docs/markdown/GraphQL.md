@@ -15782,7 +15782,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## useFetchAdminJobsQuery<br>
-Request URL: `https://twitter.com/i/api/graphql/VHe0lxp3lVC5pBR9Fxo0Pw/useFetchAdminJobsQuery`<br>
+Request URL: `https://twitter.com/i/api/graphql/-yP33VDBHDcts6VcjMz4XA/useFetchAdminJobsQuery`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -15794,6 +15794,17 @@ Login Required: `...`<br>
 `None`<br>
 ## useProductSkuQuery<br>
 Request URL: `https://twitter.com/i/api/graphql/J4jkAy2kC6O59mP-94xOzA/useProductSkuQuery`<br>
+Request Method: `GET`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
+## useSearchAdminJobsQuery<br>
+Request URL: `https://twitter.com/i/api/graphql/V_nLU15dCFWUWB8MpULF8g/useSearchAdminJobsQuery`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
