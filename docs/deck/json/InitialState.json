@@ -1096,9 +1096,6 @@
       "responsive_web_ad_revenue_sharing_number_of_impressions": {
         "value": "5"
       },
-      "responsive_web_ad_revenue_sharing_pay_period_enabled": {
-        "value": "true"
-      },
       "responsive_web_ad_revenue_sharing_payout_account_notice_enabled": {
         "value": "false"
       },
@@ -1618,6 +1615,9 @@
       "responsive_web_share_only_tweet_url_omit_title_and_text": {
         "value": "true"
       },
+      "responsive_web_show_similar_posts_count": {
+        "value": "50"
+      },
       "responsive_web_show_similar_posts_pivots_enabled": {
         "value": "false"
       },
@@ -1751,9 +1751,6 @@
         "value": "false"
       },
       "responsive_web_user_badge_education_get_verified_button_enabled": {
-        "value": "true"
-      },
-      "responsive_web_verified_followers_tab_enabled": {
         "value": "true"
       },
       "responsive_web_verified_organizations_affiliate_fetch_limit": {
@@ -3578,9 +3575,6 @@
         "responsive_web_ad_revenue_sharing_number_of_impressions": {
           "value": "5"
         },
-        "responsive_web_ad_revenue_sharing_pay_period_enabled": {
-          "value": "true"
-        },
         "responsive_web_ad_revenue_sharing_payout_account_notice_enabled": {
           "value": "false"
         },
@@ -4100,6 +4094,9 @@
         "responsive_web_share_only_tweet_url_omit_title_and_text": {
           "value": "true"
         },
+        "responsive_web_show_similar_posts_count": {
+          "value": "50"
+        },
         "responsive_web_show_similar_posts_pivots_enabled": {
           "value": "false"
         },
@@ -4233,9 +4230,6 @@
           "value": "false"
         },
         "responsive_web_user_badge_education_get_verified_button_enabled": {
-          "value": "true"
-        },
-        "responsive_web_verified_followers_tab_enabled": {
           "value": "true"
         },
         "responsive_web_verified_organizations_affiliate_fetch_limit": {
@@ -5070,7 +5064,7 @@
       "settingsVersion": "3a1497be4f7f28c15e6531654fee5a8b"
     },
     "debug": {},
-    "featureSetToken": "9032837ddb3dafec64fac91750464fcbf32c048a",
+    "featureSetToken": "9ea6191fbdde4e061f60f7a2bb85c5ddddb6339b",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -5140,7 +5134,7 @@
     "country": "XX",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "169740443783363016",
+    "guestId": "169749094296758180",
     "hasCommunityMemberships": "false",
     "language": "en",
     "oneFactorLoginEligibility": {
