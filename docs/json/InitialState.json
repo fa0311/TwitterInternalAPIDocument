@@ -81,6 +81,11 @@
       "errors": {},
       "fetchStatus": {}
     },
+    "userCommunityRoleRelationship": {
+      "entities": {},
+      "errors": {},
+      "fetchStatus": {}
+    },
     "translationsProfiles": {
       "entities": {},
       "errors": {},
@@ -487,6 +492,9 @@
         "value": "latest"
       },
       "c9s_timelines_top_latest_stickiness_enabled": {
+        "value": "false"
+      },
+      "c9s_tweet_anatomy_moderator_badge_enabled": {
         "value": "false"
       },
       "card_detail_compact_enabled": {
@@ -1027,10 +1035,10 @@
         "value": "true"
       },
       "recruiting_jobs_list_search_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "recruiting_jobs_list_share_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "recruiting_verified_orgs_admin_enabled": {
         "value": "false"
@@ -1757,9 +1765,6 @@
       },
       "responsive_web_verified_organizations_paid_to_invoice_enabled": {
         "value": "false"
-      },
-      "responsive_web_verified_organizations_upgrade_enabled": {
-        "value": "true"
       },
       "responsive_web_video_pcomplete_enabled": {
         "value": "true"
@@ -2891,7 +2896,7 @@
           "value": "5"
         },
         "blue_business_vo_nav_for_legacy_verified": {
-          "value": "false"
+          "value": "true"
         },
         "blue_longer_video_enabled": {
           "value": "false"
@@ -2967,6 +2972,9 @@
         },
         "c9s_timelines_top_latest_stickiness_enabled": {
           "value": "false"
+        },
+        "c9s_tweet_anatomy_moderator_badge_enabled": {
+          "value": "true"
         },
         "card_detail_compact_enabled": {
           "value": "true"
@@ -3338,7 +3346,7 @@
           "value": "true"
         },
         "longform_ad_free_articles_badging_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "longform_notetweets_composition_without_claims_enabled": {
           "value": "false"
@@ -3506,19 +3514,19 @@
           "value": "true"
         },
         "recruiting_jobs_list_search_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "recruiting_jobs_list_share_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "recruiting_verified_orgs_admin_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "recruiting_verified_orgs_ats_integration_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "recruiting_verified_orgs_enroll_allowed": {
-          "value": "false"
+          "value": "true"
         },
         "report_center_mvp_r1_enabled": {
           "value": "true"
@@ -3569,7 +3577,7 @@
           "value": "false"
         },
         "responsive_web_ad_revenue_sharing_setup_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "responsive_web_ad_revenue_sharing_total_earnings_enabled": {
           "value": "false"
@@ -3680,7 +3688,7 @@
           "value": "true"
         },
         "responsive_web_commerce_shop_spotlight_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "responsive_web_communities_slices_enabled": {
           "value": "true"
@@ -3887,7 +3895,7 @@
           "value": "false"
         },
         "responsive_web_live_commerce_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "responsive_web_locale_context_direction_enabled": {
           "value": "true"
@@ -4232,13 +4240,10 @@
           "value": "false"
         },
         "responsive_web_verified_organizations_invoice_update_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "responsive_web_verified_organizations_paid_to_invoice_enabled": {
           "value": "false"
-        },
-        "responsive_web_verified_organizations_upgrade_enabled": {
-          "value": "true"
         },
         "responsive_web_video_pcomplete_enabled": {
           "value": "true"
@@ -4306,7 +4311,7 @@
           "value": "false"
         },
         "rweb_tweets_boosting_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "rweb_tweets_reply_context_hidden": {
           "value": "true"
@@ -4577,6 +4582,9 @@
         "subscriptions_premium_tiers_default_product": {
           "value": "BlueVerifiedPlus"
         },
+        "subscriptions_premium_tiers_encrypted_dms_gating_update_enabled": {
+          "value": "false"
+        },
         "subscriptions_premium_tiers_marketing_page_enabled": {
           "value": "false"
         },
@@ -4584,7 +4592,7 @@
           "value": "false"
         },
         "subscriptions_sign_up_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "subscriptions_stripe_testing": {
           "value": "false"
@@ -4596,7 +4604,7 @@
           "value": "true"
         },
         "super_follow_android_web_subscription_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "super_follow_exclusive_tweet_creation_api_enabled": {
           "value": "true"
@@ -4617,7 +4625,7 @@
           "value": "true"
         },
         "super_follow_web_application_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "super_follow_web_deactivate_enabled": {
           "value": "true"
@@ -5053,10 +5061,10 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "1e1afaa23f65999696912379db43f658"
+      "settingsVersion": "1d0a1cad3d6ef651dc8b89514f07a2b3"
     },
     "debug": {},
-    "featureSetToken": "4e64f0cbcecfa067f22a42f619163ee82a78ec28",
+    "featureSetToken": "5151c9db2b63efc75288fe7fdba53c375fb08de7",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -5123,10 +5131,10 @@
     }
   },
   "session": {
-    "country": "XX",
+    "country": "US",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "169749043086474853",
+    "guestId": "169757680218321775",
     "hasCommunityMemberships": "false",
     "language": "en",
     "oneFactorLoginEligibility": {
