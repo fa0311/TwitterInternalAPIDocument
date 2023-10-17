@@ -1620,3 +1620,15 @@
 - subscriptions_premium_tiers_default_product<br>
 #### remove<br>
 - responsive_web_csrf_clientside_enabled<br>
+## 2023/10/16<br>
+### API<br>
+#### add<br>
+- useSearchAdminJobsQuery<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- responsive_web_show_similar_posts_count<br>
+#### remove<br>
+- responsive_web_ad_revenue_sharing_pay_period_enabled<br>
+- responsive_web_verified_followers_tab_enabled<br>
