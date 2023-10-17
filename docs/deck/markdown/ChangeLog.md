@@ -1632,3 +1632,25 @@
 #### remove<br>
 - responsive_web_ad_revenue_sharing_pay_period_enabled<br>
 - responsive_web_verified_followers_tab_enabled<br>
+## 2023/10/17<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- BizProfileFetchUser<br>
+- GraphQLError<br>
+- CreateCustomerPortalSession<br>
+- ListProductSubscriptions<br>
+- SubscriptionCheckoutUrlWithEligibility<br>
+- SubscriptionProductDetails<br>
+- BizProfileFetchUser<br>
+- CreateCustomerPortalSession<br>
+- GraphQLError<br>
+- ListProductSubscriptions<br>
+- SubscriptionCheckoutUrlWithEligibility<br>
+- SubscriptionProductDetails<br>
+### Feature Switch<br>
+#### add<br>
+- c9s_tweet_anatomy_moderator_badge_enabled<br>
+#### remove<br>
+- responsive_web_verified_organizations_upgrade_enabled<br>
