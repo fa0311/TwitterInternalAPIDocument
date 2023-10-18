@@ -2357,3 +2357,15 @@
 - c9s_tweet_anatomy_moderator_badge_enabled<br>
 #### remove<br>
 - responsive_web_verified_organizations_upgrade_enabled<br>
+## 2023/10/18<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- responsive_web_not_a_bot_signups_enabled<br>
+- subscriptions_premium_tiers_encrypted_dms_gating_update_enabled<br>
+#### remove<br>
+- None<br>
