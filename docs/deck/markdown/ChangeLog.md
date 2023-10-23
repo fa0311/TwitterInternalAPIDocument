@@ -1669,3 +1669,15 @@
 - subscriptions_premium_tiers_encrypted_dms_gating_update_enabled<br>
 #### remove<br>
 - None<br>
+## 2023/10/23<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- home_timeline_compact_app_bar<br>
+- responsive_web_verified_organizations_advertising_enabled<br>
+#### remove<br>
+- responsive_web_show_similar_posts_count<br>
