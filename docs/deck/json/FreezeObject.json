@@ -2430,6 +2430,13 @@
       "radius": "9999",
       "fontSize": "subtext3"
     },
+    "subscriptionActive": {
+      "backgroundColor": "primary",
+      "radius": "9999",
+      "bold": "!0",
+      "color": "whiteOnColor",
+      "fontSize": "subtext3"
+    },
     "bestValue": {
       "backgroundColor": "green50",
       "color": "green900",
@@ -4653,6 +4660,15 @@
     "Trimmer": "trimmer"
   },
   {
+    "MEDIA": "Media",
+    "GIFS": "GIFs",
+    "TWEETS": "Tweets"
+  },
+  {
+    "Public": "Public",
+    "Subscribers": "Subscribers"
+  },
+  {
     "GIF": "TweetGif",
     "IMAGE": "TweetImage",
     "VIDEO": "TweetVideo"
@@ -4662,8 +4678,8 @@
     "PUBLISHED": "Published"
   },
   {
-    "DRAFT": "r.DRAFT",
-    "PUBLISHED": "r.PUBLISHED"
+    "DRAFT": "a.DRAFT",
+    "PUBLISHED": "a.PUBLISHED"
   },
   {
     "MEDIA": "MEDIA",
@@ -4676,15 +4692,6 @@
     "TWITTER_ARTICLES_TAB": "TWITTER_ARTICLES_TAB",
     "TWITTER_ARTICLE_VIEW": "TWITTER_ARTICLE_VIEW",
     "LONGFORM_COMPOSER": "LONGFORM_COMPOSER"
-  },
-  {
-    "MEDIA": "Media",
-    "GIFS": "GIFs",
-    "TWEETS": "Tweets"
-  },
-  {
-    "Public": "Public",
-    "Subscribers": "Subscribers"
   },
   {
     "DRAFTS": "Drafts",
