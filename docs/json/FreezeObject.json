@@ -1186,7 +1186,7 @@
   },
   {
     "memberships": [],
-    "fetchStatus": "o.ZP.NONE"
+    "fetchStatus": "r.ZP.NONE"
   },
   {
     "UPDATE_USERS": "UPDATE_USERS"
