@@ -10990,6 +10990,39 @@
     }
   },
   {
+    "n": "59396",
+    "exports": {
+      "queryId": "RCpF3x2UMMxxaJc8kvJZPQ",
+      "operationName": "ArticleEntitiesSlice",
+      "operationType": "query",
+      "metadata": {
+        "featureSwitches": [
+          "responsive_web_graphql_exclude_directive_enabled",
+          "verified_phone_label_enabled",
+          "responsive_web_graphql_skip_user_profile_image_extensions_enabled",
+          "responsive_web_graphql_timeline_navigation_enabled"
+        ],
+        "fieldToggles": [
+          "withAuxiliaryUserLabels"
+        ],
+        "featureSwitch": {
+          "responsive_web_graphql_exclude_directive_enabled": {
+            "value": "true"
+          },
+          "verified_phone_label_enabled": {
+            "value": "false"
+          },
+          "responsive_web_graphql_skip_user_profile_image_extensions_enabled": {
+            "value": "false"
+          },
+          "responsive_web_graphql_timeline_navigation_enabled": {
+            "value": "true"
+          }
+        }
+      }
+    }
+  },
+  {
     "n": "28088",
     "exports": {
       "queryId": "doYoXBCaW2YfaA8UGIJMMA",
@@ -16060,6 +16093,18 @@
     "exports": {
       "queryId": "lL5C8h6CPNu6m2eL-tx_pw",
       "operationName": "AddJobScreenQuery",
+      "operationType": "query",
+      "metadata": {
+        "featureSwitches": [],
+        "featureSwitch": {}
+      }
+    }
+  },
+  {
+    "n": "70509",
+    "exports": {
+      "queryId": "ZMPeonKucHe-CxDT_JiKfA",
+      "operationName": "AdvertisingScreenScheduledPromotionsQuery",
       "operationType": "query",
       "metadata": {
         "featureSwitches": [],
