@@ -1229,7 +1229,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | constant    | value     |
 |:------------|:----------|
 | memberships | []        |
-| fetchStatus | o.ZP.NONE |
+| fetchStatus | r.ZP.NONE |
 
 | constant     | value        |
 |:-------------|:-------------|
