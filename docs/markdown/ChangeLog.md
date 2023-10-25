@@ -2381,3 +2381,15 @@
 - responsive_web_verified_organizations_advertising_enabled<br>
 #### remove<br>
 - responsive_web_show_similar_posts_count<br>
+## 2023/10/25<br>
+### API<br>
+#### add<br>
+- CommunityQuery<br>
+#### remove<br>
+- CommunityAppBarButtonQuery<br>
+- PrimaryContentQuery<br>
+### Feature Switch<br>
+#### add<br>
+- responsive_web_twitter_article_block_limit<br>
+#### remove<br>
+- responsive_web_twitter_article_tweet_other_notes_enabled<br>
