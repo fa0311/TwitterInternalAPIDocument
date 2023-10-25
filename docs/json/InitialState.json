@@ -1682,6 +1682,9 @@
       "responsive_web_tweetdeck_menu_item_enabled": {
         "value": "true"
       },
+      "responsive_web_twitter_article_block_limit": {
+        "value": "10000"
+      },
       "responsive_web_twitter_article_character_limit": {
         "value": "100"
       },
@@ -1717,9 +1720,6 @@
       },
       "responsive_web_twitter_article_tweet_consumption_enabled": {
         "value": "false"
-      },
-      "responsive_web_twitter_article_tweet_other_notes_enabled": {
-        "value": "true"
       },
       "responsive_web_twitter_article_tweet_own_notes_enabled": {
         "value": "false"
@@ -3280,7 +3280,7 @@
           "value": "true"
         },
         "home_timeline_compact_app_bar": {
-          "value": "false"
+          "value": "true"
         },
         "home_timeline_like_reactivity_enabled": {
           "value": "true"
@@ -4135,7 +4135,7 @@
           "value": "false"
         },
         "responsive_web_themed_scrollbars": {
-          "value": "false"
+          "value": "true"
         },
         "responsive_web_third_party_sso_buttons_enabled": {
           "value": "true"
@@ -4169,6 +4169,9 @@
         },
         "responsive_web_tweetdeck_menu_item_enabled": {
           "value": "true"
+        },
+        "responsive_web_twitter_article_block_limit": {
+          "value": "10000"
         },
         "responsive_web_twitter_article_character_limit": {
           "value": "100"
@@ -4205,9 +4208,6 @@
         },
         "responsive_web_twitter_article_tweet_consumption_enabled": {
           "value": "false"
-        },
-        "responsive_web_twitter_article_tweet_other_notes_enabled": {
-          "value": "true"
         },
         "responsive_web_twitter_article_tweet_own_notes_enabled": {
           "value": "false"
@@ -5076,10 +5076,10 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "ef5dd47cb6344770043623967d7430dd"
+      "settingsVersion": "62509d68379d88a3a70ba2e74c971149"
     },
     "debug": {},
-    "featureSetToken": "74ee149c38763c0c5521edf7b0c8af7021be14d6",
+    "featureSetToken": "00765bbaa79eb36834785717ecde4b272cbd0556",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -5149,7 +5149,7 @@
     "country": "US",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "169818160030566020",
+    "guestId": "169826799562317051",
     "hasCommunityMemberships": "false",
     "language": "en",
     "oneFactorLoginEligibility": {
