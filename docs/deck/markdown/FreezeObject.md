@@ -1273,7 +1273,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | constant    | value     |
 |:------------|:----------|
 | memberships | []        |
-| fetchStatus | i.ZP.NONE |
+| fetchStatus | l.ZP.NONE |
 
 | constant     | value        |
 |:-------------|:-------------|
@@ -2957,8 +2957,8 @@ This document is entirely auto-generated and may contain errors.<br>
 | breakpoints         | l       |
 | componentDimensions | v       |
 | componentZIndices   | r       |
-| fontSizes           | _       |
-| fontSizesPx         | w       |
+| fontSizes           | w       |
+| fontSizesPx         | _       |
 | fontWeights         | b       |
 | lineHeights         | g       |
 | lineHeightsPx       | D       |

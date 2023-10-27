@@ -802,7 +802,7 @@
         "value": "true"
       },
       "home_timeline_compact_app_bar": {
-        "value": "false"
+        "value": "true"
       },
       "home_timeline_like_reactivity_enabled": {
         "value": "true"
@@ -1402,7 +1402,7 @@
         "value": "false"
       },
       "responsive_web_home_pinned_timelines_settings_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "responsive_web_impression_tracker_refactor_enabled": {
         "value": "true"
@@ -1641,9 +1641,6 @@
       "responsive_web_sso_redirect_enabled": {
         "value": "true"
       },
-      "responsive_web_ssr_footer_categorized_variant_enabled": {
-        "value": "true"
-      },
       "responsive_web_stripe_account_creation_enabled": {
         "value": "true"
       },
@@ -1657,7 +1654,7 @@
         "value": "false"
       },
       "responsive_web_themed_scrollbars": {
-        "value": "false"
+        "value": "true"
       },
       "responsive_web_third_party_sso_buttons_enabled": {
         "value": "true"
@@ -1691,6 +1688,9 @@
       },
       "responsive_web_tweetdeck_menu_item_enabled": {
         "value": "true"
+      },
+      "responsive_web_twitter_article_block_limit": {
+        "value": "10000"
       },
       "responsive_web_twitter_article_character_limit": {
         "value": "100"
@@ -1727,9 +1727,6 @@
       },
       "responsive_web_twitter_article_tweet_consumption_enabled": {
         "value": "false"
-      },
-      "responsive_web_twitter_article_tweet_other_notes_enabled": {
-        "value": "true"
       },
       "responsive_web_twitter_article_tweet_own_notes_enabled": {
         "value": "false"
@@ -1818,7 +1815,7 @@
         "value": "false"
       },
       "rweb_home_bookmark_in_action_bar_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "rweb_home_compact_timeline_enabled": {
         "value": "false"
@@ -3890,7 +3887,7 @@
           "value": "false"
         },
         "responsive_web_home_pinned_timelines_settings_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "responsive_web_impression_tracker_refactor_enabled": {
           "value": "true"
@@ -4129,9 +4126,6 @@
         "responsive_web_sso_redirect_enabled": {
           "value": "true"
         },
-        "responsive_web_ssr_footer_categorized_variant_enabled": {
-          "value": "true"
-        },
         "responsive_web_stripe_account_creation_enabled": {
           "value": "true"
         },
@@ -4180,6 +4174,9 @@
         "responsive_web_tweetdeck_menu_item_enabled": {
           "value": "true"
         },
+        "responsive_web_twitter_article_block_limit": {
+          "value": "10000"
+        },
         "responsive_web_twitter_article_character_limit": {
           "value": "100"
         },
@@ -4215,9 +4212,6 @@
         },
         "responsive_web_twitter_article_tweet_consumption_enabled": {
           "value": "false"
-        },
-        "responsive_web_twitter_article_tweet_other_notes_enabled": {
-          "value": "true"
         },
         "responsive_web_twitter_article_tweet_own_notes_enabled": {
           "value": "false"
@@ -4304,7 +4298,7 @@
           "value": "true"
         },
         "rweb_home_bookmark_in_action_bar_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "rweb_home_compact_timeline_enabled": {
           "value": "false"
@@ -4606,7 +4600,7 @@
           "value": "BlueVerifiedPlus"
         },
         "subscriptions_premium_tiers_encrypted_dms_gating_update_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "subscriptions_premium_tiers_marketing_page_enabled": {
           "value": "false"
@@ -5084,10 +5078,10 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "fb44e46ddd04f2a8d3aee1cd57a26020"
+      "settingsVersion": "7c465d0ac462427af799cdebc7bc69c6"
     },
     "debug": {},
-    "featureSetToken": "74ee149c38763c0c5521edf7b0c8af7021be14d6",
+    "featureSetToken": "89fe708c4f9eeffe1639e8885c9fe84926d30e25",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -5157,7 +5151,7 @@
     "country": "US",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "169826825668825251",
+    "guestId": "169835471887323031",
     "hasCommunityMemberships": "false",
     "language": "en",
     "oneFactorLoginEligibility": {
