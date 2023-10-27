@@ -4507,8 +4507,8 @@
       "features": {}
     },
     "TwitterBlueSignUpV2Query": {
-      "url": "https://twitter.com/i/api/graphql/xU-wKi9U_jjBGuhzqop3kw/TwitterBlueSignUpV2Query",
-      "queryId": "xU-wKi9U_jjBGuhzqop3kw",
+      "url": "https://twitter.com/i/api/graphql/CKPN9Q53WtC5Gtj_im0ZEw/TwitterBlueSignUpV2Query",
+      "queryId": "CKPN9Q53WtC5Gtj_im0ZEw",
       "method": "GET",
       "features": {}
     },
@@ -4730,6 +4730,12 @@
     "AddJobScreenQuery": {
       "url": "https://twitter.com/i/api/graphql/lL5C8h6CPNu6m2eL-tx_pw/AddJobScreenQuery",
       "queryId": "lL5C8h6CPNu6m2eL-tx_pw",
+      "method": "GET",
+      "features": {}
+    },
+    "AdvertisingScreenPromotionEligibilityQuery": {
+      "url": "https://twitter.com/i/api/graphql/X3QZUPPQFA35Xwu6jsU_mA/AdvertisingScreenPromotionEligibilityQuery",
+      "queryId": "X3QZUPPQFA35Xwu6jsU_mA",
       "method": "GET",
       "features": {}
     },
