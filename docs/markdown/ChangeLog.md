@@ -2404,3 +2404,14 @@
 - None<br>
 #### remove<br>
 - responsive_web_ssr_footer_categorized_variant_enabled<br>
+## 2023/10/27<br>
+### API<br>
+#### add<br>
+- AdvertisingScreenPromotionEligibilityQuery<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- responsive_web_themed_scrollbars<br>

@@ -15683,7 +15683,7 @@
   {
     "n": "99952",
     "exports": {
-      "queryId": "xU-wKi9U_jjBGuhzqop3kw",
+      "queryId": "CKPN9Q53WtC5Gtj_im0ZEw",
       "operationName": "TwitterBlueSignUpV2Query",
       "operationType": "query",
       "metadata": {
@@ -16183,6 +16183,18 @@
     "exports": {
       "queryId": "lL5C8h6CPNu6m2eL-tx_pw",
       "operationName": "AddJobScreenQuery",
+      "operationType": "query",
+      "metadata": {
+        "featureSwitches": [],
+        "featureSwitch": {}
+      }
+    }
+  },
+  {
+    "n": "30278",
+    "exports": {
+      "queryId": "X3QZUPPQFA35Xwu6jsU_mA",
+      "operationName": "AdvertisingScreenPromotionEligibilityQuery",
       "operationType": "query",
       "metadata": {
         "featureSwitches": [],

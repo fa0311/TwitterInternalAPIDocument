@@ -7336,7 +7336,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## TwitterBlueSignUpV2Query<br>
-Request URL: `https://twitter.com/i/api/graphql/xU-wKi9U_jjBGuhzqop3kw/TwitterBlueSignUpV2Query`<br>
+Request URL: `https://twitter.com/i/api/graphql/CKPN9Q53WtC5Gtj_im0ZEw/TwitterBlueSignUpV2Query`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -7720,6 +7720,17 @@ Login Required: `...`<br>
 `None`<br>
 ## AddJobScreenQuery<br>
 Request URL: `https://twitter.com/i/api/graphql/lL5C8h6CPNu6m2eL-tx_pw/AddJobScreenQuery`<br>
+Request Method: `GET`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
+## AdvertisingScreenPromotionEligibilityQuery<br>
+Request URL: `https://twitter.com/i/api/graphql/X3QZUPPQFA35Xwu6jsU_mA/AdvertisingScreenPromotionEligibilityQuery`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
