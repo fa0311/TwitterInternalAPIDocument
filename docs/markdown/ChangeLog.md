@@ -2415,3 +2415,15 @@
 - None<br>
 #### remove<br>
 - responsive_web_themed_scrollbars<br>
+## 2023/10/28<br>
+### API<br>
+#### add<br>
+- CommunityMediaTimeline<br>
+#### remove<br>
+- ExtendedProfileSettingsMutation<br>
+- ExtendedProfileSettingsQuery<br>
+### Feature Switch<br>
+#### add<br>
+- xprofile_emojis_enabled<br>
+#### remove<br>
+- None<br>
