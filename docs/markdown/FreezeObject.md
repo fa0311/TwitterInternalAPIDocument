@@ -1791,6 +1791,7 @@ This document is entirely auto-generated and may contain errors.<br>
 |:-------------|:-------------|
 | TWEMOJI      | TWEMOJI      |
 | INLINE_IMAGE | INLINE_IMAGE |
+| MENTION      | MENTION      |
 
 | constant          |   value |
 |:------------------|--------:|
@@ -4689,6 +4690,7 @@ This document is entirely auto-generated and may contain errors.<br>
 |:-----------|:--------|
 | ForYou     | ranked  |
 | Latest     | latest  |
+| Media      | media   |
 
 | constant                                       | value                                          |
 |:-----------------------------------------------|:-----------------------------------------------|
@@ -4804,14 +4806,14 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant                  | value                                   |
 |:--------------------------|:----------------------------------------|
-| all                       | {'icon': 'as', 'label': 'C().i8ea6d4e'} |
-| community                 | {'icon': 'rs', 'label': 'C().a176d0d8'} |
-| by_invitation             | {'icon': 'os', 'label': 'C().gc7e52ca'} |
-| subscribers               | {'icon': 'as', 'label': 'C().bf8d98f4'} |
-| community_members         | {'icon': 'ls', 'label': 'C().i13be5a0'} |
-| super_followers_exclusive | {'icon': 'as', 'label': 'C().ebe1d850'} |
-| trusted_friends_tweet     | {'icon': 'ds', 'label': 'u'}            |
-| verified                  | {'icon': 'cs', 'label': 'C().b121464a'} |
+| all                       | {'icon': 'os', 'label': 'C().i8ea6d4e'} |
+| community                 | {'icon': 'ls', 'label': 'C().a176d0d8'} |
+| by_invitation             | {'icon': 'rs', 'label': 'C().gc7e52ca'} |
+| subscribers               | {'icon': 'os', 'label': 'C().bf8d98f4'} |
+| community_members         | {'icon': 'ds', 'label': 'C().i13be5a0'} |
+| super_followers_exclusive | {'icon': 'os', 'label': 'C().ebe1d850'} |
+| trusted_friends_tweet     | {'icon': 'cs', 'label': 'u'}            |
+| verified                  | {'icon': 'us', 'label': 'C().b121464a'} |
 
 | constant   | value   |
 |:-----------|:--------|
@@ -6687,7 +6689,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | science_engineering  | D       |
 | medical              | w       |
 | construction_trades  | S       |
-| other                | z       |
+| other                | E       |
 
 | constant    | value   |
 |:------------|:--------|
@@ -6697,13 +6699,13 @@ This document is entirely auto-generated and may contain errors.<br>
 | senior      | I       |
 | lead        | R       |
 | manager     | _       |
-| executive   | j       |
+| executive   | T       |
 
 | constant   | value                              |
 |:-----------|:-----------------------------------|
-| onsite     | {'label': 'Z', 'description': 'C'} |
+| onsite     | {'label': 'P', 'description': 'C'} |
 | remote     | {'label': 'B', 'description': 'F'} |
-| hybrid     | {'label': 'P', 'description': 'M'} |
+| hybrid     | {'label': 'Z', 'description': 'M'} |
 
 | constant      | value         |
 |:--------------|:--------------|
@@ -6839,11 +6841,11 @@ This document is entirely auto-generated and may contain errors.<br>
 ```
 ```internal process
 # Error
-{"default":()=>t().b7363b66,"with_replies":()=>t().b7363b66,"superfollows":()=>t().ce659062,"highlights":()=>t().f1e98cc2}
+{"default":()=>s().b7363b66,"with_replies":()=>s().b7363b66,"superfollows":()=>s().ce659062,"highlights":()=>s().f1e98cc2}
 ```
 ```internal process
 # Error
-{"default":()=>t().d1e5e328,"with_replies":()=>t().d1e5e328,"superfollows":()=>t().hb26a1fe,"highlights":()=>t().b7c3572e}
+{"default":()=>s().d1e5e328,"with_replies":()=>s().d1e5e328,"superfollows":()=>s().hb26a1fe,"highlights":()=>s().b7c3572e}
 ```
 ```internal process
 # Error
@@ -6851,7 +6853,7 @@ This document is entirely auto-generated and may contain errors.<br>
 ```
 ```internal process
 # Error
-{"default":()=>t().f34dfc18,"with_replies":()=>t().f34dfc18,"superfollows":()=>t().h9346040}
+{"default":()=>s().f34dfc18,"with_replies":()=>s().f34dfc18,"superfollows":()=>s().h9346040}
 ```
 ```internal process
 # Error
