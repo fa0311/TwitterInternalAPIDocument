@@ -1653,9 +1653,6 @@
       "responsive_web_suppress_app_button_banner_suppressed": {
         "value": "false"
       },
-      "responsive_web_themed_scrollbars": {
-        "value": "true"
-      },
       "responsive_web_third_party_sso_buttons_enabled": {
         "value": "true"
       },
@@ -2117,10 +2114,10 @@
         "value": "BlueVerifiedPlus"
       },
       "subscriptions_premium_tiers_encrypted_dms_gating_update_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "subscriptions_premium_tiers_marketing_page_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "subscriptions_premium_tiers_switching_enabled": {
         "value": "false"
@@ -2589,6 +2586,9 @@
         "value": "false"
       },
       "xprofile_editing_enabled": {
+        "value": "false"
+      },
+      "xprofile_emojis_enabled": {
         "value": "false"
       }
     },
@@ -4138,9 +4138,6 @@
         "responsive_web_suppress_app_button_banner_suppressed": {
           "value": "false"
         },
-        "responsive_web_themed_scrollbars": {
-          "value": "true"
-        },
         "responsive_web_third_party_sso_buttons_enabled": {
           "value": "true"
         },
@@ -5073,15 +5070,18 @@
         },
         "xprofile_editing_enabled": {
           "value": "false"
+        },
+        "xprofile_emojis_enabled": {
+          "value": "false"
         }
       },
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "008f50141c9590e9b4078130e2486c52"
+      "settingsVersion": "1b191205996aab54873031dcbe7cbd28"
     },
     "debug": {},
-    "featureSetToken": "89fe708c4f9eeffe1639e8885c9fe84926d30e25",
+    "featureSetToken": "5724e05a34a3d05a84ada0c21e418c017df061ec",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -5151,7 +5151,7 @@
     "country": "US",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "169861376098515211",
+    "guestId": "169870021460221910",
     "hasCommunityMemberships": "false",
     "language": "en",
     "oneFactorLoginEligibility": {
