@@ -1695,3 +1695,17 @@
 #### remove<br>
 - responsive_web_ssr_footer_categorized_variant_enabled<br>
 - responsive_web_twitter_article_tweet_other_notes_enabled<br>
+## 2023/10/30<br>
+### API<br>
+#### add<br>
+- CommunityMediaTimeline<br>
+- DMPinnedInboxQuery<br>
+- AdvertisingScreenPromotionEligibilityQuery<br>
+#### remove<br>
+- ExtendedProfileSettingsMutation<br>
+- ExtendedProfileSettingsQuery<br>
+### Feature Switch<br>
+#### add<br>
+- xprofile_emojis_enabled<br>
+#### remove<br>
+- responsive_web_themed_scrollbars<br>
