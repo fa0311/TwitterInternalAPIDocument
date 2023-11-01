@@ -2427,3 +2427,14 @@
 - xprofile_emojis_enabled<br>
 #### remove<br>
 - None<br>
+## 2023/11/01<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- tweet_limited_actions_config_community_tweet_non_member_closed_community<br>
+#### remove<br>
+- responsive_web_twitter_article_max_times_show_tweet_banner<br>
