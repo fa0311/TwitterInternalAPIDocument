@@ -556,6 +556,9 @@
       "dash_region_specific_de_media_transparency_items_enabled": {
         "value": "false"
       },
+      "dm_bulk_delete_enabled": {
+        "value": "false"
+      },
       "dm_conversation_labels_max_pinned_count": {
         "value": "6"
       },
@@ -1818,6 +1821,9 @@
       "rweb_lists_discovery_list_mixer_enabled": {
         "value": "true"
       },
+      "rweb_master_detail_enabled": {
+        "value": "false"
+      },
       "rweb_panning_nav_behavior": {
         "value": "true"
       },
@@ -2364,6 +2370,19 @@
         "value": [
           "embed",
           "like",
+          "pin_to_profile",
+          "react",
+          "reply",
+          "reply_down_vote",
+          "retweet",
+          "share_tweet_via",
+          "vote_on_poll",
+          "highlight"
+        ]
+      },
+      "tweet_limited_actions_config_community_tweet_non_member_public_community": {
+        "value": [
+          "embed",
           "pin_to_profile",
           "react",
           "reply",
@@ -3050,6 +3069,9 @@
           "value": "false"
         },
         "dash_region_specific_de_media_transparency_items_enabled": {
+          "value": "false"
+        },
+        "dm_bulk_delete_enabled": {
           "value": "false"
         },
         "dm_conversation_labels_max_pinned_count": {
@@ -4314,6 +4336,9 @@
         "rweb_lists_discovery_list_mixer_enabled": {
           "value": "true"
         },
+        "rweb_master_detail_enabled": {
+          "value": "false"
+        },
         "rweb_panning_nav_behavior": {
           "value": "true"
         },
@@ -4870,6 +4895,19 @@
             "highlight"
           ]
         },
+        "tweet_limited_actions_config_community_tweet_non_member_public_community": {
+          "value": [
+            "embed",
+            "pin_to_profile",
+            "react",
+            "reply",
+            "reply_down_vote",
+            "retweet",
+            "share_tweet_via",
+            "vote_on_poll",
+            "highlight"
+          ]
+        },
         "tweet_limited_actions_config_disable_state_media_autoplay": {
           "value": [
             "autoplay"
@@ -5100,7 +5138,7 @@
       "settingsVersion": "ef5dd47cb6344770043623967d7430dd"
     },
     "debug": {},
-    "featureSetToken": "cc8a1e6c0db8fc691aeafdf71fe54a6e2dc1f4f2",
+    "featureSetToken": "deb2e2a24d556b8f9ccda26d20a74c501956a3bb",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -5170,7 +5208,7 @@
     "country": "US",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "169887281871772152",
+    "guestId": "169895921654848820",
     "hasCommunityMemberships": "false",
     "language": "en",
     "oneFactorLoginEligibility": {
