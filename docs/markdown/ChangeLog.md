@@ -2438,3 +2438,19 @@
 - tweet_limited_actions_config_community_tweet_non_member_closed_community<br>
 #### remove<br>
 - responsive_web_twitter_article_max_times_show_tweet_banner<br>
+## 2023/11/02<br>
+### API<br>
+#### add<br>
+- BroadcastQuery<br>
+- BroadcastQuery<br>
+- BroadcastQuery<br>
+- AdvertisingScreenActivateScheduledPromotionMutation<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- dm_bulk_delete_enabled<br>
+- rweb_master_detail_enabled<br>
+- tweet_limited_actions_config_community_tweet_non_member_public_community<br>
+#### remove<br>
+- None<br>
