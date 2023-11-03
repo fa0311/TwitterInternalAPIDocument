@@ -2815,6 +2815,12 @@
         "responsive_web_enhance_cards_enabled": false
       }
     },
+    "BroadcastQuery": {
+      "url": "https://twitter.com/i/api/graphql/wNtvdKiWYMaCsWefXNE4yw/BroadcastQuery",
+      "queryId": "wNtvdKiWYMaCsWefXNE4yw",
+      "method": "GET",
+      "features": {}
+    },
     "DmAllSearchSlice": {
       "url": "https://twitter.com/i/api/graphql/jQH2jDOrp0iGMO6mYgNAqA/DmAllSearchSlice",
       "queryId": "jQH2jDOrp0iGMO6mYgNAqA",
@@ -4747,6 +4753,12 @@
       "url": "https://twitter.com/i/api/graphql/lL5C8h6CPNu6m2eL-tx_pw/AddJobScreenQuery",
       "queryId": "lL5C8h6CPNu6m2eL-tx_pw",
       "method": "GET",
+      "features": {}
+    },
+    "AdvertisingScreenActivateScheduledPromotionMutation": {
+      "url": "https://twitter.com/i/api/graphql/jgA1dOMGmCQK3vOQemxkaw/AdvertisingScreenActivateScheduledPromotionMutation",
+      "queryId": "jgA1dOMGmCQK3vOQemxkaw",
+      "method": "POST",
       "features": {}
     },
     "AdvertisingScreenPromotionEligibilityQuery": {

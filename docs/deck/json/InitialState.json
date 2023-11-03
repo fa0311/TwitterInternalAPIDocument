@@ -4309,6 +4309,9 @@
         "rweb_lists_discovery_list_mixer_enabled": {
           "value": "true"
         },
+        "rweb_master_detail_enabled": {
+          "value": "false"
+        },
         "rweb_panning_nav_behavior": {
           "value": "true"
         },
@@ -5078,7 +5081,7 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "564d45314a7668b389d974898c0da239"
+      "settingsVersion": "0d01acb3711608ee553fc6192886d695"
     },
     "debug": {},
     "featureSetToken": "632bda3ff7e2773376a90d14fa00c136491ae95e",
@@ -5151,7 +5154,7 @@
     "country": "US",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "169887307935520587",
+    "guestId": "169895948533646503",
     "hasCommunityMemberships": "false",
     "language": "en",
     "oneFactorLoginEligibility": {

@@ -3858,6 +3858,17 @@ Login Required: `...`<br>
 
 #### queryId<br>
 `None`<br>
+## BroadcastQuery<br>
+Request URL: `https://twitter.com/i/api/graphql/wNtvdKiWYMaCsWefXNE4yw/BroadcastQuery`<br>
+Request Method: `GET`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
 ## BookmarkFolderTimeline<br>
 Request URL: `https://twitter.com/i/api/graphql/0UbS1Ma4sYMpHn2pc9QIAQ/BookmarkFolderTimeline`<br>
 Request Method: `GET`<br>
@@ -4740,6 +4751,17 @@ Login Required: `...`<br>
 `None`<br>
 #### queryId<br>
 `None`<br>
+## BroadcastQuery<br>
+Request URL: `https://twitter.com/i/api/graphql/wNtvdKiWYMaCsWefXNE4yw/BroadcastQuery`<br>
+Request Method: `GET`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
 ## LiveCommerceItemsSlice<br>
 Request URL: `https://twitter.com/i/api/graphql/-lnNX56S2YrZYrLzbccFAQ/LiveCommerceItemsSlice`<br>
 Request Method: `GET`<br>
@@ -5388,6 +5410,17 @@ Login Required: `...`<br>
 `None`<br>
 ## RitoSuggestedActionsFacePile<br>
 Request URL: `https://twitter.com/i/api/graphql/GnQKeEdL1LyeK3dTQCS1yw/RitoSuggestedActionsFacePile`<br>
+Request Method: `GET`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
+## BroadcastQuery<br>
+Request URL: `https://twitter.com/i/api/graphql/wNtvdKiWYMaCsWefXNE4yw/BroadcastQuery`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -7902,6 +7935,17 @@ Login Required: `...`<br>
 ## AddJobScreenQuery<br>
 Request URL: `https://twitter.com/i/api/graphql/lL5C8h6CPNu6m2eL-tx_pw/AddJobScreenQuery`<br>
 Request Method: `GET`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
+## AdvertisingScreenActivateScheduledPromotionMutation<br>
+Request URL: `https://twitter.com/i/api/graphql/jgA1dOMGmCQK3vOQemxkaw/AdvertisingScreenActivateScheduledPromotionMutation`<br>
+Request Method: `POST`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
