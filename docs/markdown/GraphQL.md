@@ -5419,17 +5419,6 @@ Login Required: `...`<br>
 `None`<br>
 #### queryId<br>
 `None`<br>
-## BroadcastQuery<br>
-Request URL: `https://twitter.com/i/api/graphql/wNtvdKiWYMaCsWefXNE4yw/BroadcastQuery`<br>
-Request Method: `GET`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-`None`<br>
-#### queryId<br>
-`None`<br>
 ## ImmersiveMedia<br>
 Request URL: `https://twitter.com/i/api/graphql/tWhKla0aq-EYMbGobiXn8Q/ImmersiveMedia`<br>
 Request Method: `GET`<br>
@@ -6558,6 +6547,28 @@ Login Required: `...`<br>
 ## DeleteCommunityMutation<br>
 Request URL: `https://twitter.com/i/api/graphql/zHWYNyObppV8ZXY0o3oHTw/DeleteCommunityMutation`<br>
 Request Method: `POST`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
+## EditHashtagsMutation<br>
+Request URL: `https://twitter.com/i/api/graphql/VVjdr-DfopcLjbCMcHFTeQ/EditHashtagsMutation`<br>
+Request Method: `POST`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
+## EditHashtagsQuery<br>
+Request URL: `https://twitter.com/i/api/graphql/BrxNyEqlSHU3dDSOgomqFA/EditHashtagsQuery`<br>
+Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
