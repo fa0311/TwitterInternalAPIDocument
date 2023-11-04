@@ -3986,6 +3986,18 @@
       "method": "POST",
       "features": {}
     },
+    "EditHashtagsMutation": {
+      "url": "https://twitter.com/i/api/graphql/VVjdr-DfopcLjbCMcHFTeQ/EditHashtagsMutation",
+      "queryId": "VVjdr-DfopcLjbCMcHFTeQ",
+      "method": "POST",
+      "features": {}
+    },
+    "EditHashtagsQuery": {
+      "url": "https://twitter.com/i/api/graphql/BrxNyEqlSHU3dDSOgomqFA/EditHashtagsQuery",
+      "queryId": "BrxNyEqlSHU3dDSOgomqFA",
+      "method": "GET",
+      "features": {}
+    },
     "EditMembershipTypeQuery": {
       "url": "https://twitter.com/i/api/graphql/ruZM8GnBs_0uuSjWLF6nkw/EditMembershipTypeQuery",
       "queryId": "ruZM8GnBs_0uuSjWLF6nkw",
