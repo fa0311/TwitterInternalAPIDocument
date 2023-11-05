@@ -2454,3 +2454,15 @@
 - tweet_limited_actions_config_community_tweet_non_member_public_community<br>
 #### remove<br>
 - None<br>
+## 2023/11/04<br>
+### API<br>
+#### add<br>
+- EditHashtagsMutation<br>
+- EditHashtagsQuery<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- c9s_community_hashtags_enabled<br>
+#### remove<br>
+- None<br>
