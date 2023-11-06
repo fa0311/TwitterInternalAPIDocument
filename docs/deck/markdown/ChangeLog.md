@@ -1709,3 +1709,21 @@
 - xprofile_emojis_enabled<br>
 #### remove<br>
 - responsive_web_themed_scrollbars<br>
+## 2023/11/06<br>
+### API<br>
+#### add<br>
+- BroadcastQuery<br>
+- EditHashtagsMutation<br>
+- EditHashtagsQuery<br>
+- AdvertisingScreenActivateScheduledPromotionMutation<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- c9s_community_hashtags_enabled<br>
+- dm_bulk_delete_enabled<br>
+- rweb_master_detail_enabled<br>
+- tweet_limited_actions_config_community_tweet_non_member_closed_community<br>
+- tweet_limited_actions_config_community_tweet_non_member_public_community<br>
+#### remove<br>
+- responsive_web_twitter_article_max_times_show_tweet_banner<br>
