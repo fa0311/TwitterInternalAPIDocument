@@ -118,9 +118,11 @@ Request Method: `POST`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key             | type   | variable   |
-|:----------------|:-------|:-----------|
-| articleEntityId | ...    | i          |
+| key               | type   | variable                               |
+|:------------------|:-------|:---------------------------------------|
+| articleEntityId   | ...    | i                                      |
+| visibilitySetting | ...    | s                                      |
+| ...o&&            | ...    | {'conversationControl': {'mode': 'o'}} |
 
 #### features<br>
 `None`<br>
@@ -406,6 +408,17 @@ Login Required: `...`<br>
 | responsive_web_media_download_video_enabled                             | boolean | False      |
 | responsive_web_enhance_cards_enabled                                    | boolean | False      |
 
+#### queryId<br>
+`None`<br>
+## BroadcastQuery<br>
+Request URL: `https://twitter.com/i/api/graphql/wNtvdKiWYMaCsWefXNE4yw/BroadcastQuery`<br>
+Request Method: `GET`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
 #### queryId<br>
 `None`<br>
 ## CombinedLists<br>
@@ -1035,7 +1048,7 @@ Login Required: `...`<br>
 |:-------------|:-------|:--------------|
 | communityId  | ...    | t.communityId |
 | answer       | ...    | t.answer      |
-| ...()(0,l.S) | ...    | _             |
+| ...()(0,r.S) | ...    | _             |
 
 #### features<br>
 | key                                                               | type    | variable   |
@@ -2399,7 +2412,7 @@ Login Required: `...`<br>
 #### variables<br>
 ```internal process
 # Error
-{"rawQuery":i||"","count":"t","cursor":"a","querySource":"d","...()(0,r.d)":"_"}
+{"rawQuery":i||"","count":"t","cursor":"a","querySource":"d","...()(0,l.d)":"_"}
 ```
 #### features<br>
 | key                                                                     | type    | variable   |
@@ -2646,7 +2659,7 @@ Login Required: `...`<br>
 | key              | type   | variable   |
 |:-----------------|:-------|:-----------|
 | twitterArticleId | ...    | r          |
-| title            | ...    | n          |
+| title            | ...    | a          |
 | ...()(0,l.d)     | ...    | _          |
 
 #### features<br>
@@ -2718,9 +2731,9 @@ Login Required: `...`<br>
 #### variables<br>
 | key          | type   | variable   |
 |:-------------|:-------|:-----------|
-| rest_id      | ...    | r          |
+| rest_id      | ...    | l          |
 | cursor       | ...    | d          |
-| ...()(0,l.d) | ...    | _          |
+| ...()(0,r.d) | ...    | _          |
 
 #### features<br>
 | key                                                                     | type    | variable   |
@@ -3618,10 +3631,11 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key              | type   | variable   |
-|:-----------------|:-------|:-----------|
-| twitterArticleId | ...    | n          |
-| ...()(0,l.d)     | ...    | _          |
+| key          | type   | variable   |
+|:-------------|:-------|:-----------|
+| count        | ...    | 10         |
+| ...a         | ...    | _          |
+| ...()(0,o.S) | ...    | _          |
 
 #### features<br>
 | key                                                                     | type    | variable   |
@@ -6076,6 +6090,28 @@ Login Required: `...`<br>
 `None`<br>
 #### queryId<br>
 `None`<br>
+## EditHashtagsMutation<br>
+Request URL: `https://twitter.com/i/api/graphql/VVjdr-DfopcLjbCMcHFTeQ/EditHashtagsMutation`<br>
+Request Method: `POST`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
+## EditHashtagsQuery<br>
+Request URL: `https://twitter.com/i/api/graphql/BrxNyEqlSHU3dDSOgomqFA/EditHashtagsQuery`<br>
+Request Method: `GET`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
 ## EditMembershipTypeQuery<br>
 Request URL: `https://twitter.com/i/api/graphql/ruZM8GnBs_0uuSjWLF6nkw/EditMembershipTypeQuery`<br>
 Request Method: `GET`<br>
@@ -7464,6 +7500,17 @@ Login Required: `...`<br>
 `None`<br>
 #### queryId<br>
 `None`<br>
+## AdvertisingScreenActivateScheduledPromotionMutation<br>
+Request URL: `https://twitter.com/i/api/graphql/jgA1dOMGmCQK3vOQemxkaw/AdvertisingScreenActivateScheduledPromotionMutation`<br>
+Request Method: `POST`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
 ## AdvertisingScreenPromotionEligibilityQuery<br>
 Request URL: `https://twitter.com/i/api/graphql/X3QZUPPQFA35Xwu6jsU_mA/AdvertisingScreenPromotionEligibilityQuery`<br>
 Request Method: `GET`<br>
@@ -7745,7 +7792,11 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-`None`<br>
+| key          | type   | variable   |
+|:-------------|:-------|:-----------|
+| note_id      | ...    | a.note_id  |
+| ...()(0,o.S) | ...    | _          |
+
 #### features<br>
 `None`<br>
 #### queryId<br>
