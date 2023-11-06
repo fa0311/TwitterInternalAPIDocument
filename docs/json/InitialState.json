@@ -95,11 +95,6 @@
       "entities": {},
       "errors": {},
       "fetchStatus": {}
-    },
-    "imageCache": {
-      "entities": {},
-      "errors": {},
-      "fetchStatus": {}
     }
   },
   "featureSwitch": {
@@ -4330,6 +4325,9 @@
         "rweb_home_bookmark_in_action_bar_enabled": {
           "value": "true"
         },
+        "rweb_home_compact_inline_composer_enabled": {
+          "value": "false"
+        },
         "rweb_home_compact_timeline_enabled": {
           "value": "false"
         },
@@ -5141,7 +5139,7 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "ef5dd47cb6344770043623967d7430dd"
+      "settingsVersion": "2c95ee94020d10601f83c9965098d1e4"
     },
     "debug": {},
     "featureSetToken": "b67834f7b105620c9957951b653e5e0d1e3fc5e7",
@@ -5214,7 +5212,7 @@
     "country": "US",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "169921837270379586",
+    "guestId": "169930481830666295",
     "hasCommunityMemberships": "false",
     "language": "en",
     "oneFactorLoginEligibility": {
@@ -5225,12 +5223,6 @@
   "developer": {
     "dtabBarInfo": {
       "hide": "false"
-    }
-  },
-  "ads": {
-    "typeahead": {
-      "targetingLocation": {},
-      "forecastAudience": {}
     }
   }
 }
