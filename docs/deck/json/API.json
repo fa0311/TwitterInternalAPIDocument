@@ -275,6 +275,12 @@
         "responsive_web_enhance_cards_enabled": false
       }
     },
+    "BroadcastQuery": {
+      "url": "https://twitter.com/i/api/graphql/wNtvdKiWYMaCsWefXNE4yw/BroadcastQuery",
+      "queryId": "wNtvdKiWYMaCsWefXNE4yw",
+      "method": "GET",
+      "features": {}
+    },
     "CombinedLists": {
       "url": "https://twitter.com/i/api/graphql/2Om3ms39Pmob-N2yldhqlQ/CombinedLists",
       "queryId": "2Om3ms39Pmob-N2yldhqlQ",
@@ -4126,6 +4132,18 @@
       "method": "POST",
       "features": {}
     },
+    "EditHashtagsMutation": {
+      "url": "https://twitter.com/i/api/graphql/VVjdr-DfopcLjbCMcHFTeQ/EditHashtagsMutation",
+      "queryId": "VVjdr-DfopcLjbCMcHFTeQ",
+      "method": "POST",
+      "features": {}
+    },
+    "EditHashtagsQuery": {
+      "url": "https://twitter.com/i/api/graphql/BrxNyEqlSHU3dDSOgomqFA/EditHashtagsQuery",
+      "queryId": "BrxNyEqlSHU3dDSOgomqFA",
+      "method": "GET",
+      "features": {}
+    },
     "EditMembershipTypeQuery": {
       "url": "https://twitter.com/i/api/graphql/ruZM8GnBs_0uuSjWLF6nkw/EditMembershipTypeQuery",
       "queryId": "ruZM8GnBs_0uuSjWLF6nkw",
@@ -4899,6 +4917,12 @@
       "url": "https://twitter.com/i/api/graphql/lL5C8h6CPNu6m2eL-tx_pw/AddJobScreenQuery",
       "queryId": "lL5C8h6CPNu6m2eL-tx_pw",
       "method": "GET",
+      "features": {}
+    },
+    "AdvertisingScreenActivateScheduledPromotionMutation": {
+      "url": "https://twitter.com/i/api/graphql/jgA1dOMGmCQK3vOQemxkaw/AdvertisingScreenActivateScheduledPromotionMutation",
+      "queryId": "jgA1dOMGmCQK3vOQemxkaw",
+      "method": "POST",
       "features": {}
     },
     "AdvertisingScreenPromotionEligibilityQuery": {
