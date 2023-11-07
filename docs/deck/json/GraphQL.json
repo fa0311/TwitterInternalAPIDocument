@@ -223,10 +223,16 @@
         "featureSwitch": {}
       }
     },
-    "func_name": "w",
-    "func_name_init": "_",
+    "func_name": "_",
+    "func_name_init": "w",
     "query": {
-      "articleEntityId": "i"
+      "articleEntityId": "i",
+      "visibilitySetting": "s",
+      "...o&&": {
+        "conversationControl": {
+          "mode": "o"
+        }
+      }
     }
   },
   {
@@ -280,7 +286,7 @@
         "featureSwitch": {}
       }
     },
-    "func_name": "l",
+    "func_name": "r",
     "func_name_init": "d",
     "query": {}
   },
@@ -936,6 +942,19 @@
             "value": "false"
           }
         }
+      }
+    }
+  },
+  {
+    "n": "70121",
+    "exports": {
+      "queryId": "wNtvdKiWYMaCsWefXNE4yw",
+      "operationName": "BroadcastQuery",
+      "operationType": "query",
+      "metadata": {
+        "featureSwitches": [],
+        "fieldToggles": [],
+        "featureSwitch": {}
       }
     }
   },
@@ -1890,7 +1909,7 @@
       }
     },
     "func_name": "S",
-    "func_name_init": "w",
+    "func_name_init": "_",
     "query": {
       "communityId": "t.communityId",
       "theme": "t.theme",
@@ -2519,12 +2538,12 @@
         }
       }
     },
-    "func_name": "j",
-    "func_name_init": "V",
+    "func_name": "V",
+    "func_name_init": "j",
     "query": {
       "communityId": "t.communityId",
       "answer": "t.answer",
-      "...()(0,l.S)": "_"
+      "...()(0,r.S)": "_"
     }
   },
   {
@@ -5626,7 +5645,7 @@
     },
     "func_name": "b",
     "func_name_init": "c",
-    "query": "{\"rawQuery\":i||\"\",\"count\":\"t\",\"cursor\":\"a\",\"querySource\":\"d\",\"...()(0,r.d)\":\"_\"}"
+    "query": "{\"rawQuery\":i||\"\",\"count\":\"t\",\"cursor\":\"a\",\"querySource\":\"d\",\"...()(0,l.d)\":\"_\"}"
   },
   {
     "n": "62359",
@@ -6266,7 +6285,7 @@
     "func_name_init": "T",
     "query": {
       "twitterArticleId": "r",
-      "title": "n",
+      "title": "a",
       "...()(0,l.d)": "_"
     }
   },
@@ -6474,11 +6493,11 @@
       }
     },
     "func_name": "i",
-    "func_name_init": "r",
+    "func_name_init": "l",
     "query": {
-      "rest_id": "r",
+      "rest_id": "l",
       "cursor": "d",
-      "...()(0,l.d)": "_"
+      "...()(0,r.d)": "_"
     }
   },
   {
@@ -8658,8 +8677,9 @@
     "func_name": "b",
     "func_name_init": "c",
     "query": {
-      "twitterArticleId": "n",
-      "...()(0,l.d)": "_"
+      "count": "10",
+      "...a": "_",
+      "...()(0,o.S)": "_"
     }
   },
   {
@@ -13792,6 +13812,30 @@
     }
   },
   {
+    "n": "80488",
+    "exports": {
+      "queryId": "VVjdr-DfopcLjbCMcHFTeQ",
+      "operationName": "EditHashtagsMutation",
+      "operationType": "mutation",
+      "metadata": {
+        "featureSwitches": [],
+        "featureSwitch": {}
+      }
+    }
+  },
+  {
+    "n": "75463",
+    "exports": {
+      "queryId": "BrxNyEqlSHU3dDSOgomqFA",
+      "operationName": "EditHashtagsQuery",
+      "operationType": "query",
+      "metadata": {
+        "featureSwitches": [],
+        "featureSwitch": {}
+      }
+    }
+  },
+  {
     "n": "43039",
     "exports": {
       "queryId": "ruZM8GnBs_0uuSjWLF6nkw",
@@ -15428,6 +15472,18 @@
     }
   },
   {
+    "n": "37904",
+    "exports": {
+      "queryId": "jgA1dOMGmCQK3vOQemxkaw",
+      "operationName": "AdvertisingScreenActivateScheduledPromotionMutation",
+      "operationType": "mutation",
+      "metadata": {
+        "featureSwitches": [],
+        "featureSwitch": {}
+      }
+    }
+  },
+  {
     "n": "30278",
     "exports": {
       "queryId": "X3QZUPPQFA35Xwu6jsU_mA",
@@ -15653,7 +15709,10 @@
         "featureSwitches": [],
         "featureSwitch": {}
       }
-    }
+    },
+    "func_name": "r",
+    "func_name_init": "n",
+    "query": {}
   },
   {
     "n": "22521",
@@ -15737,6 +15796,12 @@
         "featureSwitches": [],
         "featureSwitch": {}
       }
+    },
+    "func_name": "Q",
+    "func_name_init": "$",
+    "query": {
+      "note_id": "a.note_id",
+      "...()(0,o.S)": "_"
     }
   },
   {

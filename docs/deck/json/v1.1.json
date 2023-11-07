@@ -90,6 +90,15 @@
     ]
   },
   {
+    "queryId": "dm/conversation/bulk_delete",
+    "dispatch_key": "post",
+    "dispatch": [
+      "post",
+      "",
+      "https://api.twitter.com/1.1/{queryId}.json"
+    ]
+  },
+  {
     "queryId": "dm/conversation",
     "dispatch_key": "get",
     "dispatch": [
