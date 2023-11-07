@@ -1727,3 +1727,14 @@
 - tweet_limited_actions_config_community_tweet_non_member_public_community<br>
 #### remove<br>
 - responsive_web_twitter_article_max_times_show_tweet_banner<br>
+## 2023/11/07<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- rweb_home_compact_inline_composer_enabled<br>
+#### remove<br>
+- responsive_web_zipkin_api_requests_paths_allowlist<br>
