@@ -2466,3 +2466,26 @@
 - c9s_community_hashtags_enabled<br>
 #### remove<br>
 - None<br>
+## 2023/11/08<br>
+### API<br>
+#### add<br>
+- AuthenticatedUserTFLists<br>
+- CreateDraftTweet<br>
+- CreateScheduledTweet<br>
+- CreateTrustedFriendsList<br>
+- DeleteDraftTweet<br>
+- DeleteScheduledTweet<br>
+- EditDraftTweet<br>
+- EditScheduledTweet<br>
+- FetchDraftTweets<br>
+- FetchScheduledTweets<br>
+- LocationFilterQuery<br>
+- ProfileSpotlights_EditableProfileSpotlightsQuery<br>
+#### remove<br>
+- DMPinnedInboxQuery<br>
+### Feature Switch<br>
+#### add<br>
+- responsive_web_chat_enabled<br>
+- rweb_home_compact_inline_composer_enabled<br>
+#### remove<br>
+- responsive_web_zipkin_api_requests_paths_allowlist<br>
