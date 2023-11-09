@@ -4070,6 +4070,30 @@
       "method": "GET",
       "features": {}
     },
+    "Lists_CommunityListQuery": {
+      "url": "https://twitter.com/i/api/graphql/g9KqdGyW1YF9H1IY9TPEsA/Lists_CommunityListQuery",
+      "queryId": "g9KqdGyW1YF9H1IY9TPEsA",
+      "method": "GET",
+      "features": {}
+    },
+    "Lists_DeleteCommunityListMutation": {
+      "url": "https://twitter.com/i/api/graphql/bmZaDLRN7miaJGZpel25Fg/Lists_DeleteCommunityListMutation",
+      "queryId": "bmZaDLRN7miaJGZpel25Fg",
+      "method": "POST",
+      "features": {}
+    },
+    "Lists_PutCommunityListMutation": {
+      "url": "https://twitter.com/i/api/graphql/KUXtwjzzzebu2KML-r0zTA/Lists_PutCommunityListMutation",
+      "queryId": "KUXtwjzzzebu2KML-r0zTA",
+      "method": "POST",
+      "features": {}
+    },
+    "Lists_UsersListsQuery": {
+      "url": "https://twitter.com/i/api/graphql/Y3Ze7kRzVn4lXZn7_KRzUg/Lists_UsersListsQuery",
+      "queryId": "Y3Ze7kRzVn4lXZn7_KRzUg",
+      "method": "GET",
+      "features": {}
+    },
     "MemberRequests_Query": {
       "url": "https://twitter.com/i/api/graphql/ptsoIQv6gryhxQy3C_kNDQ/MemberRequests_Query",
       "queryId": "ptsoIQv6gryhxQy3C_kNDQ",
