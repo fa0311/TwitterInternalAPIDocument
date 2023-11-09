@@ -2489,3 +2489,17 @@
 - rweb_home_compact_inline_composer_enabled<br>
 #### remove<br>
 - responsive_web_zipkin_api_requests_paths_allowlist<br>
+## 2023/11/09<br>
+### API<br>
+#### add<br>
+- Lists_CommunityListQuery<br>
+- Lists_DeleteCommunityListMutation<br>
+- Lists_PutCommunityListMutation<br>
+- Lists_UsersListsQuery<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- c9s_community_list_setting_enabled<br>
+#### remove<br>
+- responsive_web_oauth2_consent_flow_enabled<br>
