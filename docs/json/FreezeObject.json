@@ -431,8 +431,8 @@
   {
     "cardWidth": "i",
     "columnWidths": "r",
-    "sideNavWidths": "d",
-    "contentWidths": "a",
+    "sideNavWidths": "a",
+    "contentWidths": "d",
     "wideTabBarWidth": "l",
     "dmDrawerHeight": "o",
     "dmDrawerWidth": "s"
@@ -488,21 +488,21 @@
     "product": "p",
     "design": "m",
     "marketing": "h",
-    "sales_am": "A",
-    "operations": "g",
+    "sales_am": "g",
+    "operations": "A",
     "people_hr": "w",
-    "finance_accounting": "D",
-    "legal_compliance": "S",
-    "science_engineering": "_",
-    "medical": "y",
+    "finance_accounting": "S",
+    "legal_compliance": "_",
+    "science_engineering": "y",
+    "medical": "D",
     "construction_trades": "f",
     "other": "v"
   },
   {
     "entry_level": "C",
     "junior": "k",
-    "mid_level": "P",
-    "senior": "E",
+    "mid_level": "E",
+    "senior": "P",
     "lead": "I",
     "manager": "R",
     "executive": "B"
@@ -846,7 +846,7 @@
     "TREND_VIEW": "trend_view",
     "TREND_CLICK": "trend_click"
   },
-  "{[d.Z.CASHTAG]:\"void 0\",[d.Z.EMOJI]:\"void 0\",[d.Z.HASHTAG]:\"a.HASHTAG_CLICK\",[d.Z.MEDIA]:\"void 0\",[d.Z.MENTION]:\"a.USER_MENTION_CLICK\",[d.Z.TEXT]:\"void 0\",[d.Z.URL]:\"a.URL_CLICK\"}",
+  "{[a.Z.CASHTAG]:\"void 0\",[a.Z.EMOJI]:\"void 0\",[a.Z.HASHTAG]:\"d.HASHTAG_CLICK\",[a.Z.MEDIA]:\"void 0\",[a.Z.MENTION]:\"d.USER_MENTION_CLICK\",[a.Z.TEXT]:\"void 0\",[a.Z.URL]:\"d.URL_CLICK\"}",
   {
     "TWEET": "tweets",
     "USER": "users"
@@ -1173,7 +1173,7 @@
   },
   {
     "...r": "_",
-    "...d": "_",
+    "...a": "_",
     "Community": "Community",
     "Pin": "Pin",
     "Like": "Like",
@@ -1277,7 +1277,7 @@
   },
   {
     "memberships": [],
-    "fetchStatus": "a.ZP.NONE"
+    "fetchStatus": "d.ZP.NONE"
   },
   {
     "UPDATE_USERS": "UPDATE_USERS"
@@ -1478,8 +1478,8 @@
   },
   "{[u.HOME]:\"home\",[u.HOME_LATEST]:\"latest\",[u.LIST]:\"pinned_list\",[u.CREATOR_SUBSCRIPTIONS]:\"subscribed\",[u.COMMUNITY]:\"community\"}",
   {
-    "fetchStatus": "M.ZP.NONE",
-    "selectedTimeline": "d.oO",
+    "fetchStatus": "T.ZP.NONE",
+    "selectedTimeline": "a.oO",
     "timelines": "k"
   },
   {
@@ -1987,7 +1987,7 @@
     "renderArticleCardInTweet": "!1",
     "renderCompactCardDetail": "!1",
     "roundCountInTweetAction": "!1",
-    "...a": "_"
+    "...d": "_"
   },
   {
     "CommunityNotes": "CommunityNotes",
@@ -2004,7 +2004,7 @@
     "click": "click"
   },
   {
-    "full_time": "a",
+    "full_time": "d",
     "full_time_contract": "i",
     "part_time": "l",
     "contract_to_hire": "o"
@@ -2064,9 +2064,9 @@
       "bold": "!0",
       "fontSize": "subtext3"
     },
-    "alt": "T",
-    "gif": "T",
-    "hd": "T",
+    "alt": "M",
+    "gif": "M",
+    "hd": "M",
     "likedByAuthor": {
       "backgroundColor": "gray50",
       "bold": "!1",
@@ -2246,6 +2246,10 @@
     "force": "force"
   },
   {
+    "START": "start",
+    "END": "end"
+  },
+  {
     "up": "up",
     "down": "down"
   },
@@ -2314,7 +2318,7 @@
   },
   {
     "...l()": "_",
-    "activeFaintGray": "rgba(a.CV.light)",
+    "activeFaintGray": "rgba(d.CV.light)",
     "activeBlack": "i.bs.black(230, 236, 240, 0.7)",
     "hoverBlack": "i.bs.black(.07)",
     "navigationBackground": "i.Cj",
@@ -2358,7 +2362,7 @@
   },
   {
     "...l()": "_",
-    "activeFaintGray": "rgba(a.CV.dark)",
+    "activeFaintGray": "rgba(d.CV.dark)",
     "activeBlack": "i.bs.white(20, 29, 38, 0.7)",
     "hoverBlack": "i.bs.white(.07)",
     "navigationBackground": "#15202B",
@@ -2383,7 +2387,7 @@
     "appBarFirefoxBackground": "i.bs.dim(.75)"
   },
   {
-    "...g": "_",
+    "...A": "_",
     "...l()": "_",
     "text": "i.Cj",
     "navigationBackground95": "#15202B",
@@ -2396,7 +2400,7 @@
   },
   {
     "...l()": "_",
-    "activeFaintGray": "rgba(a.CV.darker)",
+    "activeFaintGray": "rgba(d.CV.darker)",
     "activeBlack": "i.bs.white(18, 21, 23, 0.7)",
     "hoverBlack": "i.bs.white(.07)",
     "navigationBackground": "i.E5",
@@ -2422,7 +2426,7 @@
     "appBarFirefoxBackground": "i.bs.black(.65)"
   },
   {
-    "...D": "_",
+    "...S": "_",
     "...l()": "_",
     "text": "i.Cj",
     "navigationBackground": "#050505",
@@ -2460,32 +2464,32 @@
     "appBarHeight": "v",
     "appBarHeightPx": "f",
     "conversationLineWidth": "w.space2",
-    "gutterHorizontal": "D.space16",
+    "gutterHorizontal": "S.space16",
     "gutterHorizontalPx": "w.space16",
-    "gutterVertical": "D.space12",
+    "gutterVertical": "S.space12",
     "gutterVerticalPx": "w.space12"
   },
   {
     "aspectRatios": "l",
-    "baseFontSize": "y",
+    "baseFontSize": "D",
     "borderRadii": "s",
     "borderRadiiPx": "o",
     "borderWidths": "c",
     "borderWidthsPx": "u",
-    "breakpoints": "a",
-    "componentDimensions": "M",
+    "breakpoints": "d",
+    "componentDimensions": "T",
     "componentZIndices": "i",
-    "fontSizes": "_",
-    "fontSizesPx": "S",
+    "fontSizes": "y",
+    "fontSizesPx": "_",
     "fontWeights": "b",
-    "lineHeights": "g",
-    "lineHeightsPx": "A",
+    "lineHeights": "A",
+    "lineHeightsPx": "g",
     "scales": "t",
     "scaleMultipler": "n",
-    "spaces": "D",
+    "spaces": "S",
     "spacesPx": "w"
   },
-  "{\"...h()\":{\"scale\":\"i\",\"scales\":\"l\"}\"at0\",A.obn,t,\"d\"}",
+  "{\"...h()\":{\"scale\":\"i\",\"scales\":\"l\"}\"dt0\",g.obn,t,\"a\"}",
   {
     "UNKNOWN": "0",
     "TOP_LEFT": "1",
@@ -2509,11 +2513,11 @@
     "INVALID_RES_STATUS": -1
   },
   {
-    "0": "g.INTERNAL_ERROR",
-    "1": "g.INVALID_MEDIA",
-    "2": "g.FILE_TOO_LARGE",
-    "3": "g.UNSUPPORTED_MEDIA",
-    "4": "g.TIMEOUT"
+    "0": "A.INTERNAL_ERROR",
+    "1": "A.INVALID_MEDIA",
+    "2": "A.FILE_TOO_LARGE",
+    "3": "A.UNSUPPORTED_MEDIA",
+    "4": "A.TIMEOUT"
   },
   {
     "RESET": "0",
@@ -2590,10 +2594,6 @@
   {
     "large": "large",
     "small": "small"
-  },
-  {
-    "START": "start",
-    "END": "end"
   },
   {
     "BROADCAST": "broadcast",
@@ -2703,7 +2703,7 @@
   {
     "clipId": "clipID"
   },
-  "{[z.Q.host]:{\"title\":\"Pn.hostTitle\",\"maybePluralFormatter\":\"_n\",\"capacity\":\"1\"},[z.Q.cohost]:{\"title\":\"Pn.cohostTitle\",\"maybePluralFormatter\":\"Rn\",\"capacity\":\"2\"},[z.Q.speaker]:{\"title\":\"Pn.speakerTitle\",\"maybePluralFormatter\":\"Zn\",\"capacity\":\"10\"},[z.Q.listener]:{\"title\":\"Pn.listenerTitle\",\"maybePluralFormatter\":\"xn\",\"capacity\":-1}}",
+  "{[D.Q.host]:{\"title\":\"Pn.hostTitle\",\"maybePluralFormatter\":\"_n\",\"capacity\":\"1\"},[D.Q.cohost]:{\"title\":\"Pn.cohostTitle\",\"maybePluralFormatter\":\"Rn\",\"capacity\":\"2\"},[D.Q.speaker]:{\"title\":\"Pn.speakerTitle\",\"maybePluralFormatter\":\"Zn\",\"capacity\":\"10\"},[D.Q.listener]:{\"title\":\"Pn.listenerTitle\",\"maybePluralFormatter\":\"xn\",\"capacity\":-1}}",
   {
     "onlyInvited": "onlyInvited",
     "peopleYouFollow": "peopleYouFollow",
@@ -3329,7 +3329,7 @@
     "SUCCESS": "rweb/lists/FETCH_LISTMEMBERSHIPS_SUCCESS",
     "FAILURE": "rweb/lists/FETCH_LISTMEMBERSHIPS_FAILURE"
   },
-  "{\"data\":{\"lists\":[]},\"error\":\"null\",\"fetchStatus\":{[s.Yj.BOTTOM]:\"l.ZP.NONE\",[s.Yj.TOP]:\"l.ZP.NONE\"}}",
+  "{\"data\":{\"lists\":[]},\"error\":\"null\",\"fetchStatus\":{[s.Yj.BOTTOM]:\"o.ZP.NONE\",[s.Yj.TOP]:\"o.ZP.NONE\"}}",
   {
     "pinnedLists": "pinnedLists",
     "ownedSubscribedList": "ownedSubscribedList"
@@ -3553,11 +3553,7 @@
   {
     "VerificationCheck": "VerificationCheck"
   },
-  "{[x.VerificationCheck]:\"function()\"{if()throw new Error(3!==e.length);const[t,n,i]=e;return[{\"width\":\"400\",\"height\":\"200\",\"uri\":\"t\"},{\"width\":\"800\",\"height\":\"400\",\"uri\":\"n\"},{\"width\":\"1200\",\"height\":\"600\",\"uri\":\"i\"}]}\"()\"}",
-  {
-    "START": "start",
-    "END": "end"
-  },
+  "{[L.VerificationCheck]:\"function()\"{if()throw new Error(3!==e.length);const[t,n,a]=e;return[{\"width\":\"400\",\"height\":\"200\",\"uri\":\"t\"},{\"width\":\"800\",\"height\":\"400\",\"uri\":\"n\"},{\"width\":\"1200\",\"height\":\"600\",\"uri\":\"a\"}]}\"()\"}",
   {
     "normal": "100",
     "long": "250",
@@ -3836,11 +3832,7 @@
     "password": "password",
     "username": "username_or_email"
   },
-  "{[N.v.FOLLOWS]:\"W\",[N.v.FRIENDS_OF_FRIENDS]:\"X\"}",
-  {
-    "START": "start",
-    "END": "end"
-  },
+  "{[M.v.FOLLOWS]:\"G\",[M.v.FRIENDS_OF_FRIENDS]:\"K\"}",
   {
     "Default": "Default",
     "Pivot": "Pivot",
@@ -4118,7 +4110,7 @@
     "BLOCKED": "_",
     "BLOCKED_BY": "b"
   },
-  "{[h]:\"g\",[_]:\"f\",[b]:\"y\"}",
+  "{[h]:\"g\",[_]:\"f\",[b]:\"E\"}",
   {
     "BROADCAST_MEDIA_TYPE": "broadcast",
     "VIDEO_MEDIA_TYPE": "video"
@@ -4159,6 +4151,36 @@
     "broadcast": "broadcast",
     "video": "video",
     "image": "image"
+  },
+  {
+    "Scheduled": "Scheduled",
+    "InProgress": "InProgress",
+    "Completed": "Completed",
+    "Postponed": "Postponed",
+    "Cancelled": "Cancelled",
+    "Unused6": "_Unused6",
+    "Unused7": "_Unused7"
+  },
+  {
+    "SCORE": "score",
+    "SECONDARY_SCORE": "secondaryScore"
+  },
+  {
+    "Scheduled": "Scheduled",
+    "InProgress": "InProgress",
+    "Completed": "Completed",
+    "Postponed": "Postponed",
+    "Cancelled": "Cancelled",
+    "Unused6": "_Unused6",
+    "Unused7": "_Unused7"
+  },
+  {
+    "Fixed": "fixed",
+    "Variable": "variable"
+  },
+  {
+    "Pinning": "Pinning",
+    "Reordering": "Reordering"
   },
   {
     "NotStarted": "not_started",
@@ -4360,7 +4382,7 @@
     "Subtitles": "subtitles",
     "Trimmer": "trimmer"
   },
-  "{\"ActionsBar\":\"y.Z\",\"ActionMenu\":\"function()\"{\"Icon\":\"e\",\"isDisabled\":\"t\",\"items\":\"n\",\"onOpen\":\"i\"}{\"const o=r.useCallback()\"{\"items\":\"n\",\"onCloseRequested\":\"e\"}{\"Icon\":\"e\",\"isDisabled\":\"t\",\"onClick\":\"i\",\"renderActionMenu\":\"o\"}},\"CallToAction\":\"a.ZP\",\"EditCallout\":\"Z.Z\",\"Education\":\"k.Z\",\"HighlightedUserLabel\":\"c.Z\",\"Media\":\"D.Z\",\"Place\":\"o.ZP\",\"PromotedDetails\":\"u.Z\",\"PromotedUserProfileCard\":\"M\",\"ReplyContext\":\"R.ZP\",\"RichContent\":\"F.Z\",\"SocialContext\":\"g.Z\",\"Text\":\"U.Z\",\"Tombstone\":\"w.Z\",\"Timestamp\":\"h.Z\",\"UserAvatar\":\"B.Z\",\"UserFollowIndicator\":\"H.Z\",\"UserName\":\"N.Z\",\"ArticleCard\":\"S\"}",
+  "{\"ActionsBar\":\"y.Z\",\"ActionMenu\":\"function()\"{\"Icon\":\"e\",\"isDisabled\":\"t\",\"items\":\"n\",\"onOpen\":\"i\"}{\"const o=r.useCallback()\"{\"items\":\"n\",\"onCloseRequested\":\"e\"}{\"Icon\":\"e\",\"isDisabled\":\"t\",\"onClick\":\"i\",\"renderActionMenu\":\"o\"}},\"CallToAction\":\"a.ZP\",\"EditCallout\":\"k.Z\",\"Education\":\"Z.Z\",\"HighlightedUserLabel\":\"c.Z\",\"Media\":\"D.Z\",\"Place\":\"o.ZP\",\"PromotedDetails\":\"u.Z\",\"PromotedUserProfileCard\":\"M\",\"ReplyContext\":\"R.ZP\",\"RichContent\":\"F.Z\",\"SocialContext\":\"g.Z\",\"Text\":\"U.Z\",\"Tombstone\":\"w.Z\",\"Timestamp\":\"h.Z\",\"UserAvatar\":\"B.Z\",\"UserFollowIndicator\":\"H.Z\",\"UserName\":\"N.Z\",\"ArticleCard\":\"S\"}",
   {
     "FOLLOWS": "follows",
     "CREATORS": "creators"
@@ -5084,32 +5106,6 @@
     "SubscribableUser": "SubscribableUser"
   },
   {
-    "Scheduled": "Scheduled",
-    "InProgress": "InProgress",
-    "Completed": "Completed",
-    "Postponed": "Postponed",
-    "Cancelled": "Cancelled",
-    "Unused6": "_Unused6",
-    "Unused7": "_Unused7"
-  },
-  {
-    "SCORE": "score",
-    "SECONDARY_SCORE": "secondaryScore"
-  },
-  {
-    "Scheduled": "Scheduled",
-    "InProgress": "InProgress",
-    "Completed": "Completed",
-    "Postponed": "Postponed",
-    "Cancelled": "Cancelled",
-    "Unused6": "_Unused6",
-    "Unused7": "_Unused7"
-  },
-  {
-    "Fixed": "fixed",
-    "Variable": "variable"
-  },
-  {
     "CONVERSATION": "conversation",
     "TIMELINE": "timeline"
   },
@@ -5360,7 +5356,7 @@
     "AppealSuspension": "appealsuspension",
     "Notification": "notification"
   },
-  "{\"ActionsBar\":\"C.Z\",\"ActionMenu\":\"function()\"{\"Icon\":\"e\",\"isDisabled\":\"t\",\"items\":\"n\",\"onOpen\":\"i\"}{\"const o=r.useCallback()\"{\"items\":\"n\",\"onCloseRequested\":\"e\"}{\"Icon\":\"e\",\"isDisabled\":\"t\",\"onClick\":\"i\",\"renderActionMenu\":\"o\"}},\"CallToAction\":\"a.ZP\",\"EditCallout\":\"S.Z\",\"Education\":\"Z.Z\",\"HighlightedUserLabel\":\"c.Z\",\"Media\":\"L.Z\",\"Place\":\"o.ZP\",\"PromotedDetails\":\"u.Z\",\"PromotedUserProfileCard\":\"F\",\"ReplyContext\":\"M.ZP\",\"RichContent\":\"D.Z\",\"SocialContext\":\"b.Z\",\"Text\":\"U.Z\",\"Tombstone\":\"g.Z\",\"Timestamp\":\"p.Z\",\"UserAvatar\":\"B.Z\",\"UserFollowIndicator\":\"z.Z\",\"UserName\":\"N.Z\",\"ArticleCard\":\"x\"}",
+  "{\"ActionsBar\":\"C.Z\",\"ActionMenu\":\"function()\"{\"Icon\":\"e\",\"isDisabled\":\"t\",\"items\":\"n\",\"onOpen\":\"i\"}{\"const o=r.useCallback()\"{\"items\":\"n\",\"onCloseRequested\":\"e\"}{\"Icon\":\"e\",\"isDisabled\":\"t\",\"onClick\":\"i\",\"renderActionMenu\":\"o\"}},\"CallToAction\":\"a.ZP\",\"EditCallout\":\"S.Z\",\"Education\":\"Z.Z\",\"HighlightedUserLabel\":\"c.Z\",\"Media\":\"L.Z\",\"Place\":\"o.ZP\",\"PromotedDetails\":\"u.Z\",\"PromotedUserProfileCard\":\"D\",\"ReplyContext\":\"M.ZP\",\"RichContent\":\"F.Z\",\"SocialContext\":\"b.Z\",\"Text\":\"U.Z\",\"Tombstone\":\"g.Z\",\"Timestamp\":\"p.Z\",\"UserAvatar\":\"B.Z\",\"UserFollowIndicator\":\"z.Z\",\"UserName\":\"N.Z\",\"ArticleCard\":\"x\"}",
   {
     "original": "original",
     "banner": "banner",
@@ -5632,10 +5628,10 @@
     "highlights": "highlights_tweets"
   },
   "{\"default\":\"()\"{\"screenName\":\"e\"}{\"screenName\":\"e\"}{\"screenName\":\"e\"}{\"screenName\":\"e\"}{\"screenName\":\"e\"}{\"screenName\":\"e\"}{\"screenName\":\"e\"}{\"screenName\":\"e\"}}",
-  "{\"default\":()=>s().b7363b66,\"with_replies\":()=>s().b7363b66,\"superfollows\":()=>s().ce659062,\"highlights\":()=>s().f1e98cc2}",
-  "{\"default\":()=>s().d1e5e328,\"with_replies\":()=>s().d1e5e328,\"superfollows\":()=>s().hb26a1fe,\"highlights\":()=>s().b7c3572e}",
+  "{\"default\":()=>t().b7363b66,\"with_replies\":()=>t().b7363b66,\"superfollows\":()=>t().ce659062,\"highlights\":()=>t().f1e98cc2}",
+  "{\"default\":()=>t().d1e5e328,\"with_replies\":()=>t().d1e5e328,\"superfollows\":()=>t().hb26a1fe,\"highlights\":()=>t().b7c3572e}",
   "{\"default\":\"()\"{\"screenName\":\"e\"}{\"screenName\":\"e\"}{\"screenName\":\"e\"}{\"screenName\":\"e\"}{\"screenName\":\"e\"}{\"screenName\":\"e\"}}",
-  "{\"default\":()=>s().f34dfc18,\"with_replies\":()=>s().f34dfc18,\"superfollows\":()=>s().h9346040}",
+  "{\"default\":()=>t().f34dfc18,\"with_replies\":()=>t().f34dfc18,\"superfollows\":()=>t().h9346040}",
   "{\"default\":\"()\"{\"fullName\":\"e\"}{\"fullName\":\"e\"}{\"fullName\":\"e\"}{\"fullName\":\"e\"}{\"fullName\":\"e\"}{\"fullName\":\"e\"}{\"fullName\":\"e\"}{\"fullName\":\"e\"}}",
   "{\"default\":\"()\"{\"fullName\":\"e\",\"screenName\":\"n\"}{\"fullName\":\"e\",\"screenName\":\"n\"}{\"fullName\":\"e\",\"screenName\":\"n\"}{\"fullName\":\"e\",\"screenName\":\"n\"}{\"fullName\":\"e\",\"screenName\":\"n\"}{\"fullName\":\"e\",\"screenName\":\"n\"}{\"fullName\":\"e\",\"screenName\":\"n\"}{\"fullName\":\"e\",\"screenName\":\"n\"}}",
   {
@@ -5853,18 +5849,10 @@
     "TIMELINE": "timeline"
   },
   {
-    "Pinning": "Pinning",
-    "Reordering": "Reordering"
-  },
-  {
     "CompactPrompt": "compactPrompt",
     "HeaderImagePrompt": "headerImagePrompt",
     "InlinePrompt": "inlinePrompt",
     "LargePrompt": "largePrompt"
-  },
-  {
-    "START": "start",
-    "END": "end"
   },
   {
     "ON_LINGER": "onLinger",
@@ -5887,10 +5875,6 @@
     "ON_FOLLOW": "onFollow"
   },
   {
-    "START": "start",
-    "END": "end"
-  },
-  {
     "Scheduled": "Scheduled",
     "InProgress": "InProgress",
     "Completed": "Completed",
@@ -5908,10 +5892,6 @@
     "Classic": "Classic",
     "Footnote": "Footnote",
     "Button": "Button"
-  },
-  {
-    "START": "start",
-    "END": "end"
   },
   {
     "IncentiveFocus": "IncentiveFocus",
