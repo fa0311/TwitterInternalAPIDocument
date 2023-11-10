@@ -450,12 +450,15 @@
         "value": "true"
       },
       "c9s_community_composer_hashtag_suggestions_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "c9s_community_hashtags_carousel_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "c9s_community_hashtags_enabled": {
+        "value": "true"
+      },
+      "c9s_community_list_setting_enabled": {
         "value": "false"
       },
       "c9s_community_question_box_enabled": {
@@ -1229,6 +1232,9 @@
       "responsive_web_carousel_v2_media_detail_enabled": {
         "value": "false"
       },
+      "responsive_web_chat_enabled": {
+        "value": "false"
+      },
       "responsive_web_collection_ads_enabled": {
         "value": "true"
       },
@@ -1534,9 +1540,6 @@
       },
       "responsive_web_not_a_bot_signups_enabled": {
         "value": "false"
-      },
-      "responsive_web_oauth2_consent_flow_enabled": {
-        "value": "true"
       },
       "responsive_web_ocf_reportflow_appeals_enabled": {
         "value": "false"
@@ -2380,13 +2383,11 @@
       "tweet_limited_actions_config_community_tweet_non_member_closed_community": {
         "value": [
           "embed",
-          "like",
           "pin_to_profile",
           "react",
           "reply",
           "reply_down_vote",
           "retweet",
-          "share_tweet_via",
           "vote_on_poll",
           "highlight"
         ]
@@ -2399,7 +2400,6 @@
           "reply",
           "reply_down_vote",
           "retweet",
-          "share_tweet_via",
           "vote_on_poll",
           "highlight"
         ]
@@ -2966,12 +2966,15 @@
           "value": "true"
         },
         "c9s_community_composer_hashtag_suggestions_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "c9s_community_hashtags_carousel_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "c9s_community_hashtags_enabled": {
+          "value": "true"
+        },
+        "c9s_community_list_setting_enabled": {
           "value": "false"
         },
         "c9s_community_question_box_enabled": {
@@ -3746,7 +3749,7 @@
           "value": "false"
         },
         "responsive_web_chat_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "responsive_web_collection_ads_enabled": {
           "value": "true"
@@ -4053,9 +4056,6 @@
         },
         "responsive_web_not_a_bot_signups_enabled": {
           "value": "false"
-        },
-        "responsive_web_oauth2_consent_flow_enabled": {
-          "value": "true"
         },
         "responsive_web_ocf_reportflow_appeals_enabled": {
           "value": "false"
@@ -4899,13 +4899,11 @@
         "tweet_limited_actions_config_community_tweet_non_member_closed_community": {
           "value": [
             "embed",
-            "like",
             "pin_to_profile",
             "react",
             "reply",
             "reply_down_vote",
             "retweet",
-            "share_tweet_via",
             "vote_on_poll",
             "highlight"
           ]
@@ -4918,7 +4916,6 @@
             "reply",
             "reply_down_vote",
             "retweet",
-            "share_tweet_via",
             "vote_on_poll",
             "highlight"
           ]
@@ -5150,10 +5147,10 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "09225cd35db192dbfc275c332c60f16b"
+      "settingsVersion": "ad41ac993475fc72a645328360c694b8"
     },
     "debug": {},
-    "featureSetToken": "d7054e86a29a1f589952586622abb704893810e4",
+    "featureSetToken": "616a7325d8f31b0a970f210d89697ec7529f1783",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -5223,7 +5220,7 @@
     "country": "US",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "169947787035638766",
+    "guestId": "169956423248032752",
     "hasCommunityMemberships": "false",
     "language": "en",
     "oneFactorLoginEligibility": {
@@ -5263,12 +5260,6 @@
   "developer": {
     "dtabBarInfo": {
       "hide": "false"
-    }
-  },
-  "ads": {
-    "typeahead": {
-      "targetingLocation": {},
-      "forecastAudience": {}
     }
   }
 }
