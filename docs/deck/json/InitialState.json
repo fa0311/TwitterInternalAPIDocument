@@ -3767,7 +3767,7 @@
           "value": "false"
         },
         "responsive_web_composer_autosave_initial_ms": {
-          "value": "20000"
+          "value": "5000"
         },
         "responsive_web_composer_configurable_video_player_enabled": {
           "value": "false"
@@ -5147,7 +5147,7 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "ad41ac993475fc72a645328360c694b8"
+      "settingsVersion": "363ddd22ca44f6bec6b2f089d1aa63f2"
     },
     "debug": {},
     "featureSetToken": "616a7325d8f31b0a970f210d89697ec7529f1783",
@@ -5220,7 +5220,7 @@
     "country": "US",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "169956423248032752",
+    "guestId": "169965060197909561",
     "hasCommunityMemberships": "false",
     "language": "en",
     "oneFactorLoginEligibility": {
