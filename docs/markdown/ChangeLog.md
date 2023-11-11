@@ -2503,3 +2503,14 @@
 - c9s_community_list_setting_enabled<br>
 #### remove<br>
 - responsive_web_oauth2_consent_flow_enabled<br>
+## 2023/11/11<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- gryphon_live_timelines_enabled<br>
+#### remove<br>
+- None<br>
