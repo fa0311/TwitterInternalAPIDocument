@@ -733,6 +733,9 @@
       "gryphon_hide_quick_promote": {
         "value": "false"
       },
+      "gryphon_live_timelines_enabled": {
+        "value": "false"
+      },
       "gryphon_motion": {
         "value": "false"
       },
@@ -1223,7 +1226,7 @@
         "value": "false"
       },
       "responsive_web_chat_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "responsive_web_collection_ads_enabled": {
         "value": "true"
@@ -1241,7 +1244,7 @@
         "value": "false"
       },
       "responsive_web_composer_autosave_initial_ms": {
-        "value": "20000"
+        "value": "5000"
       },
       "responsive_web_composer_configurable_video_player_enabled": {
         "value": "false"
@@ -3249,6 +3252,9 @@
         "gryphon_hide_quick_promote": {
           "value": "false"
         },
+        "gryphon_live_timelines_enabled": {
+          "value": "false"
+        },
         "gryphon_motion": {
           "value": "false"
         },
@@ -5137,10 +5143,10 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "9a0e4622037563007ebc10dd931db82f"
+      "settingsVersion": "ef5dd47cb6344770043623967d7430dd"
     },
     "debug": {},
-    "featureSetToken": "616a7325d8f31b0a970f210d89697ec7529f1783",
+    "featureSetToken": "b71bfac0d4b50fd2734bbe80a4da9d3b5221317d",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -5210,7 +5216,7 @@
     "country": "US",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "169965039287292235",
+    "guestId": "169973676545838945",
     "hasCommunityMemberships": "false",
     "language": "en",
     "oneFactorLoginEligibility": {
