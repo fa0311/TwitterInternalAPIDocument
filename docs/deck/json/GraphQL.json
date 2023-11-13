@@ -223,12 +223,9 @@
         "featureSwitch": {}
       }
     },
-    "func_name": "f",
+    "func_name": "A",
     "func_name_init": "w",
-    "query": {
-      "audio_space_id": "n",
-      "sharing_id": "t"
-    }
+    "query": "{\"articleEntityId\":\"i\",\"coverMedia\":\"l&&a?\"{\"media_id\":\"l\",\"media_category\":\"a\"}:\"void 0\"}"
   },
   {
     "n": "17765",
@@ -1536,8 +1533,8 @@
         }
       }
     },
-    "func_name": "T",
-    "func_name_init": "M",
+    "func_name": "k",
+    "func_name_init": "v",
     "query": {
       "...t": "_"
     }
@@ -1902,8 +1899,8 @@
         }
       }
     },
-    "func_name": "A",
-    "func_name_init": "f",
+    "func_name": "f",
+    "func_name_init": "A",
     "query": {
       "communityId": "t.communityId",
       "theme": "t.theme",
@@ -2532,8 +2529,8 @@
         }
       }
     },
-    "func_name": "V",
-    "func_name_init": "q",
+    "func_name": "j",
+    "func_name_init": "z",
     "query": {
       "communityId": "t.communityId",
       "answer": "t.answer",
@@ -12792,36 +12789,6 @@
       "metadata": {
         "featureSwitches": [],
         "featureSwitch": {}
-      }
-    }
-  },
-  {
-    "n": "73339",
-    "exports": {
-      "queryId": "Kucpnmxd1Jo1rGvNXL26MQ",
-      "operationName": "UsersGraphQLFetchByScreenNameQuery",
-      "operationType": "query",
-      "metadata": {
-        "featureSwitches": [
-          "responsive_web_graphql_exclude_directive_enabled",
-          "responsive_web_graphql_skip_user_profile_image_extensions_enabled",
-          "responsive_web_graphql_timeline_navigation_enabled",
-          "verified_phone_label_enabled"
-        ],
-        "featureSwitch": {
-          "responsive_web_graphql_exclude_directive_enabled": {
-            "value": "true"
-          },
-          "responsive_web_graphql_skip_user_profile_image_extensions_enabled": {
-            "value": "false"
-          },
-          "responsive_web_graphql_timeline_navigation_enabled": {
-            "value": "true"
-          },
-          "verified_phone_label_enabled": {
-            "value": "false"
-          }
-        }
       }
     }
   },
