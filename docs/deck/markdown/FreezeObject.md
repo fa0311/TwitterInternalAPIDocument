@@ -502,8 +502,8 @@ This document is entirely auto-generated and may contain errors.<br>
 | people_hr            | y       |
 | finance_accounting   | _       |
 | legal_compliance     | w       |
-| science_engineering  | f       |
-| medical              | A       |
+| science_engineering  | A       |
+| medical              | f       |
 | construction_trades  | S       |
 | other                | v       |
 
@@ -3106,7 +3106,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | constant            | value   |
 |:--------------------|:--------|
 | aspectRatios        | i       |
-| baseFontSize        | A       |
+| baseFontSize        | f       |
 | borderRadii         | s       |
 | borderRadiiPx       | o       |
 | borderWidths        | c       |
@@ -3114,7 +3114,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | breakpoints         | l       |
 | componentDimensions | k       |
 | componentZIndices   | d       |
-| fontSizes           | f       |
+| fontSizes           | A       |
 | fontSizesPx         | w       |
 | fontWeights         | b       |
 | lineHeights         | g       |
