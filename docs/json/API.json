@@ -3821,17 +3821,6 @@
       "method": "GET",
       "features": {}
     },
-    "UsersGraphQLFetchByScreenNameQuery": {
-      "url": "https://twitter.com/i/api/graphql/Kucpnmxd1Jo1rGvNXL26MQ/UsersGraphQLFetchByScreenNameQuery",
-      "queryId": "Kucpnmxd1Jo1rGvNXL26MQ",
-      "method": "GET",
-      "features": {
-        "responsive_web_graphql_exclude_directive_enabled": true,
-        "responsive_web_graphql_skip_user_profile_image_extensions_enabled": false,
-        "responsive_web_graphql_timeline_navigation_enabled": true,
-        "verified_phone_label_enabled": false
-      }
-    },
     "urtModuleOperationsInjectEntryQuery": {
       "url": "https://twitter.com/i/api/graphql/null/urtModuleOperationsInjectEntryQuery",
       "queryId": "null",
