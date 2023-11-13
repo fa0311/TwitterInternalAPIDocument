@@ -6051,23 +6051,6 @@ Login Required: `...`<br>
 `None`<br>
 #### queryId<br>
 `None`<br>
-## UsersGraphQLFetchByScreenNameQuery<br>
-Request URL: `https://twitter.com/i/api/graphql/Kucpnmxd1Jo1rGvNXL26MQ/UsersGraphQLFetchByScreenNameQuery`<br>
-Request Method: `GET`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-| key                                                               | type    | variable   |
-|:------------------------------------------------------------------|:--------|:-----------|
-| responsive_web_graphql_exclude_directive_enabled                  | boolean | True       |
-| responsive_web_graphql_skip_user_profile_image_extensions_enabled | boolean | False      |
-| responsive_web_graphql_timeline_navigation_enabled                | boolean | True       |
-| verified_phone_label_enabled                                      | boolean | False      |
-
-#### queryId<br>
-`None`<br>
 ## urtModuleOperationsInjectEntryQuery<br>
 Request URL: `https://twitter.com/i/api/graphql/null/urtModuleOperationsInjectEntryQuery`<br>
 Request Method: `GET`<br>
