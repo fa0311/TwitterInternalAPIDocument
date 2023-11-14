@@ -1,7 +1,7 @@
 {
   "env": "prod",
   "isCanary": "false",
-  "sha": "6591c9535dd3c1d1b512af25ddd780fa90e6ebc9",
+  "sha": "f2b589cc6a6a7cb1c97358fc98a5f812d142c270",
   "isLoggedIn": "false",
   "hasMultiAccountCookie": "false",
   "uaParserTags": [
@@ -9,7 +9,7 @@
     "rweb",
     "msw"
   ],
-  "serverDate": "1699909848344",
+  "serverDate": "1699996193644",
   "cookies": {
     "version": "1661819456366",
     "fetchedTime": "1661971138705",
