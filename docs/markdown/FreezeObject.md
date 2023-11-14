@@ -3968,7 +3968,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{[o.sj.AMPLIFY]:{"conversionHandler":"()"{"cardId":"e","cardType":"t","converterOptions":"i","data":"a"}{"const s=()(0,r.FL)",l=parseInt(a,\"image_value\",\"player_image_original\")/parseInt(0,r.SIa,\"string_value\",\"player_width\",10),d=(0,r.SIa,\"string_value\",\"player_height\",10)(0,r.SI),c=(a,...
+{[o.sj.AMPLIFY]:{"conversionHandler":"()"{"cardId":"e","cardType":"t","converterOptions":"a","data":"i"}{"const s=()(0,r.FL)",l=parseInt(i,\"image_value\",\"player_image_original\")/parseInt(0,r.SIi,\"string_value\",\"player_width\",10),d=(0,r.SIi,\"string_value\",\"player_height\",10)(0,r.SI),c=(i,...
 ```
 | constant     | value             |
 |:-------------|:------------------|
@@ -5199,7 +5199,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{[P.ActionedTweets]:{"backLocation":"A","confirmationSheetHeadline":"()(0,o.X_)"{"screenName":"m"}{"screenName":"m"}},[P.PreviewFlaggedTweets]:{"backLocation":"x","confirmationSheetHeadline":"S()"{"screenName":"m"}{"screenName":"m"}}}
+{[P.ActionedTweets]:{"backLocation":"A","confirmationSheetHeadline":"()(0,c.X_)"{"screenName":"m"}{"screenName":"m"}},[P.PreviewFlaggedTweets]:{"backLocation":"x","confirmationSheetHeadline":"S()"{"screenName":"m"}{"screenName":"m"}}}
 ```
 | constant             | value                  |
 |:---------------------|:-----------------------|
