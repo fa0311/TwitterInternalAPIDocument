@@ -118,11 +118,10 @@ Request Method: `POST`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key            | type   | variable   |
-|:---------------|:-------|:-----------|
-| audio_space_id | ...    | n          |
-| sharing_id     | ...    | t          |
-
+```internal process
+# Error
+{"articleEntityId":"i","coverMedia":"l&&a?"{"media_id":"l","media_category":"a"}:"void 0"}
+```
 #### features<br>
 `None`<br>
 #### queryId<br>
@@ -5485,23 +5484,6 @@ Login Required: `...`<br>
 `None`<br>
 #### features<br>
 `None`<br>
-#### queryId<br>
-`None`<br>
-## UsersGraphQLFetchByScreenNameQuery<br>
-Request URL: `https://twitter.com/i/api/graphql/Kucpnmxd1Jo1rGvNXL26MQ/UsersGraphQLFetchByScreenNameQuery`<br>
-Request Method: `GET`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-| key                                                               | type    | variable   |
-|:------------------------------------------------------------------|:--------|:-----------|
-| responsive_web_graphql_exclude_directive_enabled                  | boolean | True       |
-| responsive_web_graphql_skip_user_profile_image_extensions_enabled | boolean | False      |
-| responsive_web_graphql_timeline_navigation_enabled                | boolean | True       |
-| verified_phone_label_enabled                                      | boolean | False      |
-
 #### queryId<br>
 `None`<br>
 ## managementListsPageTimelineQuery<br>

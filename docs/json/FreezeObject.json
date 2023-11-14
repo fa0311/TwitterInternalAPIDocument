@@ -493,8 +493,8 @@
     "people_hr": "w",
     "finance_accounting": "S",
     "legal_compliance": "_",
-    "science_engineering": "y",
-    "medical": "D",
+    "science_engineering": "D",
+    "medical": "y",
     "construction_trades": "f",
     "other": "v"
   },
@@ -2471,7 +2471,7 @@
   },
   {
     "aspectRatios": "l",
-    "baseFontSize": "D",
+    "baseFontSize": "y",
     "borderRadii": "s",
     "borderRadiiPx": "o",
     "borderWidths": "c",
@@ -2479,7 +2479,7 @@
     "breakpoints": "d",
     "componentDimensions": "T",
     "componentZIndices": "i",
-    "fontSizes": "y",
+    "fontSizes": "D",
     "fontSizesPx": "_",
     "fontWeights": "b",
     "lineHeights": "A",

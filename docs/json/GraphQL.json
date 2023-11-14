@@ -14081,36 +14081,6 @@
     }
   },
   {
-    "n": "73339",
-    "exports": {
-      "queryId": "Kucpnmxd1Jo1rGvNXL26MQ",
-      "operationName": "UsersGraphQLFetchByScreenNameQuery",
-      "operationType": "query",
-      "metadata": {
-        "featureSwitches": [
-          "responsive_web_graphql_exclude_directive_enabled",
-          "responsive_web_graphql_skip_user_profile_image_extensions_enabled",
-          "responsive_web_graphql_timeline_navigation_enabled",
-          "verified_phone_label_enabled"
-        ],
-        "featureSwitch": {
-          "responsive_web_graphql_exclude_directive_enabled": {
-            "value": "true"
-          },
-          "responsive_web_graphql_skip_user_profile_image_extensions_enabled": {
-            "value": "false"
-          },
-          "responsive_web_graphql_timeline_navigation_enabled": {
-            "value": "true"
-          },
-          "verified_phone_label_enabled": {
-            "value": "false"
-          }
-        }
-      }
-    }
-  },
-  {
     "n": "90176",
     "exports": {
       "queryId": "null",
