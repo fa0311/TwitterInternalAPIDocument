@@ -2535,9 +2535,8 @@
     "func_name": "j",
     "func_name_init": "z",
     "query": {
-      "communityId": "t.communityId",
-      "answer": "t.answer",
-      "...()(0,l.S)": "_"
+      "tweet_id": "i",
+      "...()(0,o.S)": "_"
     }
   },
   {
@@ -8672,8 +8671,8 @@
     "func_name": "b",
     "func_name_init": "c",
     "query": {
-      "twitterArticleId": "a",
-      "...()(0,o.d)": "_"
+      "articleEntityId": "i",
+      "title": "a"
     }
   },
   {
@@ -14539,7 +14538,7 @@
   {
     "n": "99256",
     "exports": {
-      "queryId": "CKPN9Q53WtC5Gtj_im0ZEw",
+      "queryId": "SfFW_3vflEhCLIo-k5N4Dw",
       "operationName": "TwitterBlueSignUpV2Query",
       "operationType": "query",
       "metadata": {
