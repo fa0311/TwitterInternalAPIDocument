@@ -2115,9 +2115,9 @@ This document is entirely auto-generated and may contain errors.<br>
 | subscriptionActive | {'backgroundColor': 'primary', 'radius': '9999', 'bold': '!0', 'color': 'whiteOnColor', 'fontSize': 'subtext3'} |
 | bestValue          | {'backgroundColor': 'green50', 'color': 'green900', 'bold': '!0', 'fontSize': 'subtext3'}                       |
 | mostPopular        | {'backgroundColor': 'purple50', 'color': 'purple900', 'bold': '!0', 'fontSize': 'subtext3'}                     |
-| alt                | M                                                                                                               |
-| gif                | M                                                                                                               |
-| hd                 | M                                                                                                               |
+| alt                | C                                                                                                               |
+| gif                | C                                                                                                               |
+| hd                 | C                                                                                                               |
 | likedByAuthor      | {'backgroundColor': 'gray50', 'bold': '!1', 'color': 'gray700'}                                                 |
 | article            | {'bold': '!0', 'backgroundColor': 'translucentBlack55', 'color': 'white', 'opacity': '.1'}                      |
 
@@ -3697,7 +3697,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{"ActionsBar":"f.Z","ActionMenu":"function()"{"Icon":"e","isDisabled":"t","items":"n","onOpen":"o"}{"const r=i.useCallback()"{"items":"n","onCloseRequested":"e"}{"Icon":"e","isDisabled":"t","onClick":"o","renderActionMenu":"r"}},"CallToAction":"a.ZP","EditCallout":"I.Z","Education":"x.Z","Highlighte...
+{"ActionsBar":"f.Z","ActionMenu":"function()"{"Icon":"e","isDisabled":"t","items":"n","onOpen":"o"}{"const r=i.useCallback()"{"items":"n","onCloseRequested":"e"}{"Icon":"e","isDisabled":"t","onClick":"o","renderActionMenu":"r"}},"CallToAction":"a.ZP","EditCallout":"Z.Z","Education":"L.Z","Highlighte...
 ```
 | constant          | value             |
 |:------------------|:------------------|
@@ -4272,7 +4272,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{"ActionsBar":"y.Z","ActionMenu":"function()"{"Icon":"e","isDisabled":"t","items":"n","onOpen":"o"}{"const r=i.useCallback()"{"items":"n","onCloseRequested":"e"}{"Icon":"e","isDisabled":"t","onClick":"o","renderActionMenu":"r"}},"CallToAction":"a.ZP","EditCallout":"S.Z","Education":"Z.Z","Highlighte...
+{"ActionsBar":"y.Z","ActionMenu":"function()"{"Icon":"e","isDisabled":"t","items":"n","onOpen":"o"}{"const r=i.useCallback()"{"items":"n","onCloseRequested":"e"}{"Icon":"e","isDisabled":"t","onClick":"o","renderActionMenu":"r"}},"CallToAction":"a.ZP","EditCallout":"P.Z","Education":"L.Z","Highlighte...
 ```
 | constant   | value                          |
 |:-----------|:-------------------------------|
@@ -4538,9 +4538,9 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant   | value   |
 |:-----------|:--------|
-| MEDIA      | Media   |
-| GIFS       | GIFs    |
-| TWEETS     | Tweets  |
+| MEDIA      | He      |
+| GIFS       | Ue      |
+| TWEETS     | We      |
 
 | constant    | value       |
 |:------------|:------------|
@@ -4629,7 +4629,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{"ActionsBar":"y.Z","ActionMenu":"function()"{"Icon":"e","isDisabled":"t","items":"n","onOpen":"i"}{"const o=r.useCallback()"{"items":"n","onCloseRequested":"e"}{"Icon":"e","isDisabled":"t","onClick":"i","renderActionMenu":"o"}},"CallToAction":"a.ZP","EditCallout":"k.Z","Education":"Z.Z","Highlighte...
+{"ActionsBar":"y.Z","ActionMenu":"function()"{"Icon":"e","isDisabled":"t","items":"n","onOpen":"i"}{"const o=r.useCallback()"{"items":"n","onCloseRequested":"e"}{"Icon":"e","isDisabled":"t","onClick":"i","renderActionMenu":"o"}},"CallToAction":"a.ZP","EditCallout":"P.Z","Education":"A.Z","Highlighte...
 ```
 | constant   | value    |
 |:-----------|:---------|
@@ -5771,7 +5771,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{"ActionsBar":"C.Z","ActionMenu":"function()"{"Icon":"e","isDisabled":"t","items":"n","onOpen":"i"}{"const o=r.useCallback()"{"items":"n","onCloseRequested":"e"}{"Icon":"e","isDisabled":"t","onClick":"i","renderActionMenu":"o"}},"CallToAction":"a.ZP","EditCallout":"S.Z","Education":"Z.Z","Highlighte...
+{"ActionsBar":"C.Z","ActionMenu":"function()"{"Icon":"e","isDisabled":"t","items":"n","onOpen":"i"}{"const o=r.useCallback()"{"items":"n","onCloseRequested":"e"}{"Icon":"e","isDisabled":"t","onClick":"i","renderActionMenu":"o"}},"CallToAction":"a.ZP","EditCallout":"P.Z","Education":"A.Z","Highlighte...
 ```
 | constant   | value    |
 |:-----------|:---------|
@@ -5873,7 +5873,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{[v.cU.CurrentCountryMatch]:"0",[v.cU.Match]:"1",[v.cU.NoMatch]:"2"}
+{[P.cU.CurrentCountryMatch]:"0",[P.cU.Match]:"1",[P.cU.NoMatch]:"2"}
 ```
 | constant   | value        |
 |:-----------|:-------------|

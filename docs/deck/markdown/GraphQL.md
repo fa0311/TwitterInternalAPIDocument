@@ -1042,11 +1042,10 @@ Request Method: `POST`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key          | type   | variable      |
-|:-------------|:-------|:--------------|
-| communityId  | ...    | t.communityId |
-| answer       | ...    | t.answer      |
-| ...()(0,l.S) | ...    | _             |
+| key          | type   | variable   |
+|:-------------|:-------|:-----------|
+| tweet_id     | ...    | i          |
+| ...()(0,o.S) | ...    | _          |
 
 #### features<br>
 | key                                                               | type    | variable   |
@@ -3630,10 +3629,10 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key              | type   | variable   |
-|:-----------------|:-------|:-----------|
-| twitterArticleId | ...    | a          |
-| ...()(0,o.d)     | ...    | _          |
+| key             | type   | variable   |
+|:----------------|:-------|:-----------|
+| articleEntityId | ...    | i          |
+| title           | ...    | a          |
 
 #### features<br>
 | key                                                                     | type    | variable   |
@@ -6916,7 +6915,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## TwitterBlueSignUpV2Query<br>
-Request URL: `https://twitter.com/i/api/graphql/CKPN9Q53WtC5Gtj_im0ZEw/TwitterBlueSignUpV2Query`<br>
+Request URL: `https://twitter.com/i/api/graphql/SfFW_3vflEhCLIo-k5N4Dw/TwitterBlueSignUpV2Query`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
