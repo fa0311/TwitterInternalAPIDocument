@@ -4654,7 +4654,7 @@
           "value": "true"
         },
         "subscriptions_premium_tiers_switching_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "subscriptions_sign_up_enabled": {
           "value": "false"
@@ -5153,7 +5153,7 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "cd5226e9d00a442f14e8aa1d78d070fe"
+      "settingsVersion": "700c503ac4980ac16ee012a889783f99"
     },
     "debug": {},
     "featureSetToken": "572e1022f3e42e3d2fe2fecdd286af7b72852d60",
@@ -5226,7 +5226,7 @@
     "country": "US",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "170016902652778330",
+    "guestId": "170025538605358442",
     "hasCommunityMemberships": "false",
     "language": "en",
     "oneFactorLoginEligibility": {
