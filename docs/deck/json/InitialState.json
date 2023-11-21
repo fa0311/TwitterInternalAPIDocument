@@ -5226,7 +5226,7 @@
     "country": "US",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "170042816516648436",
+    "guestId": "170051458960274331",
     "hasCommunityMemberships": "false",
     "language": "en",
     "oneFactorLoginEligibility": {
@@ -5266,6 +5266,12 @@
   "developer": {
     "dtabBarInfo": {
       "hide": "false"
+    }
+  },
+  "ads": {
+    "typeahead": {
+      "targetingLocation": {},
+      "forecastAudience": {}
     }
   }
 }
