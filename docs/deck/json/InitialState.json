@@ -3755,7 +3755,7 @@
           "value": "false"
         },
         "responsive_web_chat_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "responsive_web_collection_ads_enabled": {
           "value": "true"
@@ -4253,7 +4253,7 @@
           "value": "false"
         },
         "responsive_web_twitter_article_title_limit": {
-          "value": "200"
+          "value": "100"
         },
         "responsive_web_twitter_article_tweet_consumption_enabled": {
           "value": "false"
@@ -5153,7 +5153,7 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "4211d4ed0337798bc7bda6568d30bcdc"
+      "settingsVersion": "0971c6f10ff80f8258be263310b3a037"
     },
     "debug": {},
     "featureSetToken": "572e1022f3e42e3d2fe2fecdd286af7b72852d60",
@@ -5226,7 +5226,7 @@
     "country": "US",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "170060110204234542",
+    "guestId": "170068744629049327",
     "hasCommunityMemberships": "false",
     "language": "en",
     "oneFactorLoginEligibility": {
@@ -5266,12 +5266,6 @@
   "developer": {
     "dtabBarInfo": {
       "hide": "false"
-    }
-  },
-  "ads": {
-    "typeahead": {
-      "targetingLocation": {},
-      "forecastAudience": {}
     }
   }
 }
