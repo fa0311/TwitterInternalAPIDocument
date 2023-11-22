@@ -1046,7 +1046,7 @@
         "value": ""
       },
       "recruiting_global_jobs_search_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "recruiting_job_page_consumption_enabled": {
         "value": "true"
@@ -1226,7 +1226,7 @@
         "value": "false"
       },
       "responsive_web_chat_enabled": {
-        "value": "true"
+        "value": "false"
       },
       "responsive_web_collection_ads_enabled": {
         "value": "true"
@@ -1729,12 +1729,6 @@
       "responsive_web_twitter_article_tweet_consumption_enabled": {
         "value": "false"
       },
-      "responsive_web_twitter_article_tweet_own_notes_enabled": {
-        "value": "false"
-      },
-      "responsive_web_twitter_article_v2_apis_enabled": {
-        "value": "false"
-      },
       "responsive_web_twitter_article_view_enabled": {
         "value": "true"
       },
@@ -2106,6 +2100,9 @@
       "subscriptions_feature_labs_1004": {
         "value": "true"
       },
+      "subscriptions_inapp_grok": {
+        "value": "false"
+      },
       "subscriptions_long_video_rweb_new_copy_enabled": {
         "value": "true"
       },
@@ -2114,6 +2111,9 @@
       },
       "subscriptions_marketing_page_include_tax_enabled": {
         "value": "true"
+      },
+      "subscriptions_marketing_page_upsell_enabled": {
+        "value": "false"
       },
       "subscriptions_premium_tiers_default_product": {
         "value": "BlueVerifiedPlus"
@@ -2125,7 +2125,7 @@
         "value": "true"
       },
       "subscriptions_premium_tiers_switching_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "subscriptions_sign_up_enabled": {
         "value": "false"
@@ -4248,12 +4248,6 @@
         "responsive_web_twitter_article_tweet_consumption_enabled": {
           "value": "false"
         },
-        "responsive_web_twitter_article_tweet_own_notes_enabled": {
-          "value": "false"
-        },
-        "responsive_web_twitter_article_v2_apis_enabled": {
-          "value": "false"
-        },
         "responsive_web_twitter_article_view_enabled": {
           "value": "true"
         },
@@ -4282,7 +4276,7 @@
           "value": "true"
         },
         "responsive_web_verified_organizations_advertising_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "responsive_web_verified_organizations_affiliate_fetch_limit": {
           "value": "3000"
@@ -4625,6 +4619,9 @@
         "subscriptions_feature_labs_1004": {
           "value": "true"
         },
+        "subscriptions_inapp_grok": {
+          "value": "false"
+        },
         "subscriptions_long_video_rweb_new_copy_enabled": {
           "value": "true"
         },
@@ -4633,6 +4630,9 @@
         },
         "subscriptions_marketing_page_include_tax_enabled": {
           "value": "true"
+        },
+        "subscriptions_marketing_page_upsell_enabled": {
+          "value": "false"
         },
         "subscriptions_premium_tiers_default_product": {
           "value": "BlueVerifiedPlus"
@@ -5143,10 +5143,10 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "129f86d62feb9d9d8e3ac017aa896833"
+      "settingsVersion": "ad18551c59fff6362e9b7ceb055bda82"
     },
     "debug": {},
-    "featureSetToken": "572e1022f3e42e3d2fe2fecdd286af7b72852d60",
+    "featureSetToken": "969486c449235bbe7c789347f642eed4ea29ec33",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -5216,7 +5216,7 @@
     "country": "US",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "170051443566705803",
+    "guestId": "170060085507218767",
     "hasCommunityMemberships": "false",
     "language": "en",
     "oneFactorLoginEligibility": {
