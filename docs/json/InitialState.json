@@ -1226,7 +1226,7 @@
         "value": "false"
       },
       "responsive_web_chat_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "responsive_web_collection_ads_enabled": {
         "value": "true"
@@ -1757,7 +1757,7 @@
         "value": "true"
       },
       "responsive_web_verified_organizations_advertising_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "responsive_web_verified_organizations_affiliate_fetch_limit": {
         "value": "3000"
@@ -2099,9 +2099,6 @@
       },
       "subscriptions_feature_labs_1004": {
         "value": "true"
-      },
-      "subscriptions_inapp_grok": {
-        "value": "false"
       },
       "subscriptions_long_video_rweb_new_copy_enabled": {
         "value": "true"
@@ -3745,7 +3742,7 @@
           "value": "false"
         },
         "responsive_web_chat_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "responsive_web_collection_ads_enabled": {
           "value": "true"
@@ -4243,7 +4240,7 @@
           "value": "false"
         },
         "responsive_web_twitter_article_title_limit": {
-          "value": "200"
+          "value": "100"
         },
         "responsive_web_twitter_article_tweet_consumption_enabled": {
           "value": "false"
@@ -4618,9 +4615,6 @@
         },
         "subscriptions_feature_labs_1004": {
           "value": "true"
-        },
-        "subscriptions_inapp_grok": {
-          "value": "false"
         },
         "subscriptions_long_video_rweb_new_copy_enabled": {
           "value": "true"
@@ -5143,10 +5137,10 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "ad18551c59fff6362e9b7ceb055bda82"
+      "settingsVersion": "0d5683c864e3c5e98e4567c6c4b37862"
     },
     "debug": {},
-    "featureSetToken": "969486c449235bbe7c789347f642eed4ea29ec33",
+    "featureSetToken": "2b95c435c60da61cdba43489d3fef6cd5c0ee328",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -5216,7 +5210,7 @@
     "country": "US",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "170060085507218767",
+    "guestId": "170068722485365039",
     "hasCommunityMemberships": "false",
     "language": "en",
     "oneFactorLoginEligibility": {
