@@ -2527,3 +2527,14 @@
 #### remove<br>
 - responsive_web_twitter_article_tweet_own_notes_enabled<br>
 - responsive_web_twitter_article_v2_apis_enabled<br>
+## 2023/11/22<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- subscriptions_inapp_grok<br>
