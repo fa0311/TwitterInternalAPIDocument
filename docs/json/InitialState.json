@@ -1724,7 +1724,7 @@
         "value": "false"
       },
       "responsive_web_twitter_article_title_limit": {
-        "value": "200"
+        "value": "100"
       },
       "responsive_web_twitter_article_tweet_consumption_enabled": {
         "value": "false"
@@ -2099,6 +2099,15 @@
       },
       "subscriptions_feature_labs_1004": {
         "value": "true"
+      },
+      "subscriptions_inapp_grok": {
+        "value": "false"
+      },
+      "subscriptions_inapp_grok_video_upsell": {
+        "value": ""
+      },
+      "subscriptions_inapp_grok_video_upsell_light": {
+        "value": ""
       },
       "subscriptions_long_video_rweb_new_copy_enabled": {
         "value": "true"
@@ -4616,6 +4625,15 @@
         "subscriptions_feature_labs_1004": {
           "value": "true"
         },
+        "subscriptions_inapp_grok": {
+          "value": "false"
+        },
+        "subscriptions_inapp_grok_video_upsell": {
+          "value": ""
+        },
+        "subscriptions_inapp_grok_video_upsell_light": {
+          "value": ""
+        },
         "subscriptions_long_video_rweb_new_copy_enabled": {
           "value": "true"
         },
@@ -5137,10 +5155,10 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "0d5683c864e3c5e98e4567c6c4b37862"
+      "settingsVersion": "ef5dd47cb6344770043623967d7430dd"
     },
     "debug": {},
-    "featureSetToken": "2b95c435c60da61cdba43489d3fef6cd5c0ee328",
+    "featureSetToken": "abc25d8253fbf0bbb2217c627e8d951e63c752bc",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -5210,7 +5228,7 @@
     "country": "US",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "170068722485365039",
+    "guestId": "170077360953119682",
     "hasCommunityMemberships": "false",
     "language": "en",
     "oneFactorLoginEligibility": {
