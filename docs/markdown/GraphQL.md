@@ -5580,14 +5580,7 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key                    | type    | variable   |
-|:-----------------------|:--------|:-----------|
-| tweetId                | ...     | a          |
-| count                  | ...     | t          |
-| cursor                 | ...     | n          |
-| includePromotedContent | boolean | True       |
-| ...()(0,i.d)           | ...     | _          |
-
+`None`<br>
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
@@ -5621,14 +5614,7 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key                    | type    | variable   |
-|:-----------------------|:--------|:-----------|
-| tweetId                | ...     | r          |
-| count                  | ...     | t          |
-| cursor                 | ...     | n          |
-| includePromotedContent | boolean | True       |
-| ...()(0,i.d)           | ...     | _          |
-
+`None`<br>
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
@@ -5662,12 +5648,7 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key                                    | type    | variable   |
-|:---------------------------------------|:--------|:-----------|
-| tweetId                                | ...     | t          |
-| ...()(0,i.d)                           | ...     | _          |
-| withQuickPromoteEligibilityTweetFields | boolean | True       |
-
+`None`<br>
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
