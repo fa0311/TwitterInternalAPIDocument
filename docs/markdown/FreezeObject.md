@@ -4537,9 +4537,9 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant   | value   |
 |:-----------|:--------|
-| MEDIA      | ht      |
-| GIFS       | bt      |
-| TWEETS     | wt      |
+| MEDIA      | wt      |
+| GIFS       | ht      |
+| TWEETS     | Et      |
 
 | constant    | value       |
 |:------------|:------------|
@@ -5040,6 +5040,12 @@ This document is entirely auto-generated and may contain errors.<br>
 | yellow0    | yellow500  |
 | gray0      | gray500    |
 
+| constant   | value                                           |
+|:-----------|:------------------------------------------------|
+| REQUEST    | rweb/settings/usernames/FETCH_USERNAMES_REQUEST |
+| SUCCESS    | rweb/settings/usernames/FETCH_USERNAMES_SUCCESS |
+| FAILURE    | rweb/settings/usernames/FETCH_USERNAMES_FAILURE |
+
 | constant   | value      |
 |:-----------|:-----------|
 | EmptyState | EmptyState |
@@ -5050,12 +5056,6 @@ This document is entirely auto-generated and may contain errors.<br>
 | Any          | Any          |
 | Individual   | Individual   |
 | Organization | Organization |
-
-| constant   | value                                           |
-|:-----------|:------------------------------------------------|
-| REQUEST    | rweb/settings/usernames/FETCH_USERNAMES_REQUEST |
-| SUCCESS    | rweb/settings/usernames/FETCH_USERNAMES_SUCCESS |
-| FAILURE    | rweb/settings/usernames/FETCH_USERNAMES_FAILURE |
 
 | constant                           | value                              |
 |:-----------------------------------|:-----------------------------------|
@@ -5478,20 +5478,6 @@ This document is entirely auto-generated and may contain errors.<br>
 |:-----------|--------:|
 | HUMAN      |       1 |
 | ASSISTANT  |       2 |
-
-| constant   | value      |
-|:-----------|:-----------|
-| primary0   | primary    |
-| blue0      | blue500    |
-| green0     | green500   |
-| magenta0   | magenta500 |
-| orange0    | orange500  |
-| plum0      | plum500    |
-| purple0    | purple500  |
-| red0       | red500     |
-| teal0      | teal500    |
-| yellow0    | yellow500  |
-| gray0      | gray500    |
 
 | constant       | value          |
 |:---------------|:---------------|
@@ -6121,11 +6107,11 @@ This document is entirely auto-generated and may contain errors.<br>
 ```
 ```internal process
 # Error
-{"default":()=>s().b7363b66,"with_replies":()=>s().b7363b66,"superfollows":()=>s().ce659062,"highlights":()=>s().f1e98cc2}
+{"default":()=>t().b7363b66,"with_replies":()=>t().b7363b66,"superfollows":()=>t().ce659062,"highlights":()=>t().f1e98cc2}
 ```
 ```internal process
 # Error
-{"default":()=>s().d1e5e328,"with_replies":()=>s().d1e5e328,"superfollows":()=>s().hb26a1fe,"highlights":()=>s().b7c3572e}
+{"default":()=>t().d1e5e328,"with_replies":()=>t().d1e5e328,"superfollows":()=>t().hb26a1fe,"highlights":()=>t().b7c3572e}
 ```
 ```internal process
 # Error
@@ -6133,7 +6119,7 @@ This document is entirely auto-generated and may contain errors.<br>
 ```
 ```internal process
 # Error
-{"default":()=>s().f34dfc18,"with_replies":()=>s().f34dfc18,"superfollows":()=>s().h9346040}
+{"default":()=>t().f34dfc18,"with_replies":()=>t().f34dfc18,"superfollows":()=>t().h9346040}
 ```
 ```internal process
 # Error
