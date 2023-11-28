@@ -62,7 +62,7 @@ logging.info("src: " + json.dumps(src, **dumps_args))
 
 # === Initial decode ===
 
-initial_state = search_js(parsed_script_list, "window.__INITIAL_STATE__=")[0].after
+initial_state = search_js_reg(parsed_script_list, "window.__INITIAL_STATE__=")[0].after
 initial_output = json.loads(json_parser(initial_state))
 
 meta_data = search_js(parsed_script_list, ";window.__META_DATA__=")[0].after
