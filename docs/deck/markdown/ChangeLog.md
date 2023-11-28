@@ -1765,3 +1765,20 @@
 - gryphon_live_timelines_enabled<br>
 #### remove<br>
 - None<br>
+## 2023/11/28<br>
+### API<br>
+#### add<br>
+- TweetResultsByRestIds<br>
+- DMPinnedInboxQuery<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- subscriptions_inapp_grok<br>
+- subscriptions_inapp_grok_video_upsell<br>
+- subscriptions_inapp_grok_video_upsell_dim<br>
+- subscriptions_inapp_grok_video_upsell_light<br>
+- subscriptions_marketing_page_upsell_enabled<br>
+#### remove<br>
+- responsive_web_twitter_article_tweet_own_notes_enabled<br>
+- responsive_web_twitter_article_v2_apis_enabled<br>

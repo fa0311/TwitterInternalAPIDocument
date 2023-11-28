@@ -2551,3 +2551,24 @@
 - subscriptions_inapp_grok_video_upsell_light<br>
 #### remove<br>
 - None<br>
+## 2023/11/28<br>
+### API<br>
+#### add<br>
+- DMPinnedInboxQuery<br>
+#### remove<br>
+- AuthenticatedUserTFLists<br>
+- CreateDraftTweet<br>
+- CreateScheduledTweet<br>
+- CreateTrustedFriendsList<br>
+- DeleteDraftTweet<br>
+- DeleteScheduledTweet<br>
+- EditDraftTweet<br>
+- EditScheduledTweet<br>
+- FetchDraftTweets<br>
+- FetchScheduledTweets<br>
+- ProfileSpotlights_EditableProfileSpotlightsQuery<br>
+### Feature Switch<br>
+#### add<br>
+- subscriptions_inapp_grok_video_upsell_dim<br>
+#### remove<br>
+- None<br>

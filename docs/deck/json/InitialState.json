@@ -1056,7 +1056,7 @@
         "value": ""
       },
       "recruiting_global_jobs_search_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "recruiting_job_page_consumption_enabled": {
         "value": "true"
@@ -1734,15 +1734,9 @@
         "value": "false"
       },
       "responsive_web_twitter_article_title_limit": {
-        "value": "200"
+        "value": "100"
       },
       "responsive_web_twitter_article_tweet_consumption_enabled": {
-        "value": "false"
-      },
-      "responsive_web_twitter_article_tweet_own_notes_enabled": {
-        "value": "false"
-      },
-      "responsive_web_twitter_article_v2_apis_enabled": {
         "value": "false"
       },
       "responsive_web_twitter_article_view_enabled": {
@@ -1773,7 +1767,7 @@
         "value": "true"
       },
       "responsive_web_verified_organizations_advertising_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "responsive_web_verified_organizations_affiliate_fetch_limit": {
         "value": "3000"
@@ -2116,6 +2110,18 @@
       "subscriptions_feature_labs_1004": {
         "value": "true"
       },
+      "subscriptions_inapp_grok": {
+        "value": "false"
+      },
+      "subscriptions_inapp_grok_video_upsell": {
+        "value": ""
+      },
+      "subscriptions_inapp_grok_video_upsell_dim": {
+        "value": ""
+      },
+      "subscriptions_inapp_grok_video_upsell_light": {
+        "value": ""
+      },
       "subscriptions_long_video_rweb_new_copy_enabled": {
         "value": "true"
       },
@@ -2124,6 +2130,9 @@
       },
       "subscriptions_marketing_page_include_tax_enabled": {
         "value": "true"
+      },
+      "subscriptions_marketing_page_upsell_enabled": {
+        "value": "false"
       },
       "subscriptions_premium_tiers_default_product": {
         "value": "BlueVerifiedPlus"
@@ -2135,7 +2144,7 @@
         "value": "true"
       },
       "subscriptions_premium_tiers_switching_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "subscriptions_sign_up_enabled": {
         "value": "false"
@@ -4258,12 +4267,6 @@
         "responsive_web_twitter_article_tweet_consumption_enabled": {
           "value": "false"
         },
-        "responsive_web_twitter_article_tweet_own_notes_enabled": {
-          "value": "false"
-        },
-        "responsive_web_twitter_article_v2_apis_enabled": {
-          "value": "false"
-        },
         "responsive_web_twitter_article_view_enabled": {
           "value": "true"
         },
@@ -4635,6 +4638,18 @@
         "subscriptions_feature_labs_1004": {
           "value": "true"
         },
+        "subscriptions_inapp_grok": {
+          "value": "false"
+        },
+        "subscriptions_inapp_grok_video_upsell": {
+          "value": ""
+        },
+        "subscriptions_inapp_grok_video_upsell_dim": {
+          "value": ""
+        },
+        "subscriptions_inapp_grok_video_upsell_light": {
+          "value": ""
+        },
         "subscriptions_long_video_rweb_new_copy_enabled": {
           "value": "true"
         },
@@ -4642,6 +4657,9 @@
           "value": "true"
         },
         "subscriptions_marketing_page_include_tax_enabled": {
+          "value": "false"
+        },
+        "subscriptions_marketing_page_upsell_enabled": {
           "value": "false"
         },
         "subscriptions_premium_tiers_default_product": {
@@ -5153,10 +5171,10 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "0971c6f10ff80f8258be263310b3a037"
+      "settingsVersion": "74d78506374fb3aede42ffef11677e4c"
     },
     "debug": {},
-    "featureSetToken": "572e1022f3e42e3d2fe2fecdd286af7b72852d60",
+    "featureSetToken": "289a7c09071371fb1ee3c41d473843133783dfe7",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -5226,7 +5244,7 @@
     "country": "US",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "170103299323175337",
+    "guestId": "170113139075603197",
     "hasCommunityMemberships": "false",
     "language": "en",
     "oneFactorLoginEligibility": {
@@ -5266,12 +5284,6 @@
   "developer": {
     "dtabBarInfo": {
       "hide": "false"
-    }
-  },
-  "ads": {
-    "typeahead": {
-      "targetingLocation": {},
-      "forecastAudience": {}
     }
   }
 }
