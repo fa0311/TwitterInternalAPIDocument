@@ -378,15 +378,6 @@
     ]
   },
   {
-    "queryId": "geo/places",
-    "dispatch_key": "get",
-    "dispatch": [
-      "get",
-      "",
-      "https://api.twitter.com/1.1/{queryId}.json"
-    ]
-  },
-  {
     "queryId": "promoted_content/log",
     "dispatch_key": "post",
     "dispatch": [
@@ -936,15 +927,6 @@
     ]
   },
   {
-    "queryId": "users/recommendations",
-    "dispatch_key": "get",
-    "dispatch": [
-      "get",
-      "",
-      "https://api.twitter.com/1.1/{queryId}.json"
-    ]
-  },
-  {
     "queryId": "onboarding/bounce",
     "dispatch_key": "post",
     "dispatch": [
@@ -994,6 +976,15 @@
     "dispatch_key": "post",
     "dispatch": [
       "post",
+      "",
+      "https://api.twitter.com/1.1/{queryId}.json"
+    ]
+  },
+  {
+    "queryId": "users/recommendations",
+    "dispatch_key": "get",
+    "dispatch": [
+      "get",
       "",
       "https://api.twitter.com/1.1/{queryId}.json"
     ]
