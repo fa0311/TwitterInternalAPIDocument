@@ -2,7 +2,8 @@ name: Generator
 
 on:
   schedule:
-    - cron: '0 21 * * *'
+    - cron: "0 21 * * *"
+  workflow_dispatch:
 
 jobs:
   generator:
@@ -14,8 +15,8 @@ jobs:
       - name: Setup Python
         uses: actions/setup-python@v2
         with:
-          python-version: '3.9'
-          architecture: 'x64'
+          python-version: "3.9"
+          architecture: "x64"
       - name: Get Python version
         run: python -V
 
