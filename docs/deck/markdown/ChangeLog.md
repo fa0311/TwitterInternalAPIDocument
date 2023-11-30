@@ -1782,3 +1782,15 @@
 #### remove<br>
 - responsive_web_twitter_article_tweet_own_notes_enabled<br>
 - responsive_web_twitter_article_v2_apis_enabled<br>
+## 2023/11/30<br>
+### API<br>
+#### add<br>
+- UserArticlesTweets<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- c9s_timelines_media_tab_enabled<br>
+- subscriptions_inapp_grok_default_mode<br>
+#### remove<br>
+- None<br>
