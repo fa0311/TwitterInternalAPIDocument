@@ -1703,7 +1703,8 @@
     "default": "default",
     "with_replies": "with_replies",
     "superfollows": "superfollows",
-    "highlights": "highlights"
+    "highlights": "highlights",
+    "articles": "articles"
   },
   {
     "REQUEST": "rweb/userClaims/FETCH_CLAIMS_REQUEST",
@@ -3094,11 +3095,6 @@
     "TYPING": "typing",
     "WAITING": "waiting",
     "FAILED": "failed"
-  },
-  {
-    "REQUEST": "rweb/grok/FETCH_TOLKEN_REQUEST",
-    "SUCCESS": "rweb/grok/FETCH_TOKEN_SUCCESS",
-    "FAILURE": "rweb/grok/FETCH_TOKEN_FAILURE"
   },
   {
     "HUMAN": "1",
@@ -6394,15 +6390,21 @@
     "default": "tweets",
     "with_replies": "tweets_and_replies",
     "superfollows": "superfollows_tweets",
-    "highlights": "highlights_tweets"
+    "highlights": "highlights_tweets",
+    "articles": "article_tweets"
   },
-  "{\"default\":\"()\"{\"screenName\":\"e\"}{\"screenName\":\"e\"}{\"screenName\":\"e\"}{\"screenName\":\"e\"}{\"screenName\":\"e\"}{\"screenName\":\"e\"}{\"screenName\":\"e\"}{\"screenName\":\"e\"}}",
-  "{\"default\":()=>r().b7363b66,\"with_replies\":()=>r().b7363b66,\"superfollows\":()=>r().ce659062,\"highlights\":()=>r().f1e98cc2}",
-  "{\"default\":()=>r().d1e5e328,\"with_replies\":()=>r().d1e5e328,\"superfollows\":()=>r().hb26a1fe,\"highlights\":()=>r().b7c3572e}",
+  "{\"default\":\"()\"{\"screenName\":\"e\"}{\"screenName\":\"e\"}{\"screenName\":\"e\"}{\"screenName\":\"e\"}{\"screenName\":\"e\"}{\"screenName\":\"e\"}{\"screenName\":\"e\"}{\"screenName\":\"e\"}{\"screenName\":\"e\"}{\"screenName\":\"e\"}}",
+  "{\"default\":()=>r().b7363b66,\"with_replies\":()=>r().b7363b66,\"superfollows\":()=>r().ce659062,\"highlights\":()=>r().f1e98cc2,\"articles\":()=>r().d5c743c6}",
+  "{\"default\":()=>r().d1e5e328,\"with_replies\":()=>r().d1e5e328,\"superfollows\":()=>r().hb26a1fe,\"highlights\":()=>r().b7c3572e,\"articles\":()=>r().i8123550}",
   "{\"default\":\"()\"{\"screenName\":\"e\"}{\"screenName\":\"e\"}{\"screenName\":\"e\"}{\"screenName\":\"e\"}{\"screenName\":\"e\"}{\"screenName\":\"e\"}}",
-  "{\"default\":()=>r().f34dfc18,\"with_replies\":()=>r().f34dfc18,\"superfollows\":()=>r().h9346040}",
-  "{\"default\":\"()\"{\"fullName\":\"e\"}{\"fullName\":\"e\"}{\"fullName\":\"e\"}{\"fullName\":\"e\"}{\"fullName\":\"e\"}{\"fullName\":\"e\"}{\"fullName\":\"e\"}{\"fullName\":\"e\"}}",
-  "{\"default\":\"()\"{\"fullName\":\"e\",\"screenName\":\"n\"}{\"fullName\":\"e\",\"screenName\":\"n\"}{\"fullName\":\"e\",\"screenName\":\"n\"}{\"fullName\":\"e\",\"screenName\":\"n\"}{\"fullName\":\"e\",\"screenName\":\"n\"}{\"fullName\":\"e\",\"screenName\":\"n\"}{\"fullName\":\"e\",\"screenName\":\"n\"}{\"fullName\":\"e\",\"screenName\":\"n\"}}",
+  "{\"default\":()=>r().f34dfc18,\"with_replies\":()=>r().f34dfc18,\"superfollows\":()=>r().h9346040,\"articles\":()=>r().i4c3ddc6}",
+  "{\"default\":()=>r().e0118142,\"articles\":()=>r().ee9e42aa}",
+  {
+    "default": "/compose/tweet",
+    "articles": "/compose/articles"
+  },
+  "{\"default\":\"()\"{\"fullName\":\"e\"}{\"fullName\":\"e\"}{\"fullName\":\"e\"}{\"fullName\":\"e\"}{\"fullName\":\"e\"}{\"fullName\":\"e\"}{\"fullName\":\"e\"}{\"fullName\":\"e\"}{\"fullName\":\"e\"}{\"fullName\":\"e\"}}",
+  "{\"default\":\"()\"{\"fullName\":\"e\",\"screenName\":\"n\"}{\"fullName\":\"e\",\"screenName\":\"n\"}{\"fullName\":\"e\",\"screenName\":\"n\"}{\"fullName\":\"e\",\"screenName\":\"n\"}{\"fullName\":\"e\",\"screenName\":\"n\"}{\"fullName\":\"e\",\"screenName\":\"n\"}{\"fullName\":\"e\",\"screenName\":\"n\"}{\"fullName\":\"e\",\"screenName\":\"n\"}{\"fullName\":\"e\",\"screenName\":\"n\"}{\"fullName\":\"e\",\"screenName\":\"n\"}}",
   {
     "REQUEST": "rweb/userTweetStats/FETCH_USER_TWEET_STATS_REQUEST",
     "SUCCESS": "rweb/userTweetStats/FETCH_USER_TWEET_STATS_SUCCESS",
@@ -6840,8 +6842,8 @@
     "PUBLISHED": "Published"
   },
   {
-    "DRAFT": "l.DRAFT",
-    "PUBLISHED": "l.PUBLISHED"
+    "DRAFT": "a.DRAFT",
+    "PUBLISHED": "a.PUBLISHED"
   },
   {
     "primary0": "primary",
