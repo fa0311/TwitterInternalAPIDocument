@@ -512,6 +512,9 @@
       "c9s_timelines_default_selection": {
         "value": "latest"
       },
+      "c9s_timelines_media_tab_enabled": {
+        "value": "false"
+      },
       "c9s_timelines_top_latest_stickiness_enabled": {
         "value": "false"
       },
@@ -1734,7 +1737,7 @@
         "value": "false"
       },
       "responsive_web_twitter_article_title_limit": {
-        "value": "100"
+        "value": "70"
       },
       "responsive_web_twitter_article_tweet_consumption_enabled": {
         "value": "false"
@@ -2112,6 +2115,9 @@
       },
       "subscriptions_inapp_grok": {
         "value": "false"
+      },
+      "subscriptions_inapp_grok_default_mode": {
+        "value": "fun"
       },
       "subscriptions_inapp_grok_video_upsell": {
         "value": ""
@@ -4265,7 +4271,7 @@
           "value": "false"
         },
         "responsive_web_twitter_article_title_limit": {
-          "value": "100"
+          "value": "70"
         },
         "responsive_web_twitter_article_tweet_consumption_enabled": {
           "value": "false"
@@ -4643,6 +4649,9 @@
         },
         "subscriptions_inapp_grok": {
           "value": "false"
+        },
+        "subscriptions_inapp_grok_default_mode": {
+          "value": "fun"
         },
         "subscriptions_inapp_grok_video_upsell": {
           "value": ""
@@ -5174,10 +5183,10 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "1c9422ba31a76620f02ee23ae27c72aa"
+      "settingsVersion": "74d78506374fb3aede42ffef11677e4c"
     },
     "debug": {},
-    "featureSetToken": "289a7c09071371fb1ee3c41d473843133783dfe7",
+    "featureSetToken": "18b0d485d4ed4ab6cd5c0e308af0abf8ee32a794",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -5247,7 +5256,7 @@
     "country": "US",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "170129227488556589",
+    "guestId": "170137866634888699",
     "hasCommunityMemberships": "false",
     "language": "en",
     "oneFactorLoginEligibility": {
