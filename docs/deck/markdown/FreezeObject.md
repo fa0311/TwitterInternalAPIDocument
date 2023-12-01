@@ -1845,6 +1845,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | with_replies | with_replies |
 | superfollows | superfollows |
 | highlights   | highlights   |
+| articles     | articles     |
 
 | constant   | value                                |
 |:-----------|:-------------------------------------|
@@ -3245,12 +3246,6 @@ This document is entirely auto-generated and may contain errors.<br>
 | TYPING     | typing  |
 | WAITING    | waiting |
 | FAILED     | failed  |
-
-| constant   | value                          |
-|:-----------|:-------------------------------|
-| REQUEST    | rweb/grok/FETCH_TOLKEN_REQUEST |
-| SUCCESS    | rweb/grok/FETCH_TOKEN_SUCCESS  |
-| FAILURE    | rweb/grok/FETCH_TOKEN_FAILURE  |
 
 | constant   |   value |
 |:-----------|--------:|
@@ -6881,18 +6876,19 @@ This document is entirely auto-generated and may contain errors.<br>
 | with_replies | tweets_and_replies  |
 | superfollows | superfollows_tweets |
 | highlights   | highlights_tweets   |
+| articles     | article_tweets      |
 
 ```internal process
 # Error
-{"default":"()"{"screenName":"e"}{"screenName":"e"}{"screenName":"e"}{"screenName":"e"}{"screenName":"e"}{"screenName":"e"}{"screenName":"e"}{"screenName":"e"}}
+{"default":"()"{"screenName":"e"}{"screenName":"e"}{"screenName":"e"}{"screenName":"e"}{"screenName":"e"}{"screenName":"e"}{"screenName":"e"}{"screenName":"e"}{"screenName":"e"}{"screenName":"e"}}
 ```
 ```internal process
 # Error
-{"default":()=>r().b7363b66,"with_replies":()=>r().b7363b66,"superfollows":()=>r().ce659062,"highlights":()=>r().f1e98cc2}
+{"default":()=>r().b7363b66,"with_replies":()=>r().b7363b66,"superfollows":()=>r().ce659062,"highlights":()=>r().f1e98cc2,"articles":()=>r().d5c743c6}
 ```
 ```internal process
 # Error
-{"default":()=>r().d1e5e328,"with_replies":()=>r().d1e5e328,"superfollows":()=>r().hb26a1fe,"highlights":()=>r().b7c3572e}
+{"default":()=>r().d1e5e328,"with_replies":()=>r().d1e5e328,"superfollows":()=>r().hb26a1fe,"highlights":()=>r().b7c3572e,"articles":()=>r().i8123550}
 ```
 ```internal process
 # Error
@@ -6900,15 +6896,24 @@ This document is entirely auto-generated and may contain errors.<br>
 ```
 ```internal process
 # Error
-{"default":()=>r().f34dfc18,"with_replies":()=>r().f34dfc18,"superfollows":()=>r().h9346040}
+{"default":()=>r().f34dfc18,"with_replies":()=>r().f34dfc18,"superfollows":()=>r().h9346040,"articles":()=>r().i4c3ddc6}
 ```
 ```internal process
 # Error
-{"default":"()"{"fullName":"e"}{"fullName":"e"}{"fullName":"e"}{"fullName":"e"}{"fullName":"e"}{"fullName":"e"}{"fullName":"e"}{"fullName":"e"}}
+{"default":()=>r().e0118142,"articles":()=>r().ee9e42aa}
+```
+| constant   | value             |
+|:-----------|:------------------|
+| default    | /compose/tweet    |
+| articles   | /compose/articles |
+
+```internal process
+# Error
+{"default":"()"{"fullName":"e"}{"fullName":"e"}{"fullName":"e"}{"fullName":"e"}{"fullName":"e"}{"fullName":"e"}{"fullName":"e"}{"fullName":"e"}{"fullName":"e"}{"fullName":"e"}}
 ```
 ```internal process
 # Error
-{"default":"()"{"fullName":"e","screenName":"n"}{"fullName":"e","screenName":"n"}{"fullName":"e","screenName":"n"}{"fullName":"e","screenName":"n"}{"fullName":"e","screenName":"n"}{"fullName":"e","screenName":"n"}{"fullName":"e","screenName":"n"}{"fullName":"e","screenName":"n"}}
+{"default":"()"{"fullName":"e","screenName":"n"}{"fullName":"e","screenName":"n"}{"fullName":"e","screenName":"n"}{"fullName":"e","screenName":"n"}{"fullName":"e","screenName":"n"}{"fullName":"e","screenName":"n"}{"fullName":"e","screenName":"n"}{"fullName":"e","screenName":"n"}{"fullName":"e","scre...
 ```
 | constant   | value                                              |
 |:-----------|:---------------------------------------------------|
@@ -7456,8 +7461,8 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant   | value       |
 |:-----------|:------------|
-| DRAFT      | l.DRAFT     |
-| PUBLISHED  | l.PUBLISHED |
+| DRAFT      | a.DRAFT     |
+| PUBLISHED  | a.PUBLISHED |
 
 | constant   | value      |
 |:-----------|:-----------|

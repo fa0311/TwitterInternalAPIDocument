@@ -2584,3 +2584,16 @@
 - subscriptions_inapp_grok_default_mode<br>
 #### remove<br>
 - None<br>
+## 2023/11/30<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- subscriptions_inapp_grok_upsell_enabled<br>
+#### remove<br>
+- responsive_web_continue_as_always_enabled<br>
+- responsive_web_continue_as_param_enabled<br>
+- stateful_login_intent_enabled<br>

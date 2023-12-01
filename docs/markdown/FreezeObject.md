@@ -1474,12 +1474,6 @@ This document is entirely auto-generated and may contain errors.<br>
 | SUCCESS    | rweb/session/VERIFY_CREDENTIALS_SUCCESS |
 | FAILURE    | rweb/session/VERIFY_CREDENTIALS_FAILURE |
 
-| constant   | value                                                   |
-|:-----------|:--------------------------------------------------------|
-| REQUEST    | rweb/session/FETCH_ONE_FACTOR_LOGIN_ELIGIBILITY_REQUEST |
-| SUCCESS    | rweb/session/FETCH_ONE_FACTOR_LOGIN_ELIGIBILITY_SUCCESS |
-| FAILURE    | rweb/session/FETCH_ONE_FACTOR_LOGIN_ELIGIBILITY_FAILURE |
-
 | constant   | value                                    |
 |:-----------|:-----------------------------------------|
 | REQUEST    | rweb/session/FETCH_GUEST_SEGMENT_REQUEST |
