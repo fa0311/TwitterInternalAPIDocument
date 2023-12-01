@@ -2597,3 +2597,14 @@
 - responsive_web_continue_as_always_enabled<br>
 - responsive_web_continue_as_param_enabled<br>
 - stateful_login_intent_enabled<br>
+## 2023/12/01<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- subscriptions_inapp_grok_nux_enabled<br>
+#### remove<br>
+- None<br>
