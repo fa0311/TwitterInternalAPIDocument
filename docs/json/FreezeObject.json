@@ -1246,6 +1246,7 @@
     "topics": "s",
     "tweets": "s",
     "articleEntities": "s",
+    "tv": "s",
     "twitterArticles": "s",
     "trustedFriends": "s",
     "userPresence": "s",
@@ -4249,7 +4250,7 @@
     "SUCCESS": "rweb/bookmarkFolders/CREATE_BOOKMARK_FOLDERS_SUCCESS",
     "FAILURE": "rweb/bookmarkFolders/CREATE_BOOKMARK_FOLDERS_FAILURE"
   },
-  "{\"ActionsBar\":\"y.Z\",\"ActionMenu\":\"function()\"{\"Icon\":\"e\",\"isDisabled\":\"t\",\"items\":\"n\",\"onOpen\":\"i\"}{\"const r=o.useCallback()\"{\"items\":\"n\",\"onCloseRequested\":\"e\"}{\"Icon\":\"e\",\"isDisabled\":\"t\",\"onClick\":\"i\",\"renderActionMenu\":\"r\"}},\"CallToAction\":\"a.ZP\",\"EditCallout\":\"E.Z\",\"Education\":\"_.Z\",\"HighlightedUserLabel\":\"c.Z\",\"Media\":\"I.Z\",\"Place\":\"r.ZP\",\"PromotedDetails\":\"u.Z\",\"PromotedUserProfileCard\":\"A\",\"ReplyContext\":\"P.ZP\",\"RichContent\":\"L.Z\",\"SocialContext\":\"b.Z\",\"Text\":\"M.Z\",\"Tombstone\":\"w.Z\",\"Timestamp\":\"p.Z\",\"UserAvatar\":\"D.Z\",\"UserFollowIndicator\":\"F.Z\",\"UserName\":\"R.Z\",\"ArticleCard\":\"f.Z\"}",
+  "{\"ActionsBar\":\"f.Z\",\"ActionMenu\":\"function()\"{\"Icon\":\"e\",\"isDisabled\":\"t\",\"items\":\"n\",\"onOpen\":\"i\"}{\"const r=o.useCallback()\"{\"items\":\"n\",\"onCloseRequested\":\"e\"}{\"Icon\":\"e\",\"isDisabled\":\"t\",\"onClick\":\"i\",\"renderActionMenu\":\"r\"}},\"CallToAction\":\"a.ZP\",\"EditCallout\":\"E.Z\",\"Education\":\"_.Z\",\"HighlightedUserLabel\":\"c.Z\",\"Media\":\"I.Z\",\"Place\":\"r.ZP\",\"PromotedDetails\":\"u.Z\",\"PromotedUserProfileCard\":\"A\",\"ReplyContext\":\"P.ZP\",\"RichContent\":\"L.Z\",\"SocialContext\":\"b.Z\",\"Text\":\"M.Z\",\"Tombstone\":\"w.Z\",\"Timestamp\":\"p.Z\",\"UserAvatar\":\"D.Z\",\"UserFollowIndicator\":\"F.Z\",\"UserName\":\"R.Z\",\"ArticleCard\":\"y.Z\"}",
   {
     "REQUEST": "rweb/teams/FETCH_TEAMS_REQUEST",
     "SUCCESS": "rweb/teams/FETCH_TEAMS_SUCCESS",
@@ -4932,6 +4933,11 @@
     "WebSidebar": "web_sidebar"
   },
   {
+    "REQUEST": "rweb/settings/usernames/FETCH_USERNAMES_REQUEST",
+    "SUCCESS": "rweb/settings/usernames/FETCH_USERNAMES_SUCCESS",
+    "FAILURE": "rweb/settings/usernames/FETCH_USERNAMES_FAILURE"
+  },
+  {
     "primary0": "primary",
     "blue0": "blue500",
     "green0": "green500",
@@ -4943,11 +4949,6 @@
     "teal0": "teal500",
     "yellow0": "yellow500",
     "gray0": "gray500"
-  },
-  {
-    "REQUEST": "rweb/settings/usernames/FETCH_USERNAMES_REQUEST",
-    "SUCCESS": "rweb/settings/usernames/FETCH_USERNAMES_SUCCESS",
-    "FAILURE": "rweb/settings/usernames/FETCH_USERNAMES_FAILURE"
   },
   {
     "EmptyState": "EmptyState",
@@ -5085,6 +5086,19 @@
     }
   },
   {
+    "primary0": "primary",
+    "blue0": "blue500",
+    "green0": "green500",
+    "magenta0": "magenta500",
+    "orange0": "orange500",
+    "plum0": "plum500",
+    "purple0": "purple500",
+    "red0": "red500",
+    "teal0": "teal500",
+    "yellow0": "yellow500",
+    "gray0": "gray500"
+  },
+  {
     "REQUEST": "rweb/safetyMode/UPDATE_SAFETY_MODE_SETTINGS_REQUEST",
     "SUCCESS": "rweb/safetyMode/UPDATE_SAFETY_MODE_SETTINGS_SUCCESS",
     "FAILURE": "rweb/safetyMode/UPDATE_SAFETY_MODE_SETTINGS_FAILURE"
@@ -5203,6 +5217,19 @@
     "format_inline": "format-inline"
   },
   {
+    "primary0": "primary",
+    "blue0": "blue500",
+    "green0": "green500",
+    "magenta0": "magenta500",
+    "orange0": "orange500",
+    "plum0": "plum500",
+    "purple0": "purple500",
+    "red0": "red500",
+    "teal0": "teal500",
+    "yellow0": "yellow500",
+    "gray0": "gray500"
+  },
+  {
     "MEDIA": "MEDIA",
     "TWEET": "TWEET"
   },
@@ -5226,32 +5253,6 @@
   {
     "DRAFT": "s.DRAFT",
     "PUBLISHED": "s.PUBLISHED"
-  },
-  {
-    "primary0": "primary",
-    "blue0": "blue500",
-    "green0": "green500",
-    "magenta0": "magenta500",
-    "orange0": "orange500",
-    "plum0": "plum500",
-    "purple0": "purple500",
-    "red0": "red500",
-    "teal0": "teal500",
-    "yellow0": "yellow500",
-    "gray0": "gray500"
-  },
-  {
-    "primary0": "primary",
-    "blue0": "blue500",
-    "green0": "green500",
-    "magenta0": "magenta500",
-    "orange0": "orange500",
-    "plum0": "plum500",
-    "purple0": "purple500",
-    "red0": "red500",
-    "teal0": "teal500",
-    "yellow0": "yellow500",
-    "gray0": "gray500"
   },
   "{\"root\":`${\"t\"}/application`,\"eligibility\":`${\"t\"}/application/eligibility`,\"pricing\":`${\"t\"}/application/pricing`,\"completeProfile\":`${\"t\"}/application/complete_profile`,\"submit\":`${\"t\"}/application/submit`,\"submitted\":`${\"t\"}/application/submitted`,\"waitlisted\":`${\"t\"}/application/waitlisted`,\"rejected\":`${\"t\"}/application/rejected`}",
   "{\"root\":`${\"t\"}/onboarding`,\"perksIntro\":`${\"t\"}/onboarding/perks_intro`,\"perksDescription\":`${\"t\"}/onboarding/perks_description`,\"perksBadges\":`${\"t\"}/onboarding/perks_badges`,\"perksConfirm\":`${\"t\"}/onboarding/perks_confirm`,\"pricing\":`${\"t\"}/onboarding/pricing`,\"pricingConfirm\":`${\"t\"}/onboarding/pricing_confirm`,\"stripeSetup\":`${\"t\"}/onboarding/stripe_setup`,\"stripePending\":`${\"t\"}/onboarding/stripe_pending`,\"stripeCompleted\":`${\"t\"}/onboarding/stripe_completed`}",
@@ -5366,10 +5367,10 @@
     "product": "p",
     "design": "b",
     "marketing": "m",
-    "sales_am": "f",
-    "operations": "w",
-    "people_hr": "y",
-    "finance_accounting": "C",
+    "sales_am": "w",
+    "operations": "C",
+    "people_hr": "f",
+    "finance_accounting": "y",
     "legal_compliance": "k",
     "science_engineering": "S",
     "medical": "B",
@@ -5377,10 +5378,10 @@
     "other": "D"
   },
   {
-    "entry_level": "L",
-    "junior": "W",
-    "mid_level": "Z",
-    "senior": "x",
+    "entry_level": "W",
+    "junior": "E",
+    "mid_level": "x",
+    "senior": "Z",
     "lead": "P",
     "manager": "T",
     "executive": "v"
@@ -5391,8 +5392,8 @@
       "description": "H"
     },
     "remote": {
-      "label": "F",
-      "description": "j"
+      "label": "j",
+      "description": "z"
     },
     "hybrid": {
       "label": "O",
@@ -5519,6 +5520,99 @@
   {
     "TopicCategory": "topic_category",
     "Topic": "topic"
+  },
+  {
+    "ACCOUNTS": "Accounts",
+    "INVITATIONS": "Invitations"
+  },
+  {
+    "JOBS": "Jobs",
+    "FEATURED_JOBS": "Featured Jobs"
+  },
+  {
+    "createInvite": "createInvite",
+    "resendInvite": "resendInvite",
+    "deleteInvite": "deleteInvite",
+    "assignBadge": "assignBadge",
+    "deleteAffiliate": "deleteAffiliate",
+    "createApplication": "createApplication",
+    "createJob": "createJob",
+    "updateJob": "updateJob",
+    "deleteJob": "deleteJob",
+    "featureJob": "featureJob",
+    "unfeatureJob": "unfeatureJob",
+    "configureOrganization": "configureOrganization",
+    "apiDeckIntegration": "apiDeckIntegration",
+    "atsSyncErrorMessage": "atsSyncErrorMessage"
+  },
+  {
+    "page": "verified-organizations",
+    "section": "hiring"
+  },
+  {
+    "...Ie": "_",
+    "component": "job-splash-screen"
+  },
+  {
+    "...Ie": "_",
+    "component": "apideck-vault"
+  },
+  {
+    "...Ie": "_",
+    "component": "sync-ats-jobs"
+  },
+  {
+    "Affiliate": "Affiliate"
+  },
+  {
+    "MEDIA": "MEDIA",
+    "TWEET": "TWEET"
+  },
+  {
+    "IMMUTABLE": "IMMUTABLE"
+  },
+  {
+    "GIF": "TweetGif",
+    "IMAGE": "TweetImage",
+    "VIDEO": "TweetVideo"
+  },
+  {
+    "TWITTER_ARTICLES_TAB": "TWITTER_ARTICLES_TAB",
+    "TWITTER_ARTICLE_VIEW": "TWITTER_ARTICLE_VIEW",
+    "LONGFORM_COMPOSER": "LONGFORM_COMPOSER"
+  },
+  {
+    "DRAFT": "Draft",
+    "PUBLISHED": "Published"
+  },
+  {
+    "DRAFT": "o.DRAFT",
+    "PUBLISHED": "o.PUBLISHED"
+  },
+  {
+    "CONFIG_LOADED": "rweb/verifiedOrgConfig/LOADED",
+    "CONFIG_REQUEST": "rweb/verifiedOrgConfig/REQUEST",
+    "SET_CONFIG": "rweb/verifiedOrgConfig/SET"
+  },
+  {
+    "fetchStatus": "E.ZP.NONE",
+    "config": "Ge"
+  },
+  "{[_.hA.switchFromDirect]:\"m().dca6b3ac\",[_.hA.generate]:\"m().dca6b3ac\",[_.hA.updateSeats]:\"m().c97ad52a\"}",
+  "{[w.hA.generate]:\"b().fc1f43d0\",[w.hA.switchFromDirect]:\"b().fc1f43d0\",[w.hA.updateSeats]:\"b().c97ad52a\"}",
+  {
+    "generate": "generate",
+    "updateSeats": "updateSeats",
+    "switchFromDirect": "switchFromDirect"
+  },
+  {
+    "single_line": "singleline",
+    "format_inline": "format-inline"
+  },
+  {
+    "Active": "active",
+    "Expand": "expand",
+    "Remove": "remove"
   },
   {
     "BlueVerified": "BlueVerified",
@@ -5712,7 +5806,7 @@
     "AppealSuspension": "appealsuspension",
     "Notification": "notification"
   },
-  "{\"ActionsBar\":\"C.Z\",\"ActionMenu\":\"function()\"{\"Icon\":\"e\",\"isDisabled\":\"t\",\"items\":\"n\",\"onOpen\":\"i\"}{\"const o=r.useCallback()\"{\"items\":\"n\",\"onCloseRequested\":\"e\"}{\"Icon\":\"e\",\"isDisabled\":\"t\",\"onClick\":\"i\",\"renderActionMenu\":\"o\"}},\"CallToAction\":\"a.ZP\",\"EditCallout\":\"_.Z\",\"Education\":\"E.Z\",\"HighlightedUserLabel\":\"c.Z\",\"Media\":\"k.Z\",\"Place\":\"o.ZP\",\"PromotedDetails\":\"u.Z\",\"PromotedUserProfileCard\":\"L\",\"ReplyContext\":\"A.ZP\",\"RichContent\":\"P.Z\",\"SocialContext\":\"b.Z\",\"Text\":\"R.Z\",\"Tombstone\":\"g.Z\",\"Timestamp\":\"p.Z\",\"UserAvatar\":\"D.Z\",\"UserFollowIndicator\":\"U.Z\",\"UserName\":\"F.Z\",\"ArticleCard\":\"f.Z\"}",
+  "{\"ActionsBar\":\"C.Z\",\"ActionMenu\":\"function()\"{\"Icon\":\"e\",\"isDisabled\":\"t\",\"items\":\"n\",\"onOpen\":\"i\"}{\"const o=r.useCallback()\"{\"items\":\"n\",\"onCloseRequested\":\"e\"}{\"Icon\":\"e\",\"isDisabled\":\"t\",\"onClick\":\"i\",\"renderActionMenu\":\"o\"}},\"CallToAction\":\"a.ZP\",\"EditCallout\":\"_.Z\",\"Education\":\"E.Z\",\"HighlightedUserLabel\":\"c.Z\",\"Media\":\"T.Z\",\"Place\":\"o.ZP\",\"PromotedDetails\":\"u.Z\",\"PromotedUserProfileCard\":\"L\",\"ReplyContext\":\"A.ZP\",\"RichContent\":\"P.Z\",\"SocialContext\":\"b.Z\",\"Text\":\"R.Z\",\"Tombstone\":\"g.Z\",\"Timestamp\":\"p.Z\",\"UserAvatar\":\"D.Z\",\"UserFollowIndicator\":\"U.Z\",\"UserName\":\"F.Z\",\"ArticleCard\":\"f.Z\"}",
   {
     "original": "original",
     "banner": "banner",
@@ -5739,6 +5833,15 @@
     "MinRetweets": "minRetweets",
     "ReplyFilter": "replyFilter",
     "LinkFilter": "linkFilter"
+  },
+  {
+    "VIDEO": "VIDEO",
+    "SHORT_VIDEO": "SHORT_VIDEO"
+  },
+  {
+    "REQUEST": "rweb/FETCH_TV_EXPLORE/REQUEST",
+    "SUCCESS": "rweb/FETCH_TV_EXPLORE/SUCCESS",
+    "FAILURE": "rweb/FETCH_TV_EXPLORE/FAILURE"
   },
   {
     "FakeAccount": "fake_account",
@@ -5918,12 +6021,6 @@
     "google": "https://play.google.com/store/account/subscriptions?sku=com.twitter.google.rogue.one.1.1&package=com.twitter.android"
   },
   {
-    "Beta": "Beta",
-    "Live": "Live",
-    "Sandbox": "Sandbox",
-    "Test": "Test"
-  },
-  {
     "primary0": "primary",
     "blue0": "blue500",
     "green0": "green500",
@@ -5935,6 +6032,12 @@
     "teal0": "teal500",
     "yellow0": "yellow500",
     "gray0": "gray500"
+  },
+  {
+    "Beta": "Beta",
+    "Live": "Live",
+    "Sandbox": "Sandbox",
+    "Test": "Test"
   },
   {
     "NotStarted": "not_started",
@@ -6021,99 +6124,6 @@
     "Reserved5": "Reserved5",
     "Reserved6": "Reserved6",
     "Reserved7": "Reserved7"
-  },
-  {
-    "Affiliate": "Affiliate"
-  },
-  {
-    "MEDIA": "MEDIA",
-    "TWEET": "TWEET"
-  },
-  {
-    "IMMUTABLE": "IMMUTABLE"
-  },
-  {
-    "GIF": "TweetGif",
-    "IMAGE": "TweetImage",
-    "VIDEO": "TweetVideo"
-  },
-  {
-    "TWITTER_ARTICLES_TAB": "TWITTER_ARTICLES_TAB",
-    "TWITTER_ARTICLE_VIEW": "TWITTER_ARTICLE_VIEW",
-    "LONGFORM_COMPOSER": "LONGFORM_COMPOSER"
-  },
-  {
-    "DRAFT": "Draft",
-    "PUBLISHED": "Published"
-  },
-  {
-    "DRAFT": "o.DRAFT",
-    "PUBLISHED": "o.PUBLISHED"
-  },
-  {
-    "ACCOUNTS": "Accounts",
-    "INVITATIONS": "Invitations"
-  },
-  {
-    "JOBS": "Jobs",
-    "FEATURED_JOBS": "Featured Jobs"
-  },
-  {
-    "CONFIG_LOADED": "rweb/verifiedOrgConfig/LOADED",
-    "CONFIG_REQUEST": "rweb/verifiedOrgConfig/REQUEST",
-    "SET_CONFIG": "rweb/verifiedOrgConfig/SET"
-  },
-  {
-    "fetchStatus": "E.ZP.NONE",
-    "config": "Qe"
-  },
-  {
-    "createInvite": "createInvite",
-    "resendInvite": "resendInvite",
-    "deleteInvite": "deleteInvite",
-    "assignBadge": "assignBadge",
-    "deleteAffiliate": "deleteAffiliate",
-    "createApplication": "createApplication",
-    "createJob": "createJob",
-    "updateJob": "updateJob",
-    "deleteJob": "deleteJob",
-    "featureJob": "featureJob",
-    "unfeatureJob": "unfeatureJob",
-    "configureOrganization": "configureOrganization",
-    "apiDeckIntegration": "apiDeckIntegration",
-    "atsSyncErrorMessage": "atsSyncErrorMessage"
-  },
-  "{[k.hA.switchFromDirect]:\"m().dca6b3ac\",[k.hA.generate]:\"m().dca6b3ac\",[k.hA.updateSeats]:\"m().c97ad52a\"}",
-  {
-    "page": "verified-organizations",
-    "section": "hiring"
-  },
-  {
-    "...Fe": "_",
-    "component": "job-splash-screen"
-  },
-  {
-    "...Fe": "_",
-    "component": "apideck-vault"
-  },
-  {
-    "...Fe": "_",
-    "component": "sync-ats-jobs"
-  },
-  "{[I.hA.generate]:\"f().fc1f43d0\",[I.hA.switchFromDirect]:\"f().fc1f43d0\",[I.hA.updateSeats]:\"f().c97ad52a\"}",
-  {
-    "generate": "generate",
-    "updateSeats": "updateSeats",
-    "switchFromDirect": "switchFromDirect"
-  },
-  {
-    "single_line": "singleline",
-    "format_inline": "format-inline"
-  },
-  {
-    "Active": "active",
-    "Expand": "expand",
-    "Remove": "remove"
   },
   {
     "search": "search"
