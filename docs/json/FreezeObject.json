@@ -3942,10 +3942,6 @@
     "JoinConversation": "i.Cr.JOIN_CONVERSATION"
   },
   {
-    "password": "password",
-    "username": "username_or_email"
-  },
-  {
     "Cashtag": "cashtag",
     "Hashtag": "hashtag",
     "Mention": "mention",
@@ -4026,7 +4022,7 @@
     "Topic": "Topic",
     "Trending": "Trending"
   },
-  "{[z.v.FOLLOWS]:\"W\",[z.v.FRIENDS_OF_FRIENDS]:\"X\"}",
+  "{[z.v.FOLLOWS]:\"K\",[z.v.FRIENDS_OF_FRIENDS]:\"X\"}",
   {
     "START": "start",
     "END": "end"
@@ -5647,17 +5643,17 @@
     "PHONE_NUMBER": "number"
   },
   {
-    "title": "h().f70cd5ee",
-    "doneButtonLabel": "h().b772cd66",
-    "reachOptionCall": "h().i019c8b6",
-    "reachOptionSms": "h().eabc6906",
-    "reachOptionBoth": "h().h24d868c",
-    "countryCodeOptional": "h().fa64f1fc",
-    "areaCodeLabel": "h().gf8388fe",
-    "phoneNumberOptional": "h().ce37ea44",
-    "phoneNumberLabel": "h().c7d3629a",
-    "reachMessage": "h().ce48a958",
-    "reachMessageHightlight": "h().b97705ce"
+    "title": "f().f70cd5ee",
+    "doneButtonLabel": "f().b772cd66",
+    "reachOptionCall": "f().i019c8b6",
+    "reachOptionSms": "f().eabc6906",
+    "reachOptionBoth": "f().h24d868c",
+    "countryCodeOptional": "f().fa64f1fc",
+    "areaCodeLabel": "f().gf8388fe",
+    "phoneNumberOptional": "f().ce37ea44",
+    "phoneNumberLabel": "f().c7d3629a",
+    "reachMessage": "f().ce48a958",
+    "reachMessageHightlight": "f().b97705ce"
   },
   {
     "CALL": "call",
@@ -6244,17 +6240,6 @@
   {
     "CONVERSATION": "conversation",
     "TIMELINE": "timeline"
-  },
-  {
-    "Cashtag": "cashtag",
-    "Hashtag": "hashtag",
-    "Mention": "mention",
-    "Url": "url",
-    "List": "twitterList"
-  },
-  {
-    "CashtagClick": "cashtag_click",
-    "HashtagClick": "hashtag_click"
   },
   {
     "single_line": "singleline",
