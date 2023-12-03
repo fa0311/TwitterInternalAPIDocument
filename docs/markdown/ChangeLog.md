@@ -2608,3 +2608,15 @@
 - subscriptions_inapp_grok_nux_enabled<br>
 #### remove<br>
 - None<br>
+## 2023/12/02<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- recruiting_premium_jobs_enabled<br>
+- subscriptions_feature_premium_jobs<br>
+#### remove<br>
+- responsive_web_verified_organizations_advertising_enabled<br>

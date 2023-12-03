@@ -7660,6 +7660,358 @@ Login Required: `...`<br>
 `None`<br>
 #### queryId<br>
 `None`<br>
+## JobListItemDeleteMutation<br>
+Request URL: `https://twitter.com/i/api/graphql/NXPgeVAY8XkK6xckO4WKGQ/JobListItemDeleteMutation`<br>
+Request Method: `POST`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
+## JobListItemFeatureMutation<br>
+Request URL: `https://twitter.com/i/api/graphql/-TkDQMRqYiRti2ZvQO0JrA/JobListItemFeatureMutation`<br>
+Request Method: `POST`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
+## JobListItemUnfeatureMutation<br>
+Request URL: `https://twitter.com/i/api/graphql/8b-5thQwsUpLs6xt_mczqQ/JobListItemUnfeatureMutation`<br>
+Request Method: `POST`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
+## JobSplashScreenConfigMutation<br>
+Request URL: `https://twitter.com/i/api/graphql/vTMofcBCLC_3W_RJmFCEnA/JobSplashScreenConfigMutation`<br>
+Request Method: `POST`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
+## JobsApiDeckContainerMutation<br>
+Request URL: `https://twitter.com/i/api/graphql/YK_GC9-oFq8Juqd5qJihfQ/JobsApiDeckContainerMutation`<br>
+Request Method: `POST`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
+## SyncAtsJobsSyncMutation<br>
+Request URL: `https://twitter.com/i/api/graphql/wolkrzMJOBR8fLlOX6PR4w/SyncAtsJobsSyncMutation`<br>
+Request Method: `POST`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
+## TabBarCreateStripePortalUrlMutation<br>
+Request URL: `https://twitter.com/i/api/graphql/Ro4_N0mgeE5CyS6oD_Y13w/TabBarCreateStripePortalUrlMutation`<br>
+Request Method: `POST`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
+## useFetchAdminJobsQuery<br>
+Request URL: `https://twitter.com/i/api/graphql/-yP33VDBHDcts6VcjMz4XA/useFetchAdminJobsQuery`<br>
+Request Method: `GET`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
+## useSearchAdminJobsQuery<br>
+Request URL: `https://twitter.com/i/api/graphql/V_nLU15dCFWUWB8MpULF8g/useSearchAdminJobsQuery`<br>
+Request Method: `GET`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
+## useUpdateOrganizationMutation<br>
+Request URL: `https://twitter.com/i/api/graphql/gq7_UQoL3PDhdfsR3Gpokg/useUpdateOrganizationMutation`<br>
+Request Method: `POST`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
+## AddJobScreenMutation<br>
+Request URL: `https://twitter.com/i/api/graphql/bSW-Y396TZVEB_K1AY0f3w/AddJobScreenMutation`<br>
+Request Method: `POST`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
+## AddJobScreenQuery<br>
+Request URL: `https://twitter.com/i/api/graphql/X05dj9UJv61t8KLe0O9b3A/AddJobScreenQuery`<br>
+Request Method: `GET`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
+## AdvertisingScreenActivateScheduledPromotionMutation<br>
+Request URL: `https://twitter.com/i/api/graphql/l64K9K-56wbdc4xZZGlHIw/AdvertisingScreenActivateScheduledPromotionMutation`<br>
+Request Method: `POST`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
+## AdvertisingScreenPromotionEligibilityQuery<br>
+Request URL: `https://twitter.com/i/api/graphql/Q2ms-OtAAiga-m5V3ZzNCg/AdvertisingScreenPromotionEligibilityQuery`<br>
+Request Method: `GET`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
+## AdvertisingScreenScheduledPromotionsQuery<br>
+Request URL: `https://twitter.com/i/api/graphql/cKceSdwDbSlcg1enIm1UyQ/AdvertisingScreenScheduledPromotionsQuery`<br>
+Request Method: `GET`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
+## AffiliateListItemMutation<br>
+Request URL: `https://twitter.com/i/api/graphql/QSueyUwwWLaV6s50Z8Ct4Q/AffiliateListItemMutation`<br>
+Request Method: `POST`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
+## AffiliateListItemUpdateAffiliateTypeMutation<br>
+Request URL: `https://twitter.com/i/api/graphql/v5rNoNo7tAvWpUn6pIdo9A/AffiliateListItemUpdateAffiliateTypeMutation`<br>
+Request Method: `POST`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
+## AffiliatesScreenAffiliatesQuery<br>
+Request URL: `https://twitter.com/i/api/graphql/W29_ue3uq9pXCbuknUJisg/AffiliatesScreenAffiliatesQuery`<br>
+Request Method: `GET`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
+## CancelModalMutation<br>
+Request URL: `https://twitter.com/i/api/graphql/KZeNJv26eQ1JCIMbcwMXng/CancelModalMutation`<br>
+Request Method: `POST`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
+## EditJobScreenMutation<br>
+Request URL: `https://twitter.com/i/api/graphql/UytaV8ZYGjRaLjWeUrn2uA/EditJobScreenMutation`<br>
+Request Method: `POST`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
+## EditJobScreenQuery<br>
+Request URL: `https://twitter.com/i/api/graphql/KvSm7uWiKzLPyvdj8oz2CQ/EditJobScreenQuery`<br>
+Request Method: `GET`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
+## JobsSettingsScreenSettingsQuery<br>
+Request URL: `https://twitter.com/i/api/graphql/Uw8czMTdaDgZwaK62_rxEw/JobsSettingsScreenSettingsQuery`<br>
+Request Method: `GET`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
+## OrderSummaryStripeAffiliateUpdateMutation<br>
+Request URL: `https://twitter.com/i/api/graphql/X_1-9fST-6QH3cakZ2r2zw/OrderSummaryStripeAffiliateUpdateMutation`<br>
+Request Method: `POST`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
+## OrderSummaryStripeInvoiceMutation<br>
+Request URL: `https://twitter.com/i/api/graphql/XxbtTAjNtpZN4S-buUc9oA/OrderSummaryStripeInvoiceMutation`<br>
+Request Method: `POST`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
+## useAffiliatesAndInvitesQuery<br>
+Request URL: `https://twitter.com/i/api/graphql/bGJ0LYcXZ9M_ARcscpUJiQ/useAffiliatesAndInvitesQuery`<br>
+Request Method: `GET`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
+## useAffiliatesPriceQuery<br>
+Request URL: `https://twitter.com/i/api/graphql/kJbxZev65xXg-ADhCUhw1w/useAffiliatesPriceQuery`<br>
+Request Method: `GET`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
+## useCreateApplicationMutation<br>
+Request URL: `https://twitter.com/i/api/graphql/hRFxJ7g_T4Y1mJqkv-xgNg/useCreateApplicationMutation`<br>
+Request Method: `POST`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
+## useCreateInvitationMutation<br>
+Request URL: `https://twitter.com/i/api/graphql/1SlsDAsmE-7LDHGQf9KTcA/useCreateInvitationMutation`<br>
+Request Method: `POST`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
+## useDeleteInvitationMutation<br>
+Request URL: `https://twitter.com/i/api/graphql/crOZy3iUFNLxqbq41GQ7pg/useDeleteInvitationMutation`<br>
+Request Method: `POST`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
+## useProductSkuQuery<br>
+Request URL: `https://twitter.com/i/api/graphql/J4jkAy2kC6O59mP-94xOzA/useProductSkuQuery`<br>
+Request Method: `GET`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
+## useStripeCheckoutMutation<br>
+Request URL: `https://twitter.com/i/api/graphql/CvzHtwiu6wjFFD8m5PZeVg/useStripeCheckoutMutation`<br>
+Request Method: `POST`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
+## useVerifiedOrgConfigQuery<br>
+Request URL: `https://twitter.com/i/api/graphql/AMAn8-NxrZq2WxSq8Do3MA/useVerifiedOrgConfigQuery`<br>
+Request Method: `GET`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
 ## TwitterBlueSignUpV2Query<br>
 Request URL: `https://twitter.com/i/api/graphql/SfFW_3vflEhCLIo-k5N4Dw/TwitterBlueSignUpV2Query`<br>
 Request Method: `GET`<br>
@@ -8012,358 +8364,6 @@ Login Required: `...`<br>
 `None`<br>
 ## ProfileSpotlightsQuery<br>
 Request URL: `https://twitter.com/i/api/graphql/_pnlqeTOtnpbIL9o-fS_pg/ProfileSpotlightsQuery`<br>
-Request Method: `GET`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-`None`<br>
-#### queryId<br>
-`None`<br>
-## AddJobScreenMutation<br>
-Request URL: `https://twitter.com/i/api/graphql/bSW-Y396TZVEB_K1AY0f3w/AddJobScreenMutation`<br>
-Request Method: `POST`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-`None`<br>
-#### queryId<br>
-`None`<br>
-## AddJobScreenQuery<br>
-Request URL: `https://twitter.com/i/api/graphql/lL5C8h6CPNu6m2eL-tx_pw/AddJobScreenQuery`<br>
-Request Method: `GET`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-`None`<br>
-#### queryId<br>
-`None`<br>
-## AdvertisingScreenActivateScheduledPromotionMutation<br>
-Request URL: `https://twitter.com/i/api/graphql/l64K9K-56wbdc4xZZGlHIw/AdvertisingScreenActivateScheduledPromotionMutation`<br>
-Request Method: `POST`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-`None`<br>
-#### queryId<br>
-`None`<br>
-## AdvertisingScreenPromotionEligibilityQuery<br>
-Request URL: `https://twitter.com/i/api/graphql/Q2ms-OtAAiga-m5V3ZzNCg/AdvertisingScreenPromotionEligibilityQuery`<br>
-Request Method: `GET`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-`None`<br>
-#### queryId<br>
-`None`<br>
-## AdvertisingScreenScheduledPromotionsQuery<br>
-Request URL: `https://twitter.com/i/api/graphql/cKceSdwDbSlcg1enIm1UyQ/AdvertisingScreenScheduledPromotionsQuery`<br>
-Request Method: `GET`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-`None`<br>
-#### queryId<br>
-`None`<br>
-## AffiliateListItemMutation<br>
-Request URL: `https://twitter.com/i/api/graphql/QSueyUwwWLaV6s50Z8Ct4Q/AffiliateListItemMutation`<br>
-Request Method: `POST`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-`None`<br>
-#### queryId<br>
-`None`<br>
-## AffiliateListItemUpdateAffiliateTypeMutation<br>
-Request URL: `https://twitter.com/i/api/graphql/v5rNoNo7tAvWpUn6pIdo9A/AffiliateListItemUpdateAffiliateTypeMutation`<br>
-Request Method: `POST`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-`None`<br>
-#### queryId<br>
-`None`<br>
-## AffiliatesScreenAffiliatesQuery<br>
-Request URL: `https://twitter.com/i/api/graphql/W29_ue3uq9pXCbuknUJisg/AffiliatesScreenAffiliatesQuery`<br>
-Request Method: `GET`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-`None`<br>
-#### queryId<br>
-`None`<br>
-## CancelModalMutation<br>
-Request URL: `https://twitter.com/i/api/graphql/KZeNJv26eQ1JCIMbcwMXng/CancelModalMutation`<br>
-Request Method: `POST`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-`None`<br>
-#### queryId<br>
-`None`<br>
-## EditJobScreenMutation<br>
-Request URL: `https://twitter.com/i/api/graphql/UytaV8ZYGjRaLjWeUrn2uA/EditJobScreenMutation`<br>
-Request Method: `POST`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-`None`<br>
-#### queryId<br>
-`None`<br>
-## EditJobScreenQuery<br>
-Request URL: `https://twitter.com/i/api/graphql/KvSm7uWiKzLPyvdj8oz2CQ/EditJobScreenQuery`<br>
-Request Method: `GET`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-`None`<br>
-#### queryId<br>
-`None`<br>
-## JobListItemDeleteMutation<br>
-Request URL: `https://twitter.com/i/api/graphql/NXPgeVAY8XkK6xckO4WKGQ/JobListItemDeleteMutation`<br>
-Request Method: `POST`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-`None`<br>
-#### queryId<br>
-`None`<br>
-## JobListItemFeatureMutation<br>
-Request URL: `https://twitter.com/i/api/graphql/-TkDQMRqYiRti2ZvQO0JrA/JobListItemFeatureMutation`<br>
-Request Method: `POST`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-`None`<br>
-#### queryId<br>
-`None`<br>
-## JobListItemUnfeatureMutation<br>
-Request URL: `https://twitter.com/i/api/graphql/8b-5thQwsUpLs6xt_mczqQ/JobListItemUnfeatureMutation`<br>
-Request Method: `POST`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-`None`<br>
-#### queryId<br>
-`None`<br>
-## JobSplashScreenConfigMutation<br>
-Request URL: `https://twitter.com/i/api/graphql/vTMofcBCLC_3W_RJmFCEnA/JobSplashScreenConfigMutation`<br>
-Request Method: `POST`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-`None`<br>
-#### queryId<br>
-`None`<br>
-## JobsApiDeckContainerMutation<br>
-Request URL: `https://twitter.com/i/api/graphql/YK_GC9-oFq8Juqd5qJihfQ/JobsApiDeckContainerMutation`<br>
-Request Method: `POST`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-`None`<br>
-#### queryId<br>
-`None`<br>
-## JobsSettingsScreenSettingsQuery<br>
-Request URL: `https://twitter.com/i/api/graphql/Uw8czMTdaDgZwaK62_rxEw/JobsSettingsScreenSettingsQuery`<br>
-Request Method: `GET`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-`None`<br>
-#### queryId<br>
-`None`<br>
-## OrderSummaryStripeAffiliateUpdateMutation<br>
-Request URL: `https://twitter.com/i/api/graphql/X_1-9fST-6QH3cakZ2r2zw/OrderSummaryStripeAffiliateUpdateMutation`<br>
-Request Method: `POST`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-`None`<br>
-#### queryId<br>
-`None`<br>
-## OrderSummaryStripeInvoiceMutation<br>
-Request URL: `https://twitter.com/i/api/graphql/XxbtTAjNtpZN4S-buUc9oA/OrderSummaryStripeInvoiceMutation`<br>
-Request Method: `POST`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-`None`<br>
-#### queryId<br>
-`None`<br>
-## SyncAtsJobsSyncMutation<br>
-Request URL: `https://twitter.com/i/api/graphql/wolkrzMJOBR8fLlOX6PR4w/SyncAtsJobsSyncMutation`<br>
-Request Method: `POST`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-`None`<br>
-#### queryId<br>
-`None`<br>
-## TabBarCreateStripePortalUrlMutation<br>
-Request URL: `https://twitter.com/i/api/graphql/Ro4_N0mgeE5CyS6oD_Y13w/TabBarCreateStripePortalUrlMutation`<br>
-Request Method: `POST`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-`None`<br>
-#### queryId<br>
-`None`<br>
-## useAffiliatesAndInvitesQuery<br>
-Request URL: `https://twitter.com/i/api/graphql/bGJ0LYcXZ9M_ARcscpUJiQ/useAffiliatesAndInvitesQuery`<br>
-Request Method: `GET`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-`None`<br>
-#### queryId<br>
-`None`<br>
-## useAffiliatesPriceQuery<br>
-Request URL: `https://twitter.com/i/api/graphql/kJbxZev65xXg-ADhCUhw1w/useAffiliatesPriceQuery`<br>
-Request Method: `GET`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-`None`<br>
-#### queryId<br>
-`None`<br>
-## useCreateApplicationMutation<br>
-Request URL: `https://twitter.com/i/api/graphql/hRFxJ7g_T4Y1mJqkv-xgNg/useCreateApplicationMutation`<br>
-Request Method: `POST`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-`None`<br>
-#### queryId<br>
-`None`<br>
-## useCreateInvitationMutation<br>
-Request URL: `https://twitter.com/i/api/graphql/1SlsDAsmE-7LDHGQf9KTcA/useCreateInvitationMutation`<br>
-Request Method: `POST`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-`None`<br>
-#### queryId<br>
-`None`<br>
-## useDeleteInvitationMutation<br>
-Request URL: `https://twitter.com/i/api/graphql/crOZy3iUFNLxqbq41GQ7pg/useDeleteInvitationMutation`<br>
-Request Method: `POST`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-`None`<br>
-#### queryId<br>
-`None`<br>
-## useFetchAdminJobsQuery<br>
-Request URL: `https://twitter.com/i/api/graphql/-yP33VDBHDcts6VcjMz4XA/useFetchAdminJobsQuery`<br>
-Request Method: `GET`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-`None`<br>
-#### queryId<br>
-`None`<br>
-## useProductSkuQuery<br>
-Request URL: `https://twitter.com/i/api/graphql/J4jkAy2kC6O59mP-94xOzA/useProductSkuQuery`<br>
-Request Method: `GET`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-`None`<br>
-#### queryId<br>
-`None`<br>
-## useSearchAdminJobsQuery<br>
-Request URL: `https://twitter.com/i/api/graphql/V_nLU15dCFWUWB8MpULF8g/useSearchAdminJobsQuery`<br>
-Request Method: `GET`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-`None`<br>
-#### queryId<br>
-`None`<br>
-## useStripeCheckoutMutation<br>
-Request URL: `https://twitter.com/i/api/graphql/CvzHtwiu6wjFFD8m5PZeVg/useStripeCheckoutMutation`<br>
-Request Method: `POST`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-`None`<br>
-#### queryId<br>
-`None`<br>
-## useUpdateOrganizationMutation<br>
-Request URL: `https://twitter.com/i/api/graphql/gq7_UQoL3PDhdfsR3Gpokg/useUpdateOrganizationMutation`<br>
-Request Method: `POST`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-`None`<br>
-#### queryId<br>
-`None`<br>
-## useVerifiedOrgConfigQuery<br>
-Request URL: `https://twitter.com/i/api/graphql/AMAn8-NxrZq2WxSq8Do3MA/useVerifiedOrgConfigQuery`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>

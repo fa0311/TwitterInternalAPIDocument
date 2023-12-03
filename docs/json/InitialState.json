@@ -61,6 +61,11 @@
       "errors": {},
       "fetchStatus": {}
     },
+    "tv": {
+      "entities": {},
+      "errors": {},
+      "fetchStatus": {}
+    },
     "twitterArticles": {
       "entities": {},
       "errors": {},
@@ -1063,6 +1068,9 @@
       "recruiting_jobs_list_share_enabled": {
         "value": "true"
       },
+      "recruiting_premium_jobs_enabled": {
+        "value": "false"
+      },
       "recruiting_verified_orgs_admin_enabled": {
         "value": "false"
       },
@@ -1753,9 +1761,6 @@
       "responsive_web_user_badge_education_get_verified_button_enabled": {
         "value": "true"
       },
-      "responsive_web_verified_organizations_advertising_enabled": {
-        "value": "true"
-      },
       "responsive_web_verified_organizations_affiliate_fetch_limit": {
         "value": "3000"
       },
@@ -2092,6 +2097,9 @@
         "value": "true"
       },
       "subscriptions_feature_labs_1004": {
+        "value": "true"
+      },
+      "subscriptions_feature_premium_jobs": {
         "value": "true"
       },
       "subscriptions_inapp_grok": {
@@ -3594,6 +3602,9 @@
         "recruiting_jobs_list_share_enabled": {
           "value": "true"
         },
+        "recruiting_premium_jobs_enabled": {
+          "value": "false"
+        },
         "recruiting_verified_orgs_admin_enabled": {
           "value": "true"
         },
@@ -4284,9 +4295,6 @@
         "responsive_web_user_badge_education_get_verified_button_enabled": {
           "value": "true"
         },
-        "responsive_web_verified_organizations_advertising_enabled": {
-          "value": "true"
-        },
         "responsive_web_verified_organizations_affiliate_fetch_limit": {
           "value": "3000"
         },
@@ -4625,11 +4633,17 @@
         "subscriptions_feature_labs_1004": {
           "value": "true"
         },
+        "subscriptions_feature_premium_jobs": {
+          "value": "true"
+        },
         "subscriptions_inapp_grok": {
           "value": "false"
         },
         "subscriptions_inapp_grok_default_mode": {
           "value": "fun"
+        },
+        "subscriptions_inapp_grok_enable_roast_me_prompt": {
+          "value": "true"
         },
         "subscriptions_inapp_grok_nux_enabled": {
           "value": "false"
@@ -5167,10 +5181,10 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "ef5dd47cb6344770043623967d7430dd"
+      "settingsVersion": "66095ab3e8253ac9d62f497268e39eb2"
     },
     "debug": {},
-    "featureSetToken": "ca68af3a70345419c20bc848aa7eae78819f0409",
+    "featureSetToken": "aac2991e104b03f98770625a2e72f0b4635ec9e9",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -5240,7 +5254,7 @@
     "country": "US",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "170146481279740542",
+    "guestId": "170155118261657831",
     "hasCommunityMemberships": "false",
     "language": "en",
     "ssoInitTokens": {}

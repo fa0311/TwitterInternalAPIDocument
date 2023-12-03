@@ -16339,6 +16339,390 @@
     }
   },
   {
+    "n": "36081",
+    "exports": {
+      "queryId": "NXPgeVAY8XkK6xckO4WKGQ",
+      "operationName": "JobListItemDeleteMutation",
+      "operationType": "mutation",
+      "metadata": {
+        "featureSwitches": [],
+        "featureSwitch": {}
+      }
+    }
+  },
+  {
+    "n": "37056",
+    "exports": {
+      "queryId": "-TkDQMRqYiRti2ZvQO0JrA",
+      "operationName": "JobListItemFeatureMutation",
+      "operationType": "mutation",
+      "metadata": {
+        "featureSwitches": [],
+        "featureSwitch": {}
+      }
+    }
+  },
+  {
+    "n": "85439",
+    "exports": {
+      "queryId": "8b-5thQwsUpLs6xt_mczqQ",
+      "operationName": "JobListItemUnfeatureMutation",
+      "operationType": "mutation",
+      "metadata": {
+        "featureSwitches": [],
+        "featureSwitch": {}
+      }
+    }
+  },
+  {
+    "n": "54346",
+    "exports": {
+      "queryId": "vTMofcBCLC_3W_RJmFCEnA",
+      "operationName": "JobSplashScreenConfigMutation",
+      "operationType": "mutation",
+      "metadata": {
+        "featureSwitches": [],
+        "featureSwitch": {}
+      }
+    }
+  },
+  {
+    "n": "11900",
+    "exports": {
+      "queryId": "YK_GC9-oFq8Juqd5qJihfQ",
+      "operationName": "JobsApiDeckContainerMutation",
+      "operationType": "mutation",
+      "metadata": {
+        "featureSwitches": [],
+        "featureSwitch": {}
+      }
+    }
+  },
+  {
+    "n": "15045",
+    "exports": {
+      "queryId": "wolkrzMJOBR8fLlOX6PR4w",
+      "operationName": "SyncAtsJobsSyncMutation",
+      "operationType": "mutation",
+      "metadata": {
+        "featureSwitches": [],
+        "featureSwitch": {}
+      }
+    }
+  },
+  {
+    "n": "16765",
+    "exports": {
+      "queryId": "Ro4_N0mgeE5CyS6oD_Y13w",
+      "operationName": "TabBarCreateStripePortalUrlMutation",
+      "operationType": "mutation",
+      "metadata": {
+        "featureSwitches": [],
+        "featureSwitch": {}
+      }
+    }
+  },
+  {
+    "n": "51045",
+    "exports": {
+      "queryId": "-yP33VDBHDcts6VcjMz4XA",
+      "operationName": "useFetchAdminJobsQuery",
+      "operationType": "query",
+      "metadata": {
+        "featureSwitches": [],
+        "featureSwitch": {}
+      }
+    }
+  },
+  {
+    "n": "51108",
+    "exports": {
+      "queryId": "V_nLU15dCFWUWB8MpULF8g",
+      "operationName": "useSearchAdminJobsQuery",
+      "operationType": "query",
+      "metadata": {
+        "featureSwitches": [],
+        "featureSwitch": {}
+      }
+    }
+  },
+  {
+    "n": "58303",
+    "exports": {
+      "queryId": "gq7_UQoL3PDhdfsR3Gpokg",
+      "operationName": "useUpdateOrganizationMutation",
+      "operationType": "mutation",
+      "metadata": {
+        "featureSwitches": [],
+        "featureSwitch": {}
+      }
+    }
+  },
+  {
+    "n": "07279",
+    "exports": {
+      "queryId": "bSW-Y396TZVEB_K1AY0f3w",
+      "operationName": "AddJobScreenMutation",
+      "operationType": "mutation",
+      "metadata": {
+        "featureSwitches": [],
+        "featureSwitch": {}
+      }
+    }
+  },
+  {
+    "n": "25440",
+    "exports": {
+      "queryId": "X05dj9UJv61t8KLe0O9b3A",
+      "operationName": "AddJobScreenQuery",
+      "operationType": "query",
+      "metadata": {
+        "featureSwitches": [],
+        "featureSwitch": {}
+      }
+    }
+  },
+  {
+    "n": "37904",
+    "exports": {
+      "queryId": "l64K9K-56wbdc4xZZGlHIw",
+      "operationName": "AdvertisingScreenActivateScheduledPromotionMutation",
+      "operationType": "mutation",
+      "metadata": {
+        "featureSwitches": [],
+        "featureSwitch": {}
+      }
+    }
+  },
+  {
+    "n": "30278",
+    "exports": {
+      "queryId": "Q2ms-OtAAiga-m5V3ZzNCg",
+      "operationName": "AdvertisingScreenPromotionEligibilityQuery",
+      "operationType": "query",
+      "metadata": {
+        "featureSwitches": [],
+        "featureSwitch": {}
+      }
+    }
+  },
+  {
+    "n": "70509",
+    "exports": {
+      "queryId": "cKceSdwDbSlcg1enIm1UyQ",
+      "operationName": "AdvertisingScreenScheduledPromotionsQuery",
+      "operationType": "query",
+      "metadata": {
+        "featureSwitches": [],
+        "featureSwitch": {}
+      }
+    }
+  },
+  {
+    "n": "28506",
+    "exports": {
+      "queryId": "QSueyUwwWLaV6s50Z8Ct4Q",
+      "operationName": "AffiliateListItemMutation",
+      "operationType": "mutation",
+      "metadata": {
+        "featureSwitches": [],
+        "featureSwitch": {}
+      }
+    }
+  },
+  {
+    "n": "32696",
+    "exports": {
+      "queryId": "v5rNoNo7tAvWpUn6pIdo9A",
+      "operationName": "AffiliateListItemUpdateAffiliateTypeMutation",
+      "operationType": "mutation",
+      "metadata": {
+        "featureSwitches": [],
+        "featureSwitch": {}
+      }
+    }
+  },
+  {
+    "n": "51379",
+    "exports": {
+      "queryId": "W29_ue3uq9pXCbuknUJisg",
+      "operationName": "AffiliatesScreenAffiliatesQuery",
+      "operationType": "query",
+      "metadata": {
+        "featureSwitches": [],
+        "featureSwitch": {}
+      }
+    }
+  },
+  {
+    "n": "57354",
+    "exports": {
+      "queryId": "KZeNJv26eQ1JCIMbcwMXng",
+      "operationName": "CancelModalMutation",
+      "operationType": "mutation",
+      "metadata": {
+        "featureSwitches": [],
+        "featureSwitch": {}
+      }
+    }
+  },
+  {
+    "n": "24574",
+    "exports": {
+      "queryId": "UytaV8ZYGjRaLjWeUrn2uA",
+      "operationName": "EditJobScreenMutation",
+      "operationType": "mutation",
+      "metadata": {
+        "featureSwitches": [],
+        "featureSwitch": {}
+      }
+    }
+  },
+  {
+    "n": "08975",
+    "exports": {
+      "queryId": "KvSm7uWiKzLPyvdj8oz2CQ",
+      "operationName": "EditJobScreenQuery",
+      "operationType": "query",
+      "metadata": {
+        "featureSwitches": [],
+        "featureSwitch": {}
+      }
+    }
+  },
+  {
+    "n": "07025",
+    "exports": {
+      "queryId": "Uw8czMTdaDgZwaK62_rxEw",
+      "operationName": "JobsSettingsScreenSettingsQuery",
+      "operationType": "query",
+      "metadata": {
+        "featureSwitches": [],
+        "featureSwitch": {}
+      }
+    }
+  },
+  {
+    "n": "51570",
+    "exports": {
+      "queryId": "X_1-9fST-6QH3cakZ2r2zw",
+      "operationName": "OrderSummaryStripeAffiliateUpdateMutation",
+      "operationType": "mutation",
+      "metadata": {
+        "featureSwitches": [],
+        "featureSwitch": {}
+      }
+    }
+  },
+  {
+    "n": "19083",
+    "exports": {
+      "queryId": "XxbtTAjNtpZN4S-buUc9oA",
+      "operationName": "OrderSummaryStripeInvoiceMutation",
+      "operationType": "mutation",
+      "metadata": {
+        "featureSwitches": [],
+        "featureSwitch": {}
+      }
+    }
+  },
+  {
+    "n": "61192",
+    "exports": {
+      "queryId": "bGJ0LYcXZ9M_ARcscpUJiQ",
+      "operationName": "useAffiliatesAndInvitesQuery",
+      "operationType": "query",
+      "metadata": {
+        "featureSwitches": [],
+        "featureSwitch": {}
+      }
+    }
+  },
+  {
+    "n": "22521",
+    "exports": {
+      "queryId": "kJbxZev65xXg-ADhCUhw1w",
+      "operationName": "useAffiliatesPriceQuery",
+      "operationType": "query",
+      "metadata": {
+        "featureSwitches": [],
+        "featureSwitch": {}
+      }
+    }
+  },
+  {
+    "n": "09350",
+    "exports": {
+      "queryId": "hRFxJ7g_T4Y1mJqkv-xgNg",
+      "operationName": "useCreateApplicationMutation",
+      "operationType": "mutation",
+      "metadata": {
+        "featureSwitches": [],
+        "featureSwitch": {}
+      }
+    }
+  },
+  {
+    "n": "17089",
+    "exports": {
+      "queryId": "1SlsDAsmE-7LDHGQf9KTcA",
+      "operationName": "useCreateInvitationMutation",
+      "operationType": "mutation",
+      "metadata": {
+        "featureSwitches": [],
+        "featureSwitch": {}
+      }
+    }
+  },
+  {
+    "n": "15806",
+    "exports": {
+      "queryId": "crOZy3iUFNLxqbq41GQ7pg",
+      "operationName": "useDeleteInvitationMutation",
+      "operationType": "mutation",
+      "metadata": {
+        "featureSwitches": [],
+        "featureSwitch": {}
+      }
+    }
+  },
+  {
+    "n": "42986",
+    "exports": {
+      "queryId": "J4jkAy2kC6O59mP-94xOzA",
+      "operationName": "useProductSkuQuery",
+      "operationType": "query",
+      "metadata": {
+        "featureSwitches": [],
+        "featureSwitch": {}
+      }
+    }
+  },
+  {
+    "n": "08450",
+    "exports": {
+      "queryId": "CvzHtwiu6wjFFD8m5PZeVg",
+      "operationName": "useStripeCheckoutMutation",
+      "operationType": "mutation",
+      "metadata": {
+        "featureSwitches": [],
+        "featureSwitch": {}
+      }
+    }
+  },
+  {
+    "n": "94062",
+    "exports": {
+      "queryId": "AMAn8-NxrZq2WxSq8Do3MA",
+      "operationName": "useVerifiedOrgConfigQuery",
+      "operationType": "query",
+      "metadata": {
+        "featureSwitches": [],
+        "featureSwitch": {}
+      }
+    }
+  },
+  {
     "n": "99256",
     "exports": {
       "queryId": "SfFW_3vflEhCLIo-k5N4Dw",
@@ -16805,390 +17189,6 @@
     "exports": {
       "queryId": "_pnlqeTOtnpbIL9o-fS_pg",
       "operationName": "ProfileSpotlightsQuery",
-      "operationType": "query",
-      "metadata": {
-        "featureSwitches": [],
-        "featureSwitch": {}
-      }
-    }
-  },
-  {
-    "n": "07279",
-    "exports": {
-      "queryId": "bSW-Y396TZVEB_K1AY0f3w",
-      "operationName": "AddJobScreenMutation",
-      "operationType": "mutation",
-      "metadata": {
-        "featureSwitches": [],
-        "featureSwitch": {}
-      }
-    }
-  },
-  {
-    "n": "25440",
-    "exports": {
-      "queryId": "lL5C8h6CPNu6m2eL-tx_pw",
-      "operationName": "AddJobScreenQuery",
-      "operationType": "query",
-      "metadata": {
-        "featureSwitches": [],
-        "featureSwitch": {}
-      }
-    }
-  },
-  {
-    "n": "37904",
-    "exports": {
-      "queryId": "l64K9K-56wbdc4xZZGlHIw",
-      "operationName": "AdvertisingScreenActivateScheduledPromotionMutation",
-      "operationType": "mutation",
-      "metadata": {
-        "featureSwitches": [],
-        "featureSwitch": {}
-      }
-    }
-  },
-  {
-    "n": "30278",
-    "exports": {
-      "queryId": "Q2ms-OtAAiga-m5V3ZzNCg",
-      "operationName": "AdvertisingScreenPromotionEligibilityQuery",
-      "operationType": "query",
-      "metadata": {
-        "featureSwitches": [],
-        "featureSwitch": {}
-      }
-    }
-  },
-  {
-    "n": "70509",
-    "exports": {
-      "queryId": "cKceSdwDbSlcg1enIm1UyQ",
-      "operationName": "AdvertisingScreenScheduledPromotionsQuery",
-      "operationType": "query",
-      "metadata": {
-        "featureSwitches": [],
-        "featureSwitch": {}
-      }
-    }
-  },
-  {
-    "n": "28506",
-    "exports": {
-      "queryId": "QSueyUwwWLaV6s50Z8Ct4Q",
-      "operationName": "AffiliateListItemMutation",
-      "operationType": "mutation",
-      "metadata": {
-        "featureSwitches": [],
-        "featureSwitch": {}
-      }
-    }
-  },
-  {
-    "n": "32696",
-    "exports": {
-      "queryId": "v5rNoNo7tAvWpUn6pIdo9A",
-      "operationName": "AffiliateListItemUpdateAffiliateTypeMutation",
-      "operationType": "mutation",
-      "metadata": {
-        "featureSwitches": [],
-        "featureSwitch": {}
-      }
-    }
-  },
-  {
-    "n": "51379",
-    "exports": {
-      "queryId": "W29_ue3uq9pXCbuknUJisg",
-      "operationName": "AffiliatesScreenAffiliatesQuery",
-      "operationType": "query",
-      "metadata": {
-        "featureSwitches": [],
-        "featureSwitch": {}
-      }
-    }
-  },
-  {
-    "n": "57354",
-    "exports": {
-      "queryId": "KZeNJv26eQ1JCIMbcwMXng",
-      "operationName": "CancelModalMutation",
-      "operationType": "mutation",
-      "metadata": {
-        "featureSwitches": [],
-        "featureSwitch": {}
-      }
-    }
-  },
-  {
-    "n": "24574",
-    "exports": {
-      "queryId": "UytaV8ZYGjRaLjWeUrn2uA",
-      "operationName": "EditJobScreenMutation",
-      "operationType": "mutation",
-      "metadata": {
-        "featureSwitches": [],
-        "featureSwitch": {}
-      }
-    }
-  },
-  {
-    "n": "08975",
-    "exports": {
-      "queryId": "KvSm7uWiKzLPyvdj8oz2CQ",
-      "operationName": "EditJobScreenQuery",
-      "operationType": "query",
-      "metadata": {
-        "featureSwitches": [],
-        "featureSwitch": {}
-      }
-    }
-  },
-  {
-    "n": "36081",
-    "exports": {
-      "queryId": "NXPgeVAY8XkK6xckO4WKGQ",
-      "operationName": "JobListItemDeleteMutation",
-      "operationType": "mutation",
-      "metadata": {
-        "featureSwitches": [],
-        "featureSwitch": {}
-      }
-    }
-  },
-  {
-    "n": "37056",
-    "exports": {
-      "queryId": "-TkDQMRqYiRti2ZvQO0JrA",
-      "operationName": "JobListItemFeatureMutation",
-      "operationType": "mutation",
-      "metadata": {
-        "featureSwitches": [],
-        "featureSwitch": {}
-      }
-    }
-  },
-  {
-    "n": "85439",
-    "exports": {
-      "queryId": "8b-5thQwsUpLs6xt_mczqQ",
-      "operationName": "JobListItemUnfeatureMutation",
-      "operationType": "mutation",
-      "metadata": {
-        "featureSwitches": [],
-        "featureSwitch": {}
-      }
-    }
-  },
-  {
-    "n": "54346",
-    "exports": {
-      "queryId": "vTMofcBCLC_3W_RJmFCEnA",
-      "operationName": "JobSplashScreenConfigMutation",
-      "operationType": "mutation",
-      "metadata": {
-        "featureSwitches": [],
-        "featureSwitch": {}
-      }
-    }
-  },
-  {
-    "n": "11900",
-    "exports": {
-      "queryId": "YK_GC9-oFq8Juqd5qJihfQ",
-      "operationName": "JobsApiDeckContainerMutation",
-      "operationType": "mutation",
-      "metadata": {
-        "featureSwitches": [],
-        "featureSwitch": {}
-      }
-    }
-  },
-  {
-    "n": "07025",
-    "exports": {
-      "queryId": "Uw8czMTdaDgZwaK62_rxEw",
-      "operationName": "JobsSettingsScreenSettingsQuery",
-      "operationType": "query",
-      "metadata": {
-        "featureSwitches": [],
-        "featureSwitch": {}
-      }
-    }
-  },
-  {
-    "n": "51570",
-    "exports": {
-      "queryId": "X_1-9fST-6QH3cakZ2r2zw",
-      "operationName": "OrderSummaryStripeAffiliateUpdateMutation",
-      "operationType": "mutation",
-      "metadata": {
-        "featureSwitches": [],
-        "featureSwitch": {}
-      }
-    }
-  },
-  {
-    "n": "19083",
-    "exports": {
-      "queryId": "XxbtTAjNtpZN4S-buUc9oA",
-      "operationName": "OrderSummaryStripeInvoiceMutation",
-      "operationType": "mutation",
-      "metadata": {
-        "featureSwitches": [],
-        "featureSwitch": {}
-      }
-    }
-  },
-  {
-    "n": "15045",
-    "exports": {
-      "queryId": "wolkrzMJOBR8fLlOX6PR4w",
-      "operationName": "SyncAtsJobsSyncMutation",
-      "operationType": "mutation",
-      "metadata": {
-        "featureSwitches": [],
-        "featureSwitch": {}
-      }
-    }
-  },
-  {
-    "n": "16765",
-    "exports": {
-      "queryId": "Ro4_N0mgeE5CyS6oD_Y13w",
-      "operationName": "TabBarCreateStripePortalUrlMutation",
-      "operationType": "mutation",
-      "metadata": {
-        "featureSwitches": [],
-        "featureSwitch": {}
-      }
-    }
-  },
-  {
-    "n": "61192",
-    "exports": {
-      "queryId": "bGJ0LYcXZ9M_ARcscpUJiQ",
-      "operationName": "useAffiliatesAndInvitesQuery",
-      "operationType": "query",
-      "metadata": {
-        "featureSwitches": [],
-        "featureSwitch": {}
-      }
-    }
-  },
-  {
-    "n": "22521",
-    "exports": {
-      "queryId": "kJbxZev65xXg-ADhCUhw1w",
-      "operationName": "useAffiliatesPriceQuery",
-      "operationType": "query",
-      "metadata": {
-        "featureSwitches": [],
-        "featureSwitch": {}
-      }
-    }
-  },
-  {
-    "n": "09350",
-    "exports": {
-      "queryId": "hRFxJ7g_T4Y1mJqkv-xgNg",
-      "operationName": "useCreateApplicationMutation",
-      "operationType": "mutation",
-      "metadata": {
-        "featureSwitches": [],
-        "featureSwitch": {}
-      }
-    }
-  },
-  {
-    "n": "17089",
-    "exports": {
-      "queryId": "1SlsDAsmE-7LDHGQf9KTcA",
-      "operationName": "useCreateInvitationMutation",
-      "operationType": "mutation",
-      "metadata": {
-        "featureSwitches": [],
-        "featureSwitch": {}
-      }
-    }
-  },
-  {
-    "n": "15806",
-    "exports": {
-      "queryId": "crOZy3iUFNLxqbq41GQ7pg",
-      "operationName": "useDeleteInvitationMutation",
-      "operationType": "mutation",
-      "metadata": {
-        "featureSwitches": [],
-        "featureSwitch": {}
-      }
-    }
-  },
-  {
-    "n": "51045",
-    "exports": {
-      "queryId": "-yP33VDBHDcts6VcjMz4XA",
-      "operationName": "useFetchAdminJobsQuery",
-      "operationType": "query",
-      "metadata": {
-        "featureSwitches": [],
-        "featureSwitch": {}
-      }
-    }
-  },
-  {
-    "n": "42986",
-    "exports": {
-      "queryId": "J4jkAy2kC6O59mP-94xOzA",
-      "operationName": "useProductSkuQuery",
-      "operationType": "query",
-      "metadata": {
-        "featureSwitches": [],
-        "featureSwitch": {}
-      }
-    }
-  },
-  {
-    "n": "51108",
-    "exports": {
-      "queryId": "V_nLU15dCFWUWB8MpULF8g",
-      "operationName": "useSearchAdminJobsQuery",
-      "operationType": "query",
-      "metadata": {
-        "featureSwitches": [],
-        "featureSwitch": {}
-      }
-    }
-  },
-  {
-    "n": "08450",
-    "exports": {
-      "queryId": "CvzHtwiu6wjFFD8m5PZeVg",
-      "operationName": "useStripeCheckoutMutation",
-      "operationType": "mutation",
-      "metadata": {
-        "featureSwitches": [],
-        "featureSwitch": {}
-      }
-    }
-  },
-  {
-    "n": "58303",
-    "exports": {
-      "queryId": "gq7_UQoL3PDhdfsR3Gpokg",
-      "operationName": "useUpdateOrganizationMutation",
-      "operationType": "mutation",
-      "metadata": {
-        "featureSwitches": [],
-        "featureSwitch": {}
-      }
-    }
-  },
-  {
-    "n": "94062",
-    "exports": {
-      "queryId": "AMAn8-NxrZq2WxSq8Do3MA",
-      "operationName": "useVerifiedOrgConfigQuery",
       "operationType": "query",
       "metadata": {
         "featureSwitches": [],
