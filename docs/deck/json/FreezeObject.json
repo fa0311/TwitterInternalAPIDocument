@@ -1375,6 +1375,7 @@
     "topics": "u",
     "tweets": "u",
     "articleEntities": "u",
+    "tv": "u",
     "twitterArticles": "u",
     "trustedFriends": "u",
     "userPresence": "u",
@@ -1562,11 +1563,6 @@
     "REQUEST": "rweb/session/VERIFY_CREDENTIALS_REQUEST",
     "SUCCESS": "rweb/session/VERIFY_CREDENTIALS_SUCCESS",
     "FAILURE": "rweb/session/VERIFY_CREDENTIALS_FAILURE"
-  },
-  {
-    "REQUEST": "rweb/session/FETCH_ONE_FACTOR_LOGIN_ELIGIBILITY_REQUEST",
-    "SUCCESS": "rweb/session/FETCH_ONE_FACTOR_LOGIN_ELIGIBILITY_SUCCESS",
-    "FAILURE": "rweb/session/FETCH_ONE_FACTOR_LOGIN_ELIGIBILITY_FAILURE"
   },
   {
     "REQUEST": "rweb/session/FETCH_GUEST_SEGMENT_REQUEST",
@@ -2822,8 +2818,8 @@
     "breakpoints": "r",
     "componentDimensions": "v",
     "componentZIndices": "l",
-    "fontSizes": "w",
-    "fontSizesPx": "_",
+    "fontSizes": "_",
+    "fontSizesPx": "w",
     "fontWeights": "b",
     "lineHeights": "g",
     "lineHeightsPx": "D",
@@ -4356,11 +4352,7 @@
     "START": "start",
     "END": "end"
   },
-  {
-    "password": "password",
-    "username": "username_or_email"
-  },
-  "{[z.v.FOLLOWS]:\"W\",[z.v.FRIENDS_OF_FRIENDS]:\"X\"}",
+  "{[z.v.FOLLOWS]:\"K\",[z.v.FRIENDS_OF_FRIENDS]:\"X\"}",
   {
     "START": "start",
     "END": "end"
@@ -4889,7 +4881,7 @@
     "Quote": "quote",
     "Thread": "thread"
   },
-  "{\"ActionsBar\":\"y.Z\",\"ActionMenu\":\"function()\"{\"Icon\":\"e\",\"isDisabled\":\"t\",\"items\":\"n\",\"onOpen\":\"i\"}{\"const r=o.useCallback()\"{\"items\":\"n\",\"onCloseRequested\":\"e\"}{\"Icon\":\"e\",\"isDisabled\":\"t\",\"onClick\":\"i\",\"renderActionMenu\":\"r\"}},\"CallToAction\":\"a.ZP\",\"EditCallout\":\"C.Z\",\"Education\":\"E.Z\",\"HighlightedUserLabel\":\"c.Z\",\"Media\":\"I.Z\",\"Place\":\"r.ZP\",\"PromotedDetails\":\"u.Z\",\"PromotedUserProfileCard\":\"A\",\"ReplyContext\":\"P.ZP\",\"RichContent\":\"L.Z\",\"SocialContext\":\"w.Z\",\"Text\":\"D.Z\",\"Tombstone\":\"g.Z\",\"Timestamp\":\"p.Z\",\"UserAvatar\":\"M.Z\",\"UserFollowIndicator\":\"F.Z\",\"UserName\":\"R.Z\",\"ArticleCard\":\"f.Z\"}",
+  "{\"ActionsBar\":\"f.Z\",\"ActionMenu\":\"function()\"{\"Icon\":\"e\",\"isDisabled\":\"t\",\"items\":\"n\",\"onOpen\":\"i\"}{\"const r=o.useCallback()\"{\"items\":\"n\",\"onCloseRequested\":\"e\"}{\"Icon\":\"e\",\"isDisabled\":\"t\",\"onClick\":\"i\",\"renderActionMenu\":\"r\"}},\"CallToAction\":\"a.ZP\",\"EditCallout\":\"C.Z\",\"Education\":\"E.Z\",\"HighlightedUserLabel\":\"c.Z\",\"Media\":\"I.Z\",\"Place\":\"r.ZP\",\"PromotedDetails\":\"u.Z\",\"PromotedUserProfileCard\":\"A\",\"ReplyContext\":\"P.ZP\",\"RichContent\":\"L.Z\",\"SocialContext\":\"w.Z\",\"Text\":\"D.Z\",\"Tombstone\":\"g.Z\",\"Timestamp\":\"p.Z\",\"UserAvatar\":\"M.Z\",\"UserFollowIndicator\":\"F.Z\",\"UserName\":\"R.Z\",\"ArticleCard\":\"y.Z\"}",
   {
     "FOLLOWS": "follows",
     "CREATORS": "creators"
@@ -5234,6 +5226,11 @@
     "WebSidebar": "web_sidebar"
   },
   {
+    "REQUEST": "rweb/settings/usernames/FETCH_USERNAMES_REQUEST",
+    "SUCCESS": "rweb/settings/usernames/FETCH_USERNAMES_SUCCESS",
+    "FAILURE": "rweb/settings/usernames/FETCH_USERNAMES_FAILURE"
+  },
+  {
     "primary0": "primary",
     "blue0": "blue500",
     "green0": "green500",
@@ -5245,11 +5242,6 @@
     "teal0": "teal500",
     "yellow0": "yellow500",
     "gray0": "gray500"
-  },
-  {
-    "REQUEST": "rweb/settings/usernames/FETCH_USERNAMES_REQUEST",
-    "SUCCESS": "rweb/settings/usernames/FETCH_USERNAMES_SUCCESS",
-    "FAILURE": "rweb/settings/usernames/FETCH_USERNAMES_FAILURE"
   },
   {
     "EmptyState": "EmptyState",
@@ -5385,6 +5377,19 @@
       "link": "/settings/monetization/payout_history",
       "text": "p"
     }
+  },
+  {
+    "primary0": "primary",
+    "blue0": "blue500",
+    "green0": "green500",
+    "magenta0": "magenta500",
+    "orange0": "orange500",
+    "plum0": "plum500",
+    "purple0": "purple500",
+    "red0": "red500",
+    "teal0": "teal500",
+    "yellow0": "yellow500",
+    "gray0": "gray500"
   },
   {
     "REQUEST": "rweb/safetyMode/UPDATE_SAFETY_MODE_SETTINGS_REQUEST",
@@ -5526,6 +5531,19 @@
     "format_inline": "format-inline"
   },
   {
+    "primary0": "primary",
+    "blue0": "blue500",
+    "green0": "green500",
+    "magenta0": "magenta500",
+    "orange0": "orange500",
+    "plum0": "plum500",
+    "purple0": "purple500",
+    "red0": "red500",
+    "teal0": "teal500",
+    "yellow0": "yellow500",
+    "gray0": "gray500"
+  },
+  {
     "MEDIA": "MEDIA",
     "TWEET": "TWEET"
   },
@@ -5549,32 +5567,6 @@
   {
     "DRAFT": "s.DRAFT",
     "PUBLISHED": "s.PUBLISHED"
-  },
-  {
-    "primary0": "primary",
-    "blue0": "blue500",
-    "green0": "green500",
-    "magenta0": "magenta500",
-    "orange0": "orange500",
-    "plum0": "plum500",
-    "purple0": "purple500",
-    "red0": "red500",
-    "teal0": "teal500",
-    "yellow0": "yellow500",
-    "gray0": "gray500"
-  },
-  {
-    "primary0": "primary",
-    "blue0": "blue500",
-    "green0": "green500",
-    "magenta0": "magenta500",
-    "orange0": "orange500",
-    "plum0": "plum500",
-    "purple0": "purple500",
-    "red0": "red500",
-    "teal0": "teal500",
-    "yellow0": "yellow500",
-    "gray0": "gray500"
   },
   "{\"root\":`${\"t\"}/application`,\"eligibility\":`${\"t\"}/application/eligibility`,\"pricing\":`${\"t\"}/application/pricing`,\"completeProfile\":`${\"t\"}/application/complete_profile`,\"submit\":`${\"t\"}/application/submit`,\"submitted\":`${\"t\"}/application/submitted`,\"waitlisted\":`${\"t\"}/application/waitlisted`,\"rejected\":`${\"t\"}/application/rejected`}",
   "{\"root\":`${\"t\"}/onboarding`,\"perksIntro\":`${\"t\"}/onboarding/perks_intro`,\"perksDescription\":`${\"t\"}/onboarding/perks_description`,\"perksBadges\":`${\"t\"}/onboarding/perks_badges`,\"perksConfirm\":`${\"t\"}/onboarding/perks_confirm`,\"pricing\":`${\"t\"}/onboarding/pricing`,\"pricingConfirm\":`${\"t\"}/onboarding/pricing_confirm`,\"stripeSetup\":`${\"t\"}/onboarding/stripe_setup`,\"stripePending\":`${\"t\"}/onboarding/stripe_pending`,\"stripeCompleted\":`${\"t\"}/onboarding/stripe_completed`}",
@@ -5707,9 +5699,9 @@
   {
     "software_engineering": "u",
     "data_analytics": "d",
-    "product": "f",
-    "design": "h",
-    "marketing": "m",
+    "product": "m",
+    "design": "f",
+    "marketing": "h",
     "sales_am": "p",
     "operations": "v",
     "people_hr": "_",
@@ -5731,7 +5723,7 @@
   },
   {
     "onsite": {
-      "label": "P",
+      "label": "A",
       "description": "B"
     },
     "remote": {
@@ -5766,23 +5758,6 @@
   {
     "CONVERSATION": "conversation",
     "TIMELINE": "timeline"
-  },
-  {
-    "primary": {
-      "accessibilityLiveRegion": "polite"
-    },
-    "exclusive": {
-      "accessibilityLiveRegion": "polite"
-    },
-    "danger": {
-      "accessibilityLiveRegion": "assertive"
-    },
-    "success": {
-      "accessibilityLiveRegion": "polite"
-    },
-    "warning": {
-      "accessibilityLiveRegion": "polite"
-    }
   },
   {
     "REQUEST": "rweb/oAuthConsent/FETCH_CONSENT_METADATA_REQUEST",
@@ -5838,6 +5813,99 @@
   {
     "TopicCategory": "topic_category",
     "Topic": "topic"
+  },
+  {
+    "ACCOUNTS": "Accounts",
+    "INVITATIONS": "Invitations"
+  },
+  {
+    "JOBS": "Jobs",
+    "FEATURED_JOBS": "Featured Jobs"
+  },
+  {
+    "createInvite": "createInvite",
+    "resendInvite": "resendInvite",
+    "deleteInvite": "deleteInvite",
+    "assignBadge": "assignBadge",
+    "deleteAffiliate": "deleteAffiliate",
+    "createApplication": "createApplication",
+    "createJob": "createJob",
+    "updateJob": "updateJob",
+    "deleteJob": "deleteJob",
+    "featureJob": "featureJob",
+    "unfeatureJob": "unfeatureJob",
+    "configureOrganization": "configureOrganization",
+    "apiDeckIntegration": "apiDeckIntegration",
+    "atsSyncErrorMessage": "atsSyncErrorMessage"
+  },
+  {
+    "page": "verified-organizations",
+    "section": "hiring"
+  },
+  {
+    "...Ie": "_",
+    "component": "job-splash-screen"
+  },
+  {
+    "...Ie": "_",
+    "component": "apideck-vault"
+  },
+  {
+    "...Ie": "_",
+    "component": "sync-ats-jobs"
+  },
+  {
+    "Affiliate": "Affiliate"
+  },
+  {
+    "MEDIA": "MEDIA",
+    "TWEET": "TWEET"
+  },
+  {
+    "IMMUTABLE": "IMMUTABLE"
+  },
+  {
+    "GIF": "TweetGif",
+    "IMAGE": "TweetImage",
+    "VIDEO": "TweetVideo"
+  },
+  {
+    "TWITTER_ARTICLES_TAB": "TWITTER_ARTICLES_TAB",
+    "TWITTER_ARTICLE_VIEW": "TWITTER_ARTICLE_VIEW",
+    "LONGFORM_COMPOSER": "LONGFORM_COMPOSER"
+  },
+  {
+    "DRAFT": "Draft",
+    "PUBLISHED": "Published"
+  },
+  {
+    "DRAFT": "o.DRAFT",
+    "PUBLISHED": "o.PUBLISHED"
+  },
+  {
+    "CONFIG_LOADED": "rweb/verifiedOrgConfig/LOADED",
+    "CONFIG_REQUEST": "rweb/verifiedOrgConfig/REQUEST",
+    "SET_CONFIG": "rweb/verifiedOrgConfig/SET"
+  },
+  {
+    "fetchStatus": "E.ZP.NONE",
+    "config": "Ge"
+  },
+  "{[h.hA.switchFromDirect]:\"m().dca6b3ac\",[h.hA.generate]:\"m().dca6b3ac\",[h.hA.updateSeats]:\"m().c97ad52a\"}",
+  "{[w.hA.generate]:\"b().fc1f43d0\",[w.hA.switchFromDirect]:\"b().fc1f43d0\",[w.hA.updateSeats]:\"b().c97ad52a\"}",
+  {
+    "generate": "generate",
+    "updateSeats": "updateSeats",
+    "switchFromDirect": "switchFromDirect"
+  },
+  {
+    "single_line": "singleline",
+    "format_inline": "format-inline"
+  },
+  {
+    "Active": "active",
+    "Expand": "expand",
+    "Remove": "remove"
   },
   {
     "BlueVerified": "BlueVerified",
@@ -6061,7 +6129,7 @@
     "AppealSuspension": "appealsuspension",
     "Notification": "notification"
   },
-  "{\"ActionsBar\":\"C.Z\",\"ActionMenu\":\"function()\"{\"Icon\":\"e\",\"isDisabled\":\"t\",\"items\":\"n\",\"onOpen\":\"i\"}{\"const o=r.useCallback()\"{\"items\":\"n\",\"onCloseRequested\":\"e\"}{\"Icon\":\"e\",\"isDisabled\":\"t\",\"onClick\":\"i\",\"renderActionMenu\":\"o\"}},\"CallToAction\":\"a.ZP\",\"EditCallout\":\"_.Z\",\"Education\":\"E.Z\",\"HighlightedUserLabel\":\"c.Z\",\"Media\":\"T.Z\",\"Place\":\"o.ZP\",\"PromotedDetails\":\"u.Z\",\"PromotedUserProfileCard\":\"L\",\"ReplyContext\":\"A.ZP\",\"RichContent\":\"P.Z\",\"SocialContext\":\"b.Z\",\"Text\":\"R.Z\",\"Tombstone\":\"g.Z\",\"Timestamp\":\"p.Z\",\"UserAvatar\":\"D.Z\",\"UserFollowIndicator\":\"U.Z\",\"UserName\":\"M.Z\",\"ArticleCard\":\"f.Z\"}",
+  "{\"ActionsBar\":\"C.Z\",\"ActionMenu\":\"function()\"{\"Icon\":\"e\",\"isDisabled\":\"t\",\"items\":\"n\",\"onOpen\":\"i\"}{\"const o=r.useCallback()\"{\"items\":\"n\",\"onCloseRequested\":\"e\"}{\"Icon\":\"e\",\"isDisabled\":\"t\",\"onClick\":\"i\",\"renderActionMenu\":\"o\"}},\"CallToAction\":\"a.ZP\",\"EditCallout\":\"_.Z\",\"Education\":\"E.Z\",\"HighlightedUserLabel\":\"c.Z\",\"Media\":\"T.Z\",\"Place\":\"o.ZP\",\"PromotedDetails\":\"u.Z\",\"PromotedUserProfileCard\":\"L\",\"ReplyContext\":\"A.ZP\",\"RichContent\":\"P.Z\",\"SocialContext\":\"b.Z\",\"Text\":\"R.Z\",\"Tombstone\":\"g.Z\",\"Timestamp\":\"p.Z\",\"UserAvatar\":\"M.Z\",\"UserFollowIndicator\":\"U.Z\",\"UserName\":\"D.Z\",\"ArticleCard\":\"f.Z\"}",
   {
     "original": "original",
     "banner": "banner",
@@ -6092,6 +6160,15 @@
     "MinRetweets": "minRetweets",
     "ReplyFilter": "replyFilter",
     "LinkFilter": "linkFilter"
+  },
+  {
+    "VIDEO": "VIDEO",
+    "SHORT_VIDEO": "SHORT_VIDEO"
+  },
+  {
+    "REQUEST": "rweb/FETCH_TV_EXPLORE/REQUEST",
+    "SUCCESS": "rweb/FETCH_TV_EXPLORE/SUCCESS",
+    "FAILURE": "rweb/FETCH_TV_EXPLORE/FAILURE"
   },
   {
     "FakeAccount": "fake_account",
@@ -6289,12 +6366,6 @@
     "google": "https://play.google.com/store/account/subscriptions?sku=com.twitter.google.rogue.one.1.1&package=com.twitter.android"
   },
   {
-    "Beta": "Beta",
-    "Live": "Live",
-    "Sandbox": "Sandbox",
-    "Test": "Test"
-  },
-  {
     "primary0": "primary",
     "blue0": "blue500",
     "green0": "green500",
@@ -6306,6 +6377,12 @@
     "teal0": "teal500",
     "yellow0": "yellow500",
     "gray0": "gray500"
+  },
+  {
+    "Beta": "Beta",
+    "Live": "Live",
+    "Sandbox": "Sandbox",
+    "Test": "Test"
   },
   {
     "NotStarted": "not_started",
@@ -6425,99 +6502,6 @@
     "Reserved5": "Reserved5",
     "Reserved6": "Reserved6",
     "Reserved7": "Reserved7"
-  },
-  {
-    "Affiliate": "Affiliate"
-  },
-  {
-    "MEDIA": "MEDIA",
-    "TWEET": "TWEET"
-  },
-  {
-    "IMMUTABLE": "IMMUTABLE"
-  },
-  {
-    "GIF": "TweetGif",
-    "IMAGE": "TweetImage",
-    "VIDEO": "TweetVideo"
-  },
-  {
-    "TWITTER_ARTICLES_TAB": "TWITTER_ARTICLES_TAB",
-    "TWITTER_ARTICLE_VIEW": "TWITTER_ARTICLE_VIEW",
-    "LONGFORM_COMPOSER": "LONGFORM_COMPOSER"
-  },
-  {
-    "DRAFT": "Draft",
-    "PUBLISHED": "Published"
-  },
-  {
-    "DRAFT": "o.DRAFT",
-    "PUBLISHED": "o.PUBLISHED"
-  },
-  {
-    "ACCOUNTS": "Accounts",
-    "INVITATIONS": "Invitations"
-  },
-  {
-    "JOBS": "Jobs",
-    "FEATURED_JOBS": "Featured Jobs"
-  },
-  {
-    "CONFIG_LOADED": "rweb/verifiedOrgConfig/LOADED",
-    "CONFIG_REQUEST": "rweb/verifiedOrgConfig/REQUEST",
-    "SET_CONFIG": "rweb/verifiedOrgConfig/SET"
-  },
-  {
-    "fetchStatus": "E.ZP.NONE",
-    "config": "Qe"
-  },
-  {
-    "createInvite": "createInvite",
-    "resendInvite": "resendInvite",
-    "deleteInvite": "deleteInvite",
-    "assignBadge": "assignBadge",
-    "deleteAffiliate": "deleteAffiliate",
-    "createApplication": "createApplication",
-    "createJob": "createJob",
-    "updateJob": "updateJob",
-    "deleteJob": "deleteJob",
-    "featureJob": "featureJob",
-    "unfeatureJob": "unfeatureJob",
-    "configureOrganization": "configureOrganization",
-    "apiDeckIntegration": "apiDeckIntegration",
-    "atsSyncErrorMessage": "atsSyncErrorMessage"
-  },
-  "{[k.hA.switchFromDirect]:\"m().dca6b3ac\",[k.hA.generate]:\"m().dca6b3ac\",[k.hA.updateSeats]:\"m().c97ad52a\"}",
-  {
-    "page": "verified-organizations",
-    "section": "hiring"
-  },
-  {
-    "...Ce": "_",
-    "component": "job-splash-screen"
-  },
-  {
-    "...Ce": "_",
-    "component": "apideck-vault"
-  },
-  {
-    "...Ce": "_",
-    "component": "sync-ats-jobs"
-  },
-  "{[x.hA.generate]:\"b().fc1f43d0\",[x.hA.switchFromDirect]:\"b().fc1f43d0\",[x.hA.updateSeats]:\"b().c97ad52a\"}",
-  {
-    "generate": "generate",
-    "updateSeats": "updateSeats",
-    "switchFromDirect": "switchFromDirect"
-  },
-  {
-    "single_line": "singleline",
-    "format_inline": "format-inline"
-  },
-  {
-    "Active": "active",
-    "Expand": "expand",
-    "Remove": "remove"
   },
   {
     "search": "search"
@@ -6733,7 +6717,7 @@
     "IncentiveFocus": "IncentiveFocus",
     "TopicFocus": "TopicFocus"
   },
-  "{[k.LIVE_EVENT]:\"!0\",[k.MOMENT]:\"!0\",[k.SUMMARY]:\"!0\",[k.SUMMARY_LARGE_IMAGE]:\"!0\",[k.AUDIOSPACE]:\"!0\"}",
+  "{[x.LIVE_EVENT]:\"!0\",[x.MOMENT]:\"!0\",[x.SUMMARY]:\"!0\",[x.SUMMARY_LARGE_IMAGE]:\"!0\",[x.AUDIOSPACE]:\"!0\"}",
   {
     "normal": "100",
     "long": "250",
