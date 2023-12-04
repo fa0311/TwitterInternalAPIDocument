@@ -1683,6 +1683,9 @@
       "responsive_web_trends_setting_new_endpoints": {
         "value": "true"
       },
+      "responsive_web_trends_ui_top_articles": {
+        "value": "false"
+      },
       "responsive_web_tweet_analytics_m2_enabled": {
         "value": "false"
       },
@@ -1834,7 +1837,7 @@
         "value": "false"
       },
       "rweb_recommendations_sidebar_graphql_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "rweb_search_media_enabled": {
         "value": "true"
@@ -2107,6 +2110,9 @@
       },
       "subscriptions_inapp_grok_default_mode": {
         "value": "fun"
+      },
+      "subscriptions_inapp_grok_enable_roast_me_prompt": {
+        "value": "true"
       },
       "subscriptions_inapp_grok_nux_enabled": {
         "value": "false"
@@ -4217,6 +4223,9 @@
         "responsive_web_trends_setting_new_endpoints": {
           "value": "true"
         },
+        "responsive_web_trends_ui_top_articles": {
+          "value": "false"
+        },
         "responsive_web_tweet_analytics_m2_enabled": {
           "value": "false"
         },
@@ -5181,10 +5190,10 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "66095ab3e8253ac9d62f497268e39eb2"
+      "settingsVersion": "ac2c76553137a0a18e0acf55808e7c74"
     },
     "debug": {},
-    "featureSetToken": "aac2991e104b03f98770625a2e72f0b4635ec9e9",
+    "featureSetToken": "b28274a835ead808e83926c42c38173e36716b7c",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -5254,10 +5263,11 @@
     "country": "US",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "170163758761929264",
+    "guestId": "170172398480342579",
     "hasCommunityMemberships": "false",
     "language": "en",
-    "ssoInitTokens": {}
+    "ssoInitTokens": {},
+    "isLoaded": "false"
   },
   "developer": {
     "dtabBarInfo": {
