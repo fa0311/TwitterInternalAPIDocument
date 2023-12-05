@@ -4827,9 +4827,9 @@ This document is entirely auto-generated and may contain errors.<br>
 | community                 | {'icon': 'ls', 'label': 'C().a176d0d8'} |
 | by_invitation             | {'icon': 'rs', 'label': 'C().gc7e52ca'} |
 | subscribers               | {'icon': 'os', 'label': 'C().bf8d98f4'} |
-| community_members         | {'icon': 'ds', 'label': 'C().i13be5a0'} |
+| community_members         | {'icon': 'cs', 'label': 'C().i13be5a0'} |
 | super_followers_exclusive | {'icon': 'os', 'label': 'C().ebe1d850'} |
-| trusted_friends_tweet     | {'icon': 'cs', 'label': 'u'}            |
+| trusted_friends_tweet     | {'icon': 'ds', 'label': 'u'}            |
 | verified                  | {'icon': 'us', 'label': 'C().b121464a'} |
 
 | constant   | value   |
@@ -6982,7 +6982,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{[f.LIVE_EVENT]:"!0",[f.MOMENT]:"!0",[f.SUMMARY]:"!0",[f.SUMMARY_LARGE_IMAGE]:"!0",[f.AUDIOSPACE]:"!0"}
+{[P.LIVE_EVENT]:"!0",[P.MOMENT]:"!0",[P.SUMMARY]:"!0",[P.SUMMARY_LARGE_IMAGE]:"!0",[P.AUDIOSPACE]:"!0"}
 ```
 | constant     | value        |
 |:-------------|:-------------|

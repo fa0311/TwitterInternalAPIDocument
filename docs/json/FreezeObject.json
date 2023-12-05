@@ -4548,7 +4548,7 @@
       "label": "C().bf8d98f4"
     },
     "community_members": {
-      "icon": "ds",
+      "icon": "cs",
       "label": "C().i13be5a0"
     },
     "super_followers_exclusive": {
@@ -4556,7 +4556,7 @@
       "label": "C().ebe1d850"
     },
     "trusted_friends_tweet": {
-      "icon": "cs",
+      "icon": "ds",
       "label": "u"
     },
     "verified": {
@@ -6386,7 +6386,7 @@
     "IncentiveFocus": "IncentiveFocus",
     "TopicFocus": "TopicFocus"
   },
-  "{[f.LIVE_EVENT]:\"!0\",[f.MOMENT]:\"!0\",[f.SUMMARY]:\"!0\",[f.SUMMARY_LARGE_IMAGE]:\"!0\",[f.AUDIOSPACE]:\"!0\"}",
+  "{[P.LIVE_EVENT]:\"!0\",[P.MOMENT]:\"!0\",[P.SUMMARY]:\"!0\",[P.SUMMARY_LARGE_IMAGE]:\"!0\",[P.AUDIOSPACE]:\"!0\"}",
   {
     "CONVERSATION": "conversation",
     "TIMELINE": "timeline"

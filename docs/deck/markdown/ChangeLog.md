@@ -1794,3 +1794,22 @@
 - subscriptions_inapp_grok_default_mode<br>
 #### remove<br>
 - None<br>
+## 2023/12/04<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- recruiting_premium_jobs_enabled<br>
+- responsive_web_trends_ui_top_articles<br>
+- subscriptions_feature_premium_jobs<br>
+- subscriptions_inapp_grok_enable_roast_me_prompt<br>
+- subscriptions_inapp_grok_nux_enabled<br>
+- subscriptions_inapp_grok_upsell_enabled<br>
+#### remove<br>
+- responsive_web_continue_as_always_enabled<br>
+- responsive_web_continue_as_param_enabled<br>
+- responsive_web_verified_organizations_advertising_enabled<br>
+- stateful_login_intent_enabled<br>

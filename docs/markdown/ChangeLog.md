@@ -2620,3 +2620,15 @@
 - subscriptions_feature_premium_jobs<br>
 #### remove<br>
 - responsive_web_verified_organizations_advertising_enabled<br>
+## 2023/12/04<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- responsive_web_trends_ui_top_articles<br>
+- subscriptions_inapp_grok_enable_roast_me_prompt<br>
+#### remove<br>
+- None<br>
