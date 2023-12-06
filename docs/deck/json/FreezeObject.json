@@ -167,7 +167,7 @@
     "AudioModule": "AudioModule"
   },
   {
-    "...Fe": "_",
+    "...He": "_",
     "ColumnFromPath": "ColumnFromPath",
     "ColumnTimelineAdapter": "ColumnTimelineAdapter"
   },
@@ -3794,7 +3794,8 @@
     "red0": "red500",
     "teal0": "teal500",
     "yellow0": "yellow500",
-    "gray0": "gray500"
+    "gray0": "gray500",
+    "gray100": "gray600"
   },
   {
     "single_line": "singleline",
@@ -4752,7 +4753,8 @@
     "red0": "red500",
     "teal0": "teal500",
     "yellow0": "yellow500",
-    "gray0": "gray500"
+    "gray0": "gray500",
+    "gray100": "gray600"
   },
   {
     "Crop": "crop",
@@ -4963,7 +4965,8 @@
     "red0": "red500",
     "teal0": "teal500",
     "yellow0": "yellow500",
-    "gray0": "gray500"
+    "gray0": "gray500",
+    "gray100": "gray600"
   },
   {
     "REQUEST": "rweb/accountVerification/FETCH_ACCESS_REQUEST",
@@ -5241,7 +5244,8 @@
     "red0": "red500",
     "teal0": "teal500",
     "yellow0": "yellow500",
-    "gray0": "gray500"
+    "gray0": "gray500",
+    "gray100": "gray600"
   },
   {
     "EmptyState": "EmptyState",
@@ -5389,7 +5393,8 @@
     "red0": "red500",
     "teal0": "teal500",
     "yellow0": "yellow500",
-    "gray0": "gray500"
+    "gray0": "gray500",
+    "gray100": "gray600"
   },
   {
     "REQUEST": "rweb/safetyMode/UPDATE_SAFETY_MODE_SETTINGS_REQUEST",
@@ -5520,7 +5525,8 @@
     "red0": "red500",
     "teal0": "teal500",
     "yellow0": "yellow500",
-    "gray0": "gray500"
+    "gray0": "gray500",
+    "gray100": "gray600"
   },
   {
     "START": "start",
@@ -5541,7 +5547,8 @@
     "red0": "red500",
     "teal0": "teal500",
     "yellow0": "yellow500",
-    "gray0": "gray500"
+    "gray0": "gray500",
+    "gray100": "gray600"
   },
   {
     "MEDIA": "MEDIA",
@@ -5933,7 +5940,8 @@
     "red0": "red500",
     "teal0": "teal500",
     "yellow0": "yellow500",
-    "gray0": "gray500"
+    "gray0": "gray500",
+    "gray100": "gray600"
   },
   {
     "alwayOpen": "r().e2a5bd50",
@@ -6376,7 +6384,8 @@
     "red0": "red500",
     "teal0": "teal500",
     "yellow0": "yellow500",
-    "gray0": "gray500"
+    "gray0": "gray500",
+    "gray100": "gray600"
   },
   {
     "Beta": "Beta",
@@ -6840,7 +6849,8 @@
     "red0": "red500",
     "teal0": "teal500",
     "yellow0": "yellow500",
-    "gray0": "gray500"
+    "gray0": "gray500",
+    "gray100": "gray600"
   },
   {
     "LIVE_BROADCAST": "liveBroadcast",

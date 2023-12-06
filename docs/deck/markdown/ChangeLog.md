@@ -1813,3 +1813,14 @@
 - responsive_web_continue_as_param_enabled<br>
 - responsive_web_verified_organizations_advertising_enabled<br>
 - stateful_login_intent_enabled<br>
+## 2023/12/05<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- responsive_web_verified_organizations_tiers_enabled<br>
+#### remove<br>
+- None<br>
