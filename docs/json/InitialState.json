@@ -105,6 +105,11 @@
       "entities": {},
       "errors": {},
       "fetchStatus": {}
+    },
+    "liveEvents": {
+      "entities": {},
+      "errors": {},
+      "fetchStatus": {}
     }
   },
   "featureSwitch": {
@@ -518,6 +523,9 @@
       },
       "card_detail_compact_enabled": {
         "value": "true"
+      },
+      "communities_show_broadcast_option_in_composer": {
+        "value": "false"
       },
       "conversation_controls_limited_replies_consumption_configuration": {
         "value": "no_reply"
@@ -1377,9 +1385,6 @@
       "responsive_web_follower_count_reduction_copy_enabled": {
         "value": "true"
       },
-      "responsive_web_footer_categorized_variant_enabled": {
-        "value": "false"
-      },
       "responsive_web_framerate_tracking_home_enabled": {
         "value": "false"
       },
@@ -1457,24 +1462,6 @@
       },
       "responsive_web_location_spotlight_v1_display": {
         "value": "true"
-      },
-      "responsive_web_logged_out_explore_enabled": {
-        "value": "false"
-      },
-      "responsive_web_logged_out_explore_home_path_enabled": {
-        "value": "false"
-      },
-      "responsive_web_logged_out_gating_13622_ddg": {
-        "value": ""
-      },
-      "responsive_web_logged_out_gating_14788_ddg": {
-        "value": ""
-      },
-      "responsive_web_logged_out_gating_14992_ddg": {
-        "value": ""
-      },
-      "responsive_web_logged_out_gating_15377_ddg": {
-        "value": ""
       },
       "responsive_web_logged_out_notifications_enabled": {
         "value": "true"
@@ -1631,9 +1618,6 @@
       },
       "responsive_web_scroller_top_positioning_enabled": {
         "value": "false"
-      },
-      "responsive_web_search_home_page_design_variation": {
-        "value": ""
       },
       "responsive_web_send_cookies_metadata_enabled": {
         "value": "true"
@@ -2039,6 +2023,9 @@
       "spaces_2022_h2_spaces_communities": {
         "value": "true"
       },
+      "spaces_incognito_consumption_enabled": {
+        "value": "false"
+      },
       "standardized_nudges_misinfo": {
         "value": "true"
       },
@@ -2105,6 +2092,12 @@
       "subscriptions_feature_labs_1004": {
         "value": "true"
       },
+      "subscriptions_feature_organization_affiliates": {
+        "value": "true"
+      },
+      "subscriptions_feature_organization_x_hiring": {
+        "value": "true"
+      },
       "subscriptions_feature_premium_jobs": {
         "value": "true"
       },
@@ -2113,6 +2106,9 @@
       },
       "subscriptions_inapp_grok_default_mode": {
         "value": "fun"
+      },
+      "subscriptions_inapp_grok_disable_links": {
+        "value": "true"
       },
       "subscriptions_inapp_grok_enable_roast_me_prompt": {
         "value": "true"
@@ -3062,6 +3058,9 @@
         "card_detail_compact_enabled": {
           "value": "true"
         },
+        "communities_show_broadcast_option_in_composer": {
+          "value": "false"
+        },
         "conversation_controls_limited_replies_consumption_configuration": {
           "value": "no_reply"
         },
@@ -3920,9 +3919,6 @@
         "responsive_web_follower_count_reduction_copy_enabled": {
           "value": "true"
         },
-        "responsive_web_footer_categorized_variant_enabled": {
-          "value": "false"
-        },
         "responsive_web_framerate_tracking_home_enabled": {
           "value": "false"
         },
@@ -4000,24 +3996,6 @@
         },
         "responsive_web_location_spotlight_v1_display": {
           "value": "true"
-        },
-        "responsive_web_logged_out_explore_enabled": {
-          "value": "false"
-        },
-        "responsive_web_logged_out_explore_home_path_enabled": {
-          "value": "false"
-        },
-        "responsive_web_logged_out_gating_13622_ddg": {
-          "value": ""
-        },
-        "responsive_web_logged_out_gating_14788_ddg": {
-          "value": ""
-        },
-        "responsive_web_logged_out_gating_14992_ddg": {
-          "value": ""
-        },
-        "responsive_web_logged_out_gating_15377_ddg": {
-          "value": ""
         },
         "responsive_web_logged_out_notifications_enabled": {
           "value": "true"
@@ -4174,9 +4152,6 @@
         },
         "responsive_web_scroller_top_positioning_enabled": {
           "value": "false"
-        },
-        "responsive_web_search_home_page_design_variation": {
-          "value": ""
         },
         "responsive_web_send_cookies_metadata_enabled": {
           "value": "true"
@@ -4582,6 +4557,9 @@
         "spaces_2022_h2_spaces_communities": {
           "value": "true"
         },
+        "spaces_incognito_consumption_enabled": {
+          "value": "false"
+        },
         "standardized_nudges_misinfo": {
           "value": "true"
         },
@@ -4648,6 +4626,12 @@
         "subscriptions_feature_labs_1004": {
           "value": "true"
         },
+        "subscriptions_feature_organization_affiliates": {
+          "value": "true"
+        },
+        "subscriptions_feature_organization_x_hiring": {
+          "value": "true"
+        },
         "subscriptions_feature_premium_jobs": {
           "value": "true"
         },
@@ -4656,6 +4640,9 @@
         },
         "subscriptions_inapp_grok_default_mode": {
           "value": "fun"
+        },
+        "subscriptions_inapp_grok_disable_links": {
+          "value": "true"
         },
         "subscriptions_inapp_grok_enable_roast_me_prompt": {
           "value": "true"
@@ -5199,7 +5186,7 @@
       "settingsVersion": "ef5dd47cb6344770043623967d7430dd"
     },
     "debug": {},
-    "featureSetToken": "ef672a7c18c96b53448df7407b596c801af319cb",
+    "featureSetToken": "8821002201648f36943949386e667335a78b2515",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -5269,7 +5256,7 @@
     "country": "US",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "170181043756870188",
+    "guestId": "170189682750628179",
     "hasCommunityMemberships": "false",
     "language": "en",
     "ssoInitTokens": {},
