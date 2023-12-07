@@ -2666,3 +2666,15 @@
 - responsive_web_logged_out_gating_14992_ddg<br>
 - responsive_web_logged_out_gating_15377_ddg<br>
 - responsive_web_search_home_page_design_variation<br>
+## 2023/12/07<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- longform_notetweets_composer_upsell_enabled<br>
+- spaces_incognito_consumption_default<br>
+#### remove<br>
+- None<br>
