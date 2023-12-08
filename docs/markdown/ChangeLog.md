@@ -2678,3 +2678,14 @@
 - spaces_incognito_consumption_default<br>
 #### remove<br>
 - None<br>
+## 2023/12/08<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- rweb_home_nav_single_direction_scroll_enabled<br>
+#### remove<br>
+- None<br>
