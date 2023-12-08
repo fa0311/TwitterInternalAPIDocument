@@ -100,6 +100,16 @@
       "entities": {},
       "errors": {},
       "fetchStatus": {}
+    },
+    "imageCache": {
+      "entities": {},
+      "errors": {},
+      "fetchStatus": {}
+    },
+    "liveEvents": {
+      "entities": {},
+      "errors": {},
+      "fetchStatus": {}
     }
   },
   "featureSwitch": {
@@ -497,7 +507,7 @@
         "value": "false"
       },
       "c9s_tab_visibility": {
-        "value": "members_only"
+        "value": "always"
       },
       "c9s_timelines_default_selection": {
         "value": "latest"
@@ -740,7 +750,7 @@
         "value": "false"
       },
       "gryphon_live_timelines_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "gryphon_motion": {
         "value": "false"
@@ -1800,6 +1810,9 @@
       },
       "rweb_home_mixer_enable_social_context_filter_social_contexts": {
         "value": "true"
+      },
+      "rweb_home_nav_single_direction_scroll_enabled": {
+        "value": "false"
       },
       "rweb_home_refetch_on_refocus_min_delay_seconds": {
         "value": "60"
@@ -3280,7 +3293,7 @@
           "value": "false"
         },
         "gryphon_live_timelines_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "gryphon_motion": {
           "value": "false"
@@ -4341,6 +4354,9 @@
         "rweb_home_mixer_enable_social_context_filter_social_contexts": {
           "value": "true"
         },
+        "rweb_home_nav_single_direction_scroll_enabled": {
+          "value": "false"
+        },
         "rweb_home_refetch_on_refocus_min_delay_seconds": {
           "value": "60"
         },
@@ -4638,7 +4654,7 @@
           "value": "true"
         },
         "subscriptions_inapp_grok": {
-          "value": "false"
+          "value": "true"
         },
         "subscriptions_inapp_grok_default_mode": {
           "value": "fun"
@@ -5185,10 +5201,10 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "ef5dd47cb6344770043623967d7430dd"
+      "settingsVersion": "a13d2f988e3a7bc7558a75618bcdf54c"
     },
     "debug": {},
-    "featureSetToken": "2086a8e836659fcecedd1620c1dc55bf4caff528",
+    "featureSetToken": "9369e4df1741a31d559ed917a3aa736b571e5b45",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -5258,7 +5274,7 @@
     "country": "US",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "170198322899516791",
+    "guestId": "170206962792742295",
     "hasCommunityMemberships": "false",
     "language": "en",
     "ssoInitTokens": {},
@@ -5267,6 +5283,12 @@
   "developer": {
     "dtabBarInfo": {
       "hide": "false"
+    }
+  },
+  "ads": {
+    "typeahead": {
+      "targetingLocation": {},
+      "forecastAudience": {}
     }
   }
 }
