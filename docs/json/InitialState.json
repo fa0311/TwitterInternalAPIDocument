@@ -100,16 +100,6 @@
       "entities": {},
       "errors": {},
       "fetchStatus": {}
-    },
-    "imageCache": {
-      "entities": {},
-      "errors": {},
-      "fetchStatus": {}
-    },
-    "liveEvents": {
-      "entities": {},
-      "errors": {},
-      "fetchStatus": {}
     }
   },
   "featureSwitch": {
@@ -904,6 +894,9 @@
       },
       "longform_ad_free_articles_badging_enabled": {
         "value": "false"
+      },
+      "longform_notetweets_composer_upsell_enabled": {
+        "value": "true"
       },
       "longform_notetweets_composition_without_claims_enabled": {
         "value": "false"
@@ -2022,6 +2015,9 @@
       },
       "spaces_2022_h2_spaces_communities": {
         "value": "true"
+      },
+      "spaces_incognito_consumption_default": {
+        "value": "false"
       },
       "spaces_incognito_consumption_enabled": {
         "value": "false"
@@ -3439,6 +3435,9 @@
         "longform_ad_free_articles_badging_enabled": {
           "value": "true"
         },
+        "longform_notetweets_composer_upsell_enabled": {
+          "value": "true"
+        },
         "longform_notetweets_composition_without_claims_enabled": {
           "value": "false"
         },
@@ -4557,6 +4556,9 @@
         "spaces_2022_h2_spaces_communities": {
           "value": "true"
         },
+        "spaces_incognito_consumption_default": {
+          "value": "false"
+        },
         "spaces_incognito_consumption_enabled": {
           "value": "false"
         },
@@ -5186,7 +5188,7 @@
       "settingsVersion": "ef5dd47cb6344770043623967d7430dd"
     },
     "debug": {},
-    "featureSetToken": "8821002201648f36943949386e667335a78b2515",
+    "featureSetToken": "2086a8e836659fcecedd1620c1dc55bf4caff528",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -5256,7 +5258,7 @@
     "country": "US",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "170189682750628179",
+    "guestId": "170198322899516791",
     "hasCommunityMemberships": "false",
     "language": "en",
     "ssoInitTokens": {},
@@ -5265,12 +5267,6 @@
   "developer": {
     "dtabBarInfo": {
       "hide": "false"
-    }
-  },
-  "ads": {
-    "typeahead": {
-      "targetingLocation": {},
-      "forecastAudience": {}
     }
   }
 }

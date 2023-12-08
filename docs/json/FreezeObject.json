@@ -142,7 +142,7 @@
     "...d": "_"
   },
   {
-    "...i": "_"
+    "...o": "_"
   },
   {
     "instructions": []
@@ -426,8 +426,8 @@
     "columnWidths": "t",
     "sideNavWidths": "a",
     "contentWidths": "r",
-    "wideTabBarWidth": "i",
-    "dmDrawerHeight": "o",
+    "wideTabBarWidth": "o",
+    "dmDrawerHeight": "i",
     "dmDrawerWidth": "u"
   },
   {
@@ -451,7 +451,7 @@
     "Always": "always"
   },
   {
-    "latency": "i.BEST_EFFORT"
+    "latency": "o.BEST_EFFORT"
   },
   {
     "ContinueWith": "continue_with",
@@ -1367,7 +1367,7 @@
     "LIST": "List"
   },
   {
-    "...o": "_",
+    "...i": "_",
     "...u": "_"
   },
   {
@@ -2024,7 +2024,7 @@
     "text": "text"
   },
   {
-    "...i()": "_",
+    "...o()": "_",
     "activeFaintGray": "rgba(r.CV.light)",
     "activeBlack": "l.bs.black(230, 236, 240, 0.7)",
     "hoverBlack": "l.bs.black(.07)",
@@ -2051,7 +2051,7 @@
   },
   {
     "...p": "_",
-    "...i()": "_",
+    "...o()": "_",
     "text": "#141D26",
     "gray700": "#3B4C5C",
     "gray300": "#697987",
@@ -2068,7 +2068,7 @@
     "buttonOutlinedBorder": "t.default.color.baseColor.gray700"
   },
   {
-    "...i()": "_",
+    "...o()": "_",
     "activeFaintGray": "rgba(r.CV.dark)",
     "activeBlack": "l.bs.white(20, 29, 38, 0.7)",
     "hoverBlack": "l.bs.white(.07)",
@@ -2095,7 +2095,7 @@
   },
   {
     "...D": "_",
-    "...i()": "_",
+    "...o()": "_",
     "text": "l.Cj",
     "navigationBackground95": "#15202B",
     "unreadCellBackground": "#325D7D",
@@ -2106,7 +2106,7 @@
     "buttonOutlinedBorder": "t.default.color.baseColor.gray300"
   },
   {
-    "...i()": "_",
+    "...o()": "_",
     "activeFaintGray": "rgba(r.CV.darker)",
     "activeBlack": "l.bs.white(18, 21, 23, 0.7)",
     "hoverBlack": "l.bs.white(.07)",
@@ -2134,7 +2134,7 @@
   },
   {
     "...S": "_",
-    "...i()": "_",
+    "...o()": "_",
     "text": "l.Cj",
     "navigationBackground": "#050505",
     "navigationBackground95": "#050505",
@@ -2177,10 +2177,10 @@
     "gutterVerticalPx": "w.space12"
   },
   {
-    "aspectRatios": "i",
+    "aspectRatios": "o",
     "baseFontSize": "y",
     "borderRadii": "u",
-    "borderRadiiPx": "o",
+    "borderRadiiPx": "i",
     "borderWidths": "c",
     "borderWidthsPx": "s",
     "breakpoints": "r",
@@ -2196,7 +2196,7 @@
     "spaces": "S",
     "spacesPx": "w"
   },
-  "{\"...p()\":{\"scale\":\"l\",\"scales\":\"i\"}\"rn0\",A.obd,n,\"a\"}",
+  "{\"...p()\":{\"scale\":\"l\",\"scales\":\"o\"}\"rn0\",A.obd,n,\"a\"}",
   {
     "UNKNOWN": "0",
     "TOP_LEFT": "1",
@@ -2442,9 +2442,9 @@
     "listener": "listener"
   },
   {
-    "full": "full",
     "collapse": "collapse",
-    "exit": "exit"
+    "exit": "exit",
+    "full": "full"
   },
   {
     "On": "on",
@@ -2452,8 +2452,8 @@
     "Unavailable": "unavailable"
   },
   {
-    "generalNux": "general-nux",
     "clippingEducation": "clipping-education",
+    "generalNux": "general-nux",
     "recordingEducation": "recording-education",
     "report": "report",
     "createClip": "create-clip"
@@ -2465,13 +2465,13 @@
   {
     "clipId": "clipID"
   },
-  "{[O.Q.host]:{\"title\":\"Pn.hostTitle\",\"maybePluralFormatter\":\"_n\",\"capacity\":\"1\"},[O.Q.cohost]:{\"title\":\"Pn.cohostTitle\",\"maybePluralFormatter\":\"Rn\",\"capacity\":\"2\"},[O.Q.speaker]:{\"title\":\"Pn.speakerTitle\",\"maybePluralFormatter\":\"Zn\",\"capacity\":\"10\"},[O.Q.listener]:{\"title\":\"Pn.listenerTitle\",\"maybePluralFormatter\":\"xn\",\"capacity\":-1}}",
+  "{[O.Q.host]:{\"title\":\"In.hostTitle\",\"maybePluralFormatter\":\"Pn\",\"capacity\":\"1\"},[O.Q.cohost]:{\"title\":\"In.cohostTitle\",\"maybePluralFormatter\":\"_n\",\"capacity\":\"2\"},[O.Q.speaker]:{\"title\":\"In.speakerTitle\",\"maybePluralFormatter\":\"Rn\",\"capacity\":\"10\"},[O.Q.listener]:{\"title\":\"In.listenerTitle\",\"maybePluralFormatter\":\"Zn\",\"capacity\":-1}}",
   {
     "onlyInvited": "onlyInvited",
     "peopleYouFollow": "peopleYouFollow",
     "everyone": "everyone"
   },
-  "{[Xn.onlyInvited]:\"0\",[Xn.peopleYouFollow]:\"1\",[Xn.everyone]:\"2\"}",
+  "{[Yn.onlyInvited]:\"0\",[Yn.peopleYouFollow]:\"1\",[Yn.everyone]:\"2\"}",
   {
     "mainView": "mainView",
     "manageView": "manageView",
@@ -4612,6 +4612,26 @@
     "Reordering": "Reordering"
   },
   {
+    "joinAvailable": "CommunityJoinAction",
+    "joinUnavailable": "CommunityJoinActionUnavailable",
+    "leaveAvailable": "CommunityLeaveAction",
+    "leaveUnavailable": "CommunityLeaveActionUnavailable"
+  },
+  {
+    "Unavailable": "Unavailable",
+    "ViewerNotMember": "ViewerNotMember",
+    "ViewerIsSoleAdmin": "ViewerIsSoleAdmin"
+  },
+  {
+    "Unavailable": "Unavailable",
+    "ViewerIsMember": "ViewerIsMember",
+    "ViewerIsRemoved": "ViewerIsRemoved",
+    "ViewerNotInvited": "ViewerNotInvited",
+    "ViewerIsProtected": "ViewerIsProtected",
+    "ViewerRequestPending": "ViewerRequestPending",
+    "ViewerJoinRequestRequired": "ViewerRequestRequired"
+  },
+  {
     "HiddenTweet": "hidden_tweet",
     "RemovedMember": "removed_member"
   },
@@ -4774,6 +4794,10 @@
     "in": "in",
     "out": "out",
     "static": "static"
+  },
+  {
+    "longform": "longform",
+    "articles": "articles"
   },
   {
     "Original": "original",
@@ -5423,7 +5447,7 @@
     "SUCCESS": "rweb/safetyMode/FETCH_SAFETY_MODE_SETTINGS_SUCCESS",
     "FAILURE": "rweb/safetyMode/FETCH_SAFETY_MODE_SETTINGS_FAILURE"
   },
-  "{[P.ActionedTweets]:{\"backLocation\":\"A\",\"confirmationSheetHeadline\":\"()(0,o.X_)\"{\"screenName\":\"m\"}{\"screenName\":\"m\"}},[P.PreviewFlaggedTweets]:{\"backLocation\":\"x\",\"confirmationSheetHeadline\":\"S()\"{\"screenName\":\"m\"}{\"screenName\":\"m\"}}}",
+  "{[P.ActionedTweets]:{\"backLocation\":\"A\",\"confirmationSheetHeadline\":\"()(0,c.X_)\"{\"screenName\":\"m\"}{\"screenName\":\"m\"}},[P.PreviewFlaggedTweets]:{\"backLocation\":\"x\",\"confirmationSheetHeadline\":\"S()\"{\"screenName\":\"m\"}{\"screenName\":\"m\"}}}",
   {
     "ActionedTweets": "actioned_tweets",
     "PreviewFlaggedTweets": "preview_flagged_tweets"
@@ -7033,7 +7057,7 @@
     "IncentiveFocus": "IncentiveFocus",
     "TopicFocus": "TopicFocus"
   },
-  "{[P.LIVE_EVENT]:\"!0\",[P.MOMENT]:\"!0\",[P.SUMMARY]:\"!0\",[P.SUMMARY_LARGE_IMAGE]:\"!0\",[P.AUDIOSPACE]:\"!0\"}",
+  "{[z.LIVE_EVENT]:\"!0\",[z.MOMENT]:\"!0\",[z.SUMMARY]:\"!0\",[z.SUMMARY_LARGE_IMAGE]:\"!0\",[z.AUDIOSPACE]:\"!0\"}",
   {
     "CONVERSATION": "conversation",
     "TIMELINE": "timeline"

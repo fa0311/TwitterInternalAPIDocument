@@ -1824,3 +1824,26 @@
 - responsive_web_verified_organizations_tiers_enabled<br>
 #### remove<br>
 - None<br>
+## 2023/12/07<br>
+### API<br>
+#### add<br>
+- usePricesQuery<br>
+#### remove<br>
+- useAffiliatesPriceQuery<br>
+- LoggedOutSearchHomeTrendsListQuery<br>
+### Feature Switch<br>
+#### add<br>
+- communities_show_broadcast_option_in_composer<br>
+- spaces_incognito_consumption_enabled<br>
+- subscriptions_feature_organization_affiliates<br>
+- subscriptions_feature_organization_x_hiring<br>
+- subscriptions_inapp_grok_disable_links<br>
+#### remove<br>
+- responsive_web_footer_categorized_variant_enabled<br>
+- responsive_web_logged_out_explore_enabled<br>
+- responsive_web_logged_out_explore_home_path_enabled<br>
+- responsive_web_logged_out_gating_13622_ddg<br>
+- responsive_web_logged_out_gating_14788_ddg<br>
+- responsive_web_logged_out_gating_14992_ddg<br>
+- responsive_web_logged_out_gating_15377_ddg<br>
+- responsive_web_search_home_page_design_variation<br>

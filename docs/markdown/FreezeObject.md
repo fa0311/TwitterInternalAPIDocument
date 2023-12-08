@@ -129,7 +129,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant   | value   |
 |:-----------|:--------|
-| ...i       | _       |
+| ...o       | _       |
 
 | constant     | value   |
 |:-------------|:--------|
@@ -424,8 +424,8 @@ This document is entirely auto-generated and may contain errors.<br>
 | columnWidths    | t       |
 | sideNavWidths   | a       |
 | contentWidths   | r       |
-| wideTabBarWidth | i       |
-| dmDrawerHeight  | o       |
+| wideTabBarWidth | o       |
+| dmDrawerHeight  | i       |
 | dmDrawerWidth   | u       |
 
 | constant   | value     |
@@ -454,7 +454,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant   | value         |
 |:-----------|:--------------|
-| latency    | i.BEST_EFFORT |
+| latency    | o.BEST_EFFORT |
 
 | constant     | value         |
 |:-------------|:--------------|
@@ -1445,7 +1445,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant   | value   |
 |:-----------|:--------|
-| ...o       | _       |
+| ...i       | _       |
 | ...u       | _       |
 
 | constant   | value   |
@@ -2072,7 +2072,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant                        | value                              |
 |:--------------------------------|:-----------------------------------|
-| ...i()                          | _                                  |
+| ...o()                          | _                                  |
 | activeFaintGray                 | rgba(r.CV.light)                   |
 | activeBlack                     | l.bs.black(230, 236, 240, 0.7)     |
 | hoverBlack                      | l.bs.black(.07)                    |
@@ -2100,7 +2100,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | constant                   | value                             |
 |:---------------------------|:----------------------------------|
 | ...p                       | _                                 |
-| ...i()                     | _                                 |
+| ...o()                     | _                                 |
 | text                       | #141D26                           |
 | gray700                    | #3B4C5C                           |
 | gray300                    | #697987                           |
@@ -2118,7 +2118,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant                        | value                              |
 |:--------------------------------|:-----------------------------------|
-| ...i()                          | _                                  |
+| ...o()                          | _                                  |
 | activeFaintGray                 | rgba(r.CV.dark)                    |
 | activeBlack                     | l.bs.white(20, 29, 38, 0.7)        |
 | hoverBlack                      | l.bs.white(.07)                    |
@@ -2146,7 +2146,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | constant                   | value                              |
 |:---------------------------|:-----------------------------------|
 | ...D                       | _                                  |
-| ...i()                     | _                                  |
+| ...o()                     | _                                  |
 | text                       | l.Cj                               |
 | navigationBackground95     | #15202B                            |
 | unreadCellBackground       | #325D7D                            |
@@ -2158,7 +2158,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant                        | value                              |
 |:--------------------------------|:-----------------------------------|
-| ...i()                          | _                                  |
+| ...o()                          | _                                  |
 | activeFaintGray                 | rgba(r.CV.darker)                  |
 | activeBlack                     | l.bs.white(18, 21, 23, 0.7)        |
 | hoverBlack                      | l.bs.white(.07)                    |
@@ -2187,7 +2187,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | constant                   | value                              |
 |:---------------------------|:-----------------------------------|
 | ...S                       | _                                  |
-| ...i()                     | _                                  |
+| ...o()                     | _                                  |
 | text                       | l.Cj                               |
 | navigationBackground       | #050505                            |
 | navigationBackground95     | #050505                            |
@@ -2233,10 +2233,10 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant            | value   |
 |:--------------------|:--------|
-| aspectRatios        | i       |
+| aspectRatios        | o       |
 | baseFontSize        | y       |
 | borderRadii         | u       |
-| borderRadiiPx       | o       |
+| borderRadiiPx       | i       |
 | borderWidths        | c       |
 | borderWidthsPx      | s       |
 | breakpoints         | r       |
@@ -2254,7 +2254,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{"...p()":{"scale":"l","scales":"i"}"rn0",A.obd,n,"a"}
+{"...p()":{"scale":"l","scales":"o"}"rn0",A.obd,n,"a"}
 ```
 | constant     |   value |
 |:-------------|--------:|
@@ -2522,9 +2522,9 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant   | value    |
 |:-----------|:---------|
-| full       | full     |
 | collapse   | collapse |
 | exit       | exit     |
+| full       | full     |
 
 | constant    | value       |
 |:------------|:------------|
@@ -2534,8 +2534,8 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant           | value               |
 |:-------------------|:--------------------|
-| generalNux         | general-nux         |
 | clippingEducation  | clipping-education  |
+| generalNux         | general-nux         |
 | recordingEducation | recording-education |
 | report             | report              |
 | createClip         | create-clip         |
@@ -2551,7 +2551,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{[O.Q.host]:{"title":"Pn.hostTitle","maybePluralFormatter":"_n","capacity":"1"},[O.Q.cohost]:{"title":"Pn.cohostTitle","maybePluralFormatter":"Rn","capacity":"2"},[O.Q.speaker]:{"title":"Pn.speakerTitle","maybePluralFormatter":"Zn","capacity":"10"},[O.Q.listener]:{"title":"Pn.listenerTitle","maybePl...
+{[O.Q.host]:{"title":"In.hostTitle","maybePluralFormatter":"Pn","capacity":"1"},[O.Q.cohost]:{"title":"In.cohostTitle","maybePluralFormatter":"_n","capacity":"2"},[O.Q.speaker]:{"title":"In.speakerTitle","maybePluralFormatter":"Rn","capacity":"10"},[O.Q.listener]:{"title":"In.listenerTitle","maybePl...
 ```
 | constant        | value           |
 |:----------------|:----------------|
@@ -2561,7 +2561,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{[Xn.onlyInvited]:"0",[Xn.peopleYouFollow]:"1",[Xn.everyone]:"2"}
+{[Yn.onlyInvited]:"0",[Yn.peopleYouFollow]:"1",[Yn.everyone]:"2"}
 ```
 | constant     | value        |
 |:-------------|:-------------|
@@ -4808,6 +4808,29 @@ This document is entirely auto-generated and may contain errors.<br>
 | Pinning    | Pinning    |
 | Reordering | Reordering |
 
+| constant         | value                           |
+|:-----------------|:--------------------------------|
+| joinAvailable    | CommunityJoinAction             |
+| joinUnavailable  | CommunityJoinActionUnavailable  |
+| leaveAvailable   | CommunityLeaveAction            |
+| leaveUnavailable | CommunityLeaveActionUnavailable |
+
+| constant          | value             |
+|:------------------|:------------------|
+| Unavailable       | Unavailable       |
+| ViewerNotMember   | ViewerNotMember   |
+| ViewerIsSoleAdmin | ViewerIsSoleAdmin |
+
+| constant                  | value                 |
+|:--------------------------|:----------------------|
+| Unavailable               | Unavailable           |
+| ViewerIsMember            | ViewerIsMember        |
+| ViewerIsRemoved           | ViewerIsRemoved       |
+| ViewerNotInvited          | ViewerNotInvited      |
+| ViewerIsProtected         | ViewerIsProtected     |
+| ViewerRequestPending      | ViewerRequestPending  |
+| ViewerJoinRequestRequired | ViewerRequestRequired |
+
 | constant      | value          |
 |:--------------|:---------------|
 | HiddenTweet   | hidden_tweet   |
@@ -4965,6 +4988,11 @@ This document is entirely auto-generated and may contain errors.<br>
 | in         | in      |
 | out        | out     |
 | static     | static  |
+
+| constant   | value    |
+|:-----------|:---------|
+| longform   | longform |
+| articles   | articles |
 
 | constant   | value    |
 |:-----------|:---------|
@@ -5684,7 +5712,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{[P.ActionedTweets]:{"backLocation":"A","confirmationSheetHeadline":"()(0,o.X_)"{"screenName":"m"}{"screenName":"m"}},[P.PreviewFlaggedTweets]:{"backLocation":"x","confirmationSheetHeadline":"S()"{"screenName":"m"}{"screenName":"m"}}}
+{[P.ActionedTweets]:{"backLocation":"A","confirmationSheetHeadline":"()(0,c.X_)"{"screenName":"m"}{"screenName":"m"}},[P.PreviewFlaggedTweets]:{"backLocation":"x","confirmationSheetHeadline":"S()"{"screenName":"m"}{"screenName":"m"}}}
 ```
 | constant             | value                  |
 |:---------------------|:-----------------------|
@@ -7398,7 +7426,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{[P.LIVE_EVENT]:"!0",[P.MOMENT]:"!0",[P.SUMMARY]:"!0",[P.SUMMARY_LARGE_IMAGE]:"!0",[P.AUDIOSPACE]:"!0"}
+{[z.LIVE_EVENT]:"!0",[z.MOMENT]:"!0",[z.SUMMARY]:"!0",[z.SUMMARY_LARGE_IMAGE]:"!0",[z.AUDIOSPACE]:"!0"}
 ```
 | constant     | value        |
 |:-------------|:-------------|
