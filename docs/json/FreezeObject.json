@@ -217,6 +217,25 @@
     "Top": "top"
   },
   {
+    "Home": "1",
+    "Explore": "2",
+    "Grok": "3",
+    "Messages": "4",
+    "Notifications": "5",
+    "Lists": "7",
+    "Bookmarks": "8",
+    "PremiumTierSwitch": "9",
+    "Communities": "10",
+    "Articles": "11",
+    "VerifiedOrgs": "12",
+    "Profile": "6",
+    "Spaces": "13",
+    "CommunityNotes": "14",
+    "Verified": "15",
+    "More": "0",
+    "Settings": "16"
+  },
+  {
     "Apple": "apple",
     "Google": "google"
   },
@@ -2465,13 +2484,13 @@
   {
     "clipId": "clipID"
   },
-  "{[O.Q.host]:{\"title\":\"In.hostTitle\",\"maybePluralFormatter\":\"Pn\",\"capacity\":\"1\"},[O.Q.cohost]:{\"title\":\"In.cohostTitle\",\"maybePluralFormatter\":\"_n\",\"capacity\":\"2\"},[O.Q.speaker]:{\"title\":\"In.speakerTitle\",\"maybePluralFormatter\":\"Rn\",\"capacity\":\"10\"},[O.Q.listener]:{\"title\":\"In.listenerTitle\",\"maybePluralFormatter\":\"Zn\",\"capacity\":-1}}",
+  "{[O.Q.host]:{\"title\":\"Mn.hostTitle\",\"maybePluralFormatter\":\"Hn\",\"capacity\":\"1\"},[O.Q.cohost]:{\"title\":\"Mn.cohostTitle\",\"maybePluralFormatter\":\"Dn\",\"capacity\":\"2\"},[O.Q.speaker]:{\"title\":\"Mn.speakerTitle\",\"maybePluralFormatter\":\"On\",\"capacity\":\"10\"},[O.Q.listener]:{\"title\":\"Mn.listenerTitle\",\"maybePluralFormatter\":\"zn\",\"capacity\":-1}}",
   {
     "onlyInvited": "onlyInvited",
     "peopleYouFollow": "peopleYouFollow",
     "everyone": "everyone"
   },
-  "{[Yn.onlyInvited]:\"0\",[Yn.peopleYouFollow]:\"1\",[Yn.everyone]:\"2\"}",
+  "{[oi.onlyInvited]:\"0\",[oi.peopleYouFollow]:\"1\",[oi.everyone]:\"2\"}",
   {
     "mainView": "mainView",
     "manageView": "manageView",
@@ -5447,7 +5466,7 @@
     "SUCCESS": "rweb/safetyMode/FETCH_SAFETY_MODE_SETTINGS_SUCCESS",
     "FAILURE": "rweb/safetyMode/FETCH_SAFETY_MODE_SETTINGS_FAILURE"
   },
-  "{[P.ActionedTweets]:{\"backLocation\":\"A\",\"confirmationSheetHeadline\":\"()(0,c.X_)\"{\"screenName\":\"m\"}{\"screenName\":\"m\"}},[P.PreviewFlaggedTweets]:{\"backLocation\":\"x\",\"confirmationSheetHeadline\":\"S()\"{\"screenName\":\"m\"}{\"screenName\":\"m\"}}}",
+  "{[P.ActionedTweets]:{\"backLocation\":\"A\",\"confirmationSheetHeadline\":\"()(0,o.X_)\"{\"screenName\":\"m\"}{\"screenName\":\"m\"}},[P.PreviewFlaggedTweets]:{\"backLocation\":\"x\",\"confirmationSheetHeadline\":\"S()\"{\"screenName\":\"m\"}{\"screenName\":\"m\"}}}",
   {
     "ActionedTweets": "actioned_tweets",
     "PreviewFlaggedTweets": "preview_flagged_tweets"
