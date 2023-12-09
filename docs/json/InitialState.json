@@ -105,11 +105,6 @@
       "entities": {},
       "errors": {},
       "fetchStatus": {}
-    },
-    "liveEvents": {
-      "entities": {},
-      "errors": {},
-      "fetchStatus": {}
     }
   },
   "featureSwitch": {
@@ -3056,7 +3051,7 @@
           "value": "latest"
         },
         "c9s_timelines_media_tab_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "c9s_timelines_top_latest_stickiness_enabled": {
           "value": "false"
@@ -4666,7 +4661,7 @@
           "value": "true"
         },
         "subscriptions_inapp_grok_nux_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "subscriptions_inapp_grok_upsell_enabled": {
           "value": "false"
@@ -4690,7 +4685,7 @@
           "value": "true"
         },
         "subscriptions_marketing_page_upsell_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "subscriptions_premium_tiers_default_product": {
           "value": "BlueVerifiedPlus"
@@ -5201,7 +5196,7 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "a13d2f988e3a7bc7558a75618bcdf54c"
+      "settingsVersion": "f90f57be134e3c55111c76b322bfba1e"
     },
     "debug": {},
     "featureSetToken": "9369e4df1741a31d559ed917a3aa736b571e5b45",
@@ -5274,7 +5269,7 @@
     "country": "US",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "170206962792742295",
+    "guestId": "170215598603317333",
     "hasCommunityMemberships": "false",
     "language": "en",
     "ssoInitTokens": {},
