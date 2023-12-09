@@ -213,6 +213,26 @@ This document is entirely auto-generated and may contain errors.<br>
 | SideCollapsedSmall  | sideCollapsedSmall  |
 | Top                 | top                 |
 
+| constant          |   value |
+|:------------------|--------:|
+| Home              |       1 |
+| Explore           |       2 |
+| Grok              |       3 |
+| Messages          |       4 |
+| Notifications     |       5 |
+| Lists             |       7 |
+| Bookmarks         |       8 |
+| PremiumTierSwitch |       9 |
+| Communities       |      10 |
+| Articles          |      11 |
+| VerifiedOrgs      |      12 |
+| Profile           |       6 |
+| Spaces            |      13 |
+| CommunityNotes    |      14 |
+| Verified          |      15 |
+| More              |       0 |
+| Settings          |      16 |
+
 | constant   | value   |
 |:-----------|:--------|
 | Apple      | apple   |
@@ -2551,7 +2571,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{[O.Q.host]:{"title":"In.hostTitle","maybePluralFormatter":"Pn","capacity":"1"},[O.Q.cohost]:{"title":"In.cohostTitle","maybePluralFormatter":"_n","capacity":"2"},[O.Q.speaker]:{"title":"In.speakerTitle","maybePluralFormatter":"Rn","capacity":"10"},[O.Q.listener]:{"title":"In.listenerTitle","maybePl...
+{[O.Q.host]:{"title":"Mn.hostTitle","maybePluralFormatter":"Hn","capacity":"1"},[O.Q.cohost]:{"title":"Mn.cohostTitle","maybePluralFormatter":"Dn","capacity":"2"},[O.Q.speaker]:{"title":"Mn.speakerTitle","maybePluralFormatter":"On","capacity":"10"},[O.Q.listener]:{"title":"Mn.listenerTitle","maybePl...
 ```
 | constant        | value           |
 |:----------------|:----------------|
@@ -2561,7 +2581,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{[Yn.onlyInvited]:"0",[Yn.peopleYouFollow]:"1",[Yn.everyone]:"2"}
+{[oi.onlyInvited]:"0",[oi.peopleYouFollow]:"1",[oi.everyone]:"2"}
 ```
 | constant     | value        |
 |:-------------|:-------------|
@@ -5712,7 +5732,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{[P.ActionedTweets]:{"backLocation":"A","confirmationSheetHeadline":"()(0,c.X_)"{"screenName":"m"}{"screenName":"m"}},[P.PreviewFlaggedTweets]:{"backLocation":"x","confirmationSheetHeadline":"S()"{"screenName":"m"}{"screenName":"m"}}}
+{[P.ActionedTweets]:{"backLocation":"A","confirmationSheetHeadline":"()(0,o.X_)"{"screenName":"m"}{"screenName":"m"}},[P.PreviewFlaggedTweets]:{"backLocation":"x","confirmationSheetHeadline":"S()"{"screenName":"m"}{"screenName":"m"}}}
 ```
 | constant             | value                  |
 |:---------------------|:-----------------------|
