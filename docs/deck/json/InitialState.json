@@ -5261,7 +5261,7 @@
     "country": "US",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "170215618870740960",
+    "guestId": "170224254657267950",
     "hasCommunityMemberships": "false",
     "language": "en",
     "ssoInitTokens": {},
@@ -5299,12 +5299,6 @@
   "developer": {
     "dtabBarInfo": {
       "hide": "false"
-    }
-  },
-  "ads": {
-    "typeahead": {
-      "targetingLocation": {},
-      "forecastAudience": {}
     }
   }
 }

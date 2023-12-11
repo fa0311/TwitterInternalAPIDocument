@@ -105,6 +105,11 @@
       "entities": {},
       "errors": {},
       "fetchStatus": {}
+    },
+    "liveEvents": {
+      "entities": {},
+      "errors": {},
+      "fetchStatus": {}
     }
   },
   "featureSwitch": {
@@ -5269,7 +5274,7 @@
     "country": "US",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "170215598603317333",
+    "guestId": "170224238869665275",
     "hasCommunityMemberships": "false",
     "language": "en",
     "ssoInitTokens": {},
