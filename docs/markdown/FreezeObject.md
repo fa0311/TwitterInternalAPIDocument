@@ -213,26 +213,6 @@ This document is entirely auto-generated and may contain errors.<br>
 | SideCollapsedSmall  | sideCollapsedSmall  |
 | Top                 | top                 |
 
-| constant          |   value |
-|:------------------|--------:|
-| Home              |       1 |
-| Explore           |       2 |
-| Grok              |       3 |
-| Messages          |       4 |
-| Notifications     |       5 |
-| Lists             |       7 |
-| Bookmarks         |       8 |
-| PremiumTierSwitch |       9 |
-| Communities       |      10 |
-| Articles          |      11 |
-| VerifiedOrgs      |      12 |
-| Profile           |       6 |
-| Spaces            |      13 |
-| CommunityNotes    |      14 |
-| Verified          |      15 |
-| More              |       0 |
-| Settings          |      16 |
-
 | constant   | value   |
 |:-----------|:--------|
 | Apple      | apple   |
