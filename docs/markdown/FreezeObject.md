@@ -1886,6 +1886,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | constant           | value                                                                                                           |
 |:-------------------|:----------------------------------------------------------------------------------------------------------------|
 | live               | {'backgroundColor': 'magenta500', 'bold': '!0', 'color': 'whiteOnColor'}                                        |
+| warning            | {'backgroundColor': 'red50', 'color': 'red900', 'bold': '!0', 'radius': '9999', 'fontSize': 'subtext3'}         |
 | subscriptionSaving | {'backgroundColor': 'green50', 'color': 'green900', 'bold': '!0', 'radius': '9999', 'fontSize': 'subtext3'}     |
 | subscriptionActive | {'backgroundColor': 'primary', 'radius': '9999', 'bold': '!0', 'color': 'whiteOnColor', 'fontSize': 'subtext3'} |
 | bestValue          | {'backgroundColor': 'green50', 'color': 'green900', 'bold': '!0', 'fontSize': 'subtext3'}                       |
@@ -3425,6 +3426,11 @@ This document is entirely auto-generated and may contain errors.<br>
 | explore     | explore     |
 | transparent | transparent |
 
+| constant   | value   |
+|:-----------|:--------|
+| home       | home    |
+| post       | post    |
+
 | constant    | value       |
 |:------------|:------------|
 | Draft       | Draft       |
@@ -4345,7 +4351,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{[z.v.FOLLOWS]:"K",[z.v.FRIENDS_OF_FRIENDS]:"X"}
+{[z.v.FOLLOWS]:"W",[z.v.FRIENDS_OF_FRIENDS]:"X"}
 ```
 | constant   | value   |
 |:-----------|:--------|
@@ -4974,14 +4980,14 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant                  | value                                   |
 |:--------------------------|:----------------------------------------|
-| all                       | {'icon': 'cs', 'label': 'C().i8ea6d4e'} |
-| community                 | {'icon': 'us', 'label': 'C().a176d0d8'} |
-| by_invitation             | {'icon': 'ds', 'label': 'C().gc7e52ca'} |
-| subscribers               | {'icon': 'cs', 'label': 'C().bf8d98f4'} |
-| community_members         | {'icon': 'hs', 'label': 'C().i13be5a0'} |
-| super_followers_exclusive | {'icon': 'cs', 'label': 'C().ebe1d850'} |
-| trusted_friends_tweet     | {'icon': 'ms', 'label': 'p'}            |
-| verified                  | {'icon': 'ps', 'label': 'C().b121464a'} |
+| all                       | {'icon': 'ds', 'label': 'C().i8ea6d4e'} |
+| community                 | {'icon': 'hs', 'label': 'C().a176d0d8'} |
+| by_invitation             | {'icon': 'us', 'label': 'C().gc7e52ca'} |
+| subscribers               | {'icon': 'ds', 'label': 'C().bf8d98f4'} |
+| community_members         | {'icon': 'ms', 'label': 'C().i13be5a0'} |
+| super_followers_exclusive | {'icon': 'ds', 'label': 'C().ebe1d850'} |
+| trusted_friends_tweet     | {'icon': 'ps', 'label': 'p'}            |
+| verified                  | {'icon': '_s', 'label': 'C().b121464a'} |
 
 | constant   | value   |
 |:-----------|:--------|
