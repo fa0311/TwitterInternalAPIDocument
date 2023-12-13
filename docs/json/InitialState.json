@@ -512,9 +512,6 @@
       "communities_show_broadcast_option_in_composer": {
         "value": "false"
       },
-      "conversation_controls_limited_replies_consumption_configuration": {
-        "value": "no_reply"
-      },
       "conversation_controls_my_subscribers_enabled": {
         "value": "true"
       },
@@ -1671,7 +1668,7 @@
         "value": "10000"
       },
       "responsive_web_twitter_article_character_limit": {
-        "value": "100"
+        "value": "25"
       },
       "responsive_web_twitter_article_content_debounce_ms": {
         "value": "3000"
@@ -3051,9 +3048,6 @@
         },
         "communities_show_broadcast_option_in_composer": {
           "value": "false"
-        },
-        "conversation_controls_limited_replies_consumption_configuration": {
-          "value": "no_reply"
         },
         "conversation_controls_my_subscribers_enabled": {
           "value": "true"
@@ -5180,10 +5174,10 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "6e54d84c140f5772c6c85b4346bd4fa0"
+      "settingsVersion": "6e0c3958f5727b934e9dd898d4b2f151"
     },
     "debug": {},
-    "featureSetToken": "c13d7af2e8b18db42cdc8d2fa2e7d99320a39569",
+    "featureSetToken": "76cd6b7872b0d187f4f8036d78d0004b027d6fa0",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -5253,7 +5247,7 @@
     "country": "US",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "170241522410394567",
+    "guestId": "170250163532894291",
     "hasCommunityMemberships": "false",
     "language": "en",
     "ssoInitTokens": {},
