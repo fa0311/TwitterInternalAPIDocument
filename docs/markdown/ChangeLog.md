@@ -2689,3 +2689,15 @@
 - rweb_home_nav_single_direction_scroll_enabled<br>
 #### remove<br>
 - None<br>
+## 2023/12/12<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- responsive_web_twitter_blue_upsell_posts<br>
+#### remove<br>
+- responsive_web_home_pinned_timelines_enabled<br>
+- responsive_web_home_pinned_timelines_settings_enabled<br>

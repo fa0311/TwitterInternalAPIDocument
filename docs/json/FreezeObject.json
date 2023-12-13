@@ -1827,6 +1827,13 @@
       "bold": "!0",
       "color": "whiteOnColor"
     },
+    "warning": {
+      "backgroundColor": "red50",
+      "color": "red900",
+      "bold": "!0",
+      "radius": "9999",
+      "fontSize": "subtext3"
+    },
     "subscriptionSaving": {
       "backgroundColor": "green50",
       "color": "green900",
@@ -3278,6 +3285,10 @@
     "transparent": "transparent"
   },
   {
+    "home": "home",
+    "post": "post"
+  },
+  {
     "Draft": "Draft",
     "Published": "Published",
     "SoftDeleted": "SoftDeleted"
@@ -4185,7 +4196,7 @@
     "Topic": "Topic",
     "Trending": "Trending"
   },
-  "{[z.v.FOLLOWS]:\"K\",[z.v.FRIENDS_OF_FRIENDS]:\"X\"}",
+  "{[z.v.FOLLOWS]:\"W\",[z.v.FRIENDS_OF_FRIENDS]:\"X\"}",
   {
     "START": "start",
     "END": "end"
@@ -4758,35 +4769,35 @@
   },
   {
     "all": {
-      "icon": "cs",
+      "icon": "ds",
       "label": "C().i8ea6d4e"
     },
     "community": {
-      "icon": "us",
+      "icon": "hs",
       "label": "C().a176d0d8"
     },
     "by_invitation": {
-      "icon": "ds",
+      "icon": "us",
       "label": "C().gc7e52ca"
     },
     "subscribers": {
-      "icon": "cs",
+      "icon": "ds",
       "label": "C().bf8d98f4"
     },
     "community_members": {
-      "icon": "hs",
+      "icon": "ms",
       "label": "C().i13be5a0"
     },
     "super_followers_exclusive": {
-      "icon": "cs",
+      "icon": "ds",
       "label": "C().ebe1d850"
     },
     "trusted_friends_tweet": {
-      "icon": "ms",
+      "icon": "ps",
       "label": "p"
     },
     "verified": {
-      "icon": "ps",
+      "icon": "_s",
       "label": "C().b121464a"
     }
   },
