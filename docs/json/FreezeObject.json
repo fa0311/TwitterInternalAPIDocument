@@ -781,7 +781,7 @@
     "TREND_VIEW": "trend_view",
     "TREND_CLICK": "trend_click"
   },
-  "{[a.Z.CASHTAG]:\"void 0\",[a.Z.EMOJI]:\"void 0\",[a.Z.HASHTAG]:\"r.HASHTAG_CLICK\",[a.Z.MEDIA]:\"void 0\",[a.Z.MENTION]:\"r.USER_MENTION_CLICK\",[a.Z.TEXT]:\"void 0\",[a.Z.URL]:\"r.URL_CLICK\"}",
+  "{[a.Z.CASHTAG]:\"void 0\",[a.Z.EMOJI]:\"void 0\",[a.Z.HASHTAG]:\"r.HASHTAG_CLICK\",[a.Z.MEDIA]:\"void 0\",[a.Z.MENTION]:\"r.USER_MENTION_CLICK\",[a.Z.TEXT]:\"void 0\",[a.Z.TIMESTAMP]:\"void 0\",[a.Z.URL]:\"r.URL_CLICK\"}",
   {
     "TWEET": "tweets",
     "USER": "users"
@@ -1241,6 +1241,7 @@
     "communities": "s",
     "conversations": "s",
     "entries": "s",
+    "grokShare": "s",
     "lists": "s",
     "livestreams": "s",
     "moments": "s",
@@ -1883,6 +1884,7 @@
     "MEDIA": "media",
     "MENTION": "mention",
     "TEXT": "text",
+    "TIMESTAMP": "timestamp",
     "URL": "url"
   },
   {
@@ -2472,13 +2474,13 @@
   {
     "clipId": "clipID"
   },
-  "{[O.Q.host]:{\"title\":\"Mn.hostTitle\",\"maybePluralFormatter\":\"Hn\",\"capacity\":\"1\"},[O.Q.cohost]:{\"title\":\"Mn.cohostTitle\",\"maybePluralFormatter\":\"Dn\",\"capacity\":\"2\"},[O.Q.speaker]:{\"title\":\"Mn.speakerTitle\",\"maybePluralFormatter\":\"On\",\"capacity\":\"10\"},[O.Q.listener]:{\"title\":\"Mn.listenerTitle\",\"maybePluralFormatter\":\"zn\",\"capacity\":-1}}",
+  "{[O.Q.host]:{\"title\":\"zn.hostTitle\",\"maybePluralFormatter\":\"Bn\",\"capacity\":\"1\"},[O.Q.cohost]:{\"title\":\"zn.cohostTitle\",\"maybePluralFormatter\":\"jn\",\"capacity\":\"2\"},[O.Q.speaker]:{\"title\":\"zn.speakerTitle\",\"maybePluralFormatter\":\"Un\",\"capacity\":\"10\"},[O.Q.listener]:{\"title\":\"zn.listenerTitle\",\"maybePluralFormatter\":\"Vn\",\"capacity\":-1}}",
   {
     "onlyInvited": "onlyInvited",
     "peopleYouFollow": "peopleYouFollow",
     "everyone": "everyone"
   },
-  "{[oi.onlyInvited]:\"0\",[oi.peopleYouFollow]:\"1\",[oi.everyone]:\"2\"}",
+  "{[ui.onlyInvited]:\"0\",[ui.peopleYouFollow]:\"1\",[ui.everyone]:\"2\"}",
   {
     "mainView": "mainView",
     "manageView": "manageView",
@@ -4196,7 +4198,7 @@
     "Topic": "Topic",
     "Trending": "Trending"
   },
-  "{[z.v.FOLLOWS]:\"W\",[z.v.FRIENDS_OF_FRIENDS]:\"X\"}",
+  "{[z.v.FOLLOWS]:\"K\",[z.v.FRIENDS_OF_FRIENDS]:\"X\"}",
   {
     "START": "start",
     "END": "end"
@@ -4536,7 +4538,7 @@
     "BLOCKED": "_",
     "BLOCKED_BY": "b"
   },
-  "{[h]:\"g\",[_]:\"f\",[b]:\"y\"}",
+  "{[h]:\"g\",[_]:\"y\",[b]:\"E\"}",
   {
     "BROADCAST_MEDIA_TYPE": "broadcast",
     "VIDEO_MEDIA_TYPE": "video"
@@ -5635,6 +5637,11 @@
     "HashtagClick": "hashtag_click"
   },
   {
+    "REQUEST": "rweb/FETCH_GROK_SHARE/REQUEST",
+    "SUCCESS": "rweb/FETCH_GROK_SHARE/SUCCESS",
+    "FAILURE": "rweb/FETCH_GROK_SHARE/FAILURE"
+  },
+  {
     "FUN": "fun",
     "REGULAR": ""
   },
@@ -5967,11 +5974,11 @@
     "SET_CONFIG": "rweb/verifiedOrgConfig/SET"
   },
   {
-    "fetchStatus": "E.ZP.NONE",
+    "fetchStatus": "S.ZP.NONE",
     "config": "Ge"
   },
   "{[_.hA.switchFromDirect]:\"m().dca6b3ac\",[_.hA.generate]:\"m().dca6b3ac\",[_.hA.updateSeats]:\"m().c97ad52a\"}",
-  "{[w.hA.generate]:\"b().fc1f43d0\",[w.hA.switchFromDirect]:\"b().fc1f43d0\",[w.hA.updateSeats]:\"b().c97ad52a\"}",
+  "{[C.hA.generate]:\"b().fc1f43d0\",[C.hA.switchFromDirect]:\"b().fc1f43d0\",[C.hA.updateSeats]:\"b().c97ad52a\"}",
   {
     "generate": "generate",
     "updateSeats": "updateSeats",
@@ -6712,11 +6719,11 @@
     "articles": "article_tweets"
   },
   "{\"default\":\"()\"{\"screenName\":\"e\"}{\"screenName\":\"e\"}{\"screenName\":\"e\"}{\"screenName\":\"e\"}{\"screenName\":\"e\"}{\"screenName\":\"e\"}{\"screenName\":\"e\"}{\"screenName\":\"e\"}{\"screenName\":\"e\"}{\"screenName\":\"e\"}}",
-  "{\"default\":()=>s().b7363b66,\"with_replies\":()=>s().b7363b66,\"superfollows\":()=>s().ce659062,\"highlights\":()=>s().f1e98cc2,\"articles\":()=>s().d5c743c6}",
-  "{\"default\":()=>s().d1e5e328,\"with_replies\":()=>s().d1e5e328,\"superfollows\":()=>s().hb26a1fe,\"highlights\":()=>s().b7c3572e,\"articles\":()=>s().i8123550}",
+  "{\"default\":()=>t().b7363b66,\"with_replies\":()=>t().b7363b66,\"superfollows\":()=>t().ce659062,\"highlights\":()=>t().f1e98cc2,\"articles\":()=>t().d5c743c6}",
+  "{\"default\":()=>t().d1e5e328,\"with_replies\":()=>t().d1e5e328,\"superfollows\":()=>t().hb26a1fe,\"highlights\":()=>t().b7c3572e,\"articles\":()=>t().i8123550}",
   "{\"default\":\"()\"{\"screenName\":\"e\"}{\"screenName\":\"e\"}{\"screenName\":\"e\"}{\"screenName\":\"e\"}{\"screenName\":\"e\"}{\"screenName\":\"e\"}}",
-  "{\"default\":()=>s().f34dfc18,\"with_replies\":()=>s().f34dfc18,\"superfollows\":()=>s().h9346040,\"articles\":()=>s().i4c3ddc6}",
-  "{\"default\":()=>s().e0118142,\"articles\":()=>s().ee9e42aa}",
+  "{\"default\":()=>t().f34dfc18,\"with_replies\":()=>t().f34dfc18,\"superfollows\":()=>t().h9346040,\"articles\":()=>t().i4c3ddc6}",
+  "{\"default\":()=>t().e0118142,\"articles\":()=>t().ee9e42aa}",
   {
     "default": "/compose/tweet",
     "articles": "/compose/articles"
