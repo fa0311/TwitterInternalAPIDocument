@@ -123,9 +123,7 @@ def marge_metadata(graphql_output: list, feature_switch: dict) -> list:
                         switch
                     ] = feature_switch[k]
                     break
-            else:
-                logging.warning("(orig) NotFoundKey. trying to get from config. errorkey: " + switch)
-                if "config" in feature_switch:
+            elif "config" in feature_switch:
                     for config_k in feature_switch["config"]:
                         if switch == config_k:
                             graphql_output[i]["exports"]["metadata"]["featureSwitch"][
@@ -134,8 +132,8 @@ def marge_metadata(graphql_output: list, feature_switch: dict) -> list:
                             break
                     else:
                         logging.warning("NotFoundKey: " + switch)
-                else:
-                    logging.warning("NotFoundKey: " + switch)
+            else:
+                logging.warning("NotFoundKey: " + switch)
     return graphql_output
 
 
