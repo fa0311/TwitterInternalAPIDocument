@@ -94,7 +94,7 @@ logging.info("script decode is completed")
 
 # === Road ===
 
-if CACHE:
+if CACHE and os.path.isfile("debug/script_response.txt"):
     response = read("debug/script_response.txt")
     logging.info("script loading is completed")
     i18n_response = json.loads(read("debug/i18n_response.json"))
