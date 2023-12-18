@@ -3472,7 +3472,7 @@
           "value": "true"
         },
         "longform_notetweets_tweet_storm_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "longform_reader_mode_view_in_reader_mode_entry_button_enabled": {
           "value": "false"
@@ -5188,7 +5188,7 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "32e238cadfd2d3b57701de0dc6a729ea"
+      "settingsVersion": "18f7fabd21eeb1a25aa65af2f7e5373a"
     },
     "debug": {},
     "featureSetToken": "8821002201648f36943949386e667335a78b2515",
@@ -5261,7 +5261,7 @@
     "country": "US",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "170284736199227292",
+    "guestId": "170293378908166123",
     "hasCommunityMemberships": "false",
     "language": "en",
     "ssoInitTokens": {},
