@@ -115,6 +115,11 @@
       "entities": {},
       "errors": {},
       "fetchStatus": {}
+    },
+    "places": {
+      "entities": {},
+      "errors": {},
+      "fetchStatus": {}
     }
   },
   "featureSwitch": {
@@ -5261,7 +5266,7 @@
     "country": "US",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "170293378908166123",
+    "guestId": "170302019637201769",
     "hasCommunityMemberships": "false",
     "language": "en",
     "ssoInitTokens": {},
@@ -5299,6 +5304,12 @@
   "developer": {
     "dtabBarInfo": {
       "hide": "false"
+    }
+  },
+  "ads": {
+    "typeahead": {
+      "targetingLocation": {},
+      "forecastAudience": {}
     }
   }
 }
