@@ -2712,3 +2712,21 @@
 - None<br>
 #### remove<br>
 - conversation_controls_limited_replies_consumption_configuration<br>
+## 2023/12/19<br>
+### API<br>
+#### add<br>
+- CommunityMediaLoggedOutTimeline<br>
+- CommunityTweetsLoggedOutTimeline<br>
+- CommunityTweetsRankedLoggedOutTimeline<br>
+- ShareButton_shareGrokConversationMutation<br>
+- useUpdateJobMutation<br>
+#### remove<br>
+- JobListItemDeleteMutation<br>
+- EditJobScreenMutation<br>
+### Feature Switch<br>
+#### add<br>
+- responsive_web_grok_prompt_deeplink_enabled<br>
+- rweb_video_timestamps_enabled<br>
+- subscriptions_inapp_grok_share_enabled<br>
+#### remove<br>
+- rweb_home_bookmark_in_action_bar_enabled<br>
