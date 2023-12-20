@@ -2730,3 +2730,14 @@
 - subscriptions_inapp_grok_share_enabled<br>
 #### remove<br>
 - rweb_home_bookmark_in_action_bar_enabled<br>
+## 2023/12/20<br>
+### API<br>
+#### add<br>
+- ProfileSpotlights_EditableProfileSpotlightsQuery<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- responsive_web_verified_organizations_skip_welcome_screen<br>
+#### remove<br>
+- None<br>
