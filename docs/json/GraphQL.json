@@ -16848,6 +16848,18 @@
     }
   },
   {
+    "n": "12030",
+    "exports": {
+      "queryId": "rDGLKxjaiBYOL9AUgJtTKw",
+      "operationName": "ProfileSpotlights_EditableProfileSpotlightsQuery",
+      "operationType": "query",
+      "metadata": {
+        "featureSwitches": [],
+        "featureSwitch": {}
+      }
+    }
+  },
+  {
     "n": "61989",
     "exports": {
       "queryId": "PtT7DMn9eI8yFh-jkG-fGg",
