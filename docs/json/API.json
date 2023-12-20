@@ -4862,6 +4862,12 @@
       "method": "GET",
       "features": {}
     },
+    "ProfileSpotlights_EditableProfileSpotlightsQuery": {
+      "url": "https://twitter.com/i/api/graphql/rDGLKxjaiBYOL9AUgJtTKw/ProfileSpotlights_EditableProfileSpotlightsQuery",
+      "queryId": "rDGLKxjaiBYOL9AUgJtTKw",
+      "method": "GET",
+      "features": {}
+    },
     "LocationSpotlightQuery": {
       "url": "https://twitter.com/i/api/graphql/PtT7DMn9eI8yFh-jkG-fGg/LocationSpotlightQuery",
       "queryId": "PtT7DMn9eI8yFh-jkG-fGg",
