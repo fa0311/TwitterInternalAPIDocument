@@ -1876,3 +1876,14 @@
 - responsive_web_home_pinned_timelines_enabled<br>
 - responsive_web_home_pinned_timelines_settings_enabled<br>
 - rweb_home_bookmark_in_action_bar_enabled<br>
+## 2023/12/21<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- rweb_no_scroll_sidenav<br>
+#### remove<br>
+- None<br>
