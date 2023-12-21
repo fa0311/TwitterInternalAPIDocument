@@ -2741,3 +2741,14 @@
 - responsive_web_verified_organizations_skip_welcome_screen<br>
 #### remove<br>
 - None<br>
+## 2023/12/21<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- rweb_no_scroll_sidenav<br>
+#### remove<br>
+- None<br>
