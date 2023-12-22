@@ -8050,7 +8050,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## TwitterBlueSignUpV2Query<br>
-Request URL: `https://twitter.com/i/api/graphql/SfFW_3vflEhCLIo-k5N4Dw/TwitterBlueSignUpV2Query`<br>
+Request URL: `https://twitter.com/i/api/graphql/on5RcIXhu0y-3lO-1UlAcw/TwitterBlueSignUpV2Query`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
