@@ -217,6 +217,26 @@
     "Top": "top"
   },
   {
+    "Home": "1",
+    "Explore": "2",
+    "Grok": "3",
+    "Messages": "4",
+    "Notifications": "5",
+    "Lists": "7",
+    "Bookmarks": "8",
+    "VerifiedOrgDash": "9",
+    "PremiumTierSwitch": "10",
+    "Communities": "12",
+    "Articles": "13",
+    "VerifiedOrgSignup": "14",
+    "Profile": "6",
+    "Spaces": "15",
+    "CommunityNotes": "16",
+    "Verified": "11",
+    "More": "0",
+    "Settings": "17"
+  },
+  {
     "Apple": "apple",
     "Google": "google"
   },
@@ -5719,8 +5739,8 @@
     "SET_CONFIG": "rweb/verifiedOrgConfig/SET"
   },
   {
-    "fetchStatus": "S.ZP.NONE",
-    "config": "Ge"
+    "fetchStatus": "v.ZP.NONE",
+    "config": "je"
   },
   "{[_.hA.switchFromDirect]:\"m().dca6b3ac\",[_.hA.generate]:\"m().dca6b3ac\",[_.hA.updateSeats]:\"m().c97ad52a\"}",
   "{[C.hA.generate]:\"b().fc1f43d0\",[C.hA.switchFromDirect]:\"b().fc1f43d0\",[C.hA.updateSeats]:\"b().c97ad52a\"}",

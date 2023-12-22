@@ -1815,6 +1815,9 @@
       "rweb_master_detail_enabled": {
         "value": "false"
       },
+      "rweb_no_scroll_sidenav": {
+        "value": "false"
+      },
       "rweb_panning_nav_behavior": {
         "value": "true"
       },
@@ -4305,7 +4308,7 @@
           "value": "false"
         },
         "responsive_web_verified_organizations_skip_welcome_screen": {
-          "value": "false"
+          "value": "true"
         },
         "responsive_web_verified_organizations_tiers_enabled": {
           "value": "true"
@@ -4359,6 +4362,9 @@
           "value": "true"
         },
         "rweb_master_detail_enabled": {
+          "value": "false"
+        },
+        "rweb_no_scroll_sidenav": {
           "value": "false"
         },
         "rweb_panning_nav_behavior": {
@@ -4574,7 +4580,7 @@
           "value": "false"
         },
         "spaces_incognito_consumption_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "standardized_nudges_misinfo": {
           "value": "true"
@@ -5202,10 +5208,10 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "6e0c3958f5727b934e9dd898d4b2f151"
+      "settingsVersion": "f7e6589e0a283f7a97429ad477db78c6"
     },
     "debug": {},
-    "featureSetToken": "37fe3c6df3891ea3fd2b27b211ffb89b150db7e3",
+    "featureSetToken": "a90413a28217c6263fec68ea844068f1cbbe5839",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -5275,7 +5281,7 @@
     "country": "US",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "170310642912362341",
+    "guestId": "170319280541352276",
     "hasCommunityMemberships": "false",
     "language": "en",
     "ssoInitTokens": {},

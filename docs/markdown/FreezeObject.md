@@ -213,6 +213,27 @@ This document is entirely auto-generated and may contain errors.<br>
 | SideCollapsedSmall  | sideCollapsedSmall  |
 | Top                 | top                 |
 
+| constant          |   value |
+|:------------------|--------:|
+| Home              |       1 |
+| Explore           |       2 |
+| Grok              |       3 |
+| Messages          |       4 |
+| Notifications     |       5 |
+| Lists             |       7 |
+| Bookmarks         |       8 |
+| VerifiedOrgDash   |       9 |
+| PremiumTierSwitch |      10 |
+| Communities       |      12 |
+| Articles          |      13 |
+| VerifiedOrgSignup |      14 |
+| Profile           |       6 |
+| Spaces            |      15 |
+| CommunityNotes    |      16 |
+| Verified          |      11 |
+| More              |       0 |
+| Settings          |      17 |
+
 | constant   | value   |
 |:-----------|:--------|
 | Apple      | apple   |
@@ -6279,8 +6300,8 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant    | value     |
 |:------------|:----------|
-| fetchStatus | S.ZP.NONE |
-| config      | Ge        |
+| fetchStatus | v.ZP.NONE |
+| config      | je        |
 
 ```internal process
 # Error
