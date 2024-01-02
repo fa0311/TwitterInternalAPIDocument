@@ -4375,7 +4375,7 @@
           "value": "false"
         },
         "rweb_no_scroll_sidenav": {
-          "value": "false"
+          "value": "true"
         },
         "rweb_panning_nav_behavior": {
           "value": "true"
@@ -5218,7 +5218,7 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "562732aca8dfe69e11e4d217efb6e384"
+      "settingsVersion": "bf5c71f9ee4dea04324a53083700bf18"
     },
     "debug": {},
     "featureSetToken": "a90413a28217c6263fec68ea844068f1cbbe5839",
@@ -5291,7 +5291,7 @@
     "country": "US",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "170414338330786407",
+    "guestId": "170422984461351060",
     "hasCommunityMemberships": "false",
     "language": "en",
     "ssoInitTokens": {},
