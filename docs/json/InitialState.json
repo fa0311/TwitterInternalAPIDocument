@@ -520,7 +520,7 @@
         "value": "true"
       },
       "communities_show_broadcast_option_in_composer": {
-        "value": "false"
+        "value": "true"
       },
       "conversation_controls_my_subscribers_enabled": {
         "value": "true"
@@ -4356,7 +4356,7 @@
           "value": "false"
         },
         "rweb_no_scroll_sidenav": {
-          "value": "false"
+          "value": "true"
         },
         "rweb_panning_nav_behavior": {
           "value": "true"
@@ -5196,10 +5196,10 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "54171dd64a2c5135720061f67a176d50"
+      "settingsVersion": "9c0d2a6547a1c928a132e6e1642d5b34"
     },
     "debug": {},
-    "featureSetToken": "5cc74b304845f429450adc33217911c034ba2e2f",
+    "featureSetToken": "a555cc097c20cd8a76cfaebca702be0af78a8127",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -5269,7 +5269,7 @@
     "country": "US",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "170414320535402846",
+    "guestId": "170422961785585933",
     "hasCommunityMemberships": "false",
     "language": "en",
     "ssoInitTokens": {},
