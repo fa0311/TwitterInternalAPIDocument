@@ -1890,10 +1890,18 @@
       "color": "gray700"
     },
     "article": {
-      "bold": "!0",
       "backgroundColor": "translucentBlack55",
+      "bold": "!0",
       "color": "white",
       "opacity": ".1"
+    },
+    "urlCardTitle": {
+      "align": "left",
+      "backgroundColor": "translucentBlack77",
+      "bold": "!1",
+      "color": "white",
+      "numberOfLines": "1",
+      "textOverflow": "ellipsis"
     }
   },
   "{\"isExternal()\"{\"try\"{const n=l();return this._customIsExternal?this._customIsExternal(e,d){\"hrefHostname\":\"n\",\"href\":\"e\"}}\"catch()\"{\"return!0\"}},\"setIsExternal()\"{\"this._customIsExternal=e\"},\"clearIsExternal()\"{\"this._customIsExternal=null\"},\"onLinkClick()\"{\"this._customOnLinkClick&&this._customOnLinkClick()\"{\"event\":\"e\",\"link\":\"d\",\"newWindowRequested\":\"n\"}},\"setOnLinkClick()\"{\"this._customOnLinkClick=e\"},\"linkProcessor()\"{\"return this._customLinkProcessor?this._customLinkProcessor()\":\"e\"},\"setLinkProcessor()\"{\"this._customLinkProcessor=e\"},\"hrefProcessor()\"{\"return this._customHrefProcessor?this._customHrefProcessor()\":\"e\"},\"setHrefProcessor()\"{\"this._customHrefProcessor=e\"},\"withAnchorless\":e=>\"string\"==typeof e?{\"anchorless\":\"!0\",\"pathname\":\"e\"}:{\"anchorless\":\"!0\",\"...e\":\"_\"},\"setLinkFromUrtUrl()\"{\"this._customLinkFromUrtUrl=e\"},\"getLinkFromUrtUrl()\"{\"return this._customLinkFromUrtUrl?this._customLinkFromUrtUrl()\":{\"external\":\"!0\",\"pathname\":\"e.url\"}}}",
@@ -7077,7 +7085,7 @@
     "IncentiveFocus": "IncentiveFocus",
     "TopicFocus": "TopicFocus"
   },
-  "{[z.LIVE_EVENT]:\"!0\",[z.MOMENT]:\"!0\",[z.SUMMARY]:\"!0\",[z.SUMMARY_LARGE_IMAGE]:\"!0\",[z.AUDIOSPACE]:\"!0\"}",
+  "{[H.LIVE_EVENT]:\"!0\",[H.MOMENT]:\"!0\",[H.SUMMARY]:\"!0\",[H.SUMMARY_LARGE_IMAGE]:\"!0\",[H.AUDIOSPACE]:\"!0\"}",
   {
     "CONVERSATION": "conversation",
     "TIMELINE": "timeline"
