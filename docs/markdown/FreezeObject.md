@@ -1905,19 +1905,20 @@ This document is entirely auto-generated and may contain errors.<br>
 | openMediaModal | o                                                 |
 | audio          | {'dock': 'a d', 'play': 'a space', 'mute': 'a m'} |
 
-| constant           | value                                                                                                           |
-|:-------------------|:----------------------------------------------------------------------------------------------------------------|
-| live               | {'backgroundColor': 'magenta500', 'bold': '!0', 'color': 'whiteOnColor'}                                        |
-| warning            | {'backgroundColor': 'red50', 'color': 'red900', 'bold': '!0', 'radius': '9999', 'fontSize': 'subtext3'}         |
-| subscriptionSaving | {'backgroundColor': 'green50', 'color': 'green900', 'bold': '!0', 'radius': '9999', 'fontSize': 'subtext3'}     |
-| subscriptionActive | {'backgroundColor': 'primary', 'radius': '9999', 'bold': '!0', 'color': 'whiteOnColor', 'fontSize': 'subtext3'} |
-| bestValue          | {'backgroundColor': 'green50', 'color': 'green900', 'bold': '!0', 'fontSize': 'subtext3'}                       |
-| mostPopular        | {'backgroundColor': 'purple50', 'color': 'purple900', 'bold': '!0', 'fontSize': 'subtext3'}                     |
-| alt                | C                                                                                                               |
-| gif                | C                                                                                                               |
-| hd                 | C                                                                                                               |
-| likedByAuthor      | {'backgroundColor': 'gray50', 'bold': '!1', 'color': 'gray700'}                                                 |
-| article            | {'bold': '!0', 'backgroundColor': 'translucentBlack55', 'color': 'white', 'opacity': '.1'}                      |
+| constant           | value                                                                                                                                        |
+|:-------------------|:---------------------------------------------------------------------------------------------------------------------------------------------|
+| live               | {'backgroundColor': 'magenta500', 'bold': '!0', 'color': 'whiteOnColor'}                                                                     |
+| warning            | {'backgroundColor': 'red50', 'color': 'red900', 'bold': '!0', 'radius': '9999', 'fontSize': 'subtext3'}                                      |
+| subscriptionSaving | {'backgroundColor': 'green50', 'color': 'green900', 'bold': '!0', 'radius': '9999', 'fontSize': 'subtext3'}                                  |
+| subscriptionActive | {'backgroundColor': 'primary', 'radius': '9999', 'bold': '!0', 'color': 'whiteOnColor', 'fontSize': 'subtext3'}                              |
+| bestValue          | {'backgroundColor': 'green50', 'color': 'green900', 'bold': '!0', 'fontSize': 'subtext3'}                                                    |
+| mostPopular        | {'backgroundColor': 'purple50', 'color': 'purple900', 'bold': '!0', 'fontSize': 'subtext3'}                                                  |
+| alt                | C                                                                                                                                            |
+| gif                | C                                                                                                                                            |
+| hd                 | C                                                                                                                                            |
+| likedByAuthor      | {'backgroundColor': 'gray50', 'bold': '!1', 'color': 'gray700'}                                                                              |
+| article            | {'backgroundColor': 'translucentBlack55', 'bold': '!0', 'color': 'white', 'opacity': '.1'}                                                   |
+| urlCardTitle       | {'align': 'left', 'backgroundColor': 'translucentBlack77', 'bold': '!1', 'color': 'white', 'numberOfLines': '1', 'textOverflow': 'ellipsis'} |
 
 ```internal process
 # Error
@@ -7403,7 +7404,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{[z.LIVE_EVENT]:"!0",[z.MOMENT]:"!0",[z.SUMMARY]:"!0",[z.SUMMARY_LARGE_IMAGE]:"!0",[z.AUDIOSPACE]:"!0"}
+{[H.LIVE_EVENT]:"!0",[H.MOMENT]:"!0",[H.SUMMARY]:"!0",[H.SUMMARY_LARGE_IMAGE]:"!0",[H.AUDIOSPACE]:"!0"}
 ```
 | constant     | value        |
 |:-------------|:-------------|
