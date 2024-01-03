@@ -13117,13 +13117,33 @@
   {
     "n": "73531",
     "exports": {
-      "queryId": "omBcbbnG_04ufGoWCQk8Yw",
+      "queryId": "GoPCI0FnbAhq4X9Db6CeKg",
       "operationName": "GrokShare",
       "operationType": "query",
       "metadata": {
-        "featureSwitches": [],
-        "fieldToggles": [],
-        "featureSwitch": {}
+        "featureSwitches": [
+          "responsive_web_graphql_exclude_directive_enabled",
+          "verified_phone_label_enabled",
+          "responsive_web_graphql_skip_user_profile_image_extensions_enabled",
+          "responsive_web_graphql_timeline_navigation_enabled"
+        ],
+        "fieldToggles": [
+          "withAuxiliaryUserLabels"
+        ],
+        "featureSwitch": {
+          "responsive_web_graphql_exclude_directive_enabled": {
+            "value": "true"
+          },
+          "verified_phone_label_enabled": {
+            "value": "false"
+          },
+          "responsive_web_graphql_skip_user_profile_image_extensions_enabled": {
+            "value": "false"
+          },
+          "responsive_web_graphql_timeline_navigation_enabled": {
+            "value": "true"
+          }
+        }
       }
     }
   },
@@ -16488,6 +16508,18 @@
     }
   },
   {
+    "n": "96695",
+    "exports": {
+      "queryId": "IVr51jVSoRNxxwgKt5h0QQ",
+      "operationName": "JobListQuery",
+      "operationType": "query",
+      "metadata": {
+        "featureSwitches": [],
+        "featureSwitch": {}
+      }
+    }
+  },
+  {
     "n": "54346",
     "exports": {
       "queryId": "vTMofcBCLC_3W_RJmFCEnA",
@@ -16538,20 +16570,8 @@
   {
     "n": "51045",
     "exports": {
-      "queryId": "-yP33VDBHDcts6VcjMz4XA",
+      "queryId": "Zwa1pAmGFWTEtv-ksvuhHg",
       "operationName": "useFetchAdminJobsQuery",
-      "operationType": "query",
-      "metadata": {
-        "featureSwitches": [],
-        "featureSwitch": {}
-      }
-    }
-  },
-  {
-    "n": "51108",
-    "exports": {
-      "queryId": "V_nLU15dCFWUWB8MpULF8g",
-      "operationName": "useSearchAdminJobsQuery",
       "operationType": "query",
       "metadata": {
         "featureSwitches": [],
@@ -16562,7 +16582,7 @@
   {
     "n": "05964",
     "exports": {
-      "queryId": "t9vuPRFHkZvFaB71jj7eLw",
+      "queryId": "q48czDjETWjUNO2iNHSpyQ",
       "operationName": "useUpdateJobMutation",
       "operationType": "mutation",
       "metadata": {
@@ -16598,7 +16618,7 @@
   {
     "n": "25440",
     "exports": {
-      "queryId": "X05dj9UJv61t8KLe0O9b3A",
+      "queryId": "OyQRC6I_lcpsS38uWCOtxQ",
       "operationName": "AddJobScreenQuery",
       "operationType": "query",
       "metadata": {
@@ -16694,7 +16714,7 @@
   {
     "n": "08975",
     "exports": {
-      "queryId": "KvSm7uWiKzLPyvdj8oz2CQ",
+      "queryId": "q9-pPIuC_l1sM8DwNJmKDA",
       "operationName": "EditJobScreenQuery",
       "operationType": "query",
       "metadata": {
@@ -16706,7 +16726,7 @@
   {
     "n": "07025",
     "exports": {
-      "queryId": "Uw8czMTdaDgZwaK62_rxEw",
+      "queryId": "AbmKTQNHfpTuZ-tJCyPV9g",
       "operationName": "JobsSettingsScreenSettingsQuery",
       "operationType": "query",
       "metadata": {
