@@ -7092,8 +7092,8 @@ Login Required: `...`<br>
 `None`<br>
 #### queryId<br>
 `None`<br>
-## useSuperFollowsCreateStripePortalUrlMutation<br>
-Request URL: `https://twitter.com/i/api/graphql/cot9fAsCQIQGNYu9Rica6w/useSuperFollowsCreateStripePortalUrlMutation`<br>
+## useCreateStripePortalUrlMutation<br>
+Request URL: `https://twitter.com/i/api/graphql/vymd-xe7b364mogIF1CoQQ/useCreateStripePortalUrlMutation`<br>
 Request Method: `POST`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -7771,17 +7771,6 @@ Login Required: `...`<br>
 `None`<br>
 ## SyncAtsJobsSyncMutation<br>
 Request URL: `https://twitter.com/i/api/graphql/wolkrzMJOBR8fLlOX6PR4w/SyncAtsJobsSyncMutation`<br>
-Request Method: `POST`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-`None`<br>
-#### queryId<br>
-`None`<br>
-## TabBarCreateStripePortalUrlMutation<br>
-Request URL: `https://twitter.com/i/api/graphql/Ro4_N0mgeE5CyS6oD_Y13w/TabBarCreateStripePortalUrlMutation`<br>
 Request Method: `POST`<br>
 Login Required: `...`<br>
 ### Param<br>
