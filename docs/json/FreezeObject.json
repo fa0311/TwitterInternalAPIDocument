@@ -1890,18 +1890,10 @@
       "color": "gray700"
     },
     "article": {
-      "backgroundColor": "translucentBlack55",
       "bold": "!0",
+      "backgroundColor": "translucentBlack55",
       "color": "white",
       "opacity": ".1"
-    },
-    "urlCardTitle": {
-      "align": "left",
-      "backgroundColor": "translucentBlack77",
-      "bold": "!1",
-      "color": "white",
-      "numberOfLines": "1",
-      "textOverflow": "ellipsis"
     }
   },
   "{\"isExternal()\"{\"try\"{const n=l();return this._customIsExternal?this._customIsExternal(e,d){\"hrefHostname\":\"n\",\"href\":\"e\"}}\"catch()\"{\"return!0\"}},\"setIsExternal()\"{\"this._customIsExternal=e\"},\"clearIsExternal()\"{\"this._customIsExternal=null\"},\"onLinkClick()\"{\"this._customOnLinkClick&&this._customOnLinkClick()\"{\"event\":\"e\",\"link\":\"d\",\"newWindowRequested\":\"n\"}},\"setOnLinkClick()\"{\"this._customOnLinkClick=e\"},\"linkProcessor()\"{\"return this._customLinkProcessor?this._customLinkProcessor()\":\"e\"},\"setLinkProcessor()\"{\"this._customLinkProcessor=e\"},\"hrefProcessor()\"{\"return this._customHrefProcessor?this._customHrefProcessor()\":\"e\"},\"setHrefProcessor()\"{\"this._customHrefProcessor=e\"},\"withAnchorless\":e=>\"string\"==typeof e?{\"anchorless\":\"!0\",\"pathname\":\"e\"}:{\"anchorless\":\"!0\",\"...e\":\"_\"},\"setLinkFromUrtUrl()\"{\"this._customLinkFromUrtUrl=e\"},\"getLinkFromUrtUrl()\"{\"return this._customLinkFromUrtUrl?this._customLinkFromUrtUrl()\":{\"external\":\"!0\",\"pathname\":\"e.url\"}}}",
@@ -5988,15 +5980,15 @@
     "section": "hiring"
   },
   {
-    "...Pe": "_",
+    "...Se": "_",
     "component": "job-splash-screen"
   },
   {
-    "...Pe": "_",
+    "...Se": "_",
     "component": "apideck-vault"
   },
   {
-    "...Pe": "_",
+    "...Se": "_",
     "component": "sync-ats-jobs"
   },
   {
@@ -6033,11 +6025,11 @@
     "SET_CONFIG": "rweb/verifiedOrgConfig/SET"
   },
   {
-    "fetchStatus": "v.ZP.NONE",
+    "fetchStatus": "k.ZP.NONE",
     "config": "je"
   },
   "{[_.hA.switchFromDirect]:\"m().dca6b3ac\",[_.hA.generate]:\"m().dca6b3ac\",[_.hA.updateSeats]:\"m().c97ad52a\"}",
-  "{[C.hA.generate]:\"b().fc1f43d0\",[C.hA.switchFromDirect]:\"b().fc1f43d0\",[C.hA.updateSeats]:\"b().c97ad52a\"}",
+  "{[w.hA.generate]:\"b().fc1f43d0\",[w.hA.switchFromDirect]:\"b().fc1f43d0\",[w.hA.updateSeats]:\"b().c97ad52a\"}",
   {
     "generate": "generate",
     "updateSeats": "updateSeats",
