@@ -15780,10 +15780,10 @@
     }
   },
   {
-    "n": "10645",
+    "n": "19624",
     "exports": {
-      "queryId": "cot9fAsCQIQGNYu9Rica6w",
-      "operationName": "useSuperFollowsCreateStripePortalUrlMutation",
+      "queryId": "vymd-xe7b364mogIF1CoQQ",
+      "operationName": "useCreateStripePortalUrlMutation",
       "operationType": "mutation",
       "metadata": {
         "featureSwitches": [],
@@ -16548,18 +16548,6 @@
     "exports": {
       "queryId": "wolkrzMJOBR8fLlOX6PR4w",
       "operationName": "SyncAtsJobsSyncMutation",
-      "operationType": "mutation",
-      "metadata": {
-        "featureSwitches": [],
-        "featureSwitch": {}
-      }
-    }
-  },
-  {
-    "n": "16765",
-    "exports": {
-      "queryId": "Ro4_N0mgeE5CyS6oD_Y13w",
-      "operationName": "TabBarCreateStripePortalUrlMutation",
       "operationType": "mutation",
       "metadata": {
         "featureSwitches": [],
