@@ -4332,9 +4332,9 @@
       "method": "POST",
       "features": {}
     },
-    "useSuperFollowsCreateStripePortalUrlMutation": {
-      "url": "https://twitter.com/i/api/graphql/cot9fAsCQIQGNYu9Rica6w/useSuperFollowsCreateStripePortalUrlMutation",
-      "queryId": "cot9fAsCQIQGNYu9Rica6w",
+    "useCreateStripePortalUrlMutation": {
+      "url": "https://twitter.com/i/api/graphql/vymd-xe7b364mogIF1CoQQ/useCreateStripePortalUrlMutation",
+      "queryId": "vymd-xe7b364mogIF1CoQQ",
       "method": "POST",
       "features": {}
     },
@@ -4708,12 +4708,6 @@
     "SyncAtsJobsSyncMutation": {
       "url": "https://twitter.com/i/api/graphql/wolkrzMJOBR8fLlOX6PR4w/SyncAtsJobsSyncMutation",
       "queryId": "wolkrzMJOBR8fLlOX6PR4w",
-      "method": "POST",
-      "features": {}
-    },
-    "TabBarCreateStripePortalUrlMutation": {
-      "url": "https://twitter.com/i/api/graphql/Ro4_N0mgeE5CyS6oD_Y13w/TabBarCreateStripePortalUrlMutation",
-      "queryId": "Ro4_N0mgeE5CyS6oD_Y13w",
       "method": "POST",
       "features": {}
     },
