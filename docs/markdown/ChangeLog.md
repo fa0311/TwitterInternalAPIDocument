@@ -2764,3 +2764,15 @@
 #### remove<br>
 - gryphon_blue_only_enabled<br>
 - subscriptions_marketing_page_upsell_enabled<br>
+## 2024/01/04<br>
+### API<br>
+#### add<br>
+- useCreateStripePortalUrlMutation<br>
+#### remove<br>
+- useSuperFollowsCreateStripePortalUrlMutation<br>
+- TabBarCreateStripePortalUrlMutation<br>
+### Feature Switch<br>
+#### add<br>
+- responsive_web_grok_share_enabled<br>
+#### remove<br>
+- rweb_no_scroll_sidenav<br>
