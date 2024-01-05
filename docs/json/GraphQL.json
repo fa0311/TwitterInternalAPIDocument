@@ -11554,7 +11554,7 @@
   {
     "n": "59396",
     "exports": {
-      "queryId": "RCpF3x2UMMxxaJc8kvJZPQ",
+      "queryId": "5oB9zDEsFgVzcECTH6tAPw",
       "operationName": "ArticleEntitiesSlice",
       "operationType": "query",
       "metadata": {
@@ -11587,7 +11587,7 @@
   {
     "n": "28088",
     "exports": {
-      "queryId": "doYoXBCaW2YfaA8UGIJMMA",
+      "queryId": "oJBMcKzcLw6mSJQVniMPbA",
       "operationName": "ArticleEntityByRestId",
       "operationType": "query",
       "metadata": {
@@ -11620,7 +11620,7 @@
   {
     "n": "88206",
     "exports": {
-      "queryId": "nhh7yxry53CVCsJvazZz0Q",
+      "queryId": "e4lWqB6m2TA8Fn_j9L9xEA",
       "operationName": "ArticleEntityDelete",
       "operationType": "mutation",
       "metadata": {
@@ -11633,7 +11633,7 @@
   {
     "n": "97966",
     "exports": {
-      "queryId": "HOkUeUwp4-Q5sZO7IpOzeg",
+      "queryId": "zVbaVcyCFSc_r3prVG9X5w",
       "operationName": "ArticleEntityDraftCreate",
       "operationType": "mutation",
       "metadata": {
@@ -11666,7 +11666,7 @@
   {
     "n": "07348",
     "exports": {
-      "queryId": "9nFy_bMGwvmYpnRLCMP9aA",
+      "queryId": "TKIKGgJs_0H77GBX-m_Pfg",
       "operationName": "ArticleEntityPublish",
       "operationType": "mutation",
       "metadata": {
@@ -11699,7 +11699,7 @@
   {
     "n": "94168",
     "exports": {
-      "queryId": "iVc4_L9oP6jD4IUCmpbelA",
+      "queryId": "0Ryli_yyqabG__E-qJ14MQ",
       "operationName": "ArticleEntityUnpublish",
       "operationType": "mutation",
       "metadata": {
@@ -11732,7 +11732,7 @@
   {
     "n": "05370",
     "exports": {
-      "queryId": "xJN5kyzhUwE9YBo4taXBKA",
+      "queryId": "JOEwZGeTbOJcpGr_S4tbFg",
       "operationName": "ArticleEntityUpdateContent",
       "operationType": "mutation",
       "metadata": {
@@ -11765,7 +11765,7 @@
   {
     "n": "45117",
     "exports": {
-      "queryId": "xuPUQV_WWUZeWlv4tP_h7g",
+      "queryId": "HHRa7EfmOrXnZmyEqUDx6g",
       "operationName": "ArticleEntityUpdateCoverMedia",
       "operationType": "mutation",
       "metadata": {
@@ -11798,7 +11798,7 @@
   {
     "n": "13605",
     "exports": {
-      "queryId": "vuMMiEEbMgumMlhlo70QYg",
+      "queryId": "h1E9cRl9BQo2ZYuruP96cg",
       "operationName": "ArticleEntityUpdateTitle",
       "operationType": "mutation",
       "metadata": {
@@ -14340,7 +14340,7 @@
   {
     "n": "59396",
     "exports": {
-      "queryId": "RCpF3x2UMMxxaJc8kvJZPQ",
+      "queryId": "5oB9zDEsFgVzcECTH6tAPw",
       "operationName": "ArticleEntitiesSlice",
       "operationType": "query",
       "metadata": {
@@ -14373,7 +14373,7 @@
   {
     "n": "28088",
     "exports": {
-      "queryId": "doYoXBCaW2YfaA8UGIJMMA",
+      "queryId": "oJBMcKzcLw6mSJQVniMPbA",
       "operationName": "ArticleEntityByRestId",
       "operationType": "query",
       "metadata": {
@@ -14406,7 +14406,7 @@
   {
     "n": "88206",
     "exports": {
-      "queryId": "nhh7yxry53CVCsJvazZz0Q",
+      "queryId": "e4lWqB6m2TA8Fn_j9L9xEA",
       "operationName": "ArticleEntityDelete",
       "operationType": "mutation",
       "metadata": {
@@ -14419,7 +14419,7 @@
   {
     "n": "97966",
     "exports": {
-      "queryId": "HOkUeUwp4-Q5sZO7IpOzeg",
+      "queryId": "zVbaVcyCFSc_r3prVG9X5w",
       "operationName": "ArticleEntityDraftCreate",
       "operationType": "mutation",
       "metadata": {
@@ -14452,7 +14452,7 @@
   {
     "n": "07348",
     "exports": {
-      "queryId": "9nFy_bMGwvmYpnRLCMP9aA",
+      "queryId": "TKIKGgJs_0H77GBX-m_Pfg",
       "operationName": "ArticleEntityPublish",
       "operationType": "mutation",
       "metadata": {
@@ -14485,7 +14485,7 @@
   {
     "n": "94168",
     "exports": {
-      "queryId": "iVc4_L9oP6jD4IUCmpbelA",
+      "queryId": "0Ryli_yyqabG__E-qJ14MQ",
       "operationName": "ArticleEntityUnpublish",
       "operationType": "mutation",
       "metadata": {
@@ -14518,7 +14518,7 @@
   {
     "n": "05370",
     "exports": {
-      "queryId": "xJN5kyzhUwE9YBo4taXBKA",
+      "queryId": "JOEwZGeTbOJcpGr_S4tbFg",
       "operationName": "ArticleEntityUpdateContent",
       "operationType": "mutation",
       "metadata": {
@@ -14551,7 +14551,7 @@
   {
     "n": "45117",
     "exports": {
-      "queryId": "xuPUQV_WWUZeWlv4tP_h7g",
+      "queryId": "HHRa7EfmOrXnZmyEqUDx6g",
       "operationName": "ArticleEntityUpdateCoverMedia",
       "operationType": "mutation",
       "metadata": {
@@ -14584,7 +14584,7 @@
   {
     "n": "13605",
     "exports": {
-      "queryId": "vuMMiEEbMgumMlhlo70QYg",
+      "queryId": "h1E9cRl9BQo2ZYuruP96cg",
       "operationName": "ArticleEntityUpdateTitle",
       "operationType": "mutation",
       "metadata": {
@@ -17032,7 +17032,7 @@
   {
     "n": "77884",
     "exports": {
-      "queryId": "3T2z94mjeIMwDBYPVt9dzQ",
+      "queryId": "A7nDLaBr3WKKg8mPOwzE2g",
       "operationName": "UserJobListQueryScreenJobsQuery",
       "operationType": "query",
       "metadata": {
