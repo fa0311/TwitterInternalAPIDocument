@@ -1887,3 +1887,19 @@
 - rweb_no_scroll_sidenav<br>
 #### remove<br>
 - None<br>
+## 2024/01/04<br>
+### API<br>
+#### add<br>
+- useCreateStripePortalUrlMutation<br>
+- JobListQuery<br>
+#### remove<br>
+- useSuperFollowsCreateStripePortalUrlMutation<br>
+- TabBarCreateStripePortalUrlMutation<br>
+- useSearchAdminJobsQuery<br>
+### Feature Switch<br>
+#### add<br>
+- responsive_web_grok_share_enabled<br>
+#### remove<br>
+- gryphon_blue_only_enabled<br>
+- rweb_no_scroll_sidenav<br>
+- subscriptions_marketing_page_upsell_enabled<br>
