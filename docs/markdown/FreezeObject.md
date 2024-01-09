@@ -1743,6 +1743,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | DPA_DETAILS                     | dpa_details                     |
 | FOLLOW_BUTTON                   | follow_button                   |
 | FACEPILE                        | facepile                        |
+| GROK_SHARE                      | grok_share                      |
 
 | constant   | value         |
 |:-----------|:--------------|
@@ -1839,6 +1840,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | dpaPlaceholderMediaKeys                   | False   |
 | explorerAdsEnabled                        | False   |
 | fosnrSoftInterventionsEnabled             | False   |
+| grokShareEnabled                          | False   |
 | withEditCallout                           | False   |
 | withEdgeToEdgeContent                     | False   |
 | withEdgeToEdgeTweetAnatomy                | False   |
@@ -7399,7 +7401,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{[H.LIVE_EVENT]:"!0",[H.MOMENT]:"!0",[H.SUMMARY]:"!0",[H.SUMMARY_LARGE_IMAGE]:"!0",[H.AUDIOSPACE]:"!0"}
+{[P.LIVE_EVENT]:"!0",[P.MOMENT]:"!0",[P.SUMMARY]:"!0",[P.SUMMARY_LARGE_IMAGE]:"!0",[P.AUDIOSPACE]:"!0"}
 ```
 | constant     | value        |
 |:-------------|:-------------|
