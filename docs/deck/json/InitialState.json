@@ -4066,7 +4066,7 @@
           "value": "true"
         },
         "responsive_web_nft_avatar": {
-          "value": "true"
+          "value": "false"
         },
         "responsive_web_not_a_bot_signups_enabled": {
           "value": "false"
@@ -5206,7 +5206,7 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "9fe306fb8a7500185f3726e466f940d7"
+      "settingsVersion": "59e9a6dee52211c235a60d08c48f7d3d"
     },
     "debug": {},
     "featureSetToken": "03117684d5b5da5f3d4b917e70284b3e47bba116",
@@ -5279,7 +5279,7 @@
     "country": "US",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "170483470400556893",
+    "guestId": "170492103740713304",
     "hasCommunityMemberships": "false",
     "language": "en",
     "ssoInitTokens": {},
