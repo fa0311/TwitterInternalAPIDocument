@@ -2776,3 +2776,17 @@
 - responsive_web_grok_share_enabled<br>
 #### remove<br>
 - rweb_no_scroll_sidenav<br>
+## 2024/01/09<br>
+### API<br>
+#### add<br>
+- ArticleEntityResultByRestId<br>
+- ArticleEntityResultByRestId<br>
+#### remove<br>
+- ArticleEntityByRestId<br>
+- ArticleEntityByRestId<br>
+### Feature Switch<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- responsive_web_verified_organizations_tiers_enabled<br>
+- subscriptions_inapp_grok_share_enabled<br>
