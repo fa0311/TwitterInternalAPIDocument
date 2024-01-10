@@ -9,7 +9,7 @@
     "rweb",
     "msw"
   ],
-  "serverDate": "1704834425960",
+  "serverDate": "1704920829842",
   "cookies": {
     "version": "1661819456366",
     "fetchedTime": "1661971138705",
@@ -103,5 +103,5 @@
       ]
     }
   },
-  "userHash": "56717b3ff04d30d06115b00345b08110a2e6b503f3ebc5b3a5659f5dc98c5d57"
+  "userHash": "a53be747736690a4aaf31c78b1c2ca5cb361eb33f735a083f58c1b204b90219f"
 }
