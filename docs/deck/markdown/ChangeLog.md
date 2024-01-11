@@ -1903,3 +1903,21 @@
 - gryphon_blue_only_enabled<br>
 - rweb_no_scroll_sidenav<br>
 - subscriptions_marketing_page_upsell_enabled<br>
+## 2024/01/11<br>
+### API<br>
+#### add<br>
+- ArticleEntityResultByRestId<br>
+- TVHomeMixer<br>
+- ArticleEntityResultByRestId<br>
+- useVerifiedOrgSubscriptionDetailsQuery<br>
+#### remove<br>
+- ArticleEntityByRestId<br>
+- ArticleEntityByRestId<br>
+### Feature Switch<br>
+#### add<br>
+- responsive_web_grok_trends_design_enabled<br>
+- responsive_web_verified_organizations_full_access_annual_enabled<br>
+#### remove<br>
+- responsive_web_verified_organizations_skip_welcome_screen<br>
+- responsive_web_verified_organizations_tiers_enabled<br>
+- subscriptions_inapp_grok_share_enabled<br>
