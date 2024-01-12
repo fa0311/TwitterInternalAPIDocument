@@ -6612,11 +6612,11 @@ This document is entirely auto-generated and may contain errors.<br>
 | VIDEO       | VIDEO       |
 | SHORT_VIDEO | SHORT_VIDEO |
 
-| constant   | value                         |
-|:-----------|:------------------------------|
-| REQUEST    | rweb/FETCH_TV_EXPLORE/REQUEST |
-| SUCCESS    | rweb/FETCH_TV_EXPLORE/SUCCESS |
-| FAILURE    | rweb/FETCH_TV_EXPLORE/FAILURE |
+| constant   | value                            |
+|:-----------|:---------------------------------|
+| REQUEST    | rweb/FETCH_TV_HOME_MIXER/REQUEST |
+| SUCCESS    | rweb/FETCH_TV_HOME_MIXER/SUCCESS |
+| FAILURE    | rweb/FETCH_TV_HOME_MIXER/FAILURE |
 
 | constant                | value                     |
 |:------------------------|:--------------------------|

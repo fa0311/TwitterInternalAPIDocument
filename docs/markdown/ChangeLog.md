@@ -2790,3 +2790,16 @@
 #### remove<br>
 - responsive_web_verified_organizations_tiers_enabled<br>
 - subscriptions_inapp_grok_share_enabled<br>
+## 2024/01/11<br>
+### API<br>
+#### add<br>
+- TVHomeMixer<br>
+- useVerifiedOrgSubscriptionDetailsQuery<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- responsive_web_grok_trends_design_enabled<br>
+- responsive_web_verified_organizations_full_access_annual_enabled<br>
+#### remove<br>
+- responsive_web_verified_organizations_skip_welcome_screen<br>
