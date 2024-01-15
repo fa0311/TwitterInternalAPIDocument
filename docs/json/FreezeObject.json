@@ -779,7 +779,8 @@
     "Events": "events"
   },
   {
-    "grok": "grok"
+    "grok": "grok",
+    "pro": "pro"
   },
   {
     "...t.YE": "_",
@@ -1038,6 +1039,7 @@
     "PagedCarouselItem": "pagedCarouselItem",
     "Place": "place",
     "Prompt": "prompt",
+    "RecruitingOrganization": "recruitingOrganization",
     "RelatedSearch": "relatedSearch",
     "ScoreEventSummary": "scoreEventSummary",
     "SelfThreadTweetComposer": "tweetComposer",
@@ -1880,6 +1882,12 @@
     "mostPopular": {
       "backgroundColor": "purple50",
       "color": "purple900",
+      "bold": "!0",
+      "fontSize": "subtext3"
+    },
+    "priority": {
+      "backgroundColor": "blue50",
+      "color": "blue900",
       "bold": "!0",
       "fontSize": "subtext3"
     },
@@ -6031,7 +6039,7 @@
     "SET_CONFIG": "rweb/verifiedOrgConfig/SET"
   },
   {
-    "fetchStatus": "k.ZP.NONE",
+    "fetchStatus": "v.ZP.NONE",
     "config": "je"
   },
   "{[_.hA.switchFromDirect]:\"m().dca6b3ac\",[_.hA.generate]:\"m().dca6b3ac\",[_.hA.updateSeats]:\"m().c97ad52a\"}",
@@ -6617,6 +6625,10 @@
     "yellow0": "yellow500",
     "gray0": "gray500",
     "gray100": "gray600"
+  },
+  {
+    "single_line": "singleline",
+    "format_inline": "format-inline"
   },
   {
     "NotStarted": "not_started",
