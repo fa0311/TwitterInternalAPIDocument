@@ -2803,3 +2803,17 @@
 - responsive_web_verified_organizations_full_access_annual_enabled<br>
 #### remove<br>
 - responsive_web_verified_organizations_skip_welcome_screen<br>
+## 2024/01/15<br>
+### API<br>
+#### add<br>
+- JobRecommendationListItemMutation<br>
+- JobRecommendationsListContainerQuery<br>
+- RefreshJobRecommendationsButtonMutation<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- recruiting_job_recommendations_enabled<br>
+- rweb_mixed_media_uploads_enabled<br>
+#### remove<br>
+- responsive_web_tweetdeck_menu_item_enabled<br>

@@ -1069,6 +1069,9 @@
       "recruiting_job_page_consumption_enabled": {
         "value": "true"
       },
+      "recruiting_job_recommendations_enabled": {
+        "value": "false"
+      },
       "recruiting_jobs_list_consumption_enabled": {
         "value": "true"
       },
@@ -1687,9 +1690,6 @@
       "responsive_web_tweet_analytics_video_metrics_v2_enabled": {
         "value": "true"
       },
-      "responsive_web_tweetdeck_menu_item_enabled": {
-        "value": "true"
-      },
       "responsive_web_twitter_article_block_limit": {
         "value": "10000"
       },
@@ -1823,6 +1823,9 @@
         "value": "true"
       },
       "rweb_master_detail_enabled": {
+        "value": "false"
+      },
+      "rweb_mixed_media_uploads_enabled": {
         "value": "false"
       },
       "rweb_panning_nav_behavior": {
@@ -3609,6 +3612,9 @@
         "recruiting_job_page_consumption_enabled": {
           "value": "false"
         },
+        "recruiting_job_recommendations_enabled": {
+          "value": "false"
+        },
         "recruiting_jobs_list_consumption_enabled": {
           "value": "false"
         },
@@ -4227,9 +4233,6 @@
         "responsive_web_tweet_analytics_video_metrics_v2_enabled": {
           "value": "true"
         },
-        "responsive_web_tweetdeck_menu_item_enabled": {
-          "value": "true"
-        },
         "responsive_web_twitter_article_block_limit": {
           "value": "10000"
         },
@@ -4363,6 +4366,9 @@
           "value": "true"
         },
         "rweb_master_detail_enabled": {
+          "value": "false"
+        },
+        "rweb_mixed_media_uploads_enabled": {
           "value": "false"
         },
         "rweb_panning_nav_behavior": {
@@ -5203,7 +5209,7 @@
       "settingsVersion": "e95c574978e15bf383c3e6c5b2250c22"
     },
     "debug": {},
-    "featureSetToken": "e8d7fd16f2e5907ebf16cf83d6ad01f510a6ad5e",
+    "featureSetToken": "d3c60348b93cea2acb3372717d9e47a647f6a5fd",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -5273,7 +5279,7 @@
     "country": "US",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "170526663280527789",
+    "guestId": "170543947283887188",
     "hasCommunityMemberships": "false",
     "language": "en",
     "ssoInitTokens": {},

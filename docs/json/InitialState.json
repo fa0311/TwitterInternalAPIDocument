@@ -1059,6 +1059,9 @@
       "recruiting_job_page_consumption_enabled": {
         "value": "true"
       },
+      "recruiting_job_recommendations_enabled": {
+        "value": "false"
+      },
       "recruiting_jobs_list_consumption_enabled": {
         "value": "true"
       },
@@ -1677,9 +1680,6 @@
       "responsive_web_tweet_analytics_video_metrics_v2_enabled": {
         "value": "true"
       },
-      "responsive_web_tweetdeck_menu_item_enabled": {
-        "value": "true"
-      },
       "responsive_web_twitter_article_block_limit": {
         "value": "10000"
       },
@@ -1813,6 +1813,9 @@
         "value": "true"
       },
       "rweb_master_detail_enabled": {
+        "value": "false"
+      },
+      "rweb_mixed_media_uploads_enabled": {
         "value": "false"
       },
       "rweb_panning_nav_behavior": {
@@ -3599,6 +3602,9 @@
         "recruiting_job_page_consumption_enabled": {
           "value": "true"
         },
+        "recruiting_job_recommendations_enabled": {
+          "value": "false"
+        },
         "recruiting_jobs_list_consumption_enabled": {
           "value": "true"
         },
@@ -4217,9 +4223,6 @@
         "responsive_web_tweet_analytics_video_metrics_v2_enabled": {
           "value": "true"
         },
-        "responsive_web_tweetdeck_menu_item_enabled": {
-          "value": "true"
-        },
         "responsive_web_twitter_article_block_limit": {
           "value": "10000"
         },
@@ -4353,6 +4356,9 @@
           "value": "true"
         },
         "rweb_master_detail_enabled": {
+          "value": "false"
+        },
+        "rweb_mixed_media_uploads_enabled": {
           "value": "false"
         },
         "rweb_panning_nav_behavior": {
@@ -5193,7 +5199,7 @@
       "settingsVersion": "24e2b5bcd09b207337fc40f7b00c127a"
     },
     "debug": {},
-    "featureSetToken": "e8d7fd16f2e5907ebf16cf83d6ad01f510a6ad5e",
+    "featureSetToken": "d3c60348b93cea2acb3372717d9e47a647f6a5fd",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -5263,7 +5269,7 @@
     "country": "US",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "170526639610132036",
+    "guestId": "170543924315031043",
     "hasCommunityMemberships": "false",
     "language": "en",
     "ssoInitTokens": {},

@@ -1921,3 +1921,17 @@
 - responsive_web_verified_organizations_skip_welcome_screen<br>
 - responsive_web_verified_organizations_tiers_enabled<br>
 - subscriptions_inapp_grok_share_enabled<br>
+## 2024/01/16<br>
+### API<br>
+#### add<br>
+- JobRecommendationListItemMutation<br>
+- JobRecommendationsListContainerQuery<br>
+- RefreshJobRecommendationsButtonMutation<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- recruiting_job_recommendations_enabled<br>
+- rweb_mixed_media_uploads_enabled<br>
+#### remove<br>
+- responsive_web_tweetdeck_menu_item_enabled<br>
