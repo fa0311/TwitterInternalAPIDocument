@@ -1935,3 +1935,21 @@
 - rweb_mixed_media_uploads_enabled<br>
 #### remove<br>
 - responsive_web_tweetdeck_menu_item_enabled<br>
+## 2024/01/18<br>
+### API<br>
+#### add<br>
+- AiTrendByRestId<br>
+- useSetupOrgMutation<br>
+- AddJobMutation<br>
+- AddJobQuery<br>
+- ShareJobQuery<br>
+#### remove<br>
+- CommunityEditTheme<br>
+- CommunityTweetsRankedTimeline<br>
+- JobSplashScreenConfigMutation<br>
+### Feature Switch<br>
+#### add<br>
+- recruiting_pin_job_enabled<br>
+- responsive_web_trends_ui_landing_page<br>
+#### remove<br>
+- None<br>
