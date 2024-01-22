@@ -1953,3 +1953,20 @@
 - responsive_web_trends_ui_landing_page<br>
 #### remove<br>
 - None<br>
+## 2024/01/22<br>
+### API<br>
+#### add<br>
+- AddJobTitleMutation<br>
+- AddLocationMutation<br>
+- CreateMatchingProfileButtonMutation<br>
+- JobRecommendationsOnboardingContentQuery<br>
+- MatchingCriteriaListItemMutation<br>
+- MatchingProfileFieldMutation<br>
+#### remove<br>
+- AddJobScreenMutation<br>
+### Feature Switch<br>
+#### add<br>
+- dm_video_downloads_enabled<br>
+- responsive_web_verified_organizations_multiple_ad_coupons_enabled<br>
+#### remove<br>
+- None<br>
