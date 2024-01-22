@@ -91,6 +91,11 @@
       "errors": {},
       "fetchStatus": {}
     },
+    "aitrends": {
+      "entities": {},
+      "errors": {},
+      "fetchStatus": {}
+    },
     "userCommunityRoleRelationship": {
       "entities": {},
       "errors": {},
@@ -615,6 +620,9 @@
       },
       "dm_share_sheet_send_individually_max_count": {
         "value": "20"
+      },
+      "dm_video_downloads_enabled": {
+        "value": "false"
       },
       "dm_voice_rendering_enabled": {
         "value": "true"
@@ -1663,6 +1671,9 @@
       "responsive_web_trends_setting_new_endpoints": {
         "value": "true"
       },
+      "responsive_web_trends_ui_landing_page": {
+        "value": "false"
+      },
       "responsive_web_trends_ui_top_articles": {
         "value": "false"
       },
@@ -1712,7 +1723,7 @@
         "value": "70"
       },
       "responsive_web_twitter_article_tweet_consumption_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "responsive_web_twitter_article_view_enabled": {
         "value": "true"
@@ -1757,6 +1768,9 @@
         "value": "false"
       },
       "responsive_web_verified_organizations_invoice_update_enabled": {
+        "value": "false"
+      },
+      "responsive_web_verified_organizations_multiple_ad_coupons_enabled": {
         "value": "false"
       },
       "responsive_web_verified_organizations_paid_to_invoice_enabled": {
@@ -3162,6 +3176,9 @@
         "dm_share_sheet_send_individually_max_count": {
           "value": "20"
         },
+        "dm_video_downloads_enabled": {
+          "value": "false"
+        },
         "dm_voice_rendering_enabled": {
           "value": "true"
         },
@@ -4209,6 +4226,9 @@
         "responsive_web_trends_setting_new_endpoints": {
           "value": "true"
         },
+        "responsive_web_trends_ui_landing_page": {
+          "value": "false"
+        },
         "responsive_web_trends_ui_top_articles": {
           "value": "false"
         },
@@ -4304,6 +4324,9 @@
         },
         "responsive_web_verified_organizations_invoice_update_enabled": {
           "value": "true"
+        },
+        "responsive_web_verified_organizations_multiple_ad_coupons_enabled": {
+          "value": "false"
         },
         "responsive_web_verified_organizations_paid_to_invoice_enabled": {
           "value": "false"
@@ -5167,7 +5190,7 @@
           "value": "1"
         },
         "web_video_hlsjs_version": {
-          "value": ""
+          "value": "1.5.0"
         },
         "web_video_playback_rate_enabled": {
           "value": "true"
@@ -5197,10 +5220,10 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "203c345a323d31afd854031219007659"
+      "settingsVersion": "151388cb4abf858b60a5e18ac2808e06"
     },
     "debug": {},
-    "featureSetToken": "81ac2075624658f99f2d3d363589b6f012bf9c5a",
+    "featureSetToken": "0413ef8c252b1bec4e54db9e9d83f553eb511ef0",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -5270,7 +5293,7 @@
     "country": "US",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "170587120595407221",
+    "guestId": "170595763954155753",
     "hasCommunityMemberships": "false",
     "language": "en",
     "ssoInitTokens": {},
