@@ -2645,7 +2645,7 @@
         "value": "1"
       },
       "web_video_hlsjs_version": {
-        "value": ""
+        "value": "1.5.0"
       },
       "web_video_playback_rate_enabled": {
         "value": "true"
@@ -5230,10 +5230,10 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "58fd0b9b53fac97f4138478326b2316b"
+      "settingsVersion": "e95c574978e15bf383c3e6c5b2250c22"
     },
     "debug": {},
-    "featureSetToken": "0413ef8c252b1bec4e54db9e9d83f553eb511ef0",
+    "featureSetToken": "f05979c411f7910ba6603f14881824cdac32b7e4",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -5303,7 +5303,7 @@
     "country": "US",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "170595789372199027",
+    "guestId": "170604430490730184",
     "hasCommunityMemberships": "false",
     "language": "en",
     "ssoInitTokens": {},
