@@ -4792,15 +4792,15 @@
       "method": "GET",
       "features": {}
     },
-    "JobListItemFeatureMutation": {
-      "url": "https://twitter.com/i/api/graphql/-TkDQMRqYiRti2ZvQO0JrA/JobListItemFeatureMutation",
-      "queryId": "-TkDQMRqYiRti2ZvQO0JrA",
+    "FeatureActionFeatureMutation": {
+      "url": "https://twitter.com/i/api/graphql/5Tzlp_ZWK10RtHqi7tRjAg/FeatureActionFeatureMutation",
+      "queryId": "5Tzlp_ZWK10RtHqi7tRjAg",
       "method": "POST",
       "features": {}
     },
-    "JobListItemUnfeatureMutation": {
-      "url": "https://twitter.com/i/api/graphql/8b-5thQwsUpLs6xt_mczqQ/JobListItemUnfeatureMutation",
-      "queryId": "8b-5thQwsUpLs6xt_mczqQ",
+    "FeatureActionUnfeatureMutation": {
+      "url": "https://twitter.com/i/api/graphql/lESVPvjYiWfo2MdVwqBBPQ/FeatureActionUnfeatureMutation",
+      "queryId": "lESVPvjYiWfo2MdVwqBBPQ",
       "method": "POST",
       "features": {}
     },
@@ -4831,6 +4831,12 @@
     "useUpdateJobMutation": {
       "url": "https://twitter.com/i/api/graphql/q48czDjETWjUNO2iNHSpyQ/useUpdateJobMutation",
       "queryId": "q48czDjETWjUNO2iNHSpyQ",
+      "method": "POST",
+      "features": {}
+    },
+    "useUpdateJobShareItemMutation": {
+      "url": "https://twitter.com/i/api/graphql/hIiPNvZDvzDTN4q7UTE1tg/useUpdateJobShareItemMutation",
+      "queryId": "hIiPNvZDvzDTN4q7UTE1tg",
       "method": "POST",
       "features": {}
     },
