@@ -7732,8 +7732,8 @@ Login Required: `...`<br>
 `None`<br>
 #### queryId<br>
 `None`<br>
-## JobListItemFeatureMutation<br>
-Request URL: `https://twitter.com/i/api/graphql/-TkDQMRqYiRti2ZvQO0JrA/JobListItemFeatureMutation`<br>
+## FeatureActionFeatureMutation<br>
+Request URL: `https://twitter.com/i/api/graphql/5Tzlp_ZWK10RtHqi7tRjAg/FeatureActionFeatureMutation`<br>
 Request Method: `POST`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -7743,8 +7743,8 @@ Login Required: `...`<br>
 `None`<br>
 #### queryId<br>
 `None`<br>
-## JobListItemUnfeatureMutation<br>
-Request URL: `https://twitter.com/i/api/graphql/8b-5thQwsUpLs6xt_mczqQ/JobListItemUnfeatureMutation`<br>
+## FeatureActionUnfeatureMutation<br>
+Request URL: `https://twitter.com/i/api/graphql/lESVPvjYiWfo2MdVwqBBPQ/FeatureActionUnfeatureMutation`<br>
 Request Method: `POST`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -7800,6 +7800,17 @@ Login Required: `...`<br>
 `None`<br>
 ## useUpdateJobMutation<br>
 Request URL: `https://twitter.com/i/api/graphql/q48czDjETWjUNO2iNHSpyQ/useUpdateJobMutation`<br>
+Request Method: `POST`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
+## useUpdateJobShareItemMutation<br>
+Request URL: `https://twitter.com/i/api/graphql/hIiPNvZDvzDTN4q7UTE1tg/useUpdateJobShareItemMutation`<br>
 Request Method: `POST`<br>
 Login Required: `...`<br>
 ### Param<br>
