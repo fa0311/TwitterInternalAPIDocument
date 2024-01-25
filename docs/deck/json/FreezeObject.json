@@ -72,6 +72,7 @@
     "AudioSpacePublisherPolled": "AudioSpacePublisherPolled",
     "AudioSpaceViewerUserRoleChanged": "AudioSpaceViewerUserRoleChanged",
     "AudioSpaceInvitedToCohost": "AudioSpaceInvitedToCohost",
+    "AudioSpaceAttemptedToEnd": "AudioSpaceAttemptedToEnd",
     "JanusNewMediaStream": "JanusNewMediaStream",
     "JanusClientStateChanged": "JanusClientStateChanged"
   },
@@ -139,7 +140,7 @@
     "ArrowRight": "void 0"
   },
   {
-    "...t": "_"
+    "...n": "_"
   },
   {
     "...i": "_"
@@ -1755,7 +1756,8 @@
     "AudioSpaceRoot": "AudioSpaceRoot",
     "AudioSpaceTab": "AudioSpaceTab",
     "AudioSpaceSearch": "AudioSpaceSearch",
-    "AudioSpacebarScreen": "AudioSpacebarScreen"
+    "AudioSpacebarScreen": "AudioSpacebarScreen",
+    "AudioSpaceStart": "AudioSpaceStart"
   },
   {
     "FOLLOWS": "follows",
@@ -2528,7 +2530,7 @@
       "textOverflow": "ellipsis"
     }
   },
-  "{\"isExternal()\"{\"try\"{const t=o();return this._customIsExternal?this._customIsExternal(e,n){\"hrefHostname\":\"t\",\"href\":\"e\"}}\"catch()\"{\"return!0\"}},\"setIsExternal()\"{\"this._customIsExternal=e\"},\"clearIsExternal()\"{\"this._customIsExternal=null\"},\"onLinkClick()\"{\"this._customOnLinkClick&&this._customOnLinkClick()\"{\"event\":\"e\",\"link\":\"n\",\"newWindowRequested\":\"t\"}},\"setOnLinkClick()\"{\"this._customOnLinkClick=e\"},\"linkProcessor()\"{\"return this._customLinkProcessor?this._customLinkProcessor()\":\"e\"},\"setLinkProcessor()\"{\"this._customLinkProcessor=e\"},\"hrefProcessor()\"{\"return this._customHrefProcessor?this._customHrefProcessor()\":\"e\"},\"setHrefProcessor()\"{\"this._customHrefProcessor=e\"},\"withAnchorless\":e=>\"string\"==typeof e?{\"anchorless\":\"!0\",\"pathname\":\"e\"}:{\"anchorless\":\"!0\",\"...e\":\"_\"},\"setLinkFromUrtUrl()\"{\"this._customLinkFromUrtUrl=e\"},\"getLinkFromUrtUrl()\"{\"return this._customLinkFromUrtUrl?this._customLinkFromUrtUrl()\":{\"external\":\"!0\",\"pathname\":\"e.url\"}}}",
+  "{\"isExternal()\"{\"try\"{const n=o();return this._customIsExternal?this._customIsExternal(e,t){\"hrefHostname\":\"n\",\"href\":\"e\"}}\"catch()\"{\"return!0\"}},\"setIsExternal()\"{\"this._customIsExternal=e\"},\"clearIsExternal()\"{\"this._customIsExternal=null\"},\"onLinkClick()\"{\"this._customOnLinkClick&&this._customOnLinkClick()\"{\"event\":\"e\",\"link\":\"t\",\"newWindowRequested\":\"n\"}},\"setOnLinkClick()\"{\"this._customOnLinkClick=e\"},\"linkProcessor()\"{\"return this._customLinkProcessor?this._customLinkProcessor()\":\"e\"},\"setLinkProcessor()\"{\"this._customLinkProcessor=e\"},\"hrefProcessor()\"{\"return this._customHrefProcessor?this._customHrefProcessor()\":\"e\"},\"setHrefProcessor()\"{\"this._customHrefProcessor=e\"},\"withAnchorless\":e=>\"string\"==typeof e?{\"anchorless\":\"!0\",\"pathname\":\"e\"}:{\"anchorless\":\"!0\",\"...e\":\"_\"},\"setLinkFromUrtUrl()\"{\"this._customLinkFromUrtUrl=e\"},\"getLinkFromUrtUrl()\"{\"return this._customLinkFromUrtUrl?this._customLinkFromUrtUrl()\":{\"external\":\"!0\",\"pathname\":\"e.url\"}}}",
   {
     "Cashtag": "cashtag",
     "Hashtag": "hashtag",
@@ -2809,7 +2811,7 @@
     "appBarFirefoxBackground": "o.bs.black(.65)"
   },
   {
-    "..._": "_",
+    "...A": "_",
     "...i()": "_",
     "text": "o.Cj",
     "navigationBackground": "#050505",
@@ -2846,11 +2848,11 @@
   {
     "appBarHeight": "v",
     "appBarHeightPx": "y",
-    "conversationLineWidth": "A.space2",
-    "gutterHorizontal": "_.space16",
-    "gutterHorizontalPx": "A.space16",
-    "gutterVertical": "_.space12",
-    "gutterVerticalPx": "A.space12"
+    "conversationLineWidth": "_.space2",
+    "gutterHorizontal": "A.space16",
+    "gutterHorizontalPx": "_.space16",
+    "gutterVertical": "A.space12",
+    "gutterVerticalPx": "_.space12"
   },
   {
     "aspectRatios": "i",
@@ -2867,12 +2869,12 @@
     "fontWeights": "b",
     "lineHeights": "S",
     "lineHeightsPx": "g",
-    "scales": "n",
-    "scaleMultipler": "t",
-    "spaces": "_",
-    "spacesPx": "A"
+    "scales": "t",
+    "scaleMultipler": "n",
+    "spaces": "A",
+    "spacesPx": "_"
   },
-  "{\"...h()\":{\"scale\":\"o\",\"scales\":\"i\"}\"an0\",g.obt,n,\"r\"}",
+  "{\"...h()\":{\"scale\":\"o\",\"scales\":\"i\"}\"at0\",g.obn,t,\"r\"}",
   {
     "UNKNOWN": "0",
     "TOP_LEFT": "1",
@@ -3154,13 +3156,13 @@
   {
     "clipId": "clipID"
   },
-  "{[z.Q.host]:{\"title\":\"On.hostTitle\",\"maybePluralFormatter\":\"Bn\",\"capacity\":\"1\"},[z.Q.cohost]:{\"title\":\"On.cohostTitle\",\"maybePluralFormatter\":\"jn\",\"capacity\":\"2\"},[z.Q.speaker]:{\"title\":\"On.speakerTitle\",\"maybePluralFormatter\":\"Un\",\"capacity\":\"10\"},[z.Q.listener]:{\"title\":\"On.listenerTitle\",\"maybePluralFormatter\":\"Vn\",\"capacity\":-1}}",
+  "{[z.Q.host]:{\"title\":\"Bn.hostTitle\",\"maybePluralFormatter\":\"jn\",\"capacity\":\"1\"},[z.Q.cohost]:{\"title\":\"Bn.cohostTitle\",\"maybePluralFormatter\":\"Vn\",\"capacity\":\"2\"},[z.Q.speaker]:{\"title\":\"Bn.speakerTitle\",\"maybePluralFormatter\":\"Fn\",\"capacity\":\"10\"},[z.Q.listener]:{\"title\":\"Bn.listenerTitle\",\"maybePluralFormatter\":\"Jn\",\"capacity\":-1}}",
   {
     "onlyInvited": "onlyInvited",
     "peopleYouFollow": "peopleYouFollow",
     "everyone": "everyone"
   },
-  "{[ui.onlyInvited]:\"0\",[ui.peopleYouFollow]:\"1\",[ui.everyone]:\"2\"}",
+  "{[hi.onlyInvited]:\"0\",[hi.peopleYouFollow]:\"1\",[hi.everyone]:\"2\"}",
   {
     "mainView": "mainView",
     "manageView": "manageView",
@@ -3892,7 +3894,7 @@
     "Expand": "expand",
     "Remove": "remove"
   },
-  "{\"ActionsBar\":\"y.Z\",\"ActionMenu\":\"function()\"{\"Icon\":\"e\",\"isDisabled\":\"t\",\"items\":\"n\",\"onOpen\":\"i\"}{\"const r=o.useCallback()\"{\"items\":\"n\",\"onCloseRequested\":\"e\"}{\"Icon\":\"e\",\"isDisabled\":\"t\",\"onClick\":\"i\",\"renderActionMenu\":\"r\"}},\"CallToAction\":\"a.ZP\",\"EditCallout\":\"C.Z\",\"Education\":\"E.Z\",\"HighlightedUserLabel\":\"c.Z\",\"Media\":\"k.Z\",\"Place\":\"r.ZP\",\"PromotedDetails\":\"u.Z\",\"PromotedUserProfileCard\":\"P\",\"ReplyContext\":\"Z.ZP\",\"RichContent\":\"L.Z\",\"SocialContext\":\"g.Z\",\"Text\":\"D.Z\",\"Tombstone\":\"_.Z\",\"Timestamp\":\"p.Z\",\"UserAvatar\":\"R.Z\",\"UserFollowIndicator\":\"U.Z\",\"UserName\":\"F.Z\",\"ArticleCard\":\"v.Z\"}",
+  "{\"ActionsBar\":\"f.Z\",\"ActionMenu\":\"function()\"{\"Icon\":\"e\",\"isDisabled\":\"t\",\"items\":\"n\",\"onOpen\":\"i\"}{\"const r=o.useCallback()\"{\"items\":\"n\",\"onCloseRequested\":\"e\"}{\"Icon\":\"e\",\"isDisabled\":\"t\",\"onClick\":\"i\",\"renderActionMenu\":\"r\"}},\"CallToAction\":\"a.ZP\",\"EditCallout\":\"C.Z\",\"Education\":\"E.Z\",\"HighlightedUserLabel\":\"c.Z\",\"Media\":\"k.Z\",\"Place\":\"r.ZP\",\"PromotedDetails\":\"u.Z\",\"PromotedUserProfileCard\":\"P\",\"ReplyContext\":\"Z.ZP\",\"RichContent\":\"L.Z\",\"SocialContext\":\"g.Z\",\"Text\":\"D.Z\",\"Tombstone\":\"_.Z\",\"Timestamp\":\"p.Z\",\"UserAvatar\":\"R.Z\",\"UserFollowIndicator\":\"U.Z\",\"UserName\":\"F.Z\",\"ArticleCard\":\"v.Z\"}",
   {
     "explore": "explore",
     "transparent": "transparent"
@@ -4734,7 +4736,7 @@
   {
     "MEDIA": "wt",
     "GIFS": "ht",
-    "TWEETS": "Et"
+    "TWEETS": "vt"
   },
   {
     "Public": "Public",
@@ -4750,8 +4752,8 @@
     "PUBLISHED": "Published"
   },
   {
-    "DRAFT": "Ee.DRAFT",
-    "PUBLISHED": "Ee.PUBLISHED"
+    "DRAFT": "ve.DRAFT",
+    "PUBLISHED": "ve.PUBLISHED"
   },
   {
     "MEDIA": "MEDIA",
@@ -4781,7 +4783,7 @@
   },
   {
     "all": {
-      "icon": "cs",
+      "icon": "ds",
       "label": "C().i8ea6d4e"
     },
     "community": {
@@ -4789,11 +4791,11 @@
       "label": "C().a176d0d8"
     },
     "by_invitation": {
-      "icon": "ds",
+      "icon": "cs",
       "label": "C().gc7e52ca"
     },
     "subscribers": {
-      "icon": "cs",
+      "icon": "ds",
       "label": "C().bf8d98f4"
     },
     "community_members": {
@@ -4801,7 +4803,7 @@
       "label": "C().i13be5a0"
     },
     "super_followers_exclusive": {
-      "icon": "cs",
+      "icon": "ds",
       "label": "C().ebe1d850"
     },
     "trusted_friends_tweet": {
@@ -5757,7 +5759,12 @@
     "unfeatureJob": "unfeatureJob",
     "configureOrganization": "configureOrganization",
     "apiDeckIntegration": "apiDeckIntegration",
-    "atsSyncErrorMessage": "atsSyncErrorMessage"
+    "atsSyncErrorMessage": "atsSyncErrorMessage",
+    "adsAccountIncorrect": "adsAccountIncorrect",
+    "adsAccountInvalidFunding": "adsAccountInvalidFunding",
+    "adsAccountReviewNeeded": "adsAccountReviewNeeded",
+    "missingVOSubscription": "adsAccountReviewNeeded",
+    "adsPromoActivation": "adsPromoActivation"
   },
   {
     "page": "verified-organizations",
@@ -6078,12 +6085,6 @@
     "LinkFilter": "linkFilter"
   },
   {
-    "wide": "wide",
-    "narrow": "narrow",
-    "veryNarrow": "veryNarrow"
-  },
-  "{[i.wide]:\"500\",[i.narrow]:\"285\",[i.veryNarrow]:\"200\"}",
-  {
     "VIDEO": "VIDEO",
     "SHORT_VIDEO": "SHORT_VIDEO"
   },
@@ -6091,6 +6092,16 @@
     "REQUEST": "rweb/FETCH_TV_HOME_MIXER/REQUEST",
     "SUCCESS": "rweb/FETCH_TV_HOME_MIXER/SUCCESS",
     "FAILURE": "rweb/FETCH_TV_HOME_MIXER/FAILURE"
+  },
+  {
+    "REQUEST": "rweb/FETCH_TV_SEARCH/REQUEST",
+    "SUCCESS": "rweb/FETCH_TV_SEARCH/SUCCESS",
+    "FAILURE": "rweb/FETCH_TV_SEARCH/FAILURE"
+  },
+  {
+    "REQUEST": "rweb/FETCH_TV_SEARCH_TYPEAHEAD/REQUEST",
+    "SUCCESS": "rweb/FETCH_TV_SEARCH_TYPEAHEAD/SUCCESS",
+    "FAILURE": "rweb/FETCH_TV_SEARCH_TYPEAHEAD/FAILURE"
   },
   {
     "FakeAccount": "fake_account",
@@ -6267,6 +6278,12 @@
     "VideoCTA": "VideoPlayerDefaultUI-VideoCTA"
   },
   {
+    "wide": "wide",
+    "narrow": "narrow",
+    "veryNarrow": "veryNarrow"
+  },
+  "{[a.wide]:\"500\",[a.narrow]:\"285\",[a.veryNarrow]:\"200\"}",
+  {
     "apple": "https://apps.apple.com/account/billing",
     "google": "https://play.google.com/store/account/subscriptions?sku=com.twitter.google.rogue.one.1.1&package=com.twitter.android"
   },
@@ -6297,32 +6314,6 @@
   {
     "Recommendations": "recommendations",
     "Search": "search"
-  },
-  {
-    "navButtons": "navigationButtons",
-    "carouselRoot": "carouselRoot"
-  },
-  {
-    "TWEET_CARET": "tweet_caret",
-    "PROFILE": "user_profile",
-    "LIST_DETAIL": "list_detail",
-    "RICH_FEEDBACK": "rich_feedback",
-    "TWEET": "tweet",
-    "FOLLOWERS_LIST": "followers_list"
-  },
-  {
-    "User": "User",
-    "ProfileCard": "ProfileCard",
-    "UserCompact": "UserCompact",
-    "UserConcise": "UserConcise",
-    "UserDetailed": "UserDetailed",
-    "PendingFollowUser": "PendingFollowUser",
-    "SubscribableUser": "SubscribableUser"
-  },
-  {
-    "REQUEST": "rweb/promotedContent/LOG_REQUEST",
-    "SUCCESS": "rweb/promotedContent/LOG_SUCCESS",
-    "FAILURE": "rweb/promotedContent/LOG_FAILURE"
   },
   {
     "navButtons": "navigationButtons",
@@ -6764,6 +6755,12 @@
     "speaker": "speaker",
     "listener": "listener"
   },
+  {
+    "wide": "wide",
+    "narrow": "narrow",
+    "veryNarrow": "veryNarrow"
+  },
+  "{[i.wide]:\"500\",[i.narrow]:\"285\",[i.veryNarrow]:\"200\"}",
   "{\"__proto__\":\"null\",\"DEG2RAD\":\"at\",\"RAD2DEG\":\"ot\",\"generateUUID\":\"lt\",\"clamp\":\"ct\",\"euclideanModulo\":\"ht\",\"mapLinear\":\"function()\"{return n+()*(t-e)/(s-n)},\"inverseLerp\":\"function()\"{return t!==e?()/(i-t):\"0\"},\"lerp\":\"ut\",\"damp\":\"function()\"{\"return ut()\"},\"pingpong\":\"function()\"{return e-Math.abs()},\"smoothstep\":\"function()\"{return t<=e?0:t>=i?1:()*t*(t=t-e/i-e)},\"smootherstep\":\"function()\"{return t<=e?0:t>=i?1:()*t*t*(t=t-e/i-e)},\"randInt\":\"function()\"{return t+Math.floor()},\"randFloat\":\"function()\"{return t+Math.random()*()},\"randFloatSpread\":\"function()\"{return t*()},\"seededRandom\":\"function()\"{\"return void 0!==t&&()\",rt=16807*rt%2147483647,(rt=t%2147483647)/2147483646},\"degToRad\":\"function()\"{return t*at},\"radToDeg\":\"function()\"{return t*ot},\"isPowerOfTwo\":\"dt\",\"ceilPowerOfTwo\":\"pt\",\"floorPowerOfTwo\":\"At\",\"setQuaternionFromProperEuler\":\"function()\"{\"const r=Math.cos\",a=Math.sin,o=r(),l=a(i/2),c=r(i/2),h=a(e+n/2),u=r(e+n/2),d=a(e-n/2),p=r(e-n/2),A=a(n-e/2);switch(n-e/2){case\"XYX\":t.set();break;case\"YZY\":t.set(o*h,l*u,l*d,o*c);break;case\"ZXZ\":t.set(l*d,o*h,l*u,o*c);break;case\"XZX\":t.set(l*u,l*d,o*h,o*c);break;case\"YXY\":t.set(o*h,l*A,l*p,o*c);break;case\"ZYZ\":\"t.set(l*p,o*h,l*A,o*c)\"}}}",
   "{\"__proto__\":\"null\",\"ArcCurve\":\"Na\",\"CatmullRomCurve3\":\"za\",\"CubicBezierCurve\":\"qa\",\"CubicBezierCurve3\":\"ja\",\"EllipseCurve\":\"Pa\",\"LineCurve\":\"Ya\",\"LineCurve3\":\"class extends Ra\"{\"constructor()\"{\"super()\",this.type=\"LineCurve3\",this.isLineCurve3=!0,this.v1=t,\"this.v2=e\"}\"getPoint()\"{const i=e;return 1===t?i.copy():\"(this.v2)\",\"i\"}\"getPointAt()\"{\"return this.getPoint()\"}\"copy()\"{\"return super.copy()\",this.v1.copy(t),this.v2.copy(t.v1),\"this\"}\"toJSON()\"{const t=super.toJSON();return t.v1=this.v1.toArray(),t.v2=this.v2.toArray(),\"t\"}\"fromJSON()\"{\"return super.fromJSON()\",this.v1.fromArray(t),this.v2.fromArray(t.v1),\"this\"}},\"QuadraticBezierCurve\":\"Ja\",\"QuadraticBezierCurve3\":\"Xa\",\"SplineCurve\":\"Ka\"}",
   {
