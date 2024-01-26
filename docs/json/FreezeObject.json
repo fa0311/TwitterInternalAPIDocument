@@ -449,7 +449,7 @@
     "contentWidths": "r",
     "wideTabBarWidth": "o",
     "dmDrawerHeight": "i",
-    "dmDrawerWidth": "u"
+    "dmDrawerWidth": "s"
   },
   {
     "Admin": "Admin",
@@ -1241,7 +1241,7 @@
     "OFF": "Off",
     "UNDETERMINED": "Undetermined"
   },
-  "{[x.DEFAULT]:\"N.UNDETERMINED\",[x.DENIED]:\"N.OFF\",[x.GRANTED]:\"N.ON\"}",
+  "{[B.DEFAULT]:\"L.UNDETERMINED\",[B.DENIED]:\"L.OFF\",[B.GRANTED]:\"L.ON\"}",
   {
     "REQUEST": "rweb/devices/REMOVE_PUSH_DESTINATION_REQUEST",
     "SUCCESS": "rweb/devices/REMOVE_PUSH_DESTINATION_SUCCESS",
@@ -1258,25 +1258,25 @@
     "FAILURE": "rweb/devices/FETCH_PUSH_NOTIFICATION_PERMISSION_STATE_FAILURE"
   },
   {
-    "broadcasts": "s",
-    "cards": "s",
-    "commerceItems": "s",
-    "communities": "s",
-    "conversations": "s",
-    "entries": "s",
-    "grokShare": "s",
-    "lists": "s",
-    "livestreams": "s",
-    "moments": "s",
-    "topics": "s",
-    "tweets": "s",
-    "articleEntities": "s",
-    "twitterArticles": "s",
-    "trustedFriends": "s",
-    "userPresence": "s",
-    "userCommunityInviteActionResult": "s",
-    "users": "s",
-    "aitrends": "s"
+    "broadcasts": "u",
+    "cards": "u",
+    "commerceItems": "u",
+    "communities": "u",
+    "conversations": "u",
+    "entries": "u",
+    "grokShare": "u",
+    "lists": "u",
+    "livestreams": "u",
+    "moments": "u",
+    "topics": "u",
+    "tweets": "u",
+    "articleEntities": "u",
+    "twitterArticles": "u",
+    "trustedFriends": "u",
+    "userPresence": "u",
+    "userCommunityInviteActionResult": "u",
+    "users": "u",
+    "aitrends": "u"
   },
   {
     "REQUEST": "rweb/featureSwitch/FETCH_FEATURE_SWITCHES_REQUEST",
@@ -1392,20 +1392,20 @@
   },
   {
     "...i": "_",
-    "...u": "_"
+    "...s": "_"
   },
   {
-    "type": "s.HOME"
+    "type": "u.HOME"
   },
   {
-    "type": "s.HOME_LATEST"
+    "type": "u.HOME_LATEST"
   },
   {
-    "type": "s.CREATOR_SUBSCRIPTIONS"
+    "type": "u.CREATOR_SUBSCRIPTIONS"
   },
-  "{[s.HOME]:\"home\",[s.HOME_LATEST]:\"latest\",[s.LIST]:\"pinned_list\",[s.CREATOR_SUBSCRIPTIONS]:\"subscribed\",[s.COMMUNITY]:\"community\"}",
+  "{[u.HOME]:\"home\",[u.HOME_LATEST]:\"latest\",[u.LIST]:\"pinned_list\",[u.CREATOR_SUBSCRIPTIONS]:\"subscribed\",[u.COMMUNITY]:\"community\"}",
   {
-    "fetchStatus": "f.ZP.NONE",
+    "fetchStatus": "v.ZP.NONE",
     "selectedTimeline": "a.oO",
     "timelines": "k"
   },
@@ -2182,7 +2182,7 @@
     "appBarFirefoxBackground": "l.bs.black(.65)"
   },
   {
-    "...S": "_",
+    "...w": "_",
     "...o()": "_",
     "text": "l.Cj",
     "navigationBackground": "#050505",
@@ -2217,23 +2217,23 @@
     "space80": "m(p.spaces.space72)"
   },
   {
-    "appBarHeight": "v",
+    "appBarHeight": "f",
     "appBarHeightPx": "y",
-    "conversationLineWidth": "w.space2",
-    "gutterHorizontal": "S.space16",
-    "gutterHorizontalPx": "w.space16",
-    "gutterVertical": "S.space12",
-    "gutterVerticalPx": "w.space12"
+    "conversationLineWidth": "S.space2",
+    "gutterHorizontal": "w.space16",
+    "gutterHorizontalPx": "S.space16",
+    "gutterVertical": "w.space12",
+    "gutterVerticalPx": "S.space12"
   },
   {
     "aspectRatios": "o",
     "baseFontSize": "_",
-    "borderRadii": "u",
+    "borderRadii": "s",
     "borderRadiiPx": "i",
     "borderWidths": "c",
-    "borderWidthsPx": "s",
+    "borderWidthsPx": "u",
     "breakpoints": "r",
-    "componentDimensions": "f",
+    "componentDimensions": "v",
     "componentZIndices": "l",
     "fontSizes": "M",
     "fontSizesPx": "g",
@@ -2242,8 +2242,8 @@
     "lineHeightsPx": "A",
     "scales": "n",
     "scaleMultipler": "d",
-    "spaces": "S",
-    "spacesPx": "w"
+    "spaces": "w",
+    "spacesPx": "S"
   },
   "{\"...p()\":{\"scale\":\"l\",\"scales\":\"o\"}\"rn0\",A.obd,n,\"a\"}",
   {
@@ -4571,9 +4571,9 @@
     "Subscribers": "5"
   },
   {
-    "joinSpace": "f().h400d7c2",
-    "replaySpace": "f().g66c8348",
-    "comingUp": "f().be6ef5b4"
+    "joinSpace": "y().h400d7c2",
+    "replaySpace": "y().g66c8348",
+    "comingUp": "y().be6ef5b4"
   },
   {
     "CarouselImpression": "carousel_impression",
@@ -4610,7 +4610,7 @@
     "BLOCKED": "_",
     "BLOCKED_BY": "b"
   },
-  "{[h]:\"g\",[_]:\"y\",[b]:\"f\"}",
+  "{[h]:\"v\",[_]:\"f\",[b]:\"y\"}",
   {
     "BROADCAST_MEDIA_TYPE": "broadcast",
     "VIDEO_MEDIA_TYPE": "video"
@@ -4662,6 +4662,10 @@
     "Variable": "variable"
   },
   {
+    "Pinning": "Pinning",
+    "Reordering": "Reordering"
+  },
+  {
     "NotStarted": "not_started",
     "Started": "started",
     "Completed": "completed"
@@ -4674,10 +4678,6 @@
     "Member": "MemberInvitesAllowed",
     "Moderator": "ModeratorInvitesAllowed",
     "Admin": "AdminInvitesAllowed"
-  },
-  {
-    "Pinning": "Pinning",
-    "Reordering": "Reordering"
   },
   {
     "HiddenTweet": "hidden_tweet",
@@ -6708,11 +6708,11 @@
     "articles": "article_tweets"
   },
   "{\"default\":\"()\"{\"screenName\":\"e\"}{\"screenName\":\"e\"}{\"screenName\":\"e\"}{\"screenName\":\"e\"}{\"screenName\":\"e\"}{\"screenName\":\"e\"}{\"screenName\":\"e\"}{\"screenName\":\"e\"}{\"screenName\":\"e\"}{\"screenName\":\"e\"}}",
-  "{\"default\":()=>t().b7363b66,\"with_replies\":()=>t().b7363b66,\"superfollows\":()=>t().ce659062,\"highlights\":()=>t().f1e98cc2,\"articles\":()=>t().d5c743c6}",
-  "{\"default\":()=>t().d1e5e328,\"with_replies\":()=>t().d1e5e328,\"superfollows\":()=>t().hb26a1fe,\"highlights\":()=>t().b7c3572e,\"articles\":()=>t().i8123550}",
+  "{\"default\":()=>s().b7363b66,\"with_replies\":()=>s().b7363b66,\"superfollows\":()=>s().ce659062,\"highlights\":()=>s().f1e98cc2,\"articles\":()=>s().d5c743c6}",
+  "{\"default\":()=>s().d1e5e328,\"with_replies\":()=>s().d1e5e328,\"superfollows\":()=>s().hb26a1fe,\"highlights\":()=>s().b7c3572e,\"articles\":()=>s().i8123550}",
   "{\"default\":\"()\"{\"screenName\":\"e\"}{\"screenName\":\"e\"}{\"screenName\":\"e\"}{\"screenName\":\"e\"}{\"screenName\":\"e\"}{\"screenName\":\"e\"}}",
-  "{\"default\":()=>t().f34dfc18,\"with_replies\":()=>t().f34dfc18,\"superfollows\":()=>t().h9346040,\"articles\":()=>t().i4c3ddc6}",
-  "{\"default\":()=>t().e0118142,\"articles\":()=>t().ee9e42aa}",
+  "{\"default\":()=>s().f34dfc18,\"with_replies\":()=>s().f34dfc18,\"superfollows\":()=>s().h9346040,\"articles\":()=>s().i4c3ddc6}",
+  "{\"default\":()=>s().e0118142,\"articles\":()=>s().ee9e42aa}",
   {
     "default": "/compose/tweet",
     "articles": "/compose/articles"
@@ -6947,10 +6947,6 @@
   {
     "single_line": "singleline",
     "format_inline": "format-inline"
-  },
-  {
-    "Pinning": "Pinning",
-    "Reordering": "Reordering"
   },
   {
     "CompactPrompt": "compactPrompt",
