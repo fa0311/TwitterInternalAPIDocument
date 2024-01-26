@@ -2852,3 +2852,17 @@
 - responsive_web_verified_organizations_multiple_ad_coupons_enabled<br>
 #### remove<br>
 - None<br>
+## 2024/01/25<br>
+### API<br>
+#### add<br>
+- EditSearchtagsMutation<br>
+- AdsCouponPromotionEligibilityQuery<br>
+- useActivateScheduledPromotionMutation<br>
+#### remove<br>
+- AdvertisingScreenActivateScheduledPromotionMutation<br>
+- userNftContainer_Query<br>
+### Feature Switch<br>
+#### add<br>
+- voice_rooms_web_space_creation<br>
+#### remove<br>
+- None<br>
