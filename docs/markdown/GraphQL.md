@@ -6606,6 +6606,17 @@ Login Required: `...`<br>
 `None`<br>
 #### queryId<br>
 `None`<br>
+## fetchDownloadSettingAllowedQuery<br>
+Request URL: `https://twitter.com/i/api/graphql/ZUvMlezijpatabA-IJ6Ugg/fetchDownloadSettingAllowedQuery`<br>
+Request Method: `GET`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
 ## urtModuleOperationsInjectEntryQuery<br>
 Request URL: `https://twitter.com/i/api/graphql/null/urtModuleOperationsInjectEntryQuery`<br>
 Request Method: `GET`<br>
@@ -6742,17 +6753,6 @@ Login Required: `...`<br>
 `None`<br>
 #### queryId<br>
 `None`<br>
-## DMMessageDeleteMutation<br>
-Request URL: `https://twitter.com/i/api/graphql/BJ6DtxA2llfjnRoRjaiIiw/DMMessageDeleteMutation`<br>
-Request Method: `POST`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-`None`<br>
-#### queryId<br>
-`None`<br>
 ## useDMReactionMutationAddMutation<br>
 Request URL: `https://twitter.com/i/api/graphql/VyDyV9pC2oZEj6g52hgnhA/useDMReactionMutationAddMutation`<br>
 Request Method: `POST`<br>
@@ -6766,6 +6766,17 @@ Login Required: `...`<br>
 `None`<br>
 ## useDMReactionMutationRemoveMutation<br>
 Request URL: `https://twitter.com/i/api/graphql/bV_Nim3RYHsaJwMkTXJ6ew/useDMReactionMutationRemoveMutation`<br>
+Request Method: `POST`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
+## DMMessageDeleteMutation<br>
+Request URL: `https://twitter.com/i/api/graphql/BJ6DtxA2llfjnRoRjaiIiw/DMMessageDeleteMutation`<br>
 Request Method: `POST`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -6852,28 +6863,6 @@ Login Required: `...`<br>
 ## DMPinnedInboxQuery<br>
 Request URL: `https://twitter.com/i/api/graphql/_gBQBgClVuMQb8efxWkbbQ/DMPinnedInboxQuery`<br>
 Request Method: `GET`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-`None`<br>
-#### queryId<br>
-`None`<br>
-## useDMReactionMutationAddMutation<br>
-Request URL: `https://twitter.com/i/api/graphql/VyDyV9pC2oZEj6g52hgnhA/useDMReactionMutationAddMutation`<br>
-Request Method: `POST`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-`None`<br>
-#### queryId<br>
-`None`<br>
-## useDMReactionMutationRemoveMutation<br>
-Request URL: `https://twitter.com/i/api/graphql/bV_Nim3RYHsaJwMkTXJ6ew/useDMReactionMutationRemoveMutation`<br>
-Request Method: `POST`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
@@ -7250,7 +7239,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## withAllowVideoDownloadDefaultQuery<br>
-Request URL: `https://twitter.com/i/api/graphql/lPWKtmnm-k8AdT8wxWbYEA/withAllowVideoDownloadDefaultQuery`<br>
+Request URL: `https://twitter.com/i/api/graphql/JDeOuPXWR_b1gp1KozHQ0g/withAllowVideoDownloadDefaultQuery`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -7578,7 +7567,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## AudienceAndTaggingQuery<br>
-Request URL: `https://twitter.com/i/api/graphql/HZ9fxYngE10soPCOtDrWcw/AudienceAndTaggingQuery`<br>
+Request URL: `https://twitter.com/i/api/graphql/FWApxg844rupV7YVWzHNug/AudienceAndTaggingQuery`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -8142,7 +8131,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## JobRecommendationsListContainerQuery<br>
-Request URL: `https://twitter.com/i/api/graphql/xZdrBzJfyDiybOdlUQxmRw/JobRecommendationsListContainerQuery`<br>
+Request URL: `https://twitter.com/i/api/graphql/41gBlD8MlRZ421kF8J9jlw/JobRecommendationsListContainerQuery`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -8185,6 +8174,17 @@ Login Required: `...`<br>
 `None`<br>
 #### queryId<br>
 `None`<br>
+## LocationInputQuery<br>
+Request URL: `https://twitter.com/i/api/graphql/Pu5x4--nQzROL6nvZeqhZw/LocationInputQuery`<br>
+Request Method: `GET`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
 ## MatchingCriteriaListItemMutation<br>
 Request URL: `https://twitter.com/i/api/graphql/ZuV_vUlt23XrYsJVA4w7iQ/MatchingCriteriaListItemMutation`<br>
 Request Method: `POST`<br>
@@ -8207,8 +8207,8 @@ Login Required: `...`<br>
 `None`<br>
 #### queryId<br>
 `None`<br>
-## RefreshJobRecommendationsButtonMutation<br>
-Request URL: `https://twitter.com/i/api/graphql/0FFxYo3Q8_PiSsnSvxmGkQ/RefreshJobRecommendationsButtonMutation`<br>
+## useRefreshJobRecommendationsMutation<br>
+Request URL: `https://twitter.com/i/api/graphql/NjDhjn_53KnOmYAcoyxqew/useRefreshJobRecommendationsMutation`<br>
 Request Method: `POST`<br>
 Login Required: `...`<br>
 ### Param<br>
