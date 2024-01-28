@@ -4096,7 +4096,7 @@
   "fd059188": "Det gick inte att synka dina jobb. Försök igen senare.",
   "b82b5c00": "Något gick fel när annonskrediten skulle aktiveras. Försök igen senare.",
   "d74adc30": "Fel annonskonto lades till",
-  "f304cdac": "Det annonskonto-id du angav matchar inte din organisation eller dess anknutna konton.",
+  "e4323c36": "The ads account ID you entered does not match your organization or its affiliates.",
   "b3323ada": "Lägg till ett kreditkort på ditt ads.twitter.com-konto",
   "ac325eb8": "Om du ska kunna aktivera annonskrediten, måste du lägga till ett kreditkort i ditt annonskonto på ads.twitter.com.",
   "j4e6e966": "Annonskontot måste granskas",
