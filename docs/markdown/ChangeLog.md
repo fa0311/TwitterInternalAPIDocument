@@ -2866,3 +2866,15 @@
 - voice_rooms_web_space_creation<br>
 #### remove<br>
 - None<br>
+## 2024/01/29<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- ListsDiscoveryListMixer<br>
+### Feature Switch<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- responsive_web_trends_ui_landing_page<br>
+- rweb_lists_discovery_list_mixer_enabled<br>
