@@ -1681,9 +1681,6 @@
       "responsive_web_trends_setting_new_endpoints": {
         "value": "true"
       },
-      "responsive_web_trends_ui_landing_page": {
-        "value": "false"
-      },
       "responsive_web_trends_ui_top_articles": {
         "value": "false"
       },
@@ -1781,7 +1778,7 @@
         "value": "false"
       },
       "responsive_web_verified_organizations_multiple_ad_coupons_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "responsive_web_verified_organizations_paid_to_invoice_enabled": {
         "value": "false"
@@ -1830,9 +1827,6 @@
       },
       "rweb_home_refetch_on_refocus_min_delay_seconds": {
         "value": "60"
-      },
-      "rweb_lists_discovery_list_mixer_enabled": {
-        "value": "true"
       },
       "rweb_master_detail_enabled": {
         "value": "false"
@@ -4239,9 +4233,6 @@
         "responsive_web_trends_setting_new_endpoints": {
           "value": "true"
         },
-        "responsive_web_trends_ui_landing_page": {
-          "value": "false"
-        },
         "responsive_web_trends_ui_top_articles": {
           "value": "false"
         },
@@ -4388,9 +4379,6 @@
         },
         "rweb_home_refetch_on_refocus_min_delay_seconds": {
           "value": "60"
-        },
-        "rweb_lists_discovery_list_mixer_enabled": {
-          "value": "true"
         },
         "rweb_master_detail_enabled": {
           "value": "false"
@@ -5236,10 +5224,10 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "851b41e536cc4acbddd4599a149d297e"
+      "settingsVersion": "e95c574978e15bf383c3e6c5b2250c22"
     },
     "debug": {},
-    "featureSetToken": "c75ee6866174689b0ab78b3c13a6811050093f39",
+    "featureSetToken": "4a75bc986d0c6888041e4d228e3c677fc654b8ab",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -5309,7 +5297,7 @@
     "country": "US",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "170647620182446582",
+    "guestId": "170656259785144144",
     "hasCommunityMemberships": "false",
     "language": "en",
     "ssoInitTokens": {},

@@ -6938,24 +6938,6 @@ This document is entirely auto-generated and may contain errors.<br>
 |:-----------|:--------|
 | search     | search  |
 
-| constant   | value                                           |
-|:-----------|:------------------------------------------------|
-| REQUEST    | rweb/savedSearches/FETCH_SAVED_SEARCHES_REQUEST |
-| SUCCESS    | rweb/savedSearches/FETCH_SAVED_SEARCHES_SUCCESS |
-| FAILURE    | rweb/savedSearches/FETCH_SAVED_SEARCHES_FAILURE |
-
-| constant   | value                                  |
-|:-----------|:---------------------------------------|
-| REQUEST    | rweb/savedSearches/SAVE_SEARCH_REQUEST |
-| SUCCESS    | rweb/savedSearches/SAVE_SEARCH_SUCCESS |
-| FAILURE    | rweb/savedSearches/SAVE_SEARCH_FAILURE |
-
-| constant   | value                                          |
-|:-----------|:-----------------------------------------------|
-| REQUEST    | rweb/savedSearches/DELETE_SAVED_SEARCH_REQUEST |
-| SUCCESS    | rweb/savedSearches/DELETE_SAVED_SEARCH_SUCCESS |
-| FAILURE    | rweb/savedSearches/DELETE_SAVED_SEARCH_FAILURE |
-
 | constant   | value      |
 |:-----------|:-----------|
 | newColumn  | newColumn  |
