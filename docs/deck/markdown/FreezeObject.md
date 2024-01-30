@@ -6590,6 +6590,12 @@ This document is entirely auto-generated and may contain errors.<br>
 | SUCCESS    | rweb/FETCH_TV_SEARCH/SUCCESS |
 | FAILURE    | rweb/FETCH_TV_SEARCH/FAILURE |
 
+| constant   | value                                   |
+|:-----------|:----------------------------------------|
+| REQUEST    | rweb/FETCH_TV_USER_VIDEO_TWEETS/REQUEST |
+| SUCCESS    | rweb/FETCH_TV_USER_VIDEO_TWEETS/SUCCESS |
+| FAILURE    | rweb/FETCH_TV_USER_VIDEO_TWEETS/FAILURE |
+
 | constant   | value                                  |
 |:-----------|:---------------------------------------|
 | REQUEST    | rweb/FETCH_TV_SEARCH_TYPEAHEAD/REQUEST |
