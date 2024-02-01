@@ -2010,3 +2010,14 @@
 - c9s_community_searchtags_enabled<br>
 #### remove<br>
 - None<br>
+## 2024/02/01<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- responsive_web_composer_autosave_initial_ms<br>
