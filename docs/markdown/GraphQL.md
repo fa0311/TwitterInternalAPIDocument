@@ -8361,7 +8361,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## AdvertisingScreenScheduledPromotionsQuery<br>
-Request URL: `https://twitter.com/i/api/graphql/TV8hcjx03LB5qfbeatkLAQ/AdvertisingScreenScheduledPromotionsQuery`<br>
+Request URL: `https://twitter.com/i/api/graphql/6pWw2pctBhhTDM3awlOc1w/AdvertisingScreenScheduledPromotionsQuery`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
