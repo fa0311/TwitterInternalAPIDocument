@@ -2900,3 +2900,19 @@
 - None<br>
 #### remove<br>
 - responsive_web_composer_autosave_initial_ms<br>
+## 2024/02/02<br>
+### API<br>
+#### add<br>
+- ClearGrokConversations<br>
+- EditTopicMutation<br>
+- EditTopicQuery<br>
+- GrokSettingsScreenQuery<br>
+- XaiDataSharingSettingsMutation<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- communities_topics_enabled<br>
+- responsive_web_grok_opt_out_enabled<br>
+#### remove<br>
+- None<br>
