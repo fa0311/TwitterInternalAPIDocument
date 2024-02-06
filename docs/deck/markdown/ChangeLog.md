@@ -2037,3 +2037,16 @@
 - responsive_web_grok_opt_out_enabled<br>
 #### remove<br>
 - None<br>
+## 2024/02/06<br>
+### API<br>
+#### add<br>
+- LocationSelectorQuery<br>
+#### remove<br>
+- LocationFilterQuery<br>
+- LocationInputQuery<br>
+### Feature Switch<br>
+#### add<br>
+- creator_monetization_settings_revamp<br>
+- creator_monetization_video_ads_onboarding<br>
+#### remove<br>
+- None<br>

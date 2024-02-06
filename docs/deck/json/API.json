@@ -304,8 +304,8 @@
       }
     },
     "BroadcastQuery": {
-      "url": "https://twitter.com/i/api/graphql/8uPrWW4AMR_myflfUW6d9Q/BroadcastQuery",
-      "queryId": "8uPrWW4AMR_myflfUW6d9Q",
+      "url": "https://twitter.com/i/api/graphql/KCdGFHmo8Bi_DbzBtBH1GQ/BroadcastQuery",
+      "queryId": "KCdGFHmo8Bi_DbzBtBH1GQ",
       "method": "GET",
       "features": {
         "creator_subscriptions_tweet_preview_api_enabled": true,
@@ -2574,7 +2574,7 @@
         "responsive_web_graphql_exclude_directive_enabled": true,
         "verified_phone_label_enabled": false,
         "highlights_tweets_tab_ui_enabled": true,
-        "responsive_web_twitter_article_notes_tab_enabled": false,
+        "responsive_web_twitter_article_notes_tab_enabled": true,
         "creator_subscriptions_tweet_preview_api_enabled": true,
         "responsive_web_graphql_skip_user_profile_image_extensions_enabled": false,
         "responsive_web_graphql_timeline_navigation_enabled": true
@@ -2592,7 +2592,7 @@
         "subscriptions_verification_info_is_identity_verified_enabled": true,
         "subscriptions_verification_info_verified_since_enabled": true,
         "highlights_tweets_tab_ui_enabled": true,
-        "responsive_web_twitter_article_notes_tab_enabled": false,
+        "responsive_web_twitter_article_notes_tab_enabled": true,
         "creator_subscriptions_tweet_preview_api_enabled": true,
         "responsive_web_graphql_skip_user_profile_image_extensions_enabled": false,
         "responsive_web_graphql_timeline_navigation_enabled": true
@@ -4900,15 +4900,9 @@
       "method": "GET",
       "features": {}
     },
-    "LocationFilterQuery": {
-      "url": "https://twitter.com/i/api/graphql/oQ9g7Odo85nLuXvxA9YBzg/LocationFilterQuery",
-      "queryId": "oQ9g7Odo85nLuXvxA9YBzg",
-      "method": "GET",
-      "features": {}
-    },
-    "LocationInputQuery": {
-      "url": "https://twitter.com/i/api/graphql/Pu5x4--nQzROL6nvZeqhZw/LocationInputQuery",
-      "queryId": "Pu5x4--nQzROL6nvZeqhZw",
+    "LocationSelectorQuery": {
+      "url": "https://twitter.com/i/api/graphql/hbib0bN-dlHHvUhiy3YVyg/LocationSelectorQuery",
+      "queryId": "hbib0bN-dlHHvUhiy3YVyg",
       "method": "GET",
       "features": {}
     },
