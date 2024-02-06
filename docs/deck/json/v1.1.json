@@ -72,15 +72,6 @@
     ]
   },
   {
-    "queryId": "broadcasts/show",
-    "dispatch_key": "get",
-    "dispatch": [
-      "get",
-      "",
-      "https://api.twitter.com/1.1/{queryId}.json"
-    ]
-  },
-  {
     "queryId": "dm/welcome_messages/add_to_conversation",
     "dispatch_key": "post",
     "dispatch": [
