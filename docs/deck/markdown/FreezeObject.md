@@ -3317,7 +3317,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{[z.Q.host]:{"title":"On.hostTitle","maybePluralFormatter":"Bn","capacity":"1"},[z.Q.cohost]:{"title":"On.cohostTitle","maybePluralFormatter":"Vn","capacity":"2"},[z.Q.speaker]:{"title":"On.speakerTitle","maybePluralFormatter":"Fn","capacity":"10"},[z.Q.listener]:{"title":"On.listenerTitle","maybePl...
+{[j.Q.host]:{"title":"On.hostTitle","maybePluralFormatter":"Bn","capacity":"1"},[j.Q.cohost]:{"title":"On.cohostTitle","maybePluralFormatter":"Vn","capacity":"2"},[j.Q.speaker]:{"title":"On.speakerTitle","maybePluralFormatter":"Fn","capacity":"10"},[j.Q.listener]:{"title":"On.listenerTitle","maybePl...
 ```
 | constant        | value           |
 |:----------------|:----------------|
@@ -4813,9 +4813,9 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant    | value        |
 |:------------|:-------------|
-| joinSpace   | g().h400d7c2 |
-| replaySpace | g().g66c8348 |
-| comingUp    | g().be6ef5b4 |
+| joinSpace   | _().h400d7c2 |
+| replaySpace | _().g66c8348 |
+| comingUp    | _().be6ef5b4 |
 
 | constant           | value               |
 |:-------------------|:--------------------|
@@ -4861,7 +4861,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{[h]:"y",[f]:"_",[v]:"g"}
+{[h]:"y",[f]:"g",[v]:"_"}
 ```
 | constant             | value     |
 |:---------------------|:----------|
@@ -5801,7 +5801,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{[D.ActionedTweets]:{"backLocation":"A","confirmationSheetHeadline":"()(0,o.X_)"{"screenName":"m"}{"screenName":"m"}},[D.PreviewFlaggedTweets]:{"backLocation":"x","confirmationSheetHeadline":"S()"{"screenName":"m"}{"screenName":"m"}}}
+{[D.ActionedTweets]:{"backLocation":"A","confirmationSheetHeadline":"()(0,c.X_)"{"screenName":"m"}{"screenName":"m"}},[D.PreviewFlaggedTweets]:{"backLocation":"x","confirmationSheetHeadline":"S()"{"screenName":"m"}{"screenName":"m"}}}
 ```
 | constant             | value                  |
 |:---------------------|:-----------------------|
@@ -5828,6 +5828,12 @@ This document is entirely auto-generated and may contain errors.<br>
 | all        | all       |
 | following  | following |
 | none       | none      |
+
+| constant      | value              |
+|:--------------|:-------------------|
+| adRev         | ad_revenue_sharing |
+| subscriptions | creator_subs       |
+| preRollAds    | pre_roll_video_ads |
 
 ```internal process
 # Error
