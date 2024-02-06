@@ -3156,7 +3156,7 @@
   {
     "clipId": "clipID"
   },
-  "{[z.Q.host]:{\"title\":\"On.hostTitle\",\"maybePluralFormatter\":\"Bn\",\"capacity\":\"1\"},[z.Q.cohost]:{\"title\":\"On.cohostTitle\",\"maybePluralFormatter\":\"Vn\",\"capacity\":\"2\"},[z.Q.speaker]:{\"title\":\"On.speakerTitle\",\"maybePluralFormatter\":\"Fn\",\"capacity\":\"10\"},[z.Q.listener]:{\"title\":\"On.listenerTitle\",\"maybePluralFormatter\":\"Nn\",\"capacity\":-1}}",
+  "{[j.Q.host]:{\"title\":\"On.hostTitle\",\"maybePluralFormatter\":\"Bn\",\"capacity\":\"1\"},[j.Q.cohost]:{\"title\":\"On.cohostTitle\",\"maybePluralFormatter\":\"Vn\",\"capacity\":\"2\"},[j.Q.speaker]:{\"title\":\"On.speakerTitle\",\"maybePluralFormatter\":\"Fn\",\"capacity\":\"10\"},[j.Q.listener]:{\"title\":\"On.listenerTitle\",\"maybePluralFormatter\":\"Nn\",\"capacity\":-1}}",
   {
     "onlyInvited": "onlyInvited",
     "peopleYouFollow": "peopleYouFollow",
@@ -4538,9 +4538,9 @@
     "Subscribers": "5"
   },
   {
-    "joinSpace": "g().h400d7c2",
-    "replaySpace": "g().g66c8348",
-    "comingUp": "g().be6ef5b4"
+    "joinSpace": "_().h400d7c2",
+    "replaySpace": "_().g66c8348",
+    "comingUp": "_().be6ef5b4"
   },
   {
     "CarouselImpression": "carousel_impression",
@@ -4577,7 +4577,7 @@
     "BLOCKED": "f",
     "BLOCKED_BY": "v"
   },
-  "{[h]:\"y\",[f]:\"_\",[v]:\"g\"}",
+  "{[h]:\"y\",[f]:\"g\",[v]:\"_\"}",
   {
     "BROADCAST_MEDIA_TYPE": "broadcast",
     "VIDEO_MEDIA_TYPE": "video"
@@ -5408,7 +5408,7 @@
     "SUCCESS": "rweb/safetyMode/FETCH_SAFETY_MODE_SETTINGS_SUCCESS",
     "FAILURE": "rweb/safetyMode/FETCH_SAFETY_MODE_SETTINGS_FAILURE"
   },
-  "{[D.ActionedTweets]:{\"backLocation\":\"A\",\"confirmationSheetHeadline\":\"()(0,o.X_)\"{\"screenName\":\"m\"}{\"screenName\":\"m\"}},[D.PreviewFlaggedTweets]:{\"backLocation\":\"x\",\"confirmationSheetHeadline\":\"S()\"{\"screenName\":\"m\"}{\"screenName\":\"m\"}}}",
+  "{[D.ActionedTweets]:{\"backLocation\":\"A\",\"confirmationSheetHeadline\":\"()(0,c.X_)\"{\"screenName\":\"m\"}{\"screenName\":\"m\"}},[D.PreviewFlaggedTweets]:{\"backLocation\":\"x\",\"confirmationSheetHeadline\":\"S()\"{\"screenName\":\"m\"}{\"screenName\":\"m\"}}}",
   {
     "ActionedTweets": "actioned_tweets",
     "PreviewFlaggedTweets": "preview_flagged_tweets"
@@ -5437,6 +5437,11 @@
     "all": "all",
     "following": "following",
     "none": "none"
+  },
+  {
+    "adRev": "ad_revenue_sharing",
+    "subscriptions": "creator_subs",
+    "preRollAds": "pre_roll_video_ads"
   },
   "{\"root\":`${\"i\"}/application`,\"eligibility\":`${\"i\"}/application/eligibility`,\"pricing\":`${\"i\"}/application/pricing`,\"completeProfile\":`${\"i\"}/application/complete_profile`,\"submit\":`${\"i\"}/application/submit`,\"submitted\":`${\"i\"}/application/submitted`,\"waitlisted\":`${\"i\"}/application/waitlisted`,\"rejected\":`${\"i\"}/application/rejected`}",
   "{\"root\":`${\"i\"}/onboarding`,\"perksIntro\":`${\"i\"}/onboarding/perks_intro`,\"perksDescription\":`${\"i\"}/onboarding/perks_description`,\"perksBadges\":`${\"i\"}/onboarding/perks_badges`,\"perksConfirm\":`${\"i\"}/onboarding/perks_confirm`,\"pricing\":`${\"i\"}/onboarding/pricing`,\"pricingConfirm\":`${\"i\"}/onboarding/pricing_confirm`,\"stripeSetup\":`${\"i\"}/onboarding/stripe_setup`,\"stripePending\":`${\"i\"}/onboarding/stripe_pending`,\"stripeCompleted\":`${\"i\"}/onboarding/stripe_completed`}",
