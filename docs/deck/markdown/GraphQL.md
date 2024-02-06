@@ -444,7 +444,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## BroadcastQuery<br>
-Request URL: `https://twitter.com/i/api/graphql/8uPrWW4AMR_myflfUW6d9Q/BroadcastQuery`<br>
+Request URL: `https://twitter.com/i/api/graphql/KCdGFHmo8Bi_DbzBtBH1GQ/BroadcastQuery`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -3608,7 +3608,7 @@ Login Required: `...`<br>
 | responsive_web_graphql_exclude_directive_enabled                  | boolean | True       |
 | verified_phone_label_enabled                                      | boolean | False      |
 | highlights_tweets_tab_ui_enabled                                  | boolean | True       |
-| responsive_web_twitter_article_notes_tab_enabled                  | boolean | False      |
+| responsive_web_twitter_article_notes_tab_enabled                  | boolean | True       |
 | creator_subscriptions_tweet_preview_api_enabled                   | boolean | True       |
 | responsive_web_graphql_skip_user_profile_image_extensions_enabled | boolean | False      |
 | responsive_web_graphql_timeline_navigation_enabled                | boolean | True       |
@@ -3632,7 +3632,7 @@ Login Required: `...`<br>
 | subscriptions_verification_info_is_identity_verified_enabled      | boolean | True       |
 | subscriptions_verification_info_verified_since_enabled            | boolean | True       |
 | highlights_tweets_tab_ui_enabled                                  | boolean | True       |
-| responsive_web_twitter_article_notes_tab_enabled                  | boolean | False      |
+| responsive_web_twitter_article_notes_tab_enabled                  | boolean | True       |
 | creator_subscriptions_tweet_preview_api_enabled                   | boolean | True       |
 | responsive_web_graphql_skip_user_profile_image_extensions_enabled | boolean | False      |
 | responsive_web_graphql_timeline_navigation_enabled                | boolean | True       |
@@ -7656,19 +7656,8 @@ Login Required: `...`<br>
 `None`<br>
 #### queryId<br>
 `None`<br>
-## LocationFilterQuery<br>
-Request URL: `https://twitter.com/i/api/graphql/oQ9g7Odo85nLuXvxA9YBzg/LocationFilterQuery`<br>
-Request Method: `GET`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-`None`<br>
-#### queryId<br>
-`None`<br>
-## LocationInputQuery<br>
-Request URL: `https://twitter.com/i/api/graphql/Pu5x4--nQzROL6nvZeqhZw/LocationInputQuery`<br>
+## LocationSelectorQuery<br>
+Request URL: `https://twitter.com/i/api/graphql/hbib0bN-dlHHvUhiy3YVyg/LocationSelectorQuery`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
