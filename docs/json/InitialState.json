@@ -4269,16 +4269,16 @@
           "value": "false"
         },
         "responsive_web_twitter_article_notes_tab_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "responsive_web_twitter_article_seed_tweet_detail_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "responsive_web_twitter_article_seed_tweet_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "responsive_web_twitter_article_seed_tweet_summary_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "responsive_web_twitter_article_title_limit": {
           "value": "70"
@@ -5226,7 +5226,7 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "24e2b5bcd09b207337fc40f7b00c127a"
+      "settingsVersion": "c6dc58e66399bbbf7a93ea1acfd4030c"
     },
     "debug": {},
     "featureSetToken": "e3e48cf5ae36756915e3c009f8b046ab912c9e86",
@@ -5299,7 +5299,7 @@
     "country": "US",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "170708077585005809",
+    "guestId": "170716721288305655",
     "hasCommunityMemberships": "false",
     "language": "en",
     "ssoInitTokens": {},
