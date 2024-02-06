@@ -1045,7 +1045,7 @@
   {
     "n": "70121",
     "exports": {
-      "queryId": "8uPrWW4AMR_myflfUW6d9Q",
+      "queryId": "KCdGFHmo8Bi_DbzBtBH1GQ",
       "operationName": "BroadcastQuery",
       "operationType": "query",
       "metadata": {
@@ -8563,7 +8563,7 @@
             "value": "true"
           },
           "responsive_web_twitter_article_notes_tab_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "creator_subscriptions_tweet_preview_api_enabled": {
             "value": "true"
@@ -8624,7 +8624,7 @@
             "value": "true"
           },
           "responsive_web_twitter_article_notes_tab_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "creator_subscriptions_tweet_preview_api_enabled": {
             "value": "true"
@@ -16293,22 +16293,10 @@
     }
   },
   {
-    "n": "30658",
+    "n": "50674",
     "exports": {
-      "queryId": "oQ9g7Odo85nLuXvxA9YBzg",
-      "operationName": "LocationFilterQuery",
-      "operationType": "query",
-      "metadata": {
-        "featureSwitches": [],
-        "featureSwitch": {}
-      }
-    }
-  },
-  {
-    "n": "28451",
-    "exports": {
-      "queryId": "Pu5x4--nQzROL6nvZeqhZw",
-      "operationName": "LocationInputQuery",
+      "queryId": "hbib0bN-dlHHvUhiy3YVyg",
+      "operationName": "LocationSelectorQuery",
       "operationType": "query",
       "metadata": {
         "featureSwitches": [],
