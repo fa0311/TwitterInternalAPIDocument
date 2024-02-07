@@ -5438,11 +5438,6 @@
     "following": "following",
     "none": "none"
   },
-  {
-    "adRev": "ad_revenue_sharing",
-    "subscriptions": "creator_subs",
-    "preRollAds": "pre_roll_video_ads"
-  },
   "{\"root\":`${\"i\"}/application`,\"eligibility\":`${\"i\"}/application/eligibility`,\"pricing\":`${\"i\"}/application/pricing`,\"completeProfile\":`${\"i\"}/application/complete_profile`,\"submit\":`${\"i\"}/application/submit`,\"submitted\":`${\"i\"}/application/submitted`,\"waitlisted\":`${\"i\"}/application/waitlisted`,\"rejected\":`${\"i\"}/application/rejected`}",
   "{\"root\":`${\"i\"}/onboarding`,\"perksIntro\":`${\"i\"}/onboarding/perks_intro`,\"perksDescription\":`${\"i\"}/onboarding/perks_description`,\"perksBadges\":`${\"i\"}/onboarding/perks_badges`,\"perksConfirm\":`${\"i\"}/onboarding/perks_confirm`,\"pricing\":`${\"i\"}/onboarding/pricing`,\"pricingConfirm\":`${\"i\"}/onboarding/pricing_confirm`,\"stripeSetup\":`${\"i\"}/onboarding/stripe_setup`,\"stripePending\":`${\"i\"}/onboarding/stripe_pending`,\"stripeCompleted\":`${\"i\"}/onboarding/stripe_completed`}",
   "{\"root\":`${\"i\"}/management`,\"perksIntro\":`${\"i\"}/management/perks_intro`,\"perksDescription\":`${\"i\"}/management/perks_description`,\"perksConfirm\":`${\"i\"}/management/perks_confirm`}",
