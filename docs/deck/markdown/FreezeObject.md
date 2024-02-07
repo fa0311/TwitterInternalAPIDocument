@@ -5829,12 +5829,6 @@ This document is entirely auto-generated and may contain errors.<br>
 | following  | following |
 | none       | none      |
 
-| constant      | value              |
-|:--------------|:-------------------|
-| adRev         | ad_revenue_sharing |
-| subscriptions | creator_subs       |
-| preRollAds    | pre_roll_video_ads |
-
 ```internal process
 # Error
 {"root":`${"i"}/application`,"eligibility":`${"i"}/application/eligibility`,"pricing":`${"i"}/application/pricing`,"completeProfile":`${"i"}/application/complete_profile`,"submit":`${"i"}/application/submit`,"submitted":`${"i"}/application/submitted`,"waitlisted":`${"i"}/application/waitlisted`,"rej...
