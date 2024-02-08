@@ -550,6 +550,12 @@
       "creator_monetization_profile_subscription_tweets_tab_enabled": {
         "value": "true"
       },
+      "creator_monetization_settings_revamp": {
+        "value": "false"
+      },
+      "creator_monetization_video_ads_onboarding": {
+        "value": "false"
+      },
       "creator_monetization_web_tips_dashboard_enabled": {
         "value": "false"
       },
@@ -965,7 +971,7 @@
         "value": "600"
       },
       "media_async_upload_longer_video_max_video_duration": {
-        "value": "10860"
+        "value": "14460"
       },
       "media_async_upload_longer_video_max_video_size": {
         "value": "8388608"
@@ -1416,6 +1422,9 @@
       },
       "responsive_web_graphql_timeline_navigation_enabled": {
         "value": "true"
+      },
+      "responsive_web_grok_delete_conversations_enabled": {
+        "value": "false"
       },
       "responsive_web_grok_opt_out_enabled": {
         "value": "false"
@@ -2596,6 +2605,9 @@
       "voice_rooms_discovery_page_enabled": {
         "value": "false"
       },
+      "voice_rooms_employee_only_enabled": {
+        "value": "false"
+      },
       "voice_rooms_end_screen_participants": {
         "value": "true"
       },
@@ -2616,9 +2628,6 @@
       },
       "voice_rooms_search_results_page_audiospace_ring_enabled": {
         "value": "false"
-      },
-      "voice_rooms_sharing_listening_data_with_followers_setting_enabled": {
-        "value": "true"
       },
       "voice_rooms_speaking_enabled": {
         "value": "true"
@@ -3107,6 +3116,12 @@
         },
         "creator_monetization_profile_subscription_tweets_tab_enabled": {
           "value": "true"
+        },
+        "creator_monetization_settings_revamp": {
+          "value": "false"
+        },
+        "creator_monetization_video_ads_onboarding": {
+          "value": "false"
         },
         "creator_monetization_web_tips_dashboard_enabled": {
           "value": "false"
@@ -3974,6 +3989,9 @@
         },
         "responsive_web_graphql_timeline_navigation_enabled": {
           "value": "true"
+        },
+        "responsive_web_grok_delete_conversations_enabled": {
+          "value": "false"
         },
         "responsive_web_grok_opt_out_enabled": {
           "value": "false"
@@ -5154,6 +5172,9 @@
         "voice_rooms_discovery_page_enabled": {
           "value": "false"
         },
+        "voice_rooms_employee_only_enabled": {
+          "value": "false"
+        },
         "voice_rooms_end_screen_participants": {
           "value": "true"
         },
@@ -5174,9 +5195,6 @@
         },
         "voice_rooms_search_results_page_audiospace_ring_enabled": {
           "value": "false"
-        },
-        "voice_rooms_sharing_listening_data_with_followers_setting_enabled": {
-          "value": "true"
         },
         "voice_rooms_speaking_enabled": {
           "value": "true"
@@ -5236,10 +5254,10 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "d58d59528a31902e59f3b6b7eef3c350"
+      "settingsVersion": "e95c574978e15bf383c3e6c5b2250c22"
     },
     "debug": {},
-    "featureSetToken": "ee347641adc6a953a9ff2c8bb110b31aaa1a0419",
+    "featureSetToken": "3457f78534a0dce9f5fbedf44a8c388647cbcc37",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -5309,7 +5327,7 @@
     "country": "US",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "170734019224856987",
+    "guestId": "170742664850584266",
     "hasCommunityMemberships": "false",
     "language": "en",
     "ssoInitTokens": {},
