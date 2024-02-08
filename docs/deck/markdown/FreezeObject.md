@@ -126,7 +126,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant   | value   |
 |:-----------|:--------|
-| ...t       | _       |
+| ...n       | _       |
 
 | constant   | value   |
 |:-----------|:--------|
@@ -2637,7 +2637,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{"isExternal()"{"try"{const t=o();return this._customIsExternal?this._customIsExternal(e,n){"hrefHostname":"t","href":"e"}}"catch()"{"return!0"}},"setIsExternal()"{"this._customIsExternal=e"},"clearIsExternal()"{"this._customIsExternal=null"},"onLinkClick()"{"this._customOnLinkClick&&this._customOnL...
+{"isExternal()"{"try"{const n=o();return this._customIsExternal?this._customIsExternal(e,t){"hrefHostname":"n","href":"e"}}"catch()"{"return!0"}},"setIsExternal()"{"this._customIsExternal=e"},"clearIsExternal()"{"this._customIsExternal=null"},"onLinkClick()"{"this._customOnLinkClick&&this._customOnL...
 ```
 | constant   | value       |
 |:-----------|:------------|
@@ -3005,14 +3005,14 @@ This document is entirely auto-generated and may contain errors.<br>
 | fontWeights         | b       |
 | lineHeights         | S       |
 | lineHeightsPx       | g       |
-| scales              | n       |
-| scaleMultipler      | t       |
+| scales              | t       |
+| scaleMultipler      | n       |
 | spaces              | A       |
 | spacesPx            | _       |
 
 ```internal process
 # Error
-{"...h()":{"scale":"o","scales":"i"}"an0",g.obt,n,"r"}
+{"...h()":{"scale":"o","scales":"i"}"at0",g.obn,t,"r"}
 ```
 | constant     |   value |
 |:-------------|--------:|
@@ -3317,7 +3317,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{[j.Q.host]:{"title":"On.hostTitle","maybePluralFormatter":"Bn","capacity":"1"},[j.Q.cohost]:{"title":"On.cohostTitle","maybePluralFormatter":"Vn","capacity":"2"},[j.Q.speaker]:{"title":"On.speakerTitle","maybePluralFormatter":"Fn","capacity":"10"},[j.Q.listener]:{"title":"On.listenerTitle","maybePl...
+{[j.Q.host]:{"title":"Bn.hostTitle","maybePluralFormatter":"On","capacity":"1"},[j.Q.cohost]:{"title":"Bn.cohostTitle","maybePluralFormatter":"Vn","capacity":"2"},[j.Q.speaker]:{"title":"Bn.speakerTitle","maybePluralFormatter":"Fn","capacity":"10"},[j.Q.listener]:{"title":"Bn.listenerTitle","maybePl...
 ```
 | constant        | value           |
 |:----------------|:----------------|
@@ -4813,9 +4813,9 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant    | value        |
 |:------------|:-------------|
-| joinSpace   | _().h400d7c2 |
-| replaySpace | _().g66c8348 |
-| comingUp    | _().be6ef5b4 |
+| joinSpace   | g().h400d7c2 |
+| replaySpace | g().g66c8348 |
+| comingUp    | g().be6ef5b4 |
 
 | constant           | value               |
 |:-------------------|:--------------------|
@@ -4861,7 +4861,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{[h]:"y",[f]:"g",[v]:"_"}
+{[h]:"y",[f]:"_",[v]:"g"}
 ```
 | constant             | value     |
 |:---------------------|:----------|
@@ -5828,6 +5828,12 @@ This document is entirely auto-generated and may contain errors.<br>
 | all        | all       |
 | following  | following |
 | none       | none      |
+
+| constant      | value              |
+|:--------------|:-------------------|
+| adRev         | ad_revenue_sharing |
+| subscriptions | creator_subs       |
+| preRollAds    | pre_roll_video_ads |
 
 ```internal process
 # Error
