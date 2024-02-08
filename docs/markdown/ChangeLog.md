@@ -2916,3 +2916,17 @@
 - responsive_web_grok_opt_out_enabled<br>
 #### remove<br>
 - None<br>
+## 2024/02/08<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- creator_monetization_settings_revamp<br>
+- creator_monetization_video_ads_onboarding<br>
+- responsive_web_grok_delete_conversations_enabled<br>
+- voice_rooms_employee_only_enabled<br>
+#### remove<br>
+- voice_rooms_sharing_listening_data_with_followers_setting_enabled<br>
