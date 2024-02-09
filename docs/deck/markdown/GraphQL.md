@@ -152,11 +152,7 @@ Request Method: `POST`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key            | type   | variable   |
-|:---------------|:-------|:-----------|
-| audio_space_id | ...    | n          |
-| sharing_id     | ...    | t          |
-
+`None`<br>
 #### features<br>
 `None`<br>
 #### queryId<br>
@@ -444,7 +440,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## BroadcastQuery<br>
-Request URL: `https://twitter.com/i/api/graphql/KCdGFHmo8Bi_DbzBtBH1GQ/BroadcastQuery`<br>
+Request URL: `https://twitter.com/i/api/graphql/8uPrWW4AMR_myflfUW6d9Q/BroadcastQuery`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -670,15 +666,7 @@ Request Method: `POST`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key           | type   | variable   |
-|:--------------|:-------|:-----------|
-| name          | ...    | u          |
-| description   | ...    | o          |
-| joinPolicy    | ...    | s          |
-| invitesPolicy | ...    | l          |
-| question      | ...    | c          |
-| ...()(0,a.S)  | ...    | _          |
-
+`None`<br>
 #### features<br>
 | key                                                               | type    | variable   |
 |:------------------------------------------------------------------|:--------|:-----------|
@@ -1100,10 +1088,7 @@ Request Method: `POST`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key     | type   | variable   |
-|:--------|:-------|:-----------|
-| tweetId | ...    | t          |
-
+`None`<br>
 #### features<br>
 | key                                                               | type    | variable   |
 |:------------------------------------------------------------------|:--------|:-----------|
@@ -1312,12 +1297,7 @@ Request Method: `POST`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key          | type   | variable   |
-|:-------------|:-------|:-----------|
-| count        | ...    | 10         |
-| ...a         | ...    | _          |
-| ...()(0,o.S) | ...    | _          |
-
+`None`<br>
 #### features<br>
 `None`<br>
 #### queryId<br>
@@ -1516,10 +1496,7 @@ Request Method: `POST`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key             | type   | variable   |
-|:----------------|:-------|:-----------|
-| articleEntityId | ...    | i          |
-
+`None`<br>
 #### features<br>
 `None`<br>
 #### queryId<br>
@@ -2500,10 +2477,7 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-```internal process
-# Error
-{"rawQuery":i||"","count":"t","cursor":"d","querySource":"r","...()(0,o.d)":"_"}
-```
+`None`<br>
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
@@ -2712,14 +2686,7 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key                    | type    | variable   |
-|:-----------------------|:--------|:-----------|
-| rootTweetId            | ...     | r          |
-| count                  | ...     | t          |
-| cursor                 | ...     | d          |
-| includePromotedContent | boolean | False      |
-| ...()(0,i.d)           | ...     | _          |
-
+`None`<br>
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
@@ -3033,10 +3000,7 @@ Request Method: `POST`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key     | type   | variable   |
-|:--------|:-------|:-----------|
-| topicId | ...    | d          |
-
+`None`<br>
 #### features<br>
 `None`<br>
 #### queryId<br>
@@ -3523,15 +3487,7 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key                    | type    | variable    |
-|:-----------------------|:--------|:------------|
-| userId                 | ...     | a           |
-| count                  | ...     | t           |
-| cursor                 | ...     | d           |
-| includePromotedContent | boolean | True        |
-| ...()(0,r.d)           | ...     | _           |
-| withVoice              | ...     | n.isTrue(n) |
-
+`None`<br>
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
@@ -3724,15 +3680,7 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key                    | type    | variable    |
-|:-----------------------|:--------|:------------|
-| userId                 | ...     | a           |
-| count                  | ...     | t           |
-| cursor                 | ...     | d           |
-| includePromotedContent | boolean | True        |
-| ...()(0,r.d)           | ...     | _           |
-| withVoice              | ...     | n.isTrue(n) |
-
+`None`<br>
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
@@ -3766,18 +3714,7 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key                    | type    | variable                              |
-|:-----------------------|:--------|:--------------------------------------|
-| userId                 | ...     | a                                     |
-| count                  | ...     | t                                     |
-| cursor                 | ...     | d                                     |
-| includePromotedContent | boolean | False                                 |
-| ...()(0,r.d)           | ...     | _                                     |
-| withClientEventToken   | boolean | False                                 |
-| withBirdwatchNotes     | boolean | False                                 |
-| withVoice              | ...     | n.isTrue(n)                           |
-| withV2Timeline         | ...     | n.isTrue("voice_consumption_enabled") |
-
+`None`<br>
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
