@@ -4075,10 +4075,10 @@
           "value": "true"
         },
         "responsive_web_media_download_video_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "responsive_web_media_sensitive_allow_download_video": {
-          "value": "false"
+          "value": "true"
         },
         "responsive_web_media_upload_limit_2g": {
           "value": "250"
@@ -5254,7 +5254,7 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "e95c574978e15bf383c3e6c5b2250c22"
+      "settingsVersion": "3b91b47e970c78d4785fc2b13f7473f6"
     },
     "debug": {},
     "featureSetToken": "3457f78534a0dce9f5fbedf44a8c388647cbcc37",
@@ -5327,7 +5327,7 @@
     "country": "US",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "170742664850584266",
+    "guestId": "170751311280313422",
     "hasCommunityMemberships": "false",
     "language": "en",
     "ssoInitTokens": {},

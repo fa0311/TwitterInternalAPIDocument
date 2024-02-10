@@ -4653,6 +4653,24 @@
       "method": "GET",
       "features": {}
     },
+    "PreRollAdsApplicationMutation": {
+      "url": "https://twitter.com/i/api/graphql/0TRuqqBXQ2GdsV-GkzvPfQ/PreRollAdsApplicationMutation",
+      "queryId": "0TRuqqBXQ2GdsV-GkzvPfQ",
+      "method": "POST",
+      "features": {}
+    },
+    "PreRollAdsApplicationQuery": {
+      "url": "https://twitter.com/i/api/graphql/yJCJWXH2QjnFYtUrwFrq3w/PreRollAdsApplicationQuery",
+      "queryId": "yJCJWXH2QjnFYtUrwFrq3w",
+      "method": "GET",
+      "features": {}
+    },
+    "PreRollAdsEligibilityScreenQuery": {
+      "url": "https://twitter.com/i/api/graphql/7pFQCE1DgV61s1gfRdV8fg/PreRollAdsEligibilityScreenQuery",
+      "queryId": "7pFQCE1DgV61s1gfRdV8fg",
+      "method": "GET",
+      "features": {}
+    },
     "SuperFollowsApplicationSubmitScreenMutation": {
       "url": "https://twitter.com/i/api/graphql/0cMDdco5hsmp1NHhuOtJtg/SuperFollowsApplicationSubmitScreenMutation",
       "queryId": "0cMDdco5hsmp1NHhuOtJtg",

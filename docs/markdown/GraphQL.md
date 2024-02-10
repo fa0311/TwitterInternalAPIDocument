@@ -7984,6 +7984,39 @@ Login Required: `...`<br>
 `None`<br>
 #### queryId<br>
 `None`<br>
+## PreRollAdsApplicationMutation<br>
+Request URL: `https://twitter.com/i/api/graphql/0TRuqqBXQ2GdsV-GkzvPfQ/PreRollAdsApplicationMutation`<br>
+Request Method: `POST`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
+## PreRollAdsApplicationQuery<br>
+Request URL: `https://twitter.com/i/api/graphql/yJCJWXH2QjnFYtUrwFrq3w/PreRollAdsApplicationQuery`<br>
+Request Method: `GET`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
+## PreRollAdsEligibilityScreenQuery<br>
+Request URL: `https://twitter.com/i/api/graphql/7pFQCE1DgV61s1gfRdV8fg/PreRollAdsEligibilityScreenQuery`<br>
+Request Method: `GET`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
 ## SuperFollowsApplicationSubmitScreenMutation<br>
 Request URL: `https://twitter.com/i/api/graphql/0cMDdco5hsmp1NHhuOtJtg/SuperFollowsApplicationSubmitScreenMutation`<br>
 Request Method: `POST`<br>
