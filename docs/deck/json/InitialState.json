@@ -3246,6 +3246,9 @@
         "enable_label_appealing_sensitive_content_enabled": {
           "value": "false"
         },
+        "explore_graphql_enabled": {
+          "value": "false"
+        },
         "explore_relaunch_enable_auto_play": {
           "value": "false"
         },
@@ -5254,7 +5257,7 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "3b91b47e970c78d4785fc2b13f7473f6"
+      "settingsVersion": "f085c341a7d2b372a8e62b12b0790b07"
     },
     "debug": {},
     "featureSetToken": "3457f78534a0dce9f5fbedf44a8c388647cbcc37",
@@ -5327,7 +5330,7 @@
     "country": "US",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "170751311280313422",
+    "guestId": "170759946763125788",
     "hasCommunityMemberships": "false",
     "language": "en",
     "ssoInitTokens": {},
