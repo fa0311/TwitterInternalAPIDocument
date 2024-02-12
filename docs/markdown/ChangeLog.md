@@ -2930,3 +2930,14 @@
 - voice_rooms_employee_only_enabled<br>
 #### remove<br>
 - voice_rooms_sharing_listening_data_with_followers_setting_enabled<br>
+## 2024/02/12<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- communities_topic_display<br>
+#### remove<br>
+- None<br>
