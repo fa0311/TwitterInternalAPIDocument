@@ -15962,6 +15962,42 @@
     }
   },
   {
+    "n": "17986",
+    "exports": {
+      "queryId": "0TRuqqBXQ2GdsV-GkzvPfQ",
+      "operationName": "PreRollAdsApplicationMutation",
+      "operationType": "mutation",
+      "metadata": {
+        "featureSwitches": [],
+        "featureSwitch": {}
+      }
+    }
+  },
+  {
+    "n": "56083",
+    "exports": {
+      "queryId": "yJCJWXH2QjnFYtUrwFrq3w",
+      "operationName": "PreRollAdsApplicationQuery",
+      "operationType": "query",
+      "metadata": {
+        "featureSwitches": [],
+        "featureSwitch": {}
+      }
+    }
+  },
+  {
+    "n": "81905",
+    "exports": {
+      "queryId": "7pFQCE1DgV61s1gfRdV8fg",
+      "operationName": "PreRollAdsEligibilityScreenQuery",
+      "operationType": "query",
+      "metadata": {
+        "featureSwitches": [],
+        "featureSwitch": {}
+      }
+    }
+  },
+  {
     "n": "14075",
     "exports": {
       "queryId": "0cMDdco5hsmp1NHhuOtJtg",
