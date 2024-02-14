@@ -2964,3 +2964,14 @@
 - responsive_web_media_sensitive_allow_download_video<br>
 - voice_rooms_expanded_dock<br>
 - voice_rooms_expanded_dock_reactions<br>
+## 2024/02/14<br>
+### API<br>
+#### add<br>
+- JobFormFormDataQuery<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- recruiting_admin_currencies_enabled<br>
+#### remove<br>
+- None<br>
