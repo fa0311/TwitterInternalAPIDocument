@@ -4731,16 +4731,16 @@
           "value": "true"
         },
         "subscriptions_inapp_grok_upsell_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "subscriptions_inapp_grok_video_upsell": {
-          "value": ""
+          "value": "https://abs.twimg.com/sticky/videos/inapp_dark_square_v4.mp4"
         },
         "subscriptions_inapp_grok_video_upsell_dim": {
-          "value": ""
+          "value": "https://abs.twimg.com/sticky/videos/inapp_dim_square_v4.mp4"
         },
         "subscriptions_inapp_grok_video_upsell_light": {
-          "value": ""
+          "value": "https://abs.twimg.com/sticky/videos/inapp_light_square_v4.mp4"
         },
         "subscriptions_long_video_rweb_new_copy_enabled": {
           "value": "true"
@@ -5263,7 +5263,7 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "f085c341a7d2b372a8e62b12b0790b07"
+      "settingsVersion": "dad259a685e3558c43035dd4cbfab858"
     },
     "debug": {},
     "featureSetToken": "204bd7a18b4990ddaaf8c5dbdcc11ef663b8e974",
@@ -5336,7 +5336,7 @@
     "country": "US",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "170777218706670835",
+    "guestId": "170785864991025714",
     "hasCommunityMemberships": "false",
     "language": "en",
     "ssoInitTokens": {},
