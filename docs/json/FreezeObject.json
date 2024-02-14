@@ -4258,7 +4258,7 @@
     "Topic": "Topic",
     "Trending": "Trending"
   },
-  "{[z.v.FOLLOWS]:\"K\",[z.v.FRIENDS_OF_FRIENDS]:\"X\"}",
+  "{[z.v.FOLLOWS]:\"K\",[z.v.FRIENDS_OF_FRIENDS]:\"U\"}",
   {
     "START": "start",
     "END": "end"
@@ -4581,23 +4581,6 @@
     "Subscribers": "5"
   },
   {
-    "joinSpace": "y().h400d7c2",
-    "replaySpace": "y().g66c8348",
-    "comingUp": "y().be6ef5b4"
-  },
-  {
-    "CarouselImpression": "carousel_impression",
-    "TileClick": "tile_click",
-    "TileImpression": "tile_impression",
-    "TileAutoClick": "tile_auto_click"
-  },
-  {
-    "dockedOnScroll": "dock_on_scroll",
-    "undockOnScroll": "undock_on_scroll",
-    "dismissTap": "dismiss_tap",
-    "undockTap": "undock_tap"
-  },
-  {
     "LIVE_BROADCAST": "liveBroadcast",
     "REPLAY_BROADCAST": "replayBroadcast",
     "AUDIOSPACE": "audiospace",
@@ -4634,6 +4617,23 @@
   {
     "impression": "impression",
     "click": "click"
+  },
+  {
+    "dockedOnScroll": "dock_on_scroll",
+    "undockOnScroll": "undock_on_scroll",
+    "dismissTap": "dismiss_tap",
+    "undockTap": "undock_tap"
+  },
+  {
+    "joinSpace": "l().h400d7c2",
+    "replaySpace": "l().g66c8348",
+    "comingUp": "l().be6ef5b4"
+  },
+  {
+    "CarouselImpression": "carousel_impression",
+    "TileClick": "tile_click",
+    "TileImpression": "tile_impression",
+    "TileAutoClick": "tile_auto_click"
   },
   {
     "REQUEST": "rweb/liveEventInterstitials/FETCH_SEEN_EVENT_IDS_REQUEST",
@@ -6104,6 +6104,7 @@
     "switchFromDirect": "switchFromDirect"
   },
   {
+    "Advertising": "Advertising",
     "BlueVerified": "BlueVerified",
     "BlueVerifiedPlus": "BlueVerifiedPlus",
     "Chirps": "Chirps",
@@ -6369,6 +6370,10 @@
     "REQUEST": "rweb/FETCH_TV_SEARCH_TYPEAHEAD/REQUEST",
     "SUCCESS": "rweb/FETCH_TV_SEARCH_TYPEAHEAD/SUCCESS",
     "FAILURE": "rweb/FETCH_TV_SEARCH_TYPEAHEAD/FAILURE"
+  },
+  {
+    "Speed": "Speed",
+    "Quality": "Quality"
   },
   {
     "FakeAccount": "fake_account",
