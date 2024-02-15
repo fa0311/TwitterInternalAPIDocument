@@ -2089,3 +2089,26 @@
 - communities_topic_display<br>
 #### remove<br>
 - None<br>
+## 2024/02/14<br>
+### API<br>
+#### add<br>
+- JobDetailSentimentActionsQuery<br>
+- JobRecommendationSettingsContainerQuery<br>
+- JobRecommendationsContainerQuery<br>
+- RecommendationSettingsContinueButtonMutation<br>
+- SentimentActionButtonMutation<br>
+- PremiumHubQuery<br>
+#### remove<br>
+- CreateMatchingProfileButtonMutation<br>
+- JobRecommendationListItemMutation<br>
+- JobRecommendationsListContainerQuery<br>
+- JobRecommendationsOnboardingContentQuery<br>
+### Feature Switch<br>
+#### add<br>
+- explore_graphql_enabled<br>
+- subscriptions_premium_hub_enabled<br>
+#### remove<br>
+- responsive_web_media_download_video_enabled<br>
+- responsive_web_media_sensitive_allow_download_video<br>
+- voice_rooms_expanded_dock<br>
+- voice_rooms_expanded_dock_reactions<br>
