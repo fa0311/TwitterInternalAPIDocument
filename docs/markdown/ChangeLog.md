@@ -2975,3 +2975,16 @@
 - recruiting_admin_currencies_enabled<br>
 #### remove<br>
 - None<br>
+## 2024/02/16<br>
+### API<br>
+#### add<br>
+- SetGrokPreferences<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- responsive_web_grok_share_rendering_enabled<br>
+- rweb_meetings_enabled<br>
+- xprofile_work_history_enabled<br>
+#### remove<br>
+- None<br>
