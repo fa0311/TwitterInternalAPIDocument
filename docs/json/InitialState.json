@@ -525,6 +525,9 @@
       "communities_show_broadcast_option_in_composer": {
         "value": "true"
       },
+      "communities_topic_carousel_enabled": {
+        "value": "false"
+      },
       "communities_topic_display": {
         "value": "false"
       },
@@ -3101,6 +3104,9 @@
         "communities_show_broadcast_option_in_composer": {
           "value": "true"
         },
+        "communities_topic_carousel_enabled": {
+          "value": "false"
+        },
         "communities_topic_display": {
           "value": "false"
         },
@@ -5265,7 +5271,7 @@
       "settingsVersion": "1e18c3db567d4b5f8b8c88a33886cedc"
     },
     "debug": {},
-    "featureSetToken": "f0ab837d7e82528ad5e062232a7f149e59be8cca",
+    "featureSetToken": "930d6fff5ba7d88dd3054d664dd67188312ee265",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -5335,7 +5341,7 @@
     "country": "US",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "170829037135773511",
+    "guestId": "170837686081879153",
     "hasCommunityMemberships": "false",
     "language": "en",
     "ssoInitTokens": {},
