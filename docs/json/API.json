@@ -4087,6 +4087,18 @@
       "method": "GET",
       "features": {}
     },
+    "TopicCarouselQuery": {
+      "url": "https://twitter.com/i/api/graphql/byVjaS0CUtBqAao_lhZFgA/TopicCarouselQuery",
+      "queryId": "byVjaS0CUtBqAao_lhZFgA",
+      "method": "GET",
+      "features": {}
+    },
+    "TopicTimelineQuery": {
+      "url": "https://twitter.com/i/api/graphql/Wh3_ekBg7hfqiPD7XboAmA/TopicTimelineQuery",
+      "queryId": "Wh3_ekBg7hfqiPD7XboAmA",
+      "method": "GET",
+      "features": {}
+    },
     "actions_approveMemberRequest_Mutation": {
       "url": "https://twitter.com/i/api/graphql/_PBREIG4eiYswckqDN9J6g/actions_approveMemberRequest_Mutation",
       "queryId": "_PBREIG4eiYswckqDN9J6g",
@@ -4748,8 +4760,8 @@
       "features": {}
     },
     "PremiumHubQuery": {
-      "url": "https://twitter.com/i/api/graphql/TCmXpmFSS-Iue3mEquFPrQ/PremiumHubQuery",
-      "queryId": "TCmXpmFSS-Iue3mEquFPrQ",
+      "url": "https://twitter.com/i/api/graphql/QKr3_azsOyFqYW-_bhCmgQ/PremiumHubQuery",
+      "queryId": "QKr3_azsOyFqYW-_bhCmgQ",
       "method": "GET",
       "features": {}
     },
