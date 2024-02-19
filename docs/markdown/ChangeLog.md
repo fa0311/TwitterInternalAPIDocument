@@ -2988,3 +2988,15 @@
 - xprofile_work_history_enabled<br>
 #### remove<br>
 - None<br>
+## 2024/02/19<br>
+### API<br>
+#### add<br>
+- TopicCarouselQuery<br>
+- TopicTimelineQuery<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- communities_topic_carousel_enabled<br>
+#### remove<br>
+- None<br>
