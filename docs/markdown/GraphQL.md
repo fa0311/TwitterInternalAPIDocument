@@ -7013,6 +7013,28 @@ Login Required: `...`<br>
 `None`<br>
 #### queryId<br>
 `None`<br>
+## TopicCarouselQuery<br>
+Request URL: `https://twitter.com/i/api/graphql/byVjaS0CUtBqAao_lhZFgA/TopicCarouselQuery`<br>
+Request Method: `GET`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
+## TopicTimelineQuery<br>
+Request URL: `https://twitter.com/i/api/graphql/Wh3_ekBg7hfqiPD7XboAmA/TopicTimelineQuery`<br>
+Request Method: `GET`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
 ## actions_approveMemberRequest_Mutation<br>
 Request URL: `https://twitter.com/i/api/graphql/_PBREIG4eiYswckqDN9J6g/actions_approveMemberRequest_Mutation`<br>
 Request Method: `POST`<br>
@@ -8214,7 +8236,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## PremiumHubQuery<br>
-Request URL: `https://twitter.com/i/api/graphql/TCmXpmFSS-Iue3mEquFPrQ/PremiumHubQuery`<br>
+Request URL: `https://twitter.com/i/api/graphql/QKr3_azsOyFqYW-_bhCmgQ/PremiumHubQuery`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
