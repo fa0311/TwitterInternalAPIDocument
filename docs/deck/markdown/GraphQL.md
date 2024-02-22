@@ -431,36 +431,35 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## BroadcastQuery<br>
-Request URL: `https://twitter.com/i/api/graphql/5wJfDtA_o-cXGeOCEqLPQw/BroadcastQuery`<br>
+Request URL: `https://twitter.com/i/api/graphql/nB_-dSXmgVrGz0ffgN3SeA/BroadcastQuery`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
 `None`<br>
 #### features<br>
-| key                                                                     | type    | default   |   variable |
-|:------------------------------------------------------------------------|:--------|:----------|-----------:|
-| rweb_view_count_graph_enabled                                           | ...     | error     |        nan |
-| creator_subscriptions_tweet_preview_api_enabled                         | boolean | nan       |          1 |
-| c9s_tweet_anatomy_moderator_badge_enabled                               | boolean | nan       |          1 |
-| responsive_web_graphql_exclude_directive_enabled                        | boolean | nan       |          1 |
-| verified_phone_label_enabled                                            | boolean | nan       |          0 |
-| tweetypie_unmention_optimization_enabled                                | boolean | nan       |          1 |
-| responsive_web_edit_tweet_api_enabled                                   | boolean | nan       |          1 |
-| graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | nan       |          1 |
-| view_counts_everywhere_api_enabled                                      | boolean | nan       |          1 |
-| longform_notetweets_consumption_enabled                                 | boolean | nan       |          1 |
-| responsive_web_twitter_article_tweet_consumption_enabled                | boolean | nan       |          1 |
-| tweet_awards_web_tipping_enabled                                        | boolean | nan       |          0 |
-| freedom_of_speech_not_reach_fetch_enabled                               | boolean | nan       |          1 |
-| standardized_nudges_misinfo                                             | boolean | nan       |          1 |
-| tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | nan       |          1 |
-| rweb_video_timestamps_enabled                                           | boolean | nan       |          1 |
-| responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean | nan       |          0 |
-| longform_notetweets_rich_text_read_enabled                              | boolean | nan       |          1 |
-| longform_notetweets_inline_media_enabled                                | boolean | nan       |          1 |
-| responsive_web_graphql_timeline_navigation_enabled                      | boolean | nan       |          1 |
-| responsive_web_enhance_cards_enabled                                    | boolean | nan       |          0 |
+| key                                                                     | type    | variable   |
+|:------------------------------------------------------------------------|:--------|:-----------|
+| creator_subscriptions_tweet_preview_api_enabled                         | boolean | True       |
+| c9s_tweet_anatomy_moderator_badge_enabled                               | boolean | True       |
+| responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
+| verified_phone_label_enabled                                            | boolean | False      |
+| tweetypie_unmention_optimization_enabled                                | boolean | True       |
+| responsive_web_edit_tweet_api_enabled                                   | boolean | True       |
+| graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | True       |
+| view_counts_everywhere_api_enabled                                      | boolean | True       |
+| longform_notetweets_consumption_enabled                                 | boolean | True       |
+| responsive_web_twitter_article_tweet_consumption_enabled                | boolean | True       |
+| tweet_awards_web_tipping_enabled                                        | boolean | False      |
+| freedom_of_speech_not_reach_fetch_enabled                               | boolean | True       |
+| standardized_nudges_misinfo                                             | boolean | True       |
+| tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | True       |
+| rweb_video_timestamps_enabled                                           | boolean | True       |
+| responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean | False      |
+| longform_notetweets_rich_text_read_enabled                              | boolean | True       |
+| longform_notetweets_inline_media_enabled                                | boolean | True       |
+| responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
+| responsive_web_enhance_cards_enabled                                    | boolean | False      |
 
 #### queryId<br>
 `None`<br>
@@ -6191,6 +6190,17 @@ Login Required: `...`<br>
 `None`<br>
 ## AccountAnalyticsQuery<br>
 Request URL: `https://twitter.com/i/api/graphql/SNB2czvgQ4DY-zI7FQ3VkQ/AccountAnalyticsQuery`<br>
+Request Method: `GET`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
+## ArticleRedirectScreenQuery<br>
+Request URL: `https://twitter.com/i/api/graphql/X6ZxrOo0zyipREm6CNVKjg/ArticleRedirectScreenQuery`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
