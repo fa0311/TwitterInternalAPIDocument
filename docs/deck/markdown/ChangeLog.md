@@ -2112,3 +2112,23 @@
 - responsive_web_media_sensitive_allow_download_video<br>
 - voice_rooms_expanded_dock<br>
 - voice_rooms_expanded_dock_reactions<br>
+## 2024/02/21<br>
+### API<br>
+#### add<br>
+- SetGrokPreferences<br>
+- TVUserProfile<br>
+- TopicCarouselQuery<br>
+- TopicTimelineQuery<br>
+- JobFormFormDataQuery<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- communities_topic_carousel_enabled<br>
+- recruiting_admin_currencies_enabled<br>
+- responsive_web_grok_share_rendering_enabled<br>
+- responsive_web_messages_enabled<br>
+- rweb_meetings_enabled<br>
+- xprofile_work_history_enabled<br>
+#### remove<br>
+- None<br>
