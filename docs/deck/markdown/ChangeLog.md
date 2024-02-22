@@ -2132,3 +2132,14 @@
 - xprofile_work_history_enabled<br>
 #### remove<br>
 - None<br>
+## 2024/02/22<br>
+### API<br>
+#### add<br>
+- ArticleRedirectScreenQuery<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- responsive_web_twitter_article_redirect_enabled<br>
+#### remove<br>
+- None<br>
