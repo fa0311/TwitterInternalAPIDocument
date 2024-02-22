@@ -1000,12 +1000,11 @@
   {
     "n": "70121",
     "exports": {
-      "queryId": "5wJfDtA_o-cXGeOCEqLPQw",
+      "queryId": "nB_-dSXmgVrGz0ffgN3SeA",
       "operationName": "BroadcastQuery",
       "operationType": "query",
       "metadata": {
         "featureSwitches": [
-          "rweb_view_count_graph_enabled",
           "creator_subscriptions_tweet_preview_api_enabled",
           "c9s_tweet_anatomy_moderator_badge_enabled",
           "responsive_web_graphql_exclude_directive_enabled",
@@ -14297,6 +14296,18 @@
     "exports": {
       "queryId": "SNB2czvgQ4DY-zI7FQ3VkQ",
       "operationName": "AccountAnalyticsQuery",
+      "operationType": "query",
+      "metadata": {
+        "featureSwitches": [],
+        "featureSwitch": {}
+      }
+    }
+  },
+  {
+    "n": "96642",
+    "exports": {
+      "queryId": "X6ZxrOo0zyipREm6CNVKjg",
+      "operationName": "ArticleRedirectScreenQuery",
       "operationType": "query",
       "metadata": {
         "featureSwitches": [],
