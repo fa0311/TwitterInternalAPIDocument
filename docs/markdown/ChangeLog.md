@@ -3000,3 +3000,16 @@
 - communities_topic_carousel_enabled<br>
 #### remove<br>
 - None<br>
+## 2024/02/22<br>
+### API<br>
+#### add<br>
+- TVUserProfile<br>
+- ArticleRedirectScreenQuery<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- responsive_web_messages_enabled<br>
+- responsive_web_twitter_article_redirect_enabled<br>
+#### remove<br>
+- None<br>

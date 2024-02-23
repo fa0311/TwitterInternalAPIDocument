@@ -1744,6 +1744,9 @@
       "responsive_web_twitter_article_notes_tab_enabled": {
         "value": "true"
       },
+      "responsive_web_twitter_article_redirect_enabled": {
+        "value": "true"
+      },
       "responsive_web_twitter_article_seed_tweet_detail_enabled": {
         "value": "true"
       },
@@ -3139,7 +3142,7 @@
           "value": "true"
         },
         "creator_monetization_settings_revamp": {
-          "value": "false"
+          "value": "true"
         },
         "creator_monetization_video_ads_onboarding": {
           "value": "false"
@@ -4326,6 +4329,9 @@
         "responsive_web_twitter_article_notes_tab_enabled": {
           "value": "true"
         },
+        "responsive_web_twitter_article_redirect_enabled": {
+          "value": "true"
+        },
         "responsive_web_twitter_article_seed_tweet_detail_enabled": {
           "value": "true"
         },
@@ -4438,6 +4444,9 @@
           "value": "60"
         },
         "rweb_master_detail_enabled": {
+          "value": "false"
+        },
+        "rweb_media_carousel_enabled": {
           "value": "false"
         },
         "rweb_meetings_enabled": {
@@ -4734,7 +4743,7 @@
           "value": "true"
         },
         "subscriptions_feature_premium_jobs": {
-          "value": "true"
+          "value": "false"
         },
         "subscriptions_inapp_grok": {
           "value": "true"
@@ -5284,10 +5293,10 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "2a2fd794d3171161d1008d42c4a29ca4"
+      "settingsVersion": "58327760a17c6ec3d6d608c41f7e8857"
     },
     "debug": {},
-    "featureSetToken": "67a8a21d6fb8037ab43daad4102b87a4e653858c",
+    "featureSetToken": "1d96c14ef3e809d403902a9349fcd57fcb226f29",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -5357,7 +5366,7 @@
     "country": "US",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "170854984139697391",
+    "guestId": "170863628371929790",
     "hasCommunityMemberships": "false",
     "language": "en",
     "ssoInitTokens": {},

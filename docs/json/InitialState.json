@@ -1438,7 +1438,7 @@
         "value": "false"
       },
       "responsive_web_grok_share_rendering_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "responsive_web_grok_trends_design_enabled": {
         "value": "false"
@@ -1531,6 +1531,9 @@
         "value": "6"
       },
       "responsive_web_menu_section_divider_enabled": {
+        "value": "false"
+      },
+      "responsive_web_messages_enabled": {
         "value": "false"
       },
       "responsive_web_mobile_app_spotlight_v1_config": {
@@ -1731,6 +1734,9 @@
       "responsive_web_twitter_article_notes_tab_enabled": {
         "value": "true"
       },
+      "responsive_web_twitter_article_redirect_enabled": {
+        "value": "true"
+      },
       "responsive_web_twitter_article_seed_tweet_detail_enabled": {
         "value": "true"
       },
@@ -1747,7 +1753,7 @@
         "value": "true"
       },
       "responsive_web_twitter_article_view_enabled": {
-        "value": "true"
+        "value": "false"
       },
       "responsive_web_twitter_blue_subscriptions_disabled": {
         "value": "false"
@@ -3126,7 +3132,7 @@
           "value": "true"
         },
         "creator_monetization_settings_revamp": {
-          "value": "false"
+          "value": "true"
         },
         "creator_monetization_video_ads_onboarding": {
           "value": "false"
@@ -4112,6 +4118,9 @@
         "responsive_web_menu_section_divider_enabled": {
           "value": "false"
         },
+        "responsive_web_messages_enabled": {
+          "value": "false"
+        },
         "responsive_web_mobile_app_spotlight_v1_config": {
           "value": "false"
         },
@@ -4310,6 +4319,9 @@
         "responsive_web_twitter_article_notes_tab_enabled": {
           "value": "true"
         },
+        "responsive_web_twitter_article_redirect_enabled": {
+          "value": "true"
+        },
         "responsive_web_twitter_article_seed_tweet_detail_enabled": {
           "value": "true"
         },
@@ -4422,6 +4434,9 @@
           "value": "60"
         },
         "rweb_master_detail_enabled": {
+          "value": "false"
+        },
+        "rweb_media_carousel_enabled": {
           "value": "false"
         },
         "rweb_meetings_enabled": {
@@ -5268,10 +5283,10 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "cdddf6dee871ee3ac0d5d0cda8bbe40d"
+      "settingsVersion": "4ec01767dae445a1ea1788f1acb29453"
     },
     "debug": {},
-    "featureSetToken": "930d6fff5ba7d88dd3054d664dd67188312ee265",
+    "featureSetToken": "1d96c14ef3e809d403902a9349fcd57fcb226f29",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -5341,7 +5356,7 @@
     "country": "US",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "170854961644511049",
+    "guestId": "170863602297881546",
     "hasCommunityMemberships": "false",
     "language": "en",
     "ssoInitTokens": {},
