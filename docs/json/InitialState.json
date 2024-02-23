@@ -3114,10 +3114,10 @@
           "value": "false"
         },
         "communities_topic_display": {
-          "value": "false"
+          "value": "true"
         },
         "communities_topics_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "conversation_controls_my_subscribers_enabled": {
           "value": "true"
@@ -5283,7 +5283,7 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "4ec01767dae445a1ea1788f1acb29453"
+      "settingsVersion": "c4d414ee35530d3777074eb294fc70f7"
     },
     "debug": {},
     "featureSetToken": "1d96c14ef3e809d403902a9349fcd57fcb226f29",
@@ -5356,7 +5356,7 @@
     "country": "US",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "170863602297881546",
+    "guestId": "170872240435683238",
     "hasCommunityMemberships": "false",
     "language": "en",
     "ssoInitTokens": {},
