@@ -3124,10 +3124,10 @@
           "value": "false"
         },
         "communities_topic_display": {
-          "value": "false"
+          "value": "true"
         },
         "communities_topics_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "conversation_controls_my_subscribers_enabled": {
           "value": "true"
@@ -4743,7 +4743,7 @@
           "value": "true"
         },
         "subscriptions_feature_premium_jobs": {
-          "value": "false"
+          "value": "true"
         },
         "subscriptions_inapp_grok": {
           "value": "true"
@@ -5293,7 +5293,7 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "58327760a17c6ec3d6d608c41f7e8857"
+      "settingsVersion": "e4a800450c138e7d2a6e2a5bcc9e50b6"
     },
     "debug": {},
     "featureSetToken": "1d96c14ef3e809d403902a9349fcd57fcb226f29",
@@ -5366,7 +5366,7 @@
     "country": "US",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "170863628371929790",
+    "guestId": "170872260365343739",
     "hasCommunityMemberships": "false",
     "language": "en",
     "ssoInitTokens": {},
