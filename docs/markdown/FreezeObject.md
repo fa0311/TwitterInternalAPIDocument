@@ -1321,7 +1321,6 @@ This document is entirely auto-generated and may contain errors.<br>
 | topics                          | s       |
 | tweets                          | s       |
 | articleEntities                 | s       |
-| twitterArticles                 | s       |
 | trustedFriends                  | s       |
 | userPresence                    | s       |
 | userCommunityInviteActionResult | s       |
@@ -1685,27 +1684,27 @@ This document is entirely auto-generated and may contain errors.<br>
 | NZ         | https://legal.twitter.com/ads-terms/apac.html      |
 | US         | https://legal.twitter.com/ads-terms/us.html        |
 
-| constant   | value                                                                                   |
-|:-----------|:----------------------------------------------------------------------------------------|
-| en         | https://business.twitter.com/en/campaign/quick-promote-conditional-coupon-terms.html    |
-| de         | https://business.twitter.com/de/campaign/quick-promote-conditional-coupon-terms.html    |
-| es         | https://business.twitter.com/es/campaign/quick-promote-conditional-coupon-terms.html    |
-| fr         | https://business.twitter.com/fr/campaign/quick-promote-conditional-coupon-terms.html    |
-| ja         | https://business.twitter.com/ja/campaign/quick-promote-conditional-coupon-terms.html    |
-| pt         | https://business.twitter.com/pt/campaign/quick-promote-conditional-coupon-terms.html    |
-| ar         | https://business.twitter.com/ar/campaign/quick-promote-conditional-coupon-terms.html    |
-| zh-cn      | https://business.twitter.com/zh-cn/campaign/quick-promote-conditional-coupon-terms.html |
+| constant   | value                                                                                     |
+|:-----------|:------------------------------------------------------------------------------------------|
+| en         | ()(0,a.j)                                                                                 |
+| de         | ("https://business.x.com/en/campaign/quick-promote-conditional-coupon-terms.html")(0,a.j) |
+| es         | ("https://business.x.com/de/campaign/quick-promote-conditional-coupon-terms.html")(0,a.j) |
+| fr         | ("https://business.x.com/es/campaign/quick-promote-conditional-coupon-terms.html")(0,a.j) |
+| ja         | ("https://business.x.com/fr/campaign/quick-promote-conditional-coupon-terms.html")(0,a.j) |
+| pt         | ("https://business.x.com/ja/campaign/quick-promote-conditional-coupon-terms.html")(0,a.j) |
+| ar         | ("https://business.x.com/pt/campaign/quick-promote-conditional-coupon-terms.html")(0,a.j) |
+| zh-cn      | ("https://business.x.com/ar/campaign/quick-promote-conditional-coupon-terms.html")(0,a.j) |
 
-| constant   | value                                                                       |
-|:-----------|:----------------------------------------------------------------------------|
-| en         | https://business.twitter.com/en/campaign/quick-promote-coupon-terms.html    |
-| de         | https://business.twitter.com/de/campaign/quick-promote-coupon-terms.html    |
-| es         | https://business.twitter.com/es/campaign/quick-promote-coupon-terms.html    |
-| fr         | https://business.twitter.com/fr/campaign/quick-promote-coupon-terms.html    |
-| ja         | https://business.twitter.com/ja/campaign/quick-promote-coupon-terms.html    |
-| pt         | https://business.twitter.com/pt/campaign/quick-promote-coupon-terms.html    |
-| ar         | https://business.twitter.com/ar/campaign/quick-promote-coupon-terms.html    |
-| zh-cn      | https://business.twitter.com/zh-cn/campaign/quick-promote-coupon-terms.html |
+| constant   | value                                                                         |
+|:-----------|:------------------------------------------------------------------------------|
+| en         | ()(0,a.j)                                                                     |
+| de         | ("https://business.x.com/en/campaign/quick-promote-coupon-terms.html")(0,a.j) |
+| es         | ("https://business.x.com/de/campaign/quick-promote-coupon-terms.html")(0,a.j) |
+| fr         | ("https://business.x.com/es/campaign/quick-promote-coupon-terms.html")(0,a.j) |
+| ja         | ("https://business.x.com/fr/campaign/quick-promote-coupon-terms.html")(0,a.j) |
+| pt         | ("https://business.x.com/ja/campaign/quick-promote-coupon-terms.html")(0,a.j) |
+| ar         | ("https://business.x.com/pt/campaign/quick-promote-coupon-terms.html")(0,a.j) |
+| zh-cn      | ("https://business.x.com/ar/campaign/quick-promote-coupon-terms.html")(0,a.j) |
 
 | constant   | value    |
 |:-----------|:---------|
@@ -2563,7 +2562,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{[j.Q.host]:{"title":"Pi.hostTitle","maybePluralFormatter":"Ri","capacity":"1"},[j.Q.cohost]:{"title":"Pi.cohostTitle","maybePluralFormatter":"Zi","capacity":"2"},[j.Q.speaker]:{"title":"Pi.speakerTitle","maybePluralFormatter":"xi","capacity":"10"},[j.Q.listener]:{"title":"Pi.listenerTitle","maybePl...
+{[j.Q.host]:{"title":"xi.hostTitle","maybePluralFormatter":"Ti","capacity":"1"},[j.Q.cohost]:{"title":"xi.cohostTitle","maybePluralFormatter":"Ai","capacity":"2"},[j.Q.speaker]:{"title":"xi.speakerTitle","maybePluralFormatter":"Li","capacity":"10"},[j.Q.listener]:{"title":"xi.listenerTitle","maybePl...
 ```
 | constant   | value   |
 |:-----------|:--------|
@@ -2578,7 +2577,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{[Ss.onlyInvited]:"0",[Ss.peopleYouFollow]:"1",[Ss.everyone]:"2"}
+{[ks.onlyInvited]:"0",[ks.peopleYouFollow]:"1",[ks.everyone]:"2"}
 ```
 | constant   | value    |
 |:-----------|:---------|
@@ -3473,25 +3472,26 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant         | value        |
 |:-----------------|:-------------|
-| see_more         | w().ffd9cfe6 |
-| discover_more    | w().d172116a |
-| more             | w().h63a5c3c |
-| more_tweets      | w().be5df69e |
-| more_suggestions | w().g11ebd34 |
-| browse           | w().g4a6901a |
-| browse_tweets    | w().h6453e74 |
+| see_more         | b().ffd9cfe6 |
+| discover_more    | b().d172116a |
+| more             | b().h63a5c3c |
+| more_tweets      | b().be5df69e |
+| more_suggestions | b().g11ebd34 |
+| browse           | b().g4a6901a |
+| browse_tweets    | b().h6453e74 |
 
-| constant   | value      |
-|:-----------|:-----------|
-| EmptyState | EmptyState |
-| Callout    | Callout    |
-| Button     | Button     |
+| constant          | value             |
+|:------------------|:------------------|
+| EmptyState        | EmptyState        |
+| InlineCallout     | InlineCallout     |
+| Button            | Button            |
+| InterstitialSheet | InterstitialSheet |
 
 | constant     | value        |
 |:-------------|:-------------|
-| Any          | Any          |
-| Individual   | Individual   |
-| Organization | Organization |
+| All          | All          |
+| Premium      | Premium      |
+| VerifiedOrgs | VerifiedOrgs |
 
 | constant   | value        |
 |:-----------|:-------------|
@@ -4858,6 +4858,11 @@ This document is entirely auto-generated and may contain errors.<br>
 | Fixed      | fixed    |
 | Variable   | variable |
 
+| constant   | value      |
+|:-----------|:-----------|
+| Pinning    | Pinning    |
+| Reordering | Reordering |
+
 | constant   | value       |
 |:-----------|:------------|
 | NotStarted | not_started |
@@ -4874,11 +4879,6 @@ This document is entirely auto-generated and may contain errors.<br>
 | Member     | MemberInvitesAllowed    |
 | Moderator  | ModeratorInvitesAllowed |
 | Admin      | AdminInvitesAllowed     |
-
-| constant   | value      |
-|:-----------|:-----------|
-| Pinning    | Pinning    |
-| Reordering | Reordering |
 
 | constant      | value          |
 |:--------------|:---------------|
@@ -4982,45 +4982,14 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant   | value   |
 |:-----------|:--------|
-| MEDIA      | wt      |
-| GIFS       | ht      |
-| TWEETS     | Et      |
+| MEDIA      | Et      |
+| GIFS       | yt      |
+| TWEETS     | ft      |
 
 | constant    | value       |
 |:------------|:------------|
 | Public      | Public      |
 | Subscribers | Subscribers |
-
-| constant   | value      |
-|:-----------|:-----------|
-| GIF        | TweetGif   |
-| IMAGE      | TweetImage |
-| VIDEO      | TweetVideo |
-
-| constant   | value     |
-|:-----------|:----------|
-| DRAFT      | Draft     |
-| PUBLISHED  | Published |
-
-| constant   | value        |
-|:-----------|:-------------|
-| DRAFT      | Ee.DRAFT     |
-| PUBLISHED  | Ee.PUBLISHED |
-
-| constant   | value   |
-|:-----------|:--------|
-| MEDIA      | MEDIA   |
-| TWEET      | TWEET   |
-
-| constant   | value     |
-|:-----------|:----------|
-| IMMUTABLE  | IMMUTABLE |
-
-| constant             | value                |
-|:---------------------|:---------------------|
-| TWITTER_ARTICLES_TAB | TWITTER_ARTICLES_TAB |
-| TWITTER_ARTICLE_VIEW | TWITTER_ARTICLE_VIEW |
-| LONGFORM_COMPOSER    | LONGFORM_COMPOSER    |
 
 | constant   | value     |
 |:-----------|:----------|
@@ -5549,12 +5518,12 @@ This document is entirely auto-generated and may contain errors.<br>
 ```
 ```internal process
 # Error
-{[b.pl.NOTABILITY_CATEGORY_SELECT]:"()"{"followersEligible":"e=!1","mentionsEligible":"t=!1"}{"type":"radio","props":{"description":"di.description","getNextFormStep":e=>{"switch()"{"case b.eV.ACTIVISM":return b.pl.ACTIVIST_SUBCATEGORY;case b.eV.INFLUENCER_OTHER:return b.pl.INFLUENCER_SUBCATEGORY;ca...
+{[b.pl.NOTABILITY_CATEGORY_SELECT]:"()"{"followersEligible":"e=!1","mentionsEligible":"t=!1"}{"type":"radio","props":{"description":"Ei.description","getNextFormStep":e=>{"switch()"{"case b.eV.ACTIVISM":return b.pl.ACTIVIST_SUBCATEGORY;case b.eV.INFLUENCER_OTHER:return b.pl.INFLUENCER_SUBCATEGORY;ca...
 ```
 | constant   | value   |
 |:-----------|:--------|
 | ...pt      | _       |
-| ...ur      | _       |
+| ..._r      | _       |
 | ...ie      | _       |
 
 | constant   | value   |
@@ -5600,17 +5569,18 @@ This document is entirely auto-generated and may contain errors.<br>
 | ConversationNameUpdate | i.Cr.CONVERSATION_NAME_UPDATE |
 | JoinConversation       | i.Cr.JOIN_CONVERSATION        |
 
-| constant   | value      |
-|:-----------|:-----------|
-| EmptyState | EmptyState |
-| Callout    | Callout    |
-| Button     | Button     |
+| constant          | value             |
+|:------------------|:------------------|
+| EmptyState        | EmptyState        |
+| InlineCallout     | InlineCallout     |
+| Button            | Button            |
+| InterstitialSheet | InterstitialSheet |
 
 | constant     | value        |
 |:-------------|:-------------|
-| Any          | Any          |
-| Individual   | Individual   |
-| Organization | Organization |
+| All          | All          |
+| Premium      | Premium      |
+| VerifiedOrgs | VerifiedOrgs |
 
 | constant   | value                            |
 |:-----------|:---------------------------------|
@@ -5740,6 +5710,18 @@ This document is entirely auto-generated and may contain errors.<br>
 | SUCCESS    | rweb/subscriptionPayments/TIER_SWITCH_SUCCESS |
 | FAILURE    | rweb/subscriptionPayments/TIER_SWITCH_FAILURE |
 
+```internal process
+# Error
+{"root":`${"o"}/application`,"eligibility":`${"o"}/application/eligibility`,"pricing":`${"o"}/application/pricing`,"completeProfile":`${"o"}/application/complete_profile`,"submit":`${"o"}/application/submit`,"submitted":`${"o"}/application/submitted`,"waitlisted":`${"o"}/application/waitlisted`,"rej...
+```
+```internal process
+# Error
+{"root":`${"o"}/onboarding`,"perksIntro":`${"o"}/onboarding/perks_intro`,"perksDescription":`${"o"}/onboarding/perks_description`,"perksBadges":`${"o"}/onboarding/perks_badges`,"perksConfirm":`${"o"}/onboarding/perks_confirm`,"pricing":`${"o"}/onboarding/pricing`,"pricingConfirm":`${"o"}/onboarding/...
+```
+```internal process
+# Error
+{"root":`${"o"}/management`,"perksIntro":`${"o"}/management/perks_intro`,"perksDescription":`${"o"}/management/perks_description`,"perksConfirm":`${"o"}/management/perks_confirm`}
+```
 | constant   | value                         |
 |:-----------|:------------------------------|
 | REQUEST    | rweb/FETCH_GROK_SHARE/REQUEST |
@@ -5831,6 +5813,12 @@ This document is entirely auto-generated and may contain errors.<br>
 | TPay          | TPay          |
 | Twitter       | Twitter       |
 
+| constant           | value              |
+|:-------------------|:-------------------|
+| paymentMethod      | paymentMethod      |
+| billingInformation | billingInformation |
+| cancel             | cancel             |
+
 | constant   | value     |
 |:-----------|:----------|
 | all        | all       |
@@ -5843,18 +5831,6 @@ This document is entirely auto-generated and may contain errors.<br>
 | subscriptions | creator_subs       |
 | preRollAds    | pre_roll_video_ads |
 
-```internal process
-# Error
-{"root":`${"i"}/application`,"eligibility":`${"i"}/application/eligibility`,"pricing":`${"i"}/application/pricing`,"completeProfile":`${"i"}/application/complete_profile`,"submit":`${"i"}/application/submit`,"submitted":`${"i"}/application/submitted`,"waitlisted":`${"i"}/application/waitlisted`,"rej...
-```
-```internal process
-# Error
-{"root":`${"i"}/onboarding`,"perksIntro":`${"i"}/onboarding/perks_intro`,"perksDescription":`${"i"}/onboarding/perks_description`,"perksBadges":`${"i"}/onboarding/perks_badges`,"perksConfirm":`${"i"}/onboarding/perks_confirm`,"pricing":`${"i"}/onboarding/pricing`,"pricingConfirm":`${"i"}/onboarding/...
-```
-```internal process
-# Error
-{"root":`${"i"}/management`,"perksIntro":`${"i"}/management/perks_intro`,"perksDescription":`${"i"}/management/perks_description`,"perksConfirm":`${"i"}/management/perks_confirm`}
-```
 | constant   | value                                                 |
 |:-----------|:------------------------------------------------------|
 | REQUEST    | rweb/accountTaxonomy/FETCH_USER_ACCOUNT_LABEL_REQUEST |
@@ -6007,18 +5983,6 @@ This document is entirely auto-generated and may contain errors.<br>
 | gray0      | gray500    |
 | gray100    | gray600    |
 
-```internal process
-# Error
-{"root":`${"t"}/application`,"eligibility":`${"t"}/application/eligibility`,"pricing":`${"t"}/application/pricing`,"completeProfile":`${"t"}/application/complete_profile`,"submit":`${"t"}/application/submit`,"submitted":`${"t"}/application/submitted`,"waitlisted":`${"t"}/application/waitlisted`,"rej...
-```
-```internal process
-# Error
-{"root":`${"t"}/onboarding`,"perksIntro":`${"t"}/onboarding/perks_intro`,"perksDescription":`${"t"}/onboarding/perks_description`,"perksBadges":`${"t"}/onboarding/perks_badges`,"perksConfirm":`${"t"}/onboarding/perks_confirm`,"pricing":`${"t"}/onboarding/pricing`,"pricingConfirm":`${"t"}/onboarding/...
-```
-```internal process
-# Error
-{"root":`${"t"}/management`,"perksIntro":`${"t"}/management/perks_intro`,"perksDescription":`${"t"}/management/perks_description`,"perksConfirm":`${"t"}/management/perks_confirm`}
-```
 | constant    | value       |
 |:------------|:------------|
 | InitialSale | InitialSale |
@@ -6031,17 +5995,18 @@ This document is entirely auto-generated and may contain errors.<br>
 | Stripe     | Stripe    |
 | Web        | Web       |
 
-| constant   | value      |
-|:-----------|:-----------|
-| EmptyState | EmptyState |
-| Callout    | Callout    |
-| Button     | Button     |
+| constant          | value             |
+|:------------------|:------------------|
+| EmptyState        | EmptyState        |
+| InlineCallout     | InlineCallout     |
+| Button            | Button            |
+| InterstitialSheet | InterstitialSheet |
 
 | constant     | value        |
 |:-------------|:-------------|
-| Any          | Any          |
-| Individual   | Individual   |
-| Organization | Organization |
+| All          | All          |
+| Premium      | Premium      |
+| VerifiedOrgs | VerifiedOrgs |
 
 | constant   | value   |
 |:-----------|:--------|
@@ -6364,17 +6329,17 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant   | value             |
 |:-----------|:------------------|
-| ...Pe      | _                 |
+| ...ze      | _                 |
 | component  | job-splash-screen |
 
 | constant   | value         |
 |:-----------|:--------------|
-| ...Pe      | _             |
+| ...ze      | _             |
 | component  | apideck-vault |
 
 | constant   | value         |
 |:-----------|:--------------|
-| ...Pe      | _             |
+| ...ze      | _             |
 | component  | sync-ats-jobs |
 
 | constant   | value     |
@@ -6781,20 +6746,20 @@ This document is entirely auto-generated and may contain errors.<br>
 ```
 | constant   | value        |
 |:-----------|:-------------|
-| 13 to 19   | d().d267afa2 |
-| 20 to 29   | d().db81cab0 |
-| 30 to 39   | d().f173716e |
-| 40 to 49   | d().ada329e6 |
-| 50 and up  | d().j2950694 |
+| 13 to 19   | m().d267afa2 |
+| 20 to 29   | m().db81cab0 |
+| 30 to 39   | m().f173716e |
+| 40 to 49   | m().ada329e6 |
+| 50 and up  | m().j2950694 |
 
 | constant   | value        |
 |:-----------|:-------------|
-| 18 to 24   | d().a5c91a8e |
-| 25 to 34   | d().cf30cdfa |
-| 35 to 44   | d().gf672f7c |
-| 45 to 54   | d().jf28b41c |
-| 55 to 64   | d().ja78da94 |
-| 65 and up  | d().bcd9cf68 |
+| 18 to 24   | m().a5c91a8e |
+| 25 to 34   | m().cf30cdfa |
+| 35 to 44   | m().gf672f7c |
+| 45 to 54   | m().jf28b41c |
+| 55 to 64   | m().ja78da94 |
+| 65 and up  | m().bcd9cf68 |
 
 | constant   |   value |
 |:-----------|--------:|
@@ -6805,9 +6770,9 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant   | value                                                       |
 |:-----------|:------------------------------------------------------------|
-| Women      | {'label': 'd().de323650', 'color': 'blue900', 'index': '0'} |
-| Men        | {'label': 'd().b6ab31be', 'color': 'blue300', 'index': '1'} |
-| N/A        | {'label': 'd().f05f1838', 'color': 'gray100', 'index': '2'} |
+| Women      | {'label': 'm().de323650', 'color': 'blue900', 'index': '0'} |
+| Men        | {'label': 'm().b6ab31be', 'color': 'blue300', 'index': '1'} |
+| N/A        | {'label': 'm().f05f1838', 'color': 'gray100', 'index': '2'} |
 
 | constant      | value         |
 |:--------------|:--------------|
@@ -7013,7 +6978,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{[a.wide]:"500",[a.narrow]:"285",[a.veryNarrow]:"200"}
+{[r.wide]:"500",[r.narrow]:"285",[r.veryNarrow]:"200"}
 ```
 | constant   | value                                                                                                                |
 |:-----------|:---------------------------------------------------------------------------------------------------------------------|
@@ -7254,7 +7219,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant    | value       |
 |:------------|:------------|
-| ...E.n$     | _           |
+| ...y.n$     | _           |
 | UNAVAILABLE | UNAVAILABLE |
 
 | constant   | value   |
@@ -7382,11 +7347,6 @@ This document is entirely auto-generated and may contain errors.<br>
 |:--------------|:--------------|
 | single_line   | singleline    |
 | format_inline | format-inline |
-
-| constant   | value      |
-|:-----------|:-----------|
-| Pinning    | Pinning    |
-| Reordering | Reordering |
 
 | constant          | value             |
 |:------------------|:------------------|
@@ -7620,6 +7580,19 @@ This document is entirely auto-generated and may contain errors.<br>
 # Error
 {"minimumRadius":"0","maximumRadius":1/0,"minimumPolarAngle":Math.PI/8,"maximumPolarAngle":Math.PI-Math.PI/8,"minimumAzimuthalAngle":-1/0,"maximumAzimuthalAngle":1/0,"minimumFieldOfView":"10","maximumFieldOfView":"45","interactionPolicy":"always-allow","touchAction":"pan-y"}
 ```
+| constant          | value             |
+|:------------------|:------------------|
+| EmptyState        | EmptyState        |
+| InlineCallout     | InlineCallout     |
+| Button            | Button            |
+| InterstitialSheet | InterstitialSheet |
+
+| constant     | value        |
+|:-------------|:-------------|
+| All          | All          |
+| Premium      | Premium      |
+| VerifiedOrgs | VerifiedOrgs |
+
 | constant      | value        |
 |:--------------|:-------------|
 | all           | h().baffe39a |
