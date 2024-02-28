@@ -2177,3 +2177,16 @@
 - responsive_web_twitter_article_view_enabled<br>
 - responsive_web_verified_organizations_multiple_ad_coupons_enabled<br>
 - subscriptions_premium_tiers_switching_enabled<br>
+## 2024/02/28<br>
+### API<br>
+#### add<br>
+- DeviceIsVerified<br>
+- GeneratePinCode<br>
+- SettingsUpdateAdultContentMutation<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- rweb_mixed_media_uploads_cap<br>
+#### remove<br>
+- rweb_mixed_media_uploads_enabled<br>
