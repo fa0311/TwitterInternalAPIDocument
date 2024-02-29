@@ -3060,3 +3060,18 @@
 - rweb_mixed_media_uploads_cap<br>
 #### remove<br>
 - rweb_mixed_media_uploads_enabled<br>
+## 2024/02/29<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- responsive_web_x_translation_enabled<br>
+- rweb_picture_in_picture_enabled<br>
+- subscriptions_block_ad_upsell_enabled<br>
+#### remove<br>
+- voice_rooms_end_screen_participants<br>
+- voice_rooms_replay_consumption<br>
+- xprofile_work_history_enabled<br>
