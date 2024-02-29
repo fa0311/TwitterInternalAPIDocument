@@ -28,8 +28,8 @@
       }
     },
     "AudioSpaceById": {
-      "url": "https://twitter.com/i/api/graphql/KFb7etUJ_ikY_xw0WEYzXQ/AudioSpaceById",
-      "queryId": "KFb7etUJ_ikY_xw0WEYzXQ",
+      "url": "https://twitter.com/i/api/graphql/31sjtT7pQjz1E3eyH2ehgg/AudioSpaceById",
+      "queryId": "31sjtT7pQjz1E3eyH2ehgg",
       "method": "GET",
       "features": {
         "spaces_2022_h2_spaces_communities": true,
@@ -3392,14 +3392,14 @@
       }
     },
     "DeviceIsVerified": {
-      "url": "https://twitter.com/i/api/graphql/AaAcAs89HcISt-rpaKo9NA/DeviceIsVerified",
-      "queryId": "AaAcAs89HcISt-rpaKo9NA",
+      "url": "https://twitter.com/i/api/graphql/HheGqGNCsrK1rxAX9wa39g/DeviceIsVerified",
+      "queryId": "HheGqGNCsrK1rxAX9wa39g",
       "method": "GET",
       "features": {}
     },
     "GeneratePinCode": {
-      "url": "https://twitter.com/i/api/graphql/iXQfOKMPCM5a8CklEFSVnA/GeneratePinCode",
-      "queryId": "iXQfOKMPCM5a8CklEFSVnA",
+      "url": "https://twitter.com/i/api/graphql/5LI10DHfLLC1UHruBTpumA/GeneratePinCode",
+      "queryId": "5LI10DHfLLC1UHruBTpumA",
       "method": "POST",
       "features": {}
     },
@@ -4520,8 +4520,8 @@
       "features": {}
     },
     "JobRecommendationsContainerQuery": {
-      "url": "https://twitter.com/i/api/graphql/9GCifJG85_SWCUy4OZq8IQ/JobRecommendationsContainerQuery",
-      "queryId": "9GCifJG85_SWCUy4OZq8IQ",
+      "url": "https://twitter.com/i/api/graphql/xky1HT8oc1yLKX4Dw63tnQ/JobRecommendationsContainerQuery",
+      "queryId": "xky1HT8oc1yLKX4Dw63tnQ",
       "method": "GET",
       "features": {}
     },
