@@ -1243,7 +1243,7 @@
     "OFF": "Off",
     "UNDETERMINED": "Undetermined"
   },
-  "{[x.DEFAULT]:\"L.UNDETERMINED\",[x.DENIED]:\"L.OFF\",[x.GRANTED]:\"L.ON\"}",
+  "{[x.DEFAULT]:\"N.UNDETERMINED\",[x.DENIED]:\"N.OFF\",[x.GRANTED]:\"N.ON\"}",
   {
     "REQUEST": "rweb/devices/REMOVE_PUSH_DESTINATION_REQUEST",
     "SUCCESS": "rweb/devices/REMOVE_PUSH_DESTINATION_SUCCESS",
@@ -4797,9 +4797,9 @@
     "Trimmer": "trimmer"
   },
   {
-    "MEDIA": "Et",
-    "GIFS": "yt",
-    "TWEETS": "ft"
+    "MEDIA": "ht",
+    "GIFS": "bt",
+    "TWEETS": "vt"
   },
   {
     "Public": "Public",
@@ -6131,15 +6131,15 @@
     "section": "hiring"
   },
   {
-    "...ze": "_",
+    "...Pe": "_",
     "component": "job-splash-screen"
   },
   {
-    "...ze": "_",
+    "...Pe": "_",
     "component": "apideck-vault"
   },
   {
-    "...ze": "_",
+    "...Pe": "_",
     "component": "sync-ats-jobs"
   },
   {
