@@ -1286,7 +1286,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{[x.DEFAULT]:"L.UNDETERMINED",[x.DENIED]:"L.OFF",[x.GRANTED]:"L.ON"}
+{[x.DEFAULT]:"N.UNDETERMINED",[x.DENIED]:"N.OFF",[x.GRANTED]:"N.ON"}
 ```
 | constant   | value                                        |
 |:-----------|:---------------------------------------------|
@@ -4993,9 +4993,9 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant   | value   |
 |:-----------|:--------|
-| MEDIA      | Et      |
-| GIFS       | yt      |
-| TWEETS     | ft      |
+| MEDIA      | ht      |
+| GIFS       | bt      |
+| TWEETS     | vt      |
 
 | constant    | value       |
 |:------------|:------------|
@@ -6381,17 +6381,17 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant   | value             |
 |:-----------|:------------------|
-| ...ze      | _                 |
+| ...Pe      | _                 |
 | component  | job-splash-screen |
 
 | constant   | value         |
 |:-----------|:--------------|
-| ...ze      | _             |
+| ...Pe      | _             |
 | component  | apideck-vault |
 
 | constant   | value         |
 |:-----------|:--------------|
-| ...ze      | _             |
+| ...Pe      | _             |
 | component  | sync-ats-jobs |
 
 | constant   | value     |
