@@ -2113,7 +2113,7 @@
         "value": "true"
       },
       "subscriptions_feature_article_composer": {
-        "value": "false"
+        "value": "true"
       },
       "subscriptions_feature_can_hide_checkmark": {
         "value": "true"
@@ -2177,6 +2177,9 @@
       },
       "subscriptions_marketing_page_include_tax_enabled": {
         "value": "true"
+      },
+      "subscriptions_mute_ad_upsell_enabled": {
+        "value": "false"
       },
       "subscriptions_premium_hub_enabled": {
         "value": "true"
@@ -4751,6 +4754,9 @@
         "subscriptions_marketing_page_include_tax_enabled": {
           "value": "true"
         },
+        "subscriptions_mute_ad_upsell_enabled": {
+          "value": "false"
+        },
         "subscriptions_premium_hub_enabled": {
           "value": "true"
         },
@@ -5251,10 +5257,10 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "bad7d4b523d1ea265993462c2aacc2b4"
+      "settingsVersion": "8c5c232e1eb41ad639d62e32affa5b8a"
     },
     "debug": {},
-    "featureSetToken": "92ac781b5d4b08f815e3c18346fcbb15b3d93a9f",
+    "featureSetToken": "d24f741ac7164acde4917caeecefd2724cfcc11e",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -5324,7 +5330,7 @@
     "country": "XX",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "170932730732986955",
+    "guestId": "170941358403502201",
     "hasCommunityMemberships": "false",
     "language": "en",
     "ssoInitTokens": {},
