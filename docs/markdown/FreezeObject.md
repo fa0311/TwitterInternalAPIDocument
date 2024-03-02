@@ -1286,7 +1286,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{[x.DEFAULT]:"L.UNDETERMINED",[x.DENIED]:"L.OFF",[x.GRANTED]:"L.ON"}
+{[x.DEFAULT]:"N.UNDETERMINED",[x.DENIED]:"N.OFF",[x.GRANTED]:"N.ON"}
 ```
 | constant   | value                                        |
 |:-----------|:---------------------------------------------|
@@ -2557,7 +2557,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{[j.Q.host]:{"title":"Di.hostTitle","maybePluralFormatter":"Oi","capacity":"1"},[j.Q.cohost]:{"title":"Di.cohostTitle","maybePluralFormatter":"Vi","capacity":"2"},[j.Q.speaker]:{"title":"Di.speakerTitle","maybePluralFormatter":"Bi","capacity":"10"},[j.Q.listener]:{"title":"Di.listenerTitle","maybePl...
+{[j.Q.host]:{"title":"ji.hostTitle","maybePluralFormatter":"Di","capacity":"1"},[j.Q.cohost]:{"title":"ji.cohostTitle","maybePluralFormatter":"Oi","capacity":"2"},[j.Q.speaker]:{"title":"ji.speakerTitle","maybePluralFormatter":"Vi","capacity":"10"},[j.Q.listener]:{"title":"ji.listenerTitle","maybePl...
 ```
 | constant   | value   |
 |:-----------|:--------|
@@ -2572,7 +2572,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{[Ts.onlyInvited]:"0",[Ts.peopleYouFollow]:"1",[Ts.everyone]:"2"}
+{[xs.onlyInvited]:"0",[xs.peopleYouFollow]:"1",[xs.everyone]:"2"}
 ```
 | constant   | value    |
 |:-----------|:---------|
@@ -3498,6 +3498,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | DmRateLimited          | DmRateLimited          |
 | VideoDownload          | VideoDownload          |
 | BlockAd                | BlockAd                |
+| MuteAd                 | MuteAd                 |
 
 | constant          | value             |
 |:------------------|:------------------|
@@ -4993,9 +4994,9 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant   | value   |
 |:-----------|:--------|
-| MEDIA      | Et      |
-| GIFS       | yt      |
-| TWEETS     | ft      |
+| MEDIA      | ht      |
+| GIFS       | bt      |
+| TWEETS     | vt      |
 
 | constant    | value       |
 |:------------|:------------|
@@ -5594,6 +5595,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | DmRateLimited          | DmRateLimited          |
 | VideoDownload          | VideoDownload          |
 | BlockAd                | BlockAd                |
+| MuteAd                 | MuteAd                 |
 
 | constant          | value             |
 |:------------------|:------------------|
@@ -6046,6 +6048,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | DmRateLimited          | DmRateLimited          |
 | VideoDownload          | VideoDownload          |
 | BlockAd                | BlockAd                |
+| MuteAd                 | MuteAd                 |
 
 | constant          | value             |
 |:------------------|:------------------|
@@ -6381,17 +6384,17 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant   | value             |
 |:-----------|:------------------|
-| ...ze      | _                 |
+| ...Pe      | _                 |
 | component  | job-splash-screen |
 
 | constant   | value         |
 |:-----------|:--------------|
-| ...ze      | _             |
+| ...Pe      | _             |
 | component  | apideck-vault |
 
 | constant   | value         |
 |:-----------|:--------------|
-| ...ze      | _             |
+| ...Pe      | _             |
 | component  | sync-ats-jobs |
 
 | constant   | value     |
@@ -7738,6 +7741,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | DmRateLimited          | DmRateLimited          |
 | VideoDownload          | VideoDownload          |
 | BlockAd                | BlockAd                |
+| MuteAd                 | MuteAd                 |
 
 | constant          | value             |
 |:------------------|:------------------|
