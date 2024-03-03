@@ -2204,3 +2204,14 @@
 #### remove<br>
 - voice_rooms_end_screen_participants<br>
 - xprofile_work_history_enabled<br>
+## 2024/03/03<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- subscriptions_mute_ad_upsell_enabled<br>
+#### remove<br>
+- voice_rooms_replay_consumption<br>
