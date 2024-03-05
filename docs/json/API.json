@@ -2770,8 +2770,8 @@
       "features": {}
     },
     "BroadcastQuery": {
-      "url": "https://twitter.com/i/api/graphql/jZhbMti-Mbhy-z9vSw5x_w/BroadcastQuery",
-      "queryId": "jZhbMti-Mbhy-z9vSw5x_w",
+      "url": "https://twitter.com/i/api/graphql/1vxHTHvRlUJiXFUNxCu5Sg/BroadcastQuery",
+      "queryId": "1vxHTHvRlUJiXFUNxCu5Sg",
       "method": "GET",
       "features": {
         "creator_subscriptions_tweet_preview_api_enabled": true,

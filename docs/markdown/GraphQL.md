@@ -3819,7 +3819,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## BroadcastQuery<br>
-Request URL: `https://twitter.com/i/api/graphql/jZhbMti-Mbhy-z9vSw5x_w/BroadcastQuery`<br>
+Request URL: `https://twitter.com/i/api/graphql/1vxHTHvRlUJiXFUNxCu5Sg/BroadcastQuery`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -4811,7 +4811,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## BroadcastQuery<br>
-Request URL: `https://twitter.com/i/api/graphql/jZhbMti-Mbhy-z9vSw5x_w/BroadcastQuery`<br>
+Request URL: `https://twitter.com/i/api/graphql/1vxHTHvRlUJiXFUNxCu5Sg/BroadcastQuery`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
