@@ -5492,7 +5492,7 @@
   "hf4ffd4d": "लाइव्ह {locVideoType} प्ले करा",
   "f6e90cd7": "{hoursWord} {minutesWord} {secondsWord} कालावधी",
   "e7d191ed": "{hoursWord} {minutesWord} {secondsWord} वाजता सुरू होत आहे",
-  "h1888a33": "{viewerCount} दर्शक",
+  "daa73df1": "{viewerCount} अवलोकन{viewerCount}",
   "b4f19b97": "{listItem1} आणि {listItem2}",
   "i0135403": "{listItem1}, {listItem2}",
   "f1574a4b": "{listItem1}, आणि {listItem2}",
