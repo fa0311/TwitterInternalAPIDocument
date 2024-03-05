@@ -5496,7 +5496,7 @@
   "hf4ffd4d": "Erreproduzitu {locVideoType} zuzenean",
   "f6e90cd7": "Luzera: {hoursWord} {minutesWord} {secondsWord}",
   "e7d191ed": "Hasiera:  {hoursWord} {minutesWord} {secondsWord}",
-  "h1888a33": "{viewerCount} ikusle",
+  "daa73df1": "{viewerCount} view{viewerCount}",
   "b4f19b97": "{listItem1} eta {listItem2}",
   "i0135403": "{listItem1}, {listItem2}",
   "f1574a4b": "{listItem1} eta {listItem2}",
