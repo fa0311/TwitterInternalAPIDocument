@@ -5502,7 +5502,7 @@
   "hf4ffd4d": "Live {locVideoType} afspelen",
   "f6e90cd7": "{hoursWord} {minutesWord} {secondsWord} lang",
   "e7d191ed": "Begint om {hoursWord} {minutesWord} {secondsWord}",
-  "h1888a33": "{viewerCount} kijker{viewerCount}",
+  "daa73df1": "{viewerCount} weergave{viewerCount}",
   "b4f19b97": "{listItem1} en {listItem2}",
   "i0135403": "{listItem1}, {listItem2}",
   "f1574a4b": "{listItem1} en {listItem2}",
