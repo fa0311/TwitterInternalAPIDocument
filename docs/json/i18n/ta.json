@@ -5499,7 +5499,7 @@
   "hf4ffd4d": "நேரலை {locVideoType} -ஐ இயக்கு",
   "f6e90cd7": "{hoursWord} {minutesWord} {secondsWord} நீளம்",
   "e7d191ed": "{hoursWord} {minutesWord} {secondsWord} மணிக்குத் தொடங்குகிறது",
-  "h1888a33": "{viewerCount} பார்வையாளர்{viewerCount}",
+  "daa73df1": "{viewerCount} பார்வை{viewerCount}",
   "b4f19b97": "{listItem1} மற்றும் {listItem2}",
   "i0135403": "{listItem1}, {listItem2}",
   "f1574a4b": "{listItem1} மற்றும் {listItem2}",
