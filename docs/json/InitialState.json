@@ -2142,6 +2142,9 @@
       "subscriptions_feature_premium_jobs": {
         "value": "true"
       },
+      "subscriptions_hide_ad_upsell_enabled": {
+        "value": "false"
+      },
       "subscriptions_inapp_grok": {
         "value": "false"
       },
@@ -2179,7 +2182,7 @@
         "value": "true"
       },
       "subscriptions_mute_ad_upsell_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "subscriptions_premium_hub_enabled": {
         "value": "true"
@@ -4718,6 +4721,9 @@
         "subscriptions_feature_premium_jobs": {
           "value": "true"
         },
+        "subscriptions_hide_ad_upsell_enabled": {
+          "value": "true"
+        },
         "subscriptions_inapp_grok": {
           "value": "true"
         },
@@ -5257,10 +5263,10 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "c85c44068a1321903d7e8455be205f9e"
+      "settingsVersion": "35decb133dd5f084be20a5cdebeae4f8"
     },
     "debug": {},
-    "featureSetToken": "d24f741ac7164acde4917caeecefd2724cfcc11e",
+    "featureSetToken": "9c66cc9df2a8e1117182da1a11311ca8c6547a5d",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -5330,7 +5336,7 @@
     "country": "XX",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "170958645739851462",
+    "guestId": "170967284902227860",
     "hasCommunityMemberships": "false",
     "language": "en",
     "ssoInitTokens": {},
