@@ -527,6 +527,9 @@
       "card_detail_compact_enabled": {
         "value": "true"
       },
+      "communities_enable_explore_tab": {
+        "value": "false"
+      },
       "communities_show_broadcast_option_in_composer": {
         "value": "true"
       },
@@ -1826,6 +1829,9 @@
       "rweb_client_transaction_id_enabled": {
         "value": "false"
       },
+      "rweb_creator_analytics_enabled": {
+        "value": "false"
+      },
       "rweb_enable_logged_out_search_search_bar_enabled": {
         "value": "false"
       },
@@ -2152,6 +2158,9 @@
       "subscriptions_feature_premium_jobs": {
         "value": "true"
       },
+      "subscriptions_hide_ad_upsell_enabled": {
+        "value": "true"
+      },
       "subscriptions_inapp_grok": {
         "value": "false"
       },
@@ -2189,7 +2198,7 @@
         "value": "true"
       },
       "subscriptions_mute_ad_upsell_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "subscriptions_premium_hub_enabled": {
         "value": "true"
@@ -3102,6 +3111,9 @@
         },
         "card_detail_compact_enabled": {
           "value": "true"
+        },
+        "communities_enable_explore_tab": {
+          "value": "false"
         },
         "communities_show_broadcast_option_in_composer": {
           "value": "true"
@@ -4322,7 +4334,7 @@
           "value": "true"
         },
         "responsive_web_twitter_article_title_limit": {
-          "value": "70"
+          "value": "100"
         },
         "responsive_web_twitter_article_tweet_consumption_enabled": {
           "value": "true"
@@ -4400,6 +4412,9 @@
           "value": "false"
         },
         "rweb_client_transaction_id_enabled": {
+          "value": "false"
+        },
+        "rweb_creator_analytics_enabled": {
           "value": "false"
         },
         "rweb_enable_logged_out_search_search_bar_enabled": {
@@ -4726,6 +4741,9 @@
           "value": "true"
         },
         "subscriptions_feature_premium_jobs": {
+          "value": "true"
+        },
+        "subscriptions_hide_ad_upsell_enabled": {
           "value": "true"
         },
         "subscriptions_inapp_grok": {
@@ -5267,10 +5285,10 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "531e7c58be383afdc41a1e9b765a2384"
+      "settingsVersion": "3218d718da1fe2f9a64c8e37d3e28457"
     },
     "debug": {},
-    "featureSetToken": "d24f741ac7164acde4917caeecefd2724cfcc11e",
+    "featureSetToken": "5733d6c7f02c9e949043d2283f71a92bea2a72d8",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -5340,7 +5358,7 @@
     "country": "XX",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "170967310122774122",
+    "guestId": "170975949434087015",
     "hasCommunityMemberships": "false",
     "language": "en",
     "ssoInitTokens": {},
