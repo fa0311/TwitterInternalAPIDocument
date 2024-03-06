@@ -1934,7 +1934,6 @@ This document is entirely auto-generated and may contain errors.<br>
 | gif                | C                                                                                                                                            |
 | hd                 | C                                                                                                                                            |
 | likedByAuthor      | {'backgroundColor': 'gray50', 'bold': '!1', 'color': 'gray700'}                                                                              |
-| article            | {'backgroundColor': 'translucentBlack55', 'bold': '!0', 'color': 'white', 'opacity': '.1'}                                                   |
 | urlCardTitle       | {'align': 'left', 'backgroundColor': 'translucentBlack77', 'bold': '!1', 'color': 'white', 'numberOfLines': '1', 'textOverflow': 'ellipsis'} |
 
 ```internal process
@@ -2557,7 +2556,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{[j.Q.host]:{"title":"ji.hostTitle","maybePluralFormatter":"Di","capacity":"1"},[j.Q.cohost]:{"title":"ji.cohostTitle","maybePluralFormatter":"Vi","capacity":"2"},[j.Q.speaker]:{"title":"ji.speakerTitle","maybePluralFormatter":"Oi","capacity":"10"},[j.Q.listener]:{"title":"ji.listenerTitle","maybePl...
+{[j.Q.host]:{"title":"ji.hostTitle","maybePluralFormatter":"Di","capacity":"1"},[j.Q.cohost]:{"title":"ji.cohostTitle","maybePluralFormatter":"Vi","capacity":"2"},[j.Q.speaker]:{"title":"ji.speakerTitle","maybePluralFormatter":"zi","capacity":"10"},[j.Q.listener]:{"title":"ji.listenerTitle","maybePl...
 ```
 | constant   | value   |
 |:-----------|:--------|
@@ -3500,6 +3499,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | BlockAd                | BlockAd                |
 | MuteAd                 | MuteAd                 |
 | DismissAd              | DismissAd              |
+| BookmarkFolders        | BookmarkFolders        |
 
 | constant          | value             |
 |:------------------|:------------------|
@@ -4385,6 +4385,13 @@ This document is entirely auto-generated and may contain errors.<br>
 | UserDetailed     | UserDetailed     |
 | SubscribableUser | SubscribableUser |
 
+| constant   |   value |
+|:-----------|--------:|
+| large      |      54 |
+| medium     |      46 |
+| small      |      36 |
+| xSmall     |      12 |
+
 | constant          | value                |
 |:------------------|:---------------------|
 | Default           | ui_defaultLabel      |
@@ -4995,8 +5002,8 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant   | value   |
 |:-----------|:--------|
-| MEDIA      | ht      |
-| GIFS       | bt      |
+| MEDIA      | bt      |
+| GIFS       | ht      |
 | TWEETS     | vt      |
 
 | constant    | value       |
@@ -5598,6 +5605,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | BlockAd                | BlockAd                |
 | MuteAd                 | MuteAd                 |
 | DismissAd              | DismissAd              |
+| BookmarkFolders        | BookmarkFolders        |
 
 | constant          | value             |
 |:------------------|:------------------|
@@ -6052,6 +6060,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | BlockAd                | BlockAd                |
 | MuteAd                 | MuteAd                 |
 | DismissAd              | DismissAd              |
+| BookmarkFolders        | BookmarkFolders        |
 
 | constant          | value             |
 |:------------------|:------------------|
@@ -6906,13 +6915,6 @@ This document is entirely auto-generated and may contain errors.<br>
 | 55 to 64   | m().ja78da94 |
 | 65 and up  | m().bcd9cf68 |
 
-| constant   |   value |
-|:-----------|--------:|
-| large      |      54 |
-| medium     |      46 |
-| small      |      36 |
-| xSmall     |      12 |
-
 | constant   | value                                                       |
 |:-----------|:------------------------------------------------------------|
 | Women      | {'label': 'm().de323650', 'color': 'blue900', 'index': '0'} |
@@ -7746,6 +7748,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | BlockAd                | BlockAd                |
 | MuteAd                 | MuteAd                 |
 | DismissAd              | DismissAd              |
+| BookmarkFolders        | BookmarkFolders        |
 
 | constant          | value             |
 |:------------------|:------------------|
