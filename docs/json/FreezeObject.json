@@ -1910,12 +1910,6 @@
       "bold": "!1",
       "color": "gray700"
     },
-    "article": {
-      "backgroundColor": "translucentBlack55",
-      "bold": "!0",
-      "color": "white",
-      "opacity": ".1"
-    },
     "urlCardTitle": {
       "align": "left",
       "backgroundColor": "translucentBlack77",
@@ -2493,7 +2487,7 @@
     "manageView": "manageView",
     "settingsView": "settingsView"
   },
-  "{[j.Q.host]:{\"title\":\"ji.hostTitle\",\"maybePluralFormatter\":\"Di\",\"capacity\":\"1\"},[j.Q.cohost]:{\"title\":\"ji.cohostTitle\",\"maybePluralFormatter\":\"Vi\",\"capacity\":\"2\"},[j.Q.speaker]:{\"title\":\"ji.speakerTitle\",\"maybePluralFormatter\":\"Oi\",\"capacity\":\"10\"},[j.Q.listener]:{\"title\":\"ji.listenerTitle\",\"maybePluralFormatter\":\"Bi\",\"capacity\":-1}}",
+  "{[j.Q.host]:{\"title\":\"ji.hostTitle\",\"maybePluralFormatter\":\"Di\",\"capacity\":\"1\"},[j.Q.cohost]:{\"title\":\"ji.cohostTitle\",\"maybePluralFormatter\":\"Vi\",\"capacity\":\"2\"},[j.Q.speaker]:{\"title\":\"ji.speakerTitle\",\"maybePluralFormatter\":\"zi\",\"capacity\":\"10\"},[j.Q.listener]:{\"title\":\"ji.listenerTitle\",\"maybePluralFormatter\":\"Bi\",\"capacity\":-1}}",
   {
     "small": "small",
     "medium": "medium"
@@ -3363,7 +3357,8 @@
     "VideoDownload": "VideoDownload",
     "BlockAd": "BlockAd",
     "MuteAd": "MuteAd",
-    "DismissAd": "DismissAd"
+    "DismissAd": "DismissAd",
+    "BookmarkFolders": "BookmarkFolders"
   },
   {
     "EmptyState": "EmptyState",
@@ -4241,6 +4236,12 @@
     "SubscribableUser": "SubscribableUser"
   },
   {
+    "large": "54",
+    "medium": "46",
+    "small": "36",
+    "xSmall": "12"
+  },
+  {
     "Default": "ui_defaultLabel",
     "TransparentCursor": "ui_transparentCursor"
   },
@@ -4799,8 +4800,8 @@
     "Trimmer": "trimmer"
   },
   {
-    "MEDIA": "ht",
-    "GIFS": "bt",
+    "MEDIA": "bt",
+    "GIFS": "ht",
     "TWEETS": "vt"
   },
   {
@@ -5369,7 +5370,8 @@
     "VideoDownload": "VideoDownload",
     "BlockAd": "BlockAd",
     "MuteAd": "MuteAd",
-    "DismissAd": "DismissAd"
+    "DismissAd": "DismissAd",
+    "BookmarkFolders": "BookmarkFolders"
   },
   {
     "EmptyState": "EmptyState",
@@ -5798,7 +5800,8 @@
     "VideoDownload": "VideoDownload",
     "BlockAd": "BlockAd",
     "MuteAd": "MuteAd",
-    "DismissAd": "DismissAd"
+    "DismissAd": "DismissAd",
+    "BookmarkFolders": "BookmarkFolders"
   },
   {
     "EmptyState": "EmptyState",
@@ -6589,12 +6592,6 @@
     "65 and up": "m().bcd9cf68"
   },
   {
-    "large": "54",
-    "medium": "46",
-    "small": "36",
-    "xSmall": "12"
-  },
-  {
     "Women": {
       "label": "m().de323650",
       "color": "blue900",
@@ -7383,7 +7380,8 @@
     "VideoDownload": "VideoDownload",
     "BlockAd": "BlockAd",
     "MuteAd": "MuteAd",
-    "DismissAd": "DismissAd"
+    "DismissAd": "DismissAd",
+    "BookmarkFolders": "BookmarkFolders"
   },
   {
     "EmptyState": "EmptyState",
