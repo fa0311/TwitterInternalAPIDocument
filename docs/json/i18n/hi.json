@@ -5482,7 +5482,7 @@
   "hf4ffd4d": "लाइव {locVideoType} चलाएं",
   "f6e90cd7": "अवधि {hoursWord} {minutesWord} {secondsWord}",
   "e7d191ed": "{hoursWord} {minutesWord} {secondsWord} पर शुरू होगा",
-  "h1888a33": "{viewerCount} दर्शक",
+  "daa73df1": "{viewerCount} व्यू{viewerCount}",
   "b4f19b97": "{listItem1} और {listItem2}",
   "i0135403": "{listItem1}, {listItem2}",
   "f1574a4b": "{listItem1} और {listItem2}",

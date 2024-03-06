@@ -5504,7 +5504,7 @@
   "hf4ffd4d": "Воспроизвести прямую трансляцию {locVideoType}",
   "f6e90cd7": "Длительность: {hoursWord} {minutesWord} {secondsWord}",
   "e7d191ed": "Начнется через {hoursWord} {minutesWord} {secondsWord}",
-  "h1888a33": "{viewerCount} зрител{viewerCount}я",
+  "daa73df1": "{viewerCount} просмотр{viewerCount}а",
   "b4f19b97": "{listItem1} и {listItem2}",
   "i0135403": "{listItem1}, {listItem2}",
   "f1574a4b": "{listItem1} и {listItem2}",

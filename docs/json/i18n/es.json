@@ -5490,7 +5490,7 @@
   "hf4ffd4d": "Reproducir en directo {locVideoType}",
   "f6e90cd7": "Duración: {hoursWord} {minutesWord} {secondsWord}",
   "e7d191ed": "Hora de inicio: {hoursWord} {minutesWord} {secondsWord}",
-  "h1888a33": "{viewerCount} espectador{viewerCount}",
+  "daa73df1": "{viewerCount} visualizaci{viewerCount}ón",
   "b4f19b97": "{listItem1} y {listItem2}",
   "i0135403": "{listItem1}, {listItem2}",
   "f1574a4b": "{listItem1} y {listItem2}",

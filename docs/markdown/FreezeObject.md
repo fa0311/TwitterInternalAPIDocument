@@ -2290,7 +2290,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | lineHeights         | D       |
 | lineHeightsPx       | A       |
 | scales              | n       |
-| scaleMultipler      | d       |
+| scaleMultiplier     | d       |
 | spaces              | w       |
 | spacesPx            | S       |
 
@@ -3499,6 +3499,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | VideoDownload          | VideoDownload          |
 | BlockAd                | BlockAd                |
 | MuteAd                 | MuteAd                 |
+| DismissAd              | DismissAd              |
 
 | constant          | value             |
 |:------------------|:------------------|
@@ -5596,6 +5597,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | VideoDownload          | VideoDownload          |
 | BlockAd                | BlockAd                |
 | MuteAd                 | MuteAd                 |
+| DismissAd              | DismissAd              |
 
 | constant          | value             |
 |:------------------|:------------------|
@@ -6049,6 +6051,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | VideoDownload          | VideoDownload          |
 | BlockAd                | BlockAd                |
 | MuteAd                 | MuteAd                 |
+| DismissAd              | DismissAd              |
 
 | constant          | value             |
 |:------------------|:------------------|
@@ -7742,6 +7745,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | VideoDownload          | VideoDownload          |
 | BlockAd                | BlockAd                |
 | MuteAd                 | MuteAd                 |
+| DismissAd              | DismissAd              |
 
 | constant          | value             |
 |:------------------|:------------------|

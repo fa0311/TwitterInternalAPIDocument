@@ -5504,7 +5504,7 @@
   "hf4ffd4d": "Spela {locVideoType} live",
   "f6e90cd7": "{hoursWord} {minutesWord} {secondsWord} lång",
   "e7d191ed": "Startar om {hoursWord} {minutesWord} {secondsWord}",
-  "h1888a33": "{viewerCount} tittare",
+  "daa73df1": "{viewerCount} visning{viewerCount}",
   "b4f19b97": "{listItem1} och {listItem2}",
   "i0135403": "{listItem1}, {listItem2}",
   "f1574a4b": "{listItem1}, och {listItem2}",

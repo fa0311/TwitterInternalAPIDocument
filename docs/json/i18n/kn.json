@@ -5495,7 +5495,7 @@
   "hf4ffd4d": "ಲೈವ್ {locVideoType} ಪ್ಲೇ ಮಾಡಿ",
   "f6e90cd7": "{hoursWord} {minutesWord} {secondsWord} ದೀರ್ಘ ಸಮಯ",
   "e7d191ed": "{hoursWord} {minutesWord} {secondsWord} ಸಮಯಕ್ಕೆ ಪ್ರಾರಂಭಗೊಳ್ಳುತ್ತದೆ",
-  "h1888a33": "{viewerCount} ವೀಕ್ಷಕರು",
+  "daa73df1": "{viewerCount} ವೀಕ್ಷಣೆ{viewerCount}",
   "b4f19b97": "{listItem1} ಮತ್ತು {listItem2}",
   "i0135403": "{listItem1}, {listItem2}",
   "f1574a4b": "{listItem1}, ಮತ್ತು {listItem2}",

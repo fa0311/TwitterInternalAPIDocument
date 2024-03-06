@@ -2250,7 +2250,7 @@
     "lineHeights": "D",
     "lineHeightsPx": "A",
     "scales": "n",
-    "scaleMultipler": "d",
+    "scaleMultiplier": "d",
     "spaces": "w",
     "spacesPx": "S"
   },
@@ -3362,7 +3362,8 @@
     "DmRateLimited": "DmRateLimited",
     "VideoDownload": "VideoDownload",
     "BlockAd": "BlockAd",
-    "MuteAd": "MuteAd"
+    "MuteAd": "MuteAd",
+    "DismissAd": "DismissAd"
   },
   {
     "EmptyState": "EmptyState",
@@ -5367,7 +5368,8 @@
     "DmRateLimited": "DmRateLimited",
     "VideoDownload": "VideoDownload",
     "BlockAd": "BlockAd",
-    "MuteAd": "MuteAd"
+    "MuteAd": "MuteAd",
+    "DismissAd": "DismissAd"
   },
   {
     "EmptyState": "EmptyState",
@@ -5795,7 +5797,8 @@
     "DmRateLimited": "DmRateLimited",
     "VideoDownload": "VideoDownload",
     "BlockAd": "BlockAd",
-    "MuteAd": "MuteAd"
+    "MuteAd": "MuteAd",
+    "DismissAd": "DismissAd"
   },
   {
     "EmptyState": "EmptyState",
@@ -7379,7 +7382,8 @@
     "DmRateLimited": "DmRateLimited",
     "VideoDownload": "VideoDownload",
     "BlockAd": "BlockAd",
-    "MuteAd": "MuteAd"
+    "MuteAd": "MuteAd",
+    "DismissAd": "DismissAd"
   },
   {
     "EmptyState": "EmptyState",

@@ -5497,7 +5497,7 @@
   "hf4ffd4d": "Play live {locVideoType}",
   "f6e90cd7": "{hoursWord} {minutesWord} {secondsWord} long",
   "e7d191ed": "Starting at {hoursWord} {minutesWord} {secondsWord}",
-  "h1888a33": "{viewerCount} viewer{viewerCount}",
+  "daa73df1": "{viewerCount} view{viewerCount}",
   "b4f19b97": "{listItem1} and {listItem2}",
   "i0135403": "{listItem1}, {listItem2}",
   "f1574a4b": "{listItem1}, na {listItem2}",
