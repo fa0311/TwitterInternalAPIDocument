@@ -517,6 +517,9 @@
       "card_detail_compact_enabled": {
         "value": "true"
       },
+      "communities_enable_explore_tab": {
+        "value": "false"
+      },
       "communities_show_broadcast_option_in_composer": {
         "value": "true"
       },
@@ -1816,6 +1819,9 @@
       "rweb_client_transaction_id_enabled": {
         "value": "false"
       },
+      "rweb_creator_analytics_enabled": {
+        "value": "false"
+      },
       "rweb_enable_logged_out_search_search_bar_enabled": {
         "value": "false"
       },
@@ -2143,7 +2149,7 @@
         "value": "true"
       },
       "subscriptions_hide_ad_upsell_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "subscriptions_inapp_grok": {
         "value": "false"
@@ -3095,6 +3101,9 @@
         },
         "card_detail_compact_enabled": {
           "value": "true"
+        },
+        "communities_enable_explore_tab": {
+          "value": "false"
         },
         "communities_show_broadcast_option_in_composer": {
           "value": "true"
@@ -4315,7 +4324,7 @@
           "value": "true"
         },
         "responsive_web_twitter_article_title_limit": {
-          "value": "70"
+          "value": "100"
         },
         "responsive_web_twitter_article_tweet_consumption_enabled": {
           "value": "true"
@@ -4394,6 +4403,9 @@
         },
         "rweb_client_transaction_id_enabled": {
           "value": "true"
+        },
+        "rweb_creator_analytics_enabled": {
+          "value": "false"
         },
         "rweb_enable_logged_out_search_search_bar_enabled": {
           "value": "false"
@@ -5263,10 +5275,10 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "35decb133dd5f084be20a5cdebeae4f8"
+      "settingsVersion": "c6d16b98d3aa41b184b89b0e5afe3c6e"
     },
     "debug": {},
-    "featureSetToken": "9c66cc9df2a8e1117182da1a11311ca8c6547a5d",
+    "featureSetToken": "5733d6c7f02c9e949043d2283f71a92bea2a72d8",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -5336,7 +5348,7 @@
     "country": "XX",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "170967284902227860",
+    "guestId": "170975924214456721",
     "hasCommunityMemberships": "false",
     "language": "en",
     "ssoInitTokens": {},
