@@ -1739,7 +1739,7 @@
         "value": "true"
       },
       "responsive_web_twitter_article_title_limit": {
-        "value": "70"
+        "value": "100"
       },
       "responsive_web_twitter_article_tweet_consumption_enabled": {
         "value": "true"
@@ -2201,6 +2201,9 @@
       },
       "subscriptions_premium_tiers_marketing_page_enabled": {
         "value": "true"
+      },
+      "subscriptions_report_ad_upsell_enabled": {
+        "value": "false"
       },
       "subscriptions_sign_up_enabled": {
         "value": "false"
@@ -4787,6 +4790,9 @@
         "subscriptions_premium_tiers_marketing_page_enabled": {
           "value": "true"
         },
+        "subscriptions_report_ad_upsell_enabled": {
+          "value": "false"
+        },
         "subscriptions_sign_up_enabled": {
           "value": "false"
         },
@@ -5275,10 +5281,10 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "c6d16b98d3aa41b184b89b0e5afe3c6e"
+      "settingsVersion": "8c5c232e1eb41ad639d62e32affa5b8a"
     },
     "debug": {},
-    "featureSetToken": "5733d6c7f02c9e949043d2283f71a92bea2a72d8",
+    "featureSetToken": "2be51590d09db55b1b3a567b17396f09eff1b2d1",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -5348,7 +5354,7 @@
     "country": "XX",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "170975924214456721",
+    "guestId": "170984566868349655",
     "hasCommunityMemberships": "false",
     "language": "en",
     "ssoInitTokens": {},
