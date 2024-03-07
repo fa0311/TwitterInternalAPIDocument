@@ -234,6 +234,11 @@ This document is entirely auto-generated and may contain errors.<br>
 | More              |       0 |
 | Settings          |      18 |
 
+| constant    | value       |
+|:------------|:------------|
+| VIDEO       | VIDEO       |
+| SHORT_VIDEO | SHORT_VIDEO |
+
 | constant   | value   |
 |:-----------|:--------|
 | Apple      | apple   |
@@ -1553,6 +1558,48 @@ This document is entirely auto-generated and may contain errors.<br>
 | since_id     | t.TOP    |
 | up_cursor    | t.TOP    |
 
+| constant   | value                            |
+|:-----------|:---------------------------------|
+| REQUEST    | rweb/FETCH_TV_HOME_MIXER/REQUEST |
+| SUCCESS    | rweb/FETCH_TV_HOME_MIXER/SUCCESS |
+| FAILURE    | rweb/FETCH_TV_HOME_MIXER/FAILURE |
+
+| constant   | value                                    |
+|:-----------|:-----------------------------------------|
+| REQUEST    | rweb/FETCH_TV_USER_PROFILE_MIXER/REQUEST |
+| SUCCESS    | rweb/FETCH_TV_USER_PROFILE_MIXER/SUCCESS |
+| FAILURE    | rweb/FETCH_TV_USER_PROFILE_MIXER/FAILURE |
+
+| constant   | value                          |
+|:-----------|:-------------------------------|
+| REQUEST    | rweb/FETCH_TV_PIN_CODE/REQUEST |
+| SUCCESS    | rweb/FETCH_TV_PIN_CODE/SUCCESS |
+| FAILURE    | rweb/FETCH_TV_PIN_CODE/FAILURE |
+
+| constant   | value                        |
+|:-----------|:-----------------------------|
+| REQUEST    | rweb/FETCH_TV_SEARCH/REQUEST |
+| SUCCESS    | rweb/FETCH_TV_SEARCH/SUCCESS |
+| FAILURE    | rweb/FETCH_TV_SEARCH/FAILURE |
+
+| constant   | value                        |
+|:-----------|:-----------------------------|
+| REQUEST    | rweb/FETCH_TV_FOLLOW/REQUEST |
+| SUCCESS    | rweb/FETCH_TV_FOLLOW/SUCCESS |
+| FAILURE    | rweb/FETCH_TV_FOLLOW/FAILURE |
+
+| constant   | value                                   |
+|:-----------|:----------------------------------------|
+| REQUEST    | rweb/FETCH_TV_USER_VIDEO_TWEETS/REQUEST |
+| SUCCESS    | rweb/FETCH_TV_USER_VIDEO_TWEETS/SUCCESS |
+| FAILURE    | rweb/FETCH_TV_USER_VIDEO_TWEETS/FAILURE |
+
+| constant   | value                                  |
+|:-----------|:---------------------------------------|
+| REQUEST    | rweb/FETCH_TV_SEARCH_TYPEAHEAD/REQUEST |
+| SUCCESS    | rweb/FETCH_TV_SEARCH_TYPEAHEAD/SUCCESS |
+| FAILURE    | rweb/FETCH_TV_SEARCH_TYPEAHEAD/FAILURE |
+
 | constant   | value                          |
 |:-----------|:-------------------------------|
 | REQUEST    | rweb/typeaheadV2/FETCH_REQUEST |
@@ -2556,7 +2603,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{[j.Q.host]:{"title":"ji.hostTitle","maybePluralFormatter":"Di","capacity":"1"},[j.Q.cohost]:{"title":"ji.cohostTitle","maybePluralFormatter":"Vi","capacity":"2"},[j.Q.speaker]:{"title":"ji.speakerTitle","maybePluralFormatter":"zi","capacity":"10"},[j.Q.listener]:{"title":"ji.listenerTitle","maybePl...
+{[D.Q.host]:{"title":"Di.hostTitle","maybePluralFormatter":"Vi","capacity":"1"},[D.Q.cohost]:{"title":"Di.cohostTitle","maybePluralFormatter":"Ui","capacity":"2"},[D.Q.speaker]:{"title":"Di.speakerTitle","maybePluralFormatter":"zi","capacity":"10"},[D.Q.listener]:{"title":"Di.listenerTitle","maybePl...
 ```
 | constant   | value   |
 |:-----------|:--------|
@@ -3478,6 +3525,12 @@ This document is entirely auto-generated and may contain errors.<br>
 | browse           | b().g4a6901a |
 | browse_tweets    | b().h6453e74 |
 
+| constant     | value        |
+|:-------------|:-------------|
+| All          | All          |
+| Premium      | Premium      |
+| VerifiedOrgs | VerifiedOrgs |
+
 | constant               | value                  |
 |:-----------------------|:-----------------------|
 | EditPost               | EditPost               |
@@ -3499,7 +3552,13 @@ This document is entirely auto-generated and may contain errors.<br>
 | BlockAd                | BlockAd                |
 | MuteAd                 | MuteAd                 |
 | DismissAd              | DismissAd              |
+| ReportAd               | ReportAd               |
 | BookmarkFolders        | BookmarkFolders        |
+| SidebarDefault         | SidebarDefault         |
+| SidebarArticle         | SidebarArticle         |
+| SidebarLongform        | SidebarLongform        |
+| SidebarPremiumPlus     | SidebarPremiumPlus     |
+| SidebarVerifiedOrgs    | SidebarVerifiedOrgs    |
 
 | constant          | value             |
 |:------------------|:------------------|
@@ -3507,12 +3566,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | InlineCallout     | InlineCallout     |
 | Button            | Button            |
 | InterstitialSheet | InterstitialSheet |
-
-| constant     | value        |
-|:-------------|:-------------|
-| All          | All          |
-| Premium      | Premium      |
-| VerifiedOrgs | VerifiedOrgs |
+| SidebarModule     | SidebarModule     |
 
 | constant   | value        |
 |:-----------|:-------------|
@@ -4397,6 +4451,11 @@ This document is entirely auto-generated and may contain errors.<br>
 | Default           | ui_defaultLabel      |
 | TransparentCursor | ui_transparentCursor |
 
+| constant    | value       |
+|:------------|:------------|
+| explore     | explore     |
+| transparent | transparent |
+
 | constant             | value                |
 |:---------------------|:---------------------|
 | FacepileGroup        | FacepileGroup        |
@@ -5052,6 +5111,11 @@ This document is entirely auto-generated and may contain errors.<br>
 | SUCCESS    | rweb/scheduledTweets/DELETE_SCHEDULED_TWEET_SUCCESS |
 | FAILURE    | rweb/scheduledTweets/DELETE_SCHEDULED_TWEET_FAILURE |
 
+| constant    | value       |
+|:------------|:------------|
+| explore     | explore     |
+| transparent | transparent |
+
 | constant       | value           |
 |:---------------|:----------------|
 | Crop           | crop            |
@@ -5555,6 +5619,11 @@ This document is entirely auto-generated and may contain errors.<br>
 |:-----------|:------------|
 | WebSidebar | web_sidebar |
 
+| constant    | value       |
+|:------------|:------------|
+| explore     | explore     |
+| transparent | transparent |
+
 | constant   | value                                           |
 |:-----------|:------------------------------------------------|
 | REQUEST    | rweb/settings/usernames/FETCH_USERNAMES_REQUEST |
@@ -5584,6 +5653,12 @@ This document is entirely auto-generated and may contain errors.<br>
 | ConversationNameUpdate | i.Cr.CONVERSATION_NAME_UPDATE |
 | JoinConversation       | i.Cr.JOIN_CONVERSATION        |
 
+| constant     | value        |
+|:-------------|:-------------|
+| All          | All          |
+| Premium      | Premium      |
+| VerifiedOrgs | VerifiedOrgs |
+
 | constant               | value                  |
 |:-----------------------|:-----------------------|
 | EditPost               | EditPost               |
@@ -5605,7 +5680,13 @@ This document is entirely auto-generated and may contain errors.<br>
 | BlockAd                | BlockAd                |
 | MuteAd                 | MuteAd                 |
 | DismissAd              | DismissAd              |
+| ReportAd               | ReportAd               |
 | BookmarkFolders        | BookmarkFolders        |
+| SidebarDefault         | SidebarDefault         |
+| SidebarArticle         | SidebarArticle         |
+| SidebarLongform        | SidebarLongform        |
+| SidebarPremiumPlus     | SidebarPremiumPlus     |
+| SidebarVerifiedOrgs    | SidebarVerifiedOrgs    |
 
 | constant          | value             |
 |:------------------|:------------------|
@@ -5613,12 +5694,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | InlineCallout     | InlineCallout     |
 | Button            | Button            |
 | InterstitialSheet | InterstitialSheet |
-
-| constant     | value        |
-|:-------------|:-------------|
-| All          | All          |
-| Premium      | Premium      |
-| VerifiedOrgs | VerifiedOrgs |
+| SidebarModule     | SidebarModule     |
 
 | constant   | value                            |
 |:-----------|:---------------------------------|
@@ -6039,6 +6115,17 @@ This document is entirely auto-generated and may contain errors.<br>
 | Stripe     | Stripe    |
 | Web        | Web       |
 
+| constant    | value       |
+|:------------|:------------|
+| explore     | explore     |
+| transparent | transparent |
+
+| constant     | value        |
+|:-------------|:-------------|
+| All          | All          |
+| Premium      | Premium      |
+| VerifiedOrgs | VerifiedOrgs |
+
 | constant               | value                  |
 |:-----------------------|:-----------------------|
 | EditPost               | EditPost               |
@@ -6060,7 +6147,13 @@ This document is entirely auto-generated and may contain errors.<br>
 | BlockAd                | BlockAd                |
 | MuteAd                 | MuteAd                 |
 | DismissAd              | DismissAd              |
+| ReportAd               | ReportAd               |
 | BookmarkFolders        | BookmarkFolders        |
+| SidebarDefault         | SidebarDefault         |
+| SidebarArticle         | SidebarArticle         |
+| SidebarLongform        | SidebarLongform        |
+| SidebarPremiumPlus     | SidebarPremiumPlus     |
+| SidebarVerifiedOrgs    | SidebarVerifiedOrgs    |
 
 | constant          | value             |
 |:------------------|:------------------|
@@ -6068,12 +6161,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | InlineCallout     | InlineCallout     |
 | Button            | Button            |
 | InterstitialSheet | InterstitialSheet |
-
-| constant     | value        |
-|:-------------|:-------------|
-| All          | All          |
-| Premium      | Premium      |
-| VerifiedOrgs | VerifiedOrgs |
+| SidebarModule     | SidebarModule     |
 
 | constant   | value   |
 |:-----------|:--------|
@@ -6091,6 +6179,11 @@ This document is entirely auto-generated and may contain errors.<br>
 | COMPOSE_MESSAGE          |       0 |
 | CREATE_GROUP             |       1 |
 | SHARE_TWEET_INDIVIDUALLY |       2 |
+
+| constant    | value       |
+|:------------|:------------|
+| explore     | explore     |
+| transparent | transparent |
 
 | constant   | value       |
 |:-----------|:------------|
@@ -6412,6 +6505,11 @@ This document is entirely auto-generated and may contain errors.<br>
 | constant   | value     |
 |:-----------|:----------|
 | Affiliate  | Affiliate |
+
+| constant    | value       |
+|:------------|:------------|
+| explore     | explore     |
+| transparent | transparent |
 
 | constant       | value                          |
 |:---------------|:-------------------------------|
@@ -6737,133 +6835,6 @@ This document is entirely auto-generated and may contain errors.<br>
 | ReplyFilter             | replyFilter             |
 | LinkFilter              | linkFilter              |
 
-| constant    | value       |
-|:------------|:------------|
-| VIDEO       | VIDEO       |
-| SHORT_VIDEO | SHORT_VIDEO |
-
-| constant   | value                            |
-|:-----------|:---------------------------------|
-| REQUEST    | rweb/FETCH_TV_HOME_MIXER/REQUEST |
-| SUCCESS    | rweb/FETCH_TV_HOME_MIXER/SUCCESS |
-| FAILURE    | rweb/FETCH_TV_HOME_MIXER/FAILURE |
-
-| constant   | value                                    |
-|:-----------|:-----------------------------------------|
-| REQUEST    | rweb/FETCH_TV_USER_PROFILE_MIXER/REQUEST |
-| SUCCESS    | rweb/FETCH_TV_USER_PROFILE_MIXER/SUCCESS |
-| FAILURE    | rweb/FETCH_TV_USER_PROFILE_MIXER/FAILURE |
-
-| constant   | value                          |
-|:-----------|:-------------------------------|
-| REQUEST    | rweb/FETCH_TV_PIN_CODE/REQUEST |
-| SUCCESS    | rweb/FETCH_TV_PIN_CODE/SUCCESS |
-| FAILURE    | rweb/FETCH_TV_PIN_CODE/FAILURE |
-
-| constant   | value                        |
-|:-----------|:-----------------------------|
-| REQUEST    | rweb/FETCH_TV_SEARCH/REQUEST |
-| SUCCESS    | rweb/FETCH_TV_SEARCH/SUCCESS |
-| FAILURE    | rweb/FETCH_TV_SEARCH/FAILURE |
-
-| constant   | value                        |
-|:-----------|:-----------------------------|
-| REQUEST    | rweb/FETCH_TV_FOLLOW/REQUEST |
-| SUCCESS    | rweb/FETCH_TV_FOLLOW/SUCCESS |
-| FAILURE    | rweb/FETCH_TV_FOLLOW/FAILURE |
-
-| constant   | value                                   |
-|:-----------|:----------------------------------------|
-| REQUEST    | rweb/FETCH_TV_USER_VIDEO_TWEETS/REQUEST |
-| SUCCESS    | rweb/FETCH_TV_USER_VIDEO_TWEETS/SUCCESS |
-| FAILURE    | rweb/FETCH_TV_USER_VIDEO_TWEETS/FAILURE |
-
-| constant   | value                                  |
-|:-----------|:---------------------------------------|
-| REQUEST    | rweb/FETCH_TV_SEARCH_TYPEAHEAD/REQUEST |
-| SUCCESS    | rweb/FETCH_TV_SEARCH_TYPEAHEAD/SUCCESS |
-| FAILURE    | rweb/FETCH_TV_SEARCH_TYPEAHEAD/FAILURE |
-
-| constant   | value    |
-|:-----------|:---------|
-| keyword    | keyword  |
-| multiple   | multiple |
-| special    | special  |
-| unique     | unique   |
-
-| constant              | value                 |
-|:----------------------|:----------------------|
-| and                   | and                   |
-| cardDomain            | cardDomain            |
-| cardLang              | cardLang              |
-| cardName              | cardName              |
-| closeBracket          | closeBracket          |
-| consumerVideo         | consumerVideo         |
-| conversationId        | conversationId        |
-| exclude               | exclude               |
-| filterFollows         | filterFollows         |
-| filterHashtags        | filterHashtags        |
-| filterImages          | filterImages          |
-| filterLinks           | filterLinks           |
-| filterMedia           | filterMedia           |
-| filterNativeRetweets  | filterNativeRetweets  |
-| filterPeriscope       | filterPeriscope       |
-| filterQuote           | filterQuote           |
-| filterReplies         | filterReplies         |
-| filterRetweets        | filterRetweets        |
-| filterVerified        | filterVerified        |
-| filterVideos          | filterVideos          |
-| from                  | from                  |
-| gif                   | gif                   |
-| hashtag               | hashtag               |
-| includeNativeRetweets | includeNativeRetweets |
-| keyword               | keyword               |
-| lang                  | lang                  |
-| list                  | list                  |
-| maxId                 | maxId                 |
-| mentioning            | mentioning            |
-| mentions              | mentions              |
-| minFaves              | minFaves              |
-| minReplies            | minReplies            |
-| minReputation         | minReputation         |
-| minRetweets           | minRetweets           |
-| nativeVideo           | nativeVideo           |
-| near                  | near                  |
-| nearMe                | nearMe                |
-| negative              | negative              |
-| nestedGroup           | nestedGroup           |
-| news                  | news                  |
-| openBracket           | openBracket           |
-| or                    | or                    |
-| place                 | place                 |
-| positive              | positive              |
-| proVideo              | proVideo              |
-| quoted                | quoted                |
-| safe                  | safe                  |
-| selfThreads           | selfThreads           |
-| since                 | since                 |
-| sinceId               | sinceId               |
-| sinceTime             | sinceTime             |
-| social                | social                |
-| sources               | sources               |
-| spaces                | spaces                |
-| stocks                | stocks                |
-| to                    | to                    |
-| trusted               | trusted               |
-| until                 | until                 |
-| untilTime             | untilTime             |
-| url                   | url                   |
-| vine                  | vine                  |
-| vineLink              | vineLink              |
-| whiteSpace            | whiteSpace            |
-| within                | within                |
-| withinTime            | withinTime            |
-
-| constant   | value   |
-|:-----------|:--------|
-| Speed      | Speed   |
-| Quality    | Quality |
-
 | constant                | value                     |
 |:------------------------|:--------------------------|
 | FakeAccount             | fake_account              |
@@ -7154,11 +7125,6 @@ This document is entirely auto-generated and may contain errors.<br>
 | gray0      | gray500    |
 | gray100    | gray600    |
 
-| constant      | value         |
-|:--------------|:--------------|
-| single_line   | singleline    |
-| format_inline | format-inline |
-
 | constant   | value       |
 |:-----------|:------------|
 | NotStarted | not_started |
@@ -7268,6 +7234,92 @@ This document is entirely auto-generated and may contain errors.<br>
 | constant   | value   |
 |:-----------|:--------|
 | search     | search  |
+
+| constant   | value   |
+|:-----------|:--------|
+| small      | small   |
+| medium     | medium  |
+| large      | large   |
+
+| constant   | value    |
+|:-----------|:---------|
+| keyword    | keyword  |
+| multiple   | multiple |
+| special    | special  |
+| unique     | unique   |
+
+| constant              | value                 |
+|:----------------------|:----------------------|
+| and                   | and                   |
+| cardDomain            | cardDomain            |
+| cardLang              | cardLang              |
+| cardName              | cardName              |
+| closeBracket          | closeBracket          |
+| consumerVideo         | consumerVideo         |
+| conversationId        | conversationId        |
+| exclude               | exclude               |
+| filterFollows         | filterFollows         |
+| filterHashtags        | filterHashtags        |
+| filterImages          | filterImages          |
+| filterLinks           | filterLinks           |
+| filterMedia           | filterMedia           |
+| filterNativeRetweets  | filterNativeRetweets  |
+| filterPeriscope       | filterPeriscope       |
+| filterQuote           | filterQuote           |
+| filterReplies         | filterReplies         |
+| filterRetweets        | filterRetweets        |
+| filterVerified        | filterVerified        |
+| filterVideos          | filterVideos          |
+| from                  | from                  |
+| gif                   | gif                   |
+| hashtag               | hashtag               |
+| includeNativeRetweets | includeNativeRetweets |
+| keyword               | keyword               |
+| lang                  | lang                  |
+| list                  | list                  |
+| maxId                 | maxId                 |
+| mentioning            | mentioning            |
+| mentions              | mentions              |
+| minFaves              | minFaves              |
+| minReplies            | minReplies            |
+| minReputation         | minReputation         |
+| minRetweets           | minRetweets           |
+| nativeVideo           | nativeVideo           |
+| near                  | near                  |
+| nearMe                | nearMe                |
+| negative              | negative              |
+| nestedGroup           | nestedGroup           |
+| news                  | news                  |
+| openBracket           | openBracket           |
+| or                    | or                    |
+| place                 | place                 |
+| positive              | positive              |
+| proVideo              | proVideo              |
+| quoted                | quoted                |
+| safe                  | safe                  |
+| selfThreads           | selfThreads           |
+| since                 | since                 |
+| sinceId               | sinceId               |
+| sinceTime             | sinceTime             |
+| social                | social                |
+| sources               | sources               |
+| spaces                | spaces                |
+| stocks                | stocks                |
+| to                    | to                    |
+| trusted               | trusted               |
+| until                 | until                 |
+| untilTime             | untilTime             |
+| url                   | url                   |
+| vine                  | vine                  |
+| vineLink              | vineLink              |
+| whiteSpace            | whiteSpace            |
+| within                | within                |
+| withinTime            | withinTime            |
+
+| constant   | value   |
+|:-----------|:--------|
+| Speed      | Speed   |
+| Quality    | Quality |
 
 | constant   | value                            |
 |:-----------|:---------------------------------|
@@ -7643,6 +7695,11 @@ This document is entirely auto-generated and may contain errors.<br>
 | START      | start   |
 | END        | end     |
 
+| constant    | value       |
+|:------------|:------------|
+| explore     | explore     |
+| transparent | transparent |
+
 | constant       | value          |
 |:---------------|:---------------|
 | IncentiveFocus | IncentiveFocus |
@@ -7678,6 +7735,64 @@ This document is entirely auto-generated and may contain errors.<br>
 | REQUEST    | rweb/promotedContent/LOG_REQUEST |
 | SUCCESS    | rweb/promotedContent/LOG_SUCCESS |
 | FAILURE    | rweb/promotedContent/LOG_FAILURE |
+
+| constant     | value        |
+|:-------------|:-------------|
+| All          | All          |
+| Premium      | Premium      |
+| VerifiedOrgs | VerifiedOrgs |
+
+| constant               | value                  |
+|:-----------------------|:-----------------------|
+| EditPost               | EditPost               |
+| HighlightsProfile      | HighlightsProfile      |
+| ArticlesProfile        | ArticlesProfile        |
+| ArticlesReader         | ArticlesReader         |
+| ArticlesPostComposer   | ArticlesPostComposer   |
+| CreatorSubsEligibility | CreatorSubsEligibility |
+| IdVerification         | IdVerification         |
+| LongformPostComposer   | LongformPostComposer   |
+| PreRollAdsEligibility  | PreRollAdsEligibility  |
+| AdsRevShareEligibility | AdsRevShareEligibility |
+| CreateCommunity        | CreateCommunity        |
+| DmAddToGroup           | DmAddToGroup           |
+| DmCreateGroup          | DmCreateGroup          |
+| DmMessageRequest       | DmMessageRequest       |
+| DmRateLimited          | DmRateLimited          |
+| VideoDownload          | VideoDownload          |
+| BlockAd                | BlockAd                |
+| MuteAd                 | MuteAd                 |
+| DismissAd              | DismissAd              |
+| ReportAd               | ReportAd               |
+| BookmarkFolders        | BookmarkFolders        |
+| SidebarDefault         | SidebarDefault         |
+| SidebarArticle         | SidebarArticle         |
+| SidebarLongform        | SidebarLongform        |
+| SidebarPremiumPlus     | SidebarPremiumPlus     |
+| SidebarVerifiedOrgs    | SidebarVerifiedOrgs    |
+
+| constant          | value             |
+|:------------------|:------------------|
+| EmptyState        | EmptyState        |
+| InlineCallout     | InlineCallout     |
+| Button            | Button            |
+| InterstitialSheet | InterstitialSheet |
+| SidebarModule     | SidebarModule     |
+
+| constant   | value      |
+|:-----------|:-----------|
+| primary0   | primary    |
+| blue0      | blue500    |
+| green0     | green500   |
+| magenta0   | magenta500 |
+| orange0    | orange500  |
+| plum0      | plum500    |
+| purple0    | purple500  |
+| red0       | red500     |
+| teal0      | teal500    |
+| yellow0    | yellow500  |
+| gray0      | gray500    |
+| gray100    | gray600    |
 
 | constant   | value    |
 |:-----------|:---------|
@@ -7727,6 +7842,17 @@ This document is entirely auto-generated and may contain errors.<br>
 # Error
 {"minimumRadius":"0","maximumRadius":1/0,"minimumPolarAngle":Math.PI/8,"maximumPolarAngle":Math.PI-Math.PI/8,"minimumAzimuthalAngle":-1/0,"maximumAzimuthalAngle":1/0,"minimumFieldOfView":"10","maximumFieldOfView":"45","interactionPolicy":"always-allow","touchAction":"pan-y"}
 ```
+| constant    | value       |
+|:------------|:------------|
+| explore     | explore     |
+| transparent | transparent |
+
+| constant     | value        |
+|:-------------|:-------------|
+| All          | All          |
+| Premium      | Premium      |
+| VerifiedOrgs | VerifiedOrgs |
+
 | constant               | value                  |
 |:-----------------------|:-----------------------|
 | EditPost               | EditPost               |
@@ -7748,7 +7874,13 @@ This document is entirely auto-generated and may contain errors.<br>
 | BlockAd                | BlockAd                |
 | MuteAd                 | MuteAd                 |
 | DismissAd              | DismissAd              |
+| ReportAd               | ReportAd               |
 | BookmarkFolders        | BookmarkFolders        |
+| SidebarDefault         | SidebarDefault         |
+| SidebarArticle         | SidebarArticle         |
+| SidebarLongform        | SidebarLongform        |
+| SidebarPremiumPlus     | SidebarPremiumPlus     |
+| SidebarVerifiedOrgs    | SidebarVerifiedOrgs    |
 
 | constant          | value             |
 |:------------------|:------------------|
@@ -7756,12 +7888,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | InlineCallout     | InlineCallout     |
 | Button            | Button            |
 | InterstitialSheet | InterstitialSheet |
-
-| constant     | value        |
-|:-------------|:-------------|
-| All          | All          |
-| Premium      | Premium      |
-| VerifiedOrgs | VerifiedOrgs |
+| SidebarModule     | SidebarModule     |
 
 | constant      | value        |
 |:--------------|:-------------|
