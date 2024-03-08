@@ -4791,7 +4791,7 @@
           "value": "true"
         },
         "subscriptions_report_ad_upsell_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "subscriptions_sign_up_enabled": {
           "value": "false"
@@ -5281,7 +5281,7 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "8c5c232e1eb41ad639d62e32affa5b8a"
+      "settingsVersion": "60685b8077a851b2cb0c4557c2fa0767"
     },
     "debug": {},
     "featureSetToken": "2be51590d09db55b1b3a567b17396f09eff1b2d1",
@@ -5354,7 +5354,7 @@
     "country": "XX",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "170984566868349655",
+    "guestId": "170993205415556426",
     "hasCommunityMemberships": "false",
     "language": "en",
     "ssoInitTokens": {},
