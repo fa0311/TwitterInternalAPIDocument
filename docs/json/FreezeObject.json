@@ -2526,7 +2526,7 @@
     "manageView": "manageView",
     "settingsView": "settingsView"
   },
-  "{[D.Q.host]:{\"title\":\"Di.hostTitle\",\"maybePluralFormatter\":\"Vi\",\"capacity\":\"1\"},[D.Q.cohost]:{\"title\":\"Di.cohostTitle\",\"maybePluralFormatter\":\"Ui\",\"capacity\":\"2\"},[D.Q.speaker]:{\"title\":\"Di.speakerTitle\",\"maybePluralFormatter\":\"zi\",\"capacity\":\"10\"},[D.Q.listener]:{\"title\":\"Di.listenerTitle\",\"maybePluralFormatter\":\"Bi\",\"capacity\":-1}}",
+  "{[V.Q.host]:{\"title\":\"Vi.hostTitle\",\"maybePluralFormatter\":\"Di\",\"capacity\":\"1\"},[V.Q.cohost]:{\"title\":\"Vi.cohostTitle\",\"maybePluralFormatter\":\"Ui\",\"capacity\":\"2\"},[V.Q.speaker]:{\"title\":\"Vi.speakerTitle\",\"maybePluralFormatter\":\"Oi\",\"capacity\":\"10\"},[V.Q.listener]:{\"title\":\"Vi.listenerTitle\",\"maybePluralFormatter\":\"zi\",\"capacity\":-1}}",
   {
     "small": "small",
     "medium": "medium"
@@ -4667,11 +4667,11 @@
     "SHOP": "shop"
   },
   {
-    "SENSITIVE": "g",
-    "BLOCKED": "b",
+    "SENSITIVE": "b",
+    "BLOCKED": "g",
     "BLOCKED_BY": "v"
   },
-  "{[g]:\"y\",[b]:\"E\",[v]:\"I\"}",
+  "{[b]:\"y\",[g]:\"E\",[v]:\"I\"}",
   {
     "BROADCAST_MEDIA_TYPE": "broadcast",
     "VIDEO_MEDIA_TYPE": "video"
@@ -5630,7 +5630,7 @@
     "SUCCESS": "rweb/safetyMode/FETCH_SAFETY_MODE_SETTINGS_SUCCESS",
     "FAILURE": "rweb/safetyMode/FETCH_SAFETY_MODE_SETTINGS_FAILURE"
   },
-  "{[I.ActionedTweets]:{\"backLocation\":\"x\",\"confirmationSheetHeadline\":\"()(0,o.X_)\"{\"screenName\":\"m\"}{\"screenName\":\"m\"}},[I.PreviewFlaggedTweets]:{\"backLocation\":\"A\",\"confirmationSheetHeadline\":\"S()\"{\"screenName\":\"m\"}{\"screenName\":\"m\"}}}",
+  "{[I.ActionedTweets]:{\"backLocation\":\"A\",\"confirmationSheetHeadline\":\"()(0,o.X_)\"{\"screenName\":\"m\"}{\"screenName\":\"m\"}},[I.PreviewFlaggedTweets]:{\"backLocation\":\"x\",\"confirmationSheetHeadline\":\"S()\"{\"screenName\":\"m\"}{\"screenName\":\"m\"}}}",
   {
     "ActionedTweets": "actioned_tweets",
     "PreviewFlaggedTweets": "preview_flagged_tweets"
@@ -6465,7 +6465,7 @@
     "AppealSuspension": "appealsuspension",
     "Notification": "notification"
   },
-  "{\"ActionsBar\":\"C.Z\",\"ActionMenu\":\"function()\"{\"Icon\":\"e\",\"isDisabled\":\"t\",\"items\":\"n\",\"onOpen\":\"i\"}{\"const o=r.useCallback()\"{\"items\":\"n\",\"onCloseRequested\":\"e\"}{\"Icon\":\"e\",\"isDisabled\":\"t\",\"onClick\":\"i\",\"renderActionMenu\":\"o\"}},\"CallToAction\":\"a.ZP\",\"EditCallout\":\"_.Z\",\"Education\":\"E.Z\",\"HighlightedUserLabel\":\"c.Z\",\"Media\":\"T.Z\",\"Place\":\"o.ZP\",\"PromotedDetails\":\"u.Z\",\"PromotedUserProfileCard\":\"L\",\"ReplyContext\":\"A.ZP\",\"RichContent\":\"P.Z\",\"SocialContext\":\"b.Z\",\"Text\":\"R.Z\",\"Tombstone\":\"g.Z\",\"Timestamp\":\"p.Z\",\"UserAvatar\":\"D.Z\",\"UserFollowIndicator\":\"U.Z\",\"UserName\":\"F.Z\",\"ArticleCard\":\"f.Z\"}",
+  "{\"ActionsBar\":\"C.Z\",\"ActionMenu\":\"function()\"{\"Icon\":\"e\",\"isDisabled\":\"t\",\"items\":\"n\",\"onOpen\":\"i\"}{\"const o=r.useCallback()\"{\"items\":\"n\",\"onCloseRequested\":\"e\"}{\"Icon\":\"e\",\"isDisabled\":\"t\",\"onClick\":\"i\",\"renderActionMenu\":\"o\"}},\"CallToAction\":\"a.ZP\",\"EditCallout\":\"_.Z\",\"Education\":\"E.Z\",\"HighlightedUserLabel\":\"c.Z\",\"Media\":\"T.Z\",\"Place\":\"o.ZP\",\"PromotedDetails\":\"u.Z\",\"PromotedUserProfileCard\":\"L\",\"ReplyContext\":\"A.ZP\",\"RichContent\":\"P.Z\",\"SocialContext\":\"b.Z\",\"Text\":\"R.Z\",\"Tombstone\":\"g.Z\",\"Timestamp\":\"p.Z\",\"UserAvatar\":\"F.Z\",\"UserFollowIndicator\":\"U.Z\",\"UserName\":\"D.Z\",\"ArticleCard\":\"f.Z\"}",
   {
     "People": "People",
     "Location": "Location"
