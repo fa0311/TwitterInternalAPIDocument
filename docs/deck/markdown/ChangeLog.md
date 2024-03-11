@@ -2228,3 +2228,20 @@
 - subscriptions_hide_ad_upsell_enabled<br>
 #### remove<br>
 - None<br>
+## 2024/03/11<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- rweb_spaceclient_v2_enabled<br>
+- subscriptions_report_ad_upsell_enabled<br>
+#### remove<br>
+- spaces_2022_h2_follow_host<br>
+- spaces_2022_h2_reactions_web_send<br>
+- spaces_2022_h2_spacebar_web_sidebar<br>
+- spaces_2022_h2_spacebar_web_topnavbar<br>
+- subscriptions_premium_hub_enabled<br>
+- voice_rooms_host_analytics_enabled<br>
