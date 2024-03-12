@@ -15195,6 +15195,18 @@
     }
   },
   {
+    "n": "54222",
+    "exports": {
+      "queryId": "zAkdSHbxadYt1Gg1phSQHA",
+      "operationName": "SentimentActionButtonMutation",
+      "operationType": "mutation",
+      "metadata": {
+        "featureSwitches": [],
+        "featureSwitch": {}
+      }
+    }
+  },
+  {
     "n": "26204",
     "exports": {
       "queryId": "Y4OJFP3aMw2Ge07Pkdl0qg",
@@ -15221,7 +15233,7 @@
   {
     "n": "80137",
     "exports": {
-      "queryId": "IDRgmFDaKDn9x736rs3nGQ",
+      "queryId": "KKERaM4l5ZxqjUBiNqZI-A",
       "operationName": "JobBookmarksContainerQuery",
       "operationType": "query",
       "metadata": {
@@ -15257,7 +15269,7 @@
   {
     "n": "95209",
     "exports": {
-      "queryId": "xky1HT8oc1yLKX4Dw63tnQ",
+      "queryId": "Az2Nelp_gmku6UTkTJRYAg",
       "operationName": "JobRecommendationsContainerQuery",
       "operationType": "query",
       "metadata": {
@@ -15269,7 +15281,7 @@
   {
     "n": "59942",
     "exports": {
-      "queryId": "kuU3TR7oh3mV0KWqU84XNQ",
+      "queryId": "tJI5ZVLxd7qD8d8Vh08jAQ",
       "operationName": "JobSearchQueryScreenJobsQuery",
       "operationType": "query",
       "metadata": {
@@ -15307,18 +15319,6 @@
     "exports": {
       "queryId": "kbp_ZCEctOJ20hfwWArSBA",
       "operationName": "RecommendationSettingsContinueButtonMutation",
-      "operationType": "mutation",
-      "metadata": {
-        "featureSwitches": [],
-        "featureSwitch": {}
-      }
-    }
-  },
-  {
-    "n": "54222",
-    "exports": {
-      "queryId": "zAkdSHbxadYt1Gg1phSQHA",
-      "operationName": "SentimentActionButtonMutation",
       "operationType": "mutation",
       "metadata": {
         "featureSwitches": [],

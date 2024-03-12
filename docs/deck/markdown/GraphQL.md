@@ -7321,6 +7321,17 @@ Login Required: `...`<br>
 `None`<br>
 #### queryId<br>
 `None`<br>
+## SentimentActionButtonMutation<br>
+Request URL: `https://twitter.com/i/api/graphql/zAkdSHbxadYt1Gg1phSQHA/SentimentActionButtonMutation`<br>
+Request Method: `POST`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
 ## AddJobTitleMutation<br>
 Request URL: `https://twitter.com/i/api/graphql/Y4OJFP3aMw2Ge07Pkdl0qg/AddJobTitleMutation`<br>
 Request Method: `POST`<br>
@@ -7344,7 +7355,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## JobBookmarksContainerQuery<br>
-Request URL: `https://twitter.com/i/api/graphql/IDRgmFDaKDn9x736rs3nGQ/JobBookmarksContainerQuery`<br>
+Request URL: `https://twitter.com/i/api/graphql/KKERaM4l5ZxqjUBiNqZI-A/JobBookmarksContainerQuery`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -7377,7 +7388,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## JobRecommendationsContainerQuery<br>
-Request URL: `https://twitter.com/i/api/graphql/xky1HT8oc1yLKX4Dw63tnQ/JobRecommendationsContainerQuery`<br>
+Request URL: `https://twitter.com/i/api/graphql/Az2Nelp_gmku6UTkTJRYAg/JobRecommendationsContainerQuery`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -7388,7 +7399,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## JobSearchQueryScreenJobsQuery<br>
-Request URL: `https://twitter.com/i/api/graphql/kuU3TR7oh3mV0KWqU84XNQ/JobSearchQueryScreenJobsQuery`<br>
+Request URL: `https://twitter.com/i/api/graphql/tJI5ZVLxd7qD8d8Vh08jAQ/JobSearchQueryScreenJobsQuery`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -7422,17 +7433,6 @@ Login Required: `...`<br>
 `None`<br>
 ## RecommendationSettingsContinueButtonMutation<br>
 Request URL: `https://twitter.com/i/api/graphql/kbp_ZCEctOJ20hfwWArSBA/RecommendationSettingsContinueButtonMutation`<br>
-Request Method: `POST`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-`None`<br>
-#### queryId<br>
-`None`<br>
-## SentimentActionButtonMutation<br>
-Request URL: `https://twitter.com/i/api/graphql/zAkdSHbxadYt1Gg1phSQHA/SentimentActionButtonMutation`<br>
 Request Method: `POST`<br>
 Login Required: `...`<br>
 ### Param<br>

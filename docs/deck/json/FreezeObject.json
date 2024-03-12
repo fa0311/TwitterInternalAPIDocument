@@ -3161,7 +3161,7 @@
     "manageView": "manageView",
     "settingsView": "settingsView"
   },
-  "{[D.Q.host]:{\"title\":\"Di.hostTitle\",\"maybePluralFormatter\":\"Ui\",\"capacity\":\"1\"},[D.Q.cohost]:{\"title\":\"Di.cohostTitle\",\"maybePluralFormatter\":\"zi\",\"capacity\":\"2\"},[D.Q.speaker]:{\"title\":\"Di.speakerTitle\",\"maybePluralFormatter\":\"Bi\",\"capacity\":\"10\"},[D.Q.listener]:{\"title\":\"Di.listenerTitle\",\"maybePluralFormatter\":\"Vi\",\"capacity\":-1}}",
+  "{[D.Q.host]:{\"title\":\"Di.hostTitle\",\"maybePluralFormatter\":\"Vi\",\"capacity\":\"1\"},[D.Q.cohost]:{\"title\":\"Di.cohostTitle\",\"maybePluralFormatter\":\"Ui\",\"capacity\":\"2\"},[D.Q.speaker]:{\"title\":\"Di.speakerTitle\",\"maybePluralFormatter\":\"zi\",\"capacity\":\"10\"},[D.Q.listener]:{\"title\":\"Di.listenerTitle\",\"maybePluralFormatter\":\"Bi\",\"capacity\":-1}}",
   {
     "small": "small",
     "medium": "medium"
@@ -3745,6 +3745,7 @@
     "BlockAd": "BlockAd",
     "MuteAd": "MuteAd",
     "DismissAd": "DismissAd",
+    "ReportAd": "ReportAd",
     "BookmarkFolders": "BookmarkFolders",
     "SidebarDefault": "SidebarDefault",
     "SidebarArticle": "SidebarArticle",
@@ -4622,10 +4623,10 @@
   },
   {
     "SENSITIVE": "v",
-    "BLOCKED": "g",
-    "BLOCKED_BY": "_"
+    "BLOCKED": "_",
+    "BLOCKED_BY": "g"
   },
-  "{[v]:\"y\",[g]:\"E\",[_]:\"I\"}",
+  "{[v]:\"y\",[_]:\"E\",[g]:\"I\"}",
   {
     "BROADCAST_MEDIA_TYPE": "broadcast",
     "VIDEO_MEDIA_TYPE": "video"
@@ -5327,6 +5328,7 @@
     "BlockAd": "BlockAd",
     "MuteAd": "MuteAd",
     "DismissAd": "DismissAd",
+    "ReportAd": "ReportAd",
     "BookmarkFolders": "BookmarkFolders",
     "SidebarDefault": "SidebarDefault",
     "SidebarArticle": "SidebarArticle",
@@ -5494,7 +5496,7 @@
     "SUCCESS": "rweb/safetyMode/FETCH_SAFETY_MODE_SETTINGS_SUCCESS",
     "FAILURE": "rweb/safetyMode/FETCH_SAFETY_MODE_SETTINGS_FAILURE"
   },
-  "{[I.ActionedTweets]:{\"backLocation\":\"A\",\"confirmationSheetHeadline\":\"()(0,c.X_)\"{\"screenName\":\"m\"}{\"screenName\":\"m\"}},[I.PreviewFlaggedTweets]:{\"backLocation\":\"x\",\"confirmationSheetHeadline\":\"S()\"{\"screenName\":\"m\"}{\"screenName\":\"m\"}}}",
+  "{[I.ActionedTweets]:{\"backLocation\":\"A\",\"confirmationSheetHeadline\":\"()(0,o.X_)\"{\"screenName\":\"m\"}{\"screenName\":\"m\"}},[I.PreviewFlaggedTweets]:{\"backLocation\":\"x\",\"confirmationSheetHeadline\":\"S()\"{\"screenName\":\"m\"}{\"screenName\":\"m\"}}}",
   {
     "ActionedTweets": "actioned_tweets",
     "PreviewFlaggedTweets": "preview_flagged_tweets"
@@ -5680,6 +5682,7 @@
     "BlockAd": "BlockAd",
     "MuteAd": "MuteAd",
     "DismissAd": "DismissAd",
+    "ReportAd": "ReportAd",
     "BookmarkFolders": "BookmarkFolders",
     "SidebarDefault": "SidebarDefault",
     "SidebarArticle": "SidebarArticle",
@@ -6157,7 +6160,7 @@
     "AppealSuspension": "appealsuspension",
     "Notification": "notification"
   },
-  "{\"ActionsBar\":\"C.Z\",\"ActionMenu\":\"function()\"{\"Icon\":\"e\",\"isDisabled\":\"t\",\"items\":\"n\",\"onOpen\":\"i\"}{\"const o=r.useCallback()\"{\"items\":\"n\",\"onCloseRequested\":\"e\"}{\"Icon\":\"e\",\"isDisabled\":\"t\",\"onClick\":\"i\",\"renderActionMenu\":\"o\"}},\"CallToAction\":\"a.ZP\",\"EditCallout\":\"_.Z\",\"Education\":\"E.Z\",\"HighlightedUserLabel\":\"c.Z\",\"Media\":\"T.Z\",\"Place\":\"o.ZP\",\"PromotedDetails\":\"u.Z\",\"PromotedUserProfileCard\":\"L\",\"ReplyContext\":\"A.ZP\",\"RichContent\":\"P.Z\",\"SocialContext\":\"b.Z\",\"Text\":\"R.Z\",\"Tombstone\":\"g.Z\",\"Timestamp\":\"p.Z\",\"UserAvatar\":\"D.Z\",\"UserFollowIndicator\":\"U.Z\",\"UserName\":\"M.Z\",\"ArticleCard\":\"f.Z\"}",
+  "{\"ActionsBar\":\"C.Z\",\"ActionMenu\":\"function()\"{\"Icon\":\"e\",\"isDisabled\":\"t\",\"items\":\"n\",\"onOpen\":\"i\"}{\"const o=r.useCallback()\"{\"items\":\"n\",\"onCloseRequested\":\"e\"}{\"Icon\":\"e\",\"isDisabled\":\"t\",\"onClick\":\"i\",\"renderActionMenu\":\"o\"}},\"CallToAction\":\"a.ZP\",\"EditCallout\":\"_.Z\",\"Education\":\"E.Z\",\"HighlightedUserLabel\":\"c.Z\",\"Media\":\"T.Z\",\"Place\":\"o.ZP\",\"PromotedDetails\":\"u.Z\",\"PromotedUserProfileCard\":\"L\",\"ReplyContext\":\"A.ZP\",\"RichContent\":\"P.Z\",\"SocialContext\":\"b.Z\",\"Text\":\"R.Z\",\"Tombstone\":\"g.Z\",\"Timestamp\":\"p.Z\",\"UserAvatar\":\"M.Z\",\"UserFollowIndicator\":\"U.Z\",\"UserName\":\"D.Z\",\"ArticleCard\":\"f.Z\"}",
   {
     "People": "People",
     "Location": "Location"
@@ -6235,7 +6238,7 @@
     "CITIES": "3",
     "POSTAL_CODES": "4"
   },
-  "{[v.cU.CurrentCountryMatch]:\"0\",[v.cU.Match]:\"1\",[v.cU.NoMatch]:\"2\"}",
+  "{[P.cU.CurrentCountryMatch]:\"0\",[P.cU.Match]:\"1\",[P.cU.NoMatch]:\"2\"}",
   {
     "13 to 19": "m().d267afa2",
     "20 to 29": "m().db81cab0",
@@ -6407,10 +6410,6 @@
     "yellow0": "yellow500",
     "gray0": "gray500",
     "gray100": "gray600"
-  },
-  {
-    "single_line": "singleline",
-    "format_inline": "format-inline"
   },
   {
     "Recommendations": "recommendations",
@@ -6877,6 +6876,7 @@
     "BlockAd": "BlockAd",
     "MuteAd": "MuteAd",
     "DismissAd": "DismissAd",
+    "ReportAd": "ReportAd",
     "BookmarkFolders": "BookmarkFolders",
     "SidebarDefault": "SidebarDefault",
     "SidebarArticle": "SidebarArticle",
@@ -6954,6 +6954,7 @@
     "BlockAd": "BlockAd",
     "MuteAd": "MuteAd",
     "DismissAd": "DismissAd",
+    "ReportAd": "ReportAd",
     "BookmarkFolders": "BookmarkFolders",
     "SidebarDefault": "SidebarDefault",
     "SidebarArticle": "SidebarArticle",

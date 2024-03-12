@@ -1880,6 +1880,9 @@
       "rweb_sidebar_lower_whats_happening_enabled": {
         "value": "false"
       },
+      "rweb_spaceclient_v2_enabled": {
+        "value": "false"
+      },
       "rweb_tweets_boosting_enabled": {
         "value": "false"
       },
@@ -2056,20 +2059,8 @@
       "spaces_2022_h2_clipping_duration_seconds": {
         "value": "30"
       },
-      "spaces_2022_h2_follow_host": {
-        "value": "true"
-      },
-      "spaces_2022_h2_reactions_web_send": {
-        "value": "true"
-      },
       "spaces_2022_h2_spacebar_use_mock_data": {
         "value": "false"
-      },
-      "spaces_2022_h2_spacebar_web_sidebar": {
-        "value": "true"
-      },
-      "spaces_2022_h2_spacebar_web_topnavbar": {
-        "value": "purple"
       },
       "spaces_2022_h2_spaces_communities": {
         "value": "true"
@@ -2200,9 +2191,6 @@
       "subscriptions_mute_ad_upsell_enabled": {
         "value": "true"
       },
-      "subscriptions_premium_hub_enabled": {
-        "value": "true"
-      },
       "subscriptions_premium_tiers_default_product": {
         "value": "BlueVerifiedPlus"
       },
@@ -2210,6 +2198,9 @@
         "value": "true"
       },
       "subscriptions_premium_tiers_marketing_page_enabled": {
+        "value": "true"
+      },
+      "subscriptions_report_ad_upsell_enabled": {
         "value": "true"
       },
       "subscriptions_sign_up_enabled": {
@@ -2632,9 +2623,6 @@
       },
       "voice_rooms_employee_only_enabled": {
         "value": "false"
-      },
-      "voice_rooms_host_analytics_enabled": {
-        "value": "true"
       },
       "voice_rooms_recent_search_audiospace_ring_enabled": {
         "value": "true"
@@ -4028,7 +4016,7 @@
           "value": "true"
         },
         "responsive_web_grok_sticky_mode_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "responsive_web_grok_trends_design_enabled": {
           "value": "false"
@@ -4465,6 +4453,9 @@
         "rweb_sidebar_lower_whats_happening_enabled": {
           "value": "false"
         },
+        "rweb_spaceclient_v2_enabled": {
+          "value": "false"
+        },
         "rweb_tweets_boosting_enabled": {
           "value": "false"
         },
@@ -4641,20 +4632,8 @@
         "spaces_2022_h2_clipping_duration_seconds": {
           "value": "30"
         },
-        "spaces_2022_h2_follow_host": {
-          "value": "true"
-        },
-        "spaces_2022_h2_reactions_web_send": {
-          "value": "true"
-        },
         "spaces_2022_h2_spacebar_use_mock_data": {
           "value": "false"
-        },
-        "spaces_2022_h2_spacebar_web_sidebar": {
-          "value": "true"
-        },
-        "spaces_2022_h2_spacebar_web_topnavbar": {
-          "value": "purple"
         },
         "spaces_2022_h2_spaces_communities": {
           "value": "true"
@@ -4785,9 +4764,6 @@
         "subscriptions_mute_ad_upsell_enabled": {
           "value": "true"
         },
-        "subscriptions_premium_hub_enabled": {
-          "value": "true"
-        },
         "subscriptions_premium_tiers_default_product": {
           "value": "BlueVerifiedPlus"
         },
@@ -4795,6 +4771,9 @@
           "value": "true"
         },
         "subscriptions_premium_tiers_marketing_page_enabled": {
+          "value": "true"
+        },
+        "subscriptions_report_ad_upsell_enabled": {
           "value": "true"
         },
         "subscriptions_sign_up_enabled": {
@@ -5218,9 +5197,6 @@
         "voice_rooms_employee_only_enabled": {
           "value": "false"
         },
-        "voice_rooms_host_analytics_enabled": {
-          "value": "true"
-        },
         "voice_rooms_recent_search_audiospace_ring_enabled": {
           "value": "false"
         },
@@ -5285,10 +5261,10 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "10ead37ee21ec59e8ed11386c1835c97"
+      "settingsVersion": "d4e57e2e88326b6e9329a7b7553c4d52"
     },
     "debug": {},
-    "featureSetToken": "86fec77a584476016f1d0e84ce0f20656effcce1",
+    "featureSetToken": "9e067eab21e4ee40938a2b310d5e53aac659600c",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -5358,7 +5334,7 @@
     "country": "XX",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "171010499825234459",
+    "guestId": "171019150984355336",
     "hasCommunityMemberships": "false",
     "language": "en",
     "ssoInitTokens": {},
