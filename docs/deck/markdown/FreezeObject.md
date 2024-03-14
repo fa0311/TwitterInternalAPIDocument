@@ -2830,6 +2830,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | blue600            | blue600            |
 | blue700            | blue700            |
 | blue900            | blue900            |
+| gray100            | gray100            |
 | gray700            | gray700            |
 | gray900            | gray900            |
 | gray1100           | gray1100           |
