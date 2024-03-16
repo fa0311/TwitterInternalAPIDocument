@@ -2532,7 +2532,7 @@
     "manageView": "manageView",
     "settingsView": "settingsView"
   },
-  "{[V.Q.host]:{\"title\":\"Hi.hostTitle\",\"maybePluralFormatter\":\"Vi\",\"capacity\":\"1\"},[V.Q.cohost]:{\"title\":\"Hi.cohostTitle\",\"maybePluralFormatter\":\"Di\",\"capacity\":\"2\"},[V.Q.speaker]:{\"title\":\"Hi.speakerTitle\",\"maybePluralFormatter\":\"Bi\",\"capacity\":\"10\"},[V.Q.listener]:{\"title\":\"Hi.listenerTitle\",\"maybePluralFormatter\":\"Oi\",\"capacity\":-1}}",
+  "{[V.Q.host]:{\"title\":\"Vi.hostTitle\",\"maybePluralFormatter\":\"Di\",\"capacity\":\"1\"},[V.Q.cohost]:{\"title\":\"Vi.cohostTitle\",\"maybePluralFormatter\":\"Bi\",\"capacity\":\"2\"},[V.Q.speaker]:{\"title\":\"Vi.speakerTitle\",\"maybePluralFormatter\":\"Oi\",\"capacity\":\"10\"},[V.Q.listener]:{\"title\":\"Vi.listenerTitle\",\"maybePluralFormatter\":\"zi\",\"capacity\":-1}}",
   {
     "small": "small",
     "medium": "medium"
@@ -2542,7 +2542,7 @@
     "peopleYouFollow": "peopleYouFollow",
     "everyone": "everyone"
   },
-  "{[xs.onlyInvited]:\"0\",[xs.peopleYouFollow]:\"1\",[xs.everyone]:\"2\"}",
+  "{[Ts.onlyInvited]:\"0\",[Ts.peopleYouFollow]:\"1\",[Ts.everyone]:\"2\"}",
   {
     "host": "host",
     "cohost": "cohost",
@@ -6190,6 +6190,20 @@
   {
     "TopicCategory": "topic_category",
     "Topic": "topic"
+  },
+  {
+    "primary0": "primary",
+    "blue0": "blue500",
+    "green0": "green500",
+    "magenta0": "magenta500",
+    "orange0": "orange500",
+    "plum0": "plum500",
+    "purple0": "purple500",
+    "red0": "red500",
+    "teal0": "teal500",
+    "yellow0": "yellow500",
+    "gray0": "gray500",
+    "gray100": "gray600"
   },
   {
     "ACCOUNTS": "Accounts",
