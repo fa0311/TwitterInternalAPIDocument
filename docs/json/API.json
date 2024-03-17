@@ -1332,6 +1332,12 @@
         "responsive_web_graphql_timeline_navigation_enabled": true
       }
     },
+    "PinTweet": {
+      "url": "https://twitter.com/i/api/graphql/VIHsNu89pK-kW35JpHq7Xw/PinTweet",
+      "queryId": "VIHsNu89pK-kW35JpHq7Xw",
+      "method": "POST",
+      "features": {}
+    },
     "PinnedTimelines": {
       "url": "https://twitter.com/i/api/graphql/OnFhOoO-fqqzg7fkNbVFuA/PinnedTimelines",
       "queryId": "OnFhOoO-fqqzg7fkNbVFuA",
@@ -1835,6 +1841,12 @@
         "responsive_web_graphql_skip_user_profile_image_extensions_enabled": false,
         "responsive_web_graphql_timeline_navigation_enabled": true
       }
+    },
+    "UnpinTweet": {
+      "url": "https://twitter.com/i/api/graphql/BhKei844ypCyLYCg0nwigw/UnpinTweet",
+      "queryId": "BhKei844ypCyLYCg0nwigw",
+      "method": "POST",
+      "features": {}
     },
     "UnsubscribeFromScheduledSpace": {
       "url": "https://twitter.com/i/api/graphql/Zevhh76Msw574ZSs2NQHGQ/UnsubscribeFromScheduledSpace",

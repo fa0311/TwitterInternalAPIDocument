@@ -3149,3 +3149,15 @@
 - rweb_mixed_media_uploads_enabled<br>
 #### remove<br>
 - None<br>
+## 2024/03/16<br>
+### API<br>
+#### add<br>
+- PinTweet<br>
+- UnpinTweet<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- responsive_web_messages_next_enabled<br>
+#### remove<br>
+- responsive_web_third_party_sso_buttons_enabled<br>
