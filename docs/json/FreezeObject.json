@@ -5955,9 +5955,9 @@
     "marketing": "m",
     "sales_am": "p",
     "operations": "h",
-    "people_hr": "S",
-    "finance_accounting": "g",
-    "legal_compliance": "v",
+    "people_hr": "v",
+    "finance_accounting": "S",
+    "legal_compliance": "g",
     "science_engineering": "O",
     "medical": "j",
     "construction_trades": "w",
@@ -5975,15 +5975,18 @@
   {
     "onsite": {
       "label": "I",
-      "description": "F"
+      "description": "F",
+      "value": "onsite"
     },
     "remote": {
       "label": "x",
-      "description": "Q"
+      "description": "Q",
+      "value": "remote"
     },
     "hybrid": {
       "label": "W",
-      "description": "P"
+      "description": "P",
+      "value": "hybrid"
     }
   },
   {
@@ -6933,9 +6936,11 @@
     "Reserved7": "Reserved7"
   },
   {
+    "xSmall": "xSmall",
     "small": "small",
-    "medium": "medium",
-    "large": "large"
+    "normal": "normal",
+    "large": "large",
+    "xLarge": "xLarge"
   },
   {
     "keyword": "keyword",
