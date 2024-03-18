@@ -2256,3 +2256,19 @@
 - rweb_live_broadcast_rewind_enabled<br>
 #### remove<br>
 - None<br>
+## 2024/03/18<br>
+### API<br>
+#### add<br>
+- PinTweet<br>
+- UnpinTweet<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- recruiting_search_filters_enabled<br>
+- responsive_web_messages_next_enabled<br>
+- responsive_web_twitter_article_reader_enabled<br>
+- rweb_mixed_media_uploads_enabled<br>
+- subscriptions_premium_experiment_nav_text<br>
+#### remove<br>
+- responsive_web_third_party_sso_buttons_enabled<br>
