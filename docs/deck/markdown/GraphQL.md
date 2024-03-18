@@ -2838,6 +2838,17 @@ Login Required: `...`<br>
 
 #### queryId<br>
 `None`<br>
+## PinTweet<br>
+Request URL: `https://twitter.com/i/api/graphql/VIHsNu89pK-kW35JpHq7Xw/PinTweet`<br>
+Request Method: `POST`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
 ## PinnedTimelines<br>
 Request URL: `https://twitter.com/i/api/graphql/OnFhOoO-fqqzg7fkNbVFuA/PinnedTimelines`<br>
 Request Method: `GET`<br>
@@ -3544,6 +3555,17 @@ Login Required: `...`<br>
 | responsive_web_graphql_skip_user_profile_image_extensions_enabled | boolean | False      |
 | responsive_web_graphql_timeline_navigation_enabled                | boolean | True       |
 
+#### queryId<br>
+`None`<br>
+## UnpinTweet<br>
+Request URL: `https://twitter.com/i/api/graphql/BhKei844ypCyLYCg0nwigw/UnpinTweet`<br>
+Request Method: `POST`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
 #### queryId<br>
 `None`<br>
 ## UnsubscribeFromScheduledSpace<br>
