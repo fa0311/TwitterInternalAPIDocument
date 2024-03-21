@@ -124,7 +124,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant   | value   |
 |:-----------|:--------|
-| ...d       | _       |
+| ...n       | _       |
 
 | constant   | value   |
 |:-----------|:--------|
@@ -1991,7 +1991,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{"isExternal()"{"try"{const d=l();return this._customIsExternal?this._customIsExternal(e,n){"hrefHostname":"d","href":"e"}}"catch()"{"return!0"}},"setIsExternal()"{"this._customIsExternal=e"},"clearIsExternal()"{"this._customIsExternal=null"},"onLinkClick()"{"this._customOnLinkClick&&this._customOnL...
+{"isExternal()"{"try"{const n=l();return this._customIsExternal?this._customIsExternal(e,d){"hrefHostname":"n","href":"e"}}"catch()"{"return!0"}},"setIsExternal()"{"this._customIsExternal=e"},"clearIsExternal()"{"this._customIsExternal=null"},"onLinkClick()"{"this._customOnLinkClick&&this._customOnL...
 ```
 | constant   | value     |
 |:-----------|:----------|
@@ -2342,14 +2342,14 @@ This document is entirely auto-generated and may contain errors.<br>
 | fontWeights         | b       |
 | lineHeights         | D       |
 | lineHeightsPx       | A       |
-| scales              | n       |
-| scaleMultiplier     | d       |
+| scales              | d       |
+| scaleMultiplier     | n       |
 | spaces              | w       |
 | spacesPx            | S       |
 
 ```internal process
 # Error
-{"...p()":{"scale":"l","scales":"o"}"rn0",A.obd,n,"a"}
+{"...p()":{"scale":"l","scales":"o"}"rd0",A.obn,d,"a"}
 ```
 | constant     |   value |
 |:-------------|--------:|
@@ -2610,7 +2610,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{[V.Q.host]:{"title":"Vi.hostTitle","maybePluralFormatter":"Di","capacity":"1"},[V.Q.cohost]:{"title":"Vi.cohostTitle","maybePluralFormatter":"Bi","capacity":"2"},[V.Q.speaker]:{"title":"Vi.speakerTitle","maybePluralFormatter":"Oi","capacity":"10"},[V.Q.listener]:{"title":"Vi.listenerTitle","maybePl...
+{[V.Q.host]:{"title":"Vi.hostTitle","maybePluralFormatter":"Di","capacity":"1"},[V.Q.cohost]:{"title":"Vi.cohostTitle","maybePluralFormatter":"Oi","capacity":"2"},[V.Q.speaker]:{"title":"Vi.speakerTitle","maybePluralFormatter":"Bi","capacity":"10"},[V.Q.listener]:{"title":"Vi.listenerTitle","maybePl...
 ```
 | constant   | value   |
 |:-----------|:--------|
@@ -2633,6 +2633,12 @@ This document is entirely auto-generated and may contain errors.<br>
 | cohost     | cohost   |
 | speaker    | speaker  |
 | listener   | listener |
+
+| constant   | value             |
+|:-----------|:------------------|
+| AUDIO      | visual_audio      |
+| CONFERENCE | conference_spaces |
+| VIDEO      | video_spaces      |
 
 | constant   | value    |
 |:-----------|:---------|
@@ -4171,38 +4177,6 @@ This document is entirely auto-generated and may contain errors.<br>
 | Market     |       3 |
 | Access     |       4 |
 
-| constant   | value     |
-|:-----------|:----------|
-| follow     | follow    |
-| like       | like      |
-| reply      | reply     |
-| retweet    | retweet   |
-| generic    | generic   |
-| dmshare    | dmshare   |
-| subscribe  | subscribe |
-| topic      | topic     |
-| community  | community |
-| bookmark   | bookmark  |
-
-| constant                | value                      |
-|:------------------------|:---------------------------|
-| BannerSwitchToApp       | banner_switch_to_app       |
-| InterstitialSwitchToApp | interstitial_switch_to_app |
-| NuxAppDownload          | NUX-app-download           |
-| SwitchToAppFooter       | switch-to-app-footer       |
-| UseApp                  | use-app                    |
-| UseAppExtended          | use-app-extended           |
-| SwitchToAppHigh7        | switch_to_app_high_7       |
-| SwitchToAppHigh1        | switch_to_app_high_1       |
-| SwitchToAppHigh2        | switch_to_app_high_2       |
-| SwitchToAppHigh3        | switch_to_app_high_3       |
-| SwitchToAppHigh5        | switch_to_app_high_5       |
-| SwitchToAppLow7         | switch_to_app_low_7        |
-| SwitchToAppLow1         | switch_to_app_low_1        |
-| SwitchToAppLow3         | switch_to_app_low_3        |
-| SwitchToAppLow5         | switch_to_app_low_5        |
-| SwitchToAppLow9         | switch_to_app_low_9        |
-
 | constant              | value                                                                                                                                                                                                                                                         |
 |:----------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | openKeyboardShortcuts | ?                                                                                                                                                                                                                                                             |
@@ -5069,8 +5043,8 @@ This document is entirely auto-generated and may contain errors.<br>
 | constant   | value   |
 |:-----------|:--------|
 | MEDIA      | bt      |
-| GIFS       | ht      |
-| TWEETS     | vt      |
+| GIFS       | gt      |
+| TWEETS     | Et      |
 
 | constant    | value       |
 |:------------|:------------|
@@ -6541,7 +6515,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant    | value     |
 |:------------|:----------|
-| fetchStatus | W.ZP.NONE |
+| fetchStatus | q.ZP.NONE |
 | config      | Ia        |
 
 ```internal process
@@ -6806,38 +6780,6 @@ This document is entirely auto-generated and may contain errors.<br>
 | People     | People   |
 | Location   | Location |
 
-| constant   | value     |
-|:-----------|:----------|
-| follow     | follow    |
-| like       | like      |
-| reply      | reply     |
-| retweet    | retweet   |
-| generic    | generic   |
-| dmshare    | dmshare   |
-| subscribe  | subscribe |
-| topic      | topic     |
-| community  | community |
-| bookmark   | bookmark  |
-
-| constant                | value                      |
-|:------------------------|:---------------------------|
-| BannerSwitchToApp       | banner_switch_to_app       |
-| InterstitialSwitchToApp | interstitial_switch_to_app |
-| NuxAppDownload          | NUX-app-download           |
-| SwitchToAppFooter       | switch-to-app-footer       |
-| UseApp                  | use-app                    |
-| UseAppExtended          | use-app-extended           |
-| SwitchToAppHigh7        | switch_to_app_high_7       |
-| SwitchToAppHigh1        | switch_to_app_high_1       |
-| SwitchToAppHigh2        | switch_to_app_high_2       |
-| SwitchToAppHigh3        | switch_to_app_high_3       |
-| SwitchToAppHigh5        | switch_to_app_high_5       |
-| SwitchToAppLow7         | switch_to_app_low_7        |
-| SwitchToAppLow1         | switch_to_app_low_1        |
-| SwitchToAppLow3         | switch_to_app_low_3        |
-| SwitchToAppLow5         | switch_to_app_low_5        |
-| SwitchToAppLow9         | switch_to_app_low_9        |
-
 | constant                | value                   |
 |:------------------------|:------------------------|
 | AllOfTheseWords         | allOfTheseWords         |
@@ -7056,41 +6998,9 @@ This document is entirely auto-generated and may contain errors.<br>
 | SUCCESS    | rweb/promotedContent/LOG_SUCCESS |
 | FAILURE    | rweb/promotedContent/LOG_FAILURE |
 
-| constant   | value     |
-|:-----------|:----------|
-| follow     | follow    |
-| like       | like      |
-| reply      | reply     |
-| retweet    | retweet   |
-| generic    | generic   |
-| dmshare    | dmshare   |
-| subscribe  | subscribe |
-| topic      | topic     |
-| community  | community |
-| bookmark   | bookmark  |
-
-| constant                | value                      |
-|:------------------------|:---------------------------|
-| BannerSwitchToApp       | banner_switch_to_app       |
-| InterstitialSwitchToApp | interstitial_switch_to_app |
-| NuxAppDownload          | NUX-app-download           |
-| SwitchToAppFooter       | switch-to-app-footer       |
-| UseApp                  | use-app                    |
-| UseAppExtended          | use-app-extended           |
-| SwitchToAppHigh7        | switch_to_app_high_7       |
-| SwitchToAppHigh1        | switch_to_app_high_1       |
-| SwitchToAppHigh2        | switch_to_app_high_2       |
-| SwitchToAppHigh3        | switch_to_app_high_3       |
-| SwitchToAppHigh5        | switch_to_app_high_5       |
-| SwitchToAppLow7         | switch_to_app_low_7        |
-| SwitchToAppLow1         | switch_to_app_low_1        |
-| SwitchToAppLow3         | switch_to_app_low_3        |
-| SwitchToAppLow5         | switch_to_app_low_5        |
-| SwitchToAppLow9         | switch_to_app_low_9        |
-
 ```internal process
 # Error
-{[o.sj.AMPLIFY]:{"conversionHandler":"()"{"cardId":"e","cardType":"t","converterOptions":"a","data":"i"}{"const s=()(0,r.FL)",l=parseInt(i,\"image_value\",\"player_image_original\")/parseInt(0,r.SIi,\"string_value\",\"player_width\",10),d=(0,r.SIi,\"string_value\",\"player_height\",10)(0,r.SI),_=(i,...
+{[o.sj.AMPLIFY]:{"conversionHandler":"()"{"cardId":"e","cardType":"t","converterOptions":"a","data":"i"}{"const s=()(0,r.FL)",d=parseInt(i,\"image_value\",\"player_image_original\")/parseInt(0,r.SIi,\"string_value\",\"player_width\",10),l=(0,r.SIi,\"string_value\",\"player_height\",10)(0,r.SI),_=(i,...
 ```
 | constant         | value            |
 |:-----------------|:-----------------|
