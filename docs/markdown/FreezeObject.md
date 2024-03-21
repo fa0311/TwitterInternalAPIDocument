@@ -6239,9 +6239,9 @@ This document is entirely auto-generated and may contain errors.<br>
 | marketing            | m       |
 | sales_am             | p       |
 | operations           | h       |
-| people_hr            | S       |
-| finance_accounting   | g       |
-| legal_compliance     | v       |
+| people_hr            | v       |
+| finance_accounting   | S       |
+| legal_compliance     | g       |
 | science_engineering  | O       |
 | medical              | j       |
 | construction_trades  | w       |
@@ -6257,11 +6257,11 @@ This document is entirely auto-generated and may contain errors.<br>
 | manager     | A       |
 | executive   | R       |
 
-| constant   | value                              |
-|:-----------|:-----------------------------------|
-| onsite     | {'label': 'I', 'description': 'F'} |
-| remote     | {'label': 'x', 'description': 'Q'} |
-| hybrid     | {'label': 'W', 'description': 'P'} |
+| constant   | value                                                 |
+|:-----------|:------------------------------------------------------|
+| onsite     | {'label': 'I', 'description': 'F', 'value': 'onsite'} |
+| remote     | {'label': 'x', 'description': 'Q', 'value': 'remote'} |
+| hybrid     | {'label': 'W', 'description': 'P', 'value': 'hybrid'} |
 
 | constant           | value   |
 |:-------------------|:--------|
@@ -7259,9 +7259,11 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant   | value   |
 |:-----------|:--------|
+| xSmall     | xSmall  |
 | small      | small   |
-| medium     | medium  |
+| normal     | normal  |
 | large      | large   |
+| xLarge     | xLarge  |
 
 | constant   | value    |
 |:-----------|:---------|
