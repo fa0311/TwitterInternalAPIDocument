@@ -6393,7 +6393,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant    | value     |
 |:------------|:----------|
-| fetchStatus | W.ZP.NONE |
+| fetchStatus | q.ZP.NONE |
 | config      | Ia        |
 
 ```internal process
