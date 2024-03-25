@@ -2283,3 +2283,17 @@
 - responsive_web_messages_search_enabled<br>
 #### remove<br>
 - None<br>
+## 2024/03/25<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- communities_enable_explore_topic_carousel<br>
+- communities_web_enable_tweet_community_results_fetch<br>
+- responsive_web_twitter_article_plain_text_enabled<br>
+- rweb_scheduled_spaces_enabled<br>
+#### remove<br>
+- None<br>
