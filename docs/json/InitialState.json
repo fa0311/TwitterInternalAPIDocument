@@ -520,6 +520,9 @@
       "communities_enable_explore_tab": {
         "value": "false"
       },
+      "communities_enable_explore_topic_carousel": {
+        "value": "false"
+      },
       "communities_show_broadcast_option_in_composer": {
         "value": "true"
       },
@@ -530,6 +533,9 @@
         "value": "true"
       },
       "communities_topics_enabled": {
+        "value": "true"
+      },
+      "communities_web_enable_tweet_community_results_fetch": {
         "value": "true"
       },
       "conversation_controls_my_subscribers_enabled": {
@@ -1732,6 +1738,9 @@
       "responsive_web_twitter_article_notes_tab_enabled": {
         "value": "true"
       },
+      "responsive_web_twitter_article_plain_text_enabled": {
+        "value": "true"
+      },
       "responsive_web_twitter_article_reader_enabled": {
         "value": "true"
       },
@@ -1877,6 +1886,9 @@
         "value": "false"
       },
       "rweb_recommendations_sidebar_graphql_enabled": {
+        "value": "false"
+      },
+      "rweb_scheduled_spaces_enabled": {
         "value": "false"
       },
       "rweb_search_media_enabled": {
@@ -3111,6 +3123,9 @@
         "communities_enable_explore_tab": {
           "value": "false"
         },
+        "communities_enable_explore_topic_carousel": {
+          "value": "false"
+        },
         "communities_show_broadcast_option_in_composer": {
           "value": "true"
         },
@@ -3121,6 +3136,9 @@
           "value": "true"
         },
         "communities_topics_enabled": {
+          "value": "true"
+        },
+        "communities_web_enable_tweet_community_results_fetch": {
           "value": "true"
         },
         "conversation_controls_my_subscribers_enabled": {
@@ -4323,6 +4341,9 @@
         "responsive_web_twitter_article_notes_tab_enabled": {
           "value": "true"
         },
+        "responsive_web_twitter_article_plain_text_enabled": {
+          "value": "true"
+        },
         "responsive_web_twitter_article_reader_enabled": {
           "value": "true"
         },
@@ -4468,6 +4489,9 @@
           "value": "false"
         },
         "rweb_recommendations_sidebar_graphql_enabled": {
+          "value": "false"
+        },
+        "rweb_scheduled_spaces_enabled": {
           "value": "false"
         },
         "rweb_search_media_enabled": {
@@ -5290,7 +5314,7 @@
       "settingsVersion": "8c5c232e1eb41ad639d62e32affa5b8a"
     },
     "debug": {},
-    "featureSetToken": "6a0f7b67fad2f225fe13f6df98e256ff0478272c",
+    "featureSetToken": "5f09580d72cd47c53e291cd56ac4a7fe3bdd4c1f",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -5360,7 +5384,7 @@
     "country": "XX",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "171131439740254172",
+    "guestId": "171140080898431292",
     "hasCommunityMemberships": "false",
     "language": "en",
     "ssoInitTokens": {},
