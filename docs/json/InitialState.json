@@ -3120,6 +3120,12 @@
         "card_detail_compact_enabled": {
           "value": "true"
         },
+        "communities_adult_content_setting_display": {
+          "value": "false"
+        },
+        "communities_adult_content_setting_enabled": {
+          "value": "false"
+        },
         "communities_enable_explore_tab": {
           "value": "false"
         },
@@ -5311,7 +5317,7 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "8c5c232e1eb41ad639d62e32affa5b8a"
+      "settingsVersion": "c1e386cf36348b572349d2ab8515a57a"
     },
     "debug": {},
     "featureSetToken": "5f09580d72cd47c53e291cd56ac4a7fe3bdd4c1f",
@@ -5384,7 +5390,7 @@
     "country": "XX",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "171140080898431292",
+    "guestId": "171148724942908278",
     "hasCommunityMemberships": "false",
     "language": "en",
     "ssoInitTokens": {},
