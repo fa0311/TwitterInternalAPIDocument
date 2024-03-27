@@ -747,24 +747,6 @@
     ]
   },
   {
-    "queryId": "media/metadata/create",
-    "dispatch_key": "post",
-    "dispatch": [
-      "post",
-      "",
-      "https://api.twitter.com/1.1/{queryId}.json"
-    ]
-  },
-  {
-    "queryId": "media/subtitles/create",
-    "dispatch_key": "post",
-    "dispatch": [
-      "post",
-      "",
-      "https://api.twitter.com/1.1/{queryId}.json"
-    ]
-  },
-  {
     "queryId": "account/personalization/twitter_interests",
     "dispatch_key": "get",
     "dispatch": [
@@ -784,6 +766,33 @@
   },
   {
     "queryId": "account/personalization/set_optout_cookies",
+    "dispatch_key": "get",
+    "dispatch": [
+      "get",
+      "",
+      "https://api.twitter.com/1.1/{queryId}.json"
+    ]
+  },
+  {
+    "queryId": "media/metadata/create",
+    "dispatch_key": "post",
+    "dispatch": [
+      "post",
+      "",
+      "https://api.twitter.com/1.1/{queryId}.json"
+    ]
+  },
+  {
+    "queryId": "media/subtitles/create",
+    "dispatch_key": "post",
+    "dispatch": [
+      "post",
+      "",
+      "https://api.twitter.com/1.1/{queryId}.json"
+    ]
+  },
+  {
+    "queryId": "geo/places",
     "dispatch_key": "get",
     "dispatch": [
       "get",
