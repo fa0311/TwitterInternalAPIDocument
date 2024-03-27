@@ -100,16 +100,6 @@
           }
         }
       }
-    },
-    "func_name": "u",
-    "func_name_init": "s",
-    "query": {
-      "trendId": "t.trendId",
-      "includePromotedContent": "!1",
-      "withBirdwatchNotes": "!1",
-      "withVoice": "!1",
-      "withCommunity": "!1",
-      "...()(0,r.d)": "_"
     }
   },
   {
@@ -123,10 +113,7 @@
         "fieldToggles": [],
         "featureSwitch": {}
       }
-    },
-    "func_name": "i",
-    "func_name_init": "o",
-    "query": {}
+    }
   },
   {
     "n": "23570",
@@ -139,11 +126,6 @@
         "fieldToggles": [],
         "featureSwitch": {}
       }
-    },
-    "func_name": "s",
-    "func_name_init": "l",
-    "query": {
-      "promptType": "t"
     }
   },
   {
@@ -482,10 +464,7 @@
           }
         }
       }
-    },
-    "func_name": "g",
-    "func_name_init": "h",
-    "query": "{\"articleEntityId\":\"i\",\"coverMedia\":\"l&&r?\"{\"media_id\":\"l\",\"media_category\":\"r\"}:\"void 0\"}"
+    }
   },
   {
     "n": "54052",
@@ -588,15 +567,6 @@
           }
         }
       }
-    },
-    "func_name": "A",
-    "func_name_init": "S",
-    "query": {
-      "userId": "r",
-      "count": "t",
-      "cursor": "d",
-      "includePromotedContent": "!1",
-      "...()(0,i.d)": "_"
     }
   },
   {
@@ -700,17 +670,10 @@
           }
         }
       }
-    },
-    "func_name": "c",
-    "func_name_init": "u",
-    "query": {
-      "...n": "_",
-      "...()(0,l.d)": "_",
-      "articleListSeedType": "r"
     }
   },
   {
-    "n": "6067",
+    "n": "06067",
     "exports": {
       "queryId": "i78YDd0Tza-dV4SYs58kRg",
       "operationName": "BookmarkFoldersSlice",
@@ -733,15 +696,10 @@
         "fieldToggles": [],
         "featureSwitch": {}
       }
-    },
-    "func_name": "h",
-    "func_name_init": "p",
-    "query": {
-      "...n": "_"
     }
   },
   {
-    "n": "8330",
+    "n": "08330",
     "exports": {
       "queryId": "IWgC8cIk7UDVsvlWm41ieA",
       "operationName": "Bookmarks",
@@ -845,14 +803,6 @@
           }
         }
       }
-    },
-    "func_name": "m",
-    "func_name_init": "b",
-    "query": {
-      "count": "t",
-      "cursor": "d",
-      "includePromotedContent": "!0",
-      "...()(0,o.d)": "_"
     }
   },
   {
@@ -956,11 +906,6 @@
           }
         }
       }
-    },
-    "func_name": "l",
-    "func_name_init": "i",
-    "query": {
-      "id": "n"
     }
   },
   {
@@ -1064,14 +1009,6 @@
           }
         }
       }
-    },
-    "func_name": "s",
-    "func_name_init": "l",
-    "query": {
-      "userId": "r",
-      "count": "t",
-      "cursor": "d",
-      "...()(0,o.d)": "_"
     }
   },
   {
@@ -1175,13 +1112,6 @@
           }
         }
       }
-    },
-    "func_name": "it",
-    "func_name_init": "ot",
-    "query": {
-      "...t": "_",
-      "withCommunity": "n.isTrue()",
-      "...(\"c9s_enabled\")(0,Qn.d)": "_"
     }
   },
   {
@@ -1285,13 +1215,6 @@
           }
         }
       }
-    },
-    "func_name": "st",
-    "func_name_init": "lt",
-    "query": {
-      "...t": "_",
-      "withCommunity": "!0",
-      "...()(0,Qn.d)": "_"
     }
   },
   {
@@ -1395,13 +1318,6 @@
           }
         }
       }
-    },
-    "func_name": "ct",
-    "func_name_init": "ut",
-    "query": {
-      "...t": "_",
-      "withCommunity": "n.isTrue()",
-      "...(\"c9s_enabled\")(0,Qn.d)": "_"
     }
   },
   {
@@ -1435,12 +1351,6 @@
           }
         }
       }
-    },
-    "func_name": "mt",
-    "func_name_init": "bt",
-    "query": {
-      "...()(0,Qn.S)": "_",
-      "...t": "_"
     }
   },
   {
@@ -1544,13 +1454,6 @@
           }
         }
       }
-    },
-    "func_name": "ht",
-    "func_name_init": "pt",
-    "query": {
-      "...t": "_",
-      "withCommunity": "n.isTrue()",
-      "...(\"c9s_enabled\")(0,Qn.d)": "_"
     }
   },
   {
@@ -1654,13 +1557,6 @@
           }
         }
       }
-    },
-    "func_name": "St",
-    "func_name_init": "gt",
-    "query": {
-      "...t": "_",
-      "withCommunity": "n.isTrue()",
-      "...(\"c9s_enabled\")(0,Qn.d)": "_"
     }
   },
   {
@@ -1737,14 +1633,6 @@
           }
         }
       }
-    },
-    "func_name": "u",
-    "func_name_init": "s",
-    "query": {
-      "communityId": "t.communityId",
-      "name": "t.name",
-      "description": "t.description",
-      "...()(0,i.S)": "_"
     }
   },
   {
@@ -1848,12 +1736,6 @@
           }
         }
       }
-    },
-    "func_name": "Dt",
-    "func_name_init": "wt",
-    "query": {
-      "withCommunity": "n.isTrue()",
-      "...(\"c9s_enabled\")(0,Qn.d)": "_"
     }
   },
   {
@@ -1887,13 +1769,6 @@
           }
         }
       }
-    },
-    "func_name": "b",
-    "func_name_init": "c",
-    "query": {
-      "communityId": "t.communityId",
-      "mediaId": "t.mediaId",
-      "...()(0,i.S)": "_"
     }
   },
   {
@@ -1927,17 +1802,10 @@
           }
         }
       }
-    },
-    "func_name": "p",
-    "func_name_init": "m",
-    "query": {
-      "communityId": "t.communityId",
-      "name": "t.name",
-      "...()(0,i.S)": "_"
     }
   },
   {
-    "n": "4228",
+    "n": "04228",
     "exports": {
       "queryId": "1bYccjtPTiehdB2cBDK8mw",
       "operationName": "CommunityEditPurpose",
@@ -1967,13 +1835,6 @@
           }
         }
       }
-    },
-    "func_name": "g",
-    "func_name_init": "h",
-    "query": {
-      "communityId": "t.communityId",
-      "description": "t.purpose",
-      "...()(0,i.S)": "_"
     }
   },
   {
@@ -2007,13 +1868,6 @@
           }
         }
       }
-    },
-    "func_name": "A",
-    "func_name_init": "S",
-    "query": {
-      "communityId": "t.communityId",
-      "question": "t.question",
-      "...()(0,i.S)": "_"
     }
   },
   {
@@ -2047,15 +1901,6 @@
           }
         }
       }
-    },
-    "func_name": "w",
-    "func_name_init": "_",
-    "query": {
-      "communityId": "t.communityId",
-      "ruleId": "t.ruleId",
-      "name": "t.name",
-      "description": "t.description",
-      "...()(0,i.S)": "_"
     }
   },
   {
@@ -2089,12 +1934,6 @@
           }
         }
       }
-    },
-    "func_name": "ft",
-    "func_name_init": "yt",
-    "query": {
-      "communityId": "t.communityId",
-      "...()(0,Qn.S)": "_"
     }
   },
   {
@@ -2198,17 +2037,10 @@
           }
         }
       }
-    },
-    "func_name": "Mt",
-    "func_name_init": "vt",
-    "query": {
-      "withCommunity": "n.isTrue()",
-      "...(\"c9s_enabled\")(0,Qn.d)": "_",
-      "...t": "_"
     }
   },
   {
-    "n": "793",
+    "n": "00793",
     "exports": {
       "queryId": "VrS7ikKsDI84HLH4Ojpe6Q",
       "operationName": "JoinCommunity",
@@ -2238,12 +2070,6 @@
           }
         }
       }
-    },
-    "func_name": "Ct",
-    "func_name_init": "Tt",
-    "query": {
-      "communityId": "t.communityId",
-      "...()(0,Qn.S)": "_"
     }
   },
   {
@@ -2277,12 +2103,6 @@
           }
         }
       }
-    },
-    "func_name": "Rt",
-    "func_name_init": "kt",
-    "query": {
-      "communityId": "t.communityId",
-      "...()(0,Qn.S)": "_"
     }
   },
   {
@@ -2386,13 +2206,6 @@
           }
         }
       }
-    },
-    "func_name": "Pt",
-    "func_name_init": "Et",
-    "query": {
-      "...t": "_",
-      "withCommunity": "n.isTrue()",
-      "...(\"c9s_enabled\")(0,Qn.d)": "_"
     }
   },
   {
@@ -2496,13 +2309,6 @@
           }
         }
       }
-    },
-    "func_name": "Lt",
-    "func_name_init": "It",
-    "query": {
-      "...t": "_",
-      "withCommunity": "n.isTrue()",
-      "...(\"c9s_enabled\")(0,Qn.d)": "_"
     }
   },
   {
@@ -2524,12 +2330,6 @@
           }
         }
       }
-    },
-    "func_name": "b",
-    "func_name_init": "c",
-    "query": {
-      "communityId": "n.communityId",
-      "prefix": "n.prefix"
     }
   },
   {
@@ -2563,12 +2363,6 @@
           }
         }
       }
-    },
-    "func_name": "Ot",
-    "func_name_init": "xt",
-    "query": {
-      "tweetId": "t.tweetId",
-      "...()(0,Qn.S)": "_"
     }
   },
   {
@@ -2672,13 +2466,6 @@
           }
         }
       }
-    },
-    "func_name": "Ft",
-    "func_name_init": "Bt",
-    "query": {
-      "...t": "_",
-      "withCommunity": "n.isTrue()",
-      "...(\"c9s_enabled\")(0,Qn.S)": "_"
     }
   },
   {
@@ -2712,12 +2499,6 @@
           }
         }
       }
-    },
-    "func_name": "y",
-    "func_name_init": "D",
-    "query": {
-      "communityId": "t.communityId",
-      "...()(0,i.S)": "_"
     }
   },
   {
@@ -2751,13 +2532,6 @@
           }
         }
       }
-    },
-    "func_name": "v",
-    "func_name_init": "f",
-    "query": {
-      "communityId": "t.communityId",
-      "ruleId": "t.ruleId",
-      "...()(0,i.S)": "_"
     }
   },
   {
@@ -2791,13 +2565,6 @@
           }
         }
       }
-    },
-    "func_name": "T",
-    "func_name_init": "M",
-    "query": {
-      "communityId": "t.communityId",
-      "ruleIds": "t.ruleIds",
-      "...()(0,i.S)": "_"
     }
   },
   {
@@ -2841,7 +2608,7 @@
     }
   },
   {
-    "n": "1773",
+    "n": "01773",
     "exports": {
       "queryId": "9_TIVz5kGkcOTDtjcCeo2g",
       "operationName": "CommunityTweetsLoggedOutTimeline",
@@ -2941,13 +2708,6 @@
           }
         }
       }
-    },
-    "func_name": "Ht",
-    "func_name_init": "Ut",
-    "query": {
-      "...t": "_",
-      "withCommunity": "n.isTrue()",
-      "...(\"c9s_enabled\")(0,Qn.d)": "_"
     }
   },
   {
@@ -3051,13 +2811,6 @@
           }
         }
       }
-    },
-    "func_name": "qt",
-    "func_name_init": "zt",
-    "query": {
-      "...t": "_",
-      "withCommunity": "n.isTrue()",
-      "...(\"c9s_enabled\")(0,Qn.d)": "_"
     }
   },
   {
@@ -3161,13 +2914,6 @@
           }
         }
       }
-    },
-    "func_name": "jt",
-    "func_name_init": "Vt",
-    "query": {
-      "...t": "_",
-      "withCommunity": "n.isTrue()",
-      "...(\"c9s_enabled\")(0,Qn.d)": "_"
     }
   },
   {
@@ -3201,12 +2947,6 @@
           }
         }
       }
-    },
-    "func_name": "Kt",
-    "func_name_init": "Wt",
-    "query": {
-      "...t": "_",
-      "...()(0,Qn.S)": "_"
     }
   },
   {
@@ -3228,12 +2968,6 @@
           }
         }
       }
-    },
-    "func_name": "Gt",
-    "func_name_init": "$t",
-    "query": {
-      "communityId": "n.communityId",
-      "userId": "n.userId"
     }
   },
   {
@@ -3255,16 +2989,10 @@
           }
         }
       }
-    },
-    "func_name": "p",
-    "func_name_init": "m",
-    "query": {
-      "communityId": "n.communityId",
-      "prefix": "n.prefix"
     }
   },
   {
-    "n": "993",
+    "n": "00993",
     "exports": {
       "queryId": "PTvowuqs4s0ZfUYSFxOHJw",
       "operationName": "ConnectTabTimeline",
@@ -3364,14 +3092,6 @@
           }
         }
       }
-    },
-    "func_name": "l",
-    "func_name_init": "i",
-    "query": {
-      "count": "d",
-      "cursor": "r",
-      "context": "t",
-      "...()(0,o.d)": "_"
     }
   },
   {
@@ -3398,6 +3118,12 @@
         "fieldToggles": [],
         "featureSwitch": {}
       }
+    },
+    "func_name": "b",
+    "func_name_init": "c",
+    "query": {
+      "articleEntityId": "i",
+      "title": "r"
     }
   },
   {
@@ -3424,12 +3150,6 @@
         "fieldToggles": [],
         "featureSwitch": {}
       }
-    },
-    "func_name": "S",
-    "func_name_init": "g",
-    "query": {
-      "audio_space_id": "t",
-      "sharing_id": "n"
     }
   },
   {
@@ -3443,11 +3163,6 @@
         "fieldToggles": [],
         "featureSwitch": {}
       }
-    },
-    "func_name": "r",
-    "func_name_init": "d",
-    "query": {
-      "post_tweet_request": "()(0,c.y)"
     }
   },
   {
@@ -3586,12 +3301,6 @@
         "fieldToggles": [],
         "featureSwitch": {}
       }
-    },
-    "func_name": "a",
-    "func_name_init": "r",
-    "query": {
-      "post_tweet_request": "r",
-      "execute_at": "m()"
     }
   },
   {
@@ -3605,10 +3314,7 @@
         "fieldToggles": [],
         "featureSwitch": {}
       }
-    },
-    "func_name": "i",
-    "func_name_init": "o",
-    "query": {}
+    }
   },
   {
     "n": "41165",
@@ -3823,11 +3529,6 @@
         "fieldToggles": [],
         "featureSwitch": {}
       }
-    },
-    "func_name": "c",
-    "func_name_init": "u",
-    "query": {
-      "device_id": "n"
     }
   },
   {
@@ -3851,7 +3552,7 @@
     }
   },
   {
-    "n": "8397",
+    "n": "08397",
     "exports": {
       "queryId": "skiACZKC1GDYli-M8RzEPQ",
       "operationName": "BookmarksAllDelete",
@@ -3861,12 +3562,6 @@
         "fieldToggles": [],
         "featureSwitch": {}
       }
-    },
-    "func_name": "_",
-    "func_name_init": "A",
-    "query": {
-      "content_state": "i",
-      "title": "r"
     }
   },
   {
@@ -3893,11 +3588,6 @@
         "fieldToggles": [],
         "featureSwitch": {}
       }
-    },
-    "func_name": "D",
-    "func_name_init": "w",
-    "query": {
-      "bookmark_collection_id": "t"
     }
   },
   {
@@ -3911,11 +3601,6 @@
         "fieldToggles": [],
         "featureSwitch": {}
       }
-    },
-    "func_name": "o",
-    "func_name_init": "a",
-    "query": {
-      "draft_tweet_id": "t"
     }
   },
   {
@@ -3945,7 +3630,7 @@
     }
   },
   {
-    "n": "828",
+    "n": "00828",
     "exports": {
       "queryId": "CTOVqej0JBXAZSwkp1US0g",
       "operationName": "DeleteScheduledTweet",
@@ -3981,10 +3666,7 @@
         "fieldToggles": [],
         "featureSwitch": {}
       }
-    },
-    "func_name": "a",
-    "func_name_init": "r",
-    "query": {}
+    }
   },
   {
     "n": "53927",
@@ -3997,12 +3679,6 @@
         "fieldToggles": [],
         "featureSwitch": {}
       }
-    },
-    "func_name": "h",
-    "func_name_init": "p",
-    "query": {
-      "userId": "t",
-      "dmNsfwMediaFilter": "n"
     }
   },
   {
@@ -4016,16 +3692,10 @@
         "fieldToggles": [],
         "featureSwitch": {}
       }
-    },
-    "func_name": "f",
-    "func_name_init": "y",
-    "query": {
-      "bookmark_collection_id": "t",
-      "name": "d"
     }
   },
   {
-    "n": "3960",
+    "n": "03960",
     "exports": {
       "queryId": "JIeXE-I6BZXHfxsgOkyHYQ",
       "operationName": "EditDraftTweet",
@@ -4035,12 +3705,6 @@
         "fieldToggles": [],
         "featureSwitch": {}
       }
-    },
-    "func_name": "l",
-    "func_name_init": "i",
-    "query": {
-      "draft_tweet_id": "t",
-      "post_tweet_request": "()(0,c.y)"
     }
   },
   {
@@ -4054,13 +3718,6 @@
         "fieldToggles": [],
         "featureSwitch": {}
       }
-    },
-    "func_name": "s",
-    "func_name_init": "l",
-    "query": {
-      "scheduled_tweet_id": "d",
-      "post_tweet_request": "a",
-      "execute_at": "m()"
     }
   },
   {
@@ -4074,13 +3731,10 @@
         "fieldToggles": [],
         "featureSwitch": {}
       }
-    },
-    "func_name": "i",
-    "func_name_init": "o",
-    "query": {}
+    }
   },
   {
-    "n": "7979",
+    "n": "07979",
     "exports": {
       "queryId": "ziuJ_PCuUtrWShT2y_54iw",
       "operationName": "ExplorePage",
@@ -4180,13 +3834,10 @@
           }
         }
       }
-    },
-    "func_name": "u",
-    "func_name_init": "s",
-    "query": "{\"cursor\":d?d.toString():\"\",\"context\":\"t\",\"...()(0,o.d)\":\"_\"}"
+    }
   },
   {
-    "n": "2976",
+    "n": "02976",
     "exports": {
       "queryId": "lI07N6Otwv1PhnEgXILM7A",
       "operationName": "FavoriteTweet",
@@ -4299,15 +3950,6 @@
           }
         }
       }
-    },
-    "func_name": "w",
-    "func_name_init": "_",
-    "query": {
-      "userId": "r",
-      "count": "t",
-      "cursor": "d",
-      "includePromotedContent": "!1",
-      "...()(0,i.d)": "_"
     }
   },
   {
@@ -4411,15 +4053,6 @@
           }
         }
       }
-    },
-    "func_name": "y",
-    "func_name_init": "D",
-    "query": {
-      "userId": "r",
-      "count": "t",
-      "cursor": "d",
-      "includePromotedContent": "!1",
-      "...()(0,i.d)": "_"
     }
   },
   {
@@ -4523,15 +4156,6 @@
           }
         }
       }
-    },
-    "func_name": "v",
-    "func_name_init": "f",
-    "query": {
-      "id": "n",
-      "isMetatagsQuery": "r",
-      "...()(0,i.d)": "_",
-      "withReplays": "!0",
-      "withListeners": "!s"
     }
   },
   {
@@ -4635,11 +4259,6 @@
           }
         }
       }
-    },
-    "func_name": "T",
-    "func_name_init": "M",
-    "query": {
-      "...t": "_"
     }
   },
   {
@@ -4656,7 +4275,7 @@
     }
   },
   {
-    "n": "9495",
+    "n": "09495",
     "exports": {
       "queryId": "fVIC9NDfk0-Auids8FlqQQ",
       "operationName": "CreateDeck",
@@ -4708,7 +4327,7 @@
     }
   },
   {
-    "n": "7241",
+    "n": "07241",
     "exports": {
       "queryId": "c20tuAQJznmUHtmOAvHLyA",
       "operationName": "RemoveDeck",
@@ -4773,7 +4392,7 @@
     }
   },
   {
-    "n": "36",
+    "n": "00036",
     "exports": {
       "queryId": "XW307yOKJINBAvlwOnLteg",
       "operationName": "UpdateDeck",
@@ -5118,19 +4737,6 @@
           }
         }
       }
-    },
-    "func_name": "o",
-    "func_name_init": "a",
-    "query": {
-      "userId": "a",
-      "count": "t",
-      "cursor": "d",
-      "includePromotedContent": "!1",
-      "...()(0,r.d)": "_",
-      "withClientEventToken": "!1",
-      "withBirdwatchNotes": "!1",
-      "withVoice": "n.isTrue(n)",
-      "withV2Timeline": "n.isTrue(\"voice_consumption_enabled\")"
     }
   },
   {
@@ -5164,13 +4770,6 @@
           }
         }
       }
-    },
-    "func_name": "c",
-    "func_name_init": "u",
-    "query": {
-      "listId": "a",
-      "userId": "l",
-      "...()(0,o.S)": "_"
     }
   },
   {
@@ -5204,12 +4803,6 @@
           }
         }
       }
-    },
-    "func_name": "m",
-    "func_name_init": "b",
-    "query": {
-      "listId": "a",
-      "...()(0,o.S)": "_"
     }
   },
   {
@@ -5243,13 +4836,6 @@
           }
         }
       }
-    },
-    "func_name": "h",
-    "func_name_init": "p",
-    "query": {
-      "listId": "a",
-      "mediaId": "l",
-      "...()(0,o.S)": "_"
     }
   },
   {
@@ -5283,17 +4869,10 @@
           }
         }
       }
-    },
-    "func_name": "S",
-    "func_name_init": "g",
-    "query": {
-      "screenName": "r",
-      "listSlug": "a",
-      "...()(0,o.S)": "_"
     }
   },
   {
-    "n": "4869",
+    "n": "04869",
     "exports": {
       "queryId": "EYg7JZU3A1eJ-wr2eygPHQ",
       "operationName": "CreateList",
@@ -5323,14 +4902,6 @@
           }
         }
       }
-    },
-    "func_name": "_",
-    "func_name_init": "A",
-    "query": {
-      "isPrivate": "private===l.toLowerCase()",
-      "name": "s",
-      "description": "a",
-      "...()(0,o.S)": "_"
     }
   },
   {
@@ -5447,11 +5018,6 @@
         "fieldToggles": [],
         "featureSwitch": {}
       }
-    },
-    "func_name": "f",
-    "func_name_init": "y",
-    "query": {
-      "listId": "d"
     }
   },
   {
@@ -5465,12 +5031,6 @@
         "fieldToggles": [],
         "featureSwitch": {}
       }
-    },
-    "func_name": "u",
-    "func_name_init": "s",
-    "query": {
-      "...t": "_",
-      "...n": "_"
     }
   },
   {
@@ -5780,10 +5340,7 @@
           }
         }
       }
-    },
-    "func_name": "R",
-    "func_name_init": "k",
-    "query": {}
+    }
   },
   {
     "n": "91283",
@@ -5886,10 +5443,7 @@
           }
         }
       }
-    },
-    "func_name": "P",
-    "func_name_init": "E",
-    "query": {}
+    }
   },
   {
     "n": "86263",
@@ -5902,11 +5456,6 @@
         "fieldToggles": [],
         "featureSwitch": {}
       }
-    },
-    "func_name": "L",
-    "func_name_init": "I",
-    "query": {
-      "...t": "_"
     }
   },
   {
@@ -6010,15 +5559,6 @@
           }
         }
       }
-    },
-    "func_name": "O",
-    "func_name_init": "x",
-    "query": {
-      "userId": "l",
-      "isListMemberTargetUserId": "i",
-      "count": "r",
-      "cursor": "a",
-      "...()(0,o.d)": "_"
     }
   },
   {
@@ -6052,12 +5592,6 @@
           }
         }
       }
-    },
-    "func_name": "F",
-    "func_name_init": "B",
-    "query": {
-      "listId": "t.list_id",
-      "...()(0,o.S)": "_"
     }
   },
   {
@@ -6161,15 +5695,10 @@
           }
         }
       }
-    },
-    "func_name": "Z",
-    "func_name_init": "N",
-    "query": {
-      "settings": "t.settings"
     }
   },
   {
-    "n": "2883",
+    "n": "02883",
     "exports": {
       "queryId": "cvDFkG5WjcXV0Qw5nfe1qQ",
       "operationName": "ListRemoveMember",
@@ -6199,13 +5728,6 @@
           }
         }
       }
-    },
-    "func_name": "H",
-    "func_name_init": "U",
-    "query": {
-      "listId": "a",
-      "userId": "l",
-      "...()(0,o.S)": "_"
     }
   },
   {
@@ -6345,12 +5867,6 @@
           }
         }
       }
-    },
-    "func_name": "K",
-    "func_name_init": "W",
-    "query": {
-      "listId": "a",
-      "...()(0,o.S)": "_"
     }
   },
   {
@@ -6454,15 +5970,10 @@
           }
         }
       }
-    },
-    "func_name": "G",
-    "func_name_init": "$",
-    "query": {
-      "...()(0,o.d)": "_"
     }
   },
   {
-    "n": "5449",
+    "n": "05449",
     "exports": {
       "queryId": "pMZrHRNsmEkXgbn3tOyr7Q",
       "operationName": "UnmuteList",
@@ -6472,12 +5983,6 @@
         "fieldToggles": [],
         "featureSwitch": {}
       }
-    },
-    "func_name": "Q",
-    "func_name_init": "J",
-    "query": {
-      "note_id": "a.note_id",
-      "...()(0,o.S)": "_"
     }
   },
   {
@@ -6511,10 +6016,7 @@
           }
         }
       }
-    },
-    "func_name": "X",
-    "func_name_init": "Y",
-    "query": {}
+    }
   },
   {
     "n": "69212",
@@ -6547,15 +6049,6 @@
           }
         }
       }
-    },
-    "func_name": "ne",
-    "func_name_init": "ee",
-    "query": {
-      "listId": "l",
-      "isPrivate": "private===s.toLowerCase()",
-      "description": "a",
-      "name": "u",
-      "...()(0,o.S)": "_"
     }
   },
   {
@@ -6659,13 +6152,10 @@
           }
         }
       }
-    },
-    "func_name": "q",
-    "func_name_init": "z",
-    "query": {}
+    }
   },
   {
-    "n": "6467",
+    "n": "06467",
     "exports": {
       "queryId": "lQGscsSKsloibicSksUW2Q",
       "operationName": "ListsManagementPageTimeline",
@@ -6765,13 +6255,6 @@
           }
         }
       }
-    },
-    "func_name": "j",
-    "func_name_init": "V",
-    "query": {
-      "count": "t",
-      "cursor": "d",
-      "...()(0,o.d)": "_"
     }
   },
   {
@@ -6996,11 +6479,6 @@
           }
         }
       }
-    },
-    "func_name": "E",
-    "func_name_init": "R",
-    "query": {
-      "alias": "t.alias"
     }
   },
   {
@@ -7033,14 +6511,6 @@
             "value": "true"
           }
         }
-      }
-    },
-    "func_name": "c",
-    "func_name_init": "u",
-    "query": {
-      "pinnedTimelineItem": {
-        "id": "n",
-        "pinned_timeline_type": "t"
       }
     }
   },
@@ -7088,13 +6558,10 @@
           }
         }
       }
-    },
-    "func_name": "s",
-    "func_name_init": "l",
-    "query": {}
+    }
   },
   {
-    "n": "2434",
+    "n": "02434",
     "exports": {
       "queryId": "5kUWP8C1hcd6omvg6HXXTQ",
       "operationName": "ProfileUserPhoneState",
@@ -7104,10 +6571,7 @@
         "fieldToggles": [],
         "featureSwitch": {}
       }
-    },
-    "func_name": "s",
-    "func_name_init": "l",
-    "query": {}
+    }
   },
   {
     "n": "14425",
@@ -7120,11 +6584,6 @@
         "fieldToggles": [],
         "featureSwitch": {}
       }
-    },
-    "func_name": "a",
-    "func_name_init": "r",
-    "query": {
-      "flag": "n"
     }
   },
   {
@@ -7138,11 +6597,6 @@
         "fieldToggles": [],
         "featureSwitch": {}
       }
-    },
-    "func_name": "b",
-    "func_name_init": "c",
-    "query": {
-      "target_user_id": "n"
     }
   },
   {
@@ -7156,16 +6610,10 @@
         "fieldToggles": [],
         "featureSwitch": {}
       }
-    },
-    "func_name": "M",
-    "func_name_init": "v",
-    "query": {
-      "bookmark_collection_id": "t",
-      "tweet_id": "d"
     }
   },
   {
-    "n": "2329",
+    "n": "02329",
     "exports": {
       "queryId": "AhxTX0lkbIos4WG53xwzSA",
       "operationName": "GetSafetyModeSettings",
@@ -7175,10 +6623,7 @@
         "fieldToggles": [],
         "featureSwitch": {}
       }
-    },
-    "func_name": "S",
-    "func_name_init": "g",
-    "query": {}
+    }
   },
   {
     "n": "99888",
@@ -7191,13 +6636,6 @@
         "fieldToggles": [],
         "featureSwitch": {}
       }
-    },
-    "func_name": "_",
-    "func_name_init": "A",
-    "query": {
-      "userId": "t",
-      "enabled": "none!==n",
-      "duration": "none===n?void 0:n"
     }
   },
   {
@@ -7211,12 +6649,6 @@
         "fieldToggles": [],
         "featureSwitch": {}
       }
-    },
-    "func_name": "c",
-    "func_name_init": "u",
-    "query": {
-      "...t": "_",
-      "...n": "_"
     }
   },
   {
@@ -7320,10 +6752,7 @@
           }
         }
       }
-    },
-    "func_name": "p",
-    "func_name_init": "m",
-    "query": "{\"rawQuery\":l||\"\",\"count\":\"t\",\"cursor\":\"d\",\"querySource\":\"i\",\"product\":\"r\",\"...()(0,o.d)\":\"_\"}"
+    }
   },
   {
     "n": "27611",
@@ -7336,12 +6765,6 @@
         "fieldToggles": [],
         "featureSwitch": {}
       }
-    },
-    "func_name": "D",
-    "func_name_init": "w",
-    "query": {
-      "userId": "t",
-      "sharingAudiospacesListeningDataWithFollowers": "n"
     }
   },
   {
@@ -7445,11 +6868,6 @@
           }
         }
       }
-    },
-    "func_name": "g",
-    "func_name_init": "h",
-    "query": {
-      "tweet_id": "n"
     }
   },
   {
@@ -7553,18 +6971,10 @@
           }
         }
       }
-    },
-    "func_name": "I",
-    "func_name_init": "P",
-    "query": {
-      "tweet_id": "a.tweet_id",
-      "is_media_note": "a.is_media_note",
-      "data_v1": "a.data",
-      "...()(0,o.S)": "_"
     }
   },
   {
-    "n": "2643",
+    "n": "02643",
     "exports": {
       "queryId": "vfVbgvTPTQ-dF_PQ5lD1WQ",
       "operationName": "timelinesFeedback",
@@ -7574,11 +6984,6 @@
         "fieldToggles": [],
         "featureSwitch": {}
       }
-    },
-    "func_name": "A",
-    "func_name_init": "S",
-    "query": {
-      "...n": "_"
     }
   },
   {
@@ -7700,10 +7105,7 @@
           }
         }
       }
-    },
-    "func_name": "s",
-    "func_name_init": "l",
-    "query": "{\"rest_id\":\"i\",\"cursor\":\"r\",\"context\":\"JSON.stringify()\"{\"data_lookup_id\":\"o\"}\"0\",\"a.dn\"}"
+    }
   },
   {
     "n": "26175",
@@ -7716,11 +7118,6 @@
         "fieldToggles": [],
         "featureSwitch": {}
       }
-    },
-    "func_name": "c",
-    "func_name_init": "u",
-    "query": {
-      "topicId": "d"
     }
   },
   {
@@ -7734,11 +7131,6 @@
         "fieldToggles": [],
         "featureSwitch": {}
       }
-    },
-    "func_name": "m",
-    "func_name_init": "b",
-    "query": {
-      "topicId": "r"
     }
   },
   {
@@ -7842,12 +7234,6 @@
           }
         }
       }
-    },
-    "func_name": "D",
-    "func_name_init": "w",
-    "query": {
-      "userId": "r",
-      "...()(0,a.d)": "_"
     }
   },
   {
@@ -7861,15 +7247,10 @@
         "fieldToggles": [],
         "featureSwitch": {}
       }
-    },
-    "func_name": "f",
-    "func_name_init": "y",
-    "query": {
-      "topicId": "d"
     }
   },
   {
-    "n": "9566",
+    "n": "09566",
     "exports": {
       "queryId": "srwjU6JM_ZKTj_QMfUGNcw",
       "operationName": "TopicUnfollow",
@@ -7879,11 +7260,6 @@
         "fieldToggles": [],
         "featureSwitch": {}
       }
-    },
-    "func_name": "M",
-    "func_name_init": "v",
-    "query": {
-      "topicId": "d"
     }
   },
   {
@@ -7987,12 +7363,6 @@
           }
         }
       }
-    },
-    "func_name": "h",
-    "func_name_init": "p",
-    "query": {
-      "cursor": "r",
-      "...()(0,a.d)": "_"
     }
   },
   {
@@ -8096,15 +7466,10 @@
           }
         }
       }
-    },
-    "func_name": "S",
-    "func_name_init": "g",
-    "query": {
-      "...()(0,a.d)": "_"
     }
   },
   {
-    "n": "3606",
+    "n": "03606",
     "exports": {
       "queryId": "ID3R8BcP73JUDi6qnctiSw",
       "operationName": "TopicsPickerPageById",
@@ -8204,12 +7569,6 @@
           }
         }
       }
-    },
-    "func_name": "_",
-    "func_name_init": "A",
-    "query": {
-      "topicId": "r",
-      "...()(0,a.d)": "_"
     }
   },
   {
@@ -8231,12 +7590,6 @@
           }
         }
       }
-    },
-    "func_name": "g",
-    "func_name_init": "h",
-    "query": {
-      "trustedFriendsId": "n.trustedFriendsId",
-      "prefix": "n.prefix"
     }
   },
   {
@@ -8340,24 +7693,6 @@
           }
         }
       }
-    },
-    "func_name": "s",
-    "func_name_init": "l",
-    "query": {
-      "focalTweetId": "r",
-      "cursor": "d",
-      "referrer": "o",
-      "controller_data": "t",
-      "rux_context": "l",
-      "with_rux_injections": "u",
-      "includePromotedContent": "!0",
-      "withCommunity": "n.isTrue()",
-      "withQuickPromoteEligibilityTweetFields": "!0",
-      "withBirdwatchNotes": "n.isTrue(\"c9s_enabled\")",
-      "...(\"responsive_web_birdwatch_consumption_enabled\")(0,i.d)": "_",
-      "withVoice": "n.isTrue(n)",
-      "withV2Timeline": "n.isTrue(\"voice_consumption_enabled\")",
-      "isReaderMode": "a"
     }
   },
   {
@@ -8611,11 +7946,6 @@
         "fieldToggles": [],
         "featureSwitch": {}
       }
-    },
-    "func_name": "z",
-    "func_name_init": "H",
-    "query": {
-      "tweetId": "t"
     }
   },
   {
@@ -8648,14 +7978,6 @@
             "value": "true"
           }
         }
-      }
-    },
-    "func_name": "m",
-    "func_name_init": "b",
-    "query": {
-      "pinnedTimelineItem": {
-        "id": "n",
-        "pinned_timeline_type": "t"
       }
     }
   },
@@ -8703,11 +8025,6 @@
           }
         }
       }
-    },
-    "func_name": "h",
-    "func_name_init": "p",
-    "query": {
-      "pinnedTimelineItems": "t"
     }
   },
   {
@@ -8811,12 +8128,6 @@
           }
         }
       }
-    },
-    "func_name": "w",
-    "func_name_init": "_",
-    "query": {
-      "includePromotedContent": "!0",
-      "...()(0,o.d)": "_"
     }
   },
   {
@@ -8920,15 +8231,6 @@
           }
         }
       }
-    },
-    "func_name": "l",
-    "func_name_init": "i",
-    "query": {
-      "rest_id": "a",
-      "count": "t",
-      "cursor": "d",
-      "includePromotedContent": "!1",
-      "...()(0,r.d)": "_"
     }
   },
   {
@@ -9145,18 +8447,6 @@
           }
         }
       }
-    },
-    "func_name": "b",
-    "func_name_init": "c",
-    "query": {
-      "userId": "o",
-      "count": "t",
-      "cursor": "d",
-      "teamName": "a",
-      "includePromotedContent": "!1",
-      "...()(0,r.d)": "_",
-      "withClientEventToken": "!1",
-      "withVoice": "n.isTrue(n)"
     }
   },
   {
@@ -9210,12 +8500,6 @@
           }
         }
       }
-    },
-    "func_name": "p",
-    "func_name_init": "m",
-    "query": {
-      "userId": "t",
-      "withSafetyModeUserFields": "n.isTrue()"
     }
   },
   {
@@ -9277,12 +8561,6 @@
           }
         }
       }
-    },
-    "func_name": "g",
-    "func_name_init": "h",
-    "query": {
-      "screen_name": "t",
-      "withSafetyModeUserFields": "n.isTrue()"
     }
   },
   {
@@ -9296,10 +8574,7 @@
         "fieldToggles": [],
         "featureSwitch": {}
       }
-    },
-    "func_name": "a",
-    "func_name_init": "r",
-    "query": {}
+    }
   },
   {
     "n": "84810",
@@ -9402,15 +8677,6 @@
           }
         }
       }
-    },
-    "func_name": "x",
-    "func_name_init": "L",
-    "query": {
-      "userId": "r",
-      "count": "t",
-      "cursor": "d",
-      "includePromotedContent": "!1",
-      "...()(0,i.d)": "_"
     }
   },
   {
@@ -9514,10 +8780,7 @@
           }
         }
       }
-    },
-    "func_name": "B",
-    "func_name_init": "O",
-    "query": {}
+    }
   },
   {
     "n": "24603",
@@ -9759,10 +9022,7 @@
         "fieldToggles": [],
         "featureSwitch": {}
       }
-    },
-    "func_name": "c",
-    "func_name_init": "u",
-    "query": {}
+    }
   },
   {
     "n": "27655",
@@ -9865,10 +9125,7 @@
           }
         }
       }
-    },
-    "func_name": "A",
-    "func_name_init": "S",
-    "query": "{\"userId\":\"d\",\"count\":\"n\",\"cursor\":\"string\"==typeof t?t:\"void 0\",\"includePromotedContent\":\"!1\",\"withVoice\":\"!1\"}"
+    }
   },
   {
     "n": "77737",
@@ -9881,10 +9138,7 @@
         "fieldToggles": [],
         "featureSwitch": {}
       }
-    },
-    "func_name": "m",
-    "func_name_init": "b",
-    "query": {}
+    }
   },
   {
     "n": "89550",
@@ -9987,16 +9241,6 @@
           }
         }
       }
-    },
-    "func_name": "w",
-    "func_name_init": "_",
-    "query": {
-      "userId": "a",
-      "count": "t",
-      "cursor": "d",
-      "includePromotedContent": "!0",
-      "...()(0,r.d)": "_",
-      "withVoice": "n.isTrue(n)"
     }
   },
   {
@@ -10100,14 +9344,6 @@
           }
         }
       }
-    },
-    "func_name": "d",
-    "func_name_init": "s",
-    "query": {
-      "userId": "t.userId",
-      "withVoice": "!1",
-      "count": "1",
-      "includePromotedContent": "!1"
     }
   },
   {
@@ -10211,18 +9447,6 @@
           }
         }
       }
-    },
-    "func_name": "v",
-    "func_name_init": "f",
-    "query": {
-      "userId": "a",
-      "count": "t",
-      "cursor": "d",
-      "includePromotedContent": "!0",
-      "withCommunity": "n.isTrue()",
-      "...(\"c9s_enabled\")(0,r.d)": "_",
-      "withVoice": "n.isTrue(n)",
-      "withV2Timeline": "n.isTrue(\"voice_consumption_enabled\")"
     }
   },
   {
@@ -10256,11 +9480,6 @@
           }
         }
       }
-    },
-    "func_name": "A",
-    "func_name_init": "S",
-    "query": {
-      "userIds": "n.split()"
     }
   },
   {
@@ -10282,11 +9501,6 @@
           }
         }
       }
-    },
-    "func_name": "r",
-    "func_name_init": "d",
-    "query": {
-      "userIds": "d"
     }
   },
   {
@@ -10325,11 +9539,6 @@
           }
         }
       }
-    },
-    "func_name": "w",
-    "func_name_init": "_",
-    "query": {
-      "withCommunitiesMemberships": "n.isTrue()"
     }
   },
   {
@@ -10363,15 +9572,10 @@
           }
         }
       }
-    },
-    "func_name": "N",
-    "func_name_init": "F",
-    "query": {
-      "note_id": "t.note_id"
     }
   },
   {
-    "n": "3864",
+    "n": "03864",
     "exports": {
       "queryId": "-izxCXZ7FkFbd9M1zy3b8g",
       "operationName": "ViewingOtherUsersTopicsPage",
@@ -10471,14 +9675,6 @@
           }
         }
       }
-    },
-    "func_name": "C",
-    "func_name_init": "T",
-    "query": {
-      "userId": "i",
-      "cursor": "o",
-      "context": "r",
-      "...()(0,a.d)": "_"
     }
   },
   {
@@ -10735,7 +9931,7 @@
     }
   },
   {
-    "n": "2582",
+    "n": "02582",
     "exports": {
       "queryId": "Zevhh76Msw574ZSs2NQHGQ",
       "operationName": "UnsubscribeFromScheduledSpace",
@@ -10826,7 +10022,7 @@
     }
   },
   {
-    "n": "6645",
+    "n": "06645",
     "exports": {
       "queryId": "mPF_G9okpbZuLcD6mN8K9g",
       "operationName": "PaymentMethods",
@@ -11072,7 +10268,7 @@
     }
   },
   {
-    "n": "2582",
+    "n": "02582",
     "exports": {
       "queryId": "Zevhh76Msw574ZSs2NQHGQ",
       "operationName": "UnsubscribeFromScheduledSpace",
@@ -11201,7 +10397,7 @@
     }
   },
   {
-    "n": "3482",
+    "n": "03482",
     "exports": {
       "queryId": "V1c7MX8SMNc-KBBnoTsWsQ",
       "operationName": "DmAllSearchSlice",
@@ -11235,21 +10431,10 @@
           }
         }
       }
-    },
-    "func_name": "s",
-    "func_name_init": "o",
-    "query": {
-      "count": "(optional) t.count",
-      "query": "t.query",
-      "withAttachments": "!0",
-      "withConversationQueryHighlights": "!0",
-      "withMessageQueryHighlights": "!0",
-      "withMessages": "!0",
-      "withSafetyModeUserFields": "i.isTrue()"
     }
   },
   {
-    "n": "5760",
+    "n": "05760",
     "exports": {
       "queryId": "5zpY1dCR-8NyxQJS_CFJoQ",
       "operationName": "DmGroupSearchSlice",
@@ -11259,12 +10444,6 @@
         "fieldToggles": [],
         "featureSwitch": {}
       }
-    },
-    "func_name": "d",
-    "func_name_init": "_",
-    "query": {
-      "...i": "_",
-      "withConversationQueryHighlights": "!0"
     }
   },
   {
@@ -11368,14 +10547,6 @@
           }
         }
       }
-    },
-    "func_name": "c",
-    "func_name_init": "u",
-    "query": {
-      "count": "t",
-      "cursor": "l",
-      "includePromotedContent": "!1",
-      "...()(0,r.d)": "_"
     }
   },
   {
@@ -11389,12 +10560,6 @@
         "fieldToggles": [],
         "featureSwitch": {}
       }
-    },
-    "func_name": "m",
-    "func_name_init": "v",
-    "query": {
-      "...i": "_",
-      "withConversationQueryHighlights": "!0"
     }
   },
   {
@@ -11617,7 +10782,7 @@
     }
   },
   {
-    "n": "2582",
+    "n": "02582",
     "exports": {
       "queryId": "Zevhh76Msw574ZSs2NQHGQ",
       "operationName": "UnsubscribeFromScheduledSpace",
@@ -11759,7 +10924,7 @@
     }
   },
   {
-    "n": "2582",
+    "n": "02582",
     "exports": {
       "queryId": "Zevhh76Msw574ZSs2NQHGQ",
       "operationName": "UnsubscribeFromScheduledSpace",
@@ -11785,7 +10950,7 @@
     }
   },
   {
-    "n": "2582",
+    "n": "02582",
     "exports": {
       "queryId": "Zevhh76Msw574ZSs2NQHGQ",
       "operationName": "UnsubscribeFromScheduledSpace",
@@ -12059,7 +11224,7 @@
     }
   },
   {
-    "n": "3570",
+    "n": "03570",
     "exports": {
       "queryId": "JSf0I8AZFRLzAuay4E0eZw",
       "operationName": "BirdwatchFetchAuthenticatedUserProfile",
@@ -12330,7 +11495,7 @@
     }
   },
   {
-    "n": "83142",
+    "n": "45990",
     "exports": {
       "queryId": "cED9wJy8Nd1kZCCYuIq9zQ",
       "operationName": "BirdwatchProfileAcknowledgeEarnOut",
@@ -12435,7 +11600,7 @@
     }
   },
   {
-    "n": "7348",
+    "n": "07348",
     "exports": {
       "queryId": "zzzF-JLFd7NB3mrMmmGzpQ",
       "operationName": "ArticleEntityPublish",
@@ -12534,7 +11699,7 @@
     }
   },
   {
-    "n": "5370",
+    "n": "05370",
     "exports": {
       "queryId": "WZyC-MOKHpfxXURSn0Vf4Q",
       "operationName": "ArticleEntityUpdateContent",
@@ -12646,7 +11811,7 @@
     }
   },
   {
-    "n": "3530",
+    "n": "03530",
     "exports": {
       "queryId": "2qKKYFQift8p5-J1k6kqxQ",
       "operationName": "WriteEmailNotificationSettings",
@@ -13437,13 +12602,6 @@
           }
         }
       }
-    },
-    "func_name": "r",
-    "func_name_init": "l",
-    "query": {
-      "pinned_tweet_id": "(optional) t.pinned_tweet_id",
-      "page_name": "(optional) t.page_name",
-      "...()(0,_.d)": "_"
     }
   },
   {
@@ -13547,12 +12705,6 @@
           }
         }
       }
-    },
-    "func_name": "o",
-    "func_name_init": "a",
-    "query": {
-      "pinned_tweet_id": "(optional) t.pinned_tweet_id",
-      "...()(0,_.d)": "_"
     }
   },
   {
@@ -14133,7 +13285,7 @@
     }
   },
   {
-    "n": "46592",
+    "n": "46511",
     "exports": {
       "queryId": "-Ja49b1NyF9nkZtiMQ4iiw",
       "operationName": "GeneratePinCode",
@@ -14468,7 +13620,7 @@
     }
   },
   {
-    "n": "2582",
+    "n": "02582",
     "exports": {
       "queryId": "Zevhh76Msw574ZSs2NQHGQ",
       "operationName": "UnsubscribeFromScheduledSpace",
