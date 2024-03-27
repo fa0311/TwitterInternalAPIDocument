@@ -5048,9 +5048,9 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant   | value   |
 |:-----------|:--------|
-| MEDIA      | Et      |
-| GIFS       | yt      |
-| TWEETS     | ft      |
+| MEDIA      | vt      |
+| GIFS       | gt      |
+| POSTS      | Zt      |
 
 | constant    | value       |
 |:------------|:------------|
@@ -6090,6 +6090,13 @@ This document is entirely auto-generated and may contain errors.<br>
 |:-----------|:-----------------------------|
 | annually   | {'label': 's', 'value': '1'} |
 | hourly     | {'label': 'd', 'value': '2'} |
+
+| constant        | value   |
+|:----------------|:--------|
+| locationTypes   | []      |
+| seniority       | []      |
+| companyName     |         |
+| employmentTypes | []      |
 
 | constant     | value        |
 |:-------------|:-------------|
