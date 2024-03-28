@@ -4738,9 +4738,9 @@
     "Trimmer": "trimmer"
   },
   {
-    "MEDIA": "Et",
-    "GIFS": "yt",
-    "TWEETS": "ft"
+    "MEDIA": "vt",
+    "GIFS": "gt",
+    "POSTS": "Zt"
   },
   {
     "Public": "Public",
@@ -5665,6 +5665,12 @@
       "label": "d",
       "value": "2"
     }
+  },
+  {
+    "locationTypes": [],
+    "seniority": [],
+    "companyName": "",
+    "employmentTypes": []
   },
   {
     "CONVERSATION": "conversation",
