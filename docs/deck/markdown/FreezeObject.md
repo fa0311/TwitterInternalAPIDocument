@@ -1,12 +1,12 @@
 # Twitter Internal Constants Document<br>
 This document is entirely auto-generated and may contain errors.<br>
-| constant                          | value                                                                                                                          |
-|:----------------------------------|:-------------------------------------------------------------------------------------------------------------------------------|
-| NOT_RESPONDER                     | {'DELAY': 'ce', 'RESPONDER_GRANT': 've', 'RESPONDER_RELEASE': 'ce', 'RESPONDER_TERMINATED': 'ce', 'LONG_PRESS_DETECTED': 'ce'} |
-| RESPONDER_INACTIVE_PRESS_START    | {'DELAY': 'he', 'RESPONDER_GRANT': 'ce', 'RESPONDER_RELEASE': 'fe', 'RESPONDER_TERMINATED': 'fe', 'LONG_PRESS_DETECTED': 'ce'} |
-| RESPONDER_ACTIVE_PRESS_START      | {'DELAY': 'ce', 'RESPONDER_GRANT': 'ce', 'RESPONDER_RELEASE': 'fe', 'RESPONDER_TERMINATED': 'fe', 'LONG_PRESS_DETECTED': 'pe'} |
-| RESPONDER_ACTIVE_LONG_PRESS_START | {'DELAY': 'ce', 'RESPONDER_GRANT': 'ce', 'RESPONDER_RELEASE': 'fe', 'RESPONDER_TERMINATED': 'fe', 'LONG_PRESS_DETECTED': 'pe'} |
-| ERROR                             | {'DELAY': 'fe', 'RESPONDER_GRANT': 've', 'RESPONDER_RELEASE': 'fe', 'RESPONDER_TERMINATED': 'fe', 'LONG_PRESS_DETECTED': 'fe'} |
+| constant                          | value                                                                                                                     |
+|:----------------------------------|:--------------------------------------------------------------------------------------------------------------------------|
+| NOT_RESPONDER                     | {'DELAY': 'i', 'RESPONDER_GRANT': 'l', 'RESPONDER_RELEASE': 'i', 'RESPONDER_TERMINATED': 'i', 'LONG_PRESS_DETECTED': 'i'} |
+| RESPONDER_INACTIVE_PRESS_START    | {'DELAY': 's', 'RESPONDER_GRANT': 'i', 'RESPONDER_RELEASE': 'o', 'RESPONDER_TERMINATED': 'o', 'LONG_PRESS_DETECTED': 'i'} |
+| RESPONDER_ACTIVE_PRESS_START      | {'DELAY': 'i', 'RESPONDER_GRANT': 'i', 'RESPONDER_RELEASE': 'o', 'RESPONDER_TERMINATED': 'o', 'LONG_PRESS_DETECTED': 'u'} |
+| RESPONDER_ACTIVE_LONG_PRESS_START | {'DELAY': 'i', 'RESPONDER_GRANT': 'i', 'RESPONDER_RELEASE': 'o', 'RESPONDER_TERMINATED': 'o', 'LONG_PRESS_DETECTED': 'u'} |
+| ERROR                             | {'DELAY': 'o', 'RESPONDER_GRANT': 'l', 'RESPONDER_RELEASE': 'o', 'RESPONDER_TERMINATED': 'o', 'LONG_PRESS_DETECTED': 'o'} |
 
 | constant     | value        |
 |:-------------|:-------------|
@@ -4860,11 +4860,11 @@ This document is entirely auto-generated and may contain errors.<br>
 |:-----------|:--------|
 | SENSITIVE  | v       |
 | BLOCKED    | _       |
-| BLOCKED_BY | y       |
+| BLOCKED_BY | b       |
 
 ```internal process
 # Error
-{[v]:"b",[_]:"E",[y]:"I"}
+{[v]:"g",[_]:"E",[b]:"I"}
 ```
 | constant             | value     |
 |:---------------------|:----------|
@@ -4908,6 +4908,18 @@ This document is entirely auto-generated and may contain errors.<br>
 | broadcast  | broadcast |
 | video      | video     |
 | image      | image     |
+
+| constant   | value                             |
+|:-----------|:----------------------------------|
+| REQUEST    | rweb/saveTrend/SAVE_TREND_REQUEST |
+| SUCCESS    | rweb/saveTrend/SAVE_TREND_SUCCESS |
+| FAILURE    | rweb/saveTrend/SAVE_TREND_FAILURE |
+
+| constant   | value                                 |
+|:-----------|:--------------------------------------|
+| REQUEST    | rweb/reportTrend/REPORT_TREND_REQUEST |
+| SUCCESS    | rweb/reportTrend/REPORT_TREND_SUCCESS |
+| FAILURE    | rweb/reportTrend/REPORT_TREND_FAILURE |
 
 | constant   | value      |
 |:-----------|:-----------|
