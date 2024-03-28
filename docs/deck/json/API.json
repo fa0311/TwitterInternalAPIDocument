@@ -1,8 +1,8 @@
 {
   "graphql": {
     "AiTrendByRestId": {
-      "url": "https://twitter.com/i/api/graphql/P2_MIxpAGn7b6fRIiT0X-Q/AiTrendByRestId",
-      "queryId": "P2_MIxpAGn7b6fRIiT0X-Q",
+      "url": "https://twitter.com/i/api/graphql/VuDLxy2eIhtl_ufLaeSxpg/AiTrendByRestId",
+      "queryId": "VuDLxy2eIhtl_ufLaeSxpg",
       "method": "GET",
       "features": {
         "creator_subscriptions_tweet_preview_api_enabled": true,
@@ -27,6 +27,18 @@
         "responsive_web_graphql_skip_user_profile_image_extensions_enabled": false,
         "responsive_web_enhance_cards_enabled": false
       }
+    },
+    "ReportTrend": {
+      "url": "https://twitter.com/i/api/graphql/3BZlCEmD645zQ-MpJM19CA/ReportTrend",
+      "queryId": "3BZlCEmD645zQ-MpJM19CA",
+      "method": "POST",
+      "features": {}
+    },
+    "SaveTrend": {
+      "url": "https://twitter.com/i/api/graphql/_fJD2rm-lJI06lKxbUZT2Q/SaveTrend",
+      "queryId": "_fJD2rm-lJI06lKxbUZT2Q",
+      "method": "POST",
+      "features": {}
     },
     "getAltTextPromptPreference": {
       "url": "https://twitter.com/i/api/graphql/PFIxTk8owMoZgiMccP0r4g/getAltTextPromptPreference",
