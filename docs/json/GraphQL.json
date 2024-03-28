@@ -12165,7 +12165,7 @@
   {
     "n": "70883",
     "exports": {
-      "queryId": "P2_MIxpAGn7b6fRIiT0X-Q",
+      "queryId": "VuDLxy2eIhtl_ufLaeSxpg",
       "operationName": "AiTrendByRestId",
       "operationType": "query",
       "metadata": {
@@ -12262,6 +12262,32 @@
             "value": "false"
           }
         }
+      }
+    }
+  },
+  {
+    "n": "5890",
+    "exports": {
+      "queryId": "3BZlCEmD645zQ-MpJM19CA",
+      "operationName": "ReportTrend",
+      "operationType": "mutation",
+      "metadata": {
+        "featureSwitches": [],
+        "fieldToggles": [],
+        "featureSwitch": {}
+      }
+    }
+  },
+  {
+    "n": "51238",
+    "exports": {
+      "queryId": "_fJD2rm-lJI06lKxbUZT2Q",
+      "operationName": "SaveTrend",
+      "operationType": "mutation",
+      "metadata": {
+        "featureSwitches": [],
+        "fieldToggles": [],
+        "featureSwitch": {}
       }
     }
   },
