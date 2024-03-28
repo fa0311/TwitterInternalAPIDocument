@@ -5190,7 +5190,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## AiTrendByRestId<br>
-Request URL: `https://twitter.com/i/api/graphql/P2_MIxpAGn7b6fRIiT0X-Q/AiTrendByRestId`<br>
+Request URL: `https://twitter.com/i/api/graphql/VuDLxy2eIhtl_ufLaeSxpg/AiTrendByRestId`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -5221,6 +5221,28 @@ Login Required: `...`<br>
 | responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean | False      |
 | responsive_web_enhance_cards_enabled                                    | boolean | False      |
 
+#### queryId<br>
+`None`<br>
+## ReportTrend<br>
+Request URL: `https://twitter.com/i/api/graphql/3BZlCEmD645zQ-MpJM19CA/ReportTrend`<br>
+Request Method: `POST`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
+## SaveTrend<br>
+Request URL: `https://twitter.com/i/api/graphql/_fJD2rm-lJI06lKxbUZT2Q/SaveTrend`<br>
+Request Method: `POST`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
 #### queryId<br>
 `None`<br>
 ## LiveCommerceItemsSlice<br>
