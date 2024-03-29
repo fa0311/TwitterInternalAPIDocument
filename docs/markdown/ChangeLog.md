@@ -3222,3 +3222,15 @@
 - subscriptions_marketing_page_redesign_enabled<br>
 #### remove<br>
 - web_video_bitrate_persistence_enabled<br>
+## 2024/03/28<br>
+### API<br>
+#### add<br>
+- ReportTrend<br>
+- SaveTrend<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- responsive_web_twitter_article_markdown_block_limit<br>
+#### remove<br>
+- subscriptions_premium_tiers_marketing_page_enabled<br>

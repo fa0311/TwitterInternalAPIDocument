@@ -1,39 +1,39 @@
 [
   {
     "NOT_RESPONDER": {
-      "DELAY": "ce",
-      "RESPONDER_GRANT": "ve",
-      "RESPONDER_RELEASE": "ce",
-      "RESPONDER_TERMINATED": "ce",
-      "LONG_PRESS_DETECTED": "ce"
+      "DELAY": "i",
+      "RESPONDER_GRANT": "l",
+      "RESPONDER_RELEASE": "i",
+      "RESPONDER_TERMINATED": "i",
+      "LONG_PRESS_DETECTED": "i"
     },
     "RESPONDER_INACTIVE_PRESS_START": {
-      "DELAY": "he",
-      "RESPONDER_GRANT": "ce",
-      "RESPONDER_RELEASE": "fe",
-      "RESPONDER_TERMINATED": "fe",
-      "LONG_PRESS_DETECTED": "ce"
+      "DELAY": "s",
+      "RESPONDER_GRANT": "i",
+      "RESPONDER_RELEASE": "o",
+      "RESPONDER_TERMINATED": "o",
+      "LONG_PRESS_DETECTED": "i"
     },
     "RESPONDER_ACTIVE_PRESS_START": {
-      "DELAY": "ce",
-      "RESPONDER_GRANT": "ce",
-      "RESPONDER_RELEASE": "fe",
-      "RESPONDER_TERMINATED": "fe",
-      "LONG_PRESS_DETECTED": "pe"
+      "DELAY": "i",
+      "RESPONDER_GRANT": "i",
+      "RESPONDER_RELEASE": "o",
+      "RESPONDER_TERMINATED": "o",
+      "LONG_PRESS_DETECTED": "u"
     },
     "RESPONDER_ACTIVE_LONG_PRESS_START": {
-      "DELAY": "ce",
-      "RESPONDER_GRANT": "ce",
-      "RESPONDER_RELEASE": "fe",
-      "RESPONDER_TERMINATED": "fe",
-      "LONG_PRESS_DETECTED": "pe"
+      "DELAY": "i",
+      "RESPONDER_GRANT": "i",
+      "RESPONDER_RELEASE": "o",
+      "RESPONDER_TERMINATED": "o",
+      "LONG_PRESS_DETECTED": "u"
     },
     "ERROR": {
-      "DELAY": "fe",
-      "RESPONDER_GRANT": "ve",
-      "RESPONDER_RELEASE": "fe",
-      "RESPONDER_TERMINATED": "fe",
-      "LONG_PRESS_DETECTED": "fe"
+      "DELAY": "o",
+      "RESPONDER_GRANT": "l",
+      "RESPONDER_RELEASE": "o",
+      "RESPONDER_TERMINATED": "o",
+      "LONG_PRESS_DETECTED": "o"
     }
   },
   {
@@ -3449,10 +3449,12 @@
   },
   {
     "MEDIA": "MEDIA",
-    "TWEET": "TWEET"
+    "TWEET": "TWEET",
+    "MARKDOWN": "MARKDOWN"
   },
   {
-    "IMMUTABLE": "IMMUTABLE"
+    "IMMUTABLE": "IMMUTABLE",
+    "MUTABLE": "MUTABLE"
   },
   {
     "GIF": "DraftTweetGif",
@@ -4575,10 +4577,10 @@
   },
   {
     "SENSITIVE": "b",
-    "BLOCKED": "g",
-    "BLOCKED_BY": "v"
+    "BLOCKED": "v",
+    "BLOCKED_BY": "g"
   },
-  "{[b]:\"y\",[g]:\"E\",[v]:\"I\"}",
+  "{[b]:\"f\",[v]:\"y\",[g]:\"I\"}",
   {
     "BROADCAST_MEDIA_TYPE": "broadcast",
     "VIDEO_MEDIA_TYPE": "video"
@@ -4614,6 +4616,16 @@
     "broadcast": "broadcast",
     "video": "video",
     "image": "image"
+  },
+  {
+    "REQUEST": "rweb/saveTrend/SAVE_TREND_REQUEST",
+    "SUCCESS": "rweb/saveTrend/SAVE_TREND_SUCCESS",
+    "FAILURE": "rweb/saveTrend/SAVE_TREND_FAILURE"
+  },
+  {
+    "REQUEST": "rweb/reportTrend/REPORT_TREND_REQUEST",
+    "SUCCESS": "rweb/reportTrend/REPORT_TREND_SUCCESS",
+    "FAILURE": "rweb/reportTrend/REPORT_TREND_FAILURE"
   },
   {
     "Scheduled": "Scheduled",
@@ -4738,9 +4750,14 @@
     "FAILURE": "rweb/availableLanguages/FETCH_AVAILABLE_LANGUAGES_FAILURE"
   },
   {
-    "MEDIA": "vt",
-    "GIFS": "ft",
-    "POSTS": "_t"
+    "MARKDOWN": "Et",
+    "PREVIEW": "ft"
+  },
+  {
+    "MEDIA": "Zt",
+    "GIFS": "Mt",
+    "POSTS": "St",
+    "MARKDOWN": "Tt"
   },
   {
     "Public": "Public",
@@ -4907,10 +4924,12 @@
   },
   {
     "MEDIA": "MEDIA",
-    "TWEET": "TWEET"
+    "TWEET": "TWEET",
+    "MARKDOWN": "MARKDOWN"
   },
   {
-    "IMMUTABLE": "IMMUTABLE"
+    "IMMUTABLE": "IMMUTABLE",
+    "MUTABLE": "MUTABLE"
   },
   {
     "GIF": "DraftTweetGif",
@@ -5973,11 +5992,11 @@
     "SET_CONFIG": "rweb/verifiedOrgConfig/SET"
   },
   {
-    "fetchStatus": "q.ZP.NONE",
-    "config": "Ia"
+    "fetchStatus": "Q.ZP.NONE",
+    "config": "Tt"
   },
   "{[_.hA.switchFromDirect]:\"m().dca6b3ac\",[_.hA.generate]:\"m().dca6b3ac\",[_.hA.updateSeats]:\"m().c97ad52a\"}",
-  "{[T.hA.generate]:\"h().fc1f43d0\",[T.hA.switchFromDirect]:\"h().fc1f43d0\",[T.hA.updateSeats]:\"h().c97ad52a\"}",
+  "{[Z.hA.generate]:\"h().fc1f43d0\",[Z.hA.switchFromDirect]:\"h().fc1f43d0\",[Z.hA.updateSeats]:\"h().c97ad52a\"}",
   {
     "generate": "generate",
     "updateSeats": "updateSeats",
@@ -7069,10 +7088,12 @@
   },
   {
     "MEDIA": "MEDIA",
-    "TWEET": "TWEET"
+    "TWEET": "TWEET",
+    "MARKDOWN": "MARKDOWN"
   },
   {
-    "IMMUTABLE": "IMMUTABLE"
+    "IMMUTABLE": "IMMUTABLE",
+    "MUTABLE": "MUTABLE"
   },
   {
     "GIF": "DraftTweetGif",
