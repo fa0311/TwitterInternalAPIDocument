@@ -1609,8 +1609,8 @@
       }
     },
     "AudioSpaceById": {
-      "url": "https://twitter.com/i/api/graphql/eIaFOogHbLuY3elSfPxRkw/AudioSpaceById",
-      "queryId": "eIaFOogHbLuY3elSfPxRkw",
+      "url": "https://twitter.com/i/api/graphql/GuPdAQwidjGvtFgW5lmA5A/AudioSpaceById",
+      "queryId": "GuPdAQwidjGvtFgW5lmA5A",
       "method": "GET",
       "features": {
         "spaces_2022_h2_spaces_communities": true,
