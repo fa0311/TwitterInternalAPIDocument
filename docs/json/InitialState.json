@@ -2193,6 +2193,9 @@
       "subscriptions_inapp_grok_disable_links": {
         "value": "true"
       },
+      "subscriptions_inapp_grok_early_access_enabled": {
+        "value": "false"
+      },
       "subscriptions_inapp_grok_enable_roast_me_prompt": {
         "value": "true"
       },
@@ -4808,6 +4811,9 @@
         "subscriptions_inapp_grok_disable_links": {
           "value": "true"
         },
+        "subscriptions_inapp_grok_early_access_enabled": {
+          "value": "false"
+        },
         "subscriptions_inapp_grok_enable_roast_me_prompt": {
           "value": "true"
         },
@@ -5338,7 +5344,7 @@
       "settingsVersion": "8c5c232e1eb41ad639d62e32affa5b8a"
     },
     "debug": {},
-    "featureSetToken": "15579cad35a1edcc9e619ed7254c7b5cb4f80480",
+    "featureSetToken": "0fa7841cfec7be87a7f69331ae86c7aa6c0f9bb0",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -5408,7 +5414,7 @@
     "country": "XX",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "171166007087156889",
+    "guestId": "171183278659429027",
     "hasCommunityMemberships": "false",
     "language": "en",
     "ssoInitTokens": {},
