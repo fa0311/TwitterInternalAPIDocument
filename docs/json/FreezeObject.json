@@ -3429,15 +3429,16 @@
     "CellWithProminentSocialContext": "CellWithProminentSocialContext"
   },
   {
-    "FocalTweet": "FocalTweet",
-    "MediaGrid": "MediaGrid"
+    "FocalTweet": "FocalTweet"
   },
   {
     "...r": "_",
+    "CondensedTweet": "CondensedTweet",
     "DeprecatedMediaFocus": "DeprecatedMediaFocus",
     "EmphasizedPromotedTweet": "EmphasizedPromotedTweet",
     "MapCardPromotedTweet": "MapCardPromotedTweet",
     "Media": "Media",
+    "MediaGrid": "MediaGrid",
     "MomentTimelineTweet": "MomentTimelineTweet",
     "QuotedTweet": "QuotedTweet",
     "ReaderMode": "ReaderMode",
@@ -3445,8 +3446,7 @@
     "SelfThread": "SelfThread",
     "Tweet": "Tweet",
     "TweetFollowOnly": "TweetFollowOnly",
-    "TweetWithoutCard": "TweetWithoutCard",
-    "CondensedTweet": "CondensedTweet"
+    "TweetWithoutCard": "TweetWithoutCard"
   },
   {
     "List": "List",
