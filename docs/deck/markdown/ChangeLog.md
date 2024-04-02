@@ -2322,3 +2322,15 @@
 - responsive_web_twitter_article_markdown_enabled<br>
 #### remove<br>
 - web_video_bitrate_persistence_enabled<br>
+## 2024/04/02<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- responsive_web_twitter_article_markdown_block_limit<br>
+- subscriptions_inapp_grok_early_access_enabled<br>
+#### remove<br>
+- subscriptions_premium_tiers_marketing_page_enabled<br>
