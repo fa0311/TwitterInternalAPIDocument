@@ -531,10 +531,10 @@
         "value": "true"
       },
       "communities_adult_content_setting_display": {
-        "value": "false"
+        "value": "true"
       },
       "communities_adult_content_setting_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "communities_enable_explore_tab": {
         "value": "false"
@@ -1754,6 +1754,9 @@
       "responsive_web_twitter_article_cover_aspect_ratio_5_2": {
         "value": "true"
       },
+      "responsive_web_twitter_article_markdown_block_limit": {
+        "value": "10"
+      },
       "responsive_web_twitter_article_markdown_enabled": {
         "value": "false"
       },
@@ -2200,6 +2203,9 @@
       "subscriptions_inapp_grok_disable_links": {
         "value": "true"
       },
+      "subscriptions_inapp_grok_early_access_enabled": {
+        "value": "false"
+      },
       "subscriptions_inapp_grok_enable_roast_me_prompt": {
         "value": "true"
       },
@@ -2240,9 +2246,6 @@
         "value": "BlueVerifiedPlus"
       },
       "subscriptions_premium_tiers_encrypted_dms_gating_update_enabled": {
-        "value": "true"
-      },
-      "subscriptions_premium_tiers_marketing_page_enabled": {
         "value": "true"
       },
       "subscriptions_report_ad_upsell_enabled": {
@@ -4369,6 +4372,9 @@
         "responsive_web_twitter_article_cover_aspect_ratio_5_2": {
           "value": "true"
         },
+        "responsive_web_twitter_article_markdown_block_limit": {
+          "value": "10"
+        },
         "responsive_web_twitter_article_markdown_enabled": {
           "value": "false"
         },
@@ -4535,6 +4541,9 @@
           "value": "false"
         },
         "rweb_spaceclient_v2_enabled": {
+          "value": "false"
+        },
+        "rweb_tipjar_consumption_enabled": {
           "value": "false"
         },
         "rweb_tweets_boosting_enabled": {
@@ -4815,6 +4824,9 @@
         "subscriptions_inapp_grok_disable_links": {
           "value": "true"
         },
+        "subscriptions_inapp_grok_early_access_enabled": {
+          "value": "false"
+        },
         "subscriptions_inapp_grok_enable_roast_me_prompt": {
           "value": "true"
         },
@@ -4855,9 +4867,6 @@
           "value": "BlueVerifiedPlus"
         },
         "subscriptions_premium_tiers_encrypted_dms_gating_update_enabled": {
-          "value": "true"
-        },
-        "subscriptions_premium_tiers_marketing_page_enabled": {
           "value": "true"
         },
         "subscriptions_report_ad_upsell_enabled": {
@@ -5345,10 +5354,10 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "8c38b54032c29843e2a862c224888a5e"
+      "settingsVersion": "2172dfd634b80b5227cd55f15137491c"
     },
     "debug": {},
-    "featureSetToken": "176af9cc2a3eff1d6a90eaf0ce39eb0344092929",
+    "featureSetToken": "83c4541bc27e2fae5426ab76413a120d5000e2c4",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -5418,7 +5427,7 @@
     "country": "XX",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "171200590855479780",
+    "guestId": "171209227139189813",
     "hasCommunityMemberships": "false",
     "language": "en",
     "ssoInitTokens": {},
