@@ -4533,6 +4533,9 @@
         "rweb_spaceclient_v2_enabled": {
           "value": "false"
         },
+        "rweb_tipjar_consumption_enabled": {
+          "value": "false"
+        },
         "rweb_tweets_boosting_enabled": {
           "value": "false"
         },
@@ -5341,10 +5344,10 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "8c5c232e1eb41ad639d62e32affa5b8a"
+      "settingsVersion": "07c84f4fef3583f12e3d3ca22df53177"
     },
     "debug": {},
-    "featureSetToken": "0fa7841cfec7be87a7f69331ae86c7aa6c0f9bb0",
+    "featureSetToken": "83c4541bc27e2fae5426ab76413a120d5000e2c4",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -5414,7 +5417,7 @@
     "country": "XX",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "171200561935872872",
+    "guestId": "171209201240560364",
     "hasCommunityMemberships": "false",
     "language": "en",
     "ssoInitTokens": {},

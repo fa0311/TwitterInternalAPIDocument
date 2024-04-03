@@ -1921,19 +1921,13 @@
     "manageView": "manageView",
     "settingsView": "settingsView"
   },
-  "{[F.Q.host]:{\"title\":\"da.hostTitle\",\"maybePluralFormatter\":\"pa\"},[F.Q.cohost]:{\"title\":\"da.cohostTitle\",\"maybePluralFormatter\":\"ma\"},[F.Q.speaker]:{\"title\":\"da.speakerTitle\",\"maybePluralFormatter\":\"ha\"},[F.Q.listener]:{\"title\":\"da.listenerTitle\",\"maybePluralFormatter\":\"fa\"}}",
+  "{[F.Q.host]:{\"title\":\"pa.hostTitle\",\"maybePluralFormatter\":\"ma\"},[F.Q.cohost]:{\"title\":\"pa.cohostTitle\",\"maybePluralFormatter\":\"ha\"},[F.Q.speaker]:{\"title\":\"pa.speakerTitle\",\"maybePluralFormatter\":\"fa\"},[F.Q.listener]:{\"title\":\"pa.listenerTitle\",\"maybePluralFormatter\":\"ga\"}}",
   {
     "onlyInvited": "onlyInvited",
     "peopleYouFollow": "peopleYouFollow",
     "everyone": "everyone"
   },
-  "{[Xa.onlyInvited]:\"0\",[Xa.peopleYouFollow]:\"1\",[Xa.everyone]:\"2\"}",
-  {
-    "host": "host",
-    "cohost": "cohost",
-    "speaker": "speaker",
-    "listener": "listener"
-  },
+  "{[ei.onlyInvited]:\"0\",[ei.peopleYouFollow]:\"1\",[ei.everyone]:\"2\"}",
   {
     "AUDIO": "visual_audio",
     "CONFERENCE": "conference_spaces",
@@ -4350,7 +4344,7 @@
     "Topic": "Topic",
     "Trending": "Trending"
   },
-  "{[H.v.FOLLOWS]:\"Y\",[H.v.FRIENDS_OF_FRIENDS]:\"W\"}",
+  "{[H.v.FOLLOWS]:\"G\",[H.v.FRIENDS_OF_FRIENDS]:\"Q\"}",
   {
     "SelfHarm": "SELF_HARM",
     "Violence": "VIOLENCE",
@@ -5503,7 +5497,7 @@
     "SUCCESS": "rweb/safetyMode/FETCH_SAFETY_MODE_SETTINGS_SUCCESS",
     "FAILURE": "rweb/safetyMode/FETCH_SAFETY_MODE_SETTINGS_FAILURE"
   },
-  "{[P.ActionedTweets]:{\"backLocation\":\"A\",\"confirmationSheetHeadline\":\"()(0,o.X_)\"{\"screenName\":\"m\"}{\"screenName\":\"m\"}},[P.PreviewFlaggedTweets]:{\"backLocation\":\"x\",\"confirmationSheetHeadline\":\"S()\"{\"screenName\":\"m\"}{\"screenName\":\"m\"}}}",
+  "{[x.ActionedTweets]:{\"backLocation\":\"A\",\"confirmationSheetHeadline\":\"()(0,o.X_)\"{\"screenName\":\"m\"}{\"screenName\":\"m\"}},[x.PreviewFlaggedTweets]:{\"backLocation\":\"P\",\"confirmationSheetHeadline\":\"S()\"{\"screenName\":\"m\"}{\"screenName\":\"m\"}}}",
   {
     "ActionedTweets": "actioned_tweets",
     "PreviewFlaggedTweets": "preview_flagged_tweets"
@@ -6069,7 +6063,7 @@
     "fetchStatus": "Q.ZP.NONE",
     "config": "Tt"
   },
-  "{[_.hA.switchFromDirect]:\"m().dca6b3ac\",[_.hA.generate]:\"m().dca6b3ac\",[_.hA.updateSeats]:\"m().c97ad52a\"}",
+  "{[b.hA.switchFromDirect]:\"m().dca6b3ac\",[b.hA.generate]:\"m().dca6b3ac\",[b.hA.updateSeats]:\"m().c97ad52a\"}",
   "{[Z.hA.generate]:\"h().fc1f43d0\",[Z.hA.switchFromDirect]:\"h().fc1f43d0\",[Z.hA.updateSeats]:\"h().c97ad52a\"}",
   {
     "generate": "generate",
