@@ -4344,7 +4344,7 @@
     "Topic": "Topic",
     "Trending": "Trending"
   },
-  "{[H.v.FOLLOWS]:\"G\",[H.v.FRIENDS_OF_FRIENDS]:\"Q\"}",
+  "{[H.v.FOLLOWS]:\"W\",[H.v.FRIENDS_OF_FRIENDS]:\"Y\"}",
   {
     "SelfHarm": "SELF_HARM",
     "Violence": "VIOLENCE",
@@ -5497,7 +5497,7 @@
     "SUCCESS": "rweb/safetyMode/FETCH_SAFETY_MODE_SETTINGS_SUCCESS",
     "FAILURE": "rweb/safetyMode/FETCH_SAFETY_MODE_SETTINGS_FAILURE"
   },
-  "{[x.ActionedTweets]:{\"backLocation\":\"A\",\"confirmationSheetHeadline\":\"()(0,o.X_)\"{\"screenName\":\"m\"}{\"screenName\":\"m\"}},[x.PreviewFlaggedTweets]:{\"backLocation\":\"P\",\"confirmationSheetHeadline\":\"S()\"{\"screenName\":\"m\"}{\"screenName\":\"m\"}}}",
+  "{[P.ActionedTweets]:{\"backLocation\":\"A\",\"confirmationSheetHeadline\":\"()(0,o.X_)\"{\"screenName\":\"m\"}{\"screenName\":\"m\"}},[P.PreviewFlaggedTweets]:{\"backLocation\":\"x\",\"confirmationSheetHeadline\":\"S()\"{\"screenName\":\"m\"}{\"screenName\":\"m\"}}}",
   {
     "ActionedTweets": "actioned_tweets",
     "PreviewFlaggedTweets": "preview_flagged_tweets"
@@ -6562,9 +6562,28 @@
     "AudioSpaceAttemptedToEnd": "AudioSpaceAttemptedToEnd"
   },
   {
-    "REQUEST": "rweb/promotedContent/LOG_REQUEST",
-    "SUCCESS": "rweb/promotedContent/LOG_SUCCESS",
-    "FAILURE": "rweb/promotedContent/LOG_FAILURE"
+    "explore": "explore",
+    "transparent": "transparent"
+  },
+  {
+    "full_time": "r",
+    "full_time_contract": "s",
+    "part_time": "i",
+    "contract_to_hire": "o"
+  },
+  {
+    "1": "u",
+    "2": "d"
+  },
+  {
+    "annually": {
+      "label": "u",
+      "value": "1"
+    },
+    "hourly": {
+      "label": "d",
+      "value": "2"
+    }
   },
   {
     "...y.n$": "_",
@@ -6961,6 +6980,11 @@
     "PHOTO": "photo",
     "GIF": "animated_gif",
     "TEXT": "text"
+  },
+  {
+    "REQUEST": "rweb/promotedContent/LOG_REQUEST",
+    "SUCCESS": "rweb/promotedContent/LOG_SUCCESS",
+    "FAILURE": "rweb/promotedContent/LOG_FAILURE"
   },
   {
     "FacepileGroup": "FacepileGroup",
