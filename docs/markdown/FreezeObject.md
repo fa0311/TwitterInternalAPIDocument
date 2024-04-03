@@ -4498,7 +4498,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{[H.v.FOLLOWS]:"G",[H.v.FRIENDS_OF_FRIENDS]:"Q"}
+{[H.v.FOLLOWS]:"W",[H.v.FRIENDS_OF_FRIENDS]:"Y"}
 ```
 | constant           | value          |
 |:-------------------|:---------------|
@@ -5817,7 +5817,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{[x.ActionedTweets]:{"backLocation":"A","confirmationSheetHeadline":"()(0,o.X_)"{"screenName":"m"}{"screenName":"m"}},[x.PreviewFlaggedTweets]:{"backLocation":"P","confirmationSheetHeadline":"S()"{"screenName":"m"}{"screenName":"m"}}}
+{[P.ActionedTweets]:{"backLocation":"A","confirmationSheetHeadline":"()(0,o.X_)"{"screenName":"m"}{"screenName":"m"}},[P.PreviewFlaggedTweets]:{"backLocation":"x","confirmationSheetHeadline":"S()"{"screenName":"m"}{"screenName":"m"}}}
 ```
 | constant             | value                  |
 |:---------------------|:-----------------------|
@@ -6983,11 +6983,27 @@ This document is entirely auto-generated and may contain errors.<br>
 | AudioSpaceInvitedToCohost         | AudioSpaceInvitedToCohost         |
 | AudioSpaceAttemptedToEnd          | AudioSpaceAttemptedToEnd          |
 
-| constant   | value                            |
-|:-----------|:---------------------------------|
-| REQUEST    | rweb/promotedContent/LOG_REQUEST |
-| SUCCESS    | rweb/promotedContent/LOG_SUCCESS |
-| FAILURE    | rweb/promotedContent/LOG_FAILURE |
+| constant    | value       |
+|:------------|:------------|
+| explore     | explore     |
+| transparent | transparent |
+
+| constant           | value   |
+|:-------------------|:--------|
+| full_time          | r       |
+| full_time_contract | s       |
+| part_time          | i       |
+| contract_to_hire   | o       |
+
+|   constant | value   |
+|-----------:|:--------|
+|          1 | u       |
+|          2 | d       |
+
+| constant   | value                        |
+|:-----------|:-----------------------------|
+| annually   | {'label': 'u', 'value': '1'} |
+| hourly     | {'label': 'd', 'value': '2'} |
 
 | constant    | value       |
 |:------------|:------------|
@@ -7455,6 +7471,12 @@ This document is entirely auto-generated and may contain errors.<br>
 | PHOTO      | photo        |
 | GIF        | animated_gif |
 | TEXT       | text         |
+
+| constant   | value                            |
+|:-----------|:---------------------------------|
+| REQUEST    | rweb/promotedContent/LOG_REQUEST |
+| SUCCESS    | rweb/promotedContent/LOG_SUCCESS |
+| FAILURE    | rweb/promotedContent/LOG_FAILURE |
 
 | constant             | value                |
 |:---------------------|:---------------------|
