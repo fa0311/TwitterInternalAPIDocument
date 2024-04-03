@@ -4432,7 +4432,7 @@
     "navButtons": "navigationButtons",
     "carouselRoot": "carouselRoot"
   },
-  "{[H.v.FOLLOWS]:\"G\",[H.v.FRIENDS_OF_FRIENDS]:\"B\"}",
+  "{[H.v.FOLLOWS]:\"W\",[H.v.FRIENDS_OF_FRIENDS]:\"Y\"}",
   {
     "SelfHarm": "SELF_HARM",
     "Violence": "VIOLENCE",
@@ -6583,9 +6583,28 @@
     "AudioSpaceAttemptedToEnd": "AudioSpaceAttemptedToEnd"
   },
   {
-    "REQUEST": "rweb/promotedContent/LOG_REQUEST",
-    "SUCCESS": "rweb/promotedContent/LOG_SUCCESS",
-    "FAILURE": "rweb/promotedContent/LOG_FAILURE"
+    "explore": "explore",
+    "transparent": "transparent"
+  },
+  {
+    "full_time": "r",
+    "full_time_contract": "s",
+    "part_time": "i",
+    "contract_to_hire": "o"
+  },
+  {
+    "1": "u",
+    "2": "d"
+  },
+  {
+    "annually": {
+      "label": "u",
+      "value": "1"
+    },
+    "hourly": {
+      "label": "d",
+      "value": "2"
+    }
   },
   {
     "...y.n$": "_",
@@ -6928,6 +6947,11 @@
     "PHOTO": "photo",
     "GIF": "animated_gif",
     "TEXT": "text"
+  },
+  {
+    "REQUEST": "rweb/promotedContent/LOG_REQUEST",
+    "SUCCESS": "rweb/promotedContent/LOG_SUCCESS",
+    "FAILURE": "rweb/promotedContent/LOG_FAILURE"
   },
   {
     "INITIAL": "initial",
