@@ -4358,7 +4358,7 @@
           "value": "true"
         },
         "responsive_web_trends_ui_top_articles": {
-          "value": "false"
+          "value": "true"
         },
         "responsive_web_tweet_analytics_m2_enabled": {
           "value": "false"
@@ -5369,7 +5369,7 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "10ead37ee21ec59e8ed11386c1835c97"
+      "settingsVersion": "1fb8bc61d4c692d296d2de22859311ad"
     },
     "debug": {},
     "featureSetToken": "b9d2a68075dbf0e8337c669b1d3454de45d1e737",
@@ -5442,7 +5442,7 @@
     "country": "XX",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "171217873604962080",
+    "guestId": "171226507278264338",
     "hasCommunityMemberships": "false",
     "language": "en",
     "ssoInitTokens": {},
