@@ -1721,7 +1721,7 @@
         "value": "true"
       },
       "responsive_web_trends_ui_top_articles": {
-        "value": "false"
+        "value": "true"
       },
       "responsive_web_tweet_analytics_m2_enabled": {
         "value": "false"
@@ -4348,7 +4348,7 @@
           "value": "true"
         },
         "responsive_web_trends_ui_top_articles": {
-          "value": "false"
+          "value": "true"
         },
         "responsive_web_tweet_analytics_m2_enabled": {
           "value": "false"
@@ -5362,7 +5362,7 @@
       "settingsVersion": "8c5c232e1eb41ad639d62e32affa5b8a"
     },
     "debug": {},
-    "featureSetToken": "b9d2a68075dbf0e8337c669b1d3454de45d1e737",
+    "featureSetToken": "82264388f1b9a0d07755eb8ade2f15a68523dca5",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -5432,7 +5432,7 @@
     "country": "XX",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "171217846069951120",
+    "guestId": "171226481689377164",
     "hasCommunityMemberships": "false",
     "language": "en",
     "ssoInitTokens": {},
