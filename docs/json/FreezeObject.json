@@ -3334,7 +3334,8 @@
     "SidebarLongform": "SidebarLongform",
     "SidebarPremiumPlus": "SidebarPremiumPlus",
     "SidebarVerifiedOrgs": "SidebarVerifiedOrgs",
-    "LikesTab": "LikesTab"
+    "LikesTab": "LikesTab",
+    "VerifiedOnlyChat": "VerifiedOnlyChat"
   },
   {
     "EmptyState": "EmptyState",
@@ -4476,6 +4477,48 @@
     "FAILURE": "rweb/teams/FETCH_TEAMS_FAILURE"
   },
   {
+    "All": "All",
+    "Premium": "Premium",
+    "VerifiedOrgs": "VerifiedOrgs"
+  },
+  {
+    "EditPost": "EditPost",
+    "HighlightsProfile": "HighlightsProfile",
+    "ArticlesProfile": "ArticlesProfile",
+    "ArticlesReader": "ArticlesReader",
+    "ArticlesPostComposer": "ArticlesPostComposer",
+    "CreatorSubsEligibility": "CreatorSubsEligibility",
+    "IdVerification": "IdVerification",
+    "LongformPostComposer": "LongformPostComposer",
+    "PreRollAdsEligibility": "PreRollAdsEligibility",
+    "AdsRevShareEligibility": "AdsRevShareEligibility",
+    "CreateCommunity": "CreateCommunity",
+    "DmAddToGroup": "DmAddToGroup",
+    "DmCreateGroup": "DmCreateGroup",
+    "DmMessageRequest": "DmMessageRequest",
+    "DmRateLimited": "DmRateLimited",
+    "VideoDownload": "VideoDownload",
+    "BlockAd": "BlockAd",
+    "MuteAd": "MuteAd",
+    "DismissAd": "DismissAd",
+    "ReportAd": "ReportAd",
+    "BookmarkFolders": "BookmarkFolders",
+    "SidebarDefault": "SidebarDefault",
+    "SidebarArticle": "SidebarArticle",
+    "SidebarLongform": "SidebarLongform",
+    "SidebarPremiumPlus": "SidebarPremiumPlus",
+    "SidebarVerifiedOrgs": "SidebarVerifiedOrgs",
+    "LikesTab": "LikesTab",
+    "VerifiedOnlyChat": "VerifiedOnlyChat"
+  },
+  {
+    "EmptyState": "EmptyState",
+    "InlineCallout": "InlineCallout",
+    "Button": "Button",
+    "InterstitialSheet": "InterstitialSheet",
+    "SidebarModule": "SidebarModule"
+  },
+  {
     "Canceled": "Canceled",
     "Ended": "Ended",
     "NotStarted": "NotStarted",
@@ -5199,7 +5242,8 @@
     "SidebarLongform": "SidebarLongform",
     "SidebarPremiumPlus": "SidebarPremiumPlus",
     "SidebarVerifiedOrgs": "SidebarVerifiedOrgs",
-    "LikesTab": "LikesTab"
+    "LikesTab": "LikesTab",
+    "VerifiedOnlyChat": "VerifiedOnlyChat"
   },
   {
     "EmptyState": "EmptyState",
@@ -5588,7 +5632,8 @@
     "SidebarLongform": "SidebarLongform",
     "SidebarPremiumPlus": "SidebarPremiumPlus",
     "SidebarVerifiedOrgs": "SidebarVerifiedOrgs",
-    "LikesTab": "LikesTab"
+    "LikesTab": "LikesTab",
+    "VerifiedOnlyChat": "VerifiedOnlyChat"
   },
   {
     "EmptyState": "EmptyState",
@@ -6150,6 +6195,10 @@
     "MinRetweets": "minRetweets",
     "ReplyFilter": "replyFilter",
     "LinkFilter": "linkFilter"
+  },
+  {
+    "explore": "explore",
+    "transparent": "transparent"
   },
   {
     "search": "search"
@@ -6926,7 +6975,8 @@
     "SidebarLongform": "SidebarLongform",
     "SidebarPremiumPlus": "SidebarPremiumPlus",
     "SidebarVerifiedOrgs": "SidebarVerifiedOrgs",
-    "LikesTab": "LikesTab"
+    "LikesTab": "LikesTab",
+    "VerifiedOnlyChat": "VerifiedOnlyChat"
   },
   {
     "EmptyState": "EmptyState",
@@ -6991,7 +7041,8 @@
     "SidebarLongform": "SidebarLongform",
     "SidebarPremiumPlus": "SidebarPremiumPlus",
     "SidebarVerifiedOrgs": "SidebarVerifiedOrgs",
-    "LikesTab": "LikesTab"
+    "LikesTab": "LikesTab",
+    "VerifiedOnlyChat": "VerifiedOnlyChat"
   },
   {
     "EmptyState": "EmptyState",
