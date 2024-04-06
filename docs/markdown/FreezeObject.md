@@ -3473,6 +3473,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | SidebarPremiumPlus     | SidebarPremiumPlus     |
 | SidebarVerifiedOrgs    | SidebarVerifiedOrgs    |
 | LikesTab               | LikesTab               |
+| VerifiedOnlyChat       | VerifiedOnlyChat       |
 
 | constant          | value             |
 |:------------------|:------------------|
@@ -4626,6 +4627,51 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant     | value        |
 |:-------------|:-------------|
+| All          | All          |
+| Premium      | Premium      |
+| VerifiedOrgs | VerifiedOrgs |
+
+| constant               | value                  |
+|:-----------------------|:-----------------------|
+| EditPost               | EditPost               |
+| HighlightsProfile      | HighlightsProfile      |
+| ArticlesProfile        | ArticlesProfile        |
+| ArticlesReader         | ArticlesReader         |
+| ArticlesPostComposer   | ArticlesPostComposer   |
+| CreatorSubsEligibility | CreatorSubsEligibility |
+| IdVerification         | IdVerification         |
+| LongformPostComposer   | LongformPostComposer   |
+| PreRollAdsEligibility  | PreRollAdsEligibility  |
+| AdsRevShareEligibility | AdsRevShareEligibility |
+| CreateCommunity        | CreateCommunity        |
+| DmAddToGroup           | DmAddToGroup           |
+| DmCreateGroup          | DmCreateGroup          |
+| DmMessageRequest       | DmMessageRequest       |
+| DmRateLimited          | DmRateLimited          |
+| VideoDownload          | VideoDownload          |
+| BlockAd                | BlockAd                |
+| MuteAd                 | MuteAd                 |
+| DismissAd              | DismissAd              |
+| ReportAd               | ReportAd               |
+| BookmarkFolders        | BookmarkFolders        |
+| SidebarDefault         | SidebarDefault         |
+| SidebarArticle         | SidebarArticle         |
+| SidebarLongform        | SidebarLongform        |
+| SidebarPremiumPlus     | SidebarPremiumPlus     |
+| SidebarVerifiedOrgs    | SidebarVerifiedOrgs    |
+| LikesTab               | LikesTab               |
+| VerifiedOnlyChat       | VerifiedOnlyChat       |
+
+| constant          | value             |
+|:------------------|:------------------|
+| EmptyState        | EmptyState        |
+| InlineCallout     | InlineCallout     |
+| Button            | Button            |
+| InterstitialSheet | InterstitialSheet |
+| SidebarModule     | SidebarModule     |
+
+| constant     | value        |
+|:-------------|:-------------|
 | Canceled     | Canceled     |
 | Ended        | Ended        |
 | NotStarted   | NotStarted   |
@@ -5450,6 +5496,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | SidebarPremiumPlus     | SidebarPremiumPlus     |
 | SidebarVerifiedOrgs    | SidebarVerifiedOrgs    |
 | LikesTab               | LikesTab               |
+| VerifiedOnlyChat       | VerifiedOnlyChat       |
 
 | constant          | value             |
 |:------------------|:------------------|
@@ -5870,6 +5917,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | SidebarPremiumPlus     | SidebarPremiumPlus     |
 | SidebarVerifiedOrgs    | SidebarVerifiedOrgs    |
 | LikesTab               | LikesTab               |
+| VerifiedOnlyChat       | VerifiedOnlyChat       |
 
 | constant          | value             |
 |:------------------|:------------------|
@@ -6464,6 +6512,11 @@ This document is entirely auto-generated and may contain errors.<br>
 | MinRetweets             | minRetweets             |
 | ReplyFilter             | replyFilter             |
 | LinkFilter              | linkFilter              |
+
+| constant    | value       |
+|:------------|:------------|
+| explore     | explore     |
+| transparent | transparent |
 
 | constant   | value   |
 |:-----------|:--------|
@@ -7266,6 +7319,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | SidebarPremiumPlus     | SidebarPremiumPlus     |
 | SidebarVerifiedOrgs    | SidebarVerifiedOrgs    |
 | LikesTab               | LikesTab               |
+| VerifiedOnlyChat       | VerifiedOnlyChat       |
 
 | constant          | value             |
 |:------------------|:------------------|
@@ -7350,6 +7404,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | SidebarPremiumPlus     | SidebarPremiumPlus     |
 | SidebarVerifiedOrgs    | SidebarVerifiedOrgs    |
 | LikesTab               | LikesTab               |
+| VerifiedOnlyChat       | VerifiedOnlyChat       |
 
 | constant          | value             |
 |:------------------|:------------------|

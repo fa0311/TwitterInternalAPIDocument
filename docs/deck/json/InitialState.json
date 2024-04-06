@@ -4840,7 +4840,7 @@
           "value": "true"
         },
         "subscriptions_inapp_grok_early_access_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "subscriptions_inapp_grok_enable_roast_me_prompt": {
           "value": "true"
@@ -5369,7 +5369,7 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "1fb8bc61d4c692d296d2de22859311ad"
+      "settingsVersion": "b64dfee09cb4021837ec8a4b195b2d7a"
     },
     "debug": {},
     "featureSetToken": "b9d2a68075dbf0e8337c669b1d3454de45d1e737",
@@ -5442,7 +5442,7 @@
     "country": "XX",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "171226507278264338",
+    "guestId": "171235146427115159",
     "hasCommunityMemberships": "false",
     "language": "en",
     "ssoInitTokens": {},

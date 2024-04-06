@@ -3258,3 +3258,14 @@
 - spaces_video_creation_enabled<br>
 #### remove<br>
 - None<br>
+## 2024/04/05<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- responsive_web_ocf_2fa_x_migration<br>
+#### remove<br>
+- None<br>
