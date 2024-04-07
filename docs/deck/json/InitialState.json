@@ -1586,6 +1586,9 @@
       "responsive_web_not_a_bot_signups_enabled": {
         "value": "false"
       },
+      "responsive_web_ocf_2fa_x_migration": {
+        "value": "false"
+      },
       "responsive_web_ocf_reportflow_appeals_enabled": {
         "value": "false"
       },
@@ -1731,7 +1734,7 @@
         "value": "true"
       },
       "responsive_web_trends_ui_top_articles": {
-        "value": "false"
+        "value": "true"
       },
       "responsive_web_tweet_analytics_m2_enabled": {
         "value": "false"
@@ -1756,6 +1759,9 @@
       },
       "responsive_web_twitter_article_cover_aspect_ratio_5_2": {
         "value": "true"
+      },
+      "responsive_web_twitter_article_insert_enabled": {
+        "value": "false"
       },
       "responsive_web_twitter_article_markdown_block_limit": {
         "value": "10"
@@ -4213,6 +4219,9 @@
         "responsive_web_not_a_bot_signups_enabled": {
           "value": "false"
         },
+        "responsive_web_ocf_2fa_x_migration": {
+          "value": "false"
+        },
         "responsive_web_ocf_reportflow_appeals_enabled": {
           "value": "false"
         },
@@ -4383,6 +4392,9 @@
         },
         "responsive_web_twitter_article_cover_aspect_ratio_5_2": {
           "value": "true"
+        },
+        "responsive_web_twitter_article_insert_enabled": {
+          "value": "false"
         },
         "responsive_web_twitter_article_markdown_block_limit": {
           "value": "10"
@@ -5369,10 +5381,10 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "b64dfee09cb4021837ec8a4b195b2d7a"
+      "settingsVersion": "5150e994fc5b10e5d2a10861e371e215"
     },
     "debug": {},
-    "featureSetToken": "b9d2a68075dbf0e8337c669b1d3454de45d1e737",
+    "featureSetToken": "456005a4e1bb2022e02c648ade1adc188664cd72",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -5442,7 +5454,7 @@
     "country": "XX",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "171243781933307398",
+    "guestId": "171252433291610055",
     "hasCommunityMemberships": "false",
     "language": "en",
     "ssoInitTokens": {},
