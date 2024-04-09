@@ -3280,3 +3280,17 @@
 - responsive_web_twitter_article_insert_enabled<br>
 #### remove<br>
 - None<br>
+## 2024/04/09<br>
+### API<br>
+#### add<br>
+- TVTrend<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- creator_subscriptions_quote_tweet_preview_enabled<br>
+- rweb_spaces_invite_search_enabled<br>
+- spaces_video_consumption_enabled<br>
+- tweet_with_visibility_results_prefer_gql_media_interstitial_enabled<br>
+#### remove<br>
+- responsive_web_twitter_article_cover_aspect_ratio_5_2<br>
