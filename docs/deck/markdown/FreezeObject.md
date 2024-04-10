@@ -4753,12 +4753,12 @@ This document is entirely auto-generated and may contain errors.<br>
 | constant   | value   |
 |:-----------|:--------|
 | SENSITIVE  | b       |
-| BLOCKED    | v       |
-| BLOCKED_BY | g       |
+| BLOCKED    | g       |
+| BLOCKED_BY | v       |
 
 ```internal process
 # Error
-{[b]:"f",[v]:"y",[g]:"I"}
+{[b]:"f",[g]:"y",[v]:"I"}
 ```
 | constant             | value     |
 |:---------------------|:----------|
@@ -6849,6 +6849,12 @@ This document is entirely auto-generated and may contain errors.<br>
 | REQUEST    | rweb/FETCH_TV_USER_PROFILE_MIXER/REQUEST |
 | SUCCESS    | rweb/FETCH_TV_USER_PROFILE_MIXER/SUCCESS |
 | FAILURE    | rweb/FETCH_TV_USER_PROFILE_MIXER/FAILURE |
+
+| constant   | value                       |
+|:-----------|:----------------------------|
+| REQUEST    | rweb/FETCH_TV_TREND/REQUEST |
+| SUCCESS    | rweb/FETCH_TV_TREND/SUCCESS |
+| FAILURE    | rweb/FETCH_TV_TREND/FAILURE |
 
 | constant   | value                             |
 |:-----------|:----------------------------------|
