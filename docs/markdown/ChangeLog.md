@@ -3294,3 +3294,15 @@
 - tweet_with_visibility_results_prefer_gql_media_interstitial_enabled<br>
 #### remove<br>
 - responsive_web_twitter_article_cover_aspect_ratio_5_2<br>
+## 2024/04/10<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- media_visibility_treatments_blurred_media_interstitial_enabled<br>
+- responsive_web_twitter_article_code_block_enabled<br>
+#### remove<br>
+- None<br>
