@@ -4486,10 +4486,10 @@
   },
   {
     "SENSITIVE": "b",
-    "BLOCKED": "v",
-    "BLOCKED_BY": "g"
+    "BLOCKED": "g",
+    "BLOCKED_BY": "v"
   },
-  "{[b]:\"f\",[v]:\"y\",[g]:\"I\"}",
+  "{[b]:\"f\",[g]:\"y\",[v]:\"I\"}",
   {
     "BROADCAST_MEDIA_TYPE": "broadcast",
     "VIDEO_MEDIA_TYPE": "video"
@@ -6302,6 +6302,11 @@
     "REQUEST": "rweb/FETCH_TV_USER_PROFILE_MIXER/REQUEST",
     "SUCCESS": "rweb/FETCH_TV_USER_PROFILE_MIXER/SUCCESS",
     "FAILURE": "rweb/FETCH_TV_USER_PROFILE_MIXER/FAILURE"
+  },
+  {
+    "REQUEST": "rweb/FETCH_TV_TREND/REQUEST",
+    "SUCCESS": "rweb/FETCH_TV_TREND/SUCCESS",
+    "FAILURE": "rweb/FETCH_TV_TREND/FAILURE"
   },
   {
     "REQUEST": "rweb/FETCH_RELATED_VIDEOS/REQUEST",
