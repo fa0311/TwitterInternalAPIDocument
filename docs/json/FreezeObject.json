@@ -942,7 +942,7 @@
     "OFF": "Off",
     "UNDETERMINED": "Undetermined"
   },
-  "{[B.DEFAULT]:\"x.UNDETERMINED\",[B.DENIED]:\"x.OFF\",[B.GRANTED]:\"x.ON\"}",
+  "{[I.DEFAULT]:\"x.UNDETERMINED\",[I.DENIED]:\"x.OFF\",[I.GRANTED]:\"x.ON\"}",
   {
     "REQUEST": "rweb/devices/REMOVE_PUSH_DESTINATION_REQUEST",
     "SUCCESS": "rweb/devices/REMOVE_PUSH_DESTINATION_SUCCESS",
@@ -1643,6 +1643,8 @@
     "end": "end"
   },
   {
+    "alwaysBaseGreen50": "alwaysBaseGreen50",
+    "alwaysBaseGreen900": "alwaysBaseGreen900",
     "alwaysBaseGray1100": "alwaysBaseGray1100",
     "blue300": "blue300",
     "blue500": "blue500",
@@ -1923,13 +1925,13 @@
     "manageView": "manageView",
     "settingsView": "settingsView"
   },
-  "{[Ie.Q.host]:{\"title\":\"fa.hostTitle\",\"maybePluralFormatter\":\"ba\"},[Ie.Q.cohost]:{\"title\":\"fa.cohostTitle\",\"maybePluralFormatter\":\"ga\"},[Ie.Q.speaker]:{\"title\":\"fa.speakerTitle\",\"maybePluralFormatter\":\"ya\"},[Ie.Q.listener]:{\"title\":\"fa.listenerTitle\",\"maybePluralFormatter\":\"va\"}}",
+  "{[Ie.Q.host]:{\"title\":\"Za.hostTitle\",\"maybePluralFormatter\":\"Ia\"},[Ie.Q.cohost]:{\"title\":\"Za.cohostTitle\",\"maybePluralFormatter\":\"Pa\"},[Ie.Q.speaker]:{\"title\":\"Za.speakerTitle\",\"maybePluralFormatter\":\"Ta\"},[Ie.Q.listener]:{\"title\":\"Za.listenerTitle\",\"maybePluralFormatter\":\"xa\"}}",
   {
     "onlyInvited": "onlyInvited",
     "peopleYouFollow": "peopleYouFollow",
     "everyone": "everyone"
   },
-  "{[ii.onlyInvited]:\"0\",[ii.peopleYouFollow]:\"1\",[ii.everyone]:\"2\"}",
+  "{[fi.onlyInvited]:\"0\",[fi.peopleYouFollow]:\"1\",[fi.everyone]:\"2\"}",
   {
     "AUDIO": "visual_audio",
     "CONFERENCE": "conference_spaces",
@@ -4481,7 +4483,8 @@
     "GIFs": "GIFs",
     "Posts": "Posts",
     "Markdown": "Markdown",
-    "Divider": "Divider"
+    "Divider": "Divider",
+    "Code": "Code"
   },
   {
     "reset": {
@@ -4506,14 +4509,15 @@
     "FAILURE": "rweb/availableLanguages/FETCH_AVAILABLE_LANGUAGES_FAILURE"
   },
   {
-    "MARKDOWN": "Et",
-    "PREVIEW": "ft"
+    "MARKDOWN": "St",
+    "PREVIEW": "Tt"
   },
   {
-    "MEDIA": "Tt",
-    "GIFS": "St",
-    "POSTS": "kt",
-    "MARKDOWN": "Pt"
+    "MEDIA": "zt",
+    "GIFS": "Bt",
+    "POSTS": "Ut",
+    "MARKDOWN": "Ot",
+    "CODE": "Ht"
   },
   {
     "Public": "Public",

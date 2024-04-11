@@ -1012,6 +1012,9 @@
       "media_edge_to_edge_content_enabled": {
         "value": "false"
       },
+      "media_visibility_treatments_blurred_media_interstitial_enabled": {
+        "value": "true"
+      },
       "network_layer_503_backoff_mode": {
         "value": "host"
       },
@@ -1746,6 +1749,9 @@
       },
       "responsive_web_twitter_article_character_limit": {
         "value": "100"
+      },
+      "responsive_web_twitter_article_code_block_enabled": {
+        "value": "false"
       },
       "responsive_web_twitter_article_content_debounce_ms": {
         "value": "3000"
@@ -2622,7 +2628,7 @@
         "value": "true"
       },
       "tweet_with_visibility_results_prefer_gql_media_interstitial_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "tweetypie_unmention_optimization_enabled": {
         "value": "true"
@@ -3654,6 +3660,9 @@
         "media_edge_to_edge_content_enabled": {
           "value": "false"
         },
+        "media_visibility_treatments_blurred_media_interstitial_enabled": {
+          "value": "true"
+        },
         "network_layer_503_backoff_mode": {
           "value": "host"
         },
@@ -4388,6 +4397,9 @@
         },
         "responsive_web_twitter_article_character_limit": {
           "value": "100"
+        },
+        "responsive_web_twitter_article_code_block_enabled": {
+          "value": "false"
         },
         "responsive_web_twitter_article_content_debounce_ms": {
           "value": "3000"
@@ -5264,7 +5276,7 @@
           "value": "true"
         },
         "tweet_with_visibility_results_prefer_gql_media_interstitial_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "tweetypie_unmention_optimization_enabled": {
           "value": "true"
@@ -5392,7 +5404,7 @@
       "settingsVersion": "8d4c08f538378d48b9566c49da22405c"
     },
     "debug": {},
-    "featureSetToken": "e7197a18ff6f6b456a481b860a8a347026c1aa65",
+    "featureSetToken": "a50a2b1eec269a1fd6b73a4e4ce95f310ba72f78",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -5462,7 +5474,7 @@
     "country": "XX",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "171269688497978725",
+    "guestId": "171278325394384783",
     "hasCommunityMemberships": "false",
     "language": "en",
     "ssoInitTokens": {},
