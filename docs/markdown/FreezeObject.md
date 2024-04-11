@@ -1929,7 +1929,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{[Ie.Q.host]:{"title":"Za.hostTitle","maybePluralFormatter":"Ia"},[Ie.Q.cohost]:{"title":"Za.cohostTitle","maybePluralFormatter":"Pa"},[Ie.Q.speaker]:{"title":"Za.speakerTitle","maybePluralFormatter":"Ta"},[Ie.Q.listener]:{"title":"Za.listenerTitle","maybePluralFormatter":"xa"}}
+{[Te.Q.host]:{"title":"Za.hostTitle","maybePluralFormatter":"Ia"},[Te.Q.cohost]:{"title":"Za.cohostTitle","maybePluralFormatter":"Pa"},[Te.Q.speaker]:{"title":"Za.speakerTitle","maybePluralFormatter":"Ta"},[Te.Q.listener]:{"title":"Za.listenerTitle","maybePluralFormatter":"xa"}}
 ```
 | constant        | value           |
 |:----------------|:----------------|
@@ -2234,6 +2234,18 @@ This document is entirely auto-generated and may contain errors.<br>
 | JanusReceivingUnknown | JanusReceivingUnknown |
 | JanusReceivingOK      | JanusReceivingOK      |
 | JanusNotReceiving     | JanusNotReceiving     |
+
+| constant     |   value |
+|:-------------|--------:|
+| Everyone     |       2 |
+| FollowedOnly |       1 |
+| InvitedOnly  |       0 |
+
+| constant    |   value |
+|:------------|--------:|
+| All         |       0 |
+| Employees   |       1 |
+| Subscribers |       2 |
 
 | constant      | value         |
 |:--------------|:--------------|
@@ -6720,8 +6732,8 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant           | value   |
 |:-------------------|:--------|
-| full_time          | s       |
-| full_time_contract | r       |
+| full_time          | r       |
+| full_time_contract | s       |
 | part_time          | i       |
 | contract_to_hire   | o       |
 
