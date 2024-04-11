@@ -3056,7 +3056,7 @@
           "value": "false"
         },
         "articles_rest_api_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "blue_business_affiliates_list_order_setting_enabled": {
           "value": "false"
@@ -3668,7 +3668,7 @@
           "value": "false"
         },
         "media_visibility_treatments_blurred_media_interstitial_enabled": {
-          "value": "true"
+          "value": "false"
         },
         "network_layer_503_backoff_mode": {
           "value": "host"
@@ -4409,7 +4409,7 @@
           "value": "3000"
         },
         "responsive_web_twitter_article_insert_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "responsive_web_twitter_article_markdown_block_limit": {
           "value": "10"
@@ -5280,7 +5280,7 @@
           "value": "true"
         },
         "tweet_with_visibility_results_prefer_gql_media_interstitial_enabled": {
-          "value": "true"
+          "value": "false"
         },
         "tweetypie_unmention_optimization_enabled": {
           "value": "true"
@@ -5405,7 +5405,7 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "5150e994fc5b10e5d2a10861e371e215"
+      "settingsVersion": "cad8f7551f24f1f3c8b78d5976fee0d5"
     },
     "debug": {},
     "featureSetToken": "c50942dcd776ac032b6cba0cc090595aa28ff80a",
@@ -5478,7 +5478,7 @@
     "country": "XX",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "171278351967731051",
+    "guestId": "171286996402907663",
     "hasCommunityMemberships": "false",
     "language": "en",
     "ssoInitTokens": {},
