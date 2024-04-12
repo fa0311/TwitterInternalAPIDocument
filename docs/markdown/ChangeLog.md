@@ -3318,3 +3318,15 @@
 #### remove<br>
 - media_visibility_treatments_blurred_media_interstitial_enabled<br>
 - subscriptions_inapp_grok_early_access_enabled<br>
+## 2024/04/12<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- spaces_conference_enabled<br>
+#### remove<br>
+- rweb_meetings_enabled<br>
+- tweet_with_visibility_results_prefer_gql_media_interstitial_enabled<br>
