@@ -3347,7 +3347,7 @@
           "value": "false"
         },
         "explore_graphql_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "explore_relaunch_enable_auto_play": {
           "value": "false"
@@ -5405,7 +5405,7 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "cad8f7551f24f1f3c8b78d5976fee0d5"
+      "settingsVersion": "851660924754965dd5d9034e0e3d4180"
     },
     "debug": {},
     "featureSetToken": "c50942dcd776ac032b6cba0cc090595aa28ff80a",
@@ -5478,7 +5478,7 @@
     "country": "XX",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "171286996402907663",
+    "guestId": "171295631200315352",
     "hasCommunityMemberships": "false",
     "language": "en",
     "ssoInitTokens": {},
