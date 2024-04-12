@@ -1925,7 +1925,7 @@
     "manageView": "manageView",
     "settingsView": "settingsView"
   },
-  "{[Ie.Q.host]:{\"title\":\"Za.hostTitle\",\"maybePluralFormatter\":\"Ia\"},[Ie.Q.cohost]:{\"title\":\"Za.cohostTitle\",\"maybePluralFormatter\":\"Pa\"},[Ie.Q.speaker]:{\"title\":\"Za.speakerTitle\",\"maybePluralFormatter\":\"Ta\"},[Ie.Q.listener]:{\"title\":\"Za.listenerTitle\",\"maybePluralFormatter\":\"xa\"}}",
+  "{[Te.Q.host]:{\"title\":\"Za.hostTitle\",\"maybePluralFormatter\":\"Ia\"},[Te.Q.cohost]:{\"title\":\"Za.cohostTitle\",\"maybePluralFormatter\":\"Pa\"},[Te.Q.speaker]:{\"title\":\"Za.speakerTitle\",\"maybePluralFormatter\":\"Ta\"},[Te.Q.listener]:{\"title\":\"Za.listenerTitle\",\"maybePluralFormatter\":\"xa\"}}",
   {
     "onlyInvited": "onlyInvited",
     "peopleYouFollow": "peopleYouFollow",
@@ -2207,6 +2207,16 @@
     "JanusReceivingUnknown": "JanusReceivingUnknown",
     "JanusReceivingOK": "JanusReceivingOK",
     "JanusNotReceiving": "JanusNotReceiving"
+  },
+  {
+    "Everyone": "2",
+    "FollowedOnly": "1",
+    "InvitedOnly": "0"
+  },
+  {
+    "All": "0",
+    "Employees": "1",
+    "Subscribers": "2"
   },
   {
     "Uninitialized": "UNINITIALIZED",
@@ -6434,8 +6444,8 @@
     "SubscribableUser": "SubscribableUser"
   },
   {
-    "full_time": "s",
-    "full_time_contract": "r",
+    "full_time": "r",
+    "full_time_contract": "s",
     "part_time": "i",
     "contract_to_hire": "o"
   },

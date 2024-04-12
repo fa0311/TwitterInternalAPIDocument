@@ -3306,3 +3306,15 @@
 - responsive_web_twitter_article_code_block_enabled<br>
 #### remove<br>
 - None<br>
+## 2024/04/11<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- media_visibility_treatments_blurred_media_interstitial_enabled<br>
+- subscriptions_inapp_grok_early_access_enabled<br>
