@@ -4567,7 +4567,7 @@
           "value": "false"
         },
         "rweb_tipjar_consumption_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "rweb_tweets_boosting_enabled": {
           "value": "false"
@@ -5383,7 +5383,7 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "4677c70a4cf0576748ebd796754197b7"
+      "settingsVersion": "abb97ad31476b0eb364b4f58c2ce3276"
     },
     "debug": {},
     "featureSetToken": "42944b6ea7bee142fef89d1b7010b0a7c3d47e92",
@@ -5456,7 +5456,7 @@
     "country": "XX",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "171295604696254674",
+    "guestId": "171304237236829254",
     "hasCommunityMemberships": "false",
     "language": "en",
     "ssoInitTokens": {},
