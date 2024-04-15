@@ -2384,3 +2384,18 @@
 - media_visibility_treatments_blurred_media_interstitial_enabled<br>
 #### remove<br>
 - None<br>
+## 2024/04/15<br>
+### API<br>
+#### add<br>
+- GrokConversationItemsByRestId<br>
+- GrokHistory<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- responsive_web_twitter_article_code_block_enabled<br>
+- rweb_mvr_blurred_media_interstitial_enabled<br>
+- spaces_conference_enabled<br>
+#### remove<br>
+- rweb_meetings_enabled<br>
+- subscriptions_inapp_grok_early_access_enabled<br>
