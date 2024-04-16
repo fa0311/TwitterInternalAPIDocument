@@ -400,6 +400,9 @@
       "Arkose_use_invisible_challenge_key": {
         "value": "false"
       },
+      "articles_preview_enabled": {
+        "value": "false"
+      },
       "articles_rest_api_enabled": {
         "value": "true"
       },
@@ -1759,6 +1762,9 @@
       "responsive_web_twitter_article_insert_enabled": {
         "value": "true"
       },
+      "responsive_web_twitter_article_latex_enabled": {
+        "value": "false"
+      },
       "responsive_web_twitter_article_markdown_block_limit": {
         "value": "10"
       },
@@ -1825,9 +1831,6 @@
       "responsive_web_verified_organizations_free_to_invoice_enabled": {
         "value": "false"
       },
-      "responsive_web_verified_organizations_full_access_annual_enabled": {
-        "value": "true"
-      },
       "responsive_web_verified_organizations_invoice_enabled": {
         "value": "false"
       },
@@ -1889,7 +1892,7 @@
         "value": "60"
       },
       "rweb_live_broadcast_rewind_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "rweb_master_detail_enabled": {
         "value": "false"
@@ -1910,7 +1913,7 @@
         "value": "true"
       },
       "rweb_picture_in_picture_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "rweb_quick_promote_boost_enabled": {
         "value": "false"
@@ -1919,7 +1922,7 @@
         "value": "false"
       },
       "rweb_scheduled_spaces_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "rweb_search_media_enabled": {
         "value": "true"
@@ -2251,7 +2254,7 @@
         "value": "true"
       },
       "subscriptions_marketing_page_redesign_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "subscriptions_mute_ad_upsell_enabled": {
         "value": "true"
@@ -2705,7 +2708,7 @@
         "value": "true"
       },
       "voice_rooms_web_space_creation": {
-        "value": "false"
+        "value": "true"
       },
       "web_image_large_webp_variants": {
         "value": "false"
@@ -3046,6 +3049,9 @@
           "value": "true"
         },
         "Arkose_use_invisible_challenge_key": {
+          "value": "false"
+        },
+        "articles_preview_enabled": {
           "value": "false"
         },
         "articles_rest_api_enabled": {
@@ -3766,10 +3772,10 @@
           "value": "true"
         },
         "recruiting_pin_job_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "recruiting_premium_jobs_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "recruiting_search_filters_enabled": {
           "value": "false"
@@ -4407,6 +4413,9 @@
         "responsive_web_twitter_article_insert_enabled": {
           "value": "true"
         },
+        "responsive_web_twitter_article_latex_enabled": {
+          "value": "false"
+        },
         "responsive_web_twitter_article_markdown_block_limit": {
           "value": "10"
         },
@@ -4472,9 +4481,6 @@
         },
         "responsive_web_verified_organizations_free_to_invoice_enabled": {
           "value": "false"
-        },
-        "responsive_web_verified_organizations_full_access_annual_enabled": {
-          "value": "true"
         },
         "responsive_web_verified_organizations_invoice_enabled": {
           "value": "false"
@@ -5401,10 +5407,10 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "861cd70aca27c5abb21361af107ab535"
+      "settingsVersion": "92e8372e7acf7b182079bb48f17abba9"
     },
     "debug": {},
-    "featureSetToken": "946e13ebf8059a49b6780ad3ae53663b5ecdb474",
+    "featureSetToken": "fda8fed13206a0f0a2f2d9d42c9d655950e93021",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -5474,7 +5480,7 @@
     "country": "XX",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "171321534063109860",
+    "guestId": "171330169996914824",
     "hasCommunityMemberships": "false",
     "language": "en",
     "ssoInitTokens": {},
