@@ -3344,3 +3344,15 @@
 - tweet_with_visibility_results_prefer_gql_media_interstitial_enabled<br>
 #### remove<br>
 - None<br>
+## 2024/04/16<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- articles_preview_enabled<br>
+- responsive_web_twitter_article_latex_enabled<br>
+#### remove<br>
+- responsive_web_verified_organizations_full_access_annual_enabled<br>
