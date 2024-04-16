@@ -207,7 +207,6 @@
     "Lists": "8",
     "Bookmarks": "14",
     "VerifiedOrgDash": "10",
-    "PremiumTierSwitch": "11",
     "Communities": "13",
     "Articles": "15",
     "VerifiedOrgSignup": "16",
@@ -1925,7 +1924,7 @@
     "manageView": "manageView",
     "settingsView": "settingsView"
   },
-  "{[y.Q.host]:{\"title\":\"$n.hostTitle\",\"maybePluralFormatter\":\"Kn\"},[y.Q.cohost]:{\"title\":\"$n.cohostTitle\",\"maybePluralFormatter\":\"Gn\"},[y.Q.speaker]:{\"title\":\"$n.speakerTitle\",\"maybePluralFormatter\":\"Yn\"},[y.Q.listener]:{\"title\":\"$n.listenerTitle\",\"maybePluralFormatter\":\"Jn\"}}",
+  "{[y.Q.host]:{\"title\":\"Kn.hostTitle\",\"maybePluralFormatter\":\"Gn\"},[y.Q.cohost]:{\"title\":\"Kn.cohostTitle\",\"maybePluralFormatter\":\"Yn\"},[y.Q.speaker]:{\"title\":\"Kn.speakerTitle\",\"maybePluralFormatter\":\"Jn\"},[y.Q.listener]:{\"title\":\"Kn.listenerTitle\",\"maybePluralFormatter\":\"Xn\"}}",
   {
     "onlyInvited": "onlyInvited",
     "peopleYouFollow": "peopleYouFollow",
@@ -2193,6 +2192,11 @@
     "JanusPollerResponseEnumError": "JanusPollerResponseEnumError"
   },
   {
+    "JanusReceivingUnknown": "JanusReceivingUnknown",
+    "JanusReceivingOK": "JanusReceivingOK",
+    "JanusNotReceiving": "JanusNotReceiving"
+  },
+  {
     "Disconnected": "0",
     "Attached": "1",
     "Joined": "2",
@@ -2202,11 +2206,6 @@
   {
     "Publisher": "publisher",
     "Subscriber": "subscriber"
-  },
-  {
-    "JanusReceivingUnknown": "JanusReceivingUnknown",
-    "JanusReceivingOK": "JanusReceivingOK",
-    "JanusNotReceiving": "JanusNotReceiving"
   },
   {
     "Everyone": "2",
@@ -3405,7 +3404,8 @@
     "MEDIA": "MEDIA",
     "TWEET": "TWEET",
     "MARKDOWN": "MARKDOWN",
-    "DIVIDER": "DIVIDER"
+    "DIVIDER": "DIVIDER",
+    "LATEX": "LATEX"
   },
   {
     "IMMUTABLE": "IMMUTABLE",
@@ -4489,19 +4489,21 @@
     "Latest": "latest"
   },
   {
-    "Crop": "crop",
-    "AltText": "alt_text",
-    "SensitiveMedia": "sensitive_media",
-    "Subtitles": "subtitles",
-    "Trimmer": "trimmer"
-  },
-  {
     "Media": "Media",
     "GIFs": "GIFs",
     "Posts": "Posts",
     "Markdown": "Markdown",
     "Divider": "Divider",
-    "Code": "Code"
+    "Code": "Code",
+    "LaTeX": "LaTeX"
+  },
+  "{\"₊\":\"+\",\"₋\":\"-\",\"₌\":\"=\",\"₍\":\"()\",\"₀\":\"0\",\"₁\":\"1\",\"₂\":\"2\",\"₃\":\"3\",\"₄\":\"4\",\"₅\":\"5\",\"₆\":\"6\",\"₇\":\"7\",\"₈\":\"8\",\"₉\":\"9\",ₐ:\"a\",ₑ:\"e\",ₕ:\"h\",ᵢ:\"i\",ⱼ:\"j\",ₖ:\"k\",ₗ:\"l\",ₘ:\"m\",ₙ:\"n\",ₒ:\"o\",ₚ:\"p\",ᵣ:\"r\",ₛ:\"s\",ₜ:\"t\",ᵤ:\"u\",ᵥ:\"v\",ₓ:\"x\",ᵦ:\"β\",ᵧ:\"γ\",ᵨ:\"ρ\",ᵩ:\"ϕ\",ᵪ:\"χ\",\"⁺\":\"+\",\"⁻\":\"-\",\"⁼\":\"=\",\"⁽\":\"(\\\",\\\"₎\\\":\\\")\",\"⁰\":\"0\",\"¹\":\"1\",\"²\":\"2\",\"³\":\"3\",\"⁴\":\"4\",\"⁵\":\"5\",\"⁶\":\"6\",\"⁷\":\"7\",\"⁸\":\"8\",\"⁹\":\"9\",ᴬ:\"A\",ᴮ:\"B\",ᴰ:\"D\",ᴱ:\"E\",ᴳ:\"G\",ᴴ:\"H\",ᴵ:\"I\",ᴶ:\"J\",ᴷ:\"K\",ᴸ:\"L\",ᴹ:\"M\",ᴺ:\"N\",ᴼ:\"O\",ᴾ:\"P\",ᴿ:\"R\",ᵀ:\"T\",ᵁ:\"U\",ⱽ:\"V\",ᵂ:\"W\",ᵃ:\"a\",ᵇ:\"b\",ᶜ:\"c\",ᵈ:\"d\",ᵉ:\"e\",ᶠ:\"f\",ᵍ:\"g\",ʰ:\"h\",ⁱ:\"i\",ʲ:\"j\",ᵏ:\"k\",ˡ:\"l\",ᵐ:\"m\",ⁿ:\"n\",ᵒ:\"o\",ᵖ:\"p\",ʳ:\"r\",ˢ:\"s\",ᵗ:\"t\",ᵘ:\"u\",ᵛ:\"v\",ʷ:\"w\",ˣ:\"x\",ʸ:\"y\",ᶻ:\"z\",ᵝ:\"β\",ᵞ:\"γ\",ᵟ:\"δ\",ᵠ:\"ϕ\",ᵡ:\"χ\",ᶿ:\"θ\"}",
+  {
+    "Crop": "crop",
+    "AltText": "alt_text",
+    "SensitiveMedia": "sensitive_media",
+    "Subtitles": "subtitles",
+    "Trimmer": "trimmer"
   },
   {
     "reset": {
@@ -4519,15 +4521,16 @@
     "FAILURE": "rweb/availableLanguages/FETCH_AVAILABLE_LANGUAGES_FAILURE"
   },
   {
-    "MARKDOWN": "xt",
-    "PREVIEW": "Pt"
+    "MARKDOWN": "Kt",
+    "PREVIEW": "Vt"
   },
   {
-    "MEDIA": "Kt",
-    "GIFS": "Ut",
-    "POSTS": "Ht",
-    "MARKDOWN": "Gt",
-    "CODE": "Wt"
+    "MEDIA": "aa",
+    "GIFS": "ta",
+    "POSTS": "ra",
+    "MARKDOWN": "na",
+    "CODE": "ia",
+    "LATEX": "la"
   },
   {
     "Public": "Public",
@@ -4689,14 +4692,6 @@
     "NotificationCount": "NotificationCount"
   },
   {
-    "Media": "Media",
-    "GIFs": "GIFs",
-    "Posts": "Posts",
-    "Markdown": "Markdown",
-    "Divider": "Divider",
-    "Code": "Code"
-  },
-  {
     "single_line": "singleline",
     "format_inline": "format-inline"
   },
@@ -4704,7 +4699,8 @@
     "MEDIA": "MEDIA",
     "TWEET": "TWEET",
     "MARKDOWN": "MARKDOWN",
-    "DIVIDER": "DIVIDER"
+    "DIVIDER": "DIVIDER",
+    "LATEX": "LATEX"
   },
   {
     "IMMUTABLE": "IMMUTABLE",
@@ -5183,6 +5179,11 @@
     "TYPING": "typing",
     "WAITING": "waiting",
     "FAILED": "failed"
+  },
+  {
+    "REQUEST": "rweb/FETCH_GROK_HISTORY/REQUEST",
+    "SUCCESS": "rweb/FETCH_GROK_HISTORY/SUCCESS",
+    "FAILURE": "rweb/FETCH_GROK_HISTORY/FAILURE"
   },
   {
     "HUMAN": "1",
@@ -5741,6 +5742,15 @@
     "Affiliate": "Affiliate"
   },
   {
+    "Media": "Media",
+    "GIFs": "GIFs",
+    "Posts": "Posts",
+    "Markdown": "Markdown",
+    "Divider": "Divider",
+    "Code": "Code",
+    "LaTeX": "LaTeX"
+  },
+  {
     "explore": "explore",
     "transparent": "transparent"
   },
@@ -5751,10 +5761,10 @@
   },
   {
     "fetchStatus": "$.ZP.NONE",
-    "config": "Ia"
+    "config": "Tt"
   },
   "{[_.hA.switchFromDirect]:\"m().dca6b3ac\",[_.hA.generate]:\"m().dca6b3ac\",[_.hA.updateSeats]:\"m().c97ad52a\"}",
-  "{[T.hA.generate]:\"h().fc1f43d0\",[T.hA.switchFromDirect]:\"h().fc1f43d0\",[T.hA.updateSeats]:\"h().c97ad52a\"}",
+  "{[Z.hA.generate]:\"h().fc1f43d0\",[Z.hA.switchFromDirect]:\"h().fc1f43d0\",[Z.hA.updateSeats]:\"h().c97ad52a\"}",
   {
     "generate": "generate",
     "updateSeats": "updateSeats",
@@ -6670,7 +6680,7 @@
     "IncentiveFocus": "IncentiveFocus",
     "TopicFocus": "TopicFocus"
   },
-  "{[P.LIVE_EVENT]:\"!0\",[P.MOMENT]:\"!0\",[P.SUMMARY]:\"!0\",[P.SUMMARY_LARGE_IMAGE]:\"!0\",[P.AUDIOSPACE]:\"!0\"}",
+  "{[S.LIVE_EVENT]:\"!0\",[S.MOMENT]:\"!0\",[S.SUMMARY]:\"!0\",[S.SUMMARY_LARGE_IMAGE]:\"!0\",[S.AUDIOSPACE]:\"!0\"}",
   {
     "CONVERSATION": "conversation",
     "TIMELINE": "timeline"
@@ -6826,7 +6836,8 @@
     "MEDIA": "MEDIA",
     "TWEET": "TWEET",
     "MARKDOWN": "MARKDOWN",
-    "DIVIDER": "DIVIDER"
+    "DIVIDER": "DIVIDER",
+    "LATEX": "LATEX"
   },
   {
     "IMMUTABLE": "IMMUTABLE",
