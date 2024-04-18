@@ -545,6 +545,9 @@
       "communities_enable_explore_topic_carousel": {
         "value": "false"
       },
+      "communities_home_top_timeline_enabled": {
+        "value": "false"
+      },
       "communities_show_broadcast_option_in_composer": {
         "value": "true"
       },
@@ -1572,7 +1575,7 @@
         "value": "false"
       },
       "responsive_web_messages_search_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "responsive_web_mobile_app_spotlight_v1_config": {
         "value": "false"
@@ -1764,7 +1767,7 @@
         "value": "100"
       },
       "responsive_web_twitter_article_code_block_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "responsive_web_twitter_article_content_debounce_ms": {
         "value": "3000"
@@ -1902,7 +1905,7 @@
         "value": "60"
       },
       "rweb_live_broadcast_rewind_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "rweb_master_detail_enabled": {
         "value": "false"
@@ -3194,6 +3197,9 @@
           "value": "false"
         },
         "communities_enable_explore_topic_carousel": {
+          "value": "false"
+        },
+        "communities_home_top_timeline_enabled": {
           "value": "false"
         },
         "communities_show_broadcast_option_in_composer": {
@@ -4568,7 +4574,7 @@
           "value": "true"
         },
         "rweb_mvr_blurred_media_interstitial_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "rweb_panning_nav_behavior": {
           "value": "true"
@@ -5292,7 +5298,7 @@
           "value": "true"
         },
         "tweet_with_visibility_results_prefer_gql_media_interstitial_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "tweetypie_unmention_optimization_enabled": {
           "value": "true"
@@ -5417,10 +5423,10 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "eae1279bae23496f772c3b3b9f69b113"
+      "settingsVersion": "1f7de57949fdeba8c7c532deb14f6ae5"
     },
     "debug": {},
-    "featureSetToken": "a7bcb27df5102ee7717cd18fd10c6fa711412e54",
+    "featureSetToken": "ac623cf93d44a0a5cd4dde738ccbf54025c8db56",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -5490,7 +5496,7 @@
     "country": "XX",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "171338839254448240",
+    "guestId": "171347471308112553",
     "hasCommunityMemberships": "false",
     "language": "en",
     "ssoInitTokens": {},
