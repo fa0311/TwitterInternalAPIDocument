@@ -2293,6 +2293,11 @@
   },
   "{[u.SubmitRequest]:\"!0\",[u.CancelRequest]:\"!0\",[u.GuestCancelCountdown]:\"!0\",[u.GuestHangUp]:\"!0\",[u.InviteViewersToCallIn]:\"!0\",[u.ToggleCallIn]:\"!0\",[u.BeginCountdown]:\"!0\",[u.HostCancelCountdown]:\"!0\",[u.CompleteCountdown]:\"!0\",[u.HangUpOnGuest]:\"!0\",[u.BeginConnecting]:\"!0\",[u.GuestBroadcastingEnabled]:\"!0\",[u.UserInvited]:\"!0\",[u.RemoveParticipant]:\"!0\",[u.MuteGuest]:\"!1\",[u.UnmuteGuest]:\"!1\",[u.MuteSpace]:\"!1\",[u.UnmuteSpace]:\"!1\",[u.AddAdmin]:\"!0\",[u.RemoveAdmin]:\"!0\",[u.AdminStreamPublish]:\"!0\",[u.RaiseHand]:\"!1\",[u.LowerHand]:\"!1\"}",
   {
+    "normal": "2",
+    "small": "1",
+    "xSmall": "0"
+  },
+  {
     "small": "small",
     "medium": "medium"
   },
@@ -4519,7 +4524,7 @@
   },
   {
     "MARKDOWN": "Kt",
-    "PREVIEW": "Vt"
+    "PREVIEW": "Wt"
   },
   {
     "MEDIA": "aa",
@@ -5743,15 +5748,6 @@
     "Affiliate": "Affiliate"
   },
   {
-    "Media": "Media",
-    "GIFs": "GIFs",
-    "Posts": "Posts",
-    "Markdown": "Markdown",
-    "Divider": "Divider",
-    "Code": "Code",
-    "LaTeX": "LaTeX"
-  },
-  {
     "explore": "explore",
     "transparent": "transparent"
   },
@@ -5761,11 +5757,11 @@
     "SET_CONFIG": "rweb/verifiedOrgConfig/SET"
   },
   {
-    "fetchStatus": "$.ZP.NONE",
-    "config": "Tt"
+    "fetchStatus": "q.ZP.NONE",
+    "config": "Za"
   },
   "{[_.hA.switchFromDirect]:\"m().dca6b3ac\",[_.hA.generate]:\"m().dca6b3ac\",[_.hA.updateSeats]:\"m().c97ad52a\"}",
-  "{[Z.hA.generate]:\"h().fc1f43d0\",[Z.hA.switchFromDirect]:\"h().fc1f43d0\",[Z.hA.updateSeats]:\"h().c97ad52a\"}",
+  "{[T.hA.generate]:\"h().fc1f43d0\",[T.hA.switchFromDirect]:\"h().fc1f43d0\",[T.hA.updateSeats]:\"h().c97ad52a\"}",
   {
     "generate": "generate",
     "updateSeats": "updateSeats",

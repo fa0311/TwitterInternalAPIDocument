@@ -748,10 +748,6 @@
     "AppleSSO": "apple_sso"
   },
   {
-    "enrollment": "enrollment",
-    "verification": "verification"
-  },
-  {
     "Impression": "impression",
     "Click": "click"
   },
@@ -2346,7 +2342,8 @@
   },
   {
     "Bold": "BOLD",
-    "Italic": "ITALIC"
+    "Italic": "ITALIC",
+    "Strikethrough": "STRIKETHROUGH"
   },
   {
     "MUTABLE": "MUTABLE",
@@ -3162,6 +3159,17 @@
     "HostStreamReconnecting": "18"
   },
   {
+    "Disconnected": "0",
+    "Attached": "1",
+    "Joined": "2",
+    "Signaling": "3",
+    "WebrtcUp": "4"
+  },
+  {
+    "Publisher": "publisher",
+    "Subscriber": "subscriber"
+  },
+  {
     "JanusPollerResponseEnumWebRtcUp": "JanusPollerResponseEnumWebRtcUp",
     "JanusPollerResponseEnumMediaVideo": "JanusPollerResponseEnumMediaVideo",
     "JanusPollerResponseEnumMediaAudio": "JanusPollerResponseEnumMediaAudio",
@@ -3191,17 +3199,6 @@
     "JanusReceivingUnknown": "JanusReceivingUnknown",
     "JanusReceivingOK": "JanusReceivingOK",
     "JanusNotReceiving": "JanusNotReceiving"
-  },
-  {
-    "Disconnected": "0",
-    "Attached": "1",
-    "Joined": "2",
-    "Signaling": "3",
-    "WebrtcUp": "4"
-  },
-  {
-    "Publisher": "publisher",
-    "Subscriber": "subscriber"
   },
   {
     "Everyone": "2",
@@ -5690,6 +5687,10 @@
     "TopicFollowCount": "topic_follow_count"
   },
   {
+    "enrollment": "enrollment",
+    "verification": "verification"
+  },
+  {
     "Birthday": "birthday",
     "Email": "email",
     "Name": "name",
@@ -5775,6 +5776,7 @@
     "Chirps": "Chirps",
     "Coins": "Coins",
     "OneDollar": "OneDollar",
+    "OneDollarSubscription": "OneDollarSubscription",
     "PremiumBasic": "PremiumBasic",
     "QuickPromoteBudget": "QuickPromoteBudget",
     "Seeds": "Seeds",
