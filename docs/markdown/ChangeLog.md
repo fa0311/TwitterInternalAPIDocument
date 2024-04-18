@@ -3356,3 +3356,15 @@
 - responsive_web_twitter_article_latex_enabled<br>
 #### remove<br>
 - responsive_web_verified_organizations_full_access_annual_enabled<br>
+## 2024/04/18<br>
+### API<br>
+#### add<br>
+- CommunitiesRankedTimeline<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- communities_home_top_timeline_enabled<br>
+- responsive_web_messages_related_enabled<br>
+#### remove<br>
+- None<br>
