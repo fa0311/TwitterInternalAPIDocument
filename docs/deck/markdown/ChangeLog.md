@@ -2399,3 +2399,15 @@
 #### remove<br>
 - rweb_meetings_enabled<br>
 - subscriptions_inapp_grok_early_access_enabled<br>
+## 2024/04/17<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- articles_preview_enabled<br>
+- responsive_web_twitter_article_latex_enabled<br>
+#### remove<br>
+- responsive_web_verified_organizations_full_access_annual_enabled<br>
