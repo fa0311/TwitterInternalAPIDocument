@@ -791,11 +791,6 @@ This document is entirely auto-generated and may contain errors.<br>
 | GoogleSSO  | google_sso |
 | AppleSSO   | apple_sso  |
 
-| constant     | value        |
-|:-------------|:-------------|
-| enrollment   | enrollment   |
-| verification | verification |
-
 | constant   | value      |
 |:-----------|:-----------|
 | Impression | impression |
@@ -2494,10 +2489,11 @@ This document is entirely auto-generated and may contain errors.<br>
 | Bold       | Bold    |
 | Italic     | Italic  |
 
-| constant   | value   |
-|:-----------|:--------|
-| Bold       | BOLD    |
-| Italic     | ITALIC  |
+| constant      | value         |
+|:--------------|:--------------|
+| Bold          | BOLD          |
+| Italic        | ITALIC        |
+| Strikethrough | STRIKETHROUGH |
 
 | constant   | value     |
 |:-----------|:----------|
@@ -3332,6 +3328,19 @@ This document is entirely auto-generated and may contain errors.<br>
 | HostStreamPublished    |      17 |
 | HostStreamReconnecting |      18 |
 
+| constant     |   value |
+|:-------------|--------:|
+| Disconnected |       0 |
+| Attached     |       1 |
+| Joined       |       2 |
+| Signaling    |       3 |
+| WebrtcUp     |       4 |
+
+| constant   | value      |
+|:-----------|:-----------|
+| Publisher  | publisher  |
+| Subscriber | subscriber |
+
 | constant                                            | value                                               |
 |:----------------------------------------------------|:----------------------------------------------------|
 | JanusPollerResponseEnumWebRtcUp                     | JanusPollerResponseEnumWebRtcUp                     |
@@ -3364,19 +3373,6 @@ This document is entirely auto-generated and may contain errors.<br>
 | JanusReceivingUnknown | JanusReceivingUnknown |
 | JanusReceivingOK      | JanusReceivingOK      |
 | JanusNotReceiving     | JanusNotReceiving     |
-
-| constant     |   value |
-|:-------------|--------:|
-| Disconnected |       0 |
-| Attached     |       1 |
-| Joined       |       2 |
-| Signaling    |       3 |
-| WebrtcUp     |       4 |
-
-| constant   | value      |
-|:-----------|:-----------|
-| Publisher  | publisher  |
-| Subscriber | subscriber |
 
 | constant     |   value |
 |:-------------|--------:|
@@ -6117,6 +6113,11 @@ This document is entirely auto-generated and may contain errors.<br>
 |:-----------------|:-------------------|
 | TopicFollowCount | topic_follow_count |
 
+| constant     | value        |
+|:-------------|:-------------|
+| enrollment   | enrollment   |
+| verification | verification |
+
 | constant   | value        |
 |:-----------|:-------------|
 | Birthday   | birthday     |
@@ -6224,6 +6225,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | Chirps                     | Chirps                     |
 | Coins                      | Coins                      |
 | OneDollar                  | OneDollar                  |
+| OneDollarSubscription      | OneDollarSubscription      |
 | PremiumBasic               | PremiumBasic               |
 | QuickPromoteBudget         | QuickPromoteBudget         |
 | Seeds                      | Seeds                      |
