@@ -1561,9 +1561,6 @@
       "responsive_web_messages_enabled": {
         "value": "false"
       },
-      "responsive_web_messages_next_enabled": {
-        "value": "false"
-      },
       "responsive_web_messages_related_enabled": {
         "value": "false"
       },
@@ -1766,7 +1763,7 @@
         "value": "3000"
       },
       "responsive_web_twitter_article_insert_enabled": {
-        "value": "true"
+        "value": "false"
       },
       "responsive_web_twitter_article_latex_enabled": {
         "value": "false"
@@ -1913,7 +1910,7 @@
         "value": "true"
       },
       "rweb_mvr_blurred_media_interstitial_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "rweb_panning_nav_behavior": {
         "value": "true"
@@ -2637,7 +2634,7 @@
         "value": "true"
       },
       "tweet_with_visibility_results_prefer_gql_media_interstitial_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "tweetypie_unmention_optimization_enabled": {
         "value": "true"
@@ -4218,9 +4215,6 @@
         "responsive_web_messages_enabled": {
           "value": "false"
         },
-        "responsive_web_messages_next_enabled": {
-          "value": "false"
-        },
         "responsive_web_messages_related_enabled": {
           "value": "false"
         },
@@ -5419,10 +5413,10 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "299229e8f588fb62ff6423428d6323c5"
+      "settingsVersion": "cd844e112451c7f2521be4c4030246d1"
     },
     "debug": {},
-    "featureSetToken": "ccc63bb7b41d1a7eb8e713ff370988ff1f603dd0",
+    "featureSetToken": "389274d6fddc0f34247036338d8a523a745c67e8",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -5492,7 +5486,7 @@
     "country": "XX",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "171347444918693521",
+    "guestId": "171356084756058720",
     "hasCommunityMemberships": "false",
     "language": "en",
     "ssoInitTokens": {},
