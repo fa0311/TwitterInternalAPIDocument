@@ -4703,8 +4703,8 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant   | value   |
 |:-----------|:--------|
-| MARKDOWN   | Xt      |
-| PREVIEW    | Yt      |
+| MARKDOWN   | $t      |
+| PREVIEW    | Xt      |
 
 | constant    | value       |
 |:------------|:------------|
