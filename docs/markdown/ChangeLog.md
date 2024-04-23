@@ -3380,3 +3380,14 @@
 - None<br>
 #### remove<br>
 - responsive_web_messages_next_enabled<br>
+## 2024/04/22<br>
+### API<br>
+#### add<br>
+- TrendHistory<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- responsive_web_in_text_shortcuts_enabled<br>
+#### remove<br>
+- None<br>

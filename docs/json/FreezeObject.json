@@ -1924,13 +1924,13 @@
     "manageView": "manageView",
     "settingsView": "settingsView"
   },
-  "{[y.Q.host]:{\"title\":\"Gn.hostTitle\",\"maybePluralFormatter\":\"Yn\"},[y.Q.cohost]:{\"title\":\"Gn.cohostTitle\",\"maybePluralFormatter\":\"Jn\"},[y.Q.speaker]:{\"title\":\"Gn.speakerTitle\",\"maybePluralFormatter\":\"Xn\"},[y.Q.listener]:{\"title\":\"Gn.listenerTitle\",\"maybePluralFormatter\":\"ea\"}}",
+  "{[y.Q.host]:{\"title\":\"Kn.hostTitle\",\"maybePluralFormatter\":\"Gn\"},[y.Q.cohost]:{\"title\":\"Kn.cohostTitle\",\"maybePluralFormatter\":\"Yn\"},[y.Q.speaker]:{\"title\":\"Kn.speakerTitle\",\"maybePluralFormatter\":\"Jn\"},[y.Q.listener]:{\"title\":\"Kn.listenerTitle\",\"maybePluralFormatter\":\"Xn\"}}",
   {
     "onlyInvited": "onlyInvited",
     "peopleYouFollow": "peopleYouFollow",
     "everyone": "everyone"
   },
-  "{[Ha.onlyInvited]:\"0\",[Ha.peopleYouFollow]:\"1\",[Ha.everyone]:\"2\"}",
+  "{[Fa.onlyInvited]:\"0\",[Fa.peopleYouFollow]:\"1\",[Fa.everyone]:\"2\"}",
   {
     "AUDIO": "visual_audio",
     "CONFERENCE": "conference_spaces",
@@ -4352,7 +4352,7 @@
     "BLOCKED": "v",
     "BLOCKED_BY": "g"
   },
-  "{[b]:\"f\",[v]:\"y\",[g]:\"I\"}",
+  "{[b]:\"y\",[v]:\"f\",[g]:\"I\"}",
   {
     "BROADCAST_MEDIA_TYPE": "broadcast",
     "VIDEO_MEDIA_TYPE": "video"
@@ -4527,8 +4527,8 @@
     "FAILURE": "rweb/availableLanguages/FETCH_AVAILABLE_LANGUAGES_FAILURE"
   },
   {
-    "MARKDOWN": "Kt",
-    "PREVIEW": "Vt"
+    "MARKDOWN": "Xt",
+    "PREVIEW": "Yt"
   },
   {
     "Public": "Public",

@@ -1496,6 +1496,9 @@
       "responsive_web_impression_tracker_refactor_enabled": {
         "value": "true"
       },
+      "responsive_web_in_text_shortcuts_enabled": {
+        "value": "false"
+      },
       "responsive_web_install_banner_show_immediate": {
         "value": "false"
       },
@@ -1571,7 +1574,7 @@
       "responsive_web_messages_enabled": {
         "value": "false"
       },
-      "responsive_web_messages_next_enabled": {
+      "responsive_web_messages_related_enabled": {
         "value": "false"
       },
       "responsive_web_messages_search_enabled": {
@@ -1920,7 +1923,7 @@
         "value": "true"
       },
       "rweb_mvr_blurred_media_interstitial_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "rweb_panning_nav_behavior": {
         "value": "true"
@@ -2644,7 +2647,7 @@
         "value": "true"
       },
       "tweet_with_visibility_results_prefer_gql_media_interstitial_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "tweetypie_unmention_optimization_enabled": {
         "value": "true"
@@ -4150,6 +4153,9 @@
         "responsive_web_impression_tracker_refactor_enabled": {
           "value": "true"
         },
+        "responsive_web_in_text_shortcuts_enabled": {
+          "value": "false"
+        },
         "responsive_web_install_banner_show_immediate": {
           "value": "false"
         },
@@ -4225,7 +4231,7 @@
         "responsive_web_messages_enabled": {
           "value": "false"
         },
-        "responsive_web_messages_next_enabled": {
+        "responsive_web_messages_related_enabled": {
           "value": "false"
         },
         "responsive_web_messages_search_enabled": {
@@ -4430,7 +4436,7 @@
           "value": "true"
         },
         "responsive_web_twitter_article_latex_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "responsive_web_twitter_article_markdown_block_limit": {
           "value": "10"
@@ -5423,10 +5429,10 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "1f7de57949fdeba8c7c532deb14f6ae5"
+      "settingsVersion": "f52707b39a61221fc92758f7cc26fb5d"
     },
     "debug": {},
-    "featureSetToken": "ac623cf93d44a0a5cd4dde738ccbf54025c8db56",
+    "featureSetToken": "8a551b90d817e17fea55c7de1b20ebec771c2cea",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -5496,7 +5502,7 @@
     "country": "XX",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "171373384386259532",
+    "guestId": "171382030144820065",
     "hasCommunityMemberships": "false",
     "language": "en",
     "ssoInitTokens": {},
