@@ -4527,8 +4527,8 @@
     "FAILURE": "rweb/availableLanguages/FETCH_AVAILABLE_LANGUAGES_FAILURE"
   },
   {
-    "MARKDOWN": "Xt",
-    "PREVIEW": "Yt"
+    "MARKDOWN": "$t",
+    "PREVIEW": "Xt"
   },
   {
     "Public": "Public",

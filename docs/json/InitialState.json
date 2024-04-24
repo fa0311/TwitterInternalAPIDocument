@@ -1765,11 +1765,8 @@
       "responsive_web_twitter_article_content_debounce_ms": {
         "value": "3000"
       },
-      "responsive_web_twitter_article_insert_enabled": {
-        "value": "true"
-      },
       "responsive_web_twitter_article_latex_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "responsive_web_twitter_article_markdown_block_limit": {
         "value": "10"
@@ -4422,9 +4419,6 @@
         "responsive_web_twitter_article_content_debounce_ms": {
           "value": "3000"
         },
-        "responsive_web_twitter_article_insert_enabled": {
-          "value": "true"
-        },
         "responsive_web_twitter_article_latex_enabled": {
           "value": "true"
         },
@@ -5419,10 +5413,10 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "0e0ab1aaaab4026548d9280a34dd2032"
+      "settingsVersion": "8c5c232e1eb41ad639d62e32affa5b8a"
     },
     "debug": {},
-    "featureSetToken": "8a551b90d817e17fea55c7de1b20ebec771c2cea",
+    "featureSetToken": "b58cf6d0a4c7d4a60b13e95fe783e8ca228777ef",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -5492,7 +5486,7 @@
     "country": "XX",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "171382001858871689",
+    "guestId": "171390644795936333",
     "hasCommunityMemberships": "false",
     "language": "en",
     "ssoInitTokens": {},
