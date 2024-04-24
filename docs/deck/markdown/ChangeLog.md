@@ -2447,3 +2447,14 @@
 - None<br>
 #### remove<br>
 - responsive_web_twitter_article_insert_enabled<br>
+## 2024/04/24<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- responsive_web_twitter_article_insert_enabled<br>
+#### remove<br>
+- None<br>
