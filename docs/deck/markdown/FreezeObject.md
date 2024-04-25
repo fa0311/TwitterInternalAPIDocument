@@ -4984,8 +4984,8 @@ This document is entirely auto-generated and may contain errors.<br>
 ```
 | constant   | value   |
 |:-----------|:--------|
-| MARKDOWN   | $t      |
-| PREVIEW    | qt      |
+| MARKDOWN   | qt      |
+| PREVIEW    | Jt      |
 
 | constant    | value       |
 |:------------|:------------|

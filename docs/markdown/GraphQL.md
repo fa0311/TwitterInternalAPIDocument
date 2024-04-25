@@ -6039,6 +6039,17 @@ Login Required: `...`<br>
 `None`<br>
 #### queryId<br>
 `None`<br>
+## CreateGrokConversation<br>
+Request URL: `https://twitter.com/i/api/graphql/UBIjqHqsA5aixuibXTBheQ/CreateGrokConversation`<br>
+Request Method: `POST`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
 ## GrokConversationItemsByRestId<br>
 Request URL: `https://twitter.com/i/api/graphql/F4jX5YH_mtjCPLKIxM22Gg/GrokConversationItemsByRestId`<br>
 Request Method: `GET`<br>
