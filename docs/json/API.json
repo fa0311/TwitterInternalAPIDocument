@@ -3924,12 +3924,6 @@
       "method": "POST",
       "features": {}
     },
-    "CreateGrokConversation": {
-      "url": "https://twitter.com/i/api/graphql/UBIjqHqsA5aixuibXTBheQ/CreateGrokConversation",
-      "queryId": "UBIjqHqsA5aixuibXTBheQ",
-      "method": "POST",
-      "features": {}
-    },
     "GrokConversationItemsByRestId": {
       "url": "https://twitter.com/i/api/graphql/F4jX5YH_mtjCPLKIxM22Gg/GrokConversationItemsByRestId",
       "queryId": "F4jX5YH_mtjCPLKIxM22Gg",
