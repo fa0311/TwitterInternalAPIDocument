@@ -1928,7 +1928,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{[y.Q.host]:{"title":"da.hostTitle","maybePluralFormatter":"pa"},[y.Q.cohost]:{"title":"da.cohostTitle","maybePluralFormatter":"ma"},[y.Q.speaker]:{"title":"da.speakerTitle","maybePluralFormatter":"ha"},[y.Q.listener]:{"title":"da.listenerTitle","maybePluralFormatter":"fa"}}
+{[y.Q.host]:{"title":"ra.hostTitle","maybePluralFormatter":"sa"},[y.Q.cohost]:{"title":"ra.cohostTitle","maybePluralFormatter":"ca"},[y.Q.speaker]:{"title":"ra.speakerTitle","maybePluralFormatter":"la"},[y.Q.listener]:{"title":"ra.listenerTitle","maybePluralFormatter":"ua"}}
 ```
 | constant        | value           |
 |:----------------|:----------------|
@@ -1938,7 +1938,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{[ti.onlyInvited]:"0",[ti.peopleYouFollow]:"1",[ti.everyone]:"2"}
+{[Ya.onlyInvited]:"0",[Ya.peopleYouFollow]:"1",[Ya.everyone]:"2"}
 ```
 | constant   | value             |
 |:-----------|:------------------|

@@ -401,7 +401,7 @@
         "value": "false"
       },
       "articles_preview_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "articles_rest_api_enabled": {
         "value": "true"
@@ -536,19 +536,19 @@
         "value": "true"
       },
       "communities_enable_explore_tab": {
-        "value": "false"
+        "value": "true"
       },
       "communities_enable_explore_topic_carousel": {
-        "value": "false"
+        "value": "true"
       },
       "communities_home_top_timeline_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "communities_show_broadcast_option_in_composer": {
         "value": "true"
       },
       "communities_topic_carousel_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "communities_topic_display": {
         "value": "true"
@@ -1949,7 +1949,7 @@
         "value": "false"
       },
       "rweb_spaces_invite_search_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "rweb_tipjar_consumption_enabled": {
         "value": "true"
@@ -2145,10 +2145,16 @@
       "spaces_incognito_consumption_enabled": {
         "value": "true"
       },
-      "spaces_video_consumption_enabled": {
+      "spaces_video_admins_enabled": {
         "value": "false"
       },
+      "spaces_video_consumption_enabled": {
+        "value": "true"
+      },
       "spaces_video_creation_enabled": {
+        "value": "false"
+      },
+      "spaces_video_speakers_enabled": {
         "value": "false"
       },
       "standardized_nudges_misinfo": {
@@ -2203,7 +2209,7 @@
         "value": "true"
       },
       "subscriptions_feature_can_hide_checkmark": {
-        "value": "true"
+        "value": "false"
       },
       "subscriptions_feature_extend_profile": {
         "value": "true"
@@ -2521,13 +2527,11 @@
       "tweet_limited_actions_config_community_tweet_non_member": {
         "value": [
           "embed",
-          "like",
           "pin_to_profile",
           "react",
           "reply",
           "reply_down_vote",
           "retweet",
-          "share_tweet_via",
           "vote_on_poll",
           "highlight"
         ]
@@ -3067,7 +3071,7 @@
           "value": "false"
         },
         "articles_preview_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "articles_rest_api_enabled": {
           "value": "true"
@@ -3202,19 +3206,19 @@
           "value": "true"
         },
         "communities_enable_explore_tab": {
-          "value": "false"
+          "value": "true"
         },
         "communities_enable_explore_topic_carousel": {
-          "value": "false"
+          "value": "true"
         },
         "communities_home_top_timeline_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "communities_show_broadcast_option_in_composer": {
           "value": "true"
         },
         "communities_topic_carousel_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "communities_topic_display": {
           "value": "true"
@@ -4615,7 +4619,7 @@
           "value": "false"
         },
         "rweb_spaces_invite_search_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "rweb_tipjar_consumption_enabled": {
           "value": "true"
@@ -4811,10 +4815,16 @@
         "spaces_incognito_consumption_enabled": {
           "value": "true"
         },
+        "spaces_video_admins_enabled": {
+          "value": "false"
+        },
         "spaces_video_consumption_enabled": {
           "value": "true"
         },
         "spaces_video_creation_enabled": {
+          "value": "false"
+        },
+        "spaces_video_speakers_enabled": {
           "value": "false"
         },
         "standardized_nudges_misinfo": {
@@ -4869,7 +4879,7 @@
           "value": "true"
         },
         "subscriptions_feature_can_hide_checkmark": {
-          "value": "true"
+          "value": "false"
         },
         "subscriptions_feature_extend_profile": {
           "value": "true"
@@ -5435,10 +5445,10 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "acad606a2cd6700be0c97f3cf40eddaa"
+      "settingsVersion": "8c5c232e1eb41ad639d62e32affa5b8a"
     },
     "debug": {},
-    "featureSetToken": "fd5ef3d1ce2c17b1d0eae6f0bd0c959b26ddc815",
+    "featureSetToken": "3a0a7ed0c47e48e08314334ff250e1f45a8d4eb9",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -5508,7 +5518,7 @@
     "country": "XX",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "171399281893685934",
+    "guestId": "171416562342362894",
     "hasCommunityMemberships": "false",
     "language": "en",
     "ssoInitTokens": {},
