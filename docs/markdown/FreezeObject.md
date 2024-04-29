@@ -941,7 +941,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{[I.DEFAULT]:"x.UNDETERMINED",[I.DENIED]:"x.OFF",[I.GRANTED]:"x.ON"}
+{[B.DEFAULT]:"x.UNDETERMINED",[B.DENIED]:"x.OFF",[B.GRANTED]:"x.ON"}
 ```
 | constant   | value                                        |
 |:-----------|:---------------------------------------------|
@@ -4703,8 +4703,8 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant   | value   |
 |:-----------|:--------|
-| MARKDOWN   | la      |
-| PREVIEW    | oa      |
+| MARKDOWN   | oa      |
+| PREVIEW    | sa      |
 
 | constant    | value       |
 |:------------|:------------|
@@ -5471,7 +5471,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{[I.ActionedTweets]:{"backLocation":"A","confirmationSheetHeadline":"()(0,o.X_)"{"screenName":"m"}{"screenName":"m"}},[I.PreviewFlaggedTweets]:{"backLocation":"x","confirmationSheetHeadline":"S()"{"screenName":"m"}{"screenName":"m"}}}
+{[I.ActionedTweets]:{"backLocation":"L","confirmationSheetHeadline":"()(0,o.X_)"{"screenName":"m"}{"screenName":"m"}},[I.PreviewFlaggedTweets]:{"backLocation":"x","confirmationSheetHeadline":"S()"{"screenName":"m"}{"screenName":"m"}}}
 ```
 | constant             | value                  |
 |:---------------------|:-----------------------|
