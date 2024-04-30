@@ -941,7 +941,7 @@
     "OFF": "Off",
     "UNDETERMINED": "Undetermined"
   },
-  "{[I.DEFAULT]:\"x.UNDETERMINED\",[I.DENIED]:\"x.OFF\",[I.GRANTED]:\"x.ON\"}",
+  "{[B.DEFAULT]:\"x.UNDETERMINED\",[B.DENIED]:\"x.OFF\",[B.GRANTED]:\"x.ON\"}",
   {
     "REQUEST": "rweb/devices/REMOVE_PUSH_DESTINATION_REQUEST",
     "SUCCESS": "rweb/devices/REMOVE_PUSH_DESTINATION_SUCCESS",
@@ -4527,8 +4527,8 @@
     "FAILURE": "rweb/availableLanguages/FETCH_AVAILABLE_LANGUAGES_FAILURE"
   },
   {
-    "MARKDOWN": "la",
-    "PREVIEW": "oa"
+    "MARKDOWN": "oa",
+    "PREVIEW": "sa"
   },
   {
     "Public": "Public",
@@ -5211,7 +5211,7 @@
     "Invalid": "invalid",
     "NotSet": "notSet"
   },
-  "{[I.ActionedTweets]:{\"backLocation\":\"A\",\"confirmationSheetHeadline\":\"()(0,o.X_)\"{\"screenName\":\"m\"}{\"screenName\":\"m\"}},[I.PreviewFlaggedTweets]:{\"backLocation\":\"x\",\"confirmationSheetHeadline\":\"S()\"{\"screenName\":\"m\"}{\"screenName\":\"m\"}}}",
+  "{[I.ActionedTweets]:{\"backLocation\":\"L\",\"confirmationSheetHeadline\":\"()(0,o.X_)\"{\"screenName\":\"m\"}{\"screenName\":\"m\"}},[I.PreviewFlaggedTweets]:{\"backLocation\":\"x\",\"confirmationSheetHeadline\":\"S()\"{\"screenName\":\"m\"}{\"screenName\":\"m\"}}}",
   {
     "ActionedTweets": "actioned_tweets",
     "PreviewFlaggedTweets": "preview_flagged_tweets"
