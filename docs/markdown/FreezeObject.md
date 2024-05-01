@@ -1244,15 +1244,15 @@ This document is entirely auto-generated and may contain errors.<br>
 | Match               | match               |
 | NoMatch             | noMatch             |
 
-| constant   | value                                              |
-|:-----------|:---------------------------------------------------|
-| AU         | https://legal.twitter.com/ads-terms/apac.html      |
-| BR         | https://legal.twitter.com/ads-terms/brazil.html    |
-| GB         | https://legal.twitter.com/ads-terms/uk.html        |
-| ID         | https://legal.twitter.com/ads-terms/indonesia.html |
-| JP         | https://legal.twitter.com/ads-terms/japan.html     |
-| NZ         | https://legal.twitter.com/ads-terms/apac.html      |
-| US         | https://legal.twitter.com/ads-terms/us.html        |
+| constant   | value                                                   |
+|:-----------|:--------------------------------------------------------|
+| AU         | ()(0,r.j)                                               |
+| BR         | ("https://legal.x.com/ads-terms/apac.html")(0,r.j)      |
+| GB         | ("https://legal.x.com/ads-terms/brazil.html")(0,r.j)    |
+| ID         | ("https://legal.x.com/ads-terms/uk.html")(0,r.j)        |
+| JP         | ("https://legal.x.com/ads-terms/indonesia.html")(0,r.j) |
+| NZ         | ("https://legal.x.com/ads-terms/japan.html")(0,r.j)     |
+| US         | ("https://legal.x.com/ads-terms/apac.html")(0,r.j)      |
 
 | constant   | value                                                                                     |
 |:-----------|:------------------------------------------------------------------------------------------|
@@ -3692,7 +3692,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{[P.VerificationCheck]:"function()"{if()throw new Error(3!==e.length);const[d,t,a]=e;return[{"width":"400","height":"200","uri":"d"},{"width":"800","height":"400","uri":"t"},{"width":"1200","height":"600","uri":"a"}]}"()"}
+{[R.VerificationCheck]:"function()"{if()throw new Error(3!==e.length);const[d,a,n]=e;return[{"width":"400","height":"200","uri":"d"},{"width":"800","height":"400","uri":"a"},{"width":"1200","height":"600","uri":"n"}]}"()"}
 ```
 | constant   | value     |
 |:-----------|:----------|
@@ -4355,8 +4355,8 @@ This document is entirely auto-generated and may contain errors.<br>
 | constant       | value                                          |
 |:---------------|:-----------------------------------------------|
 | closed         | {'shouldShow': '!1'}                           |
-| openSuccessful | {'shouldShow': '!0', 'badgeType': 'A.Ratings'} |
-| openHelpful    | {'shouldShow': '!0', 'badgeType': 'A.Notes'}   |
+| openSuccessful | {'shouldShow': '!0', 'badgeType': 'P.Ratings'} |
+| openHelpful    | {'shouldShow': '!0', 'badgeType': 'P.Notes'}   |
 
 | constant   | value                                               |
 |:-----------|:----------------------------------------------------|
@@ -5187,11 +5187,11 @@ This document is entirely auto-generated and may contain errors.<br>
 ```
 ```internal process
 # Error
-{[N.pl.NOTABILITY_CATEGORY_SELECT]:"()"{"followersEligible":"e=!1","mentionsEligible":"t=!1"}{"type":"radio","props":{"description":"di.description","getNextFormStep":e=>{"switch()"{"case N.eV.ACTIVISM":return N.pl.ACTIVIST_SUBCATEGORY;case N.eV.INFLUENCER_OTHER:return N.pl.INFLUENCER_SUBCATEGORY;ca...
+{[N.pl.NOTABILITY_CATEGORY_SELECT]:"()"{"followersEligible":"e=!1","mentionsEligible":"t=!1"}{"type":"radio","props":{"description":"pi.description","getNextFormStep":e=>{"switch()"{"case N.eV.ACTIVISM":return N.pl.ACTIVIST_SUBCATEGORY;case N.eV.INFLUENCER_OTHER:return N.pl.INFLUENCER_SUBCATEGORY;ca...
 ```
 | constant   | value   |
 |:-----------|:--------|
-| ...pt      | _       |
+| ...dt      | _       |
 | ...ur      | _       |
 | ...ie      | _       |
 
@@ -6008,8 +6008,8 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant    | value     |
 |:------------|:----------|
-| fetchStatus | q.ZP.NONE |
-| config      | Za        |
+| fetchStatus | W.ZP.NONE |
+| config      | wa        |
 
 ```internal process
 # Error
@@ -6017,7 +6017,7 @@ This document is entirely auto-generated and may contain errors.<br>
 ```
 ```internal process
 # Error
-{[T.hA.generate]:"h().fc1f43d0",[T.hA.switchFromDirect]:"h().fc1f43d0",[T.hA.updateSeats]:"h().c97ad52a"}
+{[x.hA.generate]:"E().fc1f43d0",[x.hA.switchFromDirect]:"E().fc1f43d0",[x.hA.updateSeats]:"E().c97ad52a"}
 ```
 | constant   | value      |
 |:-----------|:-----------|
@@ -6029,25 +6029,6 @@ This document is entirely auto-generated and may contain errors.<br>
 | generate         | generate         |
 | updateSeats      | updateSeats      |
 | switchFromDirect | switchFromDirect |
-
-| constant                   | value                      |
-|:---------------------------|:---------------------------|
-| Advertising                | Advertising                |
-| BlueVerified               | BlueVerified               |
-| BlueVerifiedPlus           | BlueVerifiedPlus           |
-| Chirps                     | Chirps                     |
-| Coins                      | Coins                      |
-| OneDollar                  | OneDollar                  |
-| OneDollarSubscription      | OneDollarSubscription      |
-| PremiumBasic               | PremiumBasic               |
-| QuickPromoteBudget         | QuickPromoteBudget         |
-| Seeds                      | Seeds                      |
-| Spaces                     | Spaces                     |
-| Subscriptions              | Subscriptions              |
-| SuperFollows               | SuperFollows               |
-| SuperLikes                 | SuperLikes                 |
-| VerifiedOrganizations      | VerifiedOrganizations      |
-| VerifiedOrganizationsBasic | VerifiedOrganizationsBasic |
 
 | constant     | value        |
 |:-------------|:-------------|
@@ -7219,7 +7200,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant        | value      |
 |:----------------|:-----------|
-| fetchStatus     | Pe.ZP.NONE |
+| fetchStatus     | ke.ZP.NONE |
 | mobileViewCount | 0          |
 
 | constant   | value        |
