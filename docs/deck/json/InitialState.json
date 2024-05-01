@@ -4114,6 +4114,9 @@
         "responsive_web_graphql_timeline_navigation_enabled": {
           "value": "true"
         },
+        "responsive_web_grok_chat_history_enabled": {
+          "value": "false"
+        },
         "responsive_web_grok_delete_conversations_enabled": {
           "value": "false"
         },
@@ -5427,7 +5430,7 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "77daebe0416f98f75613907bafa13b23"
+      "settingsVersion": "602611f3331aba05f35e6a94efc068fc"
     },
     "debug": {},
     "featureSetToken": "8a551b90d817e17fea55c7de1b20ebec771c2cea",
@@ -5500,7 +5503,7 @@
     "country": "XX",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "171451255509991719",
+    "guestId": "171459894208920316",
     "hasCommunityMemberships": "false",
     "language": "en",
     "ssoInitTokens": {},
