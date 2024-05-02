@@ -5151,7 +5151,6 @@
           "value": [
             "embed",
             "pin_to_profile",
-            "retweet",
             "highlight"
           ]
         },
@@ -5186,7 +5185,6 @@
             "react",
             "reply",
             "reply_down_vote",
-            "retweet",
             "vote_on_poll",
             "highlight"
           ]
@@ -5198,7 +5196,6 @@
             "react",
             "reply",
             "reply_down_vote",
-            "retweet",
             "vote_on_poll",
             "highlight"
           ]
@@ -5210,7 +5207,6 @@
             "react",
             "reply",
             "reply_down_vote",
-            "retweet",
             "vote_on_poll",
             "highlight"
           ]
@@ -5430,7 +5426,7 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "602611f3331aba05f35e6a94efc068fc"
+      "settingsVersion": "84c672c4199f7e6b2b2934784cde6932"
     },
     "debug": {},
     "featureSetToken": "8a551b90d817e17fea55c7de1b20ebec771c2cea",
@@ -5503,7 +5499,7 @@
     "country": "XX",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "171459894208920316",
+    "guestId": "171468527443015168",
     "hasCommunityMemberships": "false",
     "language": "en",
     "ssoInitTokens": {},
