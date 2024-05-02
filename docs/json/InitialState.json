@@ -3854,7 +3854,7 @@
           "value": "control"
         },
         "responsive_web_account_analytics_timeframe_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "responsive_web_ad_revenue_sharing_enabled": {
           "value": "true"
@@ -5166,7 +5166,6 @@
           "value": [
             "embed",
             "pin_to_profile",
-            "retweet",
             "highlight"
           ]
         },
@@ -5201,7 +5200,6 @@
             "react",
             "reply",
             "reply_down_vote",
-            "retweet",
             "vote_on_poll",
             "highlight"
           ]
@@ -5213,7 +5211,6 @@
             "react",
             "reply",
             "reply_down_vote",
-            "retweet",
             "vote_on_poll",
             "highlight"
           ]
@@ -5225,7 +5222,6 @@
             "react",
             "reply",
             "reply_down_vote",
-            "retweet",
             "vote_on_poll",
             "highlight"
           ]
@@ -5445,7 +5441,7 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "8c5c232e1eb41ad639d62e32affa5b8a"
+      "settingsVersion": "b2309db04656ecbdee29a56fd7e188b0"
     },
     "debug": {},
     "featureSetToken": "ec56cc50eb6698233f7dc9658db27e11a83688bb",
@@ -5518,7 +5514,7 @@
     "country": "XX",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "171459767294588680",
+    "guestId": "171468405074280236",
     "hasCommunityMemberships": "false",
     "language": "en",
     "ssoInitTokens": {},
