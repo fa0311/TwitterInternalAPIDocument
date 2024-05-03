@@ -4114,6 +4114,9 @@
         "responsive_web_graphql_timeline_navigation_enabled": {
           "value": "true"
         },
+        "responsive_web_grok_chat_history_enabled": {
+          "value": "false"
+        },
         "responsive_web_grok_delete_conversations_enabled": {
           "value": "false"
         },
@@ -5148,7 +5151,6 @@
           "value": [
             "embed",
             "pin_to_profile",
-            "retweet",
             "highlight"
           ]
         },
@@ -5183,7 +5185,6 @@
             "react",
             "reply",
             "reply_down_vote",
-            "retweet",
             "vote_on_poll",
             "highlight"
           ]
@@ -5195,7 +5196,6 @@
             "react",
             "reply",
             "reply_down_vote",
-            "retweet",
             "vote_on_poll",
             "highlight"
           ]
@@ -5207,7 +5207,6 @@
             "react",
             "reply",
             "reply_down_vote",
-            "retweet",
             "vote_on_poll",
             "highlight"
           ]
@@ -5427,7 +5426,7 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "77daebe0416f98f75613907bafa13b23"
+      "settingsVersion": "84c672c4199f7e6b2b2934784cde6932"
     },
     "debug": {},
     "featureSetToken": "8a551b90d817e17fea55c7de1b20ebec771c2cea",
@@ -5500,7 +5499,7 @@
     "country": "XX",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "171451255509991719",
+    "guestId": "171468527443015168",
     "hasCommunityMemberships": "false",
     "language": "en",
     "ssoInitTokens": {},
