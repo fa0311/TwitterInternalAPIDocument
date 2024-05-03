@@ -941,7 +941,7 @@
     "OFF": "Off",
     "UNDETERMINED": "Undetermined"
   },
-  "{[B.DEFAULT]:\"x.UNDETERMINED\",[B.DENIED]:\"x.OFF\",[B.GRANTED]:\"x.ON\"}",
+  "{[I.DEFAULT]:\"x.UNDETERMINED\",[I.DENIED]:\"x.OFF\",[I.GRANTED]:\"x.ON\"}",
   {
     "REQUEST": "rweb/devices/REMOVE_PUSH_DESTINATION_REQUEST",
     "SUCCESS": "rweb/devices/REMOVE_PUSH_DESTINATION_SUCCESS",
@@ -1857,6 +1857,9 @@
     "gutterVerticalPx": "M.space12"
   },
   {
+    "wide": "700"
+  },
+  {
     "aspectRatios": "l",
     "baseFontSize": "y",
     "borderRadii": "u",
@@ -1865,6 +1868,7 @@
     "borderWidthsPx": "s",
     "breakpoints": "t",
     "componentDimensions": "v",
+    "containerDimensions": "f",
     "componentZIndices": "o",
     "fontSizes": "g",
     "fontSizesPx": "S",
@@ -2325,6 +2329,42 @@
     "prep": "prep"
   },
   {
+    "All": "All",
+    "Premium": "Premium",
+    "VerifiedOrgs": "VerifiedOrgs"
+  },
+  {
+    "EditPost": "EditPost",
+    "HighlightsProfile": "HighlightsProfile",
+    "ArticlesProfile": "ArticlesProfile",
+    "ArticlesReader": "ArticlesReader",
+    "ArticlesPostComposer": "ArticlesPostComposer",
+    "CreatorSubsEligibility": "CreatorSubsEligibility",
+    "IdVerification": "IdVerification",
+    "LongformPostComposer": "LongformPostComposer",
+    "PreRollAdsEligibility": "PreRollAdsEligibility",
+    "AdsRevShareEligibility": "AdsRevShareEligibility",
+    "CreateCommunity": "CreateCommunity",
+    "DmAddToGroup": "DmAddToGroup",
+    "DmCreateGroup": "DmCreateGroup",
+    "DmMessageRequest": "DmMessageRequest",
+    "DmRateLimited": "DmRateLimited",
+    "VideoDownload": "VideoDownload",
+    "BlockAd": "BlockAd",
+    "MuteAd": "MuteAd",
+    "DismissAd": "DismissAd",
+    "ReportAd": "ReportAd",
+    "BookmarkFolders": "BookmarkFolders",
+    "SidebarDefault": "SidebarDefault",
+    "SidebarArticle": "SidebarArticle",
+    "SidebarLongform": "SidebarLongform",
+    "SidebarPremiumPlus": "SidebarPremiumPlus",
+    "SidebarVerifiedOrgs": "SidebarVerifiedOrgs",
+    "LikesTab": "LikesTab",
+    "VerifiedOnlyChat": "VerifiedOnlyChat",
+    "LongerVideoUpload": "LongerVideoUpload"
+  },
+  {
     "RESIZE": "resize",
     "UPLOAD": "upload",
     "METADATA": "metadata",
@@ -2431,11 +2471,11 @@
     "INVALID_RES_STATUS": -1
   },
   {
-    "0": "f.INTERNAL_ERROR",
-    "1": "f.INVALID_MEDIA",
-    "2": "f.FILE_TOO_LARGE",
-    "3": "f.UNSUPPORTED_MEDIA",
-    "4": "f.TIMEOUT"
+    "0": "_.INTERNAL_ERROR",
+    "1": "_.INVALID_MEDIA",
+    "2": "_.FILE_TOO_LARGE",
+    "3": "_.UNSUPPORTED_MEDIA",
+    "4": "_.TIMEOUT"
   },
   {
     "RESET": "0",
@@ -3295,48 +3335,13 @@
     "LikedByAuthor": "liked-by-author"
   },
   {
-    "see_more": "b().ffd9cfe6",
-    "discover_more": "b().d172116a",
-    "more": "b().h63a5c3c",
-    "more_tweets": "b().be5df69e",
-    "more_suggestions": "b().g11ebd34",
-    "browse": "b().g4a6901a",
-    "browse_tweets": "b().h6453e74"
-  },
-  {
-    "All": "All",
-    "Premium": "Premium",
-    "VerifiedOrgs": "VerifiedOrgs"
-  },
-  {
-    "EditPost": "EditPost",
-    "HighlightsProfile": "HighlightsProfile",
-    "ArticlesProfile": "ArticlesProfile",
-    "ArticlesReader": "ArticlesReader",
-    "ArticlesPostComposer": "ArticlesPostComposer",
-    "CreatorSubsEligibility": "CreatorSubsEligibility",
-    "IdVerification": "IdVerification",
-    "LongformPostComposer": "LongformPostComposer",
-    "PreRollAdsEligibility": "PreRollAdsEligibility",
-    "AdsRevShareEligibility": "AdsRevShareEligibility",
-    "CreateCommunity": "CreateCommunity",
-    "DmAddToGroup": "DmAddToGroup",
-    "DmCreateGroup": "DmCreateGroup",
-    "DmMessageRequest": "DmMessageRequest",
-    "DmRateLimited": "DmRateLimited",
-    "VideoDownload": "VideoDownload",
-    "BlockAd": "BlockAd",
-    "MuteAd": "MuteAd",
-    "DismissAd": "DismissAd",
-    "ReportAd": "ReportAd",
-    "BookmarkFolders": "BookmarkFolders",
-    "SidebarDefault": "SidebarDefault",
-    "SidebarArticle": "SidebarArticle",
-    "SidebarLongform": "SidebarLongform",
-    "SidebarPremiumPlus": "SidebarPremiumPlus",
-    "SidebarVerifiedOrgs": "SidebarVerifiedOrgs",
-    "LikesTab": "LikesTab",
-    "VerifiedOnlyChat": "VerifiedOnlyChat"
+    "see_more": "w().ffd9cfe6",
+    "discover_more": "w().d172116a",
+    "more": "w().h63a5c3c",
+    "more_tweets": "w().be5df69e",
+    "more_suggestions": "w().g11ebd34",
+    "browse": "w().g4a6901a",
+    "browse_tweets": "w().h6453e74"
   },
   {
     "EmptyState": "EmptyState",
@@ -3533,7 +3538,7 @@
     "single_line": "singleline",
     "format_inline": "format-inline"
   },
-  "{\"ActionsBar\":\"y.Z\",\"ActionMenu\":\"function()\"{\"Icon\":\"e\",\"isDisabled\":\"t\",\"items\":\"n\",\"onOpen\":\"i\"}{\"const r=o.useCallback()\"{\"items\":\"n\",\"onCloseRequested\":\"e\"}{\"Icon\":\"e\",\"isDisabled\":\"t\",\"onClick\":\"i\",\"renderActionMenu\":\"r\"}},\"CallToAction\":\"a.ZP\",\"EditCallout\":\"C.Z\",\"Education\":\"E.Z\",\"HighlightedUserLabel\":\"c.Z\",\"Media\":\"k.Z\",\"Place\":\"r.ZP\",\"PromotedDetails\":\"u.Z\",\"PromotedUserProfileCard\":\"P\",\"ReplyContext\":\"Z.ZP\",\"RichContent\":\"L.Z\",\"SocialContext\":\"g.Z\",\"Text\":\"D.Z\",\"Tombstone\":\"_.Z\",\"Timestamp\":\"p.Z\",\"UserAvatar\":\"R.Z\",\"UserFollowIndicator\":\"B.Z\",\"UserName\":\"F.Z\",\"ArticleCard\":\"v.Z\"}",
+  "{\"ActionsBar\":\"y.Z\",\"ActionMenu\":\"function()\"{\"Icon\":\"e\",\"isDisabled\":\"t\",\"items\":\"n\",\"onOpen\":\"i\"}{\"const r=o.useCallback()\"{\"items\":\"n\",\"onCloseRequested\":\"e\"}{\"Icon\":\"e\",\"isDisabled\":\"t\",\"onClick\":\"i\",\"renderActionMenu\":\"r\"}},\"CallToAction\":\"a.ZP\",\"EditCallout\":\"C.Z\",\"Education\":\"E.Z\",\"HighlightedUserLabel\":\"c.Z\",\"Media\":\"k.Z\",\"Place\":\"r.ZP\",\"PromotedDetails\":\"u.Z\",\"PromotedUserProfileCard\":\"Z\",\"ReplyContext\":\"P.ZP\",\"RichContent\":\"L.Z\",\"SocialContext\":\"g.Z\",\"Text\":\"D.Z\",\"Tombstone\":\"_.Z\",\"Timestamp\":\"p.Z\",\"UserAvatar\":\"R.Z\",\"UserFollowIndicator\":\"B.Z\",\"UserName\":\"F.Z\",\"ArticleCard\":\"v.Z\"}",
   {
     "transparent": "transparent"
   },
@@ -4267,41 +4272,6 @@
     "FAILURE": "rweb/teams/FETCH_TEAMS_FAILURE"
   },
   {
-    "All": "All",
-    "Premium": "Premium",
-    "VerifiedOrgs": "VerifiedOrgs"
-  },
-  {
-    "EditPost": "EditPost",
-    "HighlightsProfile": "HighlightsProfile",
-    "ArticlesProfile": "ArticlesProfile",
-    "ArticlesReader": "ArticlesReader",
-    "ArticlesPostComposer": "ArticlesPostComposer",
-    "CreatorSubsEligibility": "CreatorSubsEligibility",
-    "IdVerification": "IdVerification",
-    "LongformPostComposer": "LongformPostComposer",
-    "PreRollAdsEligibility": "PreRollAdsEligibility",
-    "AdsRevShareEligibility": "AdsRevShareEligibility",
-    "CreateCommunity": "CreateCommunity",
-    "DmAddToGroup": "DmAddToGroup",
-    "DmCreateGroup": "DmCreateGroup",
-    "DmMessageRequest": "DmMessageRequest",
-    "DmRateLimited": "DmRateLimited",
-    "VideoDownload": "VideoDownload",
-    "BlockAd": "BlockAd",
-    "MuteAd": "MuteAd",
-    "DismissAd": "DismissAd",
-    "ReportAd": "ReportAd",
-    "BookmarkFolders": "BookmarkFolders",
-    "SidebarDefault": "SidebarDefault",
-    "SidebarArticle": "SidebarArticle",
-    "SidebarLongform": "SidebarLongform",
-    "SidebarPremiumPlus": "SidebarPremiumPlus",
-    "SidebarVerifiedOrgs": "SidebarVerifiedOrgs",
-    "LikesTab": "LikesTab",
-    "VerifiedOnlyChat": "VerifiedOnlyChat"
-  },
-  {
     "EmptyState": "EmptyState",
     "InlineCallout": "InlineCallout",
     "Button": "Button",
@@ -5004,41 +4974,6 @@
     "JoinConversation": "i.Cr.JOIN_CONVERSATION"
   },
   {
-    "All": "All",
-    "Premium": "Premium",
-    "VerifiedOrgs": "VerifiedOrgs"
-  },
-  {
-    "EditPost": "EditPost",
-    "HighlightsProfile": "HighlightsProfile",
-    "ArticlesProfile": "ArticlesProfile",
-    "ArticlesReader": "ArticlesReader",
-    "ArticlesPostComposer": "ArticlesPostComposer",
-    "CreatorSubsEligibility": "CreatorSubsEligibility",
-    "IdVerification": "IdVerification",
-    "LongformPostComposer": "LongformPostComposer",
-    "PreRollAdsEligibility": "PreRollAdsEligibility",
-    "AdsRevShareEligibility": "AdsRevShareEligibility",
-    "CreateCommunity": "CreateCommunity",
-    "DmAddToGroup": "DmAddToGroup",
-    "DmCreateGroup": "DmCreateGroup",
-    "DmMessageRequest": "DmMessageRequest",
-    "DmRateLimited": "DmRateLimited",
-    "VideoDownload": "VideoDownload",
-    "BlockAd": "BlockAd",
-    "MuteAd": "MuteAd",
-    "DismissAd": "DismissAd",
-    "ReportAd": "ReportAd",
-    "BookmarkFolders": "BookmarkFolders",
-    "SidebarDefault": "SidebarDefault",
-    "SidebarArticle": "SidebarArticle",
-    "SidebarLongform": "SidebarLongform",
-    "SidebarPremiumPlus": "SidebarPremiumPlus",
-    "SidebarVerifiedOrgs": "SidebarVerifiedOrgs",
-    "LikesTab": "LikesTab",
-    "VerifiedOnlyChat": "VerifiedOnlyChat"
-  },
-  {
     "EmptyState": "EmptyState",
     "InlineCallout": "InlineCallout",
     "Button": "Button",
@@ -5415,41 +5350,6 @@
     "transparent": "transparent"
   },
   {
-    "All": "All",
-    "Premium": "Premium",
-    "VerifiedOrgs": "VerifiedOrgs"
-  },
-  {
-    "EditPost": "EditPost",
-    "HighlightsProfile": "HighlightsProfile",
-    "ArticlesProfile": "ArticlesProfile",
-    "ArticlesReader": "ArticlesReader",
-    "ArticlesPostComposer": "ArticlesPostComposer",
-    "CreatorSubsEligibility": "CreatorSubsEligibility",
-    "IdVerification": "IdVerification",
-    "LongformPostComposer": "LongformPostComposer",
-    "PreRollAdsEligibility": "PreRollAdsEligibility",
-    "AdsRevShareEligibility": "AdsRevShareEligibility",
-    "CreateCommunity": "CreateCommunity",
-    "DmAddToGroup": "DmAddToGroup",
-    "DmCreateGroup": "DmCreateGroup",
-    "DmMessageRequest": "DmMessageRequest",
-    "DmRateLimited": "DmRateLimited",
-    "VideoDownload": "VideoDownload",
-    "BlockAd": "BlockAd",
-    "MuteAd": "MuteAd",
-    "DismissAd": "DismissAd",
-    "ReportAd": "ReportAd",
-    "BookmarkFolders": "BookmarkFolders",
-    "SidebarDefault": "SidebarDefault",
-    "SidebarArticle": "SidebarArticle",
-    "SidebarLongform": "SidebarLongform",
-    "SidebarPremiumPlus": "SidebarPremiumPlus",
-    "SidebarVerifiedOrgs": "SidebarVerifiedOrgs",
-    "LikesTab": "LikesTab",
-    "VerifiedOnlyChat": "VerifiedOnlyChat"
-  },
-  {
     "EmptyState": "EmptyState",
     "InlineCallout": "InlineCallout",
     "Button": "Button",
@@ -5747,8 +5647,8 @@
     "SET_CONFIG": "rweb/verifiedOrgConfig/SET"
   },
   {
-    "fetchStatus": "W.ZP.NONE",
-    "config": "wa"
+    "fetchStatus": "q.ZP.NONE",
+    "config": "Ta"
   },
   "{[_.hA.switchFromDirect]:\"m().dca6b3ac\",[_.hA.generate]:\"m().dca6b3ac\",[_.hA.updateSeats]:\"m().c97ad52a\"}",
   "{[x.hA.generate]:\"E().fc1f43d0\",[x.hA.switchFromDirect]:\"E().fc1f43d0\",[x.hA.updateSeats]:\"E().c97ad52a\"}",
@@ -6676,41 +6576,6 @@
     "FAILURE": "rweb/promotedContent/LOG_FAILURE"
   },
   {
-    "All": "All",
-    "Premium": "Premium",
-    "VerifiedOrgs": "VerifiedOrgs"
-  },
-  {
-    "EditPost": "EditPost",
-    "HighlightsProfile": "HighlightsProfile",
-    "ArticlesProfile": "ArticlesProfile",
-    "ArticlesReader": "ArticlesReader",
-    "ArticlesPostComposer": "ArticlesPostComposer",
-    "CreatorSubsEligibility": "CreatorSubsEligibility",
-    "IdVerification": "IdVerification",
-    "LongformPostComposer": "LongformPostComposer",
-    "PreRollAdsEligibility": "PreRollAdsEligibility",
-    "AdsRevShareEligibility": "AdsRevShareEligibility",
-    "CreateCommunity": "CreateCommunity",
-    "DmAddToGroup": "DmAddToGroup",
-    "DmCreateGroup": "DmCreateGroup",
-    "DmMessageRequest": "DmMessageRequest",
-    "DmRateLimited": "DmRateLimited",
-    "VideoDownload": "VideoDownload",
-    "BlockAd": "BlockAd",
-    "MuteAd": "MuteAd",
-    "DismissAd": "DismissAd",
-    "ReportAd": "ReportAd",
-    "BookmarkFolders": "BookmarkFolders",
-    "SidebarDefault": "SidebarDefault",
-    "SidebarArticle": "SidebarArticle",
-    "SidebarLongform": "SidebarLongform",
-    "SidebarPremiumPlus": "SidebarPremiumPlus",
-    "SidebarVerifiedOrgs": "SidebarVerifiedOrgs",
-    "LikesTab": "LikesTab",
-    "VerifiedOnlyChat": "VerifiedOnlyChat"
-  },
-  {
     "EmptyState": "EmptyState",
     "InlineCallout": "InlineCallout",
     "Button": "Button",
@@ -6739,41 +6604,6 @@
   "{\"minimumRadius\":\"0\",\"maximumRadius\":1/0,\"minimumPolarAngle\":Math.PI/8,\"maximumPolarAngle\":Math.PI-Math.PI/8,\"minimumAzimuthalAngle\":-1/0,\"maximumAzimuthalAngle\":1/0,\"minimumFieldOfView\":\"10\",\"maximumFieldOfView\":\"45\",\"interactionPolicy\":\"always-allow\",\"touchAction\":\"pan-y\"}",
   {
     "transparent": "transparent"
-  },
-  {
-    "All": "All",
-    "Premium": "Premium",
-    "VerifiedOrgs": "VerifiedOrgs"
-  },
-  {
-    "EditPost": "EditPost",
-    "HighlightsProfile": "HighlightsProfile",
-    "ArticlesProfile": "ArticlesProfile",
-    "ArticlesReader": "ArticlesReader",
-    "ArticlesPostComposer": "ArticlesPostComposer",
-    "CreatorSubsEligibility": "CreatorSubsEligibility",
-    "IdVerification": "IdVerification",
-    "LongformPostComposer": "LongformPostComposer",
-    "PreRollAdsEligibility": "PreRollAdsEligibility",
-    "AdsRevShareEligibility": "AdsRevShareEligibility",
-    "CreateCommunity": "CreateCommunity",
-    "DmAddToGroup": "DmAddToGroup",
-    "DmCreateGroup": "DmCreateGroup",
-    "DmMessageRequest": "DmMessageRequest",
-    "DmRateLimited": "DmRateLimited",
-    "VideoDownload": "VideoDownload",
-    "BlockAd": "BlockAd",
-    "MuteAd": "MuteAd",
-    "DismissAd": "DismissAd",
-    "ReportAd": "ReportAd",
-    "BookmarkFolders": "BookmarkFolders",
-    "SidebarDefault": "SidebarDefault",
-    "SidebarArticle": "SidebarArticle",
-    "SidebarLongform": "SidebarLongform",
-    "SidebarPremiumPlus": "SidebarPremiumPlus",
-    "SidebarVerifiedOrgs": "SidebarVerifiedOrgs",
-    "LikesTab": "LikesTab",
-    "VerifiedOnlyChat": "VerifiedOnlyChat"
   },
   {
     "EmptyState": "EmptyState",
@@ -6828,8 +6658,8 @@
     "PUBLISHED": "Published"
   },
   {
-    "DRAFT": "l.DRAFT",
-    "PUBLISHED": "l.PUBLISHED"
+    "DRAFT": "a.DRAFT",
+    "PUBLISHED": "a.PUBLISHED"
   },
   {
     "LIVE_BROADCAST": "liveBroadcast",
