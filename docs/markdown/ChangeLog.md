@@ -3469,3 +3469,15 @@
 - responsive_web_messages_continue_enabled<br>
 #### remove<br>
 - subscriptions_marketing_page_redesign_enabled<br>
+## 2024/05/03<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- responsive_web_messages_watch_info_enabled<br>
+- responsive_web_messages_watch_info_interval_s<br>
+#### remove<br>
+- subscriptions_feature_can_hide_checkmark<br>
