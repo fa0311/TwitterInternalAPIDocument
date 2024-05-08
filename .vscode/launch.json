@@ -3,7 +3,7 @@
   "configurations": [
     {
       "name": "Python",
-      "type": "python",
+      "type": "debugpy",
       "request": "launch",
       "program": "${file}",
       "console": "integratedTerminal",
@@ -11,7 +11,7 @@
     },
     {
       "name": "Generator",
-      "type": "python",
+      "type": "debugpy",
       "request": "launch",
       "program": "generator.py",
       "console": "integratedTerminal",
@@ -30,7 +30,7 @@
     },
     {
       "name": "Generator-Deck",
-      "type": "python",
+      "type": "debugpy",
       "request": "launch",
       "program": "generator.py",
       "console": "integratedTerminal",
