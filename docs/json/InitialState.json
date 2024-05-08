@@ -1454,7 +1454,7 @@
         "value": "true"
       },
       "responsive_web_grok_chat_history_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "responsive_web_grok_delete_conversations_enabled": {
         "value": "false"
@@ -4123,7 +4123,7 @@
           "value": "true"
         },
         "responsive_web_grok_chat_history_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "responsive_web_grok_delete_conversations_enabled": {
           "value": "false"
@@ -4929,16 +4929,16 @@
           "value": "true"
         },
         "subscriptions_inapp_grok_upsell_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "subscriptions_inapp_grok_video_upsell": {
-          "value": ""
+          "value": "https://abs.twimg.com/sticky/videos/inapp_dark_square_v4.mp4"
         },
         "subscriptions_inapp_grok_video_upsell_dim": {
-          "value": ""
+          "value": "https://abs.twimg.com/sticky/videos/inapp_dim_square_v4.mp4"
         },
         "subscriptions_inapp_grok_video_upsell_light": {
-          "value": ""
+          "value": "https://abs.twimg.com/sticky/videos/inapp_light_square_v4.mp4"
         },
         "subscriptions_long_video_rweb_new_copy_enabled": {
           "value": "true"
@@ -5443,10 +5443,10 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "8c5c232e1eb41ad639d62e32affa5b8a"
+      "settingsVersion": "9e30fb168865ace1a51726d5afe6e738"
     },
     "debug": {},
-    "featureSetToken": "4bc1ab34c2596c507f8e36f09163631d43e2db18",
+    "featureSetToken": "84401e6c9f154229923bf64d915e434d1842a3de",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -5516,7 +5516,7 @@
     "country": "XX",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "171502968627130909",
+    "guestId": "171511607721959018",
     "hasCommunityMemberships": "false",
     "language": "en",
     "ssoInitTokens": {},

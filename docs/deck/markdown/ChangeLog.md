@@ -2458,3 +2458,26 @@
 - responsive_web_twitter_article_insert_enabled<br>
 #### remove<br>
 - None<br>
+## 2024/05/07<br>
+### API<br>
+#### add<br>
+- CreateGrokConversation<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- blue_business_tier_switching_enabled<br>
+- c9s_spotlight_creation_enabled<br>
+- responsive_web_account_analytics_timeframe_enabled<br>
+- responsive_web_grok_chat_history_enabled<br>
+- responsive_web_messages_continue_enabled<br>
+- responsive_web_messages_watch_info_enabled<br>
+- responsive_web_messages_watch_info_interval_s<br>
+- responsive_web_twitter_article_code_language_typeahead_enabled<br>
+- spaces_video_admins_enabled<br>
+- spaces_video_speakers_enabled<br>
+#### remove<br>
+- creator_monetization_settings_revamp<br>
+- responsive_web_twitter_article_insert_enabled<br>
+- subscriptions_feature_can_hide_checkmark<br>
+- subscriptions_marketing_page_redesign_enabled<br>
