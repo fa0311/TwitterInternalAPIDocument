@@ -3481,3 +3481,16 @@
 - responsive_web_messages_watch_info_interval_s<br>
 #### remove<br>
 - subscriptions_feature_can_hide_checkmark<br>
+## 2024/05/08<br>
+### API<br>
+#### add<br>
+- BirdwatchFetchNoteTranslation<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- responsive_web_birdwatch_translation_enabled<br>
+- responsive_web_messages_related_preview_enabled<br>
+- responsive_web_tv_cast_enabled<br>
+#### remove<br>
+- None<br>
