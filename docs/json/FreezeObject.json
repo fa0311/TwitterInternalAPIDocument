@@ -1857,9 +1857,6 @@
     "gutterVerticalPx": "M.space12"
   },
   {
-    "wide": "700"
-  },
-  {
     "aspectRatios": "l",
     "baseFontSize": "y",
     "borderRadii": "u",
@@ -1868,7 +1865,6 @@
     "borderWidthsPx": "s",
     "breakpoints": "t",
     "componentDimensions": "v",
-    "containerDimensions": "f",
     "componentZIndices": "o",
     "fontSizes": "g",
     "fontSizesPx": "S",
@@ -4118,6 +4114,11 @@
     "FAILURE": "rweb/birdwatchNotes/FETCH_CAN_BE_MEDIA_NOTE_FAILURE"
   },
   {
+    "REQUEST": "rweb/birdwatchNotes/FETCH_NOTE_TRANSLATION_REQUEST",
+    "SUCCESS": "rweb/birdwatchNotes/FETCH_NOTE_TRANSLATION_SUCCESS",
+    "FAILURE": "rweb/birdwatchNotes/FETCH_NOTE_TRANSLATION_FAILURE"
+  },
+  {
     "REQUEST": "rweb/birdwatchNotes/FETCH_ALIAS_REQUEST",
     "SUCCESS": "rweb/birdwatchNotes/FETCH_ALIAS_SUCCESS",
     "FAILURE": "rweb/birdwatchNotes/FETCH_ALIAS_FAILURE"
@@ -4480,6 +4481,9 @@
     "SensitiveMedia": "sensitive_media",
     "Subtitles": "subtitles",
     "Trimmer": "trimmer"
+  },
+  {
+    "transparent": "transparent"
   },
   {
     "reset": {
@@ -5412,28 +5416,29 @@
     "other": "E"
   },
   {
-    "entry_level": "J",
-    "junior": "L",
-    "mid_level": "D",
-    "senior": "z",
-    "lead": "N",
-    "manager": "A",
-    "executive": "R"
+    "intern": "J",
+    "entry_level": "L",
+    "junior": "D",
+    "mid_level": "z",
+    "senior": "N",
+    "lead": "A",
+    "manager": "R",
+    "executive": "B"
   },
   {
     "onsite": {
-      "label": "I",
-      "description": "F",
+      "label": "W",
+      "description": "P",
       "value": "onsite"
     },
     "remote": {
-      "label": "x",
-      "description": "Q",
+      "label": "F",
+      "description": "T",
       "value": "remote"
     },
     "hybrid": {
-      "label": "W",
-      "description": "P",
+      "label": "x",
+      "description": "Q",
       "value": "hybrid"
     }
   },
@@ -5653,13 +5658,14 @@
   "{[_.hA.switchFromDirect]:\"m().dca6b3ac\",[_.hA.generate]:\"m().dca6b3ac\",[_.hA.updateSeats]:\"m().c97ad52a\"}",
   "{[x.hA.generate]:\"E().fc1f43d0\",[x.hA.switchFromDirect]:\"E().fc1f43d0\",[x.hA.updateSeats]:\"E().c97ad52a\"}",
   {
-    "FullAccess": "FullAccess",
-    "Basic": "Basic"
-  },
-  {
     "generate": "generate",
     "updateSeats": "updateSeats",
     "switchFromDirect": "switchFromDirect"
+  },
+  {
+    "FullAccess": "FullAccess",
+    "FullAccessGov": "FullAccessGov",
+    "Basic": "Basic"
   },
   {
     "alwayOpen": "r().e2a5bd50",
@@ -6361,8 +6367,8 @@
     "SubscribableUser": "SubscribableUser"
   },
   {
-    "full_time": "s",
-    "full_time_contract": "r",
+    "full_time": "r",
+    "full_time_contract": "s",
     "part_time": "i",
     "contract_to_hire": "o"
   },

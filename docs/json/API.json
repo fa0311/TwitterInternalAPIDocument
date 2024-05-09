@@ -3597,11 +3597,12 @@
       "features": {}
     },
     "BirdwatchCreateNote": {
-      "url": "https://twitter.com/i/api/graphql/7PHGVGPqFBbCUmC3YwI-Ew/BirdwatchCreateNote",
-      "queryId": "7PHGVGPqFBbCUmC3YwI-Ew",
+      "url": "https://twitter.com/i/api/graphql/tq8TvzVyQXM0bo_9GUojtA/BirdwatchCreateNote",
+      "queryId": "tq8TvzVyQXM0bo_9GUojtA",
       "method": "POST",
       "features": {
         "responsive_web_birdwatch_media_notes_enabled": true,
+        "responsive_web_birdwatch_translation_enabled": false,
         "responsive_web_graphql_timeline_navigation_enabled": true,
         "rweb_tipjar_consumption_enabled": true,
         "responsive_web_graphql_exclude_directive_enabled": true,
@@ -3708,12 +3709,21 @@
         "responsive_web_enhance_cards_enabled": false
       }
     },
+    "BirdwatchFetchNoteTranslation": {
+      "url": "https://twitter.com/i/api/graphql/UZppVC62g5sGFE2k0FjVzw/BirdwatchFetchNoteTranslation",
+      "queryId": "UZppVC62g5sGFE2k0FjVzw",
+      "method": "GET",
+      "features": {
+        "responsive_web_birdwatch_translation_enabled": false
+      }
+    },
     "BirdwatchFetchNotes": {
-      "url": "https://twitter.com/i/api/graphql/IRht0GVMIONwn55yLU9SZg/BirdwatchFetchNotes",
-      "queryId": "IRht0GVMIONwn55yLU9SZg",
+      "url": "https://twitter.com/i/api/graphql/sm90olUft05lYjzqqvT-Bg/BirdwatchFetchNotes",
+      "queryId": "sm90olUft05lYjzqqvT-Bg",
       "method": "GET",
       "features": {
         "responsive_web_birdwatch_media_notes_enabled": true,
+        "responsive_web_birdwatch_translation_enabled": false,
         "responsive_web_graphql_timeline_navigation_enabled": true,
         "rweb_tipjar_consumption_enabled": true,
         "responsive_web_graphql_exclude_directive_enabled": true,
@@ -3722,11 +3732,12 @@
       }
     },
     "BirdwatchFetchOneNote": {
-      "url": "https://twitter.com/i/api/graphql/fKWPPj271aTM-AB9Xp48IA/BirdwatchFetchOneNote",
-      "queryId": "fKWPPj271aTM-AB9Xp48IA",
+      "url": "https://twitter.com/i/api/graphql/X8OWH9Mq69TjQCoQdIYS0g/BirdwatchFetchOneNote",
+      "queryId": "X8OWH9Mq69TjQCoQdIYS0g",
       "method": "GET",
       "features": {
         "responsive_web_birdwatch_media_notes_enabled": true,
+        "responsive_web_birdwatch_translation_enabled": false,
         "responsive_web_graphql_timeline_navigation_enabled": true,
         "rweb_tipjar_consumption_enabled": true,
         "responsive_web_graphql_exclude_directive_enabled": true,
@@ -4403,7 +4414,7 @@
     }
   },
   "header": {
-    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+    "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
     "authorization": "Bearer AAAAAAAAAAAAAAAAAAAAANRILgAAAAAAnNwIzUejRCOuH5E6I8xnZz4puTs%3D1Zv7ttfk8LF81IUq16cHjhLTvJu4FA33AGWWjCpTnA"
   }
 }

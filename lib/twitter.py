@@ -5,15 +5,15 @@ import re
 class twitter_home:
     TWITTER_HOME = "https://twitter.com/home"
     CLIENT = "responsive-web"
-    LATEST_USER_AGENT = "https://raw.githubusercontent.com/TechfaneTechnologies/latest-user-agent/main/user_agents.json"
+    LATEST_USER_AGENT = "https://raw.githubusercontent.com/fa0311/latest-user-agent/main/output.json"
     TWITTER_FRONTEND_FLOW = False
 
     def __init__(self):
         self.session = requests.session()
-        self.user_agent_list = self.session.get(self.LATEST_USER_AGENT).json()
+        self.user_agent = self.session.get(self.LATEST_USER_AGENT).json()["chrome"]
 
     def login(self, userid: str, password: str):
-        flow = TwitterFrontendFlow()
+        flow = TwitterFrontendFlow() # type: ignore
         flow.session = self.session
         flow.login_flow()
         flow.LoginJsInstrumentationSubtask()
@@ -24,7 +24,7 @@ class twitter_home:
             raise Exception("login error")
 
     def load(self, file_path: str):
-        flow = TwitterFrontendFlow()
+        flow = TwitterFrontendFlow() # type: ignore
         flow.session = self.session
         flow.LoadCookies(file_path)
 
@@ -32,7 +32,7 @@ class twitter_home:
         self.response = self.session.get(self.TWITTER_HOME, headers=self.get_header())
 
     def get_header(self):
-        return {"User-Agent": self.user_agent_list[0]}
+        return {"User-Agent": self.user_agent}
 
     def get_script_url(self) -> list[str]:
         src = "(https://abs\.twimg\.com\/{0}\/client-web\/[a-zA-Z0-9\.]*?\.js)".format(
@@ -58,7 +58,7 @@ class twitter_deck(twitter_home):
 
 
 try:
-    from TwitterFrontendFlow.TwitterFrontendFlow.TwitterFrontendFlow import *
+    from TwitterFrontendFlow.TwitterFrontendFlow.TwitterFrontendFlow import *  # type: ignore
 
     twitter_home.TWITTER_FRONTEND_FLOW = True
 except:

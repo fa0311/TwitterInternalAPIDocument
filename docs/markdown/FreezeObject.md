@@ -1846,10 +1846,6 @@ This document is entirely auto-generated and may contain errors.<br>
 | gutterVertical        | w.space12 |
 | gutterVerticalPx      | M.space12 |
 
-| constant   |   value |
-|:-----------|--------:|
-| wide       |     700 |
-
 | constant            | value   |
 |:--------------------|:--------|
 | aspectRatios        | l       |
@@ -1860,7 +1856,6 @@ This document is entirely auto-generated and may contain errors.<br>
 | borderWidthsPx      | s       |
 | breakpoints         | t       |
 | componentDimensions | v       |
-| containerDimensions | f       |
 | componentZIndices   | o       |
 | fontSizes           | g       |
 | fontSizesPx         | S       |
@@ -4231,6 +4226,12 @@ This document is entirely auto-generated and may contain errors.<br>
 | SUCCESS    | rweb/birdwatchNotes/FETCH_CAN_BE_MEDIA_NOTE_SUCCESS |
 | FAILURE    | rweb/birdwatchNotes/FETCH_CAN_BE_MEDIA_NOTE_FAILURE |
 
+| constant   | value                                              |
+|:-----------|:---------------------------------------------------|
+| REQUEST    | rweb/birdwatchNotes/FETCH_NOTE_TRANSLATION_REQUEST |
+| SUCCESS    | rweb/birdwatchNotes/FETCH_NOTE_TRANSLATION_SUCCESS |
+| FAILURE    | rweb/birdwatchNotes/FETCH_NOTE_TRANSLATION_FAILURE |
+
 | constant   | value                                   |
 |:-----------|:----------------------------------------|
 | REQUEST    | rweb/birdwatchNotes/FETCH_ALIAS_REQUEST |
@@ -4658,6 +4659,10 @@ This document is entirely auto-generated and may contain errors.<br>
 | SensitiveMedia | sensitive_media |
 | Subtitles      | subtitles       |
 | Trimmer        | trimmer         |
+
+| constant    | value       |
+|:------------|:------------|
+| transparent | transparent |
 
 | constant   | value                               |
 |:-----------|:------------------------------------|
@@ -5685,19 +5690,20 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant    | value   |
 |:------------|:--------|
-| entry_level | J       |
-| junior      | L       |
-| mid_level   | D       |
-| senior      | z       |
-| lead        | N       |
-| manager     | A       |
-| executive   | R       |
+| intern      | J       |
+| entry_level | L       |
+| junior      | D       |
+| mid_level   | z       |
+| senior      | N       |
+| lead        | A       |
+| manager     | R       |
+| executive   | B       |
 
 | constant   | value                                                 |
 |:-----------|:------------------------------------------------------|
-| onsite     | {'label': 'I', 'description': 'F', 'value': 'onsite'} |
-| remote     | {'label': 'x', 'description': 'Q', 'value': 'remote'} |
-| hybrid     | {'label': 'W', 'description': 'P', 'value': 'hybrid'} |
+| onsite     | {'label': 'W', 'description': 'P', 'value': 'onsite'} |
+| remote     | {'label': 'F', 'description': 'T', 'value': 'remote'} |
+| hybrid     | {'label': 'x', 'description': 'Q', 'value': 'hybrid'} |
 
 | constant           | value   |
 |:-------------------|:--------|
@@ -5914,16 +5920,17 @@ This document is entirely auto-generated and may contain errors.<br>
 # Error
 {[x.hA.generate]:"E().fc1f43d0",[x.hA.switchFromDirect]:"E().fc1f43d0",[x.hA.updateSeats]:"E().c97ad52a"}
 ```
-| constant   | value      |
-|:-----------|:-----------|
-| FullAccess | FullAccess |
-| Basic      | Basic      |
-
 | constant         | value            |
 |:-----------------|:-----------------|
 | generate         | generate         |
 | updateSeats      | updateSeats      |
 | switchFromDirect | switchFromDirect |
+
+| constant      | value         |
+|:--------------|:--------------|
+| FullAccess    | FullAccess    |
+| FullAccessGov | FullAccessGov |
+| Basic         | Basic         |
 
 | constant     | value        |
 |:-------------|:-------------|
@@ -6647,8 +6654,8 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant           | value   |
 |:-------------------|:--------|
-| full_time          | s       |
-| full_time_contract | r       |
+| full_time          | r       |
+| full_time_contract | s       |
 | part_time          | i       |
 | contract_to_hire   | o       |
 
