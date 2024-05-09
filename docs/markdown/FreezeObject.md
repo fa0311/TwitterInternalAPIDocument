@@ -3693,7 +3693,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{[R.VerificationCheck]:"function()"{if()throw new Error(3!==e.length);const[d,a,n]=e;return[{"width":"400","height":"200","uri":"d"},{"width":"800","height":"400","uri":"a"},{"width":"1200","height":"600","uri":"n"}]}"()"}
+{[R.VerificationCheck]:"function()"{if()throw new Error(3!==e.length);const[d,a,t]=e;return[{"width":"400","height":"200","uri":"d"},{"width":"800","height":"400","uri":"a"},{"width":"1200","height":"600","uri":"t"}]}"()"}
 ```
 | constant   | value     |
 |:-----------|:----------|
