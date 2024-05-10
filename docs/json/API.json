@@ -3942,8 +3942,8 @@
       "features": {}
     },
     "GrokConversationItemsByRestId": {
-      "url": "https://twitter.com/i/api/graphql/F4jX5YH_mtjCPLKIxM22Gg/GrokConversationItemsByRestId",
-      "queryId": "F4jX5YH_mtjCPLKIxM22Gg",
+      "url": "https://twitter.com/i/api/graphql/syZOJafnAX32mjD1JChdqw/GrokConversationItemsByRestId",
+      "queryId": "syZOJafnAX32mjD1JChdqw",
       "method": "GET",
       "features": {
         "creator_subscriptions_tweet_preview_api_enabled": true,
@@ -3974,20 +3974,20 @@
       }
     },
     "GrokHistory": {
-      "url": "https://twitter.com/i/api/graphql/nAc4LtED5ISPG49b3twDiQ/GrokHistory",
-      "queryId": "nAc4LtED5ISPG49b3twDiQ",
+      "url": "https://twitter.com/i/api/graphql/-eT71yhF_ZA4h_a1_U_gSw/GrokHistory",
+      "queryId": "-eT71yhF_ZA4h_a1_U_gSw",
       "method": "GET",
       "features": {}
     },
     "GrokHome": {
-      "url": "https://twitter.com/i/api/graphql/cdHoKeM-ZKjVA4Mu7mYz7A/GrokHome",
-      "queryId": "cdHoKeM-ZKjVA4Mu7mYz7A",
+      "url": "https://twitter.com/i/api/graphql/rkRtWImgl48lzYzk5giREg/GrokHome",
+      "queryId": "rkRtWImgl48lzYzk5giREg",
       "method": "GET",
       "features": {}
     },
     "GrokShare": {
-      "url": "https://twitter.com/i/api/graphql/-u4at1S61H7uTLcPKtdEtw/GrokShare",
-      "queryId": "-u4at1S61H7uTLcPKtdEtw",
+      "url": "https://twitter.com/i/api/graphql/1nKe7Zv5k2EFKWXAZ37Byw/GrokShare",
+      "queryId": "1nKe7Zv5k2EFKWXAZ37Byw",
       "method": "GET",
       "features": {
         "rweb_tipjar_consumption_enabled": true,
