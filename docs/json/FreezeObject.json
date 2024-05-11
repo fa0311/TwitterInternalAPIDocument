@@ -5532,6 +5532,10 @@
     }
   },
   {
+    "Fixed": "fixed",
+    "Variable": "variable"
+  },
+  {
     "CONVERSATION": "conversation",
     "TIMELINE": "timeline"
   },
