@@ -535,6 +535,9 @@
       "communities_adult_content_setting_enabled": {
         "value": "true"
       },
+      "communities_analytics_enabled": {
+        "value": "false"
+      },
       "communities_enable_explore_tab": {
         "value": "true"
       },
@@ -3216,6 +3219,9 @@
         "communities_adult_content_setting_enabled": {
           "value": "true"
         },
+        "communities_analytics_enabled": {
+          "value": "false"
+        },
         "communities_enable_explore_tab": {
           "value": "true"
         },
@@ -5470,7 +5476,7 @@
       "settingsVersion": "39169fa4f5245a3eaa5e23ec04608e8d"
     },
     "debug": {},
-    "featureSetToken": "3c96096a051b53335e9a19778db83583da97df76",
+    "featureSetToken": "f03e3e2dd0c1629e547af80a2ddfeb1417a6cb23",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -5540,7 +5546,7 @@
     "country": "XX",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "171537522672519995",
+    "guestId": "171546166078357645",
     "hasCommunityMemberships": "false",
     "language": "en",
     "ssoInitTokens": {},
