@@ -7389,7 +7389,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## TweetRelatedVideos<br>
-Request URL: `https://twitter.com/i/api/graphql/AhBU77mBb_JMiJ5pyAz6ZA/TweetRelatedVideos`<br>
+Request URL: `https://twitter.com/i/api/graphql/QWH1qGLGqF5lZli0ctOY6A/TweetRelatedVideos`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>

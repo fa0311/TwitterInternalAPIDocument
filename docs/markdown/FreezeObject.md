@@ -5766,6 +5766,11 @@ This document is entirely auto-generated and may contain errors.<br>
 | decks                 | {'createNewDeck': 'd n', 'editActiveDeck': 'd e', 'lastPinnedDeck': 'd 0', 'manageAllDecks': 'd m', 'nthPinnedDeck': 'd 1..9'}                                                                                                                                |
 | labs                  | {'openCommandCenter': '>'}                                                                                                                                                                                                                                    |
 
+| constant   | value    |
+|:-----------|:---------|
+| Fixed      | fixed    |
+| Variable   | variable |
+
 | constant     | value        |
 |:-------------|:-------------|
 | CONVERSATION | conversation |

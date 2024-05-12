@@ -4369,8 +4369,8 @@
       }
     },
     "TweetRelatedVideos": {
-      "url": "https://twitter.com/i/api/graphql/AhBU77mBb_JMiJ5pyAz6ZA/TweetRelatedVideos",
-      "queryId": "AhBU77mBb_JMiJ5pyAz6ZA",
+      "url": "https://twitter.com/i/api/graphql/QWH1qGLGqF5lZli0ctOY6A/TweetRelatedVideos",
+      "queryId": "QWH1qGLGqF5lZli0ctOY6A",
       "method": "GET",
       "features": {
         "rweb_tipjar_consumption_enabled": true,
