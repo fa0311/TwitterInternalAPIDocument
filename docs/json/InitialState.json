@@ -2061,9 +2061,6 @@
       "sensitive_tweet_warnings_enabled": {
         "value": "true"
       },
-      "settings_revamp_search_bar_enabled": {
-        "value": "false"
-      },
       "shortened_tracking_parameters_mapping": {
         "value": [
           "01:twcamp^share|twsrc^android|twgr^sms",
@@ -4745,9 +4742,6 @@
         "sensitive_tweet_warnings_enabled": {
           "value": "true"
         },
-        "settings_revamp_search_bar_enabled": {
-          "value": "false"
-        },
         "shortened_tracking_parameters_mapping": {
           "value": [
             "01:twcamp^share|twsrc^android|twgr^sms",
@@ -5476,7 +5470,7 @@
       "settingsVersion": "39169fa4f5245a3eaa5e23ec04608e8d"
     },
     "debug": {},
-    "featureSetToken": "f03e3e2dd0c1629e547af80a2ddfeb1417a6cb23",
+    "featureSetToken": "e133be269201f91d0efeaaa967f2a2e1b5d04c1e",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -5546,7 +5540,7 @@
     "country": "XX",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "171563451010828496",
+    "guestId": "171572084698541599",
     "hasCommunityMemberships": "false",
     "language": "en",
     "ssoInitTokens": {},

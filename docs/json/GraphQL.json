@@ -5635,43 +5635,6 @@
     }
   },
   {
-    "n": "72113",
-    "exports": {
-      "queryId": "vbxJq7fg8J_92hVmiTnt3Q",
-      "operationName": "ViewerTeams",
-      "operationType": "query",
-      "metadata": {
-        "featureSwitches": [
-          "rweb_tipjar_consumption_enabled",
-          "responsive_web_graphql_exclude_directive_enabled",
-          "verified_phone_label_enabled",
-          "responsive_web_graphql_skip_user_profile_image_extensions_enabled",
-          "responsive_web_graphql_timeline_navigation_enabled"
-        ],
-        "fieldToggles": [
-          "withAuxiliaryUserLabels"
-        ],
-        "featureSwitch": {
-          "rweb_tipjar_consumption_enabled": {
-            "value": "true"
-          },
-          "responsive_web_graphql_exclude_directive_enabled": {
-            "value": "true"
-          },
-          "verified_phone_label_enabled": {
-            "value": "false"
-          },
-          "responsive_web_graphql_skip_user_profile_image_extensions_enabled": {
-            "value": "false"
-          },
-          "responsive_web_graphql_timeline_navigation_enabled": {
-            "value": "true"
-          }
-        }
-      }
-    }
-  },
-  {
     "n": "66324",
     "exports": {
       "queryId": "bXd9dWP49ldGZAorWYn8dg",
