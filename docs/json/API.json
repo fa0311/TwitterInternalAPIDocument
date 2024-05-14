@@ -1623,18 +1623,6 @@
         "responsive_web_graphql_timeline_navigation_enabled": true
       }
     },
-    "ViewerTeams": {
-      "url": "https://twitter.com/i/api/graphql/vbxJq7fg8J_92hVmiTnt3Q/ViewerTeams",
-      "queryId": "vbxJq7fg8J_92hVmiTnt3Q",
-      "method": "GET",
-      "features": {
-        "rweb_tipjar_consumption_enabled": true,
-        "responsive_web_graphql_exclude_directive_enabled": true,
-        "verified_phone_label_enabled": false,
-        "responsive_web_graphql_skip_user_profile_image_extensions_enabled": false,
-        "responsive_web_graphql_timeline_navigation_enabled": true
-      }
-    },
     "AudioSpaceAddSharing": {
       "url": "https://twitter.com/i/api/graphql/bXd9dWP49ldGZAorWYn8dg/AudioSpaceAddSharing",
       "queryId": "bXd9dWP49ldGZAorWYn8dg",
