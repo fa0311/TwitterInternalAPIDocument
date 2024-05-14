@@ -2153,24 +2153,6 @@ Login Required: `...`<br>
 
 #### queryId<br>
 `None`<br>
-## ViewerTeams<br>
-Request URL: `https://twitter.com/i/api/graphql/vbxJq7fg8J_92hVmiTnt3Q/ViewerTeams`<br>
-Request Method: `GET`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-| key                                                               | type    | variable   |
-|:------------------------------------------------------------------|:--------|:-----------|
-| rweb_tipjar_consumption_enabled                                   | boolean | True       |
-| responsive_web_graphql_exclude_directive_enabled                  | boolean | True       |
-| verified_phone_label_enabled                                      | boolean | False      |
-| responsive_web_graphql_skip_user_profile_image_extensions_enabled | boolean | False      |
-| responsive_web_graphql_timeline_navigation_enabled                | boolean | True       |
-
-#### queryId<br>
-`None`<br>
 ## AudioSpaceAddSharing<br>
 Request URL: `https://twitter.com/i/api/graphql/bXd9dWP49ldGZAorWYn8dg/AudioSpaceAddSharing`<br>
 Request Method: `POST`<br>
