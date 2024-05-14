@@ -1187,33 +1187,33 @@
     "NoMatch": "noMatch"
   },
   {
-    "AU": "()(0,r.j)",
-    "BR": "(\"https://legal.x.com/ads-terms/apac.html\")(0,r.j)",
-    "GB": "(\"https://legal.x.com/ads-terms/brazil.html\")(0,r.j)",
-    "ID": "(\"https://legal.x.com/ads-terms/uk.html\")(0,r.j)",
-    "JP": "(\"https://legal.x.com/ads-terms/indonesia.html\")(0,r.j)",
-    "NZ": "(\"https://legal.x.com/ads-terms/japan.html\")(0,r.j)",
-    "US": "(\"https://legal.x.com/ads-terms/apac.html\")(0,r.j)"
+    "AU": "()(0,r.ju)",
+    "BR": "(\"https://legal.x.com/ads-terms/apac.html\")(0,r.ju)",
+    "GB": "(\"https://legal.x.com/ads-terms/brazil.html\")(0,r.ju)",
+    "ID": "(\"https://legal.x.com/ads-terms/uk.html\")(0,r.ju)",
+    "JP": "(\"https://legal.x.com/ads-terms/indonesia.html\")(0,r.ju)",
+    "NZ": "(\"https://legal.x.com/ads-terms/japan.html\")(0,r.ju)",
+    "US": "(\"https://legal.x.com/ads-terms/apac.html\")(0,r.ju)"
   },
   {
-    "en": "()(0,r.j)",
-    "de": "(\"https://business.x.com/en/campaign/quick-promote-conditional-coupon-terms.html\")(0,r.j)",
-    "es": "(\"https://business.x.com/de/campaign/quick-promote-conditional-coupon-terms.html\")(0,r.j)",
-    "fr": "(\"https://business.x.com/es/campaign/quick-promote-conditional-coupon-terms.html\")(0,r.j)",
-    "ja": "(\"https://business.x.com/fr/campaign/quick-promote-conditional-coupon-terms.html\")(0,r.j)",
-    "pt": "(\"https://business.x.com/ja/campaign/quick-promote-conditional-coupon-terms.html\")(0,r.j)",
-    "ar": "(\"https://business.x.com/pt/campaign/quick-promote-conditional-coupon-terms.html\")(0,r.j)",
-    "zh-cn": "(\"https://business.x.com/ar/campaign/quick-promote-conditional-coupon-terms.html\")(0,r.j)"
+    "en": "()(0,r.ju)",
+    "de": "(\"https://business.x.com/en/campaign/quick-promote-conditional-coupon-terms.html\")(0,r.ju)",
+    "es": "(\"https://business.x.com/de/campaign/quick-promote-conditional-coupon-terms.html\")(0,r.ju)",
+    "fr": "(\"https://business.x.com/es/campaign/quick-promote-conditional-coupon-terms.html\")(0,r.ju)",
+    "ja": "(\"https://business.x.com/fr/campaign/quick-promote-conditional-coupon-terms.html\")(0,r.ju)",
+    "pt": "(\"https://business.x.com/ja/campaign/quick-promote-conditional-coupon-terms.html\")(0,r.ju)",
+    "ar": "(\"https://business.x.com/pt/campaign/quick-promote-conditional-coupon-terms.html\")(0,r.ju)",
+    "zh-cn": "(\"https://business.x.com/ar/campaign/quick-promote-conditional-coupon-terms.html\")(0,r.ju)"
   },
   {
-    "en": "()(0,r.j)",
-    "de": "(\"https://business.x.com/en/campaign/quick-promote-coupon-terms.html\")(0,r.j)",
-    "es": "(\"https://business.x.com/de/campaign/quick-promote-coupon-terms.html\")(0,r.j)",
-    "fr": "(\"https://business.x.com/es/campaign/quick-promote-coupon-terms.html\")(0,r.j)",
-    "ja": "(\"https://business.x.com/fr/campaign/quick-promote-coupon-terms.html\")(0,r.j)",
-    "pt": "(\"https://business.x.com/ja/campaign/quick-promote-coupon-terms.html\")(0,r.j)",
-    "ar": "(\"https://business.x.com/pt/campaign/quick-promote-coupon-terms.html\")(0,r.j)",
-    "zh-cn": "(\"https://business.x.com/ar/campaign/quick-promote-coupon-terms.html\")(0,r.j)"
+    "en": "()(0,r.ju)",
+    "de": "(\"https://business.x.com/en/campaign/quick-promote-coupon-terms.html\")(0,r.ju)",
+    "es": "(\"https://business.x.com/de/campaign/quick-promote-coupon-terms.html\")(0,r.ju)",
+    "fr": "(\"https://business.x.com/es/campaign/quick-promote-coupon-terms.html\")(0,r.ju)",
+    "ja": "(\"https://business.x.com/fr/campaign/quick-promote-coupon-terms.html\")(0,r.ju)",
+    "pt": "(\"https://business.x.com/ja/campaign/quick-promote-coupon-terms.html\")(0,r.ju)",
+    "ar": "(\"https://business.x.com/pt/campaign/quick-promote-coupon-terms.html\")(0,r.ju)",
+    "zh-cn": "(\"https://business.x.com/ar/campaign/quick-promote-coupon-terms.html\")(0,r.ju)"
   },
   {
     "All": "all",
