@@ -4726,7 +4726,7 @@
           "value": "true"
         },
         "settings_revamp_search_bar_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "shortened_tracking_parameters_mapping": {
           "value": [
@@ -5453,7 +5453,7 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "5d7cd1d205264ae6d0d99954f36ce688"
+      "settingsVersion": "02e11231684ceb199162d6ad67cdbb9b"
     },
     "debug": {},
     "featureSetToken": "84401e6c9f154229923bf64d915e434d1842a3de",
@@ -5526,7 +5526,7 @@
     "country": "XX",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "171563589374374844",
+    "guestId": "171572228668746152",
     "hasCommunityMemberships": "false",
     "language": "en",
     "ssoInitTokens": {},
