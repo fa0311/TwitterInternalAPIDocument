@@ -31,12 +31,16 @@ class twitter_home:
     def get_home(self):
         legacy = self.session.get(self.TWITTER_HOME, headers=self.get_header())
         migrate_script = self.get_script(legacy.text)
-        migrate_url = re.search(r'document\.location = "(.*?)"', migrate_script[0]).group(1)
-        redirect = self.session.get(migrate_url, headers=self.get_header())
-        
-        migrate_url = re.search(r'<form action="(.*?)"', redirect.text).group(1)
-        params = dict(re.findall(r'<input type="hidden" name="(.*?)" value="(.*?)" />', redirect.text))
-        self.response = self.session.post(migrate_url, headers=self.get_header(), json=params)
+
+        if self.CLIENT == "responsive-web":
+            migrate_url = re.search(r'document\.location = "(.*?)"', migrate_script[0]).group(1)
+            redirect = self.session.get(migrate_url, headers=self.get_header())
+            
+            migrate_url = re.search(r'<form action="(.*?)"', redirect.text).group(1)
+            params = dict(re.findall(r'<input type="hidden" name="(.*?)" value="(.*?)" />', redirect.text))
+            self.response = self.session.post(migrate_url, headers=self.get_header(), json=params)
+        else:
+            self.response = legacy
 
     def get_header(self):
         return {"User-Agent": self.user_agent}
