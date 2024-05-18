@@ -514,14 +514,8 @@
       "c9s_tab_visibility": {
         "value": "always"
       },
-      "c9s_timelines_default_selection": {
-        "value": "latest"
-      },
       "c9s_timelines_media_tab_enabled": {
         "value": "true"
-      },
-      "c9s_timelines_top_latest_stickiness_enabled": {
-        "value": "false"
       },
       "c9s_tweet_anatomy_moderator_badge_enabled": {
         "value": "true"
@@ -1022,9 +1016,6 @@
         "value": "512"
       },
       "media_edge_to_edge_content_enabled": {
-        "value": "false"
-      },
-      "media_visibility_treatments_blurred_media_interstitial_enabled": {
         "value": "false"
       },
       "network_layer_503_backoff_mode": {
@@ -1888,6 +1879,9 @@
       "responsive_web_video_trimmer_enabled": {
         "value": "false"
       },
+      "responsive_web_vo_annual_credit_increase_enabled": {
+        "value": "true"
+      },
       "responsive_web_x_translation_enabled": {
         "value": "false"
       },
@@ -2660,16 +2654,10 @@
       "tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled": {
         "value": "true"
       },
-      "tweet_with_visibility_results_prefer_gql_media_interstitial_enabled": {
-        "value": "true"
-      },
       "tweetypie_unmention_optimization_enabled": {
         "value": "true"
       },
       "twitter_chat_communities_chat_enabled": {
-        "value": "false"
-      },
-      "twitter_delegate_enabled": {
         "value": "false"
       },
       "twitter_delegate_normal_limit": {
@@ -3195,14 +3183,8 @@
         "c9s_tab_visibility": {
           "value": "always"
         },
-        "c9s_timelines_default_selection": {
-          "value": "latest"
-        },
         "c9s_timelines_media_tab_enabled": {
           "value": "true"
-        },
-        "c9s_timelines_top_latest_stickiness_enabled": {
-          "value": "false"
         },
         "c9s_tweet_anatomy_moderator_badge_enabled": {
           "value": "true"
@@ -3703,9 +3685,6 @@
           "value": "512"
         },
         "media_edge_to_edge_content_enabled": {
-          "value": "false"
-        },
-        "media_visibility_treatments_blurred_media_interstitial_enabled": {
           "value": "false"
         },
         "network_layer_503_backoff_mode": {
@@ -4569,6 +4548,9 @@
         "responsive_web_video_trimmer_enabled": {
           "value": "false"
         },
+        "responsive_web_vo_annual_credit_increase_enabled": {
+          "value": "true"
+        },
         "responsive_web_x_translation_enabled": {
           "value": "false"
         },
@@ -5341,16 +5323,10 @@
         "tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled": {
           "value": "true"
         },
-        "tweet_with_visibility_results_prefer_gql_media_interstitial_enabled": {
-          "value": "true"
-        },
         "tweetypie_unmention_optimization_enabled": {
           "value": "true"
         },
         "twitter_chat_communities_chat_enabled": {
-          "value": "false"
-        },
-        "twitter_delegate_enabled": {
           "value": "false"
         },
         "twitter_delegate_normal_limit": {
@@ -5470,7 +5446,7 @@
       "settingsVersion": "39169fa4f5245a3eaa5e23ec04608e8d"
     },
     "debug": {},
-    "featureSetToken": "e133be269201f91d0efeaaa967f2a2e1b5d04c1e",
+    "featureSetToken": "82eb9ffcd6e113dfda7a861cacc89754befa509b",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -5540,7 +5516,7 @@
     "country": "XX",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "171589370895052218",
+    "guestId": "171605143330856510",
     "hasCommunityMemberships": "false",
     "language": "en",
     "ssoInitTokens": {},
