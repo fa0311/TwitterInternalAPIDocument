@@ -3,7 +3,7 @@ import re
 
 
 class twitter_home:
-    TWITTER_HOME = "https://twitter.com/home"
+    TWITTER_HOME = "https://x.com/home"
     CLIENT = "responsive-web"
     LATEST_USER_AGENT = "https://raw.githubusercontent.com/fa0311/latest-user-agent/main/output.json"
     TWITTER_FRONTEND_FLOW = False
@@ -29,7 +29,14 @@ class twitter_home:
         flow.LoadCookies(file_path)
 
     def get_home(self):
-        self.response = self.session.get(self.TWITTER_HOME, headers=self.get_header())
+        legacy = self.session.get(self.TWITTER_HOME, headers=self.get_header())
+        migrate_script = self.get_script(legacy.text)
+        migrate_url = re.search(r'document\.location = "(.*?)"', migrate_script[0]).group(1)
+        redirect = self.session.get(migrate_url, headers=self.get_header())
+        
+        migrate_url = re.search(r'<form action="(.*?)"', redirect.text).group(1)
+        params = dict(re.findall(r'<input type="hidden" name="(.*?)" value="(.*?)" />', redirect.text))
+        self.response = self.session.post(migrate_url, headers=self.get_header(), json=params)
 
     def get_header(self):
         return {"User-Agent": self.user_agent}
@@ -43,17 +50,23 @@ class twitter_home:
             src=src,
         )
         return [url[1] for url in re.findall(reg_script, self.response.text)]
+    
 
-    def get_script(self) -> list[str]:
+
+    def get_script(self,response:str) -> list[str]:
         reg_script = '<script type="text/javascript" charset="utf-8" nonce="{nonce}">{any}</script>'.format(
             nonce="([a-zA-Z0-9]{48})",
             any="([\s\S]*?)",
         )
-        return [script[1] for script in re.findall(reg_script, self.response.text)]
+        return [script[1] for script in re.findall(reg_script, response)]
+    
+    def get_script_res(self) -> list[str]:
+        return self.get_script(self.response.text)
+
 
 
 class twitter_deck(twitter_home):
-    TWITTER_HOME = "https://tweetdeck.twitter.com"
+    TWITTER_HOME = "https://tweetdeck.x.com"
     CLIENT = "gryphon-client"
 
 

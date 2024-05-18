@@ -10,9 +10,9 @@ from tqdm import tqdm
 def get_dispatch_list():
     method_list = ["get", "post", "delete", "put"]
     url_list = [
-        ("", "https://api.twitter.com/1.1/{queryId}.json"),
-        ("I", "https://twitter.com/i/api/1.1/{queryId}.json"),
-        ("URT", "https://twitter.com/i/api/2/{queryId}.json"),
+        ("", "https://api.x.com/1.1/{queryId}.json"),
+        ("I", "https://x.com/i/api/1.1/{queryId}.json"),
+        ("URT", "https://x.com/i/api/2/{queryId}.json"),
         ("Unversioned", "Unversioned"),
     ]
 

@@ -54,7 +54,7 @@ if twitter_home.TWITTER_FRONTEND_FLOW and os.path.isfile("cookie.json"):
 twitter.get_home()
 
 
-script = "".join(twitter.get_script())
+script = "".join(twitter.get_script_res())
 parsed_script_list = js(script).parser()
 src = twitter.get_script_url()
 i18n_src = {}

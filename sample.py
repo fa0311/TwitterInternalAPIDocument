@@ -12,10 +12,10 @@ api = requests.get(
 headers = api["header"]
 session = requests.session()
 session.get(
-    "https://developer.twitter.com", headers={"User-Agent": headers["User-Agent"]}
+    "https://developer.x.com", headers={"User-Agent": headers["User-Agent"]}
 )
 x_guest_token = session.post(
-    "https://api.twitter.com/1.1/guest/activate.json", headers=headers
+    "https://api.x.com/1.1/guest/activate.json", headers=headers
 ).json()["guest_token"]
 
 # <Recommendation> You can also use TwitterFrontendFlow
@@ -58,7 +58,7 @@ parameters = {
     "features": json.dumps(data["features"]),
 }
 
-data["url"] = "https://twitter.com/i/api/graphql/oPHs3ydu7ZOOy2f02soaPA/UserTweets"
+data["url"] = "https://x.com/i/api/graphql/oPHs3ydu7ZOOy2f02soaPA/UserTweets"
 
 
 if data["method"] == "GET":
