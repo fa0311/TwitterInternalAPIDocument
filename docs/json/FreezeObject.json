@@ -198,24 +198,24 @@
     "Top": "top"
   },
   {
+    "More": "0",
     "Home": "1",
     "Explore": "2",
-    "Premium": "3",
+    "Communities": "3",
     "Grok": "4",
     "Messages": "5",
     "Notifications": "6",
-    "Lists": "8",
-    "Bookmarks": "14",
-    "VerifiedOrgDash": "10",
-    "Communities": "13",
-    "Articles": "15",
-    "VerifiedOrgSignup": "16",
     "Profile": "7",
-    "Spaces": "17",
+    "Premium": "8",
     "CommunityNotes": "9",
-    "Verified": "12",
-    "More": "0",
-    "Settings": "18"
+    "VerifiedOrgDash": "10",
+    "Verified": "11",
+    "Spaces": "12",
+    "Bookmarks": "13",
+    "Articles": "14",
+    "VerifiedOrgSignup": "15",
+    "Lists": "16",
+    "Settings": "17"
   },
   {
     "Apple": "apple",
@@ -1848,8 +1848,8 @@
     "space80": "h(m.spaces.space72)"
   },
   {
-    "appBarHeight": "T",
-    "appBarHeightPx": "_",
+    "appBarHeight": "_",
+    "appBarHeightPx": "T",
     "conversationLineWidth": "M.space2",
     "gutterHorizontal": "w.space16",
     "gutterHorizontalPx": "M.space16",
@@ -3985,7 +3985,7 @@
   {
     "transparent": "transparent"
   },
-  "{[z.v.FOLLOWS]:\"U\",[z.v.FRIENDS_OF_FRIENDS]:\"V\"}",
+  "{[M.v.FOLLOWS]:\"Q\",[M.v.FRIENDS_OF_FRIENDS]:\"U\"}",
   {
     "Default": "Default",
     "Pivot": "Pivot",
