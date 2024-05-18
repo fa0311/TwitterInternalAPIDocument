@@ -5,7 +5,7 @@
     "dispatch": [
       "get",
       "URT",
-      "https://twitter.com/i/api/2/{queryId}.json"
+      "https://x.com/i/api/2/{queryId}.json"
     ]
   },
   {
@@ -14,7 +14,7 @@
     "dispatch": [
       "get",
       "URT",
-      "https://twitter.com/i/api/2/{queryId}.json"
+      "https://x.com/i/api/2/{queryId}.json"
     ]
   },
   {
@@ -23,7 +23,7 @@
     "dispatch": [
       "post",
       "URT",
-      "https://twitter.com/i/api/2/{queryId}.json"
+      "https://x.com/i/api/2/{queryId}.json"
     ]
   },
   {
@@ -32,7 +32,7 @@
     "dispatch": [
       "get",
       "URT",
-      "https://twitter.com/i/api/2/{queryId}.json"
+      "https://x.com/i/api/2/{queryId}.json"
     ]
   },
   {
@@ -41,7 +41,7 @@
     "dispatch": [
       "get",
       "URT",
-      "https://twitter.com/i/api/2/{queryId}.json"
+      "https://x.com/i/api/2/{queryId}.json"
     ]
   },
   {
@@ -50,7 +50,7 @@
     "dispatch": [
       "get",
       "URT",
-      "https://twitter.com/i/api/2/{queryId}.json"
+      "https://x.com/i/api/2/{queryId}.json"
     ]
   },
   {
@@ -59,7 +59,7 @@
     "dispatch": [
       "get",
       "URT",
-      "https://twitter.com/i/api/2/{queryId}.json"
+      "https://x.com/i/api/2/{queryId}.json"
     ]
   },
   {
@@ -68,7 +68,7 @@
     "dispatch": [
       "get",
       "URT",
-      "https://twitter.com/i/api/2/{queryId}.json"
+      "https://x.com/i/api/2/{queryId}.json"
     ]
   },
   {
@@ -77,7 +77,7 @@
     "dispatch": [
       "get",
       "URT",
-      "https://twitter.com/i/api/2/{queryId}.json"
+      "https://x.com/i/api/2/{queryId}.json"
     ]
   },
   {
@@ -86,7 +86,7 @@
     "dispatch": [
       "get",
       "URT",
-      "https://twitter.com/i/api/2/{queryId}.json"
+      "https://x.com/i/api/2/{queryId}.json"
     ]
   },
   {
@@ -95,7 +95,7 @@
     "dispatch": [
       "get",
       "URT",
-      "https://twitter.com/i/api/2/{queryId}.json"
+      "https://x.com/i/api/2/{queryId}.json"
     ]
   },
   {
@@ -104,7 +104,7 @@
     "dispatch": [
       "get",
       "URT",
-      "https://twitter.com/i/api/2/{queryId}.json"
+      "https://x.com/i/api/2/{queryId}.json"
     ]
   }
 ]
