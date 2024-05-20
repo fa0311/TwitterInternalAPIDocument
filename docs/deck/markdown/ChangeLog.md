@@ -2481,3 +2481,25 @@
 - responsive_web_twitter_article_insert_enabled<br>
 - subscriptions_feature_can_hide_checkmark<br>
 - subscriptions_marketing_page_redesign_enabled<br>
+## 2024/05/20<br>
+### API<br>
+#### add<br>
+- BirdwatchFetchNoteTranslation<br>
+#### remove<br>
+- ViewerTeams<br>
+### Feature Switch<br>
+#### add<br>
+- communities_analytics_enabled<br>
+- responsive_web_birdwatch_translation_enabled<br>
+- responsive_web_exodus_enabled<br>
+- responsive_web_messages_related_preview_enabled<br>
+- responsive_web_tv_cast_enabled<br>
+- responsive_web_vo_annual_credit_increase_enabled<br>
+#### remove<br>
+- c9s_timelines_default_selection<br>
+- c9s_timelines_top_latest_stickiness_enabled<br>
+- media_visibility_treatments_blurred_media_interstitial_enabled<br>
+- rweb_home_compact_inline_composer_enabled<br>
+- settings_revamp_search_bar_enabled<br>
+- tweet_with_visibility_results_prefer_gql_media_interstitial_enabled<br>
+- twitter_delegate_enabled<br>
