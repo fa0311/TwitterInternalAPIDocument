@@ -3542,3 +3542,14 @@
 - media_visibility_treatments_blurred_media_interstitial_enabled<br>
 - tweet_with_visibility_results_prefer_gql_media_interstitial_enabled<br>
 - twitter_delegate_enabled<br>
+## 2024/05/20<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- rweb_home_compact_inline_composer_enabled<br>
