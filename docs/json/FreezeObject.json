@@ -1848,8 +1848,8 @@
     "space80": "h(m.spaces.space72)"
   },
   {
-    "appBarHeight": "_",
-    "appBarHeightPx": "T",
+    "appBarHeight": "T",
+    "appBarHeightPx": "_",
     "conversationLineWidth": "M.space2",
     "gutterHorizontal": "w.space16",
     "gutterHorizontalPx": "M.space16",
@@ -3267,7 +3267,7 @@
     "FocalTweet": "FocalTweet"
   },
   {
-    "...t": "_",
+    "...d": "_",
     "CondensedTweet": "CondensedTweet",
     "DeprecatedMediaFocus": "DeprecatedMediaFocus",
     "EmphasizedPromotedTweet": "EmphasizedPromotedTweet",
@@ -3330,13 +3330,13 @@
     "LikedByAuthor": "liked-by-author"
   },
   {
-    "see_more": "w().ffd9cfe6",
-    "discover_more": "w().d172116a",
-    "more": "w().h63a5c3c",
-    "more_tweets": "w().be5df69e",
-    "more_suggestions": "w().g11ebd34",
-    "browse": "w().g4a6901a",
-    "browse_tweets": "w().h6453e74"
+    "see_more": "E().ffd9cfe6",
+    "discover_more": "E().d172116a",
+    "more": "E().h63a5c3c",
+    "more_tweets": "E().be5df69e",
+    "more_suggestions": "E().g11ebd34",
+    "browse": "E().g4a6901a",
+    "browse_tweets": "E().h6453e74"
   },
   {
     "EmptyState": "EmptyState",
@@ -3985,7 +3985,7 @@
   {
     "transparent": "transparent"
   },
-  "{[M.v.FOLLOWS]:\"Q\",[M.v.FRIENDS_OF_FRIENDS]:\"U\"}",
+  "{[z.v.FOLLOWS]:\"B\",[z.v.FRIENDS_OF_FRIENDS]:\"U\"}",
   {
     "Default": "Default",
     "Pivot": "Pivot",
@@ -4495,8 +4495,8 @@
     "FAILURE": "rweb/availableLanguages/FETCH_AVAILABLE_LANGUAGES_FAILURE"
   },
   {
-    "MARKDOWN": "oa",
-    "PREVIEW": "sa"
+    "MARKDOWN": "sa",
+    "PREVIEW": "ca"
   },
   {
     "Public": "Public",
