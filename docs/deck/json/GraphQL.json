@@ -2,7 +2,7 @@
   {
     "n": "70883",
     "exports": {
-      "queryId": "BB0pxqtXgemR_AgrGhe4pA",
+      "queryId": "hfdnYgOA6tG4fF_6gKDEXg",
       "operationName": "AiTrendByRestId",
       "operationType": "query",
       "metadata": {
@@ -35,6 +35,7 @@
         "fieldToggles": [
           "withArticleRichContentState",
           "withArticlePlainText",
+          "withGrokAnalyze",
           "withAuxiliaryUserLabels"
         ],
         "featureSwitch": {
@@ -195,7 +196,7 @@
   {
     "n": "20090",
     "exports": {
-      "queryId": "dNoJPVzyST-SELg82IaNZg",
+      "queryId": "T7tvkBr0HljBxicvuU291A",
       "operationName": "BlockedAccountsAll",
       "operationType": "query",
       "metadata": {
@@ -228,7 +229,8 @@
         "fieldToggles": [
           "withAuxiliaryUserLabels",
           "withArticleRichContentState",
-          "withArticlePlainText"
+          "withArticlePlainText",
+          "withGrokAnalyze"
         ],
         "featureSwitch": {
           "rweb_tipjar_consumption_enabled": {
@@ -310,7 +312,7 @@
   {
     "n": "54729",
     "exports": {
-      "queryId": "977493dvJmThQoCwfsdMFw",
+      "queryId": "GFyoZXugzJLX06TDz2KRlQ",
       "operationName": "BlockedAccountsAutoBlock",
       "operationType": "query",
       "metadata": {
@@ -343,7 +345,8 @@
         "fieldToggles": [
           "withAuxiliaryUserLabels",
           "withArticleRichContentState",
-          "withArticlePlainText"
+          "withArticlePlainText",
+          "withGrokAnalyze"
         ],
         "featureSwitch": {
           "rweb_tipjar_consumption_enabled": {
@@ -425,7 +428,7 @@
   {
     "n": "11683",
     "exports": {
-      "queryId": "W-5bSCdu_6ZvYhKL7PjkXQ",
+      "queryId": "HXgKkbrXej-XAQZ2keVgDA",
       "operationName": "BlockedAccountsImported",
       "operationType": "query",
       "metadata": {
@@ -458,7 +461,8 @@
         "fieldToggles": [
           "withAuxiliaryUserLabels",
           "withArticleRichContentState",
-          "withArticlePlainText"
+          "withArticlePlainText",
+          "withGrokAnalyze"
         ],
         "featureSwitch": {
           "rweb_tipjar_consumption_enabled": {
@@ -540,7 +544,7 @@
   {
     "n": "54052",
     "exports": {
-      "queryId": "PXq50ZxHfvNoSRii4oY5jg",
+      "queryId": "PQnZyq-GvrROJjtWuJvJ6Q",
       "operationName": "BlueVerifiedFollowers",
       "operationType": "query",
       "metadata": {
@@ -573,7 +577,8 @@
         "fieldToggles": [
           "withAuxiliaryUserLabels",
           "withArticleRichContentState",
-          "withArticlePlainText"
+          "withArticlePlainText",
+          "withGrokAnalyze"
         ],
         "featureSwitch": {
           "rweb_tipjar_consumption_enabled": {
@@ -655,7 +660,7 @@
   {
     "n": "16201",
     "exports": {
-      "queryId": "djRChx_7ETi2v8qmqtVLig",
+      "queryId": "HMuG9iPnHf84u-2L4sxk4w",
       "operationName": "BookmarkFolderTimeline",
       "operationType": "query",
       "metadata": {
@@ -688,7 +693,8 @@
         "fieldToggles": [
           "withAuxiliaryUserLabels",
           "withArticleRichContentState",
-          "withArticlePlainText"
+          "withArticlePlainText",
+          "withGrokAnalyze"
         ],
         "featureSwitch": {
           "rweb_tipjar_consumption_enabled": {
@@ -796,7 +802,7 @@
   {
     "n": "08330",
     "exports": {
-      "queryId": "dLFifLCEpwKWXAuWXoBgmw",
+      "queryId": "UyNF_BgJ5d5MbtuVukyl7A",
       "operationName": "Bookmarks",
       "operationType": "query",
       "metadata": {
@@ -830,7 +836,8 @@
         "fieldToggles": [
           "withAuxiliaryUserLabels",
           "withArticleRichContentState",
-          "withArticlePlainText"
+          "withArticlePlainText",
+          "withGrokAnalyze"
         ],
         "featureSwitch": {
           "graphql_timeline_v2_bookmark_timeline": {
@@ -915,7 +922,7 @@
   {
     "n": "70121",
     "exports": {
-      "queryId": "8EqdwOsRY04SaznQRbZYyA",
+      "queryId": "abYOw-mj_ezlBXwctfmYIQ",
       "operationName": "BroadcastQuery",
       "operationType": "query",
       "metadata": {
@@ -948,6 +955,7 @@
         "fieldToggles": [
           "withArticleRichContentState",
           "withArticlePlainText",
+          "withGrokAnalyze",
           "withAuxiliaryUserLabels"
         ],
         "featureSwitch": {
@@ -1030,7 +1038,7 @@
   {
     "n": "21206",
     "exports": {
-      "queryId": "8Jv68NLmyT1VqVdppf6slg",
+      "queryId": "77xxGXdST0Fm2U8TMvGeXQ",
       "operationName": "CombinedLists",
       "operationType": "query",
       "metadata": {
@@ -1063,7 +1071,8 @@
         "fieldToggles": [
           "withAuxiliaryUserLabels",
           "withArticleRichContentState",
-          "withArticlePlainText"
+          "withArticlePlainText",
+          "withGrokAnalyze"
         ],
         "featureSwitch": {
           "rweb_tipjar_consumption_enabled": {
@@ -1145,7 +1154,7 @@
   {
     "n": "18561",
     "exports": {
-      "queryId": "lNVP9D4OZ3s4RrD3UBhgHw",
+      "queryId": "9KUFz7JwBZ1kYd6c9tBetQ",
       "operationName": "CommunitiesExploreTimeline",
       "operationType": "query",
       "metadata": {
@@ -1178,7 +1187,8 @@
         "fieldToggles": [
           "withAuxiliaryUserLabels",
           "withArticleRichContentState",
-          "withArticlePlainText"
+          "withArticlePlainText",
+          "withGrokAnalyze"
         ],
         "featureSwitch": {
           "rweb_tipjar_consumption_enabled": {
@@ -1260,7 +1270,7 @@
   {
     "n": "83471",
     "exports": {
-      "queryId": "fFmX2EyjdqlkNcVtz6H3XQ",
+      "queryId": "5Ypz3s0wgDc0lFedzdlxpA",
       "operationName": "CommunitiesMainDiscoveryModule",
       "operationType": "query",
       "metadata": {
@@ -1293,7 +1303,8 @@
         "fieldToggles": [
           "withAuxiliaryUserLabels",
           "withArticleRichContentState",
-          "withArticlePlainText"
+          "withArticlePlainText",
+          "withGrokAnalyze"
         ],
         "featureSwitch": {
           "rweb_tipjar_consumption_enabled": {
@@ -1375,7 +1386,7 @@
   {
     "n": "99635",
     "exports": {
-      "queryId": "kLhQNSeg75BC7d89Zvhexw",
+      "queryId": "P5rzTFYmEg0hNRtNy-zXPQ",
       "operationName": "CommunitiesMainPageTimeline",
       "operationType": "query",
       "metadata": {
@@ -1408,7 +1419,8 @@
         "fieldToggles": [
           "withAuxiliaryUserLabels",
           "withArticleRichContentState",
-          "withArticlePlainText"
+          "withArticlePlainText",
+          "withGrokAnalyze"
         ],
         "featureSwitch": {
           "rweb_tipjar_consumption_enabled": {
@@ -1527,7 +1539,7 @@
   {
     "n": "94565",
     "exports": {
-      "queryId": "bJMyOVd8dDleGOYbT6Fyzg",
+      "queryId": "ZV9MTNjNYp7OA81R_MplHg",
       "operationName": "CommunitiesMembershipsTimeline",
       "operationType": "query",
       "metadata": {
@@ -1560,7 +1572,8 @@
         "fieldToggles": [
           "withAuxiliaryUserLabels",
           "withArticleRichContentState",
-          "withArticlePlainText"
+          "withArticlePlainText",
+          "withGrokAnalyze"
         ],
         "featureSwitch": {
           "rweb_tipjar_consumption_enabled": {
@@ -1642,7 +1655,7 @@
   {
     "n": "27252",
     "exports": {
-      "queryId": "wcKgR3JPwO_7O8HBYtbApg",
+      "queryId": "iHtboWpdM_AVtsxVAM0dEQ",
       "operationName": "CommunityAboutTimeline",
       "operationType": "query",
       "metadata": {
@@ -1675,7 +1688,8 @@
         "fieldToggles": [
           "withAuxiliaryUserLabels",
           "withArticleRichContentState",
-          "withArticlePlainText"
+          "withArticlePlainText",
+          "withGrokAnalyze"
         ],
         "featureSwitch": {
           "rweb_tipjar_consumption_enabled": {
@@ -1831,7 +1845,7 @@
   {
     "n": "87741",
     "exports": {
-      "queryId": "nouIWPoVhUp_tiUplhhllQ",
+      "queryId": "chtRSkyYHzEwtSwog0xnmQ",
       "operationName": "CommunityDiscoveryTimeline",
       "operationType": "query",
       "metadata": {
@@ -1864,7 +1878,8 @@
         "fieldToggles": [
           "withAuxiliaryUserLabels",
           "withArticleRichContentState",
-          "withArticlePlainText"
+          "withArticlePlainText",
+          "withGrokAnalyze"
         ],
         "featureSwitch": {
           "rweb_tipjar_consumption_enabled": {
@@ -2168,7 +2183,7 @@
   {
     "n": "32989",
     "exports": {
-      "queryId": "1Ty__dFMcFz0CNVXOQ1jDg",
+      "queryId": "HOUOusnuz3wcva8JmFKPyw",
       "operationName": "CommunityHashtagsTimeline",
       "operationType": "query",
       "metadata": {
@@ -2201,7 +2216,8 @@
         "fieldToggles": [
           "withAuxiliaryUserLabels",
           "withArticleRichContentState",
-          "withArticlePlainText"
+          "withArticlePlainText",
+          "withGrokAnalyze"
         ],
         "featureSwitch": {
           "rweb_tipjar_consumption_enabled": {
@@ -2357,7 +2373,7 @@
   {
     "n": "27868",
     "exports": {
-      "queryId": "UeRuLmSnGsXk__bs86utXA",
+      "queryId": "YdQWDumUviziXQ0goMF7_g",
       "operationName": "CommunityMediaLoggedOutTimeline",
       "operationType": "query",
       "metadata": {
@@ -2390,7 +2406,8 @@
         "fieldToggles": [
           "withAuxiliaryUserLabels",
           "withArticleRichContentState",
-          "withArticlePlainText"
+          "withArticlePlainText",
+          "withGrokAnalyze"
         ],
         "featureSwitch": {
           "rweb_tipjar_consumption_enabled": {
@@ -2472,7 +2489,7 @@
   {
     "n": "24011",
     "exports": {
-      "queryId": "qrHDrwrtXpKvYCkrmCUGSg",
+      "queryId": "8FyRxWIKiChVPUqtG2edNA",
       "operationName": "CommunityMediaTimeline",
       "operationType": "query",
       "metadata": {
@@ -2505,7 +2522,8 @@
         "fieldToggles": [
           "withAuxiliaryUserLabels",
           "withArticleRichContentState",
-          "withArticlePlainText"
+          "withArticlePlainText",
+          "withGrokAnalyze"
         ],
         "featureSwitch": {
           "rweb_tipjar_consumption_enabled": {
@@ -2645,7 +2663,7 @@
   {
     "n": "28166",
     "exports": {
-      "queryId": "-o2vUqW3zSDhZjg0zlNhUg",
+      "queryId": "iC5oDeZ5snKGgpQSUEs4oA",
       "operationName": "CommunityModerationTweetCasesSlice",
       "operationType": "query",
       "metadata": {
@@ -2678,6 +2696,7 @@
         "fieldToggles": [
           "withArticleRichContentState",
           "withArticlePlainText",
+          "withGrokAnalyze",
           "withAuxiliaryUserLabels"
         ],
         "featureSwitch": {
@@ -2908,7 +2927,7 @@
   {
     "n": "01773",
     "exports": {
-      "queryId": "3A8d6MxkALDAndejoPrrmQ",
+      "queryId": "G-nPc_7o9v5zkZlDhuIY4Q",
       "operationName": "CommunityTweetsLoggedOutTimeline",
       "operationType": "query",
       "metadata": {
@@ -2941,7 +2960,8 @@
         "fieldToggles": [
           "withAuxiliaryUserLabels",
           "withArticleRichContentState",
-          "withArticlePlainText"
+          "withArticlePlainText",
+          "withGrokAnalyze"
         ],
         "featureSwitch": {
           "rweb_tipjar_consumption_enabled": {
@@ -3023,7 +3043,7 @@
   {
     "n": "20558",
     "exports": {
-      "queryId": "-CatU5q4HSZTkxDE_MZaWQ",
+      "queryId": "KMl8WAZAtYqCUqfl_D4sxQ",
       "operationName": "CommunityTweetsRankedLoggedOutTimeline",
       "operationType": "query",
       "metadata": {
@@ -3056,7 +3076,8 @@
         "fieldToggles": [
           "withAuxiliaryUserLabels",
           "withArticleRichContentState",
-          "withArticlePlainText"
+          "withArticlePlainText",
+          "withGrokAnalyze"
         ],
         "featureSwitch": {
           "rweb_tipjar_consumption_enabled": {
@@ -3138,7 +3159,7 @@
   {
     "n": "60696",
     "exports": {
-      "queryId": "GBjY5VuCdQTS6CJ6GDiATA",
+      "queryId": "lUSa0HV4tSNcJdlBqfBXaw",
       "operationName": "CommunityTweetsTimeline",
       "operationType": "query",
       "metadata": {
@@ -3171,7 +3192,8 @@
         "fieldToggles": [
           "withAuxiliaryUserLabels",
           "withArticleRichContentState",
-          "withArticlePlainText"
+          "withArticlePlainText",
+          "withGrokAnalyze"
         ],
         "featureSwitch": {
           "rweb_tipjar_consumption_enabled": {
@@ -3332,7 +3354,7 @@
   {
     "n": "00993",
     "exports": {
-      "queryId": "sZHAR34GFtrriZr9Th7ZiA",
+      "queryId": "RLwfue7GY_kKYkQ6d8tKqA",
       "operationName": "ConnectTabTimeline",
       "operationType": "query",
       "metadata": {
@@ -3365,7 +3387,8 @@
         "fieldToggles": [
           "withAuxiliaryUserLabels",
           "withArticleRichContentState",
-          "withArticlePlainText"
+          "withArticlePlainText",
+          "withGrokAnalyze"
         ],
         "featureSwitch": {
           "rweb_tipjar_consumption_enabled": {
@@ -3525,7 +3548,7 @@
   {
     "n": "69585",
     "exports": {
-      "queryId": "-OSwhhWYmhr07SICMQ301g",
+      "queryId": "AeGhOs6NT4w5_bCW5jBQJw",
       "operationName": "CreateNoteTweet",
       "operationType": "mutation",
       "metadata": {
@@ -3557,6 +3580,7 @@
         "fieldToggles": [
           "withArticleRichContentState",
           "withArticlePlainText",
+          "withGrokAnalyze",
           "withAuxiliaryUserLabels"
         ],
         "featureSwitch": {
@@ -3675,7 +3699,7 @@
   {
     "n": "41165",
     "exports": {
-      "queryId": "BTWYQFqX-WbKZOhykzDpRg",
+      "queryId": "31-6kYrWwW7ZqHmLu2mm9w",
       "operationName": "CreateTweet",
       "operationType": "mutation",
       "metadata": {
@@ -3707,6 +3731,7 @@
         "fieldToggles": [
           "withArticleRichContentState",
           "withArticlePlainText",
+          "withGrokAnalyze",
           "withAuxiliaryUserLabels"
         ],
         "featureSwitch": {
@@ -3786,7 +3811,7 @@
   {
     "n": "21487",
     "exports": {
-      "queryId": "WZuUqbnIoBHVPpUAm_D50g",
+      "queryId": "qOEQSTnTzniY_g6l3zAyUg",
       "operationName": "CreatorSubscriptionsTimeline",
       "operationType": "query",
       "metadata": {
@@ -3819,7 +3844,8 @@
         "fieldToggles": [
           "withAuxiliaryUserLabels",
           "withArticleRichContentState",
-          "withArticlePlainText"
+          "withArticlePlainText",
+          "withGrokAnalyze"
         ],
         "featureSwitch": {
           "rweb_tipjar_consumption_enabled": {
@@ -4109,7 +4135,7 @@
   {
     "n": "07979",
     "exports": {
-      "queryId": "sfoq0dMg3TG7aSqQP_daxg",
+      "queryId": "R0kvCBXOGFwn-r0qM3ztKA",
       "operationName": "ExplorePage",
       "operationType": "query",
       "metadata": {
@@ -4142,7 +4168,8 @@
         "fieldToggles": [
           "withAuxiliaryUserLabels",
           "withArticleRichContentState",
-          "withArticlePlainText"
+          "withArticlePlainText",
+          "withGrokAnalyze"
         ],
         "featureSwitch": {
           "rweb_tipjar_consumption_enabled": {
@@ -4224,7 +4251,7 @@
   {
     "n": "26882",
     "exports": {
-      "queryId": "QCitS0b0g3Q2bRWUxq5R5Q",
+      "queryId": "2Q-p4on9qKa4tTtMjlKvmA",
       "operationName": "ExploreSidebar",
       "operationType": "query",
       "metadata": {
@@ -4257,7 +4284,8 @@
         "fieldToggles": [
           "withAuxiliaryUserLabels",
           "withArticleRichContentState",
-          "withArticlePlainText"
+          "withArticlePlainText",
+          "withGrokAnalyze"
         ],
         "featureSwitch": {
           "rweb_tipjar_consumption_enabled": {
@@ -4352,7 +4380,7 @@
   {
     "n": "81755",
     "exports": {
-      "queryId": "sqzo8COSqPdWflYKEO5CZg",
+      "queryId": "VtGxY23c3668p05IavL9iw",
       "operationName": "Followers",
       "operationType": "query",
       "metadata": {
@@ -4385,7 +4413,8 @@
         "fieldToggles": [
           "withAuxiliaryUserLabels",
           "withArticleRichContentState",
-          "withArticlePlainText"
+          "withArticlePlainText",
+          "withGrokAnalyze"
         ],
         "featureSwitch": {
           "rweb_tipjar_consumption_enabled": {
@@ -4467,7 +4496,7 @@
   {
     "n": "85429",
     "exports": {
-      "queryId": "cYirjg9unfCtL1tVTQfJ3Q",
+      "queryId": "lwBR02NQfJbwXeZrlclCIg",
       "operationName": "FollowersYouKnow",
       "operationType": "query",
       "metadata": {
@@ -4500,7 +4529,8 @@
         "fieldToggles": [
           "withAuxiliaryUserLabels",
           "withArticleRichContentState",
-          "withArticlePlainText"
+          "withArticlePlainText",
+          "withGrokAnalyze"
         ],
         "featureSwitch": {
           "rweb_tipjar_consumption_enabled": {
@@ -4582,7 +4612,7 @@
   {
     "n": "80168",
     "exports": {
-      "queryId": "I7imOce0LE50sHEejhl1XA",
+      "queryId": "QwmFKTd5UXjowOGKp58GUw",
       "operationName": "Following",
       "operationType": "query",
       "metadata": {
@@ -4615,7 +4645,8 @@
         "fieldToggles": [
           "withAuxiliaryUserLabels",
           "withArticleRichContentState",
-          "withArticlePlainText"
+          "withArticlePlainText",
+          "withGrokAnalyze"
         ],
         "featureSwitch": {
           "rweb_tipjar_consumption_enabled": {
@@ -4697,7 +4728,7 @@
   {
     "n": "76106",
     "exports": {
-      "queryId": "mTqd4SiLe593eF33u3Ps9A",
+      "queryId": "osTP6ELvvk1pWfZkAlYS-w",
       "operationName": "GenericTimelineById",
       "operationType": "query",
       "metadata": {
@@ -4730,7 +4761,8 @@
         "fieldToggles": [
           "withAuxiliaryUserLabels",
           "withArticleRichContentState",
-          "withArticlePlainText"
+          "withArticlePlainText",
+          "withGrokAnalyze"
         ],
         "featureSwitch": {
           "rweb_tipjar_consumption_enabled": {
@@ -4981,7 +5013,7 @@
   {
     "n": "14714",
     "exports": {
-      "queryId": "DMcXrg09aYpRMKk7PekcBg",
+      "queryId": "NubOKJLLCQ02kA0dGhojQQ",
       "operationName": "HomeLatestTimeline",
       "operationType": "query",
       "metadata": {
@@ -5014,7 +5046,8 @@
         "fieldToggles": [
           "withAuxiliaryUserLabels",
           "withArticleRichContentState",
-          "withArticlePlainText"
+          "withArticlePlainText",
+          "withGrokAnalyze"
         ],
         "featureSwitch": {
           "rweb_tipjar_consumption_enabled": {
@@ -5096,7 +5129,7 @@
   {
     "n": "74271",
     "exports": {
-      "queryId": "TBGRFiS6zbCjuufpVDkFGw",
+      "queryId": "i2MxaDbGEGCGSRDu4hyICA",
       "operationName": "HomeTimeline",
       "operationType": "query",
       "metadata": {
@@ -5129,7 +5162,8 @@
         "fieldToggles": [
           "withAuxiliaryUserLabels",
           "withArticleRichContentState",
-          "withArticlePlainText"
+          "withArticlePlainText",
+          "withGrokAnalyze"
         ],
         "featureSwitch": {
           "rweb_tipjar_consumption_enabled": {
@@ -5211,7 +5245,7 @@
   {
     "n": "15335",
     "exports": {
-      "queryId": "cBm2Rtb426W3LIWEE_FM6w",
+      "queryId": "lgI5qD2Pcd6iAdY9DBQqow",
       "operationName": "Likes",
       "operationType": "query",
       "metadata": {
@@ -5244,7 +5278,8 @@
         "fieldToggles": [
           "withAuxiliaryUserLabels",
           "withArticleRichContentState",
-          "withArticlePlainText"
+          "withArticlePlainText",
+          "withGrokAnalyze"
         ],
         "featureSwitch": {
           "rweb_tipjar_consumption_enabled": {
@@ -5511,7 +5546,7 @@
   {
     "n": "11159",
     "exports": {
-      "queryId": "1LUkUQQRjnQocWRXsR4LMg",
+      "queryId": "HSzPEttkbS6VByFNsKiLHw",
       "operationName": "ListCreationRecommendedUsers",
       "operationType": "query",
       "metadata": {
@@ -5544,7 +5579,8 @@
         "fieldToggles": [
           "withAuxiliaryUserLabels",
           "withArticleRichContentState",
-          "withArticlePlainText"
+          "withArticlePlainText",
+          "withGrokAnalyze"
         ],
         "featureSwitch": {
           "rweb_tipjar_consumption_enabled": {
@@ -5652,7 +5688,7 @@
   {
     "n": "47890",
     "exports": {
-      "queryId": "ClC1owTnOxei3Dm3bAaOVA",
+      "queryId": "admRBq8zhU-KFQTBAYTLgA",
       "operationName": "ListEditRecommendedUsers",
       "operationType": "query",
       "metadata": {
@@ -5685,7 +5721,8 @@
         "fieldToggles": [
           "withAuxiliaryUserLabels",
           "withArticleRichContentState",
-          "withArticlePlainText"
+          "withArticlePlainText",
+          "withGrokAnalyze"
         ],
         "featureSwitch": {
           "rweb_tipjar_consumption_enabled": {
@@ -5767,7 +5804,7 @@
   {
     "n": "41391",
     "exports": {
-      "queryId": "aymVVBZb4UGlTE4mq0qwpw",
+      "queryId": "r9tqA_GSA_NpUNmi3w1RWg",
       "operationName": "ListLatestTweetsTimeline",
       "operationType": "query",
       "metadata": {
@@ -5800,7 +5837,8 @@
         "fieldToggles": [
           "withAuxiliaryUserLabels",
           "withArticleRichContentState",
-          "withArticlePlainText"
+          "withArticlePlainText",
+          "withGrokAnalyze"
         ],
         "featureSwitch": {
           "rweb_tipjar_consumption_enabled": {
@@ -5882,7 +5920,7 @@
   {
     "n": "23314",
     "exports": {
-      "queryId": "KwxeNKzk2FN5JLXissRQWw",
+      "queryId": "RaWaeiwFG_XzuWR6rNV7QQ",
       "operationName": "ListMembers",
       "operationType": "query",
       "metadata": {
@@ -5915,7 +5953,8 @@
         "fieldToggles": [
           "withAuxiliaryUserLabels",
           "withArticleRichContentState",
-          "withArticlePlainText"
+          "withArticlePlainText",
+          "withGrokAnalyze"
         ],
         "featureSwitch": {
           "rweb_tipjar_consumption_enabled": {
@@ -5997,7 +6036,7 @@
   {
     "n": "91283",
     "exports": {
-      "queryId": "3jWfRz_kMChxBv0Xq5od-Q",
+      "queryId": "94la95opAPGch-Gw0nY6hQ",
       "operationName": "ListMemberships",
       "operationType": "query",
       "metadata": {
@@ -6030,7 +6069,8 @@
         "fieldToggles": [
           "withAuxiliaryUserLabels",
           "withArticleRichContentState",
-          "withArticlePlainText"
+          "withArticlePlainText",
+          "withGrokAnalyze"
         ],
         "featureSwitch": {
           "rweb_tipjar_consumption_enabled": {
@@ -6125,7 +6165,7 @@
   {
     "n": "31640",
     "exports": {
-      "queryId": "XEHJSFnRsTBtfxhGAY7RDg",
+      "queryId": "ESxvAlA5t5AdWwPQwmwg5w",
       "operationName": "ListOwnerships",
       "operationType": "query",
       "metadata": {
@@ -6158,7 +6198,8 @@
         "fieldToggles": [
           "withAuxiliaryUserLabels",
           "withArticleRichContentState",
-          "withArticlePlainText"
+          "withArticlePlainText",
+          "withGrokAnalyze"
         ],
         "featureSwitch": {
           "rweb_tipjar_consumption_enabled": {
@@ -6277,7 +6318,7 @@
   {
     "n": "27438",
     "exports": {
-      "queryId": "1qN3XZI_LpspkMaqQAMkNg",
+      "queryId": "ZQT-TCKFoIj2dnrwcJ67-A",
       "operationName": "ListRankedTweetsTimeline",
       "operationType": "query",
       "metadata": {
@@ -6310,7 +6351,8 @@
         "fieldToggles": [
           "withAuxiliaryUserLabels",
           "withArticleRichContentState",
-          "withArticlePlainText"
+          "withArticlePlainText",
+          "withGrokAnalyze"
         ],
         "featureSwitch": {
           "rweb_tipjar_consumption_enabled": {
@@ -6429,7 +6471,7 @@
   {
     "n": "38351",
     "exports": {
-      "queryId": "qYvWguYcC4r1p4UPdt3L7Q",
+      "queryId": "Dmid8rTcd1YaOFePEjIrhg",
       "operationName": "ListSearchTimeline",
       "operationType": "query",
       "metadata": {
@@ -6462,7 +6504,8 @@
         "fieldToggles": [
           "withAuxiliaryUserLabels",
           "withArticleRichContentState",
-          "withArticlePlainText"
+          "withArticlePlainText",
+          "withGrokAnalyze"
         ],
         "featureSwitch": {
           "rweb_tipjar_consumption_enabled": {
@@ -6581,7 +6624,7 @@
   {
     "n": "36206",
     "exports": {
-      "queryId": "K0J7j1vGTzOLLl_me9KXDA",
+      "queryId": "yylArBxHjU2p4NQ4hDr0GA",
       "operationName": "ListSubscribers",
       "operationType": "query",
       "metadata": {
@@ -6614,7 +6657,8 @@
         "fieldToggles": [
           "withAuxiliaryUserLabels",
           "withArticleRichContentState",
-          "withArticlePlainText"
+          "withArticlePlainText",
+          "withGrokAnalyze"
         ],
         "featureSwitch": {
           "rweb_tipjar_consumption_enabled": {
@@ -6783,7 +6827,7 @@
   {
     "n": "51123",
     "exports": {
-      "queryId": "oLocR6h4podLXI7eJRERwg",
+      "queryId": "XY7sR6GO2DeX_tgT6YGBqQ",
       "operationName": "ListsDiscovery",
       "operationType": "query",
       "metadata": {
@@ -6816,7 +6860,8 @@
         "fieldToggles": [
           "withAuxiliaryUserLabels",
           "withArticleRichContentState",
-          "withArticlePlainText"
+          "withArticlePlainText",
+          "withGrokAnalyze"
         ],
         "featureSwitch": {
           "rweb_tipjar_consumption_enabled": {
@@ -6898,7 +6943,7 @@
   {
     "n": "06467",
     "exports": {
-      "queryId": "BHh1zDllgYnntj_O5WCxjQ",
+      "queryId": "sPofZBgU7q_4SM2RRdpAkg",
       "operationName": "ListsManagementPageTimeline",
       "operationType": "query",
       "metadata": {
@@ -6931,7 +6976,8 @@
         "fieldToggles": [
           "withAuxiliaryUserLabels",
           "withArticleRichContentState",
-          "withArticlePlainText"
+          "withArticlePlainText",
+          "withGrokAnalyze"
         ],
         "featureSwitch": {
           "rweb_tipjar_consumption_enabled": {
@@ -7026,7 +7072,7 @@
   {
     "n": "68111",
     "exports": {
-      "queryId": "ZlUwWXrNSllKWjiQ9s9ZOg",
+      "queryId": "n1dtsZ0y0mfH0rD6DRO7aA",
       "operationName": "ModeratedTimeline",
       "operationType": "query",
       "metadata": {
@@ -7059,7 +7105,8 @@
         "fieldToggles": [
           "withAuxiliaryUserLabels",
           "withArticleRichContentState",
-          "withArticlePlainText"
+          "withArticlePlainText",
+          "withGrokAnalyze"
         ],
         "featureSwitch": {
           "rweb_tipjar_consumption_enabled": {
@@ -7141,7 +7188,7 @@
   {
     "n": "35680",
     "exports": {
-      "queryId": "iHyidEotn1CK7l0M3WgbZA",
+      "queryId": "_cjW0OKMvrrAFfj5X_RdWw",
       "operationName": "MutedAccounts",
       "operationType": "query",
       "metadata": {
@@ -7174,7 +7221,8 @@
         "fieldToggles": [
           "withAuxiliaryUserLabels",
           "withArticleRichContentState",
-          "withArticlePlainText"
+          "withArticlePlainText",
+          "withGrokAnalyze"
         ],
         "featureSwitch": {
           "rweb_tipjar_consumption_enabled": {
@@ -7369,7 +7417,7 @@
   {
     "n": "88085",
     "exports": {
-      "queryId": "x9XjdTGLnhF2KGfrjnbttA",
+      "queryId": "BWRV_vSmu8dTcbXeQTC0lA",
       "operationName": "CommunitiesRankedTimeline",
       "operationType": "query",
       "metadata": {
@@ -7402,7 +7450,8 @@
         "fieldToggles": [
           "withAuxiliaryUserLabels",
           "withArticleRichContentState",
-          "withArticlePlainText"
+          "withArticlePlainText",
+          "withGrokAnalyze"
         ],
         "featureSwitch": {
           "rweb_tipjar_consumption_enabled": {
@@ -7549,7 +7598,7 @@
   {
     "n": "51653",
     "exports": {
-      "queryId": "Ow4YOCqr4TR1W5vDqb0HAw",
+      "queryId": "tUJgNbJvuiieOXvq7OmHwA",
       "operationName": "SearchTimeline",
       "operationType": "query",
       "metadata": {
@@ -7582,7 +7631,8 @@
         "fieldToggles": [
           "withAuxiliaryUserLabels",
           "withArticleRichContentState",
-          "withArticlePlainText"
+          "withArticlePlainText",
+          "withGrokAnalyze"
         ],
         "featureSwitch": {
           "rweb_tipjar_consumption_enabled": {
@@ -7677,7 +7727,7 @@
   {
     "n": "23455",
     "exports": {
-      "queryId": "twY6Jt1LrX8Wg7CsxYL1Cg",
+      "queryId": "n9kcTcuYZH2OTmzb3FSzdw",
       "operationName": "SimilarPosts",
       "operationType": "query",
       "metadata": {
@@ -7710,7 +7760,8 @@
         "fieldToggles": [
           "withAuxiliaryUserLabels",
           "withArticleRichContentState",
-          "withArticlePlainText"
+          "withArticlePlainText",
+          "withGrokAnalyze"
         ],
         "featureSwitch": {
           "rweb_tipjar_consumption_enabled": {
@@ -7792,7 +7843,7 @@
   {
     "n": "93073",
     "exports": {
-      "queryId": "SYToRzoajaU82X0ja8RQsg",
+      "queryId": "pt3BGcfCyOIoi4v-TJ7Fuw",
       "operationName": "SuperFollowers",
       "operationType": "query",
       "metadata": {
@@ -7825,7 +7876,8 @@
         "fieldToggles": [
           "withAuxiliaryUserLabels",
           "withArticleRichContentState",
-          "withArticlePlainText"
+          "withArticlePlainText",
+          "withGrokAnalyze"
         ],
         "featureSwitch": {
           "rweb_tipjar_consumption_enabled": {
@@ -7933,7 +7985,7 @@
   {
     "n": "90917",
     "exports": {
-      "queryId": "eizuUniZdy6NbteQydyQqw",
+      "queryId": "oPpZOcy2LpFiIhucICCFtA",
       "operationName": "TopicLandingPage",
       "operationType": "query",
       "metadata": {
@@ -7966,7 +8018,8 @@
         "fieldToggles": [
           "withAuxiliaryUserLabels",
           "withArticleRichContentState",
-          "withArticlePlainText"
+          "withArticlePlainText",
+          "withGrokAnalyze"
         ],
         "featureSwitch": {
           "rweb_tipjar_consumption_enabled": {
@@ -8074,7 +8127,7 @@
   {
     "n": "23636",
     "exports": {
-      "queryId": "nXSexZfGWVYytHTWz5xSEg",
+      "queryId": "21OGvRyhtzYu2ma2BXzz4w",
       "operationName": "TopicToFollowSidebar",
       "operationType": "query",
       "metadata": {
@@ -8107,7 +8160,8 @@
         "fieldToggles": [
           "withAuxiliaryUserLabels",
           "withArticleRichContentState",
-          "withArticlePlainText"
+          "withArticlePlainText",
+          "withGrokAnalyze"
         ],
         "featureSwitch": {
           "rweb_tipjar_consumption_enabled": {
@@ -8215,7 +8269,7 @@
   {
     "n": "15339",
     "exports": {
-      "queryId": "UDnA4Ya2205uH-kIOJPaEQ",
+      "queryId": "YyYB3OW4O7pdtOzLVyKdvg",
       "operationName": "TopicsManagementPage",
       "operationType": "query",
       "metadata": {
@@ -8248,7 +8302,8 @@
         "fieldToggles": [
           "withAuxiliaryUserLabels",
           "withArticleRichContentState",
-          "withArticlePlainText"
+          "withArticlePlainText",
+          "withGrokAnalyze"
         ],
         "featureSwitch": {
           "rweb_tipjar_consumption_enabled": {
@@ -8330,7 +8385,7 @@
   {
     "n": "62017",
     "exports": {
-      "queryId": "DGxWxNWQV2JBwr3beJuvtg",
+      "queryId": "Ng7vBraenKRSTH99ogKptg",
       "operationName": "TopicsPickerPage",
       "operationType": "query",
       "metadata": {
@@ -8363,7 +8418,8 @@
         "fieldToggles": [
           "withAuxiliaryUserLabels",
           "withArticleRichContentState",
-          "withArticlePlainText"
+          "withArticlePlainText",
+          "withGrokAnalyze"
         ],
         "featureSwitch": {
           "rweb_tipjar_consumption_enabled": {
@@ -8445,7 +8501,7 @@
   {
     "n": "03606",
     "exports": {
-      "queryId": "KBV2eL2D-Sk8uO08PSyNtA",
+      "queryId": "gFcLr3XsIWwf19dPzj1-bA",
       "operationName": "TopicsPickerPageById",
       "operationType": "query",
       "metadata": {
@@ -8478,7 +8534,8 @@
         "fieldToggles": [
           "withAuxiliaryUserLabels",
           "withArticleRichContentState",
-          "withArticlePlainText"
+          "withArticlePlainText",
+          "withGrokAnalyze"
         ],
         "featureSwitch": {
           "rweb_tipjar_consumption_enabled": {
@@ -8560,7 +8617,7 @@
   {
     "n": "68906",
     "exports": {
-      "queryId": "36PT1NG6NfievubK0ZRWOQ",
+      "queryId": "4OzxP2nZSX7cERiqVB4Kfg",
       "operationName": "TrendHistory",
       "operationType": "query",
       "metadata": {
@@ -8593,7 +8650,8 @@
         "fieldToggles": [
           "withAuxiliaryUserLabels",
           "withArticleRichContentState",
-          "withArticlePlainText"
+          "withArticlePlainText",
+          "withGrokAnalyze"
         ],
         "featureSwitch": {
           "rweb_tipjar_consumption_enabled": {
@@ -8675,7 +8733,7 @@
   {
     "n": "10428",
     "exports": {
-      "queryId": "dIaLph1-1JzCjbI7-ukasA",
+      "queryId": "d3z9_BpCj8Jw2lxny8wMxA",
       "operationName": "TrendRelevantUsers",
       "operationType": "query",
       "metadata": {
@@ -8708,7 +8766,8 @@
         "fieldToggles": [
           "withAuxiliaryUserLabels",
           "withArticleRichContentState",
-          "withArticlePlainText"
+          "withArticlePlainText",
+          "withGrokAnalyze"
         ],
         "featureSwitch": {
           "rweb_tipjar_consumption_enabled": {
@@ -8811,7 +8870,7 @@
   {
     "n": "35315",
     "exports": {
-      "queryId": "e7RKseIxLu7HgkWNKZ6qnw",
+      "queryId": "bFUhQzgl9zjo-teD0pAQZw",
       "operationName": "TweetDetail",
       "operationType": "query",
       "metadata": {
@@ -8844,7 +8903,8 @@
         "fieldToggles": [
           "withAuxiliaryUserLabels",
           "withArticleRichContentState",
-          "withArticlePlainText"
+          "withArticlePlainText",
+          "withGrokAnalyze"
         ],
         "featureSwitch": {
           "rweb_tipjar_consumption_enabled": {
@@ -8926,7 +8986,7 @@
   {
     "n": "83297",
     "exports": {
-      "queryId": "mxWuWrhEdoFm1EsFOInMMg",
+      "queryId": "I9GDzyCGZL2wSoYFFrrTVw",
       "operationName": "TweetResultByRestId",
       "operationType": "query",
       "metadata": {
@@ -8959,6 +9019,7 @@
         "fieldToggles": [
           "withArticleRichContentState",
           "withArticlePlainText",
+          "withGrokAnalyze",
           "withAuxiliaryUserLabels"
         ],
         "featureSwitch": {
@@ -9041,7 +9102,7 @@
   {
     "n": "71392",
     "exports": {
-      "queryId": "5oneqMuYDa-eRqQ1_tOA-w",
+      "queryId": "7p8OikJvOyBOrzx_AewlFQ",
       "operationName": "TweetResultsByRestIds",
       "operationType": "query",
       "metadata": {
@@ -9074,6 +9135,7 @@
         "fieldToggles": [
           "withArticleRichContentState",
           "withArticlePlainText",
+          "withGrokAnalyze",
           "withAuxiliaryUserLabels"
         ],
         "featureSwitch": {
@@ -9282,7 +9344,7 @@
   {
     "n": "45181",
     "exports": {
-      "queryId": "CLfaFShkB4H3BsCwasiiNA",
+      "queryId": "fttGjdXWJRozxECKTTrksw",
       "operationName": "UrtFixtures",
       "operationType": "query",
       "metadata": {
@@ -9315,7 +9377,8 @@
         "fieldToggles": [
           "withAuxiliaryUserLabels",
           "withArticleRichContentState",
-          "withArticlePlainText"
+          "withArticlePlainText",
+          "withGrokAnalyze"
         ],
         "featureSwitch": {
           "rweb_tipjar_consumption_enabled": {
@@ -9397,7 +9460,7 @@
   {
     "n": "71345",
     "exports": {
-      "queryId": "i-0yKcr3ldnAok1Tbp6apA",
+      "queryId": "BC-w6SL4Qlq96tvShe5TMg",
       "operationName": "UserAboutTimeline",
       "operationType": "query",
       "metadata": {
@@ -9430,7 +9493,8 @@
         "fieldToggles": [
           "withAuxiliaryUserLabels",
           "withArticleRichContentState",
-          "withArticlePlainText"
+          "withArticlePlainText",
+          "withGrokAnalyze"
         ],
         "featureSwitch": {
           "rweb_tipjar_consumption_enabled": {
@@ -9512,7 +9576,7 @@
   {
     "n": "91682",
     "exports": {
-      "queryId": "eQXaTzTmsyDOd7BRaaUQjw",
+      "queryId": "AKCuSLSH8utH8qqUr-FYnA",
       "operationName": "UserArticlesTweets",
       "operationType": "query",
       "metadata": {
@@ -9545,7 +9609,8 @@
         "fieldToggles": [
           "withAuxiliaryUserLabels",
           "withArticleRichContentState",
-          "withArticlePlainText"
+          "withArticlePlainText",
+          "withGrokAnalyze"
         ],
         "featureSwitch": {
           "rweb_tipjar_consumption_enabled": {
@@ -9627,7 +9692,7 @@
   {
     "n": "87137",
     "exports": {
-      "queryId": "wXTjJV17I-qDea08RwwiXA",
+      "queryId": "jzUz1DsCungvOXLfCMiSNA",
       "operationName": "UserBusinessProfileTeamTimeline",
       "operationType": "query",
       "metadata": {
@@ -9660,7 +9725,8 @@
         "fieldToggles": [
           "withAuxiliaryUserLabels",
           "withArticleRichContentState",
-          "withArticlePlainText"
+          "withArticlePlainText",
+          "withGrokAnalyze"
         ],
         "featureSwitch": {
           "rweb_tipjar_consumption_enabled": {
@@ -9877,7 +9943,7 @@
   {
     "n": "84810",
     "exports": {
-      "queryId": "k_2dNGBk9zyjWFs2O2Pqsg",
+      "queryId": "mrQiaXnzqslHdj6nP3oNuQ",
       "operationName": "UserCreatorSubscribers",
       "operationType": "query",
       "metadata": {
@@ -9910,7 +9976,8 @@
         "fieldToggles": [
           "withAuxiliaryUserLabels",
           "withArticleRichContentState",
-          "withArticlePlainText"
+          "withArticlePlainText",
+          "withGrokAnalyze"
         ],
         "featureSwitch": {
           "rweb_tipjar_consumption_enabled": {
@@ -9992,7 +10059,7 @@
   {
     "n": "14877",
     "exports": {
-      "queryId": "Nytm4ysey1zohVUWuVHUpw",
+      "queryId": "78yWbmL_1o3dwN5Qsu7GEA",
       "operationName": "UserCreatorSubscriptions",
       "operationType": "query",
       "metadata": {
@@ -10025,7 +10092,8 @@
         "fieldToggles": [
           "withAuxiliaryUserLabels",
           "withArticleRichContentState",
-          "withArticlePlainText"
+          "withArticlePlainText",
+          "withGrokAnalyze"
         ],
         "featureSwitch": {
           "rweb_tipjar_consumption_enabled": {
@@ -10107,7 +10175,7 @@
   {
     "n": "24603",
     "exports": {
-      "queryId": "S2PQapRL51Jdm8DqUrBocw",
+      "queryId": "sMUmEZ4qy9Ul9UtmM8hiCA",
       "operationName": "UserHighlightsTweets",
       "operationType": "query",
       "metadata": {
@@ -10140,7 +10208,8 @@
         "fieldToggles": [
           "withAuxiliaryUserLabels",
           "withArticleRichContentState",
-          "withArticlePlainText"
+          "withArticlePlainText",
+          "withGrokAnalyze"
         ],
         "featureSwitch": {
           "rweb_tipjar_consumption_enabled": {
@@ -10222,7 +10291,7 @@
   {
     "n": "23463",
     "exports": {
-      "queryId": "ISn-t16yb39STOwUeKQ0pw",
+      "queryId": "1dmA2m-qIsGm2XfqQtcD3A",
       "operationName": "UserMedia",
       "operationType": "query",
       "metadata": {
@@ -10255,7 +10324,8 @@
         "fieldToggles": [
           "withAuxiliaryUserLabels",
           "withArticleRichContentState",
-          "withArticlePlainText"
+          "withArticlePlainText",
+          "withGrokAnalyze"
         ],
         "featureSwitch": {
           "rweb_tipjar_consumption_enabled": {
@@ -10350,7 +10420,7 @@
   {
     "n": "27655",
     "exports": {
-      "queryId": "5NBDwkfQWarz-VS9bEy4MQ",
+      "queryId": "dRae3xkdRs64gTn-Mo3qNw",
       "operationName": "UserPromotableTweets",
       "operationType": "query",
       "metadata": {
@@ -10383,7 +10453,8 @@
         "fieldToggles": [
           "withAuxiliaryUserLabels",
           "withArticleRichContentState",
-          "withArticlePlainText"
+          "withArticlePlainText",
+          "withGrokAnalyze"
         ],
         "featureSwitch": {
           "rweb_tipjar_consumption_enabled": {
@@ -10478,7 +10549,7 @@
   {
     "n": "89550",
     "exports": {
-      "queryId": "5Cj1uMY3Eqi3juxBE1kshg",
+      "queryId": "0W6eOudJmBEIH3UT-mYA4g",
       "operationName": "UserSuperFollowTweets",
       "operationType": "query",
       "metadata": {
@@ -10511,7 +10582,8 @@
         "fieldToggles": [
           "withAuxiliaryUserLabels",
           "withArticleRichContentState",
-          "withArticlePlainText"
+          "withArticlePlainText",
+          "withGrokAnalyze"
         ],
         "featureSwitch": {
           "rweb_tipjar_consumption_enabled": {
@@ -10593,7 +10665,7 @@
   {
     "n": "63487",
     "exports": {
-      "queryId": "dqhyWBre4x9vdn60mIoexw",
+      "queryId": "gQlOy4mD5C8M8fYxqa0FJg",
       "operationName": "UserTweets",
       "operationType": "query",
       "metadata": {
@@ -10626,7 +10698,8 @@
         "fieldToggles": [
           "withAuxiliaryUserLabels",
           "withArticleRichContentState",
-          "withArticlePlainText"
+          "withArticlePlainText",
+          "withGrokAnalyze"
         ],
         "featureSwitch": {
           "rweb_tipjar_consumption_enabled": {
@@ -10708,7 +10781,7 @@
   {
     "n": "66214",
     "exports": {
-      "queryId": "Y4zKAFcfnAURcANKXZAexg",
+      "queryId": "6j-z9_eUNJU09yccuUq9VA",
       "operationName": "UserTweetsAndReplies",
       "operationType": "query",
       "metadata": {
@@ -10741,7 +10814,8 @@
         "fieldToggles": [
           "withAuxiliaryUserLabels",
           "withArticleRichContentState",
-          "withArticlePlainText"
+          "withArticlePlainText",
+          "withGrokAnalyze"
         ],
         "featureSwitch": {
           "rweb_tipjar_consumption_enabled": {
@@ -10923,7 +10997,7 @@
   {
     "n": "03864",
     "exports": {
-      "queryId": "yE5_xJic2WBnzArfxf4rtA",
+      "queryId": "6bIjI2rMVih1xd-PAaAwpg",
       "operationName": "ViewingOtherUsersTopicsPage",
       "operationType": "query",
       "metadata": {
@@ -10956,7 +11030,8 @@
         "fieldToggles": [
           "withAuxiliaryUserLabels",
           "withArticleRichContentState",
-          "withArticlePlainText"
+          "withArticlePlainText",
+          "withGrokAnalyze"
         ],
         "featureSwitch": {
           "rweb_tipjar_consumption_enabled": {
@@ -11038,7 +11113,7 @@
   {
     "n": "66324",
     "exports": {
-      "queryId": "Z_cso7VGsGNW3-Vy9DzGcQ",
+      "queryId": "dPejLaLlwTH0y_xzqCRdew",
       "operationName": "AudioSpaceAddSharing",
       "operationType": "mutation",
       "metadata": {
@@ -11071,6 +11146,7 @@
         "fieldToggles": [
           "withArticleRichContentState",
           "withArticlePlainText",
+          "withGrokAnalyze",
           "withAuxiliaryUserLabels"
         ],
         "featureSwitch": {
@@ -11153,7 +11229,7 @@
   {
     "n": "13379",
     "exports": {
-      "queryId": "HxJE28JaxUjapqLfkB_u6w",
+      "queryId": "SL4eyLXdr1zWZVpXRhxZ4Q",
       "operationName": "AudioSpaceById",
       "operationType": "query",
       "metadata": {
@@ -11188,7 +11264,8 @@
         "fieldToggles": [
           "withAuxiliaryUserLabels",
           "withArticleRichContentState",
-          "withArticlePlainText"
+          "withArticlePlainText",
+          "withGrokAnalyze"
         ],
         "featureSwitch": {
           "spaces_2022_h2_spaces_communities": {
@@ -11536,7 +11613,7 @@
   {
     "n": "72752",
     "exports": {
-      "queryId": "dUVskcDfCYXkmzt7e099Dw",
+      "queryId": "5alOE_DEy-aq90rtoW2O8g",
       "operationName": "RitoFlaggedAccountsTimeline",
       "operationType": "query",
       "metadata": {
@@ -11569,7 +11646,8 @@
         "fieldToggles": [
           "withAuxiliaryUserLabels",
           "withArticleRichContentState",
-          "withArticlePlainText"
+          "withArticlePlainText",
+          "withGrokAnalyze"
         ],
         "featureSwitch": {
           "rweb_tipjar_consumption_enabled": {
@@ -11677,7 +11755,7 @@
   {
     "n": "72752",
     "exports": {
-      "queryId": "dUVskcDfCYXkmzt7e099Dw",
+      "queryId": "5alOE_DEy-aq90rtoW2O8g",
       "operationName": "RitoFlaggedAccountsTimeline",
       "operationType": "query",
       "metadata": {
@@ -11710,7 +11788,8 @@
         "fieldToggles": [
           "withAuxiliaryUserLabels",
           "withArticleRichContentState",
-          "withArticlePlainText"
+          "withArticlePlainText",
+          "withGrokAnalyze"
         ],
         "featureSwitch": {
           "rweb_tipjar_consumption_enabled": {
@@ -11846,7 +11925,7 @@
   {
     "n": "89598",
     "exports": {
-      "queryId": "glfcGOJbA8PHUqUE868jBg",
+      "queryId": "5kOgPfpLFZNDizsTm6LxNw",
       "operationName": "DmMutedTimeline",
       "operationType": "query",
       "metadata": {
@@ -11879,7 +11958,8 @@
         "fieldToggles": [
           "withAuxiliaryUserLabels",
           "withArticleRichContentState",
-          "withArticlePlainText"
+          "withArticlePlainText",
+          "withGrokAnalyze"
         ],
         "featureSwitch": {
           "rweb_tipjar_consumption_enabled": {
@@ -11974,7 +12054,7 @@
   {
     "n": "99262",
     "exports": {
-      "queryId": "DMdpLyMrBRDt1dVuKbpgPA",
+      "queryId": "5MbDONv2pSKSilNlAzBByg",
       "operationName": "ArticleTimeline",
       "operationType": "query",
       "metadata": {
@@ -12007,7 +12087,8 @@
         "fieldToggles": [
           "withAuxiliaryUserLabels",
           "withArticleRichContentState",
-          "withArticlePlainText"
+          "withArticlePlainText",
+          "withGrokAnalyze"
         ],
         "featureSwitch": {
           "rweb_tipjar_consumption_enabled": {
@@ -12089,7 +12170,7 @@
   {
     "n": "17506",
     "exports": {
-      "queryId": "wOM8YTbuBUiHBxhZNX35Dw",
+      "queryId": "HOtaC7C194vsLfyhOFK43Q",
       "operationName": "ArticleTweetsTimeline",
       "operationType": "query",
       "metadata": {
@@ -12122,7 +12203,8 @@
         "fieldToggles": [
           "withAuxiliaryUserLabels",
           "withArticleRichContentState",
-          "withArticlePlainText"
+          "withArticlePlainText",
+          "withGrokAnalyze"
         ],
         "featureSwitch": {
           "rweb_tipjar_consumption_enabled": {
@@ -12217,7 +12299,7 @@
   {
     "n": "72752",
     "exports": {
-      "queryId": "dUVskcDfCYXkmzt7e099Dw",
+      "queryId": "5alOE_DEy-aq90rtoW2O8g",
       "operationName": "RitoFlaggedAccountsTimeline",
       "operationType": "query",
       "metadata": {
@@ -12250,7 +12332,8 @@
         "fieldToggles": [
           "withAuxiliaryUserLabels",
           "withArticleRichContentState",
-          "withArticlePlainText"
+          "withArticlePlainText",
+          "withGrokAnalyze"
         ],
         "featureSwitch": {
           "rweb_tipjar_consumption_enabled": {
@@ -12345,7 +12428,7 @@
   {
     "n": "50222",
     "exports": {
-      "queryId": "2iw06FiFNFkpZm-TPWs2EQ",
+      "queryId": "DIv4Svm9rNNexJXtpODhRw",
       "operationName": "BirdwatchFetchContributorNotesSlice",
       "operationType": "query",
       "metadata": {
@@ -12379,6 +12462,7 @@
         "fieldToggles": [
           "withArticleRichContentState",
           "withArticlePlainText",
+          "withGrokAnalyze",
           "withAuxiliaryUserLabels"
         ],
         "featureSwitch": {
@@ -12477,7 +12561,7 @@
   {
     "n": "86299",
     "exports": {
-      "queryId": "tq8TvzVyQXM0bo_9GUojtA",
+      "queryId": "La4IR_AZpsqrVVJzh3-eHg",
       "operationName": "BirdwatchCreateNote",
       "operationType": "mutation",
       "metadata": {
@@ -12675,7 +12759,7 @@
   {
     "n": "18802",
     "exports": {
-      "queryId": "g2BZ4bPeoqVYPs12cj_-Ag",
+      "queryId": "SqQl5eT4cYPZ2JCz0KkTdA",
       "operationName": "BirdwatchFetchGlobalTimeline",
       "operationType": "query",
       "metadata": {
@@ -12708,7 +12792,8 @@
         "fieldToggles": [
           "withAuxiliaryUserLabels",
           "withArticleRichContentState",
-          "withArticlePlainText"
+          "withArticlePlainText",
+          "withGrokAnalyze"
         ],
         "featureSwitch": {
           "rweb_tipjar_consumption_enabled": {
@@ -12790,16 +12875,38 @@
   {
     "n": "07003",
     "exports": {
-      "queryId": "UZppVC62g5sGFE2k0FjVzw",
+      "queryId": "ANySWYw8kbPdkGt7JqH9mg",
       "operationName": "BirdwatchFetchNoteTranslation",
       "operationType": "query",
       "metadata": {
         "featureSwitches": [
-          "responsive_web_birdwatch_translation_enabled"
+          "responsive_web_birdwatch_translation_enabled",
+          "responsive_web_graphql_timeline_navigation_enabled",
+          "rweb_tipjar_consumption_enabled",
+          "responsive_web_graphql_exclude_directive_enabled",
+          "verified_phone_label_enabled",
+          "responsive_web_graphql_skip_user_profile_image_extensions_enabled"
         ],
-        "fieldToggles": [],
+        "fieldToggles": [
+          "withAuxiliaryUserLabels"
+        ],
         "featureSwitch": {
           "responsive_web_birdwatch_translation_enabled": {
+            "value": "false"
+          },
+          "responsive_web_graphql_timeline_navigation_enabled": {
+            "value": "true"
+          },
+          "rweb_tipjar_consumption_enabled": {
+            "value": "true"
+          },
+          "responsive_web_graphql_exclude_directive_enabled": {
+            "value": "true"
+          },
+          "verified_phone_label_enabled": {
+            "value": "false"
+          },
+          "responsive_web_graphql_skip_user_profile_image_extensions_enabled": {
             "value": "false"
           }
         }
@@ -12809,7 +12916,7 @@
   {
     "n": "61782",
     "exports": {
-      "queryId": "sm90olUft05lYjzqqvT-Bg",
+      "queryId": "j4l7zYOXnGFJ_HHmufairw",
       "operationName": "BirdwatchFetchNotes",
       "operationType": "query",
       "metadata": {
@@ -12854,7 +12961,7 @@
   {
     "n": "66104",
     "exports": {
-      "queryId": "X8OWH9Mq69TjQCoQdIYS0g",
+      "queryId": "srbqAEEL8v2ktXqz-UIJZQ",
       "operationName": "BirdwatchFetchOneNote",
       "operationType": "query",
       "metadata": {
@@ -13292,7 +13399,7 @@
   {
     "n": "72752",
     "exports": {
-      "queryId": "dUVskcDfCYXkmzt7e099Dw",
+      "queryId": "5alOE_DEy-aq90rtoW2O8g",
       "operationName": "RitoFlaggedAccountsTimeline",
       "operationType": "query",
       "metadata": {
@@ -13325,7 +13432,8 @@
         "fieldToggles": [
           "withAuxiliaryUserLabels",
           "withArticleRichContentState",
-          "withArticlePlainText"
+          "withArticlePlainText",
+          "withGrokAnalyze"
         ],
         "featureSwitch": {
           "rweb_tipjar_consumption_enabled": {
@@ -13446,7 +13554,7 @@
   {
     "n": "37812",
     "exports": {
-      "queryId": "Gtv2QZjIDf9tQEUDb3VH9w",
+      "queryId": "hu1JNdIdAcd1zo76zX_tqA",
       "operationName": "GrokConversationItemsByRestId",
       "operationType": "query",
       "metadata": {
@@ -13479,6 +13587,7 @@
         "fieldToggles": [
           "withArticleRichContentState",
           "withArticlePlainText",
+          "withGrokAnalyze",
           "withAuxiliaryUserLabels"
         ],
         "featureSwitch": {
@@ -13637,7 +13746,7 @@
   {
     "n": "40480",
     "exports": {
-      "queryId": "kZFkhMtMfdTeock5qMRDAQ",
+      "queryId": "I7rkTF8wGdscvCyvVwYRQA",
       "operationName": "RitoActionedTweetsTimeline",
       "operationType": "query",
       "metadata": {
@@ -13670,7 +13779,8 @@
         "fieldToggles": [
           "withAuxiliaryUserLabels",
           "withArticleRichContentState",
-          "withArticlePlainText"
+          "withArticlePlainText",
+          "withGrokAnalyze"
         ],
         "featureSwitch": {
           "rweb_tipjar_consumption_enabled": {
@@ -13752,7 +13862,7 @@
   {
     "n": "91235",
     "exports": {
-      "queryId": "bl3B3NEGRFGUNZDpcKcmwg",
+      "queryId": "M_0au3t0fioAibX22dtuCg",
       "operationName": "RitoFlaggedTweetsTimeline",
       "operationType": "query",
       "metadata": {
@@ -13785,7 +13895,8 @@
         "fieldToggles": [
           "withAuxiliaryUserLabels",
           "withArticleRichContentState",
-          "withArticlePlainText"
+          "withArticlePlainText",
+          "withGrokAnalyze"
         ],
         "featureSwitch": {
           "rweb_tipjar_consumption_enabled": {
@@ -13932,7 +14043,7 @@
   {
     "n": "72752",
     "exports": {
-      "queryId": "dUVskcDfCYXkmzt7e099Dw",
+      "queryId": "5alOE_DEy-aq90rtoW2O8g",
       "operationName": "RitoFlaggedAccountsTimeline",
       "operationType": "query",
       "metadata": {
@@ -13965,7 +14076,8 @@
         "fieldToggles": [
           "withAuxiliaryUserLabels",
           "withArticleRichContentState",
-          "withArticlePlainText"
+          "withArticlePlainText",
+          "withGrokAnalyze"
         ],
         "featureSwitch": {
           "rweb_tipjar_consumption_enabled": {
@@ -14060,7 +14172,7 @@
   {
     "n": "72752",
     "exports": {
-      "queryId": "dUVskcDfCYXkmzt7e099Dw",
+      "queryId": "5alOE_DEy-aq90rtoW2O8g",
       "operationName": "RitoFlaggedAccountsTimeline",
       "operationType": "query",
       "metadata": {
@@ -14093,7 +14205,8 @@
         "fieldToggles": [
           "withAuxiliaryUserLabels",
           "withArticleRichContentState",
-          "withArticlePlainText"
+          "withArticlePlainText",
+          "withGrokAnalyze"
         ],
         "featureSwitch": {
           "rweb_tipjar_consumption_enabled": {
@@ -14175,7 +14288,7 @@
   {
     "n": "44678",
     "exports": {
-      "queryId": "glA6pSvT8feKlvgSmpDXWg",
+      "queryId": "cDw92TZecrDMOSDyN9vzmw",
       "operationName": "ImmersiveMedia",
       "operationType": "query",
       "metadata": {
@@ -14208,7 +14321,8 @@
         "fieldToggles": [
           "withAuxiliaryUserLabels",
           "withArticleRichContentState",
-          "withArticlePlainText"
+          "withArticlePlainText",
+          "withGrokAnalyze"
         ],
         "featureSwitch": {
           "rweb_tipjar_consumption_enabled": {
@@ -14290,7 +14404,7 @@
   {
     "n": "28907",
     "exports": {
-      "queryId": "pNiUX2G_kP0-e67kUZWx_g",
+      "queryId": "w53ERw1CM2YIq0vkFspDhA",
       "operationName": "ImmersiveProfile",
       "operationType": "query",
       "metadata": {
@@ -14323,7 +14437,8 @@
         "fieldToggles": [
           "withAuxiliaryUserLabels",
           "withArticleRichContentState",
-          "withArticlePlainText"
+          "withArticlePlainText",
+          "withGrokAnalyze"
         ],
         "featureSwitch": {
           "rweb_tipjar_consumption_enabled": {
@@ -14405,7 +14520,7 @@
   {
     "n": "69345",
     "exports": {
-      "queryId": "k7FK6r3POAKaOFtHTi3ofA",
+      "queryId": "lqGgozjb8leOU4rSEs1CDw",
       "operationName": "Favoriters",
       "operationType": "query",
       "metadata": {
@@ -14438,7 +14553,8 @@
         "fieldToggles": [
           "withAuxiliaryUserLabels",
           "withArticleRichContentState",
-          "withArticlePlainText"
+          "withArticlePlainText",
+          "withGrokAnalyze"
         ],
         "featureSwitch": {
           "rweb_tipjar_consumption_enabled": {
@@ -14520,7 +14636,7 @@
   {
     "n": "23178",
     "exports": {
-      "queryId": "x3JP8YwxxwnjUB1S1etcpA",
+      "queryId": "AHFEyPpAfO37agVssy5Z3Q",
       "operationName": "Retweeters",
       "operationType": "query",
       "metadata": {
@@ -14553,7 +14669,8 @@
         "fieldToggles": [
           "withAuxiliaryUserLabels",
           "withArticleRichContentState",
-          "withArticlePlainText"
+          "withArticlePlainText",
+          "withGrokAnalyze"
         ],
         "featureSwitch": {
           "rweb_tipjar_consumption_enabled": {
@@ -14635,7 +14752,7 @@
   {
     "n": "28550",
     "exports": {
-      "queryId": "X_ga0sL73zWkhJZ6xSVnOg",
+      "queryId": "YpDgUGDPIvTokaDXAZPFwg",
       "operationName": "TweetEditHistory",
       "operationType": "query",
       "metadata": {
@@ -14668,6 +14785,7 @@
         "fieldToggles": [
           "withArticleRichContentState",
           "withArticlePlainText",
+          "withGrokAnalyze",
           "withAuxiliaryUserLabels"
         ],
         "featureSwitch": {
@@ -14763,7 +14881,7 @@
   {
     "n": "72752",
     "exports": {
-      "queryId": "dUVskcDfCYXkmzt7e099Dw",
+      "queryId": "5alOE_DEy-aq90rtoW2O8g",
       "operationName": "RitoFlaggedAccountsTimeline",
       "operationType": "query",
       "metadata": {
@@ -14796,7 +14914,8 @@
         "fieldToggles": [
           "withAuxiliaryUserLabels",
           "withArticleRichContentState",
-          "withArticlePlainText"
+          "withArticlePlainText",
+          "withGrokAnalyze"
         ],
         "featureSwitch": {
           "rweb_tipjar_consumption_enabled": {
@@ -14891,7 +15010,7 @@
   {
     "n": "72752",
     "exports": {
-      "queryId": "dUVskcDfCYXkmzt7e099Dw",
+      "queryId": "5alOE_DEy-aq90rtoW2O8g",
       "operationName": "RitoFlaggedAccountsTimeline",
       "operationType": "query",
       "metadata": {
@@ -14924,7 +15043,8 @@
         "fieldToggles": [
           "withAuxiliaryUserLabels",
           "withArticleRichContentState",
-          "withArticlePlainText"
+          "withArticlePlainText",
+          "withGrokAnalyze"
         ],
         "featureSwitch": {
           "rweb_tipjar_consumption_enabled": {
@@ -15055,7 +15175,7 @@
   {
     "n": "65938",
     "exports": {
-      "queryId": "zi4IL4VAdhhGZ6lx3RRL8g",
+      "queryId": "Ge7Bjj4yETnJ0IsIeMxScw",
       "operationName": "TVHomeMixer",
       "operationType": "query",
       "metadata": {
@@ -15088,7 +15208,8 @@
         "fieldToggles": [
           "withAuxiliaryUserLabels",
           "withArticleRichContentState",
-          "withArticlePlainText"
+          "withArticlePlainText",
+          "withGrokAnalyze"
         ],
         "featureSwitch": {
           "rweb_tipjar_consumption_enabled": {
@@ -15170,7 +15291,7 @@
   {
     "n": "08218",
     "exports": {
-      "queryId": "j4OvZTBQEtkHeLc9BQq8Ww",
+      "queryId": "O1fp5uIvJHNAiwhpZzSSbg",
       "operationName": "TVTrend",
       "operationType": "query",
       "metadata": {
@@ -15203,7 +15324,8 @@
         "fieldToggles": [
           "withAuxiliaryUserLabels",
           "withArticleRichContentState",
-          "withArticlePlainText"
+          "withArticlePlainText",
+          "withGrokAnalyze"
         ],
         "featureSwitch": {
           "rweb_tipjar_consumption_enabled": {
@@ -15285,7 +15407,7 @@
   {
     "n": "20739",
     "exports": {
-      "queryId": "sI6jOQEXZvjkW7gVAYAPwA",
+      "queryId": "g_VQI5cBZwNu1_bcjbgt7w",
       "operationName": "TVUserProfile",
       "operationType": "query",
       "metadata": {
@@ -15318,7 +15440,8 @@
         "fieldToggles": [
           "withAuxiliaryUserLabels",
           "withArticleRichContentState",
-          "withArticlePlainText"
+          "withArticlePlainText",
+          "withGrokAnalyze"
         ],
         "featureSwitch": {
           "rweb_tipjar_consumption_enabled": {
@@ -15400,7 +15523,7 @@
   {
     "n": "21577",
     "exports": {
-      "queryId": "sLIdtmFm-sqBI8FJXzFA4Q",
+      "queryId": "KBWeo7VY6quOX8oZiICnFg",
       "operationName": "TweetRelatedVideos",
       "operationType": "query",
       "metadata": {
@@ -15433,7 +15556,8 @@
         "fieldToggles": [
           "withAuxiliaryUserLabels",
           "withArticleRichContentState",
-          "withArticlePlainText"
+          "withArticlePlainText",
+          "withGrokAnalyze"
         ],
         "featureSwitch": {
           "rweb_tipjar_consumption_enabled": {
@@ -15565,7 +15689,7 @@
   {
     "n": "72752",
     "exports": {
-      "queryId": "dUVskcDfCYXkmzt7e099Dw",
+      "queryId": "5alOE_DEy-aq90rtoW2O8g",
       "operationName": "RitoFlaggedAccountsTimeline",
       "operationType": "query",
       "metadata": {
@@ -15598,7 +15722,8 @@
         "fieldToggles": [
           "withAuxiliaryUserLabels",
           "withArticleRichContentState",
-          "withArticlePlainText"
+          "withArticlePlainText",
+          "withGrokAnalyze"
         ],
         "featureSwitch": {
           "rweb_tipjar_consumption_enabled": {

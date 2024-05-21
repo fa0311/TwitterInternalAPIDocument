@@ -1838,8 +1838,8 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant              | value     |
 |:----------------------|:----------|
-| appBarHeight          | _         |
-| appBarHeightPx        | T         |
+| appBarHeight          | T         |
+| appBarHeightPx        | _         |
 | conversationLineWidth | M.space2  |
 | gutterHorizontal      | w.space16 |
 | gutterHorizontalPx    | M.space16 |
@@ -3391,7 +3391,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant                | value                   |
 |:------------------------|:------------------------|
-| ...t                    | _                       |
+| ...d                    | _                       |
 | CondensedTweet          | CondensedTweet          |
 | DeprecatedMediaFocus    | DeprecatedMediaFocus    |
 | EmphasizedPromotedTweet | EmphasizedPromotedTweet |
@@ -3468,13 +3468,13 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant         | value        |
 |:-----------------|:-------------|
-| see_more         | w().ffd9cfe6 |
-| discover_more    | w().d172116a |
-| more             | w().h63a5c3c |
-| more_tweets      | w().be5df69e |
-| more_suggestions | w().g11ebd34 |
-| browse           | w().g4a6901a |
-| browse_tweets    | w().h6453e74 |
+| see_more         | E().ffd9cfe6 |
+| discover_more    | E().d172116a |
+| more             | E().h63a5c3c |
+| more_tweets      | E().be5df69e |
+| more_suggestions | E().g11ebd34 |
+| browse           | E().g4a6901a |
+| browse_tweets    | E().h6453e74 |
 
 | constant          | value             |
 |:------------------|:------------------|
@@ -4110,7 +4110,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{[M.v.FOLLOWS]:"Q",[M.v.FRIENDS_OF_FRIENDS]:"U"}
+{[z.v.FOLLOWS]:"B",[z.v.FRIENDS_OF_FRIENDS]:"U"}
 ```
 | constant   | value   |
 |:-----------|:--------|
@@ -4670,8 +4670,8 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant   | value   |
 |:-----------|:--------|
-| MARKDOWN   | oa      |
-| PREVIEW    | sa      |
+| MARKDOWN   | sa      |
+| PREVIEW    | ca      |
 
 | constant    | value       |
 |:------------|:------------|
