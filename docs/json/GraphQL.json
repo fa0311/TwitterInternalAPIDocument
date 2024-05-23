@@ -5933,14 +5933,6 @@
           }
         }
       }
-    },
-    "func_name": "d",
-    "func_name_init": "s",
-    "query": {
-      "userId": "t.userId",
-      "withVoice": "!1",
-      "count": "1",
-      "includePromotedContent": "!1"
     }
   },
   {
@@ -15518,13 +15510,6 @@
           }
         }
       }
-    },
-    "func_name": "r",
-    "func_name_init": "l",
-    "query": {
-      "pinned_tweet_id": "(optional) t.pinned_tweet_id",
-      "page_name": "(optional) t.page_name",
-      "...()(0,_.d)": "_"
     }
   },
   {
@@ -15641,12 +15626,6 @@
           }
         }
       }
-    },
-    "func_name": "o",
-    "func_name_init": "a",
-    "query": {
-      "pinned_tweet_id": "(optional) t.pinned_tweet_id",
-      "...()(0,_.d)": "_"
     }
   },
   {

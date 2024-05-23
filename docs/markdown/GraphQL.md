@@ -2228,13 +2228,7 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key                    | type    | variable   |
-|:-----------------------|:--------|:-----------|
-| userId                 | ...     | t.userId   |
-| withVoice              | boolean | False      |
-| count                  | ...     | 1          |
-| includePromotedContent | boolean | False      |
-
+`None`<br>
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
@@ -6268,12 +6262,7 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key             | type   | variable                     |
-|:----------------|:-------|:-----------------------------|
-| pinned_tweet_id | ...    | (optional) t.pinned_tweet_id |
-| page_name       | ...    | (optional) t.page_name       |
-| ...()(0,_.d)    | ...    | _                            |
-
+`None`<br>
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
@@ -6310,11 +6299,7 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key             | type   | variable                     |
-|:----------------|:-------|:-----------------------------|
-| pinned_tweet_id | ...    | (optional) t.pinned_tweet_id |
-| ...()(0,_.d)    | ...    | _                            |
-
+`None`<br>
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|

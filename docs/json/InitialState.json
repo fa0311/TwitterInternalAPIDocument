@@ -5443,13 +5443,13 @@
           "value": "false"
         },
         "xprofile_work_history_consumption_enabled": {
-          "value": "false"
+          "value": "true"
         }
       },
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "39169fa4f5245a3eaa5e23ec04608e8d"
+      "settingsVersion": "ac49055a31bc91a76094c749c61ac5c3"
     },
     "debug": {},
     "featureSetToken": "1fbb96492a8455f1f1b9605e13b1202acc49b18b",
@@ -5522,7 +5522,7 @@
     "country": "XX",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "171632568018272682",
+    "guestId": "171641213707872329",
     "hasCommunityMemberships": "false",
     "language": "en",
     "ssoInitTokens": {},
