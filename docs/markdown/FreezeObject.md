@@ -1534,11 +1534,12 @@ This document is entirely auto-generated and may contain errors.<br>
 # Error
 {[a.xSmall]:".9",[a.small]:".95",[a.normal]:"1",[a.large]:"1.1",[a.xLarge]:"1.2"}
 ```
-| constant   | value   |
-|:-----------|:--------|
-| light      | light   |
-| dark       | dark    |
-| darker     | darker  |
+| constant   | value    |
+|:-----------|:---------|
+| light      | light    |
+| dark       | dark     |
+| darker     | darker   |
+| business   | business |
 
 | constant   | value      |
 |:-----------|:-----------|
@@ -1815,6 +1816,33 @@ This document is entirely auto-generated and may contain errors.<br>
 | badgeColorNew              | #264A9D                            |
 | whiteOnColor               | a.default.color.baseColor.gray1100 |
 | buttonOutlinedBorder       | a.default.color.baseColor.gray300  |
+
+| constant                        | value                              |
+|:--------------------------------|:-----------------------------------|
+| ...l()                          | _                                  |
+| activeFaintGray                 | rgba(t.CV.business)                |
+| activeBlack                     | o.bs.white(20, 29, 38, 0.7)        |
+| hoverBlack                      | o.bs.white(.07)                    |
+| navigationBackground            | #010c12                            |
+| navigationBackground95          | o.bs.dim(.03)                      |
+| cellBackground                  | #010c12                            |
+| borderColor                     | #38444D                            |
+| nestedBorderColor               | #38444D                            |
+| dmReceivedBubbleBackground      | #3D5466                            |
+| badgeColor                      | o.Cj                               |
+| badgeColorNew                   | a.default.color.baseColor.blue500  |
+| maskColor                       | o.bs.gray700(.95)                  |
+| hoverLabelColor                 | o.bs.gray700(.4)                   |
+| elevatedBackground              | #1C2C3C                            |
+| elevatedBackgroundShadow        | o.bs.dim(.8)                       |
+| brandColor                      | a.default.color.baseColor.gray0    |
+| whiteOnColor                    | o.Cj                               |
+| buttonBlack                     | a.default.color.baseColor.gray50   |
+| buttonWhite                     | a.default.color.baseColor.gray1100 |
+| buttonOutlinedBorder            | a.default.color.baseColor.gray700  |
+| buttonDestructionOutlinedBorder | #67070F                            |
+| appBarBackground                | o.bs.dim(.1)                       |
+| appBarFirefoxBackground         | o.bs.dim(.75)                      |
 
 | constant   | value               |
 |:-----------|:--------------------|
@@ -3894,11 +3922,12 @@ This document is entirely auto-generated and may contain errors.<br>
 | Invalid                   | invalid                   |
 | NotSet                    | notSet                    |
 
-| constant   | value   |
-|:-----------|:--------|
-| light      | default |
-| dark       | dim     |
-| darker     | dark    |
+| constant   | value    |
+|:-----------|:---------|
+| light      | default  |
+| dark       | dim      |
+| darker     | dark     |
+| business   | business |
 
 | constant    | value       |
 |:------------|:------------|
@@ -5902,7 +5931,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{[b.hA.switchFromDirect]:"m().dca6b3ac",[b.hA.generate]:"m().dca6b3ac",[b.hA.updateSeats]:"m().c97ad52a"}
+{[_.hA.switchFromDirect]:"m().dca6b3ac",[_.hA.generate]:"m().dca6b3ac",[_.hA.updateSeats]:"m().c97ad52a"}
 ```
 ```internal process
 # Error
