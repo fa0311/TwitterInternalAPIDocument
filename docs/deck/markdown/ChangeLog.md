@@ -2515,3 +2515,15 @@
 - xprofile_work_history_consumption_enabled<br>
 #### remove<br>
 - None<br>
+## 2024/05/28<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- responsive_web_trends_ui_community_notes_enabled<br>
+- responsive_web_verified_organizations_xbusiness_enabled<br>
+#### remove<br>
+- None<br>
