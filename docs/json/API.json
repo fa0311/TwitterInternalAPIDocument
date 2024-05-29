@@ -749,8 +749,8 @@
       }
     },
     "PinTimeline": {
-      "url": "https://x.com/i/api/graphql/iJn3WyDOHDmZWYBMDXFD5A/PinTimeline",
-      "queryId": "iJn3WyDOHDmZWYBMDXFD5A",
+      "url": "https://x.com/i/api/graphql/3XEJFF72E2QWKxEx_LRZ6A/PinTimeline",
+      "queryId": "3XEJFF72E2QWKxEx_LRZ6A",
       "method": "POST",
       "features": {
         "rweb_tipjar_consumption_enabled": true,
@@ -767,8 +767,8 @@
       "features": {}
     },
     "PinnedTimelines": {
-      "url": "https://x.com/i/api/graphql/jhQR0wHkD0C3HPVJipWVJA/PinnedTimelines",
-      "queryId": "jhQR0wHkD0C3HPVJipWVJA",
+      "url": "https://x.com/i/api/graphql/ysLyagsw6UwaLwGXh2UeAw/PinnedTimelines",
+      "queryId": "ysLyagsw6UwaLwGXh2UeAw",
       "method": "GET",
       "features": {
         "rweb_tipjar_consumption_enabled": true,
@@ -1280,8 +1280,8 @@
       "features": {}
     },
     "UnpinTimeline": {
-      "url": "https://x.com/i/api/graphql/5WE81TO98pARQzpLIVUtmw/UnpinTimeline",
-      "queryId": "5WE81TO98pARQzpLIVUtmw",
+      "url": "https://x.com/i/api/graphql/cux091xr3HsGhwqCIAsFcQ/UnpinTimeline",
+      "queryId": "cux091xr3HsGhwqCIAsFcQ",
       "method": "POST",
       "features": {
         "rweb_tipjar_consumption_enabled": true,
@@ -1296,18 +1296,6 @@
       "queryId": "BhKei844ypCyLYCg0nwigw",
       "method": "POST",
       "features": {}
-    },
-    "UpdatePinnedTimelines": {
-      "url": "https://x.com/i/api/graphql/YUUFGu66K-zP0eYoGK4wFQ/UpdatePinnedTimelines",
-      "queryId": "YUUFGu66K-zP0eYoGK4wFQ",
-      "method": "POST",
-      "features": {
-        "rweb_tipjar_consumption_enabled": true,
-        "responsive_web_graphql_exclude_directive_enabled": true,
-        "verified_phone_label_enabled": false,
-        "responsive_web_graphql_skip_user_profile_image_extensions_enabled": false,
-        "responsive_web_graphql_timeline_navigation_enabled": true
-      }
     },
     "UrtFixtures": {
       "url": "https://x.com/i/api/graphql/xabyu3IoN3foi9xz2iPnqg/UrtFixtures",
