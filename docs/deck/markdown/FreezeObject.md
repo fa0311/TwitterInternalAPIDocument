@@ -2685,11 +2685,12 @@ This document is entirely auto-generated and may contain errors.<br>
 # Error
 {[r.xSmall]:".9",[r.small]:".95",[r.normal]:"1",[r.large]:"1.1",[r.xLarge]:"1.2"}
 ```
-| constant   | value   |
-|:-----------|:--------|
-| light      | light   |
-| dark       | dark    |
-| darker     | darker  |
+| constant   | value    |
+|:-----------|:---------|
+| light      | light    |
+| dark       | dark     |
+| darker     | darker   |
+| business   | business |
 
 | constant   | value      |
 |:-----------|:-----------|
@@ -2957,7 +2958,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant                   | value                              |
 |:---------------------------|:-----------------------------------|
-| ...w                       | _                                  |
+| ...A                       | _                                  |
 | ...l()                     | _                                  |
 | text                       | o.Cj                               |
 | navigationBackground       | #050505                            |
@@ -2971,6 +2972,33 @@ This document is entirely auto-generated and may contain errors.<br>
 | badgeColorNew              | #264A9D                            |
 | whiteOnColor               | r.default.color.baseColor.gray1100 |
 | buttonOutlinedBorder       | r.default.color.baseColor.gray300  |
+
+| constant                        | value                              |
+|:--------------------------------|:-----------------------------------|
+| ...l()                          | _                                  |
+| activeFaintGray                 | rgba(a.CV.business)                |
+| activeBlack                     | o.bs.white(20, 29, 38, 0.7)        |
+| hoverBlack                      | o.bs.white(.07)                    |
+| navigationBackground            | #010c12                            |
+| navigationBackground95          | o.bs.dim(.03)                      |
+| cellBackground                  | #010c12                            |
+| borderColor                     | #38444D                            |
+| nestedBorderColor               | #38444D                            |
+| dmReceivedBubbleBackground      | #3D5466                            |
+| badgeColor                      | o.Cj                               |
+| badgeColorNew                   | r.default.color.baseColor.blue500  |
+| maskColor                       | o.bs.gray700(.95)                  |
+| hoverLabelColor                 | o.bs.gray700(.4)                   |
+| elevatedBackground              | #1C2C3C                            |
+| elevatedBackgroundShadow        | o.bs.dim(.8)                       |
+| brandColor                      | r.default.color.baseColor.gray0    |
+| whiteOnColor                    | o.Cj                               |
+| buttonBlack                     | r.default.color.baseColor.gray50   |
+| buttonWhite                     | r.default.color.baseColor.gray1100 |
+| buttonOutlinedBorder            | r.default.color.baseColor.gray700  |
+| buttonDestructionOutlinedBorder | #67070F                            |
+| appBarBackground                | o.bs.dim(.1)                       |
+| appBarFirefoxBackground         | o.bs.dim(.75)                      |
 
 | constant   | value               |
 |:-----------|:--------------------|
@@ -2996,11 +3024,11 @@ This document is entirely auto-generated and may contain errors.<br>
 |:----------------------|:----------|
 | appBarHeight          | v         |
 | appBarHeightPx        | y         |
-| conversationLineWidth | A.space2  |
-| gutterHorizontal      | w.space16 |
-| gutterHorizontalPx    | A.space16 |
-| gutterVertical        | w.space12 |
-| gutterVerticalPx      | A.space12 |
+| conversationLineWidth | w.space2  |
+| gutterHorizontal      | A.space16 |
+| gutterHorizontalPx    | w.space16 |
+| gutterVertical        | A.space12 |
+| gutterVerticalPx      | w.space12 |
 
 | constant            | value   |
 |:--------------------|:--------|
@@ -3020,8 +3048,8 @@ This document is entirely auto-generated and may contain errors.<br>
 | lineHeightsPx       | g       |
 | scales              | t       |
 | scaleMultiplier     | n       |
-| spaces              | w       |
-| spacesPx            | A       |
+| spaces              | A       |
+| spacesPx            | w       |
 
 ```internal process
 # Error
@@ -3173,7 +3201,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{[$a.onlyInvited]:"0",[$a.peopleYouFollow]:"1",[$a.everyone]:"2"}
+{[Xa.onlyInvited]:"0",[Xa.peopleYouFollow]:"1",[Xa.everyone]:"2"}
 ```
 | constant   | value             |
 |:-----------|:------------------|
@@ -4268,11 +4296,12 @@ This document is entirely auto-generated and may contain errors.<br>
 | Invalid                   | invalid                   |
 | NotSet                    | notSet                    |
 
-| constant   | value   |
-|:-----------|:--------|
-| light      | default |
-| dark       | dim     |
-| darker     | dark    |
+| constant   | value    |
+|:-----------|:---------|
+| light      | default  |
+| dark       | dim      |
+| darker     | dark     |
+| business   | business |
 
 | constant    | value       |
 |:------------|:------------|
@@ -4453,7 +4482,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{[z.v.FOLLOWS]:"B",[z.v.FRIENDS_OF_FRIENDS]:"U"}
+{[z.v.FOLLOWS]:"B",[z.v.FRIENDS_OF_FRIENDS]:"G"}
 ```
 | constant   | value   |
 |:-----------|:--------|
@@ -4699,12 +4728,6 @@ This document is entirely auto-generated and may contain errors.<br>
 | Running      | Running      |
 | TimedOut     | TimedOut     |
 
-| constant   | value                        |
-|:-----------|:-----------------------------|
-| REQUEST    | rweb/FETCH_BROADCAST/REQUEST |
-| SUCCESS    | rweb/FETCH_BROADCAST/SUCCESS |
-| FAILURE    | rweb/FETCH_BROADCAST/FAILURE |
-
 | constant                   |   value |
 |:---------------------------|--------:|
 | None                       |       0 |
@@ -4713,6 +4736,12 @@ This document is entirely auto-generated and may contain errors.<br>
 | VerifiedAccounts           |       3 |
 | AccountsBroadcasterFollows |       4 |
 | Subscribers                |       5 |
+
+| constant   | value                        |
+|:-----------|:-----------------------------|
+| REQUEST    | rweb/FETCH_BROADCAST/REQUEST |
+| SUCCESS    | rweb/FETCH_BROADCAST/SUCCESS |
+| FAILURE    | rweb/FETCH_BROADCAST/FAILURE |
 
 | constant         | value           |
 |:-----------------|:----------------|
@@ -6096,11 +6125,11 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{[b.hA.switchFromDirect]:"m().dca6b3ac",[b.hA.generate]:"m().dca6b3ac",[b.hA.updateSeats]:"m().c97ad52a"}
+{[_.hA.switchFromDirect]:"m().dca6b3ac",[_.hA.generate]:"m().dca6b3ac",[_.hA.updateSeats]:"m().c97ad52a"}
 ```
 ```internal process
 # Error
-{[L.hA.generate]:"E().fc1f43d0",[L.hA.switchFromDirect]:"E().fc1f43d0",[L.hA.updateSeats]:"E().c97ad52a"}
+{[x.hA.generate]:"E().fc1f43d0",[x.hA.switchFromDirect]:"E().fc1f43d0",[x.hA.updateSeats]:"E().c97ad52a"}
 ```
 | constant         | value            |
 |:-----------------|:-----------------|

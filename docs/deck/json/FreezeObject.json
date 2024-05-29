@@ -2570,7 +2570,8 @@
   {
     "light": "light",
     "dark": "dark",
-    "darker": "darker"
+    "darker": "darker",
+    "business": "business"
   },
   {
     "blue500": "blue500",
@@ -2821,7 +2822,7 @@
     "appBarFirefoxBackground": "o.bs.black(.65)"
   },
   {
-    "...w": "_",
+    "...A": "_",
     "...l()": "_",
     "text": "o.Cj",
     "navigationBackground": "#050505",
@@ -2835,6 +2836,32 @@
     "badgeColorNew": "#264A9D",
     "whiteOnColor": "r.default.color.baseColor.gray1100",
     "buttonOutlinedBorder": "r.default.color.baseColor.gray300"
+  },
+  {
+    "...l()": "_",
+    "activeFaintGray": "rgba(a.CV.business)",
+    "activeBlack": "o.bs.white(20, 29, 38, 0.7)",
+    "hoverBlack": "o.bs.white(.07)",
+    "navigationBackground": "#010c12",
+    "navigationBackground95": "o.bs.dim(.03)",
+    "cellBackground": "#010c12",
+    "borderColor": "#38444D",
+    "nestedBorderColor": "#38444D",
+    "dmReceivedBubbleBackground": "#3D5466",
+    "badgeColor": "o.Cj",
+    "badgeColorNew": "r.default.color.baseColor.blue500",
+    "maskColor": "o.bs.gray700(.95)",
+    "hoverLabelColor": "o.bs.gray700(.4)",
+    "elevatedBackground": "#1C2C3C",
+    "elevatedBackgroundShadow": "o.bs.dim(.8)",
+    "brandColor": "r.default.color.baseColor.gray0",
+    "whiteOnColor": "o.Cj",
+    "buttonBlack": "r.default.color.baseColor.gray50",
+    "buttonWhite": "r.default.color.baseColor.gray1100",
+    "buttonOutlinedBorder": "r.default.color.baseColor.gray700",
+    "buttonDestructionOutlinedBorder": "#67070F",
+    "appBarBackground": "o.bs.dim(.1)",
+    "appBarFirefoxBackground": "o.bs.dim(.75)"
   },
   {
     "space1": "h.spaces.space1",
@@ -2858,11 +2885,11 @@
   {
     "appBarHeight": "v",
     "appBarHeightPx": "y",
-    "conversationLineWidth": "A.space2",
-    "gutterHorizontal": "w.space16",
-    "gutterHorizontalPx": "A.space16",
-    "gutterVertical": "w.space12",
-    "gutterVerticalPx": "A.space12"
+    "conversationLineWidth": "w.space2",
+    "gutterHorizontal": "A.space16",
+    "gutterHorizontalPx": "w.space16",
+    "gutterVertical": "A.space12",
+    "gutterVerticalPx": "w.space12"
   },
   {
     "aspectRatios": "l",
@@ -2881,8 +2908,8 @@
     "lineHeightsPx": "g",
     "scales": "t",
     "scaleMultiplier": "n",
-    "spaces": "w",
-    "spacesPx": "A"
+    "spaces": "A",
+    "spacesPx": "w"
   },
   "{\"...h()\":{\"scale\":\"o\",\"scales\":\"l\"}\"at0\",g.obn,t,\"d\"}",
   {
@@ -3017,7 +3044,7 @@
     "peopleYouFollow": "peopleYouFollow",
     "everyone": "everyone"
   },
-  "{[$a.onlyInvited]:\"0\",[$a.peopleYouFollow]:\"1\",[$a.everyone]:\"2\"}",
+  "{[Xa.onlyInvited]:\"0\",[Xa.peopleYouFollow]:\"1\",[Xa.everyone]:\"2\"}",
   {
     "AUDIO": "visual_audio",
     "CONFERENCE": "conference_spaces",
@@ -4052,7 +4079,8 @@
   {
     "light": "default",
     "dark": "dim",
-    "darker": "dark"
+    "darker": "dark",
+    "business": "business"
   },
   {
     "passive": "PASSIVE",
@@ -4224,7 +4252,7 @@
     "navButtons": "navigationButtons",
     "carouselRoot": "carouselRoot"
   },
-  "{[z.v.FOLLOWS]:\"B\",[z.v.FRIENDS_OF_FRIENDS]:\"U\"}",
+  "{[z.v.FOLLOWS]:\"B\",[z.v.FRIENDS_OF_FRIENDS]:\"G\"}",
   {
     "Default": "Default",
     "Pivot": "Pivot",
@@ -4438,17 +4466,17 @@
     "TimedOut": "TimedOut"
   },
   {
-    "REQUEST": "rweb/FETCH_BROADCAST/REQUEST",
-    "SUCCESS": "rweb/FETCH_BROADCAST/SUCCESS",
-    "FAILURE": "rweb/FETCH_BROADCAST/FAILURE"
-  },
-  {
     "None": "0",
     "Off": "1",
     "Everyone": "2",
     "VerifiedAccounts": "3",
     "AccountsBroadcasterFollows": "4",
     "Subscribers": "5"
+  },
+  {
+    "REQUEST": "rweb/FETCH_BROADCAST/REQUEST",
+    "SUCCESS": "rweb/FETCH_BROADCAST/SUCCESS",
+    "FAILURE": "rweb/FETCH_BROADCAST/FAILURE"
   },
   {
     "LIVE_BROADCAST": "liveBroadcast",
@@ -5657,8 +5685,8 @@
     "fetchStatus": "$.ZP.NONE",
     "config": "Za"
   },
-  "{[b.hA.switchFromDirect]:\"m().dca6b3ac\",[b.hA.generate]:\"m().dca6b3ac\",[b.hA.updateSeats]:\"m().c97ad52a\"}",
-  "{[L.hA.generate]:\"E().fc1f43d0\",[L.hA.switchFromDirect]:\"E().fc1f43d0\",[L.hA.updateSeats]:\"E().c97ad52a\"}",
+  "{[_.hA.switchFromDirect]:\"m().dca6b3ac\",[_.hA.generate]:\"m().dca6b3ac\",[_.hA.updateSeats]:\"m().c97ad52a\"}",
+  "{[x.hA.generate]:\"E().fc1f43d0\",[x.hA.switchFromDirect]:\"E().fc1f43d0\",[x.hA.updateSeats]:\"E().c97ad52a\"}",
   {
     "generate": "generate",
     "updateSeats": "updateSeats",
