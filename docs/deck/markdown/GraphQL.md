@@ -2918,7 +2918,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## PinTimeline<br>
-Request URL: `https://x.com/i/api/graphql/iJn3WyDOHDmZWYBMDXFD5A/PinTimeline`<br>
+Request URL: `https://x.com/i/api/graphql/3XEJFF72E2QWKxEx_LRZ6A/PinTimeline`<br>
 Request Method: `POST`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -2947,7 +2947,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## PinnedTimelines<br>
-Request URL: `https://x.com/i/api/graphql/jhQR0wHkD0C3HPVJipWVJA/PinnedTimelines`<br>
+Request URL: `https://x.com/i/api/graphql/ysLyagsw6UwaLwGXh2UeAw/PinnedTimelines`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -3684,7 +3684,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## UnpinTimeline<br>
-Request URL: `https://x.com/i/api/graphql/5WE81TO98pARQzpLIVUtmw/UnpinTimeline`<br>
+Request URL: `https://x.com/i/api/graphql/cux091xr3HsGhwqCIAsFcQ/UnpinTimeline`<br>
 Request Method: `POST`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -3710,24 +3710,6 @@ Login Required: `...`<br>
 `None`<br>
 #### features<br>
 `None`<br>
-#### queryId<br>
-`None`<br>
-## UpdatePinnedTimelines<br>
-Request URL: `https://x.com/i/api/graphql/YUUFGu66K-zP0eYoGK4wFQ/UpdatePinnedTimelines`<br>
-Request Method: `POST`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-| key                                                               | type    | variable   |
-|:------------------------------------------------------------------|:--------|:-----------|
-| rweb_tipjar_consumption_enabled                                   | boolean | True       |
-| responsive_web_graphql_exclude_directive_enabled                  | boolean | True       |
-| verified_phone_label_enabled                                      | boolean | False      |
-| responsive_web_graphql_skip_user_profile_image_extensions_enabled | boolean | False      |
-| responsive_web_graphql_timeline_navigation_enabled                | boolean | True       |
-
 #### queryId<br>
 `None`<br>
 ## UrtFixtures<br>
