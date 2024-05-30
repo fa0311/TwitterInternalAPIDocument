@@ -1496,7 +1496,7 @@
         "value": "true"
       },
       "responsive_web_in_text_shortcuts_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "responsive_web_install_banner_show_immediate": {
         "value": "false"
@@ -5461,10 +5461,10 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "ea0366ac8633e1f66b24bc5bdc30756e"
+      "settingsVersion": "39169fa4f5245a3eaa5e23ec04608e8d"
     },
     "debug": {},
-    "featureSetToken": "c90b070c20613e4bd640e6adfd3cb528554ecf72",
+    "featureSetToken": "0e97b6cc532f2d5b1a04b08098f0bf13f6d54e52",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -5534,7 +5534,7 @@
     "country": "XX",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "171693053009281547",
+    "guestId": "171701684465372393",
     "hasCommunityMemberships": "false",
     "language": "en",
     "ssoInitTokens": {},

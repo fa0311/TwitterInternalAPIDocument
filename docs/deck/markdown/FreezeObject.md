@@ -1642,12 +1642,6 @@ This document is entirely auto-generated and may contain errors.<br>
 | SUCCESS    | rweb/pinnedTimelines/UNPIN_TIMELINE_SUCCESS |
 | FAILURE    | rweb/pinnedTimelines/UNPIN_TIMELINE_FAILURE |
 
-| constant   | value                                                |
-|:-----------|:-----------------------------------------------------|
-| REQUEST    | rweb/pinnedTimelines/UPDATE_PINNED_TIMELINES_REQUEST |
-| SUCCESS    | rweb/pinnedTimelines/UPDATE_PINNED_TIMELINES_SUCCESS |
-| FAILURE    | rweb/pinnedTimelines/UPDATE_PINNED_TIMELINES_FAILURE |
-
 | constant              | value                 |
 |:----------------------|:----------------------|
 | HOME                  | home                  |
@@ -1661,8 +1655,9 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant   | value   |
 |:-----------|:--------|
+| ...l       | _       |
 | ...i       | _       |
-| ...s       | _       |
+| GENERIC    | Generic |
 
 | constant   | value     |
 |:-----------|:----------|
@@ -1672,23 +1667,23 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant   | value   |
 |:-----------|:--------|
-| type       | u.HOME  |
+| type       | s.HOME  |
 
 | constant   | value         |
 |:-----------|:--------------|
-| type       | u.HOME_LATEST |
+| type       | s.HOME_LATEST |
 
 | constant   | value                   |
 |:-----------|:------------------------|
-| type       | u.CREATOR_SUBSCRIPTIONS |
+| type       | s.CREATOR_SUBSCRIPTIONS |
 
 ```internal process
 # Error
-{[u.HOME]:"home",[u.HOME_LATEST]:"latest",[u.LIST]:"pinned_list",[u.CREATOR_SUBSCRIPTIONS]:"subscribed",[u.COMMUNITY]:"community"}
+{[s.HOME]:"home",[s.HOME_LATEST]:"latest",[s.LIST]:"pinned_list",[s.CREATOR_SUBSCRIPTIONS]:"subscribed",[s.COMMUNITY]:"community",[s.GENERIC]:"generic"}
 ```
 | constant         | value          |
 |:-----------------|:---------------|
-| fetchStatus      | M.ZP.NONE      |
+| fetchStatus      | f.ZP.NONE      |
 | selectedTimeline | d.oO           |
 | sort             | d.UO.RELEVANCE |
 | timelines        | []             |
@@ -3605,6 +3600,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | ContentYouSee                    | ContentYouSee                    |
 | CookiePreferences                | CookiePreferences                |
 | Country                          | Country                          |
+| CreatorSubscriptionsIDV          | CreatorSubscriptionsIDV          |
 | Data                             | Data                             |
 | DataDownload                     | DataDownload                     |
 | DataSharingWithBusinessPartners  | DataSharingWithBusinessPartners  |

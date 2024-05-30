@@ -1022,12 +1022,6 @@ This document is entirely auto-generated and may contain errors.<br>
 | SUCCESS    | rweb/pinnedTimelines/UNPIN_TIMELINE_SUCCESS |
 | FAILURE    | rweb/pinnedTimelines/UNPIN_TIMELINE_FAILURE |
 
-| constant   | value                                                |
-|:-----------|:-----------------------------------------------------|
-| REQUEST    | rweb/pinnedTimelines/UPDATE_PINNED_TIMELINES_REQUEST |
-| SUCCESS    | rweb/pinnedTimelines/UPDATE_PINNED_TIMELINES_SUCCESS |
-| FAILURE    | rweb/pinnedTimelines/UPDATE_PINNED_TIMELINES_FAILURE |
-
 | constant              | value                 |
 |:----------------------|:----------------------|
 | HOME                  | home                  |
@@ -1041,8 +1035,9 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant   | value   |
 |:-----------|:--------|
+| ...l       | _       |
 | ...i       | _       |
-| ...u       | _       |
+| GENERIC    | Generic |
 
 | constant   | value     |
 |:-----------|:----------|
@@ -1052,23 +1047,23 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant   | value   |
 |:-----------|:--------|
-| type       | s.HOME  |
+| type       | u.HOME  |
 
 | constant   | value         |
 |:-----------|:--------------|
-| type       | s.HOME_LATEST |
+| type       | u.HOME_LATEST |
 
 | constant   | value                   |
 |:-----------|:------------------------|
-| type       | s.CREATOR_SUBSCRIPTIONS |
+| type       | u.CREATOR_SUBSCRIPTIONS |
 
 ```internal process
 # Error
-{[s.HOME]:"home",[s.HOME_LATEST]:"latest",[s.LIST]:"pinned_list",[s.CREATOR_SUBSCRIPTIONS]:"subscribed",[s.COMMUNITY]:"community"}
+{[u.HOME]:"home",[u.HOME_LATEST]:"latest",[u.LIST]:"pinned_list",[u.CREATOR_SUBSCRIPTIONS]:"subscribed",[u.COMMUNITY]:"community",[u.GENERIC]:"generic"}
 ```
 | constant         | value          |
 |:-----------------|:---------------|
-| fetchStatus      | v.ZP.NONE      |
+| fetchStatus      | g.ZP.NONE      |
 | selectedTimeline | r.oO           |
 | sort             | r.UO.RELEVANCE |
 | timelines        | []             |
@@ -2105,6 +2100,26 @@ This document is entirely auto-generated and may contain errors.<br>
 | name       | name    |
 | none       | none    |
 
+| constant      | value        |
+|:--------------|:-------------|
+| superFollower | h().fc065ee4 |
+
+| constant      | value                                                                                                                                                                                                                  |
+|:--------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| superFollower | {'graphic': 'p.default', 'headline': 'h().e453f536', 'subtext': 'h().bd4cb7a0', 'actionLabel': 'h().g7099a02', 'actionLink': 'https://help.x.com/using-twitter/subscriptions', 'secondaryActionLabel': 'h().c2637ef6'} |
+
+| constant        | value        |
+|:----------------|:-------------|
+| followsYou      | h().efb17190 |
+| superFollowsYou | h().g57b5f6c |
+| superFollower   | h().a77a27c0 |
+
+| constant        | value   |
+|:----------------|:--------|
+| followsYou      | gray700 |
+| superFollowsYou | plum700 |
+| superFollower   | plum700 |
+
 | constant     | value       |
 |:-------------|:------------|
 | INITIAL      | initial     |
@@ -2165,26 +2180,6 @@ This document is entirely auto-generated and may contain errors.<br>
 | TextOnly             | TextOnly             |
 | Topic                | Topic                |
 | Trending             | Trending             |
-
-| constant      | value        |
-|:--------------|:-------------|
-| superFollower | m().fc065ee4 |
-
-| constant      | value                                                                                                                                                                                                                  |
-|:--------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| superFollower | {'graphic': 'p.default', 'headline': 'm().e453f536', 'subtext': 'm().bd4cb7a0', 'actionLabel': 'm().g7099a02', 'actionLink': 'https://help.x.com/using-twitter/subscriptions', 'secondaryActionLabel': 'm().c2637ef6'} |
-
-| constant        | value        |
-|:----------------|:-------------|
-| followsYou      | m().efb17190 |
-| superFollowsYou | m().g57b5f6c |
-| superFollower   | m().a77a27c0 |
-
-| constant        | value   |
-|:----------------|:--------|
-| followsYou      | gray700 |
-| superFollowsYou | plum700 |
-| superFollower   | plum700 |
 
 | constant           | value          |
 |:-------------------|:---------------|
@@ -3723,6 +3718,26 @@ This document is entirely auto-generated and may contain errors.<br>
 # Error
 {[I.VerificationCheck]:"function()"{if()throw new Error(3!==e.length);const[a,t,n]=e;return[{"width":"400","height":"200","uri":"a"},{"width":"800","height":"400","uri":"t"},{"width":"1200","height":"600","uri":"n"}]}"()"}
 ```
+| constant      | value        |
+|:--------------|:-------------|
+| superFollower | u().fc065ee4 |
+
+| constant      | value                                                                                                                                                                                                                  |
+|:--------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| superFollower | {'graphic': 'p.default', 'headline': 'u().e453f536', 'subtext': 'u().bd4cb7a0', 'actionLabel': 'u().g7099a02', 'actionLink': 'https://help.x.com/using-twitter/subscriptions', 'secondaryActionLabel': 'u().c2637ef6'} |
+
+| constant        | value        |
+|:----------------|:-------------|
+| followsYou      | u().efb17190 |
+| superFollowsYou | u().g57b5f6c |
+| superFollower   | u().a77a27c0 |
+
+| constant        | value   |
+|:----------------|:--------|
+| followsYou      | gray700 |
+| superFollowsYou | plum700 |
+| superFollower   | plum700 |
+
 | constant   | value     |
 |:-----------|:----------|
 | follow     | follow    |
@@ -3914,6 +3929,26 @@ This document is entirely auto-generated and may contain errors.<br>
 | Active     | active  |
 | Expand     | expand  |
 | Remove     | remove  |
+
+| constant      | value        |
+|:--------------|:-------------|
+| superFollower | u().fc065ee4 |
+
+| constant      | value                                                                                                                                                                                                                  |
+|:--------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| superFollower | {'graphic': 'p.default', 'headline': 'u().e453f536', 'subtext': 'u().bd4cb7a0', 'actionLabel': 'u().g7099a02', 'actionLink': 'https://help.x.com/using-twitter/subscriptions', 'secondaryActionLabel': 'u().c2637ef6'} |
+
+| constant        | value        |
+|:----------------|:-------------|
+| followsYou      | u().efb17190 |
+| superFollowsYou | u().g57b5f6c |
+| superFollower   | u().a77a27c0 |
+
+| constant        | value   |
+|:----------------|:--------|
+| followsYou      | gray700 |
+| superFollowsYou | plum700 |
+| superFollower   | plum700 |
 
 | constant                  | value                     |
 |:--------------------------|:--------------------------|
@@ -4121,6 +4156,26 @@ This document is entirely auto-generated and may contain errors.<br>
 | ParticipantsLeave      | i.Cr.PARTICIPANTS_LEAVE       |
 | ConversationNameUpdate | i.Cr.CONVERSATION_NAME_UPDATE |
 | JoinConversation       | i.Cr.JOIN_CONVERSATION        |
+
+| constant      | value        |
+|:--------------|:-------------|
+| superFollower | m().fc065ee4 |
+
+| constant      | value                                                                                                                                                                                                                  |
+|:--------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| superFollower | {'graphic': 'h.default', 'headline': 'm().e453f536', 'subtext': 'm().bd4cb7a0', 'actionLabel': 'm().g7099a02', 'actionLink': 'https://help.x.com/using-twitter/subscriptions', 'secondaryActionLabel': 'm().c2637ef6'} |
+
+| constant        | value        |
+|:----------------|:-------------|
+| followsYou      | m().efb17190 |
+| superFollowsYou | m().g57b5f6c |
+| superFollower   | m().a77a27c0 |
+
+| constant        | value   |
+|:----------------|:--------|
+| followsYou      | gray700 |
+| superFollowsYou | plum700 |
+| superFollower   | plum700 |
 
 | constant   |   value |
 |:-----------|--------:|
@@ -5788,6 +5843,26 @@ This document is entirely auto-generated and may contain errors.<br>
 | CONVERSATION | conversation |
 | TIMELINE     | timeline     |
 
+| constant      | value        |
+|:--------------|:-------------|
+| superFollower | m().fc065ee4 |
+
+| constant      | value                                                                                                                                                                                                                  |
+|:--------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| superFollower | {'graphic': 'p.default', 'headline': 'm().e453f536', 'subtext': 'm().bd4cb7a0', 'actionLabel': 'm().g7099a02', 'actionLink': 'https://help.x.com/using-twitter/subscriptions', 'secondaryActionLabel': 'm().c2637ef6'} |
+
+| constant        | value        |
+|:----------------|:-------------|
+| followsYou      | m().efb17190 |
+| superFollowsYou | m().g57b5f6c |
+| superFollower   | m().a77a27c0 |
+
+| constant        | value   |
+|:----------------|:--------|
+| followsYou      | gray700 |
+| superFollowsYou | plum700 |
+| superFollower   | plum700 |
+
 | constant   | value                                            |
 |:-----------|:-------------------------------------------------|
 | REQUEST    | rweb/oAuthConsent/FETCH_CONSENT_METADATA_REQUEST |
@@ -5799,6 +5874,26 @@ This document is entirely auto-generated and may contain errors.<br>
 | REQUEST    | rweb/oAuthConsent/POST_CONSENT_REQUEST |
 | SUCCESS    | rweb/oAuthConsent/POST_CONSENT_SUCCESS |
 | FAILURE    | rweb/oAuthConsent/POST_CONSENT_FAILURE |
+
+| constant      | value        |
+|:--------------|:-------------|
+| superFollower | p().fc065ee4 |
+
+| constant      | value                                                                                                                                                                                                                  |
+|:--------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| superFollower | {'graphic': 'm.default', 'headline': 'p().e453f536', 'subtext': 'p().bd4cb7a0', 'actionLabel': 'p().g7099a02', 'actionLink': 'https://help.x.com/using-twitter/subscriptions', 'secondaryActionLabel': 'p().c2637ef6'} |
+
+| constant        | value        |
+|:----------------|:-------------|
+| followsYou      | p().efb17190 |
+| superFollowsYou | p().g57b5f6c |
+| superFollower   | p().a77a27c0 |
+
+| constant        | value   |
+|:----------------|:--------|
+| followsYou      | gray700 |
+| superFollowsYou | plum700 |
+| superFollower   | plum700 |
 
 | constant                        | value                           |
 |:--------------------------------|:--------------------------------|
@@ -6395,6 +6490,26 @@ This document is entirely auto-generated and may contain errors.<br>
 # Error
 {[a.wide]:"500",[a.narrow]:"285",[a.veryNarrow]:"200"}
 ```
+| constant      | value        |
+|:--------------|:-------------|
+| superFollower | m().fc065ee4 |
+
+| constant      | value                                                                                                                                                                                                                  |
+|:--------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| superFollower | {'graphic': 'g.default', 'headline': 'm().e453f536', 'subtext': 'm().bd4cb7a0', 'actionLabel': 'm().g7099a02', 'actionLink': 'https://help.x.com/using-twitter/subscriptions', 'secondaryActionLabel': 'm().c2637ef6'} |
+
+| constant        | value        |
+|:----------------|:-------------|
+| followsYou      | m().efb17190 |
+| superFollowsYou | m().g57b5f6c |
+| superFollower   | m().a77a27c0 |
+
+| constant        | value   |
+|:----------------|:--------|
+| followsYou      | gray700 |
+| superFollowsYou | plum700 |
+| superFollower   | plum700 |
+
 | constant   | value                                                                                                                |
 |:-----------|:---------------------------------------------------------------------------------------------------------------------|
 | apple      | https://apps.apple.com/account/billing                                                                               |
@@ -6782,6 +6897,11 @@ This document is entirely auto-generated and may contain errors.<br>
 | CONVERSATION | conversation |
 | TIMELINE     | timeline     |
 
+| constant   | value    |
+|:-----------|:---------|
+| Fixed      | fixed    |
+| Variable   | variable |
+
 | constant           | value   |
 |:-------------------|:--------|
 | full_time          | o       |
@@ -6809,12 +6929,52 @@ This document is entirely auto-generated and may contain errors.<br>
 | Pinning    | Pinning    |
 | Reordering | Reordering |
 
+| constant      | value        |
+|:--------------|:-------------|
+| superFollower | m().fc065ee4 |
+
+| constant      | value                                                                                                                                                                                                                  |
+|:--------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| superFollower | {'graphic': 'p.default', 'headline': 'm().e453f536', 'subtext': 'm().bd4cb7a0', 'actionLabel': 'm().g7099a02', 'actionLink': 'https://help.x.com/using-twitter/subscriptions', 'secondaryActionLabel': 'm().c2637ef6'} |
+
+| constant        | value        |
+|:----------------|:-------------|
+| followsYou      | m().efb17190 |
+| superFollowsYou | m().g57b5f6c |
+| superFollower   | m().a77a27c0 |
+
+| constant        | value   |
+|:----------------|:--------|
+| followsYou      | gray700 |
+| superFollowsYou | plum700 |
+| superFollower   | plum700 |
+
 | constant          | value             |
 |:------------------|:------------------|
 | CompactPrompt     | compactPrompt     |
 | HeaderImagePrompt | headerImagePrompt |
 | InlinePrompt      | inlinePrompt      |
 | LargePrompt       | largePrompt       |
+
+| constant      | value        |
+|:--------------|:-------------|
+| superFollower | u().fc065ee4 |
+
+| constant      | value                                                                                                                                                                                                                  |
+|:--------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| superFollower | {'graphic': 'p.default', 'headline': 'u().e453f536', 'subtext': 'u().bd4cb7a0', 'actionLabel': 'u().g7099a02', 'actionLink': 'https://help.x.com/using-twitter/subscriptions', 'secondaryActionLabel': 'u().c2637ef6'} |
+
+| constant        | value        |
+|:----------------|:-------------|
+| followsYou      | u().efb17190 |
+| superFollowsYou | u().g57b5f6c |
+| superFollower   | u().a77a27c0 |
+
+| constant        | value   |
+|:----------------|:--------|
+| followsYou      | gray700 |
+| superFollowsYou | plum700 |
+| superFollower   | plum700 |
 
 | constant       | value        |
 |:---------------|:-------------|
@@ -6839,6 +6999,26 @@ This document is entirely auto-generated and may contain errors.<br>
 | ON_LIKE        | onLike       |
 | ON_FOLLOW      | onFollow     |
 
+| constant      | value        |
+|:--------------|:-------------|
+| superFollower | m().fc065ee4 |
+
+| constant      | value                                                                                                                                                                                                                  |
+|:--------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| superFollower | {'graphic': 'p.default', 'headline': 'm().e453f536', 'subtext': 'm().bd4cb7a0', 'actionLabel': 'm().g7099a02', 'actionLink': 'https://help.x.com/using-twitter/subscriptions', 'secondaryActionLabel': 'm().c2637ef6'} |
+
+| constant        | value        |
+|:----------------|:-------------|
+| followsYou      | m().efb17190 |
+| superFollowsYou | m().g57b5f6c |
+| superFollower   | m().a77a27c0 |
+
+| constant        | value   |
+|:----------------|:--------|
+| followsYou      | gray700 |
+| superFollowsYou | plum700 |
+| superFollower   | plum700 |
+
 | constant   | value      |
 |:-----------|:-----------|
 | Scheduled  | Scheduled  |
@@ -6848,6 +7028,26 @@ This document is entirely auto-generated and may contain errors.<br>
 | Cancelled  | Cancelled  |
 | Unused6    | _Unused6   |
 | Unused7    | _Unused7   |
+
+| constant      | value        |
+|:--------------|:-------------|
+| superFollower | m().fc065ee4 |
+
+| constant      | value                                                                                                                                                                                                                  |
+|:--------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| superFollower | {'graphic': 'p.default', 'headline': 'm().e453f536', 'subtext': 'm().bd4cb7a0', 'actionLabel': 'm().g7099a02', 'actionLink': 'https://help.x.com/using-twitter/subscriptions', 'secondaryActionLabel': 'm().c2637ef6'} |
+
+| constant        | value        |
+|:----------------|:-------------|
+| followsYou      | m().efb17190 |
+| superFollowsYou | m().g57b5f6c |
+| superFollower   | m().a77a27c0 |
+
+| constant        | value   |
+|:----------------|:--------|
+| followsYou      | gray700 |
+| superFollowsYou | plum700 |
+| superFollower   | plum700 |
 
 | constant   | value                            |
 |:-----------|:---------------------------------|

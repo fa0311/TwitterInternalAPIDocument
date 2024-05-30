@@ -1541,11 +1541,6 @@
     "FAILURE": "rweb/pinnedTimelines/UNPIN_TIMELINE_FAILURE"
   },
   {
-    "REQUEST": "rweb/pinnedTimelines/UPDATE_PINNED_TIMELINES_REQUEST",
-    "SUCCESS": "rweb/pinnedTimelines/UPDATE_PINNED_TIMELINES_SUCCESS",
-    "FAILURE": "rweb/pinnedTimelines/UPDATE_PINNED_TIMELINES_FAILURE"
-  },
-  {
     "HOME": "home",
     "HOME_LATEST": "home_latest",
     "CREATOR_SUBSCRIPTIONS": "creator_subscriptions"
@@ -1555,8 +1550,9 @@
     "LIST": "List"
   },
   {
+    "...l": "_",
     "...i": "_",
-    "...s": "_"
+    "GENERIC": "Generic"
   },
   {
     "LIKES": "Likes",
@@ -1564,17 +1560,17 @@
     "RELEVANCE": "Relevance"
   },
   {
-    "type": "u.HOME"
+    "type": "s.HOME"
   },
   {
-    "type": "u.HOME_LATEST"
+    "type": "s.HOME_LATEST"
   },
   {
-    "type": "u.CREATOR_SUBSCRIPTIONS"
+    "type": "s.CREATOR_SUBSCRIPTIONS"
   },
-  "{[u.HOME]:\"home\",[u.HOME_LATEST]:\"latest\",[u.LIST]:\"pinned_list\",[u.CREATOR_SUBSCRIPTIONS]:\"subscribed\",[u.COMMUNITY]:\"community\"}",
+  "{[s.HOME]:\"home\",[s.HOME_LATEST]:\"latest\",[s.LIST]:\"pinned_list\",[s.CREATOR_SUBSCRIPTIONS]:\"subscribed\",[s.COMMUNITY]:\"community\",[s.GENERIC]:\"generic\"}",
   {
-    "fetchStatus": "M.ZP.NONE",
+    "fetchStatus": "f.ZP.NONE",
     "selectedTimeline": "d.oO",
     "sort": "d.UO.RELEVANCE",
     "timelines": []
@@ -3411,6 +3407,7 @@
     "ContentYouSee": "ContentYouSee",
     "CookiePreferences": "CookiePreferences",
     "Country": "Country",
+    "CreatorSubscriptionsIDV": "CreatorSubscriptionsIDV",
     "Data": "Data",
     "DataDownload": "DataDownload",
     "DataSharingWithBusinessPartners": "DataSharingWithBusinessPartners",

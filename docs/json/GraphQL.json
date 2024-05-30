@@ -2603,7 +2603,7 @@
   {
     "n": "82042",
     "exports": {
-      "queryId": "iJn3WyDOHDmZWYBMDXFD5A",
+      "queryId": "3XEJFF72E2QWKxEx_LRZ6A",
       "operationName": "PinTimeline",
       "operationType": "mutation",
       "metadata": {
@@ -2653,7 +2653,7 @@
   {
     "n": "45980",
     "exports": {
-      "queryId": "jhQR0wHkD0C3HPVJipWVJA",
+      "queryId": "ysLyagsw6UwaLwGXh2UeAw",
       "operationName": "PinnedTimelines",
       "operationType": "query",
       "metadata": {
@@ -4414,7 +4414,7 @@
   {
     "n": "75204",
     "exports": {
-      "queryId": "5WE81TO98pARQzpLIVUtmw",
+      "queryId": "cux091xr3HsGhwqCIAsFcQ",
       "operationName": "UnpinTimeline",
       "operationType": "mutation",
       "metadata": {
@@ -4458,43 +4458,6 @@
         "featureSwitches": [],
         "fieldToggles": [],
         "featureSwitch": {}
-      }
-    }
-  },
-  {
-    "n": "53393",
-    "exports": {
-      "queryId": "YUUFGu66K-zP0eYoGK4wFQ",
-      "operationName": "UpdatePinnedTimelines",
-      "operationType": "mutation",
-      "metadata": {
-        "featureSwitches": [
-          "rweb_tipjar_consumption_enabled",
-          "responsive_web_graphql_exclude_directive_enabled",
-          "verified_phone_label_enabled",
-          "responsive_web_graphql_skip_user_profile_image_extensions_enabled",
-          "responsive_web_graphql_timeline_navigation_enabled"
-        ],
-        "fieldToggles": [
-          "withAuxiliaryUserLabels"
-        ],
-        "featureSwitch": {
-          "rweb_tipjar_consumption_enabled": {
-            "value": "true"
-          },
-          "responsive_web_graphql_exclude_directive_enabled": {
-            "value": "true"
-          },
-          "verified_phone_label_enabled": {
-            "value": "false"
-          },
-          "responsive_web_graphql_skip_user_profile_image_extensions_enabled": {
-            "value": "false"
-          },
-          "responsive_web_graphql_timeline_navigation_enabled": {
-            "value": "true"
-          }
-        }
       }
     }
   },
