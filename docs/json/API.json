@@ -3696,8 +3696,8 @@
       "features": {}
     },
     "AiTrendByRestId": {
-      "url": "https://x.com/i/api/graphql/t4E8-zyZLMM9fQ0YPK7V7Q/AiTrendByRestId",
-      "queryId": "t4E8-zyZLMM9fQ0YPK7V7Q",
+      "url": "https://x.com/i/api/graphql/LYNkyxoOf4rvg96ttWFJow/AiTrendByRestId",
+      "queryId": "LYNkyxoOf4rvg96ttWFJow",
       "method": "GET",
       "features": {
         "creator_subscriptions_tweet_preview_api_enabled": true,
