@@ -991,6 +991,9 @@
       "media_async_upload_amplify_duration_threshold": {
         "value": "600"
       },
+      "media_async_upload_longer_dm_video_max_video_duration": {
+        "value": "600"
+      },
       "media_async_upload_longer_video_max_video_duration": {
         "value": "14460"
       },
@@ -1229,6 +1232,9 @@
         "value": "false"
       },
       "responsive_web_birdwatch_country_allowed": {
+        "value": "true"
+      },
+      "responsive_web_birdwatch_match_page_enabled": {
         "value": "true"
       },
       "responsive_web_birdwatch_media_notes_enabled": {
@@ -3669,6 +3675,9 @@
         "media_async_upload_amplify_duration_threshold": {
           "value": "600"
         },
+        "media_async_upload_longer_dm_video_max_video_duration": {
+          "value": "600"
+        },
         "media_async_upload_longer_video_max_video_duration": {
           "value": "14460"
         },
@@ -3907,6 +3916,9 @@
           "value": "false"
         },
         "responsive_web_birdwatch_country_allowed": {
+          "value": "true"
+        },
+        "responsive_web_birdwatch_match_page_enabled": {
           "value": "true"
         },
         "responsive_web_birdwatch_media_notes_enabled": {
@@ -5446,13 +5458,13 @@
           "value": "false"
         },
         "xprofile_consumption_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "xprofile_editing_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "xprofile_emojis_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "xprofile_work_history_consumption_enabled": {
           "value": "true"
@@ -5461,10 +5473,10 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "39169fa4f5245a3eaa5e23ec04608e8d"
+      "settingsVersion": "891f6146bb3cf65ae004b7c2542a23fa"
     },
     "debug": {},
-    "featureSetToken": "0e97b6cc532f2d5b1a04b08098f0bf13f6d54e52",
+    "featureSetToken": "8729c787fd0fa3aedca55337d062f19f3353b58d",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -5534,7 +5546,7 @@
     "country": "XX",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "171736250099536388",
+    "guestId": "171744893586909228",
     "hasCommunityMemberships": "false",
     "language": "en",
     "ssoInitTokens": {},
