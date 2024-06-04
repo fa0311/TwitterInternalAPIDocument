@@ -43,7 +43,7 @@ json.dumps({
 ```
 `json.dumps` is equivalent to `JSON.stringify` in javaScript<br>
 ## AiTrendByRestId<br>
-Request URL: `https://x.com/i/api/graphql/t4E8-zyZLMM9fQ0YPK7V7Q/AiTrendByRestId`<br>
+Request URL: `https://x.com/i/api/graphql/LYNkyxoOf4rvg96ttWFJow/AiTrendByRestId`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -96,7 +96,12 @@ Request Method: `POST`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-`None`<br>
+| key               | type   | variable                               |
+|:------------------|:-------|:---------------------------------------|
+| articleEntityId   | ...    | i                                      |
+| visibilitySetting | ...    | s                                      |
+| ...r&&            | ...    | {'conversationControl': {'mode': 'r'}} |
+
 #### features<br>
 `None`<br>
 #### queryId<br>
@@ -673,7 +678,15 @@ Request Method: `POST`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-`None`<br>
+| key           | type   | variable   |
+|:--------------|:-------|:-----------|
+| name          | ...    | o          |
+| description   | ...    | r          |
+| joinPolicy    | ...    | a          |
+| invitesPolicy | ...    | d          |
+| question      | ...    | l          |
+| ...()(0,Xn.S) | ...    | _          |
+
 #### features<br>
 | key                                                               | type    | variable   |
 |:------------------------------------------------------------------|:--------|:-----------|
@@ -1124,7 +1137,12 @@ Request Method: `POST`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-`None`<br>
+| key           | type   | variable      |
+|:--------------|:-------|:--------------|
+| communityId   | ...    | t.communityId |
+| answer        | ...    | t.answer      |
+| ...()(0,Xn.S) | ...    | _             |
+
 #### features<br>
 | key                                                               | type    | variable   |
 |:------------------------------------------------------------------|:--------|:-----------|
@@ -1347,7 +1365,13 @@ Request Method: `POST`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-`None`<br>
+| key                      | type   | variable    |
+|:-------------------------|:-------|:------------|
+| cursor                   | ...    | n           |
+| rest_id                  | ...    | a           |
+| ...()(0,g.d)             | ...    | _           |
+| withSafetyModeUserFields | ...    | t.isTrue(t) |
+
 #### features<br>
 `None`<br>
 #### queryId<br>
@@ -1555,7 +1579,10 @@ Request Method: `POST`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-`None`<br>
+| key             | type   | variable   |
+|:----------------|:-------|:-----------|
+| articleEntityId | ...    | i          |
+
 #### features<br>
 `None`<br>
 #### queryId<br>
@@ -2625,7 +2652,10 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-`None`<br>
+```internal process
+# Error
+{"rawQuery":l||"","count":"t","cursor":"r","querySource":"o","...()(0,a.d)":"_"}
+```
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
@@ -2849,7 +2879,10 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-`None`<br>
+```internal process
+# Error
+{"articleEntityId":"i","coverMedia":"s&&r?"{"media_id":"s","media_category":"r"}:"void 0"}
+```
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
@@ -3217,7 +3250,10 @@ Request Method: `POST`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-`None`<br>
+| key     | type   | variable   |
+|:--------|:-------|:-----------|
+| topicId | ...    | r          |
+
 #### features<br>
 `None`<br>
 #### queryId<br>
@@ -3582,7 +3618,10 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-`None`<br>
+| key    | type   | variable   |
+|:-------|:-------|:-----------|
+| userId | ...    | n          |
+
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
@@ -3792,7 +3831,15 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-`None`<br>
+| key                    | type    | variable    |
+|:-----------------------|:--------|:------------|
+| userId                 | ...     | a           |
+| count                  | ...     | t           |
+| cursor                 | ...     | r           |
+| includePromotedContent | boolean | True        |
+| ...()(0,d.d)           | ...     | _           |
+| withVoice              | ...     | n.isTrue(n) |
+
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
@@ -3999,7 +4046,15 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-`None`<br>
+| key                    | type    | variable    |
+|:-----------------------|:--------|:------------|
+| userId                 | ...     | a           |
+| count                  | ...     | t           |
+| cursor                 | ...     | r           |
+| includePromotedContent | boolean | True        |
+| ...()(0,d.d)           | ...     | _           |
+| withVoice              | ...     | n.isTrue(n) |
+
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
@@ -4036,7 +4091,18 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-`None`<br>
+| key                    | type    | variable                              |
+|:-----------------------|:--------|:--------------------------------------|
+| userId                 | ...     | a                                     |
+| count                  | ...     | t                                     |
+| cursor                 | ...     | r                                     |
+| includePromotedContent | boolean | False                                 |
+| ...()(0,d.d)           | ...     | _                                     |
+| withClientEventToken   | boolean | False                                 |
+| withBirdwatchNotes     | boolean | False                                 |
+| withVoice              | ...     | n.isTrue(n)                           |
+| withV2Timeline         | ...     | n.isTrue("voice_consumption_enabled") |
+
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
@@ -4926,6 +4992,43 @@ Login Required: `...`<br>
 `None`<br>
 #### features<br>
 `None`<br>
+#### queryId<br>
+`None`<br>
+## BirdwatchFetchAuthenticatedBirdwatchMatchSlice<br>
+Request URL: `https://x.com/i/api/graphql/CcUQgipXCv4pzOjm51-WoQ/BirdwatchFetchAuthenticatedBirdwatchMatchSlice`<br>
+Request Method: `GET`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+| key                                                                     | type    | variable   |
+|:------------------------------------------------------------------------|:--------|:-----------|
+| creator_subscriptions_tweet_preview_api_enabled                         | boolean | True       |
+| communities_web_enable_tweet_community_results_fetch                    | boolean | True       |
+| c9s_tweet_anatomy_moderator_badge_enabled                               | boolean | True       |
+| articles_preview_enabled                                                | boolean | True       |
+| tweetypie_unmention_optimization_enabled                                | boolean | True       |
+| responsive_web_edit_tweet_api_enabled                                   | boolean | True       |
+| graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | True       |
+| view_counts_everywhere_api_enabled                                      | boolean | True       |
+| longform_notetweets_consumption_enabled                                 | boolean | True       |
+| responsive_web_twitter_article_tweet_consumption_enabled                | boolean | True       |
+| tweet_awards_web_tipping_enabled                                        | boolean | False      |
+| creator_subscriptions_quote_tweet_preview_enabled                       | boolean | False      |
+| freedom_of_speech_not_reach_fetch_enabled                               | boolean | True       |
+| standardized_nudges_misinfo                                             | boolean | True       |
+| tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | True       |
+| rweb_video_timestamps_enabled                                           | boolean | True       |
+| longform_notetweets_rich_text_read_enabled                              | boolean | True       |
+| longform_notetweets_inline_media_enabled                                | boolean | True       |
+| rweb_tipjar_consumption_enabled                                         | boolean | True       |
+| responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
+| verified_phone_label_enabled                                            | boolean | False      |
+| responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean | False      |
+| responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
+| responsive_web_enhance_cards_enabled                                    | boolean | False      |
+
 #### queryId<br>
 `None`<br>
 ## BirdwatchFetchContributorNotesSlice<br>
