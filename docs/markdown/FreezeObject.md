@@ -3404,12 +3404,6 @@ This document is entirely auto-generated and may contain errors.<br>
 | Broadcast    | broadcast    |
 | CallToAction | callToAction |
 
-| constant                       | value                          |
-|:-------------------------------|:-------------------------------|
-| Cell                           | Cell                           |
-| Hero                           | Hero                           |
-| CellWithProminentSocialContext | CellWithProminentSocialContext |
-
 | constant   | value      |
 |:-----------|:-----------|
 | FocalTweet | FocalTweet |

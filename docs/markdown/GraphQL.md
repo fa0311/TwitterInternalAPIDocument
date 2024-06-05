@@ -5579,7 +5579,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## AiTrendByRestId<br>
-Request URL: `https://x.com/i/api/graphql/t4E8-zyZLMM9fQ0YPK7V7Q/AiTrendByRestId`<br>
+Request URL: `https://x.com/i/api/graphql/LYNkyxoOf4rvg96ttWFJow/AiTrendByRestId`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
