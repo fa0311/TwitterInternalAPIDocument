@@ -1365,12 +1365,9 @@ Request Method: `POST`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key                      | type   | variable    |
-|:-------------------------|:-------|:------------|
-| cursor                   | ...    | n           |
-| rest_id                  | ...    | a           |
-| ...()(0,g.d)             | ...    | _           |
-| withSafetyModeUserFields | ...    | t.isTrue(t) |
+| key             | type   | variable   |
+|:----------------|:-------|:-----------|
+| articleEntityId | ...    | a          |
 
 #### features<br>
 `None`<br>
