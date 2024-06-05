@@ -3447,6 +3447,7 @@
     "Mentions": "Mentions",
     "Monetization": "Monetization",
     "MonetizationDashboard": "MonetizationDashboard",
+    "MonetizationIDV": "MonetizationIDV",
     "Mute": "Mute",
     "MuteAndBlock": "MuteAndBlock",
     "MutedAccounts": "MutedAccounts",
@@ -5222,7 +5223,8 @@
   {
     "premiumSubscription": "premiumSubscription",
     "premiumSettings": "premiumSettings",
-    "securitySettings": "securitySettings"
+    "securitySettings": "securitySettings",
+    "creator": "creator"
   },
   {
     "REQUEST": "rweb/backupCode/FETCH_BACKUP_CODE_REQUEST",
@@ -5360,7 +5362,7 @@
     "Invalid": "invalid",
     "NotSet": "notSet"
   },
-  "{[L.ActionedTweets]:{\"backLocation\":\"x\",\"confirmationSheetHeadline\":\"()(0,c.X_)\"{\"screenName\":\"m\"}{\"screenName\":\"m\"}},[L.PreviewFlaggedTweets]:{\"backLocation\":\"I\",\"confirmationSheetHeadline\":\"S()\"{\"screenName\":\"m\"}{\"screenName\":\"m\"}}}",
+  "{[I.ActionedTweets]:{\"backLocation\":\"x\",\"confirmationSheetHeadline\":\"()(0,c.X_)\"{\"screenName\":\"m\"}{\"screenName\":\"m\"}},[I.PreviewFlaggedTweets]:{\"backLocation\":\"L\",\"confirmationSheetHeadline\":\"S()\"{\"screenName\":\"m\"}{\"screenName\":\"m\"}}}",
   {
     "ActionedTweets": "actioned_tweets",
     "PreviewFlaggedTweets": "preview_flagged_tweets"
@@ -5380,6 +5382,7 @@
   {
     "Ads": "Ads",
     "AppleAppStore": "AppleAppStore",
+    "Gift": "Gift",
     "GooglePlay": "GooglePlay",
     "Stripe": "Stripe",
     "TPay": "TPay",
@@ -5809,6 +5812,11 @@
     "component": "sync-ats-jobs"
   },
   {
+    "generate": "generate",
+    "updateSeats": "updateSeats",
+    "switchFromDirect": "switchFromDirect"
+  },
+  {
     "Affiliate": "Affiliate"
   },
   {
@@ -5820,16 +5828,11 @@
     "SET_CONFIG": "rweb/verifiedOrgConfig/SET"
   },
   {
-    "fetchStatus": "$.ZP.NONE",
-    "config": "Za"
+    "fetchStatus": "q.ZP.NONE",
+    "config": "Ta"
   },
   "{[_.hA.switchFromDirect]:\"m().dca6b3ac\",[_.hA.generate]:\"m().dca6b3ac\",[_.hA.updateSeats]:\"m().c97ad52a\"}",
   "{[x.hA.generate]:\"E().fc1f43d0\",[x.hA.switchFromDirect]:\"E().fc1f43d0\",[x.hA.updateSeats]:\"E().c97ad52a\"}",
-  {
-    "generate": "generate",
-    "updateSeats": "updateSeats",
-    "switchFromDirect": "switchFromDirect"
-  },
   {
     "FullAccess": "FullAccess",
     "FullAccessGov": "FullAccessGov",
@@ -6160,6 +6163,7 @@
   {
     "Ads": "Ads",
     "AppleAppStore": "AppleAppStore",
+    "Gift": "Gift",
     "GooglePlay": "GooglePlay",
     "Stripe": "Stripe",
     "TPay": "TPay",
