@@ -3526,10 +3526,7 @@
     "func_name": "b",
     "func_name_init": "c",
     "query": {
-      "cursor": "n",
-      "rest_id": "a",
-      "...()(0,g.d)": "_",
-      "withSafetyModeUserFields": "t.isTrue(t)"
+      "articleEntityId": "a"
     }
   },
   {
