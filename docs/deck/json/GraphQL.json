@@ -139,17 +139,6 @@
         "fieldToggles": [],
         "featureSwitch": {}
       }
-    },
-    "func_name": "m",
-    "func_name_init": "p",
-    "query": {
-      "articleEntityId": "i",
-      "visibilitySetting": "s",
-      "...r&&": {
-        "conversationControl": {
-          "mode": "r"
-        }
-      }
     }
   },
   {
@@ -189,10 +178,7 @@
         "fieldToggles": [],
         "featureSwitch": {}
       }
-    },
-    "func_name": "a",
-    "func_name_init": "d",
-    "query": {}
+    }
   },
   {
     "n": "69015",
@@ -1817,16 +1803,6 @@
           }
         }
       }
-    },
-    "func_name": "St",
-    "func_name_init": "wt",
-    "query": {
-      "name": "o",
-      "description": "r",
-      "joinPolicy": "a",
-      "invitesPolicy": "d",
-      "question": "l",
-      "...()(0,Xn.S)": "_"
     }
   },
   {
@@ -2946,13 +2922,6 @@
           }
         }
       }
-    },
-    "func_name": "Ut",
-    "func_name_init": "Zt",
-    "query": {
-      "communityId": "t.communityId",
-      "answer": "t.answer",
-      "...()(0,Xn.S)": "_"
     }
   },
   {
@@ -3522,11 +3491,6 @@
         "fieldToggles": [],
         "featureSwitch": {}
       }
-    },
-    "func_name": "b",
-    "func_name_init": "c",
-    "query": {
-      "articleEntityId": "a"
     }
   },
   {
@@ -3984,11 +3948,6 @@
         "fieldToggles": [],
         "featureSwitch": {}
       }
-    },
-    "func_name": "p",
-    "func_name_init": "b",
-    "query": {
-      "articleEntityId": "i"
     }
   },
   {
@@ -6623,10 +6582,7 @@
           }
         }
       }
-    },
-    "func_name": "p",
-    "func_name_init": "b",
-    "query": "{\"rawQuery\":l||\"\",\"count\":\"t\",\"cursor\":\"r\",\"querySource\":\"o\",\"...()(0,a.d)\":\"_\"}"
+    }
   },
   {
     "n": "62359",
@@ -7227,10 +7183,7 @@
           }
         }
       }
-    },
-    "func_name": "y",
-    "func_name_init": "f",
-    "query": "{\"articleEntityId\":\"i\",\"coverMedia\":\"s&&r?\"{\"media_id\":\"s\",\"media_category\":\"r\"}:\"void 0\"}"
+    }
   },
   {
     "n": "35680",
@@ -8027,11 +7980,6 @@
         "fieldToggles": [],
         "featureSwitch": {}
       }
-    },
-    "func_name": "l",
-    "func_name_init": "o",
-    "query": {
-      "topicId": "r"
     }
   },
   {
@@ -9149,11 +9097,6 @@
           }
         }
       }
-    },
-    "func_name": "s",
-    "func_name_init": "i",
-    "query": {
-      "userId": "n"
     }
   },
   {
@@ -9707,16 +9650,6 @@
           }
         }
       }
-    },
-    "func_name": "u",
-    "func_name_init": "s",
-    "query": {
-      "userId": "a",
-      "count": "t",
-      "cursor": "r",
-      "includePromotedContent": "!0",
-      "...()(0,d.d)": "_",
-      "withVoice": "n.isTrue(n)"
     }
   },
   {
@@ -10316,16 +10249,6 @@
           }
         }
       }
-    },
-    "func_name": "m",
-    "func_name_init": "p",
-    "query": {
-      "userId": "a",
-      "count": "t",
-      "cursor": "r",
-      "includePromotedContent": "!0",
-      "...()(0,d.d)": "_",
-      "withVoice": "n.isTrue(n)"
     }
   },
   {
@@ -10442,19 +10365,6 @@
           }
         }
       }
-    },
-    "func_name": "g",
-    "func_name_init": "h",
-    "query": {
-      "userId": "a",
-      "count": "t",
-      "cursor": "r",
-      "includePromotedContent": "!1",
-      "...()(0,d.d)": "_",
-      "withClientEventToken": "!1",
-      "withBirdwatchNotes": "!1",
-      "withVoice": "n.isTrue(n)",
-      "withV2Timeline": "n.isTrue(\"voice_consumption_enabled\")"
     }
   },
   {
@@ -12751,7 +12661,7 @@
             "value": "true"
           },
           "responsive_web_birdwatch_translation_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_graphql_timeline_navigation_enabled": {
             "value": "true"
@@ -13061,7 +12971,7 @@
         ],
         "featureSwitch": {
           "responsive_web_birdwatch_translation_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_graphql_timeline_navigation_enabled": {
             "value": "true"
@@ -13106,7 +13016,7 @@
             "value": "true"
           },
           "responsive_web_birdwatch_translation_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_graphql_timeline_navigation_enabled": {
             "value": "true"
@@ -13151,7 +13061,7 @@
             "value": "true"
           },
           "responsive_web_birdwatch_translation_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_graphql_timeline_navigation_enabled": {
             "value": "true"
