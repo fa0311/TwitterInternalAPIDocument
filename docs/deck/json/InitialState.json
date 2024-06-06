@@ -416,7 +416,13 @@
       "articles_rest_api_enabled": {
         "value": "true"
       },
+      "blue_business_admin_sidebar_module_enabled": {
+        "value": "false"
+      },
       "blue_business_affiliates_list_order_setting_enabled": {
+        "value": "false"
+      },
+      "blue_business_analytics": {
         "value": "false"
       },
       "blue_business_direct_invites_enabled": {
@@ -2794,6 +2800,9 @@
       },
       "xprofile_work_history_consumption_enabled": {
         "value": "true"
+      },
+      "xprofile_work_history_enabled": {
+        "value": "true"
       }
     },
     "user": {
@@ -3100,7 +3109,13 @@
         "articles_rest_api_enabled": {
           "value": "true"
         },
+        "blue_business_admin_sidebar_module_enabled": {
+          "value": "true"
+        },
         "blue_business_affiliates_list_order_setting_enabled": {
+          "value": "false"
+        },
+        "blue_business_analytics": {
           "value": "false"
         },
         "blue_business_direct_invites_enabled": {
@@ -3974,7 +3989,7 @@
           "value": "10"
         },
         "responsive_web_birdwatch_translation_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "responsive_web_card_conversion_hoisted": {
           "value": "off"
@@ -5478,15 +5493,18 @@
         },
         "xprofile_work_history_consumption_enabled": {
           "value": "false"
+        },
+        "xprofile_work_history_enabled": {
+          "value": "false"
         }
       },
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "bf91ed7e608503548caa2025af2e7c91"
+      "settingsVersion": "70e1c493fdab13f0526507a94f5d3368"
     },
     "debug": {},
-    "featureSetToken": "f64223c0016eb9b5d3424435391583a6f1e88ae2",
+    "featureSetToken": "eb088007fdca152a43f409e03041747f7c3f08f8",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -5556,7 +5574,7 @@
     "country": "XX",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "171753620829321910",
+    "guestId": "171762277548391261",
     "hasCommunityMemberships": "false",
     "language": "en",
     "ssoInitTokens": {},

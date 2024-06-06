@@ -3599,3 +3599,16 @@
 - responsive_web_birdwatch_match_page_enabled<br>
 #### remove<br>
 - None<br>
+## 2024/06/05<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- blue_business_admin_sidebar_module_enabled<br>
+- blue_business_analytics<br>
+- xprofile_work_history_enabled<br>
+#### remove<br>
+- None<br>

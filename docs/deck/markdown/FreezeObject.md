@@ -3640,6 +3640,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | Mentions                         | Mentions                         |
 | Monetization                     | Monetization                     |
 | MonetizationDashboard            | MonetizationDashboard            |
+| MonetizationIDV                  | MonetizationIDV                  |
 | Mute                             | Mute                             |
 | MuteAndBlock                     | MuteAndBlock                     |
 | MutedAccounts                    | MutedAccounts                    |
@@ -5525,6 +5526,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | premiumSubscription | premiumSubscription |
 | premiumSettings     | premiumSettings     |
 | securitySettings    | securitySettings    |
+| creator             | creator             |
 
 | constant   | value                                     |
 |:-----------|:------------------------------------------|
@@ -5682,7 +5684,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{[L.ActionedTweets]:{"backLocation":"x","confirmationSheetHeadline":"()(0,c.X_)"{"screenName":"m"}{"screenName":"m"}},[L.PreviewFlaggedTweets]:{"backLocation":"I","confirmationSheetHeadline":"S()"{"screenName":"m"}{"screenName":"m"}}}
+{[I.ActionedTweets]:{"backLocation":"x","confirmationSheetHeadline":"()(0,c.X_)"{"screenName":"m"}{"screenName":"m"}},[I.PreviewFlaggedTweets]:{"backLocation":"L","confirmationSheetHeadline":"S()"{"screenName":"m"}{"screenName":"m"}}}
 ```
 | constant             | value                  |
 |:---------------------|:-----------------------|
@@ -5699,6 +5701,7 @@ This document is entirely auto-generated and may contain errors.<br>
 |:--------------|:--------------|
 | Ads           | Ads           |
 | AppleAppStore | AppleAppStore |
+| Gift          | Gift          |
 | GooglePlay    | GooglePlay    |
 | Stripe        | Stripe        |
 | TPay          | TPay          |
@@ -6157,6 +6160,12 @@ This document is entirely auto-generated and may contain errors.<br>
 | ...qe      | _             |
 | component  | sync-ats-jobs |
 
+| constant         | value            |
+|:-----------------|:-----------------|
+| generate         | generate         |
+| updateSeats      | updateSeats      |
+| switchFromDirect | switchFromDirect |
+
 | constant   | value     |
 |:-----------|:----------|
 | Affiliate  | Affiliate |
@@ -6173,8 +6182,8 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant    | value     |
 |:------------|:----------|
-| fetchStatus | $.ZP.NONE |
-| config      | Za        |
+| fetchStatus | q.ZP.NONE |
+| config      | Ta        |
 
 ```internal process
 # Error
@@ -6184,12 +6193,6 @@ This document is entirely auto-generated and may contain errors.<br>
 # Error
 {[x.hA.generate]:"E().fc1f43d0",[x.hA.switchFromDirect]:"E().fc1f43d0",[x.hA.updateSeats]:"E().c97ad52a"}
 ```
-| constant         | value            |
-|:-----------------|:-----------------|
-| generate         | generate         |
-| updateSeats      | updateSeats      |
-| switchFromDirect | switchFromDirect |
-
 | constant      | value         |
 |:--------------|:--------------|
 | FullAccess    | FullAccess    |
@@ -6567,6 +6570,7 @@ This document is entirely auto-generated and may contain errors.<br>
 |:--------------|:--------------|
 | Ads           | Ads           |
 | AppleAppStore | AppleAppStore |
+| Gift          | Gift          |
 | GooglePlay    | GooglePlay    |
 | Stripe        | Stripe        |
 | TPay          | TPay          |
