@@ -96,12 +96,7 @@ Request Method: `POST`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key               | type   | variable                               |
-|:------------------|:-------|:---------------------------------------|
-| articleEntityId   | ...    | i                                      |
-| visibilitySetting | ...    | s                                      |
-| ...r&&            | ...    | {'conversationControl': {'mode': 'r'}} |
-
+`None`<br>
 #### features<br>
 `None`<br>
 #### queryId<br>
@@ -678,15 +673,7 @@ Request Method: `POST`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key           | type   | variable   |
-|:--------------|:-------|:-----------|
-| name          | ...    | o          |
-| description   | ...    | r          |
-| joinPolicy    | ...    | a          |
-| invitesPolicy | ...    | d          |
-| question      | ...    | l          |
-| ...()(0,Xn.S) | ...    | _          |
-
+`None`<br>
 #### features<br>
 | key                                                               | type    | variable   |
 |:------------------------------------------------------------------|:--------|:-----------|
@@ -1137,12 +1124,7 @@ Request Method: `POST`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key           | type   | variable      |
-|:--------------|:-------|:--------------|
-| communityId   | ...    | t.communityId |
-| answer        | ...    | t.answer      |
-| ...()(0,Xn.S) | ...    | _             |
-
+`None`<br>
 #### features<br>
 | key                                                               | type    | variable   |
 |:------------------------------------------------------------------|:--------|:-----------|
@@ -1365,10 +1347,7 @@ Request Method: `POST`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key             | type   | variable   |
-|:----------------|:-------|:-----------|
-| articleEntityId | ...    | a          |
-
+`None`<br>
 #### features<br>
 `None`<br>
 #### queryId<br>
@@ -1576,10 +1555,7 @@ Request Method: `POST`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key             | type   | variable   |
-|:----------------|:-------|:-----------|
-| articleEntityId | ...    | i          |
-
+`None`<br>
 #### features<br>
 `None`<br>
 #### queryId<br>
@@ -2649,10 +2625,7 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-```internal process
-# Error
-{"rawQuery":l||"","count":"t","cursor":"r","querySource":"o","...()(0,a.d)":"_"}
-```
+`None`<br>
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
@@ -2876,10 +2849,7 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-```internal process
-# Error
-{"articleEntityId":"i","coverMedia":"s&&r?"{"media_id":"s","media_category":"r"}:"void 0"}
-```
+`None`<br>
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
@@ -3247,10 +3217,7 @@ Request Method: `POST`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key     | type   | variable   |
-|:--------|:-------|:-----------|
-| topicId | ...    | r          |
-
+`None`<br>
 #### features<br>
 `None`<br>
 #### queryId<br>
@@ -3615,10 +3582,7 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key    | type   | variable   |
-|:-------|:-------|:-----------|
-| userId | ...    | n          |
-
+`None`<br>
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
@@ -3828,15 +3792,7 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key                    | type    | variable    |
-|:-----------------------|:--------|:------------|
-| userId                 | ...     | a           |
-| count                  | ...     | t           |
-| cursor                 | ...     | r           |
-| includePromotedContent | boolean | True        |
-| ...()(0,d.d)           | ...     | _           |
-| withVoice              | ...     | n.isTrue(n) |
-
+`None`<br>
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
@@ -4043,15 +3999,7 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key                    | type    | variable    |
-|:-----------------------|:--------|:------------|
-| userId                 | ...     | a           |
-| count                  | ...     | t           |
-| cursor                 | ...     | r           |
-| includePromotedContent | boolean | True        |
-| ...()(0,d.d)           | ...     | _           |
-| withVoice              | ...     | n.isTrue(n) |
-
+`None`<br>
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
@@ -4088,18 +4036,7 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key                    | type    | variable                              |
-|:-----------------------|:--------|:--------------------------------------|
-| userId                 | ...     | a                                     |
-| count                  | ...     | t                                     |
-| cursor                 | ...     | r                                     |
-| includePromotedContent | boolean | False                                 |
-| ...()(0,d.d)           | ...     | _                                     |
-| withClientEventToken   | boolean | False                                 |
-| withBirdwatchNotes     | boolean | False                                 |
-| withVoice              | ...     | n.isTrue(n)                           |
-| withV2Timeline         | ...     | n.isTrue("voice_consumption_enabled") |
-
+`None`<br>
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
@@ -5088,7 +5025,7 @@ Login Required: `...`<br>
 | key                                                               | type    | variable   |
 |:------------------------------------------------------------------|:--------|:-----------|
 | responsive_web_birdwatch_media_notes_enabled                      | boolean | True       |
-| responsive_web_birdwatch_translation_enabled                      | boolean | False      |
+| responsive_web_birdwatch_translation_enabled                      | boolean | True       |
 | responsive_web_graphql_timeline_navigation_enabled                | boolean | True       |
 | rweb_tipjar_consumption_enabled                                   | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                  | boolean | True       |
@@ -5265,7 +5202,7 @@ Login Required: `...`<br>
 #### features<br>
 | key                                                               | type    | variable   |
 |:------------------------------------------------------------------|:--------|:-----------|
-| responsive_web_birdwatch_translation_enabled                      | boolean | False      |
+| responsive_web_birdwatch_translation_enabled                      | boolean | True       |
 | responsive_web_graphql_timeline_navigation_enabled                | boolean | True       |
 | rweb_tipjar_consumption_enabled                                   | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                  | boolean | True       |
@@ -5285,7 +5222,7 @@ Login Required: `...`<br>
 | key                                                               | type    | variable   |
 |:------------------------------------------------------------------|:--------|:-----------|
 | responsive_web_birdwatch_media_notes_enabled                      | boolean | True       |
-| responsive_web_birdwatch_translation_enabled                      | boolean | False      |
+| responsive_web_birdwatch_translation_enabled                      | boolean | True       |
 | responsive_web_graphql_timeline_navigation_enabled                | boolean | True       |
 | rweb_tipjar_consumption_enabled                                   | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                  | boolean | True       |
@@ -5305,7 +5242,7 @@ Login Required: `...`<br>
 | key                                                               | type    | variable   |
 |:------------------------------------------------------------------|:--------|:-----------|
 | responsive_web_birdwatch_media_notes_enabled                      | boolean | True       |
-| responsive_web_birdwatch_translation_enabled                      | boolean | False      |
+| responsive_web_birdwatch_translation_enabled                      | boolean | True       |
 | responsive_web_graphql_timeline_navigation_enabled                | boolean | True       |
 | rweb_tipjar_consumption_enabled                                   | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                  | boolean | True       |
