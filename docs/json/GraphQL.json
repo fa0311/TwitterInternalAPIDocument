@@ -12677,7 +12677,7 @@
             "value": "true"
           },
           "responsive_web_birdwatch_translation_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_graphql_timeline_navigation_enabled": {
             "value": "true"
@@ -12987,7 +12987,7 @@
         ],
         "featureSwitch": {
           "responsive_web_birdwatch_translation_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_graphql_timeline_navigation_enabled": {
             "value": "true"
@@ -13032,7 +13032,7 @@
             "value": "true"
           },
           "responsive_web_birdwatch_translation_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_graphql_timeline_navigation_enabled": {
             "value": "true"
@@ -13077,7 +13077,7 @@
             "value": "true"
           },
           "responsive_web_birdwatch_translation_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "responsive_web_graphql_timeline_navigation_enabled": {
             "value": "true"
