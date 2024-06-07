@@ -4975,7 +4975,7 @@ Login Required: `...`<br>
 | key                                                               | type    | variable   |
 |:------------------------------------------------------------------|:--------|:-----------|
 | responsive_web_birdwatch_media_notes_enabled                      | boolean | True       |
-| responsive_web_birdwatch_translation_enabled                      | boolean | False      |
+| responsive_web_birdwatch_translation_enabled                      | boolean | True       |
 | responsive_web_graphql_timeline_navigation_enabled                | boolean | True       |
 | rweb_tipjar_consumption_enabled                                   | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                  | boolean | True       |
@@ -5152,7 +5152,7 @@ Login Required: `...`<br>
 #### features<br>
 | key                                                               | type    | variable   |
 |:------------------------------------------------------------------|:--------|:-----------|
-| responsive_web_birdwatch_translation_enabled                      | boolean | False      |
+| responsive_web_birdwatch_translation_enabled                      | boolean | True       |
 | responsive_web_graphql_timeline_navigation_enabled                | boolean | True       |
 | rweb_tipjar_consumption_enabled                                   | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                  | boolean | True       |
@@ -5172,7 +5172,7 @@ Login Required: `...`<br>
 | key                                                               | type    | variable   |
 |:------------------------------------------------------------------|:--------|:-----------|
 | responsive_web_birdwatch_media_notes_enabled                      | boolean | True       |
-| responsive_web_birdwatch_translation_enabled                      | boolean | False      |
+| responsive_web_birdwatch_translation_enabled                      | boolean | True       |
 | responsive_web_graphql_timeline_navigation_enabled                | boolean | True       |
 | rweb_tipjar_consumption_enabled                                   | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                  | boolean | True       |
@@ -5192,7 +5192,7 @@ Login Required: `...`<br>
 | key                                                               | type    | variable   |
 |:------------------------------------------------------------------|:--------|:-----------|
 | responsive_web_birdwatch_media_notes_enabled                      | boolean | True       |
-| responsive_web_birdwatch_translation_enabled                      | boolean | False      |
+| responsive_web_birdwatch_translation_enabled                      | boolean | True       |
 | responsive_web_graphql_timeline_navigation_enabled                | boolean | True       |
 | rweb_tipjar_consumption_enabled                                   | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                  | boolean | True       |
