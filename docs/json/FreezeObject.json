@@ -3939,6 +3939,10 @@
     "superFollower": "plum700"
   },
   {
+    "fixedBarWidth": "fixedBarWidth",
+    "fixedSpacing": "fixedSpacing"
+  },
+  {
     "large": "54",
     "medium": "46",
     "small": "36",
@@ -4772,17 +4776,17 @@
     "SENT": "sent"
   },
   {
-    "REQUEST": "rweb/settings/usernames/FETCH_USERNAMES_REQUEST",
-    "SUCCESS": "rweb/settings/usernames/FETCH_USERNAMES_SUCCESS",
-    "FAILURE": "rweb/settings/usernames/FETCH_USERNAMES_FAILURE"
-  },
-  {
     "CanVerifyIdentity": "CanVerifyIdentity",
     "IdentityNonVerifiable": "IdentityNonVerifiable",
     "IdentityVerified": "IdentityVerified",
     "PendingResult": "PendingResult",
     "RequestLocked": "RequestLocked",
     "UnavailableMissingBlueSubscription": "UnavailableMissingBlueSubscription"
+  },
+  {
+    "REQUEST": "rweb/settings/usernames/FETCH_USERNAMES_REQUEST",
+    "SUCCESS": "rweb/settings/usernames/FETCH_USERNAMES_SUCCESS",
+    "FAILURE": "rweb/settings/usernames/FETCH_USERNAMES_FAILURE"
   },
   {
     "GROUP": "GroupDm",
@@ -4963,7 +4967,7 @@
     "Invalid": "invalid",
     "NotSet": "notSet"
   },
-  "{[L.ActionedTweets]:{\"backLocation\":\"x\",\"confirmationSheetHeadline\":\"()(0,c.X_)\"{\"screenName\":\"m\"}{\"screenName\":\"m\"}},[L.PreviewFlaggedTweets]:{\"backLocation\":\"I\",\"confirmationSheetHeadline\":\"S()\"{\"screenName\":\"m\"}{\"screenName\":\"m\"}}}",
+  "{[L.ActionedTweets]:{\"backLocation\":\"I\",\"confirmationSheetHeadline\":\"()(0,c.X_)\"{\"screenName\":\"m\"}{\"screenName\":\"m\"}},[L.PreviewFlaggedTweets]:{\"backLocation\":\"x\",\"confirmationSheetHeadline\":\"S()\"{\"screenName\":\"m\"}{\"screenName\":\"m\"}}}",
   {
     "ActionedTweets": "actioned_tweets",
     "PreviewFlaggedTweets": "preview_flagged_tweets"
@@ -5644,10 +5648,6 @@
       "color": "gray100",
       "index": "2"
     }
-  },
-  {
-    "fixedBarWidth": "fixedBarWidth",
-    "fixedSpacing": "fixedSpacing"
   },
   {
     "notProfessional": "not_professional",
