@@ -4100,6 +4100,11 @@ This document is entirely auto-generated and may contain errors.<br>
 | superFollowsYou | plum700 |
 | superFollower   | plum700 |
 
+| constant      | value         |
+|:--------------|:--------------|
+| fixedBarWidth | fixedBarWidth |
+| fixedSpacing  | fixedSpacing  |
+
 | constant   |   value |
 |:-----------|--------:|
 | large      |      54 |
@@ -5050,12 +5055,6 @@ This document is entirely auto-generated and may contain errors.<br>
 | LOADING    | loading |
 | SENT       | sent    |
 
-| constant   | value                                           |
-|:-----------|:------------------------------------------------|
-| REQUEST    | rweb/settings/usernames/FETCH_USERNAMES_REQUEST |
-| SUCCESS    | rweb/settings/usernames/FETCH_USERNAMES_SUCCESS |
-| FAILURE    | rweb/settings/usernames/FETCH_USERNAMES_FAILURE |
-
 | constant                           | value                              |
 |:-----------------------------------|:-----------------------------------|
 | CanVerifyIdentity                  | CanVerifyIdentity                  |
@@ -5064,6 +5063,12 @@ This document is entirely auto-generated and may contain errors.<br>
 | PendingResult                      | PendingResult                      |
 | RequestLocked                      | RequestLocked                      |
 | UnavailableMissingBlueSubscription | UnavailableMissingBlueSubscription |
+
+| constant   | value                                           |
+|:-----------|:------------------------------------------------|
+| REQUEST    | rweb/settings/usernames/FETCH_USERNAMES_REQUEST |
+| SUCCESS    | rweb/settings/usernames/FETCH_USERNAMES_SUCCESS |
+| FAILURE    | rweb/settings/usernames/FETCH_USERNAMES_FAILURE |
 
 | constant   | value      |
 |:-----------|:-----------|
@@ -5272,7 +5277,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{[L.ActionedTweets]:{"backLocation":"x","confirmationSheetHeadline":"()(0,c.X_)"{"screenName":"m"}{"screenName":"m"}},[L.PreviewFlaggedTweets]:{"backLocation":"I","confirmationSheetHeadline":"S()"{"screenName":"m"}{"screenName":"m"}}}
+{[L.ActionedTweets]:{"backLocation":"I","confirmationSheetHeadline":"()(0,c.X_)"{"screenName":"m"}{"screenName":"m"}},[L.PreviewFlaggedTweets]:{"backLocation":"x","confirmationSheetHeadline":"S()"{"screenName":"m"}{"screenName":"m"}}}
 ```
 | constant             | value                  |
 |:---------------------|:-----------------------|
@@ -6031,11 +6036,6 @@ This document is entirely auto-generated and may contain errors.<br>
 | Women      | {'label': 'm().de323650', 'color': 'blue900', 'index': '0'} |
 | Men        | {'label': 'm().b6ab31be', 'color': 'blue300', 'index': '1'} |
 | N/A        | {'label': 'm().f05f1838', 'color': 'gray100', 'index': '2'} |
-
-| constant      | value         |
-|:--------------|:--------------|
-| fixedBarWidth | fixedBarWidth |
-| fixedSpacing  | fixedSpacing  |
 
 | constant        | value            |
 |:----------------|:-----------------|
