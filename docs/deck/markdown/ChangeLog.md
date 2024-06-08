@@ -2574,3 +2574,14 @@
 - responsive_web_account_analytics_timeseries_enabled<br>
 #### remove<br>
 - rweb_spaceclient_v2_enabled<br>
+## 2024/06/08<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- rweb_spaceclient_v2_enabled<br>
+#### remove<br>
+- responsive_web_account_analytics_timeseries_enabled<br>
