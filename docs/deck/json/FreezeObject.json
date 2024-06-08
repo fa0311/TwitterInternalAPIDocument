@@ -4356,10 +4356,6 @@
     "JoinConversation": "r.Cr.JOIN_CONVERSATION"
   },
   {
-    "fixedBarWidth": "fixedBarWidth",
-    "fixedSpacing": "fixedSpacing"
-  },
-  {
     "large": "54",
     "medium": "46",
     "small": "36",
@@ -5162,17 +5158,17 @@
     "SENT": "sent"
   },
   {
+    "REQUEST": "rweb/settings/usernames/FETCH_USERNAMES_REQUEST",
+    "SUCCESS": "rweb/settings/usernames/FETCH_USERNAMES_SUCCESS",
+    "FAILURE": "rweb/settings/usernames/FETCH_USERNAMES_FAILURE"
+  },
+  {
     "CanVerifyIdentity": "CanVerifyIdentity",
     "IdentityNonVerifiable": "IdentityNonVerifiable",
     "IdentityVerified": "IdentityVerified",
     "PendingResult": "PendingResult",
     "RequestLocked": "RequestLocked",
     "UnavailableMissingBlueSubscription": "UnavailableMissingBlueSubscription"
-  },
-  {
-    "REQUEST": "rweb/settings/usernames/FETCH_USERNAMES_REQUEST",
-    "SUCCESS": "rweb/settings/usernames/FETCH_USERNAMES_SUCCESS",
-    "FAILURE": "rweb/settings/usernames/FETCH_USERNAMES_FAILURE"
   },
   {
     "REQUEST": "rweb/promotedContent/LOG_REQUEST",
@@ -5341,7 +5337,7 @@
     "Invalid": "invalid",
     "NotSet": "notSet"
   },
-  "{[L.ActionedTweets]:{\"backLocation\":\"I\",\"confirmationSheetHeadline\":\"()(0,c.X_)\"{\"screenName\":\"m\"}{\"screenName\":\"m\"}},[L.PreviewFlaggedTweets]:{\"backLocation\":\"x\",\"confirmationSheetHeadline\":\"S()\"{\"screenName\":\"m\"}{\"screenName\":\"m\"}}}",
+  "{[I.ActionedTweets]:{\"backLocation\":\"x\",\"confirmationSheetHeadline\":\"()(0,c.X_)\"{\"screenName\":\"m\"}{\"screenName\":\"m\"}},[I.PreviewFlaggedTweets]:{\"backLocation\":\"L\",\"confirmationSheetHeadline\":\"S()\"{\"screenName\":\"m\"}{\"screenName\":\"m\"}}}",
   {
     "ActionedTweets": "actioned_tweets",
     "PreviewFlaggedTweets": "preview_flagged_tweets"
@@ -6046,6 +6042,10 @@
     }
   },
   {
+    "fixedBarWidth": "fixedBarWidth",
+    "fixedSpacing": "fixedSpacing"
+  },
+  {
     "notProfessional": "not_professional",
     "notStarted": "not_started",
     "underReview": "under_review",
@@ -6646,11 +6646,11 @@
   },
   "{\"minimumRadius\":\"0\",\"maximumRadius\":1/0,\"minimumPolarAngle\":Math.PI/8,\"maximumPolarAngle\":Math.PI-Math.PI/8,\"minimumAzimuthalAngle\":-1/0,\"maximumAzimuthalAngle\":1/0,\"minimumFieldOfView\":\"10\",\"maximumFieldOfView\":\"45\",\"interactionPolicy\":\"always-allow\",\"touchAction\":\"pan-y\"}",
   {
-    "all": "m().baffe39a",
-    "community": "m().i9000126",
-    "by_invitation": "m().e7b4b30a",
-    "subscribers": "m().ad85cd2e",
-    "verified": "m().f19e4bfc"
+    "all": "_().baffe39a",
+    "community": "_().i9000126",
+    "by_invitation": "_().e7b4b30a",
+    "subscribers": "_().ad85cd2e",
+    "verified": "_().f19e4bfc"
   },
   {
     "all": "change_conversation_control_to_everyone",
