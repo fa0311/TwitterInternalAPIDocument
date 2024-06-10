@@ -5064,6 +5064,13 @@ This document is entirely auto-generated and may contain errors.<br>
 | RequestLocked                      | RequestLocked                      |
 | UnavailableMissingBlueSubscription | UnavailableMissingBlueSubscription |
 
+| constant            | value               |
+|:--------------------|:--------------------|
+| premiumSubscription | premiumSubscription |
+| premiumSettings     | premiumSettings     |
+| securitySettings    | securitySettings    |
+| creator             | creator             |
+
 | constant   | value                                           |
 |:-----------|:------------------------------------------------|
 | REQUEST    | rweb/settings/usernames/FETCH_USERNAMES_REQUEST |
@@ -5078,11 +5085,11 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant               | value                         |
 |:-----------------------|:------------------------------|
-| MessageCreate          | i.Cr.MESSAGE                  |
-| ParticipantsJoin       | i.Cr.PARTICIPANTS_JOIN        |
-| ParticipantsLeave      | i.Cr.PARTICIPANTS_LEAVE       |
-| ConversationNameUpdate | i.Cr.CONVERSATION_NAME_UPDATE |
-| JoinConversation       | i.Cr.JOIN_CONVERSATION        |
+| MessageCreate          | o.Cr.MESSAGE                  |
+| ParticipantsJoin       | o.Cr.PARTICIPANTS_JOIN        |
+| ParticipantsLeave      | o.Cr.PARTICIPANTS_LEAVE       |
+| ConversationNameUpdate | o.Cr.CONVERSATION_NAME_UPDATE |
+| JoinConversation       | o.Cr.JOIN_CONVERSATION        |
 
 | constant   | value                            |
 |:-----------|:---------------------------------|
@@ -5113,13 +5120,6 @@ This document is entirely auto-generated and may contain errors.<br>
 | REQUEST    | rweb/trends/FETCH_TRENDS_SETTINGS_REQUEST |
 | SUCCESS    | rweb/trends/FETCH_TRENDS_SETTINGS_SUCCESS |
 | FAILURE    | rweb/trends/FETCH_TRENDS_SETTINGS_FAILURE |
-
-| constant            | value               |
-|:--------------------|:--------------------|
-| premiumSubscription | premiumSubscription |
-| premiumSettings     | premiumSettings     |
-| securitySettings    | securitySettings    |
-| creator             | creator             |
 
 | constant   | value                                     |
 |:-----------|:------------------------------------------|
@@ -6158,6 +6158,45 @@ This document is entirely auto-generated and may contain errors.<br>
 | REQUEST    | rweb/promotedContent/LOG_REQUEST |
 | SUCCESS    | rweb/promotedContent/LOG_SUCCESS |
 | FAILURE    | rweb/promotedContent/LOG_FAILURE |
+
+| constant                   | value                      |
+|:---------------------------|:---------------------------|
+| Advertising                | Advertising                |
+| BlueVerified               | BlueVerified               |
+| BlueVerifiedPlus           | BlueVerifiedPlus           |
+| Chirps                     | Chirps                     |
+| Coins                      | Coins                      |
+| OneDollar                  | OneDollar                  |
+| OneDollarSubscription      | OneDollarSubscription      |
+| PremiumBasic               | PremiumBasic               |
+| QuickPromoteBudget         | QuickPromoteBudget         |
+| Seeds                      | Seeds                      |
+| Spaces                     | Spaces                     |
+| Subscriptions              | Subscriptions              |
+| SuperFollows               | SuperFollows               |
+| SuperLikes                 | SuperLikes                 |
+| VerifiedOrganizations      | VerifiedOrganizations      |
+| VerifiedOrganizationsBasic | VerifiedOrganizationsBasic |
+
+| constant      | value        |
+|:--------------|:-------------|
+| superFollower | m().fc065ee4 |
+
+| constant      | value                                                                                                                                                                                                                  |
+|:--------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| superFollower | {'graphic': 'g.default', 'headline': 'm().e453f536', 'subtext': 'm().bd4cb7a0', 'actionLabel': 'm().g7099a02', 'actionLink': 'https://help.x.com/using-twitter/subscriptions', 'secondaryActionLabel': 'm().c2637ef6'} |
+
+| constant        | value        |
+|:----------------|:-------------|
+| followsYou      | m().efb17190 |
+| superFollowsYou | m().g57b5f6c |
+| superFollower   | m().a77a27c0 |
+
+| constant        | value   |
+|:----------------|:--------|
+| followsYou      | gray700 |
+| superFollowsYou | plum700 |
+| superFollower   | plum700 |
 
 | constant     | value        |
 |:-------------|:-------------|
