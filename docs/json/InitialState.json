@@ -2241,6 +2241,9 @@
       "subscriptions_feature_article_composer": {
         "value": "true"
       },
+      "subscriptions_feature_can_gift_premium": {
+        "value": "false"
+      },
       "subscriptions_feature_extend_profile": {
         "value": "true"
       },
@@ -4937,6 +4940,9 @@
         "subscriptions_feature_article_composer": {
           "value": "true"
         },
+        "subscriptions_feature_can_gift_premium": {
+          "value": "false"
+        },
         "subscriptions_feature_extend_profile": {
           "value": "true"
         },
@@ -5500,7 +5506,7 @@
       "settingsVersion": "39169fa4f5245a3eaa5e23ec04608e8d"
     },
     "debug": {},
-    "featureSetToken": "39c355e274206c35ba95fec011aa30093519192d",
+    "featureSetToken": "39520d78efeb512233c08c34d87cac5203e94825",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -5570,7 +5576,7 @@
     "country": "XX",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "171796730244088988",
+    "guestId": "171805373257288952",
     "hasCommunityMemberships": "false",
     "language": "en",
     "ssoInitTokens": {},
