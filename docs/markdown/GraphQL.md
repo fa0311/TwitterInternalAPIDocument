@@ -1902,7 +1902,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## UserByRestId<br>
-Request URL: `https://x.com/i/api/graphql/BNfUANkqWTZZdOE4xnhPiQ/UserByRestId`<br>
+Request URL: `https://x.com/i/api/graphql/1RLQukO18Tv8Nq5_ggu2lA/UserByRestId`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -1918,6 +1918,7 @@ Login Required: `...`<br>
 | verified_phone_label_enabled                                      | boolean | False      |
 | highlights_tweets_tab_ui_enabled                                  | boolean | True       |
 | responsive_web_twitter_article_notes_tab_enabled                  | boolean | True       |
+| subscriptions_feature_can_gift_premium                            | boolean | False      |
 | creator_subscriptions_tweet_preview_api_enabled                   | boolean | True       |
 | responsive_web_graphql_skip_user_profile_image_extensions_enabled | boolean | False      |
 | responsive_web_graphql_timeline_navigation_enabled                | boolean | True       |
@@ -1925,7 +1926,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## UserByScreenName<br>
-Request URL: `https://x.com/i/api/graphql/qW5u-DAuXpMEG0zA1F7UGQ/UserByScreenName`<br>
+Request URL: `https://x.com/i/api/graphql/SjtODv6y4fsa4-zv5sLw5A/UserByScreenName`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -1943,6 +1944,7 @@ Login Required: `...`<br>
 | subscriptions_verification_info_verified_since_enabled            | boolean | True       |
 | highlights_tweets_tab_ui_enabled                                  | boolean | True       |
 | responsive_web_twitter_article_notes_tab_enabled                  | boolean | True       |
+| subscriptions_feature_can_gift_premium                            | boolean | False      |
 | creator_subscriptions_tweet_preview_api_enabled                   | boolean | True       |
 | responsive_web_graphql_skip_user_profile_image_extensions_enabled | boolean | False      |
 | responsive_web_graphql_timeline_navigation_enabled                | boolean | True       |

@@ -4928,7 +4928,7 @@
   {
     "n": "91957",
     "exports": {
-      "queryId": "BNfUANkqWTZZdOE4xnhPiQ",
+      "queryId": "1RLQukO18Tv8Nq5_ggu2lA",
       "operationName": "UserByRestId",
       "operationType": "query",
       "metadata": {
@@ -4940,6 +4940,7 @@
           "verified_phone_label_enabled",
           "highlights_tweets_tab_ui_enabled",
           "responsive_web_twitter_article_notes_tab_enabled",
+          "subscriptions_feature_can_gift_premium",
           "creator_subscriptions_tweet_preview_api_enabled",
           "responsive_web_graphql_skip_user_profile_image_extensions_enabled",
           "responsive_web_graphql_timeline_navigation_enabled"
@@ -4969,6 +4970,9 @@
           "responsive_web_twitter_article_notes_tab_enabled": {
             "value": "true"
           },
+          "subscriptions_feature_can_gift_premium": {
+            "value": "false"
+          },
           "creator_subscriptions_tweet_preview_api_enabled": {
             "value": "true"
           },
@@ -4985,7 +4989,7 @@
   {
     "n": "50976",
     "exports": {
-      "queryId": "qW5u-DAuXpMEG0zA1F7UGQ",
+      "queryId": "SjtODv6y4fsa4-zv5sLw5A",
       "operationName": "UserByScreenName",
       "operationType": "query",
       "metadata": {
@@ -4999,6 +5003,7 @@
           "subscriptions_verification_info_verified_since_enabled",
           "highlights_tweets_tab_ui_enabled",
           "responsive_web_twitter_article_notes_tab_enabled",
+          "subscriptions_feature_can_gift_premium",
           "creator_subscriptions_tweet_preview_api_enabled",
           "responsive_web_graphql_skip_user_profile_image_extensions_enabled",
           "responsive_web_graphql_timeline_navigation_enabled"
@@ -5033,6 +5038,9 @@
           },
           "responsive_web_twitter_article_notes_tab_enabled": {
             "value": "true"
+          },
+          "subscriptions_feature_can_gift_premium": {
+            "value": "false"
           },
           "creator_subscriptions_tweet_preview_api_enabled": {
             "value": "true"
