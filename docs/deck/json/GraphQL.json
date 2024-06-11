@@ -139,6 +139,12 @@
         "fieldToggles": [],
         "featureSwitch": {}
       }
+    },
+    "func_name": "m",
+    "func_name_init": "p",
+    "query": {
+      "id": "n.trendId",
+      "is_saved": "n.isSaved"
     }
   },
   {
@@ -178,7 +184,10 @@
         "fieldToggles": [],
         "featureSwitch": {}
       }
-    }
+    },
+    "func_name": "a",
+    "func_name_init": "d",
+    "query": {}
   },
   {
     "n": "69015",
@@ -1803,6 +1812,16 @@
           }
         }
       }
+    },
+    "func_name": "St",
+    "func_name_init": "wt",
+    "query": {
+      "name": "o",
+      "description": "r",
+      "joinPolicy": "a",
+      "invitesPolicy": "d",
+      "question": "l",
+      "...()(0,Xn.S)": "_"
     }
   },
   {
@@ -2922,6 +2941,13 @@
           }
         }
       }
+    },
+    "func_name": "Ut",
+    "func_name_init": "Zt",
+    "query": {
+      "communityId": "t.communityId",
+      "answer": "t.answer",
+      "...()(0,Xn.S)": "_"
     }
   },
   {
@@ -3491,6 +3517,14 @@
         "fieldToggles": [],
         "featureSwitch": {}
       }
+    },
+    "func_name": "b",
+    "func_name_init": "c",
+    "query": {
+      "cursor": "n",
+      "rest_id": "a",
+      "...()(0,g.d)": "_",
+      "withSafetyModeUserFields": "t.isTrue(t)"
     }
   },
   {
@@ -3948,6 +3982,11 @@
         "fieldToggles": [],
         "featureSwitch": {}
       }
+    },
+    "func_name": "p",
+    "func_name_init": "b",
+    "query": {
+      "articleEntityId": "i"
     }
   },
   {
@@ -6582,7 +6621,10 @@
           }
         }
       }
-    }
+    },
+    "func_name": "p",
+    "func_name_init": "b",
+    "query": "{\"rawQuery\":l||\"\",\"count\":\"t\",\"cursor\":\"r\",\"querySource\":\"o\",\"...()(0,a.d)\":\"_\"}"
   },
   {
     "n": "62359",
@@ -7183,7 +7225,10 @@
           }
         }
       }
-    }
+    },
+    "func_name": "y",
+    "func_name_init": "f",
+    "query": "{\"articleEntityId\":\"i\",\"coverMedia\":\"s&&r?\"{\"media_id\":\"s\",\"media_category\":\"r\"}:\"void 0\"}"
   },
   {
     "n": "35680",
@@ -7980,6 +8025,11 @@
         "fieldToggles": [],
         "featureSwitch": {}
       }
+    },
+    "func_name": "l",
+    "func_name_init": "o",
+    "query": {
+      "topicId": "r"
     }
   },
   {
@@ -9097,6 +9147,11 @@
           }
         }
       }
+    },
+    "func_name": "s",
+    "func_name_init": "i",
+    "query": {
+      "userId": "n"
     }
   },
   {
@@ -9650,6 +9705,16 @@
           }
         }
       }
+    },
+    "func_name": "u",
+    "func_name_init": "s",
+    "query": {
+      "userId": "a",
+      "count": "t",
+      "cursor": "r",
+      "includePromotedContent": "!0",
+      "...()(0,d.d)": "_",
+      "withVoice": "n.isTrue(n)"
     }
   },
   {
@@ -9771,7 +9836,7 @@
   {
     "n": "91957",
     "exports": {
-      "queryId": "BNfUANkqWTZZdOE4xnhPiQ",
+      "queryId": "1RLQukO18Tv8Nq5_ggu2lA",
       "operationName": "UserByRestId",
       "operationType": "query",
       "metadata": {
@@ -9783,6 +9848,7 @@
           "verified_phone_label_enabled",
           "highlights_tweets_tab_ui_enabled",
           "responsive_web_twitter_article_notes_tab_enabled",
+          "subscriptions_feature_can_gift_premium",
           "creator_subscriptions_tweet_preview_api_enabled",
           "responsive_web_graphql_skip_user_profile_image_extensions_enabled",
           "responsive_web_graphql_timeline_navigation_enabled"
@@ -9812,6 +9878,9 @@
           "responsive_web_twitter_article_notes_tab_enabled": {
             "value": "true"
           },
+          "subscriptions_feature_can_gift_premium": {
+            "value": "false"
+          },
           "creator_subscriptions_tweet_preview_api_enabled": {
             "value": "true"
           },
@@ -9828,7 +9897,7 @@
   {
     "n": "50976",
     "exports": {
-      "queryId": "qW5u-DAuXpMEG0zA1F7UGQ",
+      "queryId": "SjtODv6y4fsa4-zv5sLw5A",
       "operationName": "UserByScreenName",
       "operationType": "query",
       "metadata": {
@@ -9842,6 +9911,7 @@
           "subscriptions_verification_info_verified_since_enabled",
           "highlights_tweets_tab_ui_enabled",
           "responsive_web_twitter_article_notes_tab_enabled",
+          "subscriptions_feature_can_gift_premium",
           "creator_subscriptions_tweet_preview_api_enabled",
           "responsive_web_graphql_skip_user_profile_image_extensions_enabled",
           "responsive_web_graphql_timeline_navigation_enabled"
@@ -9876,6 +9946,9 @@
           },
           "responsive_web_twitter_article_notes_tab_enabled": {
             "value": "true"
+          },
+          "subscriptions_feature_can_gift_premium": {
+            "value": "false"
           },
           "creator_subscriptions_tweet_preview_api_enabled": {
             "value": "true"
@@ -10249,6 +10322,16 @@
           }
         }
       }
+    },
+    "func_name": "m",
+    "func_name_init": "p",
+    "query": {
+      "userId": "a",
+      "count": "t",
+      "cursor": "r",
+      "includePromotedContent": "!0",
+      "...()(0,d.d)": "_",
+      "withVoice": "n.isTrue(n)"
     }
   },
   {
@@ -10365,6 +10448,19 @@
           }
         }
       }
+    },
+    "func_name": "g",
+    "func_name_init": "h",
+    "query": {
+      "userId": "a",
+      "count": "t",
+      "cursor": "r",
+      "includePromotedContent": "!1",
+      "...()(0,d.d)": "_",
+      "withClientEventToken": "!1",
+      "withBirdwatchNotes": "!1",
+      "withVoice": "n.isTrue(n)",
+      "withV2Timeline": "n.isTrue(\"voice_consumption_enabled\")"
     }
   },
   {
