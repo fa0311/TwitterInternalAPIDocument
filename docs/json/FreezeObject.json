@@ -5370,15 +5370,15 @@
     "section": "hiring"
   },
   {
-    "...qe": "_",
+    "...Ye": "_",
     "component": "job-splash-screen"
   },
   {
-    "...qe": "_",
+    "...Ye": "_",
     "component": "apideck-vault"
   },
   {
-    "...qe": "_",
+    "...Ye": "_",
     "component": "sync-ats-jobs"
   },
   {
@@ -5397,6 +5397,15 @@
   {
     "fetchStatus": "q.ZP.NONE",
     "config": "Ta"
+  },
+  {
+    "ConfirmationStep": "ConfirmationStep",
+    "UnclaimedCreditStep": "UnclaimedCreditStep",
+    "ScheduleCallStep": "ScheduleCallStep",
+    "CreditOfferStep": "CreditOfferStep",
+    "CreditSuccessStep": "CreditSuccessStep",
+    "FinalConfirmationStep": "FinalConfirmationStep",
+    "CompleteStep": "CompleteStep"
   },
   "{[_.hA.switchFromDirect]:\"m().dca6b3ac\",[_.hA.generate]:\"m().dca6b3ac\",[_.hA.updateSeats]:\"m().c97ad52a\"}",
   "{[x.hA.generate]:\"E().fc1f43d0\",[x.hA.switchFromDirect]:\"E().fc1f43d0\",[x.hA.updateSeats]:\"E().c97ad52a\"}",
