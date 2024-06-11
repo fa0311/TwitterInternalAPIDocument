@@ -5721,17 +5721,17 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant   | value             |
 |:-----------|:------------------|
-| ...qe      | _                 |
+| ...Ye      | _                 |
 | component  | job-splash-screen |
 
 | constant   | value         |
 |:-----------|:--------------|
-| ...qe      | _             |
+| ...Ye      | _             |
 | component  | apideck-vault |
 
 | constant   | value         |
 |:-----------|:--------------|
-| ...qe      | _             |
+| ...Ye      | _             |
 | component  | sync-ats-jobs |
 
 | constant         | value            |
@@ -5754,6 +5754,16 @@ This document is entirely auto-generated and may contain errors.<br>
 |:------------|:----------|
 | fetchStatus | q.ZP.NONE |
 | config      | Ta        |
+
+| constant              | value                 |
+|:----------------------|:----------------------|
+| ConfirmationStep      | ConfirmationStep      |
+| UnclaimedCreditStep   | UnclaimedCreditStep   |
+| ScheduleCallStep      | ScheduleCallStep      |
+| CreditOfferStep       | CreditOfferStep       |
+| CreditSuccessStep     | CreditSuccessStep     |
+| FinalConfirmationStep | FinalConfirmationStep |
+| CompleteStep          | CompleteStep          |
 
 ```internal process
 # Error
