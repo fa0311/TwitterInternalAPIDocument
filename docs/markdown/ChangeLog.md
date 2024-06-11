@@ -3645,3 +3645,15 @@
 - subscriptions_feature_can_gift_premium<br>
 #### remove<br>
 - None<br>
+## 2024/06/11<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- blue_business_cancel_offer<br>
+#### remove<br>
+- subscriptions_inapp_grok_disable_links<br>
+- voice_rooms_speaking_enabled<br>
