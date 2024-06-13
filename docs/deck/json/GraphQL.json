@@ -9836,12 +9836,11 @@
   {
     "n": "91957",
     "exports": {
-      "queryId": "1RLQukO18Tv8Nq5_ggu2lA",
+      "queryId": "xf3jd90KKBCUxdlI_tNHZw",
       "operationName": "UserByRestId",
       "operationType": "query",
       "metadata": {
         "featureSwitches": [
-          "hidden_profile_likes_enabled",
           "hidden_profile_subscriptions_enabled",
           "rweb_tipjar_consumption_enabled",
           "responsive_web_graphql_exclude_directive_enabled",
@@ -9857,9 +9856,6 @@
           "withAuxiliaryUserLabels"
         ],
         "featureSwitch": {
-          "hidden_profile_likes_enabled": {
-            "value": "true"
-          },
           "hidden_profile_subscriptions_enabled": {
             "value": "true"
           },
@@ -9897,12 +9893,11 @@
   {
     "n": "50976",
     "exports": {
-      "queryId": "SjtODv6y4fsa4-zv5sLw5A",
+      "queryId": "xmU6X_CKVnQ5lSrCbAmJsg",
       "operationName": "UserByScreenName",
       "operationType": "query",
       "metadata": {
         "featureSwitches": [
-          "hidden_profile_likes_enabled",
           "hidden_profile_subscriptions_enabled",
           "rweb_tipjar_consumption_enabled",
           "responsive_web_graphql_exclude_directive_enabled",
@@ -9920,9 +9915,6 @@
           "withAuxiliaryUserLabels"
         ],
         "featureSwitch": {
-          "hidden_profile_likes_enabled": {
-            "value": "true"
-          },
           "hidden_profile_subscriptions_enabled": {
             "value": "true"
           },
