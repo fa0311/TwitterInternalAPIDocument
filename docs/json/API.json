@@ -1422,11 +1422,10 @@
       }
     },
     "UserByRestId": {
-      "url": "https://x.com/i/api/graphql/1RLQukO18Tv8Nq5_ggu2lA/UserByRestId",
-      "queryId": "1RLQukO18Tv8Nq5_ggu2lA",
+      "url": "https://x.com/i/api/graphql/xf3jd90KKBCUxdlI_tNHZw/UserByRestId",
+      "queryId": "xf3jd90KKBCUxdlI_tNHZw",
       "method": "GET",
       "features": {
-        "hidden_profile_likes_enabled": true,
         "hidden_profile_subscriptions_enabled": true,
         "rweb_tipjar_consumption_enabled": true,
         "responsive_web_graphql_exclude_directive_enabled": true,
@@ -1440,11 +1439,10 @@
       }
     },
     "UserByScreenName": {
-      "url": "https://x.com/i/api/graphql/SjtODv6y4fsa4-zv5sLw5A/UserByScreenName",
-      "queryId": "SjtODv6y4fsa4-zv5sLw5A",
+      "url": "https://x.com/i/api/graphql/xmU6X_CKVnQ5lSrCbAmJsg/UserByScreenName",
+      "queryId": "xmU6X_CKVnQ5lSrCbAmJsg",
       "method": "GET",
       "features": {
-        "hidden_profile_likes_enabled": true,
         "hidden_profile_subscriptions_enabled": true,
         "rweb_tipjar_consumption_enabled": true,
         "responsive_web_graphql_exclude_directive_enabled": true,
@@ -4333,7 +4331,7 @@
     }
   },
   "header": {
-    "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+    "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36",
     "authorization": "Bearer AAAAAAAAAAAAAAAAAAAAANRILgAAAAAAnNwIzUejRCOuH5E6I8xnZz4puTs%3D1Zv7ttfk8LF81IUq16cHjhLTvJu4FA33AGWWjCpTnA"
   }
 }
