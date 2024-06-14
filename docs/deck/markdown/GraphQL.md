@@ -3907,7 +3907,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## UserByRestId<br>
-Request URL: `https://x.com/i/api/graphql/1RLQukO18Tv8Nq5_ggu2lA/UserByRestId`<br>
+Request URL: `https://x.com/i/api/graphql/xf3jd90KKBCUxdlI_tNHZw/UserByRestId`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -3916,7 +3916,6 @@ Login Required: `...`<br>
 #### features<br>
 | key                                                               | type    | variable   |
 |:------------------------------------------------------------------|:--------|:-----------|
-| hidden_profile_likes_enabled                                      | boolean | True       |
 | hidden_profile_subscriptions_enabled                              | boolean | True       |
 | rweb_tipjar_consumption_enabled                                   | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                  | boolean | True       |
@@ -3931,7 +3930,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## UserByScreenName<br>
-Request URL: `https://x.com/i/api/graphql/SjtODv6y4fsa4-zv5sLw5A/UserByScreenName`<br>
+Request URL: `https://x.com/i/api/graphql/xmU6X_CKVnQ5lSrCbAmJsg/UserByScreenName`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -3940,7 +3939,6 @@ Login Required: `...`<br>
 #### features<br>
 | key                                                               | type    | variable   |
 |:------------------------------------------------------------------|:--------|:-----------|
-| hidden_profile_likes_enabled                                      | boolean | True       |
 | hidden_profile_subscriptions_enabled                              | boolean | True       |
 | rweb_tipjar_consumption_enabled                                   | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                  | boolean | True       |

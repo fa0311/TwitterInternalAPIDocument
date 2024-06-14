@@ -251,7 +251,6 @@ This document is entirely auto-generated and may contain errors.<br>
 | SidebarLongform        | SidebarLongform        |
 | SidebarPremiumPlus     | SidebarPremiumPlus     |
 | SidebarVerifiedOrgs    | SidebarVerifiedOrgs    |
-| LikesTab               | LikesTab               |
 | VerifiedOnlyChat       | VerifiedOnlyChat       |
 | LongerVideoUpload      | LongerVideoUpload      |
 | AccountAnalytics       | AccountAnalytics       |
@@ -3501,13 +3500,13 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant         | value        |
 |:-----------------|:-------------|
-| see_more         | E().ffd9cfe6 |
-| discover_more    | E().d172116a |
-| more             | E().h63a5c3c |
-| more_tweets      | E().be5df69e |
-| more_suggestions | E().g11ebd34 |
-| browse           | E().g4a6901a |
-| browse_tweets    | E().h6453e74 |
+| see_more         | x().ffd9cfe6 |
+| discover_more    | x().d172116a |
+| more             | x().h63a5c3c |
+| more_tweets      | x().be5df69e |
+| more_suggestions | x().g11ebd34 |
+| browse           | x().g4a6901a |
+| browse_tweets    | x().h6453e74 |
 
 | constant   | value        |
 |:-----------|:-------------|
@@ -5752,8 +5751,8 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant    | value     |
 |:------------|:----------|
-| fetchStatus | q.ZP.NONE |
-| config      | Ta        |
+| fetchStatus | $.ZP.NONE |
+| config      | Za        |
 
 | constant              | value                 |
 |:----------------------|:----------------------|
@@ -5763,7 +5762,6 @@ This document is entirely auto-generated and may contain errors.<br>
 | CreditOfferStep       | CreditOfferStep       |
 | CreditSuccessStep     | CreditSuccessStep     |
 | FinalConfirmationStep | FinalConfirmationStep |
-| CompleteStep          | CompleteStep          |
 
 ```internal process
 # Error
@@ -5771,7 +5769,7 @@ This document is entirely auto-generated and may contain errors.<br>
 ```
 ```internal process
 # Error
-{[x.hA.generate]:"E().fc1f43d0",[x.hA.switchFromDirect]:"E().fc1f43d0",[x.hA.updateSeats]:"E().c97ad52a"}
+{[L.hA.generate]:"E().fc1f43d0",[L.hA.switchFromDirect]:"E().fc1f43d0",[L.hA.updateSeats]:"E().c97ad52a"}
 ```
 | constant      | value         |
 |:--------------|:--------------|
@@ -6194,7 +6192,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant      | value                                                                                                                                                                                                                  |
 |:--------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| superFollower | {'graphic': 'g.default', 'headline': 'm().e453f536', 'subtext': 'm().bd4cb7a0', 'actionLabel': 'm().g7099a02', 'actionLink': 'https://help.x.com/using-twitter/subscriptions', 'secondaryActionLabel': 'm().c2637ef6'} |
+| superFollower | {'graphic': 'p.default', 'headline': 'm().e453f536', 'subtext': 'm().bd4cb7a0', 'actionLabel': 'm().g7099a02', 'actionLink': 'https://help.x.com/using-twitter/subscriptions', 'secondaryActionLabel': 'm().c2637ef6'} |
 
 | constant        | value        |
 |:----------------|:-------------|
