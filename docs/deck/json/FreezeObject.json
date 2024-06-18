@@ -1195,6 +1195,8 @@
     "ConversationTree": "ConversationTree",
     "GridCarousel": "GridCarousel",
     "PagedCarousel": "PagedCarousel",
+    "TVCarousel": "TVCarousel",
+    "TVShortCarousel": "TVShortCarousel",
     "Vertical": "Vertical",
     "VerticalConversation": "VerticalConversation",
     "VerticalGrid": "VerticalGrid",
@@ -3321,6 +3323,8 @@
     "LocalShouldReportGuestUser": "43",
     "UserIsTyping": "44",
     "ServerAudioTranscription": "45",
+    "AudioSpaceSharing": "46",
+    "ConferenceJoinRequest": "47",
     "ChatCaption": "201"
   },
   {
@@ -3349,11 +3353,6 @@
     "LowerHand": "24"
   },
   "{[u.SubmitRequest]:\"!0\",[u.CancelRequest]:\"!0\",[u.GuestCancelCountdown]:\"!0\",[u.GuestHangUp]:\"!0\",[u.InviteViewersToCallIn]:\"!0\",[u.ToggleCallIn]:\"!0\",[u.BeginCountdown]:\"!0\",[u.HostCancelCountdown]:\"!0\",[u.CompleteCountdown]:\"!0\",[u.HangUpOnGuest]:\"!0\",[u.BeginConnecting]:\"!0\",[u.GuestBroadcastingEnabled]:\"!0\",[u.UserInvited]:\"!0\",[u.RemoveParticipant]:\"!0\",[u.MuteGuest]:\"!1\",[u.UnmuteGuest]:\"!1\",[u.MuteSpace]:\"!1\",[u.UnmuteSpace]:\"!1\",[u.AddAdmin]:\"!0\",[u.RemoveAdmin]:\"!0\",[u.AdminStreamPublish]:\"!0\",[u.RaiseHand]:\"!1\",[u.LowerHand]:\"!1\"}",
-  {
-    "normal": "2",
-    "small": "1",
-    "xSmall": "0"
-  },
   {
     "small": "small",
     "medium": "medium"
@@ -4847,6 +4846,11 @@
   },
   "{\"ActionsBar\":\"v.Z\",\"ActionMenu\":\"function()\"{\"Icon\":\"e\",\"isDisabled\":\"t\",\"items\":\"n\",\"onOpen\":\"i\"}{\"const o=r.useCallback()\"{\"items\":\"n\",\"onCloseRequested\":\"e\"}{\"Icon\":\"e\",\"isDisabled\":\"t\",\"onClick\":\"i\",\"renderActionMenu\":\"o\"}},\"CallToAction\":\"a.ZP\",\"EditCallout\":\"C.Z\",\"Education\":\"E.Z\",\"HighlightedUserLabel\":\"c.Z\",\"Media\":\"x.Z\",\"Place\":\"o.ZP\",\"PromotedDetails\":\"u.Z\",\"PromotedUserProfileCard\":\"A\",\"ReplyContext\":\"P.ZP\",\"RichContent\":\"M.Z\",\"SocialContext\":\"w.Z\",\"Text\":\"L.Z\",\"Tombstone\":\"g.Z\",\"Timestamp\":\"p.Z\",\"UserAvatar\":\"R.Z\",\"UserFollowIndicator\":\"F.Z\",\"UserName\":\"D.Z\",\"ArticleCard\":\"y.Z\"}",
   {
+    "normal": "2",
+    "small": "1",
+    "xSmall": "0"
+  },
+  {
     "FOLLOWS": "follows",
     "CREATORS": "creators"
   },
@@ -5802,7 +5806,7 @@
     "FinalConfirmationStep": "FinalConfirmationStep"
   },
   "{[_.hA.switchFromDirect]:\"m().dca6b3ac\",[_.hA.generate]:\"m().dca6b3ac\",[_.hA.updateSeats]:\"m().c97ad52a\"}",
-  "{[L.hA.generate]:\"E().fc1f43d0\",[L.hA.switchFromDirect]:\"E().fc1f43d0\",[L.hA.updateSeats]:\"E().c97ad52a\"}",
+  "{[x.hA.generate]:\"E().fc1f43d0\",[x.hA.switchFromDirect]:\"E().fc1f43d0\",[x.hA.updateSeats]:\"E().c97ad52a\"}",
   {
     "FullAccess": "FullAccess",
     "FullAccessGov": "FullAccessGov",
