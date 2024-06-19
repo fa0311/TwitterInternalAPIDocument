@@ -2621,3 +2621,15 @@
 #### remove<br>
 - hidden_profile_likes_enabled<br>
 - subscriptions_feature_hide_your_likes<br>
+## 2024/06/18<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- identity_verification_creator_processor<br>
+- subscriptions_gifting_help_url<br>
+#### remove<br>
+- None<br>

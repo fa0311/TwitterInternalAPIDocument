@@ -884,6 +884,8 @@ This document is entirely auto-generated and may contain errors.<br>
 | ConversationTree        | ConversationTree        |
 | GridCarousel            | GridCarousel            |
 | PagedCarousel           | PagedCarousel           |
+| TVCarousel              | TVCarousel              |
+| TVShortCarousel         | TVShortCarousel         |
 | Vertical                | Vertical                |
 | VerticalConversation    | VerticalConversation    |
 | VerticalGrid            | VerticalGrid            |
@@ -2338,6 +2340,8 @@ This document is entirely auto-generated and may contain errors.<br>
 | LocalShouldReportGuestUser     |      43 |
 | UserIsTyping                   |      44 |
 | ServerAudioTranscription       |      45 |
+| AudioSpaceSharing              |      46 |
+| ConferenceJoinRequest          |      47 |
 | ChatCaption                    |     201 |
 
 | constant                 |   value |
@@ -2370,12 +2374,6 @@ This document is entirely auto-generated and may contain errors.<br>
 # Error
 {[u.SubmitRequest]:"!0",[u.CancelRequest]:"!0",[u.GuestCancelCountdown]:"!0",[u.GuestHangUp]:"!0",[u.InviteViewersToCallIn]:"!0",[u.ToggleCallIn]:"!0",[u.BeginCountdown]:"!0",[u.HostCancelCountdown]:"!0",[u.CompleteCountdown]:"!0",[u.HangUpOnGuest]:"!0",[u.BeginConnecting]:"!0",[u.GuestBroadcastingE...
 ```
-| constant   |   value |
-|:-----------|--------:|
-| normal     |       2 |
-| small      |       1 |
-| xSmall     |       0 |
-
 | constant   | value   |
 |:-----------|:--------|
 | small      | small   |
@@ -4682,6 +4680,12 @@ This document is entirely auto-generated and may contain errors.<br>
 # Error
 {"ActionsBar":"v.Z","ActionMenu":"function()"{"Icon":"e","isDisabled":"t","items":"n","onOpen":"i"}{"const o=r.useCallback()"{"items":"n","onCloseRequested":"e"}{"Icon":"e","isDisabled":"t","onClick":"i","renderActionMenu":"o"}},"CallToAction":"a.ZP","EditCallout":"C.Z","Education":"E.Z","Highlighte...
 ```
+| constant   |   value |
+|:-----------|--------:|
+| normal     |       2 |
+| small      |       1 |
+| xSmall     |       0 |
+
 | constant   | value    |
 |:-----------|:---------|
 | FOLLOWS    | follows  |
@@ -5769,7 +5773,7 @@ This document is entirely auto-generated and may contain errors.<br>
 ```
 ```internal process
 # Error
-{[L.hA.generate]:"E().fc1f43d0",[L.hA.switchFromDirect]:"E().fc1f43d0",[L.hA.updateSeats]:"E().c97ad52a"}
+{[x.hA.generate]:"F().fc1f43d0",[x.hA.switchFromDirect]:"F().fc1f43d0",[x.hA.updateSeats]:"F().c97ad52a"}
 ```
 | constant      | value         |
 |:--------------|:--------------|

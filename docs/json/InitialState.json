@@ -415,11 +415,17 @@
       "blue_business_analytics": {
         "value": "true"
       },
+      "blue_business_analytics_affiliate_filtering_enabled": {
+        "value": "false"
+      },
       "blue_business_cancel_offer": {
         "value": "false"
       },
       "blue_business_direct_invites_enabled": {
         "value": "true"
+      },
+      "blue_business_display_annual_price_monthly": {
+        "value": "false"
       },
       "blue_business_multi_affiliates_ui_enabled": {
         "value": "false"
@@ -885,6 +891,9 @@
       },
       "identity_verification_consent_opt_in_by_default_enabled": {
         "value": "true"
+      },
+      "identity_verification_creator_processor": {
+        "value": ""
       },
       "identity_verification_debadging_notification_enabled": {
         "value": "true"
@@ -2265,6 +2274,9 @@
       "subscriptions_feature_premium_jobs": {
         "value": "true"
       },
+      "subscriptions_gifting_help_url": {
+        "value": "https://x.com/messages/compose?recipient_id&#x3D;1399766153053061121"
+      },
       "subscriptions_hide_ad_upsell_enabled": {
         "value": "true"
       },
@@ -3105,11 +3117,17 @@
         "blue_business_analytics": {
           "value": "true"
         },
+        "blue_business_analytics_affiliate_filtering_enabled": {
+          "value": "false"
+        },
         "blue_business_cancel_offer": {
           "value": "false"
         },
         "blue_business_direct_invites_enabled": {
           "value": "true"
+        },
+        "blue_business_display_annual_price_monthly": {
+          "value": "false"
         },
         "blue_business_multi_affiliates_ui_enabled": {
           "value": "false"
@@ -3575,6 +3593,9 @@
         },
         "identity_verification_consent_opt_in_by_default_enabled": {
           "value": "true"
+        },
+        "identity_verification_creator_processor": {
+          "value": ""
         },
         "identity_verification_debadging_notification_enabled": {
           "value": "true"
@@ -4955,6 +4976,9 @@
         "subscriptions_feature_premium_jobs": {
           "value": "true"
         },
+        "subscriptions_gifting_help_url": {
+          "value": "https://x.com/messages/compose?recipient_id&#x3D;1399766153053061121"
+        },
         "subscriptions_hide_ad_upsell_enabled": {
           "value": "true"
         },
@@ -5488,7 +5512,7 @@
       "settingsVersion": "39169fa4f5245a3eaa5e23ec04608e8d"
     },
     "debug": {},
-    "featureSetToken": "051979536d606cb8b48c1053593c4d4361dca336",
+    "featureSetToken": "71bcf09bad178a8af7eee8ccc554b6752c56d37d",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -5558,7 +5582,7 @@
     "country": "XX",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "171848563609119657",
+    "guestId": "171874487168325258",
     "hasCommunityMemberships": "false",
     "language": "en",
     "ssoInitTokens": {},
