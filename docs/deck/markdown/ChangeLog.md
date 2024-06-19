@@ -2633,3 +2633,15 @@
 - subscriptions_gifting_help_url<br>
 #### remove<br>
 - None<br>
+## 2024/06/19<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- blue_business_analytics_affiliate_filtering_enabled<br>
+- blue_business_display_annual_price_monthly<br>
+#### remove<br>
+- None<br>
