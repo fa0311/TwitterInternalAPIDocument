@@ -425,11 +425,17 @@
       "blue_business_analytics": {
         "value": "true"
       },
+      "blue_business_analytics_affiliate_filtering_enabled": {
+        "value": "false"
+      },
       "blue_business_cancel_offer": {
         "value": "false"
       },
       "blue_business_direct_invites_enabled": {
         "value": "true"
+      },
+      "blue_business_display_annual_price_monthly": {
+        "value": "false"
       },
       "blue_business_multi_affiliates_ui_enabled": {
         "value": "false"
@@ -2279,7 +2285,7 @@
         "value": "true"
       },
       "subscriptions_gifting_help_url": {
-        "value": ""
+        "value": "https://x.com/messages/compose?recipient_id&#x3D;1399766153053061121"
       },
       "subscriptions_hide_ad_upsell_enabled": {
         "value": "true"
@@ -3121,11 +3127,17 @@
         "blue_business_analytics": {
           "value": "true"
         },
+        "blue_business_analytics_affiliate_filtering_enabled": {
+          "value": "false"
+        },
         "blue_business_cancel_offer": {
           "value": "false"
         },
         "blue_business_direct_invites_enabled": {
           "value": "true"
+        },
+        "blue_business_display_annual_price_monthly": {
+          "value": "false"
         },
         "blue_business_multi_affiliates_ui_enabled": {
           "value": "false"
@@ -5507,10 +5519,10 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "81f963f7942373486790f95dcf7c4d95"
+      "settingsVersion": "65ba7a38ea9510fc2ed4deed67c0dc0f"
     },
     "debug": {},
-    "featureSetToken": "d9628d1d0eda9a741f00ccfec3f17054929ca4c3",
+    "featureSetToken": "71bcf09bad178a8af7eee8ccc554b6752c56d37d",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -5580,7 +5592,7 @@
     "country": "XX",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "171874590705241719",
+    "guestId": "171883241269700794",
     "hasCommunityMemberships": "false",
     "language": "en",
     "ssoInitTokens": {},
