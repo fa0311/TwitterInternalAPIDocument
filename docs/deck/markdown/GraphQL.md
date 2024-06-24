@@ -96,10 +96,9 @@ Request Method: `POST`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key      | type   | variable   |
-|:---------|:-------|:-----------|
-| id       | ...    | n.trendId  |
-| is_saved | ...    | n.isSaved  |
+| key             | type   | variable   |
+|:----------------|:-------|:-----------|
+| articleEntityId | ...    | i          |
 
 #### features<br>
 `None`<br>
@@ -1578,9 +1577,11 @@ Request Method: `POST`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key             | type   | variable   |
-|:----------------|:-------|:-----------|
-| articleEntityId | ...    | i          |
+| key              | type   | variable   |
+|:-----------------|:-------|:-----------|
+| dataSaverEnabled | ...    | n          |
+| deviceId         | ...    | t          |
+| videoAutoplay    | ...    | r          |
 
 #### features<br>
 `None`<br>
