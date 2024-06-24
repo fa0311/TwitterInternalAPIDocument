@@ -3134,7 +3134,7 @@
           "value": "false"
         },
         "blue_business_cancel_offer": {
-          "value": "false"
+          "value": "true"
         },
         "blue_business_direct_invites_enabled": {
           "value": "true"
@@ -5525,7 +5525,7 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "91029693c85c6db6e5475139bfc101f3"
+      "settingsVersion": "0fdd2a334266996b84a29ce03c18484e"
     },
     "debug": {},
     "featureSetToken": "a37ecf1c72bce0e2e6302b77ff349cd86d0fdb6a",
@@ -5598,7 +5598,7 @@
     "country": "XX",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "171917781675842948",
+    "guestId": "171926430553615334",
     "hasCommunityMemberships": "false",
     "language": "en",
     "ssoInitTokens": {},
