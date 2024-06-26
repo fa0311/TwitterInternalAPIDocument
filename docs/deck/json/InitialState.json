@@ -419,6 +419,9 @@
       "blue_business_admin_sidebar_module_enabled": {
         "value": "true"
       },
+      "blue_business_ads_metrics": {
+        "value": "false"
+      },
       "blue_business_affiliates_list_order_setting_enabled": {
         "value": "false"
       },
@@ -435,7 +438,7 @@
         "value": "true"
       },
       "blue_business_display_annual_price_monthly": {
-        "value": "false"
+        "value": "true"
       },
       "blue_business_multi_affiliates_ui_enabled": {
         "value": "false"
@@ -3118,6 +3121,9 @@
         "blue_business_admin_sidebar_module_enabled": {
           "value": "true"
         },
+        "blue_business_ads_metrics": {
+          "value": "false"
+        },
         "blue_business_affiliates_list_order_setting_enabled": {
           "value": "false"
         },
@@ -5513,10 +5519,10 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "91029693c85c6db6e5475139bfc101f3"
+      "settingsVersion": "65ba7a38ea9510fc2ed4deed67c0dc0f"
     },
     "debug": {},
-    "featureSetToken": "77858610b42197caea7632ade13fb9758d679e76",
+    "featureSetToken": "b87ddf3468f38c2c782a2af6dfb74955e87ac797",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -5586,7 +5592,7 @@
     "country": "XX",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "171935071461627307",
+    "guestId": "171943722574381915",
     "hasCommunityMemberships": "false",
     "language": "en",
     "ssoInitTokens": {},
