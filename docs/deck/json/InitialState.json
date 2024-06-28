@@ -5507,19 +5507,19 @@
           "value": "true"
         },
         "xprofile_emojis_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "xprofile_work_history_consumption_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "xprofile_work_history_enabled": {
-          "value": "false"
+          "value": "true"
         }
       },
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "65ba7a38ea9510fc2ed4deed67c0dc0f"
+      "settingsVersion": "45bbf4e82a0ac53fe956c731b85d3852"
     },
     "debug": {},
     "featureSetToken": "b87ddf3468f38c2c782a2af6dfb74955e87ac797",
@@ -5592,7 +5592,7 @@
     "country": "XX",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "171952355438080496",
+    "guestId": "171960991514662814",
     "hasCommunityMemberships": "false",
     "language": "en",
     "ssoInitTokens": {},
