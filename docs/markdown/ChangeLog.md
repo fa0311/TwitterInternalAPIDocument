@@ -3732,3 +3732,17 @@
 - responsive_web_twitter_article_batch_posts<br>
 #### remove<br>
 - None<br>
+## 2024/07/02<br>
+### API<br>
+#### add<br>
+- BirdwatchAdmitUser<br>
+- BirdwatchRemoveUser<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- recruiting_promoted_jobs_enabled<br>
+- responsive_web_birdwatch_self_remove_enabled<br>
+- subscriptions_marketing_page_remove_extra_step<br>
+#### remove<br>
+- None<br>
