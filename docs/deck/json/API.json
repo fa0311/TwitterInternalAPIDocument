@@ -3568,6 +3568,12 @@
         "responsive_web_enhance_cards_enabled": false
       }
     },
+    "BirdwatchAdmitUser": {
+      "url": "https://x.com/i/api/graphql/s_L4H2iPhZoMtWiqHxd9LA/BirdwatchAdmitUser",
+      "queryId": "s_L4H2iPhZoMtWiqHxd9LA",
+      "method": "POST",
+      "features": {}
+    },
     "BirdwatchAliasSelect": {
       "url": "https://x.com/i/api/graphql/3ss48WFwGokBH_gj8t_8aQ/BirdwatchAliasSelect",
       "queryId": "3ss48WFwGokBH_gj8t_8aQ",
@@ -3700,8 +3706,8 @@
       "features": {}
     },
     "BirdwatchFetchAuthenticatedUserProfile": {
-      "url": "https://x.com/i/api/graphql/JSf0I8AZFRLzAuay4E0eZw/BirdwatchFetchAuthenticatedUserProfile",
-      "queryId": "JSf0I8AZFRLzAuay4E0eZw",
+      "url": "https://x.com/i/api/graphql/hkYn13HnxM_eVCEGGl-Fdw/BirdwatchFetchAuthenticatedUserProfile",
+      "queryId": "hkYn13HnxM_eVCEGGl-Fdw",
       "method": "GET",
       "features": {
         "responsive_web_birdwatch_top_contributor_enabled": true,
@@ -3813,6 +3819,12 @@
     "BirdwatchProfileAcknowledgeEarnOut": {
       "url": "https://x.com/i/api/graphql/cED9wJy8Nd1kZCCYuIq9zQ/BirdwatchProfileAcknowledgeEarnOut",
       "queryId": "cED9wJy8Nd1kZCCYuIq9zQ",
+      "method": "POST",
+      "features": {}
+    },
+    "BirdwatchRemoveUser": {
+      "url": "https://x.com/i/api/graphql/6ZEO6UxqjlK4nefrhotZHw/BirdwatchRemoveUser",
+      "queryId": "6ZEO6UxqjlK4nefrhotZHw",
       "method": "POST",
       "features": {}
     },
