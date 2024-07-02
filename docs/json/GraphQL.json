@@ -12392,6 +12392,19 @@
     }
   },
   {
+    "n": "63034",
+    "exports": {
+      "queryId": "s_L4H2iPhZoMtWiqHxd9LA",
+      "operationName": "BirdwatchAdmitUser",
+      "operationType": "mutation",
+      "metadata": {
+        "featureSwitches": [],
+        "fieldToggles": [],
+        "featureSwitch": {}
+      }
+    }
+  },
+  {
     "n": "84570",
     "exports": {
       "queryId": "3ss48WFwGokBH_gj8t_8aQ",
@@ -12792,7 +12805,7 @@
   {
     "n": "3570",
     "exports": {
-      "queryId": "JSf0I8AZFRLzAuay4E0eZw",
+      "queryId": "hkYn13HnxM_eVCEGGl-Fdw",
       "operationName": "BirdwatchFetchAuthenticatedUserProfile",
       "operationType": "query",
       "metadata": {
@@ -13135,6 +13148,19 @@
     "exports": {
       "queryId": "cED9wJy8Nd1kZCCYuIq9zQ",
       "operationName": "BirdwatchProfileAcknowledgeEarnOut",
+      "operationType": "mutation",
+      "metadata": {
+        "featureSwitches": [],
+        "fieldToggles": [],
+        "featureSwitch": {}
+      }
+    }
+  },
+  {
+    "n": "15179",
+    "exports": {
+      "queryId": "6ZEO6UxqjlK4nefrhotZHw",
+      "operationName": "BirdwatchRemoveUser",
       "operationType": "mutation",
       "metadata": {
         "featureSwitches": [],
