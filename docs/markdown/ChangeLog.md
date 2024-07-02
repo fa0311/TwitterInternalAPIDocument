@@ -3717,3 +3717,18 @@
 - blue_business_ads_metrics<br>
 #### remove<br>
 - None<br>
+## 2024/07/01<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- identity_verification_vendor_idv_migration_enabled<br>
+- responsive_web_grok_file_max_size<br>
+- responsive_web_grok_file_supported_mimetypes<br>
+- responsive_web_grok_file_upload_enabled<br>
+- responsive_web_twitter_article_batch_posts<br>
+#### remove<br>
+- None<br>

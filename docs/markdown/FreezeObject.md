@@ -4677,6 +4677,12 @@ This document is entirely auto-generated and may contain errors.<br>
 | SUCCESS    | rweb/availableLanguages/FETCH_AVAILABLE_LANGUAGES_SUCCESS |
 | FAILURE    | rweb/availableLanguages/FETCH_AVAILABLE_LANGUAGES_FAILURE |
 
+| constant   | value    |
+|:-----------|:---------|
+| INFINITE   | infinite |
+| MEDIUM     | medium   |
+| NONE       | none     |
+
 ```internal process
 # Error
 {"ActionsBar":"v.Z","ActionMenu":"function()"{"Icon":"e","isDisabled":"t","items":"n","onOpen":"i"}{"const o=r.useCallback()"{"items":"n","onCloseRequested":"e"}{"Icon":"e","isDisabled":"t","onClick":"i","renderActionMenu":"o"}},"CallToAction":"a.ZP","EditCallout":"C.Z","Education":"E.Z","Highlighte...
@@ -5770,7 +5776,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{[_.hA.switchFromDirect]:"m().dca6b3ac",[_.hA.generate]:"m().dca6b3ac",[_.hA.updateSeats]:"m().c97ad52a"}
+{[b.hA.switchFromDirect]:"m().dca6b3ac",[b.hA.generate]:"m().dca6b3ac",[b.hA.updateSeats]:"m().c97ad52a"}
 ```
 ```internal process
 # Error

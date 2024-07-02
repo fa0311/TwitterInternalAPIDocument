@@ -140,10 +140,11 @@
         "featureSwitch": {}
       }
     },
-    "func_name": "p",
-    "func_name_init": "m",
+    "func_name": "m",
+    "func_name_init": "p",
     "query": {
-      "articleEntityId": "i"
+      "id": "n.trendId",
+      "is_saved": "n.isSaved"
     }
   },
   {
@@ -3982,12 +3983,10 @@
         "featureSwitch": {}
       }
     },
-    "func_name": "m",
+    "func_name": "p",
     "func_name_init": "b",
     "query": {
-      "dataSaverEnabled": "n",
-      "deviceId": "t",
-      "videoAutoplay": "r"
+      "articleEntityId": "i"
     }
   },
   {
@@ -6623,7 +6622,7 @@
         }
       }
     },
-    "func_name": "m",
+    "func_name": "p",
     "func_name_init": "b",
     "query": "{\"rawQuery\":l||\"\",\"count\":\"t\",\"cursor\":\"r\",\"querySource\":\"o\",\"...()(0,a.d)\":\"_\"}"
   },
@@ -10316,8 +10315,8 @@
         }
       }
     },
-    "func_name": "p",
-    "func_name_init": "m",
+    "func_name": "m",
+    "func_name_init": "p",
     "query": {
       "userId": "a",
       "count": "t",
