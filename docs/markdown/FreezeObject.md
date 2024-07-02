@@ -4182,6 +4182,18 @@ This document is entirely auto-generated and may contain errors.<br>
 | SUCCESS    | rweb/birdwatchNotes/FETCH_NOTE_TRANSLATION_SUCCESS |
 | FAILURE    | rweb/birdwatchNotes/FETCH_NOTE_TRANSLATION_FAILURE |
 
+| constant   | value                                  |
+|:-----------|:---------------------------------------|
+| REQUEST    | rweb/birdwatchNotes/ADMIT_USER_REQUEST |
+| SUCCESS    | rweb/birdwatchNotes/ADMIT_USER_SUCCESS |
+| FAILURE    | rweb/birdwatchNotes/ADMIT_USER_FAILURE |
+
+| constant   | value                                   |
+|:-----------|:----------------------------------------|
+| REQUEST    | rweb/birdwatchNotes/REMOVE_USER_REQUEST |
+| SUCCESS    | rweb/birdwatchNotes/REMOVE_USER_SUCCESS |
+| FAILURE    | rweb/birdwatchNotes/REMOVE_USER_FAILURE |
+
 | constant   | value                                   |
 |:-----------|:----------------------------------------|
 | REQUEST    | rweb/birdwatchNotes/FETCH_ALIAS_REQUEST |
@@ -4312,8 +4324,8 @@ This document is entirely auto-generated and may contain errors.<br>
 | constant       | value                                          |
 |:---------------|:-----------------------------------------------|
 | closed         | {'shouldShow': '!1'}                           |
-| openSuccessful | {'shouldShow': '!0', 'badgeType': 'P.Ratings'} |
-| openHelpful    | {'shouldShow': '!0', 'badgeType': 'P.Notes'}   |
+| openSuccessful | {'shouldShow': '!0', 'badgeType': 'B.Ratings'} |
+| openHelpful    | {'shouldShow': '!0', 'badgeType': 'B.Notes'}   |
 
 | constant   | value                                               |
 |:-----------|:----------------------------------------------------|
@@ -5787,6 +5799,25 @@ This document is entirely auto-generated and may contain errors.<br>
 | FullAccess    | FullAccess    |
 | FullAccessGov | FullAccessGov |
 | Basic         | Basic         |
+
+| constant                   | value                      |
+|:---------------------------|:---------------------------|
+| Advertising                | Advertising                |
+| BlueVerified               | BlueVerified               |
+| BlueVerifiedPlus           | BlueVerifiedPlus           |
+| Chirps                     | Chirps                     |
+| Coins                      | Coins                      |
+| OneDollar                  | OneDollar                  |
+| OneDollarSubscription      | OneDollarSubscription      |
+| PremiumBasic               | PremiumBasic               |
+| QuickPromoteBudget         | QuickPromoteBudget         |
+| Seeds                      | Seeds                      |
+| Spaces                     | Spaces                     |
+| Subscriptions              | Subscriptions              |
+| SuperFollows               | SuperFollows               |
+| SuperLikes                 | SuperLikes                 |
+| VerifiedOrganizations      | VerifiedOrganizations      |
+| VerifiedOrganizationsBasic | VerifiedOrganizationsBasic |
 
 | constant     | value        |
 |:-------------|:-------------|
