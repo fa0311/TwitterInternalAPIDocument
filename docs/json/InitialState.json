@@ -1150,6 +1150,9 @@
       "recruiting_premium_jobs_enabled": {
         "value": "true"
       },
+      "recruiting_promoted_jobs_enabled": {
+        "value": "false"
+      },
       "recruiting_search_filters_enabled": {
         "value": "true"
       },
@@ -1293,6 +1296,9 @@
       },
       "responsive_web_birdwatch_require_rating_before_writing_enabled": {
         "value": "true"
+      },
+      "responsive_web_birdwatch_self_remove_enabled": {
+        "value": "false"
       },
       "responsive_web_birdwatch_signup_prompt_enabled": {
         "value": "true"
@@ -2303,7 +2309,7 @@
         "value": "true"
       },
       "subscriptions_inapp_grok_analyze": {
-        "value": "false"
+        "value": "true"
       },
       "subscriptions_inapp_grok_default_mode": {
         "value": "fun"
@@ -2334,6 +2340,9 @@
       },
       "subscriptions_marketing_page_include_tax_enabled": {
         "value": "true"
+      },
+      "subscriptions_marketing_page_remove_extra_step": {
+        "value": "false"
       },
       "subscriptions_mute_ad_upsell_enabled": {
         "value": "true"
@@ -3871,6 +3880,9 @@
         "recruiting_premium_jobs_enabled": {
           "value": "true"
         },
+        "recruiting_promoted_jobs_enabled": {
+          "value": "false"
+        },
         "recruiting_search_filters_enabled": {
           "value": "true"
         },
@@ -4014,6 +4026,9 @@
         },
         "responsive_web_birdwatch_require_rating_before_writing_enabled": {
           "value": "true"
+        },
+        "responsive_web_birdwatch_self_remove_enabled": {
+          "value": "false"
         },
         "responsive_web_birdwatch_signup_prompt_enabled": {
           "value": "true"
@@ -5024,7 +5039,7 @@
           "value": "true"
         },
         "subscriptions_inapp_grok_analyze": {
-          "value": "false"
+          "value": "true"
         },
         "subscriptions_inapp_grok_default_mode": {
           "value": "fun"
@@ -5055,6 +5070,9 @@
         },
         "subscriptions_marketing_page_include_tax_enabled": {
           "value": "true"
+        },
+        "subscriptions_marketing_page_remove_extra_step": {
+          "value": "false"
         },
         "subscriptions_mute_ad_upsell_enabled": {
           "value": "true"
@@ -5550,7 +5568,7 @@
       "settingsVersion": "39169fa4f5245a3eaa5e23ec04608e8d"
     },
     "debug": {},
-    "featureSetToken": "04bad25ac575db672556de0490ce8a9354db8d61",
+    "featureSetToken": "a18270ee5ce73c94a8d70678adca17b06ed3052a",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -5620,7 +5638,7 @@
     "country": "XX",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "171986808843054892",
+    "guestId": "171995451697220380",
     "hasCommunityMemberships": "false",
     "language": "en",
     "ssoInitTokens": {},

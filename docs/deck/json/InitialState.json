@@ -906,7 +906,7 @@
         "value": "true"
       },
       "identity_verification_creator_processor": {
-        "value": ""
+        "value": "Stripe"
       },
       "identity_verification_debadging_notification_enabled": {
         "value": "true"
@@ -1160,6 +1160,9 @@
       "recruiting_premium_jobs_enabled": {
         "value": "true"
       },
+      "recruiting_promoted_jobs_enabled": {
+        "value": "false"
+      },
       "recruiting_search_filters_enabled": {
         "value": "true"
       },
@@ -1212,7 +1215,7 @@
         "value": "control"
       },
       "responsive_web_account_analytics_overview_v2": {
-        "value": "false"
+        "value": "true"
       },
       "responsive_web_account_analytics_timeframe_enabled": {
         "value": "true"
@@ -1303,6 +1306,9 @@
       },
       "responsive_web_birdwatch_require_rating_before_writing_enabled": {
         "value": "true"
+      },
+      "responsive_web_birdwatch_self_remove_enabled": {
+        "value": "false"
       },
       "responsive_web_birdwatch_signup_prompt_enabled": {
         "value": "true"
@@ -1503,6 +1509,19 @@
         "value": "true"
       },
       "responsive_web_grok_delete_conversations_enabled": {
+        "value": "false"
+      },
+      "responsive_web_grok_file_max_size": {
+        "value": "512000"
+      },
+      "responsive_web_grok_file_supported_mimetypes": {
+        "value": [
+          "image/jpg",
+          "image/jpeg",
+          "image/png"
+        ]
+      },
+      "responsive_web_grok_file_upload_enabled": {
         "value": "false"
       },
       "responsive_web_grok_opt_out_enabled": {
@@ -1818,6 +1837,9 @@
         "value": "false"
       },
       "responsive_web_tweet_analytics_video_metrics_v2_enabled": {
+        "value": "true"
+      },
+      "responsive_web_twitter_article_batch_posts": {
         "value": "true"
       },
       "responsive_web_twitter_article_block_limit": {
@@ -2297,7 +2319,7 @@
         "value": "true"
       },
       "subscriptions_inapp_grok_analyze": {
-        "value": "false"
+        "value": "true"
       },
       "subscriptions_inapp_grok_default_mode": {
         "value": "fun"
@@ -3865,6 +3887,9 @@
         "recruiting_premium_jobs_enabled": {
           "value": "true"
         },
+        "recruiting_promoted_jobs_enabled": {
+          "value": "false"
+        },
         "recruiting_search_filters_enabled": {
           "value": "false"
         },
@@ -4008,6 +4033,9 @@
         },
         "responsive_web_birdwatch_require_rating_before_writing_enabled": {
           "value": "true"
+        },
+        "responsive_web_birdwatch_self_remove_enabled": {
+          "value": "false"
         },
         "responsive_web_birdwatch_signup_prompt_enabled": {
           "value": "true"
@@ -4538,6 +4566,9 @@
         "responsive_web_tweet_analytics_video_metrics_v2_enabled": {
           "value": "true"
         },
+        "responsive_web_twitter_article_batch_posts": {
+          "value": "true"
+        },
         "responsive_web_twitter_article_block_limit": {
           "value": "10000"
         },
@@ -5015,7 +5046,7 @@
           "value": "true"
         },
         "subscriptions_inapp_grok_analyze": {
-          "value": "false"
+          "value": "true"
         },
         "subscriptions_inapp_grok_default_mode": {
           "value": "fun"
@@ -5538,10 +5569,10 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "f312a94b33234ce1a49fd2de26f492d1"
+      "settingsVersion": "45bbf4e82a0ac53fe956c731b85d3852"
     },
     "debug": {},
-    "featureSetToken": "63d193625240e58616e588261399559a9aef58f0",
+    "featureSetToken": "48671895d9afbcd28694a4d003c535612a4c607a",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -5611,7 +5642,7 @@
     "country": "XX",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "171986910110196255",
+    "guestId": "171995556484358660",
     "hasCommunityMemberships": "false",
     "language": "en",
     "ssoInitTokens": {},

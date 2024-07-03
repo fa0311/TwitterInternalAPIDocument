@@ -4608,6 +4608,18 @@ This document is entirely auto-generated and may contain errors.<br>
 | SUCCESS    | rweb/birdwatchNotes/FETCH_NOTE_TRANSLATION_SUCCESS |
 | FAILURE    | rweb/birdwatchNotes/FETCH_NOTE_TRANSLATION_FAILURE |
 
+| constant   | value                                  |
+|:-----------|:---------------------------------------|
+| REQUEST    | rweb/birdwatchNotes/ADMIT_USER_REQUEST |
+| SUCCESS    | rweb/birdwatchNotes/ADMIT_USER_SUCCESS |
+| FAILURE    | rweb/birdwatchNotes/ADMIT_USER_FAILURE |
+
+| constant   | value                                   |
+|:-----------|:----------------------------------------|
+| REQUEST    | rweb/birdwatchNotes/REMOVE_USER_REQUEST |
+| SUCCESS    | rweb/birdwatchNotes/REMOVE_USER_SUCCESS |
+| FAILURE    | rweb/birdwatchNotes/REMOVE_USER_FAILURE |
+
 | constant   | value                                   |
 |:-----------|:----------------------------------------|
 | REQUEST    | rweb/birdwatchNotes/FETCH_ALIAS_REQUEST |
@@ -4738,8 +4750,8 @@ This document is entirely auto-generated and may contain errors.<br>
 | constant       | value                                          |
 |:---------------|:-----------------------------------------------|
 | closed         | {'shouldShow': '!1'}                           |
-| openSuccessful | {'shouldShow': '!0', 'badgeType': 'O.Ratings'} |
-| openHelpful    | {'shouldShow': '!0', 'badgeType': 'O.Notes'}   |
+| openSuccessful | {'shouldShow': '!0', 'badgeType': 'F.Ratings'} |
+| openHelpful    | {'shouldShow': '!0', 'badgeType': 'F.Notes'}   |
 
 ```internal process
 # Error

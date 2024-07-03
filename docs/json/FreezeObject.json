@@ -4004,6 +4004,16 @@
     "FAILURE": "rweb/birdwatchNotes/FETCH_NOTE_TRANSLATION_FAILURE"
   },
   {
+    "REQUEST": "rweb/birdwatchNotes/ADMIT_USER_REQUEST",
+    "SUCCESS": "rweb/birdwatchNotes/ADMIT_USER_SUCCESS",
+    "FAILURE": "rweb/birdwatchNotes/ADMIT_USER_FAILURE"
+  },
+  {
+    "REQUEST": "rweb/birdwatchNotes/REMOVE_USER_REQUEST",
+    "SUCCESS": "rweb/birdwatchNotes/REMOVE_USER_SUCCESS",
+    "FAILURE": "rweb/birdwatchNotes/REMOVE_USER_FAILURE"
+  },
+  {
     "REQUEST": "rweb/birdwatchNotes/FETCH_ALIAS_REQUEST",
     "SUCCESS": "rweb/birdwatchNotes/FETCH_ALIAS_SUCCESS",
     "FAILURE": "rweb/birdwatchNotes/FETCH_ALIAS_FAILURE"
@@ -4118,11 +4128,11 @@
     },
     "openSuccessful": {
       "shouldShow": "!0",
-      "badgeType": "P.Ratings"
+      "badgeType": "B.Ratings"
     },
     "openHelpful": {
       "shouldShow": "!0",
-      "badgeType": "P.Notes"
+      "badgeType": "B.Notes"
     }
   },
   {
@@ -5421,6 +5431,24 @@
     "FullAccess": "FullAccess",
     "FullAccessGov": "FullAccessGov",
     "Basic": "Basic"
+  },
+  {
+    "Advertising": "Advertising",
+    "BlueVerified": "BlueVerified",
+    "BlueVerifiedPlus": "BlueVerifiedPlus",
+    "Chirps": "Chirps",
+    "Coins": "Coins",
+    "OneDollar": "OneDollar",
+    "OneDollarSubscription": "OneDollarSubscription",
+    "PremiumBasic": "PremiumBasic",
+    "QuickPromoteBudget": "QuickPromoteBudget",
+    "Seeds": "Seeds",
+    "Spaces": "Spaces",
+    "Subscriptions": "Subscriptions",
+    "SuperFollows": "SuperFollows",
+    "SuperLikes": "SuperLikes",
+    "VerifiedOrganizations": "VerifiedOrganizations",
+    "VerifiedOrganizationsBasic": "VerifiedOrganizationsBasic"
   },
   {
     "alwayOpen": "r().e2a5bd50",
