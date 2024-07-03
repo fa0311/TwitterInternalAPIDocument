@@ -464,6 +464,9 @@
       "blue_longer_video_enabled": {
         "value": "false"
       },
+      "bookmarks_search_enabled": {
+        "value": "false"
+      },
       "branded_like_preview_enabled": {
         "value": "false"
       },
@@ -2049,6 +2052,9 @@
       "rweb_update_fatigue_switch_to_app_link": {
         "value": "BannerSwitchToApp"
       },
+      "rweb_user_audience_page_enabled": {
+        "value": "false"
+      },
       "rweb_video_pip_enabled": {
         "value": "true"
       },
@@ -2350,6 +2356,9 @@
       },
       "subscriptions_marketing_page_include_tax_enabled": {
         "value": "true"
+      },
+      "subscriptions_marketing_page_remove_extra_step": {
+        "value": "false"
       },
       "subscriptions_mute_ad_upsell_enabled": {
         "value": "true"
@@ -3189,6 +3198,9 @@
           "value": "false"
         },
         "blue_longer_video_enabled": {
+          "value": "false"
+        },
+        "bookmarks_search_enabled": {
           "value": "false"
         },
         "branded_like_preview_enabled": {
@@ -4776,6 +4788,9 @@
         "rweb_update_fatigue_switch_to_app_link": {
           "value": "BannerSwitchToApp"
         },
+        "rweb_user_audience_page_enabled": {
+          "value": "false"
+        },
         "rweb_video_pip_enabled": {
           "value": "false"
         },
@@ -5046,7 +5061,7 @@
           "value": "true"
         },
         "subscriptions_inapp_grok_analyze": {
-          "value": "true"
+          "value": "false"
         },
         "subscriptions_inapp_grok_default_mode": {
           "value": "fun"
@@ -5076,6 +5091,9 @@
           "value": "true"
         },
         "subscriptions_marketing_page_include_tax_enabled": {
+          "value": "false"
+        },
+        "subscriptions_marketing_page_remove_extra_step": {
           "value": "false"
         },
         "subscriptions_mute_ad_upsell_enabled": {
@@ -5569,10 +5587,10 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "45bbf4e82a0ac53fe956c731b85d3852"
+      "settingsVersion": "d7770bdce36998124ddf0143e6b6718d"
     },
     "debug": {},
-    "featureSetToken": "48671895d9afbcd28694a4d003c535612a4c607a",
+    "featureSetToken": "c9d3a4350ccc580f820a9ae27f8443236c61f5e3",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -5642,7 +5660,7 @@
     "country": "XX",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "171995556484358660",
+    "guestId": "172004198912064388",
     "hasCommunityMemberships": "false",
     "language": "en",
     "ssoInitTokens": {},
