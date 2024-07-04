@@ -4339,18 +4339,6 @@ This document is entirely auto-generated and may contain errors.<br>
 | SUCCESS    | rweb/bookmarkFolders/CREATE_BOOKMARK_FOLDERS_SUCCESS |
 | FAILURE    | rweb/bookmarkFolders/CREATE_BOOKMARK_FOLDERS_FAILURE |
 
-| constant   | value                                               |
-|:-----------|:----------------------------------------------------|
-| REQUEST    | rweb/bookmarkFolders/FETCH_BOOKMARK_FOLDERS_REQUEST |
-| SUCCESS    | rweb/bookmarkFolders/FETCH_BOOKMARK_FOLDERS_SUCCESS |
-| FAILURE    | rweb/bookmarkFolders/FETCH_BOOKMARK_FOLDERS_FAILURE |
-
-| constant   | value                                                |
-|:-----------|:-----------------------------------------------------|
-| REQUEST    | rweb/bookmarkFolders/CREATE_BOOKMARK_FOLDERS_REQUEST |
-| SUCCESS    | rweb/bookmarkFolders/CREATE_BOOKMARK_FOLDERS_SUCCESS |
-| FAILURE    | rweb/bookmarkFolders/CREATE_BOOKMARK_FOLDERS_FAILURE |
-
 ```internal process
 # Error
 {"ActionsBar":"v.Z","ActionMenu":"function()"{"Icon":"e","isDisabled":"t","items":"n","onOpen":"o"}{"const i=r.useCallback()"{"items":"n","onCloseRequested":"e"}{"Icon":"e","isDisabled":"t","onClick":"o","renderActionMenu":"i"}},"CallToAction":"a.ZP","EditCallout":"E.Z","Education":"_.Z","Highlighte...
