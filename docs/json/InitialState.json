@@ -410,7 +410,7 @@
         "value": "true"
       },
       "blue_business_ads_metrics": {
-        "value": "false"
+        "value": "true"
       },
       "blue_business_affiliates_list_order_setting_enabled": {
         "value": "false"
@@ -455,7 +455,7 @@
         "value": "false"
       },
       "bookmarks_search_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "branded_like_preview_enabled": {
         "value": "false"
@@ -1968,7 +1968,7 @@
         "value": "false"
       },
       "rweb_creator_analytics_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "rweb_enable_logged_out_search_search_bar_enabled": {
         "value": "false"
@@ -3203,7 +3203,7 @@
           "value": "false"
         },
         "bookmarks_search_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "branded_like_preview_enabled": {
           "value": "false"
@@ -4049,7 +4049,7 @@
           "value": "true"
         },
         "responsive_web_birdwatch_self_remove_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "responsive_web_birdwatch_signup_prompt_enabled": {
           "value": "true"
@@ -4716,7 +4716,7 @@
           "value": "true"
         },
         "rweb_creator_analytics_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "rweb_enable_logged_out_search_search_bar_enabled": {
           "value": "false"
@@ -5601,10 +5601,10 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "55ddfd76db7e17a764dd44d49cc80982"
+      "settingsVersion": "df121cb466b567d888b217620bcfd2bd"
     },
     "debug": {},
-    "featureSetToken": "26fd8fe010f18b887060e821cedd93284daedc90",
+    "featureSetToken": "22806a1794b9aa907b715f0b7e5372340e0e4bda",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -5674,7 +5674,7 @@
     "country": "XX",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "172047296981170401",
+    "guestId": "172055927785982953",
     "hasCommunityMemberships": "false",
     "language": "en",
     "ssoInitTokens": {},
