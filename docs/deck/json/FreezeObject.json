@@ -3214,17 +3214,6 @@
     "HostStreamReconnecting": "18"
   },
   {
-    "Disconnected": "0",
-    "Attached": "1",
-    "Joined": "2",
-    "Signaling": "3",
-    "WebrtcUp": "4"
-  },
-  {
-    "Publisher": "publisher",
-    "Subscriber": "subscriber"
-  },
-  {
     "JanusPollerResponseEnumWebRtcUp": "JanusPollerResponseEnumWebRtcUp",
     "JanusPollerResponseEnumMediaVideo": "JanusPollerResponseEnumMediaVideo",
     "JanusPollerResponseEnumMediaAudio": "JanusPollerResponseEnumMediaAudio",
@@ -3251,6 +3240,17 @@
     "JanusPollerResponseEnumError": "JanusPollerResponseEnumError"
   },
   {
+    "Disconnected": "0",
+    "Attached": "1",
+    "Joined": "2",
+    "Signaling": "3",
+    "WebrtcUp": "4"
+  },
+  {
+    "Publisher": "publisher",
+    "Subscriber": "subscriber"
+  },
+  {
     "JanusReceivingUnknown": "JanusReceivingUnknown",
     "JanusReceivingOK": "JanusReceivingOK",
     "JanusNotReceiving": "JanusNotReceiving"
@@ -3264,6 +3264,10 @@
     "All": "0",
     "Employees": "1",
     "Subscribers": "2"
+  },
+  {
+    "locked": "locked",
+    "unlocked": "unlocked"
   },
   {
     "Uninitialized": "UNINITIALIZED",

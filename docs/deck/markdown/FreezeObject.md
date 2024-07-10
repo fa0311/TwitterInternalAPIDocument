@@ -3396,19 +3396,6 @@ This document is entirely auto-generated and may contain errors.<br>
 | HostStreamPublished    |      17 |
 | HostStreamReconnecting |      18 |
 
-| constant     |   value |
-|:-------------|--------:|
-| Disconnected |       0 |
-| Attached     |       1 |
-| Joined       |       2 |
-| Signaling    |       3 |
-| WebrtcUp     |       4 |
-
-| constant   | value      |
-|:-----------|:-----------|
-| Publisher  | publisher  |
-| Subscriber | subscriber |
-
 | constant                                            | value                                               |
 |:----------------------------------------------------|:----------------------------------------------------|
 | JanusPollerResponseEnumWebRtcUp                     | JanusPollerResponseEnumWebRtcUp                     |
@@ -3436,6 +3423,19 @@ This document is entirely auto-generated and may contain errors.<br>
 | JanusPollerResponseEnumUnknown                      | JanusPollerResponseEnumUnknown                      |
 | JanusPollerResponseEnumError                        | JanusPollerResponseEnumError                        |
 
+| constant     |   value |
+|:-------------|--------:|
+| Disconnected |       0 |
+| Attached     |       1 |
+| Joined       |       2 |
+| Signaling    |       3 |
+| WebrtcUp     |       4 |
+
+| constant   | value      |
+|:-----------|:-----------|
+| Publisher  | publisher  |
+| Subscriber | subscriber |
+
 | constant              | value                 |
 |:----------------------|:----------------------|
 | JanusReceivingUnknown | JanusReceivingUnknown |
@@ -3453,6 +3453,11 @@ This document is entirely auto-generated and may contain errors.<br>
 | All         |       0 |
 | Employees   |       1 |
 | Subscribers |       2 |
+
+| constant   | value    |
+|:-----------|:---------|
+| locked     | locked   |
+| unlocked   | unlocked |
 
 | constant      | value         |
 |:--------------|:--------------|
