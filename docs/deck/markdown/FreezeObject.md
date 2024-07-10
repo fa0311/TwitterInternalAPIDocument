@@ -4619,7 +4619,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{[z.v.FOLLOWS]:"G",[z.v.FRIENDS_OF_FRIENDS]:"U"}
+{[z.v.FOLLOWS]:"U",[z.v.FRIENDS_OF_FRIENDS]:"V"}
 ```
 | constant   | value   |
 |:-----------|:--------|
@@ -4655,6 +4655,12 @@ This document is entirely auto-generated and may contain errors.<br>
 | REQUEST    | rweb/promotedContent/LOG_REQUEST |
 | SUCCESS    | rweb/promotedContent/LOG_SUCCESS |
 | FAILURE    | rweb/promotedContent/LOG_FAILURE |
+
+| constant   | value                                           |
+|:-----------|:------------------------------------------------|
+| REQUEST    | rweb/birdwatchNotes/CREATE_BIRDWATCH_BAT_SIGNAL |
+| SUCCESS    | rweb/birdwatchNotes/CREATE_BIRDWATCH_BAT_SIGNAL |
+| FAILURE    | rweb/birdwatchNotes/CREATE_BIRDWATCH_BAT_SIGNAL |
 
 | constant   | value                                                            |
 |:-----------|:-----------------------------------------------------------------|
@@ -4889,13 +4895,13 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant   | value   |
 |:-----------|:--------|
-| SENSITIVE  | g       |
+| SENSITIVE  | v       |
 | BLOCKED    | b       |
-| BLOCKED_BY | v       |
+| BLOCKED_BY | _       |
 
 ```internal process
 # Error
-{[g]:"f",[b]:"y",[v]:"I"}
+{[v]:"y",[b]:"E",[_]:"I"}
 ```
 | constant             | value     |
 |:---------------------|:----------|
