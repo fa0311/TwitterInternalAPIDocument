@@ -4195,7 +4195,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{[z.v.FOLLOWS]:"G",[z.v.FRIENDS_OF_FRIENDS]:"U"}
+{[z.v.FOLLOWS]:"U",[z.v.FRIENDS_OF_FRIENDS]:"V"}
 ```
 | constant   | value   |
 |:-----------|:--------|
@@ -4236,6 +4236,12 @@ This document is entirely auto-generated and may contain errors.<br>
 # Error
 {[o.sj.AMPLIFY]:{"conversionHandler":"()"{"cardId":"e","cardType":"t","converterOptions":"i","data":"n"}{"const s=()(0,r.FL)",l=parseInt(n,\"image_value\",\"player_image_original\")/parseInt(0,r.SIn,\"string_value\",\"player_width\",10),d=(0,r.SIn,\"string_value\",\"player_height\",10)(0,r.SI),c=(n,...
 ```
+| constant   | value                                           |
+|:-----------|:------------------------------------------------|
+| REQUEST    | rweb/birdwatchNotes/CREATE_BIRDWATCH_BAT_SIGNAL |
+| SUCCESS    | rweb/birdwatchNotes/CREATE_BIRDWATCH_BAT_SIGNAL |
+| FAILURE    | rweb/birdwatchNotes/CREATE_BIRDWATCH_BAT_SIGNAL |
+
 | constant   | value                                                            |
 |:-----------|:-----------------------------------------------------------------|
 | REQUEST    | rweb/birdwatchNotes/EDIT_SHOW_MOBILE_NAVIGATION_SETTINGS_REQUEST |
@@ -4477,13 +4483,13 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant   | value   |
 |:-----------|:--------|
-| SENSITIVE  | b       |
-| BLOCKED    | v       |
-| BLOCKED_BY | g       |
+| SENSITIVE  | _       |
+| BLOCKED    | b       |
+| BLOCKED_BY | v       |
 
 ```internal process
 # Error
-{[b]:"f",[v]:"y",[g]:"I"}
+{[_]:"y",[b]:"E",[v]:"w"}
 ```
 | constant             | value     |
 |:---------------------|:----------|
@@ -5312,7 +5318,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{[L.ActionedTweets]:{"backLocation":"I","confirmationSheetHeadline":"()(0,c.X_)"{"screenName":"m"}{"screenName":"m"}},[L.PreviewFlaggedTweets]:{"backLocation":"x","confirmationSheetHeadline":"S()"{"screenName":"m"}{"screenName":"m"}}}
+{[D.ActionedTweets]:{"backLocation":"I","confirmationSheetHeadline":"()(0,c.X_)"{"screenName":"m"}{"screenName":"m"}},[D.PreviewFlaggedTweets]:{"backLocation":"x","confirmationSheetHeadline":"S()"{"screenName":"m"}{"screenName":"m"}}}
 ```
 | constant             | value                  |
 |:---------------------|:-----------------------|
