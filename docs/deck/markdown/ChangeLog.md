@@ -2744,3 +2744,14 @@
 - subscriptions_marketing_page_free_trial_enabled<br>
 #### remove<br>
 - None<br>
+## 2024/07/10<br>
+### API<br>
+#### add<br>
+- BirdwatchCreateBatSignal<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- responsive_web_jetfuel_enabled<br>
+#### remove<br>
+- graphql_timeline_v2_query_threaded_conversation_with_injections<br>
