@@ -255,7 +255,8 @@
     "SidebarVerifiedOrgs": "SidebarVerifiedOrgs",
     "VerifiedOnlyChat": "VerifiedOnlyChat",
     "LongerVideoUpload": "LongerVideoUpload",
-    "AccountAnalytics": "AccountAnalytics"
+    "AccountAnalytics": "AccountAnalytics",
+    "MultivariateExample": "MultivariateExample"
   },
   {
     "EmptyState": "EmptyState",
@@ -1591,9 +1592,9 @@
       "bold": "!0",
       "fontSize": "subtext3"
     },
-    "alt": "k",
-    "gif": "k",
-    "hd": "k",
+    "alt": "C",
+    "gif": "C",
+    "hd": "C",
     "likedByAuthor": {
       "backgroundColor": "gray50",
       "bold": "!1",
@@ -4481,35 +4482,35 @@
   },
   {
     "all": {
-      "icon": "un",
+      "icon": "hn",
       "label": "C().i8ea6d4e"
     },
     "community": {
-      "icon": "mn",
+      "icon": "pn",
       "label": "C().a176d0d8"
     },
     "by_invitation": {
-      "icon": "hn",
+      "icon": "mn",
       "label": "C().gc7e52ca"
     },
     "subscribers": {
-      "icon": "un",
+      "icon": "hn",
       "label": "C().bf8d98f4"
     },
     "community_members": {
-      "icon": "pn",
+      "icon": "_n",
       "label": "C().i13be5a0"
     },
     "super_followers_exclusive": {
-      "icon": "un",
+      "icon": "hn",
       "label": "C().ebe1d850"
     },
     "trusted_friends_tweet": {
-      "icon": "_n",
+      "icon": "gn",
       "label": "p"
     },
     "verified": {
-      "icon": "gn",
+      "icon": "fn",
       "label": "C().b121464a"
     }
   },
