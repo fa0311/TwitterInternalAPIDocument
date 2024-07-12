@@ -4880,35 +4880,35 @@
   },
   {
     "all": {
-      "icon": "cs",
+      "icon": "us",
       "label": "C().i8ea6d4e"
     },
     "community": {
-      "icon": "hs",
+      "icon": "ms",
       "label": "C().a176d0d8"
     },
     "by_invitation": {
-      "icon": "us",
+      "icon": "hs",
       "label": "C().gc7e52ca"
     },
     "subscribers": {
-      "icon": "cs",
+      "icon": "us",
       "label": "C().bf8d98f4"
     },
     "community_members": {
-      "icon": "ms",
+      "icon": "ps",
       "label": "C().i13be5a0"
     },
     "super_followers_exclusive": {
-      "icon": "cs",
+      "icon": "us",
       "label": "C().ebe1d850"
     },
     "trusted_friends_tweet": {
-      "icon": "ps",
+      "icon": "_s",
       "label": "p"
     },
     "verified": {
-      "icon": "_s",
+      "icon": "gs",
       "label": "C().b121464a"
     }
   },
