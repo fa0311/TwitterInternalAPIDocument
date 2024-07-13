@@ -4265,7 +4265,7 @@
           "value": "false"
         },
         "responsive_web_grok_file_max_size": {
-          "value": "512000"
+          "value": "1024000"
         },
         "responsive_web_grok_file_supported_mimetypes": {
           "value": [
@@ -5625,7 +5625,7 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "39169fa4f5245a3eaa5e23ec04608e8d"
+      "settingsVersion": "99992043ec997433c24cb57b823f4a58"
     },
     "debug": {},
     "featureSetToken": "3ba8526fa91698adc3575a0f43b7b35fc2975795",
@@ -5698,7 +5698,7 @@
     "country": "XX",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "172073216577852091",
+    "guestId": "172081853780418346",
     "hasCommunityMemberships": "false",
     "language": "en",
     "ssoInitTokens": {},
