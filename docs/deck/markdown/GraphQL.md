@@ -2262,11 +2262,9 @@ Request Method: `POST`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key                 | type   | variable   |
-|:--------------------|:-------|:-----------|
-| ...n                | ...    | _          |
-| ...()(0,a.d)        | ...    | _          |
-| articleListSeedType | ...    | i          |
+| key             | type   | variable   |
+|:----------------|:-------|:-----------|
+| articleEntityId | ...    | i          |
 
 #### features<br>
 | key                                                               | type    | variable   |
@@ -3610,10 +3608,10 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key              | type   | variable           |
-|:-----------------|:-------|:-------------------|
-| trustedFriendsId | ...    | n.trustedFriendsId |
-| prefix           | ...    | n.prefix           |
+| key            | type   | variable   |
+|:---------------|:-------|:-----------|
+| content_state  | ...    | o          |
+| article_entity | ...    | i          |
 
 #### features<br>
 | key                                                | type    | variable   |
@@ -4361,7 +4359,7 @@ Login Required: `...`<br>
 #### variables<br>
 | key                      | type   | variable    |
 |:-------------------------|:-------|:------------|
-| cursor                   | ...    | n           |
+| cursor                   | ...    | o           |
 | ...()(0,a.d)             | ...    | _           |
 | withSafetyModeUserFields | ...    | t.isTrue(t) |
 
