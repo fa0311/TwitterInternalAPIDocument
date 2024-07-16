@@ -5544,9 +5544,7 @@
     "func_name": "c",
     "func_name_init": "u",
     "query": {
-      "...n": "_",
-      "...()(0,a.d)": "_",
-      "articleListSeedType": "i"
+      "articleEntityId": "i"
     }
   },
   {
@@ -9055,8 +9053,8 @@
     "func_name": "g",
     "func_name_init": "h",
     "query": {
-      "trustedFriendsId": "n.trustedFriendsId",
-      "prefix": "n.prefix"
+      "content_state": "o",
+      "article_entity": "i"
     }
   },
   {
@@ -11137,7 +11135,7 @@
     "func_name": "d",
     "func_name_init": "r",
     "query": {
-      "cursor": "n",
+      "cursor": "o",
       "...()(0,a.d)": "_",
       "withSafetyModeUserFields": "t.isTrue(t)"
     }
@@ -15589,7 +15587,7 @@
     }
   },
   {
-    "n": "41489",
+    "n": "28308",
     "exports": {
       "queryId": "_384ihv8PithUm1UbGfAyA",
       "operationName": "DeviceIsVerified",
