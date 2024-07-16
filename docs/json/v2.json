@@ -106,5 +106,14 @@
       "URT",
       "https://x.com/i/api/2/{queryId}.json"
     ]
+  },
+  {
+    "queryId": "grok/attachment",
+    "dispatch_key": "postURT",
+    "dispatch": [
+      "post",
+      "URT",
+      "https://x.com/i/api/2/{queryId}.json"
+    ]
   }
 ]

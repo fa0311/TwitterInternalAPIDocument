@@ -3014,10 +3014,10 @@
       }
     },
     "func_name": "T",
-    "func_name_init": "v",
+    "func_name_init": "M",
     "query": {
       "articleEntityId": "i",
-      "title": "r"
+      "title": "o"
     }
   },
   {
@@ -6479,7 +6479,7 @@
     "func_name": "F",
     "func_name_init": "O",
     "query": {
-      "note_id": "t.note_id"
+      "show_in_app_navigation": "t.show_in_app_navigation"
     }
   },
   {
@@ -7108,11 +7108,7 @@
     },
     "func_name": "V",
     "func_name_init": "G",
-    "query": {
-      "count": "t",
-      "cursor": "r",
-      "...()(0,o.d)": "_"
-    }
+    "query": {}
   },
   {
     "n": "69605",
@@ -8444,9 +8440,11 @@
         "featureSwitch": {}
       }
     },
-    "func_name": "v",
-    "func_name_init": "M",
-    "query": {}
+    "func_name": "M",
+    "func_name_init": "v",
+    "query": {
+      "topicId": "r"
+    }
   },
   {
     "n": "51354",
@@ -9056,12 +9054,15 @@
     },
     "func_name": "g",
     "func_name_init": "h",
-    "query": {}
+    "query": {
+      "trustedFriendsId": "n.trustedFriendsId",
+      "prefix": "n.prefix"
+    }
   },
   {
     "n": "35627",
     "exports": {
-      "queryId": "QVo2zKMcLZjXABtcYpi0mA",
+      "queryId": "UdOUbU6K3UMuocNXXmRV2A",
       "operationName": "TweetDetail",
       "operationType": "query",
       "metadata": {
@@ -10453,12 +10454,13 @@
     "func_name": "m",
     "func_name_init": "p",
     "query": {
-      "userId": "a",
-      "count": "t",
-      "cursor": "r",
-      "includePromotedContent": "!0",
-      "...()(0,d.d)": "_",
-      "withVoice": "n.isTrue(n)"
+      "articleEntityId": "i",
+      "visibilitySetting": "s",
+      "...o&&": {
+        "conversationControl": {
+          "mode": "o"
+        }
+      }
     }
   },
   {
@@ -10707,15 +10709,7 @@
     },
     "func_name": "_",
     "func_name_init": "A",
-    "query": {
-      "articleEntityId": "i",
-      "visibilitySetting": "s",
-      "...r&&": {
-        "conversationControl": {
-          "mode": "r"
-        }
-      }
-    }
+    "query": "{\"articleEntityId\":\"a\",\"coverMedia\":\"l&&n?\"{\"media_id\":\"l\",\"media_category\":\"n\"}:\"void 0\"}"
   },
   {
     "n": "57339",
@@ -10848,12 +10842,7 @@
     "func_name": "D",
     "func_name_init": "w",
     "query": {
-      "userId": "a",
-      "count": "t",
-      "cursor": "r",
-      "includePromotedContent": "!0",
-      "...()(0,d.d)": "_",
-      "withVoice": "n.isTrue(n)"
+      "settings": "t.settings"
     }
   },
   {
@@ -12286,7 +12275,7 @@
   {
     "n": "15863",
     "exports": {
-      "queryId": "KzNrJic8uds1XVB0D4wXpA",
+      "queryId": "oWoiI6giz00e-F1nOGisyg",
       "operationName": "GrokConversationItemsByRestId",
       "operationType": "query",
       "metadata": {
@@ -13253,6 +13242,19 @@
     "exports": {
       "queryId": "bD3AEK9BMCSpRods_ng2fA",
       "operationName": "BirdwatchCreateRating",
+      "operationType": "mutation",
+      "metadata": {
+        "featureSwitches": [],
+        "fieldToggles": [],
+        "featureSwitch": {}
+      }
+    }
+  },
+  {
+    "n": "05020",
+    "exports": {
+      "queryId": "yQF40wfWdHfXeKL4ZVklcw",
+      "operationName": "BirdwatchDeleteBatSignal",
       "operationType": "mutation",
       "metadata": {
         "featureSwitches": [],

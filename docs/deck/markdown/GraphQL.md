@@ -1153,7 +1153,7 @@ Login Required: `...`<br>
 | key             | type   | variable   |
 |:----------------|:-------|:-----------|
 | articleEntityId | ...    | i          |
-| title           | ...    | r          |
+| title           | ...    | o          |
 
 #### features<br>
 | key                                                               | type    | variable   |
@@ -2618,9 +2618,9 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key     | type   | variable   |
-|:--------|:-------|:-----------|
-| note_id | ...    | t.note_id  |
+| key                    | type   | variable                 |
+|:-----------------------|:-------|:-------------------------|
+| show_in_app_navigation | ...    | t.show_in_app_navigation |
 
 #### features<br>
 | key                                                               | type    | variable   |
@@ -2833,12 +2833,7 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key          | type   | variable   |
-|:-------------|:-------|:-----------|
-| count        | ...    | t          |
-| cursor       | ...    | r          |
-| ...()(0,o.d) | ...    | _          |
-
+`None`<br>
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
@@ -3412,7 +3407,10 @@ Request Method: `POST`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-`None`<br>
+| key     | type   | variable   |
+|:--------|:-------|:-----------|
+| topicId | ...    | r          |
+
 #### features<br>
 `None`<br>
 #### queryId<br>
@@ -3612,7 +3610,11 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-`None`<br>
+| key              | type   | variable           |
+|:-----------------|:-------|:-------------------|
+| trustedFriendsId | ...    | n.trustedFriendsId |
+| prefix           | ...    | n.prefix           |
+
 #### features<br>
 | key                                                | type    | variable   |
 |:---------------------------------------------------|:--------|:-----------|
@@ -3621,7 +3623,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## TweetDetail<br>
-Request URL: `https://x.com/i/api/graphql/QVo2zKMcLZjXABtcYpi0mA/TweetDetail`<br>
+Request URL: `https://x.com/i/api/graphql/UdOUbU6K3UMuocNXXmRV2A/TweetDetail`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -4084,14 +4086,11 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key                    | type    | variable    |
-|:-----------------------|:--------|:------------|
-| userId                 | ...     | a           |
-| count                  | ...     | t           |
-| cursor                 | ...     | r           |
-| includePromotedContent | boolean | True        |
-| ...()(0,d.d)           | ...     | _           |
-| withVoice              | ...     | n.isTrue(n) |
+| key               | type   | variable                               |
+|:------------------|:-------|:---------------------------------------|
+| articleEntityId   | ...    | i                                      |
+| visibilitySetting | ...    | s                                      |
+| ...o&&            | ...    | {'conversationControl': {'mode': 'o'}} |
 
 #### features<br>
 | key                                                                     | type    | variable   |
@@ -4177,12 +4176,10 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key               | type   | variable                               |
-|:------------------|:-------|:---------------------------------------|
-| articleEntityId   | ...    | i                                      |
-| visibilitySetting | ...    | s                                      |
-| ...r&&            | ...    | {'conversationControl': {'mode': 'r'}} |
-
+```internal process
+# Error
+{"articleEntityId":"a","coverMedia":"l&&n?"{"media_id":"l","media_category":"n"}:"void 0"}
+```
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
@@ -4230,14 +4227,9 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key                    | type    | variable    |
-|:-----------------------|:--------|:------------|
-| userId                 | ...     | a           |
-| count                  | ...     | t           |
-| cursor                 | ...     | r           |
-| includePromotedContent | boolean | True        |
-| ...()(0,d.d)           | ...     | _           |
-| withVoice              | ...     | n.isTrue(n) |
+| key      | type   | variable   |
+|:---------|:-------|:-----------|
+| settings | ...    | t.settings |
 
 #### features<br>
 | key                                                                     | type    | variable   |
@@ -4932,7 +4924,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## GrokConversationItemsByRestId<br>
-Request URL: `https://x.com/i/api/graphql/KzNrJic8uds1XVB0D4wXpA/GrokConversationItemsByRestId`<br>
+Request URL: `https://x.com/i/api/graphql/oWoiI6giz00e-F1nOGisyg/GrokConversationItemsByRestId`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -5301,6 +5293,17 @@ Login Required: `...`<br>
 `None`<br>
 ## BirdwatchCreateRating<br>
 Request URL: `https://x.com/i/api/graphql/bD3AEK9BMCSpRods_ng2fA/BirdwatchCreateRating`<br>
+Request Method: `POST`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
+## BirdwatchDeleteBatSignal<br>
+Request URL: `https://x.com/i/api/graphql/yQF40wfWdHfXeKL4ZVklcw/BirdwatchDeleteBatSignal`<br>
 Request Method: `POST`<br>
 Login Required: `...`<br>
 ### Param<br>

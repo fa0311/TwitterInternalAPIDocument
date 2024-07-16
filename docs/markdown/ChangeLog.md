@@ -3807,3 +3807,21 @@
 - video_upload_metadata_title_enabled<br>
 #### remove<br>
 - None<br>
+## 2024/07/15<br>
+### API<br>
+#### add<br>
+- BirdwatchDeleteBatSignal<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- reply_sorting_enabled<br>
+- responsive_web_grok_image_generation_enabled<br>
+- responsive_web_grok_webview_file_upload_enabled<br>
+- rweb_analytics_country_device_breakdown_enabled<br>
+- rweb_analytics_post_audience_page_enabled<br>
+- rweb_analytics_user_audience_page_enabled<br>
+- spaces_dtx_opus_dtx_enabled<br>
+#### remove<br>
+- rweb_post_audience_page_enabled<br>
+- rweb_user_audience_page_enabled<br>

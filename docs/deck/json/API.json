@@ -2642,8 +2642,8 @@
       }
     },
     "TweetDetail": {
-      "url": "https://x.com/i/api/graphql/QVo2zKMcLZjXABtcYpi0mA/TweetDetail",
-      "queryId": "QVo2zKMcLZjXABtcYpi0mA",
+      "url": "https://x.com/i/api/graphql/UdOUbU6K3UMuocNXXmRV2A/TweetDetail",
+      "queryId": "UdOUbU6K3UMuocNXXmRV2A",
       "method": "GET",
       "features": {
         "rweb_tipjar_consumption_enabled": true,
@@ -3550,8 +3550,8 @@
       "features": {}
     },
     "GrokConversationItemsByRestId": {
-      "url": "https://x.com/i/api/graphql/KzNrJic8uds1XVB0D4wXpA/GrokConversationItemsByRestId",
-      "queryId": "KzNrJic8uds1XVB0D4wXpA",
+      "url": "https://x.com/i/api/graphql/oWoiI6giz00e-F1nOGisyg/GrokConversationItemsByRestId",
+      "queryId": "oWoiI6giz00e-F1nOGisyg",
       "method": "GET",
       "features": {
         "creator_subscriptions_tweet_preview_api_enabled": true,
@@ -3795,6 +3795,12 @@
     "BirdwatchCreateRating": {
       "url": "https://x.com/i/api/graphql/bD3AEK9BMCSpRods_ng2fA/BirdwatchCreateRating",
       "queryId": "bD3AEK9BMCSpRods_ng2fA",
+      "method": "POST",
+      "features": {}
+    },
+    "BirdwatchDeleteBatSignal": {
+      "url": "https://x.com/i/api/graphql/yQF40wfWdHfXeKL4ZVklcw/BirdwatchDeleteBatSignal",
+      "queryId": "yQF40wfWdHfXeKL4ZVklcw",
       "method": "POST",
       "features": {}
     },

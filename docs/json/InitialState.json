@@ -1165,6 +1165,9 @@
       "recruiting_verified_orgs_enroll_allowed": {
         "value": "true"
       },
+      "reply_sorting_enabled": {
+        "value": "false"
+      },
       "report_center_mvp_r1_enabled": {
         "value": "true"
       },
@@ -1505,7 +1508,7 @@
         "value": "false"
       },
       "responsive_web_grok_file_max_size": {
-        "value": "512000"
+        "value": "1024000"
       },
       "responsive_web_grok_file_supported_mimetypes": {
         "value": [
@@ -1515,6 +1518,9 @@
         ]
       },
       "responsive_web_grok_file_upload_enabled": {
+        "value": "false"
+      },
+      "responsive_web_grok_image_generation_enabled": {
         "value": "false"
       },
       "responsive_web_grok_opt_out_enabled": {
@@ -1533,6 +1539,9 @@
         "value": "true"
       },
       "responsive_web_grok_trends_design_enabled": {
+        "value": "false"
+      },
+      "responsive_web_grok_webview_file_upload_enabled": {
         "value": "false"
       },
       "responsive_web_hashtag_highlight_is_enabled": {
@@ -1964,7 +1973,16 @@
       "rweb_2_column_htl_prototype_virtual_scroller_enabled": {
         "value": "false"
       },
+      "rweb_analytics_country_device_breakdown_enabled": {
+        "value": "false"
+      },
+      "rweb_analytics_post_audience_page_enabled": {
+        "value": "false"
+      },
       "rweb_analytics_theme": {
+        "value": "false"
+      },
+      "rweb_analytics_user_audience_page_enabled": {
         "value": "false"
       },
       "rweb_client_transaction_id_enabled": {
@@ -2012,9 +2030,6 @@
       "rweb_picture_in_picture_enabled": {
         "value": "true"
       },
-      "rweb_post_audience_page_enabled": {
-        "value": "false"
-      },
       "rweb_quick_promote_boost_enabled": {
         "value": "false"
       },
@@ -2050,9 +2065,6 @@
       },
       "rweb_update_fatigue_switch_to_app_link": {
         "value": "BannerSwitchToApp"
-      },
-      "rweb_user_audience_page_enabled": {
-        "value": "false"
       },
       "rweb_video_pip_enabled": {
         "value": "true"
@@ -2222,6 +2234,9 @@
         "value": "false"
       },
       "spaces_conference_opus_dtx_enabled": {
+        "value": "false"
+      },
+      "spaces_dtx_opus_dtx_enabled": {
         "value": "false"
       },
       "spaces_incognito_consumption_default": {
@@ -3925,6 +3940,9 @@
         "recruiting_verified_orgs_enroll_allowed": {
           "value": "true"
         },
+        "reply_sorting_enabled": {
+          "value": "false"
+        },
         "report_center_mvp_r1_enabled": {
           "value": "true"
         },
@@ -4277,6 +4295,9 @@
         "responsive_web_grok_file_upload_enabled": {
           "value": "false"
         },
+        "responsive_web_grok_image_generation_enabled": {
+          "value": "false"
+        },
         "responsive_web_grok_opt_out_enabled": {
           "value": "false"
         },
@@ -4293,6 +4314,9 @@
           "value": "true"
         },
         "responsive_web_grok_trends_design_enabled": {
+          "value": "false"
+        },
+        "responsive_web_grok_webview_file_upload_enabled": {
           "value": "false"
         },
         "responsive_web_hashtag_highlight_is_enabled": {
@@ -4724,7 +4748,16 @@
         "rweb_2_column_htl_prototype_virtual_scroller_enabled": {
           "value": "false"
         },
+        "rweb_analytics_country_device_breakdown_enabled": {
+          "value": "false"
+        },
+        "rweb_analytics_post_audience_page_enabled": {
+          "value": "false"
+        },
         "rweb_analytics_theme": {
+          "value": "false"
+        },
+        "rweb_analytics_user_audience_page_enabled": {
           "value": "false"
         },
         "rweb_client_transaction_id_enabled": {
@@ -4772,9 +4805,6 @@
         "rweb_picture_in_picture_enabled": {
           "value": "true"
         },
-        "rweb_post_audience_page_enabled": {
-          "value": "false"
-        },
         "rweb_quick_promote_boost_enabled": {
           "value": "false"
         },
@@ -4810,9 +4840,6 @@
         },
         "rweb_update_fatigue_switch_to_app_link": {
           "value": "BannerSwitchToApp"
-        },
-        "rweb_user_audience_page_enabled": {
-          "value": "false"
         },
         "rweb_video_pip_enabled": {
           "value": "true"
@@ -4982,6 +5009,9 @@
           "value": "false"
         },
         "spaces_conference_opus_dtx_enabled": {
+          "value": "false"
+        },
+        "spaces_dtx_opus_dtx_enabled": {
           "value": "false"
         },
         "spaces_incognito_consumption_default": {
@@ -5625,10 +5655,10 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "99992043ec997433c24cb57b823f4a58"
+      "settingsVersion": "39169fa4f5245a3eaa5e23ec04608e8d"
     },
     "debug": {},
-    "featureSetToken": "3ba8526fa91698adc3575a0f43b7b35fc2975795",
+    "featureSetToken": "d612b66a4a6ed2bf06b4028eb45e45afa124fe23",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -5698,7 +5728,7 @@
     "country": "XX",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "172090490640259605",
+    "guestId": "172107774144578076",
     "hasCommunityMemberships": "false",
     "language": "en",
     "ssoInitTokens": {},
