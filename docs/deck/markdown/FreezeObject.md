@@ -3055,7 +3055,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant              | value     |
 |:----------------------|:----------|
-| appBarHeight          | v         |
+| appBarHeight          | M         |
 | appBarHeightPx        | y         |
 | conversationLineWidth | _.space2  |
 | gutterHorizontal      | w.space16 |
@@ -3072,7 +3072,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | borderWidths        | c       |
 | borderWidthsPx      | u       |
 | breakpoints         | a       |
-| componentDimensions | M       |
+| componentDimensions | v       |
 | componentZIndices   | o       |
 | fontSizes           | S       |
 | fontSizesPx         | D       |
@@ -4655,17 +4655,23 @@ This document is entirely auto-generated and may contain errors.<br>
 | SUCCESS    | rweb/promotedContent/LOG_SUCCESS |
 | FAILURE    | rweb/promotedContent/LOG_FAILURE |
 
-| constant   | value                                           |
-|:-----------|:------------------------------------------------|
-| REQUEST    | rweb/birdwatchNotes/CREATE_BIRDWATCH_BAT_SIGNAL |
-| SUCCESS    | rweb/birdwatchNotes/CREATE_BIRDWATCH_BAT_SIGNAL |
-| FAILURE    | rweb/birdwatchNotes/CREATE_BIRDWATCH_BAT_SIGNAL |
+| constant   | value                                                   |
+|:-----------|:--------------------------------------------------------|
+| REQUEST    | rweb/birdwatchNotes/CREATE_BIRDWATCH_BAT_SIGNAL_REQUEST |
+| SUCCESS    | rweb/birdwatchNotes/CREATE_BIRDWATCH_BAT_SIGNAL_SUCCESS |
+| FAILURE    | rweb/birdwatchNotes/CREATE_BIRDWATCH_BAT_SIGNAL_FAILURE |
 
-| constant   | value                                           |
-|:-----------|:------------------------------------------------|
-| REQUEST    | rweb/birdwatchNotes/DELETE_BIRDWATCH_BAT_SIGNAL |
-| SUCCESS    | rweb/birdwatchNotes/DELETE_BIRDWATCH_BAT_SIGNAL |
-| FAILURE    | rweb/birdwatchNotes/DELETE_BIRDWATCH_BAT_SIGNAL |
+| constant   | value                                                   |
+|:-----------|:--------------------------------------------------------|
+| REQUEST    | rweb/birdwatchNotes/DELETE_BIRDWATCH_BAT_SIGNAL_REQUEST |
+| SUCCESS    | rweb/birdwatchNotes/DELETE_BIRDWATCH_BAT_SIGNAL         |
+| FAILURE    | rweb/birdwatchNotes/DELETE_BIRDWATCH_BAT_SIGNAL         |
+
+| constant   | value                                                  |
+|:-----------|:-------------------------------------------------------|
+| REQUEST    | rweb/birdwatchNotes/FETCH_BIRDWATCH_BAT_SIGNAL_REQUEST |
+| SUCCESS    | rweb/birdwatchNotes/FETCH_BIRDWATCH_BAT_SIGNAL_SUCCESS |
+| FAILURE    | rweb/birdwatchNotes/FETCH_BIRDWATCH_BAT_SIGNAL_FAILURE |
 
 | constant   | value                                                            |
 |:-----------|:-----------------------------------------------------------------|
@@ -5032,6 +5038,17 @@ This document is entirely auto-generated and may contain errors.<br>
 | Disabled                 | RestrictedJoinRequestsDisabled                 |
 | RequireAdminApproval     | RestrictedJoinRequestsRequireAdminApproval     |
 | RequireModeratorApproval | RestrictedJoinRequestsRequireModeratorApproval |
+
+| constant                | value                   |
+|:------------------------|:------------------------|
+| AutoSpamDetectorEnabled | AutoSpamDetectorEnabled |
+| BanQuotePostEnabled     | BanQuotePostEnabled     |
+| BanSelfQuotePostEnabled | BanSelfQuotePostEnabled |
+| HideUntilReviewEnabled  | HideUntilReviewEnabled  |
+
+| constant       | value          |
+|:---------------|:---------------|
+| BannedKeywords | BannedKeywords |
 
 | constant   | value   |
 |:-----------|:--------|
