@@ -17814,6 +17814,19 @@
     }
   },
   {
+    "n": "23223",
+    "exports": {
+      "queryId": "Ykq2lurXTkMstyKpyS5--g",
+      "operationName": "BirdwatchFetchBatSignal",
+      "operationType": "query",
+      "metadata": {
+        "featureSwitches": [],
+        "fieldToggles": [],
+        "featureSwitch": {}
+      }
+    }
+  },
+  {
     "n": "49407",
     "exports": {
       "queryId": "iL_0nGf1nelAd9Kz-pZJlA",
