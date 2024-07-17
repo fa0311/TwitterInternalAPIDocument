@@ -3014,7 +3014,7 @@
       }
     },
     "func_name": "T",
-    "func_name_init": "M",
+    "func_name_init": "v",
     "query": {
       "articleEntityId": "i",
       "title": "o"
@@ -6477,7 +6477,8 @@
     "func_name": "F",
     "func_name_init": "O",
     "query": {
-      "show_in_app_navigation": "t.show_in_app_navigation"
+      "listId": "t.list_id",
+      "...()(0,o.S)": "_"
     }
   },
   {
@@ -8438,10 +8439,12 @@
         "featureSwitch": {}
       }
     },
-    "func_name": "M",
-    "func_name_init": "v",
+    "func_name": "v",
+    "func_name_init": "M",
     "query": {
-      "topicId": "r"
+      "count": "10",
+      "...a": "_",
+      "...()(0,i.S)": "_"
     }
   },
   {
@@ -13360,6 +13363,19 @@
             "value": "true"
           }
         }
+      }
+    }
+  },
+  {
+    "n": "23223",
+    "exports": {
+      "queryId": "Ykq2lurXTkMstyKpyS5--g",
+      "operationName": "BirdwatchFetchBatSignal",
+      "operationType": "query",
+      "metadata": {
+        "featureSwitches": [],
+        "fieldToggles": [],
+        "featureSwitch": {}
       }
     }
   },
