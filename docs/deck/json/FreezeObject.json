@@ -2913,7 +2913,7 @@
     "space80": "p(h.spaces.space72)"
   },
   {
-    "appBarHeight": "v",
+    "appBarHeight": "M",
     "appBarHeightPx": "y",
     "conversationLineWidth": "_.space2",
     "gutterHorizontal": "w.space16",
@@ -2929,7 +2929,7 @@
     "borderWidths": "c",
     "borderWidthsPx": "u",
     "breakpoints": "a",
-    "componentDimensions": "M",
+    "componentDimensions": "v",
     "componentZIndices": "o",
     "fontSizes": "S",
     "fontSizesPx": "D",
@@ -4474,14 +4474,19 @@
     "FAILURE": "rweb/promotedContent/LOG_FAILURE"
   },
   {
-    "REQUEST": "rweb/birdwatchNotes/CREATE_BIRDWATCH_BAT_SIGNAL",
-    "SUCCESS": "rweb/birdwatchNotes/CREATE_BIRDWATCH_BAT_SIGNAL",
-    "FAILURE": "rweb/birdwatchNotes/CREATE_BIRDWATCH_BAT_SIGNAL"
+    "REQUEST": "rweb/birdwatchNotes/CREATE_BIRDWATCH_BAT_SIGNAL_REQUEST",
+    "SUCCESS": "rweb/birdwatchNotes/CREATE_BIRDWATCH_BAT_SIGNAL_SUCCESS",
+    "FAILURE": "rweb/birdwatchNotes/CREATE_BIRDWATCH_BAT_SIGNAL_FAILURE"
   },
   {
-    "REQUEST": "rweb/birdwatchNotes/DELETE_BIRDWATCH_BAT_SIGNAL",
+    "REQUEST": "rweb/birdwatchNotes/DELETE_BIRDWATCH_BAT_SIGNAL_REQUEST",
     "SUCCESS": "rweb/birdwatchNotes/DELETE_BIRDWATCH_BAT_SIGNAL",
     "FAILURE": "rweb/birdwatchNotes/DELETE_BIRDWATCH_BAT_SIGNAL"
+  },
+  {
+    "REQUEST": "rweb/birdwatchNotes/FETCH_BIRDWATCH_BAT_SIGNAL_REQUEST",
+    "SUCCESS": "rweb/birdwatchNotes/FETCH_BIRDWATCH_BAT_SIGNAL_SUCCESS",
+    "FAILURE": "rweb/birdwatchNotes/FETCH_BIRDWATCH_BAT_SIGNAL_FAILURE"
   },
   {
     "REQUEST": "rweb/birdwatchNotes/EDIT_SHOW_MOBILE_NAVIGATION_SETTINGS_REQUEST",
@@ -4794,6 +4799,15 @@
     "Disabled": "RestrictedJoinRequestsDisabled",
     "RequireAdminApproval": "RestrictedJoinRequestsRequireAdminApproval",
     "RequireModeratorApproval": "RestrictedJoinRequestsRequireModeratorApproval"
+  },
+  {
+    "AutoSpamDetectorEnabled": "AutoSpamDetectorEnabled",
+    "BanQuotePostEnabled": "BanQuotePostEnabled",
+    "BanSelfQuotePostEnabled": "BanSelfQuotePostEnabled",
+    "HideUntilReviewEnabled": "HideUntilReviewEnabled"
+  },
+  {
+    "BannedKeywords": "BannedKeywords"
   },
   {
     "ForYou": "ranked",
