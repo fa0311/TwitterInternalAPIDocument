@@ -3849,6 +3849,12 @@
         "responsive_web_birdwatch_note_limit_enabled": true
       }
     },
+    "BirdwatchFetchBatSignal": {
+      "url": "https://x.com/i/api/graphql/Ykq2lurXTkMstyKpyS5--g/BirdwatchFetchBatSignal",
+      "queryId": "Ykq2lurXTkMstyKpyS5--g",
+      "method": "GET",
+      "features": {}
+    },
     "BirdwatchFetchBirdwatchProfile": {
       "url": "https://x.com/i/api/graphql/iL_0nGf1nelAd9Kz-pZJlA/BirdwatchFetchBirdwatchProfile",
       "queryId": "iL_0nGf1nelAd9Kz-pZJlA",
