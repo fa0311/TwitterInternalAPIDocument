@@ -419,7 +419,7 @@
         "value": "true"
       },
       "blue_business_analytics_affiliate_filtering_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "blue_business_cancel_offer": {
         "value": "true"
@@ -3331,6 +3331,9 @@
         "communities_analytics_enabled": {
           "value": "false"
         },
+        "communities_auto_report_setting_enabled": {
+          "value": "false"
+        },
         "communities_enable_explore_tab": {
           "value": "true"
         },
@@ -3342,6 +3345,9 @@
         },
         "communities_show_broadcast_option_in_composer": {
           "value": "true"
+        },
+        "communities_spam_settings_enabled": {
+          "value": "false"
         },
         "communities_topic_carousel_enabled": {
           "value": "true"
@@ -4302,7 +4308,7 @@
           "value": "false"
         },
         "responsive_web_grok_opt_out_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "responsive_web_grok_prompt_deeplink_enabled": {
           "value": "true"
@@ -5661,10 +5667,10 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "78ef5a524410c58be801dd9a817349ed"
+      "settingsVersion": "17179b8a80bd3926c95ec336a877d30a"
     },
     "debug": {},
-    "featureSetToken": "8ca4d2dc84cf81e70a65677a030bce6b82816952",
+    "featureSetToken": "5d1ccda73833c04f76cc532af9404c8294c5f947",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -5734,7 +5740,7 @@
     "country": "XX",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "172116414796231500",
+    "guestId": "172125050221103753",
     "hasCommunityMemberships": "false",
     "language": "en",
     "ssoInitTokens": {},
