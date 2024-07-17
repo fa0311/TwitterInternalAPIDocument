@@ -6952,6 +6952,17 @@ Login Required: `...`<br>
 
 #### queryId<br>
 `None`<br>
+## BirdwatchFetchBatSignal<br>
+Request URL: `https://x.com/i/api/graphql/Ykq2lurXTkMstyKpyS5--g/BirdwatchFetchBatSignal`<br>
+Request Method: `GET`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
 ## BirdwatchFetchBirdwatchProfile<br>
 Request URL: `https://x.com/i/api/graphql/iL_0nGf1nelAd9Kz-pZJlA/BirdwatchFetchBirdwatchProfile`<br>
 Request Method: `GET`<br>
