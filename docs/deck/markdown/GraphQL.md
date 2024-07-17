@@ -2616,9 +2616,10 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key                    | type   | variable                 |
-|:-----------------------|:-------|:-------------------------|
-| show_in_app_navigation | ...    | t.show_in_app_navigation |
+| key          | type   | variable   |
+|:-------------|:-------|:-----------|
+| listId       | ...    | t.list_id  |
+| ...()(0,o.S) | ...    | _          |
 
 #### features<br>
 | key                                                               | type    | variable   |
@@ -3405,9 +3406,11 @@ Request Method: `POST`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key     | type   | variable   |
-|:--------|:-------|:-----------|
-| topicId | ...    | r          |
+| key          | type   | variable   |
+|:-------------|:-------|:-----------|
+| count        | ...    | 10         |
+| ...a         | ...    | _          |
+| ...()(0,i.S) | ...    | _          |
 
 #### features<br>
 `None`<br>
@@ -5391,6 +5394,17 @@ Login Required: `...`<br>
 | responsive_web_birdwatch_mobile_nav_setting_enabled | ...     |        nan | error     |
 | responsive_web_birdwatch_note_limit_enabled         | boolean |          1 | nan       |
 
+#### queryId<br>
+`None`<br>
+## BirdwatchFetchBatSignal<br>
+Request URL: `https://x.com/i/api/graphql/Ykq2lurXTkMstyKpyS5--g/BirdwatchFetchBatSignal`<br>
+Request Method: `GET`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
 #### queryId<br>
 `None`<br>
 ## BirdwatchFetchBirdwatchProfile<br>
