@@ -3836,3 +3836,16 @@
 - rweb_analytics_in_out_network_enabled<br>
 #### remove<br>
 - None<br>
+## 2024/07/18<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- communities_auto_report_setting_enabled<br>
+- communities_enable_top_posts_search<br>
+- communities_spam_settings_enabled<br>
+#### remove<br>
+- None<br>
