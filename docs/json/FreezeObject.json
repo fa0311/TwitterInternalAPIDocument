@@ -3372,13 +3372,13 @@
     "LikedByAuthor": "liked-by-author"
   },
   {
-    "see_more": "x().ffd9cfe6",
-    "discover_more": "x().d172116a",
-    "more": "x().h63a5c3c",
-    "more_tweets": "x().be5df69e",
-    "more_suggestions": "x().g11ebd34",
-    "browse": "x().g4a6901a",
-    "browse_tweets": "x().h6453e74"
+    "see_more": "T().ffd9cfe6",
+    "discover_more": "T().d172116a",
+    "more": "T().h63a5c3c",
+    "more_tweets": "T().be5df69e",
+    "more_suggestions": "T().g11ebd34",
+    "browse": "T().g4a6901a",
+    "browse_tweets": "T().h6453e74"
   },
   {
     "follow": "a().i79ab12a",
@@ -4062,14 +4062,19 @@
     "FAILURE": "rweb/promotedContent/LOG_FAILURE"
   },
   {
-    "REQUEST": "rweb/birdwatchNotes/CREATE_BIRDWATCH_BAT_SIGNAL",
-    "SUCCESS": "rweb/birdwatchNotes/CREATE_BIRDWATCH_BAT_SIGNAL",
-    "FAILURE": "rweb/birdwatchNotes/CREATE_BIRDWATCH_BAT_SIGNAL"
+    "REQUEST": "rweb/birdwatchNotes/CREATE_BIRDWATCH_BAT_SIGNAL_REQUEST",
+    "SUCCESS": "rweb/birdwatchNotes/CREATE_BIRDWATCH_BAT_SIGNAL_SUCCESS",
+    "FAILURE": "rweb/birdwatchNotes/CREATE_BIRDWATCH_BAT_SIGNAL_FAILURE"
   },
   {
-    "REQUEST": "rweb/birdwatchNotes/DELETE_BIRDWATCH_BAT_SIGNAL",
+    "REQUEST": "rweb/birdwatchNotes/DELETE_BIRDWATCH_BAT_SIGNAL_REQUEST",
     "SUCCESS": "rweb/birdwatchNotes/DELETE_BIRDWATCH_BAT_SIGNAL",
     "FAILURE": "rweb/birdwatchNotes/DELETE_BIRDWATCH_BAT_SIGNAL"
+  },
+  {
+    "REQUEST": "rweb/birdwatchNotes/FETCH_BIRDWATCH_BAT_SIGNAL_REQUEST",
+    "SUCCESS": "rweb/birdwatchNotes/FETCH_BIRDWATCH_BAT_SIGNAL_SUCCESS",
+    "FAILURE": "rweb/birdwatchNotes/FETCH_BIRDWATCH_BAT_SIGNAL_FAILURE"
   },
   {
     "REQUEST": "rweb/birdwatchNotes/EDIT_SHOW_MOBILE_NAVIGATION_SETTINGS_REQUEST",
@@ -4394,6 +4399,15 @@
     "RequireModeratorApproval": "RestrictedJoinRequestsRequireModeratorApproval"
   },
   {
+    "AutoSpamDetectorEnabled": "AutoSpamDetectorEnabled",
+    "BanQuotePostEnabled": "BanQuotePostEnabled",
+    "BanSelfQuotePostEnabled": "BanSelfQuotePostEnabled",
+    "HideUntilReviewEnabled": "HideUntilReviewEnabled"
+  },
+  {
+    "BannedKeywords": "BannedKeywords"
+  },
+  {
     "ForYou": "ranked",
     "Latest": "latest",
     "Media": "media"
@@ -4583,9 +4597,9 @@
     "likes": "likes"
   },
   {
-    "relevance": "v",
+    "relevance": "m",
     "recency": "g",
-    "likes": "u"
+    "likes": "v"
   },
   {
     "COUNTRIES": "0",
