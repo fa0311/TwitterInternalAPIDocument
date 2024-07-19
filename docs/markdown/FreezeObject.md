@@ -157,6 +157,10 @@ This document is entirely auto-generated and may contain errors.<br>
 | trusted_friends_tweet     | trusted_friends_tweet     |
 | verified                  | verified                  |
 
+| constant   | value   |
+|:-----------|:--------|
+| Links      | Links   |
+
 | constant     | value        |
 |:-------------|:-------------|
 | BINGBOT      | bingbot      |
@@ -2073,8 +2077,8 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant     | value   |
 |:-------------|:--------|
-| ANIMATED_GIF | d       |
-| VIDEO        | c       |
+| ANIMATED_GIF | c       |
+| VIDEO        | d       |
 | VINE         | u       |
 
 | constant     | value        |
@@ -4159,6 +4163,79 @@ This document is entirely auto-generated and may contain errors.<br>
 |:-----------|--------:|
 | HUMAN      |       1 |
 | ASSISTANT  |       2 |
+
+| constant   | value   |
+|:-----------|:--------|
+| xSmall     | xSmall  |
+| small      | small   |
+| normal     | normal  |
+| large      | large   |
+| xLarge     | xLarge  |
+
+| constant    | value       |
+|:------------|:------------|
+| VIDEO       | VIDEO       |
+| SHORT_VIDEO | SHORT_VIDEO |
+
+| constant   | value                            |
+|:-----------|:---------------------------------|
+| REQUEST    | rweb/FETCH_TV_HOME_MIXER/REQUEST |
+| SUCCESS    | rweb/FETCH_TV_HOME_MIXER/SUCCESS |
+| FAILURE    | rweb/FETCH_TV_HOME_MIXER/FAILURE |
+
+| constant   | value                                    |
+|:-----------|:-----------------------------------------|
+| REQUEST    | rweb/FETCH_TV_USER_PROFILE_MIXER/REQUEST |
+| SUCCESS    | rweb/FETCH_TV_USER_PROFILE_MIXER/SUCCESS |
+| FAILURE    | rweb/FETCH_TV_USER_PROFILE_MIXER/FAILURE |
+
+| constant   | value                       |
+|:-----------|:----------------------------|
+| REQUEST    | rweb/FETCH_TV_TREND/REQUEST |
+| SUCCESS    | rweb/FETCH_TV_TREND/SUCCESS |
+| FAILURE    | rweb/FETCH_TV_TREND/FAILURE |
+
+| constant   | value                             |
+|:-----------|:----------------------------------|
+| REQUEST    | rweb/FETCH_RELATED_VIDEOS/REQUEST |
+| SUCCESS    | rweb/FETCH_RELATED_VIDEOS/SUCCESS |
+| FAILURE    | rweb/FETCH_RELATED_VIDEOS/FAILURE |
+
+| constant   | value                          |
+|:-----------|:-------------------------------|
+| REQUEST    | rweb/FETCH_TV_PIN_CODE/REQUEST |
+| SUCCESS    | rweb/FETCH_TV_PIN_CODE/SUCCESS |
+| FAILURE    | rweb/FETCH_TV_PIN_CODE/FAILURE |
+
+| constant   | value                        |
+|:-----------|:-----------------------------|
+| REQUEST    | rweb/FETCH_TV_SEARCH/REQUEST |
+| SUCCESS    | rweb/FETCH_TV_SEARCH/SUCCESS |
+| FAILURE    | rweb/FETCH_TV_SEARCH/FAILURE |
+
+| constant   | value                                    |
+|:-----------|:-----------------------------------------|
+| REQUEST    | rweb/FETCH_TV_TWEET_CONVERSATION/REQUEST |
+| SUCCESS    | rweb/FETCH_TV_TWEET_CONVERSATION/SUCCESS |
+| FAILURE    | rweb/FETCH_TV_TWEET_CONVERSATION/FAILURE |
+
+| constant   | value                        |
+|:-----------|:-----------------------------|
+| REQUEST    | rweb/FETCH_TV_FOLLOW/REQUEST |
+| SUCCESS    | rweb/FETCH_TV_FOLLOW/SUCCESS |
+| FAILURE    | rweb/FETCH_TV_FOLLOW/FAILURE |
+
+| constant   | value                                   |
+|:-----------|:----------------------------------------|
+| REQUEST    | rweb/FETCH_TV_USER_VIDEO_TWEETS/REQUEST |
+| SUCCESS    | rweb/FETCH_TV_USER_VIDEO_TWEETS/SUCCESS |
+| FAILURE    | rweb/FETCH_TV_USER_VIDEO_TWEETS/FAILURE |
+
+| constant   | value                                  |
+|:-----------|:---------------------------------------|
+| REQUEST    | rweb/FETCH_TV_SEARCH_TYPEAHEAD/REQUEST |
+| SUCCESS    | rweb/FETCH_TV_SEARCH_TYPEAHEAD/SUCCESS |
+| FAILURE    | rweb/FETCH_TV_SEARCH_TYPEAHEAD/FAILURE |
 
 | constant      | value        |
 |:--------------|:-------------|
@@ -6343,11 +6420,11 @@ This document is entirely auto-generated and may contain errors.<br>
 ```
 ```internal process
 # Error
-{"default":()=>s().b7363b66,"with_replies":()=>s().b7363b66,"superfollows":()=>s().ce659062,"highlights":()=>s().f1e98cc2,"articles":()=>s().d5c743c6}
+{"default":()=>t().b7363b66,"with_replies":()=>t().b7363b66,"superfollows":()=>t().ce659062,"highlights":()=>t().f1e98cc2,"articles":()=>t().d5c743c6}
 ```
 ```internal process
 # Error
-{"default":()=>s().d1e5e328,"with_replies":()=>s().d1e5e328,"superfollows":()=>s().hb26a1fe,"highlights":()=>s().b7c3572e,"articles":()=>s().i8123550}
+{"default":()=>t().d1e5e328,"with_replies":()=>t().d1e5e328,"superfollows":()=>t().hb26a1fe,"highlights":()=>t().b7c3572e,"articles":()=>t().i8123550}
 ```
 ```internal process
 # Error
@@ -6355,11 +6432,11 @@ This document is entirely auto-generated and may contain errors.<br>
 ```
 ```internal process
 # Error
-{"default":()=>s().f34dfc18,"with_replies":()=>s().f34dfc18,"superfollows":()=>s().h9346040,"articles":()=>s().i4c3ddc6}
+{"default":()=>t().f34dfc18,"with_replies":()=>t().f34dfc18,"superfollows":()=>t().h9346040,"articles":()=>t().i4c3ddc6}
 ```
 ```internal process
 # Error
-{"default":()=>s().e0118142,"articles":()=>s().ee9e42aa}
+{"default":()=>t().e0118142,"articles":()=>t().ee9e42aa}
 ```
 | constant   | value             |
 |:-----------|:------------------|
@@ -6397,79 +6474,6 @@ This document is entirely auto-generated and may contain errors.<br>
 | Reserved5         | Reserved5         |
 | Reserved6         | Reserved6         |
 | Reserved7         | Reserved7         |
-
-| constant   | value   |
-|:-----------|:--------|
-| xSmall     | xSmall  |
-| small      | small   |
-| normal     | normal  |
-| large      | large   |
-| xLarge     | xLarge  |
-
-| constant    | value       |
-|:------------|:------------|
-| VIDEO       | VIDEO       |
-| SHORT_VIDEO | SHORT_VIDEO |
-
-| constant   | value                            |
-|:-----------|:---------------------------------|
-| REQUEST    | rweb/FETCH_TV_HOME_MIXER/REQUEST |
-| SUCCESS    | rweb/FETCH_TV_HOME_MIXER/SUCCESS |
-| FAILURE    | rweb/FETCH_TV_HOME_MIXER/FAILURE |
-
-| constant   | value                                    |
-|:-----------|:-----------------------------------------|
-| REQUEST    | rweb/FETCH_TV_USER_PROFILE_MIXER/REQUEST |
-| SUCCESS    | rweb/FETCH_TV_USER_PROFILE_MIXER/SUCCESS |
-| FAILURE    | rweb/FETCH_TV_USER_PROFILE_MIXER/FAILURE |
-
-| constant   | value                       |
-|:-----------|:----------------------------|
-| REQUEST    | rweb/FETCH_TV_TREND/REQUEST |
-| SUCCESS    | rweb/FETCH_TV_TREND/SUCCESS |
-| FAILURE    | rweb/FETCH_TV_TREND/FAILURE |
-
-| constant   | value                             |
-|:-----------|:----------------------------------|
-| REQUEST    | rweb/FETCH_RELATED_VIDEOS/REQUEST |
-| SUCCESS    | rweb/FETCH_RELATED_VIDEOS/SUCCESS |
-| FAILURE    | rweb/FETCH_RELATED_VIDEOS/FAILURE |
-
-| constant   | value                          |
-|:-----------|:-------------------------------|
-| REQUEST    | rweb/FETCH_TV_PIN_CODE/REQUEST |
-| SUCCESS    | rweb/FETCH_TV_PIN_CODE/SUCCESS |
-| FAILURE    | rweb/FETCH_TV_PIN_CODE/FAILURE |
-
-| constant   | value                        |
-|:-----------|:-----------------------------|
-| REQUEST    | rweb/FETCH_TV_SEARCH/REQUEST |
-| SUCCESS    | rweb/FETCH_TV_SEARCH/SUCCESS |
-| FAILURE    | rweb/FETCH_TV_SEARCH/FAILURE |
-
-| constant   | value                                    |
-|:-----------|:-----------------------------------------|
-| REQUEST    | rweb/FETCH_TV_TWEET_CONVERSATION/REQUEST |
-| SUCCESS    | rweb/FETCH_TV_TWEET_CONVERSATION/SUCCESS |
-| FAILURE    | rweb/FETCH_TV_TWEET_CONVERSATION/FAILURE |
-
-| constant   | value                        |
-|:-----------|:-----------------------------|
-| REQUEST    | rweb/FETCH_TV_FOLLOW/REQUEST |
-| SUCCESS    | rweb/FETCH_TV_FOLLOW/SUCCESS |
-| FAILURE    | rweb/FETCH_TV_FOLLOW/FAILURE |
-
-| constant   | value                                   |
-|:-----------|:----------------------------------------|
-| REQUEST    | rweb/FETCH_TV_USER_VIDEO_TWEETS/REQUEST |
-| SUCCESS    | rweb/FETCH_TV_USER_VIDEO_TWEETS/SUCCESS |
-| FAILURE    | rweb/FETCH_TV_USER_VIDEO_TWEETS/FAILURE |
-
-| constant   | value                                  |
-|:-----------|:---------------------------------------|
-| REQUEST    | rweb/FETCH_TV_SEARCH_TYPEAHEAD/REQUEST |
-| SUCCESS    | rweb/FETCH_TV_SEARCH_TYPEAHEAD/SUCCESS |
-| FAILURE    | rweb/FETCH_TV_SEARCH_TYPEAHEAD/FAILURE |
 
 | constant   | value     |
 |:-----------|:----------|
@@ -6628,7 +6632,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant      | value                                                                                                                                                                                                                  |
 |:--------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| superFollower | {'graphic': 'p.default', 'headline': 'm().e453f536', 'subtext': 'm().bd4cb7a0', 'actionLabel': 'm().g7099a02', 'actionLink': 'https://help.x.com/using-twitter/subscriptions', 'secondaryActionLabel': 'm().c2637ef6'} |
+| superFollower | {'graphic': 'g.default', 'headline': 'm().e453f536', 'subtext': 'm().bd4cb7a0', 'actionLabel': 'm().g7099a02', 'actionLink': 'https://help.x.com/using-twitter/subscriptions', 'secondaryActionLabel': 'm().c2637ef6'} |
 
 | constant        | value        |
 |:----------------|:-------------|
