@@ -553,17 +553,26 @@
       "communities_analytics_enabled": {
         "value": "false"
       },
+      "communities_auto_report_setting_enabled": {
+        "value": "false"
+      },
       "communities_enable_explore_tab": {
         "value": "true"
       },
       "communities_enable_explore_topic_carousel": {
         "value": "true"
       },
+      "communities_enable_top_posts_search": {
+        "value": "false"
+      },
       "communities_home_top_timeline_enabled": {
         "value": "true"
       },
       "communities_show_broadcast_option_in_composer": {
         "value": "true"
+      },
+      "communities_spam_settings_enabled": {
+        "value": "false"
       },
       "communities_topic_carousel_enabled": {
         "value": "true"
@@ -1524,7 +1533,7 @@
         "value": "false"
       },
       "responsive_web_grok_opt_out_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "responsive_web_grok_prompt_deeplink_enabled": {
         "value": "true"
@@ -3340,6 +3349,9 @@
         "communities_enable_explore_topic_carousel": {
           "value": "true"
         },
+        "communities_enable_top_posts_search": {
+          "value": "false"
+        },
         "communities_home_top_timeline_enabled": {
           "value": "true"
         },
@@ -4064,7 +4076,7 @@
           "value": "true"
         },
         "responsive_web_birdwatch_note_request_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "responsive_web_birdwatch_note_writing_enabled": {
           "value": "false"
@@ -5667,10 +5679,10 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "17179b8a80bd3926c95ec336a877d30a"
+      "settingsVersion": "64dc725874a47de957d3134fbd965cec"
     },
     "debug": {},
-    "featureSetToken": "5d1ccda73833c04f76cc532af9404c8294c5f947",
+    "featureSetToken": "bdf4500e11337e1f2c49ead4dea8d944712b1164",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -5740,7 +5752,7 @@
     "country": "XX",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "172125050221103753",
+    "guestId": "172133689835256952",
     "hasCommunityMemberships": "false",
     "language": "en",
     "ssoInitTokens": {},
