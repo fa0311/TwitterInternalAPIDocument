@@ -167,6 +167,9 @@
     "verified": "verified"
   },
   {
+    "Links": "Links"
+  },
+  {
     "BINGBOT": "bingbot",
     "DISCORDBOT": "discordbot",
     "FACEBOOKBOT": "facebookbot",
@@ -2051,8 +2054,8 @@
     "spacebar": "spacebar"
   },
   {
-    "ANIMATED_GIF": "d",
-    "VIDEO": "c",
+    "ANIMATED_GIF": "c",
+    "VIDEO": "d",
     "VINE": "u"
   },
   {
@@ -3992,6 +3995,67 @@
   {
     "HUMAN": "1",
     "ASSISTANT": "2"
+  },
+  {
+    "xSmall": "xSmall",
+    "small": "small",
+    "normal": "normal",
+    "large": "large",
+    "xLarge": "xLarge"
+  },
+  {
+    "VIDEO": "VIDEO",
+    "SHORT_VIDEO": "SHORT_VIDEO"
+  },
+  {
+    "REQUEST": "rweb/FETCH_TV_HOME_MIXER/REQUEST",
+    "SUCCESS": "rweb/FETCH_TV_HOME_MIXER/SUCCESS",
+    "FAILURE": "rweb/FETCH_TV_HOME_MIXER/FAILURE"
+  },
+  {
+    "REQUEST": "rweb/FETCH_TV_USER_PROFILE_MIXER/REQUEST",
+    "SUCCESS": "rweb/FETCH_TV_USER_PROFILE_MIXER/SUCCESS",
+    "FAILURE": "rweb/FETCH_TV_USER_PROFILE_MIXER/FAILURE"
+  },
+  {
+    "REQUEST": "rweb/FETCH_TV_TREND/REQUEST",
+    "SUCCESS": "rweb/FETCH_TV_TREND/SUCCESS",
+    "FAILURE": "rweb/FETCH_TV_TREND/FAILURE"
+  },
+  {
+    "REQUEST": "rweb/FETCH_RELATED_VIDEOS/REQUEST",
+    "SUCCESS": "rweb/FETCH_RELATED_VIDEOS/SUCCESS",
+    "FAILURE": "rweb/FETCH_RELATED_VIDEOS/FAILURE"
+  },
+  {
+    "REQUEST": "rweb/FETCH_TV_PIN_CODE/REQUEST",
+    "SUCCESS": "rweb/FETCH_TV_PIN_CODE/SUCCESS",
+    "FAILURE": "rweb/FETCH_TV_PIN_CODE/FAILURE"
+  },
+  {
+    "REQUEST": "rweb/FETCH_TV_SEARCH/REQUEST",
+    "SUCCESS": "rweb/FETCH_TV_SEARCH/SUCCESS",
+    "FAILURE": "rweb/FETCH_TV_SEARCH/FAILURE"
+  },
+  {
+    "REQUEST": "rweb/FETCH_TV_TWEET_CONVERSATION/REQUEST",
+    "SUCCESS": "rweb/FETCH_TV_TWEET_CONVERSATION/SUCCESS",
+    "FAILURE": "rweb/FETCH_TV_TWEET_CONVERSATION/FAILURE"
+  },
+  {
+    "REQUEST": "rweb/FETCH_TV_FOLLOW/REQUEST",
+    "SUCCESS": "rweb/FETCH_TV_FOLLOW/SUCCESS",
+    "FAILURE": "rweb/FETCH_TV_FOLLOW/FAILURE"
+  },
+  {
+    "REQUEST": "rweb/FETCH_TV_USER_VIDEO_TWEETS/REQUEST",
+    "SUCCESS": "rweb/FETCH_TV_USER_VIDEO_TWEETS/SUCCESS",
+    "FAILURE": "rweb/FETCH_TV_USER_VIDEO_TWEETS/FAILURE"
+  },
+  {
+    "REQUEST": "rweb/FETCH_TV_SEARCH_TYPEAHEAD/REQUEST",
+    "SUCCESS": "rweb/FETCH_TV_SEARCH_TYPEAHEAD/SUCCESS",
+    "FAILURE": "rweb/FETCH_TV_SEARCH_TYPEAHEAD/FAILURE"
   },
   {
     "superFollower": "m().fc065ee4"
@@ -5952,11 +6016,11 @@
     "articles": "article_tweets"
   },
   "{\"default\":\"()\"{\"screenName\":\"e\"}{\"screenName\":\"e\"}{\"screenName\":\"e\"}{\"screenName\":\"e\"}{\"screenName\":\"e\"}{\"screenName\":\"e\"}{\"screenName\":\"e\"}{\"screenName\":\"e\"}{\"screenName\":\"e\"}{\"screenName\":\"e\"}}",
-  "{\"default\":()=>s().b7363b66,\"with_replies\":()=>s().b7363b66,\"superfollows\":()=>s().ce659062,\"highlights\":()=>s().f1e98cc2,\"articles\":()=>s().d5c743c6}",
-  "{\"default\":()=>s().d1e5e328,\"with_replies\":()=>s().d1e5e328,\"superfollows\":()=>s().hb26a1fe,\"highlights\":()=>s().b7c3572e,\"articles\":()=>s().i8123550}",
+  "{\"default\":()=>t().b7363b66,\"with_replies\":()=>t().b7363b66,\"superfollows\":()=>t().ce659062,\"highlights\":()=>t().f1e98cc2,\"articles\":()=>t().d5c743c6}",
+  "{\"default\":()=>t().d1e5e328,\"with_replies\":()=>t().d1e5e328,\"superfollows\":()=>t().hb26a1fe,\"highlights\":()=>t().b7c3572e,\"articles\":()=>t().i8123550}",
   "{\"default\":\"()\"{\"screenName\":\"e\"}{\"screenName\":\"e\"}{\"screenName\":\"e\"}{\"screenName\":\"e\"}{\"screenName\":\"e\"}{\"screenName\":\"e\"}}",
-  "{\"default\":()=>s().f34dfc18,\"with_replies\":()=>s().f34dfc18,\"superfollows\":()=>s().h9346040,\"articles\":()=>s().i4c3ddc6}",
-  "{\"default\":()=>s().e0118142,\"articles\":()=>s().ee9e42aa}",
+  "{\"default\":()=>t().f34dfc18,\"with_replies\":()=>t().f34dfc18,\"superfollows\":()=>t().h9346040,\"articles\":()=>t().i4c3ddc6}",
+  "{\"default\":()=>t().e0118142,\"articles\":()=>t().ee9e42aa}",
   {
     "default": "/compose/post",
     "articles": "/compose/articles"
@@ -5983,67 +6047,6 @@
     "Reserved5": "Reserved5",
     "Reserved6": "Reserved6",
     "Reserved7": "Reserved7"
-  },
-  {
-    "xSmall": "xSmall",
-    "small": "small",
-    "normal": "normal",
-    "large": "large",
-    "xLarge": "xLarge"
-  },
-  {
-    "VIDEO": "VIDEO",
-    "SHORT_VIDEO": "SHORT_VIDEO"
-  },
-  {
-    "REQUEST": "rweb/FETCH_TV_HOME_MIXER/REQUEST",
-    "SUCCESS": "rweb/FETCH_TV_HOME_MIXER/SUCCESS",
-    "FAILURE": "rweb/FETCH_TV_HOME_MIXER/FAILURE"
-  },
-  {
-    "REQUEST": "rweb/FETCH_TV_USER_PROFILE_MIXER/REQUEST",
-    "SUCCESS": "rweb/FETCH_TV_USER_PROFILE_MIXER/SUCCESS",
-    "FAILURE": "rweb/FETCH_TV_USER_PROFILE_MIXER/FAILURE"
-  },
-  {
-    "REQUEST": "rweb/FETCH_TV_TREND/REQUEST",
-    "SUCCESS": "rweb/FETCH_TV_TREND/SUCCESS",
-    "FAILURE": "rweb/FETCH_TV_TREND/FAILURE"
-  },
-  {
-    "REQUEST": "rweb/FETCH_RELATED_VIDEOS/REQUEST",
-    "SUCCESS": "rweb/FETCH_RELATED_VIDEOS/SUCCESS",
-    "FAILURE": "rweb/FETCH_RELATED_VIDEOS/FAILURE"
-  },
-  {
-    "REQUEST": "rweb/FETCH_TV_PIN_CODE/REQUEST",
-    "SUCCESS": "rweb/FETCH_TV_PIN_CODE/SUCCESS",
-    "FAILURE": "rweb/FETCH_TV_PIN_CODE/FAILURE"
-  },
-  {
-    "REQUEST": "rweb/FETCH_TV_SEARCH/REQUEST",
-    "SUCCESS": "rweb/FETCH_TV_SEARCH/SUCCESS",
-    "FAILURE": "rweb/FETCH_TV_SEARCH/FAILURE"
-  },
-  {
-    "REQUEST": "rweb/FETCH_TV_TWEET_CONVERSATION/REQUEST",
-    "SUCCESS": "rweb/FETCH_TV_TWEET_CONVERSATION/SUCCESS",
-    "FAILURE": "rweb/FETCH_TV_TWEET_CONVERSATION/FAILURE"
-  },
-  {
-    "REQUEST": "rweb/FETCH_TV_FOLLOW/REQUEST",
-    "SUCCESS": "rweb/FETCH_TV_FOLLOW/SUCCESS",
-    "FAILURE": "rweb/FETCH_TV_FOLLOW/FAILURE"
-  },
-  {
-    "REQUEST": "rweb/FETCH_TV_USER_VIDEO_TWEETS/REQUEST",
-    "SUCCESS": "rweb/FETCH_TV_USER_VIDEO_TWEETS/SUCCESS",
-    "FAILURE": "rweb/FETCH_TV_USER_VIDEO_TWEETS/FAILURE"
-  },
-  {
-    "REQUEST": "rweb/FETCH_TV_SEARCH_TYPEAHEAD/REQUEST",
-    "SUCCESS": "rweb/FETCH_TV_SEARCH_TYPEAHEAD/SUCCESS",
-    "FAILURE": "rweb/FETCH_TV_SEARCH_TYPEAHEAD/FAILURE"
   },
   {
     "Speed": "Speed",
@@ -6178,7 +6181,7 @@
   },
   {
     "superFollower": {
-      "graphic": "p.default",
+      "graphic": "g.default",
       "headline": "m().e453f536",
       "subtext": "m().bd4cb7a0",
       "actionLabel": "m().g7099a02",
