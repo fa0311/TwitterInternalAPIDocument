@@ -2811,3 +2811,15 @@
 - communities_spam_settings_enabled<br>
 #### remove<br>
 - None<br>
+## 2024/07/22<br>
+### API<br>
+#### add<br>
+- AuthenticatePeriscope<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- bookmarks_search_enabled<br>
+- responsive_web_jetfuel_enabled<br>
