@@ -2856,7 +2856,7 @@
     "appBarFirefoxBackground": "o.bs.black(.65)"
   },
   {
-    "...w": "_",
+    "..._": "_",
     "...l()": "_",
     "text": "o.Cj",
     "navigationBackground": "#050505",
@@ -2919,11 +2919,11 @@
   {
     "appBarHeight": "v",
     "appBarHeightPx": "y",
-    "conversationLineWidth": "_.space2",
-    "gutterHorizontal": "w.space16",
-    "gutterHorizontalPx": "_.space16",
-    "gutterVertical": "w.space12",
-    "gutterVerticalPx": "_.space12"
+    "conversationLineWidth": "w.space2",
+    "gutterHorizontal": "_.space16",
+    "gutterHorizontalPx": "w.space16",
+    "gutterVertical": "_.space12",
+    "gutterVerticalPx": "w.space12"
   },
   {
     "aspectRatios": "l",
@@ -2942,8 +2942,8 @@
     "lineHeightsPx": "g",
     "scales": "n",
     "scaleMultiplier": "t",
-    "spaces": "w",
-    "spacesPx": "_"
+    "spaces": "_",
+    "spacesPx": "w"
   },
   "{\"...h()\":{\"scale\":\"o\",\"scales\":\"l\"}\"an0\",g.obt,n,\"d\"}",
   {
@@ -4494,10 +4494,6 @@
     "FAILURE": "rweb/FETCH_TV_SEARCH_TYPEAHEAD/FAILURE"
   },
   {
-    "fixedBarWidth": "fixedBarWidth",
-    "fixedSpacing": "fixedSpacing"
-  },
-  {
     "large": "54",
     "medium": "46",
     "small": "36",
@@ -5030,18 +5026,18 @@
   },
   "{[Z.FOLLOWS]:{\"label\":\"O\",\"url\":\"/i/connect_people\"},[Z.CREATORS]:{\"label\":\"v\",\"url\":\"/i/connect_people?is_creator_only=true\"}}",
   {
-    "CONVERSATION": "conversation",
-    "TIMELINE": "timeline"
-  },
-  {
     "relevance": "relevance",
     "recency": "recency",
     "likes": "likes"
   },
   {
     "relevance": "m",
-    "recency": "g",
-    "likes": "v"
+    "recency": "v",
+    "likes": "g"
+  },
+  {
+    "CONVERSATION": "conversation",
+    "TIMELINE": "timeline"
   },
   {
     "COUNTRIES": "0",
@@ -6240,6 +6236,10 @@
       "color": "gray100",
       "index": "2"
     }
+  },
+  {
+    "fixedBarWidth": "fixedBarWidth",
+    "fixedSpacing": "fixedSpacing"
   },
   {
     "notProfessional": "not_professional",
