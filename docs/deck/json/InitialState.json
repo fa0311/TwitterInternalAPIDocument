@@ -647,6 +647,9 @@
       "dash_region_specific_de_media_transparency_items_enabled": {
         "value": "false"
       },
+      "disallowed_reply_controls_enabled": {
+        "value": "false"
+      },
       "dm_bulk_delete_enabled": {
         "value": "false"
       },
@@ -1222,9 +1225,6 @@
       },
       "responsive_web_account_access_language_lo_splash_sidebar": {
         "value": "control"
-      },
-      "responsive_web_account_analytics_overview_v2": {
-        "value": "true"
       },
       "responsive_web_account_analytics_timeframe_enabled": {
         "value": "true"
@@ -1966,6 +1966,9 @@
         "value": "false"
       },
       "responsive_web_vo_annual_credit_increase_enabled": {
+        "value": "true"
+      },
+      "responsive_web_vo_basic_application_enabled": {
         "value": "true"
       },
       "responsive_web_x_translation_enabled": {
@@ -3428,6 +3431,9 @@
         "dash_region_specific_de_media_transparency_items_enabled": {
           "value": "false"
         },
+        "disallowed_reply_controls_enabled": {
+          "value": "false"
+        },
         "dm_bulk_delete_enabled": {
           "value": "false"
         },
@@ -4003,9 +4009,6 @@
         },
         "responsive_web_account_access_language_lo_splash_sidebar": {
           "value": "control"
-        },
-        "responsive_web_account_analytics_overview_v2": {
-          "value": "true"
         },
         "responsive_web_account_analytics_timeframe_enabled": {
           "value": "true"
@@ -5680,10 +5683,10 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "0b01ef2293ceabaac5a553cbf4c67e14"
+      "settingsVersion": "feb16d750b78e1ced7235908da15f6fa"
     },
     "debug": {},
-    "featureSetToken": "9499f1328a91405d257fa3f1c70ff63209d1af0e",
+    "featureSetToken": "26b14e7cd766abc0dae93b46962736e423491c6b",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -5753,7 +5756,7 @@
     "country": "XX",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "172168288865748422",
+    "guestId": "172176935149828354",
     "hasCommunityMemberships": "false",
     "language": "en",
     "ssoInitTokens": {},
