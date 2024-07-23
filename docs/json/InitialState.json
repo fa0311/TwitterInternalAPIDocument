@@ -637,6 +637,9 @@
       "dash_region_specific_de_media_transparency_items_enabled": {
         "value": "false"
       },
+      "disallowed_reply_controls_enabled": {
+        "value": "false"
+      },
       "dm_bulk_delete_enabled": {
         "value": "false"
       },
@@ -1955,6 +1958,9 @@
       "responsive_web_vo_annual_credit_increase_enabled": {
         "value": "true"
       },
+      "responsive_web_vo_basic_application_enabled": {
+        "value": "false"
+      },
       "responsive_web_x_translation_enabled": {
         "value": "false"
       },
@@ -2388,6 +2394,9 @@
       },
       "subscriptions_premium_experiment_nav_text": {
         "value": "false"
+      },
+      "subscriptions_premium_tiers_default_interval": {
+        "value": "Year"
       },
       "subscriptions_premium_tiers_default_product": {
         "value": "BlueVerified"
@@ -3413,6 +3422,9 @@
           "value": "false"
         },
         "dash_region_specific_de_media_transparency_items_enabled": {
+          "value": "false"
+        },
+        "disallowed_reply_controls_enabled": {
           "value": "false"
         },
         "dm_bulk_delete_enabled": {
@@ -5170,6 +5182,9 @@
         "subscriptions_premium_experiment_nav_text": {
           "value": "false"
         },
+        "subscriptions_premium_tiers_default_interval": {
+          "value": "Year"
+        },
         "subscriptions_premium_tiers_default_product": {
           "value": "BlueVerified"
         },
@@ -5667,7 +5682,7 @@
       "settingsVersion": "283936e436b0d360c5962c254c85d035"
     },
     "debug": {},
-    "featureSetToken": "554b26d274e274cb0cccb95542319a1b27127e08",
+    "featureSetToken": "8c4c66a79ab7e5c38eeec02876e1c6b49a8459fe",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -5737,7 +5752,7 @@
     "country": "XX",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "172168250518534383",
+    "guestId": "172176898880133900",
     "hasCommunityMemberships": "false",
     "language": "en",
     "ssoInitTokens": {},
