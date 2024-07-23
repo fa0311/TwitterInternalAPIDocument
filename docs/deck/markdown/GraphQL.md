@@ -852,10 +852,7 @@ Request Method: `POST`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key   | type   | variable   |
-|:------|:-------|:-----------|
-| ...t  | ...    | _          |
-
+`None`<br>
 #### features<br>
 | key                                                               | type    | variable   |
 |:------------------------------------------------------------------|:--------|:-----------|
@@ -4186,10 +4183,10 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-```internal process
-# Error
-{"articleEntityId":"a","coverMedia":"l&&n?"{"media_id":"l","media_category":"n"}:"void 0"}
-```
+| key             | type   | variable   |
+|:----------------|:-------|:-----------|
+| articleEntityId | ...    | i          |
+
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
