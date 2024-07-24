@@ -1341,10 +1341,9 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key         | type   | variable      |
-|:------------|:-------|:--------------|
-| communityId | ...    | n.communityId |
-| prefix      | ...    | n.prefix      |
+| key             | type   | variable   |
+|:----------------|:-------|:-----------|
+| articleEntityId | ...    | i          |
 
 #### features<br>
 | key                                                | type    | variable   |
@@ -3608,24 +3607,6 @@ Login Required: `...`<br>
 | longform_notetweets_rich_text_read_enabled                              | boolean | True       |
 | longform_notetweets_inline_media_enabled                                | boolean | True       |
 | responsive_web_enhance_cards_enabled                                    | boolean | False      |
-
-#### queryId<br>
-`None`<br>
-## TrustedFriendsTypeahead<br>
-Request URL: `https://x.com/i/api/graphql/hSylacaUe1Umga6Ro75mmw/TrustedFriendsTypeahead`<br>
-Request Method: `GET`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-| key            | type   | variable   |
-|:---------------|:-------|:-----------|
-| content_state  | ...    | o          |
-| article_entity | ...    | i          |
-
-#### features<br>
-| key                                                | type    | variable   |
-|:---------------------------------------------------|:--------|:-----------|
-| responsive_web_graphql_timeline_navigation_enabled | boolean | True       |
 
 #### queryId<br>
 `None`<br>
