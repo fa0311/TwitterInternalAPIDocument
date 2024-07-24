@@ -5976,24 +5976,6 @@
     "Basic": "Basic"
   },
   {
-    "Advertising": "Advertising",
-    "BlueVerified": "BlueVerified",
-    "BlueVerifiedPlus": "BlueVerifiedPlus",
-    "Chirps": "Chirps",
-    "Coins": "Coins",
-    "OneDollar": "OneDollar",
-    "OneDollarSubscription": "OneDollarSubscription",
-    "PremiumBasic": "PremiumBasic",
-    "QuickPromoteBudget": "QuickPromoteBudget",
-    "Seeds": "Seeds",
-    "Spaces": "Spaces",
-    "Subscriptions": "Subscriptions",
-    "SuperFollows": "SuperFollows",
-    "SuperLikes": "SuperLikes",
-    "VerifiedOrganizations": "VerifiedOrganizations",
-    "VerifiedOrganizationsBasic": "VerifiedOrganizationsBasic"
-  },
-  {
     "alwayOpen": "r().e2a5bd50",
     "closed": "r().e41a0dc2",
     "closes": "r().e0d7da6c",
