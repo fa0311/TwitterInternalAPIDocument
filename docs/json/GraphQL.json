@@ -4133,27 +4133,6 @@
     }
   },
   {
-    "n": "48080",
-    "exports": {
-      "queryId": "hSylacaUe1Umga6Ro75mmw",
-      "operationName": "TrustedFriendsTypeahead",
-      "operationType": "query",
-      "metadata": {
-        "featureSwitches": [
-          "responsive_web_graphql_timeline_navigation_enabled"
-        ],
-        "fieldToggles": [
-          "withAuxiliaryUserLabels"
-        ],
-        "featureSwitch": {
-          "responsive_web_graphql_timeline_navigation_enabled": {
-            "value": "true"
-          }
-        }
-      }
-    }
-  },
-  {
     "n": "35627",
     "exports": {
       "queryId": "7Bl7Pu9C4U-kjbsuzH-EzA",
