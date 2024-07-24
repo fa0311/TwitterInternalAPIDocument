@@ -1614,20 +1614,6 @@ Login Required: `...`<br>
 
 #### queryId<br>
 `None`<br>
-## TrustedFriendsTypeahead<br>
-Request URL: `https://x.com/i/api/graphql/hSylacaUe1Umga6Ro75mmw/TrustedFriendsTypeahead`<br>
-Request Method: `GET`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-| key                                                | type    | variable   |
-|:---------------------------------------------------|:--------|:-----------|
-| responsive_web_graphql_timeline_navigation_enabled | boolean | True       |
-
-#### queryId<br>
-`None`<br>
 ## TweetDetail<br>
 Request URL: `https://x.com/i/api/graphql/7Bl7Pu9C4U-kjbsuzH-EzA/TweetDetail`<br>
 Request Method: `GET`<br>
