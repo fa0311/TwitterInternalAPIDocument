@@ -6319,25 +6319,6 @@ This document is entirely auto-generated and may contain errors.<br>
 | FullAccessGov | FullAccessGov |
 | Basic         | Basic         |
 
-| constant                   | value                      |
-|:---------------------------|:---------------------------|
-| Advertising                | Advertising                |
-| BlueVerified               | BlueVerified               |
-| BlueVerifiedPlus           | BlueVerifiedPlus           |
-| Chirps                     | Chirps                     |
-| Coins                      | Coins                      |
-| OneDollar                  | OneDollar                  |
-| OneDollarSubscription      | OneDollarSubscription      |
-| PremiumBasic               | PremiumBasic               |
-| QuickPromoteBudget         | QuickPromoteBudget         |
-| Seeds                      | Seeds                      |
-| Spaces                     | Spaces                     |
-| Subscriptions              | Subscriptions              |
-| SuperFollows               | SuperFollows               |
-| SuperLikes                 | SuperLikes                 |
-| VerifiedOrganizations      | VerifiedOrganizations      |
-| VerifiedOrganizationsBasic | VerifiedOrganizationsBasic |
-
 | constant     | value        |
 |:-------------|:-------------|
 | alwayOpen    | r().e2a5bd50 |
