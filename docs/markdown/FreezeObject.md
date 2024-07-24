@@ -369,12 +369,13 @@ This document is entirely auto-generated and may contain errors.<br>
 | staging    | staging |
 | devel      | devel   |
 
-| constant                            | value                               |
-|:------------------------------------|:------------------------------------|
-| upfrontPaymentAccess                | upfrontPaymentAccess                |
-| BusinessAdminPortalAccess           | BusinessAdminPortalAccess           |
-| businessAdminPortalAffiliateRemoval | businessAdminPortalAffiliateRemoval |
-| businessAdminPortalReadOnly         | businessAdminPortalReadOnly         |
+| constant                             | value                                |
+|:-------------------------------------|:-------------------------------------|
+| upfrontPaymentAccess                 | upfrontPaymentAccess                 |
+| BusinessAdminPortalAccess            | BusinessAdminPortalAccess            |
+| businessAdminPortalAffiliateRemoval  | businessAdminPortalAffiliateRemoval  |
+| businessAdminPortalReadOnly          | businessAdminPortalReadOnly          |
+| BusinessPreapprovalAdminPortalAccess | BusinessPreapprovalAdminPortalAccess |
 
 | constant   | value   |
 |:-----------|:--------|
@@ -3623,8 +3624,8 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant   | value       |
 |:-----------|:------------|
-| DRAFT      | l.DRAFT     |
-| PUBLISHED  | l.PUBLISHED |
+| DRAFT      | s.DRAFT     |
+| PUBLISHED  | s.PUBLISHED |
 
 | constant   | value   |
 |:-----------|:--------|
@@ -4877,7 +4878,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{"ActionsBar":"v.Z","ActionMenu":"function()"{"Icon":"e","isDisabled":"t","items":"n","onOpen":"i"}{"const o=r.useCallback()"{"items":"n","onCloseRequested":"e"}{"Icon":"e","isDisabled":"t","onClick":"i","renderActionMenu":"o"}},"CallToAction":"a.ZP","EditCallout":"C.Z","Education":"E.Z","Highlighte...
+{"ActionsBar":"y.Z","ActionMenu":"function()"{"Icon":"e","isDisabled":"t","items":"n","onOpen":"i"}{"const o=r.useCallback()"{"items":"n","onCloseRequested":"e"}{"Icon":"e","isDisabled":"t","onClick":"i","renderActionMenu":"o"}},"CallToAction":"a.ZP","EditCallout":"C.Z","Education":"E.Z","Highlighte...
 ```
 | constant   |   value |
 |:-----------|--------:|
@@ -5926,8 +5927,8 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant    | value     |
 |:------------|:----------|
-| fetchStatus | $.ZP.NONE |
-| config      | Ka        |
+| fetchStatus | G.ZP.NONE |
+| config      | Za        |
 
 | constant              | value                 |
 |:----------------------|:----------------------|
@@ -5944,7 +5945,7 @@ This document is entirely auto-generated and may contain errors.<br>
 ```
 ```internal process
 # Error
-{[A.hA.generate]:"F().fc1f43d0",[A.hA.switchFromDirect]:"F().fc1f43d0",[A.hA.updateSeats]:"F().c97ad52a"}
+{[A.hA.generate]:"E().fc1f43d0",[A.hA.switchFromDirect]:"E().fc1f43d0",[A.hA.updateSeats]:"E().c97ad52a"}
 ```
 | constant      | value         |
 |:--------------|:--------------|
