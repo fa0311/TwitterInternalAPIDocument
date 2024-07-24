@@ -2639,14 +2639,6 @@
         "responsive_web_enhance_cards_enabled": false
       }
     },
-    "TrustedFriendsTypeahead": {
-      "url": "https://x.com/i/api/graphql/hSylacaUe1Umga6Ro75mmw/TrustedFriendsTypeahead",
-      "queryId": "hSylacaUe1Umga6Ro75mmw",
-      "method": "GET",
-      "features": {
-        "responsive_web_graphql_timeline_navigation_enabled": true
-      }
-    },
     "TweetDetail": {
       "url": "https://x.com/i/api/graphql/7Bl7Pu9C4U-kjbsuzH-EzA/TweetDetail",
       "queryId": "7Bl7Pu9C4U-kjbsuzH-EzA",
