@@ -3491,11 +3491,10 @@
         }
       }
     },
-    "func_name": "m",
-    "func_name_init": "p",
+    "func_name": "p",
+    "func_name_init": "b",
     "query": {
-      "communityId": "n.communityId",
-      "prefix": "n.prefix"
+      "articleEntityId": "i"
     }
   },
   {
@@ -9037,33 +9036,6 @@
           }
         }
       }
-    }
-  },
-  {
-    "n": "48080",
-    "exports": {
-      "queryId": "hSylacaUe1Umga6Ro75mmw",
-      "operationName": "TrustedFriendsTypeahead",
-      "operationType": "query",
-      "metadata": {
-        "featureSwitches": [
-          "responsive_web_graphql_timeline_navigation_enabled"
-        ],
-        "fieldToggles": [
-          "withAuxiliaryUserLabels"
-        ],
-        "featureSwitch": {
-          "responsive_web_graphql_timeline_navigation_enabled": {
-            "value": "true"
-          }
-        }
-      }
-    },
-    "func_name": "g",
-    "func_name_init": "h",
-    "query": {
-      "content_state": "o",
-      "article_entity": "i"
     }
   },
   {
