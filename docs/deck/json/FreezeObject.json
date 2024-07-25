@@ -373,7 +373,8 @@
     "upfrontPaymentAccess": "upfrontPaymentAccess",
     "BusinessAdminPortalAccess": "BusinessAdminPortalAccess",
     "businessAdminPortalAffiliateRemoval": "businessAdminPortalAffiliateRemoval",
-    "businessAdminPortalReadOnly": "businessAdminPortalReadOnly"
+    "businessAdminPortalReadOnly": "businessAdminPortalReadOnly",
+    "BusinessPreapprovalAdminPortalAccess": "BusinessPreapprovalAdminPortalAccess"
   },
   {
     "ar": "!0",
@@ -3838,8 +3839,8 @@
     "PUBLISHED": "Published"
   },
   {
-    "DRAFT": "l.DRAFT",
-    "PUBLISHED": "l.PUBLISHED"
+    "DRAFT": "s.DRAFT",
+    "PUBLISHED": "s.PUBLISHED"
   },
   {
     "domains": "void 0",
@@ -5957,8 +5958,8 @@
     "SET_CONFIG": "rweb/verifiedOrgConfig/SET"
   },
   {
-    "fetchStatus": "$.ZP.NONE",
-    "config": "Ka"
+    "fetchStatus": "G.ZP.NONE",
+    "config": "Za"
   },
   {
     "ConfirmationStep": "ConfirmationStep",
@@ -5969,7 +5970,7 @@
     "FinalConfirmationStep": "FinalConfirmationStep"
   },
   "{[b.hA.switchFromDirect]:\"m().dca6b3ac\",[b.hA.generate]:\"m().dca6b3ac\",[b.hA.updateSeats]:\"m().c97ad52a\"}",
-  "{[A.hA.generate]:\"F().fc1f43d0\",[A.hA.switchFromDirect]:\"F().fc1f43d0\",[A.hA.updateSeats]:\"F().c97ad52a\"}",
+  "{[A.hA.generate]:\"E().fc1f43d0\",[A.hA.switchFromDirect]:\"E().fc1f43d0\",[A.hA.updateSeats]:\"E().c97ad52a\"}",
   {
     "FullAccess": "FullAccess",
     "FullAccessGov": "FullAccessGov",
