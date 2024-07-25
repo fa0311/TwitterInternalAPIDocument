@@ -260,6 +260,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | LongerVideoUpload      | LongerVideoUpload      |
 | AccountAnalytics       | AccountAnalytics       |
 | MultivariateExample    | MultivariateExample    |
+| GetVerifiedButton      | GetVerifiedButton      |
 
 | constant          | value             |
 |:------------------|:------------------|
@@ -5938,6 +5939,15 @@ This document is entirely auto-generated and may contain errors.<br>
 | CreditOfferStep       | CreditOfferStep       |
 | CreditSuccessStep     | CreditSuccessStep     |
 | FinalConfirmationStep | FinalConfirmationStep |
+
+| constant                     | value                        |
+|:-----------------------------|:-----------------------------|
+| ApplicationInReview          | ApplicationInReview          |
+| ApplicationRequestInfo       | ApplicationRequestInfo       |
+| NotStart                     | NotStart                     |
+| Onboarded                    | Onboarded                    |
+| UpfrontApplicationInProgress | UpfrontApplicationInProgress |
+| UpfrontPromotionInProgress   | UpfrontPromotionInProgress   |
 
 ```internal process
 # Error
