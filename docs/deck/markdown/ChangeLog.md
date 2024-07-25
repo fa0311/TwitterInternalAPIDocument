@@ -2849,3 +2849,15 @@
 - subscriptions_premium_tiers_default_interval<br>
 #### remove<br>
 - None<br>
+## 2024/07/25<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- responsive_web_verified_organizations_preapproved_access_enabled<br>
+- responsive_web_vo_basic_application_v2<br>
+#### remove<br>
+- None<br>
