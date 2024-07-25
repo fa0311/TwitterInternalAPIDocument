@@ -2239,11 +2239,6 @@
           }
         }
       }
-    },
-    "func_name": "O",
-    "func_name_init": "B",
-    "query": {
-      "...t": "_"
     }
   },
   {
@@ -3496,11 +3491,10 @@
         }
       }
     },
-    "func_name": "m",
-    "func_name_init": "p",
+    "func_name": "p",
+    "func_name_init": "b",
     "query": {
-      "communityId": "n.communityId",
-      "prefix": "n.prefix"
+      "articleEntityId": "i"
     }
   },
   {
@@ -5707,8 +5701,8 @@
         }
       }
     },
-    "func_name": "w",
-    "func_name_init": "_",
+    "func_name": "_",
+    "func_name_init": "w",
     "query": {
       "isPrivate": "private===i.toLowerCase()",
       "name": "s",
@@ -8805,8 +8799,8 @@
         }
       }
     },
-    "func_name": "w",
-    "func_name_init": "_",
+    "func_name": "_",
+    "func_name_init": "w",
     "query": {
       "topicId": "d",
       "...()(0,a.d)": "_"
@@ -9042,33 +9036,6 @@
           }
         }
       }
-    }
-  },
-  {
-    "n": "48080",
-    "exports": {
-      "queryId": "hSylacaUe1Umga6Ro75mmw",
-      "operationName": "TrustedFriendsTypeahead",
-      "operationType": "query",
-      "metadata": {
-        "featureSwitches": [
-          "responsive_web_graphql_timeline_navigation_enabled"
-        ],
-        "fieldToggles": [
-          "withAuxiliaryUserLabels"
-        ],
-        "featureSwitch": {
-          "responsive_web_graphql_timeline_navigation_enabled": {
-            "value": "true"
-          }
-        }
-      }
-    },
-    "func_name": "g",
-    "func_name_init": "h",
-    "query": {
-      "content_state": "o",
-      "article_entity": "i"
     }
   },
   {
@@ -10719,9 +10686,11 @@
         }
       }
     },
-    "func_name": "_",
+    "func_name": "w",
     "func_name_init": "A",
-    "query": "{\"articleEntityId\":\"a\",\"coverMedia\":\"l&&n?\"{\"media_id\":\"l\",\"media_category\":\"n\"}:\"void 0\"}"
+    "query": {
+      "articleEntityId": "i"
+    }
   },
   {
     "n": "57339",
@@ -10852,7 +10821,7 @@
       }
     },
     "func_name": "D",
-    "func_name_init": "w",
+    "func_name_init": "_",
     "query": {
       "settings": "t.settings"
     }
@@ -11194,7 +11163,7 @@
       }
     },
     "func_name": "D",
-    "func_name_init": "w",
+    "func_name_init": "_",
     "query": {
       "withCommunitiesMemberships": "n.isTrue()"
     }

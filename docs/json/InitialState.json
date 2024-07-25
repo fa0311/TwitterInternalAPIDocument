@@ -637,6 +637,9 @@
       "dash_region_specific_de_media_transparency_items_enabled": {
         "value": "false"
       },
+      "disallowed_reply_controls_enabled": {
+        "value": "false"
+      },
       "dm_bulk_delete_enabled": {
         "value": "false"
       },
@@ -917,6 +920,9 @@
         "value": "true"
       },
       "identity_verification_notable_demo_survey": {
+        "value": "false"
+      },
+      "identity_verification_passkey_settings_enabled": {
         "value": "false"
       },
       "identity_verification_settings_enabled": {
@@ -1508,7 +1514,7 @@
         "value": "false"
       },
       "responsive_web_grok_drawer_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "responsive_web_grok_file_max_size": {
         "value": "1024000"
@@ -1778,6 +1784,9 @@
       "responsive_web_share_only_tweet_url_omit_title_and_text": {
         "value": "true"
       },
+      "responsive_web_show_similar_posts_action_enabled": {
+        "value": "false"
+      },
       "responsive_web_show_similar_posts_pivots_enabled": {
         "value": "true"
       },
@@ -1940,6 +1949,9 @@
       "responsive_web_verified_organizations_paid_to_invoice_enabled": {
         "value": "false"
       },
+      "responsive_web_verified_organizations_preapproved_access_enabled": {
+        "value": "false"
+      },
       "responsive_web_verified_organizations_xbusiness_enabled": {
         "value": "false"
       },
@@ -1954,6 +1966,12 @@
       },
       "responsive_web_vo_annual_credit_increase_enabled": {
         "value": "true"
+      },
+      "responsive_web_vo_basic_application_enabled": {
+        "value": "true"
+      },
+      "responsive_web_vo_basic_application_v2": {
+        "value": "false"
       },
       "responsive_web_x_translation_enabled": {
         "value": "false"
@@ -2037,6 +2055,9 @@
         "value": "false"
       },
       "rweb_recommendations_sidebar_graphql_enabled": {
+        "value": "false"
+      },
+      "rweb_save_video_progress_enabled": {
         "value": "false"
       },
       "rweb_scheduled_spaces_enabled": {
@@ -2381,13 +2402,16 @@
         "value": "true"
       },
       "subscriptions_marketing_page_remove_extra_step": {
-        "value": "false"
+        "value": "true"
       },
       "subscriptions_mute_ad_upsell_enabled": {
         "value": "true"
       },
       "subscriptions_premium_experiment_nav_text": {
         "value": "false"
+      },
+      "subscriptions_premium_tiers_default_interval": {
+        "value": "Year"
       },
       "subscriptions_premium_tiers_default_product": {
         "value": "BlueVerified"
@@ -3415,6 +3439,9 @@
         "dash_region_specific_de_media_transparency_items_enabled": {
           "value": "false"
         },
+        "disallowed_reply_controls_enabled": {
+          "value": "false"
+        },
         "dm_bulk_delete_enabled": {
           "value": "false"
         },
@@ -3695,6 +3722,9 @@
           "value": "true"
         },
         "identity_verification_notable_demo_survey": {
+          "value": "false"
+        },
+        "identity_verification_passkey_settings_enabled": {
           "value": "false"
         },
         "identity_verification_settings_enabled": {
@@ -4286,7 +4316,7 @@
           "value": "false"
         },
         "responsive_web_grok_drawer_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "responsive_web_grok_file_max_size": {
           "value": "1024000"
@@ -4556,6 +4586,9 @@
         "responsive_web_share_only_tweet_url_omit_title_and_text": {
           "value": "true"
         },
+        "responsive_web_show_similar_posts_action_enabled": {
+          "value": "false"
+        },
         "responsive_web_show_similar_posts_pivots_enabled": {
           "value": "true"
         },
@@ -4718,6 +4751,9 @@
         "responsive_web_verified_organizations_paid_to_invoice_enabled": {
           "value": "false"
         },
+        "responsive_web_verified_organizations_preapproved_access_enabled": {
+          "value": "false"
+        },
         "responsive_web_verified_organizations_xbusiness_enabled": {
           "value": "false"
         },
@@ -4735,6 +4771,9 @@
         },
         "responsive_web_vo_basic_application_enabled": {
           "value": "true"
+        },
+        "responsive_web_vo_basic_application_v2": {
+          "value": "false"
         },
         "responsive_web_x_translation_enabled": {
           "value": "false"
@@ -4818,6 +4857,9 @@
           "value": "false"
         },
         "rweb_recommendations_sidebar_graphql_enabled": {
+          "value": "false"
+        },
+        "rweb_save_video_progress_enabled": {
           "value": "false"
         },
         "rweb_scheduled_spaces_enabled": {
@@ -5162,13 +5204,16 @@
           "value": "true"
         },
         "subscriptions_marketing_page_remove_extra_step": {
-          "value": "false"
+          "value": "true"
         },
         "subscriptions_mute_ad_upsell_enabled": {
           "value": "true"
         },
         "subscriptions_premium_experiment_nav_text": {
           "value": "false"
+        },
+        "subscriptions_premium_tiers_default_interval": {
+          "value": "Year"
         },
         "subscriptions_premium_tiers_default_product": {
           "value": "BlueVerified"
@@ -5664,10 +5709,10 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "283936e436b0d360c5962c254c85d035"
+      "settingsVersion": "39169fa4f5245a3eaa5e23ec04608e8d"
     },
     "debug": {},
-    "featureSetToken": "554b26d274e274cb0cccb95542319a1b27127e08",
+    "featureSetToken": "d12ff140d6d205aa02d56a41d8fa3b1dd84506e6",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -5737,7 +5782,7 @@
     "country": "XX",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "172168250518534383",
+    "guestId": "172185533993408999",
     "hasCommunityMemberships": "false",
     "language": "en",
     "ssoInitTokens": {},

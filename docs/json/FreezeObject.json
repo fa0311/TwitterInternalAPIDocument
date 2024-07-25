@@ -365,7 +365,8 @@
     "upfrontPaymentAccess": "upfrontPaymentAccess",
     "BusinessAdminPortalAccess": "BusinessAdminPortalAccess",
     "businessAdminPortalAffiliateRemoval": "businessAdminPortalAffiliateRemoval",
-    "businessAdminPortalReadOnly": "businessAdminPortalReadOnly"
+    "businessAdminPortalReadOnly": "businessAdminPortalReadOnly",
+    "BusinessPreapprovalAdminPortalAccess": "BusinessPreapprovalAdminPortalAccess"
   },
   {
     "ar": "!0",
@@ -3468,8 +3469,8 @@
     "PUBLISHED": "Published"
   },
   {
-    "DRAFT": "l.DRAFT",
-    "PUBLISHED": "l.PUBLISHED"
+    "DRAFT": "s.DRAFT",
+    "PUBLISHED": "s.PUBLISHED"
   },
   {
     "domains": "void 0",
@@ -4350,7 +4351,7 @@
     "BLOCKED": "f",
     "BLOCKED_BY": "b"
   },
-  "{[p]:\"E\",[f]:\"_\",[b]:\"y\"}",
+  "{[p]:\"w\",[f]:\"y\",[b]:\"_\"}",
   {
     "BROADCAST_MEDIA_TYPE": "broadcast",
     "VIDEO_MEDIA_TYPE": "video"
@@ -4637,7 +4638,7 @@
     "SUCCESS": "rweb/scheduledTweets/DELETE_SCHEDULED_TWEET_SUCCESS",
     "FAILURE": "rweb/scheduledTweets/DELETE_SCHEDULED_TWEET_FAILURE"
   },
-  "{\"ActionsBar\":\"v.Z\",\"ActionMenu\":\"function()\"{\"Icon\":\"e\",\"isDisabled\":\"t\",\"items\":\"n\",\"onOpen\":\"i\"}{\"const o=r.useCallback()\"{\"items\":\"n\",\"onCloseRequested\":\"e\"}{\"Icon\":\"e\",\"isDisabled\":\"t\",\"onClick\":\"i\",\"renderActionMenu\":\"o\"}},\"CallToAction\":\"a.ZP\",\"EditCallout\":\"C.Z\",\"Education\":\"E.Z\",\"HighlightedUserLabel\":\"d.Z\",\"Media\":\"T.Z\",\"Place\":\"o.ZP\",\"PromotedDetails\":\"u.Z\",\"PromotedUserProfileCard\":\"A\",\"ReplyContext\":\"P.ZP\",\"RichContent\":\"D.Z\",\"SocialContext\":\"w.Z\",\"Text\":\"L.Z\",\"Tombstone\":\"g.Z\",\"Timestamp\":\"h.Z\",\"UserAvatar\":\"M.Z\",\"UserFollowIndicator\":\"U.Z\",\"UserName\":\"R.Z\",\"ArticleCard\":\"y.Z\"}",
+  "{\"ActionsBar\":\"y.Z\",\"ActionMenu\":\"function()\"{\"Icon\":\"e\",\"isDisabled\":\"t\",\"items\":\"n\",\"onOpen\":\"i\"}{\"const o=r.useCallback()\"{\"items\":\"n\",\"onCloseRequested\":\"e\"}{\"Icon\":\"e\",\"isDisabled\":\"t\",\"onClick\":\"i\",\"renderActionMenu\":\"o\"}},\"CallToAction\":\"a.ZP\",\"EditCallout\":\"C.Z\",\"Education\":\"E.Z\",\"HighlightedUserLabel\":\"d.Z\",\"Media\":\"T.Z\",\"Place\":\"o.ZP\",\"PromotedDetails\":\"u.Z\",\"PromotedUserProfileCard\":\"A\",\"ReplyContext\":\"P.ZP\",\"RichContent\":\"D.Z\",\"SocialContext\":\"w.Z\",\"Text\":\"L.Z\",\"Tombstone\":\"g.Z\",\"Timestamp\":\"h.Z\",\"UserAvatar\":\"M.Z\",\"UserFollowIndicator\":\"U.Z\",\"UserName\":\"R.Z\",\"ArticleCard\":\"v.Z\"}",
   {
     "normal": "2",
     "small": "1",
@@ -5575,8 +5576,8 @@
     "SET_CONFIG": "rweb/verifiedOrgConfig/SET"
   },
   {
-    "fetchStatus": "$.ZP.NONE",
-    "config": "Ka"
+    "fetchStatus": "G.ZP.NONE",
+    "config": "Za"
   },
   {
     "ConfirmationStep": "ConfirmationStep",
@@ -5587,29 +5588,11 @@
     "FinalConfirmationStep": "FinalConfirmationStep"
   },
   "{[b.hA.switchFromDirect]:\"m().dca6b3ac\",[b.hA.generate]:\"m().dca6b3ac\",[b.hA.updateSeats]:\"m().c97ad52a\"}",
-  "{[A.hA.generate]:\"F().fc1f43d0\",[A.hA.switchFromDirect]:\"F().fc1f43d0\",[A.hA.updateSeats]:\"F().c97ad52a\"}",
+  "{[A.hA.generate]:\"E().fc1f43d0\",[A.hA.switchFromDirect]:\"E().fc1f43d0\",[A.hA.updateSeats]:\"E().c97ad52a\"}",
   {
     "FullAccess": "FullAccess",
     "FullAccessGov": "FullAccessGov",
     "Basic": "Basic"
-  },
-  {
-    "Advertising": "Advertising",
-    "BlueVerified": "BlueVerified",
-    "BlueVerifiedPlus": "BlueVerifiedPlus",
-    "Chirps": "Chirps",
-    "Coins": "Coins",
-    "OneDollar": "OneDollar",
-    "OneDollarSubscription": "OneDollarSubscription",
-    "PremiumBasic": "PremiumBasic",
-    "QuickPromoteBudget": "QuickPromoteBudget",
-    "Seeds": "Seeds",
-    "Spaces": "Spaces",
-    "Subscriptions": "Subscriptions",
-    "SuperFollows": "SuperFollows",
-    "SuperLikes": "SuperLikes",
-    "VerifiedOrganizations": "VerifiedOrganizations",
-    "VerifiedOrganizationsBasic": "VerifiedOrganizationsBasic"
   },
   {
     "alwayOpen": "r().e2a5bd50",
@@ -5815,6 +5798,27 @@
     "LinkFilter": "linkFilter"
   },
   {
+    "Canceled": "Canceled",
+    "Ended": "Ended",
+    "NotStarted": "NotStarted",
+    "PrePublished": "PrePublished",
+    "Running": "Running",
+    "TimedOut": "TimedOut"
+  },
+  {
+    "None": "0",
+    "Off": "1",
+    "Everyone": "2",
+    "VerifiedAccounts": "3",
+    "AccountsBroadcasterFollows": "4",
+    "Subscribers": "5"
+  },
+  {
+    "REQUEST": "rweb/FETCH_BROADCAST/REQUEST",
+    "SUCCESS": "rweb/FETCH_BROADCAST/SUCCESS",
+    "FAILURE": "rweb/FETCH_BROADCAST/FAILURE"
+  },
+  {
     "search": "search"
   },
   {
@@ -6017,11 +6021,11 @@
     "articles": "article_tweets"
   },
   "{\"default\":\"()\"{\"screenName\":\"e\"}{\"screenName\":\"e\"}{\"screenName\":\"e\"}{\"screenName\":\"e\"}{\"screenName\":\"e\"}{\"screenName\":\"e\"}{\"screenName\":\"e\"}{\"screenName\":\"e\"}{\"screenName\":\"e\"}{\"screenName\":\"e\"}}",
-  "{\"default\":()=>s().b7363b66,\"with_replies\":()=>s().b7363b66,\"superfollows\":()=>s().ce659062,\"highlights\":()=>s().f1e98cc2,\"articles\":()=>s().d5c743c6}",
-  "{\"default\":()=>s().d1e5e328,\"with_replies\":()=>s().d1e5e328,\"superfollows\":()=>s().hb26a1fe,\"highlights\":()=>s().b7c3572e,\"articles\":()=>s().i8123550}",
+  "{\"default\":()=>t().b7363b66,\"with_replies\":()=>t().b7363b66,\"superfollows\":()=>t().ce659062,\"highlights\":()=>t().f1e98cc2,\"articles\":()=>t().d5c743c6}",
+  "{\"default\":()=>t().d1e5e328,\"with_replies\":()=>t().d1e5e328,\"superfollows\":()=>t().hb26a1fe,\"highlights\":()=>t().b7c3572e,\"articles\":()=>t().i8123550}",
   "{\"default\":\"()\"{\"screenName\":\"e\"}{\"screenName\":\"e\"}{\"screenName\":\"e\"}{\"screenName\":\"e\"}{\"screenName\":\"e\"}{\"screenName\":\"e\"}}",
-  "{\"default\":()=>s().f34dfc18,\"with_replies\":()=>s().f34dfc18,\"superfollows\":()=>s().h9346040,\"articles\":()=>s().i4c3ddc6}",
-  "{\"default\":()=>s().e0118142,\"articles\":()=>s().ee9e42aa}",
+  "{\"default\":()=>t().f34dfc18,\"with_replies\":()=>t().f34dfc18,\"superfollows\":()=>t().h9346040,\"articles\":()=>t().i4c3ddc6}",
+  "{\"default\":()=>t().e0118142,\"articles\":()=>t().ee9e42aa}",
   {
     "default": "/compose/post",
     "articles": "/compose/articles"
