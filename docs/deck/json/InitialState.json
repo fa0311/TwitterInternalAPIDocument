@@ -1521,7 +1521,7 @@
         "value": "true"
       },
       "responsive_web_grok_delete_conversations_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "responsive_web_grok_drawer_enabled": {
         "value": "false"
@@ -1959,6 +1959,9 @@
       "responsive_web_verified_organizations_paid_to_invoice_enabled": {
         "value": "false"
       },
+      "responsive_web_verified_organizations_preapproved_access_enabled": {
+        "value": "false"
+      },
       "responsive_web_verified_organizations_xbusiness_enabled": {
         "value": "false"
       },
@@ -1976,6 +1979,9 @@
       },
       "responsive_web_vo_basic_application_enabled": {
         "value": "true"
+      },
+      "responsive_web_vo_basic_application_v2": {
+        "value": "false"
       },
       "responsive_web_x_translation_enabled": {
         "value": "false"
@@ -2406,7 +2412,7 @@
         "value": "true"
       },
       "subscriptions_marketing_page_remove_extra_step": {
-        "value": "false"
+        "value": "true"
       },
       "subscriptions_mute_ad_upsell_enabled": {
         "value": "true"
@@ -4320,7 +4326,7 @@
           "value": "true"
         },
         "responsive_web_grok_drawer_enabled": {
-          "value": "true"
+          "value": "false"
         },
         "responsive_web_grok_file_max_size": {
           "value": "1024000"
@@ -4755,6 +4761,9 @@
         "responsive_web_verified_organizations_paid_to_invoice_enabled": {
           "value": "false"
         },
+        "responsive_web_verified_organizations_preapproved_access_enabled": {
+          "value": "false"
+        },
         "responsive_web_verified_organizations_xbusiness_enabled": {
           "value": "false"
         },
@@ -4772,6 +4781,9 @@
         },
         "responsive_web_vo_basic_application_enabled": {
           "value": "true"
+        },
+        "responsive_web_vo_basic_application_v2": {
+          "value": "false"
         },
         "responsive_web_x_translation_enabled": {
           "value": "false"
@@ -5707,10 +5719,10 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "ac56e637a0984b943df35cb545697208"
+      "settingsVersion": "feb16d750b78e1ced7235908da15f6fa"
     },
     "debug": {},
-    "featureSetToken": "f68947df97eb43ebfb39230e8c7885caef8f400a",
+    "featureSetToken": "e3ae3b51c96e6700f859dac04601a326eb8933bd",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -5780,7 +5792,7 @@
     "country": "XX",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "172185579609488887",
+    "guestId": "172194211794049543",
     "hasCommunityMemberships": "false",
     "language": "en",
     "ssoInitTokens": {},

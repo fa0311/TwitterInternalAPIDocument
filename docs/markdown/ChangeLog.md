@@ -3900,3 +3900,14 @@
 - rweb_save_video_progress_enabled<br>
 #### remove<br>
 - None<br>
+## 2024/07/25<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- subscriptions_upsells_get_verified_profile<br>
+#### remove<br>
+- responsive_web_grok_image_generation_enabled<br>
