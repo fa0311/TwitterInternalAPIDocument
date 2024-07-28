@@ -4819,14 +4819,14 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant                  | value                                   |
 |:--------------------------|:----------------------------------------|
-| all                       | {'icon': 'hn', 'label': 'C().i8ea6d4e'} |
-| community                 | {'icon': 'pn', 'label': 'C().a176d0d8'} |
-| by_invitation             | {'icon': 'mn', 'label': 'C().gc7e52ca'} |
-| subscribers               | {'icon': 'hn', 'label': 'C().bf8d98f4'} |
-| community_members         | {'icon': '_n', 'label': 'C().i13be5a0'} |
-| super_followers_exclusive | {'icon': 'hn', 'label': 'C().ebe1d850'} |
-| trusted_friends_tweet     | {'icon': 'gn', 'label': 'p'}            |
-| verified                  | {'icon': 'fn', 'label': 'C().b121464a'} |
+| all                       | {'icon': 'un', 'label': 'C().i8ea6d4e'} |
+| community                 | {'icon': 'mn', 'label': 'C().a176d0d8'} |
+| by_invitation             | {'icon': 'hn', 'label': 'C().gc7e52ca'} |
+| subscribers               | {'icon': 'un', 'label': 'C().bf8d98f4'} |
+| community_members         | {'icon': 'pn', 'label': 'C().i13be5a0'} |
+| super_followers_exclusive | {'icon': 'un', 'label': 'C().ebe1d850'} |
+| trusted_friends_tweet     | {'icon': '_n', 'label': 'p'}            |
+| verified                  | {'icon': 'gn', 'label': 'C().b121464a'} |
 
 | constant   | value   |
 |:-----------|:--------|
