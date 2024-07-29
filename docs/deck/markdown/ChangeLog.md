@@ -2861,3 +2861,16 @@
 - responsive_web_vo_basic_application_v2<br>
 #### remove<br>
 - None<br>
+## 2024/07/29<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- disallowed_reply_controls_callout_enabled<br>
+- subscriptions_upsells_get_verified_profile<br>
+#### remove<br>
+- responsive_web_grok_image_generation_enabled<br>
+- trusted_friends_audience_control_exp_variant<br>
