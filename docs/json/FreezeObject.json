@@ -260,7 +260,8 @@
     "LongerVideoUpload": "LongerVideoUpload",
     "AccountAnalytics": "AccountAnalytics",
     "MultivariateExample": "MultivariateExample",
-    "GetVerifiedButton": "GetVerifiedButton"
+    "GetVerifiedButton": "GetVerifiedButton",
+    "HomeNav": "HomeNav"
   },
   {
     "EmptyState": "EmptyState",
