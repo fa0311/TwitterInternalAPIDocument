@@ -647,6 +647,9 @@
       "dash_region_specific_de_media_transparency_items_enabled": {
         "value": "false"
       },
+      "disallowed_reply_controls_callout_enabled": {
+        "value": "false"
+      },
       "disallowed_reply_controls_enabled": {
         "value": "false"
       },
@@ -1537,9 +1540,6 @@
         ]
       },
       "responsive_web_grok_file_upload_enabled": {
-        "value": "false"
-      },
-      "responsive_web_grok_image_generation_enabled": {
         "value": "false"
       },
       "responsive_web_grok_opt_out_enabled": {
@@ -2441,6 +2441,9 @@
       "subscriptions_stripe_testing": {
         "value": "false"
       },
+      "subscriptions_upsells_get_verified_profile": {
+        "value": "false"
+      },
       "subscriptions_upsells_right_sidebar_variant": {
         "value": ""
       },
@@ -2518,9 +2521,6 @@
       },
       "traffic_rewrite_map": {
         "value": []
-      },
-      "trusted_friends_audience_control_exp_variant": {
-        "value": "control"
       },
       "trusted_friends_consumption_enabled": {
         "value": "true"
@@ -3449,6 +3449,9 @@
         "dash_region_specific_de_media_transparency_items_enabled": {
           "value": "false"
         },
+        "disallowed_reply_controls_callout_enabled": {
+          "value": "false"
+        },
         "disallowed_reply_controls_enabled": {
           "value": "false"
         },
@@ -4339,9 +4342,6 @@
           ]
         },
         "responsive_web_grok_file_upload_enabled": {
-          "value": "false"
-        },
-        "responsive_web_grok_image_generation_enabled": {
           "value": "false"
         },
         "responsive_web_grok_opt_out_enabled": {
@@ -5243,6 +5243,9 @@
         "subscriptions_stripe_testing": {
           "value": "false"
         },
+        "subscriptions_upsells_get_verified_profile": {
+          "value": "false"
+        },
         "subscriptions_upsells_right_sidebar_variant": {
           "value": ""
         },
@@ -5320,9 +5323,6 @@
         },
         "traffic_rewrite_map": {
           "value": []
-        },
-        "trusted_friends_audience_control_exp_variant": {
-          "value": "control"
         },
         "trusted_friends_consumption_enabled": {
           "value": "true"
@@ -5722,7 +5722,7 @@
       "settingsVersion": "feb16d750b78e1ced7235908da15f6fa"
     },
     "debug": {},
-    "featureSetToken": "e3ae3b51c96e6700f859dac04601a326eb8933bd",
+    "featureSetToken": "450f713e9a5ca34a83d8e26e251aecc9cf2db56e",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -5792,7 +5792,7 @@
     "country": "XX",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "172220131629613093",
+    "guestId": "172228779178398824",
     "hasCommunityMemberships": "false",
     "language": "en",
     "ssoInitTokens": {},
