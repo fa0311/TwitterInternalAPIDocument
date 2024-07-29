@@ -259,7 +259,8 @@
     "VerifiedOnlyChat": "VerifiedOnlyChat",
     "LongerVideoUpload": "LongerVideoUpload",
     "AccountAnalytics": "AccountAnalytics",
-    "MultivariateExample": "MultivariateExample"
+    "MultivariateExample": "MultivariateExample",
+    "GetVerifiedButton": "GetVerifiedButton"
   },
   {
     "EmptyState": "EmptyState",
@@ -3059,7 +3060,7 @@
     "manageView": "manageView",
     "settingsView": "settingsView"
   },
-  "{[y.Q.host]:{\"title\":\"oa.hostTitle\",\"maybePluralFormatter\":\"ia\"},[y.Q.cohost]:{\"title\":\"oa.cohostTitle\",\"maybePluralFormatter\":\"sa\"},[y.Q.speaker]:{\"title\":\"oa.speakerTitle\",\"maybePluralFormatter\":\"ca\"},[y.Q.listener]:{\"title\":\"oa.listenerTitle\",\"maybePluralFormatter\":\"la\"}}",
+  "{[y.Q.host]:{\"title\":\"oa.hostTitle\",\"maybePluralFormatter\":\"ia\"},[y.Q.cohost]:{\"title\":\"oa.cohostTitle\",\"maybePluralFormatter\":\"sa\"},[y.Q.speaker]:{\"title\":\"oa.speakerTitle\",\"maybePluralFormatter\":\"la\"},[y.Q.listener]:{\"title\":\"oa.listenerTitle\",\"maybePluralFormatter\":\"ca\"}}",
   {
     "onlyInvited": "onlyInvited",
     "peopleYouFollow": "peopleYouFollow",
@@ -3089,9 +3090,9 @@
     "createClip": "create-clip"
   },
   {
-    "joinSpace": "c().h400d7c2",
-    "replaySpace": "c().g66c8348",
-    "comingUp": "c().be6ef5b4"
+    "joinSpace": "l().h400d7c2",
+    "replaySpace": "l().g66c8348",
+    "comingUp": "l().be6ef5b4"
   },
   {
     "Cohosts": "Cohosts",
@@ -4960,35 +4961,35 @@
   },
   {
     "all": {
-      "icon": "us",
+      "icon": "cs",
       "label": "C().i8ea6d4e"
     },
     "community": {
-      "icon": "ms",
+      "icon": "hs",
       "label": "C().a176d0d8"
     },
     "by_invitation": {
-      "icon": "hs",
+      "icon": "us",
       "label": "C().gc7e52ca"
     },
     "subscribers": {
-      "icon": "us",
+      "icon": "cs",
       "label": "C().bf8d98f4"
     },
     "community_members": {
-      "icon": "ps",
+      "icon": "ms",
       "label": "C().i13be5a0"
     },
     "super_followers_exclusive": {
-      "icon": "us",
+      "icon": "cs",
       "label": "C().ebe1d850"
     },
     "trusted_friends_tweet": {
-      "icon": "_s",
+      "icon": "ps",
       "label": "p"
     },
     "verified": {
-      "icon": "gs",
+      "icon": "_s",
       "label": "C().b121464a"
     }
   },
@@ -5968,6 +5969,14 @@
     "CreditOfferStep": "CreditOfferStep",
     "CreditSuccessStep": "CreditSuccessStep",
     "FinalConfirmationStep": "FinalConfirmationStep"
+  },
+  {
+    "ApplicationInReview": "ApplicationInReview",
+    "ApplicationRequestInfo": "ApplicationRequestInfo",
+    "NotStart": "NotStart",
+    "Onboarded": "Onboarded",
+    "UpfrontApplicationInProgress": "UpfrontApplicationInProgress",
+    "UpfrontPromotionInProgress": "UpfrontPromotionInProgress"
   },
   "{[b.hA.switchFromDirect]:\"m().dca6b3ac\",[b.hA.generate]:\"m().dca6b3ac\",[b.hA.updateSeats]:\"m().c97ad52a\"}",
   "{[A.hA.generate]:\"E().fc1f43d0\",[A.hA.switchFromDirect]:\"E().fc1f43d0\",[A.hA.updateSeats]:\"E().c97ad52a\"}",
