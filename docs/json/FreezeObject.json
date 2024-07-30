@@ -227,6 +227,8 @@
   {
     "All": "All",
     "Premium": "Premium",
+    "PremiumBasic": "PremiumBasic",
+    "PremiumPlus": "PremiumPlus",
     "VerifiedOrgs": "VerifiedOrgs"
   },
   {
