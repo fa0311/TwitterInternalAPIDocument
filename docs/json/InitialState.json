@@ -2524,6 +2524,9 @@
       "trusted_friends_tweet_creation_enabled": {
         "value": "false"
       },
+      "tv_app_qrcode_login_enabled": {
+        "value": "false"
+      },
       "tweet_awards_web_coin_purchase_enabled": {
         "value": "false"
       },
@@ -4452,10 +4455,10 @@
           "value": "false"
         },
         "responsive_web_messages_continue_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "responsive_web_messages_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "responsive_web_messages_search_enabled": {
           "value": "true"
@@ -5329,6 +5332,9 @@
         "trusted_friends_tweet_creation_enabled": {
           "value": "false"
         },
+        "tv_app_qrcode_login_enabled": {
+          "value": "false"
+        },
         "tweet_awards_web_coin_purchase_enabled": {
           "value": "false"
         },
@@ -5715,10 +5721,10 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "39169fa4f5245a3eaa5e23ec04608e8d"
+      "settingsVersion": "b431bf23859dd22cdcec9e3284cd2b5e"
     },
     "debug": {},
-    "featureSetToken": "df5dcb83de3c9faf8587be5d534ad31ffa80f799",
+    "featureSetToken": "cdbbea298dcf0d0c90a3bb4eef32f3a7c721f862",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -5788,7 +5794,7 @@
     "country": "XX",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "172228738038565252",
+    "guestId": "172237377657493861",
     "hasCommunityMemberships": "false",
     "language": "en",
     "ssoInitTokens": {},
