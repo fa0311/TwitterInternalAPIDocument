@@ -261,6 +261,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | AccountAnalytics       | AccountAnalytics       |
 | MultivariateExample    | MultivariateExample    |
 | GetVerifiedButton      | GetVerifiedButton      |
+| HomeNav                | HomeNav                |
 
 | constant          | value             |
 |:------------------|:------------------|
