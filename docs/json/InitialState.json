@@ -1516,9 +1516,6 @@
       "responsive_web_grok_delete_conversations_enabled": {
         "value": "true"
       },
-      "responsive_web_grok_drawer_enabled": {
-        "value": "false"
-      },
       "responsive_web_grok_file_max_size": {
         "value": "1024000"
       },
@@ -1647,10 +1644,10 @@
         "value": "false"
       },
       "responsive_web_messages_continue_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "responsive_web_messages_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "responsive_web_messages_search_enabled": {
         "value": "true"
@@ -2892,7 +2889,7 @@
         "value": "true"
       },
       "web_video_transcribed_captions_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "xprofile_consumption_enabled": {
         "value": "true"
@@ -4324,9 +4321,6 @@
         "responsive_web_grok_delete_conversations_enabled": {
           "value": "true"
         },
-        "responsive_web_grok_drawer_enabled": {
-          "value": "false"
-        },
         "responsive_web_grok_file_max_size": {
           "value": "1024000"
         },
@@ -4779,7 +4773,7 @@
           "value": "true"
         },
         "responsive_web_vo_basic_application_v2": {
-          "value": "false"
+          "value": "true"
         },
         "responsive_web_x_translation_enabled": {
           "value": "false"
@@ -5700,7 +5694,7 @@
           "value": "true"
         },
         "web_video_transcribed_captions_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "xprofile_consumption_enabled": {
           "value": "true"
@@ -5721,10 +5715,10 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "b431bf23859dd22cdcec9e3284cd2b5e"
+      "settingsVersion": "07fc5a935a61e1803a541643d0bae54b"
     },
     "debug": {},
-    "featureSetToken": "cdbbea298dcf0d0c90a3bb4eef32f3a7c721f862",
+    "featureSetToken": "2e28b516dfc67f57ed0c87846d3be43038c005c8",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -5794,7 +5788,7 @@
     "country": "XX",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "172237377657493861",
+    "guestId": "172246017612128509",
     "hasCommunityMemberships": "false",
     "language": "en",
     "ssoInitTokens": {},
