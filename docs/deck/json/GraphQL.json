@@ -7158,11 +7158,9 @@
         }
       }
     },
-    "func_name": "z",
+    "func_name": "V",
     "func_name_init": "G",
-    "query": {
-      "show_in_app_navigation": "t.show_in_app_navigation"
-    }
+    "query": {}
   },
   {
     "n": "69605",

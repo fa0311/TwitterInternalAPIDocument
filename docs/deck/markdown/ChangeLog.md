@@ -2874,3 +2874,15 @@
 #### remove<br>
 - responsive_web_grok_image_generation_enabled<br>
 - trusted_friends_audience_control_exp_variant<br>
+## 2024/07/30<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- subscriptions_upsells_premium_home_nav<br>
+- tv_app_qrcode_login_enabled<br>
+#### remove<br>
+- None<br>

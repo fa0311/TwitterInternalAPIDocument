@@ -226,6 +226,8 @@ This document is entirely auto-generated and may contain errors.<br>
 |:-------------|:-------------|
 | All          | All          |
 | Premium      | Premium      |
+| PremiumBasic | PremiumBasic |
+| PremiumPlus  | PremiumPlus  |
 | VerifiedOrgs | VerifiedOrgs |
 
 | constant               | value                  |

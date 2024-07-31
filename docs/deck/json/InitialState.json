@@ -2444,6 +2444,9 @@
       "subscriptions_upsells_get_verified_profile": {
         "value": "false"
       },
+      "subscriptions_upsells_premium_home_nav": {
+        "value": ""
+      },
       "subscriptions_upsells_right_sidebar_variant": {
         "value": ""
       },
@@ -2529,6 +2532,9 @@
         "value": "false"
       },
       "trusted_friends_tweet_creation_enabled": {
+        "value": "false"
+      },
+      "tv_app_qrcode_login_enabled": {
         "value": "false"
       },
       "tweet_awards_web_coin_purchase_enabled": {
@@ -4459,10 +4465,10 @@
           "value": "false"
         },
         "responsive_web_messages_continue_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "responsive_web_messages_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "responsive_web_messages_search_enabled": {
           "value": "true"
@@ -5246,6 +5252,9 @@
         "subscriptions_upsells_get_verified_profile": {
           "value": "false"
         },
+        "subscriptions_upsells_premium_home_nav": {
+          "value": ""
+        },
         "subscriptions_upsells_right_sidebar_variant": {
           "value": ""
         },
@@ -5331,6 +5340,9 @@
           "value": "false"
         },
         "trusted_friends_tweet_creation_enabled": {
+          "value": "false"
+        },
+        "tv_app_qrcode_login_enabled": {
           "value": "false"
         },
         "tweet_awards_web_coin_purchase_enabled": {
@@ -5719,10 +5731,10 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "feb16d750b78e1ced7235908da15f6fa"
+      "settingsVersion": "e3ff8a62a7d65ffa7df3d0bc9e35357c"
     },
     "debug": {},
-    "featureSetToken": "450f713e9a5ca34a83d8e26e251aecc9cf2db56e",
+    "featureSetToken": "cdbbea298dcf0d0c90a3bb4eef32f3a7c721f862",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -5792,7 +5804,7 @@
     "country": "XX",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "172228779178398824",
+    "guestId": "172237414837740236",
     "hasCommunityMemberships": "false",
     "language": "en",
     "ssoInitTokens": {},

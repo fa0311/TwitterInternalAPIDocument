@@ -2839,10 +2839,7 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key                    | type   | variable                 |
-|:-----------------------|:-------|:-------------------------|
-| show_in_app_navigation | ...    | t.show_in_app_navigation |
-
+`None`<br>
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
