@@ -6440,11 +6440,11 @@ This document is entirely auto-generated and may contain errors.<br>
 ```
 ```internal process
 # Error
-{"default":()=>t().b7363b66,"with_replies":()=>t().b7363b66,"superfollows":()=>t().ce659062,"highlights":()=>t().f1e98cc2,"articles":()=>t().d5c743c6}
+{"default":()=>s().b7363b66,"with_replies":()=>s().b7363b66,"superfollows":()=>s().ce659062,"highlights":()=>s().f1e98cc2,"articles":()=>s().d5c743c6}
 ```
 ```internal process
 # Error
-{"default":()=>t().d1e5e328,"with_replies":()=>t().d1e5e328,"superfollows":()=>t().hb26a1fe,"highlights":()=>t().b7c3572e,"articles":()=>t().i8123550}
+{"default":()=>s().d1e5e328,"with_replies":()=>s().d1e5e328,"superfollows":()=>s().hb26a1fe,"highlights":()=>s().b7c3572e,"articles":()=>s().i8123550}
 ```
 ```internal process
 # Error
@@ -6452,11 +6452,11 @@ This document is entirely auto-generated and may contain errors.<br>
 ```
 ```internal process
 # Error
-{"default":()=>t().f34dfc18,"with_replies":()=>t().f34dfc18,"superfollows":()=>t().h9346040,"articles":()=>t().i4c3ddc6}
+{"default":()=>s().f34dfc18,"with_replies":()=>s().f34dfc18,"superfollows":()=>s().h9346040,"articles":()=>s().i4c3ddc6}
 ```
 ```internal process
 # Error
-{"default":()=>t().e0118142,"articles":()=>t().ee9e42aa}
+{"default":()=>s().e0118142,"articles":()=>s().ee9e42aa}
 ```
 | constant   | value             |
 |:-----------|:------------------|
