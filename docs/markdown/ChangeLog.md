@@ -3966,3 +3966,19 @@
 - rweb_analytics_content_page_new_query_enabled<br>
 #### remove<br>
 - None<br>
+## 2024/08/02<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- subscriptions_is_blue_verified_review_status_profile_enabled<br>
+- subscriptions_upsells_longform_sidebar_variant<br>
+#### remove<br>
+- responsive_web_menu_section_divider_enabled<br>
+- responsive_web_new_copy_security_key_2fa_enabled<br>
+- responsive_web_nft_avatar<br>
+- responsive_web_open_app_appbar_button_enabled<br>
+- tweetypie_unmention_optimization_enabled<br>
