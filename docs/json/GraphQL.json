@@ -14664,10 +14664,12 @@
         }
       }
     },
-    "func_name": "c",
+    "func_name": "o",
     "func_name_init": "a",
     "query": {
-      "articleEntityId": "i"
+      "tweetId": "_",
+      "...()(0,i.d)": "_",
+      "withQuickPromoteEligibilityTweetFields": "!0"
     }
   },
   {
