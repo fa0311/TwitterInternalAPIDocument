@@ -81,21 +81,6 @@
     "VerifyIdentity": "VerifyIdentity"
   },
   {
-    "DepositOnly": "DepositOnly",
-    "Frozen": "Frozen",
-    "Ineligible": "Ineligible",
-    "KycFailed": "KycFailed",
-    "PendingReview": "PendingReview",
-    "PendingTierThree": "PendingTierThree",
-    "PendingTierTwo": "PendingTierTwo",
-    "Registered": "Registered",
-    "TierFour": "TierFour",
-    "TierOne": "TierOne",
-    "TierThree": "TierThree",
-    "TierTwo": "TierTwo",
-    "WithdrawalOnly": "WithdrawalOnly"
-  },
-  {
     "SINGLE_TWEET": "off",
     "FIRST_TWEET": "first",
     "SUBSEQUENT_TWEET": "subsequent"
@@ -2752,6 +2737,7 @@
     "blue700": "blue700",
     "blue900": "blue900",
     "gray100": "gray100",
+    "gray500": "gray500",
     "gray700": "gray700",
     "gray900": "gray900",
     "gray1100": "gray1100",
@@ -5990,15 +5976,15 @@
     "section": "hiring"
   },
   {
-    "...aa": "_",
+    "...na": "_",
     "component": "job-splash-screen"
   },
   {
-    "...aa": "_",
+    "...na": "_",
     "component": "apideck-vault"
   },
   {
-    "...aa": "_",
+    "...na": "_",
     "component": "sync-ats-jobs"
   },
   {
