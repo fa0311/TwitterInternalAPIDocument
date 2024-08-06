@@ -58,22 +58,6 @@ This document is entirely auto-generated and may contain errors.<br>
 | UpdateCustomer      | UpdateCustomer      |
 | VerifyIdentity      | VerifyIdentity      |
 
-| constant         | value            |
-|:-----------------|:-----------------|
-| DepositOnly      | DepositOnly      |
-| Frozen           | Frozen           |
-| Ineligible       | Ineligible       |
-| KycFailed        | KycFailed        |
-| PendingReview    | PendingReview    |
-| PendingTierThree | PendingTierThree |
-| PendingTierTwo   | PendingTierTwo   |
-| Registered       | Registered       |
-| TierFour         | TierFour         |
-| TierOne          | TierOne          |
-| TierThree        | TierThree        |
-| TierTwo          | TierTwo          |
-| WithdrawalOnly   | WithdrawalOnly   |
-
 | constant         | value      |
 |:-----------------|:-----------|
 | SINGLE_TWEET     | off        |
@@ -2890,6 +2874,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | blue700            | blue700            |
 | blue900            | blue900            |
 | gray100            | gray100            |
+| gray500            | gray500            |
 | gray700            | gray700            |
 | gray900            | gray900            |
 | gray1100           | gray1100           |
@@ -6324,17 +6309,17 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant   | value             |
 |:-----------|:------------------|
-| ...aa      | _                 |
+| ...na      | _                 |
 | component  | job-splash-screen |
 
 | constant   | value         |
 |:-----------|:--------------|
-| ...aa      | _             |
+| ...na      | _             |
 | component  | apideck-vault |
 
 | constant   | value         |
 |:-----------|:--------------|
-| ...aa      | _             |
+| ...na      | _             |
 | component  | sync-ats-jobs |
 
 | constant         | value            |
