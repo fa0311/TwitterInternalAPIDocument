@@ -1938,8 +1938,8 @@
       }
     },
     "ListSubscribe": {
-      "url": "https://x.com/i/api/graphql/izlNwNG7CQLoYJfoWEiIJQ/ListSubscribe",
-      "queryId": "izlNwNG7CQLoYJfoWEiIJQ",
+      "url": "https://x.com/i/api/graphql/sN2On80G-QPQCGx4Tc9U9A/ListSubscribe",
+      "queryId": "sN2On80G-QPQCGx4Tc9U9A",
       "method": "POST",
       "features": {
         "rweb_tipjar_consumption_enabled": true,
