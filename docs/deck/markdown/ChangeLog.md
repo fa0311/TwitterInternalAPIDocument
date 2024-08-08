@@ -2946,3 +2946,15 @@
 - responsive_web_verified_organizations_people_search_enabled<br>
 #### remove<br>
 - None<br>
+## 2024/08/08<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- responsive_web_grok_text_selection_supported_locales<br>
+- rweb_spaces_next_codec_enabled<br>
+#### remove<br>
+- responsive_web_new_user_badge_color_enabled<br>
