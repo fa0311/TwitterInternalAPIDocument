@@ -2688,7 +2688,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## ListSubscribe<br>
-Request URL: `https://x.com/i/api/graphql/izlNwNG7CQLoYJfoWEiIJQ/ListSubscribe`<br>
+Request URL: `https://x.com/i/api/graphql/sN2On80G-QPQCGx4Tc9U9A/ListSubscribe`<br>
 Request Method: `POST`<br>
 Login Required: `...`<br>
 ### Param<br>

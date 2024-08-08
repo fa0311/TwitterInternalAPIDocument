@@ -1544,6 +1544,11 @@
       "responsive_web_grok_sticky_mode_enabled": {
         "value": "true"
       },
+      "responsive_web_grok_text_selection_supported_locales": {
+        "value": [
+          "en"
+        ]
+      },
       "responsive_web_grok_trends_design_enabled": {
         "value": "false"
       },
@@ -1932,6 +1937,9 @@
         "value": "false"
       },
       "responsive_web_verified_organizations_paid_to_invoice_enabled": {
+        "value": "false"
+      },
+      "responsive_web_verified_organizations_people_search_enabled": {
         "value": "false"
       },
       "responsive_web_verified_organizations_preapproved_access_enabled": {
@@ -4346,6 +4354,11 @@
         "responsive_web_grok_sticky_mode_enabled": {
           "value": "true"
         },
+        "responsive_web_grok_text_selection_supported_locales": {
+          "value": [
+            "en"
+          ]
+        },
         "responsive_web_grok_trends_design_enabled": {
           "value": "false"
         },
@@ -4734,6 +4747,9 @@
           "value": "false"
         },
         "responsive_web_verified_organizations_paid_to_invoice_enabled": {
+          "value": "false"
+        },
+        "responsive_web_verified_organizations_people_search_enabled": {
           "value": "false"
         },
         "responsive_web_verified_organizations_preapproved_access_enabled": {
@@ -5712,7 +5728,7 @@
       "settingsVersion": "39169fa4f5245a3eaa5e23ec04608e8d"
     },
     "debug": {},
-    "featureSetToken": "0ae0424dfa3fc22a75c78c42e27bdd2bce7e38ff",
+    "featureSetToken": "97e36c6d41e79465d0b84696c28cb87016f925f3",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -5782,7 +5798,7 @@
     "country": "XX",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "172297849932342372",
+    "guestId": "172306501150293191",
     "hasCommunityMemberships": "false",
     "language": "en",
     "ssoInitTokens": {},

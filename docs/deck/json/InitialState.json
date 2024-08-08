@@ -1944,6 +1944,9 @@
       "responsive_web_verified_organizations_paid_to_invoice_enabled": {
         "value": "false"
       },
+      "responsive_web_verified_organizations_people_search_enabled": {
+        "value": "false"
+      },
       "responsive_web_verified_organizations_preapproved_access_enabled": {
         "value": "false"
       },
@@ -4356,6 +4359,11 @@
         "responsive_web_grok_sticky_mode_enabled": {
           "value": "true"
         },
+        "responsive_web_grok_text_selection_supported_locales": {
+          "value": [
+            "en"
+          ]
+        },
         "responsive_web_grok_trends_design_enabled": {
           "value": "false"
         },
@@ -4744,6 +4752,9 @@
           "value": "false"
         },
         "responsive_web_verified_organizations_paid_to_invoice_enabled": {
+          "value": "false"
+        },
+        "responsive_web_verified_organizations_people_search_enabled": {
           "value": "false"
         },
         "responsive_web_verified_organizations_preapproved_access_enabled": {
@@ -5719,10 +5730,10 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "feb16d750b78e1ced7235908da15f6fa"
+      "settingsVersion": "81ad098555ade9645ed79a5ff21a82fc"
     },
     "debug": {},
-    "featureSetToken": "0ae0424dfa3fc22a75c78c42e27bdd2bce7e38ff",
+    "featureSetToken": "b0cc9258e775c1fada804f125784e747bd0fdb2a",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -5792,7 +5803,7 @@
     "country": "XX",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "172297891470628012",
+    "guestId": "172306538360211495",
     "hasCommunityMemberships": "false",
     "language": "en",
     "ssoInitTokens": {},
