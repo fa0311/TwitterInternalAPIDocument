@@ -5600,6 +5600,14 @@
     "component": "sync-ats-jobs"
   },
   {
+    "ApplicationInReview": "ApplicationInReview",
+    "ApplicationRequestInfo": "ApplicationRequestInfo",
+    "NotStart": "NotStart",
+    "Onboarded": "Onboarded",
+    "UpfrontApplicationInProgress": "UpfrontApplicationInProgress",
+    "UpfrontPromotionInProgress": "UpfrontPromotionInProgress"
+  },
+  {
     "generate": "generate",
     "updateSeats": "updateSeats",
     "switchFromDirect": "switchFromDirect"
@@ -5623,14 +5631,6 @@
     "CreditOfferStep": "CreditOfferStep",
     "CreditSuccessStep": "CreditSuccessStep",
     "FinalConfirmationStep": "FinalConfirmationStep"
-  },
-  {
-    "ApplicationInReview": "ApplicationInReview",
-    "ApplicationRequestInfo": "ApplicationRequestInfo",
-    "NotStart": "NotStart",
-    "Onboarded": "Onboarded",
-    "UpfrontApplicationInProgress": "UpfrontApplicationInProgress",
-    "UpfrontPromotionInProgress": "UpfrontPromotionInProgress"
   },
   "{[b.hA.switchFromDirect]:\"m().dca6b3ac\",[b.hA.generate]:\"m().dca6b3ac\",[b.hA.updateSeats]:\"m().c97ad52a\"}",
   "{[A.hA.generate]:\"E().fc1f43d0\",[A.hA.switchFromDirect]:\"E().fc1f43d0\",[A.hA.updateSeats]:\"E().c97ad52a\"}",

@@ -5949,6 +5949,15 @@ This document is entirely auto-generated and may contain errors.<br>
 | ...na      | _             |
 | component  | sync-ats-jobs |
 
+| constant                     | value                        |
+|:-----------------------------|:-----------------------------|
+| ApplicationInReview          | ApplicationInReview          |
+| ApplicationRequestInfo       | ApplicationRequestInfo       |
+| NotStart                     | NotStart                     |
+| Onboarded                    | Onboarded                    |
+| UpfrontApplicationInProgress | UpfrontApplicationInProgress |
+| UpfrontPromotionInProgress   | UpfrontPromotionInProgress   |
+
 | constant         | value            |
 |:-----------------|:-----------------|
 | generate         | generate         |
@@ -5978,15 +5987,6 @@ This document is entirely auto-generated and may contain errors.<br>
 | CreditOfferStep       | CreditOfferStep       |
 | CreditSuccessStep     | CreditSuccessStep     |
 | FinalConfirmationStep | FinalConfirmationStep |
-
-| constant                     | value                        |
-|:-----------------------------|:-----------------------------|
-| ApplicationInReview          | ApplicationInReview          |
-| ApplicationRequestInfo       | ApplicationRequestInfo       |
-| NotStart                     | NotStart                     |
-| Onboarded                    | Onboarded                    |
-| UpfrontApplicationInProgress | UpfrontApplicationInProgress |
-| UpfrontPromotionInProgress   | UpfrontPromotionInProgress   |
 
 ```internal process
 # Error
