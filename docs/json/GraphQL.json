@@ -12059,7 +12059,7 @@
   {
     "n": "89339",
     "exports": {
-      "queryId": "rkRtWImgl48lzYzk5giREg",
+      "queryId": "zLoj2jdCrbGMoT5lg1wdAg",
       "operationName": "GrokHome",
       "operationType": "query",
       "metadata": {
@@ -12072,7 +12072,7 @@
   {
     "n": "21211",
     "exports": {
-      "queryId": "fy2jdOL99mVEc_MyN5unqA",
+      "queryId": "bI-azDDVI8PnPEAApmJYVA",
       "operationName": "GrokShare",
       "operationType": "query",
       "metadata": {
@@ -12185,7 +12185,7 @@
   {
     "n": "02889",
     "exports": {
-      "queryId": "FdptFc7p_xMhafpNkbCW8A",
+      "queryId": "NqLS09LPofalCjVhFolKtA",
       "operationName": "SetGrokPreferences",
       "operationType": "mutation",
       "metadata": {
@@ -14667,9 +14667,8 @@
     "func_name": "o",
     "func_name_init": "a",
     "query": {
-      "tweetId": "_",
-      "...()(0,i.d)": "_",
-      "withQuickPromoteEligibilityTweetFields": "!0"
+      "pinned_tweet_id": "(optional) t.pinned_tweet_id",
+      "...()(0,_.d)": "_"
     }
   },
   {

@@ -3384,14 +3384,14 @@
       "features": {}
     },
     "GrokHome": {
-      "url": "https://x.com/i/api/graphql/rkRtWImgl48lzYzk5giREg/GrokHome",
-      "queryId": "rkRtWImgl48lzYzk5giREg",
+      "url": "https://x.com/i/api/graphql/zLoj2jdCrbGMoT5lg1wdAg/GrokHome",
+      "queryId": "zLoj2jdCrbGMoT5lg1wdAg",
       "method": "GET",
       "features": {}
     },
     "GrokShare": {
-      "url": "https://x.com/i/api/graphql/fy2jdOL99mVEc_MyN5unqA/GrokShare",
-      "queryId": "fy2jdOL99mVEc_MyN5unqA",
+      "url": "https://x.com/i/api/graphql/bI-azDDVI8PnPEAApmJYVA/GrokShare",
+      "queryId": "bI-azDDVI8PnPEAApmJYVA",
       "method": "GET",
       "features": {
         "rweb_tipjar_consumption_enabled": true,
@@ -3420,8 +3420,8 @@
       }
     },
     "SetGrokPreferences": {
-      "url": "https://x.com/i/api/graphql/FdptFc7p_xMhafpNkbCW8A/SetGrokPreferences",
-      "queryId": "FdptFc7p_xMhafpNkbCW8A",
+      "url": "https://x.com/i/api/graphql/NqLS09LPofalCjVhFolKtA/SetGrokPreferences",
+      "queryId": "NqLS09LPofalCjVhFolKtA",
       "method": "POST",
       "features": {}
     },
