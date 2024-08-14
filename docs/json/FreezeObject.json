@@ -2044,7 +2044,7 @@
     "manageView": "manageView",
     "settingsView": "settingsView"
   },
-  "{[y.Q.host]:{\"title\":\"oa.hostTitle\",\"maybePluralFormatter\":\"ia\"},[y.Q.cohost]:{\"title\":\"oa.cohostTitle\",\"maybePluralFormatter\":\"sa\"},[y.Q.speaker]:{\"title\":\"oa.speakerTitle\",\"maybePluralFormatter\":\"la\"},[y.Q.listener]:{\"title\":\"oa.listenerTitle\",\"maybePluralFormatter\":\"ca\"}}",
+  "{[y.Q.host]:{\"title\":\"oa.hostTitle\",\"maybePluralFormatter\":\"ia\"},[y.Q.cohost]:{\"title\":\"oa.cohostTitle\",\"maybePluralFormatter\":\"sa\"},[y.Q.speaker]:{\"title\":\"oa.speakerTitle\",\"maybePluralFormatter\":\"ca\"},[y.Q.listener]:{\"title\":\"oa.listenerTitle\",\"maybePluralFormatter\":\"la\"}}",
   {
     "onlyInvited": "onlyInvited",
     "peopleYouFollow": "peopleYouFollow",
@@ -2074,9 +2074,9 @@
     "createClip": "create-clip"
   },
   {
-    "joinSpace": "l().h400d7c2",
-    "replaySpace": "l().g66c8348",
-    "comingUp": "l().be6ef5b4"
+    "joinSpace": "c().h400d7c2",
+    "replaySpace": "c().g66c8348",
+    "comingUp": "c().be6ef5b4"
   },
   {
     "Cohosts": "Cohosts",
@@ -5596,15 +5596,15 @@
     "section": "hiring"
   },
   {
-    "...ta": "_",
+    "...oa": "_",
     "component": "job-splash-screen"
   },
   {
-    "...ta": "_",
+    "...oa": "_",
     "component": "apideck-vault"
   },
   {
-    "...ta": "_",
+    "...oa": "_",
     "component": "sync-ats-jobs"
   },
   {
