@@ -2969,3 +2969,19 @@
 - None<br>
 #### remove<br>
 - rweb_spaces_next_codec_enabled<br>
+## 2024/08/14<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- responsive_web_grok_model_selector_enabled<br>
+- responsive_web_grok_v2_start_screen_enabled<br>
+- responsive_web_grok_v2_upsell_enabled<br>
+- responsive_web_verified_organizations_insights_enabled<br>
+- rweb_conf_enabled<br>
+- rweb_spaces_next_codec_enabled<br>
+#### remove<br>
+- responsive_web_grok_sticky_mode_enabled<br>
