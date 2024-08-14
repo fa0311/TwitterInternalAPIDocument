@@ -4878,7 +4878,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## GrokHome<br>
-Request URL: `https://x.com/i/api/graphql/rkRtWImgl48lzYzk5giREg/GrokHome`<br>
+Request URL: `https://x.com/i/api/graphql/zLoj2jdCrbGMoT5lg1wdAg/GrokHome`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -4889,7 +4889,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## GrokShare<br>
-Request URL: `https://x.com/i/api/graphql/fy2jdOL99mVEc_MyN5unqA/GrokShare`<br>
+Request URL: `https://x.com/i/api/graphql/bI-azDDVI8PnPEAApmJYVA/GrokShare`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -4925,7 +4925,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## SetGrokPreferences<br>
-Request URL: `https://x.com/i/api/graphql/FdptFc7p_xMhafpNkbCW8A/SetGrokPreferences`<br>
+Request URL: `https://x.com/i/api/graphql/NqLS09LPofalCjVhFolKtA/SetGrokPreferences`<br>
 Request Method: `POST`<br>
 Login Required: `...`<br>
 ### Param<br>
