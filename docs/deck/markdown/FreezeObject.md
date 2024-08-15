@@ -242,11 +242,12 @@ This document is entirely auto-generated and may contain errors.<br>
 | VerifiedOrgDash   |      11 |
 | Verified          |      12 |
 | Spaces            |      13 |
-| Bookmarks         |      14 |
-| Articles          |      15 |
-| VerifiedOrgSignup |      16 |
-| Lists             |      17 |
-| Settings          |      18 |
+| VerifiedOrgSignup |      14 |
+| Bookmarks         |      15 |
+| Articles          |      16 |
+| Jobs              |      17 |
+| Lists             |      18 |
+| Settings          |      19 |
 
 | constant     | value        |
 |:-------------|:-------------|
@@ -5320,8 +5321,8 @@ This document is entirely auto-generated and may contain errors.<br>
 | constant   | value   |
 |:-----------|:--------|
 | relevance  | m       |
-| recency    | v       |
-| likes      | g       |
+| recency    | u       |
+| likes      | b       |
 
 | constant     | value        |
 |:-------------|:-------------|
