@@ -1523,7 +1523,6 @@ This document is entirely auto-generated and may contain errors.<br>
 | c9sThemesEnabled                          | False   |
 | c9sHashtagsEnabled                        | False   |
 | cardCarouselClickableNavArea              | control |
-| headsUpVariant                            | control |
 | collectionAdsEnabled                      | False   |
 | shouldConvertCollectionToImageWebsiteCard | False   |
 | dpaMetadataEnabled                        | False   |
@@ -4919,7 +4918,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{"ActionsBar":"y.Z","ActionMenu":"function()"{"Icon":"e","isDisabled":"t","items":"n","onOpen":"i"}{"const o=r.useCallback()"{"items":"n","onCloseRequested":"e"}{"Icon":"e","isDisabled":"t","onClick":"i","renderActionMenu":"o"}},"CallToAction":"a.ZP","EditCallout":"C.Z","Education":"E.Z","Highlighte...
+{"ActionsBar":"v.Z","ActionMenu":"function()"{"Icon":"e","isDisabled":"t","items":"n","onOpen":"i"}{"const o=r.useCallback()"{"items":"n","onCloseRequested":"e"}{"Icon":"e","isDisabled":"t","onClick":"i","renderActionMenu":"o"}},"CallToAction":"a.ZP","EditCallout":"C.Z","Education":"E.Z","Highlighte...
 ```
 | constant   |   value |
 |:-----------|--------:|
