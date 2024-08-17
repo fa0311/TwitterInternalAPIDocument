@@ -583,15 +583,6 @@
       "communities_web_enable_tweet_community_results_fetch": {
         "value": "true"
       },
-      "conversation_controls_my_subscribers_enabled": {
-        "value": "true"
-      },
-      "conversation_controls_verified_only_enabled": {
-        "value": "true"
-      },
-      "conversational_safety_heads_up_treatment_A_enabled": {
-        "value": ""
-      },
       "creator_monetization_profile_subscription_tweets_tab_enabled": {
         "value": "true"
       },
@@ -1529,8 +1520,11 @@
       "responsive_web_grok_file_upload_enabled": {
         "value": "false"
       },
+      "responsive_web_grok_in_app_learn_more": {
+        "value": "https://x.com/xai/status/1823597788573098215"
+      },
       "responsive_web_grok_model_selector_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "responsive_web_grok_opt_out_enabled": {
         "value": "true"
@@ -1553,10 +1547,10 @@
         "value": "false"
       },
       "responsive_web_grok_v2_start_screen_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "responsive_web_grok_v2_upsell_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "responsive_web_grok_webview_file_upload_enabled": {
         "value": "false"
@@ -1832,6 +1826,9 @@
         "value": "true"
       },
       "responsive_web_tv_cast_enabled": {
+        "value": "true"
+      },
+      "responsive_web_tv_screen_logging_enabled": {
         "value": "false"
       },
       "responsive_web_tweet_analytics_m2_enabled": {
@@ -1994,6 +1991,9 @@
         "value": "true"
       },
       "rweb_analytics_country_device_breakdown_enabled": {
+        "value": "true"
+      },
+      "rweb_analytics_device_breakdown_enabled": {
         "value": "false"
       },
       "rweb_analytics_export_data_enabled": {
@@ -2003,13 +2003,13 @@
         "value": "false"
       },
       "rweb_analytics_post_audience_page_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "rweb_analytics_theme": {
         "value": "false"
       },
       "rweb_analytics_user_audience_page_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "rweb_client_transaction_id_enabled": {
         "value": "false"
@@ -2018,6 +2018,9 @@
         "value": "false"
       },
       "rweb_creator_analytics_enabled": {
+        "value": "true"
+      },
+      "rweb_dummy_audio_enabled": {
         "value": "true"
       },
       "rweb_enable_logged_out_search_search_bar_enabled": {
@@ -2081,6 +2084,9 @@
         "value": "true"
       },
       "rweb_spaces_next_codec_enabled": {
+        "value": "true"
+      },
+      "rweb_spatial_audio_enabled": {
         "value": "true"
       },
       "rweb_tipjar_consumption_enabled": {
@@ -2542,7 +2548,7 @@
         "value": "false"
       },
       "tv_app_qrcode_login_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "tweet_awards_web_coin_purchase_enabled": {
         "value": "false"
@@ -3404,15 +3410,6 @@
         },
         "communities_web_enable_tweet_community_results_fetch": {
           "value": "true"
-        },
-        "conversation_controls_my_subscribers_enabled": {
-          "value": "true"
-        },
-        "conversation_controls_verified_only_enabled": {
-          "value": "true"
-        },
-        "conversational_safety_heads_up_treatment_A_enabled": {
-          "value": ""
         },
         "creator_monetization_profile_subscription_tweets_tab_enabled": {
           "value": "true"
@@ -4351,8 +4348,11 @@
         "responsive_web_grok_file_upload_enabled": {
           "value": "false"
         },
+        "responsive_web_grok_in_app_learn_more": {
+          "value": "https://x.com/xai/status/1823597788573098215"
+        },
         "responsive_web_grok_model_selector_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "responsive_web_grok_opt_out_enabled": {
           "value": "true"
@@ -4375,10 +4375,10 @@
           "value": "false"
         },
         "responsive_web_grok_v2_start_screen_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "responsive_web_grok_v2_upsell_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "responsive_web_grok_webview_file_upload_enabled": {
           "value": "false"
@@ -4656,6 +4656,9 @@
         "responsive_web_tv_cast_enabled": {
           "value": "true"
         },
+        "responsive_web_tv_screen_logging_enabled": {
+          "value": "false"
+        },
         "responsive_web_tweet_analytics_m2_enabled": {
           "value": "false"
         },
@@ -4818,8 +4821,11 @@
         "rweb_analytics_country_device_breakdown_enabled": {
           "value": "true"
         },
-        "rweb_analytics_export_data_enabled": {
+        "rweb_analytics_device_breakdown_enabled": {
           "value": "false"
+        },
+        "rweb_analytics_export_data_enabled": {
+          "value": "true"
         },
         "rweb_analytics_in_out_network_enabled": {
           "value": "false"
@@ -4840,6 +4846,9 @@
           "value": "false"
         },
         "rweb_creator_analytics_enabled": {
+          "value": "true"
+        },
+        "rweb_dummy_audio_enabled": {
           "value": "true"
         },
         "rweb_enable_logged_out_search_search_bar_enabled": {
@@ -4903,6 +4912,9 @@
           "value": "true"
         },
         "rweb_spaces_next_codec_enabled": {
+          "value": "true"
+        },
+        "rweb_spatial_audio_enabled": {
           "value": "true"
         },
         "rweb_tipjar_consumption_enabled": {
@@ -5749,10 +5761,10 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "93d2e5437c5bcbdc9277e3c279bc11df"
+      "settingsVersion": "6801fa09adff821a3fe42fdac4a6e6c4"
     },
     "debug": {},
-    "featureSetToken": "1390f3f3747908e5f73b1f8a6747605771eed441",
+    "featureSetToken": "a568d28ec66f0d2e1ca4383d5c4efd419f0ccbd0",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -5822,7 +5834,7 @@
     "country": "XX",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "172358333484948448",
+    "guestId": "172384253334401192",
     "hasCommunityMemberships": "false",
     "language": "en",
     "ssoInitTokens": {},
