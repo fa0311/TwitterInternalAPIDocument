@@ -231,14 +231,14 @@ This document is entirely auto-generated and may contain errors.<br>
 | More              |       0 |
 | Home              |       1 |
 | Explore           |       2 |
-| Communities       |       3 |
-| Grok              |       4 |
-| Messages          |       5 |
-| Notifications     |       6 |
-| Profile           |       7 |
-| Premium           |       8 |
-| Payments          |       9 |
-| CommunityNotes    |      10 |
+| Grok              |       3 |
+| Messages          |       4 |
+| Notifications     |       5 |
+| Profile           |       6 |
+| Premium           |       7 |
+| Payments          |       8 |
+| CommunityNotes    |       9 |
+| Communities       |      10 |
 | VerifiedOrgDash   |      11 |
 | Verified          |      12 |
 | Spaces            |      13 |
@@ -2055,10 +2055,6 @@ This document is entirely auto-generated and may contain errors.<br>
 | manageView   | manageView   |
 | settingsView | settingsView |
 
-```internal process
-# Error
-{[y.Q.host]:{"title":"ia.hostTitle","maybePluralFormatter":"sa"},[y.Q.cohost]:{"title":"ia.cohostTitle","maybePluralFormatter":"ca"},[y.Q.speaker]:{"title":"ia.speakerTitle","maybePluralFormatter":"la"},[y.Q.listener]:{"title":"ia.listenerTitle","maybePluralFormatter":"ua"}}
-```
 | constant        | value           |
 |:----------------|:----------------|
 | onlyInvited     | onlyInvited     |
@@ -2067,7 +2063,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{[tr.onlyInvited]:"0",[tr.peopleYouFollow]:"1",[tr.everyone]:"2"}
+{[ka.onlyInvited]:"0",[ka.peopleYouFollow]:"1",[ka.everyone]:"2"}
 ```
 | constant   | value             |
 |:-----------|:------------------|
@@ -2095,6 +2091,10 @@ This document is entirely auto-generated and may contain errors.<br>
 | report             | report              |
 | createClip         | create-clip         |
 
+```internal process
+# Error
+{[R.Q.host]:{"title":"q.hostTitle","maybePluralFormatter":"W"},[R.Q.cohost]:{"title":"q.cohostTitle","maybePluralFormatter":"$"},[R.Q.speaker]:{"title":"q.speakerTitle","maybePluralFormatter":"G"},[R.Q.listener]:{"title":"q.listenerTitle","maybePluralFormatter":"K"}}
+```
 | constant    | value        |
 |:------------|:-------------|
 | joinSpace   | c().h400d7c2 |
@@ -4920,6 +4920,12 @@ This document is entirely auto-generated and may contain errors.<br>
 # Error
 {"ActionsBar":"v.Z","ActionMenu":"function()"{"Icon":"e","isDisabled":"t","items":"n","onOpen":"i"}{"const o=r.useCallback()"{"items":"n","onCloseRequested":"e"}{"Icon":"e","isDisabled":"t","onClick":"i","renderActionMenu":"o"}},"CallToAction":"a.ZP","EditCallout":"C.Z","Education":"E.Z","Highlighte...
 ```
+| constant     | value        |
+|:-------------|:-------------|
+| Speakers     | Speakers     |
+| Chat         | Chat         |
+| Participants | Participants |
+
 | constant   |   value |
 |:-----------|--------:|
 | normal     |       2 |
