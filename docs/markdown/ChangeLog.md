@@ -4068,3 +4068,14 @@
 #### remove<br>
 - conversation_controls_verified_only_enabled<br>
 - conversational_safety_heads_up_treatment_A_enabled<br>
+## 2024/08/17<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- payments_pin_enabled<br>
+#### remove<br>
+- None<br>
