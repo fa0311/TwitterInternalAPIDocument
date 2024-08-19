@@ -3422,10 +3422,16 @@
         }
       }
     },
-    "func_name": "p",
+    "func_name": "m",
     "func_name_init": "b",
     "query": {
-      "articleEntityId": "i"
+      "articleEntityId": "i",
+      "visibilitySetting": "s",
+      "...o&&": {
+        "conversationControl": {
+          "mode": "o"
+        }
+      }
     }
   },
   {
@@ -10222,16 +10228,10 @@
         }
       }
     },
-    "func_name": "m",
-    "func_name_init": "p",
+    "func_name": "p",
+    "func_name_init": "m",
     "query": {
-      "articleEntityId": "i",
-      "visibilitySetting": "s",
-      "...o&&": {
-        "conversationControl": {
-          "mode": "o"
-        }
-      }
+      "articleEntityId": "i"
     }
   },
   {
