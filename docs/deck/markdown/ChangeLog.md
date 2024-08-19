@@ -2997,3 +2997,19 @@
 - rweb_analytics_device_breakdown_enabled<br>
 #### remove<br>
 - None<br>
+## 2024/08/19<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- payments_pin_enabled<br>
+- responsive_web_grok_in_app_learn_more<br>
+- rweb_dummy_audio_enabled<br>
+- rweb_spatial_audio_enabled<br>
+#### remove<br>
+- conversation_controls_my_subscribers_enabled<br>
+- conversation_controls_verified_only_enabled<br>
+- conversational_safety_heads_up_treatment_A_enabled<br>
