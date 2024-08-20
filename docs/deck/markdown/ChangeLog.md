@@ -3013,3 +3013,14 @@
 - conversation_controls_my_subscribers_enabled<br>
 - conversation_controls_verified_only_enabled<br>
 - conversational_safety_heads_up_treatment_A_enabled<br>
+## 2024/08/20<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- responsive_web_grok_animated_text_enabled<br>
+#### remove<br>
+- None<br>
