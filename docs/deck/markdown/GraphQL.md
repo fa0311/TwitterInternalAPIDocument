@@ -1318,9 +1318,11 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key             | type   | variable   |
-|:----------------|:-------|:-----------|
-| articleEntityId | ...    | i          |
+| key               | type   | variable                               |
+|:------------------|:-------|:---------------------------------------|
+| articleEntityId   | ...    | i                                      |
+| visibilitySetting | ...    | s                                      |
+| ...o&&            | ...    | {'conversationControl': {'mode': 'o'}} |
 
 #### features<br>
 | key                                                | type    | variable   |
@@ -4007,11 +4009,9 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key               | type   | variable                               |
-|:------------------|:-------|:---------------------------------------|
-| articleEntityId   | ...    | i                                      |
-| visibilitySetting | ...    | s                                      |
-| ...o&&            | ...    | {'conversationControl': {'mode': 'o'}} |
+| key             | type   | variable   |
+|:----------------|:-------|:-----------|
+| articleEntityId | ...    | i          |
 
 #### features<br>
 | key                                                                     | type    | variable   |
