@@ -1622,6 +1622,12 @@
       "color": "whiteOnColor",
       "fontSize": "subtext3"
     },
+    "subscriptionPromo": {
+      "backgroundColor": "green50",
+      "bold": "!0",
+      "color": "green900",
+      "borderColor": "green900"
+    },
     "bestValue": {
       "backgroundColor": "green50",
       "color": "green900",
@@ -2074,9 +2080,9 @@
   },
   "{[L.Q.host]:{\"title\":\"W.hostTitle\",\"maybePluralFormatter\":\"$\"},[L.Q.cohost]:{\"title\":\"W.cohostTitle\",\"maybePluralFormatter\":\"G\"},[L.Q.speaker]:{\"title\":\"W.speakerTitle\",\"maybePluralFormatter\":\"K\"},[L.Q.listener]:{\"title\":\"W.listenerTitle\",\"maybePluralFormatter\":\"J\"}}",
   {
-    "joinSpace": "l().h400d7c2",
-    "replaySpace": "l().g66c8348",
-    "comingUp": "l().be6ef5b4"
+    "joinSpace": "c().h400d7c2",
+    "replaySpace": "c().g66c8348",
+    "comingUp": "c().be6ef5b4"
   },
   {
     "Cohosts": "Cohosts",
@@ -5335,28 +5341,6 @@
     "COMPOSE_MESSAGE": "0",
     "CREATE_GROUP": "1",
     "SHARE_TWEET_INDIVIDUALLY": "2"
-  },
-  {
-    "CLOSED": "closed",
-    "COLLAPSED": "collapsed",
-    "EXPANDED": "expanded"
-  },
-  {
-    "primary": {
-      "aria-live": "polite"
-    },
-    "exclusive": {
-      "aria-live": "polite"
-    },
-    "danger": {
-      "aria-live": "assertive"
-    },
-    "success": {
-      "aria-live": "polite"
-    },
-    "warning": {
-      "aria-live": "polite"
-    }
   },
   {
     "ENROLLED": "0",
