@@ -1505,7 +1505,7 @@
         "value": "true"
       },
       "responsive_web_grok_animated_text_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "responsive_web_grok_chat_history_enabled": {
         "value": "true"
@@ -1525,6 +1525,9 @@
       },
       "responsive_web_grok_file_upload_enabled": {
         "value": "false"
+      },
+      "responsive_web_grok_image_prompts_enabled": {
+        "value": "true"
       },
       "responsive_web_grok_in_app_learn_more": {
         "value": "https://x.com/xai/status/1823597788573098215"
@@ -2421,13 +2424,16 @@
       "subscriptions_long_video_upload": {
         "value": "true"
       },
+      "subscriptions_marketing_page_discounts_enabled": {
+        "value": "false"
+      },
+      "subscriptions_marketing_page_fetch_promotions": {
+        "value": "true"
+      },
       "subscriptions_marketing_page_free_trial_enabled": {
         "value": "true"
       },
       "subscriptions_marketing_page_include_tax_enabled": {
-        "value": "true"
-      },
-      "subscriptions_marketing_page_remove_extra_step": {
         "value": "true"
       },
       "subscriptions_mute_ad_upsell_enabled": {
@@ -4339,7 +4345,7 @@
           "value": "true"
         },
         "responsive_web_grok_animated_text_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "responsive_web_grok_chat_history_enabled": {
           "value": "true"
@@ -4359,6 +4365,9 @@
         },
         "responsive_web_grok_file_upload_enabled": {
           "value": "false"
+        },
+        "responsive_web_grok_image_prompts_enabled": {
+          "value": "true"
         },
         "responsive_web_grok_in_app_learn_more": {
           "value": "https://x.com/xai/status/1823597788573098215"
@@ -5255,13 +5264,16 @@
         "subscriptions_long_video_upload": {
           "value": "true"
         },
+        "subscriptions_marketing_page_discounts_enabled": {
+          "value": "false"
+        },
+        "subscriptions_marketing_page_fetch_promotions": {
+          "value": "true"
+        },
         "subscriptions_marketing_page_free_trial_enabled": {
           "value": "true"
         },
         "subscriptions_marketing_page_include_tax_enabled": {
-          "value": "true"
-        },
-        "subscriptions_marketing_page_remove_extra_step": {
           "value": "true"
         },
         "subscriptions_mute_ad_upsell_enabled": {
@@ -5776,7 +5788,7 @@
       "settingsVersion": "39169fa4f5245a3eaa5e23ec04608e8d"
     },
     "debug": {},
-    "featureSetToken": "3104913d3602586b25c984cb421ec16252f80706",
+    "featureSetToken": "93be343e922c9309bbd4c2060c5a4fe16efd1e14",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -5846,7 +5858,7 @@
     "country": "XX",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "172418813861148817",
+    "guestId": "172427453904003110",
     "hasCommunityMemberships": "false",
     "language": "en",
     "ssoInitTokens": {},
