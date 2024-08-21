@@ -1620,6 +1620,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | warning            | {'backgroundColor': 'red50', 'color': 'red900', 'bold': '!0', 'radius': '9999', 'fontSize': 'subtext3'}                                      |
 | subscriptionSaving | {'backgroundColor': 'green50', 'color': 'green900', 'bold': '!0', 'radius': '9999', 'fontSize': 'subtext3'}                                  |
 | subscriptionActive | {'backgroundColor': 'primary', 'radius': '9999', 'bold': '!0', 'color': 'whiteOnColor', 'fontSize': 'subtext3'}                              |
+| subscriptionPromo  | {'backgroundColor': 'green50', 'bold': '!0', 'color': 'green900', 'borderColor': 'green900'}                                                 |
 | bestValue          | {'backgroundColor': 'green50', 'color': 'green900', 'bold': '!0', 'fontSize': 'subtext3'}                                                    |
 | mostPopular        | {'backgroundColor': 'purple50', 'color': 'purple900', 'bold': '!0', 'fontSize': 'subtext3'}                                                  |
 | priority           | {'backgroundColor': 'blue50', 'color': 'blue900', 'bold': '!0', 'fontSize': 'subtext3'}                                                      |
@@ -2097,9 +2098,9 @@ This document is entirely auto-generated and may contain errors.<br>
 ```
 | constant    | value        |
 |:------------|:-------------|
-| joinSpace   | l().h400d7c2 |
-| replaySpace | l().g66c8348 |
-| comingUp    | l().be6ef5b4 |
+| joinSpace   | c().h400d7c2 |
+| replaySpace | c().g66c8348 |
+| comingUp    | c().be6ef5b4 |
 
 | constant         | value            |
 |:-----------------|:-----------------|
@@ -5690,20 +5691,6 @@ This document is entirely auto-generated and may contain errors.<br>
 | COMPOSE_MESSAGE          |       0 |
 | CREATE_GROUP             |       1 |
 | SHARE_TWEET_INDIVIDUALLY |       2 |
-
-| constant   | value     |
-|:-----------|:----------|
-| CLOSED     | closed    |
-| COLLAPSED  | collapsed |
-| EXPANDED   | expanded  |
-
-| constant   | value                      |
-|:-----------|:---------------------------|
-| primary    | {'aria-live': 'polite'}    |
-| exclusive  | {'aria-live': 'polite'}    |
-| danger     | {'aria-live': 'assertive'} |
-| success    | {'aria-live': 'polite'}    |
-| warning    | {'aria-live': 'polite'}    |
 
 | constant     |   value |
 |:-------------|--------:|
