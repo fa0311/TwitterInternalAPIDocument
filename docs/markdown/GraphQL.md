@@ -5706,10 +5706,9 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key             | type   | variable                     |
-|:----------------|:-------|:-----------------------------|
-| pinned_tweet_id | ...    | (optional) t.pinned_tweet_id |
-| ...()(0,_.d)    | ...    | _                            |
+| key             | type   | variable   |
+|:----------------|:-------|:-----------|
+| articleEntityId | ...    | i          |
 
 #### features<br>
 | key                                                                     | type    | variable   |
