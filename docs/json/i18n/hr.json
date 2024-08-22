@@ -6041,7 +6041,7 @@
   "fb6fa495": "{0}{activeTierName} na {activePriceLabel}",
   "a9fbb925": "{0}{newTierName} na {newPriceLabel}",
   "bec92f3b": "Ako započnete {0} i pretplatite se, pristajete na naše {1}. Nakon {numberOfDays}-dnevne besplatne probne verzije, naplatit će vam se iznos godišnjeg ili mjesečnog plana koji odaberete prilikom prijave, osim ako otkažete unutar razdoblja {numberOfDays}-dnevne besplatne probne verzije. Pretplate se automatski obnavljaju do otkazivanja, kao što je opisano u Uvjetima {2}. Ako želite otkazati pretplatu, to učinite najmanje 24 sata prije obnove kako biste izbjegli dodatne naplate. Za pretplatu je potreban provjeren telefonski broj. Ako ste se pretplatili na nekoj drugoj platformi, pretplatom upravljajte na toj platformi.",
-  "h4942af1": "{0} {discountedPrice} billed annually for first {duration}year",
+  "h4942af1": "{0} {discountedPrice} se naplaćuje na godišnjoj razini tijekom prv{duration}e {duration} godine",
   "c57cd3a3": "(Za organizacije )",
   "eeb5fb11": "Podaci o adresi šalju se Googleu. Da biste saznali više, pogledajte {0} i {1}.",
   "f9b1387f": "Samo administratori i moderatori Zajednica mogu ih postaviti u pojedinosti na svom profilu. Želite {0}?",
