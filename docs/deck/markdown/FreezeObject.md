@@ -2721,6 +2721,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | warning            | {'backgroundColor': 'red50', 'color': 'red900', 'bold': '!0', 'radius': '9999', 'fontSize': 'subtext3'}                                      |
 | subscriptionSaving | {'backgroundColor': 'green50', 'color': 'green900', 'bold': '!0', 'radius': '9999', 'fontSize': 'subtext3'}                                  |
 | subscriptionActive | {'backgroundColor': 'primary', 'radius': '9999', 'bold': '!0', 'color': 'whiteOnColor', 'fontSize': 'subtext3'}                              |
+| subscriptionPromo  | {'backgroundColor': 'green50', 'bold': '!0', 'color': 'green900', 'borderColor': 'green900'}                                                 |
 | bestValue          | {'backgroundColor': 'green50', 'color': 'green900', 'bold': '!0', 'fontSize': 'subtext3'}                                                    |
 | mostPopular        | {'backgroundColor': 'purple50', 'color': 'purple900', 'bold': '!0', 'fontSize': 'subtext3'}                                                  |
 | priority           | {'backgroundColor': 'blue50', 'color': 'blue900', 'bold': '!0', 'fontSize': 'subtext3'}                                                      |
@@ -3414,14 +3415,6 @@ This document is entirely auto-generated and may contain errors.<br>
 | STATIC_BROADCAST | static_broadcast |
 | AUDIO_SPACE      | audio_space      |
 
-| constant   | value                      |
-|:-----------|:---------------------------|
-| primary    | {'aria-live': 'polite'}    |
-| exclusive  | {'aria-live': 'polite'}    |
-| danger     | {'aria-live': 'assertive'} |
-| success    | {'aria-live': 'polite'}    |
-| warning    | {'aria-live': 'polite'}    |
-
 | constant           | value          |
 |:-------------------|:---------------|
 | SelfHarm           | SELF_HARM      |
@@ -3604,6 +3597,14 @@ This document is entirely auto-generated and may contain errors.<br>
 |:-----------|:--------|
 | small      | small   |
 | medium     | medium  |
+
+| constant   | value                      |
+|:-----------|:---------------------------|
+| primary    | {'aria-live': 'polite'}    |
+| exclusive  | {'aria-live': 'polite'}    |
+| danger     | {'aria-live': 'assertive'} |
+| success    | {'aria-live': 'polite'}    |
+| warning    | {'aria-live': 'polite'}    |
 
 | constant    | value        |
 |:------------|:-------------|
@@ -4583,6 +4584,14 @@ This document is entirely auto-generated and may contain errors.<br>
 | ParticipantsLeave      | r.Cr.PARTICIPANTS_LEAVE       |
 | ConversationNameUpdate | r.Cr.CONVERSATION_NAME_UPDATE |
 | JoinConversation       | r.Cr.JOIN_CONVERSATION        |
+
+| constant   | value                      |
+|:-----------|:---------------------------|
+| primary    | {'aria-live': 'polite'}    |
+| exclusive  | {'aria-live': 'polite'}    |
+| danger     | {'aria-live': 'assertive'} |
+| success    | {'aria-live': 'polite'}    |
+| warning    | {'aria-live': 'polite'}    |
 
 | constant   | value                         |
 |:-----------|:------------------------------|
@@ -5902,6 +5911,14 @@ This document is entirely auto-generated and may contain errors.<br>
 | REQUEST    | rweb/accountTaxonomy/DISABLE_USER_ACCOUNT_LABEL_REQUEST |
 | SUCCESS    | rweb/accountTaxonomy/DISABLE_USER_ACCOUNT_LABEL_SUCCESS |
 | FAILURE    | rweb/accountTaxonomy/DISABLE_USER_ACCOUNT_LABEL_FAILURE |
+
+| constant   | value                      |
+|:-----------|:---------------------------|
+| primary    | {'aria-live': 'polite'}    |
+| exclusive  | {'aria-live': 'polite'}    |
+| danger     | {'aria-live': 'assertive'} |
+| success    | {'aria-live': 'polite'}    |
+| warning    | {'aria-live': 'polite'}    |
 
 | constant         | value            |
 |:-----------------|:-----------------|
