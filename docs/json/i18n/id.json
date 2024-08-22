@@ -6043,7 +6043,7 @@
   "fb6fa495": "{0}{activeTierName} seharga {activePriceLabel}",
   "a9fbb925": "{0}{newTierName} seharga {newPriceLabel}",
   "bec92f3b": "Dengan memulai {0} dan berlangganan, Anda menyetujui {1} kami. Setelah uji coba gratis selama {numberOfDays} hari, Anda akan dikenakan biaya sesuai dengan paket Tahunan atau Bulanan yang Anda pilih saat mendaftar, kecuali jika Anda membatalkannya dalam periode {numberOfDays} hari uji coba gratis. Langganan akan diperpanjang secara otomatis hingga dibatalkan, seperti yang dijelaskan dalam Persyaratan. {2}. Batalkan setidaknya 24 jam sebelum perpanjangan untuk menghindari biaya tambahan. Diperlukan nomor telepon terverifikasi untuk berlangganan. Jika Anda telah berlangganan di platform lain, kelola langganan Anda melalui platform tersebut.",
-  "h4942af1": "{0} {discountedPrice} billed annually for first {duration}year",
+  "h4942af1": "{0} {discountedPrice} ditagih setiap tahununtuk {duration} tahun pertama",
   "c57cd3a3": "(Untuk organisasi, )",
   "eeb5fb11": "Informasi alamat dibagikan kepada Google. Lihat {0} dan {1} untuk mempelajari lebih lanjut.",
   "f9b1387f": "Hanya admin dan moderator Komunitas yang dapat menempatkannya di profil Spotlight mereka. Ingin {0} sendiri?",
