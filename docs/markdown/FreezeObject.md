@@ -4616,7 +4616,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{[p]:"E",[f]:"y",[b]:"_"}
+{[p]:"E",[f]:"_",[b]:"y"}
 ```
 | constant             | value     |
 |:---------------------|:----------|
@@ -6228,30 +6228,6 @@ This document is entirely auto-generated and may contain errors.<br>
 | MinRetweets             | minRetweets             |
 | ReplyFilter             | replyFilter             |
 | LinkFilter              | linkFilter              |
-
-| constant     | value        |
-|:-------------|:-------------|
-| Canceled     | Canceled     |
-| Ended        | Ended        |
-| NotStarted   | NotStarted   |
-| PrePublished | PrePublished |
-| Running      | Running      |
-| TimedOut     | TimedOut     |
-
-| constant                   |   value |
-|:---------------------------|--------:|
-| None                       |       0 |
-| Off                        |       1 |
-| Everyone                   |       2 |
-| VerifiedAccounts           |       3 |
-| AccountsBroadcasterFollows |       4 |
-| Subscribers                |       5 |
-
-| constant   | value                        |
-|:-----------|:-----------------------------|
-| REQUEST    | rweb/FETCH_BROADCAST/REQUEST |
-| SUCCESS    | rweb/FETCH_BROADCAST/SUCCESS |
-| FAILURE    | rweb/FETCH_BROADCAST/FAILURE |
 
 | constant   | value   |
 |:-----------|:--------|
