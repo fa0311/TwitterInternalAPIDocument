@@ -3035,3 +3035,15 @@
 - responsive_web_grok_image_prompts_enabled<br>
 #### remove<br>
 - None<br>
+## 2024/08/22<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- subscriptions_marketing_page_discounts_enabled<br>
+- subscriptions_marketing_page_fetch_promotions<br>
+#### remove<br>
+- subscriptions_marketing_page_remove_extra_step<br>

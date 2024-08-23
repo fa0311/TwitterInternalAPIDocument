@@ -2580,6 +2580,12 @@
       "color": "whiteOnColor",
       "fontSize": "subtext3"
     },
+    "subscriptionPromo": {
+      "backgroundColor": "green50",
+      "bold": "!0",
+      "color": "green900",
+      "borderColor": "green900"
+    },
     "bestValue": {
       "backgroundColor": "green50",
       "color": "green900",
@@ -3230,23 +3236,6 @@
     "AUDIO_SPACE": "audio_space"
   },
   {
-    "primary": {
-      "aria-live": "polite"
-    },
-    "exclusive": {
-      "aria-live": "polite"
-    },
-    "danger": {
-      "aria-live": "assertive"
-    },
-    "success": {
-      "aria-live": "polite"
-    },
-    "warning": {
-      "aria-live": "polite"
-    }
-  },
-  {
     "SelfHarm": "SELF_HARM",
     "Violence": "VIOLENCE",
     "SexualContent": "SEXUAL_CONTENT",
@@ -3410,6 +3399,23 @@
   {
     "small": "small",
     "medium": "medium"
+  },
+  {
+    "primary": {
+      "aria-live": "polite"
+    },
+    "exclusive": {
+      "aria-live": "polite"
+    },
+    "danger": {
+      "aria-live": "assertive"
+    },
+    "success": {
+      "aria-live": "polite"
+    },
+    "warning": {
+      "aria-live": "polite"
+    }
   },
   {
     "TopicFilled": "TOPIC_FILLED"
@@ -4408,6 +4414,23 @@
     "ParticipantsLeave": "r.Cr.PARTICIPANTS_LEAVE",
     "ConversationNameUpdate": "r.Cr.CONVERSATION_NAME_UPDATE",
     "JoinConversation": "r.Cr.JOIN_CONVERSATION"
+  },
+  {
+    "primary": {
+      "aria-live": "polite"
+    },
+    "exclusive": {
+      "aria-live": "polite"
+    },
+    "danger": {
+      "aria-live": "assertive"
+    },
+    "success": {
+      "aria-live": "polite"
+    },
+    "warning": {
+      "aria-live": "polite"
+    }
   },
   {
     "REQUEST": "rweb/FETCH_GROK_SHARE/REQUEST",
@@ -5552,6 +5575,23 @@
     "REQUEST": "rweb/accountTaxonomy/DISABLE_USER_ACCOUNT_LABEL_REQUEST",
     "SUCCESS": "rweb/accountTaxonomy/DISABLE_USER_ACCOUNT_LABEL_SUCCESS",
     "FAILURE": "rweb/accountTaxonomy/DISABLE_USER_ACCOUNT_LABEL_FAILURE"
+  },
+  {
+    "primary": {
+      "aria-live": "polite"
+    },
+    "exclusive": {
+      "aria-live": "polite"
+    },
+    "danger": {
+      "aria-live": "assertive"
+    },
+    "success": {
+      "aria-live": "polite"
+    },
+    "warning": {
+      "aria-live": "polite"
+    }
   },
   {
     "NEW": "NEW",

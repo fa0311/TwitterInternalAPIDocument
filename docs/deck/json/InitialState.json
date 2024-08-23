@@ -1515,7 +1515,7 @@
         "value": "true"
       },
       "responsive_web_grok_animated_text_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "responsive_web_grok_chat_history_enabled": {
         "value": "true"
@@ -2434,13 +2434,16 @@
       "subscriptions_long_video_upload": {
         "value": "true"
       },
+      "subscriptions_marketing_page_discounts_enabled": {
+        "value": "false"
+      },
+      "subscriptions_marketing_page_fetch_promotions": {
+        "value": "true"
+      },
       "subscriptions_marketing_page_free_trial_enabled": {
         "value": "true"
       },
       "subscriptions_marketing_page_include_tax_enabled": {
-        "value": "true"
-      },
-      "subscriptions_marketing_page_remove_extra_step": {
         "value": "true"
       },
       "subscriptions_mute_ad_upsell_enabled": {
@@ -5271,14 +5274,17 @@
         "subscriptions_long_video_upload": {
           "value": "true"
         },
+        "subscriptions_marketing_page_discounts_enabled": {
+          "value": "false"
+        },
+        "subscriptions_marketing_page_fetch_promotions": {
+          "value": "true"
+        },
         "subscriptions_marketing_page_free_trial_enabled": {
           "value": "false"
         },
         "subscriptions_marketing_page_include_tax_enabled": {
           "value": "false"
-        },
-        "subscriptions_marketing_page_remove_extra_step": {
-          "value": "true"
         },
         "subscriptions_mute_ad_upsell_enabled": {
           "value": "true"
@@ -5789,10 +5795,10 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "fdf6e2734a9d2b8292e5ad63ef713ea7"
+      "settingsVersion": "feb16d750b78e1ced7235908da15f6fa"
     },
     "debug": {},
-    "featureSetToken": "81006914404ffe36f3446d1fb29546f31dbe6106",
+    "featureSetToken": "93be343e922c9309bbd4c2060c5a4fe16efd1e14",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -5862,7 +5868,7 @@
     "country": "XX",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "172427491742489762",
+    "guestId": "172436132924016750",
     "hasCommunityMemberships": "false",
     "language": "en",
     "ssoInitTokens": {},

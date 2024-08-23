@@ -6043,7 +6043,7 @@
   "fb6fa495": "{0}{activeTierName} hintaan {activePriceLabel}",
   "a9fbb925": "{0}{newTierName} hintaan {newPriceLabel}",
   "bec92f3b": "Aloittamalla {0} ja tilauksen vahvistat hyväksyväsi {1}. Kun {numberOfDays} päivän ilmaiskokeilusi päättyy, sinulta veloitetaan rekisteröitymisen yhteydessä valitsemasi vuosi- tai kuukausitilauksen mukainen maksu, ellet peruuta tilausta {numberOfDays} päivän pituisen ilmaiskokeilujakson aikana. Tilaukset uusiutuvat automaattisesti, kunnes ne perutaan ehtojen mukaisesti. {2}. Tilaus on peruttava viimeistään 24 tuntia ennen uusiutumisaikaa, jotta vältyt lisäveloituksilta. Tilauksen tekemiseen tarvitaan vahvistettu puhelinnumero. Jos tilaus on tehty jossakin toisessa palvelussa, tilauksen hallinta tapahtuu kyseisen palvelun kautta.",
-  "h4942af1": "{0} {discountedPrice} billed annually for first {duration}year",
+  "h4942af1": "{0} {discountedPrice} vuosittain ensimmäis{duration}en vuoden ajan",
   "c57cd3a3": "(Organisaatiot voivat )",
   "eeb5fb11": "Osoitetiedot välitetään Googlelle. Lisätietoa saat lukemalla {0} ja {1}.",
   "f9b1387f": "Vain yhteisöjen ylläpitäjät ja moderaattorit voivat lisätä yhteisön valokeilaan profiileissaan. Haluatko {0}?",
