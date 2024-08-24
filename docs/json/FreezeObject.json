@@ -4394,7 +4394,7 @@
     "BLOCKED": "f",
     "BLOCKED_BY": "b"
   },
-  "{[p]:\"E\",[f]:\"y\",[b]:\"_\"}",
+  "{[p]:\"E\",[f]:\"_\",[b]:\"y\"}",
   {
     "BROADCAST_MEDIA_TYPE": "broadcast",
     "VIDEO_MEDIA_TYPE": "video"
@@ -5830,27 +5830,6 @@
     "MinRetweets": "minRetweets",
     "ReplyFilter": "replyFilter",
     "LinkFilter": "linkFilter"
-  },
-  {
-    "Canceled": "Canceled",
-    "Ended": "Ended",
-    "NotStarted": "NotStarted",
-    "PrePublished": "PrePublished",
-    "Running": "Running",
-    "TimedOut": "TimedOut"
-  },
-  {
-    "None": "0",
-    "Off": "1",
-    "Everyone": "2",
-    "VerifiedAccounts": "3",
-    "AccountsBroadcasterFollows": "4",
-    "Subscribers": "5"
-  },
-  {
-    "REQUEST": "rweb/FETCH_BROADCAST/REQUEST",
-    "SUCCESS": "rweb/FETCH_BROADCAST/SUCCESS",
-    "FAILURE": "rweb/FETCH_BROADCAST/FAILURE"
   },
   {
     "search": "search"
