@@ -4114,3 +4114,15 @@
 - rweb_group_dm_conf_enabled<br>
 #### remove<br>
 - None<br>
+## 2024/08/27<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- responsive_web_grok_prompt_edit_enabled<br>
+- rweb_conf_merged_audio_in_enabled<br>
+#### remove<br>
+- None<br>
