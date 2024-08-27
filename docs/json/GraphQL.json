@@ -8199,11 +8199,11 @@
         }
       }
     },
-    "func_name": "S",
+    "func_name": "T",
     "func_name_init": "C",
     "query": {
-      "bookmark_collection_id": "n",
-      "tweet_id": "o"
+      "articleEntityId": "i",
+      "title": "r"
     }
   },
   {
@@ -13885,11 +13885,11 @@
         }
       }
     },
-    "func_name": "S",
+    "func_name": "T",
     "func_name_init": "C",
     "query": {
-      "bookmark_collection_id": "n",
-      "tweet_id": "o"
+      "articleEntityId": "i",
+      "title": "r"
     }
   },
   {
@@ -17064,11 +17064,11 @@
         }
       }
     },
-    "func_name": "S",
+    "func_name": "T",
     "func_name_init": "C",
     "query": {
-      "bookmark_collection_id": "n",
-      "tweet_id": "o"
+      "articleEntityId": "i",
+      "title": "r"
     }
   },
   {
@@ -21024,11 +21024,11 @@
         }
       }
     },
-    "func_name": "S",
+    "func_name": "T",
     "func_name_init": "C",
     "query": {
-      "bookmark_collection_id": "n",
-      "tweet_id": "o"
+      "articleEntityId": "i",
+      "title": "r"
     }
   },
   {
@@ -23878,11 +23878,11 @@
         }
       }
     },
-    "func_name": "S",
+    "func_name": "T",
     "func_name_init": "C",
     "query": {
-      "bookmark_collection_id": "n",
-      "tweet_id": "o"
+      "articleEntityId": "i",
+      "title": "r"
     }
   },
   {
@@ -27346,11 +27346,11 @@
         }
       }
     },
-    "func_name": "S",
+    "func_name": "T",
     "func_name_init": "C",
     "query": {
-      "bookmark_collection_id": "n",
-      "tweet_id": "o"
+      "articleEntityId": "i",
+      "title": "r"
     }
   },
   {
