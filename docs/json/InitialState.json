@@ -928,6 +928,9 @@
       "immersive_viewer_enable_profile_viewer": {
         "value": "false"
       },
+      "insights_chart_filter_enabled": {
+        "value": "false"
+      },
       "krs_registration_enabled": {
         "value": "false"
       },
@@ -1542,7 +1545,7 @@
         "value": "true"
       },
       "responsive_web_grok_prompt_edit_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "responsive_web_grok_share_enabled": {
         "value": "true"
@@ -2443,7 +2446,7 @@
         "value": "https://abs.twimg.com/sticky/videos/inapp_light_square_v4.mp4"
       },
       "subscriptions_is_blue_verified_review_status_profile_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "subscriptions_long_video_rweb_new_copy_enabled": {
         "value": "true"
@@ -2489,6 +2492,12 @@
       },
       "subscriptions_stripe_testing": {
         "value": "false"
+      },
+      "subscriptions_upsells_analytics_profile_enabled": {
+        "value": "false"
+      },
+      "subscriptions_upsells_analytics_profile_variant": {
+        "value": ""
       },
       "subscriptions_upsells_get_verified_profile": {
         "value": "false"
@@ -2588,6 +2597,9 @@
       },
       "tv_app_qrcode_login_enabled": {
         "value": "true"
+      },
+      "tv_app_samsung_exit_configuration": {
+        "value": "EXIT"
       },
       "tweet_awards_web_coin_purchase_enabled": {
         "value": "false"
@@ -3793,6 +3805,9 @@
           "value": "false"
         },
         "immersive_viewer_enable_profile_viewer": {
+          "value": "false"
+        },
+        "insights_chart_filter_enabled": {
           "value": "false"
         },
         "krs_registration_enabled": {
@@ -5310,7 +5325,7 @@
           "value": "https://abs.twimg.com/sticky/videos/inapp_light_square_v4.mp4"
         },
         "subscriptions_is_blue_verified_review_status_profile_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "subscriptions_long_video_rweb_new_copy_enabled": {
           "value": "true"
@@ -5356,6 +5371,12 @@
         },
         "subscriptions_stripe_testing": {
           "value": "false"
+        },
+        "subscriptions_upsells_analytics_profile_enabled": {
+          "value": "false"
+        },
+        "subscriptions_upsells_analytics_profile_variant": {
+          "value": ""
         },
         "subscriptions_upsells_get_verified_profile": {
           "value": "false"
@@ -5455,6 +5476,9 @@
         },
         "tv_app_qrcode_login_enabled": {
           "value": "true"
+        },
+        "tv_app_samsung_exit_configuration": {
+          "value": "EXIT"
         },
         "tweet_awards_web_coin_purchase_enabled": {
           "value": "false"
@@ -5748,6 +5772,9 @@
         "verified_phone_label_enabled": {
           "value": "false"
         },
+        "verified_vo_refreshed_advertising_screen_enabled": {
+          "value": "false"
+        },
         "video_upload_metadata_title_enabled": {
           "value": "false"
         },
@@ -5839,10 +5866,10 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "99fa8306efe10c1469e2b08f69391737"
+      "settingsVersion": "43c13d80aaa9fd30564ef3b6e6dec276"
     },
     "debug": {},
-    "featureSetToken": "fb3ee60dcfdc6aab2c4979ec1b681b4617f5781a",
+    "featureSetToken": "52a385d3be66474029c4c27e497b1cb541fe4ccb",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -5912,7 +5939,7 @@
     "country": "XX",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "172479288897115610",
+    "guestId": "172487939003224362",
     "hasCommunityMemberships": "false",
     "language": "en",
     "ssoInitTokens": {},
