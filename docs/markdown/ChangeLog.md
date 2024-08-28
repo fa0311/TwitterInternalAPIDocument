@@ -4126,3 +4126,17 @@
 - rweb_conf_merged_audio_in_enabled<br>
 #### remove<br>
 - None<br>
+## 2024/08/28<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- insights_chart_filter_enabled<br>
+- subscriptions_upsells_analytics_profile_enabled<br>
+- subscriptions_upsells_analytics_profile_variant<br>
+- tv_app_samsung_exit_configuration<br>
+#### remove<br>
+- None<br>
