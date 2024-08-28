@@ -938,6 +938,9 @@
       "immersive_viewer_enable_profile_viewer": {
         "value": "false"
       },
+      "insights_chart_filter_enabled": {
+        "value": "false"
+      },
       "krs_registration_enabled": {
         "value": "false"
       },
@@ -1551,6 +1554,9 @@
       "responsive_web_grok_prompt_deeplink_enabled": {
         "value": "true"
       },
+      "responsive_web_grok_prompt_edit_enabled": {
+        "value": "true"
+      },
       "responsive_web_grok_share_enabled": {
         "value": "true"
       },
@@ -1559,7 +1565,25 @@
       },
       "responsive_web_grok_text_selection_supported_locales": {
         "value": [
-          "en"
+          "en",
+          "es",
+          "fr",
+          "ru",
+          "ja",
+          "it",
+          "de",
+          "zh",
+          "uk",
+          "pl",
+          "ko",
+          "hi",
+          "id",
+          "fi",
+          "fa",
+          "hy",
+          "ar",
+          "af",
+          "vi"
         ]
       },
       "responsive_web_grok_trends_design_enabled": {
@@ -1965,7 +1989,7 @@
         "value": "false"
       },
       "responsive_web_verified_organizations_preapproved_access_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "responsive_web_verified_organizations_xbusiness_enabled": {
         "value": "false"
@@ -2036,6 +2060,9 @@
       "rweb_conf_enabled": {
         "value": "false"
       },
+      "rweb_conf_merged_audio_in_enabled": {
+        "value": "true"
+      },
       "rweb_creator_analytics_enabled": {
         "value": "true"
       },
@@ -2043,6 +2070,9 @@
         "value": "true"
       },
       "rweb_enable_logged_out_search_search_bar_enabled": {
+        "value": "false"
+      },
+      "rweb_group_dm_conf_enabled": {
         "value": "false"
       },
       "rweb_home_compact_timeline_enabled": {
@@ -2435,7 +2465,7 @@
         "value": "true"
       },
       "subscriptions_marketing_page_discounts_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "subscriptions_marketing_page_fetch_promotions": {
         "value": "true"
@@ -2571,6 +2601,9 @@
       },
       "tv_app_qrcode_login_enabled": {
         "value": "true"
+      },
+      "tv_app_samsung_exit_configuration": {
+        "value": "EXIT"
       },
       "tweet_awards_web_coin_purchase_enabled": {
         "value": "false"
@@ -3778,6 +3811,9 @@
         "immersive_viewer_enable_profile_viewer": {
           "value": "false"
         },
+        "insights_chart_filter_enabled": {
+          "value": "false"
+        },
         "krs_registration_enabled": {
           "value": "false"
         },
@@ -4389,6 +4425,9 @@
           "value": "true"
         },
         "responsive_web_grok_prompt_deeplink_enabled": {
+          "value": "true"
+        },
+        "responsive_web_grok_prompt_edit_enabled": {
           "value": "true"
         },
         "responsive_web_grok_share_enabled": {
@@ -5290,7 +5329,7 @@
           "value": "https://abs.twimg.com/sticky/videos/inapp_light_square_v4.mp4"
         },
         "subscriptions_is_blue_verified_review_status_profile_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "subscriptions_long_video_rweb_new_copy_enabled": {
           "value": "true"
@@ -5435,6 +5474,9 @@
         },
         "tv_app_qrcode_login_enabled": {
           "value": "true"
+        },
+        "tv_app_samsung_exit_configuration": {
+          "value": "EXIT"
         },
         "tweet_awards_web_coin_purchase_enabled": {
           "value": "false"
@@ -5728,6 +5770,9 @@
         "verified_phone_label_enabled": {
           "value": "false"
         },
+        "verified_vo_refreshed_advertising_screen_enabled": {
+          "value": "false"
+        },
         "video_upload_metadata_title_enabled": {
           "value": "false"
         },
@@ -5819,10 +5864,10 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "1c96674298863b7400d7bb3e076e7723"
+      "settingsVersion": "af808ea74a7c371680a55f49f4f569d3"
     },
     "debug": {},
-    "featureSetToken": "93be343e922c9309bbd4c2060c5a4fe16efd1e14",
+    "featureSetToken": "327d5a92dacb858a7d20f1971e149e8041c3df76",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -5892,7 +5937,7 @@
     "country": "XX",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "172479327277487610",
+    "guestId": "172487978591455772",
     "hasCommunityMemberships": "false",
     "language": "en",
     "ssoInitTokens": {},
