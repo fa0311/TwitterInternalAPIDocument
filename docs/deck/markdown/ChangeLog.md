@@ -3062,3 +3062,18 @@
 - tv_app_samsung_exit_configuration<br>
 #### remove<br>
 - None<br>
+## 2024/08/29<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- dm_edit_dms_overflow_menu_enabled<br>
+- responsive_web_birdwatch_url_notes_enabled<br>
+- subscriptions_upsells_analytics_profile_enabled<br>
+- subscriptions_upsells_analytics_profile_variant<br>
+- verified_vo_refreshed_advertising_screen_enabled<br>
+#### remove<br>
+- None<br>
