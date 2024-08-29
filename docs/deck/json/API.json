@@ -3883,11 +3883,12 @@
       "features": {}
     },
     "BirdwatchCreateNote": {
-      "url": "https://x.com/i/api/graphql/oRoMBcjBXh6iz6PkafNPdg/BirdwatchCreateNote",
-      "queryId": "oRoMBcjBXh6iz6PkafNPdg",
+      "url": "https://x.com/i/api/graphql/-12_MtS7WzLb0tjO6F7A_w/BirdwatchCreateNote",
+      "queryId": "-12_MtS7WzLb0tjO6F7A_w",
       "method": "POST",
       "features": {
         "responsive_web_birdwatch_media_notes_enabled": true,
+        "responsive_web_birdwatch_url_notes_enabled": false,
         "responsive_web_birdwatch_translation_enabled": true,
         "responsive_web_graphql_timeline_navigation_enabled": true,
         "rweb_tipjar_consumption_enabled": true,
@@ -4019,11 +4020,12 @@
       }
     },
     "BirdwatchFetchNotes": {
-      "url": "https://x.com/i/api/graphql/tN61H6PgO4UgYB2QKJCBvg/BirdwatchFetchNotes",
-      "queryId": "tN61H6PgO4UgYB2QKJCBvg",
+      "url": "https://x.com/i/api/graphql/GXPKelZ-em7ugrJ9GHH0tA/BirdwatchFetchNotes",
+      "queryId": "GXPKelZ-em7ugrJ9GHH0tA",
       "method": "GET",
       "features": {
         "responsive_web_birdwatch_media_notes_enabled": true,
+        "responsive_web_birdwatch_url_notes_enabled": false,
         "responsive_web_birdwatch_translation_enabled": true,
         "responsive_web_graphql_timeline_navigation_enabled": true,
         "rweb_tipjar_consumption_enabled": true,
@@ -4033,11 +4035,12 @@
       }
     },
     "BirdwatchFetchOneNote": {
-      "url": "https://x.com/i/api/graphql/zzrrQ2D5JMaXlUtuXlgW4w/BirdwatchFetchOneNote",
-      "queryId": "zzrrQ2D5JMaXlUtuXlgW4w",
+      "url": "https://x.com/i/api/graphql/UffJ1h9UEaqKlGqR8nf-PA/BirdwatchFetchOneNote",
+      "queryId": "UffJ1h9UEaqKlGqR8nf-PA",
       "method": "GET",
       "features": {
         "responsive_web_birdwatch_media_notes_enabled": true,
+        "responsive_web_birdwatch_url_notes_enabled": false,
         "responsive_web_birdwatch_translation_enabled": true,
         "responsive_web_graphql_timeline_navigation_enabled": true,
         "rweb_tipjar_consumption_enabled": true,
