@@ -3047,3 +3047,18 @@
 - subscriptions_marketing_page_fetch_promotions<br>
 #### remove<br>
 - subscriptions_marketing_page_remove_extra_step<br>
+## 2024/08/28<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- insights_chart_filter_enabled<br>
+- responsive_web_grok_prompt_edit_enabled<br>
+- rweb_conf_merged_audio_in_enabled<br>
+- rweb_group_dm_conf_enabled<br>
+- tv_app_samsung_exit_configuration<br>
+#### remove<br>
+- None<br>
