@@ -1014,15 +1014,16 @@ This document is entirely auto-generated and may contain errors.<br>
 | Recommendation   | Recommendation   |
 | RecWithEducation | RecWithEducation |
 
-| constant      | value                   |
-|:--------------|:------------------------|
-| HOME          | /i/verified/home        |
-| ADVERTISING   | /i/verified-advertising |
-| AFFILIATES    | /i/verified/affiliates  |
-| JOBS          | /i/verified/jobs        |
-| SETTINGS      | /i/verified/settings    |
-| INSIGHTS      | /i/business/insights    |
-| PEOPLE_SEARCH | /i/business/people      |
+| constant               | value                              |
+|:-----------------------|:-----------------------------------|
+| HOME                   | /i/verified/home                   |
+| ADVERTISING            | /i/verified-advertising            |
+| AFFILIATES             | /i/verified/affiliates             |
+| JOBS                   | /i/verified/jobs                   |
+| SETTINGS               | /i/verified/settings               |
+| JOB_PROMOTION_SETTINGS | /i/verified/settings/job-promotion |
+| INSIGHTS               | /i/business/insights               |
+| PEOPLE_SEARCH          | /i/business/people                 |
 
 | constant   | value    |
 |:-----------|:---------|
@@ -5940,12 +5941,6 @@ This document is entirely auto-generated and may contain errors.<br>
 | ...ca      | _             |
 | component  | sync-ats-jobs |
 
-| constant         | value            |
-|:-----------------|:-----------------|
-| generate         | generate         |
-| updateSeats      | updateSeats      |
-| switchFromDirect | switchFromDirect |
-
 | constant   | value     |
 |:-----------|:----------|
 | Affiliate  | Affiliate |
@@ -5978,6 +5973,12 @@ This document is entirely auto-generated and may contain errors.<br>
 # Error
 {[A.hA.generate]:"E().fc1f43d0",[A.hA.switchFromDirect]:"E().fc1f43d0",[A.hA.updateSeats]:"E().c97ad52a"}
 ```
+| constant         | value            |
+|:-----------------|:-----------------|
+| generate         | generate         |
+| updateSeats      | updateSeats      |
+| switchFromDirect | switchFromDirect |
+
 | constant      | value         |
 |:--------------|:--------------|
 | FullAccess    | FullAccess    |
@@ -6840,6 +6841,12 @@ This document is entirely auto-generated and may contain errors.<br>
 | Onboarded                    | Onboarded                    |
 | UpfrontApplicationInProgress | UpfrontApplicationInProgress |
 | UpfrontPromotionInProgress   | UpfrontPromotionInProgress   |
+
+| constant         | value            |
+|:-----------------|:-----------------|
+| generate         | generate         |
+| updateSeats      | updateSeats      |
+| switchFromDirect | switchFromDirect |
 
 | constant   | value      |
 |:-----------|:-----------|
