@@ -81,6 +81,15 @@
     ]
   },
   {
+    "queryId": "dm/edit",
+    "dispatch_key": "post",
+    "dispatch": [
+      "post",
+      "",
+      "https://api.x.com/1.1/{queryId}.json"
+    ]
+  },
+  {
     "queryId": "dm/conversation",
     "dispatch_key": "get",
     "dispatch": [

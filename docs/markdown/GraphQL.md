@@ -5706,9 +5706,10 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key             | type   | variable   |
-|:----------------|:-------|:-----------|
-| articleEntityId | ...    | i          |
+| key             | type   | variable                     |
+|:----------------|:-------|:-----------------------------|
+| pinned_tweet_id | ...    | (optional) t.pinned_tweet_id |
+| ...()(0,_.d)    | ...    | _                            |
 
 #### features<br>
 | key                                                                     | type    | variable   |
@@ -6974,7 +6975,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## BirdwatchCreateNote<br>
-Request URL: `https://x.com/i/api/graphql/oRoMBcjBXh6iz6PkafNPdg/BirdwatchCreateNote`<br>
+Request URL: `https://x.com/i/api/graphql/-12_MtS7WzLb0tjO6F7A_w/BirdwatchCreateNote`<br>
 Request Method: `POST`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -6984,6 +6985,7 @@ Login Required: `...`<br>
 | key                                                               | type    | variable   |
 |:------------------------------------------------------------------|:--------|:-----------|
 | responsive_web_birdwatch_media_notes_enabled                      | boolean | True       |
+| responsive_web_birdwatch_url_notes_enabled                        | boolean | False      |
 | responsive_web_birdwatch_translation_enabled                      | boolean | True       |
 | responsive_web_graphql_timeline_navigation_enabled                | boolean | True       |
 | rweb_tipjar_consumption_enabled                                   | boolean | True       |
@@ -7192,7 +7194,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## BirdwatchFetchNotes<br>
-Request URL: `https://x.com/i/api/graphql/tN61H6PgO4UgYB2QKJCBvg/BirdwatchFetchNotes`<br>
+Request URL: `https://x.com/i/api/graphql/GXPKelZ-em7ugrJ9GHH0tA/BirdwatchFetchNotes`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -7202,6 +7204,7 @@ Login Required: `...`<br>
 | key                                                               | type    | variable   |
 |:------------------------------------------------------------------|:--------|:-----------|
 | responsive_web_birdwatch_media_notes_enabled                      | boolean | True       |
+| responsive_web_birdwatch_url_notes_enabled                        | boolean | False      |
 | responsive_web_birdwatch_translation_enabled                      | boolean | True       |
 | responsive_web_graphql_timeline_navigation_enabled                | boolean | True       |
 | rweb_tipjar_consumption_enabled                                   | boolean | True       |
@@ -7212,7 +7215,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## BirdwatchFetchOneNote<br>
-Request URL: `https://x.com/i/api/graphql/zzrrQ2D5JMaXlUtuXlgW4w/BirdwatchFetchOneNote`<br>
+Request URL: `https://x.com/i/api/graphql/UffJ1h9UEaqKlGqR8nf-PA/BirdwatchFetchOneNote`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -7222,6 +7225,7 @@ Login Required: `...`<br>
 | key                                                               | type    | variable   |
 |:------------------------------------------------------------------|:--------|:-----------|
 | responsive_web_birdwatch_media_notes_enabled                      | boolean | True       |
+| responsive_web_birdwatch_url_notes_enabled                        | boolean | False      |
 | responsive_web_birdwatch_translation_enabled                      | boolean | True       |
 | responsive_web_graphql_timeline_navigation_enabled                | boolean | True       |
 | rweb_tipjar_consumption_enabled                                   | boolean | True       |

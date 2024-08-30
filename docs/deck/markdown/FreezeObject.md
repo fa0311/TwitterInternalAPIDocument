@@ -1367,6 +1367,16 @@ This document is entirely auto-generated and may contain errors.<br>
 | Recommendation   | Recommendation   |
 | RecWithEducation | RecWithEducation |
 
+| constant      | value                   |
+|:--------------|:------------------------|
+| HOME          | /i/verified/home        |
+| ADVERTISING   | /i/verified-advertising |
+| AFFILIATES    | /i/verified/affiliates  |
+| JOBS          | /i/verified/jobs        |
+| SETTINGS      | /i/verified/settings    |
+| INSIGHTS      | /i/business/insights    |
+| PEOPLE_SEARCH | /i/business/people      |
+
 | constant   | value    |
 |:-----------|:---------|
 | Off        | Off      |
@@ -5296,7 +5306,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{"ActionsBar":"f.Z","ActionMenu":"function()"{"Icon":"e","isDisabled":"t","items":"n","onOpen":"i"}{"const o=r.useCallback()"{"items":"n","onCloseRequested":"e"}{"Icon":"e","isDisabled":"t","onClick":"i","renderActionMenu":"o"}},"CallToAction":"a.ZP","EditCallout":"C.Z","Education":"E.Z","Highlighte...
+{"ActionsBar":"v.Z","ActionMenu":"function()"{"Icon":"e","isDisabled":"t","items":"n","onOpen":"i"}{"const o=r.useCallback()"{"items":"n","onCloseRequested":"e"}{"Icon":"e","isDisabled":"t","onClick":"i","renderActionMenu":"o"}},"CallToAction":"a.ZP","EditCallout":"C.Z","Education":"E.Z","Highlighte...
 ```
 | constant     | value        |
 |:-------------|:-------------|
@@ -6427,7 +6437,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{[W.App]:"app_module",[W.Location]:"about_module",[W.Newsletter]:"revue_module",[W.Shop]:"shop_module",[W.Link]:"link_module",[W.Communities]:"communities_module",[W.Jobs]:"jobs_module"}
+{[j.App]:"app_module",[j.Location]:"about_module",[j.Newsletter]:"revue_module",[j.Shop]:"shop_module",[j.Link]:"link_module",[j.Communities]:"communities_module",[j.Jobs]:"jobs_module"}
 ```
 | constant   | value                      |
 |:-----------|:---------------------------|

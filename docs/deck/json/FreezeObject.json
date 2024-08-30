@@ -1323,6 +1323,15 @@
     "RecWithEducation": "RecWithEducation"
   },
   {
+    "HOME": "/i/verified/home",
+    "ADVERTISING": "/i/verified-advertising",
+    "AFFILIATES": "/i/verified/affiliates",
+    "JOBS": "/i/verified/jobs",
+    "SETTINGS": "/i/verified/settings",
+    "INSIGHTS": "/i/business/insights",
+    "PEOPLE_SEARCH": "/i/business/people"
+  },
+  {
     "Off": "Off",
     "WiFiOnly": "WiFiOnly",
     "Always": "Always"
@@ -5042,7 +5051,7 @@
     "Subtitles": "subtitles",
     "Trimmer": "trimmer"
   },
-  "{\"ActionsBar\":\"f.Z\",\"ActionMenu\":\"function()\"{\"Icon\":\"e\",\"isDisabled\":\"t\",\"items\":\"n\",\"onOpen\":\"i\"}{\"const o=r.useCallback()\"{\"items\":\"n\",\"onCloseRequested\":\"e\"}{\"Icon\":\"e\",\"isDisabled\":\"t\",\"onClick\":\"i\",\"renderActionMenu\":\"o\"}},\"CallToAction\":\"a.ZP\",\"EditCallout\":\"C.Z\",\"Education\":\"E.Z\",\"HighlightedUserLabel\":\"c.Z\",\"Media\":\"x.Z\",\"Place\":\"o.ZP\",\"PromotedDetails\":\"u.Z\",\"PromotedUserProfileCard\":\"A\",\"ReplyContext\":\"P.ZP\",\"RichContent\":\"M.Z\",\"SocialContext\":\"w.Z\",\"Text\":\"L.Z\",\"Tombstone\":\"g.Z\",\"Timestamp\":\"p.Z\",\"UserAvatar\":\"R.Z\",\"UserFollowIndicator\":\"U.Z\",\"UserName\":\"D.Z\",\"ArticleCard\":\"y.Z\"}",
+  "{\"ActionsBar\":\"v.Z\",\"ActionMenu\":\"function()\"{\"Icon\":\"e\",\"isDisabled\":\"t\",\"items\":\"n\",\"onOpen\":\"i\"}{\"const o=r.useCallback()\"{\"items\":\"n\",\"onCloseRequested\":\"e\"}{\"Icon\":\"e\",\"isDisabled\":\"t\",\"onClick\":\"i\",\"renderActionMenu\":\"o\"}},\"CallToAction\":\"a.ZP\",\"EditCallout\":\"C.Z\",\"Education\":\"E.Z\",\"HighlightedUserLabel\":\"c.Z\",\"Media\":\"x.Z\",\"Place\":\"o.ZP\",\"PromotedDetails\":\"u.Z\",\"PromotedUserProfileCard\":\"A\",\"ReplyContext\":\"P.ZP\",\"RichContent\":\"M.Z\",\"SocialContext\":\"w.Z\",\"Text\":\"L.Z\",\"Tombstone\":\"g.Z\",\"Timestamp\":\"p.Z\",\"UserAvatar\":\"R.Z\",\"UserFollowIndicator\":\"U.Z\",\"UserName\":\"D.Z\",\"ArticleCard\":\"y.Z\"}",
   {
     "Speakers": "Speakers",
     "Chat": "Chat",
@@ -6048,7 +6057,7 @@
     "Communities": "Communities",
     "Jobs": "Jobs"
   },
-  "{[W.App]:\"app_module\",[W.Location]:\"about_module\",[W.Newsletter]:\"revue_module\",[W.Shop]:\"shop_module\",[W.Link]:\"link_module\",[W.Communities]:\"communities_module\",[W.Jobs]:\"jobs_module\"}",
+  "{[j.App]:\"app_module\",[j.Location]:\"about_module\",[j.Newsletter]:\"revue_module\",[j.Shop]:\"shop_module\",[j.Link]:\"link_module\",[j.Communities]:\"communities_module\",[j.Jobs]:\"jobs_module\"}",
   {
     "page": "about_module_main_settings",
     "section": "api",
