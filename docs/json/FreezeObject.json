@@ -1020,6 +1020,7 @@
     "AFFILIATES": "/i/verified/affiliates",
     "JOBS": "/i/verified/jobs",
     "SETTINGS": "/i/verified/settings",
+    "JOB_PROMOTION_SETTINGS": "/i/verified/settings/job-promotion",
     "INSIGHTS": "/i/business/insights",
     "PEOPLE_SEARCH": "/i/business/people"
   },
@@ -5568,11 +5569,6 @@
     "component": "sync-ats-jobs"
   },
   {
-    "generate": "generate",
-    "updateSeats": "updateSeats",
-    "switchFromDirect": "switchFromDirect"
-  },
-  {
     "Affiliate": "Affiliate"
   },
   {
@@ -5594,6 +5590,11 @@
   },
   "{[b.hA.switchFromDirect]:\"m().dca6b3ac\",[b.hA.generate]:\"m().dca6b3ac\",[b.hA.updateSeats]:\"m().c97ad52a\"}",
   "{[A.hA.generate]:\"E().fc1f43d0\",[A.hA.switchFromDirect]:\"E().fc1f43d0\",[A.hA.updateSeats]:\"E().c97ad52a\"}",
+  {
+    "generate": "generate",
+    "updateSeats": "updateSeats",
+    "switchFromDirect": "switchFromDirect"
+  },
   {
     "FullAccess": "FullAccess",
     "FullAccessGov": "FullAccessGov",
@@ -6357,6 +6358,11 @@
     "Onboarded": "Onboarded",
     "UpfrontApplicationInProgress": "UpfrontApplicationInProgress",
     "UpfrontPromotionInProgress": "UpfrontPromotionInProgress"
+  },
+  {
+    "generate": "generate",
+    "updateSeats": "updateSeats",
+    "switchFromDirect": "switchFromDirect"
   },
   {
     "wide": "wide",
