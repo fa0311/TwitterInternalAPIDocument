@@ -4153,3 +4153,17 @@
 - verified_vo_refreshed_advertising_screen_enabled<br>
 #### remove<br>
 - None<br>
+## 2024/09/03<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- insights_ai_trends_enabled<br>
+- insights_ai_trends_limit<br>
+- insights_ai_trends_score_threshold<br>
+- responsive_web_dm_label_enabled<br>
+#### remove<br>
+- None<br>
