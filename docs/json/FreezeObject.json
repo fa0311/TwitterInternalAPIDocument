@@ -2328,6 +2328,11 @@
     "unlocked": "unlocked"
   },
   {
+    "normal": "2",
+    "small": "1",
+    "xSmall": "0"
+  },
+  {
     "Uninitialized": "UNINITIALIZED",
     "Opening": "OPENING",
     "Connected": "CONNECTED",
@@ -2403,7 +2408,7 @@
     "RaiseHand": "23",
     "LowerHand": "24"
   },
-  "{[u.SubmitRequest]:\"!0\",[u.CancelRequest]:\"!0\",[u.GuestCancelCountdown]:\"!0\",[u.GuestHangUp]:\"!0\",[u.InviteViewersToCallIn]:\"!0\",[u.ToggleCallIn]:\"!0\",[u.BeginCountdown]:\"!0\",[u.HostCancelCountdown]:\"!0\",[u.CompleteCountdown]:\"!0\",[u.HangUpOnGuest]:\"!0\",[u.BeginConnecting]:\"!0\",[u.GuestBroadcastingEnabled]:\"!0\",[u.UserInvited]:\"!0\",[u.RemoveParticipant]:\"!0\",[u.MuteGuest]:\"!1\",[u.UnmuteGuest]:\"!1\",[u.MuteSpace]:\"!1\",[u.UnmuteSpace]:\"!1\",[u.AddAdmin]:\"!0\",[u.RemoveAdmin]:\"!0\",[u.AdminStreamPublish]:\"!0\",[u.RaiseHand]:\"!1\",[u.LowerHand]:\"!1\"}",
+  "{[d.SubmitRequest]:\"!0\",[d.CancelRequest]:\"!0\",[d.GuestCancelCountdown]:\"!0\",[d.GuestHangUp]:\"!0\",[d.InviteViewersToCallIn]:\"!0\",[d.ToggleCallIn]:\"!0\",[d.BeginCountdown]:\"!0\",[d.HostCancelCountdown]:\"!0\",[d.CompleteCountdown]:\"!0\",[d.HangUpOnGuest]:\"!0\",[d.BeginConnecting]:\"!0\",[d.GuestBroadcastingEnabled]:\"!0\",[d.UserInvited]:\"!0\",[d.RemoveParticipant]:\"!0\",[d.MuteGuest]:\"!1\",[d.UnmuteGuest]:\"!1\",[d.MuteSpace]:\"!1\",[d.UnmuteSpace]:\"!1\",[d.AddAdmin]:\"!0\",[d.RemoveAdmin]:\"!0\",[d.AdminStreamPublish]:\"!0\",[d.RaiseHand]:\"!1\",[d.LowerHand]:\"!1\"}",
   {
     "small": "small",
     "medium": "medium"
@@ -4597,35 +4602,35 @@
   },
   {
     "all": {
-      "icon": "un",
+      "icon": "dn",
       "label": "C().i8ea6d4e"
     },
     "community": {
-      "icon": "mn",
+      "icon": "un",
       "label": "C().a176d0d8"
     },
     "by_invitation": {
-      "icon": "hn",
+      "icon": "cn",
       "label": "C().gc7e52ca"
     },
     "subscribers": {
-      "icon": "un",
+      "icon": "dn",
       "label": "C().bf8d98f4"
     },
     "community_members": {
-      "icon": "pn",
+      "icon": "hn",
       "label": "C().i13be5a0"
     },
     "super_followers_exclusive": {
-      "icon": "un",
+      "icon": "dn",
       "label": "C().ebe1d850"
     },
     "trusted_friends_tweet": {
-      "icon": "_n",
+      "icon": "mn",
       "label": "p"
     },
     "verified": {
-      "icon": "gn",
+      "icon": "pn",
       "label": "C().b121464a"
     }
   },
@@ -4674,12 +4679,8 @@
   {
     "Speakers": "Speakers",
     "Chat": "Chat",
+    "Settings": "Settings",
     "Participants": "Participants"
-  },
-  {
-    "normal": "2",
-    "small": "1",
-    "xSmall": "0"
   },
   {
     "FOLLOWS": "follows",
@@ -6006,11 +6007,11 @@
     "articles": "article_tweets"
   },
   "{\"default\":\"()\"{\"screenName\":\"e\"}{\"screenName\":\"e\"}{\"screenName\":\"e\"}{\"screenName\":\"e\"}{\"screenName\":\"e\"}{\"screenName\":\"e\"}{\"screenName\":\"e\"}{\"screenName\":\"e\"}{\"screenName\":\"e\"}{\"screenName\":\"e\"}}",
-  "{\"default\":()=>s().b7363b66,\"with_replies\":()=>s().b7363b66,\"superfollows\":()=>s().ce659062,\"highlights\":()=>s().f1e98cc2,\"articles\":()=>s().d5c743c6}",
-  "{\"default\":()=>s().d1e5e328,\"with_replies\":()=>s().d1e5e328,\"superfollows\":()=>s().hb26a1fe,\"highlights\":()=>s().b7c3572e,\"articles\":()=>s().i8123550}",
+  "{\"default\":()=>t().b7363b66,\"with_replies\":()=>t().b7363b66,\"superfollows\":()=>t().ce659062,\"highlights\":()=>t().f1e98cc2,\"articles\":()=>t().d5c743c6}",
+  "{\"default\":()=>t().d1e5e328,\"with_replies\":()=>t().d1e5e328,\"superfollows\":()=>t().hb26a1fe,\"highlights\":()=>t().b7c3572e,\"articles\":()=>t().i8123550}",
   "{\"default\":\"()\"{\"screenName\":\"e\"}{\"screenName\":\"e\"}{\"screenName\":\"e\"}{\"screenName\":\"e\"}{\"screenName\":\"e\"}{\"screenName\":\"e\"}}",
-  "{\"default\":()=>s().f34dfc18,\"with_replies\":()=>s().f34dfc18,\"superfollows\":()=>s().h9346040,\"articles\":()=>s().i4c3ddc6}",
-  "{\"default\":()=>s().e0118142,\"articles\":()=>s().ee9e42aa}",
+  "{\"default\":()=>t().f34dfc18,\"with_replies\":()=>t().f34dfc18,\"superfollows\":()=>t().h9346040,\"articles\":()=>t().i4c3ddc6}",
+  "{\"default\":()=>t().e0118142,\"articles\":()=>t().ee9e42aa}",
   {
     "default": "/compose/post",
     "articles": "/compose/articles"

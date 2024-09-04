@@ -1367,15 +1367,16 @@ This document is entirely auto-generated and may contain errors.<br>
 | Recommendation   | Recommendation   |
 | RecWithEducation | RecWithEducation |
 
-| constant      | value                   |
-|:--------------|:------------------------|
-| HOME          | /i/verified/home        |
-| ADVERTISING   | /i/verified-advertising |
-| AFFILIATES    | /i/verified/affiliates  |
-| JOBS          | /i/verified/jobs        |
-| SETTINGS      | /i/verified/settings    |
-| INSIGHTS      | /i/business/insights    |
-| PEOPLE_SEARCH | /i/business/people      |
+| constant               | value                              |
+|:-----------------------|:-----------------------------------|
+| HOME                   | /i/verified/home                   |
+| ADVERTISING            | /i/verified-advertising            |
+| AFFILIATES             | /i/verified/affiliates             |
+| JOBS                   | /i/verified/jobs                   |
+| SETTINGS               | /i/verified/settings               |
+| JOB_PROMOTION_SETTINGS | /i/verified/settings/job-promotion |
+| INSIGHTS               | /i/business/insights               |
+| PEOPLE_SEARCH          | /i/business/people                 |
 
 | constant   | value    |
 |:-----------|:---------|
@@ -2736,9 +2737,9 @@ This document is entirely auto-generated and may contain errors.<br>
 | bestValue          | {'backgroundColor': 'green50', 'color': 'green900', 'bold': '!0', 'fontSize': 'subtext3'}                                                    |
 | mostPopular        | {'backgroundColor': 'purple50', 'color': 'purple900', 'bold': '!0', 'fontSize': 'subtext3'}                                                  |
 | priority           | {'backgroundColor': 'blue50', 'color': 'blue900', 'bold': '!0', 'fontSize': 'subtext3'}                                                      |
-| alt                | k                                                                                                                                            |
-| gif                | k                                                                                                                                            |
-| hd                 | k                                                                                                                                            |
+| alt                | C                                                                                                                                            |
+| gif                | C                                                                                                                                            |
+| hd                 | C                                                                                                                                            |
 | likedByAuthor      | {'backgroundColor': 'gray50', 'bold': '!1', 'color': 'gray700'}                                                                              |
 | urlCardTitle       | {'align': 'left', 'backgroundColor': 'translucentBlack77', 'bold': '!1', 'color': 'white', 'numberOfLines': '1', 'textOverflow': 'ellipsis'} |
 
@@ -3012,7 +3013,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant                   | value                              |
 |:---------------------------|:-----------------------------------|
-| ...A                       | _                                  |
+| ...g                       | _                                  |
 | ...l()                     | _                                  |
 | text                       | o.Cj                               |
 | navigationBackground95     | #15202B                            |
@@ -3135,8 +3136,8 @@ This document is entirely auto-generated and may contain errors.<br>
 | fontSizes           | S       |
 | fontSizesPx         | _       |
 | fontWeights         | b       |
-| lineHeights         | A       |
-| lineHeightsPx       | g       |
+| lineHeights         | g       |
+| lineHeightsPx       | A       |
 | scales              | n       |
 | scaleMultiplier     | t       |
 | spaces              | D       |
@@ -3144,7 +3145,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{"...h()":{"scale":"o","scales":"l"}"an0",g.obt,n,"r"}
+{"...h()":{"scale":"o","scales":"l"}"an0",A.obt,n,"r"}
 ```
 | constant     |   value |
 |:-------------|--------:|
@@ -3172,11 +3173,11 @@ This document is entirely auto-generated and may contain errors.<br>
 
 |   constant | value               |
 |-----------:|:--------------------|
-|          0 | A.INTERNAL_ERROR    |
-|          1 | A.INVALID_MEDIA     |
-|          2 | A.FILE_TOO_LARGE    |
-|          3 | A.UNSUPPORTED_MEDIA |
-|          4 | A.TIMEOUT           |
+|          0 | g.INTERNAL_ERROR    |
+|          1 | g.INVALID_MEDIA     |
+|          2 | g.FILE_TOO_LARGE    |
+|          3 | g.UNSUPPORTED_MEDIA |
+|          4 | g.TIMEOUT           |
 
 | constant   |   value |
 |:-----------|--------:|
@@ -3527,6 +3528,12 @@ This document is entirely auto-generated and may contain errors.<br>
 | locked     | locked   |
 | unlocked   | unlocked |
 
+| constant   |   value |
+|:-----------|--------:|
+| normal     |       2 |
+| small      |       1 |
+| xSmall     |       0 |
+
 | constant      | value         |
 |:--------------|:--------------|
 | Uninitialized | UNINITIALIZED |
@@ -3610,7 +3617,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{[u.SubmitRequest]:"!0",[u.CancelRequest]:"!0",[u.GuestCancelCountdown]:"!0",[u.GuestHangUp]:"!0",[u.InviteViewersToCallIn]:"!0",[u.ToggleCallIn]:"!0",[u.BeginCountdown]:"!0",[u.HostCancelCountdown]:"!0",[u.CompleteCountdown]:"!0",[u.HangUpOnGuest]:"!0",[u.BeginConnecting]:"!0",[u.GuestBroadcastingE...
+{[d.SubmitRequest]:"!0",[d.CancelRequest]:"!0",[d.GuestCancelCountdown]:"!0",[d.GuestHangUp]:"!0",[d.InviteViewersToCallIn]:"!0",[d.ToggleCallIn]:"!0",[d.BeginCountdown]:"!0",[d.HostCancelCountdown]:"!0",[d.CompleteCountdown]:"!0",[d.HangUpOnGuest]:"!0",[d.BeginConnecting]:"!0",[d.GuestBroadcastingE...
 ```
 | constant   | value   |
 |:-----------|:--------|
@@ -5268,14 +5275,14 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant                  | value                                   |
 |:--------------------------|:----------------------------------------|
-| all                       | {'icon': 'cs', 'label': 'C().i8ea6d4e'} |
-| community                 | {'icon': 'hs', 'label': 'C().a176d0d8'} |
-| by_invitation             | {'icon': 'us', 'label': 'C().gc7e52ca'} |
-| subscribers               | {'icon': 'cs', 'label': 'C().bf8d98f4'} |
-| community_members         | {'icon': 'ms', 'label': 'C().i13be5a0'} |
-| super_followers_exclusive | {'icon': 'cs', 'label': 'C().ebe1d850'} |
-| trusted_friends_tweet     | {'icon': 'ps', 'label': 'p'}            |
-| verified                  | {'icon': '_s', 'label': 'C().b121464a'} |
+| all                       | {'icon': 'ls', 'label': 'C().i8ea6d4e'} |
+| community                 | {'icon': 'cs', 'label': 'C().a176d0d8'} |
+| by_invitation             | {'icon': 'ds', 'label': 'C().gc7e52ca'} |
+| subscribers               | {'icon': 'ls', 'label': 'C().bf8d98f4'} |
+| community_members         | {'icon': 'us', 'label': 'C().i13be5a0'} |
+| super_followers_exclusive | {'icon': 'ls', 'label': 'C().ebe1d850'} |
+| trusted_friends_tweet     | {'icon': 'hs', 'label': 'p'}            |
+| verified                  | {'icon': 'ms', 'label': 'C().b121464a'} |
 
 | constant   | value   |
 |:-----------|:--------|
@@ -5312,13 +5319,8 @@ This document is entirely auto-generated and may contain errors.<br>
 |:-------------|:-------------|
 | Speakers     | Speakers     |
 | Chat         | Chat         |
+| Settings     | Settings     |
 | Participants | Participants |
-
-| constant   |   value |
-|:-----------|--------:|
-| normal     |       2 |
-| small      |       1 |
-| xSmall     |       0 |
 
 | constant   | value    |
 |:-----------|:---------|
@@ -6338,7 +6340,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | constant    | value     |
 |:------------|:----------|
 | fetchStatus | G.ZP.NONE |
-| config      | Za        |
+| config      | Ka        |
 
 | constant              | value                 |
 |:----------------------|:----------------------|

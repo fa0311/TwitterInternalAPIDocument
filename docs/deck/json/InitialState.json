@@ -941,6 +941,15 @@
       "immersive_viewer_enable_profile_viewer": {
         "value": "false"
       },
+      "insights_ai_trends_enabled": {
+        "value": "false"
+      },
+      "insights_ai_trends_limit": {
+        "value": "5"
+      },
+      "insights_ai_trends_score_threshold": {
+        "value": "0.6"
+      },
       "insights_chart_filter_enabled": {
         "value": "false"
       },
@@ -1415,6 +1424,9 @@
       "responsive_web_disconnect_third_party_sso_enabled": {
         "value": "true"
       },
+      "responsive_web_dm_label_enabled": {
+        "value": "false"
+      },
       "responsive_web_dockable_autoplay_policy_enabled": {
         "value": "true"
       },
@@ -1532,8 +1544,11 @@
       "responsive_web_grok_delete_conversations_enabled": {
         "value": "true"
       },
+      "responsive_web_grok_file_compression_enabled": {
+        "value": "true"
+      },
       "responsive_web_grok_file_max_size": {
-        "value": "1024000"
+        "value": "5242880"
       },
       "responsive_web_grok_file_supported_mimetypes": {
         "value": [
@@ -1600,6 +1615,9 @@
       },
       "responsive_web_grok_v2_upsell_enabled": {
         "value": "true"
+      },
+      "responsive_web_grok_webview_file_actions_enabled": {
+        "value": "false"
       },
       "responsive_web_grok_webview_file_upload_enabled": {
         "value": "false"
@@ -2064,9 +2082,12 @@
         "value": "false"
       },
       "rweb_conf_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "rweb_conf_merged_audio_in_enabled": {
+        "value": "true"
+      },
+      "rweb_conf_rnnoise_enabled": {
         "value": "true"
       },
       "rweb_creator_analytics_enabled": {
@@ -3829,6 +3850,15 @@
         "immersive_viewer_enable_profile_viewer": {
           "value": "false"
         },
+        "insights_ai_trends_enabled": {
+          "value": "false"
+        },
+        "insights_ai_trends_limit": {
+          "value": "5"
+        },
+        "insights_ai_trends_score_threshold": {
+          "value": "0.6"
+        },
         "insights_chart_filter_enabled": {
           "value": "false"
         },
@@ -4303,6 +4333,9 @@
         "responsive_web_disconnect_third_party_sso_enabled": {
           "value": "true"
         },
+        "responsive_web_dm_label_enabled": {
+          "value": "false"
+        },
         "responsive_web_dockable_autoplay_policy_enabled": {
           "value": "true"
         },
@@ -4420,6 +4453,9 @@
         "responsive_web_grok_delete_conversations_enabled": {
           "value": "true"
         },
+        "responsive_web_grok_file_compression_enabled": {
+          "value": "true"
+        },
         "responsive_web_grok_file_max_size": {
           "value": "5242880"
         },
@@ -4488,6 +4524,9 @@
         },
         "responsive_web_grok_v2_upsell_enabled": {
           "value": "true"
+        },
+        "responsive_web_grok_webview_file_actions_enabled": {
+          "value": "false"
         },
         "responsive_web_grok_webview_file_upload_enabled": {
           "value": "false"
@@ -4956,6 +4995,9 @@
         },
         "rweb_conf_merged_audio_in_enabled": {
           "value": "true"
+        },
+        "rweb_conf_rnnoise_enabled": {
+          "value": "false"
         },
         "rweb_creator_analytics_enabled": {
           "value": "true"
@@ -5891,10 +5933,10 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "c7e04a735d98ee37935edae306222bbb"
+      "settingsVersion": "879f821ad2a1fe9bd84cf05adb1971a1"
     },
     "debug": {},
-    "featureSetToken": "1499ca2c4ec5f8ab5ce891faf6c8389a2fe6dbca",
+    "featureSetToken": "43eb63554af7f92539f5c832e4d5848406ad53fb",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -5964,7 +6006,7 @@
     "country": "XX",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "172531161068607235",
+    "guestId": "172548448186575394",
     "hasCommunityMemberships": "false",
     "language": "en",
     "ssoInitTokens": {},
