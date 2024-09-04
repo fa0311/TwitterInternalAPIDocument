@@ -2615,9 +2615,9 @@
       "bold": "!0",
       "fontSize": "subtext3"
     },
-    "alt": "k",
-    "gif": "k",
-    "hd": "k",
+    "alt": "C",
+    "gif": "C",
+    "hd": "C",
     "likedByAuthor": {
       "backgroundColor": "gray50",
       "bold": "!1",
@@ -5061,6 +5061,7 @@
   {
     "Speakers": "Speakers",
     "Chat": "Chat",
+    "Settings": "Settings",
     "Participants": "Participants"
   },
   {
