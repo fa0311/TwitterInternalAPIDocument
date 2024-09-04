@@ -2737,9 +2737,9 @@ This document is entirely auto-generated and may contain errors.<br>
 | bestValue          | {'backgroundColor': 'green50', 'color': 'green900', 'bold': '!0', 'fontSize': 'subtext3'}                                                    |
 | mostPopular        | {'backgroundColor': 'purple50', 'color': 'purple900', 'bold': '!0', 'fontSize': 'subtext3'}                                                  |
 | priority           | {'backgroundColor': 'blue50', 'color': 'blue900', 'bold': '!0', 'fontSize': 'subtext3'}                                                      |
-| alt                | k                                                                                                                                            |
-| gif                | k                                                                                                                                            |
-| hd                 | k                                                                                                                                            |
+| alt                | C                                                                                                                                            |
+| gif                | C                                                                                                                                            |
+| hd                 | C                                                                                                                                            |
 | likedByAuthor      | {'backgroundColor': 'gray50', 'bold': '!1', 'color': 'gray700'}                                                                              |
 | urlCardTitle       | {'align': 'left', 'backgroundColor': 'translucentBlack77', 'bold': '!1', 'color': 'white', 'numberOfLines': '1', 'textOverflow': 'ellipsis'} |
 
@@ -5319,6 +5319,7 @@ This document is entirely auto-generated and may contain errors.<br>
 |:-------------|:-------------|
 | Speakers     | Speakers     |
 | Chat         | Chat         |
+| Settings     | Settings     |
 | Participants | Participants |
 
 | constant   | value    |
