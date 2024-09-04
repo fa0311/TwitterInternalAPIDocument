@@ -4167,3 +4167,16 @@
 - responsive_web_dm_label_enabled<br>
 #### remove<br>
 - None<br>
+## 2024/09/04<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- responsive_web_grok_file_compression_enabled<br>
+- responsive_web_grok_webview_file_actions_enabled<br>
+- rweb_conf_rnnoise_enabled<br>
+#### remove<br>
+- None<br>
