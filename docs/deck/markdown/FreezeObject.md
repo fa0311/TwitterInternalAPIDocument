@@ -39,14 +39,18 @@ This document is entirely auto-generated and may contain errors.<br>
 | BalanceLevelOne     | BalanceLevelOne     |
 | BalanceLevelThree   | BalanceLevelThree   |
 | BalanceLevelTwo     | BalanceLevelTwo     |
+| CancelTransfer      | CancelTransfer      |
+| ClaimTransfer       | ClaimTransfer       |
 | CreateCustomer      | CreateCustomer      |
 | CreateDeposit       | CreateDeposit       |
 | CreatePaymentMethod | CreatePaymentMethod |
 | CreateTransfer      | CreateTransfer      |
 | CreateWithdrawal    | CreateWithdrawal    |
 | DeletePaymentMethod | DeletePaymentMethod |
+| FundSandboxAccount  | FundSandboxAccount  |
 | GetAccounts         | GetAccounts         |
 | GetCustomer         | GetCustomer         |
+| GetCustomerIdentity | GetCustomerIdentity |
 | GetPaymentMethod    | GetPaymentMethod    |
 | GetTransactions     | GetTransactions     |
 | PrefillCustomerInfo | PrefillCustomerInfo |
@@ -57,6 +61,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | TransferLevelTwo    | TransferLevelTwo    |
 | UpdateCustomer      | UpdateCustomer      |
 | VerifyIdentity      | VerifyIdentity      |
+| VerifyPin           | VerifyPin           |
 
 | constant         | value      |
 |:-----------------|:-----------|
