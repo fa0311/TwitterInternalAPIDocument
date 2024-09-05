@@ -61,14 +61,18 @@
     "BalanceLevelOne": "BalanceLevelOne",
     "BalanceLevelThree": "BalanceLevelThree",
     "BalanceLevelTwo": "BalanceLevelTwo",
+    "CancelTransfer": "CancelTransfer",
+    "ClaimTransfer": "ClaimTransfer",
     "CreateCustomer": "CreateCustomer",
     "CreateDeposit": "CreateDeposit",
     "CreatePaymentMethod": "CreatePaymentMethod",
     "CreateTransfer": "CreateTransfer",
     "CreateWithdrawal": "CreateWithdrawal",
     "DeletePaymentMethod": "DeletePaymentMethod",
+    "FundSandboxAccount": "FundSandboxAccount",
     "GetAccounts": "GetAccounts",
     "GetCustomer": "GetCustomer",
+    "GetCustomerIdentity": "GetCustomerIdentity",
     "GetPaymentMethod": "GetPaymentMethod",
     "GetTransactions": "GetTransactions",
     "PrefillCustomerInfo": "PrefillCustomerInfo",
@@ -78,7 +82,8 @@
     "TransferLevelThree": "TransferLevelThree",
     "TransferLevelTwo": "TransferLevelTwo",
     "UpdateCustomer": "UpdateCustomer",
-    "VerifyIdentity": "VerifyIdentity"
+    "VerifyIdentity": "VerifyIdentity",
+    "VerifyPin": "VerifyPin"
   },
   {
     "SINGLE_TWEET": "off",
