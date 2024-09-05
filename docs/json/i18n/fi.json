@@ -5799,7 +5799,7 @@
   "cd68cf4b": "Tämä on tiliisi liitetty ensisijainen maa. Maa auttaa meitä mukauttamaan X-käyttökokemustasi. ",
   "g66a254b": "Nämä ovat yhteystiedot, jotka olet itse tuonut mobiililaitteiltasi. Näitä tietoja käytetään X-käyttäjäkokemuksesi personointiin, kuten seurattavien tilien ehdottamiseen. Voit poistaa aiemmin tuotuja yhteystietoja ja poistaa synkronoinnin X:ään käytöstä kaikilta laitteilta. Huomaa, että tähän kuluu vähän aikaa. ",
   "ffa48331": "Kun valinta on käytössä, voit liittää julkaisuihisi sijaintitiedon. ",
-  "eecc440d": "{0} {discountedPrice} billed monthly for first {duration}month",
+  "eecc440d": "{0} {discountedPrice} laskutetaan kuukausittain ensimmäis{duration}en kuukauden ajan",
   "h4942af1": "{0} {discountedPrice} vuosittain ensimmäis{duration}en vuoden ajan",
   "ab3bf5a7": "Kun estät käyttäjän, hän ei enää voi seurata sinua tai lähettää sinulle viestejä, etkä näe ilmoituksia häneltä. ",
   "c4d3d079": "Rekisteröitymällä hyväksyt {0} ja {1} sisältäen {2}.",
