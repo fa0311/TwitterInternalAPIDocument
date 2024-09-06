@@ -6602,7 +6602,7 @@
   "cd68cf4b": "Este es el principal país asociado a tu cuenta. La información de tu país nos ayuda a personalizar tu experiencia de X. ",
   "g66a254b": "Estos son los contactos que importaste desde tus dispositivos móviles. Esta información se usa para personalizar tu experiencia en X, por ejemplo, para sugerir cuentas que puedes seguir. Puedes eliminar todos los contactos que hayas cargado previamente y desactivar la sincronización con X en todos los dispositivos. Ten en cuenta que este proceso tarda un poco. ",
   "ffa48331": "Si activas esto, podrás incluir información de ubicación en tus posts. ",
-  "eecc440d": "{0} {discountedPrice} billed monthly for first {duration}month",
+  "eecc440d": "{0} {discountedPrice} facturados mensualmente {duration}el primer mes",
   "h4942af1": "{0} {discountedPrice} facturados anualmente {duration}el primer año",
   "ab3bf5a7": "Cuando bloquees a un usuario, este no podrá seguirte ni enviarte mensajes, y no verás notificaciones relacionadas con este usuario. ",
   "c4d3d079": "Al registrarte, aceptas los {0} y la {1}, incluida la política de {2}.",

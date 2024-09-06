@@ -6609,7 +6609,7 @@
   "cd68cf4b": "Questo è il Paese principale associato al tuo account. Il Paese contribuisce alla personalizzazione della tua esperienza su X. ",
   "g66a254b": "Ecco i contatti che hai importato dal tuo dispositivo mobile. Queste informazioni vengono utilizzate per personalizzare la tua esperienza su X, come i suggerimenti di account da seguire. Puoi rimuovere tutti i contatti caricati in precedenza e disattivare la sincronizzazione con X su tutti i dispositivi ma ci vorrà un po'. ",
   "ffa48331": "Se l'opzione è abilitata, potrai allegare ai tuoi post le informazioni sulla posizione. ",
-  "eecc440d": "{0} {discountedPrice} billed monthly for first {duration}month",
+  "eecc440d": "{0} {discountedPrice} con fatturazione mensile per i{duration}l primo mese",
   "h4942af1": "{0} {discountedPrice} con fatturazione annuale per i{duration}l primo anno",
   "ab3bf5a7": "Quando blocchi qualcuno, l'utente in questione non potrà seguirti o inviarti messaggi e tu non vedrai le sue notifiche. ",
   "c4d3d079": "Iscrivendoti accetti i {0} e l'{1}, incluso l'{2}.",
