@@ -73,6 +73,7 @@
     "GetAccounts": "GetAccounts",
     "GetCustomer": "GetCustomer",
     "GetCustomerIdentity": "GetCustomerIdentity",
+    "GetInvitationDetails": "GetInvitationDetails",
     "GetPaymentMethod": "GetPaymentMethod",
     "GetTransactions": "GetTransactions",
     "PrefillCustomerInfo": "PrefillCustomerInfo",
@@ -571,7 +572,8 @@
     "upgradeToTierThree": "upgradeToTierThree",
     "upgradeToTierTwo": "upgradeToTierTwo",
     "verifyPaymentMethod": "verifyPaymentMethod",
-    "oneClickOnboarding": "oneClickOnboarding"
+    "oneClickOnboarding": "oneClickOnboarding",
+    "autoclaim": "autoclaim"
   },
   {
     "tier2": "tier2",
@@ -4393,7 +4395,7 @@
     "BLOCKED": "f",
     "BLOCKED_BY": "b"
   },
-  "{[p]:\"E\",[f]:\"_\",[b]:\"y\"}",
+  "{[p]:\"E\",[f]:\"y\",[b]:\"_\"}",
   {
     "BROADCAST_MEDIA_TYPE": "broadcast",
     "VIDEO_MEDIA_TYPE": "video"
