@@ -73,6 +73,7 @@
     "GetAccounts": "GetAccounts",
     "GetCustomer": "GetCustomer",
     "GetCustomerIdentity": "GetCustomerIdentity",
+    "GetInvitationDetails": "GetInvitationDetails",
     "GetPaymentMethod": "GetPaymentMethod",
     "GetTransactions": "GetTransactions",
     "PrefillCustomerInfo": "PrefillCustomerInfo",
@@ -177,7 +178,7 @@
     "AudioModule": "AudioModule"
   },
   {
-    "...xe": "_",
+    "...Le": "_",
     "ColumnFromPath": "ColumnFromPath",
     "ColumnTimelineAdapter": "ColumnTimelineAdapter"
   },
@@ -860,7 +861,8 @@
     "upgradeToTierThree": "upgradeToTierThree",
     "upgradeToTierTwo": "upgradeToTierTwo",
     "verifyPaymentMethod": "verifyPaymentMethod",
-    "oneClickOnboarding": "oneClickOnboarding"
+    "oneClickOnboarding": "oneClickOnboarding",
+    "autoclaim": "autoclaim"
   },
   {
     "tier2": "tier2",
@@ -1374,7 +1376,7 @@
     "OFF": "Off",
     "UNDETERMINED": "Undetermined"
   },
-  "{[x.DEFAULT]:\"B.UNDETERMINED\",[x.DENIED]:\"B.OFF\",[x.GRANTED]:\"B.ON\"}",
+  "{[L.DEFAULT]:\"B.UNDETERMINED\",[L.DENIED]:\"B.OFF\",[L.GRANTED]:\"B.ON\"}",
   {
     "REQUEST": "rweb/devices/REMOVE_PUSH_DESTINATION_REQUEST",
     "SUCCESS": "rweb/devices/REMOVE_PUSH_DESTINATION_SUCCESS",
@@ -6500,8 +6502,8 @@
     "custom": "custom"
   },
   "{[ne.r.labs]:{\"title\":\"c().f6e88162\"},[ne.r.options]:{\"title\":\"c().e6df688c\"},[ne.r.search]:{\"title\":\"c().a9ae1e78\"}}",
-  "{[ne.I1.clearBookmarks]:{\"component\":\"Ut\"},[ne.I1.clearGrok]:{\"component\":\"en\"},[ne.I1.clearTweets]:{\"component\":\"mn\"},[ne.I1.columnDebugInfo]:{\"component\":\"ge\"},[ne.I1.columnDebugState]:{\"component\":\"ye\"},[ne.I1.sharingDebug]:{\"component\":\"re.Z\"},[ne.I1.contentDisplay]:{\"component\":\"he\"},[ne.I1.conversationInfo]:{\"component\":\"tt\"},[ne.I1.duplicate]:{\"component\":\"fn\"},[ne.I1.dmSettings]:{\"component\":\"rt\"},[ne.I1.editBookmark]:{\"component\":\"kn\"},[ne.I1.exploreSettings]:{\"component\":\"vn\"},[ne.I1.filters]:{\"component\":\"bt\"},[ne.I1.grokMode]:{\"component\":\"Rn\"},[ne.I1.largeWidth]:{\"component\":e=>o.createElement(){},e,{\"withNarrow\":\"!1\"}},[ne.I1.mediaPreviewRepliesLabel]:{\"component\":e=>o.createElement(){},e,{\"withRepliesLabel\":\"!0\"}},[ne.I1.mediaPreview]:{\"component\":\"Ae\"},[ne.I1.notificationOptions]:{\"component\":\"ro\"},[ne.I1.reportList]:{\"component\":\"wo\"},[ne.I1.blockUser]:{\"component\":\"Bt\"},[ne.I1.makeDeck]:{\"component\":\"Yn\"},[ne.I1.move]:{\"component\":\"no\"},[ne.I1.searchConversion]:{\"component\":\"Zo\"},[ne.I1.share]:{\"component\":\"Fo\"},[ne.I1.title]:{\"component\":\"Fe\"},[ne.I1.width]:{\"component\":\"$e\"},[ne.I1.remove]:{\"component\":\"ho\"}}",
-  "{[Hl.X.conversationSettings]:{\"component\":\"ql\",\"showInStack\":\"!0\"},[Hl.X.drawerToggle]:{\"component\":\"er\",\"showInStack\":\"!1\"},[Hl.X.makeDeck]:{\"component\":\"rr\",\"showInStack\":\"!0\"},[Hl.X.newMessage]:{\"component\":\"ur\",\"showInStack\":\"!0\"},[Hl.X.remove]:{\"component\":\"mr.Z\",\"showInStack\":\"!1\"},[Hl.X.search]:{\"component\":\"Sr\",\"showInStack\":\"!1\"},[Hl.X.toggleContentDisplay]:{\"component\":\"Tr\",\"showInStack\":\"!1\"},[Hl.X.clearTweets]:{\"component\":\"Gl\",\"showInStack\":\"!1\"}}",
+  "{[ne.I1.clearBookmarks]:{\"component\":\"Ut\"},[ne.I1.clearGrok]:{\"component\":\"en\"},[ne.I1.clearTweets]:{\"component\":\"mn\"},[ne.I1.columnDebugInfo]:{\"component\":\"ge\"},[ne.I1.columnDebugState]:{\"component\":\"ye\"},[ne.I1.sharingDebug]:{\"component\":\"re.Z\"},[ne.I1.contentDisplay]:{\"component\":\"pe\"},[ne.I1.conversationInfo]:{\"component\":\"tt\"},[ne.I1.duplicate]:{\"component\":\"fn\"},[ne.I1.dmSettings]:{\"component\":\"rt\"},[ne.I1.editBookmark]:{\"component\":\"kn\"},[ne.I1.exploreSettings]:{\"component\":\"An\"},[ne.I1.filters]:{\"component\":\"bt\"},[ne.I1.grokMode]:{\"component\":\"Rn\"},[ne.I1.largeWidth]:{\"component\":e=>o.createElement(){},e,{\"withNarrow\":\"!1\"}},[ne.I1.mediaPreviewRepliesLabel]:{\"component\":e=>o.createElement(){},e,{\"withRepliesLabel\":\"!0\"}},[ne.I1.mediaPreview]:{\"component\":\"ve\"},[ne.I1.notificationOptions]:{\"component\":\"ro\"},[ne.I1.reportList]:{\"component\":\"wo\"},[ne.I1.blockUser]:{\"component\":\"Bt\"},[ne.I1.makeDeck]:{\"component\":\"Yn\"},[ne.I1.move]:{\"component\":\"no\"},[ne.I1.searchConversion]:{\"component\":\"To\"},[ne.I1.share]:{\"component\":\"Fo\"},[ne.I1.title]:{\"component\":\"Fe\"},[ne.I1.width]:{\"component\":\"$e\"},[ne.I1.remove]:{\"component\":\"po\"}}",
+  "{[Hl.X.conversationSettings]:{\"component\":\"ql\",\"showInStack\":\"!0\"},[Hl.X.drawerToggle]:{\"component\":\"er\",\"showInStack\":\"!1\"},[Hl.X.makeDeck]:{\"component\":\"rr\",\"showInStack\":\"!0\"},[Hl.X.newMessage]:{\"component\":\"ur\",\"showInStack\":\"!0\"},[Hl.X.remove]:{\"component\":\"mr.Z\",\"showInStack\":\"!1\"},[Hl.X.search]:{\"component\":\"Sr\",\"showInStack\":\"!1\"},[Hl.X.toggleContentDisplay]:{\"component\":\"Zr\",\"showInStack\":\"!1\"},[Hl.X.clearTweets]:{\"component\":\"Gl\",\"showInStack\":\"!1\"}}",
   {
     "welcomeNewUser": "welcomeNewUser",
     "welcomeLegacyUser": "welcomeLegacyUser",
