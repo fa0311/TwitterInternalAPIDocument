@@ -33,35 +33,36 @@ This document is entirely auto-generated and may contain errors.<br>
 | Top        | Top      |
 | Upcoming   | Upcoming |
 
-| constant            | value               |
-|:--------------------|:--------------------|
-| BalanceLevelFour    | BalanceLevelFour    |
-| BalanceLevelOne     | BalanceLevelOne     |
-| BalanceLevelThree   | BalanceLevelThree   |
-| BalanceLevelTwo     | BalanceLevelTwo     |
-| CancelTransfer      | CancelTransfer      |
-| ClaimTransfer       | ClaimTransfer       |
-| CreateCustomer      | CreateCustomer      |
-| CreateDeposit       | CreateDeposit       |
-| CreatePaymentMethod | CreatePaymentMethod |
-| CreateTransfer      | CreateTransfer      |
-| CreateWithdrawal    | CreateWithdrawal    |
-| DeletePaymentMethod | DeletePaymentMethod |
-| FundSandboxAccount  | FundSandboxAccount  |
-| GetAccounts         | GetAccounts         |
-| GetCustomer         | GetCustomer         |
-| GetCustomerIdentity | GetCustomerIdentity |
-| GetPaymentMethod    | GetPaymentMethod    |
-| GetTransactions     | GetTransactions     |
-| PrefillCustomerInfo | PrefillCustomerInfo |
-| RefundTransaction   | RefundTransaction   |
-| TransferLevelFour   | TransferLevelFour   |
-| TransferLevelOne    | TransferLevelOne    |
-| TransferLevelThree  | TransferLevelThree  |
-| TransferLevelTwo    | TransferLevelTwo    |
-| UpdateCustomer      | UpdateCustomer      |
-| VerifyIdentity      | VerifyIdentity      |
-| VerifyPin           | VerifyPin           |
+| constant             | value                |
+|:---------------------|:---------------------|
+| BalanceLevelFour     | BalanceLevelFour     |
+| BalanceLevelOne      | BalanceLevelOne      |
+| BalanceLevelThree    | BalanceLevelThree    |
+| BalanceLevelTwo      | BalanceLevelTwo      |
+| CancelTransfer       | CancelTransfer       |
+| ClaimTransfer        | ClaimTransfer        |
+| CreateCustomer       | CreateCustomer       |
+| CreateDeposit        | CreateDeposit        |
+| CreatePaymentMethod  | CreatePaymentMethod  |
+| CreateTransfer       | CreateTransfer       |
+| CreateWithdrawal     | CreateWithdrawal     |
+| DeletePaymentMethod  | DeletePaymentMethod  |
+| FundSandboxAccount   | FundSandboxAccount   |
+| GetAccounts          | GetAccounts          |
+| GetCustomer          | GetCustomer          |
+| GetCustomerIdentity  | GetCustomerIdentity  |
+| GetInvitationDetails | GetInvitationDetails |
+| GetPaymentMethod     | GetPaymentMethod     |
+| GetTransactions      | GetTransactions      |
+| PrefillCustomerInfo  | PrefillCustomerInfo  |
+| RefundTransaction    | RefundTransaction    |
+| TransferLevelFour    | TransferLevelFour    |
+| TransferLevelOne     | TransferLevelOne     |
+| TransferLevelThree   | TransferLevelThree   |
+| TransferLevelTwo     | TransferLevelTwo     |
+| UpdateCustomer       | UpdateCustomer       |
+| VerifyIdentity       | VerifyIdentity       |
+| VerifyPin            | VerifyPin            |
 
 | constant         | value      |
 |:-----------------|:-----------|
@@ -167,7 +168,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant              | value                 |
 |:----------------------|:----------------------|
-| ...xe                 | _                     |
+| ...Le                 | _                     |
 | ColumnFromPath        | ColumnFromPath        |
 | ColumnTimelineAdapter | ColumnTimelineAdapter |
 
@@ -915,6 +916,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | upgradeToTierTwo    | upgradeToTierTwo    |
 | verifyPaymentMethod | verifyPaymentMethod |
 | oneClickOnboarding  | oneClickOnboarding  |
+| autoclaim           | autoclaim           |
 
 | constant   | value   |
 |:-----------|:--------|
@@ -1430,7 +1432,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{[x.DEFAULT]:"B.UNDETERMINED",[x.DENIED]:"B.OFF",[x.GRANTED]:"B.ON"}
+{[L.DEFAULT]:"B.UNDETERMINED",[L.DENIED]:"B.OFF",[L.GRANTED]:"B.ON"}
 ```
 | constant   | value                                        |
 |:-----------|:---------------------------------------------|
@@ -6961,7 +6963,7 @@ This document is entirely auto-generated and may contain errors.<br>
 ```
 ```internal process
 # Error
-{[ne.I1.clearBookmarks]:{"component":"Ut"},[ne.I1.clearGrok]:{"component":"en"},[ne.I1.clearTweets]:{"component":"mn"},[ne.I1.columnDebugInfo]:{"component":"ge"},[ne.I1.columnDebugState]:{"component":"ye"},[ne.I1.sharingDebug]:{"component":"re.Z"},[ne.I1.contentDisplay]:{"component":"he"},[ne.I1.con...
+{[ne.I1.clearBookmarks]:{"component":"Ut"},[ne.I1.clearGrok]:{"component":"en"},[ne.I1.clearTweets]:{"component":"mn"},[ne.I1.columnDebugInfo]:{"component":"ge"},[ne.I1.columnDebugState]:{"component":"ye"},[ne.I1.sharingDebug]:{"component":"re.Z"},[ne.I1.contentDisplay]:{"component":"pe"},[ne.I1.con...
 ```
 ```internal process
 # Error
