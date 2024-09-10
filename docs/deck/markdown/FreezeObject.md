@@ -2744,9 +2744,9 @@ This document is entirely auto-generated and may contain errors.<br>
 | bestValue          | {'backgroundColor': 'green50', 'color': 'green900', 'bold': '!0', 'fontSize': 'subtext3'}                                                    |
 | mostPopular        | {'backgroundColor': 'purple50', 'color': 'purple900', 'bold': '!0', 'fontSize': 'subtext3'}                                                  |
 | priority           | {'backgroundColor': 'blue50', 'color': 'blue900', 'bold': '!0', 'fontSize': 'subtext3'}                                                      |
-| alt                | C                                                                                                                                            |
-| gif                | C                                                                                                                                            |
-| hd                 | C                                                                                                                                            |
+| alt                | k                                                                                                                                            |
+| gif                | k                                                                                                                                            |
+| hd                 | k                                                                                                                                            |
 | likedByAuthor      | {'backgroundColor': 'gray50', 'bold': '!1', 'color': 'gray700'}                                                                              |
 | urlCardTitle       | {'align': 'left', 'backgroundColor': 'translucentBlack77', 'bold': '!1', 'color': 'white', 'numberOfLines': '1', 'textOverflow': 'ellipsis'} |
 
@@ -6989,12 +6989,56 @@ This document is entirely auto-generated and may contain errors.<br>
 | single_line   | singleline    |
 | format_inline | format-inline |
 
-| constant   | value     |
-|:-----------|:----------|
-| Speed      | Speed     |
-| Quality    | Quality   |
-| ReportDSA  | ReportDSA |
+| constant          | value             |
+|:------------------|:------------------|
+| FontColor         | FontColor         |
+| FontSize          | FontSize          |
+| FontFamily        | FontFamily        |
+| TextOpacity       | TextOpacity       |
+| BackgroundColor   | BackgroundColor   |
+| BackgroundOpacity | BackgroundOpacity |
 
+| constant        | value           |
+|:----------------|:----------------|
+| Color           | color           |
+| FontSize        | fontSize        |
+| FontFamily      | fontFamily      |
+| BackgroundColor | backgroundColor |
+
+| constant     | value        |
+|:-------------|:-------------|
+| CaptionStyle | CaptionStyle |
+| Speed        | Speed        |
+| Quality      | Quality      |
+| ReportDSA    | ReportDSA    |
+| ...Ct        | _            |
+
+| constant   | value                    |
+|:-----------|:-------------------------|
+| White      | rgba()                   |
+| Yellow     | rgba(255, 255, 255, 1.0) |
+| Green      | rgba(255, 255, 0, 1.0)   |
+| Cyan       | rgba(0, 255, 0, 1.0)     |
+| Blue       | rgba(0, 255, 255, 1.0)   |
+| Magenta    | rgba(0, 0, 255, 1.0)     |
+| Red        | rgba(255, 0, 255, 1.0)   |
+| Black      | rgba(255, 0, 0, 1.0)     |
+
+| constant   | value                    |
+|:-----------|:-------------------------|
+| White      | rgba()                   |
+| Yellow     | rgba(255, 255, 255, 0.5) |
+| Green      | rgba(255, 255, 0, 0.5)   |
+| Cyan       | rgba(0, 255, 0, 0.5)     |
+| Blue       | rgba(0, 255, 255, 0.5)   |
+| Magenta    | rgba(0, 0, 255, 0.5)     |
+| Red        | rgba(255, 0, 255, 0.5)   |
+| Black      | rgba(255, 0, 0, 0.5)     |
+
+```internal process
+# Error
+{[Ct.FontColor]:{"type":"Ct.FontColor","propertyName":"color","styleName":"Et.Color","displayName":"S().c2c5dea4","values":"Lt"},[Ct.FontSize]:{"type":"Ct.FontSize","propertyName":"font-size","styleName":"Et.FontSize","displayName":"S().ce494bb4","values":[{"name":"50%","value":"50%"},{"name":"75%",...
+```
 | constant   | value                            |
 |:-----------|:---------------------------------|
 | REQUEST    | rweb/promotedContent/LOG_REQUEST |
