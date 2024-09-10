@@ -33,35 +33,36 @@ This document is entirely auto-generated and may contain errors.<br>
 | Top        | Top      |
 | Upcoming   | Upcoming |
 
-| constant            | value               |
-|:--------------------|:--------------------|
-| BalanceLevelFour    | BalanceLevelFour    |
-| BalanceLevelOne     | BalanceLevelOne     |
-| BalanceLevelThree   | BalanceLevelThree   |
-| BalanceLevelTwo     | BalanceLevelTwo     |
-| CancelTransfer      | CancelTransfer      |
-| ClaimTransfer       | ClaimTransfer       |
-| CreateCustomer      | CreateCustomer      |
-| CreateDeposit       | CreateDeposit       |
-| CreatePaymentMethod | CreatePaymentMethod |
-| CreateTransfer      | CreateTransfer      |
-| CreateWithdrawal    | CreateWithdrawal    |
-| DeletePaymentMethod | DeletePaymentMethod |
-| FundSandboxAccount  | FundSandboxAccount  |
-| GetAccounts         | GetAccounts         |
-| GetCustomer         | GetCustomer         |
-| GetCustomerIdentity | GetCustomerIdentity |
-| GetPaymentMethod    | GetPaymentMethod    |
-| GetTransactions     | GetTransactions     |
-| PrefillCustomerInfo | PrefillCustomerInfo |
-| RefundTransaction   | RefundTransaction   |
-| TransferLevelFour   | TransferLevelFour   |
-| TransferLevelOne    | TransferLevelOne    |
-| TransferLevelThree  | TransferLevelThree  |
-| TransferLevelTwo    | TransferLevelTwo    |
-| UpdateCustomer      | UpdateCustomer      |
-| VerifyIdentity      | VerifyIdentity      |
-| VerifyPin           | VerifyPin           |
+| constant             | value                |
+|:---------------------|:---------------------|
+| BalanceLevelFour     | BalanceLevelFour     |
+| BalanceLevelOne      | BalanceLevelOne      |
+| BalanceLevelThree    | BalanceLevelThree    |
+| BalanceLevelTwo      | BalanceLevelTwo      |
+| CancelTransfer       | CancelTransfer       |
+| ClaimTransfer        | ClaimTransfer        |
+| CreateCustomer       | CreateCustomer       |
+| CreateDeposit        | CreateDeposit        |
+| CreatePaymentMethod  | CreatePaymentMethod  |
+| CreateTransfer       | CreateTransfer       |
+| CreateWithdrawal     | CreateWithdrawal     |
+| DeletePaymentMethod  | DeletePaymentMethod  |
+| FundSandboxAccount   | FundSandboxAccount   |
+| GetAccounts          | GetAccounts          |
+| GetCustomer          | GetCustomer          |
+| GetCustomerIdentity  | GetCustomerIdentity  |
+| GetInvitationDetails | GetInvitationDetails |
+| GetPaymentMethod     | GetPaymentMethod     |
+| GetTransactions      | GetTransactions      |
+| PrefillCustomerInfo  | PrefillCustomerInfo  |
+| RefundTransaction    | RefundTransaction    |
+| TransferLevelFour    | TransferLevelFour    |
+| TransferLevelOne     | TransferLevelOne     |
+| TransferLevelThree   | TransferLevelThree   |
+| TransferLevelTwo     | TransferLevelTwo     |
+| UpdateCustomer       | UpdateCustomer       |
+| VerifyIdentity       | VerifyIdentity       |
+| VerifyPin            | VerifyPin            |
 
 | constant         | value      |
 |:-----------------|:-----------|
@@ -584,6 +585,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | upgradeToTierTwo    | upgradeToTierTwo    |
 | verifyPaymentMethod | verifyPaymentMethod |
 | oneClickOnboarding  | oneClickOnboarding  |
+| autoclaim           | autoclaim           |
 
 | constant   | value   |
 |:-----------|:--------|
@@ -4625,7 +4627,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{[p]:"E",[f]:"_",[b]:"y"}
+{[p]:"E",[f]:"y",[b]:"_"}
 ```
 | constant             | value     |
 |:---------------------|:----------|
