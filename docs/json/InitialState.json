@@ -1882,6 +1882,9 @@
       "responsive_web_tv_cast_enabled": {
         "value": "true"
       },
+      "responsive_web_tv_cast_show_controls_enabled": {
+        "value": "false"
+      },
       "responsive_web_tv_screen_logging_enabled": {
         "value": "false"
       },
@@ -4782,6 +4785,9 @@
         "responsive_web_tv_cast_enabled": {
           "value": "true"
         },
+        "responsive_web_tv_cast_show_controls_enabled": {
+          "value": "false"
+        },
         "responsive_web_tv_screen_logging_enabled": {
           "value": "false"
         },
@@ -5908,7 +5914,7 @@
       "settingsVersion": "39169fa4f5245a3eaa5e23ec04608e8d"
     },
     "debug": {},
-    "featureSetToken": "86d9aed6d73a75fbe99cfaa0105062a747eef98b",
+    "featureSetToken": "bc66f866a032f169905260d3dc89182ed4dbd477",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -5978,7 +5984,7 @@
     "country": "XX",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "172591611216952729",
+    "guestId": "172600253421384487",
     "hasCommunityMemberships": "false",
     "language": "en",
     "ssoInitTokens": {},
