@@ -6047,10 +6047,47 @@
     "Reserved7": "Reserved7"
   },
   {
+    "FontColor": "FontColor",
+    "FontSize": "FontSize",
+    "FontFamily": "FontFamily",
+    "TextOpacity": "TextOpacity",
+    "BackgroundColor": "BackgroundColor",
+    "BackgroundOpacity": "BackgroundOpacity"
+  },
+  {
+    "Color": "color",
+    "FontSize": "fontSize",
+    "FontFamily": "fontFamily",
+    "BackgroundColor": "backgroundColor"
+  },
+  {
+    "CaptionStyle": "CaptionStyle",
     "Speed": "Speed",
     "Quality": "Quality",
-    "ReportDSA": "ReportDSA"
+    "ReportDSA": "ReportDSA",
+    "...Ct": "_"
   },
+  {
+    "White": "rgba()",
+    "Yellow": "rgba(255, 255, 255, 1.0)",
+    "Green": "rgba(255, 255, 0, 1.0)",
+    "Cyan": "rgba(0, 255, 0, 1.0)",
+    "Blue": "rgba(0, 255, 255, 1.0)",
+    "Magenta": "rgba(0, 0, 255, 1.0)",
+    "Red": "rgba(255, 0, 255, 1.0)",
+    "Black": "rgba(255, 0, 0, 1.0)"
+  },
+  {
+    "White": "rgba()",
+    "Yellow": "rgba(255, 255, 255, 0.5)",
+    "Green": "rgba(255, 255, 0, 0.5)",
+    "Cyan": "rgba(0, 255, 0, 0.5)",
+    "Blue": "rgba(0, 255, 255, 0.5)",
+    "Magenta": "rgba(0, 0, 255, 0.5)",
+    "Red": "rgba(255, 0, 255, 0.5)",
+    "Black": "rgba(255, 0, 0, 0.5)"
+  },
+  "{[Ct.FontColor]:{\"type\":\"Ct.FontColor\",\"propertyName\":\"color\",\"styleName\":\"Et.Color\",\"displayName\":\"S().c2c5dea4\",\"values\":\"Lt\"},[Ct.FontSize]:{\"type\":\"Ct.FontSize\",\"propertyName\":\"font-size\",\"styleName\":\"Et.FontSize\",\"displayName\":\"S().ce494bb4\",\"values\":[{\"name\":\"50%\",\"value\":\"50%\"},{\"name\":\"75%\",\"value\":\"75%\"},{\"name\":\"100%\",\"value\":\"100%\"},{\"name\":\"200%\",\"value\":\"200%\"},{\"name\":\"300%\",\"value\":\"300%\"}]},[Ct.FontFamily]:{\"type\":\"Ct.FontFamily\",\"propertyName\":\"font-family\",\"styleName\":\"Et.FontFamily\",\"displayName\":\"S().ce71b3d0\",\"values\":[{\"name\":\"S().d2eb1582\",\"value\":\"\"},{\"name\":\"S().e684030e\",\"value\":\"Arial, sans-serif\",\"textStyle\":{\"fontFamily\":\"Arial, sans-serif\"}},{\"name\":\"S().jad3900c\",\"value\":'\"Times New Roman\", serif',\"textStyle\":{\"fontFamily\":'\"Times New Roman\", serif'}},{\"name\":\"S().e205f3a0\",\"value\":'\"Courier New\", monospace',\"textStyle\":{\"fontFamily\":'\"Courier New\", monospace'}}]},[Ct.TextOpacity]:{\"type\":\"Ct.TextOpacity\",\"propertyName\":\"color\",\"styleName\":\"Et.Color\",\"displayName\":\"S().d207d39a\",\"values\":[{\"name\":\"50%\",\"value\":\"0.5\",\"isEqual\":\"Tt()\"},{\"name\":\"75%\",\"value\":\"0.75\",\"isEqual\":\"Tt()\"},{\"name\":\"100%\",\"value\":\"1.0\",\"isEqual\":\"Tt()\"}]},[Ct.BackgroundColor]:{\"type\":\"Ct.BackgroundColor\",\"propertyName\":\"background\",\"styleName\":\"Et.BackgroundColor\",\"displayName\":\"S().a562039c\",\"values\":\"At\"},[Ct.BackgroundOpacity]:{\"type\":\"Ct.BackgroundOpacity\",\"propertyName\":\"background\",\"styleName\":\"Et.BackgroundColor\",\"displayName\":\"S().h44e879e\",\"values\":[{\"name\":\"25%\",\"value\":\"0.25\",\"isEqual\":\"Mt()\"},{\"name\":\"50%\",\"value\":\"0.5\",\"isEqual\":\"Mt()\"},{\"name\":\"75%\",\"value\":\"0.75\",\"isEqual\":\"Mt()\"},{\"name\":\"100%\",\"value\":\"1.0\",\"isEqual\":\"Mt()\"}]}}",
   {
     "REQUEST": "rweb/promotedContent/LOG_REQUEST",
     "SUCCESS": "rweb/promotedContent/LOG_SUCCESS",
