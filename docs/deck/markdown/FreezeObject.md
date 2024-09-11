@@ -3499,6 +3499,12 @@ This document is entirely auto-generated and may contain errors.<br>
 | JanusPollerResponseEnumUnknown                      | JanusPollerResponseEnumUnknown                      |
 | JanusPollerResponseEnumError                        | JanusPollerResponseEnumError                        |
 
+| constant              | value                 |
+|:----------------------|:----------------------|
+| JanusReceivingUnknown | JanusReceivingUnknown |
+| JanusReceivingOK      | JanusReceivingOK      |
+| JanusNotReceiving     | JanusNotReceiving     |
+
 | constant     |   value |
 |:-------------|--------:|
 | Disconnected |       0 |
@@ -3511,12 +3517,6 @@ This document is entirely auto-generated and may contain errors.<br>
 |:-----------|:-----------|
 | Publisher  | publisher  |
 | Subscriber | subscriber |
-
-| constant              | value                 |
-|:----------------------|:----------------------|
-| JanusReceivingUnknown | JanusReceivingUnknown |
-| JanusReceivingOK      | JanusReceivingOK      |
-| JanusNotReceiving     | JanusNotReceiving     |
 
 | constant     |   value |
 |:-------------|--------:|
@@ -6154,6 +6154,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | seniority       | []      |
 | companyName     |         |
 | employmentTypes | []      |
+| industry        |         |
 
 | constant              | value                                                                                                                                                                                                                                                         |
 |:----------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -7037,7 +7038,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{[Ct.FontColor]:{"type":"Ct.FontColor","propertyName":"color","styleName":"Et.Color","displayName":"S().c2c5dea4","values":"Lt"},[Ct.FontSize]:{"type":"Ct.FontSize","propertyName":"font-size","styleName":"Et.FontSize","displayName":"S().ce494bb4","values":[{"name":"50%","value":"50%"},{"name":"75%",...
+{[Ct.FontColor]:{"type":"Ct.FontColor","propertyName":"color","styleName":"Et.Color","displayName":"x().c2c5dea4","values":"Lt"},[Ct.FontSize]:{"type":"Ct.FontSize","propertyName":"font-size","styleName":"Et.FontSize","displayName":"x().ce494bb4","values":[{"name":"50%","value":"50%"},{"name":"75%",...
 ```
 | constant   | value                            |
 |:-----------|:---------------------------------|
