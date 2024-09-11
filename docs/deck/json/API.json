@@ -3840,8 +3840,8 @@
       }
     },
     "BirdwatchFetchContributorNotesSlice": {
-      "url": "https://x.com/i/api/graphql/QDC16Dag-V7M4ZIpFFsNvw/BirdwatchFetchContributorNotesSlice",
-      "queryId": "QDC16Dag-V7M4ZIpFFsNvw",
+      "url": "https://x.com/i/api/graphql/UTqroyQoGoJ4kIUYj2FxgQ/BirdwatchFetchContributorNotesSlice",
+      "queryId": "UTqroyQoGoJ4kIUYj2FxgQ",
       "method": "GET",
       "features": {
         "responsive_web_birdwatch_media_notes_enabled": true,
@@ -3883,8 +3883,8 @@
       "features": {}
     },
     "BirdwatchCreateNote": {
-      "url": "https://x.com/i/api/graphql/x8P2D5IURH2pedYotYuLPg/BirdwatchCreateNote",
-      "queryId": "x8P2D5IURH2pedYotYuLPg",
+      "url": "https://x.com/i/api/graphql/s1dqV02ubRTzJyeCLJDUOA/BirdwatchCreateNote",
+      "queryId": "s1dqV02ubRTzJyeCLJDUOA",
       "method": "POST",
       "features": {
         "responsive_web_birdwatch_media_notes_enabled": true,
@@ -4020,8 +4020,8 @@
       }
     },
     "BirdwatchFetchNotes": {
-      "url": "https://x.com/i/api/graphql/dXahn3PnV__Cv8bNeeoAEw/BirdwatchFetchNotes",
-      "queryId": "dXahn3PnV__Cv8bNeeoAEw",
+      "url": "https://x.com/i/api/graphql/p-CVMyCQg7ZObeL4OvsQcg/BirdwatchFetchNotes",
+      "queryId": "p-CVMyCQg7ZObeL4OvsQcg",
       "method": "GET",
       "features": {
         "responsive_web_birdwatch_media_notes_enabled": true,
@@ -4035,8 +4035,8 @@
       }
     },
     "BirdwatchFetchOneNote": {
-      "url": "https://x.com/i/api/graphql/C3gksbRr7pTLju2MI3z-XA/BirdwatchFetchOneNote",
-      "queryId": "C3gksbRr7pTLju2MI3z-XA",
+      "url": "https://x.com/i/api/graphql/t-op2R8aP11yLcAeMHbCMg/BirdwatchFetchOneNote",
+      "queryId": "t-op2R8aP11yLcAeMHbCMg",
       "method": "GET",
       "features": {
         "responsive_web_birdwatch_media_notes_enabled": true,
