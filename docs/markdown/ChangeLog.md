@@ -4224,3 +4224,27 @@
 - responsive_web_left_nav_refresh_connect_enabled<br>
 - responsive_web_left_nav_refresh_topics_enabled<br>
 - responsive_web_reader_extended_menu<br>
+## 2024/09/12<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- rweb_conf_less_video_enabled<br>
+#### remove<br>
+- responsive_web_grok_model_selector_enabled<br>
+- responsive_web_restrict_max_timeline_tweet_height<br>
+## 2024/09/13<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- insights_multiple_rules_enabled<br>
+- rweb_timeline_inline_show_more_enabled<br>
+#### remove<br>
+- None<br>

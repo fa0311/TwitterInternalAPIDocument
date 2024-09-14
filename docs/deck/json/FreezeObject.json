@@ -3271,6 +3271,11 @@
     }
   },
   {
+    "Active": "active",
+    "Expand": "expand",
+    "Remove": "remove"
+  },
+  {
     "SelfHarm": "SELF_HARM",
     "Violence": "VIOLENCE",
     "SexualContent": "SEXUAL_CONTENT",
@@ -3442,11 +3447,6 @@
   },
   {
     "TopicFilled": "TOPIC_FILLED"
-  },
-  {
-    "Active": "active",
-    "Expand": "expand",
-    "Remove": "remove"
   },
   {
     "on": "on",
@@ -4000,7 +4000,7 @@
     "single_line": "singleline",
     "format_inline": "format-inline"
   },
-  "{\"ActionsBar\":\"y.Z\",\"ActionMenu\":\"function()\"{\"Icon\":\"e\",\"isDisabled\":\"t\",\"items\":\"n\",\"onOpen\":\"o\"}{\"const r=i.useCallback()\"{\"items\":\"n\",\"onCloseRequested\":\"e\"}{\"Icon\":\"e\",\"isDisabled\":\"t\",\"onClick\":\"o\",\"renderActionMenu\":\"r\"}},\"CallToAction\":\"a.ZP\",\"EditCallout\":\"C.Z\",\"Education\":\"E.Z\",\"HighlightedUserLabel\":\"c.Z\",\"Media\":\"k.Z\",\"Place\":\"r.ZP\",\"PromotedDetails\":\"u.Z\",\"PromotedUserProfileCard\":\"P\",\"ReplyContext\":\"Z.ZP\",\"RichContent\":\"L.Z\",\"SocialContext\":\"g.Z\",\"Text\":\"D.Z\",\"Tombstone\":\"_.Z\",\"Timestamp\":\"p.Z\",\"UserAvatar\":\"M.Z\",\"UserFollowIndicator\":\"B.Z\",\"UserName\":\"R.Z\",\"ArticleCard\":\"v.Z\"}",
+  "{\"ActionsBar\":\"y.Z\",\"ActionMenu\":\"function()\"{\"Icon\":\"e\",\"isDisabled\":\"t\",\"items\":\"n\",\"onOpen\":\"o\"}{\"const r=i.useCallback()\"{\"items\":\"n\",\"onCloseRequested\":\"e\"}{\"Icon\":\"e\",\"isDisabled\":\"t\",\"onClick\":\"o\",\"renderActionMenu\":\"r\"}},\"CallToAction\":\"a.ZP\",\"EditCallout\":\"C.Z\",\"Education\":\"E.Z\",\"HighlightedUserLabel\":\"c.Z\",\"Media\":\"k.Z\",\"Place\":\"r.ZP\",\"PromotedDetails\":\"u.Z\",\"PromotedUserProfileCard\":\"P\",\"ReplyContext\":\"Z.ZP\",\"RichContent\":\"L.Z\",\"SocialContext\":\"g.Z\",\"Text\":\"D.Z\",\"Tombstone\":\"w.Z\",\"Timestamp\":\"p.Z\",\"UserAvatar\":\"M.Z\",\"UserFollowIndicator\":\"B.Z\",\"UserName\":\"R.Z\",\"ArticleCard\":\"v.Z\"}",
   {
     "home": "home",
     "post": "post"
@@ -5009,35 +5009,35 @@
   },
   {
     "all": {
-      "icon": "ls",
+      "icon": "cs",
       "label": "C().i8ea6d4e"
     },
     "community": {
-      "icon": "cs",
+      "icon": "hs",
       "label": "C().a176d0d8"
     },
     "by_invitation": {
-      "icon": "ds",
+      "icon": "us",
       "label": "C().gc7e52ca"
     },
     "subscribers": {
-      "icon": "ls",
+      "icon": "cs",
       "label": "C().bf8d98f4"
     },
     "community_members": {
-      "icon": "us",
+      "icon": "ms",
       "label": "C().i13be5a0"
     },
     "super_followers_exclusive": {
-      "icon": "ls",
+      "icon": "cs",
       "label": "C().ebe1d850"
     },
     "trusted_friends_tweet": {
-      "icon": "hs",
+      "icon": "ps",
       "label": "p"
     },
     "verified": {
-      "icon": "ms",
+      "icon": "_s",
       "label": "C().b121464a"
     }
   },

@@ -3138,3 +3138,14 @@
 - responsive_web_left_nav_refresh_connect_enabled<br>
 - responsive_web_left_nav_refresh_topics_enabled<br>
 - responsive_web_reader_extended_menu<br>
+## 2024/09/12<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- responsive_web_grok_model_selector_enabled<br>

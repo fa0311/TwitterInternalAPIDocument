@@ -3442,6 +3442,12 @@ This document is entirely auto-generated and may contain errors.<br>
 | success    | {'aria-live': 'polite'}    |
 | warning    | {'aria-live': 'polite'}    |
 
+| constant   | value   |
+|:-----------|:--------|
+| Active     | active  |
+| Expand     | expand  |
+| Remove     | remove  |
+
 | constant           | value          |
 |:-------------------|:---------------|
 | SelfHarm           | SELF_HARM      |
@@ -3634,12 +3640,6 @@ This document is entirely auto-generated and may contain errors.<br>
 | constant    | value        |
 |:------------|:-------------|
 | TopicFilled | TOPIC_FILLED |
-
-| constant   | value   |
-|:-----------|:--------|
-| Active     | active  |
-| Expand     | expand  |
-| Remove     | remove  |
 
 | constant    | value       |
 |:------------|:------------|
@@ -5282,14 +5282,14 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant                  | value                                   |
 |:--------------------------|:----------------------------------------|
-| all                       | {'icon': 'ls', 'label': 'C().i8ea6d4e'} |
-| community                 | {'icon': 'cs', 'label': 'C().a176d0d8'} |
-| by_invitation             | {'icon': 'ds', 'label': 'C().gc7e52ca'} |
-| subscribers               | {'icon': 'ls', 'label': 'C().bf8d98f4'} |
-| community_members         | {'icon': 'us', 'label': 'C().i13be5a0'} |
-| super_followers_exclusive | {'icon': 'ls', 'label': 'C().ebe1d850'} |
-| trusted_friends_tweet     | {'icon': 'hs', 'label': 'p'}            |
-| verified                  | {'icon': 'ms', 'label': 'C().b121464a'} |
+| all                       | {'icon': 'cs', 'label': 'C().i8ea6d4e'} |
+| community                 | {'icon': 'hs', 'label': 'C().a176d0d8'} |
+| by_invitation             | {'icon': 'us', 'label': 'C().gc7e52ca'} |
+| subscribers               | {'icon': 'cs', 'label': 'C().bf8d98f4'} |
+| community_members         | {'icon': 'ms', 'label': 'C().i13be5a0'} |
+| super_followers_exclusive | {'icon': 'cs', 'label': 'C().ebe1d850'} |
+| trusted_friends_tweet     | {'icon': 'ps', 'label': 'p'}            |
+| verified                  | {'icon': '_s', 'label': 'C().b121464a'} |
 
 | constant   | value   |
 |:-----------|:--------|
