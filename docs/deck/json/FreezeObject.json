@@ -862,7 +862,9 @@
     "upgradeToTierTwo": "upgradeToTierTwo",
     "verifyPaymentMethod": "verifyPaymentMethod",
     "oneClickOnboarding": "oneClickOnboarding",
-    "autoclaim": "autoclaim"
+    "autoclaim": "autoclaim",
+    "updateName": "updateName",
+    "updateAddress": "updateAddress"
   },
   {
     "tier2": "tier2",
@@ -2291,6 +2293,16 @@
     "READWRITE": "readwrite"
   },
   {
+    "normal": "100",
+    "long": "250",
+    "longer": "500"
+  },
+  {
+    "animate": "animate",
+    "static": "static",
+    "prep": "prep"
+  },
+  {
     "DEPRECATED_secondary": {
       "backgroundColor": "transparent",
       "borderColor": "primary",
@@ -2622,9 +2634,9 @@
       "bold": "!0",
       "fontSize": "subtext3"
     },
-    "alt": "k",
-    "gif": "k",
-    "hd": "k",
+    "alt": "C",
+    "gif": "C",
+    "hd": "C",
     "likedByAuthor": {
       "backgroundColor": "gray50",
       "bold": "!1",
@@ -2828,6 +2840,7 @@
     "dmReceivedBubbleBackground": "d.default.color.baseColor.gray50",
     "badgeColor": "d.default.color.baseColor.blue500",
     "maskColor": "o.bs.black(.95)",
+    "maskColorNative": "o.bs.black(.4)",
     "hoverLabelColor": "o.bs.black(.4)",
     "elevatedBackground": "o.Cj",
     "elevatedBackgroundShadow": "o.bs.black(.6)",
@@ -2870,6 +2883,7 @@
     "dmReceivedBubbleBackground": "#3D5466",
     "badgeColor": "d.default.color.baseColor.blue500",
     "maskColor": "o.bs.gray700(.95)",
+    "maskColorNative": "o.bs.black(.4)",
     "hoverLabelColor": "o.bs.gray700(.4)",
     "elevatedBackground": "#1C2C3C",
     "elevatedBackgroundShadow": "o.bs.dim(.8)",
@@ -2907,6 +2921,7 @@
     "dmReceivedBubbleBackground": "#2F3336",
     "badgeColor": "d.default.color.baseColor.blue500",
     "maskColor": "o.bs.gray700(.95)",
+    "maskColorNative": "o.bs.black(.4)",
     "hoverLabelColor": "o.bs.gray700(.4)",
     "elevatedBackground": "#1B2023",
     "elevatedBackgroundShadow": "o.bs.black(.8)",
@@ -2947,6 +2962,7 @@
     "dmReceivedBubbleBackground": "#3D5466",
     "badgeColor": "d.default.color.baseColor.blue500",
     "maskColor": "o.bs.gray700(.95)",
+    "maskColorNative": "o.bs.black(.4)",
     "hoverLabelColor": "o.bs.gray700(.4)",
     "elevatedBackground": "#1C2C3C",
     "elevatedBackgroundShadow": "o.bs.dim(.8)",
@@ -3452,16 +3468,6 @@
     "on": "on",
     "off": "off",
     "unavailable": "unavailable"
-  },
-  {
-    "normal": "100",
-    "long": "250",
-    "longer": "500"
-  },
-  {
-    "animate": "animate",
-    "static": "static",
-    "prep": "prep"
   },
   {
     "About": "About",
@@ -6563,7 +6569,7 @@
     "Red": "rgba(255, 0, 255, 0.5)",
     "Black": "rgba(255, 0, 0, 0.5)"
   },
-  "{[Ct.FontColor]:{\"type\":\"Ct.FontColor\",\"propertyName\":\"color\",\"styleName\":\"Et.Color\",\"displayName\":\"x().c2c5dea4\",\"values\":\"Lt\"},[Ct.FontSize]:{\"type\":\"Ct.FontSize\",\"propertyName\":\"font-size\",\"styleName\":\"Et.FontSize\",\"displayName\":\"x().ce494bb4\",\"values\":[{\"name\":\"50%\",\"value\":\"50%\"},{\"name\":\"75%\",\"value\":\"75%\"},{\"name\":\"100%\",\"value\":\"100%\"},{\"name\":\"200%\",\"value\":\"200%\"},{\"name\":\"300%\",\"value\":\"300%\"}]},[Ct.FontFamily]:{\"type\":\"Ct.FontFamily\",\"propertyName\":\"font-family\",\"styleName\":\"Et.FontFamily\",\"displayName\":\"x().ce71b3d0\",\"values\":[{\"name\":\"x().d2eb1582\",\"value\":\"\"},{\"name\":\"x().e684030e\",\"value\":\"Arial, sans-serif\",\"textStyle\":{\"fontFamily\":\"Arial, sans-serif\"}},{\"name\":\"x().jad3900c\",\"value\":'\"Times New Roman\", serif',\"textStyle\":{\"fontFamily\":'\"Times New Roman\", serif'}},{\"name\":\"x().e205f3a0\",\"value\":'\"Courier New\", monospace',\"textStyle\":{\"fontFamily\":'\"Courier New\", monospace'}}]},[Ct.TextOpacity]:{\"type\":\"Ct.TextOpacity\",\"propertyName\":\"color\",\"styleName\":\"Et.Color\",\"displayName\":\"x().d207d39a\",\"values\":[{\"name\":\"50%\",\"value\":\"0.5\",\"isEqual\":\"Tt()\"},{\"name\":\"75%\",\"value\":\"0.75\",\"isEqual\":\"Tt()\"},{\"name\":\"100%\",\"value\":\"1.0\",\"isEqual\":\"Tt()\"}]},[Ct.BackgroundColor]:{\"type\":\"Ct.BackgroundColor\",\"propertyName\":\"background\",\"styleName\":\"Et.BackgroundColor\",\"displayName\":\"x().a562039c\",\"values\":\"At\"},[Ct.BackgroundOpacity]:{\"type\":\"Ct.BackgroundOpacity\",\"propertyName\":\"background\",\"styleName\":\"Et.BackgroundColor\",\"displayName\":\"x().h44e879e\",\"values\":[{\"name\":\"25%\",\"value\":\"0.25\",\"isEqual\":\"Mt()\"},{\"name\":\"50%\",\"value\":\"0.5\",\"isEqual\":\"Mt()\"},{\"name\":\"75%\",\"value\":\"0.75\",\"isEqual\":\"Mt()\"},{\"name\":\"100%\",\"value\":\"1.0\",\"isEqual\":\"Mt()\"}]}}",
+  "{[Ct.FontColor]:{\"type\":\"Ct.FontColor\",\"propertyName\":\"color\",\"styleName\":\"Et.Color\",\"displayName\":\"x().c2c5dea4\",\"values\":\"$t\"},[Ct.FontSize]:{\"type\":\"Ct.FontSize\",\"propertyName\":\"font-size\",\"styleName\":\"Et.FontSize\",\"displayName\":\"x().ce494bb4\",\"values\":[{\"name\":\"50%\",\"value\":\"50%\"},{\"name\":\"75%\",\"value\":\"75%\"},{\"name\":\"100%\",\"value\":\"100%\"},{\"name\":\"200%\",\"value\":\"200%\"},{\"name\":\"300%\",\"value\":\"300%\"}]},[Ct.FontFamily]:{\"type\":\"Ct.FontFamily\",\"propertyName\":\"font-family\",\"styleName\":\"Et.FontFamily\",\"displayName\":\"x().ce71b3d0\",\"values\":[{\"name\":\"x().d2eb1582\",\"value\":\"\"},{\"name\":\"x().e684030e\",\"value\":\"Arial, sans-serif\",\"textStyle\":{\"fontFamily\":\"Arial, sans-serif\"}},{\"name\":\"x().jad3900c\",\"value\":'\"Times New Roman\", serif',\"textStyle\":{\"fontFamily\":'\"Times New Roman\", serif'}},{\"name\":\"x().e205f3a0\",\"value\":'\"Courier New\", monospace',\"textStyle\":{\"fontFamily\":'\"Courier New\", monospace'}}]},[Ct.TextOpacity]:{\"type\":\"Ct.TextOpacity\",\"propertyName\":\"color\",\"styleName\":\"Et.Color\",\"displayName\":\"x().d207d39a\",\"values\":[{\"name\":\"50%\",\"value\":\"0.5\",\"isEqual\":\"Tt()\"},{\"name\":\"75%\",\"value\":\"0.75\",\"isEqual\":\"Tt()\"},{\"name\":\"100%\",\"value\":\"1.0\",\"isEqual\":\"Tt()\"}]},[Ct.BackgroundColor]:{\"type\":\"Ct.BackgroundColor\",\"propertyName\":\"background\",\"styleName\":\"Et.BackgroundColor\",\"displayName\":\"x().a562039c\",\"values\":\"At\"},[Ct.BackgroundOpacity]:{\"type\":\"Ct.BackgroundOpacity\",\"propertyName\":\"background\",\"styleName\":\"Et.BackgroundColor\",\"displayName\":\"x().h44e879e\",\"values\":[{\"name\":\"25%\",\"value\":\"0.25\",\"isEqual\":\"Mt()\"},{\"name\":\"50%\",\"value\":\"0.5\",\"isEqual\":\"Mt()\"},{\"name\":\"75%\",\"value\":\"0.75\",\"isEqual\":\"Mt()\"},{\"name\":\"100%\",\"value\":\"1.0\",\"isEqual\":\"Mt()\"}]}}",
   {
     "REQUEST": "rweb/promotedContent/LOG_REQUEST",
     "SUCCESS": "rweb/promotedContent/LOG_SUCCESS",
