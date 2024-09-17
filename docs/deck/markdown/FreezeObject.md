@@ -917,6 +917,8 @@ This document is entirely auto-generated and may contain errors.<br>
 | verifyPaymentMethod | verifyPaymentMethod |
 | oneClickOnboarding  | oneClickOnboarding  |
 | autoclaim           | autoclaim           |
+| updateName          | updateName          |
+| updateAddress       | updateAddress       |
 
 | constant   | value   |
 |:-----------|:--------|
@@ -2503,6 +2505,18 @@ This document is entirely auto-generated and may contain errors.<br>
 | READONLY   | readonly  |
 | READWRITE  | readwrite |
 
+| constant   |   value |
+|:-----------|--------:|
+| normal     |     100 |
+| long       |     250 |
+| longer     |     500 |
+
+| constant   | value   |
+|:-----------|:--------|
+| animate    | animate |
+| static     | static  |
+| prep       | prep    |
+
 | constant                   | value                                                                                                                                   |
 |:---------------------------|:----------------------------------------------------------------------------------------------------------------------------------------|
 | DEPRECATED_secondary       | {'backgroundColor': 'transparent', 'borderColor': 'primary', 'color': 'primary'}                                                        |
@@ -2744,9 +2758,9 @@ This document is entirely auto-generated and may contain errors.<br>
 | bestValue          | {'backgroundColor': 'green50', 'color': 'green900', 'bold': '!0', 'fontSize': 'subtext3'}                                                    |
 | mostPopular        | {'backgroundColor': 'purple50', 'color': 'purple900', 'bold': '!0', 'fontSize': 'subtext3'}                                                  |
 | priority           | {'backgroundColor': 'blue50', 'color': 'blue900', 'bold': '!0', 'fontSize': 'subtext3'}                                                      |
-| alt                | k                                                                                                                                            |
-| gif                | k                                                                                                                                            |
-| hd                 | k                                                                                                                                            |
+| alt                | C                                                                                                                                            |
+| gif                | C                                                                                                                                            |
+| hd                 | C                                                                                                                                            |
 | likedByAuthor      | {'backgroundColor': 'gray50', 'bold': '!1', 'color': 'gray700'}                                                                              |
 | urlCardTitle       | {'align': 'left', 'backgroundColor': 'translucentBlack77', 'bold': '!1', 'color': 'white', 'numberOfLines': '1', 'textOverflow': 'ellipsis'} |
 
@@ -2962,6 +2976,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | dmReceivedBubbleBackground      | d.default.color.baseColor.gray50   |
 | badgeColor                      | d.default.color.baseColor.blue500  |
 | maskColor                       | o.bs.black(.95)                    |
+| maskColorNative                 | o.bs.black(.4)                     |
 | hoverLabelColor                 | o.bs.black(.4)                     |
 | elevatedBackground              | o.Cj                               |
 | elevatedBackgroundShadow        | o.bs.black(.6)                     |
@@ -3006,6 +3021,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | dmReceivedBubbleBackground      | #3D5466                            |
 | badgeColor                      | d.default.color.baseColor.blue500  |
 | maskColor                       | o.bs.gray700(.95)                  |
+| maskColorNative                 | o.bs.black(.4)                     |
 | hoverLabelColor                 | o.bs.gray700(.4)                   |
 | elevatedBackground              | #1C2C3C                            |
 | elevatedBackgroundShadow        | o.bs.dim(.8)                       |
@@ -3045,6 +3061,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | dmReceivedBubbleBackground      | #2F3336                            |
 | badgeColor                      | d.default.color.baseColor.blue500  |
 | maskColor                       | o.bs.gray700(.95)                  |
+| maskColorNative                 | o.bs.black(.4)                     |
 | hoverLabelColor                 | o.bs.gray700(.4)                   |
 | elevatedBackground              | #1B2023                            |
 | elevatedBackgroundShadow        | o.bs.black(.8)                     |
@@ -3087,6 +3104,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | dmReceivedBubbleBackground      | #3D5466                            |
 | badgeColor                      | d.default.color.baseColor.blue500  |
 | maskColor                       | o.bs.gray700(.95)                  |
+| maskColorNative                 | o.bs.black(.4)                     |
 | hoverLabelColor                 | o.bs.gray700(.4)                   |
 | elevatedBackground              | #1C2C3C                            |
 | elevatedBackgroundShadow        | o.bs.dim(.8)                       |
@@ -3646,18 +3664,6 @@ This document is entirely auto-generated and may contain errors.<br>
 | on          | on          |
 | off         | off         |
 | unavailable | unavailable |
-
-| constant   |   value |
-|:-----------|--------:|
-| normal     |     100 |
-| long       |     250 |
-| longer     |     500 |
-
-| constant   | value   |
-|:-----------|:--------|
-| animate    | animate |
-| static     | static  |
-| prep       | prep    |
 
 | constant                         | value                            |
 |:---------------------------------|:---------------------------------|
@@ -7038,7 +7044,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{[Ct.FontColor]:{"type":"Ct.FontColor","propertyName":"color","styleName":"Et.Color","displayName":"x().c2c5dea4","values":"Lt"},[Ct.FontSize]:{"type":"Ct.FontSize","propertyName":"font-size","styleName":"Et.FontSize","displayName":"x().ce494bb4","values":[{"name":"50%","value":"50%"},{"name":"75%",...
+{[Ct.FontColor]:{"type":"Ct.FontColor","propertyName":"color","styleName":"Et.Color","displayName":"x().c2c5dea4","values":"$t"},[Ct.FontSize]:{"type":"Ct.FontSize","propertyName":"font-size","styleName":"Et.FontSize","displayName":"x().ce494bb4","values":[{"name":"50%","value":"50%"},{"name":"75%",...
 ```
 | constant   | value                            |
 |:-----------|:---------------------------------|
