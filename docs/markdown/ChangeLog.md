@@ -4262,3 +4262,15 @@
 - responsive_web_verified_organizations_people_search_onboarding_enabled<br>
 #### remove<br>
 - None<br>
+## 2024/09/18<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- responsive_web_grok_post_image_understanding_enabled<br>
+- responsive_web_video_autoplay_default_on<br>
+#### remove<br>
+- responsive_web_grok_prompt_deeplink_enabled<br>
