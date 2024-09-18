@@ -1,107 +1,5 @@
 {
   "optimist": [],
-  "entities": {
-    "broadcasts": {
-      "entities": {},
-      "errors": {},
-      "fetchStatus": {}
-    },
-    "cards": {
-      "entities": {},
-      "errors": {},
-      "fetchStatus": {}
-    },
-    "commerceItems": {
-      "entities": {},
-      "errors": {},
-      "fetchStatus": {}
-    },
-    "communities": {
-      "entities": {},
-      "errors": {},
-      "fetchStatus": {}
-    },
-    "conversations": {
-      "entities": {},
-      "errors": {},
-      "fetchStatus": {}
-    },
-    "entries": {
-      "entities": {},
-      "errors": {},
-      "fetchStatus": {}
-    },
-    "grokShare": {
-      "entities": {},
-      "errors": {},
-      "fetchStatus": {}
-    },
-    "lists": {
-      "entities": {},
-      "errors": {},
-      "fetchStatus": {}
-    },
-    "livestreams": {
-      "entities": {},
-      "errors": {},
-      "fetchStatus": {}
-    },
-    "moments": {
-      "entities": {},
-      "errors": {},
-      "fetchStatus": {}
-    },
-    "topics": {
-      "entities": {},
-      "errors": {},
-      "fetchStatus": {}
-    },
-    "tweets": {
-      "entities": {},
-      "errors": {},
-      "fetchStatus": {}
-    },
-    "articleEntities": {
-      "entities": {},
-      "errors": {},
-      "fetchStatus": {}
-    },
-    "trustedFriends": {
-      "entities": {},
-      "errors": {},
-      "fetchStatus": {}
-    },
-    "userPresence": {
-      "entities": {},
-      "errors": {},
-      "fetchStatus": {}
-    },
-    "userCommunityInviteActionResult": {
-      "entities": {},
-      "errors": {},
-      "fetchStatus": {}
-    },
-    "users": {
-      "entities": {},
-      "errors": {},
-      "fetchStatus": {}
-    },
-    "aitrends": {
-      "entities": {},
-      "errors": {},
-      "fetchStatus": {}
-    },
-    "userCommunityRoleRelationship": {
-      "entities": {},
-      "errors": {},
-      "fetchStatus": {}
-    },
-    "publishedArticles": {
-      "entities": {},
-      "errors": {},
-      "fetchStatus": {}
-    }
-  },
   "featureSwitch": {
     "defaultConfig": {
       "2fa_temporary_password_enabled": {
@@ -563,10 +461,10 @@
         "value": "true"
       },
       "communities_global_communities_latest_post_search_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "communities_global_communities_post_search_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "communities_home_top_timeline_enabled": {
         "value": "true"
@@ -1574,8 +1472,8 @@
       "responsive_web_grok_opt_out_enabled": {
         "value": "true"
       },
-      "responsive_web_grok_prompt_deeplink_enabled": {
-        "value": "true"
+      "responsive_web_grok_post_image_understanding_enabled": {
+        "value": "false"
       },
       "responsive_web_grok_prompt_edit_enabled": {
         "value": "true"
@@ -2018,6 +1916,9 @@
         "value": "true"
       },
       "responsive_web_verified_organizations_xbusiness_enabled": {
+        "value": "false"
+      },
+      "responsive_web_video_autoplay_default_on": {
         "value": "false"
       },
       "responsive_web_video_pcomplete_enabled": {
@@ -3490,10 +3391,10 @@
           "value": "true"
         },
         "communities_global_communities_latest_post_search_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "communities_global_communities_post_search_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "communities_home_top_timeline_enabled": {
           "value": "true"
@@ -4501,8 +4402,8 @@
         "responsive_web_grok_opt_out_enabled": {
           "value": "true"
         },
-        "responsive_web_grok_prompt_deeplink_enabled": {
-          "value": "true"
+        "responsive_web_grok_post_image_understanding_enabled": {
+          "value": "false"
         },
         "responsive_web_grok_prompt_edit_enabled": {
           "value": "true"
@@ -4945,6 +4846,9 @@
           "value": "true"
         },
         "responsive_web_verified_organizations_xbusiness_enabled": {
+          "value": "false"
+        },
+        "responsive_web_video_autoplay_default_on": {
           "value": "false"
         },
         "responsive_web_video_pcomplete_enabled": {
@@ -5962,10 +5866,112 @@
       "settingsVersion": "39169fa4f5245a3eaa5e23ec04608e8d"
     },
     "debug": {},
-    "featureSetToken": "ee4669c6a17a9da1926beb3938aa7d7a85e61279",
+    "featureSetToken": "fba8d0b959752f5c53e04a0582e8141fb1db4bee",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
+  },
+  "entities": {
+    "broadcasts": {
+      "entities": {},
+      "errors": {},
+      "fetchStatus": {}
+    },
+    "cards": {
+      "entities": {},
+      "errors": {},
+      "fetchStatus": {}
+    },
+    "commerceItems": {
+      "entities": {},
+      "errors": {},
+      "fetchStatus": {}
+    },
+    "communities": {
+      "entities": {},
+      "errors": {},
+      "fetchStatus": {}
+    },
+    "conversations": {
+      "entities": {},
+      "errors": {},
+      "fetchStatus": {}
+    },
+    "entries": {
+      "entities": {},
+      "errors": {},
+      "fetchStatus": {}
+    },
+    "grokShare": {
+      "entities": {},
+      "errors": {},
+      "fetchStatus": {}
+    },
+    "lists": {
+      "entities": {},
+      "errors": {},
+      "fetchStatus": {}
+    },
+    "livestreams": {
+      "entities": {},
+      "errors": {},
+      "fetchStatus": {}
+    },
+    "moments": {
+      "entities": {},
+      "errors": {},
+      "fetchStatus": {}
+    },
+    "topics": {
+      "entities": {},
+      "errors": {},
+      "fetchStatus": {}
+    },
+    "tweets": {
+      "entities": {},
+      "errors": {},
+      "fetchStatus": {}
+    },
+    "articleEntities": {
+      "entities": {},
+      "errors": {},
+      "fetchStatus": {}
+    },
+    "trustedFriends": {
+      "entities": {},
+      "errors": {},
+      "fetchStatus": {}
+    },
+    "userPresence": {
+      "entities": {},
+      "errors": {},
+      "fetchStatus": {}
+    },
+    "userCommunityInviteActionResult": {
+      "entities": {},
+      "errors": {},
+      "fetchStatus": {}
+    },
+    "users": {
+      "entities": {},
+      "errors": {},
+      "fetchStatus": {}
+    },
+    "aitrends": {
+      "entities": {},
+      "errors": {},
+      "fetchStatus": {}
+    },
+    "userCommunityRoleRelationship": {
+      "entities": {},
+      "errors": {},
+      "fetchStatus": {}
+    },
+    "publishedArticles": {
+      "entities": {},
+      "errors": {},
+      "fetchStatus": {}
+    }
   },
   "settings": {
     "local": {
@@ -6032,7 +6038,7 @@
     "country": "XX",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "172660731625999535",
+    "guestId": "172669372398783681",
     "hasCommunityMemberships": "false",
     "language": "en",
     "ssoInitTokens": {},
