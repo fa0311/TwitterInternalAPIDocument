@@ -3166,3 +3166,15 @@
 - rweb_timeline_inline_show_more_enabled<br>
 #### remove<br>
 - responsive_web_restrict_max_timeline_tweet_height<br>
+## 2024/09/18<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- responsive_web_grok_post_image_understanding_enabled<br>
+- responsive_web_video_autoplay_default_on<br>
+#### remove<br>
+- responsive_web_grok_prompt_deeplink_enabled<br>
