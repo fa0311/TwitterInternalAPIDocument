@@ -3178,3 +3178,14 @@
 - responsive_web_video_autoplay_default_on<br>
 #### remove<br>
 - responsive_web_grok_prompt_deeplink_enabled<br>
+## 2024/09/20<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- responsive_web_grok_chat_history_enabled<br>
