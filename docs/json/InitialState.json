@@ -1441,9 +1441,6 @@
       "responsive_web_grok_animated_text_enabled": {
         "value": "true"
       },
-      "responsive_web_grok_chat_history_enabled": {
-        "value": "true"
-      },
       "responsive_web_grok_delete_conversations_enabled": {
         "value": "true"
       },
@@ -4371,9 +4368,6 @@
         "responsive_web_grok_animated_text_enabled": {
           "value": "true"
         },
-        "responsive_web_grok_chat_history_enabled": {
-          "value": "true"
-        },
         "responsive_web_grok_delete_conversations_enabled": {
           "value": "true"
         },
@@ -5866,7 +5860,7 @@
       "settingsVersion": "39169fa4f5245a3eaa5e23ec04608e8d"
     },
     "debug": {},
-    "featureSetToken": "fba8d0b959752f5c53e04a0582e8141fb1db4bee",
+    "featureSetToken": "3860df7ea52ed8438b92ddb261152b1af3cffa22",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -6038,7 +6032,7 @@
     "country": "XX",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "172669372398783681",
+    "guestId": "172679086251926599",
     "hasCommunityMemberships": "false",
     "language": "en",
     "ssoInitTokens": {},
