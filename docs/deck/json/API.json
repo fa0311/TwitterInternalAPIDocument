@@ -1254,8 +1254,8 @@
       "features": {}
     },
     "ExplorePage": {
-      "url": "https://x.com/i/api/graphql/J_hhI7ZPg-AmTHtKWZQLVw/ExplorePage",
-      "queryId": "J_hhI7ZPg-AmTHtKWZQLVw",
+      "url": "https://x.com/i/api/graphql/IK_dxB178qS4T8cvA2G_UA/ExplorePage",
+      "queryId": "IK_dxB178qS4T8cvA2G_UA",
       "method": "GET",
       "features": {
         "rweb_tipjar_consumption_enabled": true,
