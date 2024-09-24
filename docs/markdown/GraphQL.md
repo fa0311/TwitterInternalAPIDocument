@@ -7377,7 +7377,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## BirdwatchFetchOneNote<br>
-Request URL: `https://x.com/i/api/graphql/9pO8bwimKHHhCv_-tNV--A/BirdwatchFetchOneNote`<br>
+Request URL: `https://x.com/i/api/graphql/0XvKj4FNdE9QthLQDGEOig/BirdwatchFetchOneNote`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
