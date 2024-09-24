@@ -2191,11 +2191,6 @@
           }
         }
       }
-    },
-    "func_name": "O",
-    "func_name_init": "L",
-    "query": {
-      "settings": "t.settings"
     }
   },
   {
@@ -2967,10 +2962,9 @@
       }
     },
     "func_name": "T",
-    "func_name_init": "v",
+    "func_name_init": "M",
     "query": {
-      "articleEntityId": "i",
-      "title": "r"
+      "...t": "_"
     }
   },
   {
@@ -3430,13 +3424,10 @@
     "func_name": "m",
     "func_name_init": "b",
     "query": {
-      "articleEntityId": "i",
-      "visibilitySetting": "s",
-      "...r&&": {
-        "conversationControl": {
-          "mode": "r"
-        }
-      }
+      "count": "i",
+      "cursor": "r",
+      "includePromotedContent": "!1",
+      "...()(0,a.d)": "_"
     }
   },
   {
@@ -4160,7 +4151,7 @@
         "featureSwitch": {}
       }
     },
-    "func_name": "l",
+    "func_name": "i",
     "func_name_init": "o",
     "query": {
       "target_user_id": "n.id_str"
@@ -4243,7 +4234,7 @@
         "featureSwitch": {}
       }
     },
-    "func_name": "l",
+    "func_name": "i",
     "func_name_init": "o",
     "query": {}
   },
@@ -5711,7 +5702,7 @@
     "func_name": "c",
     "func_name_init": "u",
     "query": {
-      "articleEntityId": "i"
+      "cursor": "t"
     }
   },
   {
@@ -5861,10 +5852,10 @@
         }
       }
     },
-    "func_name": "D",
-    "func_name_init": "w",
+    "func_name": "_",
+    "func_name_init": "A",
     "query": {
-      "isPrivate": "private===i.toLowerCase()",
+      "isPrivate": "private===l.toLowerCase()",
       "name": "s",
       "description": "a",
       "...()(0,o.S)": "_"
@@ -6626,8 +6617,7 @@
     "func_name": "F",
     "func_name_init": "O",
     "query": {
-      "listId": "t.list_id",
-      "...()(0,o.S)": "_"
+      "settings": "t.settings"
     }
   },
   {
@@ -7242,9 +7232,13 @@
         }
       }
     },
-    "func_name": "V",
-    "func_name_init": "G",
-    "query": {}
+    "func_name": "G",
+    "func_name_init": "V",
+    "query": {
+      "count": "t",
+      "cursor": "r",
+      "...()(0,o.d)": "_"
+    }
   },
   {
     "n": "69605",
@@ -8266,10 +8260,10 @@
         "featureSwitch": {}
       }
     },
-    "func_name": "l",
+    "func_name": "i",
     "func_name_init": "o",
     "query": {
-      "topicId": "d"
+      "topicId": "r"
     }
   },
   {
@@ -8549,11 +8543,10 @@
         "featureSwitch": {}
       }
     },
-    "func_name": "v",
-    "func_name_init": "M",
+    "func_name": "M",
+    "func_name_init": "v",
     "query": {
-      "grokMode": "t",
-      "grokModelOptionId": "n"
+      "show_in_app_navigation": "t.show_in_app_navigation"
     }
   },
   {
@@ -8894,10 +8887,10 @@
         }
       }
     },
-    "func_name": "D",
-    "func_name_init": "w",
+    "func_name": "_",
+    "func_name_init": "A",
     "query": {
-      "topicId": "r",
+      "topicId": "d",
       "...()(0,a.d)": "_"
     }
   },
@@ -9672,119 +9665,6 @@
     }
   },
   {
-    "n": "50608",
-    "exports": {
-      "queryId": "iTDi9UUsvZ5OfzL2jYPv-g",
-      "operationName": "UserAboutTimeline",
-      "operationType": "query",
-      "metadata": {
-        "featureSwitches": [
-          "rweb_tipjar_consumption_enabled",
-          "responsive_web_graphql_exclude_directive_enabled",
-          "verified_phone_label_enabled",
-          "creator_subscriptions_tweet_preview_api_enabled",
-          "responsive_web_graphql_timeline_navigation_enabled",
-          "responsive_web_graphql_skip_user_profile_image_extensions_enabled",
-          "communities_web_enable_tweet_community_results_fetch",
-          "c9s_tweet_anatomy_moderator_badge_enabled",
-          "articles_preview_enabled",
-          "responsive_web_edit_tweet_api_enabled",
-          "graphql_is_translatable_rweb_tweet_is_translatable_enabled",
-          "view_counts_everywhere_api_enabled",
-          "longform_notetweets_consumption_enabled",
-          "responsive_web_twitter_article_tweet_consumption_enabled",
-          "tweet_awards_web_tipping_enabled",
-          "creator_subscriptions_quote_tweet_preview_enabled",
-          "freedom_of_speech_not_reach_fetch_enabled",
-          "standardized_nudges_misinfo",
-          "tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled",
-          "rweb_video_timestamps_enabled",
-          "longform_notetweets_rich_text_read_enabled",
-          "longform_notetweets_inline_media_enabled",
-          "responsive_web_enhance_cards_enabled"
-        ],
-        "fieldToggles": [
-          "withAuxiliaryUserLabels",
-          "withArticleRichContentState",
-          "withArticlePlainText",
-          "withGrokAnalyze",
-          "withDisallowedReplyControls"
-        ],
-        "featureSwitch": {
-          "rweb_tipjar_consumption_enabled": {
-            "value": "true"
-          },
-          "responsive_web_graphql_exclude_directive_enabled": {
-            "value": "true"
-          },
-          "verified_phone_label_enabled": {
-            "value": "false"
-          },
-          "creator_subscriptions_tweet_preview_api_enabled": {
-            "value": "true"
-          },
-          "responsive_web_graphql_timeline_navigation_enabled": {
-            "value": "true"
-          },
-          "responsive_web_graphql_skip_user_profile_image_extensions_enabled": {
-            "value": "false"
-          },
-          "communities_web_enable_tweet_community_results_fetch": {
-            "value": "true"
-          },
-          "c9s_tweet_anatomy_moderator_badge_enabled": {
-            "value": "true"
-          },
-          "articles_preview_enabled": {
-            "value": "true"
-          },
-          "responsive_web_edit_tweet_api_enabled": {
-            "value": "true"
-          },
-          "graphql_is_translatable_rweb_tweet_is_translatable_enabled": {
-            "value": "true"
-          },
-          "view_counts_everywhere_api_enabled": {
-            "value": "true"
-          },
-          "longform_notetweets_consumption_enabled": {
-            "value": "true"
-          },
-          "responsive_web_twitter_article_tweet_consumption_enabled": {
-            "value": "true"
-          },
-          "tweet_awards_web_tipping_enabled": {
-            "value": "false"
-          },
-          "creator_subscriptions_quote_tweet_preview_enabled": {
-            "value": "false"
-          },
-          "freedom_of_speech_not_reach_fetch_enabled": {
-            "value": "true"
-          },
-          "standardized_nudges_misinfo": {
-            "value": "true"
-          },
-          "tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled": {
-            "value": "true"
-          },
-          "rweb_video_timestamps_enabled": {
-            "value": "true"
-          },
-          "longform_notetweets_rich_text_read_enabled": {
-            "value": "true"
-          },
-          "longform_notetweets_inline_media_enabled": {
-            "value": "true"
-          },
-          "responsive_web_enhance_cards_enabled": {
-            "value": "false"
-          }
-        }
-      }
-    }
-  },
-  {
     "n": "79316",
     "exports": {
       "queryId": "CtvnBIC_7SawFeXZWRrX7A",
@@ -10258,9 +10138,15 @@
       }
     },
     "func_name": "E",
-    "func_name_init": "C",
+    "func_name_init": "k",
     "query": {
-      "articleEntityId": "a"
+      "articleEntityId": "i",
+      "visibilitySetting": "s",
+      "...a&&": {
+        "conversationControl": {
+          "mode": "a"
+        }
+      }
     }
   },
   {
@@ -10488,10 +10374,11 @@
         }
       }
     },
-    "func_name": "p",
-    "func_name_init": "m",
+    "func_name": "b",
+    "func_name_init": "c",
     "query": {
-      "articleEntityId": "i"
+      "grokMode": "t",
+      "grokModelOptionId": "n"
     }
   },
   {
@@ -10732,10 +10619,11 @@
         }
       }
     },
-    "func_name": "w",
-    "func_name_init": "g",
+    "func_name": "g",
+    "func_name_init": "p",
     "query": {
-      "articleEntityId": "i"
+      "grokMode": "t",
+      "grokModelOptionId": "n"
     }
   },
   {
@@ -10863,14 +10751,9 @@
         }
       }
     },
-    "func_name": "_",
-    "func_name_init": "D",
-    "query": {
-      "cursor": "n",
-      "rest_id": "a",
-      "...()(0,g.d)": "_",
-      "withSafetyModeUserFields": "t.isTrue(t)"
-    }
+    "func_name": "A",
+    "func_name_init": "w",
+    "query": "{\"articleEntityId\":\"i\",\"coverMedia\":\"s&&a?\"{\"media_id\":\"s\",\"media_category\":\"a\"}:\"void 0\"}"
   },
   {
     "n": "32124",
@@ -11156,9 +11039,9 @@
       }
     },
     "func_name": "s",
-    "func_name_init": "i",
+    "func_name_init": "l",
     "query": {
-      "userId": "n"
+      "restId": "t"
     }
   },
   {
@@ -11202,10 +11085,12 @@
         }
       }
     },
-    "func_name": "_",
-    "func_name_init": "D",
+    "func_name": "S",
+    "func_name_init": "_",
     "query": {
-      "withCommunitiesMemberships": "n.isTrue()"
+      "count": "10",
+      "...a": "_",
+      "...()(0,i.S)": "_"
     }
   },
   {
@@ -12233,6 +12118,45 @@
     }
   },
   {
+    "n": "89276",
+    "exports": {
+      "queryId": "TYpVV9QioZfViHqEqRZxJA",
+      "operationName": "BrowseSpaceTopics",
+      "operationType": "query",
+      "metadata": {
+        "featureSwitches": [],
+        "fieldToggles": [],
+        "featureSwitch": {}
+      }
+    }
+  },
+  {
+    "n": "59179",
+    "exports": {
+      "queryId": "Sxn4YOlaAwEKjnjWV0h7Mw",
+      "operationName": "SubscribeToScheduledSpace",
+      "operationType": "mutation",
+      "metadata": {
+        "featureSwitches": [],
+        "fieldToggles": [],
+        "featureSwitch": {}
+      }
+    }
+  },
+  {
+    "n": "22192",
+    "exports": {
+      "queryId": "Zevhh76Msw574ZSs2NQHGQ",
+      "operationName": "UnsubscribeFromScheduledSpace",
+      "operationType": "mutation",
+      "metadata": {
+        "featureSwitches": [],
+        "fieldToggles": [],
+        "featureSwitch": {}
+      }
+    }
+  },
+  {
     "n": "01307",
     "exports": {
       "queryId": "jYvwa61cv3NwNP24iUru6g",
@@ -12762,12 +12686,6 @@
           }
         }
       }
-    },
-    "func_name": "o",
-    "func_name_init": "a",
-    "query": {
-      "pinned_tweet_id": "(optional) t.pinned_tweet_id",
-      "...()(0,_.d)": "_"
     }
   },
   {
@@ -13601,6 +13519,123 @@
     }
   },
   {
+    "n": "89276",
+    "exports": {
+      "queryId": "TYpVV9QioZfViHqEqRZxJA",
+      "operationName": "BrowseSpaceTopics",
+      "operationType": "query",
+      "metadata": {
+        "featureSwitches": [],
+        "fieldToggles": [],
+        "featureSwitch": {}
+      }
+    }
+  },
+  {
+    "n": "59179",
+    "exports": {
+      "queryId": "Sxn4YOlaAwEKjnjWV0h7Mw",
+      "operationName": "SubscribeToScheduledSpace",
+      "operationType": "mutation",
+      "metadata": {
+        "featureSwitches": [],
+        "fieldToggles": [],
+        "featureSwitch": {}
+      }
+    }
+  },
+  {
+    "n": "22192",
+    "exports": {
+      "queryId": "Zevhh76Msw574ZSs2NQHGQ",
+      "operationName": "UnsubscribeFromScheduledSpace",
+      "operationType": "mutation",
+      "metadata": {
+        "featureSwitches": [],
+        "fieldToggles": [],
+        "featureSwitch": {}
+      }
+    }
+  },
+  {
+    "n": "89276",
+    "exports": {
+      "queryId": "TYpVV9QioZfViHqEqRZxJA",
+      "operationName": "BrowseSpaceTopics",
+      "operationType": "query",
+      "metadata": {
+        "featureSwitches": [],
+        "fieldToggles": [],
+        "featureSwitch": {}
+      }
+    }
+  },
+  {
+    "n": "59179",
+    "exports": {
+      "queryId": "Sxn4YOlaAwEKjnjWV0h7Mw",
+      "operationName": "SubscribeToScheduledSpace",
+      "operationType": "mutation",
+      "metadata": {
+        "featureSwitches": [],
+        "fieldToggles": [],
+        "featureSwitch": {}
+      }
+    }
+  },
+  {
+    "n": "22192",
+    "exports": {
+      "queryId": "Zevhh76Msw574ZSs2NQHGQ",
+      "operationName": "UnsubscribeFromScheduledSpace",
+      "operationType": "mutation",
+      "metadata": {
+        "featureSwitches": [],
+        "fieldToggles": [],
+        "featureSwitch": {}
+      }
+    }
+  },
+  {
+    "n": "89276",
+    "exports": {
+      "queryId": "TYpVV9QioZfViHqEqRZxJA",
+      "operationName": "BrowseSpaceTopics",
+      "operationType": "query",
+      "metadata": {
+        "featureSwitches": [],
+        "fieldToggles": [],
+        "featureSwitch": {}
+      }
+    }
+  },
+  {
+    "n": "59179",
+    "exports": {
+      "queryId": "Sxn4YOlaAwEKjnjWV0h7Mw",
+      "operationName": "SubscribeToScheduledSpace",
+      "operationType": "mutation",
+      "metadata": {
+        "featureSwitches": [],
+        "fieldToggles": [],
+        "featureSwitch": {}
+      }
+    }
+  },
+  {
+    "n": "22192",
+    "exports": {
+      "queryId": "Zevhh76Msw574ZSs2NQHGQ",
+      "operationName": "UnsubscribeFromScheduledSpace",
+      "operationType": "mutation",
+      "metadata": {
+        "featureSwitches": [],
+        "fieldToggles": [],
+        "featureSwitch": {}
+      }
+    }
+  },
+  {
     "n": "84285",
     "exports": {
       "queryId": "s_L4H2iPhZoMtWiqHxd9LA",
@@ -13742,7 +13777,7 @@
   {
     "n": "68032",
     "exports": {
-      "queryId": "UTqroyQoGoJ4kIUYj2FxgQ",
+      "queryId": "kR_ngAR-x5WxaBFF5DuGwA",
       "operationName": "BirdwatchFetchContributorNotesSlice",
       "operationType": "query",
       "metadata": {
@@ -13885,7 +13920,7 @@
   {
     "n": "39143",
     "exports": {
-      "queryId": "s1dqV02ubRTzJyeCLJDUOA",
+      "queryId": "neSGoQRGib4thTyCtSc0TA",
       "operationName": "BirdwatchCreateNote",
       "operationType": "mutation",
       "metadata": {
@@ -14094,7 +14129,7 @@
   {
     "n": "22976",
     "exports": {
-      "queryId": "631X76cvyQ0CtLViMsdulw",
+      "queryId": "0EW8KDGMK0g3EfCF0iAhsg",
       "operationName": "BirdwatchFetchCanTweetBeMediaNote",
       "operationType": "query",
       "metadata": {
@@ -14226,7 +14261,7 @@
   {
     "n": "21724",
     "exports": {
-      "queryId": "UixFl57o8hmMeLaqmBwEYQ",
+      "queryId": "svgZ7bxxbNNiMhBF4PsWww",
       "operationName": "BirdwatchFetchNoteTranslation",
       "operationType": "query",
       "metadata": {
@@ -14267,7 +14302,7 @@
   {
     "n": "79019",
     "exports": {
-      "queryId": "p-CVMyCQg7ZObeL4OvsQcg",
+      "queryId": "2SZTGfgGTWpqB3GueiYkiA",
       "operationName": "BirdwatchFetchNotes",
       "operationType": "query",
       "metadata": {
@@ -14316,7 +14351,7 @@
   {
     "n": "90760",
     "exports": {
-      "queryId": "t-op2R8aP11yLcAeMHbCMg",
+      "queryId": "0XvKj4FNdE9QthLQDGEOig",
       "operationName": "BirdwatchFetchOneNote",
       "operationType": "query",
       "metadata": {
@@ -16621,6 +16656,45 @@
     }
   },
   {
+    "n": "89276",
+    "exports": {
+      "queryId": "TYpVV9QioZfViHqEqRZxJA",
+      "operationName": "BrowseSpaceTopics",
+      "operationType": "query",
+      "metadata": {
+        "featureSwitches": [],
+        "fieldToggles": [],
+        "featureSwitch": {}
+      }
+    }
+  },
+  {
+    "n": "59179",
+    "exports": {
+      "queryId": "Sxn4YOlaAwEKjnjWV0h7Mw",
+      "operationName": "SubscribeToScheduledSpace",
+      "operationType": "mutation",
+      "metadata": {
+        "featureSwitches": [],
+        "fieldToggles": [],
+        "featureSwitch": {}
+      }
+    }
+  },
+  {
+    "n": "22192",
+    "exports": {
+      "queryId": "Zevhh76Msw574ZSs2NQHGQ",
+      "operationName": "UnsubscribeFromScheduledSpace",
+      "operationType": "mutation",
+      "metadata": {
+        "featureSwitches": [],
+        "fieldToggles": [],
+        "featureSwitch": {}
+      }
+    }
+  },
+  {
     "n": "62325",
     "exports": {
       "queryId": "o8KVZU-rPveIeJCC5rtG5Q",
@@ -16778,315 +16852,6 @@
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
-          }
-        }
-      }
-    }
-  },
-  {
-    "n": "55262",
-    "exports": {
-      "queryId": "Q7sEPUIdsMXwhhP4pjlNJA",
-      "operationName": "ArticleEntitiesSlice",
-      "operationType": "query",
-      "metadata": {
-        "featureSwitches": [
-          "rweb_tipjar_consumption_enabled",
-          "responsive_web_graphql_exclude_directive_enabled",
-          "verified_phone_label_enabled",
-          "responsive_web_graphql_skip_user_profile_image_extensions_enabled",
-          "responsive_web_graphql_timeline_navigation_enabled"
-        ],
-        "fieldToggles": [
-          "withAuxiliaryUserLabels"
-        ],
-        "featureSwitch": {
-          "rweb_tipjar_consumption_enabled": {
-            "value": "true"
-          },
-          "responsive_web_graphql_exclude_directive_enabled": {
-            "value": "true"
-          },
-          "verified_phone_label_enabled": {
-            "value": "false"
-          },
-          "responsive_web_graphql_skip_user_profile_image_extensions_enabled": {
-            "value": "false"
-          },
-          "responsive_web_graphql_timeline_navigation_enabled": {
-            "value": "true"
-          }
-        }
-      }
-    }
-  },
-  {
-    "n": "96402",
-    "exports": {
-      "queryId": "e4lWqB6m2TA8Fn_j9L9xEA",
-      "operationName": "ArticleEntityDelete",
-      "operationType": "mutation",
-      "metadata": {
-        "featureSwitches": [],
-        "fieldToggles": [],
-        "featureSwitch": {}
-      }
-    }
-  },
-  {
-    "n": "68397",
-    "exports": {
-      "queryId": "EehjLcq6FurJJIfIh8JWFA",
-      "operationName": "ArticleEntityDraftCreate",
-      "operationType": "mutation",
-      "metadata": {
-        "featureSwitches": [
-          "rweb_tipjar_consumption_enabled",
-          "responsive_web_graphql_exclude_directive_enabled",
-          "verified_phone_label_enabled",
-          "responsive_web_graphql_skip_user_profile_image_extensions_enabled",
-          "responsive_web_graphql_timeline_navigation_enabled"
-        ],
-        "fieldToggles": [
-          "withAuxiliaryUserLabels"
-        ],
-        "featureSwitch": {
-          "rweb_tipjar_consumption_enabled": {
-            "value": "true"
-          },
-          "responsive_web_graphql_exclude_directive_enabled": {
-            "value": "true"
-          },
-          "verified_phone_label_enabled": {
-            "value": "false"
-          },
-          "responsive_web_graphql_skip_user_profile_image_extensions_enabled": {
-            "value": "false"
-          },
-          "responsive_web_graphql_timeline_navigation_enabled": {
-            "value": "true"
-          }
-        }
-      }
-    }
-  },
-  {
-    "n": "16310",
-    "exports": {
-      "queryId": "6PZ1xqVSPjSrhGqCCyGynA",
-      "operationName": "ArticleEntityPublish",
-      "operationType": "mutation",
-      "metadata": {
-        "featureSwitches": [
-          "rweb_tipjar_consumption_enabled",
-          "responsive_web_graphql_exclude_directive_enabled",
-          "verified_phone_label_enabled",
-          "responsive_web_graphql_skip_user_profile_image_extensions_enabled",
-          "responsive_web_graphql_timeline_navigation_enabled"
-        ],
-        "fieldToggles": [
-          "withAuxiliaryUserLabels"
-        ],
-        "featureSwitch": {
-          "rweb_tipjar_consumption_enabled": {
-            "value": "true"
-          },
-          "responsive_web_graphql_exclude_directive_enabled": {
-            "value": "true"
-          },
-          "verified_phone_label_enabled": {
-            "value": "false"
-          },
-          "responsive_web_graphql_skip_user_profile_image_extensions_enabled": {
-            "value": "false"
-          },
-          "responsive_web_graphql_timeline_navigation_enabled": {
-            "value": "true"
-          }
-        }
-      }
-    }
-  },
-  {
-    "n": "09137",
-    "exports": {
-      "queryId": "njt-BK0wDBIOPSTJZAi1BA",
-      "operationName": "ArticleEntityResultByRestId",
-      "operationType": "query",
-      "metadata": {
-        "featureSwitches": [
-          "rweb_tipjar_consumption_enabled",
-          "responsive_web_graphql_exclude_directive_enabled",
-          "verified_phone_label_enabled",
-          "responsive_web_graphql_skip_user_profile_image_extensions_enabled",
-          "responsive_web_graphql_timeline_navigation_enabled"
-        ],
-        "fieldToggles": [
-          "withAuxiliaryUserLabels"
-        ],
-        "featureSwitch": {
-          "rweb_tipjar_consumption_enabled": {
-            "value": "true"
-          },
-          "responsive_web_graphql_exclude_directive_enabled": {
-            "value": "true"
-          },
-          "verified_phone_label_enabled": {
-            "value": "false"
-          },
-          "responsive_web_graphql_skip_user_profile_image_extensions_enabled": {
-            "value": "false"
-          },
-          "responsive_web_graphql_timeline_navigation_enabled": {
-            "value": "true"
-          }
-        }
-      }
-    }
-  },
-  {
-    "n": "38889",
-    "exports": {
-      "queryId": "LFK_HR--xi42eUlY2QGw-w",
-      "operationName": "ArticleEntityUnpublish",
-      "operationType": "mutation",
-      "metadata": {
-        "featureSwitches": [
-          "rweb_tipjar_consumption_enabled",
-          "responsive_web_graphql_exclude_directive_enabled",
-          "verified_phone_label_enabled",
-          "responsive_web_graphql_skip_user_profile_image_extensions_enabled",
-          "responsive_web_graphql_timeline_navigation_enabled"
-        ],
-        "fieldToggles": [
-          "withAuxiliaryUserLabels"
-        ],
-        "featureSwitch": {
-          "rweb_tipjar_consumption_enabled": {
-            "value": "true"
-          },
-          "responsive_web_graphql_exclude_directive_enabled": {
-            "value": "true"
-          },
-          "verified_phone_label_enabled": {
-            "value": "false"
-          },
-          "responsive_web_graphql_skip_user_profile_image_extensions_enabled": {
-            "value": "false"
-          },
-          "responsive_web_graphql_timeline_navigation_enabled": {
-            "value": "true"
-          }
-        }
-      }
-    }
-  },
-  {
-    "n": "34919",
-    "exports": {
-      "queryId": "CN2_W98FFwrgJlqp9iGzjw",
-      "operationName": "ArticleEntityUpdateContent",
-      "operationType": "mutation",
-      "metadata": {
-        "featureSwitches": [
-          "rweb_tipjar_consumption_enabled",
-          "responsive_web_graphql_exclude_directive_enabled",
-          "verified_phone_label_enabled",
-          "responsive_web_graphql_skip_user_profile_image_extensions_enabled",
-          "responsive_web_graphql_timeline_navigation_enabled"
-        ],
-        "fieldToggles": [
-          "withAuxiliaryUserLabels"
-        ],
-        "featureSwitch": {
-          "rweb_tipjar_consumption_enabled": {
-            "value": "true"
-          },
-          "responsive_web_graphql_exclude_directive_enabled": {
-            "value": "true"
-          },
-          "verified_phone_label_enabled": {
-            "value": "false"
-          },
-          "responsive_web_graphql_skip_user_profile_image_extensions_enabled": {
-            "value": "false"
-          },
-          "responsive_web_graphql_timeline_navigation_enabled": {
-            "value": "true"
-          }
-        }
-      }
-    }
-  },
-  {
-    "n": "73031",
-    "exports": {
-      "queryId": "WvbJqUaf_SQQEPkCn3x5yw",
-      "operationName": "ArticleEntityUpdateCoverMedia",
-      "operationType": "mutation",
-      "metadata": {
-        "featureSwitches": [
-          "rweb_tipjar_consumption_enabled",
-          "responsive_web_graphql_exclude_directive_enabled",
-          "verified_phone_label_enabled",
-          "responsive_web_graphql_skip_user_profile_image_extensions_enabled",
-          "responsive_web_graphql_timeline_navigation_enabled"
-        ],
-        "fieldToggles": [
-          "withAuxiliaryUserLabels"
-        ],
-        "featureSwitch": {
-          "rweb_tipjar_consumption_enabled": {
-            "value": "true"
-          },
-          "responsive_web_graphql_exclude_directive_enabled": {
-            "value": "true"
-          },
-          "verified_phone_label_enabled": {
-            "value": "false"
-          },
-          "responsive_web_graphql_skip_user_profile_image_extensions_enabled": {
-            "value": "false"
-          },
-          "responsive_web_graphql_timeline_navigation_enabled": {
-            "value": "true"
-          }
-        }
-      }
-    }
-  },
-  {
-    "n": "93073",
-    "exports": {
-      "queryId": "EwpZ82Iv4IAtj7BEpIrToQ",
-      "operationName": "ArticleEntityUpdateTitle",
-      "operationType": "mutation",
-      "metadata": {
-        "featureSwitches": [
-          "rweb_tipjar_consumption_enabled",
-          "responsive_web_graphql_exclude_directive_enabled",
-          "verified_phone_label_enabled",
-          "responsive_web_graphql_skip_user_profile_image_extensions_enabled",
-          "responsive_web_graphql_timeline_navigation_enabled"
-        ],
-        "fieldToggles": [
-          "withAuxiliaryUserLabels"
-        ],
-        "featureSwitch": {
-          "rweb_tipjar_consumption_enabled": {
-            "value": "true"
-          },
-          "responsive_web_graphql_exclude_directive_enabled": {
-            "value": "true"
-          },
-          "verified_phone_label_enabled": {
-            "value": "false"
-          },
-          "responsive_web_graphql_skip_user_profile_image_extensions_enabled": {
-            "value": "false"
-          },
-          "responsive_web_graphql_timeline_navigation_enabled": {
-            "value": "true"
           }
         }
       }
