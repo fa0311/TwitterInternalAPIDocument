@@ -3189,3 +3189,18 @@
 - None<br>
 #### remove<br>
 - responsive_web_grok_chat_history_enabled<br>
+## 2024/09/24<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- UserAboutTimeline<br>
+### Feature Switch<br>
+#### add<br>
+- insights_previews_enabled<br>
+- xprofile_blocked_by_view_enabled<br>
+#### remove<br>
+- profile_foundations_about_tab_enabled<br>
+- profile_foundations_about_tab_tooltip_enabled<br>
+- profile_foundations_header_fields_hidden<br>
+- voice_rooms_card_version<br>
