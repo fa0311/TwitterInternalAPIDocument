@@ -84,6 +84,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | TransferLevelThree                          | TransferLevelThree                          |
 | TransferLevelTwo                            | TransferLevelTwo                            |
 | UpdateCustomer                              | UpdateCustomer                              |
+| UpdateCustomerPhoneNumber                   | UpdateCustomerPhoneNumber                   |
 | UpdatePin                                   | UpdatePin                                   |
 | VerifyIdentity                              | VerifyIdentity                              |
 | VerifyPin                                   | VerifyPin                                   |
@@ -1058,7 +1059,6 @@ This document is entirely auto-generated and may contain errors.<br>
 | JOB_PROMOTION_SETTINGS | /i/verified/settings/job-promotion |
 | INSIGHTS               | /i/business/insights               |
 | PEOPLE_SEARCH          | /i/business/people                 |
-| SUPPORT                | /i/verified/priority_support       |
 
 | constant   | value    |
 |:-----------|:---------|
@@ -2416,11 +2416,6 @@ This document is entirely auto-generated and may contain errors.<br>
 | All         |       0 |
 | Employees   |       1 |
 | Subscribers |       2 |
-
-| constant   | value    |
-|:-----------|:---------|
-| locked     | locked   |
-| unlocked   | unlocked |
 
 | constant   |   value |
 |:-----------|--------:|
@@ -5026,8 +5021,8 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant   | value   |
 |:-----------|:--------|
-| MARKDOWN   | la      |
-| PREVIEW    | sa      |
+| MARKDOWN   | ca      |
+| PREVIEW    | da      |
 
 | constant    | value       |
 |:------------|:------------|
