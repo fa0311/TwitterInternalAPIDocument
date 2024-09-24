@@ -106,6 +106,7 @@
     "TransferLevelThree": "TransferLevelThree",
     "TransferLevelTwo": "TransferLevelTwo",
     "UpdateCustomer": "UpdateCustomer",
+    "UpdateCustomerPhoneNumber": "UpdateCustomerPhoneNumber",
     "UpdatePin": "UpdatePin",
     "VerifyIdentity": "VerifyIdentity",
     "VerifyPin": "VerifyPin"
@@ -1056,8 +1057,7 @@
     "SETTINGS": "/i/verified/settings",
     "JOB_PROMOTION_SETTINGS": "/i/verified/settings/job-promotion",
     "INSIGHTS": "/i/business/insights",
-    "PEOPLE_SEARCH": "/i/business/people",
-    "SUPPORT": "/i/verified/priority_support"
+    "PEOPLE_SEARCH": "/i/business/people"
   },
   {
     "Off": "Off",
@@ -2373,10 +2373,6 @@
     "All": "0",
     "Employees": "1",
     "Subscribers": "2"
-  },
-  {
-    "locked": "locked",
-    "unlocked": "unlocked"
   },
   {
     "normal": "2",
@@ -4773,8 +4769,8 @@
     }
   },
   {
-    "MARKDOWN": "la",
-    "PREVIEW": "sa"
+    "MARKDOWN": "ca",
+    "PREVIEW": "da"
   },
   {
     "Public": "Public",
