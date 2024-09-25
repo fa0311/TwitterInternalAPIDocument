@@ -3737,6 +3737,17 @@ Login Required: `...`<br>
 `None`<br>
 #### queryId<br>
 `None`<br>
+## GrokMediaHistory<br>
+Request URL: `https://x.com/i/api/graphql/azn3Sg0APPjb2Jtd7gqxsw/GrokMediaHistory`<br>
+Request Method: `GET`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
 ## GrokShare<br>
 Request URL: `https://x.com/i/api/graphql/z2azGz8ygFmMdOU25hcSRg/GrokShare`<br>
 Request Method: `GET`<br>
@@ -8859,6 +8870,17 @@ Login Required: `...`<br>
 `None`<br>
 ## GrokHome<br>
 Request URL: `https://x.com/i/api/graphql/zLoj2jdCrbGMoT5lg1wdAg/GrokHome`<br>
+Request Method: `GET`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
+## GrokMediaHistory<br>
+Request URL: `https://x.com/i/api/graphql/azn3Sg0APPjb2Jtd7gqxsw/GrokMediaHistory`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
