@@ -4073,10 +4073,9 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key               | type   | variable   |
-|:------------------|:-------|:-----------|
-| grokMode          | ...    | t          |
-| grokModelOptionId | ...    | n          |
+| key           | type   | variable   |
+|:--------------|:-------|:-----------|
+| grok_share_id | ...    | t          |
 
 #### features<br>
 | key                                                                     | type    | variable   |
@@ -4160,10 +4159,9 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key               | type   | variable   |
-|:------------------|:-------|:-----------|
-| grokMode          | ...    | t          |
-| grokModelOptionId | ...    | n          |
+| key           | type   | variable   |
+|:--------------|:-------|:-----------|
+| grok_share_id | ...    | t          |
 
 #### features<br>
 | key                                                                     | type    | variable   |
@@ -4677,6 +4675,17 @@ Login Required: `...`<br>
 `None`<br>
 ## GrokHome<br>
 Request URL: `https://x.com/i/api/graphql/zLoj2jdCrbGMoT5lg1wdAg/GrokHome`<br>
+Request Method: `GET`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
+## GrokMediaHistory<br>
+Request URL: `https://x.com/i/api/graphql/azn3Sg0APPjb2Jtd7gqxsw/GrokMediaHistory`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -6232,6 +6241,17 @@ Login Required: `...`<br>
 `None`<br>
 #### queryId<br>
 `None`<br>
+## GrokMediaHistory<br>
+Request URL: `https://x.com/i/api/graphql/azn3Sg0APPjb2Jtd7gqxsw/GrokMediaHistory`<br>
+Request Method: `GET`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
 ## GrokShare<br>
 Request URL: `https://x.com/i/api/graphql/z2azGz8ygFmMdOU25hcSRg/GrokShare`<br>
 Request Method: `GET`<br>
@@ -6777,6 +6797,17 @@ Login Required: `...`<br>
 `None`<br>
 ## GrokHome<br>
 Request URL: `https://x.com/i/api/graphql/zLoj2jdCrbGMoT5lg1wdAg/GrokHome`<br>
+Request Method: `GET`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
+## GrokMediaHistory<br>
+Request URL: `https://x.com/i/api/graphql/azn3Sg0APPjb2Jtd7gqxsw/GrokMediaHistory`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
