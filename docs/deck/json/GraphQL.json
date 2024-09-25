@@ -10377,8 +10377,7 @@
     "func_name": "b",
     "func_name_init": "c",
     "query": {
-      "grokMode": "t",
-      "grokModelOptionId": "n"
+      "grok_share_id": "t"
     }
   },
   {
@@ -10622,8 +10621,7 @@
     "func_name": "g",
     "func_name_init": "p",
     "query": {
-      "grokMode": "t",
-      "grokModelOptionId": "n"
+      "grok_share_id": "t"
     }
   },
   {
@@ -11740,6 +11738,19 @@
     "exports": {
       "queryId": "zLoj2jdCrbGMoT5lg1wdAg",
       "operationName": "GrokHome",
+      "operationType": "query",
+      "metadata": {
+        "featureSwitches": [],
+        "fieldToggles": [],
+        "featureSwitch": {}
+      }
+    }
+  },
+  {
+    "n": "41211",
+    "exports": {
+      "queryId": "azn3Sg0APPjb2Jtd7gqxsw",
+      "operationName": "GrokMediaHistory",
       "operationType": "query",
       "metadata": {
         "featureSwitches": [],
@@ -15095,6 +15106,19 @@
     }
   },
   {
+    "n": "41211",
+    "exports": {
+      "queryId": "azn3Sg0APPjb2Jtd7gqxsw",
+      "operationName": "GrokMediaHistory",
+      "operationType": "query",
+      "metadata": {
+        "featureSwitches": [],
+        "fieldToggles": [],
+        "featureSwitch": {}
+      }
+    }
+  },
+  {
     "n": "21211",
     "exports": {
       "queryId": "z2azGz8ygFmMdOU25hcSRg",
@@ -16521,6 +16545,19 @@
     "exports": {
       "queryId": "zLoj2jdCrbGMoT5lg1wdAg",
       "operationName": "GrokHome",
+      "operationType": "query",
+      "metadata": {
+        "featureSwitches": [],
+        "fieldToggles": [],
+        "featureSwitch": {}
+      }
+    }
+  },
+  {
+    "n": "41211",
+    "exports": {
+      "queryId": "azn3Sg0APPjb2Jtd7gqxsw",
+      "operationName": "GrokMediaHistory",
       "operationType": "query",
       "metadata": {
         "featureSwitches": [],
