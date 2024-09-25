@@ -2770,6 +2770,12 @@
       "method": "GET",
       "features": {}
     },
+    "GrokMediaHistory": {
+      "url": "https://x.com/i/api/graphql/azn3Sg0APPjb2Jtd7gqxsw/GrokMediaHistory",
+      "queryId": "azn3Sg0APPjb2Jtd7gqxsw",
+      "method": "GET",
+      "features": {}
+    },
     "GrokShare": {
       "url": "https://x.com/i/api/graphql/z2azGz8ygFmMdOU25hcSRg/GrokShare",
       "queryId": "z2azGz8ygFmMdOU25hcSRg",
