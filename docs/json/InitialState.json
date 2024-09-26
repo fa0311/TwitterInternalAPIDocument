@@ -2083,6 +2083,9 @@
       "rweb_conf_less_video_enabled": {
         "value": "true"
       },
+      "rweb_conf_only_enabled": {
+        "value": "false"
+      },
       "rweb_conf_rnnoise_enabled": {
         "value": "true"
       },
@@ -5001,8 +5004,14 @@
         "rweb_conf_enabled": {
           "value": "true"
         },
+        "rweb_conf_grid_enabled": {
+          "value": "true"
+        },
         "rweb_conf_less_video_enabled": {
           "value": "true"
+        },
+        "rweb_conf_only_enabled": {
+          "value": "false"
         },
         "rweb_conf_rnnoise_enabled": {
           "value": "true"
@@ -5947,10 +5956,10 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "39169fa4f5245a3eaa5e23ec04608e8d"
+      "settingsVersion": "2bc204ab14fbc39a2623908690a2f021"
     },
     "debug": {},
-    "featureSetToken": "5c86a78186761ed65046961b7bc0c877c71b982f",
+    "featureSetToken": "bf554a9d1e4b31466ddac33c2a9468f7ccc9936d",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -6020,7 +6029,7 @@
     "country": "XX",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "172729856381444432",
+    "guestId": "172738489168298398",
     "hasCommunityMemberships": "false",
     "language": "en",
     "ssoInitTokens": {},
