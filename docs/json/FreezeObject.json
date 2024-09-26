@@ -267,10 +267,10 @@
     "Messages": "4",
     "Notifications": "5",
     "Profile": "6",
-    "Premium": "7",
-    "Payments": "8",
-    "CommunityNotes": "9",
-    "Communities": "10",
+    "Communities": "7",
+    "Premium": "8",
+    "Payments": "9",
+    "CommunityNotes": "10",
     "VerifiedOrgDash": "11",
     "Verified": "12",
     "Spaces": "13",
@@ -5206,11 +5206,6 @@
     "UnavailableMissingBlueSubscription": "UnavailableMissingBlueSubscription"
   },
   {
-    "REQUEST": "rweb/promotedContent/LOG_REQUEST",
-    "SUCCESS": "rweb/promotedContent/LOG_SUCCESS",
-    "FAILURE": "rweb/promotedContent/LOG_FAILURE"
-  },
-  {
     "premiumSubscription": "premiumSubscription",
     "premiumSettings": "premiumSettings",
     "securitySettings": "securitySettings",
@@ -5232,6 +5227,11 @@
     "ParticipantsLeave": "i.Cr.PARTICIPANTS_LEAVE",
     "ConversationNameUpdate": "i.Cr.CONVERSATION_NAME_UPDATE",
     "JoinConversation": "i.Cr.JOIN_CONVERSATION"
+  },
+  {
+    "REQUEST": "rweb/promotedContent/LOG_REQUEST",
+    "SUCCESS": "rweb/promotedContent/LOG_SUCCESS",
+    "FAILURE": "rweb/promotedContent/LOG_FAILURE"
   },
   {
     "REQUEST": "rweb/trends/placeTrendsLocations/FETCH_TRENDS_LOCATIONS_REQUEST",
@@ -5345,7 +5345,7 @@
     "Invalid": "invalid",
     "NotSet": "notSet"
   },
-  "{[L.ActionedTweets]:{\"backLocation\":\"R\",\"confirmationSheetHeadline\":\"()(0,c.X_)\"{\"screenName\":\"m\"}{\"screenName\":\"m\"}},[L.PreviewFlaggedTweets]:{\"backLocation\":\"F\",\"confirmationSheetHeadline\":\"w()\"{\"screenName\":\"m\"}{\"screenName\":\"m\"}}}",
+  "{[L.ActionedTweets]:{\"backLocation\":\"F\",\"confirmationSheetHeadline\":\"()(0,c.X_)\"{\"screenName\":\"m\"}{\"screenName\":\"m\"}},[L.PreviewFlaggedTweets]:{\"backLocation\":\"R\",\"confirmationSheetHeadline\":\"w()\"{\"screenName\":\"m\"}{\"screenName\":\"m\"}}}",
   {
     "ActionedTweets": "actioned_tweets",
     "PreviewFlaggedTweets": "preview_flagged_tweets"

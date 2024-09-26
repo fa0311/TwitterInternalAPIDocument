@@ -4300,3 +4300,14 @@
 - profile_foundations_about_tab_tooltip_enabled<br>
 - profile_foundations_header_fields_hidden<br>
 - voice_rooms_card_version<br>
+## 2024/09/26<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- rweb_conf_only_enabled<br>
+#### remove<br>
+- None<br>
