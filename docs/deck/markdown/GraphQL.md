@@ -836,10 +836,7 @@ Request Method: `POST`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key      | type   | variable   |
-|:---------|:-------|:-----------|
-| settings | ...    | t.settings |
-
+`None`<br>
 #### features<br>
 | key                                                               | type    | variable   |
 |:------------------------------------------------------------------|:--------|:-----------|
@@ -1141,10 +1138,9 @@ Request Method: `POST`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key             | type   | variable   |
-|:----------------|:-------|:-----------|
-| articleEntityId | ...    | i          |
-| title           | ...    | r          |
+| key   | type   | variable   |
+|:------|:-------|:-----------|
+| ...t  | ...    | _          |
 
 #### features<br>
 | key                                                               | type    | variable   |
@@ -1321,11 +1317,12 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key               | type   | variable                               |
-|:------------------|:-------|:---------------------------------------|
-| articleEntityId   | ...    | i                                      |
-| visibilitySetting | ...    | s                                      |
-| ...r&&            | ...    | {'conversationControl': {'mode': 'r'}} |
+| key                    | type    | variable   |
+|:-----------------------|:--------|:-----------|
+| count                  | ...     | i          |
+| cursor                 | ...     | r          |
+| includePromotedContent | boolean | False      |
+| ...()(0,a.d)           | ...     | _          |
 
 #### features<br>
 | key                                                | type    | variable   |
@@ -2335,9 +2332,9 @@ Request Method: `POST`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key             | type   | variable   |
-|:----------------|:-------|:-----------|
-| articleEntityId | ...    | i          |
+| key    | type   | variable   |
+|:-------|:-------|:-----------|
+| cursor | ...    | t          |
 
 #### features<br>
 | key                                                               | type    | variable   |
@@ -2412,7 +2409,7 @@ Login Required: `...`<br>
 #### variables<br>
 | key          | type   | variable                  |
 |:-------------|:-------|:--------------------------|
-| isPrivate    | ...    | private===i.toLowerCase() |
+| isPrivate    | ...    | private===l.toLowerCase() |
 | name         | ...    | s                         |
 | description  | ...    | a                         |
 | ...()(0,o.S) | ...    | _                         |
@@ -2683,10 +2680,9 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key          | type   | variable   |
-|:-------------|:-------|:-----------|
-| listId       | ...    | t.list_id  |
-| ...()(0,o.S) | ...    | _          |
+| key      | type   | variable   |
+|:---------|:-------|:-----------|
+| settings | ...    | t.settings |
 
 #### features<br>
 | key                                                               | type    | variable   |
@@ -2896,7 +2892,12 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-`None`<br>
+| key          | type   | variable   |
+|:-------------|:-------|:-----------|
+| count        | ...    | t          |
+| cursor       | ...    | r          |
+| ...()(0,o.d) | ...    | _          |
+
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
@@ -3343,7 +3344,7 @@ Login Required: `...`<br>
 #### variables<br>
 | key     | type   | variable   |
 |:--------|:-------|:-----------|
-| topicId | ...    | d          |
+| topicId | ...    | r          |
 
 #### features<br>
 `None`<br>
@@ -3460,10 +3461,9 @@ Request Method: `POST`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key               | type   | variable   |
-|:------------------|:-------|:-----------|
-| grokMode          | ...    | t          |
-| grokModelOptionId | ...    | n          |
+| key                    | type   | variable                 |
+|:-----------------------|:-------|:-------------------------|
+| show_in_app_navigation | ...    | t.show_in_app_navigation |
 
 #### features<br>
 `None`<br>
@@ -3549,7 +3549,7 @@ Login Required: `...`<br>
 #### variables<br>
 | key          | type   | variable   |
 |:-------------|:-------|:-----------|
-| topicId      | ...    | r          |
+| topicId      | ...    | d          |
 | ...()(0,a.d) | ...    | _          |
 
 #### features<br>
@@ -3859,42 +3859,6 @@ Login Required: `...`<br>
 
 #### queryId<br>
 `None`<br>
-## UserAboutTimeline<br>
-Request URL: `https://x.com/i/api/graphql/iTDi9UUsvZ5OfzL2jYPv-g/UserAboutTimeline`<br>
-Request Method: `GET`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-| key                                                                     | type    | variable   |
-|:------------------------------------------------------------------------|:--------|:-----------|
-| rweb_tipjar_consumption_enabled                                         | boolean | True       |
-| responsive_web_graphql_exclude_directive_enabled                        | boolean | True       |
-| verified_phone_label_enabled                                            | boolean | False      |
-| creator_subscriptions_tweet_preview_api_enabled                         | boolean | True       |
-| responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
-| responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean | False      |
-| communities_web_enable_tweet_community_results_fetch                    | boolean | True       |
-| c9s_tweet_anatomy_moderator_badge_enabled                               | boolean | True       |
-| articles_preview_enabled                                                | boolean | True       |
-| responsive_web_edit_tweet_api_enabled                                   | boolean | True       |
-| graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | True       |
-| view_counts_everywhere_api_enabled                                      | boolean | True       |
-| longform_notetweets_consumption_enabled                                 | boolean | True       |
-| responsive_web_twitter_article_tweet_consumption_enabled                | boolean | True       |
-| tweet_awards_web_tipping_enabled                                        | boolean | False      |
-| creator_subscriptions_quote_tweet_preview_enabled                       | boolean | False      |
-| freedom_of_speech_not_reach_fetch_enabled                               | boolean | True       |
-| standardized_nudges_misinfo                                             | boolean | True       |
-| tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | True       |
-| rweb_video_timestamps_enabled                                           | boolean | True       |
-| longform_notetweets_rich_text_read_enabled                              | boolean | True       |
-| longform_notetweets_inline_media_enabled                                | boolean | True       |
-| responsive_web_enhance_cards_enabled                                    | boolean | False      |
-
-#### queryId<br>
-`None`<br>
 ## UserArticlesTweets<br>
 Request URL: `https://x.com/i/api/graphql/CtvnBIC_7SawFeXZWRrX7A/UserArticlesTweets`<br>
 Request Method: `GET`<br>
@@ -4032,9 +3996,11 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key             | type   | variable   |
-|:----------------|:-------|:-----------|
-| articleEntityId | ...    | a          |
+| key               | type   | variable                               |
+|:------------------|:-------|:---------------------------------------|
+| articleEntityId   | ...    | i                                      |
+| visibilitySetting | ...    | s                                      |
+| ...a&&            | ...    | {'conversationControl': {'mode': 'a'}} |
 
 #### features<br>
 | key                                                                     | type    | variable   |
@@ -4107,9 +4073,9 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key             | type   | variable   |
-|:----------------|:-------|:-----------|
-| articleEntityId | ...    | i          |
+| key           | type   | variable   |
+|:--------------|:-------|:-----------|
+| grok_share_id | ...    | t          |
 
 #### features<br>
 | key                                                                     | type    | variable   |
@@ -4193,9 +4159,9 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key             | type   | variable   |
-|:----------------|:-------|:-----------|
-| articleEntityId | ...    | i          |
+| key           | type   | variable   |
+|:--------------|:-------|:-----------|
+| grok_share_id | ...    | t          |
 
 #### features<br>
 | key                                                                     | type    | variable   |
@@ -4243,13 +4209,10 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key                      | type   | variable    |
-|:-------------------------|:-------|:------------|
-| cursor                   | ...    | n           |
-| rest_id                  | ...    | a           |
-| ...()(0,g.d)             | ...    | _           |
-| withSafetyModeUserFields | ...    | t.isTrue(t) |
-
+```internal process
+# Error
+{"articleEntityId":"i","coverMedia":"s&&a?"{"media_id":"s","media_category":"a"}:"void 0"}
+```
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
@@ -4377,7 +4340,7 @@ Login Required: `...`<br>
 #### variables<br>
 | key    | type   | variable   |
 |:-------|:-------|:-----------|
-| userId | ...    | n          |
+| restId | ...    | t          |
 
 #### features<br>
 | key                                                | type    | variable   |
@@ -4392,9 +4355,11 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key                        | type   | variable   |
-|:---------------------------|:-------|:-----------|
-| withCommunitiesMemberships | ...    | n.isTrue() |
+| key          | type   | variable   |
+|:-------------|:-------|:-----------|
+| count        | ...    | 10         |
+| ...a         | ...    | _          |
+| ...()(0,i.S) | ...    | _          |
 
 #### features<br>
 | key                                                               | type    | variable   |
@@ -4719,6 +4684,17 @@ Login Required: `...`<br>
 `None`<br>
 #### queryId<br>
 `None`<br>
+## GrokMediaHistory<br>
+Request URL: `https://x.com/i/api/graphql/azn3Sg0APPjb2Jtd7gqxsw/GrokMediaHistory`<br>
+Request Method: `GET`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
 ## GrokShare<br>
 Request URL: `https://x.com/i/api/graphql/z2azGz8ygFmMdOU25hcSRg/GrokShare`<br>
 Request Method: `GET`<br>
@@ -4912,6 +4888,39 @@ Login Required: `...`<br>
 `None`<br>
 #### queryId<br>
 `None`<br>
+## BrowseSpaceTopics<br>
+Request URL: `https://x.com/i/api/graphql/TYpVV9QioZfViHqEqRZxJA/BrowseSpaceTopics`<br>
+Request Method: `GET`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
+## SubscribeToScheduledSpace<br>
+Request URL: `https://x.com/i/api/graphql/Sxn4YOlaAwEKjnjWV0h7Mw/SubscribeToScheduledSpace`<br>
+Request Method: `POST`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
+## UnsubscribeFromScheduledSpace<br>
+Request URL: `https://x.com/i/api/graphql/Zevhh76Msw574ZSs2NQHGQ/UnsubscribeFromScheduledSpace`<br>
+Request Method: `POST`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
 ## DismissRitoSuggestedAction<br>
 Request URL: `https://x.com/i/api/graphql/jYvwa61cv3NwNP24iUru6g/DismissRitoSuggestedAction`<br>
 Request Method: `POST`<br>
@@ -5078,11 +5087,7 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key             | type   | variable                     |
-|:----------------|:-------|:-----------------------------|
-| pinned_tweet_id | ...    | (optional) t.pinned_tweet_id |
-| ...()(0,_.d)    | ...    | _                            |
-
+`None`<br>
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
@@ -5397,6 +5402,105 @@ Login Required: `...`<br>
 
 #### queryId<br>
 `None`<br>
+## BrowseSpaceTopics<br>
+Request URL: `https://x.com/i/api/graphql/TYpVV9QioZfViHqEqRZxJA/BrowseSpaceTopics`<br>
+Request Method: `GET`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
+## SubscribeToScheduledSpace<br>
+Request URL: `https://x.com/i/api/graphql/Sxn4YOlaAwEKjnjWV0h7Mw/SubscribeToScheduledSpace`<br>
+Request Method: `POST`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
+## UnsubscribeFromScheduledSpace<br>
+Request URL: `https://x.com/i/api/graphql/Zevhh76Msw574ZSs2NQHGQ/UnsubscribeFromScheduledSpace`<br>
+Request Method: `POST`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
+## BrowseSpaceTopics<br>
+Request URL: `https://x.com/i/api/graphql/TYpVV9QioZfViHqEqRZxJA/BrowseSpaceTopics`<br>
+Request Method: `GET`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
+## SubscribeToScheduledSpace<br>
+Request URL: `https://x.com/i/api/graphql/Sxn4YOlaAwEKjnjWV0h7Mw/SubscribeToScheduledSpace`<br>
+Request Method: `POST`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
+## UnsubscribeFromScheduledSpace<br>
+Request URL: `https://x.com/i/api/graphql/Zevhh76Msw574ZSs2NQHGQ/UnsubscribeFromScheduledSpace`<br>
+Request Method: `POST`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
+## BrowseSpaceTopics<br>
+Request URL: `https://x.com/i/api/graphql/TYpVV9QioZfViHqEqRZxJA/BrowseSpaceTopics`<br>
+Request Method: `GET`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
+## SubscribeToScheduledSpace<br>
+Request URL: `https://x.com/i/api/graphql/Sxn4YOlaAwEKjnjWV0h7Mw/SubscribeToScheduledSpace`<br>
+Request Method: `POST`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
+## UnsubscribeFromScheduledSpace<br>
+Request URL: `https://x.com/i/api/graphql/Zevhh76Msw574ZSs2NQHGQ/UnsubscribeFromScheduledSpace`<br>
+Request Method: `POST`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
 ## BirdwatchAdmitUser<br>
 Request URL: `https://x.com/i/api/graphql/s_L4H2iPhZoMtWiqHxd9LA/BirdwatchAdmitUser`<br>
 Request Method: `POST`<br>
@@ -5456,7 +5560,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## BirdwatchFetchContributorNotesSlice<br>
-Request URL: `https://x.com/i/api/graphql/UTqroyQoGoJ4kIUYj2FxgQ/BirdwatchFetchContributorNotesSlice`<br>
+Request URL: `https://x.com/i/api/graphql/kR_ngAR-x5WxaBFF5DuGwA/BirdwatchFetchContributorNotesSlice`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -5515,7 +5619,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## BirdwatchCreateNote<br>
-Request URL: `https://x.com/i/api/graphql/s1dqV02ubRTzJyeCLJDUOA/BirdwatchCreateNote`<br>
+Request URL: `https://x.com/i/api/graphql/neSGoQRGib4thTyCtSc0TA/BirdwatchCreateNote`<br>
 Request Method: `POST`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -5665,7 +5769,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## BirdwatchFetchCanTweetBeMediaNote<br>
-Request URL: `https://x.com/i/api/graphql/631X76cvyQ0CtLViMsdulw/BirdwatchFetchCanTweetBeMediaNote`<br>
+Request URL: `https://x.com/i/api/graphql/0EW8KDGMK0g3EfCF0iAhsg/BirdwatchFetchCanTweetBeMediaNote`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -5715,7 +5819,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## BirdwatchFetchNoteTranslation<br>
-Request URL: `https://x.com/i/api/graphql/UixFl57o8hmMeLaqmBwEYQ/BirdwatchFetchNoteTranslation`<br>
+Request URL: `https://x.com/i/api/graphql/svgZ7bxxbNNiMhBF4PsWww/BirdwatchFetchNoteTranslation`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -5734,7 +5838,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## BirdwatchFetchNotes<br>
-Request URL: `https://x.com/i/api/graphql/p-CVMyCQg7ZObeL4OvsQcg/BirdwatchFetchNotes`<br>
+Request URL: `https://x.com/i/api/graphql/2SZTGfgGTWpqB3GueiYkiA/BirdwatchFetchNotes`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -5755,7 +5859,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## BirdwatchFetchOneNote<br>
-Request URL: `https://x.com/i/api/graphql/t-op2R8aP11yLcAeMHbCMg/BirdwatchFetchOneNote`<br>
+Request URL: `https://x.com/i/api/graphql/0XvKj4FNdE9QthLQDGEOig/BirdwatchFetchOneNote`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -6128,6 +6232,17 @@ Login Required: `...`<br>
 `None`<br>
 ## GrokHome<br>
 Request URL: `https://x.com/i/api/graphql/zLoj2jdCrbGMoT5lg1wdAg/GrokHome`<br>
+Request Method: `GET`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
+## GrokMediaHistory<br>
+Request URL: `https://x.com/i/api/graphql/azn3Sg0APPjb2Jtd7gqxsw/GrokMediaHistory`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -6691,6 +6806,17 @@ Login Required: `...`<br>
 `None`<br>
 #### queryId<br>
 `None`<br>
+## GrokMediaHistory<br>
+Request URL: `https://x.com/i/api/graphql/azn3Sg0APPjb2Jtd7gqxsw/GrokMediaHistory`<br>
+Request Method: `GET`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
 ## GrokShare<br>
 Request URL: `https://x.com/i/api/graphql/z2azGz8ygFmMdOU25hcSRg/GrokShare`<br>
 Request Method: `GET`<br>
@@ -6729,6 +6855,39 @@ Login Required: `...`<br>
 `None`<br>
 ## SetGrokPreferences<br>
 Request URL: `https://x.com/i/api/graphql/NqLS09LPofalCjVhFolKtA/SetGrokPreferences`<br>
+Request Method: `POST`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
+## BrowseSpaceTopics<br>
+Request URL: `https://x.com/i/api/graphql/TYpVV9QioZfViHqEqRZxJA/BrowseSpaceTopics`<br>
+Request Method: `GET`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
+## SubscribeToScheduledSpace<br>
+Request URL: `https://x.com/i/api/graphql/Sxn4YOlaAwEKjnjWV0h7Mw/SubscribeToScheduledSpace`<br>
+Request Method: `POST`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
+## UnsubscribeFromScheduledSpace<br>
+Request URL: `https://x.com/i/api/graphql/Zevhh76Msw574ZSs2NQHGQ/UnsubscribeFromScheduledSpace`<br>
 Request Method: `POST`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -6800,161 +6959,6 @@ Login Required: `...`<br>
 | longform_notetweets_rich_text_read_enabled                              | boolean | True       |
 | longform_notetweets_inline_media_enabled                                | boolean | True       |
 | responsive_web_enhance_cards_enabled                                    | boolean | False      |
-
-#### queryId<br>
-`None`<br>
-## ArticleEntitiesSlice<br>
-Request URL: `https://x.com/i/api/graphql/Q7sEPUIdsMXwhhP4pjlNJA/ArticleEntitiesSlice`<br>
-Request Method: `GET`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-| key                                                               | type    | variable   |
-|:------------------------------------------------------------------|:--------|:-----------|
-| rweb_tipjar_consumption_enabled                                   | boolean | True       |
-| responsive_web_graphql_exclude_directive_enabled                  | boolean | True       |
-| verified_phone_label_enabled                                      | boolean | False      |
-| responsive_web_graphql_skip_user_profile_image_extensions_enabled | boolean | False      |
-| responsive_web_graphql_timeline_navigation_enabled                | boolean | True       |
-
-#### queryId<br>
-`None`<br>
-## ArticleEntityDelete<br>
-Request URL: `https://x.com/i/api/graphql/e4lWqB6m2TA8Fn_j9L9xEA/ArticleEntityDelete`<br>
-Request Method: `POST`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-`None`<br>
-#### queryId<br>
-`None`<br>
-## ArticleEntityDraftCreate<br>
-Request URL: `https://x.com/i/api/graphql/EehjLcq6FurJJIfIh8JWFA/ArticleEntityDraftCreate`<br>
-Request Method: `POST`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-| key                                                               | type    | variable   |
-|:------------------------------------------------------------------|:--------|:-----------|
-| rweb_tipjar_consumption_enabled                                   | boolean | True       |
-| responsive_web_graphql_exclude_directive_enabled                  | boolean | True       |
-| verified_phone_label_enabled                                      | boolean | False      |
-| responsive_web_graphql_skip_user_profile_image_extensions_enabled | boolean | False      |
-| responsive_web_graphql_timeline_navigation_enabled                | boolean | True       |
-
-#### queryId<br>
-`None`<br>
-## ArticleEntityPublish<br>
-Request URL: `https://x.com/i/api/graphql/6PZ1xqVSPjSrhGqCCyGynA/ArticleEntityPublish`<br>
-Request Method: `POST`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-| key                                                               | type    | variable   |
-|:------------------------------------------------------------------|:--------|:-----------|
-| rweb_tipjar_consumption_enabled                                   | boolean | True       |
-| responsive_web_graphql_exclude_directive_enabled                  | boolean | True       |
-| verified_phone_label_enabled                                      | boolean | False      |
-| responsive_web_graphql_skip_user_profile_image_extensions_enabled | boolean | False      |
-| responsive_web_graphql_timeline_navigation_enabled                | boolean | True       |
-
-#### queryId<br>
-`None`<br>
-## ArticleEntityResultByRestId<br>
-Request URL: `https://x.com/i/api/graphql/njt-BK0wDBIOPSTJZAi1BA/ArticleEntityResultByRestId`<br>
-Request Method: `GET`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-| key                                                               | type    | variable   |
-|:------------------------------------------------------------------|:--------|:-----------|
-| rweb_tipjar_consumption_enabled                                   | boolean | True       |
-| responsive_web_graphql_exclude_directive_enabled                  | boolean | True       |
-| verified_phone_label_enabled                                      | boolean | False      |
-| responsive_web_graphql_skip_user_profile_image_extensions_enabled | boolean | False      |
-| responsive_web_graphql_timeline_navigation_enabled                | boolean | True       |
-
-#### queryId<br>
-`None`<br>
-## ArticleEntityUnpublish<br>
-Request URL: `https://x.com/i/api/graphql/LFK_HR--xi42eUlY2QGw-w/ArticleEntityUnpublish`<br>
-Request Method: `POST`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-| key                                                               | type    | variable   |
-|:------------------------------------------------------------------|:--------|:-----------|
-| rweb_tipjar_consumption_enabled                                   | boolean | True       |
-| responsive_web_graphql_exclude_directive_enabled                  | boolean | True       |
-| verified_phone_label_enabled                                      | boolean | False      |
-| responsive_web_graphql_skip_user_profile_image_extensions_enabled | boolean | False      |
-| responsive_web_graphql_timeline_navigation_enabled                | boolean | True       |
-
-#### queryId<br>
-`None`<br>
-## ArticleEntityUpdateContent<br>
-Request URL: `https://x.com/i/api/graphql/CN2_W98FFwrgJlqp9iGzjw/ArticleEntityUpdateContent`<br>
-Request Method: `POST`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-| key                                                               | type    | variable   |
-|:------------------------------------------------------------------|:--------|:-----------|
-| rweb_tipjar_consumption_enabled                                   | boolean | True       |
-| responsive_web_graphql_exclude_directive_enabled                  | boolean | True       |
-| verified_phone_label_enabled                                      | boolean | False      |
-| responsive_web_graphql_skip_user_profile_image_extensions_enabled | boolean | False      |
-| responsive_web_graphql_timeline_navigation_enabled                | boolean | True       |
-
-#### queryId<br>
-`None`<br>
-## ArticleEntityUpdateCoverMedia<br>
-Request URL: `https://x.com/i/api/graphql/WvbJqUaf_SQQEPkCn3x5yw/ArticleEntityUpdateCoverMedia`<br>
-Request Method: `POST`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-| key                                                               | type    | variable   |
-|:------------------------------------------------------------------|:--------|:-----------|
-| rweb_tipjar_consumption_enabled                                   | boolean | True       |
-| responsive_web_graphql_exclude_directive_enabled                  | boolean | True       |
-| verified_phone_label_enabled                                      | boolean | False      |
-| responsive_web_graphql_skip_user_profile_image_extensions_enabled | boolean | False      |
-| responsive_web_graphql_timeline_navigation_enabled                | boolean | True       |
-
-#### queryId<br>
-`None`<br>
-## ArticleEntityUpdateTitle<br>
-Request URL: `https://x.com/i/api/graphql/EwpZ82Iv4IAtj7BEpIrToQ/ArticleEntityUpdateTitle`<br>
-Request Method: `POST`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-| key                                                               | type    | variable   |
-|:------------------------------------------------------------------|:--------|:-----------|
-| rweb_tipjar_consumption_enabled                                   | boolean | True       |
-| responsive_web_graphql_exclude_directive_enabled                  | boolean | True       |
-| verified_phone_label_enabled                                      | boolean | False      |
-| responsive_web_graphql_skip_user_profile_image_extensions_enabled | boolean | False      |
-| responsive_web_graphql_timeline_navigation_enabled                | boolean | True       |
 
 #### queryId<br>
 `None`<br>
