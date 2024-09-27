@@ -4311,3 +4311,22 @@
 - rweb_conf_only_enabled<br>
 #### remove<br>
 - None<br>
+## 2024/09/27<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- RitoActionedTweetsTimeline<br>
+- TweetStats<br>
+### Feature Switch<br>
+#### add<br>
+- blue_business_simplify_signup_ui<br>
+- responsive_web_grok_text_selection_enabled<br>
+- rweb_conf_grid_enabled<br>
+#### remove<br>
+- profile_foundations_tweet_stats_enabled<br>
+- profile_foundations_tweet_stats_tweet_frequency<br>
+- responsive_web_grok_file_supported_mimetypes<br>
+- responsive_web_grok_text_selection_supported_locales<br>
+- rito_safety_mode_settings_enabled<br>
+- rweb_conf_enabled<br>
