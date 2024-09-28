@@ -4459,7 +4459,7 @@
           "value": "true"
         },
         "responsive_web_grok_text_selection_enabled": {
-          "value": "true"
+          "value": "false"
         },
         "responsive_web_grok_trends_design_enabled": {
           "value": "false"
@@ -5887,7 +5887,7 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "a5bd481adc35539b92c781ebaeed105a"
+      "settingsVersion": "2c436e28d4f2a88037b487f50c7ab932"
     },
     "debug": {},
     "featureSetToken": "e836d4ebbe7aef325d5f555a68dd94a831e3af36",
@@ -5960,7 +5960,7 @@
     "country": "XX",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "172747131663511868",
+    "guestId": "172755771405492221",
     "hasCommunityMemberships": "false",
     "language": "en",
     "ssoInitTokens": {},
