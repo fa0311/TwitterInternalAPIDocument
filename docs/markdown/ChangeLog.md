@@ -4330,3 +4330,16 @@
 - responsive_web_grok_text_selection_supported_locales<br>
 - rito_safety_mode_settings_enabled<br>
 - rweb_conf_enabled<br>
+## 2024/09/30<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- RitoFlaggedTweetsTimeline<br>
+- ConvertRitoSuggestedActions<br>
+- RitoSuggestedActionsFacePile<br>
+### Feature Switch<br>
+#### add<br>
+- longform_notetweets_scheduling_non_reply_enabled<br>
+#### remove<br>
+- rito_safety_mode_modal_prompt_enabled<br>
