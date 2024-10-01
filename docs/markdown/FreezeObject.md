@@ -1471,6 +1471,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | onMediaWhiteFilled         | {'backgroundColor': 'buttonAlwaysWhite', 'borderColor': 'transparent', 'color': 'alwaysBaseGray1100'}                                   |
 | onMediaOutlined            | {'backgroundColor': 'transparent', 'borderColor': 'translucentWhite35', 'color': 'white'}                                               |
 | onMediaText                | {'backgroundColor': 'transparent', 'borderColor': 'transparent', 'color': 'white'}                                                      |
+| secondaryFilled            | {'backgroundColor': 'gray200', 'borderColor': 'gray200', 'color': 'buttonBlack'}                                                        |
 
 | constant                        | value                           |
 |:--------------------------------|:--------------------------------|
