@@ -1459,6 +1459,11 @@
       "backgroundColor": "transparent",
       "borderColor": "transparent",
       "color": "white"
+    },
+    "secondaryFilled": {
+      "backgroundColor": "gray200",
+      "borderColor": "gray200",
+      "color": "buttonBlack"
     }
   },
   {
