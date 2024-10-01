@@ -3239,3 +3239,15 @@
 - rito_safety_mode_modal_prompt_enabled<br>
 - rito_safety_mode_settings_enabled<br>
 - rweb_conf_enabled<br>
+## 2024/10/01<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- insights_impressions_enabled<br>
+- insights_unique_users_enabled<br>
+#### remove<br>
+- responsive_web_tv_cast_show_controls_enabled<br>
