@@ -946,6 +946,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | updateName                    | updateName                    |
 | updateAddress                 | updateAddress                 |
 | updatePin                     | updatePin                     |
+| checkPendingTransactions      | checkPendingTransactions      |
 
 | constant   | value   |
 |:-----------|:--------|
@@ -4074,6 +4075,12 @@ This document is entirely auto-generated and may contain errors.<br>
 | SUCCESS    | rweb/FETCH_GROK_HISTORY/SUCCESS |
 | FAILURE    | rweb/FETCH_GROK_HISTORY/FAILURE |
 
+| constant   | value                            |
+|:-----------|:---------------------------------|
+| REQUEST    | rweb/DELETE_GROK_MESSAGE/REQUEST |
+| SUCCESS    | rweb/DELETE_GROK_MESSAGE/SUCCESS |
+| FAILURE    | rweb/DELETE_GROK_MESSAGE/FAILURE |
+
 | constant   | value                                 |
 |:-----------|:--------------------------------------|
 | REQUEST    | rweb/FETCH_GROK_MEDIA_HISTORY/REQUEST |
@@ -5975,6 +5982,12 @@ This document is entirely auto-generated and may contain errors.<br>
 | SUCCESS    | rweb/FETCH_GROK_HISTORY/SUCCESS |
 | FAILURE    | rweb/FETCH_GROK_HISTORY/FAILURE |
 
+| constant   | value                            |
+|:-----------|:---------------------------------|
+| REQUEST    | rweb/DELETE_GROK_MESSAGE/REQUEST |
+| SUCCESS    | rweb/DELETE_GROK_MESSAGE/SUCCESS |
+| FAILURE    | rweb/DELETE_GROK_MESSAGE/FAILURE |
+
 | constant   | value                                 |
 |:-----------|:--------------------------------------|
 | REQUEST    | rweb/FETCH_GROK_MEDIA_HISTORY/REQUEST |
@@ -7017,6 +7030,12 @@ This document is entirely auto-generated and may contain errors.<br>
 | SUCCESS    | rweb/FETCH_GROK_HISTORY/SUCCESS |
 | FAILURE    | rweb/FETCH_GROK_HISTORY/FAILURE |
 
+| constant   | value                            |
+|:-----------|:---------------------------------|
+| REQUEST    | rweb/DELETE_GROK_MESSAGE/REQUEST |
+| SUCCESS    | rweb/DELETE_GROK_MESSAGE/SUCCESS |
+| FAILURE    | rweb/DELETE_GROK_MESSAGE/FAILURE |
+
 | constant   | value                                 |
 |:-----------|:--------------------------------------|
 | REQUEST    | rweb/FETCH_GROK_MEDIA_HISTORY/REQUEST |
@@ -7140,7 +7159,7 @@ This document is entirely auto-generated and may contain errors.<br>
 ```
 ```internal process
 # Error
-{[Wa.X.conversationSettings]:{"component":"Ka","showInStack":"!0"},[Wa.X.drawerToggle]:{"component":"nl","showInStack":"!1"},[Wa.X.makeDeck]:{"component":"il","showInStack":"!0"},[Wa.X.newMessage]:{"component":"pl","showInStack":"!0"},[Wa.X.remove]:{"component":"hl.Z","showInStack":"!1"},[Wa.X.searc...
+{[Wr.X.conversationSettings]:{"component":"Kr","showInStack":"!0"},[Wr.X.drawerToggle]:{"component":"nl","showInStack":"!1"},[Wr.X.makeDeck]:{"component":"il","showInStack":"!0"},[Wr.X.newMessage]:{"component":"pl","showInStack":"!0"},[Wr.X.remove]:{"component":"hl.Z","showInStack":"!1"},[Wr.X.searc...
 ```
 | constant          | value             |
 |:------------------|:------------------|
