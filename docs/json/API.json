@@ -2710,6 +2710,12 @@
       "method": "POST",
       "features": {}
     },
+    "DeleteGrokMessage": {
+      "url": "https://x.com/i/api/graphql/kaH0vdJmbuocpRAeWpRC7A/DeleteGrokMessage",
+      "queryId": "kaH0vdJmbuocpRAeWpRC7A",
+      "method": "POST",
+      "features": {}
+    },
     "DeletePaymentMethod": {
       "url": "https://x.com/i/api/graphql/VaaLGwK5KNLoc7wsOmp4uw/DeletePaymentMethod",
       "queryId": "VaaLGwK5KNLoc7wsOmp4uw",
@@ -2729,8 +2735,8 @@
       "features": {}
     },
     "GrokConversationItemsByRestId": {
-      "url": "https://x.com/i/api/graphql/sH3hGZ-Kr7Cr22GpTrfjbg/GrokConversationItemsByRestId",
-      "queryId": "sH3hGZ-Kr7Cr22GpTrfjbg",
+      "url": "https://x.com/i/api/graphql/5WCPrcgGhqBZ4ktGZ0todw/GrokConversationItemsByRestId",
+      "queryId": "5WCPrcgGhqBZ4ktGZ0todw",
       "method": "GET",
       "features": {
         "creator_subscriptions_tweet_preview_api_enabled": true,
