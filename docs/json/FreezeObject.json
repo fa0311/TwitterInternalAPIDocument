@@ -602,7 +602,8 @@
     "autoclaim": "autoclaim",
     "updateName": "updateName",
     "updateAddress": "updateAddress",
-    "updatePin": "updatePin"
+    "updatePin": "updatePin",
+    "checkPendingTransactions": "checkPendingTransactions"
   },
   {
     "tier2": "tier2",
@@ -3465,6 +3466,11 @@
     "FAILURE": "rweb/FETCH_GROK_HISTORY/FAILURE"
   },
   {
+    "REQUEST": "rweb/DELETE_GROK_MESSAGE/REQUEST",
+    "SUCCESS": "rweb/DELETE_GROK_MESSAGE/SUCCESS",
+    "FAILURE": "rweb/DELETE_GROK_MESSAGE/FAILURE"
+  },
+  {
     "REQUEST": "rweb/FETCH_GROK_MEDIA_HISTORY/REQUEST",
     "SUCCESS": "rweb/FETCH_GROK_MEDIA_HISTORY/SUCCESS",
     "FAILURE": "rweb/FETCH_GROK_MEDIA_HISTORY/FAILURE"
@@ -3566,7 +3572,7 @@
     "single_line": "singleline",
     "format_inline": "format-inline"
   },
-  "{\"ActionsBar\":\"y.Z\",\"ActionMenu\":\"function()\"{\"Icon\":\"e\",\"isDisabled\":\"t\",\"items\":\"n\",\"onOpen\":\"o\"}{\"const i=r.useCallback()\"{\"items\":\"n\",\"onCloseRequested\":\"e\"}{\"Icon\":\"e\",\"isDisabled\":\"t\",\"onClick\":\"o\",\"renderActionMenu\":\"i\"}},\"CallToAction\":\"a.ZP\",\"EditCallout\":\"E.Z\",\"Education\":\"C.Z\",\"HighlightedUserLabel\":\"c.Z\",\"Media\":\"k.Z\",\"Place\":\"i.ZP\",\"PromotedDetails\":\"u.Z\",\"PromotedUserProfileCard\":\"P\",\"ReplyContext\":\"Z.ZP\",\"RichContent\":\"L.Z\",\"SocialContext\":\"g.Z\",\"Text\":\"R.Z\",\"Tombstone\":\"_.Z\",\"Timestamp\":\"p.Z\",\"UserAvatar\":\"M.Z\",\"UserFollowIndicator\":\"N.Z\",\"UserName\":\"D.Z\",\"ArticleCard\":\"v.Z\"}",
+  "{\"ActionsBar\":\"y.Z\",\"ActionMenu\":\"function()\"{\"Icon\":\"e\",\"isDisabled\":\"t\",\"items\":\"n\",\"onOpen\":\"o\"}{\"const i=r.useCallback()\"{\"items\":\"n\",\"onCloseRequested\":\"e\"}{\"Icon\":\"e\",\"isDisabled\":\"t\",\"onClick\":\"o\",\"renderActionMenu\":\"i\"}},\"CallToAction\":\"a.ZP\",\"EditCallout\":\"E.Z\",\"Education\":\"C.Z\",\"HighlightedUserLabel\":\"c.Z\",\"Media\":\"k.Z\",\"Place\":\"i.ZP\",\"PromotedDetails\":\"u.Z\",\"PromotedUserProfileCard\":\"P\",\"ReplyContext\":\"Z.ZP\",\"RichContent\":\"L.Z\",\"SocialContext\":\"g.Z\",\"Text\":\"R.Z\",\"Tombstone\":\"_.Z\",\"Timestamp\":\"p.Z\",\"UserAvatar\":\"D.Z\",\"UserFollowIndicator\":\"N.Z\",\"UserName\":\"M.Z\",\"ArticleCard\":\"v.Z\"}",
   {
     "ARROW_RIGHT": "ARROW_RIGHT",
     "BALLOON_STROKE": "BALLOON_STROKE",
@@ -5382,6 +5388,11 @@
     "FAILURE": "rweb/FETCH_GROK_HISTORY/FAILURE"
   },
   {
+    "REQUEST": "rweb/DELETE_GROK_MESSAGE/REQUEST",
+    "SUCCESS": "rweb/DELETE_GROK_MESSAGE/SUCCESS",
+    "FAILURE": "rweb/DELETE_GROK_MESSAGE/FAILURE"
+  },
+  {
     "REQUEST": "rweb/FETCH_GROK_MEDIA_HISTORY/REQUEST",
     "SUCCESS": "rweb/FETCH_GROK_MEDIA_HISTORY/SUCCESS",
     "FAILURE": "rweb/FETCH_GROK_MEDIA_HISTORY/FAILURE"
@@ -6367,7 +6378,7 @@
     "Red": "rgba(255, 0, 255, 0.5)",
     "Black": "rgba(255, 0, 0, 0.5)"
   },
-  "{[Ct.FontColor]:{\"type\":\"Ct.FontColor\",\"propertyName\":\"color\",\"styleName\":\"Et.Color\",\"displayName\":\"x().c2c5dea4\",\"values\":\"$t\"},[Ct.FontSize]:{\"type\":\"Ct.FontSize\",\"propertyName\":\"font-size\",\"styleName\":\"Et.FontSize\",\"displayName\":\"x().ce494bb4\",\"values\":[{\"name\":\"50%\",\"value\":\"50%\"},{\"name\":\"75%\",\"value\":\"75%\"},{\"name\":\"100%\",\"value\":\"100%\"},{\"name\":\"200%\",\"value\":\"200%\"},{\"name\":\"300%\",\"value\":\"300%\"}]},[Ct.FontFamily]:{\"type\":\"Ct.FontFamily\",\"propertyName\":\"font-family\",\"styleName\":\"Et.FontFamily\",\"displayName\":\"x().ce71b3d0\",\"values\":[{\"name\":\"x().d2eb1582\",\"value\":\"\"},{\"name\":\"x().e684030e\",\"value\":\"Arial, sans-serif\",\"textStyle\":{\"fontFamily\":\"Arial, sans-serif\"}},{\"name\":\"x().jad3900c\",\"value\":'\"Times New Roman\", serif',\"textStyle\":{\"fontFamily\":'\"Times New Roman\", serif'}},{\"name\":\"x().e205f3a0\",\"value\":'\"Courier New\", monospace',\"textStyle\":{\"fontFamily\":'\"Courier New\", monospace'}}]},[Ct.TextOpacity]:{\"type\":\"Ct.TextOpacity\",\"propertyName\":\"color\",\"styleName\":\"Et.Color\",\"displayName\":\"x().d207d39a\",\"values\":[{\"name\":\"50%\",\"value\":\"0.5\",\"isEqual\":\"Tt()\"},{\"name\":\"75%\",\"value\":\"0.75\",\"isEqual\":\"Tt()\"},{\"name\":\"100%\",\"value\":\"1.0\",\"isEqual\":\"Tt()\"}]},[Ct.BackgroundColor]:{\"type\":\"Ct.BackgroundColor\",\"propertyName\":\"background\",\"styleName\":\"Et.BackgroundColor\",\"displayName\":\"x().a562039c\",\"values\":\"Lt\"},[Ct.BackgroundOpacity]:{\"type\":\"Ct.BackgroundOpacity\",\"propertyName\":\"background\",\"styleName\":\"Et.BackgroundColor\",\"displayName\":\"x().h44e879e\",\"values\":[{\"name\":\"25%\",\"value\":\"0.25\",\"isEqual\":\"Mt()\"},{\"name\":\"50%\",\"value\":\"0.5\",\"isEqual\":\"Mt()\"},{\"name\":\"75%\",\"value\":\"0.75\",\"isEqual\":\"Mt()\"},{\"name\":\"100%\",\"value\":\"1.0\",\"isEqual\":\"Mt()\"}]}}",
+  "{[Ct.FontColor]:{\"type\":\"Ct.FontColor\",\"propertyName\":\"color\",\"styleName\":\"Et.Color\",\"displayName\":\"S().c2c5dea4\",\"values\":\"$t\"},[Ct.FontSize]:{\"type\":\"Ct.FontSize\",\"propertyName\":\"font-size\",\"styleName\":\"Et.FontSize\",\"displayName\":\"S().ce494bb4\",\"values\":[{\"name\":\"50%\",\"value\":\"50%\"},{\"name\":\"75%\",\"value\":\"75%\"},{\"name\":\"100%\",\"value\":\"100%\"},{\"name\":\"200%\",\"value\":\"200%\"},{\"name\":\"300%\",\"value\":\"300%\"}]},[Ct.FontFamily]:{\"type\":\"Ct.FontFamily\",\"propertyName\":\"font-family\",\"styleName\":\"Et.FontFamily\",\"displayName\":\"S().ce71b3d0\",\"values\":[{\"name\":\"S().d2eb1582\",\"value\":\"\"},{\"name\":\"S().e684030e\",\"value\":\"Arial, sans-serif\",\"textStyle\":{\"fontFamily\":\"Arial, sans-serif\"}},{\"name\":\"S().jad3900c\",\"value\":'\"Times New Roman\", serif',\"textStyle\":{\"fontFamily\":'\"Times New Roman\", serif'}},{\"name\":\"S().e205f3a0\",\"value\":'\"Courier New\", monospace',\"textStyle\":{\"fontFamily\":'\"Courier New\", monospace'}}]},[Ct.TextOpacity]:{\"type\":\"Ct.TextOpacity\",\"propertyName\":\"color\",\"styleName\":\"Et.Color\",\"displayName\":\"S().d207d39a\",\"values\":[{\"name\":\"50%\",\"value\":\"0.5\",\"isEqual\":\"Tt()\"},{\"name\":\"75%\",\"value\":\"0.75\",\"isEqual\":\"Tt()\"},{\"name\":\"100%\",\"value\":\"1.0\",\"isEqual\":\"Tt()\"}]},[Ct.BackgroundColor]:{\"type\":\"Ct.BackgroundColor\",\"propertyName\":\"background\",\"styleName\":\"Et.BackgroundColor\",\"displayName\":\"S().a562039c\",\"values\":\"Lt\"},[Ct.BackgroundOpacity]:{\"type\":\"Ct.BackgroundOpacity\",\"propertyName\":\"background\",\"styleName\":\"Et.BackgroundColor\",\"displayName\":\"S().h44e879e\",\"values\":[{\"name\":\"25%\",\"value\":\"0.25\",\"isEqual\":\"Mt()\"},{\"name\":\"50%\",\"value\":\"0.5\",\"isEqual\":\"Mt()\"},{\"name\":\"75%\",\"value\":\"0.75\",\"isEqual\":\"Mt()\"},{\"name\":\"100%\",\"value\":\"1.0\",\"isEqual\":\"Mt()\"}]}}",
   {
     "REQUEST": "rweb/promotedContent/LOG_REQUEST",
     "SUCCESS": "rweb/promotedContent/LOG_SUCCESS",
