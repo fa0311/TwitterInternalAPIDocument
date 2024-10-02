@@ -1321,7 +1321,7 @@ Login Required: `...`<br>
 | key                    | type    | variable   |
 |:-----------------------|:--------|:-----------|
 | count                  | ...     | i          |
-| cursor                 | ...     | r          |
+| cursor                 | ...     | n          |
 | includePromotedContent | boolean | False      |
 | ...()(0,a.d)           | ...     | _          |
 
@@ -2335,7 +2335,7 @@ Login Required: `...`<br>
 #### variables<br>
 | key    | type   | variable   |
 |:-------|:-------|:-----------|
-| cursor | ...    | t          |
+| restId | ...    | t          |
 
 #### features<br>
 | key                                                               | type    | variable   |
@@ -4074,9 +4074,9 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key           | type   | variable   |
-|:--------------|:-------|:-----------|
-| grok_share_id | ...    | t          |
+| key    | type   | variable   |
+|:-------|:-------|:-----------|
+| cursor | ...    | t          |
 
 #### features<br>
 | key                                                                     | type    | variable   |
@@ -4160,9 +4160,9 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key           | type   | variable   |
-|:--------------|:-------|:-----------|
-| grok_share_id | ...    | t          |
+| key    | type   | variable   |
+|:-------|:-------|:-----------|
+| cursor | ...    | t          |
 
 #### features<br>
 | key                                                                     | type    | variable   |
@@ -4342,9 +4342,10 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key    | type   | variable   |
-|:-------|:-------|:-----------|
-| restId | ...    | t          |
+| key             | type   | variable   |
+|:----------------|:-------|:-----------|
+| conversation_id | ...    | n          |
+| chat_item_id    | ...    | t          |
 
 #### features<br>
 | key                                                | type    | variable   |
@@ -4586,6 +4587,17 @@ Login Required: `...`<br>
 `None`<br>
 #### queryId<br>
 `None`<br>
+## DeleteGrokMessage<br>
+Request URL: `https://x.com/i/api/graphql/kaH0vdJmbuocpRAeWpRC7A/DeleteGrokMessage`<br>
+Request Method: `POST`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
 ## DeletePaymentMethod<br>
 Request URL: `https://x.com/i/api/graphql/VaaLGwK5KNLoc7wsOmp4uw/DeletePaymentMethod`<br>
 Request Method: `POST`<br>
@@ -4609,7 +4621,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## GrokConversationItemsByRestId<br>
-Request URL: `https://x.com/i/api/graphql/sH3hGZ-Kr7Cr22GpTrfjbg/GrokConversationItemsByRestId`<br>
+Request URL: `https://x.com/i/api/graphql/5WCPrcgGhqBZ4ktGZ0todw/GrokConversationItemsByRestId`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -6187,8 +6199,19 @@ Login Required: `...`<br>
 `None`<br>
 #### queryId<br>
 `None`<br>
+## DeleteGrokMessage<br>
+Request URL: `https://x.com/i/api/graphql/kaH0vdJmbuocpRAeWpRC7A/DeleteGrokMessage`<br>
+Request Method: `POST`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
 ## GrokConversationItemsByRestId<br>
-Request URL: `https://x.com/i/api/graphql/sH3hGZ-Kr7Cr22GpTrfjbg/GrokConversationItemsByRestId`<br>
+Request URL: `https://x.com/i/api/graphql/5WCPrcgGhqBZ4ktGZ0todw/GrokConversationItemsByRestId`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -6643,8 +6666,19 @@ Login Required: `...`<br>
 `None`<br>
 #### queryId<br>
 `None`<br>
+## DeleteGrokMessage<br>
+Request URL: `https://x.com/i/api/graphql/kaH0vdJmbuocpRAeWpRC7A/DeleteGrokMessage`<br>
+Request Method: `POST`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
 ## GrokConversationItemsByRestId<br>
-Request URL: `https://x.com/i/api/graphql/sH3hGZ-Kr7Cr22GpTrfjbg/GrokConversationItemsByRestId`<br>
+Request URL: `https://x.com/i/api/graphql/5WCPrcgGhqBZ4ktGZ0todw/GrokConversationItemsByRestId`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
