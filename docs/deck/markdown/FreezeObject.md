@@ -52,6 +52,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | GetAccounts                                 | GetAccounts                                 |
 | GetCustomer                                 | GetCustomer                                 |
 | GetCustomerIdentity                         | GetCustomerIdentity                         |
+| GetCustomerLimits                           | GetCustomerLimits                           |
 | GetInvitationDetails                        | GetInvitationDetails                        |
 | GetPaymentMethod                            | GetPaymentMethod                            |
 | GetTransactions                             | GetTransactions                             |
@@ -7203,7 +7204,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | Speed        | Speed        |
 | Quality      | Quality      |
 | ReportDSA    | ReportDSA    |
-| ...Ct        | _            |
+| ...Et        | _            |
 
 | constant   | value                    |
 |:-----------|:-------------------------|
@@ -7229,7 +7230,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{[Ct.FontColor]:{"type":"Ct.FontColor","propertyName":"color","styleName":"Et.Color","displayName":"S().c2c5dea4","values":"$t"},[Ct.FontSize]:{"type":"Ct.FontSize","propertyName":"font-size","styleName":"Et.FontSize","displayName":"S().ce494bb4","values":[{"name":"50%","value":"50%"},{"name":"75%",...
+{[Et.FontColor]:{"type":"Et.FontColor","propertyName":"color","styleName":"kt.Color","displayName":"P().c2c5dea4","values":"At"},[Et.FontSize]:{"type":"Et.FontSize","propertyName":"font-size","styleName":"kt.FontSize","displayName":"P().ce494bb4","values":[{"name":"50%","value":"50%"},{"name":"75%",...
 ```
 | constant   | value                            |
 |:-----------|:---------------------------------|
