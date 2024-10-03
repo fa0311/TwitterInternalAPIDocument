@@ -4359,3 +4359,14 @@
 - responsive_web_tv_cast_show_controls_enabled<br>
 - rito_safety_mode_blocked_profile_enabled<br>
 - rito_safety_mode_features_enabled<br>
+## 2024/10/03<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- responsive_web_profile_header_search_button_enabled<br>
+#### remove<br>
+- None<br>
