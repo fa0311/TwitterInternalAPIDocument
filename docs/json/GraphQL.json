@@ -9345,6 +9345,19 @@
     }
   },
   {
+    "n": "46197",
+    "exports": {
+      "queryId": "kaH0vdJmbuocpRAeWpRC7A",
+      "operationName": "DeleteGrokMessage",
+      "operationType": "mutation",
+      "metadata": {
+        "featureSwitches": [],
+        "fieldToggles": [],
+        "featureSwitch": {}
+      }
+    }
+  },
+  {
     "n": "45983",
     "exports": {
       "queryId": "VaaLGwK5KNLoc7wsOmp4uw",
@@ -9386,7 +9399,7 @@
   {
     "n": "15863",
     "exports": {
-      "queryId": "sH3hGZ-Kr7Cr22GpTrfjbg",
+      "queryId": "5WCPrcgGhqBZ4ktGZ0todw",
       "operationName": "GrokConversationItemsByRestId",
       "operationType": "query",
       "metadata": {
@@ -22204,9 +22217,22 @@
     }
   },
   {
+    "n": "46197",
+    "exports": {
+      "queryId": "kaH0vdJmbuocpRAeWpRC7A",
+      "operationName": "DeleteGrokMessage",
+      "operationType": "mutation",
+      "metadata": {
+        "featureSwitches": [],
+        "fieldToggles": [],
+        "featureSwitch": {}
+      }
+    }
+  },
+  {
     "n": "15863",
     "exports": {
-      "queryId": "sH3hGZ-Kr7Cr22GpTrfjbg",
+      "queryId": "5WCPrcgGhqBZ4ktGZ0todw",
       "operationName": "GrokConversationItemsByRestId",
       "operationType": "query",
       "metadata": {

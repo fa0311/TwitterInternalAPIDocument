@@ -958,10 +958,16 @@
       "insights_chart_filter_enabled": {
         "value": "true"
       },
+      "insights_impressions_enabled": {
+        "value": "false"
+      },
       "insights_multiple_rules_enabled": {
         "value": "false"
       },
       "insights_previews_enabled": {
+        "value": "false"
+      },
+      "insights_unique_users_enabled": {
         "value": "false"
       },
       "krs_registration_enabled": {
@@ -1029,6 +1035,9 @@
       },
       "longform_notetweets_rich_text_read_enabled": {
         "value": "true"
+      },
+      "longform_notetweets_rich_text_timeline_enabled": {
+        "value": "false"
       },
       "longform_notetweets_scheduling_non_reply_enabled": {
         "value": "false"
@@ -1849,9 +1858,6 @@
       "responsive_web_tv_cast_enabled": {
         "value": "true"
       },
-      "responsive_web_tv_cast_show_controls_enabled": {
-        "value": "false"
-      },
       "responsive_web_tv_screen_logging_enabled": {
         "value": "false"
       },
@@ -2006,12 +2012,6 @@
         "value": "true"
       },
       "responsive_web_x_translation_enabled": {
-        "value": "false"
-      },
-      "rito_safety_mode_blocked_profile_enabled": {
-        "value": "true"
-      },
-      "rito_safety_mode_features_enabled": {
         "value": "false"
       },
       "rweb_2_column_htl_prototype_virtual_scroller_enabled": {
@@ -2497,10 +2497,10 @@
         "value": "false"
       },
       "subscriptions_upsells_analytics_profile_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "subscriptions_upsells_analytics_profile_variant": {
-        "value": ""
+        "value": "Impressions"
       },
       "subscriptions_upsells_get_verified_profile": {
         "value": "false"
@@ -3849,10 +3849,16 @@
         "insights_chart_filter_enabled": {
           "value": "true"
         },
+        "insights_impressions_enabled": {
+          "value": "false"
+        },
         "insights_multiple_rules_enabled": {
           "value": "false"
         },
         "insights_previews_enabled": {
+          "value": "false"
+        },
+        "insights_unique_users_enabled": {
           "value": "false"
         },
         "krs_registration_enabled": {
@@ -3920,6 +3926,9 @@
         },
         "longform_notetweets_rich_text_read_enabled": {
           "value": "true"
+        },
+        "longform_notetweets_rich_text_timeline_enabled": {
+          "value": "false"
         },
         "longform_notetweets_scheduling_non_reply_enabled": {
           "value": "false"
@@ -4740,9 +4749,6 @@
         "responsive_web_tv_cast_enabled": {
           "value": "true"
         },
-        "responsive_web_tv_cast_show_controls_enabled": {
-          "value": "false"
-        },
         "responsive_web_tv_screen_logging_enabled": {
           "value": "false"
         },
@@ -4897,12 +4903,6 @@
           "value": "true"
         },
         "responsive_web_x_translation_enabled": {
-          "value": "false"
-        },
-        "rito_safety_mode_blocked_profile_enabled": {
-          "value": "true"
-        },
-        "rito_safety_mode_features_enabled": {
           "value": "false"
         },
         "rweb_2_column_htl_prototype_virtual_scroller_enabled": {
@@ -5887,10 +5887,10 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "b37d24332b14e36da6ac67b4ecbc98bf"
+      "settingsVersion": "a5bd481adc35539b92c781ebaeed105a"
     },
     "debug": {},
-    "featureSetToken": "7d12570b831aef655974a8f9afbe32613ea15e26",
+    "featureSetToken": "acf3371768470c6638fd0480577d1ce0dafd6688",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -5960,7 +5960,7 @@
     "country": "XX",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "172781699659863164",
+    "guestId": "172790342392527559",
     "hasCommunityMemberships": "false",
     "language": "en",
     "ssoInitTokens": {},

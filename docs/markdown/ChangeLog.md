@@ -4343,3 +4343,19 @@
 - longform_notetweets_scheduling_non_reply_enabled<br>
 #### remove<br>
 - rito_safety_mode_modal_prompt_enabled<br>
+## 2024/10/02<br>
+### API<br>
+#### add<br>
+- DeleteGrokMessage<br>
+- DeleteGrokMessage<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- insights_impressions_enabled<br>
+- insights_unique_users_enabled<br>
+- longform_notetweets_rich_text_timeline_enabled<br>
+#### remove<br>
+- responsive_web_tv_cast_show_controls_enabled<br>
+- rito_safety_mode_blocked_profile_enabled<br>
+- rito_safety_mode_features_enabled<br>
