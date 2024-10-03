@@ -74,6 +74,7 @@
     "GetAccounts": "GetAccounts",
     "GetCustomer": "GetCustomer",
     "GetCustomerIdentity": "GetCustomerIdentity",
+    "GetCustomerLimits": "GetCustomerLimits",
     "GetInvitationDetails": "GetInvitationDetails",
     "GetPaymentMethod": "GetPaymentMethod",
     "GetTransactions": "GetTransactions",
@@ -6356,7 +6357,7 @@
     "Speed": "Speed",
     "Quality": "Quality",
     "ReportDSA": "ReportDSA",
-    "...Ct": "_"
+    "...Et": "_"
   },
   {
     "White": "rgba()",
@@ -6378,7 +6379,7 @@
     "Red": "rgba(255, 0, 255, 0.5)",
     "Black": "rgba(255, 0, 0, 0.5)"
   },
-  "{[Ct.FontColor]:{\"type\":\"Ct.FontColor\",\"propertyName\":\"color\",\"styleName\":\"Et.Color\",\"displayName\":\"S().c2c5dea4\",\"values\":\"$t\"},[Ct.FontSize]:{\"type\":\"Ct.FontSize\",\"propertyName\":\"font-size\",\"styleName\":\"Et.FontSize\",\"displayName\":\"S().ce494bb4\",\"values\":[{\"name\":\"50%\",\"value\":\"50%\"},{\"name\":\"75%\",\"value\":\"75%\"},{\"name\":\"100%\",\"value\":\"100%\"},{\"name\":\"200%\",\"value\":\"200%\"},{\"name\":\"300%\",\"value\":\"300%\"}]},[Ct.FontFamily]:{\"type\":\"Ct.FontFamily\",\"propertyName\":\"font-family\",\"styleName\":\"Et.FontFamily\",\"displayName\":\"S().ce71b3d0\",\"values\":[{\"name\":\"S().d2eb1582\",\"value\":\"\"},{\"name\":\"S().e684030e\",\"value\":\"Arial, sans-serif\",\"textStyle\":{\"fontFamily\":\"Arial, sans-serif\"}},{\"name\":\"S().jad3900c\",\"value\":'\"Times New Roman\", serif',\"textStyle\":{\"fontFamily\":'\"Times New Roman\", serif'}},{\"name\":\"S().e205f3a0\",\"value\":'\"Courier New\", monospace',\"textStyle\":{\"fontFamily\":'\"Courier New\", monospace'}}]},[Ct.TextOpacity]:{\"type\":\"Ct.TextOpacity\",\"propertyName\":\"color\",\"styleName\":\"Et.Color\",\"displayName\":\"S().d207d39a\",\"values\":[{\"name\":\"50%\",\"value\":\"0.5\",\"isEqual\":\"Tt()\"},{\"name\":\"75%\",\"value\":\"0.75\",\"isEqual\":\"Tt()\"},{\"name\":\"100%\",\"value\":\"1.0\",\"isEqual\":\"Tt()\"}]},[Ct.BackgroundColor]:{\"type\":\"Ct.BackgroundColor\",\"propertyName\":\"background\",\"styleName\":\"Et.BackgroundColor\",\"displayName\":\"S().a562039c\",\"values\":\"Lt\"},[Ct.BackgroundOpacity]:{\"type\":\"Ct.BackgroundOpacity\",\"propertyName\":\"background\",\"styleName\":\"Et.BackgroundColor\",\"displayName\":\"S().h44e879e\",\"values\":[{\"name\":\"25%\",\"value\":\"0.25\",\"isEqual\":\"Mt()\"},{\"name\":\"50%\",\"value\":\"0.5\",\"isEqual\":\"Mt()\"},{\"name\":\"75%\",\"value\":\"0.75\",\"isEqual\":\"Mt()\"},{\"name\":\"100%\",\"value\":\"1.0\",\"isEqual\":\"Mt()\"}]}}",
+  "{[Et.FontColor]:{\"type\":\"Et.FontColor\",\"propertyName\":\"color\",\"styleName\":\"kt.Color\",\"displayName\":\"P().c2c5dea4\",\"values\":\"At\"},[Et.FontSize]:{\"type\":\"Et.FontSize\",\"propertyName\":\"font-size\",\"styleName\":\"kt.FontSize\",\"displayName\":\"P().ce494bb4\",\"values\":[{\"name\":\"50%\",\"value\":\"50%\"},{\"name\":\"75%\",\"value\":\"75%\"},{\"name\":\"100%\",\"value\":\"100%\"},{\"name\":\"200%\",\"value\":\"200%\"},{\"name\":\"300%\",\"value\":\"300%\"}]},[Et.FontFamily]:{\"type\":\"Et.FontFamily\",\"propertyName\":\"font-family\",\"styleName\":\"kt.FontFamily\",\"displayName\":\"P().ce71b3d0\",\"values\":[{\"name\":\"P().d2eb1582\",\"value\":\"\"},{\"name\":\"P().e684030e\",\"value\":\"Arial, sans-serif\",\"textStyle\":{\"fontFamily\":\"Arial, sans-serif\"}},{\"name\":\"P().jad3900c\",\"value\":'\"Times New Roman\", serif',\"textStyle\":{\"fontFamily\":'\"Times New Roman\", serif'}},{\"name\":\"P().e205f3a0\",\"value\":'\"Courier New\", monospace',\"textStyle\":{\"fontFamily\":'\"Courier New\", monospace'}}]},[Et.TextOpacity]:{\"type\":\"Et.TextOpacity\",\"propertyName\":\"color\",\"styleName\":\"kt.Color\",\"displayName\":\"P().d207d39a\",\"values\":[{\"name\":\"50%\",\"value\":\"0.5\",\"isEqual\":\"Mt()\"},{\"name\":\"75%\",\"value\":\"0.75\",\"isEqual\":\"Mt()\"},{\"name\":\"100%\",\"value\":\"1.0\",\"isEqual\":\"Mt()\"}]},[Et.BackgroundColor]:{\"type\":\"Et.BackgroundColor\",\"propertyName\":\"background\",\"styleName\":\"kt.BackgroundColor\",\"displayName\":\"P().a562039c\",\"values\":\"Ft\"},[Et.BackgroundOpacity]:{\"type\":\"Et.BackgroundOpacity\",\"propertyName\":\"background\",\"styleName\":\"kt.BackgroundColor\",\"displayName\":\"P().h44e879e\",\"values\":[{\"name\":\"25%\",\"value\":\"0.25\",\"isEqual\":\"It()\"},{\"name\":\"50%\",\"value\":\"0.5\",\"isEqual\":\"It()\"},{\"name\":\"75%\",\"value\":\"0.75\",\"isEqual\":\"It()\"},{\"name\":\"100%\",\"value\":\"1.0\",\"isEqual\":\"It()\"}]}}",
   {
     "REQUEST": "rweb/promotedContent/LOG_REQUEST",
     "SUCCESS": "rweb/promotedContent/LOG_SUCCESS",
