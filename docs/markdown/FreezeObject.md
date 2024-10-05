@@ -6796,7 +6796,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{[Et.FontColor]:{"type":"Et.FontColor","propertyName":"color","styleName":"kt.Color","displayName":"P().c2c5dea4","values":"At"},[Et.FontSize]:{"type":"Et.FontSize","propertyName":"font-size","styleName":"kt.FontSize","displayName":"P().ce494bb4","values":[{"name":"50%","value":"50%"},{"name":"75%",...
+{[Et.FontColor]:{"type":"Et.FontColor","propertyName":"color","styleName":"kt.Color","displayName":"P().c2c5dea4","values":"Lt"},[Et.FontSize]:{"type":"Et.FontSize","propertyName":"font-size","styleName":"kt.FontSize","displayName":"P().ce494bb4","values":[{"name":"50%","value":"50%"},{"name":"75%",...
 ```
 | constant   | value                            |
 |:-----------|:---------------------------------|
