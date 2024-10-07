@@ -322,7 +322,8 @@
     "AccountAnalytics": "AccountAnalytics",
     "MultivariateExample": "MultivariateExample",
     "GetVerifiedButton": "GetVerifiedButton",
-    "HomeNav": "HomeNav"
+    "HomeNav": "HomeNav",
+    "MonetizationPromoPage": "MonetizationPromoPage"
   },
   {
     "EmptyState": "EmptyState",
@@ -5313,6 +5314,9 @@
     "Filtering": "optInFiltering",
     "Blocking": "optInBlocking"
   },
+  "{\"root\":`${\"o\"}/application`,\"eligibility\":`${\"o\"}/application/eligibility`,\"pricing\":`${\"o\"}/application/pricing`,\"completeProfile\":`${\"o\"}/application/complete_profile`,\"submit\":`${\"o\"}/application/submit`,\"submitted\":`${\"o\"}/application/submitted`,\"waitlisted\":`${\"o\"}/application/waitlisted`,\"rejected\":`${\"o\"}/application/rejected`}",
+  "{\"root\":`${\"o\"}/onboarding`,\"perksIntro\":`${\"o\"}/onboarding/perks_intro`,\"perksDescription\":`${\"o\"}/onboarding/perks_description`,\"perksBadges\":`${\"o\"}/onboarding/perks_badges`,\"perksConfirm\":`${\"o\"}/onboarding/perks_confirm`,\"pricing\":`${\"o\"}/onboarding/pricing`,\"pricingConfirm\":`${\"o\"}/onboarding/pricing_confirm`,\"stripeSetup\":`${\"o\"}/onboarding/stripe_setup`,\"stripePending\":`${\"o\"}/onboarding/stripe_pending`,\"stripeCompleted\":`${\"o\"}/onboarding/stripe_completed`}",
+  "{\"root\":`${\"o\"}/management`,\"perksIntro\":`${\"o\"}/management/perks_intro`,\"perksDescription\":`${\"o\"}/management/perks_description`,\"perksConfirm\":`${\"o\"}/management/perks_confirm`}",
   {
     "REQUEST": "rweb/subscriptionPayments/FETCH_SUBSCRIPTION_PRODUCT_DETAILS_REQUEST",
     "SUCCESS": "rweb/subscriptionPayments/FETCH_SUBSCRIPTION_PRODUCT_DETAILS_SUCCESS",
@@ -5333,9 +5337,6 @@
     "SUCCESS": "rweb/subscriptionPayments/TIER_SWITCH_SUCCESS",
     "FAILURE": "rweb/subscriptionPayments/TIER_SWITCH_FAILURE"
   },
-  "{\"root\":`${\"r\"}/application`,\"eligibility\":`${\"r\"}/application/eligibility`,\"pricing\":`${\"r\"}/application/pricing`,\"completeProfile\":`${\"r\"}/application/complete_profile`,\"submit\":`${\"r\"}/application/submit`,\"submitted\":`${\"r\"}/application/submitted`,\"waitlisted\":`${\"r\"}/application/waitlisted`,\"rejected\":`${\"r\"}/application/rejected`}",
-  "{\"root\":`${\"r\"}/onboarding`,\"perksIntro\":`${\"r\"}/onboarding/perks_intro`,\"perksDescription\":`${\"r\"}/onboarding/perks_description`,\"perksBadges\":`${\"r\"}/onboarding/perks_badges`,\"perksConfirm\":`${\"r\"}/onboarding/perks_confirm`,\"pricing\":`${\"r\"}/onboarding/pricing`,\"pricingConfirm\":`${\"r\"}/onboarding/pricing_confirm`,\"stripeSetup\":`${\"r\"}/onboarding/stripe_setup`,\"stripePending\":`${\"r\"}/onboarding/stripe_pending`,\"stripeCompleted\":`${\"r\"}/onboarding/stripe_completed`}",
-  "{\"root\":`${\"r\"}/management`,\"perksIntro\":`${\"r\"}/management/perks_intro`,\"perksDescription\":`${\"r\"}/management/perks_description`,\"perksConfirm\":`${\"r\"}/management/perks_confirm`}",
   {
     "earnings": {
       "link": "/settings/monetization/earnings",
@@ -5346,6 +5347,11 @@
       "link": "/settings/monetization/payout_history",
       "text": "p"
     }
+  },
+  {
+    "adRev": "ad_revenue_sharing",
+    "subscriptions": "creator_subs",
+    "preRollAds": "pre_roll_video_ads"
   },
   {
     "AcceptAllCookies": "acceptAllCookies",
@@ -5426,11 +5432,6 @@
     "all": "all",
     "following": "following",
     "none": "none"
-  },
-  {
-    "adRev": "ad_revenue_sharing",
-    "subscriptions": "creator_subs",
-    "preRollAds": "pre_roll_video_ads"
   },
   {
     "REQUEST": "rweb/accountTaxonomy/FETCH_USER_ACCOUNT_LABEL_REQUEST",
@@ -5882,7 +5883,7 @@
     "FinalConfirmationStep": "FinalConfirmationStep"
   },
   "{[b.hA.switchFromDirect]:\"m().dca6b3ac\",[b.hA.generate]:\"m().dca6b3ac\",[b.hA.updateSeats]:\"m().c97ad52a\"}",
-  "{[A.hA.generate]:\"E().fc1f43d0\",[A.hA.switchFromDirect]:\"E().fc1f43d0\",[A.hA.updateSeats]:\"E().c97ad52a\"}",
+  "{[P.hA.generate]:\"F().fc1f43d0\",[P.hA.switchFromDirect]:\"F().fc1f43d0\",[P.hA.updateSeats]:\"F().c97ad52a\"}",
   {
     "FullAccess": "FullAccess",
     "FullAccessGov": "FullAccessGov",
@@ -6379,7 +6380,7 @@
     "Red": "rgba(255, 0, 255, 0.5)",
     "Black": "rgba(255, 0, 0, 0.5)"
   },
-  "{[Et.FontColor]:{\"type\":\"Et.FontColor\",\"propertyName\":\"color\",\"styleName\":\"kt.Color\",\"displayName\":\"P().c2c5dea4\",\"values\":\"Lt\"},[Et.FontSize]:{\"type\":\"Et.FontSize\",\"propertyName\":\"font-size\",\"styleName\":\"kt.FontSize\",\"displayName\":\"P().ce494bb4\",\"values\":[{\"name\":\"50%\",\"value\":\"50%\"},{\"name\":\"75%\",\"value\":\"75%\"},{\"name\":\"100%\",\"value\":\"100%\"},{\"name\":\"200%\",\"value\":\"200%\"},{\"name\":\"300%\",\"value\":\"300%\"}]},[Et.FontFamily]:{\"type\":\"Et.FontFamily\",\"propertyName\":\"font-family\",\"styleName\":\"kt.FontFamily\",\"displayName\":\"P().ce71b3d0\",\"values\":[{\"name\":\"P().d2eb1582\",\"value\":\"\"},{\"name\":\"P().e684030e\",\"value\":\"Arial, sans-serif\",\"textStyle\":{\"fontFamily\":\"Arial, sans-serif\"}},{\"name\":\"P().jad3900c\",\"value\":'\"Times New Roman\", serif',\"textStyle\":{\"fontFamily\":'\"Times New Roman\", serif'}},{\"name\":\"P().e205f3a0\",\"value\":'\"Courier New\", monospace',\"textStyle\":{\"fontFamily\":'\"Courier New\", monospace'}}]},[Et.TextOpacity]:{\"type\":\"Et.TextOpacity\",\"propertyName\":\"color\",\"styleName\":\"kt.Color\",\"displayName\":\"P().d207d39a\",\"values\":[{\"name\":\"50%\",\"value\":\"0.5\",\"isEqual\":\"Mt()\"},{\"name\":\"75%\",\"value\":\"0.75\",\"isEqual\":\"Mt()\"},{\"name\":\"100%\",\"value\":\"1.0\",\"isEqual\":\"Mt()\"}]},[Et.BackgroundColor]:{\"type\":\"Et.BackgroundColor\",\"propertyName\":\"background\",\"styleName\":\"kt.BackgroundColor\",\"displayName\":\"P().a562039c\",\"values\":\"Ft\"},[Et.BackgroundOpacity]:{\"type\":\"Et.BackgroundOpacity\",\"propertyName\":\"background\",\"styleName\":\"kt.BackgroundColor\",\"displayName\":\"P().h44e879e\",\"values\":[{\"name\":\"25%\",\"value\":\"0.25\",\"isEqual\":\"It()\"},{\"name\":\"50%\",\"value\":\"0.5\",\"isEqual\":\"It()\"},{\"name\":\"75%\",\"value\":\"0.75\",\"isEqual\":\"It()\"},{\"name\":\"100%\",\"value\":\"1.0\",\"isEqual\":\"It()\"}]}}",
+  "{[Et.FontColor]:{\"type\":\"Et.FontColor\",\"propertyName\":\"color\",\"styleName\":\"kt.Color\",\"displayName\":\"P().c2c5dea4\",\"values\":\"At\"},[Et.FontSize]:{\"type\":\"Et.FontSize\",\"propertyName\":\"font-size\",\"styleName\":\"kt.FontSize\",\"displayName\":\"P().ce494bb4\",\"values\":[{\"name\":\"50%\",\"value\":\"50%\"},{\"name\":\"75%\",\"value\":\"75%\"},{\"name\":\"100%\",\"value\":\"100%\"},{\"name\":\"200%\",\"value\":\"200%\"},{\"name\":\"300%\",\"value\":\"300%\"}]},[Et.FontFamily]:{\"type\":\"Et.FontFamily\",\"propertyName\":\"font-family\",\"styleName\":\"kt.FontFamily\",\"displayName\":\"P().ce71b3d0\",\"values\":[{\"name\":\"P().d2eb1582\",\"value\":\"\"},{\"name\":\"P().e684030e\",\"value\":\"Arial, sans-serif\",\"textStyle\":{\"fontFamily\":\"Arial, sans-serif\"}},{\"name\":\"P().jad3900c\",\"value\":'\"Times New Roman\", serif',\"textStyle\":{\"fontFamily\":'\"Times New Roman\", serif'}},{\"name\":\"P().e205f3a0\",\"value\":'\"Courier New\", monospace',\"textStyle\":{\"fontFamily\":'\"Courier New\", monospace'}}]},[Et.TextOpacity]:{\"type\":\"Et.TextOpacity\",\"propertyName\":\"color\",\"styleName\":\"kt.Color\",\"displayName\":\"P().d207d39a\",\"values\":[{\"name\":\"50%\",\"value\":\"0.5\",\"isEqual\":\"Mt()\"},{\"name\":\"75%\",\"value\":\"0.75\",\"isEqual\":\"Mt()\"},{\"name\":\"100%\",\"value\":\"1.0\",\"isEqual\":\"Mt()\"}]},[Et.BackgroundColor]:{\"type\":\"Et.BackgroundColor\",\"propertyName\":\"background\",\"styleName\":\"kt.BackgroundColor\",\"displayName\":\"P().a562039c\",\"values\":\"Ft\"},[Et.BackgroundOpacity]:{\"type\":\"Et.BackgroundOpacity\",\"propertyName\":\"background\",\"styleName\":\"kt.BackgroundColor\",\"displayName\":\"P().h44e879e\",\"values\":[{\"name\":\"25%\",\"value\":\"0.25\",\"isEqual\":\"It()\"},{\"name\":\"50%\",\"value\":\"0.5\",\"isEqual\":\"It()\"},{\"name\":\"75%\",\"value\":\"0.75\",\"isEqual\":\"It()\"},{\"name\":\"100%\",\"value\":\"1.0\",\"isEqual\":\"It()\"}]}}",
   {
     "REQUEST": "rweb/promotedContent/LOG_REQUEST",
     "SUCCESS": "rweb/promotedContent/LOG_SUCCESS",
