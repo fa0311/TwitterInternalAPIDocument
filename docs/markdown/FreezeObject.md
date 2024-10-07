@@ -324,6 +324,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | MultivariateExample    | MultivariateExample    |
 | GetVerifiedButton      | GetVerifiedButton      |
 | HomeNav                | HomeNav                |
+| MonetizationPromoPage  | MonetizationPromoPage  |
 
 | constant          | value             |
 |:------------------|:------------------|
@@ -5613,6 +5614,18 @@ This document is entirely auto-generated and may contain errors.<br>
 | Filtering  | optInFiltering |
 | Blocking   | optInBlocking  |
 
+```internal process
+# Error
+{"root":`${"o"}/application`,"eligibility":`${"o"}/application/eligibility`,"pricing":`${"o"}/application/pricing`,"completeProfile":`${"o"}/application/complete_profile`,"submit":`${"o"}/application/submit`,"submitted":`${"o"}/application/submitted`,"waitlisted":`${"o"}/application/waitlisted`,"rej...
+```
+```internal process
+# Error
+{"root":`${"o"}/onboarding`,"perksIntro":`${"o"}/onboarding/perks_intro`,"perksDescription":`${"o"}/onboarding/perks_description`,"perksBadges":`${"o"}/onboarding/perks_badges`,"perksConfirm":`${"o"}/onboarding/perks_confirm`,"pricing":`${"o"}/onboarding/pricing`,"pricingConfirm":`${"o"}/onboarding/...
+```
+```internal process
+# Error
+{"root":`${"o"}/management`,"perksIntro":`${"o"}/management/perks_intro`,"perksDescription":`${"o"}/management/perks_description`,"perksConfirm":`${"o"}/management/perks_confirm`}
+```
 | constant   | value                                                                |
 |:-----------|:---------------------------------------------------------------------|
 | REQUEST    | rweb/subscriptionPayments/FETCH_SUBSCRIPTION_PRODUCT_DETAILS_REQUEST |
@@ -5637,22 +5650,16 @@ This document is entirely auto-generated and may contain errors.<br>
 | SUCCESS    | rweb/subscriptionPayments/TIER_SWITCH_SUCCESS |
 | FAILURE    | rweb/subscriptionPayments/TIER_SWITCH_FAILURE |
 
-```internal process
-# Error
-{"root":`${"r"}/application`,"eligibility":`${"r"}/application/eligibility`,"pricing":`${"r"}/application/pricing`,"completeProfile":`${"r"}/application/complete_profile`,"submit":`${"r"}/application/submit`,"submitted":`${"r"}/application/submitted`,"waitlisted":`${"r"}/application/waitlisted`,"rej...
-```
-```internal process
-# Error
-{"root":`${"r"}/onboarding`,"perksIntro":`${"r"}/onboarding/perks_intro`,"perksDescription":`${"r"}/onboarding/perks_description`,"perksBadges":`${"r"}/onboarding/perks_badges`,"perksConfirm":`${"r"}/onboarding/perks_confirm`,"pricing":`${"r"}/onboarding/pricing`,"pricingConfirm":`${"r"}/onboarding/...
-```
-```internal process
-# Error
-{"root":`${"r"}/management`,"perksIntro":`${"r"}/management/perks_intro`,"perksDescription":`${"r"}/management/perks_description`,"perksConfirm":`${"r"}/management/perks_confirm`}
-```
 | constant      | value                                                                      |
 |:--------------|:---------------------------------------------------------------------------|
 | earnings      | {'link': '/settings/monetization/earnings', 'text': 'm', 'size': 'xLarge'} |
 | payoutHistory | {'link': '/settings/monetization/payout_history', 'text': 'p'}             |
+
+| constant      | value              |
+|:--------------|:-------------------|
+| adRev         | ad_revenue_sharing |
+| subscriptions | creator_subs       |
+| preRollAds    | pre_roll_video_ads |
 
 | constant                  | value                     |
 |:--------------------------|:--------------------------|
@@ -5748,12 +5755,6 @@ This document is entirely auto-generated and may contain errors.<br>
 | all        | all       |
 | following  | following |
 | none       | none      |
-
-| constant      | value              |
-|:--------------|:-------------------|
-| adRev         | ad_revenue_sharing |
-| subscriptions | creator_subs       |
-| preRollAds    | pre_roll_video_ads |
 
 | constant   | value                                                 |
 |:-----------|:------------------------------------------------------|
@@ -6233,7 +6234,7 @@ This document is entirely auto-generated and may contain errors.<br>
 ```
 ```internal process
 # Error
-{[A.hA.generate]:"E().fc1f43d0",[A.hA.switchFromDirect]:"E().fc1f43d0",[A.hA.updateSeats]:"E().c97ad52a"}
+{[P.hA.generate]:"F().fc1f43d0",[P.hA.switchFromDirect]:"F().fc1f43d0",[P.hA.updateSeats]:"F().c97ad52a"}
 ```
 | constant      | value         |
 |:--------------|:--------------|
@@ -6796,7 +6797,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{[Et.FontColor]:{"type":"Et.FontColor","propertyName":"color","styleName":"kt.Color","displayName":"P().c2c5dea4","values":"Lt"},[Et.FontSize]:{"type":"Et.FontSize","propertyName":"font-size","styleName":"kt.FontSize","displayName":"P().ce494bb4","values":[{"name":"50%","value":"50%"},{"name":"75%",...
+{[Et.FontColor]:{"type":"Et.FontColor","propertyName":"color","styleName":"kt.Color","displayName":"P().c2c5dea4","values":"At"},[Et.FontSize]:{"type":"Et.FontSize","propertyName":"font-size","styleName":"kt.FontSize","displayName":"P().ce494bb4","values":[{"name":"50%","value":"50%"},{"name":"75%",...
 ```
 | constant   | value                            |
 |:-----------|:---------------------------------|
