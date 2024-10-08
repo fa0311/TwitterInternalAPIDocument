@@ -1227,7 +1227,7 @@ This document is entirely auto-generated and may contain errors.<br>
 ```
 | constant         | value          |
 |:-----------------|:---------------|
-| fetchStatus      | S.ZP.NONE      |
+| fetchStatus      | g.ZP.NONE      |
 | selectedTimeline | r.oO           |
 | sort             | r.UO.RELEVANCE |
 | timelines        | []             |
@@ -2072,8 +2072,8 @@ This document is entirely auto-generated and may contain errors.<br>
 | breakpoints         | a       |
 | componentDimensions | f       |
 | componentZIndices   | o       |
-| fontSizes           | S       |
-| fontSizesPx         | g       |
+| fontSizes           | g       |
+| fontSizesPx         | S       |
 | fontWeights         | b       |
 | lineHeights         | D       |
 | lineHeightsPx       | A       |
@@ -2859,7 +2859,6 @@ This document is entirely auto-generated and may contain errors.<br>
 | Applications                     | Applications                     |
 | AppsAndSessions                  | AppsAndSessions                  |
 | AudienceAndTagging               | AudienceAndTagging               |
-| AutoblockedAccounts              | AutoblockedAccounts              |
 | BackupCode                       | BackupCode                       |
 | BlockedAccounts                  | BlockedAccounts                  |
 | BlueCheckmark                    | BlueCheckmark                    |
@@ -2938,9 +2937,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | Replies                          | Replies                          |
 | ReportCenter                     | ReportCenter                     |
 | RequestData                      | RequestData                      |
-| RitoActionedTweets               | RitoActionedTweets               |
 | Safety                           | Safety                           |
-| SafetyMode                       | SafetyMode                       |
 | ScreenName                       | ScreenName                       |
 | Security                         | Security                         |
 | SecurityAndAccountAccess         | SecurityAndAccountAccess         |
@@ -4205,15 +4202,15 @@ This document is entirely auto-generated and may contain errors.<br>
 | PrivateInformation | PRIVATE_INFO   |
 | AbusiveBehavior    | HARASSMENT     |
 
+```internal process
+# Error
+{[r.sj.AMPLIFY]:{"conversionHandler":"()"{"cardId":"e","cardType":"t","converterOptions":"a","data":"i"}{"const s=()(0,o.FL)",d=parseInt(i,\"image_value\",\"player_image_original\")/parseInt(0,o.SIi,\"string_value\",\"player_width\",10),_=(0,o.SIi,\"string_value\",\"player_height\",10)(0,o.SI),l=(i,...
+```
 | constant     | value             |
 |:-------------|:------------------|
 | navButtons   | navigationButtons |
 | carouselRoot | carouselRoot      |
 
-```internal process
-# Error
-{[o.sj.AMPLIFY]:{"conversionHandler":"()"{"cardId":"e","cardType":"t","converterOptions":"a","data":"i"}{"const s=()(0,r.FL)",d=parseInt(i,\"image_value\",\"player_image_original\")/parseInt(0,r.SIi,\"string_value\",\"player_width\",10),_=(0,r.SIi,\"string_value\",\"player_height\",10)(0,r.SI),l=(i,...
-```
 | constant   | value    |
 |:-----------|:---------|
 | INFINITE   | infinite |
@@ -4488,7 +4485,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{[K.v.FOLLOWS]:"Y",[K.v.FRIENDS_OF_FRIENDS]:"B"}
+{[K.v.FOLLOWS]:"W",[K.v.FRIENDS_OF_FRIENDS]:"Y"}
 ```
 | constant   | value   |
 |:-----------|:--------|
@@ -6797,7 +6794,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{[Et.FontColor]:{"type":"Et.FontColor","propertyName":"color","styleName":"kt.Color","displayName":"P().c2c5dea4","values":"At"},[Et.FontSize]:{"type":"Et.FontSize","propertyName":"font-size","styleName":"kt.FontSize","displayName":"P().ce494bb4","values":[{"name":"50%","value":"50%"},{"name":"75%",...
+{[Et.FontColor]:{"type":"Et.FontColor","propertyName":"color","styleName":"kt.Color","displayName":"P().c2c5dea4","values":"Lt"},[Et.FontSize]:{"type":"Et.FontSize","propertyName":"font-size","styleName":"kt.FontSize","displayName":"P().ce494bb4","values":[{"name":"50%","value":"50%"},{"name":"75%",...
 ```
 | constant   | value                            |
 |:-----------|:---------------------------------|
