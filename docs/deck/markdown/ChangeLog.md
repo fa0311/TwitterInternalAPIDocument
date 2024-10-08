@@ -3276,3 +3276,15 @@
 - responsive_web_profile_header_search_button_enabled<br>
 #### remove<br>
 - None<br>
+## 2024/10/08<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- subscriptions_upsells_monetization_redesign_enabled<br>
+#### remove<br>
+- responsive_web_ad_revenue_sharing_payout_account_notice_enabled<br>
+- super_follow_onboarding_blue_verified_requirement_enabled<br>
