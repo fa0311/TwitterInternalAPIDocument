@@ -322,7 +322,8 @@
     "AccountAnalytics": "AccountAnalytics",
     "MultivariateExample": "MultivariateExample",
     "GetVerifiedButton": "GetVerifiedButton",
-    "HomeNav": "HomeNav"
+    "HomeNav": "HomeNav",
+    "MonetizationPromoPage": "MonetizationPromoPage"
   },
   {
     "EmptyState": "EmptyState",
@@ -5632,6 +5633,14 @@
     }
   },
   {
+    "adRev": "ad_revenue_sharing",
+    "subscriptions": "creator_subs",
+    "preRollAds": "pre_roll_video_ads"
+  },
+  "{\"root\":`${\"a\"}/application`,\"eligibility\":`${\"a\"}/application/eligibility`,\"pricing\":`${\"a\"}/application/pricing`,\"completeProfile\":`${\"a\"}/application/complete_profile`,\"submit\":`${\"a\"}/application/submit`,\"submitted\":`${\"a\"}/application/submitted`,\"waitlisted\":`${\"a\"}/application/waitlisted`,\"rejected\":`${\"a\"}/application/rejected`}",
+  "{\"root\":`${\"a\"}/onboarding`,\"perksIntro\":`${\"a\"}/onboarding/perks_intro`,\"perksDescription\":`${\"a\"}/onboarding/perks_description`,\"perksBadges\":`${\"a\"}/onboarding/perks_badges`,\"perksConfirm\":`${\"a\"}/onboarding/perks_confirm`,\"pricing\":`${\"a\"}/onboarding/pricing`,\"pricingConfirm\":`${\"a\"}/onboarding/pricing_confirm`,\"stripeSetup\":`${\"a\"}/onboarding/stripe_setup`,\"stripePending\":`${\"a\"}/onboarding/stripe_pending`,\"stripeCompleted\":`${\"a\"}/onboarding/stripe_completed`}",
+  "{\"root\":`${\"a\"}/management`,\"perksIntro\":`${\"a\"}/management/perks_intro`,\"perksDescription\":`${\"a\"}/management/perks_description`,\"perksConfirm\":`${\"a\"}/management/perks_confirm`}",
+  {
     "AcceptAllCookies": "acceptAllCookies",
     "RefuseNonEssentialCookies": "refuseNonEssentialCookies",
     "Invalid": "invalid",
@@ -5711,14 +5720,6 @@
     "following": "following",
     "none": "none"
   },
-  {
-    "adRev": "ad_revenue_sharing",
-    "subscriptions": "creator_subs",
-    "preRollAds": "pre_roll_video_ads"
-  },
-  "{\"root\":`${\"r\"}/application`,\"eligibility\":`${\"r\"}/application/eligibility`,\"pricing\":`${\"r\"}/application/pricing`,\"completeProfile\":`${\"r\"}/application/complete_profile`,\"submit\":`${\"r\"}/application/submit`,\"submitted\":`${\"r\"}/application/submitted`,\"waitlisted\":`${\"r\"}/application/waitlisted`,\"rejected\":`${\"r\"}/application/rejected`}",
-  "{\"root\":`${\"r\"}/onboarding`,\"perksIntro\":`${\"r\"}/onboarding/perks_intro`,\"perksDescription\":`${\"r\"}/onboarding/perks_description`,\"perksBadges\":`${\"r\"}/onboarding/perks_badges`,\"perksConfirm\":`${\"r\"}/onboarding/perks_confirm`,\"pricing\":`${\"r\"}/onboarding/pricing`,\"pricingConfirm\":`${\"r\"}/onboarding/pricing_confirm`,\"stripeSetup\":`${\"r\"}/onboarding/stripe_setup`,\"stripePending\":`${\"r\"}/onboarding/stripe_pending`,\"stripeCompleted\":`${\"r\"}/onboarding/stripe_completed`}",
-  "{\"root\":`${\"r\"}/management`,\"perksIntro\":`${\"r\"}/management/perks_intro`,\"perksDescription\":`${\"r\"}/management/perks_description`,\"perksConfirm\":`${\"r\"}/management/perks_confirm`}",
   {
     "REQUEST": "rweb/accountTaxonomy/FETCH_USER_ACCOUNT_LABEL_REQUEST",
     "SUCCESS": "rweb/accountTaxonomy/FETCH_USER_ACCOUNT_LABEL_SUCCESS",
@@ -6152,7 +6153,7 @@
   },
   {
     "fetchStatus": "G.ZP.NONE",
-    "config": "Za"
+    "config": "Ka"
   },
   {
     "ConfirmationStep": "ConfirmationStep",
