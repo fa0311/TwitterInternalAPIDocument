@@ -324,6 +324,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | MultivariateExample    | MultivariateExample    |
 | GetVerifiedButton      | GetVerifiedButton      |
 | HomeNav                | HomeNav                |
+| MonetizationPromoPage  | MonetizationPromoPage  |
 
 | constant          | value             |
 |:------------------|:------------------|
@@ -5934,6 +5935,24 @@ This document is entirely auto-generated and may contain errors.<br>
 | earnings      | {'link': '/settings/monetization/earnings', 'text': 'm', 'size': 'xLarge'} |
 | payoutHistory | {'link': '/settings/monetization/payout_history', 'text': 'p'}             |
 
+| constant      | value              |
+|:--------------|:-------------------|
+| adRev         | ad_revenue_sharing |
+| subscriptions | creator_subs       |
+| preRollAds    | pre_roll_video_ads |
+
+```internal process
+# Error
+{"root":`${"a"}/application`,"eligibility":`${"a"}/application/eligibility`,"pricing":`${"a"}/application/pricing`,"completeProfile":`${"a"}/application/complete_profile`,"submit":`${"a"}/application/submit`,"submitted":`${"a"}/application/submitted`,"waitlisted":`${"a"}/application/waitlisted`,"rej...
+```
+```internal process
+# Error
+{"root":`${"a"}/onboarding`,"perksIntro":`${"a"}/onboarding/perks_intro`,"perksDescription":`${"a"}/onboarding/perks_description`,"perksBadges":`${"a"}/onboarding/perks_badges`,"perksConfirm":`${"a"}/onboarding/perks_confirm`,"pricing":`${"a"}/onboarding/pricing`,"pricingConfirm":`${"a"}/onboarding/...
+```
+```internal process
+# Error
+{"root":`${"a"}/management`,"perksIntro":`${"a"}/management/perks_intro`,"perksDescription":`${"a"}/management/perks_description`,"perksConfirm":`${"a"}/management/perks_confirm`}
+```
 | constant                  | value                     |
 |:--------------------------|:--------------------------|
 | AcceptAllCookies          | acceptAllCookies          |
@@ -6029,24 +6048,6 @@ This document is entirely auto-generated and may contain errors.<br>
 | following  | following |
 | none       | none      |
 
-| constant      | value              |
-|:--------------|:-------------------|
-| adRev         | ad_revenue_sharing |
-| subscriptions | creator_subs       |
-| preRollAds    | pre_roll_video_ads |
-
-```internal process
-# Error
-{"root":`${"r"}/application`,"eligibility":`${"r"}/application/eligibility`,"pricing":`${"r"}/application/pricing`,"completeProfile":`${"r"}/application/complete_profile`,"submit":`${"r"}/application/submit`,"submitted":`${"r"}/application/submitted`,"waitlisted":`${"r"}/application/waitlisted`,"rej...
-```
-```internal process
-# Error
-{"root":`${"r"}/onboarding`,"perksIntro":`${"r"}/onboarding/perks_intro`,"perksDescription":`${"r"}/onboarding/perks_description`,"perksBadges":`${"r"}/onboarding/perks_badges`,"perksConfirm":`${"r"}/onboarding/perks_confirm`,"pricing":`${"r"}/onboarding/pricing`,"pricingConfirm":`${"r"}/onboarding/...
-```
-```internal process
-# Error
-{"root":`${"r"}/management`,"perksIntro":`${"r"}/management/perks_intro`,"perksDescription":`${"r"}/management/perks_description`,"perksConfirm":`${"r"}/management/perks_confirm`}
-```
 | constant   | value                                                 |
 |:-----------|:------------------------------------------------------|
 | REQUEST    | rweb/accountTaxonomy/FETCH_USER_ACCOUNT_LABEL_REQUEST |
@@ -6491,7 +6492,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | constant    | value     |
 |:------------|:----------|
 | fetchStatus | G.ZP.NONE |
-| config      | Za        |
+| config      | Ka        |
 
 | constant              | value                 |
 |:----------------------|:----------------------|
