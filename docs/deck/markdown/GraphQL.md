@@ -4210,12 +4210,9 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key          | type   | variable   |
-|:-------------|:-------|:-----------|
-| tweetId      | ...    | r          |
-| cursor       | ...    | o          |
-| count        | ...    | n          |
-| ...()(0,d.d) | ...    | _          |
+| key           | type   | variable   |
+|:--------------|:-------|:-----------|
+| grok_share_id | ...    | t          |
 
 #### features<br>
 | key                                                                     | type    | variable   |

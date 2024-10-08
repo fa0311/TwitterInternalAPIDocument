@@ -1203,7 +1203,7 @@
         "value": "true"
       },
       "recruiting_promoted_jobs_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "recruiting_search_filters_enabled": {
         "value": "true"
@@ -1270,9 +1270,6 @@
       },
       "responsive_web_ad_revenue_sharing_number_of_impressions": {
         "value": "5"
-      },
-      "responsive_web_ad_revenue_sharing_payout_account_notice_enabled": {
-        "value": "false"
       },
       "responsive_web_ad_revenue_sharing_setup_enabled": {
         "value": "false"
@@ -1779,7 +1776,7 @@
         "value": "false"
       },
       "responsive_web_profile_header_search_button_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "responsive_web_profile_spotlight_v0_config": {
         "value": "true"
@@ -2521,6 +2518,9 @@
       "subscriptions_upsells_longform_sidebar_variant": {
         "value": ""
       },
+      "subscriptions_upsells_monetization_redesign_enabled": {
+        "value": "false"
+      },
       "subscriptions_upsells_premium_home_nav": {
         "value": ""
       },
@@ -2540,9 +2540,6 @@
         "value": "true"
       },
       "super_follow_onboarding_application_perks_enabled": {
-        "value": "true"
-      },
-      "super_follow_onboarding_blue_verified_requirement_enabled": {
         "value": "true"
       },
       "super_follow_onboarding_granular_pricing_enabled": {
@@ -4165,9 +4162,6 @@
         "responsive_web_ad_revenue_sharing_number_of_impressions": {
           "value": "5"
         },
-        "responsive_web_ad_revenue_sharing_payout_account_notice_enabled": {
-          "value": "false"
-        },
         "responsive_web_ad_revenue_sharing_setup_enabled": {
           "value": "false"
         },
@@ -5415,6 +5409,9 @@
         "subscriptions_upsells_longform_sidebar_variant": {
           "value": ""
         },
+        "subscriptions_upsells_monetization_redesign_enabled": {
+          "value": "false"
+        },
         "subscriptions_upsells_premium_home_nav": {
           "value": ""
         },
@@ -5434,9 +5431,6 @@
           "value": "true"
         },
         "super_follow_onboarding_application_perks_enabled": {
-          "value": "true"
-        },
-        "super_follow_onboarding_blue_verified_requirement_enabled": {
           "value": "true"
         },
         "super_follow_onboarding_granular_pricing_enabled": {
@@ -5903,10 +5897,10 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "f2d060c834f221b489ed7a741b615922"
+      "settingsVersion": "c3335412cc9a2a13d9eedb0ad8e85e75"
     },
     "debug": {},
-    "featureSetToken": "19a832041df09636eeb84cccd9030935f731fe94",
+    "featureSetToken": "a82149d89c7feb98b50b3260196bab86816210a1",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -5976,7 +5970,7 @@
     "country": "XX",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "172833585203972312",
+    "guestId": "172842223472167519",
     "hasCommunityMemberships": "false",
     "language": "en",
     "ssoInitTokens": {},

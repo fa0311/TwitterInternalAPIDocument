@@ -7233,7 +7233,7 @@
         }
       }
     },
-    "func_name": "G",
+    "func_name": "z",
     "func_name_init": "V",
     "query": {
       "count": "t",
@@ -10753,10 +10753,7 @@
     "func_name": "_",
     "func_name_init": "w",
     "query": {
-      "tweetId": "r",
-      "cursor": "o",
-      "count": "n",
-      "...()(0,d.d)": "_"
+      "grok_share_id": "t"
     }
   },
   {
