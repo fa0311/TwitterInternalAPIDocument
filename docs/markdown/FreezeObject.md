@@ -5747,12 +5747,6 @@ This document is entirely auto-generated and may contain errors.<br>
 | billingInformation | billingInformation |
 | cancel             | cancel             |
 
-| constant   | value     |
-|:-----------|:----------|
-| all        | all       |
-| following  | following |
-| none       | none      |
-
 | constant   | value                                                 |
 |:-----------|:------------------------------------------------------|
 | REQUEST    | rweb/accountTaxonomy/FETCH_USER_ACCOUNT_LABEL_REQUEST |
