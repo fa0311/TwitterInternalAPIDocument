@@ -5426,11 +5426,6 @@
     "cancel": "cancel"
   },
   {
-    "all": "all",
-    "following": "following",
-    "none": "none"
-  },
-  {
     "REQUEST": "rweb/accountTaxonomy/FETCH_USER_ACCOUNT_LABEL_REQUEST",
     "SUCCESS": "rweb/accountTaxonomy/FETCH_USER_ACCOUNT_LABEL_SUCCESS",
     "FAILURE": "rweb/accountTaxonomy/FETCH_USER_ACCOUNT_LABEL_FAILURE"
