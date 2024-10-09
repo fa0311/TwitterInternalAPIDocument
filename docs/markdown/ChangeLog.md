@@ -4413,3 +4413,15 @@
 - payments_pin_login_enabled<br>
 #### remove<br>
 - None<br>
+## 2024/10/09<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- responsive_web_ad_revenue_sharing_url_update_enabled<br>
+- responsive_web_personalization_id_sync_enabled<br>
+#### remove<br>
+- global_mention_settings_enabled<br>
