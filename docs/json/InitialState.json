@@ -772,9 +772,6 @@
       "freedom_of_speech_not_reach_pivot_enabled": {
         "value": "true"
       },
-      "global_mention_settings_enabled": {
-        "value": "false"
-      },
       "graduated_access_botmaker_decider_enabled": {
         "value": "true"
       },
@@ -1270,6 +1267,9 @@
       "responsive_web_ad_revenue_sharing_total_earnings_enabled": {
         "value": "false"
       },
+      "responsive_web_ad_revenue_sharing_url_update_enabled": {
+        "value": "false"
+      },
       "responsive_web_alt_text_nudges_enabled": {
         "value": "true"
       },
@@ -1754,6 +1754,9 @@
         "value": "false"
       },
       "responsive_web_passwordless_sso_enabled": {
+        "value": "false"
+      },
+      "responsive_web_personalization_id_sync_enabled": {
         "value": "false"
       },
       "responsive_web_pinned_replies_enabled": {
@@ -3666,9 +3669,6 @@
         "freedom_of_speech_not_reach_pivot_enabled": {
           "value": "true"
         },
-        "global_mention_settings_enabled": {
-          "value": "false"
-        },
         "graduated_access_botmaker_decider_enabled": {
           "value": "true"
         },
@@ -4164,6 +4164,9 @@
         "responsive_web_ad_revenue_sharing_total_earnings_enabled": {
           "value": "false"
         },
+        "responsive_web_ad_revenue_sharing_url_update_enabled": {
+          "value": "true"
+        },
         "responsive_web_alt_text_nudges_enabled": {
           "value": "true"
         },
@@ -4648,6 +4651,9 @@
           "value": "false"
         },
         "responsive_web_passwordless_sso_enabled": {
+          "value": "false"
+        },
+        "responsive_web_personalization_id_sync_enabled": {
           "value": "false"
         },
         "responsive_web_pinned_replies_enabled": {
@@ -5406,13 +5412,13 @@
           "value": ""
         },
         "subscriptions_upsells_monetization_redesign_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "subscriptions_upsells_premium_home_nav": {
           "value": ""
         },
         "subscriptions_upsells_right_sidebar_variant": {
-          "value": ""
+          "value": "discount_40_percent"
         },
         "subscriptions_verification_info_is_identity_verified_enabled": {
           "value": "true"
@@ -5893,10 +5899,10 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "a5bd481adc35539b92c781ebaeed105a"
+      "settingsVersion": "68d49210c7ce802687887cea417232a2"
     },
     "debug": {},
-    "featureSetToken": "d888dbd55be6a9658d126c0f53e80c38f305a80f",
+    "featureSetToken": "27f05ec69137b5e18bd027001878e922d23ec7d2",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -5966,7 +5972,7 @@
     "country": "XX",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "172842176344671722",
+    "guestId": "172850815353620813",
     "hasCommunityMemberships": "false",
     "language": "en",
     "ssoInitTokens": {},

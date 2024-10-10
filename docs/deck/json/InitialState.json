@@ -782,9 +782,6 @@
       "freedom_of_speech_not_reach_pivot_enabled": {
         "value": "true"
       },
-      "global_mention_settings_enabled": {
-        "value": "false"
-      },
       "graduated_access_botmaker_decider_enabled": {
         "value": "true"
       },
@@ -1158,6 +1155,9 @@
         ]
       },
       "payments_pin_enabled": {
+        "value": "false"
+      },
+      "payments_pin_login_enabled": {
         "value": "false"
       },
       "professional_launchpad_m1_enabled": {
@@ -1761,6 +1761,9 @@
         "value": "false"
       },
       "responsive_web_passwordless_sso_enabled": {
+        "value": "false"
+      },
+      "responsive_web_personalization_id_sync_enabled": {
         "value": "false"
       },
       "responsive_web_pinned_replies_enabled": {
@@ -3673,9 +3676,6 @@
         "freedom_of_speech_not_reach_pivot_enabled": {
           "value": "true"
         },
-        "global_mention_settings_enabled": {
-          "value": "false"
-        },
         "graduated_access_botmaker_decider_enabled": {
           "value": "true"
         },
@@ -4049,6 +4049,9 @@
           ]
         },
         "payments_pin_enabled": {
+          "value": "false"
+        },
+        "payments_pin_login_enabled": {
           "value": "false"
         },
         "professional_launchpad_m1_enabled": {
@@ -4652,6 +4655,9 @@
           "value": "false"
         },
         "responsive_web_passwordless_sso_enabled": {
+          "value": "false"
+        },
+        "responsive_web_personalization_id_sync_enabled": {
           "value": "false"
         },
         "responsive_web_pinned_replies_enabled": {
@@ -5410,13 +5416,13 @@
           "value": ""
         },
         "subscriptions_upsells_monetization_redesign_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "subscriptions_upsells_premium_home_nav": {
           "value": ""
         },
         "subscriptions_upsells_right_sidebar_variant": {
-          "value": ""
+          "value": "discount_40_percent"
         },
         "subscriptions_verification_info_is_identity_verified_enabled": {
           "value": "true"
@@ -5897,10 +5903,10 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "c3335412cc9a2a13d9eedb0ad8e85e75"
+      "settingsVersion": "6b547c2e1cccc3ae5d27bf2b36613b93"
     },
     "debug": {},
-    "featureSetToken": "a82149d89c7feb98b50b3260196bab86816210a1",
+    "featureSetToken": "fb2e0cafb9470b3d493cf362bb5c1cae1eeded3e",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -5970,7 +5976,7 @@
     "country": "XX",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "172842223472167519",
+    "guestId": "172850856528631089",
     "hasCommunityMemberships": "false",
     "language": "en",
     "ssoInitTokens": {},
