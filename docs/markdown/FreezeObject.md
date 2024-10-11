@@ -2053,7 +2053,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant              | value     |
 |:----------------------|:----------|
-| appBarHeight          | T         |
+| appBarHeight          | f         |
 | appBarHeightPx        | _         |
 | conversationLineWidth | M.space2  |
 | gutterHorizontal      | w.space16 |
@@ -2070,7 +2070,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | borderWidths        | c       |
 | borderWidthsPx      | s       |
 | breakpoints         | a       |
-| componentDimensions | f       |
+| componentDimensions | T       |
 | componentZIndices   | o       |
 | fontSizes           | g       |
 | fontSizesPx         | S       |
@@ -3609,6 +3609,12 @@ This document is entirely auto-generated and may contain errors.<br>
 | REQUEST    | rweb/FETCH_GROK_MEDIA_HISTORY/REQUEST |
 | SUCCESS    | rweb/FETCH_GROK_MEDIA_HISTORY/SUCCESS |
 | FAILURE    | rweb/FETCH_GROK_MEDIA_HISTORY/FAILURE |
+
+| constant   | value                            |
+|:-----------|:---------------------------------|
+| REQUEST    | rweb/SEARCH_GROK_HISTORY/REQUEST |
+| SUCCESS    | rweb/SEARCH_GROK_HISTORY/SUCCESS |
+| FAILURE    | rweb/SEARCH_GROK_HISTORY/FAILURE |
 
 | constant   | value                        |
 |:-----------|:-----------------------------|
@@ -5718,6 +5724,12 @@ This document is entirely auto-generated and may contain errors.<br>
 | REQUEST    | rweb/FETCH_GROK_MEDIA_HISTORY/REQUEST |
 | SUCCESS    | rweb/FETCH_GROK_MEDIA_HISTORY/SUCCESS |
 | FAILURE    | rweb/FETCH_GROK_MEDIA_HISTORY/FAILURE |
+
+| constant   | value                            |
+|:-----------|:---------------------------------|
+| REQUEST    | rweb/SEARCH_GROK_HISTORY/REQUEST |
+| SUCCESS    | rweb/SEARCH_GROK_HISTORY/SUCCESS |
+| FAILURE    | rweb/SEARCH_GROK_HISTORY/FAILURE |
 
 | constant   | value                        |
 |:-----------|:-----------------------------|
