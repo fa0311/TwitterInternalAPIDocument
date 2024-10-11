@@ -2734,6 +2734,12 @@
       "method": "GET",
       "features": {}
     },
+    "SearchGrokConversations": {
+      "url": "https://x.com/i/api/graphql/Sr2QEitvnemma5D2NJlA2Q/SearchGrokConversations",
+      "queryId": "Sr2QEitvnemma5D2NJlA2Q",
+      "method": "GET",
+      "features": {}
+    },
     "GrokShare": {
       "url": "https://x.com/i/api/graphql/OpPf5jwy5o3KCbEFOd6UAA/GrokShare",
       "queryId": "OpPf5jwy5o3KCbEFOd6UAA",
