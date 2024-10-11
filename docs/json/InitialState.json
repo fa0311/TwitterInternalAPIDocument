@@ -1150,6 +1150,9 @@
       "payments_pin_login_enabled": {
         "value": "false"
       },
+      "payments_risk_device_sdk_enabled": {
+        "value": "false"
+      },
       "professional_launchpad_m1_enabled": {
         "value": "true"
       },
@@ -1972,6 +1975,9 @@
       "responsive_web_verified_organizations_insights_enabled": {
         "value": "false"
       },
+      "responsive_web_verified_organizations_intercom_enabled": {
+        "value": "false"
+      },
       "responsive_web_verified_organizations_invoice_enabled": {
         "value": "false"
       },
@@ -2515,13 +2521,13 @@
         "value": ""
       },
       "subscriptions_upsells_monetization_redesign_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "subscriptions_upsells_premium_home_nav": {
         "value": ""
       },
       "subscriptions_upsells_right_sidebar_variant": {
-        "value": ""
+        "value": "discount_40_percent"
       },
       "subscriptions_verification_info_is_identity_verified_enabled": {
         "value": "true"
@@ -4047,6 +4053,9 @@
         "payments_pin_login_enabled": {
           "value": "false"
         },
+        "payments_risk_device_sdk_enabled": {
+          "value": "false"
+        },
         "professional_launchpad_m1_enabled": {
           "value": "true"
         },
@@ -4454,6 +4463,9 @@
         },
         "responsive_web_grok_file_upload_enabled": {
           "value": "false"
+        },
+        "responsive_web_grok_history_search_enabled": {
+          "value": "true"
         },
         "responsive_web_grok_image_prompts_enabled": {
           "value": "true"
@@ -4867,6 +4879,9 @@
           "value": "false"
         },
         "responsive_web_verified_organizations_insights_enabled": {
+          "value": "false"
+        },
+        "responsive_web_verified_organizations_intercom_enabled": {
           "value": "false"
         },
         "responsive_web_verified_organizations_invoice_enabled": {
@@ -5510,6 +5525,9 @@
         "tv_app_qrcode_login_enabled": {
           "value": "true"
         },
+        "tv_app_samsung_continue_watching_enabled": {
+          "value": "false"
+        },
         "tv_app_samsung_exit_configuration": {
           "value": "EXIT"
         },
@@ -5899,10 +5917,10 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "68d49210c7ce802687887cea417232a2"
+      "settingsVersion": "37601ed80da6de20aa8b9d20f923c4bd"
     },
     "debug": {},
-    "featureSetToken": "27f05ec69137b5e18bd027001878e922d23ec7d2",
+    "featureSetToken": "901de0b1e4b17422e3d14a0b703133ad38ec8201",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -5972,7 +5990,7 @@
     "country": "XX",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "172859456044094162",
+    "guestId": "172868116909859904",
     "hasCommunityMemberships": "false",
     "language": "en",
     "ssoInitTokens": {},
