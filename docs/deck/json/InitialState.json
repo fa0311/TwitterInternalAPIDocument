@@ -5514,6 +5514,9 @@
         "tv_app_qrcode_login_enabled": {
           "value": "true"
         },
+        "tv_app_samsung_continue_watching_enabled": {
+          "value": "false"
+        },
         "tv_app_samsung_exit_configuration": {
           "value": "EXIT"
         },
@@ -5903,7 +5906,7 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "6b547c2e1cccc3ae5d27bf2b36613b93"
+      "settingsVersion": "cb8343f177d091f9c6d26ae10f0255b3"
     },
     "debug": {},
     "featureSetToken": "fb2e0cafb9470b3d493cf362bb5c1cae1eeded3e",
@@ -5976,7 +5979,7 @@
     "country": "XX",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "172859494375443430",
+    "guestId": "172868158674340933",
     "hasCommunityMemberships": "false",
     "language": "en",
     "ssoInitTokens": {},
