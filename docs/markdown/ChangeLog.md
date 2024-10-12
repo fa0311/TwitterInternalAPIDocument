@@ -4425,3 +4425,16 @@
 - responsive_web_personalization_id_sync_enabled<br>
 #### remove<br>
 - global_mention_settings_enabled<br>
+## 2024/10/11<br>
+### API<br>
+#### add<br>
+- SearchGrokConversations<br>
+- SearchGrokConversations<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- payments_risk_device_sdk_enabled<br>
+- responsive_web_verified_organizations_intercom_enabled<br>
+#### remove<br>
+- None<br>
