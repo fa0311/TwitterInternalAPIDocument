@@ -4438,3 +4438,17 @@
 - responsive_web_verified_organizations_intercom_enabled<br>
 #### remove<br>
 - None<br>
+## 2024/10/14<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- insights_impressions_chart_enabled<br>
+- insights_preview_splash_metrics_enabled<br>
+- responsive_web_grok_history_search_enabled<br>
+- tv_app_samsung_continue_watching_enabled<br>
+#### remove<br>
+- None<br>
