@@ -965,10 +965,16 @@
       "insights_chart_filter_enabled": {
         "value": "true"
       },
+      "insights_impressions_chart_enabled": {
+        "value": "false"
+      },
       "insights_impressions_enabled": {
         "value": "false"
       },
       "insights_multiple_rules_enabled": {
+        "value": "false"
+      },
+      "insights_preview_splash_metrics_enabled": {
         "value": "false"
       },
       "insights_previews_enabled": {
@@ -1160,6 +1166,9 @@
       "payments_pin_login_enabled": {
         "value": "false"
       },
+      "payments_risk_device_sdk_enabled": {
+        "value": "false"
+      },
       "professional_launchpad_m1_enabled": {
         "value": "true"
       },
@@ -1275,6 +1284,9 @@
         "value": "false"
       },
       "responsive_web_ad_revenue_sharing_total_earnings_enabled": {
+        "value": "false"
+      },
+      "responsive_web_ad_revenue_sharing_url_update_enabled": {
         "value": "false"
       },
       "responsive_web_alt_text_nudges_enabled": {
@@ -1564,6 +1576,9 @@
       },
       "responsive_web_grok_file_upload_enabled": {
         "value": "false"
+      },
+      "responsive_web_grok_history_search_enabled": {
+        "value": "true"
       },
       "responsive_web_grok_image_prompts_enabled": {
         "value": "true"
@@ -1977,6 +1992,9 @@
         "value": "false"
       },
       "responsive_web_verified_organizations_insights_enabled": {
+        "value": "false"
+      },
+      "responsive_web_verified_organizations_intercom_enabled": {
         "value": "false"
       },
       "responsive_web_verified_organizations_invoice_enabled": {
@@ -2522,13 +2540,13 @@
         "value": ""
       },
       "subscriptions_upsells_monetization_redesign_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "subscriptions_upsells_premium_home_nav": {
         "value": ""
       },
       "subscriptions_upsells_right_sidebar_variant": {
-        "value": ""
+        "value": "discount_40_percent"
       },
       "subscriptions_verification_info_is_identity_verified_enabled": {
         "value": "true"
@@ -2619,6 +2637,9 @@
       },
       "tv_app_qrcode_login_enabled": {
         "value": "true"
+      },
+      "tv_app_samsung_continue_watching_enabled": {
+        "value": "false"
       },
       "tv_app_samsung_exit_configuration": {
         "value": "EXIT"
@@ -3859,10 +3880,16 @@
         "insights_chart_filter_enabled": {
           "value": "true"
         },
+        "insights_impressions_chart_enabled": {
+          "value": "false"
+        },
         "insights_impressions_enabled": {
           "value": "false"
         },
         "insights_multiple_rules_enabled": {
+          "value": "false"
+        },
+        "insights_preview_splash_metrics_enabled": {
           "value": "false"
         },
         "insights_previews_enabled": {
@@ -4054,6 +4081,9 @@
         "payments_pin_login_enabled": {
           "value": "false"
         },
+        "payments_risk_device_sdk_enabled": {
+          "value": "false"
+        },
         "professional_launchpad_m1_enabled": {
           "value": "true"
         },
@@ -4170,6 +4200,9 @@
         },
         "responsive_web_ad_revenue_sharing_total_earnings_enabled": {
           "value": "false"
+        },
+        "responsive_web_ad_revenue_sharing_url_update_enabled": {
+          "value": "true"
         },
         "responsive_web_alt_text_nudges_enabled": {
           "value": "true"
@@ -4458,6 +4491,9 @@
         },
         "responsive_web_grok_file_upload_enabled": {
           "value": "false"
+        },
+        "responsive_web_grok_history_search_enabled": {
+          "value": "true"
         },
         "responsive_web_grok_image_prompts_enabled": {
           "value": "true"
@@ -4871,6 +4907,9 @@
           "value": "false"
         },
         "responsive_web_verified_organizations_insights_enabled": {
+          "value": "false"
+        },
+        "responsive_web_verified_organizations_intercom_enabled": {
           "value": "false"
         },
         "responsive_web_verified_organizations_invoice_enabled": {
@@ -5906,10 +5945,10 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "cb8343f177d091f9c6d26ae10f0255b3"
+      "settingsVersion": "5d09ffa7c33a8a7cd965e21b8adbe765"
     },
     "debug": {},
-    "featureSetToken": "fb2e0cafb9470b3d493cf362bb5c1cae1eeded3e",
+    "featureSetToken": "12e0e17022d37b1e09483683b9797d6e419ff06d",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -5979,7 +6018,7 @@
     "country": "XX",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "172885423595079240",
+    "guestId": "172894054453367386",
     "hasCommunityMemberships": "false",
     "language": "en",
     "ssoInitTokens": {},
