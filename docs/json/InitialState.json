@@ -2065,9 +2065,6 @@
       "rweb_client_transaction_id_enabled": {
         "value": "false"
       },
-      "rweb_conf_grid_enabled": {
-        "value": "true"
-      },
       "rweb_conf_less_video_enabled": {
         "value": "true"
       },
@@ -4980,9 +4977,6 @@
         "rweb_client_transaction_id_enabled": {
           "value": "true"
         },
-        "rweb_conf_grid_enabled": {
-          "value": "true"
-        },
         "rweb_conf_less_video_enabled": {
           "value": "true"
         },
@@ -5938,7 +5932,7 @@
       "settingsVersion": "f327d9feae4d48af8bc340a83d443597"
     },
     "debug": {},
-    "featureSetToken": "12e0e17022d37b1e09483683b9797d6e419ff06d",
+    "featureSetToken": "a0cfbdcc94fa9a995fb146c41d1c3dcfab1b613b",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -6008,7 +6002,7 @@
     "country": "XX",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "172894013792779469",
+    "guestId": "172902657019010342",
     "hasCommunityMemberships": "false",
     "language": "en",
     "ssoInitTokens": {},
