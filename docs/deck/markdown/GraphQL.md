@@ -4625,7 +4625,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## GrokShare<br>
-Request URL: `https://x.com/i/api/graphql/OpPf5jwy5o3KCbEFOd6UAA/GrokShare`<br>
+Request URL: `https://x.com/i/api/graphql/mZifVs_wtTiQvHmRhn81pQ/GrokShare`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -6049,7 +6049,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## GrokShare<br>
-Request URL: `https://x.com/i/api/graphql/OpPf5jwy5o3KCbEFOd6UAA/GrokShare`<br>
+Request URL: `https://x.com/i/api/graphql/mZifVs_wtTiQvHmRhn81pQ/GrokShare`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -6339,7 +6339,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## GrokShare<br>
-Request URL: `https://x.com/i/api/graphql/OpPf5jwy5o3KCbEFOd6UAA/GrokShare`<br>
+Request URL: `https://x.com/i/api/graphql/mZifVs_wtTiQvHmRhn81pQ/GrokShare`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
