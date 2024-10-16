@@ -4452,3 +4452,14 @@
 - tv_app_samsung_continue_watching_enabled<br>
 #### remove<br>
 - None<br>
+## 2024/10/15<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- rweb_conf_grid_enabled<br>
