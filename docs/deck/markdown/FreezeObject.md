@@ -1159,6 +1159,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | CommunityHashtagsSuggested | communities_compose                  |
 | CommunityInvites           | community_invites                    |
 | CommunityMemberSearch      | community_member_search              |
+| ConferencesInvite          | conferences_invite                   |
 | DeveloperPortal            | developer_portal                     |
 | JobLocation                | job_location                         |
 | ListManagementPage         | list_management_page                 |
@@ -7170,7 +7171,7 @@ This document is entirely auto-generated and may contain errors.<br>
 ```
 ```internal process
 # Error
-{[Wr.X.conversationSettings]:{"component":"qr","showInStack":"!0"},[Wr.X.drawerToggle]:{"component":"nl","showInStack":"!1"},[Wr.X.makeDeck]:{"component":"il","showInStack":"!0"},[Wr.X.newMessage]:{"component":"pl","showInStack":"!0"},[Wr.X.remove]:{"component":"hl.Z","showInStack":"!1"},[Wr.X.searc...
+{[Uo.X.conversationSettings]:{"component":"qo","showInStack":"!0"},[Uo.X.drawerToggle]:{"component":"nl","showInStack":"!1"},[Uo.X.makeDeck]:{"component":"il","showInStack":"!0"},[Uo.X.newMessage]:{"component":"pl","showInStack":"!0"},[Uo.X.remove]:{"component":"hl.Z","showInStack":"!1"},[Uo.X.searc...
 ```
 | constant          | value             |
 |:------------------|:------------------|

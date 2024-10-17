@@ -2430,6 +2430,9 @@
       "subscriptions_feature_organization_x_hiring": {
         "value": "true"
       },
+      "subscriptions_feature_premium_insights": {
+        "value": "false"
+      },
       "subscriptions_feature_premium_jobs": {
         "value": "true"
       },
@@ -5342,6 +5345,9 @@
         "subscriptions_feature_organization_x_hiring": {
           "value": "true"
         },
+        "subscriptions_feature_premium_insights": {
+          "value": "false"
+        },
         "subscriptions_feature_premium_jobs": {
           "value": "true"
         },
@@ -5932,7 +5938,7 @@
       "settingsVersion": "f327d9feae4d48af8bc340a83d443597"
     },
     "debug": {},
-    "featureSetToken": "a0cfbdcc94fa9a995fb146c41d1c3dcfab1b613b",
+    "featureSetToken": "80cfcaa90a43e32fff6db395008ed370733289c5",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -6002,7 +6008,7 @@
     "country": "XX",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "172902657019010342",
+    "guestId": "172911296866261230",
     "hasCommunityMemberships": "false",
     "language": "en",
     "ssoInitTokens": {},
