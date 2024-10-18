@@ -4474,3 +4474,20 @@
 - subscriptions_feature_premium_insights<br>
 #### remove<br>
 - None<br>
+## 2024/10/18<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- insights_premium_initial_days_back<br>
+- insights_unique_users_premium_enabled<br>
+- subscriptions_premium_hub_insights_block_enabled<br>
+- subscriptions_upsells_radar_video_url_desktop<br>
+- subscriptions_upsells_radar_video_url_mobile<br>
+#### remove<br>
+- responsive_web_grok_share_enabled<br>
+- responsive_web_verified_organizations_new_support_entry_enabled<br>
+- responsive_web_verified_organizations_preapproved_access_enabled<br>
