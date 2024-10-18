@@ -5451,7 +5451,7 @@
           "value": ""
         },
         "subscriptions_upsells_right_sidebar_variant": {
-          "value": "discount_40_percent"
+          "value": ""
         },
         "subscriptions_verification_info_is_identity_verified_enabled": {
           "value": "true"
@@ -5935,7 +5935,7 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "f327d9feae4d48af8bc340a83d443597"
+      "settingsVersion": "7ce2c6d0cfacb2a1122304641e55c748"
     },
     "debug": {},
     "featureSetToken": "80cfcaa90a43e32fff6db395008ed370733289c5",
@@ -6008,7 +6008,7 @@
     "country": "XX",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "172911296866261230",
+    "guestId": "172919936846598622",
     "hasCommunityMemberships": "false",
     "language": "en",
     "ssoInitTokens": {},
