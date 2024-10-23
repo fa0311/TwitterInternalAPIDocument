@@ -4491,3 +4491,14 @@
 - responsive_web_grok_share_enabled<br>
 - responsive_web_verified_organizations_new_support_entry_enabled<br>
 - responsive_web_verified_organizations_preapproved_access_enabled<br>
+## 2024/10/23<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- settings_for_you_recommendation_enabled<br>
+#### remove<br>
+- rweb_group_dm_conf_enabled<br>
