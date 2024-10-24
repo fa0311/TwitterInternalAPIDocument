@@ -4147,12 +4147,9 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key          | type   | variable   |
-|:-------------|:-------|:-----------|
-| tweetId      | ...    | r          |
-| cursor       | ...    | o          |
-| count        | ...    | n          |
-| ...()(0,d.d) | ...    | _          |
+| key     | type   | variable   |
+|:--------|:-------|:-----------|
+| keyword | ...    | t          |
 
 #### features<br>
 | key                                                                     | type    | variable   |
@@ -5946,17 +5943,6 @@ Login Required: `...`<br>
 `None`<br>
 #### queryId<br>
 `None`<br>
-## CreateGrokConversation<br>
-Request URL: `https://x.com/i/api/graphql/UBIjqHqsA5aixuibXTBheQ/CreateGrokConversation`<br>
-Request Method: `POST`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-`None`<br>
-#### queryId<br>
-`None`<br>
 ## DeleteGrokMessage<br>
 Request URL: `https://x.com/i/api/graphql/kaH0vdJmbuocpRAeWpRC7A/DeleteGrokMessage`<br>
 Request Method: `POST`<br>
@@ -6117,6 +6103,24 @@ Login Required: `...`<br>
 `None`<br>
 #### queryId<br>
 `None`<br>
+## SidebarUserRecommendations<br>
+Request URL: `https://x.com/i/api/graphql/AkZZAcY6Sl1eJQyZyKw7Eg/SidebarUserRecommendations`<br>
+Request Method: `GET`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+| key                                                               | type    | variable   |
+|:------------------------------------------------------------------|:--------|:-----------|
+| rweb_tipjar_consumption_enabled                                   | boolean | True       |
+| responsive_web_graphql_exclude_directive_enabled                  | boolean | True       |
+| verified_phone_label_enabled                                      | boolean | False      |
+| responsive_web_graphql_skip_user_profile_image_extensions_enabled | boolean | False      |
+| responsive_web_graphql_timeline_navigation_enabled                | boolean | True       |
+
+#### queryId<br>
+`None`<br>
 ## Favoriters<br>
 Request URL: `https://x.com/i/api/graphql/riUYr3PwuHNe4tCmzjPNrg/Favoriters`<br>
 Request Method: `GET`<br>
@@ -6227,17 +6231,6 @@ Login Required: `...`<br>
 `None`<br>
 ## ClearGrokConversations<br>
 Request URL: `https://x.com/i/api/graphql/83Gg0lfI-47Z3-ZOxyUjiQ/ClearGrokConversations`<br>
-Request Method: `POST`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-`None`<br>
-#### queryId<br>
-`None`<br>
-## CreateGrokConversation<br>
-Request URL: `https://x.com/i/api/graphql/UBIjqHqsA5aixuibXTBheQ/CreateGrokConversation`<br>
 Request Method: `POST`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -6416,23 +6409,5 @@ Login Required: `...`<br>
 `None`<br>
 #### features<br>
 `None`<br>
-#### queryId<br>
-`None`<br>
-## SidebarUserRecommendations<br>
-Request URL: `https://x.com/i/api/graphql/AkZZAcY6Sl1eJQyZyKw7Eg/SidebarUserRecommendations`<br>
-Request Method: `GET`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-| key                                                               | type    | variable   |
-|:------------------------------------------------------------------|:--------|:-----------|
-| rweb_tipjar_consumption_enabled                                   | boolean | True       |
-| responsive_web_graphql_exclude_directive_enabled                  | boolean | True       |
-| verified_phone_label_enabled                                      | boolean | False      |
-| responsive_web_graphql_skip_user_profile_image_extensions_enabled | boolean | False      |
-| responsive_web_graphql_timeline_navigation_enabled                | boolean | True       |
-
 #### queryId<br>
 `None`<br>

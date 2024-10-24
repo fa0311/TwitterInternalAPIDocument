@@ -1443,6 +1443,12 @@ This document is entirely auto-generated and may contain errors.<br>
 | All        | all      |
 | Messages   | messages |
 
+| constant         | value            |
+|:-----------------|:-----------------|
+| generate         | generate         |
+| updateSeats      | updateSeats      |
+| switchFromDirect | switchFromDirect |
+
 | constant   | value     |
 |:-----------|:----------|
 | READONLY   | readonly  |
@@ -1684,7 +1690,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant           | value                                                                                                                                        |
 |:-------------------|:---------------------------------------------------------------------------------------------------------------------------------------------|
-| live               | {'backgroundColor': 'magenta500', 'bold': '!0', 'color': 'whiteOnColor'}                                                                     |
+| live               | {'backgroundColor': 'magenta500', 'numberOfLines': '1', 'textOverflow': 'ellipsis', 'bold': '!0', 'color': 'whiteOnColor'}                   |
 | warning            | {'backgroundColor': 'red50', 'color': 'red900', 'bold': '!0', 'radius': '9999', 'fontSize': 'subtext3'}                                      |
 | subscriptionSaving | {'backgroundColor': 'green50', 'color': 'green900', 'bold': '!0', 'radius': '9999', 'fontSize': 'subtext3'}                                  |
 | subscriptionActive | {'backgroundColor': 'primary', 'radius': '9999', 'bold': '!0', 'color': 'whiteOnColor', 'fontSize': 'subtext3'}                              |
@@ -2524,9 +2530,16 @@ This document is entirely auto-generated and may contain errors.<br>
 | COLLAPSED  | collapsed |
 | EXPANDED   | expanded  |
 
+| constant     | value        |
+|:-------------|:-------------|
+| Speakers     | Speakers     |
+| Chat         | Chat         |
+| Settings     | Settings     |
+| Participants | Participants |
+
 ```internal process
 # Error
-{[v.xSmall]:"1.3",[v.small]:"1.4",[v.normal]:"1.5",[v.large]:"1.6",[v.xLarge]:"1.7"}
+{[v.xSmall]:"1.3",[v.small]:"1.4",[v.normal]:"1.5",[v.large]:"1.5",[v.xLarge]:"1.6"}
 ```
 | constant   | value   |
 |:-----------|:--------|
@@ -5130,13 +5143,6 @@ This document is entirely auto-generated and may contain errors.<br>
 # Error
 {"ActionsBar":"y.Z","ActionMenu":"function()"{"Icon":"e","isDisabled":"t","items":"n","onOpen":"i"}{"const o=r.useCallback()"{"items":"n","onCloseRequested":"e"}{"Icon":"e","isDisabled":"t","onClick":"i","renderActionMenu":"o"}},"CallToAction":"a.ZP","EditCallout":"v.Z","Education":"T.Z","Highlighte...
 ```
-| constant     | value        |
-|:-------------|:-------------|
-| Speakers     | Speakers     |
-| Chat         | Chat         |
-| Settings     | Settings     |
-| Participants | Participants |
-
 | constant   | value    |
 |:-----------|:---------|
 | FOLLOWS    | follows  |
@@ -6215,12 +6221,6 @@ This document is entirely auto-generated and may contain errors.<br>
 | ...ca      | _             |
 | component  | sync-ats-jobs |
 
-| constant         | value            |
-|:-----------------|:-----------------|
-| generate         | generate         |
-| updateSeats      | updateSeats      |
-| switchFromDirect | switchFromDirect |
-
 | constant   | value     |
 |:-----------|:----------|
 | Affiliate  | Affiliate |
@@ -6234,7 +6234,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | constant    | value     |
 |:------------|:----------|
 | fetchStatus | W.ZP.NONE |
-| config      | Ka        |
+| config      | Za        |
 
 | constant              | value                 |
 |:----------------------|:----------------------|
@@ -6251,7 +6251,7 @@ This document is entirely auto-generated and may contain errors.<br>
 ```
 ```internal process
 # Error
-{[L.hA.generate]:"E().fc1f43d0",[L.hA.switchFromDirect]:"E().fc1f43d0",[L.hA.updateSeats]:"E().c97ad52a"}
+{[A.hA.generate]:"E().fc1f43d0",[A.hA.switchFromDirect]:"E().fc1f43d0",[A.hA.updateSeats]:"E().c97ad52a"}
 ```
 | constant      | value         |
 |:--------------|:--------------|
@@ -6686,6 +6686,8 @@ This document is entirely auto-generated and may contain errors.<br>
 | OneDollar                  | OneDollar                  |
 | OneDollarSubscription      | OneDollarSubscription      |
 | PremiumBasic               | PremiumBasic               |
+| PremiumGift                | PremiumGift                |
+| PremiumPlusGift            | PremiumPlusGift            |
 | QuickPromoteBudget         | QuickPromoteBudget         |
 | Seeds                      | Seeds                      |
 | Spaces                     | Spaces                     |
@@ -7206,7 +7208,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{[n.wide]:"500",[n.narrow]:"285",[n.veryNarrow]:"200"}
+{[i.wide]:"500",[i.narrow]:"285",[i.veryNarrow]:"200"}
 ```
 ```internal process
 # Error

@@ -963,19 +963,19 @@
     ]
   },
   {
-    "queryId": "moments/create",
-    "dispatch_key": "post",
+    "queryId": "users/recommendations",
+    "dispatch_key": "get",
     "dispatch": [
-      "post",
+      "get",
       "",
       "https://api.x.com/1.1/{queryId}.json"
     ]
   },
   {
-    "queryId": "users/recommendations",
-    "dispatch_key": "get",
+    "queryId": "moments/create",
+    "dispatch_key": "post",
     "dispatch": [
-      "get",
+      "post",
       "",
       "https://api.x.com/1.1/{queryId}.json"
     ]
