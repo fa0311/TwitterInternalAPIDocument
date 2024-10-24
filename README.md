@@ -59,7 +59,9 @@ yes.
 Note written by the developer.  
 [Reverse Engineering Document](./docs/markdown/RE.md)  
 
-## Install requirements
+## [Deprecate] Install requirements
+
+> Instead, please use <https://github.com/fa0311/twitter-openapi>.
 
 ```shell
 git clone https://github.com/fa0311/TwitterInternalAPIDocument.git
@@ -74,7 +76,9 @@ git clone https://github.com/fa0311/TwitterFrontendFlow.git
 python TwitterFrontendFlow/sample2.py
 ```
 
-## Fast development of modules using this document
+## [Deprecate] Fast development of modules using this document
+
+> Instead, please use <https://github.com/fa0311/twitter-openapi>.
 
 [Sample](./sample.py)  
 [API](./docs/json/API.json)  
