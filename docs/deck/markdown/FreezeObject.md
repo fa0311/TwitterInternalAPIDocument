@@ -3187,7 +3187,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | constant              | value     |
 |:----------------------|:----------|
 | appBarHeight          | v         |
-| appBarHeightPx        | y         |
+| appBarHeightPx        | D         |
 | conversationLineWidth | _.space2  |
 | gutterHorizontal      | A.space16 |
 | gutterHorizontalPx    | _.space16 |
@@ -3197,7 +3197,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | constant            | value   |
 |:--------------------|:--------|
 | aspectRatios        | i       |
-| baseFontSize        | D       |
+| baseFontSize        | y       |
 | borderRadii         | s       |
 | borderRadiiPx       | l       |
 | borderWidths        | c       |
@@ -5323,9 +5323,11 @@ This document is entirely auto-generated and may contain errors.<br>
 | MemberAdded                 | MemberAdded                 |
 | MemberLeftViaModeratorBlock | MemberLeftViaModeratorBlock |
 | MemberRemoved               | MemberRemoved               |
+| MemberRemovedRevert         | MemberRemovedRevert         |
 | PinnedTweet                 | PinnedTweet                 |
 | SpaceStarted                | SpaceStarted                |
 | TweetHidden                 | TweetHidden                 |
+| TweetHiddenRevert           | TweetHiddenRevert           |
 | TweetReported               | TweetReported               |
 | UserInvited                 | UserInvited                 |
 
@@ -7191,7 +7193,7 @@ This document is entirely auto-generated and may contain errors.<br>
 ```
 ```internal process
 # Error
-{[Uo.X.conversationSettings]:{"component":"qo","showInStack":"!0"},[Uo.X.drawerToggle]:{"component":"nl","showInStack":"!1"},[Uo.X.makeDeck]:{"component":"il","showInStack":"!0"},[Uo.X.newMessage]:{"component":"pl","showInStack":"!0"},[Uo.X.remove]:{"component":"hl.Z","showInStack":"!1"},[Uo.X.searc...
+{[Wo.X.conversationSettings]:{"component":"qo","showInStack":"!0"},[Wo.X.drawerToggle]:{"component":"nl","showInStack":"!1"},[Wo.X.makeDeck]:{"component":"il","showInStack":"!0"},[Wo.X.newMessage]:{"component":"pl","showInStack":"!0"},[Wo.X.remove]:{"component":"hl.Z","showInStack":"!1"},[Wo.X.searc...
 ```
 | constant          | value             |
 |:------------------|:------------------|
