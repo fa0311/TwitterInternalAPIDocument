@@ -2645,9 +2645,10 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key      | type   | variable   |
-|:---------|:-------|:-----------|
-| settings | ...    | t.settings |
+| key          | type   | variable   |
+|:-------------|:-------|:-----------|
+| listId       | ...    | t.list_id  |
+| ...()(0,o.S) | ...    | _          |
 
 #### features<br>
 | key                                                               | type    | variable   |
@@ -5378,7 +5379,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## BirdwatchFetchContributorNotesSlice<br>
-Request URL: `https://x.com/i/api/graphql/uYNVY5IGS__HrWTWql5Ltg/BirdwatchFetchContributorNotesSlice`<br>
+Request URL: `https://x.com/i/api/graphql/q5LHpdjuaZDdsi9cTGuuZw/BirdwatchFetchContributorNotesSlice`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -5388,6 +5389,7 @@ Login Required: `...`<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
 | responsive_web_birdwatch_media_notes_enabled                            | boolean | True       |
+| responsive_web_birdwatch_fast_notes_badge_enabled                       | boolean | False      |
 | creator_subscriptions_tweet_preview_api_enabled                         | boolean | True       |
 | communities_web_enable_tweet_community_results_fetch                    | boolean | True       |
 | c9s_tweet_anatomy_moderator_badge_enabled                               | boolean | True       |
@@ -5437,7 +5439,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## BirdwatchCreateNote<br>
-Request URL: `https://x.com/i/api/graphql/q6oF9pTr0MkG0ZYW9PSnfQ/BirdwatchCreateNote`<br>
+Request URL: `https://x.com/i/api/graphql/bVkSV5Ks3OJxEy0aYLSq_A/BirdwatchCreateNote`<br>
 Request Method: `POST`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -5449,6 +5451,7 @@ Login Required: `...`<br>
 | responsive_web_birdwatch_media_notes_enabled                      | boolean | True       |
 | responsive_web_birdwatch_url_notes_enabled                        | boolean | False      |
 | responsive_web_birdwatch_translation_enabled                      | boolean | True       |
+| responsive_web_birdwatch_fast_notes_badge_enabled                 | boolean | False      |
 | responsive_web_graphql_timeline_navigation_enabled                | boolean | True       |
 | rweb_tipjar_consumption_enabled                                   | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                  | boolean | True       |
@@ -5656,7 +5659,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## BirdwatchFetchNotes<br>
-Request URL: `https://x.com/i/api/graphql/eFifcPcWL51gRqoL2nckYw/BirdwatchFetchNotes`<br>
+Request URL: `https://x.com/i/api/graphql/zIlZDLWR-uOLI5V97yygQg/BirdwatchFetchNotes`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -5668,6 +5671,7 @@ Login Required: `...`<br>
 | responsive_web_birdwatch_media_notes_enabled                      | boolean | True       |
 | responsive_web_birdwatch_url_notes_enabled                        | boolean | False      |
 | responsive_web_birdwatch_translation_enabled                      | boolean | True       |
+| responsive_web_birdwatch_fast_notes_badge_enabled                 | boolean | False      |
 | responsive_web_graphql_timeline_navigation_enabled                | boolean | True       |
 | rweb_tipjar_consumption_enabled                                   | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                  | boolean | True       |
@@ -5677,7 +5681,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## BirdwatchFetchOneNote<br>
-Request URL: `https://x.com/i/api/graphql/OGH8Y53r7a1UIcNqSmnkIw/BirdwatchFetchOneNote`<br>
+Request URL: `https://x.com/i/api/graphql/iPNjdfoDvLA9qTAj98R83g/BirdwatchFetchOneNote`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -5689,6 +5693,7 @@ Login Required: `...`<br>
 | responsive_web_birdwatch_media_notes_enabled                      | boolean | True       |
 | responsive_web_birdwatch_url_notes_enabled                        | boolean | False      |
 | responsive_web_birdwatch_translation_enabled                      | boolean | True       |
+| responsive_web_birdwatch_fast_notes_badge_enabled                 | boolean | False      |
 | responsive_web_graphql_timeline_navigation_enabled                | boolean | True       |
 | rweb_tipjar_consumption_enabled                                   | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                  | boolean | True       |
