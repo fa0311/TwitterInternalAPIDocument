@@ -1321,6 +1321,15 @@
       "responsive_web_birdwatch_country_allowed": {
         "value": "true"
       },
+      "responsive_web_birdwatch_fast_crh_time_from_note_cutoff": {
+        "value": "3600000"
+      },
+      "responsive_web_birdwatch_fast_crh_time_from_post_cutoff": {
+        "value": "3600000"
+      },
+      "responsive_web_birdwatch_fast_notes_badge_enabled": {
+        "value": "false"
+      },
       "responsive_web_birdwatch_match_page_enabled": {
         "value": "true"
       },
@@ -1564,6 +1573,9 @@
       "responsive_web_grok_delete_conversations_enabled": {
         "value": "true"
       },
+      "responsive_web_grok_feedback_label_dropdown": {
+        "value": "true"
+      },
       "responsive_web_grok_file_compression_enabled": {
         "value": "true"
       },
@@ -1571,7 +1583,7 @@
         "value": "5242880"
       },
       "responsive_web_grok_file_upload_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "responsive_web_grok_history_search_enabled": {
         "value": "true"
@@ -1610,7 +1622,7 @@
         "value": "false"
       },
       "responsive_web_grok_webview_file_upload_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "responsive_web_hashtag_highlight_is_enabled": {
         "value": "false"
@@ -2009,7 +2021,7 @@
         "value": "false"
       },
       "responsive_web_video_autoplay_default_on": {
-        "value": "false"
+        "value": "true"
       },
       "responsive_web_video_pcomplete_enabled": {
         "value": "true"
@@ -2536,7 +2548,7 @@
         "value": "true"
       },
       "subscriptions_upsells_premium_home_nav": {
-        "value": ""
+        "value": "discount_50_percent"
       },
       "subscriptions_upsells_radar_video_url_desktop": {
         "value": "https://abs.twimg.com/images/radar_promo_v2.mp4"
@@ -2545,7 +2557,7 @@
         "value": "https://abs.twimg.com/images/radar_promo_v2.mp4"
       },
       "subscriptions_upsells_right_sidebar_variant": {
-        "value": ""
+        "value": "ending_today_discount_50_percent"
       },
       "subscriptions_verification_info_is_identity_verified_enabled": {
         "value": "true"
@@ -4245,6 +4257,15 @@
         "responsive_web_birdwatch_country_allowed": {
           "value": "true"
         },
+        "responsive_web_birdwatch_fast_crh_time_from_note_cutoff": {
+          "value": "3600000"
+        },
+        "responsive_web_birdwatch_fast_crh_time_from_post_cutoff": {
+          "value": "3600000"
+        },
+        "responsive_web_birdwatch_fast_notes_badge_enabled": {
+          "value": "false"
+        },
         "responsive_web_birdwatch_match_page_enabled": {
           "value": "true"
         },
@@ -4488,6 +4509,9 @@
         "responsive_web_grok_delete_conversations_enabled": {
           "value": "true"
         },
+        "responsive_web_grok_feedback_label_dropdown": {
+          "value": "true"
+        },
         "responsive_web_grok_file_compression_enabled": {
           "value": "true"
         },
@@ -4495,7 +4519,7 @@
           "value": "5242880"
         },
         "responsive_web_grok_file_upload_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "responsive_web_grok_history_search_enabled": {
           "value": "true"
@@ -4534,7 +4558,7 @@
           "value": "false"
         },
         "responsive_web_grok_webview_file_upload_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "responsive_web_hashtag_highlight_is_enabled": {
           "value": "false"
@@ -5469,7 +5493,7 @@
           "value": "https://abs.twimg.com/images/radar_promo_v2.mp4"
         },
         "subscriptions_upsells_right_sidebar_variant": {
-          "value": "extended_discount_50_percent"
+          "value": "ending_today_discount_50_percent"
         },
         "subscriptions_verification_info_is_identity_verified_enabled": {
           "value": "true"
@@ -5953,10 +5977,10 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "ee3145b854b6fa00ae552b80b884d496"
+      "settingsVersion": "a5bd481adc35539b92c781ebaeed105a"
     },
     "debug": {},
-    "featureSetToken": "f6b0f464c52ab7474d40ca2d94173a30194e2c7f",
+    "featureSetToken": "757958e0fa812ccfbfbcd4daf1bf4829a897c333",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -6026,7 +6050,7 @@
     "country": "XX",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "173006332294380073",
+    "guestId": "173014976937205884",
     "hasCommunityMemberships": "false",
     "language": "en",
     "ssoInitTokens": {},
