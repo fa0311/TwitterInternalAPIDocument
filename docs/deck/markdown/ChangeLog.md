@@ -3380,3 +3380,17 @@
 - rweb_multistream_enabled<br>
 #### remove<br>
 - None<br>
+## 2024/10/27<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- responsive_web_birdwatch_fast_crh_time_from_note_cutoff<br>
+- responsive_web_birdwatch_fast_crh_time_from_post_cutoff<br>
+- responsive_web_birdwatch_fast_notes_badge_enabled<br>
+- responsive_web_grok_feedback_label_dropdown<br>
+#### remove<br>
+- None<br>

@@ -3047,7 +3047,7 @@
   },
   {
     "appBarHeight": "v",
-    "appBarHeightPx": "y",
+    "appBarHeightPx": "D",
     "conversationLineWidth": "_.space2",
     "gutterHorizontal": "A.space16",
     "gutterHorizontalPx": "_.space16",
@@ -3056,7 +3056,7 @@
   },
   {
     "aspectRatios": "i",
-    "baseFontSize": "D",
+    "baseFontSize": "y",
     "borderRadii": "s",
     "borderRadiiPx": "l",
     "borderWidths": "c",
@@ -5071,9 +5071,11 @@
     "MemberAdded": "MemberAdded",
     "MemberLeftViaModeratorBlock": "MemberLeftViaModeratorBlock",
     "MemberRemoved": "MemberRemoved",
+    "MemberRemovedRevert": "MemberRemovedRevert",
     "PinnedTweet": "PinnedTweet",
     "SpaceStarted": "SpaceStarted",
     "TweetHidden": "TweetHidden",
+    "TweetHiddenRevert": "TweetHiddenRevert",
     "TweetReported": "TweetReported",
     "UserInvited": "UserInvited"
   },
@@ -6755,7 +6757,7 @@
   },
   "{[ne.r.labs]:{\"title\":\"c().f6e88162\"},[ne.r.options]:{\"title\":\"c().e6df688c\"},[ne.r.search]:{\"title\":\"c().a9ae1e78\"}}",
   "{[ne.I1.clearBookmarks]:{\"component\":\"Yt\"},[ne.I1.clearGrok]:{\"component\":\"nn\"},[ne.I1.clearTweets]:{\"component\":\"hn\"},[ne.I1.columnDebugInfo]:{\"component\":\"ge\"},[ne.I1.columnDebugState]:{\"component\":\"ye\"},[ne.I1.sharingDebug]:{\"component\":\"le.Z\"},[ne.I1.contentDisplay]:{\"component\":\"he\"},[ne.I1.conversationInfo]:{\"component\":\"tt\"},[ne.I1.duplicate]:{\"component\":\"Sn\"},[ne.I1.dmSettings]:{\"component\":\"lt\"},[ne.I1.editBookmark]:{\"component\":\"vn\"},[ne.I1.exploreSettings]:{\"component\":\"Dn\"},[ne.I1.filters]:{\"component\":\"bt\"},[ne.I1.grokMode]:{\"component\":\"Fn\"},[ne.I1.largeWidth]:{\"component\":e=>a.createElement(){},e,{\"withNarrow\":\"!1\"}},[ne.I1.mediaPreviewRepliesLabel]:{\"component\":e=>a.createElement(){},e,{\"withRepliesLabel\":\"!0\"}},[ne.I1.mediaPreview]:{\"component\":\"Ce\"},[ne.I1.notificationOptions]:{\"component\":\"ia\"},[ne.I1.reportList]:{\"component\":\"Sa\"},[ne.I1.blockUser]:{\"component\":\"Ht\"},[ne.I1.makeDeck]:{\"component\":\"ea\"},[ne.I1.move]:{\"component\":\"ra\"},[ne.I1.searchConversion]:{\"component\":\"Za\"},[ne.I1.share]:{\"component\":\"Oa\"},[ne.I1.title]:{\"component\":\"Fe\"},[ne.I1.width]:{\"component\":\"$e\"},[ne.I1.remove]:{\"component\":\"ba\"}}",
-  "{[Uo.X.conversationSettings]:{\"component\":\"qo\",\"showInStack\":\"!0\"},[Uo.X.drawerToggle]:{\"component\":\"nl\",\"showInStack\":\"!1\"},[Uo.X.makeDeck]:{\"component\":\"il\",\"showInStack\":\"!0\"},[Uo.X.newMessage]:{\"component\":\"pl\",\"showInStack\":\"!0\"},[Uo.X.remove]:{\"component\":\"hl.Z\",\"showInStack\":\"!1\"},[Uo.X.search]:{\"component\":\"kl\",\"showInStack\":\"!1\"},[Uo.X.toggleContentDisplay]:{\"component\":\"Zl\",\"showInStack\":\"!1\"},[Uo.X.clearTweets]:{\"component\":\"Qo\",\"showInStack\":\"!1\"}}",
+  "{[Wo.X.conversationSettings]:{\"component\":\"qo\",\"showInStack\":\"!0\"},[Wo.X.drawerToggle]:{\"component\":\"nl\",\"showInStack\":\"!1\"},[Wo.X.makeDeck]:{\"component\":\"il\",\"showInStack\":\"!0\"},[Wo.X.newMessage]:{\"component\":\"pl\",\"showInStack\":\"!0\"},[Wo.X.remove]:{\"component\":\"hl.Z\",\"showInStack\":\"!1\"},[Wo.X.search]:{\"component\":\"kl\",\"showInStack\":\"!1\"},[Wo.X.toggleContentDisplay]:{\"component\":\"Zl\",\"showInStack\":\"!1\"},[Wo.X.clearTweets]:{\"component\":\"Qo\",\"showInStack\":\"!1\"}}",
   {
     "welcomeNewUser": "welcomeNewUser",
     "welcomeLegacyUser": "welcomeLegacyUser",

@@ -6505,7 +6505,8 @@
     "func_name": "F",
     "func_name_init": "O",
     "query": {
-      "settings": "t.settings"
+      "listId": "t.list_id",
+      "...()(0,o.S)": "_"
     }
   },
   {
@@ -13291,12 +13292,13 @@
   {
     "n": "68032",
     "exports": {
-      "queryId": "uYNVY5IGS__HrWTWql5Ltg",
+      "queryId": "q5LHpdjuaZDdsi9cTGuuZw",
       "operationName": "BirdwatchFetchContributorNotesSlice",
       "operationType": "query",
       "metadata": {
         "featureSwitches": [
           "responsive_web_birdwatch_media_notes_enabled",
+          "responsive_web_birdwatch_fast_notes_badge_enabled",
           "creator_subscriptions_tweet_preview_api_enabled",
           "communities_web_enable_tweet_community_results_fetch",
           "c9s_tweet_anatomy_moderator_badge_enabled",
@@ -13331,6 +13333,9 @@
         "featureSwitch": {
           "responsive_web_birdwatch_media_notes_enabled": {
             "value": "true"
+          },
+          "responsive_web_birdwatch_fast_notes_badge_enabled": {
+            "value": "false"
           },
           "creator_subscriptions_tweet_preview_api_enabled": {
             "value": "true"
@@ -13434,7 +13439,7 @@
   {
     "n": "39143",
     "exports": {
-      "queryId": "q6oF9pTr0MkG0ZYW9PSnfQ",
+      "queryId": "bVkSV5Ks3OJxEy0aYLSq_A",
       "operationName": "BirdwatchCreateNote",
       "operationType": "mutation",
       "metadata": {
@@ -13442,6 +13447,7 @@
           "responsive_web_birdwatch_media_notes_enabled",
           "responsive_web_birdwatch_url_notes_enabled",
           "responsive_web_birdwatch_translation_enabled",
+          "responsive_web_birdwatch_fast_notes_badge_enabled",
           "responsive_web_graphql_timeline_navigation_enabled",
           "rweb_tipjar_consumption_enabled",
           "responsive_web_graphql_exclude_directive_enabled",
@@ -13460,6 +13466,9 @@
           },
           "responsive_web_birdwatch_translation_enabled": {
             "value": "true"
+          },
+          "responsive_web_birdwatch_fast_notes_badge_enabled": {
+            "value": "false"
           },
           "responsive_web_graphql_timeline_navigation_enabled": {
             "value": "true"
@@ -13816,7 +13825,7 @@
   {
     "n": "79019",
     "exports": {
-      "queryId": "eFifcPcWL51gRqoL2nckYw",
+      "queryId": "zIlZDLWR-uOLI5V97yygQg",
       "operationName": "BirdwatchFetchNotes",
       "operationType": "query",
       "metadata": {
@@ -13824,6 +13833,7 @@
           "responsive_web_birdwatch_media_notes_enabled",
           "responsive_web_birdwatch_url_notes_enabled",
           "responsive_web_birdwatch_translation_enabled",
+          "responsive_web_birdwatch_fast_notes_badge_enabled",
           "responsive_web_graphql_timeline_navigation_enabled",
           "rweb_tipjar_consumption_enabled",
           "responsive_web_graphql_exclude_directive_enabled",
@@ -13842,6 +13852,9 @@
           },
           "responsive_web_birdwatch_translation_enabled": {
             "value": "true"
+          },
+          "responsive_web_birdwatch_fast_notes_badge_enabled": {
+            "value": "false"
           },
           "responsive_web_graphql_timeline_navigation_enabled": {
             "value": "true"
@@ -13865,7 +13878,7 @@
   {
     "n": "90760",
     "exports": {
-      "queryId": "OGH8Y53r7a1UIcNqSmnkIw",
+      "queryId": "iPNjdfoDvLA9qTAj98R83g",
       "operationName": "BirdwatchFetchOneNote",
       "operationType": "query",
       "metadata": {
@@ -13873,6 +13886,7 @@
           "responsive_web_birdwatch_media_notes_enabled",
           "responsive_web_birdwatch_url_notes_enabled",
           "responsive_web_birdwatch_translation_enabled",
+          "responsive_web_birdwatch_fast_notes_badge_enabled",
           "responsive_web_graphql_timeline_navigation_enabled",
           "rweb_tipjar_consumption_enabled",
           "responsive_web_graphql_exclude_directive_enabled",
@@ -13891,6 +13905,9 @@
           },
           "responsive_web_birdwatch_translation_enabled": {
             "value": "true"
+          },
+          "responsive_web_birdwatch_fast_notes_badge_enabled": {
+            "value": "false"
           },
           "responsive_web_graphql_timeline_navigation_enabled": {
             "value": "true"
