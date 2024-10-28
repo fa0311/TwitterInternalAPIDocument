@@ -4762,9 +4762,11 @@
     "MemberAdded": "MemberAdded",
     "MemberLeftViaModeratorBlock": "MemberLeftViaModeratorBlock",
     "MemberRemoved": "MemberRemoved",
+    "MemberRemovedRevert": "MemberRemovedRevert",
     "PinnedTweet": "PinnedTweet",
     "SpaceStarted": "SpaceStarted",
     "TweetHidden": "TweetHidden",
+    "TweetHiddenRevert": "TweetHiddenRevert",
     "TweetReported": "TweetReported",
     "UserInvited": "UserInvited"
   },
