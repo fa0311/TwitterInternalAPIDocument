@@ -5012,9 +5012,11 @@ This document is entirely auto-generated and may contain errors.<br>
 | MemberAdded                 | MemberAdded                 |
 | MemberLeftViaModeratorBlock | MemberLeftViaModeratorBlock |
 | MemberRemoved               | MemberRemoved               |
+| MemberRemovedRevert         | MemberRemovedRevert         |
 | PinnedTweet                 | PinnedTweet                 |
 | SpaceStarted                | SpaceStarted                |
 | TweetHidden                 | TweetHidden                 |
+| TweetHiddenRevert           | TweetHiddenRevert           |
 | TweetReported               | TweetReported               |
 | UserInvited                 | UserInvited                 |
 
