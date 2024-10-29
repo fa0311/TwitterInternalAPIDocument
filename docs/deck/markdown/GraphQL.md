@@ -3940,7 +3940,11 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-`None`<br>
+| key               | type   | variable   |
+|:------------------|:-------|:-----------|
+| grokMode          | ...    | t          |
+| grokModelOptionId | ...    | n          |
+
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
@@ -4543,7 +4547,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## GrokConversationItemsByRestId<br>
-Request URL: `https://x.com/i/api/graphql/fa9ogdhACZLQW8YdPYFCCg/GrokConversationItemsByRestId`<br>
+Request URL: `https://x.com/i/api/graphql/obV0YtHJ6L3yld3w7Au5qg/GrokConversationItemsByRestId`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -5960,7 +5964,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## GrokConversationItemsByRestId<br>
-Request URL: `https://x.com/i/api/graphql/fa9ogdhACZLQW8YdPYFCCg/GrokConversationItemsByRestId`<br>
+Request URL: `https://x.com/i/api/graphql/obV0YtHJ6L3yld3w7Au5qg/GrokConversationItemsByRestId`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -6257,7 +6261,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## GrokConversationItemsByRestId<br>
-Request URL: `https://x.com/i/api/graphql/fa9ogdhACZLQW8YdPYFCCg/GrokConversationItemsByRestId`<br>
+Request URL: `https://x.com/i/api/graphql/obV0YtHJ6L3yld3w7Au5qg/GrokConversationItemsByRestId`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
