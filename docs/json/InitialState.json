@@ -2008,6 +2008,9 @@
       "responsive_web_verified_organizations_invoice_update_enabled": {
         "value": "false"
       },
+      "responsive_web_verified_organizations_new_signup_enabled": {
+        "value": "false"
+      },
       "responsive_web_verified_organizations_paid_to_invoice_enabled": {
         "value": "false"
       },
@@ -2062,11 +2065,17 @@
       "rweb_analytics_in_out_network_enabled": {
         "value": "false"
       },
+      "rweb_analytics_nav_item_enabled": {
+        "value": "false"
+      },
       "rweb_analytics_post_audience_page_enabled": {
         "value": "true"
       },
       "rweb_analytics_theme": {
         "value": "false"
+      },
+      "rweb_analytics_upsell_variant": {
+        "value": ""
       },
       "rweb_analytics_user_audience_page_enabled": {
         "value": "true"
@@ -2548,7 +2557,7 @@
         "value": "true"
       },
       "subscriptions_upsells_premium_home_nav": {
-        "value": "discount_50_percent"
+        "value": ""
       },
       "subscriptions_upsells_radar_video_url_desktop": {
         "value": "https://abs.twimg.com/images/radar_promo_v2.mp4"
@@ -2557,7 +2566,7 @@
         "value": "https://abs.twimg.com/images/radar_promo_v2.mp4"
       },
       "subscriptions_upsells_right_sidebar_variant": {
-        "value": "ending_today_discount_50_percent"
+        "value": ""
       },
       "subscriptions_verification_info_is_identity_verified_enabled": {
         "value": "true"
@@ -4599,6 +4608,9 @@
         "responsive_web_live_commerce_enabled": {
           "value": "false"
         },
+        "responsive_web_live_screen_enabled": {
+          "value": "false"
+        },
         "responsive_web_locale_context_direction_enabled": {
           "value": "true"
         },
@@ -4944,6 +4956,9 @@
         "responsive_web_verified_organizations_invoice_update_enabled": {
           "value": "false"
         },
+        "responsive_web_verified_organizations_new_signup_enabled": {
+          "value": "false"
+        },
         "responsive_web_verified_organizations_paid_to_invoice_enabled": {
           "value": "false"
         },
@@ -4998,11 +5013,17 @@
         "rweb_analytics_in_out_network_enabled": {
           "value": "false"
         },
+        "rweb_analytics_nav_item_enabled": {
+          "value": "false"
+        },
         "rweb_analytics_post_audience_page_enabled": {
           "value": "true"
         },
         "rweb_analytics_theme": {
           "value": "false"
+        },
+        "rweb_analytics_upsell_variant": {
+          "value": ""
         },
         "rweb_analytics_user_audience_page_enabled": {
           "value": "true"
@@ -5484,7 +5505,7 @@
           "value": "true"
         },
         "subscriptions_upsells_premium_home_nav": {
-          "value": "discount_50_percent"
+          "value": ""
         },
         "subscriptions_upsells_radar_video_url_desktop": {
           "value": "https://abs.twimg.com/images/radar_promo_v2.mp4"
@@ -5493,7 +5514,7 @@
           "value": "https://abs.twimg.com/images/radar_promo_v2.mp4"
         },
         "subscriptions_upsells_right_sidebar_variant": {
-          "value": "ending_today_discount_50_percent"
+          "value": ""
         },
         "subscriptions_verification_info_is_identity_verified_enabled": {
           "value": "true"
@@ -5977,10 +5998,10 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "a5bd481adc35539b92c781ebaeed105a"
+      "settingsVersion": "5d8b62b2b4e5a40540c1b94ef15a99a1"
     },
     "debug": {},
-    "featureSetToken": "757958e0fa812ccfbfbcd4daf1bf4829a897c333",
+    "featureSetToken": "56005ef65cea681c92aad5c7188696398d936a2a",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -6050,7 +6071,7 @@
     "country": "XX",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "173014976937205884",
+    "guestId": "173023616231828502",
     "hasCommunityMemberships": "false",
     "language": "en",
     "ssoInitTokens": {},
