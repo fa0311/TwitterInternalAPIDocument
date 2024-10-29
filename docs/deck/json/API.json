@@ -3311,8 +3311,8 @@
       "features": {}
     },
     "GrokConversationItemsByRestId": {
-      "url": "https://x.com/i/api/graphql/fa9ogdhACZLQW8YdPYFCCg/GrokConversationItemsByRestId",
-      "queryId": "fa9ogdhACZLQW8YdPYFCCg",
+      "url": "https://x.com/i/api/graphql/obV0YtHJ6L3yld3w7Au5qg/GrokConversationItemsByRestId",
+      "queryId": "obV0YtHJ6L3yld3w7Au5qg",
       "method": "GET",
       "features": {
         "creator_subscriptions_tweet_preview_api_enabled": true,
