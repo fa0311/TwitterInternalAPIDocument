@@ -1593,7 +1593,7 @@
         "value": "5242880"
       },
       "responsive_web_grok_file_upload_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "responsive_web_grok_history_search_enabled": {
         "value": "true"
@@ -1632,7 +1632,7 @@
         "value": "false"
       },
       "responsive_web_grok_webview_file_upload_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "responsive_web_hashtag_highlight_is_enabled": {
         "value": "false"
@@ -2016,6 +2016,9 @@
         "value": "false"
       },
       "responsive_web_verified_organizations_invoice_update_enabled": {
+        "value": "false"
+      },
+      "responsive_web_verified_organizations_new_signup_enabled": {
         "value": "false"
       },
       "responsive_web_verified_organizations_paid_to_invoice_enabled": {
@@ -2567,7 +2570,7 @@
         "value": "https://abs.twimg.com/images/radar_promo_v2.mp4"
       },
       "subscriptions_upsells_right_sidebar_variant": {
-        "value": "extended_discount_50_percent"
+        "value": "ending_today_discount_50_percent"
       },
       "subscriptions_verification_info_is_identity_verified_enabled": {
         "value": "true"
@@ -4609,6 +4612,9 @@
         "responsive_web_live_commerce_enabled": {
           "value": "false"
         },
+        "responsive_web_live_screen_enabled": {
+          "value": "false"
+        },
         "responsive_web_locale_context_direction_enabled": {
           "value": "true"
         },
@@ -4952,6 +4958,9 @@
           "value": "false"
         },
         "responsive_web_verified_organizations_invoice_update_enabled": {
+          "value": "false"
+        },
+        "responsive_web_verified_organizations_new_signup_enabled": {
           "value": "false"
         },
         "responsive_web_verified_organizations_paid_to_invoice_enabled": {
@@ -5494,7 +5503,7 @@
           "value": "true"
         },
         "subscriptions_upsells_premium_home_nav": {
-          "value": "discount_50_percent"
+          "value": ""
         },
         "subscriptions_upsells_radar_video_url_desktop": {
           "value": "https://abs.twimg.com/images/radar_promo_v2.mp4"
@@ -5503,7 +5512,7 @@
           "value": "https://abs.twimg.com/images/radar_promo_v2.mp4"
         },
         "subscriptions_upsells_right_sidebar_variant": {
-          "value": "ending_today_discount_50_percent"
+          "value": ""
         },
         "subscriptions_verification_info_is_identity_verified_enabled": {
           "value": "true"
@@ -5987,10 +5996,10 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "428541d810539ea67ca87fb80e00d25b"
+      "settingsVersion": "2a754cc9deebb89b0a3e88cd8c590fc4"
     },
     "debug": {},
-    "featureSetToken": "8e586427c088c57510f565e1b4ffa44f2654ce60",
+    "featureSetToken": "7324c2b2455f1b67934f4cf1efb6433b31e9db91",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -6060,7 +6069,7 @@
     "country": "XX",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "173015017397213460",
+    "guestId": "173023660579208305",
     "hasCommunityMemberships": "false",
     "language": "en",
     "ssoInitTokens": {},
