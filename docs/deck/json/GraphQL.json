@@ -10000,9 +10000,12 @@
         }
       }
     },
-    "func_name": "C",
+    "func_name": "k",
     "func_name_init": "T",
-    "query": {}
+    "query": {
+      "grokMode": "t",
+      "grokModelOptionId": "n"
+    }
   },
   {
     "n": "80984",
@@ -11440,7 +11443,7 @@
   {
     "n": "15863",
     "exports": {
-      "queryId": "fa9ogdhACZLQW8YdPYFCCg",
+      "queryId": "obV0YtHJ6L3yld3w7Au5qg",
       "operationName": "GrokConversationItemsByRestId",
       "operationType": "query",
       "metadata": {
@@ -14363,7 +14366,7 @@
   {
     "n": "15863",
     "exports": {
-      "queryId": "fa9ogdhACZLQW8YdPYFCCg",
+      "queryId": "obV0YtHJ6L3yld3w7Au5qg",
       "operationName": "GrokConversationItemsByRestId",
       "operationType": "query",
       "metadata": {
@@ -15082,7 +15085,7 @@
   {
     "n": "15863",
     "exports": {
-      "queryId": "fa9ogdhACZLQW8YdPYFCCg",
+      "queryId": "obV0YtHJ6L3yld3w7Au5qg",
       "operationName": "GrokConversationItemsByRestId",
       "operationType": "query",
       "metadata": {
