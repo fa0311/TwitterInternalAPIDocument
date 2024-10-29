@@ -1467,7 +1467,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{[x.DEFAULT]:"B.UNDETERMINED",[x.DENIED]:"B.OFF",[x.GRANTED]:"B.ON"}
+{[L.DEFAULT]:"x.UNDETERMINED",[L.DENIED]:"x.OFF",[L.GRANTED]:"x.ON"}
 ```
 | constant   | value                                        |
 |:-----------|:---------------------------------------------|
@@ -2799,9 +2799,9 @@ This document is entirely auto-generated and may contain errors.<br>
 | bestValue          | {'backgroundColor': 'green50', 'color': 'green900', 'bold': '!0', 'fontSize': 'subtext3'}                                                    |
 | mostPopular        | {'backgroundColor': 'purple50', 'color': 'purple900', 'bold': '!0', 'fontSize': 'subtext3'}                                                  |
 | priority           | {'backgroundColor': 'blue50', 'color': 'blue900', 'bold': '!0', 'fontSize': 'subtext3'}                                                      |
-| alt                | C                                                                                                                                            |
-| gif                | C                                                                                                                                            |
-| hd                 | C                                                                                                                                            |
+| alt                | k                                                                                                                                            |
+| gif                | k                                                                                                                                            |
+| hd                 | k                                                                                                                                            |
 | likedByAuthor      | {'backgroundColor': 'gray50', 'bold': '!1', 'color': 'gray700'}                                                                              |
 | urlCardTitle       | {'align': 'left', 'backgroundColor': 'translucentBlack77', 'bold': '!1', 'color': 'white', 'numberOfLines': '1', 'textOverflow': 'ellipsis'} |
 
@@ -6498,8 +6498,8 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant    | value     |
 |:------------|:----------|
-| fetchStatus | W.ZP.NONE |
-| config      | Za        |
+| fetchStatus | $.ZP.NONE |
+| config      | Ia        |
 
 | constant              | value                 |
 |:----------------------|:----------------------|
@@ -6512,11 +6512,11 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{[b.hA.switchFromDirect]:"m().dca6b3ac",[b.hA.generate]:"m().dca6b3ac",[b.hA.updateSeats]:"m().c97ad52a"}
+{[_.hA.switchFromDirect]:"m().dca6b3ac",[_.hA.generate]:"m().dca6b3ac",[_.hA.updateSeats]:"m().c97ad52a"}
 ```
 ```internal process
 # Error
-{[A.hA.generate]:"E().fc1f43d0",[A.hA.switchFromDirect]:"E().fc1f43d0",[A.hA.updateSeats]:"E().c97ad52a"}
+{[Z.hA.generate]:"E().fc1f43d0",[Z.hA.switchFromDirect]:"E().fc1f43d0",[Z.hA.updateSeats]:"E().c97ad52a"}
 ```
 | constant      | value         |
 |:--------------|:--------------|
@@ -7263,7 +7263,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{[Et.FontColor]:{"type":"Et.FontColor","propertyName":"color","styleName":"kt.Color","displayName":"Z().c2c5dea4","values":"At"},[Et.FontSize]:{"type":"Et.FontSize","propertyName":"font-size","styleName":"kt.FontSize","displayName":"Z().ce494bb4","values":[{"name":"50%","value":"50%"},{"name":"75%",...
+{[Et.FontColor]:{"type":"Et.FontColor","propertyName":"color","styleName":"kt.Color","displayName":"Z().c2c5dea4","values":"Lt"},[Et.FontSize]:{"type":"Et.FontSize","propertyName":"font-size","styleName":"kt.FontSize","displayName":"Z().ce494bb4","values":[{"name":"50%","value":"50%"},{"name":"75%",...
 ```
 | constant   | value                            |
 |:-----------|:---------------------------------|
