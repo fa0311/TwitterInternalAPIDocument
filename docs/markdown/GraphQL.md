@@ -3359,7 +3359,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## FetchDraftTweets<br>
-Request URL: `https://x.com/i/api/graphql/fMp3izG_gCZKVk3Aa1vVKw/FetchDraftTweets`<br>
+Request URL: `https://x.com/i/api/graphql/_wZic234DLvY-ej1LADArQ/FetchDraftTweets`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -3622,7 +3622,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## GrokConversationItemsByRestId<br>
-Request URL: `https://x.com/i/api/graphql/obV0YtHJ6L3yld3w7Au5qg/GrokConversationItemsByRestId`<br>
+Request URL: `https://x.com/i/api/graphql/QQ4ARJJcWyaCPCtZakRCpQ/GrokConversationItemsByRestId`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -8602,7 +8602,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## GrokConversationItemsByRestId<br>
-Request URL: `https://x.com/i/api/graphql/obV0YtHJ6L3yld3w7Au5qg/GrokConversationItemsByRestId`<br>
+Request URL: `https://x.com/i/api/graphql/QQ4ARJJcWyaCPCtZakRCpQ/GrokConversationItemsByRestId`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
