@@ -3405,3 +3405,17 @@
 - responsive_web_verified_organizations_new_signup_enabled<br>
 #### remove<br>
 - None<br>
+## 2024/10/30<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- responsive_web_live_screen_enabled<br>
+- responsive_web_tweet_drafts_threads_enabled<br>
+- rweb_analytics_nav_item_enabled<br>
+- rweb_analytics_upsell_variant<br>
+#### remove<br>
+- None<br>
