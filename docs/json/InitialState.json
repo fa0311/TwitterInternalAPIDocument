@@ -1663,6 +1663,9 @@
       "responsive_web_live_commerce_enabled": {
         "value": "false"
       },
+      "responsive_web_live_screen_enabled": {
+        "value": "false"
+      },
       "responsive_web_locale_context_direction_enabled": {
         "value": "true"
       },
@@ -1905,6 +1908,9 @@
       },
       "responsive_web_tweet_analytics_video_metrics_v2_enabled": {
         "value": "true"
+      },
+      "responsive_web_tweet_drafts_threads_enabled": {
+        "value": "false"
       },
       "responsive_web_tweet_drafts_video_enabled": {
         "value": "true"
@@ -4854,6 +4860,9 @@
         "responsive_web_tweet_analytics_video_metrics_v2_enabled": {
           "value": "true"
         },
+        "responsive_web_tweet_drafts_threads_enabled": {
+          "value": "false"
+        },
         "responsive_web_tweet_drafts_video_enabled": {
           "value": "true"
         },
@@ -5998,10 +6007,10 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "5d8b62b2b4e5a40540c1b94ef15a99a1"
+      "settingsVersion": "a5bd481adc35539b92c781ebaeed105a"
     },
     "debug": {},
-    "featureSetToken": "56005ef65cea681c92aad5c7188696398d936a2a",
+    "featureSetToken": "338a3dced1b9dec29bfc604d909631126f06439f",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -6071,7 +6080,7 @@
     "country": "XX",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "173023616231828502",
+    "guestId": "173032256719667409",
     "hasCommunityMemberships": "false",
     "language": "en",
     "ssoInitTokens": {},
