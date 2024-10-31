@@ -4552,3 +4552,14 @@
 - responsive_web_tweet_drafts_threads_enabled<br>
 #### remove<br>
 - None<br>
+## 2024/10/31<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- responsive_web_birdwatch_media_note_eligible_writer_impact_cutoff<br>
+#### remove<br>
+- None<br>
