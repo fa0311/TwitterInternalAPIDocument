@@ -1282,12 +1282,9 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key                    | type    | variable   |
-|:-----------------------|:--------|:-----------|
-| count                  | ...     | i          |
-| cursor                 | ...     | n          |
-| includePromotedContent | boolean | False      |
-| ...()(0,a.d)           | ...     | _          |
+| key     | type   | variable   |
+|:--------|:-------|:-----------|
+| trendId | ...    | t          |
 
 #### features<br>
 | key                                                | type    | variable   |
@@ -2438,7 +2435,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## FetchDraftTweets<br>
-Request URL: `https://x.com/i/api/graphql/fMp3izG_gCZKVk3Aa1vVKw/FetchDraftTweets`<br>
+Request URL: `https://x.com/i/api/graphql/_wZic234DLvY-ej1LADArQ/FetchDraftTweets`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -3940,7 +3937,11 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-`None`<br>
+| key               | type   | variable   |
+|:------------------|:-------|:-----------|
+| grokMode          | ...    | t          |
+| grokModelOptionId | ...    | n          |
+
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
@@ -4098,9 +4099,11 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key    | type   | variable   |
-|:-------|:-------|:-----------|
-| cursor | ...    | t          |
+| key        | type   | variable   |
+|:-----------|:-------|:-----------|
+| screenName | ...    | o          |
+| cursor     | ...    | n          |
+| count      | ...    | t          |
 
 #### features<br>
 | key                                                                     | type    | variable   |
@@ -4543,7 +4546,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## GrokConversationItemsByRestId<br>
-Request URL: `https://x.com/i/api/graphql/fa9ogdhACZLQW8YdPYFCCg/GrokConversationItemsByRestId`<br>
+Request URL: `https://x.com/i/api/graphql/QQ4ARJJcWyaCPCtZakRCpQ/GrokConversationItemsByRestId`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -5960,7 +5963,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## GrokConversationItemsByRestId<br>
-Request URL: `https://x.com/i/api/graphql/fa9ogdhACZLQW8YdPYFCCg/GrokConversationItemsByRestId`<br>
+Request URL: `https://x.com/i/api/graphql/QQ4ARJJcWyaCPCtZakRCpQ/GrokConversationItemsByRestId`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -6257,7 +6260,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## GrokConversationItemsByRestId<br>
-Request URL: `https://x.com/i/api/graphql/fa9ogdhACZLQW8YdPYFCCg/GrokConversationItemsByRestId`<br>
+Request URL: `https://x.com/i/api/graphql/QQ4ARJJcWyaCPCtZakRCpQ/GrokConversationItemsByRestId`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>

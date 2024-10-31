@@ -3312,10 +3312,7 @@
     "func_name": "m",
     "func_name_init": "b",
     "query": {
-      "count": "i",
-      "cursor": "n",
-      "includePromotedContent": "!1",
-      "...()(0,a.d)": "_"
+      "trendId": "t"
     }
   },
   {
@@ -5878,7 +5875,7 @@
   {
     "n": "88134",
     "exports": {
-      "queryId": "fMp3izG_gCZKVk3Aa1vVKw",
+      "queryId": "_wZic234DLvY-ej1LADArQ",
       "operationName": "FetchDraftTweets",
       "operationType": "query",
       "metadata": {
@@ -10000,9 +9997,12 @@
         }
       }
     },
-    "func_name": "C",
+    "func_name": "k",
     "func_name_init": "T",
-    "query": {}
+    "query": {
+      "grokMode": "t",
+      "grokModelOptionId": "n"
+    }
   },
   {
     "n": "80984",
@@ -10476,7 +10476,9 @@
     "func_name": "g",
     "func_name_init": "p",
     "query": {
-      "cursor": "t"
+      "screenName": "o",
+      "cursor": "n",
+      "count": "t"
     }
   },
   {
@@ -11440,7 +11442,7 @@
   {
     "n": "15863",
     "exports": {
-      "queryId": "fa9ogdhACZLQW8YdPYFCCg",
+      "queryId": "QQ4ARJJcWyaCPCtZakRCpQ",
       "operationName": "GrokConversationItemsByRestId",
       "operationType": "query",
       "metadata": {
@@ -14363,7 +14365,7 @@
   {
     "n": "15863",
     "exports": {
-      "queryId": "fa9ogdhACZLQW8YdPYFCCg",
+      "queryId": "QQ4ARJJcWyaCPCtZakRCpQ",
       "operationName": "GrokConversationItemsByRestId",
       "operationType": "query",
       "metadata": {
@@ -15082,7 +15084,7 @@
   {
     "n": "15863",
     "exports": {
-      "queryId": "fa9ogdhACZLQW8YdPYFCCg",
+      "queryId": "QQ4ARJJcWyaCPCtZakRCpQ",
       "operationName": "GrokConversationItemsByRestId",
       "operationType": "query",
       "metadata": {

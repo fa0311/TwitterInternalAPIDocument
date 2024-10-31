@@ -2512,8 +2512,8 @@
       "features": {}
     },
     "FetchDraftTweets": {
-      "url": "https://x.com/i/api/graphql/fMp3izG_gCZKVk3Aa1vVKw/FetchDraftTweets",
-      "queryId": "fMp3izG_gCZKVk3Aa1vVKw",
+      "url": "https://x.com/i/api/graphql/_wZic234DLvY-ej1LADArQ/FetchDraftTweets",
+      "queryId": "_wZic234DLvY-ej1LADArQ",
       "method": "GET",
       "features": {}
     },
@@ -2687,8 +2687,8 @@
       "features": {}
     },
     "GrokConversationItemsByRestId": {
-      "url": "https://x.com/i/api/graphql/fa9ogdhACZLQW8YdPYFCCg/GrokConversationItemsByRestId",
-      "queryId": "fa9ogdhACZLQW8YdPYFCCg",
+      "url": "https://x.com/i/api/graphql/QQ4ARJJcWyaCPCtZakRCpQ/GrokConversationItemsByRestId",
+      "queryId": "QQ4ARJJcWyaCPCtZakRCpQ",
       "method": "GET",
       "features": {
         "creator_subscriptions_tweet_preview_api_enabled": true,
@@ -3702,11 +3702,12 @@
       }
     },
     "BirdwatchFetchContributorNotesSlice": {
-      "url": "https://x.com/i/api/graphql/uYNVY5IGS__HrWTWql5Ltg/BirdwatchFetchContributorNotesSlice",
-      "queryId": "uYNVY5IGS__HrWTWql5Ltg",
+      "url": "https://x.com/i/api/graphql/q5LHpdjuaZDdsi9cTGuuZw/BirdwatchFetchContributorNotesSlice",
+      "queryId": "q5LHpdjuaZDdsi9cTGuuZw",
       "method": "GET",
       "features": {
         "responsive_web_birdwatch_media_notes_enabled": true,
+        "responsive_web_birdwatch_fast_notes_badge_enabled": false,
         "creator_subscriptions_tweet_preview_api_enabled": true,
         "communities_web_enable_tweet_community_results_fetch": true,
         "c9s_tweet_anatomy_moderator_badge_enabled": true,
@@ -3745,13 +3746,14 @@
       "features": {}
     },
     "BirdwatchCreateNote": {
-      "url": "https://x.com/i/api/graphql/q6oF9pTr0MkG0ZYW9PSnfQ/BirdwatchCreateNote",
-      "queryId": "q6oF9pTr0MkG0ZYW9PSnfQ",
+      "url": "https://x.com/i/api/graphql/bVkSV5Ks3OJxEy0aYLSq_A/BirdwatchCreateNote",
+      "queryId": "bVkSV5Ks3OJxEy0aYLSq_A",
       "method": "POST",
       "features": {
         "responsive_web_birdwatch_media_notes_enabled": true,
         "responsive_web_birdwatch_url_notes_enabled": false,
         "responsive_web_birdwatch_translation_enabled": true,
+        "responsive_web_birdwatch_fast_notes_badge_enabled": false,
         "responsive_web_graphql_timeline_navigation_enabled": true,
         "rweb_tipjar_consumption_enabled": true,
         "responsive_web_graphql_exclude_directive_enabled": true,
@@ -3882,13 +3884,14 @@
       }
     },
     "BirdwatchFetchNotes": {
-      "url": "https://x.com/i/api/graphql/eFifcPcWL51gRqoL2nckYw/BirdwatchFetchNotes",
-      "queryId": "eFifcPcWL51gRqoL2nckYw",
+      "url": "https://x.com/i/api/graphql/zIlZDLWR-uOLI5V97yygQg/BirdwatchFetchNotes",
+      "queryId": "zIlZDLWR-uOLI5V97yygQg",
       "method": "GET",
       "features": {
         "responsive_web_birdwatch_media_notes_enabled": true,
         "responsive_web_birdwatch_url_notes_enabled": false,
         "responsive_web_birdwatch_translation_enabled": true,
+        "responsive_web_birdwatch_fast_notes_badge_enabled": false,
         "responsive_web_graphql_timeline_navigation_enabled": true,
         "rweb_tipjar_consumption_enabled": true,
         "responsive_web_graphql_exclude_directive_enabled": true,
@@ -3897,13 +3900,14 @@
       }
     },
     "BirdwatchFetchOneNote": {
-      "url": "https://x.com/i/api/graphql/OGH8Y53r7a1UIcNqSmnkIw/BirdwatchFetchOneNote",
-      "queryId": "OGH8Y53r7a1UIcNqSmnkIw",
+      "url": "https://x.com/i/api/graphql/iPNjdfoDvLA9qTAj98R83g/BirdwatchFetchOneNote",
+      "queryId": "iPNjdfoDvLA9qTAj98R83g",
       "method": "GET",
       "features": {
         "responsive_web_birdwatch_media_notes_enabled": true,
         "responsive_web_birdwatch_url_notes_enabled": false,
         "responsive_web_birdwatch_translation_enabled": true,
+        "responsive_web_birdwatch_fast_notes_badge_enabled": false,
         "responsive_web_graphql_timeline_navigation_enabled": true,
         "rweb_tipjar_consumption_enabled": true,
         "responsive_web_graphql_exclude_directive_enabled": true,
