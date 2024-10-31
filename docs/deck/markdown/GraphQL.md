@@ -2642,10 +2642,9 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key          | type   | variable   |
-|:-------------|:-------|:-----------|
-| listId       | ...    | t.list_id  |
-| ...()(0,o.S) | ...    | _          |
+| key     | type   | variable   |
+|:--------|:-------|:-----------|
+| note_id | ...    | t.note_id  |
 
 #### features<br>
 | key                                                               | type    | variable   |
@@ -2855,12 +2854,7 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key          | type   | variable   |
-|:-------------|:-------|:-----------|
-| count        | ...    | t          |
-| cursor       | ...    | r          |
-| ...()(0,o.d) | ...    | _          |
-
+`None`<br>
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
@@ -3402,9 +3396,9 @@ Request Method: `POST`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key                    | type   | variable                 |
-|:-----------------------|:-------|:-------------------------|
-| show_in_app_navigation | ...    | t.show_in_app_navigation |
+| key     | type   | variable   |
+|:--------|:-------|:-----------|
+| topicId | ...    | r          |
 
 #### features<br>
 `None`<br>
@@ -4099,11 +4093,10 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key        | type   | variable   |
-|:-----------|:-------|:-----------|
-| screenName | ...    | o          |
-| cursor     | ...    | n          |
-| count      | ...    | t          |
+| key        | type   | variable     |
+|:-----------|:-------|:-------------|
+| admit_date | ...    | t.admit_date |
+| user_id    | ...    | t.user_id    |
 
 #### features<br>
 | key                                                                     | type    | variable   |
@@ -5382,7 +5375,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## BirdwatchFetchContributorNotesSlice<br>
-Request URL: `https://x.com/i/api/graphql/q5LHpdjuaZDdsi9cTGuuZw/BirdwatchFetchContributorNotesSlice`<br>
+Request URL: `https://x.com/i/api/graphql/VyycAPcXi0XvKoLqdhNpOg/BirdwatchFetchContributorNotesSlice`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -5442,7 +5435,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## BirdwatchCreateNote<br>
-Request URL: `https://x.com/i/api/graphql/bVkSV5Ks3OJxEy0aYLSq_A/BirdwatchCreateNote`<br>
+Request URL: `https://x.com/i/api/graphql/KgOeY941_LNuDyolnapg4Q/BirdwatchCreateNote`<br>
 Request Method: `POST`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -5662,7 +5655,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## BirdwatchFetchNotes<br>
-Request URL: `https://x.com/i/api/graphql/zIlZDLWR-uOLI5V97yygQg/BirdwatchFetchNotes`<br>
+Request URL: `https://x.com/i/api/graphql/3G9Ms1POEEiF86dFhV-tTg/BirdwatchFetchNotes`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -5684,7 +5677,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## BirdwatchFetchOneNote<br>
-Request URL: `https://x.com/i/api/graphql/iPNjdfoDvLA9qTAj98R83g/BirdwatchFetchOneNote`<br>
+Request URL: `https://x.com/i/api/graphql/pVu8XEj_SvdpYp4S0sobsw/BirdwatchFetchOneNote`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
