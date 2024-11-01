@@ -17662,7 +17662,7 @@
   {
     "n": "68032",
     "exports": {
-      "queryId": "q5LHpdjuaZDdsi9cTGuuZw",
+      "queryId": "VyycAPcXi0XvKoLqdhNpOg",
       "operationName": "BirdwatchFetchContributorNotesSlice",
       "operationType": "query",
       "metadata": {
@@ -17809,7 +17809,7 @@
   {
     "n": "39143",
     "exports": {
-      "queryId": "bVkSV5Ks3OJxEy0aYLSq_A",
+      "queryId": "KgOeY941_LNuDyolnapg4Q",
       "operationName": "BirdwatchCreateNote",
       "operationType": "mutation",
       "metadata": {
@@ -18195,7 +18195,7 @@
   {
     "n": "79019",
     "exports": {
-      "queryId": "zIlZDLWR-uOLI5V97yygQg",
+      "queryId": "3G9Ms1POEEiF86dFhV-tTg",
       "operationName": "BirdwatchFetchNotes",
       "operationType": "query",
       "metadata": {
@@ -18248,7 +18248,7 @@
   {
     "n": "90760",
     "exports": {
-      "queryId": "iPNjdfoDvLA9qTAj98R83g",
+      "queryId": "pVu8XEj_SvdpYp4S0sobsw",
       "operationName": "BirdwatchFetchOneNote",
       "operationType": "query",
       "metadata": {
