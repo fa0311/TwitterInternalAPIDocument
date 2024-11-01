@@ -18678,9 +18678,22 @@
     }
   },
   {
+    "n": "50212",
+    "exports": {
+      "queryId": "imr0xefZmILHTgb6-9pe3g",
+      "operationName": "ActionTrend",
+      "operationType": "mutation",
+      "metadata": {
+        "featureSwitches": [],
+        "fieldToggles": [],
+        "featureSwitch": {}
+      }
+    }
+  },
+  {
     "n": "10962",
     "exports": {
-      "queryId": "Qy0myj1ybJbexO5lDioK0A",
+      "queryId": "vs1CWugX_8wwIoKZUHqTbg",
       "operationName": "AiTrendByRestId",
       "operationType": "query",
       "metadata": {
