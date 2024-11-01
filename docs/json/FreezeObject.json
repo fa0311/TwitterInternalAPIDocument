@@ -4675,6 +4675,11 @@
     "FAILURE": "rweb/reportTrend/REPORT_TREND_FAILURE"
   },
   {
+    "REQUEST": "rweb/actionTrend/REPORT_TREND_REQUEST",
+    "SUCCESS": "rweb/actionTrend/REPORT_TREND_SUCCESS",
+    "FAILURE": "rweb/actionTrend/REPORT_TREND_FAILURE"
+  },
+  {
     "Scheduled": "Scheduled",
     "InProgress": "InProgress",
     "Completed": "Completed",
