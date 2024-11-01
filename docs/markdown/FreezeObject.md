@@ -4907,6 +4907,12 @@ This document is entirely auto-generated and may contain errors.<br>
 | SUCCESS    | rweb/reportTrend/REPORT_TREND_SUCCESS |
 | FAILURE    | rweb/reportTrend/REPORT_TREND_FAILURE |
 
+| constant   | value                                 |
+|:-----------|:--------------------------------------|
+| REQUEST    | rweb/actionTrend/REPORT_TREND_REQUEST |
+| SUCCESS    | rweb/actionTrend/REPORT_TREND_SUCCESS |
+| FAILURE    | rweb/actionTrend/REPORT_TREND_FAILURE |
+
 | constant   | value      |
 |:-----------|:-----------|
 | Scheduled  | Scheduled  |
