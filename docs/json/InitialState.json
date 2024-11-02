@@ -979,6 +979,9 @@
       "insights_unique_users_premium_enabled": {
         "value": "false"
       },
+      "ios_premium_paywall_preloaded_webview_pagesheet_modal": {
+        "value": "true"
+      },
       "krs_registration_enabled": {
         "value": "false"
       },
@@ -2066,6 +2069,9 @@
         "value": "true"
       },
       "rweb_analytics_device_breakdown_enabled": {
+        "value": "false"
+      },
+      "rweb_analytics_export_data_content_enabled": {
         "value": "false"
       },
       "rweb_analytics_export_data_enabled": {
@@ -3933,6 +3939,9 @@
         "insights_unique_users_premium_enabled": {
           "value": "false"
         },
+        "ios_premium_paywall_preloaded_webview_pagesheet_modal": {
+          "value": "true"
+        },
         "krs_registration_enabled": {
           "value": "false"
         },
@@ -5022,6 +5031,9 @@
         "rweb_analytics_device_breakdown_enabled": {
           "value": "false"
         },
+        "rweb_analytics_export_data_content_enabled": {
+          "value": "true"
+        },
         "rweb_analytics_export_data_enabled": {
           "value": "true"
         },
@@ -6013,10 +6025,10 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "a5bd481adc35539b92c781ebaeed105a"
+      "settingsVersion": "12450d548a5b6377ef4d10ababb3e6fc"
     },
     "debug": {},
-    "featureSetToken": "c8af23b0f828a91c688967811f79330b72b4903b",
+    "featureSetToken": "ba5db35e6e77f90a35a98a367412d9166578c82b",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -6086,7 +6098,7 @@
     "country": "XX",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "173040898822978465",
+    "guestId": "173049535771925383",
     "hasCommunityMemberships": "false",
     "language": "en",
     "ssoInitTokens": {},
