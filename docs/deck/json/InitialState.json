@@ -5530,7 +5530,7 @@
           "value": "true"
         },
         "subscriptions_upsells_premium_home_nav": {
-          "value": ""
+          "value": "premium_upsell_upgrade"
         },
         "subscriptions_upsells_radar_video_url_desktop": {
           "value": "https://abs.twimg.com/images/radar_promo_v2.mp4"
@@ -6002,7 +6002,7 @@
           "value": "true"
         },
         "xprofile_blocked_by_view_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "xprofile_consumption_enabled": {
           "value": "true"
@@ -6023,7 +6023,7 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "c3335412cc9a2a13d9eedb0ad8e85e75"
+      "settingsVersion": "ffbdf1086f7d3882d235a436a9de7bfb"
     },
     "debug": {},
     "featureSetToken": "c8af23b0f828a91c688967811f79330b72b4903b",
@@ -6096,7 +6096,7 @@
     "country": "XX",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "173075489829721550",
+    "guestId": "173084127983711227",
     "hasCommunityMemberships": "false",
     "language": "en",
     "ssoInitTokens": {},
