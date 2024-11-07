@@ -5218,6 +5218,12 @@ This document is entirely auto-generated and may contain errors.<br>
 | SUCCESS    | rweb/reportTrend/REPORT_TREND_SUCCESS |
 | FAILURE    | rweb/reportTrend/REPORT_TREND_FAILURE |
 
+| constant   | value                                 |
+|:-----------|:--------------------------------------|
+| REQUEST    | rweb/actionTrend/REPORT_TREND_REQUEST |
+| SUCCESS    | rweb/actionTrend/REPORT_TREND_SUCCESS |
+| FAILURE    | rweb/actionTrend/REPORT_TREND_FAILURE |
+
 | constant   | value      |
 |:-----------|:-----------|
 | Scheduled  | Scheduled  |
@@ -7273,7 +7279,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{[kt.FontColor]:{"type":"kt.FontColor","propertyName":"color","styleName":"At.Color","displayName":"T().c2c5dea4","values":"_t"},[kt.FontSize]:{"type":"kt.FontSize","propertyName":"font-size","styleName":"At.FontSize","displayName":"T().ce494bb4","values":[{"name":"50%","value":"50%"},{"name":"75%",...
+{[kt.FontColor]:{"type":"kt.FontColor","propertyName":"color","styleName":"St.Color","displayName":"T().c2c5dea4","values":"_t"},[kt.FontSize]:{"type":"kt.FontSize","propertyName":"font-size","styleName":"St.FontSize","displayName":"T().ce494bb4","values":[{"name":"50%","value":"50%"},{"name":"75%",...
 ```
 | constant   | value                            |
 |:-----------|:---------------------------------|
