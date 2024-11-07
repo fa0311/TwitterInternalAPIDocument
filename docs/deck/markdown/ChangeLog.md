@@ -3430,3 +3430,15 @@
 - responsive_web_birdwatch_media_note_eligible_writer_impact_cutoff<br>
 #### remove<br>
 - None<br>
+## 2024/11/07<br>
+### API<br>
+#### add<br>
+- ActionTrend<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- ios_premium_paywall_preloaded_webview_pagesheet_modal<br>
+- rweb_analytics_export_data_content_enabled<br>
+#### remove<br>
+- None<br>
