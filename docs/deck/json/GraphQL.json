@@ -1,8 +1,27 @@
 [
   {
+    "n": "50212",
+    "exports": {
+      "queryId": "imr0xefZmILHTgb6-9pe3g",
+      "operationName": "ActionTrend",
+      "operationType": "mutation",
+      "metadata": {
+        "featureSwitches": [],
+        "fieldToggles": [],
+        "featureSwitch": {}
+      }
+    },
+    "func_name": "u",
+    "func_name_init": "s",
+    "query": {
+      "id": "n.trendId",
+      "value": "n.action"
+    }
+  },
+  {
     "n": "10962",
     "exports": {
-      "queryId": "Qy0myj1ybJbexO5lDioK0A",
+      "queryId": "vs1CWugX_8wwIoKZUHqTbg",
       "operationName": "AiTrendByRestId",
       "operationType": "query",
       "metadata": {

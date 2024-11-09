@@ -1,8 +1,14 @@
 {
   "graphql": {
+    "ActionTrend": {
+      "url": "https://x.com/i/api/graphql/imr0xefZmILHTgb6-9pe3g/ActionTrend",
+      "queryId": "imr0xefZmILHTgb6-9pe3g",
+      "method": "POST",
+      "features": {}
+    },
     "AiTrendByRestId": {
-      "url": "https://x.com/i/api/graphql/Qy0myj1ybJbexO5lDioK0A/AiTrendByRestId",
-      "queryId": "Qy0myj1ybJbexO5lDioK0A",
+      "url": "https://x.com/i/api/graphql/vs1CWugX_8wwIoKZUHqTbg/AiTrendByRestId",
+      "queryId": "vs1CWugX_8wwIoKZUHqTbg",
       "method": "GET",
       "features": {
         "creator_subscriptions_tweet_preview_api_enabled": true,

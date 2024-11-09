@@ -989,6 +989,9 @@
       "insights_unique_users_premium_enabled": {
         "value": "false"
       },
+      "ios_premium_paywall_preloaded_webview_pagesheet_modal": {
+        "value": "true"
+      },
       "krs_registration_enabled": {
         "value": "false"
       },
@@ -2076,6 +2079,9 @@
         "value": "true"
       },
       "rweb_analytics_device_breakdown_enabled": {
+        "value": "false"
+      },
+      "rweb_analytics_export_data_content_enabled": {
         "value": "false"
       },
       "rweb_analytics_export_data_enabled": {
@@ -3943,6 +3949,9 @@
         "insights_unique_users_premium_enabled": {
           "value": "false"
         },
+        "ios_premium_paywall_preloaded_webview_pagesheet_modal": {
+          "value": "true"
+        },
         "krs_registration_enabled": {
           "value": "false"
         },
@@ -5032,6 +5041,9 @@
         "rweb_analytics_device_breakdown_enabled": {
           "value": "false"
         },
+        "rweb_analytics_export_data_content_enabled": {
+          "value": "true"
+        },
         "rweb_analytics_export_data_enabled": {
           "value": "true"
         },
@@ -5443,7 +5455,7 @@
           "value": "false"
         },
         "subscriptions_inapp_grok_default_mode": {
-          "value": "fun"
+          "value": "regular"
         },
         "subscriptions_inapp_grok_enable_roast_me_prompt": {
           "value": "true"
@@ -6023,10 +6035,10 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "ffbdf1086f7d3882d235a436a9de7bfb"
+      "settingsVersion": "4155795e1139d32c52382731bb01518b"
     },
     "debug": {},
-    "featureSetToken": "c8af23b0f828a91c688967811f79330b72b4903b",
+    "featureSetToken": "ba5db35e6e77f90a35a98a367412d9166578c82b",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -6096,7 +6108,7 @@
     "country": "XX",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "173092774777965852",
+    "guestId": "173110047244338980",
     "hasCommunityMemberships": "false",
     "language": "en",
     "ssoInitTokens": {},

@@ -42,8 +42,23 @@ json.dumps({
     })
 ```
 `json.dumps` is equivalent to `JSON.stringify` in javaScript<br>
+## ActionTrend<br>
+Request URL: `https://x.com/i/api/graphql/imr0xefZmILHTgb6-9pe3g/ActionTrend`<br>
+Request Method: `POST`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+| key   | type   | variable   |
+|:------|:-------|:-----------|
+| id    | ...    | n.trendId  |
+| value | ...    | n.action   |
+
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
 ## AiTrendByRestId<br>
-Request URL: `https://x.com/i/api/graphql/Qy0myj1ybJbexO5lDioK0A/AiTrendByRestId`<br>
+Request URL: `https://x.com/i/api/graphql/vs1CWugX_8wwIoKZUHqTbg/AiTrendByRestId`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
