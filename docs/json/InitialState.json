@@ -751,11 +751,8 @@
       "explore_relaunch_enable_immersive_web_navigation_button": {
         "value": "false"
       },
-      "explore_relaunch_max_video_loop_count": {
-        "value": "2"
-      },
       "explore_relaunch_max_video_loop_threshold_sec": {
-        "value": "6"
+        "value": "5"
       },
       "explore_relaunch_web_playback_bug_fix": {
         "value": "true"
@@ -3720,11 +3717,8 @@
         "explore_relaunch_enable_immersive_web_navigation_button": {
           "value": "false"
         },
-        "explore_relaunch_max_video_loop_count": {
-          "value": "2"
-        },
         "explore_relaunch_max_video_loop_threshold_sec": {
-          "value": "6"
+          "value": "5"
         },
         "explore_relaunch_web_playback_bug_fix": {
           "value": "true"
@@ -6046,7 +6040,7 @@
       "settingsVersion": "a5bd481adc35539b92c781ebaeed105a"
     },
     "debug": {},
-    "featureSetToken": "e1adce2e461574d737af4a97e8c56841e504668b",
+    "featureSetToken": "bbcde70844ea982cb3670072bdb8c5bbc834648b",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -6116,7 +6110,7 @@
     "country": "XX",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "173127289274836247",
+    "guestId": "173135933787629381",
     "hasCommunityMemberships": "false",
     "language": "en",
     "ssoInitTokens": {},
