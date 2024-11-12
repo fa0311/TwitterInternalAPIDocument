@@ -3442,3 +3442,20 @@
 - rweb_analytics_export_data_content_enabled<br>
 #### remove<br>
 - None<br>
+## 2024/11/12<br>
+### API<br>
+#### add<br>
+- CommunityTweetModerationLogSlice<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- communities_moderation_log_enabled<br>
+- premium_webview_paywall_offer_variant<br>
+- premium_webview_paywall_offer_video_url<br>
+- responsive_web_grok_general_availability<br>
+- responsive_web_grok_robot_icon<br>
+#### remove<br>
+- explore_relaunch_max_video_loop_count<br>
+- rweb_conf_less_video_enabled<br>
+- rweb_dummy_audio_enabled<br>
