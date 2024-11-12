@@ -3722,7 +3722,7 @@
           "value": "2"
         },
         "explore_relaunch_max_video_loop_threshold_sec": {
-          "value": "6"
+          "value": "5"
         },
         "explore_relaunch_web_playback_bug_fix": {
           "value": "true"
@@ -6035,7 +6035,7 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "4155795e1139d32c52382731bb01518b"
+      "settingsVersion": "87676dbbad77749ebc74c6704040efdb"
     },
     "debug": {},
     "featureSetToken": "ba5db35e6e77f90a35a98a367412d9166578c82b",
@@ -6108,7 +6108,7 @@
     "country": "XX",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "173127329821427766",
+    "guestId": "173135976567770925",
     "hasCommunityMemberships": "false",
     "language": "en",
     "ssoInitTokens": {},
