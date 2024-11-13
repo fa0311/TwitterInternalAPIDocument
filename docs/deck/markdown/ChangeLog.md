@@ -3459,3 +3459,17 @@
 - explore_relaunch_max_video_loop_count<br>
 - rweb_conf_less_video_enabled<br>
 - rweb_dummy_audio_enabled<br>
+## 2024/11/13<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- japan_holidays_is_labor_thanks_giving_day<br>
+- japan_holidays_labor_thanks_giving_day_message<br>
+- japan_holidays_labor_thanks_giving_message_trigger<br>
+- premium_webview_paywall_offer_image_url<br>
+#### remove<br>
+- None<br>
