@@ -4607,3 +4607,19 @@
 - None<br>
 #### remove<br>
 - explore_relaunch_max_video_loop_count<br>
+## 2024/11/13<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- japan_holidays_is_labor_thanks_giving_day<br>
+- japan_holidays_labor_thanks_giving_day_message<br>
+- japan_holidays_labor_thanks_giving_message_trigger<br>
+- premium_webview_paywall_offer_image_url<br>
+- responsive_web_grok_search_first<br>
+- responsive_web_grok_web_results<br>
+#### remove<br>
+- None<br>
