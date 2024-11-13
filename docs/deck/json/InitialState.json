@@ -584,6 +584,9 @@
       "communities_home_top_timeline_enabled": {
         "value": "true"
       },
+      "communities_moderation_log_enabled": {
+        "value": "false"
+      },
       "communities_show_broadcast_option_in_composer": {
         "value": "true"
       },
@@ -758,11 +761,8 @@
       "explore_relaunch_enable_immersive_web_navigation_button": {
         "value": "false"
       },
-      "explore_relaunch_max_video_loop_count": {
-        "value": "2"
-      },
       "explore_relaunch_max_video_loop_threshold_sec": {
-        "value": "6"
+        "value": "5"
       },
       "explore_relaunch_web_playback_bug_fix": {
         "value": "true"
@@ -1177,6 +1177,12 @@
       },
       "payments_risk_device_sdk_enabled": {
         "value": "false"
+      },
+      "premium_webview_paywall_offer_variant": {
+        "value": "anniversary"
+      },
+      "premium_webview_paywall_offer_video_url": {
+        "value": "https://abs.twimg.com/images/anniversary-theme.mp4"
       },
       "professional_launchpad_m1_enabled": {
         "value": "true"
@@ -1601,6 +1607,9 @@
       "responsive_web_grok_file_upload_enabled": {
         "value": "true"
       },
+      "responsive_web_grok_general_availability": {
+        "value": "false"
+      },
       "responsive_web_grok_history_search_enabled": {
         "value": "true"
       },
@@ -1618,6 +1627,9 @@
       },
       "responsive_web_grok_prompt_edit_enabled": {
         "value": "true"
+      },
+      "responsive_web_grok_robot_icon": {
+        "value": "false"
       },
       "responsive_web_grok_share_rendering_enabled": {
         "value": "true"
@@ -2082,7 +2094,7 @@
         "value": "false"
       },
       "rweb_analytics_export_data_content_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "rweb_analytics_export_data_enabled": {
         "value": "true"
@@ -2108,9 +2120,6 @@
       "rweb_client_transaction_id_enabled": {
         "value": "false"
       },
-      "rweb_conf_less_video_enabled": {
-        "value": "true"
-      },
       "rweb_conf_only_enabled": {
         "value": "false"
       },
@@ -2118,9 +2127,6 @@
         "value": "true"
       },
       "rweb_creator_analytics_enabled": {
-        "value": "true"
-      },
-      "rweb_dummy_audio_enabled": {
         "value": "true"
       },
       "rweb_enable_logged_out_search_search_bar_enabled": {
@@ -2495,7 +2501,7 @@
         "value": "false"
       },
       "subscriptions_inapp_grok_default_mode": {
-        "value": "fun"
+        "value": "regular"
       },
       "subscriptions_inapp_grok_enable_roast_me_prompt": {
         "value": "true"
@@ -2582,7 +2588,7 @@
         "value": "true"
       },
       "subscriptions_upsells_premium_home_nav": {
-        "value": ""
+        "value": "premium_upsell_upgrade"
       },
       "subscriptions_upsells_radar_video_url_desktop": {
         "value": "https://abs.twimg.com/images/radar_promo_v2.mp4"
@@ -3054,7 +3060,7 @@
         "value": "true"
       },
       "xprofile_blocked_by_view_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "xprofile_consumption_enabled": {
         "value": "true"
@@ -3544,6 +3550,9 @@
         "communities_home_top_timeline_enabled": {
           "value": "true"
         },
+        "communities_moderation_log_enabled": {
+          "value": "false"
+        },
         "communities_show_broadcast_option_in_composer": {
           "value": "true"
         },
@@ -3717,9 +3726,6 @@
         },
         "explore_relaunch_enable_immersive_web_navigation_button": {
           "value": "false"
-        },
-        "explore_relaunch_max_video_loop_count": {
-          "value": "2"
         },
         "explore_relaunch_max_video_loop_threshold_sec": {
           "value": "5"
@@ -4137,6 +4143,12 @@
         },
         "payments_risk_device_sdk_enabled": {
           "value": "false"
+        },
+        "premium_webview_paywall_offer_variant": {
+          "value": "anniversary"
+        },
+        "premium_webview_paywall_offer_video_url": {
+          "value": "https://abs.twimg.com/images/anniversary-theme.mp4"
         },
         "professional_launchpad_m1_enabled": {
           "value": "true"
@@ -4561,6 +4573,9 @@
         "responsive_web_grok_file_upload_enabled": {
           "value": "true"
         },
+        "responsive_web_grok_general_availability": {
+          "value": "false"
+        },
         "responsive_web_grok_history_search_enabled": {
           "value": "true"
         },
@@ -4578,6 +4593,9 @@
         },
         "responsive_web_grok_prompt_edit_enabled": {
           "value": "true"
+        },
+        "responsive_web_grok_robot_icon": {
+          "value": "false"
         },
         "responsive_web_grok_share_rendering_enabled": {
           "value": "true"
@@ -5068,9 +5086,6 @@
         "rweb_client_transaction_id_enabled": {
           "value": "false"
         },
-        "rweb_conf_less_video_enabled": {
-          "value": "true"
-        },
         "rweb_conf_only_enabled": {
           "value": "false"
         },
@@ -5078,9 +5093,6 @@
           "value": "true"
         },
         "rweb_creator_analytics_enabled": {
-          "value": "true"
-        },
-        "rweb_dummy_audio_enabled": {
           "value": "true"
         },
         "rweb_enable_logged_out_search_search_bar_enabled": {
@@ -6035,10 +6047,10 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "87676dbbad77749ebc74c6704040efdb"
+      "settingsVersion": "c3335412cc9a2a13d9eedb0ad8e85e75"
     },
     "debug": {},
-    "featureSetToken": "ba5db35e6e77f90a35a98a367412d9166578c82b",
+    "featureSetToken": "bbcde70844ea982cb3670072bdb8c5bbc834648b",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -6108,7 +6120,7 @@
     "country": "XX",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "173135976567770925",
+    "guestId": "173144612899285568",
     "hasCommunityMemberships": "false",
     "language": "en",
     "ssoInitTokens": {},
