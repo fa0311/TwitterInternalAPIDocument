@@ -992,6 +992,18 @@
       "ios_premium_paywall_preloaded_webview_pagesheet_modal": {
         "value": "true"
       },
+      "japan_holidays_is_labor_thanks_giving_day": {
+        "value": "false"
+      },
+      "japan_holidays_labor_thanks_giving_day_message": {
+        "value": "いつもお仕事お疲れ様です。たまにはゆっくりして下さいね☕ 𝕏のご利用もいつもありがとうございます🫶 #勤労感謝の日"
+      },
+      "japan_holidays_labor_thanks_giving_message_trigger": {
+        "value": [
+          "#勤労感謝",
+          "#勤労感謝の日"
+        ]
+      },
       "krs_registration_enabled": {
         "value": "false"
       },
@@ -1177,6 +1189,9 @@
       },
       "payments_risk_device_sdk_enabled": {
         "value": "false"
+      },
+      "premium_webview_paywall_offer_image_url": {
+        "value": "https://abs.twimg.com/images/anniversary-theme-image.png"
       },
       "premium_webview_paywall_offer_variant": {
         "value": "anniversary"
@@ -3958,6 +3973,18 @@
         "ios_premium_paywall_preloaded_webview_pagesheet_modal": {
           "value": "true"
         },
+        "japan_holidays_is_labor_thanks_giving_day": {
+          "value": "false"
+        },
+        "japan_holidays_labor_thanks_giving_day_message": {
+          "value": "いつもお仕事お疲れ様です。たまにはゆっくりして下さいね☕ 𝕏のご利用もいつもありがとうございます🫶 #勤労感謝の日"
+        },
+        "japan_holidays_labor_thanks_giving_message_trigger": {
+          "value": [
+            "#勤労感謝",
+            "#勤労感謝の日"
+          ]
+        },
         "krs_registration_enabled": {
           "value": "false"
         },
@@ -4143,6 +4170,9 @@
         },
         "payments_risk_device_sdk_enabled": {
           "value": "false"
+        },
+        "premium_webview_paywall_offer_image_url": {
+          "value": "https://abs.twimg.com/images/anniversary-theme-image.png"
         },
         "premium_webview_paywall_offer_variant": {
           "value": "anniversary"
@@ -6050,7 +6080,7 @@
       "settingsVersion": "c3335412cc9a2a13d9eedb0ad8e85e75"
     },
     "debug": {},
-    "featureSetToken": "bbcde70844ea982cb3670072bdb8c5bbc834648b",
+    "featureSetToken": "b10cb6979cefea9175411a0a6c1d31673f6b3aa4",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -6120,7 +6150,7 @@
     "country": "XX",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "173144612899285568",
+    "guestId": "173153253765679863",
     "hasCommunityMemberships": "false",
     "language": "en",
     "ssoInitTokens": {},
