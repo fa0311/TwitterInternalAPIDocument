@@ -982,6 +982,18 @@
       "ios_premium_paywall_preloaded_webview_pagesheet_modal": {
         "value": "true"
       },
+      "japan_holidays_is_labor_thanks_giving_day": {
+        "value": "false"
+      },
+      "japan_holidays_labor_thanks_giving_day_message": {
+        "value": "いつもお仕事お疲れ様です。たまにはゆっくりして下さいね☕ 𝕏のご利用もいつもありがとうございます🫶 #勤労感謝の日"
+      },
+      "japan_holidays_labor_thanks_giving_message_trigger": {
+        "value": [
+          "#勤労感謝",
+          "#勤労感謝の日"
+        ]
+      },
       "krs_registration_enabled": {
         "value": "false"
       },
@@ -1167,6 +1179,9 @@
       },
       "payments_risk_device_sdk_enabled": {
         "value": "false"
+      },
+      "premium_webview_paywall_offer_image_url": {
+        "value": "https://abs.twimg.com/images/anniversary-theme-image.png"
       },
       "premium_webview_paywall_offer_variant": {
         "value": "anniversary"
@@ -1621,6 +1636,9 @@
       "responsive_web_grok_robot_icon": {
         "value": "false"
       },
+      "responsive_web_grok_search_first": {
+        "value": "false"
+      },
       "responsive_web_grok_share_rendering_enabled": {
         "value": "true"
       },
@@ -1635,6 +1653,9 @@
       },
       "responsive_web_grok_v2_upsell_enabled": {
         "value": "true"
+      },
+      "responsive_web_grok_web_results": {
+        "value": "false"
       },
       "responsive_web_grok_webview_file_actions_enabled": {
         "value": "false"
@@ -3948,6 +3969,18 @@
         "ios_premium_paywall_preloaded_webview_pagesheet_modal": {
           "value": "true"
         },
+        "japan_holidays_is_labor_thanks_giving_day": {
+          "value": "false"
+        },
+        "japan_holidays_labor_thanks_giving_day_message": {
+          "value": "いつもお仕事お疲れ様です。たまにはゆっくりして下さいね☕ 𝕏のご利用もいつもありがとうございます🫶 #勤労感謝の日"
+        },
+        "japan_holidays_labor_thanks_giving_message_trigger": {
+          "value": [
+            "#勤労感謝",
+            "#勤労感謝の日"
+          ]
+        },
         "krs_registration_enabled": {
           "value": "false"
         },
@@ -4133,6 +4166,9 @@
         },
         "payments_risk_device_sdk_enabled": {
           "value": "false"
+        },
+        "premium_webview_paywall_offer_image_url": {
+          "value": "https://abs.twimg.com/images/anniversary-theme-image.png"
         },
         "premium_webview_paywall_offer_variant": {
           "value": "anniversary"
@@ -4587,6 +4623,9 @@
         "responsive_web_grok_robot_icon": {
           "value": "false"
         },
+        "responsive_web_grok_search_first": {
+          "value": "false"
+        },
         "responsive_web_grok_share_rendering_enabled": {
           "value": "true"
         },
@@ -4601,6 +4640,9 @@
         },
         "responsive_web_grok_v2_upsell_enabled": {
           "value": "true"
+        },
+        "responsive_web_grok_web_results": {
+          "value": "false"
         },
         "responsive_web_grok_webview_file_actions_enabled": {
           "value": "false"
@@ -6040,7 +6082,7 @@
       "settingsVersion": "a5bd481adc35539b92c781ebaeed105a"
     },
     "debug": {},
-    "featureSetToken": "bbcde70844ea982cb3670072bdb8c5bbc834648b",
+    "featureSetToken": "23a804a4e57a549e6cba80c7dc0e559e532bb7de",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -6110,7 +6152,7 @@
     "country": "XX",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "173144573844715589",
+    "guestId": "173153217152984394",
     "hasCommunityMemberships": "false",
     "language": "en",
     "ssoInitTokens": {},
