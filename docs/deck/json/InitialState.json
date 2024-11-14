@@ -4172,7 +4172,7 @@
           "value": "false"
         },
         "premium_webview_paywall_offer_image_url": {
-          "value": "https://abs.twimg.com/images/anniversary-theme-image.png"
+          "value": "https://abs.twimg.com/images/anniversary-theme-image-v2.png"
         },
         "premium_webview_paywall_offer_variant": {
           "value": "anniversary"
@@ -4349,7 +4349,7 @@
           "value": "true"
         },
         "responsive_web_birdwatch_media_note_eligible_writer_impact_cutoff": {
-          "value": -1
+          "value": "2"
         },
         "responsive_web_birdwatch_media_notes_enabled": {
           "value": "true"
@@ -6077,7 +6077,7 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "c3335412cc9a2a13d9eedb0ad8e85e75"
+      "settingsVersion": "f75886a024ad8f2daa44e46ebdad3d15"
     },
     "debug": {},
     "featureSetToken": "b10cb6979cefea9175411a0a6c1d31673f6b3aa4",
@@ -6150,7 +6150,7 @@
     "country": "XX",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "173153253765679863",
+    "guestId": "173161880098238553",
     "hasCommunityMemberships": "false",
     "language": "en",
     "ssoInitTokens": {},
