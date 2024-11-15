@@ -3473,3 +3473,20 @@
 - premium_webview_paywall_offer_image_url<br>
 #### remove<br>
 - None<br>
+## 2024/11/15<br>
+### API<br>
+#### add<br>
+- PaymentsUsersTypeahead<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- responsive_web_grok_search_first<br>
+- responsive_web_grok_web_results<br>
+- responsive_web_signup_direct<br>
+- subscriptions_upsells_dm_card_enabled<br>
+- subscriptions_upsells_dm_card_variant<br>
+- subscriptions_upsells_profile_card_enabled<br>
+- subscriptions_upsells_profile_card_variant<br>
+#### remove<br>
+- None<br>
