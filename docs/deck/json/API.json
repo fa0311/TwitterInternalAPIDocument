@@ -7,8 +7,8 @@
       "features": {}
     },
     "AiTrendByRestId": {
-      "url": "https://x.com/i/api/graphql/vAl-B_8YrTDKgpkiw8Au1Q/AiTrendByRestId",
-      "queryId": "vAl-B_8YrTDKgpkiw8Au1Q",
+      "url": "https://x.com/i/api/graphql/vs1CWugX_8wwIoKZUHqTbg/AiTrendByRestId",
+      "queryId": "vs1CWugX_8wwIoKZUHqTbg",
       "method": "GET",
       "features": {
         "creator_subscriptions_tweet_preview_api_enabled": true,
@@ -28,7 +28,6 @@
         "rweb_video_timestamps_enabled": true,
         "longform_notetweets_rich_text_read_enabled": true,
         "longform_notetweets_inline_media_enabled": true,
-        "responsive_web_live_screen_enabled": false,
         "rweb_tipjar_consumption_enabled": true,
         "responsive_web_graphql_exclude_directive_enabled": true,
         "verified_phone_label_enabled": false,
@@ -80,11 +79,10 @@
       "features": {}
     },
     "BlockedAccountsAll": {
-      "url": "https://x.com/i/api/graphql/_c35jKri_Kk2PAztOAZjVg/BlockedAccountsAll",
-      "queryId": "_c35jKri_Kk2PAztOAZjVg",
+      "url": "https://x.com/i/api/graphql/sOj2N04S8Mbza3y5M3fOIg/BlockedAccountsAll",
+      "queryId": "sOj2N04S8Mbza3y5M3fOIg",
       "method": "GET",
       "features": {
-        "responsive_web_live_screen_enabled": false,
         "rweb_tipjar_consumption_enabled": true,
         "responsive_web_graphql_exclude_directive_enabled": true,
         "verified_phone_label_enabled": false,
@@ -111,11 +109,10 @@
       }
     },
     "BlockedAccountsImported": {
-      "url": "https://x.com/i/api/graphql/s6DFcdD0IeCz0iCwA76PZQ/BlockedAccountsImported",
-      "queryId": "s6DFcdD0IeCz0iCwA76PZQ",
+      "url": "https://x.com/i/api/graphql/n8whJOISOB6w8Hka9CkIvA/BlockedAccountsImported",
+      "queryId": "n8whJOISOB6w8Hka9CkIvA",
       "method": "GET",
       "features": {
-        "responsive_web_live_screen_enabled": false,
         "rweb_tipjar_consumption_enabled": true,
         "responsive_web_graphql_exclude_directive_enabled": true,
         "verified_phone_label_enabled": false,
@@ -142,11 +139,10 @@
       }
     },
     "BlueVerifiedFollowers": {
-      "url": "https://x.com/i/api/graphql/aJcusOmGEhYzxU0i38z8Og/BlueVerifiedFollowers",
-      "queryId": "aJcusOmGEhYzxU0i38z8Og",
+      "url": "https://x.com/i/api/graphql/UdtZY8FOW3ULVnjDU52BVg/BlueVerifiedFollowers",
+      "queryId": "UdtZY8FOW3ULVnjDU52BVg",
       "method": "GET",
       "features": {
-        "responsive_web_live_screen_enabled": false,
         "rweb_tipjar_consumption_enabled": true,
         "responsive_web_graphql_exclude_directive_enabled": true,
         "verified_phone_label_enabled": false,
@@ -173,11 +169,10 @@
       }
     },
     "BookmarkFolderTimeline": {
-      "url": "https://x.com/i/api/graphql/61Vq5ixD0dgrwWYLMx6kAg/BookmarkFolderTimeline",
-      "queryId": "61Vq5ixD0dgrwWYLMx6kAg",
+      "url": "https://x.com/i/api/graphql/kh6AgjAj3E4k2QZUiUWKAw/BookmarkFolderTimeline",
+      "queryId": "kh6AgjAj3E4k2QZUiUWKAw",
       "method": "GET",
       "features": {
-        "responsive_web_live_screen_enabled": false,
         "rweb_tipjar_consumption_enabled": true,
         "responsive_web_graphql_exclude_directive_enabled": true,
         "verified_phone_label_enabled": false,
@@ -210,11 +205,10 @@
       "features": {}
     },
     "BookmarkSearchTimeline": {
-      "url": "https://x.com/i/api/graphql/lE5BXtkRQm-icevLQbr01g/BookmarkSearchTimeline",
-      "queryId": "lE5BXtkRQm-icevLQbr01g",
+      "url": "https://x.com/i/api/graphql/O5PddhYz5pMa7DecTMRuXw/BookmarkSearchTimeline",
+      "queryId": "O5PddhYz5pMa7DecTMRuXw",
       "method": "GET",
       "features": {
-        "responsive_web_live_screen_enabled": false,
         "rweb_tipjar_consumption_enabled": true,
         "responsive_web_graphql_exclude_directive_enabled": true,
         "verified_phone_label_enabled": false,
@@ -247,12 +241,11 @@
       "features": {}
     },
     "Bookmarks": {
-      "url": "https://x.com/i/api/graphql/8NRftVRpcj2NW3X1ZQpVyA/Bookmarks",
-      "queryId": "8NRftVRpcj2NW3X1ZQpVyA",
+      "url": "https://x.com/i/api/graphql/L7vvM2UluPgWOW4GDvWyvw/Bookmarks",
+      "queryId": "L7vvM2UluPgWOW4GDvWyvw",
       "method": "GET",
       "features": {
         "graphql_timeline_v2_bookmark_timeline": true,
-        "responsive_web_live_screen_enabled": false,
         "rweb_tipjar_consumption_enabled": true,
         "responsive_web_graphql_exclude_directive_enabled": true,
         "verified_phone_label_enabled": false,
@@ -279,15 +272,14 @@
       }
     },
     "BroadcastQuery": {
-      "url": "https://x.com/i/api/graphql/dsr09mKYL065nk9Dsm-D_A/BroadcastQuery",
-      "queryId": "dsr09mKYL065nk9Dsm-D_A",
+      "url": "https://x.com/i/api/graphql/BLrxvFjgE1wtEmp4g_LTfw/BroadcastQuery",
+      "queryId": "BLrxvFjgE1wtEmp4g_LTfw",
       "method": "GET",
       "features": {
         "creator_subscriptions_tweet_preview_api_enabled": true,
         "communities_web_enable_tweet_community_results_fetch": true,
         "c9s_tweet_anatomy_moderator_badge_enabled": true,
         "articles_preview_enabled": true,
-        "responsive_web_live_screen_enabled": false,
         "rweb_tipjar_consumption_enabled": true,
         "responsive_web_graphql_exclude_directive_enabled": true,
         "verified_phone_label_enabled": false,
@@ -310,11 +302,10 @@
       }
     },
     "CombinedLists": {
-      "url": "https://x.com/i/api/graphql/-KE525No32BOncUC9PSlLg/CombinedLists",
-      "queryId": "-KE525No32BOncUC9PSlLg",
+      "url": "https://x.com/i/api/graphql/TEdpD2Z_8iqgDcvSOYveew/CombinedLists",
+      "queryId": "TEdpD2Z_8iqgDcvSOYveew",
       "method": "GET",
       "features": {
-        "responsive_web_live_screen_enabled": false,
         "rweb_tipjar_consumption_enabled": true,
         "responsive_web_graphql_exclude_directive_enabled": true,
         "verified_phone_label_enabled": false,
@@ -341,11 +332,10 @@
       }
     },
     "CommunitiesExploreTimeline": {
-      "url": "https://x.com/i/api/graphql/8EiL0wKUGiY2yXeMm4pGQw/CommunitiesExploreTimeline",
-      "queryId": "8EiL0wKUGiY2yXeMm4pGQw",
+      "url": "https://x.com/i/api/graphql/ELAwqrrcZNRuzGCEtMMojQ/CommunitiesExploreTimeline",
+      "queryId": "ELAwqrrcZNRuzGCEtMMojQ",
       "method": "GET",
       "features": {
-        "responsive_web_live_screen_enabled": false,
         "rweb_tipjar_consumption_enabled": true,
         "responsive_web_graphql_exclude_directive_enabled": true,
         "verified_phone_label_enabled": false,
@@ -372,11 +362,10 @@
       }
     },
     "CommunitiesMainDiscoveryModule": {
-      "url": "https://x.com/i/api/graphql/uQsqt2oZ6MceWnN45PvPsA/CommunitiesMainDiscoveryModule",
-      "queryId": "uQsqt2oZ6MceWnN45PvPsA",
+      "url": "https://x.com/i/api/graphql/7A9sYKu9RJo4D3fCD9OAWQ/CommunitiesMainDiscoveryModule",
+      "queryId": "7A9sYKu9RJo4D3fCD9OAWQ",
       "method": "GET",
       "features": {
-        "responsive_web_live_screen_enabled": false,
         "rweb_tipjar_consumption_enabled": true,
         "responsive_web_graphql_exclude_directive_enabled": true,
         "verified_phone_label_enabled": false,
@@ -403,11 +392,10 @@
       }
     },
     "CommunitiesMainPageTimeline": {
-      "url": "https://x.com/i/api/graphql/ncnrjzFyi8LTN3jEEaSPYg/CommunitiesMainPageTimeline",
-      "queryId": "ncnrjzFyi8LTN3jEEaSPYg",
+      "url": "https://x.com/i/api/graphql/etihzN0Gi6URpPCQ3HZvBA/CommunitiesMainPageTimeline",
+      "queryId": "etihzN0Gi6URpPCQ3HZvBA",
       "method": "GET",
       "features": {
-        "responsive_web_live_screen_enabled": false,
         "rweb_tipjar_consumption_enabled": true,
         "responsive_web_graphql_exclude_directive_enabled": true,
         "verified_phone_label_enabled": false,
@@ -434,11 +422,10 @@
       }
     },
     "CommunitiesMembershipsSlice": {
-      "url": "https://x.com/i/api/graphql/DDQyY-Lo0JT1gGrsSEotNg/CommunitiesMembershipsSlice",
-      "queryId": "DDQyY-Lo0JT1gGrsSEotNg",
+      "url": "https://x.com/i/api/graphql/fWWB3bfbw93aXmnQRP55xg/CommunitiesMembershipsSlice",
+      "queryId": "fWWB3bfbw93aXmnQRP55xg",
       "method": "GET",
       "features": {
-        "responsive_web_live_screen_enabled": false,
         "rweb_tipjar_consumption_enabled": true,
         "responsive_web_graphql_exclude_directive_enabled": true,
         "verified_phone_label_enabled": false,
@@ -447,11 +434,10 @@
       }
     },
     "CommunitiesMembershipsTimeline": {
-      "url": "https://x.com/i/api/graphql/r9QIFyeczqOlc20oCDPXtw/CommunitiesMembershipsTimeline",
-      "queryId": "r9QIFyeczqOlc20oCDPXtw",
+      "url": "https://x.com/i/api/graphql/VWHN-_HFPeSvmIP0tI0i5A/CommunitiesMembershipsTimeline",
+      "queryId": "VWHN-_HFPeSvmIP0tI0i5A",
       "method": "GET",
       "features": {
-        "responsive_web_live_screen_enabled": false,
         "rweb_tipjar_consumption_enabled": true,
         "responsive_web_graphql_exclude_directive_enabled": true,
         "verified_phone_label_enabled": false,
@@ -478,11 +464,10 @@
       }
     },
     "CommunityAboutTimeline": {
-      "url": "https://x.com/i/api/graphql/5aBBUpqZe2_9wcaQkRWzaw/CommunityAboutTimeline",
-      "queryId": "5aBBUpqZe2_9wcaQkRWzaw",
+      "url": "https://x.com/i/api/graphql/kLoQ2aIeK_n3L_ug-croEw/CommunityAboutTimeline",
+      "queryId": "kLoQ2aIeK_n3L_ug-croEw",
       "method": "GET",
       "features": {
-        "responsive_web_live_screen_enabled": false,
         "rweb_tipjar_consumption_enabled": true,
         "responsive_web_graphql_exclude_directive_enabled": true,
         "verified_phone_label_enabled": false,
@@ -509,11 +494,10 @@
       }
     },
     "CreateCommunity": {
-      "url": "https://x.com/i/api/graphql/r-Nlid7B3_eKvzowiUJndw/CreateCommunity",
-      "queryId": "r-Nlid7B3_eKvzowiUJndw",
+      "url": "https://x.com/i/api/graphql/2dnEdssOWaQbMbwoCsYHbQ/CreateCommunity",
+      "queryId": "2dnEdssOWaQbMbwoCsYHbQ",
       "method": "POST",
       "features": {
-        "responsive_web_live_screen_enabled": false,
         "rweb_tipjar_consumption_enabled": true,
         "responsive_web_graphql_exclude_directive_enabled": true,
         "verified_phone_label_enabled": false,
@@ -522,11 +506,10 @@
       }
     },
     "CommunityCreateRule": {
-      "url": "https://x.com/i/api/graphql/GyYa9VFJEQ4YaHh8H9CEyQ/CommunityCreateRule",
-      "queryId": "GyYa9VFJEQ4YaHh8H9CEyQ",
+      "url": "https://x.com/i/api/graphql/XhfbZK9vY7UFjSWpsn1zww/CommunityCreateRule",
+      "queryId": "XhfbZK9vY7UFjSWpsn1zww",
       "method": "POST",
       "features": {
-        "responsive_web_live_screen_enabled": false,
         "rweb_tipjar_consumption_enabled": true,
         "responsive_web_graphql_exclude_directive_enabled": true,
         "verified_phone_label_enabled": false,
@@ -535,11 +518,10 @@
       }
     },
     "CommunityDiscoveryTimeline": {
-      "url": "https://x.com/i/api/graphql/Bn6gphrk6fw7DDlUsMGJ4A/CommunityDiscoveryTimeline",
-      "queryId": "Bn6gphrk6fw7DDlUsMGJ4A",
+      "url": "https://x.com/i/api/graphql/QEqglWqo-BwU8nP5nvv02Q/CommunityDiscoveryTimeline",
+      "queryId": "QEqglWqo-BwU8nP5nvv02Q",
       "method": "GET",
       "features": {
-        "responsive_web_live_screen_enabled": false,
         "rweb_tipjar_consumption_enabled": true,
         "responsive_web_graphql_exclude_directive_enabled": true,
         "verified_phone_label_enabled": false,
@@ -566,11 +548,10 @@
       }
     },
     "CommunityEditBannerMedia": {
-      "url": "https://x.com/i/api/graphql/BKgCVGdr9kTaM67ME20QiA/CommunityEditBannerMedia",
-      "queryId": "BKgCVGdr9kTaM67ME20QiA",
+      "url": "https://x.com/i/api/graphql/iiYiLCDkDzcau4_HNGe1Sw/CommunityEditBannerMedia",
+      "queryId": "iiYiLCDkDzcau4_HNGe1Sw",
       "method": "POST",
       "features": {
-        "responsive_web_live_screen_enabled": false,
         "rweb_tipjar_consumption_enabled": true,
         "responsive_web_graphql_exclude_directive_enabled": true,
         "verified_phone_label_enabled": false,
@@ -579,11 +560,10 @@
       }
     },
     "CommunityEditName": {
-      "url": "https://x.com/i/api/graphql/AI5YPweKooPa9R1gBM6PIg/CommunityEditName",
-      "queryId": "AI5YPweKooPa9R1gBM6PIg",
+      "url": "https://x.com/i/api/graphql/NFCxgmfw3dQRxZUXsCUD7w/CommunityEditName",
+      "queryId": "NFCxgmfw3dQRxZUXsCUD7w",
       "method": "POST",
       "features": {
-        "responsive_web_live_screen_enabled": false,
         "rweb_tipjar_consumption_enabled": true,
         "responsive_web_graphql_exclude_directive_enabled": true,
         "verified_phone_label_enabled": false,
@@ -592,11 +572,10 @@
       }
     },
     "CommunityEditPurpose": {
-      "url": "https://x.com/i/api/graphql/KtVXAB8H5VSnePi0Z1qlDw/CommunityEditPurpose",
-      "queryId": "KtVXAB8H5VSnePi0Z1qlDw",
+      "url": "https://x.com/i/api/graphql/JfQrm0i0lzelx-dBm05pig/CommunityEditPurpose",
+      "queryId": "JfQrm0i0lzelx-dBm05pig",
       "method": "POST",
       "features": {
-        "responsive_web_live_screen_enabled": false,
         "rweb_tipjar_consumption_enabled": true,
         "responsive_web_graphql_exclude_directive_enabled": true,
         "verified_phone_label_enabled": false,
@@ -605,11 +584,10 @@
       }
     },
     "CommunityEditQuestion": {
-      "url": "https://x.com/i/api/graphql/FhSken36HoKJG526Ij-evQ/CommunityEditQuestion",
-      "queryId": "FhSken36HoKJG526Ij-evQ",
+      "url": "https://x.com/i/api/graphql/LaArM--s1ZOxU2ADCVybZQ/CommunityEditQuestion",
+      "queryId": "LaArM--s1ZOxU2ADCVybZQ",
       "method": "POST",
       "features": {
-        "responsive_web_live_screen_enabled": false,
         "rweb_tipjar_consumption_enabled": true,
         "responsive_web_graphql_exclude_directive_enabled": true,
         "verified_phone_label_enabled": false,
@@ -618,11 +596,10 @@
       }
     },
     "CommunityEditRule": {
-      "url": "https://x.com/i/api/graphql/U1wIcbu-iQSG1kM6hObAZQ/CommunityEditRule",
-      "queryId": "U1wIcbu-iQSG1kM6hObAZQ",
+      "url": "https://x.com/i/api/graphql/lRyH9e46UXxA5VOASjYZ6g/CommunityEditRule",
+      "queryId": "lRyH9e46UXxA5VOASjYZ6g",
       "method": "POST",
       "features": {
-        "responsive_web_live_screen_enabled": false,
         "rweb_tipjar_consumption_enabled": true,
         "responsive_web_graphql_exclude_directive_enabled": true,
         "verified_phone_label_enabled": false,
@@ -631,11 +608,10 @@
       }
     },
     "CommunityByRestId": {
-      "url": "https://x.com/i/api/graphql/Y8pYqbV5mp_au7LPk0ujlg/CommunityByRestId",
-      "queryId": "Y8pYqbV5mp_au7LPk0ujlg",
+      "url": "https://x.com/i/api/graphql/fZjgEnlzBc5X2qnB2GNx8g/CommunityByRestId",
+      "queryId": "fZjgEnlzBc5X2qnB2GNx8g",
       "method": "GET",
       "features": {
-        "responsive_web_live_screen_enabled": false,
         "rweb_tipjar_consumption_enabled": true,
         "responsive_web_graphql_exclude_directive_enabled": true,
         "verified_phone_label_enabled": false,
@@ -644,11 +620,10 @@
       }
     },
     "CommunityHashtagsTimeline": {
-      "url": "https://x.com/i/api/graphql/xVuNqxVKwctJlWEwki54tw/CommunityHashtagsTimeline",
-      "queryId": "xVuNqxVKwctJlWEwki54tw",
+      "url": "https://x.com/i/api/graphql/q-y8wH4xzcujkMj5FKlzoA/CommunityHashtagsTimeline",
+      "queryId": "q-y8wH4xzcujkMj5FKlzoA",
       "method": "GET",
       "features": {
-        "responsive_web_live_screen_enabled": false,
         "rweb_tipjar_consumption_enabled": true,
         "responsive_web_graphql_exclude_directive_enabled": true,
         "verified_phone_label_enabled": false,
@@ -675,11 +650,10 @@
       }
     },
     "JoinCommunity": {
-      "url": "https://x.com/i/api/graphql/_b6ZVHTEW4D6i1EKYQDeZg/JoinCommunity",
-      "queryId": "_b6ZVHTEW4D6i1EKYQDeZg",
+      "url": "https://x.com/i/api/graphql/yCqKPJ4CrQqxhdVvIZhQeQ/JoinCommunity",
+      "queryId": "yCqKPJ4CrQqxhdVvIZhQeQ",
       "method": "POST",
       "features": {
-        "responsive_web_live_screen_enabled": false,
         "rweb_tipjar_consumption_enabled": true,
         "responsive_web_graphql_exclude_directive_enabled": true,
         "verified_phone_label_enabled": false,
@@ -688,11 +662,10 @@
       }
     },
     "LeaveCommunity": {
-      "url": "https://x.com/i/api/graphql/xFcaHlRzuRKd0yeH-7vEAA/LeaveCommunity",
-      "queryId": "xFcaHlRzuRKd0yeH-7vEAA",
+      "url": "https://x.com/i/api/graphql/OmtSAvcJeNOYyIoh40rRdw/LeaveCommunity",
+      "queryId": "OmtSAvcJeNOYyIoh40rRdw",
       "method": "POST",
       "features": {
-        "responsive_web_live_screen_enabled": false,
         "rweb_tipjar_consumption_enabled": true,
         "responsive_web_graphql_exclude_directive_enabled": true,
         "verified_phone_label_enabled": false,
@@ -701,11 +674,10 @@
       }
     },
     "CommunityMediaLoggedOutTimeline": {
-      "url": "https://x.com/i/api/graphql/IGcyx6JV31NKm9He6sA6Sg/CommunityMediaLoggedOutTimeline",
-      "queryId": "IGcyx6JV31NKm9He6sA6Sg",
+      "url": "https://x.com/i/api/graphql/ob8WOToNwQqmeLlUei8f8Q/CommunityMediaLoggedOutTimeline",
+      "queryId": "ob8WOToNwQqmeLlUei8f8Q",
       "method": "GET",
       "features": {
-        "responsive_web_live_screen_enabled": false,
         "rweb_tipjar_consumption_enabled": true,
         "responsive_web_graphql_exclude_directive_enabled": true,
         "verified_phone_label_enabled": false,
@@ -732,11 +704,10 @@
       }
     },
     "CommunityMediaTimeline": {
-      "url": "https://x.com/i/api/graphql/8dMcIzn3NT1hDQ29s9oeBw/CommunityMediaTimeline",
-      "queryId": "8dMcIzn3NT1hDQ29s9oeBw",
+      "url": "https://x.com/i/api/graphql/EDfmv0vxBQQHN7wBq9ma7Q/CommunityMediaTimeline",
+      "queryId": "EDfmv0vxBQQHN7wBq9ma7Q",
       "method": "GET",
       "features": {
-        "responsive_web_live_screen_enabled": false,
         "rweb_tipjar_consumption_enabled": true,
         "responsive_web_graphql_exclude_directive_enabled": true,
         "verified_phone_label_enabled": false,
@@ -771,11 +742,10 @@
       }
     },
     "CommunityModerationKeepTweet": {
-      "url": "https://x.com/i/api/graphql/Lo0YijankzfNW_HHMsuHQw/CommunityModerationKeepTweet",
-      "queryId": "Lo0YijankzfNW_HHMsuHQw",
+      "url": "https://x.com/i/api/graphql/YNyWWaG1uMHrOLbmgb8VmQ/CommunityModerationKeepTweet",
+      "queryId": "YNyWWaG1uMHrOLbmgb8VmQ",
       "method": "POST",
       "features": {
-        "responsive_web_live_screen_enabled": false,
         "rweb_tipjar_consumption_enabled": true,
         "responsive_web_graphql_exclude_directive_enabled": true,
         "verified_phone_label_enabled": false,
@@ -784,8 +754,8 @@
       }
     },
     "CommunityModerationTweetCasesSlice": {
-      "url": "https://x.com/i/api/graphql/U91Hy8jIbzsCTcoRbMgA5A/CommunityModerationTweetCasesSlice",
-      "queryId": "U91Hy8jIbzsCTcoRbMgA5A",
+      "url": "https://x.com/i/api/graphql/aq5s4kO_rbjlLcgAnVE-EA/CommunityModerationTweetCasesSlice",
+      "queryId": "aq5s4kO_rbjlLcgAnVE-EA",
       "method": "GET",
       "features": {
         "creator_subscriptions_tweet_preview_api_enabled": true,
@@ -805,7 +775,6 @@
         "rweb_video_timestamps_enabled": true,
         "longform_notetweets_rich_text_read_enabled": true,
         "longform_notetweets_inline_media_enabled": true,
-        "responsive_web_live_screen_enabled": false,
         "rweb_tipjar_consumption_enabled": true,
         "responsive_web_graphql_exclude_directive_enabled": true,
         "verified_phone_label_enabled": false,
@@ -815,11 +784,10 @@
       }
     },
     "CommunityRemoveBannerMedia": {
-      "url": "https://x.com/i/api/graphql/ey2ibD7nFAf_uqelT5wDFQ/CommunityRemoveBannerMedia",
-      "queryId": "ey2ibD7nFAf_uqelT5wDFQ",
+      "url": "https://x.com/i/api/graphql/1cLfpDW6IYMZpQj83LNNLQ/CommunityRemoveBannerMedia",
+      "queryId": "1cLfpDW6IYMZpQj83LNNLQ",
       "method": "POST",
       "features": {
-        "responsive_web_live_screen_enabled": false,
         "rweb_tipjar_consumption_enabled": true,
         "responsive_web_graphql_exclude_directive_enabled": true,
         "verified_phone_label_enabled": false,
@@ -828,11 +796,10 @@
       }
     },
     "CommunityRemoveRule": {
-      "url": "https://x.com/i/api/graphql/E9gVArlTyskyaGI3lDzU9w/CommunityRemoveRule",
-      "queryId": "E9gVArlTyskyaGI3lDzU9w",
+      "url": "https://x.com/i/api/graphql/nbWuPoU7VXWLdVwYaJ7R6g/CommunityRemoveRule",
+      "queryId": "nbWuPoU7VXWLdVwYaJ7R6g",
       "method": "POST",
       "features": {
-        "responsive_web_live_screen_enabled": false,
         "rweb_tipjar_consumption_enabled": true,
         "responsive_web_graphql_exclude_directive_enabled": true,
         "verified_phone_label_enabled": false,
@@ -841,11 +808,10 @@
       }
     },
     "CommunityReorderRules": {
-      "url": "https://x.com/i/api/graphql/8Z9xejIyg5srfIBTxPorfQ/CommunityReorderRules",
-      "queryId": "8Z9xejIyg5srfIBTxPorfQ",
+      "url": "https://x.com/i/api/graphql/MfMEaZ0JZCGVDSmD9bwbUA/CommunityReorderRules",
+      "queryId": "MfMEaZ0JZCGVDSmD9bwbUA",
       "method": "POST",
       "features": {
-        "responsive_web_live_screen_enabled": false,
         "rweb_tipjar_consumption_enabled": true,
         "responsive_web_graphql_exclude_directive_enabled": true,
         "verified_phone_label_enabled": false,
@@ -854,11 +820,10 @@
       }
     },
     "RequestToJoinCommunity": {
-      "url": "https://x.com/i/api/graphql/YaYKu65UyWrLqZwyLq-GNw/RequestToJoinCommunity",
-      "queryId": "YaYKu65UyWrLqZwyLq-GNw",
+      "url": "https://x.com/i/api/graphql/FoZoX64O_gzDrXA5Bp6WnQ/RequestToJoinCommunity",
+      "queryId": "FoZoX64O_gzDrXA5Bp6WnQ",
       "method": "POST",
       "features": {
-        "responsive_web_live_screen_enabled": false,
         "rweb_tipjar_consumption_enabled": true,
         "responsive_web_graphql_exclude_directive_enabled": true,
         "verified_phone_label_enabled": false,
@@ -867,12 +832,11 @@
       }
     },
     "CommunityTweetModerationLogSlice": {
-      "url": "https://x.com/i/api/graphql/Uv71Yb967wiHEiXxzZGh0w/CommunityTweetModerationLogSlice",
-      "queryId": "Uv71Yb967wiHEiXxzZGh0w",
+      "url": "https://x.com/i/api/graphql/ObsBC67jHc0eHcPT5jFYWQ/CommunityTweetModerationLogSlice",
+      "queryId": "ObsBC67jHc0eHcPT5jFYWQ",
       "method": "GET",
       "features": {
         "creator_subscriptions_tweet_preview_api_enabled": true,
-        "responsive_web_live_screen_enabled": false,
         "rweb_tipjar_consumption_enabled": true,
         "responsive_web_graphql_exclude_directive_enabled": true,
         "verified_phone_label_enabled": false,
@@ -898,11 +862,10 @@
       }
     },
     "CommunityTweetsLoggedOutTimeline": {
-      "url": "https://x.com/i/api/graphql/m0wMTawTJB3JaBLk50rO9g/CommunityTweetsLoggedOutTimeline",
-      "queryId": "m0wMTawTJB3JaBLk50rO9g",
+      "url": "https://x.com/i/api/graphql/8RsX3KRFDs7qGmcRNILQcQ/CommunityTweetsLoggedOutTimeline",
+      "queryId": "8RsX3KRFDs7qGmcRNILQcQ",
       "method": "GET",
       "features": {
-        "responsive_web_live_screen_enabled": false,
         "rweb_tipjar_consumption_enabled": true,
         "responsive_web_graphql_exclude_directive_enabled": true,
         "verified_phone_label_enabled": false,
@@ -929,11 +892,10 @@
       }
     },
     "CommunityTweetsRankedLoggedOutTimeline": {
-      "url": "https://x.com/i/api/graphql/L6pAAUdToHm2Fr-v6eQlvQ/CommunityTweetsRankedLoggedOutTimeline",
-      "queryId": "L6pAAUdToHm2Fr-v6eQlvQ",
+      "url": "https://x.com/i/api/graphql/Zz9fl86SuzWpEw2WE4JeFQ/CommunityTweetsRankedLoggedOutTimeline",
+      "queryId": "Zz9fl86SuzWpEw2WE4JeFQ",
       "method": "GET",
       "features": {
-        "responsive_web_live_screen_enabled": false,
         "rweb_tipjar_consumption_enabled": true,
         "responsive_web_graphql_exclude_directive_enabled": true,
         "verified_phone_label_enabled": false,
@@ -960,11 +922,10 @@
       }
     },
     "CommunityTweetsTimeline": {
-      "url": "https://x.com/i/api/graphql/iLV764RykgKr-ScOXi25eg/CommunityTweetsTimeline",
-      "queryId": "iLV764RykgKr-ScOXi25eg",
+      "url": "https://x.com/i/api/graphql/AL1X9h1l0JwZ8FHwfSE3pg/CommunityTweetsTimeline",
+      "queryId": "AL1X9h1l0JwZ8FHwfSE3pg",
       "method": "GET",
       "features": {
-        "responsive_web_live_screen_enabled": false,
         "rweb_tipjar_consumption_enabled": true,
         "responsive_web_graphql_exclude_directive_enabled": true,
         "verified_phone_label_enabled": false,
@@ -991,11 +952,10 @@
       }
     },
     "CommunityUpdateRole": {
-      "url": "https://x.com/i/api/graphql/HVvi-dZN-gE4k0owybszCQ/CommunityUpdateRole",
-      "queryId": "HVvi-dZN-gE4k0owybszCQ",
+      "url": "https://x.com/i/api/graphql/VDV2cnH06lWSdef0BqnReg/CommunityUpdateRole",
+      "queryId": "VDV2cnH06lWSdef0BqnReg",
       "method": "POST",
       "features": {
-        "responsive_web_live_screen_enabled": false,
         "rweb_tipjar_consumption_enabled": true,
         "responsive_web_graphql_exclude_directive_enabled": true,
         "verified_phone_label_enabled": false,
@@ -1020,11 +980,10 @@
       }
     },
     "ConnectTabTimeline": {
-      "url": "https://x.com/i/api/graphql/S43-m7ofqgPG4gqPSHeo9Q/ConnectTabTimeline",
-      "queryId": "S43-m7ofqgPG4gqPSHeo9Q",
+      "url": "https://x.com/i/api/graphql/zUZ7IGVCnanT2Tw55JwPcg/ConnectTabTimeline",
+      "queryId": "zUZ7IGVCnanT2Tw55JwPcg",
       "method": "GET",
       "features": {
-        "responsive_web_live_screen_enabled": false,
         "rweb_tipjar_consumption_enabled": true,
         "responsive_web_graphql_exclude_directive_enabled": true,
         "verified_phone_label_enabled": false,
@@ -1087,8 +1046,8 @@
       "features": {}
     },
     "CreateNoteTweet": {
-      "url": "https://x.com/i/api/graphql/DhyaUNnJZ52hSoMrdN6NVw/CreateNoteTweet",
-      "queryId": "DhyaUNnJZ52hSoMrdN6NVw",
+      "url": "https://x.com/i/api/graphql/3Wu3Na3lrBzHKWJylOmaSg/CreateNoteTweet",
+      "queryId": "3Wu3Na3lrBzHKWJylOmaSg",
       "method": "POST",
       "features": {
         "communities_web_enable_tweet_community_results_fetch": true,
@@ -1104,7 +1063,6 @@
         "longform_notetweets_inline_media_enabled": true,
         "articles_preview_enabled": true,
         "rweb_video_timestamps_enabled": true,
-        "responsive_web_live_screen_enabled": false,
         "rweb_tipjar_consumption_enabled": true,
         "responsive_web_graphql_exclude_directive_enabled": true,
         "verified_phone_label_enabled": false,
@@ -1135,8 +1093,8 @@
       "features": {}
     },
     "CreateTweet": {
-      "url": "https://x.com/i/api/graphql/eEt7tRUFCuvu2tSiXifGQA/CreateTweet",
-      "queryId": "eEt7tRUFCuvu2tSiXifGQA",
+      "url": "https://x.com/i/api/graphql/znq7jUAqRjmPj7IszLem5Q/CreateTweet",
+      "queryId": "znq7jUAqRjmPj7IszLem5Q",
       "method": "POST",
       "features": {
         "communities_web_enable_tweet_community_results_fetch": true,
@@ -1152,7 +1110,6 @@
         "longform_notetweets_inline_media_enabled": true,
         "articles_preview_enabled": true,
         "rweb_video_timestamps_enabled": true,
-        "responsive_web_live_screen_enabled": false,
         "rweb_tipjar_consumption_enabled": true,
         "responsive_web_graphql_exclude_directive_enabled": true,
         "verified_phone_label_enabled": false,
@@ -1165,11 +1122,10 @@
       }
     },
     "CreatorSubscriptionsTimeline": {
-      "url": "https://x.com/i/api/graphql/MtJWqLzMebE0ew5zFnqGIA/CreatorSubscriptionsTimeline",
-      "queryId": "MtJWqLzMebE0ew5zFnqGIA",
+      "url": "https://x.com/i/api/graphql/cVSEcHdaKW4cRzzN8Ltz8Q/CreatorSubscriptionsTimeline",
+      "queryId": "cVSEcHdaKW4cRzzN8Ltz8Q",
       "method": "GET",
       "features": {
-        "responsive_web_live_screen_enabled": false,
         "rweb_tipjar_consumption_enabled": true,
         "responsive_web_graphql_exclude_directive_enabled": true,
         "verified_phone_label_enabled": false,
@@ -1304,11 +1260,10 @@
       "features": {}
     },
     "ExplorePage": {
-      "url": "https://x.com/i/api/graphql/h1jA6Vtn-uPH4kTsXyfXvw/ExplorePage",
-      "queryId": "h1jA6Vtn-uPH4kTsXyfXvw",
+      "url": "https://x.com/i/api/graphql/8YAZZkK7Ca09HoBzmd-9GQ/ExplorePage",
+      "queryId": "8YAZZkK7Ca09HoBzmd-9GQ",
       "method": "GET",
       "features": {
-        "responsive_web_live_screen_enabled": false,
         "rweb_tipjar_consumption_enabled": true,
         "responsive_web_graphql_exclude_directive_enabled": true,
         "verified_phone_label_enabled": false,
@@ -1335,11 +1290,10 @@
       }
     },
     "ExploreSidebar": {
-      "url": "https://x.com/i/api/graphql/VvTI9qRSwc42QZYqAYc8Bg/ExploreSidebar",
-      "queryId": "VvTI9qRSwc42QZYqAYc8Bg",
+      "url": "https://x.com/i/api/graphql/SQF2aB791cUu02BkZk1HcA/ExploreSidebar",
+      "queryId": "SQF2aB791cUu02BkZk1HcA",
       "method": "GET",
       "features": {
-        "responsive_web_live_screen_enabled": false,
         "rweb_tipjar_consumption_enabled": true,
         "responsive_web_graphql_exclude_directive_enabled": true,
         "verified_phone_label_enabled": false,
@@ -1372,11 +1326,10 @@
       "features": {}
     },
     "Followers": {
-      "url": "https://x.com/i/api/graphql/VZ-VvbQB5nUidN73h6d2fg/Followers",
-      "queryId": "VZ-VvbQB5nUidN73h6d2fg",
+      "url": "https://x.com/i/api/graphql/gwv4MK0diCpAJ79u7op1Lg/Followers",
+      "queryId": "gwv4MK0diCpAJ79u7op1Lg",
       "method": "GET",
       "features": {
-        "responsive_web_live_screen_enabled": false,
         "rweb_tipjar_consumption_enabled": true,
         "responsive_web_graphql_exclude_directive_enabled": true,
         "verified_phone_label_enabled": false,
@@ -1403,11 +1356,10 @@
       }
     },
     "FollowersYouKnow": {
-      "url": "https://x.com/i/api/graphql/pOB9sT9F040mZFheyMMBBA/FollowersYouKnow",
-      "queryId": "pOB9sT9F040mZFheyMMBBA",
+      "url": "https://x.com/i/api/graphql/JDcfgeQj5nyNGGRk46JM5w/FollowersYouKnow",
+      "queryId": "JDcfgeQj5nyNGGRk46JM5w",
       "method": "GET",
       "features": {
-        "responsive_web_live_screen_enabled": false,
         "rweb_tipjar_consumption_enabled": true,
         "responsive_web_graphql_exclude_directive_enabled": true,
         "verified_phone_label_enabled": false,
@@ -1434,11 +1386,10 @@
       }
     },
     "Following": {
-      "url": "https://x.com/i/api/graphql/5UpWO9XixjxJgrl-5fXuXA/Following",
-      "queryId": "5UpWO9XixjxJgrl-5fXuXA",
+      "url": "https://x.com/i/api/graphql/eWTmcJY3EMh-dxIR7CYTKw/Following",
+      "queryId": "eWTmcJY3EMh-dxIR7CYTKw",
       "method": "GET",
       "features": {
-        "responsive_web_live_screen_enabled": false,
         "rweb_tipjar_consumption_enabled": true,
         "responsive_web_graphql_exclude_directive_enabled": true,
         "verified_phone_label_enabled": false,
@@ -1465,11 +1416,10 @@
       }
     },
     "GenericTimelineById": {
-      "url": "https://x.com/i/api/graphql/w5J2aVieZbhRuEu5v8kgNA/GenericTimelineById",
-      "queryId": "w5J2aVieZbhRuEu5v8kgNA",
+      "url": "https://x.com/i/api/graphql/eob7MfQ-OPla82tbCSxZUA/GenericTimelineById",
+      "queryId": "eob7MfQ-OPla82tbCSxZUA",
       "method": "GET",
       "features": {
-        "responsive_web_live_screen_enabled": false,
         "rweb_tipjar_consumption_enabled": true,
         "responsive_web_graphql_exclude_directive_enabled": true,
         "verified_phone_label_enabled": false,
@@ -1496,11 +1446,10 @@
       }
     },
     "GlobalCommunitiesLatestPostSearchTimeline": {
-      "url": "https://x.com/i/api/graphql/mE4ur9RmX7zwi4-uPT1gcA/GlobalCommunitiesLatestPostSearchTimeline",
-      "queryId": "mE4ur9RmX7zwi4-uPT1gcA",
+      "url": "https://x.com/i/api/graphql/IX-ELlAKl5DCJJ8HZTS0dw/GlobalCommunitiesLatestPostSearchTimeline",
+      "queryId": "IX-ELlAKl5DCJJ8HZTS0dw",
       "method": "GET",
       "features": {
-        "responsive_web_live_screen_enabled": false,
         "rweb_tipjar_consumption_enabled": true,
         "responsive_web_graphql_exclude_directive_enabled": true,
         "verified_phone_label_enabled": false,
@@ -1527,11 +1476,10 @@
       }
     },
     "GlobalCommunitiesPostSearchTimeline": {
-      "url": "https://x.com/i/api/graphql/noP0DZlROTvJW9-dzjvSFg/GlobalCommunitiesPostSearchTimeline",
-      "queryId": "noP0DZlROTvJW9-dzjvSFg",
+      "url": "https://x.com/i/api/graphql/CK1l2roINrMofbB8pcALbw/GlobalCommunitiesPostSearchTimeline",
+      "queryId": "CK1l2roINrMofbB8pcALbw",
       "method": "GET",
       "features": {
-        "responsive_web_live_screen_enabled": false,
         "rweb_tipjar_consumption_enabled": true,
         "responsive_web_graphql_exclude_directive_enabled": true,
         "verified_phone_label_enabled": false,
@@ -1636,11 +1584,10 @@
       "features": {}
     },
     "HomeLatestTimeline": {
-      "url": "https://x.com/i/api/graphql/VkAfKo3tPDa1Hac92Mghzw/HomeLatestTimeline",
-      "queryId": "VkAfKo3tPDa1Hac92Mghzw",
+      "url": "https://x.com/i/api/graphql/HyuV8ml52TYmyUjyrDq1CQ/HomeLatestTimeline",
+      "queryId": "HyuV8ml52TYmyUjyrDq1CQ",
       "method": "GET",
       "features": {
-        "responsive_web_live_screen_enabled": false,
         "rweb_tipjar_consumption_enabled": true,
         "responsive_web_graphql_exclude_directive_enabled": true,
         "verified_phone_label_enabled": false,
@@ -1667,11 +1614,10 @@
       }
     },
     "HomeTimeline": {
-      "url": "https://x.com/i/api/graphql/imvtREFyT3vjKA-Bsv8vlg/HomeTimeline",
-      "queryId": "imvtREFyT3vjKA-Bsv8vlg",
+      "url": "https://x.com/i/api/graphql/E6AtJXVPtK7nIHAntKc5fA/HomeTimeline",
+      "queryId": "E6AtJXVPtK7nIHAntKc5fA",
       "method": "GET",
       "features": {
-        "responsive_web_live_screen_enabled": false,
         "rweb_tipjar_consumption_enabled": true,
         "responsive_web_graphql_exclude_directive_enabled": true,
         "verified_phone_label_enabled": false,
@@ -1698,11 +1644,10 @@
       }
     },
     "Likes": {
-      "url": "https://x.com/i/api/graphql/3lH17_JE-6lciabXHusEVA/Likes",
-      "queryId": "3lH17_JE-6lciabXHusEVA",
+      "url": "https://x.com/i/api/graphql/px6_YxfWkXo0odY84iqqmw/Likes",
+      "queryId": "px6_YxfWkXo0odY84iqqmw",
       "method": "GET",
       "features": {
-        "responsive_web_live_screen_enabled": false,
         "rweb_tipjar_consumption_enabled": true,
         "responsive_web_graphql_exclude_directive_enabled": true,
         "verified_phone_label_enabled": false,
@@ -1729,11 +1674,10 @@
       }
     },
     "ListAddMember": {
-      "url": "https://x.com/i/api/graphql/5uarncpEnYNgIib3hV9Xug/ListAddMember",
-      "queryId": "5uarncpEnYNgIib3hV9Xug",
+      "url": "https://x.com/i/api/graphql/ERYAvwDKDYPfNDsloMpquw/ListAddMember",
+      "queryId": "ERYAvwDKDYPfNDsloMpquw",
       "method": "POST",
       "features": {
-        "responsive_web_live_screen_enabled": false,
         "rweb_tipjar_consumption_enabled": true,
         "responsive_web_graphql_exclude_directive_enabled": true,
         "verified_phone_label_enabled": false,
@@ -1742,11 +1686,10 @@
       }
     },
     "DeleteListBanner": {
-      "url": "https://x.com/i/api/graphql/-phaigQDPKFnPwgwK-ndEw/DeleteListBanner",
-      "queryId": "-phaigQDPKFnPwgwK-ndEw",
+      "url": "https://x.com/i/api/graphql/M6fMXp757HyBzDKKe2bUCw/DeleteListBanner",
+      "queryId": "M6fMXp757HyBzDKKe2bUCw",
       "method": "POST",
       "features": {
-        "responsive_web_live_screen_enabled": false,
         "rweb_tipjar_consumption_enabled": true,
         "responsive_web_graphql_exclude_directive_enabled": true,
         "verified_phone_label_enabled": false,
@@ -1755,11 +1698,10 @@
       }
     },
     "EditListBanner": {
-      "url": "https://x.com/i/api/graphql/1s8H6nMA6Gp83DFTx7E4gQ/EditListBanner",
-      "queryId": "1s8H6nMA6Gp83DFTx7E4gQ",
+      "url": "https://x.com/i/api/graphql/XlGQkTZ8d_n9YxZSjCC6Fw/EditListBanner",
+      "queryId": "XlGQkTZ8d_n9YxZSjCC6Fw",
       "method": "POST",
       "features": {
-        "responsive_web_live_screen_enabled": false,
         "rweb_tipjar_consumption_enabled": true,
         "responsive_web_graphql_exclude_directive_enabled": true,
         "verified_phone_label_enabled": false,
@@ -1768,11 +1710,10 @@
       }
     },
     "ListBySlug": {
-      "url": "https://x.com/i/api/graphql/INmfIu_sbeQAbKoImfZ_Qw/ListBySlug",
-      "queryId": "INmfIu_sbeQAbKoImfZ_Qw",
+      "url": "https://x.com/i/api/graphql/BPejmk24pUdBpNac9Ywghw/ListBySlug",
+      "queryId": "BPejmk24pUdBpNac9Ywghw",
       "method": "GET",
       "features": {
-        "responsive_web_live_screen_enabled": false,
         "rweb_tipjar_consumption_enabled": true,
         "responsive_web_graphql_exclude_directive_enabled": true,
         "verified_phone_label_enabled": false,
@@ -1781,11 +1722,10 @@
       }
     },
     "CreateList": {
-      "url": "https://x.com/i/api/graphql/CZuIv2iIM0dREgKri4zsLQ/CreateList",
-      "queryId": "CZuIv2iIM0dREgKri4zsLQ",
+      "url": "https://x.com/i/api/graphql/PTkA0vBFJSkaJByD1o9p7w/CreateList",
+      "queryId": "PTkA0vBFJSkaJByD1o9p7w",
       "method": "POST",
       "features": {
-        "responsive_web_live_screen_enabled": false,
         "rweb_tipjar_consumption_enabled": true,
         "responsive_web_graphql_exclude_directive_enabled": true,
         "verified_phone_label_enabled": false,
@@ -1794,11 +1734,10 @@
       }
     },
     "ListCreationRecommendedUsers": {
-      "url": "https://x.com/i/api/graphql/ZwIjbLibta3SVAsNgywXNQ/ListCreationRecommendedUsers",
-      "queryId": "ZwIjbLibta3SVAsNgywXNQ",
+      "url": "https://x.com/i/api/graphql/gXuIWazf_UMnht3S_P01eQ/ListCreationRecommendedUsers",
+      "queryId": "gXuIWazf_UMnht3S_P01eQ",
       "method": "GET",
       "features": {
-        "responsive_web_live_screen_enabled": false,
         "rweb_tipjar_consumption_enabled": true,
         "responsive_web_graphql_exclude_directive_enabled": true,
         "verified_phone_label_enabled": false,
@@ -1837,11 +1776,10 @@
       "features": {}
     },
     "ListEditRecommendedUsers": {
-      "url": "https://x.com/i/api/graphql/4wXw05aaU_o6XLnGEwpS4w/ListEditRecommendedUsers",
-      "queryId": "4wXw05aaU_o6XLnGEwpS4w",
+      "url": "https://x.com/i/api/graphql/k6seA8oFasMLZl8Bip6o8Q/ListEditRecommendedUsers",
+      "queryId": "k6seA8oFasMLZl8Bip6o8Q",
       "method": "GET",
       "features": {
-        "responsive_web_live_screen_enabled": false,
         "rweb_tipjar_consumption_enabled": true,
         "responsive_web_graphql_exclude_directive_enabled": true,
         "verified_phone_label_enabled": false,
@@ -1868,11 +1806,10 @@
       }
     },
     "ListLatestTweetsTimeline": {
-      "url": "https://x.com/i/api/graphql/tabhjtd_kzt55HKZ3qZebg/ListLatestTweetsTimeline",
-      "queryId": "tabhjtd_kzt55HKZ3qZebg",
+      "url": "https://x.com/i/api/graphql/f-Lsj0rHCztXcgdo585UUw/ListLatestTweetsTimeline",
+      "queryId": "f-Lsj0rHCztXcgdo585UUw",
       "method": "GET",
       "features": {
-        "responsive_web_live_screen_enabled": false,
         "rweb_tipjar_consumption_enabled": true,
         "responsive_web_graphql_exclude_directive_enabled": true,
         "verified_phone_label_enabled": false,
@@ -1899,11 +1836,10 @@
       }
     },
     "ListMembers": {
-      "url": "https://x.com/i/api/graphql/z9c61Ek75Ei9vZ91ThttEA/ListMembers",
-      "queryId": "z9c61Ek75Ei9vZ91ThttEA",
+      "url": "https://x.com/i/api/graphql/dsJhIe3M0vCopjSfU6SlQw/ListMembers",
+      "queryId": "dsJhIe3M0vCopjSfU6SlQw",
       "method": "GET",
       "features": {
-        "responsive_web_live_screen_enabled": false,
         "rweb_tipjar_consumption_enabled": true,
         "responsive_web_graphql_exclude_directive_enabled": true,
         "verified_phone_label_enabled": false,
@@ -1930,11 +1866,10 @@
       }
     },
     "ListMemberships": {
-      "url": "https://x.com/i/api/graphql/9b3Wo_jOFxdETbXxb8BzEw/ListMemberships",
-      "queryId": "9b3Wo_jOFxdETbXxb8BzEw",
+      "url": "https://x.com/i/api/graphql/LrcrWDL5xwdaU4GDqK9i_g/ListMemberships",
+      "queryId": "LrcrWDL5xwdaU4GDqK9i_g",
       "method": "GET",
       "features": {
-        "responsive_web_live_screen_enabled": false,
         "rweb_tipjar_consumption_enabled": true,
         "responsive_web_graphql_exclude_directive_enabled": true,
         "verified_phone_label_enabled": false,
@@ -1967,11 +1902,10 @@
       "features": {}
     },
     "ListOwnerships": {
-      "url": "https://x.com/i/api/graphql/vLju9b0tPBc9xpQ2D18qlQ/ListOwnerships",
-      "queryId": "vLju9b0tPBc9xpQ2D18qlQ",
+      "url": "https://x.com/i/api/graphql/3UIOLZ-k4GQ2JVJCFVXRzw/ListOwnerships",
+      "queryId": "3UIOLZ-k4GQ2JVJCFVXRzw",
       "method": "GET",
       "features": {
-        "responsive_web_live_screen_enabled": false,
         "rweb_tipjar_consumption_enabled": true,
         "responsive_web_graphql_exclude_directive_enabled": true,
         "verified_phone_label_enabled": false,
@@ -1998,11 +1932,10 @@
       }
     },
     "ListByRestId": {
-      "url": "https://x.com/i/api/graphql/eNZyLTeveqkw76tAMIIA8w/ListByRestId",
-      "queryId": "eNZyLTeveqkw76tAMIIA8w",
+      "url": "https://x.com/i/api/graphql/w46tjJuWO_Egbz_JZoiajw/ListByRestId",
+      "queryId": "w46tjJuWO_Egbz_JZoiajw",
       "method": "GET",
       "features": {
-        "responsive_web_live_screen_enabled": false,
         "rweb_tipjar_consumption_enabled": true,
         "responsive_web_graphql_exclude_directive_enabled": true,
         "verified_phone_label_enabled": false,
@@ -2011,11 +1944,10 @@
       }
     },
     "ListRankedTweetsTimeline": {
-      "url": "https://x.com/i/api/graphql/oog1Ppa7EZen4d7KawkLhg/ListRankedTweetsTimeline",
-      "queryId": "oog1Ppa7EZen4d7KawkLhg",
+      "url": "https://x.com/i/api/graphql/9X3OJUghClH-af1O9QAztQ/ListRankedTweetsTimeline",
+      "queryId": "9X3OJUghClH-af1O9QAztQ",
       "method": "GET",
       "features": {
-        "responsive_web_live_screen_enabled": false,
         "rweb_tipjar_consumption_enabled": true,
         "responsive_web_graphql_exclude_directive_enabled": true,
         "verified_phone_label_enabled": false,
@@ -2042,11 +1974,10 @@
       }
     },
     "ListRemoveMember": {
-      "url": "https://x.com/i/api/graphql/vy1_ky2qlAmHQXq1B3jfog/ListRemoveMember",
-      "queryId": "vy1_ky2qlAmHQXq1B3jfog",
+      "url": "https://x.com/i/api/graphql/Kf_BbL5iUyQc3QD4IpTL5Q/ListRemoveMember",
+      "queryId": "Kf_BbL5iUyQc3QD4IpTL5Q",
       "method": "POST",
       "features": {
-        "responsive_web_live_screen_enabled": false,
         "rweb_tipjar_consumption_enabled": true,
         "responsive_web_graphql_exclude_directive_enabled": true,
         "verified_phone_label_enabled": false,
@@ -2055,11 +1986,10 @@
       }
     },
     "ListSearchTimeline": {
-      "url": "https://x.com/i/api/graphql/p4uKdAOt8TAe7WVTscF2SA/ListSearchTimeline",
-      "queryId": "p4uKdAOt8TAe7WVTscF2SA",
+      "url": "https://x.com/i/api/graphql/IyqeWdqpEqH--T-43vu1tg/ListSearchTimeline",
+      "queryId": "IyqeWdqpEqH--T-43vu1tg",
       "method": "GET",
       "features": {
-        "responsive_web_live_screen_enabled": false,
         "rweb_tipjar_consumption_enabled": true,
         "responsive_web_graphql_exclude_directive_enabled": true,
         "verified_phone_label_enabled": false,
@@ -2086,11 +2016,10 @@
       }
     },
     "ListSubscribe": {
-      "url": "https://x.com/i/api/graphql/49W7BbdbuIjnojWbg2KZ8g/ListSubscribe",
-      "queryId": "49W7BbdbuIjnojWbg2KZ8g",
+      "url": "https://x.com/i/api/graphql/CwWEYXVuCVOMj5sNHhFKCQ/ListSubscribe",
+      "queryId": "CwWEYXVuCVOMj5sNHhFKCQ",
       "method": "POST",
       "features": {
-        "responsive_web_live_screen_enabled": false,
         "rweb_tipjar_consumption_enabled": true,
         "responsive_web_graphql_exclude_directive_enabled": true,
         "verified_phone_label_enabled": false,
@@ -2099,11 +2028,10 @@
       }
     },
     "ListSubscribers": {
-      "url": "https://x.com/i/api/graphql/R94hIe4UE3PbjOnUHs2_ag/ListSubscribers",
-      "queryId": "R94hIe4UE3PbjOnUHs2_ag",
+      "url": "https://x.com/i/api/graphql/5K16-fNceC5MRbiH2oJaBw/ListSubscribers",
+      "queryId": "5K16-fNceC5MRbiH2oJaBw",
       "method": "GET",
       "features": {
-        "responsive_web_live_screen_enabled": false,
         "rweb_tipjar_consumption_enabled": true,
         "responsive_web_graphql_exclude_directive_enabled": true,
         "verified_phone_label_enabled": false,
@@ -2136,11 +2064,10 @@
       "features": {}
     },
     "ListUnsubscribe": {
-      "url": "https://x.com/i/api/graphql/pgsJMwmMpjIAVmErqmA-Uw/ListUnsubscribe",
-      "queryId": "pgsJMwmMpjIAVmErqmA-Uw",
+      "url": "https://x.com/i/api/graphql/peMMqPZWNpN3MMBm4cDmCA/ListUnsubscribe",
+      "queryId": "peMMqPZWNpN3MMBm4cDmCA",
       "method": "POST",
       "features": {
-        "responsive_web_live_screen_enabled": false,
         "rweb_tipjar_consumption_enabled": true,
         "responsive_web_graphql_exclude_directive_enabled": true,
         "verified_phone_label_enabled": false,
@@ -2149,11 +2076,10 @@
       }
     },
     "UpdateList": {
-      "url": "https://x.com/i/api/graphql/SgfkZuwTlZcXqzkctbVjwg/UpdateList",
-      "queryId": "SgfkZuwTlZcXqzkctbVjwg",
+      "url": "https://x.com/i/api/graphql/_fo9D4FTLIjw9fdONDMUQg/UpdateList",
+      "queryId": "_fo9D4FTLIjw9fdONDMUQg",
       "method": "POST",
       "features": {
-        "responsive_web_live_screen_enabled": false,
         "rweb_tipjar_consumption_enabled": true,
         "responsive_web_graphql_exclude_directive_enabled": true,
         "verified_phone_label_enabled": false,
@@ -2162,11 +2088,10 @@
       }
     },
     "ListsDiscovery": {
-      "url": "https://x.com/i/api/graphql/Q5Ku13U23OnCZ0hPKTHssw/ListsDiscovery",
-      "queryId": "Q5Ku13U23OnCZ0hPKTHssw",
+      "url": "https://x.com/i/api/graphql/oyIiYY-dnvuff5kpWxPsgQ/ListsDiscovery",
+      "queryId": "oyIiYY-dnvuff5kpWxPsgQ",
       "method": "GET",
       "features": {
-        "responsive_web_live_screen_enabled": false,
         "rweb_tipjar_consumption_enabled": true,
         "responsive_web_graphql_exclude_directive_enabled": true,
         "verified_phone_label_enabled": false,
@@ -2193,11 +2118,10 @@
       }
     },
     "ListsManagementPageTimeline": {
-      "url": "https://x.com/i/api/graphql/i5hQEb8BzvvpodAIlweZRA/ListsManagementPageTimeline",
-      "queryId": "i5hQEb8BzvvpodAIlweZRA",
+      "url": "https://x.com/i/api/graphql/sP3mKrmz-upkbDVyPk2YxQ/ListsManagementPageTimeline",
+      "queryId": "sP3mKrmz-upkbDVyPk2YxQ",
       "method": "GET",
       "features": {
-        "responsive_web_live_screen_enabled": false,
         "rweb_tipjar_consumption_enabled": true,
         "responsive_web_graphql_exclude_directive_enabled": true,
         "verified_phone_label_enabled": false,
@@ -2230,11 +2154,10 @@
       "features": {}
     },
     "ModeratedTimeline": {
-      "url": "https://x.com/i/api/graphql/9AxeCJswLoYMylmhwcpLDQ/ModeratedTimeline",
-      "queryId": "9AxeCJswLoYMylmhwcpLDQ",
+      "url": "https://x.com/i/api/graphql/8Xf2_SBfjaBrdoGzFFecfA/ModeratedTimeline",
+      "queryId": "8Xf2_SBfjaBrdoGzFFecfA",
       "method": "GET",
       "features": {
-        "responsive_web_live_screen_enabled": false,
         "rweb_tipjar_consumption_enabled": true,
         "responsive_web_graphql_exclude_directive_enabled": true,
         "verified_phone_label_enabled": false,
@@ -2261,11 +2184,10 @@
       }
     },
     "MutedAccounts": {
-      "url": "https://x.com/i/api/graphql/IEa56AmkbEtkqVUzhcWViA/MutedAccounts",
-      "queryId": "IEa56AmkbEtkqVUzhcWViA",
+      "url": "https://x.com/i/api/graphql/YoQ69W3uoQVZvXYWPy7bvw/MutedAccounts",
+      "queryId": "YoQ69W3uoQVZvXYWPy7bvw",
       "method": "GET",
       "features": {
-        "responsive_web_live_screen_enabled": false,
         "rweb_tipjar_consumption_enabled": true,
         "responsive_web_graphql_exclude_directive_enabled": true,
         "verified_phone_label_enabled": false,
@@ -2291,12 +2213,19 @@
         "responsive_web_enhance_cards_enabled": false
       }
     },
+    "PaymentsUsersTypeahead": {
+      "url": "https://x.com/i/api/graphql/5dZxwH3Tfg0yUmG11eC5jQ/PaymentsUsersTypeahead",
+      "queryId": "5dZxwH3Tfg0yUmG11eC5jQ",
+      "method": "GET",
+      "features": {
+        "responsive_web_graphql_timeline_navigation_enabled": true
+      }
+    },
     "PinTimeline": {
-      "url": "https://x.com/i/api/graphql/rZKIoc2xJ5sY_N2RZ92BXg/PinTimeline",
-      "queryId": "rZKIoc2xJ5sY_N2RZ92BXg",
+      "url": "https://x.com/i/api/graphql/cDUaI1ru7Tf9-RT8mTXT6Q/PinTimeline",
+      "queryId": "cDUaI1ru7Tf9-RT8mTXT6Q",
       "method": "POST",
       "features": {
-        "responsive_web_live_screen_enabled": false,
         "rweb_tipjar_consumption_enabled": true,
         "responsive_web_graphql_exclude_directive_enabled": true,
         "verified_phone_label_enabled": false,
@@ -2311,11 +2240,10 @@
       "features": {}
     },
     "PinnedTimelines": {
-      "url": "https://x.com/i/api/graphql/AxpIaRXl8yUWF74RS60Hjw/PinnedTimelines",
-      "queryId": "AxpIaRXl8yUWF74RS60Hjw",
+      "url": "https://x.com/i/api/graphql/C-IBapfouIWLa8v6GcGATQ/PinnedTimelines",
+      "queryId": "C-IBapfouIWLa8v6GcGATQ",
       "method": "GET",
       "features": {
-        "responsive_web_live_screen_enabled": false,
         "rweb_tipjar_consumption_enabled": true,
         "responsive_web_graphql_exclude_directive_enabled": true,
         "verified_phone_label_enabled": false,
@@ -2336,11 +2264,10 @@
       "features": {}
     },
     "CommunitiesRankedTimeline": {
-      "url": "https://x.com/i/api/graphql/xSJKOggc7gV6jlP03sQYvQ/CommunitiesRankedTimeline",
-      "queryId": "xSJKOggc7gV6jlP03sQYvQ",
+      "url": "https://x.com/i/api/graphql/NVJIUjvGDC3o814fGgkU3g/CommunitiesRankedTimeline",
+      "queryId": "NVJIUjvGDC3o814fGgkU3g",
       "method": "GET",
       "features": {
-        "responsive_web_live_screen_enabled": false,
         "rweb_tipjar_consumption_enabled": true,
         "responsive_web_graphql_exclude_directive_enabled": true,
         "verified_phone_label_enabled": false,
@@ -2385,11 +2312,10 @@
       "features": {}
     },
     "SearchTimeline": {
-      "url": "https://x.com/i/api/graphql/WjbtCMT6fJprvZFmNsd0yA/SearchTimeline",
-      "queryId": "WjbtCMT6fJprvZFmNsd0yA",
+      "url": "https://x.com/i/api/graphql/MJpyQGqgklrVl_0X9gNy3A/SearchTimeline",
+      "queryId": "MJpyQGqgklrVl_0X9gNy3A",
       "method": "GET",
       "features": {
-        "responsive_web_live_screen_enabled": false,
         "rweb_tipjar_consumption_enabled": true,
         "responsive_web_graphql_exclude_directive_enabled": true,
         "verified_phone_label_enabled": false,
@@ -2422,11 +2348,10 @@
       "features": {}
     },
     "SimilarPosts": {
-      "url": "https://x.com/i/api/graphql/6cVbf9TO5eWPaQvSA9mLeQ/SimilarPosts",
-      "queryId": "6cVbf9TO5eWPaQvSA9mLeQ",
+      "url": "https://x.com/i/api/graphql/3xbK_sdyVXclHF93-P8IMw/SimilarPosts",
+      "queryId": "3xbK_sdyVXclHF93-P8IMw",
       "method": "GET",
       "features": {
-        "responsive_web_live_screen_enabled": false,
         "rweb_tipjar_consumption_enabled": true,
         "responsive_web_graphql_exclude_directive_enabled": true,
         "verified_phone_label_enabled": false,
@@ -2453,11 +2378,10 @@
       }
     },
     "SuperFollowers": {
-      "url": "https://x.com/i/api/graphql/Hl-cNtUidTYzYYBPKx9orQ/SuperFollowers",
-      "queryId": "Hl-cNtUidTYzYYBPKx9orQ",
+      "url": "https://x.com/i/api/graphql/ELI-jwsrHbfu5UlwUdA44Q/SuperFollowers",
+      "queryId": "ELI-jwsrHbfu5UlwUdA44Q",
       "method": "GET",
       "features": {
-        "responsive_web_live_screen_enabled": false,
         "rweb_tipjar_consumption_enabled": true,
         "responsive_web_graphql_exclude_directive_enabled": true,
         "verified_phone_label_enabled": false,
@@ -2496,11 +2420,10 @@
       "features": {}
     },
     "TopicLandingPage": {
-      "url": "https://x.com/i/api/graphql/83AW8bnpL4rvQ3BEXIeKLg/TopicLandingPage",
-      "queryId": "83AW8bnpL4rvQ3BEXIeKLg",
+      "url": "https://x.com/i/api/graphql/fQ56vfoaBuhDe5Qz4D02nw/TopicLandingPage",
+      "queryId": "fQ56vfoaBuhDe5Qz4D02nw",
       "method": "GET",
       "features": {
-        "responsive_web_live_screen_enabled": false,
         "rweb_tipjar_consumption_enabled": true,
         "responsive_web_graphql_exclude_directive_enabled": true,
         "verified_phone_label_enabled": false,
@@ -2539,11 +2462,10 @@
       "features": {}
     },
     "TopicToFollowSidebar": {
-      "url": "https://x.com/i/api/graphql/f1kCDW9vk2qjvDDkTHBpIQ/TopicToFollowSidebar",
-      "queryId": "f1kCDW9vk2qjvDDkTHBpIQ",
+      "url": "https://x.com/i/api/graphql/Orpq3EAkBwDOs72fMCLl0w/TopicToFollowSidebar",
+      "queryId": "Orpq3EAkBwDOs72fMCLl0w",
       "method": "GET",
       "features": {
-        "responsive_web_live_screen_enabled": false,
         "rweb_tipjar_consumption_enabled": true,
         "responsive_web_graphql_exclude_directive_enabled": true,
         "verified_phone_label_enabled": false,
@@ -2582,11 +2504,10 @@
       "features": {}
     },
     "TopicsManagementPage": {
-      "url": "https://x.com/i/api/graphql/zLvozzV1GT-byb8s1DYZBQ/TopicsManagementPage",
-      "queryId": "zLvozzV1GT-byb8s1DYZBQ",
+      "url": "https://x.com/i/api/graphql/dxXxKVsbNRhBAnZkoMPvdQ/TopicsManagementPage",
+      "queryId": "dxXxKVsbNRhBAnZkoMPvdQ",
       "method": "GET",
       "features": {
-        "responsive_web_live_screen_enabled": false,
         "rweb_tipjar_consumption_enabled": true,
         "responsive_web_graphql_exclude_directive_enabled": true,
         "verified_phone_label_enabled": false,
@@ -2613,11 +2534,10 @@
       }
     },
     "TopicsPickerPage": {
-      "url": "https://x.com/i/api/graphql/jLNEk9cM2Le45NPUg5IBbg/TopicsPickerPage",
-      "queryId": "jLNEk9cM2Le45NPUg5IBbg",
+      "url": "https://x.com/i/api/graphql/o2b0Jt6tFjgEa9iZbifgSQ/TopicsPickerPage",
+      "queryId": "o2b0Jt6tFjgEa9iZbifgSQ",
       "method": "GET",
       "features": {
-        "responsive_web_live_screen_enabled": false,
         "rweb_tipjar_consumption_enabled": true,
         "responsive_web_graphql_exclude_directive_enabled": true,
         "verified_phone_label_enabled": false,
@@ -2644,11 +2564,10 @@
       }
     },
     "TopicsPickerPageById": {
-      "url": "https://x.com/i/api/graphql/oD_3f6SokNc7VjW9VDcBCw/TopicsPickerPageById",
-      "queryId": "oD_3f6SokNc7VjW9VDcBCw",
+      "url": "https://x.com/i/api/graphql/tz6995UuXl30aV_wMwBPvg/TopicsPickerPageById",
+      "queryId": "tz6995UuXl30aV_wMwBPvg",
       "method": "GET",
       "features": {
-        "responsive_web_live_screen_enabled": false,
         "rweb_tipjar_consumption_enabled": true,
         "responsive_web_graphql_exclude_directive_enabled": true,
         "verified_phone_label_enabled": false,
@@ -2675,11 +2594,10 @@
       }
     },
     "TrendHistory": {
-      "url": "https://x.com/i/api/graphql/uYCjJErO09nJeIeYJRSqXQ/TrendHistory",
-      "queryId": "uYCjJErO09nJeIeYJRSqXQ",
+      "url": "https://x.com/i/api/graphql/wqEXMRiauxNfz7Xuerafeg/TrendHistory",
+      "queryId": "wqEXMRiauxNfz7Xuerafeg",
       "method": "GET",
       "features": {
-        "responsive_web_live_screen_enabled": false,
         "rweb_tipjar_consumption_enabled": true,
         "responsive_web_graphql_exclude_directive_enabled": true,
         "verified_phone_label_enabled": false,
@@ -2706,11 +2624,10 @@
       }
     },
     "TrendRelevantUsers": {
-      "url": "https://x.com/i/api/graphql/o9WfMkhB1MhxN0n-LyxHMA/TrendRelevantUsers",
-      "queryId": "o9WfMkhB1MhxN0n-LyxHMA",
+      "url": "https://x.com/i/api/graphql/iRoBYZ541PEPatlHNfjqhw/TrendRelevantUsers",
+      "queryId": "iRoBYZ541PEPatlHNfjqhw",
       "method": "GET",
       "features": {
-        "responsive_web_live_screen_enabled": false,
         "rweb_tipjar_consumption_enabled": true,
         "responsive_web_graphql_exclude_directive_enabled": true,
         "verified_phone_label_enabled": false,
@@ -2737,11 +2654,10 @@
       }
     },
     "TweetDetail": {
-      "url": "https://x.com/i/api/graphql/MdM6P_0z37tPVjUmvmKgCQ/TweetDetail",
-      "queryId": "MdM6P_0z37tPVjUmvmKgCQ",
+      "url": "https://x.com/i/api/graphql/nBS-WpgA6ZG0CyNHD517JQ/TweetDetail",
+      "queryId": "nBS-WpgA6ZG0CyNHD517JQ",
       "method": "GET",
       "features": {
-        "responsive_web_live_screen_enabled": false,
         "rweb_tipjar_consumption_enabled": true,
         "responsive_web_graphql_exclude_directive_enabled": true,
         "verified_phone_label_enabled": false,
@@ -2768,8 +2684,8 @@
       }
     },
     "TweetResultByRestId": {
-      "url": "https://x.com/i/api/graphql/GvVPH2o2oDoCzAbWHY5x6Q/TweetResultByRestId",
-      "queryId": "GvVPH2o2oDoCzAbWHY5x6Q",
+      "url": "https://x.com/i/api/graphql/OoJd6A50cv8GsifjoOHGfg/TweetResultByRestId",
+      "queryId": "OoJd6A50cv8GsifjoOHGfg",
       "method": "GET",
       "features": {
         "creator_subscriptions_tweet_preview_api_enabled": true,
@@ -2789,7 +2705,6 @@
         "rweb_video_timestamps_enabled": true,
         "longform_notetweets_rich_text_read_enabled": true,
         "longform_notetweets_inline_media_enabled": true,
-        "responsive_web_live_screen_enabled": false,
         "rweb_tipjar_consumption_enabled": true,
         "responsive_web_graphql_exclude_directive_enabled": true,
         "verified_phone_label_enabled": false,
@@ -2799,8 +2714,8 @@
       }
     },
     "TweetResultsByRestIds": {
-      "url": "https://x.com/i/api/graphql/cidXGXfgNhnpp8TAptUV_w/TweetResultsByRestIds",
-      "queryId": "cidXGXfgNhnpp8TAptUV_w",
+      "url": "https://x.com/i/api/graphql/I2-cuYHvuwexwUrcirVKHw/TweetResultsByRestIds",
+      "queryId": "I2-cuYHvuwexwUrcirVKHw",
       "method": "GET",
       "features": {
         "creator_subscriptions_tweet_preview_api_enabled": true,
@@ -2820,7 +2735,6 @@
         "rweb_video_timestamps_enabled": true,
         "longform_notetweets_rich_text_read_enabled": true,
         "longform_notetweets_inline_media_enabled": true,
-        "responsive_web_live_screen_enabled": false,
         "rweb_tipjar_consumption_enabled": true,
         "responsive_web_graphql_exclude_directive_enabled": true,
         "verified_phone_label_enabled": false,
@@ -2848,11 +2762,10 @@
       "features": {}
     },
     "UnpinTimeline": {
-      "url": "https://x.com/i/api/graphql/C4CSqisf0Vshr4-hwihtYA/UnpinTimeline",
-      "queryId": "C4CSqisf0Vshr4-hwihtYA",
+      "url": "https://x.com/i/api/graphql/fb1yl-F81zg78dmR1Qp8Xg/UnpinTimeline",
+      "queryId": "fb1yl-F81zg78dmR1Qp8Xg",
       "method": "POST",
       "features": {
-        "responsive_web_live_screen_enabled": false,
         "rweb_tipjar_consumption_enabled": true,
         "responsive_web_graphql_exclude_directive_enabled": true,
         "verified_phone_label_enabled": false,
@@ -2867,11 +2780,10 @@
       "features": {}
     },
     "UrtFixtures": {
-      "url": "https://x.com/i/api/graphql/sMWW-8QUJOOglzwB_zh7rQ/UrtFixtures",
-      "queryId": "sMWW-8QUJOOglzwB_zh7rQ",
+      "url": "https://x.com/i/api/graphql/8gb4ZA5v6MNCwNWqhNPPlw/UrtFixtures",
+      "queryId": "8gb4ZA5v6MNCwNWqhNPPlw",
       "method": "GET",
       "features": {
-        "responsive_web_live_screen_enabled": false,
         "rweb_tipjar_consumption_enabled": true,
         "responsive_web_graphql_exclude_directive_enabled": true,
         "verified_phone_label_enabled": false,
@@ -2898,11 +2810,10 @@
       }
     },
     "UserArticlesTweets": {
-      "url": "https://x.com/i/api/graphql/rzJkb8adKgzgss0c82_3kA/UserArticlesTweets",
-      "queryId": "rzJkb8adKgzgss0c82_3kA",
+      "url": "https://x.com/i/api/graphql/jMfvprh5jOT6S_wYiap7iQ/UserArticlesTweets",
+      "queryId": "jMfvprh5jOT6S_wYiap7iQ",
       "method": "GET",
       "features": {
-        "responsive_web_live_screen_enabled": false,
         "rweb_tipjar_consumption_enabled": true,
         "responsive_web_graphql_exclude_directive_enabled": true,
         "verified_phone_label_enabled": false,
@@ -2929,11 +2840,10 @@
       }
     },
     "UserBusinessProfileTeamTimeline": {
-      "url": "https://x.com/i/api/graphql/X9uHOcb6BLlRuRXkAtfH5A/UserBusinessProfileTeamTimeline",
-      "queryId": "X9uHOcb6BLlRuRXkAtfH5A",
+      "url": "https://x.com/i/api/graphql/XYqUSiavnYlUEJsB2bRBbA/UserBusinessProfileTeamTimeline",
+      "queryId": "XYqUSiavnYlUEJsB2bRBbA",
       "method": "GET",
       "features": {
-        "responsive_web_live_screen_enabled": false,
         "rweb_tipjar_consumption_enabled": true,
         "responsive_web_graphql_exclude_directive_enabled": true,
         "verified_phone_label_enabled": false,
@@ -2960,12 +2870,11 @@
       }
     },
     "UserByRestId": {
-      "url": "https://x.com/i/api/graphql/j0mePQnEe3z1qS4WUeFwwQ/UserByRestId",
-      "queryId": "j0mePQnEe3z1qS4WUeFwwQ",
+      "url": "https://x.com/i/api/graphql/cyctxGFWi-3N5RUlEWQhWg/UserByRestId",
+      "queryId": "cyctxGFWi-3N5RUlEWQhWg",
       "method": "GET",
       "features": {
         "hidden_profile_subscriptions_enabled": true,
-        "responsive_web_live_screen_enabled": false,
         "rweb_tipjar_consumption_enabled": true,
         "responsive_web_graphql_exclude_directive_enabled": true,
         "verified_phone_label_enabled": false,
@@ -2978,12 +2887,11 @@
       }
     },
     "UserByScreenName": {
-      "url": "https://x.com/i/api/graphql/GDCXHC4H0k5KsULE_8EjAQ/UserByScreenName",
-      "queryId": "GDCXHC4H0k5KsULE_8EjAQ",
+      "url": "https://x.com/i/api/graphql/laYnJPCAcVo0o6pzcnlVxQ/UserByScreenName",
+      "queryId": "laYnJPCAcVo0o6pzcnlVxQ",
       "method": "GET",
       "features": {
         "hidden_profile_subscriptions_enabled": true,
-        "responsive_web_live_screen_enabled": false,
         "rweb_tipjar_consumption_enabled": true,
         "responsive_web_graphql_exclude_directive_enabled": true,
         "verified_phone_label_enabled": false,
@@ -3004,11 +2912,10 @@
       "features": {}
     },
     "UserCreatorSubscribers": {
-      "url": "https://x.com/i/api/graphql/bFtfX9wKU8P-Tj4egOcwhw/UserCreatorSubscribers",
-      "queryId": "bFtfX9wKU8P-Tj4egOcwhw",
+      "url": "https://x.com/i/api/graphql/Yh74Ee_JLrurM9BqRmegyw/UserCreatorSubscribers",
+      "queryId": "Yh74Ee_JLrurM9BqRmegyw",
       "method": "GET",
       "features": {
-        "responsive_web_live_screen_enabled": false,
         "rweb_tipjar_consumption_enabled": true,
         "responsive_web_graphql_exclude_directive_enabled": true,
         "verified_phone_label_enabled": false,
@@ -3035,11 +2942,10 @@
       }
     },
     "UserCreatorSubscriptions": {
-      "url": "https://x.com/i/api/graphql/dId-GsDMv7h4DXBFPvL3uw/UserCreatorSubscriptions",
-      "queryId": "dId-GsDMv7h4DXBFPvL3uw",
+      "url": "https://x.com/i/api/graphql/LE6RjmjkSMWorQcJu55wFg/UserCreatorSubscriptions",
+      "queryId": "LE6RjmjkSMWorQcJu55wFg",
       "method": "GET",
       "features": {
-        "responsive_web_live_screen_enabled": false,
         "rweb_tipjar_consumption_enabled": true,
         "responsive_web_graphql_exclude_directive_enabled": true,
         "verified_phone_label_enabled": false,
@@ -3066,11 +2972,10 @@
       }
     },
     "UserHighlightsTweets": {
-      "url": "https://x.com/i/api/graphql/W7LrhT-CbvRsL6W1YpHv5Q/UserHighlightsTweets",
-      "queryId": "W7LrhT-CbvRsL6W1YpHv5Q",
+      "url": "https://x.com/i/api/graphql/Ei7DpEm7kboTr2zY_9kiqQ/UserHighlightsTweets",
+      "queryId": "Ei7DpEm7kboTr2zY_9kiqQ",
       "method": "GET",
       "features": {
-        "responsive_web_live_screen_enabled": false,
         "rweb_tipjar_consumption_enabled": true,
         "responsive_web_graphql_exclude_directive_enabled": true,
         "verified_phone_label_enabled": false,
@@ -3097,11 +3002,10 @@
       }
     },
     "UserMedia": {
-      "url": "https://x.com/i/api/graphql/sWJ149Rq280Z3LPhtCTSqQ/UserMedia",
-      "queryId": "sWJ149Rq280Z3LPhtCTSqQ",
+      "url": "https://x.com/i/api/graphql/HaouMjBviBKKTYZGV_9qtg/UserMedia",
+      "queryId": "HaouMjBviBKKTYZGV_9qtg",
       "method": "GET",
       "features": {
-        "responsive_web_live_screen_enabled": false,
         "rweb_tipjar_consumption_enabled": true,
         "responsive_web_graphql_exclude_directive_enabled": true,
         "verified_phone_label_enabled": false,
@@ -3134,11 +3038,10 @@
       "features": {}
     },
     "UserPromotableTweets": {
-      "url": "https://x.com/i/api/graphql/q6pRKNqU3PCKbfyyy5Lo-Q/UserPromotableTweets",
-      "queryId": "q6pRKNqU3PCKbfyyy5Lo-Q",
+      "url": "https://x.com/i/api/graphql/U3F2ZVlFnRMtQX5C63Soag/UserPromotableTweets",
+      "queryId": "U3F2ZVlFnRMtQX5C63Soag",
       "method": "GET",
       "features": {
-        "responsive_web_live_screen_enabled": false,
         "rweb_tipjar_consumption_enabled": true,
         "responsive_web_graphql_exclude_directive_enabled": true,
         "verified_phone_label_enabled": false,
@@ -3171,11 +3074,10 @@
       "features": {}
     },
     "UserSuperFollowTweets": {
-      "url": "https://x.com/i/api/graphql/MXSP7zQAuJWWWrEDGon5PQ/UserSuperFollowTweets",
-      "queryId": "MXSP7zQAuJWWWrEDGon5PQ",
+      "url": "https://x.com/i/api/graphql/wu7a66Pp-AC4oIkfeFhNLQ/UserSuperFollowTweets",
+      "queryId": "wu7a66Pp-AC4oIkfeFhNLQ",
       "method": "GET",
       "features": {
-        "responsive_web_live_screen_enabled": false,
         "rweb_tipjar_consumption_enabled": true,
         "responsive_web_graphql_exclude_directive_enabled": true,
         "verified_phone_label_enabled": false,
@@ -3202,11 +3104,10 @@
       }
     },
     "UserTweets": {
-      "url": "https://x.com/i/api/graphql/F_gCJRQooCZ0T74rGl4q9Q/UserTweets",
-      "queryId": "F_gCJRQooCZ0T74rGl4q9Q",
+      "url": "https://x.com/i/api/graphql/Tg82Ez_kxVaJf7OPbUdbCg/UserTweets",
+      "queryId": "Tg82Ez_kxVaJf7OPbUdbCg",
       "method": "GET",
       "features": {
-        "responsive_web_live_screen_enabled": false,
         "rweb_tipjar_consumption_enabled": true,
         "responsive_web_graphql_exclude_directive_enabled": true,
         "verified_phone_label_enabled": false,
@@ -3233,11 +3134,10 @@
       }
     },
     "UserTweetsAndReplies": {
-      "url": "https://x.com/i/api/graphql/lA6nqxEr0rtJtoZX57S3Zg/UserTweetsAndReplies",
-      "queryId": "lA6nqxEr0rtJtoZX57S3Zg",
+      "url": "https://x.com/i/api/graphql/HmWGzuzXoI6uFqqX6QNhEg/UserTweetsAndReplies",
+      "queryId": "HmWGzuzXoI6uFqqX6QNhEg",
       "method": "GET",
       "features": {
-        "responsive_web_live_screen_enabled": false,
         "rweb_tipjar_consumption_enabled": true,
         "responsive_web_graphql_exclude_directive_enabled": true,
         "verified_phone_label_enabled": false,
@@ -3264,11 +3164,10 @@
       }
     },
     "UsersByRestIds": {
-      "url": "https://x.com/i/api/graphql/jYxeBkU5LqtbW7xqh7yrXA/UsersByRestIds",
-      "queryId": "jYxeBkU5LqtbW7xqh7yrXA",
+      "url": "https://x.com/i/api/graphql/lc85bOG5T3IIS4u485VtBg/UsersByRestIds",
+      "queryId": "lc85bOG5T3IIS4u485VtBg",
       "method": "GET",
       "features": {
-        "responsive_web_live_screen_enabled": false,
         "rweb_tipjar_consumption_enabled": true,
         "responsive_web_graphql_exclude_directive_enabled": true,
         "verified_phone_label_enabled": false,
@@ -3285,11 +3184,10 @@
       }
     },
     "Viewer": {
-      "url": "https://x.com/i/api/graphql/tPhlM0egjOOHc3_C5ASX9Q/Viewer",
-      "queryId": "tPhlM0egjOOHc3_C5ASX9Q",
+      "url": "https://x.com/i/api/graphql/UhddhjWCl-JMqeiG4vPtvw/Viewer",
+      "queryId": "UhddhjWCl-JMqeiG4vPtvw",
       "method": "GET",
       "features": {
-        "responsive_web_live_screen_enabled": false,
         "rweb_tipjar_consumption_enabled": true,
         "responsive_web_graphql_exclude_directive_enabled": true,
         "verified_phone_label_enabled": false,
@@ -3299,11 +3197,10 @@
       }
     },
     "ViewingOtherUsersTopicsPage": {
-      "url": "https://x.com/i/api/graphql/th6HVlE2PcFSaEP1Et_HGQ/ViewingOtherUsersTopicsPage",
-      "queryId": "th6HVlE2PcFSaEP1Et_HGQ",
+      "url": "https://x.com/i/api/graphql/sGzdMcOv6TVGgc0DkSpSBw/ViewingOtherUsersTopicsPage",
+      "queryId": "sGzdMcOv6TVGgc0DkSpSBw",
       "method": "GET",
       "features": {
-        "responsive_web_live_screen_enabled": false,
         "rweb_tipjar_consumption_enabled": true,
         "responsive_web_graphql_exclude_directive_enabled": true,
         "verified_phone_label_enabled": false,
@@ -3330,15 +3227,14 @@
       }
     },
     "AudioSpaceAddSharing": {
-      "url": "https://x.com/i/api/graphql/PbCL4cNOtv3c-dZimHq_2Q/AudioSpaceAddSharing",
-      "queryId": "PbCL4cNOtv3c-dZimHq_2Q",
+      "url": "https://x.com/i/api/graphql/ci8IEzVJYddn4ow3rmKoIw/AudioSpaceAddSharing",
+      "queryId": "ci8IEzVJYddn4ow3rmKoIw",
       "method": "POST",
       "features": {
         "creator_subscriptions_tweet_preview_api_enabled": true,
         "communities_web_enable_tweet_community_results_fetch": true,
         "c9s_tweet_anatomy_moderator_badge_enabled": true,
         "articles_preview_enabled": true,
-        "responsive_web_live_screen_enabled": false,
         "rweb_tipjar_consumption_enabled": true,
         "responsive_web_graphql_exclude_directive_enabled": true,
         "verified_phone_label_enabled": false,
@@ -3361,14 +3257,13 @@
       }
     },
     "AudioSpaceById": {
-      "url": "https://x.com/i/api/graphql/SGn5d-fPqBl-8-dFXpDBIg/AudioSpaceById",
-      "queryId": "SGn5d-fPqBl-8-dFXpDBIg",
+      "url": "https://x.com/i/api/graphql/p8k4kaPusjNj85gj8w_YAQ/AudioSpaceById",
+      "queryId": "p8k4kaPusjNj85gj8w_YAQ",
       "method": "GET",
       "features": {
         "spaces_2022_h2_spaces_communities": true,
         "spaces_2022_h2_clipping": true,
         "creator_subscriptions_tweet_preview_api_enabled": true,
-        "responsive_web_live_screen_enabled": false,
         "rweb_tipjar_consumption_enabled": true,
         "responsive_web_graphql_exclude_directive_enabled": true,
         "verified_phone_label_enabled": false,
@@ -3460,8 +3355,8 @@
       "features": {}
     },
     "GrokConversationItemsByRestId": {
-      "url": "https://x.com/i/api/graphql/S9vReAhenkbulnuzHVzB_A/GrokConversationItemsByRestId",
-      "queryId": "S9vReAhenkbulnuzHVzB_A",
+      "url": "https://x.com/i/api/graphql/QQ4ARJJcWyaCPCtZakRCpQ/GrokConversationItemsByRestId",
+      "queryId": "QQ4ARJJcWyaCPCtZakRCpQ",
       "method": "GET",
       "features": {
         "creator_subscriptions_tweet_preview_api_enabled": true,
@@ -3481,7 +3376,6 @@
         "rweb_video_timestamps_enabled": true,
         "longform_notetweets_rich_text_read_enabled": true,
         "longform_notetweets_inline_media_enabled": true,
-        "responsive_web_live_screen_enabled": false,
         "rweb_tipjar_consumption_enabled": true,
         "responsive_web_graphql_exclude_directive_enabled": true,
         "verified_phone_label_enabled": false,
@@ -3515,8 +3409,8 @@
       "features": {}
     },
     "GrokShare": {
-      "url": "https://x.com/i/api/graphql/6x9C0QG406-6tpvMVHVZxg/GrokShare",
-      "queryId": "6x9C0QG406-6tpvMVHVZxg",
+      "url": "https://x.com/i/api/graphql/mZifVs_wtTiQvHmRhn81pQ/GrokShare",
+      "queryId": "mZifVs_wtTiQvHmRhn81pQ",
       "method": "GET",
       "features": {
         "creator_subscriptions_tweet_preview_api_enabled": true,
@@ -3536,7 +3430,6 @@
         "rweb_video_timestamps_enabled": true,
         "longform_notetweets_rich_text_read_enabled": true,
         "longform_notetweets_inline_media_enabled": true,
-        "responsive_web_live_screen_enabled": false,
         "rweb_tipjar_consumption_enabled": true,
         "responsive_web_graphql_exclude_directive_enabled": true,
         "verified_phone_label_enabled": false,
@@ -3624,12 +3517,11 @@
       "features": {}
     },
     "DmAllSearchSlice": {
-      "url": "https://x.com/i/api/graphql/lSl3eSS7L3q1Qh37KzY0Iw/DmAllSearchSlice",
-      "queryId": "lSl3eSS7L3q1Qh37KzY0Iw",
+      "url": "https://x.com/i/api/graphql/ePM6bnP2Qv0vcxcM0HRUVw/DmAllSearchSlice",
+      "queryId": "ePM6bnP2Qv0vcxcM0HRUVw",
       "method": "GET",
       "features": {
         "rweb_video_timestamps_enabled": true,
-        "responsive_web_live_screen_enabled": false,
         "rweb_tipjar_consumption_enabled": true,
         "responsive_web_graphql_exclude_directive_enabled": true,
         "verified_phone_label_enabled": false,
@@ -3644,11 +3536,10 @@
       "features": {}
     },
     "DmMutedTimeline": {
-      "url": "https://x.com/i/api/graphql/keHXKpcohrYLCVw1Ta6UIQ/DmMutedTimeline",
-      "queryId": "keHXKpcohrYLCVw1Ta6UIQ",
+      "url": "https://x.com/i/api/graphql/i0uGqCvD_eaYgdCkYlRgSA/DmMutedTimeline",
+      "queryId": "i0uGqCvD_eaYgdCkYlRgSA",
       "method": "GET",
       "features": {
-        "responsive_web_live_screen_enabled": false,
         "rweb_tipjar_consumption_enabled": true,
         "responsive_web_graphql_exclude_directive_enabled": true,
         "verified_phone_label_enabled": false,
@@ -3681,11 +3572,10 @@
       "features": {}
     },
     "ImmersiveMedia": {
-      "url": "https://x.com/i/api/graphql/33u3k5GRHen5SNQqFtZU4w/ImmersiveMedia",
-      "queryId": "33u3k5GRHen5SNQqFtZU4w",
+      "url": "https://x.com/i/api/graphql/8gB1kvCeqHbK_6KfOTzUlg/ImmersiveMedia",
+      "queryId": "8gB1kvCeqHbK_6KfOTzUlg",
       "method": "GET",
       "features": {
-        "responsive_web_live_screen_enabled": false,
         "rweb_tipjar_consumption_enabled": true,
         "responsive_web_graphql_exclude_directive_enabled": true,
         "verified_phone_label_enabled": false,
@@ -3712,11 +3602,10 @@
       }
     },
     "ImmersiveProfile": {
-      "url": "https://x.com/i/api/graphql/rQSk2HZxj_6qsdAj4TmYyQ/ImmersiveProfile",
-      "queryId": "rQSk2HZxj_6qsdAj4TmYyQ",
+      "url": "https://x.com/i/api/graphql/VANK3QHO0X_oYPI-dxyytQ/ImmersiveProfile",
+      "queryId": "VANK3QHO0X_oYPI-dxyytQ",
       "method": "GET",
       "features": {
-        "responsive_web_live_screen_enabled": false,
         "rweb_tipjar_consumption_enabled": true,
         "responsive_web_graphql_exclude_directive_enabled": true,
         "verified_phone_label_enabled": false,
@@ -3755,11 +3644,10 @@
       "features": {}
     },
     "TVHomeMixer": {
-      "url": "https://x.com/i/api/graphql/uV1_AvXTBezvtRcrQ_pOAg/TVHomeMixer",
-      "queryId": "uV1_AvXTBezvtRcrQ_pOAg",
+      "url": "https://x.com/i/api/graphql/8cwbz17d9LlWv2cNH_iapQ/TVHomeMixer",
+      "queryId": "8cwbz17d9LlWv2cNH_iapQ",
       "method": "GET",
       "features": {
-        "responsive_web_live_screen_enabled": false,
         "rweb_tipjar_consumption_enabled": true,
         "responsive_web_graphql_exclude_directive_enabled": true,
         "verified_phone_label_enabled": false,
@@ -3786,11 +3674,10 @@
       }
     },
     "TVTrend": {
-      "url": "https://x.com/i/api/graphql/a2ZcQSnh8r-RBIPdecsPrw/TVTrend",
-      "queryId": "a2ZcQSnh8r-RBIPdecsPrw",
+      "url": "https://x.com/i/api/graphql/oSnBBr52GBVNlymo90fz9Q/TVTrend",
+      "queryId": "oSnBBr52GBVNlymo90fz9Q",
       "method": "GET",
       "features": {
-        "responsive_web_live_screen_enabled": false,
         "rweb_tipjar_consumption_enabled": true,
         "responsive_web_graphql_exclude_directive_enabled": true,
         "verified_phone_label_enabled": false,
@@ -3817,11 +3704,10 @@
       }
     },
     "TVUserProfile": {
-      "url": "https://x.com/i/api/graphql/eGNE3i-BGvD2kTCEPBkkhA/TVUserProfile",
-      "queryId": "eGNE3i-BGvD2kTCEPBkkhA",
+      "url": "https://x.com/i/api/graphql/Th7yKebD9G1s5rGL875B7w/TVUserProfile",
+      "queryId": "Th7yKebD9G1s5rGL875B7w",
       "method": "GET",
       "features": {
-        "responsive_web_live_screen_enabled": false,
         "rweb_tipjar_consumption_enabled": true,
         "responsive_web_graphql_exclude_directive_enabled": true,
         "verified_phone_label_enabled": false,
@@ -3848,11 +3734,10 @@
       }
     },
     "TweetRelatedVideos": {
-      "url": "https://x.com/i/api/graphql/jSVc8E2JrvkneqazdcuC0Q/TweetRelatedVideos",
-      "queryId": "jSVc8E2JrvkneqazdcuC0Q",
+      "url": "https://x.com/i/api/graphql/zj6XVmiDdkJOYENjJTO9Eg/TweetRelatedVideos",
+      "queryId": "zj6XVmiDdkJOYENjJTO9Eg",
       "method": "GET",
       "features": {
-        "responsive_web_live_screen_enabled": false,
         "rweb_tipjar_consumption_enabled": true,
         "responsive_web_graphql_exclude_directive_enabled": true,
         "verified_phone_label_enabled": false,
@@ -3879,11 +3764,10 @@
       }
     },
     "ArticleTimeline": {
-      "url": "https://x.com/i/api/graphql/FRE5-khWCxBYc4TqS67zLA/ArticleTimeline",
-      "queryId": "FRE5-khWCxBYc4TqS67zLA",
+      "url": "https://x.com/i/api/graphql/3U9Hjo7rKWUOeF3fQnYh4g/ArticleTimeline",
+      "queryId": "3U9Hjo7rKWUOeF3fQnYh4g",
       "method": "GET",
       "features": {
-        "responsive_web_live_screen_enabled": false,
         "rweb_tipjar_consumption_enabled": true,
         "responsive_web_graphql_exclude_directive_enabled": true,
         "verified_phone_label_enabled": false,
@@ -3910,11 +3794,10 @@
       }
     },
     "ArticleTweetsTimeline": {
-      "url": "https://x.com/i/api/graphql/8D74pekGi9AJ7SvfYYJNtA/ArticleTweetsTimeline",
-      "queryId": "8D74pekGi9AJ7SvfYYJNtA",
+      "url": "https://x.com/i/api/graphql/yhEUDhzauT30GSevw25WWg/ArticleTweetsTimeline",
+      "queryId": "yhEUDhzauT30GSevw25WWg",
       "method": "GET",
       "features": {
-        "responsive_web_live_screen_enabled": false,
         "rweb_tipjar_consumption_enabled": true,
         "responsive_web_graphql_exclude_directive_enabled": true,
         "verified_phone_label_enabled": false,
@@ -3953,8 +3836,8 @@
       "features": {}
     },
     "BirdwatchFetchAuthenticatedBirdwatchMatchSlice": {
-      "url": "https://x.com/i/api/graphql/Ta84Z4D-9ih8PGiHIGsHJQ/BirdwatchFetchAuthenticatedBirdwatchMatchSlice",
-      "queryId": "Ta84Z4D-9ih8PGiHIGsHJQ",
+      "url": "https://x.com/i/api/graphql/XVHNrA2H3kpu99lm_u3_Hg/BirdwatchFetchAuthenticatedBirdwatchMatchSlice",
+      "queryId": "XVHNrA2H3kpu99lm_u3_Hg",
       "method": "GET",
       "features": {
         "creator_subscriptions_tweet_preview_api_enabled": true,
@@ -3974,7 +3857,6 @@
         "rweb_video_timestamps_enabled": true,
         "longform_notetweets_rich_text_read_enabled": true,
         "longform_notetweets_inline_media_enabled": true,
-        "responsive_web_live_screen_enabled": false,
         "rweb_tipjar_consumption_enabled": true,
         "responsive_web_graphql_exclude_directive_enabled": true,
         "verified_phone_label_enabled": false,
@@ -3984,8 +3866,8 @@
       }
     },
     "BirdwatchFetchContributorNotesSlice": {
-      "url": "https://x.com/i/api/graphql/bD98TyAVeAZC3MPluLm69Q/BirdwatchFetchContributorNotesSlice",
-      "queryId": "bD98TyAVeAZC3MPluLm69Q",
+      "url": "https://x.com/i/api/graphql/VyycAPcXi0XvKoLqdhNpOg/BirdwatchFetchContributorNotesSlice",
+      "queryId": "VyycAPcXi0XvKoLqdhNpOg",
       "method": "GET",
       "features": {
         "responsive_web_birdwatch_media_notes_enabled": true,
@@ -4007,7 +3889,6 @@
         "rweb_video_timestamps_enabled": true,
         "longform_notetweets_rich_text_read_enabled": true,
         "longform_notetweets_inline_media_enabled": true,
-        "responsive_web_live_screen_enabled": false,
         "rweb_tipjar_consumption_enabled": true,
         "responsive_web_graphql_exclude_directive_enabled": true,
         "verified_phone_label_enabled": false,
@@ -4029,8 +3910,8 @@
       "features": {}
     },
     "BirdwatchCreateNote": {
-      "url": "https://x.com/i/api/graphql/ryucjWaj0lPOUACZ8xECRA/BirdwatchCreateNote",
-      "queryId": "ryucjWaj0lPOUACZ8xECRA",
+      "url": "https://x.com/i/api/graphql/KgOeY941_LNuDyolnapg4Q/BirdwatchCreateNote",
+      "queryId": "KgOeY941_LNuDyolnapg4Q",
       "method": "POST",
       "features": {
         "responsive_web_birdwatch_media_notes_enabled": true,
@@ -4038,7 +3919,6 @@
         "responsive_web_birdwatch_translation_enabled": true,
         "responsive_web_birdwatch_fast_notes_badge_enabled": false,
         "responsive_web_graphql_timeline_navigation_enabled": true,
-        "responsive_web_live_screen_enabled": false,
         "rweb_tipjar_consumption_enabled": true,
         "responsive_web_graphql_exclude_directive_enabled": true,
         "verified_phone_label_enabled": false,
@@ -4125,11 +4005,10 @@
       }
     },
     "BirdwatchFetchGlobalTimeline": {
-      "url": "https://x.com/i/api/graphql/c7cLf4E1f_hbTgIyIAoyiQ/BirdwatchFetchGlobalTimeline",
-      "queryId": "c7cLf4E1f_hbTgIyIAoyiQ",
+      "url": "https://x.com/i/api/graphql/9TNlnKM4cSOwNE4txrtnJQ/BirdwatchFetchGlobalTimeline",
+      "queryId": "9TNlnKM4cSOwNE4txrtnJQ",
       "method": "GET",
       "features": {
-        "responsive_web_live_screen_enabled": false,
         "rweb_tipjar_consumption_enabled": true,
         "responsive_web_graphql_exclude_directive_enabled": true,
         "verified_phone_label_enabled": false,
@@ -4156,13 +4035,12 @@
       }
     },
     "BirdwatchFetchNoteTranslation": {
-      "url": "https://x.com/i/api/graphql/WGdwx3t_PQ5R0orUskXbBQ/BirdwatchFetchNoteTranslation",
-      "queryId": "WGdwx3t_PQ5R0orUskXbBQ",
+      "url": "https://x.com/i/api/graphql/NSGfxkzewcd2USQrjxFgWw/BirdwatchFetchNoteTranslation",
+      "queryId": "NSGfxkzewcd2USQrjxFgWw",
       "method": "GET",
       "features": {
         "responsive_web_birdwatch_translation_enabled": true,
         "responsive_web_graphql_timeline_navigation_enabled": true,
-        "responsive_web_live_screen_enabled": false,
         "rweb_tipjar_consumption_enabled": true,
         "responsive_web_graphql_exclude_directive_enabled": true,
         "verified_phone_label_enabled": false,
@@ -4170,8 +4048,8 @@
       }
     },
     "BirdwatchFetchNotes": {
-      "url": "https://x.com/i/api/graphql/WmjS2RV8u4-qYfLC37eeYQ/BirdwatchFetchNotes",
-      "queryId": "WmjS2RV8u4-qYfLC37eeYQ",
+      "url": "https://x.com/i/api/graphql/3G9Ms1POEEiF86dFhV-tTg/BirdwatchFetchNotes",
+      "queryId": "3G9Ms1POEEiF86dFhV-tTg",
       "method": "GET",
       "features": {
         "responsive_web_birdwatch_media_notes_enabled": true,
@@ -4179,7 +4057,6 @@
         "responsive_web_birdwatch_translation_enabled": true,
         "responsive_web_birdwatch_fast_notes_badge_enabled": false,
         "responsive_web_graphql_timeline_navigation_enabled": true,
-        "responsive_web_live_screen_enabled": false,
         "rweb_tipjar_consumption_enabled": true,
         "responsive_web_graphql_exclude_directive_enabled": true,
         "verified_phone_label_enabled": false,
@@ -4187,8 +4064,8 @@
       }
     },
     "BirdwatchFetchOneNote": {
-      "url": "https://x.com/i/api/graphql/Cvc13UGln1xVpQ2o59rNjQ/BirdwatchFetchOneNote",
-      "queryId": "Cvc13UGln1xVpQ2o59rNjQ",
+      "url": "https://x.com/i/api/graphql/TCCuBAotz4ejz0_9iGjm6w/BirdwatchFetchOneNote",
+      "queryId": "TCCuBAotz4ejz0_9iGjm6w",
       "method": "GET",
       "features": {
         "responsive_web_birdwatch_media_notes_enabled": true,
@@ -4196,7 +4073,6 @@
         "responsive_web_birdwatch_translation_enabled": true,
         "responsive_web_birdwatch_fast_notes_badge_enabled": false,
         "responsive_web_graphql_timeline_navigation_enabled": true,
-        "responsive_web_live_screen_enabled": false,
         "rweb_tipjar_consumption_enabled": true,
         "responsive_web_graphql_exclude_directive_enabled": true,
         "verified_phone_label_enabled": false,
@@ -4236,11 +4112,10 @@
       "features": {}
     },
     "ArticleEntitiesSlice": {
-      "url": "https://x.com/i/api/graphql/nS6BCfLRL31YemiPEE9vlg/ArticleEntitiesSlice",
-      "queryId": "nS6BCfLRL31YemiPEE9vlg",
+      "url": "https://x.com/i/api/graphql/LH2BI9rW7YOeCbIOPxBnhA/ArticleEntitiesSlice",
+      "queryId": "LH2BI9rW7YOeCbIOPxBnhA",
       "method": "GET",
       "features": {
-        "responsive_web_live_screen_enabled": false,
         "rweb_tipjar_consumption_enabled": true,
         "responsive_web_graphql_exclude_directive_enabled": true,
         "verified_phone_label_enabled": false,
@@ -4255,11 +4130,10 @@
       "features": {}
     },
     "ArticleEntityDraftCreate": {
-      "url": "https://x.com/i/api/graphql/G_o2bfIOag_KBdHORsnpfQ/ArticleEntityDraftCreate",
-      "queryId": "G_o2bfIOag_KBdHORsnpfQ",
+      "url": "https://x.com/i/api/graphql/J2PxTUKM_2LXmNcS67UsjA/ArticleEntityDraftCreate",
+      "queryId": "J2PxTUKM_2LXmNcS67UsjA",
       "method": "POST",
       "features": {
-        "responsive_web_live_screen_enabled": false,
         "rweb_tipjar_consumption_enabled": true,
         "responsive_web_graphql_exclude_directive_enabled": true,
         "verified_phone_label_enabled": false,
@@ -4268,11 +4142,10 @@
       }
     },
     "ArticleEntityPublish": {
-      "url": "https://x.com/i/api/graphql/pLimS1AgcUw7thQR8Z7__Q/ArticleEntityPublish",
-      "queryId": "pLimS1AgcUw7thQR8Z7__Q",
+      "url": "https://x.com/i/api/graphql/e4tRyng1zR4uaHH5QL29JA/ArticleEntityPublish",
+      "queryId": "e4tRyng1zR4uaHH5QL29JA",
       "method": "POST",
       "features": {
-        "responsive_web_live_screen_enabled": false,
         "rweb_tipjar_consumption_enabled": true,
         "responsive_web_graphql_exclude_directive_enabled": true,
         "verified_phone_label_enabled": false,
@@ -4281,11 +4154,10 @@
       }
     },
     "ArticleEntityResultByRestId": {
-      "url": "https://x.com/i/api/graphql/0O4i-8klEWyzjxX-nsfPOg/ArticleEntityResultByRestId",
-      "queryId": "0O4i-8klEWyzjxX-nsfPOg",
+      "url": "https://x.com/i/api/graphql/iix4RidrzLO82y0MzPVjlg/ArticleEntityResultByRestId",
+      "queryId": "iix4RidrzLO82y0MzPVjlg",
       "method": "GET",
       "features": {
-        "responsive_web_live_screen_enabled": false,
         "rweb_tipjar_consumption_enabled": true,
         "responsive_web_graphql_exclude_directive_enabled": true,
         "verified_phone_label_enabled": false,
@@ -4294,11 +4166,10 @@
       }
     },
     "ArticleEntityUnpublish": {
-      "url": "https://x.com/i/api/graphql/JHAIcVf_c_8SlOLKH4655w/ArticleEntityUnpublish",
-      "queryId": "JHAIcVf_c_8SlOLKH4655w",
+      "url": "https://x.com/i/api/graphql/KQGXIwDGZKHc8E9hT6MGzQ/ArticleEntityUnpublish",
+      "queryId": "KQGXIwDGZKHc8E9hT6MGzQ",
       "method": "POST",
       "features": {
-        "responsive_web_live_screen_enabled": false,
         "rweb_tipjar_consumption_enabled": true,
         "responsive_web_graphql_exclude_directive_enabled": true,
         "verified_phone_label_enabled": false,
@@ -4307,11 +4178,10 @@
       }
     },
     "ArticleEntityUpdateContent": {
-      "url": "https://x.com/i/api/graphql/lQ9q8zmdwFbVU-d2p0lXRQ/ArticleEntityUpdateContent",
-      "queryId": "lQ9q8zmdwFbVU-d2p0lXRQ",
+      "url": "https://x.com/i/api/graphql/L5xzXoYjhXLWJTNz9JnMlA/ArticleEntityUpdateContent",
+      "queryId": "L5xzXoYjhXLWJTNz9JnMlA",
       "method": "POST",
       "features": {
-        "responsive_web_live_screen_enabled": false,
         "rweb_tipjar_consumption_enabled": true,
         "responsive_web_graphql_exclude_directive_enabled": true,
         "verified_phone_label_enabled": false,
@@ -4320,11 +4190,10 @@
       }
     },
     "ArticleEntityUpdateCoverMedia": {
-      "url": "https://x.com/i/api/graphql/wIDrkkNhWZkG9KRhl65KJQ/ArticleEntityUpdateCoverMedia",
-      "queryId": "wIDrkkNhWZkG9KRhl65KJQ",
+      "url": "https://x.com/i/api/graphql/VgPUYWD3hoUpnyW-WHFEEA/ArticleEntityUpdateCoverMedia",
+      "queryId": "VgPUYWD3hoUpnyW-WHFEEA",
       "method": "POST",
       "features": {
-        "responsive_web_live_screen_enabled": false,
         "rweb_tipjar_consumption_enabled": true,
         "responsive_web_graphql_exclude_directive_enabled": true,
         "verified_phone_label_enabled": false,
@@ -4333,11 +4202,10 @@
       }
     },
     "ArticleEntityUpdateTitle": {
-      "url": "https://x.com/i/api/graphql/soe1alpUjCg_9LOTRWBvSA/ArticleEntityUpdateTitle",
-      "queryId": "soe1alpUjCg_9LOTRWBvSA",
+      "url": "https://x.com/i/api/graphql/xzs3XH-rZWjKF6Va8xQy9A/ArticleEntityUpdateTitle",
+      "queryId": "xzs3XH-rZWjKF6Va8xQy9A",
       "method": "POST",
       "features": {
-        "responsive_web_live_screen_enabled": false,
         "rweb_tipjar_consumption_enabled": true,
         "responsive_web_graphql_exclude_directive_enabled": true,
         "verified_phone_label_enabled": false,
@@ -4370,11 +4238,10 @@
       "features": {}
     },
     "SidebarUserRecommendations": {
-      "url": "https://x.com/i/api/graphql/alxK54MBIHKpwhXGfamCBQ/SidebarUserRecommendations",
-      "queryId": "alxK54MBIHKpwhXGfamCBQ",
+      "url": "https://x.com/i/api/graphql/AkZZAcY6Sl1eJQyZyKw7Eg/SidebarUserRecommendations",
+      "queryId": "AkZZAcY6Sl1eJQyZyKw7Eg",
       "method": "GET",
       "features": {
-        "responsive_web_live_screen_enabled": false,
         "rweb_tipjar_consumption_enabled": true,
         "responsive_web_graphql_exclude_directive_enabled": true,
         "verified_phone_label_enabled": false,
@@ -4383,11 +4250,10 @@
       }
     },
     "Favoriters": {
-      "url": "https://x.com/i/api/graphql/7BaxLRGn2DJg6cm_4a6JZg/Favoriters",
-      "queryId": "7BaxLRGn2DJg6cm_4a6JZg",
+      "url": "https://x.com/i/api/graphql/riUYr3PwuHNe4tCmzjPNrg/Favoriters",
+      "queryId": "riUYr3PwuHNe4tCmzjPNrg",
       "method": "GET",
       "features": {
-        "responsive_web_live_screen_enabled": false,
         "rweb_tipjar_consumption_enabled": true,
         "responsive_web_graphql_exclude_directive_enabled": true,
         "verified_phone_label_enabled": false,
@@ -4414,11 +4280,10 @@
       }
     },
     "Retweeters": {
-      "url": "https://x.com/i/api/graphql/LlT3dJp_dVNYiWd8QJ_fww/Retweeters",
-      "queryId": "LlT3dJp_dVNYiWd8QJ_fww",
+      "url": "https://x.com/i/api/graphql/rPcOnVhyaTBQrVgPuY7x7A/Retweeters",
+      "queryId": "rPcOnVhyaTBQrVgPuY7x7A",
       "method": "GET",
       "features": {
-        "responsive_web_live_screen_enabled": false,
         "rweb_tipjar_consumption_enabled": true,
         "responsive_web_graphql_exclude_directive_enabled": true,
         "verified_phone_label_enabled": false,
@@ -4445,8 +4310,8 @@
       }
     },
     "TweetEditHistory": {
-      "url": "https://x.com/i/api/graphql/U8XzJdWW1Bi8itYlGgNCPg/TweetEditHistory",
-      "queryId": "U8XzJdWW1Bi8itYlGgNCPg",
+      "url": "https://x.com/i/api/graphql/9gRlKKK2bbwWgJXQI7mc7A/TweetEditHistory",
+      "queryId": "9gRlKKK2bbwWgJXQI7mc7A",
       "method": "GET",
       "features": {
         "communities_web_enable_tweet_community_results_fetch": true,
@@ -4465,7 +4330,6 @@
         "longform_notetweets_inline_media_enabled": true,
         "articles_preview_enabled": true,
         "rweb_video_timestamps_enabled": true,
-        "responsive_web_live_screen_enabled": false,
         "rweb_tipjar_consumption_enabled": true,
         "responsive_web_graphql_exclude_directive_enabled": true,
         "verified_phone_label_enabled": false,
