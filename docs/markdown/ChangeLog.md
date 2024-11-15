@@ -4623,3 +4623,20 @@
 - responsive_web_grok_web_results<br>
 #### remove<br>
 - None<br>
+## 2024/11/15<br>
+### API<br>
+#### add<br>
+- PaymentsUsersTypeahead<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- responsive_web_grok_post_understanding_button_enabled<br>
+- responsive_web_scheduling_threads_enabled<br>
+- responsive_web_signup_direct<br>
+- subscriptions_upsells_dm_card_enabled<br>
+- subscriptions_upsells_dm_card_variant<br>
+- subscriptions_upsells_profile_card_enabled<br>
+- subscriptions_upsells_profile_card_variant<br>
+#### remove<br>
+- None<br>
