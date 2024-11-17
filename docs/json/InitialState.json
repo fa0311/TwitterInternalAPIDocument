@@ -613,6 +613,9 @@
       "creator_subscriptions_email_share_enabled": {
         "value": "true"
       },
+      "creator_subscriptions_new_eligibility_requirements_enabled": {
+        "value": "false"
+      },
       "creator_subscriptions_quote_tweet_preview_enabled": {
         "value": "false"
       },
@@ -1138,6 +1141,21 @@
       "onboarding_project_uls_enabled": {
         "value": "false"
       },
+      "optimized_sru_parameters_client_side_timeout_ms": {
+        "value": "45000"
+      },
+      "optimized_sru_parameters_enabled": {
+        "value": "0"
+      },
+      "optimized_sru_parameters_ideal_upload_time_ms": {
+        "value": "20000"
+      },
+      "optimized_sru_parameters_max_segment_bytes": {
+        "value": "8387584"
+      },
+      "optimized_sru_parameters_min_segment_bytes": {
+        "value": "420"
+      },
       "papago_tweet_translation_from_korean_entity_protected": {
         "value": "false"
       },
@@ -1572,9 +1590,6 @@
       },
       "responsive_web_fetch_hashflags_on_boot": {
         "value": "false"
-      },
-      "responsive_web_follower_count_reduction_copy_enabled": {
-        "value": "true"
       },
       "responsive_web_framerate_tracking_home_enabled": {
         "value": "false"
@@ -2511,6 +2526,9 @@
       "subscriptions_gifting_help_url": {
         "value": "https://x.com/messages/compose?recipient_id&#x3D;1399766153053061121"
       },
+      "subscriptions_gifting_premium_intro_copy_enabled": {
+        "value": "false"
+      },
       "subscriptions_hide_ad_upsell_enabled": {
         "value": "true"
       },
@@ -2603,6 +2621,9 @@
       },
       "subscriptions_upsells_dm_card_variant": {
         "value": "thanksgiving"
+      },
+      "subscriptions_upsells_get_verified_button_variant": {
+        "value": ""
       },
       "subscriptions_upsells_get_verified_profile": {
         "value": "false"
@@ -3621,6 +3642,9 @@
         "creator_subscriptions_email_share_enabled": {
           "value": "true"
         },
+        "creator_subscriptions_new_eligibility_requirements_enabled": {
+          "value": "false"
+        },
         "creator_subscriptions_quote_tweet_preview_enabled": {
           "value": "false"
         },
@@ -4596,9 +4620,6 @@
         "responsive_web_fetch_hashflags_on_boot": {
           "value": "true"
         },
-        "responsive_web_follower_count_reduction_copy_enabled": {
-          "value": "true"
-        },
         "responsive_web_framerate_tracking_home_enabled": {
           "value": "false"
         },
@@ -4663,7 +4684,7 @@
           "value": "false"
         },
         "responsive_web_grok_search_first": {
-          "value": "false"
+          "value": "true"
         },
         "responsive_web_grok_share_rendering_enabled": {
           "value": "true"
@@ -4681,7 +4702,7 @@
           "value": "true"
         },
         "responsive_web_grok_web_results": {
-          "value": "false"
+          "value": "true"
         },
         "responsive_web_grok_webview_file_actions_enabled": {
           "value": "false"
@@ -5534,6 +5555,9 @@
         "subscriptions_gifting_help_url": {
           "value": "https://x.com/messages/compose?recipient_id&#x3D;1399766153053061121"
         },
+        "subscriptions_gifting_premium_intro_copy_enabled": {
+          "value": "false"
+        },
         "subscriptions_hide_ad_upsell_enabled": {
           "value": "true"
         },
@@ -5627,8 +5651,11 @@
         "subscriptions_upsells_dm_card_variant": {
           "value": "thanksgiving"
         },
+        "subscriptions_upsells_get_verified_button_variant": {
+          "value": ""
+        },
         "subscriptions_upsells_get_verified_profile": {
-          "value": "false"
+          "value": "true"
         },
         "subscriptions_upsells_longform_sidebar_variant": {
           "value": ""
@@ -6136,10 +6163,10 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "d06e2e32650cf81b5aad89fa57607b6c"
+      "settingsVersion": "28af2cd53f75e5a079f332095a887491"
     },
     "debug": {},
-    "featureSetToken": "ce7260ebb4a06f20b37eba55c3d441c040e5d394",
+    "featureSetToken": "bdf13a8e969ef672ea716588fe417d88eedfa8c8",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -6209,7 +6236,7 @@
     "country": "XX",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "173170496091418888",
+    "guestId": "173179131107498076",
     "hasCommunityMemberships": "false",
     "language": "en",
     "ssoInitTokens": {},
