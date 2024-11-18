@@ -3205,7 +3205,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## FetchScheduledTweets<br>
-Request URL: `https://x.com/i/api/graphql/Ls7Vhy1SKqSaPp55rNhG2g/FetchScheduledTweets`<br>
+Request URL: `https://x.com/i/api/graphql/ffT6na2E9ReT4yfB5uzw_g/FetchScheduledTweets`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -4618,7 +4618,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## GrokConversationItemsByRestId<br>
-Request URL: `https://x.com/i/api/graphql/QQ4ARJJcWyaCPCtZakRCpQ/GrokConversationItemsByRestId`<br>
+Request URL: `https://x.com/i/api/graphql/DfGsyMNm5x5UcPIjT9fBxA/GrokConversationItemsByRestId`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
