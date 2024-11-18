@@ -9290,7 +9290,7 @@
   {
     "n": "50967",
     "exports": {
-      "queryId": "UBIjqHqsA5aixuibXTBheQ",
+      "queryId": "6cmfJY3d7EPWuCSXWrkOFg",
       "operationName": "CreateGrokConversation",
       "operationType": "mutation",
       "metadata": {
@@ -9546,7 +9546,7 @@
   {
     "n": "21211",
     "exports": {
-      "queryId": "mZifVs_wtTiQvHmRhn81pQ",
+      "queryId": "nY41FoLr4zUD9yxSjIvNew",
       "operationName": "GrokShare",
       "operationType": "query",
       "metadata": {
