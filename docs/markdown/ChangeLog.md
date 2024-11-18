@@ -4658,3 +4658,14 @@
 - subscriptions_upsells_get_verified_button_variant<br>
 #### remove<br>
 - responsive_web_follower_count_reduction_copy_enabled<br>
+## 2024/11/17<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- responsive_web_grok_show_citations<br>
+#### remove<br>
+- None<br>
