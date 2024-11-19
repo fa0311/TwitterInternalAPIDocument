@@ -1491,6 +1491,8 @@ This document is entirely auto-generated and may contain errors.<br>
 | onMediaOutlined            | {'backgroundColor': 'transparent', 'borderColor': 'translucentWhite35', 'color': 'white'}                                               |
 | onMediaText                | {'backgroundColor': 'transparent', 'borderColor': 'transparent', 'color': 'white'}                                                      |
 | secondaryFilled            | {'backgroundColor': 'gray200', 'borderColor': 'gray200', 'color': 'buttonBlack'}                                                        |
+| alwaysBlack                | {'backgroundColor': 'alwaysBlack', 'color': 'whiteOnColor', 'borderColor': 'alwaysBlack'}                                               |
+| alwaysWhite                | {'backgroundColor': 'whiteOnColor', 'color': 'alwaysBlack', 'borderColor': 'whiteOnColor'}                                              |
 
 | constant                        | value                           |
 |:--------------------------------|:--------------------------------|
@@ -2403,11 +2405,11 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{[_.xSmall]:"1.3",[_.small]:"1.4",[_.normal]:"1.5",[_.large]:"1.5",[_.xLarge]:"1.6"}
+{[v.xSmall]:"1.3",[v.small]:"1.4",[v.normal]:"1.5",[v.large]:"1.5",[v.xLarge]:"1.6"}
 ```
 ```internal process
 # Error
-{[_.xSmall]:"1.8",[_.small]:"1.9",[_.normal]:"2",[_.large]:"2",[_.xLarge]:"2.1"}
+{[v.xSmall]:"1.8",[v.small]:"1.9",[v.normal]:"2",[v.large]:"2",[v.xLarge]:"2.1"}
 ```
 | constant   | value   |
 |:-----------|:--------|
@@ -7322,7 +7324,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | Speed        | Speed        |
 | Quality      | Quality      |
 | ReportDSA    | ReportDSA    |
-| ...St        | _            |
+| ...kt        | _            |
 
 | constant   | value                    |
 |:-----------|:-------------------------|
@@ -7348,7 +7350,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{[St.FontColor]:{"type":"St.FontColor","propertyName":"color","styleName":"Mt.Color","displayName":"T().c2c5dea4","values":"Nt"},[St.FontSize]:{"type":"St.FontSize","propertyName":"font-size","styleName":"Mt.FontSize","displayName":"T().ce494bb4","values":[{"name":"50%","value":"50%"},{"name":"75%",...
+{[kt.FontColor]:{"type":"kt.FontColor","propertyName":"color","styleName":"At.Color","displayName":"w().c2c5dea4","values":"Zt"},[kt.FontSize]:{"type":"kt.FontSize","propertyName":"font-size","styleName":"At.FontSize","displayName":"w().ce494bb4","values":[{"name":"50%","value":"50%"},{"name":"75%",...
 ```
 | constant   | value     |
 |:-----------|:----------|
