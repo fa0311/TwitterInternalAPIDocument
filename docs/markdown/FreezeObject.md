@@ -42,12 +42,14 @@ This document is entirely auto-generated and may contain errors.<br>
 | CancelRequestTransfer                       | CancelRequestTransfer                       |
 | CancelTransfer                              | CancelTransfer                              |
 | ClaimTransfer                               | ClaimTransfer                               |
+| CompleteChallenge                           | CompleteChallenge                           |
 | CreateCustomer                              | CreateCustomer                              |
 | CreateDeposit                               | CreateDeposit                               |
 | CreatePaymentMethod                         | CreatePaymentMethod                         |
 | CreateTransfer                              | CreateTransfer                              |
 | CreateWithdrawal                            | CreateWithdrawal                            |
 | DeletePaymentMethod                         | DeletePaymentMethod                         |
+| ForgotPin                                   | ForgotPin                                   |
 | FundSandboxAccount                          | FundSandboxAccount                          |
 | GetAccounts                                 | GetAccounts                                 |
 | GetCustomer                                 | GetCustomer                                 |
@@ -5275,14 +5277,14 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant                  | value                                   |
 |:--------------------------|:----------------------------------------|
-| all                       | {'icon': 'cs', 'label': 'C().i8ea6d4e'} |
-| community                 | {'icon': 'us', 'label': 'C().a176d0d8'} |
-| by_invitation             | {'icon': 'hs', 'label': 'C().gc7e52ca'} |
-| subscribers               | {'icon': 'cs', 'label': 'C().feb7560a'} |
-| community_members         | {'icon': 'ms', 'label': 'C().i13be5a0'} |
-| super_followers_exclusive | {'icon': 'cs', 'label': 'C().ebe1d850'} |
-| trusted_friends_tweet     | {'icon': 'ps', 'label': 'p'}            |
-| verified                  | {'icon': '_s', 'label': 'C().b121464a'} |
+| all                       | {'icon': 'os', 'label': 'C().i8ea6d4e'} |
+| community                 | {'icon': 'ls', 'label': 'C().a176d0d8'} |
+| by_invitation             | {'icon': 'rs', 'label': 'C().gc7e52ca'} |
+| subscribers               | {'icon': 'os', 'label': 'C().feb7560a'} |
+| community_members         | {'icon': 'ds', 'label': 'C().i13be5a0'} |
+| super_followers_exclusive | {'icon': 'os', 'label': 'C().ebe1d850'} |
+| trusted_friends_tweet     | {'icon': 'cs', 'label': 'p'}            |
+| verified                  | {'icon': 'hs', 'label': 'C().b121464a'} |
 
 | constant   | value   |
 |:-----------|:--------|

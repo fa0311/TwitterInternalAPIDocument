@@ -2620,10 +2620,10 @@
         "value": "Impressions"
       },
       "subscriptions_upsells_dm_card_enabled": {
-        "value": "true"
+        "value": "false"
       },
       "subscriptions_upsells_dm_card_variant": {
-        "value": "thanksgiving"
+        "value": ""
       },
       "subscriptions_upsells_get_verified_button_variant": {
         "value": ""
@@ -2641,10 +2641,10 @@
         "value": "premium_upsell_upgrade"
       },
       "subscriptions_upsells_profile_card_enabled": {
-        "value": "true"
+        "value": "false"
       },
       "subscriptions_upsells_profile_card_variant": {
-        "value": "anniversary"
+        "value": ""
       },
       "subscriptions_upsells_radar_video_url_desktop": {
         "value": "https://abs.twimg.com/images/radar_promo_v2.mp4"
@@ -4231,7 +4231,7 @@
           "value": "false"
         },
         "premium_webview_paywall_offer_image_url": {
-          "value": "https://abs.twimg.com/images/anniversary-theme-image-v2.png"
+          "value": "https://abs.twimg.com/images/anniversary_wide.png"
         },
         "premium_webview_paywall_offer_variant": {
           "value": "anniversary"
@@ -5652,10 +5652,10 @@
           "value": "Impressions"
         },
         "subscriptions_upsells_dm_card_enabled": {
-          "value": "true"
+          "value": "false"
         },
         "subscriptions_upsells_dm_card_variant": {
-          "value": "thanksgiving"
+          "value": ""
         },
         "subscriptions_upsells_get_verified_button_variant": {
           "value": ""
@@ -5673,10 +5673,10 @@
           "value": "premium_upsell_upgrade"
         },
         "subscriptions_upsells_profile_card_enabled": {
-          "value": "true"
+          "value": "false"
         },
         "subscriptions_upsells_profile_card_variant": {
-          "value": "anniversary"
+          "value": ""
         },
         "subscriptions_upsells_radar_video_url_desktop": {
           "value": "https://abs.twimg.com/images/radar_promo_v2.mp4"
@@ -6169,10 +6169,10 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "a5bd481adc35539b92c781ebaeed105a"
+      "settingsVersion": "e734c994668c97c1eb53f844f6ba5452"
     },
     "debug": {},
-    "featureSetToken": "8405e17cdb2a4d7101a9c79f283dcc0f8d8ab518",
+    "featureSetToken": "7c2994642e9a060dc8190484e33894fec88b0174",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -6242,7 +6242,7 @@
     "country": "XX",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "173187774523420041",
+    "guestId": "173196413066862649",
     "hasCommunityMemberships": "false",
     "language": "en",
     "ssoInitTokens": {},

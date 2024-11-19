@@ -3490,3 +3490,24 @@
 - subscriptions_upsells_profile_card_variant<br>
 #### remove<br>
 - None<br>
+## 2024/11/18<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- creator_subscriptions_new_eligibility_requirements_enabled<br>
+- optimized_sru_parameters_client_side_timeout_ms<br>
+- optimized_sru_parameters_enabled<br>
+- optimized_sru_parameters_ideal_upload_time_ms<br>
+- optimized_sru_parameters_max_segment_bytes<br>
+- optimized_sru_parameters_min_segment_bytes<br>
+- responsive_web_grok_post_understanding_button_enabled<br>
+- responsive_web_grok_show_citations<br>
+- responsive_web_scheduling_threads_enabled<br>
+- subscriptions_gifting_premium_intro_copy_enabled<br>
+- subscriptions_upsells_get_verified_button_variant<br>
+#### remove<br>
+- responsive_web_follower_count_reduction_copy_enabled<br>
