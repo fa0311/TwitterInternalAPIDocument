@@ -1209,7 +1209,7 @@
         "value": "false"
       },
       "premium_webview_paywall_offer_image_url": {
-        "value": "https://abs.twimg.com/images/anniversary-theme-image-v2.png"
+        "value": "https://abs.twimg.com/images/anniversary_wide.png"
       },
       "premium_webview_paywall_offer_variant": {
         "value": "anniversary"
@@ -2630,10 +2630,10 @@
         "value": "Impressions"
       },
       "subscriptions_upsells_dm_card_enabled": {
-        "value": "true"
+        "value": "false"
       },
       "subscriptions_upsells_dm_card_variant": {
-        "value": "thanksgiving"
+        "value": ""
       },
       "subscriptions_upsells_get_verified_button_variant": {
         "value": ""
@@ -2651,10 +2651,10 @@
         "value": "premium_upsell_upgrade"
       },
       "subscriptions_upsells_profile_card_enabled": {
-        "value": "true"
+        "value": "false"
       },
       "subscriptions_upsells_profile_card_variant": {
-        "value": "anniversary"
+        "value": ""
       },
       "subscriptions_upsells_radar_video_url_desktop": {
         "value": "https://abs.twimg.com/images/radar_promo_v2.mp4"
@@ -4035,8 +4035,10 @@
         },
         "japan_holidays_labor_thanks_giving_message_trigger": {
           "value": [
-            "#勤労感謝",
-            "#勤労感謝の日"
+            "勤労感謝",
+            "仕事",
+            "労働",
+            "働く"
           ]
         },
         "krs_registration_enabled": {
@@ -6179,10 +6181,10 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "07dd94c33c45dbf08be05aff87fa6348"
+      "settingsVersion": "33324a49628a8037aeb17c40214b71c3"
     },
     "debug": {},
-    "featureSetToken": "8405e17cdb2a4d7101a9c79f283dcc0f8d8ab518",
+    "featureSetToken": "0d3e84ca00fd51af2178d25c4432e94ebb3bf0cd",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -6252,7 +6254,7 @@
     "country": "XX",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "173196443526661870",
+    "guestId": "173205087514345965",
     "hasCommunityMemberships": "false",
     "language": "en",
     "ssoInitTokens": {},
