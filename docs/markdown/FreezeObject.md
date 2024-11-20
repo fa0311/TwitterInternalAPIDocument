@@ -5910,7 +5910,7 @@ This document is entirely auto-generated and may contain errors.<br>
 ```
 ```internal process
 # Error
-{"root":`${"a"}/management`,"perksIntro":`${"a"}/management/perks_intro`,"perksDescription":`${"a"}/management/perks_description`,"perksConfirm":`${"a"}/management/perks_confirm`}
+{"root":`${"a"}/management`,"perksIntro":`${"a"}/management/perks_intro`,"perksDescription":`${"a"}/management/perks_description`,"perksConfirm":`${"a"}/management/perks_confirm`,"perksPricing":`${"a"}/management/perks_pricing`}
 ```
 | constant      | value                                                                      |
 |:--------------|:---------------------------------------------------------------------------|
@@ -6024,7 +6024,7 @@ This document is entirely auto-generated and may contain errors.<br>
 ```
 ```internal process
 # Error
-{"root":`${"t"}/management`,"perksIntro":`${"t"}/management/perks_intro`,"perksDescription":`${"t"}/management/perks_description`,"perksConfirm":`${"t"}/management/perks_confirm`}
+{"root":`${"t"}/management`,"perksIntro":`${"t"}/management/perks_intro`,"perksDescription":`${"t"}/management/perks_description`,"perksConfirm":`${"t"}/management/perks_confirm`,"perksPricing":`${"t"}/management/perks_pricing`}
 ```
 | constant   | value     |
 |:-----------|:----------|
