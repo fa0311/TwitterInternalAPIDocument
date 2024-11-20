@@ -1482,6 +1482,16 @@
       "backgroundColor": "gray200",
       "borderColor": "gray200",
       "color": "buttonBlack"
+    },
+    "alwaysBlack": {
+      "backgroundColor": "alwaysBlack",
+      "color": "whiteOnColor",
+      "borderColor": "alwaysBlack"
+    },
+    "alwaysWhite": {
+      "backgroundColor": "whiteOnColor",
+      "color": "alwaysBlack",
+      "borderColor": "whiteOnColor"
     }
   },
   {
@@ -2363,8 +2373,8 @@
     "Settings": "Settings",
     "Participants": "Participants"
   },
-  "{[_.xSmall]:\"1.3\",[_.small]:\"1.4\",[_.normal]:\"1.5\",[_.large]:\"1.5\",[_.xLarge]:\"1.6\"}",
-  "{[_.xSmall]:\"1.8\",[_.small]:\"1.9\",[_.normal]:\"2\",[_.large]:\"2\",[_.xLarge]:\"2.1\"}",
+  "{[v.xSmall]:\"1.3\",[v.small]:\"1.4\",[v.normal]:\"1.5\",[v.large]:\"1.5\",[v.xLarge]:\"1.6\"}",
+  "{[v.xSmall]:\"1.8\",[v.small]:\"1.9\",[v.normal]:\"2\",[v.large]:\"2\",[v.xLarge]:\"2.1\"}",
   {
     "small": "small",
     "medium": "medium"
@@ -6784,7 +6794,7 @@
     "Speed": "Speed",
     "Quality": "Quality",
     "ReportDSA": "ReportDSA",
-    "...St": "_"
+    "...kt": "_"
   },
   {
     "White": "rgba()",
@@ -6806,7 +6816,7 @@
     "Red": "rgba(255, 0, 255, 0.5)",
     "Black": "rgba(255, 0, 0, 0.5)"
   },
-  "{[St.FontColor]:{\"type\":\"St.FontColor\",\"propertyName\":\"color\",\"styleName\":\"Mt.Color\",\"displayName\":\"T().c2c5dea4\",\"values\":\"Nt\"},[St.FontSize]:{\"type\":\"St.FontSize\",\"propertyName\":\"font-size\",\"styleName\":\"Mt.FontSize\",\"displayName\":\"T().ce494bb4\",\"values\":[{\"name\":\"50%\",\"value\":\"50%\"},{\"name\":\"75%\",\"value\":\"75%\"},{\"name\":\"100%\",\"value\":\"100%\"},{\"name\":\"200%\",\"value\":\"200%\"},{\"name\":\"300%\",\"value\":\"300%\"}]},[St.FontFamily]:{\"type\":\"St.FontFamily\",\"propertyName\":\"font-family\",\"styleName\":\"Mt.FontFamily\",\"displayName\":\"T().ce71b3d0\",\"values\":[{\"name\":\"T().d2eb1582\",\"value\":\"\"},{\"name\":\"T().e684030e\",\"value\":\"Arial, sans-serif\",\"textStyle\":{\"fontFamily\":\"Arial, sans-serif\"}},{\"name\":\"T().jad3900c\",\"value\":'\"Times New Roman\", serif',\"textStyle\":{\"fontFamily\":'\"Times New Roman\", serif'}},{\"name\":\"T().e205f3a0\",\"value\":'\"Courier New\", monospace',\"textStyle\":{\"fontFamily\":'\"Courier New\", monospace'}}]},[St.TextOpacity]:{\"type\":\"St.TextOpacity\",\"propertyName\":\"color\",\"styleName\":\"Mt.Color\",\"displayName\":\"T().d207d39a\",\"values\":[{\"name\":\"50%\",\"value\":\"0.5\",\"isEqual\":\"_t()\"},{\"name\":\"75%\",\"value\":\"0.75\",\"isEqual\":\"_t()\"},{\"name\":\"100%\",\"value\":\"1.0\",\"isEqual\":\"_t()\"}]},[St.BackgroundColor]:{\"type\":\"St.BackgroundColor\",\"propertyName\":\"background\",\"styleName\":\"Mt.BackgroundColor\",\"displayName\":\"T().a562039c\",\"values\":\"Ft\"},[St.BackgroundOpacity]:{\"type\":\"St.BackgroundOpacity\",\"propertyName\":\"background\",\"styleName\":\"Mt.BackgroundColor\",\"displayName\":\"T().h44e879e\",\"values\":[{\"name\":\"25%\",\"value\":\"0.25\",\"isEqual\":\"Zt()\"},{\"name\":\"50%\",\"value\":\"0.5\",\"isEqual\":\"Zt()\"},{\"name\":\"75%\",\"value\":\"0.75\",\"isEqual\":\"Zt()\"},{\"name\":\"100%\",\"value\":\"1.0\",\"isEqual\":\"Zt()\"}]}}",
+  "{[kt.FontColor]:{\"type\":\"kt.FontColor\",\"propertyName\":\"color\",\"styleName\":\"At.Color\",\"displayName\":\"w().c2c5dea4\",\"values\":\"Zt\"},[kt.FontSize]:{\"type\":\"kt.FontSize\",\"propertyName\":\"font-size\",\"styleName\":\"At.FontSize\",\"displayName\":\"w().ce494bb4\",\"values\":[{\"name\":\"50%\",\"value\":\"50%\"},{\"name\":\"75%\",\"value\":\"75%\"},{\"name\":\"100%\",\"value\":\"100%\"},{\"name\":\"200%\",\"value\":\"200%\"},{\"name\":\"300%\",\"value\":\"300%\"}]},[kt.FontFamily]:{\"type\":\"kt.FontFamily\",\"propertyName\":\"font-family\",\"styleName\":\"At.FontFamily\",\"displayName\":\"w().ce71b3d0\",\"values\":[{\"name\":\"w().d2eb1582\",\"value\":\"\"},{\"name\":\"w().e684030e\",\"value\":\"Arial, sans-serif\",\"textStyle\":{\"fontFamily\":\"Arial, sans-serif\"}},{\"name\":\"w().jad3900c\",\"value\":'\"Times New Roman\", serif',\"textStyle\":{\"fontFamily\":'\"Times New Roman\", serif'}},{\"name\":\"w().e205f3a0\",\"value\":'\"Courier New\", monospace',\"textStyle\":{\"fontFamily\":'\"Courier New\", monospace'}}]},[kt.TextOpacity]:{\"type\":\"kt.TextOpacity\",\"propertyName\":\"color\",\"styleName\":\"At.Color\",\"displayName\":\"w().d207d39a\",\"values\":[{\"name\":\"50%\",\"value\":\"0.5\",\"isEqual\":\"Bt()\"},{\"name\":\"75%\",\"value\":\"0.75\",\"isEqual\":\"Bt()\"},{\"name\":\"100%\",\"value\":\"1.0\",\"isEqual\":\"Bt()\"}]},[kt.BackgroundColor]:{\"type\":\"kt.BackgroundColor\",\"propertyName\":\"background\",\"styleName\":\"At.BackgroundColor\",\"displayName\":\"w().a562039c\",\"values\":\"Nt\"},[kt.BackgroundOpacity]:{\"type\":\"kt.BackgroundOpacity\",\"propertyName\":\"background\",\"styleName\":\"At.BackgroundColor\",\"displayName\":\"w().h44e879e\",\"values\":[{\"name\":\"25%\",\"value\":\"0.25\",\"isEqual\":\"_t()\"},{\"name\":\"50%\",\"value\":\"0.5\",\"isEqual\":\"_t()\"},{\"name\":\"75%\",\"value\":\"0.75\",\"isEqual\":\"_t()\"},{\"name\":\"100%\",\"value\":\"1.0\",\"isEqual\":\"_t()\"}]}}",
   {
     "follow": "follow",
     "like": "like",

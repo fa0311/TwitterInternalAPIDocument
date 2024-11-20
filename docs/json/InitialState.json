@@ -1199,7 +1199,7 @@
         "value": "false"
       },
       "premium_webview_paywall_offer_image_url": {
-        "value": "https://abs.twimg.com/images/anniversary-theme-image-v2.png"
+        "value": "https://abs.twimg.com/images/anniversary_wide.png"
       },
       "premium_webview_paywall_offer_variant": {
         "value": "anniversary"
@@ -4025,8 +4025,10 @@
         },
         "japan_holidays_labor_thanks_giving_message_trigger": {
           "value": [
-            "#勤労感謝",
-            "#勤労感謝の日"
+            "勤労感謝",
+            "仕事",
+            "労働",
+            "働く"
           ]
         },
         "krs_registration_enabled": {
@@ -6169,10 +6171,10 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "e734c994668c97c1eb53f844f6ba5452"
+      "settingsVersion": "48fbb80434d837f9ceca80f3f71995a4"
     },
     "debug": {},
-    "featureSetToken": "7c2994642e9a060dc8190484e33894fec88b0174",
+    "featureSetToken": "0d3e84ca00fd51af2178d25c4432e94ebb3bf0cd",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -6242,7 +6244,7 @@
     "country": "XX",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "173196413066862649",
+    "guestId": "173205057921502560",
     "hasCommunityMemberships": "false",
     "language": "en",
     "ssoInitTokens": {},

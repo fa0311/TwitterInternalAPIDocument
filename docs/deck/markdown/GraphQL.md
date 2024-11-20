@@ -2428,7 +2428,7 @@ Login Required: `...`<br>
 |:-------------|:-------|:--------------------------|
 | isPrivate    | ...    | private===l.toLowerCase() |
 | name         | ...    | s                         |
-| description  | ...    | a                         |
+| description  | ...    | d                         |
 | ...()(0,o.S) | ...    | _                         |
 
 #### features<br>
@@ -3558,8 +3558,8 @@ Login Required: `...`<br>
 #### variables<br>
 | key          | type   | variable   |
 |:-------------|:-------|:-----------|
-| topicId      | ...    | d          |
-| ...()(0,a.d) | ...    | _          |
+| topicId      | ...    | a          |
+| ...()(0,d.d) | ...    | _          |
 
 #### features<br>
 | key                                                                     | type    | variable   |
@@ -4574,7 +4574,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## CreateGrokConversation<br>
-Request URL: `https://x.com/i/api/graphql/UBIjqHqsA5aixuibXTBheQ/CreateGrokConversation`<br>
+Request URL: `https://x.com/i/api/graphql/6cmfJY3d7EPWuCSXWrkOFg/CreateGrokConversation`<br>
 Request Method: `POST`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -4698,7 +4698,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## GrokShare<br>
-Request URL: `https://x.com/i/api/graphql/mZifVs_wtTiQvHmRhn81pQ/GrokShare`<br>
+Request URL: `https://x.com/i/api/graphql/nY41FoLr4zUD9yxSjIvNew/GrokShare`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
