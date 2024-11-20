@@ -993,8 +993,10 @@
       },
       "japan_holidays_labor_thanks_giving_message_trigger": {
         "value": [
-          "#勤労感謝",
-          "#勤労感謝の日"
+          "勤労感謝",
+          "仕事",
+          "労働",
+          "働く"
         ]
       },
       "krs_registration_enabled": {
@@ -1639,6 +1641,9 @@
       "responsive_web_grok_in_app_learn_more": {
         "value": "https://x.com/xai/status/1823597788573098215"
       },
+      "responsive_web_grok_multimedia_results": {
+        "value": "false"
+      },
       "responsive_web_grok_opt_out_enabled": {
         "value": "true"
       },
@@ -2232,6 +2237,9 @@
       },
       "rweb_spaces_next_codec_enabled": {
         "value": "true"
+      },
+      "rweb_ssp_ads_enabled": {
+        "value": "false"
       },
       "rweb_timeline_inline_show_more_enabled": {
         "value": "false"
@@ -4673,6 +4681,9 @@
         "responsive_web_grok_in_app_learn_more": {
           "value": "https://x.com/xai/status/1823597788573098215"
         },
+        "responsive_web_grok_multimedia_results": {
+          "value": "false"
+        },
         "responsive_web_grok_opt_out_enabled": {
           "value": "true"
         },
@@ -5266,6 +5277,9 @@
         },
         "rweb_spaces_next_codec_enabled": {
           "value": "true"
+        },
+        "rweb_ssp_ads_enabled": {
+          "value": "false"
         },
         "rweb_timeline_inline_show_more_enabled": {
           "value": "false"
@@ -6171,10 +6185,10 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "48fbb80434d837f9ceca80f3f71995a4"
+      "settingsVersion": "a5bd481adc35539b92c781ebaeed105a"
     },
     "debug": {},
-    "featureSetToken": "0d3e84ca00fd51af2178d25c4432e94ebb3bf0cd",
+    "featureSetToken": "5e6a2e284caee6f2fe6d58cf47a0e7fe6c9a2cdc",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -6244,7 +6258,7 @@
     "country": "XX",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "173205057921502560",
+    "guestId": "173213697658289417",
     "hasCommunityMemberships": "false",
     "language": "en",
     "ssoInitTokens": {},
