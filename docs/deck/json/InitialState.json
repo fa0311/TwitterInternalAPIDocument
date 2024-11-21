@@ -4716,7 +4716,7 @@
           "value": "true"
         },
         "responsive_web_grok_show_citations": {
-          "value": "false"
+          "value": "true"
         },
         "responsive_web_grok_text_selection_enabled": {
           "value": "false"
@@ -6195,7 +6195,7 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "c3335412cc9a2a13d9eedb0ad8e85e75"
+      "settingsVersion": "2c5e3f327abfad110d17f2be37cd5a4e"
     },
     "debug": {},
     "featureSetToken": "5e6a2e284caee6f2fe6d58cf47a0e7fe6c9a2cdc",
@@ -6268,7 +6268,7 @@
     "country": "XX",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "173213733650624650",
+    "guestId": "173222374183500333",
     "hasCommunityMemberships": "false",
     "language": "en",
     "ssoInitTokens": {},
