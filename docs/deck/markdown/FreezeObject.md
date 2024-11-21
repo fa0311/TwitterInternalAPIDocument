@@ -6209,7 +6209,7 @@ This document is entirely auto-generated and may contain errors.<br>
 ```
 ```internal process
 # Error
-{"root":`${"a"}/management`,"perksIntro":`${"a"}/management/perks_intro`,"perksDescription":`${"a"}/management/perks_description`,"perksConfirm":`${"a"}/management/perks_confirm`}
+{"root":`${"a"}/management`,"perksIntro":`${"a"}/management/perks_intro`,"perksDescription":`${"a"}/management/perks_description`,"perksConfirm":`${"a"}/management/perks_confirm`,"perksPricing":`${"a"}/management/perks_pricing`}
 ```
 | constant      | value                                                                      |
 |:--------------|:---------------------------------------------------------------------------|
@@ -6323,7 +6323,7 @@ This document is entirely auto-generated and may contain errors.<br>
 ```
 ```internal process
 # Error
-{"root":`${"t"}/management`,"perksIntro":`${"t"}/management/perks_intro`,"perksDescription":`${"t"}/management/perks_description`,"perksConfirm":`${"t"}/management/perks_confirm`}
+{"root":`${"t"}/management`,"perksIntro":`${"t"}/management/perks_intro`,"perksDescription":`${"t"}/management/perks_description`,"perksConfirm":`${"t"}/management/perks_confirm`,"perksPricing":`${"t"}/management/perks_pricing`}
 ```
 | constant   | value     |
 |:-----------|:----------|
@@ -7729,6 +7729,49 @@ This document is entirely auto-generated and may contain errors.<br>
 | normal     | normal  |
 | large      | large   |
 | xLarge     | xLarge  |
+
+| constant   | value     |
+|:-----------|:----------|
+|            |           |
+| a          | a         |
+| b          | b         |
+| c          | c         |
+| d          | d         |
+| e          | e         |
+| f          | f         |
+| g          | g         |
+| h          | h         |
+| i          | i         |
+| j          | j         |
+| k          | k         |
+| l          | l         |
+| m          | m         |
+| n          | n         |
+| o          | o         |
+| p          | p         |
+| q          | q         |
+| r          | r         |
+| s          | s         |
+| t          | t         |
+| u          | u         |
+| v          | v         |
+| w          | w         |
+| x          | x         |
+| y          | y         |
+| z          | z         |
+| 0          | 0         |
+| 1          | 1         |
+| 2          | 2         |
+| 3          | 3         |
+| 4          | 4         |
+| 5          | 5         |
+| 6          | 6         |
+| 7          | 7         |
+| 8          | 8         |
+| 9          | 9         |
+| Backspace  | Backspace |
+| Space      |           |
+| Clear      | Clear     |
 
 | constant          | value             |
 |:------------------|:------------------|
