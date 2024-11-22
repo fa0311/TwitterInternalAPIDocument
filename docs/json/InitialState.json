@@ -989,7 +989,7 @@
         "value": "false"
       },
       "japan_holidays_labor_thanks_giving_day_message": {
-        "value": "いつもお仕事お疲れ様です。たまにはゆっくりして下さいね☕ 𝕏のご利用もいつもありがとうございます🫶 #勤労感謝の日"
+        "value": "毎日お疲れ様です。忙しい日々の中でも、Xで息抜きしてくださいね☕ いつもご利用ありがとうございます🫶 #勤労感謝"
       },
       "japan_holidays_labor_thanks_giving_message_trigger": {
         "value": [
@@ -1647,6 +1647,9 @@
       "responsive_web_grok_opt_out_enabled": {
         "value": "true"
       },
+      "responsive_web_grok_pdf_upload_enabled": {
+        "value": "false"
+      },
       "responsive_web_grok_post_image_understanding_enabled": {
         "value": "false"
       },
@@ -1666,7 +1669,7 @@
         "value": "true"
       },
       "responsive_web_grok_show_citations": {
-        "value": "false"
+        "value": "true"
       },
       "responsive_web_grok_text_selection_enabled": {
         "value": "false"
@@ -2590,6 +2593,12 @@
       },
       "subscriptions_marketing_page_include_tax_enabled": {
         "value": "true"
+      },
+      "subscriptions_marketing_page_offer_copy_enabled": {
+        "value": "false"
+      },
+      "subscriptions_marketing_page_offer_ends_at_msec": {
+        "value": "1733198400000"
       },
       "subscriptions_mute_ad_upsell_enabled": {
         "value": "true"
@@ -4026,17 +4035,18 @@
           "value": "true"
         },
         "japan_holidays_is_labor_thanks_giving_day": {
-          "value": "false"
+          "value": "true"
         },
         "japan_holidays_labor_thanks_giving_day_message": {
-          "value": "いつもお仕事お疲れ様です。たまにはゆっくりして下さいね☕ 𝕏のご利用もいつもありがとうございます🫶 #勤労感謝の日"
+          "value": "毎日お疲れ様です。忙しい日々の中でも、Xで息抜きしてくださいね☕ いつもご利用ありがとうございます🫶 #勤労感謝"
         },
         "japan_holidays_labor_thanks_giving_message_trigger": {
           "value": [
             "勤労感謝",
             "仕事",
             "労働",
-            "働く"
+            "働く",
+            "勤労"
           ]
         },
         "krs_registration_enabled": {
@@ -4687,6 +4697,9 @@
         "responsive_web_grok_opt_out_enabled": {
           "value": "true"
         },
+        "responsive_web_grok_pdf_upload_enabled": {
+          "value": "false"
+        },
         "responsive_web_grok_post_image_understanding_enabled": {
           "value": "false"
         },
@@ -5117,7 +5130,7 @@
           "value": "true"
         },
         "responsive_web_verified_organizations_intercom_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "responsive_web_verified_organizations_invoice_enabled": {
           "value": "false"
@@ -5630,6 +5643,12 @@
         },
         "subscriptions_marketing_page_include_tax_enabled": {
           "value": "true"
+        },
+        "subscriptions_marketing_page_offer_copy_enabled": {
+          "value": "false"
+        },
+        "subscriptions_marketing_page_offer_ends_at_msec": {
+          "value": "1733198400000"
         },
         "subscriptions_mute_ad_upsell_enabled": {
           "value": "true"
@@ -6185,10 +6204,10 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "be4ad4c3c2051aa13d719c8b3abdec9d"
+      "settingsVersion": "c5e4ce71712c51e99e211af263bcf5cf"
     },
     "debug": {},
-    "featureSetToken": "5e6a2e284caee6f2fe6d58cf47a0e7fe6c9a2cdc",
+    "featureSetToken": "73fd0d8f2612b8f3be3e4b028684a4a143515450",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -6258,7 +6277,7 @@
     "country": "XX",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "173222337905007987",
+    "guestId": "173230977372250507",
     "hasCommunityMemberships": "false",
     "language": "en",
     "ssoInitTokens": {},
