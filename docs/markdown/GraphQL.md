@@ -3672,7 +3672,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## GrokConversationItemsByRestId<br>
-Request URL: `https://x.com/i/api/graphql/DfGsyMNm5x5UcPIjT9fBxA/GrokConversationItemsByRestId`<br>
+Request URL: `https://x.com/i/api/graphql/ff6pTKnQU3LFuvUh13cJ_g/GrokConversationItemsByRestId`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
