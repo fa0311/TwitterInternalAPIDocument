@@ -4681,3 +4681,16 @@
 - rweb_ssp_ads_enabled<br>
 #### remove<br>
 - None<br>
+## 2024/11/22<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- responsive_web_grok_pdf_upload_enabled<br>
+- subscriptions_marketing_page_offer_copy_enabled<br>
+- subscriptions_marketing_page_offer_ends_at_msec<br>
+#### remove<br>
+- None<br>
