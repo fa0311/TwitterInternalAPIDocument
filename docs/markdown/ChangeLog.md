@@ -4705,3 +4705,15 @@
 - responsive_web_grok_backend_prompts_enabled<br>
 #### remove<br>
 - None<br>
+## 2024/11/24<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- responsive_web_grok_focus_mode<br>
+- responsive_web_grok_start_title_experiment_enabled<br>
+#### remove<br>
+- None<br>
