@@ -2918,7 +2918,7 @@
   {
     "n": "10985",
     "exports": {
-      "queryId": "ObsBC67jHc0eHcPT5jFYWQ",
+      "queryId": "AApEsAGzjY_EY_USLYHBeg",
       "operationName": "CommunityTweetModerationLogSlice",
       "operationType": "query",
       "metadata": {
@@ -5880,7 +5880,7 @@
     "query": {
       "isPrivate": "private===l.toLowerCase()",
       "name": "s",
-      "description": "d",
+      "description": "a",
       "...()(0,o.S)": "_"
     }
   },
@@ -8908,8 +8908,8 @@
     "func_name": "f",
     "func_name_init": "w",
     "query": {
-      "topicId": "a",
-      "...()(0,d.d)": "_"
+      "topicId": "d",
+      "...()(0,a.d)": "_"
     }
   },
   {
@@ -9501,6 +9501,11 @@
         "fieldToggles": [],
         "featureSwitch": {}
       }
+    },
+    "func_name": "G",
+    "func_name_init": "Z",
+    "query": {
+      "tweet_id": "t"
     }
   },
   {
@@ -11727,7 +11732,7 @@
   {
     "n": "89339",
     "exports": {
-      "queryId": "mq33fBztRp58SrQ_a8HEig",
+      "queryId": "_kMywnNhuieFEMU2weC-iA",
       "operationName": "GrokHome",
       "operationType": "query",
       "metadata": {
@@ -13336,13 +13341,14 @@
   {
     "n": "68032",
     "exports": {
-      "queryId": "VyycAPcXi0XvKoLqdhNpOg",
+      "queryId": "pv7DgSGid4cZA3MqCJNTIw",
       "operationName": "BirdwatchFetchContributorNotesSlice",
       "operationType": "query",
       "metadata": {
         "featureSwitches": [
           "responsive_web_birdwatch_media_notes_enabled",
           "responsive_web_birdwatch_fast_notes_badge_enabled",
+          "responsive_web_birdwatch_url_notes_enabled",
           "creator_subscriptions_tweet_preview_api_enabled",
           "communities_web_enable_tweet_community_results_fetch",
           "c9s_tweet_anatomy_moderator_badge_enabled",
@@ -13379,6 +13385,9 @@
             "value": "true"
           },
           "responsive_web_birdwatch_fast_notes_badge_enabled": {
+            "value": "false"
+          },
+          "responsive_web_birdwatch_url_notes_enabled": {
             "value": "false"
           },
           "creator_subscriptions_tweet_preview_api_enabled": {
