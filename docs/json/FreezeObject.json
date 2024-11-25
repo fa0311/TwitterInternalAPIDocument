@@ -3590,6 +3590,7 @@
     "goLikes": "g l",
     "goLists": "g i",
     "goMessages": "g m",
+    "goGrok": "g g",
     "goToDrafts": "g f",
     "goToScheduled": "g t",
     "goSettings": "g s",
