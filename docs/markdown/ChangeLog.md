@@ -4717,3 +4717,14 @@
 - responsive_web_grok_start_title_experiment_enabled<br>
 #### remove<br>
 - None<br>
+## 2024/11/25<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- subscriptions_marketing_page_web_thanksgiving_design<br>
+#### remove<br>
+- subscriptions_marketing_page_offer_copy_enabled<br>
