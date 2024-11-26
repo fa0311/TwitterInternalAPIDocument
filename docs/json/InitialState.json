@@ -2161,6 +2161,9 @@
       "rweb_analytics_nav_item_enabled": {
         "value": "false"
       },
+      "rweb_analytics_overview_xweb_enabled": {
+        "value": "false"
+      },
       "rweb_analytics_post_audience_page_enabled": {
         "value": "true"
       },
@@ -2608,7 +2611,7 @@
         "value": "1733198400000"
       },
       "subscriptions_marketing_page_web_thanksgiving_design": {
-        "value": "false"
+        "value": "true"
       },
       "subscriptions_mute_ad_upsell_enabled": {
         "value": "true"
@@ -2629,7 +2632,7 @@
         "value": "true"
       },
       "subscriptions_premium_tiers_order_variant": {
-        "value": "default"
+        "value": "variant_a"
       },
       "subscriptions_report_ad_upsell_enabled": {
         "value": "true"
@@ -2665,7 +2668,7 @@
         "value": "true"
       },
       "subscriptions_upsells_premium_home_nav": {
-        "value": "premium_upsell_upgrade"
+        "value": "discount_40_percent"
       },
       "subscriptions_upsells_profile_card_enabled": {
         "value": "false"
@@ -2680,7 +2683,7 @@
         "value": "https://abs.twimg.com/images/radar_promo_v2.mp4"
       },
       "subscriptions_upsells_right_sidebar_variant": {
-        "value": ""
+        "value": "anniversary_generic"
       },
       "subscriptions_verification_info_is_identity_verified_enabled": {
         "value": "true"
@@ -5220,6 +5223,9 @@
         "rweb_analytics_nav_item_enabled": {
           "value": "false"
         },
+        "rweb_analytics_overview_xweb_enabled": {
+          "value": "false"
+        },
         "rweb_analytics_post_audience_page_enabled": {
           "value": "true"
         },
@@ -5724,7 +5730,7 @@
           "value": "true"
         },
         "subscriptions_upsells_premium_home_nav": {
-          "value": "premium_upsell_upgrade"
+          "value": "discount_40_percent"
         },
         "subscriptions_upsells_profile_card_enabled": {
           "value": "false"
@@ -5739,7 +5745,7 @@
           "value": "https://abs.twimg.com/images/radar_promo_v2.mp4"
         },
         "subscriptions_upsells_right_sidebar_variant": {
-          "value": ""
+          "value": "anniversary_generic"
         },
         "subscriptions_verification_info_is_identity_verified_enabled": {
           "value": "true"
@@ -6223,10 +6229,10 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "c8bff3a033d8eb1aad9300b1b8693793"
+      "settingsVersion": "a5bd481adc35539b92c781ebaeed105a"
     },
     "debug": {},
-    "featureSetToken": "dcc4b2b1e9763fc7ad38c846f18dd6f6ad85bcf3",
+    "featureSetToken": "a576b213222c84c1a1ffae1bbf4ae30dea25ba6a",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -6296,7 +6302,7 @@
     "country": "XX",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "173256898289847088",
+    "guestId": "173265538998050086",
     "hasCommunityMemberships": "false",
     "language": "en",
     "ssoInitTokens": {},
