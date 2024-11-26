@@ -2158,7 +2158,7 @@
     "peopleYouFollow": "peopleYouFollow",
     "everyone": "everyone"
   },
-  "{[wa.onlyInvited]:\"0\",[wa.peopleYouFollow]:\"1\",[wa.everyone]:\"2\"}",
+  "{[ka.onlyInvited]:\"0\",[ka.peopleYouFollow]:\"1\",[ka.everyone]:\"2\"}",
   {
     "AUDIO": "visual_audio",
     "CONFERENCE": "conference_spaces",
@@ -6872,7 +6872,7 @@
     "Speed": "Speed",
     "Quality": "Quality",
     "ReportDSA": "ReportDSA",
-    "...kt": "_"
+    "...At": "_"
   },
   {
     "White": "rgba()",
@@ -6894,7 +6894,7 @@
     "Red": "rgba(255, 0, 255, 0.5)",
     "Black": "rgba(255, 0, 0, 0.5)"
   },
-  "{[kt.FontColor]:{\"type\":\"kt.FontColor\",\"propertyName\":\"color\",\"styleName\":\"St.Color\",\"displayName\":\"w().c2c5dea4\",\"values\":\"Vt\"},[kt.FontSize]:{\"type\":\"kt.FontSize\",\"propertyName\":\"font-size\",\"styleName\":\"St.FontSize\",\"displayName\":\"w().ce494bb4\",\"values\":[{\"name\":\"50%\",\"value\":\"50%\"},{\"name\":\"75%\",\"value\":\"75%\"},{\"name\":\"100%\",\"value\":\"100%\"},{\"name\":\"200%\",\"value\":\"200%\"},{\"name\":\"300%\",\"value\":\"300%\"}]},[kt.FontFamily]:{\"type\":\"kt.FontFamily\",\"propertyName\":\"font-family\",\"styleName\":\"St.FontFamily\",\"displayName\":\"w().ce71b3d0\",\"values\":[{\"name\":\"w().d2eb1582\",\"value\":\"\"},{\"name\":\"w().e684030e\",\"value\":\"Arial, sans-serif\",\"textStyle\":{\"fontFamily\":\"Arial, sans-serif\"}},{\"name\":\"w().jad3900c\",\"value\":'\"Times New Roman\", serif',\"textStyle\":{\"fontFamily\":'\"Times New Roman\", serif'}},{\"name\":\"w().e205f3a0\",\"value\":'\"Courier New\", monospace',\"textStyle\":{\"fontFamily\":'\"Courier New\", monospace'}}]},[kt.TextOpacity]:{\"type\":\"kt.TextOpacity\",\"propertyName\":\"color\",\"styleName\":\"St.Color\",\"displayName\":\"w().d207d39a\",\"values\":[{\"name\":\"50%\",\"value\":\"0.5\",\"isEqual\":\"Bt()\"},{\"name\":\"75%\",\"value\":\"0.75\",\"isEqual\":\"Bt()\"},{\"name\":\"100%\",\"value\":\"1.0\",\"isEqual\":\"Bt()\"}]},[kt.BackgroundColor]:{\"type\":\"kt.BackgroundColor\",\"propertyName\":\"background\",\"styleName\":\"St.BackgroundColor\",\"displayName\":\"w().a562039c\",\"values\":\"Nt\"},[kt.BackgroundOpacity]:{\"type\":\"kt.BackgroundOpacity\",\"propertyName\":\"background\",\"styleName\":\"St.BackgroundColor\",\"displayName\":\"w().h44e879e\",\"values\":[{\"name\":\"25%\",\"value\":\"0.25\",\"isEqual\":\"Zt()\"},{\"name\":\"50%\",\"value\":\"0.5\",\"isEqual\":\"Zt()\"},{\"name\":\"75%\",\"value\":\"0.75\",\"isEqual\":\"Zt()\"},{\"name\":\"100%\",\"value\":\"1.0\",\"isEqual\":\"Zt()\"}]}}",
+  "{[At.FontColor]:{\"type\":\"At.FontColor\",\"propertyName\":\"color\",\"styleName\":\"St.Color\",\"displayName\":\"w().c2c5dea4\",\"values\":\"Lt\"},[At.FontSize]:{\"type\":\"At.FontSize\",\"propertyName\":\"font-size\",\"styleName\":\"St.FontSize\",\"displayName\":\"w().ce494bb4\",\"values\":[{\"name\":\"50%\",\"value\":\"50%\"},{\"name\":\"75%\",\"value\":\"75%\"},{\"name\":\"100%\",\"value\":\"100%\"},{\"name\":\"200%\",\"value\":\"200%\"},{\"name\":\"300%\",\"value\":\"300%\"}]},[At.FontFamily]:{\"type\":\"At.FontFamily\",\"propertyName\":\"font-family\",\"styleName\":\"St.FontFamily\",\"displayName\":\"w().ce71b3d0\",\"values\":[{\"name\":\"w().d2eb1582\",\"value\":\"\"},{\"name\":\"w().e684030e\",\"value\":\"Arial, sans-serif\",\"textStyle\":{\"fontFamily\":\"Arial, sans-serif\"}},{\"name\":\"w().jad3900c\",\"value\":'\"Times New Roman\", serif',\"textStyle\":{\"fontFamily\":'\"Times New Roman\", serif'}},{\"name\":\"w().e205f3a0\",\"value\":'\"Courier New\", monospace',\"textStyle\":{\"fontFamily\":'\"Courier New\", monospace'}}]},[At.TextOpacity]:{\"type\":\"At.TextOpacity\",\"propertyName\":\"color\",\"styleName\":\"St.Color\",\"displayName\":\"w().d207d39a\",\"values\":[{\"name\":\"50%\",\"value\":\"0.5\",\"isEqual\":\"Zt()\"},{\"name\":\"75%\",\"value\":\"0.75\",\"isEqual\":\"Zt()\"},{\"name\":\"100%\",\"value\":\"1.0\",\"isEqual\":\"Zt()\"}]},[At.BackgroundColor]:{\"type\":\"At.BackgroundColor\",\"propertyName\":\"background\",\"styleName\":\"St.BackgroundColor\",\"displayName\":\"w().a562039c\",\"values\":\"$t\"},[At.BackgroundOpacity]:{\"type\":\"At.BackgroundOpacity\",\"propertyName\":\"background\",\"styleName\":\"St.BackgroundColor\",\"displayName\":\"w().h44e879e\",\"values\":[{\"name\":\"25%\",\"value\":\"0.25\",\"isEqual\":\"_t()\"},{\"name\":\"50%\",\"value\":\"0.5\",\"isEqual\":\"_t()\"},{\"name\":\"75%\",\"value\":\"0.75\",\"isEqual\":\"_t()\"},{\"name\":\"100%\",\"value\":\"1.0\",\"isEqual\":\"_t()\"}]}}",
   {
     "follow": "follow",
     "like": "like",
