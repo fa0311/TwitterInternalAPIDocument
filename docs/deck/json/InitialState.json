@@ -996,7 +996,7 @@
         "value": "true"
       },
       "japan_holidays_is_labor_thanks_giving_day": {
-        "value": "true"
+        "value": "false"
       },
       "japan_holidays_labor_thanks_giving_day_message": {
         "value": "毎日お疲れ様です。忙しい日々の中でも、Xで息抜きしてくださいね☕ いつもご利用ありがとうございます🫶 #勤労感謝"
@@ -2171,6 +2171,9 @@
       "rweb_analytics_nav_item_enabled": {
         "value": "false"
       },
+      "rweb_analytics_overview_xweb_enabled": {
+        "value": "false"
+      },
       "rweb_analytics_post_audience_page_enabled": {
         "value": "true"
       },
@@ -2614,11 +2617,11 @@
       "subscriptions_marketing_page_include_tax_enabled": {
         "value": "true"
       },
-      "subscriptions_marketing_page_offer_copy_enabled": {
-        "value": "false"
-      },
       "subscriptions_marketing_page_offer_ends_at_msec": {
         "value": "1733198400000"
+      },
+      "subscriptions_marketing_page_web_thanksgiving_design": {
+        "value": "true"
       },
       "subscriptions_mute_ad_upsell_enabled": {
         "value": "true"
@@ -2639,7 +2642,7 @@
         "value": "true"
       },
       "subscriptions_premium_tiers_order_variant": {
-        "value": "default"
+        "value": "variant_a"
       },
       "subscriptions_report_ad_upsell_enabled": {
         "value": "true"
@@ -5230,6 +5233,9 @@
         "rweb_analytics_nav_item_enabled": {
           "value": "false"
         },
+        "rweb_analytics_overview_xweb_enabled": {
+          "value": "false"
+        },
         "rweb_analytics_post_audience_page_enabled": {
           "value": "true"
         },
@@ -5673,11 +5679,11 @@
         "subscriptions_marketing_page_include_tax_enabled": {
           "value": "false"
         },
-        "subscriptions_marketing_page_offer_copy_enabled": {
-          "value": "false"
-        },
         "subscriptions_marketing_page_offer_ends_at_msec": {
           "value": "1733198400000"
+        },
+        "subscriptions_marketing_page_web_thanksgiving_design": {
+          "value": "true"
         },
         "subscriptions_mute_ad_upsell_enabled": {
           "value": "true"
@@ -5734,7 +5740,7 @@
           "value": "true"
         },
         "subscriptions_upsells_premium_home_nav": {
-          "value": "premium_upsell_upgrade"
+          "value": "discount_40_percent"
         },
         "subscriptions_upsells_profile_card_enabled": {
           "value": "false"
@@ -5749,7 +5755,7 @@
           "value": "https://abs.twimg.com/images/radar_promo_v2.mp4"
         },
         "subscriptions_upsells_right_sidebar_variant": {
-          "value": ""
+          "value": "anniversary_generic"
         },
         "subscriptions_verification_info_is_identity_verified_enabled": {
           "value": "true"
@@ -6233,10 +6239,10 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "1c157d71ce61eca73a49ceedd8874f02"
+      "settingsVersion": "00bf81bcd40987582bc7275d523632b8"
     },
     "debug": {},
-    "featureSetToken": "6d84bd0702ba85f92446424242c51cb267daa9a2",
+    "featureSetToken": "6264d7acc907f4135719336efd8c367e406dcbcf",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -6306,7 +6312,7 @@
     "country": "XX",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "173256923598655558",
+    "guestId": "173265569762320022",
     "hasCommunityMemberships": "false",
     "language": "en",
     "ssoInitTokens": {},
