@@ -1646,6 +1646,9 @@
       "responsive_web_grok_focus_mode": {
         "value": "true"
       },
+      "responsive_web_grok_fun_mode_disabled": {
+        "value": "false"
+      },
       "responsive_web_grok_general_availability": {
         "value": "false"
       },
@@ -1679,6 +1682,9 @@
       "responsive_web_grok_robot_icon": {
         "value": "false"
       },
+      "responsive_web_grok_rtl_detection": {
+        "value": "true"
+      },
       "responsive_web_grok_search_first": {
         "value": "true"
       },
@@ -1686,6 +1692,9 @@
         "value": "true"
       },
       "responsive_web_grok_show_citations": {
+        "value": "true"
+      },
+      "responsive_web_grok_start_mobile_layout_enabled": {
         "value": "true"
       },
       "responsive_web_grok_start_title_experiment_enabled": {
@@ -2109,7 +2118,7 @@
         "value": "false"
       },
       "responsive_web_verified_organizations_new_signup_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "responsive_web_verified_organizations_paid_to_invoice_enabled": {
         "value": "false"
@@ -2678,7 +2687,7 @@
         "value": "true"
       },
       "subscriptions_upsells_premium_home_nav": {
-        "value": "premium_upsell_upgrade"
+        "value": "discount_40_percent"
       },
       "subscriptions_upsells_profile_card_enabled": {
         "value": "false"
@@ -2693,7 +2702,7 @@
         "value": "https://abs.twimg.com/images/radar_promo_v2.mp4"
       },
       "subscriptions_upsells_right_sidebar_variant": {
-        "value": ""
+        "value": "anniversary_generic"
       },
       "subscriptions_verification_info_is_identity_verified_enabled": {
         "value": "true"
@@ -4708,6 +4717,9 @@
         "responsive_web_grok_focus_mode": {
           "value": "true"
         },
+        "responsive_web_grok_fun_mode_disabled": {
+          "value": "false"
+        },
         "responsive_web_grok_general_availability": {
           "value": "false"
         },
@@ -4741,6 +4753,9 @@
         "responsive_web_grok_robot_icon": {
           "value": "false"
         },
+        "responsive_web_grok_rtl_detection": {
+          "value": "true"
+        },
         "responsive_web_grok_search_first": {
           "value": "true"
         },
@@ -4748,6 +4763,9 @@
           "value": "true"
         },
         "responsive_web_grok_show_citations": {
+          "value": "true"
+        },
+        "responsive_web_grok_start_mobile_layout_enabled": {
           "value": "true"
         },
         "responsive_web_grok_start_title_experiment_enabled": {
@@ -5171,7 +5189,7 @@
           "value": "false"
         },
         "responsive_web_verified_organizations_new_signup_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "responsive_web_verified_organizations_paid_to_invoice_enabled": {
           "value": "false"
@@ -5234,7 +5252,7 @@
           "value": "false"
         },
         "rweb_analytics_overview_xweb_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "rweb_analytics_post_audience_page_enabled": {
           "value": "true"
@@ -5725,7 +5743,7 @@
           "value": "false"
         },
         "subscriptions_upsells_dm_card_variant": {
-          "value": ""
+          "value": "anniversary"
         },
         "subscriptions_upsells_get_verified_button_variant": {
           "value": ""
@@ -5746,7 +5764,7 @@
           "value": "false"
         },
         "subscriptions_upsells_profile_card_variant": {
-          "value": ""
+          "value": "anniversary"
         },
         "subscriptions_upsells_radar_video_url_desktop": {
           "value": "https://abs.twimg.com/images/radar_promo_v2.mp4"
@@ -6239,10 +6257,10 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "00bf81bcd40987582bc7275d523632b8"
+      "settingsVersion": "788b62d4295cc87db5b4d174957f80b1"
     },
     "debug": {},
-    "featureSetToken": "6264d7acc907f4135719336efd8c367e406dcbcf",
+    "featureSetToken": "f69f10d4eacd5b994b48c241f868d476c3b73b56",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -6312,7 +6330,7 @@
     "country": "XX",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "173265569762320022",
+    "guestId": "173274211373870034",
     "hasCommunityMemberships": "false",
     "language": "en",
     "ssoInitTokens": {},
