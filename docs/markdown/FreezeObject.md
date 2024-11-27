@@ -1708,9 +1708,9 @@ This document is entirely auto-generated and may contain errors.<br>
 | bestValue          | {'backgroundColor': 'green50', 'color': 'green900', 'bold': '!0', 'fontSize': 'subtext3'}                                                    |
 | mostPopular        | {'backgroundColor': 'purple50', 'color': 'purple900', 'bold': '!0', 'fontSize': 'subtext3'}                                                  |
 | priority           | {'backgroundColor': 'blue50', 'color': 'blue900', 'bold': '!0', 'fontSize': 'subtext3'}                                                      |
-| alt                | k                                                                                                                                            |
-| gif                | k                                                                                                                                            |
-| hd                 | k                                                                                                                                            |
+| alt                | C                                                                                                                                            |
+| gif                | C                                                                                                                                            |
+| hd                 | C                                                                                                                                            |
 | likedByAuthor      | {'backgroundColor': 'gray50', 'bold': '!1', 'color': 'gray700'}                                                                              |
 | urlCardTitle       | {'align': 'left', 'backgroundColor': 'translucentBlack77', 'bold': '!1', 'color': 'white', 'numberOfLines': '1', 'textOverflow': 'ellipsis'} |
 
@@ -2077,8 +2077,8 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant              | value     |
 |:----------------------|:----------|
-| appBarHeight          | f         |
-| appBarHeightPx        | _         |
+| appBarHeight          | _         |
+| appBarHeightPx        | f         |
 | conversationLineWidth | D.space2  |
 | gutterHorizontal      | g.space16 |
 | gutterHorizontalPx    | D.space16 |
@@ -4322,6 +4322,15 @@ This document is entirely auto-generated and may contain errors.<br>
 | SwitchToAppLow5         | switch_to_app_low_5        |
 | SwitchToAppLow9         | switch_to_app_low_9        |
 
+| constant        | value                 |
+|:----------------|:----------------------|
+| HANDLE          | Handle                |
+| TIER            | Subscription Tier     |
+| INTERVAL        | Subscription Interval |
+| HAS_RADAR       | Has Radar             |
+| HAS_HIRING      | Has Hiring            |
+| FOLLOWERS_COUNT | Followers Count       |
+
 ```internal process
 # Error
 {[o.sj.AMPLIFY]:{"conversionHandler":"()"{"cardId":"e","cardType":"t","converterOptions":"a","data":"i"}{"const s=()(0,r.FL)",d=parseInt(i,\"image_value\",\"player_image_original\")/parseInt(0,r.SIi,\"string_value\",\"player_width\",10),_=(0,r.SIi,\"string_value\",\"player_height\",10)(0,r.SI),l=(i,...
@@ -4686,6 +4695,14 @@ This document is entirely auto-generated and may contain errors.<br>
 | small      |      36 |
 | xSmall     |      12 |
 
+```internal process
+# Error
+{"__proto__":"null","formatCaption":"function()"{"return Kr()"},"formatDay":"function()"{"return Kr()"},"formatMonthCaption":"function()"{"return Kr()"},"formatWeekNumber":"function()"{return"".concat()},"formatWeekdayName":"function()"{"return Kr()"},"formatYearCaption":"function()"{"return Kr()"}}
+```
+```internal process
+# Error
+{"__proto__":"null","labelDay":"function()"{"return Kr()"},"labelMonthDropdown":"function()"{return"Month: "},"labelNext":"function()"{return"Go to next month"},"labelPrevious":"function()"{return"Go to previous month"},"labelWeekNumber":"function()"{return"Week n. ".concat()},"labelWeekday":"functi...
+```
 | constant          | value                |
 |:------------------|:---------------------|
 | Default           | ui_defaultLabel      |
