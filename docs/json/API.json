@@ -2779,8 +2779,8 @@
       "features": {}
     },
     "GrokShare": {
-      "url": "https://x.com/i/api/graphql/nY41FoLr4zUD9yxSjIvNew/GrokShare",
-      "queryId": "nY41FoLr4zUD9yxSjIvNew",
+      "url": "https://x.com/i/api/graphql/qvsP9-0abNpALHfBwEcUqw/GrokShare",
+      "queryId": "qvsP9-0abNpALHfBwEcUqw",
       "method": "GET",
       "features": {
         "creator_subscriptions_tweet_preview_api_enabled": true,
