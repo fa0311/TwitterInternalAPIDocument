@@ -1154,7 +1154,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## CommunityTweetModerationLogSlice<br>
-Request URL: `https://x.com/i/api/graphql/ObsBC67jHc0eHcPT5jFYWQ/CommunityTweetModerationLogSlice`<br>
+Request URL: `https://x.com/i/api/graphql/AApEsAGzjY_EY_USLYHBeg/CommunityTweetModerationLogSlice`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -2428,7 +2428,7 @@ Login Required: `...`<br>
 |:-------------|:-------|:--------------------------|
 | isPrivate    | ...    | private===l.toLowerCase() |
 | name         | ...    | s                         |
-| description  | ...    | d                         |
+| description  | ...    | a                         |
 | ...()(0,o.S) | ...    | _                         |
 
 #### features<br>
@@ -3558,8 +3558,8 @@ Login Required: `...`<br>
 #### variables<br>
 | key          | type   | variable   |
 |:-------------|:-------|:-----------|
-| topicId      | ...    | a          |
-| ...()(0,d.d) | ...    | _          |
+| topicId      | ...    | d          |
+| ...()(0,a.d) | ...    | _          |
 
 #### features<br>
 | key                                                                     | type    | variable   |
@@ -3787,7 +3787,10 @@ Request Method: `POST`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-`None`<br>
+| key      | type   | variable   |
+|:---------|:-------|:-----------|
+| tweet_id | ...    | t          |
+
 #### features<br>
 `None`<br>
 #### queryId<br>
@@ -4665,7 +4668,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## GrokHome<br>
-Request URL: `https://x.com/i/api/graphql/mq33fBztRp58SrQ_a8HEig/GrokHome`<br>
+Request URL: `https://x.com/i/api/graphql/_kMywnNhuieFEMU2weC-iA/GrokHome`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -5355,7 +5358,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## BirdwatchFetchContributorNotesSlice<br>
-Request URL: `https://x.com/i/api/graphql/VyycAPcXi0XvKoLqdhNpOg/BirdwatchFetchContributorNotesSlice`<br>
+Request URL: `https://x.com/i/api/graphql/pv7DgSGid4cZA3MqCJNTIw/BirdwatchFetchContributorNotesSlice`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -5366,6 +5369,7 @@ Login Required: `...`<br>
 |:------------------------------------------------------------------------|:--------|:-----------|
 | responsive_web_birdwatch_media_notes_enabled                            | boolean | True       |
 | responsive_web_birdwatch_fast_notes_badge_enabled                       | boolean | False      |
+| responsive_web_birdwatch_url_notes_enabled                              | boolean | False      |
 | creator_subscriptions_tweet_preview_api_enabled                         | boolean | True       |
 | communities_web_enable_tweet_community_results_fetch                    | boolean | True       |
 | c9s_tweet_anatomy_moderator_badge_enabled                               | boolean | True       |

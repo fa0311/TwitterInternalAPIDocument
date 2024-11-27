@@ -986,7 +986,7 @@
         "value": "true"
       },
       "japan_holidays_is_labor_thanks_giving_day": {
-        "value": "true"
+        "value": "false"
       },
       "japan_holidays_labor_thanks_giving_day_message": {
         "value": "毎日お疲れ様です。忙しい日々の中でも、Xで息抜きしてくださいね☕ いつもご利用ありがとうございます🫶 #勤労感謝"
@@ -2161,6 +2161,9 @@
       "rweb_analytics_nav_item_enabled": {
         "value": "false"
       },
+      "rweb_analytics_overview_xweb_enabled": {
+        "value": "false"
+      },
       "rweb_analytics_post_audience_page_enabled": {
         "value": "true"
       },
@@ -2604,11 +2607,11 @@
       "subscriptions_marketing_page_include_tax_enabled": {
         "value": "true"
       },
-      "subscriptions_marketing_page_offer_copy_enabled": {
-        "value": "false"
-      },
       "subscriptions_marketing_page_offer_ends_at_msec": {
         "value": "1733198400000"
+      },
+      "subscriptions_marketing_page_web_thanksgiving_design": {
+        "value": "true"
       },
       "subscriptions_mute_ad_upsell_enabled": {
         "value": "true"
@@ -2629,7 +2632,7 @@
         "value": "true"
       },
       "subscriptions_premium_tiers_order_variant": {
-        "value": "default"
+        "value": "variant_a"
       },
       "subscriptions_report_ad_upsell_enabled": {
         "value": "true"
@@ -2665,7 +2668,7 @@
         "value": "true"
       },
       "subscriptions_upsells_premium_home_nav": {
-        "value": "premium_upsell_upgrade"
+        "value": "discount_40_percent"
       },
       "subscriptions_upsells_profile_card_enabled": {
         "value": "false"
@@ -2680,7 +2683,7 @@
         "value": "https://abs.twimg.com/images/radar_promo_v2.mp4"
       },
       "subscriptions_upsells_right_sidebar_variant": {
-        "value": ""
+        "value": "anniversary_generic"
       },
       "subscriptions_verification_info_is_identity_verified_enabled": {
         "value": "true"
@@ -4045,7 +4048,7 @@
           "value": "true"
         },
         "japan_holidays_is_labor_thanks_giving_day": {
-          "value": "true"
+          "value": "false"
         },
         "japan_holidays_labor_thanks_giving_day_message": {
           "value": "毎日お疲れ様です。忙しい日々の中でも、Xで息抜きしてくださいね☕ いつもご利用ありがとうございます🫶 #勤労感謝"
@@ -5220,6 +5223,9 @@
         "rweb_analytics_nav_item_enabled": {
           "value": "false"
         },
+        "rweb_analytics_overview_xweb_enabled": {
+          "value": "false"
+        },
         "rweb_analytics_post_audience_page_enabled": {
           "value": "true"
         },
@@ -5663,11 +5669,11 @@
         "subscriptions_marketing_page_include_tax_enabled": {
           "value": "true"
         },
-        "subscriptions_marketing_page_offer_copy_enabled": {
-          "value": "false"
-        },
         "subscriptions_marketing_page_offer_ends_at_msec": {
           "value": "1733198400000"
+        },
+        "subscriptions_marketing_page_web_thanksgiving_design": {
+          "value": "true"
         },
         "subscriptions_mute_ad_upsell_enabled": {
           "value": "true"
@@ -5688,7 +5694,7 @@
           "value": "true"
         },
         "subscriptions_premium_tiers_order_variant": {
-          "value": "default"
+          "value": "variant_a"
         },
         "subscriptions_report_ad_upsell_enabled": {
           "value": "true"
@@ -5724,7 +5730,7 @@
           "value": "true"
         },
         "subscriptions_upsells_premium_home_nav": {
-          "value": "premium_upsell_upgrade"
+          "value": "discount_40_percent"
         },
         "subscriptions_upsells_profile_card_enabled": {
           "value": "false"
@@ -5739,7 +5745,7 @@
           "value": "https://abs.twimg.com/images/radar_promo_v2.mp4"
         },
         "subscriptions_upsells_right_sidebar_variant": {
-          "value": ""
+          "value": "anniversary_generic"
         },
         "subscriptions_verification_info_is_identity_verified_enabled": {
           "value": "true"
@@ -6226,7 +6232,7 @@
       "settingsVersion": "a5bd481adc35539b92c781ebaeed105a"
     },
     "debug": {},
-    "featureSetToken": "6d84bd0702ba85f92446424242c51cb267daa9a2",
+    "featureSetToken": "a576b213222c84c1a1ffae1bbf4ae30dea25ba6a",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -6296,7 +6302,7 @@
     "country": "XX",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "173248251295505535",
+    "guestId": "173265538998050086",
     "hasCommunityMemberships": "false",
     "language": "en",
     "ssoInitTokens": {},
