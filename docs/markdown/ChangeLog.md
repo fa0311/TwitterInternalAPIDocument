@@ -4739,3 +4739,17 @@
 - rweb_analytics_overview_xweb_enabled<br>
 #### remove<br>
 - None<br>
+## 2024/11/27<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- responsive_web_grok_fun_mode_disabled<br>
+- responsive_web_grok_rtl_detection<br>
+- responsive_web_grok_start_mobile_layout_enabled<br>
+- rweb_analytics_verified_followers_enabled<br>
+#### remove<br>
+- None<br>
