@@ -3551,3 +3551,16 @@
 - subscriptions_marketing_page_web_thanksgiving_design<br>
 #### remove<br>
 - subscriptions_marketing_page_offer_copy_enabled<br>
+## 2024/11/27<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- responsive_web_grok_fun_mode_disabled<br>
+- responsive_web_grok_rtl_detection<br>
+- responsive_web_grok_start_mobile_layout_enabled<br>
+#### remove<br>
+- None<br>

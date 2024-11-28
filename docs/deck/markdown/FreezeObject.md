@@ -4673,6 +4673,15 @@ This document is entirely auto-generated and may contain errors.<br>
 | SwitchToAppLow5         | switch_to_app_low_5        |
 | SwitchToAppLow9         | switch_to_app_low_9        |
 
+| constant        | value                 |
+|:----------------|:----------------------|
+| HANDLE          | Handle                |
+| TIER            | Subscription Tier     |
+| INTERVAL        | Subscription Interval |
+| HAS_RADAR       | Has Radar             |
+| HAS_HIRING      | Has Hiring            |
+| FOLLOWERS_COUNT | Followers Count       |
+
 | constant              | value                                                                                                                                                                                                                                                         |
 |:----------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | openKeyboardShortcuts | ?                                                                                                                                                                                                                                                             |
@@ -4979,6 +4988,14 @@ This document is entirely auto-generated and may contain errors.<br>
 | small      |      36 |
 | xSmall     |      12 |
 
+```internal process
+# Error
+{"__proto__":"null","formatCaption":"function()"{"return sl()"},"formatDay":"function()"{"return sl()"},"formatMonthCaption":"function()"{"return sl()"},"formatWeekNumber":"function()"{return"".concat()},"formatWeekdayName":"function()"{"return sl()"},"formatYearCaption":"function()"{"return sl()"}}
+```
+```internal process
+# Error
+{"__proto__":"null","labelDay":"function()"{"return sl()"},"labelMonthDropdown":"function()"{return"Month: "},"labelNext":"function()"{return"Go to next month"},"labelPrevious":"function()"{return"Go to previous month"},"labelWeekNumber":"function()"{return"Week n. ".concat()},"labelWeekday":"functi...
+```
 | constant          | value                |
 |:------------------|:---------------------|
 | Default           | ui_defaultLabel      |
