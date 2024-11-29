@@ -4753,3 +4753,16 @@
 - rweb_analytics_verified_followers_enabled<br>
 #### remove<br>
 - None<br>
+## 2024/11/29<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- profile_label_improvements_pcf_label_in_post_enabled<br>
+- profile_label_improvements_pcf_settings_enabled<br>
+- responsive_web_grok_continue_in_grok_enabled<br>
+#### remove<br>
+- None<br>
