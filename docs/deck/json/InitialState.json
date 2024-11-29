@@ -4709,7 +4709,7 @@
           "value": "true"
         },
         "responsive_web_grok_file_max_size": {
-          "value": "5242880"
+          "value": "20971520"
         },
         "responsive_web_grok_file_upload_enabled": {
           "value": "true"
@@ -4832,7 +4832,7 @@
           "value": "false"
         },
         "responsive_web_live_screen_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "responsive_web_locale_context_direction_enabled": {
           "value": "true"
@@ -5644,7 +5644,7 @@
           "value": "https://x.com/messages/compose?recipient_id&#x3D;1399766153053061121"
         },
         "subscriptions_gifting_premium_intro_copy_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "subscriptions_hide_ad_upsell_enabled": {
           "value": "true"
@@ -5758,7 +5758,7 @@
           "value": "true"
         },
         "subscriptions_upsells_premium_home_nav": {
-          "value": "discount_40_percent"
+          "value": "expiring_soon"
         },
         "subscriptions_upsells_profile_card_enabled": {
           "value": "false"
@@ -5773,7 +5773,7 @@
           "value": "https://abs.twimg.com/images/radar_promo_v2.mp4"
         },
         "subscriptions_upsells_right_sidebar_variant": {
-          "value": "anniversary_generic"
+          "value": "anniversary_expiring"
         },
         "subscriptions_verification_info_is_identity_verified_enabled": {
           "value": "true"
@@ -6257,7 +6257,7 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "788b62d4295cc87db5b4d174957f80b1"
+      "settingsVersion": "ef6d702b4f10026c89560a3f17bd3391"
     },
     "debug": {},
     "featureSetToken": "f69f10d4eacd5b994b48c241f868d476c3b73b56",
@@ -6330,7 +6330,7 @@
     "country": "XX",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "173282845161451676",
+    "guestId": "173291486111739665",
     "hasCommunityMemberships": "false",
     "language": "en",
     "ssoInitTokens": {},
