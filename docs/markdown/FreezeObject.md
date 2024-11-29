@@ -1597,65 +1597,10 @@ This document is entirely auto-generated and may contain errors.<br>
 | testNumber        |       1 |
 | testViewCountShow |    True |
 
-| constant                                  | value   |
-|:------------------------------------------|:--------|
-| avatarURIForHashtagHighlight              | void 0  |
-| birdwatchPivotsEnabled                    | True    |
-| c9sEnabled                                | False   |
-| c9sThemesEnabled                          | False   |
-| c9sHashtagsEnabled                        | False   |
-| cardCarouselClickableNavArea              | control |
-| collectionAdsEnabled                      | False   |
-| shouldConvertCollectionToImageWebsiteCard | False   |
-| dpaMetadataEnabled                        | False   |
-| dpaCtaEnabled                             | False   |
-| dpaPlaceholderMediaKeys                   | False   |
-| explorerAdsEnabled                        | False   |
-| fosnrSoftInterventionsEnabled             | False   |
-| grokShareEnabled                          | False   |
-| robotIconEnabled                          | False   |
-| withEditCallout                           | False   |
-| withEdgeToEdgeContent                     | False   |
-| withEdgeToEdgeTweetAnatomy                | False   |
-| highlightedHashtag                        | void 0  |
-| isCopyrightDisputeLinkEnabled             | False   |
-| isDeveloperBuiltCardEnabled               | False   |
-| isDMDrawer                                | False   |
-| isEditTweetConsumptionEnabled             | False   |
-| nonSafariShouldUseCardCarouselV2          | False   |
-| withMediaCarousel                         | False   |
-| onMediaHashtagHighlightClick              | void 0  |
-| safariShouldUseCardCarouselV2             | control |
-| sensitiveMediaWarningsEnabled             | False   |
-| mediaVisibilityResultsEnabled             | False   |
-| shouldPreconnectToCardDestinations        | False   |
-| showSimilarPostsPivotEnabled              | True    |
-| shouldUseSmallFontForHashtagHighlight     | False   |
-| trustedFriendsEnabled                     | False   |
-| trustedFriendsCreationEnabled             | False   |
-| socialContextRefreshEnabled               | False   |
-| trustedFriendsInfo                        | void 0  |
-| isCarouselItem                            | False   |
-| followButtonAtBottomOfPromotedUserCard    | False   |
-| tweetMediaItemImmersiveViewerEntryPoint   | void 0  |
-| withVodTweetDetailAttribution             | False   |
-| isEmbedBrandLinkExperimentEnabled         | False   |
-| isSoftBlockEnabled                        | False   |
-| userAvatarLabel                           | False   |
-| canVerifiedCrawlerConsumeSensitiveMedia   | False   |
-| shouldUseLocaleContextDirection           | False   |
-| blueBusinessVerifiedBadgeEnabled          | False   |
-| blueBusinessAffiliateBadgeEnabled         | False   |
-| blueGovernmentVerifiedBadgeEnabled        | False   |
-| newBadgeColorEnabled                      | False   |
-| tweetViewCountsEnabled                    | False   |
-| webImageLargeWebpVariants                 | False   |
-| redesignedLabelForSubscribedTweets        | False   |
-| renderArticleCardInTweet                  | False   |
-| renderCompactCardDetail                   | False   |
-| roundCountInTweetAction                   | True    |
-| ...a                                      | _       |
-
+```internal process
+# Error
+{"avatarURIForHashtagHighlight":"void 0","birdwatchPivotsEnabled":"!0","c9sEnabled":"!1","c9sThemesEnabled":"!1","c9sHashtagsEnabled":"!1","cardCarouselClickableNavArea":"control","collectionAdsEnabled":"!1","shouldConvertCollectionToImageWebsiteCard":"!1","dpaMetadataEnabled":"!1","dpaCtaEnabled":"...
+```
 | constant         | value            |
 |:-----------------|:-----------------|
 | CommunityNotes   | CommunityNotes   |
@@ -1708,9 +1653,9 @@ This document is entirely auto-generated and may contain errors.<br>
 | bestValue          | {'backgroundColor': 'green50', 'color': 'green900', 'bold': '!0', 'fontSize': 'subtext3'}                                                    |
 | mostPopular        | {'backgroundColor': 'purple50', 'color': 'purple900', 'bold': '!0', 'fontSize': 'subtext3'}                                                  |
 | priority           | {'backgroundColor': 'blue50', 'color': 'blue900', 'bold': '!0', 'fontSize': 'subtext3'}                                                      |
-| alt                | C                                                                                                                                            |
-| gif                | C                                                                                                                                            |
-| hd                 | C                                                                                                                                            |
+| alt                | k                                                                                                                                            |
+| gif                | k                                                                                                                                            |
+| hd                 | k                                                                                                                                            |
 | likedByAuthor      | {'backgroundColor': 'gray50', 'bold': '!1', 'color': 'gray700'}                                                                              |
 | urlCardTitle       | {'align': 'left', 'backgroundColor': 'translucentBlack77', 'bold': '!1', 'color': 'white', 'numberOfLines': '1', 'textOverflow': 'ellipsis'} |
 
@@ -2077,8 +2022,8 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant              | value     |
 |:----------------------|:----------|
-| appBarHeight          | _         |
-| appBarHeightPx        | f         |
+| appBarHeight          | f         |
+| appBarHeightPx        | _         |
 | conversationLineWidth | D.space2  |
 | gutterHorizontal      | g.space16 |
 | gutterHorizontalPx    | D.space16 |
@@ -2879,6 +2824,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | AccountAutomation                | AccountAutomation                |
 | AccountHistory                   | AccountHistory                   |
 | AccountInformation               | AccountInformation               |
+| AccountParody                    | AccountParody                    |
 | AccountVerification              | AccountVerification              |
 | ActiveSessionDetail              | ActiveSessionDetail              |
 | AddMutedKeywordDetail            | AddMutedKeywordDetail            |
@@ -4710,7 +4656,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{[$.v.FOLLOWS]:"U",[$.v.FRIENDS_OF_FRIENDS]:"Q"}
+{[K.v.FOLLOWS]:"U",[K.v.FRIENDS_OF_FRIENDS]:"Q"}
 ```
 | constant   | value   |
 |:-----------|:--------|
@@ -7566,7 +7512,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant    | value       |
 |:------------|:------------|
-| ...Z.n$     | _           |
+| ...y.n$     | _           |
 | UNAVAILABLE | UNAVAILABLE |
 
 | constant   | value   |
