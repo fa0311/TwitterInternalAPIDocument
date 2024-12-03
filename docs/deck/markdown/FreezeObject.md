@@ -2704,65 +2704,10 @@ This document is entirely auto-generated and may contain errors.<br>
 | testNumber        |       1 |
 | testViewCountShow |    True |
 
-| constant                                  | value   |
-|:------------------------------------------|:--------|
-| avatarURIForHashtagHighlight              | void 0  |
-| birdwatchPivotsEnabled                    | True    |
-| c9sEnabled                                | False   |
-| c9sThemesEnabled                          | False   |
-| c9sHashtagsEnabled                        | False   |
-| cardCarouselClickableNavArea              | control |
-| collectionAdsEnabled                      | False   |
-| shouldConvertCollectionToImageWebsiteCard | False   |
-| dpaMetadataEnabled                        | False   |
-| dpaCtaEnabled                             | False   |
-| dpaPlaceholderMediaKeys                   | False   |
-| explorerAdsEnabled                        | False   |
-| fosnrSoftInterventionsEnabled             | False   |
-| grokShareEnabled                          | False   |
-| robotIconEnabled                          | False   |
-| withEditCallout                           | False   |
-| withEdgeToEdgeContent                     | False   |
-| withEdgeToEdgeTweetAnatomy                | False   |
-| highlightedHashtag                        | void 0  |
-| isCopyrightDisputeLinkEnabled             | False   |
-| isDeveloperBuiltCardEnabled               | False   |
-| isDMDrawer                                | False   |
-| isEditTweetConsumptionEnabled             | False   |
-| nonSafariShouldUseCardCarouselV2          | False   |
-| withMediaCarousel                         | False   |
-| onMediaHashtagHighlightClick              | void 0  |
-| safariShouldUseCardCarouselV2             | control |
-| sensitiveMediaWarningsEnabled             | False   |
-| mediaVisibilityResultsEnabled             | False   |
-| shouldPreconnectToCardDestinations        | False   |
-| showSimilarPostsPivotEnabled              | True    |
-| shouldUseSmallFontForHashtagHighlight     | False   |
-| trustedFriendsEnabled                     | False   |
-| trustedFriendsCreationEnabled             | False   |
-| socialContextRefreshEnabled               | False   |
-| trustedFriendsInfo                        | void 0  |
-| isCarouselItem                            | False   |
-| followButtonAtBottomOfPromotedUserCard    | False   |
-| tweetMediaItemImmersiveViewerEntryPoint   | void 0  |
-| withVodTweetDetailAttribution             | False   |
-| isEmbedBrandLinkExperimentEnabled         | False   |
-| isSoftBlockEnabled                        | False   |
-| userAvatarLabel                           | False   |
-| canVerifiedCrawlerConsumeSensitiveMedia   | False   |
-| shouldUseLocaleContextDirection           | False   |
-| blueBusinessVerifiedBadgeEnabled          | False   |
-| blueBusinessAffiliateBadgeEnabled         | False   |
-| blueGovernmentVerifiedBadgeEnabled        | False   |
-| newBadgeColorEnabled                      | False   |
-| tweetViewCountsEnabled                    | False   |
-| webImageLargeWebpVariants                 | False   |
-| redesignedLabelForSubscribedTweets        | False   |
-| renderArticleCardInTweet                  | False   |
-| renderCompactCardDetail                   | False   |
-| roundCountInTweetAction                   | True    |
-| ...a                                      | _       |
-
+```internal process
+# Error
+{"avatarURIForHashtagHighlight":"void 0","birdwatchPivotsEnabled":"!0","c9sEnabled":"!1","c9sThemesEnabled":"!1","c9sHashtagsEnabled":"!1","cardCarouselClickableNavArea":"control","collectionAdsEnabled":"!1","shouldConvertCollectionToImageWebsiteCard":"!1","dpaMetadataEnabled":"!1","dpaCtaEnabled":"...
+```
 | constant         | value            |
 |:-----------------|:-----------------|
 | CommunityNotes   | CommunityNotes   |
@@ -3735,6 +3680,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | AccountAutomation                | AccountAutomation                |
 | AccountHistory                   | AccountHistory                   |
 | AccountInformation               | AccountInformation               |
+| AccountParody                    | AccountParody                    |
 | AccountVerification              | AccountVerification              |
 | ActiveSessionDetail              | ActiveSessionDetail              |
 | AddMutedKeywordDetail            | AddMutedKeywordDetail            |
@@ -4990,11 +4936,11 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{"__proto__":"null","formatCaption":"function()"{"return sl()"},"formatDay":"function()"{"return sl()"},"formatMonthCaption":"function()"{"return sl()"},"formatWeekNumber":"function()"{return"".concat()},"formatWeekdayName":"function()"{"return sl()"},"formatYearCaption":"function()"{"return sl()"}}
+{"__proto__":"null","formatCaption":"function()"{"return Kr()"},"formatDay":"function()"{"return Kr()"},"formatMonthCaption":"function()"{"return Kr()"},"formatWeekNumber":"function()"{return"".concat()},"formatWeekdayName":"function()"{"return Kr()"},"formatYearCaption":"function()"{"return Kr()"}}
 ```
 ```internal process
 # Error
-{"__proto__":"null","labelDay":"function()"{"return sl()"},"labelMonthDropdown":"function()"{return"Month: "},"labelNext":"function()"{return"Go to next month"},"labelPrevious":"function()"{return"Go to previous month"},"labelWeekNumber":"function()"{return"Week n. ".concat()},"labelWeekday":"functi...
+{"__proto__":"null","labelDay":"function()"{"return Kr()"},"labelMonthDropdown":"function()"{return"Month: "},"labelNext":"function()"{return"Go to next month"},"labelPrevious":"function()"{return"Go to previous month"},"labelWeekNumber":"function()"{return"Week n. ".concat()},"labelWeekday":"functi...
 ```
 | constant          | value                |
 |:------------------|:---------------------|
@@ -5003,7 +4949,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{[$.v.FOLLOWS]:"U",[$.v.FRIENDS_OF_FRIENDS]:"Q"}
+{[K.v.FOLLOWS]:"U",[K.v.FRIENDS_OF_FRIENDS]:"Q"}
 ```
 | constant   | value   |
 |:-----------|:--------|
@@ -7967,7 +7913,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant    | value       |
 |:------------|:------------|
-| ...Z.n$     | _           |
+| ...y.n$     | _           |
 | UNAVAILABLE | UNAVAILABLE |
 
 | constant   | value   |
