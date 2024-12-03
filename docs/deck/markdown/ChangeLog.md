@@ -3578,3 +3578,17 @@
 - rweb_analytics_verified_followers_enabled<br>
 #### remove<br>
 - None<br>
+## 2024/12/03<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- creator_subscriptions_eligibility_impressions<br>
+- creator_subscriptions_eligibility_verified_followers<br>
+- responsive_web_grok_imggen_count<br>
+- subscriptions_feature_create_premium_content<br>
+#### remove<br>
+- None<br>
