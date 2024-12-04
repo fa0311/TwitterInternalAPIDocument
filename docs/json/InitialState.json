@@ -823,9 +823,6 @@
       "gryphon_fps_tracking_enabled": {
         "value": "true"
       },
-      "gryphon_grok_per_column": {
-        "value": "true"
-      },
       "gryphon_hide_quick_promote": {
         "value": "false"
       },
@@ -1208,6 +1205,9 @@
         "value": "false"
       },
       "payments_risk_device_sdk_enabled": {
+        "value": "false"
+      },
+      "premium_content_api_read_enabled": {
         "value": "false"
       },
       "premium_webview_paywall_offer_image_url": {
@@ -1717,6 +1717,9 @@
       "responsive_web_grok_trends_design_enabled": {
         "value": "false"
       },
+      "responsive_web_grok_user_seconds_debug": {
+        "value": "false"
+      },
       "responsive_web_grok_v2_start_screen_enabled": {
         "value": "true"
       },
@@ -2143,9 +2146,6 @@
       "responsive_web_verified_organizations_xbusiness_enabled": {
         "value": "false"
       },
-      "responsive_web_video_autoplay_default_on": {
-        "value": "true"
-      },
       "responsive_web_video_pcomplete_enabled": {
         "value": "true"
       },
@@ -2559,6 +2559,9 @@
       "subscriptions_feature_can_gift_premium": {
         "value": "false"
       },
+      "subscriptions_feature_create_premium_content": {
+        "value": "false"
+      },
       "subscriptions_feature_extend_profile": {
         "value": "true"
       },
@@ -2644,7 +2647,7 @@
         "value": "1733198400000"
       },
       "subscriptions_marketing_page_web_thanksgiving_design": {
-        "value": "true"
+        "value": "false"
       },
       "subscriptions_mute_ad_upsell_enabled": {
         "value": "true"
@@ -3192,6 +3195,9 @@
       },
       "xprofile_work_history_consumption_enabled": {
         "value": "true"
+      },
+      "xprofile_work_history_domain_enabled": {
+        "value": "false"
       },
       "xprofile_work_history_enabled": {
         "value": "true"
@@ -3918,9 +3924,6 @@
         "gryphon_fps_tracking_enabled": {
           "value": "true"
         },
-        "gryphon_grok_per_column": {
-          "value": "true"
-        },
         "gryphon_hide_quick_promote": {
           "value": "false"
         },
@@ -4303,6 +4306,9 @@
           "value": "false"
         },
         "payments_risk_device_sdk_enabled": {
+          "value": "false"
+        },
+        "premium_content_api_read_enabled": {
           "value": "false"
         },
         "premium_webview_paywall_offer_image_url": {
@@ -4812,6 +4818,9 @@
         "responsive_web_grok_trends_design_enabled": {
           "value": "false"
         },
+        "responsive_web_grok_user_seconds_debug": {
+          "value": "false"
+        },
         "responsive_web_grok_v2_start_screen_enabled": {
           "value": "true"
         },
@@ -5238,9 +5247,6 @@
         "responsive_web_verified_organizations_xbusiness_enabled": {
           "value": "false"
         },
-        "responsive_web_video_autoplay_default_on": {
-          "value": "true"
-        },
         "responsive_web_video_pcomplete_enabled": {
           "value": "true"
         },
@@ -5652,6 +5658,9 @@
           "value": "true"
         },
         "subscriptions_feature_can_gift_premium": {
+          "value": "false"
+        },
+        "subscriptions_feature_create_premium_content": {
           "value": "false"
         },
         "subscriptions_feature_extend_profile": {
@@ -6288,6 +6297,9 @@
         "xprofile_work_history_consumption_enabled": {
           "value": "true"
         },
+        "xprofile_work_history_domain_enabled": {
+          "value": "false"
+        },
         "xprofile_work_history_enabled": {
           "value": "true"
         }
@@ -6295,10 +6307,10 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "11103fe01698a27996a4a6ae75da1250"
+      "settingsVersion": "a5bd481adc35539b92c781ebaeed105a"
     },
     "debug": {},
-    "featureSetToken": "33fd407fdb63171eb76dd388698f18c62f3710cf",
+    "featureSetToken": "1df641ff2575d9aa82fa1ca1da1233f3ce5eba1a",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -6368,7 +6380,7 @@
     "country": "XX",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "173326019858698868",
+    "guestId": "173334659949341754",
     "hasCommunityMemberships": "false",
     "language": "en",
     "ssoInitTokens": {},
