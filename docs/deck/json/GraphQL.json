@@ -3962,7 +3962,7 @@
   {
     "n": "86299",
     "exports": {
-      "queryId": "sQhC96QH-hw_8TjKE3kW3g",
+      "queryId": "hOcJ79jSQLm1A06VxjNtZQ",
       "operationName": "CreateTweet",
       "operationType": "mutation",
       "metadata": {
@@ -9877,11 +9877,6 @@
         "fieldToggles": [],
         "featureSwitch": {}
       }
-    },
-    "func_name": "G",
-    "func_name_init": "Z",
-    "query": {
-      "tweet_id": "t"
     }
   },
   {

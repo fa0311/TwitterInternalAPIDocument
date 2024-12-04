@@ -1135,8 +1135,8 @@
       "features": {}
     },
     "CreateTweet": {
-      "url": "https://x.com/i/api/graphql/sQhC96QH-hw_8TjKE3kW3g/CreateTweet",
-      "queryId": "sQhC96QH-hw_8TjKE3kW3g",
+      "url": "https://x.com/i/api/graphql/hOcJ79jSQLm1A06VxjNtZQ/CreateTweet",
+      "queryId": "hOcJ79jSQLm1A06VxjNtZQ",
       "method": "POST",
       "features": {
         "communities_web_enable_tweet_community_results_fetch": true,
