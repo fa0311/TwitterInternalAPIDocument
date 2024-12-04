@@ -536,7 +536,14 @@ This document is entirely auto-generated and may contain errors.<br>
 | gutter     | {'left': {'small': '20', 'normal': '30'}, 'right': {'normal': '10', 'large': '70'}} |
 | primary    | 600                                                                                 |
 | wide       | 700                                                                                 |
-| secondary  | {'small': '290', 'normal': '350'}                                                   |
+| secondary  | {'small': '290', 'normal': '350', 'wide': '350'}                                    |
+
+| constant   | value                                                                               |
+|:-----------|:------------------------------------------------------------------------------------|
+| gutter     | {'left': {'small': '20', 'normal': '30'}, 'right': {'normal': '10', 'large': '70'}} |
+| primary    | 600                                                                                 |
+| wide       | 700                                                                                 |
+| secondary  | {'small': '300', 'normal': '300', 'wide': '600'}                                    |
 
 | constant   | value                           |
 |:-----------|:--------------------------------|
@@ -544,9 +551,19 @@ This document is entirely auto-generated and may contain errors.<br>
 | expanded   | 275                             |
 | gutter     | {'start': {'large': '60'}}      |
 
+| constant   | value                           |
+|:-----------|:--------------------------------|
+| collapsed  | {'small': '68', 'normal': '88'} |
+| expanded   | 192                             |
+| gutter     | {'start': {'large': '60'}}      |
+
 ```internal process
 # Error
 {"oneColumn":"r.primary","twoColumn":{"small":r.primary+r.gutter.left.small+r.secondary.small+r.gutter.right.normal,"normal":r.primary+r.gutter.left.normal+r.secondary.normal+r.gutter.right.normal,"large":r.primary+r.gutter.left.normal+r.secondary.normal+r.gutter.right.large}}
+```
+```internal process
+# Error
+{"oneColumn":"d.primary","twoColumn":{"small":d.primary+d.gutter.left.small+d.secondary.small+d.gutter.right.normal,"normal":d.primary+d.gutter.left.normal+d.secondary.normal+d.gutter.right.normal,"large":d.primary+d.gutter.left.normal+d.secondary.wide+d.gutter.right.large}}
 ```
 | constant   |   value |
 |:-----------|--------:|
@@ -562,15 +579,18 @@ This document is entirely auto-generated and may contain errors.<br>
 | min        |     350 |
 | max        |     400 |
 
-| constant        | value   |
-|:----------------|:--------|
-| cardWidth       | o       |
-| columnWidths    | r       |
-| sideNavWidths   | d       |
-| contentWidths   | a       |
-| wideTabBarWidth | i       |
-| dmDrawerHeight  | l       |
-| dmDrawerWidth   | s       |
+| constant              | value   |
+|:----------------------|:--------|
+| cardWidth             | s       |
+| columnWidths          | r       |
+| columnWidthsRedesign  | d       |
+| sideNavWidths         | a       |
+| sideNavWidthsRedesign | o       |
+| contentWidths         | i       |
+| contentWidthsRedesign | l       |
+| wideTabBarWidth       | u       |
+| dmDrawerHeight        | c       |
+| dmDrawerWidth         | b       |
 
 | constant   | value     |
 |:-----------|:----------|
@@ -3549,11 +3569,11 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{[_.xSmall]:"1.3",[_.small]:"1.4",[_.normal]:"1.5",[_.large]:"1.5",[_.xLarge]:"1.6"}
+{[k.xSmall]:"1.3",[k.small]:"1.4",[k.normal]:"1.5",[k.large]:"1.5",[k.xLarge]:"1.6"}
 ```
 ```internal process
 # Error
-{[_.xSmall]:"1.8",[_.small]:"1.9",[_.normal]:"2",[_.large]:"2",[_.xLarge]:"2.1"}
+{[k.xSmall]:"1.8",[k.small]:"1.9",[k.normal]:"2",[k.large]:"2",[k.xLarge]:"2.1"}
 ```
 | constant   | value   |
 |:-----------|:--------|
@@ -5077,11 +5097,11 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{"__proto__":"null","formatCaption":"function()"{"return Ia()"},"formatDay":"function()"{"return Ia()"},"formatMonthCaption":"function()"{"return Ia()"},"formatWeekNumber":"function()"{return"".concat()},"formatWeekdayName":"function()"{"return Ia()"},"formatYearCaption":"function()"{"return Ia()"}}
+{"__proto__":"null","formatCaption":"function()"{"return Ba()"},"formatDay":"function()"{"return Ba()"},"formatMonthCaption":"function()"{"return Ba()"},"formatWeekNumber":"function()"{return"".concat()},"formatWeekdayName":"function()"{"return Ba()"},"formatYearCaption":"function()"{"return Ba()"}}
 ```
 ```internal process
 # Error
-{"__proto__":"null","labelDay":"function()"{"return Ia()"},"labelMonthDropdown":"function()"{return"Month: "},"labelNext":"function()"{return"Go to next month"},"labelPrevious":"function()"{return"Go to previous month"},"labelWeekNumber":"function()"{return"Week n. ".concat()},"labelWeekday":"functi...
+{"__proto__":"null","labelDay":"function()"{"return Ba()"},"labelMonthDropdown":"function()"{return"Month: "},"labelNext":"function()"{return"Go to next month"},"labelPrevious":"function()"{return"Go to previous month"},"labelWeekNumber":"function()"{return"Week n. ".concat()},"labelWeekday":"functi...
 ```
 | constant          | value                |
 |:------------------|:---------------------|
@@ -5684,8 +5704,8 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant   | value   |
 |:-----------|:--------|
-| MARKDOWN   | sa      |
-| PREVIEW    | da      |
+| MARKDOWN   | ca      |
+| PREVIEW    | sa      |
 
 | constant    | value       |
 |:------------|:------------|
