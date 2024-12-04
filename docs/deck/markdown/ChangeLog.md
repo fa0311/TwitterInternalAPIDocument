@@ -3592,3 +3592,15 @@
 - subscriptions_feature_create_premium_content<br>
 #### remove<br>
 - None<br>
+## 2024/12/04<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- responsive_web_grok_user_seconds_debug<br>
+- xprofile_work_history_domain_enabled<br>
+#### remove<br>
+- responsive_web_video_autoplay_default_on<br>
