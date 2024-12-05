@@ -4780,3 +4780,18 @@
 - responsive_web_grok_imggen_count<br>
 #### remove<br>
 - None<br>
+## 2024/12/04<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- premium_content_api_read_enabled<br>
+- responsive_web_grok_user_seconds_debug<br>
+- subscriptions_feature_create_premium_content<br>
+- xprofile_work_history_domain_enabled<br>
+#### remove<br>
+- gryphon_grok_per_column<br>
+- responsive_web_video_autoplay_default_on<br>
