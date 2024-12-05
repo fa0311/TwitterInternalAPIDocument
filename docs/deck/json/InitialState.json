@@ -1217,6 +1217,9 @@
       "payments_risk_device_sdk_enabled": {
         "value": "false"
       },
+      "premium_content_api_read_enabled": {
+        "value": "false"
+      },
       "premium_webview_paywall_offer_image_url": {
         "value": "https://abs.twimg.com/images/anniversary_wide.png"
       },
@@ -3683,7 +3686,7 @@
           "value": "true"
         },
         "communities_moderation_log_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "communities_show_broadcast_option_in_composer": {
           "value": "true"
@@ -4315,6 +4318,9 @@
         "payments_risk_device_sdk_enabled": {
           "value": "false"
         },
+        "premium_content_api_read_enabled": {
+          "value": "false"
+        },
         "premium_webview_paywall_offer_image_url": {
           "value": "https://abs.twimg.com/images/anniversary_wide.png"
         },
@@ -4824,6 +4830,9 @@
         },
         "responsive_web_grok_user_seconds_debug": {
           "value": "false"
+        },
+        "responsive_web_grok_user_seconds_enable": {
+          "value": "true"
         },
         "responsive_web_grok_v2_start_screen_enabled": {
           "value": "true"
@@ -6311,10 +6320,10 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "c3335412cc9a2a13d9eedb0ad8e85e75"
+      "settingsVersion": "4f5207771290e4a7fda73d7adfdbe8a2"
     },
     "debug": {},
-    "featureSetToken": "c8d86bd9c8b5cea12b43eab01674e73e9575b126",
+    "featureSetToken": "1d065e4174759e6a38d846929ec19a5d4e890d43",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -6384,7 +6393,7 @@
     "country": "XX",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "173334692520119298",
+    "guestId": "173343333037045927",
     "hasCommunityMemberships": "false",
     "language": "en",
     "ssoInitTokens": {},
