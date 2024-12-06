@@ -1460,7 +1460,7 @@
     "OFF": "Off",
     "UNDETERMINED": "Undetermined"
   },
-  "{[B.DEFAULT]:\"L.UNDETERMINED\",[B.DENIED]:\"L.OFF\",[B.GRANTED]:\"L.ON\"}",
+  "{[L.DEFAULT]:\"B.UNDETERMINED\",[L.DENIED]:\"B.OFF\",[L.GRANTED]:\"B.ON\"}",
   {
     "REQUEST": "rweb/devices/REMOVE_PUSH_DESTINATION_REQUEST",
     "SUCCESS": "rweb/devices/REMOVE_PUSH_DESTINATION_SUCCESS",
@@ -3195,7 +3195,7 @@
     "peopleYouFollow": "peopleYouFollow",
     "everyone": "everyone"
   },
-  "{[ka.onlyInvited]:\"0\",[ka.peopleYouFollow]:\"1\",[ka.everyone]:\"2\"}",
+  "{[da.onlyInvited]:\"0\",[da.peopleYouFollow]:\"1\",[da.everyone]:\"2\"}",
   {
     "AUDIO": "visual_audio",
     "CONFERENCE": "conference_spaces",
@@ -3218,7 +3218,7 @@
     "report": "report",
     "createClip": "create-clip"
   },
-  "{[L.Q.host]:{\"title\":\"W.hostTitle\",\"maybePluralFormatter\":\"$\"},[L.Q.cohost]:{\"title\":\"W.cohostTitle\",\"maybePluralFormatter\":\"G\"},[L.Q.speaker]:{\"title\":\"W.speakerTitle\",\"maybePluralFormatter\":\"K\"},[L.Q.listener]:{\"title\":\"W.listenerTitle\",\"maybePluralFormatter\":\"J\"}}",
+  "{[L.Q.host]:{\"title\":\"W.hostTitle\",\"maybePluralFormatter\":\"$\"},[L.Q.cohost]:{\"title\":\"W.cohostTitle\",\"maybePluralFormatter\":\"G\"},[L.Q.speaker]:{\"title\":\"W.speakerTitle\",\"maybePluralFormatter\":\"K\"},[L.Q.listener]:{\"title\":\"W.listenerTitle\",\"maybePluralFormatter\":\"Y\"}}",
   {
     "joinSpace": "c().h400d7c2",
     "replaySpace": "c().g66c8348",
@@ -4152,6 +4152,56 @@
     "post": "post"
   },
   {
+    "REQUEST": "rweb/FETCH_TV_HOME_MIXER/REQUEST",
+    "SUCCESS": "rweb/FETCH_TV_HOME_MIXER/SUCCESS",
+    "FAILURE": "rweb/FETCH_TV_HOME_MIXER/FAILURE"
+  },
+  {
+    "REQUEST": "rweb/FETCH_TV_USER_PROFILE_MIXER/REQUEST",
+    "SUCCESS": "rweb/FETCH_TV_USER_PROFILE_MIXER/SUCCESS",
+    "FAILURE": "rweb/FETCH_TV_USER_PROFILE_MIXER/FAILURE"
+  },
+  {
+    "REQUEST": "rweb/FETCH_TV_TREND/REQUEST",
+    "SUCCESS": "rweb/FETCH_TV_TREND/SUCCESS",
+    "FAILURE": "rweb/FETCH_TV_TREND/FAILURE"
+  },
+  {
+    "REQUEST": "rweb/FETCH_RELATED_VIDEOS/REQUEST",
+    "SUCCESS": "rweb/FETCH_RELATED_VIDEOS/SUCCESS",
+    "FAILURE": "rweb/FETCH_RELATED_VIDEOS/FAILURE"
+  },
+  {
+    "REQUEST": "rweb/FETCH_TV_PIN_CODE/REQUEST",
+    "SUCCESS": "rweb/FETCH_TV_PIN_CODE/SUCCESS",
+    "FAILURE": "rweb/FETCH_TV_PIN_CODE/FAILURE"
+  },
+  {
+    "REQUEST": "rweb/FETCH_TV_SEARCH/REQUEST",
+    "SUCCESS": "rweb/FETCH_TV_SEARCH/SUCCESS",
+    "FAILURE": "rweb/FETCH_TV_SEARCH/FAILURE"
+  },
+  {
+    "REQUEST": "rweb/FETCH_TV_TWEET_CONVERSATION/REQUEST",
+    "SUCCESS": "rweb/FETCH_TV_TWEET_CONVERSATION/SUCCESS",
+    "FAILURE": "rweb/FETCH_TV_TWEET_CONVERSATION/FAILURE"
+  },
+  {
+    "REQUEST": "rweb/FETCH_TV_FOLLOW/REQUEST",
+    "SUCCESS": "rweb/FETCH_TV_FOLLOW/SUCCESS",
+    "FAILURE": "rweb/FETCH_TV_FOLLOW/FAILURE"
+  },
+  {
+    "REQUEST": "rweb/FETCH_TV_USER_VIDEO_TWEETS/REQUEST",
+    "SUCCESS": "rweb/FETCH_TV_USER_VIDEO_TWEETS/SUCCESS",
+    "FAILURE": "rweb/FETCH_TV_USER_VIDEO_TWEETS/FAILURE"
+  },
+  {
+    "REQUEST": "rweb/FETCH_TV_SEARCH_TYPEAHEAD/REQUEST",
+    "SUCCESS": "rweb/FETCH_TV_SEARCH_TYPEAHEAD/SUCCESS",
+    "FAILURE": "rweb/FETCH_TV_SEARCH_TYPEAHEAD/FAILURE"
+  },
+  {
     "VerificationCheck": "VerificationCheck"
   },
   "{[L.VerificationCheck]:\"function()\"{if()throw new Error(3!==e.length);const[t,n,a]=e;return[{\"width\":\"400\",\"height\":\"200\",\"uri\":\"t\"},{\"width\":\"800\",\"height\":\"400\",\"uri\":\"n\"},{\"width\":\"1200\",\"height\":\"600\",\"uri\":\"a\"}]}\"()\"}",
@@ -4816,56 +4866,6 @@
     "SHORT_VIDEO": "SHORT_VIDEO"
   },
   {
-    "REQUEST": "rweb/FETCH_TV_HOME_MIXER/REQUEST",
-    "SUCCESS": "rweb/FETCH_TV_HOME_MIXER/SUCCESS",
-    "FAILURE": "rweb/FETCH_TV_HOME_MIXER/FAILURE"
-  },
-  {
-    "REQUEST": "rweb/FETCH_TV_USER_PROFILE_MIXER/REQUEST",
-    "SUCCESS": "rweb/FETCH_TV_USER_PROFILE_MIXER/SUCCESS",
-    "FAILURE": "rweb/FETCH_TV_USER_PROFILE_MIXER/FAILURE"
-  },
-  {
-    "REQUEST": "rweb/FETCH_TV_TREND/REQUEST",
-    "SUCCESS": "rweb/FETCH_TV_TREND/SUCCESS",
-    "FAILURE": "rweb/FETCH_TV_TREND/FAILURE"
-  },
-  {
-    "REQUEST": "rweb/FETCH_RELATED_VIDEOS/REQUEST",
-    "SUCCESS": "rweb/FETCH_RELATED_VIDEOS/SUCCESS",
-    "FAILURE": "rweb/FETCH_RELATED_VIDEOS/FAILURE"
-  },
-  {
-    "REQUEST": "rweb/FETCH_TV_PIN_CODE/REQUEST",
-    "SUCCESS": "rweb/FETCH_TV_PIN_CODE/SUCCESS",
-    "FAILURE": "rweb/FETCH_TV_PIN_CODE/FAILURE"
-  },
-  {
-    "REQUEST": "rweb/FETCH_TV_SEARCH/REQUEST",
-    "SUCCESS": "rweb/FETCH_TV_SEARCH/SUCCESS",
-    "FAILURE": "rweb/FETCH_TV_SEARCH/FAILURE"
-  },
-  {
-    "REQUEST": "rweb/FETCH_TV_TWEET_CONVERSATION/REQUEST",
-    "SUCCESS": "rweb/FETCH_TV_TWEET_CONVERSATION/SUCCESS",
-    "FAILURE": "rweb/FETCH_TV_TWEET_CONVERSATION/FAILURE"
-  },
-  {
-    "REQUEST": "rweb/FETCH_TV_FOLLOW/REQUEST",
-    "SUCCESS": "rweb/FETCH_TV_FOLLOW/SUCCESS",
-    "FAILURE": "rweb/FETCH_TV_FOLLOW/FAILURE"
-  },
-  {
-    "REQUEST": "rweb/FETCH_TV_USER_VIDEO_TWEETS/REQUEST",
-    "SUCCESS": "rweb/FETCH_TV_USER_VIDEO_TWEETS/SUCCESS",
-    "FAILURE": "rweb/FETCH_TV_USER_VIDEO_TWEETS/FAILURE"
-  },
-  {
-    "REQUEST": "rweb/FETCH_TV_SEARCH_TYPEAHEAD/REQUEST",
-    "SUCCESS": "rweb/FETCH_TV_SEARCH_TYPEAHEAD/SUCCESS",
-    "FAILURE": "rweb/FETCH_TV_SEARCH_TYPEAHEAD/FAILURE"
-  },
-  {
     "large": "54",
     "medium": "46",
     "small": "36",
@@ -4877,7 +4877,7 @@
     "Default": "ui_defaultLabel",
     "TransparentCursor": "ui_transparentCursor"
   },
-  "{[K.v.FOLLOWS]:\"U\",[K.v.FRIENDS_OF_FRIENDS]:\"Q\"}",
+  "{[$.v.FOLLOWS]:\"Q\",[$.v.FRIENDS_OF_FRIENDS]:\"U\"}",
   {
     "Default": "Default",
     "Pivot": "Pivot",
@@ -5122,7 +5122,7 @@
       "badgeType": "B.Notes"
     }
   },
-  "{\"ActionsBar\":\"y.Z\",\"ActionMenu\":\"function()\"{\"Icon\":\"e\",\"isDisabled\":\"t\",\"items\":\"n\",\"onOpen\":\"o\"}{\"const i=r.useCallback()\"{\"items\":\"n\",\"onCloseRequested\":\"e\"}{\"Icon\":\"e\",\"isDisabled\":\"t\",\"onClick\":\"o\",\"renderActionMenu\":\"i\"}},\"CallToAction\":\"a.ZP\",\"EditCallout\":\"E.Z\",\"Education\":\"_.Z\",\"HighlightedUserLabel\":\"c.Z\",\"Media\":\"k.Z\",\"Place\":\"i.ZP\",\"PromotedDetails\":\"u.Z\",\"PromotedUserProfileCard\":\"P\",\"ReplyContext\":\"A.ZP\",\"RichContent\":\"L.Z\",\"SocialContext\":\"w.Z\",\"Text\":\"M.Z\",\"Tombstone\":\"b.Z\",\"Timestamp\":\"p.Z\",\"UserAvatar\":\"D.Z\",\"UserFollowIndicator\":\"B.Z\",\"UserName\":\"R.Z\",\"ArticleCard\":\"v.Z\"}",
+  "{\"ActionsBar\":\"y.Z\",\"ActionMenu\":\"function()\"{\"Icon\":\"e\",\"isDisabled\":\"t\",\"items\":\"n\",\"onOpen\":\"o\"}{\"const i=r.useCallback()\"{\"items\":\"n\",\"onCloseRequested\":\"e\"}{\"Icon\":\"e\",\"isDisabled\":\"t\",\"onClick\":\"o\",\"renderActionMenu\":\"i\"}},\"CallToAction\":\"a.ZP\",\"EditCallout\":\"E.Z\",\"Education\":\"_.Z\",\"HighlightedUserLabel\":\"c.Z\",\"Media\":\"k.Z\",\"Place\":\"i.ZP\",\"PromotedDetails\":\"u.Z\",\"PromotedUserProfileCard\":\"P\",\"ReplyContext\":\"A.ZP\",\"RichContent\":\"L.Z\",\"SocialContext\":\"b.Z\",\"Text\":\"M.Z\",\"Tombstone\":\"w.Z\",\"Timestamp\":\"p.Z\",\"UserAvatar\":\"D.Z\",\"UserFollowIndicator\":\"B.Z\",\"UserName\":\"R.Z\",\"ArticleCard\":\"v.Z\"}",
   {
     "Trends": "trends"
   },
@@ -7405,7 +7405,7 @@
     "Red": "rgba(255, 0, 255, 0.5)",
     "Black": "rgba(255, 0, 0, 0.5)"
   },
-  "{[kt.FontColor]:{\"type\":\"kt.FontColor\",\"propertyName\":\"color\",\"styleName\":\"St.Color\",\"displayName\":\"w().c2c5dea4\",\"values\":\"_t\"},[kt.FontSize]:{\"type\":\"kt.FontSize\",\"propertyName\":\"font-size\",\"styleName\":\"St.FontSize\",\"displayName\":\"w().ce494bb4\",\"values\":[{\"name\":\"50%\",\"value\":\"50%\"},{\"name\":\"75%\",\"value\":\"75%\"},{\"name\":\"100%\",\"value\":\"100%\"},{\"name\":\"200%\",\"value\":\"200%\"},{\"name\":\"300%\",\"value\":\"300%\"}]},[kt.FontFamily]:{\"type\":\"kt.FontFamily\",\"propertyName\":\"font-family\",\"styleName\":\"St.FontFamily\",\"displayName\":\"w().ce71b3d0\",\"values\":[{\"name\":\"w().d2eb1582\",\"value\":\"\"},{\"name\":\"w().e684030e\",\"value\":\"Arial, sans-serif\",\"textStyle\":{\"fontFamily\":\"Arial, sans-serif\"}},{\"name\":\"w().jad3900c\",\"value\":'\"Times New Roman\", serif',\"textStyle\":{\"fontFamily\":'\"Times New Roman\", serif'}},{\"name\":\"w().e205f3a0\",\"value\":'\"Courier New\", monospace',\"textStyle\":{\"fontFamily\":'\"Courier New\", monospace'}}]},[kt.TextOpacity]:{\"type\":\"kt.TextOpacity\",\"propertyName\":\"color\",\"styleName\":\"St.Color\",\"displayName\":\"w().d207d39a\",\"values\":[{\"name\":\"50%\",\"value\":\"0.5\",\"isEqual\":\"Zt()\"},{\"name\":\"75%\",\"value\":\"0.75\",\"isEqual\":\"Zt()\"},{\"name\":\"100%\",\"value\":\"1.0\",\"isEqual\":\"Zt()\"}]},[kt.BackgroundColor]:{\"type\":\"kt.BackgroundColor\",\"propertyName\":\"background\",\"styleName\":\"St.BackgroundColor\",\"displayName\":\"w().a562039c\",\"values\":\"$t\"},[kt.BackgroundOpacity]:{\"type\":\"kt.BackgroundOpacity\",\"propertyName\":\"background\",\"styleName\":\"St.BackgroundColor\",\"displayName\":\"w().h44e879e\",\"values\":[{\"name\":\"25%\",\"value\":\"0.25\",\"isEqual\":\"Vt()\"},{\"name\":\"50%\",\"value\":\"0.5\",\"isEqual\":\"Vt()\"},{\"name\":\"75%\",\"value\":\"0.75\",\"isEqual\":\"Vt()\"},{\"name\":\"100%\",\"value\":\"1.0\",\"isEqual\":\"Vt()\"}]}}",
+  "{[kt.FontColor]:{\"type\":\"kt.FontColor\",\"propertyName\":\"color\",\"styleName\":\"St.Color\",\"displayName\":\"w().c2c5dea4\",\"values\":\"_t\"},[kt.FontSize]:{\"type\":\"kt.FontSize\",\"propertyName\":\"font-size\",\"styleName\":\"St.FontSize\",\"displayName\":\"w().ce494bb4\",\"values\":[{\"name\":\"50%\",\"value\":\"50%\"},{\"name\":\"75%\",\"value\":\"75%\"},{\"name\":\"100%\",\"value\":\"100%\"},{\"name\":\"200%\",\"value\":\"200%\"},{\"name\":\"300%\",\"value\":\"300%\"}]},[kt.FontFamily]:{\"type\":\"kt.FontFamily\",\"propertyName\":\"font-family\",\"styleName\":\"St.FontFamily\",\"displayName\":\"w().ce71b3d0\",\"values\":[{\"name\":\"w().d2eb1582\",\"value\":\"\"},{\"name\":\"w().e684030e\",\"value\":\"Arial, sans-serif\",\"textStyle\":{\"fontFamily\":\"Arial, sans-serif\"}},{\"name\":\"w().jad3900c\",\"value\":'\"Times New Roman\", serif',\"textStyle\":{\"fontFamily\":'\"Times New Roman\", serif'}},{\"name\":\"w().e205f3a0\",\"value\":'\"Courier New\", monospace',\"textStyle\":{\"fontFamily\":'\"Courier New\", monospace'}}]},[kt.TextOpacity]:{\"type\":\"kt.TextOpacity\",\"propertyName\":\"color\",\"styleName\":\"St.Color\",\"displayName\":\"w().d207d39a\",\"values\":[{\"name\":\"50%\",\"value\":\"0.5\",\"isEqual\":\"Zt()\"},{\"name\":\"75%\",\"value\":\"0.75\",\"isEqual\":\"Zt()\"},{\"name\":\"100%\",\"value\":\"1.0\",\"isEqual\":\"Zt()\"}]},[kt.BackgroundColor]:{\"type\":\"kt.BackgroundColor\",\"propertyName\":\"background\",\"styleName\":\"St.BackgroundColor\",\"displayName\":\"w().a562039c\",\"values\":\"$t\"},[kt.BackgroundOpacity]:{\"type\":\"kt.BackgroundOpacity\",\"propertyName\":\"background\",\"styleName\":\"St.BackgroundColor\",\"displayName\":\"w().h44e879e\",\"values\":[{\"name\":\"25%\",\"value\":\"0.25\",\"isEqual\":\"Lt()\"},{\"name\":\"50%\",\"value\":\"0.5\",\"isEqual\":\"Lt()\"},{\"name\":\"75%\",\"value\":\"0.75\",\"isEqual\":\"Lt()\"},{\"name\":\"100%\",\"value\":\"1.0\",\"isEqual\":\"Lt()\"}]}}",
   {
     "follow": "follow",
     "like": "like",

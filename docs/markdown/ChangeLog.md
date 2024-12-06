@@ -4795,3 +4795,14 @@
 #### remove<br>
 - gryphon_grok_per_column<br>
 - responsive_web_video_autoplay_default_on<br>
+## 2024/12/05<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- responsive_web_grok_user_seconds_enable<br>
+#### remove<br>
+- None<br>

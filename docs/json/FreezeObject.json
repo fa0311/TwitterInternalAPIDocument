@@ -2138,7 +2138,7 @@
     "peopleYouFollow": "peopleYouFollow",
     "everyone": "everyone"
   },
-  "{[ka.onlyInvited]:\"0\",[ka.peopleYouFollow]:\"1\",[ka.everyone]:\"2\"}",
+  "{[da.onlyInvited]:\"0\",[da.peopleYouFollow]:\"1\",[da.everyone]:\"2\"}",
   {
     "AUDIO": "visual_audio",
     "CONFERENCE": "conference_spaces",
@@ -2161,7 +2161,7 @@
     "report": "report",
     "createClip": "create-clip"
   },
-  "{[L.Q.host]:{\"title\":\"W.hostTitle\",\"maybePluralFormatter\":\"$\"},[L.Q.cohost]:{\"title\":\"W.cohostTitle\",\"maybePluralFormatter\":\"G\"},[L.Q.speaker]:{\"title\":\"W.speakerTitle\",\"maybePluralFormatter\":\"K\"},[L.Q.listener]:{\"title\":\"W.listenerTitle\",\"maybePluralFormatter\":\"J\"}}",
+  "{[L.Q.host]:{\"title\":\"W.hostTitle\",\"maybePluralFormatter\":\"$\"},[L.Q.cohost]:{\"title\":\"W.cohostTitle\",\"maybePluralFormatter\":\"G\"},[L.Q.speaker]:{\"title\":\"W.speakerTitle\",\"maybePluralFormatter\":\"K\"},[L.Q.listener]:{\"title\":\"W.listenerTitle\",\"maybePluralFormatter\":\"Y\"}}",
   {
     "joinSpace": "c().h400d7c2",
     "replaySpace": "c().g66c8348",
