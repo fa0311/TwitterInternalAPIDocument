@@ -4806,3 +4806,17 @@
 - responsive_web_grok_user_seconds_enable<br>
 #### remove<br>
 - None<br>
+## 2024/12/06<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- responsive_web_grok_user_active_seconds_enable<br>
+- rweb_analytics_follows_over_time_widget_enabled<br>
+- rweb_analytics_posts_over_time_widget_enabled<br>
+- rweb_video_logged_in_analytics_enabled<br>
+#### remove<br>
+- responsive_web_grok_user_seconds_enable<br>

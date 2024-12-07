@@ -4778,7 +4778,7 @@
           "value": "true"
         },
         "responsive_web_grok_imggen_count": {
-          "value": "1"
+          "value": "4"
         },
         "responsive_web_grok_in_app_learn_more": {
           "value": "https://x.com/xai/status/1823597788573098215"
@@ -5432,7 +5432,7 @@
           "value": "false"
         },
         "rweb_video_timestamps_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "sc_mock_data_enabled": {
           "value": "false"
@@ -5722,7 +5722,7 @@
           "value": "true"
         },
         "subscriptions_inapp_grok_nux_enabled": {
-          "value": "true"
+          "value": "false"
         },
         "subscriptions_inapp_grok_upsell_enabled": {
           "value": "true"
@@ -6320,7 +6320,7 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "4f5207771290e4a7fda73d7adfdbe8a2"
+      "settingsVersion": "748b4c80b86c79581473679cb7be82f2"
     },
     "debug": {},
     "featureSetToken": "1d065e4174759e6a38d846929ec19a5d4e890d43",
@@ -6393,7 +6393,7 @@
     "country": "XX",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "173343333037045927",
+    "guestId": "173351969410096855",
     "hasCommunityMemberships": "false",
     "language": "en",
     "ssoInitTokens": {},
