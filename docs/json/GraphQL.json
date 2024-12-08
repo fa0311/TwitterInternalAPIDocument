@@ -5454,7 +5454,7 @@
             "value": "true"
           },
           "subscriptions_feature_can_gift_premium": {
-            "value": "true"
+            "value": "false"
           },
           "creator_subscriptions_tweet_preview_api_enabled": {
             "value": "true"
@@ -5523,7 +5523,7 @@
             "value": "true"
           },
           "subscriptions_feature_can_gift_premium": {
-            "value": "true"
+            "value": "false"
           },
           "creator_subscriptions_tweet_preview_api_enabled": {
             "value": "true"
