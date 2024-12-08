@@ -4116,7 +4116,7 @@ Login Required: `...`<br>
 #### features<br>
 | key                                                               | type    | variable   |
 |:------------------------------------------------------------------|:--------|:-----------|
-| hidden_profile_subscriptions_enabled                              | boolean | True       |
+| hidden_profile_subscriptions_enabled                              | boolean | False      |
 | profile_label_improvements_pcf_label_in_post_enabled              | boolean | False      |
 | rweb_tipjar_consumption_enabled                                   | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                  | boolean | True       |
@@ -4140,7 +4140,7 @@ Login Required: `...`<br>
 #### features<br>
 | key                                                               | type    | variable   |
 |:------------------------------------------------------------------|:--------|:-----------|
-| hidden_profile_subscriptions_enabled                              | boolean | True       |
+| hidden_profile_subscriptions_enabled                              | boolean | False      |
 | profile_label_improvements_pcf_label_in_post_enabled              | boolean | False      |
 | rweb_tipjar_consumption_enabled                                   | boolean | True       |
 | responsive_web_graphql_exclude_directive_enabled                  | boolean | True       |
