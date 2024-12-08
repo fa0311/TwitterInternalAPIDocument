@@ -3562,7 +3562,7 @@
           "value": "false"
         },
         "blue_business_simplify_signup_ui": {
-          "value": "true"
+          "value": "false"
         },
         "blue_business_tier_switching_enabled": {
           "value": "true"
@@ -3580,7 +3580,7 @@
           "value": "5"
         },
         "blue_business_vo_nav_for_legacy_verified": {
-          "value": "false"
+          "value": "true"
         },
         "blue_longer_video_enabled": {
           "value": "false"
@@ -3802,7 +3802,7 @@
           "value": "false"
         },
         "dm_education_flags_prompt": {
-          "value": "false"
+          "value": "true"
         },
         "dm_encrypted_franking_sending_enabled": {
           "value": "false"
@@ -4363,7 +4363,7 @@
           "value": "false"
         },
         "promoted_badge_placement_position": {
-          "value": "right_tweet_header_ad_label"
+          "value": ""
         },
         "recruiting_admin_currencies_enabled": {
           "value": "true"
@@ -4465,7 +4465,7 @@
           "value": "5"
         },
         "responsive_web_ad_revenue_sharing_setup_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "responsive_web_ad_revenue_sharing_total_earnings_enabled": {
           "value": "false"
@@ -4756,7 +4756,7 @@
           "value": "true"
         },
         "responsive_web_grok_analyze_button_fetch_trends_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "responsive_web_grok_animated_text_enabled": {
           "value": "true"
@@ -4786,7 +4786,7 @@
           "value": "true"
         },
         "responsive_web_grok_fun_mode_disabled": {
-          "value": "false"
+          "value": "true"
         },
         "responsive_web_grok_general_availability": {
           "value": "false"
@@ -4860,6 +4860,9 @@
         "responsive_web_grok_user_seconds_debug": {
           "value": "false"
         },
+        "responsive_web_grok_user_seconds_heartbeat": {
+          "value": "5000"
+        },
         "responsive_web_grok_v2_start_screen_enabled": {
           "value": "true"
         },
@@ -4915,7 +4918,7 @@
           "value": "false"
         },
         "responsive_web_live_commerce_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "responsive_web_live_screen_enabled": {
           "value": "true"
@@ -5272,7 +5275,7 @@
           "value": "false"
         },
         "responsive_web_verified_organizations_invoice_update_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "responsive_web_verified_organizations_new_hiring_landing_enabled": {
           "value": "false"
@@ -5712,7 +5715,7 @@
           "value": "true"
         },
         "subscriptions_feature_can_gift_premium": {
-          "value": "false"
+          "value": "true"
         },
         "subscriptions_feature_create_premium_content": {
           "value": "false"
@@ -5829,7 +5832,7 @@
           "value": "true"
         },
         "subscriptions_sign_up_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "subscriptions_stripe_testing": {
           "value": "false"
@@ -5883,7 +5886,7 @@
           "value": "true"
         },
         "super_follow_android_web_subscription_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "super_follow_exclusive_tweet_creation_api_enabled": {
           "value": "true"
@@ -5901,7 +5904,7 @@
           "value": "true"
         },
         "super_follow_web_application_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "super_follow_web_deactivate_enabled": {
           "value": "true"
@@ -6364,7 +6367,7 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "79e161ca204add771d24d710f493ed41"
+      "settingsVersion": "9436c74e5328b54c2f20bddce972a0a0"
     },
     "debug": {},
     "featureSetToken": "cfa04fc95eba171334b1d920adf1ee9bb7455c8c",
@@ -6434,10 +6437,10 @@
     }
   },
   "session": {
-    "country": "XX",
+    "country": "JP",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "173360573689528554",
+    "guestId": "173366164017951303",
     "hasCommunityMemberships": "false",
     "language": "en",
     "ssoInitTokens": {},

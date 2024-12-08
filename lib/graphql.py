@@ -108,8 +108,8 @@ def marge_feature_switch(initial_output: dict) -> dict:
             for k in initial_output["featureSwitch"]["defaultConfig"].keys():
                 featureSwitches[k] = initial_output["featureSwitch"]["defaultConfig"][k]
         if k == "user":
-            for k in initial_output["featureSwitch"]["user"].keys():
-                featureSwitches[k] = initial_output["featureSwitch"]["user"][k]
+            for k in initial_output["featureSwitch"]["user"]["config"].keys():
+                featureSwitches[k] = initial_output["featureSwitch"]["user"]["config"][k]
     return featureSwitches
 
 
