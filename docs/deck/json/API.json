@@ -3040,7 +3040,7 @@
       "queryId": "LWxkCeL8Hlx0-f24DmPAJw",
       "method": "GET",
       "features": {
-        "hidden_profile_subscriptions_enabled": true,
+        "hidden_profile_subscriptions_enabled": false,
         "profile_label_improvements_pcf_label_in_post_enabled": false,
         "rweb_tipjar_consumption_enabled": true,
         "responsive_web_graphql_exclude_directive_enabled": true,
@@ -3058,7 +3058,7 @@
       "queryId": "QGIw94L0abhuohrr76cSbw",
       "method": "GET",
       "features": {
-        "hidden_profile_subscriptions_enabled": true,
+        "hidden_profile_subscriptions_enabled": false,
         "profile_label_improvements_pcf_label_in_post_enabled": false,
         "rweb_tipjar_consumption_enabled": true,
         "responsive_web_graphql_exclude_directive_enabled": true,
