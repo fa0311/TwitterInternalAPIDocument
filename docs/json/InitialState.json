@@ -620,7 +620,7 @@
         "value": "true"
       },
       "creator_subscriptions_new_eligibility_requirements_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "creator_subscriptions_quote_tweet_preview_enabled": {
         "value": "false"
@@ -1667,7 +1667,7 @@
         "value": "true"
       },
       "responsive_web_grok_imggen_count": {
-        "value": "1"
+        "value": "4"
       },
       "responsive_web_grok_in_app_learn_more": {
         "value": "https://x.com/xai/status/1823597788573098215"
@@ -1685,6 +1685,12 @@
         "value": "false"
       },
       "responsive_web_grok_post_understanding_button_enabled": {
+        "value": "false"
+      },
+      "responsive_web_grok_post_understanding_button_fetch_trends_enabled": {
+        "value": "false"
+      },
+      "responsive_web_grok_post_understanding_button_trends_only": {
         "value": "false"
       },
       "responsive_web_grok_prompt_edit_enabled": {
@@ -1764,6 +1770,9 @@
       },
       "responsive_web_instream_video_redesign_enabled": {
         "value": "true"
+      },
+      "responsive_web_intercom_support_capture_premium_enabled": {
+        "value": "false"
       },
       "responsive_web_lbm_v2_home_enabled": {
         "value": "false"
@@ -2132,6 +2141,9 @@
         "value": "false"
       },
       "responsive_web_verified_organizations_invoice_update_enabled": {
+        "value": "false"
+      },
+      "responsive_web_verified_organizations_new_hiring_landing_enabled": {
         "value": "false"
       },
       "responsive_web_verified_organizations_new_signup_enabled": {
@@ -2620,7 +2632,7 @@
         "value": "true"
       },
       "subscriptions_inapp_grok_nux_enabled": {
-        "value": "true"
+        "value": "false"
       },
       "subscriptions_inapp_grok_upsell_enabled": {
         "value": "true"
@@ -3205,6 +3217,9 @@
       "xprofile_emojis_enabled": {
         "value": "true"
       },
+      "xprofile_profile_button_enabled": {
+        "value": "false"
+      },
       "xprofile_work_history_consumption_enabled": {
         "value": "true"
       },
@@ -3733,7 +3748,7 @@
           "value": "true"
         },
         "creator_subscriptions_new_eligibility_requirements_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "creator_subscriptions_quote_tweet_preview_enabled": {
           "value": "false"
@@ -4740,6 +4755,9 @@
         "responsive_web_graphql_timeline_navigation_enabled": {
           "value": "true"
         },
+        "responsive_web_grok_analyze_button_fetch_trends_enabled": {
+          "value": "false"
+        },
         "responsive_web_grok_animated_text_enabled": {
           "value": "true"
         },
@@ -4798,6 +4816,12 @@
           "value": "false"
         },
         "responsive_web_grok_post_understanding_button_enabled": {
+          "value": "false"
+        },
+        "responsive_web_grok_post_understanding_button_fetch_trends_enabled": {
+          "value": "false"
+        },
+        "responsive_web_grok_post_understanding_button_trends_only": {
           "value": "false"
         },
         "responsive_web_grok_prompt_edit_enabled": {
@@ -4877,6 +4901,9 @@
         },
         "responsive_web_instream_video_redesign_enabled": {
           "value": "true"
+        },
+        "responsive_web_intercom_support_capture_premium_enabled": {
+          "value": "false"
         },
         "responsive_web_lbm_v2_home_enabled": {
           "value": "false"
@@ -5245,6 +5272,9 @@
           "value": "false"
         },
         "responsive_web_verified_organizations_invoice_update_enabled": {
+          "value": "false"
+        },
+        "responsive_web_verified_organizations_new_hiring_landing_enabled": {
           "value": "false"
         },
         "responsive_web_verified_organizations_new_signup_enabled": {
@@ -6318,6 +6348,9 @@
         "xprofile_emojis_enabled": {
           "value": "true"
         },
+        "xprofile_profile_button_enabled": {
+          "value": "false"
+        },
         "xprofile_work_history_consumption_enabled": {
           "value": "true"
         },
@@ -6331,10 +6364,10 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "6fa89bdc61286c303be44aa78de1c48f"
+      "settingsVersion": "79e161ca204add771d24d710f493ed41"
     },
     "debug": {},
-    "featureSetToken": "9675b9779a92d8e4af02709d2eed631fc5983f41",
+    "featureSetToken": "cfa04fc95eba171334b1d920adf1ee9bb7455c8c",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -6404,7 +6437,7 @@
     "country": "XX",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "173351937575799374",
+    "guestId": "173360573689528554",
     "hasCommunityMemberships": "false",
     "language": "en",
     "ssoInitTokens": {},

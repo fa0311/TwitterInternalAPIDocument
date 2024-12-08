@@ -4820,3 +4820,18 @@
 - rweb_video_logged_in_analytics_enabled<br>
 #### remove<br>
 - responsive_web_grok_user_seconds_enable<br>
+## 2024/12/07<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- responsive_web_grok_post_understanding_button_fetch_trends_enabled<br>
+- responsive_web_grok_post_understanding_button_trends_only<br>
+- responsive_web_intercom_support_capture_premium_enabled<br>
+- responsive_web_verified_organizations_new_hiring_landing_enabled<br>
+- xprofile_profile_button_enabled<br>
+#### remove<br>
+- None<br>
