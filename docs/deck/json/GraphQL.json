@@ -10594,7 +10594,7 @@
         ],
         "featureSwitch": {
           "hidden_profile_subscriptions_enabled": {
-            "value": "true"
+            "value": "false"
           },
           "profile_label_improvements_pcf_label_in_post_enabled": {
             "value": "false"
@@ -10657,7 +10657,7 @@
         ],
         "featureSwitch": {
           "hidden_profile_subscriptions_enabled": {
-            "value": "true"
+            "value": "false"
           },
           "profile_label_improvements_pcf_label_in_post_enabled": {
             "value": "false"
