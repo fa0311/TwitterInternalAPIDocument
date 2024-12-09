@@ -58,7 +58,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## AiTrendByRestId<br>
-Request URL: `https://x.com/i/api/graphql/0ey8Qrkp8Mpb8Xmhj6fmlQ/AiTrendByRestId`<br>
+Request URL: `https://x.com/i/api/graphql/xdFZuUILWbNrojTVkSKLUA/AiTrendByRestId`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -71,6 +71,7 @@ Login Required: `...`<br>
 | premium_content_api_read_enabled                                        | boolean | False      |
 | communities_web_enable_tweet_community_results_fetch                    | boolean | True       |
 | c9s_tweet_anatomy_moderator_badge_enabled                               | boolean | True       |
+| responsive_web_grok_analyze_button_fetch_trends_enabled                 | boolean | False      |
 | articles_preview_enabled                                                | boolean | True       |
 | responsive_web_edit_tweet_api_enabled                                   | boolean | True       |
 | graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | True       |
@@ -173,7 +174,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## BlockedAccountsAll<br>
-Request URL: `https://x.com/i/api/graphql/_c7foOxcCOvZ-yYFEVGrLw/BlockedAccountsAll`<br>
+Request URL: `https://x.com/i/api/graphql/QvXh_hA6TVD9ptKWxwQo-g/BlockedAccountsAll`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -192,6 +193,7 @@ Login Required: `...`<br>
 | premium_content_api_read_enabled                                        | boolean | False      |
 | communities_web_enable_tweet_community_results_fetch                    | boolean | True       |
 | c9s_tweet_anatomy_moderator_badge_enabled                               | boolean | True       |
+| responsive_web_grok_analyze_button_fetch_trends_enabled                 | boolean | False      |
 | articles_preview_enabled                                                | boolean | True       |
 | responsive_web_edit_tweet_api_enabled                                   | boolean | True       |
 | graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | True       |
@@ -211,7 +213,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## BlockedAccountsImported<br>
-Request URL: `https://x.com/i/api/graphql/_fur6EAT-DH4DCdw8P_YIA/BlockedAccountsImported`<br>
+Request URL: `https://x.com/i/api/graphql/xkWb2-ZyPUYr1f-yKRN_CA/BlockedAccountsImported`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -230,6 +232,7 @@ Login Required: `...`<br>
 | premium_content_api_read_enabled                                        | boolean | False      |
 | communities_web_enable_tweet_community_results_fetch                    | boolean | True       |
 | c9s_tweet_anatomy_moderator_badge_enabled                               | boolean | True       |
+| responsive_web_grok_analyze_button_fetch_trends_enabled                 | boolean | False      |
 | articles_preview_enabled                                                | boolean | True       |
 | responsive_web_edit_tweet_api_enabled                                   | boolean | True       |
 | graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | True       |
@@ -249,7 +252,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## BlueVerifiedFollowers<br>
-Request URL: `https://x.com/i/api/graphql/hynPmqeQItD4bJAeUfT9OA/BlueVerifiedFollowers`<br>
+Request URL: `https://x.com/i/api/graphql/X8FbTwkQhdxgW-hj7trXIQ/BlueVerifiedFollowers`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -268,6 +271,7 @@ Login Required: `...`<br>
 | premium_content_api_read_enabled                                        | boolean | False      |
 | communities_web_enable_tweet_community_results_fetch                    | boolean | True       |
 | c9s_tweet_anatomy_moderator_badge_enabled                               | boolean | True       |
+| responsive_web_grok_analyze_button_fetch_trends_enabled                 | boolean | False      |
 | articles_preview_enabled                                                | boolean | True       |
 | responsive_web_edit_tweet_api_enabled                                   | boolean | True       |
 | graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | True       |
@@ -287,7 +291,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## BookmarkFolderTimeline<br>
-Request URL: `https://x.com/i/api/graphql/C3DUbdLafw_WsT7J4KTHTw/BookmarkFolderTimeline`<br>
+Request URL: `https://x.com/i/api/graphql/0SJrat1bTX8Rnxk-pTFXXA/BookmarkFolderTimeline`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -306,6 +310,7 @@ Login Required: `...`<br>
 | premium_content_api_read_enabled                                        | boolean | False      |
 | communities_web_enable_tweet_community_results_fetch                    | boolean | True       |
 | c9s_tweet_anatomy_moderator_badge_enabled                               | boolean | True       |
+| responsive_web_grok_analyze_button_fetch_trends_enabled                 | boolean | False      |
 | articles_preview_enabled                                                | boolean | True       |
 | responsive_web_edit_tweet_api_enabled                                   | boolean | True       |
 | graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | True       |
@@ -336,7 +341,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## BookmarkSearchTimeline<br>
-Request URL: `https://x.com/i/api/graphql/eA1iDSaThhzoT_01Cibfvw/BookmarkSearchTimeline`<br>
+Request URL: `https://x.com/i/api/graphql/rDpvnSlqB22z7k59xt4xJQ/BookmarkSearchTimeline`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -355,6 +360,7 @@ Login Required: `...`<br>
 | premium_content_api_read_enabled                                        | boolean | False      |
 | communities_web_enable_tweet_community_results_fetch                    | boolean | True       |
 | c9s_tweet_anatomy_moderator_badge_enabled                               | boolean | True       |
+| responsive_web_grok_analyze_button_fetch_trends_enabled                 | boolean | False      |
 | articles_preview_enabled                                                | boolean | True       |
 | responsive_web_edit_tweet_api_enabled                                   | boolean | True       |
 | graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | True       |
@@ -385,7 +391,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## Bookmarks<br>
-Request URL: `https://x.com/i/api/graphql/7cG0Dv9ZyEkaPgXnJSx1fA/Bookmarks`<br>
+Request URL: `https://x.com/i/api/graphql/JuKDqS67qM3Q3vCwJ9yx8Q/Bookmarks`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -405,6 +411,7 @@ Login Required: `...`<br>
 | premium_content_api_read_enabled                                        | boolean | False      |
 | communities_web_enable_tweet_community_results_fetch                    | boolean | True       |
 | c9s_tweet_anatomy_moderator_badge_enabled                               | boolean | True       |
+| responsive_web_grok_analyze_button_fetch_trends_enabled                 | boolean | False      |
 | articles_preview_enabled                                                | boolean | True       |
 | responsive_web_edit_tweet_api_enabled                                   | boolean | True       |
 | graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | True       |
@@ -424,7 +431,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## BroadcastQuery<br>
-Request URL: `https://x.com/i/api/graphql/etkzgbit0OaaTijsqZ4QEQ/BroadcastQuery`<br>
+Request URL: `https://x.com/i/api/graphql/tlB9giPW_4VpJkBiCDkhfw/BroadcastQuery`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -437,6 +444,7 @@ Login Required: `...`<br>
 | premium_content_api_read_enabled                                        | boolean | False      |
 | communities_web_enable_tweet_community_results_fetch                    | boolean | True       |
 | c9s_tweet_anatomy_moderator_badge_enabled                               | boolean | True       |
+| responsive_web_grok_analyze_button_fetch_trends_enabled                 | boolean | False      |
 | articles_preview_enabled                                                | boolean | True       |
 | profile_label_improvements_pcf_label_in_post_enabled                    | boolean | False      |
 | rweb_tipjar_consumption_enabled                                         | boolean | True       |
@@ -462,7 +470,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## CombinedLists<br>
-Request URL: `https://x.com/i/api/graphql/P9KEw0yZg-T6Bvr7ck8_ig/CombinedLists`<br>
+Request URL: `https://x.com/i/api/graphql/h1n9SzVAHCeWyVBcGqOgFA/CombinedLists`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -481,6 +489,7 @@ Login Required: `...`<br>
 | premium_content_api_read_enabled                                        | boolean | False      |
 | communities_web_enable_tweet_community_results_fetch                    | boolean | True       |
 | c9s_tweet_anatomy_moderator_badge_enabled                               | boolean | True       |
+| responsive_web_grok_analyze_button_fetch_trends_enabled                 | boolean | False      |
 | articles_preview_enabled                                                | boolean | True       |
 | responsive_web_edit_tweet_api_enabled                                   | boolean | True       |
 | graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | True       |
@@ -500,7 +509,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## CommunitiesExploreTimeline<br>
-Request URL: `https://x.com/i/api/graphql/4n55s20kmXc4Haj9mPSEoA/CommunitiesExploreTimeline`<br>
+Request URL: `https://x.com/i/api/graphql/0Mlzg5CLd9RxQGE6DeChEw/CommunitiesExploreTimeline`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -519,6 +528,7 @@ Login Required: `...`<br>
 | premium_content_api_read_enabled                                        | boolean | False      |
 | communities_web_enable_tweet_community_results_fetch                    | boolean | True       |
 | c9s_tweet_anatomy_moderator_badge_enabled                               | boolean | True       |
+| responsive_web_grok_analyze_button_fetch_trends_enabled                 | boolean | False      |
 | articles_preview_enabled                                                | boolean | True       |
 | responsive_web_edit_tweet_api_enabled                                   | boolean | True       |
 | graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | True       |
@@ -538,7 +548,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## CommunitiesMainDiscoveryModule<br>
-Request URL: `https://x.com/i/api/graphql/L1G6iNco11H4Gj4tM6q4Tg/CommunitiesMainDiscoveryModule`<br>
+Request URL: `https://x.com/i/api/graphql/xZhlYAYH-3Rd4ekf5siUjg/CommunitiesMainDiscoveryModule`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -557,6 +567,7 @@ Login Required: `...`<br>
 | premium_content_api_read_enabled                                        | boolean | False      |
 | communities_web_enable_tweet_community_results_fetch                    | boolean | True       |
 | c9s_tweet_anatomy_moderator_badge_enabled                               | boolean | True       |
+| responsive_web_grok_analyze_button_fetch_trends_enabled                 | boolean | False      |
 | articles_preview_enabled                                                | boolean | True       |
 | responsive_web_edit_tweet_api_enabled                                   | boolean | True       |
 | graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | True       |
@@ -576,7 +587,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## CommunitiesMainPageTimeline<br>
-Request URL: `https://x.com/i/api/graphql/9bZMD9qdzfFpPJ1C0Kc5aQ/CommunitiesMainPageTimeline`<br>
+Request URL: `https://x.com/i/api/graphql/C4RVZGhXOwD1wLAaYjAwWQ/CommunitiesMainPageTimeline`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -595,6 +606,7 @@ Login Required: `...`<br>
 | premium_content_api_read_enabled                                        | boolean | False      |
 | communities_web_enable_tweet_community_results_fetch                    | boolean | True       |
 | c9s_tweet_anatomy_moderator_badge_enabled                               | boolean | True       |
+| responsive_web_grok_analyze_button_fetch_trends_enabled                 | boolean | False      |
 | articles_preview_enabled                                                | boolean | True       |
 | responsive_web_edit_tweet_api_enabled                                   | boolean | True       |
 | graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | True       |
@@ -637,7 +649,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## CommunitiesMembershipsTimeline<br>
-Request URL: `https://x.com/i/api/graphql/QLtO22L5HMQaEE6h9iA1mA/CommunitiesMembershipsTimeline`<br>
+Request URL: `https://x.com/i/api/graphql/D69zr6za3Bs_p02x_YGZiA/CommunitiesMembershipsTimeline`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -656,6 +668,7 @@ Login Required: `...`<br>
 | premium_content_api_read_enabled                                        | boolean | False      |
 | communities_web_enable_tweet_community_results_fetch                    | boolean | True       |
 | c9s_tweet_anatomy_moderator_badge_enabled                               | boolean | True       |
+| responsive_web_grok_analyze_button_fetch_trends_enabled                 | boolean | False      |
 | articles_preview_enabled                                                | boolean | True       |
 | responsive_web_edit_tweet_api_enabled                                   | boolean | True       |
 | graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | True       |
@@ -675,7 +688,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## CommunityAboutTimeline<br>
-Request URL: `https://x.com/i/api/graphql/bJeZc57oZjNlgusPfM1-Vg/CommunityAboutTimeline`<br>
+Request URL: `https://x.com/i/api/graphql/zZJGOPujN7FpD5QyyCiyNA/CommunityAboutTimeline`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -694,6 +707,7 @@ Login Required: `...`<br>
 | premium_content_api_read_enabled                                        | boolean | False      |
 | communities_web_enable_tweet_community_results_fetch                    | boolean | True       |
 | c9s_tweet_anatomy_moderator_badge_enabled                               | boolean | True       |
+| responsive_web_grok_analyze_button_fetch_trends_enabled                 | boolean | False      |
 | articles_preview_enabled                                                | boolean | True       |
 | responsive_web_edit_tweet_api_enabled                                   | boolean | True       |
 | graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | True       |
@@ -751,7 +765,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## CommunityDiscoveryTimeline<br>
-Request URL: `https://x.com/i/api/graphql/fp8tAb_hMF53tAP-hF9zJg/CommunityDiscoveryTimeline`<br>
+Request URL: `https://x.com/i/api/graphql/uzvb6ySYwLvFr8kzVzMxow/CommunityDiscoveryTimeline`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -770,6 +784,7 @@ Login Required: `...`<br>
 | premium_content_api_read_enabled                                        | boolean | False      |
 | communities_web_enable_tweet_community_results_fetch                    | boolean | True       |
 | c9s_tweet_anatomy_moderator_badge_enabled                               | boolean | True       |
+| responsive_web_grok_analyze_button_fetch_trends_enabled                 | boolean | False      |
 | articles_preview_enabled                                                | boolean | True       |
 | responsive_web_edit_tweet_api_enabled                                   | boolean | True       |
 | graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | True       |
@@ -906,7 +921,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## CommunityHashtagsTimeline<br>
-Request URL: `https://x.com/i/api/graphql/Yt6B21DXtETNT_h9mLKsKg/CommunityHashtagsTimeline`<br>
+Request URL: `https://x.com/i/api/graphql/vHcpL2bT8NTFHGdvrxOPkA/CommunityHashtagsTimeline`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -925,6 +940,7 @@ Login Required: `...`<br>
 | premium_content_api_read_enabled                                        | boolean | False      |
 | communities_web_enable_tweet_community_results_fetch                    | boolean | True       |
 | c9s_tweet_anatomy_moderator_badge_enabled                               | boolean | True       |
+| responsive_web_grok_analyze_button_fetch_trends_enabled                 | boolean | False      |
 | articles_preview_enabled                                                | boolean | True       |
 | responsive_web_edit_tweet_api_enabled                                   | boolean | True       |
 | graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | True       |
@@ -982,7 +998,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## CommunityMediaLoggedOutTimeline<br>
-Request URL: `https://x.com/i/api/graphql/FeqCHsOpb6zs2BqkUan9oA/CommunityMediaLoggedOutTimeline`<br>
+Request URL: `https://x.com/i/api/graphql/p4RLrSvd_nSbgNdp9k3UYw/CommunityMediaLoggedOutTimeline`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -1001,6 +1017,7 @@ Login Required: `...`<br>
 | premium_content_api_read_enabled                                        | boolean | False      |
 | communities_web_enable_tweet_community_results_fetch                    | boolean | True       |
 | c9s_tweet_anatomy_moderator_badge_enabled                               | boolean | True       |
+| responsive_web_grok_analyze_button_fetch_trends_enabled                 | boolean | False      |
 | articles_preview_enabled                                                | boolean | True       |
 | responsive_web_edit_tweet_api_enabled                                   | boolean | True       |
 | graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | True       |
@@ -1020,7 +1037,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## CommunityMediaTimeline<br>
-Request URL: `https://x.com/i/api/graphql/Ytz684GkkjWEplMIf_rg0Q/CommunityMediaTimeline`<br>
+Request URL: `https://x.com/i/api/graphql/AcE9fHcNXYUk0ZoO-RXE5g/CommunityMediaTimeline`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -1039,6 +1056,7 @@ Login Required: `...`<br>
 | premium_content_api_read_enabled                                        | boolean | False      |
 | communities_web_enable_tweet_community_results_fetch                    | boolean | True       |
 | c9s_tweet_anatomy_moderator_badge_enabled                               | boolean | True       |
+| responsive_web_grok_analyze_button_fetch_trends_enabled                 | boolean | False      |
 | articles_preview_enabled                                                | boolean | True       |
 | responsive_web_edit_tweet_api_enabled                                   | boolean | True       |
 | graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | True       |
@@ -1091,7 +1109,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## CommunityModerationTweetCasesSlice<br>
-Request URL: `https://x.com/i/api/graphql/7W7LJUYze6OH16Eut9gIaw/CommunityModerationTweetCasesSlice`<br>
+Request URL: `https://x.com/i/api/graphql/2saNHFjkX0ED8GYj1feaww/CommunityModerationTweetCasesSlice`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -1104,6 +1122,7 @@ Login Required: `...`<br>
 | premium_content_api_read_enabled                                        | boolean | False      |
 | communities_web_enable_tweet_community_results_fetch                    | boolean | True       |
 | c9s_tweet_anatomy_moderator_badge_enabled                               | boolean | True       |
+| responsive_web_grok_analyze_button_fetch_trends_enabled                 | boolean | False      |
 | articles_preview_enabled                                                | boolean | True       |
 | responsive_web_edit_tweet_api_enabled                                   | boolean | True       |
 | graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | True       |
@@ -1208,7 +1227,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## CommunityTweetModerationLogSlice<br>
-Request URL: `https://x.com/i/api/graphql/00zwHPbYmCvy_CeR_e_lIw/CommunityTweetModerationLogSlice`<br>
+Request URL: `https://x.com/i/api/graphql/xXElmvamHCWQRdJV-TAP-Q/CommunityTweetModerationLogSlice`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -1225,6 +1244,7 @@ Login Required: `...`<br>
 | premium_content_api_read_enabled                                        | boolean | False      |
 | communities_web_enable_tweet_community_results_fetch                    | boolean | True       |
 | c9s_tweet_anatomy_moderator_badge_enabled                               | boolean | True       |
+| responsive_web_grok_analyze_button_fetch_trends_enabled                 | boolean | False      |
 | articles_preview_enabled                                                | boolean | True       |
 | responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean | False      |
 | responsive_web_edit_tweet_api_enabled                                   | boolean | True       |
@@ -1246,7 +1266,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## CommunityTweetsLoggedOutTimeline<br>
-Request URL: `https://x.com/i/api/graphql/0CB_R1RZbrFWKAUqIzNpEQ/CommunityTweetsLoggedOutTimeline`<br>
+Request URL: `https://x.com/i/api/graphql/swwMVWb8q6V5714I2-hGqw/CommunityTweetsLoggedOutTimeline`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -1265,6 +1285,7 @@ Login Required: `...`<br>
 | premium_content_api_read_enabled                                        | boolean | False      |
 | communities_web_enable_tweet_community_results_fetch                    | boolean | True       |
 | c9s_tweet_anatomy_moderator_badge_enabled                               | boolean | True       |
+| responsive_web_grok_analyze_button_fetch_trends_enabled                 | boolean | False      |
 | articles_preview_enabled                                                | boolean | True       |
 | responsive_web_edit_tweet_api_enabled                                   | boolean | True       |
 | graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | True       |
@@ -1284,7 +1305,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## CommunityTweetsRankedLoggedOutTimeline<br>
-Request URL: `https://x.com/i/api/graphql/JG5fNODaM_u7i5VQuWe-zA/CommunityTweetsRankedLoggedOutTimeline`<br>
+Request URL: `https://x.com/i/api/graphql/GAbugBvX6x-SsEHj3Yb0Hw/CommunityTweetsRankedLoggedOutTimeline`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -1303,6 +1324,7 @@ Login Required: `...`<br>
 | premium_content_api_read_enabled                                        | boolean | False      |
 | communities_web_enable_tweet_community_results_fetch                    | boolean | True       |
 | c9s_tweet_anatomy_moderator_badge_enabled                               | boolean | True       |
+| responsive_web_grok_analyze_button_fetch_trends_enabled                 | boolean | False      |
 | articles_preview_enabled                                                | boolean | True       |
 | responsive_web_edit_tweet_api_enabled                                   | boolean | True       |
 | graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | True       |
@@ -1322,7 +1344,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## CommunityTweetsTimeline<br>
-Request URL: `https://x.com/i/api/graphql/iBCnOSfq5W9Xv_2rVL2zfQ/CommunityTweetsTimeline`<br>
+Request URL: `https://x.com/i/api/graphql/JoIN44kDH8TJ73xZmFaQ0w/CommunityTweetsTimeline`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -1341,6 +1363,7 @@ Login Required: `...`<br>
 | premium_content_api_read_enabled                                        | boolean | False      |
 | communities_web_enable_tweet_community_results_fetch                    | boolean | True       |
 | c9s_tweet_anatomy_moderator_badge_enabled                               | boolean | True       |
+| responsive_web_grok_analyze_button_fetch_trends_enabled                 | boolean | False      |
 | articles_preview_enabled                                                | boolean | True       |
 | responsive_web_edit_tweet_api_enabled                                   | boolean | True       |
 | graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | True       |
@@ -1411,7 +1434,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## ConnectTabTimeline<br>
-Request URL: `https://x.com/i/api/graphql/D9FARY5HagmUqYoAkFtBVg/ConnectTabTimeline`<br>
+Request URL: `https://x.com/i/api/graphql/LteTIH0Jj7hGEPdWRZMnWg/ConnectTabTimeline`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -1430,6 +1453,7 @@ Login Required: `...`<br>
 | premium_content_api_read_enabled                                        | boolean | False      |
 | communities_web_enable_tweet_community_results_fetch                    | boolean | True       |
 | c9s_tweet_anatomy_moderator_badge_enabled                               | boolean | True       |
+| responsive_web_grok_analyze_button_fetch_trends_enabled                 | boolean | False      |
 | articles_preview_enabled                                                | boolean | True       |
 | responsive_web_edit_tweet_api_enabled                                   | boolean | True       |
 | graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | True       |
@@ -1515,7 +1539,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## CreateNoteTweet<br>
-Request URL: `https://x.com/i/api/graphql/WbQGBFPUUwO7_KT8OnH02Q/CreateNoteTweet`<br>
+Request URL: `https://x.com/i/api/graphql/YNXM2DGuE2Sff6a2JD3Ztw/CreateNoteTweet`<br>
 Request Method: `POST`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -1527,6 +1551,7 @@ Login Required: `...`<br>
 | premium_content_api_read_enabled                                        | boolean | False      |
 | communities_web_enable_tweet_community_results_fetch                    | boolean | True       |
 | c9s_tweet_anatomy_moderator_badge_enabled                               | boolean | True       |
+| responsive_web_grok_analyze_button_fetch_trends_enabled                 | boolean | False      |
 | responsive_web_edit_tweet_api_enabled                                   | boolean | True       |
 | graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | True       |
 | view_counts_everywhere_api_enabled                                      | boolean | True       |
@@ -1585,7 +1610,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## CreateTweet<br>
-Request URL: `https://x.com/i/api/graphql/7K_3lWwMrMjx_Hh8ii9jtA/CreateTweet`<br>
+Request URL: `https://x.com/i/api/graphql/qc4OW1w4zjtXm-oxpdzgDg/CreateTweet`<br>
 Request Method: `POST`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -1597,6 +1622,7 @@ Login Required: `...`<br>
 | premium_content_api_read_enabled                                        | boolean | False      |
 | communities_web_enable_tweet_community_results_fetch                    | boolean | True       |
 | c9s_tweet_anatomy_moderator_badge_enabled                               | boolean | True       |
+| responsive_web_grok_analyze_button_fetch_trends_enabled                 | boolean | False      |
 | responsive_web_edit_tweet_api_enabled                                   | boolean | True       |
 | graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | True       |
 | view_counts_everywhere_api_enabled                                      | boolean | True       |
@@ -1622,7 +1648,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## CreatorSubscriptionsTimeline<br>
-Request URL: `https://x.com/i/api/graphql/a8ifo6S1V3GSzkBqKABK1w/CreatorSubscriptionsTimeline`<br>
+Request URL: `https://x.com/i/api/graphql/Hmy4VF4i2Qo_Q05-iRApJQ/CreatorSubscriptionsTimeline`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -1641,6 +1667,7 @@ Login Required: `...`<br>
 | premium_content_api_read_enabled                                        | boolean | False      |
 | communities_web_enable_tweet_community_results_fetch                    | boolean | True       |
 | c9s_tweet_anatomy_moderator_badge_enabled                               | boolean | True       |
+| responsive_web_grok_analyze_button_fetch_trends_enabled                 | boolean | False      |
 | articles_preview_enabled                                                | boolean | True       |
 | responsive_web_edit_tweet_api_enabled                                   | boolean | True       |
 | graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | True       |
@@ -1864,7 +1891,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## ExplorePage<br>
-Request URL: `https://x.com/i/api/graphql/VVBHqXKakXMM9VNzUHR0kA/ExplorePage`<br>
+Request URL: `https://x.com/i/api/graphql/dzCOhg52xLpt4Wm9o0T8ZQ/ExplorePage`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -1883,6 +1910,7 @@ Login Required: `...`<br>
 | premium_content_api_read_enabled                                        | boolean | False      |
 | communities_web_enable_tweet_community_results_fetch                    | boolean | True       |
 | c9s_tweet_anatomy_moderator_badge_enabled                               | boolean | True       |
+| responsive_web_grok_analyze_button_fetch_trends_enabled                 | boolean | False      |
 | articles_preview_enabled                                                | boolean | True       |
 | responsive_web_edit_tweet_api_enabled                                   | boolean | True       |
 | graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | True       |
@@ -1902,7 +1930,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## ExploreSidebar<br>
-Request URL: `https://x.com/i/api/graphql/Ct2B0i9HMnlVdCm24iCfWg/ExploreSidebar`<br>
+Request URL: `https://x.com/i/api/graphql/t3cozkeuWSBxYtkFbPfl5Q/ExploreSidebar`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -1921,6 +1949,7 @@ Login Required: `...`<br>
 | premium_content_api_read_enabled                                        | boolean | False      |
 | communities_web_enable_tweet_community_results_fetch                    | boolean | True       |
 | c9s_tweet_anatomy_moderator_badge_enabled                               | boolean | True       |
+| responsive_web_grok_analyze_button_fetch_trends_enabled                 | boolean | False      |
 | articles_preview_enabled                                                | boolean | True       |
 | responsive_web_edit_tweet_api_enabled                                   | boolean | True       |
 | graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | True       |
@@ -1951,7 +1980,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## Followers<br>
-Request URL: `https://x.com/i/api/graphql/Nlswx3noyVogs84uSY1Cuw/Followers`<br>
+Request URL: `https://x.com/i/api/graphql/rd0HT86NA6Agak-976_cvQ/Followers`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -1970,6 +1999,7 @@ Login Required: `...`<br>
 | premium_content_api_read_enabled                                        | boolean | False      |
 | communities_web_enable_tweet_community_results_fetch                    | boolean | True       |
 | c9s_tweet_anatomy_moderator_badge_enabled                               | boolean | True       |
+| responsive_web_grok_analyze_button_fetch_trends_enabled                 | boolean | False      |
 | articles_preview_enabled                                                | boolean | True       |
 | responsive_web_edit_tweet_api_enabled                                   | boolean | True       |
 | graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | True       |
@@ -1989,7 +2019,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## FollowersYouKnow<br>
-Request URL: `https://x.com/i/api/graphql/xBmVBfQ4GEZ5oq5ZPOg5Jw/FollowersYouKnow`<br>
+Request URL: `https://x.com/i/api/graphql/so8w-PY4tao-QRdxaY1bxw/FollowersYouKnow`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -2008,6 +2038,7 @@ Login Required: `...`<br>
 | premium_content_api_read_enabled                                        | boolean | False      |
 | communities_web_enable_tweet_community_results_fetch                    | boolean | True       |
 | c9s_tweet_anatomy_moderator_badge_enabled                               | boolean | True       |
+| responsive_web_grok_analyze_button_fetch_trends_enabled                 | boolean | False      |
 | articles_preview_enabled                                                | boolean | True       |
 | responsive_web_edit_tweet_api_enabled                                   | boolean | True       |
 | graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | True       |
@@ -2027,7 +2058,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## Following<br>
-Request URL: `https://x.com/i/api/graphql/zM1tQXREHtbS1nCzF_CgQQ/Following`<br>
+Request URL: `https://x.com/i/api/graphql/diPomBD-OlP2YJ8gxI02Ig/Following`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -2046,6 +2077,7 @@ Login Required: `...`<br>
 | premium_content_api_read_enabled                                        | boolean | False      |
 | communities_web_enable_tweet_community_results_fetch                    | boolean | True       |
 | c9s_tweet_anatomy_moderator_badge_enabled                               | boolean | True       |
+| responsive_web_grok_analyze_button_fetch_trends_enabled                 | boolean | False      |
 | articles_preview_enabled                                                | boolean | True       |
 | responsive_web_edit_tweet_api_enabled                                   | boolean | True       |
 | graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | True       |
@@ -2065,7 +2097,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## GenericTimelineById<br>
-Request URL: `https://x.com/i/api/graphql/rVnjWBCDFahdE1Inok7KuA/GenericTimelineById`<br>
+Request URL: `https://x.com/i/api/graphql/EA2qfGZvvOQ_LRbIbhByVg/GenericTimelineById`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -2084,6 +2116,7 @@ Login Required: `...`<br>
 | premium_content_api_read_enabled                                        | boolean | False      |
 | communities_web_enable_tweet_community_results_fetch                    | boolean | True       |
 | c9s_tweet_anatomy_moderator_badge_enabled                               | boolean | True       |
+| responsive_web_grok_analyze_button_fetch_trends_enabled                 | boolean | False      |
 | articles_preview_enabled                                                | boolean | True       |
 | responsive_web_edit_tweet_api_enabled                                   | boolean | True       |
 | graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | True       |
@@ -2103,7 +2136,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## GlobalCommunitiesLatestPostSearchTimeline<br>
-Request URL: `https://x.com/i/api/graphql/LRa4WARKPjPJlKNBzynWBg/GlobalCommunitiesLatestPostSearchTimeline`<br>
+Request URL: `https://x.com/i/api/graphql/qXbmRCa4tHzTXXlb3v033g/GlobalCommunitiesLatestPostSearchTimeline`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -2122,6 +2155,7 @@ Login Required: `...`<br>
 | premium_content_api_read_enabled                                        | boolean | False      |
 | communities_web_enable_tweet_community_results_fetch                    | boolean | True       |
 | c9s_tweet_anatomy_moderator_badge_enabled                               | boolean | True       |
+| responsive_web_grok_analyze_button_fetch_trends_enabled                 | boolean | False      |
 | articles_preview_enabled                                                | boolean | True       |
 | responsive_web_edit_tweet_api_enabled                                   | boolean | True       |
 | graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | True       |
@@ -2141,7 +2175,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## GlobalCommunitiesPostSearchTimeline<br>
-Request URL: `https://x.com/i/api/graphql/B0_59jiy0nBtsBEs5FykQA/GlobalCommunitiesPostSearchTimeline`<br>
+Request URL: `https://x.com/i/api/graphql/fwCBTqQ3qVrGHAVBO7308Q/GlobalCommunitiesPostSearchTimeline`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -2160,6 +2194,7 @@ Login Required: `...`<br>
 | premium_content_api_read_enabled                                        | boolean | False      |
 | communities_web_enable_tweet_community_results_fetch                    | boolean | True       |
 | c9s_tweet_anatomy_moderator_badge_enabled                               | boolean | True       |
+| responsive_web_grok_analyze_button_fetch_trends_enabled                 | boolean | False      |
 | articles_preview_enabled                                                | boolean | True       |
 | responsive_web_edit_tweet_api_enabled                                   | boolean | True       |
 | graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | True       |
@@ -2322,7 +2357,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## HomeLatestTimeline<br>
-Request URL: `https://x.com/i/api/graphql/yP9faX5Bb2iJEtnYbMA7Zw/HomeLatestTimeline`<br>
+Request URL: `https://x.com/i/api/graphql/UfVanvi6BR1qWBYfN-VXIw/HomeLatestTimeline`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -2341,6 +2376,7 @@ Login Required: `...`<br>
 | premium_content_api_read_enabled                                        | boolean | False      |
 | communities_web_enable_tweet_community_results_fetch                    | boolean | True       |
 | c9s_tweet_anatomy_moderator_badge_enabled                               | boolean | True       |
+| responsive_web_grok_analyze_button_fetch_trends_enabled                 | boolean | False      |
 | articles_preview_enabled                                                | boolean | True       |
 | responsive_web_edit_tweet_api_enabled                                   | boolean | True       |
 | graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | True       |
@@ -2360,7 +2396,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## HomeTimeline<br>
-Request URL: `https://x.com/i/api/graphql/z1e3fwkLH14Zc7zgEoHZqA/HomeTimeline`<br>
+Request URL: `https://x.com/i/api/graphql/s6ERr8UxkyzBx5YundNsXw/HomeTimeline`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -2379,6 +2415,7 @@ Login Required: `...`<br>
 | premium_content_api_read_enabled                                        | boolean | False      |
 | communities_web_enable_tweet_community_results_fetch                    | boolean | True       |
 | c9s_tweet_anatomy_moderator_badge_enabled                               | boolean | True       |
+| responsive_web_grok_analyze_button_fetch_trends_enabled                 | boolean | False      |
 | articles_preview_enabled                                                | boolean | True       |
 | responsive_web_edit_tweet_api_enabled                                   | boolean | True       |
 | graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | True       |
@@ -2398,7 +2435,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## Likes<br>
-Request URL: `https://x.com/i/api/graphql/eCOO-WK-bOtW_yJlYkJKYA/Likes`<br>
+Request URL: `https://x.com/i/api/graphql/xs7VjB9OdKI4xQxOXUptpg/Likes`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -2417,6 +2454,7 @@ Login Required: `...`<br>
 | premium_content_api_read_enabled                                        | boolean | False      |
 | communities_web_enable_tweet_community_results_fetch                    | boolean | True       |
 | c9s_tweet_anatomy_moderator_badge_enabled                               | boolean | True       |
+| responsive_web_grok_analyze_button_fetch_trends_enabled                 | boolean | False      |
 | articles_preview_enabled                                                | boolean | True       |
 | responsive_web_edit_tweet_api_enabled                                   | boolean | True       |
 | graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | True       |
@@ -2541,7 +2579,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## ListCreationRecommendedUsers<br>
-Request URL: `https://x.com/i/api/graphql/CkC1QPI7r2xAfuBC9qAiVg/ListCreationRecommendedUsers`<br>
+Request URL: `https://x.com/i/api/graphql/qP3fb59u3T1utbijmxkqlg/ListCreationRecommendedUsers`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -2560,6 +2598,7 @@ Login Required: `...`<br>
 | premium_content_api_read_enabled                                        | boolean | False      |
 | communities_web_enable_tweet_community_results_fetch                    | boolean | True       |
 | c9s_tweet_anatomy_moderator_badge_enabled                               | boolean | True       |
+| responsive_web_grok_analyze_button_fetch_trends_enabled                 | boolean | False      |
 | articles_preview_enabled                                                | boolean | True       |
 | responsive_web_edit_tweet_api_enabled                                   | boolean | True       |
 | graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | True       |
@@ -2601,7 +2640,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## ListEditRecommendedUsers<br>
-Request URL: `https://x.com/i/api/graphql/fRuxcCIl49HBuGkcLrCMFQ/ListEditRecommendedUsers`<br>
+Request URL: `https://x.com/i/api/graphql/PPR-p3gE7bBy-VYX_4Uhqw/ListEditRecommendedUsers`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -2620,6 +2659,7 @@ Login Required: `...`<br>
 | premium_content_api_read_enabled                                        | boolean | False      |
 | communities_web_enable_tweet_community_results_fetch                    | boolean | True       |
 | c9s_tweet_anatomy_moderator_badge_enabled                               | boolean | True       |
+| responsive_web_grok_analyze_button_fetch_trends_enabled                 | boolean | False      |
 | articles_preview_enabled                                                | boolean | True       |
 | responsive_web_edit_tweet_api_enabled                                   | boolean | True       |
 | graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | True       |
@@ -2639,7 +2679,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## ListLatestTweetsTimeline<br>
-Request URL: `https://x.com/i/api/graphql/ZS3U04tm5zysKVWJE40Y3g/ListLatestTweetsTimeline`<br>
+Request URL: `https://x.com/i/api/graphql/f-F9zCUgaJDQ9ubKsuntiw/ListLatestTweetsTimeline`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -2658,6 +2698,7 @@ Login Required: `...`<br>
 | premium_content_api_read_enabled                                        | boolean | False      |
 | communities_web_enable_tweet_community_results_fetch                    | boolean | True       |
 | c9s_tweet_anatomy_moderator_badge_enabled                               | boolean | True       |
+| responsive_web_grok_analyze_button_fetch_trends_enabled                 | boolean | False      |
 | articles_preview_enabled                                                | boolean | True       |
 | responsive_web_edit_tweet_api_enabled                                   | boolean | True       |
 | graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | True       |
@@ -2677,7 +2718,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## ListMembers<br>
-Request URL: `https://x.com/i/api/graphql/WzwYfLDtinBSwmwchsdgHA/ListMembers`<br>
+Request URL: `https://x.com/i/api/graphql/lQnIDRHOtlSUlGgBDb0Atg/ListMembers`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -2696,6 +2737,7 @@ Login Required: `...`<br>
 | premium_content_api_read_enabled                                        | boolean | False      |
 | communities_web_enable_tweet_community_results_fetch                    | boolean | True       |
 | c9s_tweet_anatomy_moderator_badge_enabled                               | boolean | True       |
+| responsive_web_grok_analyze_button_fetch_trends_enabled                 | boolean | False      |
 | articles_preview_enabled                                                | boolean | True       |
 | responsive_web_edit_tweet_api_enabled                                   | boolean | True       |
 | graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | True       |
@@ -2715,7 +2757,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## ListMemberships<br>
-Request URL: `https://x.com/i/api/graphql/QhMpjOcS_4oNWUcyXBVUnQ/ListMemberships`<br>
+Request URL: `https://x.com/i/api/graphql/nRcU3YA0oMdrQYxK0zjkfQ/ListMemberships`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -2734,6 +2776,7 @@ Login Required: `...`<br>
 | premium_content_api_read_enabled                                        | boolean | False      |
 | communities_web_enable_tweet_community_results_fetch                    | boolean | True       |
 | c9s_tweet_anatomy_moderator_badge_enabled                               | boolean | True       |
+| responsive_web_grok_analyze_button_fetch_trends_enabled                 | boolean | False      |
 | articles_preview_enabled                                                | boolean | True       |
 | responsive_web_edit_tweet_api_enabled                                   | boolean | True       |
 | graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | True       |
@@ -2764,7 +2807,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## ListOwnerships<br>
-Request URL: `https://x.com/i/api/graphql/WyvFvcLY4hwYDB7xK4TCMQ/ListOwnerships`<br>
+Request URL: `https://x.com/i/api/graphql/nwF_F9s89fGu5gVt2Jl1fQ/ListOwnerships`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -2783,6 +2826,7 @@ Login Required: `...`<br>
 | premium_content_api_read_enabled                                        | boolean | False      |
 | communities_web_enable_tweet_community_results_fetch                    | boolean | True       |
 | c9s_tweet_anatomy_moderator_badge_enabled                               | boolean | True       |
+| responsive_web_grok_analyze_button_fetch_trends_enabled                 | boolean | False      |
 | articles_preview_enabled                                                | boolean | True       |
 | responsive_web_edit_tweet_api_enabled                                   | boolean | True       |
 | graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | True       |
@@ -2824,7 +2868,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## ListRankedTweetsTimeline<br>
-Request URL: `https://x.com/i/api/graphql/MWN70pfq2ciVolUs7TZ8Cw/ListRankedTweetsTimeline`<br>
+Request URL: `https://x.com/i/api/graphql/DxerswMzCQMp_35ltjSrtQ/ListRankedTweetsTimeline`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -2843,6 +2887,7 @@ Login Required: `...`<br>
 | premium_content_api_read_enabled                                        | boolean | False      |
 | communities_web_enable_tweet_community_results_fetch                    | boolean | True       |
 | c9s_tweet_anatomy_moderator_badge_enabled                               | boolean | True       |
+| responsive_web_grok_analyze_button_fetch_trends_enabled                 | boolean | False      |
 | articles_preview_enabled                                                | boolean | True       |
 | responsive_web_edit_tweet_api_enabled                                   | boolean | True       |
 | graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | True       |
@@ -2881,7 +2926,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## ListSearchTimeline<br>
-Request URL: `https://x.com/i/api/graphql/hZn5Fl-DYME6kkhpQn4aZA/ListSearchTimeline`<br>
+Request URL: `https://x.com/i/api/graphql/f4HNiVz9INMud1epETIwzQ/ListSearchTimeline`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -2900,6 +2945,7 @@ Login Required: `...`<br>
 | premium_content_api_read_enabled                                        | boolean | False      |
 | communities_web_enable_tweet_community_results_fetch                    | boolean | True       |
 | c9s_tweet_anatomy_moderator_badge_enabled                               | boolean | True       |
+| responsive_web_grok_analyze_button_fetch_trends_enabled                 | boolean | False      |
 | articles_preview_enabled                                                | boolean | True       |
 | responsive_web_edit_tweet_api_enabled                                   | boolean | True       |
 | graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | True       |
@@ -2938,7 +2984,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## ListSubscribers<br>
-Request URL: `https://x.com/i/api/graphql/yCYb8J6F73cx1efDSqufUA/ListSubscribers`<br>
+Request URL: `https://x.com/i/api/graphql/ai1aroP7jcj95avGHhNsrQ/ListSubscribers`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -2957,6 +3003,7 @@ Login Required: `...`<br>
 | premium_content_api_read_enabled                                        | boolean | False      |
 | communities_web_enable_tweet_community_results_fetch                    | boolean | True       |
 | c9s_tweet_anatomy_moderator_badge_enabled                               | boolean | True       |
+| responsive_web_grok_analyze_button_fetch_trends_enabled                 | boolean | False      |
 | articles_preview_enabled                                                | boolean | True       |
 | responsive_web_edit_tweet_api_enabled                                   | boolean | True       |
 | graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | True       |
@@ -3025,7 +3072,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## ListsDiscovery<br>
-Request URL: `https://x.com/i/api/graphql/ml4e9aVy9Jwd-Kdq96GvRw/ListsDiscovery`<br>
+Request URL: `https://x.com/i/api/graphql/yMea-EA4X7OyPsf-yNvvWw/ListsDiscovery`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -3049,6 +3096,7 @@ Login Required: `...`<br>
 | premium_content_api_read_enabled                                        | boolean | False      |
 | communities_web_enable_tweet_community_results_fetch                    | boolean | True       |
 | c9s_tweet_anatomy_moderator_badge_enabled                               | boolean | True       |
+| responsive_web_grok_analyze_button_fetch_trends_enabled                 | boolean | False      |
 | articles_preview_enabled                                                | boolean | True       |
 | responsive_web_edit_tweet_api_enabled                                   | boolean | True       |
 | graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | True       |
@@ -3068,7 +3116,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## ListsManagementPageTimeline<br>
-Request URL: `https://x.com/i/api/graphql/JzVS9RhfJ2cU6yGlQbKxcw/ListsManagementPageTimeline`<br>
+Request URL: `https://x.com/i/api/graphql/HxH75urkaIIdPo4fhTzbxA/ListsManagementPageTimeline`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -3087,6 +3135,7 @@ Login Required: `...`<br>
 | premium_content_api_read_enabled                                        | boolean | False      |
 | communities_web_enable_tweet_community_results_fetch                    | boolean | True       |
 | c9s_tweet_anatomy_moderator_badge_enabled                               | boolean | True       |
+| responsive_web_grok_analyze_button_fetch_trends_enabled                 | boolean | False      |
 | articles_preview_enabled                                                | boolean | True       |
 | responsive_web_edit_tweet_api_enabled                                   | boolean | True       |
 | graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | True       |
@@ -3117,7 +3166,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## ModeratedTimeline<br>
-Request URL: `https://x.com/i/api/graphql/joI1LC4Q5mNWGHqSCXx1zg/ModeratedTimeline`<br>
+Request URL: `https://x.com/i/api/graphql/qfh6LIyuFMPv45mP1GaOPQ/ModeratedTimeline`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -3136,6 +3185,7 @@ Login Required: `...`<br>
 | premium_content_api_read_enabled                                        | boolean | False      |
 | communities_web_enable_tweet_community_results_fetch                    | boolean | True       |
 | c9s_tweet_anatomy_moderator_badge_enabled                               | boolean | True       |
+| responsive_web_grok_analyze_button_fetch_trends_enabled                 | boolean | False      |
 | articles_preview_enabled                                                | boolean | True       |
 | responsive_web_edit_tweet_api_enabled                                   | boolean | True       |
 | graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | True       |
@@ -3155,7 +3205,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## MutedAccounts<br>
-Request URL: `https://x.com/i/api/graphql/Hbol9e8d5u2yJdUfRnqDPQ/MutedAccounts`<br>
+Request URL: `https://x.com/i/api/graphql/CgJu4Ym82pSV2OvOVjwIzw/MutedAccounts`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -3174,6 +3224,7 @@ Login Required: `...`<br>
 | premium_content_api_read_enabled                                        | boolean | False      |
 | communities_web_enable_tweet_community_results_fetch                    | boolean | True       |
 | c9s_tweet_anatomy_moderator_badge_enabled                               | boolean | True       |
+| responsive_web_grok_analyze_button_fetch_trends_enabled                 | boolean | False      |
 | articles_preview_enabled                                                | boolean | True       |
 | responsive_web_edit_tweet_api_enabled                                   | boolean | True       |
 | graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | True       |
@@ -3278,7 +3329,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## CommunitiesRankedTimeline<br>
-Request URL: `https://x.com/i/api/graphql/ygdP97kTZsCARhKv5Werpw/CommunitiesRankedTimeline`<br>
+Request URL: `https://x.com/i/api/graphql/GQZfeU8sRmJtsSQzuhc6rw/CommunitiesRankedTimeline`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -3297,6 +3348,7 @@ Login Required: `...`<br>
 | premium_content_api_read_enabled                                        | boolean | False      |
 | communities_web_enable_tweet_community_results_fetch                    | boolean | True       |
 | c9s_tweet_anatomy_moderator_badge_enabled                               | boolean | True       |
+| responsive_web_grok_analyze_button_fetch_trends_enabled                 | boolean | False      |
 | articles_preview_enabled                                                | boolean | True       |
 | responsive_web_edit_tweet_api_enabled                                   | boolean | True       |
 | graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | True       |
@@ -3349,7 +3401,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## SearchTimeline<br>
-Request URL: `https://x.com/i/api/graphql/aiiOzJAQmQ75dqhG8r2zuw/SearchTimeline`<br>
+Request URL: `https://x.com/i/api/graphql/fnkladLRj_7bB0PwaOtymA/SearchTimeline`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -3368,6 +3420,7 @@ Login Required: `...`<br>
 | premium_content_api_read_enabled                                        | boolean | False      |
 | communities_web_enable_tweet_community_results_fetch                    | boolean | True       |
 | c9s_tweet_anatomy_moderator_badge_enabled                               | boolean | True       |
+| responsive_web_grok_analyze_button_fetch_trends_enabled                 | boolean | False      |
 | articles_preview_enabled                                                | boolean | True       |
 | responsive_web_edit_tweet_api_enabled                                   | boolean | True       |
 | graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | True       |
@@ -3398,7 +3451,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## SimilarPosts<br>
-Request URL: `https://x.com/i/api/graphql/9YSSaK7S5XZKcCFKzcRi1g/SimilarPosts`<br>
+Request URL: `https://x.com/i/api/graphql/2TE9yOnWTt4eIIkn-nnodQ/SimilarPosts`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -3417,6 +3470,7 @@ Login Required: `...`<br>
 | premium_content_api_read_enabled                                        | boolean | False      |
 | communities_web_enable_tweet_community_results_fetch                    | boolean | True       |
 | c9s_tweet_anatomy_moderator_badge_enabled                               | boolean | True       |
+| responsive_web_grok_analyze_button_fetch_trends_enabled                 | boolean | False      |
 | articles_preview_enabled                                                | boolean | True       |
 | responsive_web_edit_tweet_api_enabled                                   | boolean | True       |
 | graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | True       |
@@ -3436,7 +3490,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## SuperFollowers<br>
-Request URL: `https://x.com/i/api/graphql/_3IPiPBhtonilEIJ8PkSfw/SuperFollowers`<br>
+Request URL: `https://x.com/i/api/graphql/yHXBlov-zT5aZ54WN3LETg/SuperFollowers`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -3455,6 +3509,7 @@ Login Required: `...`<br>
 | premium_content_api_read_enabled                                        | boolean | False      |
 | communities_web_enable_tweet_community_results_fetch                    | boolean | True       |
 | c9s_tweet_anatomy_moderator_badge_enabled                               | boolean | True       |
+| responsive_web_grok_analyze_button_fetch_trends_enabled                 | boolean | False      |
 | articles_preview_enabled                                                | boolean | True       |
 | responsive_web_edit_tweet_api_enabled                                   | boolean | True       |
 | graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | True       |
@@ -3499,7 +3554,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## TopicLandingPage<br>
-Request URL: `https://x.com/i/api/graphql/bl1asTCpNMFYLpbH0IGtjA/TopicLandingPage`<br>
+Request URL: `https://x.com/i/api/graphql/j0ntAnNKFSmZE8DyLuaM3A/TopicLandingPage`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -3518,6 +3573,7 @@ Login Required: `...`<br>
 | premium_content_api_read_enabled                                        | boolean | False      |
 | communities_web_enable_tweet_community_results_fetch                    | boolean | True       |
 | c9s_tweet_anatomy_moderator_badge_enabled                               | boolean | True       |
+| responsive_web_grok_analyze_button_fetch_trends_enabled                 | boolean | False      |
 | articles_preview_enabled                                                | boolean | True       |
 | responsive_web_edit_tweet_api_enabled                                   | boolean | True       |
 | graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | True       |
@@ -3559,7 +3615,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## TopicToFollowSidebar<br>
-Request URL: `https://x.com/i/api/graphql/wiZ8IhAcVGGVO5wVq2Ya8w/TopicToFollowSidebar`<br>
+Request URL: `https://x.com/i/api/graphql/jOKnHGEiWYPCB-T_q1bIGw/TopicToFollowSidebar`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -3578,6 +3634,7 @@ Login Required: `...`<br>
 | premium_content_api_read_enabled                                        | boolean | False      |
 | communities_web_enable_tweet_community_results_fetch                    | boolean | True       |
 | c9s_tweet_anatomy_moderator_badge_enabled                               | boolean | True       |
+| responsive_web_grok_analyze_button_fetch_trends_enabled                 | boolean | False      |
 | articles_preview_enabled                                                | boolean | True       |
 | responsive_web_edit_tweet_api_enabled                                   | boolean | True       |
 | graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | True       |
@@ -3622,7 +3679,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## TopicsManagementPage<br>
-Request URL: `https://x.com/i/api/graphql/sRZrHOwvp0x3pCktDU6W3Q/TopicsManagementPage`<br>
+Request URL: `https://x.com/i/api/graphql/Zfs30mY4DzqHjRHBcCOp5A/TopicsManagementPage`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -3641,6 +3698,7 @@ Login Required: `...`<br>
 | premium_content_api_read_enabled                                        | boolean | False      |
 | communities_web_enable_tweet_community_results_fetch                    | boolean | True       |
 | c9s_tweet_anatomy_moderator_badge_enabled                               | boolean | True       |
+| responsive_web_grok_analyze_button_fetch_trends_enabled                 | boolean | False      |
 | articles_preview_enabled                                                | boolean | True       |
 | responsive_web_edit_tweet_api_enabled                                   | boolean | True       |
 | graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | True       |
@@ -3660,7 +3718,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## TopicsPickerPage<br>
-Request URL: `https://x.com/i/api/graphql/1mtNOONp4RyBTjKsNjTjxA/TopicsPickerPage`<br>
+Request URL: `https://x.com/i/api/graphql/ZVUBlV4tQopxOD9ZjW9z_A/TopicsPickerPage`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -3679,6 +3737,7 @@ Login Required: `...`<br>
 | premium_content_api_read_enabled                                        | boolean | False      |
 | communities_web_enable_tweet_community_results_fetch                    | boolean | True       |
 | c9s_tweet_anatomy_moderator_badge_enabled                               | boolean | True       |
+| responsive_web_grok_analyze_button_fetch_trends_enabled                 | boolean | False      |
 | articles_preview_enabled                                                | boolean | True       |
 | responsive_web_edit_tweet_api_enabled                                   | boolean | True       |
 | graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | True       |
@@ -3698,7 +3757,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## TopicsPickerPageById<br>
-Request URL: `https://x.com/i/api/graphql/2CG6yw-axtHqwbzdtjVUXw/TopicsPickerPageById`<br>
+Request URL: `https://x.com/i/api/graphql/gptTIkriNSI72lBqjtcD5Q/TopicsPickerPageById`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -3721,6 +3780,7 @@ Login Required: `...`<br>
 | premium_content_api_read_enabled                                        | boolean | False      |
 | communities_web_enable_tweet_community_results_fetch                    | boolean | True       |
 | c9s_tweet_anatomy_moderator_badge_enabled                               | boolean | True       |
+| responsive_web_grok_analyze_button_fetch_trends_enabled                 | boolean | False      |
 | articles_preview_enabled                                                | boolean | True       |
 | responsive_web_edit_tweet_api_enabled                                   | boolean | True       |
 | graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | True       |
@@ -3740,7 +3800,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## TrendHistory<br>
-Request URL: `https://x.com/i/api/graphql/jghGLmDqoWZ5MEcE4t9iMA/TrendHistory`<br>
+Request URL: `https://x.com/i/api/graphql/6tYsmvGwIFKWlAFl3QqHQg/TrendHistory`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -3759,6 +3819,7 @@ Login Required: `...`<br>
 | premium_content_api_read_enabled                                        | boolean | False      |
 | communities_web_enable_tweet_community_results_fetch                    | boolean | True       |
 | c9s_tweet_anatomy_moderator_badge_enabled                               | boolean | True       |
+| responsive_web_grok_analyze_button_fetch_trends_enabled                 | boolean | False      |
 | articles_preview_enabled                                                | boolean | True       |
 | responsive_web_edit_tweet_api_enabled                                   | boolean | True       |
 | graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | True       |
@@ -3778,7 +3839,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## TrendRelevantUsers<br>
-Request URL: `https://x.com/i/api/graphql/pRKo-QNFD74qHmyGIiWNBw/TrendRelevantUsers`<br>
+Request URL: `https://x.com/i/api/graphql/8JWpc-A9q8awYYrXvFZ4hQ/TrendRelevantUsers`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -3797,6 +3858,7 @@ Login Required: `...`<br>
 | premium_content_api_read_enabled                                        | boolean | False      |
 | communities_web_enable_tweet_community_results_fetch                    | boolean | True       |
 | c9s_tweet_anatomy_moderator_badge_enabled                               | boolean | True       |
+| responsive_web_grok_analyze_button_fetch_trends_enabled                 | boolean | False      |
 | articles_preview_enabled                                                | boolean | True       |
 | responsive_web_edit_tweet_api_enabled                                   | boolean | True       |
 | graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | True       |
@@ -3816,7 +3878,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## TweetDetail<br>
-Request URL: `https://x.com/i/api/graphql/QUiswDf9Ol_dRYFWx_yk8A/TweetDetail`<br>
+Request URL: `https://x.com/i/api/graphql/4RQRdTWjKwZIaGrTX_7wWA/TweetDetail`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -3835,6 +3897,7 @@ Login Required: `...`<br>
 | premium_content_api_read_enabled                                        | boolean | False      |
 | communities_web_enable_tweet_community_results_fetch                    | boolean | True       |
 | c9s_tweet_anatomy_moderator_badge_enabled                               | boolean | True       |
+| responsive_web_grok_analyze_button_fetch_trends_enabled                 | boolean | False      |
 | articles_preview_enabled                                                | boolean | True       |
 | responsive_web_edit_tweet_api_enabled                                   | boolean | True       |
 | graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | True       |
@@ -3854,7 +3917,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## TweetResultByRestId<br>
-Request URL: `https://x.com/i/api/graphql/czOL0khrF9D7rNRZFf_FCw/TweetResultByRestId`<br>
+Request URL: `https://x.com/i/api/graphql/1pDyZimEQY3s42v4QYCyOQ/TweetResultByRestId`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -3867,6 +3930,7 @@ Login Required: `...`<br>
 | premium_content_api_read_enabled                                        | boolean | False      |
 | communities_web_enable_tweet_community_results_fetch                    | boolean | True       |
 | c9s_tweet_anatomy_moderator_badge_enabled                               | boolean | True       |
+| responsive_web_grok_analyze_button_fetch_trends_enabled                 | boolean | False      |
 | articles_preview_enabled                                                | boolean | True       |
 | responsive_web_edit_tweet_api_enabled                                   | boolean | True       |
 | graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | True       |
@@ -3892,7 +3956,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## TweetResultsByRestIds<br>
-Request URL: `https://x.com/i/api/graphql/D5-buyfoeC1FZVvtwAeioQ/TweetResultsByRestIds`<br>
+Request URL: `https://x.com/i/api/graphql/dAftLp2ie_8OQpy-zcVFKg/TweetResultsByRestIds`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -3905,6 +3969,7 @@ Login Required: `...`<br>
 | premium_content_api_read_enabled                                        | boolean | False      |
 | communities_web_enable_tweet_community_results_fetch                    | boolean | True       |
 | c9s_tweet_anatomy_moderator_badge_enabled                               | boolean | True       |
+| responsive_web_grok_analyze_button_fetch_trends_enabled                 | boolean | False      |
 | articles_preview_enabled                                                | boolean | True       |
 | responsive_web_edit_tweet_api_enabled                                   | boolean | True       |
 | graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | True       |
@@ -3993,7 +4058,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## UrtFixtures<br>
-Request URL: `https://x.com/i/api/graphql/zK9OEsBzyPDd6bLnhf8VWg/UrtFixtures`<br>
+Request URL: `https://x.com/i/api/graphql/uKYEc-W6mgUg_uP2V9DWug/UrtFixtures`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -4012,6 +4077,7 @@ Login Required: `...`<br>
 | premium_content_api_read_enabled                                        | boolean | False      |
 | communities_web_enable_tweet_community_results_fetch                    | boolean | True       |
 | c9s_tweet_anatomy_moderator_badge_enabled                               | boolean | True       |
+| responsive_web_grok_analyze_button_fetch_trends_enabled                 | boolean | False      |
 | articles_preview_enabled                                                | boolean | True       |
 | responsive_web_edit_tweet_api_enabled                                   | boolean | True       |
 | graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | True       |
@@ -4031,7 +4097,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## UserArticlesTweets<br>
-Request URL: `https://x.com/i/api/graphql/Pwjummx0XoZsaROHBOXZZA/UserArticlesTweets`<br>
+Request URL: `https://x.com/i/api/graphql/f3bGQ757s-vpWTQr47Q60w/UserArticlesTweets`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -4050,6 +4116,7 @@ Login Required: `...`<br>
 | premium_content_api_read_enabled                                        | boolean | False      |
 | communities_web_enable_tweet_community_results_fetch                    | boolean | True       |
 | c9s_tweet_anatomy_moderator_badge_enabled                               | boolean | True       |
+| responsive_web_grok_analyze_button_fetch_trends_enabled                 | boolean | False      |
 | articles_preview_enabled                                                | boolean | True       |
 | responsive_web_edit_tweet_api_enabled                                   | boolean | True       |
 | graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | True       |
@@ -4069,7 +4136,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## UserBusinessProfileTeamTimeline<br>
-Request URL: `https://x.com/i/api/graphql/oc1sUZfDoawGlVvdUxPQRQ/UserBusinessProfileTeamTimeline`<br>
+Request URL: `https://x.com/i/api/graphql/DkiY8H1LNTUWgXgbtXUtVw/UserBusinessProfileTeamTimeline`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -4088,6 +4155,7 @@ Login Required: `...`<br>
 | premium_content_api_read_enabled                                        | boolean | False      |
 | communities_web_enable_tweet_community_results_fetch                    | boolean | True       |
 | c9s_tweet_anatomy_moderator_badge_enabled                               | boolean | True       |
+| responsive_web_grok_analyze_button_fetch_trends_enabled                 | boolean | False      |
 | articles_preview_enabled                                                | boolean | True       |
 | responsive_web_edit_tweet_api_enabled                                   | boolean | True       |
 | graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | True       |
@@ -4168,7 +4236,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## UserCreatorSubscribers<br>
-Request URL: `https://x.com/i/api/graphql/_aSgX2kLHV7xPaD9Ls-0rA/UserCreatorSubscribers`<br>
+Request URL: `https://x.com/i/api/graphql/wOSifkKh2EM4ZISe8P316Q/UserCreatorSubscribers`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -4190,6 +4258,7 @@ Login Required: `...`<br>
 | premium_content_api_read_enabled                                        | boolean | False      |
 | communities_web_enable_tweet_community_results_fetch                    | boolean | True       |
 | c9s_tweet_anatomy_moderator_badge_enabled                               | boolean | True       |
+| responsive_web_grok_analyze_button_fetch_trends_enabled                 | boolean | False      |
 | articles_preview_enabled                                                | boolean | True       |
 | responsive_web_edit_tweet_api_enabled                                   | boolean | True       |
 | graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | True       |
@@ -4209,7 +4278,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## UserCreatorSubscriptions<br>
-Request URL: `https://x.com/i/api/graphql/UGuNh_5KQRledIP7U3Twpw/UserCreatorSubscriptions`<br>
+Request URL: `https://x.com/i/api/graphql/TZtLA1l8bNXidNdeeQkFxg/UserCreatorSubscriptions`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -4228,6 +4297,7 @@ Login Required: `...`<br>
 | premium_content_api_read_enabled                                        | boolean | False      |
 | communities_web_enable_tweet_community_results_fetch                    | boolean | True       |
 | c9s_tweet_anatomy_moderator_badge_enabled                               | boolean | True       |
+| responsive_web_grok_analyze_button_fetch_trends_enabled                 | boolean | False      |
 | articles_preview_enabled                                                | boolean | True       |
 | responsive_web_edit_tweet_api_enabled                                   | boolean | True       |
 | graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | True       |
@@ -4247,15 +4317,14 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## UserHighlightsTweets<br>
-Request URL: `https://x.com/i/api/graphql/g9L6ZxA1VbkeyAgnQk-GNw/UserHighlightsTweets`<br>
+Request URL: `https://x.com/i/api/graphql/wFawO0U8x-oSt8NZbL-KTQ/UserHighlightsTweets`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key            | type   | variable                            |
-|:---------------|:-------|:------------------------------------|
-| audio_space_id | ...    | t                                   |
-| sharing        | ...    | {'shared_tweet': {'tweet_id': 'n'}} |
+| key          | type   | variable   |
+|:-------------|:-------|:-----------|
+| ...()(0,l.d) | ...    | _          |
 
 #### features<br>
 | key                                                                     | type    | variable   |
@@ -4270,6 +4339,7 @@ Login Required: `...`<br>
 | premium_content_api_read_enabled                                        | boolean | False      |
 | communities_web_enable_tweet_community_results_fetch                    | boolean | True       |
 | c9s_tweet_anatomy_moderator_badge_enabled                               | boolean | True       |
+| responsive_web_grok_analyze_button_fetch_trends_enabled                 | boolean | False      |
 | articles_preview_enabled                                                | boolean | True       |
 | responsive_web_edit_tweet_api_enabled                                   | boolean | True       |
 | graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | True       |
@@ -4289,7 +4359,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## UserMedia<br>
-Request URL: `https://x.com/i/api/graphql/8EgOVCEza9IUteHbSTzkLg/UserMedia`<br>
+Request URL: `https://x.com/i/api/graphql/P8RdP7ecr2tsY6GwouAa_Q/UserMedia`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -4308,6 +4378,7 @@ Login Required: `...`<br>
 | premium_content_api_read_enabled                                        | boolean | False      |
 | communities_web_enable_tweet_community_results_fetch                    | boolean | True       |
 | c9s_tweet_anatomy_moderator_badge_enabled                               | boolean | True       |
+| responsive_web_grok_analyze_button_fetch_trends_enabled                 | boolean | False      |
 | articles_preview_enabled                                                | boolean | True       |
 | responsive_web_edit_tweet_api_enabled                                   | boolean | True       |
 | graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | True       |
@@ -4338,7 +4409,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## UserPromotableTweets<br>
-Request URL: `https://x.com/i/api/graphql/qYdjrl6SESuwf_d0u8ZCtg/UserPromotableTweets`<br>
+Request URL: `https://x.com/i/api/graphql/2JNNDzasAAdpbrW_ZTwuXg/UserPromotableTweets`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -4361,6 +4432,7 @@ Login Required: `...`<br>
 | premium_content_api_read_enabled                                        | boolean | False      |
 | communities_web_enable_tweet_community_results_fetch                    | boolean | True       |
 | c9s_tweet_anatomy_moderator_badge_enabled                               | boolean | True       |
+| responsive_web_grok_analyze_button_fetch_trends_enabled                 | boolean | False      |
 | articles_preview_enabled                                                | boolean | True       |
 | responsive_web_edit_tweet_api_enabled                                   | boolean | True       |
 | graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | True       |
@@ -4391,7 +4463,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## UserSuperFollowTweets<br>
-Request URL: `https://x.com/i/api/graphql/i72O2LU-g92QrNRtuPDYJg/UserSuperFollowTweets`<br>
+Request URL: `https://x.com/i/api/graphql/oSe0uFC27a6yF4yBgrBT7Q/UserSuperFollowTweets`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -4414,6 +4486,7 @@ Login Required: `...`<br>
 | premium_content_api_read_enabled                                        | boolean | False      |
 | communities_web_enable_tweet_community_results_fetch                    | boolean | True       |
 | c9s_tweet_anatomy_moderator_badge_enabled                               | boolean | True       |
+| responsive_web_grok_analyze_button_fetch_trends_enabled                 | boolean | False      |
 | articles_preview_enabled                                                | boolean | True       |
 | responsive_web_edit_tweet_api_enabled                                   | boolean | True       |
 | graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | True       |
@@ -4433,7 +4506,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## UserTweets<br>
-Request URL: `https://x.com/i/api/graphql/tzh4soFIeC6EUW0aLxrYpQ/UserTweets`<br>
+Request URL: `https://x.com/i/api/graphql/1mDAyxlBlMp6uokkzihecQ/UserTweets`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -4452,6 +4525,7 @@ Login Required: `...`<br>
 | premium_content_api_read_enabled                                        | boolean | False      |
 | communities_web_enable_tweet_community_results_fetch                    | boolean | True       |
 | c9s_tweet_anatomy_moderator_badge_enabled                               | boolean | True       |
+| responsive_web_grok_analyze_button_fetch_trends_enabled                 | boolean | False      |
 | articles_preview_enabled                                                | boolean | True       |
 | responsive_web_edit_tweet_api_enabled                                   | boolean | True       |
 | graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | True       |
@@ -4471,7 +4545,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## UserTweetsAndReplies<br>
-Request URL: `https://x.com/i/api/graphql/asj13G9MPXkMNalf1_T97Q/UserTweetsAndReplies`<br>
+Request URL: `https://x.com/i/api/graphql/mJc6KjBpgpX0cEbWrs7hSw/UserTweetsAndReplies`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -4490,6 +4564,7 @@ Login Required: `...`<br>
 | premium_content_api_read_enabled                                        | boolean | False      |
 | communities_web_enable_tweet_community_results_fetch                    | boolean | True       |
 | c9s_tweet_anatomy_moderator_badge_enabled                               | boolean | True       |
+| responsive_web_grok_analyze_button_fetch_trends_enabled                 | boolean | False      |
 | articles_preview_enabled                                                | boolean | True       |
 | responsive_web_edit_tweet_api_enabled                                   | boolean | True       |
 | graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | True       |
@@ -4565,7 +4640,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## ViewingOtherUsersTopicsPage<br>
-Request URL: `https://x.com/i/api/graphql/Azfr7FFLb8k9LtYYlYAl0A/ViewingOtherUsersTopicsPage`<br>
+Request URL: `https://x.com/i/api/graphql/8raRlsNII9tDQubNMmJ_lw/ViewingOtherUsersTopicsPage`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -4584,6 +4659,7 @@ Login Required: `...`<br>
 | premium_content_api_read_enabled                                        | boolean | False      |
 | communities_web_enable_tweet_community_results_fetch                    | boolean | True       |
 | c9s_tweet_anatomy_moderator_badge_enabled                               | boolean | True       |
+| responsive_web_grok_analyze_button_fetch_trends_enabled                 | boolean | False      |
 | articles_preview_enabled                                                | boolean | True       |
 | responsive_web_edit_tweet_api_enabled                                   | boolean | True       |
 | graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | True       |
@@ -4603,7 +4679,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## AudioSpaceAddSharing<br>
-Request URL: `https://x.com/i/api/graphql/Qe6RPU1NAyLIOTIYUtXsTw/AudioSpaceAddSharing`<br>
+Request URL: `https://x.com/i/api/graphql/iS6H-c_DHejJ66dyP18yuA/AudioSpaceAddSharing`<br>
 Request Method: `POST`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -4616,6 +4692,7 @@ Login Required: `...`<br>
 | premium_content_api_read_enabled                                        | boolean | False      |
 | communities_web_enable_tweet_community_results_fetch                    | boolean | True       |
 | c9s_tweet_anatomy_moderator_badge_enabled                               | boolean | True       |
+| responsive_web_grok_analyze_button_fetch_trends_enabled                 | boolean | False      |
 | articles_preview_enabled                                                | boolean | True       |
 | profile_label_improvements_pcf_label_in_post_enabled                    | boolean | False      |
 | rweb_tipjar_consumption_enabled                                         | boolean | True       |
@@ -4641,7 +4718,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## AudioSpaceById<br>
-Request URL: `https://x.com/i/api/graphql/zuwELZrphMFL1VVtYsCLmg/AudioSpaceById`<br>
+Request URL: `https://x.com/i/api/graphql/YotoLXidSQmb_Kukwhn0FQ/AudioSpaceById`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -4660,6 +4737,7 @@ Login Required: `...`<br>
 | premium_content_api_read_enabled                                        | boolean | False      |
 | communities_web_enable_tweet_community_results_fetch                    | boolean | True       |
 | c9s_tweet_anatomy_moderator_badge_enabled                               | boolean | True       |
+| responsive_web_grok_analyze_button_fetch_trends_enabled                 | boolean | False      |
 | articles_preview_enabled                                                | boolean | True       |
 | responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean | False      |
 | responsive_web_edit_tweet_api_enabled                                   | boolean | True       |
@@ -4802,7 +4880,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## GrokConversationItemsByRestId<br>
-Request URL: `https://x.com/i/api/graphql/SFvN6m8yh5URonVO_XPw4w/GrokConversationItemsByRestId`<br>
+Request URL: `https://x.com/i/api/graphql/e2cPRDP7OGB3ajFQvzzgTQ/GrokConversationItemsByRestId`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -4815,6 +4893,7 @@ Login Required: `...`<br>
 | premium_content_api_read_enabled                                        | boolean | False      |
 | communities_web_enable_tweet_community_results_fetch                    | boolean | True       |
 | c9s_tweet_anatomy_moderator_badge_enabled                               | boolean | True       |
+| responsive_web_grok_analyze_button_fetch_trends_enabled                 | boolean | False      |
 | articles_preview_enabled                                                | boolean | True       |
 | responsive_web_edit_tweet_api_enabled                                   | boolean | True       |
 | graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | True       |
@@ -4884,7 +4963,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## GrokShare<br>
-Request URL: `https://x.com/i/api/graphql/l0gYXw2UI2v8QzOR9x16Yw/GrokShare`<br>
+Request URL: `https://x.com/i/api/graphql/wBpd_Wz2vE4jvF2asBPPCQ/GrokShare`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -4897,6 +4976,7 @@ Login Required: `...`<br>
 | premium_content_api_read_enabled                                        | boolean | False      |
 | communities_web_enable_tweet_community_results_fetch                    | boolean | True       |
 | c9s_tweet_anatomy_moderator_badge_enabled                               | boolean | True       |
+| responsive_web_grok_analyze_button_fetch_trends_enabled                 | boolean | False      |
 | articles_preview_enabled                                                | boolean | True       |
 | responsive_web_edit_tweet_api_enabled                                   | boolean | True       |
 | graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | True       |
@@ -5076,7 +5156,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## ImmersiveMedia<br>
-Request URL: `https://x.com/i/api/graphql/Db582EScQpiCGxWqNfPtIg/ImmersiveMedia`<br>
+Request URL: `https://x.com/i/api/graphql/psWCBBdRw2qTGXTa1pXUVQ/ImmersiveMedia`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -5095,6 +5175,7 @@ Login Required: `...`<br>
 | premium_content_api_read_enabled                                        | boolean | False      |
 | communities_web_enable_tweet_community_results_fetch                    | boolean | True       |
 | c9s_tweet_anatomy_moderator_badge_enabled                               | boolean | True       |
+| responsive_web_grok_analyze_button_fetch_trends_enabled                 | boolean | False      |
 | articles_preview_enabled                                                | boolean | True       |
 | responsive_web_edit_tweet_api_enabled                                   | boolean | True       |
 | graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | True       |
@@ -5114,7 +5195,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## ImmersiveProfile<br>
-Request URL: `https://x.com/i/api/graphql/h50WdfGYVg_at5urRB3Q5w/ImmersiveProfile`<br>
+Request URL: `https://x.com/i/api/graphql/W3hLjW9zT5LoC8M1BYX0Gw/ImmersiveProfile`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -5133,6 +5214,7 @@ Login Required: `...`<br>
 | premium_content_api_read_enabled                                        | boolean | False      |
 | communities_web_enable_tweet_community_results_fetch                    | boolean | True       |
 | c9s_tweet_anatomy_moderator_badge_enabled                               | boolean | True       |
+| responsive_web_grok_analyze_button_fetch_trends_enabled                 | boolean | False      |
 | articles_preview_enabled                                                | boolean | True       |
 | responsive_web_edit_tweet_api_enabled                                   | boolean | True       |
 | graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | True       |
@@ -5152,7 +5234,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## TVHomeMixer<br>
-Request URL: `https://x.com/i/api/graphql/fFYUG6LtXEHbkT8HuqlXhg/TVHomeMixer`<br>
+Request URL: `https://x.com/i/api/graphql/eynfE8a4unFGzo-H3d_FFA/TVHomeMixer`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -5171,6 +5253,7 @@ Login Required: `...`<br>
 | premium_content_api_read_enabled                                        | boolean | False      |
 | communities_web_enable_tweet_community_results_fetch                    | boolean | True       |
 | c9s_tweet_anatomy_moderator_badge_enabled                               | boolean | True       |
+| responsive_web_grok_analyze_button_fetch_trends_enabled                 | boolean | False      |
 | articles_preview_enabled                                                | boolean | True       |
 | responsive_web_edit_tweet_api_enabled                                   | boolean | True       |
 | graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | True       |
@@ -5190,7 +5273,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## TVTrend<br>
-Request URL: `https://x.com/i/api/graphql/8KhUqH8cKxpKtJGEXyEPIg/TVTrend`<br>
+Request URL: `https://x.com/i/api/graphql/qspZHq6yhxWcRdMhVdPdXQ/TVTrend`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -5209,6 +5292,7 @@ Login Required: `...`<br>
 | premium_content_api_read_enabled                                        | boolean | False      |
 | communities_web_enable_tweet_community_results_fetch                    | boolean | True       |
 | c9s_tweet_anatomy_moderator_badge_enabled                               | boolean | True       |
+| responsive_web_grok_analyze_button_fetch_trends_enabled                 | boolean | False      |
 | articles_preview_enabled                                                | boolean | True       |
 | responsive_web_edit_tweet_api_enabled                                   | boolean | True       |
 | graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | True       |
@@ -5228,7 +5312,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## TVUserProfile<br>
-Request URL: `https://x.com/i/api/graphql/FJhvwWiyj0YuOKTzzlWGTg/TVUserProfile`<br>
+Request URL: `https://x.com/i/api/graphql/wSoDPZXXG6DhEWMdmLbcug/TVUserProfile`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -5247,6 +5331,7 @@ Login Required: `...`<br>
 | premium_content_api_read_enabled                                        | boolean | False      |
 | communities_web_enable_tweet_community_results_fetch                    | boolean | True       |
 | c9s_tweet_anatomy_moderator_badge_enabled                               | boolean | True       |
+| responsive_web_grok_analyze_button_fetch_trends_enabled                 | boolean | False      |
 | articles_preview_enabled                                                | boolean | True       |
 | responsive_web_edit_tweet_api_enabled                                   | boolean | True       |
 | graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | True       |
@@ -5266,7 +5351,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## TweetRelatedVideos<br>
-Request URL: `https://x.com/i/api/graphql/VNlcMin_Dgmf7_Lc8fr_6A/TweetRelatedVideos`<br>
+Request URL: `https://x.com/i/api/graphql/H9Gd_2GL0wUeU1V-cYHI1Q/TweetRelatedVideos`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -5285,6 +5370,7 @@ Login Required: `...`<br>
 | premium_content_api_read_enabled                                        | boolean | False      |
 | communities_web_enable_tweet_community_results_fetch                    | boolean | True       |
 | c9s_tweet_anatomy_moderator_badge_enabled                               | boolean | True       |
+| responsive_web_grok_analyze_button_fetch_trends_enabled                 | boolean | False      |
 | articles_preview_enabled                                                | boolean | True       |
 | responsive_web_edit_tweet_api_enabled                                   | boolean | True       |
 | graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | True       |
@@ -5379,7 +5465,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## DmMutedTimeline<br>
-Request URL: `https://x.com/i/api/graphql/h7aL2NVY02hF_u_zllScYg/DmMutedTimeline`<br>
+Request URL: `https://x.com/i/api/graphql/mN4PxZzU2H4-4gQeUJuhJg/DmMutedTimeline`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -5398,6 +5484,7 @@ Login Required: `...`<br>
 | premium_content_api_read_enabled                                        | boolean | False      |
 | communities_web_enable_tweet_community_results_fetch                    | boolean | True       |
 | c9s_tweet_anatomy_moderator_badge_enabled                               | boolean | True       |
+| responsive_web_grok_analyze_button_fetch_trends_enabled                 | boolean | False      |
 | articles_preview_enabled                                                | boolean | True       |
 | responsive_web_edit_tweet_api_enabled                                   | boolean | True       |
 | graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | True       |
@@ -5428,7 +5515,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## ArticleTimeline<br>
-Request URL: `https://x.com/i/api/graphql/207mNDuby1qbhjWk9T1dpg/ArticleTimeline`<br>
+Request URL: `https://x.com/i/api/graphql/5UpghcR42grDiTGcU86wog/ArticleTimeline`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -5447,6 +5534,7 @@ Login Required: `...`<br>
 | premium_content_api_read_enabled                                        | boolean | False      |
 | communities_web_enable_tweet_community_results_fetch                    | boolean | True       |
 | c9s_tweet_anatomy_moderator_badge_enabled                               | boolean | True       |
+| responsive_web_grok_analyze_button_fetch_trends_enabled                 | boolean | False      |
 | articles_preview_enabled                                                | boolean | True       |
 | responsive_web_edit_tweet_api_enabled                                   | boolean | True       |
 | graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | True       |
@@ -5466,7 +5554,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## ArticleTweetsTimeline<br>
-Request URL: `https://x.com/i/api/graphql/VVXHH6pnhM5cz_AiDmXnag/ArticleTweetsTimeline`<br>
+Request URL: `https://x.com/i/api/graphql/g_m3TDXKtEIJPPRGkqRnkQ/ArticleTweetsTimeline`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -5485,6 +5573,7 @@ Login Required: `...`<br>
 | premium_content_api_read_enabled                                        | boolean | False      |
 | communities_web_enable_tweet_community_results_fetch                    | boolean | True       |
 | c9s_tweet_anatomy_moderator_badge_enabled                               | boolean | True       |
+| responsive_web_grok_analyze_button_fetch_trends_enabled                 | boolean | False      |
 | articles_preview_enabled                                                | boolean | True       |
 | responsive_web_edit_tweet_api_enabled                                   | boolean | True       |
 | graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | True       |
@@ -5526,7 +5615,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## BirdwatchFetchAuthenticatedBirdwatchMatchSlice<br>
-Request URL: `https://x.com/i/api/graphql/3hkYrTgURfSCIOCZl5_K8A/BirdwatchFetchAuthenticatedBirdwatchMatchSlice`<br>
+Request URL: `https://x.com/i/api/graphql/lXj1HalPtLr9P_tpyndkZw/BirdwatchFetchAuthenticatedBirdwatchMatchSlice`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -5539,6 +5628,7 @@ Login Required: `...`<br>
 | premium_content_api_read_enabled                                        | boolean | False      |
 | communities_web_enable_tweet_community_results_fetch                    | boolean | True       |
 | c9s_tweet_anatomy_moderator_badge_enabled                               | boolean | True       |
+| responsive_web_grok_analyze_button_fetch_trends_enabled                 | boolean | False      |
 | articles_preview_enabled                                                | boolean | True       |
 | responsive_web_edit_tweet_api_enabled                                   | boolean | True       |
 | graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | True       |
@@ -5564,7 +5654,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## BirdwatchFetchContributorNotesSlice<br>
-Request URL: `https://x.com/i/api/graphql/5cmQnm5R76gKsUj_v8mTBQ/BirdwatchFetchContributorNotesSlice`<br>
+Request URL: `https://x.com/i/api/graphql/DpDvO8rCyiUmixBbQHLsPw/BirdwatchFetchContributorNotesSlice`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -5580,6 +5670,7 @@ Login Required: `...`<br>
 | premium_content_api_read_enabled                                        | boolean | False      |
 | communities_web_enable_tweet_community_results_fetch                    | boolean | True       |
 | c9s_tweet_anatomy_moderator_badge_enabled                               | boolean | True       |
+| responsive_web_grok_analyze_button_fetch_trends_enabled                 | boolean | False      |
 | articles_preview_enabled                                                | boolean | True       |
 | responsive_web_edit_tweet_api_enabled                                   | boolean | True       |
 | graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | True       |
@@ -5793,7 +5884,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## BirdwatchFetchGlobalTimeline<br>
-Request URL: `https://x.com/i/api/graphql/fn2tgwzU932ueIc5UU0CxA/BirdwatchFetchGlobalTimeline`<br>
+Request URL: `https://x.com/i/api/graphql/XNfyCrmzN-B7LZCHb2h88g/BirdwatchFetchGlobalTimeline`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -5812,6 +5903,7 @@ Login Required: `...`<br>
 | premium_content_api_read_enabled                                        | boolean | False      |
 | communities_web_enable_tweet_community_results_fetch                    | boolean | True       |
 | c9s_tweet_anatomy_moderator_badge_enabled                               | boolean | True       |
+| responsive_web_grok_analyze_button_fetch_trends_enabled                 | boolean | False      |
 | articles_preview_enabled                                                | boolean | True       |
 | responsive_web_edit_tweet_api_enabled                                   | boolean | True       |
 | graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | True       |
@@ -6181,7 +6273,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## Favoriters<br>
-Request URL: `https://x.com/i/api/graphql/_kyhgqMFxboV8BMH1N_AVA/Favoriters`<br>
+Request URL: `https://x.com/i/api/graphql/SWISk9hiWaVt5zV3fqV_bw/Favoriters`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -6200,6 +6292,7 @@ Login Required: `...`<br>
 | premium_content_api_read_enabled                                        | boolean | False      |
 | communities_web_enable_tweet_community_results_fetch                    | boolean | True       |
 | c9s_tweet_anatomy_moderator_badge_enabled                               | boolean | True       |
+| responsive_web_grok_analyze_button_fetch_trends_enabled                 | boolean | False      |
 | articles_preview_enabled                                                | boolean | True       |
 | responsive_web_edit_tweet_api_enabled                                   | boolean | True       |
 | graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | True       |
@@ -6219,7 +6312,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## Retweeters<br>
-Request URL: `https://x.com/i/api/graphql/QvhIoc_m_iszWShZs7m0Ug/Retweeters`<br>
+Request URL: `https://x.com/i/api/graphql/3MyyRvMN07laZ4oN3VTrbg/Retweeters`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -6238,6 +6331,7 @@ Login Required: `...`<br>
 | premium_content_api_read_enabled                                        | boolean | False      |
 | communities_web_enable_tweet_community_results_fetch                    | boolean | True       |
 | c9s_tweet_anatomy_moderator_badge_enabled                               | boolean | True       |
+| responsive_web_grok_analyze_button_fetch_trends_enabled                 | boolean | False      |
 | articles_preview_enabled                                                | boolean | True       |
 | responsive_web_edit_tweet_api_enabled                                   | boolean | True       |
 | graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | True       |
@@ -6257,7 +6351,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## TweetEditHistory<br>
-Request URL: `https://x.com/i/api/graphql/QCTGVHXhPO2_vFnrODqhTg/TweetEditHistory`<br>
+Request URL: `https://x.com/i/api/graphql/qUIfi7Id04qpJOP7mAy4Tg/TweetEditHistory`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -6269,6 +6363,7 @@ Login Required: `...`<br>
 | premium_content_api_read_enabled                                        | boolean | False      |
 | communities_web_enable_tweet_community_results_fetch                    | boolean | True       |
 | c9s_tweet_anatomy_moderator_badge_enabled                               | boolean | True       |
+| responsive_web_grok_analyze_button_fetch_trends_enabled                 | boolean | False      |
 | freedom_of_speech_not_reach_fetch_enabled                               | boolean | True       |
 | standardized_nudges_misinfo                                             | boolean | True       |
 | tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | True       |
