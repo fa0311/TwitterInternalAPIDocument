@@ -125,7 +125,7 @@
             "value": "true"
           },
           "responsive_web_grok_analyze_button_fetch_trends_enabled": {
-            "value": "true"
+            "value": "false"
           },
           "articles_preview_enabled": {
             "value": "true"
@@ -250,7 +250,7 @@
             "value": "true"
           },
           "responsive_web_grok_analyze_button_fetch_trends_enabled": {
-            "value": "true"
+            "value": "false"
           },
           "articles_preview_enabled": {
             "value": "true"
@@ -375,7 +375,7 @@
             "value": "true"
           },
           "responsive_web_grok_analyze_button_fetch_trends_enabled": {
-            "value": "true"
+            "value": "false"
           },
           "articles_preview_enabled": {
             "value": "true"
@@ -500,7 +500,7 @@
             "value": "true"
           },
           "responsive_web_grok_analyze_button_fetch_trends_enabled": {
-            "value": "true"
+            "value": "false"
           },
           "articles_preview_enabled": {
             "value": "true"
@@ -667,7 +667,7 @@
             "value": "true"
           },
           "responsive_web_grok_analyze_button_fetch_trends_enabled": {
-            "value": "true"
+            "value": "false"
           },
           "articles_preview_enabled": {
             "value": "true"
@@ -822,7 +822,7 @@
             "value": "true"
           },
           "responsive_web_grok_analyze_button_fetch_trends_enabled": {
-            "value": "true"
+            "value": "false"
           },
           "responsive_web_edit_tweet_api_enabled": {
             "value": "true"
@@ -956,7 +956,7 @@
             "value": "true"
           },
           "responsive_web_grok_analyze_button_fetch_trends_enabled": {
-            "value": "true"
+            "value": "false"
           },
           "responsive_web_edit_tweet_api_enabled": {
             "value": "true"
@@ -1099,7 +1099,7 @@
             "value": "true"
           },
           "responsive_web_grok_analyze_button_fetch_trends_enabled": {
-            "value": "true"
+            "value": "false"
           },
           "articles_preview_enabled": {
             "value": "true"
@@ -1367,7 +1367,7 @@
             "value": "true"
           },
           "responsive_web_grok_analyze_button_fetch_trends_enabled": {
-            "value": "true"
+            "value": "false"
           },
           "articles_preview_enabled": {
             "value": "true"
@@ -1492,7 +1492,7 @@
             "value": "true"
           },
           "responsive_web_grok_analyze_button_fetch_trends_enabled": {
-            "value": "true"
+            "value": "false"
           },
           "articles_preview_enabled": {
             "value": "true"
@@ -1630,7 +1630,7 @@
             "value": "true"
           },
           "responsive_web_grok_analyze_button_fetch_trends_enabled": {
-            "value": "true"
+            "value": "false"
           },
           "articles_preview_enabled": {
             "value": "true"
@@ -1755,7 +1755,7 @@
             "value": "true"
           },
           "responsive_web_grok_analyze_button_fetch_trends_enabled": {
-            "value": "true"
+            "value": "false"
           },
           "articles_preview_enabled": {
             "value": "true"
@@ -1880,7 +1880,7 @@
             "value": "true"
           },
           "responsive_web_grok_analyze_button_fetch_trends_enabled": {
-            "value": "true"
+            "value": "false"
           },
           "articles_preview_enabled": {
             "value": "true"
@@ -2005,7 +2005,7 @@
             "value": "true"
           },
           "responsive_web_grok_analyze_button_fetch_trends_enabled": {
-            "value": "true"
+            "value": "false"
           },
           "articles_preview_enabled": {
             "value": "true"
@@ -2130,7 +2130,7 @@
             "value": "true"
           },
           "responsive_web_grok_analyze_button_fetch_trends_enabled": {
-            "value": "true"
+            "value": "false"
           },
           "articles_preview_enabled": {
             "value": "true"
@@ -2255,7 +2255,7 @@
             "value": "true"
           },
           "responsive_web_grok_analyze_button_fetch_trends_enabled": {
-            "value": "true"
+            "value": "false"
           },
           "articles_preview_enabled": {
             "value": "true"
@@ -2380,7 +2380,7 @@
             "value": "true"
           },
           "responsive_web_grok_analyze_button_fetch_trends_enabled": {
-            "value": "true"
+            "value": "false"
           },
           "articles_preview_enabled": {
             "value": "true"
@@ -2505,7 +2505,7 @@
             "value": "true"
           },
           "responsive_web_grok_analyze_button_fetch_trends_enabled": {
-            "value": "true"
+            "value": "false"
           },
           "articles_preview_enabled": {
             "value": "true"
@@ -2630,7 +2630,7 @@
             "value": "true"
           },
           "responsive_web_grok_analyze_button_fetch_trends_enabled": {
-            "value": "true"
+            "value": "false"
           },
           "articles_preview_enabled": {
             "value": "true"
@@ -2755,7 +2755,7 @@
             "value": "true"
           },
           "responsive_web_grok_analyze_button_fetch_trends_enabled": {
-            "value": "true"
+            "value": "false"
           },
           "articles_preview_enabled": {
             "value": "true"
@@ -2893,7 +2893,7 @@
             "value": "true"
           },
           "responsive_web_grok_analyze_button_fetch_trends_enabled": {
-            "value": "true"
+            "value": "false"
           },
           "articles_preview_enabled": {
             "value": "true"
@@ -3018,7 +3018,7 @@
             "value": "true"
           },
           "responsive_web_grok_analyze_button_fetch_trends_enabled": {
-            "value": "true"
+            "value": "false"
           },
           "articles_preview_enabled": {
             "value": "true"
@@ -3298,7 +3298,7 @@
             "value": "true"
           },
           "responsive_web_grok_analyze_button_fetch_trends_enabled": {
-            "value": "true"
+            "value": "false"
           },
           "articles_preview_enabled": {
             "value": "true"
@@ -3436,7 +3436,7 @@
             "value": "true"
           },
           "responsive_web_grok_analyze_button_fetch_trends_enabled": {
-            "value": "true"
+            "value": "false"
           },
           "articles_preview_enabled": {
             "value": "true"
@@ -3561,7 +3561,7 @@
             "value": "true"
           },
           "responsive_web_grok_analyze_button_fetch_trends_enabled": {
-            "value": "true"
+            "value": "false"
           },
           "articles_preview_enabled": {
             "value": "true"
@@ -3712,7 +3712,7 @@
             "value": "true"
           },
           "responsive_web_grok_analyze_button_fetch_trends_enabled": {
-            "value": "true"
+            "value": "false"
           },
           "articles_preview_enabled": {
             "value": "true"
@@ -3863,7 +3863,7 @@
             "value": "true"
           },
           "responsive_web_grok_analyze_button_fetch_trends_enabled": {
-            "value": "true"
+            "value": "false"
           },
           "articles_preview_enabled": {
             "value": "true"
@@ -4014,7 +4014,7 @@
             "value": "true"
           },
           "responsive_web_grok_analyze_button_fetch_trends_enabled": {
-            "value": "true"
+            "value": "false"
           },
           "articles_preview_enabled": {
             "value": "true"
@@ -4139,7 +4139,7 @@
             "value": "true"
           },
           "responsive_web_grok_analyze_button_fetch_trends_enabled": {
-            "value": "true"
+            "value": "false"
           },
           "articles_preview_enabled": {
             "value": "true"
@@ -4264,7 +4264,7 @@
             "value": "true"
           },
           "responsive_web_grok_analyze_button_fetch_trends_enabled": {
-            "value": "true"
+            "value": "false"
           },
           "articles_preview_enabled": {
             "value": "true"
@@ -4389,7 +4389,7 @@
             "value": "true"
           },
           "responsive_web_grok_analyze_button_fetch_trends_enabled": {
-            "value": "true"
+            "value": "false"
           },
           "articles_preview_enabled": {
             "value": "true"
@@ -4514,7 +4514,7 @@
             "value": "true"
           },
           "responsive_web_grok_analyze_button_fetch_trends_enabled": {
-            "value": "true"
+            "value": "false"
           },
           "articles_preview_enabled": {
             "value": "true"
@@ -4639,7 +4639,7 @@
             "value": "true"
           },
           "responsive_web_grok_analyze_button_fetch_trends_enabled": {
-            "value": "true"
+            "value": "false"
           },
           "articles_preview_enabled": {
             "value": "true"
@@ -4746,7 +4746,7 @@
             "value": "true"
           },
           "responsive_web_grok_analyze_button_fetch_trends_enabled": {
-            "value": "true"
+            "value": "false"
           },
           "articles_preview_enabled": {
             "value": "true"
@@ -4871,7 +4871,7 @@
             "value": "true"
           },
           "responsive_web_grok_analyze_button_fetch_trends_enabled": {
-            "value": "true"
+            "value": "false"
           },
           "articles_preview_enabled": {
             "value": "true"
@@ -5107,7 +5107,7 @@
             "value": "true"
           },
           "responsive_web_grok_analyze_button_fetch_trends_enabled": {
-            "value": "true"
+            "value": "false"
           },
           "articles_preview_enabled": {
             "value": "true"
@@ -5232,7 +5232,7 @@
             "value": "true"
           },
           "responsive_web_grok_analyze_button_fetch_trends_enabled": {
-            "value": "true"
+            "value": "false"
           },
           "articles_preview_enabled": {
             "value": "true"
@@ -5357,7 +5357,7 @@
             "value": "true"
           },
           "responsive_web_grok_analyze_button_fetch_trends_enabled": {
-            "value": "true"
+            "value": "false"
           },
           "articles_preview_enabled": {
             "value": "true"
@@ -5625,7 +5625,7 @@
             "value": "true"
           },
           "responsive_web_grok_analyze_button_fetch_trends_enabled": {
-            "value": "true"
+            "value": "false"
           },
           "articles_preview_enabled": {
             "value": "true"
@@ -5750,7 +5750,7 @@
             "value": "true"
           },
           "responsive_web_grok_analyze_button_fetch_trends_enabled": {
-            "value": "true"
+            "value": "false"
           },
           "articles_preview_enabled": {
             "value": "true"
@@ -5875,7 +5875,7 @@
             "value": "true"
           },
           "responsive_web_grok_analyze_button_fetch_trends_enabled": {
-            "value": "true"
+            "value": "false"
           },
           "articles_preview_enabled": {
             "value": "true"
@@ -6000,7 +6000,7 @@
             "value": "true"
           },
           "responsive_web_grok_analyze_button_fetch_trends_enabled": {
-            "value": "true"
+            "value": "false"
           },
           "articles_preview_enabled": {
             "value": "true"
@@ -6138,7 +6138,7 @@
             "value": "true"
           },
           "responsive_web_grok_analyze_button_fetch_trends_enabled": {
-            "value": "true"
+            "value": "false"
           },
           "articles_preview_enabled": {
             "value": "true"
@@ -6276,7 +6276,7 @@
             "value": "true"
           },
           "responsive_web_grok_analyze_button_fetch_trends_enabled": {
-            "value": "true"
+            "value": "false"
           },
           "articles_preview_enabled": {
             "value": "true"
@@ -6401,7 +6401,7 @@
             "value": "true"
           },
           "responsive_web_grok_analyze_button_fetch_trends_enabled": {
-            "value": "true"
+            "value": "false"
           },
           "articles_preview_enabled": {
             "value": "true"
@@ -6526,7 +6526,7 @@
             "value": "true"
           },
           "responsive_web_grok_analyze_button_fetch_trends_enabled": {
-            "value": "true"
+            "value": "false"
           },
           "articles_preview_enabled": {
             "value": "true"
@@ -6759,7 +6759,7 @@
             "value": "true"
           },
           "responsive_web_grok_analyze_button_fetch_trends_enabled": {
-            "value": "true"
+            "value": "false"
           },
           "articles_preview_enabled": {
             "value": "true"
@@ -6866,7 +6866,7 @@
             "value": "true"
           },
           "responsive_web_grok_analyze_button_fetch_trends_enabled": {
-            "value": "true"
+            "value": "false"
           },
           "articles_preview_enabled": {
             "value": "true"
@@ -7011,7 +7011,7 @@
             "value": "true"
           },
           "responsive_web_grok_analyze_button_fetch_trends_enabled": {
-            "value": "true"
+            "value": "false"
           },
           "articles_preview_enabled": {
             "value": "true"
@@ -7220,7 +7220,7 @@
             "value": "true"
           },
           "responsive_web_grok_analyze_button_fetch_trends_enabled": {
-            "value": "true"
+            "value": "false"
           },
           "articles_preview_enabled": {
             "value": "true"
@@ -7345,7 +7345,7 @@
             "value": "true"
           },
           "responsive_web_grok_analyze_button_fetch_trends_enabled": {
-            "value": "true"
+            "value": "false"
           },
           "articles_preview_enabled": {
             "value": "true"
@@ -7470,7 +7470,7 @@
             "value": "true"
           },
           "responsive_web_grok_analyze_button_fetch_trends_enabled": {
-            "value": "true"
+            "value": "false"
           },
           "articles_preview_enabled": {
             "value": "true"
@@ -7636,7 +7636,7 @@
             "value": "true"
           },
           "responsive_web_grok_analyze_button_fetch_trends_enabled": {
-            "value": "true"
+            "value": "false"
           },
           "articles_preview_enabled": {
             "value": "true"
@@ -7761,7 +7761,7 @@
             "value": "true"
           },
           "responsive_web_grok_analyze_button_fetch_trends_enabled": {
-            "value": "true"
+            "value": "false"
           },
           "articles_preview_enabled": {
             "value": "true"
@@ -7968,7 +7968,7 @@
             "value": "true"
           },
           "responsive_web_grok_analyze_button_fetch_trends_enabled": {
-            "value": "true"
+            "value": "false"
           },
           "articles_preview_enabled": {
             "value": "true"
@@ -8339,7 +8339,7 @@
             "value": "true"
           },
           "responsive_web_grok_analyze_button_fetch_trends_enabled": {
-            "value": "true"
+            "value": "false"
           },
           "articles_preview_enabled": {
             "value": "true"
@@ -8546,7 +8546,7 @@
             "value": "true"
           },
           "responsive_web_grok_analyze_button_fetch_trends_enabled": {
-            "value": "true"
+            "value": "false"
           },
           "articles_preview_enabled": {
             "value": "true"
@@ -8671,7 +8671,7 @@
             "value": "true"
           },
           "responsive_web_grok_analyze_button_fetch_trends_enabled": {
-            "value": "true"
+            "value": "false"
           },
           "articles_preview_enabled": {
             "value": "true"
@@ -8819,7 +8819,7 @@
             "value": "true"
           },
           "responsive_web_grok_analyze_button_fetch_trends_enabled": {
-            "value": "true"
+            "value": "false"
           },
           "articles_preview_enabled": {
             "value": "true"
@@ -9120,7 +9120,7 @@
             "value": "true"
           },
           "responsive_web_grok_analyze_button_fetch_trends_enabled": {
-            "value": "true"
+            "value": "false"
           },
           "articles_preview_enabled": {
             "value": "true"
@@ -9251,7 +9251,7 @@
             "value": "true"
           },
           "responsive_web_grok_analyze_button_fetch_trends_enabled": {
-            "value": "true"
+            "value": "false"
           },
           "articles_preview_enabled": {
             "value": "true"
@@ -9376,7 +9376,7 @@
             "value": "true"
           },
           "responsive_web_grok_analyze_button_fetch_trends_enabled": {
-            "value": "true"
+            "value": "false"
           },
           "articles_preview_enabled": {
             "value": "true"
@@ -9501,7 +9501,7 @@
             "value": "true"
           },
           "responsive_web_grok_analyze_button_fetch_trends_enabled": {
-            "value": "true"
+            "value": "false"
           },
           "articles_preview_enabled": {
             "value": "true"
@@ -9792,7 +9792,7 @@
             "value": "true"
           },
           "responsive_web_grok_analyze_button_fetch_trends_enabled": {
-            "value": "true"
+            "value": "false"
           },
           "articles_preview_enabled": {
             "value": "true"
@@ -9943,7 +9943,7 @@
             "value": "true"
           },
           "responsive_web_grok_analyze_button_fetch_trends_enabled": {
-            "value": "true"
+            "value": "false"
           },
           "articles_preview_enabled": {
             "value": "true"
@@ -10098,7 +10098,7 @@
             "value": "true"
           },
           "responsive_web_grok_analyze_button_fetch_trends_enabled": {
-            "value": "true"
+            "value": "false"
           },
           "articles_preview_enabled": {
             "value": "true"
@@ -10322,7 +10322,7 @@
             "value": "true"
           },
           "responsive_web_grok_analyze_button_fetch_trends_enabled": {
-            "value": "true"
+            "value": "false"
           },
           "articles_preview_enabled": {
             "value": "true"
@@ -10499,7 +10499,7 @@
             "value": "true"
           },
           "responsive_web_grok_analyze_button_fetch_trends_enabled": {
-            "value": "true"
+            "value": "false"
           },
           "articles_preview_enabled": {
             "value": "true"
@@ -10785,7 +10785,7 @@
             "value": "true"
           },
           "responsive_web_grok_analyze_button_fetch_trends_enabled": {
-            "value": "true"
+            "value": "false"
           },
           "articles_preview_enabled": {
             "value": "true"
@@ -11115,7 +11115,7 @@
             "value": "true"
           },
           "responsive_web_grok_analyze_button_fetch_trends_enabled": {
-            "value": "true"
+            "value": "false"
           },
           "articles_preview_enabled": {
             "value": "true"
@@ -11253,7 +11253,7 @@
             "value": "true"
           },
           "responsive_web_grok_analyze_button_fetch_trends_enabled": {
-            "value": "true"
+            "value": "false"
           },
           "articles_preview_enabled": {
             "value": "true"
@@ -11378,7 +11378,7 @@
             "value": "true"
           },
           "responsive_web_grok_analyze_button_fetch_trends_enabled": {
-            "value": "true"
+            "value": "false"
           },
           "articles_preview_enabled": {
             "value": "true"
@@ -11503,7 +11503,7 @@
             "value": "true"
           },
           "responsive_web_grok_analyze_button_fetch_trends_enabled": {
-            "value": "true"
+            "value": "false"
           },
           "articles_preview_enabled": {
             "value": "true"
@@ -11628,7 +11628,7 @@
             "value": "true"
           },
           "responsive_web_grok_analyze_button_fetch_trends_enabled": {
-            "value": "true"
+            "value": "false"
           },
           "articles_preview_enabled": {
             "value": "true"
@@ -11766,7 +11766,7 @@
             "value": "true"
           },
           "responsive_web_grok_analyze_button_fetch_trends_enabled": {
-            "value": "true"
+            "value": "false"
           },
           "articles_preview_enabled": {
             "value": "true"
@@ -11932,7 +11932,7 @@
             "value": "true"
           },
           "responsive_web_grok_analyze_button_fetch_trends_enabled": {
-            "value": "true"
+            "value": "false"
           },
           "articles_preview_enabled": {
             "value": "true"
@@ -12139,7 +12139,7 @@
             "value": "true"
           },
           "responsive_web_grok_analyze_button_fetch_trends_enabled": {
-            "value": "true"
+            "value": "false"
           },
           "articles_preview_enabled": {
             "value": "true"
@@ -12359,7 +12359,7 @@
             "value": "true"
           },
           "responsive_web_grok_analyze_button_fetch_trends_enabled": {
-            "value": "true"
+            "value": "false"
           },
           "articles_preview_enabled": {
             "value": "true"
@@ -12484,7 +12484,7 @@
             "value": "true"
           },
           "responsive_web_grok_analyze_button_fetch_trends_enabled": {
-            "value": "true"
+            "value": "false"
           },
           "articles_preview_enabled": {
             "value": "true"
@@ -12661,7 +12661,7 @@
             "value": "true"
           },
           "responsive_web_grok_analyze_button_fetch_trends_enabled": {
-            "value": "true"
+            "value": "false"
           },
           "articles_preview_enabled": {
             "value": "true"
@@ -12786,7 +12786,7 @@
             "value": "true"
           },
           "responsive_web_grok_analyze_button_fetch_trends_enabled": {
-            "value": "true"
+            "value": "false"
           },
           "articles_preview_enabled": {
             "value": "true"
@@ -12911,7 +12911,7 @@
             "value": "true"
           },
           "responsive_web_grok_analyze_button_fetch_trends_enabled": {
-            "value": "true"
+            "value": "false"
           },
           "articles_preview_enabled": {
             "value": "true"
@@ -13036,7 +13036,7 @@
             "value": "true"
           },
           "responsive_web_grok_analyze_button_fetch_trends_enabled": {
-            "value": "true"
+            "value": "false"
           },
           "articles_preview_enabled": {
             "value": "true"
@@ -13161,7 +13161,7 @@
             "value": "true"
           },
           "responsive_web_grok_analyze_button_fetch_trends_enabled": {
-            "value": "true"
+            "value": "false"
           },
           "articles_preview_enabled": {
             "value": "true"
@@ -13286,7 +13286,7 @@
             "value": "true"
           },
           "responsive_web_grok_analyze_button_fetch_trends_enabled": {
-            "value": "true"
+            "value": "false"
           },
           "articles_preview_enabled": {
             "value": "true"
@@ -13445,7 +13445,7 @@
             "value": "true"
           },
           "responsive_web_grok_analyze_button_fetch_trends_enabled": {
-            "value": "true"
+            "value": "false"
           },
           "articles_preview_enabled": {
             "value": "true"
@@ -13646,7 +13646,7 @@
             "value": "true"
           },
           "responsive_web_grok_analyze_button_fetch_trends_enabled": {
-            "value": "true"
+            "value": "false"
           },
           "articles_preview_enabled": {
             "value": "true"
@@ -13784,7 +13784,7 @@
             "value": "true"
           },
           "responsive_web_grok_analyze_button_fetch_trends_enabled": {
-            "value": "true"
+            "value": "false"
           },
           "articles_preview_enabled": {
             "value": "true"
@@ -13939,7 +13939,7 @@
             "value": "true"
           },
           "responsive_web_grok_analyze_button_fetch_trends_enabled": {
-            "value": "true"
+            "value": "false"
           },
           "articles_preview_enabled": {
             "value": "true"
@@ -14129,7 +14129,7 @@
             "value": "true"
           },
           "responsive_web_grok_analyze_button_fetch_trends_enabled": {
-            "value": "true"
+            "value": "false"
           },
           "articles_preview_enabled": {
             "value": "true"
@@ -14254,7 +14254,7 @@
             "value": "true"
           },
           "responsive_web_grok_analyze_button_fetch_trends_enabled": {
-            "value": "true"
+            "value": "false"
           },
           "articles_preview_enabled": {
             "value": "true"
@@ -14387,7 +14387,7 @@
             "value": "true"
           },
           "responsive_web_grok_analyze_button_fetch_trends_enabled": {
-            "value": "true"
+            "value": "false"
           },
           "articles_preview_enabled": {
             "value": "true"
@@ -14524,7 +14524,7 @@
             "value": "true"
           },
           "responsive_web_grok_analyze_button_fetch_trends_enabled": {
-            "value": "true"
+            "value": "false"
           },
           "articles_preview_enabled": {
             "value": "true"
@@ -14929,7 +14929,7 @@
             "value": "true"
           },
           "responsive_web_grok_analyze_button_fetch_trends_enabled": {
-            "value": "true"
+            "value": "false"
           },
           "articles_preview_enabled": {
             "value": "true"
@@ -15271,7 +15271,7 @@
             "value": "true"
           },
           "responsive_web_grok_analyze_button_fetch_trends_enabled": {
-            "value": "true"
+            "value": "false"
           },
           "articles_preview_enabled": {
             "value": "true"
@@ -15426,7 +15426,7 @@
             "value": "true"
           },
           "responsive_web_grok_analyze_button_fetch_trends_enabled": {
-            "value": "true"
+            "value": "false"
           },
           "articles_preview_enabled": {
             "value": "true"
@@ -15611,7 +15611,7 @@
             "value": "true"
           },
           "responsive_web_grok_analyze_button_fetch_trends_enabled": {
-            "value": "true"
+            "value": "false"
           },
           "articles_preview_enabled": {
             "value": "true"
@@ -16192,7 +16192,7 @@
             "value": "true"
           },
           "responsive_web_grok_analyze_button_fetch_trends_enabled": {
-            "value": "true"
+            "value": "false"
           },
           "articles_preview_enabled": {
             "value": "true"
@@ -16382,7 +16382,7 @@
             "value": "true"
           },
           "responsive_web_grok_analyze_button_fetch_trends_enabled": {
-            "value": "true"
+            "value": "false"
           },
           "articles_preview_enabled": {
             "value": "true"
@@ -16537,7 +16537,7 @@
             "value": "true"
           },
           "responsive_web_grok_analyze_button_fetch_trends_enabled": {
-            "value": "true"
+            "value": "false"
           },
           "articles_preview_enabled": {
             "value": "true"
@@ -16768,7 +16768,7 @@
             "value": "true"
           },
           "responsive_web_grok_analyze_button_fetch_trends_enabled": {
-            "value": "true"
+            "value": "false"
           },
           "articles_preview_enabled": {
             "value": "true"
@@ -16893,7 +16893,7 @@
             "value": "true"
           },
           "responsive_web_grok_analyze_button_fetch_trends_enabled": {
-            "value": "true"
+            "value": "false"
           },
           "articles_preview_enabled": {
             "value": "true"
@@ -16997,7 +16997,7 @@
             "value": "true"
           },
           "responsive_web_grok_analyze_button_fetch_trends_enabled": {
-            "value": "true"
+            "value": "false"
           },
           "freedom_of_speech_not_reach_fetch_enabled": {
             "value": "true"
@@ -17143,7 +17143,7 @@
             "value": "true"
           },
           "responsive_web_grok_analyze_button_fetch_trends_enabled": {
-            "value": "true"
+            "value": "false"
           },
           "articles_preview_enabled": {
             "value": "true"
@@ -17298,7 +17298,7 @@
             "value": "true"
           },
           "responsive_web_grok_analyze_button_fetch_trends_enabled": {
-            "value": "true"
+            "value": "false"
           },
           "articles_preview_enabled": {
             "value": "true"
@@ -17488,7 +17488,7 @@
             "value": "true"
           },
           "responsive_web_grok_analyze_button_fetch_trends_enabled": {
-            "value": "true"
+            "value": "false"
           },
           "articles_preview_enabled": {
             "value": "true"
@@ -17643,7 +17643,7 @@
             "value": "true"
           },
           "responsive_web_grok_analyze_button_fetch_trends_enabled": {
-            "value": "true"
+            "value": "false"
           },
           "articles_preview_enabled": {
             "value": "true"

@@ -1460,7 +1460,7 @@
     "OFF": "Off",
     "UNDETERMINED": "Undetermined"
   },
-  "{[L.DEFAULT]:\"B.UNDETERMINED\",[L.DENIED]:\"B.OFF\",[L.GRANTED]:\"B.ON\"}",
+  "{[B.DEFAULT]:\"L.UNDETERMINED\",[B.DENIED]:\"L.OFF\",[B.GRANTED]:\"L.ON\"}",
   {
     "REQUEST": "rweb/devices/REMOVE_PUSH_DESTINATION_REQUEST",
     "SUCCESS": "rweb/devices/REMOVE_PUSH_DESTINATION_SUCCESS",
@@ -3218,7 +3218,7 @@
     "report": "report",
     "createClip": "create-clip"
   },
-  "{[L.Q.host]:{\"title\":\"W.hostTitle\",\"maybePluralFormatter\":\"$\"},[L.Q.cohost]:{\"title\":\"W.cohostTitle\",\"maybePluralFormatter\":\"G\"},[L.Q.speaker]:{\"title\":\"W.speakerTitle\",\"maybePluralFormatter\":\"K\"},[L.Q.listener]:{\"title\":\"W.listenerTitle\",\"maybePluralFormatter\":\"Y\"}}",
+  "{[L.Q.host]:{\"title\":\"W.hostTitle\",\"maybePluralFormatter\":\"$\"},[L.Q.cohost]:{\"title\":\"W.cohostTitle\",\"maybePluralFormatter\":\"G\"},[L.Q.speaker]:{\"title\":\"W.speakerTitle\",\"maybePluralFormatter\":\"K\"},[L.Q.listener]:{\"title\":\"W.listenerTitle\",\"maybePluralFormatter\":\"J\"}}",
   {
     "joinSpace": "c().h400d7c2",
     "replaySpace": "c().g66c8348",
@@ -4408,6 +4408,26 @@
     "Remove": "remove"
   },
   {
+    "REQUEST": "rweb/subscriptionPayments/FETCH_SUBSCRIPTION_PRODUCT_DETAILS_REQUEST",
+    "SUCCESS": "rweb/subscriptionPayments/FETCH_SUBSCRIPTION_PRODUCT_DETAILS_SUCCESS",
+    "FAILURE": "rweb/subscriptionPayments/FETCH_SUBSCRIPTION_PRODUCT_DETAILS_FAILURE"
+  },
+  {
+    "REQUEST": "rweb/subscriptionPayments/FETCH_SUBSCRIPTION_PRODUCT_CHECKOUT_URL_REQUEST",
+    "SUCCESS": "rweb/subscriptionPayments/FETCH_SUBSCRIPTION_PRODUCT_CHECKOUT_URL_SUCCESS",
+    "FAILURE": "rweb/subscriptionPayments/FETCH_SUBSCRIPTION_PRODUCT_CHECKOUT_URL_FAILURE"
+  },
+  {
+    "REQUEST": "rweb/subscriptionPayments/FETCH_PRODUCT_SUBSCRIPTIONS_REQUEST",
+    "SUCCESS": "rweb/subscriptionPayments/FETCH_PRODUCT_SUBSCRIPTIONS_SUCCESS",
+    "FAILURE": "rweb/subscriptionPayments/FETCH_PRODUCT_SUBSCRIPTIONS_FAILURE"
+  },
+  {
+    "REQUEST": "rweb/subscriptionPayments/TIER_SWITCH_REQUEST",
+    "SUCCESS": "rweb/subscriptionPayments/TIER_SWITCH_SUCCESS",
+    "FAILURE": "rweb/subscriptionPayments/TIER_SWITCH_FAILURE"
+  },
+  {
     "AcceptAllCookies": "acceptAllCookies",
     "RefuseNonEssentialCookies": "refuseNonEssentialCookies",
     "Invalid": "invalid",
@@ -4871,13 +4891,13 @@
     "small": "36",
     "xSmall": "12"
   },
-  "{\"__proto__\":\"null\",\"formatCaption\":\"function()\"{\"return Ba()\"},\"formatDay\":\"function()\"{\"return Ba()\"},\"formatMonthCaption\":\"function()\"{\"return Ba()\"},\"formatWeekNumber\":\"function()\"{return\"\".concat()},\"formatWeekdayName\":\"function()\"{\"return Ba()\"},\"formatYearCaption\":\"function()\"{\"return Ba()\"}}",
-  "{\"__proto__\":\"null\",\"labelDay\":\"function()\"{\"return Ba()\"},\"labelMonthDropdown\":\"function()\"{return\"Month: \"},\"labelNext\":\"function()\"{return\"Go to next month\"},\"labelPrevious\":\"function()\"{return\"Go to previous month\"},\"labelWeekNumber\":\"function()\"{return\"Week n. \".concat()},\"labelWeekday\":\"function()\"{\"return Ba()\"},\"labelYearDropdown\":\"function()\"{return\"Year: \"}}",
+  "{\"__proto__\":\"null\",\"formatCaption\":\"function()\"{\"return ul()\"},\"formatDay\":\"function()\"{\"return ul()\"},\"formatMonthCaption\":\"function()\"{\"return ul()\"},\"formatWeekNumber\":\"function()\"{return\"\".concat()},\"formatWeekdayName\":\"function()\"{\"return ul()\"},\"formatYearCaption\":\"function()\"{\"return ul()\"}}",
+  "{\"__proto__\":\"null\",\"labelDay\":\"function()\"{\"return ul()\"},\"labelMonthDropdown\":\"function()\"{return\"Month: \"},\"labelNext\":\"function()\"{return\"Go to next month\"},\"labelPrevious\":\"function()\"{return\"Go to previous month\"},\"labelWeekNumber\":\"function()\"{return\"Week n. \".concat()},\"labelWeekday\":\"function()\"{\"return ul()\"},\"labelYearDropdown\":\"function()\"{return\"Year: \"}}",
   {
     "Default": "ui_defaultLabel",
     "TransparentCursor": "ui_transparentCursor"
   },
-  "{[$.v.FOLLOWS]:\"Q\",[$.v.FRIENDS_OF_FRIENDS]:\"U\"}",
+  "{[K.v.FOLLOWS]:\"U\",[K.v.FRIENDS_OF_FRIENDS]:\"Q\"}",
   {
     "Default": "Default",
     "Pivot": "Pivot",
@@ -5417,7 +5437,7 @@
   },
   {
     "all": {
-      "icon": "us",
+      "icon": "hs",
       "label": "C().i8ea6d4e"
     },
     "community": {
@@ -5429,7 +5449,7 @@
       "label": "C().gc7e52ca"
     },
     "subscribers": {
-      "icon": "us",
+      "icon": "hs",
       "label": "C().feb7560a"
     },
     "community_members": {
@@ -5437,7 +5457,7 @@
       "label": "C().i13be5a0"
     },
     "super_followers_exclusive": {
-      "icon": "us",
+      "icon": "hs",
       "label": "C().ebe1d850"
     },
     "trusted_friends_tweet": {
@@ -5923,26 +5943,6 @@
   {
     "follow": "follow",
     "subscribe": "subscribe"
-  },
-  {
-    "REQUEST": "rweb/subscriptionPayments/FETCH_SUBSCRIPTION_PRODUCT_DETAILS_REQUEST",
-    "SUCCESS": "rweb/subscriptionPayments/FETCH_SUBSCRIPTION_PRODUCT_DETAILS_SUCCESS",
-    "FAILURE": "rweb/subscriptionPayments/FETCH_SUBSCRIPTION_PRODUCT_DETAILS_FAILURE"
-  },
-  {
-    "REQUEST": "rweb/subscriptionPayments/FETCH_SUBSCRIPTION_PRODUCT_CHECKOUT_URL_REQUEST",
-    "SUCCESS": "rweb/subscriptionPayments/FETCH_SUBSCRIPTION_PRODUCT_CHECKOUT_URL_SUCCESS",
-    "FAILURE": "rweb/subscriptionPayments/FETCH_SUBSCRIPTION_PRODUCT_CHECKOUT_URL_FAILURE"
-  },
-  {
-    "REQUEST": "rweb/subscriptionPayments/FETCH_PRODUCT_SUBSCRIPTIONS_REQUEST",
-    "SUCCESS": "rweb/subscriptionPayments/FETCH_PRODUCT_SUBSCRIPTIONS_SUCCESS",
-    "FAILURE": "rweb/subscriptionPayments/FETCH_PRODUCT_SUBSCRIPTIONS_FAILURE"
-  },
-  {
-    "REQUEST": "rweb/subscriptionPayments/TIER_SWITCH_REQUEST",
-    "SUCCESS": "rweb/subscriptionPayments/TIER_SWITCH_SUCCESS",
-    "FAILURE": "rweb/subscriptionPayments/TIER_SWITCH_FAILURE"
   },
   {
     "adRev": "ad_revenue_sharing",
@@ -6465,7 +6465,7 @@
     "SET_CONFIG": "rweb/verifiedOrgConfig/SET"
   },
   {
-    "fetchStatus": "$.ZP.NONE",
+    "fetchStatus": "W.ZP.NONE",
     "config": "Ia"
   },
   {
@@ -6477,7 +6477,7 @@
     "FinalConfirmationStep": "FinalConfirmationStep"
   },
   "{[_.hA.switchFromDirect]:\"m().dca6b3ac\",[_.hA.generate]:\"m().dca6b3ac\",[_.hA.updateSeats]:\"m().c97ad52a\"}",
-  "{[Z.hA.generate]:\"E().fc1f43d0\",[Z.hA.switchFromDirect]:\"E().fc1f43d0\",[Z.hA.updateSeats]:\"E().c97ad52a\"}",
+  "{[K.hA.generate]:\"E().fc1f43d0\",[K.hA.switchFromDirect]:\"E().fc1f43d0\",[K.hA.updateSeats]:\"E().c97ad52a\"}",
   {
     "FullAccess": "FullAccess",
     "FullAccessGov": "FullAccessGov",
