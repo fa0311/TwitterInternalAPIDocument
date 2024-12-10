@@ -289,6 +289,14 @@
     "Settings": "19"
   },
   {
+    "EmptyState": "EmptyState",
+    "InlineCallout": "InlineCallout",
+    "Button": "Button",
+    "InterstitialSheet": "InterstitialSheet",
+    "SidebarModule": "SidebarModule",
+    "Card": "Card"
+  },
+  {
     "All": "All",
     "Premium": "Premium",
     "PremiumBasic": "PremiumBasic",
@@ -331,15 +339,8 @@
     "HomeNav": "HomeNav",
     "MonetizationPromoPage": "MonetizationPromoPage",
     "ProfileCard": "ProfileCard",
-    "DmCard": "DmCard"
-  },
-  {
-    "EmptyState": "EmptyState",
-    "InlineCallout": "InlineCallout",
-    "Button": "Button",
-    "InterstitialSheet": "InterstitialSheet",
-    "SidebarModule": "SidebarModule",
-    "Card": "Card"
+    "DmCard": "DmCard",
+    "ReplyBoost": "ReplyBoost"
   },
   {
     "Apple": "apple",
@@ -4142,9 +4143,12 @@
     "HANDLE": "Handle",
     "TIER": "Subscription Tier",
     "INTERVAL": "Subscription Interval",
+    "FOLLOWERS_COUNT": "Followers Count"
+  },
+  {
     "HAS_RADAR": "Has Radar",
     "HAS_HIRING": "Has Hiring",
-    "FOLLOWERS_COUNT": "Followers Count"
+    "PRE_APPROVED_VO": "PreApproved VO"
   },
   {
     "DepositOnly": "DepositOnly",
