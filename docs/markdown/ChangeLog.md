@@ -4835,3 +4835,19 @@
 - xprofile_profile_button_enabled<br>
 #### remove<br>
 - None<br>
+## 2024/12/10<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- responsive_web_grok_analyze_focal_post_enabled<br>
+- subscriptions_upsells_post_composer_variant<br>
+- subscriptions_upsells_reply_boost_enabled<br>
+- subscriptions_upsells_reply_boost_variant<br>
+#### remove<br>
+- responsive_web_grok_post_understanding_button_enabled<br>
+- responsive_web_grok_post_understanding_button_fetch_trends_enabled<br>
+- responsive_web_grok_post_understanding_button_trends_only<br>

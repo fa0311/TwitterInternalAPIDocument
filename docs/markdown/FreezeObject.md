@@ -287,6 +287,15 @@ This document is entirely auto-generated and may contain errors.<br>
 | Lists             |      18 |
 | Settings          |      19 |
 
+| constant          | value             |
+|:------------------|:------------------|
+| EmptyState        | EmptyState        |
+| InlineCallout     | InlineCallout     |
+| Button            | Button            |
+| InterstitialSheet | InterstitialSheet |
+| SidebarModule     | SidebarModule     |
+| Card              | Card              |
+
 | constant     | value        |
 |:-------------|:-------------|
 | All          | All          |
@@ -333,15 +342,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | MonetizationPromoPage  | MonetizationPromoPage  |
 | ProfileCard            | ProfileCard            |
 | DmCard                 | DmCard                 |
-
-| constant          | value             |
-|:------------------|:------------------|
-| EmptyState        | EmptyState        |
-| InlineCallout     | InlineCallout     |
-| Button            | Button            |
-| InterstitialSheet | InterstitialSheet |
-| SidebarModule     | SidebarModule     |
-| Card              | Card              |
+| ReplyBoost             | ReplyBoost             |
 
 | constant   | value   |
 |:-----------|:--------|
@@ -4338,9 +4339,13 @@ This document is entirely auto-generated and may contain errors.<br>
 | HANDLE          | Handle                |
 | TIER            | Subscription Tier     |
 | INTERVAL        | Subscription Interval |
-| HAS_RADAR       | Has Radar             |
-| HAS_HIRING      | Has Hiring            |
 | FOLLOWERS_COUNT | Followers Count       |
+
+| constant        | value          |
+|:----------------|:---------------|
+| HAS_RADAR       | Has Radar      |
+| HAS_HIRING      | Has Hiring     |
+| PRE_APPROVED_VO | PreApproved VO |
 
 | constant                          | value                             |
 |:----------------------------------|:----------------------------------|
