@@ -4241,9 +4241,10 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key      | type   | variable   |
-|:---------|:-------|:-----------|
-| tweet_id | ...    | t.tweet_id |
+| key         | type   | variable      |
+|:------------|:-------|:--------------|
+| tweet_id    | ...    | t.tweet_id    |
+| source_link | ...    | t.source_link |
 
 #### features<br>
 | key                                                                     | type    | variable   |
@@ -5707,7 +5708,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## BirdwatchCreateBatSignal<br>
-Request URL: `https://x.com/i/api/graphql/Z-_9Y78W6a7q95kuEB3ykg/BirdwatchCreateBatSignal`<br>
+Request URL: `https://x.com/i/api/graphql/hflLsUawCquMOPVnpZuNPg/BirdwatchCreateBatSignal`<br>
 Request Method: `POST`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -5845,14 +5846,17 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## BirdwatchFetchBatSignal<br>
-Request URL: `https://x.com/i/api/graphql/Ykq2lurXTkMstyKpyS5--g/BirdwatchFetchBatSignal`<br>
+Request URL: `https://x.com/i/api/graphql/Gwdf60Q7tL2KCvoPmqTPag/BirdwatchFetchBatSignal`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
 `None`<br>
 #### features<br>
-`None`<br>
+| key                                                   | type    | variable   |
+|:------------------------------------------------------|:--------|:-----------|
+| responsive_web_birdwatch_note_request_sources_enabled | boolean | False      |
+
 #### queryId<br>
 `None`<br>
 ## BirdwatchFetchBirdwatchProfile<br>
