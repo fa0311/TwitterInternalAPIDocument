@@ -539,16 +539,16 @@
   {
     "gutter": {
       "left": {
-        "small": "20",
-        "normal": "30"
+        "small": "32",
+        "normal": "32"
       },
       "right": {
-        "normal": "10",
-        "large": "70"
+        "normal": "32",
+        "large": "32"
       }
     },
-    "primary": "600",
-    "wide": "700",
+    "primary": "712",
+    "wide": "712",
     "secondary": {
       "small": "300",
       "normal": "300",
@@ -569,18 +569,18 @@
   },
   {
     "collapsed": {
-      "small": "68",
-      "normal": "88"
+      "small": "64",
+      "normal": "112"
     },
-    "expanded": "192",
+    "expanded": "112",
     "gutter": {
       "start": {
-        "large": "60"
+        "large": "0"
       }
     }
   },
   "{\"oneColumn\":\"r.primary\",\"twoColumn\":{\"small\":r.primary+r.gutter.left.small+r.secondary.small+r.gutter.right.normal,\"normal\":r.primary+r.gutter.left.normal+r.secondary.normal+r.gutter.right.normal,\"large\":r.primary+r.gutter.left.normal+r.secondary.normal+r.gutter.right.large}}",
-  "{\"oneColumn\":\"d.primary\",\"twoColumn\":{\"small\":d.primary+d.gutter.left.small+d.secondary.small+d.gutter.right.normal,\"normal\":d.primary+d.gutter.left.normal+d.secondary.normal+d.gutter.right.normal,\"large\":d.primary+d.gutter.left.normal+d.secondary.wide+d.gutter.right.large}}",
+  "{\"oneColumn\":\"d.primary\",\"twoColumn\":{\"small\":d.primary+d.gutter.left.small+d.secondary.small+d.gutter.right.normal,\"normal\":d.primary+d.gutter.left.normal+d.secondary.normal+d.gutter.right.normal,\"large\":d.wide+d.gutter.left.normal+d.secondary.wide+d.gutter.right.large}}",
   {
     "normal": "300"
   },
@@ -1461,7 +1461,7 @@
     "OFF": "Off",
     "UNDETERMINED": "Undetermined"
   },
-  "{[B.DEFAULT]:\"L.UNDETERMINED\",[B.DENIED]:\"L.OFF\",[B.GRANTED]:\"L.ON\"}",
+  "{[L.DEFAULT]:\"B.UNDETERMINED\",[L.DENIED]:\"B.OFF\",[L.GRANTED]:\"B.ON\"}",
   {
     "REQUEST": "rweb/devices/REMOVE_PUSH_DESTINATION_REQUEST",
     "SUCCESS": "rweb/devices/REMOVE_PUSH_DESTINATION_SUCCESS",
