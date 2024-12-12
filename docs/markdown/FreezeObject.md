@@ -531,9 +531,9 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant   | value                                                                               |
 |:-----------|:------------------------------------------------------------------------------------|
-| gutter     | {'left': {'small': '20', 'normal': '30'}, 'right': {'normal': '10', 'large': '70'}} |
-| primary    | 600                                                                                 |
-| wide       | 700                                                                                 |
+| gutter     | {'left': {'small': '32', 'normal': '32'}, 'right': {'normal': '32', 'large': '32'}} |
+| primary    | 712                                                                                 |
+| wide       | 712                                                                                 |
 | secondary  | {'small': '300', 'normal': '300', 'wide': '600'}                                    |
 
 | constant   | value                           |
@@ -542,11 +542,11 @@ This document is entirely auto-generated and may contain errors.<br>
 | expanded   | 275                             |
 | gutter     | {'start': {'large': '60'}}      |
 
-| constant   | value                           |
-|:-----------|:--------------------------------|
-| collapsed  | {'small': '68', 'normal': '88'} |
-| expanded   | 192                             |
-| gutter     | {'start': {'large': '60'}}      |
+| constant   | value                            |
+|:-----------|:---------------------------------|
+| collapsed  | {'small': '64', 'normal': '112'} |
+| expanded   | 112                              |
+| gutter     | {'start': {'large': '0'}}        |
 
 ```internal process
 # Error
@@ -554,7 +554,7 @@ This document is entirely auto-generated and may contain errors.<br>
 ```
 ```internal process
 # Error
-{"oneColumn":"r.primary","twoColumn":{"small":r.primary+r.gutter.left.small+r.secondary.small+r.gutter.right.normal,"normal":r.primary+r.gutter.left.normal+r.secondary.normal+r.gutter.right.normal,"large":r.primary+r.gutter.left.normal+r.secondary.wide+r.gutter.right.large}}
+{"oneColumn":"r.primary","twoColumn":{"small":r.primary+r.gutter.left.small+r.secondary.small+r.gutter.right.normal,"normal":r.primary+r.gutter.left.normal+r.secondary.normal+r.gutter.right.normal,"large":r.wide+r.gutter.left.normal+r.secondary.wide+r.gutter.right.large}}
 ```
 | constant   |   value |
 |:-----------|--------:|
@@ -2155,7 +2155,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{[L.Q.host]:{"title":"W.hostTitle","maybePluralFormatter":"$"},[L.Q.cohost]:{"title":"W.cohostTitle","maybePluralFormatter":"G"},[L.Q.speaker]:{"title":"W.speakerTitle","maybePluralFormatter":"K"},[L.Q.listener]:{"title":"W.listenerTitle","maybePluralFormatter":"J"}}
+{[L.Q.host]:{"title":"W.hostTitle","maybePluralFormatter":"$"},[L.Q.cohost]:{"title":"W.cohostTitle","maybePluralFormatter":"G"},[L.Q.speaker]:{"title":"W.speakerTitle","maybePluralFormatter":"K"},[L.Q.listener]:{"title":"W.listenerTitle","maybePluralFormatter":"Y"}}
 ```
 | constant    | value        |
 |:------------|:-------------|
@@ -4430,6 +4430,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | InReview               | InReview               |
 | RejectedByAutoReview   | RejectedByAutoReview   |
 | RejectedByManualReview | RejectedByManualReview |
+| Returned               | Returned               |
 | ReversedByAgent        | ReversedByAgent        |
 | Unspecified            | Unspecified            |
 
@@ -4773,11 +4774,11 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{"__proto__":"null","formatCaption":"function()"{"return ul()"},"formatDay":"function()"{"return ul()"},"formatMonthCaption":"function()"{"return ul()"},"formatWeekNumber":"function()"{return"".concat()},"formatWeekdayName":"function()"{"return ul()"},"formatYearCaption":"function()"{"return ul()"}}
+{"__proto__":"null","formatCaption":"function()"{"return ml()"},"formatDay":"function()"{"return ml()"},"formatMonthCaption":"function()"{"return ml()"},"formatWeekNumber":"function()"{return"".concat()},"formatWeekdayName":"function()"{"return ml()"},"formatYearCaption":"function()"{"return ml()"}}
 ```
 ```internal process
 # Error
-{"__proto__":"null","labelDay":"function()"{"return ul()"},"labelMonthDropdown":"function()"{return"Month: "},"labelNext":"function()"{return"Go to next month"},"labelPrevious":"function()"{return"Go to previous month"},"labelWeekNumber":"function()"{return"Week n. ".concat()},"labelWeekday":"functi...
+{"__proto__":"null","labelDay":"function()"{"return ml()"},"labelMonthDropdown":"function()"{return"Month: "},"labelNext":"function()"{return"Go to next month"},"labelPrevious":"function()"{return"Go to previous month"},"labelWeekNumber":"function()"{return"Week n. ".concat()},"labelWeekday":"functi...
 ```
 | constant          | value                |
 |:------------------|:---------------------|
@@ -4786,7 +4787,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{[K.v.FOLLOWS]:"U",[K.v.FRIENDS_OF_FRIENDS]:"Q"}
+{[K.v.FOLLOWS]:"Q",[K.v.FRIENDS_OF_FRIENDS]:"U"}
 ```
 | constant   | value   |
 |:-----------|:--------|

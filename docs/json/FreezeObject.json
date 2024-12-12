@@ -531,16 +531,16 @@
   {
     "gutter": {
       "left": {
-        "small": "20",
-        "normal": "30"
+        "small": "32",
+        "normal": "32"
       },
       "right": {
-        "normal": "10",
-        "large": "70"
+        "normal": "32",
+        "large": "32"
       }
     },
-    "primary": "600",
-    "wide": "700",
+    "primary": "712",
+    "wide": "712",
     "secondary": {
       "small": "300",
       "normal": "300",
@@ -561,18 +561,18 @@
   },
   {
     "collapsed": {
-      "small": "68",
-      "normal": "88"
+      "small": "64",
+      "normal": "112"
     },
-    "expanded": "192",
+    "expanded": "112",
     "gutter": {
       "start": {
-        "large": "60"
+        "large": "0"
       }
     }
   },
   "{\"oneColumn\":\"t.primary\",\"twoColumn\":{\"small\":t.primary+t.gutter.left.small+t.secondary.small+t.gutter.right.normal,\"normal\":t.primary+t.gutter.left.normal+t.secondary.normal+t.gutter.right.normal,\"large\":t.primary+t.gutter.left.normal+t.secondary.normal+t.gutter.right.large}}",
-  "{\"oneColumn\":\"r.primary\",\"twoColumn\":{\"small\":r.primary+r.gutter.left.small+r.secondary.small+r.gutter.right.normal,\"normal\":r.primary+r.gutter.left.normal+r.secondary.normal+r.gutter.right.normal,\"large\":r.primary+r.gutter.left.normal+r.secondary.wide+r.gutter.right.large}}",
+  "{\"oneColumn\":\"r.primary\",\"twoColumn\":{\"small\":r.primary+r.gutter.left.small+r.secondary.small+r.gutter.right.normal,\"normal\":r.primary+r.gutter.left.normal+r.secondary.normal+r.gutter.right.normal,\"large\":r.wide+r.gutter.left.normal+r.secondary.wide+r.gutter.right.large}}",
   {
     "normal": "300"
   },
@@ -2162,7 +2162,7 @@
     "report": "report",
     "createClip": "create-clip"
   },
-  "{[L.Q.host]:{\"title\":\"W.hostTitle\",\"maybePluralFormatter\":\"$\"},[L.Q.cohost]:{\"title\":\"W.cohostTitle\",\"maybePluralFormatter\":\"G\"},[L.Q.speaker]:{\"title\":\"W.speakerTitle\",\"maybePluralFormatter\":\"K\"},[L.Q.listener]:{\"title\":\"W.listenerTitle\",\"maybePluralFormatter\":\"J\"}}",
+  "{[L.Q.host]:{\"title\":\"W.hostTitle\",\"maybePluralFormatter\":\"$\"},[L.Q.cohost]:{\"title\":\"W.cohostTitle\",\"maybePluralFormatter\":\"G\"},[L.Q.speaker]:{\"title\":\"W.speakerTitle\",\"maybePluralFormatter\":\"K\"},[L.Q.listener]:{\"title\":\"W.listenerTitle\",\"maybePluralFormatter\":\"Y\"}}",
   {
     "joinSpace": "c().h400d7c2",
     "replaySpace": "c().g66c8348",
@@ -4226,6 +4226,7 @@
     "InReview": "InReview",
     "RejectedByAutoReview": "RejectedByAutoReview",
     "RejectedByManualReview": "RejectedByManualReview",
+    "Returned": "Returned",
     "ReversedByAgent": "ReversedByAgent",
     "Unspecified": "Unspecified"
   },
@@ -4537,13 +4538,13 @@
     "small": "36",
     "xSmall": "12"
   },
-  "{\"__proto__\":\"null\",\"formatCaption\":\"function()\"{\"return ul()\"},\"formatDay\":\"function()\"{\"return ul()\"},\"formatMonthCaption\":\"function()\"{\"return ul()\"},\"formatWeekNumber\":\"function()\"{return\"\".concat()},\"formatWeekdayName\":\"function()\"{\"return ul()\"},\"formatYearCaption\":\"function()\"{\"return ul()\"}}",
-  "{\"__proto__\":\"null\",\"labelDay\":\"function()\"{\"return ul()\"},\"labelMonthDropdown\":\"function()\"{return\"Month: \"},\"labelNext\":\"function()\"{return\"Go to next month\"},\"labelPrevious\":\"function()\"{return\"Go to previous month\"},\"labelWeekNumber\":\"function()\"{return\"Week n. \".concat()},\"labelWeekday\":\"function()\"{\"return ul()\"},\"labelYearDropdown\":\"function()\"{return\"Year: \"}}",
+  "{\"__proto__\":\"null\",\"formatCaption\":\"function()\"{\"return ml()\"},\"formatDay\":\"function()\"{\"return ml()\"},\"formatMonthCaption\":\"function()\"{\"return ml()\"},\"formatWeekNumber\":\"function()\"{return\"\".concat()},\"formatWeekdayName\":\"function()\"{\"return ml()\"},\"formatYearCaption\":\"function()\"{\"return ml()\"}}",
+  "{\"__proto__\":\"null\",\"labelDay\":\"function()\"{\"return ml()\"},\"labelMonthDropdown\":\"function()\"{return\"Month: \"},\"labelNext\":\"function()\"{return\"Go to next month\"},\"labelPrevious\":\"function()\"{return\"Go to previous month\"},\"labelWeekNumber\":\"function()\"{return\"Week n. \".concat()},\"labelWeekday\":\"function()\"{\"return ml()\"},\"labelYearDropdown\":\"function()\"{return\"Year: \"}}",
   {
     "Default": "ui_defaultLabel",
     "TransparentCursor": "ui_transparentCursor"
   },
-  "{[K.v.FOLLOWS]:\"U\",[K.v.FRIENDS_OF_FRIENDS]:\"Q\"}",
+  "{[K.v.FOLLOWS]:\"Q\",[K.v.FRIENDS_OF_FRIENDS]:\"U\"}",
   {
     "Default": "Default",
     "Pivot": "Pivot",
