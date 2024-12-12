@@ -541,9 +541,9 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant   | value                                                                               |
 |:-----------|:------------------------------------------------------------------------------------|
-| gutter     | {'left': {'small': '20', 'normal': '30'}, 'right': {'normal': '10', 'large': '70'}} |
-| primary    | 600                                                                                 |
-| wide       | 700                                                                                 |
+| gutter     | {'left': {'small': '32', 'normal': '32'}, 'right': {'normal': '32', 'large': '32'}} |
+| primary    | 712                                                                                 |
+| wide       | 712                                                                                 |
 | secondary  | {'small': '300', 'normal': '300', 'wide': '600'}                                    |
 
 | constant   | value                           |
@@ -552,11 +552,11 @@ This document is entirely auto-generated and may contain errors.<br>
 | expanded   | 275                             |
 | gutter     | {'start': {'large': '60'}}      |
 
-| constant   | value                           |
-|:-----------|:--------------------------------|
-| collapsed  | {'small': '68', 'normal': '88'} |
-| expanded   | 192                             |
-| gutter     | {'start': {'large': '60'}}      |
+| constant   | value                            |
+|:-----------|:---------------------------------|
+| collapsed  | {'small': '64', 'normal': '112'} |
+| expanded   | 112                              |
+| gutter     | {'start': {'large': '0'}}        |
 
 ```internal process
 # Error
@@ -564,7 +564,7 @@ This document is entirely auto-generated and may contain errors.<br>
 ```
 ```internal process
 # Error
-{"oneColumn":"d.primary","twoColumn":{"small":d.primary+d.gutter.left.small+d.secondary.small+d.gutter.right.normal,"normal":d.primary+d.gutter.left.normal+d.secondary.normal+d.gutter.right.normal,"large":d.primary+d.gutter.left.normal+d.secondary.wide+d.gutter.right.large}}
+{"oneColumn":"d.primary","twoColumn":{"small":d.primary+d.gutter.left.small+d.secondary.small+d.gutter.right.normal,"normal":d.primary+d.gutter.left.normal+d.secondary.normal+d.gutter.right.normal,"large":d.wide+d.gutter.left.normal+d.secondary.wide+d.gutter.right.large}}
 ```
 | constant   |   value |
 |:-----------|--------:|
@@ -1502,7 +1502,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{[B.DEFAULT]:"L.UNDETERMINED",[B.DENIED]:"L.OFF",[B.GRANTED]:"L.ON"}
+{[L.DEFAULT]:"B.UNDETERMINED",[L.DENIED]:"B.OFF",[L.GRANTED]:"B.ON"}
 ```
 | constant   | value                                        |
 |:-----------|:---------------------------------------------|
