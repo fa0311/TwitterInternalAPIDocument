@@ -1161,19 +1161,19 @@
         "value": "false"
       },
       "optimized_sru_parameters_client_side_timeout_ms": {
-        "value": "45000"
+        "value": "600000"
       },
       "optimized_sru_parameters_enabled": {
-        "value": "0"
+        "value": "1"
       },
       "optimized_sru_parameters_ideal_upload_time_ms": {
-        "value": "20000"
+        "value": "80000"
       },
       "optimized_sru_parameters_max_segment_bytes": {
         "value": "8387584"
       },
       "optimized_sru_parameters_min_segment_bytes": {
-        "value": "420"
+        "value": "4194304"
       },
       "papago_tweet_translation_from_korean_entity_protected": {
         "value": "false"
@@ -1417,6 +1417,9 @@
       },
       "responsive_web_birdwatch_note_request_enabled": {
         "value": "true"
+      },
+      "responsive_web_birdwatch_note_request_sources_enabled": {
+        "value": "false"
       },
       "responsive_web_birdwatch_note_writing_enabled": {
         "value": "false"
@@ -2283,7 +2286,7 @@
         "value": "true"
       },
       "rweb_multistream_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "rweb_mvr_blurred_media_interstitial_enabled": {
         "value": "true"
@@ -4555,6 +4558,9 @@
         "responsive_web_birdwatch_note_request_enabled": {
           "value": "true"
         },
+        "responsive_web_birdwatch_note_request_sources_enabled": {
+          "value": "false"
+        },
         "responsive_web_birdwatch_note_writing_enabled": {
           "value": "false"
         },
@@ -5420,7 +5426,7 @@
           "value": "true"
         },
         "rweb_multistream_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "rweb_mvr_blurred_media_interstitial_enabled": {
           "value": "true"
@@ -6389,10 +6395,10 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "c657762c5b5d0a760ef9e3594a707683"
+      "settingsVersion": "cee59779e7ccaf2caffdb488c9e06d11"
     },
     "debug": {},
-    "featureSetToken": "e6757a41975505e0682f3156629eea0fff098a81",
+    "featureSetToken": "a0159daab3a1de788753c3484b049cde8f60ffc7",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -6462,7 +6468,7 @@
     "country": "XX",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "173395176846412936",
+    "guestId": "173403817001417221",
     "hasCommunityMemberships": "false",
     "language": "en",
     "ssoInitTokens": {},
