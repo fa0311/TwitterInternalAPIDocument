@@ -4216,8 +4216,8 @@
       "features": {}
     },
     "BirdwatchCreateBatSignal": {
-      "url": "https://x.com/i/api/graphql/Z-_9Y78W6a7q95kuEB3ykg/BirdwatchCreateBatSignal",
-      "queryId": "Z-_9Y78W6a7q95kuEB3ykg",
+      "url": "https://x.com/i/api/graphql/hflLsUawCquMOPVnpZuNPg/BirdwatchCreateBatSignal",
+      "queryId": "hflLsUawCquMOPVnpZuNPg",
       "method": "POST",
       "features": {}
     },
@@ -4296,10 +4296,12 @@
       }
     },
     "BirdwatchFetchBatSignal": {
-      "url": "https://x.com/i/api/graphql/Ykq2lurXTkMstyKpyS5--g/BirdwatchFetchBatSignal",
-      "queryId": "Ykq2lurXTkMstyKpyS5--g",
+      "url": "https://x.com/i/api/graphql/Gwdf60Q7tL2KCvoPmqTPag/BirdwatchFetchBatSignal",
+      "queryId": "Gwdf60Q7tL2KCvoPmqTPag",
       "method": "GET",
-      "features": {}
+      "features": {
+        "responsive_web_birdwatch_note_request_sources_enabled": false
+      }
     },
     "BirdwatchFetchBirdwatchProfile": {
       "url": "https://x.com/i/api/graphql/iL_0nGf1nelAd9Kz-pZJlA/BirdwatchFetchBirdwatchProfile",
