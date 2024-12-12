@@ -2307,7 +2307,7 @@
       }
     },
     "func_name": "O",
-    "func_name_init": "L",
+    "func_name_init": "B",
     "query": {
       "show_in_app_navigation": "t.show_in_app_navigation"
     }
@@ -11111,7 +11111,8 @@
     "func_name": "T",
     "func_name_init": "k",
     "query": {
-      "tweet_id": "t.tweet_id"
+      "tweet_id": "t.tweet_id",
+      "source_link": "t.source_link"
     }
   },
   {
@@ -14710,7 +14711,7 @@
   {
     "n": "48015",
     "exports": {
-      "queryId": "Z-_9Y78W6a7q95kuEB3ykg",
+      "queryId": "hflLsUawCquMOPVnpZuNPg",
       "operationName": "BirdwatchCreateBatSignal",
       "operationType": "mutation",
       "metadata": {
@@ -14908,13 +14909,19 @@
   {
     "n": "23223",
     "exports": {
-      "queryId": "Ykq2lurXTkMstyKpyS5--g",
+      "queryId": "Gwdf60Q7tL2KCvoPmqTPag",
       "operationName": "BirdwatchFetchBatSignal",
       "operationType": "query",
       "metadata": {
-        "featureSwitches": [],
+        "featureSwitches": [
+          "responsive_web_birdwatch_note_request_sources_enabled"
+        ],
         "fieldToggles": [],
-        "featureSwitch": {}
+        "featureSwitch": {
+          "responsive_web_birdwatch_note_request_sources_enabled": {
+            "value": "false"
+          }
+        }
       }
     }
   },
