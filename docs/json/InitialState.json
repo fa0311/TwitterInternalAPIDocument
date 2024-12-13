@@ -1640,7 +1640,7 @@
         "value": "true"
       },
       "responsive_web_grok_backend_prompts_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "responsive_web_grok_continue_in_grok_enabled": {
         "value": "true"
@@ -1664,7 +1664,7 @@
         "value": "true"
       },
       "responsive_web_grok_fun_mode_disabled": {
-        "value": "false"
+        "value": "true"
       },
       "responsive_web_grok_general_availability": {
         "value": "false"
@@ -2336,7 +2336,7 @@
         "value": "BannerSwitchToApp"
       },
       "rweb_video_logged_in_analytics_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "rweb_video_pip_enabled": {
         "value": "true"
@@ -4804,7 +4804,7 @@
           "value": "true"
         },
         "responsive_web_grok_fun_mode_disabled": {
-          "value": "false"
+          "value": "true"
         },
         "responsive_web_grok_general_availability": {
           "value": "false"
@@ -5476,7 +5476,7 @@
           "value": "BannerSwitchToApp"
         },
         "rweb_video_logged_in_analytics_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "rweb_video_pip_enabled": {
           "value": "true"
@@ -6385,10 +6385,10 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "d57f2cfa731b61c3b224b3a27410e702"
+      "settingsVersion": "bc677fc56e1a80ea5c677750ba50b77c"
     },
     "debug": {},
-    "featureSetToken": "a0159daab3a1de788753c3484b049cde8f60ffc7",
+    "featureSetToken": "7b48d9d65a673a1e6cb9bd918bafc1ab55f0751a",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -6458,7 +6458,7 @@
     "country": "XX",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "173403781137792179",
+    "guestId": "173412416369559762",
     "hasCommunityMemberships": "false",
     "language": "en",
     "ssoInitTokens": {},
