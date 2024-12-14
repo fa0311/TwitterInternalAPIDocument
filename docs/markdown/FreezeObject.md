@@ -643,7 +643,6 @@ This document is entirely auto-generated and may contain errors.<br>
 | upgradeToKycDocumentsVerified | upgradeToKycDocumentsVerified |
 | upgradeToKycVerified          | upgradeToKycVerified          |
 | verifyPaymentMethod           | verifyPaymentMethod           |
-| oneClickOnboarding            | oneClickOnboarding            |
 | autoclaim                     | autoclaim                     |
 | updateName                    | updateName                    |
 | updateAddress                 | updateAddress                 |
@@ -4981,19 +4980,6 @@ This document is entirely auto-generated and may contain errors.<br>
 | SwitchToAppLow5         | switch_to_app_low_5        |
 | SwitchToAppLow9         | switch_to_app_low_9        |
 
-| constant        | value                 |
-|:----------------|:----------------------|
-| HANDLE          | Handle                |
-| TIER            | Subscription Tier     |
-| INTERVAL        | Subscription Interval |
-| FOLLOWERS_COUNT | Followers Count       |
-
-| constant        | value          |
-|:----------------|:---------------|
-| HAS_RADAR       | Has Radar      |
-| HAS_HIRING      | Has Hiring     |
-| PRE_APPROVED_VO | PreApproved VO |
-
 | constant    | value       |
 |:------------|:------------|
 | RESIZE      | resize      |
@@ -7982,13 +7968,13 @@ This document is entirely auto-generated and may contain errors.<br>
 
 |   constant | value   |
 |-----------:|:--------|
-|          1 | c       |
-|          2 | d       |
+|          1 | d       |
+|          2 | c       |
 
 | constant   | value                        |
 |:-----------|:-----------------------------|
-| annually   | {'label': 'c', 'value': '1'} |
-| hourly     | {'label': 'd', 'value': '2'} |
+| annually   | {'label': 'd', 'value': '1'} |
+| hourly     | {'label': 'c', 'value': '2'} |
 
 | constant   | value    |
 |:-----------|:---------|
@@ -9163,7 +9149,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{[R.LIVE_EVENT]:"!0",[R.MOMENT]:"!0",[R.SUMMARY]:"!0",[R.SUMMARY_LARGE_IMAGE]:"!0",[R.AUDIOSPACE]:"!0"}
+{[B.LIVE_EVENT]:"!0",[B.MOMENT]:"!0",[B.SUMMARY]:"!0",[B.SUMMARY_LARGE_IMAGE]:"!0",[B.AUDIOSPACE]:"!0"}
 ```
 | constant     | value        |
 |:-------------|:-------------|
@@ -9292,6 +9278,19 @@ This document is entirely auto-generated and may contain errors.<br>
 | Onboarded                    | Onboarded                    |
 | UpfrontApplicationInProgress | UpfrontApplicationInProgress |
 | UpfrontPromotionInProgress   | UpfrontPromotionInProgress   |
+
+| constant        | value                 |
+|:----------------|:----------------------|
+| HANDLE          | Handle                |
+| TIER            | Subscription Tier     |
+| INTERVAL        | Subscription Interval |
+| FOLLOWERS_COUNT | Followers Count       |
+
+| constant        | value          |
+|:----------------|:---------------|
+| HAS_RADAR       | Has Radar      |
+| HAS_HIRING      | Has Hiring     |
+| PRE_APPROVED_VO | PreApproved VO |
 
 | constant   | value      |
 |:-----------|:-----------|
