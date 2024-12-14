@@ -4862,3 +4862,14 @@
 - responsive_web_birdwatch_note_request_sources_enabled<br>
 #### remove<br>
 - None<br>
+## 2024/12/14<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- payments_risk_device_sdk_enabled<br>
