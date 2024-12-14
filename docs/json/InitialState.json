@@ -1204,9 +1204,6 @@
       "payments_pin_login_enabled": {
         "value": "false"
       },
-      "payments_risk_device_sdk_enabled": {
-        "value": "false"
-      },
       "premium_content_api_read_enabled": {
         "value": "false"
       },
@@ -4344,9 +4341,6 @@
         "payments_pin_login_enabled": {
           "value": "false"
         },
-        "payments_risk_device_sdk_enabled": {
-          "value": "false"
-        },
         "premium_content_api_read_enabled": {
           "value": "false"
         },
@@ -6388,7 +6382,7 @@
       "settingsVersion": "bc677fc56e1a80ea5c677750ba50b77c"
     },
     "debug": {},
-    "featureSetToken": "7b48d9d65a673a1e6cb9bd918bafc1ab55f0751a",
+    "featureSetToken": "8fe902590198bd2fba1ecbde69701c90887ed158",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -6458,7 +6452,7 @@
     "country": "XX",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "173412416369559762",
+    "guestId": "173421053806478884",
     "hasCommunityMemberships": "false",
     "language": "en",
     "ssoInitTokens": {},
