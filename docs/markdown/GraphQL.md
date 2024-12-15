@@ -3977,7 +3977,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## GrokShare<br>
-Request URL: `https://x.com/i/api/graphql/KVw2cDu2p70o2sV3sblPEA/GrokShare`<br>
+Request URL: `https://x.com/i/api/graphql/MFFuhNbepTFZFTLuTwAZAw/GrokShare`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
