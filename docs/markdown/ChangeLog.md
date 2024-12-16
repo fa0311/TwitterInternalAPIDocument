@@ -4873,3 +4873,16 @@
 - None<br>
 #### remove<br>
 - payments_risk_device_sdk_enabled<br>
+## 2024/12/16<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- responsive_web_grok_xai_icon<br>
+- responsive_web_grok_profile_summary_min_followers<br>
+- responsive_web_grok_profile_summary_min_posts<br>
+#### remove<br>
+- None<br>
