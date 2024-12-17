@@ -18,7 +18,13 @@ It also serves as a reverse engineering assistant.
 
 ### Do you have accurate documentation?
 yes.
+
 <https://github.com/fa0311/twitter-openapi>
+
+## About the X-Client-Transaction-Id header?
+Unobfuscate `ondemand.s` every day at 22:00 UTC.
+
+<https://github.com/fa0311/twitter-tid-deobf-fork>
 
 ## Document
 
