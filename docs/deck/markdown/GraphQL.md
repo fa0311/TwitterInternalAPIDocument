@@ -1191,9 +1191,9 @@ Request Method: `POST`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key     | type   | variable   |
-|:--------|:-------|:-----------|
-| note_id | ...    | t.note_id  |
+| key      | type   | variable   |
+|:---------|:-------|:-----------|
+| settings | ...    | t.settings |
 
 #### features<br>
 | key                                                               | type    | variable   |
@@ -2563,7 +2563,7 @@ Login Required: `...`<br>
 |:-------------|:-------|:--------------------------|
 | isPrivate    | ...    | private===l.toLowerCase() |
 | name         | ...    | s                         |
-| description  | ...    | a                         |
+| description  | ...    | d                         |
 | ...()(0,o.S) | ...    | _                         |
 
 #### features<br>
@@ -3670,9 +3670,9 @@ Request Method: `POST`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key      | type   | variable   |
-|:---------|:-------|:-----------|
-| settings | ...    | t.settings |
+| key     | type   | variable   |
+|:--------|:-------|:-----------|
+| note_id | ...    | t.note_id  |
 
 #### features<br>
 `None`<br>
@@ -3764,8 +3764,8 @@ Login Required: `...`<br>
 #### variables<br>
 | key          | type   | variable   |
 |:-------------|:-------|:-----------|
-| topicId      | ...    | d          |
-| ...()(0,a.d) | ...    | _          |
+| topicId      | ...    | a          |
+| ...()(0,d.d) | ...    | _          |
 
 #### features<br>
 | key                                                                     | type    | variable   |
@@ -4011,7 +4011,10 @@ Request Method: `POST`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-`None`<br>
+| key      | type   | variable   |
+|:---------|:-------|:-----------|
+| tweet_id | ...    | t          |
+
 #### features<br>
 `None`<br>
 #### queryId<br>
@@ -4469,10 +4472,9 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key      | type   | variable   |
-|:---------|:-------|:-----------|
-| userId   | ...    | r          |
-| settings | ...    | n          |
+| key   | type   | variable   |
+|:------|:-------|:-----------|
+| alias | ...    | t.alias    |
 
 #### features<br>
 | key                                                                     | type    | variable   |
@@ -4623,9 +4625,9 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key                        | type   | variable   |
-|:---------------------------|:-------|:-----------|
-| withCommunitiesMemberships | ...    | n.isTrue() |
+| key             | type   | variable   |
+|:----------------|:-------|:-----------|
+| articleEntityId | ...    | i          |
 
 #### features<br>
 | key                                                               | type    | variable   |
@@ -4964,7 +4966,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## GrokShare<br>
-Request URL: `https://x.com/i/api/graphql/KVw2cDu2p70o2sV3sblPEA/GrokShare`<br>
+Request URL: `https://x.com/i/api/graphql/MFFuhNbepTFZFTLuTwAZAw/GrokShare`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>

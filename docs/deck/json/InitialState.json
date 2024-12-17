@@ -1214,9 +1214,6 @@
       "payments_pin_login_enabled": {
         "value": "false"
       },
-      "payments_risk_device_sdk_enabled": {
-        "value": "false"
-      },
       "premium_content_api_read_enabled": {
         "value": "false"
       },
@@ -1650,7 +1647,7 @@
         "value": "true"
       },
       "responsive_web_grok_backend_prompts_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "responsive_web_grok_continue_in_grok_enabled": {
         "value": "true"
@@ -1674,7 +1671,7 @@
         "value": "true"
       },
       "responsive_web_grok_fun_mode_disabled": {
-        "value": "false"
+        "value": "true"
       },
       "responsive_web_grok_general_availability": {
         "value": "false"
@@ -1756,6 +1753,9 @@
       },
       "responsive_web_grok_webview_file_upload_enabled": {
         "value": "true"
+      },
+      "responsive_web_grok_xai_icon": {
+        "value": "false"
       },
       "responsive_web_hashtag_highlight_is_enabled": {
         "value": "false"
@@ -2346,7 +2346,7 @@
         "value": "BannerSwitchToApp"
       },
       "rweb_video_logged_in_analytics_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "rweb_video_pip_enabled": {
         "value": "true"
@@ -4354,9 +4354,6 @@
         "payments_pin_login_enabled": {
           "value": "false"
         },
-        "payments_risk_device_sdk_enabled": {
-          "value": "false"
-        },
         "premium_content_api_read_enabled": {
           "value": "false"
         },
@@ -4843,6 +4840,12 @@
         "responsive_web_grok_post_image_understanding_enabled": {
           "value": "false"
         },
+        "responsive_web_grok_profile_summary_min_followers": {
+          "value": "10000"
+        },
+        "responsive_web_grok_profile_summary_min_posts": {
+          "value": "50"
+        },
         "responsive_web_grok_prompt_edit_enabled": {
           "value": "true"
         },
@@ -4896,6 +4899,9 @@
         },
         "responsive_web_grok_webview_file_upload_enabled": {
           "value": "true"
+        },
+        "responsive_web_grok_xai_icon": {
+          "value": "false"
         },
         "responsive_web_hashtag_highlight_is_enabled": {
           "value": "false"
@@ -6395,10 +6401,10 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "15133b400010b0ea470b19e42f374ca8"
+      "settingsVersion": "e6bd4061f52c30472754be3c0ae0ed5d"
     },
     "debug": {},
-    "featureSetToken": "a0159daab3a1de788753c3484b049cde8f60ffc7",
+    "featureSetToken": "6ab6db571fdae9fad6642853801d598a97461b3c",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -6468,7 +6474,7 @@
     "country": "XX",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "173429732639789299",
+    "guestId": "173438369963800812",
     "hasCommunityMemberships": "false",
     "language": "en",
     "ssoInitTokens": {},

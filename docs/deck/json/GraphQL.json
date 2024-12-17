@@ -3160,10 +3160,10 @@
         }
       }
     },
-    "func_name": "k",
-    "func_name_init": "M",
+    "func_name": "M",
+    "func_name_init": "k",
     "query": {
-      "note_id": "t.note_id"
+      "settings": "t.settings"
     }
   },
   {
@@ -6419,12 +6419,12 @@
         }
       }
     },
-    "func_name": "f",
-    "func_name_init": "w",
+    "func_name": "w",
+    "func_name_init": "f",
     "query": {
       "isPrivate": "private===l.toLowerCase()",
       "name": "s",
-      "description": "a",
+      "description": "d",
       "...()(0,o.S)": "_"
     }
   },
@@ -9361,10 +9361,10 @@
         "featureSwitch": {}
       }
     },
-    "func_name": "M",
+    "func_name": "k",
     "func_name_init": "v",
     "query": {
-      "settings": "t.settings"
+      "note_id": "t.note_id"
     }
   },
   {
@@ -9741,11 +9741,11 @@
         }
       }
     },
-    "func_name": "f",
-    "func_name_init": "w",
+    "func_name": "w",
+    "func_name_init": "f",
     "query": {
-      "topicId": "d",
-      "...()(0,a.d)": "_"
+      "topicId": "a",
+      "...()(0,d.d)": "_"
     }
   },
   {
@@ -10397,6 +10397,11 @@
         "fieldToggles": [],
         "featureSwitch": {}
       }
+    },
+    "func_name": "G",
+    "func_name_init": "Z",
+    "query": {
+      "tweet_id": "t"
     }
   },
   {
@@ -11109,7 +11114,7 @@
       }
     },
     "func_name": "T",
-    "func_name_init": "k",
+    "func_name_init": "M",
     "query": {
       "tweet_id": "t.tweet_id",
       "source_link": "t.source_link"
@@ -11776,11 +11781,10 @@
         }
       }
     },
-    "func_name": "w",
+    "func_name": "f",
     "func_name_init": "_",
     "query": {
-      "userId": "r",
-      "settings": "n"
+      "alias": "t.alias"
     }
   },
   {
@@ -12143,10 +12147,10 @@
         }
       }
     },
-    "func_name": "A",
-    "func_name_init": "f",
+    "func_name": "y",
+    "func_name_init": "w",
     "query": {
-      "withCommunitiesMemberships": "n.isTrue()"
+      "articleEntityId": "i"
     }
   },
   {
@@ -12855,7 +12859,7 @@
   {
     "n": "21211",
     "exports": {
-      "queryId": "KVw2cDu2p70o2sV3sblPEA",
+      "queryId": "MFFuhNbepTFZFTLuTwAZAw",
       "operationName": "GrokShare",
       "operationType": "query",
       "metadata": {
