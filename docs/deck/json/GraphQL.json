@@ -2305,11 +2305,6 @@
           }
         }
       }
-    },
-    "func_name": "O",
-    "func_name_init": "B",
-    "query": {
-      "show_in_app_navigation": "t.show_in_app_navigation"
     }
   },
   {
@@ -4566,7 +4561,7 @@
       }
     },
     "func_name": "i",
-    "func_name_init": "o",
+    "func_name_init": "d",
     "query": {
       "target_user_id": "n.id_str"
     }
@@ -4649,7 +4644,7 @@
       }
     },
     "func_name": "i",
-    "func_name_init": "o",
+    "func_name_init": "d",
     "query": {}
   },
   {
@@ -6424,8 +6419,8 @@
     "query": {
       "isPrivate": "private===l.toLowerCase()",
       "name": "s",
-      "description": "d",
-      "...()(0,o.S)": "_"
+      "description": "o",
+      "...()(0,d.S)": "_"
     }
   },
   {
@@ -7944,7 +7939,7 @@
     "query": {
       "count": "t",
       "cursor": "r",
-      "...()(0,o.d)": "_"
+      "...()(0,d.d)": "_"
     }
   },
   {
@@ -9055,7 +9050,7 @@
       }
     },
     "func_name": "i",
-    "func_name_init": "o",
+    "func_name_init": "d",
     "query": {
       "topicId": "r"
     }
@@ -9364,7 +9359,7 @@
     "func_name": "k",
     "func_name_init": "v",
     "query": {
-      "note_id": "t.note_id"
+      "tweet_id": "t"
     }
   },
   {
@@ -9745,7 +9740,7 @@
     "func_name_init": "f",
     "query": {
       "topicId": "a",
-      "...()(0,d.d)": "_"
+      "...()(0,o.d)": "_"
     }
   },
   {
@@ -15302,6 +15297,19 @@
       "queryId": "6ZEO6UxqjlK4nefrhotZHw",
       "operationName": "BirdwatchRemoveUser",
       "operationType": "mutation",
+      "metadata": {
+        "featureSwitches": [],
+        "fieldToggles": [],
+        "featureSwitch": {}
+      }
+    }
+  },
+  {
+    "n": "13280",
+    "exports": {
+      "queryId": "t0_3zSCtWe3jLiF5PQL4lw",
+      "operationName": "CommunityBoostFetchPivot",
+      "operationType": "query",
       "metadata": {
         "featureSwitches": [],
         "fieldToggles": [],
