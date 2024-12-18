@@ -15204,6 +15204,19 @@
     }
   },
   {
+    "n": "13280",
+    "exports": {
+      "queryId": "t0_3zSCtWe3jLiF5PQL4lw",
+      "operationName": "CommunityBoostFetchPivot",
+      "operationType": "query",
+      "metadata": {
+        "featureSwitches": [],
+        "fieldToggles": [],
+        "featureSwitch": {}
+      }
+    }
+  },
+  {
     "n": "12776",
     "exports": {
       "queryId": "FXE0-Pll4gb7yFh1TpnofQ",
