@@ -5910,6 +5910,17 @@ Login Required: `...`<br>
 `None`<br>
 #### queryId<br>
 `None`<br>
+## CommunityBoostFetchPivot<br>
+Request URL: `https://x.com/i/api/graphql/t0_3zSCtWe3jLiF5PQL4lw/CommunityBoostFetchPivot`<br>
+Request Method: `GET`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
 ## BookmarkFolderTimeline<br>
 Request URL: `https://x.com/i/api/graphql/FXE0-Pll4gb7yFh1TpnofQ/BookmarkFolderTimeline`<br>
 Request Method: `GET`<br>
