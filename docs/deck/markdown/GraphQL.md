@@ -866,10 +866,7 @@ Request Method: `POST`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key                    | type   | variable                 |
-|:-----------------------|:-------|:-------------------------|
-| show_in_app_navigation | ...    | t.show_in_app_navigation |
-
+`None`<br>
 #### features<br>
 | key                                                               | type    | variable   |
 |:------------------------------------------------------------------|:--------|:-----------|
@@ -2563,8 +2560,8 @@ Login Required: `...`<br>
 |:-------------|:-------|:--------------------------|
 | isPrivate    | ...    | private===l.toLowerCase() |
 | name         | ...    | s                         |
-| description  | ...    | d                         |
-| ...()(0,o.S) | ...    | _                         |
+| description  | ...    | o                         |
+| ...()(0,d.S) | ...    | _                         |
 
 #### features<br>
 | key                                                               | type    | variable   |
@@ -3081,7 +3078,7 @@ Login Required: `...`<br>
 |:-------------|:-------|:-----------|
 | count        | ...    | t          |
 | cursor       | ...    | r          |
-| ...()(0,o.d) | ...    | _          |
+| ...()(0,d.d) | ...    | _          |
 
 #### features<br>
 | key                                                                     | type    | variable   |
@@ -3670,9 +3667,9 @@ Request Method: `POST`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key     | type   | variable   |
-|:--------|:-------|:-----------|
-| note_id | ...    | t.note_id  |
+| key      | type   | variable   |
+|:---------|:-------|:-----------|
+| tweet_id | ...    | t          |
 
 #### features<br>
 `None`<br>
@@ -3765,7 +3762,7 @@ Login Required: `...`<br>
 | key          | type   | variable   |
 |:-------------|:-------|:-----------|
 | topicId      | ...    | a          |
-| ...()(0,d.d) | ...    | _          |
+| ...()(0,o.d) | ...    | _          |
 
 #### features<br>
 | key                                                                     | type    | variable   |
@@ -6033,6 +6030,17 @@ Login Required: `...`<br>
 ## BirdwatchRemoveUser<br>
 Request URL: `https://x.com/i/api/graphql/6ZEO6UxqjlK4nefrhotZHw/BirdwatchRemoveUser`<br>
 Request Method: `POST`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
+## CommunityBoostFetchPivot<br>
+Request URL: `https://x.com/i/api/graphql/t0_3zSCtWe3jLiF5PQL4lw/CommunityBoostFetchPivot`<br>
+Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
