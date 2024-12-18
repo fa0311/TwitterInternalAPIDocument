@@ -4426,6 +4426,12 @@
       "method": "POST",
       "features": {}
     },
+    "CommunityBoostFetchPivot": {
+      "url": "https://x.com/i/api/graphql/t0_3zSCtWe3jLiF5PQL4lw/CommunityBoostFetchPivot",
+      "queryId": "t0_3zSCtWe3jLiF5PQL4lw",
+      "method": "GET",
+      "features": {}
+    },
     "LiveCommerceItemsSlice": {
       "url": "https://x.com/i/api/graphql/-lnNX56S2YrZYrLzbccFAQ/LiveCommerceItemsSlice",
       "queryId": "-lnNX56S2YrZYrLzbccFAQ",
