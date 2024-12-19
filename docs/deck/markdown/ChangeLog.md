@@ -3700,3 +3700,14 @@
 - rweb_sourcemap_migration<br>
 #### remove<br>
 - None<br>
+## 2024/12/19<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- responsive_web_grok_regen_configs<br>
+#### remove<br>
+- None<br>
