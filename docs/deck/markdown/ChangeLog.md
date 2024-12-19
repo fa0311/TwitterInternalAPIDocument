@@ -3686,3 +3686,17 @@
 - responsive_web_grok_profile_summary_min_posts<br>
 #### remove<br>
 - payments_risk_device_sdk_enabled<br>
+## 2024/12/18<br>
+### API<br>
+#### add<br>
+- CommunityBoostFetchPivot<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- responsive_web_communityboost_form_enabled<br>
+- responsive_web_grok_img_composer<br>
+- responsive_web_grok_profile_summary_enabled<br>
+- rweb_sourcemap_migration<br>
+#### remove<br>
+- None<br>
