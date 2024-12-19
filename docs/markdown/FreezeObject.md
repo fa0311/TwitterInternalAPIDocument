@@ -51,10 +51,12 @@ This document is entirely auto-generated and may contain errors.<br>
 | DeletePaymentMethod                         | DeletePaymentMethod                         |
 | ForgotPin                                   | ForgotPin                                   |
 | FundSandboxAccount                          | FundSandboxAccount                          |
+| GenerateMonthlyStatementData                | GenerateMonthlyStatementData                |
 | GetAccounts                                 | GetAccounts                                 |
 | GetCustomer                                 | GetCustomer                                 |
 | GetCustomerIdentity                         | GetCustomerIdentity                         |
 | GetCustomerLimits                           | GetCustomerLimits                           |
+| GetDocuments                                | GetDocuments                                |
 | GetInvitationDetails                        | GetInvitationDetails                        |
 | GetPaymentMethod                            | GetPaymentMethod                            |
 | GetTransactions                             | GetTransactions                             |
@@ -3058,6 +3060,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | FeatureSwitches                  | FeatureSwitches                  |
 | FilteredReplies                  | FilteredReplies                  |
 | Gender                           | Gender                           |
+| GrokSettings                     | GrokSettings                     |
 | IDVerification                   | IDVerification                   |
 | IDVerificationError              | IDVerificationError              |
 | IDVerificationRequest            | IDVerificationRequest            |
