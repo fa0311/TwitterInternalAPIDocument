@@ -1711,6 +1711,9 @@
       "responsive_web_grok_prompt_edit_enabled": {
         "value": "true"
       },
+      "responsive_web_grok_regen_configs": {
+        "value": "false"
+      },
       "responsive_web_grok_robot_icon": {
         "value": "false"
       },
@@ -6430,10 +6433,10 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "ce3721af891fc9d883518b30061a4d82"
+      "settingsVersion": "35361e670c502f39977bbdfa3cc1d5f4"
     },
     "debug": {},
-    "featureSetToken": "97f06d9374edb827138ea672182911b049e9e455",
+    "featureSetToken": "06394f057e628ae3bf431aece9844c5521a3e5f7",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -6503,7 +6506,7 @@
     "country": "XX",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "173464254504025672",
+    "guestId": "173472891701446458",
     "hasCommunityMemberships": "false",
     "language": "en",
     "ssoInitTokens": {},
