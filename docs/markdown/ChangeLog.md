@@ -4900,3 +4900,16 @@
 - rweb_sourcemap_migration<br>
 #### remove<br>
 - None<br>
+## 2024/12/19<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- grok_settings_age_restriction_enabled<br>
+- grok_settings_restriction_age<br>
+- responsive_web_grok_regen_configs<br>
+#### remove<br>
+- creator_subscriptions_new_eligibility_requirements_enabled<br>

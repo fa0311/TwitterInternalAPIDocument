@@ -1710,7 +1710,7 @@
         "value": "false"
       },
       "responsive_web_grok_profile_summary_min_followers": {
-        "value": "10000"
+        "value": "1"
       },
       "responsive_web_grok_profile_summary_min_posts": {
         "value": "50"
@@ -2762,7 +2762,7 @@
         "value": ""
       },
       "subscriptions_upsells_premium_home_nav": {
-        "value": "premium_upsell_upgrade"
+        "value": "try_premium"
       },
       "subscriptions_upsells_profile_card_enabled": {
         "value": "false"
@@ -2783,7 +2783,7 @@
         "value": ""
       },
       "subscriptions_upsells_right_sidebar_variant": {
-        "value": ""
+        "value": "free_trial_premium_14_days"
       },
       "subscriptions_verification_info_is_identity_verified_enabled": {
         "value": "true"
@@ -4844,7 +4844,7 @@
           "value": "true"
         },
         "responsive_web_grok_img_composer": {
-          "value": "false"
+          "value": "true"
         },
         "responsive_web_grok_imggen_count": {
           "value": "4"
@@ -4868,13 +4868,16 @@
           "value": "false"
         },
         "responsive_web_grok_profile_summary_min_followers": {
-          "value": "10000"
+          "value": "1"
         },
         "responsive_web_grok_profile_summary_min_posts": {
           "value": "50"
         },
         "responsive_web_grok_prompt_edit_enabled": {
           "value": "true"
+        },
+        "responsive_web_grok_regen_configs": {
+          "value": "false"
         },
         "responsive_web_grok_robot_icon": {
           "value": "false"
@@ -5920,7 +5923,7 @@
           "value": ""
         },
         "subscriptions_upsells_premium_home_nav": {
-          "value": "premium_upsell_upgrade"
+          "value": "try_premium"
         },
         "subscriptions_upsells_profile_card_enabled": {
           "value": "false"
@@ -5941,7 +5944,7 @@
           "value": ""
         },
         "subscriptions_upsells_right_sidebar_variant": {
-          "value": ""
+          "value": "free_trial_premium_14_days"
         },
         "subscriptions_verification_info_is_identity_verified_enabled": {
           "value": "true"
@@ -6431,10 +6434,10 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "d605b2de6f149ff8921869ea23ffcb93"
+      "settingsVersion": "6a6e8751bc30f6be4de8a0e4a0f25eb8"
     },
     "debug": {},
-    "featureSetToken": "91d790e5a83ca187556d686d77aa94c8d9f780f6",
+    "featureSetToken": "806f599231896a6ad751507ca42df46ad4299838",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -6504,7 +6507,7 @@
     "country": "XX",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "173455649035861378",
+    "guestId": "173464290240812131",
     "hasCommunityMemberships": "false",
     "language": "en",
     "ssoInitTokens": {},
