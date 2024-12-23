@@ -6247,8 +6247,8 @@
     "func_name": "c",
     "func_name_init": "u",
     "query": {
-      "content_state": "i",
-      "title": "a"
+      "...t": "_",
+      "withConversationQueryHighlights": "!0"
     }
   },
   {
@@ -7255,7 +7255,8 @@
     "func_name": "F",
     "func_name_init": "O",
     "query": {
-      "note_id": "t.note_id"
+      "listId": "t.list_id",
+      "...()(0,d.S)": "_"
     }
   },
   {
@@ -9359,7 +9360,7 @@
     "func_name": "k",
     "func_name_init": "v",
     "query": {
-      "tweet_id": "t"
+      "topicId": "r"
     }
   },
   {
@@ -11111,8 +11112,11 @@
     "func_name": "T",
     "func_name_init": "M",
     "query": {
-      "tweet_id": "t.tweet_id",
-      "source_link": "t.source_link"
+      "userId": "a",
+      "count": "t",
+      "cursor": "r",
+      "includePromotedContent": "!1",
+      "...()(0,o.d)": "_"
     }
   },
   {
@@ -11635,8 +11639,7 @@
     "func_name": "g",
     "func_name_init": "p",
     "query": {
-      "articleEntityId": "i",
-      "title": "a"
+      "cursor": "t"
     }
   },
   {
@@ -11779,7 +11782,7 @@
     "func_name": "f",
     "func_name_init": "_",
     "query": {
-      "alias": "t.alias"
+      "grok_share_id": "t"
     }
   },
   {
@@ -12145,7 +12148,7 @@
     "func_name": "y",
     "func_name_init": "w",
     "query": {
-      "articleEntityId": "i"
+      "withCommunitiesMemberships": "n.isTrue()"
     }
   },
   {
