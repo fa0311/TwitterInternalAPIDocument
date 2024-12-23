@@ -629,9 +629,6 @@
       "creator_subscriptions_email_share_enabled": {
         "value": "true"
       },
-      "creator_subscriptions_new_eligibility_requirements_enabled": {
-        "value": "true"
-      },
       "creator_subscriptions_quote_tweet_preview_enabled": {
         "value": "false"
       },
@@ -823,6 +820,12 @@
       },
       "graphql_timeline_v2_user_profile_with_replies_timeline": {
         "value": "true"
+      },
+      "grok_settings_age_restriction_enabled": {
+        "value": "false"
+      },
+      "grok_settings_restriction_age": {
+        "value": "18"
       },
       "gryphon_accountsync_polling_interval_ms": {
         "value": "300000"
@@ -1644,7 +1647,7 @@
         "value": "false"
       },
       "responsive_web_grok_analyze_focal_post_enabled": {
-        "value": "true"
+        "value": "false"
       },
       "responsive_web_grok_animated_text_enabled": {
         "value": "true"
@@ -1713,10 +1716,13 @@
         "value": "1"
       },
       "responsive_web_grok_profile_summary_min_posts": {
-        "value": "50"
+        "value": "30"
       },
       "responsive_web_grok_prompt_edit_enabled": {
         "value": "true"
+      },
+      "responsive_web_grok_regen_configs": {
+        "value": "false"
       },
       "responsive_web_grok_robot_icon": {
         "value": "false"
@@ -1752,7 +1758,7 @@
         "value": "false"
       },
       "responsive_web_grok_user_seconds_heartbeat": {
-        "value": "10000"
+        "value": "200"
       },
       "responsive_web_grok_v2_start_screen_enabled": {
         "value": "true"
@@ -1985,6 +1991,9 @@
       "responsive_web_scroller_top_positioning_enabled": {
         "value": "false"
       },
+      "responsive_web_seasonal_custom_logo": {
+        "value": "IconTwitter"
+      },
       "responsive_web_send_cookies_metadata_enabled": {
         "value": "true"
       },
@@ -2172,7 +2181,7 @@
         "value": "false"
       },
       "responsive_web_verified_organizations_new_hiring_landing_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "responsive_web_verified_organizations_new_signup_enabled": {
         "value": "true"
@@ -2331,6 +2340,9 @@
         "value": "false"
       },
       "rweb_sourcemap_migration": {
+        "value": "false"
+      },
+      "rweb_sourcemap_migration_enable_suggested_video": {
         "value": "false"
       },
       "rweb_spaces_invite_search_enabled": {
@@ -3787,9 +3799,6 @@
         "creator_subscriptions_email_share_enabled": {
           "value": "true"
         },
-        "creator_subscriptions_new_eligibility_requirements_enabled": {
-          "value": "true"
-        },
         "creator_subscriptions_quote_tweet_preview_enabled": {
           "value": "false"
         },
@@ -3981,6 +3990,12 @@
         },
         "graphql_timeline_v2_user_profile_with_replies_timeline": {
           "value": "true"
+        },
+        "grok_settings_age_restriction_enabled": {
+          "value": "false"
+        },
+        "grok_settings_restriction_age": {
+          "value": "18"
         },
         "gryphon_accountsync_polling_interval_ms": {
           "value": "300000"
@@ -5146,6 +5161,9 @@
         "responsive_web_scroller_top_positioning_enabled": {
           "value": "false"
         },
+        "responsive_web_seasonal_custom_logo": {
+          "value": "IconTwitter"
+        },
         "responsive_web_send_cookies_metadata_enabled": {
           "value": "true"
         },
@@ -5492,6 +5510,9 @@
           "value": "false"
         },
         "rweb_sourcemap_migration": {
+          "value": "false"
+        },
+        "rweb_sourcemap_migration_enable_suggested_video": {
           "value": "false"
         },
         "rweb_spaces_invite_search_enabled": {
@@ -6434,10 +6455,10 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "a2682b48928fe62f6f19e0049cc5a2c3"
+      "settingsVersion": "1ed2ed71ad76c9a81acdfbeb09897070"
     },
     "debug": {},
-    "featureSetToken": "806f599231896a6ad751507ca42df46ad4299838",
+    "featureSetToken": "b63079d7c4619db1d1f16d0065d2fdc4b92adc1b",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -6507,7 +6528,7 @@
     "country": "XX",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "173490156954102684",
+    "guestId": "173498806304994833",
     "hasCommunityMemberships": "false",
     "language": "en",
     "ssoInitTokens": {},
