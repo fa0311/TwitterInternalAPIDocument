@@ -2476,10 +2476,10 @@ Request Method: `POST`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key           | type   | variable   |
-|:--------------|:-------|:-----------|
-| content_state | ...    | i          |
-| title         | ...    | a          |
+| key                             | type    | variable   |
+|:--------------------------------|:--------|:-----------|
+| ...t                            | ...     | _          |
+| withConversationQueryHighlights | boolean | True       |
 
 #### features<br>
 | key                                                               | type    | variable   |
@@ -2848,9 +2848,10 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key     | type   | variable   |
-|:--------|:-------|:-----------|
-| note_id | ...    | t.note_id  |
+| key          | type   | variable   |
+|:-------------|:-------|:-----------|
+| listId       | ...    | t.list_id  |
+| ...()(0,d.S) | ...    | _          |
 
 #### features<br>
 | key                                                               | type    | variable   |
@@ -3667,9 +3668,9 @@ Request Method: `POST`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key      | type   | variable   |
-|:---------|:-------|:-----------|
-| tweet_id | ...    | t          |
+| key     | type   | variable   |
+|:--------|:-------|:-----------|
+| topicId | ...    | r          |
 
 #### features<br>
 `None`<br>
@@ -4241,10 +4242,13 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key         | type   | variable      |
-|:------------|:-------|:--------------|
-| tweet_id    | ...    | t.tweet_id    |
-| source_link | ...    | t.source_link |
+| key                    | type    | variable   |
+|:-----------------------|:--------|:-----------|
+| userId                 | ...     | a          |
+| count                  | ...     | t          |
+| cursor                 | ...     | r          |
+| includePromotedContent | boolean | False      |
+| ...()(0,o.d)           | ...     | _          |
 
 #### features<br>
 | key                                                                     | type    | variable   |
@@ -4415,10 +4419,9 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key             | type   | variable   |
-|:----------------|:-------|:-----------|
-| articleEntityId | ...    | i          |
-| title           | ...    | a          |
+| key    | type   | variable   |
+|:-------|:-------|:-----------|
+| cursor | ...    | t          |
 
 #### features<br>
 | key                                                                     | type    | variable   |
@@ -4469,9 +4472,9 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key   | type   | variable   |
-|:------|:-------|:-----------|
-| alias | ...    | t.alias    |
+| key           | type   | variable   |
+|:--------------|:-------|:-----------|
+| grok_share_id | ...    | t          |
 
 #### features<br>
 | key                                                                     | type    | variable   |
@@ -4622,9 +4625,9 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key             | type   | variable   |
-|:----------------|:-------|:-----------|
-| articleEntityId | ...    | i          |
+| key                        | type   | variable   |
+|:---------------------------|:-------|:-----------|
+| withCommunitiesMemberships | ...    | n.isTrue() |
 
 #### features<br>
 | key                                                               | type    | variable   |
