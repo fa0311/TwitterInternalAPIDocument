@@ -5827,7 +5827,7 @@
           "value": "https://x.com/messages/compose?recipient_id&#x3D;1399766153053061121"
         },
         "subscriptions_gifting_premium_intro_copy_enabled": {
-          "value": "true"
+          "value": "false"
         },
         "subscriptions_hide_ad_upsell_enabled": {
           "value": "true"
@@ -6455,7 +6455,7 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "55759ab63cc29dd67e4ab45582215a5e"
+      "settingsVersion": "dafcb39e0bcad575d64a843187fbc2b2"
     },
     "debug": {},
     "featureSetToken": "b63079d7c4619db1d1f16d0065d2fdc4b92adc1b",
@@ -6528,7 +6528,7 @@
     "country": "XX",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "173524718836329335",
+    "guestId": "173533364686670179",
     "hasCommunityMemberships": "false",
     "language": "en",
     "ssoInitTokens": {},
