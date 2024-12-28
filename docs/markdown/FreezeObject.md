@@ -5117,6 +5117,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | PendingTierThree                  | PendingTierThree                  |
 | PendingTierTwo                    | PendingTierTwo                    |
 | Registered                        | Registered                        |
+| RestrictedGeolocation             | RestrictedGeolocation             |
 | RestrictedUsState                 | RestrictedUsState                 |
 | TierFour                          | TierFour                          |
 | TierOne                           | TierOne                           |
@@ -5176,15 +5177,16 @@ This document is entirely auto-generated and may contain errors.<br>
 | xxxLarge   | xxxLarge |
 | xJumbo     | xJumbo   |
 
-| constant               | value                  |
-|:-----------------------|:-----------------------|
-| Cancelled              | Cancelled              |
-| InReview               | InReview               |
-| RejectedByAutoReview   | RejectedByAutoReview   |
-| RejectedByManualReview | RejectedByManualReview |
-| Returned               | Returned               |
-| ReversedByAgent        | ReversedByAgent        |
-| Unspecified            | Unspecified            |
+| constant                    | value                       |
+|:----------------------------|:----------------------------|
+| Cancelled                   | Cancelled                   |
+| InReview                    | InReview                    |
+| RejectedByAutoReview        | RejectedByAutoReview        |
+| RejectedByManualReview      | RejectedByManualReview      |
+| RejectedByUnsupportedRegion | RejectedByUnsupportedRegion |
+| Returned                    | Returned                    |
+| ReversedByAgent             | ReversedByAgent             |
+| Unspecified                 | Unspecified                 |
 
 ```internal process
 # Error
@@ -5463,6 +5465,12 @@ This document is entirely auto-generated and may contain errors.<br>
 | Pinnable    | Pinnable    |
 | Pinned      | Pinned      |
 | NotPinnable | NotPinnable |
+
+| constant   | value                                     |
+|:-----------|:------------------------------------------|
+| OVERVIEW   | {'id': 'OVERVIEW', 'label': 'Overview'}   |
+| MATCHES    | {'id': 'MATCHES', 'label': 'Matches'}     |
+| STANDINGS  | {'id': 'STANDINGS', 'label': 'Standings'} |
 
 | constant          | value             |
 |:------------------|:------------------|
