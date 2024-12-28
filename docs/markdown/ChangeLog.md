@@ -4925,3 +4925,27 @@
 - rweb_sourcemap_migration_enable_suggested_video<br>
 #### remove<br>
 - None<br>
+## 2024/12/27<br>
+### API<br>
+#### add<br>
+- BirdwatchFetchSourceLinkTweet<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- responsive_web_grok_analyze_post_followups_enabled<br>
+- responsive_web_grok_post_understanding_button_on_all_posts<br>
+- responsive_web_grok_text_upload_enabled<br>
+#### remove<br>
+- rweb_multistream_enabled<br>
+## 2024/12/28<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- responsive_web_grok_sport_cards_enabled<br>
+#### remove<br>
+- None<br>
