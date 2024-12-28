@@ -4839,6 +4839,7 @@
     "PendingTierThree": "PendingTierThree",
     "PendingTierTwo": "PendingTierTwo",
     "Registered": "Registered",
+    "RestrictedGeolocation": "RestrictedGeolocation",
     "RestrictedUsState": "RestrictedUsState",
     "TierFour": "TierFour",
     "TierOne": "TierOne",
@@ -4898,6 +4899,7 @@
     "InReview": "InReview",
     "RejectedByAutoReview": "RejectedByAutoReview",
     "RejectedByManualReview": "RejectedByManualReview",
+    "RejectedByUnsupportedRegion": "RejectedByUnsupportedRegion",
     "Returned": "Returned",
     "ReversedByAgent": "ReversedByAgent",
     "Unspecified": "Unspecified"
@@ -5154,6 +5156,20 @@
     "Pinnable": "Pinnable",
     "Pinned": "Pinned",
     "NotPinnable": "NotPinnable"
+  },
+  {
+    "OVERVIEW": {
+      "id": "OVERVIEW",
+      "label": "Overview"
+    },
+    "MATCHES": {
+      "id": "MATCHES",
+      "label": "Matches"
+    },
+    "STANDINGS": {
+      "id": "STANDINGS",
+      "label": "Standings"
+    }
   },
   {
     "ONE_TO_ONE": "ONE_TO_ONE",
