@@ -1693,6 +1693,9 @@
       "responsive_web_grok_multimedia_results": {
         "value": "false"
       },
+      "responsive_web_grok_new_year_prompts_enabled": {
+        "value": "true"
+      },
       "responsive_web_grok_opt_out_enabled": {
         "value": "true"
       },
@@ -1706,7 +1709,7 @@
         "value": "false"
       },
       "responsive_web_grok_profile_summary_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "responsive_web_grok_profile_summary_min_followers": {
         "value": "1"
@@ -4875,6 +4878,9 @@
         "responsive_web_grok_multimedia_results": {
           "value": "false"
         },
+        "responsive_web_grok_new_year_prompts_enabled": {
+          "value": "true"
+        },
         "responsive_web_grok_opt_out_enabled": {
           "value": "true"
         },
@@ -6469,10 +6475,10 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "6ab89325eec90eae742179acdb89a82e"
+      "settingsVersion": "d9d238e52607d391fe3488f527f73999"
     },
     "debug": {},
-    "featureSetToken": "696cd6a5fc0e1ecca65062c21e4b60168488c57e",
+    "featureSetToken": "d14d0e7ad833cea33ec98050b1589a85e366e517",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -6542,7 +6548,7 @@
     "country": "XX",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "173550611557601063",
+    "guestId": "173559250621663864",
     "hasCommunityMemberships": "false",
     "language": "en",
     "ssoInitTokens": {},
