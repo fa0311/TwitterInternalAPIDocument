@@ -4971,3 +4971,14 @@
 - responsive_web_grok_new_year_prompts_enabled<br>
 #### remove<br>
 - None<br>
+## 2025/01/01<br>
+### API<br>
+#### add<br>
+- BirdwatchFetchSourceLinkSlice<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- responsive_web_grok_share_attachment_enabled<br>
+#### remove<br>
+- None<br>
