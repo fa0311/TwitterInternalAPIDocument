@@ -4026,7 +4026,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## GrokConversationItemsByRestId<br>
-Request URL: `https://x.com/i/api/graphql/abGp43ZeI9-reuc6ZWlWBQ/GrokConversationItemsByRestId`<br>
+Request URL: `https://x.com/i/api/graphql/1pq9hMyv2_8IKTmTBK4KGQ/GrokConversationItemsByRestId`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -4111,7 +4111,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## GrokShare<br>
-Request URL: `https://x.com/i/api/graphql/5ig3bWFk06yjxePgOdaStA/GrokShare`<br>
+Request URL: `https://x.com/i/api/graphql/Rev4wcQfrdGaiOUs7qRofA/GrokShare`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
