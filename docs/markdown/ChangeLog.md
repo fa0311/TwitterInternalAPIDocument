@@ -4982,3 +4982,18 @@
 - responsive_web_grok_share_attachment_enabled<br>
 #### remove<br>
 - None<br>
+## 2025/01/03<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- payments_interest_enabled<br>
+- responsive_web_grok_media_carousel_enabled<br>
+- responsive_web_grok_search_summary_enabled<br>
+- rweb_analytics_video_xweb_enabled<br>
+- rweb_updated_broadcast_screen<br>
+#### remove<br>
+- None<br>
