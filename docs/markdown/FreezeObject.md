@@ -5598,7 +5598,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{[z.v.FOLLOWS]:"U",[z.v.FRIENDS_OF_FRIENDS]:"Q"}
+{[M.v.FOLLOWS]:"Q",[M.v.FRIENDS_OF_FRIENDS]:"G"}
 ```
 | constant   | value   |
 |:-----------|:--------|
