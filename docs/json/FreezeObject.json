@@ -3799,7 +3799,7 @@
     "single_line": "singleline",
     "format_inline": "format-inline"
   },
-  "{\"ActionsBar\":\"y.Z\",\"ActionMenu\":\"function()\"{\"Icon\":\"e\",\"isDisabled\":\"t\",\"items\":\"n\",\"onOpen\":\"o\"}{\"const i=r.useCallback()\"{\"items\":\"n\",\"onCloseRequested\":\"e\"}{\"Icon\":\"e\",\"isDisabled\":\"t\",\"onClick\":\"o\",\"renderActionMenu\":\"i\"}},\"CallToAction\":\"a.ZP\",\"EditCallout\":\"C.Z\",\"Education\":\"E.Z\",\"HighlightedUserLabel\":\"c.Z\",\"Media\":\"k.Z\",\"Place\":\"i.ZP\",\"PromotedDetails\":\"u.Z\",\"PromotedUserProfileCard\":\"P\",\"ReplyContext\":\"Z.ZP\",\"RichContent\":\"L.Z\",\"SocialContext\":\"g.Z\",\"Text\":\"R.Z\",\"Tombstone\":\"_.Z\",\"Timestamp\":\"p.Z\",\"UserAvatar\":\"F.Z\",\"UserFollowIndicator\":\"B.Z\",\"UserName\":\"M.Z\",\"ArticleCard\":\"v.Z\"}",
+  "{\"ActionsBar\":\"y.Z\",\"ActionMenu\":\"function()\"{\"Icon\":\"e\",\"isDisabled\":\"t\",\"items\":\"n\",\"onOpen\":\"o\"}{\"const i=r.useCallback()\"{\"items\":\"n\",\"onCloseRequested\":\"e\"}{\"Icon\":\"e\",\"isDisabled\":\"t\",\"onClick\":\"o\",\"renderActionMenu\":\"i\"}},\"CallToAction\":\"a.ZP\",\"EditCallout\":\"C.Z\",\"Education\":\"E.Z\",\"HighlightedUserLabel\":\"c.Z\",\"Media\":\"k.Z\",\"Place\":\"i.ZP\",\"PromotedDetails\":\"u.Z\",\"PromotedUserProfileCard\":\"P\",\"ReplyContext\":\"Z.ZP\",\"RichContent\":\"L.Z\",\"SocialContext\":\"g.Z\",\"Text\":\"R.Z\",\"Tombstone\":\"_.Z\",\"Timestamp\":\"p.Z\",\"UserAvatar\":\"M.Z\",\"UserFollowIndicator\":\"N.Z\",\"UserName\":\"F.Z\",\"ArticleCard\":\"v.Z\"}",
   {
     "toggleCommandCenter": "mod+k",
     "openKeyboardShortcuts": "?",
@@ -5274,7 +5274,7 @@
     "Default": "ui_defaultLabel",
     "TransparentCursor": "ui_transparentCursor"
   },
-  "{[z.v.FOLLOWS]:\"U\",[z.v.FRIENDS_OF_FRIENDS]:\"Q\"}",
+  "{[M.v.FOLLOWS]:\"Q\",[M.v.FRIENDS_OF_FRIENDS]:\"G\"}",
   {
     "Default": "Default",
     "Pivot": "Pivot",
