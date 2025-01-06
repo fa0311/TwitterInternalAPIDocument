@@ -1750,6 +1750,9 @@
       "responsive_web_grok_show_citations": {
         "value": "true"
       },
+      "responsive_web_grok_show_grok_performance_metrics": {
+        "value": "false"
+      },
       "responsive_web_grok_sport_cards_enabled": {
         "value": "false"
       },
@@ -4953,6 +4956,9 @@
         "responsive_web_grok_show_citations": {
           "value": "true"
         },
+        "responsive_web_grok_show_grok_performance_metrics": {
+          "value": "false"
+        },
         "responsive_web_grok_sport_cards_enabled": {
           "value": "false"
         },
@@ -6514,7 +6520,7 @@
       "settingsVersion": "d9d238e52607d391fe3488f527f73999"
     },
     "debug": {},
-    "featureSetToken": "9cea4b79f766da379591fe1ce8f228fb23e93410",
+    "featureSetToken": "17d44e566ecbf94a0b14da18fc67cba399e82aeb",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -6584,7 +6590,7 @@
     "country": "XX",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "173602450087665092",
+    "guestId": "173611089460382488",
     "hasCommunityMemberships": "false",
     "language": "en",
     "ssoInitTokens": {},

@@ -6473,7 +6473,7 @@
   "bb286921": "Pitäisikö tämä huomautus näyttää kaikissa julkaisussa, joissa tämä kuva esiintyy?",
   "df397f55": "Pitäisikö tämä huomautus näyttää kaikissa julkaisussa, joissa tämä media esiintyy?",
   "b936a16b": "Onko sinulla ideoita Yhteisöhuomautusten parantamiseksi? ",
-  "e77dac87": "Show {remainingCount} more post{remainingCount} cited by requestors",
+  "e77dac87": "Näytä {remainingCount} muuta pyytäjien mainitsemaa julkaisu{remainingCount}",
   "if0d6dd7": "Yhteisöhuomautusten laatijat käyttävät nimimerkkejä · ",
   "f49cbf83": "Tämä on Yhteisöhuomautusten uusi ominaisuus. {0}.",
   "a94c6db7": "Nosta arviosi vaikutus arvoon {requiredRatingImpact}. Nykyinen arvo on {currentRatingImpact}.",

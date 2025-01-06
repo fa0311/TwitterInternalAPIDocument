@@ -4997,3 +4997,14 @@
 - rweb_updated_broadcast_screen<br>
 #### remove<br>
 - None<br>
+## 2025/01/05<br>
+### API<br>
+#### add<br>
+- UniversalSearchFeedbackMutation<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- responsive_web_grok_show_grok_performance_metrics<br>
+#### remove<br>
+- None<br>
