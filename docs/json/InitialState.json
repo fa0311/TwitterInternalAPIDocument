@@ -6006,7 +6006,7 @@
           "value": ""
         },
         "subscriptions_upsells_premium_home_nav": {
-          "value": "try_premium"
+          "value": "premium_upsell_upgrade"
         },
         "subscriptions_upsells_profile_card_enabled": {
           "value": "false"
@@ -6027,7 +6027,7 @@
           "value": ""
         },
         "subscriptions_upsells_right_sidebar_variant": {
-          "value": "free_trial_premium_14_days"
+          "value": ""
         },
         "subscriptions_verification_info_is_identity_verified_enabled": {
           "value": "true"
@@ -6517,7 +6517,7 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "d9d238e52607d391fe3488f527f73999"
+      "settingsVersion": "ab4e58a396edd452d33d10aa3341a79b"
     },
     "debug": {},
     "featureSetToken": "17d44e566ecbf94a0b14da18fc67cba399e82aeb",
@@ -6590,7 +6590,7 @@
     "country": "XX",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "173611089460382488",
+    "guestId": "173619730581314014",
     "hasCommunityMemberships": "false",
     "language": "en",
     "ssoInitTokens": {},
