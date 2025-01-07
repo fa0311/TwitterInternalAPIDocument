@@ -5008,3 +5008,16 @@
 - responsive_web_grok_show_grok_performance_metrics<br>
 #### remove<br>
 - None<br>
+## 2025/01/07<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- responsive_web_grok_post_composer<br>
+- rweb_analytics_create_reply_enabled<br>
+- xprofile_section_visibility_enabled<br>
+#### remove<br>
+- None<br>
