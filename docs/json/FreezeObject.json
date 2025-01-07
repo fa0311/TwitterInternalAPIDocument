@@ -307,6 +307,7 @@
   },
   {
     "RadarPromoPage": "RadarPromoPage",
+    "MoneyInterest": "MoneyInterest",
     "EditPost": "EditPost",
     "HighlightsProfile": "HighlightsProfile",
     "ArticlesProfile": "ArticlesProfile",
@@ -565,7 +566,7 @@
   {
     "collapsed": {
       "small": "64",
-      "normal": "112"
+      "normal": "88"
     },
     "expanded": "112",
     "gutter": {
@@ -932,6 +933,7 @@
     "Spelling": "spelling",
     "ThreadHeader": "threadHeader",
     "Tile": "tile",
+    "TimelineFrame": "timelineFrame",
     "TimelineCursor": "timelineCursor",
     "TimelineModule": "timelineModule",
     "TimelinePivot": "timelinePivot",
@@ -1140,7 +1142,7 @@
     "OFF": "Off",
     "UNDETERMINED": "Undetermined"
   },
-  "{[x.DEFAULT]:\"G.UNDETERMINED\",[x.DENIED]:\"G.OFF\",[x.GRANTED]:\"G.ON\"}",
+  "{[x.DEFAULT]:\"N.UNDETERMINED\",[x.DENIED]:\"N.OFF\",[x.GRANTED]:\"N.ON\"}",
   {
     "REQUEST": "rweb/devices/REMOVE_PUSH_DESTINATION_REQUEST",
     "SUCCESS": "rweb/devices/REMOVE_PUSH_DESTINATION_SUCCESS",
@@ -1976,7 +1978,7 @@
     "appBarFirefoxBackground": "o.bs.dim(.75)"
   },
   {
-    "...D": "_",
+    "...A": "_",
     "...l()": "_",
     "text": "o.Cj",
     "navigationBackground95": "#15202B",
@@ -2076,15 +2078,15 @@
   {
     "appBarHeight": "f",
     "appBarHeightPx": "y",
-    "conversationLineWidth": "g.space2",
+    "conversationLineWidth": "D.space2",
     "gutterHorizontal": "w.space16",
-    "gutterHorizontalPx": "g.space16",
+    "gutterHorizontalPx": "D.space16",
     "gutterVertical": "w.space12",
-    "gutterVerticalPx": "g.space12"
+    "gutterVerticalPx": "D.space12"
   },
   {
     "aspectRatios": "l",
-    "baseFontSize": "S",
+    "baseFontSize": "M",
     "borderRadii": "s",
     "borderRadiiPx": "i",
     "borderWidths": "c",
@@ -2093,16 +2095,16 @@
     "componentDimensions": "v",
     "componentZIndices": "o",
     "fontSizes": "_",
-    "fontSizesPx": "M",
+    "fontSizesPx": "S",
     "fontWeights": "b",
-    "lineHeights": "D",
-    "lineHeightsPx": "A",
+    "lineHeights": "A",
+    "lineHeightsPx": "g",
     "scales": "n",
     "scaleMultiplier": "d",
     "spaces": "w",
-    "spacesPx": "g"
+    "spacesPx": "D"
   },
-  "{\"...p()\":{\"scale\":\"o\",\"scales\":\"l\"}\"an0\",A.obd,n,\"r\"}",
+  "{\"...p()\":{\"scale\":\"o\",\"scales\":\"l\"}\"an0\",g.obd,n,\"r\"}",
   {
     "Cashtag": "cashtag",
     "Hashtag": "hashtag",
@@ -3799,7 +3801,7 @@
     "single_line": "singleline",
     "format_inline": "format-inline"
   },
-  "{\"ActionsBar\":\"y.Z\",\"ActionMenu\":\"function()\"{\"Icon\":\"e\",\"isDisabled\":\"t\",\"items\":\"n\",\"onOpen\":\"o\"}{\"const i=r.useCallback()\"{\"items\":\"n\",\"onCloseRequested\":\"e\"}{\"Icon\":\"e\",\"isDisabled\":\"t\",\"onClick\":\"o\",\"renderActionMenu\":\"i\"}},\"CallToAction\":\"a.ZP\",\"EditCallout\":\"C.Z\",\"Education\":\"E.Z\",\"HighlightedUserLabel\":\"c.Z\",\"Media\":\"k.Z\",\"Place\":\"i.ZP\",\"PromotedDetails\":\"u.Z\",\"PromotedUserProfileCard\":\"P\",\"ReplyContext\":\"Z.ZP\",\"RichContent\":\"L.Z\",\"SocialContext\":\"g.Z\",\"Text\":\"R.Z\",\"Tombstone\":\"_.Z\",\"Timestamp\":\"p.Z\",\"UserAvatar\":\"M.Z\",\"UserFollowIndicator\":\"N.Z\",\"UserName\":\"F.Z\",\"ArticleCard\":\"v.Z\"}",
+  "{\"ActionsBar\":\"y.Z\",\"ActionMenu\":\"function()\"{\"Icon\":\"e\",\"isDisabled\":\"t\",\"items\":\"n\",\"onOpen\":\"o\"}{\"const i=r.useCallback()\"{\"items\":\"n\",\"onCloseRequested\":\"e\"}{\"Icon\":\"e\",\"isDisabled\":\"t\",\"onClick\":\"o\",\"renderActionMenu\":\"i\"}},\"CallToAction\":\"a.ZP\",\"EditCallout\":\"C.Z\",\"Education\":\"E.Z\",\"HighlightedUserLabel\":\"c.Z\",\"Media\":\"k.Z\",\"Place\":\"i.ZP\",\"PromotedDetails\":\"u.Z\",\"PromotedUserProfileCard\":\"P\",\"ReplyContext\":\"Z.ZP\",\"RichContent\":\"L.Z\",\"SocialContext\":\"g.Z\",\"Text\":\"R.Z\",\"Tombstone\":\"_.Z\",\"Timestamp\":\"p.Z\",\"UserAvatar\":\"F.Z\",\"UserFollowIndicator\":\"N.Z\",\"UserName\":\"M.Z\",\"ArticleCard\":\"v.Z\"}",
   {
     "toggleCommandCenter": "mod+k",
     "openKeyboardShortcuts": "?",
@@ -4091,7 +4093,7 @@
   {
     "VerificationCheck": "VerificationCheck"
   },
-  "{[G.VerificationCheck]:\"function()\"{if()throw new Error(3!==e.length);const[t,a,n]=e;return[{\"width\":\"400\",\"height\":\"200\",\"uri\":\"t\"},{\"width\":\"800\",\"height\":\"400\",\"uri\":\"a\"},{\"width\":\"1200\",\"height\":\"600\",\"uri\":\"n\"}]}\"()\"}",
+  "{[B.VerificationCheck]:\"function()\"{if()throw new Error(3!==e.length);const[t,a,n]=e;return[{\"width\":\"400\",\"height\":\"200\",\"uri\":\"t\"},{\"width\":\"800\",\"height\":\"400\",\"uri\":\"a\"},{\"width\":\"1200\",\"height\":\"600\",\"uri\":\"n\"}]}\"()\"}",
   {
     "RESIZE": "resize",
     "UPLOAD": "upload",
@@ -5268,13 +5270,13 @@
     "small": "36",
     "xSmall": "12"
   },
-  "{\"__proto__\":\"null\",\"formatCaption\":\"function()\"{\"return yl()\"},\"formatDay\":\"function()\"{\"return yl()\"},\"formatMonthCaption\":\"function()\"{\"return yl()\"},\"formatWeekNumber\":\"function()\"{return\"\".concat()},\"formatWeekdayName\":\"function()\"{\"return yl()\"},\"formatYearCaption\":\"function()\"{\"return yl()\"}}",
-  "{\"__proto__\":\"null\",\"labelDay\":\"function()\"{\"return yl()\"},\"labelMonthDropdown\":\"function()\"{return\"Month: \"},\"labelNext\":\"function()\"{return\"Go to next month\"},\"labelPrevious\":\"function()\"{return\"Go to previous month\"},\"labelWeekNumber\":\"function()\"{return\"Week n. \".concat()},\"labelWeekday\":\"function()\"{\"return yl()\"},\"labelYearDropdown\":\"function()\"{return\"Year: \"}}",
+  "{\"__proto__\":\"null\",\"formatCaption\":\"function()\"{\"return bl()\"},\"formatDay\":\"function()\"{\"return bl()\"},\"formatMonthCaption\":\"function()\"{\"return bl()\"},\"formatWeekNumber\":\"function()\"{return\"\".concat()},\"formatWeekdayName\":\"function()\"{\"return bl()\"},\"formatYearCaption\":\"function()\"{\"return bl()\"}}",
+  "{\"__proto__\":\"null\",\"labelDay\":\"function()\"{\"return bl()\"},\"labelMonthDropdown\":\"function()\"{return\"Month: \"},\"labelNext\":\"function()\"{return\"Go to next month\"},\"labelPrevious\":\"function()\"{return\"Go to previous month\"},\"labelWeekNumber\":\"function()\"{return\"Week n. \".concat()},\"labelWeekday\":\"function()\"{\"return bl()\"},\"labelYearDropdown\":\"function()\"{return\"Year: \"}}",
   {
     "Default": "ui_defaultLabel",
     "TransparentCursor": "ui_transparentCursor"
   },
-  "{[M.v.FOLLOWS]:\"Q\",[M.v.FRIENDS_OF_FRIENDS]:\"G\"}",
+  "{[$.v.FOLLOWS]:\"Q\",[$.v.FRIENDS_OF_FRIENDS]:\"U\"}",
   {
     "Default": "Default",
     "Pivot": "Pivot",
@@ -5586,11 +5588,11 @@
     "SHOP": "shop"
   },
   {
-    "SENSITIVE": "I",
-    "BLOCKED": "_",
-    "BLOCKED_BY": "f"
+    "SENSITIVE": "b",
+    "BLOCKED": "g",
+    "BLOCKED_BY": "y"
   },
-  "{[I]:\"v\",[_]:\"y\",[f]:\"k\"}",
+  "{[b]:\"v\",[g]:\"f\",[y]:\"I\"}",
   {
     "BROADCAST_MEDIA_TYPE": "broadcast",
     "VIDEO_MEDIA_TYPE": "video"
@@ -5824,39 +5826,39 @@
   },
   {
     "all": {
-      "icon": "ms",
+      "icon": "gs",
       "label": "C().i8ea6d4e"
     },
     "community": {
-      "icon": "_s",
+      "icon": "bs",
       "label": "C().a176d0d8"
     },
     "by_invitation": {
-      "icon": "ps",
+      "icon": "fs",
       "label": "C().gc7e52ca"
     },
     "subscribers": {
-      "icon": "ms",
+      "icon": "gs",
       "label": "C().feb7560a"
     },
     "community_members": {
-      "icon": "gs",
+      "icon": "ws",
       "label": "C().i13be5a0"
     },
     "super_followers_exclusive": {
-      "icon": "ms",
+      "icon": "gs",
       "label": "C().ebe1d850"
     },
     "trusted_friends_tweet": {
-      "icon": "fs",
+      "icon": "ys",
       "label": "p"
     },
     "verified": {
-      "icon": "bs",
+      "icon": "Ts",
       "label": "C().b121464a"
     },
     "premium": {
-      "icon": "bs",
+      "icon": "Ts",
       "label": "C().e69ada9e"
     }
   },
@@ -6998,7 +7000,7 @@
     "FinalConfirmationStep": "FinalConfirmationStep"
   },
   "{[_.hA.switchFromDirect]:\"m().dca6b3ac\",[_.hA.generate]:\"m().dca6b3ac\",[_.hA.updateSeats]:\"m().c97ad52a\"}",
-  "{[K.hA.generate]:\"E().fc1f43d0\",[K.hA.switchFromDirect]:\"E().fc1f43d0\",[K.hA.updateSeats]:\"E().c97ad52a\"}",
+  "{[Z.hA.generate]:\"E().fc1f43d0\",[Z.hA.switchFromDirect]:\"E().fc1f43d0\",[Z.hA.updateSeats]:\"E().c97ad52a\"}",
   {
     "FullAccess": "FullAccess",
     "FullAccessGov": "FullAccessGov",
@@ -7226,6 +7228,27 @@
     "MinRetweets": "minRetweets",
     "ReplyFilter": "replyFilter",
     "LinkFilter": "linkFilter"
+  },
+  {
+    "Canceled": "Canceled",
+    "Ended": "Ended",
+    "NotStarted": "NotStarted",
+    "PrePublished": "PrePublished",
+    "Running": "Running",
+    "TimedOut": "TimedOut"
+  },
+  {
+    "None": "0",
+    "Off": "1",
+    "Everyone": "2",
+    "VerifiedAccounts": "3",
+    "AccountsBroadcasterFollows": "4",
+    "Subscribers": "5"
+  },
+  {
+    "REQUEST": "rweb/FETCH_BROADCAST/REQUEST",
+    "SUCCESS": "rweb/FETCH_BROADCAST/SUCCESS",
+    "FAILURE": "rweb/FETCH_BROADCAST/FAILURE"
   },
   {
     "search": "search"
@@ -7711,7 +7734,7 @@
     "Speed": "Speed",
     "Quality": "Quality",
     "ReportDSA": "ReportDSA",
-    "...At": "_"
+    "...St": "_"
   },
   {
     "White": "rgba()",
@@ -7733,7 +7756,7 @@
     "Red": "rgba(255, 0, 255, 0.5)",
     "Black": "rgba(255, 0, 0, 0.5)"
   },
-  "{[At.FontColor]:{\"type\":\"At.FontColor\",\"propertyName\":\"color\",\"styleName\":\"St.Color\",\"displayName\":\"w().c2c5dea4\",\"values\":\"Vt\"},[At.FontSize]:{\"type\":\"At.FontSize\",\"propertyName\":\"font-size\",\"styleName\":\"St.FontSize\",\"displayName\":\"w().ce494bb4\",\"values\":[{\"name\":\"50%\",\"value\":\"50%\"},{\"name\":\"75%\",\"value\":\"75%\"},{\"name\":\"100%\",\"value\":\"100%\"},{\"name\":\"200%\",\"value\":\"200%\"},{\"name\":\"300%\",\"value\":\"300%\"}]},[At.FontFamily]:{\"type\":\"At.FontFamily\",\"propertyName\":\"font-family\",\"styleName\":\"St.FontFamily\",\"displayName\":\"w().ce71b3d0\",\"values\":[{\"name\":\"w().d2eb1582\",\"value\":\"\"},{\"name\":\"w().e684030e\",\"value\":\"Arial, sans-serif\",\"textStyle\":{\"fontFamily\":\"Arial, sans-serif\"}},{\"name\":\"w().jad3900c\",\"value\":'\"Times New Roman\", serif',\"textStyle\":{\"fontFamily\":'\"Times New Roman\", serif'}},{\"name\":\"w().e205f3a0\",\"value\":'\"Courier New\", monospace',\"textStyle\":{\"fontFamily\":'\"Courier New\", monospace'}}]},[At.TextOpacity]:{\"type\":\"At.TextOpacity\",\"propertyName\":\"color\",\"styleName\":\"St.Color\",\"displayName\":\"w().d207d39a\",\"values\":[{\"name\":\"50%\",\"value\":\"0.5\",\"isEqual\":\"Zt()\"},{\"name\":\"75%\",\"value\":\"0.75\",\"isEqual\":\"Zt()\"},{\"name\":\"100%\",\"value\":\"1.0\",\"isEqual\":\"Zt()\"}]},[At.BackgroundColor]:{\"type\":\"At.BackgroundColor\",\"propertyName\":\"background\",\"styleName\":\"St.BackgroundColor\",\"displayName\":\"w().a562039c\",\"values\":\"$t\"},[At.BackgroundOpacity]:{\"type\":\"At.BackgroundOpacity\",\"propertyName\":\"background\",\"styleName\":\"St.BackgroundColor\",\"displayName\":\"w().h44e879e\",\"values\":[{\"name\":\"25%\",\"value\":\"0.25\",\"isEqual\":\"_t()\"},{\"name\":\"50%\",\"value\":\"0.5\",\"isEqual\":\"_t()\"},{\"name\":\"75%\",\"value\":\"0.75\",\"isEqual\":\"_t()\"},{\"name\":\"100%\",\"value\":\"1.0\",\"isEqual\":\"_t()\"}]}}",
+  "{[St.FontColor]:{\"type\":\"St.FontColor\",\"propertyName\":\"color\",\"styleName\":\"At.Color\",\"displayName\":\"w().c2c5dea4\",\"values\":\"Vt\"},[St.FontSize]:{\"type\":\"St.FontSize\",\"propertyName\":\"font-size\",\"styleName\":\"At.FontSize\",\"displayName\":\"w().ce494bb4\",\"values\":[{\"name\":\"50%\",\"value\":\"50%\"},{\"name\":\"75%\",\"value\":\"75%\"},{\"name\":\"100%\",\"value\":\"100%\"},{\"name\":\"200%\",\"value\":\"200%\"},{\"name\":\"300%\",\"value\":\"300%\"}]},[St.FontFamily]:{\"type\":\"St.FontFamily\",\"propertyName\":\"font-family\",\"styleName\":\"At.FontFamily\",\"displayName\":\"w().ce71b3d0\",\"values\":[{\"name\":\"w().d2eb1582\",\"value\":\"\"},{\"name\":\"w().e684030e\",\"value\":\"Arial, sans-serif\",\"textStyle\":{\"fontFamily\":\"Arial, sans-serif\"}},{\"name\":\"w().jad3900c\",\"value\":'\"Times New Roman\", serif',\"textStyle\":{\"fontFamily\":'\"Times New Roman\", serif'}},{\"name\":\"w().e205f3a0\",\"value\":'\"Courier New\", monospace',\"textStyle\":{\"fontFamily\":'\"Courier New\", monospace'}}]},[St.TextOpacity]:{\"type\":\"St.TextOpacity\",\"propertyName\":\"color\",\"styleName\":\"At.Color\",\"displayName\":\"w().d207d39a\",\"values\":[{\"name\":\"50%\",\"value\":\"0.5\",\"isEqual\":\"Zt()\"},{\"name\":\"75%\",\"value\":\"0.75\",\"isEqual\":\"Zt()\"},{\"name\":\"100%\",\"value\":\"1.0\",\"isEqual\":\"Zt()\"}]},[St.BackgroundColor]:{\"type\":\"St.BackgroundColor\",\"propertyName\":\"background\",\"styleName\":\"At.BackgroundColor\",\"displayName\":\"w().a562039c\",\"values\":\"$t\"},[St.BackgroundOpacity]:{\"type\":\"St.BackgroundOpacity\",\"propertyName\":\"background\",\"styleName\":\"At.BackgroundColor\",\"displayName\":\"w().h44e879e\",\"values\":[{\"name\":\"25%\",\"value\":\"0.25\",\"isEqual\":\"_t()\"},{\"name\":\"50%\",\"value\":\"0.5\",\"isEqual\":\"_t()\"},{\"name\":\"75%\",\"value\":\"0.75\",\"isEqual\":\"_t()\"},{\"name\":\"100%\",\"value\":\"1.0\",\"isEqual\":\"_t()\"}]}}",
   {
     "follow": "follow",
     "like": "like",

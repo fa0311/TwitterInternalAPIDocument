@@ -3750,3 +3750,16 @@
 - rweb_updated_broadcast_screen<br>
 #### remove<br>
 - rweb_multistream_enabled<br>
+## 2025/01/07<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- responsive_web_grok_post_composer<br>
+- rweb_analytics_create_reply_enabled<br>
+- xprofile_section_visibility_enabled<br>
+#### remove<br>
+- None<br>
