@@ -4661,9 +4661,15 @@
       "method": "POST",
       "features": {}
     },
+    "CommunityBoostCreateRating": {
+      "url": "https://x.com/i/api/graphql/k1gINntkffB5NvtVgJBFKw/CommunityBoostCreateRating",
+      "queryId": "k1gINntkffB5NvtVgJBFKw",
+      "method": "POST",
+      "features": {}
+    },
     "CommunityBoostFetchPivot": {
-      "url": "https://x.com/i/api/graphql/t0_3zSCtWe3jLiF5PQL4lw/CommunityBoostFetchPivot",
-      "queryId": "t0_3zSCtWe3jLiF5PQL4lw",
+      "url": "https://x.com/i/api/graphql/ob-WH21vXAVZP7S4JwqN1Q/CommunityBoostFetchPivot",
+      "queryId": "ob-WH21vXAVZP7S4JwqN1Q",
       "method": "GET",
       "features": {}
     },
