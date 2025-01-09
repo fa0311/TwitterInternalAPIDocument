@@ -3774,3 +3774,17 @@
 - responsive_web_grok_location_enabled<br>
 #### remove<br>
 - None<br>
+## 2025/01/09<br>
+### API<br>
+#### add<br>
+- CommunityBoostDeleteRating<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- responsive_web_jetfuel_frame<br>
+- responsive_web_verified_organizations_people_search_follow_enabled<br>
+- subscriptions_management_renew_module_api_enabled<br>
+- subscriptions_management_renew_module_enabled<br>
+#### remove<br>
+- None<br>
