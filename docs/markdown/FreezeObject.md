@@ -533,12 +533,12 @@ This document is entirely auto-generated and may contain errors.<br>
 | wide       | 700                                                                                 |
 | secondary  | {'small': '290', 'normal': '350', 'wide': '350'}                                    |
 
-| constant   | value                                                                               |
-|:-----------|:------------------------------------------------------------------------------------|
-| gutter     | {'left': {'small': '32', 'normal': '32'}, 'right': {'normal': '32', 'large': '32'}} |
-| primary    | 712                                                                                 |
-| wide       | 712                                                                                 |
-| secondary  | {'small': '300', 'normal': '300', 'wide': '600'}                                    |
+| constant   | value                                                                           |
+|:-----------|:--------------------------------------------------------------------------------|
+| gutter     | {'left': {'small': '0', 'normal': '0'}, 'right': {'normal': '0', 'large': '0'}} |
+| primary    | 752                                                                             |
+| wide       | 752                                                                             |
+| secondary  | {'small': '420', 'normal': '420', 'wide': '420'}                                |
 
 | constant   | value                           |
 |:-----------|:--------------------------------|
@@ -5106,6 +5106,8 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant                          | value                             |
 |:----------------------------------|:----------------------------------|
+| BasicApy                          | BasicApy                          |
+| BoostedApy                        | BoostedApy                        |
 | DepositOnly                       | DepositOnly                       |
 | Frozen                            | Frozen                            |
 | Ineligible                        | Ineligible                        |
@@ -5478,11 +5480,11 @@ This document is entirely auto-generated and may contain errors.<br>
 | Pinned      | Pinned      |
 | NotPinnable | NotPinnable |
 
-| constant   | value                                     |
-|:-----------|:------------------------------------------|
-| OVERVIEW   | {'id': 'OVERVIEW', 'label': 'Overview'}   |
-| MATCHES    | {'id': 'GAMES', 'label': 'Games'}         |
-| STANDINGS  | {'id': 'STANDINGS', 'label': 'Standings'} |
+| constant   | value                                        |
+|:-----------|:---------------------------------------------|
+| OVERVIEW   | {'id': 'OVERVIEW', 'label': 'c().d59dbf8a'}  |
+| MATCHES    | {'id': 'GAMES', 'label': 'c().e2811afc'}     |
+| STANDINGS  | {'id': 'STANDINGS', 'label': 'c().j081fa34'} |
 
 | constant          | value             |
 |:------------------|:------------------|
@@ -5590,11 +5592,11 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{"__proto__":"null","formatCaption":"function()"{"return bl()"},"formatDay":"function()"{"return bl()"},"formatMonthCaption":"function()"{"return bl()"},"formatWeekNumber":"function()"{return"".concat()},"formatWeekdayName":"function()"{"return bl()"},"formatYearCaption":"function()"{"return bl()"}}
+{"__proto__":"null","formatCaption":"function()"{"return jl()"},"formatDay":"function()"{"return jl()"},"formatMonthCaption":"function()"{"return jl()"},"formatWeekNumber":"function()"{return"".concat()},"formatWeekdayName":"function()"{"return jl()"},"formatYearCaption":"function()"{"return jl()"}}
 ```
 ```internal process
 # Error
-{"__proto__":"null","labelDay":"function()"{"return bl()"},"labelMonthDropdown":"function()"{return"Month: "},"labelNext":"function()"{return"Go to next month"},"labelPrevious":"function()"{return"Go to previous month"},"labelWeekNumber":"function()"{return"Week n. ".concat()},"labelWeekday":"functi...
+{"__proto__":"null","labelDay":"function()"{"return jl()"},"labelMonthDropdown":"function()"{return"Month: "},"labelNext":"function()"{return"Go to next month"},"labelPrevious":"function()"{return"Go to previous month"},"labelWeekNumber":"function()"{return"Week n. ".concat()},"labelWeekday":"functi...
 ```
 | constant          | value                |
 |:------------------|:---------------------|
@@ -6226,6 +6228,12 @@ This document is entirely auto-generated and may contain errors.<br>
 | REQUEST    | rweb/communityBoost/CREATE_COMMUNITYBOOST_PIVOT_RATING_REQUEST |
 | SUCCESS    | rweb/communityBoost/CREATE_COMMUNITYBOOST_PIVOT_RATING_SUCCESS |
 | FAILURE    | rweb/communityBoost/CREATE_COMMUNITYBOOST_PIVOT_RATING_FAILURE |
+
+| constant   | value                                                          |
+|:-----------|:---------------------------------------------------------------|
+| REQUEST    | rweb/communityBoost/DELETE_COMMUNITYBOOST_PIVOT_RATING_REQUEST |
+| SUCCESS    | rweb/communityBoost/DELETE_COMMUNITYBOOST_PIVOT_RATING_SUCCESS |
+| FAILURE    | rweb/communityBoost/DELETE_COMMUNITYBOOST_PIVOT_RATING_FAILURE |
 
 | constant       | value          |
 |:---------------|:---------------|
