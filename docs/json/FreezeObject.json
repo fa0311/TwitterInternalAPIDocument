@@ -535,20 +535,20 @@
   {
     "gutter": {
       "left": {
-        "small": "32",
-        "normal": "32"
+        "small": "0",
+        "normal": "0"
       },
       "right": {
-        "normal": "32",
-        "large": "32"
+        "normal": "0",
+        "large": "0"
       }
     },
-    "primary": "712",
-    "wide": "712",
+    "primary": "752",
+    "wide": "752",
     "secondary": {
-      "small": "300",
-      "normal": "300",
-      "wide": "600"
+      "small": "420",
+      "normal": "420",
+      "wide": "420"
     }
   },
   {
@@ -4838,6 +4838,8 @@
     "FAILED": "4"
   },
   {
+    "BasicApy": "BasicApy",
+    "BoostedApy": "BoostedApy",
     "DepositOnly": "DepositOnly",
     "Frozen": "Frozen",
     "Ineligible": "Ineligible",
@@ -5181,15 +5183,15 @@
   {
     "OVERVIEW": {
       "id": "OVERVIEW",
-      "label": "Overview"
+      "label": "c().d59dbf8a"
     },
     "MATCHES": {
       "id": "GAMES",
-      "label": "Games"
+      "label": "c().e2811afc"
     },
     "STANDINGS": {
       "id": "STANDINGS",
-      "label": "Standings"
+      "label": "c().j081fa34"
     }
   },
   {
@@ -5283,8 +5285,8 @@
     "small": "36",
     "xSmall": "12"
   },
-  "{\"__proto__\":\"null\",\"formatCaption\":\"function()\"{\"return bl()\"},\"formatDay\":\"function()\"{\"return bl()\"},\"formatMonthCaption\":\"function()\"{\"return bl()\"},\"formatWeekNumber\":\"function()\"{return\"\".concat()},\"formatWeekdayName\":\"function()\"{\"return bl()\"},\"formatYearCaption\":\"function()\"{\"return bl()\"}}",
-  "{\"__proto__\":\"null\",\"labelDay\":\"function()\"{\"return bl()\"},\"labelMonthDropdown\":\"function()\"{return\"Month: \"},\"labelNext\":\"function()\"{return\"Go to next month\"},\"labelPrevious\":\"function()\"{return\"Go to previous month\"},\"labelWeekNumber\":\"function()\"{return\"Week n. \".concat()},\"labelWeekday\":\"function()\"{\"return bl()\"},\"labelYearDropdown\":\"function()\"{return\"Year: \"}}",
+  "{\"__proto__\":\"null\",\"formatCaption\":\"function()\"{\"return jl()\"},\"formatDay\":\"function()\"{\"return jl()\"},\"formatMonthCaption\":\"function()\"{\"return jl()\"},\"formatWeekNumber\":\"function()\"{return\"\".concat()},\"formatWeekdayName\":\"function()\"{\"return jl()\"},\"formatYearCaption\":\"function()\"{\"return jl()\"}}",
+  "{\"__proto__\":\"null\",\"labelDay\":\"function()\"{\"return jl()\"},\"labelMonthDropdown\":\"function()\"{return\"Month: \"},\"labelNext\":\"function()\"{return\"Go to next month\"},\"labelPrevious\":\"function()\"{return\"Go to previous month\"},\"labelWeekNumber\":\"function()\"{return\"Week n. \".concat()},\"labelWeekday\":\"function()\"{\"return jl()\"},\"labelYearDropdown\":\"function()\"{return\"Year: \"}}",
   {
     "Default": "ui_defaultLabel",
     "TransparentCursor": "ui_transparentCursor"
@@ -5824,6 +5826,11 @@
     "REQUEST": "rweb/communityBoost/CREATE_COMMUNITYBOOST_PIVOT_RATING_REQUEST",
     "SUCCESS": "rweb/communityBoost/CREATE_COMMUNITYBOOST_PIVOT_RATING_SUCCESS",
     "FAILURE": "rweb/communityBoost/CREATE_COMMUNITYBOOST_PIVOT_RATING_FAILURE"
+  },
+  {
+    "REQUEST": "rweb/communityBoost/DELETE_COMMUNITYBOOST_PIVOT_RATING_REQUEST",
+    "SUCCESS": "rweb/communityBoost/DELETE_COMMUNITYBOOST_PIVOT_RATING_SUCCESS",
+    "FAILURE": "rweb/communityBoost/DELETE_COMMUNITYBOOST_PIVOT_RATING_FAILURE"
   },
   {
     "Notes": "Notes",

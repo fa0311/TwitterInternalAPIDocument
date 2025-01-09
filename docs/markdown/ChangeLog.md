@@ -5035,3 +5035,15 @@
 - subscriptions_management_renew_module_enabled<br>
 #### remove<br>
 - None<br>
+## 2025/01/09<br>
+### API<br>
+#### add<br>
+- SupportedLanguages<br>
+- CommunityBoostDeleteRating<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- responsive_web_jetfuel_frame<br>
+#### remove<br>
+- None<br>
