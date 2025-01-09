@@ -3763,3 +3763,14 @@
 - xprofile_section_visibility_enabled<br>
 #### remove<br>
 - None<br>
+## 2025/01/08<br>
+### API<br>
+#### add<br>
+- CommunityBoostCreateRating<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- responsive_web_grok_location_enabled<br>
+#### remove<br>
+- None<br>
