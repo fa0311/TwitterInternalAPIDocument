@@ -1263,7 +1263,7 @@ This document is entirely auto-generated and may contain errors.<br>
 ```
 | constant         | value          |
 |:-----------------|:---------------|
-| fetchStatus      | _.ZP.NONE      |
+| fetchStatus      | M.ZP.NONE      |
 | selectedTimeline | r.oO           |
 | sort             | r.UO.RELEVANCE |
 | timelines        | []             |
@@ -2062,7 +2062,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | constant            | value   |
 |:--------------------|:--------|
 | aspectRatios        | l       |
-| baseFontSize        | M       |
+| baseFontSize        | _       |
 | borderRadii         | s       |
 | borderRadiiPx       | i       |
 | borderWidths        | c       |
@@ -2070,7 +2070,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | breakpoints         | a       |
 | componentDimensions | v       |
 | componentZIndices   | o       |
-| fontSizes           | _       |
+| fontSizes           | M       |
 | fontSizesPx         | S       |
 | fontWeights         | b       |
 | lineHeights         | A       |
@@ -2162,7 +2162,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{[L.Q.host]:{"title":"W.hostTitle","maybePluralFormatter":"$"},[L.Q.cohost]:{"title":"W.cohostTitle","maybePluralFormatter":"G"},[L.Q.speaker]:{"title":"W.speakerTitle","maybePluralFormatter":"K"},[L.Q.listener]:{"title":"W.listenerTitle","maybePluralFormatter":"J"}}
+{[L.Q.host]:{"title":"W.hostTitle","maybePluralFormatter":"$"},[L.Q.cohost]:{"title":"W.cohostTitle","maybePluralFormatter":"G"},[L.Q.speaker]:{"title":"W.speakerTitle","maybePluralFormatter":"K"},[L.Q.listener]:{"title":"W.listenerTitle","maybePluralFormatter":"Y"}}
 ```
 | constant    | value        |
 |:------------|:-------------|
@@ -2817,17 +2817,17 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant      | value        |
 |:--------------|:-------------|
-| superFollower | m().fc065ee4 |
+| superFollower | u().fc065ee4 |
 
 | constant      | value                                                                                                                                                                                                                  |
 |:--------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| superFollower | {'graphic': 'p.default', 'headline': 'm().e453f536', 'subtext': 'm().bd4cb7a0', 'actionLabel': 'm().g7099a02', 'actionLink': 'https://help.x.com/using-twitter/subscriptions', 'secondaryActionLabel': 'm().c2637ef6'} |
+| superFollower | {'graphic': 'h.default', 'headline': 'u().e453f536', 'subtext': 'u().bd4cb7a0', 'actionLabel': 'u().g7099a02', 'actionLink': 'https://help.x.com/using-twitter/subscriptions', 'secondaryActionLabel': 'u().c2637ef6'} |
 
 | constant        | value        |
 |:----------------|:-------------|
-| followsYou      | m().efb17190 |
-| superFollowsYou | m().g57b5f6c |
-| superFollower   | m().a77a27c0 |
+| followsYou      | u().efb17190 |
+| superFollowsYou | u().g57b5f6c |
+| superFollower   | u().a77a27c0 |
 
 | constant        | value   |
 |:----------------|:--------|
@@ -4213,7 +4213,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{"data":{"lists":[]},"error":"null","fetchStatus":{[s.Yj.BOTTOM]:"d.ZP.NONE",[s.Yj.TOP]:"d.ZP.NONE"}}
+{"data":{"lists":[]},"error":"null","fetchStatus":{[s.Yj.BOTTOM]:"i.ZP.NONE",[s.Yj.TOP]:"i.ZP.NONE"}}
 ```
 | constant   | value                            |
 |:-----------|:---------------------------------|
@@ -4844,11 +4844,11 @@ This document is entirely auto-generated and may contain errors.<br>
 
 |   constant | value               |
 |-----------:|:--------------------|
-|          0 | f.INTERNAL_ERROR    |
-|          1 | f.INVALID_MEDIA     |
-|          2 | f.FILE_TOO_LARGE    |
-|          3 | f.UNSUPPORTED_MEDIA |
-|          4 | f.TIMEOUT           |
+|          0 | g.INTERNAL_ERROR    |
+|          1 | g.INVALID_MEDIA     |
+|          2 | g.FILE_TOO_LARGE    |
+|          3 | g.UNSUPPORTED_MEDIA |
+|          4 | g.TIMEOUT           |
 
 | constant   |   value |
 |:-----------|--------:|
@@ -6757,7 +6757,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{"data":{"lists":[]},"error":"null","fetchStatus":{[s.Yj.BOTTOM]:"l.ZP.NONE",[s.Yj.TOP]:"l.ZP.NONE"}}
+{"data":{"lists":[]},"error":"null","fetchStatus":{[s.Yj.BOTTOM]:"i.ZP.NONE",[s.Yj.TOP]:"i.ZP.NONE"}}
 ```
 | constant            | value               |
 |:--------------------|:--------------------|
