@@ -5058,3 +5058,14 @@
 - responsive_web_grok_search_summary_images_enabled<br>
 #### remove<br>
 - rweb_scheduled_spaces_enabled<br>
+## 2025/01/11<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- responsive_web_grok_api_enable_grok_host<br>
+#### remove<br>
+- responsive_web_grok_new_year_prompts_enabled<br>
