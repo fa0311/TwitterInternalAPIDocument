@@ -1237,7 +1237,7 @@
   },
   "{[s.HOME]:\"home\",[s.HOME_LATEST]:\"latest\",[s.LIST]:\"pinned_list\",[s.CREATOR_SUBSCRIPTIONS]:\"subscribed\",[s.COMMUNITY]:\"community\",[s.GENERIC]:\"generic\"}",
   {
-    "fetchStatus": "_.ZP.NONE",
+    "fetchStatus": "M.ZP.NONE",
     "selectedTimeline": "r.oO",
     "sort": "r.UO.RELEVANCE",
     "timelines": []
@@ -2099,7 +2099,7 @@
   },
   {
     "aspectRatios": "l",
-    "baseFontSize": "M",
+    "baseFontSize": "_",
     "borderRadii": "s",
     "borderRadiiPx": "i",
     "borderWidths": "c",
@@ -2107,7 +2107,7 @@
     "breakpoints": "a",
     "componentDimensions": "v",
     "componentZIndices": "o",
-    "fontSizes": "_",
+    "fontSizes": "M",
     "fontSizesPx": "S",
     "fontWeights": "b",
     "lineHeights": "A",
@@ -2179,7 +2179,7 @@
     "report": "report",
     "createClip": "create-clip"
   },
-  "{[L.Q.host]:{\"title\":\"W.hostTitle\",\"maybePluralFormatter\":\"$\"},[L.Q.cohost]:{\"title\":\"W.cohostTitle\",\"maybePluralFormatter\":\"G\"},[L.Q.speaker]:{\"title\":\"W.speakerTitle\",\"maybePluralFormatter\":\"K\"},[L.Q.listener]:{\"title\":\"W.listenerTitle\",\"maybePluralFormatter\":\"J\"}}",
+  "{[L.Q.host]:{\"title\":\"W.hostTitle\",\"maybePluralFormatter\":\"$\"},[L.Q.cohost]:{\"title\":\"W.cohostTitle\",\"maybePluralFormatter\":\"G\"},[L.Q.speaker]:{\"title\":\"W.speakerTitle\",\"maybePluralFormatter\":\"K\"},[L.Q.listener]:{\"title\":\"W.listenerTitle\",\"maybePluralFormatter\":\"Y\"}}",
   {
     "joinSpace": "c().h400d7c2",
     "replaySpace": "c().g66c8348",
@@ -2765,22 +2765,22 @@
     "AUDIO_SPACE": "audio_space"
   },
   {
-    "superFollower": "m().fc065ee4"
+    "superFollower": "u().fc065ee4"
   },
   {
     "superFollower": {
-      "graphic": "p.default",
-      "headline": "m().e453f536",
-      "subtext": "m().bd4cb7a0",
-      "actionLabel": "m().g7099a02",
+      "graphic": "h.default",
+      "headline": "u().e453f536",
+      "subtext": "u().bd4cb7a0",
+      "actionLabel": "u().g7099a02",
       "actionLink": "https://help.x.com/using-twitter/subscriptions",
-      "secondaryActionLabel": "m().c2637ef6"
+      "secondaryActionLabel": "u().c2637ef6"
     }
   },
   {
-    "followsYou": "m().efb17190",
-    "superFollowsYou": "m().g57b5f6c",
-    "superFollower": "m().a77a27c0"
+    "followsYou": "u().efb17190",
+    "superFollowsYou": "u().g57b5f6c",
+    "superFollower": "u().a77a27c0"
   },
   {
     "followsYou": "gray700",
@@ -4048,7 +4048,7 @@
     "SUCCESS": "rweb/lists/FETCH_LISTMEMBERSHIPS_SUCCESS",
     "FAILURE": "rweb/lists/FETCH_LISTMEMBERSHIPS_FAILURE"
   },
-  "{\"data\":{\"lists\":[]},\"error\":\"null\",\"fetchStatus\":{[s.Yj.BOTTOM]:\"d.ZP.NONE\",[s.Yj.TOP]:\"d.ZP.NONE\"}}",
+  "{\"data\":{\"lists\":[]},\"error\":\"null\",\"fetchStatus\":{[s.Yj.BOTTOM]:\"i.ZP.NONE\",[s.Yj.TOP]:\"i.ZP.NONE\"}}",
   {
     "REQUEST": "rweb/FETCH_TV_HOME_MIXER/REQUEST",
     "SUCCESS": "rweb/FETCH_TV_HOME_MIXER/SUCCESS",
@@ -4606,11 +4606,11 @@
     "INVALID_RES_STATUS": -1
   },
   {
-    "0": "f.INTERNAL_ERROR",
-    "1": "f.INVALID_MEDIA",
-    "2": "f.FILE_TOO_LARGE",
-    "3": "f.UNSUPPORTED_MEDIA",
-    "4": "f.TIMEOUT"
+    "0": "g.INTERNAL_ERROR",
+    "1": "g.INVALID_MEDIA",
+    "2": "g.FILE_TOO_LARGE",
+    "3": "g.UNSUPPORTED_MEDIA",
+    "4": "g.TIMEOUT"
   },
   {
     "RESET": "0",
@@ -6288,7 +6288,7 @@
     "SUCCESS": "rweb/lists/FETCH_LISTMEMBERSHIPS_SUCCESS",
     "FAILURE": "rweb/lists/FETCH_LISTMEMBERSHIPS_FAILURE"
   },
-  "{\"data\":{\"lists\":[]},\"error\":\"null\",\"fetchStatus\":{[s.Yj.BOTTOM]:\"l.ZP.NONE\",[s.Yj.TOP]:\"l.ZP.NONE\"}}",
+  "{\"data\":{\"lists\":[]},\"error\":\"null\",\"fetchStatus\":{[s.Yj.BOTTOM]:\"i.ZP.NONE\",[s.Yj.TOP]:\"i.ZP.NONE\"}}",
   {
     "pinnedLists": "pinnedLists",
     "ownedSubscribedList": "ownedSubscribedList"
