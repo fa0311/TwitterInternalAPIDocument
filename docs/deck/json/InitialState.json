@@ -6572,20 +6572,10 @@
           "value": "true"
         }
       },
-      "impression_pointers": {
-        "responsive_web_logged_out_read_replies_pivot_enabled": [
-          "logged_out_read_replies_pivot_17075"
-        ]
-      },
-      "impressions": {
-        "logged_out_read_replies_pivot_17075": {
-          "key": "logged_out_read_replies_pivot_17075",
-          "bucket": "treatment",
-          "version": "2"
-        }
-      },
+      "impression_pointers": {},
+      "impressions": {},
       "keysRead": {},
-      "settingsVersion": "2cf61b1add8e28291a50031cf3536156"
+      "settingsVersion": "c96e724fd70a34aa5a0148cccf2a0566"
     },
     "debug": {},
     "featureSetToken": "9b57fe8e97c91c90fd006d761af649fb4042c34e",
@@ -6658,7 +6648,7 @@
     "country": "XX",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "173662978821228706",
+    "guestId": "173671612855073425",
     "hasCommunityMemberships": "false",
     "language": "en",
     "ssoInitTokens": {},
