@@ -1263,7 +1263,7 @@ This document is entirely auto-generated and may contain errors.<br>
 ```
 | constant         | value          |
 |:-----------------|:---------------|
-| fetchStatus      | M.ZP.NONE      |
+| fetchStatus      | _.ZP.NONE      |
 | selectedTimeline | r.oO           |
 | sort             | r.UO.RELEVANCE |
 | timelines        | []             |
@@ -2062,7 +2062,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | constant            | value   |
 |:--------------------|:--------|
 | aspectRatios        | l       |
-| baseFontSize        | _       |
+| baseFontSize        | M       |
 | borderRadii         | s       |
 | borderRadiiPx       | i       |
 | borderWidths        | c       |
@@ -2070,7 +2070,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | breakpoints         | a       |
 | componentDimensions | v       |
 | componentZIndices   | o       |
-| fontSizes           | M       |
+| fontSizes           | _       |
 | fontSizesPx         | S       |
 | fontWeights         | b       |
 | lineHeights         | A       |
