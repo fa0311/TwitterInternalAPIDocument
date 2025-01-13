@@ -1237,7 +1237,7 @@
   },
   "{[s.HOME]:\"home\",[s.HOME_LATEST]:\"latest\",[s.LIST]:\"pinned_list\",[s.CREATOR_SUBSCRIPTIONS]:\"subscribed\",[s.COMMUNITY]:\"community\",[s.GENERIC]:\"generic\"}",
   {
-    "fetchStatus": "M.ZP.NONE",
+    "fetchStatus": "_.ZP.NONE",
     "selectedTimeline": "r.oO",
     "sort": "r.UO.RELEVANCE",
     "timelines": []
@@ -2099,7 +2099,7 @@
   },
   {
     "aspectRatios": "l",
-    "baseFontSize": "_",
+    "baseFontSize": "M",
     "borderRadii": "s",
     "borderRadiiPx": "i",
     "borderWidths": "c",
@@ -2107,7 +2107,7 @@
     "breakpoints": "a",
     "componentDimensions": "v",
     "componentZIndices": "o",
-    "fontSizes": "M",
+    "fontSizes": "_",
     "fontSizesPx": "S",
     "fontWeights": "b",
     "lineHeights": "A",
