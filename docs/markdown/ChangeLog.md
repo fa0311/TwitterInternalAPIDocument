@@ -5069,3 +5069,14 @@
 - responsive_web_grok_api_enable_grok_host<br>
 #### remove<br>
 - responsive_web_grok_new_year_prompts_enabled<br>
+## 2025/01/13<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- subscriptions_upsells_vo_nav_decoration_enabled<br>
+#### remove<br>
+- None<br>
