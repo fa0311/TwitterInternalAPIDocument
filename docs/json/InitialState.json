@@ -1721,10 +1721,10 @@
         "value": "false"
       },
       "responsive_web_grok_profile_summary_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "responsive_web_grok_profile_summary_min_followers": {
-        "value": "1"
+        "value": "200"
       },
       "responsive_web_grok_profile_summary_min_posts": {
         "value": "30"
@@ -2309,7 +2309,7 @@
         "value": "true"
       },
       "rweb_analytics_video_xweb_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "rweb_client_transaction_id_enabled": {
         "value": "false"
@@ -2843,6 +2843,9 @@
       },
       "subscriptions_upsells_right_sidebar_variant": {
         "value": ""
+      },
+      "subscriptions_upsells_vo_nav_decoration_enabled": {
+        "value": "false"
       },
       "subscriptions_verification_info_is_identity_verified_enabled": {
         "value": "true"
@@ -4951,10 +4954,10 @@
           "value": "false"
         },
         "responsive_web_grok_profile_summary_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "responsive_web_grok_profile_summary_min_followers": {
-          "value": "1"
+          "value": "200"
         },
         "responsive_web_grok_profile_summary_min_posts": {
           "value": "30"
@@ -6074,6 +6077,9 @@
         "subscriptions_upsells_right_sidebar_variant": {
           "value": ""
         },
+        "subscriptions_upsells_vo_nav_decoration_enabled": {
+          "value": "false"
+        },
         "subscriptions_verification_info_is_identity_verified_enabled": {
           "value": "true"
         },
@@ -6565,10 +6571,10 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "cd8b60b8bf753509e7528ca8f2866411"
+      "settingsVersion": "d32042f05f66fe369c41370d865198d9"
     },
     "debug": {},
-    "featureSetToken": "309da010ff665103a46bf23a093d25dc4644f6a9",
+    "featureSetToken": "068a67fcdd4ecef151f832cff4fb4206f898f2ef",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -6638,7 +6644,7 @@
     "country": "XX",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "173671570025286419",
+    "guestId": "173680209730258270",
     "hasCommunityMemberships": "false",
     "language": "en",
     "ssoInitTokens": {},
