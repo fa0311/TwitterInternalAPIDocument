@@ -812,7 +812,7 @@
         "value": "true"
       },
       "grok_settings_age_restriction_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "grok_settings_restriction_age": {
         "value": "18"
@@ -1672,6 +1672,9 @@
       "responsive_web_grok_file_upload_enabled": {
         "value": "true"
       },
+      "responsive_web_grok_finance_cards_enabled": {
+        "value": "false"
+      },
       "responsive_web_grok_focus_mode": {
         "value": "true"
       },
@@ -2220,6 +2223,9 @@
       },
       "responsive_web_verified_organizations_new_signup_enabled": {
         "value": "true"
+      },
+      "responsive_web_verified_organizations_new_year_offer_enabled": {
+        "value": "false"
       },
       "responsive_web_verified_organizations_paid_to_invoice_enabled": {
         "value": "false"
@@ -4045,7 +4051,7 @@
           "value": "true"
         },
         "grok_settings_age_restriction_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "grok_settings_restriction_age": {
           "value": "18"
@@ -4905,6 +4911,9 @@
         "responsive_web_grok_file_upload_enabled": {
           "value": "true"
         },
+        "responsive_web_grok_finance_cards_enabled": {
+          "value": "false"
+        },
         "responsive_web_grok_focus_mode": {
           "value": "true"
         },
@@ -5452,6 +5461,9 @@
           "value": "true"
         },
         "responsive_web_verified_organizations_new_signup_enabled": {
+          "value": "true"
+        },
+        "responsive_web_verified_organizations_new_year_offer_enabled": {
           "value": "true"
         },
         "responsive_web_verified_organizations_paid_to_invoice_enabled": {
@@ -6571,10 +6583,10 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "d32042f05f66fe369c41370d865198d9"
+      "settingsVersion": "494715505dd93b72b533dd6c07b1f704"
     },
     "debug": {},
-    "featureSetToken": "068a67fcdd4ecef151f832cff4fb4206f898f2ef",
+    "featureSetToken": "97d9e58f19c070034d063b07fb77e66fd45a1a1c",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -6644,7 +6656,7 @@
     "country": "XX",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "173680209730258270",
+    "guestId": "173688849891864919",
     "hasCommunityMemberships": "false",
     "language": "en",
     "ssoInitTokens": {},
