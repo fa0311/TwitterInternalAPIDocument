@@ -5080,3 +5080,15 @@
 - subscriptions_upsells_vo_nav_decoration_enabled<br>
 #### remove<br>
 - None<br>
+## 2025/01/14<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- UniversalSearchFeedbackMutation<br>
+### Feature Switch<br>
+#### add<br>
+- responsive_web_grok_finance_cards_enabled<br>
+- responsive_web_verified_organizations_new_year_offer_enabled<br>
+#### remove<br>
+- None<br>
