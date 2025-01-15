@@ -2225,7 +2225,7 @@
         "value": "true"
       },
       "responsive_web_verified_organizations_new_year_offer_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "responsive_web_verified_organizations_paid_to_invoice_enabled": {
         "value": "false"
@@ -2842,6 +2842,9 @@
         "value": "https://abs.twimg.com/images/radar_promo_v2.mp4"
       },
       "subscriptions_upsells_reply_boost_enabled": {
+        "value": "false"
+      },
+      "subscriptions_upsells_reply_boost_popup_enabled": {
         "value": "false"
       },
       "subscriptions_upsells_reply_boost_variant": {
@@ -5095,7 +5098,7 @@
           "value": "false"
         },
         "responsive_web_live_screen_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "responsive_web_locale_context_direction_enabled": {
           "value": "true"
@@ -6074,6 +6077,12 @@
         "subscriptions_upsells_profile_card_variant": {
           "value": "anniversary"
         },
+        "subscriptions_upsells_radar_sidebar_enabled": {
+          "value": "false"
+        },
+        "subscriptions_upsells_radar_sidebar_variant": {
+          "value": ""
+        },
         "subscriptions_upsells_radar_video_url_desktop": {
           "value": "https://abs.twimg.com/images/radar_promo_v2.mp4"
         },
@@ -6081,6 +6090,9 @@
           "value": "https://abs.twimg.com/images/radar_promo_v2.mp4"
         },
         "subscriptions_upsells_reply_boost_enabled": {
+          "value": "false"
+        },
+        "subscriptions_upsells_reply_boost_popup_enabled": {
           "value": "false"
         },
         "subscriptions_upsells_reply_boost_variant": {
@@ -6583,10 +6595,10 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "494715505dd93b72b533dd6c07b1f704"
+      "settingsVersion": "f901475bece62f9f05abe6f043b60b25"
     },
     "debug": {},
-    "featureSetToken": "97d9e58f19c070034d063b07fb77e66fd45a1a1c",
+    "featureSetToken": "a853ac9963298090c38b8f8f0381ecc02effcaa6",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -6656,7 +6668,7 @@
     "country": "XX",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "173688849891864919",
+    "guestId": "173697490034904084",
     "hasCommunityMemberships": "false",
     "language": "en",
     "ssoInitTokens": {},
