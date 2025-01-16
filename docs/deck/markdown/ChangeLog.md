@@ -3804,3 +3804,17 @@
 #### remove<br>
 - responsive_web_grok_new_year_prompts_enabled<br>
 - rweb_scheduled_spaces_enabled<br>
+## 2025/01/16<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- subscriptions_upsells_radar_sidebar_enabled<br>
+- subscriptions_upsells_radar_sidebar_variant<br>
+- subscriptions_upsells_reply_boost_popup_enabled<br>
+- responsive_web_grok_image_annotation_enabled<br>
+#### remove<br>
+- None<br>
