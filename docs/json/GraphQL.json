@@ -182,6 +182,9 @@
           "longform_notetweets_inline_media_enabled": {
             "value": "true"
           },
+          "responsive_web_grok_image_annotation_enabled": {
+            "value": "false"
+          },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
           }
@@ -319,6 +322,9 @@
           },
           "longform_notetweets_inline_media_enabled": {
             "value": "true"
+          },
+          "responsive_web_grok_image_annotation_enabled": {
+            "value": "false"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -458,6 +464,9 @@
           "longform_notetweets_inline_media_enabled": {
             "value": "true"
           },
+          "responsive_web_grok_image_annotation_enabled": {
+            "value": "false"
+          },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
           }
@@ -596,6 +605,9 @@
           "longform_notetweets_inline_media_enabled": {
             "value": "true"
           },
+          "responsive_web_grok_image_annotation_enabled": {
+            "value": "false"
+          },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
           }
@@ -730,6 +742,9 @@
           },
           "longform_notetweets_inline_media_enabled": {
             "value": "true"
+          },
+          "responsive_web_grok_image_annotation_enabled": {
+            "value": "false"
           },
           "responsive_web_graphql_timeline_navigation_enabled": {
             "value": "true"
@@ -914,6 +929,9 @@
           "longform_notetweets_inline_media_enabled": {
             "value": "true"
           },
+          "responsive_web_grok_image_annotation_enabled": {
+            "value": "false"
+          },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
           }
@@ -1097,6 +1115,9 @@
           "tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled": {
             "value": "true"
           },
+          "responsive_web_grok_image_annotation_enabled": {
+            "value": "false"
+          },
           "responsive_web_graphql_timeline_navigation_enabled": {
             "value": "true"
           },
@@ -1244,6 +1265,9 @@
           "tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled": {
             "value": "true"
           },
+          "responsive_web_grok_image_annotation_enabled": {
+            "value": "false"
+          },
           "responsive_web_graphql_timeline_navigation_enabled": {
             "value": "true"
           },
@@ -1384,6 +1408,9 @@
           },
           "longform_notetweets_inline_media_enabled": {
             "value": "true"
+          },
+          "responsive_web_grok_image_annotation_enabled": {
+            "value": "false"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -1669,6 +1696,9 @@
           "longform_notetweets_inline_media_enabled": {
             "value": "true"
           },
+          "responsive_web_grok_image_annotation_enabled": {
+            "value": "false"
+          },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
           }
@@ -1806,6 +1836,9 @@
           },
           "longform_notetweets_inline_media_enabled": {
             "value": "true"
+          },
+          "responsive_web_grok_image_annotation_enabled": {
+            "value": "false"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -1958,6 +1991,9 @@
           "longform_notetweets_inline_media_enabled": {
             "value": "true"
           },
+          "responsive_web_grok_image_annotation_enabled": {
+            "value": "false"
+          },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
           }
@@ -2095,6 +2131,9 @@
           },
           "longform_notetweets_inline_media_enabled": {
             "value": "true"
+          },
+          "responsive_web_grok_image_annotation_enabled": {
+            "value": "false"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -2234,6 +2273,9 @@
           "longform_notetweets_inline_media_enabled": {
             "value": "true"
           },
+          "responsive_web_grok_image_annotation_enabled": {
+            "value": "false"
+          },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
           }
@@ -2371,6 +2413,9 @@
           },
           "longform_notetweets_inline_media_enabled": {
             "value": "true"
+          },
+          "responsive_web_grok_image_annotation_enabled": {
+            "value": "false"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -2510,6 +2555,9 @@
           "longform_notetweets_inline_media_enabled": {
             "value": "true"
           },
+          "responsive_web_grok_image_annotation_enabled": {
+            "value": "false"
+          },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
           }
@@ -2647,6 +2695,9 @@
           },
           "longform_notetweets_inline_media_enabled": {
             "value": "true"
+          },
+          "responsive_web_grok_image_annotation_enabled": {
+            "value": "false"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -2791,6 +2842,9 @@
           "longform_notetweets_inline_media_enabled": {
             "value": "true"
           },
+          "responsive_web_grok_image_annotation_enabled": {
+            "value": "false"
+          },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
           }
@@ -2928,6 +2982,9 @@
           },
           "longform_notetweets_inline_media_enabled": {
             "value": "true"
+          },
+          "responsive_web_grok_image_annotation_enabled": {
+            "value": "false"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -3067,6 +3124,9 @@
           "longform_notetweets_inline_media_enabled": {
             "value": "true"
           },
+          "responsive_web_grok_image_annotation_enabled": {
+            "value": "false"
+          },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
           }
@@ -3204,6 +3264,9 @@
           },
           "longform_notetweets_inline_media_enabled": {
             "value": "true"
+          },
+          "responsive_web_grok_image_annotation_enabled": {
+            "value": "false"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -3356,6 +3419,9 @@
           "longform_notetweets_inline_media_enabled": {
             "value": "true"
           },
+          "responsive_web_grok_image_annotation_enabled": {
+            "value": "false"
+          },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
           }
@@ -3493,6 +3559,9 @@
           },
           "longform_notetweets_inline_media_enabled": {
             "value": "true"
+          },
+          "responsive_web_grok_image_annotation_enabled": {
+            "value": "false"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -3792,6 +3861,9 @@
           "longform_notetweets_inline_media_enabled": {
             "value": "true"
           },
+          "responsive_web_grok_image_annotation_enabled": {
+            "value": "false"
+          },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
           }
@@ -3956,6 +4028,9 @@
           "longform_notetweets_inline_media_enabled": {
             "value": "true"
           },
+          "responsive_web_grok_image_annotation_enabled": {
+            "value": "false"
+          },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
           }
@@ -4093,6 +4168,9 @@
           },
           "longform_notetweets_inline_media_enabled": {
             "value": "true"
+          },
+          "responsive_web_grok_image_annotation_enabled": {
+            "value": "false"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -4277,6 +4355,9 @@
           "longform_notetweets_inline_media_enabled": {
             "value": "true"
           },
+          "responsive_web_grok_image_annotation_enabled": {
+            "value": "false"
+          },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
           }
@@ -4440,6 +4521,9 @@
           },
           "longform_notetweets_inline_media_enabled": {
             "value": "true"
+          },
+          "responsive_web_grok_image_annotation_enabled": {
+            "value": "false"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -4605,6 +4689,9 @@
           "longform_notetweets_inline_media_enabled": {
             "value": "true"
           },
+          "responsive_web_grok_image_annotation_enabled": {
+            "value": "false"
+          },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
           }
@@ -4743,6 +4830,9 @@
           "longform_notetweets_inline_media_enabled": {
             "value": "true"
           },
+          "responsive_web_grok_image_annotation_enabled": {
+            "value": "false"
+          },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
           }
@@ -4880,6 +4970,9 @@
           },
           "longform_notetweets_inline_media_enabled": {
             "value": "true"
+          },
+          "responsive_web_grok_image_annotation_enabled": {
+            "value": "false"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -5022,6 +5115,9 @@
           "longform_notetweets_inline_media_enabled": {
             "value": "true"
           },
+          "responsive_web_grok_image_annotation_enabled": {
+            "value": "false"
+          },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
           }
@@ -5159,6 +5255,9 @@
           },
           "longform_notetweets_inline_media_enabled": {
             "value": "true"
+          },
+          "responsive_web_grok_image_annotation_enabled": {
+            "value": "false"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -5298,6 +5397,9 @@
           "longform_notetweets_inline_media_enabled": {
             "value": "true"
           },
+          "responsive_web_grok_image_annotation_enabled": {
+            "value": "false"
+          },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
           }
@@ -5436,6 +5538,9 @@
           "longform_notetweets_inline_media_enabled": {
             "value": "true"
           },
+          "responsive_web_grok_image_annotation_enabled": {
+            "value": "false"
+          },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
           }
@@ -5566,6 +5671,9 @@
             "value": "true"
           },
           "verified_phone_label_enabled": {
+            "value": "false"
+          },
+          "responsive_web_grok_image_annotation_enabled": {
             "value": "false"
           },
           "responsive_web_graphql_skip_user_profile_image_extensions_enabled": {
@@ -5704,6 +5812,9 @@
             "value": "true"
           },
           "verified_phone_label_enabled": {
+            "value": "false"
+          },
+          "responsive_web_grok_image_annotation_enabled": {
             "value": "false"
           },
           "responsive_web_graphql_skip_user_profile_image_extensions_enabled": {
@@ -5951,6 +6062,9 @@
           "longform_notetweets_inline_media_enabled": {
             "value": "true"
           },
+          "responsive_web_grok_image_annotation_enabled": {
+            "value": "false"
+          },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
           }
@@ -6089,6 +6203,9 @@
           "longform_notetweets_inline_media_enabled": {
             "value": "true"
           },
+          "responsive_web_grok_image_annotation_enabled": {
+            "value": "false"
+          },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
           }
@@ -6226,6 +6343,9 @@
           },
           "longform_notetweets_inline_media_enabled": {
             "value": "true"
+          },
+          "responsive_web_grok_image_annotation_enabled": {
+            "value": "false"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -6508,6 +6628,9 @@
           "longform_notetweets_inline_media_enabled": {
             "value": "true"
           },
+          "responsive_web_grok_image_annotation_enabled": {
+            "value": "false"
+          },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
           }
@@ -6645,6 +6768,9 @@
           },
           "longform_notetweets_inline_media_enabled": {
             "value": "true"
+          },
+          "responsive_web_grok_image_annotation_enabled": {
+            "value": "false"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -6794,6 +6920,9 @@
           "longform_notetweets_inline_media_enabled": {
             "value": "true"
           },
+          "responsive_web_grok_image_annotation_enabled": {
+            "value": "false"
+          },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
           }
@@ -6931,6 +7060,9 @@
           },
           "longform_notetweets_inline_media_enabled": {
             "value": "true"
+          },
+          "responsive_web_grok_image_annotation_enabled": {
+            "value": "false"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -7083,6 +7215,9 @@
           "longform_notetweets_inline_media_enabled": {
             "value": "true"
           },
+          "responsive_web_grok_image_annotation_enabled": {
+            "value": "false"
+          },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
           }
@@ -7234,6 +7369,9 @@
           "longform_notetweets_inline_media_enabled": {
             "value": "true"
           },
+          "responsive_web_grok_image_annotation_enabled": {
+            "value": "false"
+          },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
           }
@@ -7372,6 +7510,9 @@
           "longform_notetweets_inline_media_enabled": {
             "value": "true"
           },
+          "responsive_web_grok_image_annotation_enabled": {
+            "value": "false"
+          },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
           }
@@ -7509,6 +7650,9 @@
           },
           "longform_notetweets_inline_media_enabled": {
             "value": "true"
+          },
+          "responsive_web_grok_image_annotation_enabled": {
+            "value": "false"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -7756,6 +7900,9 @@
           "longform_notetweets_inline_media_enabled": {
             "value": "true"
           },
+          "responsive_web_grok_image_annotation_enabled": {
+            "value": "false"
+          },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
           }
@@ -7890,6 +8037,9 @@
           },
           "longform_notetweets_inline_media_enabled": {
             "value": "true"
+          },
+          "responsive_web_grok_image_annotation_enabled": {
+            "value": "false"
           },
           "responsive_web_graphql_timeline_navigation_enabled": {
             "value": "true"
@@ -8036,6 +8186,9 @@
           },
           "longform_notetweets_inline_media_enabled": {
             "value": "true"
+          },
+          "responsive_web_grok_image_annotation_enabled": {
+            "value": "false"
           },
           "responsive_web_graphql_timeline_navigation_enabled": {
             "value": "true"
@@ -8243,6 +8396,9 @@
           "longform_notetweets_inline_media_enabled": {
             "value": "true"
           },
+          "responsive_web_grok_image_annotation_enabled": {
+            "value": "false"
+          },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
           }
@@ -8381,6 +8537,9 @@
           "longform_notetweets_inline_media_enabled": {
             "value": "true"
           },
+          "responsive_web_grok_image_annotation_enabled": {
+            "value": "false"
+          },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
           }
@@ -8518,6 +8677,9 @@
           },
           "longform_notetweets_inline_media_enabled": {
             "value": "true"
+          },
+          "responsive_web_grok_image_annotation_enabled": {
+            "value": "false"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -8698,6 +8860,9 @@
           "longform_notetweets_inline_media_enabled": {
             "value": "true"
           },
+          "responsive_web_grok_image_annotation_enabled": {
+            "value": "false"
+          },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
           }
@@ -8835,6 +9000,9 @@
           },
           "longform_notetweets_inline_media_enabled": {
             "value": "true"
+          },
+          "responsive_web_grok_image_annotation_enabled": {
+            "value": "false"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -9015,6 +9183,9 @@
           "longform_notetweets_inline_media_enabled": {
             "value": "true"
           },
+          "responsive_web_grok_image_annotation_enabled": {
+            "value": "false"
+          },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
           }
@@ -9193,6 +9364,9 @@
           },
           "longform_notetweets_inline_media_enabled": {
             "value": "true"
+          },
+          "responsive_web_grok_image_annotation_enabled": {
+            "value": "false"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -9414,6 +9588,9 @@
           "longform_notetweets_inline_media_enabled": {
             "value": "true"
           },
+          "responsive_web_grok_image_annotation_enabled": {
+            "value": "false"
+          },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
           }
@@ -9551,6 +9728,9 @@
           },
           "longform_notetweets_inline_media_enabled": {
             "value": "true"
+          },
+          "responsive_web_grok_image_annotation_enabled": {
+            "value": "false"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -9723,6 +9903,9 @@
             "value": "true"
           },
           "verified_phone_label_enabled": {
+            "value": "false"
+          },
+          "responsive_web_grok_image_annotation_enabled": {
             "value": "false"
           },
           "responsive_web_graphql_skip_user_profile_image_extensions_enabled": {
@@ -9907,6 +10090,9 @@
           "longform_notetweets_inline_media_enabled": {
             "value": "true"
           },
+          "responsive_web_grok_image_annotation_enabled": {
+            "value": "false"
+          },
           "responsive_web_graphql_timeline_navigation_enabled": {
             "value": "true"
           },
@@ -10048,6 +10234,9 @@
           "longform_notetweets_inline_media_enabled": {
             "value": "true"
           },
+          "responsive_web_grok_image_annotation_enabled": {
+            "value": "false"
+          },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
           }
@@ -10186,6 +10375,9 @@
           "longform_notetweets_inline_media_enabled": {
             "value": "true"
           },
+          "responsive_web_grok_image_annotation_enabled": {
+            "value": "false"
+          },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
           }
@@ -10323,6 +10515,9 @@
           },
           "longform_notetweets_inline_media_enabled": {
             "value": "true"
+          },
+          "responsive_web_grok_image_annotation_enabled": {
+            "value": "false"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -10523,6 +10718,9 @@
           },
           "longform_notetweets_inline_media_enabled": {
             "value": "true"
+          },
+          "responsive_web_grok_image_annotation_enabled": {
+            "value": "false"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -11265,6 +11463,9 @@
           "longform_notetweets_inline_media_enabled": {
             "value": "true"
           },
+          "responsive_web_grok_image_annotation_enabled": {
+            "value": "false"
+          },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
           }
@@ -11432,6 +11633,9 @@
           },
           "longform_notetweets_inline_media_enabled": {
             "value": "true"
+          },
+          "responsive_web_grok_image_annotation_enabled": {
+            "value": "false"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -12155,6 +12359,9 @@
           "verified_phone_label_enabled": {
             "value": "false"
           },
+          "responsive_web_grok_image_annotation_enabled": {
+            "value": "false"
+          },
           "responsive_web_graphql_skip_user_profile_image_extensions_enabled": {
             "value": "false"
           },
@@ -12343,6 +12550,9 @@
             "value": "true"
           },
           "verified_phone_label_enabled": {
+            "value": "false"
+          },
+          "responsive_web_grok_image_annotation_enabled": {
             "value": "false"
           },
           "responsive_web_graphql_skip_user_profile_image_extensions_enabled": {
@@ -12683,6 +12893,9 @@
           },
           "longform_notetweets_inline_media_enabled": {
             "value": "true"
+          },
+          "responsive_web_grok_image_annotation_enabled": {
+            "value": "false"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -13027,6 +13240,9 @@
           "longform_notetweets_inline_media_enabled": {
             "value": "true"
           },
+          "responsive_web_grok_image_annotation_enabled": {
+            "value": "false"
+          },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
           }
@@ -13178,6 +13394,9 @@
           "longform_notetweets_inline_media_enabled": {
             "value": "true"
           },
+          "responsive_web_grok_image_annotation_enabled": {
+            "value": "false"
+          },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
           }
@@ -13315,6 +13534,9 @@
           },
           "longform_notetweets_inline_media_enabled": {
             "value": "true"
+          },
+          "responsive_web_grok_image_annotation_enabled": {
+            "value": "false"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -13454,6 +13676,9 @@
           "longform_notetweets_inline_media_enabled": {
             "value": "true"
           },
+          "responsive_web_grok_image_annotation_enabled": {
+            "value": "false"
+          },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
           }
@@ -13591,6 +13816,9 @@
           },
           "longform_notetweets_inline_media_enabled": {
             "value": "true"
+          },
+          "responsive_web_grok_image_annotation_enabled": {
+            "value": "false"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -13742,6 +13970,9 @@
           },
           "longform_notetweets_inline_media_enabled": {
             "value": "true"
+          },
+          "responsive_web_grok_image_annotation_enabled": {
+            "value": "false"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -13921,6 +14152,9 @@
           },
           "longform_notetweets_inline_media_enabled": {
             "value": "true"
+          },
+          "responsive_web_grok_image_annotation_enabled": {
+            "value": "false"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -14141,6 +14375,9 @@
           },
           "longform_notetweets_inline_media_enabled": {
             "value": "true"
+          },
+          "responsive_web_grok_image_annotation_enabled": {
+            "value": "false"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -14375,6 +14612,9 @@
           "longform_notetweets_inline_media_enabled": {
             "value": "true"
           },
+          "responsive_web_grok_image_annotation_enabled": {
+            "value": "false"
+          },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
           }
@@ -14512,6 +14752,9 @@
           },
           "longform_notetweets_inline_media_enabled": {
             "value": "true"
+          },
+          "responsive_web_grok_image_annotation_enabled": {
+            "value": "false"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -14703,6 +14946,9 @@
           "longform_notetweets_inline_media_enabled": {
             "value": "true"
           },
+          "responsive_web_grok_image_annotation_enabled": {
+            "value": "false"
+          },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
           }
@@ -14840,6 +15086,9 @@
           },
           "longform_notetweets_inline_media_enabled": {
             "value": "true"
+          },
+          "responsive_web_grok_image_annotation_enabled": {
+            "value": "false"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -14979,6 +15228,9 @@
           "longform_notetweets_inline_media_enabled": {
             "value": "true"
           },
+          "responsive_web_grok_image_annotation_enabled": {
+            "value": "false"
+          },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
           }
@@ -15117,6 +15369,9 @@
           "longform_notetweets_inline_media_enabled": {
             "value": "true"
           },
+          "responsive_web_grok_image_annotation_enabled": {
+            "value": "false"
+          },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
           }
@@ -15254,6 +15509,9 @@
           },
           "longform_notetweets_inline_media_enabled": {
             "value": "true"
+          },
+          "responsive_web_grok_image_annotation_enabled": {
+            "value": "false"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -16348,6 +16606,9 @@
           "verified_phone_label_enabled": {
             "value": "false"
           },
+          "responsive_web_grok_image_annotation_enabled": {
+            "value": "false"
+          },
           "responsive_web_graphql_skip_user_profile_image_extensions_enabled": {
             "value": "false"
           },
@@ -16501,6 +16762,9 @@
           },
           "longform_notetweets_inline_media_enabled": {
             "value": "true"
+          },
+          "responsive_web_grok_image_annotation_enabled": {
+            "value": "false"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -16665,6 +16929,9 @@
           },
           "longform_notetweets_inline_media_enabled": {
             "value": "true"
+          },
+          "responsive_web_grok_image_annotation_enabled": {
+            "value": "false"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -16833,6 +17100,9 @@
           },
           "longform_notetweets_inline_media_enabled": {
             "value": "true"
+          },
+          "responsive_web_grok_image_annotation_enabled": {
+            "value": "false"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -18139,6 +18409,9 @@
           "longform_notetweets_inline_media_enabled": {
             "value": "true"
           },
+          "responsive_web_grok_image_annotation_enabled": {
+            "value": "false"
+          },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
           }
@@ -18276,6 +18549,9 @@
           },
           "longform_notetweets_inline_media_enabled": {
             "value": "true"
+          },
+          "responsive_web_grok_image_annotation_enabled": {
+            "value": "false"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -19459,6 +19735,9 @@
           "verified_phone_label_enabled": {
             "value": "false"
           },
+          "responsive_web_grok_image_annotation_enabled": {
+            "value": "false"
+          },
           "responsive_web_graphql_skip_user_profile_image_extensions_enabled": {
             "value": "false"
           },
@@ -19607,6 +19886,9 @@
             "value": "true"
           },
           "verified_phone_label_enabled": {
+            "value": "false"
+          },
+          "responsive_web_grok_image_annotation_enabled": {
             "value": "false"
           },
           "responsive_web_graphql_skip_user_profile_image_extensions_enabled": {
@@ -20021,6 +20303,9 @@
           "longform_notetweets_inline_media_enabled": {
             "value": "true"
           },
+          "responsive_web_grok_image_annotation_enabled": {
+            "value": "false"
+          },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
           }
@@ -20344,6 +20629,9 @@
           "verified_phone_label_enabled": {
             "value": "false"
           },
+          "responsive_web_grok_image_annotation_enabled": {
+            "value": "false"
+          },
           "responsive_web_graphql_skip_user_profile_image_extensions_enabled": {
             "value": "false"
           },
@@ -20572,6 +20860,9 @@
           "longform_notetweets_inline_media_enabled": {
             "value": "true"
           },
+          "responsive_web_grok_image_annotation_enabled": {
+            "value": "false"
+          },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
           }
@@ -20739,6 +21030,9 @@
           },
           "longform_notetweets_inline_media_enabled": {
             "value": "true"
+          },
+          "responsive_web_grok_image_annotation_enabled": {
+            "value": "false"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -20948,6 +21242,9 @@
             "value": "true"
           },
           "verified_phone_label_enabled": {
+            "value": "false"
+          },
+          "responsive_web_grok_image_annotation_enabled": {
             "value": "false"
           },
           "responsive_web_graphql_timeline_navigation_enabled": {
@@ -23667,6 +23964,9 @@
           "longform_notetweets_inline_media_enabled": {
             "value": "true"
           },
+          "responsive_web_grok_image_annotation_enabled": {
+            "value": "false"
+          },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
           }
@@ -23805,6 +24105,9 @@
           "longform_notetweets_inline_media_enabled": {
             "value": "true"
           },
+          "responsive_web_grok_image_annotation_enabled": {
+            "value": "false"
+          },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
           }
@@ -23935,6 +24238,9 @@
             "value": "true"
           },
           "responsive_web_graphql_skip_user_profile_image_extensions_enabled": {
+            "value": "false"
+          },
+          "responsive_web_grok_image_annotation_enabled": {
             "value": "false"
           },
           "responsive_web_graphql_timeline_navigation_enabled": {
@@ -24140,6 +24446,9 @@
           "verified_phone_label_enabled": {
             "value": "false"
           },
+          "responsive_web_grok_image_annotation_enabled": {
+            "value": "false"
+          },
           "responsive_web_graphql_skip_user_profile_image_extensions_enabled": {
             "value": "false"
           },
@@ -24328,6 +24637,9 @@
             "value": "true"
           },
           "verified_phone_label_enabled": {
+            "value": "false"
+          },
+          "responsive_web_grok_image_annotation_enabled": {
             "value": "false"
           },
           "responsive_web_graphql_skip_user_profile_image_extensions_enabled": {
@@ -24856,6 +25168,9 @@
           "longform_notetweets_inline_media_enabled": {
             "value": "true"
           },
+          "responsive_web_grok_image_annotation_enabled": {
+            "value": "false"
+          },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
           }
@@ -25023,6 +25338,9 @@
           },
           "longform_notetweets_inline_media_enabled": {
             "value": "true"
+          },
+          "responsive_web_grok_image_annotation_enabled": {
+            "value": "false"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -25674,6 +25992,9 @@
           "longform_notetweets_inline_media_enabled": {
             "value": "true"
           },
+          "responsive_web_grok_image_annotation_enabled": {
+            "value": "false"
+          },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
           }
@@ -25841,6 +26162,9 @@
           },
           "longform_notetweets_inline_media_enabled": {
             "value": "true"
+          },
+          "responsive_web_grok_image_annotation_enabled": {
+            "value": "false"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
