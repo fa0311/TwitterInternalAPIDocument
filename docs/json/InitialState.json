@@ -4978,10 +4978,10 @@
           "value": "true"
         },
         "responsive_web_grok_profile_summary_min_followers": {
-          "value": "200"
+          "value": "50"
         },
         "responsive_web_grok_profile_summary_min_posts": {
-          "value": "30"
+          "value": "15"
         },
         "responsive_web_grok_prompt_edit_enabled": {
           "value": "true"
@@ -6604,7 +6604,7 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "ebcabfeb2859235a5764103c5bcd75eb"
+      "settingsVersion": "7939af8a01433ab27c9082c796786bc1"
     },
     "debug": {},
     "featureSetToken": "5a47dfef3f556a2b6b0fe76e7fff599428b63fc3",
@@ -6677,7 +6677,7 @@
     "country": "XX",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "173706129980654109",
+    "guestId": "173714769645786492",
     "hasCommunityMemberships": "false",
     "language": "en",
     "ssoInitTokens": {},
