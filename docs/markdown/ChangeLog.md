@@ -5116,3 +5116,15 @@
 - responsive_web_grok_image_annotation_enabled<br>
 #### remove<br>
 - None<br>
+## 2025/01/18<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- payments_settings_documents_enabled<br>
+- responsive_web_grok_chat_drawer_enabled<br>
+#### remove<br>
+- None<br>
