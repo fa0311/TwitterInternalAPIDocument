@@ -5128,3 +5128,16 @@
 - responsive_web_grok_chat_drawer_enabled<br>
 #### remove<br>
 - None<br>
+## 2025/01/19<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- responsive_web_grok_dev_universal_search_id_enabled<br>
+- responsive_web_grok_show_grok_tweet_media<br>
+- responsive_web_grok_tweet_translation<br>
+#### remove<br>
+- None<br>

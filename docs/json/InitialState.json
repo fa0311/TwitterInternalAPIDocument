@@ -1666,6 +1666,9 @@
       "responsive_web_grok_delete_conversations_enabled": {
         "value": "true"
       },
+      "responsive_web_grok_dev_universal_search_id_enabled": {
+        "value": "false"
+      },
       "responsive_web_grok_feedback_label_dropdown": {
         "value": "true"
       },
@@ -1736,10 +1739,10 @@
         "value": "true"
       },
       "responsive_web_grok_profile_summary_min_followers": {
-        "value": "200"
+        "value": "50"
       },
       "responsive_web_grok_profile_summary_min_posts": {
-        "value": "30"
+        "value": "15"
       },
       "responsive_web_grok_prompt_edit_enabled": {
         "value": "true"
@@ -1774,6 +1777,9 @@
       "responsive_web_grok_show_grok_performance_metrics": {
         "value": "false"
       },
+      "responsive_web_grok_show_grok_tweet_media": {
+        "value": "false"
+      },
       "responsive_web_grok_sport_cards_enabled": {
         "value": "false"
       },
@@ -1790,6 +1796,9 @@
         "value": "true"
       },
       "responsive_web_grok_trends_design_enabled": {
+        "value": "false"
+      },
+      "responsive_web_grok_tweet_translation": {
         "value": "false"
       },
       "responsive_web_grok_user_active_seconds_enable": {
@@ -4923,6 +4932,9 @@
         "responsive_web_grok_delete_conversations_enabled": {
           "value": "true"
         },
+        "responsive_web_grok_dev_universal_search_id_enabled": {
+          "value": "false"
+        },
         "responsive_web_grok_feedback_label_dropdown": {
           "value": "true"
         },
@@ -5031,6 +5043,9 @@
         "responsive_web_grok_show_grok_performance_metrics": {
           "value": "false"
         },
+        "responsive_web_grok_show_grok_tweet_media": {
+          "value": "false"
+        },
         "responsive_web_grok_sport_cards_enabled": {
           "value": "false"
         },
@@ -5047,6 +5062,9 @@
           "value": "true"
         },
         "responsive_web_grok_trends_design_enabled": {
+          "value": "false"
+        },
+        "responsive_web_grok_tweet_translation": {
           "value": "false"
         },
         "responsive_web_grok_user_active_seconds_enable": {
@@ -6619,10 +6637,10 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "101d84caa4b1276503e461547fa6152c"
+      "settingsVersion": "d32042f05f66fe369c41370d865198d9"
     },
     "debug": {},
-    "featureSetToken": "337cd7d1b1a2e84057cce84c37d7fc099d60ab15",
+    "featureSetToken": "8a242154ec14087e930527a0488136b1c26fdd03",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -6692,7 +6710,7 @@
     "country": "XX",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "173723409253142763",
+    "guestId": "173732049857043372",
     "hasCommunityMemberships": "false",
     "language": "en",
     "ssoInitTokens": {},
