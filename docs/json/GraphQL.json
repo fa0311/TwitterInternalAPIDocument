@@ -2705,10 +2705,10 @@
         }
       }
     },
-    "func_name": "g",
+    "func_name": "w",
     "func_name_init": "A",
     "query": {
-      "cursor": "t"
+      "bookmark_collection_id": "n"
     }
   },
   {
@@ -3711,8 +3711,8 @@
         "featureSwitch": {}
       }
     },
-    "func_name": "o",
-    "func_name_init": "a",
+    "func_name": "a",
+    "func_name_init": "o",
     "query": {
       "flag": "n"
     }
@@ -3872,7 +3872,9 @@
     },
     "func_name": "y",
     "func_name_init": "D",
-    "query": "{\"rawQuery\":l||\"\",\"count\":\"t\",\"cursor\":\"d\",\"querySource\":\"i\",\"product\":\"r\",\"...()(0,o.d)\":\"_\"}"
+    "query": {
+      "bookmark_collection_id": "n"
+    }
   },
   {
     "n": "78852",
@@ -4187,10 +4189,10 @@
         "featureSwitch": {}
       }
     },
-    "func_name": "w",
-    "func_name_init": "g",
+    "func_name": "g",
+    "func_name_init": "w",
     "query": {
-      "bookmark_collection_id": "n"
+      "cursor": "t"
     }
   },
   {
@@ -4976,7 +4978,7 @@
       }
     },
     "func_name": "_",
-    "func_name_init": "w",
+    "func_name_init": "g",
     "query": {
       "...t": "_"
     }
