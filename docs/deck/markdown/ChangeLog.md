@@ -3829,3 +3829,21 @@
 - rweb_live_dock_enabled<br>
 #### remove<br>
 - None<br>
+## 2025/01/21<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- payments_settings_documents_enabled<br>
+- responsive_web_grok_analyze_animation<br>
+- responsive_web_grok_chat_drawer_enabled<br>
+- responsive_web_grok_dev_universal_search_id_enabled<br>
+- responsive_web_grok_feed<br>
+- responsive_web_grok_show_grok_tweet_media<br>
+- responsive_web_grok_tweet_translation<br>
+- responsive_web_trend_ui_compact_cell<br>
+#### remove<br>
+- None<br>
