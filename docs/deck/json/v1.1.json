@@ -882,6 +882,15 @@
     ]
   },
   {
+    "queryId": "contacts/addressbook",
+    "dispatch_key": "get",
+    "dispatch": [
+      "get",
+      "",
+      "https://api.x.com/1.1/{queryId}.json"
+    ]
+  },
+  {
     "queryId": "mutes/keywords/list",
     "dispatch_key": "get",
     "dispatch": [
