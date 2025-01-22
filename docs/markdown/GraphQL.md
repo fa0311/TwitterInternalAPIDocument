@@ -993,9 +993,9 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key                    | type   | variable   |
-|:-----------------------|:-------|:-----------|
-| bookmark_collection_id | ...    | n          |
+| key    | type   | variable   |
+|:-------|:-------|:-----------|
+| cursor | ...    | t          |
 
 #### features<br>
 | key                                                                     | type    | variable   |
@@ -1554,9 +1554,9 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key    | type   | variable   |
-|:-------|:-------|:-----------|
-| cursor | ...    | t          |
+| key                    | type   | variable   |
+|:-----------------------|:-------|:-----------|
+| bookmark_collection_id | ...    | n          |
 
 #### features<br>
 `None`<br>
@@ -5246,7 +5246,10 @@ Request Method: `POST`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-`None`<br>
+| key     | type   | variable   |
+|:--------|:-------|:-----------|
+| keyword | ...    | t          |
+
 #### features<br>
 `None`<br>
 #### queryId<br>

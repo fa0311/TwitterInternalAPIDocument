@@ -909,7 +909,7 @@
         "value": "true"
       },
       "highlights_tweets_upsell_on_pin_action_enabled": {
-        "value": "true"
+        "value": "false"
       },
       "home_timeline_compact_app_bar": {
         "value": "true"
@@ -1218,6 +1218,9 @@
         "value": "false"
       },
       "payments_pin_login_enabled": {
+        "value": "false"
+      },
+      "payments_settings_documents_enabled": {
         "value": "false"
       },
       "premium_content_api_read_enabled": {
@@ -1646,6 +1649,9 @@
       "responsive_web_graphql_timeline_navigation_enabled": {
         "value": "true"
       },
+      "responsive_web_grok_analyze_animation": {
+        "value": "false"
+      },
       "responsive_web_grok_analyze_button_fetch_trends_enabled": {
         "value": "false"
       },
@@ -1664,11 +1670,20 @@
       "responsive_web_grok_backend_prompts_enabled": {
         "value": "true"
       },
+      "responsive_web_grok_chat_drawer_enabled": {
+        "value": "false"
+      },
       "responsive_web_grok_continue_in_grok_enabled": {
         "value": "true"
       },
       "responsive_web_grok_delete_conversations_enabled": {
         "value": "true"
+      },
+      "responsive_web_grok_dev_universal_search_id_enabled": {
+        "value": "false"
+      },
+      "responsive_web_grok_feed": {
+        "value": "false"
       },
       "responsive_web_grok_feedback_label_dropdown": {
         "value": "true"
@@ -1696,6 +1711,9 @@
       },
       "responsive_web_grok_history_search_enabled": {
         "value": "true"
+      },
+      "responsive_web_grok_image_annotation_enabled": {
+        "value": "false"
       },
       "responsive_web_grok_image_prompts_enabled": {
         "value": "true"
@@ -1737,10 +1755,10 @@
         "value": "true"
       },
       "responsive_web_grok_profile_summary_min_followers": {
-        "value": "200"
+        "value": "50"
       },
       "responsive_web_grok_profile_summary_min_posts": {
-        "value": "30"
+        "value": "15"
       },
       "responsive_web_grok_prompt_edit_enabled": {
         "value": "true"
@@ -1775,6 +1793,9 @@
       "responsive_web_grok_show_grok_performance_metrics": {
         "value": "false"
       },
+      "responsive_web_grok_show_grok_tweet_media": {
+        "value": "false"
+      },
       "responsive_web_grok_sport_cards_enabled": {
         "value": "false"
       },
@@ -1791,6 +1812,9 @@
         "value": "true"
       },
       "responsive_web_grok_trends_design_enabled": {
+        "value": "false"
+      },
+      "responsive_web_grok_tweet_translation": {
         "value": "false"
       },
       "responsive_web_grok_user_active_seconds_enable": {
@@ -2096,6 +2120,9 @@
       "responsive_web_translation_feedback_enabled": {
         "value": "true"
       },
+      "responsive_web_trend_ui_compact_cell": {
+        "value": "false"
+      },
       "responsive_web_trends_setting_new_endpoints": {
         "value": "true"
       },
@@ -2355,6 +2382,9 @@
         "value": "60"
       },
       "rweb_live_broadcast_rewind_enabled": {
+        "value": "true"
+      },
+      "rweb_live_dock_enabled": {
         "value": "true"
       },
       "rweb_master_detail_enabled": {
@@ -2870,7 +2900,7 @@
         "value": ""
       },
       "subscriptions_upsells_vo_nav_decoration_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "subscriptions_verification_info_is_identity_verified_enabled": {
         "value": "true"
@@ -4468,6 +4498,9 @@
         "payments_pin_login_enabled": {
           "value": "false"
         },
+        "payments_settings_documents_enabled": {
+          "value": "false"
+        },
         "premium_content_api_read_enabled": {
           "value": "false"
         },
@@ -4894,6 +4927,9 @@
         "responsive_web_graphql_timeline_navigation_enabled": {
           "value": "true"
         },
+        "responsive_web_grok_analyze_animation": {
+          "value": "false"
+        },
         "responsive_web_grok_analyze_button_fetch_trends_enabled": {
           "value": "false"
         },
@@ -4912,11 +4948,20 @@
         "responsive_web_grok_backend_prompts_enabled": {
           "value": "true"
         },
+        "responsive_web_grok_chat_drawer_enabled": {
+          "value": "false"
+        },
         "responsive_web_grok_continue_in_grok_enabled": {
           "value": "true"
         },
         "responsive_web_grok_delete_conversations_enabled": {
           "value": "true"
+        },
+        "responsive_web_grok_dev_universal_search_id_enabled": {
+          "value": "false"
+        },
+        "responsive_web_grok_feed": {
+          "value": "false"
         },
         "responsive_web_grok_feedback_label_dropdown": {
           "value": "true"
@@ -5026,6 +5071,9 @@
         "responsive_web_grok_show_grok_performance_metrics": {
           "value": "false"
         },
+        "responsive_web_grok_show_grok_tweet_media": {
+          "value": "false"
+        },
         "responsive_web_grok_sport_cards_enabled": {
           "value": "false"
         },
@@ -5042,6 +5090,9 @@
           "value": "true"
         },
         "responsive_web_grok_trends_design_enabled": {
+          "value": "false"
+        },
+        "responsive_web_grok_tweet_translation": {
           "value": "false"
         },
         "responsive_web_grok_user_active_seconds_enable": {
@@ -5347,6 +5398,9 @@
         "responsive_web_translation_feedback_enabled": {
           "value": "true"
         },
+        "responsive_web_trend_ui_compact_cell": {
+          "value": "false"
+        },
         "responsive_web_trends_setting_new_endpoints": {
           "value": "true"
         },
@@ -5609,7 +5663,7 @@
           "value": "true"
         },
         "rweb_live_dock_enabled": {
-          "value": "true"
+          "value": "false"
         },
         "rweb_master_detail_enabled": {
           "value": "false"
@@ -6617,10 +6671,10 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "df4dcca327aa0dabb909882ecd128840"
+      "settingsVersion": "896fccb3f39b7c8b5de84aac9ef95f74"
     },
     "debug": {},
-    "featureSetToken": "5a47dfef3f556a2b6b0fe76e7fff599428b63fc3",
+    "featureSetToken": "788ece81da12a18ec793826bf0a9a54af67d8fc3",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -6690,7 +6744,7 @@
     "country": "XX",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "173740720096768348",
+    "guestId": "173749361579301495",
     "hasCommunityMemberships": "false",
     "language": "en",
     "ssoInitTokens": {},

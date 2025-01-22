@@ -2161,7 +2161,7 @@
     "appBarFirefoxBackground": "r.bs.dim(.75)"
   },
   {
-    "...w": "_",
+    "...g": "_",
     "...i()": "_",
     "text": "r.Cj",
     "navigationBackground95": "#15202B",
@@ -2260,16 +2260,16 @@
   },
   {
     "appBarHeight": "f",
-    "appBarHeightPx": "S",
-    "conversationLineWidth": "g.space2",
+    "appBarHeightPx": "M",
+    "conversationLineWidth": "w.space2",
     "gutterHorizontal": "_.space16",
-    "gutterHorizontalPx": "g.space16",
+    "gutterHorizontalPx": "w.space16",
     "gutterVertical": "_.space12",
-    "gutterVerticalPx": "g.space12"
+    "gutterVerticalPx": "w.space12"
   },
   {
     "aspectRatios": "i",
-    "baseFontSize": "M",
+    "baseFontSize": "S",
     "borderRadii": "s",
     "borderRadiiPx": "l",
     "borderWidths": "c",
@@ -2280,12 +2280,12 @@
     "fontSizes": "y",
     "fontSizesPx": "D",
     "fontWeights": "b",
-    "lineHeights": "w",
+    "lineHeights": "g",
     "lineHeightsPx": "A",
     "scales": "n",
     "scaleMultiplier": "t",
     "spaces": "_",
-    "spacesPx": "g"
+    "spacesPx": "w"
   },
   "{\"...p()\":{\"scale\":\"r\",\"scales\":\"i\"}\"an0\",A.obt,n,\"o\"}",
   {
@@ -2333,7 +2333,7 @@
     "peopleYouFollow": "peopleYouFollow",
     "everyone": "everyone"
   },
-  "{[ia.onlyInvited]:\"0\",[ia.peopleYouFollow]:\"1\",[ia.everyone]:\"2\"}",
+  "{[aa.onlyInvited]:\"0\",[aa.peopleYouFollow]:\"1\",[aa.everyone]:\"2\"}",
   {
     "AUDIO": "visual_audio",
     "CONFERENCE": "conference_spaces",
@@ -4919,7 +4919,11 @@
     "ReversedByAgent": "ReversedByAgent",
     "Unspecified": "Unspecified"
   },
-  "{[s.RejectedByManualReview]:{\"sender\":\"u\",\"receiver\":\"u\",\"Component\":\"t.Z.Attention\"},[s.RejectedByAutoReview]:{\"sender\":\"u\",\"receiver\":\"u\",\"Component\":\"t.Z.Attention\"},[s.InReview]:{\"sender\":\"r\",\"receiver\":\"r\",\"Component\":\"t.Z.Attention\"},[i.g.PendingRecipientAcceptance]:{\"sender\":\"c\",\"Component\":\"t.Z.Primary\"},[i.g.PendingRecipientOnboarding]:{\"sender\":\"c\",\"Component\":\"t.Z.Primary\"},[i.g.PendingRecipientAction]:{\"sender\":\"c\",\"Component\":\"t.Z.Primary\"},[i.g.RejectedByRecipient]:{\"sender\":\"This transaction has been rejected by the recipient.\",\"Component\":\"t.Z.Attention\"},[i.g.RequestRejected]:{\"receiver\":\"This request has been rejected by the recipient.\",\"Component\":\"t.Z.Attention\"},[i.g.AwaitingRequestAcceptance]:{\"receiver\":\"This request is pending until its approved by the recipient.\",\"Component\":\"t.Z.Primary\"}}",
+  "{[s.RejectedByManualReview]:{\"sender\":\"u\",\"receiver\":\"u\",\"Component\":\"i.Z.Attention\"},[s.RejectedByAutoReview]:{\"sender\":\"u\",\"receiver\":\"u\",\"Component\":\"i.Z.Attention\"},[s.InReview]:{\"sender\":\"r\",\"receiver\":\"r\",\"Component\":\"i.Z.Attention\"},[t.g.PendingRecipientAcceptance]:{\"sender\":\"c\",\"Component\":\"i.Z.Primary\"},[t.g.PendingRecipientOnboarding]:{\"sender\":\"c\",\"Component\":\"i.Z.Primary\"},[t.g.PendingRecipientAction]:{\"sender\":\"c\",\"Component\":\"i.Z.Primary\"},[t.g.RejectedByRecipient]:{\"sender\":\"This transaction has been rejected by the recipient.\",\"Component\":\"i.Z.Attention\"},[t.g.RequestRejected]:{\"receiver\":\"This request has been rejected by the recipient.\",\"Component\":\"i.Z.Attention\"},[t.g.AwaitingRequestAcceptance]:{\"receiver\":\"This request is pending until its approved by the recipient.\",\"Component\":\"i.Z.Primary\"}}",
+  {
+    "Interest": "Interest",
+    "Premium": "Premium"
+  },
   {
     "onboarding": "onboarding",
     "upgradeToKycDocumentsVerified": "upgradeToKycDocumentsVerified"
@@ -4954,7 +4958,7 @@
     "Checking": "Checking",
     "Savings": "Savings"
   },
-  "{[f.g.Cancelled]:\"Cancelled\",[f.g.Failed]:\"Failed\",[f.g.Pending]:\"Pending\",[f.g.PendingReview]:\"Pending\",[f.g.PendingRecipientAction]:\"Pending\",[f.g.PendingRecipientOnboarding]:\"Pending\",[f.g.AwaitingRequestAcceptance]:\"Pending\",[f.g.PendingRecipientAcceptance]:\"Pending\",[f.g.PinVerificationRequired]:\"Pending\",[f.g.RequestVerificationRequired]:\"Pending\",[f.g.VerificationRequired]:\"Pending\",[f.g.RejectedByRecipient]:\"Rejected\",[f.g.RequestRejected]:\"Rejected\",[f.g.Settled]:\"Settled\"}",
+  "{[F.g.Cancelled]:\"Cancelled\",[F.g.Failed]:\"Failed\",[F.g.Pending]:\"Pending\",[F.g.PendingReview]:\"Pending\",[F.g.PendingRecipientAction]:\"Pending\",[F.g.PendingRecipientOnboarding]:\"Pending\",[F.g.AwaitingRequestAcceptance]:\"Pending\",[F.g.PendingRecipientAcceptance]:\"Pending\",[F.g.PinVerificationRequired]:\"Pending\",[F.g.RequestVerificationRequired]:\"Pending\",[F.g.VerificationRequired]:\"Pending\",[F.g.RejectedByRecipient]:\"Rejected\",[F.g.RequestRejected]:\"Rejected\",[F.g.Settled]:\"Settled\"}",
   "{[m.Checking]:\"Checking\",[m.Savings]:\"Savings\"}",
   {
     "navButtons": "navigationButtons",
@@ -6677,26 +6681,6 @@
     }
   },
   {
-    "full_time": "r",
-    "full_time_contract": "i",
-    "part_time": "s",
-    "contract_to_hire": "o"
-  },
-  {
-    "1": "c",
-    "2": "d"
-  },
-  {
-    "annually": {
-      "label": "c",
-      "value": "1"
-    },
-    "hourly": {
-      "label": "d",
-      "value": "2"
-    }
-  },
-  {
     "DISABLED": "0",
     "ENABLED": "10",
     "SYNC_IN_PROGRESS": "20",
@@ -6719,41 +6703,61 @@
     "product": "b",
     "design": "u",
     "marketing": "h",
-    "sales_am": "m",
-    "operations": "p",
-    "people_hr": "f",
+    "sales_am": "f",
+    "operations": "m",
+    "people_hr": "p",
     "finance_accounting": "_",
-    "legal_compliance": "S",
-    "science_engineering": "v",
-    "medical": "w",
+    "legal_compliance": "v",
+    "science_engineering": "w",
+    "medical": "S",
     "construction_trades": "g",
-    "other": "k"
+    "other": "y"
   },
   {
-    "intern": "P",
-    "entry_level": "R",
-    "junior": "j",
-    "mid_level": "C",
-    "senior": "L",
-    "lead": "O",
-    "manager": "A",
-    "executive": "D"
+    "intern": "R",
+    "entry_level": "E",
+    "junior": "O",
+    "mid_level": "P",
+    "senior": "C",
+    "lead": "D",
+    "manager": "L",
+    "executive": "A"
   },
   {
     "onsite": {
-      "label": "x",
-      "description": "$",
+      "label": "z",
+      "description": "U",
       "value": "onsite"
     },
     "remote": {
-      "label": "z",
-      "description": "N",
+      "label": "x",
+      "description": "T",
       "value": "remote"
     },
     "hybrid": {
-      "label": "U",
-      "description": "J",
+      "label": "J",
+      "description": "N",
       "value": "hybrid"
+    }
+  },
+  {
+    "full_time": "n",
+    "full_time_contract": "l",
+    "part_time": "s",
+    "contract_to_hire": "o"
+  },
+  {
+    "1": "d",
+    "2": "b"
+  },
+  {
+    "annually": {
+      "label": "d",
+      "value": "1"
+    },
+    "hourly": {
+      "label": "b",
+      "value": "2"
     }
   },
   {
@@ -6998,87 +7002,7 @@
     "component": "sync-ats-jobs"
   },
   {
-    "full_time": "i",
-    "full_time_contract": "r",
-    "part_time": "s",
-    "contract_to_hire": "o"
-  },
-  {
-    "1": "c",
-    "2": "d"
-  },
-  {
-    "annually": {
-      "label": "c",
-      "value": "1"
-    },
-    "hourly": {
-      "label": "d",
-      "value": "2"
-    }
-  },
-  {
     "Affiliate": "Affiliate"
-  },
-  {
-    "DISABLED": "0",
-    "ENABLED": "10",
-    "SYNC_IN_PROGRESS": "20",
-    "SYNC_FAILED": "30"
-  },
-  {
-    "freshteam": "Freshteam",
-    "greenhouse": "Greenhouse",
-    "lever": "Lever",
-    "recruitee": "Recruitee",
-    "sage-hr": "Sage HR",
-    "sap-successfactors": "SAP SuccessFactors",
-    "teamtailor": "Teamtailor",
-    "workable": "Workable",
-    "workday": "Workday"
-  },
-  {
-    "software_engineering": "c",
-    "data_analytics": "u",
-    "product": "d",
-    "design": "m",
-    "marketing": "g",
-    "sales_am": "p",
-    "operations": "y",
-    "people_hr": "f",
-    "finance_accounting": "b",
-    "legal_compliance": "_",
-    "science_engineering": "k",
-    "medical": "h",
-    "construction_trades": "v",
-    "other": "F"
-  },
-  {
-    "intern": "E",
-    "entry_level": "w",
-    "junior": "C",
-    "mid_level": "K",
-    "senior": "T",
-    "lead": "I",
-    "manager": "L",
-    "executive": "Z"
-  },
-  {
-    "onsite": {
-      "label": "P",
-      "description": "O",
-      "value": "onsite"
-    },
-    "remote": {
-      "label": "N",
-      "description": "D",
-      "value": "remote"
-    },
-    "hybrid": {
-      "label": "j",
-      "description": "M",
-      "value": "hybrid"
-    }
   },
   {
     "CONFIG_LOADED": "rweb/verifiedOrgConfig/LOADED",
@@ -7086,7 +7010,7 @@
     "SET_CONFIG": "rweb/verifiedOrgConfig/SET"
   },
   {
-    "fetchStatus": "q.ZP.NONE",
+    "fetchStatus": "W.ZP.NONE",
     "config": "Ta"
   },
   {
@@ -7243,6 +7167,26 @@
   {
     "APPLE_APP_STORE": "1",
     "GOOGLE_PLAY_STORE": "2"
+  },
+  {
+    "full_time": "r",
+    "full_time_contract": "s",
+    "part_time": "i",
+    "contract_to_hire": "o"
+  },
+  {
+    "1": "c",
+    "2": "d"
+  },
+  {
+    "annually": {
+      "label": "c",
+      "value": "1"
+    },
+    "hourly": {
+      "label": "d",
+      "value": "2"
+    }
   },
   {
     "private": "private",

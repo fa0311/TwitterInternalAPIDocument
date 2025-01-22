@@ -899,7 +899,7 @@
         "value": "true"
       },
       "highlights_tweets_upsell_on_pin_action_enabled": {
-        "value": "true"
+        "value": "false"
       },
       "home_timeline_compact_app_bar": {
         "value": "true"
@@ -2110,6 +2110,9 @@
       "responsive_web_translation_feedback_enabled": {
         "value": "true"
       },
+      "responsive_web_trend_ui_compact_cell": {
+        "value": "false"
+      },
       "responsive_web_trends_setting_new_endpoints": {
         "value": "true"
       },
@@ -2370,6 +2373,9 @@
       },
       "rweb_live_broadcast_rewind_enabled": {
         "value": "true"
+      },
+      "rweb_live_dock_enabled": {
+        "value": "false"
       },
       "rweb_master_detail_enabled": {
         "value": "false"
@@ -2884,7 +2890,10 @@
         "value": ""
       },
       "subscriptions_upsells_vo_nav_decoration_enabled": {
-        "value": "false"
+        "value": "true"
+      },
+      "subscriptions_upsells_vo_nav_decoration_variant": {
+        "value": "30_percent_off"
       },
       "subscriptions_verification_info_is_identity_verified_enabled": {
         "value": "true"
@@ -5382,6 +5391,9 @@
         "responsive_web_translation_feedback_enabled": {
           "value": "true"
         },
+        "responsive_web_trend_ui_compact_cell": {
+          "value": "false"
+        },
         "responsive_web_trends_setting_new_endpoints": {
           "value": "true"
         },
@@ -5644,7 +5656,7 @@
           "value": "true"
         },
         "rweb_live_dock_enabled": {
-          "value": "true"
+          "value": "false"
         },
         "rweb_master_detail_enabled": {
           "value": "false"
@@ -6161,6 +6173,9 @@
         "subscriptions_upsells_vo_nav_decoration_enabled": {
           "value": "true"
         },
+        "subscriptions_upsells_vo_nav_decoration_variant": {
+          "value": "30_percent_off"
+        },
         "subscriptions_verification_info_is_identity_verified_enabled": {
           "value": "true"
         },
@@ -6652,10 +6667,10 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "556ac60d7cd84744995130b491e129a0"
+      "settingsVersion": "d32042f05f66fe369c41370d865198d9"
     },
     "debug": {},
-    "featureSetToken": "14fc826c60076213612f53c9064f89607096ea63",
+    "featureSetToken": "688bbd5078fef7a8b5e53f96b6a6a283324b2619",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -6725,7 +6740,7 @@
     "country": "XX",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "173740689923155823",
+    "guestId": "173749330074398518",
     "hasCommunityMemberships": "false",
     "language": "en",
     "ssoInitTokens": {},
