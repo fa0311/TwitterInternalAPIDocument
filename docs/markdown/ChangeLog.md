@@ -5166,3 +5166,17 @@
 - subscriptions_upsells_vo_nav_decoration_variant<br>
 #### remove<br>
 - None<br>
+## 2025/01/23<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- user_ad_accounts_config_enabled<br>
+- vo_upsell_enabled<br>
+- subscriptions_upsells_post_engagements_enabled<br>
+- subscriptions_upsells_post_engagements_variant<br>
+#### remove<br>
+- responsive_web_verified_organizations_new_hiring_landing_enabled<br>
