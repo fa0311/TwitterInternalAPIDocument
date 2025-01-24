@@ -4414,6 +4414,17 @@ Login Required: `...`<br>
 
 #### queryId<br>
 `None`<br>
+## GrokUserEventsLog<br>
+Request URL: `https://x.com/i/api/graphql/AB0damyVo0wBhhebQIwtsg/GrokUserEventsLog`<br>
+Request Method: `POST`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
 ## PaymentMethods<br>
 Request URL: `https://x.com/i/api/graphql/mPF_G9okpbZuLcD6mN8K9g/PaymentMethods`<br>
 Request Method: `GET`<br>
@@ -5945,6 +5956,17 @@ Login Required: `...`<br>
 
 #### queryId<br>
 `None`<br>
+## GrokUserEventsLog<br>
+Request URL: `https://x.com/i/api/graphql/AB0damyVo0wBhhebQIwtsg/GrokUserEventsLog`<br>
+Request Method: `POST`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
 ## SetGrokPreferences<br>
 Request URL: `https://x.com/i/api/graphql/NqLS09LPofalCjVhFolKtA/SetGrokPreferences`<br>
 Request Method: `POST`<br>
@@ -7264,6 +7286,17 @@ Login Required: `...`<br>
 
 #### queryId<br>
 `None`<br>
+## GrokUserEventsLog<br>
+Request URL: `https://x.com/i/api/graphql/AB0damyVo0wBhhebQIwtsg/GrokUserEventsLog`<br>
+Request Method: `POST`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
 ## SetGrokPreferences<br>
 Request URL: `https://x.com/i/api/graphql/NqLS09LPofalCjVhFolKtA/SetGrokPreferences`<br>
 Request Method: `POST`<br>
@@ -7458,6 +7491,17 @@ Login Required: `...`<br>
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
 | responsive_web_enhance_cards_enabled                                    | boolean | False      |
 
+#### queryId<br>
+`None`<br>
+## GrokUserEventsLog<br>
+Request URL: `https://x.com/i/api/graphql/AB0damyVo0wBhhebQIwtsg/GrokUserEventsLog`<br>
+Request Method: `POST`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
 #### queryId<br>
 `None`<br>
 ## SetGrokPreferences<br>
@@ -7780,6 +7824,17 @@ Login Required: `...`<br>
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
 | responsive_web_enhance_cards_enabled                                    | boolean | False      |
 
+#### queryId<br>
+`None`<br>
+## GrokUserEventsLog<br>
+Request URL: `https://x.com/i/api/graphql/AB0damyVo0wBhhebQIwtsg/GrokUserEventsLog`<br>
+Request Method: `POST`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
 #### queryId<br>
 `None`<br>
 ## SetGrokPreferences<br>
