@@ -5180,3 +5180,19 @@
 - subscriptions_upsells_post_engagements_variant<br>
 #### remove<br>
 - responsive_web_verified_organizations_new_hiring_landing_enabled<br>
+## 2025/01/24<br>
+### API<br>
+#### add<br>
+- GrokUserEventsLog<br>
+- GrokUserEventsLog<br>
+- GrokUserEventsLog<br>
+- GrokUserEventsLog<br>
+- GrokUserEventsLog<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- profile_label_improvements_pcf_edit_profile_enabled<br>
+- responsive_web_grok_personality<br>
+#### remove<br>
+- None<br>
