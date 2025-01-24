@@ -224,7 +224,8 @@
     "AudioModule": "AudioModule"
   },
   {
-    "transparent": "transparent"
+    "transparent": "transparent",
+    "modern": "modern"
   },
   {
     "all": "all",
@@ -312,7 +313,8 @@
     "PremiumBasic": "PremiumBasic",
     "PremiumPlus": "PremiumPlus",
     "Radar": "Radar",
-    "VerifiedOrgs": "VerifiedOrgs"
+    "VerifiedOrgs": "VerifiedOrgs",
+    "Analytics": "Analytics"
   },
   {
     "RadarPromoPage": "RadarPromoPage",
@@ -355,7 +357,9 @@
     "DmCard": "DmCard",
     "ReplyBoost": "ReplyBoost",
     "ReplyBoostPopup": "ReplyBoostPopup",
-    "AnalyticsPromoPage": "AnalyticsPromoPage"
+    "AnalyticsPromoPage": "AnalyticsPromoPage",
+    "VerifiedOrgsAdCredit": "VerifiedOrgsAdCredit",
+    "PostAnalytics": "PostAnalytics"
   },
   {
     "Apple": "apple",
@@ -5288,7 +5292,7 @@
     "Default": "ui_defaultLabel",
     "TransparentCursor": "ui_transparentCursor"
   },
-  "{[$.v.FOLLOWS]:\"j\",[$.v.FRIENDS_OF_FRIENDS]:\"U\"}",
+  "{[$.v.FOLLOWS]:\"Q\",[$.v.FRIENDS_OF_FRIENDS]:\"H\"}",
   {
     "Default": "Default",
     "Pivot": "Pivot",
@@ -5844,7 +5848,7 @@
     "SUCCESS": "rweb/scheduledTweets/DELETE_SCHEDULED_TWEET_SUCCESS",
     "FAILURE": "rweb/scheduledTweets/DELETE_SCHEDULED_TWEET_FAILURE"
   },
-  "{\"ActionsBar\":\"y.Z\",\"ActionMenu\":\"function()\"{\"Icon\":\"e\",\"isDisabled\":\"t\",\"items\":\"n\",\"onOpen\":\"i\"}{\"const o=r.useCallback()\"{\"items\":\"n\",\"onCloseRequested\":\"e\"}{\"Icon\":\"e\",\"isDisabled\":\"t\",\"onClick\":\"i\",\"renderActionMenu\":\"o\"}},\"CallToAction\":\"a.ZP\",\"EditCallout\":\"E.Z\",\"Education\":\"T.Z\",\"HighlightedUserLabel\":\"c.Z\",\"Media\":\"v.Z\",\"Place\":\"o.ZP\",\"PromotedDetails\":\"u.Z\",\"PromotedUserProfileCard\":\"P\",\"ReplyContext\":\"A.ZP\",\"RichContent\":\"D.Z\",\"SocialContext\":\"w.Z\",\"Text\":\"L.Z\",\"Tombstone\":\"g.Z\",\"Timestamp\":\"p.Z\",\"UserAvatar\":\"M.Z\",\"UserFollowIndicator\":\"U.Z\",\"UserName\":\"R.Z\",\"ArticleCard\":\"C.Z\"}",
+  "{\"ActionsBar\":\"y.Z\",\"ActionMenu\":\"function()\"{\"Icon\":\"e\",\"isDisabled\":\"t\",\"items\":\"n\",\"onOpen\":\"i\"}{\"const o=r.useCallback()\"{\"items\":\"n\",\"onCloseRequested\":\"e\"}{\"Icon\":\"e\",\"isDisabled\":\"t\",\"onClick\":\"i\",\"renderActionMenu\":\"o\"}},\"CallToAction\":\"a.ZP\",\"EditCallout\":\"E.Z\",\"Education\":\"T.Z\",\"HighlightedUserLabel\":\"c.Z\",\"Media\":\"v.Z\",\"Place\":\"o.ZP\",\"PromotedDetails\":\"u.Z\",\"PromotedUserProfileCard\":\"A\",\"ReplyContext\":\"P.ZP\",\"RichContent\":\"D.Z\",\"SocialContext\":\"w.Z\",\"Text\":\"L.Z\",\"Tombstone\":\"g.Z\",\"Timestamp\":\"h.Z\",\"UserAvatar\":\"M.Z\",\"UserFollowIndicator\":\"U.Z\",\"UserName\":\"R.Z\",\"ArticleCard\":\"C.Z\"}",
   {
     "FOLLOWS": "follows",
     "CREATORS": "creators"
@@ -7070,17 +7074,17 @@
   {
     "onsite": {
       "label": "P",
-      "description": "O",
+      "description": "N",
       "value": "onsite"
     },
     "remote": {
-      "label": "N",
-      "description": "D",
+      "label": "O",
+      "description": "M",
       "value": "remote"
     },
     "hybrid": {
       "label": "j",
-      "description": "M",
+      "description": "D",
       "value": "hybrid"
     }
   },
