@@ -5196,3 +5196,15 @@
 - responsive_web_grok_personality<br>
 #### remove<br>
 - None<br>
+## 2025/01/25<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- responsive_web_grok_expanded_input<br>
+- responsive_web_grok_places_card_enabled<br>
+#### remove<br>
+- None<br>
