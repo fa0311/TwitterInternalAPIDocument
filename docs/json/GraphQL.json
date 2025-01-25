@@ -3711,8 +3711,8 @@
         "featureSwitch": {}
       }
     },
-    "func_name": "o",
-    "func_name_init": "a",
+    "func_name": "a",
+    "func_name_init": "o",
     "query": {
       "flag": "n"
     }
