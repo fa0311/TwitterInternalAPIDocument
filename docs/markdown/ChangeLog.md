@@ -5208,3 +5208,15 @@
 - responsive_web_grok_places_card_enabled<br>
 #### remove<br>
 - None<br>
+## 2025/01/26<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- responsive_web_grok_show_message_post_button<br>
+- responsive_web_grok_search_summary_sidebar<br>
+#### remove<br>
+- None<br>
