@@ -9593,7 +9593,7 @@
     "func_name_init": "w",
     "query": {
       "grokMode": "t",
-      "grokModelOptionId": "s"
+      "grokModelOptionId": "n"
     }
   },
   {
@@ -10699,8 +10699,7 @@
     "func_name": "y",
     "func_name_init": "f",
     "query": {
-      "topicId": "a",
-      "...()(0,o.d)": "_"
+      "grok_share_id": "t"
     }
   },
   {
@@ -14390,6 +14389,19 @@
     }
   },
   {
+    "n": "90427",
+    "exports": {
+      "queryId": "AB0damyVo0wBhhebQIwtsg",
+      "operationName": "GrokUserEventsLog",
+      "operationType": "mutation",
+      "metadata": {
+        "featureSwitches": [],
+        "fieldToggles": [],
+        "featureSwitch": {}
+      }
+    }
+  },
+  {
     "n": "18872",
     "exports": {
       "queryId": "mPF_G9okpbZuLcD6mN8K9g",
@@ -15901,6 +15913,19 @@
             "value": "false"
           }
         }
+      }
+    }
+  },
+  {
+    "n": "90427",
+    "exports": {
+      "queryId": "AB0damyVo0wBhhebQIwtsg",
+      "operationName": "GrokUserEventsLog",
+      "operationType": "mutation",
+      "metadata": {
+        "featureSwitches": [],
+        "fieldToggles": [],
+        "featureSwitch": {}
       }
     }
   },
@@ -18301,6 +18326,19 @@
     }
   },
   {
+    "n": "90427",
+    "exports": {
+      "queryId": "AB0damyVo0wBhhebQIwtsg",
+      "operationName": "GrokUserEventsLog",
+      "operationType": "mutation",
+      "metadata": {
+        "featureSwitches": [],
+        "fieldToggles": [],
+        "featureSwitch": {}
+      }
+    }
+  },
+  {
     "n": "20843",
     "exports": {
       "queryId": "NqLS09LPofalCjVhFolKtA",
@@ -18709,6 +18747,19 @@
             "value": "false"
           }
         }
+      }
+    }
+  },
+  {
+    "n": "90427",
+    "exports": {
+      "queryId": "AB0damyVo0wBhhebQIwtsg",
+      "operationName": "GrokUserEventsLog",
+      "operationType": "mutation",
+      "metadata": {
+        "featureSwitches": [],
+        "fieldToggles": [],
+        "featureSwitch": {}
       }
     }
   },
@@ -19559,6 +19610,19 @@
             "value": "false"
           }
         }
+      }
+    }
+  },
+  {
+    "n": "90427",
+    "exports": {
+      "queryId": "AB0damyVo0wBhhebQIwtsg",
+      "operationName": "GrokUserEventsLog",
+      "operationType": "mutation",
+      "metadata": {
+        "featureSwitches": [],
+        "fieldToggles": [],
+        "featureSwitch": {}
       }
     }
   },
