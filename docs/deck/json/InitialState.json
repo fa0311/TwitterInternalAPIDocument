@@ -6184,7 +6184,7 @@
           "value": "false"
         },
         "subscriptions_upsells_vo_nav_decoration_variant": {
-          "value": "30_percent_off"
+          "value": "last_week"
         },
         "subscriptions_verification_info_is_identity_verified_enabled": {
           "value": "true"
@@ -6677,7 +6677,7 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "98b7ebe3e1a8450d7ed7a29bf3e5a4ed"
+      "settingsVersion": "de1a04377312cd7a93ea63ac5803686c"
     },
     "debug": {},
     "featureSetToken": "0dd198775b5cbe8777732922b760a440a93c00c1",
@@ -6750,7 +6750,7 @@
     "country": "XX",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "173766638628240707",
+    "guestId": "173792555832422042",
     "hasCommunityMemberships": "false",
     "language": "en",
     "ssoInitTokens": {},

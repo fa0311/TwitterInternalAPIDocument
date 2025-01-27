@@ -612,7 +612,7 @@
     }
   },
   "{\"oneColumn\":\"d.primary\",\"twoColumn\":{\"small\":d.primary+d.gutter.left.small+d.secondary.small+d.gutter.right.normal,\"normal\":d.primary+d.gutter.left.normal+d.secondary.normal+d.gutter.right.normal,\"large\":d.primary+d.gutter.left.normal+d.secondary.normal+d.gutter.right.large}}",
-  "{\"oneColumn\":\"o.primary\",\"twoColumn\":{\"small\":o.primary+o.gutter.left.small+o.secondary.small+o.gutter.right.normal,\"normal\":o.primary+o.gutter.left.normal+o.secondary.normal+o.gutter.right.normal,\"large\":o.wide+o.gutter.left.normal+o.secondary.wide+o.gutter.right.large}}",
+  "{\"oneColumn\":\"a.primary\",\"twoColumn\":{\"small\":a.primary+a.gutter.left.small+a.secondary.small+a.gutter.right.normal,\"normal\":a.primary+a.gutter.left.normal+a.secondary.normal+a.gutter.right.normal,\"large\":a.wide+a.gutter.left.normal+a.secondary.wide+a.gutter.right.large}}",
   {
     "normal": "300"
   },
@@ -627,8 +627,8 @@
   {
     "cardWidth": "s",
     "columnWidths": "d",
-    "columnWidthsRedesign": "o",
-    "sideNavWidths": "a",
+    "columnWidthsRedesign": "a",
+    "sideNavWidths": "o",
     "sideNavWidthsRedesign": "r",
     "contentWidths": "i",
     "contentWidthsRedesign": "l",
@@ -767,7 +767,8 @@
     "updateName": "updateName",
     "updateAddress": "updateAddress",
     "updatePin": "updatePin",
-    "checkPendingTransactions": "checkPendingTransactions"
+    "checkPendingTransactions": "checkPendingTransactions",
+    "challenge": "challenge"
   },
   {
     "tier2": "tier2",
@@ -807,7 +808,7 @@
     "TREND_VIEW": "trend_view",
     "TREND_CLICK": "trend_click"
   },
-  "{[o.Z.CASHTAG]:\"void 0\",[o.Z.EMOJI]:\"void 0\",[o.Z.HASHTAG]:\"a.HASHTAG_CLICK\",[o.Z.MEDIA]:\"void 0\",[o.Z.MENTION]:\"a.USER_MENTION_CLICK\",[o.Z.TEXT]:\"void 0\",[o.Z.TIMESTAMP]:\"void 0\",[o.Z.URL]:\"a.URL_CLICK\"}",
+  "{[a.Z.CASHTAG]:\"void 0\",[a.Z.EMOJI]:\"void 0\",[a.Z.HASHTAG]:\"o.HASHTAG_CLICK\",[a.Z.MEDIA]:\"void 0\",[a.Z.MENTION]:\"o.USER_MENTION_CLICK\",[a.Z.TEXT]:\"void 0\",[a.Z.TIMESTAMP]:\"void 0\",[a.Z.URL]:\"o.URL_CLICK\"}",
   {
     "TWEET": "tweets",
     "USER": "users"
@@ -1133,7 +1134,7 @@
   },
   {
     "...d": "_",
-    "...o": "_",
+    "...a": "_",
     "FacepileGroup": "FacepileGroup",
     "Community": "Community",
     "Pin": "Pin",
@@ -1255,7 +1256,7 @@
   },
   {
     "memberships": [],
-    "fetchStatus": "a.ZP.NONE"
+    "fetchStatus": "o.ZP.NONE"
   },
   {
     "UPDATE_USERS": "UPDATE_USERS"
@@ -1371,8 +1372,8 @@
   "{[s.HOME]:\"home\",[s.HOME_LATEST]:\"latest\",[s.LIST]:\"pinned_list\",[s.CREATOR_SUBSCRIPTIONS]:\"subscribed\",[s.COMMUNITY]:\"community\",[s.GENERIC]:\"generic\"}",
   {
     "fetchStatus": "y.ZP.NONE",
-    "selectedTimeline": "o.oO",
-    "sort": "o.UO.RELEVANCE",
+    "selectedTimeline": "a.oO",
+    "sort": "a.UO.RELEVANCE",
     "timelines": []
   },
   {
@@ -1522,33 +1523,33 @@
     "NoMatch": "noMatch"
   },
   {
-    "AU": "()(0,o.ju)",
-    "BR": "(\"https://legal.x.com/ads-terms/apac.html\")(0,o.ju)",
-    "GB": "(\"https://legal.x.com/ads-terms/brazil.html\")(0,o.ju)",
-    "ID": "(\"https://legal.x.com/ads-terms/uk.html\")(0,o.ju)",
-    "JP": "(\"https://legal.x.com/ads-terms/indonesia.html\")(0,o.ju)",
-    "NZ": "(\"https://legal.x.com/ads-terms/japan.html\")(0,o.ju)",
-    "US": "(\"https://legal.x.com/ads-terms/apac.html\")(0,o.ju)"
+    "AU": "()(0,a.ju)",
+    "BR": "(\"https://legal.x.com/ads-terms/apac.html\")(0,a.ju)",
+    "GB": "(\"https://legal.x.com/ads-terms/brazil.html\")(0,a.ju)",
+    "ID": "(\"https://legal.x.com/ads-terms/uk.html\")(0,a.ju)",
+    "JP": "(\"https://legal.x.com/ads-terms/indonesia.html\")(0,a.ju)",
+    "NZ": "(\"https://legal.x.com/ads-terms/japan.html\")(0,a.ju)",
+    "US": "(\"https://legal.x.com/ads-terms/apac.html\")(0,a.ju)"
   },
   {
-    "en": "()(0,o.ju)",
-    "de": "(\"https://business.x.com/en/campaign/quick-promote-conditional-coupon-terms.html\")(0,o.ju)",
-    "es": "(\"https://business.x.com/de/campaign/quick-promote-conditional-coupon-terms.html\")(0,o.ju)",
-    "fr": "(\"https://business.x.com/es/campaign/quick-promote-conditional-coupon-terms.html\")(0,o.ju)",
-    "ja": "(\"https://business.x.com/fr/campaign/quick-promote-conditional-coupon-terms.html\")(0,o.ju)",
-    "pt": "(\"https://business.x.com/ja/campaign/quick-promote-conditional-coupon-terms.html\")(0,o.ju)",
-    "ar": "(\"https://business.x.com/pt/campaign/quick-promote-conditional-coupon-terms.html\")(0,o.ju)",
-    "zh-cn": "(\"https://business.x.com/ar/campaign/quick-promote-conditional-coupon-terms.html\")(0,o.ju)"
+    "en": "()(0,a.ju)",
+    "de": "(\"https://business.x.com/en/campaign/quick-promote-conditional-coupon-terms.html\")(0,a.ju)",
+    "es": "(\"https://business.x.com/de/campaign/quick-promote-conditional-coupon-terms.html\")(0,a.ju)",
+    "fr": "(\"https://business.x.com/es/campaign/quick-promote-conditional-coupon-terms.html\")(0,a.ju)",
+    "ja": "(\"https://business.x.com/fr/campaign/quick-promote-conditional-coupon-terms.html\")(0,a.ju)",
+    "pt": "(\"https://business.x.com/ja/campaign/quick-promote-conditional-coupon-terms.html\")(0,a.ju)",
+    "ar": "(\"https://business.x.com/pt/campaign/quick-promote-conditional-coupon-terms.html\")(0,a.ju)",
+    "zh-cn": "(\"https://business.x.com/ar/campaign/quick-promote-conditional-coupon-terms.html\")(0,a.ju)"
   },
   {
-    "en": "()(0,o.ju)",
-    "de": "(\"https://business.x.com/en/campaign/quick-promote-coupon-terms.html\")(0,o.ju)",
-    "es": "(\"https://business.x.com/de/campaign/quick-promote-coupon-terms.html\")(0,o.ju)",
-    "fr": "(\"https://business.x.com/es/campaign/quick-promote-coupon-terms.html\")(0,o.ju)",
-    "ja": "(\"https://business.x.com/fr/campaign/quick-promote-coupon-terms.html\")(0,o.ju)",
-    "pt": "(\"https://business.x.com/ja/campaign/quick-promote-coupon-terms.html\")(0,o.ju)",
-    "ar": "(\"https://business.x.com/pt/campaign/quick-promote-coupon-terms.html\")(0,o.ju)",
-    "zh-cn": "(\"https://business.x.com/ar/campaign/quick-promote-coupon-terms.html\")(0,o.ju)"
+    "en": "()(0,a.ju)",
+    "de": "(\"https://business.x.com/en/campaign/quick-promote-coupon-terms.html\")(0,a.ju)",
+    "es": "(\"https://business.x.com/de/campaign/quick-promote-coupon-terms.html\")(0,a.ju)",
+    "fr": "(\"https://business.x.com/es/campaign/quick-promote-coupon-terms.html\")(0,a.ju)",
+    "ja": "(\"https://business.x.com/fr/campaign/quick-promote-coupon-terms.html\")(0,a.ju)",
+    "pt": "(\"https://business.x.com/ja/campaign/quick-promote-coupon-terms.html\")(0,a.ju)",
+    "ar": "(\"https://business.x.com/pt/campaign/quick-promote-coupon-terms.html\")(0,a.ju)",
+    "zh-cn": "(\"https://business.x.com/ar/campaign/quick-promote-coupon-terms.html\")(0,a.ju)"
   },
   {
     "All": "all",
@@ -1763,7 +1764,7 @@
     "testNumber": "1",
     "testViewCountShow": "!0"
   },
-  "{\"avatarURIForHashtagHighlight\":\"void 0\",\"birdwatchPivotsEnabled\":\"!0\",\"c9sEnabled\":\"!1\",\"c9sThemesEnabled\":\"!1\",\"c9sHashtagsEnabled\":\"!1\",\"cardCarouselClickableNavArea\":\"control\",\"collectionAdsEnabled\":\"!1\",\"shouldConvertCollectionToImageWebsiteCard\":\"!1\",\"dpaMetadataEnabled\":\"!1\",\"dpaCtaEnabled\":\"!1\",\"dpaPlaceholderMediaKeys\":\"!1\",\"explorerAdsEnabled\":\"!1\",\"fosnrSoftInterventionsEnabled\":\"!1\",\"grokShareEnabled\":\"!1\",\"continueInGrokEnabled\":\"!1\",\"openGrok\":()=>{},\"withEditCallout\":\"!1\",\"withEdgeToEdgeContent\":\"!1\",\"withEdgeToEdgeTweetAnatomy\":\"!1\",\"highlightedHashtag\":\"void 0\",\"isCopyrightDisputeLinkEnabled\":\"!1\",\"isDeveloperBuiltCardEnabled\":\"!1\",\"isDMDrawer\":\"!1\",\"isEditTweetConsumptionEnabled\":\"!1\",\"nonSafariShouldUseCardCarouselV2\":\"!1\",\"withMediaCarousel\":\"!1\",\"onMediaHashtagHighlightClick\":\"void 0\",\"safariShouldUseCardCarouselV2\":\"control\",\"sensitiveMediaWarningsEnabled\":\"!1\",\"mediaVisibilityResultsEnabled\":\"!1\",\"shouldPreconnectToCardDestinations\":\"!1\",\"showSimilarPostsPivotEnabled\":\"!0\",\"shouldUseSmallFontForHashtagHighlight\":\"!1\",\"trustedFriendsEnabled\":\"!1\",\"trustedFriendsCreationEnabled\":\"!1\",\"socialContextRefreshEnabled\":\"!1\",\"trustedFriendsInfo\":\"void 0\",\"isCarouselItem\":\"!1\",\"followButtonAtBottomOfPromotedUserCard\":\"!1\",\"tweetMediaItemImmersiveViewerEntryPoint\":\"void 0\",\"withVodTweetDetailAttribution\":\"!1\",\"isEmbedBrandLinkExperimentEnabled\":\"!1\",\"isSoftBlockEnabled\":\"!1\",\"userAvatarLabel\":\"!1\",\"canVerifiedCrawlerConsumeSensitiveMedia\":\"!1\",\"shouldUseLocaleContextDirection\":\"!1\",\"blueBusinessVerifiedBadgeEnabled\":\"!1\",\"blueBusinessAffiliateBadgeEnabled\":\"!1\",\"blueGovernmentVerifiedBadgeEnabled\":\"!1\",\"newBadgeColorEnabled\":\"!1\",\"tweetViewCountsEnabled\":\"!1\",\"webImageLargeWebpVariants\":\"!1\",\"redesignedLabelForSubscribedTweets\":\"!1\",\"renderArticleCardInTweet\":\"!1\",\"renderCompactCardDetail\":\"!1\",\"roundCountInTweetAction\":\"!0\",\"isWebRedesign\":\"!1\",\"...a\":\"_\"}",
+  "{\"avatarURIForHashtagHighlight\":\"void 0\",\"birdwatchPivotsEnabled\":\"!0\",\"c9sEnabled\":\"!1\",\"c9sThemesEnabled\":\"!1\",\"c9sHashtagsEnabled\":\"!1\",\"cardCarouselClickableNavArea\":\"control\",\"collectionAdsEnabled\":\"!1\",\"shouldConvertCollectionToImageWebsiteCard\":\"!1\",\"dpaMetadataEnabled\":\"!1\",\"dpaCtaEnabled\":\"!1\",\"dpaPlaceholderMediaKeys\":\"!1\",\"explorerAdsEnabled\":\"!1\",\"fosnrSoftInterventionsEnabled\":\"!1\",\"grokShareEnabled\":\"!1\",\"continueInGrokEnabled\":\"!1\",\"openGrok\":()=>{},\"withEditCallout\":\"!1\",\"withEdgeToEdgeContent\":\"!1\",\"withEdgeToEdgeTweetAnatomy\":\"!1\",\"highlightedHashtag\":\"void 0\",\"isCopyrightDisputeLinkEnabled\":\"!1\",\"isDeveloperBuiltCardEnabled\":\"!1\",\"isDMDrawer\":\"!1\",\"isEditTweetConsumptionEnabled\":\"!1\",\"nonSafariShouldUseCardCarouselV2\":\"!1\",\"withMediaCarousel\":\"!1\",\"onMediaHashtagHighlightClick\":\"void 0\",\"safariShouldUseCardCarouselV2\":\"control\",\"sensitiveMediaWarningsEnabled\":\"!1\",\"mediaVisibilityResultsEnabled\":\"!1\",\"shouldPreconnectToCardDestinations\":\"!1\",\"showSimilarPostsPivotEnabled\":\"!0\",\"shouldUseSmallFontForHashtagHighlight\":\"!1\",\"trustedFriendsEnabled\":\"!1\",\"trustedFriendsCreationEnabled\":\"!1\",\"socialContextRefreshEnabled\":\"!1\",\"trustedFriendsInfo\":\"void 0\",\"isCarouselItem\":\"!1\",\"followButtonAtBottomOfPromotedUserCard\":\"!1\",\"tweetMediaItemImmersiveViewerEntryPoint\":\"void 0\",\"withVodTweetDetailAttribution\":\"!1\",\"isEmbedBrandLinkExperimentEnabled\":\"!1\",\"isSoftBlockEnabled\":\"!1\",\"userAvatarLabel\":\"!1\",\"canVerifiedCrawlerConsumeSensitiveMedia\":\"!1\",\"shouldUseLocaleContextDirection\":\"!1\",\"blueBusinessVerifiedBadgeEnabled\":\"!1\",\"blueBusinessAffiliateBadgeEnabled\":\"!1\",\"blueGovernmentVerifiedBadgeEnabled\":\"!1\",\"newBadgeColorEnabled\":\"!1\",\"tweetViewCountsEnabled\":\"!1\",\"webImageLargeWebpVariants\":\"!1\",\"redesignedLabelForSubscribedTweets\":\"!1\",\"renderArticleCardInTweet\":\"!1\",\"renderCompactCardDetail\":\"!1\",\"roundCountInTweetAction\":\"!0\",\"isWebRedesign\":\"!1\",\"...o\":\"_\"}",
   {
     "CommunityNotes": "CommunityNotes",
     "LiveEvent": "LiveEvent",
@@ -2024,7 +2025,8 @@
   },
   {
     "up": "up",
-    "down": "down"
+    "down": "down",
+    "center": "center"
   },
   {
     "start": "start",
@@ -2097,7 +2099,7 @@
   },
   {
     "...i()": "_",
-    "activeFaintGray": "rgba(a.CV.light)",
+    "activeFaintGray": "rgba(o.CV.light)",
     "activeBlack": "r.bs.black(230, 236, 240, 0.7)",
     "hoverBlack": "r.bs.black(.07)",
     "navigationBackground": "r.Cj",
@@ -2140,7 +2142,7 @@
   },
   {
     "...i()": "_",
-    "activeFaintGray": "rgba(a.CV.dark)",
+    "activeFaintGray": "rgba(o.CV.dark)",
     "activeBlack": "r.bs.white(20, 29, 38, 0.7)",
     "hoverBlack": "r.bs.white(.07)",
     "navigationBackground": "#15202B",
@@ -2177,7 +2179,7 @@
   },
   {
     "...i()": "_",
-    "activeFaintGray": "rgba(a.CV.darker)",
+    "activeFaintGray": "rgba(o.CV.darker)",
     "activeBlack": "r.bs.white(18, 21, 23, 0.7)",
     "hoverBlack": "r.bs.white(.07)",
     "navigationBackground": "r.E5",
@@ -2219,7 +2221,7 @@
   },
   {
     "...i()": "_",
-    "activeFaintGray": "rgba(a.CV.business)",
+    "activeFaintGray": "rgba(o.CV.business)",
     "activeBlack": "r.bs.white(20, 29, 38, 0.7)",
     "hoverBlack": "r.bs.white(.07)",
     "navigationBackground": "#010c12",
@@ -2263,7 +2265,7 @@
     "space80": "m(p.spaces.space72)"
   },
   {
-    "appBarHeight": "f",
+    "appBarHeight": "v",
     "appBarHeightPx": "M",
     "conversationLineWidth": "w.space2",
     "gutterHorizontal": "_.space16",
@@ -2278,8 +2280,8 @@
     "borderRadiiPx": "l",
     "borderWidths": "c",
     "borderWidthsPx": "u",
-    "breakpoints": "a",
-    "componentDimensions": "v",
+    "breakpoints": "o",
+    "componentDimensions": "f",
     "componentZIndices": "r",
     "fontSizes": "y",
     "fontSizesPx": "D",
@@ -2291,7 +2293,7 @@
     "spaces": "_",
     "spacesPx": "w"
   },
-  "{\"...p()\":{\"scale\":\"r\",\"scales\":\"i\"}\"an0\",A.obt,n,\"o\"}",
+  "{\"...p()\":{\"scale\":\"r\",\"scales\":\"i\"}\"on0\",A.obt,n,\"a\"}",
   {
     "BROADCAST": "broadcast",
     "DM": "dm",
@@ -3080,7 +3082,6 @@
     "Spaces": "Spaces",
     "Subscription": "Subscriptions",
     "SuperFollows": "SuperFollows",
-    "T1Labs": "T1Labs",
     "Tagging": "Tagging",
     "TailoredAudiences": "TailoredAudiences",
     "TemporaryPassword": "TemporaryPassword",
@@ -3853,6 +3854,11 @@
     "REQUEST": "rweb/CLEAR_CONVERSATIONS/REQUEST",
     "SUCCESS": "rweb/CLEAR_CONVERSATIONS/SUCCESS",
     "FAILURE": "rweb/CLEAR_CONVERSATIONS/FAILURE"
+  },
+  {
+    "REQUEST": "rweb/GROK_USER_EVENTS_LOG/REQUEST",
+    "SUCCESS": "rweb/GROK_USER_EVENTS_LOG/SUCCESS",
+    "FAILURE": "rweb/GROK_USER_EVENTS_LOG/FAILURE"
   },
   {
     "HUMAN": "1",
@@ -4871,6 +4877,7 @@
     "Unspecified": "Unspecified"
   },
   {
+    "Banking": "Banking",
     "Ecommerce": "Ecommerce",
     "Interest": "Interest",
     "Transfer": "Transfer"
@@ -4919,6 +4926,8 @@
     "RejectedByAutoReview": "RejectedByAutoReview",
     "RejectedByManualReview": "RejectedByManualReview",
     "RejectedByUnsupportedRegion": "RejectedByUnsupportedRegion",
+    "RejectedLimitsExceeded": "RejectedLimitsExceeded",
+    "RejectedNotSufficientFunds": "RejectedNotSufficientFunds",
     "Returned": "Returned",
     "ReversedByAgent": "ReversedByAgent",
     "Unspecified": "Unspecified"
@@ -4973,6 +4982,26 @@
     "INFINITE": "infinite",
     "MEDIUM": "medium",
     "NONE": "none"
+  },
+  {
+    "full_time": "n",
+    "full_time_contract": "c",
+    "part_time": "i",
+    "contract_to_hire": "o"
+  },
+  {
+    "1": "p",
+    "2": "u"
+  },
+  {
+    "annually": {
+      "label": "p",
+      "value": "1"
+    },
+    "hourly": {
+      "label": "u",
+      "value": "2"
+    }
   },
   {
     "FILL": "Fill",
@@ -5043,26 +5072,6 @@
     "VIDEO_WEBSITE": "video_website",
     "MULTI_DEST_PRODUCT_CAROUSEL_WEBSITE": "multi_dest_product_carousel_website",
     "TWITTER_ARTICLE": "twitter_article"
-  },
-  {
-    "full_time": "n",
-    "full_time_contract": "o",
-    "part_time": "s",
-    "contract_to_hire": "l"
-  },
-  {
-    "1": "c",
-    "2": "u"
-  },
-  {
-    "annually": {
-      "label": "c",
-      "value": "1"
-    },
-    "hourly": {
-      "label": "u",
-      "value": "2"
-    }
   },
   {
     "Composition": "composition",
@@ -5144,6 +5153,11 @@
     "REQUEST": "rweb/CLEAR_CONVERSATIONS/REQUEST",
     "SUCCESS": "rweb/CLEAR_CONVERSATIONS/SUCCESS",
     "FAILURE": "rweb/CLEAR_CONVERSATIONS/FAILURE"
+  },
+  {
+    "REQUEST": "rweb/GROK_USER_EVENTS_LOG/REQUEST",
+    "SUCCESS": "rweb/GROK_USER_EVENTS_LOG/SUCCESS",
+    "FAILURE": "rweb/GROK_USER_EVENTS_LOG/FAILURE"
   },
   {
     "HUMAN": "1",
@@ -6364,6 +6378,11 @@
     "FAILURE": "rweb/CLEAR_CONVERSATIONS/FAILURE"
   },
   {
+    "REQUEST": "rweb/GROK_USER_EVENTS_LOG/REQUEST",
+    "SUCCESS": "rweb/GROK_USER_EVENTS_LOG/SUCCESS",
+    "FAILURE": "rweb/GROK_USER_EVENTS_LOG/FAILURE"
+  },
+  {
     "Ads": "Ads",
     "AppleAppStore": "AppleAppStore",
     "Gift": "Gift",
@@ -6555,6 +6574,11 @@
     "FAILURE": "rweb/CLEAR_CONVERSATIONS/FAILURE"
   },
   {
+    "REQUEST": "rweb/GROK_USER_EVENTS_LOG/REQUEST",
+    "SUCCESS": "rweb/GROK_USER_EVENTS_LOG/SUCCESS",
+    "FAILURE": "rweb/GROK_USER_EVENTS_LOG/FAILURE"
+  },
+  {
     "HUMAN": "1",
     "ASSISTANT": "2"
   },
@@ -6666,22 +6690,30 @@
     "COMPARISON": "COMPARISON"
   },
   {
-    "preMarket": "g().a50aaa10",
-    "today": "g().g02dacc0",
-    "afterHours": "g().dd614d10"
+    "preMarket": "i().a50aaa10",
+    "today": "i().g02dacc0",
+    "afterHours": "i().dd614d10"
+  },
+  {
+    "PRICE_LEVEL_UNSPECIFIED": "",
+    "PRICE_LEVEL_FREE": "",
+    "PRICE_LEVEL_INEXPENSIVE": "$",
+    "PRICE_LEVEL_MODERATE": "$$",
+    "PRICE_LEVEL_EXPENSIVE": "$$$",
+    "PRICE_LEVEL_VERY_EXPENSIVE": "$$$$"
   },
   {
     "OVERVIEW": {
       "id": "OVERVIEW",
-      "label": "g().d59dbf8a"
+      "label": "i().d59dbf8a"
     },
     "MATCHES": {
       "id": "GAMES",
-      "label": "g().e2811afc"
+      "label": "i().e2811afc"
     },
     "STANDINGS": {
       "id": "STANDINGS",
-      "label": "g().j081fa34"
+      "label": "i().j081fa34"
     }
   },
   {
@@ -7074,17 +7106,17 @@
   {
     "onsite": {
       "label": "P",
-      "description": "N",
+      "description": "M",
       "value": "onsite"
     },
     "remote": {
       "label": "O",
-      "description": "M",
+      "description": "D",
       "value": "remote"
     },
     "hybrid": {
       "label": "j",
-      "description": "D",
+      "description": "N",
       "value": "hybrid"
     }
   },
@@ -7094,7 +7126,7 @@
     "SET_CONFIG": "rweb/verifiedOrgConfig/SET"
   },
   {
-    "fetchStatus": "q.ZP.NONE",
+    "fetchStatus": "Q.ZP.NONE",
     "config": "Ta"
   },
   {
@@ -7527,6 +7559,11 @@
     "FAILURE": "rweb/CLEAR_CONVERSATIONS/FAILURE"
   },
   {
+    "REQUEST": "rweb/GROK_USER_EVENTS_LOG/REQUEST",
+    "SUCCESS": "rweb/GROK_USER_EVENTS_LOG/SUCCESS",
+    "FAILURE": "rweb/GROK_USER_EVENTS_LOG/FAILURE"
+  },
+  {
     "HUMAN": "1",
     "ASSISTANT": "2"
   },
@@ -7582,11 +7619,11 @@
     "articles": "article_tweets"
   },
   "{\"default\":\"()\"{\"screenName\":\"e\"}{\"screenName\":\"e\"}{\"screenName\":\"e\"}{\"screenName\":\"e\"}{\"screenName\":\"e\"}{\"screenName\":\"e\"}{\"screenName\":\"e\"}{\"screenName\":\"e\"}{\"screenName\":\"e\"}{\"screenName\":\"e\"}}",
-  "{\"default\":()=>r().b7363b66,\"with_replies\":()=>r().b7363b66,\"superfollows\":()=>r().ce659062,\"highlights\":()=>r().f1e98cc2,\"articles\":()=>r().d5c743c6}",
-  "{\"default\":()=>r().d1e5e328,\"with_replies\":()=>r().d1e5e328,\"superfollows\":()=>r().hb26a1fe,\"highlights\":()=>r().b7c3572e,\"articles\":()=>r().i8123550}",
+  "{\"default\":()=>o().b7363b66,\"with_replies\":()=>o().b7363b66,\"superfollows\":()=>o().ce659062,\"highlights\":()=>o().f1e98cc2,\"articles\":()=>o().d5c743c6}",
+  "{\"default\":()=>o().d1e5e328,\"with_replies\":()=>o().d1e5e328,\"superfollows\":()=>o().hb26a1fe,\"highlights\":()=>o().b7c3572e,\"articles\":()=>o().i8123550}",
   "{\"default\":\"()\"{\"screenName\":\"e\"}{\"screenName\":\"e\"}{\"screenName\":\"e\"}{\"screenName\":\"e\"}{\"screenName\":\"e\"}{\"screenName\":\"e\"}}",
-  "{\"default\":()=>r().f34dfc18,\"with_replies\":()=>r().f34dfc18,\"superfollows\":()=>r().h9346040,\"articles\":()=>r().i4c3ddc6}",
-  "{\"default\":()=>r().e0118142,\"articles\":()=>r().ee9e42aa}",
+  "{\"default\":()=>o().f34dfc18,\"with_replies\":()=>o().f34dfc18,\"superfollows\":()=>o().h9346040,\"articles\":()=>o().i4c3ddc6}",
+  "{\"default\":()=>o().e0118142,\"articles\":()=>o().ee9e42aa}",
   {
     "default": "/compose/post",
     "articles": "/compose/articles"
@@ -7869,26 +7906,6 @@
   {
     "Fixed": "fixed",
     "Variable": "variable"
-  },
-  {
-    "full_time": "l",
-    "full_time_contract": "a",
-    "part_time": "i",
-    "contract_to_hire": "c"
-  },
-  {
-    "1": "d",
-    "2": "f"
-  },
-  {
-    "annually": {
-      "label": "d",
-      "value": "1"
-    },
-    "hourly": {
-      "label": "f",
-      "value": "2"
-    }
   },
   {
     "single_line": "singleline",

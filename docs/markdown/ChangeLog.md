@@ -5180,3 +5180,43 @@
 - subscriptions_upsells_post_engagements_variant<br>
 #### remove<br>
 - responsive_web_verified_organizations_new_hiring_landing_enabled<br>
+## 2025/01/24<br>
+### API<br>
+#### add<br>
+- GrokUserEventsLog<br>
+- GrokUserEventsLog<br>
+- GrokUserEventsLog<br>
+- GrokUserEventsLog<br>
+- GrokUserEventsLog<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- profile_label_improvements_pcf_edit_profile_enabled<br>
+- responsive_web_grok_personality<br>
+#### remove<br>
+- None<br>
+## 2025/01/25<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- responsive_web_grok_expanded_input<br>
+- responsive_web_grok_places_card_enabled<br>
+#### remove<br>
+- None<br>
+## 2025/01/26<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- responsive_web_grok_show_message_post_button<br>
+- responsive_web_grok_search_summary_sidebar<br>
+#### remove<br>
+- None<br>
