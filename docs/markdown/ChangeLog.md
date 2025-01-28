@@ -5236,3 +5236,16 @@
 - communities_non_member_reply_enabled<br>
 #### remove<br>
 - None<br>
+## 2025/01/28<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- responsive_web_verified_organizations_free_upgrade_promo_enabled<br>
+- rweb_sourcemap_migration_side_expand_by_default<br>
+- subscriptions_branding_checkmark_logo_enabled<br>
+#### remove<br>
+- None<br>
