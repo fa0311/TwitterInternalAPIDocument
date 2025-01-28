@@ -4082,6 +4082,12 @@
         "responsive_web_enhance_cards_enabled": false
       }
     },
+    "GrokUserEventsLog": {
+      "url": "https://x.com/i/api/graphql/AB0damyVo0wBhhebQIwtsg/GrokUserEventsLog",
+      "queryId": "AB0damyVo0wBhhebQIwtsg",
+      "method": "POST",
+      "features": {}
+    },
     "PaymentMethods": {
       "url": "https://x.com/i/api/graphql/mPF_G9okpbZuLcD6mN8K9g/PaymentMethods",
       "queryId": "mPF_G9okpbZuLcD6mN8K9g",

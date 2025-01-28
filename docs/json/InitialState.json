@@ -1201,10 +1201,16 @@
           "ja"
         ]
       },
+      "payments_account_details_enabled": {
+        "value": "false"
+      },
       "payments_interest_enabled": {
         "value": "false"
       },
       "payments_pin_enabled": {
+        "value": "false"
+      },
+      "payments_pin_link_payment_methods_enabled": {
         "value": "false"
       },
       "payments_pin_login_enabled": {
@@ -1783,6 +1789,9 @@
       "responsive_web_grok_search_summary_images_enabled": {
         "value": "true"
       },
+      "responsive_web_grok_search_summary_sidebar": {
+        "value": "true"
+      },
       "responsive_web_grok_share_attachment_enabled": {
         "value": "true"
       },
@@ -1799,7 +1808,7 @@
         "value": "false"
       },
       "responsive_web_grok_show_message_post_button": {
-        "value": "false"
+        "value": "true"
       },
       "responsive_web_grok_sport_cards_enabled": {
         "value": "false"
@@ -1926,6 +1935,9 @@
       },
       "responsive_web_login_signup_sheet_app_install_cta_enabled": {
         "value": "true"
+      },
+      "responsive_web_media_download_video_share_menu_enabled": {
+        "value": "false"
       },
       "responsive_web_media_upload_limit_2g": {
         "value": "250"
@@ -2868,6 +2880,9 @@
       "subscriptions_upsells_post_composer_variant": {
         "value": ""
       },
+      "subscriptions_upsells_post_details_analytics_enabled": {
+        "value": "false"
+      },
       "subscriptions_upsells_post_engagements_enabled": {
         "value": "false"
       },
@@ -3379,6 +3394,9 @@
       "web_video_transcribed_captions_enabled": {
         "value": "true"
       },
+      "x_jetfuel_enable_test_cluster": {
+        "value": "false"
+      },
       "xprofile_blocked_by_view_enabled": {
         "value": "true"
       },
@@ -3881,6 +3899,9 @@
         },
         "communities_moderation_log_enabled": {
           "value": "true"
+        },
+        "communities_non_member_reply_enabled": {
+          "value": "false"
         },
         "communities_show_broadcast_option_in_composer": {
           "value": "true"
@@ -4506,10 +4527,16 @@
             "ja"
           ]
         },
+        "payments_account_details_enabled": {
+          "value": "false"
+        },
         "payments_interest_enabled": {
           "value": "false"
         },
         "payments_pin_enabled": {
+          "value": "false"
+        },
+        "payments_pin_link_payment_methods_enabled": {
           "value": "false"
         },
         "payments_pin_login_enabled": {
@@ -4981,7 +5008,7 @@
           "value": "false"
         },
         "responsive_web_grok_expanded_input": {
-          "value": "false"
+          "value": "true"
         },
         "responsive_web_grok_feed": {
           "value": "false"
@@ -5234,6 +5261,9 @@
         },
         "responsive_web_login_signup_sheet_app_install_cta_enabled": {
           "value": "true"
+        },
+        "responsive_web_media_download_video_share_menu_enabled": {
+          "value": "false"
         },
         "responsive_web_media_upload_limit_2g": {
           "value": "250"
@@ -6176,6 +6206,9 @@
         "subscriptions_upsells_post_composer_variant": {
           "value": ""
         },
+        "subscriptions_upsells_post_details_analytics_enabled": {
+          "value": "false"
+        },
         "subscriptions_upsells_post_engagements_enabled": {
           "value": "false"
         },
@@ -6219,7 +6252,7 @@
           "value": "true"
         },
         "subscriptions_upsells_vo_nav_decoration_variant": {
-          "value": "last_week"
+          "value": "30_percent_off"
         },
         "subscriptions_verification_info_is_identity_verified_enabled": {
           "value": "true"
@@ -6687,6 +6720,9 @@
         "web_video_transcribed_captions_enabled": {
           "value": "true"
         },
+        "x_jetfuel_enable_test_cluster": {
+          "value": "false"
+        },
         "xprofile_blocked_by_view_enabled": {
           "value": "true"
         },
@@ -6718,10 +6754,10 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "27fa51b33c87d87b74583b52a316d0f5"
+      "settingsVersion": "60a55752f98fb81a561aebaa06fdb265"
     },
     "debug": {},
-    "featureSetToken": "2672259ef72323603e7e12ed902b3aeb5a5f8c0b",
+    "featureSetToken": "81d83d4729847b6a3fe22050f4aa8552d661013e",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -6791,7 +6827,7 @@
     "country": "XX",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "173792529199763514",
+    "guestId": "173801170025767884",
     "hasCommunityMemberships": "false",
     "language": "en",
     "ssoInitTokens": {},

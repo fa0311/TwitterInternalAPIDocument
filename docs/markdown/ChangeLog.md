@@ -5220,3 +5220,19 @@
 - responsive_web_grok_search_summary_sidebar<br>
 #### remove<br>
 - None<br>
+## 2025/01/27<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- payments_account_details_enabled<br>
+- payments_pin_link_payment_methods_enabled<br>
+- responsive_web_media_download_video_share_menu_enabled<br>
+- subscriptions_upsells_post_details_analytics_enabled<br>
+- x_jetfuel_enable_test_cluster<br>
+- communities_non_member_reply_enabled<br>
+#### remove<br>
+- None<br>
