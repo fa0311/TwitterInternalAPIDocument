@@ -191,7 +191,7 @@
     "ArrowRight": "void 0"
   },
   {
-    "...t": "_"
+    "...d": "_"
   },
   {
     "...i": "_"
@@ -290,7 +290,7 @@
     "Payments": "9",
     "CommunityNotes": "10",
     "VerifiedOrgDash": "11",
-    "Verified": "12",
+    "PremiumSignup": "12",
     "Spaces": "13",
     "VerifiedOrgSignup": "14",
     "Bookmarks": "15",
@@ -601,17 +601,17 @@
   },
   {
     "collapsed": {
-      "small": "64",
-      "normal": "88"
+      "small": "112",
+      "normal": "112"
     },
-    "expanded": "112",
+    "expanded": "267",
     "gutter": {
       "start": {
         "large": "0"
       }
     }
   },
-  "{\"oneColumn\":\"d.primary\",\"twoColumn\":{\"small\":d.primary+d.gutter.left.small+d.secondary.small+d.gutter.right.normal,\"normal\":d.primary+d.gutter.left.normal+d.secondary.normal+d.gutter.right.normal,\"large\":d.primary+d.gutter.left.normal+d.secondary.normal+d.gutter.right.large}}",
+  "{\"oneColumn\":\"t.primary\",\"twoColumn\":{\"small\":t.primary+t.gutter.left.small+t.secondary.small+t.gutter.right.normal,\"normal\":t.primary+t.gutter.left.normal+t.secondary.normal+t.gutter.right.normal,\"large\":t.primary+t.gutter.left.normal+t.secondary.normal+t.gutter.right.large}}",
   "{\"oneColumn\":\"a.primary\",\"twoColumn\":{\"small\":a.primary+a.gutter.left.small+a.secondary.small+a.gutter.right.normal,\"normal\":a.primary+a.gutter.left.normal+a.secondary.normal+a.gutter.right.normal,\"large\":a.wide+a.gutter.left.normal+a.secondary.wide+a.gutter.right.large}}",
   {
     "normal": "300"
@@ -626,7 +626,7 @@
   },
   {
     "cardWidth": "s",
-    "columnWidths": "d",
+    "columnWidths": "t",
     "columnWidthsRedesign": "a",
     "sideNavWidths": "o",
     "sideNavWidthsRedesign": "r",
@@ -789,7 +789,7 @@
     "pro": "pro"
   },
   {
-    "...d.YE": "_",
+    "...t.YE": "_",
     "EMBEDDED_MEDIA": "embedded_media",
     "FOOTER_PROFILE": "footer_profile",
     "HASHTAG_CLICK": "hashtag_click",
@@ -1133,7 +1133,7 @@
     "NewTweets": "NewTweets"
   },
   {
-    "...d": "_",
+    "...t": "_",
     "...a": "_",
     "FacepileGroup": "FacepileGroup",
     "Community": "Community",
@@ -1411,12 +1411,12 @@
     "TOP": "top"
   },
   {
-    "down_cursor": "d.BOTTOM",
-    "max_id": "d.BOTTOM",
-    "max_position": "d.BOTTOM",
-    "min_position": "d.TOP",
-    "since_id": "d.TOP",
-    "up_cursor": "d.TOP"
+    "down_cursor": "t.BOTTOM",
+    "max_id": "t.BOTTOM",
+    "max_position": "t.BOTTOM",
+    "min_position": "t.TOP",
+    "since_id": "t.TOP",
+    "up_cursor": "t.TOP"
   },
   {
     "REQUEST": "rweb/typeaheadV2/FETCH_REQUEST",
@@ -1888,7 +1888,7 @@
       "fontSize": "subtext3"
     }
   },
-  "{\"isExternal()\"{\"try\"{const t=r();return this._customIsExternal?this._customIsExternal(e,n){\"hrefHostname\":\"t\",\"href\":\"e\"}}\"catch()\"{\"return!0\"}},\"setIsExternal()\"{\"this._customIsExternal=e\"},\"clearIsExternal()\"{\"this._customIsExternal=null\"},\"onLinkClick()\"{\"this._customOnLinkClick&&this._customOnLinkClick()\"{\"event\":\"e\",\"link\":\"n\",\"newWindowRequested\":\"t\"}},\"setOnLinkClick()\"{\"this._customOnLinkClick=e\"},\"linkProcessor()\"{\"return this._customLinkProcessor?this._customLinkProcessor()\":\"e\"},\"setLinkProcessor()\"{\"this._customLinkProcessor=e\"},\"hrefProcessor()\"{\"return this._customHrefProcessor?this._customHrefProcessor()\":\"e\"},\"setHrefProcessor()\"{\"this._customHrefProcessor=e\"},\"withAnchorless\":e=>\"string\"==typeof e?{\"anchorless\":\"!0\",\"pathname\":\"e\"}:{\"anchorless\":\"!0\",\"...e\":\"_\"},\"setLinkFromUrtUrl()\"{\"this._customLinkFromUrtUrl=e\"},\"getLinkFromUrtUrl()\"{\"return this._customLinkFromUrtUrl?this._customLinkFromUrtUrl()\":{\"external\":\"!0\",\"pathname\":\"e.url\"}}}",
+  "{\"isExternal()\"{\"try\"{const d=r();return this._customIsExternal?this._customIsExternal(e,n){\"hrefHostname\":\"d\",\"href\":\"e\"}}\"catch()\"{\"return!0\"}},\"setIsExternal()\"{\"this._customIsExternal=e\"},\"clearIsExternal()\"{\"this._customIsExternal=null\"},\"onLinkClick()\"{\"this._customOnLinkClick&&this._customOnLinkClick()\"{\"event\":\"e\",\"link\":\"n\",\"newWindowRequested\":\"d\"}},\"setOnLinkClick()\"{\"this._customOnLinkClick=e\"},\"linkProcessor()\"{\"return this._customLinkProcessor?this._customLinkProcessor()\":\"e\"},\"setLinkProcessor()\"{\"this._customLinkProcessor=e\"},\"hrefProcessor()\"{\"return this._customHrefProcessor?this._customHrefProcessor()\":\"e\"},\"setHrefProcessor()\"{\"this._customHrefProcessor=e\"},\"withAnchorless\":e=>\"string\"==typeof e?{\"anchorless\":\"!0\",\"pathname\":\"e\"}:{\"anchorless\":\"!0\",\"...e\":\"_\"},\"setLinkFromUrtUrl()\"{\"this._customLinkFromUrtUrl=e\"},\"getLinkFromUrtUrl()\"{\"return this._customLinkFromUrtUrl?this._customLinkFromUrtUrl()\":{\"external\":\"!0\",\"pathname\":\"e.url\"}}}",
   {
     "x": "x",
     "y": "y"
@@ -1910,7 +1910,7 @@
     "large": "large",
     "xLarge": "xLarge"
   },
-  "{[d.xSmall]:\".9\",[d.small]:\".95\",[d.normal]:\"1\",[d.large]:\"1.1\",[d.xLarge]:\"1.2\"}",
+  "{[t.xSmall]:\".9\",[t.small]:\".95\",[t.normal]:\"1\",[t.large]:\"1.1\",[t.xLarge]:\"1.2\"}",
   {
     "light": "light",
     "dark": "dark",
@@ -2105,21 +2105,21 @@
     "navigationBackground": "r.Cj",
     "navigationBackground95": "r.bs.white(.03)",
     "cellBackground": "r.Cj",
-    "borderColor": "d.default.color.baseColor.gray50",
-    "nestedBorderColor": "d.default.color.baseColor.gray200",
-    "dmReceivedBubbleBackground": "d.default.color.baseColor.gray50",
-    "badgeColor": "d.default.color.baseColor.blue500",
+    "borderColor": "t.default.color.baseColor.gray50",
+    "nestedBorderColor": "t.default.color.baseColor.gray200",
+    "dmReceivedBubbleBackground": "t.default.color.baseColor.gray50",
+    "badgeColor": "t.default.color.baseColor.blue500",
     "maskColor": "r.bs.black(.95)",
     "maskColorNative": "r.bs.black(.4)",
     "hoverLabelColor": "r.bs.black(.4)",
     "elevatedBackground": "r.Cj",
     "elevatedBackgroundShadow": "r.bs.black(.6)",
-    "brandColor": "d.default.color.baseColor.gray1100",
+    "brandColor": "t.default.color.baseColor.gray1100",
     "whiteOnColor": "r.Cj",
-    "buttonBlack": "d.default.color.baseColor.gray1100",
+    "buttonBlack": "t.default.color.baseColor.gray1100",
     "buttonWhite": "r.Cj",
-    "buttonOutlinedBorder": "d.default.color.baseColor.gray200",
-    "buttonDestructionOutlinedBorder": "d.default.color.baseColor.red100",
+    "buttonOutlinedBorder": "t.default.color.baseColor.gray200",
+    "buttonDestructionOutlinedBorder": "t.default.color.baseColor.red100",
     "appBarBackground": "r.bs.white(.1)",
     "appBarFirefoxBackground": "r.bs.white(.85)"
   },
@@ -2131,14 +2131,14 @@
     "gray300": "#697987",
     "gray200": "#697987",
     "gray100": "#E5EAEC",
-    "gray50": "d.default.color.baseColor.gray200",
-    "gray0": "d.default.color.baseColor.gray50",
+    "gray50": "t.default.color.baseColor.gray200",
+    "gray0": "t.default.color.baseColor.gray50",
     "navigationBackground95": "r.Cj",
-    "borderColor": "d.default.color.baseColor.gray300",
-    "nestedBorderColor": "d.default.color.baseColor.gray300",
-    "dmReceivedBubbleBackground": "d.default.color.baseColor.gray200",
+    "borderColor": "t.default.color.baseColor.gray300",
+    "nestedBorderColor": "t.default.color.baseColor.gray300",
+    "dmReceivedBubbleBackground": "t.default.color.baseColor.gray200",
     "badgeColor": "#264A9D",
-    "buttonOutlinedBorder": "d.default.color.baseColor.gray700"
+    "buttonOutlinedBorder": "t.default.color.baseColor.gray700"
   },
   {
     "...i()": "_",
@@ -2151,17 +2151,17 @@
     "borderColor": "#38444D",
     "nestedBorderColor": "#38444D",
     "dmReceivedBubbleBackground": "#3D5466",
-    "badgeColor": "d.default.color.baseColor.blue500",
+    "badgeColor": "t.default.color.baseColor.blue500",
     "maskColor": "r.bs.gray700(.95)",
     "maskColorNative": "r.bs.black(.4)",
     "hoverLabelColor": "r.bs.gray700(.4)",
     "elevatedBackground": "#1C2C3C",
     "elevatedBackgroundShadow": "r.bs.dim(.8)",
-    "brandColor": "d.default.color.baseColor.gray0",
+    "brandColor": "t.default.color.baseColor.gray0",
     "whiteOnColor": "r.Cj",
-    "buttonBlack": "d.default.color.baseColor.gray50",
-    "buttonWhite": "d.default.color.baseColor.gray1100",
-    "buttonOutlinedBorder": "d.default.color.baseColor.gray700",
+    "buttonBlack": "t.default.color.baseColor.gray50",
+    "buttonWhite": "t.default.color.baseColor.gray1100",
+    "buttonOutlinedBorder": "t.default.color.baseColor.gray700",
     "buttonDestructionOutlinedBorder": "#67070F",
     "appBarBackground": "r.bs.dim(.1)",
     "appBarFirefoxBackground": "r.bs.dim(.75)"
@@ -2174,8 +2174,8 @@
     "unreadCellBackground": "#325D7D",
     "dmReceivedBubbleBackground": "#B8CBD9",
     "badgeColor": "#264A9D",
-    "whiteOnColor": "d.default.color.baseColor.gray1100",
-    "buttonOutlinedBorder": "d.default.color.baseColor.gray300"
+    "whiteOnColor": "t.default.color.baseColor.gray1100",
+    "buttonOutlinedBorder": "t.default.color.baseColor.gray300"
   },
   {
     "...i()": "_",
@@ -2189,17 +2189,17 @@
     "borderColor": "#2F3336",
     "nestedBorderColor": "#2F3336",
     "dmReceivedBubbleBackground": "#2F3336",
-    "badgeColor": "d.default.color.baseColor.blue500",
+    "badgeColor": "t.default.color.baseColor.blue500",
     "maskColor": "r.bs.gray700(.95)",
     "maskColorNative": "r.bs.black(.4)",
     "hoverLabelColor": "r.bs.gray700(.4)",
     "elevatedBackground": "#1B2023",
     "elevatedBackgroundShadow": "r.bs.black(.8)",
-    "brandColor": "d.default.color.darkColor.gray1100",
+    "brandColor": "t.default.color.darkColor.gray1100",
     "whiteOnColor": "r.Cj",
-    "buttonBlack": "d.default.color.baseColor.gray50",
-    "buttonWhite": "d.default.color.baseColor.gray1100",
-    "buttonOutlinedBorder": "d.default.color.baseColor.gray700",
+    "buttonBlack": "t.default.color.baseColor.gray50",
+    "buttonWhite": "t.default.color.baseColor.gray1100",
+    "buttonOutlinedBorder": "t.default.color.baseColor.gray700",
     "buttonDestructionOutlinedBorder": "#67070F",
     "appBarBackground": "r.bs.black(.1)",
     "appBarFirefoxBackground": "r.bs.black(.65)"
@@ -2216,8 +2216,8 @@
     "nestedBorderColor": "#3D4145",
     "dmReceivedBubbleBackground": "#929CA6",
     "badgeColor": "#264A9D",
-    "whiteOnColor": "d.default.color.baseColor.gray1100",
-    "buttonOutlinedBorder": "d.default.color.baseColor.gray300"
+    "whiteOnColor": "t.default.color.baseColor.gray1100",
+    "buttonOutlinedBorder": "t.default.color.baseColor.gray300"
   },
   {
     "...i()": "_",
@@ -2230,17 +2230,17 @@
     "borderColor": "#38444D",
     "nestedBorderColor": "#38444D",
     "dmReceivedBubbleBackground": "#3D5466",
-    "badgeColor": "d.default.color.baseColor.blue500",
+    "badgeColor": "t.default.color.baseColor.blue500",
     "maskColor": "r.bs.gray700(.95)",
     "maskColorNative": "r.bs.black(.4)",
     "hoverLabelColor": "r.bs.gray700(.4)",
     "elevatedBackground": "#1C2C3C",
     "elevatedBackgroundShadow": "r.bs.dim(.8)",
-    "brandColor": "d.default.color.baseColor.gray0",
+    "brandColor": "t.default.color.baseColor.gray0",
     "whiteOnColor": "r.Cj",
-    "buttonBlack": "d.default.color.baseColor.gray50",
-    "buttonWhite": "d.default.color.baseColor.gray1100",
-    "buttonOutlinedBorder": "d.default.color.baseColor.gray700",
+    "buttonBlack": "t.default.color.baseColor.gray50",
+    "buttonWhite": "t.default.color.baseColor.gray1100",
+    "buttonOutlinedBorder": "t.default.color.baseColor.gray700",
     "buttonDestructionOutlinedBorder": "#67070F",
     "appBarBackground": "r.bs.dim(.1)",
     "appBarFirefoxBackground": "r.bs.dim(.75)"
@@ -2265,7 +2265,7 @@
     "space80": "m(p.spaces.space72)"
   },
   {
-    "appBarHeight": "v",
+    "appBarHeight": "f",
     "appBarHeightPx": "M",
     "conversationLineWidth": "w.space2",
     "gutterHorizontal": "_.space16",
@@ -2281,7 +2281,7 @@
     "borderWidths": "c",
     "borderWidthsPx": "u",
     "breakpoints": "o",
-    "componentDimensions": "f",
+    "componentDimensions": "v",
     "componentZIndices": "r",
     "fontSizes": "y",
     "fontSizesPx": "D",
@@ -2289,11 +2289,11 @@
     "lineHeights": "g",
     "lineHeightsPx": "A",
     "scales": "n",
-    "scaleMultiplier": "t",
+    "scaleMultiplier": "d",
     "spaces": "_",
     "spacesPx": "w"
   },
-  "{\"...p()\":{\"scale\":\"r\",\"scales\":\"i\"}\"on0\",A.obt,n,\"a\"}",
+  "{\"...p()\":{\"scale\":\"r\",\"scales\":\"i\"}\"on0\",A.obd,n,\"a\"}",
   {
     "BROADCAST": "broadcast",
     "DM": "dm",
@@ -2339,7 +2339,7 @@
     "peopleYouFollow": "peopleYouFollow",
     "everyone": "everyone"
   },
-  "{[ia.onlyInvited]:\"0\",[ia.peopleYouFollow]:\"1\",[ia.everyone]:\"2\"}",
+  "{[aa.onlyInvited]:\"0\",[aa.peopleYouFollow]:\"1\",[aa.everyone]:\"2\"}",
   {
     "AUDIO": "visual_audio",
     "CONFERENCE": "conference_spaces",
@@ -2885,10 +2885,10 @@
   },
   {
     "initial": {
-      "fetchStatus": "l.ZP.NONE"
+      "fetchStatus": "o.ZP.NONE"
     },
     "lastSearch": {
-      "fetchStatus": "l.ZP.NONE"
+      "fetchStatus": "o.ZP.NONE"
     },
     "lastSelectedPlace": "void 0"
   },
@@ -3904,7 +3904,7 @@
     "single_line": "singleline",
     "format_inline": "format-inline"
   },
-  "{\"ActionsBar\":\"w.Z\",\"ActionMenu\":\"function()\"{\"Icon\":\"e\",\"isDisabled\":\"t\",\"items\":\"n\",\"onOpen\":\"r\"}{\"const i=o.useCallback()\"{\"items\":\"n\",\"onCloseRequested\":\"e\"}{\"Icon\":\"e\",\"isDisabled\":\"t\",\"onClick\":\"r\",\"renderActionMenu\":\"i\"}},\"CallToAction\":\"a.ZP\",\"EditCallout\":\"v.Z\",\"Education\":\"T.Z\",\"HighlightedUserLabel\":\"c.Z\",\"Media\":\"C.Z\",\"Place\":\"i.ZP\",\"PromotedDetails\":\"u.Z\",\"PromotedUserProfileCard\":\"P\",\"ReplyContext\":\"x.ZP\",\"RichContent\":\"L.Z\",\"SocialContext\":\"g.Z\",\"Text\":\"O.Z\",\"Tombstone\":\"_.Z\",\"Timestamp\":\"m.Z\",\"UserAvatar\":\"D.Z\",\"UserFollowIndicator\":\"M.Z\",\"UserName\":\"Z.Z\",\"ArticleCard\":\"E.Z\"}",
+  "{\"ActionsBar\":\"w.Z\",\"ActionMenu\":\"function()\"{\"Icon\":\"e\",\"isDisabled\":\"t\",\"items\":\"n\",\"onOpen\":\"r\"}{\"const i=o.useCallback()\"{\"items\":\"n\",\"onCloseRequested\":\"e\"}{\"Icon\":\"e\",\"isDisabled\":\"t\",\"onClick\":\"r\",\"renderActionMenu\":\"i\"}},\"CallToAction\":\"a.ZP\",\"EditCallout\":\"v.Z\",\"Education\":\"T.Z\",\"HighlightedUserLabel\":\"c.Z\",\"Media\":\"k.Z\",\"Place\":\"i.ZP\",\"PromotedDetails\":\"u.Z\",\"PromotedUserProfileCard\":\"P\",\"ReplyContext\":\"x.ZP\",\"RichContent\":\"L.Z\",\"SocialContext\":\"g.Z\",\"Text\":\"O.Z\",\"Tombstone\":\"_.Z\",\"Timestamp\":\"m.Z\",\"UserAvatar\":\"D.Z\",\"UserFollowIndicator\":\"M.Z\",\"UserName\":\"Z.Z\",\"ArticleCard\":\"E.Z\"}",
   {
     "ARROW_RIGHT": "ARROW_RIGHT",
     "BALLOON_STROKE": "BALLOON_STROKE",
@@ -4985,26 +4985,6 @@
     "NONE": "none"
   },
   {
-    "full_time": "n",
-    "full_time_contract": "c",
-    "part_time": "i",
-    "contract_to_hire": "o"
-  },
-  {
-    "1": "p",
-    "2": "u"
-  },
-  {
-    "annually": {
-      "label": "p",
-      "value": "1"
-    },
-    "hourly": {
-      "label": "u",
-      "value": "2"
-    }
-  },
-  {
     "FILL": "Fill",
     "FIXED": "Fixed"
   },
@@ -5075,6 +5055,26 @@
     "TWITTER_ARTICLE": "twitter_article"
   },
   {
+    "full_time": "n",
+    "full_time_contract": "o",
+    "part_time": "s",
+    "contract_to_hire": "l"
+  },
+  {
+    "1": "c",
+    "2": "u"
+  },
+  {
+    "annually": {
+      "label": "c",
+      "value": "1"
+    },
+    "hourly": {
+      "label": "u",
+      "value": "2"
+    }
+  },
+  {
     "Composition": "composition",
     "DMComposition": "dm_composition",
     "NoteComposition": "note_composition"
@@ -5099,6 +5099,11 @@
     "ParticipantsLeave": "s.Cr.PARTICIPANTS_LEAVE",
     "ConversationNameUpdate": "s.Cr.CONVERSATION_NAME_UPDATE",
     "JoinConversation": "s.Cr.JOIN_CONVERSATION"
+  },
+  {
+    "CLOSED": "closed",
+    "COLLAPSED": "collapsed",
+    "EXPANDED": "expanded"
   },
   {
     "FUN": "fun",
@@ -5301,13 +5306,13 @@
     "small": "36",
     "xSmall": "12"
   },
-  "{\"__proto__\":\"null\",\"formatCaption\":\"function()\"{\"return()(0,si.WU)\"},\"formatDay\":\"function()\"{\"return()(0,si.WU)\"},\"formatMonthCaption\":\"function()\"{\"return()(0,si.WU)\"},\"formatWeekNumber\":\"function()\"{return\"\".concat()},\"formatWeekdayName\":\"function()\"{\"return()(0,si.WU)\"},\"formatYearCaption\":\"function()\"{\"return()(0,si.WU)\"}}",
-  "{\"__proto__\":\"null\",\"labelDay\":\"function()\"{\"return()(0,si.WU)\"},\"labelMonthDropdown\":\"function()\"{return\"Month: \"},\"labelNext\":\"function()\"{return\"Go to next month\"},\"labelPrevious\":\"function()\"{return\"Go to previous month\"},\"labelWeekNumber\":\"function()\"{return\"Week n. \".concat()},\"labelWeekday\":\"function()\"{\"return()(0,si.WU)\"},\"labelYearDropdown\":\"function()\"{return\"Year: \"}}",
+  "{\"__proto__\":\"null\",\"formatCaption\":\"function()\"{\"return()(0,lr.WU)\"},\"formatDay\":\"function()\"{\"return()(0,lr.WU)\"},\"formatMonthCaption\":\"function()\"{\"return()(0,lr.WU)\"},\"formatWeekNumber\":\"function()\"{return\"\".concat()},\"formatWeekdayName\":\"function()\"{\"return()(0,lr.WU)\"},\"formatYearCaption\":\"function()\"{\"return()(0,lr.WU)\"}}",
+  "{\"__proto__\":\"null\",\"labelDay\":\"function()\"{\"return()(0,lr.WU)\"},\"labelMonthDropdown\":\"function()\"{return\"Month: \"},\"labelNext\":\"function()\"{return\"Go to next month\"},\"labelPrevious\":\"function()\"{return\"Go to previous month\"},\"labelWeekNumber\":\"function()\"{return\"Week n. \".concat()},\"labelWeekday\":\"function()\"{\"return()(0,lr.WU)\"},\"labelYearDropdown\":\"function()\"{return\"Year: \"}}",
   {
     "Default": "ui_defaultLabel",
     "TransparentCursor": "ui_transparentCursor"
   },
-  "{[$.v.FOLLOWS]:\"Q\",[$.v.FRIENDS_OF_FRIENDS]:\"H\"}",
+  "{[$.v.FOLLOWS]:\"U\",[$.v.FRIENDS_OF_FRIENDS]:\"H\"}",
   {
     "Default": "Default",
     "Pivot": "Pivot",
@@ -6718,26 +6723,6 @@
     }
   },
   {
-    "full_time": "r",
-    "full_time_contract": "i",
-    "part_time": "s",
-    "contract_to_hire": "o"
-  },
-  {
-    "1": "c",
-    "2": "d"
-  },
-  {
-    "annually": {
-      "label": "c",
-      "value": "1"
-    },
-    "hourly": {
-      "label": "d",
-      "value": "2"
-    }
-  },
-  {
     "DISABLED": "0",
     "ENABLED": "10",
     "SYNC_IN_PROGRESS": "20",
@@ -6760,41 +6745,61 @@
     "product": "b",
     "design": "u",
     "marketing": "h",
-    "sales_am": "m",
-    "operations": "p",
-    "people_hr": "f",
+    "sales_am": "f",
+    "operations": "m",
+    "people_hr": "p",
     "finance_accounting": "_",
-    "legal_compliance": "S",
-    "science_engineering": "v",
-    "medical": "w",
+    "legal_compliance": "v",
+    "science_engineering": "w",
+    "medical": "S",
     "construction_trades": "g",
-    "other": "k"
+    "other": "y"
   },
   {
-    "intern": "P",
-    "entry_level": "R",
-    "junior": "j",
-    "mid_level": "C",
-    "senior": "L",
-    "lead": "O",
-    "manager": "A",
-    "executive": "D"
+    "intern": "R",
+    "entry_level": "E",
+    "junior": "O",
+    "mid_level": "P",
+    "senior": "C",
+    "lead": "D",
+    "manager": "L",
+    "executive": "A"
   },
   {
     "onsite": {
-      "label": "x",
-      "description": "$",
+      "label": "z",
+      "description": "U",
       "value": "onsite"
     },
     "remote": {
-      "label": "z",
-      "description": "N",
+      "label": "x",
+      "description": "T",
       "value": "remote"
     },
     "hybrid": {
-      "label": "U",
-      "description": "J",
+      "label": "J",
+      "description": "N",
       "value": "hybrid"
+    }
+  },
+  {
+    "full_time": "n",
+    "full_time_contract": "l",
+    "part_time": "s",
+    "contract_to_hire": "o"
+  },
+  {
+    "1": "d",
+    "2": "b"
+  },
+  {
+    "annually": {
+      "label": "d",
+      "value": "1"
+    },
+    "hourly": {
+      "label": "b",
+      "value": "2"
     }
   },
   {
@@ -7039,87 +7044,7 @@
     "component": "sync-ats-jobs"
   },
   {
-    "full_time": "i",
-    "full_time_contract": "r",
-    "part_time": "s",
-    "contract_to_hire": "o"
-  },
-  {
-    "1": "c",
-    "2": "d"
-  },
-  {
-    "annually": {
-      "label": "c",
-      "value": "1"
-    },
-    "hourly": {
-      "label": "d",
-      "value": "2"
-    }
-  },
-  {
     "Affiliate": "Affiliate"
-  },
-  {
-    "DISABLED": "0",
-    "ENABLED": "10",
-    "SYNC_IN_PROGRESS": "20",
-    "SYNC_FAILED": "30"
-  },
-  {
-    "freshteam": "Freshteam",
-    "greenhouse": "Greenhouse",
-    "lever": "Lever",
-    "recruitee": "Recruitee",
-    "sage-hr": "Sage HR",
-    "sap-successfactors": "SAP SuccessFactors",
-    "teamtailor": "Teamtailor",
-    "workable": "Workable",
-    "workday": "Workday"
-  },
-  {
-    "software_engineering": "c",
-    "data_analytics": "u",
-    "product": "d",
-    "design": "m",
-    "marketing": "g",
-    "sales_am": "p",
-    "operations": "y",
-    "people_hr": "f",
-    "finance_accounting": "b",
-    "legal_compliance": "_",
-    "science_engineering": "k",
-    "medical": "h",
-    "construction_trades": "v",
-    "other": "F"
-  },
-  {
-    "intern": "E",
-    "entry_level": "w",
-    "junior": "C",
-    "mid_level": "K",
-    "senior": "T",
-    "lead": "I",
-    "manager": "L",
-    "executive": "Z"
-  },
-  {
-    "onsite": {
-      "label": "P",
-      "description": "M",
-      "value": "onsite"
-    },
-    "remote": {
-      "label": "O",
-      "description": "D",
-      "value": "remote"
-    },
-    "hybrid": {
-      "label": "j",
-      "description": "N",
-      "value": "hybrid"
-    }
   },
   {
     "CONFIG_LOADED": "rweb/verifiedOrgConfig/LOADED",
@@ -7127,7 +7052,7 @@
     "SET_CONFIG": "rweb/verifiedOrgConfig/SET"
   },
   {
-    "fetchStatus": "Q.ZP.NONE",
+    "fetchStatus": "W.ZP.NONE",
     "config": "Ta"
   },
   {
@@ -7284,6 +7209,26 @@
   {
     "APPLE_APP_STORE": "1",
     "GOOGLE_PLAY_STORE": "2"
+  },
+  {
+    "full_time": "r",
+    "full_time_contract": "s",
+    "part_time": "i",
+    "contract_to_hire": "o"
+  },
+  {
+    "1": "c",
+    "2": "d"
+  },
+  {
+    "annually": {
+      "label": "c",
+      "value": "1"
+    },
+    "hourly": {
+      "label": "d",
+      "value": "2"
+    }
   },
   {
     "private": "private",
@@ -7907,6 +7852,26 @@
   {
     "Fixed": "fixed",
     "Variable": "variable"
+  },
+  {
+    "full_time": "l",
+    "full_time_contract": "a",
+    "part_time": "i",
+    "contract_to_hire": "c"
+  },
+  {
+    "1": "d",
+    "2": "f"
+  },
+  {
+    "annually": {
+      "label": "d",
+      "value": "1"
+    },
+    "hourly": {
+      "label": "f",
+      "value": "2"
+    }
   },
   {
     "single_line": "singleline",
