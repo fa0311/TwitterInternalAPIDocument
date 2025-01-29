@@ -1569,7 +1569,10 @@
         "fieldToggles": [],
         "featureSwitch": {}
       }
-    }
+    },
+    "func_name": "i",
+    "func_name_init": "r",
+    "query": {}
   },
   {
     "n": "61422",
@@ -2718,6 +2721,11 @@
           }
         }
       }
+    },
+    "func_name": "g",
+    "func_name_init": "A",
+    "query": {
+      "cursor": "t"
     }
   },
   {
@@ -3725,6 +3733,11 @@
         "fieldToggles": [],
         "featureSwitch": {}
       }
+    },
+    "func_name": "o",
+    "func_name_init": "a",
+    "query": {
+      "flag": "n"
     }
   },
   {
@@ -3880,6 +3893,11 @@
           }
         }
       }
+    },
+    "func_name": "y",
+    "func_name_init": "D",
+    "query": {
+      "bookmark_collection_id": "n"
     }
   },
   {
@@ -3893,6 +3911,12 @@
         "fieldToggles": [],
         "featureSwitch": {}
       }
+    },
+    "func_name": "A",
+    "func_name_init": "p",
+    "query": {
+      "userId": "t",
+      "sharingAudiospacesListeningDataWithFollowers": "n"
     }
   },
   {
@@ -4190,6 +4214,11 @@
         "fieldToggles": [],
         "featureSwitch": {}
       }
+    },
+    "func_name": "w",
+    "func_name_init": "g",
+    "query": {
+      "bookmark_collection_id": "n"
     }
   },
   {
@@ -4978,6 +5007,11 @@
           }
         }
       }
+    },
+    "func_name": "_",
+    "func_name_init": "w",
+    "query": {
+      "cursor": "t"
     }
   },
   {
@@ -5910,6 +5944,14 @@
           }
         }
       }
+    },
+    "func_name": "m",
+    "func_name_init": "b",
+    "query": {
+      "pinnedTimelineItem": {
+        "id": "n",
+        "pinned_timeline_type": "t"
+      }
     }
   },
   {
@@ -6776,6 +6818,16 @@
           }
         }
       }
+    },
+    "func_name": "P",
+    "func_name_init": "k",
+    "query": {
+      "trendId": "r.trendId",
+      "includePromotedContent": "!1",
+      "withBirdwatchNotes": "!1",
+      "withVoice": "!1",
+      "withCommunity": "!1",
+      "...()(0,y.d)": "_"
     }
   },
   {
@@ -14212,13 +14264,6 @@
         "fieldToggles": [],
         "featureSwitch": {}
       }
-    },
-    "func_name": "I",
-    "func_name_init": "M",
-    "query": {
-      "group_id": "s",
-      "object_id": "r",
-      "action_type": "t"
     }
   },
   {
