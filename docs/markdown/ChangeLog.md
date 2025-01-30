@@ -5249,3 +5249,16 @@
 - subscriptions_branding_checkmark_logo_enabled<br>
 #### remove<br>
 - None<br>
+## 2025/01/30<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- responsive_web_grok_analysis_button_from_backend<br>
+- responsive_web_grok_weather_card_enabled<br>
+- responsive_web_grok_show_message_reply_button<br>
+#### remove<br>
+- None<br>
