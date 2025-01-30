@@ -7686,8 +7686,8 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant   | value                                                 |
 |:-----------|:------------------------------------------------------|
-| onsite     | {'label': 'P', 'description': 'D', 'value': 'onsite'} |
-| remote     | {'label': 'M', 'description': 'N', 'value': 'remote'} |
+| onsite     | {'label': 'P', 'description': 'M', 'value': 'onsite'} |
+| remote     | {'label': 'D', 'description': 'N', 'value': 'remote'} |
 | hybrid     | {'label': 'j', 'description': 'O', 'value': 'hybrid'} |
 
 | constant       | value                          |
