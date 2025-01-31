@@ -7112,11 +7112,11 @@
   {
     "onsite": {
       "label": "P",
-      "description": "D",
+      "description": "M",
       "value": "onsite"
     },
     "remote": {
-      "label": "M",
+      "label": "D",
       "description": "N",
       "value": "remote"
     },

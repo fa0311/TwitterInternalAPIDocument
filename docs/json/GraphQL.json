@@ -162,6 +162,9 @@
           "tweet_awards_web_tipping_enabled": {
             "value": "false"
           },
+          "responsive_web_grok_analysis_button_from_backend": {
+            "value": "false"
+          },
           "creator_subscriptions_quote_tweet_preview_enabled": {
             "value": "false"
           },
@@ -302,6 +305,9 @@
             "value": "true"
           },
           "tweet_awards_web_tipping_enabled": {
+            "value": "false"
+          },
+          "responsive_web_grok_analysis_button_from_backend": {
             "value": "false"
           },
           "creator_subscriptions_quote_tweet_preview_enabled": {
@@ -446,6 +452,9 @@
           "tweet_awards_web_tipping_enabled": {
             "value": "false"
           },
+          "responsive_web_grok_analysis_button_from_backend": {
+            "value": "false"
+          },
           "creator_subscriptions_quote_tweet_preview_enabled": {
             "value": "false"
           },
@@ -588,6 +597,9 @@
           "tweet_awards_web_tipping_enabled": {
             "value": "false"
           },
+          "responsive_web_grok_analysis_button_from_backend": {
+            "value": "false"
+          },
           "creator_subscriptions_quote_tweet_preview_enabled": {
             "value": "false"
           },
@@ -722,6 +734,9 @@
             "value": "true"
           },
           "tweet_awards_web_tipping_enabled": {
+            "value": "false"
+          },
+          "responsive_web_grok_analysis_button_from_backend": {
             "value": "false"
           },
           "creator_subscriptions_quote_tweet_preview_enabled": {
@@ -914,6 +929,9 @@
           "tweet_awards_web_tipping_enabled": {
             "value": "false"
           },
+          "responsive_web_grok_analysis_button_from_backend": {
+            "value": "false"
+          },
           "creator_subscriptions_quote_tweet_preview_enabled": {
             "value": "false"
           },
@@ -1083,6 +1101,9 @@
           "tweet_awards_web_tipping_enabled": {
             "value": "false"
           },
+          "responsive_web_grok_analysis_button_from_backend": {
+            "value": "false"
+          },
           "creator_subscriptions_quote_tweet_preview_enabled": {
             "value": "false"
           },
@@ -1232,6 +1253,9 @@
             "value": "true"
           },
           "tweet_awards_web_tipping_enabled": {
+            "value": "false"
+          },
+          "responsive_web_grok_analysis_button_from_backend": {
             "value": "false"
           },
           "creator_subscriptions_quote_tweet_preview_enabled": {
@@ -1395,6 +1419,9 @@
             "value": "true"
           },
           "tweet_awards_web_tipping_enabled": {
+            "value": "false"
+          },
+          "responsive_web_grok_analysis_button_from_backend": {
             "value": "false"
           },
           "creator_subscriptions_quote_tweet_preview_enabled": {
@@ -1685,6 +1712,9 @@
           "tweet_awards_web_tipping_enabled": {
             "value": "false"
           },
+          "responsive_web_grok_analysis_button_from_backend": {
+            "value": "false"
+          },
           "creator_subscriptions_quote_tweet_preview_enabled": {
             "value": "false"
           },
@@ -1825,6 +1855,9 @@
             "value": "true"
           },
           "tweet_awards_web_tipping_enabled": {
+            "value": "false"
+          },
+          "responsive_web_grok_analysis_button_from_backend": {
             "value": "false"
           },
           "creator_subscriptions_quote_tweet_preview_enabled": {
@@ -1982,6 +2015,9 @@
           "tweet_awards_web_tipping_enabled": {
             "value": "false"
           },
+          "responsive_web_grok_analysis_button_from_backend": {
+            "value": "false"
+          },
           "creator_subscriptions_quote_tweet_preview_enabled": {
             "value": "false"
           },
@@ -2122,6 +2158,9 @@
             "value": "true"
           },
           "tweet_awards_web_tipping_enabled": {
+            "value": "false"
+          },
+          "responsive_web_grok_analysis_button_from_backend": {
             "value": "false"
           },
           "creator_subscriptions_quote_tweet_preview_enabled": {
@@ -2266,6 +2305,9 @@
           "tweet_awards_web_tipping_enabled": {
             "value": "false"
           },
+          "responsive_web_grok_analysis_button_from_backend": {
+            "value": "false"
+          },
           "creator_subscriptions_quote_tweet_preview_enabled": {
             "value": "false"
           },
@@ -2406,6 +2448,9 @@
             "value": "true"
           },
           "tweet_awards_web_tipping_enabled": {
+            "value": "false"
+          },
+          "responsive_web_grok_analysis_button_from_backend": {
             "value": "false"
           },
           "creator_subscriptions_quote_tweet_preview_enabled": {
@@ -2550,6 +2595,9 @@
           "tweet_awards_web_tipping_enabled": {
             "value": "false"
           },
+          "responsive_web_grok_analysis_button_from_backend": {
+            "value": "false"
+          },
           "creator_subscriptions_quote_tweet_preview_enabled": {
             "value": "false"
           },
@@ -2690,6 +2738,9 @@
             "value": "true"
           },
           "tweet_awards_web_tipping_enabled": {
+            "value": "false"
+          },
+          "responsive_web_grok_analysis_button_from_backend": {
             "value": "false"
           },
           "creator_subscriptions_quote_tweet_preview_enabled": {
@@ -2839,6 +2890,9 @@
           "tweet_awards_web_tipping_enabled": {
             "value": "false"
           },
+          "responsive_web_grok_analysis_button_from_backend": {
+            "value": "false"
+          },
           "creator_subscriptions_quote_tweet_preview_enabled": {
             "value": "false"
           },
@@ -2979,6 +3033,9 @@
             "value": "true"
           },
           "tweet_awards_web_tipping_enabled": {
+            "value": "false"
+          },
+          "responsive_web_grok_analysis_button_from_backend": {
             "value": "false"
           },
           "creator_subscriptions_quote_tweet_preview_enabled": {
@@ -3123,6 +3180,9 @@
           "tweet_awards_web_tipping_enabled": {
             "value": "false"
           },
+          "responsive_web_grok_analysis_button_from_backend": {
+            "value": "false"
+          },
           "creator_subscriptions_quote_tweet_preview_enabled": {
             "value": "false"
           },
@@ -3263,6 +3323,9 @@
             "value": "true"
           },
           "tweet_awards_web_tipping_enabled": {
+            "value": "false"
+          },
+          "responsive_web_grok_analysis_button_from_backend": {
             "value": "false"
           },
           "creator_subscriptions_quote_tweet_preview_enabled": {
@@ -3420,6 +3483,9 @@
           "tweet_awards_web_tipping_enabled": {
             "value": "false"
           },
+          "responsive_web_grok_analysis_button_from_backend": {
+            "value": "false"
+          },
           "creator_subscriptions_quote_tweet_preview_enabled": {
             "value": "false"
           },
@@ -3560,6 +3626,9 @@
             "value": "true"
           },
           "tweet_awards_web_tipping_enabled": {
+            "value": "false"
+          },
+          "responsive_web_grok_analysis_button_from_backend": {
             "value": "false"
           },
           "creator_subscriptions_quote_tweet_preview_enabled": {
@@ -3864,6 +3933,9 @@
           "tweet_awards_web_tipping_enabled": {
             "value": "false"
           },
+          "responsive_web_grok_analysis_button_from_backend": {
+            "value": "false"
+          },
           "creator_subscriptions_quote_tweet_preview_enabled": {
             "value": "false"
           },
@@ -4030,6 +4102,9 @@
           "tweet_awards_web_tipping_enabled": {
             "value": "false"
           },
+          "responsive_web_grok_analysis_button_from_backend": {
+            "value": "false"
+          },
           "creator_subscriptions_quote_tweet_preview_enabled": {
             "value": "false"
           },
@@ -4170,6 +4245,9 @@
             "value": "true"
           },
           "tweet_awards_web_tipping_enabled": {
+            "value": "false"
+          },
+          "responsive_web_grok_analysis_button_from_backend": {
             "value": "false"
           },
           "creator_subscriptions_quote_tweet_preview_enabled": {
@@ -4358,6 +4436,9 @@
           "tweet_awards_web_tipping_enabled": {
             "value": "false"
           },
+          "responsive_web_grok_analysis_button_from_backend": {
+            "value": "false"
+          },
           "creator_subscriptions_quote_tweet_preview_enabled": {
             "value": "false"
           },
@@ -4524,6 +4605,9 @@
             "value": "true"
           },
           "tweet_awards_web_tipping_enabled": {
+            "value": "false"
+          },
+          "responsive_web_grok_analysis_button_from_backend": {
             "value": "false"
           },
           "creator_subscriptions_quote_tweet_preview_enabled": {
@@ -4694,6 +4778,9 @@
           "tweet_awards_web_tipping_enabled": {
             "value": "false"
           },
+          "responsive_web_grok_analysis_button_from_backend": {
+            "value": "false"
+          },
           "creator_subscriptions_quote_tweet_preview_enabled": {
             "value": "false"
           },
@@ -4836,6 +4923,9 @@
           "tweet_awards_web_tipping_enabled": {
             "value": "false"
           },
+          "responsive_web_grok_analysis_button_from_backend": {
+            "value": "false"
+          },
           "creator_subscriptions_quote_tweet_preview_enabled": {
             "value": "false"
           },
@@ -4976,6 +5066,9 @@
             "value": "true"
           },
           "tweet_awards_web_tipping_enabled": {
+            "value": "false"
+          },
+          "responsive_web_grok_analysis_button_from_backend": {
             "value": "false"
           },
           "creator_subscriptions_quote_tweet_preview_enabled": {
@@ -5125,6 +5218,9 @@
           "tweet_awards_web_tipping_enabled": {
             "value": "false"
           },
+          "responsive_web_grok_analysis_button_from_backend": {
+            "value": "false"
+          },
           "creator_subscriptions_quote_tweet_preview_enabled": {
             "value": "false"
           },
@@ -5265,6 +5361,9 @@
             "value": "true"
           },
           "tweet_awards_web_tipping_enabled": {
+            "value": "false"
+          },
+          "responsive_web_grok_analysis_button_from_backend": {
             "value": "false"
           },
           "creator_subscriptions_quote_tweet_preview_enabled": {
@@ -5409,6 +5508,9 @@
           "tweet_awards_web_tipping_enabled": {
             "value": "false"
           },
+          "responsive_web_grok_analysis_button_from_backend": {
+            "value": "false"
+          },
           "creator_subscriptions_quote_tweet_preview_enabled": {
             "value": "false"
           },
@@ -5551,6 +5653,9 @@
           "tweet_awards_web_tipping_enabled": {
             "value": "false"
           },
+          "responsive_web_grok_analysis_button_from_backend": {
+            "value": "false"
+          },
           "creator_subscriptions_quote_tweet_preview_enabled": {
             "value": "false"
           },
@@ -5673,6 +5778,9 @@
             "value": "true"
           },
           "tweet_awards_web_tipping_enabled": {
+            "value": "false"
+          },
+          "responsive_web_grok_analysis_button_from_backend": {
             "value": "false"
           },
           "creator_subscriptions_quote_tweet_preview_enabled": {
@@ -5815,6 +5923,9 @@
             "value": "true"
           },
           "tweet_awards_web_tipping_enabled": {
+            "value": "false"
+          },
+          "responsive_web_grok_analysis_button_from_backend": {
             "value": "false"
           },
           "creator_subscriptions_quote_tweet_preview_enabled": {
@@ -6078,6 +6189,9 @@
           "tweet_awards_web_tipping_enabled": {
             "value": "false"
           },
+          "responsive_web_grok_analysis_button_from_backend": {
+            "value": "false"
+          },
           "creator_subscriptions_quote_tweet_preview_enabled": {
             "value": "false"
           },
@@ -6220,6 +6334,9 @@
           "tweet_awards_web_tipping_enabled": {
             "value": "false"
           },
+          "responsive_web_grok_analysis_button_from_backend": {
+            "value": "false"
+          },
           "creator_subscriptions_quote_tweet_preview_enabled": {
             "value": "false"
           },
@@ -6360,6 +6477,9 @@
             "value": "true"
           },
           "tweet_awards_web_tipping_enabled": {
+            "value": "false"
+          },
+          "responsive_web_grok_analysis_button_from_backend": {
             "value": "false"
           },
           "creator_subscriptions_quote_tweet_preview_enabled": {
@@ -6647,6 +6767,9 @@
           "tweet_awards_web_tipping_enabled": {
             "value": "false"
           },
+          "responsive_web_grok_analysis_button_from_backend": {
+            "value": "false"
+          },
           "creator_subscriptions_quote_tweet_preview_enabled": {
             "value": "false"
           },
@@ -6787,6 +6910,9 @@
             "value": "true"
           },
           "tweet_awards_web_tipping_enabled": {
+            "value": "false"
+          },
+          "responsive_web_grok_analysis_button_from_backend": {
             "value": "false"
           },
           "creator_subscriptions_quote_tweet_preview_enabled": {
@@ -6941,6 +7067,9 @@
           "tweet_awards_web_tipping_enabled": {
             "value": "false"
           },
+          "responsive_web_grok_analysis_button_from_backend": {
+            "value": "false"
+          },
           "creator_subscriptions_quote_tweet_preview_enabled": {
             "value": "false"
           },
@@ -7081,6 +7210,9 @@
             "value": "true"
           },
           "tweet_awards_web_tipping_enabled": {
+            "value": "false"
+          },
+          "responsive_web_grok_analysis_button_from_backend": {
             "value": "false"
           },
           "creator_subscriptions_quote_tweet_preview_enabled": {
@@ -7238,6 +7370,9 @@
           "tweet_awards_web_tipping_enabled": {
             "value": "false"
           },
+          "responsive_web_grok_analysis_button_from_backend": {
+            "value": "false"
+          },
           "creator_subscriptions_quote_tweet_preview_enabled": {
             "value": "false"
           },
@@ -7393,6 +7528,9 @@
           "tweet_awards_web_tipping_enabled": {
             "value": "false"
           },
+          "responsive_web_grok_analysis_button_from_backend": {
+            "value": "false"
+          },
           "creator_subscriptions_quote_tweet_preview_enabled": {
             "value": "false"
           },
@@ -7535,6 +7673,9 @@
           "tweet_awards_web_tipping_enabled": {
             "value": "false"
           },
+          "responsive_web_grok_analysis_button_from_backend": {
+            "value": "false"
+          },
           "creator_subscriptions_quote_tweet_preview_enabled": {
             "value": "false"
           },
@@ -7675,6 +7816,9 @@
             "value": "true"
           },
           "tweet_awards_web_tipping_enabled": {
+            "value": "false"
+          },
+          "responsive_web_grok_analysis_button_from_backend": {
             "value": "false"
           },
           "creator_subscriptions_quote_tweet_preview_enabled": {
@@ -7927,6 +8071,9 @@
           "tweet_awards_web_tipping_enabled": {
             "value": "false"
           },
+          "responsive_web_grok_analysis_button_from_backend": {
+            "value": "false"
+          },
           "creator_subscriptions_quote_tweet_preview_enabled": {
             "value": "false"
           },
@@ -8061,6 +8208,9 @@
             "value": "true"
           },
           "tweet_awards_web_tipping_enabled": {
+            "value": "false"
+          },
+          "responsive_web_grok_analysis_button_from_backend": {
             "value": "false"
           },
           "creator_subscriptions_quote_tweet_preview_enabled": {
@@ -8214,6 +8364,9 @@
             "value": "true"
           },
           "tweet_awards_web_tipping_enabled": {
+            "value": "false"
+          },
+          "responsive_web_grok_analysis_button_from_backend": {
             "value": "false"
           },
           "creator_subscriptions_quote_tweet_preview_enabled": {
@@ -8439,6 +8592,9 @@
           "tweet_awards_web_tipping_enabled": {
             "value": "false"
           },
+          "responsive_web_grok_analysis_button_from_backend": {
+            "value": "false"
+          },
           "creator_subscriptions_quote_tweet_preview_enabled": {
             "value": "false"
           },
@@ -8581,6 +8737,9 @@
           "tweet_awards_web_tipping_enabled": {
             "value": "false"
           },
+          "responsive_web_grok_analysis_button_from_backend": {
+            "value": "false"
+          },
           "creator_subscriptions_quote_tweet_preview_enabled": {
             "value": "false"
           },
@@ -8721,6 +8880,9 @@
             "value": "true"
           },
           "tweet_awards_web_tipping_enabled": {
+            "value": "false"
+          },
+          "responsive_web_grok_analysis_button_from_backend": {
             "value": "false"
           },
           "creator_subscriptions_quote_tweet_preview_enabled": {
@@ -8906,6 +9068,9 @@
           "tweet_awards_web_tipping_enabled": {
             "value": "false"
           },
+          "responsive_web_grok_analysis_button_from_backend": {
+            "value": "false"
+          },
           "creator_subscriptions_quote_tweet_preview_enabled": {
             "value": "false"
           },
@@ -9046,6 +9211,9 @@
             "value": "true"
           },
           "tweet_awards_web_tipping_enabled": {
+            "value": "false"
+          },
+          "responsive_web_grok_analysis_button_from_backend": {
             "value": "false"
           },
           "creator_subscriptions_quote_tweet_preview_enabled": {
@@ -9270,6 +9438,9 @@
             "value": "true"
           },
           "tweet_awards_web_tipping_enabled": {
+            "value": "false"
+          },
+          "responsive_web_grok_analysis_button_from_backend": {
             "value": "false"
           },
           "creator_subscriptions_quote_tweet_preview_enabled": {
@@ -9660,6 +9831,9 @@
           "tweet_awards_web_tipping_enabled": {
             "value": "false"
           },
+          "responsive_web_grok_analysis_button_from_backend": {
+            "value": "false"
+          },
           "creator_subscriptions_quote_tweet_preview_enabled": {
             "value": "false"
           },
@@ -9884,6 +10058,9 @@
           "tweet_awards_web_tipping_enabled": {
             "value": "false"
           },
+          "responsive_web_grok_analysis_button_from_backend": {
+            "value": "false"
+          },
           "creator_subscriptions_quote_tweet_preview_enabled": {
             "value": "false"
           },
@@ -10024,6 +10201,9 @@
             "value": "true"
           },
           "tweet_awards_web_tipping_enabled": {
+            "value": "false"
+          },
+          "responsive_web_grok_analysis_button_from_backend": {
             "value": "false"
           },
           "creator_subscriptions_quote_tweet_preview_enabled": {
@@ -10189,6 +10369,9 @@
             "value": "true"
           },
           "tweet_awards_web_tipping_enabled": {
+            "value": "false"
+          },
+          "responsive_web_grok_analysis_button_from_backend": {
             "value": "false"
           },
           "creator_subscriptions_quote_tweet_preview_enabled": {
@@ -10512,6 +10695,9 @@
           "tweet_awards_web_tipping_enabled": {
             "value": "false"
           },
+          "responsive_web_grok_analysis_button_from_backend": {
+            "value": "false"
+          },
           "creator_subscriptions_quote_tweet_preview_enabled": {
             "value": "false"
           },
@@ -10657,6 +10843,9 @@
           "tweet_awards_web_tipping_enabled": {
             "value": "false"
           },
+          "responsive_web_grok_analysis_button_from_backend": {
+            "value": "false"
+          },
           "creator_subscriptions_quote_tweet_preview_enabled": {
             "value": "false"
           },
@@ -10799,6 +10988,9 @@
           "tweet_awards_web_tipping_enabled": {
             "value": "false"
           },
+          "responsive_web_grok_analysis_button_from_backend": {
+            "value": "false"
+          },
           "creator_subscriptions_quote_tweet_preview_enabled": {
             "value": "false"
           },
@@ -10939,6 +11131,9 @@
             "value": "true"
           },
           "tweet_awards_web_tipping_enabled": {
+            "value": "false"
+          },
+          "responsive_web_grok_analysis_button_from_backend": {
             "value": "false"
           },
           "creator_subscriptions_quote_tweet_preview_enabled": {
@@ -11249,6 +11444,9 @@
           "tweet_awards_web_tipping_enabled": {
             "value": "false"
           },
+          "responsive_web_grok_analysis_button_from_backend": {
+            "value": "false"
+          },
           "creator_subscriptions_quote_tweet_preview_enabled": {
             "value": "false"
           },
@@ -11415,6 +11613,9 @@
             "value": "true"
           },
           "tweet_awards_web_tipping_enabled": {
+            "value": "false"
+          },
+          "responsive_web_grok_analysis_button_from_backend": {
             "value": "false"
           },
           "creator_subscriptions_quote_tweet_preview_enabled": {
@@ -11587,6 +11788,9 @@
             "value": "true"
           },
           "tweet_awards_web_tipping_enabled": {
+            "value": "false"
+          },
+          "responsive_web_grok_analysis_button_from_backend": {
             "value": "false"
           },
           "creator_subscriptions_quote_tweet_preview_enabled": {
@@ -11830,6 +12034,9 @@
           "tweet_awards_web_tipping_enabled": {
             "value": "false"
           },
+          "responsive_web_grok_analysis_button_from_backend": {
+            "value": "false"
+          },
           "creator_subscriptions_quote_tweet_preview_enabled": {
             "value": "false"
           },
@@ -12022,6 +12229,9 @@
             "value": "true"
           },
           "tweet_awards_web_tipping_enabled": {
+            "value": "false"
+          },
+          "responsive_web_grok_analysis_button_from_backend": {
             "value": "false"
           },
           "creator_subscriptions_quote_tweet_preview_enabled": {
@@ -12338,6 +12548,9 @@
             "value": "true"
           },
           "tweet_awards_web_tipping_enabled": {
+            "value": "false"
+          },
+          "responsive_web_grok_analysis_button_from_backend": {
             "value": "false"
           },
           "creator_subscriptions_quote_tweet_preview_enabled": {
@@ -12687,6 +12900,9 @@
           "tweet_awards_web_tipping_enabled": {
             "value": "false"
           },
+          "responsive_web_grok_analysis_button_from_backend": {
+            "value": "false"
+          },
           "creator_subscriptions_quote_tweet_preview_enabled": {
             "value": "false"
           },
@@ -12842,6 +13058,9 @@
           "tweet_awards_web_tipping_enabled": {
             "value": "false"
           },
+          "responsive_web_grok_analysis_button_from_backend": {
+            "value": "false"
+          },
           "creator_subscriptions_quote_tweet_preview_enabled": {
             "value": "false"
           },
@@ -12982,6 +13201,9 @@
             "value": "true"
           },
           "tweet_awards_web_tipping_enabled": {
+            "value": "false"
+          },
+          "responsive_web_grok_analysis_button_from_backend": {
             "value": "false"
           },
           "creator_subscriptions_quote_tweet_preview_enabled": {
@@ -13126,6 +13348,9 @@
           "tweet_awards_web_tipping_enabled": {
             "value": "false"
           },
+          "responsive_web_grok_analysis_button_from_backend": {
+            "value": "false"
+          },
           "creator_subscriptions_quote_tweet_preview_enabled": {
             "value": "false"
           },
@@ -13266,6 +13491,9 @@
             "value": "true"
           },
           "tweet_awards_web_tipping_enabled": {
+            "value": "false"
+          },
+          "responsive_web_grok_analysis_button_from_backend": {
             "value": "false"
           },
           "creator_subscriptions_quote_tweet_preview_enabled": {
@@ -13421,6 +13649,9 @@
             "value": "true"
           },
           "tweet_awards_web_tipping_enabled": {
+            "value": "false"
+          },
+          "responsive_web_grok_analysis_button_from_backend": {
             "value": "false"
           },
           "creator_subscriptions_quote_tweet_preview_enabled": {
@@ -13610,6 +13841,9 @@
             "value": "true"
           },
           "tweet_awards_web_tipping_enabled": {
+            "value": "false"
+          },
+          "responsive_web_grok_analysis_button_from_backend": {
             "value": "false"
           },
           "creator_subscriptions_quote_tweet_preview_enabled": {
@@ -13834,6 +14068,9 @@
             "value": "true"
           },
           "tweet_awards_web_tipping_enabled": {
+            "value": "false"
+          },
+          "responsive_web_grok_analysis_button_from_backend": {
             "value": "false"
           },
           "creator_subscriptions_quote_tweet_preview_enabled": {
@@ -14073,6 +14310,9 @@
           "tweet_awards_web_tipping_enabled": {
             "value": "false"
           },
+          "responsive_web_grok_analysis_button_from_backend": {
+            "value": "false"
+          },
           "creator_subscriptions_quote_tweet_preview_enabled": {
             "value": "false"
           },
@@ -14213,6 +14453,9 @@
             "value": "true"
           },
           "tweet_awards_web_tipping_enabled": {
+            "value": "false"
+          },
+          "responsive_web_grok_analysis_button_from_backend": {
             "value": "false"
           },
           "creator_subscriptions_quote_tweet_preview_enabled": {
@@ -14416,6 +14659,9 @@
           "tweet_awards_web_tipping_enabled": {
             "value": "false"
           },
+          "responsive_web_grok_analysis_button_from_backend": {
+            "value": "false"
+          },
           "creator_subscriptions_quote_tweet_preview_enabled": {
             "value": "false"
           },
@@ -14556,6 +14802,9 @@
             "value": "true"
           },
           "tweet_awards_web_tipping_enabled": {
+            "value": "false"
+          },
+          "responsive_web_grok_analysis_button_from_backend": {
             "value": "false"
           },
           "creator_subscriptions_quote_tweet_preview_enabled": {
@@ -14700,6 +14949,9 @@
           "tweet_awards_web_tipping_enabled": {
             "value": "false"
           },
+          "responsive_web_grok_analysis_button_from_backend": {
+            "value": "false"
+          },
           "creator_subscriptions_quote_tweet_preview_enabled": {
             "value": "false"
           },
@@ -14842,6 +15094,9 @@
           "tweet_awards_web_tipping_enabled": {
             "value": "false"
           },
+          "responsive_web_grok_analysis_button_from_backend": {
+            "value": "false"
+          },
           "creator_subscriptions_quote_tweet_preview_enabled": {
             "value": "false"
           },
@@ -14982,6 +15237,9 @@
             "value": "true"
           },
           "tweet_awards_web_tipping_enabled": {
+            "value": "false"
+          },
+          "responsive_web_grok_analysis_button_from_backend": {
             "value": "false"
           },
           "creator_subscriptions_quote_tweet_preview_enabled": {
@@ -15178,6 +15436,9 @@
           "tweet_awards_web_tipping_enabled": {
             "value": "false"
           },
+          "responsive_web_grok_analysis_button_from_backend": {
+            "value": "false"
+          },
           "creator_subscriptions_quote_tweet_preview_enabled": {
             "value": "false"
           },
@@ -15348,6 +15609,9 @@
             "value": "true"
           },
           "tweet_awards_web_tipping_enabled": {
+            "value": "false"
+          },
+          "responsive_web_grok_analysis_button_from_backend": {
             "value": "false"
           },
           "creator_subscriptions_quote_tweet_preview_enabled": {
@@ -15619,6 +15883,9 @@
           "tweet_awards_web_tipping_enabled": {
             "value": "false"
           },
+          "responsive_web_grok_analysis_button_from_backend": {
+            "value": "false"
+          },
           "creator_subscriptions_quote_tweet_preview_enabled": {
             "value": "false"
           },
@@ -15780,6 +16047,9 @@
             "value": "true"
           },
           "tweet_awards_web_tipping_enabled": {
+            "value": "false"
+          },
+          "responsive_web_grok_analysis_button_from_backend": {
             "value": "false"
           },
           "creator_subscriptions_quote_tweet_preview_enabled": {
@@ -15976,6 +16246,9 @@
           "tweet_awards_web_tipping_enabled": {
             "value": "false"
           },
+          "responsive_web_grok_analysis_button_from_backend": {
+            "value": "false"
+          },
           "creator_subscriptions_quote_tweet_preview_enabled": {
             "value": "false"
           },
@@ -16162,6 +16435,9 @@
           "tweet_awards_web_tipping_enabled": {
             "value": "false"
           },
+          "responsive_web_grok_analysis_button_from_backend": {
+            "value": "false"
+          },
           "creator_subscriptions_quote_tweet_preview_enabled": {
             "value": "false"
           },
@@ -16302,6 +16578,9 @@
             "value": "true"
           },
           "tweet_awards_web_tipping_enabled": {
+            "value": "false"
+          },
+          "responsive_web_grok_analysis_button_from_backend": {
             "value": "false"
           },
           "creator_subscriptions_quote_tweet_preview_enabled": {
@@ -16452,6 +16731,9 @@
             "value": "true"
           },
           "tweet_awards_web_tipping_enabled": {
+            "value": "false"
+          },
+          "responsive_web_grok_analysis_button_from_backend": {
             "value": "false"
           },
           "creator_subscriptions_quote_tweet_preview_enabled": {
@@ -16606,6 +16888,9 @@
             "value": "true"
           },
           "tweet_awards_web_tipping_enabled": {
+            "value": "false"
+          },
+          "responsive_web_grok_analysis_button_from_backend": {
             "value": "false"
           },
           "creator_subscriptions_quote_tweet_preview_enabled": {
@@ -17036,6 +17321,9 @@
           "tweet_awards_web_tipping_enabled": {
             "value": "false"
           },
+          "responsive_web_grok_analysis_button_from_backend": {
+            "value": "false"
+          },
           "creator_subscriptions_quote_tweet_preview_enabled": {
             "value": "false"
           },
@@ -17351,6 +17639,9 @@
           "tweet_awards_web_tipping_enabled": {
             "value": "false"
           },
+          "responsive_web_grok_analysis_button_from_backend": {
+            "value": "false"
+          },
           "creator_subscriptions_quote_tweet_preview_enabled": {
             "value": "false"
           },
@@ -17595,6 +17886,9 @@
           "tweet_awards_web_tipping_enabled": {
             "value": "false"
           },
+          "responsive_web_grok_analysis_button_from_backend": {
+            "value": "false"
+          },
           "creator_subscriptions_quote_tweet_preview_enabled": {
             "value": "false"
           },
@@ -17765,6 +18059,9 @@
             "value": "true"
           },
           "tweet_awards_web_tipping_enabled": {
+            "value": "false"
+          },
+          "responsive_web_grok_analysis_button_from_backend": {
             "value": "false"
           },
           "creator_subscriptions_quote_tweet_preview_enabled": {
@@ -17967,6 +18264,9 @@
             "value": "true"
           },
           "tweet_awards_web_tipping_enabled": {
+            "value": "false"
+          },
+          "responsive_web_grok_analysis_button_from_backend": {
             "value": "false"
           },
           "creator_subscriptions_quote_tweet_preview_enabled": {
@@ -18571,6 +18871,9 @@
           "tweet_awards_web_tipping_enabled": {
             "value": "false"
           },
+          "responsive_web_grok_analysis_button_from_backend": {
+            "value": "false"
+          },
           "creator_subscriptions_quote_tweet_preview_enabled": {
             "value": "false"
           },
@@ -18758,6 +19061,9 @@
             "value": "true"
           },
           "tweet_awards_web_tipping_enabled": {
+            "value": "false"
+          },
+          "responsive_web_grok_analysis_button_from_backend": {
             "value": "false"
           },
           "creator_subscriptions_quote_tweet_preview_enabled": {
@@ -18952,6 +19258,9 @@
             "value": "true"
           },
           "tweet_awards_web_tipping_enabled": {
+            "value": "false"
+          },
+          "responsive_web_grok_analysis_button_from_backend": {
             "value": "false"
           },
           "creator_subscriptions_quote_tweet_preview_enabled": {
@@ -19187,6 +19496,9 @@
           "tweet_awards_web_tipping_enabled": {
             "value": "false"
           },
+          "responsive_web_grok_analysis_button_from_backend": {
+            "value": "false"
+          },
           "creator_subscriptions_quote_tweet_preview_enabled": {
             "value": "false"
           },
@@ -19379,6 +19691,9 @@
             "value": "true"
           },
           "tweet_awards_web_tipping_enabled": {
+            "value": "false"
+          },
+          "responsive_web_grok_analysis_button_from_backend": {
             "value": "false"
           },
           "creator_subscriptions_quote_tweet_preview_enabled": {
@@ -19608,6 +19923,9 @@
           "tweet_awards_web_tipping_enabled": {
             "value": "false"
           },
+          "responsive_web_grok_analysis_button_from_backend": {
+            "value": "false"
+          },
           "creator_subscriptions_quote_tweet_preview_enabled": {
             "value": "false"
           },
@@ -19750,6 +20068,9 @@
           "tweet_awards_web_tipping_enabled": {
             "value": "false"
           },
+          "responsive_web_grok_analysis_button_from_backend": {
+            "value": "false"
+          },
           "creator_subscriptions_quote_tweet_preview_enabled": {
             "value": "false"
           },
@@ -19875,6 +20196,9 @@
             "value": "true"
           },
           "tweet_awards_web_tipping_enabled": {
+            "value": "false"
+          },
+          "responsive_web_grok_analysis_button_from_backend": {
             "value": "false"
           },
           "creator_subscriptions_quote_tweet_preview_enabled": {
@@ -20053,6 +20377,9 @@
             "value": "true"
           },
           "tweet_awards_web_tipping_enabled": {
+            "value": "false"
+          },
+          "responsive_web_grok_analysis_button_from_backend": {
             "value": "false"
           },
           "creator_subscriptions_quote_tweet_preview_enabled": {
@@ -20249,6 +20576,9 @@
           "tweet_awards_web_tipping_enabled": {
             "value": "false"
           },
+          "responsive_web_grok_analysis_button_from_backend": {
+            "value": "false"
+          },
           "creator_subscriptions_quote_tweet_preview_enabled": {
             "value": "false"
           },
@@ -20435,6 +20765,9 @@
           "tweet_awards_web_tipping_enabled": {
             "value": "false"
           },
+          "responsive_web_grok_analysis_button_from_backend": {
+            "value": "false"
+          },
           "creator_subscriptions_quote_tweet_preview_enabled": {
             "value": "false"
           },
@@ -20605,6 +20938,9 @@
             "value": "true"
           },
           "tweet_awards_web_tipping_enabled": {
+            "value": "false"
+          },
+          "responsive_web_grok_analysis_button_from_backend": {
             "value": "false"
           },
           "creator_subscriptions_quote_tweet_preview_enabled": {
@@ -20814,6 +21150,9 @@
           "tweet_awards_web_tipping_enabled": {
             "value": "false"
           },
+          "responsive_web_grok_analysis_button_from_backend": {
+            "value": "false"
+          },
           "creator_subscriptions_quote_tweet_preview_enabled": {
             "value": "false"
           },
@@ -20984,6 +21323,9 @@
             "value": "true"
           },
           "tweet_awards_web_tipping_enabled": {
+            "value": "false"
+          },
+          "responsive_web_grok_analysis_button_from_backend": {
             "value": "false"
           },
           "creator_subscriptions_quote_tweet_preview_enabled": {
