@@ -5003,7 +5003,7 @@
           "value": "true"
         },
         "responsive_web_grok_analysis_button_from_backend": {
-          "value": "false"
+          "value": "true"
         },
         "responsive_web_grok_analyze_animation": {
           "value": "true"
@@ -5168,7 +5168,7 @@
           "value": "true"
         },
         "responsive_web_grok_show_message_reply_button": {
-          "value": "false"
+          "value": "true"
         },
         "responsive_web_grok_sport_cards_enabled": {
           "value": "false"
@@ -5765,7 +5765,7 @@
           "value": "true"
         },
         "rweb_live_dock_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "rweb_master_detail_enabled": {
           "value": "false"
@@ -6800,7 +6800,7 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "5d98aa11a8d22e93cbb23396b688f178"
+      "settingsVersion": "745a51fc3ef0289d1a98204867ebec3e"
     },
     "debug": {},
     "featureSetToken": "e9e469bb3e08652cbd457270de6ebc03fe5fe9dc",
@@ -6874,7 +6874,7 @@
     "country": "XX",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "173827119391998471",
+    "guestId": "173835764427146198",
     "hasCommunityMemberships": "false",
     "language": "en",
     "ssoInitTokens": {},
