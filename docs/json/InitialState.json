@@ -1652,7 +1652,7 @@
         "value": "true"
       },
       "responsive_web_grok_analysis_button_from_backend": {
-        "value": "false"
+        "value": "true"
       },
       "responsive_web_grok_analyze_animation": {
         "value": "false"
@@ -1735,6 +1735,9 @@
       "responsive_web_grok_in_app_learn_more": {
         "value": "https://x.com/xai/status/1823597788573098215"
       },
+      "responsive_web_grok_links": {
+        "value": "true"
+      },
       "responsive_web_grok_location_enabled": {
         "value": "true"
       },
@@ -1816,6 +1819,9 @@
       "responsive_web_grok_show_message_post_button": {
         "value": "true"
       },
+      "responsive_web_grok_show_message_reply_button": {
+        "value": "true"
+      },
       "responsive_web_grok_sport_cards_enabled": {
         "value": "false"
       },
@@ -1835,6 +1841,9 @@
         "value": "false"
       },
       "responsive_web_grok_tweet_translation": {
+        "value": "false"
+      },
+      "responsive_web_grok_use_new_layout": {
         "value": "false"
       },
       "responsive_web_grok_user_active_seconds_enable": {
@@ -2411,7 +2420,7 @@
         "value": "true"
       },
       "rweb_live_dock_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "rweb_master_detail_enabled": {
         "value": "false"
@@ -2877,6 +2886,12 @@
       "subscriptions_upsells_analytics_profile_variant": {
         "value": "Impressions"
       },
+      "subscriptions_upsells_bookmarks_screen_enabled": {
+        "value": "false"
+      },
+      "subscriptions_upsells_bookmarks_screen_variant": {
+        "value": ""
+      },
       "subscriptions_upsells_dm_card_enabled": {
         "value": "false"
       },
@@ -2910,12 +2925,6 @@
       "subscriptions_upsells_premium_home_nav": {
         "value": "premium_upsell_upgrade"
       },
-      "subscriptions_upsells_profile_card_enabled": {
-        "value": "false"
-      },
-      "subscriptions_upsells_profile_card_variant": {
-        "value": "anniversary"
-      },
       "subscriptions_upsells_radar_sidebar_enabled": {
         "value": "false"
       },
@@ -2941,7 +2950,7 @@
         "value": ""
       },
       "subscriptions_upsells_vo_nav_decoration_enabled": {
-        "value": "true"
+        "value": "false"
       },
       "subscriptions_upsells_vo_nav_decoration_variant": {
         "value": "30_percent_off"
@@ -4993,7 +5002,7 @@
           "value": "true"
         },
         "responsive_web_grok_analysis_button_from_backend": {
-          "value": "false"
+          "value": "true"
         },
         "responsive_web_grok_analyze_animation": {
           "value": "true"
@@ -5075,6 +5084,9 @@
         },
         "responsive_web_grok_in_app_learn_more": {
           "value": "https://x.com/xai/status/1823597788573098215"
+        },
+        "responsive_web_grok_links": {
+          "value": "true"
         },
         "responsive_web_grok_location_enabled": {
           "value": "true"
@@ -5158,7 +5170,7 @@
           "value": "true"
         },
         "responsive_web_grok_show_message_reply_button": {
-          "value": "false"
+          "value": "true"
         },
         "responsive_web_grok_sport_cards_enabled": {
           "value": "false"
@@ -5180,6 +5192,9 @@
         },
         "responsive_web_grok_tweet_translation": {
           "value": "false"
+        },
+        "responsive_web_grok_use_new_layout": {
+          "value": "true"
         },
         "responsive_web_grok_user_active_seconds_enable": {
           "value": "true"
@@ -5755,7 +5770,7 @@
           "value": "true"
         },
         "rweb_live_dock_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "rweb_master_detail_enabled": {
           "value": "false"
@@ -6221,6 +6236,12 @@
         "subscriptions_upsells_analytics_profile_variant": {
           "value": "Impressions"
         },
+        "subscriptions_upsells_bookmarks_screen_enabled": {
+          "value": "false"
+        },
+        "subscriptions_upsells_bookmarks_screen_variant": {
+          "value": ""
+        },
         "subscriptions_upsells_dm_card_enabled": {
           "value": "false"
         },
@@ -6232,6 +6253,12 @@
         },
         "subscriptions_upsells_get_verified_profile": {
           "value": "true"
+        },
+        "subscriptions_upsells_get_verified_profile_card": {
+          "value": "false"
+        },
+        "subscriptions_upsells_get_verified_profile_card_variant": {
+          "value": ""
         },
         "subscriptions_upsells_longform_sidebar_variant": {
           "value": ""
@@ -6253,12 +6280,6 @@
         },
         "subscriptions_upsells_premium_home_nav": {
           "value": "premium_upsell_upgrade"
-        },
-        "subscriptions_upsells_profile_card_enabled": {
-          "value": "false"
-        },
-        "subscriptions_upsells_profile_card_variant": {
-          "value": "anniversary"
         },
         "subscriptions_upsells_radar_sidebar_enabled": {
           "value": "false"
@@ -6285,7 +6306,7 @@
           "value": ""
         },
         "subscriptions_upsells_vo_nav_decoration_enabled": {
-          "value": "true"
+          "value": "false"
         },
         "subscriptions_upsells_vo_nav_decoration_variant": {
           "value": "30_percent_off"
@@ -6790,10 +6811,10 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "cf0aa09ddb25a43917e50e5a0207b5b7"
+      "settingsVersion": "b838320840e52ec05c127c01dadbe1e0"
     },
     "debug": {},
-    "featureSetToken": "e9e469bb3e08652cbd457270de6ebc03fe5fe9dc",
+    "featureSetToken": "95212a26131964a3c24f1a6730251e3ba09b8057",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -6864,7 +6885,7 @@
     "country": "XX",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "173827090351907384",
+    "guestId": "173835729776762932",
     "hasCommunityMemberships": "false",
     "language": "en",
     "ssoInitTokens": {},

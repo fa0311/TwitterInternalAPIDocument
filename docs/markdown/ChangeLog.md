@@ -5262,3 +5262,20 @@
 - responsive_web_grok_show_message_reply_button<br>
 #### remove<br>
 - None<br>
+## 2025/01/31<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- responsive_web_grok_links<br>
+- responsive_web_grok_use_new_layout<br>
+- subscriptions_upsells_bookmarks_screen_enabled<br>
+- subscriptions_upsells_bookmarks_screen_variant<br>
+- subscriptions_upsells_get_verified_profile_card<br>
+- subscriptions_upsells_get_verified_profile_card_variant<br>
+#### remove<br>
+- subscriptions_upsells_profile_card_enabled<br>
+- subscriptions_upsells_profile_card_variant<br>
