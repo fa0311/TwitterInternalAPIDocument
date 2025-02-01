@@ -5102,7 +5102,7 @@
           "value": "true"
         },
         "responsive_web_grok_personality": {
-          "value": "false"
+          "value": "true"
         },
         "responsive_web_grok_places_card_enabled": {
           "value": "false"
@@ -6797,10 +6797,20 @@
           "value": "true"
         }
       },
-      "impression_pointers": {},
-      "impressions": {},
+      "impression_pointers": {
+        "responsive_web_logged_out_read_replies_pivot_enabled": [
+          "logged_out_read_replies_pivot_17075"
+        ]
+      },
+      "impressions": {
+        "logged_out_read_replies_pivot_17075": {
+          "key": "logged_out_read_replies_pivot_17075",
+          "bucket": "treatment",
+          "version": "2"
+        }
+      },
       "keysRead": {},
-      "settingsVersion": "745a51fc3ef0289d1a98204867ebec3e"
+      "settingsVersion": "b2fb1d6ae973b237b2ae2404397662bc"
     },
     "debug": {},
     "featureSetToken": "e9e469bb3e08652cbd457270de6ebc03fe5fe9dc",
@@ -6874,7 +6884,7 @@
     "country": "XX",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "173835764427146198",
+    "guestId": "173844404121919156",
     "hasCommunityMemberships": "false",
     "language": "en",
     "ssoInitTokens": {},
