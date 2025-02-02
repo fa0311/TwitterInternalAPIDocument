@@ -1009,7 +1009,10 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-`None`<br>
+```internal process
+# Error
+{"rawQuery":r||"","count":"t","cursor":"d","...()(0,o.d)":"_"}
+```
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
@@ -1402,7 +1405,10 @@ Request Method: `POST`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-`None`<br>
+| key   | type   | variable   |
+|:------|:-------|:-----------|
+| flag  | ...    | n          |
+
 #### features<br>
 `None`<br>
 #### queryId<br>
@@ -1424,7 +1430,10 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-`None`<br>
+```internal process
+# Error
+{"rawQuery":l||"","count":"t","cursor":"d","querySource":"i","product":"r","...()(0,o.d)":"_"}
+```
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
@@ -1468,7 +1477,10 @@ Request Method: `POST`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-`None`<br>
+| key    | type   | variable   |
+|:-------|:-------|:-----------|
+| cursor | ...    | t          |
+
 #### features<br>
 `None`<br>
 #### queryId<br>
@@ -1567,7 +1579,10 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-`None`<br>
+| key                    | type   | variable   |
+|:-----------------------|:-------|:-----------|
+| bookmark_collection_id | ...    | n          |
+
 #### features<br>
 `None`<br>
 #### queryId<br>
@@ -1820,7 +1835,10 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-`None`<br>
+| key    | type   | variable   |
+|:-------|:-------|:-----------|
+| cursor | ...    | t          |
+
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
@@ -2161,7 +2179,10 @@ Request Method: `POST`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-`None`<br>
+| key                | type   | variable                                 |
+|:-------------------|:-------|:-----------------------------------------|
+| pinnedTimelineItem | ...    | {'id': 'n', 'pinned_timeline_type': 't'} |
+
 #### features<br>
 | key                                                               | type    | variable   |
 |:------------------------------------------------------------------|:--------|:-----------|
@@ -2428,7 +2449,15 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-`None`<br>
+| key                    | type    | variable   |
+|:-----------------------|:--------|:-----------|
+| trendId                | ...     | r.trendId  |
+| includePromotedContent | boolean | False      |
+| withBirdwatchNotes     | boolean | False      |
+| withVoice              | boolean | False      |
+| withCommunity          | boolean | False      |
+| ...()(0,y.d)           | ...     | _          |
+
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
@@ -5259,7 +5288,12 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-`None`<br>
+| key          | type   | variable   |
+|:-------------|:-------|:-----------|
+| count        | ...    | t          |
+| cursor       | ...    | r          |
+| ...()(0,i.d) | ...    | _          |
+
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
@@ -5303,12 +5337,7 @@ Request Method: `POST`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key         | type   | variable   |
-|:------------|:-------|:-----------|
-| group_id    | ...    | s          |
-| object_id   | ...    | r          |
-| action_type | ...    | t          |
-
+`None`<br>
 #### features<br>
 `None`<br>
 #### queryId<br>
