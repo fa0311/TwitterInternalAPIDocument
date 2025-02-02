@@ -1727,7 +1727,7 @@
         "value": "true"
       },
       "responsive_web_grok_image_edit": {
-        "value": "false"
+        "value": "true"
       },
       "responsive_web_grok_image_prompts_enabled": {
         "value": "true"
@@ -1760,7 +1760,7 @@
         "value": "true"
       },
       "responsive_web_grok_personality": {
-        "value": "false"
+        "value": "true"
       },
       "responsive_web_grok_places_card_enabled": {
         "value": "false"
@@ -6835,10 +6835,10 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "4e2c0cb61b4c043a2cf5c58f199360bf"
+      "settingsVersion": "9fcc91d86e7dfd2e5c4c597bd4501c68"
     },
     "debug": {},
-    "featureSetToken": "73c4504ff75c1a73b8ec1a35fa8ad82cf2227e82",
+    "featureSetToken": "e87ef5b23eb8097bb8deb8c6c361bd1fbc987cec",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -6909,7 +6909,7 @@
     "country": "XX",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "173844369702947063",
+    "guestId": "173853010485484828",
     "hasCommunityMemberships": "false",
     "language": "en",
     "ssoInitTokens": {},
