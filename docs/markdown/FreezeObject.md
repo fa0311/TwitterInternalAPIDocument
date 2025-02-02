@@ -178,7 +178,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant   | value   |
 |:-----------|:--------|
-| ...d       | _       |
+| ...t       | _       |
 
 | constant   | value   |
 |:-----------|:--------|
@@ -597,7 +597,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{"oneColumn":"t.primary","twoColumn":{"small":t.primary+t.gutter.left.small+t.secondary.small+t.gutter.right.normal,"normal":t.primary+t.gutter.left.normal+t.secondary.normal+t.gutter.right.normal,"large":t.primary+t.gutter.left.normal+t.secondary.normal+t.gutter.right.large}}
+{"oneColumn":"d.primary","twoColumn":{"small":d.primary+d.gutter.left.small+d.secondary.small+d.gutter.right.normal,"normal":d.primary+d.gutter.left.normal+d.secondary.normal+d.gutter.right.normal,"large":d.primary+d.gutter.left.normal+d.secondary.normal+d.gutter.right.large}}
 ```
 ```internal process
 # Error
@@ -620,7 +620,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | constant              | value   |
 |:----------------------|:--------|
 | cardWidth             | s       |
-| columnWidths          | t       |
+| columnWidths          | d       |
 | columnWidthsRedesign  | a       |
 | sideNavWidths         | o       |
 | sideNavWidthsRedesign | r       |
@@ -805,7 +805,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant            | value               |
 |:--------------------|:--------------------|
-| ...t.YE             | _                   |
+| ...d.YE             | _                   |
 | EMBEDDED_MEDIA      | embedded_media      |
 | FOOTER_PROFILE      | footer_profile      |
 | HASHTAG_CLICK       | hashtag_click       |
@@ -1123,7 +1123,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant             | value                |
 |:---------------------|:---------------------|
-| ...t                 | _                    |
+| ...d                 | _                    |
 | ...a                 | _                    |
 | FacepileGroup        | FacepileGroup        |
 | Community            | Community            |
@@ -1464,12 +1464,12 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant     | value    |
 |:-------------|:---------|
-| down_cursor  | t.BOTTOM |
-| max_id       | t.BOTTOM |
-| max_position | t.BOTTOM |
-| min_position | t.TOP    |
-| since_id     | t.TOP    |
-| up_cursor    | t.TOP    |
+| down_cursor  | d.BOTTOM |
+| max_id       | d.BOTTOM |
+| max_position | d.BOTTOM |
+| min_position | d.TOP    |
+| since_id     | d.TOP    |
+| up_cursor    | d.TOP    |
 
 | constant   | value                          |
 |:-----------|:-------------------------------|
@@ -1842,7 +1842,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{"isExternal()"{"try"{const d=r();return this._customIsExternal?this._customIsExternal(e,n){"hrefHostname":"d","href":"e"}}"catch()"{"return!0"}},"setIsExternal()"{"this._customIsExternal=e"},"clearIsExternal()"{"this._customIsExternal=null"},"onLinkClick()"{"this._customOnLinkClick&&this._customOnL...
+{"isExternal()"{"try"{const t=r();return this._customIsExternal?this._customIsExternal(e,n){"hrefHostname":"t","href":"e"}}"catch()"{"return!0"}},"setIsExternal()"{"this._customIsExternal=e"},"clearIsExternal()"{"this._customIsExternal=null"},"onLinkClick()"{"this._customOnLinkClick&&this._customOnL...
 ```
 | constant   | value   |
 |:-----------|:--------|
@@ -1870,7 +1870,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{[t.xSmall]:".9",[t.small]:".95",[t.normal]:"1",[t.large]:"1.1",[t.xLarge]:"1.2"}
+{[d.xSmall]:".9",[d.small]:".95",[d.normal]:"1",[d.large]:"1.1",[d.xLarge]:"1.2"}
 ```
 | constant   | value    |
 |:-----------|:---------|
@@ -2078,21 +2078,21 @@ This document is entirely auto-generated and may contain errors.<br>
 | navigationBackground            | r.Cj                               |
 | navigationBackground95          | r.bs.white(.03)                    |
 | cellBackground                  | r.Cj                               |
-| borderColor                     | t.default.color.baseColor.gray50   |
-| nestedBorderColor               | t.default.color.baseColor.gray200  |
-| dmReceivedBubbleBackground      | t.default.color.baseColor.gray50   |
-| badgeColor                      | t.default.color.baseColor.blue500  |
+| borderColor                     | d.default.color.baseColor.gray50   |
+| nestedBorderColor               | d.default.color.baseColor.gray200  |
+| dmReceivedBubbleBackground      | d.default.color.baseColor.gray50   |
+| badgeColor                      | d.default.color.baseColor.blue500  |
 | maskColor                       | r.bs.black(.95)                    |
 | maskColorNative                 | r.bs.black(.4)                     |
 | hoverLabelColor                 | r.bs.black(.4)                     |
 | elevatedBackground              | r.Cj                               |
 | elevatedBackgroundShadow        | r.bs.black(.6)                     |
-| brandColor                      | t.default.color.baseColor.gray1100 |
+| brandColor                      | d.default.color.baseColor.gray1100 |
 | whiteOnColor                    | r.Cj                               |
-| buttonBlack                     | t.default.color.baseColor.gray1100 |
+| buttonBlack                     | d.default.color.baseColor.gray1100 |
 | buttonWhite                     | r.Cj                               |
-| buttonOutlinedBorder            | t.default.color.baseColor.gray200  |
-| buttonDestructionOutlinedBorder | t.default.color.baseColor.red100   |
+| buttonOutlinedBorder            | d.default.color.baseColor.gray200  |
+| buttonDestructionOutlinedBorder | d.default.color.baseColor.red100   |
 | appBarBackground                | r.bs.white(.1)                     |
 | appBarFirefoxBackground         | r.bs.white(.85)                    |
 
@@ -2105,14 +2105,14 @@ This document is entirely auto-generated and may contain errors.<br>
 | gray300                    | #697987                           |
 | gray200                    | #697987                           |
 | gray100                    | #E5EAEC                           |
-| gray50                     | t.default.color.baseColor.gray200 |
-| gray0                      | t.default.color.baseColor.gray50  |
+| gray50                     | d.default.color.baseColor.gray200 |
+| gray0                      | d.default.color.baseColor.gray50  |
 | navigationBackground95     | r.Cj                              |
-| borderColor                | t.default.color.baseColor.gray300 |
-| nestedBorderColor          | t.default.color.baseColor.gray300 |
-| dmReceivedBubbleBackground | t.default.color.baseColor.gray200 |
+| borderColor                | d.default.color.baseColor.gray300 |
+| nestedBorderColor          | d.default.color.baseColor.gray300 |
+| dmReceivedBubbleBackground | d.default.color.baseColor.gray200 |
 | badgeColor                 | #264A9D                           |
-| buttonOutlinedBorder       | t.default.color.baseColor.gray700 |
+| buttonOutlinedBorder       | d.default.color.baseColor.gray700 |
 
 | constant                        | value                              |
 |:--------------------------------|:-----------------------------------|
@@ -2126,32 +2126,32 @@ This document is entirely auto-generated and may contain errors.<br>
 | borderColor                     | #38444D                            |
 | nestedBorderColor               | #38444D                            |
 | dmReceivedBubbleBackground      | #3D5466                            |
-| badgeColor                      | t.default.color.baseColor.blue500  |
+| badgeColor                      | d.default.color.baseColor.blue500  |
 | maskColor                       | r.bs.gray700(.95)                  |
 | maskColorNative                 | r.bs.black(.4)                     |
 | hoverLabelColor                 | r.bs.gray700(.4)                   |
 | elevatedBackground              | #1C2C3C                            |
 | elevatedBackgroundShadow        | r.bs.dim(.8)                       |
-| brandColor                      | t.default.color.baseColor.gray0    |
+| brandColor                      | d.default.color.baseColor.gray0    |
 | whiteOnColor                    | r.Cj                               |
-| buttonBlack                     | t.default.color.baseColor.gray50   |
-| buttonWhite                     | t.default.color.baseColor.gray1100 |
-| buttonOutlinedBorder            | t.default.color.baseColor.gray700  |
+| buttonBlack                     | d.default.color.baseColor.gray50   |
+| buttonWhite                     | d.default.color.baseColor.gray1100 |
+| buttonOutlinedBorder            | d.default.color.baseColor.gray700  |
 | buttonDestructionOutlinedBorder | #67070F                            |
 | appBarBackground                | r.bs.dim(.1)                       |
 | appBarFirefoxBackground         | r.bs.dim(.75)                      |
 
 | constant                   | value                              |
 |:---------------------------|:-----------------------------------|
-| ...g                       | _                                  |
+| ...A                       | _                                  |
 | ...i()                     | _                                  |
 | text                       | r.Cj                               |
 | navigationBackground95     | #15202B                            |
 | unreadCellBackground       | #325D7D                            |
 | dmReceivedBubbleBackground | #B8CBD9                            |
 | badgeColor                 | #264A9D                            |
-| whiteOnColor               | t.default.color.baseColor.gray1100 |
-| buttonOutlinedBorder       | t.default.color.baseColor.gray300  |
+| whiteOnColor               | d.default.color.baseColor.gray1100 |
+| buttonOutlinedBorder       | d.default.color.baseColor.gray300  |
 
 | constant                        | value                              |
 |:--------------------------------|:-----------------------------------|
@@ -2166,17 +2166,17 @@ This document is entirely auto-generated and may contain errors.<br>
 | borderColor                     | #2F3336                            |
 | nestedBorderColor               | #2F3336                            |
 | dmReceivedBubbleBackground      | #2F3336                            |
-| badgeColor                      | t.default.color.baseColor.blue500  |
+| badgeColor                      | d.default.color.baseColor.blue500  |
 | maskColor                       | r.bs.gray700(.95)                  |
 | maskColorNative                 | r.bs.black(.4)                     |
 | hoverLabelColor                 | r.bs.gray700(.4)                   |
 | elevatedBackground              | #1B2023                            |
 | elevatedBackgroundShadow        | r.bs.black(.8)                     |
-| brandColor                      | t.default.color.darkColor.gray1100 |
+| brandColor                      | d.default.color.darkColor.gray1100 |
 | whiteOnColor                    | r.Cj                               |
-| buttonBlack                     | t.default.color.baseColor.gray50   |
-| buttonWhite                     | t.default.color.baseColor.gray1100 |
-| buttonOutlinedBorder            | t.default.color.baseColor.gray700  |
+| buttonBlack                     | d.default.color.baseColor.gray50   |
+| buttonWhite                     | d.default.color.baseColor.gray1100 |
+| buttonOutlinedBorder            | d.default.color.baseColor.gray700  |
 | buttonDestructionOutlinedBorder | #67070F                            |
 | appBarBackground                | r.bs.black(.1)                     |
 | appBarFirefoxBackground         | r.bs.black(.65)                    |
@@ -2194,8 +2194,8 @@ This document is entirely auto-generated and may contain errors.<br>
 | nestedBorderColor          | #3D4145                            |
 | dmReceivedBubbleBackground | #929CA6                            |
 | badgeColor                 | #264A9D                            |
-| whiteOnColor               | t.default.color.baseColor.gray1100 |
-| buttonOutlinedBorder       | t.default.color.baseColor.gray300  |
+| whiteOnColor               | d.default.color.baseColor.gray1100 |
+| buttonOutlinedBorder       | d.default.color.baseColor.gray300  |
 
 | constant                        | value                              |
 |:--------------------------------|:-----------------------------------|
@@ -2209,17 +2209,17 @@ This document is entirely auto-generated and may contain errors.<br>
 | borderColor                     | #38444D                            |
 | nestedBorderColor               | #38444D                            |
 | dmReceivedBubbleBackground      | #3D5466                            |
-| badgeColor                      | t.default.color.baseColor.blue500  |
+| badgeColor                      | d.default.color.baseColor.blue500  |
 | maskColor                       | r.bs.gray700(.95)                  |
 | maskColorNative                 | r.bs.black(.4)                     |
 | hoverLabelColor                 | r.bs.gray700(.4)                   |
 | elevatedBackground              | #1C2C3C                            |
 | elevatedBackgroundShadow        | r.bs.dim(.8)                       |
-| brandColor                      | t.default.color.baseColor.gray0    |
+| brandColor                      | d.default.color.baseColor.gray0    |
 | whiteOnColor                    | r.Cj                               |
-| buttonBlack                     | t.default.color.baseColor.gray50   |
-| buttonWhite                     | t.default.color.baseColor.gray1100 |
-| buttonOutlinedBorder            | t.default.color.baseColor.gray700  |
+| buttonBlack                     | d.default.color.baseColor.gray50   |
+| buttonWhite                     | d.default.color.baseColor.gray1100 |
+| buttonOutlinedBorder            | d.default.color.baseColor.gray700  |
 | buttonDestructionOutlinedBorder | #67070F                            |
 | appBarBackground                | r.bs.dim(.1)                       |
 | appBarFirefoxBackground         | r.bs.dim(.75)                      |
@@ -2268,16 +2268,16 @@ This document is entirely auto-generated and may contain errors.<br>
 | fontSizes           | y       |
 | fontSizesPx         | D       |
 | fontWeights         | b       |
-| lineHeights         | g       |
-| lineHeightsPx       | A       |
+| lineHeights         | A       |
+| lineHeightsPx       | g       |
 | scales              | n       |
-| scaleMultiplier     | d       |
+| scaleMultiplier     | t       |
 | spaces              | _       |
 | spacesPx            | w       |
 
 ```internal process
 # Error
-{"...p()":{"scale":"r","scales":"i"}"on0",A.obd,n,"a"}
+{"...p()":{"scale":"r","scales":"i"}"on0",g.obt,n,"a"}
 ```
 | constant         | value            |
 |:-----------------|:-----------------|
@@ -3778,13 +3778,13 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant         | value        |
 |:-----------------|:-------------|
-| see_more         | R().ffd9cfe6 |
-| discover_more    | R().d172116a |
-| more             | R().h63a5c3c |
-| more_tweets      | R().be5df69e |
-| more_suggestions | R().g11ebd34 |
-| browse           | R().g4a6901a |
-| browse_tweets    | R().h6453e74 |
+| see_more         | P().ffd9cfe6 |
+| discover_more    | P().d172116a |
+| more             | P().h63a5c3c |
+| more_tweets      | P().be5df69e |
+| more_suggestions | P().g11ebd34 |
+| browse           | P().g4a6901a |
+| browse_tweets    | P().h6453e74 |
 
 | constant   | value        |
 |:-----------|:-------------|
@@ -4027,15 +4027,15 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{[o.AGE_18_TO_24]:{"minAge":"18","maxAge":"24"},[o.AGE_18_TO_34]:{"minAge":"18","maxAge":"34"},[o.AGE_18_TO_49]:{"minAge":"18","maxAge":"49"},[o.AGE_18_TO_54]:{"minAge":"18","maxAge":"54"},[o.AGE_21_TO_34]:{"minAge":"21","maxAge":"34"},[o.AGE_21_TO_49]:{"minAge":"21","maxAge":"49"},[o.AGE_21_TO_54]:...
+{[i.AGE_18_TO_24]:{"minAge":"18","maxAge":"24"},[i.AGE_18_TO_34]:{"minAge":"18","maxAge":"34"},[i.AGE_18_TO_49]:{"minAge":"18","maxAge":"49"},[i.AGE_18_TO_54]:{"minAge":"18","maxAge":"54"},[i.AGE_21_TO_34]:{"minAge":"21","maxAge":"34"},[i.AGE_21_TO_49]:{"minAge":"21","maxAge":"49"},[i.AGE_21_TO_54]:...
 ```
 |   constant | value                                                                                                                     |
 |-----------:|:--------------------------------------------------------------------------------------------------------------------------|
-|         18 | {'24': 'o.AGE_18_TO_24', '34': 'o.AGE_18_TO_34', '49': 'o.AGE_18_TO_49', '54': 'o.AGE_18_TO_54', 'over': 'o.AGE_OVER_18'} |
-|         21 | {'34': 'o.AGE_21_TO_34', '49': 'o.AGE_21_TO_49', '54': 'o.AGE_21_TO_54', 'over': 'o.AGE_OVER_21'}                         |
-|         25 | {'49': 'o.AGE_25_TO_49', '54': 'o.AGE_25_TO_54', 'over': 'o.AGE_OVER_25'}                                                 |
-|         35 | {'49': 'o.AGE_35_TO_49', '54': 'o.AGE_35_TO_54', 'over': 'o.AGE_OVER_35'}                                                 |
-|         50 | {'over': 'o.AGE_OVER_50'}                                                                                                 |
+|         18 | {'24': 'i.AGE_18_TO_24', '34': 'i.AGE_18_TO_34', '49': 'i.AGE_18_TO_49', '54': 'i.AGE_18_TO_54', 'over': 'i.AGE_OVER_18'} |
+|         21 | {'34': 'i.AGE_21_TO_34', '49': 'i.AGE_21_TO_49', '54': 'i.AGE_21_TO_54', 'over': 'i.AGE_OVER_21'}                         |
+|         25 | {'49': 'i.AGE_25_TO_49', '54': 'i.AGE_25_TO_54', 'over': 'i.AGE_OVER_25'}                                                 |
+|         35 | {'49': 'i.AGE_35_TO_49', '54': 'i.AGE_35_TO_54', 'over': 'i.AGE_OVER_35'}                                                 |
+|         50 | {'over': 'i.AGE_OVER_50'}                                                                                                 |
 
 | constant      | value         |
 |:--------------|:--------------|
@@ -4050,7 +4050,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{"ActionsBar":"w.Z","ActionMenu":"function()"{"Icon":"e","isDisabled":"t","items":"n","onOpen":"r"}{"const i=o.useCallback()"{"items":"n","onCloseRequested":"e"}{"Icon":"e","isDisabled":"t","onClick":"r","renderActionMenu":"i"}},"CallToAction":"a.ZP","EditCallout":"v.Z","Education":"T.Z","Highlighte...
+{"ActionsBar":"w.Z","ActionMenu":"function()"{"Icon":"e","isDisabled":"t","items":"n","onOpen":"r"}{"const o=i.useCallback()"{"items":"n","onCloseRequested":"e"}{"Icon":"e","isDisabled":"t","onClick":"r","renderActionMenu":"o"}},"CallToAction":"a.ZP","EditCallout":"E.Z","Education":"T.Z","Highlighte...
 ```
 | constant             | value                |
 |:---------------------|:---------------------|
@@ -5642,11 +5642,11 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{"__proto__":"null","formatCaption":"function()"{"return()(0,lr.WU)"},"formatDay":"function()"{"return()(0,lr.WU)"},"formatMonthCaption":"function()"{"return()(0,lr.WU)"},"formatWeekNumber":"function()"{return"".concat()},"formatWeekdayName":"function()"{"return()(0,lr.WU)"},"formatYearCaption":"fun...
+{"__proto__":"null","formatCaption":"function()"{"return()(0,li.WU)"},"formatDay":"function()"{"return()(0,li.WU)"},"formatMonthCaption":"function()"{"return()(0,li.WU)"},"formatWeekNumber":"function()"{return"".concat()},"formatWeekdayName":"function()"{"return()(0,li.WU)"},"formatYearCaption":"fun...
 ```
 ```internal process
 # Error
-{"__proto__":"null","labelDay":"function()"{"return()(0,lr.WU)"},"labelMonthDropdown":"function()"{return"Month: "},"labelNext":"function()"{return"Go to next month"},"labelPrevious":"function()"{return"Go to previous month"},"labelWeekNumber":"function()"{return"Week n. ".concat()},"labelWeekday":"...
+{"__proto__":"null","labelDay":"function()"{"return()(0,li.WU)"},"labelMonthDropdown":"function()"{return"Month: "},"labelNext":"function()"{return"Go to next month"},"labelPrevious":"function()"{return"Go to previous month"},"labelWeekNumber":"function()"{return"Week n. ".concat()},"labelWeekday":"...
 ```
 | constant          | value                |
 |:------------------|:---------------------|
@@ -7285,6 +7285,23 @@ This document is entirely auto-generated and may contain errors.<br>
 | MATCHES    | {'id': 'GAMES', 'label': 'i().e2811afc'}     |
 | STANDINGS  | {'id': 'STANDINGS', 'label': 'i().j081fa34'} |
 
+| constant           | value   |
+|:-------------------|:--------|
+| full_time          | r       |
+| full_time_contract | i       |
+| part_time          | s       |
+| contract_to_hire   | o       |
+
+|   constant | value   |
+|-----------:|:--------|
+|          1 | c       |
+|          2 | d       |
+
+| constant   | value                        |
+|:-----------|:-----------------------------|
+| annually   | {'label': 'c', 'value': '1'} |
+| hourly     | {'label': 'd', 'value': '2'} |
+
 | constant         |   value |
 |:-----------------|--------:|
 | DISABLED         |       0 |
@@ -7311,49 +7328,32 @@ This document is entirely auto-generated and may contain errors.<br>
 | product              | b       |
 | design               | u       |
 | marketing            | h       |
-| sales_am             | f       |
-| operations           | m       |
-| people_hr            | p       |
+| sales_am             | m       |
+| operations           | p       |
+| people_hr            | f       |
 | finance_accounting   | _       |
-| legal_compliance     | v       |
-| science_engineering  | w       |
-| medical              | S       |
+| legal_compliance     | S       |
+| science_engineering  | v       |
+| medical              | w       |
 | construction_trades  | g       |
-| other                | y       |
+| other                | k       |
 
 | constant    | value   |
 |:------------|:--------|
-| intern      | R       |
-| entry_level | E       |
-| junior      | O       |
-| mid_level   | P       |
-| senior      | C       |
-| lead        | D       |
-| manager     | L       |
-| executive   | A       |
+| intern      | P       |
+| entry_level | R       |
+| junior      | j       |
+| mid_level   | C       |
+| senior      | L       |
+| lead        | O       |
+| manager     | A       |
+| executive   | D       |
 
 | constant   | value                                                 |
 |:-----------|:------------------------------------------------------|
-| onsite     | {'label': 'z', 'description': 'U', 'value': 'onsite'} |
-| remote     | {'label': 'x', 'description': 'T', 'value': 'remote'} |
-| hybrid     | {'label': 'J', 'description': 'N', 'value': 'hybrid'} |
-
-| constant           | value   |
-|:-------------------|:--------|
-| full_time          | n       |
-| full_time_contract | l       |
-| part_time          | s       |
-| contract_to_hire   | o       |
-
-|   constant | value   |
-|-----------:|:--------|
-|          1 | d       |
-|          2 | b       |
-
-| constant   | value                        |
-|:-----------|:-----------------------------|
-| annually   | {'label': 'd', 'value': '1'} |
-| hourly     | {'label': 'b', 'value': '2'} |
+| onsite     | {'label': 'x', 'description': '$', 'value': 'onsite'} |
+| remote     | {'label': 'z', 'description': 'N', 'value': 'remote'} |
+| hybrid     | {'label': 'U', 'description': 'J', 'value': 'hybrid'} |
 
 | constant        | value   |
 |:----------------|:--------|
@@ -7619,9 +7619,79 @@ This document is entirely auto-generated and may contain errors.<br>
 | ...da      | _             |
 | component  | sync-ats-jobs |
 
+| constant           | value   |
+|:-------------------|:--------|
+| full_time          | i       |
+| full_time_contract | r       |
+| part_time          | s       |
+| contract_to_hire   | o       |
+
+|   constant | value   |
+|-----------:|:--------|
+|          1 | c       |
+|          2 | d       |
+
+| constant   | value                        |
+|:-----------|:-----------------------------|
+| annually   | {'label': 'c', 'value': '1'} |
+| hourly     | {'label': 'd', 'value': '2'} |
+
 | constant   | value     |
 |:-----------|:----------|
 | Affiliate  | Affiliate |
+
+| constant         |   value |
+|:-----------------|--------:|
+| DISABLED         |       0 |
+| ENABLED          |      10 |
+| SYNC_IN_PROGRESS |      20 |
+| SYNC_FAILED      |      30 |
+
+| constant           | value              |
+|:-------------------|:-------------------|
+| freshteam          | Freshteam          |
+| greenhouse         | Greenhouse         |
+| lever              | Lever              |
+| recruitee          | Recruitee          |
+| sage-hr            | Sage HR            |
+| sap-successfactors | SAP SuccessFactors |
+| teamtailor         | Teamtailor         |
+| workable           | Workable           |
+| workday            | Workday            |
+
+| constant             | value   |
+|:---------------------|:--------|
+| software_engineering | c       |
+| data_analytics       | u       |
+| product              | d       |
+| design               | m       |
+| marketing            | g       |
+| sales_am             | p       |
+| operations           | y       |
+| people_hr            | f       |
+| finance_accounting   | b       |
+| legal_compliance     | _       |
+| science_engineering  | k       |
+| medical              | h       |
+| construction_trades  | v       |
+| other                | F       |
+
+| constant    | value   |
+|:------------|:--------|
+| intern      | E       |
+| entry_level | w       |
+| junior      | C       |
+| mid_level   | K       |
+| senior      | T       |
+| lead        | I       |
+| manager     | L       |
+| executive   | Z       |
+
+| constant   | value                                                 |
+|:-----------|:------------------------------------------------------|
+| onsite     | {'label': 'P', 'description': 'M', 'value': 'onsite'} |
+| remote     | {'label': 'D', 'description': 'N', 'value': 'remote'} |
+| hybrid     | {'label': 'j', 'description': 'O', 'value': 'hybrid'} |
 
 | constant       | value                          |
 |:---------------|:-------------------------------|
@@ -7631,7 +7701,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant    | value     |
 |:------------|:----------|
-| fetchStatus | W.ZP.NONE |
+| fetchStatus | Q.ZP.NONE |
 | config      | Ta        |
 
 | constant              | value                 |
@@ -7817,23 +7887,6 @@ This document is entirely auto-generated and may contain errors.<br>
 |:------------------|--------:|
 | APPLE_APP_STORE   |       1 |
 | GOOGLE_PLAY_STORE |       2 |
-
-| constant           | value   |
-|:-------------------|:--------|
-| full_time          | r       |
-| full_time_contract | s       |
-| part_time          | i       |
-| contract_to_hire   | o       |
-
-|   constant | value   |
-|-----------:|:--------|
-|          1 | c       |
-|          2 | d       |
-
-| constant   | value                        |
-|:-----------|:-----------------------------|
-| annually   | {'label': 'c', 'value': '1'} |
-| hourly     | {'label': 'd', 'value': '2'} |
 
 | constant   | value    |
 |:-----------|:---------|
