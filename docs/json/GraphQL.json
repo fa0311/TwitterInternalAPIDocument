@@ -1596,7 +1596,10 @@
         "fieldToggles": [],
         "featureSwitch": {}
       }
-    }
+    },
+    "func_name": "i",
+    "func_name_init": "r",
+    "query": {}
   },
   {
     "n": "61422",
@@ -2769,7 +2772,10 @@
           }
         }
       }
-    }
+    },
+    "func_name": "A",
+    "func_name_init": "g",
+    "query": "{\"rawQuery\":r||\"\",\"count\":\"t\",\"cursor\":\"d\",\"...()(0,o.d)\":\"_\"}"
   },
   {
     "n": "91778",
@@ -3794,6 +3800,11 @@
         "fieldToggles": [],
         "featureSwitch": {}
       }
+    },
+    "func_name": "o",
+    "func_name_init": "a",
+    "query": {
+      "flag": "n"
     }
   },
   {
@@ -3952,7 +3963,10 @@
           }
         }
       }
-    }
+    },
+    "func_name": "y",
+    "func_name_init": "D",
+    "query": "{\"rawQuery\":l||\"\",\"count\":\"t\",\"cursor\":\"d\",\"querySource\":\"i\",\"product\":\"r\",\"...()(0,o.d)\":\"_\"}"
   },
   {
     "n": "78852",
@@ -3965,6 +3979,11 @@
         "fieldToggles": [],
         "featureSwitch": {}
       }
+    },
+    "func_name": "g",
+    "func_name_init": "p",
+    "query": {
+      "cursor": "t"
     }
   },
   {
@@ -4268,6 +4287,11 @@
         "fieldToggles": [],
         "featureSwitch": {}
       }
+    },
+    "func_name": "w",
+    "func_name_init": "A",
+    "query": {
+      "bookmark_collection_id": "n"
     }
   },
   {
@@ -5071,6 +5095,11 @@
           }
         }
       }
+    },
+    "func_name": "_",
+    "func_name_init": "w",
+    "query": {
+      "cursor": "t"
     }
   },
   {
@@ -6021,6 +6050,14 @@
           }
         }
       }
+    },
+    "func_name": "m",
+    "func_name_init": "b",
+    "query": {
+      "pinnedTimelineItem": {
+        "id": "n",
+        "pinned_timeline_type": "t"
+      }
     }
   },
   {
@@ -6902,6 +6939,16 @@
           }
         }
       }
+    },
+    "func_name": "P",
+    "func_name_init": "C",
+    "query": {
+      "trendId": "r.trendId",
+      "includePromotedContent": "!1",
+      "withBirdwatchNotes": "!1",
+      "withVoice": "!1",
+      "withCommunity": "!1",
+      "...()(0,y.d)": "_"
     }
   },
   {
@@ -14438,7 +14485,11 @@
     },
     "func_name": "z",
     "func_name_init": "K",
-    "query": {}
+    "query": {
+      "count": "t",
+      "cursor": "r",
+      "...()(0,i.d)": "_"
+    }
   },
   {
     "n": "38405",
@@ -14451,13 +14502,6 @@
         "fieldToggles": [],
         "featureSwitch": {}
       }
-    },
-    "func_name": "I",
-    "func_name_init": "M",
-    "query": {
-      "group_id": "s",
-      "object_id": "r",
-      "action_type": "t"
     }
   },
   {
