@@ -14438,11 +14438,7 @@
     },
     "func_name": "z",
     "func_name_init": "K",
-    "query": {
-      "count": "t",
-      "cursor": "r",
-      "...()(0,i.d)": "_"
-    }
+    "query": {}
   },
   {
     "n": "38405",
