@@ -3914,3 +3914,23 @@
 - responsive_web_grok_show_message_reply_button<br>
 #### remove<br>
 - None<br>
+## 2025/02/03<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- active_ad_campaigns_query_enabled<br>
+- responsive_web_grok_image_edit<br>
+- responsive_web_grok_links<br>
+- responsive_web_grok_use_new_layout<br>
+- subscriptions_upsells_bookmarks_screen_enabled<br>
+- subscriptions_upsells_bookmarks_screen_variant<br>
+- subscriptions_upsells_get_verified_profile_card<br>
+- subscriptions_upsells_get_verified_profile_card_variant<br>
+- vo_upsell_profile_page_enabled<br>
+#### remove<br>
+- subscriptions_upsells_profile_card_enabled<br>
+- subscriptions_upsells_profile_card_variant<br>
