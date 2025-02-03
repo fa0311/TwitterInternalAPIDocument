@@ -3946,10 +3946,10 @@
           "value": "true"
         },
         "communities_non_member_reply_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "communities_show_broadcast_option_in_composer": {
-          "value": "true"
+          "value": "false"
         },
         "communities_spam_settings_enabled": {
           "value": "true"
@@ -6835,7 +6835,7 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "9fcc91d86e7dfd2e5c4c597bd4501c68"
+      "settingsVersion": "9470ef740ccc6f0c9f8e83a953e00698"
     },
     "debug": {},
     "featureSetToken": "e87ef5b23eb8097bb8deb8c6c361bd1fbc987cec",
@@ -6909,7 +6909,7 @@
     "country": "XX",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "173853010485484828",
+    "guestId": "173861650321843815",
     "hasCommunityMemberships": "false",
     "language": "en",
     "ssoInitTokens": {},
