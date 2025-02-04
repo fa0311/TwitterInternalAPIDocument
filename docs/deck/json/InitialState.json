@@ -591,10 +591,10 @@
         "value": "true"
       },
       "communities_non_member_reply_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "communities_show_broadcast_option_in_composer": {
-        "value": "true"
+        "value": "false"
       },
       "communities_spam_settings_enabled": {
         "value": "true"
@@ -5224,6 +5224,9 @@
         "responsive_web_grok_tweet_translation": {
           "value": "false"
         },
+        "responsive_web_grok_tweet_translation_limit": {
+          "value": "280"
+        },
         "responsive_web_grok_use_new_layout": {
           "value": "true"
         },
@@ -6091,7 +6094,7 @@
           "value": "true"
         },
         "subscriptions_branding_checkmark_logo_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "subscriptions_enabled": {
           "value": "true"
@@ -6578,35 +6581,20 @@
         },
         "tweet_limited_actions_config_community_tweet_non_member": {
           "value": [
-            "embed",
-            "pin_to_profile",
             "react",
-            "reply",
-            "reply_down_vote",
-            "vote_on_poll",
-            "highlight"
+            "reply_down_vote"
           ]
         },
         "tweet_limited_actions_config_community_tweet_non_member_closed_community": {
           "value": [
-            "embed",
-            "pin_to_profile",
             "react",
-            "reply",
-            "reply_down_vote",
-            "vote_on_poll",
-            "highlight"
+            "reply_down_vote"
           ]
         },
         "tweet_limited_actions_config_community_tweet_non_member_public_community": {
           "value": [
-            "embed",
-            "pin_to_profile",
             "react",
-            "reply",
-            "reply_down_vote",
-            "vote_on_poll",
-            "highlight"
+            "reply_down_vote"
           ]
         },
         "tweet_limited_actions_config_disable_state_media_autoplay": {
@@ -6845,10 +6833,10 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "9ce870d7f2c104ad79771bb988aa7875"
+      "settingsVersion": "eb340eaa8166522ba173c6739cfd0dc4"
     },
     "debug": {},
-    "featureSetToken": "e87ef5b23eb8097bb8deb8c6c361bd1fbc987cec",
+    "featureSetToken": "6019f7832a4ecf389b1dd6d2db523f82e27e0f80",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -6919,7 +6907,7 @@
     "country": "XX",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "173861686341365865",
+    "guestId": "173870324736085747",
     "hasCommunityMemberships": "false",
     "language": "en",
     "ssoInitTokens": {},
