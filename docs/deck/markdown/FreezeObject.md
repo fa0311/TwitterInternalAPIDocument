@@ -1849,12 +1849,6 @@ This document is entirely auto-generated and may contain errors.<br>
 # Error
 {"data":{"lists":[]},"error":"null","fetchStatus":{[l.Yj.BOTTOM]:"d.ZP.NONE",[l.Yj.TOP]:"d.ZP.NONE"}}
 ```
-| constant   | value     |
-|:-----------|:----------|
-| CLOSED     | closed    |
-| COLLAPSED  | collapsed |
-| EXPANDED   | expanded  |
-
 | constant   | value      |
 |:-----------|:-----------|
 | uploading  | uploading  |
@@ -2193,6 +2187,12 @@ This document is entirely auto-generated and may contain errors.<br>
 | REQUEST    | rweb/userClaims/FETCH_CLAIMS_REQUEST |
 | SUCCESS    | rweb/userClaims/FETCH_CLAIMS_SUCCESS |
 | FAILURE    | rweb/userClaims/FETCH_CLAIMS_FAILURE |
+
+| constant   | value     |
+|:-----------|:----------|
+| CLOSED     | closed    |
+| COLLAPSED  | collapsed |
+| EXPANDED   | expanded  |
 
 | constant   | value   |
 |:-----------|:--------|
