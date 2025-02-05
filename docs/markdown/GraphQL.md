@@ -5361,7 +5361,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## GrokHome<br>
-Request URL: `https://x.com/i/api/graphql/4Yp4wjtjyD5uamHt0JYw1Q/GrokHome`<br>
+Request URL: `https://x.com/i/api/graphql/nbCcE8Dem1w2J0HosPW4sg/GrokHome`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -5944,7 +5944,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## GrokHome<br>
-Request URL: `https://x.com/i/api/graphql/4Yp4wjtjyD5uamHt0JYw1Q/GrokHome`<br>
+Request URL: `https://x.com/i/api/graphql/nbCcE8Dem1w2J0HosPW4sg/GrokHome`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -7286,7 +7286,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## GrokHome<br>
-Request URL: `https://x.com/i/api/graphql/4Yp4wjtjyD5uamHt0JYw1Q/GrokHome`<br>
+Request URL: `https://x.com/i/api/graphql/nbCcE8Dem1w2J0HosPW4sg/GrokHome`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -7495,7 +7495,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## GrokHome<br>
-Request URL: `https://x.com/i/api/graphql/4Yp4wjtjyD5uamHt0JYw1Q/GrokHome`<br>
+Request URL: `https://x.com/i/api/graphql/nbCcE8Dem1w2J0HosPW4sg/GrokHome`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -7833,7 +7833,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## GrokHome<br>
-Request URL: `https://x.com/i/api/graphql/4Yp4wjtjyD5uamHt0JYw1Q/GrokHome`<br>
+Request URL: `https://x.com/i/api/graphql/nbCcE8Dem1w2J0HosPW4sg/GrokHome`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -8020,7 +8020,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## GrokHome<br>
-Request URL: `https://x.com/i/api/graphql/4Yp4wjtjyD5uamHt0JYw1Q/GrokHome`<br>
+Request URL: `https://x.com/i/api/graphql/nbCcE8Dem1w2J0HosPW4sg/GrokHome`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
