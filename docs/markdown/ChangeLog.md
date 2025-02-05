@@ -5304,3 +5304,14 @@
 - subscriptions_premium_module_enabled<br>
 #### remove<br>
 - tweet_limited_actions_config_community_tweet_member<br>
+## 2025/02/05<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- subscriptions_premium_module_creator_gate_enabled<br>
+#### remove<br>
+- None<br>
