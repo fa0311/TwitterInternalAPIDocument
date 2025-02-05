@@ -6330,9 +6330,9 @@
     "subscriptions": "creator_subs",
     "preRollAds": "pre_roll_video_ads"
   },
-  "{\"root\":`${\"a\"}/application`,\"eligibility\":`${\"a\"}/application/eligibility`,\"pricing\":`${\"a\"}/application/pricing`,\"completeProfile\":`${\"a\"}/application/complete_profile`,\"submit\":`${\"a\"}/application/submit`,\"submitted\":`${\"a\"}/application/submitted`,\"waitlisted\":`${\"a\"}/application/waitlisted`,\"rejected\":`${\"a\"}/application/rejected`}",
-  "{\"root\":`${\"a\"}/onboarding`,\"perksIntro\":`${\"a\"}/onboarding/perks_intro`,\"perksDescription\":`${\"a\"}/onboarding/perks_description`,\"perksBadges\":`${\"a\"}/onboarding/perks_badges`,\"perksConfirm\":`${\"a\"}/onboarding/perks_confirm`,\"pricing\":`${\"a\"}/onboarding/pricing`,\"pricingConfirm\":`${\"a\"}/onboarding/pricing_confirm`,\"stripeSetup\":`${\"a\"}/onboarding/stripe_setup`,\"stripePending\":`${\"a\"}/onboarding/stripe_pending`,\"stripeCompleted\":`${\"a\"}/onboarding/stripe_completed`}",
-  "{\"root\":`${\"a\"}/management`,\"perksIntro\":`${\"a\"}/management/perks_intro`,\"perksDescription\":`${\"a\"}/management/perks_description`,\"perksConfirm\":`${\"a\"}/management/perks_confirm`,\"perksPricing\":`${\"a\"}/management/perks_pricing`}",
+  "{\"root\":`${\"t\"}/application`,\"eligibility\":`${\"t\"}/application/eligibility`,\"pricing\":`${\"t\"}/application/pricing`,\"completeProfile\":`${\"t\"}/application/complete_profile`,\"submit\":`${\"t\"}/application/submit`,\"submitted\":`${\"t\"}/application/submitted`,\"waitlisted\":`${\"t\"}/application/waitlisted`,\"rejected\":`${\"t\"}/application/rejected`}",
+  "{\"root\":`${\"t\"}/onboarding`,\"perksIntro\":`${\"t\"}/onboarding/perks_intro`,\"perksDescription\":`${\"t\"}/onboarding/perks_description`,\"perksBadges\":`${\"t\"}/onboarding/perks_badges`,\"perksConfirm\":`${\"t\"}/onboarding/perks_confirm`,\"pricing\":`${\"t\"}/onboarding/pricing`,\"pricingConfirm\":`${\"t\"}/onboarding/pricing_confirm`,\"stripeSetup\":`${\"t\"}/onboarding/stripe_setup`,\"stripePending\":`${\"t\"}/onboarding/stripe_pending`,\"stripeCompleted\":`${\"t\"}/onboarding/stripe_completed`}",
+  "{\"root\":`${\"t\"}/management`,\"perksIntro\":`${\"t\"}/management/perks_intro`,\"perksDescription\":`${\"t\"}/management/perks_description`,\"perksConfirm\":`${\"t\"}/management/perks_confirm`,\"perksPricing\":`${\"t\"}/management/perks_pricing`}",
   {
     "CanVerifyIdentity": "CanVerifyIdentity",
     "IdentityNonVerifiable": "IdentityNonVerifiable",
