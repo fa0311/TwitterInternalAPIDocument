@@ -5292,3 +5292,26 @@
 - vo_upsell_profile_page_enabled<br>
 #### remove<br>
 - None<br>
+## 2025/02/04<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- responsive_web_grok_tweet_translation_limit<br>
+- subscriptions_premium_module_enabled<br>
+#### remove<br>
+- tweet_limited_actions_config_community_tweet_member<br>
+## 2025/02/05<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- subscriptions_premium_module_creator_gate_enabled<br>
+#### remove<br>
+- None<br>

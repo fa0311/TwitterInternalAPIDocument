@@ -1755,11 +1755,6 @@
   },
   "{\"data\":{\"lists\":[]},\"error\":\"null\",\"fetchStatus\":{[l.Yj.BOTTOM]:\"d.ZP.NONE\",[l.Yj.TOP]:\"d.ZP.NONE\"}}",
   {
-    "CLOSED": "closed",
-    "COLLAPSED": "collapsed",
-    "EXPANDED": "expanded"
-  },
-  {
     "uploading": "uploading",
     "processing": "processing"
   },
@@ -2046,6 +2041,11 @@
     "REQUEST": "rweb/userClaims/FETCH_CLAIMS_REQUEST",
     "SUCCESS": "rweb/userClaims/FETCH_CLAIMS_SUCCESS",
     "FAILURE": "rweb/userClaims/FETCH_CLAIMS_FAILURE"
+  },
+  {
+    "CLOSED": "closed",
+    "COLLAPSED": "collapsed",
+    "EXPANDED": "expanded"
   },
   {
     "FAILED": "failed",
