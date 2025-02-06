@@ -1690,6 +1690,9 @@
       "responsive_web_grok_dev_universal_search_id_enabled": {
         "value": "false"
       },
+      "responsive_web_grok_enable_chat_style_ui": {
+        "value": "false"
+      },
       "responsive_web_grok_expanded_input": {
         "value": "false"
       },
@@ -1850,7 +1853,7 @@
         "value": "false"
       },
       "responsive_web_grok_tweet_translation_limit": {
-        "value": "280"
+        "value": "560"
       },
       "responsive_web_grok_use_new_layout": {
         "value": "false"
@@ -2147,6 +2150,9 @@
         "value": "false"
       },
       "responsive_web_temporary_ocf_x_migration": {
+        "value": "false"
+      },
+      "responsive_web_thread_media_nav_enabled": {
         "value": "false"
       },
       "responsive_web_timeline_cover_killswitch_enabled": {
@@ -5042,6 +5048,9 @@
         "responsive_web_grok_dev_universal_search_id_enabled": {
           "value": "false"
         },
+        "responsive_web_grok_enable_chat_style_ui": {
+          "value": "false"
+        },
         "responsive_web_grok_expanded_input": {
           "value": "true"
         },
@@ -5202,7 +5211,7 @@
           "value": "false"
         },
         "responsive_web_grok_tweet_translation_limit": {
-          "value": "280"
+          "value": "560"
         },
         "responsive_web_grok_use_new_layout": {
           "value": "true"
@@ -5501,6 +5510,9 @@
         "responsive_web_temporary_ocf_x_migration": {
           "value": "false"
         },
+        "responsive_web_thread_media_nav_enabled": {
+          "value": "false"
+        },
         "responsive_web_timeline_cover_killswitch_enabled": {
           "value": "false"
         },
@@ -5749,6 +5761,9 @@
         },
         "rweb_analytics_video_xweb_enabled": {
           "value": "true"
+        },
+        "rweb_cache_spacebar_enabled": {
+          "value": "false"
         },
         "rweb_client_transaction_id_enabled": {
           "value": "true"
@@ -6809,10 +6824,10 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "9fcc91d86e7dfd2e5c4c597bd4501c68"
+      "settingsVersion": "1b350eb5ae3954c4cb6d39875c710e86"
     },
     "debug": {},
-    "featureSetToken": "5be5776892f81e80254aee6c959776c670f83a59",
+    "featureSetToken": "1f10e8a5191b3c5f91c459cd3b8476a56eb71245",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -6883,7 +6898,7 @@
     "country": "XX",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "173878930667719536",
+    "guestId": "173887570069088810",
     "hasCommunityMemberships": "false",
     "language": "en",
     "ssoInitTokens": {},
