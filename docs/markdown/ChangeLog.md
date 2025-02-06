@@ -5315,3 +5315,16 @@
 - subscriptions_premium_module_creator_gate_enabled<br>
 #### remove<br>
 - None<br>
+## 2025/02/06<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- responsive_web_grok_enable_chat_style_ui<br>
+- responsive_web_thread_media_nav_enabled<br>
+- rweb_cache_spacebar_enabled<br>
+#### remove<br>
+- None<br>
