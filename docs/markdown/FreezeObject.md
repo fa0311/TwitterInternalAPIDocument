@@ -33,6 +33,12 @@ This document is entirely auto-generated and may contain errors.<br>
 | Top        | Top      |
 | Upcoming   | Upcoming |
 
+| constant             | value                |
+|:---------------------|:---------------------|
+| Active               | Active               |
+| Unspecified          | Unspecified          |
+| VerificationRequired | VerificationRequired |
+
 | constant                                    | value                                       |
 |:--------------------------------------------|:--------------------------------------------|
 | BalanceLevelFour                            | BalanceLevelFour                            |
@@ -791,6 +797,12 @@ This document is entirely auto-generated and may contain errors.<br>
 | development | development |
 | staging     | staging     |
 | production  | production  |
+
+| constant    | value       |
+|:------------|:------------|
+| auth        | auth        |
+| transaction | transaction |
+| preference  | preference  |
 
 | constant         | value            |
 |:-----------------|:-----------------|
@@ -5266,7 +5278,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{[F.g.Cancelled]:"Cancelled",[F.g.Failed]:"Failed",[F.g.Pending]:"Pending",[F.g.PendingReview]:"Pending",[F.g.PendingRecipientAction]:"Pending",[F.g.PendingRecipientOnboarding]:"Pending",[F.g.AwaitingRequestAcceptance]:"Pending",[F.g.PendingRecipientAcceptance]:"Pending",[F.g.PinVerificationRequired...
+{[F.g.Cancelled]:"Cancelled",[F.g.Failed]:"Failed",[F.g.Expired]:"Expired",[F.g.Pending]:"Pending",[F.g.PendingReview]:"Pending",[F.g.PendingRecipientAction]:"Pending",[F.g.PendingRecipientOnboarding]:"Pending",[F.g.AwaitingRequestAcceptance]:"Pending",[F.g.PendingRecipientAcceptance]:"Pending",[F.g...
 ```
 ```internal process
 # Error

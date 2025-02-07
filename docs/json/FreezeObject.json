@@ -57,6 +57,11 @@
     "Upcoming": "Upcoming"
   },
   {
+    "Active": "Active",
+    "Unspecified": "Unspecified",
+    "VerificationRequired": "VerificationRequired"
+  },
+  {
     "BalanceLevelFour": "BalanceLevelFour",
     "BalanceLevelOne": "BalanceLevelOne",
     "BalanceLevelThree": "BalanceLevelThree",
@@ -781,6 +786,11 @@
     "development": "development",
     "staging": "staging",
     "production": "production"
+  },
+  {
+    "auth": "auth",
+    "transaction": "transaction",
+    "preference": "preference"
   },
   {
     "CustomerNotFound": "CustomerNotFound",
@@ -4975,7 +4985,7 @@
     "Checking": "Checking",
     "Savings": "Savings"
   },
-  "{[F.g.Cancelled]:\"Cancelled\",[F.g.Failed]:\"Failed\",[F.g.Pending]:\"Pending\",[F.g.PendingReview]:\"Pending\",[F.g.PendingRecipientAction]:\"Pending\",[F.g.PendingRecipientOnboarding]:\"Pending\",[F.g.AwaitingRequestAcceptance]:\"Pending\",[F.g.PendingRecipientAcceptance]:\"Pending\",[F.g.PinVerificationRequired]:\"Pending\",[F.g.RequestVerificationRequired]:\"Pending\",[F.g.VerificationRequired]:\"Pending\",[F.g.RejectedByRecipient]:\"Rejected\",[F.g.RequestRejected]:\"Rejected\",[F.g.Settled]:\"Settled\"}",
+  "{[F.g.Cancelled]:\"Cancelled\",[F.g.Failed]:\"Failed\",[F.g.Expired]:\"Expired\",[F.g.Pending]:\"Pending\",[F.g.PendingReview]:\"Pending\",[F.g.PendingRecipientAction]:\"Pending\",[F.g.PendingRecipientOnboarding]:\"Pending\",[F.g.AwaitingRequestAcceptance]:\"Pending\",[F.g.PendingRecipientAcceptance]:\"Pending\",[F.g.PinVerificationRequired]:\"Pending\",[F.g.RequestVerificationRequired]:\"Pending\",[F.g.VerificationRequired]:\"Pending\",[F.g.RejectedByRecipient]:\"Rejected\",[F.g.RequestRejected]:\"Rejected\",[F.g.Settled]:\"Settled\"}",
   "{[m.Checking]:\"Checking\",[m.Savings]:\"Savings\"}",
   {
     "navButtons": "navigationButtons",
