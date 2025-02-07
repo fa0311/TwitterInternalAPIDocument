@@ -1228,11 +1228,14 @@
       "premium_content_api_read_enabled": {
         "value": "false"
       },
+      "premium_webview_paywall_force_premium_tier_enabled": {
+        "value": "false"
+      },
       "premium_webview_paywall_offer_image_url": {
         "value": "https://abs.twimg.com/images/anniversary_wide.png"
       },
       "premium_webview_paywall_offer_variant": {
-        "value": "anniversary"
+        "value": ""
       },
       "premium_webview_paywall_offer_video_url": {
         "value": "https://abs.twimg.com/images/anniversary-theme.mp4"
@@ -2294,7 +2297,7 @@
         "value": "false"
       },
       "responsive_web_verified_organizations_free_upgrade_promo_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "responsive_web_verified_organizations_insights_enabled": {
         "value": "true"
@@ -2403,6 +2406,9 @@
       },
       "rweb_analytics_video_xweb_enabled": {
         "value": "true"
+      },
+      "rweb_cache_spacebar_enabled": {
+        "value": "false"
       },
       "rweb_client_transaction_id_enabled": {
         "value": "false"
@@ -2860,9 +2866,9 @@
         "value": "true"
       },
       "subscriptions_marketing_page_offer_ends_at_msec": {
-        "value": "1733198400000"
+        "value": "1739246400000"
       },
-      "subscriptions_marketing_page_web_thanksgiving_design": {
+      "subscriptions_marketing_page_web_offer_header_enabled": {
         "value": "false"
       },
       "subscriptions_mute_ad_upsell_enabled": {
@@ -4586,11 +4592,14 @@
         "premium_content_api_read_enabled": {
           "value": "false"
         },
+        "premium_webview_paywall_force_premium_tier_enabled": {
+          "value": "false"
+        },
         "premium_webview_paywall_offer_image_url": {
           "value": "https://abs.twimg.com/images/anniversary_wide.png"
         },
         "premium_webview_paywall_offer_variant": {
-          "value": "anniversary"
+          "value": ""
         },
         "premium_webview_paywall_offer_video_url": {
           "value": "https://abs.twimg.com/images/anniversary-theme.mp4"
@@ -5652,7 +5661,7 @@
           "value": "false"
         },
         "responsive_web_verified_organizations_free_upgrade_promo_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "responsive_web_verified_organizations_insights_enabled": {
           "value": "true"
@@ -6221,9 +6230,9 @@
           "value": "true"
         },
         "subscriptions_marketing_page_offer_ends_at_msec": {
-          "value": "1733198400000"
+          "value": "1739246400000"
         },
-        "subscriptions_marketing_page_web_thanksgiving_design": {
+        "subscriptions_marketing_page_web_offer_header_enabled": {
           "value": "false"
         },
         "subscriptions_mute_ad_upsell_enabled": {
@@ -6236,7 +6245,7 @@
           "value": "true"
         },
         "subscriptions_premium_module_creator_gate_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "subscriptions_premium_module_enabled": {
           "value": "false"
@@ -6824,10 +6833,10 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "1b350eb5ae3954c4cb6d39875c710e86"
+      "settingsVersion": "d31d53dde060f20e9cc74b7d4145a296"
     },
     "debug": {},
-    "featureSetToken": "1f10e8a5191b3c5f91c459cd3b8476a56eb71245",
+    "featureSetToken": "b212b4aff9e12c2dbc06225a5e9be862c80a4863",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -6898,7 +6907,7 @@
     "country": "XX",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "173887570069088810",
+    "guestId": "173896209768040368",
     "hasCommunityMemberships": "false",
     "language": "en",
     "ssoInitTokens": {},
