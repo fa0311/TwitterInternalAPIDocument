@@ -5328,3 +5328,15 @@
 - rweb_cache_spacebar_enabled<br>
 #### remove<br>
 - None<br>
+## 2025/02/07<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- premium_webview_paywall_force_premium_tier_enabled<br>
+- subscriptions_marketing_page_web_offer_header_enabled<br>
+#### remove<br>
+- subscriptions_marketing_page_web_thanksgiving_design<br>

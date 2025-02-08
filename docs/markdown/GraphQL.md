@@ -4821,11 +4821,10 @@ Request Method: `POST`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key         | type   | variable   |
-|:------------|:-------|:-----------|
-| group_id    | ...    | n          |
-| object_id   | ...    | r          |
-| action_type | ...    | t          |
+| key               | type   | variable   |
+|:------------------|:-------|:-----------|
+| grokMode          | ...    | t          |
+| grokModelOptionId | ...    | n          |
 
 #### features<br>
 `None`<br>

@@ -13510,9 +13510,8 @@
     "func_name": "S",
     "func_name_init": "T",
     "query": {
-      "group_id": "n",
-      "object_id": "r",
-      "action_type": "t"
+      "grokMode": "t",
+      "grokModelOptionId": "n"
     }
   },
   {
