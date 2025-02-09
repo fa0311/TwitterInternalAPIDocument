@@ -4532,14 +4532,7 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key                      | type   | variable                   |
-|:-------------------------|:-------|:---------------------------|
-| tweet_id                 | ...    | a.tweet_id                 |
-| is_media_note            | ...    | a.is_media_note            |
-| is_helpful_for_all_posts | ...    | a.is_helpful_for_all_posts |
-| data_v1                  | ...    | a.data                     |
-| ...()(0,o.S)             | ...    | _                          |
-
+`None`<br>
 #### features<br>
 | key                                                               | type    | variable   |
 |:------------------------------------------------------------------|:--------|:-----------|
@@ -4821,11 +4814,7 @@ Request Method: `POST`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key               | type   | variable   |
-|:------------------|:-------|:-----------|
-| grokMode          | ...    | t          |
-| grokModelOptionId | ...    | n          |
-
+`None`<br>
 #### features<br>
 `None`<br>
 #### queryId<br>

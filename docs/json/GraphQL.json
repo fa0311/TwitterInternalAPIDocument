@@ -12724,15 +12724,6 @@
           }
         }
       }
-    },
-    "func_name": "N",
-    "func_name_init": "H",
-    "query": {
-      "tweet_id": "a.tweet_id",
-      "is_media_note": "a.is_media_note",
-      "is_helpful_for_all_posts": "a.is_helpful_for_all_posts",
-      "data_v1": "a.data",
-      "...()(0,o.S)": "_"
     }
   },
   {
@@ -13490,10 +13481,7 @@
           }
         }
       }
-    },
-    "func_name": "z",
-    "func_name_init": "G",
-    "query": {}
+    }
   },
   {
     "n": "38405",
@@ -13506,12 +13494,6 @@
         "fieldToggles": [],
         "featureSwitch": {}
       }
-    },
-    "func_name": "S",
-    "func_name_init": "T",
-    "query": {
-      "grokMode": "t",
-      "grokModelOptionId": "n"
     }
   },
   {
