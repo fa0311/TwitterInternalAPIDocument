@@ -1,5 +1,6 @@
-from lib.md_generator.md_generator import md_generator
 import logging
+
+from lib.md_generator.md_generator import md_generator
 
 
 def gen_md_graphql(graphql_output: list) -> md_generator:

@@ -1343,19 +1343,19 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{"REQUEST":`${"h"}/FETCH_PENDING_FOLLOWERS_REQUEST`,"SUCCESS":`${"h"}/FETCH_PENDING_FOLLOWERS_SUCCESS`,"FAILURE":`${"h"}/FETCH_PENDING_FOLLOWERS_FAILURE`}
+{"REQUEST":`${"m"}/FETCH_PENDING_FOLLOWERS_REQUEST`,"SUCCESS":`${"m"}/FETCH_PENDING_FOLLOWERS_SUCCESS`,"FAILURE":`${"m"}/FETCH_PENDING_FOLLOWERS_FAILURE`}
 ```
 ```internal process
 # Error
-{"REQUEST":`${"h"}/FETCH_PENDING_FOLLOWERS_USERS_REQUEST`,"SUCCESS":`${"h"}/FETCH_PENDING_FOLLOWERS_USERS_SUCCESS`,"FAILURE":`${"h"}/FETCH_PENDING_FOLLOWERS_USERS_FAILURE`}
+{"REQUEST":`${"m"}/FETCH_PENDING_FOLLOWERS_USERS_REQUEST`,"SUCCESS":`${"m"}/FETCH_PENDING_FOLLOWERS_USERS_SUCCESS`,"FAILURE":`${"m"}/FETCH_PENDING_FOLLOWERS_USERS_FAILURE`}
 ```
 ```internal process
 # Error
-{"REQUEST":`${"h"}/ACCEPT_PENDING_FOLLOWER_REQUEST`,"SUCCESS":`${"h"}/ACCEPT_PENDING_FOLLOWER_SUCCESS`,"FAILURE":`${"h"}/ACCEPT_PENDING_FOLLOWER_FAILURE`}
+{"REQUEST":`${"m"}/ACCEPT_PENDING_FOLLOWER_REQUEST`,"SUCCESS":`${"m"}/ACCEPT_PENDING_FOLLOWER_SUCCESS`,"FAILURE":`${"m"}/ACCEPT_PENDING_FOLLOWER_FAILURE`}
 ```
 ```internal process
 # Error
-{"REQUEST":`${"h"}/DECLINE_PENDING_FOLLOWER_REQUEST`,"SUCCESS":`${"h"}/DECLINE_PENDING_FOLLOWER_SUCCESS`,"FAILURE":`${"h"}/DECLINE_PENDING_FOLLOWER_FAILURE`}
+{"REQUEST":`${"m"}/DECLINE_PENDING_FOLLOWER_REQUEST`,"SUCCESS":`${"m"}/DECLINE_PENDING_FOLLOWER_SUCCESS`,"FAILURE":`${"m"}/DECLINE_PENDING_FOLLOWER_FAILURE`}
 ```
 | constant   | value     |
 |:-----------|:----------|
@@ -1947,7 +1947,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant      | value                                                                                                                                                                                                                  |
 |:--------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| superFollower | {'graphic': 'h.default', 'headline': 'b().e453f536', 'subtext': 'b().bd4cb7a0', 'actionLabel': 'b().g7099a02', 'actionLink': 'https://help.x.com/using-twitter/subscriptions', 'secondaryActionLabel': 'b().c2637ef6'} |
+| superFollower | {'graphic': 'm.default', 'headline': 'b().e453f536', 'subtext': 'b().bd4cb7a0', 'actionLabel': 'b().g7099a02', 'actionLink': 'https://help.x.com/using-twitter/subscriptions', 'secondaryActionLabel': 'b().c2637ef6'} |
 
 | constant        | value        |
 |:----------------|:-------------|
@@ -2239,22 +2239,22 @@ This document is entirely auto-generated and may contain errors.<br>
 | constant   | value               |
 |:-----------|:--------------------|
 | space1     | p.spaces.space1     |
-| space2     | h()                 |
-| space4     | h(p.spaces.space2)  |
-| space8     | h(p.spaces.space4)  |
-| space12    | h(p.spaces.space8)  |
-| space16    | h(p.spaces.space12) |
-| space20    | h(p.spaces.space16) |
-| space24    | h(p.spaces.space20) |
-| space28    | h(p.spaces.space24) |
-| space32    | h(p.spaces.space28) |
-| space36    | h(p.spaces.space32) |
-| space40    | h(p.spaces.space36) |
-| space48    | h(p.spaces.space40) |
-| space56    | h(p.spaces.space48) |
-| space64    | h(p.spaces.space56) |
-| space72    | h(p.spaces.space64) |
-| space80    | h(p.spaces.space72) |
+| space2     | m()                 |
+| space4     | m(p.spaces.space2)  |
+| space8     | m(p.spaces.space4)  |
+| space12    | m(p.spaces.space8)  |
+| space16    | m(p.spaces.space12) |
+| space20    | m(p.spaces.space16) |
+| space24    | m(p.spaces.space20) |
+| space28    | m(p.spaces.space24) |
+| space32    | m(p.spaces.space28) |
+| space36    | m(p.spaces.space32) |
+| space40    | m(p.spaces.space36) |
+| space48    | m(p.spaces.space40) |
+| space56    | m(p.spaces.space48) |
+| space64    | m(p.spaces.space56) |
+| space72    | m(p.spaces.space64) |
+| space80    | m(p.spaces.space72) |
 
 | constant              | value     |
 |:----------------------|:----------|
@@ -2347,7 +2347,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{[ba.onlyInvited]:"0",[ba.peopleYouFollow]:"1",[ba.everyone]:"2"}
+{[ha.onlyInvited]:"0",[ha.peopleYouFollow]:"1",[ha.everyone]:"2"}
 ```
 | constant   | value             |
 |:-----------|:------------------|

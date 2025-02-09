@@ -1,5 +1,6 @@
-import requests
 import re
+
+import requests
 
 
 class twitter_home:
@@ -32,7 +33,7 @@ class twitter_home:
         legacy = self.session.get(self.TWITTER_HOME, headers=self.get_header())
         migrate_script = self.get_script(legacy.text)
 
-        if self.CLIENT == "responsive-web":
+        if re.search(r'document\.location = "(.*?)"', migrate_script[0]):
             migrate_url = re.search(r'document\.location = "(.*?)"', migrate_script[0]).group(1)
             redirect = self.session.get(migrate_url, headers=self.get_header())
             
@@ -41,6 +42,7 @@ class twitter_home:
             self.response = self.session.post(migrate_url, headers=self.get_header(), json=params)
         else:
             self.response = legacy
+
 
     def get_header(self):
         return {"User-Agent": self.user_agent}
@@ -70,7 +72,7 @@ class twitter_home:
 
 
 class twitter_deck(twitter_home):
-    TWITTER_HOME = "https://tweetdeck.x.com"
+    TWITTER_HOME = "https://pro.x.com"
     CLIENT = "gryphon-client"
 
 
