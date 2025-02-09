@@ -1,8 +1,4 @@
-import logging
-import re
-import json
 from lib.js_parser.js_parser import *
-from tqdm import tqdm
 
 # this.dispatch
 

@@ -1,8 +1,10 @@
+import json
 import logging
 import re
-import json
-from lib.js_parser.js_parser import *
+
 from tqdm import tqdm
+
+from lib.js_parser.js_parser import *
 
 
 def get_graphql(parsed_list: js_data) -> list:

@@ -1,22 +1,22 @@
-import json
-import os
 import datetime
-from github import Github
+import json
 import logging
-import coloredlogs
+import os
 from functools import partialmethod
 
-from lib.md_generator.md_generator import *
+import coloredlogs
+from github import Github
+
+from lib.config import *
 from lib.diff import *
-from lib.twitter import *
-from lib.js_parser.js_parser import *
 from lib.graphql import *
-from lib.md import *
-from lib.config import *
 from lib.io import *
-from lib.config import *
-from lib.md_generator.i18n import *
+from lib.js_parser.js_parser import *
 from lib.legacy import *
+from lib.md import *
+from lib.md_generator.i18n import *
+from lib.md_generator.md_generator import *
+from lib.twitter import *
 
 # === Confing ===
 DEBUG = os.environ.get("DEBUG", "False") == "True"
