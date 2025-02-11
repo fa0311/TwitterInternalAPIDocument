@@ -6344,7 +6344,7 @@
           "value": ""
         },
         "subscriptions_upsells_right_sidebar_variant": {
-          "value": "anniversary_generic"
+          "value": "anniversary_ending"
         },
         "subscriptions_upsells_vo_nav_decoration_enabled": {
           "value": "false"
@@ -6833,7 +6833,7 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "d31d53dde060f20e9cc74b7d4145a296"
+      "settingsVersion": "913826eb845c1c0e53732203d9eabcaa"
     },
     "debug": {},
     "featureSetToken": "cac758efc2b20151112938089c2ae54fa0838030",
@@ -6907,7 +6907,7 @@
     "country": "XX",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "173913489463515804",
+    "guestId": "173922129927725145",
     "hasCommunityMemberships": "false",
     "language": "en",
     "ssoInitTokens": {},

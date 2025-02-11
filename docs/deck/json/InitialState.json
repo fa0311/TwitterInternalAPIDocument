@@ -6344,7 +6344,7 @@
           "value": ""
         },
         "subscriptions_upsells_right_sidebar_variant": {
-          "value": "anniversary_generic"
+          "value": "anniversary_ending"
         },
         "subscriptions_upsells_vo_nav_decoration_enabled": {
           "value": "false"
@@ -6830,10 +6830,20 @@
           "value": "true"
         }
       },
-      "impression_pointers": {},
-      "impressions": {},
+      "impression_pointers": {
+        "responsive_web_logged_out_read_replies_pivot_enabled": [
+          "logged_out_read_replies_pivot_17075"
+        ]
+      },
+      "impressions": {
+        "logged_out_read_replies_pivot_17075": {
+          "key": "logged_out_read_replies_pivot_17075",
+          "bucket": "treatment",
+          "version": "2"
+        }
+      },
       "keysRead": {},
-      "settingsVersion": "d31d53dde060f20e9cc74b7d4145a296"
+      "settingsVersion": "0ee9b69beab7d82986c73c9c816247e4"
     },
     "debug": {},
     "featureSetToken": "cac758efc2b20151112938089c2ae54fa0838030",
@@ -6907,7 +6917,7 @@
     "country": "XX",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "173913519305350394",
+    "guestId": "173922160868815234",
     "hasCommunityMemberships": "false",
     "language": "en",
     "ssoInitTokens": {},
