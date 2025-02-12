@@ -4578,8 +4578,8 @@
       }
     },
     "BirdwatchCreateRating": {
-      "url": "https://x.com/i/api/graphql/bD3AEK9BMCSpRods_ng2fA/BirdwatchCreateRating",
-      "queryId": "bD3AEK9BMCSpRods_ng2fA",
+      "url": "https://x.com/i/api/graphql/e3UGQnUm1M3BSDUgUt4oHA/BirdwatchCreateRating",
+      "queryId": "e3UGQnUm1M3BSDUgUt4oHA",
       "method": "POST",
       "features": {}
     },
