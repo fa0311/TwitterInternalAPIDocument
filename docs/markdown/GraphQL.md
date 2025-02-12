@@ -6277,7 +6277,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## BirdwatchCreateRating<br>
-Request URL: `https://x.com/i/api/graphql/bD3AEK9BMCSpRods_ng2fA/BirdwatchCreateRating`<br>
+Request URL: `https://x.com/i/api/graphql/e3UGQnUm1M3BSDUgUt4oHA/BirdwatchCreateRating`<br>
 Request Method: `POST`<br>
 Login Required: `...`<br>
 ### Param<br>
