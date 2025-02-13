@@ -2352,7 +2352,7 @@
     "peopleYouFollow": "peopleYouFollow",
     "everyone": "everyone"
   },
-  "{[ya.onlyInvited]:\"0\",[ya.peopleYouFollow]:\"1\",[ya.everyone]:\"2\"}",
+  "{[fa.onlyInvited]:\"0\",[fa.peopleYouFollow]:\"1\",[fa.everyone]:\"2\"}",
   {
     "AUDIO": "visual_audio",
     "CONFERENCE": "conference_spaces",
