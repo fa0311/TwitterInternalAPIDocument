@@ -2347,7 +2347,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{[ya.onlyInvited]:"0",[ya.peopleYouFollow]:"1",[ya.everyone]:"2"}
+{[fa.onlyInvited]:"0",[fa.peopleYouFollow]:"1",[fa.everyone]:"2"}
 ```
 | constant   | value             |
 |:-----------|:------------------|
