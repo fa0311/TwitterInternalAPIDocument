@@ -1736,7 +1736,7 @@
         "value": "true"
       },
       "responsive_web_grok_image_annotation_enabled": {
-        "value": "true"
+        "value": "false"
       },
       "responsive_web_grok_image_edit": {
         "value": "true"
@@ -2414,7 +2414,7 @@
         "value": "true"
       },
       "rweb_analytics_video_list_v2_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "rweb_analytics_video_xweb_enabled": {
         "value": "true"
@@ -5112,7 +5112,7 @@
           "value": "true"
         },
         "responsive_web_grok_image_annotation_enabled": {
-          "value": "true"
+          "value": "false"
         },
         "responsive_web_grok_image_edit": {
           "value": "true"
@@ -5790,7 +5790,7 @@
           "value": "true"
         },
         "rweb_analytics_video_list_v2_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "rweb_analytics_video_xweb_enabled": {
           "value": "true"
@@ -6860,7 +6860,7 @@
       "settingsVersion": "d31d53dde060f20e9cc74b7d4145a296"
     },
     "debug": {},
-    "featureSetToken": "646f55f2f86b77c8aaafb42a5e0cc2a1a6dff034",
+    "featureSetToken": "aa9ce98d0ea11beb5fda8670b61f479a7e4fabd0",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -6931,7 +6931,7 @@
     "country": "XX",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "173939409847594602",
+    "guestId": "173948049707669292",
     "hasCommunityMemberships": "false",
     "language": "en",
     "ssoInitTokens": {},
