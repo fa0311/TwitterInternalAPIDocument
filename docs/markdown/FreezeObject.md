@@ -2347,7 +2347,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{[ha.onlyInvited]:"0",[ha.peopleYouFollow]:"1",[ha.everyone]:"2"}
+{[fa.onlyInvited]:"0",[fa.peopleYouFollow]:"1",[fa.everyone]:"2"}
 ```
 | constant   | value             |
 |:-----------|:------------------|
@@ -5676,11 +5676,11 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{"__proto__":"null","formatCaption":"function()"{"return()(0,li.WU)"},"formatDay":"function()"{"return()(0,li.WU)"},"formatMonthCaption":"function()"{"return()(0,li.WU)"},"formatWeekNumber":"function()"{return"".concat()},"formatWeekdayName":"function()"{"return()(0,li.WU)"},"formatYearCaption":"fun...
+{"__proto__":"null","formatCaption":"function()"{"return()(0,C.WU)"},"formatDay":"function()"{"return()(0,C.WU)"},"formatMonthCaption":"function()"{"return()(0,C.WU)"},"formatWeekNumber":"function()"{return"".concat()},"formatWeekdayName":"function()"{"return()(0,C.WU)"},"formatYearCaption":"functio...
 ```
 ```internal process
 # Error
-{"__proto__":"null","labelDay":"function()"{"return()(0,li.WU)"},"labelMonthDropdown":"function()"{return"Month: "},"labelNext":"function()"{return"Go to next month"},"labelPrevious":"function()"{return"Go to previous month"},"labelWeekNumber":"function()"{return"Week n. ".concat()},"labelWeekday":"...
+{"__proto__":"null","labelDay":"function()"{"return()(0,C.WU)"},"labelMonthDropdown":"function()"{return"Month: "},"labelNext":"function()"{return"Go to next month"},"labelPrevious":"function()"{return"Go to previous month"},"labelWeekNumber":"function()"{return"Week n. ".concat()},"labelWeekday":"f...
 ```
 | constant          | value                |
 |:------------------|:---------------------|
@@ -5934,8 +5934,8 @@ This document is entirely auto-generated and may contain errors.<br>
 | constant       | value                                          |
 |:---------------|:-----------------------------------------------|
 | closed         | {'shouldShow': '!1'}                           |
-| openSuccessful | {'shouldShow': '!0', 'badgeType': 'B.Ratings'} |
-| openHelpful    | {'shouldShow': '!0', 'badgeType': 'B.Notes'}   |
+| openSuccessful | {'shouldShow': '!0', 'badgeType': 'P.Ratings'} |
+| openHelpful    | {'shouldShow': '!0', 'badgeType': 'P.Notes'}   |
 
 | constant   | value                                               |
 |:-----------|:----------------------------------------------------|
@@ -8452,7 +8452,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{[kt.FontColor]:{"type":"kt.FontColor","propertyName":"color","styleName":"At.Color","displayName":"w().c2c5dea4","values":"Lt"},[kt.FontSize]:{"type":"kt.FontSize","propertyName":"font-size","styleName":"At.FontSize","displayName":"w().ce494bb4","values":[{"name":"50%","value":"50%"},{"name":"75%",...
+{[kt.FontColor]:{"type":"kt.FontColor","propertyName":"color","styleName":"Pt.Color","displayName":"C().c2c5dea4","values":"Nt"},[kt.FontSize]:{"type":"kt.FontSize","propertyName":"font-size","styleName":"Pt.FontSize","displayName":"C().ce494bb4","values":[{"name":"50%","value":"50%"},{"name":"75%",...
 ```
 | constant   | value   |
 |:-----------|:--------|
@@ -9069,7 +9069,3 @@ This document is entirely auto-generated and may contain errors.<br>
 | Topic                | Topic                |
 | Trending             | Trending             |
 
-```internal process
-# Error
-{"__proto__":"null","MATCH_NOTHING_RE":/\b\B/,"IDENT_RE":"d","UNDERSCORE_IDENT_RE":"f","NUMBER_RE":"p","C_NUMBER_RE":"m","BINARY_NUMBER_RE":"b","RE_STARTERS_RE":"!|!=|!==|%|%=|&|&&|&=|\\*|\\*=|\\+|\\+=|,|-|-=|/=|/|:|;|<<|<<=|<=|<|===|==|=|>>>=|>>=|>=|>>>|>>|>|\\?|\\[|\\{|\\(){}{const t=/^#![ ]*\//;r...
-```

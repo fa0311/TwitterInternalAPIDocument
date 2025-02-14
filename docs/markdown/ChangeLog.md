@@ -5340,3 +5340,27 @@
 - subscriptions_marketing_page_web_offer_header_enabled<br>
 #### remove<br>
 - subscriptions_marketing_page_web_thanksgiving_design<br>
+## 2025/02/11<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- insights_paginated_metrics_backend_enabled<br>
+- payments_qr_onboarding_enabled<br>
+- rweb_analytics_video_list_v2_enabled<br>
+#### remove<br>
+- None<br>
+## 2025/02/12<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- rweb_analytics_audience_xweb_enabled<br>
+#### remove<br>
+- None<br>

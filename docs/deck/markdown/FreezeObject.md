@@ -647,7 +647,3 @@ This document is entirely auto-generated and may contain errors.<br>
 | GIF              | gif             |
 | SLATE            | slate           |
 
-```internal process
-# Error
-{"__proto__":"null","MATCH_NOTHING_RE":/\b\B/,"IDENT_RE":"d","UNDERSCORE_IDENT_RE":"f","NUMBER_RE":"p","C_NUMBER_RE":"m","BINARY_NUMBER_RE":"b","RE_STARTERS_RE":"!|!=|!==|%|%=|&|&&|&=|\\*|\\*=|\\+|\\+=|,|-|-=|/=|/|:|;|<<|<<=|<=|<|===|==|=|>>>=|>>=|>=|>>>|>>|>|\\?|\\[|\\{|\\(){}{const t=/^#![ ]*\//;r...
-```
