@@ -4139,8 +4139,8 @@
       "features": {}
     },
     "GrokConversationItemsByRestId": {
-      "url": "https://x.com/i/api/graphql/lOvt0FHgeDQfLXJuT9oM6w/GrokConversationItemsByRestId",
-      "queryId": "lOvt0FHgeDQfLXJuT9oM6w",
+      "url": "https://x.com/i/api/graphql/kPyBiZHkstmcLppqofgMtw/GrokConversationItemsByRestId",
+      "queryId": "kPyBiZHkstmcLppqofgMtw",
       "method": "GET",
       "features": {
         "creator_subscriptions_tweet_preview_api_enabled": true,
@@ -4177,20 +4177,32 @@
       }
     },
     "GrokHistory": {
-      "url": "https://x.com/i/api/graphql/-eT71yhF_ZA4h_a1_U_gSw/GrokHistory",
-      "queryId": "-eT71yhF_ZA4h_a1_U_gSw",
+      "url": "https://x.com/i/api/graphql/9Hyh5D4-WXLnExZkONSkZg/GrokHistory",
+      "queryId": "9Hyh5D4-WXLnExZkONSkZg",
       "method": "GET",
       "features": {}
     },
     "GrokHome": {
-      "url": "https://x.com/i/api/graphql/nbCcE8Dem1w2J0HosPW4sg/GrokHome",
-      "queryId": "nbCcE8Dem1w2J0HosPW4sg",
+      "url": "https://x.com/i/api/graphql/i8RyUtwTC_hp0bFeYNyCOQ/GrokHome",
+      "queryId": "i8RyUtwTC_hp0bFeYNyCOQ",
       "method": "GET",
       "features": {}
     },
     "GrokMediaHistory": {
       "url": "https://x.com/i/api/graphql/azn3Sg0APPjb2Jtd7gqxsw/GrokMediaHistory",
       "queryId": "azn3Sg0APPjb2Jtd7gqxsw",
+      "method": "GET",
+      "features": {}
+    },
+    "GrokPinConversation": {
+      "url": "https://x.com/i/api/graphql/_6czUDKiWzcvBUKMoDZ19w/GrokPinConversation",
+      "queryId": "_6czUDKiWzcvBUKMoDZ19w",
+      "method": "POST",
+      "features": {}
+    },
+    "GrokPinnedConversations": {
+      "url": "https://x.com/i/api/graphql/BHKxYTkc5SCupV7oqJBr0g/GrokPinnedConversations",
+      "queryId": "BHKxYTkc5SCupV7oqJBr0g",
       "method": "GET",
       "features": {}
     },
@@ -4201,8 +4213,8 @@
       "features": {}
     },
     "GrokShare": {
-      "url": "https://x.com/i/api/graphql/dhkID-nVSr7PS1D7WMDBGQ/GrokShare",
-      "queryId": "dhkID-nVSr7PS1D7WMDBGQ",
+      "url": "https://x.com/i/api/graphql/8n_5Jyc5yu4p-ty-0LhsuQ/GrokShare",
+      "queryId": "8n_5Jyc5yu4p-ty-0LhsuQ",
       "method": "GET",
       "features": {
         "creator_subscriptions_tweet_preview_api_enabled": true,
@@ -4237,6 +4249,12 @@
         "responsive_web_graphql_timeline_navigation_enabled": true,
         "responsive_web_enhance_cards_enabled": false
       }
+    },
+    "GrokUnpinConversation": {
+      "url": "https://x.com/i/api/graphql/-5e798p4EVbuhGGFFuw3Tg/GrokUnpinConversation",
+      "queryId": "-5e798p4EVbuhGGFFuw3Tg",
+      "method": "POST",
+      "features": {}
     },
     "GrokUserEventsLog": {
       "url": "https://x.com/i/api/graphql/AB0damyVo0wBhhebQIwtsg/GrokUserEventsLog",
