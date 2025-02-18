@@ -4345,3 +4345,17 @@
 - rweb_analytics_audience_xweb_enabled<br>
 #### remove<br>
 - None<br>
+## 2025/02/18<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- responsive_web_grok_enable_model_tool_toggle<br>
+- responsive_web_grok_personality_button_enabled<br>
+- subscriptions_offers_churn_prevention_enabled<br>
+- subscriptions_upsells_get_verified_profile_rotation_enabled<br>
+#### remove<br>
+- None<br>
