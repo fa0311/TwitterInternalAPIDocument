@@ -14713,7 +14713,7 @@
   {
     "n": "23923",
     "exports": {
-      "queryId": "lOvt0FHgeDQfLXJuT9oM6w",
+      "queryId": "kPyBiZHkstmcLppqofgMtw",
       "operationName": "GrokConversationItemsByRestId",
       "operationType": "query",
       "metadata": {
@@ -14858,7 +14858,7 @@
   {
     "n": "85850",
     "exports": {
-      "queryId": "-eT71yhF_ZA4h_a1_U_gSw",
+      "queryId": "9Hyh5D4-WXLnExZkONSkZg",
       "operationName": "GrokHistory",
       "operationType": "query",
       "metadata": {
@@ -14871,7 +14871,7 @@
   {
     "n": "69111",
     "exports": {
-      "queryId": "nbCcE8Dem1w2J0HosPW4sg",
+      "queryId": "i8RyUtwTC_hp0bFeYNyCOQ",
       "operationName": "GrokHome",
       "operationType": "query",
       "metadata": {
@@ -14886,6 +14886,32 @@
     "exports": {
       "queryId": "azn3Sg0APPjb2Jtd7gqxsw",
       "operationName": "GrokMediaHistory",
+      "operationType": "query",
+      "metadata": {
+        "featureSwitches": [],
+        "fieldToggles": [],
+        "featureSwitch": {}
+      }
+    }
+  },
+  {
+    "n": "80471",
+    "exports": {
+      "queryId": "_6czUDKiWzcvBUKMoDZ19w",
+      "operationName": "GrokPinConversation",
+      "operationType": "mutation",
+      "metadata": {
+        "featureSwitches": [],
+        "fieldToggles": [],
+        "featureSwitch": {}
+      }
+    }
+  },
+  {
+    "n": "61505",
+    "exports": {
+      "queryId": "BHKxYTkc5SCupV7oqJBr0g",
+      "operationName": "GrokPinnedConversations",
       "operationType": "query",
       "metadata": {
         "featureSwitches": [],
@@ -14910,7 +14936,7 @@
   {
     "n": "28207",
     "exports": {
-      "queryId": "dhkID-nVSr7PS1D7WMDBGQ",
+      "queryId": "8n_5Jyc5yu4p-ty-0LhsuQ",
       "operationName": "GrokShare",
       "operationType": "query",
       "metadata": {
@@ -15049,6 +15075,19 @@
             "value": "false"
           }
         }
+      }
+    }
+  },
+  {
+    "n": "04114",
+    "exports": {
+      "queryId": "-5e798p4EVbuhGGFFuw3Tg",
+      "operationName": "GrokUnpinConversation",
+      "operationType": "mutation",
+      "metadata": {
+        "featureSwitches": [],
+        "fieldToggles": [],
+        "featureSwitch": {}
       }
     }
   },
@@ -15894,7 +15933,7 @@
   {
     "n": "23923",
     "exports": {
-      "queryId": "lOvt0FHgeDQfLXJuT9oM6w",
+      "queryId": "kPyBiZHkstmcLppqofgMtw",
       "operationName": "GrokConversationItemsByRestId",
       "operationType": "query",
       "metadata": {
@@ -16039,7 +16078,7 @@
   {
     "n": "85850",
     "exports": {
-      "queryId": "-eT71yhF_ZA4h_a1_U_gSw",
+      "queryId": "9Hyh5D4-WXLnExZkONSkZg",
       "operationName": "GrokHistory",
       "operationType": "query",
       "metadata": {
@@ -16052,7 +16091,7 @@
   {
     "n": "69111",
     "exports": {
-      "queryId": "nbCcE8Dem1w2J0HosPW4sg",
+      "queryId": "i8RyUtwTC_hp0bFeYNyCOQ",
       "operationName": "GrokHome",
       "operationType": "query",
       "metadata": {
@@ -16067,6 +16106,32 @@
     "exports": {
       "queryId": "azn3Sg0APPjb2Jtd7gqxsw",
       "operationName": "GrokMediaHistory",
+      "operationType": "query",
+      "metadata": {
+        "featureSwitches": [],
+        "fieldToggles": [],
+        "featureSwitch": {}
+      }
+    }
+  },
+  {
+    "n": "80471",
+    "exports": {
+      "queryId": "_6czUDKiWzcvBUKMoDZ19w",
+      "operationName": "GrokPinConversation",
+      "operationType": "mutation",
+      "metadata": {
+        "featureSwitches": [],
+        "fieldToggles": [],
+        "featureSwitch": {}
+      }
+    }
+  },
+  {
+    "n": "61505",
+    "exports": {
+      "queryId": "BHKxYTkc5SCupV7oqJBr0g",
+      "operationName": "GrokPinnedConversations",
       "operationType": "query",
       "metadata": {
         "featureSwitches": [],
@@ -16091,7 +16156,7 @@
   {
     "n": "28207",
     "exports": {
-      "queryId": "dhkID-nVSr7PS1D7WMDBGQ",
+      "queryId": "8n_5Jyc5yu4p-ty-0LhsuQ",
       "operationName": "GrokShare",
       "operationType": "query",
       "metadata": {
@@ -16230,6 +16295,19 @@
             "value": "false"
           }
         }
+      }
+    }
+  },
+  {
+    "n": "04114",
+    "exports": {
+      "queryId": "-5e798p4EVbuhGGFFuw3Tg",
+      "operationName": "GrokUnpinConversation",
+      "operationType": "mutation",
+      "metadata": {
+        "featureSwitches": [],
+        "fieldToggles": [],
+        "featureSwitch": {}
       }
     }
   },
@@ -18908,7 +18986,7 @@
   {
     "n": "23923",
     "exports": {
-      "queryId": "lOvt0FHgeDQfLXJuT9oM6w",
+      "queryId": "kPyBiZHkstmcLppqofgMtw",
       "operationName": "GrokConversationItemsByRestId",
       "operationType": "query",
       "metadata": {
@@ -19053,7 +19131,7 @@
   {
     "n": "85850",
     "exports": {
-      "queryId": "-eT71yhF_ZA4h_a1_U_gSw",
+      "queryId": "9Hyh5D4-WXLnExZkONSkZg",
       "operationName": "GrokHistory",
       "operationType": "query",
       "metadata": {
@@ -19066,7 +19144,7 @@
   {
     "n": "69111",
     "exports": {
-      "queryId": "nbCcE8Dem1w2J0HosPW4sg",
+      "queryId": "i8RyUtwTC_hp0bFeYNyCOQ",
       "operationName": "GrokHome",
       "operationType": "query",
       "metadata": {
@@ -19081,6 +19159,32 @@
     "exports": {
       "queryId": "azn3Sg0APPjb2Jtd7gqxsw",
       "operationName": "GrokMediaHistory",
+      "operationType": "query",
+      "metadata": {
+        "featureSwitches": [],
+        "fieldToggles": [],
+        "featureSwitch": {}
+      }
+    }
+  },
+  {
+    "n": "80471",
+    "exports": {
+      "queryId": "_6czUDKiWzcvBUKMoDZ19w",
+      "operationName": "GrokPinConversation",
+      "operationType": "mutation",
+      "metadata": {
+        "featureSwitches": [],
+        "fieldToggles": [],
+        "featureSwitch": {}
+      }
+    }
+  },
+  {
+    "n": "61505",
+    "exports": {
+      "queryId": "BHKxYTkc5SCupV7oqJBr0g",
+      "operationName": "GrokPinnedConversations",
       "operationType": "query",
       "metadata": {
         "featureSwitches": [],
@@ -19105,7 +19209,7 @@
   {
     "n": "28207",
     "exports": {
-      "queryId": "dhkID-nVSr7PS1D7WMDBGQ",
+      "queryId": "8n_5Jyc5yu4p-ty-0LhsuQ",
       "operationName": "GrokShare",
       "operationType": "query",
       "metadata": {
@@ -19244,6 +19348,19 @@
             "value": "false"
           }
         }
+      }
+    }
+  },
+  {
+    "n": "04114",
+    "exports": {
+      "queryId": "-5e798p4EVbuhGGFFuw3Tg",
+      "operationName": "GrokUnpinConversation",
+      "operationType": "mutation",
+      "metadata": {
+        "featureSwitches": [],
+        "fieldToggles": [],
+        "featureSwitch": {}
       }
     }
   },
@@ -19341,7 +19458,7 @@
   {
     "n": "23923",
     "exports": {
-      "queryId": "lOvt0FHgeDQfLXJuT9oM6w",
+      "queryId": "kPyBiZHkstmcLppqofgMtw",
       "operationName": "GrokConversationItemsByRestId",
       "operationType": "query",
       "metadata": {
@@ -19486,7 +19603,7 @@
   {
     "n": "85850",
     "exports": {
-      "queryId": "-eT71yhF_ZA4h_a1_U_gSw",
+      "queryId": "9Hyh5D4-WXLnExZkONSkZg",
       "operationName": "GrokHistory",
       "operationType": "query",
       "metadata": {
@@ -19499,7 +19616,7 @@
   {
     "n": "69111",
     "exports": {
-      "queryId": "nbCcE8Dem1w2J0HosPW4sg",
+      "queryId": "i8RyUtwTC_hp0bFeYNyCOQ",
       "operationName": "GrokHome",
       "operationType": "query",
       "metadata": {
@@ -19514,6 +19631,32 @@
     "exports": {
       "queryId": "azn3Sg0APPjb2Jtd7gqxsw",
       "operationName": "GrokMediaHistory",
+      "operationType": "query",
+      "metadata": {
+        "featureSwitches": [],
+        "fieldToggles": [],
+        "featureSwitch": {}
+      }
+    }
+  },
+  {
+    "n": "80471",
+    "exports": {
+      "queryId": "_6czUDKiWzcvBUKMoDZ19w",
+      "operationName": "GrokPinConversation",
+      "operationType": "mutation",
+      "metadata": {
+        "featureSwitches": [],
+        "fieldToggles": [],
+        "featureSwitch": {}
+      }
+    }
+  },
+  {
+    "n": "61505",
+    "exports": {
+      "queryId": "BHKxYTkc5SCupV7oqJBr0g",
+      "operationName": "GrokPinnedConversations",
       "operationType": "query",
       "metadata": {
         "featureSwitches": [],
@@ -19538,7 +19681,7 @@
   {
     "n": "28207",
     "exports": {
-      "queryId": "dhkID-nVSr7PS1D7WMDBGQ",
+      "queryId": "8n_5Jyc5yu4p-ty-0LhsuQ",
       "operationName": "GrokShare",
       "operationType": "query",
       "metadata": {
@@ -19677,6 +19820,19 @@
             "value": "false"
           }
         }
+      }
+    }
+  },
+  {
+    "n": "04114",
+    "exports": {
+      "queryId": "-5e798p4EVbuhGGFFuw3Tg",
+      "operationName": "GrokUnpinConversation",
+      "operationType": "mutation",
+      "metadata": {
+        "featureSwitches": [],
+        "fieldToggles": [],
+        "featureSwitch": {}
       }
     }
   },
@@ -20224,7 +20380,7 @@
   {
     "n": "23923",
     "exports": {
-      "queryId": "lOvt0FHgeDQfLXJuT9oM6w",
+      "queryId": "kPyBiZHkstmcLppqofgMtw",
       "operationName": "GrokConversationItemsByRestId",
       "operationType": "query",
       "metadata": {
@@ -20369,7 +20525,7 @@
   {
     "n": "85850",
     "exports": {
-      "queryId": "-eT71yhF_ZA4h_a1_U_gSw",
+      "queryId": "9Hyh5D4-WXLnExZkONSkZg",
       "operationName": "GrokHistory",
       "operationType": "query",
       "metadata": {
@@ -20382,7 +20538,7 @@
   {
     "n": "69111",
     "exports": {
-      "queryId": "nbCcE8Dem1w2J0HosPW4sg",
+      "queryId": "i8RyUtwTC_hp0bFeYNyCOQ",
       "operationName": "GrokHome",
       "operationType": "query",
       "metadata": {
@@ -20397,6 +20553,32 @@
     "exports": {
       "queryId": "azn3Sg0APPjb2Jtd7gqxsw",
       "operationName": "GrokMediaHistory",
+      "operationType": "query",
+      "metadata": {
+        "featureSwitches": [],
+        "fieldToggles": [],
+        "featureSwitch": {}
+      }
+    }
+  },
+  {
+    "n": "80471",
+    "exports": {
+      "queryId": "_6czUDKiWzcvBUKMoDZ19w",
+      "operationName": "GrokPinConversation",
+      "operationType": "mutation",
+      "metadata": {
+        "featureSwitches": [],
+        "fieldToggles": [],
+        "featureSwitch": {}
+      }
+    }
+  },
+  {
+    "n": "61505",
+    "exports": {
+      "queryId": "BHKxYTkc5SCupV7oqJBr0g",
+      "operationName": "GrokPinnedConversations",
       "operationType": "query",
       "metadata": {
         "featureSwitches": [],
@@ -20421,7 +20603,7 @@
   {
     "n": "28207",
     "exports": {
-      "queryId": "dhkID-nVSr7PS1D7WMDBGQ",
+      "queryId": "8n_5Jyc5yu4p-ty-0LhsuQ",
       "operationName": "GrokShare",
       "operationType": "query",
       "metadata": {
@@ -20560,6 +20742,19 @@
             "value": "false"
           }
         }
+      }
+    }
+  },
+  {
+    "n": "04114",
+    "exports": {
+      "queryId": "-5e798p4EVbuhGGFFuw3Tg",
+      "operationName": "GrokUnpinConversation",
+      "operationType": "mutation",
+      "metadata": {
+        "featureSwitches": [],
+        "fieldToggles": [],
+        "featureSwitch": {}
       }
     }
   },
@@ -20631,7 +20826,7 @@
   {
     "n": "23923",
     "exports": {
-      "queryId": "lOvt0FHgeDQfLXJuT9oM6w",
+      "queryId": "kPyBiZHkstmcLppqofgMtw",
       "operationName": "GrokConversationItemsByRestId",
       "operationType": "query",
       "metadata": {
@@ -20776,7 +20971,7 @@
   {
     "n": "85850",
     "exports": {
-      "queryId": "-eT71yhF_ZA4h_a1_U_gSw",
+      "queryId": "9Hyh5D4-WXLnExZkONSkZg",
       "operationName": "GrokHistory",
       "operationType": "query",
       "metadata": {
@@ -20789,7 +20984,7 @@
   {
     "n": "69111",
     "exports": {
-      "queryId": "nbCcE8Dem1w2J0HosPW4sg",
+      "queryId": "i8RyUtwTC_hp0bFeYNyCOQ",
       "operationName": "GrokHome",
       "operationType": "query",
       "metadata": {
@@ -20804,6 +20999,32 @@
     "exports": {
       "queryId": "azn3Sg0APPjb2Jtd7gqxsw",
       "operationName": "GrokMediaHistory",
+      "operationType": "query",
+      "metadata": {
+        "featureSwitches": [],
+        "fieldToggles": [],
+        "featureSwitch": {}
+      }
+    }
+  },
+  {
+    "n": "80471",
+    "exports": {
+      "queryId": "_6czUDKiWzcvBUKMoDZ19w",
+      "operationName": "GrokPinConversation",
+      "operationType": "mutation",
+      "metadata": {
+        "featureSwitches": [],
+        "fieldToggles": [],
+        "featureSwitch": {}
+      }
+    }
+  },
+  {
+    "n": "61505",
+    "exports": {
+      "queryId": "BHKxYTkc5SCupV7oqJBr0g",
+      "operationName": "GrokPinnedConversations",
       "operationType": "query",
       "metadata": {
         "featureSwitches": [],
@@ -20828,7 +21049,7 @@
   {
     "n": "28207",
     "exports": {
-      "queryId": "dhkID-nVSr7PS1D7WMDBGQ",
+      "queryId": "8n_5Jyc5yu4p-ty-0LhsuQ",
       "operationName": "GrokShare",
       "operationType": "query",
       "metadata": {
@@ -20967,6 +21188,19 @@
             "value": "false"
           }
         }
+      }
+    }
+  },
+  {
+    "n": "04114",
+    "exports": {
+      "queryId": "-5e798p4EVbuhGGFFuw3Tg",
+      "operationName": "GrokUnpinConversation",
+      "operationType": "mutation",
+      "metadata": {
+        "featureSwitches": [],
+        "fieldToggles": [],
+        "featureSwitch": {}
       }
     }
   },
