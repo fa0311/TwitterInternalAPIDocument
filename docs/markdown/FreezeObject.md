@@ -325,53 +325,55 @@ This document is entirely auto-generated and may contain errors.<br>
 | VerifiedOrgs | VerifiedOrgs |
 | Analytics    | Analytics    |
 
-| constant                 | value                    |
-|:-------------------------|:-------------------------|
-| RadarPromoPage           | RadarPromoPage           |
-| MoneyInterest            | MoneyInterest            |
-| EditPost                 | EditPost                 |
-| HighlightsProfile        | HighlightsProfile        |
-| ArticlesProfile          | ArticlesProfile          |
-| ArticlesReader           | ArticlesReader           |
-| ArticlesPostComposer     | ArticlesPostComposer     |
-| CreatorSubsEligibility   | CreatorSubsEligibility   |
-| IdVerification           | IdVerification           |
-| LongformPostComposer     | LongformPostComposer     |
-| PreRollAdsEligibility    | PreRollAdsEligibility    |
-| AdsRevShareEligibility   | AdsRevShareEligibility   |
-| CreateCommunity          | CreateCommunity          |
-| DmAddToGroup             | DmAddToGroup             |
-| DmCreateGroup            | DmCreateGroup            |
-| DmMessageRequest         | DmMessageRequest         |
-| DmRateLimited            | DmRateLimited            |
-| VideoDownload            | VideoDownload            |
-| BlockAd                  | BlockAd                  |
-| MuteAd                   | MuteAd                   |
-| DismissAd                | DismissAd                |
-| ReportAd                 | ReportAd                 |
-| BookmarkFolders          | BookmarkFolders          |
-| BookmarkScreenCard       | BookmarkScreenCard       |
-| SidebarDefault           | SidebarDefault           |
-| SidebarArticle           | SidebarArticle           |
-| SidebarLongform          | SidebarLongform          |
-| SidebarPremiumPlus       | SidebarPremiumPlus       |
-| SidebarVerifiedOrgs      | SidebarVerifiedOrgs      |
-| RadarUpsell              | RadarUpsell              |
-| VerifiedOnlyChat         | VerifiedOnlyChat         |
-| LongerVideoUpload        | LongerVideoUpload        |
-| AccountAnalytics         | AccountAnalytics         |
-| MultivariateExample      | MultivariateExample      |
-| GetVerifiedButton        | GetVerifiedButton        |
-| HomeNav                  | HomeNav                  |
-| MonetizationPromoPage    | MonetizationPromoPage    |
-| GetVerifiedProfileCard   | GetVerifiedProfileCard   |
-| VerifiedOrgProfileUpsell | VerifiedOrgProfileUpsell |
-| DmCard                   | DmCard                   |
-| ReplyBoost               | ReplyBoost               |
-| ReplyBoostPopup          | ReplyBoostPopup          |
-| AnalyticsPromoPage       | AnalyticsPromoPage       |
-| VerifiedOrgsAdCredit     | VerifiedOrgsAdCredit     |
-| PostAnalytics            | PostAnalytics            |
+| constant                              | value                                 |
+|:--------------------------------------|:--------------------------------------|
+| RadarPromoPage                        | RadarPromoPage                        |
+| MoneyInterest                         | MoneyInterest                         |
+| EditPost                              | EditPost                              |
+| HighlightsProfile                     | HighlightsProfile                     |
+| ArticlesProfile                       | ArticlesProfile                       |
+| ArticlesReader                        | ArticlesReader                        |
+| ArticlesPostComposer                  | ArticlesPostComposer                  |
+| CreatorSubsEligibility                | CreatorSubsEligibility                |
+| IdVerification                        | IdVerification                        |
+| LongformPostComposer                  | LongformPostComposer                  |
+| PreRollAdsEligibility                 | PreRollAdsEligibility                 |
+| AdsRevShareEligibility                | AdsRevShareEligibility                |
+| CreateCommunity                       | CreateCommunity                       |
+| DmAddToGroup                          | DmAddToGroup                          |
+| DmCreateGroup                         | DmCreateGroup                         |
+| DmMessageRequest                      | DmMessageRequest                      |
+| DmRateLimited                         | DmRateLimited                         |
+| VideoDownload                         | VideoDownload                         |
+| BlockAd                               | BlockAd                               |
+| GetVerifiedOrgUpsellButton            | GetVerifiedOrgUpsellButton            |
+| GetVerifiedOrgUpsellButtonWithDismiss | GetVerifiedOrgUpsellButtonWithDismiss |
+| MuteAd                                | MuteAd                                |
+| DismissAd                             | DismissAd                             |
+| ReportAd                              | ReportAd                              |
+| BookmarkFolders                       | BookmarkFolders                       |
+| BookmarkScreenCard                    | BookmarkScreenCard                    |
+| SidebarDefault                        | SidebarDefault                        |
+| SidebarArticle                        | SidebarArticle                        |
+| SidebarLongform                       | SidebarLongform                       |
+| SidebarPremiumPlus                    | SidebarPremiumPlus                    |
+| SidebarVerifiedOrgs                   | SidebarVerifiedOrgs                   |
+| RadarUpsell                           | RadarUpsell                           |
+| VerifiedOnlyChat                      | VerifiedOnlyChat                      |
+| LongerVideoUpload                     | LongerVideoUpload                     |
+| AccountAnalytics                      | AccountAnalytics                      |
+| MultivariateExample                   | MultivariateExample                   |
+| GetVerifiedButton                     | GetVerifiedButton                     |
+| HomeNav                               | HomeNav                               |
+| MonetizationPromoPage                 | MonetizationPromoPage                 |
+| GetVerifiedProfileCard                | GetVerifiedProfileCard                |
+| VerifiedOrgProfileUpsell              | VerifiedOrgProfileUpsell              |
+| DmCard                                | DmCard                                |
+| ReplyBoost                            | ReplyBoost                            |
+| ReplyBoostPopup                       | ReplyBoostPopup                       |
+| AnalyticsPromoPage                    | AnalyticsPromoPage                    |
+| VerifiedOrgsAdCredit                  | VerifiedOrgsAdCredit                  |
+| PostAnalytics                         | PostAnalytics                         |
 
 | constant   | value   |
 |:-----------|:--------|
@@ -784,6 +786,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | updateName                    | updateName                    |
 | updateAddress                 | updateAddress                 |
 | updatePin                     | updatePin                     |
+| forgotPin                     | forgotPin                     |
 | checkPendingTransactions      | checkPendingTransactions      |
 | challenge                     | challenge                     |
 
@@ -803,6 +806,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | auth        | auth        |
 | transaction | transaction |
 | preference  | preference  |
+| forgotPin   | forgotPin   |
 
 | constant         | value            |
 |:-----------------|:-----------------|
@@ -2261,8 +2265,8 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant              | value     |
 |:----------------------|:----------|
-| appBarHeight          | M         |
-| appBarHeightPx        | v         |
+| appBarHeight          | v         |
+| appBarHeightPx        | M         |
 | conversationLineWidth | _.space2  |
 | gutterHorizontal      | y.space16 |
 | gutterHorizontalPx    | _.space16 |
@@ -2350,7 +2354,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{[fa.onlyInvited]:"0",[fa.peopleYouFollow]:"1",[fa.everyone]:"2"}
+{[ya.onlyInvited]:"0",[ya.peopleYouFollow]:"1",[ya.everyone]:"2"}
 ```
 | constant   | value             |
 |:-----------|:------------------|
@@ -2380,7 +2384,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{[M.Q.host]:{"title":"W.hostTitle","maybePluralFormatter":"$"},[M.Q.cohost]:{"title":"W.cohostTitle","maybePluralFormatter":"G"},[M.Q.speaker]:{"title":"W.speakerTitle","maybePluralFormatter":"K"},[M.Q.listener]:{"title":"W.listenerTitle","maybePluralFormatter":"Y"}}
+{[L.Q.host]:{"title":"W.hostTitle","maybePluralFormatter":"$"},[L.Q.cohost]:{"title":"W.cohostTitle","maybePluralFormatter":"G"},[L.Q.speaker]:{"title":"W.speakerTitle","maybePluralFormatter":"K"},[L.Q.listener]:{"title":"W.listenerTitle","maybePluralFormatter":"Y"}}
 ```
 | constant    | value        |
 |:------------|:-------------|
@@ -5292,6 +5296,11 @@ This document is entirely auto-generated and may contain errors.<br>
 |:-----------|:--------|
 | bank       | bank    |
 | x          | x       |
+
+| constant    | value                  |
+|:------------|:-----------------------|
+| initiate    | initiate-challenge     |
+| complete2fa | 2fa-complete-challenge |
 
 | constant   | value    |
 |:-----------|:---------|
