@@ -4763,10 +4763,12 @@
       }
     },
     "BirdwatchFetchPublicData": {
-      "url": "https://x.com/i/api/graphql/9bDdJ6AL26RLkcUShEcF-A/BirdwatchFetchPublicData",
-      "queryId": "9bDdJ6AL26RLkcUShEcF-A",
+      "url": "https://x.com/i/api/graphql/T4Qdev0aBeS9tK9v4TkgQg/BirdwatchFetchPublicData",
+      "queryId": "T4Qdev0aBeS9tK9v4TkgQg",
       "method": "GET",
-      "features": {}
+      "features": {
+        "responsive_web_birdwatch_note_request_download_enabled": false
+      }
     },
     "BirdwatchFetchSignUpEligiblity": {
       "url": "https://x.com/i/api/graphql/yASGrjmFWghK2T0XC3uGVg/BirdwatchFetchSignUpEligiblity",
