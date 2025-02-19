@@ -6599,14 +6599,17 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## BirdwatchFetchPublicData<br>
-Request URL: `https://x.com/i/api/graphql/9bDdJ6AL26RLkcUShEcF-A/BirdwatchFetchPublicData`<br>
+Request URL: `https://x.com/i/api/graphql/T4Qdev0aBeS9tK9v4TkgQg/BirdwatchFetchPublicData`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
 `None`<br>
 #### features<br>
-`None`<br>
+| key                                                    | type    | variable   |
+|:-------------------------------------------------------|:--------|:-----------|
+| responsive_web_birdwatch_note_request_download_enabled | boolean | False      |
+
 #### queryId<br>
 `None`<br>
 ## BirdwatchFetchSignUpEligiblity<br>
