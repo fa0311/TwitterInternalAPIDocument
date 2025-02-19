@@ -17530,13 +17530,19 @@
   {
     "n": "09330",
     "exports": {
-      "queryId": "9bDdJ6AL26RLkcUShEcF-A",
+      "queryId": "T4Qdev0aBeS9tK9v4TkgQg",
       "operationName": "BirdwatchFetchPublicData",
       "operationType": "query",
       "metadata": {
-        "featureSwitches": [],
+        "featureSwitches": [
+          "responsive_web_birdwatch_note_request_download_enabled"
+        ],
         "fieldToggles": [],
-        "featureSwitch": {}
+        "featureSwitch": {
+          "responsive_web_birdwatch_note_request_download_enabled": {
+            "value": "false"
+          }
+        }
       }
     }
   },
