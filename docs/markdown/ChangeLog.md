@@ -5395,3 +5395,20 @@
 - subscriptions_upsells_get_verified_profile_rotation_enabled<br>
 #### remove<br>
 - None<br>
+## 2025/02/19<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- responsive_web_birdwatch_note_request_download_enabled<br>
+- responsive_web_grok_enable_file_attachment_with_search_think<br>
+- responsive_web_grok_route_disabled_search_think_to_paywall<br>
+- responsive_web_scribe_media_component<br>
+- subscriptions_marketing_page_new_grok_content_enabled<br>
+- vo_upsell_new_business_query_enabled<br>
+- vo_upsell_profile_button_enabled<br>
+#### remove<br>
+- None<br>
