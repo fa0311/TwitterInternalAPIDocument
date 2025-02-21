@@ -121,6 +121,10 @@
     "x": "x"
   },
   {
+    "initiate": "initiate-challenge",
+    "complete2fa": "2fa-complete-challenge"
+  },
+  {
     "Checking": "Checking",
     "Savings": "Savings"
   },

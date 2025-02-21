@@ -143,6 +143,11 @@ This document is entirely auto-generated and may contain errors.<br>
 | bank       | bank    |
 | x          | x       |
 
+| constant    | value                  |
+|:------------|:-----------------------|
+| initiate    | initiate-challenge     |
+| complete2fa | 2fa-complete-challenge |
+
 | constant   | value    |
 |:-----------|:---------|
 | Checking   | Checking |

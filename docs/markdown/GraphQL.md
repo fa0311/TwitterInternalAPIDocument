@@ -5294,7 +5294,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## GrokConversationItemsByRestId<br>
-Request URL: `https://x.com/i/api/graphql/lOvt0FHgeDQfLXJuT9oM6w/GrokConversationItemsByRestId`<br>
+Request URL: `https://x.com/i/api/graphql/kPyBiZHkstmcLppqofgMtw/GrokConversationItemsByRestId`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -5338,7 +5338,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## GrokHistory<br>
-Request URL: `https://x.com/i/api/graphql/-eT71yhF_ZA4h_a1_U_gSw/GrokHistory`<br>
+Request URL: `https://x.com/i/api/graphql/9Hyh5D4-WXLnExZkONSkZg/GrokHistory`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -5349,7 +5349,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## GrokHome<br>
-Request URL: `https://x.com/i/api/graphql/nbCcE8Dem1w2J0HosPW4sg/GrokHome`<br>
+Request URL: `https://x.com/i/api/graphql/i8RyUtwTC_hp0bFeYNyCOQ/GrokHome`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -5361,6 +5361,28 @@ Login Required: `...`<br>
 `None`<br>
 ## GrokMediaHistory<br>
 Request URL: `https://x.com/i/api/graphql/azn3Sg0APPjb2Jtd7gqxsw/GrokMediaHistory`<br>
+Request Method: `GET`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
+## GrokPinConversation<br>
+Request URL: `https://x.com/i/api/graphql/_6czUDKiWzcvBUKMoDZ19w/GrokPinConversation`<br>
+Request Method: `POST`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
+## GrokPinnedConversations<br>
+Request URL: `https://x.com/i/api/graphql/BHKxYTkc5SCupV7oqJBr0g/GrokPinnedConversations`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -5382,7 +5404,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## GrokShare<br>
-Request URL: `https://x.com/i/api/graphql/dhkID-nVSr7PS1D7WMDBGQ/GrokShare`<br>
+Request URL: `https://x.com/i/api/graphql/8n_5Jyc5yu4p-ty-0LhsuQ/GrokShare`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -5423,6 +5445,17 @@ Login Required: `...`<br>
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
 | responsive_web_enhance_cards_enabled                                    | boolean | False      |
 
+#### queryId<br>
+`None`<br>
+## GrokUnpinConversation<br>
+Request URL: `https://x.com/i/api/graphql/-5e798p4EVbuhGGFFuw3Tg/GrokUnpinConversation`<br>
+Request Method: `POST`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
 #### queryId<br>
 `None`<br>
 ## GrokUserEventsLog<br>
@@ -5877,7 +5910,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## GrokConversationItemsByRestId<br>
-Request URL: `https://x.com/i/api/graphql/lOvt0FHgeDQfLXJuT9oM6w/GrokConversationItemsByRestId`<br>
+Request URL: `https://x.com/i/api/graphql/kPyBiZHkstmcLppqofgMtw/GrokConversationItemsByRestId`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -5921,7 +5954,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## GrokHistory<br>
-Request URL: `https://x.com/i/api/graphql/-eT71yhF_ZA4h_a1_U_gSw/GrokHistory`<br>
+Request URL: `https://x.com/i/api/graphql/9Hyh5D4-WXLnExZkONSkZg/GrokHistory`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -5932,7 +5965,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## GrokHome<br>
-Request URL: `https://x.com/i/api/graphql/nbCcE8Dem1w2J0HosPW4sg/GrokHome`<br>
+Request URL: `https://x.com/i/api/graphql/i8RyUtwTC_hp0bFeYNyCOQ/GrokHome`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -5944,6 +5977,28 @@ Login Required: `...`<br>
 `None`<br>
 ## GrokMediaHistory<br>
 Request URL: `https://x.com/i/api/graphql/azn3Sg0APPjb2Jtd7gqxsw/GrokMediaHistory`<br>
+Request Method: `GET`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
+## GrokPinConversation<br>
+Request URL: `https://x.com/i/api/graphql/_6czUDKiWzcvBUKMoDZ19w/GrokPinConversation`<br>
+Request Method: `POST`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
+## GrokPinnedConversations<br>
+Request URL: `https://x.com/i/api/graphql/BHKxYTkc5SCupV7oqJBr0g/GrokPinnedConversations`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -5965,7 +6020,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## GrokShare<br>
-Request URL: `https://x.com/i/api/graphql/dhkID-nVSr7PS1D7WMDBGQ/GrokShare`<br>
+Request URL: `https://x.com/i/api/graphql/8n_5Jyc5yu4p-ty-0LhsuQ/GrokShare`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -6006,6 +6061,17 @@ Login Required: `...`<br>
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
 | responsive_web_enhance_cards_enabled                                    | boolean | False      |
 
+#### queryId<br>
+`None`<br>
+## GrokUnpinConversation<br>
+Request URL: `https://x.com/i/api/graphql/-5e798p4EVbuhGGFFuw3Tg/GrokUnpinConversation`<br>
+Request Method: `POST`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
 #### queryId<br>
 `None`<br>
 ## GrokUserEventsLog<br>
@@ -6533,14 +6599,17 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## BirdwatchFetchPublicData<br>
-Request URL: `https://x.com/i/api/graphql/9bDdJ6AL26RLkcUShEcF-A/BirdwatchFetchPublicData`<br>
+Request URL: `https://x.com/i/api/graphql/T4Qdev0aBeS9tK9v4TkgQg/BirdwatchFetchPublicData`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
 `None`<br>
 #### features<br>
-`None`<br>
+| key                                                    | type    | variable   |
+|:-------------------------------------------------------|:--------|:-----------|
+| responsive_web_birdwatch_note_request_download_enabled | boolean | False      |
+
 #### queryId<br>
 `None`<br>
 ## BirdwatchFetchSignUpEligiblity<br>
@@ -7219,7 +7288,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## GrokConversationItemsByRestId<br>
-Request URL: `https://x.com/i/api/graphql/lOvt0FHgeDQfLXJuT9oM6w/GrokConversationItemsByRestId`<br>
+Request URL: `https://x.com/i/api/graphql/kPyBiZHkstmcLppqofgMtw/GrokConversationItemsByRestId`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -7263,7 +7332,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## GrokHistory<br>
-Request URL: `https://x.com/i/api/graphql/-eT71yhF_ZA4h_a1_U_gSw/GrokHistory`<br>
+Request URL: `https://x.com/i/api/graphql/9Hyh5D4-WXLnExZkONSkZg/GrokHistory`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -7274,7 +7343,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## GrokHome<br>
-Request URL: `https://x.com/i/api/graphql/nbCcE8Dem1w2J0HosPW4sg/GrokHome`<br>
+Request URL: `https://x.com/i/api/graphql/i8RyUtwTC_hp0bFeYNyCOQ/GrokHome`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -7286,6 +7355,28 @@ Login Required: `...`<br>
 `None`<br>
 ## GrokMediaHistory<br>
 Request URL: `https://x.com/i/api/graphql/azn3Sg0APPjb2Jtd7gqxsw/GrokMediaHistory`<br>
+Request Method: `GET`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
+## GrokPinConversation<br>
+Request URL: `https://x.com/i/api/graphql/_6czUDKiWzcvBUKMoDZ19w/GrokPinConversation`<br>
+Request Method: `POST`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
+## GrokPinnedConversations<br>
+Request URL: `https://x.com/i/api/graphql/BHKxYTkc5SCupV7oqJBr0g/GrokPinnedConversations`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -7307,7 +7398,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## GrokShare<br>
-Request URL: `https://x.com/i/api/graphql/dhkID-nVSr7PS1D7WMDBGQ/GrokShare`<br>
+Request URL: `https://x.com/i/api/graphql/8n_5Jyc5yu4p-ty-0LhsuQ/GrokShare`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -7348,6 +7439,17 @@ Login Required: `...`<br>
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
 | responsive_web_enhance_cards_enabled                                    | boolean | False      |
 
+#### queryId<br>
+`None`<br>
+## GrokUnpinConversation<br>
+Request URL: `https://x.com/i/api/graphql/-5e798p4EVbuhGGFFuw3Tg/GrokUnpinConversation`<br>
+Request Method: `POST`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
 #### queryId<br>
 `None`<br>
 ## GrokUserEventsLog<br>
@@ -7428,7 +7530,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## GrokConversationItemsByRestId<br>
-Request URL: `https://x.com/i/api/graphql/lOvt0FHgeDQfLXJuT9oM6w/GrokConversationItemsByRestId`<br>
+Request URL: `https://x.com/i/api/graphql/kPyBiZHkstmcLppqofgMtw/GrokConversationItemsByRestId`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -7472,7 +7574,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## GrokHistory<br>
-Request URL: `https://x.com/i/api/graphql/-eT71yhF_ZA4h_a1_U_gSw/GrokHistory`<br>
+Request URL: `https://x.com/i/api/graphql/9Hyh5D4-WXLnExZkONSkZg/GrokHistory`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -7483,7 +7585,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## GrokHome<br>
-Request URL: `https://x.com/i/api/graphql/nbCcE8Dem1w2J0HosPW4sg/GrokHome`<br>
+Request URL: `https://x.com/i/api/graphql/i8RyUtwTC_hp0bFeYNyCOQ/GrokHome`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -7495,6 +7597,28 @@ Login Required: `...`<br>
 `None`<br>
 ## GrokMediaHistory<br>
 Request URL: `https://x.com/i/api/graphql/azn3Sg0APPjb2Jtd7gqxsw/GrokMediaHistory`<br>
+Request Method: `GET`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
+## GrokPinConversation<br>
+Request URL: `https://x.com/i/api/graphql/_6czUDKiWzcvBUKMoDZ19w/GrokPinConversation`<br>
+Request Method: `POST`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
+## GrokPinnedConversations<br>
+Request URL: `https://x.com/i/api/graphql/BHKxYTkc5SCupV7oqJBr0g/GrokPinnedConversations`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -7516,7 +7640,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## GrokShare<br>
-Request URL: `https://x.com/i/api/graphql/dhkID-nVSr7PS1D7WMDBGQ/GrokShare`<br>
+Request URL: `https://x.com/i/api/graphql/8n_5Jyc5yu4p-ty-0LhsuQ/GrokShare`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -7557,6 +7681,17 @@ Login Required: `...`<br>
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
 | responsive_web_enhance_cards_enabled                                    | boolean | False      |
 
+#### queryId<br>
+`None`<br>
+## GrokUnpinConversation<br>
+Request URL: `https://x.com/i/api/graphql/-5e798p4EVbuhGGFFuw3Tg/GrokUnpinConversation`<br>
+Request Method: `POST`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
 #### queryId<br>
 `None`<br>
 ## GrokUserEventsLog<br>
@@ -7766,7 +7901,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## GrokConversationItemsByRestId<br>
-Request URL: `https://x.com/i/api/graphql/lOvt0FHgeDQfLXJuT9oM6w/GrokConversationItemsByRestId`<br>
+Request URL: `https://x.com/i/api/graphql/kPyBiZHkstmcLppqofgMtw/GrokConversationItemsByRestId`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -7810,7 +7945,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## GrokHistory<br>
-Request URL: `https://x.com/i/api/graphql/-eT71yhF_ZA4h_a1_U_gSw/GrokHistory`<br>
+Request URL: `https://x.com/i/api/graphql/9Hyh5D4-WXLnExZkONSkZg/GrokHistory`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -7821,7 +7956,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## GrokHome<br>
-Request URL: `https://x.com/i/api/graphql/nbCcE8Dem1w2J0HosPW4sg/GrokHome`<br>
+Request URL: `https://x.com/i/api/graphql/i8RyUtwTC_hp0bFeYNyCOQ/GrokHome`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -7833,6 +7968,28 @@ Login Required: `...`<br>
 `None`<br>
 ## GrokMediaHistory<br>
 Request URL: `https://x.com/i/api/graphql/azn3Sg0APPjb2Jtd7gqxsw/GrokMediaHistory`<br>
+Request Method: `GET`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
+## GrokPinConversation<br>
+Request URL: `https://x.com/i/api/graphql/_6czUDKiWzcvBUKMoDZ19w/GrokPinConversation`<br>
+Request Method: `POST`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
+## GrokPinnedConversations<br>
+Request URL: `https://x.com/i/api/graphql/BHKxYTkc5SCupV7oqJBr0g/GrokPinnedConversations`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -7854,7 +8011,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## GrokShare<br>
-Request URL: `https://x.com/i/api/graphql/dhkID-nVSr7PS1D7WMDBGQ/GrokShare`<br>
+Request URL: `https://x.com/i/api/graphql/8n_5Jyc5yu4p-ty-0LhsuQ/GrokShare`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -7895,6 +8052,17 @@ Login Required: `...`<br>
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
 | responsive_web_enhance_cards_enabled                                    | boolean | False      |
 
+#### queryId<br>
+`None`<br>
+## GrokUnpinConversation<br>
+Request URL: `https://x.com/i/api/graphql/-5e798p4EVbuhGGFFuw3Tg/GrokUnpinConversation`<br>
+Request Method: `POST`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
 #### queryId<br>
 `None`<br>
 ## GrokUserEventsLog<br>
@@ -7953,7 +8121,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## GrokConversationItemsByRestId<br>
-Request URL: `https://x.com/i/api/graphql/lOvt0FHgeDQfLXJuT9oM6w/GrokConversationItemsByRestId`<br>
+Request URL: `https://x.com/i/api/graphql/kPyBiZHkstmcLppqofgMtw/GrokConversationItemsByRestId`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -7997,7 +8165,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## GrokHistory<br>
-Request URL: `https://x.com/i/api/graphql/-eT71yhF_ZA4h_a1_U_gSw/GrokHistory`<br>
+Request URL: `https://x.com/i/api/graphql/9Hyh5D4-WXLnExZkONSkZg/GrokHistory`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -8008,7 +8176,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## GrokHome<br>
-Request URL: `https://x.com/i/api/graphql/nbCcE8Dem1w2J0HosPW4sg/GrokHome`<br>
+Request URL: `https://x.com/i/api/graphql/i8RyUtwTC_hp0bFeYNyCOQ/GrokHome`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -8020,6 +8188,28 @@ Login Required: `...`<br>
 `None`<br>
 ## GrokMediaHistory<br>
 Request URL: `https://x.com/i/api/graphql/azn3Sg0APPjb2Jtd7gqxsw/GrokMediaHistory`<br>
+Request Method: `GET`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
+## GrokPinConversation<br>
+Request URL: `https://x.com/i/api/graphql/_6czUDKiWzcvBUKMoDZ19w/GrokPinConversation`<br>
+Request Method: `POST`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
+## GrokPinnedConversations<br>
+Request URL: `https://x.com/i/api/graphql/BHKxYTkc5SCupV7oqJBr0g/GrokPinnedConversations`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -8041,7 +8231,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## GrokShare<br>
-Request URL: `https://x.com/i/api/graphql/dhkID-nVSr7PS1D7WMDBGQ/GrokShare`<br>
+Request URL: `https://x.com/i/api/graphql/8n_5Jyc5yu4p-ty-0LhsuQ/GrokShare`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -8082,6 +8272,17 @@ Login Required: `...`<br>
 | responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
 | responsive_web_enhance_cards_enabled                                    | boolean | False      |
 
+#### queryId<br>
+`None`<br>
+## GrokUnpinConversation<br>
+Request URL: `https://x.com/i/api/graphql/-5e798p4EVbuhGGFFuw3Tg/GrokUnpinConversation`<br>
+Request Method: `POST`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
 #### queryId<br>
 `None`<br>
 ## GrokUserEventsLog<br>
