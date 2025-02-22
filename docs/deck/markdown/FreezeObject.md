@@ -141,6 +141,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | constant   | value   |
 |:-----------|:--------|
 | bank       | bank    |
+| card       | card    |
 | x          | x       |
 
 | constant    | value                  |
@@ -153,13 +154,40 @@ This document is entirely auto-generated and may contain errors.<br>
 | Checking   | Checking |
 | Savings    | Savings  |
 
+| constant        | value           |
+|:----------------|:----------------|
+| AmericanExpress | AmericanExpress |
+| Mastercard      | Mastercard      |
+| Visa            | Visa            |
+
+| constant      | value         |
+|:--------------|:--------------|
+| Charge        | Charge        |
+| Combo         | Combo         |
+| Credit        | Credit        |
+| Debit         | Debit         |
+| DeferredDebit | DeferredDebit |
+| Prepaid       | Prepaid       |
+
 ```internal process
 # Error
-{[F.g.Cancelled]:"Cancelled",[F.g.Failed]:"Failed",[F.g.Expired]:"Expired",[F.g.Pending]:"Pending",[F.g.PendingReview]:"Pending",[F.g.PendingRecipientAction]:"Pending",[F.g.PendingRecipientOnboarding]:"Pending",[F.g.AwaitingRequestAcceptance]:"Pending",[F.g.PendingRecipientAcceptance]:"Pending",[F.g...
+{[f.g.Cancelled]:"Cancelled",[f.g.Failed]:"Failed",[f.g.Expired]:"Expired",[f.g.Pending]:"Pending",[f.g.PendingReview]:"Pending",[f.g.PendingRecipientAction]:"Pending",[f.g.PendingRecipientOnboarding]:"Pending",[f.g.AwaitingRequestAcceptance]:"Pending",[f.g.PendingRecipientAcceptance]:"Pending",[f.g...
 ```
 ```internal process
 # Error
 {[m.Checking]:"Checking",[m.Savings]:"Savings"}
+```
+```internal process
+# Error
+{[p.Charge]:"Charge",[p.Combo]:"Combo",[p.Debit]:"Debit",[p.Credit]:"Credit",[p.DeferredDebit]:"DeferredDebit",[p.Prepaid]:"Prepaid"}
+```
+```internal process
+# Error
+{[y.AmericanExpress]:"American Express",[y.Mastercard]:"Mastercard",[y.Visa]:"Visa"}
+```
+```internal process
+# Error
+{[y.AmericanExpress]:"https://abs.twimg.com/responsive-web/client-web/payment-method-amex.b2cd046a.svg",[y.Mastercard]:"https://abs.twimg.com/responsive-web/client-web/payment-method-mastercard.f126316a.svg",[y.Visa]:"https://abs.twimg.com/responsive-web/client-web/payment-method-visa.c768170a.svg"}
 ```
 | constant     | value             |
 |:-------------|:------------------|

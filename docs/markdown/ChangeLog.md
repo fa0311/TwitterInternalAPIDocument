@@ -5423,3 +5423,16 @@
 - responsive_web_grok_promo_banner<br>
 #### remove<br>
 - None<br>
+## 2025/02/21<br>
+### API<br>
+#### add<br>
+- MediaTabVideoMixer<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- payments_cards_as_payment_method_enabled<br>
+- responsive_web_grok_enable_file_attachment_with_deepsearch<br>
+- responsive_web_grok_enable_file_attachment_with_think<br>
+#### remove<br>
+- responsive_web_grok_enable_file_attachment_with_search_think<br>
