@@ -2265,8 +2265,8 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant              | value     |
 |:----------------------|:----------|
-| appBarHeight          | v         |
-| appBarHeightPx        | M         |
+| appBarHeight          | M         |
+| appBarHeightPx        | v         |
 | conversationLineWidth | _.space2  |
 | gutterHorizontal      | y.space16 |
 | gutterHorizontalPx    | _.space16 |
@@ -5752,11 +5752,11 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{"__proto__":"null","formatCaption":"function()"{"return()(0,S.WU)"},"formatDay":"function()"{"return()(0,S.WU)"},"formatMonthCaption":"function()"{"return()(0,S.WU)"},"formatWeekNumber":"function()"{return"".concat()},"formatWeekdayName":"function()"{"return()(0,S.WU)"},"formatYearCaption":"functio...
+{"__proto__":"null","formatCaption":"function()"{"return()(0,N.WU)"},"formatDay":"function()"{"return()(0,N.WU)"},"formatMonthCaption":"function()"{"return()(0,N.WU)"},"formatWeekNumber":"function()"{return"".concat()},"formatWeekdayName":"function()"{"return()(0,N.WU)"},"formatYearCaption":"functio...
 ```
 ```internal process
 # Error
-{"__proto__":"null","labelDay":"function()"{"return()(0,S.WU)"},"labelMonthDropdown":"function()"{return"Month: "},"labelNext":"function()"{return"Go to next month"},"labelPrevious":"function()"{return"Go to previous month"},"labelWeekNumber":"function()"{return"Week n. ".concat()},"labelWeekday":"f...
+{"__proto__":"null","labelDay":"function()"{"return()(0,N.WU)"},"labelMonthDropdown":"function()"{return"Month: "},"labelNext":"function()"{return"Go to next month"},"labelPrevious":"function()"{return"Go to previous month"},"labelWeekNumber":"function()"{return"Week n. ".concat()},"labelWeekday":"f...
 ```
 | constant          | value                |
 |:------------------|:---------------------|
