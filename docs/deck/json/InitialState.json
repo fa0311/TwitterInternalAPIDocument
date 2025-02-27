@@ -1705,6 +1705,9 @@
       "responsive_web_grok_dev_universal_search_id_enabled": {
         "value": "false"
       },
+      "responsive_web_grok_edit_user_images": {
+        "value": "true"
+      },
       "responsive_web_grok_enable_chat_style_ui": {
         "value": "true"
       },
@@ -1739,7 +1742,7 @@
         "value": "false"
       },
       "responsive_web_grok_fix_same_id_reload": {
-        "value": "false"
+        "value": "true"
       },
       "responsive_web_grok_focus_mode": {
         "value": "true"
@@ -1782,6 +1785,9 @@
       },
       "responsive_web_grok_multimedia_results": {
         "value": "false"
+      },
+      "responsive_web_grok_new_icon": {
+        "value": "true"
       },
       "responsive_web_grok_opt_out_enabled": {
         "value": "true"
@@ -5132,6 +5138,9 @@
         "responsive_web_grok_dev_universal_search_id_enabled": {
           "value": "false"
         },
+        "responsive_web_grok_edit_user_images": {
+          "value": "true"
+        },
         "responsive_web_grok_enable_chat_style_ui": {
           "value": "true"
         },
@@ -5166,7 +5175,7 @@
           "value": "false"
         },
         "responsive_web_grok_fix_same_id_reload": {
-          "value": "false"
+          "value": "true"
         },
         "responsive_web_grok_focus_mode": {
           "value": "true"
@@ -5209,6 +5218,9 @@
         },
         "responsive_web_grok_multimedia_results": {
           "value": "false"
+        },
+        "responsive_web_grok_new_icon": {
+          "value": "true"
         },
         "responsive_web_grok_opt_out_enabled": {
           "value": "true"
@@ -6962,7 +6974,7 @@
       "settingsVersion": "93fa7ec29a911a96090c2b99b653a791"
     },
     "debug": {},
-    "featureSetToken": "726613ac0091a609a3ce79e5d6e2819da32da34e",
+    "featureSetToken": "d35d12eb0cc8dda1928bcdc173a2137d984009e6",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -7033,7 +7045,7 @@
     "country": "XX",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "174060409618606220",
+    "guestId": "174069047147382581",
     "hasCommunityMemberships": "false",
     "language": "en",
     "ssoInitTokens": {},
