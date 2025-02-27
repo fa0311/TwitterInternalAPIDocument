@@ -5469,3 +5469,15 @@
 - rweb_analytics_video_overview_revenue_enabled<br>
 #### remove<br>
 - None<br>
+## 2025/02/27<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- responsive_web_grok_edit_user_images<br>
+- responsive_web_grok_new_icon<br>
+#### remove<br>
+- None<br>
