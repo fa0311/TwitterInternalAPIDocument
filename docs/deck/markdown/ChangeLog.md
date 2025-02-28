@@ -4445,3 +4445,15 @@
 - responsive_web_grok_new_icon<br>
 #### remove<br>
 - None<br>
+## 2025/02/28<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- subscriptions_upsells_verified_profile_sidebar_enabled<br>
+- subscriptions_upsells_verified_profile_sidebar_variant<br>
+#### remove<br>
+- None<br>
