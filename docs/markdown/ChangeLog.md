@@ -5493,3 +5493,17 @@
 - subscriptions_upsells_verified_profile_sidebar_variant<br>
 #### remove<br>
 - None<br>
+## 2025/03/01<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- responsive_web_grok_file_upload_max_files<br>
+- responsive_web_qp_skip_objective_enabled<br>
+- rweb_analytics_video_detail_enabled<br>
+- rweb_analytics_video_detail_revenue_enabled<br>
+#### remove<br>
+- None<br>
