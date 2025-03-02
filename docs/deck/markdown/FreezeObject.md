@@ -27,6 +27,8 @@ This document is entirely auto-generated and may contain errors.<br>
 | constant      | value         |
 |:--------------|:--------------|
 | Active        | Active        |
+| Canceled      | Canceled      |
+| Inactive      | Inactive      |
 | Invalid       | Invalid       |
 | LoginRequired | LoginRequired |
 | Pending       | Pending       |
@@ -39,6 +41,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | Banking    | Banking   |
 | Ecommerce  | Ecommerce |
 | Interest   | Interest  |
+| Issuing    | Issuing   |
 | Transfer   | Transfer  |
 
 | constant                    | value                       |
@@ -65,6 +68,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | constant    | value       |
 |:------------|:------------|
 | Deposit     | Deposit     |
+| Payment     | Payment     |
 | Refund      | Refund      |
 | Reverse     | Reverse     |
 | Transfer    | Transfer    |

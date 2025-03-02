@@ -21,6 +21,8 @@
   },
   {
     "Active": "Active",
+    "Canceled": "Canceled",
+    "Inactive": "Inactive",
     "Invalid": "Invalid",
     "LoginRequired": "LoginRequired",
     "Pending": "Pending",
@@ -32,6 +34,7 @@
     "Banking": "Banking",
     "Ecommerce": "Ecommerce",
     "Interest": "Interest",
+    "Issuing": "Issuing",
     "Transfer": "Transfer"
   },
   {
@@ -56,6 +59,7 @@
   },
   {
     "Deposit": "Deposit",
+    "Payment": "Payment",
     "Refund": "Refund",
     "Reverse": "Reverse",
     "Transfer": "Transfer",
