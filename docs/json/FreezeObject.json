@@ -198,7 +198,7 @@
     "ArrowRight": "void 0"
   },
   {
-    "...a": "_"
+    "...d": "_"
   },
   {
     "...i": "_"
@@ -622,7 +622,7 @@
       }
     }
   },
-  "{\"oneColumn\":\"d.primary\",\"twoColumn\":{\"small\":d.primary+d.gutter.left.small+d.secondary.small+d.gutter.right.normal,\"normal\":d.primary+d.gutter.left.normal+d.secondary.normal+d.gutter.right.normal,\"large\":d.primary+d.gutter.left.normal+d.secondary.normal+d.gutter.right.large}}",
+  "{\"oneColumn\":\"a.primary\",\"twoColumn\":{\"small\":a.primary+a.gutter.left.small+a.secondary.small+a.gutter.right.normal,\"normal\":a.primary+a.gutter.left.normal+a.secondary.normal+a.gutter.right.normal,\"large\":a.primary+a.gutter.left.normal+a.secondary.normal+a.gutter.right.large}}",
   "{\"oneColumn\":\"o.primary\",\"twoColumn\":{\"small\":o.primary+o.gutter.left.small+o.secondary.small+o.gutter.right.normal,\"normal\":o.primary+o.gutter.left.normal+o.secondary.normal+o.gutter.right.normal,\"large\":o.wide+o.gutter.left.normal+o.secondary.wide+o.gutter.right.large}}",
   {
     "normal": "300"
@@ -637,7 +637,7 @@
   },
   {
     "cardWidth": "s",
-    "columnWidths": "d",
+    "columnWidths": "a",
     "columnWidthsRedesign": "o",
     "sideNavWidths": "t",
     "sideNavWidthsRedesign": "r",
@@ -807,7 +807,7 @@
     "pro": "pro"
   },
   {
-    "...d.YE": "_",
+    "...a.YE": "_",
     "EMBEDDED_MEDIA": "embedded_media",
     "FOOTER_PROFILE": "footer_profile",
     "HASHTAG_CLICK": "hashtag_click",
@@ -1151,7 +1151,7 @@
     "NewTweets": "NewTweets"
   },
   {
-    "...d": "_",
+    "...a": "_",
     "...o": "_",
     "FacepileGroup": "FacepileGroup",
     "Community": "Community",
@@ -1424,12 +1424,12 @@
     "TOP": "top"
   },
   {
-    "down_cursor": "d.BOTTOM",
-    "max_id": "d.BOTTOM",
-    "max_position": "d.BOTTOM",
-    "min_position": "d.TOP",
-    "since_id": "d.TOP",
-    "up_cursor": "d.TOP"
+    "down_cursor": "a.BOTTOM",
+    "max_id": "a.BOTTOM",
+    "max_position": "a.BOTTOM",
+    "min_position": "a.TOP",
+    "since_id": "a.TOP",
+    "up_cursor": "a.TOP"
   },
   {
     "REQUEST": "rweb/typeaheadV2/FETCH_REQUEST",
@@ -1906,7 +1906,7 @@
       "fontSize": "subtext3"
     }
   },
-  "{\"isExternal()\"{\"try\"{const a=r();return this._customIsExternal?this._customIsExternal(e,n){\"hrefHostname\":\"a\",\"href\":\"e\"}}\"catch()\"{\"return!0\"}},\"setIsExternal()\"{\"this._customIsExternal=e\"},\"clearIsExternal()\"{\"this._customIsExternal=null\"},\"onLinkClick()\"{\"this._customOnLinkClick&&this._customOnLinkClick()\"{\"event\":\"e\",\"link\":\"n\",\"newWindowRequested\":\"a\"}},\"setOnLinkClick()\"{\"this._customOnLinkClick=e\"},\"linkProcessor()\"{\"return this._customLinkProcessor?this._customLinkProcessor()\":\"e\"},\"setLinkProcessor()\"{\"this._customLinkProcessor=e\"},\"hrefProcessor()\"{\"return this._customHrefProcessor?this._customHrefProcessor()\":\"e\"},\"setHrefProcessor()\"{\"this._customHrefProcessor=e\"},\"withAnchorless\":e=>\"string\"==typeof e?{\"anchorless\":\"!0\",\"pathname\":\"e\"}:{\"anchorless\":\"!0\",\"...e\":\"_\"},\"setLinkFromUrtUrl()\"{\"this._customLinkFromUrtUrl=e\"},\"getLinkFromUrtUrl()\"{\"return this._customLinkFromUrtUrl?this._customLinkFromUrtUrl()\":{\"external\":\"!0\",\"pathname\":\"e.url\"}}}",
+  "{\"isExternal()\"{\"try\"{const d=r();return this._customIsExternal?this._customIsExternal(e,n){\"hrefHostname\":\"d\",\"href\":\"e\"}}\"catch()\"{\"return!0\"}},\"setIsExternal()\"{\"this._customIsExternal=e\"},\"clearIsExternal()\"{\"this._customIsExternal=null\"},\"onLinkClick()\"{\"this._customOnLinkClick&&this._customOnLinkClick()\"{\"event\":\"e\",\"link\":\"n\",\"newWindowRequested\":\"d\"}},\"setOnLinkClick()\"{\"this._customOnLinkClick=e\"},\"linkProcessor()\"{\"return this._customLinkProcessor?this._customLinkProcessor()\":\"e\"},\"setLinkProcessor()\"{\"this._customLinkProcessor=e\"},\"hrefProcessor()\"{\"return this._customHrefProcessor?this._customHrefProcessor()\":\"e\"},\"setHrefProcessor()\"{\"this._customHrefProcessor=e\"},\"withAnchorless\":e=>\"string\"==typeof e?{\"anchorless\":\"!0\",\"pathname\":\"e\"}:{\"anchorless\":\"!0\",\"...e\":\"_\"},\"setLinkFromUrtUrl()\"{\"this._customLinkFromUrtUrl=e\"},\"getLinkFromUrtUrl()\"{\"return this._customLinkFromUrtUrl?this._customLinkFromUrtUrl()\":{\"external\":\"!0\",\"pathname\":\"e.url\"}}}",
   {
     "x": "x",
     "y": "y"
@@ -1928,7 +1928,7 @@
     "large": "large",
     "xLarge": "xLarge"
   },
-  "{[d.xSmall]:\".9\",[d.small]:\".95\",[d.normal]:\"1\",[d.large]:\"1.1\",[d.xLarge]:\"1.2\"}",
+  "{[a.xSmall]:\".9\",[a.small]:\".95\",[a.normal]:\"1\",[a.large]:\"1.1\",[a.xLarge]:\"1.2\"}",
   {
     "light": "light",
     "dark": "dark",
@@ -2126,21 +2126,21 @@
     "navigationBackground": "r.Cj",
     "navigationBackground95": "r.bs.white(.03)",
     "cellBackground": "r.Cj",
-    "borderColor": "d.default.color.baseColor.gray50",
-    "nestedBorderColor": "d.default.color.baseColor.gray200",
-    "dmReceivedBubbleBackground": "d.default.color.baseColor.gray50",
-    "badgeColor": "d.default.color.baseColor.blue500",
+    "borderColor": "a.default.color.baseColor.gray50",
+    "nestedBorderColor": "a.default.color.baseColor.gray200",
+    "dmReceivedBubbleBackground": "a.default.color.baseColor.gray50",
+    "badgeColor": "a.default.color.baseColor.blue500",
     "maskColor": "r.bs.black(.95)",
     "maskColorNative": "r.bs.black(.4)",
     "hoverLabelColor": "r.bs.black(.4)",
     "elevatedBackground": "r.Cj",
     "elevatedBackgroundShadow": "r.bs.black(.6)",
-    "brandColor": "d.default.color.baseColor.gray1100",
+    "brandColor": "a.default.color.baseColor.gray1100",
     "whiteOnColor": "r.Cj",
-    "buttonBlack": "d.default.color.baseColor.gray1100",
+    "buttonBlack": "a.default.color.baseColor.gray1100",
     "buttonWhite": "r.Cj",
-    "buttonOutlinedBorder": "d.default.color.baseColor.gray200",
-    "buttonDestructionOutlinedBorder": "d.default.color.baseColor.red100",
+    "buttonOutlinedBorder": "a.default.color.baseColor.gray200",
+    "buttonDestructionOutlinedBorder": "a.default.color.baseColor.red100",
     "appBarBackground": "r.bs.white(.1)",
     "appBarFirefoxBackground": "r.bs.white(.85)"
   },
@@ -2152,14 +2152,14 @@
     "gray300": "#697987",
     "gray200": "#697987",
     "gray100": "#E5EAEC",
-    "gray50": "d.default.color.baseColor.gray200",
-    "gray0": "d.default.color.baseColor.gray50",
+    "gray50": "a.default.color.baseColor.gray200",
+    "gray0": "a.default.color.baseColor.gray50",
     "navigationBackground95": "r.Cj",
-    "borderColor": "d.default.color.baseColor.gray300",
-    "nestedBorderColor": "d.default.color.baseColor.gray300",
-    "dmReceivedBubbleBackground": "d.default.color.baseColor.gray200",
+    "borderColor": "a.default.color.baseColor.gray300",
+    "nestedBorderColor": "a.default.color.baseColor.gray300",
+    "dmReceivedBubbleBackground": "a.default.color.baseColor.gray200",
     "badgeColor": "#264A9D",
-    "buttonOutlinedBorder": "d.default.color.baseColor.gray700"
+    "buttonOutlinedBorder": "a.default.color.baseColor.gray700"
   },
   {
     "...i()": "_",
@@ -2172,31 +2172,31 @@
     "borderColor": "#38444D",
     "nestedBorderColor": "#38444D",
     "dmReceivedBubbleBackground": "#3D5466",
-    "badgeColor": "d.default.color.baseColor.blue500",
+    "badgeColor": "a.default.color.baseColor.blue500",
     "maskColor": "r.bs.gray700(.95)",
     "maskColorNative": "r.bs.black(.4)",
     "hoverLabelColor": "r.bs.gray700(.4)",
     "elevatedBackground": "#1C2C3C",
     "elevatedBackgroundShadow": "r.bs.dim(.8)",
-    "brandColor": "d.default.color.baseColor.gray0",
+    "brandColor": "a.default.color.baseColor.gray0",
     "whiteOnColor": "r.Cj",
-    "buttonBlack": "d.default.color.baseColor.gray50",
-    "buttonWhite": "d.default.color.baseColor.gray1100",
-    "buttonOutlinedBorder": "d.default.color.baseColor.gray700",
+    "buttonBlack": "a.default.color.baseColor.gray50",
+    "buttonWhite": "a.default.color.baseColor.gray1100",
+    "buttonOutlinedBorder": "a.default.color.baseColor.gray700",
     "buttonDestructionOutlinedBorder": "#67070F",
     "appBarBackground": "r.bs.dim(.1)",
     "appBarFirefoxBackground": "r.bs.dim(.75)"
   },
   {
-    "...A": "_",
+    "...g": "_",
     "...i()": "_",
     "text": "r.Cj",
     "navigationBackground95": "#15202B",
     "unreadCellBackground": "#325D7D",
     "dmReceivedBubbleBackground": "#B8CBD9",
     "badgeColor": "#264A9D",
-    "whiteOnColor": "d.default.color.baseColor.gray1100",
-    "buttonOutlinedBorder": "d.default.color.baseColor.gray300"
+    "whiteOnColor": "a.default.color.baseColor.gray1100",
+    "buttonOutlinedBorder": "a.default.color.baseColor.gray300"
   },
   {
     "...i()": "_",
@@ -2210,17 +2210,17 @@
     "borderColor": "#2F3336",
     "nestedBorderColor": "#2F3336",
     "dmReceivedBubbleBackground": "#2F3336",
-    "badgeColor": "d.default.color.baseColor.blue500",
+    "badgeColor": "a.default.color.baseColor.blue500",
     "maskColor": "r.bs.gray700(.95)",
     "maskColorNative": "r.bs.black(.4)",
     "hoverLabelColor": "r.bs.gray700(.4)",
     "elevatedBackground": "#1B2023",
     "elevatedBackgroundShadow": "r.bs.black(.8)",
-    "brandColor": "d.default.color.darkColor.gray1100",
+    "brandColor": "a.default.color.darkColor.gray1100",
     "whiteOnColor": "r.Cj",
-    "buttonBlack": "d.default.color.baseColor.gray50",
-    "buttonWhite": "d.default.color.baseColor.gray1100",
-    "buttonOutlinedBorder": "d.default.color.baseColor.gray700",
+    "buttonBlack": "a.default.color.baseColor.gray50",
+    "buttonWhite": "a.default.color.baseColor.gray1100",
+    "buttonOutlinedBorder": "a.default.color.baseColor.gray700",
     "buttonDestructionOutlinedBorder": "#67070F",
     "appBarBackground": "r.bs.black(.1)",
     "appBarFirefoxBackground": "r.bs.black(.65)"
@@ -2237,8 +2237,8 @@
     "nestedBorderColor": "#3D4145",
     "dmReceivedBubbleBackground": "#929CA6",
     "badgeColor": "#264A9D",
-    "whiteOnColor": "d.default.color.baseColor.gray1100",
-    "buttonOutlinedBorder": "d.default.color.baseColor.gray300"
+    "whiteOnColor": "a.default.color.baseColor.gray1100",
+    "buttonOutlinedBorder": "a.default.color.baseColor.gray300"
   },
   {
     "...i()": "_",
@@ -2251,17 +2251,17 @@
     "borderColor": "#38444D",
     "nestedBorderColor": "#38444D",
     "dmReceivedBubbleBackground": "#3D5466",
-    "badgeColor": "d.default.color.baseColor.blue500",
+    "badgeColor": "a.default.color.baseColor.blue500",
     "maskColor": "r.bs.gray700(.95)",
     "maskColorNative": "r.bs.black(.4)",
     "hoverLabelColor": "r.bs.gray700(.4)",
     "elevatedBackground": "#1C2C3C",
     "elevatedBackgroundShadow": "r.bs.dim(.8)",
-    "brandColor": "d.default.color.baseColor.gray0",
+    "brandColor": "a.default.color.baseColor.gray0",
     "whiteOnColor": "r.Cj",
-    "buttonBlack": "d.default.color.baseColor.gray50",
-    "buttonWhite": "d.default.color.baseColor.gray1100",
-    "buttonOutlinedBorder": "d.default.color.baseColor.gray700",
+    "buttonBlack": "a.default.color.baseColor.gray50",
+    "buttonWhite": "a.default.color.baseColor.gray1100",
+    "buttonOutlinedBorder": "a.default.color.baseColor.gray700",
     "buttonDestructionOutlinedBorder": "#67070F",
     "appBarBackground": "r.bs.dim(.1)",
     "appBarFirefoxBackground": "r.bs.dim(.75)"
@@ -2307,14 +2307,14 @@
     "fontSizes": "D",
     "fontSizesPx": "w",
     "fontWeights": "b",
-    "lineHeights": "A",
-    "lineHeightsPx": "g",
+    "lineHeights": "g",
+    "lineHeightsPx": "A",
     "scales": "n",
-    "scaleMultiplier": "a",
+    "scaleMultiplier": "d",
     "spaces": "y",
     "spacesPx": "_"
   },
-  "{\"...p()\":{\"scale\":\"r\",\"scales\":\"i\"}\"tn0\",g.oba,n,\"o\"}",
+  "{\"...p()\":{\"scale\":\"r\",\"scales\":\"i\"}\"tn0\",A.obd,n,\"o\"}",
   {
     "BROADCAST": "broadcast",
     "DM": "dm",
@@ -3664,6 +3664,16 @@
     "SubscribableUser": "SubscribableUser"
   },
   {
+    "light": "default",
+    "dark": "dim",
+    "darker": "dark",
+    "business": "business"
+  },
+  {
+    "passive": "PASSIVE",
+    "interactive": "INTERACTIVE"
+  },
+  {
     "Carousel": "Carousel",
     "GridCarousel": "GridCarousel",
     "PagedCarousel": "PagedCarousel",
@@ -4826,14 +4836,14 @@
     "LGT14400s": "lgt14400s"
   },
   {
+    "passive": "PASSIVE",
+    "interactive": "INTERACTIVE"
+  },
+  {
     "light": "default",
     "dark": "dim",
     "darker": "dark",
     "business": "business"
-  },
-  {
-    "passive": "PASSIVE",
-    "interactive": "INTERACTIVE"
   },
   {
     "UNKNOWN": "0",
@@ -5839,18 +5849,6 @@
     "LaTeX": "LaTeX"
   },
   {
-    "INFINITE": "infinite",
-    "MEDIUM": "medium",
-    "NONE": "none"
-  },
-  {
-    "Crop": "crop",
-    "AltText": "alt_text",
-    "SensitiveMedia": "sensitive_media",
-    "Subtitles": "subtitles",
-    "Trimmer": "trimmer"
-  },
-  {
     "reset": {
       "_type": "reset",
       "type": "reset"
@@ -5861,9 +5859,21 @@
     }
   },
   {
+    "Crop": "crop",
+    "AltText": "alt_text",
+    "SensitiveMedia": "sensitive_media",
+    "Subtitles": "subtitles",
+    "Trimmer": "trimmer"
+  },
+  {
     "Composition": "composition",
     "DMComposition": "dm_composition",
     "NoteComposition": "note_composition"
+  },
+  {
+    "INFINITE": "infinite",
+    "MEDIUM": "medium",
+    "NONE": "none"
   },
   {
     "REQUEST": "rweb/availableLanguages/FETCH_AVAILABLE_LANGUAGES_REQUEST",
@@ -5871,7 +5881,7 @@
     "FAILURE": "rweb/availableLanguages/FETCH_AVAILABLE_LANGUAGES_FAILURE"
   },
   {
-    "MARKDOWN": "la",
+    "MARKDOWN": "sa",
     "PREVIEW": "ca"
   },
   {
@@ -5883,30 +5893,13 @@
     "PUBLISHED": "Published"
   },
   {
-    "reset": {
-      "_type": "reset",
-      "type": "reset"
-    },
-    "set": {
-      "_type": "set",
-      "type": "set"
-    }
-  },
-  {
     "Default": "Default",
     "Pivot": "Pivot",
     "Reorder": "Reorder"
   },
   {
-    "Crop": "crop",
-    "AltText": "alt_text",
-    "SensitiveMedia": "sensitive_media",
-    "Subtitles": "subtitles",
-    "Trimmer": "trimmer"
-  },
-  {
     "all": {
-      "icon": "gs",
+      "icon": "_s",
       "label": "C().i8ea6d4e"
     },
     "community": {
@@ -5914,23 +5907,23 @@
       "label": "C().a176d0d8"
     },
     "by_invitation": {
-      "icon": "_s",
+      "icon": "gs",
       "label": "C().gc7e52ca"
     },
     "subscribers": {
-      "icon": "gs",
+      "icon": "_s",
       "label": "C().feb7560a"
     },
     "community_members": {
-      "icon": "ys",
+      "icon": "bs",
       "label": "C().h257006e"
     },
     "super_followers_exclusive": {
-      "icon": "gs",
+      "icon": "_s",
       "label": "C().ebe1d850"
     },
     "trusted_friends_tweet": {
-      "icon": "bs",
+      "icon": "ys",
       "label": "m"
     },
     "verified": {
@@ -5954,11 +5947,6 @@
     "Thread": "thread"
   },
   {
-    "Composition": "composition",
-    "DMComposition": "dm_composition",
-    "NoteComposition": "note_composition"
-  },
-  {
     "REQUEST": "rweb/scheduledTweets/FETCH_SCHEDULED_TWEETS_REQUEST",
     "SUCCESS": "rweb/scheduledTweets/FETCH_SCHEDULED_TWEETS_SUCCESS",
     "FAILURE": "rweb/scheduledTweets/FETCH_SCHEDULED_TWEETS_FAILURE"
@@ -5972,6 +5960,13 @@
     "REQUEST": "rweb/availableLanguages/FETCH_AVAILABLE_LANGUAGES_REQUEST",
     "SUCCESS": "rweb/availableLanguages/FETCH_AVAILABLE_LANGUAGES_SUCCESS",
     "FAILURE": "rweb/availableLanguages/FETCH_AVAILABLE_LANGUAGES_FAILURE"
+  },
+  {
+    "Crop": "crop",
+    "AltText": "alt_text",
+    "SensitiveMedia": "sensitive_media",
+    "Subtitles": "subtitles",
+    "Trimmer": "trimmer"
   },
   {
     "REQUEST": "rweb/scheduledTweets/FETCH_SCHEDULED_TWEETS_REQUEST",
@@ -6645,11 +6640,6 @@
     "Web": "Web"
   },
   {
-    "Composition": "composition",
-    "DMComposition": "dm_composition",
-    "NoteComposition": "note_composition"
-  },
-  {
     "REQUEST": "rweb/directMessages/SEARCH_REQUEST",
     "SUCCESS": "rweb/directMessages/SEARCH_SUCCESS",
     "FAILURE": "rweb/directMessages/SEARCH_FAILURE"
@@ -6748,6 +6738,11 @@
     "SHARE_TWEET_INDIVIDUALLY": "2"
   },
   {
+    "Composition": "composition",
+    "DMComposition": "dm_composition",
+    "NoteComposition": "note_composition"
+  },
+  {
     "AppealTweetWarning": "appealtweet",
     "LimitedDiscoveryAppealTweet": "limiteddiscoveryappealtweet",
     "ProfileOnlyDiscoveryAppealTweet": "profileonlydiscoveryappealtweet",
@@ -6788,10 +6783,6 @@
     "dark": "dim",
     "darker": "dark",
     "business": "business"
-  },
-  {
-    "passive": "PASSIVE",
-    "interactive": "INTERACTIVE"
   },
   {
     "icon": "icon",
@@ -6863,26 +6854,6 @@
     }
   },
   {
-    "full_time": "r",
-    "full_time_contract": "i",
-    "part_time": "s",
-    "contract_to_hire": "o"
-  },
-  {
-    "1": "c",
-    "2": "d"
-  },
-  {
-    "annually": {
-      "label": "c",
-      "value": "1"
-    },
-    "hourly": {
-      "label": "d",
-      "value": "2"
-    }
-  },
-  {
     "DISABLED": "0",
     "ENABLED": "10",
     "SYNC_IN_PROGRESS": "20",
@@ -6904,42 +6875,62 @@
     "data_analytics": "b",
     "product": "u",
     "design": "d",
-    "marketing": "h",
-    "sales_am": "m",
-    "operations": "p",
-    "people_hr": "f",
+    "marketing": "f",
+    "sales_am": "h",
+    "operations": "m",
+    "people_hr": "p",
     "finance_accounting": "S",
-    "legal_compliance": "g",
-    "science_engineering": "_",
-    "medical": "v",
+    "legal_compliance": "_",
+    "science_engineering": "v",
+    "medical": "g",
     "construction_trades": "w",
-    "other": "k"
+    "other": "j"
   },
   {
-    "intern": "L",
-    "entry_level": "y",
-    "junior": "P",
-    "mid_level": "R",
-    "senior": "C",
-    "lead": "E",
-    "manager": "U",
-    "executive": "z"
+    "intern": "y",
+    "entry_level": "R",
+    "junior": "L",
+    "mid_level": "P",
+    "senior": "z",
+    "lead": "C",
+    "manager": "J",
+    "executive": "E"
   },
   {
     "onsite": {
       "label": "D",
-      "description": "W",
+      "description": "F",
       "value": "onsite"
     },
     "remote": {
-      "label": "N",
-      "description": "I",
+      "label": "$",
+      "description": "Q",
       "value": "remote"
     },
     "hybrid": {
-      "label": "J",
-      "description": "F",
+      "label": "N",
+      "description": "M",
       "value": "hybrid"
+    }
+  },
+  {
+    "full_time": "n",
+    "full_time_contract": "s",
+    "part_time": "i",
+    "contract_to_hire": "o"
+  },
+  {
+    "1": "b",
+    "2": "u"
+  },
+  {
+    "annually": {
+      "label": "b",
+      "value": "1"
+    },
+    "hourly": {
+      "label": "u",
+      "value": "2"
     }
   },
   {
@@ -7184,87 +7175,7 @@
     "component": "sync-ats-jobs"
   },
   {
-    "full_time": "r",
-    "full_time_contract": "i",
-    "part_time": "s",
-    "contract_to_hire": "o"
-  },
-  {
-    "1": "c",
-    "2": "d"
-  },
-  {
-    "annually": {
-      "label": "c",
-      "value": "1"
-    },
-    "hourly": {
-      "label": "d",
-      "value": "2"
-    }
-  },
-  {
     "Affiliate": "Affiliate"
-  },
-  {
-    "DISABLED": "0",
-    "ENABLED": "10",
-    "SYNC_IN_PROGRESS": "20",
-    "SYNC_FAILED": "30"
-  },
-  {
-    "freshteam": "Freshteam",
-    "greenhouse": "Greenhouse",
-    "lever": "Lever",
-    "recruitee": "Recruitee",
-    "sage-hr": "Sage HR",
-    "sap-successfactors": "SAP SuccessFactors",
-    "teamtailor": "Teamtailor",
-    "workable": "Workable",
-    "workday": "Workday"
-  },
-  {
-    "software_engineering": "c",
-    "data_analytics": "u",
-    "product": "d",
-    "design": "m",
-    "marketing": "g",
-    "sales_am": "p",
-    "operations": "y",
-    "people_hr": "f",
-    "finance_accounting": "b",
-    "legal_compliance": "_",
-    "science_engineering": "k",
-    "medical": "h",
-    "construction_trades": "v",
-    "other": "F"
-  },
-  {
-    "intern": "S",
-    "entry_level": "w",
-    "junior": "C",
-    "mid_level": "T",
-    "senior": "K",
-    "lead": "I",
-    "manager": "Z",
-    "executive": "L"
-  },
-  {
-    "onsite": {
-      "label": "z",
-      "description": "M",
-      "value": "onsite"
-    },
-    "remote": {
-      "label": "O",
-      "description": "j",
-      "value": "remote"
-    },
-    "hybrid": {
-      "label": "D",
-      "description": "N",
-      "value": "hybrid"
-    }
   },
   {
     "MEDIA": "MEDIA",
@@ -7504,6 +7415,26 @@
     "REQUEST": "rweb/promotedContent/LOG_REQUEST",
     "SUCCESS": "rweb/promotedContent/LOG_SUCCESS",
     "FAILURE": "rweb/promotedContent/LOG_FAILURE"
+  },
+  {
+    "full_time": "o",
+    "full_time_contract": "r",
+    "part_time": "i",
+    "contract_to_hire": "a"
+  },
+  {
+    "1": "d",
+    "2": "u"
+  },
+  {
+    "annually": {
+      "label": "d",
+      "value": "1"
+    },
+    "hourly": {
+      "label": "u",
+      "value": "2"
+    }
   },
   {
     "private": "private",
