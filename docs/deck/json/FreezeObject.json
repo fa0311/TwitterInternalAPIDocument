@@ -108,8 +108,7 @@
   {
     "reviewPane": "reviewPane",
     "amountPane": "amountPane",
-    "successPane": "successPane",
-    "pinInputPane": "pinInputPane"
+    "successPane": "successPane"
   },
   {
     "termsPane": "termsPane"
@@ -117,8 +116,7 @@
   {
     "reviewPane": "reviewPane",
     "amountPane": "amountPane",
-    "participantPane": "participantPane",
-    "pinInputPane": "pinInputPane"
+    "participantPane": "participantPane"
   },
   {
     "bank": "bank",
@@ -522,6 +520,10 @@
   {
     "Fixed": "fixed",
     "Variable": "variable"
+  },
+  {
+    "single_line": "singleline",
+    "format_inline": "format-inline"
   },
   {
     "Scheduled": "Scheduled",
