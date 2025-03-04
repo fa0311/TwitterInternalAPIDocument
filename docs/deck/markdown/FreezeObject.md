@@ -124,12 +124,11 @@ This document is entirely auto-generated and may contain errors.<br>
 |:-----------|:----------|
 | XPayments  | XPayments |
 
-| constant     | value        |
-|:-------------|:-------------|
-| reviewPane   | reviewPane   |
-| amountPane   | amountPane   |
-| successPane  | successPane  |
-| pinInputPane | pinInputPane |
+| constant    | value       |
+|:------------|:------------|
+| reviewPane  | reviewPane  |
+| amountPane  | amountPane  |
+| successPane | successPane |
 
 | constant   | value     |
 |:-----------|:----------|
@@ -140,7 +139,6 @@ This document is entirely auto-generated and may contain errors.<br>
 | reviewPane      | reviewPane      |
 | amountPane      | amountPane      |
 | participantPane | participantPane |
-| pinInputPane    | pinInputPane    |
 
 | constant   | value   |
 |:-----------|:--------|
@@ -636,6 +634,11 @@ This document is entirely auto-generated and may contain errors.<br>
 |:-----------|:---------|
 | Fixed      | fixed    |
 | Variable   | variable |
+
+| constant      | value         |
+|:--------------|:--------------|
+| single_line   | singleline    |
+| format_inline | format-inline |
 
 | constant   | value      |
 |:-----------|:-----------|
