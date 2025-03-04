@@ -187,7 +187,7 @@
             "value": "true"
           },
           "responsive_web_grok_image_annotation_enabled": {
-            "value": "true"
+            "value": "false"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -332,7 +332,7 @@
             "value": "true"
           },
           "responsive_web_grok_image_annotation_enabled": {
-            "value": "true"
+            "value": "false"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -477,7 +477,7 @@
             "value": "true"
           },
           "responsive_web_grok_image_annotation_enabled": {
-            "value": "true"
+            "value": "false"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -622,7 +622,7 @@
             "value": "true"
           },
           "responsive_web_grok_image_annotation_enabled": {
-            "value": "true"
+            "value": "false"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -764,7 +764,7 @@
             "value": "true"
           },
           "responsive_web_grok_image_annotation_enabled": {
-            "value": "true"
+            "value": "false"
           },
           "responsive_web_graphql_timeline_navigation_enabled": {
             "value": "true"
@@ -954,7 +954,7 @@
             "value": "true"
           },
           "responsive_web_grok_image_annotation_enabled": {
-            "value": "true"
+            "value": "false"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -1144,7 +1144,7 @@
             "value": "true"
           },
           "responsive_web_grok_image_annotation_enabled": {
-            "value": "true"
+            "value": "false"
           },
           "responsive_web_graphql_timeline_navigation_enabled": {
             "value": "true"
@@ -1298,7 +1298,7 @@
             "value": "true"
           },
           "responsive_web_grok_image_annotation_enabled": {
-            "value": "true"
+            "value": "false"
           },
           "responsive_web_graphql_timeline_navigation_enabled": {
             "value": "true"
@@ -1446,7 +1446,7 @@
             "value": "true"
           },
           "responsive_web_grok_image_annotation_enabled": {
-            "value": "true"
+            "value": "false"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -1734,7 +1734,7 @@
             "value": "true"
           },
           "responsive_web_grok_image_annotation_enabled": {
-            "value": "true"
+            "value": "false"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -1879,7 +1879,7 @@
             "value": "true"
           },
           "responsive_web_grok_image_annotation_enabled": {
-            "value": "true"
+            "value": "false"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -2037,7 +2037,7 @@
             "value": "true"
           },
           "responsive_web_grok_image_annotation_enabled": {
-            "value": "true"
+            "value": "false"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -2182,7 +2182,7 @@
             "value": "true"
           },
           "responsive_web_grok_image_annotation_enabled": {
-            "value": "true"
+            "value": "false"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -2327,7 +2327,7 @@
             "value": "true"
           },
           "responsive_web_grok_image_annotation_enabled": {
-            "value": "true"
+            "value": "false"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -2472,7 +2472,7 @@
             "value": "true"
           },
           "responsive_web_grok_image_annotation_enabled": {
-            "value": "true"
+            "value": "false"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -2617,7 +2617,7 @@
             "value": "true"
           },
           "responsive_web_grok_image_annotation_enabled": {
-            "value": "true"
+            "value": "false"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -2762,7 +2762,7 @@
             "value": "true"
           },
           "responsive_web_grok_image_annotation_enabled": {
-            "value": "true"
+            "value": "false"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -2907,7 +2907,7 @@
             "value": "true"
           },
           "responsive_web_grok_image_annotation_enabled": {
-            "value": "true"
+            "value": "false"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -3052,7 +3052,7 @@
             "value": "true"
           },
           "responsive_web_grok_image_annotation_enabled": {
-            "value": "true"
+            "value": "false"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -3197,7 +3197,7 @@
             "value": "true"
           },
           "responsive_web_grok_image_annotation_enabled": {
-            "value": "true"
+            "value": "false"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -3342,7 +3342,7 @@
             "value": "true"
           },
           "responsive_web_grok_image_annotation_enabled": {
-            "value": "true"
+            "value": "false"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -3487,7 +3487,7 @@
             "value": "true"
           },
           "responsive_web_grok_image_annotation_enabled": {
-            "value": "true"
+            "value": "false"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -3645,7 +3645,7 @@
             "value": "true"
           },
           "responsive_web_grok_image_annotation_enabled": {
-            "value": "true"
+            "value": "false"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -3790,7 +3790,7 @@
             "value": "true"
           },
           "responsive_web_grok_image_annotation_enabled": {
-            "value": "true"
+            "value": "false"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -4090,7 +4090,7 @@
             "value": "true"
           },
           "responsive_web_grok_image_annotation_enabled": {
-            "value": "true"
+            "value": "false"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -4248,7 +4248,7 @@
             "value": "true"
           },
           "responsive_web_grok_image_annotation_enabled": {
-            "value": "true"
+            "value": "false"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -4393,7 +4393,7 @@
             "value": "true"
           },
           "responsive_web_grok_image_annotation_enabled": {
-            "value": "true"
+            "value": "false"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -4577,7 +4577,7 @@
             "value": "true"
           },
           "responsive_web_grok_image_annotation_enabled": {
-            "value": "true"
+            "value": "false"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -4748,7 +4748,7 @@
             "value": "true"
           },
           "responsive_web_grok_image_annotation_enabled": {
-            "value": "true"
+            "value": "false"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -4919,7 +4919,7 @@
             "value": "true"
           },
           "responsive_web_grok_image_annotation_enabled": {
-            "value": "true"
+            "value": "false"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -5064,7 +5064,7 @@
             "value": "true"
           },
           "responsive_web_grok_image_annotation_enabled": {
-            "value": "true"
+            "value": "false"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -5209,7 +5209,7 @@
             "value": "true"
           },
           "responsive_web_grok_image_annotation_enabled": {
-            "value": "true"
+            "value": "false"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -5354,7 +5354,7 @@
             "value": "true"
           },
           "responsive_web_grok_image_annotation_enabled": {
-            "value": "true"
+            "value": "false"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -5499,7 +5499,7 @@
             "value": "true"
           },
           "responsive_web_grok_image_annotation_enabled": {
-            "value": "true"
+            "value": "false"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -5644,7 +5644,7 @@
             "value": "true"
           },
           "responsive_web_grok_image_annotation_enabled": {
-            "value": "true"
+            "value": "false"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -5789,7 +5789,7 @@
             "value": "true"
           },
           "responsive_web_grok_image_annotation_enabled": {
-            "value": "true"
+            "value": "false"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -5928,7 +5928,7 @@
             "value": "false"
           },
           "responsive_web_grok_image_annotation_enabled": {
-            "value": "true"
+            "value": "false"
           },
           "responsive_web_graphql_skip_user_profile_image_extensions_enabled": {
             "value": "false"
@@ -6073,7 +6073,7 @@
             "value": "false"
           },
           "responsive_web_grok_image_annotation_enabled": {
-            "value": "true"
+            "value": "false"
           },
           "responsive_web_graphql_skip_user_profile_image_extensions_enabled": {
             "value": "false"
@@ -6317,7 +6317,7 @@
             "value": "true"
           },
           "responsive_web_grok_image_annotation_enabled": {
-            "value": "true"
+            "value": "false"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -6462,7 +6462,7 @@
             "value": "true"
           },
           "responsive_web_grok_image_annotation_enabled": {
-            "value": "true"
+            "value": "false"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -6607,7 +6607,7 @@
             "value": "true"
           },
           "responsive_web_grok_image_annotation_enabled": {
-            "value": "true"
+            "value": "false"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -6895,7 +6895,7 @@
             "value": "true"
           },
           "responsive_web_grok_image_annotation_enabled": {
-            "value": "true"
+            "value": "false"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -7040,7 +7040,7 @@
             "value": "true"
           },
           "responsive_web_grok_image_annotation_enabled": {
-            "value": "true"
+            "value": "false"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -7185,7 +7185,7 @@
             "value": "true"
           },
           "responsive_web_grok_image_annotation_enabled": {
-            "value": "true"
+            "value": "false"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -7330,7 +7330,7 @@
             "value": "true"
           },
           "responsive_web_grok_image_annotation_enabled": {
-            "value": "true"
+            "value": "false"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -7488,7 +7488,7 @@
             "value": "true"
           },
           "responsive_web_grok_image_annotation_enabled": {
-            "value": "true"
+            "value": "false"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -7646,7 +7646,7 @@
             "value": "true"
           },
           "responsive_web_grok_image_annotation_enabled": {
-            "value": "true"
+            "value": "false"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -7791,7 +7791,7 @@
             "value": "true"
           },
           "responsive_web_grok_image_annotation_enabled": {
-            "value": "true"
+            "value": "false"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -7936,7 +7936,7 @@
             "value": "true"
           },
           "responsive_web_grok_image_annotation_enabled": {
-            "value": "true"
+            "value": "false"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -8189,7 +8189,7 @@
             "value": "true"
           },
           "responsive_web_grok_image_annotation_enabled": {
-            "value": "true"
+            "value": "false"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -8331,7 +8331,7 @@
             "value": "true"
           },
           "responsive_web_grok_image_annotation_enabled": {
-            "value": "true"
+            "value": "false"
           },
           "responsive_web_graphql_timeline_navigation_enabled": {
             "value": "true"
@@ -8484,7 +8484,7 @@
             "value": "true"
           },
           "responsive_web_grok_image_annotation_enabled": {
-            "value": "true"
+            "value": "false"
           },
           "responsive_web_graphql_timeline_navigation_enabled": {
             "value": "true"
@@ -8710,7 +8710,7 @@
             "value": "true"
           },
           "responsive_web_grok_image_annotation_enabled": {
-            "value": "true"
+            "value": "false"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -8855,7 +8855,7 @@
             "value": "true"
           },
           "responsive_web_grok_image_annotation_enabled": {
-            "value": "true"
+            "value": "false"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -9000,7 +9000,7 @@
             "value": "true"
           },
           "responsive_web_grok_image_annotation_enabled": {
-            "value": "true"
+            "value": "false"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -9186,7 +9186,7 @@
             "value": "true"
           },
           "responsive_web_grok_image_annotation_enabled": {
-            "value": "true"
+            "value": "false"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -9331,7 +9331,7 @@
             "value": "true"
           },
           "responsive_web_grok_image_annotation_enabled": {
-            "value": "true"
+            "value": "false"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -9558,7 +9558,7 @@
             "value": "true"
           },
           "responsive_web_grok_image_annotation_enabled": {
-            "value": "true"
+            "value": "false"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -9949,7 +9949,7 @@
             "value": "true"
           },
           "responsive_web_grok_image_annotation_enabled": {
-            "value": "true"
+            "value": "false"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -10176,7 +10176,7 @@
             "value": "true"
           },
           "responsive_web_grok_image_annotation_enabled": {
-            "value": "true"
+            "value": "false"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -10321,7 +10321,7 @@
             "value": "true"
           },
           "responsive_web_grok_image_annotation_enabled": {
-            "value": "true"
+            "value": "false"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -10501,7 +10501,7 @@
             "value": "false"
           },
           "responsive_web_grok_image_annotation_enabled": {
-            "value": "true"
+            "value": "false"
           },
           "responsive_web_graphql_skip_user_profile_image_extensions_enabled": {
             "value": "false"
@@ -10813,7 +10813,7 @@
             "value": "true"
           },
           "responsive_web_grok_image_annotation_enabled": {
-            "value": "true"
+            "value": "false"
           },
           "responsive_web_graphql_timeline_navigation_enabled": {
             "value": "true"
@@ -10961,7 +10961,7 @@
             "value": "true"
           },
           "responsive_web_grok_image_annotation_enabled": {
-            "value": "true"
+            "value": "false"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -11106,7 +11106,7 @@
             "value": "true"
           },
           "responsive_web_grok_image_annotation_enabled": {
-            "value": "true"
+            "value": "false"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -11251,7 +11251,7 @@
             "value": "true"
           },
           "responsive_web_grok_image_annotation_enabled": {
-            "value": "true"
+            "value": "false"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -11562,7 +11562,7 @@
             "value": "true"
           },
           "responsive_web_grok_image_annotation_enabled": {
-            "value": "true"
+            "value": "false"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -11720,7 +11720,7 @@
             "value": "true"
           },
           "responsive_web_grok_image_annotation_enabled": {
-            "value": "true"
+            "value": "false"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -12070,7 +12070,7 @@
             "value": "true"
           },
           "responsive_web_grok_image_annotation_enabled": {
-            "value": "true"
+            "value": "false"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -12228,7 +12228,7 @@
             "value": "true"
           },
           "responsive_web_grok_image_annotation_enabled": {
-            "value": "true"
+            "value": "false"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -12373,7 +12373,7 @@
             "value": "true"
           },
           "responsive_web_grok_image_annotation_enabled": {
-            "value": "true"
+            "value": "false"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -12518,7 +12518,7 @@
             "value": "true"
           },
           "responsive_web_grok_image_annotation_enabled": {
-            "value": "true"
+            "value": "false"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -12663,7 +12663,7 @@
             "value": "true"
           },
           "responsive_web_grok_image_annotation_enabled": {
-            "value": "true"
+            "value": "false"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -12821,7 +12821,7 @@
             "value": "true"
           },
           "responsive_web_grok_image_annotation_enabled": {
-            "value": "true"
+            "value": "false"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -12873,11 +12873,8 @@
     "func_name": "N",
     "func_name_init": "H",
     "query": {
-      "tweet_id": "a.tweet_id",
-      "is_media_note": "a.is_media_note",
-      "is_helpful_for_all_posts": "a.is_helpful_for_all_posts",
-      "data_v1": "a.data",
-      "...()(0,o.S)": "_"
+      "listId": "t.list_id",
+      "...()(0,i.S)": "_"
     }
   },
   {
@@ -13016,7 +13013,7 @@
             "value": "true"
           },
           "responsive_web_grok_image_annotation_enabled": {
-            "value": "true"
+            "value": "false"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -13243,7 +13240,7 @@
             "value": "true"
           },
           "responsive_web_grok_image_annotation_enabled": {
-            "value": "true"
+            "value": "false"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -13483,7 +13480,7 @@
             "value": "true"
           },
           "responsive_web_grok_image_annotation_enabled": {
-            "value": "true"
+            "value": "false"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -13628,7 +13625,7 @@
             "value": "true"
           },
           "responsive_web_grok_image_annotation_enabled": {
-            "value": "true"
+            "value": "false"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -13833,7 +13830,7 @@
             "value": "true"
           },
           "responsive_web_grok_image_annotation_enabled": {
-            "value": "true"
+            "value": "false"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -13978,7 +13975,7 @@
             "value": "true"
           },
           "responsive_web_grok_image_annotation_enabled": {
-            "value": "true"
+            "value": "false"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -14123,7 +14120,7 @@
             "value": "true"
           },
           "responsive_web_grok_image_annotation_enabled": {
-            "value": "true"
+            "value": "false"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -14268,7 +14265,7 @@
             "value": "true"
           },
           "responsive_web_grok_image_annotation_enabled": {
-            "value": "true"
+            "value": "false"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -14413,7 +14410,7 @@
             "value": "true"
           },
           "responsive_web_grok_image_annotation_enabled": {
-            "value": "true"
+            "value": "false"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -14571,7 +14568,7 @@
             "value": "true"
           },
           "responsive_web_grok_image_annotation_enabled": {
-            "value": "true"
+            "value": "false"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -14746,7 +14743,7 @@
             "value": "true"
           },
           "responsive_web_grok_image_annotation_enabled": {
-            "value": "true"
+            "value": "false"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -15002,7 +14999,7 @@
             "value": "false"
           },
           "responsive_web_grok_image_annotation_enabled": {
-            "value": "true"
+            "value": "false"
           },
           "responsive_web_graphql_skip_user_profile_image_extensions_enabled": {
             "value": "false"
@@ -15225,7 +15222,7 @@
             "value": "false"
           },
           "responsive_web_grok_image_annotation_enabled": {
-            "value": "true"
+            "value": "false"
           },
           "responsive_web_graphql_skip_user_profile_image_extensions_enabled": {
             "value": "false"
@@ -15597,7 +15594,7 @@
             "value": "true"
           },
           "responsive_web_grok_image_annotation_enabled": {
-            "value": "true"
+            "value": "false"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -15772,7 +15769,7 @@
             "value": "true"
           },
           "responsive_web_grok_image_annotation_enabled": {
-            "value": "true"
+            "value": "false"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -15883,7 +15880,7 @@
             "value": "false"
           },
           "responsive_web_grok_image_annotation_enabled": {
-            "value": "true"
+            "value": "false"
           },
           "responsive_web_graphql_skip_user_profile_image_extensions_enabled": {
             "value": "false"
@@ -16044,7 +16041,7 @@
             "value": "true"
           },
           "responsive_web_grok_image_annotation_enabled": {
-            "value": "true"
+            "value": "false"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -16222,7 +16219,7 @@
             "value": "false"
           },
           "responsive_web_grok_image_annotation_enabled": {
-            "value": "true"
+            "value": "false"
           },
           "responsive_web_graphql_skip_user_profile_image_extensions_enabled": {
             "value": "false"
@@ -16445,7 +16442,7 @@
             "value": "false"
           },
           "responsive_web_grok_image_annotation_enabled": {
-            "value": "true"
+            "value": "false"
           },
           "responsive_web_graphql_skip_user_profile_image_extensions_enabled": {
             "value": "false"
@@ -16635,7 +16632,7 @@
             "value": "true"
           },
           "responsive_web_grok_image_annotation_enabled": {
-            "value": "true"
+            "value": "false"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -16780,7 +16777,7 @@
             "value": "true"
           },
           "responsive_web_grok_image_annotation_enabled": {
-            "value": "true"
+            "value": "false"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -16945,7 +16942,7 @@
             "value": "false"
           },
           "responsive_web_grok_image_annotation_enabled": {
-            "value": "true"
+            "value": "false"
           },
           "responsive_web_graphql_skip_user_profile_image_extensions_enabled": {
             "value": "false"
@@ -17102,7 +17099,7 @@
             "value": "false"
           },
           "responsive_web_grok_image_annotation_enabled": {
-            "value": "true"
+            "value": "false"
           },
           "responsive_web_graphql_skip_user_profile_image_extensions_enabled": {
             "value": "false"
@@ -17521,7 +17518,7 @@
             "value": "true"
           },
           "responsive_web_grok_image_annotation_enabled": {
-            "value": "true"
+            "value": "false"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -17857,7 +17854,7 @@
             "value": "false"
           },
           "responsive_web_grok_image_annotation_enabled": {
-            "value": "true"
+            "value": "false"
           },
           "responsive_web_graphql_skip_user_profile_image_extensions_enabled": {
             "value": "false"
@@ -18092,7 +18089,7 @@
             "value": "true"
           },
           "responsive_web_grok_image_annotation_enabled": {
-            "value": "true"
+            "value": "false"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -18267,7 +18264,7 @@
             "value": "true"
           },
           "responsive_web_grok_image_annotation_enabled": {
-            "value": "true"
+            "value": "false"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -18484,7 +18481,7 @@
             "value": "false"
           },
           "responsive_web_grok_image_annotation_enabled": {
-            "value": "true"
+            "value": "false"
           },
           "responsive_web_graphql_timeline_navigation_enabled": {
             "value": "true"
@@ -18916,7 +18913,7 @@
             "value": "false"
           },
           "responsive_web_grok_image_annotation_enabled": {
-            "value": "true"
+            "value": "false"
           },
           "responsive_web_graphql_skip_user_profile_image_extensions_enabled": {
             "value": "false"
@@ -19077,7 +19074,7 @@
             "value": "true"
           },
           "responsive_web_grok_image_annotation_enabled": {
-            "value": "true"
+            "value": "false"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -19281,7 +19278,7 @@
             "value": "false"
           },
           "responsive_web_grok_image_annotation_enabled": {
-            "value": "true"
+            "value": "false"
           },
           "responsive_web_graphql_skip_user_profile_image_extensions_enabled": {
             "value": "false"
@@ -19504,7 +19501,7 @@
             "value": "false"
           },
           "responsive_web_grok_image_annotation_enabled": {
-            "value": "true"
+            "value": "false"
           },
           "responsive_web_graphql_skip_user_profile_image_extensions_enabled": {
             "value": "false"
@@ -19753,7 +19750,7 @@
             "value": "false"
           },
           "responsive_web_grok_image_annotation_enabled": {
-            "value": "true"
+            "value": "false"
           },
           "responsive_web_graphql_skip_user_profile_image_extensions_enabled": {
             "value": "false"
@@ -19976,7 +19973,7 @@
             "value": "false"
           },
           "responsive_web_grok_image_annotation_enabled": {
-            "value": "true"
+            "value": "false"
           },
           "responsive_web_graphql_skip_user_profile_image_extensions_enabled": {
             "value": "false"
@@ -20207,7 +20204,7 @@
             "value": "true"
           },
           "responsive_web_grok_image_annotation_enabled": {
-            "value": "true"
+            "value": "false"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -20352,7 +20349,7 @@
             "value": "true"
           },
           "responsive_web_grok_image_annotation_enabled": {
-            "value": "true"
+            "value": "false"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -20491,7 +20488,7 @@
             "value": "false"
           },
           "responsive_web_grok_image_annotation_enabled": {
-            "value": "true"
+            "value": "false"
           },
           "responsive_web_graphql_timeline_navigation_enabled": {
             "value": "true"
@@ -20675,7 +20672,7 @@
             "value": "false"
           },
           "responsive_web_grok_image_annotation_enabled": {
-            "value": "true"
+            "value": "false"
           },
           "responsive_web_graphql_skip_user_profile_image_extensions_enabled": {
             "value": "false"
@@ -20898,7 +20895,7 @@
             "value": "false"
           },
           "responsive_web_grok_image_annotation_enabled": {
-            "value": "true"
+            "value": "false"
           },
           "responsive_web_graphql_skip_user_profile_image_extensions_enabled": {
             "value": "false"
@@ -21121,7 +21118,7 @@
             "value": "false"
           },
           "responsive_web_grok_image_annotation_enabled": {
-            "value": "true"
+            "value": "false"
           },
           "responsive_web_graphql_skip_user_profile_image_extensions_enabled": {
             "value": "false"
@@ -21344,7 +21341,7 @@
             "value": "false"
           },
           "responsive_web_grok_image_annotation_enabled": {
-            "value": "true"
+            "value": "false"
           },
           "responsive_web_graphql_skip_user_profile_image_extensions_enabled": {
             "value": "false"
@@ -21534,7 +21531,7 @@
             "value": "true"
           },
           "responsive_web_grok_image_annotation_enabled": {
-            "value": "true"
+            "value": "false"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -21709,7 +21706,7 @@
             "value": "true"
           },
           "responsive_web_grok_image_annotation_enabled": {
-            "value": "true"
+            "value": "false"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -21919,7 +21916,7 @@
             "value": "true"
           },
           "responsive_web_grok_image_annotation_enabled": {
-            "value": "true"
+            "value": "false"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
@@ -22094,7 +22091,7 @@
             "value": "true"
           },
           "responsive_web_grok_image_annotation_enabled": {
-            "value": "true"
+            "value": "false"
           },
           "responsive_web_enhance_cards_enabled": {
             "value": "false"
