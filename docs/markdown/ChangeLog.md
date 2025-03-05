@@ -5507,3 +5507,15 @@
 - rweb_analytics_video_detail_revenue_enabled<br>
 #### remove<br>
 - None<br>
+## 2025/03/05<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- rweb_conf_multi_video_enabled<br>
+- rweb_video_screen_enabled<br>
+#### remove<br>
+- None<br>
