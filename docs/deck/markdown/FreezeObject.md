@@ -46,6 +46,8 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant                    | value                       |
 |:----------------------------|:----------------------------|
+| AuthorizationClosed         | AuthorizationClosed         |
+| AuthorizationOpen           | AuthorizationOpen           |
 | AwaitingRequestAcceptance   | AwaitingRequestAcceptance   |
 | Cancelled                   | Cancelled                   |
 | Expired                     | Expired                     |
@@ -62,6 +64,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | RequestRejected             | RequestRejected             |
 | RequestVerificationRequired | RequestVerificationRequired |
 | Settled                     | Settled                     |
+| SoftSettled                 | SoftSettled                 |
 | Unspecified                 | Unspecified                 |
 | VerificationRequired        | VerificationRequired        |
 
@@ -634,11 +637,6 @@ This document is entirely auto-generated and may contain errors.<br>
 |:-----------|:---------|
 | Fixed      | fixed    |
 | Variable   | variable |
-
-| constant      | value         |
-|:--------------|:--------------|
-| single_line   | singleline    |
-| format_inline | format-inline |
 
 | constant   | value      |
 |:-----------|:-----------|
