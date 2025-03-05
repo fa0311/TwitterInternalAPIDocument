@@ -784,6 +784,7 @@
     "accountRouting": "accountRouting",
     "personal": "personal"
   },
+  "{[Y.onboarding]:{\"path\":`${\"ee\"}/onboarding`,\"defaultClosePath\":\"/\",\"redirectOnCompletion\":\"!0\"},[Y.upgradeToKycVerified]:{\"path\":`${\"ee\"}/tier2`,\"defaultClosePath\":\"/\",\"redirectOnCompletion\":\"!0\"},[Y.upgradeToKycDocumentsVerified]:{\"path\":`${\"ee\"}/tier3`,\"defaultClosePath\":\"/\",\"redirectOnCompletion\":\"!0\"},[Y.updateName]:{\"path\":`${\"ee\"}/update`,\"defaultClosePath\":\"W.personal\",\"redirectOnCompletion\":\"!0\"},[Y.updateAddress]:{\"path\":`${\"ee\"}/update`,\"defaultClosePath\":\"W.personal\",\"redirectOnCompletion\":\"!0\"},[Y.updatePin]:{\"path\":`${\"ee\"}/update-pin`,\"defaultClosePath\":\"W.securityPrivacy\",\"redirectOnCompletion\":\"!1\"},[Y.forgotPin]:{\"path\":`${\"ee\"}/forgot-pin`,\"defaultClosePath\":\"W.securityPrivacy\",\"redirectOnCompletion\":\"!1\"},[Y.accountRouting]:{\"path\":`${\"ee\"}/account-routing`,\"defaultClosePath\":\"l\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"allowClipboardWrite\":\"!0\"},[Y.challenge]:{\"path\":`${\"ee\"}/challenge`,\"defaultClosePath\":\"/\",\"redirectOnCompletion\":\"!1\"},[Y.personal]:{\"path\":`${\"ee\"}/info`,\"defaultClosePath\":\"W.personal\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\"}}",
   {
     "tier2": "tier2",
     "tier3": "tier3"
@@ -2362,7 +2363,7 @@
     "peopleYouFollow": "peopleYouFollow",
     "everyone": "everyone"
   },
-  "{[Ea.onlyInvited]:\"0\",[Ea.peopleYouFollow]:\"1\",[Ea.everyone]:\"2\"}",
+  "{[fa.onlyInvited]:\"0\",[fa.peopleYouFollow]:\"1\",[fa.everyone]:\"2\"}",
   {
     "AUDIO": "visual_audio",
     "CONFERENCE": "conference_spaces",
@@ -4936,6 +4937,8 @@
     "Transfer": "Transfer"
   },
   {
+    "AuthorizationClosed": "AuthorizationClosed",
+    "AuthorizationOpen": "AuthorizationOpen",
     "AwaitingRequestAcceptance": "AwaitingRequestAcceptance",
     "Cancelled": "Cancelled",
     "Expired": "Expired",
@@ -4952,6 +4955,7 @@
     "RequestRejected": "RequestRejected",
     "RequestVerificationRequired": "RequestVerificationRequired",
     "Settled": "Settled",
+    "SoftSettled": "SoftSettled",
     "Unspecified": "Unspecified",
     "VerificationRequired": "VerificationRequired"
   },
@@ -5006,8 +5010,7 @@
   {
     "reviewPane": "reviewPane",
     "amountPane": "amountPane",
-    "successPane": "successPane",
-    "pinInputPane": "pinInputPane"
+    "successPane": "successPane"
   },
   {
     "termsPane": "termsPane"
@@ -5015,8 +5018,7 @@
   {
     "reviewPane": "reviewPane",
     "amountPane": "amountPane",
-    "participantPane": "participantPane",
-    "pinInputPane": "pinInputPane"
+    "participantPane": "participantPane"
   },
   {
     "bank": "bank",
