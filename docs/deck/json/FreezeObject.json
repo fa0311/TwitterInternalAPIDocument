@@ -38,6 +38,8 @@
     "Transfer": "Transfer"
   },
   {
+    "AuthorizationClosed": "AuthorizationClosed",
+    "AuthorizationOpen": "AuthorizationOpen",
     "AwaitingRequestAcceptance": "AwaitingRequestAcceptance",
     "Cancelled": "Cancelled",
     "Expired": "Expired",
@@ -54,6 +56,7 @@
     "RequestRejected": "RequestRejected",
     "RequestVerificationRequired": "RequestVerificationRequired",
     "Settled": "Settled",
+    "SoftSettled": "SoftSettled",
     "Unspecified": "Unspecified",
     "VerificationRequired": "VerificationRequired"
   },
@@ -520,10 +523,6 @@
   {
     "Fixed": "fixed",
     "Variable": "variable"
-  },
-  {
-    "single_line": "singleline",
-    "format_inline": "format-inline"
   },
   {
     "Scheduled": "Scheduled",
