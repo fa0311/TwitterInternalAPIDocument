@@ -793,6 +793,10 @@ This document is entirely auto-generated and may contain errors.<br>
 | accountRouting                | accountRouting                |
 | personal                      | personal                      |
 
+```internal process
+# Error
+{[Y.onboarding]:{"path":`${"ee"}/onboarding`,"defaultClosePath":"/","redirectOnCompletion":"!0"},[Y.upgradeToKycVerified]:{"path":`${"ee"}/tier2`,"defaultClosePath":"/","redirectOnCompletion":"!0"},[Y.upgradeToKycDocumentsVerified]:{"path":`${"ee"}/tier3`,"defaultClosePath":"/","redirectOnCompletion...
+```
 | constant   | value   |
 |:-----------|:--------|
 | tier2      | tier2   |
@@ -2357,7 +2361,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{[Ea.onlyInvited]:"0",[Ea.peopleYouFollow]:"1",[Ea.everyone]:"2"}
+{[fa.onlyInvited]:"0",[fa.peopleYouFollow]:"1",[fa.everyone]:"2"}
 ```
 | constant   | value             |
 |:-----------|:------------------|
@@ -5210,6 +5214,8 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant                    | value                       |
 |:----------------------------|:----------------------------|
+| AuthorizationClosed         | AuthorizationClosed         |
+| AuthorizationOpen           | AuthorizationOpen           |
 | AwaitingRequestAcceptance   | AwaitingRequestAcceptance   |
 | Cancelled                   | Cancelled                   |
 | Expired                     | Expired                     |
@@ -5226,6 +5232,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | RequestRejected             | RequestRejected             |
 | RequestVerificationRequired | RequestVerificationRequired |
 | Settled                     | Settled                     |
+| SoftSettled                 | SoftSettled                 |
 | Unspecified                 | Unspecified                 |
 | VerificationRequired        | VerificationRequired        |
 
@@ -5288,12 +5295,11 @@ This document is entirely auto-generated and may contain errors.<br>
 |:-----------|:----------|
 | XPayments  | XPayments |
 
-| constant     | value        |
-|:-------------|:-------------|
-| reviewPane   | reviewPane   |
-| amountPane   | amountPane   |
-| successPane  | successPane  |
-| pinInputPane | pinInputPane |
+| constant    | value       |
+|:------------|:------------|
+| reviewPane  | reviewPane  |
+| amountPane  | amountPane  |
+| successPane | successPane |
 
 | constant   | value     |
 |:-----------|:----------|
@@ -5304,7 +5310,6 @@ This document is entirely auto-generated and may contain errors.<br>
 | reviewPane      | reviewPane      |
 | amountPane      | amountPane      |
 | participantPane | participantPane |
-| pinInputPane    | pinInputPane    |
 
 | constant   | value   |
 |:-----------|:--------|
