@@ -2465,7 +2465,7 @@
         "value": "true"
       },
       "rweb_analytics_video_overview_revenue_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "rweb_analytics_video_xweb_enabled": {
         "value": "true"
@@ -2923,7 +2923,7 @@
         "value": "true"
       },
       "subscriptions_management_renew_module_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "subscriptions_marketing_page_discounts_enabled": {
         "value": "true"
@@ -5217,7 +5217,7 @@
           "value": "true"
         },
         "responsive_web_grok_image_annotation_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "responsive_web_grok_image_edit": {
           "value": "true"
@@ -5227,6 +5227,9 @@
         },
         "responsive_web_grok_img_composer": {
           "value": "true"
+        },
+        "responsive_web_grok_img_gen_followup_attachments": {
+          "value": "false"
         },
         "responsive_web_grok_imggen_count": {
           "value": "4"
@@ -5922,7 +5925,7 @@
           "value": "true"
         },
         "rweb_analytics_video_overview_revenue_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "rweb_analytics_video_xweb_enabled": {
           "value": "true"
@@ -6380,7 +6383,7 @@
           "value": "true"
         },
         "subscriptions_management_renew_module_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "subscriptions_marketing_page_discounts_enabled": {
           "value": "true"
@@ -7019,10 +7022,10 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "93fa7ec29a911a96090c2b99b653a791"
+      "settingsVersion": "386ef2da93dc26a7133f4a53200a6329"
     },
     "debug": {},
-    "featureSetToken": "dfedef4ec74dd9433beed58fce90d6382306c504",
+    "featureSetToken": "d1fc58f2d0f8042a2297892862eb6b87acc73abd",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -7093,7 +7096,7 @@
     "country": "XX",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "174120887240130829",
+    "guestId": "174129529122280601",
     "hasCommunityMemberships": "false",
     "language": "en",
     "ssoInitTokens": {},
