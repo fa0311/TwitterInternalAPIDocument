@@ -2363,7 +2363,7 @@
     "peopleYouFollow": "peopleYouFollow",
     "everyone": "everyone"
   },
-  "{[ya.onlyInvited]:\"0\",[ya.peopleYouFollow]:\"1\",[ya.everyone]:\"2\"}",
+  "{[fa.onlyInvited]:\"0\",[fa.peopleYouFollow]:\"1\",[fa.everyone]:\"2\"}",
   {
     "AUDIO": "visual_audio",
     "CONFERENCE": "conference_spaces",
@@ -5027,7 +5027,9 @@
   },
   {
     "initiate": "initiate-challenge",
-    "complete2fa": "2fa-complete-challenge"
+    "complete2fa": "2fa-complete-challenge",
+    "completeKyc": "kyc-complete-challenge",
+    "completeDocv": "docv-complete-challenge"
   },
   {
     "Checking": "Checking",
@@ -5060,26 +5062,6 @@
     "INFINITE": "infinite",
     "MEDIUM": "medium",
     "NONE": "none"
-  },
-  {
-    "full_time": "n",
-    "full_time_contract": "c",
-    "part_time": "i",
-    "contract_to_hire": "o"
-  },
-  {
-    "1": "p",
-    "2": "u"
-  },
-  {
-    "annually": {
-      "label": "p",
-      "value": "1"
-    },
-    "hourly": {
-      "label": "u",
-      "value": "2"
-    }
   },
   {
     "FILL": "Fill",
@@ -5150,6 +5132,26 @@
     "VIDEO_WEBSITE": "video_website",
     "MULTI_DEST_PRODUCT_CAROUSEL_WEBSITE": "multi_dest_product_carousel_website",
     "TWITTER_ARTICLE": "twitter_article"
+  },
+  {
+    "full_time": "n",
+    "full_time_contract": "o",
+    "part_time": "s",
+    "contract_to_hire": "l"
+  },
+  {
+    "1": "c",
+    "2": "u"
+  },
+  {
+    "annually": {
+      "label": "c",
+      "value": "1"
+    },
+    "hourly": {
+      "label": "u",
+      "value": "2"
+    }
   },
   {
     "Composition": "composition",
@@ -6007,7 +6009,73 @@
     "CITIES": "3",
     "POSTAL_CODES": "4"
   },
-  "{[Z.cU.CurrentCountryMatch]:\"0\",[Z.cU.Match]:\"1\",[Z.cU.NoMatch]:\"2\"}",
+  "{[S.cU.CurrentCountryMatch]:\"0\",[S.cU.Match]:\"1\",[S.cU.NoMatch]:\"2\"}",
+  {
+    "Intro": "intro",
+    "Objective": "objective",
+    "Targeting": "targeting",
+    "TargetingLocation": "targeting_location",
+    "TargetingGender": "targeting_gender",
+    "TargetingKeywords": "targeting_keywords",
+    "BudgetSelect": "budget_select",
+    "Review": "review",
+    "Payment": "payment",
+    "Done": "done",
+    "PaymentSelect": "payment_select"
+  },
+  {
+    "Webview": "quick_promote",
+    "Rweb": "quick_promote_web"
+  },
+  {
+    "Objective": ".2",
+    "Targeting": ".4",
+    "BudgetSelect": ".6",
+    "Review": ".8",
+    "Finish": "1"
+  },
+  {
+    "CurrentCountryMatch": "currentCountryMatch",
+    "Match": "match",
+    "NoMatch": "noMatch"
+  },
+  {
+    "AU": "()(0,P.ju)",
+    "BR": "(\"https://legal.x.com/ads-terms/apac.html\")(0,P.ju)",
+    "GB": "(\"https://legal.x.com/ads-terms/brazil.html\")(0,P.ju)",
+    "ID": "(\"https://legal.x.com/ads-terms/uk.html\")(0,P.ju)",
+    "JP": "(\"https://legal.x.com/ads-terms/indonesia.html\")(0,P.ju)",
+    "NZ": "(\"https://legal.x.com/ads-terms/japan.html\")(0,P.ju)",
+    "US": "(\"https://legal.x.com/ads-terms/apac.html\")(0,P.ju)"
+  },
+  {
+    "en": "()(0,P.ju)",
+    "de": "(\"https://business.x.com/en/campaign/quick-promote-conditional-coupon-terms.html\")(0,P.ju)",
+    "es": "(\"https://business.x.com/de/campaign/quick-promote-conditional-coupon-terms.html\")(0,P.ju)",
+    "fr": "(\"https://business.x.com/es/campaign/quick-promote-conditional-coupon-terms.html\")(0,P.ju)",
+    "ja": "(\"https://business.x.com/fr/campaign/quick-promote-conditional-coupon-terms.html\")(0,P.ju)",
+    "pt": "(\"https://business.x.com/ja/campaign/quick-promote-conditional-coupon-terms.html\")(0,P.ju)",
+    "ar": "(\"https://business.x.com/pt/campaign/quick-promote-conditional-coupon-terms.html\")(0,P.ju)",
+    "zh-cn": "(\"https://business.x.com/ar/campaign/quick-promote-conditional-coupon-terms.html\")(0,P.ju)"
+  },
+  {
+    "en": "()(0,P.ju)",
+    "de": "(\"https://business.x.com/en/campaign/quick-promote-coupon-terms.html\")(0,P.ju)",
+    "es": "(\"https://business.x.com/de/campaign/quick-promote-coupon-terms.html\")(0,P.ju)",
+    "fr": "(\"https://business.x.com/es/campaign/quick-promote-coupon-terms.html\")(0,P.ju)",
+    "ja": "(\"https://business.x.com/fr/campaign/quick-promote-coupon-terms.html\")(0,P.ju)",
+    "pt": "(\"https://business.x.com/ja/campaign/quick-promote-coupon-terms.html\")(0,P.ju)",
+    "ar": "(\"https://business.x.com/pt/campaign/quick-promote-coupon-terms.html\")(0,P.ju)",
+    "zh-cn": "(\"https://business.x.com/ar/campaign/quick-promote-coupon-terms.html\")(0,P.ju)"
+  },
+  {
+    "COUNTRIES": "0",
+    "REGIONS": "1",
+    "METROS": "2",
+    "CITIES": "3",
+    "POSTAL_CODES": "4"
+  },
+  "{[H.CurrentCountryMatch]:\"0\",[H.Match]:\"1\",[H.NoMatch]:\"2\"}",
   {
     "DELEGATE_ERR_002": "j",
     "DELEGATE_ERR_003": "q",
@@ -7241,11 +7309,11 @@
   {
     "onsite": {
       "label": "z",
-      "description": "O",
+      "description": "M",
       "value": "onsite"
     },
     "remote": {
-      "label": "M",
+      "label": "O",
       "description": "j",
       "value": "remote"
     },
@@ -7307,6 +7375,10 @@
     "FullAccess": "FullAccess",
     "FullAccessGov": "FullAccessGov",
     "Basic": "Basic"
+  },
+  {
+    "Premium": "Premium",
+    "VerifiedOrganization": "VerifiedOrganization"
   },
   {
     "Advertising": "Advertising",
@@ -8199,6 +8271,26 @@
     "Variable": "variable"
   },
   {
+    "full_time": "l",
+    "full_time_contract": "a",
+    "part_time": "i",
+    "contract_to_hire": "c"
+  },
+  {
+    "1": "d",
+    "2": "f"
+  },
+  {
+    "annually": {
+      "label": "d",
+      "value": "1"
+    },
+    "hourly": {
+      "label": "f",
+      "value": "2"
+    }
+  },
+  {
     "single_line": "singleline",
     "format_inline": "format-inline"
   },
@@ -8337,6 +8429,10 @@
     "Onboarded": "Onboarded",
     "UpfrontApplicationInProgress": "UpfrontApplicationInProgress",
     "UpfrontPromotionInProgress": "UpfrontPromotionInProgress"
+  },
+  {
+    "Premium": "Premium",
+    "VerifiedOrganization": "VerifiedOrganization"
   },
   {
     "HANDLE": "Handle",
