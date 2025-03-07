@@ -128,7 +128,9 @@
   },
   {
     "initiate": "initiate-challenge",
-    "complete2fa": "2fa-complete-challenge"
+    "complete2fa": "2fa-complete-challenge",
+    "completeKyc": "kyc-complete-challenge",
+    "completeDocv": "docv-complete-challenge"
   },
   {
     "Checking": "Checking",
@@ -523,10 +525,6 @@
   {
     "Fixed": "fixed",
     "Variable": "variable"
-  },
-  {
-    "single_line": "singleline",
-    "format_inline": "format-inline"
   },
   {
     "Scheduled": "Scheduled",
