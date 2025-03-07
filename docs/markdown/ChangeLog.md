@@ -5519,3 +5519,14 @@
 - rweb_video_screen_enabled<br>
 #### remove<br>
 - None<br>
+## 2025/03/06<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- responsive_web_grok_img_gen_followup_attachments<br>
+#### remove<br>
+- None<br>
