@@ -149,10 +149,12 @@ This document is entirely auto-generated and may contain errors.<br>
 | card       | card    |
 | x          | x       |
 
-| constant    | value                  |
-|:------------|:-----------------------|
-| initiate    | initiate-challenge     |
-| complete2fa | 2fa-complete-challenge |
+| constant     | value                   |
+|:-------------|:------------------------|
+| initiate     | initiate-challenge      |
+| complete2fa  | 2fa-complete-challenge  |
+| completeKyc  | kyc-complete-challenge  |
+| completeDocv | docv-complete-challenge |
 
 | constant   | value    |
 |:-----------|:---------|
@@ -637,11 +639,6 @@ This document is entirely auto-generated and may contain errors.<br>
 |:-----------|:---------|
 | Fixed      | fixed    |
 | Variable   | variable |
-
-| constant      | value         |
-|:--------------|:--------------|
-| single_line   | singleline    |
-| format_inline | format-inline |
 
 | constant   | value      |
 |:-----------|:-----------|

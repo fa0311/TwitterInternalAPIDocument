@@ -5530,3 +5530,17 @@
 - responsive_web_grok_img_gen_followup_attachments<br>
 #### remove<br>
 - None<br>
+## 2025/03/07<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- responsive_web_grok_enable_add_response_keepalive<br>
+- responsive_web_grok_enable_deepsearch_notifications<br>
+- responsive_web_qp_two_screens_enabled<br>
+- subscriptions_management_failed_payment_api_call_enabled<br>
+#### remove<br>
+- None<br>

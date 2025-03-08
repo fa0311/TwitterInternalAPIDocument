@@ -12873,11 +12873,8 @@
     "func_name": "N",
     "func_name_init": "O",
     "query": {
-      "tweet_id": "a.tweet_id",
-      "is_media_note": "a.is_media_note",
-      "is_helpful_for_all_posts": "a.is_helpful_for_all_posts",
-      "data_v1": "a.data",
-      "...()(0,o.S)": "_"
+      "listId": "t.list_id",
+      "...()(0,i.S)": "_"
     }
   },
   {
@@ -13636,7 +13633,7 @@
         }
       }
     },
-    "func_name": "j",
+    "func_name": "z",
     "func_name_init": "G",
     "query": {}
   },
