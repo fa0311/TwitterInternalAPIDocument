@@ -12873,8 +12873,11 @@
     "func_name": "N",
     "func_name_init": "O",
     "query": {
-      "listId": "t.list_id",
-      "...()(0,i.S)": "_"
+      "tweet_id": "a.tweet_id",
+      "is_media_note": "a.is_media_note",
+      "is_helpful_for_all_posts": "a.is_helpful_for_all_posts",
+      "data_v1": "a.data",
+      "...()(0,o.S)": "_"
     }
   },
   {
@@ -13649,10 +13652,10 @@
         "featureSwitch": {}
       }
     },
-    "func_name": "C",
+    "func_name": "S",
     "func_name_init": "T",
     "query": {
-      "conversationId": "t"
+      "keyword": "t"
     }
   },
   {
@@ -17630,7 +17633,7 @@
     }
   },
   {
-    "n": "48811",
+    "n": "32199",
     "exports": {
       "queryId": "rgzb2J1hLTWhfHWG15S0NQ",
       "operationName": "BirdwatchFetchOneNote",
