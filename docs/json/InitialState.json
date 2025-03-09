@@ -1715,7 +1715,7 @@
         "value": "true"
       },
       "responsive_web_grok_enable_deepsearch_notifications": {
-        "value": "false"
+        "value": "true"
       },
       "responsive_web_grok_enable_file_attachment_with_deepsearch": {
         "value": "true"
@@ -1778,7 +1778,7 @@
         "value": "true"
       },
       "responsive_web_grok_img_gen_followup_attachments": {
-        "value": "false"
+        "value": "true"
       },
       "responsive_web_grok_imggen_count": {
         "value": "4"
@@ -2139,6 +2139,9 @@
       },
       "responsive_web_profile_spotlight_v0_display": {
         "value": "true"
+      },
+      "responsive_web_qp_full_popup_enabled": {
+        "value": "false"
       },
       "responsive_web_qp_keyword_targeting_enabled": {
         "value": "false"
@@ -2929,7 +2932,7 @@
         "value": "true"
       },
       "subscriptions_management_failed_payment_api_call_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "subscriptions_management_fetch_next_billing_time": {
         "value": "true"
@@ -5612,6 +5615,9 @@
         "responsive_web_profile_spotlight_v0_display": {
           "value": "true"
         },
+        "responsive_web_qp_full_popup_enabled": {
+          "value": "false"
+        },
         "responsive_web_qp_keyword_targeting_enabled": {
           "value": "false"
         },
@@ -7049,10 +7055,10 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "8994e4f81f24a2735f4ee758cca10221"
+      "settingsVersion": "93fa7ec29a911a96090c2b99b653a791"
     },
     "debug": {},
-    "featureSetToken": "123012941155ef062a134451ef9ff642a267dc2f",
+    "featureSetToken": "b1485425bb3ea722f5df00fe44633232482697b3",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -7123,7 +7129,7 @@
     "country": "XX",
     "isActiveCreator": "false",
     "isRestrictedSession": "false",
-    "guestId": "174146769688730075",
+    "guestId": "174155409436385343",
     "hasCommunityMemberships": "false",
     "language": "en",
     "ssoInitTokens": {},
