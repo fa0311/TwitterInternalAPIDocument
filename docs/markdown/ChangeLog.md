@@ -5544,3 +5544,14 @@
 - subscriptions_management_failed_payment_api_call_enabled<br>
 #### remove<br>
 - None<br>
+## 2025/03/09<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- responsive_web_qp_full_popup_enabled<br>
+#### remove<br>
+- None<br>
