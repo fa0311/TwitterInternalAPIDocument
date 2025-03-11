@@ -149,12 +149,13 @@ This document is entirely auto-generated and may contain errors.<br>
 | card       | card    |
 | x          | x       |
 
-| constant     | value                   |
-|:-------------|:------------------------|
-| initiate     | initiate-challenge      |
-| complete2fa  | 2fa-complete-challenge  |
-| completeKyc  | kyc-complete-challenge  |
-| completeDocv | docv-complete-challenge |
+| constant       | value                     |
+|:---------------|:--------------------------|
+| initiate       | initiate-challenge        |
+| complete2fa    | 2fa-complete-challenge    |
+| completeKyc    | kyc-complete-challenge    |
+| completeDocv   | docv-complete-challenge   |
+| completeSelfie | selfie-complete-challenge |
 
 | constant   | value    |
 |:-----------|:---------|
@@ -178,7 +179,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{[f.g.Cancelled]:"Cancelled",[f.g.Failed]:"Failed",[f.g.Expired]:"Expired",[f.g.Pending]:"Pending",[f.g.PendingReview]:"Pending",[f.g.PendingRecipientAction]:"Pending",[f.g.PendingRecipientOnboarding]:"Pending",[f.g.AwaitingRequestAcceptance]:"Pending",[f.g.PendingRecipientAcceptance]:"Pending",[f.g...
+{[f.g.Cancelled]:"Cancelled",[f.g.Failed]:"Failed",[f.g.Expired]:"Expired",[f.g.Pending]:"Pending",[f.g.AuthorizationOpen]:"Pending",[f.g.PendingReview]:"Pending",[f.g.PendingRecipientAction]:"Pending",[f.g.PendingRecipientOnboarding]:"Pending",[f.g.AwaitingRequestAcceptance]:"Pending",[f.g.PendingR...
 ```
 ```internal process
 # Error
@@ -191,6 +192,10 @@ This document is entirely auto-generated and may contain errors.<br>
 ```internal process
 # Error
 {[y.AmericanExpress]:"American Express",[y.Mastercard]:"Mastercard",[y.Visa]:"Visa"}
+```
+```internal process
+# Error
+{[K.D.LoginRequired]:"Login required",[K.D.Invalid]:"Invalid",[K.D.Pending]:"Pending",[K.D.Revoked]:"Revoked",[K.D.Canceled]:"Canceled",[K.D.Inactive]:"Inactive"}
 ```
 ```internal process
 # Error
@@ -538,6 +543,23 @@ This document is entirely auto-generated and may contain errors.<br>
 |:--------------|:--------------|
 | single_line   | singleline    |
 | format_inline | format-inline |
+
+| constant           | value   |
+|:-------------------|:--------|
+| full_time          | r       |
+| full_time_contract | i       |
+| part_time          | s       |
+| contract_to_hire   | o       |
+
+|   constant | value   |
+|-----------:|:--------|
+|          1 | u       |
+|          2 | d       |
+
+| constant   | value                        |
+|:-----------|:-----------------------------|
+| annually   | {'label': 'u', 'value': '1'} |
+| hourly     | {'label': 'd', 'value': '2'} |
 
 | constant   | value   |
 |:-----------|:--------|
