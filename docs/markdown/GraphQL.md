@@ -1009,7 +1009,11 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-`None`<br>
+| key               | type   | variable   |
+|:------------------|:-------|:-----------|
+| grokMode          | ...    | t          |
+| grokModelOptionId | ...    | s          |
+
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
@@ -1446,7 +1450,10 @@ Request Method: `POST`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-`None`<br>
+| key   | type   | variable   |
+|:------|:-------|:-----------|
+| flag  | ...    | n          |
+
 #### features<br>
 `None`<br>
 #### queryId<br>
@@ -1468,7 +1475,10 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-`None`<br>
+| key     | type   | variable   |
+|:--------|:-------|:-----------|
+| keyword | ...    | t          |
+
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
@@ -1512,7 +1522,11 @@ Request Method: `POST`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-`None`<br>
+| key            | type   | variable   |
+|:---------------|:-------|:-----------|
+| content_state  | ...    | o          |
+| article_entity | ...    | i          |
+
 #### features<br>
 `None`<br>
 #### queryId<br>
@@ -1611,7 +1625,10 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-`None`<br>
+| key   | type   | variable   |
+|:------|:-------|:-----------|
+| ...t  | ...    | _          |
+
 #### features<br>
 `None`<br>
 #### queryId<br>
@@ -1864,7 +1881,10 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-`None`<br>
+| key             | type   | variable   |
+|:----------------|:-------|:-----------|
+| articleEntityId | ...    | i          |
+
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
@@ -2205,7 +2225,10 @@ Request Method: `POST`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-`None`<br>
+| key                | type   | variable                                 |
+|:-------------------|:-------|:-----------------------------------------|
+| pinnedTimelineItem | ...    | {'id': 'n', 'pinned_timeline_type': 't'} |
+
 #### features<br>
 | key                                                               | type    | variable   |
 |:------------------------------------------------------------------|:--------|:-----------|
@@ -2472,7 +2495,15 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-`None`<br>
+| key                    | type    | variable   |
+|:-----------------------|:--------|:-----------|
+| trendId                | ...     | r.trendId  |
+| includePromotedContent | boolean | False      |
+| withBirdwatchNotes     | boolean | False      |
+| withVoice              | boolean | False      |
+| withCommunity          | boolean | False      |
+| ...()(0,y.d)           | ...     | _          |
+
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
@@ -4576,13 +4607,10 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key                      | type   | variable                   |
-|:-------------------------|:-------|:---------------------------|
-| tweet_id                 | ...    | a.tweet_id                 |
-| is_media_note            | ...    | a.is_media_note            |
-| is_helpful_for_all_posts | ...    | a.is_helpful_for_all_posts |
-| data_v1                  | ...    | a.data                     |
-| ...()(0,o.S)             | ...    | _                          |
+| key          | type   | variable   |
+|:-------------|:-------|:-----------|
+| listId       | ...    | t.list_id  |
+| ...()(0,i.S) | ...    | _          |
 
 #### features<br>
 | key                                                               | type    | variable   |
@@ -4821,7 +4849,12 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-`None`<br>
+| key          | type   | variable   |
+|:-------------|:-------|:-----------|
+| count        | ...    | t          |
+| cursor       | ...    | r          |
+| ...()(0,i.d) | ...    | _          |
+
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
