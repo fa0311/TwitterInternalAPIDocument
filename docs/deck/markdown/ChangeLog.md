@@ -4530,3 +4530,15 @@
 - responsive_web_grok_enable_input_advanced_settings<br>
 #### remove<br>
 - None<br>
+## 2025/03/12<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- subscriptions_management_failed_payment_menu_alert_enabled<br>
+- subscriptions_management_failed_payment_profile_card_enabled<br>
+#### remove<br>
+- None<br>
