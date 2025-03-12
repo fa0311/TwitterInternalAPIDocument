@@ -130,7 +130,8 @@
     "initiate": "initiate-challenge",
     "complete2fa": "2fa-complete-challenge",
     "completeKyc": "kyc-complete-challenge",
-    "completeDocv": "docv-complete-challenge"
+    "completeDocv": "docv-complete-challenge",
+    "completeSelfie": "selfie-complete-challenge"
   },
   {
     "Checking": "Checking",
@@ -149,10 +150,11 @@
     "DeferredDebit": "DeferredDebit",
     "Prepaid": "Prepaid"
   },
-  "{[f.g.Cancelled]:\"Cancelled\",[f.g.Failed]:\"Failed\",[f.g.Expired]:\"Expired\",[f.g.Pending]:\"Pending\",[f.g.PendingReview]:\"Pending\",[f.g.PendingRecipientAction]:\"Pending\",[f.g.PendingRecipientOnboarding]:\"Pending\",[f.g.AwaitingRequestAcceptance]:\"Pending\",[f.g.PendingRecipientAcceptance]:\"Pending\",[f.g.PinVerificationRequired]:\"Pending\",[f.g.RequestVerificationRequired]:\"Pending\",[f.g.VerificationRequired]:\"Pending\",[f.g.RejectedByRecipient]:\"Rejected\",[f.g.RequestRejected]:\"Rejected\",[f.g.Settled]:\"Settled\"}",
+  "{[f.g.Cancelled]:\"Cancelled\",[f.g.Failed]:\"Failed\",[f.g.Expired]:\"Expired\",[f.g.Pending]:\"Pending\",[f.g.AuthorizationOpen]:\"Pending\",[f.g.PendingReview]:\"Pending\",[f.g.PendingRecipientAction]:\"Pending\",[f.g.PendingRecipientOnboarding]:\"Pending\",[f.g.AwaitingRequestAcceptance]:\"Pending\",[f.g.PendingRecipientAcceptance]:\"Pending\",[f.g.PinVerificationRequired]:\"Pending\",[f.g.RequestVerificationRequired]:\"Pending\",[f.g.VerificationRequired]:\"Pending\",[f.g.RejectedByRecipient]:\"Rejected\",[f.g.RequestRejected]:\"Rejected\",[f.g.Settled]:\"Settled\",[f.g.SoftSettled]:\"Settled\",[f.g.AuthorizationClosed]:\"Settled\"}",
   "{[m.Checking]:\"Checking\",[m.Savings]:\"Savings\"}",
   "{[p.Charge]:\"Charge\",[p.Combo]:\"Combo\",[p.Debit]:\"Debit\",[p.Credit]:\"Credit\",[p.DeferredDebit]:\"DeferredDebit\",[p.Prepaid]:\"Prepaid\"}",
   "{[y.AmericanExpress]:\"American Express\",[y.Mastercard]:\"Mastercard\",[y.Visa]:\"Visa\"}",
+  "{[K.D.LoginRequired]:\"Login required\",[K.D.Invalid]:\"Invalid\",[K.D.Pending]:\"Pending\",[K.D.Revoked]:\"Revoked\",[K.D.Canceled]:\"Canceled\",[K.D.Inactive]:\"Inactive\"}",
   "{[y.AmericanExpress]:\"https://abs.twimg.com/responsive-web/client-web/payment-method-amex.b2cd046a.svg\",[y.Mastercard]:\"https://abs.twimg.com/responsive-web/client-web/payment-method-mastercard.f126316a.svg\",[y.Visa]:\"https://abs.twimg.com/responsive-web/client-web/payment-method-visa.c768170a.svg\"}",
   {
     "navButtons": "navigationButtons",
@@ -443,6 +445,26 @@
   {
     "single_line": "singleline",
     "format_inline": "format-inline"
+  },
+  {
+    "full_time": "r",
+    "full_time_contract": "i",
+    "part_time": "s",
+    "contract_to_hire": "o"
+  },
+  {
+    "1": "u",
+    "2": "d"
+  },
+  {
+    "annually": {
+      "label": "u",
+      "value": "1"
+    },
+    "hourly": {
+      "label": "d",
+      "value": "2"
+    }
   },
   {
     "IOS": "ios",
