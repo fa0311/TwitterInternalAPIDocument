@@ -4542,3 +4542,14 @@
 - subscriptions_management_failed_payment_profile_card_enabled<br>
 #### remove<br>
 - None<br>
+## 2025/03/13<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- march_madness_brackets_enabled<br>
+#### remove<br>
+- responsive_web_vo_basic_application_v2<br>
