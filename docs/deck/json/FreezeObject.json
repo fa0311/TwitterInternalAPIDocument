@@ -534,10 +534,6 @@
     "Variable": "variable"
   },
   {
-    "single_line": "singleline",
-    "format_inline": "format-inline"
-  },
-  {
     "Scheduled": "Scheduled",
     "InProgress": "InProgress",
     "Completed": "Completed",
