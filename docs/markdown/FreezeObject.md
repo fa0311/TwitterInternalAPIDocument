@@ -2368,7 +2368,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{[ya.onlyInvited]:"0",[ya.peopleYouFollow]:"1",[ya.everyone]:"2"}
+{[fa.onlyInvited]:"0",[fa.peopleYouFollow]:"1",[fa.everyone]:"2"}
 ```
 | constant   | value             |
 |:-----------|:------------------|
@@ -3882,7 +3882,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant                | value                   |
 |:------------------------|:------------------------|
-| ...t                    | _                       |
+| ...r                    | _                       |
 | CondensedTweet          | CondensedTweet          |
 | DeprecatedMediaFocus    | DeprecatedMediaFocus    |
 | EmphasizedPromotedTweet | EmphasizedPromotedTweet |
@@ -5402,23 +5402,6 @@ This document is entirely auto-generated and may contain errors.<br>
 | MEDIUM     | medium   |
 | NONE       | none     |
 
-| constant           | value   |
-|:-------------------|:--------|
-| full_time          | n       |
-| full_time_contract | c       |
-| part_time          | i       |
-| contract_to_hire   | o       |
-
-|   constant | value   |
-|-----------:|:--------|
-|          1 | p       |
-|          2 | u       |
-
-| constant   | value                        |
-|:-----------|:-----------------------------|
-| annually   | {'label': 'p', 'value': '1'} |
-| hourly     | {'label': 'u', 'value': '2'} |
-
 | constant   | value   |
 |:-----------|:--------|
 | FILL       | Fill    |
@@ -5479,6 +5462,23 @@ This document is entirely auto-generated and may contain errors.<br>
 | VIDEO_WEBSITE                       | video_website                       |
 | MULTI_DEST_PRODUCT_CAROUSEL_WEBSITE | multi_dest_product_carousel_website |
 | TWITTER_ARTICLE                     | twitter_article                     |
+
+| constant           | value   |
+|:-------------------|:--------|
+| full_time          | n       |
+| full_time_contract | o       |
+| part_time          | s       |
+| contract_to_hire   | l       |
+
+|   constant | value   |
+|-----------:|:--------|
+|          1 | c       |
+|          2 | u       |
+
+| constant   | value                        |
+|:-----------|:-----------------------------|
+| annually   | {'label': 'c', 'value': '1'} |
+| hourly     | {'label': 'u', 'value': '2'} |
 
 | constant        | value            |
 |:----------------|:-----------------|
@@ -7942,8 +7942,8 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant   | value                                                 |
 |:-----------|:------------------------------------------------------|
-| onsite     | {'label': 'z', 'description': 'O', 'value': 'onsite'} |
-| remote     | {'label': 'M', 'description': 'j', 'value': 'remote'} |
+| onsite     | {'label': 'z', 'description': 'M', 'value': 'onsite'} |
+| remote     | {'label': 'O', 'description': 'j', 'value': 'remote'} |
 | hybrid     | {'label': 'D', 'description': 'N', 'value': 'hybrid'} |
 
 | constant   | value    |
@@ -8605,11 +8605,11 @@ This document is entirely auto-generated and may contain errors.<br>
 ```
 ```internal process
 # Error
-{"default":()=>s().b7363b66,"with_replies":()=>s().b7363b66,"superfollows":()=>s().ce659062,"highlights":()=>s().f1e98cc2,"articles":()=>s().d5c743c6}
+{"default":()=>a().b7363b66,"with_replies":()=>a().b7363b66,"superfollows":()=>a().ce659062,"highlights":()=>a().f1e98cc2,"articles":()=>a().d5c743c6}
 ```
 ```internal process
 # Error
-{"default":()=>s().d1e5e328,"with_replies":()=>s().d1e5e328,"superfollows":()=>s().hb26a1fe,"highlights":()=>s().b7c3572e,"articles":()=>s().i8123550}
+{"default":()=>a().d1e5e328,"with_replies":()=>a().d1e5e328,"superfollows":()=>a().hb26a1fe,"highlights":()=>a().b7c3572e,"articles":()=>a().i8123550}
 ```
 ```internal process
 # Error
@@ -8617,11 +8617,11 @@ This document is entirely auto-generated and may contain errors.<br>
 ```
 ```internal process
 # Error
-{"default":()=>s().f34dfc18,"with_replies":()=>s().f34dfc18,"superfollows":()=>s().h9346040,"articles":()=>s().i4c3ddc6}
+{"default":()=>a().f34dfc18,"with_replies":()=>a().f34dfc18,"superfollows":()=>a().h9346040,"articles":()=>a().i4c3ddc6}
 ```
 ```internal process
 # Error
-{"default":()=>s().e0118142,"articles":()=>s().ee9e42aa}
+{"default":()=>a().e0118142,"articles":()=>a().ee9e42aa}
 ```
 | constant   | value             |
 |:-----------|:------------------|
@@ -8956,6 +8956,23 @@ This document is entirely auto-generated and may contain errors.<br>
 |:-----------|:---------|
 | Fixed      | fixed    |
 | Variable   | variable |
+
+| constant           | value   |
+|:-------------------|:--------|
+| full_time          | l       |
+| full_time_contract | a       |
+| part_time          | i       |
+| contract_to_hire   | c       |
+
+|   constant | value   |
+|-----------:|:--------|
+|          1 | d       |
+|          2 | f       |
+
+| constant   | value                        |
+|:-----------|:-----------------------------|
+| annually   | {'label': 'd', 'value': '1'} |
+| hourly     | {'label': 'f', 'value': '2'} |
 
 | constant      | value         |
 |:--------------|:--------------|
