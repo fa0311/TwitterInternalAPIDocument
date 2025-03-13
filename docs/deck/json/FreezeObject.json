@@ -20,6 +20,11 @@
     "FAILURE": "rweb/subscriptionPayments/TIER_SWITCH_FAILURE"
   },
   {
+    "PaymentMethodFilterFunding": "PaymentMethodFilterFunding",
+    "PaymentMethodFilterSpending": "PaymentMethodFilterSpending",
+    "PaymentMethodFilterUnspecified": "PaymentMethodFilterUnspecified"
+  },
+  {
     "Active": "Active",
     "Canceled": "Canceled",
     "Inactive": "Inactive",
@@ -150,7 +155,7 @@
     "DeferredDebit": "DeferredDebit",
     "Prepaid": "Prepaid"
   },
-  "{[f.g.Cancelled]:\"Cancelled\",[f.g.Failed]:\"Failed\",[f.g.Expired]:\"Expired\",[f.g.Pending]:\"Pending\",[f.g.AuthorizationOpen]:\"Pending\",[f.g.PendingReview]:\"Pending\",[f.g.PendingRecipientAction]:\"Pending\",[f.g.PendingRecipientOnboarding]:\"Pending\",[f.g.AwaitingRequestAcceptance]:\"Pending\",[f.g.PendingRecipientAcceptance]:\"Pending\",[f.g.PinVerificationRequired]:\"Pending\",[f.g.RequestVerificationRequired]:\"Pending\",[f.g.VerificationRequired]:\"Pending\",[f.g.RejectedByRecipient]:\"Rejected\",[f.g.RequestRejected]:\"Rejected\",[f.g.Settled]:\"Settled\",[f.g.SoftSettled]:\"Settled\",[f.g.AuthorizationClosed]:\"Settled\"}",
+  "{[h.g.Cancelled]:\"Cancelled\",[h.g.Failed]:\"Failed\",[h.g.Expired]:\"Expired\",[h.g.Pending]:\"Pending\",[h.g.AuthorizationOpen]:\"Pending\",[h.g.PendingReview]:\"Pending\",[h.g.PendingRecipientAction]:\"Pending\",[h.g.PendingRecipientOnboarding]:\"Pending\",[h.g.AwaitingRequestAcceptance]:\"Pending\",[h.g.PendingRecipientAcceptance]:\"Pending\",[h.g.PinVerificationRequired]:\"Pending\",[h.g.RequestVerificationRequired]:\"Pending\",[h.g.VerificationRequired]:\"Pending\",[h.g.RejectedByRecipient]:\"Rejected\",[h.g.RequestRejected]:\"Rejected\",[h.g.Settled]:\"Settled\",[h.g.SoftSettled]:\"Settled\",[h.g.AuthorizationClosed]:\"Settled\"}",
   "{[m.Checking]:\"Checking\",[m.Savings]:\"Savings\"}",
   "{[p.Charge]:\"Charge\",[p.Combo]:\"Combo\",[p.Debit]:\"Debit\",[p.Credit]:\"Credit\",[p.DeferredDebit]:\"DeferredDebit\",[p.Prepaid]:\"Prepaid\"}",
   "{[y.AmericanExpress]:\"American Express\",[y.Mastercard]:\"Mastercard\",[y.Visa]:\"Visa\"}",
@@ -447,26 +452,6 @@
     "format_inline": "format-inline"
   },
   {
-    "full_time": "r",
-    "full_time_contract": "i",
-    "part_time": "s",
-    "contract_to_hire": "o"
-  },
-  {
-    "1": "u",
-    "2": "d"
-  },
-  {
-    "annually": {
-      "label": "u",
-      "value": "1"
-    },
-    "hourly": {
-      "label": "d",
-      "value": "2"
-    }
-  },
-  {
     "IOS": "ios",
     "ANDROID": "android"
   },
@@ -547,6 +532,10 @@
   {
     "Fixed": "fixed",
     "Variable": "variable"
+  },
+  {
+    "single_line": "singleline",
+    "format_inline": "format-inline"
   },
   {
     "Scheduled": "Scheduled",
