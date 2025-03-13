@@ -13182,6 +13182,12 @@
           }
         }
       }
+    },
+    "func_name": "N",
+    "func_name_init": "O",
+    "query": {
+      "listId": "t.list_id",
+      "...()(0,i.S)": "_"
     }
   },
   {
@@ -13955,6 +13961,13 @@
           }
         }
       }
+    },
+    "func_name": "z",
+    "func_name_init": "G",
+    "query": {
+      "count": "t",
+      "cursor": "r",
+      "...()(0,i.d)": "_"
     }
   },
   {
@@ -13968,6 +13981,11 @@
         "fieldToggles": [],
         "featureSwitch": {}
       }
+    },
+    "func_name": "S",
+    "func_name_init": "T",
+    "query": {
+      "keyword": "t"
     }
   },
   {
