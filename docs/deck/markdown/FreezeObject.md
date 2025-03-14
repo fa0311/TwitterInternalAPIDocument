@@ -651,11 +651,6 @@ This document is entirely auto-generated and may contain errors.<br>
 | Fixed      | fixed    |
 | Variable   | variable |
 
-| constant      | value         |
-|:--------------|:--------------|
-| single_line   | singleline    |
-| format_inline | format-inline |
-
 | constant   | value      |
 |:-----------|:-----------|
 | Scheduled  | Scheduled  |

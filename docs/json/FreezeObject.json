@@ -2369,7 +2369,7 @@
     "peopleYouFollow": "peopleYouFollow",
     "everyone": "everyone"
   },
-  "{[ya.onlyInvited]:\"0\",[ya.peopleYouFollow]:\"1\",[ya.everyone]:\"2\"}",
+  "{[fa.onlyInvited]:\"0\",[fa.peopleYouFollow]:\"1\",[fa.everyone]:\"2\"}",
   {
     "AUDIO": "visual_audio",
     "CONFERENCE": "conference_spaces",
@@ -3748,7 +3748,7 @@
     "FocalTweet": "FocalTweet"
   },
   {
-    "...t": "_",
+    "...r": "_",
     "CondensedTweet": "CondensedTweet",
     "DeprecatedMediaFocus": "DeprecatedMediaFocus",
     "EmphasizedPromotedTweet": "EmphasizedPromotedTweet",
@@ -5081,26 +5081,6 @@
     "NONE": "none"
   },
   {
-    "full_time": "n",
-    "full_time_contract": "c",
-    "part_time": "i",
-    "contract_to_hire": "o"
-  },
-  {
-    "1": "p",
-    "2": "u"
-  },
-  {
-    "annually": {
-      "label": "p",
-      "value": "1"
-    },
-    "hourly": {
-      "label": "u",
-      "value": "2"
-    }
-  },
-  {
     "FILL": "Fill",
     "FIXED": "Fixed"
   },
@@ -5169,6 +5149,26 @@
     "VIDEO_WEBSITE": "video_website",
     "MULTI_DEST_PRODUCT_CAROUSEL_WEBSITE": "multi_dest_product_carousel_website",
     "TWITTER_ARTICLE": "twitter_article"
+  },
+  {
+    "full_time": "n",
+    "full_time_contract": "o",
+    "part_time": "s",
+    "contract_to_hire": "l"
+  },
+  {
+    "1": "c",
+    "2": "u"
+  },
+  {
+    "annually": {
+      "label": "c",
+      "value": "1"
+    },
+    "hourly": {
+      "label": "u",
+      "value": "2"
+    }
   },
   {
     "Composition": "composition",
@@ -7326,11 +7326,11 @@
   {
     "onsite": {
       "label": "z",
-      "description": "O",
+      "description": "M",
       "value": "onsite"
     },
     "remote": {
-      "label": "M",
+      "label": "O",
       "description": "j",
       "value": "remote"
     },
@@ -7917,11 +7917,11 @@
     "articles": "article_tweets"
   },
   "{\"default\":\"()\"{\"screenName\":\"e\"}{\"screenName\":\"e\"}{\"screenName\":\"e\"}{\"screenName\":\"e\"}{\"screenName\":\"e\"}{\"screenName\":\"e\"}{\"screenName\":\"e\"}{\"screenName\":\"e\"}{\"screenName\":\"e\"}{\"screenName\":\"e\"}}",
-  "{\"default\":()=>s().b7363b66,\"with_replies\":()=>s().b7363b66,\"superfollows\":()=>s().ce659062,\"highlights\":()=>s().f1e98cc2,\"articles\":()=>s().d5c743c6}",
-  "{\"default\":()=>s().d1e5e328,\"with_replies\":()=>s().d1e5e328,\"superfollows\":()=>s().hb26a1fe,\"highlights\":()=>s().b7c3572e,\"articles\":()=>s().i8123550}",
+  "{\"default\":()=>a().b7363b66,\"with_replies\":()=>a().b7363b66,\"superfollows\":()=>a().ce659062,\"highlights\":()=>a().f1e98cc2,\"articles\":()=>a().d5c743c6}",
+  "{\"default\":()=>a().d1e5e328,\"with_replies\":()=>a().d1e5e328,\"superfollows\":()=>a().hb26a1fe,\"highlights\":()=>a().b7c3572e,\"articles\":()=>a().i8123550}",
   "{\"default\":\"()\"{\"screenName\":\"e\"}{\"screenName\":\"e\"}{\"screenName\":\"e\"}{\"screenName\":\"e\"}{\"screenName\":\"e\"}{\"screenName\":\"e\"}}",
-  "{\"default\":()=>s().f34dfc18,\"with_replies\":()=>s().f34dfc18,\"superfollows\":()=>s().h9346040,\"articles\":()=>s().i4c3ddc6}",
-  "{\"default\":()=>s().e0118142,\"articles\":()=>s().ee9e42aa}",
+  "{\"default\":()=>a().f34dfc18,\"with_replies\":()=>a().f34dfc18,\"superfollows\":()=>a().h9346040,\"articles\":()=>a().i4c3ddc6}",
+  "{\"default\":()=>a().e0118142,\"articles\":()=>a().ee9e42aa}",
   {
     "default": "/compose/post",
     "articles": "/compose/articles"
@@ -8204,6 +8204,26 @@
   {
     "Fixed": "fixed",
     "Variable": "variable"
+  },
+  {
+    "full_time": "l",
+    "full_time_contract": "a",
+    "part_time": "i",
+    "contract_to_hire": "c"
+  },
+  {
+    "1": "d",
+    "2": "f"
+  },
+  {
+    "annually": {
+      "label": "d",
+      "value": "1"
+    },
+    "hourly": {
+      "label": "f",
+      "value": "2"
+    }
   },
   {
     "single_line": "singleline",
