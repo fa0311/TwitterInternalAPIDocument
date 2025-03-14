@@ -452,6 +452,26 @@
     "format_inline": "format-inline"
   },
   {
+    "full_time": "r",
+    "full_time_contract": "i",
+    "part_time": "s",
+    "contract_to_hire": "o"
+  },
+  {
+    "1": "u",
+    "2": "d"
+  },
+  {
+    "annually": {
+      "label": "u",
+      "value": "1"
+    },
+    "hourly": {
+      "label": "d",
+      "value": "2"
+    }
+  },
+  {
     "IOS": "ios",
     "ANDROID": "android"
   },
