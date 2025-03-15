@@ -146,6 +146,16 @@ logging.info("to_api is completed")
 dispatch_output = split_dispatch(get_dispatch(parsed_list))
 logging.info("get_dispatch is completed")
 
+# === x-client-transaction-id ===
+
+ondemand = script_load_output["ondemand.s"]
+ondemand_response = twitter.session.get(ondemand, headers=twitter.get_header()).text
+INDICES_REGEX = re.compile(
+    r"""(\(\w{1}\[(\d{1,2})\],\s*16\))+""", flags=(re.VERBOSE | re.MULTILINE)
+)
+ondemand_index = INDICES_REGEX.findall(ondemand_response)
+transaction_output = {"index": [int(i[1]) for i in ondemand_index]}
+
 
 # feature_switches_output = get_feature_switches(parsed_list)
 # logging.info("get_feature_switches is completed")
@@ -191,6 +201,7 @@ items = {
     FileConf.SCRIPT_LOAD_JSON: json.dumps(script_load_output, **dumps_args),
     FileConf.API_JSON: json.dumps(api_output, **dumps_args),
     FileConf.CHANGE_LOG_MD: "",
+    FileConf.TRANSLATION_JSON: json.dumps(transaction_output, **dumps_args),
 }
 for k, o in i18n_output.items():
     items.update({f"json/{k}.json": json.dumps(o, **dumps_args)})

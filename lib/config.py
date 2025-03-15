@@ -14,3 +14,4 @@ class FileConf:
     META_DATA_JSON = "json/MetaData.json"
     SCRIPT_LOAD_JSON = "json/ScriptLoadJson.json"
     API_JSON = "json/API.json"
+    TRANSLATION_JSON = "json/Translation.json"
