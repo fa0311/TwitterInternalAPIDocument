@@ -4034,7 +4034,7 @@
       }
     },
     "func_name": "a",
-    "func_name_init": "r",
+    "func_name_init": "o",
     "query": {
       "flag": "n"
     }
@@ -4201,7 +4201,7 @@
       }
     },
     "func_name": "S",
-    "func_name_init": "f",
+    "func_name_init": "D",
     "query": {
       "keyword": "t"
     }
@@ -5363,10 +5363,10 @@
         }
       }
     },
-    "func_name": "w",
+    "func_name": "y",
     "func_name_init": "_",
     "query": {
-      "articleEntityId": "i"
+      "bookmark_collection_id": "n"
     }
   },
   {
