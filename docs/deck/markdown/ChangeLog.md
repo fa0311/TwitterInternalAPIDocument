@@ -4573,3 +4573,15 @@
 - subscriptions_upsells_settings_analytics_upsell_enabled<br>
 #### remove<br>
 - None<br>
+## 2025/03/15<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- rweb_analytics_xweb_content_page<br>
+- march_madness_brackets_enabled_login_banner<br>
+#### remove<br>
+- rweb_analytics_content_page_new_query_enabled<br>
