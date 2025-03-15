@@ -550,23 +550,6 @@ This document is entirely auto-generated and may contain errors.<br>
 | single_line   | singleline    |
 | format_inline | format-inline |
 
-| constant           | value   |
-|:-------------------|:--------|
-| full_time          | r       |
-| full_time_contract | i       |
-| part_time          | s       |
-| contract_to_hire   | o       |
-
-|   constant | value   |
-|-----------:|:--------|
-|          1 | u       |
-|          2 | d       |
-
-| constant   | value                        |
-|:-----------|:-----------------------------|
-| annually   | {'label': 'u', 'value': '1'} |
-| hourly     | {'label': 'd', 'value': '2'} |
-
 | constant   | value   |
 |:-----------|:--------|
 | IOS        | ios     |
@@ -667,6 +650,11 @@ This document is entirely auto-generated and may contain errors.<br>
 |:-----------|:---------|
 | Fixed      | fixed    |
 | Variable   | variable |
+
+| constant      | value         |
+|:--------------|:--------------|
+| single_line   | singleline    |
+| format_inline | format-inline |
 
 | constant   | value      |
 |:-----------|:-----------|
