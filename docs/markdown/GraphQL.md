@@ -1909,9 +1909,9 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key                    | type   | variable   |
-|:-----------------------|:-------|:-----------|
-| bookmark_collection_id | ...    | n          |
+| key             | type   | variable   |
+|:----------------|:-------|:-----------|
+| articleEntityId | ...    | i          |
 
 #### features<br>
 | key                                                                     | type    | variable   |
@@ -2532,14 +2532,12 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key                    | type    | variable   |
-|:-----------------------|:--------|:-----------|
-| trendId                | ...     | r.trendId  |
-| includePromotedContent | boolean | False      |
-| withBirdwatchNotes     | boolean | False      |
-| withVoice              | boolean | False      |
-| withCommunity          | boolean | False      |
-| ...()(0,y.d)           | ...     | _          |
+| key          | type   | variable   |
+|:-------------|:-------|:-----------|
+| listId       | ...    | d          |
+| count        | ...    | a          |
+| cursor       | ...    | o          |
+| ...()(0,i.d) | ...    | _          |
 
 #### features<br>
 | key                                                                     | type    | variable   |
@@ -4672,11 +4670,7 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key          | type   | variable   |
-|:-------------|:-------|:-----------|
-| listId       | ...    | t.list_id  |
-| ...()(0,i.S) | ...    | _          |
-
+`None`<br>
 #### features<br>
 | key                                                               | type    | variable   |
 |:------------------------------------------------------------------|:--------|:-----------|
@@ -4917,12 +4911,7 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key          | type   | variable   |
-|:-------------|:-------|:-----------|
-| count        | ...    | t          |
-| cursor       | ...    | r          |
-| ...()(0,i.d) | ...    | _          |
-
+`None`<br>
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
@@ -4967,10 +4956,7 @@ Request Method: `POST`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key     | type   | variable   |
-|:--------|:-------|:-----------|
-| keyword | ...    | t          |
-
+`None`<br>
 #### features<br>
 `None`<br>
 #### queryId<br>
