@@ -2260,7 +2260,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant                   | value                              |
 |:---------------------------|:-----------------------------------|
-| ...y                       | _                                  |
+| ...w                       | _                                  |
 | ...i()                     | _                                  |
 | text                       | d.Cj                               |
 | navigationBackground       | #050505                            |
@@ -2326,9 +2326,9 @@ This document is entirely auto-generated and may contain errors.<br>
 | appBarHeight          | v         |
 | appBarHeightPx        | S         |
 | conversationLineWidth | _.space2  |
-| gutterHorizontal      | y.space16 |
+| gutterHorizontal      | w.space16 |
 | gutterHorizontalPx    | _.space16 |
-| gutterVertical        | y.space12 |
+| gutterVertical        | w.space12 |
 | gutterVerticalPx      | _.space12 |
 
 | constant            | value   |
@@ -2343,13 +2343,13 @@ This document is entirely auto-generated and may contain errors.<br>
 | componentDimensions | M       |
 | componentZIndices   | d       |
 | fontSizes           | f       |
-| fontSizesPx         | w       |
+| fontSizesPx         | y       |
 | fontWeights         | b       |
 | lineHeights         | A       |
 | lineHeightsPx       | g       |
 | scales              | n       |
 | scaleMultiplier     | t       |
-| spaces              | y       |
+| spaces              | w       |
 | spacesPx            | _       |
 
 ```internal process
@@ -2412,7 +2412,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{[fa.onlyInvited]:"0",[fa.peopleYouFollow]:"1",[fa.everyone]:"2"}
+{[ya.onlyInvited]:"0",[ya.peopleYouFollow]:"1",[ya.everyone]:"2"}
 ```
 | constant   | value             |
 |:-----------|:------------------|
@@ -3927,7 +3927,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant                | value                   |
 |:------------------------|:------------------------|
-| ...r                    | _                       |
+| ...t                    | _                       |
 | CondensedTweet          | CondensedTweet          |
 | DeprecatedMediaFocus    | DeprecatedMediaFocus    |
 | EmphasizedPromotedTweet | EmphasizedPromotedTweet |
@@ -5413,6 +5413,23 @@ This document is entirely auto-generated and may contain errors.<br>
 | MEDIUM     | medium   |
 | NONE       | none     |
 
+| constant           | value   |
+|:-------------------|:--------|
+| full_time          | n       |
+| full_time_contract | c       |
+| part_time          | i       |
+| contract_to_hire   | o       |
+
+|   constant | value   |
+|-----------:|:--------|
+|          1 | p       |
+|          2 | u       |
+
+| constant   | value                        |
+|:-----------|:-----------------------------|
+| annually   | {'label': 'p', 'value': '1'} |
+| hourly     | {'label': 'u', 'value': '2'} |
+
 | constant   | value   |
 |:-----------|:--------|
 | FILL       | Fill    |
@@ -5473,23 +5490,6 @@ This document is entirely auto-generated and may contain errors.<br>
 | VIDEO_WEBSITE                       | video_website                       |
 | MULTI_DEST_PRODUCT_CAROUSEL_WEBSITE | multi_dest_product_carousel_website |
 | TWITTER_ARTICLE                     | twitter_article                     |
-
-| constant           | value   |
-|:-------------------|:--------|
-| full_time          | n       |
-| full_time_contract | o       |
-| part_time          | s       |
-| contract_to_hire   | l       |
-
-|   constant | value   |
-|-----------:|:--------|
-|          1 | c       |
-|          2 | u       |
-
-| constant   | value                        |
-|:-----------|:-----------------------------|
-| annually   | {'label': 'c', 'value': '1'} |
-| hourly     | {'label': 'u', 'value': '2'} |
 
 | constant        | value            |
 |:----------------|:-----------------|
@@ -7549,6 +7549,23 @@ This document is entirely auto-generated and may contain errors.<br>
 | MATCHES    | {'id': 'GAMES', 'label': 'g().e2811afc'}     |
 | STANDINGS  | {'id': 'STANDINGS', 'label': 'g().j081fa34'} |
 
+| constant           | value   |
+|:-------------------|:--------|
+| full_time          | r       |
+| full_time_contract | i       |
+| part_time          | s       |
+| contract_to_hire   | o       |
+
+|   constant | value   |
+|-----------:|:--------|
+|          1 | c       |
+|          2 | d       |
+
+| constant   | value                        |
+|:-----------|:-----------------------------|
+| annually   | {'label': 'c', 'value': '1'} |
+| hourly     | {'label': 'd', 'value': '2'} |
+
 | constant         |   value |
 |:-----------------|--------:|
 | DISABLED         |       0 |
@@ -7574,50 +7591,33 @@ This document is entirely auto-generated and may contain errors.<br>
 | data_analytics       | b       |
 | product              | u       |
 | design               | d       |
-| marketing            | f       |
-| sales_am             | h       |
-| operations           | m       |
-| people_hr            | p       |
+| marketing            | h       |
+| sales_am             | m       |
+| operations           | p       |
+| people_hr            | f       |
 | finance_accounting   | S       |
-| legal_compliance     | _       |
-| science_engineering  | v       |
-| medical              | g       |
+| legal_compliance     | g       |
+| science_engineering  | _       |
+| medical              | v       |
 | construction_trades  | w       |
-| other                | j       |
+| other                | k       |
 
 | constant    | value   |
 |:------------|:--------|
-| intern      | y       |
-| entry_level | R       |
-| junior      | L       |
-| mid_level   | P       |
-| senior      | z       |
-| lead        | C       |
-| manager     | J       |
-| executive   | E       |
+| intern      | L       |
+| entry_level | y       |
+| junior      | P       |
+| mid_level   | R       |
+| senior      | C       |
+| lead        | E       |
+| manager     | U       |
+| executive   | z       |
 
 | constant   | value                                                 |
 |:-----------|:------------------------------------------------------|
-| onsite     | {'label': 'D', 'description': 'F', 'value': 'onsite'} |
-| remote     | {'label': '$', 'description': 'Q', 'value': 'remote'} |
-| hybrid     | {'label': 'N', 'description': 'M', 'value': 'hybrid'} |
-
-| constant           | value   |
-|:-------------------|:--------|
-| full_time          | n       |
-| full_time_contract | s       |
-| part_time          | i       |
-| contract_to_hire   | o       |
-
-|   constant | value   |
-|-----------:|:--------|
-|          1 | b       |
-|          2 | u       |
-
-| constant   | value                        |
-|:-----------|:-----------------------------|
-| annually   | {'label': 'b', 'value': '1'} |
-| hourly     | {'label': 'u', 'value': '2'} |
+| onsite     | {'label': 'D', 'description': 'W', 'value': 'onsite'} |
+| remote     | {'label': 'N', 'description': 'I', 'value': 'remote'} |
+| hybrid     | {'label': 'J', 'description': 'F', 'value': 'hybrid'} |
 
 | constant        | value   |
 |:----------------|:--------|
@@ -7636,12 +7636,12 @@ This document is entirely auto-generated and may contain errors.<br>
 
 |   constant | value   |
 |-----------:|:--------|
-|          1 | u       |
+|          1 | c       |
 |          2 | d       |
 
 | constant   | value                        |
 |:-----------|:-----------------------------|
-| annually   | {'label': 'u', 'value': '1'} |
+| annually   | {'label': 'c', 'value': '1'} |
 | hourly     | {'label': 'd', 'value': '2'} |
 
 | constant     | value        |
@@ -7883,9 +7883,79 @@ This document is entirely auto-generated and may contain errors.<br>
 | ...ma      | _             |
 | component  | sync-ats-jobs |
 
+| constant           | value   |
+|:-------------------|:--------|
+| full_time          | r       |
+| full_time_contract | i       |
+| part_time          | s       |
+| contract_to_hire   | o       |
+
+|   constant | value   |
+|-----------:|:--------|
+|          1 | c       |
+|          2 | d       |
+
+| constant   | value                        |
+|:-----------|:-----------------------------|
+| annually   | {'label': 'c', 'value': '1'} |
+| hourly     | {'label': 'd', 'value': '2'} |
+
 | constant   | value     |
 |:-----------|:----------|
 | Affiliate  | Affiliate |
+
+| constant         |   value |
+|:-----------------|--------:|
+| DISABLED         |       0 |
+| ENABLED          |      10 |
+| SYNC_IN_PROGRESS |      20 |
+| SYNC_FAILED      |      30 |
+
+| constant           | value              |
+|:-------------------|:-------------------|
+| freshteam          | Freshteam          |
+| greenhouse         | Greenhouse         |
+| lever              | Lever              |
+| recruitee          | Recruitee          |
+| sage-hr            | Sage HR            |
+| sap-successfactors | SAP SuccessFactors |
+| teamtailor         | Teamtailor         |
+| workable           | Workable           |
+| workday            | Workday            |
+
+| constant             | value   |
+|:---------------------|:--------|
+| software_engineering | c       |
+| data_analytics       | u       |
+| product              | d       |
+| design               | m       |
+| marketing            | g       |
+| sales_am             | p       |
+| operations           | y       |
+| people_hr            | f       |
+| finance_accounting   | b       |
+| legal_compliance     | _       |
+| science_engineering  | k       |
+| medical              | h       |
+| construction_trades  | v       |
+| other                | F       |
+
+| constant    | value   |
+|:------------|:--------|
+| intern      | S       |
+| entry_level | w       |
+| junior      | C       |
+| mid_level   | T       |
+| senior      | K       |
+| lead        | I       |
+| manager     | A       |
+| executive   | Z       |
+
+| constant   | value                                                 |
+|:-----------|:------------------------------------------------------|
+| onsite     | {'label': 'z', 'description': 'M', 'value': 'onsite'} |
+| remote     | {'label': 'O', 'description': 'j', 'value': 'remote'} |
+| hybrid     | {'label': 'D', 'description': 'N', 'value': 'hybrid'} |
 
 | constant   | value    |
 |:-----------|:---------|
@@ -8166,23 +8236,6 @@ This document is entirely auto-generated and may contain errors.<br>
 | REQUEST    | rweb/promotedContent/LOG_REQUEST |
 | SUCCESS    | rweb/promotedContent/LOG_SUCCESS |
 | FAILURE    | rweb/promotedContent/LOG_FAILURE |
-
-| constant           | value   |
-|:-------------------|:--------|
-| full_time          | a       |
-| full_time_contract | s       |
-| part_time          | o       |
-| contract_to_hire   | i       |
-
-|   constant | value   |
-|-----------:|:--------|
-|          1 | d       |
-|          2 | u       |
-
-| constant   | value                        |
-|:-----------|:-----------------------------|
-| annually   | {'label': 'd', 'value': '1'} |
-| hourly     | {'label': 'u', 'value': '2'} |
 
 | constant   | value    |
 |:-----------|:---------|
@@ -8914,23 +8967,6 @@ This document is entirely auto-generated and may contain errors.<br>
 |:-----------|:---------|
 | Fixed      | fixed    |
 | Variable   | variable |
-
-| constant           | value   |
-|:-------------------|:--------|
-| full_time          | l       |
-| full_time_contract | a       |
-| part_time          | i       |
-| contract_to_hire   | c       |
-
-|   constant | value   |
-|-----------:|:--------|
-|          1 | d       |
-|          2 | f       |
-
-| constant   | value                        |
-|:-----------|:-----------------------------|
-| annually   | {'label': 'd', 'value': '1'} |
-| hourly     | {'label': 'f', 'value': '2'} |
 
 | constant      | value         |
 |:--------------|:--------------|

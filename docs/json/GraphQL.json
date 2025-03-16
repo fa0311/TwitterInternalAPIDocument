@@ -5363,10 +5363,10 @@
         }
       }
     },
-    "func_name": "y",
+    "func_name": "w",
     "func_name_init": "_",
     "query": {
-      "bookmark_collection_id": "n"
+      "articleEntityId": "i"
     }
   },
   {
@@ -7246,12 +7246,10 @@
     "func_name": "P",
     "func_name_init": "C",
     "query": {
-      "trendId": "r.trendId",
-      "includePromotedContent": "!1",
-      "withBirdwatchNotes": "!1",
-      "withVoice": "!1",
-      "withCommunity": "!1",
-      "...()(0,y.d)": "_"
+      "listId": "d",
+      "count": "a",
+      "cursor": "o",
+      "...()(0,i.d)": "_"
     }
   },
   {
@@ -13182,12 +13180,6 @@
           }
         }
       }
-    },
-    "func_name": "N",
-    "func_name_init": "O",
-    "query": {
-      "listId": "t.list_id",
-      "...()(0,i.S)": "_"
     }
   },
   {
@@ -13961,13 +13953,6 @@
           }
         }
       }
-    },
-    "func_name": "z",
-    "func_name_init": "G",
-    "query": {
-      "count": "t",
-      "cursor": "r",
-      "...()(0,i.d)": "_"
     }
   },
   {
@@ -13981,11 +13966,6 @@
         "fieldToggles": [],
         "featureSwitch": {}
       }
-    },
-    "func_name": "S",
-    "func_name_init": "T",
-    "query": {
-      "keyword": "t"
     }
   },
   {
