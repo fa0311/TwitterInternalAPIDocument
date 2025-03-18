@@ -1022,10 +1022,11 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key               | type   | variable   |
-|:------------------|:-------|:-----------|
-| grokMode          | ...    | t          |
-| grokModelOptionId | ...    | s          |
+| key         | type   | variable   |
+|:------------|:-------|:-----------|
+| group_id    | ...    | n          |
+| object_id   | ...    | r          |
+| action_type | ...    | t          |
 
 #### features<br>
 | key                                                                     | type    | variable   |
@@ -2532,13 +2533,9 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key                    | type    | variable   |
-|:-----------------------|:--------|:-----------|
-| userId                 | ...     | o          |
-| count                  | ...     | t          |
-| cursor                 | ...     | r          |
-| includePromotedContent | boolean | False      |
-| ...()(0,a.d)           | ...     | _          |
+| key      | type   | variable   |
+|:---------|:-------|:-----------|
+| tweet_id | ...    | t.tweet_id |
 
 #### features<br>
 | key                                                                     | type    | variable   |
