@@ -4585,3 +4585,14 @@
 - march_madness_brackets_enabled_login_banner<br>
 #### remove<br>
 - rweb_analytics_content_page_new_query_enabled<br>
+## 2025/03/17<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- march_madness_brackets_enabled_logout_popup<br>
+#### remove<br>
+- march_madness_brackets_enabled_login_banner<br>
