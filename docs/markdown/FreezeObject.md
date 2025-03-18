@@ -4403,7 +4403,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{"ActionsBar":"y.Z","ActionMenu":"function()"{"Icon":"e","isDisabled":"t","items":"n","onOpen":"o"}{"const i=r.useCallback()"{"items":"n","onCloseRequested":"e"}{"Icon":"e","isDisabled":"t","onClick":"o","renderActionMenu":"i"}},"CallToAction":"a.ZP","EditCallout":"E.Z","Education":"k.Z","Highlighte...
+{"ActionsBar":"y.Z","ActionMenu":"function()"{"Icon":"e","isDisabled":"t","items":"n","onOpen":"o"}{"const i=r.useCallback()"{"items":"n","onCloseRequested":"e"}{"Icon":"e","isDisabled":"t","onClick":"o","renderActionMenu":"i"}},"CallToAction":"a.ZP","EditCallout":"C.Z","Education":"k.Z","Highlighte...
 ```
 | constant          | value             |
 |:------------------|:------------------|
@@ -6070,8 +6070,8 @@ This document is entirely auto-generated and may contain errors.<br>
 | constant       | value                                          |
 |:---------------|:-----------------------------------------------|
 | closed         | {'shouldShow': '!1'}                           |
-| openSuccessful | {'shouldShow': '!0', 'badgeType': 'B.Ratings'} |
-| openHelpful    | {'shouldShow': '!0', 'badgeType': 'B.Notes'}   |
+| openSuccessful | {'shouldShow': '!0', 'badgeType': 'P.Ratings'} |
+| openHelpful    | {'shouldShow': '!0', 'badgeType': 'P.Notes'}   |
 
 | constant   | value                                               |
 |:-----------|:----------------------------------------------------|
