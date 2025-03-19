@@ -2413,7 +2413,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{[ya.onlyInvited]:"0",[ya.peopleYouFollow]:"1",[ya.everyone]:"2"}
+{[fa.onlyInvited]:"0",[fa.peopleYouFollow]:"1",[fa.everyone]:"2"}
 ```
 | constant   | value             |
 |:-----------|:------------------|
@@ -5403,6 +5403,164 @@ This document is entirely auto-generated and may contain errors.<br>
 # Error
 {[y.AmericanExpress]:"https://abs.twimg.com/responsive-web/client-web/payment-method-amex.b2cd046a.svg",[y.Mastercard]:"https://abs.twimg.com/responsive-web/client-web/payment-method-mastercard.f126316a.svg",[y.Visa]:"https://abs.twimg.com/responsive-web/client-web/payment-method-visa.c768170a.svg"}
 ```
+| constant     | value        |
+|:-------------|:-------------|
+| Unspecified  | Unspecified  |
+| UserInterest | UserInterest |
+| UserMain     | UserMain     |
+
+| constant                                                                  | value                                                                     |
+|:--------------------------------------------------------------------------|:--------------------------------------------------------------------------|
+| BankCardLinkingSessionRejectionReasonCardAlreadyExists                    | BankCardLinkingSessionRejectionReasonCardAlreadyExists                    |
+| BankCardLinkingSessionRejectionReasonInaccurateCardDetails                | BankCardLinkingSessionRejectionReasonInaccurateCardDetails                |
+| BankCardLinkingSessionRejectionReasonProviderFailedToAuthorizeCard        | BankCardLinkingSessionRejectionReasonProviderFailedToAuthorizeCard        |
+| BankCardLinkingSessionRejectionReasonProviderFailedToVerifyAddress        | BankCardLinkingSessionRejectionReasonProviderFailedToVerifyAddress        |
+| BankCardLinkingSessionRejectionReasonProviderFailedToVerifyCardholderName | BankCardLinkingSessionRejectionReasonProviderFailedToVerifyCardholderName |
+| BankCardLinkingSessionRejectionReasonProviderInternalFailure              | BankCardLinkingSessionRejectionReasonProviderInternalFailure              |
+| BankCardLinkingSessionRejectionReasonUnspecified                          | BankCardLinkingSessionRejectionReasonUnspecified                          |
+| BankCardLinkingSessionRejectionReasonUnsupportedCardType                  | BankCardLinkingSessionRejectionReasonUnsupportedCardType                  |
+| BankCardLinkingSessionRejectionReasonUnsupportedIssuerCountry             | BankCardLinkingSessionRejectionReasonUnsupportedIssuerCountry             |
+| BankCardLinkingSessionRejectionReasonUnusableCard                         | BankCardLinkingSessionRejectionReasonUnusableCard                         |
+
+| constant                                | value                                   |
+|:----------------------------------------|:----------------------------------------|
+| BankCardLinkingSessionStatusAuthorized  | BankCardLinkingSessionStatusAuthorized  |
+| BankCardLinkingSessionStatusPending     | BankCardLinkingSessionStatusPending     |
+| BankCardLinkingSessionStatusRejected    | BankCardLinkingSessionStatusRejected    |
+| BankCardLinkingSessionStatusUnspecified | BankCardLinkingSessionStatusUnspecified |
+
+| constant                               | value                                  |
+|:---------------------------------------|:---------------------------------------|
+| BankCardLinkingSessionThemeDark        | BankCardLinkingSessionThemeDark        |
+| BankCardLinkingSessionThemeDimmed      | BankCardLinkingSessionThemeDimmed      |
+| BankCardLinkingSessionThemeLight       | BankCardLinkingSessionThemeLight       |
+| BankCardLinkingSessionThemeUnspecified | BankCardLinkingSessionThemeUnspecified |
+
+```internal process
+# Error
+{[c.Rz.debit]:{"path":"withdraw","label":"Withdraw","confirmTitle":"()"{"formattedAmount":"e"}{"e"} withdrawal?`,"successTitle":"()"{"formattedAmount":"e"}{"e"} withdrawal successfully scheduled.`},[c.Rz.credit]:{"path":"deposit","label":"Deposit","confirmTitle":"()"{"formattedAmount":"e"}{"e"} depo...
+```
+```internal process
+# Error
+{[c.Rz.debit]:"u.d.CreateWithdrawal",[c.Rz.credit]:"u.d.CreateDeposit"}
+```
+| constant   | value   |
+|:-----------|:--------|
+| Adyen      | Adyen   |
+| Plaid      | Plaid   |
+| Stripe     | Stripe  |
+| Unknown    | Unknown |
+
+| constant                      | value                         |
+|:------------------------------|:------------------------------|
+| Age                           | Age                           |
+| Allowlist                     | Allowlist                     |
+| BirthDate                     | BirthDate                     |
+| Geography                     | Geography                     |
+| PhoneNumber                   | PhoneNumber                   |
+| PremiumOrVerifiedOrganization | PremiumOrVerifiedOrganization |
+| Safety                        | Safety                        |
+| Sanctions                     | Sanctions                     |
+| TwoFactorAuth                 | TwoFactorAuth                 |
+| Unknown                       | Unknown                       |
+
+| constant   | value     |
+|:-----------|:----------|
+| default    | default   |
+| invite     | invite    |
+| autoclaim  | autoclaim |
+
+```internal process
+# Error
+{[F.default]:{"redirectPath":()=>u.gp,"buttonText":"C","disclaimer":"I"},[F.autoclaim]:{"redirectPath":()=>u.gp,"buttonText":"C","disclaimer":"T"},[F.invite]:{"redirectPath":"()"{"inviteTransactionId":"e"}{"u.bR"}/${"e"}/claim`:"u.gp","buttonText":"C","disclaimer":"T"}}
+```
+```internal process
+# Error
+{[d.Rz.debit]:{"label":"Pay","title":"Pay","confirmTitle":"()"{"formattedAmount":"e"}{"e"}?`,"successMessage":"()"{"formattedAmount":"e"}{"e"} was sent!`,"disclaimer":"It may take up to 3 business days for the funds to be settled. Payment completion depends upon your available funds."},[d.Rz.credit]...
+```
+```internal process
+# Error
+{[d.Rz.debit]:"v.d.CreateTransfer",[d.Rz.credit]:"v.d.RequestTransfer"}
+```
+| constant                     | value                        |
+|:-----------------------------|:-----------------------------|
+| DocumentTypeMonthlyStatement | DocumentTypeMonthlyStatement |
+| DocumentTypeUnspecified      | DocumentTypeUnspecified      |
+
+| constant       | value          |
+|:---------------|:---------------|
+| BackupCode     | BackupCode     |
+| Passkey        | Passkey        |
+| Sms            | Sms            |
+| Totp           | Totp           |
+| U2fSecurityKey | U2fSecurityKey |
+
+| constant           | value              |
+|:-------------------|:-------------------|
+| ContactSupport     | ContactSupport     |
+| Deposit            | Deposit            |
+| GetPremium         | GetPremium         |
+| KycDocumentUpload  | KycDocumentUpload  |
+| KycVerification    | KycVerification    |
+| LearnMore          | LearnMore          |
+| SelfieVerification | SelfieVerification |
+
+| constant   | value   |
+|:-----------|:--------|
+| Alert      | Alert   |
+| Info       | Info    |
+| Warning    | Warning |
+
+| constant   | value    |
+|:-----------|:---------|
+| Interest   | Interest |
+| Premium    | Premium  |
+
+```internal process
+# Error
+{[S.Alert]:"danger",[S.Info]:"primary",[S.Warning]:"warning"}
+```
+```internal process
+# Error
+{[S.Alert]:"b.default",[S.Info]:"_.default",[S.Warning]:"b.default"}
+```
+```internal process
+# Error
+{"InsufficientFunds":{"message":"Your account balance is insufficient to make this transfer. Please fund your account and then try again.","action":{"link":"r.IN","label":"Deposit"}},"InvalidReceiver":{"message":"You cannot transfer to this account at this time. Please try again later."},"InvalidSen...
+```
+| constant                           | value                              |
+|:-----------------------------------|:-----------------------------------|
+| RequestTransferDecisionAccept      | RequestTransferDecisionAccept      |
+| RequestTransferDecisionReject      | RequestTransferDecisionReject      |
+| RequestTransferDecisionUnspecified | RequestTransferDecisionUnspecified |
+
+| constant                       | value                              |
+|:-------------------------------|:-----------------------------------|
+| changePhone                    | change-phone                       |
+| success                        | success                            |
+| failure                        | failure                            |
+| ineligible                     | ineligible                         |
+| pendingReview                  | pending-review                     |
+| redirect                       | redirect                           |
+| close                          | close                              |
+| ready                          | ready                              |
+| initPorts                      | initPorts                          |
+| invalidChallenge               | invalid-challenge                  |
+| docvChallenge                  | challenge-docv-required            |
+| kycChallenge                   | challenge-kyc-required             |
+| selfieChallenge                | challenge-selfie-required          |
+| twoFactorChallenge             | challenge-2fa-required             |
+| accountNumbercopiedToClipboard | account-number-copied-to-clipboard |
+| routingNumbercopiedToClipboard | routing-number-copied-to-clipboard |
+| edit                           | edit                               |
+| forgotPin                      | forgot-pin                         |
+
+| constant                         | value                            |
+|:---------------------------------|:---------------------------------|
+| ClaimTransferDecisionAccept      | ClaimTransferDecisionAccept      |
+| ClaimTransferDecisionReject      | ClaimTransferDecisionReject      |
+| ClaimTransferDecisionUnspecified | ClaimTransferDecisionUnspecified |
+
 | constant     | value             |
 |:-------------|:------------------|
 | navButtons   | navigationButtons |
@@ -5825,7 +5983,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{[$.v.FOLLOWS]:"Q",[$.v.FRIENDS_OF_FRIENDS]:"U"}
+{[$.v.FOLLOWS]:"H",[$.v.FRIENDS_OF_FRIENDS]:"U"}
 ```
 | constant   | value   |
 |:-----------|:--------|
