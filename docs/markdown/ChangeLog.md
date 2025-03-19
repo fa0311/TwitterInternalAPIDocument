@@ -5632,3 +5632,15 @@
 - march_madness_brackets_enabled_logout_popup<br>
 #### remove<br>
 - march_madness_brackets_enabled_login_banner<br>
+## 2025/03/18<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- responsive_web_grok_enable_deepersearch<br>
+- responsive_web_verified_organizations_idv_enabled<br>
+#### remove<br>
+- None<br>

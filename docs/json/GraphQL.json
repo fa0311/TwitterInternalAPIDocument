@@ -2832,8 +2832,9 @@
     "func_name": "A",
     "func_name_init": "g",
     "query": {
-      "grokMode": "t",
-      "grokModelOptionId": "s"
+      "group_id": "n",
+      "object_id": "r",
+      "action_type": "t"
     }
   },
   {
@@ -7246,11 +7247,7 @@
     "func_name": "P",
     "func_name_init": "C",
     "query": {
-      "userId": "o",
-      "count": "t",
-      "cursor": "r",
-      "includePromotedContent": "!1",
-      "...()(0,a.d)": "_"
+      "tweet_id": "t.tweet_id"
     }
   },
   {

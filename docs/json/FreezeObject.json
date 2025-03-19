@@ -4215,7 +4215,7 @@
     "single_line": "singleline",
     "format_inline": "format-inline"
   },
-  "{\"ActionsBar\":\"y.Z\",\"ActionMenu\":\"function()\"{\"Icon\":\"e\",\"isDisabled\":\"t\",\"items\":\"n\",\"onOpen\":\"o\"}{\"const i=r.useCallback()\"{\"items\":\"n\",\"onCloseRequested\":\"e\"}{\"Icon\":\"e\",\"isDisabled\":\"t\",\"onClick\":\"o\",\"renderActionMenu\":\"i\"}},\"CallToAction\":\"a.ZP\",\"EditCallout\":\"E.Z\",\"Education\":\"k.Z\",\"HighlightedUserLabel\":\"c.Z\",\"Media\":\"v.Z\",\"Place\":\"i.ZP\",\"PromotedDetails\":\"u.Z\",\"PromotedUserProfileCard\":\"P\",\"ReplyContext\":\"R.ZP\",\"RichContent\":\"Z.Z\",\"SocialContext\":\"_.Z\",\"Text\":\"L.Z\",\"Tombstone\":\"g.Z\",\"Timestamp\":\"p.Z\",\"UserAvatar\":\"D.Z\",\"UserFollowIndicator\":\"N.Z\",\"UserName\":\"F.Z\",\"ArticleCard\":\"C.Z\"}",
+  "{\"ActionsBar\":\"y.Z\",\"ActionMenu\":\"function()\"{\"Icon\":\"e\",\"isDisabled\":\"t\",\"items\":\"n\",\"onOpen\":\"o\"}{\"const i=r.useCallback()\"{\"items\":\"n\",\"onCloseRequested\":\"e\"}{\"Icon\":\"e\",\"isDisabled\":\"t\",\"onClick\":\"o\",\"renderActionMenu\":\"i\"}},\"CallToAction\":\"a.ZP\",\"EditCallout\":\"C.Z\",\"Education\":\"k.Z\",\"HighlightedUserLabel\":\"c.Z\",\"Media\":\"v.Z\",\"Place\":\"i.ZP\",\"PromotedDetails\":\"u.Z\",\"PromotedUserProfileCard\":\"P\",\"ReplyContext\":\"R.ZP\",\"RichContent\":\"Z.Z\",\"SocialContext\":\"g.Z\",\"Text\":\"L.Z\",\"Tombstone\":\"_.Z\",\"Timestamp\":\"p.Z\",\"UserAvatar\":\"D.Z\",\"UserFollowIndicator\":\"N.Z\",\"UserName\":\"M.Z\",\"ArticleCard\":\"E.Z\"}",
   {
     "VerificationCheck": "VerificationCheck"
   },
@@ -5671,11 +5671,11 @@
     },
     "openSuccessful": {
       "shouldShow": "!0",
-      "badgeType": "B.Ratings"
+      "badgeType": "P.Ratings"
     },
     "openHelpful": {
       "shouldShow": "!0",
-      "badgeType": "B.Notes"
+      "badgeType": "P.Notes"
     }
   },
   {
