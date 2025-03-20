@@ -918,34 +918,7 @@
     ]
   },
   {
-    "queryId": "onboarding/bounce",
-    "dispatch_key": "post",
-    "dispatch": [
-      "post",
-      "",
-      "https://api.x.com/1.1/{queryId}.json"
-    ]
-  },
-  {
-    "queryId": "report/flow",
-    "dispatch_key": "post",
-    "dispatch": [
-      "post",
-      "",
-      "https://api.x.com/1.1/{queryId}.json"
-    ]
-  },
-  {
-    "queryId": "account/password_strength",
-    "dispatch_key": "post",
-    "dispatch": [
-      "post",
-      "",
-      "https://api.x.com/1.1/{queryId}.json"
-    ]
-  },
-  {
-    "queryId": "users/phone_number_available",
+    "queryId": "account/user_twitter_data",
     "dispatch_key": "get",
     "dispatch": [
       "get",
@@ -954,12 +927,12 @@
     ]
   },
   {
-    "queryId": "users/email_available",
-    "dispatch_key": "getI",
+    "queryId": "account/user_twitter_data",
+    "dispatch_key": "put",
     "dispatch": [
-      "get",
-      "I",
-      "https://x.com/i/api/1.1/{queryId}.json"
+      "put",
+      "",
+      "https://api.x.com/1.1/{queryId}.json"
     ]
   },
   {
