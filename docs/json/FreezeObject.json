@@ -2412,7 +2412,7 @@
     "peopleYouFollow": "peopleYouFollow",
     "everyone": "everyone"
   },
-  "{[ya.onlyInvited]:\"0\",[ya.peopleYouFollow]:\"1\",[ya.everyone]:\"2\"}",
+  "{[fa.onlyInvited]:\"0\",[fa.peopleYouFollow]:\"1\",[fa.everyone]:\"2\"}",
   {
     "AUDIO": "visual_audio",
     "CONFERENCE": "conference_spaces",
@@ -5020,7 +5020,7 @@
     "ReversedByAgent": "ReversedByAgent",
     "Unspecified": "Unspecified"
   },
-  "{[s.RejectedByManualReview]:{\"sender\":\"u\",\"receiver\":\"u\",\"Component\":\"i.Z.Attention\"},[s.RejectedByAutoReview]:{\"sender\":\"u\",\"receiver\":\"u\",\"Component\":\"i.Z.Attention\"},[s.InReview]:{\"sender\":\"r\",\"receiver\":\"r\",\"Component\":\"i.Z.Attention\"},[t.g.PendingRecipientAcceptance]:{\"sender\":\"c\",\"Component\":\"i.Z.Primary\"},[t.g.PendingRecipientOnboarding]:{\"sender\":\"c\",\"Component\":\"i.Z.Primary\"},[t.g.PendingRecipientAction]:{\"sender\":\"c\",\"Component\":\"i.Z.Primary\"},[t.g.RejectedByRecipient]:{\"sender\":\"This transaction has been rejected by the recipient.\",\"Component\":\"i.Z.Attention\"},[t.g.RequestRejected]:{\"receiver\":\"This request has been rejected by the recipient.\",\"Component\":\"i.Z.Attention\"},[t.g.AwaitingRequestAcceptance]:{\"receiver\":\"This request is pending until its approved by the recipient.\",\"Component\":\"i.Z.Primary\"}}",
+  "{[s.RejectedByManualReview]:{\"sender\":\"u\",\"receiver\":\"u\",\"Component\":\"i.Z.Attention\"},[s.RejectedByAutoReview]:{\"sender\":\"u\",\"receiver\":\"u\",\"Component\":\"i.Z.Attention\"},[s.InReview]:{\"sender\":\"r\",\"receiver\":\"r\",\"Component\":\"i.Z.Attention\"},[t.g.PendingRecipientAcceptance]:{\"sender\":\"c\",\"Component\":\"i.Z.Primary\"},[t.g.PendingRecipientOnboarding]:{\"sender\":\"c\",\"Component\":\"i.Z.Primary\"},[t.g.PendingRecipientAction]:{\"sender\":\"c\",\"Component\":\"i.Z.Primary\"},[t.g.RejectedByRecipient]:{\"sender\":\"This transaction has been rejected by the recipient.\",\"Component\":\"i.Z.Attention\"},[t.g.RequestRejected]:{\"receiver\":\"This request has been rejected by the recipient.\",\"Component\":\"i.Z.Attention\"},[t.g.AwaitingRequestAcceptance]:{\"receiver\":\"This request is pending until it's approved by the recipient.\",\"Component\":\"i.Z.Primary\"}}",
   {
     "Interest": "Interest",
     "Premium": "Premium"
@@ -5084,6 +5084,125 @@
   "{[y.AmericanExpress]:\"American Express\",[y.Mastercard]:\"Mastercard\",[y.Visa]:\"Visa\"}",
   "{[K.D.LoginRequired]:\"Login required\",[K.D.Invalid]:\"Invalid\",[K.D.Pending]:\"Pending\",[K.D.Revoked]:\"Revoked\",[K.D.Canceled]:\"Canceled\",[K.D.Inactive]:\"Inactive\"}",
   "{[y.AmericanExpress]:\"https://abs.twimg.com/responsive-web/client-web/payment-method-amex.b2cd046a.svg\",[y.Mastercard]:\"https://abs.twimg.com/responsive-web/client-web/payment-method-mastercard.f126316a.svg\",[y.Visa]:\"https://abs.twimg.com/responsive-web/client-web/payment-method-visa.c768170a.svg\"}",
+  {
+    "Unspecified": "Unspecified",
+    "UserInterest": "UserInterest",
+    "UserMain": "UserMain"
+  },
+  {
+    "BankCardLinkingSessionRejectionReasonCardAlreadyExists": "BankCardLinkingSessionRejectionReasonCardAlreadyExists",
+    "BankCardLinkingSessionRejectionReasonInaccurateCardDetails": "BankCardLinkingSessionRejectionReasonInaccurateCardDetails",
+    "BankCardLinkingSessionRejectionReasonProviderFailedToAuthorizeCard": "BankCardLinkingSessionRejectionReasonProviderFailedToAuthorizeCard",
+    "BankCardLinkingSessionRejectionReasonProviderFailedToVerifyAddress": "BankCardLinkingSessionRejectionReasonProviderFailedToVerifyAddress",
+    "BankCardLinkingSessionRejectionReasonProviderFailedToVerifyCardholderName": "BankCardLinkingSessionRejectionReasonProviderFailedToVerifyCardholderName",
+    "BankCardLinkingSessionRejectionReasonProviderInternalFailure": "BankCardLinkingSessionRejectionReasonProviderInternalFailure",
+    "BankCardLinkingSessionRejectionReasonUnspecified": "BankCardLinkingSessionRejectionReasonUnspecified",
+    "BankCardLinkingSessionRejectionReasonUnsupportedCardType": "BankCardLinkingSessionRejectionReasonUnsupportedCardType",
+    "BankCardLinkingSessionRejectionReasonUnsupportedIssuerCountry": "BankCardLinkingSessionRejectionReasonUnsupportedIssuerCountry",
+    "BankCardLinkingSessionRejectionReasonUnusableCard": "BankCardLinkingSessionRejectionReasonUnusableCard"
+  },
+  {
+    "BankCardLinkingSessionStatusAuthorized": "BankCardLinkingSessionStatusAuthorized",
+    "BankCardLinkingSessionStatusPending": "BankCardLinkingSessionStatusPending",
+    "BankCardLinkingSessionStatusRejected": "BankCardLinkingSessionStatusRejected",
+    "BankCardLinkingSessionStatusUnspecified": "BankCardLinkingSessionStatusUnspecified"
+  },
+  {
+    "BankCardLinkingSessionThemeDark": "BankCardLinkingSessionThemeDark",
+    "BankCardLinkingSessionThemeDimmed": "BankCardLinkingSessionThemeDimmed",
+    "BankCardLinkingSessionThemeLight": "BankCardLinkingSessionThemeLight",
+    "BankCardLinkingSessionThemeUnspecified": "BankCardLinkingSessionThemeUnspecified"
+  },
+  "{[c.Rz.debit]:{\"path\":\"withdraw\",\"label\":\"Withdraw\",\"confirmTitle\":\"()\"{\"formattedAmount\":\"e\"}{\"e\"} withdrawal?`,\"successTitle\":\"()\"{\"formattedAmount\":\"e\"}{\"e\"} withdrawal successfully scheduled.`},[c.Rz.credit]:{\"path\":\"deposit\",\"label\":\"Deposit\",\"confirmTitle\":\"()\"{\"formattedAmount\":\"e\"}{\"e\"} deposit?`,\"successTitle\":\"()\"{\"formattedAmount\":\"e\"}{\"e\"} deposit successfully scheduled.`}}",
+  "{[c.Rz.debit]:\"u.d.CreateWithdrawal\",[c.Rz.credit]:\"u.d.CreateDeposit\"}",
+  {
+    "Adyen": "Adyen",
+    "Plaid": "Plaid",
+    "Stripe": "Stripe",
+    "Unknown": "Unknown"
+  },
+  {
+    "Age": "Age",
+    "Allowlist": "Allowlist",
+    "BirthDate": "BirthDate",
+    "Geography": "Geography",
+    "PhoneNumber": "PhoneNumber",
+    "PremiumOrVerifiedOrganization": "PremiumOrVerifiedOrganization",
+    "Safety": "Safety",
+    "Sanctions": "Sanctions",
+    "TwoFactorAuth": "TwoFactorAuth",
+    "Unknown": "Unknown"
+  },
+  {
+    "default": "default",
+    "invite": "invite",
+    "autoclaim": "autoclaim"
+  },
+  "{[F.default]:{\"redirectPath\":()=>u.gp,\"buttonText\":\"C\",\"disclaimer\":\"I\"},[F.autoclaim]:{\"redirectPath\":()=>u.gp,\"buttonText\":\"C\",\"disclaimer\":\"T\"},[F.invite]:{\"redirectPath\":\"()\"{\"inviteTransactionId\":\"e\"}{\"u.bR\"}/${\"e\"}/claim`:\"u.gp\",\"buttonText\":\"C\",\"disclaimer\":\"T\"}}",
+  "{[d.Rz.debit]:{\"label\":\"Pay\",\"title\":\"Pay\",\"confirmTitle\":\"()\"{\"formattedAmount\":\"e\"}{\"e\"}?`,\"successMessage\":\"()\"{\"formattedAmount\":\"e\"}{\"e\"} was sent!`,\"disclaimer\":\"It may take up to 3 business days for the funds to be settled. Payment completion depends upon your available funds.\"},[d.Rz.credit]:{\"label\":\"Request\",\"title\":\"Request\",\"confirmTitle\":\"()\"{\"formattedAmount\":\"e\"}{\"e\"}?`,\"successMessage\":\"()\"{\"formattedAmount\":\"e\"}{\"e\"} was sent!`}}",
+  "{[d.Rz.debit]:\"v.d.CreateTransfer\",[d.Rz.credit]:\"v.d.RequestTransfer\"}",
+  {
+    "DocumentTypeMonthlyStatement": "DocumentTypeMonthlyStatement",
+    "DocumentTypeUnspecified": "DocumentTypeUnspecified"
+  },
+  {
+    "BackupCode": "BackupCode",
+    "Passkey": "Passkey",
+    "Sms": "Sms",
+    "Totp": "Totp",
+    "U2fSecurityKey": "U2fSecurityKey"
+  },
+  {
+    "ContactSupport": "ContactSupport",
+    "Deposit": "Deposit",
+    "GetPremium": "GetPremium",
+    "KycDocumentUpload": "KycDocumentUpload",
+    "KycVerification": "KycVerification",
+    "LearnMore": "LearnMore",
+    "SelfieVerification": "SelfieVerification"
+  },
+  {
+    "Alert": "Alert",
+    "Info": "Info",
+    "Warning": "Warning"
+  },
+  {
+    "Interest": "Interest",
+    "Premium": "Premium"
+  },
+  "{[S.Alert]:\"danger\",[S.Info]:\"primary\",[S.Warning]:\"warning\"}",
+  "{[S.Alert]:\"b.default\",[S.Info]:\"_.default\",[S.Warning]:\"b.default\"}",
+  "{\"InsufficientFunds\":{\"message\":\"Your account balance is insufficient to make this transfer. Please fund your account and then try again.\",\"action\":{\"link\":\"r.IN\",\"label\":\"Deposit\"}},\"InvalidReceiver\":{\"message\":\"You cannot transfer to this account at this time. Please try again later.\"},\"InvalidSender\":{\"message\":\"You cannot request from this account at this time. Please try again later.\"},\"IdempotencyKeyConflict\":{\"message\":\"You might be attempting a duplicate payment. Please check before trying again!\",\"action\":{\"link\":\"r.gp\",\"label\":\"View account\"}},\"BankIssue\":{\"message\":\"There was an issue with your bank while processing your transfer. Please try again.\"},\"LoginRequired\":{\"message\":\"You need to login to verify your bank account before you can proceed.\",\"action\":{\"link\":\"r.VN\",\"label\":\"Verify\"}},\"PaymentMethodLinkRequired\":{\"message\":\"You need to login to verify your bank account before you can proceed.\",\"action\":{\"link\":\"r.VN\",\"label\":\"Verify\"}},\"InsufficientBalance\":{\"message\":\"Your bank account balance is insufficient. Please check your balance and try again.\"},\"TwoFactorAuthRequired\":{\"message\":\"You need to setup two-factor authentication before you can proceed.\",\"action\":{\"link\":\"r.z$\",\"label\":\"Setup\"}},\"VolumeLimitExceeded7DaySend\":{\"message\":\"c()\"{\"type\":\"weekly\"}{\"link\":\"r.iE.limits\",\"label\":\"s\"}},\"VolumeLimitExceeded30DaySend\":{\"message\":\"c()\"{\"type\":\"monthly\"}{\"link\":\"r.iE.limits\",\"label\":\"s\"}},\"VolumeLimitExceeded7Day\":{\"message\":\"c()\"{\"type\":\"weekly\"}{\"link\":\"r.iE.limits\",\"label\":\"s\"}},\"VolumeLimitExceeded30Day\":{\"message\":\"c()\"{\"type\":\"monthly\"}{\"link\":\"r.iE.limits\",\"label\":\"s\"}},\"AdditionalKycRequiredVolumeLimitExceeded7DaySend\":{\"message\":\"o()\"{\"type\":\"weekly\"}{\"link\":\"r.AU.tier2.verifyIdentityPath\",\"label\":\"Verify your identity\"}},\"AdditionalKycRequiredVolumeLimitExceeded30DaySend\":{\"message\":\"o()\"{\"type\":\"monthly\"}{\"link\":\"r.AU.tier2.verifyIdentityPath\",\"label\":\"Verify your identity\"}},\"AdditionalKycRequiredTotalVolumeLimitExceeded\":{\"message\":\"This action would exceed your limits. We need to verify your identify to continue.\",\"action\":{\"link\":\"r.AU.tier2.verifyIdentityPath\",\"label\":\"Verify your identity\"}},\"Velocity\":{\"message\":\"You have temporarily exceeded your limits. Please try again later.\"},\"Default\":{\"message\":\"Something went wrong. Please try again later.\"}}",
+  {
+    "RequestTransferDecisionAccept": "RequestTransferDecisionAccept",
+    "RequestTransferDecisionReject": "RequestTransferDecisionReject",
+    "RequestTransferDecisionUnspecified": "RequestTransferDecisionUnspecified"
+  },
+  {
+    "changePhone": "change-phone",
+    "success": "success",
+    "failure": "failure",
+    "ineligible": "ineligible",
+    "pendingReview": "pending-review",
+    "redirect": "redirect",
+    "close": "close",
+    "ready": "ready",
+    "initPorts": "initPorts",
+    "invalidChallenge": "invalid-challenge",
+    "docvChallenge": "challenge-docv-required",
+    "kycChallenge": "challenge-kyc-required",
+    "selfieChallenge": "challenge-selfie-required",
+    "twoFactorChallenge": "challenge-2fa-required",
+    "accountNumbercopiedToClipboard": "account-number-copied-to-clipboard",
+    "routingNumbercopiedToClipboard": "routing-number-copied-to-clipboard",
+    "edit": "edit",
+    "forgotPin": "forgot-pin"
+  },
+  {
+    "ClaimTransferDecisionAccept": "ClaimTransferDecisionAccept",
+    "ClaimTransferDecisionReject": "ClaimTransferDecisionReject",
+    "ClaimTransferDecisionUnspecified": "ClaimTransferDecisionUnspecified"
+  },
   {
     "navButtons": "navigationButtons",
     "carouselRoot": "carouselRoot"
@@ -5460,7 +5579,7 @@
     "Default": "ui_defaultLabel",
     "TransparentCursor": "ui_transparentCursor"
   },
-  "{[$.v.FOLLOWS]:\"Q\",[$.v.FRIENDS_OF_FRIENDS]:\"U\"}",
+  "{[$.v.FOLLOWS]:\"H\",[$.v.FRIENDS_OF_FRIENDS]:\"U\"}",
   {
     "Default": "Default",
     "Pivot": "Pivot",
