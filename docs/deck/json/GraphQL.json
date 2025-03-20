@@ -1,1 +1,15 @@
-[]
+[
+  {
+    "n": "57225",
+    "exports": {
+      "queryId": "qaIzg304L134B5-NI43j2A",
+      "operationName": "UniversalSearchFeedbackMutation",
+      "operationType": "mutation",
+      "metadata": {
+        "featureSwitches": [],
+        "fieldToggles": [],
+        "featureSwitch": {}
+      }
+    }
+  }
+]
