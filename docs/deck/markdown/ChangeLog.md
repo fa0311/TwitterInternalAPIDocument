@@ -4621,3 +4621,14 @@
 - march_madness_brackets_enabled_loggedin_sidebar_popup<br>
 #### remove<br>
 - None<br>
+## 2025/03/20<br>
+### API<br>
+#### add<br>
+- UniversalSearchFeedbackMutation<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- subscriptions_upsells_rweb_analytics_fallback_destination<br>
+#### remove<br>
+- None<br>
