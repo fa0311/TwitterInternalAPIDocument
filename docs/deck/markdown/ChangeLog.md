@@ -4632,3 +4632,18 @@
 - subscriptions_upsells_rweb_analytics_fallback_destination<br>
 #### remove<br>
 - None<br>
+## 2025/03/21<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- payments_card_spend_enabled<br>
+- rweb_analytics_live_details_enabled<br>
+- rweb_analytics_live_overview_enabled<br>
+- rweb_analytics_spaces_details_enabled<br>
+- rweb_analytics_spaces_overview_enabled<br>
+#### remove<br>
+- None<br>
