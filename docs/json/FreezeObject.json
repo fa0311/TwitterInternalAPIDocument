@@ -634,8 +634,8 @@
     "sideNavWidthsRedesign": "l",
     "contentWidths": "i",
     "contentWidthsRedesign": "s",
-    "wideTabBarWidth": "t",
-    "dmDrawerHeight": "c",
+    "wideTabBarWidth": "c",
+    "dmDrawerHeight": "t",
     "dmDrawerWidth": "b"
   },
   {
@@ -776,7 +776,7 @@
     "accountRouting": "accountRouting",
     "personal": "personal"
   },
-  "{[Y.onboarding]:{\"path\":`${\"ee\"}/onboarding`,\"defaultClosePath\":\"/\",\"redirectOnCompletion\":\"!0\"},[Y.upgradeToKycVerified]:{\"path\":`${\"ee\"}/tier2`,\"defaultClosePath\":\"/\",\"redirectOnCompletion\":\"!0\"},[Y.upgradeToKycDocumentsVerified]:{\"path\":`${\"ee\"}/tier3`,\"defaultClosePath\":\"/\",\"redirectOnCompletion\":\"!0\"},[Y.selfieVerification]:{\"path\":`${\"ee\"}/selfie`,\"defaultClosePath\":\"/\",\"redirectOnCompletion\":\"!0\"},[Y.updateName]:{\"path\":`${\"ee\"}/update`,\"defaultClosePath\":\"G.personal\",\"redirectOnCompletion\":\"!0\"},[Y.updateAddress]:{\"path\":`${\"ee\"}/update`,\"defaultClosePath\":\"G.personal\",\"redirectOnCompletion\":\"!0\"},[Y.updatePin]:{\"path\":`${\"ee\"}/update-pin`,\"defaultClosePath\":\"G.securityPrivacy\",\"redirectOnCompletion\":\"!1\"},[Y.forgotPin]:{\"path\":`${\"ee\"}/forgot-pin`,\"defaultClosePath\":\"G.securityPrivacy\",\"redirectOnCompletion\":\"!1\"},[Y.accountRouting]:{\"path\":`${\"ee\"}/account-routing`,\"defaultClosePath\":\"s\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"allowClipboardWrite\":\"!0\"},[Y.challenge]:{\"path\":`${\"ee\"}/challenge`,\"defaultClosePath\":\"/\",\"redirectOnCompletion\":\"!1\"},[Y.personal]:{\"path\":`${\"ee\"}/info`,\"defaultClosePath\":\"G.personal\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\"}}",
+  "{[ee.onboarding]:{\"path\":`${\"de\"}/onboarding`,\"defaultClosePath\":\"/\",\"redirectOnCompletion\":\"!0\"},[ee.upgradeToKycVerified]:{\"path\":`${\"de\"}/tier2`,\"defaultClosePath\":\"/\",\"redirectOnCompletion\":\"!0\"},[ee.upgradeToKycDocumentsVerified]:{\"path\":`${\"de\"}/tier3`,\"defaultClosePath\":\"/\",\"redirectOnCompletion\":\"!0\"},[ee.selfieVerification]:{\"path\":`${\"de\"}/selfie`,\"defaultClosePath\":\"/\",\"redirectOnCompletion\":\"!0\"},[ee.updateName]:{\"path\":`${\"de\"}/update`,\"defaultClosePath\":\"W.personal\",\"redirectOnCompletion\":\"!0\"},[ee.updateAddress]:{\"path\":`${\"de\"}/update`,\"defaultClosePath\":\"W.personal\",\"redirectOnCompletion\":\"!0\"},[ee.updatePin]:{\"path\":`${\"de\"}/update-pin`,\"defaultClosePath\":\"W.securityPrivacy\",\"redirectOnCompletion\":\"!1\"},[ee.forgotPin]:{\"path\":`${\"de\"}/forgot-pin`,\"defaultClosePath\":\"W.securityPrivacy\",\"redirectOnCompletion\":\"!1\"},[ee.accountRouting]:{\"path\":`${\"de\"}/account-routing`,\"defaultClosePath\":\"s\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"allowClipboardWrite\":\"!0\"},[ee.challenge]:{\"path\":`${\"de\"}/challenge`,\"defaultClosePath\":\"/\",\"redirectOnCompletion\":\"!1\"},[ee.personal]:{\"path\":`${\"de\"}/info`,\"defaultClosePath\":\"W.personal\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\"}}",
   {
     "tier2": "tier2",
     "tier3": "tier3",
@@ -1302,24 +1302,24 @@
     "FAILURE": "rweb/devices/FETCH_PUSH_NOTIFICATION_PERMISSION_STATE_FAILURE"
   },
   {
-    "broadcasts": "t",
-    "cards": "t",
-    "commerceItems": "t",
-    "communities": "t",
-    "conversations": "t",
-    "entries": "t",
-    "grokShare": "t",
-    "lists": "t",
-    "livestreams": "t",
-    "moments": "t",
-    "topics": "t",
-    "tweets": "t",
-    "articleEntities": "t",
-    "trustedFriends": "t",
-    "userPresence": "t",
-    "userCommunityInviteActionResult": "t",
-    "users": "t",
-    "aitrends": "t"
+    "broadcasts": "c",
+    "cards": "c",
+    "commerceItems": "c",
+    "communities": "c",
+    "conversations": "c",
+    "entries": "c",
+    "grokShare": "c",
+    "lists": "c",
+    "livestreams": "c",
+    "moments": "c",
+    "topics": "c",
+    "tweets": "c",
+    "articleEntities": "c",
+    "trustedFriends": "c",
+    "userPresence": "c",
+    "userCommunityInviteActionResult": "c",
+    "users": "c",
+    "aitrends": "c"
   },
   {
     "REQUEST": "rweb/featureSwitch/FETCH_FEATURE_SWITCHES_REQUEST",
@@ -2299,8 +2299,8 @@
     "baseFontSize": "y",
     "borderRadii": "u",
     "borderRadiiPx": "s",
-    "borderWidths": "c",
-    "borderWidthsPx": "t",
+    "borderWidths": "t",
+    "borderWidthsPx": "c",
     "breakpoints": "n",
     "componentDimensions": "_",
     "componentZIndices": "l",
@@ -5140,7 +5140,7 @@
     "xxxLarge": "xxxLarge",
     "xJumbo": "xJumbo"
   },
-  "{[s.P.RejectedByManualReview]:{\"sender\":\"o\",\"receiver\":\"o\",\"Component\":\"r.Z.Attention\"},[s.P.RejectedByAutoReview]:{\"sender\":\"o\",\"receiver\":\"o\",\"Component\":\"r.Z.Attention\"},[s.P.InReview]:{\"sender\":\"c\",\"receiver\":\"c\",\"Component\":\"r.Z.Attention\"},[i.g.PendingRecipientAcceptance]:{\"sender\":\"d\",\"Component\":\"r.Z.Primary\"},[i.g.PendingRecipientOnboarding]:{\"sender\":\"d\",\"Component\":\"r.Z.Primary\"},[i.g.PendingRecipientAction]:{\"sender\":\"d\",\"Component\":\"r.Z.Primary\"},[i.g.RejectedByRecipient]:{\"sender\":\"This transaction has been rejected by the recipient.\",\"Component\":\"r.Z.Attention\"},[i.g.RequestRejected]:{\"receiver\":\"This request has been rejected by the recipient.\",\"Component\":\"r.Z.Attention\"},[i.g.AwaitingRequestAcceptance]:{\"receiver\":\"This request is pending until it's approved by the recipient.\",\"Component\":\"r.Z.Primary\"}}",
+  "{[i.P.RejectedByManualReview]:{\"sender\":\"o\",\"receiver\":\"o\",\"Component\":\"r.Z.Attention\"},[i.P.RejectedByAutoReview]:{\"sender\":\"o\",\"receiver\":\"o\",\"Component\":\"r.Z.Attention\"},[i.P.InReview]:{\"sender\":\"c\",\"receiver\":\"c\",\"Component\":\"r.Z.Attention\"},[s.g.PendingRecipientAcceptance]:{\"sender\":\"d\",\"Component\":\"r.Z.Primary\"},[s.g.PendingRecipientOnboarding]:{\"sender\":\"d\",\"Component\":\"r.Z.Primary\"},[s.g.PendingRecipientAction]:{\"sender\":\"d\",\"Component\":\"r.Z.Primary\"},[s.g.RejectedByRecipient]:{\"sender\":\"This transaction has been rejected by the recipient.\",\"Component\":\"r.Z.Attention\"},[s.g.RequestRejected]:{\"receiver\":\"This request has been rejected by the recipient.\",\"Component\":\"r.Z.Attention\"},[s.g.AwaitingRequestAcceptance]:{\"receiver\":\"This request is pending until it's approved by the recipient.\",\"Component\":\"r.Z.Primary\"}}",
   {
     "onboarding": "onboarding",
     "upgradeToKycDocumentsVerified": "upgradeToKycDocumentsVerified"
@@ -5168,6 +5168,11 @@
   {
     "bank": "bank",
     "card": "card",
+    "atm": "atm"
+  },
+  {
+    "bank": "bank",
+    "card": "card",
     "x": "x"
   },
   {
@@ -5177,7 +5182,7 @@
     "completeDocv": "docv-complete-challenge",
     "completeSelfie": "selfie-complete-challenge"
   },
-  "{[R.g.Cancelled]:\"Cancelled\",[R.g.Failed]:\"Failed\",[R.g.Expired]:\"Expired\",[R.g.Pending]:\"Pending\",[R.g.AuthorizationOpen]:\"Pending\",[R.g.PendingReview]:\"Pending\",[R.g.PendingRecipientAction]:\"Pending\",[R.g.PendingRecipientOnboarding]:\"Pending\",[R.g.AwaitingRequestAcceptance]:\"Pending\",[R.g.PendingRecipientAcceptance]:\"Pending\",[R.g.PinVerificationRequired]:\"Pending\",[R.g.RequestVerificationRequired]:\"Pending\",[R.g.VerificationRequired]:\"Pending\",[R.g.RejectedByRecipient]:\"Rejected\",[R.g.RequestRejected]:\"Rejected\",[R.g.Settled]:\"Settled\",[R.g.SoftSettled]:\"Settled\",[R.g.AuthorizationClosed]:\"Settled\"}",
+  "{[x.g.Cancelled]:\"Cancelled\",[x.g.Failed]:\"Failed\",[x.g.Expired]:\"Expired\",[x.g.Pending]:\"Pending\",[x.g.AuthorizationOpen]:\"Pending\",[x.g.PendingReview]:\"Pending\",[x.g.PendingRecipientAction]:\"Pending\",[x.g.PendingRecipientOnboarding]:\"Pending\",[x.g.AwaitingRequestAcceptance]:\"Pending\",[x.g.PendingRecipientAcceptance]:\"Pending\",[x.g.PinVerificationRequired]:\"Pending\",[x.g.RequestVerificationRequired]:\"Pending\",[x.g.VerificationRequired]:\"Pending\",[x.g.RejectedByRecipient]:\"Rejected\",[x.g.RequestRejected]:\"Rejected\",[x.g.Settled]:\"Settled\",[x.g.SoftSettled]:\"Settled\",[x.g.AuthorizationClosed]:\"Settled\"}",
   "{[m.t.Checking]:\"Checking\",[m.t.Savings]:\"Savings\"}",
   "{[f.l.Charge]:\"Charge\",[f.l.Combo]:\"Combo\",[f.l.Debit]:\"Debit\",[f.l.Credit]:\"Credit\",[f.l.DeferredDebit]:\"DeferredDebit\",[f.l.Prepaid]:\"Prepaid\"}",
   "{[g.U.AmericanExpress]:\"American Express\",[g.U.Mastercard]:\"Mastercard\",[g.U.Visa]:\"Visa\"}",
@@ -5246,6 +5251,11 @@
     "Unknown": "Unknown"
   },
   {
+    "IssuedCardTypePhysical": "IssuedCardTypePhysical",
+    "IssuedCardTypeUnspecified": "IssuedCardTypeUnspecified",
+    "IssuedCardTypeVirtual": "IssuedCardTypeVirtual"
+  },
+  {
     "RequestTransferDecisionAccept": "RequestTransferDecisionAccept",
     "RequestTransferDecisionReject": "RequestTransferDecisionReject",
     "RequestTransferDecisionUnspecified": "RequestTransferDecisionUnspecified"
@@ -5276,7 +5286,7 @@
     "invite": "invite",
     "autoclaim": "autoclaim"
   },
-  "{[E.default]:{\"redirectPath\":()=>s.gp,\"buttonText\":\"b\",\"disclaimer\":\"f\"},[E.autoclaim]:{\"redirectPath\":()=>s.gp,\"buttonText\":\"b\",\"disclaimer\":\"k\"},[E.invite]:{\"redirectPath\":\"()\"{\"inviteTransactionId\":\"e\"}{\"s.bR\"}/${\"e\"}/claim`:\"s.gp\",\"buttonText\":\"b\",\"disclaimer\":\"k\"}}",
+  "{[E.default]:{\"redirectPath\":()=>s.gp,\"buttonText\":\"b\",\"disclaimer\":\"P\"},[E.autoclaim]:{\"redirectPath\":()=>s.gp,\"buttonText\":\"b\",\"disclaimer\":\"P\"},[E.invite]:{\"redirectPath\":\"()\"{\"inviteTransactionId\":\"e\"}{\"s.bR\"}/${\"e\"}/claim`:\"s.gp\",\"buttonText\":\"b\",\"disclaimer\":\"P\"}}",
   "{[u.Rz.debit]:{\"label\":\"Pay\",\"title\":\"Pay\",\"confirmTitle\":\"()\"{\"formattedAmount\":\"e\"}{\"e\"}?`,\"successMessage\":\"()\"{\"formattedAmount\":\"e\"}{\"e\"} was sent!`,\"disclaimer\":\"It may take up to 3 business days for the funds to be settled. Payment completion depends upon your available funds.\"},[u.Rz.credit]:{\"label\":\"Request\",\"title\":\"Request\",\"confirmTitle\":\"()\"{\"formattedAmount\":\"e\"}{\"e\"}?`,\"successMessage\":\"()\"{\"formattedAmount\":\"e\"}{\"e\"} was sent!`}}",
   "{[u.Rz.debit]:\"Z.d.CreateTransfer\",[u.Rz.credit]:\"Z.d.RequestTransfer\"}",
   "{[E.S.Alert]:\"danger\",[E.S.Info]:\"primary\",[E.S.Warning]:\"warning\"}",
@@ -6449,21 +6459,9 @@
     "UPCOMING": "UPCOMING"
   },
   {
-    "Fixed": "fixed",
-    "Variable": "variable"
-  },
-  {
-    "Pinning": "Pinning",
-    "Reordering": "Reordering"
-  },
-  {
-    "Scheduled": "Scheduled",
-    "InProgress": "InProgress",
-    "Completed": "Completed",
-    "Postponed": "Postponed",
-    "Cancelled": "Cancelled",
-    "Unused6": "_Unused6",
-    "Unused7": "_Unused7"
+    "NotStarted": "not_started",
+    "Started": "started",
+    "Completed": "completed"
   },
   {
     "SCORE": "score",
@@ -6510,9 +6508,8 @@
     "UserInvited": "UserInvited"
   },
   {
-    "NotStarted": "not_started",
-    "Started": "started",
-    "Completed": "completed"
+    "Fixed": "fixed",
+    "Variable": "variable"
   },
   {
     "Open": "CommunityOpenMembershipSettings",
@@ -6526,6 +6523,19 @@
   {
     "Hidden": "hidden",
     "Kept": "kept"
+  },
+  {
+    "Pinning": "Pinning",
+    "Reordering": "Reordering"
+  },
+  {
+    "Scheduled": "Scheduled",
+    "InProgress": "InProgress",
+    "Completed": "Completed",
+    "Postponed": "Postponed",
+    "Cancelled": "Cancelled",
+    "Unused6": "_Unused6",
+    "Unused7": "_Unused7"
   },
   {
     "HiddenTweet": "hidden_tweet",
@@ -6601,8 +6611,8 @@
     "Subscribers": "Subscribers"
   },
   {
-    "MARKDOWN": "xe",
-    "PREVIEW": "ke"
+    "MARKDOWN": "ke",
+    "PREVIEW": "Ze"
   },
   {
     "DRAFTS": "Drafts",
@@ -6685,26 +6695,26 @@
     "Trimmer": "trimmer"
   },
   {
-    "ActionsBar": "v.Z",
-    "ActionMenu": "f.Z",
-    "CallToAction": "a.ZP",
+    "ActionsBar": "f.Z",
+    "ActionMenu": "_.Z",
+    "CallToAction": "o.ZP",
     "EditCallout": "b.Z",
     "Education": "y.Z",
-    "HighlightedUserLabel": "d.Z",
-    "Media": "T.Z",
-    "Place": "o.ZP",
+    "HighlightedUserLabel": "l.Z",
+    "Media": "v.Z",
+    "Place": "a.ZP",
     "PromotedDetails": "u.Z",
-    "PromotedUserProfileCard": "k.Z",
-    "ReplyContext": "E.ZP",
-    "RichContent": "I.Z",
-    "SocialContext": "w.Z",
-    "Text": "Z.Z",
-    "Tombstone": "g.Z",
+    "PromotedUserProfileCard": "x.Z",
+    "ReplyContext": "I.ZP",
+    "RichContent": "k.Z",
+    "SocialContext": "g.Z",
+    "Text": "M.Z",
+    "Tombstone": "p.Z",
     "Timestamp": "h.Z",
-    "UserAvatar": "x.Z",
-    "UserFollowIndicator": "M.Z",
+    "UserAvatar": "E.Z",
+    "UserFollowIndicator": "Z.Z",
     "UserName": "A.Z",
-    "ArticleCard": "_.Z"
+    "ArticleCard": "T.Z"
   },
   {
     "REQUEST": "rweb/scheduledTweets/FETCH_SCHEDULED_TWEETS_REQUEST",
@@ -7129,12 +7139,6 @@
     "UnavailableMissingBlueSubscription": "UnavailableMissingBlueSubscription"
   },
   {
-    "premiumSubscription": "premiumSubscription",
-    "premiumSettings": "premiumSettings",
-    "securitySettings": "securitySettings",
-    "creator": "creator"
-  },
-  {
     "GROUP": "GroupDm",
     "ONE_TO_ONE": "OneToOneDm",
     "UNKNOWN": "Unknown"
@@ -7237,6 +7241,12 @@
     "WebSidebar": "web_sidebar"
   },
   {
+    "premiumSubscription": "premiumSubscription",
+    "premiumSettings": "premiumSettings",
+    "securitySettings": "securitySettings",
+    "creator": "creator"
+  },
+  {
     "NONE": "NONE",
     "VERIFY_EMAIL": "verify_email",
     "METHOD": "method",
@@ -7267,15 +7277,12 @@
     "FAILURE": "rweb/subscriptionPayments/TIER_SWITCH_FAILURE"
   },
   {
-    "earnings": {
-      "link": "/settings/monetization/earnings",
-      "text": "m",
-      "size": "xLarge"
-    },
-    "payoutHistory": {
-      "link": "/settings/monetization/payout_history",
-      "text": "p"
-    }
+    "CanVerifyIdentity": "CanVerifyIdentity",
+    "IdentityNonVerifiable": "IdentityNonVerifiable",
+    "IdentityVerified": "IdentityVerified",
+    "PendingResult": "PendingResult",
+    "RequestLocked": "RequestLocked",
+    "UnavailableMissingBlueSubscription": "UnavailableMissingBlueSubscription"
   },
   {
     "Ads": "Ads",
@@ -7286,6 +7293,17 @@
     "TPay": "TPay",
     "Twitter": "Twitter",
     "Unknown": "Unknown"
+  },
+  {
+    "earnings": {
+      "link": "/settings/monetization/earnings",
+      "text": "d",
+      "size": "xLarge"
+    },
+    "payoutHistory": {
+      "link": "/settings/monetization/payout_history",
+      "text": "E"
+    }
   },
   {
     "AcceptAllCookies": "acceptAllCookies",
@@ -7374,6 +7392,12 @@
     "FAILURE": "rweb/GROK_USER_EVENTS_LOG/FAILURE"
   },
   {
+    "premiumSubscription": "premiumSubscription",
+    "premiumSettings": "premiumSettings",
+    "securitySettings": "securitySettings",
+    "creator": "creator"
+  },
+  {
     "paymentMethod": "paymentMethod",
     "billingInformation": "billingInformation",
     "cancel": "cancel"
@@ -7419,13 +7443,6 @@
     "FAILURE": "rweb/availableLanguages/FETCH_AVAILABLE_LANGUAGES_FAILURE"
   },
   {
-    "SELF": "self",
-    "MUTUAL_FOLLOW": "mutualfollow",
-    "FOLLOWING": "following",
-    "FOLLOWERS": "followers",
-    "PUBLIC": "public"
-  },
-  {
     "REQUEST": "rweb/settings/profile/ENABLE_VERIFIED_PHONE_LABEL_REQUEST",
     "SUCCESS": "rweb/settings/profile/ENABLE_VERIFIED_PHONE_LABEL_SUCCESS",
     "FAILURE": "rweb/settings/profile/ENABLE_VERIFIED_PHONE_LABEL_FAILURE"
@@ -7439,6 +7456,13 @@
     "REQUEST": "rweb/settings/profile/FETCH_VERIFIED_PHONE_LABEL_REQUEST",
     "SUCCESS": "rweb/settings/profile/FETCH_VERIFIED_PHONE_LABEL_SUCCESS",
     "FAILURE": "rweb/settings/profile/FETCH_VERIFIED_PHONE_LABEL_FAILURE"
+  },
+  {
+    "SELF": "self",
+    "MUTUAL_FOLLOW": "mutualfollow",
+    "FOLLOWING": "following",
+    "FOLLOWERS": "followers",
+    "PUBLIC": "public"
   },
   {
     "SUPERSCRIPT_AND_SUBSCRIPT": "superscript_and_subscript",
@@ -7529,6 +7553,17 @@
   {
     "InitialSale": "InitialSale",
     "Renewal": "Renewal"
+  },
+  {
+    "earnings": {
+      "link": "/settings/monetization/earnings",
+      "text": "p",
+      "size": "xLarge"
+    },
+    "payoutHistory": {
+      "link": "/settings/monetization/payout_history",
+      "text": "d"
+    }
   },
   {
     "FUN": "fun",
@@ -7768,21 +7803,6 @@
     "Topic": "topic"
   },
   {
-    "REQUEST": "rweb/settings/profile/ENABLE_VERIFIED_PHONE_LABEL_REQUEST",
-    "SUCCESS": "rweb/settings/profile/ENABLE_VERIFIED_PHONE_LABEL_SUCCESS",
-    "FAILURE": "rweb/settings/profile/ENABLE_VERIFIED_PHONE_LABEL_FAILURE"
-  },
-  {
-    "REQUEST": "rweb/settings/profile/DISABLE_VERIFIED_PHONE_LABEL_REQUEST",
-    "SUCCESS": "rweb/settings/profile/DISABLE_VERIFIED_PHONE_LABEL_SUCCESS",
-    "FAILURE": "rweb/settings/profile/DISABLE_VERIFIED_PHONE_LABEL_FAILURE"
-  },
-  {
-    "REQUEST": "rweb/settings/profile/FETCH_VERIFIED_PHONE_LABEL_REQUEST",
-    "SUCCESS": "rweb/settings/profile/FETCH_VERIFIED_PHONE_LABEL_SUCCESS",
-    "FAILURE": "rweb/settings/profile/FETCH_VERIFIED_PHONE_LABEL_FAILURE"
-  },
-  {
     "REQUEST": "rweb/settings/usernames/FETCH_USERNAMES_REQUEST",
     "SUCCESS": "rweb/settings/usernames/FETCH_USERNAMES_SUCCESS",
     "FAILURE": "rweb/settings/usernames/FETCH_USERNAMES_FAILURE"
@@ -7836,26 +7856,6 @@
     }
   },
   {
-    "full_time": "r",
-    "full_time_contract": "i",
-    "part_time": "s",
-    "contract_to_hire": "o"
-  },
-  {
-    "1": "c",
-    "2": "d"
-  },
-  {
-    "annually": {
-      "label": "c",
-      "value": "1"
-    },
-    "hourly": {
-      "label": "d",
-      "value": "2"
-    }
-  },
-  {
     "DISABLED": "0",
     "ENABLED": "10",
     "SYNC_IN_PROGRESS": "20",
@@ -7873,46 +7873,66 @@
     "workday": "Workday"
   },
   {
-    "software_engineering": "i",
-    "data_analytics": "s",
+    "software_engineering": "s",
+    "data_analytics": "c",
     "product": "u",
-    "design": "b",
-    "marketing": "h",
-    "sales_am": "D",
-    "operations": "m",
-    "people_hr": "p",
-    "finance_accounting": "S",
-    "legal_compliance": "A",
+    "design": "m",
+    "marketing": "b",
+    "sales_am": "p",
+    "operations": "y",
+    "people_hr": "h",
+    "finance_accounting": "g",
+    "legal_compliance": "D",
     "science_engineering": "f",
-    "medical": "y",
-    "construction_trades": "M",
-    "other": "w"
+    "medical": "S",
+    "construction_trades": "k",
+    "other": "v"
   },
   {
-    "intern": "g",
-    "entry_level": "P",
-    "junior": "I",
-    "mid_level": "B",
-    "senior": "E",
+    "intern": "_",
+    "entry_level": "I",
+    "junior": "M",
+    "mid_level": "P",
+    "senior": "F",
     "lead": "Z",
     "manager": "C",
-    "executive": "_"
+    "executive": "L"
   },
   {
     "onsite": {
-      "label": "L",
-      "description": "O",
+      "label": "j",
+      "description": "R",
       "value": "onsite"
     },
     "remote": {
-      "label": "N",
-      "description": "F",
+      "label": "B",
+      "description": "U",
       "value": "remote"
     },
     "hybrid": {
-      "label": "R",
-      "description": "$",
+      "label": "x",
+      "description": "T",
       "value": "hybrid"
+    }
+  },
+  {
+    "full_time": "t",
+    "full_time_contract": "o",
+    "part_time": "d",
+    "contract_to_hire": "i"
+  },
+  {
+    "1": "c",
+    "2": "u"
+  },
+  {
+    "annually": {
+      "label": "c",
+      "value": "1"
+    },
+    "hourly": {
+      "label": "u",
+      "value": "2"
     }
   },
   {
@@ -7929,12 +7949,12 @@
     "contract_to_hire": "o"
   },
   {
-    "1": "u",
+    "1": "c",
     "2": "d"
   },
   {
     "annually": {
-      "label": "u",
+      "label": "c",
       "value": "1"
     },
     "hourly": {
@@ -8568,6 +8588,26 @@
     "GOOGLE_PLAY_STORE": "2"
   },
   {
+    "full_time": "r",
+    "full_time_contract": "s",
+    "part_time": "t",
+    "contract_to_hire": "u"
+  },
+  {
+    "1": "d",
+    "2": "c"
+  },
+  {
+    "annually": {
+      "label": "d",
+      "value": "1"
+    },
+    "hourly": {
+      "label": "c",
+      "value": "2"
+    }
+  },
+  {
     "REQUEST": "rweb/promotedContent/LOG_REQUEST",
     "SUCCESS": "rweb/promotedContent/LOG_SUCCESS",
     "FAILURE": "rweb/promotedContent/LOG_FAILURE"
@@ -9056,75 +9096,10 @@
     "Test": "Test"
   },
   {
-    "DISABLED": "0",
-    "ENABLED": "10",
-    "SYNC_IN_PROGRESS": "20",
-    "SYNC_FAILED": "30"
-  },
-  {
-    "freshteam": "Freshteam",
-    "greenhouse": "Greenhouse",
-    "lever": "Lever",
-    "recruitee": "Recruitee",
-    "sage-hr": "Sage HR",
-    "sap-successfactors": "SAP SuccessFactors",
-    "teamtailor": "Teamtailor",
-    "workable": "Workable",
-    "workday": "Workday"
-  },
-  {
-    "software_engineering": "d",
-    "data_analytics": "c",
-    "product": "u",
-    "design": "m",
-    "marketing": "p",
-    "sales_am": "b",
-    "operations": "h",
-    "people_hr": "y",
-    "finance_accounting": "g",
-    "legal_compliance": "f",
-    "science_engineering": "D",
-    "medical": "S",
-    "construction_trades": "_",
-    "other": "k"
-  },
-  {
-    "intern": "A",
-    "entry_level": "F",
-    "junior": "E",
-    "mid_level": "I",
-    "senior": "C",
-    "lead": "M",
-    "manager": "Z",
-    "executive": "P"
-  },
-  {
-    "onsite": {
-      "label": "L",
-      "description": "j",
-      "value": "onsite"
-    },
-    "remote": {
-      "label": "B",
-      "description": "z",
-      "value": "remote"
-    },
-    "hybrid": {
-      "label": "T",
-      "description": "R",
-      "value": "hybrid"
-    }
-  },
-  {
     "FakeAccount": "fake_account",
     "OffensiveProfileContent": "offensive_profile_content",
     "SensitiveMedia": "sensitive_media",
     "Timeout": "timeout"
-  },
-  {
-    "NotStarted": "not_started",
-    "Started": "started",
-    "Completed": "completed"
   },
   {
     "FakeAccount": "fake_account",
@@ -10037,7 +10012,7 @@
     "Unused7": "_Unused7"
   },
   {
-    "full_time": "l",
+    "full_time": "o",
     "full_time_contract": "a",
     "part_time": "i",
     "contract_to_hire": "c"
@@ -10059,6 +10034,10 @@
   {
     "single_line": "singleline",
     "format_inline": "format-inline"
+  },
+  {
+    "Pinning": "Pinning",
+    "Reordering": "Reordering"
   },
   {
     "CompactPrompt": "compactPrompt",
@@ -10179,7 +10158,7 @@
     "IncentiveFocus": "IncentiveFocus",
     "TopicFocus": "TopicFocus"
   },
-  "{[B.LIVE_EVENT]:\"!0\",[B.MOMENT]:\"!0\",[B.SUMMARY]:\"!0\",[B.SUMMARY_LARGE_IMAGE]:\"!0\",[B.AUDIOSPACE]:\"!0\"}",
+  "{[L.LIVE_EVENT]:\"!0\",[L.MOMENT]:\"!0\",[L.SUMMARY]:\"!0\",[L.SUMMARY_LARGE_IMAGE]:\"!0\",[L.AUDIOSPACE]:\"!0\"}",
   {
     "CONVERSATION": "conversation",
     "TIMELINE": "timeline"
