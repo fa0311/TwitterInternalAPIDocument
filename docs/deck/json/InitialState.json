@@ -1789,6 +1789,9 @@
       "responsive_web_grok_general_availability": {
         "value": "false"
       },
+      "responsive_web_grok_highlighted_prompt_clicks_until_fatigue": {
+        "value": -1
+      },
       "responsive_web_grok_history_search_enabled": {
         "value": "true"
       },
@@ -2559,6 +2562,9 @@
       },
       "rweb_home_refetch_on_refocus_min_delay_seconds": {
         "value": "60"
+      },
+      "rweb_jetfuel_loggedout_timeline": {
+        "value": "false"
       },
       "rweb_live_broadcast_rewind_enabled": {
         "value": "true"
@@ -5339,6 +5345,9 @@
         "responsive_web_grok_general_availability": {
           "value": "false"
         },
+        "responsive_web_grok_highlighted_prompt_clicks_until_fatigue": {
+          "value": -1
+        },
         "responsive_web_grok_history_search_enabled": {
           "value": "true"
         },
@@ -5727,7 +5736,7 @@
           "value": "true"
         },
         "responsive_web_qp_two_screens_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "responsive_web_redux_use_fragment_enabled": {
           "value": "false"
@@ -6109,6 +6118,9 @@
         },
         "rweb_home_refetch_on_refocus_min_delay_seconds": {
           "value": "60"
+        },
+        "rweb_jetfuel_loggedout_timeline": {
+          "value": "false"
         },
         "rweb_live_broadcast_rewind_enabled": {
           "value": "true"
@@ -7205,10 +7217,10 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "29c87a6bc6ee57ddb0b4ce84712949a7"
+      "settingsVersion": "0f806a05a01ab20fe377d287f8b18de2"
     },
     "debug": {},
-    "featureSetToken": "deb1c1acf3ff72e9e4a08e99d9ee0d40ab90f6c8",
+    "featureSetToken": "e6fef7e798a39d615982305ce0c23947bffdaa63",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -7277,13 +7289,14 @@
   },
   "session": {
     "country": "XX",
-    "isActiveCreator": "false",
-    "isRestrictedSession": "false",
-    "guestId": "174267770917005897",
+    "guestId": "174276411855005639",
     "hasCommunityMemberships": "false",
+    "hasPasskey": "false",
+    "isActiveCreator": "false",
+    "isLoaded": "false",
+    "isRestrictedSession": "false",
     "language": "en",
-    "ssoInitTokens": {},
-    "isLoaded": "false"
+    "ssoInitTokens": {}
   },
   "developer": {
     "dtabBarInfo": {
