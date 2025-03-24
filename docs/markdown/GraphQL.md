@@ -3034,7 +3034,10 @@ Request Method: `POST`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-`None`<br>
+| key            | type   | variable   |
+|:---------------|:-------|:-----------|
+| conversationId | ...    | t          |
+
 #### features<br>
 `None`<br>
 #### queryId<br>
@@ -4755,7 +4758,7 @@ Login Required: `...`<br>
 #### variables<br>
 | key          | type   | variable   |
 |:-------------|:-------|:-----------|
-| listId       | ...    | _.list_id  |
+| listId       | ...    | t.list_id  |
 | ...()(0,r.S) | ...    | _          |
 
 #### features<br>
@@ -4998,12 +5001,10 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key          | type   | variable   |
-|:-------------|:-------|:-----------|
-| listId       | ...    | s          |
-| count        | ...    | i          |
-| cursor       | ...    | a          |
-| ...()(0,r.d) | ...    | _          |
+| key                    | type   | variable   |
+|:-----------------------|:-------|:-----------|
+| bookmark_collection_id | ...    | n          |
+| name                   | ...    | o          |
 
 #### features<br>
 | key                                                                     | type    | variable   |
@@ -6730,7 +6731,7 @@ Login Required: `...`<br>
 #### variables<br>
 | key          | type   | variable   |
 |:-------------|:-------|:-----------|
-| listId       | ...    | _.list_id  |
+| listId       | ...    | t.list_id  |
 | ...()(0,r.S) | ...    | _          |
 
 #### features<br>
@@ -6973,12 +6974,10 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key          | type   | variable   |
-|:-------------|:-------|:-----------|
-| listId       | ...    | s          |
-| count        | ...    | i          |
-| cursor       | ...    | a          |
-| ...()(0,r.d) | ...    | _          |
+| key                    | type   | variable   |
+|:-----------------------|:-------|:-----------|
+| bookmark_collection_id | ...    | n          |
+| name                   | ...    | o          |
 
 #### features<br>
 | key                                                                     | type    | variable   |
@@ -7548,7 +7547,7 @@ Login Required: `...`<br>
 #### variables<br>
 | key          | type   | variable   |
 |:-------------|:-------|:-----------|
-| listId       | ...    | _.list_id  |
+| listId       | ...    | t.list_id  |
 | ...()(0,r.S) | ...    | _          |
 
 #### features<br>
@@ -7791,12 +7790,10 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key          | type   | variable   |
-|:-------------|:-------|:-----------|
-| listId       | ...    | s          |
-| count        | ...    | i          |
-| cursor       | ...    | a          |
-| ...()(0,r.d) | ...    | _          |
+| key                    | type   | variable   |
+|:-----------------------|:-------|:-----------|
+| bookmark_collection_id | ...    | n          |
+| name                   | ...    | o          |
 
 #### features<br>
 | key                                                                     | type    | variable   |
@@ -9986,7 +9983,7 @@ Login Required: `...`<br>
 #### variables<br>
 | key          | type   | variable   |
 |:-------------|:-------|:-----------|
-| listId       | ...    | _.list_id  |
+| listId       | ...    | t.list_id  |
 | ...()(0,r.S) | ...    | _          |
 
 #### features<br>
@@ -10229,12 +10226,10 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key          | type   | variable   |
-|:-------------|:-------|:-----------|
-| listId       | ...    | s          |
-| count        | ...    | i          |
-| cursor       | ...    | a          |
-| ...()(0,r.d) | ...    | _          |
+| key                    | type   | variable   |
+|:-----------------------|:-------|:-----------|
+| bookmark_collection_id | ...    | n          |
+| name                   | ...    | o          |
 
 #### features<br>
 | key                                                                     | type    | variable   |
@@ -11339,7 +11334,7 @@ Login Required: `...`<br>
 #### variables<br>
 | key          | type   | variable   |
 |:-------------|:-------|:-----------|
-| listId       | ...    | _.list_id  |
+| listId       | ...    | t.list_id  |
 | ...()(0,r.S) | ...    | _          |
 
 #### features<br>
@@ -11582,12 +11577,10 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key          | type   | variable   |
-|:-------------|:-------|:-----------|
-| listId       | ...    | s          |
-| count        | ...    | i          |
-| cursor       | ...    | a          |
-| ...()(0,r.d) | ...    | _          |
+| key                    | type   | variable   |
+|:-----------------------|:-------|:-----------|
+| bookmark_collection_id | ...    | n          |
+| name                   | ...    | o          |
 
 #### features<br>
 | key                                                                     | type    | variable   |
