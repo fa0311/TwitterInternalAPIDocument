@@ -2273,8 +2273,8 @@
       }
     },
     "Viewer": {
-      "url": "https://x.com/i/api/graphql/WBT8ommFCSHiy3z2_4k1Vg/Viewer",
-      "queryId": "WBT8ommFCSHiy3z2_4k1Vg",
+      "url": "https://x.com/i/api/graphql/xYMAeZB2yAlr5BPY_ihHeg/Viewer",
+      "queryId": "xYMAeZB2yAlr5BPY_ihHeg",
       "method": "GET",
       "features": {
         "profile_label_improvements_pcf_label_in_post_enabled": true,
