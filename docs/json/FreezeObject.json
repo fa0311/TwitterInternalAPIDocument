@@ -4447,11 +4447,11 @@
     "INVALID_RES_STATUS": -1
   },
   {
-    "0": "_.INTERNAL_ERROR",
-    "1": "_.INVALID_MEDIA",
-    "2": "_.FILE_TOO_LARGE",
-    "3": "_.UNSUPPORTED_MEDIA",
-    "4": "_.TIMEOUT"
+    "0": "y.INTERNAL_ERROR",
+    "1": "y.INVALID_MEDIA",
+    "2": "y.FILE_TOO_LARGE",
+    "3": "y.UNSUPPORTED_MEDIA",
+    "4": "y.TIMEOUT"
   },
   {
     "RESET": "0",
@@ -6461,21 +6461,9 @@
     "UPCOMING": "UPCOMING"
   },
   {
-    "Fixed": "fixed",
-    "Variable": "variable"
-  },
-  {
-    "Pinning": "Pinning",
-    "Reordering": "Reordering"
-  },
-  {
-    "Scheduled": "Scheduled",
-    "InProgress": "InProgress",
-    "Completed": "Completed",
-    "Postponed": "Postponed",
-    "Cancelled": "Cancelled",
-    "Unused6": "_Unused6",
-    "Unused7": "_Unused7"
+    "NotStarted": "not_started",
+    "Started": "started",
+    "Completed": "completed"
   },
   {
     "SCORE": "score",
@@ -6522,9 +6510,8 @@
     "UserInvited": "UserInvited"
   },
   {
-    "NotStarted": "not_started",
-    "Started": "started",
-    "Completed": "completed"
+    "Fixed": "fixed",
+    "Variable": "variable"
   },
   {
     "Open": "CommunityOpenMembershipSettings",
@@ -6538,6 +6525,19 @@
   {
     "Hidden": "hidden",
     "Kept": "kept"
+  },
+  {
+    "Pinning": "Pinning",
+    "Reordering": "Reordering"
+  },
+  {
+    "Scheduled": "Scheduled",
+    "InProgress": "InProgress",
+    "Completed": "Completed",
+    "Postponed": "Postponed",
+    "Cancelled": "Cancelled",
+    "Unused6": "_Unused6",
+    "Unused7": "_Unused7"
   },
   {
     "HiddenTweet": "hidden_tweet",
@@ -6613,8 +6613,8 @@
     "Subscribers": "Subscribers"
   },
   {
-    "MARKDOWN": "xe",
-    "PREVIEW": "ke"
+    "MARKDOWN": "ke",
+    "PREVIEW": "Ze"
   },
   {
     "DRAFTS": "Drafts",
@@ -7431,13 +7431,6 @@
     "FAILURE": "rweb/availableLanguages/FETCH_AVAILABLE_LANGUAGES_FAILURE"
   },
   {
-    "SELF": "self",
-    "MUTUAL_FOLLOW": "mutualfollow",
-    "FOLLOWING": "following",
-    "FOLLOWERS": "followers",
-    "PUBLIC": "public"
-  },
-  {
     "REQUEST": "rweb/settings/profile/ENABLE_VERIFIED_PHONE_LABEL_REQUEST",
     "SUCCESS": "rweb/settings/profile/ENABLE_VERIFIED_PHONE_LABEL_SUCCESS",
     "FAILURE": "rweb/settings/profile/ENABLE_VERIFIED_PHONE_LABEL_FAILURE"
@@ -7451,6 +7444,13 @@
     "REQUEST": "rweb/settings/profile/FETCH_VERIFIED_PHONE_LABEL_REQUEST",
     "SUCCESS": "rweb/settings/profile/FETCH_VERIFIED_PHONE_LABEL_SUCCESS",
     "FAILURE": "rweb/settings/profile/FETCH_VERIFIED_PHONE_LABEL_FAILURE"
+  },
+  {
+    "SELF": "self",
+    "MUTUAL_FOLLOW": "mutualfollow",
+    "FOLLOWING": "following",
+    "FOLLOWERS": "followers",
+    "PUBLIC": "public"
   },
   {
     "SUPERSCRIPT_AND_SUBSCRIPT": "superscript_and_subscript",
@@ -7778,21 +7778,6 @@
   {
     "TopicCategory": "topic_category",
     "Topic": "topic"
-  },
-  {
-    "REQUEST": "rweb/settings/profile/ENABLE_VERIFIED_PHONE_LABEL_REQUEST",
-    "SUCCESS": "rweb/settings/profile/ENABLE_VERIFIED_PHONE_LABEL_SUCCESS",
-    "FAILURE": "rweb/settings/profile/ENABLE_VERIFIED_PHONE_LABEL_FAILURE"
-  },
-  {
-    "REQUEST": "rweb/settings/profile/DISABLE_VERIFIED_PHONE_LABEL_REQUEST",
-    "SUCCESS": "rweb/settings/profile/DISABLE_VERIFIED_PHONE_LABEL_SUCCESS",
-    "FAILURE": "rweb/settings/profile/DISABLE_VERIFIED_PHONE_LABEL_FAILURE"
-  },
-  {
-    "REQUEST": "rweb/settings/profile/FETCH_VERIFIED_PHONE_LABEL_REQUEST",
-    "SUCCESS": "rweb/settings/profile/FETCH_VERIFIED_PHONE_LABEL_SUCCESS",
-    "FAILURE": "rweb/settings/profile/FETCH_VERIFIED_PHONE_LABEL_FAILURE"
   },
   {
     "REQUEST": "rweb/settings/usernames/FETCH_USERNAMES_REQUEST",
@@ -8270,12 +8255,12 @@
       "value": "onsite"
     },
     "remote": {
-      "label": "D",
+      "label": "C",
       "description": "P",
       "value": "remote"
     },
     "hybrid": {
-      "label": "C",
+      "label": "D",
       "description": "M",
       "value": "hybrid"
     }
@@ -8334,11 +8319,11 @@
     "section": "hiring"
   },
   {
-    "...Ze": "_",
+    "...r": "_",
     "component": "job-splash-screen"
   },
   {
-    "...Ze": "_",
+    "...r": "_",
     "component": "sync-ats-jobs"
   },
   {
@@ -9072,11 +9057,6 @@
     "OffensiveProfileContent": "offensive_profile_content",
     "SensitiveMedia": "sensitive_media",
     "Timeout": "timeout"
-  },
-  {
-    "NotStarted": "not_started",
-    "Started": "started",
-    "Completed": "completed"
   },
   {
     "FakeAccount": "fake_account",
@@ -10013,6 +9993,10 @@
     "format_inline": "format-inline"
   },
   {
+    "Pinning": "Pinning",
+    "Reordering": "Reordering"
+  },
+  {
     "CompactPrompt": "compactPrompt",
     "HeaderImagePrompt": "headerImagePrompt",
     "InlinePrompt": "inlinePrompt",
@@ -10131,7 +10115,7 @@
     "IncentiveFocus": "IncentiveFocus",
     "TopicFocus": "TopicFocus"
   },
-  "{[L.LIVE_EVENT]:\"!0\",[L.MOMENT]:\"!0\",[L.SUMMARY]:\"!0\",[L.SUMMARY_LARGE_IMAGE]:\"!0\",[L.AUDIOSPACE]:\"!0\"}",
+  "{[V.LIVE_EVENT]:\"!0\",[V.MOMENT]:\"!0\",[V.SUMMARY]:\"!0\",[V.SUMMARY_LARGE_IMAGE]:\"!0\",[V.AUDIOSPACE]:\"!0\"}",
   {
     "CONVERSATION": "conversation",
     "TIMELINE": "timeline"
