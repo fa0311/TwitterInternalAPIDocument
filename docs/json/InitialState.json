@@ -1736,7 +1736,7 @@
         "value": "true"
       },
       "responsive_web_grok_enable_deepersearch": {
-        "value": "true"
+        "value": "false"
       },
       "responsive_web_grok_enable_deepsearch_notifications": {
         "value": "true"
@@ -2171,7 +2171,7 @@
         "value": "true"
       },
       "responsive_web_qp_full_popup_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "responsive_web_qp_keyword_targeting_enabled": {
         "value": "false"
@@ -3160,10 +3160,10 @@
         "value": "false"
       },
       "subscriptions_upsells_verified_profile_sidebar_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "subscriptions_upsells_verified_profile_sidebar_variant": {
-        "value": ""
+        "value": "variant_d"
       },
       "subscriptions_upsells_vo_nav_decoration_enabled": {
         "value": "false"
@@ -5262,7 +5262,7 @@
           "value": "true"
         },
         "responsive_web_grok_atgrok_sample_rate": {
-          "value": "0.2"
+          "value": "0.5"
         },
         "responsive_web_grok_backend_prompts_enabled": {
           "value": "true"
@@ -5289,7 +5289,7 @@
           "value": "true"
         },
         "responsive_web_grok_enable_deepersearch": {
-          "value": "true"
+          "value": "false"
         },
         "responsive_web_grok_enable_deepsearch_notifications": {
           "value": "true"
@@ -5724,7 +5724,7 @@
           "value": "true"
         },
         "responsive_web_qp_full_popup_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "responsive_web_qp_keyword_targeting_enabled": {
           "value": "false"
@@ -7211,10 +7211,10 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "6167f08e73d035523882ec8793044884"
+      "settingsVersion": "e25e55436bd57e4a9abc2a35bbf8089f"
     },
     "debug": {},
-    "featureSetToken": "4af928aae2442b55c0ab614020b54a371afe6f74",
+    "featureSetToken": "99c7fec1119a32a8133b20acc4e06c981ad26922",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -7283,7 +7283,7 @@
   },
   "session": {
     "country": "XX",
-    "guestId": "174285010378829483",
+    "guestId": "174293651491798447",
     "hasCommunityMemberships": "false",
     "hasPasskey": "false",
     "isActiveCreator": "false",
