@@ -1783,7 +1783,7 @@
     "testNumber": "1",
     "testViewCountShow": "!0"
   },
-  "{\"avatarURIForHashtagHighlight\":\"void 0\",\"birdwatchPivotsEnabled\":\"!0\",\"c9sEnabled\":\"!1\",\"c9sThemesEnabled\":\"!1\",\"c9sHashtagsEnabled\":\"!1\",\"cardCarouselClickableNavArea\":\"control\",\"collectionAdsEnabled\":\"!1\",\"shouldConvertCollectionToImageWebsiteCard\":\"!1\",\"dpaMetadataEnabled\":\"!1\",\"dpaCtaEnabled\":\"!1\",\"dpaPlaceholderMediaKeys\":\"!1\",\"explorerAdsEnabled\":\"!1\",\"fosnrSoftInterventionsEnabled\":\"!1\",\"grokShareEnabled\":\"!1\",\"continueInGrokEnabled\":\"!1\",\"openGrok\":()=>{},\"withEditCallout\":\"!1\",\"withEdgeToEdgeContent\":\"!1\",\"withEdgeToEdgeTweetAnatomy\":\"!1\",\"highlightedHashtag\":\"void 0\",\"isCopyrightDisputeLinkEnabled\":\"!1\",\"isDeveloperBuiltCardEnabled\":\"!1\",\"isDMDrawer\":\"!1\",\"isEditTweetConsumptionEnabled\":\"!1\",\"nonSafariShouldUseCardCarouselV2\":\"!1\",\"withMediaCarousel\":\"!1\",\"onMediaHashtagHighlightClick\":\"void 0\",\"safariShouldUseCardCarouselV2\":\"control\",\"sensitiveMediaWarningsEnabled\":\"!1\",\"mediaVisibilityResultsEnabled\":\"!1\",\"shouldPreconnectToCardDestinations\":\"!1\",\"showSimilarPostsPivotEnabled\":\"!0\",\"shouldUseSmallFontForHashtagHighlight\":\"!1\",\"trustedFriendsEnabled\":\"!1\",\"trustedFriendsCreationEnabled\":\"!1\",\"socialContextRefreshEnabled\":\"!1\",\"trustedFriendsInfo\":\"void 0\",\"isCarouselItem\":\"!1\",\"followButtonAtBottomOfPromotedUserCard\":\"!1\",\"tweetMediaItemImmersiveViewerEntryPoint\":\"void 0\",\"withVodTweetDetailAttribution\":\"!1\",\"isEmbedBrandLinkExperimentEnabled\":\"!1\",\"isSoftBlockEnabled\":\"!1\",\"userAvatarLabel\":\"!1\",\"canVerifiedCrawlerConsumeSensitiveMedia\":\"!1\",\"shouldUseLocaleContextDirection\":\"!1\",\"blueBusinessVerifiedBadgeEnabled\":\"!1\",\"blueBusinessAffiliateBadgeEnabled\":\"!1\",\"blueGovernmentVerifiedBadgeEnabled\":\"!1\",\"newBadgeColorEnabled\":\"!1\",\"tweetViewCountsEnabled\":\"!1\",\"webImageLargeWebpVariants\":\"!1\",\"redesignedLabelForSubscribedTweets\":\"!1\",\"renderArticleCardInTweet\":\"!1\",\"renderCompactCardDetail\":\"!1\",\"roundCountInTweetAction\":\"!0\",\"isWebRedesign\":\"!1\",\"...n\":\"_\"}",
+  "{\"avatarURIForHashtagHighlight\":\"void 0\",\"birdwatchPivotsEnabled\":\"!0\",\"c9sEnabled\":\"!1\",\"c9sThemesEnabled\":\"!1\",\"c9sHashtagsEnabled\":\"!1\",\"cardCarouselClickableNavArea\":\"control\",\"collectionAdsEnabled\":\"!1\",\"shouldConvertCollectionToImageWebsiteCard\":\"!1\",\"dpaMetadataEnabled\":\"!1\",\"dpaCtaEnabled\":\"!1\",\"dpaPlaceholderMediaKeys\":\"!1\",\"explorerAdsEnabled\":\"!1\",\"fosnrSoftInterventionsEnabled\":\"!1\",\"grokShareEnabled\":\"!1\",\"continueInGrokEnabled\":\"!1\",\"openGrok\":()=>{},\"withEditCallout\":\"!1\",\"withEdgeToEdgeContent\":\"!1\",\"withEdgeToEdgeTweetAnatomy\":\"!1\",\"highlightedHashtag\":\"void 0\",\"isCopyrightDisputeLinkEnabled\":\"!1\",\"isDeveloperBuiltCardEnabled\":\"!1\",\"isDMDrawer\":\"!1\",\"isEditTweetConsumptionEnabled\":\"!1\",\"nonSafariShouldUseCardCarouselV2\":\"!1\",\"withMediaCarousel\":\"!1\",\"onMediaHashtagHighlightClick\":\"void 0\",\"safariShouldUseCardCarouselV2\":\"control\",\"sensitiveMediaWarningsEnabled\":\"!1\",\"mediaVisibilityResultsEnabled\":\"!1\",\"shouldPreconnectToCardDestinations\":\"!1\",\"showSimilarPostsPivotEnabled\":\"!0\",\"shouldUseSmallFontForHashtagHighlight\":\"!1\",\"trustedFriendsEnabled\":\"!1\",\"trustedFriendsCreationEnabled\":\"!1\",\"socialContextRefreshEnabled\":\"!1\",\"trustedFriendsInfo\":\"void 0\",\"isCarouselItem\":\"!1\",\"followButtonAtBottomOfPromotedUserCard\":\"!1\",\"tweetMediaItemImmersiveViewerEntryPoint\":\"void 0\",\"withVodTweetDetailAttribution\":\"!1\",\"isEmbedBrandLinkExperimentEnabled\":\"!1\",\"isSoftBlockEnabled\":\"!1\",\"userAvatarLabel\":\"!1\",\"canVerifiedCrawlerConsumeSensitiveMedia\":\"!1\",\"shouldUseLocaleContextDirection\":\"!1\",\"blueBusinessVerifiedBadgeEnabled\":\"!1\",\"blueBusinessAffiliateBadgeEnabled\":\"!1\",\"blueGovernmentVerifiedBadgeEnabled\":\"!1\",\"newBadgeColorEnabled\":\"!1\",\"tweetViewCountsEnabled\":\"!1\",\"redesignedLabelForSubscribedTweets\":\"!1\",\"renderArticleCardInTweet\":\"!1\",\"renderCompactCardDetail\":\"!1\",\"roundCountInTweetAction\":\"!0\",\"isWebRedesign\":\"!1\",\"...n\":\"_\"}",
   {
     "CommunityNotes": "CommunityNotes",
     "LiveEvent": "LiveEvent",
@@ -1878,9 +1878,9 @@
       "bold": "!0",
       "fontSize": "subtext3"
     },
-    "alt": "P",
-    "gif": "P",
-    "hd": "P",
+    "alt": "k",
+    "gif": "k",
+    "hd": "k",
     "likedByAuthor": {
       "backgroundColor": "gray50",
       "bold": "!1",
@@ -8270,12 +8270,12 @@
       "value": "onsite"
     },
     "remote": {
-      "label": "D",
+      "label": "C",
       "description": "P",
       "value": "remote"
     },
     "hybrid": {
-      "label": "C",
+      "label": "D",
       "description": "M",
       "value": "hybrid"
     }
@@ -8334,11 +8334,11 @@
     "section": "hiring"
   },
   {
-    "...Ze": "_",
+    "...r": "_",
     "component": "job-splash-screen"
   },
   {
-    "...Ze": "_",
+    "...r": "_",
     "component": "sync-ats-jobs"
   },
   {
@@ -8390,7 +8390,7 @@
     "CreditSuccessStep": "CreditSuccessStep",
     "FinalConfirmationStep": "FinalConfirmationStep"
   },
-  "{[y.hA.switchFromDirect]:\"m().dca6b3ac\",[y.hA.generate]:\"m().dca6b3ac\",[y.hA.updateSeats]:\"m().c97ad52a\"}",
+  "{[h.hA.switchFromDirect]:\"m().dca6b3ac\",[h.hA.generate]:\"m().dca6b3ac\",[h.hA.updateSeats]:\"m().c97ad52a\"}",
   "{[w.hA.generate]:\"_().fc1f43d0\",[w.hA.switchFromDirect]:\"_().fc1f43d0\",[w.hA.updateSeats]:\"_().c97ad52a\"}",
   {
     "FullAccess": "FullAccess",
@@ -9372,11 +9372,11 @@
     "articles": "article_tweets"
   },
   "{\"default\":\"()\"{\"screenName\":\"e\"}{\"screenName\":\"e\"}{\"screenName\":\"e\"}{\"screenName\":\"e\"}{\"screenName\":\"e\"}{\"screenName\":\"e\"}{\"screenName\":\"e\"}{\"screenName\":\"e\"}{\"screenName\":\"e\"}{\"screenName\":\"e\"}}",
-  "{\"default\":()=>a().b7363b66,\"with_replies\":()=>a().b7363b66,\"superfollows\":()=>a().ce659062,\"highlights\":()=>a().f1e98cc2,\"articles\":()=>a().d5c743c6}",
-  "{\"default\":()=>a().d1e5e328,\"with_replies\":()=>a().d1e5e328,\"superfollows\":()=>a().hb26a1fe,\"highlights\":()=>a().b7c3572e,\"articles\":()=>a().i8123550}",
+  "{\"default\":()=>o().b7363b66,\"with_replies\":()=>o().b7363b66,\"superfollows\":()=>o().ce659062,\"highlights\":()=>o().f1e98cc2,\"articles\":()=>o().d5c743c6}",
+  "{\"default\":()=>o().d1e5e328,\"with_replies\":()=>o().d1e5e328,\"superfollows\":()=>o().hb26a1fe,\"highlights\":()=>o().b7c3572e,\"articles\":()=>o().i8123550}",
   "{\"default\":\"()\"{\"screenName\":\"e\"}{\"screenName\":\"e\"}{\"screenName\":\"e\"}{\"screenName\":\"e\"}{\"screenName\":\"e\"}{\"screenName\":\"e\"}}",
-  "{\"default\":()=>a().f34dfc18,\"with_replies\":()=>a().f34dfc18,\"superfollows\":()=>a().h9346040,\"articles\":()=>a().i4c3ddc6}",
-  "{\"default\":()=>a().e0118142,\"articles\":()=>a().ee9e42aa}",
+  "{\"default\":()=>o().f34dfc18,\"with_replies\":()=>o().f34dfc18,\"superfollows\":()=>o().h9346040,\"articles\":()=>o().i4c3ddc6}",
+  "{\"default\":()=>o().e0118142,\"articles\":()=>o().ee9e42aa}",
   {
     "default": "/compose/post",
     "articles": "/compose/articles"
@@ -10131,7 +10131,7 @@
     "IncentiveFocus": "IncentiveFocus",
     "TopicFocus": "TopicFocus"
   },
-  "{[L.LIVE_EVENT]:\"!0\",[L.MOMENT]:\"!0\",[L.SUMMARY]:\"!0\",[L.SUMMARY_LARGE_IMAGE]:\"!0\",[L.AUDIOSPACE]:\"!0\"}",
+  "{[V.LIVE_EVENT]:\"!0\",[V.MOMENT]:\"!0\",[V.SUMMARY]:\"!0\",[V.SUMMARY_LARGE_IMAGE]:\"!0\",[V.AUDIOSPACE]:\"!0\"}",
   {
     "CONVERSATION": "conversation",
     "TIMELINE": "timeline"

@@ -1709,7 +1709,7 @@
         "value": "true"
       },
       "responsive_web_grok_atgrok_sample_rate": {
-        "value": "0.2"
+        "value": "0.5"
       },
       "responsive_web_grok_backend_prompts_enabled": {
         "value": "true"
@@ -2171,7 +2171,7 @@
         "value": "true"
       },
       "responsive_web_qp_full_popup_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "responsive_web_qp_keyword_targeting_enabled": {
         "value": "false"
@@ -2195,6 +2195,9 @@
         "value": "false"
       },
       "responsive_web_report_page_not_found": {
+        "value": "false"
+      },
+      "responsive_web_saved_search_enabled": {
         "value": "false"
       },
       "responsive_web_scheduling_threads_enabled": {
@@ -2282,9 +2285,6 @@
         "value": "true"
       },
       "responsive_web_tv_screen_logging_enabled": {
-        "value": "false"
-      },
-      "responsive_web_tweet_analytics_m2_enabled": {
         "value": "false"
       },
       "responsive_web_tweet_analytics_m3_enabled": {
@@ -2444,9 +2444,6 @@
         "value": "true"
       },
       "responsive_web_x_translation_enabled": {
-        "value": "false"
-      },
-      "rweb_2_column_htl_prototype_virtual_scroller_enabled": {
         "value": "false"
       },
       "rweb_analytics_audience_xweb_enabled": {
@@ -2659,9 +2656,6 @@
       "rweb_video_tagging_enabled": {
         "value": "false"
       },
-      "rweb_video_timestamps_enabled": {
-        "value": "true"
-      },
       "sc_mock_data_enabled": {
         "value": "false"
       },
@@ -2828,12 +2822,6 @@
       },
       "spaces_dtx_opus_dtx_enabled": {
         "value": "false"
-      },
-      "spaces_incognito_consumption_default": {
-        "value": "false"
-      },
-      "spaces_incognito_consumption_enabled": {
-        "value": "true"
       },
       "spaces_video_admins_enabled": {
         "value": "false"
@@ -3160,10 +3148,10 @@
         "value": "false"
       },
       "subscriptions_upsells_verified_profile_sidebar_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "subscriptions_upsells_verified_profile_sidebar_variant": {
-        "value": ""
+        "value": "variant_d"
       },
       "subscriptions_upsells_vo_nav_decoration_enabled": {
         "value": "false"
@@ -3591,9 +3579,6 @@
       "voice_rooms_web_space_creation": {
         "value": "true"
       },
-      "web_image_large_webp_variants": {
-        "value": "false"
-      },
       "web_video_caption_repositioning_enabled": {
         "value": "true"
       },
@@ -3987,7 +3972,7 @@
           "value": "true"
         },
         "blue_business_multi_affiliates_ui_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "blue_business_simplify_signup_ui": {
           "value": "true"
@@ -5262,7 +5247,7 @@
           "value": "true"
         },
         "responsive_web_grok_atgrok_sample_rate": {
-          "value": "0.2"
+          "value": "0.5"
         },
         "responsive_web_grok_backend_prompts_enabled": {
           "value": "true"
@@ -5724,7 +5709,7 @@
           "value": "true"
         },
         "responsive_web_qp_full_popup_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "responsive_web_qp_keyword_targeting_enabled": {
           "value": "false"
@@ -5748,6 +5733,9 @@
           "value": "false"
         },
         "responsive_web_report_page_not_found": {
+          "value": "false"
+        },
+        "responsive_web_saved_search_enabled": {
           "value": "false"
         },
         "responsive_web_scheduling_threads_enabled": {
@@ -5835,9 +5823,6 @@
           "value": "true"
         },
         "responsive_web_tv_screen_logging_enabled": {
-          "value": "false"
-        },
-        "responsive_web_tweet_analytics_m2_enabled": {
           "value": "false"
         },
         "responsive_web_tweet_analytics_m3_enabled": {
@@ -5999,9 +5984,6 @@
         "responsive_web_x_translation_enabled": {
           "value": "false"
         },
-        "rweb_2_column_htl_prototype_virtual_scroller_enabled": {
-          "value": "false"
-        },
         "rweb_analytics_audience_xweb_enabled": {
           "value": "true"
         },
@@ -6063,7 +6045,7 @@
           "value": "true"
         },
         "rweb_analytics_video_detail_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "rweb_analytics_video_detail_revenue_enabled": {
           "value": "false"
@@ -6211,9 +6193,6 @@
         },
         "rweb_video_tagging_enabled": {
           "value": "false"
-        },
-        "rweb_video_timestamps_enabled": {
-          "value": "true"
         },
         "sc_mock_data_enabled": {
           "value": "false"
@@ -6381,12 +6360,6 @@
         },
         "spaces_dtx_opus_dtx_enabled": {
           "value": "false"
-        },
-        "spaces_incognito_consumption_default": {
-          "value": "false"
-        },
-        "spaces_incognito_consumption_enabled": {
-          "value": "true"
         },
         "spaces_video_admins_enabled": {
           "value": "false"
@@ -7144,9 +7117,6 @@
         "voice_rooms_web_space_creation": {
           "value": "true"
         },
-        "web_image_large_webp_variants": {
-          "value": "false"
-        },
         "web_video_caption_repositioning_enabled": {
           "value": "true"
         },
@@ -7211,10 +7181,10 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "6167f08e73d035523882ec8793044884"
+      "settingsVersion": "83058c9d5f277195efc38d498dea2c17"
     },
     "debug": {},
-    "featureSetToken": "4af928aae2442b55c0ab614020b54a371afe6f74",
+    "featureSetToken": "b7e6f1b3aa20248220f27d32af246f0105c5c0af",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -7283,7 +7253,7 @@
   },
   "session": {
     "country": "XX",
-    "guestId": "174285053986781332",
+    "guestId": "174310977081723299",
     "hasCommunityMemberships": "false",
     "hasPasskey": "false",
     "isActiveCreator": "false",

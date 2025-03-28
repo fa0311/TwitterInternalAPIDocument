@@ -4670,3 +4670,30 @@
 - None<br>
 #### remove<br>
 - rweb_jetfuel_loggedout_timeline<br>
+## 2025/03/26<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- responsive_web_tweet_analytics_m2_enabled<br>
+- rweb_2_column_htl_prototype_virtual_scroller_enabled<br>
+- rweb_video_timestamps_enabled<br>
+- spaces_incognito_consumption_default<br>
+- spaces_incognito_consumption_enabled<br>
+- web_image_large_webp_variants<br>
+## 2025/03/27<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- responsive_web_saved_search_enabled<br>
+#### remove<br>
+- None<br>
