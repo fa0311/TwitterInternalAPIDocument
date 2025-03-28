@@ -634,8 +634,8 @@
     "sideNavWidthsRedesign": "l",
     "contentWidths": "i",
     "contentWidthsRedesign": "s",
-    "wideTabBarWidth": "c",
-    "dmDrawerHeight": "t",
+    "wideTabBarWidth": "t",
+    "dmDrawerHeight": "c",
     "dmDrawerWidth": "b"
   },
   {
@@ -1252,7 +1252,7 @@
     "SETTINGS": "/i/verified/settings",
     "JOB_PROMOTION_SETTINGS": "/i/verified/settings/job-promotion",
     "RADAR": "/i/business/radar",
-    "PEOPLE_SEARCH": "/i/business/people"
+    "PEOPLE_SEARCH": "https://people.x.com/"
   },
   {
     "Off": "Off",
@@ -1303,24 +1303,24 @@
     "FAILURE": "rweb/devices/FETCH_PUSH_NOTIFICATION_PERMISSION_STATE_FAILURE"
   },
   {
-    "broadcasts": "c",
-    "cards": "c",
-    "commerceItems": "c",
-    "communities": "c",
-    "conversations": "c",
-    "entries": "c",
-    "grokShare": "c",
-    "lists": "c",
-    "livestreams": "c",
-    "moments": "c",
-    "topics": "c",
-    "tweets": "c",
-    "articleEntities": "c",
-    "trustedFriends": "c",
-    "userPresence": "c",
-    "userCommunityInviteActionResult": "c",
-    "users": "c",
-    "aitrends": "c"
+    "broadcasts": "t",
+    "cards": "t",
+    "commerceItems": "t",
+    "communities": "t",
+    "conversations": "t",
+    "entries": "t",
+    "grokShare": "t",
+    "lists": "t",
+    "livestreams": "t",
+    "moments": "t",
+    "topics": "t",
+    "tweets": "t",
+    "articleEntities": "t",
+    "trustedFriends": "t",
+    "userPresence": "t",
+    "userCommunityInviteActionResult": "t",
+    "users": "t",
+    "aitrends": "t"
   },
   {
     "REQUEST": "rweb/featureSwitch/FETCH_FEATURE_SWITCHES_REQUEST",
@@ -1783,7 +1783,7 @@
     "testNumber": "1",
     "testViewCountShow": "!0"
   },
-  "{\"avatarURIForHashtagHighlight\":\"void 0\",\"birdwatchPivotsEnabled\":\"!0\",\"c9sEnabled\":\"!1\",\"c9sThemesEnabled\":\"!1\",\"c9sHashtagsEnabled\":\"!1\",\"cardCarouselClickableNavArea\":\"control\",\"collectionAdsEnabled\":\"!1\",\"shouldConvertCollectionToImageWebsiteCard\":\"!1\",\"dpaMetadataEnabled\":\"!1\",\"dpaCtaEnabled\":\"!1\",\"dpaPlaceholderMediaKeys\":\"!1\",\"explorerAdsEnabled\":\"!1\",\"fosnrSoftInterventionsEnabled\":\"!1\",\"grokShareEnabled\":\"!1\",\"continueInGrokEnabled\":\"!1\",\"openGrok\":()=>{},\"withEditCallout\":\"!1\",\"withEdgeToEdgeContent\":\"!1\",\"withEdgeToEdgeTweetAnatomy\":\"!1\",\"highlightedHashtag\":\"void 0\",\"isCopyrightDisputeLinkEnabled\":\"!1\",\"isDeveloperBuiltCardEnabled\":\"!1\",\"isDMDrawer\":\"!1\",\"isEditTweetConsumptionEnabled\":\"!1\",\"nonSafariShouldUseCardCarouselV2\":\"!1\",\"withMediaCarousel\":\"!1\",\"onMediaHashtagHighlightClick\":\"void 0\",\"safariShouldUseCardCarouselV2\":\"control\",\"sensitiveMediaWarningsEnabled\":\"!1\",\"mediaVisibilityResultsEnabled\":\"!1\",\"shouldPreconnectToCardDestinations\":\"!1\",\"showSimilarPostsPivotEnabled\":\"!0\",\"shouldUseSmallFontForHashtagHighlight\":\"!1\",\"trustedFriendsEnabled\":\"!1\",\"trustedFriendsCreationEnabled\":\"!1\",\"socialContextRefreshEnabled\":\"!1\",\"trustedFriendsInfo\":\"void 0\",\"isCarouselItem\":\"!1\",\"followButtonAtBottomOfPromotedUserCard\":\"!1\",\"tweetMediaItemImmersiveViewerEntryPoint\":\"void 0\",\"withVodTweetDetailAttribution\":\"!1\",\"isEmbedBrandLinkExperimentEnabled\":\"!1\",\"isSoftBlockEnabled\":\"!1\",\"userAvatarLabel\":\"!1\",\"canVerifiedCrawlerConsumeSensitiveMedia\":\"!1\",\"shouldUseLocaleContextDirection\":\"!1\",\"blueBusinessVerifiedBadgeEnabled\":\"!1\",\"blueBusinessAffiliateBadgeEnabled\":\"!1\",\"blueGovernmentVerifiedBadgeEnabled\":\"!1\",\"newBadgeColorEnabled\":\"!1\",\"tweetViewCountsEnabled\":\"!1\",\"redesignedLabelForSubscribedTweets\":\"!1\",\"renderArticleCardInTweet\":\"!1\",\"renderCompactCardDetail\":\"!1\",\"roundCountInTweetAction\":\"!0\",\"isWebRedesign\":\"!1\",\"...n\":\"_\"}",
+  "{\"avatarURIForHashtagHighlight\":\"void 0\",\"birdwatchPivotsEnabled\":\"!0\",\"c9sEnabled\":\"!1\",\"c9sThemesEnabled\":\"!1\",\"c9sHashtagsEnabled\":\"!1\",\"cardCarouselClickableNavArea\":\"control\",\"collectionAdsEnabled\":\"!1\",\"shouldConvertCollectionToImageWebsiteCard\":\"!1\",\"dpaMetadataEnabled\":\"!1\",\"dpaCtaEnabled\":\"!1\",\"dpaPlaceholderMediaKeys\":\"!1\",\"explorerAdsEnabled\":\"!1\",\"fosnrSoftInterventionsEnabled\":\"!1\",\"grokShareEnabled\":\"!1\",\"continueInGrokEnabled\":\"!1\",\"openGrok\":()=>{},\"withEditCallout\":\"!1\",\"withEdgeToEdgeContent\":\"!1\",\"withEdgeToEdgeTweetAnatomy\":\"!1\",\"highlightedHashtag\":\"void 0\",\"isCopyrightDisputeLinkEnabled\":\"!1\",\"isDeveloperBuiltCardEnabled\":\"!1\",\"isDMDrawer\":\"!1\",\"isEditTweetConsumptionEnabled\":\"!1\",\"nonSafariShouldUseCardCarouselV2\":\"!1\",\"withMediaCarousel\":\"!1\",\"onMediaHashtagHighlightClick\":\"void 0\",\"safariShouldUseCardCarouselV2\":\"control\",\"sensitiveMediaWarningsEnabled\":\"!1\",\"mediaVisibilityResultsEnabled\":\"!1\",\"shouldPreconnectToCardDestinations\":\"!1\",\"showSimilarPostsPivotEnabled\":\"!0\",\"shouldUseSmallFontForHashtagHighlight\":\"!1\",\"trustedFriendsEnabled\":\"!1\",\"trustedFriendsCreationEnabled\":\"!1\",\"socialContextRefreshEnabled\":\"!1\",\"trustedFriendsInfo\":\"void 0\",\"isCarouselItem\":\"!1\",\"followButtonAtBottomOfPromotedUserCard\":\"!1\",\"tweetMediaItemImmersiveViewerEntryPoint\":\"void 0\",\"withVodTweetDetailAttribution\":\"!1\",\"isEmbedBrandLinkExperimentEnabled\":\"!1\",\"isSoftBlockEnabled\":\"!1\",\"userAvatarLabel\":\"!1\",\"canVerifiedCrawlerConsumeSensitiveMedia\":\"!1\",\"shouldUseLocaleContextDirection\":\"!1\",\"blueBusinessVerifiedBadgeEnabled\":\"!1\",\"blueBusinessAffiliateBadgeEnabled\":\"!1\",\"blueGovernmentVerifiedBadgeEnabled\":\"!1\",\"newBadgeColorEnabled\":\"!1\",\"tweetViewCountsEnabled\":\"!1\",\"redesignedLabelForSubscribedTweets\":\"!1\",\"renderArticleCardInTweet\":\"!1\",\"renderCompactCardDetail\":\"!1\",\"roundCountInTweetAction\":\"!0\",\"isWebRedesign\":\"!1\",\"isVerticalVideoNoBlackBars\":\"!1\",\"...n\":\"_\"}",
   {
     "CommunityNotes": "CommunityNotes",
     "LiveEvent": "LiveEvent",
@@ -1878,9 +1878,9 @@
       "bold": "!0",
       "fontSize": "subtext3"
     },
-    "alt": "k",
-    "gif": "k",
-    "hd": "k",
+    "alt": "P",
+    "gif": "P",
+    "hd": "P",
     "likedByAuthor": {
       "backgroundColor": "gray50",
       "bold": "!1",
@@ -2300,8 +2300,8 @@
     "baseFontSize": "y",
     "borderRadii": "u",
     "borderRadiiPx": "s",
-    "borderWidths": "t",
-    "borderWidthsPx": "c",
+    "borderWidths": "c",
+    "borderWidthsPx": "t",
     "breakpoints": "n",
     "componentDimensions": "_",
     "componentZIndices": "l",
@@ -2383,7 +2383,7 @@
     "manageView": "manageView",
     "settingsView": "settingsView"
   },
-  "{[U.Q.host]:{\"title\":\"M.hostTitle\",\"maybePluralFormatter\":\"O\"},[U.Q.cohost]:{\"title\":\"M.cohostTitle\",\"maybePluralFormatter\":\"H\"},[U.Q.speaker]:{\"title\":\"M.speakerTitle\",\"maybePluralFormatter\":\"A\"},[U.Q.listener]:{\"title\":\"M.listenerTitle\",\"maybePluralFormatter\":\"q\"}}",
+  "{[R.Q.host]:{\"title\":\"O.hostTitle\",\"maybePluralFormatter\":\"H\"},[R.Q.cohost]:{\"title\":\"O.cohostTitle\",\"maybePluralFormatter\":\"A\"},[R.Q.speaker]:{\"title\":\"O.speakerTitle\",\"maybePluralFormatter\":\"q\"},[R.Q.listener]:{\"title\":\"O.listenerTitle\",\"maybePluralFormatter\":\"B\"}}",
   {
     "onlyInvited": "onlyInvited",
     "peopleYouFollow": "peopleYouFollow",
@@ -6370,9 +6370,9 @@
     "PromotedUserProfileCard": "v.Z",
     "ReplyContext": "I.ZP",
     "RichContent": "E.Z",
-    "SocialContext": "h.Z",
+    "SocialContext": "w.Z",
     "Text": "k.Z",
-    "Tombstone": "C.Z",
+    "Tombstone": "g.Z",
     "Timestamp": "p.Z",
     "UserAvatar": "P.Z",
     "UserFollowIndicator": "A.Z",
@@ -6709,7 +6709,7 @@
     "PromotedUserProfileCard": "x.Z",
     "ReplyContext": "I.ZP",
     "RichContent": "k.Z",
-    "SocialContext": "g.Z",
+    "SocialContext": "w.Z",
     "Text": "M.Z",
     "Tombstone": "p.Z",
     "Timestamp": "h.Z",
@@ -8659,8 +8659,8 @@
     "Media": "v.Z",
     "Place": "a.ZP",
     "PromotedDetails": "u.Z",
-    "PromotedUserProfileCard": "I.Z",
-    "ReplyContext": "x.ZP",
+    "PromotedUserProfileCard": "x.Z",
+    "ReplyContext": "I.ZP",
     "RichContent": "k.Z",
     "SocialContext": "p.Z",
     "Text": "M.Z",
@@ -10131,7 +10131,7 @@
     "IncentiveFocus": "IncentiveFocus",
     "TopicFocus": "TopicFocus"
   },
-  "{[V.LIVE_EVENT]:\"!0\",[V.MOMENT]:\"!0\",[V.SUMMARY]:\"!0\",[V.SUMMARY_LARGE_IMAGE]:\"!0\",[V.AUDIOSPACE]:\"!0\"}",
+  "{[L.LIVE_EVENT]:\"!0\",[L.MOMENT]:\"!0\",[L.SUMMARY]:\"!0\",[L.SUMMARY_LARGE_IMAGE]:\"!0\",[L.AUDIOSPACE]:\"!0\"}",
   {
     "CONVERSATION": "conversation",
     "TIMELINE": "timeline"
