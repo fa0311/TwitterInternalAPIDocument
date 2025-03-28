@@ -653,8 +653,8 @@ This document is entirely auto-generated and may contain errors.<br>
 | sideNavWidthsRedesign | l       |
 | contentWidths         | i       |
 | contentWidthsRedesign | s       |
-| wideTabBarWidth       | c       |
-| dmDrawerHeight        | t       |
+| wideTabBarWidth       | t       |
+| dmDrawerHeight        | c       |
 | dmDrawerWidth         | b       |
 
 | constant      | value         |
@@ -1283,7 +1283,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | SETTINGS               | /i/verified/settings               |
 | JOB_PROMOTION_SETTINGS | /i/verified/settings/job-promotion |
 | RADAR                  | /i/business/radar                  |
-| PEOPLE_SEARCH          | /i/business/people                 |
+| PEOPLE_SEARCH          | https://people.x.com/              |
 
 | constant   | value    |
 |:-----------|:---------|
@@ -1348,24 +1348,24 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant                        | value   |
 |:--------------------------------|:--------|
-| broadcasts                      | c       |
-| cards                           | c       |
-| commerceItems                   | c       |
-| communities                     | c       |
-| conversations                   | c       |
-| entries                         | c       |
-| grokShare                       | c       |
-| lists                           | c       |
-| livestreams                     | c       |
-| moments                         | c       |
-| topics                          | c       |
-| tweets                          | c       |
-| articleEntities                 | c       |
-| trustedFriends                  | c       |
-| userPresence                    | c       |
-| userCommunityInviteActionResult | c       |
-| users                           | c       |
-| aitrends                        | c       |
+| broadcasts                      | t       |
+| cards                           | t       |
+| commerceItems                   | t       |
+| communities                     | t       |
+| conversations                   | t       |
+| entries                         | t       |
+| grokShare                       | t       |
+| lists                           | t       |
+| livestreams                     | t       |
+| moments                         | t       |
+| topics                          | t       |
+| tweets                          | t       |
+| articleEntities                 | t       |
+| trustedFriends                  | t       |
+| userPresence                    | t       |
+| userCommunityInviteActionResult | t       |
+| users                           | t       |
+| aitrends                        | t       |
 
 | constant   | value                                             |
 |:-----------|:--------------------------------------------------|
@@ -1881,9 +1881,9 @@ This document is entirely auto-generated and may contain errors.<br>
 | bestValue          | {'backgroundColor': 'green50', 'color': 'green900', 'bold': '!0', 'fontSize': 'subtext3'}                                                    |
 | mostPopular        | {'backgroundColor': 'purple50', 'color': 'purple900', 'bold': '!0', 'fontSize': 'subtext3'}                                                  |
 | priority           | {'backgroundColor': 'blue50', 'color': 'blue900', 'bold': '!0', 'fontSize': 'subtext3'}                                                      |
-| alt                | k                                                                                                                                            |
-| gif                | k                                                                                                                                            |
-| hd                 | k                                                                                                                                            |
+| alt                | P                                                                                                                                            |
+| gif                | P                                                                                                                                            |
+| hd                 | P                                                                                                                                            |
 | likedByAuthor      | {'backgroundColor': 'gray50', 'bold': '!1', 'color': 'gray700'}                                                                              |
 | urlCardTitle       | {'align': 'left', 'backgroundColor': 'translucentBlack77', 'bold': '!1', 'color': 'white', 'numberOfLines': '1', 'textOverflow': 'ellipsis'} |
 | modBadge           | {'backgroundColor': 'gray900', 'bold': '!0', 'color': 'gray0', 'fontSize': 'subtext3'}                                                       |
@@ -2312,8 +2312,8 @@ This document is entirely auto-generated and may contain errors.<br>
 | baseFontSize        | y       |
 | borderRadii         | u       |
 | borderRadiiPx       | s       |
-| borderWidths        | t       |
-| borderWidthsPx      | c       |
+| borderWidths        | c       |
+| borderWidthsPx      | t       |
 | breakpoints         | n       |
 | componentDimensions | _       |
 | componentZIndices   | l       |
@@ -2413,7 +2413,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{[U.Q.host]:{"title":"M.hostTitle","maybePluralFormatter":"O"},[U.Q.cohost]:{"title":"M.cohostTitle","maybePluralFormatter":"H"},[U.Q.speaker]:{"title":"M.speakerTitle","maybePluralFormatter":"A"},[U.Q.listener]:{"title":"M.listenerTitle","maybePluralFormatter":"q"}}
+{[R.Q.host]:{"title":"O.hostTitle","maybePluralFormatter":"H"},[R.Q.cohost]:{"title":"O.cohostTitle","maybePluralFormatter":"A"},[R.Q.speaker]:{"title":"O.speakerTitle","maybePluralFormatter":"q"},[R.Q.listener]:{"title":"O.listenerTitle","maybePluralFormatter":"B"}}
 ```
 | constant        | value           |
 |:----------------|:----------------|
@@ -6744,9 +6744,9 @@ This document is entirely auto-generated and may contain errors.<br>
 | PromotedUserProfileCard | v.Z     |
 | ReplyContext            | I.ZP    |
 | RichContent             | E.Z     |
-| SocialContext           | h.Z     |
+| SocialContext           | w.Z     |
 | Text                    | k.Z     |
-| Tombstone               | C.Z     |
+| Tombstone               | g.Z     |
 | Timestamp               | p.Z     |
 | UserAvatar              | P.Z     |
 | UserFollowIndicator     | A.Z     |
@@ -7110,7 +7110,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | PromotedUserProfileCard | x.Z     |
 | ReplyContext            | I.ZP    |
 | RichContent             | k.Z     |
-| SocialContext           | g.Z     |
+| SocialContext           | w.Z     |
 | Text                    | M.Z     |
 | Tombstone               | p.Z     |
 | Timestamp               | h.Z     |
@@ -9280,8 +9280,8 @@ This document is entirely auto-generated and may contain errors.<br>
 | Media                   | v.Z     |
 | Place                   | a.ZP    |
 | PromotedDetails         | u.Z     |
-| PromotedUserProfileCard | I.Z     |
-| ReplyContext            | x.ZP    |
+| PromotedUserProfileCard | x.Z     |
+| ReplyContext            | I.ZP    |
 | RichContent             | k.Z     |
 | SocialContext           | p.Z     |
 | Text                    | M.Z     |
@@ -10805,7 +10805,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{[V.LIVE_EVENT]:"!0",[V.MOMENT]:"!0",[V.SUMMARY]:"!0",[V.SUMMARY_LARGE_IMAGE]:"!0",[V.AUDIOSPACE]:"!0"}
+{[L.LIVE_EVENT]:"!0",[L.MOMENT]:"!0",[L.SUMMARY]:"!0",[L.SUMMARY_LARGE_IMAGE]:"!0",[L.AUDIOSPACE]:"!0"}
 ```
 | constant     | value        |
 |:-------------|:-------------|
