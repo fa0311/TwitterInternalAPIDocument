@@ -13934,13 +13934,7 @@
     },
     "func_name": "n",
     "func_name_init": "i",
-    "query": {
-      "tweetId": "o",
-      "count": "i",
-      "cursor": "s",
-      "includePromotedContent": "!0",
-      "...()(0,r.d)": "_"
-    }
+    "query": {}
   },
   {
     "n": "04323",
@@ -20940,13 +20934,7 @@
     },
     "func_name": "n",
     "func_name_init": "i",
-    "query": {
-      "tweetId": "o",
-      "count": "i",
-      "cursor": "s",
-      "includePromotedContent": "!0",
-      "...()(0,r.d)": "_"
-    }
+    "query": {}
   },
   {
     "n": "04323",
@@ -30243,13 +30231,7 @@
     },
     "func_name": "n",
     "func_name_init": "i",
-    "query": {
-      "tweetId": "o",
-      "count": "i",
-      "cursor": "s",
-      "includePromotedContent": "!0",
-      "...()(0,r.d)": "_"
-    }
+    "query": {}
   },
   {
     "n": "04323",

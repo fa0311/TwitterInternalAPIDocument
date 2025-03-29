@@ -4967,14 +4967,7 @@ Request Method: `POST`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key                    | type    | variable   |
-|:-----------------------|:--------|:-----------|
-| tweetId                | ...     | o          |
-| count                  | ...     | i          |
-| cursor                 | ...     | s          |
-| includePromotedContent | boolean | True       |
-| ...()(0,r.d)           | ...     | _          |
-
+`None`<br>
 #### features<br>
 `None`<br>
 #### queryId<br>
@@ -7726,14 +7719,7 @@ Request Method: `POST`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key                    | type    | variable   |
-|:-----------------------|:--------|:-----------|
-| tweetId                | ...     | o          |
-| count                  | ...     | i          |
-| cursor                 | ...     | s          |
-| includePromotedContent | boolean | True       |
-| ...()(0,r.d)           | ...     | _          |
-
+`None`<br>
 #### features<br>
 `None`<br>
 #### queryId<br>
@@ -11474,14 +11460,7 @@ Request Method: `POST`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key                    | type    | variable   |
-|:-----------------------|:--------|:-----------|
-| tweetId                | ...     | o          |
-| count                  | ...     | i          |
-| cursor                 | ...     | s          |
-| includePromotedContent | boolean | True       |
-| ...()(0,r.d)           | ...     | _          |
-
+`None`<br>
 #### features<br>
 `None`<br>
 #### queryId<br>

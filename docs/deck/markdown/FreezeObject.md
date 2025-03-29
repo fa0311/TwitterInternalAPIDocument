@@ -211,9 +211,9 @@ This document is entirely auto-generated and may contain errors.<br>
 | PromotedUserProfileCard | v.Z     |
 | ReplyContext            | I.ZP    |
 | RichContent             | E.Z     |
-| SocialContext           | h.Z     |
+| SocialContext           | w.Z     |
 | Text                    | k.Z     |
-| Tombstone               | C.Z     |
+| Tombstone               | g.Z     |
 | Timestamp               | p.Z     |
 | UserAvatar              | P.Z     |
 | UserFollowIndicator     | A.Z     |
@@ -502,8 +502,8 @@ This document is entirely auto-generated and may contain errors.<br>
 | Media                   | v.Z     |
 | Place                   | a.ZP    |
 | PromotedDetails         | u.Z     |
-| PromotedUserProfileCard | I.Z     |
-| ReplyContext            | x.ZP    |
+| PromotedUserProfileCard | x.Z     |
+| ReplyContext            | I.ZP    |
 | RichContent             | k.Z     |
 | SocialContext           | p.Z     |
 | Text                    | M.Z     |
