@@ -1909,6 +1909,9 @@
       "responsive_web_grok_show_grok_performance_metrics": {
         "value": "false"
       },
+      "responsive_web_grok_show_grok_translated_post": {
+        "value": "false"
+      },
       "responsive_web_grok_show_grok_tweet_media": {
         "value": "false"
       },
@@ -2410,6 +2413,9 @@
       "responsive_web_verified_organizations_invoice_update_enabled": {
         "value": "false"
       },
+      "responsive_web_verified_organizations_landing_page_content_translated": {
+        "value": "false"
+      },
       "responsive_web_verified_organizations_new_signup_enabled": {
         "value": "true"
       },
@@ -2487,6 +2493,9 @@
       },
       "rweb_analytics_post_audience_page_enabled": {
         "value": "true"
+      },
+      "rweb_analytics_post_detail_enabled": {
+        "value": "false"
       },
       "rweb_analytics_posts_over_time_widget_enabled": {
         "value": "true"
@@ -5450,6 +5459,9 @@
         "responsive_web_grok_show_grok_performance_metrics": {
           "value": "false"
         },
+        "responsive_web_grok_show_grok_translated_post": {
+          "value": "false"
+        },
         "responsive_web_grok_show_grok_tweet_media": {
           "value": "false"
         },
@@ -5951,6 +5963,9 @@
         "responsive_web_verified_organizations_invoice_update_enabled": {
           "value": "false"
         },
+        "responsive_web_verified_organizations_landing_page_content_translated": {
+          "value": "true"
+        },
         "responsive_web_verified_organizations_new_signup_enabled": {
           "value": "true"
         },
@@ -6028,6 +6043,9 @@
         },
         "rweb_analytics_post_audience_page_enabled": {
           "value": "true"
+        },
+        "rweb_analytics_post_detail_enabled": {
+          "value": "false"
         },
         "rweb_analytics_posts_over_time_widget_enabled": {
           "value": "true"
@@ -7187,10 +7205,10 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "29c87a6bc6ee57ddb0b4ce84712949a7"
+      "settingsVersion": "f6d81933207e34e99d4daa8c33da4f45"
     },
     "debug": {},
-    "featureSetToken": "d296adcc198787ff93a9286e62ade13d929ef86b",
+    "featureSetToken": "f9c7b644faea7527012ffdd5c0fda1dd74496ec3",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -7259,7 +7277,7 @@
   },
   "session": {
     "country": "XX",
-    "guestId": "174319569277457123",
+    "guestId": "174328209225271583",
     "hasCommunityMemberships": "false",
     "hasPasskey": "false",
     "isActiveCreator": "false",
