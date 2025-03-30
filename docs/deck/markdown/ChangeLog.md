@@ -4708,3 +4708,16 @@
 - grok_settings_memory_visibility<br>
 #### remove<br>
 - None<br>
+## 2025/03/29<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- responsive_web_grok_show_grok_translated_post<br>
+- responsive_web_verified_organizations_landing_page_content_translated<br>
+- rweb_analytics_post_detail_enabled<br>
+#### remove<br>
+- None<br>
