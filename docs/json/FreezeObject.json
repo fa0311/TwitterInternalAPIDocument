@@ -86,6 +86,7 @@
     "KycPendingVerification": "KycPendingVerification",
     "KycUnverified": "KycUnverified",
     "KycVerified": "KycVerified",
+    "OffWaitlist": "OffWaitlist",
     "OnboardingTargetKycVerified": "OnboardingTargetKycVerified",
     "OnboardingTargetTierTwo": "OnboardingTargetTierTwo",
     "PendingBalanceAutoClaim": "PendingBalanceAutoClaim",
@@ -105,6 +106,7 @@
     "TierOne": "TierOne",
     "TierThree": "TierThree",
     "TierTwo": "TierTwo",
+    "Waitlisted": "Waitlisted",
     "WithdrawalOnly": "WithdrawalOnly"
   },
   {
@@ -1252,7 +1254,8 @@
     "SETTINGS": "/i/verified/settings",
     "JOB_PROMOTION_SETTINGS": "/i/verified/settings/job-promotion",
     "RADAR": "/i/business/radar",
-    "PEOPLE_SEARCH": "https://people.x.com/"
+    "PEOPLE_SEARCH": "https://people.x.com/",
+    "HANDLES": "/i/verified/handles"
   },
   {
     "Off": "Off",
@@ -4352,7 +4355,8 @@
     "subscribe": "subscribe",
     "topic": "topic",
     "community": "community",
-    "bookmark": "bookmark"
+    "bookmark": "bookmark",
+    "search": "search"
   },
   {
     "BannerSwitchToApp": "banner_switch_to_app",
@@ -4820,7 +4824,8 @@
     "subscribe": "subscribe",
     "topic": "topic",
     "community": "community",
-    "bookmark": "bookmark"
+    "bookmark": "bookmark",
+    "search": "search"
   },
   {
     "BannerSwitchToApp": "banner_switch_to_app",
@@ -5090,6 +5095,7 @@
     "AuthorizationClosed": "AuthorizationClosed",
     "AuthorizationOpen": "AuthorizationOpen",
     "AwaitingRequestAcceptance": "AwaitingRequestAcceptance",
+    "AwaitingUnrecognizedConfirmation": "AwaitingUnrecognizedConfirmation",
     "Cancelled": "Cancelled",
     "Expired": "Expired",
     "Failed": "Failed",
@@ -5129,6 +5135,8 @@
     "RejectedNotSufficientFunds": "RejectedNotSufficientFunds",
     "Returned": "Returned",
     "ReversedByAgent": "ReversedByAgent",
+    "UnrecognizedActivityConfirmed": "UnrecognizedActivityConfirmed",
+    "UnrecognizedActivityRejected": "UnrecognizedActivityRejected",
     "Unspecified": "Unspecified"
   },
   {
@@ -8438,7 +8446,8 @@
     "offer_v2_2": "offer_v2_2",
     "special": "special",
     "v2": "v2",
-    "v2_2": "v2_2"
+    "v2_2": "v2_2",
+    "v2_3": "v2_3"
   },
   {
     "alwayOpen": "a().e2a5bd50",
@@ -8693,7 +8702,8 @@
     "subscribe": "subscribe",
     "topic": "topic",
     "community": "community",
-    "bookmark": "bookmark"
+    "bookmark": "bookmark",
+    "search": "search"
   },
   {
     "BannerSwitchToApp": "banner_switch_to_app",
@@ -9007,7 +9017,8 @@
     "subscribe": "subscribe",
     "topic": "topic",
     "community": "community",
-    "bookmark": "bookmark"
+    "bookmark": "bookmark",
+    "search": "search"
   },
   {
     "BannerSwitchToApp": "banner_switch_to_app",
