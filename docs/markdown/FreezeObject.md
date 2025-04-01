@@ -91,6 +91,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | KycPendingVerification            | KycPendingVerification            |
 | KycUnverified                     | KycUnverified                     |
 | KycVerified                       | KycVerified                       |
+| OffWaitlist                       | OffWaitlist                       |
 | OnboardingTargetKycVerified       | OnboardingTargetKycVerified       |
 | OnboardingTargetTierTwo           | OnboardingTargetTierTwo           |
 | PendingBalanceAutoClaim           | PendingBalanceAutoClaim           |
@@ -110,6 +111,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | TierOne                           | TierOne                           |
 | TierThree                         | TierThree                         |
 | TierTwo                           | TierTwo                           |
+| Waitlisted                        | Waitlisted                        |
 | WithdrawalOnly                    | WithdrawalOnly                    |
 
 | constant           | value          |
@@ -1284,6 +1286,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | JOB_PROMOTION_SETTINGS | /i/verified/settings/job-promotion |
 | RADAR                  | /i/business/radar                  |
 | PEOPLE_SEARCH          | https://people.x.com/              |
+| HANDLES                | /i/verified/handles                |
 
 | constant   | value    |
 |:-----------|:---------|
@@ -4585,6 +4588,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | topic      | topic     |
 | community  | community |
 | bookmark   | bookmark  |
+| search     | search    |
 
 | constant                | value                      |
 |:------------------------|:---------------------------|
@@ -5075,6 +5079,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | topic      | topic     |
 | community  | community |
 | bookmark   | bookmark  |
+| search     | search    |
 
 | constant                | value                      |
 |:------------------------|:---------------------------|
@@ -5342,29 +5347,30 @@ This document is entirely auto-generated and may contain errors.<br>
 | Issuing    | Issuing   |
 | Transfer   | Transfer  |
 
-| constant                    | value                       |
-|:----------------------------|:----------------------------|
-| AuthorizationClosed         | AuthorizationClosed         |
-| AuthorizationOpen           | AuthorizationOpen           |
-| AwaitingRequestAcceptance   | AwaitingRequestAcceptance   |
-| Cancelled                   | Cancelled                   |
-| Expired                     | Expired                     |
-| Failed                      | Failed                      |
-| Hold                        | Hold                        |
-| Pending                     | Pending                     |
-| PendingRecipientAcceptance  | PendingRecipientAcceptance  |
-| PendingRecipientAction      | PendingRecipientAction      |
-| PendingRecipientOnboarding  | PendingRecipientOnboarding  |
-| PendingRequestAcceptance    | PendingRequestAcceptance    |
-| PendingReview               | PendingReview               |
-| PinVerificationRequired     | PinVerificationRequired     |
-| RejectedByRecipient         | RejectedByRecipient         |
-| RequestRejected             | RequestRejected             |
-| RequestVerificationRequired | RequestVerificationRequired |
-| Settled                     | Settled                     |
-| SoftSettled                 | SoftSettled                 |
-| Unspecified                 | Unspecified                 |
-| VerificationRequired        | VerificationRequired        |
+| constant                         | value                            |
+|:---------------------------------|:---------------------------------|
+| AuthorizationClosed              | AuthorizationClosed              |
+| AuthorizationOpen                | AuthorizationOpen                |
+| AwaitingRequestAcceptance        | AwaitingRequestAcceptance        |
+| AwaitingUnrecognizedConfirmation | AwaitingUnrecognizedConfirmation |
+| Cancelled                        | Cancelled                        |
+| Expired                          | Expired                          |
+| Failed                           | Failed                           |
+| Hold                             | Hold                             |
+| Pending                          | Pending                          |
+| PendingRecipientAcceptance       | PendingRecipientAcceptance       |
+| PendingRecipientAction           | PendingRecipientAction           |
+| PendingRecipientOnboarding       | PendingRecipientOnboarding       |
+| PendingRequestAcceptance         | PendingRequestAcceptance         |
+| PendingReview                    | PendingReview                    |
+| PinVerificationRequired          | PinVerificationRequired          |
+| RejectedByRecipient              | RejectedByRecipient              |
+| RequestRejected                  | RequestRejected                  |
+| RequestVerificationRequired      | RequestVerificationRequired      |
+| Settled                          | Settled                          |
+| SoftSettled                      | SoftSettled                      |
+| Unspecified                      | Unspecified                      |
+| VerificationRequired             | VerificationRequired             |
 
 | constant      | value         |
 |:--------------|:--------------|
@@ -5377,18 +5383,20 @@ This document is entirely auto-generated and may contain errors.<br>
 | Unspecified   | Unspecified   |
 | Withdraw      | Withdraw      |
 
-| constant                    | value                       |
-|:----------------------------|:----------------------------|
-| Cancelled                   | Cancelled                   |
-| InReview                    | InReview                    |
-| RejectedByAutoReview        | RejectedByAutoReview        |
-| RejectedByManualReview      | RejectedByManualReview      |
-| RejectedByUnsupportedRegion | RejectedByUnsupportedRegion |
-| RejectedLimitsExceeded      | RejectedLimitsExceeded      |
-| RejectedNotSufficientFunds  | RejectedNotSufficientFunds  |
-| Returned                    | Returned                    |
-| ReversedByAgent             | ReversedByAgent             |
-| Unspecified                 | Unspecified                 |
+| constant                      | value                         |
+|:------------------------------|:------------------------------|
+| Cancelled                     | Cancelled                     |
+| InReview                      | InReview                      |
+| RejectedByAutoReview          | RejectedByAutoReview          |
+| RejectedByManualReview        | RejectedByManualReview        |
+| RejectedByUnsupportedRegion   | RejectedByUnsupportedRegion   |
+| RejectedLimitsExceeded        | RejectedLimitsExceeded        |
+| RejectedNotSufficientFunds    | RejectedNotSufficientFunds    |
+| Returned                      | Returned                      |
+| ReversedByAgent               | ReversedByAgent               |
+| UnrecognizedActivityConfirmed | UnrecognizedActivityConfirmed |
+| UnrecognizedActivityRejected  | UnrecognizedActivityRejected  |
+| Unspecified                   | Unspecified                   |
 
 | constant   | value   |
 |:-----------|:--------|
@@ -9027,6 +9035,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | special         | special         |
 | v2              | v2              |
 | v2_2            | v2_2            |
+| v2_3            | v2_3            |
 
 | constant     | value        |
 |:-------------|:-------------|
@@ -9321,6 +9330,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | topic      | topic     |
 | community  | community |
 | bookmark   | bookmark  |
+| search     | search    |
 
 | constant                | value                      |
 |:------------------------|:---------------------------|
@@ -9596,6 +9606,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | topic      | topic     |
 | community  | community |
 | bookmark   | bookmark  |
+| search     | search    |
 
 | constant                | value                      |
 |:------------------------|:---------------------------|
