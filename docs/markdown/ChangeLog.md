@@ -5772,3 +5772,18 @@
 - rweb_analytics_post_detail_enabled<br>
 #### remove<br>
 - None<br>
+## 2025/04/01<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- responsive_web_profile_search_signup_guard<br>
+- subscriptions_offers_dynamic_upsells_enabled<br>
+#### remove<br>
+- arkose_challenge_transparent_signup_dev<br>
+- arkose_challenge_transparent_signup_prod<br>
+- responsive_web_twitter_blue_upsell_right_column<br>
+- subscriptions_marketing_page_web_offer_header_enabled<br>
