@@ -796,21 +796,6 @@
       "graphql_mutation_update_mode": {
         "value": "graphql_only"
       },
-      "graphql_timeline_v2_bookmark_timeline": {
-        "value": "true"
-      },
-      "graphql_timeline_v2_user_favorites_by_time_timeline": {
-        "value": "true"
-      },
-      "graphql_timeline_v2_user_media_timeline": {
-        "value": "true"
-      },
-      "graphql_timeline_v2_user_profile_timeline": {
-        "value": "true"
-      },
-      "graphql_timeline_v2_user_profile_with_replies_timeline": {
-        "value": "true"
-      },
       "grok_settings_age_restriction_enabled": {
         "value": "true"
       },
@@ -1667,9 +1652,6 @@
         "value": "false"
       },
       "responsive_web_framerate_tracking_home_enabled": {
-        "value": "false"
-      },
-      "responsive_web_gaggle_site_enabled": {
         "value": "false"
       },
       "responsive_web_graphql_exclude_directive_enabled": {
@@ -4340,21 +4322,6 @@
         "graphql_mutation_update_mode": {
           "value": "graphql_only"
         },
-        "graphql_timeline_v2_bookmark_timeline": {
-          "value": "true"
-        },
-        "graphql_timeline_v2_user_favorites_by_time_timeline": {
-          "value": "true"
-        },
-        "graphql_timeline_v2_user_media_timeline": {
-          "value": "true"
-        },
-        "graphql_timeline_v2_user_profile_timeline": {
-          "value": "true"
-        },
-        "graphql_timeline_v2_user_profile_with_replies_timeline": {
-          "value": "true"
-        },
         "grok_settings_age_restriction_enabled": {
           "value": "true"
         },
@@ -5211,9 +5178,6 @@
           "value": "true"
         },
         "responsive_web_framerate_tracking_home_enabled": {
-          "value": "false"
-        },
-        "responsive_web_gaggle_site_enabled": {
           "value": "false"
         },
         "responsive_web_graphql_exclude_directive_enabled": {
@@ -7196,7 +7160,7 @@
       "settingsVersion": "2bda89cd724d2ef39fbca65183438fcb"
     },
     "debug": {},
-    "featureSetToken": "17707cf3785a3df7ff1e861430ba181419d8f983",
+    "featureSetToken": "fa0e984c740a3c995be046eba457ccc4d6886420",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -7265,7 +7229,7 @@
   },
   "session": {
     "country": "XX",
-    "guestId": "174354179773235164",
+    "guestId": "174362819776234644",
     "hasCommunityMemberships": "false",
     "hasPasskey": "false",
     "isActiveCreator": "false",
