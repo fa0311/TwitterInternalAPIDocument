@@ -879,8 +879,8 @@
       }
     },
     "Likes": {
-      "url": "https://x.com/i/api/graphql/BEbusb25fuOu_i9EBD3UWQ/Likes",
-      "queryId": "BEbusb25fuOu_i9EBD3UWQ",
+      "url": "https://x.com/i/api/graphql/uxjTlmrTI61zreSIV1urbw/Likes",
+      "queryId": "uxjTlmrTI61zreSIV1urbw",
       "method": "GET",
       "features": {
         "rweb_video_screen_enabled": false,
@@ -2045,8 +2045,8 @@
       }
     },
     "UserMedia": {
-      "url": "https://x.com/i/api/graphql/AJLFqPhsfyE20L_DKE7UKQ/UserMedia",
-      "queryId": "AJLFqPhsfyE20L_DKE7UKQ",
+      "url": "https://x.com/i/api/graphql/8B9DqlaGvYyOvTCzzZWtNA/UserMedia",
+      "queryId": "8B9DqlaGvYyOvTCzzZWtNA",
       "method": "GET",
       "features": {
         "rweb_video_screen_enabled": false,
@@ -2174,8 +2174,8 @@
       }
     },
     "UserTweets": {
-      "url": "https://x.com/i/api/graphql/rmk5H9j6tU2T7Z2Kb7NleQ/UserTweets",
-      "queryId": "rmk5H9j6tU2T7Z2Kb7NleQ",
+      "url": "https://x.com/i/api/graphql/M3Hpkrb8pjWkEuGdLeXMOA/UserTweets",
+      "queryId": "M3Hpkrb8pjWkEuGdLeXMOA",
       "method": "GET",
       "features": {
         "rweb_video_screen_enabled": false,
@@ -2213,8 +2213,8 @@
       }
     },
     "UserTweetsAndReplies": {
-      "url": "https://x.com/i/api/graphql/kHl8op9AkWVThSiRMajKQw/UserTweetsAndReplies",
-      "queryId": "kHl8op9AkWVThSiRMajKQw",
+      "url": "https://x.com/i/api/graphql/pz0IHaV_t7T4HJavqqqcIA/UserTweetsAndReplies",
+      "queryId": "pz0IHaV_t7T4HJavqqqcIA",
       "method": "GET",
       "features": {
         "rweb_video_screen_enabled": false,
@@ -4159,11 +4159,10 @@
       "features": {}
     },
     "Bookmarks": {
-      "url": "https://x.com/i/api/graphql/vndT-32K-vah18JYNFXUWw/Bookmarks",
-      "queryId": "vndT-32K-vah18JYNFXUWw",
+      "url": "https://x.com/i/api/graphql/ztCdjqsvvdL0dE8R5ME0hQ/Bookmarks",
+      "queryId": "ztCdjqsvvdL0dE8R5ME0hQ",
       "method": "GET",
       "features": {
-        "graphql_timeline_v2_bookmark_timeline": true,
         "rweb_video_screen_enabled": false,
         "profile_label_improvements_pcf_label_in_post_enabled": true,
         "rweb_tipjar_consumption_enabled": true,
