@@ -22,7 +22,6 @@ This document is entirely auto-generated and may contain errors.<br>
 | CancelTransfer                              | CancelTransfer                              |
 | ClaimTransfer                               | ClaimTransfer                               |
 | CompleteChallenge                           | CompleteChallenge                           |
-| ConfirmUnrecognizedPayment                  | ConfirmUnrecognizedPayment                  |
 | CreateCustomer                              | CreateCustomer                              |
 | CreateDeposit                               | CreateDeposit                               |
 | CreatePaymentMethod                         | CreatePaymentMethod                         |
@@ -50,7 +49,6 @@ This document is entirely auto-generated and may contain errors.<br>
 | ReceiveTransfer                             | ReceiveTransfer                             |
 | RefundTransaction                           | RefundTransaction                           |
 | RequestIssuedCard                           | RequestIssuedCard                           |
-| RequestPhysicalIssuedCard                   | RequestPhysicalIssuedCard                   |
 | RequestTransfer                             | RequestTransfer                             |
 | RespondToRequestTransfer                    | RespondToRequestTransfer                    |
 | SevenDayDepositVolumeKycUnverified          | SevenDayDepositVolumeKycUnverified          |
@@ -87,7 +85,6 @@ This document is entirely auto-generated and may contain errors.<br>
 | DepositOnly                       | DepositOnly                       |
 | Frozen                            | Frozen                            |
 | Ineligible                        | Ineligible                        |
-| KycAddressAttested                | KycAddressAttested                |
 | KycDocumentsVerified              | KycDocumentsVerified              |
 | KycFailed                         | KycFailed                         |
 | KycPendingDocumentUpload          | KycPendingDocumentUpload          |
@@ -819,7 +816,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{[Y.onboarding]:{"path":`${"ee"}/onboarding`,"defaultClosePath":"/","redirectOnCompletion":"!0"},[Y.upgradeToKycVerified]:{"path":`${"ee"}/tier2`,"defaultClosePath":"/","redirectOnCompletion":"!0"},[Y.upgradeToKycDocumentsVerified]:{"path":`${"ee"}/tier3`,"defaultClosePath":"/","redirectOnCompletion...
+{[J.onboarding]:{"path":`${"Y"}/onboarding`,"defaultClosePath":"/","redirectOnCompletion":"!0"},[J.upgradeToKycVerified]:{"path":`${"Y"}/tier2`,"defaultClosePath":"/","redirectOnCompletion":"!0"},[J.upgradeToKycDocumentsVerified]:{"path":`${"Y"}/tier3`,"defaultClosePath":"/","redirectOnCompletion":"...
 ```
 | constant   | value   |
 |:-----------|:--------|
@@ -4410,7 +4407,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{[R.VerificationCheck]:"function()"{if()throw new Error(3!==e.length);const[d,a,o]=e;return[{"width":"400","height":"200","uri":"d"},{"width":"800","height":"400","uri":"a"},{"width":"1200","height":"600","uri":"o"}]}"()"}
+{[R.VerificationCheck]:"function()"{if()throw new Error(3!==e.length);const[d,a,n]=e;return[{"width":"400","height":"200","uri":"d"},{"width":"800","height":"400","uri":"a"},{"width":"1200","height":"600","uri":"n"}]}"()"}
 ```
 | constant             | value                |
 |:---------------------|:---------------------|
@@ -5319,11 +5316,6 @@ This document is entirely auto-generated and may contain errors.<br>
 | DeferredDebit | DeferredDebit |
 | Prepaid       | Prepaid       |
 
-| constant   | value    |
-|:-----------|:---------|
-| Interest   | Interest |
-| Premium    | Premium  |
-
 | constant                       | value                          |
 |:-------------------------------|:-------------------------------|
 | PaymentMethodFilterFunding     | PaymentMethodFilterFunding     |
@@ -5393,7 +5385,6 @@ This document is entirely auto-generated and may contain errors.<br>
 | RejectedByAutoReview          | RejectedByAutoReview          |
 | RejectedByManualReview        | RejectedByManualReview        |
 | RejectedByUnsupportedRegion   | RejectedByUnsupportedRegion   |
-| RejectedCardPaymentsDisabled  | RejectedCardPaymentsDisabled  |
 | RejectedLimitsExceeded        | RejectedLimitsExceeded        |
 | RejectedNotSufficientFunds    | RejectedNotSufficientFunds    |
 | Returned                      | Returned                      |
@@ -5604,7 +5595,7 @@ This document is entirely auto-generated and may contain errors.<br>
 ```
 ```internal process
 # Error
-{[i.Rz.debit]:"u.d.CreateWithdrawal",[i.Rz.credit]:"u.d.CreateDeposit"}
+{[i.Rz.debit]:"d.d.CreateWithdrawal",[i.Rz.credit]:"d.d.CreateDeposit"}
 ```
 | constant   | value     |
 |:-----------|:----------|
@@ -5614,7 +5605,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{[g.default]:{"redirectPath":()=>s.gp,"buttonText":"E","disclaimer":"Z"},[g.autoclaim]:{"redirectPath":()=>s.gp,"buttonText":"E","disclaimer":"Z"},[g.invite]:{"redirectPath":"()"{"inviteTransactionId":"e"}{"s.bR"}/${"e"}`:"s.gp","buttonText":"E","disclaimer":"Z"}}
+{[h.default]:{"redirectPath":()=>s.gp,"buttonText":"E","disclaimer":"P"},[h.autoclaim]:{"redirectPath":()=>s.gp,"buttonText":"E","disclaimer":"P"},[h.invite]:{"redirectPath":"()"{"inviteTransactionId":"e"}{"s.bR"}/${"e"}`:"s.gp","buttonText":"E","disclaimer":"P"}}
 ```
 ```internal process
 # Error
@@ -5622,7 +5613,7 @@ This document is entirely auto-generated and may contain errors.<br>
 ```
 ```internal process
 # Error
-{[u.Rz.debit]:"Z.d.CreateTransfer",[u.Rz.credit]:"Z.d.RequestTransfer"}
+{[u.Rz.debit]:"P.d.CreateTransfer",[u.Rz.credit]:"P.d.RequestTransfer"}
 ```
 ```internal process
 # Error
@@ -7110,26 +7101,26 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant                | value   |
 |:------------------------|:--------|
-| ActionsBar              | f.Z     |
-| ActionMenu              | _.Z     |
-| CallToAction            | o.ZP    |
+| ActionsBar              | v.Z     |
+| ActionMenu              | f.Z     |
+| CallToAction            | a.ZP    |
 | EditCallout             | b.Z     |
 | Education               | y.Z     |
-| HighlightedUserLabel    | l.Z     |
-| Media                   | v.Z     |
-| Place                   | a.ZP    |
+| HighlightedUserLabel    | d.Z     |
+| Media                   | T.Z     |
+| Place                   | o.ZP    |
 | PromotedDetails         | u.Z     |
-| PromotedUserProfileCard | x.Z     |
-| ReplyContext            | I.ZP    |
-| RichContent             | k.Z     |
+| PromotedUserProfileCard | k.Z     |
+| ReplyContext            | E.ZP    |
+| RichContent             | x.Z     |
 | SocialContext           | w.Z     |
-| Text                    | M.Z     |
-| Tombstone               | p.Z     |
+| Text                    | I.Z     |
+| Tombstone               | g.Z     |
 | Timestamp               | h.Z     |
-| UserAvatar              | E.Z     |
-| UserFollowIndicator     | Z.Z     |
+| UserAvatar              | Z.Z     |
+| UserFollowIndicator     | M.Z     |
 | UserName                | A.Z     |
-| ArticleCard             | T.Z     |
+| ArticleCard             | _.Z     |
 
 | constant   | value                                               |
 |:-----------|:----------------------------------------------------|
@@ -8482,8 +8473,8 @@ This document is entirely auto-generated and may contain errors.<br>
 | design               | b       |
 | marketing            | h       |
 | sales_am             | D       |
-| operations           | p       |
-| people_hr            | m       |
+| operations           | m       |
+| people_hr            | p       |
 | finance_accounting   | S       |
 | legal_compliance     | A       |
 | science_engineering  | f       |
@@ -8493,20 +8484,20 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant    | value   |
 |:------------|:--------|
-| intern      | P       |
-| entry_level | I       |
-| junior      | g       |
-| mid_level   | C       |
-| senior      | Z       |
-| lead        | _       |
-| manager     | B       |
-| executive   | E       |
+| intern      | g       |
+| entry_level | P       |
+| junior      | I       |
+| mid_level   | B       |
+| senior      | E       |
+| lead        | Z       |
+| manager     | C       |
+| executive   | _       |
 
 | constant   | value                                                 |
 |:-----------|:------------------------------------------------------|
 | onsite     | {'label': 'L', 'description': 'O', 'value': 'onsite'} |
-| remote     | {'label': 'N', 'description': 'U', 'value': 'remote'} |
-| hybrid     | {'label': 'R', 'description': 'F', 'value': 'hybrid'} |
+| remote     | {'label': 'N', 'description': 'F', 'value': 'remote'} |
+| hybrid     | {'label': 'R', 'description': '$', 'value': 'hybrid'} |
 
 | constant        | value   |
 |:----------------|:--------|
@@ -8525,12 +8516,12 @@ This document is entirely auto-generated and may contain errors.<br>
 
 |   constant | value   |
 |-----------:|:--------|
-|          1 | c       |
+|          1 | u       |
 |          2 | d       |
 
 | constant   | value                        |
 |:-----------|:-----------------------------|
-| annually   | {'label': 'c', 'value': '1'} |
+| annually   | {'label': 'u', 'value': '1'} |
 | hourly     | {'label': 'd', 'value': '2'} |
 
 | constant              | value                                                                                                                                                                                                                                                         |
@@ -9681,6 +9672,59 @@ This document is entirely auto-generated and may contain errors.<br>
 | Sandbox    | Sandbox |
 | Test       | Test    |
 
+| constant         |   value |
+|:-----------------|--------:|
+| DISABLED         |       0 |
+| ENABLED          |      10 |
+| SYNC_IN_PROGRESS |      20 |
+| SYNC_FAILED      |      30 |
+
+| constant           | value              |
+|:-------------------|:-------------------|
+| freshteam          | Freshteam          |
+| greenhouse         | Greenhouse         |
+| lever              | Lever              |
+| recruitee          | Recruitee          |
+| sage-hr            | Sage HR            |
+| sap-successfactors | SAP SuccessFactors |
+| teamtailor         | Teamtailor         |
+| workable           | Workable           |
+| workday            | Workday            |
+
+| constant             | value   |
+|:---------------------|:--------|
+| software_engineering | d       |
+| data_analytics       | c       |
+| product              | u       |
+| design               | m       |
+| marketing            | p       |
+| sales_am             | b       |
+| operations           | h       |
+| people_hr            | y       |
+| finance_accounting   | g       |
+| legal_compliance     | f       |
+| science_engineering  | D       |
+| medical              | S       |
+| construction_trades  | _       |
+| other                | k       |
+
+| constant    | value   |
+|:------------|:--------|
+| intern      | A       |
+| entry_level | F       |
+| junior      | E       |
+| mid_level   | I       |
+| senior      | C       |
+| lead        | M       |
+| manager     | Z       |
+| executive   | P       |
+
+| constant   | value                                                 |
+|:-----------|:------------------------------------------------------|
+| onsite     | {'label': 'L', 'description': 'j', 'value': 'onsite'} |
+| remote     | {'label': 'B', 'description': 'z', 'value': 'remote'} |
+| hybrid     | {'label': 'T', 'description': 'R', 'value': 'hybrid'} |
+
 | constant                | value                     |
 |:------------------------|:--------------------------|
 | FakeAccount             | fake_account              |
@@ -10824,7 +10868,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{[L.LIVE_EVENT]:"!0",[L.MOMENT]:"!0",[L.SUMMARY]:"!0",[L.SUMMARY_LARGE_IMAGE]:"!0",[L.AUDIOSPACE]:"!0"}
+{[B.LIVE_EVENT]:"!0",[B.MOMENT]:"!0",[B.SUMMARY]:"!0",[B.SUMMARY_LARGE_IMAGE]:"!0",[B.AUDIOSPACE]:"!0"}
 ```
 | constant     | value        |
 |:-------------|:-------------|
