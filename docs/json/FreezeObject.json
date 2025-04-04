@@ -18,6 +18,7 @@
     "CancelTransfer": "CancelTransfer",
     "ClaimTransfer": "ClaimTransfer",
     "CompleteChallenge": "CompleteChallenge",
+    "ConfirmUnrecognizedPayment": "ConfirmUnrecognizedPayment",
     "CreateCustomer": "CreateCustomer",
     "CreateDeposit": "CreateDeposit",
     "CreatePaymentMethod": "CreatePaymentMethod",
@@ -45,6 +46,7 @@
     "ReceiveTransfer": "ReceiveTransfer",
     "RefundTransaction": "RefundTransaction",
     "RequestIssuedCard": "RequestIssuedCard",
+    "RequestPhysicalIssuedCard": "RequestPhysicalIssuedCard",
     "RequestTransfer": "RequestTransfer",
     "RespondToRequestTransfer": "RespondToRequestTransfer",
     "SevenDayDepositVolumeKycUnverified": "SevenDayDepositVolumeKycUnverified",
@@ -80,6 +82,7 @@
     "DepositOnly": "DepositOnly",
     "Frozen": "Frozen",
     "Ineligible": "Ineligible",
+    "KycAddressAttested": "KycAddressAttested",
     "KycDocumentsVerified": "KycDocumentsVerified",
     "KycFailed": "KycFailed",
     "KycPendingDocumentUpload": "KycPendingDocumentUpload",
@@ -778,7 +781,7 @@
     "accountRouting": "accountRouting",
     "personal": "personal"
   },
-  "{[ee.onboarding]:{\"path\":`${\"de\"}/onboarding`,\"defaultClosePath\":\"/\",\"redirectOnCompletion\":\"!0\"},[ee.upgradeToKycVerified]:{\"path\":`${\"de\"}/tier2`,\"defaultClosePath\":\"/\",\"redirectOnCompletion\":\"!0\"},[ee.upgradeToKycDocumentsVerified]:{\"path\":`${\"de\"}/tier3`,\"defaultClosePath\":\"/\",\"redirectOnCompletion\":\"!0\"},[ee.selfieVerification]:{\"path\":`${\"de\"}/selfie`,\"defaultClosePath\":\"/\",\"redirectOnCompletion\":\"!0\"},[ee.updateName]:{\"path\":`${\"de\"}/update`,\"defaultClosePath\":\"q.personal\",\"redirectOnCompletion\":\"!0\"},[ee.updateAddress]:{\"path\":`${\"de\"}/update`,\"defaultClosePath\":\"q.personal\",\"redirectOnCompletion\":\"!0\"},[ee.updatePin]:{\"path\":`${\"de\"}/update-pin`,\"defaultClosePath\":\"q.securityPrivacy\",\"redirectOnCompletion\":\"!1\"},[ee.forgotPin]:{\"path\":`${\"de\"}/forgot-pin`,\"defaultClosePath\":\"q.securityPrivacy\",\"redirectOnCompletion\":\"!1\"},[ee.accountRouting]:{\"path\":`${\"de\"}/account-routing`,\"defaultClosePath\":\"s\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"allowClipboardWrite\":\"!0\"},[ee.challenge]:{\"path\":`${\"de\"}/challenge`,\"defaultClosePath\":\"/\",\"redirectOnCompletion\":\"!1\"},[ee.personal]:{\"path\":`${\"de\"}/info`,\"defaultClosePath\":\"q.personal\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\"}}",
+  "{[Y.onboarding]:{\"path\":`${\"ee\"}/onboarding`,\"defaultClosePath\":\"/\",\"redirectOnCompletion\":\"!0\"},[Y.upgradeToKycVerified]:{\"path\":`${\"ee\"}/tier2`,\"defaultClosePath\":\"/\",\"redirectOnCompletion\":\"!0\"},[Y.upgradeToKycDocumentsVerified]:{\"path\":`${\"ee\"}/tier3`,\"defaultClosePath\":\"/\",\"redirectOnCompletion\":\"!0\"},[Y.selfieVerification]:{\"path\":`${\"ee\"}/selfie`,\"defaultClosePath\":\"/\",\"redirectOnCompletion\":\"!0\"},[Y.updateName]:{\"path\":`${\"ee\"}/update`,\"defaultClosePath\":\"G.personal\",\"redirectOnCompletion\":\"!0\"},[Y.updateAddress]:{\"path\":`${\"ee\"}/update`,\"defaultClosePath\":\"G.personal\",\"redirectOnCompletion\":\"!0\"},[Y.updatePin]:{\"path\":`${\"ee\"}/update-pin`,\"defaultClosePath\":\"G.securityPrivacy\",\"redirectOnCompletion\":\"!1\"},[Y.forgotPin]:{\"path\":`${\"ee\"}/forgot-pin`,\"defaultClosePath\":\"G.securityPrivacy\",\"redirectOnCompletion\":\"!1\"},[Y.accountRouting]:{\"path\":`${\"ee\"}/account-routing`,\"defaultClosePath\":\"s\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"allowClipboardWrite\":\"!0\"},[Y.challenge]:{\"path\":`${\"ee\"}/challenge`,\"defaultClosePath\":\"/\",\"redirectOnCompletion\":\"!1\"},[Y.personal]:{\"path\":`${\"ee\"}/info`,\"defaultClosePath\":\"G.personal\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\"}}",
   {
     "tier2": "tier2",
     "tier3": "tier3",
@@ -5131,6 +5134,7 @@
     "RejectedByAutoReview": "RejectedByAutoReview",
     "RejectedByManualReview": "RejectedByManualReview",
     "RejectedByUnsupportedRegion": "RejectedByUnsupportedRegion",
+    "RejectedCardPaymentsDisabled": "RejectedCardPaymentsDisabled",
     "RejectedLimitsExceeded": "RejectedLimitsExceeded",
     "RejectedNotSufficientFunds": "RejectedNotSufficientFunds",
     "Returned": "Returned",
@@ -5150,7 +5154,7 @@
     "xxxLarge": "xxxLarge",
     "xJumbo": "xJumbo"
   },
-  "{[i.P.RejectedByManualReview]:{\"sender\":\"o\",\"receiver\":\"o\",\"Component\":\"r.Z.Attention\"},[i.P.RejectedByAutoReview]:{\"sender\":\"o\",\"receiver\":\"o\",\"Component\":\"r.Z.Attention\"},[i.P.InReview]:{\"sender\":\"c\",\"receiver\":\"c\",\"Component\":\"r.Z.Attention\"},[s.g.PendingRecipientAcceptance]:{\"sender\":\"d\",\"Component\":\"r.Z.Primary\"},[s.g.PendingRecipientOnboarding]:{\"sender\":\"d\",\"Component\":\"r.Z.Primary\"},[s.g.PendingRecipientAction]:{\"sender\":\"d\",\"Component\":\"r.Z.Primary\"},[s.g.RejectedByRecipient]:{\"sender\":\"This transaction has been rejected by the recipient.\",\"Component\":\"r.Z.Attention\"},[s.g.RequestRejected]:{\"receiver\":\"This request has been rejected by the recipient.\",\"Component\":\"r.Z.Attention\"},[s.g.AwaitingRequestAcceptance]:{\"receiver\":\"This request is pending until it's approved by the recipient.\",\"Component\":\"r.Z.Primary\"}}",
+  "{[s.P.RejectedByManualReview]:{\"message\":\"o\",\"Component\":\"r.Z.Attention\"},[s.P.RejectedByAutoReview]:{\"message\":\"o\",\"Component\":\"r.Z.Attention\"},[s.P.InReview]:{\"message\":\"This transaction is currently under review as part of our routine security checks. During this time, the transaction is paused. We aim to complete reviews quickly and will update you once it's resolved.\",\"Component\":\"r.Z.Attention\"},[s.P.RejectedLimitsExceeded]:{\"message\":\"This exceeds your account’s limits. Please review your limits or try a lower amount.\",\"Component\":\"r.Z.Attention\",\"action\":{\"link\":\"c.iE.limits\",\"label\":\"Review limits\"}},[s.P.RejectedByUnsupportedRegion]:{\"message\":\"This transaction has been rejected as we don’t support this region yet.\",\"Component\":\"r.Z.Attention\"},[s.P.RejectedNotSufficientFunds]:{\"message\":\"Your balance is insufficient. Please fund your account and try again.\",\"Component\":\"r.Z.Attention\"},[s.P.UnrecognizedActivityConfirmed]:{\"message\":\"Thanks for confirming your purchase. Please give it another try, and it should work smoothly now.\",\"Component\":\"r.Z.Primary\"},[s.P.UnrecognizedActivityRejected]:{\"message\":\"For your protection, we've stopped this transaction due to unusual activity.\",\"Component\":\"r.Z.Attention\"},[i.g.PendingRecipientAcceptance]:{\"sender\":\"d\",\"Component\":\"r.Z.Primary\"},[i.g.PendingRecipientOnboarding]:{\"sender\":\"d\",\"Component\":\"r.Z.Primary\"},[i.g.PendingRecipientAction]:{\"sender\":\"d\",\"Component\":\"r.Z.Primary\"},[i.g.RejectedByRecipient]:{\"sender\":\"This transaction has been rejected by the recipient.\",\"Component\":\"r.Z.Attention\"},[i.g.RequestRejected]:{\"receiver\":\"This request has been rejected by the recipient.\",\"Component\":\"r.Z.Attention\"},[i.g.AwaitingRequestAcceptance]:{\"receiver\":\"This request is pending until it's approved by the recipient.\",\"Component\":\"r.Z.Primary\"}}",
   {
     "onboarding": "onboarding",
     "upgradeToKycDocumentsVerified": "upgradeToKycDocumentsVerified"
@@ -5192,7 +5196,7 @@
     "completeDocv": "docv-complete-challenge",
     "completeSelfie": "selfie-complete-challenge"
   },
-  "{[x.g.Cancelled]:\"Cancelled\",[x.g.Failed]:\"Failed\",[x.g.Expired]:\"Expired\",[x.g.Pending]:\"Pending\",[x.g.AuthorizationOpen]:\"Pending\",[x.g.PendingReview]:\"Pending\",[x.g.PendingRecipientAction]:\"Pending\",[x.g.PendingRecipientOnboarding]:\"Pending\",[x.g.AwaitingRequestAcceptance]:\"Pending\",[x.g.PendingRecipientAcceptance]:\"Pending\",[x.g.PinVerificationRequired]:\"Pending\",[x.g.RequestVerificationRequired]:\"Pending\",[x.g.VerificationRequired]:\"Pending\",[x.g.RejectedByRecipient]:\"Rejected\",[x.g.RequestRejected]:\"Rejected\",[x.g.Settled]:\"Settled\",[x.g.SoftSettled]:\"Settled\",[x.g.AuthorizationClosed]:\"Settled\"}",
+  "{[x.g.Cancelled]:\"Cancelled\",[x.g.Failed]:\"Failed\",[x.g.Expired]:\"Expired\",[x.g.Pending]:\"Pending\",[x.g.AuthorizationOpen]:\"Pending\",[x.g.AwaitingUnrecognizedConfirmation]:\"Pending\",[x.g.PendingReview]:\"Pending\",[x.g.PendingRecipientAction]:\"Pending\",[x.g.PendingRecipientOnboarding]:\"Pending\",[x.g.AwaitingRequestAcceptance]:\"Pending\",[x.g.PendingRecipientAcceptance]:\"Pending\",[x.g.PinVerificationRequired]:\"Pending\",[x.g.RequestVerificationRequired]:\"Pending\",[x.g.VerificationRequired]:\"Pending\",[x.g.RejectedByRecipient]:\"Rejected\",[x.g.RequestRejected]:\"Rejected\",[x.g.Settled]:\"Settled\",[x.g.SoftSettled]:\"Settled\",[x.g.AuthorizationClosed]:\"Settled\"}",
   "{[m.t.Checking]:\"Checking\",[m.t.Savings]:\"Savings\"}",
   "{[f.l.Charge]:\"Charge\",[f.l.Combo]:\"Combo\",[f.l.Debit]:\"Debit\",[f.l.Credit]:\"Credit\",[f.l.DeferredDebit]:\"DeferredDebit\",[f.l.Prepaid]:\"Prepaid\"}",
   "{[g.U.AmericanExpress]:\"American Express\",[g.U.Mastercard]:\"Mastercard\",[g.U.Visa]:\"Visa\"}",
@@ -5289,14 +5293,14 @@
     "Totp": "Totp",
     "U2fSecurityKey": "U2fSecurityKey"
   },
-  "{[s.Rz.debit]:{\"path\":\"withdraw\",\"label\":\"Withdraw\",\"confirmTitle\":\"()\"{\"formattedAmount\":\"e\"}{\"e\"} withdrawal?`,\"successTitle\":\"()\"{\"formattedAmount\":\"e\"}{\"e\"} withdrawal successfully scheduled.`},[s.Rz.credit]:{\"path\":\"deposit\",\"label\":\"Deposit\",\"confirmTitle\":\"()\"{\"formattedAmount\":\"e\"}{\"e\"} deposit?`,\"successTitle\":\"()\"{\"formattedAmount\":\"e\"}{\"e\"} deposit successfully scheduled.`}}",
-  "{[s.Rz.debit]:\"u.d.CreateWithdrawal\",[s.Rz.credit]:\"u.d.CreateDeposit\"}",
+  "{[i.Rz.debit]:{\"path\":\"withdraw\",\"label\":\"Withdraw\",\"confirmTitle\":\"()\"{\"formattedAmount\":\"e\"}{\"e\"} withdrawal?`,\"successTitle\":\"()\"{\"formattedAmount\":\"e\"}{\"e\"} withdrawal successfully scheduled.`},[i.Rz.credit]:{\"path\":\"deposit\",\"label\":\"Deposit\",\"confirmTitle\":\"()\"{\"formattedAmount\":\"e\"}{\"e\"} deposit?`,\"successTitle\":\"()\"{\"formattedAmount\":\"e\"}{\"e\"} deposit successfully scheduled.`}}",
+  "{[i.Rz.debit]:\"u.d.CreateWithdrawal\",[i.Rz.credit]:\"u.d.CreateDeposit\"}",
   {
     "default": "default",
     "invite": "invite",
     "autoclaim": "autoclaim"
   },
-  "{[E.default]:{\"redirectPath\":()=>s.gp,\"buttonText\":\"b\",\"disclaimer\":\"P\"},[E.autoclaim]:{\"redirectPath\":()=>s.gp,\"buttonText\":\"b\",\"disclaimer\":\"P\"},[E.invite]:{\"redirectPath\":\"()\"{\"inviteTransactionId\":\"e\"}{\"s.bR\"}/${\"e\"}/claim`:\"s.gp\",\"buttonText\":\"b\",\"disclaimer\":\"P\"}}",
+  "{[g.default]:{\"redirectPath\":()=>s.gp,\"buttonText\":\"E\",\"disclaimer\":\"Z\"},[g.autoclaim]:{\"redirectPath\":()=>s.gp,\"buttonText\":\"E\",\"disclaimer\":\"Z\"},[g.invite]:{\"redirectPath\":\"()\"{\"inviteTransactionId\":\"e\"}{\"s.bR\"}/${\"e\"}`:\"s.gp\",\"buttonText\":\"E\",\"disclaimer\":\"Z\"}}",
   "{[u.Rz.debit]:{\"label\":\"Pay\",\"title\":\"Pay\",\"confirmTitle\":\"()\"{\"formattedAmount\":\"e\"}{\"e\"}?`,\"successMessage\":\"()\"{\"formattedAmount\":\"e\"}{\"e\"} was sent!`,\"disclaimer\":\"It may take up to 3 business days for the funds to be settled. Payment completion depends upon your available funds.\"},[u.Rz.credit]:{\"label\":\"Request\",\"title\":\"Request\",\"confirmTitle\":\"()\"{\"formattedAmount\":\"e\"}{\"e\"}?`,\"successMessage\":\"()\"{\"formattedAmount\":\"e\"}{\"e\"} was sent!`}}",
   "{[u.Rz.debit]:\"Z.d.CreateTransfer\",[u.Rz.credit]:\"Z.d.RequestTransfer\"}",
   "{[E.S.Alert]:\"danger\",[E.S.Info]:\"primary\",[E.S.Warning]:\"warning\"}",
@@ -8399,7 +8403,7 @@
     "CreditSuccessStep": "CreditSuccessStep",
     "FinalConfirmationStep": "FinalConfirmationStep"
   },
-  "{[h.hA.switchFromDirect]:\"m().dca6b3ac\",[h.hA.generate]:\"m().dca6b3ac\",[h.hA.updateSeats]:\"m().c97ad52a\"}",
+  "{[_.hA.switchFromDirect]:\"u().dca6b3ac\",[_.hA.generate]:\"u().dca6b3ac\",[_.hA.updateSeats]:\"u().c97ad52a\"}",
   "{[w.hA.generate]:\"_().fc1f43d0\",[w.hA.switchFromDirect]:\"_().fc1f43d0\",[w.hA.updateSeats]:\"_().c97ad52a\"}",
   {
     "FullAccess": "FullAccess",
@@ -9743,7 +9747,7 @@
     "Red": "rgba(255, 0, 255, 0.5)",
     "Black": "rgba(255, 0, 0, 0.5)"
   },
-  "{[b.FontColor]:{\"type\":\"b.FontColor\",\"propertyName\":\"color\",\"styleName\":\"C.Color\",\"displayName\":\"c().c2c5dea4\",\"values\":\"R\"},[b.FontSize]:{\"type\":\"b.FontSize\",\"propertyName\":\"font-size\",\"styleName\":\"C.FontSize\",\"displayName\":\"c().ce494bb4\",\"values\":[{\"name\":\"50%\",\"value\":\"50%\"},{\"name\":\"75%\",\"value\":\"75%\"},{\"name\":\"100%\",\"value\":\"100%\"},{\"name\":\"200%\",\"value\":\"200%\"},{\"name\":\"300%\",\"value\":\"300%\"}]},[b.FontFamily]:{\"type\":\"b.FontFamily\",\"propertyName\":\"font-family\",\"styleName\":\"C.FontFamily\",\"displayName\":\"c().ce71b3d0\",\"values\":[{\"name\":\"c().d2eb1582\",\"value\":\"\"},{\"name\":\"c().e684030e\",\"value\":\"Arial, sans-serif\",\"textStyle\":{\"fontFamily\":\"Arial, sans-serif\"}},{\"name\":\"c().jad3900c\",\"value\":'\"Times New Roman\", serif',\"textStyle\":{\"fontFamily\":'\"Times New Roman\", serif'}},{\"name\":\"c().e205f3a0\",\"value\":'\"Courier New\", monospace',\"textStyle\":{\"fontFamily\":'\"Courier New\", monospace'}}]},[b.TextOpacity]:{\"type\":\"b.TextOpacity\",\"propertyName\":\"color\",\"styleName\":\"C.Color\",\"displayName\":\"c().d207d39a\",\"values\":[{\"name\":\"50%\",\"value\":\"0.5\",\"isEqual\":\"x()\"},{\"name\":\"75%\",\"value\":\"0.75\",\"isEqual\":\"x()\"},{\"name\":\"100%\",\"value\":\"1.0\",\"isEqual\":\"x()\"}]},[b.BackgroundColor]:{\"type\":\"b.BackgroundColor\",\"propertyName\":\"background\",\"styleName\":\"C.BackgroundColor\",\"displayName\":\"c().a562039c\",\"values\":\"Z\"},[b.BackgroundOpacity]:{\"type\":\"b.BackgroundOpacity\",\"propertyName\":\"background\",\"styleName\":\"C.BackgroundColor\",\"displayName\":\"c().h44e879e\",\"values\":[{\"name\":\"25%\",\"value\":\"0.25\",\"isEqual\":\"_()\"},{\"name\":\"50%\",\"value\":\"0.5\",\"isEqual\":\"_()\"},{\"name\":\"75%\",\"value\":\"0.75\",\"isEqual\":\"_()\"},{\"name\":\"100%\",\"value\":\"1.0\",\"isEqual\":\"_()\"}]}}",
+  "{[b.FontColor]:{\"type\":\"b.FontColor\",\"propertyName\":\"color\",\"styleName\":\"C.Color\",\"displayName\":\"c().c2c5dea4\",\"values\":\"R\"},[b.FontSize]:{\"type\":\"b.FontSize\",\"propertyName\":\"font-size\",\"styleName\":\"C.FontSize\",\"displayName\":\"c().ce494bb4\",\"values\":[{\"name\":\"50%\",\"value\":\"50%\"},{\"name\":\"75%\",\"value\":\"75%\"},{\"name\":\"100%\",\"value\":\"100%\"},{\"name\":\"200%\",\"value\":\"200%\"},{\"name\":\"300%\",\"value\":\"300%\"}]},[b.FontFamily]:{\"type\":\"b.FontFamily\",\"propertyName\":\"font-family\",\"styleName\":\"C.FontFamily\",\"displayName\":\"c().ce71b3d0\",\"values\":[{\"name\":\"c().d2eb1582\",\"value\":\"\"},{\"name\":\"c().e684030e\",\"value\":\"Arial, sans-serif\",\"textStyle\":{\"fontFamily\":\"Arial, sans-serif\"}},{\"name\":\"c().jad3900c\",\"value\":'\"Times New Roman\", serif',\"textStyle\":{\"fontFamily\":'\"Times New Roman\", serif'}},{\"name\":\"c().e205f3a0\",\"value\":'\"Courier New\", monospace',\"textStyle\":{\"fontFamily\":'\"Courier New\", monospace'}}]},[b.TextOpacity]:{\"type\":\"b.TextOpacity\",\"propertyName\":\"color\",\"styleName\":\"C.Color\",\"displayName\":\"c().d207d39a\",\"values\":[{\"name\":\"50%\",\"value\":\"0.5\",\"isEqual\":\"P()\"},{\"name\":\"75%\",\"value\":\"0.75\",\"isEqual\":\"P()\"},{\"name\":\"100%\",\"value\":\"1.0\",\"isEqual\":\"P()\"}]},[b.BackgroundColor]:{\"type\":\"b.BackgroundColor\",\"propertyName\":\"background\",\"styleName\":\"C.BackgroundColor\",\"displayName\":\"c().a562039c\",\"values\":\"T\"},[b.BackgroundOpacity]:{\"type\":\"b.BackgroundOpacity\",\"propertyName\":\"background\",\"styleName\":\"C.BackgroundColor\",\"displayName\":\"c().h44e879e\",\"values\":[{\"name\":\"25%\",\"value\":\"0.25\",\"isEqual\":\"_()\"},{\"name\":\"50%\",\"value\":\"0.5\",\"isEqual\":\"_()\"},{\"name\":\"75%\",\"value\":\"0.75\",\"isEqual\":\"_()\"},{\"name\":\"100%\",\"value\":\"1.0\",\"isEqual\":\"_()\"}]}}",
   {
     "REQUEST": "rweb/promotedContent/LOG_REQUEST",
     "SUCCESS": "rweb/promotedContent/LOG_SUCCESS",

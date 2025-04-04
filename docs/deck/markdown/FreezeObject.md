@@ -252,6 +252,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | RejectedByAutoReview          | RejectedByAutoReview          |
 | RejectedByManualReview        | RejectedByManualReview        |
 | RejectedByUnsupportedRegion   | RejectedByUnsupportedRegion   |
+| RejectedCardPaymentsDisabled  | RejectedCardPaymentsDisabled  |
 | RejectedLimitsExceeded        | RejectedLimitsExceeded        |
 | RejectedNotSufficientFunds    | RejectedNotSufficientFunds    |
 | Returned                      | Returned                      |

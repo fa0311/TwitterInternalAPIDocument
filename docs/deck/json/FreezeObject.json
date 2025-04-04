@@ -233,6 +233,7 @@
     "RejectedByAutoReview": "RejectedByAutoReview",
     "RejectedByManualReview": "RejectedByManualReview",
     "RejectedByUnsupportedRegion": "RejectedByUnsupportedRegion",
+    "RejectedCardPaymentsDisabled": "RejectedCardPaymentsDisabled",
     "RejectedLimitsExceeded": "RejectedLimitsExceeded",
     "RejectedNotSufficientFunds": "RejectedNotSufficientFunds",
     "Returned": "Returned",

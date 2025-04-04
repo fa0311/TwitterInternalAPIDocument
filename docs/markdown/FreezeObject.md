@@ -22,6 +22,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | CancelTransfer                              | CancelTransfer                              |
 | ClaimTransfer                               | ClaimTransfer                               |
 | CompleteChallenge                           | CompleteChallenge                           |
+| ConfirmUnrecognizedPayment                  | ConfirmUnrecognizedPayment                  |
 | CreateCustomer                              | CreateCustomer                              |
 | CreateDeposit                               | CreateDeposit                               |
 | CreatePaymentMethod                         | CreatePaymentMethod                         |
@@ -49,6 +50,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | ReceiveTransfer                             | ReceiveTransfer                             |
 | RefundTransaction                           | RefundTransaction                           |
 | RequestIssuedCard                           | RequestIssuedCard                           |
+| RequestPhysicalIssuedCard                   | RequestPhysicalIssuedCard                   |
 | RequestTransfer                             | RequestTransfer                             |
 | RespondToRequestTransfer                    | RespondToRequestTransfer                    |
 | SevenDayDepositVolumeKycUnverified          | SevenDayDepositVolumeKycUnverified          |
@@ -85,6 +87,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | DepositOnly                       | DepositOnly                       |
 | Frozen                            | Frozen                            |
 | Ineligible                        | Ineligible                        |
+| KycAddressAttested                | KycAddressAttested                |
 | KycDocumentsVerified              | KycDocumentsVerified              |
 | KycFailed                         | KycFailed                         |
 | KycPendingDocumentUpload          | KycPendingDocumentUpload          |
@@ -816,7 +819,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{[ee.onboarding]:{"path":`${"de"}/onboarding`,"defaultClosePath":"/","redirectOnCompletion":"!0"},[ee.upgradeToKycVerified]:{"path":`${"de"}/tier2`,"defaultClosePath":"/","redirectOnCompletion":"!0"},[ee.upgradeToKycDocumentsVerified]:{"path":`${"de"}/tier3`,"defaultClosePath":"/","redirectOnComplet...
+{[Y.onboarding]:{"path":`${"ee"}/onboarding`,"defaultClosePath":"/","redirectOnCompletion":"!0"},[Y.upgradeToKycVerified]:{"path":`${"ee"}/tier2`,"defaultClosePath":"/","redirectOnCompletion":"!0"},[Y.upgradeToKycDocumentsVerified]:{"path":`${"ee"}/tier3`,"defaultClosePath":"/","redirectOnCompletion...
 ```
 | constant   | value   |
 |:-----------|:--------|
@@ -5390,6 +5393,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | RejectedByAutoReview          | RejectedByAutoReview          |
 | RejectedByManualReview        | RejectedByManualReview        |
 | RejectedByUnsupportedRegion   | RejectedByUnsupportedRegion   |
+| RejectedCardPaymentsDisabled  | RejectedCardPaymentsDisabled  |
 | RejectedLimitsExceeded        | RejectedLimitsExceeded        |
 | RejectedNotSufficientFunds    | RejectedNotSufficientFunds    |
 | Returned                      | Returned                      |
@@ -5413,7 +5417,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{[i.P.RejectedByManualReview]:{"sender":"o","receiver":"o","Component":"r.Z.Attention"},[i.P.RejectedByAutoReview]:{"sender":"o","receiver":"o","Component":"r.Z.Attention"},[i.P.InReview]:{"sender":"c","receiver":"c","Component":"r.Z.Attention"},[s.g.PendingRecipientAcceptance]:{"sender":"d","Compon...
+{[s.P.RejectedByManualReview]:{"message":"o","Component":"r.Z.Attention"},[s.P.RejectedByAutoReview]:{"message":"o","Component":"r.Z.Attention"},[s.P.InReview]:{"message":"This transaction is currently under review as part of our routine security checks. During this time, the transaction is paused. ...
 ```
 | constant                      | value                         |
 |:------------------------------|:------------------------------|
@@ -5467,7 +5471,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{[x.g.Cancelled]:"Cancelled",[x.g.Failed]:"Failed",[x.g.Expired]:"Expired",[x.g.Pending]:"Pending",[x.g.AuthorizationOpen]:"Pending",[x.g.PendingReview]:"Pending",[x.g.PendingRecipientAction]:"Pending",[x.g.PendingRecipientOnboarding]:"Pending",[x.g.AwaitingRequestAcceptance]:"Pending",[x.g.PendingR...
+{[x.g.Cancelled]:"Cancelled",[x.g.Failed]:"Failed",[x.g.Expired]:"Expired",[x.g.Pending]:"Pending",[x.g.AuthorizationOpen]:"Pending",[x.g.AwaitingUnrecognizedConfirmation]:"Pending",[x.g.PendingReview]:"Pending",[x.g.PendingRecipientAction]:"Pending",[x.g.PendingRecipientOnboarding]:"Pending",[x.g.A...
 ```
 ```internal process
 # Error
@@ -5596,11 +5600,11 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{[s.Rz.debit]:{"path":"withdraw","label":"Withdraw","confirmTitle":"()"{"formattedAmount":"e"}{"e"} withdrawal?`,"successTitle":"()"{"formattedAmount":"e"}{"e"} withdrawal successfully scheduled.`},[s.Rz.credit]:{"path":"deposit","label":"Deposit","confirmTitle":"()"{"formattedAmount":"e"}{"e"} depo...
+{[i.Rz.debit]:{"path":"withdraw","label":"Withdraw","confirmTitle":"()"{"formattedAmount":"e"}{"e"} withdrawal?`,"successTitle":"()"{"formattedAmount":"e"}{"e"} withdrawal successfully scheduled.`},[i.Rz.credit]:{"path":"deposit","label":"Deposit","confirmTitle":"()"{"formattedAmount":"e"}{"e"} depo...
 ```
 ```internal process
 # Error
-{[s.Rz.debit]:"u.d.CreateWithdrawal",[s.Rz.credit]:"u.d.CreateDeposit"}
+{[i.Rz.debit]:"u.d.CreateWithdrawal",[i.Rz.credit]:"u.d.CreateDeposit"}
 ```
 | constant   | value     |
 |:-----------|:----------|
@@ -5610,7 +5614,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{[E.default]:{"redirectPath":()=>s.gp,"buttonText":"b","disclaimer":"P"},[E.autoclaim]:{"redirectPath":()=>s.gp,"buttonText":"b","disclaimer":"P"},[E.invite]:{"redirectPath":"()"{"inviteTransactionId":"e"}{"s.bR"}/${"e"}/claim`:"s.gp","buttonText":"b","disclaimer":"P"}}
+{[g.default]:{"redirectPath":()=>s.gp,"buttonText":"E","disclaimer":"Z"},[g.autoclaim]:{"redirectPath":()=>s.gp,"buttonText":"E","disclaimer":"Z"},[g.invite]:{"redirectPath":"()"{"inviteTransactionId":"e"}{"s.bR"}/${"e"}`:"s.gp","buttonText":"E","disclaimer":"Z"}}
 ```
 ```internal process
 # Error
@@ -8980,7 +8984,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{[h.hA.switchFromDirect]:"m().dca6b3ac",[h.hA.generate]:"m().dca6b3ac",[h.hA.updateSeats]:"m().c97ad52a"}
+{[_.hA.switchFromDirect]:"u().dca6b3ac",[_.hA.generate]:"u().dca6b3ac",[_.hA.updateSeats]:"u().c97ad52a"}
 ```
 ```internal process
 # Error
