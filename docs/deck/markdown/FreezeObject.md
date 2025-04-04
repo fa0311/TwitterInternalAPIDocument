@@ -178,11 +178,6 @@ This document is entirely auto-generated and may contain errors.<br>
 | DeferredDebit | DeferredDebit |
 | Prepaid       | Prepaid       |
 
-| constant   | value    |
-|:-----------|:---------|
-| Interest   | Interest |
-| Premium    | Premium  |
-
 | constant                       | value                          |
 |:-------------------------------|:-------------------------------|
 | PaymentMethodFilterFunding     | PaymentMethodFilterFunding     |
@@ -252,7 +247,6 @@ This document is entirely auto-generated and may contain errors.<br>
 | RejectedByAutoReview          | RejectedByAutoReview          |
 | RejectedByManualReview        | RejectedByManualReview        |
 | RejectedByUnsupportedRegion   | RejectedByUnsupportedRegion   |
-| RejectedCardPaymentsDisabled  | RejectedCardPaymentsDisabled  |
 | RejectedLimitsExceeded        | RejectedLimitsExceeded        |
 | RejectedNotSufficientFunds    | RejectedNotSufficientFunds    |
 | Returned                      | Returned                      |
