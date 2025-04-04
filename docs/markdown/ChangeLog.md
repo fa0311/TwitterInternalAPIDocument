@@ -5814,3 +5814,18 @@
 - rweb_graphql_notifications_tab_enabled<br>
 #### remove<br>
 - None<br>
+## 2025/04/04<br>
+### API<br>
+#### add<br>
+- NotificationsTimeline<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- responsive_web_thread_media_ensure_root_urt<br>
+- rweb_analytics_video_overview_revenue_tab_enabled<br>
+- subscriptions_management_tier_switch_improvements_enabled<br>
+- subscriptions_upsells_api_enabled<br>
+- subscriptions_upsells_home_nav_migration_enabled<br>
+#### remove<br>
+- None<br>
