@@ -18,7 +18,6 @@
     "CancelTransfer": "CancelTransfer",
     "ClaimTransfer": "ClaimTransfer",
     "CompleteChallenge": "CompleteChallenge",
-    "ConfirmUnrecognizedPayment": "ConfirmUnrecognizedPayment",
     "CreateCustomer": "CreateCustomer",
     "CreateDeposit": "CreateDeposit",
     "CreatePaymentMethod": "CreatePaymentMethod",
@@ -46,7 +45,6 @@
     "ReceiveTransfer": "ReceiveTransfer",
     "RefundTransaction": "RefundTransaction",
     "RequestIssuedCard": "RequestIssuedCard",
-    "RequestPhysicalIssuedCard": "RequestPhysicalIssuedCard",
     "RequestTransfer": "RequestTransfer",
     "RespondToRequestTransfer": "RespondToRequestTransfer",
     "SevenDayDepositVolumeKycUnverified": "SevenDayDepositVolumeKycUnverified",
@@ -82,7 +80,6 @@
     "DepositOnly": "DepositOnly",
     "Frozen": "Frozen",
     "Ineligible": "Ineligible",
-    "KycAddressAttested": "KycAddressAttested",
     "KycDocumentsVerified": "KycDocumentsVerified",
     "KycFailed": "KycFailed",
     "KycPendingDocumentUpload": "KycPendingDocumentUpload",
@@ -781,7 +778,7 @@
     "accountRouting": "accountRouting",
     "personal": "personal"
   },
-  "{[Y.onboarding]:{\"path\":`${\"ee\"}/onboarding`,\"defaultClosePath\":\"/\",\"redirectOnCompletion\":\"!0\"},[Y.upgradeToKycVerified]:{\"path\":`${\"ee\"}/tier2`,\"defaultClosePath\":\"/\",\"redirectOnCompletion\":\"!0\"},[Y.upgradeToKycDocumentsVerified]:{\"path\":`${\"ee\"}/tier3`,\"defaultClosePath\":\"/\",\"redirectOnCompletion\":\"!0\"},[Y.selfieVerification]:{\"path\":`${\"ee\"}/selfie`,\"defaultClosePath\":\"/\",\"redirectOnCompletion\":\"!0\"},[Y.updateName]:{\"path\":`${\"ee\"}/update`,\"defaultClosePath\":\"G.personal\",\"redirectOnCompletion\":\"!0\"},[Y.updateAddress]:{\"path\":`${\"ee\"}/update`,\"defaultClosePath\":\"G.personal\",\"redirectOnCompletion\":\"!0\"},[Y.updatePin]:{\"path\":`${\"ee\"}/update-pin`,\"defaultClosePath\":\"G.securityPrivacy\",\"redirectOnCompletion\":\"!1\"},[Y.forgotPin]:{\"path\":`${\"ee\"}/forgot-pin`,\"defaultClosePath\":\"G.securityPrivacy\",\"redirectOnCompletion\":\"!1\"},[Y.accountRouting]:{\"path\":`${\"ee\"}/account-routing`,\"defaultClosePath\":\"s\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"allowClipboardWrite\":\"!0\"},[Y.challenge]:{\"path\":`${\"ee\"}/challenge`,\"defaultClosePath\":\"/\",\"redirectOnCompletion\":\"!1\"},[Y.personal]:{\"path\":`${\"ee\"}/info`,\"defaultClosePath\":\"G.personal\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\"}}",
+  "{[J.onboarding]:{\"path\":`${\"Y\"}/onboarding`,\"defaultClosePath\":\"/\",\"redirectOnCompletion\":\"!0\"},[J.upgradeToKycVerified]:{\"path\":`${\"Y\"}/tier2`,\"defaultClosePath\":\"/\",\"redirectOnCompletion\":\"!0\"},[J.upgradeToKycDocumentsVerified]:{\"path\":`${\"Y\"}/tier3`,\"defaultClosePath\":\"/\",\"redirectOnCompletion\":\"!0\"},[J.selfieVerification]:{\"path\":`${\"Y\"}/selfie`,\"defaultClosePath\":\"/\",\"redirectOnCompletion\":\"!0\"},[J.updateName]:{\"path\":`${\"Y\"}/update`,\"defaultClosePath\":\"W.personal\",\"redirectOnCompletion\":\"!0\"},[J.updateAddress]:{\"path\":`${\"Y\"}/update`,\"defaultClosePath\":\"W.personal\",\"redirectOnCompletion\":\"!0\"},[J.updatePin]:{\"path\":`${\"Y\"}/update-pin`,\"defaultClosePath\":\"W.securityPrivacy\",\"redirectOnCompletion\":\"!1\"},[J.forgotPin]:{\"path\":`${\"Y\"}/forgot-pin`,\"defaultClosePath\":\"W.securityPrivacy\",\"redirectOnCompletion\":\"!1\"},[J.accountRouting]:{\"path\":`${\"Y\"}/account-routing`,\"defaultClosePath\":\"l\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"allowClipboardWrite\":\"!0\"},[J.challenge]:{\"path\":`${\"Y\"}/challenge`,\"defaultClosePath\":\"/\",\"redirectOnCompletion\":\"!1\"},[J.personal]:{\"path\":`${\"Y\"}/info`,\"defaultClosePath\":\"W.personal\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\"}}",
   {
     "tier2": "tier2",
     "tier3": "tier3",
@@ -4195,7 +4192,7 @@
   {
     "VerificationCheck": "VerificationCheck"
   },
-  "{[R.VerificationCheck]:\"function()\"{if()throw new Error(3!==e.length);const[d,a,o]=e;return[{\"width\":\"400\",\"height\":\"200\",\"uri\":\"d\"},{\"width\":\"800\",\"height\":\"400\",\"uri\":\"a\"},{\"width\":\"1200\",\"height\":\"600\",\"uri\":\"o\"}]}\"()\"}",
+  "{[R.VerificationCheck]:\"function()\"{if()throw new Error(3!==e.length);const[d,a,n]=e;return[{\"width\":\"400\",\"height\":\"200\",\"uri\":\"d\"},{\"width\":\"800\",\"height\":\"400\",\"uri\":\"a\"},{\"width\":\"1200\",\"height\":\"600\",\"uri\":\"n\"}]}\"()\"}",
   {
     "FacepileGroup": "FacepileGroup",
     "Bird": "Bird",
@@ -5068,10 +5065,6 @@
     "Prepaid": "Prepaid"
   },
   {
-    "Interest": "Interest",
-    "Premium": "Premium"
-  },
-  {
     "PaymentMethodFilterFunding": "PaymentMethodFilterFunding",
     "PaymentMethodFilterSpending": "PaymentMethodFilterSpending",
     "PaymentMethodFilterUnspecified": "PaymentMethodFilterUnspecified"
@@ -5134,7 +5127,6 @@
     "RejectedByAutoReview": "RejectedByAutoReview",
     "RejectedByManualReview": "RejectedByManualReview",
     "RejectedByUnsupportedRegion": "RejectedByUnsupportedRegion",
-    "RejectedCardPaymentsDisabled": "RejectedCardPaymentsDisabled",
     "RejectedLimitsExceeded": "RejectedLimitsExceeded",
     "RejectedNotSufficientFunds": "RejectedNotSufficientFunds",
     "Returned": "Returned",
@@ -5294,15 +5286,15 @@
     "U2fSecurityKey": "U2fSecurityKey"
   },
   "{[i.Rz.debit]:{\"path\":\"withdraw\",\"label\":\"Withdraw\",\"confirmTitle\":\"()\"{\"formattedAmount\":\"e\"}{\"e\"} withdrawal?`,\"successTitle\":\"()\"{\"formattedAmount\":\"e\"}{\"e\"} withdrawal successfully scheduled.`},[i.Rz.credit]:{\"path\":\"deposit\",\"label\":\"Deposit\",\"confirmTitle\":\"()\"{\"formattedAmount\":\"e\"}{\"e\"} deposit?`,\"successTitle\":\"()\"{\"formattedAmount\":\"e\"}{\"e\"} deposit successfully scheduled.`}}",
-  "{[i.Rz.debit]:\"u.d.CreateWithdrawal\",[i.Rz.credit]:\"u.d.CreateDeposit\"}",
+  "{[i.Rz.debit]:\"d.d.CreateWithdrawal\",[i.Rz.credit]:\"d.d.CreateDeposit\"}",
   {
     "default": "default",
     "invite": "invite",
     "autoclaim": "autoclaim"
   },
-  "{[g.default]:{\"redirectPath\":()=>s.gp,\"buttonText\":\"E\",\"disclaimer\":\"Z\"},[g.autoclaim]:{\"redirectPath\":()=>s.gp,\"buttonText\":\"E\",\"disclaimer\":\"Z\"},[g.invite]:{\"redirectPath\":\"()\"{\"inviteTransactionId\":\"e\"}{\"s.bR\"}/${\"e\"}`:\"s.gp\",\"buttonText\":\"E\",\"disclaimer\":\"Z\"}}",
-  "{[u.Rz.debit]:{\"label\":\"Pay\",\"title\":\"Pay\",\"confirmTitle\":\"()\"{\"formattedAmount\":\"e\"}{\"e\"}?`,\"successMessage\":\"()\"{\"formattedAmount\":\"e\"}{\"e\"} was sent!`,\"disclaimer\":\"It may take up to 3 business days for the funds to be settled. Payment completion depends upon your available funds.\"},[u.Rz.credit]:{\"label\":\"Request\",\"title\":\"Request\",\"confirmTitle\":\"()\"{\"formattedAmount\":\"e\"}{\"e\"}?`,\"successMessage\":\"()\"{\"formattedAmount\":\"e\"}{\"e\"} was sent!`}}",
-  "{[u.Rz.debit]:\"Z.d.CreateTransfer\",[u.Rz.credit]:\"Z.d.RequestTransfer\"}",
+  "{[h.default]:{\"redirectPath\":()=>s.gp,\"buttonText\":\"E\",\"disclaimer\":\"P\"},[h.autoclaim]:{\"redirectPath\":()=>s.gp,\"buttonText\":\"E\",\"disclaimer\":\"P\"},[h.invite]:{\"redirectPath\":\"()\"{\"inviteTransactionId\":\"e\"}{\"s.bR\"}/${\"e\"}`:\"s.gp\",\"buttonText\":\"E\",\"disclaimer\":\"P\"}}",
+  "{[u.Rz.debit]:{\"label\":\"Pay\",\"title\":\"Pay\",\"confirmTitle\":\"()\"{\"formattedAmount\":\"e\"}{\"e\"}?`,\"successMessage\":\"()\"{\"formattedAmount\":\"e\"}{\"e\"} was sent!`,\"disclaimer\":\"It may take up to 3 business days for the funds to be settled. Payment completion depends upon your available funds.\"},[u.Rz.credit]:{\"label\":\"Request\",\"title\":\"Request\",\"confirmTitle\":\"()\"{\"formattedAmount\":\"e\"}{\"e\"}?`,\"successMessage\":\"()\"{\"formattedAmount\":\"e\"}{\"e\"} was sent!`,\"scanMessage\":\"Let others scan your QR Code to pay you.\"}}",
+  "{[u.Rz.debit]:\"P.d.CreateTransfer\",[u.Rz.credit]:\"P.d.RequestTransfer\"}",
   "{[E.S.Alert]:\"danger\",[E.S.Info]:\"primary\",[E.S.Warning]:\"warning\"}",
   "{[E.S.Alert]:\"g.default\",[E.S.Info]:\"_.default\",[E.S.Warning]:\"g.default\"}",
   "{\"InsufficientFunds\":{\"message\":\"Your account balance is insufficient to make this transfer. Please fund your account and then try again.\",\"action\":{\"link\":\"s.IN\",\"label\":\"Deposit\"}},\"InvalidReceiver\":{\"message\":\"You cannot transfer to this account at this time. Please try again later.\"},\"InvalidSender\":{\"message\":\"You cannot request from this account at this time. Please try again later.\"},\"IdempotencyKeyConflict\":{\"message\":\"You might be attempting a duplicate payment. Please check before trying again!\",\"action\":{\"link\":\"s.gp\",\"label\":\"View account\"}},\"BankIssue\":{\"message\":\"There was an issue with your bank while processing your transfer. Please try again.\"},\"LoginRequired\":{\"message\":\"You need to login to verify your bank account before you can proceed.\",\"action\":{\"link\":\"s.VN\",\"label\":\"Verify\"}},\"PaymentMethodLinkRequired\":{\"message\":\"You need to login to verify your bank account before you can proceed.\",\"action\":{\"link\":\"s.VN\",\"label\":\"Verify\"}},\"InsufficientBalance\":{\"message\":\"Your bank account balance is insufficient. Please check your balance and try again.\"},\"TwoFactorAuthRequired\":{\"message\":\"You need to setup two-factor authentication before you can proceed.\",\"action\":{\"link\":\"s.z$\",\"label\":\"Setup\"}},\"VolumeLimitExceeded7DaySend\":{\"message\":\"l()\"{\"type\":\"weekly\"}{\"link\":\"s.iE.limits\",\"label\":\"i\"}},\"VolumeLimitExceeded30DaySend\":{\"message\":\"l()\"{\"type\":\"monthly\"}{\"link\":\"s.iE.limits\",\"label\":\"i\"}},\"VolumeLimitExceeded7Day\":{\"message\":\"l()\"{\"type\":\"weekly\"}{\"link\":\"s.iE.limits\",\"label\":\"i\"}},\"VolumeLimitExceeded30Day\":{\"message\":\"l()\"{\"type\":\"monthly\"}{\"link\":\"s.iE.limits\",\"label\":\"i\"}},\"AdditionalKycRequiredVolumeLimitExceeded7DaySend\":{\"message\":\"o()\"{\"type\":\"weekly\"}{\"link\":\"s.AU.tier2.verifyIdentityPath\",\"label\":\"Verify your identity\"}},\"AdditionalKycRequiredVolumeLimitExceeded30DaySend\":{\"message\":\"o()\"{\"type\":\"monthly\"}{\"link\":\"s.AU.tier2.verifyIdentityPath\",\"label\":\"Verify your identity\"}},\"AdditionalKycRequiredTotalVolumeLimitExceeded\":{\"message\":\"This action would exceed your limits. We need to verify your identify to continue.\",\"action\":{\"link\":\"s.AU.tier2.verifyIdentityPath\",\"label\":\"Verify your identity\"}},\"Velocity\":{\"message\":\"You have temporarily exceeded your limits. Please try again later.\"},\"Default\":{\"message\":\"Something went wrong. Please try again later.\"}}",
@@ -6709,26 +6701,26 @@
     "Trimmer": "trimmer"
   },
   {
-    "ActionsBar": "f.Z",
-    "ActionMenu": "_.Z",
-    "CallToAction": "o.ZP",
+    "ActionsBar": "v.Z",
+    "ActionMenu": "f.Z",
+    "CallToAction": "a.ZP",
     "EditCallout": "b.Z",
     "Education": "y.Z",
-    "HighlightedUserLabel": "l.Z",
-    "Media": "v.Z",
-    "Place": "a.ZP",
+    "HighlightedUserLabel": "d.Z",
+    "Media": "T.Z",
+    "Place": "o.ZP",
     "PromotedDetails": "u.Z",
-    "PromotedUserProfileCard": "x.Z",
-    "ReplyContext": "I.ZP",
-    "RichContent": "k.Z",
+    "PromotedUserProfileCard": "k.Z",
+    "ReplyContext": "E.ZP",
+    "RichContent": "x.Z",
     "SocialContext": "w.Z",
-    "Text": "M.Z",
-    "Tombstone": "p.Z",
+    "Text": "I.Z",
+    "Tombstone": "g.Z",
     "Timestamp": "h.Z",
-    "UserAvatar": "E.Z",
-    "UserFollowIndicator": "Z.Z",
+    "UserAvatar": "Z.Z",
+    "UserFollowIndicator": "M.Z",
     "UserName": "A.Z",
-    "ArticleCard": "T.Z"
+    "ArticleCard": "_.Z"
   },
   {
     "REQUEST": "rweb/scheduledTweets/FETCH_SCHEDULED_TWEETS_REQUEST",
@@ -7904,8 +7896,8 @@
     "design": "b",
     "marketing": "h",
     "sales_am": "D",
-    "operations": "p",
-    "people_hr": "m",
+    "operations": "m",
+    "people_hr": "p",
     "finance_accounting": "S",
     "legal_compliance": "A",
     "science_engineering": "f",
@@ -7914,14 +7906,14 @@
     "other": "w"
   },
   {
-    "intern": "P",
-    "entry_level": "I",
-    "junior": "g",
-    "mid_level": "C",
-    "senior": "Z",
-    "lead": "_",
-    "manager": "B",
-    "executive": "E"
+    "intern": "g",
+    "entry_level": "P",
+    "junior": "I",
+    "mid_level": "B",
+    "senior": "E",
+    "lead": "Z",
+    "manager": "C",
+    "executive": "_"
   },
   {
     "onsite": {
@@ -7931,12 +7923,12 @@
     },
     "remote": {
       "label": "N",
-      "description": "U",
+      "description": "F",
       "value": "remote"
     },
     "hybrid": {
       "label": "R",
-      "description": "F",
+      "description": "$",
       "value": "hybrid"
     }
   },
@@ -7954,12 +7946,12 @@
     "contract_to_hire": "o"
   },
   {
-    "1": "c",
+    "1": "u",
     "2": "d"
   },
   {
     "annually": {
-      "label": "c",
+      "label": "u",
       "value": "1"
     },
     "hourly": {
@@ -9084,6 +9076,66 @@
     "Test": "Test"
   },
   {
+    "DISABLED": "0",
+    "ENABLED": "10",
+    "SYNC_IN_PROGRESS": "20",
+    "SYNC_FAILED": "30"
+  },
+  {
+    "freshteam": "Freshteam",
+    "greenhouse": "Greenhouse",
+    "lever": "Lever",
+    "recruitee": "Recruitee",
+    "sage-hr": "Sage HR",
+    "sap-successfactors": "SAP SuccessFactors",
+    "teamtailor": "Teamtailor",
+    "workable": "Workable",
+    "workday": "Workday"
+  },
+  {
+    "software_engineering": "d",
+    "data_analytics": "c",
+    "product": "u",
+    "design": "m",
+    "marketing": "p",
+    "sales_am": "b",
+    "operations": "h",
+    "people_hr": "y",
+    "finance_accounting": "g",
+    "legal_compliance": "f",
+    "science_engineering": "D",
+    "medical": "S",
+    "construction_trades": "_",
+    "other": "k"
+  },
+  {
+    "intern": "A",
+    "entry_level": "F",
+    "junior": "E",
+    "mid_level": "I",
+    "senior": "C",
+    "lead": "M",
+    "manager": "Z",
+    "executive": "P"
+  },
+  {
+    "onsite": {
+      "label": "L",
+      "description": "j",
+      "value": "onsite"
+    },
+    "remote": {
+      "label": "B",
+      "description": "z",
+      "value": "remote"
+    },
+    "hybrid": {
+      "label": "T",
+      "description": "R",
+      "value": "hybrid"
+    }
+  },
+  {
     "FakeAccount": "fake_account",
     "OffensiveProfileContent": "offensive_profile_content",
     "SensitiveMedia": "sensitive_media",
@@ -10147,7 +10199,7 @@
     "IncentiveFocus": "IncentiveFocus",
     "TopicFocus": "TopicFocus"
   },
-  "{[L.LIVE_EVENT]:\"!0\",[L.MOMENT]:\"!0\",[L.SUMMARY]:\"!0\",[L.SUMMARY_LARGE_IMAGE]:\"!0\",[L.AUDIOSPACE]:\"!0\"}",
+  "{[B.LIVE_EVENT]:\"!0\",[B.MOMENT]:\"!0\",[B.SUMMARY]:\"!0\",[B.SUMMARY_LARGE_IMAGE]:\"!0\",[B.AUDIOSPACE]:\"!0\"}",
   {
     "CONVERSATION": "conversation",
     "TIMELINE": "timeline"
