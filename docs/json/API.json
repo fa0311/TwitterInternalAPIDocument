@@ -2277,7 +2277,7 @@
       "queryId": "s57vxRLUrUBo8iVWruZTqg",
       "method": "GET",
       "features": {
-        "subscriptions_upsells_api_enabled": false,
+        "subscriptions_upsells_api_enabled": true,
         "profile_label_improvements_pcf_label_in_post_enabled": true,
         "rweb_tipjar_consumption_enabled": true,
         "responsive_web_graphql_exclude_directive_enabled": true,
