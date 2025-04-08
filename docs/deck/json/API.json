@@ -1,12 +1,5 @@
 {
-  "graphql": {
-    "UniversalSearchFeedbackMutation": {
-      "url": "https://x.com/i/api/graphql/qaIzg304L134B5-NI43j2A/UniversalSearchFeedbackMutation",
-      "queryId": "qaIzg304L134B5-NI43j2A",
-      "method": "POST",
-      "features": {}
-    }
-  },
+  "graphql": {},
   "header": {
     "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36",
     "authorization": "Bearer AAAAAAAAAAAAAAAAAAAAANRILgAAAAAAnNwIzUejRCOuH5E6I8xnZz4puTs%3D1Zv7ttfk8LF81IUq16cHjhLTvJu4FA33AGWWjCpTnA"
