@@ -1693,9 +1693,6 @@
       "responsive_web_grok_backend_prompts_enabled": {
         "value": "true"
       },
-      "responsive_web_grok_chat_drawer_enabled": {
-        "value": "false"
-      },
       "responsive_web_grok_continue_in_grok_enabled": {
         "value": "true"
       },
@@ -3061,7 +3058,7 @@
         "value": "Impressions"
       },
       "subscriptions_upsells_api_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "subscriptions_upsells_app_tab_bar_analytics_upsell_enabled": {
         "value": "false"
@@ -5243,9 +5240,6 @@
         "responsive_web_grok_backend_prompts_enabled": {
           "value": "true"
         },
-        "responsive_web_grok_chat_drawer_enabled": {
-          "value": "false"
-        },
         "responsive_web_grok_continue_in_grok_enabled": {
           "value": "true"
         },
@@ -5933,6 +5927,9 @@
         "responsive_web_verified_organizations_free_upgrade_promo_enabled": {
           "value": "true"
         },
+        "responsive_web_verified_organizations_handle_form_enabled": {
+          "value": "false"
+        },
         "responsive_web_verified_organizations_idv_enabled": {
           "value": "false"
         },
@@ -6401,7 +6398,7 @@
           "value": "true"
         },
         "subscriptions_branding_checkmark_logo_enabled": {
-          "value": "true"
+          "value": "false"
         },
         "subscriptions_enabled": {
           "value": "true"
@@ -6545,7 +6542,7 @@
           "value": "true"
         },
         "subscriptions_marketing_page_fetch_promotions": {
-          "value": "true"
+          "value": "false"
         },
         "subscriptions_marketing_page_free_trial_enabled": {
           "value": "true"
@@ -6650,7 +6647,7 @@
           "value": "true"
         },
         "subscriptions_upsells_home_nav_migration_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "subscriptions_upsells_longform_sidebar_variant": {
           "value": ""
@@ -7205,10 +7202,10 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "65ba5d4cad35c467212f61f62226ab97"
+      "settingsVersion": "c6e2ef6bf57ec9e7b48ac868e329cff7"
     },
     "debug": {},
-    "featureSetToken": "5eba541040c93a3d3203674dbda151e1350393f2",
+    "featureSetToken": "9eca051297dff96af3f6eb8101dcc6fdfb503ac8",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -7277,7 +7274,7 @@
   },
   "session": {
     "country": "XX",
-    "guestId": "174405970575580317",
+    "guestId": "174414610586360156",
     "hasCommunityMemberships": "false",
     "hasPasskey": "false",
     "isActiveCreator": "false",

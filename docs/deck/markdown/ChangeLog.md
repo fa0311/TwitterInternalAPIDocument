@@ -4790,3 +4790,14 @@
 - responsive_web_thread_media_tooltip<br>
 #### remove<br>
 - None<br>
+## 2025/04/08<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- UniversalSearchFeedbackMutation<br>
+### Feature Switch<br>
+#### add<br>
+- responsive_web_verified_organizations_handle_form_enabled<br>
+#### remove<br>
+- responsive_web_grok_chat_drawer_enabled<br>
