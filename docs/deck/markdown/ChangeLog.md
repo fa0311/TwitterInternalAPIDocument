@@ -4801,3 +4801,21 @@
 - responsive_web_verified_organizations_handle_form_enabled<br>
 #### remove<br>
 - responsive_web_grok_chat_drawer_enabled<br>
+## 2025/04/09<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- responsive_web_grok_show_android_promo_banner<br>
+- rweb_analytics_audience_compact_mode<br>
+- rweb_conf_dev_enabled<br>
+- rweb_xchat_enabled<br>
+- rweb_video_vertical_aspect_ratio_enabled<br>
+#### remove<br>
+- responsive_web_grok_enable_chat_style_ui<br>
+- responsive_web_grok_expanded_input<br>
+- responsive_web_trend_ui_compact_cell<br>
+- responsive_web_verified_organizations_landing_page_content_translated<br>
