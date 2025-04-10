@@ -212,10 +212,10 @@ This document is entirely auto-generated and may contain errors.<br>
 | ReplyContext            | I.ZP    |
 | RichContent             | E.Z     |
 | SocialContext           | w.Z     |
-| Text                    | k.Z     |
+| Text                    | M.Z     |
 | Tombstone               | g.Z     |
 | Timestamp               | p.Z     |
-| UserAvatar              | M.Z     |
+| UserAvatar              | k.Z     |
 | UserFollowIndicator     | A.Z     |
 | UserName                | P.Z     |
 | ArticleCard             | b.Z     |
@@ -439,18 +439,6 @@ This document is entirely auto-generated and may contain errors.<br>
 | REQUEST    | rweb/GROK_USER_EVENTS_LOG/REQUEST |
 | SUCCESS    | rweb/GROK_USER_EVENTS_LOG/SUCCESS |
 | FAILURE    | rweb/GROK_USER_EVENTS_LOG/FAILURE |
-
-| constant   | value     |
-|:-----------|:----------|
-| AppStore   | AppStore  |
-| PlayStore  | PlayStore |
-| Stripe     | Stripe    |
-| Web        | Web       |
-
-| constant    | value       |
-|:------------|:------------|
-| InitialSale | InitialSale |
-| Renewal     | Renewal     |
 
 | constant   |   value |
 |:-----------|--------:|
@@ -710,11 +698,11 @@ This document is entirely auto-generated and may contain errors.<br>
 | PromotedDetails         | u.Z     |
 | PromotedUserProfileCard | v.Z     |
 | ReplyContext            | I.ZP    |
-| RichContent             | k.Z     |
+| RichContent             | M.Z     |
 | SocialContext           | g.Z     |
-| Text                    | M.Z     |
+| Text                    | k.Z     |
 | Tombstone               | p.Z     |
-| Timestamp               | w.Z     |
+| Timestamp               | h.Z     |
 | UserAvatar              | E.Z     |
 | UserFollowIndicator     | A.Z     |
 | UserName                | Z.Z     |
