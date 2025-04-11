@@ -5842,7 +5842,7 @@ Login Required: `...`<br>
 #### features<br>
 | key                                           | type    | variable   |
 |:----------------------------------------------|:--------|:-----------|
-| subscriptions_marketing_page_fetch_promotions | boolean | False      |
+| subscriptions_marketing_page_fetch_promotions | boolean | True       |
 
 #### queryId<br>
 `None`<br>
@@ -9024,7 +9024,7 @@ Login Required: `...`<br>
 #### features<br>
 | key                                           | type    | variable   |
 |:----------------------------------------------|:--------|:-----------|
-| subscriptions_marketing_page_fetch_promotions | boolean | False      |
+| subscriptions_marketing_page_fetch_promotions | boolean | True       |
 
 #### queryId<br>
 `None`<br>
@@ -9547,7 +9547,7 @@ Login Required: `...`<br>
 #### features<br>
 | key                                           | type    | variable   |
 |:----------------------------------------------|:--------|:-----------|
-| subscriptions_marketing_page_fetch_promotions | boolean | False      |
+| subscriptions_marketing_page_fetch_promotions | boolean | True       |
 
 #### queryId<br>
 `None`<br>
