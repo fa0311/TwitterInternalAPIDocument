@@ -4512,7 +4512,7 @@
       "queryId": "yIGOH-WMQSU-AdbfVRZm9A",
       "method": "GET",
       "features": {
-        "subscriptions_marketing_page_fetch_promotions": false
+        "subscriptions_marketing_page_fetch_promotions": true
       }
     },
     "SwitchTier": {
