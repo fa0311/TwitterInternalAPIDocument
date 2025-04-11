@@ -15957,7 +15957,7 @@
         "fieldToggles": [],
         "featureSwitch": {
           "subscriptions_marketing_page_fetch_promotions": {
-            "value": "false"
+            "value": "true"
           }
         }
       }
@@ -23960,7 +23960,7 @@
         "fieldToggles": [],
         "featureSwitch": {
           "subscriptions_marketing_page_fetch_promotions": {
-            "value": "false"
+            "value": "true"
           }
         }
       }
@@ -24955,7 +24955,7 @@
         "fieldToggles": [],
         "featureSwitch": {
           "subscriptions_marketing_page_fetch_promotions": {
-            "value": "false"
+            "value": "true"
           }
         }
       }
