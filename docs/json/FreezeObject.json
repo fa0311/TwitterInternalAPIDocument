@@ -4254,11 +4254,11 @@
     "INVALID_RES_STATUS": -1
   },
   {
-    "0": "_.INTERNAL_ERROR",
-    "1": "_.INVALID_MEDIA",
-    "2": "_.FILE_TOO_LARGE",
-    "3": "_.UNSUPPORTED_MEDIA",
-    "4": "_.TIMEOUT"
+    "0": "f.INTERNAL_ERROR",
+    "1": "f.INVALID_MEDIA",
+    "2": "f.FILE_TOO_LARGE",
+    "3": "f.UNSUPPORTED_MEDIA",
+    "4": "f.TIMEOUT"
   },
   {
     "RESET": "0",
@@ -6111,10 +6111,10 @@
     "ReplyContext": "I.ZP",
     "RichContent": "E.Z",
     "SocialContext": "w.Z",
-    "Text": "k.Z",
+    "Text": "M.Z",
     "Tombstone": "g.Z",
     "Timestamp": "p.Z",
-    "UserAvatar": "M.Z",
+    "UserAvatar": "k.Z",
     "UserFollowIndicator": "A.Z",
     "UserName": "P.Z",
     "ArticleCard": "b.Z"
@@ -7020,17 +7020,6 @@
     "FAILURE": "rweb/subscriptionPayments/TIER_SWITCH_FAILURE"
   },
   {
-    "earnings": {
-      "link": "/settings/monetization/earnings",
-      "text": "m",
-      "size": "xLarge"
-    },
-    "payoutHistory": {
-      "link": "/settings/monetization/payout_history",
-      "text": "p"
-    }
-  },
-  {
     "Ads": "Ads",
     "AppleAppStore": "AppleAppStore",
     "Gift": "Gift",
@@ -7039,6 +7028,17 @@
     "TPay": "TPay",
     "Twitter": "Twitter",
     "Unknown": "Unknown"
+  },
+  {
+    "earnings": {
+      "link": "/settings/monetization/earnings",
+      "text": "u",
+      "size": "xLarge"
+    },
+    "payoutHistory": {
+      "link": "/settings/monetization/payout_history",
+      "text": "p"
+    }
   },
   {
     "AcceptAllCookies": "acceptAllCookies",
@@ -7282,6 +7282,17 @@
   {
     "InitialSale": "InitialSale",
     "Renewal": "Renewal"
+  },
+  {
+    "earnings": {
+      "link": "/settings/monetization/earnings",
+      "text": "p",
+      "size": "xLarge"
+    },
+    "payoutHistory": {
+      "link": "/settings/monetization/payout_history",
+      "text": "d"
+    }
   },
   {
     "FUN": "fun",
@@ -7622,8 +7633,8 @@
     "finance_accounting": "S",
     "legal_compliance": "A",
     "science_engineering": "f",
-    "medical": "M",
-    "construction_trades": "y",
+    "medical": "y",
+    "construction_trades": "M",
     "other": "w"
   },
   {
@@ -8122,8 +8133,8 @@
     "UnrecognizedPaymentDecisionReject": "UnrecognizedPaymentDecisionReject",
     "UnrecognizedPaymentDecisionUnspecified": "UnrecognizedPaymentDecisionUnspecified"
   },
-  "{[i.Rz.debit]:{\"path\":\"withdraw\",\"label\":\"Withdraw\",\"confirmTitle\":\"()\"{\"formattedAmount\":\"e\"}{\"e\"} withdrawal?`,\"successTitle\":\"()\"{\"formattedAmount\":\"e\"}{\"e\"} withdrawal successfully scheduled.`},[i.Rz.credit]:{\"path\":\"deposit\",\"label\":\"Deposit\",\"confirmTitle\":\"()\"{\"formattedAmount\":\"e\"}{\"e\"} deposit?`,\"successTitle\":\"()\"{\"formattedAmount\":\"e\"}{\"e\"} deposit successfully scheduled.`}}",
-  "{[i.Rz.debit]:\"d.d.CreateWithdrawal\",[i.Rz.credit]:\"d.d.CreateDeposit\"}",
+  "{[s.Rz.debit]:{\"path\":\"withdraw\",\"label\":\"Withdraw\",\"confirmTitle\":\"()\"{\"formattedAmount\":\"e\"}{\"e\"} withdrawal?`,\"successTitle\":\"()\"{\"formattedAmount\":\"e\"}{\"e\"} withdrawal successfully scheduled.`},[s.Rz.credit]:{\"path\":\"deposit\",\"label\":\"Deposit\",\"confirmTitle\":\"()\"{\"formattedAmount\":\"e\"}{\"e\"} deposit?`,\"successTitle\":\"()\"{\"formattedAmount\":\"e\"}{\"e\"} deposit successfully scheduled.`}}",
+  "{[s.Rz.debit]:\"d.d.CreateWithdrawal\",[s.Rz.credit]:\"d.d.CreateDeposit\"}",
   {
     "default": "default",
     "invite": "invite",
@@ -8132,9 +8143,9 @@
   "{[E.default]:{\"redirectPath\":()=>s.gp,\"buttonText\":\"h\",\"disclaimer\":\"C\"},[E.autoclaim]:{\"redirectPath\":()=>s.gp,\"buttonText\":\"h\",\"disclaimer\":\"C\"},[E.invite]:{\"redirectPath\":\"()\"{\"inviteTransactionId\":\"e\"}{\"s.bR\"}/${\"e\"}`:\"s.gp\",\"buttonText\":\"h\",\"disclaimer\":\"C\"}}",
   "{[c.Rz.debit]:{\"label\":\"Send\",\"title\":\"Send\",\"successMessage\":\"()\"{\"formattedAmount\":\"e\"}{\"e\"} has been initiated!`},[c.Rz.credit]:{\"label\":\"Request\",\"title\":\"Request\",\"successMessage\":\"()\"{\"formattedAmount\":\"e\"}{\"e\"} has been sent!`,\"scanMessage\":\"Let others scan your QR Code to pay you.\"}}",
   "{[c.Rz.debit]:\"I.d.CreateTransfer\",[c.Rz.credit]:\"I.d.RequestTransfer\"}",
-  "{[v.S.Alert]:\"danger\",[v.S.Info]:\"primary\",[v.S.Warning]:\"warning\"}",
-  "{[v.S.Alert]:\"f.default\",[v.S.Info]:\"I.default\",[v.S.Warning]:\"f.default\"}",
-  "{\"InsufficientFunds\":{\"message\":\"Your account balance is insufficient to make this transfer. Please fund your account and then try again.\",\"action\":{\"link\":\"s.IN\",\"label\":\"Deposit\"}},\"InvalidReceiver\":{\"message\":\"You cannot transfer to this account at this time. Please try again later.\"},\"InvalidSender\":{\"message\":\"You cannot request from this account at this time. Please try again later.\"},\"IdempotencyKeyConflict\":{\"message\":\"You might be attempting a duplicate payment. Please check before trying again!\",\"action\":{\"link\":\"s.gp\",\"label\":\"View account\"}},\"BankIssue\":{\"message\":\"There was an issue with your bank while processing your transfer. Please try again.\"},\"LoginRequired\":{\"message\":\"You need to login to verify your bank account before you can proceed.\",\"action\":{\"link\":\"s.VN\",\"label\":\"Verify\"}},\"PaymentMethodLinkRequired\":{\"message\":\"You need to login to verify your bank account before you can proceed.\",\"action\":{\"link\":\"s.VN\",\"label\":\"Verify\"}},\"InsufficientBalance\":{\"message\":\"Your bank account balance is insufficient. Please check your balance and try again.\"},\"TwoFactorAuthRequired\":{\"message\":\"You need to setup two-factor authentication before you can proceed.\",\"action\":{\"link\":\"s.z$\",\"label\":\"Setup\"}},\"VolumeLimitExceeded7DaySend\":{\"message\":\"o()\"{\"type\":\"weekly\"}{\"link\":\"s.iE.limits\",\"label\":\"l\"}},\"VolumeLimitExceeded30DaySend\":{\"message\":\"o()\"{\"type\":\"monthly\"}{\"link\":\"s.iE.limits\",\"label\":\"l\"}},\"VolumeLimitExceeded7Day\":{\"message\":\"o()\"{\"type\":\"weekly\"}{\"link\":\"s.iE.limits\",\"label\":\"l\"}},\"VolumeLimitExceeded30Day\":{\"message\":\"o()\"{\"type\":\"monthly\"}{\"link\":\"s.iE.limits\",\"label\":\"l\"}},\"AdditionalKycRequiredVolumeLimitExceeded7DaySend\":{\"message\":\"i()\"{\"type\":\"weekly\"}{\"link\":\"s.AU.tier2.verifyIdentityPath\",\"label\":\"Verify your identity\"}},\"AdditionalKycRequiredVolumeLimitExceeded30DaySend\":{\"message\":\"i()\"{\"type\":\"monthly\"}{\"link\":\"s.AU.tier2.verifyIdentityPath\",\"label\":\"Verify your identity\"}},\"AdditionalKycRequiredTotalVolumeLimitExceeded\":{\"message\":\"This action would exceed your limits. We need to verify your identify to continue.\",\"action\":{\"link\":\"s.AU.tier2.verifyIdentityPath\",\"label\":\"Verify your identity\"}},\"Velocity\":{\"message\":\"You have temporarily exceeded your limits. Please try again later.\"},\"Default\":{\"message\":\"Something went wrong. Please try again later.\"}}",
+  "{[P.S.Alert]:\"danger\",[P.S.Info]:\"primary\",[P.S.Warning]:\"warning\"}",
+  "{[P.S.Alert]:\"f.default\",[P.S.Info]:\"k.default\",[P.S.Warning]:\"f.default\"}",
+  "{\"InsufficientFunds\":{\"message\":\"Your account balance is insufficient to make this transfer. Please fund your account and then try again.\",\"action\":{\"link\":\"c.IN\",\"label\":\"Deposit\"}},\"InvalidReceiver\":{\"message\":\"You cannot transfer to this account at this time. Please try again later.\"},\"InvalidSender\":{\"message\":\"You cannot request from this account at this time. Please try again later.\"},\"IdempotencyKeyConflict\":{\"message\":\"You might be attempting a duplicate payment. Please check before trying again!\",\"action\":{\"link\":\"c.gp\",\"label\":\"View account\"}},\"BankIssue\":{\"message\":\"There was an issue with your bank while processing your transfer. Please try again.\"},\"LoginRequired\":{\"message\":\"You need to login to verify your bank account before you can proceed.\",\"action\":{\"link\":\"c.VN\",\"label\":\"Verify\"}},\"PaymentMethodLinkRequired\":{\"message\":\"You need to login to verify your bank account before you can proceed.\",\"action\":{\"link\":\"c.VN\",\"label\":\"Verify\"}},\"InsufficientBalance\":{\"message\":\"Your bank account balance is insufficient. Please check your balance and try again.\"},\"TwoFactorAuthRequired\":{\"message\":\"You need to setup two-factor authentication before you can proceed.\",\"action\":{\"link\":\"c.z$\",\"label\":\"Setup\"}},\"VolumeLimitExceeded7DaySend\":{\"message\":\"l()\"{\"type\":\"weekly\"}{\"link\":\"c.iE.limits\",\"label\":\"o\"}},\"VolumeLimitExceeded30DaySend\":{\"message\":\"l()\"{\"type\":\"monthly\"}{\"link\":\"c.iE.limits\",\"label\":\"o\"}},\"VolumeLimitExceeded7Day\":{\"message\":\"l()\"{\"type\":\"weekly\"}{\"link\":\"c.iE.limits\",\"label\":\"o\"}},\"VolumeLimitExceeded30Day\":{\"message\":\"l()\"{\"type\":\"monthly\"}{\"link\":\"c.iE.limits\",\"label\":\"o\"}},\"AdditionalKycRequiredVolumeLimitExceeded7DaySend\":{\"message\":\"i()\"{\"type\":\"weekly\"}{\"link\":\"c.AU.tier2.verifyIdentityPath\",\"label\":\"Verify your identity\"}},\"AdditionalKycRequiredVolumeLimitExceeded30DaySend\":{\"message\":\"i()\"{\"type\":\"monthly\"}{\"link\":\"c.AU.tier2.verifyIdentityPath\",\"label\":\"Verify your identity\"}},\"AdditionalKycRequiredTotalVolumeLimitExceeded\":{\"message\":\"This action would exceed your limits. We need to verify your identify to continue.\",\"action\":{\"link\":\"c.AU.tier2.verifyIdentityPath\",\"label\":\"Verify your identity\"}},\"Velocity\":{\"message\":\"You have temporarily exceeded your limits. Please try again later.\"},\"Default\":{\"message\":\"Something went wrong. Please try again later.\"}}",
   {
     "changePhone": "change-phone",
     "success": "success",
@@ -8667,11 +8678,11 @@
     "PromotedDetails": "u.Z",
     "PromotedUserProfileCard": "v.Z",
     "ReplyContext": "I.ZP",
-    "RichContent": "k.Z",
+    "RichContent": "M.Z",
     "SocialContext": "g.Z",
-    "Text": "M.Z",
+    "Text": "k.Z",
     "Tombstone": "p.Z",
-    "Timestamp": "w.Z",
+    "Timestamp": "h.Z",
     "UserAvatar": "E.Z",
     "UserFollowIndicator": "A.Z",
     "UserName": "Z.Z",
@@ -10205,7 +10216,7 @@
     "IncentiveFocus": "IncentiveFocus",
     "TopicFocus": "TopicFocus"
   },
-  "{[V.LIVE_EVENT]:\"!0\",[V.MOMENT]:\"!0\",[V.SUMMARY]:\"!0\",[V.SUMMARY_LARGE_IMAGE]:\"!0\",[V.AUDIOSPACE]:\"!0\"}",
+  "{[B.LIVE_EVENT]:\"!0\",[B.MOMENT]:\"!0\",[B.SUMMARY]:\"!0\",[B.SUMMARY_LARGE_IMAGE]:\"!0\",[B.AUDIOSPACE]:\"!0\"}",
   {
     "CONVERSATION": "conversation",
     "TIMELINE": "timeline"
