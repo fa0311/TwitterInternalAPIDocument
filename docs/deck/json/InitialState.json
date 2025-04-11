@@ -2438,7 +2438,7 @@
         "value": "false"
       },
       "rweb_analytics_audience_compact_mode": {
-        "value": "false"
+        "value": "true"
       },
       "rweb_analytics_audience_xweb_enabled": {
         "value": "true"
@@ -2450,7 +2450,7 @@
         "value": "true"
       },
       "rweb_analytics_in_out_network_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "rweb_analytics_live_details_enabled": {
         "value": "false"
@@ -2953,7 +2953,7 @@
         "value": "true"
       },
       "subscriptions_marketing_page_fetch_promotions": {
-        "value": "false"
+        "value": "true"
       },
       "subscriptions_marketing_page_free_trial_enabled": {
         "value": "true"
@@ -5177,6 +5177,9 @@
         "responsive_web_graphql_timeline_navigation_enabled": {
           "value": "true"
         },
+        "responsive_web_grok_add_response_num_retries": {
+          "value": "0"
+        },
         "responsive_web_grok_analysis_button_from_backend": {
           "value": "true"
         },
@@ -5946,7 +5949,7 @@
           "value": "false"
         },
         "rweb_analytics_audience_compact_mode": {
-          "value": "false"
+          "value": "true"
         },
         "rweb_analytics_audience_xweb_enabled": {
           "value": "true"
@@ -5958,7 +5961,7 @@
           "value": "true"
         },
         "rweb_analytics_in_out_network_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "rweb_analytics_live_details_enabled": {
           "value": "false"
@@ -6461,7 +6464,7 @@
           "value": "true"
         },
         "subscriptions_marketing_page_fetch_promotions": {
-          "value": "false"
+          "value": "true"
         },
         "subscriptions_marketing_page_free_trial_enabled": {
           "value": "true"
@@ -7121,10 +7124,10 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "f3e663201af2bd8b8ad1b821db623e5b"
+      "settingsVersion": "9a2ca3c5dc02d94851eea1fc94d8480a"
     },
     "debug": {},
-    "featureSetToken": "db991e833ed55edc595f05283bc8dd15959908fe",
+    "featureSetToken": "71ccb5852dfcd89ea0b515332f8ccf95dc493da1",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -7193,7 +7196,7 @@
   },
   "session": {
     "country": "XX",
-    "guestId": "174431942387592511",
+    "guestId": "174440586060016280",
     "hasCommunityMemberships": "false",
     "hasPasskey": "false",
     "isActiveCreator": "false",
