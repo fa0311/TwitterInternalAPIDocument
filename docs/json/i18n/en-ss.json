@@ -1141,7 +1141,7 @@
   "acb9b845": "[[293051]] Browsing {url} for **\"{query}\"**",
   "ef261d8d": "[[293055]] Searching posts by @{username}",
   "bec7eb11": "[[293174]] Searching posts by @{username} for **\"{query}\"**",
-  "ead81122": "Something went wrong, please refresh to reconnect or try again.",
+  "ead81122": "[[294249]] Something went wrong, please refresh to reconnect or try again.",
   "f808a13a": "[[285363]] Rate limit exceeded. Please wait a few moments then try again.",
   "e0481e5a": "[[285414]] Grok is not supported in your country at this time.",
   "bc0a5b5a": "[[285303]] Grok is currently unavailable, please check back later.",
