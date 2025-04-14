@@ -4860,3 +4860,14 @@
 - responsive_web_grok_add_response_num_retries<br>
 #### remove<br>
 - None<br>
+## 2025/04/14<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- rweb_jetfuel_sdkv2_with_x_web<br>
+#### remove<br>
+- responsive_web_twitter_blue_upsell_posts<br>
