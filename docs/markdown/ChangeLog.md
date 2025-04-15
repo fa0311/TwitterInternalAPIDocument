@@ -5922,3 +5922,14 @@
 - rweb_jetfuel_sdkv2_with_x_web<br>
 #### remove<br>
 - responsive_web_twitter_blue_upsell_posts<br>
+## 2025/04/15<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- rweb_media_multi_requests_enabled<br>
+#### remove<br>
+- None<br>
