@@ -2219,7 +2219,7 @@
         "value": "false"
       },
       "responsive_web_signup_direct": {
-        "value": "false"
+        "value": "true"
       },
       "responsive_web_spud_enabled": {
         "value": "true"
@@ -2353,9 +2353,6 @@
       "responsive_web_twitter_blue_subscriptions_disabled": {
         "value": "false"
       },
-      "responsive_web_twitter_blue_upsell_posts": {
-        "value": "false"
-      },
       "responsive_web_twitter_blue_verified_badge_ntab_empty_state_enabled": {
         "value": "true"
       },
@@ -2465,7 +2462,7 @@
         "value": "false"
       },
       "rweb_analytics_post_detail_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "rweb_analytics_spaces_details_enabled": {
         "value": "false"
@@ -2480,7 +2477,7 @@
         "value": ""
       },
       "rweb_analytics_xweb_content_page": {
-        "value": "false"
+        "value": "true"
       },
       "rweb_cache_spacebar_enabled": {
         "value": "true"
@@ -2504,7 +2501,7 @@
         "value": "false"
       },
       "rweb_graphql_notifications_tab_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "rweb_home_compact_timeline_enabled": {
         "value": "false"
@@ -2517,6 +2514,9 @@
       },
       "rweb_home_refetch_on_refocus_min_delay_seconds": {
         "value": "60"
+      },
+      "rweb_jetfuel_sdkv2_with_x_web": {
+        "value": "false"
       },
       "rweb_live_broadcast_rewind_enabled": {
         "value": "true"
@@ -4620,7 +4620,7 @@
           "value": "8388608"
         },
         "media_async_upload_longer_video_resolution_selector": {
-          "value": "true"
+          "value": "false"
         },
         "media_async_upload_max_avatar_gif_size": {
           "value": "5"
@@ -5670,7 +5670,7 @@
           "value": "true"
         },
         "responsive_web_qp_full_popup_enabled": {
-          "value": "true"
+          "value": "false"
         },
         "responsive_web_qp_keyword_targeting_enabled": {
           "value": "false"
@@ -5864,9 +5864,6 @@
         "responsive_web_twitter_blue_subscriptions_disabled": {
           "value": "false"
         },
-        "responsive_web_twitter_blue_upsell_posts": {
-          "value": "false"
-        },
         "responsive_web_twitter_blue_verified_badge_ntab_empty_state_enabled": {
           "value": "true"
         },
@@ -5976,7 +5973,7 @@
           "value": "false"
         },
         "rweb_analytics_post_detail_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "rweb_analytics_spaces_details_enabled": {
           "value": "false"
@@ -5991,7 +5988,7 @@
           "value": ""
         },
         "rweb_analytics_xweb_content_page": {
-          "value": "false"
+          "value": "true"
         },
         "rweb_cache_spacebar_enabled": {
           "value": "true"
@@ -6015,7 +6012,7 @@
           "value": "false"
         },
         "rweb_graphql_notifications_tab_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "rweb_home_compact_timeline_enabled": {
           "value": "false"
@@ -6029,6 +6026,9 @@
         "rweb_home_refetch_on_refocus_min_delay_seconds": {
           "value": "60"
         },
+        "rweb_jetfuel_sdkv2_with_x_web": {
+          "value": "false"
+        },
         "rweb_live_broadcast_rewind_enabled": {
           "value": "true"
         },
@@ -6039,6 +6039,9 @@
           "value": "false"
         },
         "rweb_media_carousel_enabled": {
+          "value": "false"
+        },
+        "rweb_media_multi_requests_enabled": {
           "value": "false"
         },
         "rweb_mixed_media_uploads_cap": {
@@ -7082,7 +7085,7 @@
           "value": "true"
         },
         "web_video_player_size_cap_disabled": {
-          "value": "true"
+          "value": "false"
         },
         "web_video_prefetch_playlist_autoplay_disabled": {
           "value": "false"
@@ -7127,10 +7130,10 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "1497f563ccf779dc2798d9e6680ca148"
+      "settingsVersion": "e7565291ca71c1f4e3b4320fafa78c95"
     },
     "debug": {},
-    "featureSetToken": "da2b9aba62185144262f6eca66e18d0a00772fd1",
+    "featureSetToken": "1d8767ea3d8ca5c1a99c096ba48a6ecaf206457c",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -7199,7 +7202,7 @@
   },
   "session": {
     "country": "XX",
-    "guestId": "174449169470018107",
+    "guestId": "174475091267213652",
     "hasCommunityMemberships": "false",
     "hasPasskey": "false",
     "isActiveCreator": "false",
