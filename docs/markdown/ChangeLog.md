@@ -5933,3 +5933,15 @@
 - rweb_media_multi_requests_enabled<br>
 #### remove<br>
 - None<br>
+## 2025/04/16<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- subscriptions_upsells_home_sidebar_migration_enabled<br>
+- subscriptions_upsells_track_interactions_enabled<br>
+#### remove<br>
+- None<br>
