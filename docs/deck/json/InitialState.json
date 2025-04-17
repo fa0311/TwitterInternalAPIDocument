@@ -926,7 +926,7 @@
         "value": "false"
       },
       "identity_verification_passkey_settings_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "identity_verification_settings_enabled": {
         "value": "true"
@@ -2219,7 +2219,7 @@
         "value": "false"
       },
       "responsive_web_signup_direct": {
-        "value": "true"
+        "value": "false"
       },
       "responsive_web_spud_enabled": {
         "value": "true"
@@ -2465,10 +2465,10 @@
         "value": "true"
       },
       "rweb_analytics_spaces_details_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "rweb_analytics_spaces_overview_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "rweb_analytics_theme": {
         "value": "false"
@@ -3067,7 +3067,7 @@
         "value": "true"
       },
       "subscriptions_upsells_home_sidebar_migration_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "subscriptions_upsells_longform_sidebar_variant": {
         "value": ""
@@ -4446,7 +4446,7 @@
           "value": "false"
         },
         "identity_verification_passkey_settings_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "identity_verification_settings_enabled": {
           "value": "true"
@@ -5739,7 +5739,7 @@
           "value": "false"
         },
         "responsive_web_signup_direct": {
-          "value": "true"
+          "value": "false"
         },
         "responsive_web_spud_enabled": {
           "value": "true"
@@ -5901,7 +5901,7 @@
           "value": "true"
         },
         "responsive_web_verified_organizations_handle_form_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "responsive_web_verified_organizations_idv_enabled": {
           "value": "false"
@@ -5985,10 +5985,10 @@
           "value": "true"
         },
         "rweb_analytics_spaces_details_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "rweb_analytics_spaces_overview_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "rweb_analytics_theme": {
           "value": "false"
@@ -6587,7 +6587,7 @@
           "value": "true"
         },
         "subscriptions_upsells_home_sidebar_migration_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "subscriptions_upsells_longform_sidebar_variant": {
           "value": ""
@@ -7145,10 +7145,10 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "6835d702e4106a0ea903c2bb4d0b174b"
+      "settingsVersion": "a573a58c9532bfc5c6b8ce70dfd3e27b"
     },
     "debug": {},
-    "featureSetToken": "4a2b185a027f1e577b498b3ad716bea4d20f8641",
+    "featureSetToken": "c8e3c284eedfe490e38ba99d13c31a8024488c6e",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -7217,7 +7217,7 @@
   },
   "session": {
     "country": "XX",
-    "guestId": "174483783557402987",
+    "guestId": "174492422177245575",
     "hasCommunityMemberships": "false",
     "hasPasskey": "false",
     "isActiveCreator": "false",
