@@ -6062,11 +6062,11 @@
     "undockTap": "undock_tap"
   },
   {
-    "SENSITIVE": "d",
+    "SENSITIVE": "u",
     "BLOCKED": "p",
-    "BLOCKED_BY": "y"
+    "BLOCKED_BY": "_"
   },
-  "{[d]:\"m\",[p]:\"_\",[y]:\"P\"}",
+  "{[u]:\"h\",[p]:\"b\",[_]:\"y\"}",
   {
     "impression": "impression",
     "click": "click"
@@ -6502,9 +6502,9 @@
     "ActionMenu": "f.Z",
     "CallToAction": "a.ZP",
     "EditCallout": "v.Z",
-    "Education": "y.Z",
+    "Education": "T.Z",
     "HighlightedUserLabel": "d.Z",
-    "Media": "T.Z",
+    "Media": "y.Z",
     "Place": "o.ZP",
     "PromotedDetails": "u.Z",
     "PromotedUserProfileCard": "k.Z",
@@ -6514,9 +6514,9 @@
     "Text": "I.Z",
     "Tombstone": "g.Z",
     "Timestamp": "p.Z",
-    "UserAvatar": "Z.Z",
+    "UserAvatar": "A.Z",
     "UserFollowIndicator": "S.Z",
-    "UserName": "M.Z",
+    "UserName": "Z.Z",
     "ArticleCard": "b.Z"
   },
   {
@@ -6950,12 +6950,6 @@
     "UnavailableMissingBlueSubscription": "UnavailableMissingBlueSubscription"
   },
   {
-    "premiumSubscription": "premiumSubscription",
-    "premiumSettings": "premiumSettings",
-    "securitySettings": "securitySettings",
-    "creator": "creator"
-  },
-  {
     "GROUP": "GroupDm",
     "ONE_TO_ONE": "OneToOneDm",
     "UNKNOWN": "Unknown"
@@ -7059,6 +7053,12 @@
   },
   "{\"Persona\":\"i.createElement()\"{\"$i18n\":\"d3543217\"},\"i.createElement()\"{\"link\":\"T.Jf\",\"withInteractiveStyling\":\"!0\"},\"g().e4fed511\"}",
   {
+    "premiumSubscription": "premiumSubscription",
+    "premiumSettings": "premiumSettings",
+    "securitySettings": "securitySettings",
+    "creator": "creator"
+  },
+  {
     "NONE": "NONE",
     "VERIFY_EMAIL": "verify_email",
     "METHOD": "method",
@@ -7089,6 +7089,25 @@
     "FAILURE": "rweb/subscriptionPayments/TIER_SWITCH_FAILURE"
   },
   {
+    "earnings": {
+      "link": "/settings/monetization/earnings",
+      "text": "m",
+      "size": "xLarge"
+    },
+    "payoutHistory": {
+      "link": "/settings/monetization/payout_history",
+      "text": "p"
+    }
+  },
+  {
+    "CanVerifyIdentity": "CanVerifyIdentity",
+    "IdentityNonVerifiable": "IdentityNonVerifiable",
+    "IdentityVerified": "IdentityVerified",
+    "PendingResult": "PendingResult",
+    "RequestLocked": "RequestLocked",
+    "UnavailableMissingBlueSubscription": "UnavailableMissingBlueSubscription"
+  },
+  {
     "Ads": "Ads",
     "AppleAppStore": "AppleAppStore",
     "Gift": "Gift",
@@ -7097,17 +7116,6 @@
     "TPay": "TPay",
     "Twitter": "Twitter",
     "Unknown": "Unknown"
-  },
-  {
-    "earnings": {
-      "link": "/settings/monetization/earnings",
-      "text": "u",
-      "size": "xLarge"
-    },
-    "payoutHistory": {
-      "link": "/settings/monetization/payout_history",
-      "text": "p"
-    }
   },
   {
     "AcceptAllCookies": "acceptAllCookies",
@@ -7196,6 +7204,12 @@
     "FAILURE": "rweb/GROK_USER_EVENTS_LOG/FAILURE"
   },
   {
+    "premiumSubscription": "premiumSubscription",
+    "premiumSettings": "premiumSettings",
+    "securitySettings": "securitySettings",
+    "creator": "creator"
+  },
+  {
     "paymentMethod": "paymentMethod",
     "billingInformation": "billingInformation",
     "cancel": "cancel"
@@ -7278,10 +7292,6 @@
     "MISC": "miscellaneous"
   },
   {
-    "single_line": "singleline",
-    "format_inline": "format-inline"
-  },
-  {
     "MEDIA": "MEDIA",
     "TWEET": "TWEET",
     "MARKDOWN": "MARKDOWN",
@@ -7307,8 +7317,16 @@
     "PUBLISHED": "Published"
   },
   {
-    "DRAFT": "o.DRAFT",
-    "PUBLISHED": "o.PUBLISHED"
+    "DRAFT": "s.DRAFT",
+    "PUBLISHED": "s.PUBLISHED"
+  },
+  {
+    "single_line": "singleline",
+    "format_inline": "format-inline"
+  },
+  {
+    "single_line": "singleline",
+    "format_inline": "format-inline"
   },
   {
     "MEDIA": "MEDIA",
@@ -7351,17 +7369,6 @@
   {
     "InitialSale": "InitialSale",
     "Renewal": "Renewal"
-  },
-  {
-    "earnings": {
-      "link": "/settings/monetization/earnings",
-      "text": "p",
-      "size": "xLarge"
-    },
-    "payoutHistory": {
-      "link": "/settings/monetization/payout_history",
-      "text": "d"
-    }
   },
   {
     "FUN": "fun",
@@ -7654,26 +7661,6 @@
     }
   },
   {
-    "full_time": "r",
-    "full_time_contract": "i",
-    "part_time": "s",
-    "contract_to_hire": "o"
-  },
-  {
-    "1": "c",
-    "2": "d"
-  },
-  {
-    "annually": {
-      "label": "c",
-      "value": "1"
-    },
-    "hourly": {
-      "label": "d",
-      "value": "2"
-    }
-  },
-  {
     "DISABLED": "0",
     "ENABLED": "10",
     "SYNC_IN_PROGRESS": "20",
@@ -7691,46 +7678,66 @@
     "workday": "Workday"
   },
   {
-    "software_engineering": "u",
-    "data_analytics": "t",
-    "product": "s",
+    "software_engineering": "s",
+    "data_analytics": "c",
+    "product": "u",
     "design": "b",
-    "marketing": "h",
-    "sales_am": "D",
-    "operations": "p",
-    "people_hr": "S",
-    "finance_accounting": "m",
-    "legal_compliance": "A",
-    "science_engineering": "y",
+    "marketing": "m",
+    "sales_am": "p",
+    "operations": "y",
+    "people_hr": "h",
+    "finance_accounting": "S",
+    "legal_compliance": "D",
+    "science_engineering": "g",
     "medical": "f",
-    "construction_trades": "w",
-    "other": "M"
+    "construction_trades": "k",
+    "other": "A"
   },
   {
-    "intern": "P",
+    "intern": "_",
     "entry_level": "I",
-    "junior": "B",
-    "mid_level": "g",
-    "senior": "C",
+    "junior": "M",
+    "mid_level": "P",
+    "senior": "F",
     "lead": "Z",
-    "manager": "_",
-    "executive": "E"
+    "manager": "C",
+    "executive": "L"
   },
   {
     "onsite": {
-      "label": "L",
-      "description": "O",
+      "label": "j",
+      "description": "R",
       "value": "onsite"
     },
     "remote": {
-      "label": "N",
+      "label": "x",
       "description": "U",
       "value": "remote"
     },
     "hybrid": {
-      "label": "R",
-      "description": "F",
+      "label": "B",
+      "description": "T",
       "value": "hybrid"
+    }
+  },
+  {
+    "full_time": "t",
+    "full_time_contract": "o",
+    "part_time": "d",
+    "contract_to_hire": "i"
+  },
+  {
+    "1": "c",
+    "2": "u"
+  },
+  {
+    "annually": {
+      "label": "c",
+      "value": "1"
+    },
+    "hourly": {
+      "label": "u",
+      "value": "2"
     }
   },
   {
@@ -7747,12 +7754,12 @@
     "contract_to_hire": "o"
   },
   {
-    "1": "c",
+    "1": "u",
     "2": "d"
   },
   {
     "annually": {
-      "label": "c",
+      "label": "u",
       "value": "1"
     },
     "hourly": {
@@ -8690,6 +8697,26 @@
     "GOOGLE_PLAY_STORE": "2"
   },
   {
+    "full_time": "r",
+    "full_time_contract": "s",
+    "part_time": "t",
+    "contract_to_hire": "u"
+  },
+  {
+    "1": "d",
+    "2": "c"
+  },
+  {
+    "annually": {
+      "label": "d",
+      "value": "1"
+    },
+    "hourly": {
+      "label": "c",
+      "value": "2"
+    }
+  },
+  {
     "REQUEST": "rweb/promotedContent/LOG_REQUEST",
     "SUCCESS": "rweb/promotedContent/LOG_SUCCESS",
     "FAILURE": "rweb/promotedContent/LOG_FAILURE"
@@ -9184,6 +9211,11 @@
     "OffensiveProfileContent": "offensive_profile_content",
     "SensitiveMedia": "sensitive_media",
     "Timeout": "timeout"
+  },
+  {
+    "INFINITE": "infinite",
+    "MEDIUM": "medium",
+    "NONE": "none"
   },
   {
     "FakeAccount": "fake_account",
