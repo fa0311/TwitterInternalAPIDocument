@@ -5945,3 +5945,18 @@
 - subscriptions_upsells_track_interactions_enabled<br>
 #### remove<br>
 - None<br>
+## 2025/04/19<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- responsive_web_grok_debug_enabled<br>
+- responsive_web_logged_out_grok_button_enabled<br>
+- responsive_web_logged_out_redesign_enabled<br>
+- subscriptions_upsells_verified_profile_visitor_upsell_enabled<br>
+- subscriptions_upsells_verified_profile_visitor_upsell_variant<br>
+#### remove<br>
+- None<br>
