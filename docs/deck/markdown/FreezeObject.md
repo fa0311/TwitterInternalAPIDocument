@@ -158,11 +158,6 @@ This document is entirely auto-generated and may contain errors.<br>
 | UserName                | Z.Z     |
 | ArticleCard             | v.Z     |
 
-| constant   |   value |
-|:-----------|--------:|
-| HUMAN      |       1 |
-| ASSISTANT  |       2 |
-
 | constant     | value             |
 |:-------------|:------------------|
 | navButtons   | navigationButtons |
@@ -457,11 +452,6 @@ This document is entirely auto-generated and may contain errors.<br>
 | InitialSale | InitialSale |
 | Renewal     | Renewal     |
 
-| constant   |   value |
-|:-----------|--------:|
-| HUMAN      |       1 |
-| ASSISTANT  |       2 |
-
 | constant                   | value   |
 |:---------------------------|:--------|
 | PRICE_LEVEL_UNSPECIFIED    |         |
@@ -746,11 +736,6 @@ This document is entirely auto-generated and may contain errors.<br>
 |:-----------|:---------------------------------------------------------------------------------------------------------------------|
 | apple      | https://apps.apple.com/account/billing                                                                               |
 | google     | https://play.google.com/store/account/subscriptions?sku=com.twitter.google.rogue.one.1.1&package=com.twitter.android |
-
-| constant   |   value |
-|:-----------|--------:|
-| HUMAN      |       1 |
-| ASSISTANT  |       2 |
 
 | constant   | value   |
 |:-----------|:--------|
