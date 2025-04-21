@@ -633,11 +633,11 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{"oneColumn":"r.primary","twoColumn":{"small":r.primary+r.gutter.left.small+r.secondary.small+r.gutter.right.normal,"normal":r.primary+r.gutter.left.normal+r.secondary.normal+r.gutter.right.normal,"large":r.primary+r.gutter.left.normal+r.secondary.normal+r.gutter.right.large}}
+{"oneColumn":"o.primary","twoColumn":{"small":o.primary+o.gutter.left.small+o.secondary.small+o.gutter.right.normal,"normal":o.primary+o.gutter.left.normal+o.secondary.normal+o.gutter.right.normal,"large":o.primary+o.gutter.left.normal+o.secondary.normal+o.gutter.right.large}}
 ```
 ```internal process
 # Error
-{"oneColumn":"o.primary","twoColumn":{"small":o.primary+o.gutter.left.small+o.secondary.small+o.gutter.right.normal,"normal":o.primary+o.gutter.left.normal+o.secondary.normal+o.gutter.right.normal,"large":o.wide+o.gutter.left.normal+o.secondary.wide+o.gutter.right.large}}
+{"oneColumn":"r.primary","twoColumn":{"small":r.primary+r.gutter.left.small+r.secondary.small+r.gutter.right.normal,"normal":r.primary+r.gutter.left.normal+r.secondary.normal+r.gutter.right.normal,"large":r.wide+r.gutter.left.normal+r.secondary.wide+r.gutter.right.large}}
 ```
 | constant   |   value |
 |:-----------|--------:|
@@ -656,8 +656,8 @@ This document is entirely auto-generated and may contain errors.<br>
 | constant              | value   |
 |:----------------------|:--------|
 | cardWidth             | c       |
-| columnWidths          | r       |
-| columnWidthsRedesign  | o       |
+| columnWidths          | o       |
+| columnWidthsRedesign  | r       |
 | sideNavWidths         | n       |
 | sideNavWidthsRedesign | l       |
 | contentWidths         | i       |
@@ -860,7 +860,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant            | value               |
 |:--------------------|:--------------------|
-| ...r.YE             | _                   |
+| ...o.YE             | _                   |
 | EMBEDDED_MEDIA      | embedded_media      |
 | FOOTER_PROFILE      | footer_profile      |
 | HASHTAG_CLICK       | hashtag_click       |
@@ -882,7 +882,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{[o.Z.CASHTAG]:"void 0",[o.Z.EMOJI]:"void 0",[o.Z.HASHTAG]:"n.HASHTAG_CLICK",[o.Z.MEDIA]:"void 0",[o.Z.MENTION]:"n.USER_MENTION_CLICK",[o.Z.TEXT]:"void 0",[o.Z.TIMESTAMP]:"void 0",[o.Z.URL]:"n.URL_CLICK"}
+{[r.Z.CASHTAG]:"void 0",[r.Z.EMOJI]:"void 0",[r.Z.HASHTAG]:"n.HASHTAG_CLICK",[r.Z.MEDIA]:"void 0",[r.Z.MENTION]:"n.USER_MENTION_CLICK",[r.Z.TEXT]:"void 0",[r.Z.TIMESTAMP]:"void 0",[r.Z.URL]:"n.URL_CLICK"}
 ```
 | constant   | value   |
 |:-----------|:--------|
@@ -1178,8 +1178,8 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant             | value                |
 |:---------------------|:---------------------|
-| ...r                 | _                    |
 | ...o                 | _                    |
+| ...r                 | _                    |
 | FacepileGroup        | FacepileGroup        |
 | Community            | Community            |
 | Pin                  | Pin                  |
@@ -1338,7 +1338,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{[x.DEFAULT]:"N.UNDETERMINED",[x.DENIED]:"N.OFF",[x.GRANTED]:"N.ON"}
+{[N.DEFAULT]:"x.UNDETERMINED",[N.DENIED]:"x.OFF",[N.GRANTED]:"x.ON"}
 ```
 | constant   | value                                        |
 |:-----------|:---------------------------------------------|
@@ -1467,8 +1467,8 @@ This document is entirely auto-generated and may contain errors.<br>
 | constant         | value          |
 |:-----------------|:---------------|
 | fetchStatus      | y.ZP.NONE      |
-| selectedTimeline | o.oO           |
-| sort             | o.UO.RELEVANCE |
+| selectedTimeline | r.oO           |
+| sort             | r.UO.RELEVANCE |
 | timelines        | []             |
 
 | constant   | value                                   |
@@ -1514,12 +1514,12 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant     | value    |
 |:-------------|:---------|
-| down_cursor  | r.BOTTOM |
-| max_id       | r.BOTTOM |
-| max_position | r.BOTTOM |
-| min_position | r.TOP    |
-| since_id     | r.TOP    |
-| up_cursor    | r.TOP    |
+| down_cursor  | o.BOTTOM |
+| max_id       | o.BOTTOM |
+| max_position | o.BOTTOM |
+| min_position | o.TOP    |
+| since_id     | o.TOP    |
+| up_cursor    | o.TOP    |
 
 | constant   | value                          |
 |:-----------|:-------------------------------|
@@ -1655,35 +1655,35 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant   | value                                                    |
 |:-----------|:---------------------------------------------------------|
-| AU         | ()(0,o.ju)                                               |
-| BR         | ("https://legal.x.com/ads-terms/apac.html")(0,o.ju)      |
-| GB         | ("https://legal.x.com/ads-terms/brazil.html")(0,o.ju)    |
-| ID         | ("https://legal.x.com/ads-terms/uk.html")(0,o.ju)        |
-| JP         | ("https://legal.x.com/ads-terms/indonesia.html")(0,o.ju) |
-| NZ         | ("https://legal.x.com/ads-terms/japan.html")(0,o.ju)     |
-| US         | ("https://legal.x.com/ads-terms/apac.html")(0,o.ju)      |
+| AU         | ()(0,r.ju)                                               |
+| BR         | ("https://legal.x.com/ads-terms/apac.html")(0,r.ju)      |
+| GB         | ("https://legal.x.com/ads-terms/brazil.html")(0,r.ju)    |
+| ID         | ("https://legal.x.com/ads-terms/uk.html")(0,r.ju)        |
+| JP         | ("https://legal.x.com/ads-terms/indonesia.html")(0,r.ju) |
+| NZ         | ("https://legal.x.com/ads-terms/japan.html")(0,r.ju)     |
+| US         | ("https://legal.x.com/ads-terms/apac.html")(0,r.ju)      |
 
 | constant   | value                                                                                      |
 |:-----------|:-------------------------------------------------------------------------------------------|
-| en         | ()(0,o.ju)                                                                                 |
-| de         | ("https://business.x.com/en/campaign/quick-promote-conditional-coupon-terms.html")(0,o.ju) |
-| es         | ("https://business.x.com/de/campaign/quick-promote-conditional-coupon-terms.html")(0,o.ju) |
-| fr         | ("https://business.x.com/es/campaign/quick-promote-conditional-coupon-terms.html")(0,o.ju) |
-| ja         | ("https://business.x.com/fr/campaign/quick-promote-conditional-coupon-terms.html")(0,o.ju) |
-| pt         | ("https://business.x.com/ja/campaign/quick-promote-conditional-coupon-terms.html")(0,o.ju) |
-| ar         | ("https://business.x.com/pt/campaign/quick-promote-conditional-coupon-terms.html")(0,o.ju) |
-| zh-cn      | ("https://business.x.com/ar/campaign/quick-promote-conditional-coupon-terms.html")(0,o.ju) |
+| en         | ()(0,r.ju)                                                                                 |
+| de         | ("https://business.x.com/en/campaign/quick-promote-conditional-coupon-terms.html")(0,r.ju) |
+| es         | ("https://business.x.com/de/campaign/quick-promote-conditional-coupon-terms.html")(0,r.ju) |
+| fr         | ("https://business.x.com/es/campaign/quick-promote-conditional-coupon-terms.html")(0,r.ju) |
+| ja         | ("https://business.x.com/fr/campaign/quick-promote-conditional-coupon-terms.html")(0,r.ju) |
+| pt         | ("https://business.x.com/ja/campaign/quick-promote-conditional-coupon-terms.html")(0,r.ju) |
+| ar         | ("https://business.x.com/pt/campaign/quick-promote-conditional-coupon-terms.html")(0,r.ju) |
+| zh-cn      | ("https://business.x.com/ar/campaign/quick-promote-conditional-coupon-terms.html")(0,r.ju) |
 
 | constant   | value                                                                          |
 |:-----------|:-------------------------------------------------------------------------------|
-| en         | ()(0,o.ju)                                                                     |
-| de         | ("https://business.x.com/en/campaign/quick-promote-coupon-terms.html")(0,o.ju) |
-| es         | ("https://business.x.com/de/campaign/quick-promote-coupon-terms.html")(0,o.ju) |
-| fr         | ("https://business.x.com/es/campaign/quick-promote-coupon-terms.html")(0,o.ju) |
-| ja         | ("https://business.x.com/fr/campaign/quick-promote-coupon-terms.html")(0,o.ju) |
-| pt         | ("https://business.x.com/ja/campaign/quick-promote-coupon-terms.html")(0,o.ju) |
-| ar         | ("https://business.x.com/pt/campaign/quick-promote-coupon-terms.html")(0,o.ju) |
-| zh-cn      | ("https://business.x.com/ar/campaign/quick-promote-coupon-terms.html")(0,o.ju) |
+| en         | ()(0,r.ju)                                                                     |
+| de         | ("https://business.x.com/en/campaign/quick-promote-coupon-terms.html")(0,r.ju) |
+| es         | ("https://business.x.com/de/campaign/quick-promote-coupon-terms.html")(0,r.ju) |
+| fr         | ("https://business.x.com/es/campaign/quick-promote-coupon-terms.html")(0,r.ju) |
+| ja         | ("https://business.x.com/fr/campaign/quick-promote-coupon-terms.html")(0,r.ju) |
+| pt         | ("https://business.x.com/ja/campaign/quick-promote-coupon-terms.html")(0,r.ju) |
+| ar         | ("https://business.x.com/pt/campaign/quick-promote-coupon-terms.html")(0,r.ju) |
+| zh-cn      | ("https://business.x.com/ar/campaign/quick-promote-coupon-terms.html")(0,r.ju) |
 
 | constant   | value    |
 |:-----------|:---------|
@@ -1936,7 +1936,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{[r.xSmall]:".9",[r.small]:".95",[r.normal]:"1",[r.large]:"1.1",[r.xLarge]:"1.2"}
+{[o.xSmall]:".9",[o.small]:".95",[o.normal]:"1",[o.large]:"1.1",[o.xLarge]:"1.2"}
 ```
 | constant   | value    |
 |:-----------|:---------|
@@ -2149,21 +2149,21 @@ This document is entirely auto-generated and may contain errors.<br>
 | navigationBackground            | l.Cj                               |
 | navigationBackground95          | l.bs.white(.03)                    |
 | cellBackground                  | l.Cj                               |
-| borderColor                     | r.default.color.baseColor.gray50   |
-| nestedBorderColor               | r.default.color.baseColor.gray200  |
-| dmReceivedBubbleBackground      | r.default.color.baseColor.gray50   |
-| badgeColor                      | r.default.color.baseColor.blue500  |
+| borderColor                     | o.default.color.baseColor.gray50   |
+| nestedBorderColor               | o.default.color.baseColor.gray200  |
+| dmReceivedBubbleBackground      | o.default.color.baseColor.gray50   |
+| badgeColor                      | o.default.color.baseColor.blue500  |
 | maskColor                       | l.bs.black(.95)                    |
 | maskColorNative                 | l.bs.black(.4)                     |
 | hoverLabelColor                 | l.bs.black(.4)                     |
 | elevatedBackground              | l.Cj                               |
 | elevatedBackgroundShadow        | l.bs.black(.6)                     |
-| brandColor                      | r.default.color.baseColor.gray1100 |
+| brandColor                      | o.default.color.baseColor.gray1100 |
 | whiteOnColor                    | l.Cj                               |
-| buttonBlack                     | r.default.color.baseColor.gray1100 |
+| buttonBlack                     | o.default.color.baseColor.gray1100 |
 | buttonWhite                     | l.Cj                               |
-| buttonOutlinedBorder            | r.default.color.baseColor.gray200  |
-| buttonDestructionOutlinedBorder | r.default.color.baseColor.red100   |
+| buttonOutlinedBorder            | o.default.color.baseColor.gray200  |
+| buttonDestructionOutlinedBorder | o.default.color.baseColor.red100   |
 | appBarBackground                | l.bs.white(.1)                     |
 | appBarFirefoxBackground         | l.bs.white(.85)                    |
 
@@ -2176,14 +2176,14 @@ This document is entirely auto-generated and may contain errors.<br>
 | gray300                    | #697987                           |
 | gray200                    | #697987                           |
 | gray100                    | #E5EAEC                           |
-| gray50                     | r.default.color.baseColor.gray200 |
-| gray0                      | r.default.color.baseColor.gray50  |
+| gray50                     | o.default.color.baseColor.gray200 |
+| gray0                      | o.default.color.baseColor.gray50  |
 | navigationBackground95     | l.Cj                              |
-| borderColor                | r.default.color.baseColor.gray300 |
-| nestedBorderColor          | r.default.color.baseColor.gray300 |
-| dmReceivedBubbleBackground | r.default.color.baseColor.gray200 |
+| borderColor                | o.default.color.baseColor.gray300 |
+| nestedBorderColor          | o.default.color.baseColor.gray300 |
+| dmReceivedBubbleBackground | o.default.color.baseColor.gray200 |
 | badgeColor                 | #264A9D                           |
-| buttonOutlinedBorder       | r.default.color.baseColor.gray700 |
+| buttonOutlinedBorder       | o.default.color.baseColor.gray700 |
 
 | constant                        | value                              |
 |:--------------------------------|:-----------------------------------|
@@ -2197,32 +2197,32 @@ This document is entirely auto-generated and may contain errors.<br>
 | borderColor                     | #38444D                            |
 | nestedBorderColor               | #38444D                            |
 | dmReceivedBubbleBackground      | #3D5466                            |
-| badgeColor                      | r.default.color.baseColor.blue500  |
+| badgeColor                      | o.default.color.baseColor.blue500  |
 | maskColor                       | l.bs.gray700(.95)                  |
 | maskColorNative                 | l.bs.black(.4)                     |
 | hoverLabelColor                 | l.bs.gray700(.4)                   |
 | elevatedBackground              | #1C2C3C                            |
 | elevatedBackgroundShadow        | l.bs.dim(.8)                       |
-| brandColor                      | r.default.color.baseColor.gray0    |
+| brandColor                      | o.default.color.baseColor.gray0    |
 | whiteOnColor                    | l.Cj                               |
-| buttonBlack                     | r.default.color.baseColor.gray50   |
-| buttonWhite                     | r.default.color.baseColor.gray1100 |
-| buttonOutlinedBorder            | r.default.color.baseColor.gray700  |
+| buttonBlack                     | o.default.color.baseColor.gray50   |
+| buttonWhite                     | o.default.color.baseColor.gray1100 |
+| buttonOutlinedBorder            | o.default.color.baseColor.gray700  |
 | buttonDestructionOutlinedBorder | #67070F                            |
 | appBarBackground                | l.bs.dim(.1)                       |
 | appBarFirefoxBackground         | l.bs.dim(.75)                      |
 
 | constant                   | value                              |
 |:---------------------------|:-----------------------------------|
-| ...A                       | _                                  |
+| ...m                       | _                                  |
 | ...i()                     | _                                  |
 | text                       | l.Cj                               |
 | navigationBackground95     | #15202B                            |
 | unreadCellBackground       | #325D7D                            |
 | dmReceivedBubbleBackground | #B8CBD9                            |
 | badgeColor                 | #264A9D                            |
-| whiteOnColor               | r.default.color.baseColor.gray1100 |
-| buttonOutlinedBorder       | r.default.color.baseColor.gray300  |
+| whiteOnColor               | o.default.color.baseColor.gray1100 |
+| buttonOutlinedBorder       | o.default.color.baseColor.gray300  |
 
 | constant                        | value                              |
 |:--------------------------------|:-----------------------------------|
@@ -2237,17 +2237,17 @@ This document is entirely auto-generated and may contain errors.<br>
 | borderColor                     | #2F3336                            |
 | nestedBorderColor               | #2F3336                            |
 | dmReceivedBubbleBackground      | #2F3336                            |
-| badgeColor                      | r.default.color.baseColor.blue500  |
+| badgeColor                      | o.default.color.baseColor.blue500  |
 | maskColor                       | l.bs.gray700(.95)                  |
 | maskColorNative                 | l.bs.black(.4)                     |
 | hoverLabelColor                 | l.bs.gray700(.4)                   |
 | elevatedBackground              | #1B2023                            |
 | elevatedBackgroundShadow        | l.bs.black(.8)                     |
-| brandColor                      | r.default.color.darkColor.gray1100 |
+| brandColor                      | o.default.color.darkColor.gray1100 |
 | whiteOnColor                    | l.Cj                               |
-| buttonBlack                     | r.default.color.baseColor.gray50   |
-| buttonWhite                     | r.default.color.baseColor.gray1100 |
-| buttonOutlinedBorder            | r.default.color.baseColor.gray700  |
+| buttonBlack                     | o.default.color.baseColor.gray50   |
+| buttonWhite                     | o.default.color.baseColor.gray1100 |
+| buttonOutlinedBorder            | o.default.color.baseColor.gray700  |
 | buttonDestructionOutlinedBorder | #67070F                            |
 | appBarBackground                | l.bs.black(.1)                     |
 | appBarFirefoxBackground         | l.bs.black(.65)                    |
@@ -2265,8 +2265,8 @@ This document is entirely auto-generated and may contain errors.<br>
 | nestedBorderColor          | #3D4145                            |
 | dmReceivedBubbleBackground | #929CA6                            |
 | badgeColor                 | #264A9D                            |
-| whiteOnColor               | r.default.color.baseColor.gray1100 |
-| buttonOutlinedBorder       | r.default.color.baseColor.gray300  |
+| whiteOnColor               | o.default.color.baseColor.gray1100 |
+| buttonOutlinedBorder       | o.default.color.baseColor.gray300  |
 
 | constant                        | value                              |
 |:--------------------------------|:-----------------------------------|
@@ -2280,17 +2280,17 @@ This document is entirely auto-generated and may contain errors.<br>
 | borderColor                     | #38444D                            |
 | nestedBorderColor               | #38444D                            |
 | dmReceivedBubbleBackground      | #3D5466                            |
-| badgeColor                      | r.default.color.baseColor.blue500  |
+| badgeColor                      | o.default.color.baseColor.blue500  |
 | maskColor                       | l.bs.gray700(.95)                  |
 | maskColorNative                 | l.bs.black(.4)                     |
 | hoverLabelColor                 | l.bs.gray700(.4)                   |
 | elevatedBackground              | #1C2C3C                            |
 | elevatedBackgroundShadow        | l.bs.dim(.8)                       |
-| brandColor                      | r.default.color.baseColor.gray0    |
+| brandColor                      | o.default.color.baseColor.gray0    |
 | whiteOnColor                    | l.Cj                               |
-| buttonBlack                     | r.default.color.baseColor.gray50   |
-| buttonWhite                     | r.default.color.baseColor.gray1100 |
-| buttonOutlinedBorder            | r.default.color.baseColor.gray700  |
+| buttonBlack                     | o.default.color.baseColor.gray50   |
+| buttonWhite                     | o.default.color.baseColor.gray1100 |
+| buttonOutlinedBorder            | o.default.color.baseColor.gray700  |
 | buttonDestructionOutlinedBorder | #67070F                            |
 | appBarBackground                | l.bs.dim(.1)                       |
 | appBarFirefoxBackground         | l.bs.dim(.75)                      |
@@ -2319,11 +2319,11 @@ This document is entirely auto-generated and may contain errors.<br>
 |:----------------------|:----------|
 | appBarHeight          | g         |
 | appBarHeightPx        | v         |
-| conversationLineWidth | m.space2  |
+| conversationLineWidth | A.space2  |
 | gutterHorizontal      | M.space16 |
-| gutterHorizontalPx    | m.space16 |
+| gutterHorizontalPx    | A.space16 |
 | gutterVertical        | M.space12 |
-| gutterVerticalPx      | m.space12 |
+| gutterVerticalPx      | A.space12 |
 
 | constant            | value   |
 |:--------------------|:--------|
@@ -2339,16 +2339,16 @@ This document is entirely auto-generated and may contain errors.<br>
 | fontSizes           | y       |
 | fontSizesPx         | w       |
 | fontWeights         | b       |
-| lineHeights         | A       |
+| lineHeights         | m       |
 | lineHeightsPx       | S       |
 | scales              | d       |
 | scaleMultiplier     | a       |
 | spaces              | M       |
-| spacesPx            | m       |
+| spacesPx            | A       |
 
 ```internal process
 # Error
-{"...p()":{"scale":"l","scales":"i"}"nd0",S.oba,d,"o"}
+{"...p()":{"scale":"l","scales":"i"}"nd0",S.oba,d,"r"}
 ```
 | constant         | value            |
 |:-----------------|:-----------------|
@@ -5252,15 +5252,15 @@ This document is entirely auto-generated and may contain errors.<br>
 | darker     | dark     |
 | business   | business |
 
+```internal process
+# Error
+{[b.sj.AMPLIFY]:{"conversionHandler":"a.R","shouldRenderCard":"a.r"},[b.sj.APP]:{"conversionHandler":"o.F","shouldRenderCard":"o.V"},[b.sj.AUDIOSPACE]:{"conversionHandler":"s.x","shouldRenderCard":"s.W"},[b.sj.BROADCAST]:{"conversionHandler":"d.K","shouldRenderCard":"d.Q"},[b.sj.DIRECT_STORE_LINK_AP...
+```
 | constant     | value             |
 |:-------------|:------------------|
 | navButtons   | navigationButtons |
 | carouselRoot | carouselRoot      |
 
-```internal process
-# Error
-{[b.sj.AMPLIFY]:{"conversionHandler":"a.R","shouldRenderCard":"a.r"},[b.sj.APP]:{"conversionHandler":"o.F","shouldRenderCard":"o.V"},[b.sj.AUDIOSPACE]:{"conversionHandler":"s.x","shouldRenderCard":"s.W"},[b.sj.BROADCAST]:{"conversionHandler":"d.K","shouldRenderCard":"d.Q"},[b.sj.DIRECT_STORE_LINK_AP...
-```
 | constant   | value                              |
 |:-----------|:-----------------------------------|
 | large      | {'title': '1', 'description': '2'} |
@@ -10932,7 +10932,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{[L.LIVE_EVENT]:"!0",[L.MOMENT]:"!0",[L.SUMMARY]:"!0",[L.SUMMARY_LARGE_IMAGE]:"!0",[L.AUDIOSPACE]:"!0"}
+{[V.LIVE_EVENT]:"!0",[V.MOMENT]:"!0",[V.SUMMARY]:"!0",[V.SUMMARY_LARGE_IMAGE]:"!0",[V.AUDIOSPACE]:"!0"}
 ```
 | constant     | value        |
 |:-------------|:-------------|

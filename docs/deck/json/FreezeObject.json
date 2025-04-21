@@ -150,10 +150,6 @@
     "ArticleCard": "v.Z"
   },
   {
-    "HUMAN": "1",
-    "ASSISTANT": "2"
-  },
-  {
     "navButtons": "navigationButtons",
     "carouselRoot": "carouselRoot"
   },
@@ -392,10 +388,6 @@
   {
     "InitialSale": "InitialSale",
     "Renewal": "Renewal"
-  },
-  {
-    "HUMAN": "1",
-    "ASSISTANT": "2"
   },
   {
     "PRICE_LEVEL_UNSPECIFIED": "",
@@ -657,10 +649,6 @@
   {
     "apple": "https://apps.apple.com/account/billing",
     "google": "https://play.google.com/store/account/subscriptions?sku=com.twitter.google.rogue.one.1.1&package=com.twitter.android"
-  },
-  {
-    "HUMAN": "1",
-    "ASSISTANT": "2"
   },
   {
     "Badge": "Badge",

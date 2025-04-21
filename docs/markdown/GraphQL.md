@@ -5002,7 +5002,7 @@ Login Required: `...`<br>
 | key                    | type   | variable   |
 |:-----------------------|:-------|:-----------|
 | bookmark_collection_id | ...    | n          |
-| name                   | ...    | o          |
+| name                   | ...    | r          |
 
 #### features<br>
 | key                                                                     | type    | variable   |
@@ -5048,7 +5048,10 @@ Request Method: `POST`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-`None`<br>
+| key                | type   | variable   |
+|:-------------------|:-------|:-----------|
+| post_tweet_request | ...    | ()(0,d.y)  |
+
 #### features<br>
 `None`<br>
 #### queryId<br>
@@ -6896,7 +6899,7 @@ Login Required: `...`<br>
 | key                    | type   | variable   |
 |:-----------------------|:-------|:-----------|
 | bookmark_collection_id | ...    | n          |
-| name                   | ...    | o          |
+| name                   | ...    | r          |
 
 #### features<br>
 | key                                                                     | type    | variable   |
@@ -7712,7 +7715,7 @@ Login Required: `...`<br>
 | key                    | type   | variable   |
 |:-----------------------|:-------|:-----------|
 | bookmark_collection_id | ...    | n          |
-| name                   | ...    | o          |
+| name                   | ...    | r          |
 
 #### features<br>
 | key                                                                     | type    | variable   |
@@ -7758,7 +7761,10 @@ Request Method: `POST`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-`None`<br>
+| key                | type   | variable   |
+|:-------------------|:-------|:-----------|
+| post_tweet_request | ...    | ()(0,d.y)  |
+
 #### features<br>
 `None`<br>
 #### queryId<br>
@@ -10267,7 +10273,7 @@ Login Required: `...`<br>
 | key                    | type   | variable   |
 |:-----------------------|:-------|:-----------|
 | bookmark_collection_id | ...    | n          |
-| name                   | ...    | o          |
+| name                   | ...    | r          |
 
 #### features<br>
 | key                                                                     | type    | variable   |
@@ -11618,7 +11624,7 @@ Login Required: `...`<br>
 | key                    | type   | variable   |
 |:-----------------------|:-------|:-----------|
 | bookmark_collection_id | ...    | n          |
-| name                   | ...    | o          |
+| name                   | ...    | r          |
 
 #### features<br>
 | key                                                                     | type    | variable   |
@@ -11664,7 +11670,10 @@ Request Method: `POST`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-`None`<br>
+| key                | type   | variable   |
+|:-------------------|:-------|:-----------|
+| post_tweet_request | ...    | ()(0,d.y)  |
+
 #### features<br>
 `None`<br>
 #### queryId<br>
