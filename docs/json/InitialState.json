@@ -2641,7 +2641,13 @@
       "rweb_video_vertical_aspect_ratio_enabled": {
         "value": "false"
       },
+      "rweb_xchat_debug_enabled": {
+        "value": "false"
+      },
       "rweb_xchat_enabled": {
+        "value": "false"
+      },
+      "rweb_xchat_old_dms_inbox_item": {
         "value": "false"
       },
       "sc_mock_data_enabled": {
@@ -3550,7 +3556,7 @@
         "value": "true"
       },
       "vo_upsell_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "vo_upsell_new_business_query_enabled": {
         "value": "true"
@@ -3559,7 +3565,7 @@
         "value": "true"
       },
       "vo_upsell_profile_page_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "vod_attribution_tweet_detail_pivot_enabled": {
         "value": "true"
@@ -6188,7 +6194,13 @@
         "rweb_video_vertical_aspect_ratio_enabled": {
           "value": "false"
         },
+        "rweb_xchat_debug_enabled": {
+          "value": "false"
+        },
         "rweb_xchat_enabled": {
+          "value": "false"
+        },
+        "rweb_xchat_old_dms_inbox_item": {
           "value": "false"
         },
         "sc_mock_data_enabled": {
@@ -7199,10 +7211,10 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "5db4e861bf1e41560e15d07e95977438"
+      "settingsVersion": "a573a58c9532bfc5c6b8ce70dfd3e27b"
     },
     "debug": {},
-    "featureSetToken": "dd147ccfa6c98d5b5b36bb8c44fb02c963f93073",
+    "featureSetToken": "2e5303dcbb9fd35339b2fa18553dffb1974ea65d",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -7271,7 +7283,7 @@
   },
   "session": {
     "country": "XX",
-    "guestId": "174535572041369180",
+    "guestId": "174544210204091197",
     "hasCommunityMemberships": "false",
     "hasPasskey": "false",
     "isActiveCreator": "false",
