@@ -5002,7 +5002,7 @@ Login Required: `...`<br>
 | key                    | type   | variable   |
 |:-----------------------|:-------|:-----------|
 | bookmark_collection_id | ...    | n          |
-| name                   | ...    | r          |
+| name                   | ...    | o          |
 
 #### features<br>
 | key                                                                     | type    | variable   |
@@ -6899,7 +6899,7 @@ Login Required: `...`<br>
 | key                    | type   | variable   |
 |:-----------------------|:-------|:-----------|
 | bookmark_collection_id | ...    | n          |
-| name                   | ...    | r          |
+| name                   | ...    | o          |
 
 #### features<br>
 | key                                                                     | type    | variable   |
@@ -7715,7 +7715,7 @@ Login Required: `...`<br>
 | key                    | type   | variable   |
 |:-----------------------|:-------|:-----------|
 | bookmark_collection_id | ...    | n          |
-| name                   | ...    | r          |
+| name                   | ...    | o          |
 
 #### features<br>
 | key                                                                     | type    | variable   |
@@ -10273,7 +10273,7 @@ Login Required: `...`<br>
 | key                    | type   | variable   |
 |:-----------------------|:-------|:-----------|
 | bookmark_collection_id | ...    | n          |
-| name                   | ...    | r          |
+| name                   | ...    | o          |
 
 #### features<br>
 | key                                                                     | type    | variable   |
@@ -11624,7 +11624,7 @@ Login Required: `...`<br>
 | key                    | type   | variable   |
 |:-----------------------|:-------|:-----------|
 | bookmark_collection_id | ...    | n          |
-| name                   | ...    | r          |
+| name                   | ...    | o          |
 
 #### features<br>
 | key                                                                     | type    | variable   |

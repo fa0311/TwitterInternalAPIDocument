@@ -380,16 +380,6 @@
     "FAILURE": "rweb/GROK_USER_EVENTS_LOG/FAILURE"
   },
   {
-    "AppStore": "AppStore",
-    "PlayStore": "PlayStore",
-    "Stripe": "Stripe",
-    "Web": "Web"
-  },
-  {
-    "InitialSale": "InitialSale",
-    "Renewal": "Renewal"
-  },
-  {
     "PRICE_LEVEL_UNSPECIFIED": "",
     "PRICE_LEVEL_FREE": "",
     "PRICE_LEVEL_INEXPENSIVE": "$",
