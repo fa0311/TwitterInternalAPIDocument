@@ -5984,3 +5984,15 @@
 - rweb_home_uas_enabled<br>
 #### remove<br>
 - None<br>
+## 2025/04/23<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- rweb_xchat_debug_enabled<br>
+- rweb_xchat_old_dms_inbox_item<br>
+#### remove<br>
+- None<br>

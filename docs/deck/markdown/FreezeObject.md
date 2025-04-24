@@ -440,6 +440,18 @@ This document is entirely auto-generated and may contain errors.<br>
 | SUCCESS    | rweb/GROK_USER_EVENTS_LOG/SUCCESS |
 | FAILURE    | rweb/GROK_USER_EVENTS_LOG/FAILURE |
 
+| constant   | value     |
+|:-----------|:----------|
+| AppStore   | AppStore  |
+| PlayStore  | PlayStore |
+| Stripe     | Stripe    |
+| Web        | Web       |
+
+| constant    | value       |
+|:------------|:------------|
+| InitialSale | InitialSale |
+| Renewal     | Renewal     |
+
 | constant                   | value   |
 |:---------------------------|:--------|
 | PRICE_LEVEL_UNSPECIFIED    |         |
