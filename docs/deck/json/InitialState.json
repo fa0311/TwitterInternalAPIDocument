@@ -1657,9 +1657,6 @@
       "responsive_web_framerate_tracking_home_enabled": {
         "value": "false"
       },
-      "responsive_web_graphql_exclude_directive_enabled": {
-        "value": "true"
-      },
       "responsive_web_graphql_feedback": {
         "value": "true"
       },
@@ -2518,9 +2515,6 @@
       "rweb_enable_logged_out_search_search_bar_enabled": {
         "value": "false"
       },
-      "rweb_graphql_notifications_tab_enabled": {
-        "value": "true"
-      },
       "rweb_home_compact_timeline_enabled": {
         "value": "false"
       },
@@ -2573,7 +2567,7 @@
         "value": "false"
       },
       "rweb_recommendations_sidebar_graphql_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "rweb_save_video_progress_enabled": {
         "value": "false"
@@ -3117,6 +3111,9 @@
       "subscriptions_upsells_premium_home_nav": {
         "value": "premium_upsell_upgrade"
       },
+      "subscriptions_upsells_premium_nav_migration_enabled": {
+        "value": "false"
+      },
       "subscriptions_upsells_profile_sidebar_analytics_upsell_enabled": {
         "value": "false"
       },
@@ -3556,7 +3553,7 @@
         "value": "true"
       },
       "vo_upsell_enabled": {
-        "value": "true"
+        "value": "false"
       },
       "vo_upsell_new_business_query_enabled": {
         "value": "true"
@@ -3565,7 +3562,7 @@
         "value": "true"
       },
       "vo_upsell_profile_page_enabled": {
-        "value": "true"
+        "value": "false"
       },
       "vod_attribution_tweet_detail_pivot_enabled": {
         "value": "true"
@@ -5210,9 +5207,6 @@
         "responsive_web_framerate_tracking_home_enabled": {
           "value": "false"
         },
-        "responsive_web_graphql_exclude_directive_enabled": {
-          "value": "true"
-        },
         "responsive_web_graphql_feedback": {
           "value": "true"
         },
@@ -6071,9 +6065,6 @@
         "rweb_enable_logged_out_search_search_bar_enabled": {
           "value": "false"
         },
-        "rweb_graphql_notifications_tab_enabled": {
-          "value": "true"
-        },
         "rweb_home_compact_timeline_enabled": {
           "value": "false"
         },
@@ -6126,7 +6117,7 @@
           "value": "false"
         },
         "rweb_recommendations_sidebar_graphql_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "rweb_save_video_progress_enabled": {
           "value": "false"
@@ -6670,6 +6661,9 @@
         "subscriptions_upsells_premium_home_nav": {
           "value": "premium_upsell_upgrade"
         },
+        "subscriptions_upsells_premium_nav_migration_enabled": {
+          "value": "false"
+        },
         "subscriptions_upsells_profile_sidebar_analytics_upsell_enabled": {
           "value": "false"
         },
@@ -7109,7 +7103,7 @@
           "value": "true"
         },
         "vo_upsell_enabled": {
-          "value": "true"
+          "value": "false"
         },
         "vo_upsell_new_business_query_enabled": {
           "value": "true"
@@ -7118,7 +7112,7 @@
           "value": "true"
         },
         "vo_upsell_profile_page_enabled": {
-          "value": "true"
+          "value": "false"
         },
         "vod_attribution_tweet_detail_pivot_enabled": {
           "value": "true"
@@ -7214,7 +7208,7 @@
       "settingsVersion": "a573a58c9532bfc5c6b8ce70dfd3e27b"
     },
     "debug": {},
-    "featureSetToken": "2e5303dcbb9fd35339b2fa18553dffb1974ea65d",
+    "featureSetToken": "6c868cf35456c1affee961e4c3b0a56c1577f2da",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -7283,7 +7277,7 @@
   },
   "session": {
     "country": "XX",
-    "guestId": "174544256464908562",
+    "guestId": "174552899803791623",
     "hasCommunityMemberships": "false",
     "hasPasskey": "false",
     "isActiveCreator": "false",
