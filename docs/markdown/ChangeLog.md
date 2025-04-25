@@ -6008,3 +6008,14 @@
 #### remove<br>
 - responsive_web_graphql_exclude_directive_enabled<br>
 - rweb_graphql_notifications_tab_enabled<br>
+## 2025/04/25<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- payments_crb_iframe_delay_msecs<br>
+#### remove<br>
+- None<br>
