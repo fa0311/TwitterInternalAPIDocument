@@ -441,6 +441,7 @@ This document is entirely auto-generated and may contain errors.<br>
 |:--------------|:--------------|
 | AtmWithdrawal | AtmWithdrawal |
 | Deposit       | Deposit       |
+| DisputeCredit | DisputeCredit |
 | Payment       | Payment       |
 | Refund        | Refund        |
 | Reverse       | Reverse       |
