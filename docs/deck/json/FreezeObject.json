@@ -394,6 +394,7 @@
   {
     "AtmWithdrawal": "AtmWithdrawal",
     "Deposit": "Deposit",
+    "DisputeCredit": "DisputeCredit",
     "Payment": "Payment",
     "Refund": "Refund",
     "Reverse": "Reverse",

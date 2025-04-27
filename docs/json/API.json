@@ -2218,8 +2218,8 @@
       }
     },
     "Viewer": {
-      "url": "https://x.com/i/api/graphql/5jCm9QY8s8JBVd5RIbjhJQ/Viewer",
-      "queryId": "5jCm9QY8s8JBVd5RIbjhJQ",
+      "url": "https://x.com/i/api/graphql/sJQDbNuVwK-OOMxefpL9Ig/Viewer",
+      "queryId": "sJQDbNuVwK-OOMxefpL9Ig",
       "method": "GET",
       "features": {
         "subscriptions_upsells_api_enabled": true,
