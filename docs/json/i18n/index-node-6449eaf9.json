@@ -1824,7 +1824,6 @@
   "daad8822": "Upload Failed",
   "i8ff6261": "Looks like this video exceeds the maximum file size that can be uploaded ({human_readable_max_size}GB).",
   "cba4fdde": "Deliver in 1080p to viewers on X",
-  "c92702a0": "This MP4 file might be corrupted. We’ll try uploading it, but you may need to use a different video file if it fails.",
   "ef8f5d90": "Recommended",
   "a7046fb0": "Rarely needed",
   "acf3ecf4": "Add media",
