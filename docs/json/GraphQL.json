@@ -15261,16 +15261,20 @@
   {
     "n": "84550",
     "exports": {
-      "queryId": "lWVG1NYl6Z8-6qTDNP9jrg",
+      "queryId": "V8-RP7SxlI4qzRmpCmEqgw",
       "operationName": "ListProductSubscriptions",
       "operationType": "query",
       "metadata": {
         "featureSwitches": [
-          "subscriptions_management_fetch_next_billing_time"
+          "subscriptions_management_fetch_next_billing_time",
+          "subscriptions_marketing_page_fetch_promotions"
         ],
         "fieldToggles": [],
         "featureSwitch": {
           "subscriptions_management_fetch_next_billing_time": {
+            "value": "true"
+          },
+          "subscriptions_marketing_page_fetch_promotions": {
             "value": "true"
           }
         }
@@ -23133,16 +23137,20 @@
   {
     "n": "84550",
     "exports": {
-      "queryId": "lWVG1NYl6Z8-6qTDNP9jrg",
+      "queryId": "V8-RP7SxlI4qzRmpCmEqgw",
       "operationName": "ListProductSubscriptions",
       "operationType": "query",
       "metadata": {
         "featureSwitches": [
-          "subscriptions_management_fetch_next_billing_time"
+          "subscriptions_management_fetch_next_billing_time",
+          "subscriptions_marketing_page_fetch_promotions"
         ],
         "fieldToggles": [],
         "featureSwitch": {
           "subscriptions_management_fetch_next_billing_time": {
+            "value": "true"
+          },
+          "subscriptions_marketing_page_fetch_promotions": {
             "value": "true"
           }
         }
@@ -24112,16 +24120,20 @@
   {
     "n": "84550",
     "exports": {
-      "queryId": "lWVG1NYl6Z8-6qTDNP9jrg",
+      "queryId": "V8-RP7SxlI4qzRmpCmEqgw",
       "operationName": "ListProductSubscriptions",
       "operationType": "query",
       "metadata": {
         "featureSwitches": [
-          "subscriptions_management_fetch_next_billing_time"
+          "subscriptions_management_fetch_next_billing_time",
+          "subscriptions_marketing_page_fetch_promotions"
         ],
         "fieldToggles": [],
         "featureSwitch": {
           "subscriptions_management_fetch_next_billing_time": {
+            "value": "true"
+          },
+          "subscriptions_marketing_page_fetch_promotions": {
             "value": "true"
           }
         }
