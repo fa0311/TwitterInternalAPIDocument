@@ -4300,11 +4300,12 @@
       "features": {}
     },
     "ListProductSubscriptions": {
-      "url": "https://x.com/i/api/graphql/lWVG1NYl6Z8-6qTDNP9jrg/ListProductSubscriptions",
-      "queryId": "lWVG1NYl6Z8-6qTDNP9jrg",
+      "url": "https://x.com/i/api/graphql/V8-RP7SxlI4qzRmpCmEqgw/ListProductSubscriptions",
+      "queryId": "V8-RP7SxlI4qzRmpCmEqgw",
       "method": "GET",
       "features": {
-        "subscriptions_management_fetch_next_billing_time": true
+        "subscriptions_management_fetch_next_billing_time": true,
+        "subscriptions_marketing_page_fetch_promotions": true
       }
     },
     "NotABotCheckoutUrlWithEligibility": {
