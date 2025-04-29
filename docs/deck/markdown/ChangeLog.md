@@ -4968,3 +4968,16 @@
 - payments_crb_iframe_delay_msecs<br>
 #### remove<br>
 - None<br>
+## 2025/04/29<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- subscriptions_management_query_active_price<br>
+- subscriptions_management_use_active_price<br>
+- subscriptions_offers_localized_pricing_enabled<br>
+#### remove<br>
+- subscriptions_management_tier_switch_improvements_enabled<br>
