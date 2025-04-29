@@ -5547,7 +5547,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## ListProductSubscriptions<br>
-Request URL: `https://x.com/i/api/graphql/lWVG1NYl6Z8-6qTDNP9jrg/ListProductSubscriptions`<br>
+Request URL: `https://x.com/i/api/graphql/V8-RP7SxlI4qzRmpCmEqgw/ListProductSubscriptions`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -5557,6 +5557,7 @@ Login Required: `...`<br>
 | key                                              | type    | variable   |
 |:-------------------------------------------------|:--------|:-----------|
 | subscriptions_management_fetch_next_billing_time | boolean | True       |
+| subscriptions_marketing_page_fetch_promotions    | boolean | True       |
 
 #### queryId<br>
 `None`<br>
@@ -8790,7 +8791,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## ListProductSubscriptions<br>
-Request URL: `https://x.com/i/api/graphql/lWVG1NYl6Z8-6qTDNP9jrg/ListProductSubscriptions`<br>
+Request URL: `https://x.com/i/api/graphql/V8-RP7SxlI4qzRmpCmEqgw/ListProductSubscriptions`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -8800,6 +8801,7 @@ Login Required: `...`<br>
 | key                                              | type    | variable   |
 |:-------------------------------------------------|:--------|:-----------|
 | subscriptions_management_fetch_next_billing_time | boolean | True       |
+| subscriptions_marketing_page_fetch_promotions    | boolean | True       |
 
 #### queryId<br>
 `None`<br>
@@ -9309,7 +9311,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## ListProductSubscriptions<br>
-Request URL: `https://x.com/i/api/graphql/lWVG1NYl6Z8-6qTDNP9jrg/ListProductSubscriptions`<br>
+Request URL: `https://x.com/i/api/graphql/V8-RP7SxlI4qzRmpCmEqgw/ListProductSubscriptions`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -9319,6 +9321,7 @@ Login Required: `...`<br>
 | key                                              | type    | variable   |
 |:-------------------------------------------------|:--------|:-----------|
 | subscriptions_management_fetch_next_billing_time | boolean | True       |
+| subscriptions_marketing_page_fetch_promotions    | boolean | True       |
 
 #### queryId<br>
 `None`<br>
