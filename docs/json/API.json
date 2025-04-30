@@ -669,6 +669,12 @@
         "responsive_web_enhance_cards_enabled": false
       }
     },
+    "GenerateDrmToken": {
+      "url": "https://x.com/i/api/graphql/6csp1Dw5r5zveD-1qaqXdA/GenerateDrmToken",
+      "queryId": "6csp1Dw5r5zveD-1qaqXdA",
+      "method": "GET",
+      "features": {}
+    },
     "GenericTimelineById": {
       "url": "https://x.com/i/api/graphql/CT0YFEFf5GOYa5DJcxM91w/GenericTimelineById",
       "queryId": "CT0YFEFf5GOYa5DJcxM91w",
@@ -5232,7 +5238,7 @@
     }
   },
   "header": {
-    "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36",
+    "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
     "authorization": "Bearer AAAAAAAAAAAAAAAAAAAAANRILgAAAAAAnNwIzUejRCOuH5E6I8xnZz4puTs%3D1Zv7ttfk8LF81IUq16cHjhLTvJu4FA33AGWWjCpTnA"
   }
 }
