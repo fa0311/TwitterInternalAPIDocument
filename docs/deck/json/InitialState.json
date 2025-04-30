@@ -373,6 +373,9 @@
       "arkose_challenge_login_web_prod": {
         "value": "2F4F0B28-BC94-4271-8AD7-A51662E3C91C"
       },
+      "arkose_challenge_onboard_prod": {
+        "value": "4CB8C8B0-40FF-439C-9D0D-9A389ADA18CB"
+      },
       "arkose_challenge_open_app_dev": {
         "value": "560C66A3-C8EB-4D11-BE53-A8232734AA62"
       },
@@ -2971,7 +2974,7 @@
         "value": "true"
       },
       "subscriptions_management_query_active_price": {
-        "value": "false"
+        "value": "true"
       },
       "subscriptions_management_renew_module_api_enabled": {
         "value": "true"
@@ -2980,7 +2983,7 @@
         "value": "true"
       },
       "subscriptions_management_use_active_price": {
-        "value": "false"
+        "value": "true"
       },
       "subscriptions_marketing_page_discounts_enabled": {
         "value": "true"
@@ -3089,6 +3092,9 @@
       },
       "subscriptions_upsells_get_verified_profile_card_variant": {
         "value": "variant_a"
+      },
+      "subscriptions_upsells_get_verified_profile_rotation_basic_upgrade_enabled": {
+        "value": "false"
       },
       "subscriptions_upsells_get_verified_profile_rotation_enabled": {
         "value": "true"
@@ -3932,6 +3938,9 @@
         "arkose_challenge_login_web_prod": {
           "value": "2F4F0B28-BC94-4271-8AD7-A51662E3C91C"
         },
+        "arkose_challenge_onboard_prod": {
+          "value": "4CB8C8B0-40FF-439C-9D0D-9A389ADA18CB"
+        },
         "arkose_challenge_open_app_dev": {
           "value": "560C66A3-C8EB-4D11-BE53-A8232734AA62"
         },
@@ -4767,7 +4776,7 @@
           "value": "false"
         },
         "payments_crb_iframe_delay_msecs": {
-          "value": "1500"
+          "value": "2000"
         },
         "payments_enabled": {
           "value": "false"
@@ -6539,7 +6548,7 @@
           "value": "true"
         },
         "subscriptions_management_use_active_price": {
-          "value": "false"
+          "value": "true"
         },
         "subscriptions_marketing_page_discounts_enabled": {
           "value": "true"
@@ -6648,6 +6657,9 @@
         },
         "subscriptions_upsells_get_verified_profile_card_variant": {
           "value": "variant_a"
+        },
+        "subscriptions_upsells_get_verified_profile_rotation_basic_upgrade_enabled": {
+          "value": "false"
         },
         "subscriptions_upsells_get_verified_profile_rotation_enabled": {
           "value": "true"
@@ -7223,10 +7235,10 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "412af01296644729d6c5e9684b727066"
+      "settingsVersion": "0367069daa6ee1f3e7d622a39c6bcc0f"
     },
     "debug": {},
-    "featureSetToken": "340b13ac9a6489ed496960c5ae4f265dc357830e",
+    "featureSetToken": "af7cc75f0f65e3d413dc03d6f149f2d1bf7bb1ed",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -7295,7 +7307,7 @@
   },
   "session": {
     "country": "XX",
-    "guestId": "174596098148300859",
+    "guestId": "174604738595176718",
     "hasCommunityMemberships": "false",
     "hasPasskey": "false",
     "isActiveCreator": "false",
