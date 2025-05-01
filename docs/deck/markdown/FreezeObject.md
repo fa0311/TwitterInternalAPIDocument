@@ -187,7 +187,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{[r.wide]:"500",[r.narrow]:"285",[r.veryNarrow]:"200"}
+{[r.wide]:"500",[r.narrow]:"300",[r.veryNarrow]:"200"}
 ```
 ```internal process
 # Error
@@ -427,7 +427,9 @@ This document is entirely auto-generated and may contain errors.<br>
 | KycDocumentUpload  | KycDocumentUpload  |
 | KycVerification    | KycVerification    |
 | LearnMore          | LearnMore          |
+| Questionnaire      | Questionnaire      |
 | SelfieVerification | SelfieVerification |
+| SetupPasskey       | SetupPasskey       |
 
 | constant   | value   |
 |:-----------|:--------|
@@ -789,7 +791,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{[n.wide]:"500",[n.narrow]:"285",[n.veryNarrow]:"200"}
+{[n.wide]:"500",[n.narrow]:"300",[n.veryNarrow]:"200"}
 ```
 ```internal process
 # Error

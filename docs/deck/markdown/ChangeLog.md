@@ -4981,3 +4981,15 @@
 - subscriptions_offers_localized_pricing_enabled<br>
 #### remove<br>
 - subscriptions_management_tier_switch_improvements_enabled<br>
+## 2025/04/30<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- arkose_challenge_onboard_prod<br>
+- subscriptions_upsells_get_verified_profile_rotation_basic_upgrade_enabled<br>
+#### remove<br>
+- None<br>
