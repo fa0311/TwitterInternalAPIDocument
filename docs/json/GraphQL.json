@@ -8468,12 +8468,6 @@
         "fieldToggles": [],
         "featureSwitch": {}
       }
-    },
-    "func_name": "g",
-    "func_name_init": "y",
-    "query": {
-      "content_state": "a",
-      "article_entity": "i"
     }
   },
   {
@@ -13819,11 +13813,6 @@
         "fieldToggles": [],
         "featureSwitch": {}
       }
-    },
-    "func_name": "i",
-    "func_name_init": "n",
-    "query": {
-      "target_user_id": "d.id_str"
     }
   },
   {
@@ -20737,11 +20726,6 @@
         "fieldToggles": [],
         "featureSwitch": {}
       }
-    },
-    "func_name": "i",
-    "func_name_init": "n",
-    "query": {
-      "target_user_id": "d.id_str"
     }
   },
   {
@@ -22743,7 +22727,7 @@
     }
   },
   {
-    "n": "34871",
+    "n": "33579",
     "exports": {
       "queryId": "9LgfubNkcFRC-sO_bWQlsQ",
       "operationName": "ArticleEntityUpdateTitle",
@@ -30130,11 +30114,6 @@
         "fieldToggles": [],
         "featureSwitch": {}
       }
-    },
-    "func_name": "i",
-    "func_name_init": "n",
-    "query": {
-      "target_user_id": "d.id_str"
     }
   },
   {
@@ -31224,7 +31203,7 @@
     }
   },
   {
-    "n": "34871",
+    "n": "33579",
     "exports": {
       "queryId": "9LgfubNkcFRC-sO_bWQlsQ",
       "operationName": "ArticleEntityUpdateTitle",

@@ -2987,11 +2987,7 @@ Request Method: `POST`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key            | type   | variable   |
-|:---------------|:-------|:-----------|
-| content_state  | ...    | a          |
-| article_entity | ...    | i          |
-
+`None`<br>
 #### features<br>
 `None`<br>
 #### queryId<br>
@@ -4950,10 +4946,7 @@ Request Method: `POST`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key            | type   | variable   |
-|:---------------|:-------|:-----------|
-| target_user_id | ...    | d.id_str   |
-
+`None`<br>
 #### features<br>
 `None`<br>
 #### queryId<br>
@@ -7608,10 +7601,7 @@ Request Method: `POST`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key            | type   | variable   |
-|:---------------|:-------|:-----------|
-| target_user_id | ...    | d.id_str   |
-
+`None`<br>
 #### features<br>
 `None`<br>
 #### queryId<br>
@@ -11504,10 +11494,7 @@ Request Method: `POST`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key            | type   | variable   |
-|:---------------|:-------|:-----------|
-| target_user_id | ...    | d.id_str   |
-
+`None`<br>
 #### features<br>
 `None`<br>
 #### queryId<br>
