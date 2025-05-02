@@ -5004,3 +5004,15 @@
 - subscriptions_marketing_page_supergrok_content_enabled<br>
 #### remove<br>
 - None<br>
+## 2025/05/02<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- responsive_web_grok_new_home_layout<br>
+- responsive_web_grok_trend_news_cell_enabled<br>
+#### remove<br>
+- None<br>
