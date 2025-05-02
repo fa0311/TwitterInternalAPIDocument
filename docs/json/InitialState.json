@@ -1813,6 +1813,9 @@
       "responsive_web_grok_multimedia_results": {
         "value": "false"
       },
+      "responsive_web_grok_new_home_layout": {
+        "value": "false"
+      },
       "responsive_web_grok_new_icon": {
         "value": "true"
       },
@@ -1923,6 +1926,9 @@
       },
       "responsive_web_grok_text_upload_enabled": {
         "value": "true"
+      },
+      "responsive_web_grok_trend_news_cell_enabled": {
+        "value": "false"
       },
       "responsive_web_grok_trends_design_enabled": {
         "value": "false"
@@ -3002,6 +3008,9 @@
       },
       "subscriptions_marketing_page_offer_ends_at_msec": {
         "value": "1739246400000"
+      },
+      "subscriptions_marketing_page_supergrok_content_enabled": {
+        "value": "false"
       },
       "subscriptions_mute_ad_upsell_enabled": {
         "value": "true"
@@ -5378,6 +5387,9 @@
         "responsive_web_grok_multimedia_results": {
           "value": "false"
         },
+        "responsive_web_grok_new_home_layout": {
+          "value": "false"
+        },
         "responsive_web_grok_new_icon": {
           "value": "true"
         },
@@ -5488,6 +5500,9 @@
         },
         "responsive_web_grok_text_upload_enabled": {
           "value": "true"
+        },
+        "responsive_web_grok_trend_news_cell_enabled": {
+          "value": "false"
         },
         "responsive_web_grok_trends_design_enabled": {
           "value": "false"
@@ -7238,10 +7253,10 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "0d7d4a330093ef5005fe1527bb437370"
+      "settingsVersion": "a573a58c9532bfc5c6b8ce70dfd3e27b"
     },
     "debug": {},
-    "featureSetToken": "d6f3bc93288e2f7245c81ee2fe49b14995a7516f",
+    "featureSetToken": "610c982bcc8895946310b5b65468c828cffe8b1d",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -7310,7 +7325,7 @@
   },
   "session": {
     "country": "XX",
-    "guestId": "174613329990408718",
+    "guestId": "174621969996147394",
     "hasCommunityMemberships": "false",
     "hasPasskey": "false",
     "isActiveCreator": "false",
