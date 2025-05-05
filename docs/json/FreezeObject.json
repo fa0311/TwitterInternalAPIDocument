@@ -10372,7 +10372,7 @@
     "IncentiveFocus": "IncentiveFocus",
     "TopicFocus": "TopicFocus"
   },
-  "{[W.LIVE_EVENT]:\"!0\",[W.MOMENT]:\"!0\",[W.SUMMARY]:\"!0\",[W.SUMMARY_LARGE_IMAGE]:\"!0\",[W.AUDIOSPACE]:\"!0\"}",
+  "{[N.LIVE_EVENT]:\"!0\",[N.MOMENT]:\"!0\",[N.SUMMARY]:\"!0\",[N.SUMMARY_LARGE_IMAGE]:\"!0\",[N.AUDIOSPACE]:\"!0\"}",
   {
     "CONVERSATION": "conversation",
     "TIMELINE": "timeline"
