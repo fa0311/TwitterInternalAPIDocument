@@ -5029,3 +5029,14 @@
 - responsive_web_remove_qp_ad_label_enabled<br>
 #### remove<br>
 - None<br>
+## 2025/05/07<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- spaces_2022_h2_spacebar_use_mock_data<br>
