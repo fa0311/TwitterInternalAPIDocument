@@ -6067,3 +6067,16 @@
 - responsive_web_grok_trend_news_cell_enabled<br>
 #### remove<br>
 - None<br>
+## 2025/05/06<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- responsive_web_grok_allow_x_post_embeds<br>
+- responsive_web_grok_allow_youtube_embeds<br>
+- responsive_web_remove_qp_ad_label_enabled<br>
+#### remove<br>
+- None<br>

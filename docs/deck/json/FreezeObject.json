@@ -124,6 +124,32 @@
     "Subscribers": "2"
   },
   {
+    "single_line": "singleline",
+    "format_inline": "format-inline"
+  },
+  {
+    "ActionsBar": "C.Z",
+    "ActionMenu": "w.Z",
+    "CallToAction": "a.ZP",
+    "EditCallout": "g.Z",
+    "Education": "E.Z",
+    "HighlightedUserLabel": "c.Z",
+    "Media": "x.Z",
+    "Place": "r.ZP",
+    "PromotedDetails": "u.Z",
+    "PromotedUserProfileCard": "_.Z",
+    "ReplyContext": "k.ZP",
+    "RichContent": "I.Z",
+    "SocialContext": "f.Z",
+    "Text": "T.Z",
+    "Tombstone": "h.Z",
+    "Timestamp": "b.Z",
+    "UserAvatar": "A.Z",
+    "UserFollowIndicator": "L.Z",
+    "UserName": "Z.Z",
+    "ArticleCard": "v.Z"
+  },
+  {
     "navButtons": "navigationButtons",
     "carouselRoot": "carouselRoot"
   },
@@ -457,10 +483,12 @@
     "AwaitingRequestAcceptance": "AwaitingRequestAcceptance",
     "AwaitingUnrecognizedConfirmation": "AwaitingUnrecognizedConfirmation",
     "Cancelled": "Cancelled",
+    "CreditedAwaitingSettlement": "CreditedAwaitingSettlement",
     "Expired": "Expired",
     "Failed": "Failed",
     "Hold": "Hold",
     "Pending": "Pending",
+    "PendingFundingTransactionSettlement": "PendingFundingTransactionSettlement",
     "PendingRecipientAcceptance": "PendingRecipientAcceptance",
     "PendingRecipientAction": "PendingRecipientAction",
     "PendingRecipientOnboarding": "PendingRecipientOnboarding",

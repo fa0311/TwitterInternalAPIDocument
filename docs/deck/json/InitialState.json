@@ -1211,7 +1211,7 @@
         "value": "false"
       },
       "payments_crb_iframe_delay_msecs": {
-        "value": "2000"
+        "value": "1000"
       },
       "payments_enabled": {
         "value": "false"
@@ -1677,6 +1677,12 @@
       },
       "responsive_web_grok_add_response_num_retries": {
         "value": "0"
+      },
+      "responsive_web_grok_allow_x_post_embeds": {
+        "value": "false"
+      },
+      "responsive_web_grok_allow_youtube_embeds": {
+        "value": "false"
       },
       "responsive_web_grok_analysis_button_from_backend": {
         "value": "false"
@@ -2198,6 +2204,9 @@
         "value": "true"
       },
       "responsive_web_redux_use_fragment_enabled": {
+        "value": "false"
+      },
+      "responsive_web_remove_qp_ad_label_enabled": {
         "value": "false"
       },
       "responsive_web_repeat_profile_visits_notifications_device_follow_only_version_enabled": {
@@ -4785,7 +4794,7 @@
           "value": "false"
         },
         "payments_crb_iframe_delay_msecs": {
-          "value": "2000"
+          "value": "1000"
         },
         "payments_enabled": {
           "value": "false"
@@ -5252,6 +5261,12 @@
         "responsive_web_grok_add_response_num_retries": {
           "value": "0"
         },
+        "responsive_web_grok_allow_x_post_embeds": {
+          "value": "false"
+        },
+        "responsive_web_grok_allow_youtube_embeds": {
+          "value": "false"
+        },
         "responsive_web_grok_analysis_button_from_backend": {
           "value": "true"
         },
@@ -5610,7 +5625,7 @@
           "value": "false"
         },
         "responsive_web_logged_out_grok_button_enabled": {
-          "value": "true"
+          "value": "false"
         },
         "responsive_web_logged_out_notifications_enabled": {
           "value": "true"
@@ -5625,7 +5640,7 @@
           "value": "true"
         },
         "responsive_web_logged_out_redesign_enabled": {
-          "value": "true"
+          "value": "false"
         },
         "responsive_web_login_input_type_email_enabled": {
           "value": "false"
@@ -5772,6 +5787,9 @@
           "value": "true"
         },
         "responsive_web_redux_use_fragment_enabled": {
+          "value": "false"
+        },
+        "responsive_web_remove_qp_ad_label_enabled": {
           "value": "false"
         },
         "responsive_web_repeat_profile_visits_notifications_device_follow_only_version_enabled": {
@@ -7250,29 +7268,13 @@
           "value": "true"
         }
       },
-      "impression_pointers": {
-        "responsive_web_logged_out_blue_brand_button_enabled": [
-          "revamped_login_page_web_17305"
-        ],
-        "responsive_web_logged_out_grok_button_enabled": [
-          "revamped_login_page_web_17305"
-        ],
-        "responsive_web_logged_out_redesign_enabled": [
-          "revamped_login_page_web_17305"
-        ]
-      },
-      "impressions": {
-        "revamped_login_page_web_17305": {
-          "key": "revamped_login_page_web_17305",
-          "bucket": "revamped_layout_with_grok",
-          "version": "6"
-        }
-      },
+      "impression_pointers": {},
+      "impressions": {},
       "keysRead": {},
-      "settingsVersion": "3960e3c583d8734cddc0905430374443"
+      "settingsVersion": "a573a58c9532bfc5c6b8ce70dfd3e27b"
     },
     "debug": {},
-    "featureSetToken": "610c982bcc8895946310b5b65468c828cffe8b1d",
+    "featureSetToken": "d59e4676e2fbafa3e2ae0981255209c359cbda23",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -7341,7 +7343,7 @@
   },
   "session": {
     "country": "XX",
-    "guestId": "174647939575320676",
+    "guestId": "174656583999360282",
     "hasCommunityMemberships": "false",
     "hasPasskey": "false",
     "isActiveCreator": "false",
