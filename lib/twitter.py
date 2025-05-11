@@ -8,10 +8,11 @@ class twitter_home:
     CLIENT = "responsive-web"
     LATEST_USER_AGENT = "https://raw.githubusercontent.com/fa0311/latest-user-agent/main/output.json"
     TWITTER_FRONTEND_FLOW = False
+    TIMEOUT = 30
 
     def __init__(self):
         self.session = requests.session()
-        self.user_agent = self.session.get(self.LATEST_USER_AGENT).json()["chrome"]
+        self.user_agent = self.session.get(self.LATEST_USER_AGENT, timeout=self.TIMEOUT).json()["chrome"]
 
     def login(self, userid: str, password: str):
         flow = TwitterFrontendFlow() # type: ignore
@@ -30,16 +31,16 @@ class twitter_home:
         flow.LoadCookies(file_path)
 
     def get_home(self):
-        legacy = self.session.get(self.TWITTER_HOME, headers=self.get_header())
+        legacy = self.session.get(self.TWITTER_HOME, headers=self.get_header(), timeout=self.TIMEOUT)
         migrate_script = self.get_script(legacy.text)
 
         if re.search(r'document\.location = "(.*?)"', migrate_script[0]):
             migrate_url = re.search(r'document\.location = "(.*?)"', migrate_script[0]).group(1)
-            redirect = self.session.get(migrate_url, headers=self.get_header())
+            redirect = self.session.get(migrate_url, headers=self.get_header(), timeout=self.TIMEOUT)
             
             migrate_url = re.search(r'<form action="(.*?)"', redirect.text).group(1)
             params = dict(re.findall(r'<input type="hidden" name="(.*?)" value="(.*?)" />', redirect.text))
-            self.response = self.session.post(migrate_url, headers=self.get_header(), json=params)
+            self.response = self.session.post(migrate_url, headers=self.get_header(), json=params, timeout=self.TIMEOUT)
         else:
             self.response = legacy
 

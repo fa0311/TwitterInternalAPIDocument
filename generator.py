@@ -30,6 +30,7 @@ TQDM_DISABLE = os.environ.get("TQDM_DISABLE", "False") == "True"
 LOGGING_LEVEL = os.environ.get("LOGGING_LEVEL", "Into").upper()
 CACHE = os.environ.get("CACHE", "False") == "True"
 GRAPHQL_CACHE = os.environ.get("GRAPHQL_CACHE", "False") == "True"
+TIMEOUT = 30
 
 coloredlogs.install(
     level=logging.getLevelName(LOGGING_LEVEL),
@@ -102,12 +103,12 @@ if CACHE and os.path.isfile("debug/script_response.txt"):
 
 else:
     response = "".join(
-        [twitter.session.get(s, headers=twitter.get_header()).text for s in tqdm(src)]
+        [twitter.session.get(s, headers=twitter.get_header(), timeout=twitter.TIMEOUT).text for s in tqdm(src)]
     )
     logging.info("script loading is completed")
 
     i18n_response = {
-        k: twitter.session.get(s, headers=twitter.get_header()).text
+        k: twitter.session.get(s, headers=twitter.get_header(), timeout=twitter.TIMEOUT).text
         for k, s in tqdm(i18n_src.items())
     }
     logging.info("i18n loading is completed")
@@ -149,7 +150,7 @@ logging.info("get_dispatch is completed")
 # === x-client-transaction-id ===
 
 ondemand = script_load_output["ondemand.s"]
-ondemand_response = twitter.session.get(ondemand, headers=twitter.get_header()).text
+ondemand_response = twitter.session.get(ondemand, headers=twitter.get_header(), timeout=twitter.TIMEOUT).text
 INDICES_REGEX = re.compile(
     r"""(\(\w{1}\[(\d{1,2})\],\s*16\))+""", flags=(re.VERBOSE | re.MULTILINE)
 )
