@@ -5040,3 +5040,14 @@
 - None<br>
 #### remove<br>
 - spaces_2022_h2_spacebar_use_mock_data<br>
+## 2025/05/11<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- responsive_web_qp_new_boost_analytics_enabled<br>
+#### remove<br>
+- None<br>
