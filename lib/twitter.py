@@ -46,7 +46,24 @@ class twitter_home:
 
 
     def get_header(self):
-        return {"User-Agent": self.user_agent}
+        return {
+            "User-Agent": self.user_agent,
+            "accept-encoding": "gzip, deflate, br, zstd",
+            "accept-language": "ja,en;q=0.9",
+            "cache-control": "no-cache",
+            "origin": "https://x.com",
+            "pragma": "no-cache",
+            "referer": "https://x.com/",
+            "sec-ch-ua": '"Chromium";v="136", "Google Chrome";v="136", "Not.A/Brand";v="99"',
+            "sec-ch-ua-mobile": "?0",
+            "sec-ch-ua-platform": '"Windows"',
+            "sec-fetch-dest": "script",
+            "sec-fetch-mode": "cors",
+            "sec-fetch-site": "cross-site",
+        }
+            
+            
+                
 
     def get_script_url(self) -> list[str]:
         src = "(https://abs\.twimg\.com\/{0}\/client-web\/[a-zA-Z0-9\.]*?\.js)".format(
