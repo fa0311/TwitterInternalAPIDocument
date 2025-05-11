@@ -93,6 +93,16 @@ for k in script_load_json:
 
 logging.info("script decode is completed")
 
+# === x-client-transaction-id ===
+
+ondemand = script_load_output["ondemand.s"]
+ondemand_response = twitter.session.get(ondemand, headers=twitter.get_header(), timeout=twitter.TIMEOUT).text
+INDICES_REGEX = re.compile(
+    r"""(\(\w{1}\[(\d{1,2})\],\s*16\))+""", flags=(re.VERBOSE | re.MULTILINE)
+)
+ondemand_index = INDICES_REGEX.findall(ondemand_response)
+transaction_output = {"index": [int(i[1]) for i in ondemand_index]}
+
 # === Road ===
 
 if CACHE and os.path.isfile("debug/script_response.txt"):
@@ -146,17 +156,6 @@ logging.info("to_api is completed")
 
 dispatch_output = split_dispatch(get_dispatch(parsed_list))
 logging.info("get_dispatch is completed")
-
-# === x-client-transaction-id ===
-
-ondemand = script_load_output["ondemand.s"]
-ondemand_response = twitter.session.get(ondemand, headers=twitter.get_header(), timeout=twitter.TIMEOUT).text
-INDICES_REGEX = re.compile(
-    r"""(\(\w{1}\[(\d{1,2})\],\s*16\))+""", flags=(re.VERBOSE | re.MULTILINE)
-)
-ondemand_index = INDICES_REGEX.findall(ondemand_response)
-transaction_output = {"index": [int(i[1]) for i in ondemand_index]}
-
 
 # feature_switches_output = get_feature_switches(parsed_list)
 # logging.info("get_feature_switches is completed")
