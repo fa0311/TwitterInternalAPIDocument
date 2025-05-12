@@ -130,34 +130,6 @@ This document is entirely auto-generated and may contain errors.<br>
 | Employees   |       1 |
 | Subscribers |       2 |
 
-| constant      | value         |
-|:--------------|:--------------|
-| single_line   | singleline    |
-| format_inline | format-inline |
-
-| constant                | value   |
-|:------------------------|:--------|
-| ActionsBar              | C.Z     |
-| ActionMenu              | w.Z     |
-| CallToAction            | a.ZP    |
-| EditCallout             | g.Z     |
-| Education               | E.Z     |
-| HighlightedUserLabel    | c.Z     |
-| Media                   | x.Z     |
-| Place                   | r.ZP    |
-| PromotedDetails         | u.Z     |
-| PromotedUserProfileCard | _.Z     |
-| ReplyContext            | k.ZP    |
-| RichContent             | I.Z     |
-| SocialContext           | f.Z     |
-| Text                    | T.Z     |
-| Tombstone               | h.Z     |
-| Timestamp               | b.Z     |
-| UserAvatar              | A.Z     |
-| UserFollowIndicator     | L.Z     |
-| UserName                | Z.Z     |
-| ArticleCard             | v.Z     |
-
 | constant     | value             |
 |:-------------|:------------------|
 | navButtons   | navigationButtons |
