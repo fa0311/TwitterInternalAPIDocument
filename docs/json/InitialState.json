@@ -1237,6 +1237,9 @@
       "payments_settings_documents_enabled": {
         "value": "false"
       },
+      "payments_transfer_methods_enabled": {
+        "value": "false"
+      },
       "premium_content_api_read_enabled": {
         "value": "false"
       },
@@ -2599,6 +2602,9 @@
       "rweb_search_media_enabled": {
         "value": "true"
       },
+      "rweb_search_show_large_hashflag": {
+        "value": "false"
+      },
       "rweb_sidebar_lower_whats_happening_enabled": {
         "value": "false"
       },
@@ -2976,6 +2982,9 @@
       "subscriptions_long_video_upload": {
         "value": "true"
       },
+      "subscriptions_management_billing_label_enabled": {
+        "value": "false"
+      },
       "subscriptions_management_failed_payment_api_call_enabled": {
         "value": "true"
       },
@@ -2999,6 +3008,9 @@
       },
       "subscriptions_management_renew_module_enabled": {
         "value": "true"
+      },
+      "subscriptions_management_tier_switch_success_screen_enabled": {
+        "value": "false"
       },
       "subscriptions_management_use_active_price": {
         "value": "true"
@@ -4823,6 +4835,9 @@
         "payments_settings_documents_enabled": {
           "value": "false"
         },
+        "payments_transfer_methods_enabled": {
+          "value": "false"
+        },
         "premium_content_api_read_enabled": {
           "value": "false"
         },
@@ -6185,6 +6200,9 @@
         "rweb_search_media_enabled": {
           "value": "true"
         },
+        "rweb_search_show_large_hashflag": {
+          "value": "false"
+        },
         "rweb_sidebar_lower_whats_happening_enabled": {
           "value": "false"
         },
@@ -6252,6 +6270,9 @@
           "value": "false"
         },
         "rweb_xchat_enabled": {
+          "value": "false"
+        },
+        "rweb_xchat_messages_sidebar_enabled": {
           "value": "false"
         },
         "rweb_xchat_old_dms_inbox_item": {
@@ -6562,6 +6583,9 @@
         "subscriptions_long_video_upload": {
           "value": "true"
         },
+        "subscriptions_management_billing_label_enabled": {
+          "value": "false"
+        },
         "subscriptions_management_failed_payment_api_call_enabled": {
           "value": "true"
         },
@@ -6585,6 +6609,9 @@
         },
         "subscriptions_management_renew_module_enabled": {
           "value": "true"
+        },
+        "subscriptions_management_tier_switch_success_screen_enabled": {
+          "value": "false"
         },
         "subscriptions_management_use_active_price": {
           "value": "true"
@@ -7244,7 +7271,7 @@
           "value": "true"
         },
         "x_jetfuel_enable_test_cluster": {
-          "value": "false"
+          "value": "true"
         },
         "xprofile_blocked_by_view_enabled": {
           "value": "true"
@@ -7277,10 +7304,10 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "85ca55e999b7974ada67b2c8e82191e8"
+      "settingsVersion": "af7b49930e0d29e5cfb5f1cb6c6da7c8"
     },
     "debug": {},
-    "featureSetToken": "a5fdffd6e13c7443e974b893c7e5d18b82589c8f",
+    "featureSetToken": "bb0d7c98d8a1e8b080adf70c46db2acf88034d5c",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -7349,7 +7376,7 @@
   },
   "session": {
     "country": "XX",
-    "guestId": "174708373293563707",
+    "guestId": "174717010540247879",
     "hasCommunityMemberships": "false",
     "hasPasskey": "false",
     "isActiveCreator": "false",
