@@ -6113,3 +6113,18 @@
 - rweb_video_max_height_applied_on_mobile<br>
 #### remove<br>
 - None<br>
+## 2025/05/13<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- payments_transfer_methods_enabled<br>
+- rweb_search_show_large_hashflag<br>
+- subscriptions_management_billing_label_enabled<br>
+- subscriptions_management_tier_switch_success_screen_enabled<br>
+- rweb_xchat_messages_sidebar_enabled<br>
+#### remove<br>
+- None<br>
