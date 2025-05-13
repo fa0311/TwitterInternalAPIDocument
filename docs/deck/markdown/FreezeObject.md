@@ -130,6 +130,34 @@ This document is entirely auto-generated and may contain errors.<br>
 | Employees   |       1 |
 | Subscribers |       2 |
 
+| constant      | value         |
+|:--------------|:--------------|
+| single_line   | singleline    |
+| format_inline | format-inline |
+
+| constant                | value   |
+|:------------------------|:--------|
+| ActionsBar              | C.Z     |
+| ActionMenu              | w.Z     |
+| CallToAction            | a.ZP    |
+| EditCallout             | g.Z     |
+| Education               | E.Z     |
+| HighlightedUserLabel    | c.Z     |
+| Media                   | x.Z     |
+| Place                   | r.ZP    |
+| PromotedDetails         | u.Z     |
+| PromotedUserProfileCard | _.Z     |
+| ReplyContext            | k.ZP    |
+| RichContent             | I.Z     |
+| SocialContext           | f.Z     |
+| Text                    | T.Z     |
+| Tombstone               | h.Z     |
+| Timestamp               | b.Z     |
+| UserAvatar              | A.Z     |
+| UserFollowIndicator     | L.Z     |
+| UserName                | Z.Z     |
+| ArticleCard             | v.Z     |
+
 | constant     | value             |
 |:-------------|:------------------|
 | navButtons   | navigationButtons |
@@ -315,6 +343,114 @@ This document is entirely auto-generated and may contain errors.<br>
 | ...T       | _       |
 | ...n       | _       |
 | ...l.k     | _       |
+
+| constant   | value                                                     |
+|:-----------|:----------------------------------------------------------|
+| REQUEST    | rweb/availableLanguages/FETCH_AVAILABLE_LANGUAGES_REQUEST |
+| SUCCESS    | rweb/availableLanguages/FETCH_AVAILABLE_LANGUAGES_SUCCESS |
+| FAILURE    | rweb/availableLanguages/FETCH_AVAILABLE_LANGUAGES_FAILURE |
+
+| constant   | value   |
+|:-----------|:--------|
+| FUN        | fun     |
+| REGULAR    |         |
+
+| constant   | value   |
+|:-----------|:--------|
+| IDLE       | idle    |
+| TYPING     | typing  |
+| WAITING    | waiting |
+| FAILED     | failed  |
+
+| constant   | value                                |
+|:-----------|:-------------------------------------|
+| REQUEST    | rweb/FETCH_GROK_CONVERSATION/REQUEST |
+| SUCCESS    | rweb/FETCH_GROK_CONVERSATION/SUCCESS |
+| FAILURE    | rweb/FETCH_GROK_CONVERSATION/FAILURE |
+
+| constant   | value                           |
+|:-----------|:--------------------------------|
+| REQUEST    | rweb/FETCH_GROK_HISTORY/REQUEST |
+| SUCCESS    | rweb/FETCH_GROK_HISTORY/SUCCESS |
+| FAILURE    | rweb/FETCH_GROK_HISTORY/FAILURE |
+
+| constant   | value                            |
+|:-----------|:---------------------------------|
+| REQUEST    | rweb/DELETE_GROK_MESSAGE/REQUEST |
+| SUCCESS    | rweb/DELETE_GROK_MESSAGE/SUCCESS |
+| FAILURE    | rweb/DELETE_GROK_MESSAGE/FAILURE |
+
+| constant   | value                                        |
+|:-----------|:---------------------------------------------|
+| REQUEST    | rweb/FETCH_GROK_PINNED_CONVERSATIONS/REQUEST |
+| SUCCESS    | rweb/FETCH_GROK_PINNED_CONVERSATIONS/SUCCESS |
+| FAILURE    | rweb/FETCH_GROK_PINNED_CONVERSATIONS/FAILURE |
+
+| constant   | value                                 |
+|:-----------|:--------------------------------------|
+| REQUEST    | rweb/FETCH_GROK_MEDIA_HISTORY/REQUEST |
+| SUCCESS    | rweb/FETCH_GROK_MEDIA_HISTORY/SUCCESS |
+| FAILURE    | rweb/FETCH_GROK_MEDIA_HISTORY/FAILURE |
+
+| constant   | value                            |
+|:-----------|:---------------------------------|
+| REQUEST    | rweb/SEARCH_GROK_HISTORY/REQUEST |
+| SUCCESS    | rweb/SEARCH_GROK_HISTORY/SUCCESS |
+| FAILURE    | rweb/SEARCH_GROK_HISTORY/FAILURE |
+
+| constant   | value                        |
+|:-----------|:-----------------------------|
+| REQUEST    | rweb/FETCH_GROK_HOME/REQUEST |
+| SUCCESS    | rweb/FETCH_GROK_HOME/SUCCESS |
+| FAILURE    | rweb/FETCH_GROK_HOME/FAILURE |
+
+| constant   | value                         |
+|:-----------|:------------------------------|
+| REQUEST    | rweb/FETCH_GROK_SHARE/REQUEST |
+| SUCCESS    | rweb/FETCH_GROK_SHARE/SUCCESS |
+| FAILURE    | rweb/FETCH_GROK_SHARE/FAILURE |
+
+| constant   | value                        |
+|:-----------|:-----------------------------|
+| REQUEST    | rweb/SET_PREFERENCES/REQUEST |
+| SUCCESS    | rweb/SET_PREFERENCES/SUCCESS |
+| FAILURE    | rweb/SET_PREFERENCES/FAILURE |
+
+| constant   | value                              |
+|:-----------|:-----------------------------------|
+| REQUEST    | rweb/PIN_GROK_CONVERSATION/REQUEST |
+| SUCCESS    | rweb/PIN_GROK_CONVERSATION/SUCCESS |
+| FAILURE    | rweb/PIN_GROK_CONVERSATION/FAILURE |
+
+| constant   | value                                |
+|:-----------|:-------------------------------------|
+| REQUEST    | rweb/UNPIN_GROK_CONVERSATION/REQUEST |
+| SUCCESS    | rweb/UNPIN_GROK_CONVERSATION/SUCCESS |
+| FAILURE    | rweb/UNPIN_GROK_CONVERSATION/FAILURE |
+
+| constant   | value                            |
+|:-----------|:---------------------------------|
+| REQUEST    | rweb/CLEAR_CONVERSATIONS/REQUEST |
+| SUCCESS    | rweb/CLEAR_CONVERSATIONS/SUCCESS |
+| FAILURE    | rweb/CLEAR_CONVERSATIONS/FAILURE |
+
+| constant   | value                             |
+|:-----------|:----------------------------------|
+| REQUEST    | rweb/GROK_USER_EVENTS_LOG/REQUEST |
+| SUCCESS    | rweb/GROK_USER_EVENTS_LOG/SUCCESS |
+| FAILURE    | rweb/GROK_USER_EVENTS_LOG/FAILURE |
+
+| constant   | value     |
+|:-----------|:----------|
+| AppStore   | AppStore  |
+| PlayStore  | PlayStore |
+| Stripe     | Stripe    |
+| Web        | Web       |
+
+| constant    | value       |
+|:------------|:------------|
+| InitialSale | InitialSale |
+| Renewal     | Renewal     |
 
 | constant   | value    |
 |:-----------|:---------|
@@ -617,7 +753,7 @@ This document is entirely auto-generated and may contain errors.<br>
 ```
 ```internal process
 # Error
-{[P.g.Cancelled]:"Cancelled",[P.g.Failed]:"Failed",[P.g.Expired]:"Expired",[P.g.Pending]:"Pending",[P.g.Hold]:"Pending",[P.g.AuthorizationOpen]:"Pending",[P.g.AwaitingUnrecognizedConfirmation]:"Awaiting approval",[P.g.PendingReview]:"Under review",[P.g.PendingRecipientAction]:"Pending",[P.g.PendingR...
+{[b.g.Cancelled]:"Cancelled",[b.g.Failed]:"Failed",[b.g.Expired]:"Expired",[b.g.Pending]:"Pending",[b.g.Hold]:"Pending",[b.g.AuthorizationOpen]:"Pending",[b.g.AwaitingUnrecognizedConfirmation]:"Awaiting approval",[b.g.PendingReview]:"Under review",[b.g.PendingRecipientAction]:"Pending",[b.g.PendingR...
 ```
 ```internal process
 # Error
@@ -625,11 +761,11 @@ This document is entirely auto-generated and may contain errors.<br>
 ```
 ```internal process
 # Error
-{[P.g.PendingRecipientAcceptance]:"_",[P.g.PendingRecipientOnboarding]:"_",[P.g.PendingRecipientAction]:"_"}
+{[b.g.PendingRecipientAcceptance]:"$",[b.g.PendingRecipientOnboarding]:"$",[b.g.PendingRecipientAction]:"$"}
 ```
 ```internal process
 # Error
-{[P.g.AwaitingRequestAcceptance]:"_",[P.g.PendingRequestAcceptance]:"_",[P.g.RequestVerificationRequired]:"_"}
+{[b.g.AwaitingRequestAcceptance]:"$",[b.g.PendingRequestAcceptance]:"$",[b.g.RequestVerificationRequired]:"$"}
 ```
 ```internal process
 # Error
@@ -637,7 +773,7 @@ This document is entirely auto-generated and may contain errors.<br>
 ```
 ```internal process
 # Error
-{[h.W.IssuedCardTypePhysical]:"Physical Card",[h.W.IssuedCardTypeVirtual]:"Virtual Card"}
+{[w.W.IssuedCardTypePhysical]:"Physical Card",[w.W.IssuedCardTypeVirtual]:"Virtual Card"}
 ```
 ```internal process
 # Error
@@ -649,7 +785,7 @@ This document is entirely auto-generated and may contain errors.<br>
 ```
 ```internal process
 # Error
-{[R.D.LoginRequired]:"Login required",[R.D.Invalid]:"Invalid",[R.D.Pending]:"Pending",[R.D.Revoked]:"Revoked",[R.D.Canceled]:"Canceled",[R.D.Inactive]:"Inactive"}
+{[x.D.LoginRequired]:"Login required",[x.D.Invalid]:"Invalid",[x.D.Pending]:"Pending",[x.D.Revoked]:"Revoked",[x.D.Canceled]:"Canceled",[x.D.Inactive]:"Inactive"}
 ```
 ```internal process
 # Error
@@ -789,16 +925,6 @@ This document is entirely auto-generated and may contain errors.<br>
 | Unused6    | _Unused6   |
 | Unused7    | _Unused7   |
 
-| constant   | value      |
-|:-----------|:-----------|
-| wide       | wide       |
-| narrow     | narrow     |
-| veryNarrow | veryNarrow |
-
-```internal process
-# Error
-{[n.wide]:"500",[n.narrow]:"300",[n.veryNarrow]:"200"}
-```
 ```internal process
 # Error
 {"__proto__":"null","DEG2RAD":"at","RAD2DEG":"ot","generateUUID":"lt","clamp":"ct","euclideanModulo":"ht","mapLinear":"function()"{return n+()*(t-e)/(s-n)},"inverseLerp":"function()"{return t!==e?()/(i-t):"0"},"lerp":"ut","damp":"function()"{"return ut()"},"pingpong":"function()"{return e-Math.abs()...
