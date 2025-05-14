@@ -2666,12 +2666,15 @@
         "value": "false"
       },
       "rweb_video_vertical_aspect_ratio_enabled": {
-        "value": "true"
+        "value": "false"
       },
       "rweb_xchat_debug_enabled": {
         "value": "false"
       },
       "rweb_xchat_enabled": {
+        "value": "false"
+      },
+      "rweb_xchat_messages_sidebar_enabled": {
         "value": "false"
       },
       "rweb_xchat_old_dms_inbox_item": {
@@ -3670,7 +3673,7 @@
         "value": "true"
       },
       "x_jetfuel_enable_test_cluster": {
-        "value": "false"
+        "value": "true"
       },
       "xprofile_blocked_by_view_enabled": {
         "value": "true"
@@ -6264,7 +6267,7 @@
           "value": "false"
         },
         "rweb_video_vertical_aspect_ratio_enabled": {
-          "value": "true"
+          "value": "false"
         },
         "rweb_xchat_debug_enabled": {
           "value": "false"
@@ -6584,7 +6587,7 @@
           "value": "true"
         },
         "subscriptions_management_billing_label_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "subscriptions_management_failed_payment_api_call_enabled": {
           "value": "true"
@@ -6611,7 +6614,7 @@
           "value": "true"
         },
         "subscriptions_management_tier_switch_success_screen_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "subscriptions_management_use_active_price": {
           "value": "true"
@@ -7304,10 +7307,10 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "af7b49930e0d29e5cfb5f1cb6c6da7c8"
+      "settingsVersion": "555181502cc71ff65fb7094786643e0e"
     },
     "debug": {},
-    "featureSetToken": "bb0d7c98d8a1e8b080adf70c46db2acf88034d5c",
+    "featureSetToken": "e68a313fd6b2418c3349073c2de4708966b9a948",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -7376,7 +7379,7 @@
   },
   "session": {
     "country": "XX",
-    "guestId": "174717061503009942",
+    "guestId": "174725707923409204",
     "hasCommunityMemberships": "false",
     "hasPasskey": "false",
     "isActiveCreator": "false",
