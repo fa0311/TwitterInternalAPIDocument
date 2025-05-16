@@ -6128,3 +6128,14 @@
 - rweb_xchat_messages_sidebar_enabled<br>
 #### remove<br>
 - None<br>
+## 2025/05/15<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- rweb_debugger_enabled<br>
+#### remove<br>
+- None<br>
