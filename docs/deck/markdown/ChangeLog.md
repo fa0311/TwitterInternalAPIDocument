@@ -5088,3 +5088,14 @@
 - rweb_debugger_enabled<br>
 #### remove<br>
 - None<br>
+## 2025/05/16<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- responsive_web_communityboost_mixed_pivot_enabled<br>
+#### remove<br>
+- None<br>
