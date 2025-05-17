@@ -6168,7 +6168,7 @@
           "value": "60"
         },
         "rweb_home_uas_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "rweb_jetfuel_sdkv2_with_x_web": {
           "value": "false"
@@ -6291,6 +6291,9 @@
           "value": "false"
         },
         "rweb_xchat_old_dms_inbox_item": {
+          "value": "false"
+        },
+        "rweb_xp_forwarded_for_enabled": {
           "value": "false"
         },
         "sc_mock_data_enabled": {
@@ -7319,7 +7322,7 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "85ca55e999b7974ada67b2c8e82191e8"
+      "settingsVersion": "0546ebb05f43bf96bfb3a8af9240bbe0"
     },
     "debug": {},
     "featureSetToken": "896f981b4ef10dad9fbdf99f827c25fecf9fd3d6",
@@ -7391,7 +7394,7 @@
   },
   "session": {
     "country": "XX",
-    "guestId": "174742930965110985",
+    "guestId": "174751569953242670",
     "hasCommunityMemberships": "false",
     "isActiveCreator": "false",
     "isLoaded": "false",

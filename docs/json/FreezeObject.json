@@ -61,6 +61,7 @@
     "SevenDayTransferSendVolumeKycVerified": "SevenDayTransferSendVolumeKycVerified",
     "SevenDayWithdrawalVolumeKycUnverified": "SevenDayWithdrawalVolumeKycUnverified",
     "SevenDayWithdrawalVolumeKycVerified": "SevenDayWithdrawalVolumeKycVerified",
+    "SpendWithCard": "SpendWithCard",
     "SubmitQuestionnaire": "SubmitQuestionnaire",
     "ThirtyDayDepositVolumeKycUnverified": "ThirtyDayDepositVolumeKycUnverified",
     "ThirtyDayDepositVolumeKycVerified": "ThirtyDayDepositVolumeKycVerified",
@@ -84,7 +85,9 @@
   {
     "BasicApy": "BasicApy",
     "BoostedApy": "BoostedApy",
+    "CardSpendLocked": "CardSpendLocked",
     "CashbackRestricted": "CashbackRestricted",
+    "CddPendingReview": "CddPendingReview",
     "CddRequired": "CddRequired",
     "DepositOnly": "DepositOnly",
     "DirectDepositEnrolled": "DirectDepositEnrolled",
@@ -6529,26 +6532,26 @@
     "Trimmer": "trimmer"
   },
   {
-    "ActionsBar": "_.Z",
-    "ActionMenu": "f.Z",
-    "CallToAction": "a.ZP",
-    "EditCallout": "v.Z",
-    "Education": "T.Z",
-    "HighlightedUserLabel": "d.Z",
-    "Media": "y.Z",
-    "Place": "o.ZP",
+    "ActionsBar": "f.Z",
+    "ActionMenu": "_.Z",
+    "CallToAction": "o.ZP",
+    "EditCallout": "b.Z",
+    "Education": "y.Z",
+    "HighlightedUserLabel": "l.Z",
+    "Media": "x.Z",
+    "Place": "a.ZP",
     "PromotedDetails": "u.Z",
-    "PromotedUserProfileCard": "k.Z",
-    "ReplyContext": "E.ZP",
-    "RichContent": "x.Z",
+    "PromotedUserProfileCard": "v.Z",
+    "ReplyContext": "k.ZP",
+    "RichContent": "I.Z",
     "SocialContext": "w.Z",
-    "Text": "I.Z",
-    "Tombstone": "g.Z",
-    "Timestamp": "p.Z",
-    "UserAvatar": "Z.Z",
-    "UserFollowIndicator": "S.Z",
-    "UserName": "M.Z",
-    "ArticleCard": "b.Z"
+    "Text": "M.Z",
+    "Tombstone": "p.Z",
+    "Timestamp": "h.Z",
+    "UserAvatar": "A.Z",
+    "UserFollowIndicator": "Z.Z",
+    "UserName": "E.Z",
+    "ArticleCard": "T.Z"
   },
   {
     "REQUEST": "rweb/scheduledTweets/FETCH_SCHEDULED_TWEETS_REQUEST",
@@ -7100,6 +7103,26 @@
     "SUSPENDED": "suspended"
   },
   {
+    "REQUEST": "rweb/subscriptionPayments/FETCH_SUBSCRIPTION_PRODUCT_DETAILS_REQUEST",
+    "SUCCESS": "rweb/subscriptionPayments/FETCH_SUBSCRIPTION_PRODUCT_DETAILS_SUCCESS",
+    "FAILURE": "rweb/subscriptionPayments/FETCH_SUBSCRIPTION_PRODUCT_DETAILS_FAILURE"
+  },
+  {
+    "REQUEST": "rweb/subscriptionPayments/FETCH_SUBSCRIPTION_PRODUCT_CHECKOUT_URL_REQUEST",
+    "SUCCESS": "rweb/subscriptionPayments/FETCH_SUBSCRIPTION_PRODUCT_CHECKOUT_URL_SUCCESS",
+    "FAILURE": "rweb/subscriptionPayments/FETCH_SUBSCRIPTION_PRODUCT_CHECKOUT_URL_FAILURE"
+  },
+  {
+    "REQUEST": "rweb/subscriptionPayments/FETCH_PRODUCT_SUBSCRIPTIONS_REQUEST",
+    "SUCCESS": "rweb/subscriptionPayments/FETCH_PRODUCT_SUBSCRIPTIONS_SUCCESS",
+    "FAILURE": "rweb/subscriptionPayments/FETCH_PRODUCT_SUBSCRIPTIONS_FAILURE"
+  },
+  {
+    "REQUEST": "rweb/subscriptionPayments/TIER_SWITCH_REQUEST",
+    "SUCCESS": "rweb/subscriptionPayments/TIER_SWITCH_SUCCESS",
+    "FAILURE": "rweb/subscriptionPayments/TIER_SWITCH_FAILURE"
+  },
+  {
     "Ads": "Ads",
     "AppleAppStore": "AppleAppStore",
     "Gift": "Gift",
@@ -7112,7 +7135,7 @@
   {
     "earnings": {
       "link": "/settings/monetization/earnings",
-      "text": "d",
+      "text": "u",
       "size": "xLarge"
     },
     "payoutHistory": {
@@ -7205,26 +7228,6 @@
     "REQUEST": "rweb/GROK_USER_EVENTS_LOG/REQUEST",
     "SUCCESS": "rweb/GROK_USER_EVENTS_LOG/SUCCESS",
     "FAILURE": "rweb/GROK_USER_EVENTS_LOG/FAILURE"
-  },
-  {
-    "REQUEST": "rweb/subscriptionPayments/FETCH_SUBSCRIPTION_PRODUCT_DETAILS_REQUEST",
-    "SUCCESS": "rweb/subscriptionPayments/FETCH_SUBSCRIPTION_PRODUCT_DETAILS_SUCCESS",
-    "FAILURE": "rweb/subscriptionPayments/FETCH_SUBSCRIPTION_PRODUCT_DETAILS_FAILURE"
-  },
-  {
-    "REQUEST": "rweb/subscriptionPayments/FETCH_SUBSCRIPTION_PRODUCT_CHECKOUT_URL_REQUEST",
-    "SUCCESS": "rweb/subscriptionPayments/FETCH_SUBSCRIPTION_PRODUCT_CHECKOUT_URL_SUCCESS",
-    "FAILURE": "rweb/subscriptionPayments/FETCH_SUBSCRIPTION_PRODUCT_CHECKOUT_URL_FAILURE"
-  },
-  {
-    "REQUEST": "rweb/subscriptionPayments/FETCH_PRODUCT_SUBSCRIPTIONS_REQUEST",
-    "SUCCESS": "rweb/subscriptionPayments/FETCH_PRODUCT_SUBSCRIPTIONS_SUCCESS",
-    "FAILURE": "rweb/subscriptionPayments/FETCH_PRODUCT_SUBSCRIPTIONS_FAILURE"
-  },
-  {
-    "REQUEST": "rweb/subscriptionPayments/TIER_SWITCH_REQUEST",
-    "SUCCESS": "rweb/subscriptionPayments/TIER_SWITCH_SUCCESS",
-    "FAILURE": "rweb/subscriptionPayments/TIER_SWITCH_FAILURE"
   },
   {
     "paymentMethod": "paymentMethod",
@@ -8592,26 +8595,6 @@
     "SuperLikes": "SuperLikes",
     "VerifiedOrganizations": "VerifiedOrganizations",
     "VerifiedOrganizationsBasic": "VerifiedOrganizationsBasic"
-  },
-  {
-    "REQUEST": "rweb/subscriptionPayments/FETCH_SUBSCRIPTION_PRODUCT_DETAILS_REQUEST",
-    "SUCCESS": "rweb/subscriptionPayments/FETCH_SUBSCRIPTION_PRODUCT_DETAILS_SUCCESS",
-    "FAILURE": "rweb/subscriptionPayments/FETCH_SUBSCRIPTION_PRODUCT_DETAILS_FAILURE"
-  },
-  {
-    "REQUEST": "rweb/subscriptionPayments/FETCH_SUBSCRIPTION_PRODUCT_CHECKOUT_URL_REQUEST",
-    "SUCCESS": "rweb/subscriptionPayments/FETCH_SUBSCRIPTION_PRODUCT_CHECKOUT_URL_SUCCESS",
-    "FAILURE": "rweb/subscriptionPayments/FETCH_SUBSCRIPTION_PRODUCT_CHECKOUT_URL_FAILURE"
-  },
-  {
-    "REQUEST": "rweb/subscriptionPayments/FETCH_PRODUCT_SUBSCRIPTIONS_REQUEST",
-    "SUCCESS": "rweb/subscriptionPayments/FETCH_PRODUCT_SUBSCRIPTIONS_SUCCESS",
-    "FAILURE": "rweb/subscriptionPayments/FETCH_PRODUCT_SUBSCRIPTIONS_FAILURE"
-  },
-  {
-    "REQUEST": "rweb/subscriptionPayments/TIER_SWITCH_REQUEST",
-    "SUCCESS": "rweb/subscriptionPayments/TIER_SWITCH_SUCCESS",
-    "FAILURE": "rweb/subscriptionPayments/TIER_SWITCH_FAILURE"
   },
   {
     "default": "default",
@@ -10336,7 +10319,7 @@
     "IncentiveFocus": "IncentiveFocus",
     "TopicFocus": "TopicFocus"
   },
-  "{[V.LIVE_EVENT]:\"!0\",[V.MOMENT]:\"!0\",[V.SUMMARY]:\"!0\",[V.SUMMARY_LARGE_IMAGE]:\"!0\",[V.AUDIOSPACE]:\"!0\"}",
+  "{[N.LIVE_EVENT]:\"!0\",[N.MOMENT]:\"!0\",[N.SUMMARY]:\"!0\",[N.SUMMARY_LARGE_IMAGE]:\"!0\",[N.AUDIOSPACE]:\"!0\"}",
   {
     "CONVERSATION": "conversation",
     "TIMELINE": "timeline"
