@@ -344,6 +344,102 @@ This document is entirely auto-generated and may contain errors.<br>
 | ...n       | _       |
 | ...l.k     | _       |
 
+| constant   | value                                                     |
+|:-----------|:----------------------------------------------------------|
+| REQUEST    | rweb/availableLanguages/FETCH_AVAILABLE_LANGUAGES_REQUEST |
+| SUCCESS    | rweb/availableLanguages/FETCH_AVAILABLE_LANGUAGES_SUCCESS |
+| FAILURE    | rweb/availableLanguages/FETCH_AVAILABLE_LANGUAGES_FAILURE |
+
+| constant   | value   |
+|:-----------|:--------|
+| FUN        | fun     |
+| REGULAR    |         |
+
+| constant   | value   |
+|:-----------|:--------|
+| IDLE       | idle    |
+| TYPING     | typing  |
+| WAITING    | waiting |
+| FAILED     | failed  |
+
+| constant   | value                                |
+|:-----------|:-------------------------------------|
+| REQUEST    | rweb/FETCH_GROK_CONVERSATION/REQUEST |
+| SUCCESS    | rweb/FETCH_GROK_CONVERSATION/SUCCESS |
+| FAILURE    | rweb/FETCH_GROK_CONVERSATION/FAILURE |
+
+| constant   | value                           |
+|:-----------|:--------------------------------|
+| REQUEST    | rweb/FETCH_GROK_HISTORY/REQUEST |
+| SUCCESS    | rweb/FETCH_GROK_HISTORY/SUCCESS |
+| FAILURE    | rweb/FETCH_GROK_HISTORY/FAILURE |
+
+| constant   | value                            |
+|:-----------|:---------------------------------|
+| REQUEST    | rweb/DELETE_GROK_MESSAGE/REQUEST |
+| SUCCESS    | rweb/DELETE_GROK_MESSAGE/SUCCESS |
+| FAILURE    | rweb/DELETE_GROK_MESSAGE/FAILURE |
+
+| constant   | value                                        |
+|:-----------|:---------------------------------------------|
+| REQUEST    | rweb/FETCH_GROK_PINNED_CONVERSATIONS/REQUEST |
+| SUCCESS    | rweb/FETCH_GROK_PINNED_CONVERSATIONS/SUCCESS |
+| FAILURE    | rweb/FETCH_GROK_PINNED_CONVERSATIONS/FAILURE |
+
+| constant   | value                                 |
+|:-----------|:--------------------------------------|
+| REQUEST    | rweb/FETCH_GROK_MEDIA_HISTORY/REQUEST |
+| SUCCESS    | rweb/FETCH_GROK_MEDIA_HISTORY/SUCCESS |
+| FAILURE    | rweb/FETCH_GROK_MEDIA_HISTORY/FAILURE |
+
+| constant   | value                            |
+|:-----------|:---------------------------------|
+| REQUEST    | rweb/SEARCH_GROK_HISTORY/REQUEST |
+| SUCCESS    | rweb/SEARCH_GROK_HISTORY/SUCCESS |
+| FAILURE    | rweb/SEARCH_GROK_HISTORY/FAILURE |
+
+| constant   | value                        |
+|:-----------|:-----------------------------|
+| REQUEST    | rweb/FETCH_GROK_HOME/REQUEST |
+| SUCCESS    | rweb/FETCH_GROK_HOME/SUCCESS |
+| FAILURE    | rweb/FETCH_GROK_HOME/FAILURE |
+
+| constant   | value                         |
+|:-----------|:------------------------------|
+| REQUEST    | rweb/FETCH_GROK_SHARE/REQUEST |
+| SUCCESS    | rweb/FETCH_GROK_SHARE/SUCCESS |
+| FAILURE    | rweb/FETCH_GROK_SHARE/FAILURE |
+
+| constant   | value                        |
+|:-----------|:-----------------------------|
+| REQUEST    | rweb/SET_PREFERENCES/REQUEST |
+| SUCCESS    | rweb/SET_PREFERENCES/SUCCESS |
+| FAILURE    | rweb/SET_PREFERENCES/FAILURE |
+
+| constant   | value                              |
+|:-----------|:-----------------------------------|
+| REQUEST    | rweb/PIN_GROK_CONVERSATION/REQUEST |
+| SUCCESS    | rweb/PIN_GROK_CONVERSATION/SUCCESS |
+| FAILURE    | rweb/PIN_GROK_CONVERSATION/FAILURE |
+
+| constant   | value                                |
+|:-----------|:-------------------------------------|
+| REQUEST    | rweb/UNPIN_GROK_CONVERSATION/REQUEST |
+| SUCCESS    | rweb/UNPIN_GROK_CONVERSATION/SUCCESS |
+| FAILURE    | rweb/UNPIN_GROK_CONVERSATION/FAILURE |
+
+| constant   | value                            |
+|:-----------|:---------------------------------|
+| REQUEST    | rweb/CLEAR_CONVERSATIONS/REQUEST |
+| SUCCESS    | rweb/CLEAR_CONVERSATIONS/SUCCESS |
+| FAILURE    | rweb/CLEAR_CONVERSATIONS/FAILURE |
+
+| constant   | value                             |
+|:-----------|:----------------------------------|
+| REQUEST    | rweb/GROK_USER_EVENTS_LOG/REQUEST |
+| SUCCESS    | rweb/GROK_USER_EVENTS_LOG/SUCCESS |
+| FAILURE    | rweb/GROK_USER_EVENTS_LOG/FAILURE |
+
 | constant   | value    |
 |:-----------|:---------|
 | UP         | up       |
