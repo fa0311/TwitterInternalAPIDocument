@@ -5110,3 +5110,14 @@
 - rweb_xp_forwarded_for_enabled<br>
 #### remove<br>
 - None<br>
+## 2025/05/20<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- rweb_debugger_bug_report_email<br>
+#### remove<br>
+- None<br>
