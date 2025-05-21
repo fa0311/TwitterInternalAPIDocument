@@ -4523,10 +4523,9 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key                    | type   | variable   |
-|:-----------------------|:-------|:-----------|
-| bookmark_collection_id | ...    | n          |
-| tweet_id               | ...    | o          |
+| key           | type   | variable   |
+|:--------------|:-------|:-----------|
+| grok_share_id | ...    | t          |
 
 #### features<br>
 | key                                                                     | type    | variable   |
@@ -6382,10 +6381,9 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key                    | type   | variable   |
-|:-----------------------|:-------|:-----------|
-| bookmark_collection_id | ...    | n          |
-| tweet_id               | ...    | o          |
+| key           | type   | variable   |
+|:--------------|:-------|:-----------|
+| grok_share_id | ...    | t          |
 
 #### features<br>
 | key                                                                     | type    | variable   |
@@ -7184,10 +7182,9 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key                    | type   | variable   |
-|:-----------------------|:-------|:-----------|
-| bookmark_collection_id | ...    | n          |
-| tweet_id               | ...    | o          |
+| key           | type   | variable   |
+|:--------------|:-------|:-----------|
+| grok_share_id | ...    | t          |
 
 #### features<br>
 | key                                                                     | type    | variable   |
@@ -9693,10 +9690,9 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key                    | type   | variable   |
-|:-----------------------|:-------|:-----------|
-| bookmark_collection_id | ...    | n          |
-| tweet_id               | ...    | o          |
+| key           | type   | variable   |
+|:--------------|:-------|:-----------|
+| grok_share_id | ...    | t          |
 
 #### features<br>
 | key                                                                     | type    | variable   |
@@ -11011,10 +11007,9 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key                    | type   | variable   |
-|:-----------------------|:-------|:-----------|
-| bookmark_collection_id | ...    | n          |
-| tweet_id               | ...    | o          |
+| key           | type   | variable   |
+|:--------------|:-------|:-----------|
+| grok_share_id | ...    | t          |
 
 #### features<br>
 | key                                                                     | type    | variable   |
