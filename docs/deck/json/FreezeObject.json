@@ -124,6 +124,32 @@
     "Subscribers": "2"
   },
   {
+    "single_line": "singleline",
+    "format_inline": "format-inline"
+  },
+  {
+    "ActionsBar": "C.Z",
+    "ActionMenu": "w.Z",
+    "CallToAction": "a.ZP",
+    "EditCallout": "g.Z",
+    "Education": "E.Z",
+    "HighlightedUserLabel": "c.Z",
+    "Media": "x.Z",
+    "Place": "r.ZP",
+    "PromotedDetails": "u.Z",
+    "PromotedUserProfileCard": "_.Z",
+    "ReplyContext": "k.ZP",
+    "RichContent": "I.Z",
+    "SocialContext": "f.Z",
+    "Text": "T.Z",
+    "Tombstone": "h.Z",
+    "Timestamp": "b.Z",
+    "UserAvatar": "A.Z",
+    "UserFollowIndicator": "L.Z",
+    "UserName": "Z.Z",
+    "ArticleCard": "v.Z"
+  },
+  {
     "navButtons": "navigationButtons",
     "carouselRoot": "carouselRoot"
   },
@@ -153,7 +179,7 @@
     "ActionsBar": "f.Z",
     "ActionMenu": "T.Z",
     "CallToAction": "o.ZP",
-    "EditCallout": "y.Z",
+    "EditCallout": "b.Z",
     "Education": "_.Z",
     "HighlightedUserLabel": "l.Z",
     "Media": "x.Z",
@@ -169,7 +195,7 @@
     "UserAvatar": "M.Z",
     "UserFollowIndicator": "S.Z",
     "UserName": "P.Z",
-    "ArticleCard": "b.Z"
+    "ArticleCard": "y.Z"
   },
   {
     "AutoSpamDetectorEnabled": "AutoSpamDetectorEnabled",
@@ -274,6 +300,86 @@
     "...l.k": "_"
   },
   {
+    "REQUEST": "rweb/availableLanguages/FETCH_AVAILABLE_LANGUAGES_REQUEST",
+    "SUCCESS": "rweb/availableLanguages/FETCH_AVAILABLE_LANGUAGES_SUCCESS",
+    "FAILURE": "rweb/availableLanguages/FETCH_AVAILABLE_LANGUAGES_FAILURE"
+  },
+  {
+    "FUN": "fun",
+    "REGULAR": ""
+  },
+  {
+    "IDLE": "idle",
+    "TYPING": "typing",
+    "WAITING": "waiting",
+    "FAILED": "failed"
+  },
+  {
+    "REQUEST": "rweb/FETCH_GROK_CONVERSATION/REQUEST",
+    "SUCCESS": "rweb/FETCH_GROK_CONVERSATION/SUCCESS",
+    "FAILURE": "rweb/FETCH_GROK_CONVERSATION/FAILURE"
+  },
+  {
+    "REQUEST": "rweb/FETCH_GROK_HISTORY/REQUEST",
+    "SUCCESS": "rweb/FETCH_GROK_HISTORY/SUCCESS",
+    "FAILURE": "rweb/FETCH_GROK_HISTORY/FAILURE"
+  },
+  {
+    "REQUEST": "rweb/DELETE_GROK_MESSAGE/REQUEST",
+    "SUCCESS": "rweb/DELETE_GROK_MESSAGE/SUCCESS",
+    "FAILURE": "rweb/DELETE_GROK_MESSAGE/FAILURE"
+  },
+  {
+    "REQUEST": "rweb/FETCH_GROK_PINNED_CONVERSATIONS/REQUEST",
+    "SUCCESS": "rweb/FETCH_GROK_PINNED_CONVERSATIONS/SUCCESS",
+    "FAILURE": "rweb/FETCH_GROK_PINNED_CONVERSATIONS/FAILURE"
+  },
+  {
+    "REQUEST": "rweb/FETCH_GROK_MEDIA_HISTORY/REQUEST",
+    "SUCCESS": "rweb/FETCH_GROK_MEDIA_HISTORY/SUCCESS",
+    "FAILURE": "rweb/FETCH_GROK_MEDIA_HISTORY/FAILURE"
+  },
+  {
+    "REQUEST": "rweb/SEARCH_GROK_HISTORY/REQUEST",
+    "SUCCESS": "rweb/SEARCH_GROK_HISTORY/SUCCESS",
+    "FAILURE": "rweb/SEARCH_GROK_HISTORY/FAILURE"
+  },
+  {
+    "REQUEST": "rweb/FETCH_GROK_HOME/REQUEST",
+    "SUCCESS": "rweb/FETCH_GROK_HOME/SUCCESS",
+    "FAILURE": "rweb/FETCH_GROK_HOME/FAILURE"
+  },
+  {
+    "REQUEST": "rweb/FETCH_GROK_SHARE/REQUEST",
+    "SUCCESS": "rweb/FETCH_GROK_SHARE/SUCCESS",
+    "FAILURE": "rweb/FETCH_GROK_SHARE/FAILURE"
+  },
+  {
+    "REQUEST": "rweb/SET_PREFERENCES/REQUEST",
+    "SUCCESS": "rweb/SET_PREFERENCES/SUCCESS",
+    "FAILURE": "rweb/SET_PREFERENCES/FAILURE"
+  },
+  {
+    "REQUEST": "rweb/PIN_GROK_CONVERSATION/REQUEST",
+    "SUCCESS": "rweb/PIN_GROK_CONVERSATION/SUCCESS",
+    "FAILURE": "rweb/PIN_GROK_CONVERSATION/FAILURE"
+  },
+  {
+    "REQUEST": "rweb/UNPIN_GROK_CONVERSATION/REQUEST",
+    "SUCCESS": "rweb/UNPIN_GROK_CONVERSATION/SUCCESS",
+    "FAILURE": "rweb/UNPIN_GROK_CONVERSATION/FAILURE"
+  },
+  {
+    "REQUEST": "rweb/CLEAR_CONVERSATIONS/REQUEST",
+    "SUCCESS": "rweb/CLEAR_CONVERSATIONS/SUCCESS",
+    "FAILURE": "rweb/CLEAR_CONVERSATIONS/FAILURE"
+  },
+  {
+    "REQUEST": "rweb/GROK_USER_EVENTS_LOG/REQUEST",
+    "SUCCESS": "rweb/GROK_USER_EVENTS_LOG/SUCCESS",
+    "FAILURE": "rweb/GROK_USER_EVENTS_LOG/FAILURE"
+  },
+  {
     "UP": "up",
     "DOWN": "down",
     "NOCHANGE": "nochange"
@@ -309,24 +415,244 @@
       "label": "o().j081fa34"
     }
   },
-  "{[P.S.Alert]:\"danger\",[P.S.Info]:\"primary\",[P.S.Warning]:\"warning\"}",
-  "{[P.S.Alert]:\"f.default\",[P.S.Info]:\"E.default\",[P.S.Warning]:\"f.default\"}",
+  {
+    "Cashback": "Cashback",
+    "Unspecified": "Unspecified",
+    "UserInterest": "UserInterest",
+    "UserMain": "UserMain"
+  },
+  {
+    "Checking": "Checking",
+    "Savings": "Savings"
+  },
+  {
+    "BankCardLinkingSessionRejectionReasonCardAlreadyExists": "BankCardLinkingSessionRejectionReasonCardAlreadyExists",
+    "BankCardLinkingSessionRejectionReasonInaccurateCardDetails": "BankCardLinkingSessionRejectionReasonInaccurateCardDetails",
+    "BankCardLinkingSessionRejectionReasonProviderFailedToAuthorizeCard": "BankCardLinkingSessionRejectionReasonProviderFailedToAuthorizeCard",
+    "BankCardLinkingSessionRejectionReasonProviderFailedToVerifyAddress": "BankCardLinkingSessionRejectionReasonProviderFailedToVerifyAddress",
+    "BankCardLinkingSessionRejectionReasonProviderFailedToVerifyCardholderName": "BankCardLinkingSessionRejectionReasonProviderFailedToVerifyCardholderName",
+    "BankCardLinkingSessionRejectionReasonProviderInternalFailure": "BankCardLinkingSessionRejectionReasonProviderInternalFailure",
+    "BankCardLinkingSessionRejectionReasonUnspecified": "BankCardLinkingSessionRejectionReasonUnspecified",
+    "BankCardLinkingSessionRejectionReasonUnsupportedCardType": "BankCardLinkingSessionRejectionReasonUnsupportedCardType",
+    "BankCardLinkingSessionRejectionReasonUnsupportedIssuerCountry": "BankCardLinkingSessionRejectionReasonUnsupportedIssuerCountry",
+    "BankCardLinkingSessionRejectionReasonUnusableCard": "BankCardLinkingSessionRejectionReasonUnusableCard"
+  },
+  {
+    "BankCardLinkingSessionStatusAuthorized": "BankCardLinkingSessionStatusAuthorized",
+    "BankCardLinkingSessionStatusPending": "BankCardLinkingSessionStatusPending",
+    "BankCardLinkingSessionStatusRejected": "BankCardLinkingSessionStatusRejected",
+    "BankCardLinkingSessionStatusUnspecified": "BankCardLinkingSessionStatusUnspecified"
+  },
+  {
+    "BankCardLinkingSessionThemeDark": "BankCardLinkingSessionThemeDark",
+    "BankCardLinkingSessionThemeDimmed": "BankCardLinkingSessionThemeDimmed",
+    "BankCardLinkingSessionThemeLight": "BankCardLinkingSessionThemeLight",
+    "BankCardLinkingSessionThemeUnspecified": "BankCardLinkingSessionThemeUnspecified"
+  },
+  {
+    "AmericanExpress": "AmericanExpress",
+    "Mastercard": "Mastercard",
+    "Visa": "Visa"
+  },
+  {
+    "Charge": "Charge",
+    "Combo": "Combo",
+    "Credit": "Credit",
+    "Debit": "Debit",
+    "DeferredDebit": "DeferredDebit",
+    "Prepaid": "Prepaid"
+  },
+  {
+    "ClaimTransferDecisionAccept": "ClaimTransferDecisionAccept",
+    "ClaimTransferDecisionReject": "ClaimTransferDecisionReject",
+    "ClaimTransferDecisionUnspecified": "ClaimTransferDecisionUnspecified"
+  },
+  {
+    "ContactSupport": "ContactSupport",
+    "Deposit": "Deposit",
+    "GetPremium": "GetPremium",
+    "KycDocumentUpload": "KycDocumentUpload",
+    "KycVerification": "KycVerification",
+    "LearnMore": "LearnMore",
+    "Questionnaire": "Questionnaire",
+    "SelfieVerification": "SelfieVerification",
+    "SetupPasskey": "SetupPasskey"
+  },
+  {
+    "Alert": "Alert",
+    "Info": "Info",
+    "Warning": "Warning"
+  },
+  {
+    "Interest": "Interest",
+    "Premium": "Premium"
+  },
+  {
+    "DocumentTypeMonthlyStatement": "DocumentTypeMonthlyStatement",
+    "DocumentTypeUnspecified": "DocumentTypeUnspecified"
+  },
+  {
+    "Adyen": "Adyen",
+    "Plaid": "Plaid",
+    "Stripe": "Stripe",
+    "Unknown": "Unknown"
+  },
+  {
+    "IssuedCardReplacementReasonDamaged": "IssuedCardReplacementReasonDamaged",
+    "IssuedCardReplacementReasonExpired": "IssuedCardReplacementReasonExpired",
+    "IssuedCardReplacementReasonLost": "IssuedCardReplacementReasonLost",
+    "IssuedCardReplacementReasonStolen": "IssuedCardReplacementReasonStolen",
+    "IssuedCardReplacementReasonUnspecified": "IssuedCardReplacementReasonUnspecified"
+  },
+  {
+    "IssuedCardShippingStatusCanceled": "IssuedCardShippingStatusCanceled",
+    "IssuedCardShippingStatusDelivered": "IssuedCardShippingStatusDelivered",
+    "IssuedCardShippingStatusFailure": "IssuedCardShippingStatusFailure",
+    "IssuedCardShippingStatusPending": "IssuedCardShippingStatusPending",
+    "IssuedCardShippingStatusReturned": "IssuedCardShippingStatusReturned",
+    "IssuedCardShippingStatusShipped": "IssuedCardShippingStatusShipped",
+    "IssuedCardShippingStatusSubmitted": "IssuedCardShippingStatusSubmitted",
+    "IssuedCardShippingStatusUnspecified": "IssuedCardShippingStatusUnspecified"
+  },
+  {
+    "IssuedCardTypePhysical": "IssuedCardTypePhysical",
+    "IssuedCardTypeUnspecified": "IssuedCardTypeUnspecified",
+    "IssuedCardTypeVirtual": "IssuedCardTypeVirtual"
+  },
+  {
+    "PaymentMethodFilterFunding": "PaymentMethodFilterFunding",
+    "PaymentMethodFilterSpending": "PaymentMethodFilterSpending",
+    "PaymentMethodFilterUnspecified": "PaymentMethodFilterUnspecified"
+  },
+  {
+    "Active": "Active",
+    "Canceled": "Canceled",
+    "Inactive": "Inactive",
+    "Invalid": "Invalid",
+    "LoginRequired": "LoginRequired",
+    "Pending": "Pending",
+    "Revoked": "Revoked",
+    "ScaRequired": "ScaRequired",
+    "Unspecified": "Unspecified"
+  },
+  {
+    "Banking": "Banking",
+    "Cashback": "Cashback",
+    "Ecommerce": "Ecommerce",
+    "Interest": "Interest",
+    "Issuing": "Issuing",
+    "Transfer": "Transfer"
+  },
+  {
+    "RequestTransferDecisionAccept": "RequestTransferDecisionAccept",
+    "RequestTransferDecisionReject": "RequestTransferDecisionReject",
+    "RequestTransferDecisionUnspecified": "RequestTransferDecisionUnspecified"
+  },
+  {
+    "Age": "Age",
+    "Allowlist": "Allowlist",
+    "BirthDate": "BirthDate",
+    "Geography": "Geography",
+    "PhoneNumber": "PhoneNumber",
+    "PremiumOrVerifiedOrganization": "PremiumOrVerifiedOrganization",
+    "Safety": "Safety",
+    "Sanctions": "Sanctions",
+    "TwoFactorAuth": "TwoFactorAuth",
+    "Unknown": "Unknown"
+  },
+  {
+    "ThreeDsAuthenticationResponseAllow": "ThreeDsAuthenticationResponseAllow",
+    "ThreeDsAuthenticationResponseDeny": "ThreeDsAuthenticationResponseDeny",
+    "ThreeDsAuthenticationResponseUnspecified": "ThreeDsAuthenticationResponseUnspecified"
+  },
+  {
+    "Clock": "Clock",
+    "CreditCardBack": "CreditCardBack",
+    "FollowArrows": "FollowArrows",
+    "PeopleStroke": "PeopleStroke"
+  },
+  {
+    "AuthorizationClosed": "AuthorizationClosed",
+    "AuthorizationOpen": "AuthorizationOpen",
+    "AwaitingRequestAcceptance": "AwaitingRequestAcceptance",
+    "AwaitingUnrecognizedConfirmation": "AwaitingUnrecognizedConfirmation",
+    "Cancelled": "Cancelled",
+    "CreditedAwaitingSettlement": "CreditedAwaitingSettlement",
+    "Expired": "Expired",
+    "Failed": "Failed",
+    "Hold": "Hold",
+    "Pending": "Pending",
+    "PendingFundingTransactionSettlement": "PendingFundingTransactionSettlement",
+    "PendingRecipientAcceptance": "PendingRecipientAcceptance",
+    "PendingRecipientAction": "PendingRecipientAction",
+    "PendingRecipientOnboarding": "PendingRecipientOnboarding",
+    "PendingRequestAcceptance": "PendingRequestAcceptance",
+    "PendingReview": "PendingReview",
+    "PinVerificationRequired": "PinVerificationRequired",
+    "RejectedByRecipient": "RejectedByRecipient",
+    "RequestRejected": "RequestRejected",
+    "RequestVerificationRequired": "RequestVerificationRequired",
+    "Settled": "Settled",
+    "SoftSettled": "SoftSettled",
+    "Unspecified": "Unspecified",
+    "VerificationRequired": "VerificationRequired"
+  },
+  {
+    "AtmWithdrawal": "AtmWithdrawal",
+    "Deposit": "Deposit",
+    "DisputeCredit": "DisputeCredit",
+    "Payment": "Payment",
+    "Refund": "Refund",
+    "Reverse": "Reverse",
+    "Transfer": "Transfer",
+    "Unspecified": "Unspecified",
+    "Withdraw": "Withdraw"
+  },
+  {
+    "Cancelled": "Cancelled",
+    "InReview": "InReview",
+    "RejectedByAutoReview": "RejectedByAutoReview",
+    "RejectedByManualReview": "RejectedByManualReview",
+    "RejectedByUnsupportedRegion": "RejectedByUnsupportedRegion",
+    "RejectedCardPaymentsDisabled": "RejectedCardPaymentsDisabled",
+    "RejectedLimitsExceeded": "RejectedLimitsExceeded",
+    "RejectedNotSufficientFunds": "RejectedNotSufficientFunds",
+    "Returned": "Returned",
+    "ReversedByAgent": "ReversedByAgent",
+    "UnrecognizedActivityConfirmed": "UnrecognizedActivityConfirmed",
+    "UnrecognizedActivityRejected": "UnrecognizedActivityRejected",
+    "Unspecified": "Unspecified"
+  },
+  {
+    "BackupCode": "BackupCode",
+    "Passkey": "Passkey",
+    "Sms": "Sms",
+    "Totp": "Totp",
+    "U2fSecurityKey": "U2fSecurityKey"
+  },
+  {
+    "UnrecognizedPaymentDecisionAccept": "UnrecognizedPaymentDecisionAccept",
+    "UnrecognizedPaymentDecisionReject": "UnrecognizedPaymentDecisionReject",
+    "UnrecognizedPaymentDecisionUnspecified": "UnrecognizedPaymentDecisionUnspecified"
+  },
   {
     "small": "small",
     "xLarge": "xLarge",
     "xxxLarge": "xxxLarge",
     "xJumbo": "xJumbo"
   },
-  "{\"InsufficientFunds\":{\"message\":\"Your account balance is insufficient to make this transfer. Please fund your account and then try again.\",\"action\":{\"link\":\"c.IN\",\"label\":\"Deposit\"}},\"InvalidReceiver\":{\"message\":\"You cannot transfer to this account at this time. Please try again later.\"},\"InvalidSender\":{\"message\":\"You cannot request from this account at this time. Please try again later.\"},\"IdempotencyKeyConflict\":{\"message\":\"You might be attempting a duplicate payment. Please check before trying again!\",\"action\":{\"link\":\"c.gp\",\"label\":\"View account\"}},\"BankIssue\":{\"message\":\"There was an issue with your bank while processing your transfer. Please try again.\"},\"LoginRequired\":{\"message\":\"You need to login to verify your bank account before you can proceed.\",\"action\":{\"link\":\"c.VN\",\"label\":\"Verify\"}},\"PaymentMethodLinkRequired\":{\"message\":\"You need to login to verify your bank account before you can proceed.\",\"action\":{\"link\":\"c.VN\",\"label\":\"Verify\"}},\"InsufficientBalance\":{\"message\":\"Your bank account balance is insufficient. Please check your balance and try again.\"},\"TwoFactorAuthRequired\":{\"message\":\"You need to setup two-factor authentication before you can proceed.\",\"action\":{\"link\":\"c.z$\",\"label\":\"Setup\"}},\"VolumeLimitExceeded7DaySend\":{\"message\":\"i()\"{\"type\":\"weekly\"}{\"link\":\"c.iE.limits\",\"label\":\"o\"}},\"VolumeLimitExceeded30DaySend\":{\"message\":\"i()\"{\"type\":\"monthly\"}{\"link\":\"c.iE.limits\",\"label\":\"o\"}},\"VolumeLimitExceeded7Day\":{\"message\":\"i()\"{\"type\":\"weekly\"}{\"link\":\"c.iE.limits\",\"label\":\"o\"}},\"VolumeLimitExceeded30Day\":{\"message\":\"i()\"{\"type\":\"monthly\"}{\"link\":\"c.iE.limits\",\"label\":\"o\"}},\"AdditionalKycRequiredVolumeLimitExceeded7DaySend\":{\"message\":\"l()\"{\"type\":\"weekly\"}{\"link\":\"c.AU.tier2.verifyIdentityPath\",\"label\":\"Verify your identity\"}},\"AdditionalKycRequiredVolumeLimitExceeded30DaySend\":{\"message\":\"l()\"{\"type\":\"monthly\"}{\"link\":\"c.AU.tier2.verifyIdentityPath\",\"label\":\"Verify your identity\"}},\"AdditionalKycRequiredTotalVolumeLimitExceeded\":{\"message\":\"This action would exceed your limits. We need to verify your identify to continue.\",\"action\":{\"link\":\"c.AU.tier2.verifyIdentityPath\",\"label\":\"Verify your identity\"}},\"Velocity\":{\"message\":\"You have temporarily exceeded your limits. Please try again later.\"},\"Default\":{\"message\":\"Something went wrong. Please try again later.\"}}",
-  "{[b.g.Cancelled]:\"Cancelled\",[b.g.Failed]:\"Failed\",[b.g.Expired]:\"Expired\",[b.g.Pending]:\"Pending\",[b.g.Hold]:\"Pending\",[b.g.AuthorizationOpen]:\"Pending\",[b.g.AwaitingUnrecognizedConfirmation]:\"Awaiting approval\",[b.g.PendingReview]:\"Under review\",[b.g.PendingRecipientAction]:\"Pending\",[b.g.PendingRecipientOnboarding]:\"Pending\",[b.g.AwaitingRequestAcceptance]:\"Pending\",[b.g.PendingRecipientAcceptance]:\"Pending\",[b.g.PinVerificationRequired]:\"Pending\",[b.g.RequestVerificationRequired]:\"Pending\",[b.g.VerificationRequired]:\"Pending\",[b.g.RejectedByRecipient]:\"Rejected\",[b.g.RequestRejected]:\"Rejected\",[b.g.Settled]:\"Completed\",[b.g.SoftSettled]:\"Completed\",[b.g.AuthorizationClosed]:\"Completed\"}",
+  "{[f.S.Alert]:\"danger\",[f.S.Info]:\"primary\",[f.S.Warning]:\"warning\"}",
+  "{[f.S.Alert]:\"u.default\",[f.S.Info]:\"y.default\",[f.S.Warning]:\"u.default\"}",
+  "{\"InsufficientFunds\":{\"message\":\"Your account balance is insufficient to make this transfer. Please fund your account and then try again.\",\"action\":{\"link\":\"s.IN\",\"label\":\"Deposit\"}},\"InvalidReceiver\":{\"message\":\"You cannot transfer to this account at this time. Please try again later.\"},\"InvalidSender\":{\"message\":\"You cannot request from this account at this time. Please try again later.\"},\"IdempotencyKeyConflict\":{\"message\":\"You might be attempting a duplicate payment. Please check before trying again!\",\"action\":{\"link\":\"s.gp\",\"label\":\"View account\"}},\"BankIssue\":{\"message\":\"There was an issue with your bank while processing your transfer. Please try again.\"},\"LoginRequired\":{\"message\":\"You need to login to verify your bank account before you can proceed.\",\"action\":{\"link\":\"s.VN\",\"label\":\"Verify\"}},\"PaymentMethodLinkRequired\":{\"message\":\"You need to login to verify your bank account before you can proceed.\",\"action\":{\"link\":\"s.VN\",\"label\":\"Verify\"}},\"InsufficientBalance\":{\"message\":\"Your bank account balance is insufficient. Please check your balance and try again.\"},\"TwoFactorAuthRequired\":{\"message\":\"You need to setup two-factor authentication before you can proceed.\",\"action\":{\"link\":\"s.z$\",\"label\":\"Setup\"}},\"VolumeLimitExceeded7DaySend\":{\"message\":\"l()\"{\"type\":\"weekly\"}{\"link\":\"s.iE.limits\",\"label\":\"o\"}},\"VolumeLimitExceeded30DaySend\":{\"message\":\"l()\"{\"type\":\"monthly\"}{\"link\":\"s.iE.limits\",\"label\":\"o\"}},\"VolumeLimitExceeded7Day\":{\"message\":\"l()\"{\"type\":\"weekly\"}{\"link\":\"s.iE.limits\",\"label\":\"o\"}},\"VolumeLimitExceeded30Day\":{\"message\":\"l()\"{\"type\":\"monthly\"}{\"link\":\"s.iE.limits\",\"label\":\"o\"}},\"AdditionalKycRequiredVolumeLimitExceeded7DaySend\":{\"message\":\"i()\"{\"type\":\"weekly\"}{\"link\":\"s.AU.tier2.verifyIdentityPath\",\"label\":\"Verify your identity\"}},\"AdditionalKycRequiredVolumeLimitExceeded30DaySend\":{\"message\":\"i()\"{\"type\":\"monthly\"}{\"link\":\"s.AU.tier2.verifyIdentityPath\",\"label\":\"Verify your identity\"}},\"AdditionalKycRequiredTotalVolumeLimitExceeded\":{\"message\":\"This action would exceed your limits. We need to verify your identify to continue.\",\"action\":{\"link\":\"s.AU.tier2.verifyIdentityPath\",\"label\":\"Verify your identity\"}},\"Velocity\":{\"message\":\"You have temporarily exceeded your limits. Please try again later.\"},\"Default\":{\"message\":\"Something went wrong. Please try again later.\"}}",
+  "{[C.g.Cancelled]:\"Cancelled\",[C.g.Failed]:\"Failed\",[C.g.Expired]:\"Expired\",[C.g.Pending]:\"Pending\",[C.g.Hold]:\"Pending\",[C.g.AuthorizationOpen]:\"Pending\",[C.g.AwaitingUnrecognizedConfirmation]:\"Awaiting approval\",[C.g.PendingReview]:\"Under review\",[C.g.PendingRecipientAction]:\"Pending\",[C.g.PendingRecipientOnboarding]:\"Pending\",[C.g.AwaitingRequestAcceptance]:\"Pending\",[C.g.PendingRecipientAcceptance]:\"Pending\",[C.g.PinVerificationRequired]:\"Pending\",[C.g.RequestVerificationRequired]:\"Pending\",[C.g.VerificationRequired]:\"Pending\",[C.g.RejectedByRecipient]:\"Rejected\",[C.g.RequestRejected]:\"Rejected\",[C.g.Settled]:\"Completed\",[C.g.SoftSettled]:\"Completed\",[C.g.AuthorizationClosed]:\"Completed\"}",
   "{[T.P.RejectedLimitsExceeded]:\"Declined due to exceeded limits\",[T.P.InReview]:\"Under review\",[T.P.RejectedByUnsupportedRegion]:\"Unsupported region\",[T.P.RejectedNotSufficientFunds]:\"Declined due to insufficient funds\",[T.P.RejectedCardPaymentsDisabled]:\"Flagged as suspicious\",[T.P.UnrecognizedActivityConfirmed]:\"Awaiting retry\",[T.P.UnrecognizedActivityRejected]:\"Flagged as suspicious\"}",
-  "{[b.g.PendingRecipientAcceptance]:\"$\",[b.g.PendingRecipientOnboarding]:\"$\",[b.g.PendingRecipientAction]:\"$\"}",
-  "{[b.g.AwaitingRequestAcceptance]:\"$\",[b.g.PendingRequestAcceptance]:\"$\",[b.g.RequestVerificationRequired]:\"$\"}",
+  "{[C.g.PendingRecipientAcceptance]:\"$\",[C.g.PendingRecipientOnboarding]:\"$\",[C.g.PendingRecipientAction]:\"$\"}",
+  "{[C.g.AwaitingRequestAcceptance]:\"$\",[C.g.PendingRequestAcceptance]:\"$\",[C.g.RequestVerificationRequired]:\"$\"}",
   "{[g.t.Checking]:\"Checking\",[g.t.Savings]:\"Savings\"}",
   "{[w.W.IssuedCardTypePhysical]:\"Physical Card\",[w.W.IssuedCardTypeVirtual]:\"Virtual Card\"}",
   "{[m.l.Charge]:\"Charge\",[m.l.Combo]:\"Combo\",[m.l.Debit]:\"Debit\",[m.l.Credit]:\"Credit\",[m.l.DeferredDebit]:\"DeferredDebit\",[m.l.Prepaid]:\"Prepaid\"}",
   "{[f.U.AmericanExpress]:\"American Express\",[f.U.Mastercard]:\"Mastercard\",[f.U.Visa]:\"Visa\"}",
-  "{[x.D.LoginRequired]:\"Login required\",[x.D.Invalid]:\"Invalid\",[x.D.Pending]:\"Pending\",[x.D.Revoked]:\"Revoked\",[x.D.Canceled]:\"Canceled\",[x.D.Inactive]:\"Inactive\"}",
+  "{[b.D.LoginRequired]:\"Login required\",[b.D.Invalid]:\"Invalid\",[b.D.Pending]:\"Pending\",[b.D.Revoked]:\"Revoked\",[b.D.Canceled]:\"Canceled\",[b.D.Inactive]:\"Inactive\"}",
   "{[f.U.AmericanExpress]:\"https://abs.twimg.com/responsive-web/client-web/payment-method-amex.b2cd046a.svg\",[f.U.Mastercard]:\"https://abs.twimg.com/responsive-web/client-web/payment-method-mastercard.f126316a.svg\",[f.U.Visa]:\"https://abs.twimg.com/responsive-web/client-web/payment-method-visa.c768170a.svg\"}",
   {
     "Affiliate": "Affiliate"
@@ -352,9 +678,9 @@
     "PromotedUserProfileCard": "x.Z",
     "ReplyContext": "I.ZP",
     "RichContent": "k.Z",
-    "SocialContext": "g.Z",
+    "SocialContext": "p.Z",
     "Text": "M.Z",
-    "Tombstone": "p.Z",
+    "Tombstone": "g.Z",
     "Timestamp": "w.Z",
     "UserAvatar": "E.Z",
     "UserFollowIndicator": "P.Z",
