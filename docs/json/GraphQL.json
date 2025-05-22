@@ -12720,8 +12720,7 @@
     "func_name": "T",
     "func_name_init": "A",
     "query": {
-      "bookmark_collection_id": "n",
-      "tweet_id": "o"
+      "grok_share_id": "t"
     }
   },
   {
@@ -17330,8 +17329,7 @@
     "func_name": "T",
     "func_name_init": "A",
     "query": {
-      "bookmark_collection_id": "n",
-      "tweet_id": "o"
+      "grok_share_id": "t"
     }
   },
   {
@@ -19652,8 +19650,7 @@
     "func_name": "T",
     "func_name_init": "A",
     "query": {
-      "bookmark_collection_id": "n",
-      "tweet_id": "o"
+      "grok_share_id": "t"
     }
   },
   {
@@ -25203,8 +25200,7 @@
     "func_name": "T",
     "func_name_init": "A",
     "query": {
-      "bookmark_collection_id": "n",
-      "tweet_id": "o"
+      "grok_share_id": "t"
     }
   },
   {
@@ -28964,8 +28960,7 @@
     "func_name": "T",
     "func_name_init": "A",
     "query": {
-      "bookmark_collection_id": "n",
-      "tweet_id": "o"
+      "grok_share_id": "t"
     }
   },
   {

@@ -6405,13 +6405,13 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant   | value   |
 |:-----------|:--------|
-| SENSITIVE  | d       |
+| SENSITIVE  | u       |
 | BLOCKED    | p       |
-| BLOCKED_BY | y       |
+| BLOCKED_BY | _       |
 
 ```internal process
 # Error
-{[d]:"m",[p]:"_",[y]:"P"}
+{[u]:"h",[p]:"b",[_]:"y"}
 ```
 | constant   | value      |
 |:-----------|:-----------|
@@ -7788,11 +7788,6 @@ This document is entirely auto-generated and may contain errors.<br>
 | PUNCTUATION               | punctuation               |
 | MISC                      | miscellaneous             |
 
-| constant      | value         |
-|:--------------|:--------------|
-| single_line   | singleline    |
-| format_inline | format-inline |
-
 | constant   | value    |
 |:-----------|:---------|
 | MEDIA      | MEDIA    |
@@ -7825,8 +7820,18 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant   | value       |
 |:-----------|:------------|
-| DRAFT      | o.DRAFT     |
-| PUBLISHED  | o.PUBLISHED |
+| DRAFT      | s.DRAFT     |
+| PUBLISHED  | s.PUBLISHED |
+
+| constant      | value         |
+|:--------------|:--------------|
+| single_line   | singleline    |
+| format_inline | format-inline |
+
+| constant      | value         |
+|:--------------|:--------------|
+| single_line   | singleline    |
+| format_inline | format-inline |
 
 | constant   | value    |
 |:-----------|:---------|
@@ -8234,37 +8239,37 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant             | value   |
 |:---------------------|:--------|
-| software_engineering | t       |
-| data_analytics       | u       |
+| software_engineering | u       |
+| data_analytics       | t       |
 | product              | s       |
 | design               | b       |
-| marketing            | h       |
-| sales_am             | D       |
+| marketing            | D       |
+| sales_am             | h       |
 | operations           | p       |
 | people_hr            | S       |
-| finance_accounting   | m       |
-| legal_compliance     | A       |
-| science_engineering  | y       |
-| medical              | f       |
+| finance_accounting   | A       |
+| legal_compliance     | m       |
+| science_engineering  | f       |
+| medical              | y       |
 | construction_trades  | w       |
 | other                | v       |
 
 | constant    | value   |
 |:------------|:--------|
-| intern      | P       |
-| entry_level | I       |
-| junior      | g       |
-| mid_level   | B       |
-| senior      | C       |
+| intern      | g       |
+| entry_level | B       |
+| junior      | P       |
+| mid_level   | I       |
+| senior      | E       |
 | lead        | Z       |
-| manager     | _       |
-| executive   | E       |
+| manager     | C       |
+| executive   | _       |
 
 | constant   | value                                                 |
 |:-----------|:------------------------------------------------------|
 | onsite     | {'label': 'L', 'description': 'O', 'value': 'onsite'} |
-| remote     | {'label': 'N', 'description': 'U', 'value': 'remote'} |
-| hybrid     | {'label': 'R', 'description': 'F', 'value': 'hybrid'} |
+| remote     | {'label': 'N', 'description': 'F', 'value': 'remote'} |
+| hybrid     | {'label': 'R', 'description': '$', 'value': 'hybrid'} |
 
 | constant        | value   |
 |:----------------|:--------|
@@ -9871,12 +9876,71 @@ This document is entirely auto-generated and may contain errors.<br>
 | Sandbox    | Sandbox |
 | Test       | Test    |
 
+| constant         |   value |
+|:-----------------|--------:|
+| DISABLED         |       0 |
+| ENABLED          |      10 |
+| SYNC_IN_PROGRESS |      20 |
+| SYNC_FAILED      |      30 |
+
+| constant           | value              |
+|:-------------------|:-------------------|
+| freshteam          | Freshteam          |
+| greenhouse         | Greenhouse         |
+| lever              | Lever              |
+| recruitee          | Recruitee          |
+| sage-hr            | Sage HR            |
+| sap-successfactors | SAP SuccessFactors |
+| teamtailor         | Teamtailor         |
+| workable           | Workable           |
+| workday            | Workday            |
+
+| constant             | value   |
+|:---------------------|:--------|
+| software_engineering | d       |
+| data_analytics       | c       |
+| product              | u       |
+| design               | p       |
+| marketing            | b       |
+| sales_am             | m       |
+| operations           | h       |
+| people_hr            | y       |
+| finance_accounting   | g       |
+| legal_compliance     | S       |
+| science_engineering  | f       |
+| medical              | D       |
+| construction_trades  | _       |
+| other                | k       |
+
+| constant    | value   |
+|:------------|:--------|
+| intern      | w       |
+| entry_level | F       |
+| junior      | E       |
+| mid_level   | I       |
+| senior      | M       |
+| lead        | C       |
+| manager     | Z       |
+| executive   | P       |
+
+| constant   | value                                                 |
+|:-----------|:------------------------------------------------------|
+| onsite     | {'label': 'K', 'description': 'j', 'value': 'onsite'} |
+| remote     | {'label': 'T', 'description': 'z', 'value': 'remote'} |
+| hybrid     | {'label': 'L', 'description': 'R', 'value': 'hybrid'} |
+
 | constant                | value                     |
 |:------------------------|:--------------------------|
 | FakeAccount             | fake_account              |
 | OffensiveProfileContent | offensive_profile_content |
 | SensitiveMedia          | sensitive_media           |
 | Timeout                 | timeout                   |
+
+| constant   | value    |
+|:-----------|:---------|
+| INFINITE   | infinite |
+| MEDIUM     | medium   |
+| NONE       | none     |
 
 | constant                | value                     |
 |:------------------------|:--------------------------|
@@ -11022,7 +11086,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{[N.LIVE_EVENT]:"!0",[N.MOMENT]:"!0",[N.SUMMARY]:"!0",[N.SUMMARY_LARGE_IMAGE]:"!0",[N.AUDIOSPACE]:"!0"}
+{[O.LIVE_EVENT]:"!0",[O.MOMENT]:"!0",[O.SUMMARY]:"!0",[O.SUMMARY_LARGE_IMAGE]:"!0",[O.AUDIOSPACE]:"!0"}
 ```
 | constant     | value        |
 |:-------------|:-------------|
