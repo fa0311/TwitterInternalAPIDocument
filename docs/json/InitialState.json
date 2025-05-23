@@ -1237,6 +1237,9 @@
       "payments_settings_documents_enabled": {
         "value": "false"
       },
+      "payments_tasks_carousel_enabled": {
+        "value": "false"
+      },
       "payments_transfer_methods_enabled": {
         "value": "false"
       },
@@ -3223,10 +3226,10 @@
         "value": "variant_d"
       },
       "subscriptions_upsells_verified_profile_visitor_upsell_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "subscriptions_upsells_verified_profile_visitor_upsell_variant": {
-        "value": ""
+        "value": "variant_b"
       },
       "subscriptions_upsells_vo_nav_decoration_enabled": {
         "value": "false"
@@ -4850,6 +4853,9 @@
         "payments_settings_documents_enabled": {
           "value": "false"
         },
+        "payments_tasks_carousel_enabled": {
+          "value": "false"
+        },
         "payments_transfer_methods_enabled": {
           "value": "false"
         },
@@ -6296,6 +6302,9 @@
         "rweb_xchat_enabled": {
           "value": "false"
         },
+        "rweb_xchat_logs": {
+          "value": "false"
+        },
         "rweb_xchat_messages_sidebar_enabled": {
           "value": "false"
         },
@@ -7331,10 +7340,10 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "5062c4dde4c28c4090ef65a6d3c3fead"
+      "settingsVersion": "ff14f56cf506c19587b08472f5c8dde9"
     },
     "debug": {},
-    "featureSetToken": "869adc14868f05deb1032adf69b52c8a6bcf3336",
+    "featureSetToken": "4b2d66804b1dbe579c65a65525820d6de21c6f6b",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -7403,7 +7412,7 @@
   },
   "session": {
     "country": "XX",
-    "guestId": "174786130820280877",
+    "guestId": "174794770779061505",
     "hasCommunityMemberships": "false",
     "isActiveCreator": "false",
     "isLoaded": "false",
