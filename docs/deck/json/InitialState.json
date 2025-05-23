@@ -4314,7 +4314,7 @@
           "value": "false"
         },
         "dm_secret_conversations_for_blue_verified_enabled": {
-          "value": "true"
+          "value": "false"
         },
         "dm_secret_conversations_for_graduated_access_enabled": {
           "value": "false"
@@ -7340,7 +7340,7 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "ff14f56cf506c19587b08472f5c8dde9"
+      "settingsVersion": "7d7cc6d16416ed49af4b6c2c26efa486"
     },
     "debug": {},
     "featureSetToken": "4b2d66804b1dbe579c65a65525820d6de21c6f6b",
@@ -7412,7 +7412,7 @@
   },
   "session": {
     "country": "XX",
-    "guestId": "174794819508048223",
+    "guestId": "174803452177028832",
     "hasCommunityMemberships": "false",
     "isActiveCreator": "false",
     "isLoaded": "false",
