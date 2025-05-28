@@ -6797,7 +6797,7 @@
           "value": "premium_upsell_upgrade"
         },
         "subscriptions_upsells_premium_nav_migration_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "subscriptions_upsells_profile_sidebar_analytics_upsell_enabled": {
           "value": "false"
@@ -7340,7 +7340,7 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "7d7cc6d16416ed49af4b6c2c26efa486"
+      "settingsVersion": "4147b18e14c65363c94c28de56bc6486"
     },
     "debug": {},
     "featureSetToken": "4b2d66804b1dbe579c65a65525820d6de21c6f6b",
@@ -7412,7 +7412,7 @@
   },
   "session": {
     "country": "XX",
-    "guestId": "174829331410725772",
+    "guestId": "174837972398733080",
     "hasCommunityMemberships": "false",
     "isActiveCreator": "false",
     "isLoaded": "false",
