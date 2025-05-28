@@ -130,34 +130,6 @@ This document is entirely auto-generated and may contain errors.<br>
 | Employees   |       1 |
 | Subscribers |       2 |
 
-| constant      | value         |
-|:--------------|:--------------|
-| single_line   | singleline    |
-| format_inline | format-inline |
-
-| constant                | value   |
-|:------------------------|:--------|
-| ActionsBar              | C.Z     |
-| ActionMenu              | w.Z     |
-| CallToAction            | a.ZP    |
-| EditCallout             | g.Z     |
-| Education               | E.Z     |
-| HighlightedUserLabel    | c.Z     |
-| Media                   | x.Z     |
-| Place                   | r.ZP    |
-| PromotedDetails         | u.Z     |
-| PromotedUserProfileCard | _.Z     |
-| ReplyContext            | k.ZP    |
-| RichContent             | I.Z     |
-| SocialContext           | f.Z     |
-| Text                    | T.Z     |
-| Tombstone               | h.Z     |
-| Timestamp               | b.Z     |
-| UserAvatar              | A.Z     |
-| UserFollowIndicator     | L.Z     |
-| UserName                | Z.Z     |
-| ArticleCard             | v.Z     |
-
 | constant     | value             |
 |:-------------|:------------------|
 | navButtons   | navigationButtons |
@@ -202,23 +174,28 @@ This document is entirely auto-generated and may contain errors.<br>
 | ActionsBar              | f.Z     |
 | ActionMenu              | T.Z     |
 | CallToAction            | o.ZP    |
-| EditCallout             | b.Z     |
+| EditCallout             | y.Z     |
 | Education               | _.Z     |
 | HighlightedUserLabel    | l.Z     |
-| Media                   | x.Z     |
+| Media                   | v.Z     |
 | Place                   | a.ZP    |
 | PromotedDetails         | u.Z     |
-| PromotedUserProfileCard | v.Z     |
+| PromotedUserProfileCard | x.Z     |
 | ReplyContext            | I.ZP    |
-| RichContent             | E.Z     |
+| RichContent             | k.Z     |
 | SocialContext           | h.Z     |
-| Text                    | k.Z     |
+| Text                    | E.Z     |
 | Tombstone               | g.Z     |
 | Timestamp               | p.Z     |
 | UserAvatar              | M.Z     |
 | UserFollowIndicator     | S.Z     |
 | UserName                | P.Z     |
-| ArticleCard             | y.Z     |
+| ArticleCard             | b.Z     |
+
+| constant    | value       |
+|:------------|:------------|
+| passive     | PASSIVE     |
+| interactive | INTERACTIVE |
 
 | constant                | value                   |
 |:------------------------|:------------------------|
@@ -376,20 +353,279 @@ This document is entirely auto-generated and may contain errors.<br>
 | MATCHES    | {'id': 'GAMES', 'label': 'o().e2811afc'}     |
 | STANDINGS  | {'id': 'STANDINGS', 'label': 'o().j081fa34'} |
 
+| constant     | value        |
+|:-------------|:-------------|
+| Cashback     | Cashback     |
+| Unspecified  | Unspecified  |
+| UserInterest | UserInterest |
+| UserMain     | UserMain     |
+
+| constant   | value    |
+|:-----------|:---------|
+| Checking   | Checking |
+| Savings    | Savings  |
+
+| constant                                                                      | value                                                                         |
+|:------------------------------------------------------------------------------|:------------------------------------------------------------------------------|
+| BankCardLinkingSessionRejectionReasonCardAlreadyExists                        | BankCardLinkingSessionRejectionReasonCardAlreadyExists                        |
+| BankCardLinkingSessionRejectionReasonInaccurateCardDetails                    | BankCardLinkingSessionRejectionReasonInaccurateCardDetails                    |
+| BankCardLinkingSessionRejectionReasonProviderDidNotCarryNameVerificationCheck | BankCardLinkingSessionRejectionReasonProviderDidNotCarryNameVerificationCheck |
+| BankCardLinkingSessionRejectionReasonProviderFailedToAuthorizeCard            | BankCardLinkingSessionRejectionReasonProviderFailedToAuthorizeCard            |
+| BankCardLinkingSessionRejectionReasonProviderFailedToVerifyAddress            | BankCardLinkingSessionRejectionReasonProviderFailedToVerifyAddress            |
+| BankCardLinkingSessionRejectionReasonProviderFailedToVerifyCardholderName     | BankCardLinkingSessionRejectionReasonProviderFailedToVerifyCardholderName     |
+| BankCardLinkingSessionRejectionReasonProviderInternalFailure                  | BankCardLinkingSessionRejectionReasonProviderInternalFailure                  |
+| BankCardLinkingSessionRejectionReasonUnspecified                              | BankCardLinkingSessionRejectionReasonUnspecified                              |
+| BankCardLinkingSessionRejectionReasonUnsupportedCardType                      | BankCardLinkingSessionRejectionReasonUnsupportedCardType                      |
+| BankCardLinkingSessionRejectionReasonUnsupportedIssuerCountry                 | BankCardLinkingSessionRejectionReasonUnsupportedIssuerCountry                 |
+| BankCardLinkingSessionRejectionReasonUnusableCard                             | BankCardLinkingSessionRejectionReasonUnusableCard                             |
+
+| constant                                | value                                   |
+|:----------------------------------------|:----------------------------------------|
+| BankCardLinkingSessionStatusAuthorized  | BankCardLinkingSessionStatusAuthorized  |
+| BankCardLinkingSessionStatusPending     | BankCardLinkingSessionStatusPending     |
+| BankCardLinkingSessionStatusRejected    | BankCardLinkingSessionStatusRejected    |
+| BankCardLinkingSessionStatusUnspecified | BankCardLinkingSessionStatusUnspecified |
+
+| constant                               | value                                  |
+|:---------------------------------------|:---------------------------------------|
+| BankCardLinkingSessionThemeDark        | BankCardLinkingSessionThemeDark        |
+| BankCardLinkingSessionThemeDimmed      | BankCardLinkingSessionThemeDimmed      |
+| BankCardLinkingSessionThemeLight       | BankCardLinkingSessionThemeLight       |
+| BankCardLinkingSessionThemeUnspecified | BankCardLinkingSessionThemeUnspecified |
+
+| constant        | value           |
+|:----------------|:----------------|
+| AmericanExpress | AmericanExpress |
+| Mastercard      | Mastercard      |
+| Visa            | Visa            |
+
+| constant      | value         |
+|:--------------|:--------------|
+| Charge        | Charge        |
+| Combo         | Combo         |
+| Credit        | Credit        |
+| Debit         | Debit         |
+| DeferredDebit | DeferredDebit |
+| Prepaid       | Prepaid       |
+
+| constant                         | value                            |
+|:---------------------------------|:---------------------------------|
+| ClaimTransferDecisionAccept      | ClaimTransferDecisionAccept      |
+| ClaimTransferDecisionReject      | ClaimTransferDecisionReject      |
+| ClaimTransferDecisionUnspecified | ClaimTransferDecisionUnspecified |
+
+| constant           | value              |
+|:-------------------|:-------------------|
+| ContactSupport     | ContactSupport     |
+| Deposit            | Deposit            |
+| GetPremium         | GetPremium         |
+| KycDocumentUpload  | KycDocumentUpload  |
+| KycVerification    | KycVerification    |
+| LearnMore          | LearnMore          |
+| Questionnaire      | Questionnaire      |
+| SelfieVerification | SelfieVerification |
+| SetupPasskey       | SetupPasskey       |
+
+| constant   | value   |
+|:-----------|:--------|
+| Alert      | Alert   |
+| Info       | Info    |
+| Warning    | Warning |
+
+| constant   | value     |
+|:-----------|:----------|
+| Geography  | Geography |
+| Interest   | Interest  |
+| Premium    | Premium   |
+
+| constant                     | value                        |
+|:-----------------------------|:-----------------------------|
+| DocumentTypeMonthlyStatement | DocumentTypeMonthlyStatement |
+| DocumentTypeUnspecified      | DocumentTypeUnspecified      |
+
+| constant   | value   |
+|:-----------|:--------|
+| Adyen      | Adyen   |
+| Plaid      | Plaid   |
+| Stripe     | Stripe  |
+| Unknown    | Unknown |
+
+| constant                               | value                                  |
+|:---------------------------------------|:---------------------------------------|
+| IssuedCardReplacementReasonDamaged     | IssuedCardReplacementReasonDamaged     |
+| IssuedCardReplacementReasonExpired     | IssuedCardReplacementReasonExpired     |
+| IssuedCardReplacementReasonLost        | IssuedCardReplacementReasonLost        |
+| IssuedCardReplacementReasonStolen      | IssuedCardReplacementReasonStolen      |
+| IssuedCardReplacementReasonUnspecified | IssuedCardReplacementReasonUnspecified |
+
+| constant                            | value                               |
+|:------------------------------------|:------------------------------------|
+| IssuedCardShippingStatusCanceled    | IssuedCardShippingStatusCanceled    |
+| IssuedCardShippingStatusDelivered   | IssuedCardShippingStatusDelivered   |
+| IssuedCardShippingStatusFailure     | IssuedCardShippingStatusFailure     |
+| IssuedCardShippingStatusPending     | IssuedCardShippingStatusPending     |
+| IssuedCardShippingStatusReturned    | IssuedCardShippingStatusReturned    |
+| IssuedCardShippingStatusShipped     | IssuedCardShippingStatusShipped     |
+| IssuedCardShippingStatusSubmitted   | IssuedCardShippingStatusSubmitted   |
+| IssuedCardShippingStatusUnspecified | IssuedCardShippingStatusUnspecified |
+
+| constant                  | value                     |
+|:--------------------------|:--------------------------|
+| IssuedCardTypePhysical    | IssuedCardTypePhysical    |
+| IssuedCardTypeUnspecified | IssuedCardTypeUnspecified |
+| IssuedCardTypeVirtual     | IssuedCardTypeVirtual     |
+
+| constant                       | value                          |
+|:-------------------------------|:-------------------------------|
+| PaymentMethodFilterFunding     | PaymentMethodFilterFunding     |
+| PaymentMethodFilterSpending    | PaymentMethodFilterSpending    |
+| PaymentMethodFilterUnspecified | PaymentMethodFilterUnspecified |
+
+| constant      | value         |
+|:--------------|:--------------|
+| Active        | Active        |
+| Canceled      | Canceled      |
+| Inactive      | Inactive      |
+| Invalid       | Invalid       |
+| LoginRequired | LoginRequired |
+| Pending       | Pending       |
+| Revoked       | Revoked       |
+| ScaRequired   | ScaRequired   |
+| Unspecified   | Unspecified   |
+
+| constant   | value     |
+|:-----------|:----------|
+| Banking    | Banking   |
+| Cashback   | Cashback  |
+| Ecommerce  | Ecommerce |
+| Interest   | Interest  |
+| Issuing    | Issuing   |
+| Transfer   | Transfer  |
+
+| constant                           | value                              |
+|:-----------------------------------|:-----------------------------------|
+| RequestTransferDecisionAccept      | RequestTransferDecisionAccept      |
+| RequestTransferDecisionReject      | RequestTransferDecisionReject      |
+| RequestTransferDecisionUnspecified | RequestTransferDecisionUnspecified |
+
+| constant                      | value                         |
+|:------------------------------|:------------------------------|
+| Age                           | Age                           |
+| Allowlist                     | Allowlist                     |
+| BirthDate                     | BirthDate                     |
+| Geography                     | Geography                     |
+| PhoneNumber                   | PhoneNumber                   |
+| PremiumOrVerifiedOrganization | PremiumOrVerifiedOrganization |
+| Safety                        | Safety                        |
+| Sanctions                     | Sanctions                     |
+| TwoFactorAuth                 | TwoFactorAuth                 |
+| Unknown                       | Unknown                       |
+
+| constant                                 | value                                    |
+|:-----------------------------------------|:-----------------------------------------|
+| ThreeDsAuthenticationResponseAllow       | ThreeDsAuthenticationResponseAllow       |
+| ThreeDsAuthenticationResponseDeny        | ThreeDsAuthenticationResponseDeny        |
+| ThreeDsAuthenticationResponseUnspecified | ThreeDsAuthenticationResponseUnspecified |
+
+| constant    | value       |
+|:------------|:------------|
+| Chip        | Chip        |
+| Contactless | Contactless |
+| KeyedIn     | KeyedIn     |
+| Online      | Online      |
+| Swipe       | Swipe       |
+
+| constant       | value          |
+|:---------------|:---------------|
+| Clock          | Clock          |
+| CreditCardBack | CreditCardBack |
+| FollowArrows   | FollowArrows   |
+| PeopleStroke   | PeopleStroke   |
+
+| constant                            | value                               |
+|:------------------------------------|:------------------------------------|
+| AuthorizationClosed                 | AuthorizationClosed                 |
+| AuthorizationOpen                   | AuthorizationOpen                   |
+| AwaitingRequestAcceptance           | AwaitingRequestAcceptance           |
+| AwaitingUnrecognizedConfirmation    | AwaitingUnrecognizedConfirmation    |
+| Cancelled                           | Cancelled                           |
+| CreditedAwaitingSettlement          | CreditedAwaitingSettlement          |
+| Expired                             | Expired                             |
+| Failed                              | Failed                              |
+| Hold                                | Hold                                |
+| Pending                             | Pending                             |
+| PendingFundingTransactionSettlement | PendingFundingTransactionSettlement |
+| PendingRecipientAcceptance          | PendingRecipientAcceptance          |
+| PendingRecipientAction              | PendingRecipientAction              |
+| PendingRecipientOnboarding          | PendingRecipientOnboarding          |
+| PendingRequestAcceptance            | PendingRequestAcceptance            |
+| PendingReview                       | PendingReview                       |
+| PinVerificationRequired             | PinVerificationRequired             |
+| RejectedByRecipient                 | RejectedByRecipient                 |
+| RequestRejected                     | RequestRejected                     |
+| RequestVerificationRequired         | RequestVerificationRequired         |
+| Settled                             | Settled                             |
+| SoftSettled                         | SoftSettled                         |
+| Unspecified                         | Unspecified                         |
+| VerificationRequired                | VerificationRequired                |
+
+| constant      | value         |
+|:--------------|:--------------|
+| AtmWithdrawal | AtmWithdrawal |
+| Deposit       | Deposit       |
+| DisputeCredit | DisputeCredit |
+| Payment       | Payment       |
+| Refund        | Refund        |
+| Reverse       | Reverse       |
+| Transfer      | Transfer      |
+| Unspecified   | Unspecified   |
+| Withdraw      | Withdraw      |
+
+| constant                      | value                         |
+|:------------------------------|:------------------------------|
+| Cancelled                     | Cancelled                     |
+| InReview                      | InReview                      |
+| RejectedByAutoReview          | RejectedByAutoReview          |
+| RejectedByManualReview        | RejectedByManualReview        |
+| RejectedByUnsupportedRegion   | RejectedByUnsupportedRegion   |
+| RejectedCardPaymentsDisabled  | RejectedCardPaymentsDisabled  |
+| RejectedLimitsExceeded        | RejectedLimitsExceeded        |
+| RejectedNotSufficientFunds    | RejectedNotSufficientFunds    |
+| Returned                      | Returned                      |
+| ReversedByAgent               | ReversedByAgent               |
+| UnrecognizedActivityConfirmed | UnrecognizedActivityConfirmed |
+| UnrecognizedActivityRejected  | UnrecognizedActivityRejected  |
+| Unspecified                   | Unspecified                   |
+
+| constant       | value          |
+|:---------------|:---------------|
+| BackupCode     | BackupCode     |
+| Passkey        | Passkey        |
+| Sms            | Sms            |
+| Totp           | Totp           |
+| U2fSecurityKey | U2fSecurityKey |
+
+| constant                               | value                                  |
+|:---------------------------------------|:---------------------------------------|
+| UnrecognizedPaymentDecisionAccept      | UnrecognizedPaymentDecisionAccept      |
+| UnrecognizedPaymentDecisionReject      | UnrecognizedPaymentDecisionReject      |
+| UnrecognizedPaymentDecisionUnspecified | UnrecognizedPaymentDecisionUnspecified |
+
 | constant   | value    |
 |:-----------|:---------|
 | small      | small    |
 | xLarge     | xLarge   |
+| xxLarge    | xxLarge  |
 | xxxLarge   | xxxLarge |
 | xJumbo     | xJumbo   |
 
 ```internal process
 # Error
-{[I.S.Alert]:"danger",[I.S.Info]:"primary",[I.S.Warning]:"warning"}
+{[E.S.Alert]:"danger",[E.S.Info]:"primary",[E.S.Warning]:"warning"}
 ```
 ```internal process
 # Error
-{[I.S.Alert]:"y.default",[I.S.Info]:"p.default",[I.S.Warning]:"y.default"}
+{[E.S.Alert]:"y.default",[E.S.Info]:"p.default",[E.S.Warning]:"y.default"}
 ```
 ```internal process
 # Error
@@ -397,19 +633,19 @@ This document is entirely auto-generated and may contain errors.<br>
 ```
 ```internal process
 # Error
-{[C.g.Cancelled]:"Cancelled",[C.g.Failed]:"Failed",[C.g.Expired]:"Expired",[C.g.Pending]:"Pending",[C.g.Hold]:"Pending",[C.g.AuthorizationOpen]:"Pending",[C.g.AwaitingUnrecognizedConfirmation]:"Awaiting approval",[C.g.PendingReview]:"Under review",[C.g.PendingRecipientAction]:"Pending",[C.g.PendingR...
+{[P.g.Cancelled]:"Cancelled",[P.g.Failed]:"Failed",[P.g.Expired]:"Expired",[P.g.Pending]:"Pending",[P.g.Hold]:"Pending",[P.g.AuthorizationOpen]:"Pending",[P.g.AwaitingUnrecognizedConfirmation]:"Awaiting approval",[P.g.PendingReview]:"Under review",[P.g.PendingRecipientAction]:"Pending",[P.g.PendingR...
 ```
 ```internal process
 # Error
-{[T.P.RejectedLimitsExceeded]:"Declined due to exceeded limits",[T.P.InReview]:"Under review",[T.P.RejectedByUnsupportedRegion]:"Unsupported region",[T.P.RejectedNotSufficientFunds]:"Declined due to insufficient funds",[T.P.RejectedCardPaymentsDisabled]:"Flagged as suspicious",[T.P.UnrecognizedActiv...
+{[v.P.RejectedLimitsExceeded]:"Declined due to exceeded limits",[v.P.InReview]:"Under review",[v.P.RejectedByUnsupportedRegion]:"Unsupported region",[v.P.RejectedNotSufficientFunds]:"Declined due to insufficient funds",[v.P.RejectedCardPaymentsDisabled]:"Flagged as suspicious",[v.P.UnrecognizedActiv...
 ```
 ```internal process
 # Error
-{[C.g.PendingRecipientAcceptance]:"$",[C.g.PendingRecipientOnboarding]:"$",[C.g.PendingRecipientAction]:"$"}
+{[P.g.PendingRecipientAcceptance]:"M",[P.g.PendingRecipientOnboarding]:"M",[P.g.PendingRecipientAction]:"M"}
 ```
 ```internal process
 # Error
-{[C.g.AwaitingRequestAcceptance]:"$",[C.g.PendingRequestAcceptance]:"$",[C.g.RequestVerificationRequired]:"$"}
+{[P.g.AwaitingRequestAcceptance]:"M",[P.g.PendingRequestAcceptance]:"M",[P.g.RequestVerificationRequired]:"M"}
 ```
 ```internal process
 # Error
@@ -429,12 +665,42 @@ This document is entirely auto-generated and may contain errors.<br>
 ```
 ```internal process
 # Error
-{[b.D.LoginRequired]:"Login required",[b.D.Invalid]:"Invalid",[b.D.Pending]:"Pending",[b.D.Revoked]:"Revoked",[b.D.Canceled]:"Canceled",[b.D.Inactive]:"Inactive"}
+{[R.D.LoginRequired]:"Login required",[R.D.Invalid]:"Invalid",[R.D.Pending]:"Pending",[R.D.Revoked]:"Revoked",[R.D.Canceled]:"Canceled",[R.D.Inactive]:"Inactive"}
+```
+```internal process
+# Error
+{[C.y.Online]:"Online",[C.y.Chip]:"Chip",[C.y.Contactless]:"Contactless",[C.y.KeyedIn]:"Keyed In",[C.y.Swipe]:"Swipe"}
 ```
 ```internal process
 # Error
 {[f.U.AmericanExpress]:"https://abs.twimg.com/responsive-web/client-web/payment-method-amex.b2cd046a.svg",[f.U.Mastercard]:"https://abs.twimg.com/responsive-web/client-web/payment-method-mastercard.f126316a.svg",[f.U.Visa]:"https://abs.twimg.com/responsive-web/client-web/payment-method-visa.c768170a...
 ```
+| constant                     | value                        |
+|:-----------------------------|:-----------------------------|
+| ApplicationInReview          | ApplicationInReview          |
+| ApplicationRequestInfo       | ApplicationRequestInfo       |
+| NotStart                     | NotStart                     |
+| Onboarded                    | Onboarded                    |
+| UpfrontApplicationInProgress | UpfrontApplicationInProgress |
+| UpfrontPromotionInProgress   | UpfrontPromotionInProgress   |
+
+| constant           | value   |
+|:-------------------|:--------|
+| full_time          | r       |
+| full_time_contract | t       |
+| part_time          | s       |
+| contract_to_hire   | u       |
+
+|   constant | value   |
+|-----------:|:--------|
+|          1 | d       |
+|          2 | c       |
+
+| constant   | value                        |
+|:-----------|:-----------------------------|
+| annually   | {'label': 'd', 'value': '1'} |
+| hourly     | {'label': 'c', 'value': '2'} |
+
 | constant   | value     |
 |:-----------|:----------|
 | Affiliate  | Affiliate |
@@ -451,11 +717,11 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant                | value   |
 |:------------------------|:--------|
-| ActionsBar              | _.Z     |
-| ActionMenu              | f.Z     |
+| ActionsBar              | f.Z     |
+| ActionMenu              | T.Z     |
 | CallToAction            | o.ZP    |
-| EditCallout             | T.Z     |
-| Education               | y.Z     |
+| EditCallout             | y.Z     |
+| Education               | _.Z     |
 | HighlightedUserLabel    | l.Z     |
 | Media                   | v.Z     |
 | Place                   | a.ZP    |
@@ -463,13 +729,13 @@ This document is entirely auto-generated and may contain errors.<br>
 | PromotedUserProfileCard | x.Z     |
 | ReplyContext            | I.ZP    |
 | RichContent             | k.Z     |
-| SocialContext           | p.Z     |
-| Text                    | M.Z     |
+| SocialContext           | h.Z     |
+| Text                    | E.Z     |
 | Tombstone               | g.Z     |
-| Timestamp               | w.Z     |
-| UserAvatar              | E.Z     |
-| UserFollowIndicator     | P.Z     |
-| UserName                | Z.Z     |
+| Timestamp               | p.Z     |
+| UserAvatar              | M.Z     |
+| UserFollowIndicator     | S.Z     |
+| UserName                | P.Z     |
 | ArticleCard             | b.Z     |
 
 | constant   | value                                                                                                                |
@@ -569,16 +835,6 @@ This document is entirely auto-generated and may contain errors.<br>
 | Unused6    | _Unused6   |
 | Unused7    | _Unused7   |
 
-| constant   | value      |
-|:-----------|:-----------|
-| wide       | wide       |
-| narrow     | narrow     |
-| veryNarrow | veryNarrow |
-
-```internal process
-# Error
-{[n.wide]:"500",[n.narrow]:"300",[n.veryNarrow]:"200"}
-```
 ```internal process
 # Error
 {"__proto__":"null","DEG2RAD":"at","RAD2DEG":"ot","generateUUID":"lt","clamp":"ct","euclideanModulo":"ht","mapLinear":"function()"{return n+()*(t-e)/(s-n)},"inverseLerp":"function()"{return t!==e?()/(i-t):"0"},"lerp":"ut","damp":"function()"{"return ut()"},"pingpong":"function()"{return e-Math.abs()...
