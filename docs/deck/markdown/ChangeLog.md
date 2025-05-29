@@ -5133,3 +5133,20 @@
 - rweb_xchat_logs<br>
 #### remove<br>
 - None<br>
+## 2025/05/28<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- payments_qr_onboarding_mobile_link_enabled<br>
+- premium_home_nav_upgrade_upsell__variant_key_fs<br>
+- responsive_web_grok_enable_translation_bg_fetch_and_forget<br>
+- responsive_web_grok_poll_translation_enabled<br>
+- rweb_xchat_new_db_worker_enabled<br>
+- subscriptions_marketing_page_web_refresh_enabled<br>
+- subscriptions_quick_free_trials_ui_enabled<br>
+#### remove<br>
+- None<br>
