@@ -2350,7 +2350,7 @@
     "borderWidths": "c",
     "borderWidthsPx": "u",
     "breakpoints": "n",
-    "componentDimensions": "S",
+    "componentDimensions": "k",
     "componentZIndices": "l",
     "fontSizes": "A",
     "fontSizesPx": "y",
@@ -3631,45 +3631,29 @@
     "FAILURE": "rweb/ocf/FETCH_BROWSABLE_NUX_RECOMMENDATIONS_FAILURE"
   },
   {
-    "user": "user",
-    "topic": "topic",
-    "list": "list",
-    "community": "community",
-    "spaces": "spaces"
-  },
-  {
-    "follow": "follow",
-    "subscribe": "subscribe"
-  },
-  {
     "single_line": "singleline",
     "format_inline": "format-inline"
   },
   {
-    "iconText": "icon-text",
-    "onlyIcon": "only-icon",
-    "onlyText": "only-text"
-  },
-  {
-    "ActionsBar": "w.Z",
-    "ActionMenu": "C.Z",
+    "ActionsBar": "C.Z",
+    "ActionMenu": "w.Z",
     "CallToAction": "a.ZP",
     "EditCallout": "g.Z",
     "Education": "E.Z",
     "HighlightedUserLabel": "c.Z",
-    "Media": "_.Z",
+    "Media": "x.Z",
     "Place": "r.ZP",
     "PromotedDetails": "u.Z",
-    "PromotedUserProfileCard": "x.Z",
+    "PromotedUserProfileCard": "_.Z",
     "ReplyContext": "k.ZP",
     "RichContent": "I.Z",
-    "SocialContext": "p.Z",
+    "SocialContext": "f.Z",
     "Text": "T.Z",
-    "Tombstone": "f.Z",
+    "Tombstone": "h.Z",
     "Timestamp": "b.Z",
-    "UserAvatar": "Z.Z",
+    "UserAvatar": "A.Z",
     "UserFollowIndicator": "L.Z",
-    "UserName": "A.Z",
+    "UserName": "Z.Z",
     "ArticleCard": "v.Z"
   },
   {
@@ -3687,30 +3671,30 @@
     "browse_tweets": "c().h6453e74"
   },
   {
-    "follow": "r().i79ab12a",
-    "following": "r().d960b55c",
-    "unfollow": "r().c0f56044"
+    "follow": "i().i79ab12a",
+    "following": "i().d960b55c",
+    "unfollow": "i().c0f56044"
   },
   {
-    "follow": "r().fcf51fe6",
-    "following": "r().e9a90d72",
-    "unfollow": "r().bf403716",
-    "confirmationHeadline": "r().c9f08e29",
-    "confirmationSheetText": "r().hed4dcd0"
+    "follow": "i().fcf51fe6",
+    "following": "i().e9a90d72",
+    "unfollow": "i().bf403716",
+    "confirmationHeadline": "i().c9f08e29",
+    "confirmationSheetText": "i().hed4dcd0"
   },
   {
-    "follow": "r().cd876e02",
-    "following": "r().f2816e02",
-    "unfollow": "r().f5b04fbc",
-    "confirmationHeadline": "r().c481ae3f",
-    "confirmationSheetText": "r().c94116de"
+    "follow": "i().cd876e02",
+    "following": "i().f2816e02",
+    "unfollow": "i().f5b04fbc",
+    "confirmationHeadline": "i().c481ae3f",
+    "confirmationSheetText": "i().c94116de"
   },
   {
-    "follow": "r().e0e730b0",
-    "following": "r().e0e730b0",
-    "unfollow": "r().b1850062",
-    "confirmationHeadline": "r().gd3f996f",
-    "confirmationSheetText": "r().jdd65aac"
+    "follow": "i().e0e730b0",
+    "following": "i().e0e730b0",
+    "unfollow": "i().b1850062",
+    "confirmationHeadline": "i().gd3f996f",
+    "confirmationSheetText": "i().jdd65aac"
   },
   {
     "Default": "default",
@@ -4353,6 +4337,11 @@
     "SwitchToAppLow9": "switch_to_app_low_9"
   },
   {
+    "iconText": "icon-text",
+    "onlyIcon": "only-icon",
+    "onlyText": "only-text"
+  },
+  {
     "user": "user",
     "topic": "topic",
     "list": "list",
@@ -4400,11 +4389,6 @@
     "Trending": "Trending"
   },
   {
-    "iconText": "icon-text",
-    "onlyIcon": "only-icon",
-    "onlyText": "only-text"
-  },
-  {
     "UNKNOWN": "0",
     "TOP_LEFT": "1",
     "TOP_RIGHT": "2",
@@ -4427,11 +4411,11 @@
     "INVALID_RES_STATUS": -1
   },
   {
-    "0": "S.INTERNAL_ERROR",
-    "1": "S.INVALID_MEDIA",
-    "2": "S.FILE_TOO_LARGE",
-    "3": "S.UNSUPPORTED_MEDIA",
-    "4": "S.TIMEOUT"
+    "0": "w.INTERNAL_ERROR",
+    "1": "w.INVALID_MEDIA",
+    "2": "w.FILE_TOO_LARGE",
+    "3": "w.UNSUPPORTED_MEDIA",
+    "4": "w.TIMEOUT"
   },
   {
     "RESET": "0",
@@ -4790,6 +4774,38 @@
     "NotSet": "notSet"
   },
   {
+    "follow": "follow",
+    "like": "like",
+    "reply": "reply",
+    "retweet": "retweet",
+    "generic": "generic",
+    "dmshare": "dmshare",
+    "postvideo": "postvideo",
+    "subscribe": "subscribe",
+    "topic": "topic",
+    "community": "community",
+    "bookmark": "bookmark",
+    "search": "search"
+  },
+  {
+    "BannerSwitchToApp": "banner_switch_to_app",
+    "InterstitialSwitchToApp": "interstitial_switch_to_app",
+    "NuxAppDownload": "NUX-app-download",
+    "SwitchToAppFooter": "switch-to-app-footer",
+    "UseApp": "use-app",
+    "UseAppExtended": "use-app-extended",
+    "SwitchToAppHigh7": "switch_to_app_high_7",
+    "SwitchToAppHigh1": "switch_to_app_high_1",
+    "SwitchToAppHigh2": "switch_to_app_high_2",
+    "SwitchToAppHigh3": "switch_to_app_high_3",
+    "SwitchToAppHigh5": "switch_to_app_high_5",
+    "SwitchToAppLow7": "switch_to_app_low_7",
+    "SwitchToAppLow1": "switch_to_app_low_1",
+    "SwitchToAppLow3": "switch_to_app_low_3",
+    "SwitchToAppLow5": "switch_to_app_low_5",
+    "SwitchToAppLow9": "switch_to_app_low_9"
+  },
+  {
     "Web": "0",
     "Email": "1",
     "Partner": "2",
@@ -4991,7 +5007,7 @@
     "darker": "dark",
     "business": "business"
   },
-  "{[b.sj.AMPLIFY]:{\"conversionHandler\":\"a.R\",\"shouldRenderCard\":\"a.r\"},[b.sj.APP]:{\"conversionHandler\":\"o.F\",\"shouldRenderCard\":\"o.V\"},[b.sj.AUDIOSPACE]:{\"conversionHandler\":\"s.x\",\"shouldRenderCard\":\"s.W\"},[b.sj.BROADCAST]:{\"conversionHandler\":\"r.K\",\"shouldRenderCard\":\"r.Q\"},[b.sj.DIRECT_STORE_LINK_APP]:{\"conversionHandler\":\"d.T\",\"shouldRenderCard\":\"d.B\"},[b.sj.IMAGE_DIRECT_MESSAGE]:{\"conversionHandler\":\"l.a\",\"shouldRenderCard\":\"l.R\"},[b.sj.LIVE_EVENT]:{\"conversionHandler\":\"c.q\",\"shouldRenderCard\":\"c.C\"},[b.sj.MESSAGE_ME]:{\"conversionHandler\":\"_.I\",\"shouldRenderCard\":\"_.i\"},[b.sj.MOMENT]:{\"conversionHandler\":\"p.l\",\"shouldRenderCard\":\"p.Z\"},[b.sj.NEWSLETTER_ISSUE]:{\"conversionHandler\":\"null\",\"shouldRenderCard\":()=>!1},[b.sj.NEWSLETTER_PUBLICATION]:{\"conversionHandler\":\"null\",\"shouldRenderCard\":()=>!1},[b.sj.NOTE]:{\"conversionHandler\":\"m.R\",\"shouldRenderCard\":\"m.q\"},[b.sj.PERISCOPE_BROADCAST]:{\"conversionHandler\":\"u.w\",\"shouldRenderCard\":\"u.y\"},[b.sj.PLAYER]:{\"conversionHandler\":\"y.L\",\"shouldRenderCard\":\"y.F\"},[b.sj.POLL_2_CHOICE_TEXT]:{\"conversionHandler\":\"E.J\",\"shouldRenderCard\":\"E.l\"},[b.sj.POLL_3_CHOICE_TEXT]:{\"conversionHandler\":\"E.J\",\"shouldRenderCard\":\"E.l\"},[b.sj.POLL_4_CHOICE_TEXT]:{\"conversionHandler\":\"E.J\",\"shouldRenderCard\":\"E.l\"},[b.sj.POLL_2_CHOICE_IMAGE]:{\"conversionHandler\":\"E.J\",\"shouldRenderCard\":\"E.l\"},[b.sj.POLL_3_CHOICE_IMAGE]:{\"conversionHandler\":\"E.J\",\"shouldRenderCard\":\"E.l\"},[b.sj.POLL_4_CHOICE_IMAGE]:{\"conversionHandler\":\"E.J\",\"shouldRenderCard\":\"E.l\"},[b.sj.POLL_2_CHOICE_VIDEO]:{\"conversionHandler\":\"E.J\",\"shouldRenderCard\":\"E.l\"},[b.sj.POLL_3_CHOICE_VIDEO]:{\"conversionHandler\":\"E.J\",\"shouldRenderCard\":\"E.l\"},[b.sj.POLL_4_CHOICE_VIDEO]:{\"conversionHandler\":\"E.J\",\"shouldRenderCard\":\"E.l\"},[b.sj.PROMO_IMAGE_CONVO]:{\"conversionHandler\":\"I.g\",\"shouldRenderCard\":\"I.o\"},[b.sj.PROMO_VIDEO_CONVO]:{\"conversionHandler\":\"C.G\",\"shouldRenderCard\":\"C.T\"},[b.sj.SUMMARY]:{\"conversionHandler\":\"h.n\",\"shouldRenderCard\":\"h.K\"},[b.sj.SUMMARY_LARGE_IMAGE]:{\"conversionHandler\":\"T.N\",\"shouldRenderCard\":\"T.a\"},[b.sj.UNIFIED_CARD]:{\"conversionHandler\":\"g.O4\",\"shouldRenderCard\":\"g.AU\"},[b.sj.VIDEO_DIRECT_MESSAGE]:{\"conversionHandler\":\"()\"{\"cardId\":\"e\",\"cardType\":\"t\",\"converterOptions\":\"n\",\"data\":\"i\",\"users\":\"a\"}{\"const o=()(0,H.FL)\",s=(i,\\\"image_value\\\",\\\"player_image_original\\\")(0,H.SI),r=parseInt(i,\\\"string_value\\\",\\\"player_stream_url\\\")/parseInt(0,H.SIi,\\\"string_value\\\",\\\"player_width\\\",10),d=(0,H.SIi,\\\"string_value\\\",\\\"player_height\\\",10)(0,H.SI),l=e=>[1,2,3,4].map(i,\\\"string_value\\\",\\\"content_duration_seconds\\\"){\"const n=()(0,H.SI)\"{\"t\"}`0,H.SIi,\"string_value\",`cta${\"t\"}_wm_id`{\"type\":\"f.lW.DM\",\"data\":{\"icon\":\"dm\",\"index\":\"t\",\"cta\":\"n\",\"wm_id\":\"a\",\"destination\":\"e\"}}:\"null\"}{\"cardState\":\"b.uW.DEFAULT\",\"layout\":{[b.uW.DEFAULT]:{\"size\":\"large\"},[b.uW.CONDENSED]:{\"size\":\"large\"},[b.uW.STATIC]:{\"size\":\"large\"}},\"card\":{\"card_name\":\"t\",\"on_visibility\":{\"scribe\":\"show\"},\"id\":\"e\",\"components\":{[b.uW.DEFAULT]:[b.Fw.MEDIA,...u?[b.Fw.DETAILS]:[],b.Fw.BUTTON_GROUP],[b.uW.STATIC]:[b.Fw.MEDIA_STATIC,...u?[b.Fw.DETAILS]:[],b.Fw.BUTTON_GROUP_STATIC]},\"destinations\":{[b.Fw.DESTINATION]:{\"type\":\"b._g.ACTION\",\"data\":{\"action_data\":{\"persist\":\"!1\",\"type\":\"dm\",\"recipient\":\"p.id_str\"},\"auth_required\":\"!0\",\"scribe\":\"click\",\"promoted_log\":\"f.YE.DM_BUTTON_CLICK\"}},[b.Fw.DESTINATION_STATIC]:{\"type\":\"b._g.BROWSER\",\"data\":{\"url_data\":{\"url\":n.tweetPermalink||b.$H},\"scribe\":\"open_link\",\"promoted_log\":\"f.YE.CARD_URL_CLICK\"}}},\"media_entities\":{[b.Fw.IMAGE_ENTITY]:\"()(0,H.WW)\"{}{\"type\":\"video\",\"aspect_ratio\":\"r\",\"content_id\":()(0,H.SI)||(i,\\\"string_value\\\",\\\"player_content_id\\\")(0,H.cT),\"...d?\":{\"duration_ms\":1e3*parseInt()}:\"null\",\"vmap_url\":\"s\",\"poster_image\":\"o\",\"publisher_id\":()(0,H.SI)||n.tweetUserId,\"variants\":[{\"src\":\"()(0,H.SI)\",\"type\":\"application/x-mpegURL\"}]}},\"components_data\":{[b.Fw.MEDIA]:{\"type\":\"b.Qe.MEDIA\",\"data\":{\"id\":\"b.Fw.VIDEO_ENTITY\"}},[b.Fw.MEDIA_STATIC]:{\"type\":\"b.Qe.MEDIA\",\"data\":{\"id\":\"b.Fw.IMAGE_ENTITY\",\"destination\":\"b.Fw.DESTINATION_STATIC\"}},\"...u?\":{[b.Fw.DETAILS]:{\"type\":\"b.Qe.DETAILS\",\"data\":{\"attribution\":\"m\"}}}:\"null\",[b.Fw.BUTTON_GROUP]:{\"type\":\"b.Qe.BUTTON_GROUP\",\"data\":{\"buttons\":\"c\"}},[b.Fw.BUTTON_GROUP_STATIC]:{\"type\":\"b.Qe.BUTTON_GROUP\",\"data\":{\"buttons\":\"_\"}}}}}},\"shouldRenderCard\":e=>()(0,H.BY)}}",
+  "{[g.sj.AMPLIFY]:{\"conversionHandler\":\"a.R\",\"shouldRenderCard\":\"a.r\"},[g.sj.APP]:{\"conversionHandler\":\"o.F\",\"shouldRenderCard\":\"o.V\"},[g.sj.AUDIOSPACE]:{\"conversionHandler\":\"s.x\",\"shouldRenderCard\":\"s.W\"},[g.sj.BROADCAST]:{\"conversionHandler\":\"d.K\",\"shouldRenderCard\":\"d.Q\"},[g.sj.DIRECT_STORE_LINK_APP]:{\"conversionHandler\":\"r.T\",\"shouldRenderCard\":\"r.B\"},[g.sj.IMAGE_DIRECT_MESSAGE]:{\"conversionHandler\":\"l.a\",\"shouldRenderCard\":\"l.R\"},[g.sj.LIVE_EVENT]:{\"conversionHandler\":\"_.q\",\"shouldRenderCard\":\"_.C\"},[g.sj.MESSAGE_ME]:{\"conversionHandler\":\"c.I\",\"shouldRenderCard\":\"c.i\"},[g.sj.MOMENT]:{\"conversionHandler\":\"p.l\",\"shouldRenderCard\":\"p.Z\"},[g.sj.NEWSLETTER_ISSUE]:{\"conversionHandler\":\"null\",\"shouldRenderCard\":()=>!1},[g.sj.NEWSLETTER_PUBLICATION]:{\"conversionHandler\":\"null\",\"shouldRenderCard\":()=>!1},[g.sj.NOTE]:{\"conversionHandler\":\"m.R\",\"shouldRenderCard\":\"m.q\"},[g.sj.PERISCOPE_BROADCAST]:{\"conversionHandler\":\"u.w\",\"shouldRenderCard\":\"u.y\"},[g.sj.PLAYER]:{\"conversionHandler\":\"y.L\",\"shouldRenderCard\":\"y.F\"},[g.sj.POLL_2_CHOICE_TEXT]:{\"conversionHandler\":\"E.J\",\"shouldRenderCard\":\"E.l\"},[g.sj.POLL_3_CHOICE_TEXT]:{\"conversionHandler\":\"E.J\",\"shouldRenderCard\":\"E.l\"},[g.sj.POLL_4_CHOICE_TEXT]:{\"conversionHandler\":\"E.J\",\"shouldRenderCard\":\"E.l\"},[g.sj.POLL_2_CHOICE_IMAGE]:{\"conversionHandler\":\"E.J\",\"shouldRenderCard\":\"E.l\"},[g.sj.POLL_3_CHOICE_IMAGE]:{\"conversionHandler\":\"E.J\",\"shouldRenderCard\":\"E.l\"},[g.sj.POLL_4_CHOICE_IMAGE]:{\"conversionHandler\":\"E.J\",\"shouldRenderCard\":\"E.l\"},[g.sj.POLL_2_CHOICE_VIDEO]:{\"conversionHandler\":\"E.J\",\"shouldRenderCard\":\"E.l\"},[g.sj.POLL_3_CHOICE_VIDEO]:{\"conversionHandler\":\"E.J\",\"shouldRenderCard\":\"E.l\"},[g.sj.POLL_4_CHOICE_VIDEO]:{\"conversionHandler\":\"E.J\",\"shouldRenderCard\":\"E.l\"},[g.sj.PROMO_IMAGE_CONVO]:{\"conversionHandler\":\"I.g\",\"shouldRenderCard\":\"I.o\"},[g.sj.PROMO_VIDEO_CONVO]:{\"conversionHandler\":\"C.G\",\"shouldRenderCard\":\"C.T\"},[g.sj.SUMMARY]:{\"conversionHandler\":\"h.n\",\"shouldRenderCard\":\"h.K\"},[g.sj.SUMMARY_LARGE_IMAGE]:{\"conversionHandler\":\"T.N\",\"shouldRenderCard\":\"T.a\"},[g.sj.UNIFIED_CARD]:{\"conversionHandler\":\"b.O4\",\"shouldRenderCard\":\"b.AU\"},[g.sj.VIDEO_DIRECT_MESSAGE]:{\"conversionHandler\":\"()\"{\"cardId\":\"e\",\"cardType\":\"t\",\"converterOptions\":\"n\",\"data\":\"i\",\"users\":\"a\"}{\"const o=()(0,H.FL)\",s=(i,\\\"image_value\\\",\\\"player_image_original\\\")(0,H.SI),d=parseInt(i,\\\"string_value\\\",\\\"player_stream_url\\\")/parseInt(0,H.SIi,\\\"string_value\\\",\\\"player_width\\\",10),r=(0,H.SIi,\\\"string_value\\\",\\\"player_height\\\",10)(0,H.SI),l=e=>[1,2,3,4].map(i,\\\"string_value\\\",\\\"content_duration_seconds\\\"){\"const n=()(0,H.SI)\"{\"t\"}`0,H.SIi,\"string_value\",`cta${\"t\"}_wm_id`{\"type\":\"v.lW.DM\",\"data\":{\"icon\":\"dm\",\"index\":\"t\",\"cta\":\"n\",\"wm_id\":\"a\",\"destination\":\"e\"}}:\"null\"}{\"cardState\":\"g.uW.DEFAULT\",\"layout\":{[g.uW.DEFAULT]:{\"size\":\"large\"},[g.uW.CONDENSED]:{\"size\":\"large\"},[g.uW.STATIC]:{\"size\":\"large\"}},\"card\":{\"card_name\":\"t\",\"on_visibility\":{\"scribe\":\"show\"},\"id\":\"e\",\"components\":{[g.uW.DEFAULT]:[g.Fw.MEDIA,...u?[g.Fw.DETAILS]:[],g.Fw.BUTTON_GROUP],[g.uW.STATIC]:[g.Fw.MEDIA_STATIC,...u?[g.Fw.DETAILS]:[],g.Fw.BUTTON_GROUP_STATIC]},\"destinations\":{[g.Fw.DESTINATION]:{\"type\":\"g._g.ACTION\",\"data\":{\"action_data\":{\"persist\":\"!1\",\"type\":\"dm\",\"recipient\":\"p.id_str\"},\"auth_required\":\"!0\",\"scribe\":\"click\",\"promoted_log\":\"v.YE.DM_BUTTON_CLICK\"}},[g.Fw.DESTINATION_STATIC]:{\"type\":\"g._g.BROWSER\",\"data\":{\"url_data\":{\"url\":n.tweetPermalink||g.$H},\"scribe\":\"open_link\",\"promoted_log\":\"v.YE.CARD_URL_CLICK\"}}},\"media_entities\":{[g.Fw.IMAGE_ENTITY]:\"()(0,H.WW)\"{}{\"type\":\"video\",\"aspect_ratio\":\"d\",\"content_id\":()(0,H.SI)||(i,\\\"string_value\\\",\\\"player_content_id\\\")(0,H.cT),\"...r?\":{\"duration_ms\":1e3*parseInt()}:\"null\",\"vmap_url\":\"s\",\"poster_image\":\"o\",\"publisher_id\":()(0,H.SI)||n.tweetUserId,\"variants\":[{\"src\":\"()(0,H.SI)\",\"type\":\"application/x-mpegURL\"}]}},\"components_data\":{[g.Fw.MEDIA]:{\"type\":\"g.Qe.MEDIA\",\"data\":{\"id\":\"g.Fw.VIDEO_ENTITY\"}},[g.Fw.MEDIA_STATIC]:{\"type\":\"g.Qe.MEDIA\",\"data\":{\"id\":\"g.Fw.IMAGE_ENTITY\",\"destination\":\"g.Fw.DESTINATION_STATIC\"}},\"...u?\":{[g.Fw.DETAILS]:{\"type\":\"g.Qe.DETAILS\",\"data\":{\"attribution\":\"m\"}}}:\"null\",[g.Fw.BUTTON_GROUP]:{\"type\":\"g.Qe.BUTTON_GROUP\",\"data\":{\"buttons\":\"_\"}},[g.Fw.BUTTON_GROUP_STATIC]:{\"type\":\"g.Qe.BUTTON_GROUP\",\"data\":{\"buttons\":\"c\"}}}}}},\"shouldRenderCard\":e=>()(0,H.BY)}}",
   {
     "navButtons": "navigationButtons",
     "carouselRoot": "carouselRoot"
@@ -5087,24 +5103,8 @@
     "TWITTER_ARTICLE": "twitter_article"
   },
   {
-    "user": "user",
-    "topic": "topic",
-    "list": "list",
-    "community": "community",
-    "spaces": "spaces"
-  },
-  {
-    "follow": "follow",
-    "subscribe": "subscribe"
-  },
-  {
     "single_line": "singleline",
     "format_inline": "format-inline"
-  },
-  {
-    "iconText": "icon-text",
-    "onlyIcon": "only-icon",
-    "onlyText": "only-text"
   },
   {
     "INFINITE": "infinite",
@@ -5656,22 +5656,6 @@
     "Default": "Default",
     "Pivot": "Pivot",
     "Reorder": "Reorder"
-  },
-  {
-    "user": "user",
-    "topic": "topic",
-    "list": "list",
-    "community": "community",
-    "spaces": "spaces"
-  },
-  {
-    "follow": "follow",
-    "subscribe": "subscribe"
-  },
-  {
-    "iconText": "icon-text",
-    "onlyIcon": "only-icon",
-    "onlyText": "only-text"
   },
   {
     "joinAvailable": "CommunityJoinAction",
@@ -7170,32 +7154,16 @@
     "UnavailableMissingBlueSubscription": "UnavailableMissingBlueSubscription"
   },
   {
-    "user": "user",
-    "topic": "topic",
-    "list": "list",
-    "community": "community",
-    "spaces": "spaces"
-  },
-  {
-    "follow": "follow",
-    "subscribe": "subscribe"
-  },
-  {
-    "iconText": "icon-text",
-    "onlyIcon": "only-icon",
-    "onlyText": "only-text"
-  },
-  {
     "GROUP": "GroupDm",
     "ONE_TO_ONE": "OneToOneDm",
     "UNKNOWN": "Unknown"
   },
   {
-    "MessageCreate": "i.Cr.MESSAGE",
-    "ParticipantsJoin": "i.Cr.PARTICIPANTS_JOIN",
-    "ParticipantsLeave": "i.Cr.PARTICIPANTS_LEAVE",
-    "ConversationNameUpdate": "i.Cr.CONVERSATION_NAME_UPDATE",
-    "JoinConversation": "i.Cr.JOIN_CONVERSATION"
+    "MessageCreate": "s.Cr.MESSAGE",
+    "ParticipantsJoin": "s.Cr.PARTICIPANTS_JOIN",
+    "ParticipantsLeave": "s.Cr.PARTICIPANTS_LEAVE",
+    "ConversationNameUpdate": "s.Cr.CONVERSATION_NAME_UPDATE",
+    "JoinConversation": "s.Cr.JOIN_CONVERSATION"
   },
   {
     "REQUEST": "rweb/directMessages/SEARCH_REQUEST",
@@ -7523,10 +7491,6 @@
     "MISC": "miscellaneous"
   },
   {
-    "single_line": "singleline",
-    "format_inline": "format-inline"
-  },
-  {
     "MEDIA": "MEDIA",
     "TWEET": "TWEET",
     "MARKDOWN": "MARKDOWN",
@@ -7552,8 +7516,16 @@
     "PUBLISHED": "Published"
   },
   {
-    "DRAFT": "o.DRAFT",
-    "PUBLISHED": "o.PUBLISHED"
+    "DRAFT": "s.DRAFT",
+    "PUBLISHED": "s.PUBLISHED"
+  },
+  {
+    "single_line": "singleline",
+    "format_inline": "format-inline"
+  },
+  {
+    "single_line": "singleline",
+    "format_inline": "format-inline"
   },
   {
     "MEDIA": "MEDIA",
@@ -7587,22 +7559,6 @@
   "{\"root\":`${\"a\"}/application`,\"eligibility\":`${\"a\"}/application/eligibility`,\"pricing\":`${\"a\"}/application/pricing`,\"completeProfile\":`${\"a\"}/application/complete_profile`,\"submit\":`${\"a\"}/application/submit`,\"submitted\":`${\"a\"}/application/submitted`,\"waitlisted\":`${\"a\"}/application/waitlisted`,\"rejected\":`${\"a\"}/application/rejected`}",
   "{\"root\":`${\"a\"}/onboarding`,\"perksIntro\":`${\"a\"}/onboarding/perks_intro`,\"perksDescription\":`${\"a\"}/onboarding/perks_description`,\"perksBadges\":`${\"a\"}/onboarding/perks_badges`,\"perksConfirm\":`${\"a\"}/onboarding/perks_confirm`,\"pricing\":`${\"a\"}/onboarding/pricing`,\"pricingConfirm\":`${\"a\"}/onboarding/pricing_confirm`,\"stripeSetup\":`${\"a\"}/onboarding/stripe_setup`,\"stripePending\":`${\"a\"}/onboarding/stripe_pending`,\"stripeCompleted\":`${\"a\"}/onboarding/stripe_completed`}",
   "{\"root\":`${\"a\"}/management`,\"perksIntro\":`${\"a\"}/management/perks_intro`,\"perksDescription\":`${\"a\"}/management/perks_description`,\"perksConfirm\":`${\"a\"}/management/perks_confirm`,\"perksPricing\":`${\"a\"}/management/perks_pricing`}",
-  {
-    "user": "user",
-    "topic": "topic",
-    "list": "list",
-    "community": "community",
-    "spaces": "spaces"
-  },
-  {
-    "follow": "follow",
-    "subscribe": "subscribe"
-  },
-  {
-    "iconText": "icon-text",
-    "onlyIcon": "only-icon",
-    "onlyText": "only-text"
-  },
   {
     "AppStore": "AppStore",
     "PlayStore": "PlayStore",
@@ -8192,22 +8148,6 @@
     }
   },
   {
-    "user": "user",
-    "topic": "topic",
-    "list": "list",
-    "community": "community",
-    "spaces": "spaces"
-  },
-  {
-    "follow": "follow",
-    "subscribe": "subscribe"
-  },
-  {
-    "iconText": "icon-text",
-    "onlyIcon": "only-icon",
-    "onlyText": "only-text"
-  },
-  {
     "CONVERSATION": "conversation",
     "TIMELINE": "timeline"
   },
@@ -8339,10 +8279,6 @@
   "{\"root\":`${\"r\"}/application`,\"eligibility\":`${\"r\"}/application/eligibility`,\"pricing\":`${\"r\"}/application/pricing`,\"completeProfile\":`${\"r\"}/application/complete_profile`,\"submit\":`${\"r\"}/application/submit`,\"submitted\":`${\"r\"}/application/submitted`,\"waitlisted\":`${\"r\"}/application/waitlisted`,\"rejected\":`${\"r\"}/application/rejected`}",
   "{\"root\":`${\"r\"}/onboarding`,\"perksIntro\":`${\"r\"}/onboarding/perks_intro`,\"perksDescription\":`${\"r\"}/onboarding/perks_description`,\"perksBadges\":`${\"r\"}/onboarding/perks_badges`,\"perksConfirm\":`${\"r\"}/onboarding/perks_confirm`,\"pricing\":`${\"r\"}/onboarding/pricing`,\"pricingConfirm\":`${\"r\"}/onboarding/pricing_confirm`,\"stripeSetup\":`${\"r\"}/onboarding/stripe_setup`,\"stripePending\":`${\"r\"}/onboarding/stripe_pending`,\"stripeCompleted\":`${\"r\"}/onboarding/stripe_completed`}",
   "{\"root\":`${\"r\"}/management`,\"perksIntro\":`${\"r\"}/management/perks_intro`,\"perksDescription\":`${\"r\"}/management/perks_description`,\"perksConfirm\":`${\"r\"}/management/perks_confirm`,\"perksPricing\":`${\"r\"}/management/perks_pricing`}",
-  {
-    "Delayed": "Delayed",
-    "RealTime": "RealTime"
-  },
   {
     "Cashback": "Cashback",
     "Unspecified": "Unspecified",
@@ -8546,6 +8482,10 @@
     "Withdraw": "Withdraw"
   },
   {
+    "Delayed": "Delayed",
+    "RealTime": "RealTime"
+  },
+  {
     "Cancelled": "Cancelled",
     "InReview": "InReview",
     "RejectedByAutoReview": "RejectedByAutoReview",
@@ -8572,7 +8512,7 @@
     "UnrecognizedPaymentDecisionReject": "UnrecognizedPaymentDecisionReject",
     "UnrecognizedPaymentDecisionUnspecified": "UnrecognizedPaymentDecisionUnspecified"
   },
-  "{[f.W.IssuedCardTypePhysical]:{\"successTitle\":\"Your replacement card is on the way.\",\"successDescription\":\"We paused your current card in the meantime for security purposes. Existing online transactions will continue to work.\",\"reasons\":[{\"key\":\"C.k.IssuedCardReplacementReasonDamaged\",\"label\":\"My card was damaged\"},{\"key\":\"C.k.IssuedCardReplacementReasonLost\",\"label\":\"My card was lost\"},{\"key\":\"C.k.IssuedCardReplacementReasonStolen\",\"label\":\"My card was stolen\"}],\"replaceTitle\":\"Tell us a bit more. What happened?\",\"replaceDescription\":\"Depending on what happened, we’ll send you a replacement card, or create a brand new one.\",\"requireAddressConfirmation\":\"!0\"},[f.W.IssuedCardTypeVirtual]:{\"successTitle\":\"We’ve replaced your Virtual Card\",\"successDescription\":\"It’s now ready to use. Your existing subscriptions and recurring payments will continue to work.\",\"defaultReason\":\"C.k.IssuedCardReplacementReasonStolen\",\"replaceTitle\":\"Replace your card\",\"replaceDescription\":\"We’ll deactivate your current card, and create a new virtual card for you to use for online purchases.\",\"requireAddressConfirmation\":\"!1\"}}",
+  "{[C.W.IssuedCardTypePhysical]:{\"successTitle\":\"Your replacement card is on the way.\",\"successDescription\":\"We paused your current card in the meantime for security purposes. Existing online transactions will continue to work.\",\"reasons\":[{\"key\":\"f.k.IssuedCardReplacementReasonDamaged\",\"label\":\"My card was damaged\"},{\"key\":\"f.k.IssuedCardReplacementReasonLost\",\"label\":\"My card was lost\"},{\"key\":\"f.k.IssuedCardReplacementReasonStolen\",\"label\":\"My card was stolen\"}],\"replaceTitle\":\"Tell us a bit more. What happened?\",\"replaceDescription\":\"Depending on what happened, we’ll send you a replacement card, or create a brand new one.\",\"requireAddressConfirmation\":\"!0\"},[C.W.IssuedCardTypeVirtual]:{\"successTitle\":\"We’ve replaced your Virtual Card\",\"successDescription\":\"It’s now ready to use. Your existing subscriptions and recurring payments will continue to work.\",\"defaultReason\":\"f.k.IssuedCardReplacementReasonStolen\",\"replaceTitle\":\"Replace your card\",\"replaceDescription\":\"We’ll deactivate your current card, and create a new virtual card for you to use for online purchases.\",\"requireAddressConfirmation\":\"!1\"}}",
   {
     "successPane": "successPane"
   },
@@ -8583,7 +8523,7 @@
     "invite": "invite",
     "autoclaim": "autoclaim"
   },
-  "{[b.default]:{\"redirectPath\":()=>s.gp,\"buttonText\":\"E\",\"disclaimer\":\"Z\"},[b.autoclaim]:{\"redirectPath\":()=>s.gp,\"buttonText\":\"E\",\"disclaimer\":\"Z\"},[b.invite]:{\"redirectPath\":\"()\"{\"inviteTransactionId\":\"e\"}{\"s.bR\"}/${\"e\"}`:\"s.gp\",\"buttonText\":\"E\",\"disclaimer\":\"Z\"}}",
+  "{[h.default]:{\"redirectPath\":()=>s.gp,\"buttonText\":\"E\",\"disclaimer\":\"v\"},[h.autoclaim]:{\"redirectPath\":()=>s.gp,\"buttonText\":\"E\",\"disclaimer\":\"v\"},[h.invite]:{\"redirectPath\":\"()\"{\"inviteTransactionId\":\"e\"}{\"s.bR\"}/${\"e\"}`:\"s.gp\",\"buttonText\":\"E\",\"disclaimer\":\"v\"}}",
   "{[s.Rz.debit]:{\"label\":\"Send\",\"title\":\"Send\",\"successMessage\":\"()\"{\"formattedAmount\":\"e\"}{\"e\"} has been initiated!`},[s.Rz.credit]:{\"label\":\"Request\",\"title\":\"Request\",\"successMessage\":\"()\"{\"formattedAmount\":\"e\"}{\"e\"} has been sent!`,\"scanMessage\":\"Let others scan your QR Code to pay you.\"}}",
   "{[s.Rz.debit]:\"x.d.CreateTransfer\",[s.Rz.credit]:\"x.d.RequestTransfer\"}",
   {
@@ -8679,9 +8619,13 @@
   "{[w.W.IssuedCardTypePhysical]:\"Physical Card\",[w.W.IssuedCardTypeVirtual]:\"Virtual Card\"}",
   "{[m.l.Charge]:\"Charge\",[m.l.Combo]:\"Combo\",[m.l.Debit]:\"Debit\",[m.l.Credit]:\"Credit\",[m.l.DeferredDebit]:\"DeferredDebit\",[m.l.Prepaid]:\"Prepaid\"}",
   "{[f.U.AmericanExpress]:\"American Express\",[f.U.Mastercard]:\"Mastercard\",[f.U.Visa]:\"Visa\"}",
-  "{[R.D.LoginRequired]:\"Login required\",[R.D.Invalid]:\"Invalid\",[R.D.Pending]:\"Pending\",[R.D.Revoked]:\"Revoked\",[R.D.Canceled]:\"Canceled\",[R.D.Inactive]:\"Inactive\"}",
-  "{[C.y.Online]:\"Online\",[C.y.Chip]:\"Chip\",[C.y.Contactless]:\"Contactless\",[C.y.KeyedIn]:\"Keyed In\",[C.y.Swipe]:\"Swipe\"}",
+  "{[b.D.LoginRequired]:\"Login required\",[b.D.Invalid]:\"Invalid\",[b.D.Pending]:\"Pending\",[b.D.Revoked]:\"Revoked\",[b.D.Canceled]:\"Canceled\",[b.D.Inactive]:\"Inactive\"}",
+  "{[x.y.Online]:\"Online\",[x.y.Chip]:\"Chip\",[x.y.Contactless]:\"Contactless\",[x.y.KeyedIn]:\"Keyed In\",[x.y.Swipe]:\"Swipe\"}",
   "{[f.U.AmericanExpress]:\"https://abs.twimg.com/responsive-web/client-web/payment-method-amex.b2cd046a.svg\",[f.U.Mastercard]:\"https://abs.twimg.com/responsive-web/client-web/payment-method-mastercard.f126316a.svg\",[f.U.Visa]:\"https://abs.twimg.com/responsive-web/client-web/payment-method-visa.c768170a.svg\"}",
+  {
+    "Delayed": "Delayed",
+    "RealTime": "RealTime"
+  },
   {
     "REQUEST": "rweb/subscriptionPayments/FETCH_SUBSCRIPTION_PRODUCT_DETAILS_REQUEST",
     "SUCCESS": "rweb/subscriptionPayments/FETCH_SUBSCRIPTION_PRODUCT_DETAILS_SUCCESS",
@@ -9271,6 +9215,38 @@
     "Location": "Location"
   },
   {
+    "follow": "follow",
+    "like": "like",
+    "reply": "reply",
+    "retweet": "retweet",
+    "generic": "generic",
+    "dmshare": "dmshare",
+    "postvideo": "postvideo",
+    "subscribe": "subscribe",
+    "topic": "topic",
+    "community": "community",
+    "bookmark": "bookmark",
+    "search": "search"
+  },
+  {
+    "BannerSwitchToApp": "banner_switch_to_app",
+    "InterstitialSwitchToApp": "interstitial_switch_to_app",
+    "NuxAppDownload": "NUX-app-download",
+    "SwitchToAppFooter": "switch-to-app-footer",
+    "UseApp": "use-app",
+    "UseAppExtended": "use-app-extended",
+    "SwitchToAppHigh7": "switch_to_app_high_7",
+    "SwitchToAppHigh1": "switch_to_app_high_1",
+    "SwitchToAppHigh2": "switch_to_app_high_2",
+    "SwitchToAppHigh3": "switch_to_app_high_3",
+    "SwitchToAppHigh5": "switch_to_app_high_5",
+    "SwitchToAppLow7": "switch_to_app_low_7",
+    "SwitchToAppLow1": "switch_to_app_low_1",
+    "SwitchToAppLow3": "switch_to_app_low_3",
+    "SwitchToAppLow5": "switch_to_app_low_5",
+    "SwitchToAppLow9": "switch_to_app_low_9"
+  },
+  {
     "REQUEST": "rweb/savedSearches/FETCH_SAVED_SEARCHES_REQUEST",
     "SUCCESS": "rweb/savedSearches/FETCH_SAVED_SEARCHES_SUCCESS",
     "FAILURE": "rweb/savedSearches/FETCH_SAVED_SEARCHES_FAILURE"
@@ -9374,20 +9350,91 @@
     "paused": "paused"
   },
   {
-    "user": "user",
-    "topic": "topic",
-    "list": "list",
-    "community": "community",
-    "spaces": "spaces"
+    "TWEET_CARET": "tweet_caret",
+    "PROFILE": "user_profile",
+    "LIST_DETAIL": "list_detail",
+    "RICH_FEEDBACK": "rich_feedback",
+    "TWEET": "tweet",
+    "FOLLOWERS_LIST": "followers_list"
   },
   {
-    "follow": "follow",
-    "subscribe": "subscribe"
+    "toggleCommandCenter": "mod+k",
+    "openKeyboardShortcuts": "?",
+    "swipeLeft": "left",
+    "swipeRight": "right",
+    "nextItem": "j",
+    "previousItem": "k",
+    "refresh": ".",
+    "nightMode": "z",
+    "bookmark": "b",
+    "block": "x",
+    "mute": "u",
+    "newTweet": "n",
+    "newMessage": "m",
+    "toggleDMDrawer": "i",
+    "goHome": "g h",
+    "goExplore": "g e",
+    "goNotifications": "g n",
+    "goMentions": "g r",
+    "goProfile": "g p",
+    "goLikes": "g l",
+    "goLists": "g i",
+    "goMessages": "g m",
+    "goGrok": "g g",
+    "goToDrafts": "g f",
+    "goToScheduled": "g t",
+    "goSettings": "g s",
+    "goToUser": "g u",
+    "goBookmarks": "g b",
+    "goTopArticles": "g a",
+    "goDisplay": "g d",
+    "search": "/",
+    "audio": {
+      "dock": "a d",
+      "play": "a space",
+      "mute": "a m"
+    },
+    "video": {
+      "play1": "k",
+      "play2": "space",
+      "mute": "m"
+    },
+    "columns": {
+      "createNewColumn": "c n",
+      "duplicateColumn": "c d",
+      "focusOnReorderButton": "c r",
+      "lastColumn": "c 0",
+      "nextColumn": "]",
+      "nthColumn": "c 1..9",
+      "prevColumn": "[",
+      "removeColumn": "c backspace",
+      "toggleColumnOptions": "c o",
+      "undoRemoveColumn": "c u"
+    },
+    "decks": {
+      "createNewDeck": "d n",
+      "editActiveDeck": "d e",
+      "lastPinnedDeck": "d 0",
+      "manageAllDecks": "d m",
+      "nthPinnedDeck": "d 1..9"
+    },
+    "labs": {
+      "openCommandCenter": ">"
+    }
   },
   {
-    "iconText": "icon-text",
-    "onlyIcon": "only-icon",
-    "onlyText": "only-text"
+    "User": "User",
+    "ProfileCard": "ProfileCard",
+    "UserCompact": "UserCompact",
+    "UserConcise": "UserConcise",
+    "UserDetailed": "UserDetailed",
+    "PendingFollowUser": "PendingFollowUser",
+    "SubscribableUser": "SubscribableUser"
+  },
+  {
+    "REQUEST": "rweb/promotedContent/LOG_REQUEST",
+    "SUCCESS": "rweb/promotedContent/LOG_SUCCESS",
+    "FAILURE": "rweb/promotedContent/LOG_FAILURE"
   },
   {
     "TWEET_CARET": "tweet_caret",
@@ -9477,107 +9524,36 @@
     "FAILURE": "rweb/promotedContent/LOG_FAILURE"
   },
   {
-    "user": "user",
-    "topic": "topic",
-    "list": "list",
-    "community": "community",
-    "spaces": "spaces"
-  },
-  {
     "follow": "follow",
-    "subscribe": "subscribe"
+    "like": "like",
+    "reply": "reply",
+    "retweet": "retweet",
+    "generic": "generic",
+    "dmshare": "dmshare",
+    "postvideo": "postvideo",
+    "subscribe": "subscribe",
+    "topic": "topic",
+    "community": "community",
+    "bookmark": "bookmark",
+    "search": "search"
   },
   {
-    "iconText": "icon-text",
-    "onlyIcon": "only-icon",
-    "onlyText": "only-text"
-  },
-  {
-    "TWEET_CARET": "tweet_caret",
-    "PROFILE": "user_profile",
-    "LIST_DETAIL": "list_detail",
-    "RICH_FEEDBACK": "rich_feedback",
-    "TWEET": "tweet",
-    "FOLLOWERS_LIST": "followers_list"
-  },
-  {
-    "toggleCommandCenter": "mod+k",
-    "openKeyboardShortcuts": "?",
-    "swipeLeft": "left",
-    "swipeRight": "right",
-    "nextItem": "j",
-    "previousItem": "k",
-    "refresh": ".",
-    "nightMode": "z",
-    "bookmark": "b",
-    "block": "x",
-    "mute": "u",
-    "newTweet": "n",
-    "newMessage": "m",
-    "toggleDMDrawer": "i",
-    "goHome": "g h",
-    "goExplore": "g e",
-    "goNotifications": "g n",
-    "goMentions": "g r",
-    "goProfile": "g p",
-    "goLikes": "g l",
-    "goLists": "g i",
-    "goMessages": "g m",
-    "goGrok": "g g",
-    "goToDrafts": "g f",
-    "goToScheduled": "g t",
-    "goSettings": "g s",
-    "goToUser": "g u",
-    "goBookmarks": "g b",
-    "goTopArticles": "g a",
-    "goDisplay": "g d",
-    "search": "/",
-    "audio": {
-      "dock": "a d",
-      "play": "a space",
-      "mute": "a m"
-    },
-    "video": {
-      "play1": "k",
-      "play2": "space",
-      "mute": "m"
-    },
-    "columns": {
-      "createNewColumn": "c n",
-      "duplicateColumn": "c d",
-      "focusOnReorderButton": "c r",
-      "lastColumn": "c 0",
-      "nextColumn": "]",
-      "nthColumn": "c 1..9",
-      "prevColumn": "[",
-      "removeColumn": "c backspace",
-      "toggleColumnOptions": "c o",
-      "undoRemoveColumn": "c u"
-    },
-    "decks": {
-      "createNewDeck": "d n",
-      "editActiveDeck": "d e",
-      "lastPinnedDeck": "d 0",
-      "manageAllDecks": "d m",
-      "nthPinnedDeck": "d 1..9"
-    },
-    "labs": {
-      "openCommandCenter": ">"
-    }
-  },
-  {
-    "User": "User",
-    "ProfileCard": "ProfileCard",
-    "UserCompact": "UserCompact",
-    "UserConcise": "UserConcise",
-    "UserDetailed": "UserDetailed",
-    "PendingFollowUser": "PendingFollowUser",
-    "SubscribableUser": "SubscribableUser"
-  },
-  {
-    "REQUEST": "rweb/promotedContent/LOG_REQUEST",
-    "SUCCESS": "rweb/promotedContent/LOG_SUCCESS",
-    "FAILURE": "rweb/promotedContent/LOG_FAILURE"
+    "BannerSwitchToApp": "banner_switch_to_app",
+    "InterstitialSwitchToApp": "interstitial_switch_to_app",
+    "NuxAppDownload": "NUX-app-download",
+    "SwitchToAppFooter": "switch-to-app-footer",
+    "UseApp": "use-app",
+    "UseAppExtended": "use-app-extended",
+    "SwitchToAppHigh7": "switch_to_app_high_7",
+    "SwitchToAppHigh1": "switch_to_app_high_1",
+    "SwitchToAppHigh2": "switch_to_app_high_2",
+    "SwitchToAppHigh3": "switch_to_app_high_3",
+    "SwitchToAppHigh5": "switch_to_app_high_5",
+    "SwitchToAppLow7": "switch_to_app_low_7",
+    "SwitchToAppLow1": "switch_to_app_low_1",
+    "SwitchToAppLow3": "switch_to_app_low_3",
+    "SwitchToAppLow5": "switch_to_app_low_5",
+    "SwitchToAppLow9": "switch_to_app_low_9"
   },
   {
     "relevance": "relevance",
@@ -9727,8 +9703,8 @@
     "marketing": "h",
     "sales_am": "p",
     "operations": "b",
-    "people_hr": "g",
-    "finance_accounting": "f",
+    "people_hr": "f",
+    "finance_accounting": "g",
     "legal_compliance": "y",
     "science_engineering": "k",
     "medical": "_",
@@ -9742,8 +9718,8 @@
     "mid_level": "I",
     "senior": "E",
     "lead": "Z",
-    "manager": "x",
-    "executive": "P"
+    "manager": "P",
+    "executive": "x"
   },
   {
     "onsite": {
@@ -9767,22 +9743,6 @@
     "OffensiveProfileContent": "offensive_profile_content",
     "SensitiveMedia": "sensitive_media",
     "Timeout": "timeout"
-  },
-  {
-    "user": "user",
-    "topic": "topic",
-    "list": "list",
-    "community": "community",
-    "spaces": "spaces"
-  },
-  {
-    "follow": "follow",
-    "subscribe": "subscribe"
-  },
-  {
-    "iconText": "icon-text",
-    "onlyIcon": "only-icon",
-    "onlyText": "only-text"
   },
   {
     "NotStarted": "not_started",
@@ -9897,22 +9857,6 @@
     "Unknown": "Unknown"
   },
   {
-    "user": "user",
-    "topic": "topic",
-    "list": "list",
-    "community": "community",
-    "spaces": "spaces"
-  },
-  {
-    "follow": "follow",
-    "subscribe": "subscribe"
-  },
-  {
-    "iconText": "icon-text",
-    "onlyIcon": "only-icon",
-    "onlyText": "only-text"
-  },
-  {
     "TWEET_CARET": "tweet_caret",
     "PROFILE": "user_profile",
     "LIST_DETAIL": "list_detail",
@@ -9998,22 +9942,6 @@
     "REQUEST": "rweb/promotedContent/LOG_REQUEST",
     "SUCCESS": "rweb/promotedContent/LOG_SUCCESS",
     "FAILURE": "rweb/promotedContent/LOG_FAILURE"
-  },
-  {
-    "user": "user",
-    "topic": "topic",
-    "list": "list",
-    "community": "community",
-    "spaces": "spaces"
-  },
-  {
-    "follow": "follow",
-    "subscribe": "subscribe"
-  },
-  {
-    "iconText": "icon-text",
-    "onlyIcon": "only-icon",
-    "onlyText": "only-text"
   },
   {
     "FakeAccount": "fake_account",
@@ -10314,40 +10242,8 @@
     "FAILURE": "rweb/promotedContent/LOG_FAILURE"
   },
   {
-    "user": "user",
-    "topic": "topic",
-    "list": "list",
-    "community": "community",
-    "spaces": "spaces"
-  },
-  {
-    "follow": "follow",
-    "subscribe": "subscribe"
-  },
-  {
     "single_line": "singleline",
     "format_inline": "format-inline"
-  },
-  {
-    "iconText": "icon-text",
-    "onlyIcon": "only-icon",
-    "onlyText": "only-text"
-  },
-  {
-    "user": "user",
-    "topic": "topic",
-    "list": "list",
-    "community": "community",
-    "spaces": "spaces"
-  },
-  {
-    "follow": "follow",
-    "subscribe": "subscribe"
-  },
-  {
-    "iconText": "icon-text",
-    "onlyIcon": "only-icon",
-    "onlyText": "only-text"
   },
   {
     "NEW": "NEW",
@@ -10611,22 +10507,6 @@
     "format_inline": "format-inline"
   },
   {
-    "user": "user",
-    "topic": "topic",
-    "list": "list",
-    "community": "community",
-    "spaces": "spaces"
-  },
-  {
-    "follow": "follow",
-    "subscribe": "subscribe"
-  },
-  {
-    "iconText": "icon-text",
-    "onlyIcon": "only-icon",
-    "onlyText": "only-text"
-  },
-  {
     "CompactPrompt": "compactPrompt",
     "HeaderImagePrompt": "headerImagePrompt",
     "InlinePrompt": "inlinePrompt",
@@ -10720,24 +10600,8 @@
     "FAILURE": "rweb/promotedContent/LOG_FAILURE"
   },
   {
-    "user": "user",
-    "topic": "topic",
-    "list": "list",
-    "community": "community",
-    "spaces": "spaces"
-  },
-  {
-    "follow": "follow",
-    "subscribe": "subscribe"
-  },
-  {
     "single_line": "singleline",
     "format_inline": "format-inline"
-  },
-  {
-    "iconText": "icon-text",
-    "onlyIcon": "only-icon",
-    "onlyText": "only-text"
   },
   {
     "Classic": "Classic",
@@ -10784,22 +10648,6 @@
     "REQUEST": "rweb/promotedContent/LOG_REQUEST",
     "SUCCESS": "rweb/promotedContent/LOG_SUCCESS",
     "FAILURE": "rweb/promotedContent/LOG_FAILURE"
-  },
-  {
-    "user": "user",
-    "topic": "topic",
-    "list": "list",
-    "community": "community",
-    "spaces": "spaces"
-  },
-  {
-    "follow": "follow",
-    "subscribe": "subscribe"
-  },
-  {
-    "iconText": "icon-text",
-    "onlyIcon": "only-icon",
-    "onlyText": "only-text"
   },
   {
     "host": "host",

@@ -2830,7 +2830,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## Viewer<br>
-Request URL: `https://x.com/i/api/graphql/8VRb4zlDOjWT941tk5__eQ/Viewer`<br>
+Request URL: `https://x.com/i/api/graphql/8BE68tscBnbMD7DyGOZxRg/Viewer`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -2942,9 +2942,11 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key             | type   | variable   |
-|:----------------|:-------|:-----------|
-| articleEntityId | ...    | i          |
+| key         | type   | variable   |
+|:------------|:-------|:-----------|
+| group_id    | ...    | o          |
+| object_id   | ...    | n          |
+| action_type | ...    | t          |
 
 #### features<br>
 | key                                                                     | type    | variable   |
@@ -5118,10 +5120,7 @@ Request Method: `POST`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key     | type   | variable   |
-|:--------|:-------|:-----------|
-| note_id | ...    | t          |
-
+`None`<br>
 #### features<br>
 | key                                                               | type    | variable   |
 |:------------------------------------------------------------------|:--------|:-----------|
@@ -5557,7 +5556,11 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-`None`<br>
+| key               | type   | variable   |
+|:------------------|:-------|:-----------|
+| grokMode          | ...    | t          |
+| grokModelOptionId | ...    | a          |
+
 #### features<br>
 | key                                              | type    | variable   |
 |:-------------------------------------------------|:--------|:-----------|
@@ -7565,7 +7568,11 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-`None`<br>
+| key               | type   | variable   |
+|:------------------|:-------|:-----------|
+| grokMode          | ...    | t          |
+| grokModelOptionId | ...    | a          |
+
 #### features<br>
 | key                                              | type    | variable   |
 |:-------------------------------------------------|:--------|:-----------|
@@ -7889,7 +7896,11 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-`None`<br>
+| key               | type   | variable   |
+|:------------------|:-------|:-----------|
+| grokMode          | ...    | t          |
+| grokModelOptionId | ...    | a          |
+
 #### features<br>
 | key                                              | type    | variable   |
 |:-------------------------------------------------|:--------|:-----------|
@@ -7951,7 +7962,11 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-`None`<br>
+| key               | type   | variable   |
+|:------------------|:-------|:-----------|
+| grokMode          | ...    | t          |
+| grokModelOptionId | ...    | a          |
+
 #### features<br>
 | key                                              | type    | variable   |
 |:-------------------------------------------------|:--------|:-----------|
