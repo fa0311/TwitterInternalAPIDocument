@@ -1207,9 +1207,6 @@
       "payments_card_spend_enabled": {
         "value": "false"
       },
-      "payments_cards_as_payment_method_enabled": {
-        "value": "false"
-      },
       "payments_crb_iframe_delay_msecs": {
         "value": "1000"
       },
@@ -2567,6 +2564,9 @@
         "value": "false"
       },
       "rweb_home_compact_timeline_enabled": {
+        "value": "false"
+      },
+      "rweb_home_jot_migrate_enabled": {
         "value": "false"
       },
       "rweb_home_mixer_enable_social_context_filter_social_contexts": {
@@ -4847,9 +4847,6 @@
         "payments_card_spend_enabled": {
           "value": "false"
         },
-        "payments_cards_as_payment_method_enabled": {
-          "value": "false"
-        },
         "payments_crb_iframe_delay_msecs": {
           "value": "1000"
         },
@@ -6209,6 +6206,9 @@
         "rweb_home_compact_timeline_enabled": {
           "value": "false"
         },
+        "rweb_home_jot_migrate_enabled": {
+          "value": "false"
+        },
         "rweb_home_mixer_enable_social_context_filter_social_contexts": {
           "value": "true"
         },
@@ -7352,7 +7352,7 @@
           "value": "true"
         },
         "x_jetfuel_enable_test_cluster": {
-          "value": "true"
+          "value": "false"
         },
         "xprofile_blocked_by_view_enabled": {
           "value": "true"
@@ -7385,10 +7385,10 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "4d30849c717fce00d169cc86e211c7df"
+      "settingsVersion": "636387bde69bf6417123bf149e667bf7"
     },
     "debug": {},
-    "featureSetToken": "699b835c4d2827c8c9b7a3e97c173de77fabd76b",
+    "featureSetToken": "0c964d148b8da2c34268ad16d0aa3a3d97373a98",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -7457,7 +7457,7 @@
   },
   "session": {
     "country": "XX",
-    "guestId": "174855298748788418",
+    "guestId": "174863938765518405",
     "hasCommunityMemberships": "false",
     "isActiveCreator": "false",
     "isLoaded": "false",
