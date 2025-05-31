@@ -395,7 +395,7 @@ This document is entirely auto-generated and may contain errors.<br>
 ```
 ```internal process
 # Error
-{[E.S.Alert]:"y.default",[E.S.Info]:"p.default",[E.S.Warning]:"y.default"}
+{[E.S.Alert]:"u.default",[E.S.Info]:"y.default",[E.S.Warning]:"u.default"}
 ```
 ```internal process
 # Error
@@ -403,47 +403,47 @@ This document is entirely auto-generated and may contain errors.<br>
 ```
 ```internal process
 # Error
-{[P.g.Cancelled]:"Cancelled",[P.g.Failed]:"Failed",[P.g.Expired]:"Expired",[P.g.Pending]:"Pending",[P.g.Hold]:"Pending",[P.g.AuthorizationOpen]:"Pending",[P.g.AwaitingUnrecognizedConfirmation]:"Awaiting approval",[P.g.PendingReview]:"Under review",[P.g.PendingRecipientAction]:"Pending",[P.g.PendingR...
+{[T.g.Cancelled]:"Cancelled",[T.g.Failed]:"Failed",[T.g.Expired]:"Expired",[T.g.Pending]:"Pending",[T.g.Hold]:"Pending",[T.g.AuthorizationOpen]:"Pending",[T.g.AwaitingUnrecognizedConfirmation]:"Awaiting approval",[T.g.PendingReview]:"Under review",[T.g.PendingRecipientAction]:"Pending",[T.g.PendingR...
 ```
 ```internal process
 # Error
-{[v.P.RejectedLimitsExceeded]:"Declined due to exceeded limits",[v.P.InReview]:"Under review",[v.P.RejectedByUnsupportedRegion]:"Unsupported region",[v.P.RejectedNotSufficientFunds]:"Declined due to insufficient funds",[v.P.RejectedCardPaymentsDisabled]:"Flagged as suspicious",[v.P.UnrecognizedActiv...
+{[D.P.RejectedLimitsExceeded]:"Declined due to exceeded limits",[D.P.InReview]:"Under review",[D.P.RejectedByUnsupportedRegion]:"Unsupported region",[D.P.RejectedNotSufficientFunds]:"Declined due to insufficient funds",[D.P.RejectedCardPaymentsDisabled]:"Flagged as suspicious",[D.P.UnrecognizedActiv...
 ```
 ```internal process
 # Error
-{[P.g.PendingRecipientAcceptance]:"M",[P.g.PendingRecipientOnboarding]:"M",[P.g.PendingRecipientAction]:"M"}
+{[T.g.PendingRecipientAcceptance]:"B",[T.g.PendingRecipientOnboarding]:"B",[T.g.PendingRecipientAction]:"B"}
 ```
 ```internal process
 # Error
-{[P.g.AwaitingRequestAcceptance]:"M",[P.g.PendingRequestAcceptance]:"M",[P.g.RequestVerificationRequired]:"M"}
+{[T.g.AwaitingRequestAcceptance]:"B",[T.g.PendingRequestAcceptance]:"B",[T.g.RequestVerificationRequired]:"B"}
 ```
 ```internal process
 # Error
-{[g.t.Checking]:"Checking",[g.t.Savings]:"Savings"}
+{[f.t.Checking]:"Checking",[f.t.Savings]:"Savings"}
 ```
 ```internal process
 # Error
-{[w.W.IssuedCardTypePhysical]:"Physical Card",[w.W.IssuedCardTypeVirtual]:"Virtual Card"}
+{[C.W.IssuedCardTypePhysical]:"Physical Card",[C.W.IssuedCardTypeVirtual]:"Virtual Card"}
 ```
 ```internal process
 # Error
-{[m.l.Charge]:"Charge",[m.l.Combo]:"Combo",[m.l.Debit]:"Debit",[m.l.Credit]:"Credit",[m.l.DeferredDebit]:"DeferredDebit",[m.l.Prepaid]:"Prepaid"}
+{[y.l.Charge]:"Charge",[y.l.Combo]:"Combo",[y.l.Debit]:"Debit",[y.l.Credit]:"Credit",[y.l.DeferredDebit]:"DeferredDebit",[y.l.Prepaid]:"Prepaid"}
 ```
 ```internal process
 # Error
-{[f.U.AmericanExpress]:"American Express",[f.U.Mastercard]:"Mastercard",[f.U.Visa]:"Visa"}
+{[m.U.AmericanExpress]:"American Express",[m.U.Mastercard]:"Mastercard",[m.U.Visa]:"Visa"}
 ```
 ```internal process
 # Error
-{[b.D.LoginRequired]:"Login required",[b.D.Invalid]:"Invalid",[b.D.Pending]:"Pending",[b.D.Revoked]:"Revoked",[b.D.Canceled]:"Canceled",[b.D.Inactive]:"Inactive"}
+{[x.D.LoginRequired]:"Login required",[x.D.Invalid]:"Invalid",[x.D.Pending]:"Pending",[x.D.Revoked]:"Revoked",[x.D.Canceled]:"Canceled",[x.D.Inactive]:"Inactive"}
 ```
 ```internal process
 # Error
-{[x.y.Online]:"Online",[x.y.Chip]:"Chip",[x.y.Contactless]:"Contactless",[x.y.KeyedIn]:"Keyed In",[x.y.Swipe]:"Swipe"}
+{[P.y.Online]:"Online",[P.y.Chip]:"Chip",[P.y.Contactless]:"Contactless",[P.y.KeyedIn]:"Keyed In",[P.y.Swipe]:"Swipe"}
 ```
 ```internal process
 # Error
-{[f.U.AmericanExpress]:"https://abs.twimg.com/responsive-web/client-web/payment-method-amex.b2cd046a.svg",[f.U.Mastercard]:"https://abs.twimg.com/responsive-web/client-web/payment-method-mastercard.f126316a.svg",[f.U.Visa]:"https://abs.twimg.com/responsive-web/client-web/payment-method-visa.c768170a...
+{[m.U.AmericanExpress]:"https://abs.twimg.com/responsive-web/client-web/payment-method-amex.b2cd046a.svg",[m.U.Mastercard]:"https://abs.twimg.com/responsive-web/client-web/payment-method-mastercard.f126316a.svg",[m.U.Visa]:"https://abs.twimg.com/responsive-web/client-web/payment-method-visa.c768170a...
 ```
 | constant                     | value                        |
 |:-----------------------------|:-----------------------------|

@@ -252,6 +252,15 @@
     ]
   },
   {
+    "queryId": "graphql/user_flow",
+    "dispatch_key": "post",
+    "dispatch": [
+      "post",
+      "",
+      "https://api.x.com/1.1/{queryId}.json"
+    ]
+  },
+  {
     "queryId": "jot/client_event",
     "dispatch_key": "post",
     "dispatch": [

@@ -5150,3 +5150,14 @@
 - subscriptions_quick_free_trials_ui_enabled<br>
 #### remove<br>
 - None<br>
+## 2025/05/30<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- rweb_home_jot_migrate_enabled<br>
+#### remove<br>
+- payments_cards_as_payment_method_enabled<br>
