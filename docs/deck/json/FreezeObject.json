@@ -176,28 +176,6 @@
   "{\"__proto__\":\"null\",\"formatCaption\":\"function()\"{\"return()(0,a.WU)\"},\"formatDay\":\"function()\"{\"return()(0,a.WU)\"},\"formatMonthCaption\":\"function()\"{\"return()(0,a.WU)\"},\"formatWeekNumber\":\"function()\"{return\"\".concat()},\"formatWeekdayName\":\"function()\"{\"return()(0,a.WU)\"},\"formatYearCaption\":\"function()\"{\"return()(0,a.WU)\"}}",
   "{\"__proto__\":\"null\",\"labelDay\":\"function()\"{\"return()(0,a.WU)\"},\"labelMonthDropdown\":\"function()\"{return\"Month: \"},\"labelNext\":\"function()\"{return\"Go to next month\"},\"labelPrevious\":\"function()\"{return\"Go to previous month\"},\"labelWeekNumber\":\"function()\"{return\"Week n. \".concat()},\"labelWeekday\":\"function()\"{\"return()(0,a.WU)\"},\"labelYearDropdown\":\"function()\"{return\"Year: \"}}",
   {
-    "ActionsBar": "f.Z",
-    "ActionMenu": "T.Z",
-    "CallToAction": "o.ZP",
-    "EditCallout": "y.Z",
-    "Education": "_.Z",
-    "HighlightedUserLabel": "l.Z",
-    "Media": "v.Z",
-    "Place": "a.ZP",
-    "PromotedDetails": "u.Z",
-    "PromotedUserProfileCard": "x.Z",
-    "ReplyContext": "I.ZP",
-    "RichContent": "k.Z",
-    "SocialContext": "h.Z",
-    "Text": "E.Z",
-    "Tombstone": "g.Z",
-    "Timestamp": "p.Z",
-    "UserAvatar": "M.Z",
-    "UserFollowIndicator": "S.Z",
-    "UserName": "P.Z",
-    "ArticleCard": "b.Z"
-  },
-  {
     "passive": "PASSIVE",
     "interactive": "INTERACTIVE"
   },
@@ -340,6 +318,248 @@
     }
   },
   {
+    "Cashback": "Cashback",
+    "Unspecified": "Unspecified",
+    "UserInterest": "UserInterest",
+    "UserMain": "UserMain"
+  },
+  {
+    "Checking": "Checking",
+    "Savings": "Savings"
+  },
+  {
+    "BankCardLinkingSessionRejectionReasonCardAlreadyExists": "BankCardLinkingSessionRejectionReasonCardAlreadyExists",
+    "BankCardLinkingSessionRejectionReasonInaccurateCardDetails": "BankCardLinkingSessionRejectionReasonInaccurateCardDetails",
+    "BankCardLinkingSessionRejectionReasonProviderDidNotCarryNameVerificationCheck": "BankCardLinkingSessionRejectionReasonProviderDidNotCarryNameVerificationCheck",
+    "BankCardLinkingSessionRejectionReasonProviderFailedToAuthorizeCard": "BankCardLinkingSessionRejectionReasonProviderFailedToAuthorizeCard",
+    "BankCardLinkingSessionRejectionReasonProviderFailedToVerifyAddress": "BankCardLinkingSessionRejectionReasonProviderFailedToVerifyAddress",
+    "BankCardLinkingSessionRejectionReasonProviderFailedToVerifyCardholderName": "BankCardLinkingSessionRejectionReasonProviderFailedToVerifyCardholderName",
+    "BankCardLinkingSessionRejectionReasonProviderInternalFailure": "BankCardLinkingSessionRejectionReasonProviderInternalFailure",
+    "BankCardLinkingSessionRejectionReasonUnspecified": "BankCardLinkingSessionRejectionReasonUnspecified",
+    "BankCardLinkingSessionRejectionReasonUnsupportedCardType": "BankCardLinkingSessionRejectionReasonUnsupportedCardType",
+    "BankCardLinkingSessionRejectionReasonUnsupportedIssuerCountry": "BankCardLinkingSessionRejectionReasonUnsupportedIssuerCountry",
+    "BankCardLinkingSessionRejectionReasonUnusableCard": "BankCardLinkingSessionRejectionReasonUnusableCard"
+  },
+  {
+    "BankCardLinkingSessionStatusAuthorized": "BankCardLinkingSessionStatusAuthorized",
+    "BankCardLinkingSessionStatusPending": "BankCardLinkingSessionStatusPending",
+    "BankCardLinkingSessionStatusRejected": "BankCardLinkingSessionStatusRejected",
+    "BankCardLinkingSessionStatusUnspecified": "BankCardLinkingSessionStatusUnspecified"
+  },
+  {
+    "BankCardLinkingSessionThemeDark": "BankCardLinkingSessionThemeDark",
+    "BankCardLinkingSessionThemeDimmed": "BankCardLinkingSessionThemeDimmed",
+    "BankCardLinkingSessionThemeLight": "BankCardLinkingSessionThemeLight",
+    "BankCardLinkingSessionThemeUnspecified": "BankCardLinkingSessionThemeUnspecified"
+  },
+  {
+    "AmericanExpress": "AmericanExpress",
+    "Mastercard": "Mastercard",
+    "Visa": "Visa"
+  },
+  {
+    "Charge": "Charge",
+    "Combo": "Combo",
+    "Credit": "Credit",
+    "Debit": "Debit",
+    "DeferredDebit": "DeferredDebit",
+    "Prepaid": "Prepaid"
+  },
+  {
+    "ClaimTransferDecisionAccept": "ClaimTransferDecisionAccept",
+    "ClaimTransferDecisionReject": "ClaimTransferDecisionReject",
+    "ClaimTransferDecisionUnspecified": "ClaimTransferDecisionUnspecified"
+  },
+  {
+    "ContactSupport": "ContactSupport",
+    "Deposit": "Deposit",
+    "GetPremium": "GetPremium",
+    "KycDocumentUpload": "KycDocumentUpload",
+    "KycVerification": "KycVerification",
+    "LearnMore": "LearnMore",
+    "Questionnaire": "Questionnaire",
+    "SelfieVerification": "SelfieVerification",
+    "SetupPasskey": "SetupPasskey"
+  },
+  {
+    "Alert": "Alert",
+    "Info": "Info",
+    "Warning": "Warning"
+  },
+  {
+    "Geography": "Geography",
+    "Interest": "Interest",
+    "Premium": "Premium"
+  },
+  {
+    "DocumentTypeMonthlyStatement": "DocumentTypeMonthlyStatement",
+    "DocumentTypeUnspecified": "DocumentTypeUnspecified"
+  },
+  {
+    "Adyen": "Adyen",
+    "Plaid": "Plaid",
+    "Stripe": "Stripe",
+    "Unknown": "Unknown"
+  },
+  {
+    "IssuedCardReplacementReasonDamaged": "IssuedCardReplacementReasonDamaged",
+    "IssuedCardReplacementReasonExpired": "IssuedCardReplacementReasonExpired",
+    "IssuedCardReplacementReasonLost": "IssuedCardReplacementReasonLost",
+    "IssuedCardReplacementReasonStolen": "IssuedCardReplacementReasonStolen",
+    "IssuedCardReplacementReasonUnspecified": "IssuedCardReplacementReasonUnspecified"
+  },
+  {
+    "IssuedCardShippingStatusCanceled": "IssuedCardShippingStatusCanceled",
+    "IssuedCardShippingStatusDelivered": "IssuedCardShippingStatusDelivered",
+    "IssuedCardShippingStatusFailure": "IssuedCardShippingStatusFailure",
+    "IssuedCardShippingStatusPending": "IssuedCardShippingStatusPending",
+    "IssuedCardShippingStatusReturned": "IssuedCardShippingStatusReturned",
+    "IssuedCardShippingStatusShipped": "IssuedCardShippingStatusShipped",
+    "IssuedCardShippingStatusSubmitted": "IssuedCardShippingStatusSubmitted",
+    "IssuedCardShippingStatusUnspecified": "IssuedCardShippingStatusUnspecified"
+  },
+  {
+    "IssuedCardTypePhysical": "IssuedCardTypePhysical",
+    "IssuedCardTypeUnspecified": "IssuedCardTypeUnspecified",
+    "IssuedCardTypeVirtual": "IssuedCardTypeVirtual"
+  },
+  {
+    "PaymentMethodFilterFunding": "PaymentMethodFilterFunding",
+    "PaymentMethodFilterSpending": "PaymentMethodFilterSpending",
+    "PaymentMethodFilterUnspecified": "PaymentMethodFilterUnspecified"
+  },
+  {
+    "Active": "Active",
+    "Canceled": "Canceled",
+    "Inactive": "Inactive",
+    "Invalid": "Invalid",
+    "LoginRequired": "LoginRequired",
+    "Pending": "Pending",
+    "Revoked": "Revoked",
+    "ScaRequired": "ScaRequired",
+    "Unspecified": "Unspecified"
+  },
+  {
+    "Banking": "Banking",
+    "Cashback": "Cashback",
+    "Ecommerce": "Ecommerce",
+    "Interest": "Interest",
+    "Issuing": "Issuing",
+    "Transfer": "Transfer"
+  },
+  {
+    "Ach": "Ach",
+    "Aft": "Aft",
+    "FedNow": "FedNow",
+    "Rtp": "Rtp"
+  },
+  {
+    "Ach": "Ach",
+    "DomesticWire": "DomesticWire",
+    "FedNow": "FedNow",
+    "Oct": "Oct",
+    "Rtp": "Rtp"
+  },
+  {
+    "RequestTransferDecisionAccept": "RequestTransferDecisionAccept",
+    "RequestTransferDecisionReject": "RequestTransferDecisionReject",
+    "RequestTransferDecisionUnspecified": "RequestTransferDecisionUnspecified"
+  },
+  {
+    "Age": "Age",
+    "Allowlist": "Allowlist",
+    "BirthDate": "BirthDate",
+    "Geography": "Geography",
+    "PhoneNumber": "PhoneNumber",
+    "PremiumOrVerifiedOrganization": "PremiumOrVerifiedOrganization",
+    "Safety": "Safety",
+    "Sanctions": "Sanctions",
+    "TwoFactorAuth": "TwoFactorAuth",
+    "Unknown": "Unknown"
+  },
+  {
+    "ThreeDsAuthenticationResponseAllow": "ThreeDsAuthenticationResponseAllow",
+    "ThreeDsAuthenticationResponseDeny": "ThreeDsAuthenticationResponseDeny",
+    "ThreeDsAuthenticationResponseUnspecified": "ThreeDsAuthenticationResponseUnspecified"
+  },
+  {
+    "Chip": "Chip",
+    "Contactless": "Contactless",
+    "KeyedIn": "KeyedIn",
+    "Online": "Online",
+    "Swipe": "Swipe"
+  },
+  {
+    "Clock": "Clock",
+    "CreditCardBack": "CreditCardBack",
+    "FollowArrows": "FollowArrows",
+    "PeopleStroke": "PeopleStroke"
+  },
+  {
+    "AuthorizationClosed": "AuthorizationClosed",
+    "AuthorizationOpen": "AuthorizationOpen",
+    "AwaitingRequestAcceptance": "AwaitingRequestAcceptance",
+    "AwaitingUnrecognizedConfirmation": "AwaitingUnrecognizedConfirmation",
+    "Cancelled": "Cancelled",
+    "CreditedAwaitingSettlement": "CreditedAwaitingSettlement",
+    "Expired": "Expired",
+    "Failed": "Failed",
+    "Hold": "Hold",
+    "Pending": "Pending",
+    "PendingFundingTransactionSettlement": "PendingFundingTransactionSettlement",
+    "PendingRecipientAcceptance": "PendingRecipientAcceptance",
+    "PendingRecipientAction": "PendingRecipientAction",
+    "PendingRecipientOnboarding": "PendingRecipientOnboarding",
+    "PendingRequestAcceptance": "PendingRequestAcceptance",
+    "PendingReview": "PendingReview",
+    "PinVerificationRequired": "PinVerificationRequired",
+    "RejectedByRecipient": "RejectedByRecipient",
+    "RequestRejected": "RequestRejected",
+    "RequestVerificationRequired": "RequestVerificationRequired",
+    "Settled": "Settled",
+    "SoftSettled": "SoftSettled",
+    "Unspecified": "Unspecified",
+    "VerificationRequired": "VerificationRequired"
+  },
+  {
+    "AtmWithdrawal": "AtmWithdrawal",
+    "Deposit": "Deposit",
+    "DisputeCredit": "DisputeCredit",
+    "Payment": "Payment",
+    "Refund": "Refund",
+    "Reverse": "Reverse",
+    "Transfer": "Transfer",
+    "Unspecified": "Unspecified",
+    "Withdraw": "Withdraw"
+  },
+  {
+    "Cancelled": "Cancelled",
+    "InReview": "InReview",
+    "RejectedByAutoReview": "RejectedByAutoReview",
+    "RejectedByManualReview": "RejectedByManualReview",
+    "RejectedByUnsupportedRegion": "RejectedByUnsupportedRegion",
+    "RejectedCardPaymentsDisabled": "RejectedCardPaymentsDisabled",
+    "RejectedLimitsExceeded": "RejectedLimitsExceeded",
+    "RejectedNotSufficientFunds": "RejectedNotSufficientFunds",
+    "Returned": "Returned",
+    "ReversedByAgent": "ReversedByAgent",
+    "UnrecognizedActivityConfirmed": "UnrecognizedActivityConfirmed",
+    "UnrecognizedActivityRejected": "UnrecognizedActivityRejected",
+    "Unspecified": "Unspecified"
+  },
+  {
+    "BackupCode": "BackupCode",
+    "Passkey": "Passkey",
+    "Sms": "Sms",
+    "Totp": "Totp",
+    "U2fSecurityKey": "U2fSecurityKey"
+  },
+  {
+    "UnrecognizedPaymentDecisionAccept": "UnrecognizedPaymentDecisionAccept",
+    "UnrecognizedPaymentDecisionReject": "UnrecognizedPaymentDecisionReject",
+    "UnrecognizedPaymentDecisionUnspecified": "UnrecognizedPaymentDecisionUnspecified"
+  },
+  {
     "small": "small",
     "xLarge": "xLarge",
     "xxLarge": "xxLarge",
@@ -398,28 +618,6 @@
   {
     "APPLE_APP_STORE": "1",
     "GOOGLE_PLAY_STORE": "2"
-  },
-  {
-    "ActionsBar": "f.Z",
-    "ActionMenu": "T.Z",
-    "CallToAction": "o.ZP",
-    "EditCallout": "y.Z",
-    "Education": "_.Z",
-    "HighlightedUserLabel": "l.Z",
-    "Media": "v.Z",
-    "Place": "a.ZP",
-    "PromotedDetails": "u.Z",
-    "PromotedUserProfileCard": "x.Z",
-    "ReplyContext": "I.ZP",
-    "RichContent": "k.Z",
-    "SocialContext": "h.Z",
-    "Text": "E.Z",
-    "Tombstone": "g.Z",
-    "Timestamp": "p.Z",
-    "UserAvatar": "M.Z",
-    "UserFollowIndicator": "S.Z",
-    "UserName": "P.Z",
-    "ArticleCard": "b.Z"
   },
   {
     "apple": "https://apps.apple.com/account/billing",
