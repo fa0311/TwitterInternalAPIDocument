@@ -6212,3 +6212,15 @@
 - rweb_home_jot_migrate_enabled<br>
 #### remove<br>
 - payments_cards_as_payment_method_enabled<br>
+## 2025/06/03<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- responsive_web_grok_post_inline_translation_is_enabled<br>
+- responsive_web_timezone_header_enabled<br>
+#### remove<br>
+- None<br>
