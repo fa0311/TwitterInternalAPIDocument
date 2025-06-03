@@ -3712,7 +3712,7 @@
         "value": "true"
       },
       "x_jetfuel_enable_test_cluster": {
-        "value": "true"
+        "value": "false"
       },
       "xprofile_blocked_by_view_enabled": {
         "value": "true"
@@ -5382,7 +5382,7 @@
           "value": "false"
         },
         "responsive_web_grok_enable_deepersearch": {
-          "value": "true"
+          "value": "false"
         },
         "responsive_web_grok_enable_deepsearch_notifications": {
           "value": "true"
@@ -6713,7 +6713,7 @@
           "value": "false"
         },
         "subscriptions_marketing_page_web_refresh_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "subscriptions_mute_ad_upsell_enabled": {
           "value": "true"
@@ -7385,10 +7385,10 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "636387bde69bf6417123bf149e667bf7"
+      "settingsVersion": "dc94d46fff6fe39660d3640f2e18fac7"
     },
     "debug": {},
-    "featureSetToken": "0c964d148b8da2c34268ad16d0aa3a3d97373a98",
+    "featureSetToken": "a0e7b9f02655732c2969616598f0fd77a1c47368",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -7457,7 +7457,7 @@
   },
   "session": {
     "country": "XX",
-    "guestId": "174881212300718568",
+    "guestId": "174889862685468736",
     "hasCommunityMemberships": "false",
     "isActiveCreator": "false",
     "isLoaded": "false",
