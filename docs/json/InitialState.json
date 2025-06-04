@@ -1864,6 +1864,9 @@
       "responsive_web_grok_post_image_understanding_enabled": {
         "value": "false"
       },
+      "responsive_web_grok_post_inline_translation_is_enabled": {
+        "value": "false"
+      },
       "responsive_web_grok_post_understanding_button_on_all_posts": {
         "value": "false"
       },
@@ -2312,6 +2315,9 @@
         "value": "false"
       },
       "responsive_web_timeline_relay_user_lists_enabled": {
+        "value": "false"
+      },
+      "responsive_web_timezone_header_enabled": {
         "value": "false"
       },
       "responsive_web_tracer_global_trace_sample_rate": {
@@ -3073,7 +3079,7 @@
         "value": "false"
       },
       "subscriptions_marketing_page_web_refresh_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "subscriptions_mute_ad_upsell_enabled": {
         "value": "true"
@@ -5382,7 +5388,7 @@
           "value": "false"
         },
         "responsive_web_grok_enable_deepersearch": {
-          "value": "false"
+          "value": "true"
         },
         "responsive_web_grok_enable_deepsearch_notifications": {
           "value": "true"
@@ -5502,6 +5508,9 @@
           "value": "true"
         },
         "responsive_web_grok_post_image_understanding_enabled": {
+          "value": "false"
+        },
+        "responsive_web_grok_post_inline_translation_is_enabled": {
           "value": "false"
         },
         "responsive_web_grok_post_understanding_button_on_all_posts": {
@@ -5952,6 +5961,9 @@
           "value": "false"
         },
         "responsive_web_timeline_relay_user_lists_enabled": {
+          "value": "false"
+        },
+        "responsive_web_timezone_header_enabled": {
           "value": "false"
         },
         "responsive_web_tracer_global_trace_sample_rate": {
@@ -7385,10 +7397,10 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "dc94d46fff6fe39660d3640f2e18fac7"
+      "settingsVersion": "4d30849c717fce00d169cc86e211c7df"
     },
     "debug": {},
-    "featureSetToken": "a0e7b9f02655732c2969616598f0fd77a1c47368",
+    "featureSetToken": "b4f0274d5aa73ec1b897d7cba45f21aa4d11e97e",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -7457,7 +7469,7 @@
   },
   "session": {
     "country": "XX",
-    "guestId": "174889816111487915",
+    "guestId": "174898450522010796",
     "hasCommunityMemberships": "false",
     "isActiveCreator": "false",
     "isLoaded": "false",
