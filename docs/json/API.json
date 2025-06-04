@@ -1062,8 +1062,8 @@
       }
     },
     "PaymentsUsersTypeahead": {
-      "url": "https://x.com/i/api/graphql/flATXxd2GrOtYYNGQLoyCA/PaymentsUsersTypeahead",
-      "queryId": "flATXxd2GrOtYYNGQLoyCA",
+      "url": "https://x.com/i/api/graphql/AZURUk27ksncblQUCg6_Rw/PaymentsUsersTypeahead",
+      "queryId": "AZURUk27ksncblQUCg6_Rw",
       "method": "GET",
       "features": {
         "responsive_web_graphql_timeline_navigation_enabled": true
@@ -1730,6 +1730,14 @@
       "queryId": "BhKei844ypCyLYCg0nwigw",
       "method": "POST",
       "features": {}
+    },
+    "Upsells": {
+      "url": "https://x.com/i/api/graphql/x0ZBrYFMX35jrK-ZqPYyiQ/Upsells",
+      "queryId": "x0ZBrYFMX35jrK-ZqPYyiQ",
+      "method": "GET",
+      "features": {
+        "subscriptions_upsells_api_enabled": true
+      }
     },
     "UrtFixtures": {
       "url": "https://x.com/i/api/graphql/DF5N3uJ9hCjFYNXkh9qNAw/UrtFixtures",
