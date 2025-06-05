@@ -792,7 +792,7 @@
     ]
   },
   {
-    "queryId": "geo/places",
+    "queryId": "lists/memberships",
     "dispatch_key": "get",
     "dispatch": [
       "get",
@@ -801,7 +801,7 @@
     ]
   },
   {
-    "queryId": "lists/memberships",
+    "queryId": "geo/places",
     "dispatch_key": "get",
     "dispatch": [
       "get",
