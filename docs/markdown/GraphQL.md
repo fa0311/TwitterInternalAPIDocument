@@ -2957,7 +2957,14 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-`None`<br>
+| key             | type    | variable   |
+|:----------------|:--------|:-----------|
+| id              | ...     | i          |
+| isMetatagsQuery | ...     | d          |
+| ...()(0,r.d)    | ...     | _          |
+| withReplays     | boolean | True       |
+| withListeners   | boolean | True       |
+
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
@@ -3648,7 +3655,10 @@ Request Method: `POST`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-`None`<br>
+| key     | type   | variable   |
+|:--------|:-------|:-----------|
+| note_id | ...    | t          |
+
 #### features<br>
 | key                                                               | type    | variable   |
 |:------------------------------------------------------------------|:--------|:-----------|
