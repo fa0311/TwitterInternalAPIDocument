@@ -8475,6 +8475,15 @@
           }
         }
       }
+    },
+    "func_name": "D",
+    "func_name_init": "f",
+    "query": {
+      "id": "i",
+      "isMetatagsQuery": "d",
+      "...()(0,r.d)": "_",
+      "withReplays": "!0",
+      "withListeners": "!0"
     }
   },
   {
@@ -10254,6 +10263,11 @@
           }
         }
       }
+    },
+    "func_name": "ne",
+    "func_name_init": "ee",
+    "query": {
+      "note_id": "t"
     }
   },
   {
