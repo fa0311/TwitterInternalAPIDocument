@@ -5184,3 +5184,14 @@
 - subscriptions_quick_free_trials_low_threshold_screen_enabled<br>
 #### remove<br>
 - None<br>
+## 2025/06/10<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- payments_transfer_funding_sources_enabled<br>
+#### remove<br>
+- None<br>
