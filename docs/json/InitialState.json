@@ -1240,6 +1240,9 @@
       "payments_tasks_carousel_enabled": {
         "value": "false"
       },
+      "payments_transfer_funding_sources_enabled": {
+        "value": "false"
+      },
       "payments_transfer_methods_enabled": {
         "value": "false"
       },
@@ -4889,6 +4892,9 @@
         "payments_tasks_carousel_enabled": {
           "value": "false"
         },
+        "payments_transfer_funding_sources_enabled": {
+          "value": "false"
+        },
         "payments_transfer_methods_enabled": {
           "value": "false"
         },
@@ -7406,7 +7412,7 @@
       "settingsVersion": "4d30849c717fce00d169cc86e211c7df"
     },
     "debug": {},
-    "featureSetToken": "1369ea88872469ea8664a492b5f5b7a9f877c5d8",
+    "featureSetToken": "c797632b693e257bb697a84e024af17d4e8a4397",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -7475,7 +7481,7 @@
   },
   "session": {
     "country": "XX",
-    "guestId": "174950290692127771",
+    "guestId": "174958931060181983",
     "hasCommunityMemberships": "false",
     "isActiveCreator": "false",
     "isLoaded": "false",
