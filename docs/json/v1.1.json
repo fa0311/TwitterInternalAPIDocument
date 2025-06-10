@@ -792,7 +792,7 @@
     ]
   },
   {
-    "queryId": "geo/places",
+    "queryId": "lists/memberships",
     "dispatch_key": "get",
     "dispatch": [
       "get",
@@ -801,7 +801,7 @@
     ]
   },
   {
-    "queryId": "lists/memberships",
+    "queryId": "geo/places",
     "dispatch_key": "get",
     "dispatch": [
       "get",
@@ -942,51 +942,6 @@
       "put",
       "",
       "https://api.x.com/1.1/{queryId}.json"
-    ]
-  },
-  {
-    "queryId": "onboarding/bounce",
-    "dispatch_key": "post",
-    "dispatch": [
-      "post",
-      "",
-      "https://api.x.com/1.1/{queryId}.json"
-    ]
-  },
-  {
-    "queryId": "report/flow",
-    "dispatch_key": "post",
-    "dispatch": [
-      "post",
-      "",
-      "https://api.x.com/1.1/{queryId}.json"
-    ]
-  },
-  {
-    "queryId": "account/password_strength",
-    "dispatch_key": "post",
-    "dispatch": [
-      "post",
-      "",
-      "https://api.x.com/1.1/{queryId}.json"
-    ]
-  },
-  {
-    "queryId": "users/phone_number_available",
-    "dispatch_key": "get",
-    "dispatch": [
-      "get",
-      "",
-      "https://api.x.com/1.1/{queryId}.json"
-    ]
-  },
-  {
-    "queryId": "users/email_available",
-    "dispatch_key": "getI",
-    "dispatch": [
-      "get",
-      "I",
-      "https://x.com/i/api/1.1/{queryId}.json"
     ]
   },
   {
