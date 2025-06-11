@@ -2118,6 +2118,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | alwaysBaseGreen900 | alwaysBaseGreen900 |
 | alwaysBaseGray1100 | alwaysBaseGray1100 |
 | alwaysDarkGray700  | alwaysDarkGray700  |
+| alwaysDarkGray900  | alwaysDarkGray900  |
 | alwaysDarkGray50   | alwaysDarkGray50   |
 | alwaysBlack        | alwaysBlack        |
 | blue300            | blue300            |
