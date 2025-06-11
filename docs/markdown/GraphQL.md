@@ -6564,7 +6564,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## BirdwatchFetchNotes<br>
-Request URL: `https://x.com/i/api/graphql/vIBm6T1i0NvurrRbaArLbg/BirdwatchFetchNotes`<br>
+Request URL: `https://x.com/i/api/graphql/hnZ4PYzrmZM5ygoZbJftZg/BirdwatchFetchNotes`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -6573,6 +6573,7 @@ Login Required: `...`<br>
 #### features<br>
 | key                                                               | type    | variable   |
 |:------------------------------------------------------------------|:--------|:-----------|
+| responsive_web_birdwatch_enforce_author_user_quotas               | boolean | False      |
 | responsive_web_birdwatch_media_notes_enabled                      | boolean | True       |
 | responsive_web_birdwatch_url_notes_enabled                        | boolean | False      |
 | responsive_web_birdwatch_translation_enabled                      | boolean | True       |
