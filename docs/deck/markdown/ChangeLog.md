@@ -5195,3 +5195,14 @@
 - payments_transfer_funding_sources_enabled<br>
 #### remove<br>
 - None<br>
+## 2025/06/11<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- responsive_web_birdwatch_enforce_author_user_quotas<br>
+#### remove<br>
+- None<br>
