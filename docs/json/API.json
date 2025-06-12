@@ -4737,10 +4737,11 @@
       }
     },
     "BirdwatchFetchNotes": {
-      "url": "https://x.com/i/api/graphql/vIBm6T1i0NvurrRbaArLbg/BirdwatchFetchNotes",
-      "queryId": "vIBm6T1i0NvurrRbaArLbg",
+      "url": "https://x.com/i/api/graphql/hnZ4PYzrmZM5ygoZbJftZg/BirdwatchFetchNotes",
+      "queryId": "hnZ4PYzrmZM5ygoZbJftZg",
       "method": "GET",
       "features": {
+        "responsive_web_birdwatch_enforce_author_user_quotas": false,
         "responsive_web_birdwatch_media_notes_enabled": true,
         "responsive_web_birdwatch_url_notes_enabled": false,
         "responsive_web_birdwatch_translation_enabled": true,

@@ -1429,6 +1429,9 @@
       "responsive_web_birdwatch_country_allowed": {
         "value": "true"
       },
+      "responsive_web_birdwatch_enforce_author_user_quotas": {
+        "value": "false"
+      },
       "responsive_web_birdwatch_fast_crh_time_from_note_cutoff": {
         "value": "3600000"
       },
@@ -5081,6 +5084,9 @@
         "responsive_web_birdwatch_country_allowed": {
           "value": "true"
         },
+        "responsive_web_birdwatch_enforce_author_user_quotas": {
+          "value": "false"
+        },
         "responsive_web_birdwatch_fast_crh_time_from_note_cutoff": {
           "value": "3600000"
         },
@@ -7412,7 +7418,7 @@
       "settingsVersion": "4d30849c717fce00d169cc86e211c7df"
     },
     "debug": {},
-    "featureSetToken": "c797632b693e257bb697a84e024af17d4e8a4397",
+    "featureSetToken": "4ec128a1151edb2fdf336280b1d5bd76c7219704",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -7481,7 +7487,7 @@
   },
   "session": {
     "country": "XX",
-    "guestId": "174958978802707736",
+    "guestId": "174967624169124367",
     "hasCommunityMemberships": "false",
     "isActiveCreator": "false",
     "isLoaded": "false",
