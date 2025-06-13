@@ -2224,6 +2224,9 @@
       "responsive_web_qp_new_boost_analytics_enabled": {
         "value": "false"
       },
+      "responsive_web_qp_new_location_search_enabled": {
+        "value": "true"
+      },
       "responsive_web_qp_new_payment_enabled": {
         "value": "false"
       },
@@ -5879,6 +5882,9 @@
         "responsive_web_qp_new_boost_analytics_enabled": {
           "value": "true"
         },
+        "responsive_web_qp_new_location_search_enabled": {
+          "value": "true"
+        },
         "responsive_web_qp_new_payment_enabled": {
           "value": "false"
         },
@@ -6372,7 +6378,7 @@
           "value": "false"
         },
         "rweb_xchat_new_db_worker_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "rweb_xchat_old_dms_inbox_item": {
           "value": "false"
@@ -7415,10 +7421,10 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "4d30849c717fce00d169cc86e211c7df"
+      "settingsVersion": "8c3872da1b9bb579112e4a6167269109"
     },
     "debug": {},
-    "featureSetToken": "4ec128a1151edb2fdf336280b1d5bd76c7219704",
+    "featureSetToken": "1dc461fd83756f57923307d3c03fc0107d4ee131",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -7487,7 +7493,7 @@
   },
   "session": {
     "country": "XX",
-    "guestId": "174976262502017585",
+    "guestId": "174984908146311984",
     "hasCommunityMemberships": "false",
     "isActiveCreator": "false",
     "isLoaded": "false",
