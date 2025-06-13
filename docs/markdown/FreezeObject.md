@@ -4489,7 +4489,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{[x.VerificationCheck]:"function()"{if()throw new Error(3!==e.length);const[a,o,d]=e;return[{"width":"400","height":"200","uri":"a"},{"width":"800","height":"400","uri":"o"},{"width":"1200","height":"600","uri":"d"}]}"()"}
+{[x.VerificationCheck]:"function()"{if()throw new Error(3!==e.length);const[a,d,o]=e;return[{"width":"400","height":"200","uri":"a"},{"width":"800","height":"400","uri":"d"},{"width":"1200","height":"600","uri":"o"}]}"()"}
 ```
 | constant             | value                |
 |:---------------------|:---------------------|
