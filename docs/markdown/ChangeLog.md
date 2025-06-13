@@ -6257,3 +6257,14 @@
 - responsive_web_birdwatch_enforce_author_user_quotas<br>
 #### remove<br>
 - None<br>
+## 2025/06/13<br>
+### API<br>
+#### add<br>
+- TargetingCatalogSearch<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- responsive_web_qp_new_location_search_enabled<br>
+#### remove<br>
+- None<br>

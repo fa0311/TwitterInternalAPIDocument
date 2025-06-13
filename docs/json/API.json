@@ -5232,6 +5232,12 @@
       "method": "POST",
       "features": {}
     },
+    "TargetingCatalogSearch": {
+      "url": "https://x.com/i/api/graphql/z7Ij1OnFDsb1Is08hkBDKw/TargetingCatalogSearch",
+      "queryId": "z7Ij1OnFDsb1Is08hkBDKw",
+      "method": "GET",
+      "features": {}
+    },
     "WriteEmailNotificationSettings": {
       "url": "https://x.com/i/api/graphql/2qKKYFQift8p5-J1k6kqxQ/WriteEmailNotificationSettings",
       "queryId": "2qKKYFQift8p5-J1k6kqxQ",
