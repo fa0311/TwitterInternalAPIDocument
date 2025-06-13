@@ -1,24 +1,5 @@
 {
-  "graphql": {
-    "BrowseSpaceTopics": {
-      "url": "https://x.com/i/api/graphql/TYpVV9QioZfViHqEqRZxJA/BrowseSpaceTopics",
-      "queryId": "TYpVV9QioZfViHqEqRZxJA",
-      "method": "GET",
-      "features": {}
-    },
-    "SubscribeToScheduledSpace": {
-      "url": "https://x.com/i/api/graphql/Sxn4YOlaAwEKjnjWV0h7Mw/SubscribeToScheduledSpace",
-      "queryId": "Sxn4YOlaAwEKjnjWV0h7Mw",
-      "method": "POST",
-      "features": {}
-    },
-    "UnsubscribeFromScheduledSpace": {
-      "url": "https://x.com/i/api/graphql/Zevhh76Msw574ZSs2NQHGQ/UnsubscribeFromScheduledSpace",
-      "queryId": "Zevhh76Msw574ZSs2NQHGQ",
-      "method": "POST",
-      "features": {}
-    }
-  },
+  "graphql": {},
   "header": {
     "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
     "accept-encoding": "gzip, deflate, br, zstd",
