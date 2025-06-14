@@ -6240,7 +6240,7 @@
           "value": "false"
         },
         "rweb_home_jot_migrate_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "rweb_home_mixer_enable_social_context_filter_social_contexts": {
           "value": "true"
@@ -7421,7 +7421,7 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "8c3872da1b9bb579112e4a6167269109"
+      "settingsVersion": "b36835cbef1d4c8b512e03486f5fb051"
     },
     "debug": {},
     "featureSetToken": "1dc461fd83756f57923307d3c03fc0107d4ee131",
@@ -7493,7 +7493,7 @@
   },
   "session": {
     "country": "XX",
-    "guestId": "174984852364632012",
+    "guestId": "174993489428722404",
     "hasCommunityMemberships": "false",
     "isActiveCreator": "false",
     "isLoaded": "false",
