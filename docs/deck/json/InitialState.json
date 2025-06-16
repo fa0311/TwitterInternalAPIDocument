@@ -1729,6 +1729,9 @@
       "responsive_web_grok_backend_prompts_enabled": {
         "value": "true"
       },
+      "responsive_web_grok_bio_auto_translation_is_enabled": {
+        "value": "false"
+      },
       "responsive_web_grok_continue_in_grok_enabled": {
         "value": "true"
       },
@@ -2720,7 +2723,7 @@
         "value": "false"
       },
       "rweb_xchat_new_db_worker_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "rweb_xchat_old_dms_inbox_item": {
         "value": "false"
@@ -5088,7 +5091,7 @@
           "value": "true"
         },
         "responsive_web_birdwatch_enforce_author_user_quotas": {
-          "value": "false"
+          "value": "true"
         },
         "responsive_web_birdwatch_fast_crh_time_from_note_cutoff": {
           "value": "3600000"
@@ -5386,6 +5389,9 @@
         },
         "responsive_web_grok_backend_prompts_enabled": {
           "value": "true"
+        },
+        "responsive_web_grok_bio_auto_translation_is_enabled": {
+          "value": "false"
         },
         "responsive_web_grok_continue_in_grok_enabled": {
           "value": "true"
@@ -6240,7 +6246,7 @@
           "value": "false"
         },
         "rweb_home_jot_migrate_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "rweb_home_mixer_enable_social_context_filter_social_contexts": {
           "value": "true"
@@ -7421,10 +7427,10 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "8c3872da1b9bb579112e4a6167269109"
+      "settingsVersion": "211f86c06965b75adf6d9bdf8e8f146b"
     },
     "debug": {},
-    "featureSetToken": "1dc461fd83756f57923307d3c03fc0107d4ee131",
+    "featureSetToken": "9ee35cb96a82fb0548257215b9f3d7865ad0ec55",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -7493,7 +7499,7 @@
   },
   "session": {
     "country": "XX",
-    "guestId": "175002178770646126",
+    "guestId": "175010821049730705",
     "hasCommunityMemberships": "false",
     "isActiveCreator": "false",
     "isLoaded": "false",
