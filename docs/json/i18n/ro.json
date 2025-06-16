@@ -5924,7 +5924,7 @@
   "f9b6b7d3": "{hours} {hours}(de) ore",
   "a9af8753": "{days} {days}(de) zile, {hours} {hours}(de) ore",
   "b93d00e5": "{days} {days}(de) zile",
-  "dc9661b3": "{seconds} second{seconds}",
+  "dc9661b3": "{seconds} {seconds}(de) secunde",
   "g2c63852": "100% gratuit. Nu este nevoie de un card de credit.",
   "be88be23": "Ți-am activat versiunea de încercare pentru {durationInDays} (de) zile fără reclame",
   "b63766a6": "Derulează fără reclame",
