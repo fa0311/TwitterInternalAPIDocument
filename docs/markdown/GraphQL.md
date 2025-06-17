@@ -3362,10 +3362,7 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key     | type   | variable   |
-|:--------|:-------|:-----------|
-| note_id | ...    | t.note_id  |
-
+`None`<br>
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
@@ -3733,14 +3730,7 @@ Request Method: `POST`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key          | type   | variable                  |
-|:-------------|:-------|:--------------------------|
-| listId       | ...    | o                         |
-| isPrivate    | ...    | private===d.toLowerCase() |
-| description  | ...    | l                         |
-| name         | ...    | u                         |
-| ...()(0,s.S) | ...    | _                         |
-
+`None`<br>
 #### features<br>
 | key                                                               | type    | variable   |
 |:------------------------------------------------------------------|:--------|:-----------|
@@ -5703,7 +5693,10 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-`None`<br>
+| key            | type   | variable   |
+|:---------------|:-------|:-----------|
+| conversationId | ...    | t          |
+
 #### features<br>
 | key                                              | type    | variable   |
 |:-------------------------------------------------|:--------|:-----------|
@@ -7754,7 +7747,10 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-`None`<br>
+| key            | type   | variable   |
+|:---------------|:-------|:-----------|
+| conversationId | ...    | t          |
+
 #### features<br>
 | key                                              | type    | variable   |
 |:-------------------------------------------------|:--------|:-----------|
@@ -8080,7 +8076,10 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-`None`<br>
+| key            | type   | variable   |
+|:---------------|:-------|:-----------|
+| conversationId | ...    | t          |
+
 #### features<br>
 | key                                              | type    | variable   |
 |:-------------------------------------------------|:--------|:-----------|
@@ -8142,7 +8141,10 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-`None`<br>
+| key            | type   | variable   |
+|:---------------|:-------|:-----------|
+| conversationId | ...    | t          |
+
 #### features<br>
 | key                                              | type    | variable   |
 |:-------------------------------------------------|:--------|:-----------|
