@@ -2454,22 +2454,22 @@ Login Required: `...`<br>
 #### variables<br>
 `None`<br>
 #### features<br>
-| key                                                               | type    | default   |   variable |
-|:------------------------------------------------------------------|:--------|:----------|-----------:|
-| responsive_web_grok_bio_auto_translation_is_enabled               | ...     | error     |        nan |
-| hidden_profile_subscriptions_enabled                              | boolean | nan       |          1 |
-| payments_enabled                                                  | boolean | nan       |          0 |
-| profile_label_improvements_pcf_label_in_post_enabled              | boolean | nan       |          1 |
-| rweb_tipjar_consumption_enabled                                   | boolean | nan       |          1 |
-| verified_phone_label_enabled                                      | boolean | nan       |          0 |
-| subscriptions_verification_info_is_identity_verified_enabled      | boolean | nan       |          1 |
-| subscriptions_verification_info_verified_since_enabled            | boolean | nan       |          1 |
-| highlights_tweets_tab_ui_enabled                                  | boolean | nan       |          1 |
-| responsive_web_twitter_article_notes_tab_enabled                  | boolean | nan       |          1 |
-| subscriptions_feature_can_gift_premium                            | boolean | nan       |          1 |
-| creator_subscriptions_tweet_preview_api_enabled                   | boolean | nan       |          1 |
-| responsive_web_graphql_skip_user_profile_image_extensions_enabled | boolean | nan       |          0 |
-| responsive_web_graphql_timeline_navigation_enabled                | boolean | nan       |          1 |
+| key                                                               | type    | variable   |
+|:------------------------------------------------------------------|:--------|:-----------|
+| responsive_web_grok_bio_auto_translation_is_enabled               | boolean | False      |
+| hidden_profile_subscriptions_enabled                              | boolean | True       |
+| payments_enabled                                                  | boolean | False      |
+| profile_label_improvements_pcf_label_in_post_enabled              | boolean | True       |
+| rweb_tipjar_consumption_enabled                                   | boolean | True       |
+| verified_phone_label_enabled                                      | boolean | False      |
+| subscriptions_verification_info_is_identity_verified_enabled      | boolean | True       |
+| subscriptions_verification_info_verified_since_enabled            | boolean | True       |
+| highlights_tweets_tab_ui_enabled                                  | boolean | True       |
+| responsive_web_twitter_article_notes_tab_enabled                  | boolean | True       |
+| subscriptions_feature_can_gift_premium                            | boolean | True       |
+| creator_subscriptions_tweet_preview_api_enabled                   | boolean | True       |
+| responsive_web_graphql_skip_user_profile_image_extensions_enabled | boolean | False      |
+| responsive_web_graphql_timeline_navigation_enabled                | boolean | True       |
 
 #### queryId<br>
 `None`<br>
@@ -3015,7 +3015,12 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-`None`<br>
+| key         | type   | variable   |
+|:------------|:-------|:-----------|
+| group_id    | ...    | o          |
+| object_id   | ...    | n          |
+| action_type | ...    | t          |
+
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
@@ -3357,7 +3362,10 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-`None`<br>
+| key     | type   | variable   |
+|:--------|:-------|:-----------|
+| note_id | ...    | t.note_id  |
+
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
@@ -3725,7 +3733,14 @@ Request Method: `POST`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-`None`<br>
+| key          | type   | variable                  |
+|:-------------|:-------|:--------------------------|
+| listId       | ...    | o                         |
+| isPrivate    | ...    | private===d.toLowerCase() |
+| description  | ...    | l                         |
+| name         | ...    | u                         |
+| ...()(0,s.S) | ...    | _                         |
+
 #### features<br>
 | key                                                               | type    | variable   |
 |:------------------------------------------------------------------|:--------|:-----------|
@@ -6698,7 +6713,7 @@ Login Required: `...`<br>
 #### features<br>
 | key                                                               | type    | variable   |
 |:------------------------------------------------------------------|:--------|:-----------|
-| responsive_web_birdwatch_enforce_author_user_quotas               | boolean | False      |
+| responsive_web_birdwatch_enforce_author_user_quotas               | boolean | True       |
 | responsive_web_birdwatch_media_notes_enabled                      | boolean | True       |
 | responsive_web_birdwatch_url_notes_enabled                        | boolean | False      |
 | responsive_web_birdwatch_translation_enabled                      | boolean | True       |
@@ -8199,6 +8214,141 @@ Login Required: `...`<br>
 | verified_phone_label_enabled                                      | boolean | False      |
 | responsive_web_graphql_skip_user_profile_image_extensions_enabled | boolean | False      |
 | responsive_web_graphql_timeline_navigation_enabled                | boolean | True       |
+
+#### queryId<br>
+`None`<br>
+## Favoriters<br>
+Request URL: `https://x.com/i/api/graphql/pdnJCGqIFsEwdHz1MwC8Bw/Favoriters`<br>
+Request Method: `GET`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+| key                                                                     | type    | variable   |
+|:------------------------------------------------------------------------|:--------|:-----------|
+| rweb_video_screen_enabled                                               | boolean | False      |
+| payments_enabled                                                        | boolean | False      |
+| profile_label_improvements_pcf_label_in_post_enabled                    | boolean | True       |
+| rweb_tipjar_consumption_enabled                                         | boolean | True       |
+| verified_phone_label_enabled                                            | boolean | False      |
+| creator_subscriptions_tweet_preview_api_enabled                         | boolean | True       |
+| responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
+| responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean | False      |
+| premium_content_api_read_enabled                                        | boolean | False      |
+| communities_web_enable_tweet_community_results_fetch                    | boolean | True       |
+| c9s_tweet_anatomy_moderator_badge_enabled                               | boolean | True       |
+| responsive_web_grok_analyze_button_fetch_trends_enabled                 | boolean | False      |
+| responsive_web_grok_analyze_post_followups_enabled                      | boolean | False      |
+| responsive_web_jetfuel_frame                                            | boolean | False      |
+| responsive_web_grok_share_attachment_enabled                            | boolean | True       |
+| articles_preview_enabled                                                | boolean | True       |
+| responsive_web_edit_tweet_api_enabled                                   | boolean | True       |
+| graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | True       |
+| view_counts_everywhere_api_enabled                                      | boolean | True       |
+| longform_notetweets_consumption_enabled                                 | boolean | True       |
+| responsive_web_twitter_article_tweet_consumption_enabled                | boolean | True       |
+| tweet_awards_web_tipping_enabled                                        | boolean | False      |
+| responsive_web_grok_show_grok_translated_post                           | boolean | False      |
+| responsive_web_grok_analysis_button_from_backend                        | boolean | False      |
+| creator_subscriptions_quote_tweet_preview_enabled                       | boolean | False      |
+| freedom_of_speech_not_reach_fetch_enabled                               | boolean | True       |
+| standardized_nudges_misinfo                                             | boolean | True       |
+| tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | True       |
+| longform_notetweets_rich_text_read_enabled                              | boolean | True       |
+| longform_notetweets_inline_media_enabled                                | boolean | True       |
+| responsive_web_grok_image_annotation_enabled                            | boolean | True       |
+| responsive_web_enhance_cards_enabled                                    | boolean | False      |
+
+#### queryId<br>
+`None`<br>
+## Retweeters<br>
+Request URL: `https://x.com/i/api/graphql/YGc5g0KBmqLAJUENC2Z_Pw/Retweeters`<br>
+Request Method: `GET`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+| key                                                                     | type    | variable   |
+|:------------------------------------------------------------------------|:--------|:-----------|
+| rweb_video_screen_enabled                                               | boolean | False      |
+| payments_enabled                                                        | boolean | False      |
+| profile_label_improvements_pcf_label_in_post_enabled                    | boolean | True       |
+| rweb_tipjar_consumption_enabled                                         | boolean | True       |
+| verified_phone_label_enabled                                            | boolean | False      |
+| creator_subscriptions_tweet_preview_api_enabled                         | boolean | True       |
+| responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
+| responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean | False      |
+| premium_content_api_read_enabled                                        | boolean | False      |
+| communities_web_enable_tweet_community_results_fetch                    | boolean | True       |
+| c9s_tweet_anatomy_moderator_badge_enabled                               | boolean | True       |
+| responsive_web_grok_analyze_button_fetch_trends_enabled                 | boolean | False      |
+| responsive_web_grok_analyze_post_followups_enabled                      | boolean | False      |
+| responsive_web_jetfuel_frame                                            | boolean | False      |
+| responsive_web_grok_share_attachment_enabled                            | boolean | True       |
+| articles_preview_enabled                                                | boolean | True       |
+| responsive_web_edit_tweet_api_enabled                                   | boolean | True       |
+| graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | True       |
+| view_counts_everywhere_api_enabled                                      | boolean | True       |
+| longform_notetweets_consumption_enabled                                 | boolean | True       |
+| responsive_web_twitter_article_tweet_consumption_enabled                | boolean | True       |
+| tweet_awards_web_tipping_enabled                                        | boolean | False      |
+| responsive_web_grok_show_grok_translated_post                           | boolean | False      |
+| responsive_web_grok_analysis_button_from_backend                        | boolean | False      |
+| creator_subscriptions_quote_tweet_preview_enabled                       | boolean | False      |
+| freedom_of_speech_not_reach_fetch_enabled                               | boolean | True       |
+| standardized_nudges_misinfo                                             | boolean | True       |
+| tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | True       |
+| longform_notetweets_rich_text_read_enabled                              | boolean | True       |
+| longform_notetweets_inline_media_enabled                                | boolean | True       |
+| responsive_web_grok_image_annotation_enabled                            | boolean | True       |
+| responsive_web_enhance_cards_enabled                                    | boolean | False      |
+
+#### queryId<br>
+`None`<br>
+## TweetEditHistory<br>
+Request URL: `https://x.com/i/api/graphql/Phziw7D_GYmxl5PyZlMBtA/TweetEditHistory`<br>
+Request Method: `GET`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+| key                                                                     | type    | variable   |
+|:------------------------------------------------------------------------|:--------|:-----------|
+| premium_content_api_read_enabled                                        | boolean | False      |
+| communities_web_enable_tweet_community_results_fetch                    | boolean | True       |
+| c9s_tweet_anatomy_moderator_badge_enabled                               | boolean | True       |
+| responsive_web_grok_analyze_button_fetch_trends_enabled                 | boolean | False      |
+| responsive_web_grok_analyze_post_followups_enabled                      | boolean | False      |
+| responsive_web_jetfuel_frame                                            | boolean | False      |
+| responsive_web_grok_share_attachment_enabled                            | boolean | True       |
+| freedom_of_speech_not_reach_fetch_enabled                               | boolean | True       |
+| standardized_nudges_misinfo                                             | boolean | True       |
+| tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | True       |
+| rweb_video_screen_enabled                                               | boolean | False      |
+| responsive_web_edit_tweet_api_enabled                                   | boolean | True       |
+| graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | True       |
+| view_counts_everywhere_api_enabled                                      | boolean | True       |
+| longform_notetweets_consumption_enabled                                 | boolean | True       |
+| responsive_web_twitter_article_tweet_consumption_enabled                | boolean | True       |
+| tweet_awards_web_tipping_enabled                                        | boolean | False      |
+| responsive_web_grok_show_grok_translated_post                           | boolean | False      |
+| responsive_web_grok_analysis_button_from_backend                        | boolean | False      |
+| creator_subscriptions_quote_tweet_preview_enabled                       | boolean | False      |
+| longform_notetweets_rich_text_read_enabled                              | boolean | True       |
+| longform_notetweets_inline_media_enabled                                | boolean | True       |
+| payments_enabled                                                        | boolean | False      |
+| profile_label_improvements_pcf_label_in_post_enabled                    | boolean | True       |
+| rweb_tipjar_consumption_enabled                                         | boolean | True       |
+| verified_phone_label_enabled                                            | boolean | False      |
+| articles_preview_enabled                                                | boolean | True       |
+| responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean | False      |
+| responsive_web_grok_image_annotation_enabled                            | boolean | True       |
+| responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
+| creator_subscriptions_tweet_preview_api_enabled                         | boolean | True       |
+| responsive_web_enhance_cards_enabled                                    | boolean | False      |
 
 #### queryId<br>
 `None`<br>

@@ -1920,6 +1920,7 @@
       "queryId": "jUKA--0QkqGIFhmfRZdWrQ",
       "method": "GET",
       "features": {
+        "responsive_web_grok_bio_auto_translation_is_enabled": false,
         "hidden_profile_subscriptions_enabled": true,
         "payments_enabled": false,
         "profile_label_improvements_pcf_label_in_post_enabled": true,
@@ -4872,7 +4873,7 @@
       "queryId": "tSXwtgu8kgP3LQYIZdcihA",
       "method": "GET",
       "features": {
-        "responsive_web_birdwatch_enforce_author_user_quotas": false,
+        "responsive_web_birdwatch_enforce_author_user_quotas": true,
         "responsive_web_birdwatch_media_notes_enabled": true,
         "responsive_web_birdwatch_url_notes_enabled": false,
         "responsive_web_birdwatch_translation_enabled": true,
