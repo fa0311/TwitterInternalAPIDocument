@@ -2716,6 +2716,9 @@
       "rweb_xchat_enabled": {
         "value": "false"
       },
+      "rweb_xchat_fs_worker": {
+        "value": "false"
+      },
       "rweb_xchat_logs": {
         "value": "false"
       },
@@ -6377,6 +6380,9 @@
         "rweb_xchat_enabled": {
           "value": "false"
         },
+        "rweb_xchat_fs_worker": {
+          "value": "false"
+        },
         "rweb_xchat_logs": {
           "value": "false"
         },
@@ -7430,7 +7436,7 @@
       "settingsVersion": "9c000fa3ec160e18704ffafee277676d"
     },
     "debug": {},
-    "featureSetToken": "cfd05c565134cc82de4488248925a35701df4747",
+    "featureSetToken": "e6b310c6380e42b85eb2c68c21fd3516ffe50077",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -7499,7 +7505,7 @@
   },
   "session": {
     "country": "XX",
-    "guestId": "175019456335247377",
+    "guestId": "175028102034840583",
     "hasCommunityMemberships": "false",
     "isActiveCreator": "false",
     "isLoaded": "false",
