@@ -1430,7 +1430,7 @@
         "value": "true"
       },
       "responsive_web_birdwatch_enforce_author_user_quotas": {
-        "value": "false"
+        "value": "true"
       },
       "responsive_web_birdwatch_fast_crh_time_from_note_cutoff": {
         "value": "3600000"
@@ -7427,10 +7427,10 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "211f86c06965b75adf6d9bdf8e8f146b"
+      "settingsVersion": "9c000fa3ec160e18704ffafee277676d"
     },
     "debug": {},
-    "featureSetToken": "9ee35cb96a82fb0548257215b9f3d7865ad0ec55",
+    "featureSetToken": "cfd05c565134cc82de4488248925a35701df4747",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -7499,7 +7499,7 @@
   },
   "session": {
     "country": "XX",
-    "guestId": "175010821049730705",
+    "guestId": "175019456335247377",
     "hasCommunityMemberships": "false",
     "isActiveCreator": "false",
     "isLoaded": "false",
