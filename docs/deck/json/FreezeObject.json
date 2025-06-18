@@ -165,32 +165,6 @@
     "Subscribers": "2"
   },
   {
-    "single_line": "singleline",
-    "format_inline": "format-inline"
-  },
-  {
-    "ActionsBar": "C.Z",
-    "ActionMenu": "w.Z",
-    "CallToAction": "a.ZP",
-    "EditCallout": "g.Z",
-    "Education": "E.Z",
-    "HighlightedUserLabel": "c.Z",
-    "Media": "x.Z",
-    "Place": "r.ZP",
-    "PromotedDetails": "u.Z",
-    "PromotedUserProfileCard": "_.Z",
-    "ReplyContext": "k.ZP",
-    "RichContent": "I.Z",
-    "SocialContext": "f.Z",
-    "Text": "T.Z",
-    "Tombstone": "h.Z",
-    "Timestamp": "b.Z",
-    "UserAvatar": "A.Z",
-    "UserFollowIndicator": "L.Z",
-    "UserName": "Z.Z",
-    "ArticleCard": "v.Z"
-  },
-  {
     "navButtons": "navigationButtons",
     "carouselRoot": "carouselRoot"
   },
@@ -214,6 +188,19 @@
     "veryNarrow": "veryNarrow"
   },
   "{[r.wide]:\"500\",[r.narrow]:\"300\",[r.veryNarrow]:\"200\"}",
+  {
+    "None": "None",
+    "Home": "Home",
+    "List": "List",
+    "Player": "Player",
+    "Setting": "Setting",
+    "Search": "Search",
+    "Unknown": "Unknown"
+  },
+  {
+    "VIDEO": "VIDEO",
+    "SHORT_VIDEO": "SHORT_VIDEO"
+  },
   "{\"__proto__\":\"null\",\"formatCaption\":\"function()\"{\"return()(0,a.WU)\"},\"formatDay\":\"function()\"{\"return()(0,a.WU)\"},\"formatMonthCaption\":\"function()\"{\"return()(0,a.WU)\"},\"formatWeekNumber\":\"function()\"{return\"\".concat()},\"formatWeekdayName\":\"function()\"{\"return()(0,a.WU)\"},\"formatYearCaption\":\"function()\"{\"return()(0,a.WU)\"}}",
   "{\"__proto__\":\"null\",\"labelDay\":\"function()\"{\"return()(0,a.WU)\"},\"labelMonthDropdown\":\"function()\"{return\"Month: \"},\"labelNext\":\"function()\"{return\"Go to next month\"},\"labelPrevious\":\"function()\"{return\"Go to previous month\"},\"labelWeekNumber\":\"function()\"{return\"Week n. \".concat()},\"labelWeekday\":\"function()\"{\"return()(0,a.WU)\"},\"labelYearDropdown\":\"function()\"{return\"Year: \"}}",
   {
@@ -365,15 +352,15 @@
   {
     "OVERVIEW": {
       "id": "OVERVIEW",
-      "label": "o().d59dbf8a"
+      "label": "a().d59dbf8a"
     },
     "MATCHES": {
       "id": "GAMES",
-      "label": "o().e2811afc"
+      "label": "a().e2811afc"
     },
     "STANDINGS": {
       "id": "STANDINGS",
-      "label": "o().j081fa34"
+      "label": "a().j081fa34"
     }
   },
   {
@@ -645,7 +632,7 @@
   "{[v.S.Alert]:\"u.default\",[v.S.Info]:\"p.default\",[v.S.Warning]:\"u.default\"}",
   "{\"InsufficientFunds\":{\"message\":\"Your account balance is insufficient to make this transfer. Please fund your account and then try again.\",\"action\":{\"link\":\"l.IN\",\"label\":\"Deposit\"}},\"InvalidReceiver\":{\"message\":\"Transfers to this account are unavailable right now. Please try again later.\"},\"InvalidReceiverCurrentState\":{\"message\":\"Transfers to this account are unavailable right now. Please try again later.\"},\"InvalidReceiverPreferences\":{\"message\":\"This account blocked this type of transaction.\",\"getMessage\":\"()\"{\"counterPartyScreenName\":\"e\"}e?`@${\"e\"}`:\"This account\"},\"InvalidSender\":{\"message\":\"Requests to this account are unavailable right now. Please try again later.\"},\"InvalidSenderCurrentState\":{\"message\":\"Requests to this account are unavailable right now. Please try again later.\"},\"InvalidSenderPreferences\":{\"message\":\"This account blocked this type of transaction.\",\"getMessage\":\"()\"{\"counterPartyScreenName\":\"e\"}e?`@${\"e\"}`:\"This account\"},\"IdempotencyKeyConflict\":{\"message\":\"You might be attempting a duplicate payment. Please check before trying again!\",\"action\":{\"link\":\"l.gp\",\"label\":\"View account\"}},\"BankIssue\":{\"message\":\"There was an issue with your bank while processing your transfer. Please try again.\"},\"LoginRequired\":{\"message\":\"You need to login to verify your bank account before you can proceed.\",\"action\":{\"link\":\"l.VN\",\"label\":\"Verify\"}},\"PaymentMethodLinkRequired\":{\"message\":\"You need to login to verify your bank account before you can proceed.\",\"action\":{\"link\":\"l.VN\",\"label\":\"Verify\"}},\"InsufficientBalance\":{\"message\":\"Your bank account balance is insufficient. Please check your balance and try again.\"},\"TwoFactorAuthRequired\":{\"message\":\"You need to setup a passkey before you can proceed.\",\"action\":{\"link\":\"l.ul\",\"label\":\"Setup\"}},\"VolumeLimitExceeded7DaySend\":{\"message\":\"s()\"{\"type\":\"weekly\"}{\"link\":\"l.iE.limits\",\"label\":\"o\"}},\"VolumeLimitExceeded30DaySend\":{\"message\":\"s()\"{\"type\":\"monthly\"}{\"link\":\"l.iE.limits\",\"label\":\"o\"}},\"VolumeLimitExceeded7Day\":{\"message\":\"s()\"{\"type\":\"weekly\"}{\"link\":\"l.iE.limits\",\"label\":\"o\"}},\"VolumeLimitExceeded30Day\":{\"message\":\"s()\"{\"type\":\"monthly\"}{\"link\":\"l.iE.limits\",\"label\":\"o\"}},\"AdditionalKycRequiredVolumeLimitExceeded7DaySend\":{\"message\":\"i()\"{\"type\":\"weekly\"}{\"link\":\"l.AU.tier2.verifyIdentityPath\",\"label\":\"Verify your identity\"}},\"AdditionalKycRequiredVolumeLimitExceeded30DaySend\":{\"message\":\"i()\"{\"type\":\"monthly\"}{\"link\":\"l.AU.tier2.verifyIdentityPath\",\"label\":\"Verify your identity\"}},\"AdditionalKycRequiredTotalVolumeLimitExceeded\":{\"message\":\"This action would exceed your limits. We need to verify your identify to continue.\",\"action\":{\"link\":\"l.AU.tier2.verifyIdentityPath\",\"label\":\"Verify your identity\"}},\"Velocity\":{\"message\":\"You have temporarily exceeded your limits. Please try again later.\"},\"Default\":{\"message\":\"Something went wrong. Please try again later.\"}}",
   "{[T.g.Cancelled]:\"Cancelled\",[T.g.Failed]:\"Failed\",[T.g.Expired]:\"Expired\",[T.g.Pending]:\"Pending\",[T.g.Hold]:\"Pending\",[T.g.AuthorizationOpen]:\"Pending\",[T.g.AwaitingUnrecognizedConfirmation]:\"Awaiting approval\",[T.g.PendingReview]:\"Under review\",[T.g.PendingRecipientAction]:\"Pending\",[T.g.PendingRecipientOnboarding]:\"Pending\",[T.g.AwaitingRequestAcceptance]:\"Pending\",[T.g.PendingRecipientAcceptance]:\"Pending\",[T.g.PinVerificationRequired]:\"Pending\",[T.g.RequestVerificationRequired]:\"Pending\",[T.g.VerificationRequired]:\"Pending\",[T.g.RejectedByRecipient]:\"Rejected\",[T.g.RequestRejected]:\"Rejected\",[T.g.Settled]:\"Completed\",[T.g.SoftSettled]:\"Completed\",[T.g.AuthorizationClosed]:\"Completed\",[T.g.PendingFundingTransactionSettlement]:\"Pending\",[T.g.CreditedAwaitingSettlement]:\"Pending\"}",
-  "{[D.P.RejectedLimitsExceeded]:\"Declined due to exceeded limits\",[D.P.InReview]:\"Under review\",[D.P.RejectedByUnsupportedRegion]:\"Unsupported region\",[D.P.RejectedNotSufficientFunds]:\"Declined due to insufficient funds\",[D.P.RejectedCardPaymentsDisabled]:\"Flagged as suspicious\",[D.P.UnrecognizedActivityConfirmed]:\"Declined\",[D.P.UnrecognizedActivityRejected]:\"Flagged as suspicious\"}",
+  "{[D.P.RejectedLimitsExceeded]:\"Declined due to exceeded limits\",[D.P.InReview]:\"Under review\",[D.P.RejectedByUnsupportedRegion]:\"Unsupported region\",[D.P.RejectedNotSufficientFunds]:\"Declined due to insufficient funds\",[D.P.RejectedCardPaymentsDisabled]:\"Flagged as suspicious\",[D.P.UnrecognizedActivityConfirmed]:\"Declined\",[D.P.UnrecognizedActivityRejected]:\"Flagged as suspicious\",[D.P.RejectedCardInactive]:\"Declined due to inactive card\"}",
   "{[T.g.PendingRecipientAcceptance]:\"F\",[T.g.PendingRecipientOnboarding]:\"F\",[T.g.PendingRecipientAction]:\"F\"}",
   "{[T.g.AwaitingRequestAcceptance]:\"F\",[T.g.PendingRequestAcceptance]:\"F\",[T.g.RequestVerificationRequired]:\"F\"}",
   "{[g.t.Checking]:\"Checking\",[g.t.Savings]:\"Savings\"}",
