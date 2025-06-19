@@ -3041,12 +3041,7 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key         | type   | variable   |
-|:------------|:-------|:-----------|
-| group_id    | ...    | o          |
-| object_id   | ...    | n          |
-| action_type | ...    | t          |
-
+`None`<br>
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
@@ -3388,9 +3383,9 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key      | type   | variable   |
-|:---------|:-------|:-----------|
-| tweet_id | ...    | t.tweet_id |
+| key            | type   | variable   |
+|:---------------|:-------|:-----------|
+| conversationId | ...    | t          |
 
 #### features<br>
 | key                                                                     | type    | variable   |
