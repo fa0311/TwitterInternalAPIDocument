@@ -8783,13 +8783,6 @@
           }
         }
       }
-    },
-    "func_name": "D",
-    "func_name_init": "f",
-    "query": {
-      "group_id": "o",
-      "object_id": "n",
-      "action_type": "t"
     }
   },
   {
@@ -9673,7 +9666,7 @@
     "func_name": "A",
     "func_name_init": "x",
     "query": {
-      "tweet_id": "t.tweet_id"
+      "conversationId": "t"
     }
   },
   {
@@ -15873,7 +15866,10 @@
           }
         }
       }
-    }
+    },
+    "func_name": "U",
+    "func_name_init": "N",
+    "query": {}
   },
   {
     "n": "22687",
@@ -20257,7 +20253,10 @@
           }
         }
       }
-    }
+    },
+    "func_name": "U",
+    "func_name_init": "N",
+    "query": {}
   },
   {
     "n": "22687",
@@ -20836,7 +20835,10 @@
           }
         }
       }
-    }
+    },
+    "func_name": "U",
+    "func_name_init": "N",
+    "query": {}
   },
   {
     "n": "22687",
@@ -20917,7 +20919,10 @@
           }
         }
       }
-    }
+    },
+    "func_name": "U",
+    "func_name_init": "N",
+    "query": {}
   },
   {
     "n": "22687",
