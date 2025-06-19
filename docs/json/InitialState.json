@@ -2585,7 +2585,7 @@
         "value": "false"
       },
       "rweb_home_jot_migrate_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "rweb_home_mixer_enable_social_context_filter_social_contexts": {
         "value": "true"
@@ -3737,9 +3737,6 @@
       },
       "x_jetfuel_enable_test_cluster": {
         "value": "false"
-      },
-      "xprofile_blocked_by_view_enabled": {
-        "value": "true"
       },
       "xprofile_consumption_enabled": {
         "value": "true"
@@ -7402,9 +7399,6 @@
         "x_jetfuel_enable_test_cluster": {
           "value": "false"
         },
-        "xprofile_blocked_by_view_enabled": {
-          "value": "true"
-        },
         "xprofile_consumption_enabled": {
           "value": "true"
         },
@@ -7433,10 +7427,10 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "9c000fa3ec160e18704ffafee277676d"
+      "settingsVersion": "4d30849c717fce00d169cc86e211c7df"
     },
     "debug": {},
-    "featureSetToken": "e6b310c6380e42b85eb2c68c21fd3516ffe50077",
+    "featureSetToken": "3c4bcf54924f2166e133beee2f4517883cf08a24",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -7505,7 +7499,7 @@
   },
   "session": {
     "country": "XX",
-    "guestId": "175028051453076296",
+    "guestId": "175036690177129379",
     "hasCommunityMemberships": "false",
     "isActiveCreator": "false",
     "isLoaded": "false",
