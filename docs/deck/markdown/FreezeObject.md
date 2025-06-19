@@ -112,6 +112,12 @@ This document is entirely auto-generated and may contain errors.<br>
 | Running      | Running      |
 | TimedOut     | TimedOut     |
 
+| constant    | value       |
+|:------------|:------------|
+| on          | on          |
+| off         | off         |
+| unavailable | unavailable |
+
 | constant               |   value |
 |:-----------------------|--------:|
 | RequestSubmitted       |       1 |
@@ -372,6 +378,18 @@ This document is entirely auto-generated and may contain errors.<br>
 | ...T       | _       |
 | ...n       | _       |
 | ...l.k     | _       |
+
+| constant   | value     |
+|:-----------|:----------|
+| AppStore   | AppStore  |
+| PlayStore  | PlayStore |
+| Stripe     | Stripe    |
+| Web        | Web       |
+
+| constant    | value       |
+|:------------|:------------|
+| InitialSale | InitialSale |
+| Renewal     | Renewal     |
 
 | constant   | value    |
 |:-----------|:---------|
@@ -795,29 +813,6 @@ This document is entirely auto-generated and may contain errors.<br>
 |:-----------|:----------|
 | Affiliate  | Affiliate |
 
-| constant                | value   |
-|:------------------------|:--------|
-| ActionsBar              | f.Z     |
-| ActionMenu              | T.Z     |
-| CallToAction            | o.ZP    |
-| EditCallout             | y.Z     |
-| Education               | _.Z     |
-| HighlightedUserLabel    | l.Z     |
-| Media                   | v.Z     |
-| Place                   | a.ZP    |
-| PromotedDetails         | u.Z     |
-| PromotedUserProfileCard | x.Z     |
-| ReplyContext            | I.ZP    |
-| RichContent             | k.Z     |
-| SocialContext           | h.Z     |
-| Text                    | E.Z     |
-| Tombstone               | g.Z     |
-| Timestamp               | p.Z     |
-| UserAvatar              | M.Z     |
-| UserFollowIndicator     | S.Z     |
-| UserName                | P.Z     |
-| ArticleCard             | b.Z     |
-
 | constant   | value                                                                                                                |
 |:-----------|:---------------------------------------------------------------------------------------------------------------------|
 | apple      | https://apps.apple.com/account/billing                                                                               |
@@ -915,16 +910,6 @@ This document is entirely auto-generated and may contain errors.<br>
 | Unused6    | _Unused6   |
 | Unused7    | _Unused7   |
 
-| constant   | value      |
-|:-----------|:-----------|
-| wide       | wide       |
-| narrow     | narrow     |
-| veryNarrow | veryNarrow |
-
-```internal process
-# Error
-{[n.wide]:"500",[n.narrow]:"300",[n.veryNarrow]:"200"}
-```
 ```internal process
 # Error
 {"__proto__":"null","DEG2RAD":"at","RAD2DEG":"ot","generateUUID":"lt","clamp":"ct","euclideanModulo":"ht","mapLinear":"function()"{return n+()*(t-e)/(s-n)},"inverseLerp":"function()"{return t!==e?()/(i-t):"0"},"lerp":"ut","damp":"function()"{"return ut()"},"pingpong":"function()"{return e-Math.abs()...
