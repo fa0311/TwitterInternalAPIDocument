@@ -6378,7 +6378,7 @@
           "value": "false"
         },
         "rweb_xchat_fs_worker": {
-          "value": "false"
+          "value": "true"
         },
         "rweb_xchat_logs": {
           "value": "false"
@@ -6752,7 +6752,7 @@
           "value": "1739246400000"
         },
         "subscriptions_marketing_page_supergrok_content_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "subscriptions_marketing_page_web_refresh_enabled": {
           "value": "true"
@@ -7427,7 +7427,7 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "4d30849c717fce00d169cc86e211c7df"
+      "settingsVersion": "e3ffd3e4da95b41b2e076499c6ad9a02"
     },
     "debug": {},
     "featureSetToken": "3c4bcf54924f2166e133beee2f4517883cf08a24",
@@ -7499,7 +7499,7 @@
   },
   "session": {
     "country": "XX",
-    "guestId": "175036741994366058",
+    "guestId": "175045376260974809",
     "hasCommunityMemberships": "false",
     "isActiveCreator": "false",
     "isLoaded": "false",
