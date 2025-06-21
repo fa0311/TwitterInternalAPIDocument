@@ -2585,7 +2585,7 @@
         "value": "false"
       },
       "rweb_home_jot_migrate_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "rweb_home_mixer_enable_social_context_filter_social_contexts": {
         "value": "true"
@@ -2714,6 +2714,9 @@
         "value": "false"
       },
       "rweb_xchat_enabled": {
+        "value": "false"
+      },
+      "rweb_xchat_fs_worker": {
         "value": "false"
       },
       "rweb_xchat_logs": {
@@ -3734,9 +3737,6 @@
       },
       "x_jetfuel_enable_test_cluster": {
         "value": "false"
-      },
-      "xprofile_blocked_by_view_enabled": {
-        "value": "true"
       },
       "xprofile_consumption_enabled": {
         "value": "true"
@@ -6377,6 +6377,9 @@
         "rweb_xchat_enabled": {
           "value": "false"
         },
+        "rweb_xchat_fs_worker": {
+          "value": "true"
+        },
         "rweb_xchat_logs": {
           "value": "false"
         },
@@ -6749,7 +6752,7 @@
           "value": "1739246400000"
         },
         "subscriptions_marketing_page_supergrok_content_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "subscriptions_marketing_page_web_refresh_enabled": {
           "value": "true"
@@ -7396,9 +7399,6 @@
         "x_jetfuel_enable_test_cluster": {
           "value": "false"
         },
-        "xprofile_blocked_by_view_enabled": {
-          "value": "true"
-        },
         "xprofile_consumption_enabled": {
           "value": "true"
         },
@@ -7427,10 +7427,10 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "9c000fa3ec160e18704ffafee277676d"
+      "settingsVersion": "e3ffd3e4da95b41b2e076499c6ad9a02"
     },
     "debug": {},
-    "featureSetToken": "cfd05c565134cc82de4488248925a35701df4747",
+    "featureSetToken": "3c4bcf54924f2166e133beee2f4517883cf08a24",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -7499,7 +7499,7 @@
   },
   "session": {
     "country": "XX",
-    "guestId": "175019456335247377",
+    "guestId": "175045376260974809",
     "hasCommunityMemberships": "false",
     "isActiveCreator": "false",
     "isLoaded": "false",

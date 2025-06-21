@@ -5232,3 +5232,25 @@
 - responsive_web_grok_bio_auto_translation_is_enabled<br>
 #### remove<br>
 - None<br>
+## 2025/06/18<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- rweb_xchat_fs_worker<br>
+#### remove<br>
+- None<br>
+## 2025/06/19<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- xprofile_blocked_by_view_enabled<br>
