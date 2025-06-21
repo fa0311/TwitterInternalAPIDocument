@@ -232,29 +232,6 @@ This document is entirely auto-generated and may contain errors.<br>
 # Error
 {"__proto__":"null","labelDay":"function()"{"return()(0,a.WU)"},"labelMonthDropdown":"function()"{return"Month: "},"labelNext":"function()"{return"Go to next month"},"labelPrevious":"function()"{return"Go to previous month"},"labelWeekNumber":"function()"{return"Week n. ".concat()},"labelWeekday":"f...
 ```
-| constant                | value   |
-|:------------------------|:--------|
-| ActionsBar              | f.Z     |
-| ActionMenu              | T.Z     |
-| CallToAction            | o.ZP    |
-| EditCallout             | y.Z     |
-| Education               | _.Z     |
-| HighlightedUserLabel    | l.Z     |
-| Media                   | v.Z     |
-| Place                   | a.ZP    |
-| PromotedDetails         | u.Z     |
-| PromotedUserProfileCard | x.Z     |
-| ReplyContext            | I.ZP    |
-| RichContent             | k.Z     |
-| SocialContext           | h.Z     |
-| Text                    | E.Z     |
-| Tombstone               | g.Z     |
-| Timestamp               | p.Z     |
-| UserAvatar              | M.Z     |
-| UserFollowIndicator     | S.Z     |
-| UserName                | P.Z     |
-| ArticleCard             | b.Z     |
-
 | constant                | value                   |
 |:------------------------|:------------------------|
 | AutoSpamDetectorEnabled | AutoSpamDetectorEnabled |
@@ -679,27 +656,23 @@ This document is entirely auto-generated and may contain errors.<br>
 | Unspecified   | Unspecified   |
 | Withdraw      | Withdraw      |
 
-| constant   | value    |
-|:-----------|:---------|
-| Delayed    | Delayed  |
-| RealTime   | RealTime |
-
-| constant                      | value                         |
-|:------------------------------|:------------------------------|
-| Cancelled                     | Cancelled                     |
-| InReview                      | InReview                      |
-| RejectedByAutoReview          | RejectedByAutoReview          |
-| RejectedByManualReview        | RejectedByManualReview        |
-| RejectedByUnsupportedRegion   | RejectedByUnsupportedRegion   |
-| RejectedCardInactive          | RejectedCardInactive          |
-| RejectedCardPaymentsDisabled  | RejectedCardPaymentsDisabled  |
-| RejectedLimitsExceeded        | RejectedLimitsExceeded        |
-| RejectedNotSufficientFunds    | RejectedNotSufficientFunds    |
-| Returned                      | Returned                      |
-| ReversedByAgent               | ReversedByAgent               |
-| UnrecognizedActivityConfirmed | UnrecognizedActivityConfirmed |
-| UnrecognizedActivityRejected  | UnrecognizedActivityRejected  |
-| Unspecified                   | Unspecified                   |
+| constant                          | value                             |
+|:----------------------------------|:----------------------------------|
+| Cancelled                         | Cancelled                         |
+| InReview                          | InReview                          |
+| RejectedByAutoReview              | RejectedByAutoReview              |
+| RejectedByManualReview            | RejectedByManualReview            |
+| RejectedByUnsupportedRegion       | RejectedByUnsupportedRegion       |
+| RejectedCardInactive              | RejectedCardInactive              |
+| RejectedCardPaymentsDisabled      | RejectedCardPaymentsDisabled      |
+| RejectedLimitsExceeded            | RejectedLimitsExceeded            |
+| RejectedMissingRequiredPermission | RejectedMissingRequiredPermission |
+| RejectedNotSufficientFunds        | RejectedNotSufficientFunds        |
+| Returned                          | Returned                          |
+| ReversedByAgent                   | ReversedByAgent                   |
+| UnrecognizedActivityConfirmed     | UnrecognizedActivityConfirmed     |
+| UnrecognizedActivityRejected      | UnrecognizedActivityRejected      |
+| Unspecified                       | Unspecified                       |
 
 | constant       | value          |
 |:---------------|:---------------|
