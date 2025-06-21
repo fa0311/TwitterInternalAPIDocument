@@ -6301,3 +6301,14 @@
 - None<br>
 #### remove<br>
 - xprofile_blocked_by_view_enabled<br>
+## 2025/06/21<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- payments_transfer_funding_sources_enabled<br>
