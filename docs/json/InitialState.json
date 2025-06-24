@@ -4914,7 +4914,7 @@
           "value": "https://abs.twimg.com/images/anniversary_wide.png"
         },
         "premium_webview_paywall_offer_variant": {
-          "value": ""
+          "value": "summer"
         },
         "premium_webview_paywall_offer_video_url": {
           "value": "https://abs.twimg.com/images/anniversary-theme.mp4"
@@ -7421,7 +7421,7 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "4d30849c717fce00d169cc86e211c7df"
+      "settingsVersion": "1f68f8c25f357cfc7706486f87f7041a"
     },
     "debug": {},
     "featureSetToken": "67b4ee7f9fbff14fae46a17396e5c64b7499bd5c",
@@ -7493,7 +7493,7 @@
   },
   "session": {
     "country": "XX",
-    "guestId": "175062609788693285",
+    "guestId": "175071250879675306",
     "hasCommunityMemberships": "false",
     "isActiveCreator": "false",
     "isLoaded": "false",
