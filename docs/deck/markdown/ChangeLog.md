@@ -5265,3 +5265,16 @@
 - None<br>
 #### remove<br>
 - payments_transfer_funding_sources_enabled<br>
+## 2025/06/24<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- responsive_web_castle_client_event_enabled<br>
+- responsive_web_castle_sdk_enabled<br>
+- subscriptions_upsells_profile_card_enabled<br>
+#### remove<br>
+- responsive_web_profile_header_search_button_enabled<br>

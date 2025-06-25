@@ -346,6 +346,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | MuteAd                                | MuteAd                                |
 | PostAnalytics                         | PostAnalytics                         |
 | PreRollAdsEligibility                 | PreRollAdsEligibility                 |
+| ProfileCard                           | ProfileCard                           |
 | ProfileSidebarAnalyticsUpsell         | ProfileSidebarAnalyticsUpsell         |
 | RadarPromoPage                        | RadarPromoPage                        |
 | RadarUpsell                           | RadarUpsell                           |
@@ -681,13 +682,13 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant              | value   |
 |:----------------------|:--------|
-| cardWidth             | t       |
+| cardWidth             | i       |
 | columnWidths          | o       |
 | columnWidthsRedesign  | r       |
 | sideNavWidths         | n       |
 | sideNavWidthsRedesign | l       |
 | contentWidths         | s       |
-| contentWidthsRedesign | i       |
+| contentWidthsRedesign | t       |
 | wideTabBarWidth       | u       |
 | dmDrawerHeight        | c       |
 | dmDrawerWidth         | h       |
@@ -1478,7 +1479,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | constant   | value   |
 |:-----------|:--------|
 | ...s       | _       |
-| ...i       | _       |
+| ...t       | _       |
 | GENERIC    | Generic |
 
 | constant   | value     |
@@ -1489,19 +1490,19 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant   | value   |
 |:-----------|:--------|
-| type       | t.HOME  |
+| type       | i.HOME  |
 
 | constant   | value         |
 |:-----------|:--------------|
-| type       | t.HOME_LATEST |
+| type       | i.HOME_LATEST |
 
 | constant   | value                   |
 |:-----------|:------------------------|
-| type       | t.CREATOR_SUBSCRIPTIONS |
+| type       | i.CREATOR_SUBSCRIPTIONS |
 
 ```internal process
 # Error
-{[t.HOME]:"home",[t.HOME_LATEST]:"latest",[t.LIST]:"pinned_list",[t.CREATOR_SUBSCRIPTIONS]:"subscribed",[t.COMMUNITY]:"community",[t.GENERIC]:"generic"}
+{[i.HOME]:"home",[i.HOME_LATEST]:"latest",[i.LIST]:"pinned_list",[i.CREATOR_SUBSCRIPTIONS]:"subscribed",[i.COMMUNITY]:"community",[i.GENERIC]:"generic"}
 ```
 | constant         | value          |
 |:-----------------|:---------------|
@@ -2363,8 +2364,8 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant              | value     |
 |:----------------------|:----------|
-| appBarHeight          | v         |
-| appBarHeightPx        | _         |
+| appBarHeight          | _         |
+| appBarHeightPx        | v         |
 | conversationLineWidth | f.space2  |
 | gutterHorizontal      | w.space16 |
 | gutterHorizontalPx    | f.space16 |
@@ -2375,8 +2376,8 @@ This document is entirely auto-generated and may contain errors.<br>
 |:--------------------|:--------|
 | aspectRatios        | s       |
 | baseFontSize        | g       |
-| borderRadii         | t       |
-| borderRadiiPx       | i       |
+| borderRadii         | i       |
+| borderRadiiPx       | t       |
 | borderWidths        | c       |
 | borderWidthsPx      | u       |
 | breakpoints         | n       |

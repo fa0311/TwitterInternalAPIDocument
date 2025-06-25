@@ -319,6 +319,7 @@
     "MuteAd": "MuteAd",
     "PostAnalytics": "PostAnalytics",
     "PreRollAdsEligibility": "PreRollAdsEligibility",
+    "ProfileCard": "ProfileCard",
     "ProfileSidebarAnalyticsUpsell": "ProfileSidebarAnalyticsUpsell",
     "RadarPromoPage": "RadarPromoPage",
     "RadarUpsell": "RadarUpsell",
@@ -660,13 +661,13 @@
     "max": "400"
   },
   {
-    "cardWidth": "t",
+    "cardWidth": "i",
     "columnWidths": "o",
     "columnWidthsRedesign": "r",
     "sideNavWidths": "n",
     "sideNavWidthsRedesign": "l",
     "contentWidths": "s",
-    "contentWidthsRedesign": "i",
+    "contentWidthsRedesign": "t",
     "wideTabBarWidth": "u",
     "dmDrawerHeight": "c",
     "dmDrawerWidth": "h"
@@ -813,7 +814,7 @@
     "address": "address",
     "questions": "questions"
   },
-  "{[ne.onboarding]:{\"path\":`${\"le\"}/onboarding`,\"defaultClosePath\":\"/\",\"redirectOnCompletion\":\"!0\",\"invalidateOnClose\":\"!0\"},[ne.upgradeToKycVerified]:{\"path\":`${\"le\"}/tier2`,\"defaultClosePath\":\"/\",\"redirectOnCompletion\":\"!0\",\"invalidateOnClose\":\"!0\"},[ne.upgradeToKycDocumentsVerified]:{\"path\":`${\"le\"}/tier3`,\"defaultClosePath\":\"/\",\"redirectOnCompletion\":\"!0\",\"invalidateOnClose\":\"!0\"},[ne.selfieVerification]:{\"path\":`${\"le\"}/selfie`,\"defaultClosePath\":\"/\",\"redirectOnCompletion\":\"!0\",\"invalidateOnClose\":\"!0\"},[ne.updateName]:{\"path\":`${\"le\"}/update`,\"defaultClosePath\":\"ae.personal\",\"redirectOnCompletion\":\"!0\",\"invalidateOnClose\":\"!0\"},[ne.updateAddress]:{\"path\":`${\"le\"}/update`,\"defaultClosePath\":\"ae.personal\",\"redirectOnCompletion\":\"!0\",\"invalidateOnClose\":\"!0\"},[ne.questions]:{\"path\":`${\"le\"}/questions`,\"defaultClosePath\":\"l\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!0\"},[ne.updatePin]:{\"path\":`${\"le\"}/update-pin`,\"defaultClosePath\":\"ae.securityPrivacy\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\"},[ne.forgotPin]:{\"path\":`${\"le\"}/forgot-pin`,\"defaultClosePath\":\"ae.securityPrivacy\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\"},[ne.changeCardPin]:{\"path\":`${\"le\"}/change-card-pin`,\"defaultClosePath\":\"j\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\"},[ne.accountRouting]:{\"path\":`${\"le\"}/account-routing-numbers`,\"defaultClosePath\":\"l\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"allowClipboardWrite\":\"!0\",\"invalidateOnClose\":\"!1\"},[ne.challenge]:{\"path\":`${\"le\"}/challenge`,\"defaultClosePath\":\"/\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!0\"},[ne.personal]:{\"path\":`${\"le\"}/info`,\"defaultClosePath\":\"ae.personal\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"invalidateOnClose\":\"!1\"},[ne.cardOnboarding]:{\"path\":`${\"le\"}/order-card`,\"defaultClosePath\":\"l\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\"},[ne.address]:{\"path\":`${\"le\"}/address`,\"defaultClosePath\":\"j\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"invalidateOnClose\":\"!1\"}}",
+  "{[ne.onboarding]:{\"path\":`${\"le\"}/onboarding`,\"defaultClosePath\":\"/\",\"redirectOnCompletion\":\"!0\",\"invalidateOnClose\":\"!0\"},[ne.upgradeToKycVerified]:{\"path\":`${\"le\"}/tier2`,\"defaultClosePath\":\"/\",\"redirectOnCompletion\":\"!0\",\"invalidateOnClose\":\"!0\"},[ne.upgradeToKycDocumentsVerified]:{\"path\":`${\"le\"}/tier3`,\"defaultClosePath\":\"/\",\"redirectOnCompletion\":\"!0\",\"invalidateOnClose\":\"!0\"},[ne.selfieVerification]:{\"path\":`${\"le\"}/selfie`,\"defaultClosePath\":\"/\",\"redirectOnCompletion\":\"!0\",\"invalidateOnClose\":\"!0\"},[ne.updateName]:{\"path\":`${\"le\"}/update`,\"defaultClosePath\":\"ae.personal\",\"redirectOnCompletion\":\"!0\",\"invalidateOnClose\":\"!0\"},[ne.updateAddress]:{\"path\":`${\"le\"}/update`,\"defaultClosePath\":\"ae.personal\",\"redirectOnCompletion\":\"!0\",\"invalidateOnClose\":\"!0\"},[ne.questions]:{\"path\":`${\"le\"}/questions`,\"defaultClosePath\":\"l\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!0\"},[ne.updatePin]:{\"path\":`${\"le\"}/update-pin`,\"defaultClosePath\":\"ae.securityPrivacy\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\"},[ne.forgotPin]:{\"path\":`${\"le\"}/forgot-pin`,\"defaultClosePath\":\"ae.securityPrivacy\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\"},[ne.changeCardPin]:{\"path\":`${\"le\"}/change-card-pin`,\"defaultClosePath\":\"G\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\"},[ne.accountRouting]:{\"path\":`${\"le\"}/account-routing-numbers`,\"defaultClosePath\":\"l\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"allowClipboardWrite\":\"!0\",\"invalidateOnClose\":\"!1\"},[ne.challenge]:{\"path\":`${\"le\"}/challenge`,\"defaultClosePath\":\"/\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!0\"},[ne.personal]:{\"path\":`${\"le\"}/info`,\"defaultClosePath\":\"ae.personal\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"invalidateOnClose\":\"!1\"},[ne.cardOnboarding]:{\"path\":`${\"le\"}/order-card`,\"defaultClosePath\":\"l\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\"},[ne.address]:{\"path\":`${\"le\"}/address`,\"defaultClosePath\":\"G\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"invalidateOnClose\":\"!1\"}}",
   {
     "tier2": "tier2",
     "tier3": "tier3",
@@ -1410,7 +1411,7 @@
   },
   {
     "...s": "_",
-    "...i": "_",
+    "...t": "_",
     "GENERIC": "Generic"
   },
   {
@@ -1419,15 +1420,15 @@
     "RELEVANCE": "Relevance"
   },
   {
-    "type": "t.HOME"
+    "type": "i.HOME"
   },
   {
-    "type": "t.HOME_LATEST"
+    "type": "i.HOME_LATEST"
   },
   {
-    "type": "t.CREATOR_SUBSCRIPTIONS"
+    "type": "i.CREATOR_SUBSCRIPTIONS"
   },
-  "{[t.HOME]:\"home\",[t.HOME_LATEST]:\"latest\",[t.LIST]:\"pinned_list\",[t.CREATOR_SUBSCRIPTIONS]:\"subscribed\",[t.COMMUNITY]:\"community\",[t.GENERIC]:\"generic\"}",
+  "{[i.HOME]:\"home\",[i.HOME_LATEST]:\"latest\",[i.LIST]:\"pinned_list\",[i.CREATOR_SUBSCRIPTIONS]:\"subscribed\",[i.COMMUNITY]:\"community\",[i.GENERIC]:\"generic\"}",
   {
     "fetchStatus": "A.ZP.NONE",
     "selectedTimeline": "r.oO",
@@ -2347,8 +2348,8 @@
     "space80": "D(b.spaces.space72)"
   },
   {
-    "appBarHeight": "v",
-    "appBarHeightPx": "_",
+    "appBarHeight": "_",
+    "appBarHeightPx": "v",
     "conversationLineWidth": "f.space2",
     "gutterHorizontal": "w.space16",
     "gutterHorizontalPx": "f.space16",
@@ -2358,8 +2359,8 @@
   {
     "aspectRatios": "s",
     "baseFontSize": "g",
-    "borderRadii": "t",
-    "borderRadiiPx": "i",
+    "borderRadii": "i",
+    "borderRadiiPx": "t",
     "borderWidths": "c",
     "borderWidthsPx": "u",
     "breakpoints": "n",
