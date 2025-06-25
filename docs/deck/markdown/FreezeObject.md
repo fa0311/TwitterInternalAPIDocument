@@ -8,26 +8,54 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant   | value   |
 |:-----------|:--------|
-| small      | small   |
-| medium     | medium  |
+| Active     | active  |
+| Expand     | expand  |
+| Remove     | remove  |
 
-| constant   | value                      |
-|:-----------|:---------------------------|
-| primary    | {'aria-live': 'polite'}    |
-| exclusive  | {'aria-live': 'polite'}    |
-| danger     | {'aria-live': 'assertive'} |
-| success    | {'aria-live': 'polite'}    |
-| warning    | {'aria-live': 'polite'}    |
+| constant     | value        |
+|:-------------|:-------------|
+| Canceled     | Canceled     |
+| Ended        | Ended        |
+| NotStarted   | NotStarted   |
+| PrePublished | PrePublished |
+| Running      | Running      |
+| TimedOut     | TimedOut     |
 
-| constant     | value   |
-|:-------------|:--------|
-| ANIMATED_GIF | d       |
-| VIDEO        | c       |
-| VINE         | u       |
+| constant    | value       |
+|:------------|:------------|
+| scheduled   | scheduled   |
+| ended       | ended       |
+| live        | live        |
+| canceled    | canceled    |
+| unavailable | unavailable |
+| replay      | replay      |
 
-| constant    | value        |
-|:------------|:-------------|
-| TopicFilled | TOPIC_FILLED |
+| constant           |   value |
+|:-------------------|--------:|
+| general            |       0 |
+| employeesOnly      |       1 |
+| superFollowersOnly |       2 |
+
+| constant           | value        |
+|:-------------------|:-------------|
+| relativeDays       | i().c333da63 |
+| time               | i().d725a289 |
+| weekdayMonthAndDay | i().h8054d91 |
+| scheduledStart     | i().d0e7b11b |
+
+| constant   | value               |
+|:-----------|:--------------------|
+| today      | m().relativeDays()  |
+| tomorrow   | m(0).relativeDays() |
+
+| constant     | value        |
+|:-------------|:-------------|
+| Canceled     | Canceled     |
+| Ended        | Ended        |
+| NotStarted   | NotStarted   |
+| PrePublished | PrePublished |
+| Running      | Running      |
+| TimedOut     | TimedOut     |
 
 | constant               |   value |
 |:-----------------------|--------:|
@@ -566,6 +594,11 @@ This document is entirely auto-generated and may contain errors.<br>
 | Transfer      | Transfer      |
 | Unspecified   | Unspecified   |
 | Withdraw      | Withdraw      |
+
+| constant   | value    |
+|:-----------|:---------|
+| Delayed    | Delayed  |
+| RealTime   | RealTime |
 
 | constant                          | value                             |
 |:----------------------------------|:----------------------------------|
