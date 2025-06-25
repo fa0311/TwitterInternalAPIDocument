@@ -5,33 +5,48 @@
     "comingUp": "s().be6ef5b4"
   },
   {
-    "small": "small",
-    "medium": "medium"
+    "Active": "active",
+    "Expand": "expand",
+    "Remove": "remove"
   },
   {
-    "primary": {
-      "aria-live": "polite"
-    },
-    "exclusive": {
-      "aria-live": "polite"
-    },
-    "danger": {
-      "aria-live": "assertive"
-    },
-    "success": {
-      "aria-live": "polite"
-    },
-    "warning": {
-      "aria-live": "polite"
-    }
+    "Canceled": "Canceled",
+    "Ended": "Ended",
+    "NotStarted": "NotStarted",
+    "PrePublished": "PrePublished",
+    "Running": "Running",
+    "TimedOut": "TimedOut"
   },
   {
-    "ANIMATED_GIF": "d",
-    "VIDEO": "c",
-    "VINE": "u"
+    "scheduled": "scheduled",
+    "ended": "ended",
+    "live": "live",
+    "canceled": "canceled",
+    "unavailable": "unavailable",
+    "replay": "replay"
   },
   {
-    "TopicFilled": "TOPIC_FILLED"
+    "general": "0",
+    "employeesOnly": "1",
+    "superFollowersOnly": "2"
+  },
+  {
+    "relativeDays": "i().c333da63",
+    "time": "i().d725a289",
+    "weekdayMonthAndDay": "i().h8054d91",
+    "scheduledStart": "i().d0e7b11b"
+  },
+  {
+    "today": "m().relativeDays()",
+    "tomorrow": "m(0).relativeDays()"
+  },
+  {
+    "Canceled": "Canceled",
+    "Ended": "Ended",
+    "NotStarted": "NotStarted",
+    "PrePublished": "PrePublished",
+    "Running": "Running",
+    "TimedOut": "TimedOut"
   },
   {
     "RequestSubmitted": "1",
@@ -501,6 +516,10 @@
     "Transfer": "Transfer",
     "Unspecified": "Unspecified",
     "Withdraw": "Withdraw"
+  },
+  {
+    "Delayed": "Delayed",
+    "RealTime": "RealTime"
   },
   {
     "Cancelled": "Cancelled",
