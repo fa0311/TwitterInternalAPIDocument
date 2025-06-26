@@ -3383,9 +3383,13 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key            | type   | variable   |
-|:---------------|:-------|:-----------|
-| conversationId | ...    | t          |
+| key                      | type   | variable                   |
+|:-------------------------|:-------|:---------------------------|
+| tweet_id                 | ...    | a.tweet_id                 |
+| is_media_note            | ...    | a.is_media_note            |
+| is_helpful_for_all_posts | ...    | a.is_helpful_for_all_posts |
+| data_v1                  | ...    | a.data                     |
+| ...()(0,o.S)             | ...    | _                          |
 
 #### features<br>
 | key                                                                     | type    | variable   |
@@ -5722,7 +5726,11 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-`None`<br>
+| key               | type   | variable   |
+|:------------------|:-------|:-----------|
+| grokMode          | ...    | t          |
+| grokModelOptionId | ...    | s          |
+
 #### features<br>
 | key                                              | type    | variable   |
 |:-------------------------------------------------|:--------|:-----------|
@@ -7784,7 +7792,11 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-`None`<br>
+| key               | type   | variable   |
+|:------------------|:-------|:-----------|
+| grokMode          | ...    | t          |
+| grokModelOptionId | ...    | s          |
+
 #### features<br>
 | key                                              | type    | variable   |
 |:-------------------------------------------------|:--------|:-----------|
@@ -8110,7 +8122,11 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-`None`<br>
+| key               | type   | variable   |
+|:------------------|:-------|:-----------|
+| grokMode          | ...    | t          |
+| grokModelOptionId | ...    | s          |
+
 #### features<br>
 | key                                              | type    | variable   |
 |:-------------------------------------------------|:--------|:-----------|
@@ -8172,7 +8188,11 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-`None`<br>
+| key               | type   | variable   |
+|:------------------|:-------|:-----------|
+| grokMode          | ...    | t          |
+| grokModelOptionId | ...    | s          |
+
 #### features<br>
 | key                                              | type    | variable   |
 |:-------------------------------------------------|:--------|:-----------|
