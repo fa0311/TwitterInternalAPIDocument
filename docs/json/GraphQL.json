@@ -9666,7 +9666,11 @@
     "func_name": "I",
     "func_name_init": "x",
     "query": {
-      "conversationId": "t"
+      "tweet_id": "a.tweet_id",
+      "is_media_note": "a.is_media_note",
+      "is_helpful_for_all_posts": "a.is_helpful_for_all_posts",
+      "data_v1": "a.data",
+      "...()(0,o.S)": "_"
     }
   },
   {
@@ -15866,6 +15870,12 @@
           }
         }
       }
+    },
+    "func_name": "U",
+    "func_name_init": "N",
+    "query": {
+      "grokMode": "t",
+      "grokModelOptionId": "s"
     }
   },
   {
@@ -20250,6 +20260,12 @@
           }
         }
       }
+    },
+    "func_name": "U",
+    "func_name_init": "N",
+    "query": {
+      "grokMode": "t",
+      "grokModelOptionId": "s"
     }
   },
   {
@@ -20829,6 +20845,12 @@
           }
         }
       }
+    },
+    "func_name": "U",
+    "func_name_init": "N",
+    "query": {
+      "grokMode": "t",
+      "grokModelOptionId": "s"
     }
   },
   {
@@ -20910,6 +20932,12 @@
           }
         }
       }
+    },
+    "func_name": "U",
+    "func_name_init": "N",
+    "query": {
+      "grokMode": "t",
+      "grokModelOptionId": "s"
     }
   },
   {
