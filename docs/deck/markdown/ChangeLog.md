@@ -5278,3 +5278,17 @@
 - subscriptions_upsells_profile_card_enabled<br>
 #### remove<br>
 - responsive_web_profile_header_search_button_enabled<br>
+## 2025/06/26<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- BrowseSpaceTopics<br>
+- SubscribeToScheduledSpace<br>
+- UnsubscribeFromScheduledSpace<br>
+### Feature Switch<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- rweb_xchat_fs_worker<br>
+- rweb_xchat_new_db_worker_enabled<br>
