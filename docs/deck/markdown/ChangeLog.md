@@ -5292,3 +5292,17 @@
 #### remove<br>
 - rweb_xchat_fs_worker<br>
 - rweb_xchat_new_db_worker_enabled<br>
+## 2025/06/27<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- responsive_web_grok_download_favicons<br>
+- responsive_web_grok_use_collapsed_preview<br>
+- responsive_web_grok_home_dark_enabled<br>
+- rweb_home_preserve_entries_enabled<br>
+#### remove<br>
+- None<br>
