@@ -1747,6 +1747,9 @@
       "responsive_web_grok_dev_universal_search_id_enabled": {
         "value": "false"
       },
+      "responsive_web_grok_download_favicons": {
+        "value": "false"
+      },
       "responsive_web_grok_edit_user_images": {
         "value": "false"
       },
@@ -1977,6 +1980,9 @@
       },
       "responsive_web_grok_tweet_translation_limit": {
         "value": "5000"
+      },
+      "responsive_web_grok_use_collapsed_preview": {
+        "value": "false"
       },
       "responsive_web_grok_use_new_layout": {
         "value": "true"
@@ -5405,6 +5411,9 @@
         "responsive_web_grok_dev_universal_search_id_enabled": {
           "value": "false"
         },
+        "responsive_web_grok_download_favicons": {
+          "value": "false"
+        },
         "responsive_web_grok_edit_user_images": {
           "value": "false"
         },
@@ -5470,6 +5479,9 @@
         },
         "responsive_web_grok_history_search_enabled": {
           "value": "true"
+        },
+        "responsive_web_grok_home_dark_enabled": {
+          "value": "false"
         },
         "responsive_web_grok_image_annotation_enabled": {
           "value": "true"
@@ -5635,6 +5647,9 @@
         },
         "responsive_web_grok_tweet_translation_limit": {
           "value": "5000"
+        },
+        "responsive_web_grok_use_collapsed_preview": {
+          "value": "false"
         },
         "responsive_web_grok_use_new_layout": {
           "value": "true"
@@ -6249,6 +6264,9 @@
           "value": "true"
         },
         "rweb_home_nav_single_direction_scroll_enabled": {
+          "value": "false"
+        },
+        "rweb_home_preserve_entries_enabled": {
           "value": "false"
         },
         "rweb_home_refetch_on_refocus_min_delay_seconds": {
@@ -7421,10 +7439,10 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "4d30849c717fce00d169cc86e211c7df"
+      "settingsVersion": "d217cacf54fef3424fbc03f498dcdf94"
     },
     "debug": {},
-    "featureSetToken": "2d5fe820c05858e20cdd3367e58712438710dbf9",
+    "featureSetToken": "3f29726ec5ec5ef90129efd5397dd5eb55af40d5",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -7493,7 +7511,7 @@
   },
   "session": {
     "country": "XX",
-    "guestId": "175097169827102915",
+    "guestId": "175105810152566269",
     "hasCommunityMemberships": "false",
     "isActiveCreator": "false",
     "isLoaded": "false",
