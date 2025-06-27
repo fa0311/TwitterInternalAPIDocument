@@ -1,15 +1,19 @@
 # Twitter Internal Constants Document<br>
 This document is entirely auto-generated and may contain errors.<br>
-| constant    | value       |
-|:------------|:------------|
-| on          | on          |
-| off         | off         |
-| unavailable | unavailable |
+| constant   |   value |
+|:-----------|--------:|
+| HUMAN      |       1 |
+| ASSISTANT  |       2 |
 
 | constant     | value             |
 |:-------------|:------------------|
 | navButtons   | navigationButtons |
 | carouselRoot | carouselRoot      |
+
+| constant   |   value |
+|:-----------|--------:|
+| HUMAN      |       1 |
+| ASSISTANT  |       2 |
 
 | constant         | value           |
 |:-----------------|:----------------|
@@ -195,6 +199,11 @@ This document is entirely auto-generated and may contain errors.<br>
 |:------------|:------------|
 | InitialSale | InitialSale |
 | Renewal     | Renewal     |
+
+| constant   |   value |
+|:-----------|--------:|
+| HUMAN      |       1 |
+| ASSISTANT  |       2 |
 
 | constant   | value    |
 |:-----------|:---------|
@@ -484,11 +493,6 @@ This document is entirely auto-generated and may contain errors.<br>
 | Unspecified   | Unspecified   |
 | Withdraw      | Withdraw      |
 
-| constant   | value    |
-|:-----------|:---------|
-| Delayed    | Delayed  |
-| RealTime   | RealTime |
-
 | constant                          | value                             |
 |:----------------------------------|:----------------------------------|
 | Cancelled                         | Cancelled                         |
@@ -531,11 +535,11 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{[v.S.Alert]:"danger",[v.S.Info]:"primary",[v.S.Warning]:"warning"}
+{[b.S.Alert]:"danger",[b.S.Info]:"primary",[b.S.Warning]:"warning"}
 ```
 ```internal process
 # Error
-{[v.S.Alert]:"u.default",[v.S.Info]:"p.default",[v.S.Warning]:"u.default"}
+{[b.S.Alert]:"u.default",[b.S.Info]:"p.default",[b.S.Warning]:"u.default"}
 ```
 ```internal process
 # Error
@@ -547,7 +551,7 @@ This document is entirely auto-generated and may contain errors.<br>
 ```
 ```internal process
 # Error
-{[D.P.RejectedLimitsExceeded]:"Declined due to exceeded limits",[D.P.InReview]:"Under review",[D.P.RejectedByUnsupportedRegion]:"Unsupported region",[D.P.RejectedNotSufficientFunds]:"Declined due to insufficient funds",[D.P.RejectedCardPaymentsDisabled]:"Flagged as suspicious",[D.P.UnrecognizedActiv...
+{[D.P.RejectedLimitsExceeded]:"Declined due to exceeded limits",[D.P.InReview]:"Under review",[D.P.RejectedByUnsupportedRegion]:"Unsupported region",[D.P.RejectedNotSufficientFunds]:"Declined due to insufficient funds",[D.P.RejectedCardPaymentsDisabled]:"Declined due to locked card",[D.P.Unrecognize...
 ```
 ```internal process
 # Error
@@ -597,6 +601,11 @@ This document is entirely auto-generated and may contain errors.<br>
 |:-----------|:---------------------------------------------------------------------------------------------------------------------|
 | apple      | https://apps.apple.com/account/billing                                                                               |
 | google     | https://play.google.com/store/account/subscriptions?sku=com.twitter.google.rogue.one.1.1&package=com.twitter.android |
+
+| constant   |   value |
+|:-----------|--------:|
+| HUMAN      |       1 |
+| ASSISTANT  |       2 |
 
 | constant   | value   |
 |:-----------|:--------|
