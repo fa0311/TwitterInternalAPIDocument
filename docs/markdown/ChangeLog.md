@@ -6351,3 +6351,14 @@
 - rweb_home_preserve_entries_enabled<br>
 #### remove<br>
 - None<br>
+## 2025/06/28<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- responsive_web_grok_show_button_on_ads<br>
+#### remove<br>
+- None<br>
