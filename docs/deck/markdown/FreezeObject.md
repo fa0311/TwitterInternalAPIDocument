@@ -1,5 +1,11 @@
 # Twitter Internal Constants Document<br>
 This document is entirely auto-generated and may contain errors.<br>
+| constant    | value       |
+|:------------|:------------|
+| on          | on          |
+| off         | off         |
+| unavailable | unavailable |
+
 | constant   |   value |
 |:-----------|--------:|
 | HUMAN      |       1 |
@@ -492,6 +498,11 @@ This document is entirely auto-generated and may contain errors.<br>
 | Transfer      | Transfer      |
 | Unspecified   | Unspecified   |
 | Withdraw      | Withdraw      |
+
+| constant   | value    |
+|:-----------|:---------|
+| Delayed    | Delayed  |
+| RealTime   | RealTime |
 
 | constant                          | value                             |
 |:----------------------------------|:----------------------------------|
