@@ -1,5 +1,10 @@
 [
   {
+    "on": "on",
+    "off": "off",
+    "unavailable": "unavailable"
+  },
+  {
     "HUMAN": "1",
     "ASSISTANT": "2"
   },
@@ -423,6 +428,10 @@
     "Transfer": "Transfer",
     "Unspecified": "Unspecified",
     "Withdraw": "Withdraw"
+  },
+  {
+    "Delayed": "Delayed",
+    "RealTime": "RealTime"
   },
   {
     "Cancelled": "Cancelled",
