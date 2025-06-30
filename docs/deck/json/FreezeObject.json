@@ -1,10 +1,5 @@
 [
   {
-    "on": "on",
-    "off": "off",
-    "unavailable": "unavailable"
-  },
-  {
     "HUMAN": "1",
     "ASSISTANT": "2"
   },
