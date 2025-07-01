@@ -1,5 +1,122 @@
 # Twitter Internal Constants Document<br>
 This document is entirely auto-generated and may contain errors.<br>
+| constant    | value        |
+|:------------|:-------------|
+| joinSpace   | s().h400d7c2 |
+| replaySpace | s().g66c8348 |
+| comingUp    | s().be6ef5b4 |
+
+| constant   | value   |
+|:-----------|:--------|
+| Active     | active  |
+| Expand     | expand  |
+| Remove     | remove  |
+
+| constant     | value        |
+|:-------------|:-------------|
+| Canceled     | Canceled     |
+| Ended        | Ended        |
+| NotStarted   | NotStarted   |
+| PrePublished | PrePublished |
+| Running      | Running      |
+| TimedOut     | TimedOut     |
+
+| constant    | value       |
+|:------------|:------------|
+| scheduled   | scheduled   |
+| ended       | ended       |
+| live        | live        |
+| canceled    | canceled    |
+| unavailable | unavailable |
+| replay      | replay      |
+
+| constant           |   value |
+|:-------------------|--------:|
+| general            |       0 |
+| employeesOnly      |       1 |
+| superFollowersOnly |       2 |
+
+| constant           | value        |
+|:-------------------|:-------------|
+| relativeDays       | i().c333da63 |
+| time               | i().d725a289 |
+| weekdayMonthAndDay | i().h8054d91 |
+| scheduledStart     | i().d0e7b11b |
+
+| constant   | value               |
+|:-----------|:--------------------|
+| today      | m().relativeDays()  |
+| tomorrow   | m(0).relativeDays() |
+
+| constant     | value        |
+|:-------------|:-------------|
+| Canceled     | Canceled     |
+| Ended        | Ended        |
+| NotStarted   | NotStarted   |
+| PrePublished | PrePublished |
+| Running      | Running      |
+| TimedOut     | TimedOut     |
+
+| constant               |   value |
+|:-----------------------|--------:|
+| RequestSubmitted       |       1 |
+| RequestCancelled       |       2 |
+| RequestRejected        |       3 |
+| RequestApproved        |       4 |
+| InvitationSent         |       5 |
+| InvitationWithdrawn    |       6 |
+| InvitationDeclined     |       7 |
+| InvitationAccepted     |       8 |
+| StreamNegotiated       |       9 |
+| StreamPublished        |      10 |
+| StreamEjected          |      11 |
+| StreamEnded            |      12 |
+| StreamTimedOut         |      13 |
+| SessionTerminated      |      14 |
+| StreamCountdown        |      15 |
+| AdminStreamPublished   |      16 |
+| HostStreamPublished    |      17 |
+| HostStreamReconnecting |      18 |
+
+| constant                                            | value                                               |
+|:----------------------------------------------------|:----------------------------------------------------|
+| JanusPollerResponseEnumWebRtcUp                     | JanusPollerResponseEnumWebRtcUp                     |
+| JanusPollerResponseEnumMediaVideo                   | JanusPollerResponseEnumMediaVideo                   |
+| JanusPollerResponseEnumMediaAudio                   | JanusPollerResponseEnumMediaAudio                   |
+| JanusPollerResponseEnumJanusSlowLink                | JanusPollerResponseEnumJanusSlowLink                |
+| JanusPollerResponseEnumKeepAlive                    | JanusPollerResponseEnumKeepAlive                    |
+| JanusPollerResponseEnumHangup                       | JanusPollerResponseEnumHangup                       |
+| JanusPollerResponseEnumDetached                     | JanusPollerResponseEnumDetached                     |
+| JanusPollerResponseEnumVideoRoomDestroyed           | JanusPollerResponseEnumVideoRoomDestroyed           |
+| JanusPollerResponseEnumEventPublishersList          | JanusPollerResponseEnumEventPublishersList          |
+| JanusPollerResponseEnumUpdated                      | JanusPollerResponseEnumUpdated                      |
+| JanusPollerResponseEnumEventUnpublished             | JanusPollerResponseEnumEventUnpublished             |
+| JanusPollerResponseEnumEventLoggedInUserUnpublished | JanusPollerResponseEnumEventLoggedInUserUnpublished |
+| JanusPollerResponseEnumEventKicked                  | JanusPollerResponseEnumEventKicked                  |
+| JanusPollerResponseEnumEventLoggedInUserLeaving     | JanusPollerResponseEnumEventLoggedInUserLeaving     |
+| JanusPollerResponseEnumEventLeaving                 | JanusPollerResponseEnumEventLeaving                 |
+| JanusPollerResponseEnumVideoRoomSlowLink            | JanusPollerResponseEnumVideoRoomSlowLink            |
+| JanusPollerResponseEnumEventJoined                  | JanusPollerResponseEnumEventJoined                  |
+| JanusPollerResponseEnumEventConfigured              | JanusPollerResponseEnumEventConfigured              |
+| JanusPollerResponseEnumEventListenerAttached        | JanusPollerResponseEnumEventListenerAttached        |
+| JanusPollerResponseEnumEventStarted                 | JanusPollerResponseEnumEventStarted                 |
+| JanusPollerResponseEnumEventLeft                    | JanusPollerResponseEnumEventLeft                    |
+| JanusPollerResponseParseError                       | JanusPollerResponseParseError                       |
+| JanusPollerResponseEnumUnknown                      | JanusPollerResponseEnumUnknown                      |
+| JanusPollerResponseEnumError                        | JanusPollerResponseEnumError                        |
+
+| constant     |   value |
+|:-------------|--------:|
+| Everyone     |       2 |
+| FollowedOnly |       1 |
+| InvitedOnly  |       0 |
+
+| constant    |   value |
+|:------------|--------:|
+| All         |       0 |
+| Employees   |       1 |
+| Subscribers |       2 |
+
 | constant   |   value |
 |:-----------|--------:|
 | HUMAN      |       1 |
