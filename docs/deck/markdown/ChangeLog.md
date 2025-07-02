@@ -5331,3 +5331,17 @@
 - subscriptions_upsells_analytics_fix_enabled<br>
 #### remove<br>
 - None<br>
+## 2025/07/02<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- BrowseSpaceTopics<br>
+- SubscribeToScheduledSpace<br>
+- UnsubscribeFromScheduledSpace<br>
+### Feature Switch<br>
+#### add<br>
+- hashfetti_also_match_query<br>
+- payments_withdraw_wires_enabled<br>
+#### remove<br>
+- None<br>
