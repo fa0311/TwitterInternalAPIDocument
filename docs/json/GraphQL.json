@@ -8783,11 +8783,6 @@
           }
         }
       }
-    },
-    "func_name": "f",
-    "func_name_init": "D",
-    "query": {
-      "...t": "_"
     }
   },
   {
@@ -9667,11 +9662,6 @@
           }
         }
       }
-    },
-    "func_name": "A",
-    "func_name_init": "x",
-    "query": {
-      "tweet_id": "t.tweet_id"
     }
   },
   {
@@ -10648,13 +10638,6 @@
           }
         }
       }
-    },
-    "func_name": "_e",
-    "func_name_init": "ee",
-    "query": {
-      "..._": "_",
-      "withCommunity": "t.isTrue()",
-      "...(\"c9s_enabled\")(0,o.d)": "_"
     }
   },
   {
@@ -17484,7 +17467,7 @@
   {
     "n": "39119",
     "exports": {
-      "queryId": "23evIuo2HuJRk3ggD0YNfw",
+      "queryId": "5sELEoF4E7v7m6hUer3OFw",
       "operationName": "BirdwatchFetchContributorNotesSlice",
       "operationType": "query",
       "metadata": {
@@ -17667,7 +17650,7 @@
   {
     "n": "98883",
     "exports": {
-      "queryId": "ZDbp25w4XPIIvSxA4-hovw",
+      "queryId": "e5UAB784P2owAiPIRdHj0Q",
       "operationName": "BirdwatchCreateNote",
       "operationType": "mutation",
       "metadata": {
@@ -17828,7 +17811,7 @@
   {
     "n": "55185",
     "exports": {
-      "queryId": "hkYn13HnxM_eVCEGGl-Fdw",
+      "queryId": "kD74-qBfrdRT5rO9YOl57g",
       "operationName": "BirdwatchFetchAuthenticatedUserProfile",
       "operationType": "query",
       "metadata": {
@@ -17871,7 +17854,7 @@
   {
     "n": "70026",
     "exports": {
-      "queryId": "iL_0nGf1nelAd9Kz-pZJlA",
+      "queryId": "id9iGfEQF47W1kvRBHUmRQ",
       "operationName": "BirdwatchFetchBirdwatchProfile",
       "operationType": "query",
       "metadata": {
@@ -18103,7 +18086,7 @@
   {
     "n": "99459",
     "exports": {
-      "queryId": "tSXwtgu8kgP3LQYIZdcihA",
+      "queryId": "gXjOYGbw1BteeEo8tOUWjA",
       "operationName": "BirdwatchFetchNotes",
       "operationType": "query",
       "metadata": {
@@ -18164,7 +18147,7 @@
   {
     "n": "26745",
     "exports": {
-      "queryId": "fI0a6IM9xLgGHa858wXpaA",
+      "queryId": "mmMGruLm-A2C4pXrEpendQ",
       "operationName": "BirdwatchFetchOneNote",
       "operationType": "query",
       "metadata": {
