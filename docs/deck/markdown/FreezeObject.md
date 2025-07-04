@@ -319,6 +319,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | Questionnaire      | Questionnaire      |
 | SelfieVerification | SelfieVerification |
 | SetupPasskey       | SetupPasskey       |
+| VerifyPasskey      | VerifyPasskey      |
 
 | constant   | value   |
 |:-----------|:--------|
