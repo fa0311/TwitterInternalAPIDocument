@@ -268,7 +268,8 @@
     "LearnMore": "LearnMore",
     "Questionnaire": "Questionnaire",
     "SelfieVerification": "SelfieVerification",
-    "SetupPasskey": "SetupPasskey"
+    "SetupPasskey": "SetupPasskey",
+    "VerifyPasskey": "VerifyPasskey"
   },
   {
     "Alert": "Alert",
