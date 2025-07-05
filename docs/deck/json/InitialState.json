@@ -5748,7 +5748,7 @@
           "value": "false"
         },
         "responsive_web_jetfuel_frame": {
-          "value": "false"
+          "value": "true"
         },
         "responsive_web_lbm_v2_home_enabled": {
           "value": "false"
@@ -7475,7 +7475,7 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "4d30849c717fce00d169cc86e211c7df"
+      "settingsVersion": "6b0d5abcf667fc3adfa4b69b0bd8b1d4"
     },
     "debug": {},
     "featureSetToken": "57f5c028339e690377c1a03a83ac776403756df2",
@@ -7547,7 +7547,7 @@
   },
   "session": {
     "country": "XX",
-    "guestId": "175166345398330108",
+    "guestId": "175174977427997688",
     "hasCommunityMemberships": "false",
     "isActiveCreator": "false",
     "isLoaded": "false",
