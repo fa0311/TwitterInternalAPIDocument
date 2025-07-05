@@ -4492,8 +4492,8 @@
       "features": {}
     },
     "DmAllSearchSlice": {
-      "url": "https://x.com/i/api/graphql/Ohq34UUvwVMOCcrVZvXcxw/DmAllSearchSlice",
-      "queryId": "Ohq34UUvwVMOCcrVZvXcxw",
+      "url": "https://x.com/i/api/graphql/666rDecIvXXAyjbVGjdzmg/DmAllSearchSlice",
+      "queryId": "666rDecIvXXAyjbVGjdzmg",
       "method": "GET",
       "features": {
         "payments_enabled": false,
@@ -4506,8 +4506,8 @@
       }
     },
     "DmGroupSearchSlice": {
-      "url": "https://x.com/i/api/graphql/YUpv7YPz8uB7j6rAaCCF7g/DmGroupSearchSlice",
-      "queryId": "YUpv7YPz8uB7j6rAaCCF7g",
+      "url": "https://x.com/i/api/graphql/LxrvmqF3Lokl_BYZ1c83LA/DmGroupSearchSlice",
+      "queryId": "LxrvmqF3Lokl_BYZ1c83LA",
       "method": "GET",
       "features": {}
     },
@@ -4551,8 +4551,8 @@
       }
     },
     "DmPeopleSearchSlice": {
-      "url": "https://x.com/i/api/graphql/W26fnOQ7uTdektooZAiuYw/DmPeopleSearchSlice",
-      "queryId": "W26fnOQ7uTdektooZAiuYw",
+      "url": "https://x.com/i/api/graphql/c1MnRRmI-_Bggpntlq9-hQ/DmPeopleSearchSlice",
+      "queryId": "c1MnRRmI-_Bggpntlq9-hQ",
       "method": "GET",
       "features": {}
     },

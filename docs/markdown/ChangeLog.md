@@ -6386,3 +6386,20 @@
 - payments_withdraw_wires_enabled<br>
 #### remove<br>
 - None<br>
+## 2025/07/04<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- payments_cheques_enabled<br>
+- payments_wires_enabled<br>
+- responsive_web_castle_public_key<br>
+- subscriptions_premium_hub_updated_theme_enabled<br>
+#### remove<br>
+- responsive_web_dm_label_enabled<br>
+- responsive_web_grok_new_home_layout<br>
+- responsive_web_grok_promo_banner<br>
+- rweb_updated_broadcast_screen<br>
