@@ -6403,3 +6403,16 @@
 - responsive_web_grok_new_home_layout<br>
 - responsive_web_grok_promo_banner<br>
 - rweb_updated_broadcast_screen<br>
+## 2025/07/06<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- japan_holidays_is_labor_thanks_giving_day<br>
+- japan_holidays_labor_thanks_giving_day_message<br>
+- japan_holidays_labor_thanks_giving_message_trigger<br>
