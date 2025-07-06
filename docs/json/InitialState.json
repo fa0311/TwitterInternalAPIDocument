@@ -988,21 +988,6 @@
       "ios_premium_paywall_preloaded_webview_pagesheet_modal": {
         "value": "true"
       },
-      "japan_holidays_is_labor_thanks_giving_day": {
-        "value": "false"
-      },
-      "japan_holidays_labor_thanks_giving_day_message": {
-        "value": "毎日お疲れ様です。忙しい日々の中でも、Xで息抜きしてくださいね☕ いつもご利用ありがとうございます🫶 #勤労感謝"
-      },
-      "japan_holidays_labor_thanks_giving_message_trigger": {
-        "value": [
-          "勤労感謝",
-          "仕事",
-          "労働",
-          "働く",
-          "勤労"
-        ]
-      },
       "krs_registration_enabled": {
         "value": "false"
       },
@@ -2063,7 +2048,7 @@
         "value": "false"
       },
       "responsive_web_jetfuel_frame": {
-        "value": "false"
+        "value": "true"
       },
       "responsive_web_lbm_v2_home_enabled": {
         "value": "false"
@@ -4672,21 +4657,6 @@
         },
         "ios_premium_paywall_preloaded_webview_pagesheet_modal": {
           "value": "true"
-        },
-        "japan_holidays_is_labor_thanks_giving_day": {
-          "value": "false"
-        },
-        "japan_holidays_labor_thanks_giving_day_message": {
-          "value": "毎日お疲れ様です。忙しい日々の中でも、Xで息抜きしてくださいね☕ いつもご利用ありがとうございます🫶 #勤労感謝"
-        },
-        "japan_holidays_labor_thanks_giving_message_trigger": {
-          "value": [
-            "勤労感謝",
-            "仕事",
-            "労働",
-            "働く",
-            "勤労"
-          ]
         },
         "krs_registration_enabled": {
           "value": "false"
@@ -7475,10 +7445,10 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "6b0d5abcf667fc3adfa4b69b0bd8b1d4"
+      "settingsVersion": "4d30849c717fce00d169cc86e211c7df"
     },
     "debug": {},
-    "featureSetToken": "57f5c028339e690377c1a03a83ac776403756df2",
+    "featureSetToken": "43be20c92baa9164fff2f6e5ddb4f3db3ed95365",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -7547,7 +7517,7 @@
   },
   "session": {
     "country": "XX",
-    "guestId": "175174929529328185",
+    "guestId": "175183570325800120",
     "hasCommunityMemberships": "false",
     "isActiveCreator": "false",
     "isLoaded": "false",
