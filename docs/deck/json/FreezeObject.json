@@ -1,10 +1,5 @@
 [
   {
-    "on": "on",
-    "off": "off",
-    "unavailable": "unavailable"
-  },
-  {
     "HUMAN": "1",
     "ASSISTANT": "2"
   },
@@ -140,6 +135,42 @@
     "pt": "(\"https://business.x.com/ja/campaign/quick-promote-coupon-terms.html\")(0,c.ju)",
     "ar": "(\"https://business.x.com/pt/campaign/quick-promote-coupon-terms.html\")(0,c.ju)",
     "zh-cn": "(\"https://business.x.com/ar/campaign/quick-promote-coupon-terms.html\")(0,c.ju)"
+  },
+  {
+    "__proto__": "null",
+    "fixNegotiationNeeded": "Cn",
+    "shimAddTrackRemoveTrack": "yn",
+    "shimAddTrackRemoveTrackWithNative": "kn",
+    "shimGetSendersWithDtmf": "vn",
+    "shimGetUserMedia": "mn",
+    "shimMediaStream": "gn",
+    "shimOnTrack": "fn",
+    "shimPeerConnection": "Tn",
+    "shimSenderReceiverGetStats": "bn"
+  },
+  "{\"__proto__\":\"null\",\"shimAddTransceiver\":\"Mn\",\"shimCreateAnswer\":\"Nn\",\"shimCreateOffer\":\"_n\",\"shimGetDisplayMedia\":\"function()\"{e.navigator.mediaDevices&&\"getDisplayMedia\"in e.navigator.mediaDevices||e.navigator.mediaDevices&&(){\"if()\"{const e=new DOMException();return e.name=\"NotFoundError\",e.code=8,\"Promise.reject(\\\"getDisplayMedia without video constraints is undefined\\\")\"}\"return!0===i.video?i.video=\"{\"mediaSource\":\"t\"}:\"i.video.mediaSource=t\",\"e.navigator.mediaDevices.getUserMedia()\"}},\"shimGetParameters\":\"xn\",\"shimGetUserMedia\":\"wn\",\"shimOnTrack\":\"En\",\"shimPeerConnection\":\"Pn\",\"shimRTCDataChannel\":\"Dn\",\"shimReceiverGetStats\":\"In\",\"shimRemoveStream\":\"On\",\"shimSenderGetStats\":\"Rn\"}",
+  {
+    "__proto__": "null",
+    "shimAudioContext": "Hn",
+    "shimCallbacksAPI": "jn",
+    "shimConstraints": "Bn",
+    "shimCreateOfferLegacy": "Gn",
+    "shimGetUserMedia": "Fn",
+    "shimLocalStreamsAPI": "Ln",
+    "shimRTCIceServerUrls": "Vn",
+    "shimRemoteStreamsAPI": "Un",
+    "shimTrackEventTransceiver": "qn"
+  },
+  {
+    "__proto__": "null",
+    "removeExtmapAllowMixed": "is",
+    "shimAddIceCandidateNullOrEmpty": "ns",
+    "shimConnectionState": "ts",
+    "shimMaxMessageSize": "$n",
+    "shimParameterlessSetLocalDescription": "ss",
+    "shimRTCIceCandidate": "Xn",
+    "shimRTCIceCandidateRelayProtocol": "Zn",
+    "shimSendThrowTypeError": "es"
   },
   {
     "START": "start",

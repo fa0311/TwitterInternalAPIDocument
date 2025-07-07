@@ -1,11 +1,5 @@
 # Twitter Internal Constants Document<br>
 This document is entirely auto-generated and may contain errors.<br>
-| constant    | value       |
-|:------------|:------------|
-| on          | on          |
-| off         | off         |
-| unavailable | unavailable |
-
 | constant   |   value |
 |:-----------|--------:|
 | HUMAN      |       1 |
@@ -173,6 +167,48 @@ This document is entirely auto-generated and may contain errors.<br>
 | pt         | ("https://business.x.com/ja/campaign/quick-promote-coupon-terms.html")(0,c.ju) |
 | ar         | ("https://business.x.com/pt/campaign/quick-promote-coupon-terms.html")(0,c.ju) |
 | zh-cn      | ("https://business.x.com/ar/campaign/quick-promote-coupon-terms.html")(0,c.ju) |
+
+| constant                          | value   |
+|:----------------------------------|:--------|
+| __proto__                         | null    |
+| fixNegotiationNeeded              | Cn      |
+| shimAddTrackRemoveTrack           | yn      |
+| shimAddTrackRemoveTrackWithNative | kn      |
+| shimGetSendersWithDtmf            | vn      |
+| shimGetUserMedia                  | mn      |
+| shimMediaStream                   | gn      |
+| shimOnTrack                       | fn      |
+| shimPeerConnection                | Tn      |
+| shimSenderReceiverGetStats        | bn      |
+
+```internal process
+# Error
+{"__proto__":"null","shimAddTransceiver":"Mn","shimCreateAnswer":"Nn","shimCreateOffer":"_n","shimGetDisplayMedia":"function()"{e.navigator.mediaDevices&&"getDisplayMedia"in e.navigator.mediaDevices||e.navigator.mediaDevices&&(){"if()"{const e=new DOMException();return e.name="NotFoundError",e.code=...
+```
+| constant                  | value   |
+|:--------------------------|:--------|
+| __proto__                 | null    |
+| shimAudioContext          | Hn      |
+| shimCallbacksAPI          | jn      |
+| shimConstraints           | Bn      |
+| shimCreateOfferLegacy     | Gn      |
+| shimGetUserMedia          | Fn      |
+| shimLocalStreamsAPI       | Ln      |
+| shimRTCIceServerUrls      | Vn      |
+| shimRemoteStreamsAPI      | Un      |
+| shimTrackEventTransceiver | qn      |
+
+| constant                             | value   |
+|:-------------------------------------|:--------|
+| __proto__                            | null    |
+| removeExtmapAllowMixed               | is      |
+| shimAddIceCandidateNullOrEmpty       | ns      |
+| shimConnectionState                  | ts      |
+| shimMaxMessageSize                   | $n      |
+| shimParameterlessSetLocalDescription | ss      |
+| shimRTCIceCandidate                  | Xn      |
+| shimRTCIceCandidateRelayProtocol     | Zn      |
+| shimSendThrowTypeError               | es      |
 
 | constant   | value   |
 |:-----------|:--------|

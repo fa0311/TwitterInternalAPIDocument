@@ -1092,6 +1092,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | constant                   | value                                |
 |:---------------------------|:-------------------------------------|
 | AdsTransparencyCenter      | ads_transparency_center              |
+| AvCall                     | avcall_invite                        |
 | CompanyProfile             | company_profile                      |
 | Compose                    | compose                              |
 | ComposeMediaTagging        | compose_media_tagging                |
@@ -2375,7 +2376,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant              | value     |
 |:----------------------|:----------|
-| appBarHeight          | k         |
+| appBarHeight          | _         |
 | appBarHeightPx        | v         |
 | conversationLineWidth | f.space2  |
 | gutterHorizontal      | w.space16 |
@@ -2392,7 +2393,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | borderWidths        | c       |
 | borderWidthsPx      | u       |
 | breakpoints         | n       |
-| componentDimensions | _       |
+| componentDimensions | k       |
 | componentZIndices   | l       |
 | fontSizes           | A       |
 | fontSizesPx         | y       |
@@ -6914,26 +6915,26 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant                | value   |
 |:------------------------|:--------|
-| ActionsBar              | _.Z     |
-| ActionMenu              | C.Z     |
-| CallToAction            | a.ZP    |
-| EditCallout             | v.Z     |
-| Education               | T.Z     |
-| HighlightedUserLabel    | d.Z     |
-| Media                   | k.Z     |
-| Place                   | o.ZP    |
+| ActionsBar              | f.Z     |
+| ActionMenu              | _.Z     |
+| CallToAction            | o.ZP    |
+| EditCallout             | b.Z     |
+| Education               | v.Z     |
+| HighlightedUserLabel    | l.Z     |
+| Media                   | y.Z     |
+| Place                   | a.ZP    |
 | PromotedDetails         | u.Z     |
-| PromotedUserProfileCard | y.Z     |
-| ReplyContext            | E.ZP    |
+| PromotedUserProfileCard | x.Z     |
+| ReplyContext            | k.ZP    |
 | RichContent             | I.Z     |
-| SocialContext           | w.Z     |
-| Text                    | x.Z     |
-| Tombstone               | g.Z     |
-| Timestamp               | p.Z     |
-| UserAvatar              | Z.Z     |
-| UserFollowIndicator     | S.Z     |
-| UserName                | M.Z     |
-| ArticleCard             | b.Z     |
+| SocialContext           | g.Z     |
+| Text                    | M.Z     |
+| Tombstone               | p.Z     |
+| Timestamp               | h.Z     |
+| UserAvatar              | A.Z     |
+| UserFollowIndicator     | Z.Z     |
+| UserName                | E.Z     |
+| ArticleCard             | T.Z     |
 
 | constant   | value                                               |
 |:-----------|:----------------------------------------------------|
@@ -7128,11 +7129,181 @@ This document is entirely auto-generated and may contain errors.<br>
 | InviteMenu        | InviteMenu        |
 | NotificationCount | NotificationCount |
 
+| constant     |   value |
+|:-------------|--------:|
+| UNKNOWN      |       0 |
+| TOP_LEFT     |       1 |
+| TOP_RIGHT    |       2 |
+| BOTTOM_RIGHT |       3 |
+| BOTTOM_LEFT  |       4 |
+| LEFT_TOP     |       5 |
+| LEFT_BOTTOM  |       6 |
+| RIGHT_BOTTOM |       7 |
+| RIGHT_TOP    |       8 |
+
+| constant           |   value |
+|:-------------------|--------:|
+| FILE_TOO_LARGE     |       2 |
+| INTERNAL_ERROR     |     131 |
+| INVALID_MEDIA      |       1 |
+| RATE_LIMIT         |      88 |
+| TIMEOUT            |      67 |
+| UNSUPPORTED_MEDIA  |       3 |
+| ZERO_FILE_LENGTH   |       4 |
+| CANCELED           |     999 |
+| INVALID_RES_STATUS |      -1 |
+
+|   constant | value               |
+|-----------:|:--------------------|
+|          0 | S.INTERNAL_ERROR    |
+|          1 | S.INVALID_MEDIA     |
+|          2 | S.FILE_TOO_LARGE    |
+|          3 | S.UNSUPPORTED_MEDIA |
+|          4 | S.TIMEOUT           |
+
+| constant   |   value |
+|:-----------|--------:|
+| RESET      |       0 |
+| PENDING    |       1 |
+| PAUSED     |       2 |
+| SUCCEEDED  |       3 |
+| FAILED     |       4 |
+
+| constant                          | value   |
+|:----------------------------------|:--------|
+| __proto__                         | null    |
+| fixNegotiationNeeded              | Cn      |
+| shimAddTrackRemoveTrack           | yn      |
+| shimAddTrackRemoveTrackWithNative | kn      |
+| shimGetSendersWithDtmf            | vn      |
+| shimGetUserMedia                  | mn      |
+| shimMediaStream                   | gn      |
+| shimOnTrack                       | fn      |
+| shimPeerConnection                | Tn      |
+| shimSenderReceiverGetStats        | bn      |
+
+```internal process
+# Error
+{"__proto__":"null","shimAddTransceiver":"Mn","shimCreateAnswer":"Nn","shimCreateOffer":"_n","shimGetDisplayMedia":"function()"{e.navigator.mediaDevices&&"getDisplayMedia"in e.navigator.mediaDevices||e.navigator.mediaDevices&&(){"if()"{const e=new DOMException();return e.name="NotFoundError",e.code=...
+```
+| constant                  | value   |
+|:--------------------------|:--------|
+| __proto__                 | null    |
+| shimAudioContext          | Hn      |
+| shimCallbacksAPI          | jn      |
+| shimConstraints           | Bn      |
+| shimCreateOfferLegacy     | Gn      |
+| shimGetUserMedia          | Fn      |
+| shimLocalStreamsAPI       | Ln      |
+| shimRTCIceServerUrls      | Vn      |
+| shimRemoteStreamsAPI      | Un      |
+| shimTrackEventTransceiver | qn      |
+
+| constant                             | value   |
+|:-------------------------------------|:--------|
+| __proto__                            | null    |
+| removeExtmapAllowMixed               | is      |
+| shimAddIceCandidateNullOrEmpty       | ns      |
+| shimConnectionState                  | ts      |
+| shimMaxMessageSize                   | $n      |
+| shimParameterlessSetLocalDescription | ss      |
+| shimRTCIceCandidate                  | Xn      |
+| shimRTCIceCandidateRelayProtocol     | Zn      |
+| shimSendThrowTypeError               | es      |
+
+| constant    | value       |
+|:------------|:------------|
+| RESIZE      | resize      |
+| UPLOAD      | upload      |
+| METADATA    | metadata    |
+| MAXDURATION | maxduration |
+| MAXSIZE     | maxsize     |
+
+| constant   | value      |
+|:-----------|:-----------|
+| LocalFile  | local_file |
+| Remote     | remote     |
+
 | constant   | value    |
 |:-----------|:---------|
-| INFINITE   | infinite |
-| MEDIUM     | medium   |
-| NONE       | none     |
+| Cancel     | cancel   |
+| Failure    | failure  |
+| Success    | success  |
+| Complete   | complete |
+| Invalid    | invalid  |
+
+| constant   | value       |
+|:-----------|:------------|
+| InProgress | in_progress |
+| Complete   | complete    |
+| Failure    | failure     |
+| Canceled   | canceled    |
+
+| constant                   | value                          |
+|:---------------------------|:-------------------------------|
+| Full                       | full                           |
+| Hash                       | hash                           |
+| Processing                 | processing                     |
+| SruUpload                  | sru_upload                     |
+| UploadSubmitUntilSruFinish | upload_submit_until_sru_finish |
+| Metadata                   | metadata                       |
+
+| constant                   | value                                   |
+|:---------------------------|:----------------------------------------|
+| SruUpload                  | sru_upload_no_eager                     |
+| UploadSubmitUntilSruFinish | upload_submit_until_sru_finish_no_eager |
+
+| constant       | value          |
+|:---------------|:---------------|
+| All            | all            |
+| Short          | short          |
+| Medium         | medium         |
+| Long           | long           |
+| XLong          | xlong          |
+| L90to140s      | l90to140s      |
+| L140to300s     | l140to300s     |
+| L300to600s     | l300to600s     |
+| L600to1200s    | l600to1200s    |
+| L1200to1800s   | l1200to1800s   |
+| L1800to2700s   | l1800to2700s   |
+| L2700to3600s   | l2700to3600s   |
+| L3600to4500s   | l3600to4500s   |
+| L4500to5400s   | l4500to5400s   |
+| L5400to6300s   | l5400to6300s   |
+| L6300to7200s   | l6300to7200s   |
+| L7200to10800s  | l7200to10800s  |
+| L10800to14400s | l10800to14400s |
+| LGT14400s      | lgt14400s      |
+
+| constant        | value                  |
+|:----------------|:-----------------------|
+| AmplifyVideo    | amplify_video          |
+| CommunityBanner | community_banner_image |
+| ListBanner      | list_banner_image      |
+| TweetImage      | tweet_image            |
+| TweetVideo      | tweet_video            |
+| TweetGif        | tweet_gif              |
+| DMImage         | dm_image               |
+| DMVideo         | dm_video               |
+| DMGif           | dm_gif                 |
+| Subtitles       | subtitles              |
+| ProfileBanner   | banner_image           |
+
+| constant        | value            |
+|:----------------|:-----------------|
+| Tweet           | tweet            |
+| Dm              | dm               |
+| CommunityBanner | community_banner |
+| ListBanner      | list_banner      |
+| ProfileBanner   | profile_banner   |
+| Avatar          | avatar           |
+| Verification    | verification     |
+| TwitterArticle  | twitter_article  |
+
+| constant   | value      |
+|:-----------|:-----------|
+| uploading  | uploading  |
+| processing | processing |
 
 | constant   | value                                         |
 |:-----------|:----------------------------------------------|
@@ -7405,6 +7576,12 @@ This document is entirely auto-generated and may contain errors.<br>
 # Error
 {[l.LANDING_PAGE]:{"next":"l.NOTABILITY_CATEGORY_SELECT","scribeComponent":"U.LANDING_PAGE"},[l.NOTABILITY_CATEGORY_SELECT]:{"next":"null","scribeComponent":"U.NOTABILITY_CATEGORY"},[l.ACTIVIST_QUALIFICATIONS]:{"next":"null","scribeComponent":"U.NOTABILITY_METHOD"},[l.ACTIVIST_GOOGLE_TRENDS]:{"next"...
 ```
+| constant   | value    |
+|:-----------|:---------|
+| INFINITE   | infinite |
+| MEDIUM     | medium   |
+| NONE       | none     |
+
 | constant   | value   |
 |:-----------|:--------|
 | START      | start   |
@@ -7605,8 +7782,8 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant      | value                                                                      |
 |:--------------|:---------------------------------------------------------------------------|
-| earnings      | {'link': '/settings/monetization/earnings', 'text': 'u', 'size': 'xLarge'} |
-| payoutHistory | {'link': '/settings/monetization/payout_history', 'text': 'g'}             |
+| earnings      | {'link': '/settings/monetization/earnings', 'text': '_', 'size': 'xLarge'} |
+| payoutHistory | {'link': '/settings/monetization/payout_history', 'text': 'p'}             |
 
 | constant                  | value                     |
 |:--------------------------|:--------------------------|
@@ -7940,8 +8117,8 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant   | value       |
 |:-----------|:------------|
-| DRAFT      | l.DRAFT     |
-| PUBLISHED  | l.PUBLISHED |
+| DRAFT      | s.DRAFT     |
+| PUBLISHED  | s.PUBLISHED |
 
 | constant   | value    |
 |:-----------|:---------|
@@ -8463,8 +8640,8 @@ This document is entirely auto-generated and may contain errors.<br>
 | finance_accounting   | M       |
 | legal_compliance     | p       |
 | science_engineering  | y       |
-| medical              | k       |
-| construction_trades  | v       |
+| medical              | v       |
+| construction_trades  | k       |
 | other                | w       |
 
 | constant    | value   |
@@ -10414,7 +10591,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | science_engineering  | _       |
 | medical              | k       |
 | construction_trades  | D       |
-| other                | v       |
+| other                | S       |
 
 | constant    | value   |
 |:------------|:--------|
@@ -10439,6 +10616,12 @@ This document is entirely auto-generated and may contain errors.<br>
 | OffensiveProfileContent | offensive_profile_content |
 | SensitiveMedia          | sensitive_media           |
 | Timeout                 | timeout                   |
+
+| constant   | value    |
+|:-----------|:---------|
+| INFINITE   | infinite |
+| MEDIUM     | medium   |
+| NONE       | none     |
 
 | constant                | value                     |
 |:------------------------|:--------------------------|
@@ -10735,6 +10918,23 @@ This document is entirely auto-generated and may contain errors.<br>
 | Reserved5         | Reserved5         |
 | Reserved6         | Reserved6         |
 | Reserved7         | Reserved7         |
+
+| constant     | value        |
+|:-------------|:-------------|
+| alwayOpen    | a().e2a5bd50 |
+| closed       | a().e41a0dc2 |
+| closes       | a().e0d7da6c |
+| open         | a().fd00a76a |
+| opens        | a().i7059f56 |
+| noHours      | a().a7391348 |
+| updatedHours | a().c9eba532 |
+
+| constant      | value        |
+|:--------------|:-------------|
+| directMessage | a().h845f282 |
+| email         | a().a3841918 |
+| callFormatter | a().ha9b8035 |
+| textFormatter | a().g2244521 |
 
 | constant     | value        |
 |:-------------|:-------------|
