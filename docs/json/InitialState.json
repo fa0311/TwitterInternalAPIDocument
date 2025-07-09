@@ -6785,7 +6785,7 @@
           "value": "true"
         },
         "subscriptions_premium_hub_updated_theme_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "subscriptions_premium_module_creator_gate_enabled": {
           "value": "false"
@@ -6824,7 +6824,7 @@
           "value": "true"
         },
         "subscriptions_upsells_analytics_fix_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "subscriptions_upsells_analytics_profile_enabled": {
           "value": "true"
@@ -7445,7 +7445,7 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "4d30849c717fce00d169cc86e211c7df"
+      "settingsVersion": "94d868b016c588a593b082119358028d"
     },
     "debug": {},
     "featureSetToken": "43be20c92baa9164fff2f6e5ddb4f3db3ed95365",
@@ -7517,7 +7517,7 @@
   },
   "session": {
     "country": "XX",
-    "guestId": "175183570325800120",
+    "guestId": "175200852431369345",
     "hasCommunityMemberships": "false",
     "isActiveCreator": "false",
     "isLoaded": "false",
