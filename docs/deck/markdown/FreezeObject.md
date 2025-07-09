@@ -1,5 +1,11 @@
 # Twitter Internal Constants Document<br>
 This document is entirely auto-generated and may contain errors.<br>
+| constant    | value       |
+|:------------|:------------|
+| Draft       | Draft       |
+| Published   | Published   |
+| SoftDeleted | SoftDeleted |
+
 | constant   |   value |
 |:-----------|--------:|
 | HUMAN      |       1 |
@@ -486,6 +492,7 @@ This document is entirely auto-generated and may contain errors.<br>
 |:---------------------|:---------------------|
 | Ach                  | Ach                  |
 | Aft                  | Aft                  |
+| Check                | Check                |
 | Oct                  | Oct                  |
 | ProviderBankTransfer | ProviderBankTransfer |
 | Wire                 | Wire                 |
@@ -545,6 +552,7 @@ This document is entirely auto-generated and may contain errors.<br>
 |:----------------------------------|:----------------------------------|
 | Cancelled                         | Cancelled                         |
 | InReview                          | InReview                          |
+| ProviderGenericFailure            | ProviderGenericFailure            |
 | RejectedByAutoReview              | RejectedByAutoReview              |
 | RejectedByManualReview            | RejectedByManualReview            |
 | RejectedByUnsupportedRegion       | RejectedByUnsupportedRegion       |
@@ -595,7 +603,7 @@ This document is entirely auto-generated and may contain errors.<br>
 ```
 ```internal process
 # Error
-{[T.g.Cancelled]:"Cancelled",[T.g.Failed]:"Failed",[T.g.Expired]:"Expired",[T.g.Pending]:"Pending",[T.g.Hold]:"Pending",[T.g.AuthorizationOpen]:"Pending",[T.g.AwaitingUnrecognizedConfirmation]:"Awaiting approval",[T.g.PendingReview]:"Under review",[T.g.PendingRecipientAction]:"Pending",[T.g.PendingR...
+{[P.g.Cancelled]:"Cancelled",[P.g.Failed]:"Failed",[P.g.Expired]:"Expired",[P.g.Pending]:"Pending",[P.g.Hold]:"Pending",[P.g.AuthorizationOpen]:"Pending",[P.g.AwaitingUnrecognizedConfirmation]:"Awaiting approval",[P.g.PendingReview]:"Under review",[P.g.PendingRecipientAction]:"Pending",[P.g.PendingR...
 ```
 ```internal process
 # Error
@@ -603,11 +611,11 @@ This document is entirely auto-generated and may contain errors.<br>
 ```
 ```internal process
 # Error
-{[T.g.PendingRecipientAcceptance]:"F",[T.g.PendingRecipientOnboarding]:"F",[T.g.PendingRecipientAction]:"F"}
+{[P.g.PendingRecipientAcceptance]:"F",[P.g.PendingRecipientOnboarding]:"F",[P.g.PendingRecipientAction]:"F"}
 ```
 ```internal process
 # Error
-{[T.g.AwaitingRequestAcceptance]:"F",[T.g.PendingRequestAcceptance]:"F",[T.g.RequestVerificationRequired]:"F"}
+{[P.g.AwaitingRequestAcceptance]:"F",[P.g.PendingRequestAcceptance]:"F",[P.g.RequestVerificationRequired]:"F"}
 ```
 ```internal process
 # Error
@@ -635,7 +643,7 @@ This document is entirely auto-generated and may contain errors.<br>
 ```
 ```internal process
 # Error
-{[P.B.Ach]:"Bank Transfer ()",[P.B.Aft]:"Funds Transfer (ACH)",[P.B.Oct]:"Instant Payment (AFT)",[P.B.Wire]:"Wire Transfer",[P.B.ProviderBankTransfer]:"Third-Party Bank Transfer"}
+{[T.B.Ach]:"Bank Transfer ()",[T.B.Aft]:"Funds Transfer (ACH)",[T.B.Oct]:"Instant Payment (AFT)",[T.B.Wire]:"Wire Transfer",[T.B.ProviderBankTransfer]:"Third-Party Bank Transfer"}
 ```
 ```internal process
 # Error
