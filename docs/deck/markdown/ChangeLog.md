@@ -5375,3 +5375,16 @@
 - japan_holidays_is_labor_thanks_giving_day<br>
 - japan_holidays_labor_thanks_giving_day_message<br>
 - japan_holidays_labor_thanks_giving_message_trigger<br>
+## 2025/07/09<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- subscriptions_marketing_page_updated_supergrok_card_enabled<br>
+#### remove<br>
+- responsive_web_grok_enable_translation_bg_fetch_and_forget<br>
+- responsive_web_grok_use_collapsed_preview<br>
+- rweb_search_show_large_hashflag<br>
