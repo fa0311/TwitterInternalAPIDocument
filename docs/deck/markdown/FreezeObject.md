@@ -2,6 +2,12 @@
 This document is entirely auto-generated and may contain errors.<br>
 | constant    | value       |
 |:------------|:------------|
+| on          | on          |
+| off         | off         |
+| unavailable | unavailable |
+
+| constant    | value       |
+|:------------|:------------|
 | Draft       | Draft       |
 | Published   | Published   |
 | SoftDeleted | SoftDeleted |
@@ -607,7 +613,7 @@ This document is entirely auto-generated and may contain errors.<br>
 ```
 ```internal process
 # Error
-{[D.P.RejectedLimitsExceeded]:"Declined due to exceeded limits",[D.P.InReview]:"Under review",[D.P.RejectedByUnsupportedRegion]:"Unsupported region",[D.P.RejectedNotSufficientFunds]:"Declined due to insufficient funds",[D.P.RejectedCardPaymentsDisabled]:"Declined due to locked card",[D.P.Unrecognize...
+{[v.P.RejectedLimitsExceeded]:"Declined due to exceeded limits",[v.P.InReview]:"Under review",[v.P.RejectedByUnsupportedRegion]:"Unsupported region",[v.P.RejectedNotSufficientFunds]:"Declined due to insufficient funds",[v.P.RejectedCardPaymentsDisabled]:"Declined due to locked card",[v.P.Unrecognize...
 ```
 ```internal process
 # Error
