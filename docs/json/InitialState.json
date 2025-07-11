@@ -1259,7 +1259,7 @@
         "value": "https://abs.twimg.com/images/anniversary-theme.mp4"
       },
       "premium_webview_paywall_video_url": {
-        "value": ""
+        "value": "https://abs.twimg.com/videos/grok-4-key-visual.mp4"
       },
       "professional_launchpad_m1_enabled": {
         "value": "true"
@@ -3082,7 +3082,7 @@
         "value": "true"
       },
       "subscriptions_marketing_page_grok_4_web_paywall": {
-        "value": "false"
+        "value": "true"
       },
       "subscriptions_marketing_page_include_tax_enabled": {
         "value": "true"
@@ -3097,7 +3097,7 @@
         "value": "true"
       },
       "subscriptions_marketing_page_updated_supergrok_card_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "subscriptions_marketing_page_web_refresh_enabled": {
         "value": "true"
@@ -7457,10 +7457,10 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "6a6195c44f7966c44681fb6399108bc7"
+      "settingsVersion": "beeeb8a908efe9e1cec5e0f93f1c282e"
     },
     "debug": {},
-    "featureSetToken": "b5febf1e5a93b8d9331160cea6ce61c4511a13fc",
+    "featureSetToken": "36b6fef979b5041efe196e0d6d7cb983d17abd9d",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -7529,7 +7529,7 @@
   },
   "session": {
     "country": "XX",
-    "guestId": "175218131203567422",
+    "guestId": "175226770970523054",
     "hasCommunityMemberships": "false",
     "isActiveCreator": "false",
     "isLoaded": "false",
