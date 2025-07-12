@@ -6443,3 +6443,23 @@
 - subscriptions_marketing_page_grok_4_web_paywall<br>
 #### remove<br>
 - None<br>
+## 2025/07/12<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- rweb_xchat_bug_report_url<br>
+- xchat_discard_events_with_invalid_signature<br>
+- xchat_enable_eu_report<br>
+- xchat_enable_inbox_pills<br>
+- xchat_max_group_size<br>
+- xchat_read_receipt_facepile<br>
+- xchat_sign_identity_key_during_registration<br>
+- xchat_sign_messages<br>
+- xchat_socket_hostname<br>
+- xchat_verify_message_signatures<br>
+#### remove<br>
+- None<br>
