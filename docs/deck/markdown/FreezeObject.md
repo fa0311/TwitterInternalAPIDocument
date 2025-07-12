@@ -1,10 +1,28 @@
 # Twitter Internal Constants Document<br>
 This document is entirely auto-generated and may contain errors.<br>
+| constant    | value        |
+|:------------|:-------------|
+| joinSpace   | s().h400d7c2 |
+| replaySpace | s().g66c8348 |
+| comingUp    | s().be6ef5b4 |
+
 | constant    | value       |
 |:------------|:------------|
 | on          | on          |
 | off         | off         |
 | unavailable | unavailable |
+
+| constant     |   value |
+|:-------------|--------:|
+| Everyone     |       2 |
+| FollowedOnly |       1 |
+| InvitedOnly  |       0 |
+
+| constant    |   value |
+|:------------|--------:|
+| All         |       0 |
+| Employees   |       1 |
+| Subscribers |       2 |
 
 | constant    | value       |
 |:------------|:------------|
@@ -605,7 +623,7 @@ This document is entirely auto-generated and may contain errors.<br>
 ```
 ```internal process
 # Error
-{"InsufficientFunds":{"message":"Your account balance is insufficient to make this transfer. Please fund your account and then try again.","action":{"link":"l.IN","label":"Deposit"}},"InvalidReceiver":{"message":"Transfers to this account are unavailable right now. Please try again later."},"Invalid...
+{"InsufficientFunds":{"headline":"Insufficient funds","message":"You don't have a high enough balance to complete this action.","action":{"link":"r.IN","label":"Deposit"}},"InvalidReceiver":{"getHeadline":"()"{"actionType":"e"}e===c.jq.P2P_TRANSFER_REQUEST?"request":"payment"},"InvalidReceiverCurren...
 ```
 ```internal process
 # Error
