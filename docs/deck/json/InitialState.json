@@ -2716,6 +2716,9 @@
       "rweb_video_vertical_aspect_ratio_enabled": {
         "value": "false"
       },
+      "rweb_xchat_bug_report_url": {
+        "value": ""
+      },
       "rweb_xchat_debug_enabled": {
         "value": "false"
       },
@@ -3751,6 +3754,33 @@
         "value": "true"
       },
       "x_jetfuel_enable_test_cluster": {
+        "value": "false"
+      },
+      "xchat_discard_events_with_invalid_signature": {
+        "value": "false"
+      },
+      "xchat_enable_eu_report": {
+        "value": "false"
+      },
+      "xchat_enable_inbox_pills": {
+        "value": "false"
+      },
+      "xchat_max_group_size": {
+        "value": "200"
+      },
+      "xchat_read_receipt_facepile": {
+        "value": "false"
+      },
+      "xchat_sign_identity_key_during_registration": {
+        "value": "true"
+      },
+      "xchat_sign_messages": {
+        "value": "false"
+      },
+      "xchat_socket_hostname": {
+        "value": "chat-ws.x.com"
+      },
+      "xchat_verify_message_signatures": {
         "value": "false"
       },
       "xprofile_consumption_enabled": {
@@ -6392,6 +6422,9 @@
         "rweb_video_vertical_aspect_ratio_enabled": {
           "value": "false"
         },
+        "rweb_xchat_bug_report_url": {
+          "value": ""
+        },
         "rweb_xchat_debug_enabled": {
           "value": "false"
         },
@@ -7429,6 +7462,33 @@
         "x_jetfuel_enable_test_cluster": {
           "value": "false"
         },
+        "xchat_discard_events_with_invalid_signature": {
+          "value": "false"
+        },
+        "xchat_enable_eu_report": {
+          "value": "false"
+        },
+        "xchat_enable_inbox_pills": {
+          "value": "false"
+        },
+        "xchat_max_group_size": {
+          "value": "200"
+        },
+        "xchat_read_receipt_facepile": {
+          "value": "false"
+        },
+        "xchat_sign_identity_key_during_registration": {
+          "value": "true"
+        },
+        "xchat_sign_messages": {
+          "value": "false"
+        },
+        "xchat_socket_hostname": {
+          "value": "chat-ws.x.com"
+        },
+        "xchat_verify_message_signatures": {
+          "value": "false"
+        },
         "xprofile_consumption_enabled": {
           "value": "true"
         },
@@ -7460,7 +7520,7 @@
       "settingsVersion": "beeeb8a908efe9e1cec5e0f93f1c282e"
     },
     "debug": {},
-    "featureSetToken": "36b6fef979b5041efe196e0d6d7cb983d17abd9d",
+    "featureSetToken": "deea84442ddb6ddcf1faf4a39d10c3ebfd31c3e5",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -7529,7 +7589,7 @@
   },
   "session": {
     "country": "XX",
-    "guestId": "175226818346710957",
+    "guestId": "175235463514486238",
     "hasCommunityMemberships": "false",
     "isActiveCreator": "false",
     "isLoaded": "false",
