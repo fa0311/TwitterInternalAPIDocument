@@ -5646,7 +5646,7 @@
           "value": "false"
         },
         "responsive_web_grok_show_cards_at_top": {
-          "value": "true"
+          "value": "false"
         },
         "responsive_web_grok_show_citations": {
           "value": "true"
@@ -7517,7 +7517,7 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "beeeb8a908efe9e1cec5e0f93f1c282e"
+      "settingsVersion": "4839169f3f0ca80b46b8d0cdd02433e8"
     },
     "debug": {},
     "featureSetToken": "deea84442ddb6ddcf1faf4a39d10c3ebfd31c3e5",
@@ -7589,7 +7589,7 @@
   },
   "session": {
     "country": "XX",
-    "guestId": "175244052237897011",
+    "guestId": "175252692014679292",
     "hasCommunityMemberships": "false",
     "isActiveCreator": "false",
     "isLoaded": "false",
