@@ -6,11 +6,82 @@ This document is entirely auto-generated and may contain errors.<br>
 | replaySpace | s().g66c8348 |
 | comingUp    | s().be6ef5b4 |
 
+| constant   | value   |
+|:-----------|:--------|
+| small      | small   |
+| medium     | medium  |
+
+| constant   | value                      |
+|:-----------|:---------------------------|
+| primary    | {'aria-live': 'polite'}    |
+| exclusive  | {'aria-live': 'polite'}    |
+| danger     | {'aria-live': 'assertive'} |
+| success    | {'aria-live': 'polite'}    |
+| warning    | {'aria-live': 'polite'}    |
+
+| constant    | value        |
+|:------------|:-------------|
+| TopicFilled | TOPIC_FILLED |
+
+| constant   | value   |
+|:-----------|:--------|
+| Active     | active  |
+| Expand     | expand  |
+| Remove     | remove  |
+
 | constant    | value       |
 |:------------|:------------|
 | on          | on          |
 | off         | off         |
 | unavailable | unavailable |
+
+| constant               |   value |
+|:-----------------------|--------:|
+| RequestSubmitted       |       1 |
+| RequestCancelled       |       2 |
+| RequestRejected        |       3 |
+| RequestApproved        |       4 |
+| InvitationSent         |       5 |
+| InvitationWithdrawn    |       6 |
+| InvitationDeclined     |       7 |
+| InvitationAccepted     |       8 |
+| StreamNegotiated       |       9 |
+| StreamPublished        |      10 |
+| StreamEjected          |      11 |
+| StreamEnded            |      12 |
+| StreamTimedOut         |      13 |
+| SessionTerminated      |      14 |
+| StreamCountdown        |      15 |
+| AdminStreamPublished   |      16 |
+| HostStreamPublished    |      17 |
+| HostStreamReconnecting |      18 |
+
+| constant                                            | value                                               |
+|:----------------------------------------------------|:----------------------------------------------------|
+| JanusPollerResponseEnumWebRtcUp                     | JanusPollerResponseEnumWebRtcUp                     |
+| JanusPollerResponseEnumMediaVideo                   | JanusPollerResponseEnumMediaVideo                   |
+| JanusPollerResponseEnumMediaAudio                   | JanusPollerResponseEnumMediaAudio                   |
+| JanusPollerResponseEnumJanusSlowLink                | JanusPollerResponseEnumJanusSlowLink                |
+| JanusPollerResponseEnumKeepAlive                    | JanusPollerResponseEnumKeepAlive                    |
+| JanusPollerResponseEnumHangup                       | JanusPollerResponseEnumHangup                       |
+| JanusPollerResponseEnumDetached                     | JanusPollerResponseEnumDetached                     |
+| JanusPollerResponseEnumVideoRoomDestroyed           | JanusPollerResponseEnumVideoRoomDestroyed           |
+| JanusPollerResponseEnumEventPublishersList          | JanusPollerResponseEnumEventPublishersList          |
+| JanusPollerResponseEnumUpdated                      | JanusPollerResponseEnumUpdated                      |
+| JanusPollerResponseEnumEventUnpublished             | JanusPollerResponseEnumEventUnpublished             |
+| JanusPollerResponseEnumEventLoggedInUserUnpublished | JanusPollerResponseEnumEventLoggedInUserUnpublished |
+| JanusPollerResponseEnumEventKicked                  | JanusPollerResponseEnumEventKicked                  |
+| JanusPollerResponseEnumEventLoggedInUserLeaving     | JanusPollerResponseEnumEventLoggedInUserLeaving     |
+| JanusPollerResponseEnumEventLeaving                 | JanusPollerResponseEnumEventLeaving                 |
+| JanusPollerResponseEnumVideoRoomSlowLink            | JanusPollerResponseEnumVideoRoomSlowLink            |
+| JanusPollerResponseEnumEventJoined                  | JanusPollerResponseEnumEventJoined                  |
+| JanusPollerResponseEnumEventConfigured              | JanusPollerResponseEnumEventConfigured              |
+| JanusPollerResponseEnumEventListenerAttached        | JanusPollerResponseEnumEventListenerAttached        |
+| JanusPollerResponseEnumEventStarted                 | JanusPollerResponseEnumEventStarted                 |
+| JanusPollerResponseEnumEventLeft                    | JanusPollerResponseEnumEventLeft                    |
+| JanusPollerResponseParseError                       | JanusPollerResponseParseError                       |
+| JanusPollerResponseEnumUnknown                      | JanusPollerResponseEnumUnknown                      |
+| JanusPollerResponseEnumError                        | JanusPollerResponseEnumError                        |
 
 | constant     |   value |
 |:-------------|--------:|
@@ -85,6 +156,13 @@ This document is entirely auto-generated and may contain errors.<br>
 |:------------|:------------|
 | VIDEO       | VIDEO       |
 | SHORT_VIDEO | SHORT_VIDEO |
+
+| constant   |   value |
+|:-----------|--------:|
+| large      |      54 |
+| medium     |      46 |
+| small      |      36 |
+| xSmall     |      12 |
 
 ```internal process
 # Error
