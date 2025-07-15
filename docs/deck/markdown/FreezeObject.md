@@ -1,5 +1,100 @@
 # Twitter Internal Constants Document<br>
 This document is entirely auto-generated and may contain errors.<br>
+| constant    | value        |
+|:------------|:-------------|
+| joinSpace   | s().h400d7c2 |
+| replaySpace | s().g66c8348 |
+| comingUp    | s().be6ef5b4 |
+
+| constant   | value   |
+|:-----------|:--------|
+| small      | small   |
+| medium     | medium  |
+
+| constant   | value                      |
+|:-----------|:---------------------------|
+| primary    | {'aria-live': 'polite'}    |
+| exclusive  | {'aria-live': 'polite'}    |
+| danger     | {'aria-live': 'assertive'} |
+| success    | {'aria-live': 'polite'}    |
+| warning    | {'aria-live': 'polite'}    |
+
+| constant    | value        |
+|:------------|:-------------|
+| TopicFilled | TOPIC_FILLED |
+
+| constant   | value   |
+|:-----------|:--------|
+| Active     | active  |
+| Expand     | expand  |
+| Remove     | remove  |
+
+| constant    | value       |
+|:------------|:------------|
+| on          | on          |
+| off         | off         |
+| unavailable | unavailable |
+
+| constant               |   value |
+|:-----------------------|--------:|
+| RequestSubmitted       |       1 |
+| RequestCancelled       |       2 |
+| RequestRejected        |       3 |
+| RequestApproved        |       4 |
+| InvitationSent         |       5 |
+| InvitationWithdrawn    |       6 |
+| InvitationDeclined     |       7 |
+| InvitationAccepted     |       8 |
+| StreamNegotiated       |       9 |
+| StreamPublished        |      10 |
+| StreamEjected          |      11 |
+| StreamEnded            |      12 |
+| StreamTimedOut         |      13 |
+| SessionTerminated      |      14 |
+| StreamCountdown        |      15 |
+| AdminStreamPublished   |      16 |
+| HostStreamPublished    |      17 |
+| HostStreamReconnecting |      18 |
+
+| constant                                            | value                                               |
+|:----------------------------------------------------|:----------------------------------------------------|
+| JanusPollerResponseEnumWebRtcUp                     | JanusPollerResponseEnumWebRtcUp                     |
+| JanusPollerResponseEnumMediaVideo                   | JanusPollerResponseEnumMediaVideo                   |
+| JanusPollerResponseEnumMediaAudio                   | JanusPollerResponseEnumMediaAudio                   |
+| JanusPollerResponseEnumJanusSlowLink                | JanusPollerResponseEnumJanusSlowLink                |
+| JanusPollerResponseEnumKeepAlive                    | JanusPollerResponseEnumKeepAlive                    |
+| JanusPollerResponseEnumHangup                       | JanusPollerResponseEnumHangup                       |
+| JanusPollerResponseEnumDetached                     | JanusPollerResponseEnumDetached                     |
+| JanusPollerResponseEnumVideoRoomDestroyed           | JanusPollerResponseEnumVideoRoomDestroyed           |
+| JanusPollerResponseEnumEventPublishersList          | JanusPollerResponseEnumEventPublishersList          |
+| JanusPollerResponseEnumUpdated                      | JanusPollerResponseEnumUpdated                      |
+| JanusPollerResponseEnumEventUnpublished             | JanusPollerResponseEnumEventUnpublished             |
+| JanusPollerResponseEnumEventLoggedInUserUnpublished | JanusPollerResponseEnumEventLoggedInUserUnpublished |
+| JanusPollerResponseEnumEventKicked                  | JanusPollerResponseEnumEventKicked                  |
+| JanusPollerResponseEnumEventLoggedInUserLeaving     | JanusPollerResponseEnumEventLoggedInUserLeaving     |
+| JanusPollerResponseEnumEventLeaving                 | JanusPollerResponseEnumEventLeaving                 |
+| JanusPollerResponseEnumVideoRoomSlowLink            | JanusPollerResponseEnumVideoRoomSlowLink            |
+| JanusPollerResponseEnumEventJoined                  | JanusPollerResponseEnumEventJoined                  |
+| JanusPollerResponseEnumEventConfigured              | JanusPollerResponseEnumEventConfigured              |
+| JanusPollerResponseEnumEventListenerAttached        | JanusPollerResponseEnumEventListenerAttached        |
+| JanusPollerResponseEnumEventStarted                 | JanusPollerResponseEnumEventStarted                 |
+| JanusPollerResponseEnumEventLeft                    | JanusPollerResponseEnumEventLeft                    |
+| JanusPollerResponseParseError                       | JanusPollerResponseParseError                       |
+| JanusPollerResponseEnumUnknown                      | JanusPollerResponseEnumUnknown                      |
+| JanusPollerResponseEnumError                        | JanusPollerResponseEnumError                        |
+
+| constant     |   value |
+|:-------------|--------:|
+| Everyone     |       2 |
+| FollowedOnly |       1 |
+| InvitedOnly  |       0 |
+
+| constant    |   value |
+|:------------|--------:|
+| All         |       0 |
+| Employees   |       1 |
+| Subscribers |       2 |
+
 | constant    | value       |
 |:------------|:------------|
 | Draft       | Draft       |
@@ -61,6 +156,13 @@ This document is entirely auto-generated and may contain errors.<br>
 |:------------|:------------|
 | VIDEO       | VIDEO       |
 | SHORT_VIDEO | SHORT_VIDEO |
+
+| constant   |   value |
+|:-----------|--------:|
+| large      |      54 |
+| medium     |      46 |
+| small      |      36 |
+| xSmall     |      12 |
 
 ```internal process
 # Error
@@ -599,7 +701,7 @@ This document is entirely auto-generated and may contain errors.<br>
 ```
 ```internal process
 # Error
-{"InsufficientFunds":{"message":"Your account balance is insufficient to make this transfer. Please fund your account and then try again.","action":{"link":"l.IN","label":"Deposit"}},"InvalidReceiver":{"message":"Transfers to this account are unavailable right now. Please try again later."},"Invalid...
+{"InsufficientFunds":{"headline":"Insufficient funds","message":"You don't have a high enough balance to complete this action.","action":{"link":"r.IN","label":"Deposit"}},"InvalidReceiver":{"getHeadline":"()"{"actionType":"e"}e===c.jq.P2P_TRANSFER_REQUEST?"request":"payment"},"InvalidReceiverCurren...
 ```
 ```internal process
 # Error
@@ -607,7 +709,7 @@ This document is entirely auto-generated and may contain errors.<br>
 ```
 ```internal process
 # Error
-{[D.P.RejectedLimitsExceeded]:"Declined due to exceeded limits",[D.P.InReview]:"Under review",[D.P.RejectedByUnsupportedRegion]:"Unsupported region",[D.P.RejectedNotSufficientFunds]:"Declined due to insufficient funds",[D.P.RejectedCardPaymentsDisabled]:"Declined due to locked card",[D.P.Unrecognize...
+{[v.P.RejectedLimitsExceeded]:"Declined due to exceeded limits",[v.P.InReview]:"Under review",[v.P.RejectedByUnsupportedRegion]:"Unsupported region",[v.P.RejectedNotSufficientFunds]:"Declined due to insufficient funds",[v.P.RejectedCardPaymentsDisabled]:"Declined due to locked card",[v.P.Unrecognize...
 ```
 ```internal process
 # Error
