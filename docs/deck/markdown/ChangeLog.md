@@ -5422,3 +5422,22 @@
 - xchat_verify_message_signatures<br>
 #### remove<br>
 - None<br>
+## 2025/07/16<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- responsive_web_grok_show_button_is_ad<br>
+- responsive_web_grok_show_button_send_is_ads<br>
+- xchat_exclusive_executors<br>
+- xchat_out_of_order_fanout_validation_enabled<br>
+- xchat_process_events_in_batch<br>
+- xchat_pull_events_in_batch<br>
+- xchat_sample_observation_queries<br>
+- xchat_send_read_events_unencrypted<br>
+- xchat_throttle_badge_counts<br>
+#### remove<br>
+- None<br>
