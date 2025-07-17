@@ -157,13 +157,6 @@ This document is entirely auto-generated and may contain errors.<br>
 | VIDEO       | VIDEO       |
 | SHORT_VIDEO | SHORT_VIDEO |
 
-| constant   |   value |
-|:-----------|--------:|
-| large      |      54 |
-| medium     |      46 |
-| small      |      36 |
-| xSmall     |      12 |
-
 ```internal process
 # Error
 {"__proto__":"null","formatCaption":"function()"{"return()(0,a.WU)"},"formatDay":"function()"{"return()(0,a.WU)"},"formatMonthCaption":"function()"{"return()(0,a.WU)"},"formatWeekNumber":"function()"{return"".concat()},"formatWeekdayName":"function()"{"return()(0,a.WU)"},"formatYearCaption":"functio...
@@ -552,6 +545,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | constant     | value        |
 |:-------------|:-------------|
 | Ach          | Ach          |
+| Check        | Check        |
 | DomesticWire | DomesticWire |
 | FedNow       | FedNow       |
 | Oct          | Oct          |
@@ -745,7 +739,7 @@ This document is entirely auto-generated and may contain errors.<br>
 ```
 ```internal process
 # Error
-{[T.B.Ach]:"Bank Transfer ()",[T.B.Aft]:"Funds Transfer (ACH)",[T.B.Oct]:"Instant Payment (AFT)",[T.B.Wire]:"Wire Transfer",[T.B.ProviderBankTransfer]:"Third-Party Bank Transfer"}
+{[T.B.Ach]:"Bank Transfer ()",[T.B.Aft]:"Funds Transfer (ACH)",[T.B.Oct]:"Instant Payment (AFT)",[T.B.Wire]:"Wire Transfer",[T.B.Check]:"Check",[T.B.ProviderBankTransfer]:"Third-Party Bank Transfer"}
 ```
 ```internal process
 # Error
