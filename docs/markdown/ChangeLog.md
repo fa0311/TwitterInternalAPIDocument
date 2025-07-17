@@ -6482,3 +6482,14 @@
 - xchat_throttle_badge_counts<br>
 #### remove<br>
 - None<br>
+## 2025/07/17<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- payments_tracing_hook_url<br>
+#### remove<br>
+- None<br>
