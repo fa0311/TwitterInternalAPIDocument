@@ -60,6 +60,7 @@
         "longform_notetweets_rich_text_read_enabled": true,
         "longform_notetweets_inline_media_enabled": true,
         "responsive_web_grok_image_annotation_enabled": true,
+        "responsive_web_grok_community_note_auto_translation_is_enabled": false,
         "responsive_web_enhance_cards_enabled": false
       }
     },
@@ -99,6 +100,7 @@
         "longform_notetweets_rich_text_read_enabled": true,
         "longform_notetweets_inline_media_enabled": true,
         "responsive_web_grok_image_annotation_enabled": true,
+        "responsive_web_grok_community_note_auto_translation_is_enabled": false,
         "responsive_web_enhance_cards_enabled": false
       }
     },
@@ -138,6 +140,7 @@
         "longform_notetweets_rich_text_read_enabled": true,
         "longform_notetweets_inline_media_enabled": true,
         "responsive_web_grok_image_annotation_enabled": true,
+        "responsive_web_grok_community_note_auto_translation_is_enabled": false,
         "responsive_web_enhance_cards_enabled": false
       }
     },
@@ -177,6 +180,7 @@
         "longform_notetweets_rich_text_read_enabled": true,
         "longform_notetweets_inline_media_enabled": true,
         "responsive_web_grok_image_annotation_enabled": true,
+        "responsive_web_grok_community_note_auto_translation_is_enabled": false,
         "responsive_web_enhance_cards_enabled": false
       }
     },
@@ -214,6 +218,7 @@
         "longform_notetweets_rich_text_read_enabled": true,
         "longform_notetweets_inline_media_enabled": true,
         "responsive_web_grok_image_annotation_enabled": true,
+        "responsive_web_grok_community_note_auto_translation_is_enabled": false,
         "responsive_web_graphql_timeline_navigation_enabled": true,
         "responsive_web_enhance_cards_enabled": false
       }
@@ -270,6 +275,7 @@
         "longform_notetweets_rich_text_read_enabled": true,
         "longform_notetweets_inline_media_enabled": true,
         "responsive_web_grok_image_annotation_enabled": true,
+        "responsive_web_grok_community_note_auto_translation_is_enabled": false,
         "responsive_web_enhance_cards_enabled": false
       }
     },
@@ -325,6 +331,7 @@
         "rweb_tipjar_consumption_enabled": true,
         "verified_phone_label_enabled": false,
         "articles_preview_enabled": true,
+        "responsive_web_grok_community_note_auto_translation_is_enabled": false,
         "responsive_web_graphql_skip_user_profile_image_extensions_enabled": false,
         "freedom_of_speech_not_reach_fetch_enabled": true,
         "standardized_nudges_misinfo": true,
@@ -368,6 +375,7 @@
         "rweb_tipjar_consumption_enabled": true,
         "verified_phone_label_enabled": false,
         "articles_preview_enabled": true,
+        "responsive_web_grok_community_note_auto_translation_is_enabled": false,
         "responsive_web_graphql_skip_user_profile_image_extensions_enabled": false,
         "freedom_of_speech_not_reach_fetch_enabled": true,
         "standardized_nudges_misinfo": true,
@@ -413,6 +421,7 @@
         "longform_notetweets_rich_text_read_enabled": true,
         "longform_notetweets_inline_media_enabled": true,
         "responsive_web_grok_image_annotation_enabled": true,
+        "responsive_web_grok_community_note_auto_translation_is_enabled": false,
         "responsive_web_enhance_cards_enabled": false
       }
     },
@@ -518,6 +527,7 @@
         "longform_notetweets_rich_text_read_enabled": true,
         "longform_notetweets_inline_media_enabled": true,
         "responsive_web_grok_image_annotation_enabled": true,
+        "responsive_web_grok_community_note_auto_translation_is_enabled": false,
         "responsive_web_enhance_cards_enabled": false
       }
     },
@@ -557,6 +567,7 @@
         "longform_notetweets_rich_text_read_enabled": true,
         "longform_notetweets_inline_media_enabled": true,
         "responsive_web_grok_image_annotation_enabled": true,
+        "responsive_web_grok_community_note_auto_translation_is_enabled": false,
         "responsive_web_enhance_cards_enabled": false
       }
     },
@@ -602,6 +613,7 @@
         "longform_notetweets_rich_text_read_enabled": true,
         "longform_notetweets_inline_media_enabled": true,
         "responsive_web_grok_image_annotation_enabled": true,
+        "responsive_web_grok_community_note_auto_translation_is_enabled": false,
         "responsive_web_enhance_cards_enabled": false
       }
     },
@@ -641,6 +653,7 @@
         "longform_notetweets_rich_text_read_enabled": true,
         "longform_notetweets_inline_media_enabled": true,
         "responsive_web_grok_image_annotation_enabled": true,
+        "responsive_web_grok_community_note_auto_translation_is_enabled": false,
         "responsive_web_enhance_cards_enabled": false
       }
     },
@@ -680,6 +693,7 @@
         "longform_notetweets_rich_text_read_enabled": true,
         "longform_notetweets_inline_media_enabled": true,
         "responsive_web_grok_image_annotation_enabled": true,
+        "responsive_web_grok_community_note_auto_translation_is_enabled": false,
         "responsive_web_enhance_cards_enabled": false
       }
     },
@@ -725,6 +739,7 @@
         "longform_notetweets_rich_text_read_enabled": true,
         "longform_notetweets_inline_media_enabled": true,
         "responsive_web_grok_image_annotation_enabled": true,
+        "responsive_web_grok_community_note_auto_translation_is_enabled": false,
         "responsive_web_enhance_cards_enabled": false
       }
     },
@@ -764,6 +779,7 @@
         "longform_notetweets_rich_text_read_enabled": true,
         "longform_notetweets_inline_media_enabled": true,
         "responsive_web_grok_image_annotation_enabled": true,
+        "responsive_web_grok_community_note_auto_translation_is_enabled": false,
         "responsive_web_enhance_cards_enabled": false
       }
     },
@@ -803,6 +819,7 @@
         "longform_notetweets_rich_text_read_enabled": true,
         "longform_notetweets_inline_media_enabled": true,
         "responsive_web_grok_image_annotation_enabled": true,
+        "responsive_web_grok_community_note_auto_translation_is_enabled": false,
         "responsive_web_enhance_cards_enabled": false
       }
     },
@@ -842,6 +859,7 @@
         "longform_notetweets_rich_text_read_enabled": true,
         "longform_notetweets_inline_media_enabled": true,
         "responsive_web_grok_image_annotation_enabled": true,
+        "responsive_web_grok_community_note_auto_translation_is_enabled": false,
         "responsive_web_enhance_cards_enabled": false
       }
     },
@@ -881,6 +899,7 @@
         "longform_notetweets_rich_text_read_enabled": true,
         "longform_notetweets_inline_media_enabled": true,
         "responsive_web_grok_image_annotation_enabled": true,
+        "responsive_web_grok_community_note_auto_translation_is_enabled": false,
         "responsive_web_enhance_cards_enabled": false
       }
     },
@@ -920,6 +939,7 @@
         "longform_notetweets_rich_text_read_enabled": true,
         "longform_notetweets_inline_media_enabled": true,
         "responsive_web_grok_image_annotation_enabled": true,
+        "responsive_web_grok_community_note_auto_translation_is_enabled": false,
         "responsive_web_enhance_cards_enabled": false
       }
     },
@@ -959,6 +979,7 @@
         "longform_notetweets_rich_text_read_enabled": true,
         "longform_notetweets_inline_media_enabled": true,
         "responsive_web_grok_image_annotation_enabled": true,
+        "responsive_web_grok_community_note_auto_translation_is_enabled": false,
         "responsive_web_enhance_cards_enabled": false
       }
     },
@@ -998,6 +1019,7 @@
         "longform_notetweets_rich_text_read_enabled": true,
         "longform_notetweets_inline_media_enabled": true,
         "responsive_web_grok_image_annotation_enabled": true,
+        "responsive_web_grok_community_note_auto_translation_is_enabled": false,
         "responsive_web_enhance_cards_enabled": false
       }
     },
@@ -1043,6 +1065,7 @@
         "longform_notetweets_rich_text_read_enabled": true,
         "longform_notetweets_inline_media_enabled": true,
         "responsive_web_grok_image_annotation_enabled": true,
+        "responsive_web_grok_community_note_auto_translation_is_enabled": false,
         "responsive_web_enhance_cards_enabled": false
       }
     },
@@ -1082,6 +1105,7 @@
         "longform_notetweets_rich_text_read_enabled": true,
         "longform_notetweets_inline_media_enabled": true,
         "responsive_web_grok_image_annotation_enabled": true,
+        "responsive_web_grok_community_note_auto_translation_is_enabled": false,
         "responsive_web_enhance_cards_enabled": false
       }
     },
@@ -1179,6 +1203,7 @@
         "longform_notetweets_rich_text_read_enabled": true,
         "longform_notetweets_inline_media_enabled": true,
         "responsive_web_grok_image_annotation_enabled": true,
+        "responsive_web_grok_community_note_auto_translation_is_enabled": false,
         "responsive_web_enhance_cards_enabled": false
       }
     },
@@ -1224,6 +1249,7 @@
         "longform_notetweets_rich_text_read_enabled": true,
         "longform_notetweets_inline_media_enabled": true,
         "responsive_web_grok_image_annotation_enabled": true,
+        "responsive_web_grok_community_note_auto_translation_is_enabled": false,
         "responsive_web_enhance_cards_enabled": false
       }
     },
@@ -1263,6 +1289,7 @@
         "longform_notetweets_rich_text_read_enabled": true,
         "longform_notetweets_inline_media_enabled": true,
         "responsive_web_grok_image_annotation_enabled": true,
+        "responsive_web_grok_community_note_auto_translation_is_enabled": false,
         "responsive_web_enhance_cards_enabled": false
       }
     },
@@ -1320,6 +1347,7 @@
         "longform_notetweets_rich_text_read_enabled": true,
         "longform_notetweets_inline_media_enabled": true,
         "responsive_web_grok_image_annotation_enabled": true,
+        "responsive_web_grok_community_note_auto_translation_is_enabled": false,
         "responsive_web_enhance_cards_enabled": false
       }
     },
@@ -1371,6 +1399,7 @@
         "longform_notetweets_rich_text_read_enabled": true,
         "longform_notetweets_inline_media_enabled": true,
         "responsive_web_grok_image_annotation_enabled": true,
+        "responsive_web_grok_community_note_auto_translation_is_enabled": false,
         "responsive_web_enhance_cards_enabled": false
       }
     },
@@ -1422,6 +1451,7 @@
         "longform_notetweets_rich_text_read_enabled": true,
         "longform_notetweets_inline_media_enabled": true,
         "responsive_web_grok_image_annotation_enabled": true,
+        "responsive_web_grok_community_note_auto_translation_is_enabled": false,
         "responsive_web_enhance_cards_enabled": false
       }
     },
@@ -1461,6 +1491,7 @@
         "longform_notetweets_rich_text_read_enabled": true,
         "longform_notetweets_inline_media_enabled": true,
         "responsive_web_grok_image_annotation_enabled": true,
+        "responsive_web_grok_community_note_auto_translation_is_enabled": false,
         "responsive_web_enhance_cards_enabled": false
       }
     },
@@ -1500,6 +1531,7 @@
         "longform_notetweets_rich_text_read_enabled": true,
         "longform_notetweets_inline_media_enabled": true,
         "responsive_web_grok_image_annotation_enabled": true,
+        "responsive_web_grok_community_note_auto_translation_is_enabled": false,
         "responsive_web_enhance_cards_enabled": false
       }
     },
@@ -1539,6 +1571,7 @@
         "longform_notetweets_rich_text_read_enabled": true,
         "longform_notetweets_inline_media_enabled": true,
         "responsive_web_grok_image_annotation_enabled": true,
+        "responsive_web_grok_community_note_auto_translation_is_enabled": false,
         "responsive_web_enhance_cards_enabled": false
       }
     },
@@ -1578,6 +1611,7 @@
         "longform_notetweets_rich_text_read_enabled": true,
         "longform_notetweets_inline_media_enabled": true,
         "responsive_web_grok_image_annotation_enabled": true,
+        "responsive_web_grok_community_note_auto_translation_is_enabled": false,
         "responsive_web_enhance_cards_enabled": false
       }
     },
@@ -1617,6 +1651,7 @@
         "longform_notetweets_rich_text_read_enabled": true,
         "longform_notetweets_inline_media_enabled": true,
         "responsive_web_grok_image_annotation_enabled": true,
+        "responsive_web_grok_community_note_auto_translation_is_enabled": false,
         "responsive_web_enhance_cards_enabled": false
       }
     },
@@ -1656,6 +1691,7 @@
         "longform_notetweets_rich_text_read_enabled": true,
         "longform_notetweets_inline_media_enabled": true,
         "responsive_web_grok_image_annotation_enabled": true,
+        "responsive_web_grok_community_note_auto_translation_is_enabled": false,
         "responsive_web_enhance_cards_enabled": false
       }
     },
@@ -1692,6 +1728,7 @@
         "rweb_tipjar_consumption_enabled": true,
         "verified_phone_label_enabled": false,
         "responsive_web_grok_image_annotation_enabled": true,
+        "responsive_web_grok_community_note_auto_translation_is_enabled": false,
         "responsive_web_graphql_skip_user_profile_image_extensions_enabled": false,
         "responsive_web_graphql_timeline_navigation_enabled": true,
         "responsive_web_enhance_cards_enabled": false
@@ -1730,6 +1767,7 @@
         "rweb_tipjar_consumption_enabled": true,
         "verified_phone_label_enabled": false,
         "responsive_web_grok_image_annotation_enabled": true,
+        "responsive_web_grok_community_note_auto_translation_is_enabled": false,
         "responsive_web_graphql_skip_user_profile_image_extensions_enabled": false,
         "responsive_web_graphql_timeline_navigation_enabled": true,
         "responsive_web_enhance_cards_enabled": false
@@ -1816,6 +1854,7 @@
         "longform_notetweets_rich_text_read_enabled": true,
         "longform_notetweets_inline_media_enabled": true,
         "responsive_web_grok_image_annotation_enabled": true,
+        "responsive_web_grok_community_note_auto_translation_is_enabled": false,
         "responsive_web_enhance_cards_enabled": false
       }
     },
@@ -1855,6 +1894,7 @@
         "longform_notetweets_rich_text_read_enabled": true,
         "longform_notetweets_inline_media_enabled": true,
         "responsive_web_grok_image_annotation_enabled": true,
+        "responsive_web_grok_community_note_auto_translation_is_enabled": false,
         "responsive_web_enhance_cards_enabled": false
       }
     },
@@ -1894,6 +1934,7 @@
         "longform_notetweets_rich_text_read_enabled": true,
         "longform_notetweets_inline_media_enabled": true,
         "responsive_web_grok_image_annotation_enabled": true,
+        "responsive_web_grok_community_note_auto_translation_is_enabled": false,
         "responsive_web_enhance_cards_enabled": false
       }
     },
@@ -1978,6 +2019,7 @@
         "longform_notetweets_rich_text_read_enabled": true,
         "longform_notetweets_inline_media_enabled": true,
         "responsive_web_grok_image_annotation_enabled": true,
+        "responsive_web_grok_community_note_auto_translation_is_enabled": false,
         "responsive_web_enhance_cards_enabled": false
       }
     },
@@ -2017,6 +2059,7 @@
         "longform_notetweets_rich_text_read_enabled": true,
         "longform_notetweets_inline_media_enabled": true,
         "responsive_web_grok_image_annotation_enabled": true,
+        "responsive_web_grok_community_note_auto_translation_is_enabled": false,
         "responsive_web_enhance_cards_enabled": false
       }
     },
@@ -2056,6 +2099,7 @@
         "longform_notetweets_rich_text_read_enabled": true,
         "longform_notetweets_inline_media_enabled": true,
         "responsive_web_grok_image_annotation_enabled": true,
+        "responsive_web_grok_community_note_auto_translation_is_enabled": false,
         "responsive_web_enhance_cards_enabled": false
       }
     },
@@ -2095,6 +2139,7 @@
         "longform_notetweets_rich_text_read_enabled": true,
         "longform_notetweets_inline_media_enabled": true,
         "responsive_web_grok_image_annotation_enabled": true,
+        "responsive_web_grok_community_note_auto_translation_is_enabled": false,
         "responsive_web_enhance_cards_enabled": false
       }
     },
@@ -2140,6 +2185,7 @@
         "longform_notetweets_rich_text_read_enabled": true,
         "longform_notetweets_inline_media_enabled": true,
         "responsive_web_grok_image_annotation_enabled": true,
+        "responsive_web_grok_community_note_auto_translation_is_enabled": false,
         "responsive_web_enhance_cards_enabled": false
       }
     },
@@ -2185,6 +2231,7 @@
         "longform_notetweets_rich_text_read_enabled": true,
         "longform_notetweets_inline_media_enabled": true,
         "responsive_web_grok_image_annotation_enabled": true,
+        "responsive_web_grok_community_note_auto_translation_is_enabled": false,
         "responsive_web_enhance_cards_enabled": false
       }
     },
@@ -2224,6 +2271,7 @@
         "longform_notetweets_rich_text_read_enabled": true,
         "longform_notetweets_inline_media_enabled": true,
         "responsive_web_grok_image_annotation_enabled": true,
+        "responsive_web_grok_community_note_auto_translation_is_enabled": false,
         "responsive_web_enhance_cards_enabled": false
       }
     },
@@ -2263,6 +2311,7 @@
         "longform_notetweets_rich_text_read_enabled": true,
         "longform_notetweets_inline_media_enabled": true,
         "responsive_web_grok_image_annotation_enabled": true,
+        "responsive_web_grok_community_note_auto_translation_is_enabled": false,
         "responsive_web_enhance_cards_enabled": false
       }
     },
@@ -2358,6 +2407,7 @@
         "longform_notetweets_rich_text_read_enabled": true,
         "longform_notetweets_inline_media_enabled": true,
         "responsive_web_grok_image_annotation_enabled": true,
+        "responsive_web_grok_community_note_auto_translation_is_enabled": false,
         "responsive_web_enhance_cards_enabled": false
       }
     },
@@ -2395,6 +2445,7 @@
         "longform_notetweets_rich_text_read_enabled": true,
         "longform_notetweets_inline_media_enabled": true,
         "responsive_web_grok_image_annotation_enabled": true,
+        "responsive_web_grok_community_note_auto_translation_is_enabled": false,
         "responsive_web_graphql_timeline_navigation_enabled": true,
         "responsive_web_enhance_cards_enabled": false
       }
@@ -2436,6 +2487,7 @@
         "longform_notetweets_inline_media_enabled": true,
         "responsive_web_grok_image_annotation_enabled": true,
         "responsive_web_graphql_timeline_navigation_enabled": true,
+        "responsive_web_grok_community_note_auto_translation_is_enabled": false,
         "responsive_web_enhance_cards_enabled": false
       }
     },
@@ -2505,6 +2557,7 @@
         "longform_notetweets_rich_text_read_enabled": true,
         "longform_notetweets_inline_media_enabled": true,
         "responsive_web_grok_image_annotation_enabled": true,
+        "responsive_web_grok_community_note_auto_translation_is_enabled": false,
         "responsive_web_enhance_cards_enabled": false
       }
     },
@@ -2609,6 +2662,7 @@
         "longform_notetweets_rich_text_read_enabled": true,
         "longform_notetweets_inline_media_enabled": true,
         "responsive_web_grok_image_annotation_enabled": true,
+        "responsive_web_grok_community_note_auto_translation_is_enabled": false,
         "responsive_web_enhance_cards_enabled": false
       }
     },
@@ -2654,6 +2708,7 @@
         "longform_notetweets_rich_text_read_enabled": true,
         "longform_notetweets_inline_media_enabled": true,
         "responsive_web_grok_image_annotation_enabled": true,
+        "responsive_web_grok_community_note_auto_translation_is_enabled": false,
         "responsive_web_enhance_cards_enabled": false
       }
     },
@@ -2693,6 +2748,7 @@
         "longform_notetweets_rich_text_read_enabled": true,
         "longform_notetweets_inline_media_enabled": true,
         "responsive_web_grok_image_annotation_enabled": true,
+        "responsive_web_grok_community_note_auto_translation_is_enabled": false,
         "responsive_web_enhance_cards_enabled": false
       }
     },
@@ -2732,6 +2788,7 @@
         "longform_notetweets_rich_text_read_enabled": true,
         "longform_notetweets_inline_media_enabled": true,
         "responsive_web_grok_image_annotation_enabled": true,
+        "responsive_web_grok_community_note_auto_translation_is_enabled": false,
         "responsive_web_enhance_cards_enabled": false
       }
     },
@@ -2771,6 +2828,7 @@
         "longform_notetweets_rich_text_read_enabled": true,
         "longform_notetweets_inline_media_enabled": true,
         "responsive_web_grok_image_annotation_enabled": true,
+        "responsive_web_grok_community_note_auto_translation_is_enabled": false,
         "responsive_web_enhance_cards_enabled": false
       }
     },
@@ -2816,6 +2874,7 @@
         "longform_notetweets_rich_text_read_enabled": true,
         "longform_notetweets_inline_media_enabled": true,
         "responsive_web_grok_image_annotation_enabled": true,
+        "responsive_web_grok_community_note_auto_translation_is_enabled": false,
         "responsive_web_enhance_cards_enabled": false
       }
     },
@@ -2868,6 +2927,7 @@
         "longform_notetweets_rich_text_read_enabled": true,
         "longform_notetweets_inline_media_enabled": true,
         "responsive_web_grok_image_annotation_enabled": true,
+        "responsive_web_grok_community_note_auto_translation_is_enabled": false,
         "responsive_web_enhance_cards_enabled": false
       }
     },
@@ -2933,6 +2993,7 @@
         "longform_notetweets_rich_text_read_enabled": true,
         "longform_notetweets_inline_media_enabled": true,
         "responsive_web_grok_image_annotation_enabled": true,
+        "responsive_web_grok_community_note_auto_translation_is_enabled": false,
         "responsive_web_enhance_cards_enabled": false
       }
     },
@@ -3004,6 +3065,7 @@
         "longform_notetweets_rich_text_read_enabled": true,
         "longform_notetweets_inline_media_enabled": true,
         "responsive_web_grok_image_annotation_enabled": true,
+        "responsive_web_grok_community_note_auto_translation_is_enabled": false,
         "responsive_web_enhance_cards_enabled": false
       }
     },
@@ -3043,6 +3105,7 @@
         "longform_notetweets_rich_text_read_enabled": true,
         "longform_notetweets_inline_media_enabled": true,
         "responsive_web_grok_image_annotation_enabled": true,
+        "responsive_web_grok_community_note_auto_translation_is_enabled": false,
         "responsive_web_enhance_cards_enabled": false
       }
     },
@@ -3094,6 +3157,7 @@
         "longform_notetweets_rich_text_read_enabled": true,
         "longform_notetweets_inline_media_enabled": true,
         "responsive_web_grok_image_annotation_enabled": true,
+        "responsive_web_grok_community_note_auto_translation_is_enabled": false,
         "responsive_web_enhance_cards_enabled": false
       }
     },
@@ -3133,6 +3197,7 @@
         "longform_notetweets_rich_text_read_enabled": true,
         "longform_notetweets_inline_media_enabled": true,
         "responsive_web_grok_image_annotation_enabled": true,
+        "responsive_web_grok_community_note_auto_translation_is_enabled": false,
         "responsive_web_enhance_cards_enabled": false
       }
     },
@@ -3172,6 +3237,7 @@
         "longform_notetweets_rich_text_read_enabled": true,
         "longform_notetweets_inline_media_enabled": true,
         "responsive_web_grok_image_annotation_enabled": true,
+        "responsive_web_grok_community_note_auto_translation_is_enabled": false,
         "responsive_web_enhance_cards_enabled": false
       }
     },
@@ -3224,6 +3290,7 @@
         "longform_notetweets_rich_text_read_enabled": true,
         "longform_notetweets_inline_media_enabled": true,
         "responsive_web_grok_image_annotation_enabled": true,
+        "responsive_web_grok_community_note_auto_translation_is_enabled": false,
         "responsive_web_enhance_cards_enabled": false
       }
     },
@@ -3263,6 +3330,7 @@
         "longform_notetweets_rich_text_read_enabled": true,
         "longform_notetweets_inline_media_enabled": true,
         "responsive_web_grok_image_annotation_enabled": true,
+        "responsive_web_grok_community_note_auto_translation_is_enabled": false,
         "responsive_web_enhance_cards_enabled": false
       }
     },
@@ -3328,6 +3396,7 @@
         "longform_notetweets_rich_text_read_enabled": true,
         "longform_notetweets_inline_media_enabled": true,
         "responsive_web_grok_image_annotation_enabled": true,
+        "responsive_web_grok_community_note_auto_translation_is_enabled": false,
         "responsive_web_enhance_cards_enabled": false
       }
     },
@@ -3445,6 +3514,7 @@
         "longform_notetweets_rich_text_read_enabled": true,
         "longform_notetweets_inline_media_enabled": true,
         "responsive_web_grok_image_annotation_enabled": true,
+        "responsive_web_grok_community_note_auto_translation_is_enabled": false,
         "responsive_web_enhance_cards_enabled": false
       }
     },
@@ -3510,6 +3580,7 @@
         "longform_notetweets_rich_text_read_enabled": true,
         "longform_notetweets_inline_media_enabled": true,
         "responsive_web_grok_image_annotation_enabled": true,
+        "responsive_web_grok_community_note_auto_translation_is_enabled": false,
         "responsive_web_enhance_cards_enabled": false
       }
     },
@@ -3549,6 +3620,7 @@
         "longform_notetweets_rich_text_read_enabled": true,
         "longform_notetweets_inline_media_enabled": true,
         "responsive_web_grok_image_annotation_enabled": true,
+        "responsive_web_grok_community_note_auto_translation_is_enabled": false,
         "responsive_web_enhance_cards_enabled": false
       }
     },
@@ -3598,6 +3670,7 @@
         "rweb_tipjar_consumption_enabled": true,
         "verified_phone_label_enabled": false,
         "responsive_web_grok_image_annotation_enabled": true,
+        "responsive_web_grok_community_note_auto_translation_is_enabled": false,
         "responsive_web_graphql_skip_user_profile_image_extensions_enabled": false,
         "responsive_web_graphql_timeline_navigation_enabled": true,
         "responsive_web_enhance_cards_enabled": false
@@ -3690,6 +3763,7 @@
         "longform_notetweets_inline_media_enabled": true,
         "responsive_web_grok_image_annotation_enabled": true,
         "responsive_web_graphql_timeline_navigation_enabled": true,
+        "responsive_web_grok_community_note_auto_translation_is_enabled": false,
         "responsive_web_enhance_cards_enabled": false
       }
     },
@@ -3729,6 +3803,7 @@
         "longform_notetweets_rich_text_read_enabled": true,
         "longform_notetweets_inline_media_enabled": true,
         "responsive_web_grok_image_annotation_enabled": true,
+        "responsive_web_grok_community_note_auto_translation_is_enabled": false,
         "responsive_web_enhance_cards_enabled": false
       }
     },
@@ -3768,6 +3843,7 @@
         "longform_notetweets_rich_text_read_enabled": true,
         "longform_notetweets_inline_media_enabled": true,
         "responsive_web_grok_image_annotation_enabled": true,
+        "responsive_web_grok_community_note_auto_translation_is_enabled": false,
         "responsive_web_enhance_cards_enabled": false
       }
     },
@@ -3807,6 +3883,7 @@
         "longform_notetweets_rich_text_read_enabled": true,
         "longform_notetweets_inline_media_enabled": true,
         "responsive_web_grok_image_annotation_enabled": true,
+        "responsive_web_grok_community_note_auto_translation_is_enabled": false,
         "responsive_web_enhance_cards_enabled": false
       }
     },
@@ -3867,6 +3944,7 @@
         "longform_notetweets_rich_text_read_enabled": true,
         "longform_notetweets_inline_media_enabled": true,
         "responsive_web_grok_image_annotation_enabled": true,
+        "responsive_web_grok_community_note_auto_translation_is_enabled": false,
         "responsive_web_enhance_cards_enabled": false
       }
     },
@@ -3981,6 +4059,7 @@
         "rweb_tipjar_consumption_enabled": true,
         "verified_phone_label_enabled": false,
         "responsive_web_grok_image_annotation_enabled": true,
+        "responsive_web_grok_community_note_auto_translation_is_enabled": false,
         "responsive_web_graphql_skip_user_profile_image_extensions_enabled": false,
         "responsive_web_graphql_timeline_navigation_enabled": true,
         "responsive_web_enhance_cards_enabled": false
@@ -4022,6 +4101,7 @@
         "rweb_tipjar_consumption_enabled": true,
         "verified_phone_label_enabled": false,
         "responsive_web_grok_image_annotation_enabled": true,
+        "responsive_web_grok_community_note_auto_translation_is_enabled": false,
         "responsive_web_graphql_skip_user_profile_image_extensions_enabled": false,
         "responsive_web_graphql_timeline_navigation_enabled": true,
         "responsive_web_enhance_cards_enabled": false
@@ -4046,7 +4126,9 @@
       "features": {
         "responsive_web_birdwatch_media_notes_enabled": true,
         "responsive_web_birdwatch_url_notes_enabled": false,
+        "responsive_web_grok_community_note_translation_is_enabled": false,
         "responsive_web_birdwatch_fast_notes_badge_enabled": false,
+        "responsive_web_grok_community_note_auto_translation_is_enabled": false,
         "responsive_web_graphql_timeline_navigation_enabled": true,
         "payments_enabled": false,
         "profile_label_improvements_pcf_label_in_post_enabled": true,
@@ -4172,6 +4254,7 @@
         "longform_notetweets_rich_text_read_enabled": true,
         "longform_notetweets_inline_media_enabled": true,
         "responsive_web_grok_image_annotation_enabled": true,
+        "responsive_web_grok_community_note_auto_translation_is_enabled": false,
         "responsive_web_enhance_cards_enabled": false
       }
     },
@@ -4197,7 +4280,9 @@
         "responsive_web_birdwatch_enforce_author_user_quotas": true,
         "responsive_web_birdwatch_media_notes_enabled": true,
         "responsive_web_birdwatch_url_notes_enabled": false,
+        "responsive_web_grok_community_note_translation_is_enabled": false,
         "responsive_web_birdwatch_fast_notes_badge_enabled": false,
+        "responsive_web_grok_community_note_auto_translation_is_enabled": false,
         "responsive_web_graphql_timeline_navigation_enabled": true,
         "payments_enabled": false,
         "profile_label_improvements_pcf_label_in_post_enabled": true,
@@ -4213,7 +4298,9 @@
       "features": {
         "responsive_web_birdwatch_media_notes_enabled": true,
         "responsive_web_birdwatch_url_notes_enabled": false,
+        "responsive_web_grok_community_note_translation_is_enabled": false,
         "responsive_web_birdwatch_fast_notes_badge_enabled": false,
+        "responsive_web_grok_community_note_auto_translation_is_enabled": false,
         "responsive_web_graphql_timeline_navigation_enabled": true,
         "payments_enabled": false,
         "profile_label_improvements_pcf_label_in_post_enabled": true,
@@ -4271,6 +4358,7 @@
         "rweb_tipjar_consumption_enabled": true,
         "verified_phone_label_enabled": false,
         "responsive_web_grok_image_annotation_enabled": true,
+        "responsive_web_grok_community_note_auto_translation_is_enabled": false,
         "responsive_web_graphql_skip_user_profile_image_extensions_enabled": false,
         "responsive_web_graphql_timeline_navigation_enabled": true,
         "responsive_web_enhance_cards_enabled": false
@@ -4332,6 +4420,7 @@
         "longform_notetweets_rich_text_read_enabled": true,
         "longform_notetweets_inline_media_enabled": true,
         "responsive_web_grok_image_annotation_enabled": true,
+        "responsive_web_grok_community_note_auto_translation_is_enabled": false,
         "responsive_web_enhance_cards_enabled": false
       }
     },
@@ -4383,6 +4472,7 @@
         "longform_notetweets_rich_text_read_enabled": true,
         "longform_notetweets_inline_media_enabled": true,
         "responsive_web_grok_image_annotation_enabled": true,
+        "responsive_web_grok_community_note_auto_translation_is_enabled": false,
         "responsive_web_enhance_cards_enabled": false
       }
     },
@@ -4429,8 +4519,8 @@
       "features": {}
     },
     "GrokConversationItemsByRestId": {
-      "url": "https://x.com/i/api/graphql/CKC2mzCKQ6KDOAUjr6w3Iw/GrokConversationItemsByRestId",
-      "queryId": "CKC2mzCKQ6KDOAUjr6w3Iw",
+      "url": "https://x.com/i/api/graphql/ODTESpH6Jd4dOPQACff7eA/GrokConversationItemsByRestId",
+      "queryId": "ODTESpH6Jd4dOPQACff7eA",
       "method": "GET",
       "features": {
         "creator_subscriptions_tweet_preview_api_enabled": true,
@@ -4461,6 +4551,7 @@
         "rweb_tipjar_consumption_enabled": true,
         "verified_phone_label_enabled": false,
         "responsive_web_grok_image_annotation_enabled": true,
+        "responsive_web_grok_community_note_auto_translation_is_enabled": false,
         "responsive_web_graphql_skip_user_profile_image_extensions_enabled": false,
         "responsive_web_graphql_timeline_navigation_enabled": true,
         "responsive_web_enhance_cards_enabled": false
@@ -4503,8 +4594,8 @@
       "features": {}
     },
     "GrokShare": {
-      "url": "https://x.com/i/api/graphql/-v76VES8muBiG4w_k1P4Cg/GrokShare",
-      "queryId": "-v76VES8muBiG4w_k1P4Cg",
+      "url": "https://x.com/i/api/graphql/tIuS-uUlHqOv-ojWFL0M0w/GrokShare",
+      "queryId": "tIuS-uUlHqOv-ojWFL0M0w",
       "method": "GET",
       "features": {
         "creator_subscriptions_tweet_preview_api_enabled": true,
@@ -4535,6 +4626,7 @@
         "rweb_tipjar_consumption_enabled": true,
         "verified_phone_label_enabled": false,
         "responsive_web_grok_image_annotation_enabled": true,
+        "responsive_web_grok_community_note_auto_translation_is_enabled": false,
         "responsive_web_graphql_skip_user_profile_image_extensions_enabled": false,
         "responsive_web_graphql_timeline_navigation_enabled": true,
         "responsive_web_enhance_cards_enabled": false
@@ -4612,6 +4704,7 @@
         "longform_notetweets_rich_text_read_enabled": true,
         "longform_notetweets_inline_media_enabled": true,
         "responsive_web_grok_image_annotation_enabled": true,
+        "responsive_web_grok_community_note_auto_translation_is_enabled": false,
         "responsive_web_enhance_cards_enabled": false
       }
     },
@@ -4651,6 +4744,7 @@
         "longform_notetweets_rich_text_read_enabled": true,
         "longform_notetweets_inline_media_enabled": true,
         "responsive_web_grok_image_annotation_enabled": true,
+        "responsive_web_grok_community_note_auto_translation_is_enabled": false,
         "responsive_web_enhance_cards_enabled": false
       }
     },
@@ -4690,6 +4784,7 @@
         "longform_notetweets_rich_text_read_enabled": true,
         "longform_notetweets_inline_media_enabled": true,
         "responsive_web_grok_image_annotation_enabled": true,
+        "responsive_web_grok_community_note_auto_translation_is_enabled": false,
         "responsive_web_enhance_cards_enabled": false
       }
     },
@@ -4729,6 +4824,7 @@
         "longform_notetweets_rich_text_read_enabled": true,
         "longform_notetweets_inline_media_enabled": true,
         "responsive_web_grok_image_annotation_enabled": true,
+        "responsive_web_grok_community_note_auto_translation_is_enabled": false,
         "responsive_web_enhance_cards_enabled": false
       }
     },
@@ -4768,6 +4864,7 @@
         "longform_notetweets_rich_text_read_enabled": true,
         "longform_notetweets_inline_media_enabled": true,
         "responsive_web_grok_image_annotation_enabled": true,
+        "responsive_web_grok_community_note_auto_translation_is_enabled": false,
         "responsive_web_enhance_cards_enabled": false
       }
     },
@@ -4807,6 +4904,7 @@
         "longform_notetweets_rich_text_read_enabled": true,
         "longform_notetweets_inline_media_enabled": true,
         "responsive_web_grok_image_annotation_enabled": true,
+        "responsive_web_grok_community_note_auto_translation_is_enabled": false,
         "responsive_web_enhance_cards_enabled": false
       }
     },
@@ -4907,6 +5005,7 @@
         "longform_notetweets_rich_text_read_enabled": true,
         "longform_notetweets_inline_media_enabled": true,
         "responsive_web_grok_image_annotation_enabled": true,
+        "responsive_web_grok_community_note_auto_translation_is_enabled": false,
         "responsive_web_enhance_cards_enabled": false
       }
     },
@@ -4952,6 +5051,7 @@
         "longform_notetweets_rich_text_read_enabled": true,
         "longform_notetweets_inline_media_enabled": true,
         "responsive_web_grok_image_annotation_enabled": true,
+        "responsive_web_grok_community_note_auto_translation_is_enabled": false,
         "responsive_web_enhance_cards_enabled": false
       }
     },
@@ -4991,6 +5091,7 @@
         "longform_notetweets_rich_text_read_enabled": true,
         "longform_notetweets_inline_media_enabled": true,
         "responsive_web_grok_image_annotation_enabled": true,
+        "responsive_web_grok_community_note_auto_translation_is_enabled": false,
         "responsive_web_enhance_cards_enabled": false
       }
     },
@@ -5024,6 +5125,7 @@
       "method": "GET",
       "features": {
         "creator_subscriptions_tweet_preview_api_enabled": true,
+        "responsive_web_grok_community_note_auto_translation_is_enabled": false,
         "premium_content_api_read_enabled": false,
         "communities_web_enable_tweet_community_results_fetch": true,
         "c9s_tweet_anatomy_moderator_badge_enabled": true,
@@ -5335,6 +5437,7 @@
         "longform_notetweets_rich_text_read_enabled": true,
         "longform_notetweets_inline_media_enabled": true,
         "responsive_web_grok_image_annotation_enabled": true,
+        "responsive_web_grok_community_note_auto_translation_is_enabled": false,
         "responsive_web_enhance_cards_enabled": false
       }
     },
@@ -5374,6 +5477,7 @@
         "longform_notetweets_rich_text_read_enabled": true,
         "longform_notetweets_inline_media_enabled": true,
         "responsive_web_grok_image_annotation_enabled": true,
+        "responsive_web_grok_community_note_auto_translation_is_enabled": false,
         "responsive_web_enhance_cards_enabled": false
       }
     },
@@ -5409,6 +5513,7 @@
         "rweb_tipjar_consumption_enabled": true,
         "verified_phone_label_enabled": false,
         "articles_preview_enabled": true,
+        "responsive_web_grok_community_note_auto_translation_is_enabled": false,
         "responsive_web_graphql_skip_user_profile_image_extensions_enabled": false,
         "responsive_web_grok_image_annotation_enabled": true,
         "responsive_web_graphql_timeline_navigation_enabled": true,

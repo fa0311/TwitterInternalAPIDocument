@@ -2579,126 +2579,6 @@
     "EXPANDED": "expanded"
   },
   {
-    "UNKNOWN": "0",
-    "TOP_LEFT": "1",
-    "TOP_RIGHT": "2",
-    "BOTTOM_RIGHT": "3",
-    "BOTTOM_LEFT": "4",
-    "LEFT_TOP": "5",
-    "LEFT_BOTTOM": "6",
-    "RIGHT_BOTTOM": "7",
-    "RIGHT_TOP": "8"
-  },
-  {
-    "FILE_TOO_LARGE": "2",
-    "INTERNAL_ERROR": "131",
-    "INVALID_MEDIA": "1",
-    "RATE_LIMIT": "88",
-    "TIMEOUT": "67",
-    "UNSUPPORTED_MEDIA": "3",
-    "ZERO_FILE_LENGTH": "4",
-    "CANCELED": "999",
-    "INVALID_RES_STATUS": -1
-  },
-  {
-    "0": "y.INTERNAL_ERROR",
-    "1": "y.INVALID_MEDIA",
-    "2": "y.FILE_TOO_LARGE",
-    "3": "y.UNSUPPORTED_MEDIA",
-    "4": "y.TIMEOUT"
-  },
-  {
-    "RESET": "0",
-    "PENDING": "1",
-    "PAUSED": "2",
-    "SUCCEEDED": "3",
-    "FAILED": "4"
-  },
-  {
-    "RESIZE": "resize",
-    "UPLOAD": "upload",
-    "METADATA": "metadata",
-    "MAXDURATION": "maxduration",
-    "MAXSIZE": "maxsize"
-  },
-  {
-    "LocalFile": "local_file",
-    "Remote": "remote"
-  },
-  {
-    "Cancel": "cancel",
-    "Failure": "failure",
-    "Success": "success",
-    "Complete": "complete",
-    "Invalid": "invalid"
-  },
-  {
-    "InProgress": "in_progress",
-    "Complete": "complete",
-    "Failure": "failure",
-    "Canceled": "canceled"
-  },
-  {
-    "Full": "full",
-    "Hash": "hash",
-    "Processing": "processing",
-    "SruUpload": "sru_upload",
-    "UploadSubmitUntilSruFinish": "upload_submit_until_sru_finish",
-    "Metadata": "metadata"
-  },
-  {
-    "SruUpload": "sru_upload_no_eager",
-    "UploadSubmitUntilSruFinish": "upload_submit_until_sru_finish_no_eager"
-  },
-  {
-    "All": "all",
-    "Short": "short",
-    "Medium": "medium",
-    "Long": "long",
-    "XLong": "xlong",
-    "L90to140s": "l90to140s",
-    "L140to300s": "l140to300s",
-    "L300to600s": "l300to600s",
-    "L600to1200s": "l600to1200s",
-    "L1200to1800s": "l1200to1800s",
-    "L1800to2700s": "l1800to2700s",
-    "L2700to3600s": "l2700to3600s",
-    "L3600to4500s": "l3600to4500s",
-    "L4500to5400s": "l4500to5400s",
-    "L5400to6300s": "l5400to6300s",
-    "L6300to7200s": "l6300to7200s",
-    "L7200to10800s": "l7200to10800s",
-    "L10800to14400s": "l10800to14400s",
-    "LGT14400s": "lgt14400s"
-  },
-  {
-    "AmplifyVideo": "amplify_video",
-    "CommunityBanner": "community_banner_image",
-    "ListBanner": "list_banner_image",
-    "TweetImage": "tweet_image",
-    "TweetVideo": "tweet_video",
-    "TweetGif": "tweet_gif",
-    "DMImage": "dm_image",
-    "DMVideo": "dm_video",
-    "DMGif": "dm_gif",
-    "Subtitles": "subtitles",
-    "ProfileBanner": "banner_image"
-  },
-  {
-    "Tweet": "tweet",
-    "Dm": "dm",
-    "CommunityBanner": "community_banner",
-    "ListBanner": "list_banner",
-    "ProfileBanner": "profile_banner",
-    "Avatar": "avatar",
-    "Verification": "verification",
-    "TwitterArticle": "twitter_article"
-  },
-  {
-    "uploading": "uploading",
-    "processing": "processing"
-  },
-  {
     "small": "small",
     "medium": "medium"
   },
@@ -2941,6 +2821,126 @@
   {
     "CONVERSATION": "conversation",
     "MESSAGE": "message"
+  },
+  {
+    "UNKNOWN": "0",
+    "TOP_LEFT": "1",
+    "TOP_RIGHT": "2",
+    "BOTTOM_RIGHT": "3",
+    "BOTTOM_LEFT": "4",
+    "LEFT_TOP": "5",
+    "LEFT_BOTTOM": "6",
+    "RIGHT_BOTTOM": "7",
+    "RIGHT_TOP": "8"
+  },
+  {
+    "FILE_TOO_LARGE": "2",
+    "INTERNAL_ERROR": "131",
+    "INVALID_MEDIA": "1",
+    "RATE_LIMIT": "88",
+    "TIMEOUT": "67",
+    "UNSUPPORTED_MEDIA": "3",
+    "ZERO_FILE_LENGTH": "4",
+    "CANCELED": "999",
+    "INVALID_RES_STATUS": -1
+  },
+  {
+    "0": "y.INTERNAL_ERROR",
+    "1": "y.INVALID_MEDIA",
+    "2": "y.FILE_TOO_LARGE",
+    "3": "y.UNSUPPORTED_MEDIA",
+    "4": "y.TIMEOUT"
+  },
+  {
+    "RESET": "0",
+    "PENDING": "1",
+    "PAUSED": "2",
+    "SUCCEEDED": "3",
+    "FAILED": "4"
+  },
+  {
+    "RESIZE": "resize",
+    "UPLOAD": "upload",
+    "METADATA": "metadata",
+    "MAXDURATION": "maxduration",
+    "MAXSIZE": "maxsize"
+  },
+  {
+    "LocalFile": "local_file",
+    "Remote": "remote"
+  },
+  {
+    "Cancel": "cancel",
+    "Failure": "failure",
+    "Success": "success",
+    "Complete": "complete",
+    "Invalid": "invalid"
+  },
+  {
+    "InProgress": "in_progress",
+    "Complete": "complete",
+    "Failure": "failure",
+    "Canceled": "canceled"
+  },
+  {
+    "Full": "full",
+    "Hash": "hash",
+    "Processing": "processing",
+    "SruUpload": "sru_upload",
+    "UploadSubmitUntilSruFinish": "upload_submit_until_sru_finish",
+    "Metadata": "metadata"
+  },
+  {
+    "SruUpload": "sru_upload_no_eager",
+    "UploadSubmitUntilSruFinish": "upload_submit_until_sru_finish_no_eager"
+  },
+  {
+    "All": "all",
+    "Short": "short",
+    "Medium": "medium",
+    "Long": "long",
+    "XLong": "xlong",
+    "L90to140s": "l90to140s",
+    "L140to300s": "l140to300s",
+    "L300to600s": "l300to600s",
+    "L600to1200s": "l600to1200s",
+    "L1200to1800s": "l1200to1800s",
+    "L1800to2700s": "l1800to2700s",
+    "L2700to3600s": "l2700to3600s",
+    "L3600to4500s": "l3600to4500s",
+    "L4500to5400s": "l4500to5400s",
+    "L5400to6300s": "l5400to6300s",
+    "L6300to7200s": "l6300to7200s",
+    "L7200to10800s": "l7200to10800s",
+    "L10800to14400s": "l10800to14400s",
+    "LGT14400s": "lgt14400s"
+  },
+  {
+    "AmplifyVideo": "amplify_video",
+    "CommunityBanner": "community_banner_image",
+    "ListBanner": "list_banner_image",
+    "TweetImage": "tweet_image",
+    "TweetVideo": "tweet_video",
+    "TweetGif": "tweet_gif",
+    "DMImage": "dm_image",
+    "DMVideo": "dm_video",
+    "DMGif": "dm_gif",
+    "Subtitles": "subtitles",
+    "ProfileBanner": "banner_image"
+  },
+  {
+    "Tweet": "tweet",
+    "Dm": "dm",
+    "CommunityBanner": "community_banner",
+    "ListBanner": "list_banner",
+    "ProfileBanner": "profile_banner",
+    "Avatar": "avatar",
+    "Verification": "verification",
+    "TwitterArticle": "twitter_article"
+  },
+  {
+    "uploading": "uploading",
+    "processing": "processing"
   },
   {
     "Carousel": "Carousel",
@@ -4179,6 +4179,11 @@
     "FAILURE": "rweb/FETCH_GROK_CONVERSATION/FAILURE"
   },
   {
+    "REQUEST": "rweb/RECONNECT_GROK_CONVERSATION/REQUEST",
+    "SUCCESS": "rweb/RECONNECT_GROK_CONVERSATION/SUCCESS",
+    "FAILURE": "rweb/RECONNECT_GROK_CONVERSATION/FAILURE"
+  },
+  {
     "REQUEST": "rweb/FETCH_GROK_HISTORY/REQUEST",
     "SUCCESS": "rweb/FETCH_GROK_HISTORY/SUCCESS",
     "FAILURE": "rweb/FETCH_GROK_HISTORY/FAILURE"
@@ -5179,7 +5184,7 @@
     "darker": "dark",
     "business": "business"
   },
-  "{[b.sj.AMPLIFY]:{\"conversionHandler\":\"a.R\",\"shouldRenderCard\":\"a.r\"},[b.sj.APP]:{\"conversionHandler\":\"o.F\",\"shouldRenderCard\":\"o.V\"},[b.sj.AUDIOSPACE]:{\"conversionHandler\":\"s.x\",\"shouldRenderCard\":\"s.W\"},[b.sj.BROADCAST]:{\"conversionHandler\":\"d.K\",\"shouldRenderCard\":\"d.Q\"},[b.sj.DIRECT_STORE_LINK_APP]:{\"conversionHandler\":\"r.T\",\"shouldRenderCard\":\"r.B\"},[b.sj.IMAGE_DIRECT_MESSAGE]:{\"conversionHandler\":\"l.a\",\"shouldRenderCard\":\"l.R\"},[b.sj.LIVE_EVENT]:{\"conversionHandler\":\"_.q\",\"shouldRenderCard\":\"_.C\"},[b.sj.MESSAGE_ME]:{\"conversionHandler\":\"c.I\",\"shouldRenderCard\":\"c.i\"},[b.sj.MOMENT]:{\"conversionHandler\":\"p.l\",\"shouldRenderCard\":\"p.Z\"},[b.sj.NEWSLETTER_ISSUE]:{\"conversionHandler\":\"null\",\"shouldRenderCard\":()=>!1},[b.sj.NEWSLETTER_PUBLICATION]:{\"conversionHandler\":\"null\",\"shouldRenderCard\":()=>!1},[b.sj.NOTE]:{\"conversionHandler\":\"m.R\",\"shouldRenderCard\":\"m.q\"},[b.sj.PERISCOPE_BROADCAST]:{\"conversionHandler\":\"u.w\",\"shouldRenderCard\":\"u.y\"},[b.sj.PLAYER]:{\"conversionHandler\":\"y.L\",\"shouldRenderCard\":\"y.F\"},[b.sj.POLL_2_CHOICE_TEXT]:{\"conversionHandler\":\"I.J\",\"shouldRenderCard\":\"I.l\"},[b.sj.POLL_3_CHOICE_TEXT]:{\"conversionHandler\":\"I.J\",\"shouldRenderCard\":\"I.l\"},[b.sj.POLL_4_CHOICE_TEXT]:{\"conversionHandler\":\"I.J\",\"shouldRenderCard\":\"I.l\"},[b.sj.POLL_2_CHOICE_IMAGE]:{\"conversionHandler\":\"I.J\",\"shouldRenderCard\":\"I.l\"},[b.sj.POLL_3_CHOICE_IMAGE]:{\"conversionHandler\":\"I.J\",\"shouldRenderCard\":\"I.l\"},[b.sj.POLL_4_CHOICE_IMAGE]:{\"conversionHandler\":\"I.J\",\"shouldRenderCard\":\"I.l\"},[b.sj.POLL_2_CHOICE_VIDEO]:{\"conversionHandler\":\"I.J\",\"shouldRenderCard\":\"I.l\"},[b.sj.POLL_3_CHOICE_VIDEO]:{\"conversionHandler\":\"I.J\",\"shouldRenderCard\":\"I.l\"},[b.sj.POLL_4_CHOICE_VIDEO]:{\"conversionHandler\":\"I.J\",\"shouldRenderCard\":\"I.l\"},[b.sj.PROMO_IMAGE_CONVO]:{\"conversionHandler\":\"E.g\",\"shouldRenderCard\":\"E.o\"},[b.sj.PROMO_VIDEO_CONVO]:{\"conversionHandler\":\"C.G\",\"shouldRenderCard\":\"C.T\"},[b.sj.SUMMARY]:{\"conversionHandler\":\"T.n\",\"shouldRenderCard\":\"T.K\"},[b.sj.SUMMARY_LARGE_IMAGE]:{\"conversionHandler\":\"g.N\",\"shouldRenderCard\":\"g.a\"},[b.sj.UNIFIED_CARD]:{\"conversionHandler\":\"h.O4\",\"shouldRenderCard\":\"h.AU\"},[b.sj.VIDEO_DIRECT_MESSAGE]:{\"conversionHandler\":\"()\"{\"cardId\":\"e\",\"cardType\":\"t\",\"converterOptions\":\"n\",\"data\":\"i\",\"users\":\"a\"}{\"const o=()(0,H.FL)\",s=(i,\\\"image_value\\\",\\\"player_image_original\\\")(0,H.SI),d=parseInt(i,\\\"string_value\\\",\\\"player_stream_url\\\")/parseInt(0,H.SIi,\\\"string_value\\\",\\\"player_width\\\",10),r=(0,H.SIi,\\\"string_value\\\",\\\"player_height\\\",10)(0,H.SI),l=e=>[1,2,3,4].map(i,\\\"string_value\\\",\\\"content_duration_seconds\\\"){\"const n=()(0,H.SI)\"{\"t\"}`0,H.SIi,\"string_value\",`cta${\"t\"}_wm_id`{\"type\":\"f.lW.DM\",\"data\":{\"icon\":\"dm\",\"index\":\"t\",\"cta\":\"n\",\"wm_id\":\"a\",\"destination\":\"e\"}}:\"null\"}{\"cardState\":\"b.uW.DEFAULT\",\"layout\":{[b.uW.DEFAULT]:{\"size\":\"large\"},[b.uW.CONDENSED]:{\"size\":\"large\"},[b.uW.STATIC]:{\"size\":\"large\"}},\"card\":{\"card_name\":\"t\",\"on_visibility\":{\"scribe\":\"show\"},\"id\":\"e\",\"components\":{[b.uW.DEFAULT]:[b.Fw.MEDIA,...u?[b.Fw.DETAILS]:[],b.Fw.BUTTON_GROUP],[b.uW.STATIC]:[b.Fw.MEDIA_STATIC,...u?[b.Fw.DETAILS]:[],b.Fw.BUTTON_GROUP_STATIC]},\"destinations\":{[b.Fw.DESTINATION]:{\"type\":\"b._g.ACTION\",\"data\":{\"action_data\":{\"persist\":\"!1\",\"type\":\"dm\",\"recipient\":\"p.id_str\"},\"auth_required\":\"!0\",\"scribe\":\"click\",\"promoted_log\":\"f.YE.DM_BUTTON_CLICK\"}},[b.Fw.DESTINATION_STATIC]:{\"type\":\"b._g.BROWSER\",\"data\":{\"url_data\":{\"url\":n.tweetPermalink||b.$H},\"scribe\":\"open_link\",\"promoted_log\":\"f.YE.CARD_URL_CLICK\"}}},\"media_entities\":{[b.Fw.IMAGE_ENTITY]:\"()(0,H.WW)\"{}{\"type\":\"video\",\"aspect_ratio\":\"d\",\"content_id\":()(0,H.SI)||(i,\\\"string_value\\\",\\\"player_content_id\\\")(0,H.cT),\"...r?\":{\"duration_ms\":1e3*parseInt()}:\"null\",\"vmap_url\":\"s\",\"poster_image\":\"o\",\"publisher_id\":()(0,H.SI)||n.tweetUserId,\"variants\":[{\"src\":\"()(0,H.SI)\",\"type\":\"application/x-mpegURL\"}]}},\"components_data\":{[b.Fw.MEDIA]:{\"type\":\"b.Qe.MEDIA\",\"data\":{\"id\":\"b.Fw.VIDEO_ENTITY\"}},[b.Fw.MEDIA_STATIC]:{\"type\":\"b.Qe.MEDIA\",\"data\":{\"id\":\"b.Fw.IMAGE_ENTITY\",\"destination\":\"b.Fw.DESTINATION_STATIC\"}},\"...u?\":{[b.Fw.DETAILS]:{\"type\":\"b.Qe.DETAILS\",\"data\":{\"attribution\":\"m\"}}}:\"null\",[b.Fw.BUTTON_GROUP]:{\"type\":\"b.Qe.BUTTON_GROUP\",\"data\":{\"buttons\":\"_\"}},[b.Fw.BUTTON_GROUP_STATIC]:{\"type\":\"b.Qe.BUTTON_GROUP\",\"data\":{\"buttons\":\"c\"}}}}}},\"shouldRenderCard\":e=>()(0,H.BY)}}",
+  "{[b.sj.AMPLIFY]:{\"conversionHandler\":\"a.R\",\"shouldRenderCard\":\"a.r\"},[b.sj.APP]:{\"conversionHandler\":\"o.F\",\"shouldRenderCard\":\"o.V\"},[b.sj.AUDIOSPACE]:{\"conversionHandler\":\"s.x\",\"shouldRenderCard\":\"s.W\"},[b.sj.BROADCAST]:{\"conversionHandler\":\"d.K\",\"shouldRenderCard\":\"d.Q\"},[b.sj.DIRECT_STORE_LINK_APP]:{\"conversionHandler\":\"r.T\",\"shouldRenderCard\":\"r.B\"},[b.sj.IMAGE_DIRECT_MESSAGE]:{\"conversionHandler\":\"l.a\",\"shouldRenderCard\":\"l.R\"},[b.sj.LIVE_EVENT]:{\"conversionHandler\":\"_.q\",\"shouldRenderCard\":\"_.C\"},[b.sj.MESSAGE_ME]:{\"conversionHandler\":\"c.I\",\"shouldRenderCard\":\"c.i\"},[b.sj.MOMENT]:{\"conversionHandler\":\"p.l\",\"shouldRenderCard\":\"p.Z\"},[b.sj.NEWSLETTER_ISSUE]:{\"conversionHandler\":\"null\",\"shouldRenderCard\":()=>!1},[b.sj.NEWSLETTER_PUBLICATION]:{\"conversionHandler\":\"null\",\"shouldRenderCard\":()=>!1},[b.sj.NOTE]:{\"conversionHandler\":\"m.R\",\"shouldRenderCard\":\"m.q\"},[b.sj.PERISCOPE_BROADCAST]:{\"conversionHandler\":\"u.w\",\"shouldRenderCard\":\"u.y\"},[b.sj.PLAYER]:{\"conversionHandler\":\"y.L\",\"shouldRenderCard\":\"y.F\"},[b.sj.POLL_2_CHOICE_TEXT]:{\"conversionHandler\":\"I.J\",\"shouldRenderCard\":\"I.l\"},[b.sj.POLL_3_CHOICE_TEXT]:{\"conversionHandler\":\"I.J\",\"shouldRenderCard\":\"I.l\"},[b.sj.POLL_4_CHOICE_TEXT]:{\"conversionHandler\":\"I.J\",\"shouldRenderCard\":\"I.l\"},[b.sj.POLL_2_CHOICE_IMAGE]:{\"conversionHandler\":\"I.J\",\"shouldRenderCard\":\"I.l\"},[b.sj.POLL_3_CHOICE_IMAGE]:{\"conversionHandler\":\"I.J\",\"shouldRenderCard\":\"I.l\"},[b.sj.POLL_4_CHOICE_IMAGE]:{\"conversionHandler\":\"I.J\",\"shouldRenderCard\":\"I.l\"},[b.sj.POLL_2_CHOICE_VIDEO]:{\"conversionHandler\":\"I.J\",\"shouldRenderCard\":\"I.l\"},[b.sj.POLL_3_CHOICE_VIDEO]:{\"conversionHandler\":\"I.J\",\"shouldRenderCard\":\"I.l\"},[b.sj.POLL_4_CHOICE_VIDEO]:{\"conversionHandler\":\"I.J\",\"shouldRenderCard\":\"I.l\"},[b.sj.PROMO_IMAGE_CONVO]:{\"conversionHandler\":\"E.g\",\"shouldRenderCard\":\"E.o\"},[b.sj.PROMO_VIDEO_CONVO]:{\"conversionHandler\":\"C.G\",\"shouldRenderCard\":\"C.T\"},[b.sj.SUMMARY]:{\"conversionHandler\":\"g.n\",\"shouldRenderCard\":\"g.K\"},[b.sj.SUMMARY_LARGE_IMAGE]:{\"conversionHandler\":\"h.N\",\"shouldRenderCard\":\"h.a\"},[b.sj.UNIFIED_CARD]:{\"conversionHandler\":\"T.O4\",\"shouldRenderCard\":\"T.AU\"},[b.sj.VIDEO_DIRECT_MESSAGE]:{\"conversionHandler\":\"()\"{\"cardId\":\"e\",\"cardType\":\"t\",\"converterOptions\":\"n\",\"data\":\"i\",\"users\":\"a\"}{\"const o=()(0,H.FL)\",s=(i,\\\"image_value\\\",\\\"player_image_original\\\")(0,H.SI),d=parseInt(i,\\\"string_value\\\",\\\"player_stream_url\\\")/parseInt(0,H.SIi,\\\"string_value\\\",\\\"player_width\\\",10),r=(0,H.SIi,\\\"string_value\\\",\\\"player_height\\\",10)(0,H.SI),l=e=>[1,2,3,4].map(i,\\\"string_value\\\",\\\"content_duration_seconds\\\"){\"const n=()(0,H.SI)\"{\"t\"}`0,H.SIi,\"string_value\",`cta${\"t\"}_wm_id`{\"type\":\"v.lW.DM\",\"data\":{\"icon\":\"dm\",\"index\":\"t\",\"cta\":\"n\",\"wm_id\":\"a\",\"destination\":\"e\"}}:\"null\"}{\"cardState\":\"b.uW.DEFAULT\",\"layout\":{[b.uW.DEFAULT]:{\"size\":\"large\"},[b.uW.CONDENSED]:{\"size\":\"large\"},[b.uW.STATIC]:{\"size\":\"large\"}},\"card\":{\"card_name\":\"t\",\"on_visibility\":{\"scribe\":\"show\"},\"id\":\"e\",\"components\":{[b.uW.DEFAULT]:[b.Fw.MEDIA,...u?[b.Fw.DETAILS]:[],b.Fw.BUTTON_GROUP],[b.uW.STATIC]:[b.Fw.MEDIA_STATIC,...u?[b.Fw.DETAILS]:[],b.Fw.BUTTON_GROUP_STATIC]},\"destinations\":{[b.Fw.DESTINATION]:{\"type\":\"b._g.ACTION\",\"data\":{\"action_data\":{\"persist\":\"!1\",\"type\":\"dm\",\"recipient\":\"p.id_str\"},\"auth_required\":\"!0\",\"scribe\":\"click\",\"promoted_log\":\"v.YE.DM_BUTTON_CLICK\"}},[b.Fw.DESTINATION_STATIC]:{\"type\":\"b._g.BROWSER\",\"data\":{\"url_data\":{\"url\":n.tweetPermalink||b.$H},\"scribe\":\"open_link\",\"promoted_log\":\"v.YE.CARD_URL_CLICK\"}}},\"media_entities\":{[b.Fw.IMAGE_ENTITY]:\"()(0,H.WW)\"{}{\"type\":\"video\",\"aspect_ratio\":\"d\",\"content_id\":()(0,H.SI)||(i,\\\"string_value\\\",\\\"player_content_id\\\")(0,H.cT),\"...r?\":{\"duration_ms\":1e3*parseInt()}:\"null\",\"vmap_url\":\"s\",\"poster_image\":\"o\",\"publisher_id\":()(0,H.SI)||n.tweetUserId,\"variants\":[{\"src\":\"()(0,H.SI)\",\"type\":\"application/x-mpegURL\"}]}},\"components_data\":{[b.Fw.MEDIA]:{\"type\":\"b.Qe.MEDIA\",\"data\":{\"id\":\"b.Fw.VIDEO_ENTITY\"}},[b.Fw.MEDIA_STATIC]:{\"type\":\"b.Qe.MEDIA\",\"data\":{\"id\":\"b.Fw.IMAGE_ENTITY\",\"destination\":\"b.Fw.DESTINATION_STATIC\"}},\"...u?\":{[b.Fw.DETAILS]:{\"type\":\"b.Qe.DETAILS\",\"data\":{\"attribution\":\"m\"}}}:\"null\",[b.Fw.BUTTON_GROUP]:{\"type\":\"b.Qe.BUTTON_GROUP\",\"data\":{\"buttons\":\"_\"}},[b.Fw.BUTTON_GROUP_STATIC]:{\"type\":\"b.Qe.BUTTON_GROUP\",\"data\":{\"buttons\":\"c\"}}}}}},\"shouldRenderCard\":e=>()(0,H.BY)}}",
   {
     "navButtons": "navigationButtons",
     "carouselRoot": "carouselRoot"
@@ -5452,11 +5457,11 @@
     "INVALID_RES_STATUS": -1
   },
   {
-    "0": "E.INTERNAL_ERROR",
-    "1": "E.INVALID_MEDIA",
-    "2": "E.FILE_TOO_LARGE",
-    "3": "E.UNSUPPORTED_MEDIA",
-    "4": "E.TIMEOUT"
+    "0": "w.INTERNAL_ERROR",
+    "1": "w.INVALID_MEDIA",
+    "2": "w.FILE_TOO_LARGE",
+    "3": "w.UNSUPPORTED_MEDIA",
+    "4": "w.TIMEOUT"
   },
   {
     "RESET": "0",
@@ -5559,6 +5564,11 @@
     "REQUEST": "rweb/FETCH_GROK_CONVERSATION/REQUEST",
     "SUCCESS": "rweb/FETCH_GROK_CONVERSATION/SUCCESS",
     "FAILURE": "rweb/FETCH_GROK_CONVERSATION/FAILURE"
+  },
+  {
+    "REQUEST": "rweb/RECONNECT_GROK_CONVERSATION/REQUEST",
+    "SUCCESS": "rweb/RECONNECT_GROK_CONVERSATION/SUCCESS",
+    "FAILURE": "rweb/RECONNECT_GROK_CONVERSATION/FAILURE"
   },
   {
     "REQUEST": "rweb/FETCH_GROK_HISTORY/REQUEST",
@@ -7451,6 +7461,11 @@
     "FAILURE": "rweb/FETCH_GROK_CONVERSATION/FAILURE"
   },
   {
+    "REQUEST": "rweb/RECONNECT_GROK_CONVERSATION/REQUEST",
+    "SUCCESS": "rweb/RECONNECT_GROK_CONVERSATION/SUCCESS",
+    "FAILURE": "rweb/RECONNECT_GROK_CONVERSATION/FAILURE"
+  },
+  {
     "REQUEST": "rweb/FETCH_GROK_HISTORY/REQUEST",
     "SUCCESS": "rweb/FETCH_GROK_HISTORY/SUCCESS",
     "FAILURE": "rweb/FETCH_GROK_HISTORY/FAILURE"
@@ -7734,6 +7749,10 @@
     "PUBLISHED": "l.PUBLISHED"
   },
   {
+    "single_line": "singleline",
+    "format_inline": "format-inline"
+  },
+  {
     "MEDIA": "MEDIA",
     "TWEET": "TWEET",
     "MARKDOWN": "MARKDOWN",
@@ -7759,8 +7778,8 @@
     "PUBLISHED": "Published"
   },
   {
-    "DRAFT": "i.DRAFT",
-    "PUBLISHED": "i.PUBLISHED"
+    "DRAFT": "s.DRAFT",
+    "PUBLISHED": "s.PUBLISHED"
   },
   "{\"root\":`${\"a\"}/application`,\"eligibility\":`${\"a\"}/application/eligibility`,\"pricing\":`${\"a\"}/application/pricing`,\"completeProfile\":`${\"a\"}/application/complete_profile`,\"submit\":`${\"a\"}/application/submit`,\"submitted\":`${\"a\"}/application/submitted`,\"waitlisted\":`${\"a\"}/application/waitlisted`,\"rejected\":`${\"a\"}/application/rejected`}",
   "{\"root\":`${\"a\"}/onboarding`,\"perksIntro\":`${\"a\"}/onboarding/perks_intro`,\"perksDescription\":`${\"a\"}/onboarding/perks_description`,\"perksBadges\":`${\"a\"}/onboarding/perks_badges`,\"perksConfirm\":`${\"a\"}/onboarding/perks_confirm`,\"pricing\":`${\"a\"}/onboarding/pricing`,\"pricingConfirm\":`${\"a\"}/onboarding/pricing_confirm`,\"stripeSetup\":`${\"a\"}/onboarding/stripe_setup`,\"stripePending\":`${\"a\"}/onboarding/stripe_pending`,\"stripeCompleted\":`${\"a\"}/onboarding/stripe_completed`}",
@@ -7800,6 +7819,11 @@
     "REQUEST": "rweb/FETCH_GROK_CONVERSATION/REQUEST",
     "SUCCESS": "rweb/FETCH_GROK_CONVERSATION/SUCCESS",
     "FAILURE": "rweb/FETCH_GROK_CONVERSATION/FAILURE"
+  },
+  {
+    "REQUEST": "rweb/RECONNECT_GROK_CONVERSATION/REQUEST",
+    "SUCCESS": "rweb/RECONNECT_GROK_CONVERSATION/SUCCESS",
+    "FAILURE": "rweb/RECONNECT_GROK_CONVERSATION/FAILURE"
   },
   {
     "REQUEST": "rweb/FETCH_GROK_HISTORY/REQUEST",
@@ -7993,78 +8017,6 @@
     "NoteComposition": "note_composition"
   },
   {
-    "ONE_TO_ONE": "ONE_TO_ONE",
-    "GROUP": "GROUP_DM",
-    "SECRET_ONE_TO_ONE": "SECRET_ONE_TO_ONE"
-  },
-  {
-    "AT_END": "AT_END",
-    "HAS_MORE": "HAS_MORE"
-  },
-  {
-    "CONVERSATION_AVATAR_UPDATE": "conversation_avatar_update",
-    "CONVERSATION_NAME_UPDATE": "conversation_name_update",
-    "CONVERSATION_PROFILE_INFO_HEADER": "conversation_profile_info_header",
-    "CONVERSATION_READ": "conversation_read",
-    "CONVO_METADATA_UPDATE": "convo_metadata_update",
-    "DELEGATE_ALERT_BANNER": "delegate_alert_banner",
-    "DISABLE_NOTIFICATIONS": "disable_notifications",
-    "ENABLE_NOTIFICATIONS": "enable_notifications",
-    "END_AV_BROADCAST": "end_av_broadcast",
-    "ENCRYPTED_CONVERSATION": "encrypted_conversation",
-    "JOIN_CONVERSATION": "join_conversation",
-    "LOADING_INDICATOR": "loading_indicator",
-    "MARK_ALL_AS_READ": "mark_all_as_read",
-    "MENTION_NOTIFICATIONS_UPDATE": "mention_notifications_setting_update",
-    "MESSAGE": "message",
-    "MESSAGE_DELETE": "message_delete",
-    "MESSAGE_MARK_AS_NOT_SPAM": "message_unmark_as_spam",
-    "MESSAGE_MARK_AS_SPAM": "message_mark_as_spam",
-    "NEW_MESSAGES_DIVIDER": "new_messages_divider",
-    "PARTICIPANTS_JOIN": "participants_join",
-    "PARTICIPANTS_LEAVE": "participants_leave",
-    "REACTION_CREATE": "reaction_create",
-    "REACTION_DELETE": "reaction_delete",
-    "READ_ONLY_INDICATOR": "read_only_indicator",
-    "REMOVE_CONVERSATION": "remove_conversation",
-    "TRUST_CONVERSATION": "trust_conversation",
-    "TYPING_INDICATOR": "typing_indicator",
-    "WELCOME_MESSAGE": "welcome_message_create"
-  },
-  {
-    "MISSED": "MISSED",
-    "CANCELED": "CANCELED",
-    "DECLINED": "DECLINED",
-    "HUNG_UP": "HUNG_UP",
-    "TIMED_OUT": "TIMED_OUT"
-  },
-  {
-    "AUDIO_ONLY": "AUDIO_ONLY",
-    "VIDEO": "VIDEO"
-  },
-  {
-    "MUTUAL_FRIENDS": "mutual_friends"
-  },
-  {
-    "UNINITIATED": "UNINITIATED",
-    "EXISTING": "EXISTING",
-    "DEVICE_NOT_A_MEMBER": "DEVICE_NOT_A_MEMBER"
-  },
-  {
-    "REQUEST": "rweb/directMessages/LEAVE_CONVERSATIONS_REQUEST",
-    "SUCCESS": "rweb/directMessages/LEAVE_CONVERSATIONS_SUCCESS",
-    "FAILURE": "rweb/directMessages/LEAVE_CONVERSATIONS_FAILURE"
-  },
-  {
-    "PINNED": "Pinned",
-    "REPLY_LATER": "ReplyLater"
-  },
-  {
-    "PRIMARY": "primary",
-    "SECONDARY": "secondary",
-    "TERTIARY": "tertiary"
-  },
-  {
     "MarchMadness": "MarchMadness"
   },
   {
@@ -8232,38 +8184,38 @@
     "marketing": "D",
     "sales_am": "m",
     "operations": "b",
-    "people_hr": "p",
-    "finance_accounting": "f",
-    "legal_compliance": "M",
-    "science_engineering": "y",
-    "medical": "k",
-    "construction_trades": "w",
-    "other": "v"
+    "people_hr": "f",
+    "finance_accounting": "M",
+    "legal_compliance": "p",
+    "science_engineering": "k",
+    "medical": "w",
+    "construction_trades": "v",
+    "other": "g"
   },
   {
-    "intern": "Z",
-    "entry_level": "I",
-    "junior": "C",
-    "mid_level": "_",
-    "senior": "S",
-    "lead": "A",
-    "manager": "E",
+    "intern": "P",
+    "entry_level": "A",
+    "junior": "S",
+    "mid_level": "Z",
+    "senior": "I",
+    "lead": "C",
+    "manager": "_",
     "executive": "x"
   },
   {
     "onsite": {
-      "label": "R",
-      "description": "F",
+      "label": "L",
+      "description": "N",
       "value": "onsite"
     },
     "remote": {
-      "label": "O",
-      "description": "B",
+      "label": "G",
+      "description": "$",
       "value": "remote"
     },
     "hybrid": {
-      "label": "N",
-      "description": "U",
+      "label": "R",
+      "description": "O",
       "value": "hybrid"
     }
   },
@@ -8758,8 +8710,8 @@
   {
     "successPane": "successPane"
   },
-  "{[u.Rz.debit]:{\"path\":\"withdraw\",\"label\":\"Withdraw\",\"confirmTitle\":\"Confirm withdrawal\",\"successTitle\":\"()\"{\"formattedAmount\":\"e\"}{\"e\"} withdrawal successfully scheduled.`,\"linkAccountTitle\":\"How would you like to withdraw your funds?\",\"canShowFDICNotice\":\"!1\",\"selectMethodTitle\":\"Change how you want to withdraw funds\"},[u.Rz.credit]:{\"path\":\"deposit\",\"label\":\"Deposit\",\"confirmTitle\":\"Confirm deposit\",\"successTitle\":\"()\"{\"formattedAmount\":\"e\"}{\"e\"} deposit successfully scheduled.`,\"linkAccountTitle\":\"Choose a funding source\",\"linkAccountSubtitle\":\"Funds are secure, insured, and will instantly start earning interest\",\"canShowFDICNotice\":\"!0\",\"selectMethodTitle\":\"Change how you want to deposit funds\"}}",
-  "{[u.Rz.debit]:\"d.d.CreateWithdrawal\",[u.Rz.credit]:\"d.d.CreateDeposit\"}",
+  "{[d.Rz.debit]:{\"path\":\"withdraw\",\"label\":\"Withdraw\",\"confirmTitle\":\"Confirm withdrawal\",\"successTitle\":\"()\"{\"formattedAmount\":\"e\"}{\"e\"} withdrawal successfully scheduled.`,\"linkAccountTitle\":\"How would you like to withdraw your funds?\",\"canShowFDICNotice\":\"!1\",\"selectMethodTitle\":\"Change how you want to withdraw funds\",\"allowedDebitMethods\":[{\"debitMethod\":\"p.t.Oct\",\"featureSwitch\":\"payments_enabled\",\"type\":\"d.dX.card\"},{\"debitMethod\":\"p.t.Ach\",\"featureSwitch\":\"payments_enabled\",\"type\":\"d.dX.bank\"},{\"debitMethod\":\"p.t.DomesticWire\",\"featureSwitch\":\"payments_wires_enabled\",\"type\":\"d.dX.bank\"}]},[d.Rz.credit]:{\"path\":\"deposit\",\"label\":\"Deposit\",\"confirmTitle\":\"Confirm deposit\",\"successTitle\":\"()\"{\"formattedAmount\":\"e\"}{\"e\"} deposit successfully scheduled.`,\"linkAccountTitle\":\"Choose a funding source\",\"linkAccountSubtitle\":\"Funds are secure, insured, and will instantly start earning interest\",\"canShowFDICNotice\":\"!0\",\"selectMethodTitle\":\"Change how you want to deposit funds\",\"allowedCreditMethods\":[{\"creditMethod\":\"h.R.Aft\",\"featureSwitch\":\"payments_enabled\",\"type\":\"d.dX.card\"},{\"creditMethod\":\"h.R.Ach\",\"featureSwitch\":\"payments_enabled\",\"type\":\"d.dX.bank\"}]}}",
+  "{[d.Rz.debit]:\"m.d.CreateWithdrawal\",[d.Rz.credit]:\"m.d.CreateDeposit\"}",
   {
     "default": "default",
     "invite": "invite",
@@ -8897,18 +8849,19 @@
     "removeKnownDeviceFailure": "known-devices-remove-device-failure",
     "transactionMetaFailure": "transaction-meta-fetch-failure"
   },
-  "{[P.g.Cancelled]:\"Cancelled\",[P.g.Failed]:\"Failed\",[P.g.Expired]:\"Expired\",[P.g.Pending]:\"Pending\",[P.g.Hold]:\"Pending\",[P.g.AuthorizationOpen]:\"Pending\",[P.g.AwaitingUnrecognizedConfirmation]:\"Awaiting approval\",[P.g.PendingReview]:\"Under review\",[P.g.PendingRecipientAction]:\"Pending\",[P.g.PendingRecipientOnboarding]:\"Pending\",[P.g.AwaitingRequestAcceptance]:\"Pending\",[P.g.PendingRecipientAcceptance]:\"Pending\",[P.g.PinVerificationRequired]:\"Pending\",[P.g.RequestVerificationRequired]:\"Pending\",[P.g.VerificationRequired]:\"Pending\",[P.g.RejectedByRecipient]:\"Rejected\",[P.g.RequestRejected]:\"Rejected\",[P.g.Settled]:\"Completed\",[P.g.SoftSettled]:\"Completed\",[P.g.AuthorizationClosed]:\"Completed\",[P.g.PendingFundingTransactionSettlement]:\"Pending\",[P.g.CreditedAwaitingSettlement]:\"Pending\"}",
-  "{[v.P.RejectedLimitsExceeded]:\"Declined due to exceeded limits\",[v.P.InReview]:\"Under review\",[v.P.RejectedByUnsupportedRegion]:\"Unsupported region\",[v.P.RejectedNotSufficientFunds]:\"Declined due to insufficient funds\",[v.P.RejectedCardPaymentsDisabled]:\"Declined due to locked card\",[v.P.UnrecognizedActivityConfirmed]:\"Declined\",[v.P.UnrecognizedActivityRejected]:\"Flagged as suspicious\",[v.P.RejectedCardInactive]:\"Declined due to inactive card\"}",
-  "{[P.g.PendingRecipientAcceptance]:\"F\",[P.g.PendingRecipientOnboarding]:\"F\",[P.g.PendingRecipientAction]:\"F\"}",
-  "{[P.g.AwaitingRequestAcceptance]:\"F\",[P.g.PendingRequestAcceptance]:\"F\",[P.g.RequestVerificationRequired]:\"F\"}",
+  "{[v.g.Cancelled]:\"Cancelled\",[v.g.Failed]:\"Failed\",[v.g.Expired]:\"Expired\",[v.g.Pending]:\"Pending\",[v.g.Hold]:\"Pending\",[v.g.AuthorizationOpen]:\"Pending\",[v.g.AwaitingUnrecognizedConfirmation]:\"Awaiting approval\",[v.g.PendingReview]:\"Under review\",[v.g.PendingRecipientAction]:\"Pending\",[v.g.PendingRecipientOnboarding]:\"Pending\",[v.g.AwaitingRequestAcceptance]:\"Pending\",[v.g.PendingRecipientAcceptance]:\"Pending\",[v.g.PinVerificationRequired]:\"Pending\",[v.g.RequestVerificationRequired]:\"Pending\",[v.g.VerificationRequired]:\"Pending\",[v.g.RejectedByRecipient]:\"Rejected\",[v.g.RequestRejected]:\"Rejected\",[v.g.Settled]:\"Completed\",[v.g.SoftSettled]:\"Completed\",[v.g.AuthorizationClosed]:\"Completed\",[v.g.PendingFundingTransactionSettlement]:\"Pending\",[v.g.CreditedAwaitingSettlement]:\"Pending\"}",
+  "{[S.P.RejectedLimitsExceeded]:\"Declined due to exceeded limits\",[S.P.InReview]:\"Under review\",[S.P.RejectedByUnsupportedRegion]:\"Unsupported region\",[S.P.RejectedNotSufficientFunds]:\"Declined due to insufficient funds\",[S.P.RejectedCardPaymentsDisabled]:\"Declined due to locked card\",[S.P.UnrecognizedActivityConfirmed]:\"Declined\",[S.P.UnrecognizedActivityRejected]:\"Flagged as suspicious\",[S.P.RejectedCardInactive]:\"Declined due to inactive card\"}",
+  "{[v.g.PendingRecipientAcceptance]:\"E\",[v.g.PendingRecipientOnboarding]:\"E\",[v.g.PendingRecipientAction]:\"E\"}",
+  "{[v.g.AwaitingRequestAcceptance]:\"E\",[v.g.PendingRequestAcceptance]:\"E\",[v.g.RequestVerificationRequired]:\"E\"}",
   "{[g.t.Checking]:\"Checking\",[g.t.Savings]:\"Savings\"}",
   "{[w.W.IssuedCardTypePhysical]:\"Physical Card\",[w.W.IssuedCardTypeVirtual]:\"Virtual Card\"}",
   "{[m.l.Charge]:\"Charge\",[m.l.Combo]:\"Combo\",[m.l.Debit]:\"Debit\",[m.l.Credit]:\"Credit\",[m.l.DeferredDebit]:\"DeferredDebit\",[m.l.Prepaid]:\"Prepaid\"}",
   "{[f.U.AmericanExpress]:\"American Express\",[f.U.Mastercard]:\"Mastercard\",[f.U.Visa]:\"Visa\"}",
   "{[b.D.LoginRequired]:\"Login required\",[b.D.Invalid]:\"Invalid\",[b.D.Pending]:\"Pending\",[b.D.Revoked]:\"Revoked\",[b.D.Canceled]:\"Canceled\",[b.D.Inactive]:\"Inactive\"}",
-  "{[R.y.Online]:\"Online\",[R.y.Chip]:\"Chip\",[R.y.Contactless]:\"Contactless\",[R.y.KeyedIn]:\"Keyed In\",[R.y.Swipe]:\"Swipe\"}",
-  "{[T.B.Ach]:\"Bank Transfer ()\",[T.B.Aft]:\"Funds Transfer (ACH)\",[T.B.Oct]:\"Instant Payment (AFT)\",[T.B.Wire]:\"Wire Transfer\",[T.B.Check]:\"Check\",[T.B.ProviderBankTransfer]:\"Third-Party Bank Transfer\"}",
+  "{[P.y.Online]:\"Online\",[P.y.Chip]:\"Chip\",[P.y.Contactless]:\"Contactless\",[P.y.KeyedIn]:\"Keyed In\",[P.y.Swipe]:\"Swipe\"}",
+  "{[D.B.Ach]:\"Bank Transfer ()\",[D.B.Aft]:\"Funds Transfer (ACH)\",[D.B.Oct]:\"Instant Payment (AFT)\",[D.B.Wire]:\"Wire Transfer\",[D.B.Check]:\"Check\",[D.B.ProviderBankTransfer]:\"Third-Party Bank Transfer\"}",
   "{[f.U.AmericanExpress]:\"https://abs.twimg.com/responsive-web/client-web/payment-method-amex.b2cd046a.svg\",[f.U.Mastercard]:\"https://abs.twimg.com/responsive-web/client-web/payment-method-mastercard.f126316a.svg\",[f.U.Visa]:\"https://abs.twimg.com/responsive-web/client-web/payment-method-visa.c768170a.svg\"}",
+  "{[x.R.Ach]:\"Bank Transfer ()\",[x.R.Aft]:\"Funds Transfer (ACH)\",[R.t.Oct]:\"Instant Payment (AFT)\",[R.t.DomesticWire]:\"Wire Transfer\",[R.t.Ach]:\"Bank Transfer (OCT)\"}",
   {
     "MarchMadness": "MarchMadness"
   },
@@ -9103,6 +9056,10 @@
     "component": "sync-ats-jobs"
   },
   {
+    "single_line": "singleline",
+    "format_inline": "format-inline"
+  },
+  {
     "Affiliate": "Affiliate"
   },
   {
@@ -9131,8 +9088,8 @@
     "PUBLISHED": "Published"
   },
   {
-    "DRAFT": "s.DRAFT",
-    "PUBLISHED": "s.PUBLISHED"
+    "DRAFT": "c.DRAFT",
+    "PUBLISHED": "c.PUBLISHED"
   },
   {
     "CONFIG_LOADED": "rweb/verifiedOrgConfig/LOADED",
@@ -9140,8 +9097,8 @@
     "SET_CONFIG": "rweb/verifiedOrgConfig/SET"
   },
   {
-    "fetchStatus": "a.ZP.NONE",
-    "config": "u"
+    "fetchStatus": "o.ZP.NONE",
+    "config": "s"
   },
   {
     "ConfirmationStep": "ConfirmationStep",
@@ -9634,12 +9591,12 @@
     "MESSAGE": "message"
   },
   {
-    "ActionsBar": "_.Z",
-    "ActionMenu": "f.Z",
+    "ActionsBar": "f.Z",
+    "ActionMenu": "T.Z",
     "CallToAction": "o.ZP",
-    "EditCallout": "b.Z",
-    "Education": "y.Z",
-    "HighlightedUserLabel": "d.Z",
+    "EditCallout": "y.Z",
+    "Education": "_.Z",
+    "HighlightedUserLabel": "l.Z",
     "Media": "v.Z",
     "Place": "a.ZP",
     "PromotedDetails": "u.Z",
@@ -9647,13 +9604,13 @@
     "ReplyContext": "I.ZP",
     "RichContent": "k.Z",
     "SocialContext": "h.Z",
-    "Text": "M.Z",
+    "Text": "E.Z",
     "Tombstone": "g.Z",
-    "Timestamp": "w.Z",
-    "UserAvatar": "E.Z",
-    "UserFollowIndicator": "P.Z",
-    "UserName": "Z.Z",
-    "ArticleCard": "T.Z"
+    "Timestamp": "p.Z",
+    "UserAvatar": "M.Z",
+    "UserFollowIndicator": "S.Z",
+    "UserName": "P.Z",
+    "ArticleCard": "b.Z"
   },
   {
     "AcceptAllCookies": "acceptAllCookies",
@@ -10048,6 +10005,66 @@
     "Test": "Test"
   },
   {
+    "DISABLED": "0",
+    "ENABLED": "10",
+    "SYNC_IN_PROGRESS": "20",
+    "SYNC_FAILED": "30"
+  },
+  {
+    "freshteam": "Freshteam",
+    "greenhouse": "Greenhouse",
+    "lever": "Lever",
+    "recruitee": "Recruitee",
+    "sage-hr": "Sage HR",
+    "sap-successfactors": "SAP SuccessFactors",
+    "teamtailor": "Teamtailor",
+    "workable": "Workable",
+    "workday": "Workday"
+  },
+  {
+    "software_engineering": "d",
+    "data_analytics": "c",
+    "product": "u",
+    "design": "m",
+    "marketing": "p",
+    "sales_am": "h",
+    "operations": "b",
+    "people_hr": "g",
+    "finance_accounting": "y",
+    "legal_compliance": "f",
+    "science_engineering": "_",
+    "medical": "k",
+    "construction_trades": "D",
+    "other": "S"
+  },
+  {
+    "intern": "F",
+    "entry_level": "Z",
+    "junior": "E",
+    "mid_level": "C",
+    "senior": "I",
+    "lead": "M",
+    "manager": "x",
+    "executive": "P"
+  },
+  {
+    "onsite": {
+      "label": "L",
+      "description": "R",
+      "value": "onsite"
+    },
+    "remote": {
+      "label": "A",
+      "description": "N",
+      "value": "remote"
+    },
+    "hybrid": {
+      "label": "j",
+      "description": "z",
+      "value": "hybrid"
+    }
+  },
+  {
     "FakeAccount": "fake_account",
     "OffensiveProfileContent": "offensive_profile_content",
     "SensitiveMedia": "sensitive_media",
@@ -10198,6 +10215,11 @@
     "REQUEST": "rweb/FETCH_GROK_CONVERSATION/REQUEST",
     "SUCCESS": "rweb/FETCH_GROK_CONVERSATION/SUCCESS",
     "FAILURE": "rweb/FETCH_GROK_CONVERSATION/FAILURE"
+  },
+  {
+    "REQUEST": "rweb/RECONNECT_GROK_CONVERSATION/REQUEST",
+    "SUCCESS": "rweb/RECONNECT_GROK_CONVERSATION/SUCCESS",
+    "FAILURE": "rweb/RECONNECT_GROK_CONVERSATION/FAILURE"
   },
   {
     "REQUEST": "rweb/FETCH_GROK_HISTORY/REQUEST",
@@ -10962,7 +10984,7 @@
     "IncentiveFocus": "IncentiveFocus",
     "TopicFocus": "TopicFocus"
   },
-  "{[V.LIVE_EVENT]:\"!0\",[V.MOMENT]:\"!0\",[V.SUMMARY]:\"!0\",[V.SUMMARY_LARGE_IMAGE]:\"!0\",[V.AUDIOSPACE]:\"!0\"}",
+  "{[O.LIVE_EVENT]:\"!0\",[O.MOMENT]:\"!0\",[O.SUMMARY]:\"!0\",[O.SUMMARY_LARGE_IMAGE]:\"!0\",[O.AUDIOSPACE]:\"!0\"}",
   {
     "CONVERSATION": "conversation",
     "TIMELINE": "timeline"
