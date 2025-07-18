@@ -6493,3 +6493,15 @@
 - payments_tracing_hook_url<br>
 #### remove<br>
 - None<br>
+## 2025/07/18<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- responsive_web_grok_community_note_auto_translation_is_enabled<br>
+- responsive_web_grok_community_note_translation_is_enabled<br>
+#### remove<br>
+- payments_withdraw_wires_enabled<br>
