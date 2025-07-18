@@ -1231,6 +1231,9 @@
       "payments_tasks_carousel_enabled": {
         "value": "false"
       },
+      "payments_tracing_hook_url": {
+        "value": ""
+      },
       "payments_transfer_methods_enabled": {
         "value": "false"
       },
@@ -4314,7 +4317,7 @@
           "value": "true"
         },
         "communities_show_broadcast_option_in_composer": {
-          "value": "false"
+          "value": "true"
         },
         "communities_spam_settings_enabled": {
           "value": "true"
@@ -4963,6 +4966,9 @@
         },
         "payments_tasks_carousel_enabled": {
           "value": "false"
+        },
+        "payments_tracing_hook_url": {
+          "value": ""
         },
         "payments_transfer_methods_enabled": {
           "value": "false"
@@ -7571,10 +7577,10 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "beeeb8a908efe9e1cec5e0f93f1c282e"
+      "settingsVersion": "9797b4d432393391b15ec2c105a1f94e"
     },
     "debug": {},
-    "featureSetToken": "81954f96bbfba968aa8370e25b89768020a84dc2",
+    "featureSetToken": "f939aa29088318bc6b82d9112c97ac73a7483860",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -7643,7 +7649,7 @@
   },
   "session": {
     "country": "XX",
-    "guestId": "175269970885572494",
+    "guestId": "175278610766566153",
     "hasCommunityMemberships": "false",
     "isActiveCreator": "false",
     "isLoaded": "false",
