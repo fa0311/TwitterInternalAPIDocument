@@ -581,7 +581,7 @@
         "value": "true"
       },
       "communities_show_broadcast_option_in_composer": {
-        "value": "false"
+        "value": "true"
       },
       "communities_spam_settings_enabled": {
         "value": "true"
@@ -1240,9 +1240,6 @@
       "payments_wires_enabled": {
         "value": "false"
       },
-      "payments_withdraw_wires_enabled": {
-        "value": "false"
-      },
       "premium_content_api_read_enabled": {
         "value": "false"
       },
@@ -1739,6 +1736,12 @@
         "value": "true"
       },
       "responsive_web_grok_bio_auto_translation_is_enabled": {
+        "value": "false"
+      },
+      "responsive_web_grok_community_note_auto_translation_is_enabled": {
+        "value": "false"
+      },
+      "responsive_web_grok_community_note_translation_is_enabled": {
         "value": "false"
       },
       "responsive_web_grok_continue_in_grok_enabled": {
@@ -3772,7 +3775,7 @@
         "value": "false"
       },
       "xchat_enable_inbox_pills": {
-        "value": "false"
+        "value": "true"
       },
       "xchat_exclusive_executors": {
         "value": "false"
@@ -3796,7 +3799,7 @@
         "value": "500"
       },
       "xchat_send_read_events_unencrypted": {
-        "value": "false"
+        "value": "true"
       },
       "xchat_sign_identity_key_during_registration": {
         "value": "true"
@@ -4976,9 +4979,6 @@
         "payments_wires_enabled": {
           "value": "false"
         },
-        "payments_withdraw_wires_enabled": {
-          "value": "false"
-        },
         "premium_content_api_read_enabled": {
           "value": "false"
         },
@@ -5475,6 +5475,12 @@
           "value": "true"
         },
         "responsive_web_grok_bio_auto_translation_is_enabled": {
+          "value": "false"
+        },
+        "responsive_web_grok_community_note_auto_translation_is_enabled": {
+          "value": "false"
+        },
+        "responsive_web_grok_community_note_translation_is_enabled": {
           "value": "false"
         },
         "responsive_web_grok_continue_in_grok_enabled": {
@@ -7508,7 +7514,7 @@
           "value": "false"
         },
         "xchat_enable_inbox_pills": {
-          "value": "false"
+          "value": "true"
         },
         "xchat_exclusive_executors": {
           "value": "false"
@@ -7532,7 +7538,7 @@
           "value": "500"
         },
         "xchat_send_read_events_unencrypted": {
-          "value": "false"
+          "value": "true"
         },
         "xchat_sign_identity_key_during_registration": {
           "value": "true"
@@ -7577,10 +7583,10 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "9797b4d432393391b15ec2c105a1f94e"
+      "settingsVersion": "beeeb8a908efe9e1cec5e0f93f1c282e"
     },
     "debug": {},
-    "featureSetToken": "f939aa29088318bc6b82d9112c97ac73a7483860",
+    "featureSetToken": "fe09fa83aa0c051281f10a35d6ad35428f3ecba8",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -7649,7 +7655,7 @@
   },
   "session": {
     "country": "XX",
-    "guestId": "175278667566465325",
+    "guestId": "175287304503169025",
     "hasCommunityMemberships": "false",
     "isActiveCreator": "false",
     "isLoaded": "false",
