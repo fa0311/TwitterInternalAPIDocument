@@ -6339,7 +6339,11 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-`None`<br>
+| key               | type   | variable   |
+|:------------------|:-------|:-----------|
+| grokMode          | ...    | t          |
+| grokModelOptionId | ...    | s          |
+
 #### features<br>
 | key                                              | type    | variable   |
 |:-------------------------------------------------|:--------|:-----------|
@@ -7890,7 +7894,11 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-`None`<br>
+| key               | type   | variable   |
+|:------------------|:-------|:-----------|
+| grokMode          | ...    | t          |
+| grokModelOptionId | ...    | s          |
+
 #### features<br>
 | key                                              | type    | variable   |
 |:-------------------------------------------------|:--------|:-----------|
@@ -8218,7 +8226,11 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-`None`<br>
+| key               | type   | variable   |
+|:------------------|:-------|:-----------|
+| grokMode          | ...    | t          |
+| grokModelOptionId | ...    | s          |
+
 #### features<br>
 | key                                              | type    | variable   |
 |:-------------------------------------------------|:--------|:-----------|
@@ -8280,7 +8292,11 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-`None`<br>
+| key               | type   | variable   |
+|:------------------|:-------|:-----------|
+| grokMode          | ...    | t          |
+| grokModelOptionId | ...    | s          |
+
 #### features<br>
 | key                                              | type    | variable   |
 |:-------------------------------------------------|:--------|:-----------|
