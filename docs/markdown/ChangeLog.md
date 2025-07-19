@@ -6505,3 +6505,14 @@
 - responsive_web_grok_community_note_translation_is_enabled<br>
 #### remove<br>
 - payments_withdraw_wires_enabled<br>
+## 2025/07/19<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- responsive_web_trends_ui_enable_new_sidebar<br>
+#### remove<br>
+- None<br>
