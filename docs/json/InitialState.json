@@ -2365,6 +2365,9 @@
       "responsive_web_trends_ui_community_notes_enabled": {
         "value": "false"
       },
+      "responsive_web_trends_ui_enable_new_sidebar": {
+        "value": "false"
+      },
       "responsive_web_trends_ui_top_articles": {
         "value": "true"
       },
@@ -6104,6 +6107,9 @@
         "responsive_web_trends_ui_community_notes_enabled": {
           "value": "false"
         },
+        "responsive_web_trends_ui_enable_new_sidebar": {
+          "value": "false"
+        },
         "responsive_web_trends_ui_top_articles": {
           "value": "true"
         },
@@ -7586,7 +7592,7 @@
       "settingsVersion": "beeeb8a908efe9e1cec5e0f93f1c282e"
     },
     "debug": {},
-    "featureSetToken": "fe09fa83aa0c051281f10a35d6ad35428f3ecba8",
+    "featureSetToken": "583b3600acfa6b8c864fad988d23e9a4c201abd8",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -7655,7 +7661,7 @@
   },
   "session": {
     "country": "XX",
-    "guestId": "175287251765197476",
+    "guestId": "175295889864667749",
     "hasCommunityMemberships": "false",
     "isActiveCreator": "false",
     "isLoaded": "false",
