@@ -29,12 +29,6 @@ This document is entirely auto-generated and may contain errors.<br>
 | Expand     | expand  |
 | Remove     | remove  |
 
-| constant    | value       |
-|:------------|:------------|
-| on          | on          |
-| off         | off         |
-| unavailable | unavailable |
-
 | constant               |   value |
 |:-----------------------|--------:|
 | RequestSubmitted       |       1 |
@@ -706,19 +700,19 @@ This document is entirely auto-generated and may contain errors.<br>
 ```
 ```internal process
 # Error
-{[P.g.Cancelled]:"Cancelled",[P.g.Failed]:"Failed",[P.g.Expired]:"Expired",[P.g.Pending]:"Pending",[P.g.Hold]:"Pending",[P.g.AuthorizationOpen]:"Pending",[P.g.AwaitingUnrecognizedConfirmation]:"Awaiting approval",[P.g.PendingReview]:"Under review",[P.g.PendingRecipientAction]:"Pending",[P.g.PendingR...
+{[v.g.Cancelled]:"Cancelled",[v.g.Failed]:"Failed",[v.g.Expired]:"Expired",[v.g.Pending]:"Pending",[v.g.Hold]:"Pending",[v.g.AuthorizationOpen]:"Pending",[v.g.AwaitingUnrecognizedConfirmation]:"Awaiting approval",[v.g.PendingReview]:"Under review",[v.g.PendingRecipientAction]:"Pending",[v.g.PendingR...
 ```
 ```internal process
 # Error
-{[v.P.RejectedLimitsExceeded]:"Declined due to exceeded limits",[v.P.InReview]:"Under review",[v.P.RejectedByUnsupportedRegion]:"Unsupported region",[v.P.RejectedNotSufficientFunds]:"Declined due to insufficient funds",[v.P.RejectedCardPaymentsDisabled]:"Declined due to locked card",[v.P.Unrecognize...
+{[S.P.RejectedLimitsExceeded]:"Declined due to exceeded limits",[S.P.InReview]:"Under review",[S.P.RejectedByUnsupportedRegion]:"Unsupported region",[S.P.RejectedNotSufficientFunds]:"Declined due to insufficient funds",[S.P.RejectedCardPaymentsDisabled]:"Declined due to locked card",[S.P.Unrecognize...
 ```
 ```internal process
 # Error
-{[P.g.PendingRecipientAcceptance]:"F",[P.g.PendingRecipientOnboarding]:"F",[P.g.PendingRecipientAction]:"F"}
+{[v.g.PendingRecipientAcceptance]:"E",[v.g.PendingRecipientOnboarding]:"E",[v.g.PendingRecipientAction]:"E"}
 ```
 ```internal process
 # Error
-{[P.g.AwaitingRequestAcceptance]:"F",[P.g.PendingRequestAcceptance]:"F",[P.g.RequestVerificationRequired]:"F"}
+{[v.g.AwaitingRequestAcceptance]:"E",[v.g.PendingRequestAcceptance]:"E",[v.g.RequestVerificationRequired]:"E"}
 ```
 ```internal process
 # Error
@@ -742,15 +736,19 @@ This document is entirely auto-generated and may contain errors.<br>
 ```
 ```internal process
 # Error
-{[R.y.Online]:"Online",[R.y.Chip]:"Chip",[R.y.Contactless]:"Contactless",[R.y.KeyedIn]:"Keyed In",[R.y.Swipe]:"Swipe"}
+{[P.y.Online]:"Online",[P.y.Chip]:"Chip",[P.y.Contactless]:"Contactless",[P.y.KeyedIn]:"Keyed In",[P.y.Swipe]:"Swipe"}
 ```
 ```internal process
 # Error
-{[T.B.Ach]:"Bank Transfer ()",[T.B.Aft]:"Funds Transfer (ACH)",[T.B.Oct]:"Instant Payment (AFT)",[T.B.Wire]:"Wire Transfer",[T.B.Check]:"Check",[T.B.ProviderBankTransfer]:"Third-Party Bank Transfer"}
+{[D.B.Ach]:"Bank Transfer ()",[D.B.Aft]:"Funds Transfer (ACH)",[D.B.Oct]:"Instant Payment (AFT)",[D.B.Wire]:"Wire Transfer",[D.B.Check]:"Check",[D.B.ProviderBankTransfer]:"Third-Party Bank Transfer"}
 ```
 ```internal process
 # Error
 {[f.U.AmericanExpress]:"https://abs.twimg.com/responsive-web/client-web/payment-method-amex.b2cd046a.svg",[f.U.Mastercard]:"https://abs.twimg.com/responsive-web/client-web/payment-method-mastercard.f126316a.svg",[f.U.Visa]:"https://abs.twimg.com/responsive-web/client-web/payment-method-visa.c768170a...
+```
+```internal process
+# Error
+{[x.R.Ach]:"Bank Transfer ()",[x.R.Aft]:"Funds Transfer (ACH)",[R.t.Oct]:"Instant Payment (AFT)",[R.t.DomesticWire]:"Wire Transfer",[R.t.Ach]:"Bank Transfer (OCT)"}
 ```
 | constant   | value     |
 |:-----------|:----------|
