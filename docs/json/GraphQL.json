@@ -9891,6 +9891,12 @@
           }
         }
       }
+    },
+    "func_name": "I",
+    "func_name_init": "x",
+    "query": {
+      "bookmark_collection_id": "o",
+      "tweet_id": "r"
     }
   },
   {
@@ -17380,12 +17386,6 @@
           }
         }
       }
-    },
-    "func_name": "U",
-    "func_name_init": "N",
-    "query": {
-      "grokMode": "t",
-      "grokModelOptionId": "s"
     }
   },
   {
@@ -20686,12 +20686,6 @@
           }
         }
       }
-    },
-    "func_name": "U",
-    "func_name_init": "N",
-    "query": {
-      "grokMode": "t",
-      "grokModelOptionId": "s"
     }
   },
   {
@@ -21279,12 +21273,6 @@
           }
         }
       }
-    },
-    "func_name": "U",
-    "func_name_init": "N",
-    "query": {
-      "grokMode": "t",
-      "grokModelOptionId": "s"
     }
   },
   {
@@ -21366,12 +21354,6 @@
           }
         }
       }
-    },
-    "func_name": "U",
-    "func_name_init": "N",
-    "query": {
-      "grokMode": "t",
-      "grokModelOptionId": "s"
     }
   },
   {
