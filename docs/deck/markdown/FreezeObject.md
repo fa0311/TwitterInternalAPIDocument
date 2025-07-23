@@ -29,6 +29,12 @@ This document is entirely auto-generated and may contain errors.<br>
 | Expand     | expand  |
 | Remove     | remove  |
 
+| constant    | value       |
+|:------------|:------------|
+| on          | on          |
+| off         | off         |
+| unavailable | unavailable |
+
 | constant               |   value |
 |:-----------------------|--------:|
 | RequestSubmitted       |       1 |
@@ -88,6 +94,12 @@ This document is entirely auto-generated and may contain errors.<br>
 | All         |       0 |
 | Employees   |       1 |
 | Subscribers |       2 |
+
+| constant    | value       |
+|:------------|:------------|
+| Draft       | Draft       |
+| Published   | Published   |
+| SoftDeleted | SoftDeleted |
 
 | constant   |   value |
 |:-----------|--------:|
@@ -703,11 +715,11 @@ This document is entirely auto-generated and may contain errors.<br>
 ```
 ```internal process
 # Error
-{[v.g.PendingRecipientAcceptance]:"E",[v.g.PendingRecipientOnboarding]:"E",[v.g.PendingRecipientAction]:"E"}
+{[v.g.PendingRecipientAcceptance]:"K",[v.g.PendingRecipientOnboarding]:"K",[v.g.PendingRecipientAction]:"K"}
 ```
 ```internal process
 # Error
-{[v.g.AwaitingRequestAcceptance]:"E",[v.g.PendingRequestAcceptance]:"E",[v.g.RequestVerificationRequired]:"E"}
+{[v.g.AwaitingRequestAcceptance]:"K",[v.g.PendingRequestAcceptance]:"K",[v.g.RequestVerificationRequired]:"K"}
 ```
 ```internal process
 # Error
@@ -727,7 +739,7 @@ This document is entirely auto-generated and may contain errors.<br>
 ```
 ```internal process
 # Error
-{[b.D.LoginRequired]:"Login required",[b.D.Invalid]:"Invalid",[b.D.Pending]:"Pending",[b.D.Revoked]:"Revoked",[b.D.Canceled]:"Canceled",[b.D.Inactive]:"Inactive"}
+{[x.D.LoginRequired]:"Login required",[x.D.Invalid]:"Invalid",[x.D.Pending]:"Pending",[x.D.Revoked]:"Revoked",[x.D.Canceled]:"Canceled",[x.D.Inactive]:"Inactive"}
 ```
 ```internal process
 # Error
@@ -743,7 +755,7 @@ This document is entirely auto-generated and may contain errors.<br>
 ```
 ```internal process
 # Error
-{[x.R.Ach]:"Bank Transfer ()",[x.R.Aft]:"Funds Transfer (ACH)",[R.t.Oct]:"Instant Payment (AFT)",[R.t.DomesticWire]:"Wire Transfer",[R.t.Ach]:"Bank Transfer (OCT)"}
+{[b.R.Ach]:"Bank Transfer ()",[b.R.Aft]:"Funds Transfer (ACH)",[R.t.Oct]:"Instant Payment (AFT)",[R.t.DomesticWire]:"Wire Transfer",[R.t.Ach]:"Bank Transfer (OCT)"}
 ```
 | constant   | value     |
 |:-----------|:----------|
