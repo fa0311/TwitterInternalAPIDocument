@@ -5488,3 +5488,14 @@
 - subscriptions_upsells_visitor_get_verified_age_gate_enabled<br>
 #### remove<br>
 - None<br>
+## 2025/07/23<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- xchat_out_of_order_fanout_validation_enabled<br>
