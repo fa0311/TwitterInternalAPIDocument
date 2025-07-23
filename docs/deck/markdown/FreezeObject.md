@@ -89,12 +89,6 @@ This document is entirely auto-generated and may contain errors.<br>
 | Employees   |       1 |
 | Subscribers |       2 |
 
-| constant    | value       |
-|:------------|:------------|
-| Draft       | Draft       |
-| Published   | Published   |
-| SoftDeleted | SoftDeleted |
-
 | constant   |   value |
 |:-----------|--------:|
 | HUMAN      |       1 |
@@ -648,6 +642,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | constant                          | value                             |
 |:----------------------------------|:----------------------------------|
 | Cancelled                         | Cancelled                         |
+| FailedOfacCheck                   | FailedOfacCheck                   |
 | InReview                          | InReview                          |
 | ProviderGenericFailure            | ProviderGenericFailure            |
 | RejectedByAutoReview              | RejectedByAutoReview              |

@@ -90,11 +90,6 @@
     "Subscribers": "2"
   },
   {
-    "Draft": "Draft",
-    "Published": "Published",
-    "SoftDeleted": "SoftDeleted"
-  },
-  {
     "HUMAN": "1",
     "ASSISTANT": "2"
   },
@@ -570,6 +565,7 @@
   },
   {
     "Cancelled": "Cancelled",
+    "FailedOfacCheck": "FailedOfacCheck",
     "InReview": "InReview",
     "ProviderGenericFailure": "ProviderGenericFailure",
     "RejectedByAutoReview": "RejectedByAutoReview",
