@@ -83,18 +83,6 @@ This document is entirely auto-generated and may contain errors.<br>
 | JanusPollerResponseEnumUnknown                      | JanusPollerResponseEnumUnknown                      |
 | JanusPollerResponseEnumError                        | JanusPollerResponseEnumError                        |
 
-| constant     |   value |
-|:-------------|--------:|
-| Everyone     |       2 |
-| FollowedOnly |       1 |
-| InvitedOnly  |       0 |
-
-| constant    |   value |
-|:------------|--------:|
-| All         |       0 |
-| Employees   |       1 |
-| Subscribers |       2 |
-
 | constant    | value       |
 |:------------|:------------|
 | Draft       | Draft       |
@@ -450,7 +438,148 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant   | value   |
 |:-----------|:--------|
+| Aed        | Aed     |
+| Afn        | Afn     |
+| All        | All     |
+| Amd        | Amd     |
+| Ang        | Ang     |
+| Aoa        | Aoa     |
+| Ars        | Ars     |
+| Aud        | Aud     |
+| Awg        | Awg     |
+| Azn        | Azn     |
+| Bam        | Bam     |
+| Bbd        | Bbd     |
+| Bdt        | Bdt     |
+| Bgn        | Bgn     |
+| Bhd        | Bhd     |
+| Bif        | Bif     |
+| Bmd        | Bmd     |
+| Bnd        | Bnd     |
+| Bob        | Bob     |
+| Brl        | Brl     |
+| Bsd        | Bsd     |
+| Bwp        | Bwp     |
+| Byn        | Byn     |
+| Bzd        | Bzd     |
+| Cad        | Cad     |
+| Cdf        | Cdf     |
+| Chf        | Chf     |
+| Clp        | Clp     |
+| Cny        | Cny     |
+| Cop        | Cop     |
+| Crc        | Crc     |
+| Cve        | Cve     |
+| Czk        | Czk     |
+| Djf        | Djf     |
+| Dkk        | Dkk     |
+| Dop        | Dop     |
+| Dzd        | Dzd     |
+| Egp        | Egp     |
+| Etb        | Etb     |
+| Eur        | Eur     |
+| Fjd        | Fjd     |
+| Fkp        | Fkp     |
+| Gbp        | Gbp     |
+| Gel        | Gel     |
+| Gip        | Gip     |
+| Gmd        | Gmd     |
+| Gnf        | Gnf     |
+| Gtq        | Gtq     |
+| Gyd        | Gyd     |
+| Hkd        | Hkd     |
+| Hnl        | Hnl     |
+| Hrk        | Hrk     |
+| Htg        | Htg     |
+| Huf        | Huf     |
+| Idr        | Idr     |
+| Ils        | Ils     |
+| Inr        | Inr     |
+| Isk        | Isk     |
+| Jmd        | Jmd     |
+| Jod        | Jod     |
+| Jpy        | Jpy     |
+| Kes        | Kes     |
+| Kgs        | Kgs     |
+| Khr        | Khr     |
+| Kmf        | Kmf     |
+| Krw        | Krw     |
+| Kwd        | Kwd     |
+| Kyd        | Kyd     |
+| Kzt        | Kzt     |
+| Lak        | Lak     |
+| Lbp        | Lbp     |
+| Lkr        | Lkr     |
+| Lrd        | Lrd     |
+| Lsl        | Lsl     |
+| Mad        | Mad     |
+| Mdl        | Mdl     |
+| Mga        | Mga     |
+| Mkd        | Mkd     |
+| Mmk        | Mmk     |
+| Mnt        | Mnt     |
+| Mop        | Mop     |
+| Mur        | Mur     |
+| Mvr        | Mvr     |
+| Mwk        | Mwk     |
+| Mxn        | Mxn     |
+| Myr        | Myr     |
+| Mzn        | Mzn     |
+| Nad        | Nad     |
+| Ngn        | Ngn     |
+| Nio        | Nio     |
+| Nok        | Nok     |
+| Npr        | Npr     |
+| Nzd        | Nzd     |
+| Omr        | Omr     |
+| Pab        | Pab     |
+| Pen        | Pen     |
+| Pgk        | Pgk     |
+| Php        | Php     |
+| Pkr        | Pkr     |
+| Pln        | Pln     |
+| Pyg        | Pyg     |
+| Qar        | Qar     |
+| Ron        | Ron     |
+| Rsd        | Rsd     |
+| Rub        | Rub     |
+| Rwf        | Rwf     |
+| Sar        | Sar     |
+| Sbd        | Sbd     |
+| Scr        | Scr     |
+| Sek        | Sek     |
+| Sgd        | Sgd     |
+| Shp        | Shp     |
+| Sle        | Sle     |
+| Sos        | Sos     |
+| Srd        | Srd     |
+| Std        | Std     |
+| Szl        | Szl     |
+| Thb        | Thb     |
+| Tjs        | Tjs     |
+| Tnd        | Tnd     |
+| Top        | Top     |
+| Try        | Try     |
+| Ttd        | Ttd     |
+| Twd        | Twd     |
+| Tzs        | Tzs     |
+| Uah        | Uah     |
+| Ugx        | Ugx     |
 | Usd        | Usd     |
+| Usdc       | Usdc    |
+| Uyu        | Uyu     |
+| Uzs        | Uzs     |
+| Vnd        | Vnd     |
+| Vuv        | Vuv     |
+| Wst        | Wst     |
+| Xaf        | Xaf     |
+| Xcd        | Xcd     |
+| Xcg        | Xcg     |
+| Xof        | Xof     |
+| Xpf        | Xpf     |
+| Yer        | Yer     |
+| Zar        | Zar     |
+| Zmw        | Zmw     |
 
 | constant           | value              |
 |:-------------------|:-------------------|
@@ -703,7 +832,7 @@ This document is entirely auto-generated and may contain errors.<br>
 ```
 ```internal process
 # Error
-{"InsufficientFunds":{"headline":"Insufficient funds","message":"You don't have a high enough balance to complete this action.","action":{"link":"r.IN","label":"Deposit"}},"InvalidReceiver":{"getHeadline":"()"{"actionType":"e"}e===c.jq.P2P_TRANSFER_REQUEST?"request":"payment"},"InvalidReceiverCurren...
+{"InsufficientFunds":{"headline":"Insufficient funds","message":"You don't have a high enough balance to complete this action.","action":{"link":"l.IN","label":"Deposit"}},"InvalidReceiver":{"getHeadline":"()"{"actionType":"e"}e===i.jq.P2P_TRANSFER_REQUEST?"request":"payment"{"issueReportEnabled":"!...
 ```
 ```internal process
 # Error
