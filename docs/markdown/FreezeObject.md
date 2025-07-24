@@ -872,12 +872,13 @@ This document is entirely auto-generated and may contain errors.<br>
 | contactData                   | contactData                   |
 | contactDetails                | contactDetails                |
 | createContact                 | createContact                 |
+| updateContact                 | updateContact                 |
 | wireMeta                      | wireMeta                      |
 | checkMeta                     | checkMeta                     |
 
 ```internal process
 # Error
-{[he.onboarding]:{"path":`${"me"}/onboarding`,"defaultClosePath":"/","redirectOnCompletion":"!0","invalidateOnClose":"!0"},[he.upgradeToKycVerified]:{"path":`${"me"}/tier2`,"defaultClosePath":"/","redirectOnCompletion":"!0","invalidateOnClose":"!0"},[he.upgradeToKycDocumentsVerified]:{"path":`${"me"...
+{[me.onboarding]:{"path":`${"be"}/onboarding`,"defaultClosePath":"/","redirectOnCompletion":"!0","invalidateOnClose":"!0"},[me.upgradeToKycVerified]:{"path":`${"be"}/tier2`,"defaultClosePath":"/","redirectOnCompletion":"!0","invalidateOnClose":"!0"},[me.upgradeToKycDocumentsVerified]:{"path":`${"be"...
 ```
 | constant   | value   |
 |:-----------|:--------|
@@ -2430,13 +2431,14 @@ This document is entirely auto-generated and may contain errors.<br>
 | STATIC_BROADCAST | static_broadcast |
 | AUDIO_SPACE      | audio_space      |
 
-| constant   | value       |
-|:-----------|:------------|
-| Cashtag    | cashtag     |
-| Hashtag    | hashtag     |
-| Mention    | mention     |
-| Url        | url         |
-| List       | twitterList |
+| constant          | value             |
+|:------------------|:------------------|
+| Cashtag           | cashtag           |
+| Hashtag           | hashtag           |
+| Mention           | mention           |
+| Url               | url               |
+| UrlWithDisplayUrl | urlWithDisplayUrl |
+| List              | twitterList       |
 
 | constant     | value         |
 |:-------------|:--------------|
@@ -6275,7 +6277,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{[z.v.FOLLOWS]:"U",[z.v.FRIENDS_OF_FRIENDS]:"G"}
+{[W.v.FOLLOWS]:"U",[W.v.FRIENDS_OF_FRIENDS]:"Q"}
 ```
 | constant   | value   |
 |:-----------|:--------|
@@ -8995,7 +8997,148 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant   | value   |
 |:-----------|:--------|
+| Aed        | Aed     |
+| Afn        | Afn     |
+| All        | All     |
+| Amd        | Amd     |
+| Ang        | Ang     |
+| Aoa        | Aoa     |
+| Ars        | Ars     |
+| Aud        | Aud     |
+| Awg        | Awg     |
+| Azn        | Azn     |
+| Bam        | Bam     |
+| Bbd        | Bbd     |
+| Bdt        | Bdt     |
+| Bgn        | Bgn     |
+| Bhd        | Bhd     |
+| Bif        | Bif     |
+| Bmd        | Bmd     |
+| Bnd        | Bnd     |
+| Bob        | Bob     |
+| Brl        | Brl     |
+| Bsd        | Bsd     |
+| Bwp        | Bwp     |
+| Byn        | Byn     |
+| Bzd        | Bzd     |
+| Cad        | Cad     |
+| Cdf        | Cdf     |
+| Chf        | Chf     |
+| Clp        | Clp     |
+| Cny        | Cny     |
+| Cop        | Cop     |
+| Crc        | Crc     |
+| Cve        | Cve     |
+| Czk        | Czk     |
+| Djf        | Djf     |
+| Dkk        | Dkk     |
+| Dop        | Dop     |
+| Dzd        | Dzd     |
+| Egp        | Egp     |
+| Etb        | Etb     |
+| Eur        | Eur     |
+| Fjd        | Fjd     |
+| Fkp        | Fkp     |
+| Gbp        | Gbp     |
+| Gel        | Gel     |
+| Gip        | Gip     |
+| Gmd        | Gmd     |
+| Gnf        | Gnf     |
+| Gtq        | Gtq     |
+| Gyd        | Gyd     |
+| Hkd        | Hkd     |
+| Hnl        | Hnl     |
+| Hrk        | Hrk     |
+| Htg        | Htg     |
+| Huf        | Huf     |
+| Idr        | Idr     |
+| Ils        | Ils     |
+| Inr        | Inr     |
+| Isk        | Isk     |
+| Jmd        | Jmd     |
+| Jod        | Jod     |
+| Jpy        | Jpy     |
+| Kes        | Kes     |
+| Kgs        | Kgs     |
+| Khr        | Khr     |
+| Kmf        | Kmf     |
+| Krw        | Krw     |
+| Kwd        | Kwd     |
+| Kyd        | Kyd     |
+| Kzt        | Kzt     |
+| Lak        | Lak     |
+| Lbp        | Lbp     |
+| Lkr        | Lkr     |
+| Lrd        | Lrd     |
+| Lsl        | Lsl     |
+| Mad        | Mad     |
+| Mdl        | Mdl     |
+| Mga        | Mga     |
+| Mkd        | Mkd     |
+| Mmk        | Mmk     |
+| Mnt        | Mnt     |
+| Mop        | Mop     |
+| Mur        | Mur     |
+| Mvr        | Mvr     |
+| Mwk        | Mwk     |
+| Mxn        | Mxn     |
+| Myr        | Myr     |
+| Mzn        | Mzn     |
+| Nad        | Nad     |
+| Ngn        | Ngn     |
+| Nio        | Nio     |
+| Nok        | Nok     |
+| Npr        | Npr     |
+| Nzd        | Nzd     |
+| Omr        | Omr     |
+| Pab        | Pab     |
+| Pen        | Pen     |
+| Pgk        | Pgk     |
+| Php        | Php     |
+| Pkr        | Pkr     |
+| Pln        | Pln     |
+| Pyg        | Pyg     |
+| Qar        | Qar     |
+| Ron        | Ron     |
+| Rsd        | Rsd     |
+| Rub        | Rub     |
+| Rwf        | Rwf     |
+| Sar        | Sar     |
+| Sbd        | Sbd     |
+| Scr        | Scr     |
+| Sek        | Sek     |
+| Sgd        | Sgd     |
+| Shp        | Shp     |
+| Sle        | Sle     |
+| Sos        | Sos     |
+| Srd        | Srd     |
+| Std        | Std     |
+| Szl        | Szl     |
+| Thb        | Thb     |
+| Tjs        | Tjs     |
+| Tnd        | Tnd     |
+| Top        | Top     |
+| Try        | Try     |
+| Ttd        | Ttd     |
+| Twd        | Twd     |
+| Tzs        | Tzs     |
+| Uah        | Uah     |
+| Ugx        | Ugx     |
 | Usd        | Usd     |
+| Usdc       | Usdc    |
+| Uyu        | Uyu     |
+| Uzs        | Uzs     |
+| Vnd        | Vnd     |
+| Vuv        | Vuv     |
+| Wst        | Wst     |
+| Xaf        | Xaf     |
+| Xcd        | Xcd     |
+| Xcg        | Xcg     |
+| Xof        | Xof     |
+| Xpf        | Xpf     |
+| Yer        | Yer     |
+| Zar        | Zar     |
+| Zmw        | Zmw     |
 
 | constant           | value              |
 |:-------------------|:-------------------|
@@ -9282,7 +9425,7 @@ This document is entirely auto-generated and may contain errors.<br>
 ```
 ```internal process
 # Error
-{"InsufficientFunds":{"headline":"Insufficient funds","message":"You don't have a high enough balance to complete this action.","action":{"link":"r.IN","label":"Deposit"}},"InvalidReceiver":{"getHeadline":"()"{"actionType":"e"}e===c.jq.P2P_TRANSFER_REQUEST?"request":"payment"},"InvalidReceiverCurren...
+{"InsufficientFunds":{"headline":"Insufficient funds","message":"You don't have a high enough balance to complete this action.","action":{"link":"l.IN","label":"Deposit"}},"InvalidReceiver":{"getHeadline":"()"{"actionType":"e"}e===i.jq.P2P_TRANSFER_REQUEST?"request":"payment"{"issueReportEnabled":"!...
 ```
 | constant                      | value                         |
 |:------------------------------|:------------------------------|
@@ -9336,6 +9479,12 @@ This document is entirely auto-generated and may contain errors.<br>
 |:-----------|:--------|
 | wire       | wire    |
 | check      | check   |
+
+| constant     | value        |
+|:-------------|:-------------|
+| name         | name         |
+| address      | address      |
+| wire_details | wire_details |
 
 | constant     | value        |
 |:-------------|:-------------|
@@ -9414,8 +9563,12 @@ This document is entirely auto-generated and may contain errors.<br>
 | contactLoaded                  | external-contacts-data-loaded       |
 | createContactSuccess           | external-contacts-create-success    |
 | createContactFailure           | external-contacts-create-failure    |
+| updateContactSuccess           | external-contacts-update-success    |
+| updateContactFailure           | external-contacts-update-failure    |
 | deleteContactFailure           | external-contacts-remove-failure    |
 | deleteContactSuccess           | external-contacts-remove-success    |
+| addContactWireDetails          | external-contacts-add-bank-routing  |
+| editContactTrigger             | external-contacts-on-edit           |
 | edit                           | edit                                |
 | forgotPin                      | forgot-pin                          |
 | kyc                            | kyc                                 |
@@ -11645,7 +11798,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{[U.LIVE_EVENT]:"!0",[U.MOMENT]:"!0",[U.SUMMARY]:"!0",[U.SUMMARY_LARGE_IMAGE]:"!0",[U.AUDIOSPACE]:"!0"}
+{[S.LIVE_EVENT]:"!0",[S.MOMENT]:"!0",[S.SUMMARY]:"!0",[S.SUMMARY_LARGE_IMAGE]:"!0",[S.AUDIOSPACE]:"!0"}
 ```
 | constant     | value        |
 |:-------------|:-------------|
