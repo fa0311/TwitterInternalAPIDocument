@@ -1972,6 +1972,9 @@
       "responsive_web_grok_show_message_reply_button": {
         "value": "true"
       },
+      "responsive_web_grok_show_translation_source_lang": {
+        "value": "true"
+      },
       "responsive_web_grok_sport_cards_enabled": {
         "value": "true"
       },
@@ -5531,6 +5534,9 @@
         "responsive_web_grok_enable_input_advanced_settings": {
           "value": "true"
         },
+        "responsive_web_grok_enable_model_steer_buttons": {
+          "value": "false"
+        },
         "responsive_web_grok_enable_model_tool_toggle": {
           "value": "true"
         },
@@ -5718,6 +5724,9 @@
           "value": "true"
         },
         "responsive_web_grok_show_message_reply_button": {
+          "value": "true"
+        },
+        "responsive_web_grok_show_translation_source_lang": {
           "value": "true"
         },
         "responsive_web_grok_sport_cards_enabled": {
@@ -7601,10 +7610,10 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "beeeb8a908efe9e1cec5e0f93f1c282e"
+      "settingsVersion": "74a26bea1fc9833a98b29eedc81b45e7"
     },
     "debug": {},
-    "featureSetToken": "1c251bfe4d72d50755a9f823aa4f3fb40d67cc0f",
+    "featureSetToken": "b5c21cf8855cf22534cab7da17449d2844b9d9ed",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -7673,7 +7682,7 @@
   },
   "session": {
     "country": "XX",
-    "guestId": "175330451464011798",
+    "guestId": "175339091904519225",
     "hasCommunityMemberships": "false",
     "isActiveCreator": "false",
     "isLoaded": "false",

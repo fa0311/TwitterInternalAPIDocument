@@ -6540,3 +6540,15 @@
 - None<br>
 #### remove<br>
 - xchat_out_of_order_fanout_validation_enabled<br>
+## 2025/07/24<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- responsive_web_grok_show_translation_source_lang<br>
+- responsive_web_grok_enable_model_steer_buttons<br>
+#### remove<br>
+- None<br>
