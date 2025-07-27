@@ -217,7 +217,7 @@
     "...d": "_"
   },
   {
-    "...s": "_"
+    "...t": "_"
   },
   {
     "instructions": []
@@ -681,8 +681,8 @@
     "columnWidthsRedesign": "r",
     "sideNavWidths": "n",
     "sideNavWidthsRedesign": "l",
-    "contentWidths": "s",
-    "contentWidthsRedesign": "t",
+    "contentWidths": "t",
+    "contentWidthsRedesign": "s",
     "wideTabBarWidth": "u",
     "dmDrawerHeight": "c",
     "dmDrawerWidth": "D"
@@ -785,7 +785,7 @@
     "Always": "always"
   },
   {
-    "latency": "s.BEST_EFFORT"
+    "latency": "t.BEST_EFFORT"
   },
   {
     "ContinueWith": "continue_with",
@@ -793,13 +793,13 @@
     "SignUp": "signup"
   },
   {
-    "createAccountLabel": "s().eb022176",
-    "createAccountPhoneEmailLabel": "s().gcfef7b6",
-    "logInLabel": "s().e919c3bc",
-    "signInLabel": "s().e5b0e544",
-    "signUpLabel": "s().a565833e",
-    "signUpPhoneEmailLabel": "s().eb022176",
-    "useAppLabel": "s().gd93944e"
+    "createAccountLabel": "t().eb022176",
+    "createAccountPhoneEmailLabel": "t().gcfef7b6",
+    "logInLabel": "t().e919c3bc",
+    "signInLabel": "t().e5b0e544",
+    "signUpLabel": "t().a565833e",
+    "signUpPhoneEmailLabel": "t().eb022176",
+    "useAppLabel": "t().gd93944e"
   },
   {
     "Control": "control",
@@ -834,10 +834,11 @@
     "contactData": "contactData",
     "contactDetails": "contactDetails",
     "createContact": "createContact",
+    "updateContact": "updateContact",
     "wireMeta": "wireMeta",
     "checkMeta": "checkMeta"
   },
-  "{[he.onboarding]:{\"path\":`${\"me\"}/onboarding`,\"defaultClosePath\":\"/\",\"redirectOnCompletion\":\"!0\",\"invalidateOnClose\":\"!0\"},[he.upgradeToKycVerified]:{\"path\":`${\"me\"}/tier2`,\"defaultClosePath\":\"/\",\"redirectOnCompletion\":\"!0\",\"invalidateOnClose\":\"!0\"},[he.upgradeToKycDocumentsVerified]:{\"path\":`${\"me\"}/tier3`,\"defaultClosePath\":\"/\",\"redirectOnCompletion\":\"!0\",\"invalidateOnClose\":\"!0\"},[he.selfieVerification]:{\"path\":`${\"me\"}/selfie`,\"defaultClosePath\":\"/\",\"redirectOnCompletion\":\"!0\",\"invalidateOnClose\":\"!0\"},[he.updateName]:{\"path\":`${\"me\"}/update`,\"defaultClosePath\":\"se.personal\",\"redirectOnCompletion\":\"!0\",\"invalidateOnClose\":\"!0\"},[he.updateAddress]:{\"path\":`${\"me\"}/update`,\"defaultClosePath\":\"se.personal\",\"redirectOnCompletion\":\"!0\",\"invalidateOnClose\":\"!0\"},[he.questions]:{\"path\":`${\"me\"}/questions`,\"defaultClosePath\":\"s\",\"redirectOnCompletion\":\"!0\",\"invalidateOnClose\":\"!0\"},[he.updatePin]:{\"path\":`${\"me\"}/update-pin`,\"defaultClosePath\":\"se.securityPrivacy\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\"},[he.forgotPin]:{\"path\":`${\"me\"}/forgot-pin`,\"defaultClosePath\":\"se.securityPrivacy\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\"},[he.changeCardPin]:{\"path\":`${\"me\"}/change-card-pin`,\"defaultClosePath\":\"X\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\"},[he.accountRouting]:{\"path\":`${\"me\"}/account-routing-numbers`,\"defaultClosePath\":\"s\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"allowClipboardWrite\":\"!0\",\"invalidateOnClose\":\"!1\"},[he.challenge]:{\"path\":`${\"me\"}/challenge`,\"defaultClosePath\":\"/\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!0\"},[he.personal]:{\"path\":`${\"me\"}/info`,\"defaultClosePath\":\"se.personal\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"invalidateOnClose\":\"!1\"},[he.knownDevices]:{\"path\":`${\"me\"}/known-devices`,\"defaultClosePath\":\"se.deviceSecurity\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"invalidateOnClose\":\"!1\"},[he.knownDevice]:{\"path\":`${\"me\"}/known-device`,\"defaultClosePath\":\"ie.knownDevices\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"invalidateOnClose\":\"!1\"},[he.cardOnboarding]:{\"path\":`${\"me\"}/order-card`,\"defaultClosePath\":\"s\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\"},[he.address]:{\"path\":`${\"me\"}/address`,\"defaultClosePath\":\"X\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"invalidateOnClose\":\"!1\"},[he.contacts]:{\"path\":`${\"me\"}/contacts`,\"defaultClosePath\":\"s\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"invalidateOnClose\":\"!1\"},[he.contactData]:{\"path\":e=>e?.id?`${\"me\"}/contacts/${\"e.id\"}/data`:\"\",\"defaultClosePath\":\"s\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"invalidateOnClose\":\"!1\"},[he.contactDetails]:{\"path\":e=>e?.id?`${\"me\"}/contacts/${\"e.id\"}`:\"\",\"defaultClosePath\":\"s\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"invalidateOnClose\":\"!1\"},[he.createContact]:{\"path\":`${\"me\"}/contacts/create`,\"defaultClosePath\":\"s\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\"},[he.wireMeta]:{\"path\":e=>e?.id?`${\"me\"}/transactions/${\"e.id\"}/wire`:\"\",\"defaultClosePath\":\"s\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"invalidateOnClose\":\"!1\"},[he.checkMeta]:{\"path\":e=>e?.id?`${\"me\"}/transactions/${\"e.id\"}/check`:\"\",\"defaultClosePath\":\"s\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"invalidateOnClose\":\"!1\"}}",
+  "{[me.onboarding]:{\"path\":`${\"be\"}/onboarding`,\"defaultClosePath\":\"/\",\"redirectOnCompletion\":\"!0\",\"invalidateOnClose\":\"!0\"},[me.upgradeToKycVerified]:{\"path\":`${\"be\"}/tier2`,\"defaultClosePath\":\"/\",\"redirectOnCompletion\":\"!0\",\"invalidateOnClose\":\"!0\"},[me.upgradeToKycDocumentsVerified]:{\"path\":`${\"be\"}/tier3`,\"defaultClosePath\":\"/\",\"redirectOnCompletion\":\"!0\",\"invalidateOnClose\":\"!0\"},[me.selfieVerification]:{\"path\":`${\"be\"}/selfie`,\"defaultClosePath\":\"/\",\"redirectOnCompletion\":\"!0\",\"invalidateOnClose\":\"!0\"},[me.updateName]:{\"path\":`${\"be\"}/update`,\"defaultClosePath\":\"se.personal\",\"redirectOnCompletion\":\"!0\",\"invalidateOnClose\":\"!0\"},[me.updateAddress]:{\"path\":`${\"be\"}/update`,\"defaultClosePath\":\"se.personal\",\"redirectOnCompletion\":\"!0\",\"invalidateOnClose\":\"!0\"},[me.questions]:{\"path\":`${\"be\"}/questions`,\"defaultClosePath\":\"t\",\"redirectOnCompletion\":\"!0\",\"invalidateOnClose\":\"!0\"},[me.updatePin]:{\"path\":`${\"be\"}/update-pin`,\"defaultClosePath\":\"se.securityPrivacy\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\"},[me.forgotPin]:{\"path\":`${\"be\"}/forgot-pin`,\"defaultClosePath\":\"se.securityPrivacy\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\"},[me.changeCardPin]:{\"path\":`${\"be\"}/change-card-pin`,\"defaultClosePath\":\"X\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\"},[me.accountRouting]:{\"path\":`${\"be\"}/account-routing-numbers`,\"defaultClosePath\":\"t\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"allowClipboardWrite\":\"!0\",\"invalidateOnClose\":\"!1\"},[me.challenge]:{\"path\":`${\"be\"}/challenge`,\"defaultClosePath\":\"/\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!0\"},[me.personal]:{\"path\":`${\"be\"}/info`,\"defaultClosePath\":\"se.personal\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"invalidateOnClose\":\"!1\"},[me.knownDevices]:{\"path\":`${\"be\"}/known-devices`,\"defaultClosePath\":\"se.deviceSecurity\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"invalidateOnClose\":\"!1\"},[me.knownDevice]:{\"path\":`${\"be\"}/known-device`,\"defaultClosePath\":\"ue.knownDevices\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"invalidateOnClose\":\"!1\"},[me.cardOnboarding]:{\"path\":`${\"be\"}/order-card`,\"defaultClosePath\":\"t\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\"},[me.address]:{\"path\":`${\"be\"}/address`,\"defaultClosePath\":\"X\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"invalidateOnClose\":\"!1\"},[me.contacts]:{\"path\":`${\"be\"}/contacts`,\"defaultClosePath\":\"t\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"invalidateOnClose\":\"!1\"},[me.contactData]:{\"path\":e=>e?.id?`${\"be\"}/contacts/${\"e.id\"}/data`:\"\",\"defaultClosePath\":\"t\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"invalidateOnClose\":\"!1\"},[me.contactDetails]:{\"path\":e=>e?.id?`${\"be\"}/contacts/${\"e.id\"}`:\"\",\"defaultClosePath\":\"t\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"invalidateOnClose\":\"!1\"},[me.createContact]:{\"path\":`${\"be\"}/contacts/create`,\"defaultClosePath\":\"t\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\"},[me.updateContact]:{\"path\":e=>e?.id?`${\"be\"}/contacts/${\"e.id\"}/update`:\"\",\"defaultClosePath\":\"t\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\"},[me.wireMeta]:{\"path\":e=>e?.id?`${\"be\"}/transactions/${\"e.id\"}/wire`:\"\",\"defaultClosePath\":\"t\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"invalidateOnClose\":\"!1\"},[me.checkMeta]:{\"path\":e=>e?.id?`${\"be\"}/transactions/${\"e.id\"}/check`:\"\",\"defaultClosePath\":\"t\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"invalidateOnClose\":\"!1\"}}",
   {
     "tier2": "tier2",
     "tier3": "tier3",
@@ -1434,8 +1435,8 @@
     "LIST": "List"
   },
   {
-    "...s": "_",
     "...t": "_",
+    "...s": "_",
     "GENERIC": "Generic"
   },
   {
@@ -1865,7 +1866,7 @@
     "testNumber": "1",
     "testViewCountShow": "!0"
   },
-  "{\"avatarURIForHashtagHighlight\":\"void 0\",\"birdwatchPivotsEnabled\":\"!0\",\"c9sEnabled\":\"!1\",\"c9sThemesEnabled\":\"!1\",\"c9sHashtagsEnabled\":\"!1\",\"cardCarouselClickableNavArea\":\"control\",\"collectionAdsEnabled\":\"!1\",\"shouldConvertCollectionToImageWebsiteCard\":\"!1\",\"dpaMetadataEnabled\":\"!1\",\"dpaCtaEnabled\":\"!1\",\"dpaPlaceholderMediaKeys\":\"!1\",\"explorerAdsEnabled\":\"!1\",\"fosnrSoftInterventionsEnabled\":\"!1\",\"grokShareEnabled\":\"!1\",\"continueInGrokEnabled\":\"!1\",\"openGrok\":()=>{},\"withEditCallout\":\"!1\",\"withEdgeToEdgeContent\":\"!1\",\"withEdgeToEdgeTweetAnatomy\":\"!1\",\"highlightedHashtag\":\"void 0\",\"isCopyrightDisputeLinkEnabled\":\"!1\",\"isDeveloperBuiltCardEnabled\":\"!1\",\"isDMDrawer\":\"!1\",\"isEditTweetConsumptionEnabled\":\"!1\",\"nonSafariShouldUseCardCarouselV2\":\"!1\",\"withMediaCarousel\":\"!1\",\"onMediaHashtagHighlightClick\":\"void 0\",\"safariShouldUseCardCarouselV2\":\"control\",\"sensitiveMediaWarningsEnabled\":\"!1\",\"mediaVisibilityResultsEnabled\":\"!1\",\"shouldPreconnectToCardDestinations\":\"!1\",\"showSimilarPostsPivotEnabled\":\"!0\",\"shouldUseSmallFontForHashtagHighlight\":\"!1\",\"trustedFriendsEnabled\":\"!1\",\"trustedFriendsCreationEnabled\":\"!1\",\"socialContextRefreshEnabled\":\"!1\",\"trustedFriendsInfo\":\"void 0\",\"isCarouselItem\":\"!1\",\"followButtonAtBottomOfPromotedUserCard\":\"!1\",\"tweetMediaItemImmersiveViewerEntryPoint\":\"void 0\",\"withVodTweetDetailAttribution\":\"!1\",\"isEmbedBrandLinkExperimentEnabled\":\"!1\",\"userAvatarLabel\":\"!1\",\"canVerifiedCrawlerConsumeSensitiveMedia\":\"!1\",\"shouldUseLocaleContextDirection\":\"!1\",\"blueBusinessVerifiedBadgeEnabled\":\"!1\",\"blueBusinessAffiliateBadgeEnabled\":\"!1\",\"blueGovernmentVerifiedBadgeEnabled\":\"!1\",\"newBadgeColorEnabled\":\"!1\",\"tweetViewCountsEnabled\":\"!1\",\"redesignedLabelForSubscribedTweets\":\"!1\",\"renderArticleCardInTweet\":\"!1\",\"renderCompactCardDetail\":\"!1\",\"roundCountInTweetAction\":\"!0\",\"isWebRedesign\":\"!1\",\"isVerticalVideoNoBlackBars\":\"!1\",\"compactMediaMaxHeight\":\"0\",\"...n\":\"_\"}",
+  "{\"avatarURIForHashtagHighlight\":\"void 0\",\"birdwatchPivotsEnabled\":\"!0\",\"c9sEnabled\":\"!1\",\"c9sThemesEnabled\":\"!1\",\"c9sHashtagsEnabled\":\"!1\",\"cardCarouselClickableNavArea\":\"control\",\"collectionAdsEnabled\":\"!1\",\"shouldConvertCollectionToImageWebsiteCard\":\"!1\",\"dpaMetadataEnabled\":\"!1\",\"dpaCtaEnabled\":\"!1\",\"dpaPlaceholderMediaKeys\":\"!1\",\"explorerAdsEnabled\":\"!1\",\"fosnrSoftInterventionsEnabled\":\"!1\",\"grokShareEnabled\":\"!1\",\"continueInGrokEnabled\":\"!1\",\"openGrok\":()=>{},\"withEditCallout\":\"!1\",\"withEdgeToEdgeContent\":\"!1\",\"withEdgeToEdgeTweetAnatomy\":\"!1\",\"highlightedHashtag\":\"void 0\",\"isCopyrightDisputeLinkEnabled\":\"!1\",\"isDeveloperBuiltCardEnabled\":\"!1\",\"isDMDrawer\":\"!1\",\"isEditTweetConsumptionEnabled\":\"!1\",\"nonSafariShouldUseCardCarouselV2\":\"!1\",\"withMediaCarousel\":\"!1\",\"onMediaHashtagHighlightClick\":\"void 0\",\"safariShouldUseCardCarouselV2\":\"control\",\"sensitiveMediaWarningsEnabled\":\"!1\",\"mediaVisibilityResultsEnabled\":\"!1\",\"shouldPreconnectToCardDestinations\":\"!1\",\"showSimilarPostsPivotEnabled\":\"!0\",\"shouldUseSmallFontForHashtagHighlight\":\"!1\",\"trustedFriendsEnabled\":\"!1\",\"trustedFriendsCreationEnabled\":\"!1\",\"socialContextRefreshEnabled\":\"!1\",\"trustedFriendsInfo\":\"void 0\",\"isCarouselItem\":\"!1\",\"followButtonAtBottomOfPromotedUserCard\":\"!1\",\"tweetMediaItemImmersiveViewerEntryPoint\":\"void 0\",\"withVodTweetDetailAttribution\":\"!1\",\"isEmbedBrandLinkExperimentEnabled\":\"!1\",\"userAvatarLabel\":\"!1\",\"canVerifiedCrawlerConsumeSensitiveMedia\":\"!1\",\"shouldUseLocaleContextDirection\":\"!1\",\"blueBusinessVerifiedBadgeEnabled\":\"!1\",\"blueBusinessAffiliateBadgeEnabled\":\"!1\",\"blueGovernmentVerifiedBadgeEnabled\":\"!1\",\"newBadgeColorEnabled\":\"!1\",\"tweetViewCountsEnabled\":\"!1\",\"redesignedLabelForSubscribedTweets\":\"!1\",\"renderArticleCardInTweet\":\"!1\",\"renderCompactCardDetail\":\"!1\",\"roundCountInTweetAction\":\"!0\",\"isWebRedesign\":\"!1\",\"isVerticalVideoNoBlackBars\":\"!1\",\"compactMediaMaxHeight\":\"0\",\"grokFadeInAnimationV2Enabled\":\"!1\",\"...n\":\"_\"}",
   {
     "CommunityNotes": "CommunityNotes",
     "LiveEvent": "LiveEvent",
@@ -2206,7 +2207,7 @@
     "text": "text"
   },
   {
-    "...s()": "_",
+    "...t()": "_",
     "activeFaintGray": "rgba(n.CV.light)",
     "activeBlack": "l.bs.black(230, 236, 240, 0.7)",
     "hoverBlack": "l.bs.black(.07)",
@@ -2233,7 +2234,7 @@
   },
   {
     "...b": "_",
-    "...s()": "_",
+    "...t()": "_",
     "text": "#141D26",
     "gray700": "#3B4C5C",
     "gray300": "#697987",
@@ -2249,7 +2250,7 @@
     "buttonOutlinedBorder": "o.default.color.baseColor.gray700"
   },
   {
-    "...s()": "_",
+    "...t()": "_",
     "activeFaintGray": "rgba(n.CV.dark)",
     "activeBlack": "l.bs.white(20, 29, 38, 0.7)",
     "hoverBlack": "l.bs.white(.07)",
@@ -2276,7 +2277,7 @@
   },
   {
     "...p": "_",
-    "...s()": "_",
+    "...t()": "_",
     "text": "l.Cj",
     "navigationBackground95": "#15202B",
     "unreadCellBackground": "#325D7D",
@@ -2286,7 +2287,7 @@
     "buttonOutlinedBorder": "o.default.color.baseColor.gray300"
   },
   {
-    "...s()": "_",
+    "...t()": "_",
     "activeFaintGray": "rgba(n.CV.darker)",
     "activeBlack": "l.bs.white(18, 21, 23, 0.7)",
     "hoverBlack": "l.bs.white(.07)",
@@ -2314,7 +2315,7 @@
   },
   {
     "...w": "_",
-    "...s()": "_",
+    "...t()": "_",
     "text": "l.Cj",
     "navigationBackground": "#050505",
     "navigationBackground95": "#050505",
@@ -2328,7 +2329,7 @@
     "buttonOutlinedBorder": "o.default.color.baseColor.gray300"
   },
   {
-    "...s()": "_",
+    "...t()": "_",
     "activeFaintGray": "rgba(n.CV.business)",
     "activeBlack": "l.bs.white(20, 29, 38, 0.7)",
     "hoverBlack": "l.bs.white(.07)",
@@ -2382,10 +2383,10 @@
     "gutterVerticalPx": "f.space12"
   },
   {
-    "aspectRatios": "s",
+    "aspectRatios": "t",
     "baseFontSize": "y",
     "borderRadii": "i",
-    "borderRadiiPx": "t",
+    "borderRadiiPx": "s",
     "borderWidths": "c",
     "borderWidthsPx": "u",
     "breakpoints": "n",
@@ -2401,7 +2402,7 @@
     "spaces": "w",
     "spacesPx": "f"
   },
-  "{\"...b()\":{\"scale\":\"l\",\"scales\":\"s\"}\"na0\",M.obd,a,\"r\"}",
+  "{\"...b()\":{\"scale\":\"l\",\"scales\":\"t\"}\"na0\",M.obd,a,\"r\"}",
   {
     "BROADCAST": "broadcast",
     "DM": "dm",
@@ -2414,6 +2415,7 @@
     "Hashtag": "hashtag",
     "Mention": "mention",
     "Url": "url",
+    "UrlWithDisplayUrl": "urlWithDisplayUrl",
     "List": "twitterList"
   },
   {
@@ -5185,7 +5187,7 @@
     "darker": "dark",
     "business": "business"
   },
-  "{[b.sj.AMPLIFY]:{\"conversionHandler\":\"a.R\",\"shouldRenderCard\":\"a.r\"},[b.sj.APP]:{\"conversionHandler\":\"o.F\",\"shouldRenderCard\":\"o.V\"},[b.sj.AUDIOSPACE]:{\"conversionHandler\":\"s.x\",\"shouldRenderCard\":\"s.W\"},[b.sj.BROADCAST]:{\"conversionHandler\":\"d.K\",\"shouldRenderCard\":\"d.Q\"},[b.sj.DIRECT_STORE_LINK_APP]:{\"conversionHandler\":\"r.T\",\"shouldRenderCard\":\"r.B\"},[b.sj.IMAGE_DIRECT_MESSAGE]:{\"conversionHandler\":\"l.a\",\"shouldRenderCard\":\"l.R\"},[b.sj.LIVE_EVENT]:{\"conversionHandler\":\"_.q\",\"shouldRenderCard\":\"_.C\"},[b.sj.MESSAGE_ME]:{\"conversionHandler\":\"c.I\",\"shouldRenderCard\":\"c.i\"},[b.sj.MOMENT]:{\"conversionHandler\":\"p.l\",\"shouldRenderCard\":\"p.Z\"},[b.sj.NEWSLETTER_ISSUE]:{\"conversionHandler\":\"null\",\"shouldRenderCard\":()=>!1},[b.sj.NEWSLETTER_PUBLICATION]:{\"conversionHandler\":\"null\",\"shouldRenderCard\":()=>!1},[b.sj.NOTE]:{\"conversionHandler\":\"m.R\",\"shouldRenderCard\":\"m.q\"},[b.sj.PERISCOPE_BROADCAST]:{\"conversionHandler\":\"u.w\",\"shouldRenderCard\":\"u.y\"},[b.sj.PLAYER]:{\"conversionHandler\":\"y.L\",\"shouldRenderCard\":\"y.F\"},[b.sj.POLL_2_CHOICE_TEXT]:{\"conversionHandler\":\"I.J\",\"shouldRenderCard\":\"I.l\"},[b.sj.POLL_3_CHOICE_TEXT]:{\"conversionHandler\":\"I.J\",\"shouldRenderCard\":\"I.l\"},[b.sj.POLL_4_CHOICE_TEXT]:{\"conversionHandler\":\"I.J\",\"shouldRenderCard\":\"I.l\"},[b.sj.POLL_2_CHOICE_IMAGE]:{\"conversionHandler\":\"I.J\",\"shouldRenderCard\":\"I.l\"},[b.sj.POLL_3_CHOICE_IMAGE]:{\"conversionHandler\":\"I.J\",\"shouldRenderCard\":\"I.l\"},[b.sj.POLL_4_CHOICE_IMAGE]:{\"conversionHandler\":\"I.J\",\"shouldRenderCard\":\"I.l\"},[b.sj.POLL_2_CHOICE_VIDEO]:{\"conversionHandler\":\"I.J\",\"shouldRenderCard\":\"I.l\"},[b.sj.POLL_3_CHOICE_VIDEO]:{\"conversionHandler\":\"I.J\",\"shouldRenderCard\":\"I.l\"},[b.sj.POLL_4_CHOICE_VIDEO]:{\"conversionHandler\":\"I.J\",\"shouldRenderCard\":\"I.l\"},[b.sj.PROMO_IMAGE_CONVO]:{\"conversionHandler\":\"E.g\",\"shouldRenderCard\":\"E.o\"},[b.sj.PROMO_VIDEO_CONVO]:{\"conversionHandler\":\"C.G\",\"shouldRenderCard\":\"C.T\"},[b.sj.SUMMARY]:{\"conversionHandler\":\"T.n\",\"shouldRenderCard\":\"T.K\"},[b.sj.SUMMARY_LARGE_IMAGE]:{\"conversionHandler\":\"g.N\",\"shouldRenderCard\":\"g.a\"},[b.sj.UNIFIED_CARD]:{\"conversionHandler\":\"h.O4\",\"shouldRenderCard\":\"h.AU\"},[b.sj.VIDEO_DIRECT_MESSAGE]:{\"conversionHandler\":\"()\"{\"cardId\":\"e\",\"cardType\":\"t\",\"converterOptions\":\"n\",\"data\":\"i\",\"users\":\"a\"}{\"const o=()(0,H.FL)\",s=(i,\\\"image_value\\\",\\\"player_image_original\\\")(0,H.SI),d=parseInt(i,\\\"string_value\\\",\\\"player_stream_url\\\")/parseInt(0,H.SIi,\\\"string_value\\\",\\\"player_width\\\",10),r=(0,H.SIi,\\\"string_value\\\",\\\"player_height\\\",10)(0,H.SI),l=e=>[1,2,3,4].map(i,\\\"string_value\\\",\\\"content_duration_seconds\\\"){\"const n=()(0,H.SI)\"{\"t\"}`0,H.SIi,\"string_value\",`cta${\"t\"}_wm_id`{\"type\":\"f.lW.DM\",\"data\":{\"icon\":\"dm\",\"index\":\"t\",\"cta\":\"n\",\"wm_id\":\"a\",\"destination\":\"e\"}}:\"null\"}{\"cardState\":\"b.uW.DEFAULT\",\"layout\":{[b.uW.DEFAULT]:{\"size\":\"large\"},[b.uW.CONDENSED]:{\"size\":\"large\"},[b.uW.STATIC]:{\"size\":\"large\"}},\"card\":{\"card_name\":\"t\",\"on_visibility\":{\"scribe\":\"show\"},\"id\":\"e\",\"components\":{[b.uW.DEFAULT]:[b.Fw.MEDIA,...u?[b.Fw.DETAILS]:[],b.Fw.BUTTON_GROUP],[b.uW.STATIC]:[b.Fw.MEDIA_STATIC,...u?[b.Fw.DETAILS]:[],b.Fw.BUTTON_GROUP_STATIC]},\"destinations\":{[b.Fw.DESTINATION]:{\"type\":\"b._g.ACTION\",\"data\":{\"action_data\":{\"persist\":\"!1\",\"type\":\"dm\",\"recipient\":\"p.id_str\"},\"auth_required\":\"!0\",\"scribe\":\"click\",\"promoted_log\":\"f.YE.DM_BUTTON_CLICK\"}},[b.Fw.DESTINATION_STATIC]:{\"type\":\"b._g.BROWSER\",\"data\":{\"url_data\":{\"url\":n.tweetPermalink||b.$H},\"scribe\":\"open_link\",\"promoted_log\":\"f.YE.CARD_URL_CLICK\"}}},\"media_entities\":{[b.Fw.IMAGE_ENTITY]:\"()(0,H.WW)\"{}{\"type\":\"video\",\"aspect_ratio\":\"d\",\"content_id\":()(0,H.SI)||(i,\\\"string_value\\\",\\\"player_content_id\\\")(0,H.cT),\"...r?\":{\"duration_ms\":1e3*parseInt()}:\"null\",\"vmap_url\":\"s\",\"poster_image\":\"o\",\"publisher_id\":()(0,H.SI)||n.tweetUserId,\"variants\":[{\"src\":\"()(0,H.SI)\",\"type\":\"application/x-mpegURL\"}]}},\"components_data\":{[b.Fw.MEDIA]:{\"type\":\"b.Qe.MEDIA\",\"data\":{\"id\":\"b.Fw.VIDEO_ENTITY\"}},[b.Fw.MEDIA_STATIC]:{\"type\":\"b.Qe.MEDIA\",\"data\":{\"id\":\"b.Fw.IMAGE_ENTITY\",\"destination\":\"b.Fw.DESTINATION_STATIC\"}},\"...u?\":{[b.Fw.DETAILS]:{\"type\":\"b.Qe.DETAILS\",\"data\":{\"attribution\":\"m\"}}}:\"null\",[b.Fw.BUTTON_GROUP]:{\"type\":\"b.Qe.BUTTON_GROUP\",\"data\":{\"buttons\":\"_\"}},[b.Fw.BUTTON_GROUP_STATIC]:{\"type\":\"b.Qe.BUTTON_GROUP\",\"data\":{\"buttons\":\"c\"}}}}}},\"shouldRenderCard\":e=>()(0,H.BY)}}",
+  "{[b.sj.AMPLIFY]:{\"conversionHandler\":\"a.R\",\"shouldRenderCard\":\"a.r\"},[b.sj.APP]:{\"conversionHandler\":\"o.F\",\"shouldRenderCard\":\"o.V\"},[b.sj.AUDIOSPACE]:{\"conversionHandler\":\"s.x\",\"shouldRenderCard\":\"s.W\"},[b.sj.BROADCAST]:{\"conversionHandler\":\"d.K\",\"shouldRenderCard\":\"d.Q\"},[b.sj.DIRECT_STORE_LINK_APP]:{\"conversionHandler\":\"r.T\",\"shouldRenderCard\":\"r.B\"},[b.sj.IMAGE_DIRECT_MESSAGE]:{\"conversionHandler\":\"l.a\",\"shouldRenderCard\":\"l.R\"},[b.sj.LIVE_EVENT]:{\"conversionHandler\":\"_.q\",\"shouldRenderCard\":\"_.C\"},[b.sj.MESSAGE_ME]:{\"conversionHandler\":\"c.I\",\"shouldRenderCard\":\"c.i\"},[b.sj.MOMENT]:{\"conversionHandler\":\"p.l\",\"shouldRenderCard\":\"p.Z\"},[b.sj.NEWSLETTER_ISSUE]:{\"conversionHandler\":\"null\",\"shouldRenderCard\":()=>!1},[b.sj.NEWSLETTER_PUBLICATION]:{\"conversionHandler\":\"null\",\"shouldRenderCard\":()=>!1},[b.sj.NOTE]:{\"conversionHandler\":\"m.R\",\"shouldRenderCard\":\"m.q\"},[b.sj.PERISCOPE_BROADCAST]:{\"conversionHandler\":\"u.w\",\"shouldRenderCard\":\"u.y\"},[b.sj.PLAYER]:{\"conversionHandler\":\"y.L\",\"shouldRenderCard\":\"y.F\"},[b.sj.POLL_2_CHOICE_TEXT]:{\"conversionHandler\":\"I.J\",\"shouldRenderCard\":\"I.l\"},[b.sj.POLL_3_CHOICE_TEXT]:{\"conversionHandler\":\"I.J\",\"shouldRenderCard\":\"I.l\"},[b.sj.POLL_4_CHOICE_TEXT]:{\"conversionHandler\":\"I.J\",\"shouldRenderCard\":\"I.l\"},[b.sj.POLL_2_CHOICE_IMAGE]:{\"conversionHandler\":\"I.J\",\"shouldRenderCard\":\"I.l\"},[b.sj.POLL_3_CHOICE_IMAGE]:{\"conversionHandler\":\"I.J\",\"shouldRenderCard\":\"I.l\"},[b.sj.POLL_4_CHOICE_IMAGE]:{\"conversionHandler\":\"I.J\",\"shouldRenderCard\":\"I.l\"},[b.sj.POLL_2_CHOICE_VIDEO]:{\"conversionHandler\":\"I.J\",\"shouldRenderCard\":\"I.l\"},[b.sj.POLL_3_CHOICE_VIDEO]:{\"conversionHandler\":\"I.J\",\"shouldRenderCard\":\"I.l\"},[b.sj.POLL_4_CHOICE_VIDEO]:{\"conversionHandler\":\"I.J\",\"shouldRenderCard\":\"I.l\"},[b.sj.PROMO_IMAGE_CONVO]:{\"conversionHandler\":\"E.g\",\"shouldRenderCard\":\"E.o\"},[b.sj.PROMO_VIDEO_CONVO]:{\"conversionHandler\":\"C.G\",\"shouldRenderCard\":\"C.T\"},[b.sj.SUMMARY]:{\"conversionHandler\":\"h.n\",\"shouldRenderCard\":\"h.K\"},[b.sj.SUMMARY_LARGE_IMAGE]:{\"conversionHandler\":\"g.N\",\"shouldRenderCard\":\"g.a\"},[b.sj.UNIFIED_CARD]:{\"conversionHandler\":\"T.O4\",\"shouldRenderCard\":\"T.AU\"},[b.sj.VIDEO_DIRECT_MESSAGE]:{\"conversionHandler\":\"()\"{\"cardId\":\"e\",\"cardType\":\"t\",\"converterOptions\":\"n\",\"data\":\"i\",\"users\":\"a\"}{\"const o=()(0,H.FL)\",s=(i,\\\"image_value\\\",\\\"player_image_original\\\")(0,H.SI),d=parseInt(i,\\\"string_value\\\",\\\"player_stream_url\\\")/parseInt(0,H.SIi,\\\"string_value\\\",\\\"player_width\\\",10),r=(0,H.SIi,\\\"string_value\\\",\\\"player_height\\\",10)(0,H.SI),l=e=>[1,2,3,4].map(i,\\\"string_value\\\",\\\"content_duration_seconds\\\"){\"const n=()(0,H.SI)\"{\"t\"}`0,H.SIi,\"string_value\",`cta${\"t\"}_wm_id`{\"type\":\"D.lW.DM\",\"data\":{\"icon\":\"dm\",\"index\":\"t\",\"cta\":\"n\",\"wm_id\":\"a\",\"destination\":\"e\"}}:\"null\"}{\"cardState\":\"b.uW.DEFAULT\",\"layout\":{[b.uW.DEFAULT]:{\"size\":\"large\"},[b.uW.CONDENSED]:{\"size\":\"large\"},[b.uW.STATIC]:{\"size\":\"large\"}},\"card\":{\"card_name\":\"t\",\"on_visibility\":{\"scribe\":\"show\"},\"id\":\"e\",\"components\":{[b.uW.DEFAULT]:[b.Fw.MEDIA,...u?[b.Fw.DETAILS]:[],b.Fw.BUTTON_GROUP],[b.uW.STATIC]:[b.Fw.MEDIA_STATIC,...u?[b.Fw.DETAILS]:[],b.Fw.BUTTON_GROUP_STATIC]},\"destinations\":{[b.Fw.DESTINATION]:{\"type\":\"b._g.ACTION\",\"data\":{\"action_data\":{\"persist\":\"!1\",\"type\":\"dm\",\"recipient\":\"p.id_str\"},\"auth_required\":\"!0\",\"scribe\":\"click\",\"promoted_log\":\"D.YE.DM_BUTTON_CLICK\"}},[b.Fw.DESTINATION_STATIC]:{\"type\":\"b._g.BROWSER\",\"data\":{\"url_data\":{\"url\":n.tweetPermalink||b.$H},\"scribe\":\"open_link\",\"promoted_log\":\"D.YE.CARD_URL_CLICK\"}}},\"media_entities\":{[b.Fw.IMAGE_ENTITY]:\"()(0,H.WW)\"{}{\"type\":\"video\",\"aspect_ratio\":\"d\",\"content_id\":()(0,H.SI)||(i,\\\"string_value\\\",\\\"player_content_id\\\")(0,H.cT),\"...r?\":{\"duration_ms\":1e3*parseInt()}:\"null\",\"vmap_url\":\"s\",\"poster_image\":\"o\",\"publisher_id\":()(0,H.SI)||n.tweetUserId,\"variants\":[{\"src\":\"()(0,H.SI)\",\"type\":\"application/x-mpegURL\"}]}},\"components_data\":{[b.Fw.MEDIA]:{\"type\":\"b.Qe.MEDIA\",\"data\":{\"id\":\"b.Fw.VIDEO_ENTITY\"}},[b.Fw.MEDIA_STATIC]:{\"type\":\"b.Qe.MEDIA\",\"data\":{\"id\":\"b.Fw.IMAGE_ENTITY\",\"destination\":\"b.Fw.DESTINATION_STATIC\"}},\"...u?\":{[b.Fw.DETAILS]:{\"type\":\"b.Qe.DETAILS\",\"data\":{\"attribution\":\"m\"}}}:\"null\",[b.Fw.BUTTON_GROUP]:{\"type\":\"b.Qe.BUTTON_GROUP\",\"data\":{\"buttons\":\"_\"}},[b.Fw.BUTTON_GROUP_STATIC]:{\"type\":\"b.Qe.BUTTON_GROUP\",\"data\":{\"buttons\":\"c\"}}}}}},\"shouldRenderCard\":e=>()(0,H.BY)}}",
   {
     "navButtons": "navigationButtons",
     "carouselRoot": "carouselRoot"
@@ -5458,11 +5460,11 @@
     "INVALID_RES_STATUS": -1
   },
   {
-    "0": "E.INTERNAL_ERROR",
-    "1": "E.INVALID_MEDIA",
-    "2": "E.FILE_TOO_LARGE",
-    "3": "E.UNSUPPORTED_MEDIA",
-    "4": "E.TIMEOUT"
+    "0": "w.INTERNAL_ERROR",
+    "1": "w.INVALID_MEDIA",
+    "2": "w.FILE_TOO_LARGE",
+    "3": "w.UNSUPPORTED_MEDIA",
+    "4": "w.TIMEOUT"
   },
   {
     "RESET": "0",
@@ -5933,7 +5935,7 @@
     "Default": "ui_defaultLabel",
     "TransparentCursor": "ui_transparentCursor"
   },
-  "{[z.v.FOLLOWS]:\"U\",[z.v.FRIENDS_OF_FRIENDS]:\"G\"}",
+  "{[W.v.FOLLOWS]:\"U\",[W.v.FRIENDS_OF_FRIENDS]:\"Q\"}",
   {
     "Default": "Default",
     "Pivot": "Pivot",
@@ -6253,21 +6255,9 @@
     "UPCOMING": "UPCOMING"
   },
   {
-    "Fixed": "fixed",
-    "Variable": "variable"
-  },
-  {
-    "Pinning": "Pinning",
-    "Reordering": "Reordering"
-  },
-  {
-    "Scheduled": "Scheduled",
-    "InProgress": "InProgress",
-    "Completed": "Completed",
-    "Postponed": "Postponed",
-    "Cancelled": "Cancelled",
-    "Unused6": "_Unused6",
-    "Unused7": "_Unused7"
+    "NotStarted": "not_started",
+    "Started": "started",
+    "Completed": "completed"
   },
   {
     "SCORE": "score",
@@ -6314,9 +6304,8 @@
     "UserInvited": "UserInvited"
   },
   {
-    "NotStarted": "not_started",
-    "Started": "started",
-    "Completed": "completed"
+    "Fixed": "fixed",
+    "Variable": "variable"
   },
   {
     "Open": "CommunityOpenMembershipSettings",
@@ -6330,6 +6319,19 @@
   {
     "Hidden": "hidden",
     "Kept": "kept"
+  },
+  {
+    "Pinning": "Pinning",
+    "Reordering": "Reordering"
+  },
+  {
+    "Scheduled": "Scheduled",
+    "InProgress": "InProgress",
+    "Completed": "Completed",
+    "Postponed": "Postponed",
+    "Cancelled": "Cancelled",
+    "Unused6": "_Unused6",
+    "Unused7": "_Unused7"
   },
   {
     "HiddenTweet": "hidden_tweet",
@@ -6408,8 +6410,8 @@
     "Subscribers": "Subscribers"
   },
   {
-    "MARKDOWN": "Ze",
-    "PREVIEW": "xe"
+    "MARKDOWN": "xe",
+    "PREVIEW": "Ze"
   },
   {
     "DRAFTS": "Drafts",
@@ -6702,26 +6704,26 @@
     "Trimmer": "trimmer"
   },
   {
-    "ActionsBar": "f.Z",
-    "ActionMenu": "_.Z",
-    "CallToAction": "o.ZP",
-    "EditCallout": "b.Z",
-    "Education": "v.Z",
-    "HighlightedUserLabel": "l.Z",
+    "ActionsBar": "_.Z",
+    "ActionMenu": "C.Z",
+    "CallToAction": "a.ZP",
+    "EditCallout": "v.Z",
+    "Education": "T.Z",
+    "HighlightedUserLabel": "d.Z",
     "Media": "y.Z",
-    "Place": "a.ZP",
+    "Place": "o.ZP",
     "PromotedDetails": "u.Z",
-    "PromotedUserProfileCard": "x.Z",
-    "ReplyContext": "k.ZP",
+    "PromotedUserProfileCard": "k.Z",
+    "ReplyContext": "E.ZP",
     "RichContent": "I.Z",
-    "SocialContext": "g.Z",
-    "Text": "M.Z",
-    "Tombstone": "p.Z",
-    "Timestamp": "h.Z",
-    "UserAvatar": "A.Z",
-    "UserFollowIndicator": "Z.Z",
-    "UserName": "E.Z",
-    "ArticleCard": "T.Z"
+    "SocialContext": "w.Z",
+    "Text": "x.Z",
+    "Tombstone": "g.Z",
+    "Timestamp": "p.Z",
+    "UserAvatar": "Z.Z",
+    "UserFollowIndicator": "S.Z",
+    "UserName": "M.Z",
+    "ArticleCard": "b.Z"
   },
   {
     "REQUEST": "rweb/scheduledTweets/FETCH_SCHEDULED_TWEETS_REQUEST",
@@ -7680,13 +7682,6 @@
     "FAILURE": "rweb/availableLanguages/FETCH_AVAILABLE_LANGUAGES_FAILURE"
   },
   {
-    "SELF": "self",
-    "MUTUAL_FOLLOW": "mutualfollow",
-    "FOLLOWING": "following",
-    "FOLLOWERS": "followers",
-    "PUBLIC": "public"
-  },
-  {
     "REQUEST": "rweb/settings/profile/ENABLE_VERIFIED_PHONE_LABEL_REQUEST",
     "SUCCESS": "rweb/settings/profile/ENABLE_VERIFIED_PHONE_LABEL_SUCCESS",
     "FAILURE": "rweb/settings/profile/ENABLE_VERIFIED_PHONE_LABEL_FAILURE"
@@ -7700,6 +7695,13 @@
     "REQUEST": "rweb/settings/profile/FETCH_VERIFIED_PHONE_LABEL_REQUEST",
     "SUCCESS": "rweb/settings/profile/FETCH_VERIFIED_PHONE_LABEL_SUCCESS",
     "FAILURE": "rweb/settings/profile/FETCH_VERIFIED_PHONE_LABEL_FAILURE"
+  },
+  {
+    "SELF": "self",
+    "MUTUAL_FOLLOW": "mutualfollow",
+    "FOLLOWING": "following",
+    "FOLLOWERS": "followers",
+    "PUBLIC": "public"
   },
   {
     "SUPERSCRIPT_AND_SUBSCRIPT": "superscript_and_subscript",
@@ -8065,21 +8067,6 @@
     "Topic": "topic"
   },
   {
-    "REQUEST": "rweb/settings/profile/ENABLE_VERIFIED_PHONE_LABEL_REQUEST",
-    "SUCCESS": "rweb/settings/profile/ENABLE_VERIFIED_PHONE_LABEL_SUCCESS",
-    "FAILURE": "rweb/settings/profile/ENABLE_VERIFIED_PHONE_LABEL_FAILURE"
-  },
-  {
-    "REQUEST": "rweb/settings/profile/DISABLE_VERIFIED_PHONE_LABEL_REQUEST",
-    "SUCCESS": "rweb/settings/profile/DISABLE_VERIFIED_PHONE_LABEL_SUCCESS",
-    "FAILURE": "rweb/settings/profile/DISABLE_VERIFIED_PHONE_LABEL_FAILURE"
-  },
-  {
-    "REQUEST": "rweb/settings/profile/FETCH_VERIFIED_PHONE_LABEL_REQUEST",
-    "SUCCESS": "rweb/settings/profile/FETCH_VERIFIED_PHONE_LABEL_SUCCESS",
-    "FAILURE": "rweb/settings/profile/FETCH_VERIFIED_PHONE_LABEL_FAILURE"
-  },
-  {
     "REQUEST": "rweb/settings/usernames/FETCH_USERNAMES_REQUEST",
     "SUCCESS": "rweb/settings/usernames/FETCH_USERNAMES_SUCCESS",
     "FAILURE": "rweb/settings/usernames/FETCH_USERNAMES_FAILURE"
@@ -8181,38 +8168,38 @@
     "marketing": "D",
     "sales_am": "m",
     "operations": "b",
-    "people_hr": "p",
-    "finance_accounting": "f",
-    "legal_compliance": "M",
-    "science_engineering": "y",
-    "medical": "k",
-    "construction_trades": "w",
-    "other": "v"
+    "people_hr": "f",
+    "finance_accounting": "M",
+    "legal_compliance": "p",
+    "science_engineering": "k",
+    "medical": "w",
+    "construction_trades": "v",
+    "other": "g"
   },
   {
-    "intern": "Z",
-    "entry_level": "I",
-    "junior": "C",
-    "mid_level": "_",
-    "senior": "S",
-    "lead": "A",
-    "manager": "E",
+    "intern": "P",
+    "entry_level": "A",
+    "junior": "S",
+    "mid_level": "Z",
+    "senior": "I",
+    "lead": "C",
+    "manager": "_",
     "executive": "x"
   },
   {
     "onsite": {
-      "label": "R",
-      "description": "F",
+      "label": "L",
+      "description": "N",
       "value": "onsite"
     },
     "remote": {
-      "label": "O",
-      "description": "B",
+      "label": "G",
+      "description": "$",
       "value": "remote"
     },
     "hybrid": {
-      "label": "N",
-      "description": "U",
+      "label": "R",
+      "description": "O",
       "value": "hybrid"
     }
   },
@@ -8494,7 +8481,148 @@
     "ClaimTransferDecisionUnspecified": "ClaimTransferDecisionUnspecified"
   },
   {
-    "Usd": "Usd"
+    "Aed": "Aed",
+    "Afn": "Afn",
+    "All": "All",
+    "Amd": "Amd",
+    "Ang": "Ang",
+    "Aoa": "Aoa",
+    "Ars": "Ars",
+    "Aud": "Aud",
+    "Awg": "Awg",
+    "Azn": "Azn",
+    "Bam": "Bam",
+    "Bbd": "Bbd",
+    "Bdt": "Bdt",
+    "Bgn": "Bgn",
+    "Bhd": "Bhd",
+    "Bif": "Bif",
+    "Bmd": "Bmd",
+    "Bnd": "Bnd",
+    "Bob": "Bob",
+    "Brl": "Brl",
+    "Bsd": "Bsd",
+    "Bwp": "Bwp",
+    "Byn": "Byn",
+    "Bzd": "Bzd",
+    "Cad": "Cad",
+    "Cdf": "Cdf",
+    "Chf": "Chf",
+    "Clp": "Clp",
+    "Cny": "Cny",
+    "Cop": "Cop",
+    "Crc": "Crc",
+    "Cve": "Cve",
+    "Czk": "Czk",
+    "Djf": "Djf",
+    "Dkk": "Dkk",
+    "Dop": "Dop",
+    "Dzd": "Dzd",
+    "Egp": "Egp",
+    "Etb": "Etb",
+    "Eur": "Eur",
+    "Fjd": "Fjd",
+    "Fkp": "Fkp",
+    "Gbp": "Gbp",
+    "Gel": "Gel",
+    "Gip": "Gip",
+    "Gmd": "Gmd",
+    "Gnf": "Gnf",
+    "Gtq": "Gtq",
+    "Gyd": "Gyd",
+    "Hkd": "Hkd",
+    "Hnl": "Hnl",
+    "Hrk": "Hrk",
+    "Htg": "Htg",
+    "Huf": "Huf",
+    "Idr": "Idr",
+    "Ils": "Ils",
+    "Inr": "Inr",
+    "Isk": "Isk",
+    "Jmd": "Jmd",
+    "Jod": "Jod",
+    "Jpy": "Jpy",
+    "Kes": "Kes",
+    "Kgs": "Kgs",
+    "Khr": "Khr",
+    "Kmf": "Kmf",
+    "Krw": "Krw",
+    "Kwd": "Kwd",
+    "Kyd": "Kyd",
+    "Kzt": "Kzt",
+    "Lak": "Lak",
+    "Lbp": "Lbp",
+    "Lkr": "Lkr",
+    "Lrd": "Lrd",
+    "Lsl": "Lsl",
+    "Mad": "Mad",
+    "Mdl": "Mdl",
+    "Mga": "Mga",
+    "Mkd": "Mkd",
+    "Mmk": "Mmk",
+    "Mnt": "Mnt",
+    "Mop": "Mop",
+    "Mur": "Mur",
+    "Mvr": "Mvr",
+    "Mwk": "Mwk",
+    "Mxn": "Mxn",
+    "Myr": "Myr",
+    "Mzn": "Mzn",
+    "Nad": "Nad",
+    "Ngn": "Ngn",
+    "Nio": "Nio",
+    "Nok": "Nok",
+    "Npr": "Npr",
+    "Nzd": "Nzd",
+    "Omr": "Omr",
+    "Pab": "Pab",
+    "Pen": "Pen",
+    "Pgk": "Pgk",
+    "Php": "Php",
+    "Pkr": "Pkr",
+    "Pln": "Pln",
+    "Pyg": "Pyg",
+    "Qar": "Qar",
+    "Ron": "Ron",
+    "Rsd": "Rsd",
+    "Rub": "Rub",
+    "Rwf": "Rwf",
+    "Sar": "Sar",
+    "Sbd": "Sbd",
+    "Scr": "Scr",
+    "Sek": "Sek",
+    "Sgd": "Sgd",
+    "Shp": "Shp",
+    "Sle": "Sle",
+    "Sos": "Sos",
+    "Srd": "Srd",
+    "Std": "Std",
+    "Szl": "Szl",
+    "Thb": "Thb",
+    "Tjs": "Tjs",
+    "Tnd": "Tnd",
+    "Top": "Top",
+    "Try": "Try",
+    "Ttd": "Ttd",
+    "Twd": "Twd",
+    "Tzs": "Tzs",
+    "Uah": "Uah",
+    "Ugx": "Ugx",
+    "Usd": "Usd",
+    "Usdc": "Usdc",
+    "Uyu": "Uyu",
+    "Uzs": "Uzs",
+    "Vnd": "Vnd",
+    "Vuv": "Vuv",
+    "Wst": "Wst",
+    "Xaf": "Xaf",
+    "Xcd": "Xcd",
+    "Xcg": "Xcg",
+    "Xof": "Xof",
+    "Xpf": "Xpf",
+    "Yer": "Yer",
+    "Zar": "Zar",
+    "Zmw": "Zmw"
   },
   {
     "ContactSupport": "ContactSupport",
@@ -8715,7 +8843,7 @@
     "invite": "invite",
     "autoclaim": "autoclaim"
   },
-  "{[k.default]:{\"redirectPath\":()=>s.gp,\"buttonText\":\"g\",\"disclaimer\":\"v\"},[k.autoclaim]:{\"redirectPath\":()=>s.gp,\"buttonText\":\"g\",\"disclaimer\":\"v\"},[k.invite]:{\"redirectPath\":\"()\"{\"inviteTransactionId\":\"e\"}{\"s.bR\"}/${\"e\"}`:\"s.gp\",\"buttonText\":\"g\",\"disclaimer\":\"v\"}}",
+  "{[g.default]:{\"redirectPath\":()=>s.gp,\"buttonText\":\"k\",\"disclaimer\":\"Z\"},[g.autoclaim]:{\"redirectPath\":()=>s.gp,\"buttonText\":\"k\",\"disclaimer\":\"Z\"},[g.invite]:{\"redirectPath\":\"()\"{\"inviteTransactionId\":\"e\"}{\"s.bR\"}/${\"e\"}`:\"s.gp\",\"buttonText\":\"k\",\"disclaimer\":\"Z\"}}",
   "{[l.Rz.debit]:{\"label\":\"Send\",\"title\":\"Send\",\"withAlternativePaymentMethods\":\"!0\"},[l.Rz.credit]:{\"label\":\"Request\",\"title\":\"Request\",\"scanMessage\":\"Let others scan your QR Code to pay you.\",\"withAlternativePaymentMethods\":\"!1\"}}",
   "{[l.Rz.debit]:\"D.d.CreateTransfer\",[l.Rz.credit]:\"D.d.RequestTransfer\"}",
   {
@@ -8727,7 +8855,7 @@
   },
   "{[b.S.Alert]:\"danger\",[b.S.Info]:\"primary\",[b.S.Warning]:\"warning\"}",
   "{[b.S.Alert]:\"u.default\",[b.S.Info]:\"p.default\",[b.S.Warning]:\"u.default\"}",
-  "{\"InsufficientFunds\":{\"headline\":\"Insufficient funds\",\"message\":\"You don't have a high enough balance to complete this action.\",\"action\":{\"link\":\"r.IN\",\"label\":\"Deposit\"}},\"InvalidReceiver\":{\"getHeadline\":\"()\"{\"actionType\":\"e\"}e===c.jq.P2P_TRANSFER_REQUEST?\"request\":\"payment\"},\"InvalidReceiverCurrentState\":{\"getHeadline\":\"()\"{\"actionType\":\"e\"}e===c.jq.P2P_TRANSFER_REQUEST?\"request\":\"payment\"},\"InvalidReceiverPreferences\":{\"getHeadline\":\"()\"{\"actionType\":\"e\"}e===c.jq.P2P_TRANSFER_REQUEST?\"request\":\"payment\"{\"actionType\":\"e\",\"counterPartyScreenName\":\"t\"}{t?`@${\"t\"}`:\"This account\"}\" has disabled $\"{e===c.jq.P2P_TRANSFER_REQUEST?\"requests\":\"payments\"} from users they do not follow.`},\"InvalidSender\":{\"getHeadline\":\"()\"{\"actionType\":\"e\"}e===c.jq.P2P_TRANSFER_REQUEST?\"request\":\"payment\"},\"InvalidSenderCurrentState\":{\"getHeadline\":\"()\"{\"actionType\":\"e\"}e===c.jq.P2P_TRANSFER_REQUEST?\"request\":\"payment\"},\"InvalidSenderPreferences\":{\"headline\":\"Unable to send your request\",\"message\":\"This account has disabled payments from users they do not follow.\",\"getMessage\":\"()\"{\"actionType\":\"e\",\"counterPartyScreenName\":\"t\"}{t?`@${\"t\"}`:\"This account\"}\" has disabled $\"{e===c.jq.P2P_TRANSFER_REQUEST?\"requests\":\"payments\"} from users they do not follow.`},\"IdempotencyKeyConflict\":{\"headline\":\"You might be attempting a duplicate payment\",\"message\":\"The transfer failed because a similar one was already sent. Check your recent transactions and try again if needed.\",\"action\":{\"link\":\"r.bR\",\"label\":\"View Recent Transactions\"}},\"BankIssue\":{\"getHeadline\":\"()\"{\"actionType\":\"e\"}e?`${\"e.slice().toUpperCase(0,1)\"}\"$\"{\"e.slice().toLowerCase(1)\"}`:\"Action\"},\"LoginRequired\":{\"message\":\"You need to login to verify your bank account before you can proceed.\",\"action\":{\"link\":\"r.VN\",\"label\":\"Verify\"}},\"PaymentMethodLinkRequired\":{\"message\":\"You need to login to verify your bank account before you can proceed.\",\"action\":{\"link\":\"r.VN\",\"label\":\"Verify\"}},\"AccountLinkingNameMismatch\":{\"message\":\"This bank account can’t be linked due to a name mismatch. Please try a different account.\"},\"InsufficientBalance\":{\"headline\":\"Insufficient funds\",\"message\":\"Your bank account balance is insufficient. Please try another funding source.\",\"action\":{\"link\":\"r.IN\",\"label\":\"Deposit\"}},\"TwoFactorAuthRequired\":{\"message\":\"You need to setup a passkey before you can proceed.\",\"action\":{\"link\":\"r.ul\",\"label\":\"Setup\"}},\"VolumeLimitExceeded7DaySend\":{\"headline\":\"d()\"{\"type\":\"weekly\"}{\"actionType\":\"e\",\"limits\":\"t\"}{\"type\":\"weekly\",\"limits\":\"t\",\"actionType\":\"e\"}{\"actionType\":\"e\",\"limits\":\"t\"}{\"actionType\":\"e\",\"limits\":\"t\",\"type\":\"weekly\"}{\"link\":\"r.iE.limits\",\"label\":\"s\"}},\"VolumeLimitExceeded30DaySend\":{\"headline\":\"d()\"{\"type\":\"monthly\"}{\"actionType\":\"e\",\"limits\":\"t\"}{\"type\":\"monthly\",\"limits\":\"t\",\"actionType\":\"e\"}{\"actionType\":\"e\",\"limits\":\"t\"}{\"actionType\":\"e\",\"limits\":\"t\",\"type\":\"monthly\"}{\"link\":\"r.iE.limits\",\"label\":\"s\"}},\"VolumeLimitExceeded7Day\":{\"headline\":\"d()\"{\"type\":\"weekly\"}{\"actionType\":\"e\",\"limits\":\"t\"}{\"type\":\"weekly\",\"limits\":\"t\",\"actionType\":\"e\"}{\"actionType\":\"e\",\"limits\":\"t\"}{\"actionType\":\"e\",\"limits\":\"t\",\"type\":\"weekly\"}{\"link\":\"r.iE.limits\",\"label\":\"s\"}},\"VolumeLimitExceeded30Day\":{\"headline\":\"d()\"{\"type\":\"monthly\"}{\"actionType\":\"e\",\"limits\":\"t\"}{\"type\":\"monthly\",\"limits\":\"t\",\"actionType\":\"e\"}{\"actionType\":\"e\",\"limits\":\"t\"}{\"actionType\":\"e\",\"limits\":\"t\",\"type\":\"monthly\"}{\"link\":\"r.iE.limits\",\"label\":\"s\"}},\"AdditionalKycRequiredVolumeLimitExceeded7DaySend\":{\"headline\":\"Verify your identity to unlock higher limits and complete your transaction\",\"message\":\"Your information will be processed quickly and securely.\",\"action\":{\"link\":\"r.AU.tier2.verifyIdentityPath\",\"label\":\"Continue\"}},\"AdditionalKycRequiredVolumeLimitExceeded30DaySend\":{\"headline\":\"Verify your identity to unlock higher limits and complete your transaction\",\"message\":\"Your information will be processed quickly and securely.\",\"action\":{\"link\":\"r.AU.tier2.verifyIdentityPath\",\"label\":\"Continue\"}},\"AdditionalKycRequiredTotalVolumeLimitExceeded\":{\"headline\":\"Verify your identity to unlock higher limits and complete your transaction\",\"message\":\"Your information will be processed quickly and securely.\",\"action\":{\"link\":\"r.AU.tier2.verifyIdentityPath\",\"label\":\"Continue\"}},\"AdditionalKycRequired\":{\"headline\":\"Additional verification is required\",\"message\":\"We need more information from you to complete this action.\",\"action\":{\"link\":\"r.AU.tier2.verifyIdentityPath\",\"label\":\"Continue\"}},\"Velocity\":{\"headline\":\"Too many attempts\",\"getHeadline\":\"()\"{\"actionType\":\"e\"}{e?` ${c.p9[e]}`:\"\"} attempts`,\"message\":\"Your ability to perform this action is temporarily paused. Please try again later.\"},\"Unexpected\":{\"headline\":\"An unexpected user state occurred.\",\"message\":\"We are looking into how this happened.\"},\"Default\":{\"getHeadline\":\"()\"{\"actionType\":\"e\"}{\"switch()\"{\"case c.jq.P2P_TRANSFER_SEND\":return\"Unable to send your payment\";case c.jq.P2P_TRANSFER_REQUEST:return\"Unable to send your request\";case c.jq.WITHDRAWAL:return\"Withdrawal failed\";case c.jq.DEPOSIT:return\"Deposit failed\";default:return\"Money is unavailable right now\"}},\"getMessage\":\"()\"{\"actionType\":\"e\"}{\"switch()\"{\"case c.jq.P2P_TRANSFER_SEND\":case c.jq.P2P_TRANSFER_REQUEST:return\"We are looking into what went wrong.\";default:return\"Please try again later.\"}},\"message\":\"Please try again later.\"}}",
+  "{\"InsufficientFunds\":{\"headline\":\"Insufficient funds\",\"message\":\"You don't have a high enough balance to complete this action.\",\"action\":{\"link\":\"c.IN\",\"label\":\"Deposit\"}},\"InvalidReceiver\":{\"getHeadline\":\"()\"{\"actionType\":\"e\"}e===s.jq.P2P_TRANSFER_REQUEST?\"request\":\"payment\"{\"issueReportEnabled\":\"!0\",\"description\":\"Encountered an error while making a request.\"}},\"InvalidReceiverCurrentState\":{\"getHeadline\":\"()\"{\"actionType\":\"e\"}e===s.jq.P2P_TRANSFER_REQUEST?\"request\":\"payment\"},\"InvalidReceiverPreferences\":{\"getHeadline\":\"()\"{\"actionType\":\"e\"}e===s.jq.P2P_TRANSFER_REQUEST?\"request\":\"payment\"{\"actionType\":\"e\",\"counterPartyScreenName\":\"t\"}{t?`@${\"t\"}`:\"This account\"}\" has disabled $\"{e===s.jq.P2P_TRANSFER_REQUEST?\"requests\":\"payments\"} from users they do not follow.`},\"InvalidSender\":{\"getHeadline\":\"()\"{\"actionType\":\"e\"}e===s.jq.P2P_TRANSFER_REQUEST?\"request\":\"payment\"{\"issueReportEnabled\":\"!0\",\"description\":\"Encountered an error while making a payment.\"}},\"InvalidSenderCurrentState\":{\"getHeadline\":\"()\"{\"actionType\":\"e\"}e===s.jq.P2P_TRANSFER_REQUEST?\"request\":\"payment\"},\"InvalidSenderPreferences\":{\"headline\":\"Unable to send your request\",\"message\":\"This account has disabled payments from users they do not follow.\",\"getMessage\":\"()\"{\"actionType\":\"e\",\"counterPartyScreenName\":\"t\"}{t?`@${\"t\"}`:\"This account\"}\" has disabled $\"{e===s.jq.P2P_TRANSFER_REQUEST?\"requests\":\"payments\"} from users they do not follow.`},\"IdempotencyKeyConflict\":{\"headline\":\"You might be attempting a duplicate payment\",\"message\":\"The transfer failed because a similar one was already sent. Check your recent transactions and try again if needed.\",\"action\":{\"link\":\"c.bR\",\"label\":\"View Recent Transactions\"}},\"CustomerMissingPrimaryAddress\":{\"message\":\"You need an address on file before attempting this transfer.\",\"action\":{\"link\":\"c.f0\",\"label\":\"Add your address\"}},\"BankIssue\":{\"getHeadline\":\"()\"{\"actionType\":\"e\"}e?`${\"e.slice().toUpperCase(0,1)\"}\"$\"{\"e.slice().toLowerCase(1)\"}`:\"Action\"},\"LoginRequired\":{\"message\":\"You need to login to verify your bank account before you can proceed.\",\"action\":{\"link\":\"c.VN\",\"label\":\"Verify\"}},\"PaymentMethodLinkRequired\":{\"message\":\"You need to login to verify your bank account before you can proceed.\",\"action\":{\"link\":\"c.VN\",\"label\":\"Verify\"}},\"AccountLinkingNameMismatch\":{\"message\":\"This bank account can’t be linked due to a name mismatch. Please try a different account.\"},\"InsufficientBalance\":{\"headline\":\"Insufficient funds\",\"message\":\"Your bank account balance is insufficient. Please try another funding source.\",\"action\":{\"link\":\"c.IN\",\"label\":\"Deposit\"}},\"TwoFactorAuthRequired\":{\"message\":\"You need to setup a passkey before you can proceed.\",\"action\":{\"link\":\"c.ul\",\"label\":\"Setup\"}},\"VolumeLimitExceeded7DaySend\":{\"headline\":\"y()\"{\"type\":\"weekly\"}{\"actionType\":\"e\",\"limits\":\"t\"}{\"type\":\"weekly\",\"limits\":\"t\",\"actionType\":\"e\"}{\"actionType\":\"e\",\"limits\":\"t\"}{\"actionType\":\"e\",\"limits\":\"t\",\"type\":\"weekly\"}{\"link\":\"c.iE.limits\",\"label\":\"p\"}},\"VolumeLimitExceeded30DaySend\":{\"headline\":\"y()\"{\"type\":\"monthly\"}{\"actionType\":\"e\",\"limits\":\"t\"}{\"type\":\"monthly\",\"limits\":\"t\",\"actionType\":\"e\"}{\"actionType\":\"e\",\"limits\":\"t\"}{\"actionType\":\"e\",\"limits\":\"t\",\"type\":\"monthly\"}{\"link\":\"c.iE.limits\",\"label\":\"p\"}},\"VolumeLimitExceeded7Day\":{\"headline\":\"y()\"{\"type\":\"weekly\"}{\"actionType\":\"e\",\"limits\":\"t\"}{\"type\":\"weekly\",\"limits\":\"t\",\"actionType\":\"e\"}{\"actionType\":\"e\",\"limits\":\"t\"}{\"actionType\":\"e\",\"limits\":\"t\",\"type\":\"weekly\"}{\"link\":\"c.iE.limits\",\"label\":\"p\"}},\"VolumeLimitExceeded30Day\":{\"headline\":\"y()\"{\"type\":\"monthly\"}{\"actionType\":\"e\",\"limits\":\"t\"}{\"type\":\"monthly\",\"limits\":\"t\",\"actionType\":\"e\"}{\"actionType\":\"e\",\"limits\":\"t\"}{\"actionType\":\"e\",\"limits\":\"t\",\"type\":\"monthly\"}{\"link\":\"c.iE.limits\",\"label\":\"p\"}},\"AdditionalKycRequiredVolumeLimitExceeded7DaySend\":{\"headline\":\"Verify your identity to unlock higher limits and complete your transaction\",\"message\":\"Your information will be processed quickly and securely.\",\"action\":{\"link\":\"c.AU.tier2.verifyIdentityPath\",\"label\":\"Continue\"}},\"AdditionalKycRequiredVolumeLimitExceeded30DaySend\":{\"headline\":\"Verify your identity to unlock higher limits and complete your transaction\",\"message\":\"Your information will be processed quickly and securely.\",\"action\":{\"link\":\"c.AU.tier2.verifyIdentityPath\",\"label\":\"Continue\"}},\"AdditionalKycRequiredTotalVolumeLimitExceeded\":{\"headline\":\"Verify your identity to unlock higher limits and complete your transaction\",\"message\":\"Your information will be processed quickly and securely.\",\"action\":{\"link\":\"c.AU.tier2.verifyIdentityPath\",\"label\":\"Continue\"}},\"AdditionalKycRequired\":{\"headline\":\"Additional verification is required\",\"message\":\"We need more information from you to complete this action.\",\"action\":{\"link\":\"c.AU.tier2.verifyIdentityPath\",\"label\":\"Continue\"}},\"Velocity\":{\"headline\":\"Too many attempts\",\"getHeadline\":\"()\"{\"actionType\":\"e\"}{e?` ${s.p9[e]}`:\"\"} attempts`,\"message\":\"Your ability to perform this action is temporarily paused. Please try again later.\"},\"FeeCalculationError\":{\"headline\":\"Unable to complete this action\",\"getHeadline\":\"()\"{\"actionType\":\"e\"}{s.p9[e]}`:\"Unable to complete this action\",\"message\":\"Please try again later.\",\"action\":{\"link\":\"c.gp\",\"label\":\"OK\"},\"getErrorReporting\":\"()\"{\"actionType\":\"e\"}{\"issueReportEnabled\":\"!0\",\"description\":`Encountered an error while calculating fees for a ${e?.toLowerCase()??\"\"} transaction.`}:{\"issueReportEnabled\":\"!1\"}},\"Unexpected\":{\"headline\":\"An unexpected user state occurred.\",\"message\":\"We are looking into how this happened.\",\"getErrorReporting\":\"()\"{\"actionType\":\"e\"}{\"issueReportEnabled\":\"!0\",\"description\":`Encountered an unexpected error during a ${e?.toLowerCase()??\"\"} transaction.`}:{\"issueReportEnabled\":\"!1\"}},\"Default\":{\"getHeadline\":\"()\"{\"actionType\":\"e\"}{\"switch()\"{\"case s.jq.P2P_TRANSFER_SEND\":return\"Unable to send your payment\";case s.jq.P2P_TRANSFER_REQUEST:return\"Unable to send your request\";case s.jq.WITHDRAWAL:return\"Withdrawal failed\";case s.jq.DEPOSIT:return\"Deposit failed\";default:return\"Money is unavailable right now\"}},\"getMessage\":\"()\"{\"actionType\":\"e\"}{\"switch()\"{\"case s.jq.P2P_TRANSFER_SEND\":case s.jq.P2P_TRANSFER_REQUEST:return\"We are looking into what went wrong.\";default:return\"Please try again later.\"}},\"message\":\"Please try again later.\",\"getErrorReporting\":\"()\"{\"actionType\":\"e\"}{\"issueReportEnabled\":\"!0\",\"description\":`Encountered an unexpected error during a ${e?.toLowerCase()??\"\"} transaction.`}:{\"issueReportEnabled\":\"!1\"}}}",
   {
     "onboarding": "onboarding",
     "upgradeToKycDocumentsVerified": "upgradeToKycDocumentsVerified"
@@ -8771,6 +8899,11 @@
   {
     "wire": "wire",
     "check": "check"
+  },
+  {
+    "name": "name",
+    "address": "address",
+    "wire_details": "wire_details"
   },
   {
     "bankDeposit": "bankDeposit",
@@ -8836,8 +8969,12 @@
     "contactLoaded": "external-contacts-data-loaded",
     "createContactSuccess": "external-contacts-create-success",
     "createContactFailure": "external-contacts-create-failure",
+    "updateContactSuccess": "external-contacts-update-success",
+    "updateContactFailure": "external-contacts-update-failure",
     "deleteContactFailure": "external-contacts-remove-failure",
     "deleteContactSuccess": "external-contacts-remove-success",
+    "addContactWireDetails": "external-contacts-add-bank-routing",
+    "editContactTrigger": "external-contacts-on-edit",
     "edit": "edit",
     "forgotPin": "forgot-pin",
     "kyc": "kyc",
@@ -9999,15 +10136,70 @@
     "Test": "Test"
   },
   {
+    "DISABLED": "0",
+    "ENABLED": "10",
+    "SYNC_IN_PROGRESS": "20",
+    "SYNC_FAILED": "30"
+  },
+  {
+    "freshteam": "Freshteam",
+    "greenhouse": "Greenhouse",
+    "lever": "Lever",
+    "recruitee": "Recruitee",
+    "sage-hr": "Sage HR",
+    "sap-successfactors": "SAP SuccessFactors",
+    "teamtailor": "Teamtailor",
+    "workable": "Workable",
+    "workday": "Workday"
+  },
+  {
+    "software_engineering": "d",
+    "data_analytics": "c",
+    "product": "u",
+    "design": "m",
+    "marketing": "p",
+    "sales_am": "h",
+    "operations": "g",
+    "people_hr": "b",
+    "finance_accounting": "f",
+    "legal_compliance": "y",
+    "science_engineering": "_",
+    "medical": "k",
+    "construction_trades": "D",
+    "other": "v"
+  },
+  {
+    "intern": "E",
+    "entry_level": "Z",
+    "junior": "F",
+    "mid_level": "C",
+    "senior": "x",
+    "lead": "M",
+    "manager": "I",
+    "executive": "P"
+  },
+  {
+    "onsite": {
+      "label": "L",
+      "description": "R",
+      "value": "onsite"
+    },
+    "remote": {
+      "label": "A",
+      "description": "N",
+      "value": "remote"
+    },
+    "hybrid": {
+      "label": "j",
+      "description": "z",
+      "value": "hybrid"
+    }
+  },
+  {
     "FakeAccount": "fake_account",
     "OffensiveProfileContent": "offensive_profile_content",
     "SensitiveMedia": "sensitive_media",
     "Timeout": "timeout"
-  },
-  {
-    "NotStarted": "not_started",
-    "Started": "started",
-    "Completed": "completed"
   },
   {
     "FakeAccount": "fake_account",
@@ -10799,6 +10991,10 @@
     "format_inline": "format-inline"
   },
   {
+    "Pinning": "Pinning",
+    "Reordering": "Reordering"
+  },
+  {
     "CompactPrompt": "compactPrompt",
     "HeaderImagePrompt": "headerImagePrompt",
     "InlinePrompt": "inlinePrompt",
@@ -10918,7 +11114,7 @@
     "IncentiveFocus": "IncentiveFocus",
     "TopicFocus": "TopicFocus"
   },
-  "{[U.LIVE_EVENT]:\"!0\",[U.MOMENT]:\"!0\",[U.SUMMARY]:\"!0\",[U.SUMMARY_LARGE_IMAGE]:\"!0\",[U.AUDIOSPACE]:\"!0\"}",
+  "{[A.LIVE_EVENT]:\"!0\",[A.MOMENT]:\"!0\",[A.SUMMARY]:\"!0\",[A.SUMMARY_LARGE_IMAGE]:\"!0\",[A.AUDIOSPACE]:\"!0\"}",
   {
     "CONVERSATION": "conversation",
     "TIMELINE": "timeline"
@@ -10986,6 +11182,13 @@
   },
   {
     "WebSidebar": "web_sidebar"
+  },
+  {
+    "News": "ニュース",
+    "Sports": "スポーツ",
+    "Entertainment": "エンターテイメント",
+    "Other": "その他",
+    "Personalized": "おすすめ"
   },
   {
     "FacepileGroup": "FacepileGroup",
@@ -11149,7 +11352,7 @@
     "SETTINGS_LOADED": "rweb/immersiveViewer/SETTINGS_LOADED"
   },
   {
-    "fetchStatus": "Ie.ZP.NONE",
+    "fetchStatus": "Pe.ZP.NONE",
     "mobileViewCount": "0"
   },
   {

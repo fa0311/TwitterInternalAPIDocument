@@ -1783,6 +1783,9 @@
       "responsive_web_grok_enable_input_advanced_settings": {
         "value": "true"
       },
+      "responsive_web_grok_enable_model_steer_buttons": {
+        "value": "true"
+      },
       "responsive_web_grok_enable_model_tool_toggle": {
         "value": "true"
       },
@@ -3259,7 +3262,7 @@
         "value": "analytics_popup"
       },
       "subscriptions_upsells_premium_home_nav": {
-        "value": "premium_upsell_upgrade"
+        "value": ""
       },
       "subscriptions_upsells_premium_nav_migration_enabled": {
         "value": "true"
@@ -3799,9 +3802,6 @@
         "value": "false"
       },
       "xchat_pull_events_in_batch": {
-        "value": "false"
-      },
-      "xchat_read_receipt_facepile": {
         "value": "false"
       },
       "xchat_sample_observation_queries": {
@@ -5531,6 +5531,9 @@
         "responsive_web_grok_enable_input_advanced_settings": {
           "value": "true"
         },
+        "responsive_web_grok_enable_model_steer_buttons": {
+          "value": "true"
+        },
         "responsive_web_grok_enable_model_tool_toggle": {
           "value": "true"
         },
@@ -7007,7 +7010,7 @@
           "value": "analytics_popup"
         },
         "subscriptions_upsells_premium_home_nav": {
-          "value": "premium_upsell_upgrade"
+          "value": ""
         },
         "subscriptions_upsells_premium_nav_migration_enabled": {
           "value": "true"
@@ -7549,9 +7552,6 @@
         "xchat_pull_events_in_batch": {
           "value": "false"
         },
-        "xchat_read_receipt_facepile": {
-          "value": "false"
-        },
         "xchat_sample_observation_queries": {
           "value": "500"
         },
@@ -7604,7 +7604,7 @@
       "settingsVersion": "beeeb8a908efe9e1cec5e0f93f1c282e"
     },
     "debug": {},
-    "featureSetToken": "1c251bfe4d72d50755a9f823aa4f3fb40d67cc0f",
+    "featureSetToken": "a0916c342d3ee0da81b4ab85a14df9a1e99d234e",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -7673,7 +7673,7 @@
   },
   "session": {
     "country": "XX",
-    "guestId": "175330451464011798",
+    "guestId": "175356369813949670",
     "hasCommunityMemberships": "false",
     "isActiveCreator": "false",
     "isLoaded": "false",
