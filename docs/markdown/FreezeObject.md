@@ -878,7 +878,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{[me.onboarding]:{"path":`${"be"}/onboarding`,"defaultClosePath":"/","redirectOnCompletion":"!0","invalidateOnClose":"!0"},[me.upgradeToKycVerified]:{"path":`${"be"}/tier2`,"defaultClosePath":"/","redirectOnCompletion":"!0","invalidateOnClose":"!0"},[me.upgradeToKycDocumentsVerified]:{"path":`${"be"...
+{[Me.onboarding]:{"path":`${"pe"}/onboarding`,"defaultClosePath":"/","redirectOnCompletion":"!0","invalidateOnClose":"!0"},[Me.upgradeToKycVerified]:{"path":`${"pe"}/tier2`,"defaultClosePath":"/","redirectOnCompletion":"!0","invalidateOnClose":"!0"},[Me.upgradeToKycDocumentsVerified]:{"path":`${"pe"...
 ```
 | constant   | value   |
 |:-----------|:--------|
@@ -9474,6 +9474,8 @@ This document is entirely auto-generated and may contain errors.<br>
 | bank       | bank    |
 | card       | card    |
 | x          | x       |
+| cash       | cash    |
+| check      | check   |
 
 | constant       | value                     |
 |:---------------|:--------------------------|
