@@ -1811,8 +1811,8 @@
       "features": {}
     },
     "Upsells": {
-      "url": "https://x.com/i/api/graphql/Tx48nkiGFomEXIPc-fJ7GA/Upsells",
-      "queryId": "Tx48nkiGFomEXIPc-fJ7GA",
+      "url": "https://x.com/i/api/graphql/U4AmOKUoNtDGpvvUjCTKJg/Upsells",
+      "queryId": "U4AmOKUoNtDGpvvUjCTKJg",
       "method": "GET",
       "features": {
         "subscriptions_upsells_api_enabled": true
@@ -2357,8 +2357,8 @@
       }
     },
     "Viewer": {
-      "url": "https://x.com/i/api/graphql/Lrmldc6p2fuP6dJe-cBckw/Viewer",
-      "queryId": "Lrmldc6p2fuP6dJe-cBckw",
+      "url": "https://x.com/i/api/graphql/kJvrZLFAqWjQK9HyuU_BmQ/Viewer",
+      "queryId": "kJvrZLFAqWjQK9HyuU_BmQ",
       "method": "GET",
       "features": {
         "subscriptions_upsells_api_enabled": true,
