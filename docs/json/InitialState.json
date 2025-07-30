@@ -1535,7 +1535,7 @@
         "value": "pk_AvRa79bHyJSYSQHnRpcVtzyxetSvFerx"
       },
       "responsive_web_castle_sdk_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "responsive_web_chat_enabled": {
         "value": "true"
@@ -1729,9 +1729,6 @@
       "responsive_web_grok_analyze_post_followups_enabled": {
         "value": "false"
       },
-      "responsive_web_grok_android_image_download_mode": {
-        "value": "default"
-      },
       "responsive_web_grok_animated_text_enabled": {
         "value": "true"
       },
@@ -1881,6 +1878,9 @@
       },
       "responsive_web_grok_opt_out_enabled": {
         "value": "true"
+      },
+      "responsive_web_grok_outage_banner_message": {
+        "value": ""
       },
       "responsive_web_grok_pdf_upload_enabled": {
         "value": "true"
@@ -3250,7 +3250,7 @@
         "value": "true"
       },
       "subscriptions_upsells_home_nav_migration_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "subscriptions_upsells_home_sidebar_migration_enabled": {
         "value": "true"
@@ -5298,7 +5298,7 @@
           "value": "pk_AvRa79bHyJSYSQHnRpcVtzyxetSvFerx"
         },
         "responsive_web_castle_sdk_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "responsive_web_chat_enabled": {
           "value": "true"
@@ -5492,9 +5492,6 @@
         "responsive_web_grok_analyze_post_followups_enabled": {
           "value": "false"
         },
-        "responsive_web_grok_android_image_download_mode": {
-          "value": "default"
-        },
         "responsive_web_grok_animated_text_enabled": {
           "value": "true"
         },
@@ -5646,7 +5643,7 @@
           "value": "true"
         },
         "responsive_web_grok_outage_banner_message": {
-          "value": "We are experiencing capacity issues with Grok 4 at the moment. There may be some slowness when using Grok 4."
+          "value": ""
         },
         "responsive_web_grok_pdf_upload_enabled": {
           "value": "true"
@@ -6914,7 +6911,7 @@
           "value": "true"
         },
         "subscriptions_offers_dynamic_upsells_enabled": {
-          "value": "true"
+          "value": "false"
         },
         "subscriptions_offers_localized_pricing_enabled": {
           "value": "false"
@@ -7634,10 +7631,10 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "b886a59014fe3a4800162fdc384a44dc"
+      "settingsVersion": "e8fb8c0ef53398414cc28ff607482c03"
     },
     "debug": {},
-    "featureSetToken": "b1e61df19f24e9574e37a839075090ed17839125",
+    "featureSetToken": "4568a3e3945ba73efc9ddbcf03c999aed87adcca",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -7706,7 +7703,7 @@
   },
   "session": {
     "country": "XX",
-    "guestId": "175382291410970828",
+    "guestId": "175390933205796381",
     "hasCommunityMemberships": "false",
     "isActiveCreator": "false",
     "isLoaded": "false",
