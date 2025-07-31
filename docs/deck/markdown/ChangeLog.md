@@ -5523,3 +5523,41 @@
 #### remove<br>
 - responsive_web_grok_show_translation_source_lang<br>
 - xchat_read_receipt_facepile<br>
+## 2025/07/28<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- payments_cash_deposits_enabled<br>
+- payments_cheques_deposits_enabled<br>
+- responsive_web_grok_fade_in_animation_v2_enabled<br>
+#### remove<br>
+- subscriptions_marketing_page_web_refresh_enabled<br>
+## 2025/07/29<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- responsive_web_grok_android_image_download_mode<br>
+- responsive_web_grok_show_translation_source_lang<br>
+- system_theme_toggle_enabled<br>
+- responsive_web_grok_outage_banner_message<br>
+#### remove<br>
+- None<br>
+## 2025/07/30<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- responsive_web_grok_android_image_download_mode<br>

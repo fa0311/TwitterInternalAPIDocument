@@ -29,6 +29,12 @@ This document is entirely auto-generated and may contain errors.<br>
 | Expand     | expand  |
 | Remove     | remove  |
 
+| constant    | value       |
+|:------------|:------------|
+| on          | on          |
+| off         | off         |
+| unavailable | unavailable |
+
 | constant               |   value |
 |:-----------------------|--------:|
 | RequestSubmitted       |       1 |
@@ -76,6 +82,12 @@ This document is entirely auto-generated and may contain errors.<br>
 | JanusPollerResponseParseError                       | JanusPollerResponseParseError                       |
 | JanusPollerResponseEnumUnknown                      | JanusPollerResponseEnumUnknown                      |
 | JanusPollerResponseEnumError                        | JanusPollerResponseEnumError                        |
+
+| constant    | value       |
+|:------------|:------------|
+| Draft       | Draft       |
+| Published   | Published   |
+| SoftDeleted | SoftDeleted |
 
 | constant   |   value |
 |:-----------|--------:|
@@ -132,13 +144,6 @@ This document is entirely auto-generated and may contain errors.<br>
 |:------------|:------------|
 | VIDEO       | VIDEO       |
 | SHORT_VIDEO | SHORT_VIDEO |
-
-| constant   |   value |
-|:-----------|--------:|
-| large      |      54 |
-| medium     |      46 |
-| small      |      36 |
-| xSmall     |      12 |
 
 ```internal process
 # Error
@@ -631,6 +636,21 @@ This document is entirely auto-generated and may contain errors.<br>
 | IssuedCardTypeUnspecified | IssuedCardTypeUnspecified |
 | IssuedCardTypeVirtual     | IssuedCardTypeVirtual     |
 
+| constant                  | value                     |
+|:--------------------------|:--------------------------|
+| EntityNotFound            | EntityNotFound            |
+| HasAccountBalance         | HasAccountBalance         |
+| HasActiveDisputes         | HasActiveDisputes         |
+| HasCashbackAccountBalance | HasCashbackAccountBalance |
+| HasDeniedRoles            | HasDeniedRoles            |
+| HasPendingTransactions    | HasPendingTransactions    |
+| InactivePaymentMethod     | InactivePaymentMethod     |
+| Internal                  | Internal                  |
+| InvalidPaymentMethodType  | InvalidPaymentMethodType  |
+| PaymentMethodDeleted      | PaymentMethodDeleted      |
+| ShouldProvidePaymentId    | ShouldProvidePaymentId    |
+| Unspecified               | Unspecified               |
+
 | constant                       | value                          |
 |:-------------------------------|:-------------------------------|
 | PaymentMethodFilterFunding     | PaymentMethodFilterFunding     |
@@ -820,7 +840,7 @@ This document is entirely auto-generated and may contain errors.<br>
 ```
 ```internal process
 # Error
-{"InsufficientFunds":{"headline":"Insufficient funds","message":"You don't have a high enough balance to complete this action.","action":{"link":"c.IN","label":"Deposit"}},"InvalidReceiver":{"getHeadline":"()"{"actionType":"e"}e===s.jq.P2P_TRANSFER_REQUEST?"request":"payment"{"issueReportEnabled":"!...
+{"InsufficientFunds":{"headline":"Insufficient funds","message":"You don't have a high enough balance to complete this action.","action":{"link":"s.IN","label":"Deposit"}},"InvalidReceiver":{"getHeadline":"()"{"actionType":"e"}e===d.jq.P2P_TRANSFER_REQUEST?"request":"payment"{"issueReportEnabled":"!...
 ```
 ```internal process
 # Error
@@ -998,6 +1018,11 @@ This document is entirely auto-generated and may contain errors.<br>
 # Error
 {"minimumRadius":"0","maximumRadius":1/0,"minimumPolarAngle":Math.PI/8,"maximumPolarAngle":Math.PI-Math.PI/8,"minimumAzimuthalAngle":-1/0,"maximumAzimuthalAngle":1/0,"minimumFieldOfView":"10","maximumFieldOfView":"45","interactionPolicy":"always-allow","touchAction":"pan-y"}
 ```
+| constant   |   value |
+|:-----------|--------:|
+| HUMAN      |       1 |
+| ASSISTANT  |       2 |
+
 | constant         | value           |
 |:-----------------|:----------------|
 | LIVE_BROADCAST   | liveBroadcast   |
