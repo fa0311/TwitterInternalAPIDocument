@@ -145,6 +145,13 @@ This document is entirely auto-generated and may contain errors.<br>
 | VIDEO       | VIDEO       |
 | SHORT_VIDEO | SHORT_VIDEO |
 
+| constant   |   value |
+|:-----------|--------:|
+| large      |      54 |
+| medium     |      46 |
+| small      |      36 |
+| xSmall     |      12 |
+
 ```internal process
 # Error
 {"__proto__":"null","formatCaption":"function()"{"return()(0,a.WU)"},"formatDay":"function()"{"return()(0,a.WU)"},"formatMonthCaption":"function()"{"return()(0,a.WU)"},"formatWeekNumber":"function()"{return"".concat()},"formatWeekdayName":"function()"{"return()(0,a.WU)"},"formatYearCaption":"functio...
@@ -574,18 +581,19 @@ This document is entirely auto-generated and may contain errors.<br>
 | Zar        | Zar     |
 | Zmw        | Zmw     |
 
-| constant           | value              |
-|:-------------------|:-------------------|
-| ContactSupport     | ContactSupport     |
-| Deposit            | Deposit            |
-| GetPremium         | GetPremium         |
-| KycDocumentUpload  | KycDocumentUpload  |
-| KycVerification    | KycVerification    |
-| LearnMore          | LearnMore          |
-| Questionnaire      | Questionnaire      |
-| SelfieVerification | SelfieVerification |
-| SetupPasskey       | SetupPasskey       |
-| VerifyPasskey      | VerifyPasskey      |
+| constant                 | value                    |
+|:-------------------------|:-------------------------|
+| ContactSupport           | ContactSupport           |
+| Deposit                  | Deposit                  |
+| GetPremium               | GetPremium               |
+| KycDocumentUpload        | KycDocumentUpload        |
+| KycVerification          | KycVerification          |
+| LearnMore                | LearnMore                |
+| Questionnaire            | Questionnaire            |
+| SelfieVerification       | SelfieVerification       |
+| SetupPasskey             | SetupPasskey             |
+| SetupPublicKeyCredential | SetupPublicKeyCredential |
+| VerifyPasskey            | VerifyPasskey            |
 
 | constant   | value   |
 |:-----------|:--------|
@@ -683,6 +691,8 @@ This document is entirely auto-generated and may contain errors.<br>
 |:-----------|:--------|
 | Ach        | Ach     |
 | Aft        | Aft     |
+| Cash       | Cash    |
+| Check      | Check   |
 | FedNow     | FedNow  |
 | Rtp        | Rtp     |
 

@@ -134,6 +134,12 @@
     "VIDEO": "VIDEO",
     "SHORT_VIDEO": "SHORT_VIDEO"
   },
+  {
+    "large": "54",
+    "medium": "46",
+    "small": "36",
+    "xSmall": "12"
+  },
   "{\"__proto__\":\"null\",\"formatCaption\":\"function()\"{\"return()(0,a.WU)\"},\"formatDay\":\"function()\"{\"return()(0,a.WU)\"},\"formatMonthCaption\":\"function()\"{\"return()(0,a.WU)\"},\"formatWeekNumber\":\"function()\"{return\"\".concat()},\"formatWeekdayName\":\"function()\"{\"return()(0,a.WU)\"},\"formatYearCaption\":\"function()\"{\"return()(0,a.WU)\"}}",
   "{\"__proto__\":\"null\",\"labelDay\":\"function()\"{\"return()(0,a.WU)\"},\"labelMonthDropdown\":\"function()\"{return\"Month: \"},\"labelNext\":\"function()\"{return\"Go to next month\"},\"labelPrevious\":\"function()\"{return\"Go to previous month\"},\"labelWeekNumber\":\"function()\"{return\"Week n. \".concat()},\"labelWeekday\":\"function()\"{\"return()(0,a.WU)\"},\"labelYearDropdown\":\"function()\"{return\"Year: \"}}",
   {
@@ -531,6 +537,7 @@
     "Questionnaire": "Questionnaire",
     "SelfieVerification": "SelfieVerification",
     "SetupPasskey": "SetupPasskey",
+    "SetupPublicKeyCredential": "SetupPublicKeyCredential",
     "VerifyPasskey": "VerifyPasskey"
   },
   {
@@ -617,6 +624,8 @@
   {
     "Ach": "Ach",
     "Aft": "Aft",
+    "Cash": "Cash",
+    "Check": "Check",
     "FedNow": "FedNow",
     "Rtp": "Rtp"
   },
