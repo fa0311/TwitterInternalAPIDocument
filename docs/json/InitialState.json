@@ -3811,7 +3811,7 @@
         "value": "false"
       },
       "xchat_max_group_size": {
-        "value": "200"
+        "value": "250"
       },
       "xchat_process_events_in_batch": {
         "value": "false"
@@ -7574,7 +7574,7 @@
           "value": "false"
         },
         "xchat_max_group_size": {
-          "value": "200"
+          "value": "250"
         },
         "xchat_process_events_in_batch": {
           "value": "false"
@@ -7634,7 +7634,7 @@
       "settingsVersion": "beeeb8a908efe9e1cec5e0f93f1c282e"
     },
     "debug": {},
-    "featureSetToken": "72e01a4e38ba10162157e84fb0fe2ed9ecaf46a4",
+    "featureSetToken": "2f948864e073d2a363d1bb5b92554bc787f7320e",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -7703,7 +7703,7 @@
   },
   "session": {
     "country": "XX",
-    "guestId": "175399571842255167",
+    "guestId": "175408212552207989",
     "hasCommunityMemberships": "false",
     "isActiveCreator": "false",
     "isLoaded": "false",
