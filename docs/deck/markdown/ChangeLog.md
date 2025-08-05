@@ -5561,3 +5561,15 @@
 - None<br>
 #### remove<br>
 - responsive_web_grok_android_image_download_mode<br>
+## 2025/08/04<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- responsive_web_grok_bio_auto_translation_in_followers_enabled<br>
+- responsive_web_grok_bio_auto_translation_in_search_is_enabled<br>
+#### remove<br>
+- None<br>
