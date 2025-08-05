@@ -6159,7 +6159,7 @@
           "value": "false"
         },
         "responsive_web_trends_ui_enable_new_sidebar": {
-          "value": "false"
+          "value": "true"
         },
         "responsive_web_trends_ui_top_articles": {
           "value": "true"
@@ -6974,7 +6974,7 @@
           "value": "true"
         },
         "subscriptions_upsells_analytics_fix_enabled": {
-          "value": "true"
+          "value": "false"
         },
         "subscriptions_upsells_analytics_profile_enabled": {
           "value": "true"
@@ -7643,7 +7643,7 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "beeeb8a908efe9e1cec5e0f93f1c282e"
+      "settingsVersion": "e4171afdbcdfe197c832d1604aee8e95"
     },
     "debug": {},
     "featureSetToken": "6182d51828b121299b8fe462866629d86fd220fd",
@@ -7715,7 +7715,7 @@
   },
   "session": {
     "country": "XX",
-    "guestId": "175434189012794129",
+    "guestId": "175442820512235133",
     "hasCommunityMemberships": "false",
     "isActiveCreator": "false",
     "isLoaded": "false",
