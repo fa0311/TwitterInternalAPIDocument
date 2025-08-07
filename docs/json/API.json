@@ -1734,8 +1734,8 @@
       }
     },
     "TweetResultByRestId": {
-      "url": "https://x.com/i/api/graphql/AioYAI9IijScid_OqgsXmA/TweetResultByRestId",
-      "queryId": "AioYAI9IijScid_OqgsXmA",
+      "url": "https://x.com/i/api/graphql/X4iv_qhDVG3loR-NEl54sg/TweetResultByRestId",
+      "queryId": "X4iv_qhDVG3loR-NEl54sg",
       "method": "GET",
       "features": {
         "creator_subscriptions_tweet_preview_api_enabled": true,
