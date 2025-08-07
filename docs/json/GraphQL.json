@@ -6242,7 +6242,7 @@
   {
     "n": "12497",
     "exports": {
-      "queryId": "AioYAI9IijScid_OqgsXmA",
+      "queryId": "X4iv_qhDVG3loR-NEl54sg",
       "operationName": "TweetResultByRestId",
       "operationType": "query",
       "metadata": {
@@ -17900,12 +17900,6 @@
           }
         }
       }
-    },
-    "func_name": "U",
-    "func_name_init": "C",
-    "query": {
-      "grokMode": "t",
-      "grokModelOptionId": "s"
     }
   },
   {
@@ -21298,12 +21292,6 @@
           }
         }
       }
-    },
-    "func_name": "U",
-    "func_name_init": "C",
-    "query": {
-      "grokMode": "t",
-      "grokModelOptionId": "s"
     }
   },
   {
@@ -21899,12 +21887,6 @@
           }
         }
       }
-    },
-    "func_name": "U",
-    "func_name_init": "C",
-    "query": {
-      "grokMode": "t",
-      "grokModelOptionId": "s"
     }
   },
   {
@@ -21986,12 +21968,6 @@
           }
         }
       }
-    },
-    "func_name": "U",
-    "func_name_init": "C",
-    "query": {
-      "grokMode": "t",
-      "grokModelOptionId": "s"
     }
   },
   {
