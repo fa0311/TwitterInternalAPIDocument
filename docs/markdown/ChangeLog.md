@@ -6614,3 +6614,21 @@
 - responsive_web_grok_bio_auto_translation_in_search_is_enabled<br>
 #### remove<br>
 - None<br>
+## 2025/08/06<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- payments_automated_direct_deposits_enabled<br>
+- responsive_web_trends_ui_sidebar_topic_id<br>
+- xchat_conversation_event_limit<br>
+- xchat_enable_message_requests<br>
+- xchat_hybrid_pull_eagerly_fetch_history_after_seconds<br>
+- xchat_inbox_conversation_event_limit<br>
+- xchat_inbox_conversation_limit<br>
+- rweb_age_assurance_flow_enabled<br>
+#### remove<br>
+- None<br>
