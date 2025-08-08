@@ -54,7 +54,7 @@
   {
     "n": "96417",
     "exports": {
-      "queryId": "84sAkQEMjHUiUjrCPROw3Q",
+      "queryId": "8dBWrkFA2dLFtfZcv6ULaA",
       "operationName": "BlockedAccountsAll",
       "operationType": "query",
       "metadata": {
@@ -91,6 +91,7 @@
           "longform_notetweets_rich_text_read_enabled",
           "longform_notetweets_inline_media_enabled",
           "responsive_web_grok_image_annotation_enabled",
+          "responsive_web_grok_imagine_annotation_enabled",
           "responsive_web_grok_community_note_auto_translation_is_enabled",
           "responsive_web_enhance_cards_enabled"
         ],
@@ -198,6 +199,9 @@
           "responsive_web_grok_image_annotation_enabled": {
             "value": "true"
           },
+          "responsive_web_grok_imagine_annotation_enabled": {
+            "value": "true"
+          },
           "responsive_web_grok_community_note_auto_translation_is_enabled": {
             "value": "false"
           },
@@ -211,7 +215,7 @@
   {
     "n": "33566",
     "exports": {
-      "queryId": "iVuWkGrqUS00gsO5snPa6Q",
+      "queryId": "PykeBmmFQYK71CBXoz8D_w",
       "operationName": "BlockedAccountsImported",
       "operationType": "query",
       "metadata": {
@@ -248,6 +252,7 @@
           "longform_notetweets_rich_text_read_enabled",
           "longform_notetweets_inline_media_enabled",
           "responsive_web_grok_image_annotation_enabled",
+          "responsive_web_grok_imagine_annotation_enabled",
           "responsive_web_grok_community_note_auto_translation_is_enabled",
           "responsive_web_enhance_cards_enabled"
         ],
@@ -355,6 +360,9 @@
           "responsive_web_grok_image_annotation_enabled": {
             "value": "true"
           },
+          "responsive_web_grok_imagine_annotation_enabled": {
+            "value": "true"
+          },
           "responsive_web_grok_community_note_auto_translation_is_enabled": {
             "value": "false"
           },
@@ -368,7 +376,7 @@
   {
     "n": "64827",
     "exports": {
-      "queryId": "GsMxn77VYuoDiYg0vvD_Bg",
+      "queryId": "K3qjpJmiW2tjWAOyKnQynQ",
       "operationName": "BlueVerifiedFollowers",
       "operationType": "query",
       "metadata": {
@@ -405,6 +413,7 @@
           "longform_notetweets_rich_text_read_enabled",
           "longform_notetweets_inline_media_enabled",
           "responsive_web_grok_image_annotation_enabled",
+          "responsive_web_grok_imagine_annotation_enabled",
           "responsive_web_grok_community_note_auto_translation_is_enabled",
           "responsive_web_enhance_cards_enabled"
         ],
@@ -512,6 +521,9 @@
           "responsive_web_grok_image_annotation_enabled": {
             "value": "true"
           },
+          "responsive_web_grok_imagine_annotation_enabled": {
+            "value": "true"
+          },
           "responsive_web_grok_community_note_auto_translation_is_enabled": {
             "value": "false"
           },
@@ -525,7 +537,7 @@
   {
     "n": "20322",
     "exports": {
-      "queryId": "Qb1R4aliMRyvvyzFZrRRLw",
+      "queryId": "L4CqzcagG4Y4WK9bEpp33Q",
       "operationName": "BookmarkSearchTimeline",
       "operationType": "query",
       "metadata": {
@@ -562,6 +574,7 @@
           "longform_notetweets_rich_text_read_enabled",
           "longform_notetweets_inline_media_enabled",
           "responsive_web_grok_image_annotation_enabled",
+          "responsive_web_grok_imagine_annotation_enabled",
           "responsive_web_grok_community_note_auto_translation_is_enabled",
           "responsive_web_enhance_cards_enabled"
         ],
@@ -669,6 +682,9 @@
           "responsive_web_grok_image_annotation_enabled": {
             "value": "true"
           },
+          "responsive_web_grok_imagine_annotation_enabled": {
+            "value": "true"
+          },
           "responsive_web_grok_community_note_auto_translation_is_enabled": {
             "value": "false"
           },
@@ -682,7 +698,7 @@
   {
     "n": "93385",
     "exports": {
-      "queryId": "3IU6Vp2rd0UEb8rlvUjnMw",
+      "queryId": "dsWBUTcVBxc5bUiRLwISQQ",
       "operationName": "BroadcastQuery",
       "operationType": "query",
       "metadata": {
@@ -717,6 +733,7 @@
           "longform_notetweets_rich_text_read_enabled",
           "longform_notetweets_inline_media_enabled",
           "responsive_web_grok_image_annotation_enabled",
+          "responsive_web_grok_imagine_annotation_enabled",
           "responsive_web_grok_community_note_auto_translation_is_enabled",
           "responsive_web_graphql_timeline_navigation_enabled",
           "responsive_web_enhance_cards_enabled"
@@ -819,6 +836,9 @@
           "responsive_web_grok_image_annotation_enabled": {
             "value": "true"
           },
+          "responsive_web_grok_imagine_annotation_enabled": {
+            "value": "true"
+          },
           "responsive_web_grok_community_note_auto_translation_is_enabled": {
             "value": "false"
           },
@@ -877,7 +897,7 @@
   {
     "n": "11808",
     "exports": {
-      "queryId": "nN8Iot0f4Ow93Q1ZNQPauA",
+      "queryId": "sIGDKBm8nprw380Qqi0s3w",
       "operationName": "ConnectTabTimeline",
       "operationType": "query",
       "metadata": {
@@ -914,6 +934,7 @@
           "longform_notetweets_rich_text_read_enabled",
           "longform_notetweets_inline_media_enabled",
           "responsive_web_grok_image_annotation_enabled",
+          "responsive_web_grok_imagine_annotation_enabled",
           "responsive_web_grok_community_note_auto_translation_is_enabled",
           "responsive_web_enhance_cards_enabled"
         ],
@@ -1019,6 +1040,9 @@
             "value": "true"
           },
           "responsive_web_grok_image_annotation_enabled": {
+            "value": "true"
+          },
+          "responsive_web_grok_imagine_annotation_enabled": {
             "value": "true"
           },
           "responsive_web_grok_community_note_auto_translation_is_enabled": {
@@ -1086,7 +1110,7 @@
   {
     "n": "724",
     "exports": {
-      "queryId": "_gro0zD6ntAjnlla1zpk0w",
+      "queryId": "RN5XGjtofd8bsSOAcL-RbA",
       "operationName": "CreateNoteTweet",
       "operationType": "mutation",
       "metadata": {
@@ -1121,6 +1145,7 @@
           "standardized_nudges_misinfo",
           "tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled",
           "responsive_web_grok_image_annotation_enabled",
+          "responsive_web_grok_imagine_annotation_enabled",
           "responsive_web_graphql_timeline_navigation_enabled",
           "responsive_web_enhance_cards_enabled"
         ],
@@ -1222,6 +1247,9 @@
           "responsive_web_grok_image_annotation_enabled": {
             "value": "true"
           },
+          "responsive_web_grok_imagine_annotation_enabled": {
+            "value": "true"
+          },
           "responsive_web_graphql_timeline_navigation_enabled": {
             "value": "true"
           },
@@ -1248,7 +1276,7 @@
   {
     "n": "95240",
     "exports": {
-      "queryId": "JkdWs-iuIfbd3ErLgj8xmw",
+      "queryId": "o2YajdmMCgoZ1933RZphDw",
       "operationName": "CreateTweet",
       "operationType": "mutation",
       "metadata": {
@@ -1283,6 +1311,7 @@
           "standardized_nudges_misinfo",
           "tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled",
           "responsive_web_grok_image_annotation_enabled",
+          "responsive_web_grok_imagine_annotation_enabled",
           "responsive_web_graphql_timeline_navigation_enabled",
           "responsive_web_enhance_cards_enabled"
         ],
@@ -1384,6 +1413,9 @@
           "responsive_web_grok_image_annotation_enabled": {
             "value": "true"
           },
+          "responsive_web_grok_imagine_annotation_enabled": {
+            "value": "true"
+          },
           "responsive_web_graphql_timeline_navigation_enabled": {
             "value": "true"
           },
@@ -1397,7 +1429,7 @@
   {
     "n": "40742",
     "exports": {
-      "queryId": "5BSExPTU_jqZo1ZGcJpDLw",
+      "queryId": "_SufpvdCGxEGvxisqea1hA",
       "operationName": "CreatorSubscriptionsTimeline",
       "operationType": "query",
       "metadata": {
@@ -1434,6 +1466,7 @@
           "longform_notetweets_rich_text_read_enabled",
           "longform_notetweets_inline_media_enabled",
           "responsive_web_grok_image_annotation_enabled",
+          "responsive_web_grok_imagine_annotation_enabled",
           "responsive_web_grok_community_note_auto_translation_is_enabled",
           "responsive_web_enhance_cards_enabled"
         ],
@@ -1539,6 +1572,9 @@
             "value": "true"
           },
           "responsive_web_grok_image_annotation_enabled": {
+            "value": "true"
+          },
+          "responsive_web_grok_imagine_annotation_enabled": {
             "value": "true"
           },
           "responsive_web_grok_community_note_auto_translation_is_enabled": {
@@ -1697,7 +1733,7 @@
   {
     "n": "79672",
     "exports": {
-      "queryId": "-y7WLGKHCT8CzbTjlGm47Q",
+      "queryId": "HkxDVTRsZ5YnOBF-h5FLeQ",
       "operationName": "ExplorePage",
       "operationType": "query",
       "metadata": {
@@ -1734,6 +1770,7 @@
           "longform_notetweets_rich_text_read_enabled",
           "longform_notetweets_inline_media_enabled",
           "responsive_web_grok_image_annotation_enabled",
+          "responsive_web_grok_imagine_annotation_enabled",
           "responsive_web_grok_community_note_auto_translation_is_enabled",
           "responsive_web_enhance_cards_enabled"
         ],
@@ -1841,6 +1878,9 @@
           "responsive_web_grok_image_annotation_enabled": {
             "value": "true"
           },
+          "responsive_web_grok_imagine_annotation_enabled": {
+            "value": "true"
+          },
           "responsive_web_grok_community_note_auto_translation_is_enabled": {
             "value": "false"
           },
@@ -1854,7 +1894,7 @@
   {
     "n": "02980",
     "exports": {
-      "queryId": "iOQedal8vBT76cjRuZhzzA",
+      "queryId": "vLDNJiXMGrK1eNu7GeVL2Q",
       "operationName": "ExploreSidebar",
       "operationType": "query",
       "metadata": {
@@ -1891,6 +1931,7 @@
           "longform_notetweets_rich_text_read_enabled",
           "longform_notetweets_inline_media_enabled",
           "responsive_web_grok_image_annotation_enabled",
+          "responsive_web_grok_imagine_annotation_enabled",
           "responsive_web_grok_community_note_auto_translation_is_enabled",
           "responsive_web_enhance_cards_enabled"
         ],
@@ -1998,6 +2039,9 @@
           "responsive_web_grok_image_annotation_enabled": {
             "value": "true"
           },
+          "responsive_web_grok_imagine_annotation_enabled": {
+            "value": "true"
+          },
           "responsive_web_grok_community_note_auto_translation_is_enabled": {
             "value": "false"
           },
@@ -2024,7 +2068,7 @@
   {
     "n": "21513",
     "exports": {
-      "queryId": "V9yYGyqtHN0_fTlYzcw3Tg",
+      "queryId": "mCKZXEfy1vBxKiWEddhRDA",
       "operationName": "Followers",
       "operationType": "query",
       "metadata": {
@@ -2061,6 +2105,7 @@
           "longform_notetweets_rich_text_read_enabled",
           "longform_notetweets_inline_media_enabled",
           "responsive_web_grok_image_annotation_enabled",
+          "responsive_web_grok_imagine_annotation_enabled",
           "responsive_web_grok_community_note_auto_translation_is_enabled",
           "responsive_web_enhance_cards_enabled"
         ],
@@ -2168,6 +2213,9 @@
           "responsive_web_grok_image_annotation_enabled": {
             "value": "true"
           },
+          "responsive_web_grok_imagine_annotation_enabled": {
+            "value": "true"
+          },
           "responsive_web_grok_community_note_auto_translation_is_enabled": {
             "value": "false"
           },
@@ -2181,7 +2229,7 @@
   {
     "n": "62014",
     "exports": {
-      "queryId": "JkCJ-LfKFglXFSNzQzzBqg",
+      "queryId": "vab2kJw7Z1Nyz1lh0ANTVA",
       "operationName": "FollowersYouKnow",
       "operationType": "query",
       "metadata": {
@@ -2218,6 +2266,7 @@
           "longform_notetweets_rich_text_read_enabled",
           "longform_notetweets_inline_media_enabled",
           "responsive_web_grok_image_annotation_enabled",
+          "responsive_web_grok_imagine_annotation_enabled",
           "responsive_web_grok_community_note_auto_translation_is_enabled",
           "responsive_web_enhance_cards_enabled"
         ],
@@ -2325,6 +2374,9 @@
           "responsive_web_grok_image_annotation_enabled": {
             "value": "true"
           },
+          "responsive_web_grok_imagine_annotation_enabled": {
+            "value": "true"
+          },
           "responsive_web_grok_community_note_auto_translation_is_enabled": {
             "value": "false"
           },
@@ -2338,7 +2390,7 @@
   {
     "n": "24570",
     "exports": {
-      "queryId": "_US9QfcCl8lQzQmVLAJC6Q",
+      "queryId": "HiVckx-N4J3whIKFTiHdLw",
       "operationName": "Following",
       "operationType": "query",
       "metadata": {
@@ -2375,6 +2427,7 @@
           "longform_notetweets_rich_text_read_enabled",
           "longform_notetweets_inline_media_enabled",
           "responsive_web_grok_image_annotation_enabled",
+          "responsive_web_grok_imagine_annotation_enabled",
           "responsive_web_grok_community_note_auto_translation_is_enabled",
           "responsive_web_enhance_cards_enabled"
         ],
@@ -2482,6 +2535,9 @@
           "responsive_web_grok_image_annotation_enabled": {
             "value": "true"
           },
+          "responsive_web_grok_imagine_annotation_enabled": {
+            "value": "true"
+          },
           "responsive_web_grok_community_note_auto_translation_is_enabled": {
             "value": "false"
           },
@@ -2508,7 +2564,7 @@
   {
     "n": "55939",
     "exports": {
-      "queryId": "tukb9jFvf_dcvmSsRLm0WA",
+      "queryId": "VYT5lw3NgZ8Fry_JK3h0hQ",
       "operationName": "GenericTimelineById",
       "operationType": "query",
       "metadata": {
@@ -2545,6 +2601,7 @@
           "longform_notetweets_rich_text_read_enabled",
           "longform_notetweets_inline_media_enabled",
           "responsive_web_grok_image_annotation_enabled",
+          "responsive_web_grok_imagine_annotation_enabled",
           "responsive_web_grok_community_note_auto_translation_is_enabled",
           "responsive_web_enhance_cards_enabled"
         ],
@@ -2652,6 +2709,9 @@
           "responsive_web_grok_image_annotation_enabled": {
             "value": "true"
           },
+          "responsive_web_grok_imagine_annotation_enabled": {
+            "value": "true"
+          },
           "responsive_web_grok_community_note_auto_translation_is_enabled": {
             "value": "false"
           },
@@ -2665,7 +2725,7 @@
   {
     "n": "31083",
     "exports": {
-      "queryId": "_S53VvBvAj-FtpaDp27qZg",
+      "queryId": "FsQIsL1UfaJuDsUTK4TcsA",
       "operationName": "GlobalCommunitiesLatestPostSearchTimeline",
       "operationType": "query",
       "metadata": {
@@ -2702,6 +2762,7 @@
           "longform_notetweets_rich_text_read_enabled",
           "longform_notetweets_inline_media_enabled",
           "responsive_web_grok_image_annotation_enabled",
+          "responsive_web_grok_imagine_annotation_enabled",
           "responsive_web_grok_community_note_auto_translation_is_enabled",
           "responsive_web_enhance_cards_enabled"
         ],
@@ -2809,6 +2870,9 @@
           "responsive_web_grok_image_annotation_enabled": {
             "value": "true"
           },
+          "responsive_web_grok_imagine_annotation_enabled": {
+            "value": "true"
+          },
           "responsive_web_grok_community_note_auto_translation_is_enabled": {
             "value": "false"
           },
@@ -2822,7 +2886,7 @@
   {
     "n": "52757",
     "exports": {
-      "queryId": "YRR8uFedUoLCdgsP41c6bw",
+      "queryId": "0-2uM3zDTyLg2nS5ADAnyA",
       "operationName": "GlobalCommunitiesPostSearchTimeline",
       "operationType": "query",
       "metadata": {
@@ -2859,6 +2923,7 @@
           "longform_notetweets_rich_text_read_enabled",
           "longform_notetweets_inline_media_enabled",
           "responsive_web_grok_image_annotation_enabled",
+          "responsive_web_grok_imagine_annotation_enabled",
           "responsive_web_grok_community_note_auto_translation_is_enabled",
           "responsive_web_enhance_cards_enabled"
         ],
@@ -2966,6 +3031,9 @@
           "responsive_web_grok_image_annotation_enabled": {
             "value": "true"
           },
+          "responsive_web_grok_imagine_annotation_enabled": {
+            "value": "true"
+          },
           "responsive_web_grok_community_note_auto_translation_is_enabled": {
             "value": "false"
           },
@@ -2979,7 +3047,7 @@
   {
     "n": "08513",
     "exports": {
-      "queryId": "UEEAUMlkJ6IyECR4XDbmMw",
+      "queryId": "ZRo7GMdyzBRcT12ZcrEOhA",
       "operationName": "HomeLatestTimeline",
       "operationType": "query",
       "metadata": {
@@ -3016,6 +3084,7 @@
           "longform_notetweets_rich_text_read_enabled",
           "longform_notetweets_inline_media_enabled",
           "responsive_web_grok_image_annotation_enabled",
+          "responsive_web_grok_imagine_annotation_enabled",
           "responsive_web_grok_community_note_auto_translation_is_enabled",
           "responsive_web_enhance_cards_enabled"
         ],
@@ -3123,6 +3192,9 @@
           "responsive_web_grok_image_annotation_enabled": {
             "value": "true"
           },
+          "responsive_web_grok_imagine_annotation_enabled": {
+            "value": "true"
+          },
           "responsive_web_grok_community_note_auto_translation_is_enabled": {
             "value": "false"
           },
@@ -3136,7 +3208,7 @@
   {
     "n": "99219",
     "exports": {
-      "queryId": "A50ZIlau_SQIF7rCYQI9Ow",
+      "queryId": "HKdIaOzMQ2clMt0zaW2JOg",
       "operationName": "HomeTimeline",
       "operationType": "query",
       "metadata": {
@@ -3173,6 +3245,7 @@
           "longform_notetweets_rich_text_read_enabled",
           "longform_notetweets_inline_media_enabled",
           "responsive_web_grok_image_annotation_enabled",
+          "responsive_web_grok_imagine_annotation_enabled",
           "responsive_web_grok_community_note_auto_translation_is_enabled",
           "responsive_web_enhance_cards_enabled"
         ],
@@ -3280,6 +3353,9 @@
           "responsive_web_grok_image_annotation_enabled": {
             "value": "true"
           },
+          "responsive_web_grok_imagine_annotation_enabled": {
+            "value": "true"
+          },
           "responsive_web_grok_community_note_auto_translation_is_enabled": {
             "value": "false"
           },
@@ -3293,7 +3369,7 @@
   {
     "n": "10920",
     "exports": {
-      "queryId": "9bLLaabwJUjWuqw5h0PGvQ",
+      "queryId": "A1SbgzyeCaiD0Mf7WOQNfw",
       "operationName": "Likes",
       "operationType": "query",
       "metadata": {
@@ -3330,6 +3406,7 @@
           "longform_notetweets_rich_text_read_enabled",
           "longform_notetweets_inline_media_enabled",
           "responsive_web_grok_image_annotation_enabled",
+          "responsive_web_grok_imagine_annotation_enabled",
           "responsive_web_grok_community_note_auto_translation_is_enabled",
           "responsive_web_enhance_cards_enabled"
         ],
@@ -3437,6 +3514,9 @@
           "responsive_web_grok_image_annotation_enabled": {
             "value": "true"
           },
+          "responsive_web_grok_imagine_annotation_enabled": {
+            "value": "true"
+          },
           "responsive_web_grok_community_note_auto_translation_is_enabled": {
             "value": "false"
           },
@@ -3450,7 +3530,7 @@
   {
     "n": "21783",
     "exports": {
-      "queryId": "vdIX6mzI26MJWcMsD7QrAw",
+      "queryId": "E05JxWz2So_qHJuUYiZzQg",
       "operationName": "ListSearchTimeline",
       "operationType": "query",
       "metadata": {
@@ -3487,6 +3567,7 @@
           "longform_notetweets_rich_text_read_enabled",
           "longform_notetweets_inline_media_enabled",
           "responsive_web_grok_image_annotation_enabled",
+          "responsive_web_grok_imagine_annotation_enabled",
           "responsive_web_grok_community_note_auto_translation_is_enabled",
           "responsive_web_enhance_cards_enabled"
         ],
@@ -3594,6 +3675,9 @@
           "responsive_web_grok_image_annotation_enabled": {
             "value": "true"
           },
+          "responsive_web_grok_imagine_annotation_enabled": {
+            "value": "true"
+          },
           "responsive_web_grok_community_note_auto_translation_is_enabled": {
             "value": "false"
           },
@@ -3607,7 +3691,7 @@
   {
     "n": "47183",
     "exports": {
-      "queryId": "qr_Qowj5ASW0oZGCG01LCg",
+      "queryId": "9RgslcebgE_VOD1UlXuxLw",
       "operationName": "MediaTabVideoMixer",
       "operationType": "query",
       "metadata": {
@@ -3644,6 +3728,7 @@
           "longform_notetweets_rich_text_read_enabled",
           "longform_notetweets_inline_media_enabled",
           "responsive_web_grok_image_annotation_enabled",
+          "responsive_web_grok_imagine_annotation_enabled",
           "responsive_web_grok_community_note_auto_translation_is_enabled",
           "responsive_web_enhance_cards_enabled"
         ],
@@ -3751,6 +3836,9 @@
           "responsive_web_grok_image_annotation_enabled": {
             "value": "true"
           },
+          "responsive_web_grok_imagine_annotation_enabled": {
+            "value": "true"
+          },
           "responsive_web_grok_community_note_auto_translation_is_enabled": {
             "value": "false"
           },
@@ -3777,7 +3865,7 @@
   {
     "n": "84020",
     "exports": {
-      "queryId": "kWkXRb01mTlUCK7gvgcCMQ",
+      "queryId": "eJ6lWFw7iN38KLg4pmpMMA",
       "operationName": "ModeratedTimeline",
       "operationType": "query",
       "metadata": {
@@ -3814,6 +3902,7 @@
           "longform_notetweets_rich_text_read_enabled",
           "longform_notetweets_inline_media_enabled",
           "responsive_web_grok_image_annotation_enabled",
+          "responsive_web_grok_imagine_annotation_enabled",
           "responsive_web_grok_community_note_auto_translation_is_enabled",
           "responsive_web_enhance_cards_enabled"
         ],
@@ -3921,6 +4010,9 @@
           "responsive_web_grok_image_annotation_enabled": {
             "value": "true"
           },
+          "responsive_web_grok_imagine_annotation_enabled": {
+            "value": "true"
+          },
           "responsive_web_grok_community_note_auto_translation_is_enabled": {
             "value": "false"
           },
@@ -3934,7 +4026,7 @@
   {
     "n": "70754",
     "exports": {
-      "queryId": "C1HtheEgA1EHHvH6L26XLg",
+      "queryId": "E_4OuA3QTf_G545qgyMWag",
       "operationName": "MutedAccounts",
       "operationType": "query",
       "metadata": {
@@ -3971,6 +4063,7 @@
           "longform_notetweets_rich_text_read_enabled",
           "longform_notetweets_inline_media_enabled",
           "responsive_web_grok_image_annotation_enabled",
+          "responsive_web_grok_imagine_annotation_enabled",
           "responsive_web_grok_community_note_auto_translation_is_enabled",
           "responsive_web_enhance_cards_enabled"
         ],
@@ -4076,6 +4169,9 @@
             "value": "true"
           },
           "responsive_web_grok_image_annotation_enabled": {
+            "value": "true"
+          },
+          "responsive_web_grok_imagine_annotation_enabled": {
             "value": "true"
           },
           "responsive_web_grok_community_note_auto_translation_is_enabled": {
@@ -4254,7 +4350,7 @@
   {
     "n": "95926",
     "exports": {
-      "queryId": "HcBGTboegpvk1pUZNK6W-Q",
+      "queryId": "NiZ1seU-Qm1TUiThEaWXKA",
       "operationName": "SearchTimeline",
       "operationType": "query",
       "metadata": {
@@ -4291,6 +4387,7 @@
           "longform_notetweets_rich_text_read_enabled",
           "longform_notetweets_inline_media_enabled",
           "responsive_web_grok_image_annotation_enabled",
+          "responsive_web_grok_imagine_annotation_enabled",
           "responsive_web_grok_community_note_auto_translation_is_enabled",
           "responsive_web_enhance_cards_enabled"
         ],
@@ -4398,6 +4495,9 @@
           "responsive_web_grok_image_annotation_enabled": {
             "value": "true"
           },
+          "responsive_web_grok_imagine_annotation_enabled": {
+            "value": "true"
+          },
           "responsive_web_grok_community_note_auto_translation_is_enabled": {
             "value": "false"
           },
@@ -4424,7 +4524,7 @@
   {
     "n": "72310",
     "exports": {
-      "queryId": "JXIGMjgcUohX_fUFtfceNA",
+      "queryId": "3uPRr_0_ZYbbWU06sUtdvg",
       "operationName": "SimilarPosts",
       "operationType": "query",
       "metadata": {
@@ -4461,6 +4561,7 @@
           "longform_notetweets_rich_text_read_enabled",
           "longform_notetweets_inline_media_enabled",
           "responsive_web_grok_image_annotation_enabled",
+          "responsive_web_grok_imagine_annotation_enabled",
           "responsive_web_grok_community_note_auto_translation_is_enabled",
           "responsive_web_enhance_cards_enabled"
         ],
@@ -4568,6 +4669,9 @@
           "responsive_web_grok_image_annotation_enabled": {
             "value": "true"
           },
+          "responsive_web_grok_imagine_annotation_enabled": {
+            "value": "true"
+          },
           "responsive_web_grok_community_note_auto_translation_is_enabled": {
             "value": "false"
           },
@@ -4581,7 +4685,7 @@
   {
     "n": "20025",
     "exports": {
-      "queryId": "LHmOIm_e2Jg_77Pg8oA8cA",
+      "queryId": "OOKoUEPf-eP6So13NtDohw",
       "operationName": "SuperFollowers",
       "operationType": "query",
       "metadata": {
@@ -4618,6 +4722,7 @@
           "longform_notetweets_rich_text_read_enabled",
           "longform_notetweets_inline_media_enabled",
           "responsive_web_grok_image_annotation_enabled",
+          "responsive_web_grok_imagine_annotation_enabled",
           "responsive_web_grok_community_note_auto_translation_is_enabled",
           "responsive_web_enhance_cards_enabled"
         ],
@@ -4723,6 +4828,9 @@
             "value": "true"
           },
           "responsive_web_grok_image_annotation_enabled": {
+            "value": "true"
+          },
+          "responsive_web_grok_imagine_annotation_enabled": {
             "value": "true"
           },
           "responsive_web_grok_community_note_auto_translation_is_enabled": {
@@ -4777,7 +4885,7 @@
   {
     "n": "04235",
     "exports": {
-      "queryId": "Vh9eVNmPGu123qHU8yrJjA",
+      "queryId": "Muvm-7VP8CiW9JJauFqUTA",
       "operationName": "TopicLandingPage",
       "operationType": "query",
       "metadata": {
@@ -4814,6 +4922,7 @@
           "longform_notetweets_rich_text_read_enabled",
           "longform_notetweets_inline_media_enabled",
           "responsive_web_grok_image_annotation_enabled",
+          "responsive_web_grok_imagine_annotation_enabled",
           "responsive_web_grok_community_note_auto_translation_is_enabled",
           "responsive_web_enhance_cards_enabled"
         ],
@@ -4919,6 +5028,9 @@
             "value": "true"
           },
           "responsive_web_grok_image_annotation_enabled": {
+            "value": "true"
+          },
+          "responsive_web_grok_imagine_annotation_enabled": {
             "value": "true"
           },
           "responsive_web_grok_community_note_auto_translation_is_enabled": {
@@ -4960,7 +5072,7 @@
   {
     "n": "24905",
     "exports": {
-      "queryId": "3XNcpgGo2vbtx0ZotaFsww",
+      "queryId": "UyDE7_uPZm-xP4gzKjdmCw",
       "operationName": "TopicToFollowSidebar",
       "operationType": "query",
       "metadata": {
@@ -4997,6 +5109,7 @@
           "longform_notetweets_rich_text_read_enabled",
           "longform_notetweets_inline_media_enabled",
           "responsive_web_grok_image_annotation_enabled",
+          "responsive_web_grok_imagine_annotation_enabled",
           "responsive_web_grok_community_note_auto_translation_is_enabled",
           "responsive_web_enhance_cards_enabled"
         ],
@@ -5102,6 +5215,9 @@
             "value": "true"
           },
           "responsive_web_grok_image_annotation_enabled": {
+            "value": "true"
+          },
+          "responsive_web_grok_imagine_annotation_enabled": {
             "value": "true"
           },
           "responsive_web_grok_community_note_auto_translation_is_enabled": {
@@ -5143,7 +5259,7 @@
   {
     "n": "49217",
     "exports": {
-      "queryId": "jHPsRJMNGpyoUNkY9QG1ng",
+      "queryId": "SBefbR0mgOTYjZJNaH78Bg",
       "operationName": "TopicsManagementPage",
       "operationType": "query",
       "metadata": {
@@ -5180,6 +5296,7 @@
           "longform_notetweets_rich_text_read_enabled",
           "longform_notetweets_inline_media_enabled",
           "responsive_web_grok_image_annotation_enabled",
+          "responsive_web_grok_imagine_annotation_enabled",
           "responsive_web_grok_community_note_auto_translation_is_enabled",
           "responsive_web_enhance_cards_enabled"
         ],
@@ -5287,6 +5404,9 @@
           "responsive_web_grok_image_annotation_enabled": {
             "value": "true"
           },
+          "responsive_web_grok_imagine_annotation_enabled": {
+            "value": "true"
+          },
           "responsive_web_grok_community_note_auto_translation_is_enabled": {
             "value": "false"
           },
@@ -5300,7 +5420,7 @@
   {
     "n": "80348",
     "exports": {
-      "queryId": "cD9V1E6bNFX0vD5F2_yJMA",
+      "queryId": "japluIbwxOxDhPg0IGI2Sw",
       "operationName": "TopicsPickerPage",
       "operationType": "query",
       "metadata": {
@@ -5337,6 +5457,7 @@
           "longform_notetweets_rich_text_read_enabled",
           "longform_notetweets_inline_media_enabled",
           "responsive_web_grok_image_annotation_enabled",
+          "responsive_web_grok_imagine_annotation_enabled",
           "responsive_web_grok_community_note_auto_translation_is_enabled",
           "responsive_web_enhance_cards_enabled"
         ],
@@ -5444,6 +5565,9 @@
           "responsive_web_grok_image_annotation_enabled": {
             "value": "true"
           },
+          "responsive_web_grok_imagine_annotation_enabled": {
+            "value": "true"
+          },
           "responsive_web_grok_community_note_auto_translation_is_enabled": {
             "value": "false"
           },
@@ -5457,7 +5581,7 @@
   {
     "n": "88424",
     "exports": {
-      "queryId": "41CKhuCojqL4ekNT3z20Fw",
+      "queryId": "MlPMxRIa4keiDLXZFE2FaQ",
       "operationName": "TopicsPickerPageById",
       "operationType": "query",
       "metadata": {
@@ -5494,6 +5618,7 @@
           "longform_notetweets_rich_text_read_enabled",
           "longform_notetweets_inline_media_enabled",
           "responsive_web_grok_image_annotation_enabled",
+          "responsive_web_grok_imagine_annotation_enabled",
           "responsive_web_grok_community_note_auto_translation_is_enabled",
           "responsive_web_enhance_cards_enabled"
         ],
@@ -5601,6 +5726,9 @@
           "responsive_web_grok_image_annotation_enabled": {
             "value": "true"
           },
+          "responsive_web_grok_imagine_annotation_enabled": {
+            "value": "true"
+          },
           "responsive_web_grok_community_note_auto_translation_is_enabled": {
             "value": "false"
           },
@@ -5614,7 +5742,7 @@
   {
     "n": "39433",
     "exports": {
-      "queryId": "7VmpXML4XvrlW24S4OsDbA",
+      "queryId": "_T2Z818OeNM5Ynrm2Efnqg",
       "operationName": "TrendHistory",
       "operationType": "query",
       "metadata": {
@@ -5651,6 +5779,7 @@
           "longform_notetweets_rich_text_read_enabled",
           "longform_notetweets_inline_media_enabled",
           "responsive_web_grok_image_annotation_enabled",
+          "responsive_web_grok_imagine_annotation_enabled",
           "responsive_web_grok_community_note_auto_translation_is_enabled",
           "responsive_web_enhance_cards_enabled"
         ],
@@ -5758,6 +5887,9 @@
           "responsive_web_grok_image_annotation_enabled": {
             "value": "true"
           },
+          "responsive_web_grok_imagine_annotation_enabled": {
+            "value": "true"
+          },
           "responsive_web_grok_community_note_auto_translation_is_enabled": {
             "value": "false"
           },
@@ -5771,7 +5903,7 @@
   {
     "n": "87508",
     "exports": {
-      "queryId": "hBz4FtgOart-bxvT7UiNHA",
+      "queryId": "m1FewzVnDSgrJPL74rf-9g",
       "operationName": "TrendRelevantUsers",
       "operationType": "query",
       "metadata": {
@@ -5808,6 +5940,7 @@
           "longform_notetweets_rich_text_read_enabled",
           "longform_notetweets_inline_media_enabled",
           "responsive_web_grok_image_annotation_enabled",
+          "responsive_web_grok_imagine_annotation_enabled",
           "responsive_web_grok_community_note_auto_translation_is_enabled",
           "responsive_web_enhance_cards_enabled"
         ],
@@ -5915,6 +6048,9 @@
           "responsive_web_grok_image_annotation_enabled": {
             "value": "true"
           },
+          "responsive_web_grok_imagine_annotation_enabled": {
+            "value": "true"
+          },
           "responsive_web_grok_community_note_auto_translation_is_enabled": {
             "value": "false"
           },
@@ -5928,7 +6064,7 @@
   {
     "n": "77326",
     "exports": {
-      "queryId": "1eGFAV1G56w4S8H4_rdAWg",
+      "queryId": "5mCiDV_YWPKnBkhJR-8MPQ",
       "operationName": "TVHomeMixer",
       "operationType": "query",
       "metadata": {
@@ -5965,6 +6101,7 @@
           "longform_notetweets_rich_text_read_enabled",
           "longform_notetweets_inline_media_enabled",
           "responsive_web_grok_image_annotation_enabled",
+          "responsive_web_grok_imagine_annotation_enabled",
           "responsive_web_grok_community_note_auto_translation_is_enabled",
           "responsive_web_enhance_cards_enabled"
         ],
@@ -6072,6 +6209,9 @@
           "responsive_web_grok_image_annotation_enabled": {
             "value": "true"
           },
+          "responsive_web_grok_imagine_annotation_enabled": {
+            "value": "true"
+          },
           "responsive_web_grok_community_note_auto_translation_is_enabled": {
             "value": "false"
           },
@@ -6085,7 +6225,7 @@
   {
     "n": "96180",
     "exports": {
-      "queryId": "PBob-AbgCYLGEUo-vTHz5Q",
+      "queryId": "oEUIqhz9YZjZVpE5i68Sfg",
       "operationName": "TweetDetail",
       "operationType": "query",
       "metadata": {
@@ -6122,6 +6262,7 @@
           "longform_notetweets_rich_text_read_enabled",
           "longform_notetweets_inline_media_enabled",
           "responsive_web_grok_image_annotation_enabled",
+          "responsive_web_grok_imagine_annotation_enabled",
           "responsive_web_grok_community_note_auto_translation_is_enabled",
           "responsive_web_enhance_cards_enabled"
         ],
@@ -6229,6 +6370,9 @@
           "responsive_web_grok_image_annotation_enabled": {
             "value": "true"
           },
+          "responsive_web_grok_imagine_annotation_enabled": {
+            "value": "true"
+          },
           "responsive_web_grok_community_note_auto_translation_is_enabled": {
             "value": "false"
           },
@@ -6242,7 +6386,7 @@
   {
     "n": "12497",
     "exports": {
-      "queryId": "X4iv_qhDVG3loR-NEl54sg",
+      "queryId": "gbBo18jnmlP-Na0tVYgiZA",
       "operationName": "TweetResultByRestId",
       "operationType": "query",
       "metadata": {
@@ -6276,6 +6420,7 @@
           "rweb_tipjar_consumption_enabled",
           "verified_phone_label_enabled",
           "responsive_web_grok_image_annotation_enabled",
+          "responsive_web_grok_imagine_annotation_enabled",
           "responsive_web_grok_community_note_auto_translation_is_enabled",
           "responsive_web_graphql_skip_user_profile_image_extensions_enabled",
           "responsive_web_graphql_timeline_navigation_enabled",
@@ -6376,6 +6521,9 @@
           "responsive_web_grok_image_annotation_enabled": {
             "value": "true"
           },
+          "responsive_web_grok_imagine_annotation_enabled": {
+            "value": "true"
+          },
           "responsive_web_grok_community_note_auto_translation_is_enabled": {
             "value": "false"
           },
@@ -6395,7 +6543,7 @@
   {
     "n": "64093",
     "exports": {
-      "queryId": "whDjty6xpqjciq4gkM_e0A",
+      "queryId": "uCIXxahjfmVugcMwHUZGnQ",
       "operationName": "TweetResultsByRestIds",
       "operationType": "query",
       "metadata": {
@@ -6429,6 +6577,7 @@
           "rweb_tipjar_consumption_enabled",
           "verified_phone_label_enabled",
           "responsive_web_grok_image_annotation_enabled",
+          "responsive_web_grok_imagine_annotation_enabled",
           "responsive_web_grok_community_note_auto_translation_is_enabled",
           "responsive_web_graphql_skip_user_profile_image_extensions_enabled",
           "responsive_web_graphql_timeline_navigation_enabled",
@@ -6527,6 +6676,9 @@
             "value": "false"
           },
           "responsive_web_grok_image_annotation_enabled": {
+            "value": "true"
+          },
+          "responsive_web_grok_imagine_annotation_enabled": {
             "value": "true"
           },
           "responsive_web_grok_community_note_auto_translation_is_enabled": {
@@ -6664,7 +6816,7 @@
   {
     "n": "71810",
     "exports": {
-      "queryId": "h2b7HbnLs663RX-J7eSQCg",
+      "queryId": "HB2Z0rO9AEqznRS4VYdZTw",
       "operationName": "UrtFixtures",
       "operationType": "query",
       "metadata": {
@@ -6701,6 +6853,7 @@
           "longform_notetweets_rich_text_read_enabled",
           "longform_notetweets_inline_media_enabled",
           "responsive_web_grok_image_annotation_enabled",
+          "responsive_web_grok_imagine_annotation_enabled",
           "responsive_web_grok_community_note_auto_translation_is_enabled",
           "responsive_web_enhance_cards_enabled"
         ],
@@ -6808,6 +6961,9 @@
           "responsive_web_grok_image_annotation_enabled": {
             "value": "true"
           },
+          "responsive_web_grok_imagine_annotation_enabled": {
+            "value": "true"
+          },
           "responsive_web_grok_community_note_auto_translation_is_enabled": {
             "value": "false"
           },
@@ -6821,7 +6977,7 @@
   {
     "n": "32887",
     "exports": {
-      "queryId": "iKu1pnTTuiHJ7Iu5EirBZQ",
+      "queryId": "ZryI-sBS3dW69T64DMsHeg",
       "operationName": "UserArticlesTweets",
       "operationType": "query",
       "metadata": {
@@ -6858,6 +7014,7 @@
           "longform_notetweets_rich_text_read_enabled",
           "longform_notetweets_inline_media_enabled",
           "responsive_web_grok_image_annotation_enabled",
+          "responsive_web_grok_imagine_annotation_enabled",
           "responsive_web_grok_community_note_auto_translation_is_enabled",
           "responsive_web_enhance_cards_enabled"
         ],
@@ -6965,6 +7122,9 @@
           "responsive_web_grok_image_annotation_enabled": {
             "value": "true"
           },
+          "responsive_web_grok_imagine_annotation_enabled": {
+            "value": "true"
+          },
           "responsive_web_grok_community_note_auto_translation_is_enabled": {
             "value": "false"
           },
@@ -6978,7 +7138,7 @@
   {
     "n": "78260",
     "exports": {
-      "queryId": "1gKsmT1MQ9QLGYnLjNAodA",
+      "queryId": "1DZCkPOnJDjxCd1AUMWy6A",
       "operationName": "UserBusinessProfileTeamTimeline",
       "operationType": "query",
       "metadata": {
@@ -7015,6 +7175,7 @@
           "longform_notetweets_rich_text_read_enabled",
           "longform_notetweets_inline_media_enabled",
           "responsive_web_grok_image_annotation_enabled",
+          "responsive_web_grok_imagine_annotation_enabled",
           "responsive_web_grok_community_note_auto_translation_is_enabled",
           "responsive_web_enhance_cards_enabled"
         ],
@@ -7120,6 +7281,9 @@
             "value": "true"
           },
           "responsive_web_grok_image_annotation_enabled": {
+            "value": "true"
+          },
+          "responsive_web_grok_imagine_annotation_enabled": {
             "value": "true"
           },
           "responsive_web_grok_community_note_auto_translation_is_enabled": {
@@ -7286,7 +7450,7 @@
   {
     "n": "37768",
     "exports": {
-      "queryId": "C_0qtzLvqKjxSJGTLFoydg",
+      "queryId": "VtWDpEVvtuGQxlj2-HhbDA",
       "operationName": "UserCreatorSubscribers",
       "operationType": "query",
       "metadata": {
@@ -7323,6 +7487,7 @@
           "longform_notetweets_rich_text_read_enabled",
           "longform_notetweets_inline_media_enabled",
           "responsive_web_grok_image_annotation_enabled",
+          "responsive_web_grok_imagine_annotation_enabled",
           "responsive_web_grok_community_note_auto_translation_is_enabled",
           "responsive_web_enhance_cards_enabled"
         ],
@@ -7430,6 +7595,9 @@
           "responsive_web_grok_image_annotation_enabled": {
             "value": "true"
           },
+          "responsive_web_grok_imagine_annotation_enabled": {
+            "value": "true"
+          },
           "responsive_web_grok_community_note_auto_translation_is_enabled": {
             "value": "false"
           },
@@ -7443,7 +7611,7 @@
   {
     "n": "37038",
     "exports": {
-      "queryId": "eqO-ChK00rJZShWWUs6DpA",
+      "queryId": "66eDotfNQyveQ2OVyNv2OA",
       "operationName": "UserCreatorSubscriptions",
       "operationType": "query",
       "metadata": {
@@ -7480,6 +7648,7 @@
           "longform_notetweets_rich_text_read_enabled",
           "longform_notetweets_inline_media_enabled",
           "responsive_web_grok_image_annotation_enabled",
+          "responsive_web_grok_imagine_annotation_enabled",
           "responsive_web_grok_community_note_auto_translation_is_enabled",
           "responsive_web_enhance_cards_enabled"
         ],
@@ -7587,6 +7756,9 @@
           "responsive_web_grok_image_annotation_enabled": {
             "value": "true"
           },
+          "responsive_web_grok_imagine_annotation_enabled": {
+            "value": "true"
+          },
           "responsive_web_grok_community_note_auto_translation_is_enabled": {
             "value": "false"
           },
@@ -7600,7 +7772,7 @@
   {
     "n": "24585",
     "exports": {
-      "queryId": "ifPKIxZ1uokJwtzXGAwF7A",
+      "queryId": "ogMM3k04y6bOZ_inPoEshA",
       "operationName": "UserHighlightsTweets",
       "operationType": "query",
       "metadata": {
@@ -7637,6 +7809,7 @@
           "longform_notetweets_rich_text_read_enabled",
           "longform_notetweets_inline_media_enabled",
           "responsive_web_grok_image_annotation_enabled",
+          "responsive_web_grok_imagine_annotation_enabled",
           "responsive_web_grok_community_note_auto_translation_is_enabled",
           "responsive_web_enhance_cards_enabled"
         ],
@@ -7744,6 +7917,9 @@
           "responsive_web_grok_image_annotation_enabled": {
             "value": "true"
           },
+          "responsive_web_grok_imagine_annotation_enabled": {
+            "value": "true"
+          },
           "responsive_web_grok_community_note_auto_translation_is_enabled": {
             "value": "false"
           },
@@ -7757,7 +7933,7 @@
   {
     "n": "34287",
     "exports": {
-      "queryId": "FPQV7E4gDC_FpCcfLbVIQw",
+      "queryId": "i37jGHyIigpMN0nGvwOTXg",
       "operationName": "UserMedia",
       "operationType": "query",
       "metadata": {
@@ -7794,6 +7970,7 @@
           "longform_notetweets_rich_text_read_enabled",
           "longform_notetweets_inline_media_enabled",
           "responsive_web_grok_image_annotation_enabled",
+          "responsive_web_grok_imagine_annotation_enabled",
           "responsive_web_grok_community_note_auto_translation_is_enabled",
           "responsive_web_enhance_cards_enabled"
         ],
@@ -7901,6 +8078,9 @@
           "responsive_web_grok_image_annotation_enabled": {
             "value": "true"
           },
+          "responsive_web_grok_imagine_annotation_enabled": {
+            "value": "true"
+          },
           "responsive_web_grok_community_note_auto_translation_is_enabled": {
             "value": "false"
           },
@@ -7927,7 +8107,7 @@
   {
     "n": "07949",
     "exports": {
-      "queryId": "fgL8VaH1wXrsEDLwzujLCw",
+      "queryId": "NRvXPbNejY8vrvPEaPO3ZQ",
       "operationName": "UserPromotableTweets",
       "operationType": "query",
       "metadata": {
@@ -7964,6 +8144,7 @@
           "longform_notetweets_rich_text_read_enabled",
           "longform_notetweets_inline_media_enabled",
           "responsive_web_grok_image_annotation_enabled",
+          "responsive_web_grok_imagine_annotation_enabled",
           "responsive_web_grok_community_note_auto_translation_is_enabled",
           "responsive_web_enhance_cards_enabled"
         ],
@@ -8071,6 +8252,9 @@
           "responsive_web_grok_image_annotation_enabled": {
             "value": "true"
           },
+          "responsive_web_grok_imagine_annotation_enabled": {
+            "value": "true"
+          },
           "responsive_web_grok_community_note_auto_translation_is_enabled": {
             "value": "false"
           },
@@ -8097,7 +8281,7 @@
   {
     "n": "58275",
     "exports": {
-      "queryId": "Pv4kJffPHwMvT_C7KUItUg",
+      "queryId": "lwoFLk439VcNB5AVQKerfw",
       "operationName": "UserSuperFollowTweets",
       "operationType": "query",
       "metadata": {
@@ -8134,6 +8318,7 @@
           "longform_notetweets_rich_text_read_enabled",
           "longform_notetweets_inline_media_enabled",
           "responsive_web_grok_image_annotation_enabled",
+          "responsive_web_grok_imagine_annotation_enabled",
           "responsive_web_grok_community_note_auto_translation_is_enabled",
           "responsive_web_enhance_cards_enabled"
         ],
@@ -8241,6 +8426,9 @@
           "responsive_web_grok_image_annotation_enabled": {
             "value": "true"
           },
+          "responsive_web_grok_imagine_annotation_enabled": {
+            "value": "true"
+          },
           "responsive_web_grok_community_note_auto_translation_is_enabled": {
             "value": "false"
           },
@@ -8254,7 +8442,7 @@
   {
     "n": "31406",
     "exports": {
-      "queryId": "yX2a7uKWvqJ4FPQkNDFD0A",
+      "queryId": "BqvqNsqColIQbpX1_NmEwg",
       "operationName": "UserTweets",
       "operationType": "query",
       "metadata": {
@@ -8291,6 +8479,7 @@
           "longform_notetweets_rich_text_read_enabled",
           "longform_notetweets_inline_media_enabled",
           "responsive_web_grok_image_annotation_enabled",
+          "responsive_web_grok_imagine_annotation_enabled",
           "responsive_web_grok_community_note_auto_translation_is_enabled",
           "responsive_web_enhance_cards_enabled"
         ],
@@ -8398,6 +8587,9 @@
           "responsive_web_grok_image_annotation_enabled": {
             "value": "true"
           },
+          "responsive_web_grok_imagine_annotation_enabled": {
+            "value": "true"
+          },
           "responsive_web_grok_community_note_auto_translation_is_enabled": {
             "value": "false"
           },
@@ -8411,7 +8603,7 @@
   {
     "n": "57613",
     "exports": {
-      "queryId": "Ahzvm-qAUpVJN3-Ewy6rEw",
+      "queryId": "P1-PSeEC-2Cdck3UUKoS7Q",
       "operationName": "UserTweetsAndReplies",
       "operationType": "query",
       "metadata": {
@@ -8448,6 +8640,7 @@
           "longform_notetweets_rich_text_read_enabled",
           "longform_notetweets_inline_media_enabled",
           "responsive_web_grok_image_annotation_enabled",
+          "responsive_web_grok_imagine_annotation_enabled",
           "responsive_web_grok_community_note_auto_translation_is_enabled",
           "responsive_web_enhance_cards_enabled"
         ],
@@ -8553,6 +8746,9 @@
             "value": "true"
           },
           "responsive_web_grok_image_annotation_enabled": {
+            "value": "true"
+          },
+          "responsive_web_grok_imagine_annotation_enabled": {
             "value": "true"
           },
           "responsive_web_grok_community_note_auto_translation_is_enabled": {
@@ -8761,7 +8957,7 @@
   {
     "n": "17082",
     "exports": {
-      "queryId": "-7GBW_bZ33pFTP3xKSf7Mg",
+      "queryId": "N_8rFT7x_cZhMcIAQYBiuw",
       "operationName": "ViewingOtherUsersTopicsPage",
       "operationType": "query",
       "metadata": {
@@ -8798,6 +8994,7 @@
           "longform_notetweets_rich_text_read_enabled",
           "longform_notetweets_inline_media_enabled",
           "responsive_web_grok_image_annotation_enabled",
+          "responsive_web_grok_imagine_annotation_enabled",
           "responsive_web_grok_community_note_auto_translation_is_enabled",
           "responsive_web_enhance_cards_enabled"
         ],
@@ -8905,6 +9102,9 @@
           "responsive_web_grok_image_annotation_enabled": {
             "value": "true"
           },
+          "responsive_web_grok_imagine_annotation_enabled": {
+            "value": "true"
+          },
           "responsive_web_grok_community_note_auto_translation_is_enabled": {
             "value": "false"
           },
@@ -8918,7 +9118,7 @@
   {
     "n": "81364",
     "exports": {
-      "queryId": "SgpM94aj_hIqvD1LAkz2oQ",
+      "queryId": "FXpbqVDu1TldXd6qSJULyw",
       "operationName": "AudioSpaceAddSharing",
       "operationType": "mutation",
       "metadata": {
@@ -8953,6 +9153,7 @@
           "longform_notetweets_rich_text_read_enabled",
           "longform_notetweets_inline_media_enabled",
           "responsive_web_grok_image_annotation_enabled",
+          "responsive_web_grok_imagine_annotation_enabled",
           "responsive_web_grok_community_note_auto_translation_is_enabled",
           "responsive_web_graphql_timeline_navigation_enabled",
           "responsive_web_enhance_cards_enabled"
@@ -9055,6 +9256,9 @@
           "responsive_web_grok_image_annotation_enabled": {
             "value": "true"
           },
+          "responsive_web_grok_imagine_annotation_enabled": {
+            "value": "true"
+          },
           "responsive_web_grok_community_note_auto_translation_is_enabled": {
             "value": "false"
           },
@@ -9071,7 +9275,7 @@
   {
     "n": "8890",
     "exports": {
-      "queryId": "Hgt_BlqaADa_v6kZurCZNA",
+      "queryId": "aNX8VxMfQ0HlYjyYw_-EOQ",
       "operationName": "AudioSpaceById",
       "operationType": "query",
       "metadata": {
@@ -9108,6 +9312,7 @@
           "longform_notetweets_rich_text_read_enabled",
           "longform_notetweets_inline_media_enabled",
           "responsive_web_grok_image_annotation_enabled",
+          "responsive_web_grok_imagine_annotation_enabled",
           "responsive_web_graphql_timeline_navigation_enabled",
           "responsive_web_grok_community_note_auto_translation_is_enabled",
           "responsive_web_enhance_cards_enabled"
@@ -9216,6 +9421,9 @@
           "responsive_web_grok_image_annotation_enabled": {
             "value": "true"
           },
+          "responsive_web_grok_imagine_annotation_enabled": {
+            "value": "true"
+          },
           "responsive_web_graphql_timeline_navigation_enabled": {
             "value": "true"
           },
@@ -9227,11 +9435,6 @@
           }
         }
       }
-    },
-    "func_name": "f",
-    "func_name_init": "D",
-    "query": {
-      "...t": "_"
     }
   },
   {
@@ -9302,7 +9505,7 @@
   {
     "n": "69565",
     "exports": {
-      "queryId": "Y_FQbROXaVCVSIAeeAISOw",
+      "queryId": "3jTCwFW3HN22FxvM7Qiljw",
       "operationName": "CombinedLists",
       "operationType": "query",
       "metadata": {
@@ -9339,6 +9542,7 @@
           "longform_notetweets_rich_text_read_enabled",
           "longform_notetweets_inline_media_enabled",
           "responsive_web_grok_image_annotation_enabled",
+          "responsive_web_grok_imagine_annotation_enabled",
           "responsive_web_grok_community_note_auto_translation_is_enabled",
           "responsive_web_enhance_cards_enabled"
         ],
@@ -9444,6 +9648,9 @@
             "value": "true"
           },
           "responsive_web_grok_image_annotation_enabled": {
+            "value": "true"
+          },
+          "responsive_web_grok_imagine_annotation_enabled": {
             "value": "true"
           },
           "responsive_web_grok_community_note_auto_translation_is_enabled": {
@@ -9684,7 +9891,7 @@
   {
     "n": "81452",
     "exports": {
-      "queryId": "-8DMEQ_fTe5Gg4rYKsL-YA",
+      "queryId": "WFkpyHWez_lAkgA8xQLWeA",
       "operationName": "ListCreationRecommendedUsers",
       "operationType": "query",
       "metadata": {
@@ -9721,6 +9928,7 @@
           "longform_notetweets_rich_text_read_enabled",
           "longform_notetweets_inline_media_enabled",
           "responsive_web_grok_image_annotation_enabled",
+          "responsive_web_grok_imagine_annotation_enabled",
           "responsive_web_grok_community_note_auto_translation_is_enabled",
           "responsive_web_enhance_cards_enabled"
         ],
@@ -9828,6 +10036,9 @@
           "responsive_web_grok_image_annotation_enabled": {
             "value": "true"
           },
+          "responsive_web_grok_imagine_annotation_enabled": {
+            "value": "true"
+          },
           "responsive_web_grok_community_note_auto_translation_is_enabled": {
             "value": "false"
           },
@@ -9854,7 +10065,7 @@
   {
     "n": "21936",
     "exports": {
-      "queryId": "YccPRp6X2y2gn9d_nttMtA",
+      "queryId": "FFZ9StFyXkjpnQjA1jp9Jw",
       "operationName": "ListEditRecommendedUsers",
       "operationType": "query",
       "metadata": {
@@ -9891,6 +10102,7 @@
           "longform_notetweets_rich_text_read_enabled",
           "longform_notetweets_inline_media_enabled",
           "responsive_web_grok_image_annotation_enabled",
+          "responsive_web_grok_imagine_annotation_enabled",
           "responsive_web_grok_community_note_auto_translation_is_enabled",
           "responsive_web_enhance_cards_enabled"
         ],
@@ -9998,6 +10210,9 @@
           "responsive_web_grok_image_annotation_enabled": {
             "value": "true"
           },
+          "responsive_web_grok_imagine_annotation_enabled": {
+            "value": "true"
+          },
           "responsive_web_grok_community_note_auto_translation_is_enabled": {
             "value": "false"
           },
@@ -10011,7 +10226,7 @@
   {
     "n": "80131",
     "exports": {
-      "queryId": "nwKOznwku7nvY8qxADivRw",
+      "queryId": "lUzTy9EP87s_V9isGQbC4w",
       "operationName": "ListLatestTweetsTimeline",
       "operationType": "query",
       "metadata": {
@@ -10048,6 +10263,7 @@
           "longform_notetweets_rich_text_read_enabled",
           "longform_notetweets_inline_media_enabled",
           "responsive_web_grok_image_annotation_enabled",
+          "responsive_web_grok_imagine_annotation_enabled",
           "responsive_web_grok_community_note_auto_translation_is_enabled",
           "responsive_web_enhance_cards_enabled"
         ],
@@ -10155,6 +10371,9 @@
           "responsive_web_grok_image_annotation_enabled": {
             "value": "true"
           },
+          "responsive_web_grok_imagine_annotation_enabled": {
+            "value": "true"
+          },
           "responsive_web_grok_community_note_auto_translation_is_enabled": {
             "value": "false"
           },
@@ -10163,12 +10382,17 @@
           }
         }
       }
+    },
+    "func_name": "A",
+    "func_name_init": "x",
+    "query": {
+      "conversationId": "t"
     }
   },
   {
     "n": "42792",
     "exports": {
-      "queryId": "03noweD94B0oeNdPSfVKwA",
+      "queryId": "V5aYvTpLF9ms6S6medvX4w",
       "operationName": "ListMembers",
       "operationType": "query",
       "metadata": {
@@ -10205,6 +10429,7 @@
           "longform_notetweets_rich_text_read_enabled",
           "longform_notetweets_inline_media_enabled",
           "responsive_web_grok_image_annotation_enabled",
+          "responsive_web_grok_imagine_annotation_enabled",
           "responsive_web_grok_community_note_auto_translation_is_enabled",
           "responsive_web_enhance_cards_enabled"
         ],
@@ -10312,6 +10537,9 @@
           "responsive_web_grok_image_annotation_enabled": {
             "value": "true"
           },
+          "responsive_web_grok_imagine_annotation_enabled": {
+            "value": "true"
+          },
           "responsive_web_grok_community_note_auto_translation_is_enabled": {
             "value": "false"
           },
@@ -10325,7 +10553,7 @@
   {
     "n": "24314",
     "exports": {
-      "queryId": "Ri--aptchfx28vBUIM8bUg",
+      "queryId": "_v6moGQdt3a8rzXbMrfWjg",
       "operationName": "ListMemberships",
       "operationType": "query",
       "metadata": {
@@ -10362,6 +10590,7 @@
           "longform_notetweets_rich_text_read_enabled",
           "longform_notetweets_inline_media_enabled",
           "responsive_web_grok_image_annotation_enabled",
+          "responsive_web_grok_imagine_annotation_enabled",
           "responsive_web_grok_community_note_auto_translation_is_enabled",
           "responsive_web_enhance_cards_enabled"
         ],
@@ -10469,6 +10698,9 @@
           "responsive_web_grok_image_annotation_enabled": {
             "value": "true"
           },
+          "responsive_web_grok_imagine_annotation_enabled": {
+            "value": "true"
+          },
           "responsive_web_grok_community_note_auto_translation_is_enabled": {
             "value": "false"
           },
@@ -10495,7 +10727,7 @@
   {
     "n": "90426",
     "exports": {
-      "queryId": "xt6dZtdgDxU2gqNSpNju6Q",
+      "queryId": "I44OwVQ7dll0PpdOb73L9A",
       "operationName": "ListOwnerships",
       "operationType": "query",
       "metadata": {
@@ -10532,6 +10764,7 @@
           "longform_notetweets_rich_text_read_enabled",
           "longform_notetweets_inline_media_enabled",
           "responsive_web_grok_image_annotation_enabled",
+          "responsive_web_grok_imagine_annotation_enabled",
           "responsive_web_grok_community_note_auto_translation_is_enabled",
           "responsive_web_enhance_cards_enabled"
         ],
@@ -10637,6 +10870,9 @@
             "value": "true"
           },
           "responsive_web_grok_image_annotation_enabled": {
+            "value": "true"
+          },
+          "responsive_web_grok_imagine_annotation_enabled": {
             "value": "true"
           },
           "responsive_web_grok_community_note_auto_translation_is_enabled": {
@@ -10697,7 +10933,7 @@
   {
     "n": "26619",
     "exports": {
-      "queryId": "ERoUzSVYhvrXePV4-bfwGg",
+      "queryId": "NnX63rPq4Wn9MuK4zFq-GQ",
       "operationName": "ListRankedTweetsTimeline",
       "operationType": "query",
       "metadata": {
@@ -10734,6 +10970,7 @@
           "longform_notetweets_rich_text_read_enabled",
           "longform_notetweets_inline_media_enabled",
           "responsive_web_grok_image_annotation_enabled",
+          "responsive_web_grok_imagine_annotation_enabled",
           "responsive_web_grok_community_note_auto_translation_is_enabled",
           "responsive_web_enhance_cards_enabled"
         ],
@@ -10839,6 +11076,9 @@
             "value": "true"
           },
           "responsive_web_grok_image_annotation_enabled": {
+            "value": "true"
+          },
+          "responsive_web_grok_imagine_annotation_enabled": {
             "value": "true"
           },
           "responsive_web_grok_community_note_auto_translation_is_enabled": {
@@ -10944,7 +11184,7 @@
   {
     "n": "48562",
     "exports": {
-      "queryId": "KUtaUmcYSl5lZolhJVcang",
+      "queryId": "dVNq4zFu3CUukKx_W2shiA",
       "operationName": "ListSubscribers",
       "operationType": "query",
       "metadata": {
@@ -10981,6 +11221,7 @@
           "longform_notetweets_rich_text_read_enabled",
           "longform_notetweets_inline_media_enabled",
           "responsive_web_grok_image_annotation_enabled",
+          "responsive_web_grok_imagine_annotation_enabled",
           "responsive_web_grok_community_note_auto_translation_is_enabled",
           "responsive_web_enhance_cards_enabled"
         ],
@@ -11086,6 +11327,9 @@
             "value": "true"
           },
           "responsive_web_grok_image_annotation_enabled": {
+            "value": "true"
+          },
+          "responsive_web_grok_imagine_annotation_enabled": {
             "value": "true"
           },
           "responsive_web_grok_community_note_auto_translation_is_enabled": {
@@ -11203,13 +11447,13 @@
     "func_name": "_e",
     "func_name_init": "ee",
     "query": {
-      "...()(0,i.d)": "_"
+      "...()(0,n.d)": "_"
     }
   },
   {
     "n": "38647",
     "exports": {
-      "queryId": "IwZgOYnZ27DslAoKd-_ljA",
+      "queryId": "6dt4r0DnKzVz6OdpybJ6_w",
       "operationName": "ListsDiscovery",
       "operationType": "query",
       "metadata": {
@@ -11246,6 +11490,7 @@
           "longform_notetweets_rich_text_read_enabled",
           "longform_notetweets_inline_media_enabled",
           "responsive_web_grok_image_annotation_enabled",
+          "responsive_web_grok_imagine_annotation_enabled",
           "responsive_web_grok_community_note_auto_translation_is_enabled",
           "responsive_web_enhance_cards_enabled"
         ],
@@ -11353,6 +11598,9 @@
           "responsive_web_grok_image_annotation_enabled": {
             "value": "true"
           },
+          "responsive_web_grok_imagine_annotation_enabled": {
+            "value": "true"
+          },
           "responsive_web_grok_community_note_auto_translation_is_enabled": {
             "value": "false"
           },
@@ -11366,7 +11614,7 @@
   {
     "n": "74607",
     "exports": {
-      "queryId": "IJ3aDiqJ2tsB8eBVQTo5Fg",
+      "queryId": "Tr15icC6AECHOdSTN9zYRQ",
       "operationName": "ListsManagementPageTimeline",
       "operationType": "query",
       "metadata": {
@@ -11403,6 +11651,7 @@
           "longform_notetweets_rich_text_read_enabled",
           "longform_notetweets_inline_media_enabled",
           "responsive_web_grok_image_annotation_enabled",
+          "responsive_web_grok_imagine_annotation_enabled",
           "responsive_web_grok_community_note_auto_translation_is_enabled",
           "responsive_web_enhance_cards_enabled"
         ],
@@ -11508,6 +11757,9 @@
             "value": "true"
           },
           "responsive_web_grok_image_annotation_enabled": {
+            "value": "true"
+          },
+          "responsive_web_grok_imagine_annotation_enabled": {
             "value": "true"
           },
           "responsive_web_grok_community_note_auto_translation_is_enabled": {
@@ -11549,7 +11801,7 @@
   {
     "n": "33787",
     "exports": {
-      "queryId": "5b6hazh3OthNo0ySPjZAgA",
+      "queryId": "esjom4FghoypsowotQhing",
       "operationName": "CommunitiesExploreTimeline",
       "operationType": "query",
       "metadata": {
@@ -11586,6 +11838,7 @@
           "longform_notetweets_rich_text_read_enabled",
           "longform_notetweets_inline_media_enabled",
           "responsive_web_grok_image_annotation_enabled",
+          "responsive_web_grok_imagine_annotation_enabled",
           "responsive_web_grok_community_note_auto_translation_is_enabled",
           "responsive_web_enhance_cards_enabled"
         ],
@@ -11693,6 +11946,9 @@
           "responsive_web_grok_image_annotation_enabled": {
             "value": "true"
           },
+          "responsive_web_grok_imagine_annotation_enabled": {
+            "value": "true"
+          },
           "responsive_web_grok_community_note_auto_translation_is_enabled": {
             "value": "false"
           },
@@ -11706,7 +11962,7 @@
   {
     "n": "95180",
     "exports": {
-      "queryId": "i8vVVs64cImwFIQjCZ8hYg",
+      "queryId": "ECdJ9YoHZgtJCC4iD1Y8Pg",
       "operationName": "CommunitiesMainDiscoveryModule",
       "operationType": "query",
       "metadata": {
@@ -11743,6 +11999,7 @@
           "longform_notetweets_rich_text_read_enabled",
           "longform_notetweets_inline_media_enabled",
           "responsive_web_grok_image_annotation_enabled",
+          "responsive_web_grok_imagine_annotation_enabled",
           "responsive_web_grok_community_note_auto_translation_is_enabled",
           "responsive_web_enhance_cards_enabled"
         ],
@@ -11850,6 +12107,9 @@
           "responsive_web_grok_image_annotation_enabled": {
             "value": "true"
           },
+          "responsive_web_grok_imagine_annotation_enabled": {
+            "value": "true"
+          },
           "responsive_web_grok_community_note_auto_translation_is_enabled": {
             "value": "false"
           },
@@ -11863,7 +12123,7 @@
   {
     "n": "35267",
     "exports": {
-      "queryId": "o4oF_1YZCnDJWT5Ia1W2UQ",
+      "queryId": "dfFVh-zaAfSG-iuRZ909Yw",
       "operationName": "CommunitiesMainPageTimeline",
       "operationType": "query",
       "metadata": {
@@ -11900,6 +12160,7 @@
           "longform_notetweets_rich_text_read_enabled",
           "longform_notetweets_inline_media_enabled",
           "responsive_web_grok_image_annotation_enabled",
+          "responsive_web_grok_imagine_annotation_enabled",
           "responsive_web_grok_community_note_auto_translation_is_enabled",
           "responsive_web_enhance_cards_enabled"
         ],
@@ -12005,6 +12266,9 @@
             "value": "true"
           },
           "responsive_web_grok_image_annotation_enabled": {
+            "value": "true"
+          },
+          "responsive_web_grok_imagine_annotation_enabled": {
             "value": "true"
           },
           "responsive_web_grok_community_note_auto_translation_is_enabled": {
@@ -12065,7 +12329,7 @@
   {
     "n": "78188",
     "exports": {
-      "queryId": "spE4DjCKFKlTj9tMQ8n_AA",
+      "queryId": "Nr9EBA97exyL3dMdSjZ1OQ",
       "operationName": "CommunitiesMembershipsTimeline",
       "operationType": "query",
       "metadata": {
@@ -12102,6 +12366,7 @@
           "longform_notetweets_rich_text_read_enabled",
           "longform_notetweets_inline_media_enabled",
           "responsive_web_grok_image_annotation_enabled",
+          "responsive_web_grok_imagine_annotation_enabled",
           "responsive_web_grok_community_note_auto_translation_is_enabled",
           "responsive_web_enhance_cards_enabled"
         ],
@@ -12209,6 +12474,9 @@
           "responsive_web_grok_image_annotation_enabled": {
             "value": "true"
           },
+          "responsive_web_grok_imagine_annotation_enabled": {
+            "value": "true"
+          },
           "responsive_web_grok_community_note_auto_translation_is_enabled": {
             "value": "false"
           },
@@ -12222,7 +12490,7 @@
   {
     "n": "05560",
     "exports": {
-      "queryId": "yiZe8iBc-wSeNShFDF99iA",
+      "queryId": "2-Cbcb1-B9sD_GrTqymGWg",
       "operationName": "CommunityAboutTimeline",
       "operationType": "query",
       "metadata": {
@@ -12259,6 +12527,7 @@
           "longform_notetweets_rich_text_read_enabled",
           "longform_notetweets_inline_media_enabled",
           "responsive_web_grok_image_annotation_enabled",
+          "responsive_web_grok_imagine_annotation_enabled",
           "responsive_web_grok_community_note_auto_translation_is_enabled",
           "responsive_web_enhance_cards_enabled"
         ],
@@ -12364,6 +12633,9 @@
             "value": "true"
           },
           "responsive_web_grok_image_annotation_enabled": {
+            "value": "true"
+          },
+          "responsive_web_grok_imagine_annotation_enabled": {
             "value": "true"
           },
           "responsive_web_grok_community_note_auto_translation_is_enabled": {
@@ -12469,7 +12741,7 @@
   {
     "n": "29199",
     "exports": {
-      "queryId": "twhkLtJHu5-S7uz72rslUg",
+      "queryId": "Ft1KaL36jlncX_npeG8s6A",
       "operationName": "CommunityDiscoveryTimeline",
       "operationType": "query",
       "metadata": {
@@ -12506,6 +12778,7 @@
           "longform_notetweets_rich_text_read_enabled",
           "longform_notetweets_inline_media_enabled",
           "responsive_web_grok_image_annotation_enabled",
+          "responsive_web_grok_imagine_annotation_enabled",
           "responsive_web_grok_community_note_auto_translation_is_enabled",
           "responsive_web_enhance_cards_enabled"
         ],
@@ -12611,6 +12884,9 @@
             "value": "true"
           },
           "responsive_web_grok_image_annotation_enabled": {
+            "value": "true"
+          },
+          "responsive_web_grok_imagine_annotation_enabled": {
             "value": "true"
           },
           "responsive_web_grok_community_note_auto_translation_is_enabled": {
@@ -12896,7 +13172,7 @@
   {
     "n": "98112",
     "exports": {
-      "queryId": "usxUerrknGsvI8COo-VNvw",
+      "queryId": "ZUkPZDhsQ7yeiLHu27HDkQ",
       "operationName": "CommunityHashtagsTimeline",
       "operationType": "query",
       "metadata": {
@@ -12933,6 +13209,7 @@
           "longform_notetweets_rich_text_read_enabled",
           "longform_notetweets_inline_media_enabled",
           "responsive_web_grok_image_annotation_enabled",
+          "responsive_web_grok_imagine_annotation_enabled",
           "responsive_web_grok_community_note_auto_translation_is_enabled",
           "responsive_web_enhance_cards_enabled"
         ],
@@ -13038,6 +13315,9 @@
             "value": "true"
           },
           "responsive_web_grok_image_annotation_enabled": {
+            "value": "true"
+          },
+          "responsive_web_grok_imagine_annotation_enabled": {
             "value": "true"
           },
           "responsive_web_grok_community_note_auto_translation_is_enabled": {
@@ -13143,7 +13423,7 @@
   {
     "n": "15045",
     "exports": {
-      "queryId": "fvU2Pa0KgS62L_tOs5f4pA",
+      "queryId": "FuDEsQiij5mw_0cBwkoGBg",
       "operationName": "CommunityMediaLoggedOutTimeline",
       "operationType": "query",
       "metadata": {
@@ -13180,6 +13460,7 @@
           "longform_notetweets_rich_text_read_enabled",
           "longform_notetweets_inline_media_enabled",
           "responsive_web_grok_image_annotation_enabled",
+          "responsive_web_grok_imagine_annotation_enabled",
           "responsive_web_grok_community_note_auto_translation_is_enabled",
           "responsive_web_enhance_cards_enabled"
         ],
@@ -13287,6 +13568,9 @@
           "responsive_web_grok_image_annotation_enabled": {
             "value": "true"
           },
+          "responsive_web_grok_imagine_annotation_enabled": {
+            "value": "true"
+          },
           "responsive_web_grok_community_note_auto_translation_is_enabled": {
             "value": "false"
           },
@@ -13300,7 +13584,7 @@
   {
     "n": "32257",
     "exports": {
-      "queryId": "XKzuPD2R1mQdjfj1k4N9QA",
+      "queryId": "XN5jJ7-VafGLLUhAoih9yA",
       "operationName": "CommunityMediaTimeline",
       "operationType": "query",
       "metadata": {
@@ -13337,6 +13621,7 @@
           "longform_notetweets_rich_text_read_enabled",
           "longform_notetweets_inline_media_enabled",
           "responsive_web_grok_image_annotation_enabled",
+          "responsive_web_grok_imagine_annotation_enabled",
           "responsive_web_grok_community_note_auto_translation_is_enabled",
           "responsive_web_enhance_cards_enabled"
         ],
@@ -13442,6 +13727,9 @@
             "value": "true"
           },
           "responsive_web_grok_image_annotation_enabled": {
+            "value": "true"
+          },
+          "responsive_web_grok_imagine_annotation_enabled": {
             "value": "true"
           },
           "responsive_web_grok_community_note_auto_translation_is_enabled": {
@@ -13502,7 +13790,7 @@
   {
     "n": "78704",
     "exports": {
-      "queryId": "4aHo7JYY4sQvJXxqMb-RDg",
+      "queryId": "s2wTmVbVMdzO3vQ9KiiF2A",
       "operationName": "CommunityModerationTweetCasesSlice",
       "operationType": "query",
       "metadata": {
@@ -13536,6 +13824,7 @@
           "rweb_tipjar_consumption_enabled",
           "verified_phone_label_enabled",
           "responsive_web_grok_image_annotation_enabled",
+          "responsive_web_grok_imagine_annotation_enabled",
           "responsive_web_grok_community_note_auto_translation_is_enabled",
           "responsive_web_graphql_skip_user_profile_image_extensions_enabled",
           "responsive_web_graphql_timeline_navigation_enabled",
@@ -13634,6 +13923,9 @@
             "value": "false"
           },
           "responsive_web_grok_image_annotation_enabled": {
+            "value": "true"
+          },
+          "responsive_web_grok_imagine_annotation_enabled": {
             "value": "true"
           },
           "responsive_web_grok_community_note_auto_translation_is_enabled": {
@@ -13835,7 +14127,7 @@
   {
     "n": "14433",
     "exports": {
-      "queryId": "WZ6RytPKyiomUBTZNbNXWQ",
+      "queryId": "Vj1FOdFCkdNn5wP1edduDQ",
       "operationName": "CommunityTweetModerationLogSlice",
       "operationType": "query",
       "metadata": {
@@ -13870,6 +14162,7 @@
           "longform_notetweets_rich_text_read_enabled",
           "longform_notetweets_inline_media_enabled",
           "responsive_web_grok_image_annotation_enabled",
+          "responsive_web_grok_imagine_annotation_enabled",
           "responsive_web_graphql_timeline_navigation_enabled",
           "responsive_web_grok_community_note_auto_translation_is_enabled",
           "responsive_web_enhance_cards_enabled"
@@ -13972,6 +14265,9 @@
           "responsive_web_grok_image_annotation_enabled": {
             "value": "true"
           },
+          "responsive_web_grok_imagine_annotation_enabled": {
+            "value": "true"
+          },
           "responsive_web_graphql_timeline_navigation_enabled": {
             "value": "true"
           },
@@ -13988,7 +14284,7 @@
   {
     "n": "04414",
     "exports": {
-      "queryId": "hMpvMWdXLiWDA-G59udOnA",
+      "queryId": "_zcDjyrz7vt2Qbc4THfAOA",
       "operationName": "CommunityTweetsLoggedOutTimeline",
       "operationType": "query",
       "metadata": {
@@ -14025,6 +14321,7 @@
           "longform_notetweets_rich_text_read_enabled",
           "longform_notetweets_inline_media_enabled",
           "responsive_web_grok_image_annotation_enabled",
+          "responsive_web_grok_imagine_annotation_enabled",
           "responsive_web_grok_community_note_auto_translation_is_enabled",
           "responsive_web_enhance_cards_enabled"
         ],
@@ -14132,6 +14429,9 @@
           "responsive_web_grok_image_annotation_enabled": {
             "value": "true"
           },
+          "responsive_web_grok_imagine_annotation_enabled": {
+            "value": "true"
+          },
           "responsive_web_grok_community_note_auto_translation_is_enabled": {
             "value": "false"
           },
@@ -14145,7 +14445,7 @@
   {
     "n": "56620",
     "exports": {
-      "queryId": "Ogdqmrt4aYWLJjGpOH-2BA",
+      "queryId": "sw01rqm7LZWTICua8s4lAA",
       "operationName": "CommunityTweetsRankedLoggedOutTimeline",
       "operationType": "query",
       "metadata": {
@@ -14182,6 +14482,7 @@
           "longform_notetweets_rich_text_read_enabled",
           "longform_notetweets_inline_media_enabled",
           "responsive_web_grok_image_annotation_enabled",
+          "responsive_web_grok_imagine_annotation_enabled",
           "responsive_web_grok_community_note_auto_translation_is_enabled",
           "responsive_web_enhance_cards_enabled"
         ],
@@ -14289,6 +14590,9 @@
           "responsive_web_grok_image_annotation_enabled": {
             "value": "true"
           },
+          "responsive_web_grok_imagine_annotation_enabled": {
+            "value": "true"
+          },
           "responsive_web_grok_community_note_auto_translation_is_enabled": {
             "value": "false"
           },
@@ -14302,7 +14606,7 @@
   {
     "n": "19859",
     "exports": {
-      "queryId": "J9doEl6HfbvhCp9j9ibMGw",
+      "queryId": "1PnvmwIyD2x01PWIVRnQhw",
       "operationName": "CommunityTweetsTimeline",
       "operationType": "query",
       "metadata": {
@@ -14339,6 +14643,7 @@
           "longform_notetweets_rich_text_read_enabled",
           "longform_notetweets_inline_media_enabled",
           "responsive_web_grok_image_annotation_enabled",
+          "responsive_web_grok_imagine_annotation_enabled",
           "responsive_web_grok_community_note_auto_translation_is_enabled",
           "responsive_web_enhance_cards_enabled"
         ],
@@ -14444,6 +14749,9 @@
             "value": "true"
           },
           "responsive_web_grok_image_annotation_enabled": {
+            "value": "true"
+          },
+          "responsive_web_grok_imagine_annotation_enabled": {
             "value": "true"
           },
           "responsive_web_grok_community_note_auto_translation_is_enabled": {
@@ -14525,7 +14833,7 @@
   {
     "n": "59280",
     "exports": {
-      "queryId": "Jb4SJP5HPlHucSaytgP4rw",
+      "queryId": "Wei8P0bUkh5AzakpxA7zQQ",
       "operationName": "CommunitiesRankedTimeline",
       "operationType": "query",
       "metadata": {
@@ -14562,6 +14870,7 @@
           "longform_notetweets_rich_text_read_enabled",
           "longform_notetweets_inline_media_enabled",
           "responsive_web_grok_image_annotation_enabled",
+          "responsive_web_grok_imagine_annotation_enabled",
           "responsive_web_grok_community_note_auto_translation_is_enabled",
           "responsive_web_enhance_cards_enabled"
         ],
@@ -14667,6 +14976,9 @@
             "value": "true"
           },
           "responsive_web_grok_image_annotation_enabled": {
+            "value": "true"
+          },
+          "responsive_web_grok_imagine_annotation_enabled": {
             "value": "true"
           },
           "responsive_web_grok_community_note_auto_translation_is_enabled": {
@@ -14851,7 +15163,7 @@
   {
     "n": "06757",
     "exports": {
-      "queryId": "dM3ECz9mu5peLzXsJc-hFw",
+      "queryId": "2T6TrO8sYf3S5yNK9yfpvw",
       "operationName": "BirdwatchFetchAuthenticatedBirdwatchMatchSlice",
       "operationType": "query",
       "metadata": {
@@ -14885,6 +15197,7 @@
           "rweb_tipjar_consumption_enabled",
           "verified_phone_label_enabled",
           "responsive_web_grok_image_annotation_enabled",
+          "responsive_web_grok_imagine_annotation_enabled",
           "responsive_web_grok_community_note_auto_translation_is_enabled",
           "responsive_web_graphql_skip_user_profile_image_extensions_enabled",
           "responsive_web_graphql_timeline_navigation_enabled",
@@ -14985,6 +15298,9 @@
           "responsive_web_grok_image_annotation_enabled": {
             "value": "true"
           },
+          "responsive_web_grok_imagine_annotation_enabled": {
+            "value": "true"
+          },
           "responsive_web_grok_community_note_auto_translation_is_enabled": {
             "value": "false"
           },
@@ -15004,7 +15320,7 @@
   {
     "n": "39119",
     "exports": {
-      "queryId": "xjzxKLh-9ClVspKg1PEBUw",
+      "queryId": "zb03D86D3WeA-I0KFxdVTA",
       "operationName": "BirdwatchFetchContributorNotesSlice",
       "operationType": "query",
       "metadata": {
@@ -15041,6 +15357,7 @@
           "rweb_tipjar_consumption_enabled",
           "verified_phone_label_enabled",
           "responsive_web_grok_image_annotation_enabled",
+          "responsive_web_grok_imagine_annotation_enabled",
           "responsive_web_grok_community_note_auto_translation_is_enabled",
           "responsive_web_graphql_skip_user_profile_image_extensions_enabled",
           "responsive_web_graphql_timeline_navigation_enabled",
@@ -15148,6 +15465,9 @@
             "value": "false"
           },
           "responsive_web_grok_image_annotation_enabled": {
+            "value": "true"
+          },
+          "responsive_web_grok_imagine_annotation_enabled": {
             "value": "true"
           },
           "responsive_web_grok_community_note_auto_translation_is_enabled": {
@@ -15445,7 +15765,7 @@
   {
     "n": "74474",
     "exports": {
-      "queryId": "Iv9WmggGMb8-CtqDQSVa1Q",
+      "queryId": "lSWIIwb_Ds1_Sqq0au4Jsg",
       "operationName": "BirdwatchFetchGlobalTimeline",
       "operationType": "query",
       "metadata": {
@@ -15482,6 +15802,7 @@
           "longform_notetweets_rich_text_read_enabled",
           "longform_notetweets_inline_media_enabled",
           "responsive_web_grok_image_annotation_enabled",
+          "responsive_web_grok_imagine_annotation_enabled",
           "responsive_web_grok_community_note_auto_translation_is_enabled",
           "responsive_web_enhance_cards_enabled"
         ],
@@ -15587,6 +15908,9 @@
             "value": "true"
           },
           "responsive_web_grok_image_annotation_enabled": {
+            "value": "true"
+          },
+          "responsive_web_grok_imagine_annotation_enabled": {
             "value": "true"
           },
           "responsive_web_grok_community_note_auto_translation_is_enabled": {
@@ -15823,7 +16147,7 @@
   {
     "n": "88066",
     "exports": {
-      "queryId": "G_FW5ykvu94PvFCNhjVEug",
+      "queryId": "ImH4dgXBoj7vmvTH6geFhg",
       "operationName": "BirdwatchFetchSourceLinkSlice",
       "operationType": "query",
       "metadata": {
@@ -15857,6 +16181,7 @@
           "rweb_tipjar_consumption_enabled",
           "verified_phone_label_enabled",
           "responsive_web_grok_image_annotation_enabled",
+          "responsive_web_grok_imagine_annotation_enabled",
           "responsive_web_grok_community_note_auto_translation_is_enabled",
           "responsive_web_graphql_skip_user_profile_image_extensions_enabled",
           "responsive_web_graphql_timeline_navigation_enabled",
@@ -15957,6 +16282,9 @@
           "responsive_web_grok_image_annotation_enabled": {
             "value": "true"
           },
+          "responsive_web_grok_imagine_annotation_enabled": {
+            "value": "true"
+          },
           "responsive_web_grok_community_note_auto_translation_is_enabled": {
             "value": "false"
           },
@@ -16021,7 +16349,7 @@
   {
     "n": "21879",
     "exports": {
-      "queryId": "z8rOShu8ApJWAXzhNlYSXQ",
+      "queryId": "SIyjgZrH10cNatlGnVAwMw",
       "operationName": "BookmarkFolderTimeline",
       "operationType": "query",
       "metadata": {
@@ -16058,6 +16386,7 @@
           "longform_notetweets_rich_text_read_enabled",
           "longform_notetweets_inline_media_enabled",
           "responsive_web_grok_image_annotation_enabled",
+          "responsive_web_grok_imagine_annotation_enabled",
           "responsive_web_grok_community_note_auto_translation_is_enabled",
           "responsive_web_enhance_cards_enabled"
         ],
@@ -16163,6 +16492,9 @@
             "value": "true"
           },
           "responsive_web_grok_image_annotation_enabled": {
+            "value": "true"
+          },
+          "responsive_web_grok_imagine_annotation_enabled": {
             "value": "true"
           },
           "responsive_web_grok_community_note_auto_translation_is_enabled": {
@@ -16204,7 +16536,7 @@
   {
     "n": "49186",
     "exports": {
-      "queryId": "8s3Nms0Jo22O0oVXJqicgw",
+      "queryId": "39C-qksLrnxm0E-5hvG-nw",
       "operationName": "Bookmarks",
       "operationType": "query",
       "metadata": {
@@ -16241,6 +16573,7 @@
           "longform_notetweets_rich_text_read_enabled",
           "longform_notetweets_inline_media_enabled",
           "responsive_web_grok_image_annotation_enabled",
+          "responsive_web_grok_imagine_annotation_enabled",
           "responsive_web_grok_community_note_auto_translation_is_enabled",
           "responsive_web_enhance_cards_enabled"
         ],
@@ -16346,6 +16679,9 @@
             "value": "true"
           },
           "responsive_web_grok_image_annotation_enabled": {
+            "value": "true"
+          },
+          "responsive_web_grok_imagine_annotation_enabled": {
             "value": "true"
           },
           "responsive_web_grok_community_note_auto_translation_is_enabled": {
@@ -16452,7 +16788,7 @@
   {
     "n": "45513",
     "exports": {
-      "queryId": "lhMx-65hsT2SY_t7Y-7teA",
+      "queryId": "b-tne9v_heswmxchwbEWGQ",
       "operationName": "GrokConversationItemsByRestId",
       "operationType": "query",
       "metadata": {
@@ -16486,6 +16822,7 @@
           "rweb_tipjar_consumption_enabled",
           "verified_phone_label_enabled",
           "responsive_web_grok_image_annotation_enabled",
+          "responsive_web_grok_imagine_annotation_enabled",
           "responsive_web_grok_community_note_auto_translation_is_enabled",
           "responsive_web_graphql_skip_user_profile_image_extensions_enabled",
           "responsive_web_graphql_timeline_navigation_enabled",
@@ -16584,6 +16921,9 @@
             "value": "false"
           },
           "responsive_web_grok_image_annotation_enabled": {
+            "value": "true"
+          },
+          "responsive_web_grok_imagine_annotation_enabled": {
             "value": "true"
           },
           "responsive_web_grok_community_note_auto_translation_is_enabled": {
@@ -16683,7 +17023,7 @@
   {
     "n": "85289",
     "exports": {
-      "queryId": "EHn5DGLy3J4IDtts5xMHuQ",
+      "queryId": "6asOx92LRobQLhO58m4A7w",
       "operationName": "GrokShare",
       "operationType": "query",
       "metadata": {
@@ -16717,6 +17057,7 @@
           "rweb_tipjar_consumption_enabled",
           "verified_phone_label_enabled",
           "responsive_web_grok_image_annotation_enabled",
+          "responsive_web_grok_imagine_annotation_enabled",
           "responsive_web_grok_community_note_auto_translation_is_enabled",
           "responsive_web_graphql_skip_user_profile_image_extensions_enabled",
           "responsive_web_graphql_timeline_navigation_enabled",
@@ -16815,6 +17156,9 @@
             "value": "false"
           },
           "responsive_web_grok_image_annotation_enabled": {
+            "value": "true"
+          },
+          "responsive_web_grok_imagine_annotation_enabled": {
             "value": "true"
           },
           "responsive_web_grok_community_note_auto_translation_is_enabled": {
@@ -16914,7 +17258,7 @@
   {
     "n": "42710",
     "exports": {
-      "queryId": "xydZXhBYbn2LIJZbjTUFMw",
+      "queryId": "oRo3nAYVFR8frxnlONIcoA",
       "operationName": "ImmersiveMedia",
       "operationType": "query",
       "metadata": {
@@ -16951,6 +17295,7 @@
           "longform_notetweets_rich_text_read_enabled",
           "longform_notetweets_inline_media_enabled",
           "responsive_web_grok_image_annotation_enabled",
+          "responsive_web_grok_imagine_annotation_enabled",
           "responsive_web_grok_community_note_auto_translation_is_enabled",
           "responsive_web_enhance_cards_enabled"
         ],
@@ -17058,6 +17403,9 @@
           "responsive_web_grok_image_annotation_enabled": {
             "value": "true"
           },
+          "responsive_web_grok_imagine_annotation_enabled": {
+            "value": "true"
+          },
           "responsive_web_grok_community_note_auto_translation_is_enabled": {
             "value": "false"
           },
@@ -17071,7 +17419,7 @@
   {
     "n": "09857",
     "exports": {
-      "queryId": "dIq5vLqQlcS06tv_gINU7g",
+      "queryId": "JKMe-pEy2tqyL_DXZXIgjg",
       "operationName": "ImmersiveProfile",
       "operationType": "query",
       "metadata": {
@@ -17108,6 +17456,7 @@
           "longform_notetweets_rich_text_read_enabled",
           "longform_notetweets_inline_media_enabled",
           "responsive_web_grok_image_annotation_enabled",
+          "responsive_web_grok_imagine_annotation_enabled",
           "responsive_web_grok_community_note_auto_translation_is_enabled",
           "responsive_web_enhance_cards_enabled"
         ],
@@ -17215,6 +17564,9 @@
           "responsive_web_grok_image_annotation_enabled": {
             "value": "true"
           },
+          "responsive_web_grok_imagine_annotation_enabled": {
+            "value": "true"
+          },
           "responsive_web_grok_community_note_auto_translation_is_enabled": {
             "value": "false"
           },
@@ -17228,7 +17580,7 @@
   {
     "n": "35203",
     "exports": {
-      "queryId": "mABBYpho2RYZ9jnTG4a_yg",
+      "queryId": "feupljeIH_WK9vDB-SfrIg",
       "operationName": "TVTrend",
       "operationType": "query",
       "metadata": {
@@ -17265,6 +17617,7 @@
           "longform_notetweets_rich_text_read_enabled",
           "longform_notetweets_inline_media_enabled",
           "responsive_web_grok_image_annotation_enabled",
+          "responsive_web_grok_imagine_annotation_enabled",
           "responsive_web_grok_community_note_auto_translation_is_enabled",
           "responsive_web_enhance_cards_enabled"
         ],
@@ -17372,6 +17725,9 @@
           "responsive_web_grok_image_annotation_enabled": {
             "value": "true"
           },
+          "responsive_web_grok_imagine_annotation_enabled": {
+            "value": "true"
+          },
           "responsive_web_grok_community_note_auto_translation_is_enabled": {
             "value": "false"
           },
@@ -17385,7 +17741,7 @@
   {
     "n": "62611",
     "exports": {
-      "queryId": "SDYozXwBtFYI0ROI7_Lizg",
+      "queryId": "U6VRUrrUXA2AotFWSr4KnA",
       "operationName": "TVUserProfile",
       "operationType": "query",
       "metadata": {
@@ -17422,6 +17778,7 @@
           "longform_notetweets_rich_text_read_enabled",
           "longform_notetweets_inline_media_enabled",
           "responsive_web_grok_image_annotation_enabled",
+          "responsive_web_grok_imagine_annotation_enabled",
           "responsive_web_grok_community_note_auto_translation_is_enabled",
           "responsive_web_enhance_cards_enabled"
         ],
@@ -17529,6 +17886,9 @@
           "responsive_web_grok_image_annotation_enabled": {
             "value": "true"
           },
+          "responsive_web_grok_imagine_annotation_enabled": {
+            "value": "true"
+          },
           "responsive_web_grok_community_note_auto_translation_is_enabled": {
             "value": "false"
           },
@@ -17542,7 +17902,7 @@
   {
     "n": "23114",
     "exports": {
-      "queryId": "YyZjE-LuHQ5FiyoctGxCRQ",
+      "queryId": "Udjb-IlWH8mOIeJU_eT_Cg",
       "operationName": "TweetRelatedVideos",
       "operationType": "query",
       "metadata": {
@@ -17579,6 +17939,7 @@
           "longform_notetweets_rich_text_read_enabled",
           "longform_notetweets_inline_media_enabled",
           "responsive_web_grok_image_annotation_enabled",
+          "responsive_web_grok_imagine_annotation_enabled",
           "responsive_web_grok_community_note_auto_translation_is_enabled",
           "responsive_web_enhance_cards_enabled"
         ],
@@ -17686,6 +18047,9 @@
           "responsive_web_grok_image_annotation_enabled": {
             "value": "true"
           },
+          "responsive_web_grok_imagine_annotation_enabled": {
+            "value": "true"
+          },
           "responsive_web_grok_community_note_auto_translation_is_enabled": {
             "value": "false"
           },
@@ -17699,7 +18063,7 @@
   {
     "n": "05008",
     "exports": {
-      "queryId": "ixyC0pbLLeA8Zm79dAvegA",
+      "queryId": "VzG37WSy5GwpTRUr8UfIpg",
       "operationName": "NotificationsTimeline",
       "operationType": "query",
       "metadata": {
@@ -17736,6 +18100,7 @@
           "longform_notetweets_rich_text_read_enabled",
           "longform_notetweets_inline_media_enabled",
           "responsive_web_grok_image_annotation_enabled",
+          "responsive_web_grok_imagine_annotation_enabled",
           "responsive_web_grok_community_note_auto_translation_is_enabled",
           "responsive_web_enhance_cards_enabled"
         ],
@@ -17841,6 +18206,9 @@
             "value": "true"
           },
           "responsive_web_grok_image_annotation_enabled": {
+            "value": "true"
+          },
+          "responsive_web_grok_imagine_annotation_enabled": {
             "value": "true"
           },
           "responsive_web_grok_community_note_auto_translation_is_enabled": {
@@ -17900,6 +18268,12 @@
           }
         }
       }
+    },
+    "func_name": "U",
+    "func_name_init": "N",
+    "query": {
+      "grokMode": "t",
+      "grokModelOptionId": "s"
     }
   },
   {
@@ -17989,7 +18363,7 @@
   {
     "n": "21879",
     "exports": {
-      "queryId": "z8rOShu8ApJWAXzhNlYSXQ",
+      "queryId": "SIyjgZrH10cNatlGnVAwMw",
       "operationName": "BookmarkFolderTimeline",
       "operationType": "query",
       "metadata": {
@@ -18026,6 +18400,7 @@
           "longform_notetweets_rich_text_read_enabled",
           "longform_notetweets_inline_media_enabled",
           "responsive_web_grok_image_annotation_enabled",
+          "responsive_web_grok_imagine_annotation_enabled",
           "responsive_web_grok_community_note_auto_translation_is_enabled",
           "responsive_web_enhance_cards_enabled"
         ],
@@ -18131,6 +18506,9 @@
             "value": "true"
           },
           "responsive_web_grok_image_annotation_enabled": {
+            "value": "true"
+          },
+          "responsive_web_grok_imagine_annotation_enabled": {
             "value": "true"
           },
           "responsive_web_grok_community_note_auto_translation_is_enabled": {
@@ -18172,7 +18550,7 @@
   {
     "n": "49186",
     "exports": {
-      "queryId": "8s3Nms0Jo22O0oVXJqicgw",
+      "queryId": "39C-qksLrnxm0E-5hvG-nw",
       "operationName": "Bookmarks",
       "operationType": "query",
       "metadata": {
@@ -18209,6 +18587,7 @@
           "longform_notetweets_rich_text_read_enabled",
           "longform_notetweets_inline_media_enabled",
           "responsive_web_grok_image_annotation_enabled",
+          "responsive_web_grok_imagine_annotation_enabled",
           "responsive_web_grok_community_note_auto_translation_is_enabled",
           "responsive_web_enhance_cards_enabled"
         ],
@@ -18314,6 +18693,9 @@
             "value": "true"
           },
           "responsive_web_grok_image_annotation_enabled": {
+            "value": "true"
+          },
+          "responsive_web_grok_imagine_annotation_enabled": {
             "value": "true"
           },
           "responsive_web_grok_community_note_auto_translation_is_enabled": {
@@ -18394,7 +18776,7 @@
   {
     "n": "25770",
     "exports": {
-      "queryId": "dNaXRF33YTVZvbg1MhD5Ew",
+      "queryId": "Xg2H2rZMM-eZq7UQe7Y4_A",
       "operationName": "DmAllSearchSlice",
       "operationType": "query",
       "metadata": {
@@ -18405,6 +18787,7 @@
           "rweb_tipjar_consumption_enabled",
           "verified_phone_label_enabled",
           "responsive_web_grok_image_annotation_enabled",
+          "responsive_web_grok_imagine_annotation_enabled",
           "responsive_web_graphql_skip_user_profile_image_extensions_enabled",
           "responsive_web_graphql_timeline_navigation_enabled"
         ],
@@ -18428,6 +18811,9 @@
             "value": "false"
           },
           "responsive_web_grok_image_annotation_enabled": {
+            "value": "true"
+          },
+          "responsive_web_grok_imagine_annotation_enabled": {
             "value": "true"
           },
           "responsive_web_graphql_skip_user_profile_image_extensions_enabled": {
@@ -18456,7 +18842,7 @@
   {
     "n": "07737",
     "exports": {
-      "queryId": "XtA12UtSm4f29PrspFtJ9g",
+      "queryId": "rUg1yrQnbwNaGHl1SkY2Sg",
       "operationName": "DmMutedTimeline",
       "operationType": "query",
       "metadata": {
@@ -18493,6 +18879,7 @@
           "longform_notetweets_rich_text_read_enabled",
           "longform_notetweets_inline_media_enabled",
           "responsive_web_grok_image_annotation_enabled",
+          "responsive_web_grok_imagine_annotation_enabled",
           "responsive_web_grok_community_note_auto_translation_is_enabled",
           "responsive_web_enhance_cards_enabled"
         ],
@@ -18600,6 +18987,9 @@
           "responsive_web_grok_image_annotation_enabled": {
             "value": "true"
           },
+          "responsive_web_grok_imagine_annotation_enabled": {
+            "value": "true"
+          },
           "responsive_web_grok_community_note_auto_translation_is_enabled": {
             "value": "false"
           },
@@ -18665,7 +19055,7 @@
   {
     "n": "45513",
     "exports": {
-      "queryId": "lhMx-65hsT2SY_t7Y-7teA",
+      "queryId": "b-tne9v_heswmxchwbEWGQ",
       "operationName": "GrokConversationItemsByRestId",
       "operationType": "query",
       "metadata": {
@@ -18699,6 +19089,7 @@
           "rweb_tipjar_consumption_enabled",
           "verified_phone_label_enabled",
           "responsive_web_grok_image_annotation_enabled",
+          "responsive_web_grok_imagine_annotation_enabled",
           "responsive_web_grok_community_note_auto_translation_is_enabled",
           "responsive_web_graphql_skip_user_profile_image_extensions_enabled",
           "responsive_web_graphql_timeline_navigation_enabled",
@@ -18797,6 +19188,9 @@
             "value": "false"
           },
           "responsive_web_grok_image_annotation_enabled": {
+            "value": "true"
+          },
+          "responsive_web_grok_imagine_annotation_enabled": {
             "value": "true"
           },
           "responsive_web_grok_community_note_auto_translation_is_enabled": {
@@ -18896,7 +19290,7 @@
   {
     "n": "85289",
     "exports": {
-      "queryId": "EHn5DGLy3J4IDtts5xMHuQ",
+      "queryId": "6asOx92LRobQLhO58m4A7w",
       "operationName": "GrokShare",
       "operationType": "query",
       "metadata": {
@@ -18930,6 +19324,7 @@
           "rweb_tipjar_consumption_enabled",
           "verified_phone_label_enabled",
           "responsive_web_grok_image_annotation_enabled",
+          "responsive_web_grok_imagine_annotation_enabled",
           "responsive_web_grok_community_note_auto_translation_is_enabled",
           "responsive_web_graphql_skip_user_profile_image_extensions_enabled",
           "responsive_web_graphql_timeline_navigation_enabled",
@@ -19030,6 +19425,9 @@
           "responsive_web_grok_image_annotation_enabled": {
             "value": "true"
           },
+          "responsive_web_grok_imagine_annotation_enabled": {
+            "value": "true"
+          },
           "responsive_web_grok_community_note_auto_translation_is_enabled": {
             "value": "false"
           },
@@ -19088,7 +19486,7 @@
   {
     "n": "79604",
     "exports": {
-      "queryId": "Yj7UKRcBLsQgpT0Pa78hTg",
+      "queryId": "uv8MOvQGp_lfe_ZF449yJw",
       "operationName": "ArticleTimeline",
       "operationType": "query",
       "metadata": {
@@ -19125,6 +19523,7 @@
           "longform_notetweets_rich_text_read_enabled",
           "longform_notetweets_inline_media_enabled",
           "responsive_web_grok_image_annotation_enabled",
+          "responsive_web_grok_imagine_annotation_enabled",
           "responsive_web_grok_community_note_auto_translation_is_enabled",
           "responsive_web_enhance_cards_enabled"
         ],
@@ -19232,6 +19631,9 @@
           "responsive_web_grok_image_annotation_enabled": {
             "value": "true"
           },
+          "responsive_web_grok_imagine_annotation_enabled": {
+            "value": "true"
+          },
           "responsive_web_grok_community_note_auto_translation_is_enabled": {
             "value": "false"
           },
@@ -19245,7 +19647,7 @@
   {
     "n": "03508",
     "exports": {
-      "queryId": "42i82wyp5OozCbEnQY-GIQ",
+      "queryId": "-1EhlaX5iQOtZabgPrQVmQ",
       "operationName": "ArticleTweetsTimeline",
       "operationType": "query",
       "metadata": {
@@ -19282,6 +19684,7 @@
           "longform_notetweets_rich_text_read_enabled",
           "longform_notetweets_inline_media_enabled",
           "responsive_web_grok_image_annotation_enabled",
+          "responsive_web_grok_imagine_annotation_enabled",
           "responsive_web_grok_community_note_auto_translation_is_enabled",
           "responsive_web_enhance_cards_enabled"
         ],
@@ -19387,6 +19790,9 @@
             "value": "true"
           },
           "responsive_web_grok_image_annotation_enabled": {
+            "value": "true"
+          },
+          "responsive_web_grok_imagine_annotation_enabled": {
             "value": "true"
           },
           "responsive_web_grok_community_note_auto_translation_is_enabled": {
@@ -19441,7 +19847,7 @@
   {
     "n": "21879",
     "exports": {
-      "queryId": "z8rOShu8ApJWAXzhNlYSXQ",
+      "queryId": "SIyjgZrH10cNatlGnVAwMw",
       "operationName": "BookmarkFolderTimeline",
       "operationType": "query",
       "metadata": {
@@ -19478,6 +19884,7 @@
           "longform_notetweets_rich_text_read_enabled",
           "longform_notetweets_inline_media_enabled",
           "responsive_web_grok_image_annotation_enabled",
+          "responsive_web_grok_imagine_annotation_enabled",
           "responsive_web_grok_community_note_auto_translation_is_enabled",
           "responsive_web_enhance_cards_enabled"
         ],
@@ -19583,6 +19990,9 @@
             "value": "true"
           },
           "responsive_web_grok_image_annotation_enabled": {
+            "value": "true"
+          },
+          "responsive_web_grok_imagine_annotation_enabled": {
             "value": "true"
           },
           "responsive_web_grok_community_note_auto_translation_is_enabled": {
@@ -19624,7 +20034,7 @@
   {
     "n": "49186",
     "exports": {
-      "queryId": "8s3Nms0Jo22O0oVXJqicgw",
+      "queryId": "39C-qksLrnxm0E-5hvG-nw",
       "operationName": "Bookmarks",
       "operationType": "query",
       "metadata": {
@@ -19661,6 +20071,7 @@
           "longform_notetweets_rich_text_read_enabled",
           "longform_notetweets_inline_media_enabled",
           "responsive_web_grok_image_annotation_enabled",
+          "responsive_web_grok_imagine_annotation_enabled",
           "responsive_web_grok_community_note_auto_translation_is_enabled",
           "responsive_web_enhance_cards_enabled"
         ],
@@ -19766,6 +20177,9 @@
             "value": "true"
           },
           "responsive_web_grok_image_annotation_enabled": {
+            "value": "true"
+          },
+          "responsive_web_grok_imagine_annotation_enabled": {
             "value": "true"
           },
           "responsive_web_grok_community_note_auto_translation_is_enabled": {
@@ -19859,7 +20273,7 @@
   {
     "n": "72524",
     "exports": {
-      "queryId": "uzDxeA6USN-EqdiPKh7X6A",
+      "queryId": "SRL-_tw2q2Kgq0OMx5ZRyA",
       "operationName": "AiTrendByRestId",
       "operationType": "query",
       "metadata": {
@@ -19894,6 +20308,7 @@
           "rweb_tipjar_consumption_enabled",
           "verified_phone_label_enabled",
           "responsive_web_grok_image_annotation_enabled",
+          "responsive_web_grok_imagine_annotation_enabled",
           "responsive_web_graphql_timeline_navigation_enabled",
           "responsive_web_graphql_skip_user_profile_image_extensions_enabled",
           "responsive_web_enhance_cards_enabled"
@@ -19994,6 +20409,9 @@
             "value": "false"
           },
           "responsive_web_grok_image_annotation_enabled": {
+            "value": "true"
+          },
+          "responsive_web_grok_imagine_annotation_enabled": {
             "value": "true"
           },
           "responsive_web_graphql_timeline_navigation_enabled": {
@@ -20580,7 +20998,7 @@
   {
     "n": "25770",
     "exports": {
-      "queryId": "dNaXRF33YTVZvbg1MhD5Ew",
+      "queryId": "Xg2H2rZMM-eZq7UQe7Y4_A",
       "operationName": "DmAllSearchSlice",
       "operationType": "query",
       "metadata": {
@@ -20591,6 +21009,7 @@
           "rweb_tipjar_consumption_enabled",
           "verified_phone_label_enabled",
           "responsive_web_grok_image_annotation_enabled",
+          "responsive_web_grok_imagine_annotation_enabled",
           "responsive_web_graphql_skip_user_profile_image_extensions_enabled",
           "responsive_web_graphql_timeline_navigation_enabled"
         ],
@@ -20614,6 +21033,9 @@
             "value": "false"
           },
           "responsive_web_grok_image_annotation_enabled": {
+            "value": "true"
+          },
+          "responsive_web_grok_imagine_annotation_enabled": {
             "value": "true"
           },
           "responsive_web_graphql_skip_user_profile_image_extensions_enabled": {
@@ -20642,7 +21064,7 @@
   {
     "n": "07737",
     "exports": {
-      "queryId": "XtA12UtSm4f29PrspFtJ9g",
+      "queryId": "rUg1yrQnbwNaGHl1SkY2Sg",
       "operationName": "DmMutedTimeline",
       "operationType": "query",
       "metadata": {
@@ -20679,6 +21101,7 @@
           "longform_notetweets_rich_text_read_enabled",
           "longform_notetweets_inline_media_enabled",
           "responsive_web_grok_image_annotation_enabled",
+          "responsive_web_grok_imagine_annotation_enabled",
           "responsive_web_grok_community_note_auto_translation_is_enabled",
           "responsive_web_enhance_cards_enabled"
         ],
@@ -20786,6 +21209,9 @@
           "responsive_web_grok_image_annotation_enabled": {
             "value": "true"
           },
+          "responsive_web_grok_imagine_annotation_enabled": {
+            "value": "true"
+          },
           "responsive_web_grok_community_note_auto_translation_is_enabled": {
             "value": "false"
           },
@@ -20864,7 +21290,7 @@
   {
     "n": "45513",
     "exports": {
-      "queryId": "lhMx-65hsT2SY_t7Y-7teA",
+      "queryId": "b-tne9v_heswmxchwbEWGQ",
       "operationName": "GrokConversationItemsByRestId",
       "operationType": "query",
       "metadata": {
@@ -20898,6 +21324,7 @@
           "rweb_tipjar_consumption_enabled",
           "verified_phone_label_enabled",
           "responsive_web_grok_image_annotation_enabled",
+          "responsive_web_grok_imagine_annotation_enabled",
           "responsive_web_grok_community_note_auto_translation_is_enabled",
           "responsive_web_graphql_skip_user_profile_image_extensions_enabled",
           "responsive_web_graphql_timeline_navigation_enabled",
@@ -20996,6 +21423,9 @@
             "value": "false"
           },
           "responsive_web_grok_image_annotation_enabled": {
+            "value": "true"
+          },
+          "responsive_web_grok_imagine_annotation_enabled": {
             "value": "true"
           },
           "responsive_web_grok_community_note_auto_translation_is_enabled": {
@@ -21095,7 +21525,7 @@
   {
     "n": "85289",
     "exports": {
-      "queryId": "EHn5DGLy3J4IDtts5xMHuQ",
+      "queryId": "6asOx92LRobQLhO58m4A7w",
       "operationName": "GrokShare",
       "operationType": "query",
       "metadata": {
@@ -21129,6 +21559,7 @@
           "rweb_tipjar_consumption_enabled",
           "verified_phone_label_enabled",
           "responsive_web_grok_image_annotation_enabled",
+          "responsive_web_grok_imagine_annotation_enabled",
           "responsive_web_grok_community_note_auto_translation_is_enabled",
           "responsive_web_graphql_skip_user_profile_image_extensions_enabled",
           "responsive_web_graphql_timeline_navigation_enabled",
@@ -21229,6 +21660,9 @@
           "responsive_web_grok_image_annotation_enabled": {
             "value": "true"
           },
+          "responsive_web_grok_imagine_annotation_enabled": {
+            "value": "true"
+          },
           "responsive_web_grok_community_note_auto_translation_is_enabled": {
             "value": "false"
           },
@@ -21292,6 +21726,12 @@
           }
         }
       }
+    },
+    "func_name": "U",
+    "func_name_init": "N",
+    "query": {
+      "grokMode": "t",
+      "grokModelOptionId": "s"
     }
   },
   {
@@ -21433,7 +21873,7 @@
   {
     "n": "45513",
     "exports": {
-      "queryId": "lhMx-65hsT2SY_t7Y-7teA",
+      "queryId": "b-tne9v_heswmxchwbEWGQ",
       "operationName": "GrokConversationItemsByRestId",
       "operationType": "query",
       "metadata": {
@@ -21467,6 +21907,7 @@
           "rweb_tipjar_consumption_enabled",
           "verified_phone_label_enabled",
           "responsive_web_grok_image_annotation_enabled",
+          "responsive_web_grok_imagine_annotation_enabled",
           "responsive_web_grok_community_note_auto_translation_is_enabled",
           "responsive_web_graphql_skip_user_profile_image_extensions_enabled",
           "responsive_web_graphql_timeline_navigation_enabled",
@@ -21565,6 +22006,9 @@
             "value": "false"
           },
           "responsive_web_grok_image_annotation_enabled": {
+            "value": "true"
+          },
+          "responsive_web_grok_imagine_annotation_enabled": {
             "value": "true"
           },
           "responsive_web_grok_community_note_auto_translation_is_enabled": {
@@ -21664,7 +22108,7 @@
   {
     "n": "85289",
     "exports": {
-      "queryId": "EHn5DGLy3J4IDtts5xMHuQ",
+      "queryId": "6asOx92LRobQLhO58m4A7w",
       "operationName": "GrokShare",
       "operationType": "query",
       "metadata": {
@@ -21698,6 +22142,7 @@
           "rweb_tipjar_consumption_enabled",
           "verified_phone_label_enabled",
           "responsive_web_grok_image_annotation_enabled",
+          "responsive_web_grok_imagine_annotation_enabled",
           "responsive_web_grok_community_note_auto_translation_is_enabled",
           "responsive_web_graphql_skip_user_profile_image_extensions_enabled",
           "responsive_web_graphql_timeline_navigation_enabled",
@@ -21798,6 +22243,9 @@
           "responsive_web_grok_image_annotation_enabled": {
             "value": "true"
           },
+          "responsive_web_grok_imagine_annotation_enabled": {
+            "value": "true"
+          },
           "responsive_web_grok_community_note_auto_translation_is_enabled": {
             "value": "false"
           },
@@ -21887,6 +22335,12 @@
           }
         }
       }
+    },
+    "func_name": "U",
+    "func_name_init": "N",
+    "query": {
+      "grokMode": "t",
+      "grokModelOptionId": "s"
     }
   },
   {
@@ -21968,6 +22422,12 @@
           }
         }
       }
+    },
+    "func_name": "U",
+    "func_name_init": "N",
+    "query": {
+      "grokMode": "t",
+      "grokModelOptionId": "s"
     }
   },
   {
@@ -22076,7 +22536,7 @@
   {
     "n": "70422",
     "exports": {
-      "queryId": "SyQe1JP5u8lZDoUgJhqVcA",
+      "queryId": "J_T8_ovMRXm3y50mjMZDNw",
       "operationName": "Favoriters",
       "operationType": "query",
       "metadata": {
@@ -22113,6 +22573,7 @@
           "longform_notetweets_rich_text_read_enabled",
           "longform_notetweets_inline_media_enabled",
           "responsive_web_grok_image_annotation_enabled",
+          "responsive_web_grok_imagine_annotation_enabled",
           "responsive_web_grok_community_note_auto_translation_is_enabled",
           "responsive_web_enhance_cards_enabled"
         ],
@@ -22220,6 +22681,9 @@
           "responsive_web_grok_image_annotation_enabled": {
             "value": "true"
           },
+          "responsive_web_grok_imagine_annotation_enabled": {
+            "value": "true"
+          },
           "responsive_web_grok_community_note_auto_translation_is_enabled": {
             "value": "false"
           },
@@ -22233,7 +22697,7 @@
   {
     "n": "07959",
     "exports": {
-      "queryId": "w4MTA1gB9kUc2tAUDSlq3Q",
+      "queryId": "N6CBiVCFTPuBSYMQ7akSOQ",
       "operationName": "Retweeters",
       "operationType": "query",
       "metadata": {
@@ -22270,6 +22734,7 @@
           "longform_notetweets_rich_text_read_enabled",
           "longform_notetweets_inline_media_enabled",
           "responsive_web_grok_image_annotation_enabled",
+          "responsive_web_grok_imagine_annotation_enabled",
           "responsive_web_grok_community_note_auto_translation_is_enabled",
           "responsive_web_enhance_cards_enabled"
         ],
@@ -22377,6 +22842,9 @@
           "responsive_web_grok_image_annotation_enabled": {
             "value": "true"
           },
+          "responsive_web_grok_imagine_annotation_enabled": {
+            "value": "true"
+          },
           "responsive_web_grok_community_note_auto_translation_is_enabled": {
             "value": "false"
           },
@@ -22390,7 +22858,7 @@
   {
     "n": "48271",
     "exports": {
-      "queryId": "fhMKSR0HdFCFd7Fvf52kKA",
+      "queryId": "d1AcBurz929kX-hsnvMQIg",
       "operationName": "TweetEditHistory",
       "operationType": "query",
       "metadata": {
@@ -22426,6 +22894,7 @@
           "responsive_web_grok_community_note_auto_translation_is_enabled",
           "responsive_web_graphql_skip_user_profile_image_extensions_enabled",
           "responsive_web_grok_image_annotation_enabled",
+          "responsive_web_grok_imagine_annotation_enabled",
           "responsive_web_graphql_timeline_navigation_enabled",
           "creator_subscriptions_tweet_preview_api_enabled",
           "responsive_web_enhance_cards_enabled"
@@ -22529,6 +22998,9 @@
             "value": "false"
           },
           "responsive_web_grok_image_annotation_enabled": {
+            "value": "true"
+          },
+          "responsive_web_grok_imagine_annotation_enabled": {
             "value": "true"
           },
           "responsive_web_graphql_timeline_navigation_enabled": {
@@ -22547,7 +23019,7 @@
   {
     "n": "70422",
     "exports": {
-      "queryId": "SyQe1JP5u8lZDoUgJhqVcA",
+      "queryId": "J_T8_ovMRXm3y50mjMZDNw",
       "operationName": "Favoriters",
       "operationType": "query",
       "metadata": {
@@ -22584,6 +23056,7 @@
           "longform_notetweets_rich_text_read_enabled",
           "longform_notetweets_inline_media_enabled",
           "responsive_web_grok_image_annotation_enabled",
+          "responsive_web_grok_imagine_annotation_enabled",
           "responsive_web_grok_community_note_auto_translation_is_enabled",
           "responsive_web_enhance_cards_enabled"
         ],
@@ -22691,6 +23164,9 @@
           "responsive_web_grok_image_annotation_enabled": {
             "value": "true"
           },
+          "responsive_web_grok_imagine_annotation_enabled": {
+            "value": "true"
+          },
           "responsive_web_grok_community_note_auto_translation_is_enabled": {
             "value": "false"
           },
@@ -22704,7 +23180,7 @@
   {
     "n": "07959",
     "exports": {
-      "queryId": "w4MTA1gB9kUc2tAUDSlq3Q",
+      "queryId": "N6CBiVCFTPuBSYMQ7akSOQ",
       "operationName": "Retweeters",
       "operationType": "query",
       "metadata": {
@@ -22741,6 +23217,7 @@
           "longform_notetweets_rich_text_read_enabled",
           "longform_notetweets_inline_media_enabled",
           "responsive_web_grok_image_annotation_enabled",
+          "responsive_web_grok_imagine_annotation_enabled",
           "responsive_web_grok_community_note_auto_translation_is_enabled",
           "responsive_web_enhance_cards_enabled"
         ],
@@ -22848,6 +23325,9 @@
           "responsive_web_grok_image_annotation_enabled": {
             "value": "true"
           },
+          "responsive_web_grok_imagine_annotation_enabled": {
+            "value": "true"
+          },
           "responsive_web_grok_community_note_auto_translation_is_enabled": {
             "value": "false"
           },
@@ -22861,7 +23341,7 @@
   {
     "n": "48271",
     "exports": {
-      "queryId": "fhMKSR0HdFCFd7Fvf52kKA",
+      "queryId": "d1AcBurz929kX-hsnvMQIg",
       "operationName": "TweetEditHistory",
       "operationType": "query",
       "metadata": {
@@ -22897,6 +23377,7 @@
           "responsive_web_grok_community_note_auto_translation_is_enabled",
           "responsive_web_graphql_skip_user_profile_image_extensions_enabled",
           "responsive_web_grok_image_annotation_enabled",
+          "responsive_web_grok_imagine_annotation_enabled",
           "responsive_web_graphql_timeline_navigation_enabled",
           "creator_subscriptions_tweet_preview_api_enabled",
           "responsive_web_enhance_cards_enabled"
@@ -23000,6 +23481,9 @@
             "value": "false"
           },
           "responsive_web_grok_image_annotation_enabled": {
+            "value": "true"
+          },
+          "responsive_web_grok_imagine_annotation_enabled": {
             "value": "true"
           },
           "responsive_web_graphql_timeline_navigation_enabled": {
@@ -23018,7 +23502,7 @@
   {
     "n": "70422",
     "exports": {
-      "queryId": "SyQe1JP5u8lZDoUgJhqVcA",
+      "queryId": "J_T8_ovMRXm3y50mjMZDNw",
       "operationName": "Favoriters",
       "operationType": "query",
       "metadata": {
@@ -23055,6 +23539,7 @@
           "longform_notetweets_rich_text_read_enabled",
           "longform_notetweets_inline_media_enabled",
           "responsive_web_grok_image_annotation_enabled",
+          "responsive_web_grok_imagine_annotation_enabled",
           "responsive_web_grok_community_note_auto_translation_is_enabled",
           "responsive_web_enhance_cards_enabled"
         ],
@@ -23162,6 +23647,9 @@
           "responsive_web_grok_image_annotation_enabled": {
             "value": "true"
           },
+          "responsive_web_grok_imagine_annotation_enabled": {
+            "value": "true"
+          },
           "responsive_web_grok_community_note_auto_translation_is_enabled": {
             "value": "false"
           },
@@ -23175,7 +23663,7 @@
   {
     "n": "07959",
     "exports": {
-      "queryId": "w4MTA1gB9kUc2tAUDSlq3Q",
+      "queryId": "N6CBiVCFTPuBSYMQ7akSOQ",
       "operationName": "Retweeters",
       "operationType": "query",
       "metadata": {
@@ -23212,6 +23700,7 @@
           "longform_notetweets_rich_text_read_enabled",
           "longform_notetweets_inline_media_enabled",
           "responsive_web_grok_image_annotation_enabled",
+          "responsive_web_grok_imagine_annotation_enabled",
           "responsive_web_grok_community_note_auto_translation_is_enabled",
           "responsive_web_enhance_cards_enabled"
         ],
@@ -23319,6 +23808,9 @@
           "responsive_web_grok_image_annotation_enabled": {
             "value": "true"
           },
+          "responsive_web_grok_imagine_annotation_enabled": {
+            "value": "true"
+          },
           "responsive_web_grok_community_note_auto_translation_is_enabled": {
             "value": "false"
           },
@@ -23332,7 +23824,7 @@
   {
     "n": "48271",
     "exports": {
-      "queryId": "fhMKSR0HdFCFd7Fvf52kKA",
+      "queryId": "d1AcBurz929kX-hsnvMQIg",
       "operationName": "TweetEditHistory",
       "operationType": "query",
       "metadata": {
@@ -23368,6 +23860,7 @@
           "responsive_web_grok_community_note_auto_translation_is_enabled",
           "responsive_web_graphql_skip_user_profile_image_extensions_enabled",
           "responsive_web_grok_image_annotation_enabled",
+          "responsive_web_grok_imagine_annotation_enabled",
           "responsive_web_graphql_timeline_navigation_enabled",
           "creator_subscriptions_tweet_preview_api_enabled",
           "responsive_web_enhance_cards_enabled"
@@ -23471,6 +23964,9 @@
             "value": "false"
           },
           "responsive_web_grok_image_annotation_enabled": {
+            "value": "true"
+          },
+          "responsive_web_grok_imagine_annotation_enabled": {
             "value": "true"
           },
           "responsive_web_graphql_timeline_navigation_enabled": {
@@ -23528,7 +24024,7 @@
   {
     "n": "45513",
     "exports": {
-      "queryId": "lhMx-65hsT2SY_t7Y-7teA",
+      "queryId": "b-tne9v_heswmxchwbEWGQ",
       "operationName": "GrokConversationItemsByRestId",
       "operationType": "query",
       "metadata": {
@@ -23562,6 +24058,7 @@
           "rweb_tipjar_consumption_enabled",
           "verified_phone_label_enabled",
           "responsive_web_grok_image_annotation_enabled",
+          "responsive_web_grok_imagine_annotation_enabled",
           "responsive_web_grok_community_note_auto_translation_is_enabled",
           "responsive_web_graphql_skip_user_profile_image_extensions_enabled",
           "responsive_web_graphql_timeline_navigation_enabled",
@@ -23660,6 +24157,9 @@
             "value": "false"
           },
           "responsive_web_grok_image_annotation_enabled": {
+            "value": "true"
+          },
+          "responsive_web_grok_imagine_annotation_enabled": {
             "value": "true"
           },
           "responsive_web_grok_community_note_auto_translation_is_enabled": {
@@ -23759,7 +24259,7 @@
   {
     "n": "85289",
     "exports": {
-      "queryId": "EHn5DGLy3J4IDtts5xMHuQ",
+      "queryId": "6asOx92LRobQLhO58m4A7w",
       "operationName": "GrokShare",
       "operationType": "query",
       "metadata": {
@@ -23793,6 +24293,7 @@
           "rweb_tipjar_consumption_enabled",
           "verified_phone_label_enabled",
           "responsive_web_grok_image_annotation_enabled",
+          "responsive_web_grok_imagine_annotation_enabled",
           "responsive_web_grok_community_note_auto_translation_is_enabled",
           "responsive_web_graphql_skip_user_profile_image_extensions_enabled",
           "responsive_web_graphql_timeline_navigation_enabled",
@@ -23893,6 +24394,9 @@
           "responsive_web_grok_image_annotation_enabled": {
             "value": "true"
           },
+          "responsive_web_grok_imagine_annotation_enabled": {
+            "value": "true"
+          },
           "responsive_web_grok_community_note_auto_translation_is_enabled": {
             "value": "false"
           },
@@ -23964,7 +24468,7 @@
   {
     "n": "21879",
     "exports": {
-      "queryId": "z8rOShu8ApJWAXzhNlYSXQ",
+      "queryId": "SIyjgZrH10cNatlGnVAwMw",
       "operationName": "BookmarkFolderTimeline",
       "operationType": "query",
       "metadata": {
@@ -24001,6 +24505,7 @@
           "longform_notetweets_rich_text_read_enabled",
           "longform_notetweets_inline_media_enabled",
           "responsive_web_grok_image_annotation_enabled",
+          "responsive_web_grok_imagine_annotation_enabled",
           "responsive_web_grok_community_note_auto_translation_is_enabled",
           "responsive_web_enhance_cards_enabled"
         ],
@@ -24106,6 +24611,9 @@
             "value": "true"
           },
           "responsive_web_grok_image_annotation_enabled": {
+            "value": "true"
+          },
+          "responsive_web_grok_imagine_annotation_enabled": {
             "value": "true"
           },
           "responsive_web_grok_community_note_auto_translation_is_enabled": {
@@ -24147,7 +24655,7 @@
   {
     "n": "49186",
     "exports": {
-      "queryId": "8s3Nms0Jo22O0oVXJqicgw",
+      "queryId": "39C-qksLrnxm0E-5hvG-nw",
       "operationName": "Bookmarks",
       "operationType": "query",
       "metadata": {
@@ -24184,6 +24692,7 @@
           "longform_notetweets_rich_text_read_enabled",
           "longform_notetweets_inline_media_enabled",
           "responsive_web_grok_image_annotation_enabled",
+          "responsive_web_grok_imagine_annotation_enabled",
           "responsive_web_grok_community_note_auto_translation_is_enabled",
           "responsive_web_enhance_cards_enabled"
         ],
@@ -24289,6 +24798,9 @@
             "value": "true"
           },
           "responsive_web_grok_image_annotation_enabled": {
+            "value": "true"
+          },
+          "responsive_web_grok_imagine_annotation_enabled": {
             "value": "true"
           },
           "responsive_web_grok_community_note_auto_translation_is_enabled": {
@@ -24369,7 +24881,7 @@
   {
     "n": "21879",
     "exports": {
-      "queryId": "z8rOShu8ApJWAXzhNlYSXQ",
+      "queryId": "SIyjgZrH10cNatlGnVAwMw",
       "operationName": "BookmarkFolderTimeline",
       "operationType": "query",
       "metadata": {
@@ -24406,6 +24918,7 @@
           "longform_notetweets_rich_text_read_enabled",
           "longform_notetweets_inline_media_enabled",
           "responsive_web_grok_image_annotation_enabled",
+          "responsive_web_grok_imagine_annotation_enabled",
           "responsive_web_grok_community_note_auto_translation_is_enabled",
           "responsive_web_enhance_cards_enabled"
         ],
@@ -24511,6 +25024,9 @@
             "value": "true"
           },
           "responsive_web_grok_image_annotation_enabled": {
+            "value": "true"
+          },
+          "responsive_web_grok_imagine_annotation_enabled": {
             "value": "true"
           },
           "responsive_web_grok_community_note_auto_translation_is_enabled": {
@@ -24552,7 +25068,7 @@
   {
     "n": "49186",
     "exports": {
-      "queryId": "8s3Nms0Jo22O0oVXJqicgw",
+      "queryId": "39C-qksLrnxm0E-5hvG-nw",
       "operationName": "Bookmarks",
       "operationType": "query",
       "metadata": {
@@ -24589,6 +25105,7 @@
           "longform_notetweets_rich_text_read_enabled",
           "longform_notetweets_inline_media_enabled",
           "responsive_web_grok_image_annotation_enabled",
+          "responsive_web_grok_imagine_annotation_enabled",
           "responsive_web_grok_community_note_auto_translation_is_enabled",
           "responsive_web_enhance_cards_enabled"
         ],
@@ -24694,6 +25211,9 @@
             "value": "true"
           },
           "responsive_web_grok_image_annotation_enabled": {
+            "value": "true"
+          },
+          "responsive_web_grok_imagine_annotation_enabled": {
             "value": "true"
           },
           "responsive_web_grok_community_note_auto_translation_is_enabled": {
@@ -24839,7 +25359,7 @@
   {
     "n": "45513",
     "exports": {
-      "queryId": "lhMx-65hsT2SY_t7Y-7teA",
+      "queryId": "b-tne9v_heswmxchwbEWGQ",
       "operationName": "GrokConversationItemsByRestId",
       "operationType": "query",
       "metadata": {
@@ -24873,6 +25393,7 @@
           "rweb_tipjar_consumption_enabled",
           "verified_phone_label_enabled",
           "responsive_web_grok_image_annotation_enabled",
+          "responsive_web_grok_imagine_annotation_enabled",
           "responsive_web_grok_community_note_auto_translation_is_enabled",
           "responsive_web_graphql_skip_user_profile_image_extensions_enabled",
           "responsive_web_graphql_timeline_navigation_enabled",
@@ -24971,6 +25492,9 @@
             "value": "false"
           },
           "responsive_web_grok_image_annotation_enabled": {
+            "value": "true"
+          },
+          "responsive_web_grok_imagine_annotation_enabled": {
             "value": "true"
           },
           "responsive_web_grok_community_note_auto_translation_is_enabled": {
@@ -25070,7 +25594,7 @@
   {
     "n": "85289",
     "exports": {
-      "queryId": "EHn5DGLy3J4IDtts5xMHuQ",
+      "queryId": "6asOx92LRobQLhO58m4A7w",
       "operationName": "GrokShare",
       "operationType": "query",
       "metadata": {
@@ -25104,6 +25628,7 @@
           "rweb_tipjar_consumption_enabled",
           "verified_phone_label_enabled",
           "responsive_web_grok_image_annotation_enabled",
+          "responsive_web_grok_imagine_annotation_enabled",
           "responsive_web_grok_community_note_auto_translation_is_enabled",
           "responsive_web_graphql_skip_user_profile_image_extensions_enabled",
           "responsive_web_graphql_timeline_navigation_enabled",
@@ -25202,6 +25727,9 @@
             "value": "false"
           },
           "responsive_web_grok_image_annotation_enabled": {
+            "value": "true"
+          },
+          "responsive_web_grok_imagine_annotation_enabled": {
             "value": "true"
           },
           "responsive_web_grok_community_note_auto_translation_is_enabled": {
