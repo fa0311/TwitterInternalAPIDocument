@@ -1858,6 +1858,9 @@
       "responsive_web_grok_image_prompts_enabled": {
         "value": "true"
       },
+      "responsive_web_grok_imagine_annotation_enabled": {
+        "value": "true"
+      },
       "responsive_web_grok_img_composer": {
         "value": "true"
       },
@@ -3710,7 +3713,7 @@
         "value": "false"
       },
       "unified_cards_dpa_cta_button_enabled": {
-        "value": "true"
+        "value": "false"
       },
       "unified_cards_dpa_metadata_enabled": {
         "value": "true"
@@ -5651,6 +5654,9 @@
         "responsive_web_grok_image_prompts_enabled": {
           "value": "true"
         },
+        "responsive_web_grok_imagine_annotation_enabled": {
+          "value": "true"
+        },
         "responsive_web_grok_img_composer": {
           "value": "true"
         },
@@ -7503,7 +7509,7 @@
           "value": "false"
         },
         "unified_cards_dpa_cta_button_enabled": {
-          "value": "true"
+          "value": "false"
         },
         "unified_cards_dpa_metadata_enabled": {
           "value": "true"
@@ -7694,7 +7700,7 @@
       "settingsVersion": "52cee5f977da2493a465547c6b116101"
     },
     "debug": {},
-    "featureSetToken": "a6ab84f5314f34226020dc5b2237eb7e69e7d325",
+    "featureSetToken": "2cb77aa2cacea084746048e33d7715b19e2131f2",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -7763,7 +7769,7 @@
   },
   "session": {
     "country": "XX",
-    "guestId": "175460050497032467",
+    "guestId": "175468689885362664",
     "hasCommunityMemberships": "false",
     "isActiveCreator": "false",
     "isLoaded": "false",
