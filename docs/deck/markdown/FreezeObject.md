@@ -717,6 +717,11 @@ This document is entirely auto-generated and may contain errors.<br>
 | TwoFactorAuth                 | TwoFactorAuth                 |
 | Unknown                       | Unknown                       |
 
+| constant   | value    |
+|:-----------|:---------|
+| Pinwheel   | Pinwheel |
+| Unknown    | Unknown  |
+
 | constant                                 | value                                    |
 |:-----------------------------------------|:-----------------------------------------|
 | ThreeDsAuthenticationResponseAllow       | ThreeDsAuthenticationResponseAllow       |
@@ -844,7 +849,7 @@ This document is entirely auto-generated and may contain errors.<br>
 ```
 ```internal process
 # Error
-{"InsufficientFunds":{"headline":"Insufficient funds","message":"You don't have a high enough balance to complete this action.","action":{"link":"s.IN","label":"Deposit"}},"InvalidReceiver":{"getHeadline":"()"{"actionType":"e"}e===d.jq.P2P_TRANSFER_REQUEST?"request":"payment"{"issueReportEnabled":"!...
+{"InsufficientFunds":{"headline":"Insufficient funds","message":"You don't have a high enough balance to complete this action.","action":{"link":"s.IN","label":"Deposit"}},"InvalidReceiver":{"getHeadline":"()"{"actionType":"e"}e===m.jq.P2P_TRANSFER_REQUEST?"request":"payment"{"issueReportEnabled":"!...
 ```
 ```internal process
 # Error
@@ -896,7 +901,7 @@ This document is entirely auto-generated and may contain errors.<br>
 ```
 ```internal process
 # Error
-{[b.R.Ach]:"Bank Transfer ()",[b.R.Aft]:"Funds Transfer (ACH)",[R.t.Oct]:"Instant Payment (AFT)",[R.t.DomesticWire]:"Wire Transfer",[R.t.Ach]:"Bank Transfer (OCT)"}
+{[T.R.Ach]:"Bank Transfer ()",[T.R.Aft]:"Funds Transfer (ACH)",[R.t.Oct]:"Instant Payment (AFT)",[R.t.DomesticWire]:"Wire Transfer",[R.t.Ach]:"Bank Transfer (OCT)"}
 ```
 | constant   | value     |
 |:-----------|:----------|
