@@ -6661,3 +6661,14 @@
 - xchat_user_event_limit<br>
 #### remove<br>
 - None<br>
+## 2025/08/12<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- payments_tracing_reports_enabled<br>
+#### remove<br>
+- payments_tracing_hook_url<br>
