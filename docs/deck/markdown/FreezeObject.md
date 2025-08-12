@@ -29,12 +29,6 @@ This document is entirely auto-generated and may contain errors.<br>
 | Expand     | expand  |
 | Remove     | remove  |
 
-| constant    | value       |
-|:------------|:------------|
-| on          | on          |
-| off         | off         |
-| unavailable | unavailable |
-
 | constant               |   value |
 |:-----------------------|--------:|
 | RequestSubmitted       |       1 |
@@ -82,12 +76,6 @@ This document is entirely auto-generated and may contain errors.<br>
 | JanusPollerResponseParseError                       | JanusPollerResponseParseError                       |
 | JanusPollerResponseEnumUnknown                      | JanusPollerResponseEnumUnknown                      |
 | JanusPollerResponseEnumError                        | JanusPollerResponseEnumError                        |
-
-| constant    | value       |
-|:------------|:------------|
-| Draft       | Draft       |
-| Published   | Published   |
-| SoftDeleted | SoftDeleted |
 
 | constant   |   value |
 |:-----------|--------:|
@@ -144,6 +132,13 @@ This document is entirely auto-generated and may contain errors.<br>
 |:------------|:------------|
 | VIDEO       | VIDEO       |
 | SHORT_VIDEO | SHORT_VIDEO |
+
+| constant   |   value |
+|:-----------|--------:|
+| large      |      54 |
+| medium     |      46 |
+| small      |      36 |
+| xSmall     |      12 |
 
 ```internal process
 # Error
@@ -831,14 +826,6 @@ This document is entirely auto-generated and may contain errors.<br>
 | UnrecognizedPaymentDecisionReject      | UnrecognizedPaymentDecisionReject      |
 | UnrecognizedPaymentDecisionUnspecified | UnrecognizedPaymentDecisionUnspecified |
 
-| constant   | value    |
-|:-----------|:---------|
-| small      | small    |
-| xLarge     | xLarge   |
-| xxLarge    | xxLarge  |
-| xxxLarge   | xxxLarge |
-| xJumbo     | xJumbo   |
-
 ```internal process
 # Error
 {[b.S.Alert]:"danger",[b.S.Info]:"primary",[b.S.Warning]:"warning"}
@@ -849,7 +836,7 @@ This document is entirely auto-generated and may contain errors.<br>
 ```
 ```internal process
 # Error
-{"InsufficientFunds":{"headline":"Insufficient funds","message":"You don't have a high enough balance to complete this action.","action":{"link":"s.IN","label":"Deposit"}},"InvalidReceiver":{"getHeadline":"()"{"actionType":"e"}e===m.jq.P2P_TRANSFER_REQUEST?"request":"payment"{"issueReportEnabled":"!...
+{"InsufficientFunds":{"headline":"Insufficient funds","message":"You don't have a high enough balance to complete this action.","action":{"link":"s.IN","label":"Deposit"}},"InvalidReceiver":{"getHeadline":"()"{"actionType":"e"}e===d.jq.P2P_TRANSFER_REQUEST?"request":"payment"{"issueReportEnabled":"!...
 ```
 ```internal process
 # Error
