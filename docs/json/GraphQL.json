@@ -9435,6 +9435,11 @@
           }
         }
       }
+    },
+    "func_name": "f",
+    "func_name_init": "D",
+    "query": {
+      "...t": "_"
     }
   },
   {
@@ -10382,6 +10387,11 @@
           }
         }
       }
+    },
+    "func_name": "A",
+    "func_name_init": "x",
+    "query": {
+      "conversationId": "t"
     }
   },
   {
