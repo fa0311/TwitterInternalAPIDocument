@@ -2128,6 +2128,9 @@
       "responsive_web_logged_out_grok_button_enabled": {
         "value": "false"
       },
+      "responsive_web_logged_out_ios_redesign_enabled": {
+        "value": "false"
+      },
       "responsive_web_logged_out_notifications_enabled": {
         "value": "true"
       },
@@ -5799,7 +5802,7 @@
           "value": "false"
         },
         "responsive_web_grok_show_cards_at_top": {
-          "value": "false"
+          "value": "true"
         },
         "responsive_web_grok_show_citations": {
           "value": "true"
@@ -5946,6 +5949,9 @@
           "value": "false"
         },
         "responsive_web_logged_out_grok_button_enabled": {
+          "value": "false"
+        },
+        "responsive_web_logged_out_ios_redesign_enabled": {
           "value": "false"
         },
         "responsive_web_logged_out_notifications_enabled": {
@@ -7745,10 +7751,10 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "beeeb8a908efe9e1cec5e0f93f1c282e"
+      "settingsVersion": "ae56dd25539d6156242a5223b586ce30"
     },
     "debug": {},
-    "featureSetToken": "9fa56a3251c88af0a4ba25e6205efe1e743b5317",
+    "featureSetToken": "0a4a7da9765c8b9656060e1c0eb96b2ca58af91f",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -7817,7 +7823,7 @@
   },
   "session": {
     "country": "XX",
-    "guestId": "175503305211572450",
+    "guestId": "175511952445141070",
     "hasCommunityMemberships": "false",
     "isActiveCreator": "false",
     "isLoaded": "false",
