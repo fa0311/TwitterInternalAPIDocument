@@ -3201,7 +3201,10 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-`None`<br>
+| key   | type   | variable   |
+|:------|:-------|:-----------|
+| ...t  | ...    | _          |
+
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
@@ -6561,11 +6564,7 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key               | type   | variable   |
-|:------------------|:-------|:-----------|
-| grokMode          | ...    | t          |
-| grokModelOptionId | ...    | s          |
-
+`None`<br>
 #### features<br>
 | key                                              | type    | variable   |
 |:-------------------------------------------------|:--------|:-----------|
@@ -8154,11 +8153,7 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key               | type   | variable   |
-|:------------------|:-------|:-----------|
-| grokMode          | ...    | t          |
-| grokModelOptionId | ...    | s          |
-
+`None`<br>
 #### features<br>
 | key                                              | type    | variable   |
 |:-------------------------------------------------|:--------|:-----------|
@@ -8490,11 +8485,7 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key               | type   | variable   |
-|:------------------|:-------|:-----------|
-| grokMode          | ...    | t          |
-| grokModelOptionId | ...    | s          |
-
+`None`<br>
 #### features<br>
 | key                                              | type    | variable   |
 |:-------------------------------------------------|:--------|:-----------|
@@ -8556,11 +8547,7 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key               | type   | variable   |
-|:------------------|:-------|:-----------|
-| grokMode          | ...    | t          |
-| grokModelOptionId | ...    | s          |
-
+`None`<br>
 #### features<br>
 | key                                              | type    | variable   |
 |:-------------------------------------------------|:--------|:-----------|

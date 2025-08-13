@@ -29,12 +29,6 @@ This document is entirely auto-generated and may contain errors.<br>
 | Expand     | expand  |
 | Remove     | remove  |
 
-| constant    | value       |
-|:------------|:------------|
-| on          | on          |
-| off         | off         |
-| unavailable | unavailable |
-
 | constant               |   value |
 |:-----------------------|--------:|
 | RequestSubmitted       |       1 |
@@ -82,12 +76,6 @@ This document is entirely auto-generated and may contain errors.<br>
 | JanusPollerResponseParseError                       | JanusPollerResponseParseError                       |
 | JanusPollerResponseEnumUnknown                      | JanusPollerResponseEnumUnknown                      |
 | JanusPollerResponseEnumError                        | JanusPollerResponseEnumError                        |
-
-| constant    | value       |
-|:------------|:------------|
-| Draft       | Draft       |
-| Published   | Published   |
-| SoftDeleted | SoftDeleted |
 
 | constant   |   value |
 |:-----------|--------:|
@@ -144,6 +132,13 @@ This document is entirely auto-generated and may contain errors.<br>
 |:------------|:------------|
 | VIDEO       | VIDEO       |
 | SHORT_VIDEO | SHORT_VIDEO |
+
+| constant   |   value |
+|:-----------|--------:|
+| large      |      54 |
+| medium     |      46 |
+| small      |      36 |
+| xSmall     |      12 |
 
 ```internal process
 # Error
@@ -717,6 +712,11 @@ This document is entirely auto-generated and may contain errors.<br>
 | TwoFactorAuth                 | TwoFactorAuth                 |
 | Unknown                       | Unknown                       |
 
+| constant   | value    |
+|:-----------|:---------|
+| Pinwheel   | Pinwheel |
+| Unknown    | Unknown  |
+
 | constant                                 | value                                    |
 |:-----------------------------------------|:-----------------------------------------|
 | ThreeDsAuthenticationResponseAllow       | ThreeDsAuthenticationResponseAllow       |
@@ -826,14 +826,6 @@ This document is entirely auto-generated and may contain errors.<br>
 | UnrecognizedPaymentDecisionReject      | UnrecognizedPaymentDecisionReject      |
 | UnrecognizedPaymentDecisionUnspecified | UnrecognizedPaymentDecisionUnspecified |
 
-| constant   | value    |
-|:-----------|:---------|
-| small      | small    |
-| xLarge     | xLarge   |
-| xxLarge    | xxLarge  |
-| xxxLarge   | xxxLarge |
-| xJumbo     | xJumbo   |
-
 ```internal process
 # Error
 {[b.S.Alert]:"danger",[b.S.Info]:"primary",[b.S.Warning]:"warning"}
@@ -896,7 +888,7 @@ This document is entirely auto-generated and may contain errors.<br>
 ```
 ```internal process
 # Error
-{[b.R.Ach]:"Bank Transfer ()",[b.R.Aft]:"Funds Transfer (ACH)",[R.t.Oct]:"Instant Payment (AFT)",[R.t.DomesticWire]:"Wire Transfer",[R.t.Ach]:"Bank Transfer (OCT)"}
+{[T.R.Ach]:"Bank Transfer ()",[T.R.Aft]:"Funds Transfer (ACH)",[R.t.Oct]:"Instant Payment (AFT)",[R.t.DomesticWire]:"Wire Transfer",[R.t.Ach]:"Bank Transfer (OCT)"}
 ```
 | constant   | value     |
 |:-----------|:----------|
