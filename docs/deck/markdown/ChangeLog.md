@@ -5642,3 +5642,16 @@
 - responsive_web_logged_out_ios_redesign_enabled<br>
 #### remove<br>
 - None<br>
+## 2025/08/14<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- responsive_web_live_screen_enabled<br>
+- responsive_web_logged_out_blue_brand_button_enabled<br>
+- responsive_web_logged_out_grok_button_enabled<br>
