@@ -848,7 +848,7 @@ This document is entirely auto-generated and may contain errors.<br>
 ```
 ```internal process
 # Error
-{"InsufficientFunds":{"headline":"Insufficient funds","message":"You don't have a high enough balance to complete this action.","action":{"link":"s.IN","label":"Deposit"}},"InvalidReceiver":{"getHeadline":"()"{"actionType":"e"}e===d.jq.P2P_TRANSFER_REQUEST?"request":"payment"{"issueReportEnabled":"!...
+{"InsufficientFunds":{"headline":"Insufficient funds","message":"You don't have a high enough balance to complete this action.","action":{"link":"i.IN","label":"Deposit"}},"InvalidReceiver":{"getHeadline":"()"{"actionType":"e"}e===c.jq.P2P_TRANSFER_REQUEST?"request":"payment"{"issueReportEnabled":"!...
 ```
 ```internal process
 # Error
@@ -860,11 +860,11 @@ This document is entirely auto-generated and may contain errors.<br>
 ```
 ```internal process
 # Error
-{[v.g.PendingRecipientAcceptance]:"K",[v.g.PendingRecipientOnboarding]:"K",[v.g.PendingRecipientAction]:"K"}
+{[v.g.PendingRecipientAcceptance]:"E",[v.g.PendingRecipientOnboarding]:"E",[v.g.PendingRecipientAction]:"E"}
 ```
 ```internal process
 # Error
-{[v.g.AwaitingRequestAcceptance]:"K",[v.g.PendingRequestAcceptance]:"K",[v.g.RequestVerificationRequired]:"K"}
+{[v.g.AwaitingRequestAcceptance]:"E",[v.g.PendingRequestAcceptance]:"E",[v.g.RequestVerificationRequired]:"E"}
 ```
 ```internal process
 # Error
