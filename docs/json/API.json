@@ -5343,6 +5343,12 @@
       "method": "GET",
       "features": {}
     },
+    "CommunityBoostFetchPublicData": {
+      "url": "https://x.com/i/api/graphql/mtel1c9ozKWaWr9-D2wMwg/CommunityBoostFetchPublicData",
+      "queryId": "mtel1c9ozKWaWr9-D2wMwg",
+      "method": "GET",
+      "features": {}
+    },
     "ActionTrend": {
       "url": "https://x.com/i/api/graphql/imr0xefZmILHTgb6-9pe3g/ActionTrend",
       "queryId": "imr0xefZmILHTgb6-9pe3g",
