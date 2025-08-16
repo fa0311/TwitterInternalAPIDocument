@@ -118,21 +118,6 @@ This document is entirely auto-generated and may contain errors.<br>
 # Error
 {[r.wide]:"500",[r.narrow]:"300",[r.veryNarrow]:"200"}
 ```
-| constant   | value   |
-|:-----------|:--------|
-| None       | None    |
-| Home       | Home    |
-| List       | List    |
-| Player     | Player  |
-| Setting    | Setting |
-| Search     | Search  |
-| Unknown    | Unknown |
-
-| constant    | value       |
-|:------------|:------------|
-| VIDEO       | VIDEO       |
-| SHORT_VIDEO | SHORT_VIDEO |
-
 ```internal process
 # Error
 {"__proto__":"null","formatCaption":"function()"{"return()(0,a.WU)"},"formatDay":"function()"{"return()(0,a.WU)"},"formatMonthCaption":"function()"{"return()(0,a.WU)"},"formatWeekNumber":"function()"{return"".concat()},"formatWeekdayName":"function()"{"return()(0,a.WU)"},"formatYearCaption":"functio...
