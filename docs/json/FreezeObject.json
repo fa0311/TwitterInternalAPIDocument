@@ -5,11 +5,6 @@
     "Upcoming": "Upcoming"
   },
   {
-    "Active": "Active",
-    "Unspecified": "Unspecified",
-    "VerificationRequired": "VerificationRequired"
-  },
-  {
     "BalanceLevelFour": "BalanceLevelFour",
     "BalanceLevelOne": "BalanceLevelOne",
     "BalanceLevelThree": "BalanceLevelThree",
@@ -231,7 +226,7 @@
     "...d": "_"
   },
   {
-    "...t": "_"
+    "...s": "_"
   },
   {
     "instructions": []
@@ -695,8 +690,8 @@
     "columnWidthsRedesign": "r",
     "sideNavWidths": "n",
     "sideNavWidthsRedesign": "l",
-    "contentWidths": "t",
-    "contentWidthsRedesign": "s",
+    "contentWidths": "s",
+    "contentWidthsRedesign": "t",
     "wideTabBarWidth": "u",
     "dmDrawerHeight": "c",
     "dmDrawerWidth": "D"
@@ -799,7 +794,7 @@
     "Always": "always"
   },
   {
-    "latency": "t.BEST_EFFORT"
+    "latency": "s.BEST_EFFORT"
   },
   {
     "ContinueWith": "continue_with",
@@ -807,13 +802,13 @@
     "SignUp": "signup"
   },
   {
-    "createAccountLabel": "t().eb022176",
-    "createAccountPhoneEmailLabel": "t().gcfef7b6",
-    "logInLabel": "t().e919c3bc",
-    "signInLabel": "t().e5b0e544",
-    "signUpLabel": "t().a565833e",
-    "signUpPhoneEmailLabel": "t().eb022176",
-    "useAppLabel": "t().gd93944e"
+    "createAccountLabel": "s().eb022176",
+    "createAccountPhoneEmailLabel": "s().gcfef7b6",
+    "logInLabel": "s().e919c3bc",
+    "signInLabel": "s().e5b0e544",
+    "signUpLabel": "s().a565833e",
+    "signUpPhoneEmailLabel": "s().eb022176",
+    "useAppLabel": "s().gd93944e"
   },
   {
     "Control": "control",
@@ -853,7 +848,7 @@
     "checkMeta": "checkMeta",
     "directDepositSetup": "directDepositSetup"
   },
-  "{[fe.onboarding]:{\"path\":`${\"we\"}/onboarding`,\"defaultClosePath\":\"/\",\"redirectOnCompletion\":\"!0\",\"invalidateOnClose\":\"!0\"},[fe.upgradeToKycVerified]:{\"path\":`${\"we\"}/tier2`,\"defaultClosePath\":\"/\",\"redirectOnCompletion\":\"!0\",\"invalidateOnClose\":\"!0\"},[fe.upgradeToKycDocumentsVerified]:{\"path\":`${\"we\"}/tier3`,\"defaultClosePath\":\"/\",\"redirectOnCompletion\":\"!0\",\"invalidateOnClose\":\"!0\"},[fe.selfieVerification]:{\"path\":`${\"we\"}/selfie`,\"defaultClosePath\":\"/\",\"redirectOnCompletion\":\"!0\",\"invalidateOnClose\":\"!0\"},[fe.updateName]:{\"path\":`${\"we\"}/update`,\"defaultClosePath\":\"ue.personal\",\"redirectOnCompletion\":\"!0\",\"invalidateOnClose\":\"!0\"},[fe.updateAddress]:{\"path\":`${\"we\"}/update`,\"defaultClosePath\":\"ue.personal\",\"redirectOnCompletion\":\"!0\",\"invalidateOnClose\":\"!0\"},[fe.questions]:{\"path\":`${\"we\"}/questions`,\"defaultClosePath\":\"t\",\"redirectOnCompletion\":\"!0\",\"invalidateOnClose\":\"!0\"},[fe.updatePin]:{\"path\":`${\"we\"}/update-pin`,\"defaultClosePath\":\"ue.securityPrivacy\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\"},[fe.forgotPin]:{\"path\":`${\"we\"}/forgot-pin`,\"defaultClosePath\":\"ue.securityPrivacy\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\"},[fe.changeCardPin]:{\"path\":`${\"we\"}/change-card-pin`,\"defaultClosePath\":\"J\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\"},[fe.accountRouting]:{\"path\":`${\"we\"}/account-routing-numbers`,\"defaultClosePath\":\"t\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"allowClipboardWrite\":\"!0\",\"invalidateOnClose\":\"!1\"},[fe.challenge]:{\"path\":`${\"we\"}/challenge`,\"defaultClosePath\":\"/\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!0\"},[fe.personal]:{\"path\":`${\"we\"}/info`,\"defaultClosePath\":\"ue.personal\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"invalidateOnClose\":\"!1\"},[fe.knownDevices]:{\"path\":`${\"we\"}/known-devices`,\"defaultClosePath\":\"ue.deviceSecurity\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"invalidateOnClose\":\"!1\"},[fe.knownDevice]:{\"path\":`${\"we\"}/known-device`,\"defaultClosePath\":\"De.knownDevices\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"invalidateOnClose\":\"!1\"},[fe.cardOnboarding]:{\"path\":`${\"we\"}/order-card`,\"defaultClosePath\":\"t\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\"},[fe.address]:{\"path\":`${\"we\"}/address`,\"defaultClosePath\":\"J\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"invalidateOnClose\":\"!1\"},[fe.contacts]:{\"path\":`${\"we\"}/contacts`,\"defaultClosePath\":\"t\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"invalidateOnClose\":\"!1\"},[fe.contactData]:{\"path\":e=>e?.id?`${\"we\"}/contacts/${\"e.id\"}/data`:\"\",\"defaultClosePath\":\"t\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"invalidateOnClose\":\"!1\"},[fe.contactDetails]:{\"path\":e=>e?.id?`${\"we\"}/contacts/${\"e.id\"}`:\"\",\"defaultClosePath\":\"t\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"invalidateOnClose\":\"!1\"},[fe.createContact]:{\"path\":`${\"we\"}/contacts/create`,\"defaultClosePath\":\"t\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\"},[fe.updateContact]:{\"path\":e=>e?.id?`${\"we\"}/contacts/${\"e.id\"}/update`:\"\",\"defaultClosePath\":\"t\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\"},[fe.wireMeta]:{\"path\":e=>e?.id?`${\"we\"}/transactions/${\"e.id\"}/wire`:\"\",\"defaultClosePath\":\"t\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"invalidateOnClose\":\"!1\"},[fe.checkMeta]:{\"path\":e=>e?.id?`${\"we\"}/transactions/${\"e.id\"}/check`:\"\",\"defaultClosePath\":\"t\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"invalidateOnClose\":\"!1\"}}",
+  "{[fe.onboarding]:{\"path\":`${\"we\"}/onboarding`,\"defaultClosePath\":\"/\",\"redirectOnCompletion\":\"!0\",\"invalidateOnClose\":\"!0\"},[fe.upgradeToKycVerified]:{\"path\":`${\"we\"}/tier2`,\"defaultClosePath\":\"/\",\"redirectOnCompletion\":\"!0\",\"invalidateOnClose\":\"!0\"},[fe.upgradeToKycDocumentsVerified]:{\"path\":`${\"we\"}/tier3`,\"defaultClosePath\":\"/\",\"redirectOnCompletion\":\"!0\",\"invalidateOnClose\":\"!0\"},[fe.selfieVerification]:{\"path\":`${\"we\"}/selfie`,\"defaultClosePath\":\"/\",\"redirectOnCompletion\":\"!0\",\"invalidateOnClose\":\"!0\"},[fe.updateName]:{\"path\":`${\"we\"}/update`,\"defaultClosePath\":\"ue.personal\",\"redirectOnCompletion\":\"!0\",\"invalidateOnClose\":\"!0\"},[fe.updateAddress]:{\"path\":`${\"we\"}/update`,\"defaultClosePath\":\"ue.personal\",\"redirectOnCompletion\":\"!0\",\"invalidateOnClose\":\"!0\"},[fe.questions]:{\"path\":`${\"we\"}/questions`,\"defaultClosePath\":\"s\",\"redirectOnCompletion\":\"!0\",\"invalidateOnClose\":\"!0\"},[fe.updatePin]:{\"path\":`${\"we\"}/update-pin`,\"defaultClosePath\":\"ue.securityPrivacy\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\"},[fe.forgotPin]:{\"path\":`${\"we\"}/forgot-pin`,\"defaultClosePath\":\"ue.securityPrivacy\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\"},[fe.changeCardPin]:{\"path\":`${\"we\"}/change-card-pin`,\"defaultClosePath\":\"J\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\"},[fe.accountRouting]:{\"path\":`${\"we\"}/account-routing-numbers`,\"defaultClosePath\":\"s\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"allowClipboardWrite\":\"!0\",\"invalidateOnClose\":\"!1\"},[fe.challenge]:{\"path\":`${\"we\"}/challenge`,\"defaultClosePath\":\"/\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!0\"},[fe.personal]:{\"path\":`${\"we\"}/info`,\"defaultClosePath\":\"ue.personal\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"invalidateOnClose\":\"!1\"},[fe.knownDevices]:{\"path\":`${\"we\"}/known-devices`,\"defaultClosePath\":\"ue.deviceSecurity\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"invalidateOnClose\":\"!1\"},[fe.knownDevice]:{\"path\":`${\"we\"}/known-device`,\"defaultClosePath\":\"De.knownDevices\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"invalidateOnClose\":\"!1\"},[fe.cardOnboarding]:{\"path\":`${\"we\"}/order-card`,\"defaultClosePath\":\"s\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\"},[fe.address]:{\"path\":`${\"we\"}/address`,\"defaultClosePath\":\"J\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"invalidateOnClose\":\"!1\"},[fe.contacts]:{\"path\":`${\"we\"}/contacts`,\"defaultClosePath\":\"s\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"invalidateOnClose\":\"!1\"},[fe.contactData]:{\"path\":e=>e?.id?`${\"we\"}/contacts/${\"e.id\"}/data`:\"\",\"defaultClosePath\":\"s\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"invalidateOnClose\":\"!1\"},[fe.contactDetails]:{\"path\":e=>e?.id?`${\"we\"}/contacts/${\"e.id\"}`:\"\",\"defaultClosePath\":\"s\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"invalidateOnClose\":\"!1\"},[fe.createContact]:{\"path\":`${\"we\"}/contacts/create`,\"defaultClosePath\":\"s\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\"},[fe.updateContact]:{\"path\":e=>e?.id?`${\"we\"}/contacts/${\"e.id\"}/update`:\"\",\"defaultClosePath\":\"s\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\"},[fe.wireMeta]:{\"path\":e=>e?.id?`${\"we\"}/transactions/${\"e.id\"}/wire`:\"\",\"defaultClosePath\":\"s\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"invalidateOnClose\":\"!1\"},[fe.checkMeta]:{\"path\":e=>e?.id?`${\"we\"}/transactions/${\"e.id\"}/check`:\"\",\"defaultClosePath\":\"s\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"invalidateOnClose\":\"!1\"}}",
   {
     "tier2": "tier2",
     "tier3": "tier3",
@@ -881,6 +876,11 @@
   },
   {
     "address": "address"
+  },
+  {
+    "Active": "Active",
+    "Unspecified": "Unspecified",
+    "VerificationRequired": "VerificationRequired"
   },
   {
     "CustomerNotFound": "CustomerNotFound",
@@ -1452,8 +1452,8 @@
     "LIST": "List"
   },
   {
-    "...t": "_",
     "...s": "_",
+    "...t": "_",
     "GENERIC": "Generic"
   },
   {
@@ -2229,7 +2229,7 @@
     "gold500": "gold500"
   },
   {
-    "...t()": "_",
+    "...s()": "_",
     "activeFaintGray": "rgba(n.CV.light)",
     "activeBlack": "l.bs.black(230, 236, 240, 0.7)",
     "hoverBlack": "l.bs.black(.07)",
@@ -2256,7 +2256,7 @@
   },
   {
     "...b": "_",
-    "...t()": "_",
+    "...s()": "_",
     "text": "#141D26",
     "gray700": "#3B4C5C",
     "gray300": "#697987",
@@ -2272,7 +2272,7 @@
     "buttonOutlinedBorder": "o.default.color.baseColor.gray700"
   },
   {
-    "...t()": "_",
+    "...s()": "_",
     "activeFaintGray": "rgba(n.CV.dark)",
     "activeBlack": "l.bs.white(20, 29, 38, 0.7)",
     "hoverBlack": "l.bs.white(.07)",
@@ -2299,7 +2299,7 @@
   },
   {
     "...p": "_",
-    "...t()": "_",
+    "...s()": "_",
     "text": "l.Cj",
     "navigationBackground95": "#15202B",
     "unreadCellBackground": "#325D7D",
@@ -2309,7 +2309,7 @@
     "buttonOutlinedBorder": "o.default.color.baseColor.gray300"
   },
   {
-    "...t()": "_",
+    "...s()": "_",
     "activeFaintGray": "rgba(n.CV.darker)",
     "activeBlack": "l.bs.white(18, 21, 23, 0.7)",
     "hoverBlack": "l.bs.white(.07)",
@@ -2337,7 +2337,7 @@
   },
   {
     "...w": "_",
-    "...t()": "_",
+    "...s()": "_",
     "text": "l.Cj",
     "navigationBackground": "#050505",
     "navigationBackground95": "#050505",
@@ -2351,7 +2351,7 @@
     "buttonOutlinedBorder": "o.default.color.baseColor.gray300"
   },
   {
-    "...t()": "_",
+    "...s()": "_",
     "activeFaintGray": "rgba(n.CV.business)",
     "activeBlack": "l.bs.white(20, 29, 38, 0.7)",
     "hoverBlack": "l.bs.white(.07)",
@@ -2405,10 +2405,10 @@
     "gutterVerticalPx": "f.space12"
   },
   {
-    "aspectRatios": "t",
+    "aspectRatios": "s",
     "baseFontSize": "y",
     "borderRadii": "i",
-    "borderRadiiPx": "s",
+    "borderRadiiPx": "t",
     "borderWidths": "c",
     "borderWidthsPx": "u",
     "breakpoints": "n",
@@ -2424,7 +2424,7 @@
     "spaces": "w",
     "spacesPx": "f"
   },
-  "{\"...b()\":{\"scale\":\"l\",\"scales\":\"t\"}\"na0\",M.obd,a,\"r\"}",
+  "{\"...b()\":{\"scale\":\"l\",\"scales\":\"s\"}\"na0\",M.obd,a,\"r\"}",
   {
     "BROADCAST": "broadcast",
     "DM": "dm",
@@ -4189,6 +4189,11 @@
     "FAILURE": "rweb/bookmarkFolders/CREATE_BOOKMARK_FOLDERS_FAILURE"
   },
   {
+    "X_BACKEND": "X_BACKEND",
+    "IN_PROGRESS": "MIGRATION_IN_PROGRESS",
+    "XAI_BACKEND": "XAI_BACKEND"
+  },
+  {
     "FUN": "fun",
     "REGULAR": ""
   },
@@ -5211,7 +5216,7 @@
     "darker": "dark",
     "business": "business"
   },
-  "{[b.sj.AMPLIFY]:{\"conversionHandler\":\"a.R\",\"shouldRenderCard\":\"a.r\"},[b.sj.APP]:{\"conversionHandler\":\"o.F\",\"shouldRenderCard\":\"o.V\"},[b.sj.AUDIOSPACE]:{\"conversionHandler\":\"s.x\",\"shouldRenderCard\":\"s.W\"},[b.sj.BROADCAST]:{\"conversionHandler\":\"d.K\",\"shouldRenderCard\":\"d.Q\"},[b.sj.DIRECT_STORE_LINK_APP]:{\"conversionHandler\":\"r.T\",\"shouldRenderCard\":\"r.B\"},[b.sj.IMAGE_DIRECT_MESSAGE]:{\"conversionHandler\":\"l.a\",\"shouldRenderCard\":\"l.R\"},[b.sj.LIVE_EVENT]:{\"conversionHandler\":\"_.q\",\"shouldRenderCard\":\"_.C\"},[b.sj.MESSAGE_ME]:{\"conversionHandler\":\"c.I\",\"shouldRenderCard\":\"c.i\"},[b.sj.MOMENT]:{\"conversionHandler\":\"p.l\",\"shouldRenderCard\":\"p.Z\"},[b.sj.NEWSLETTER_ISSUE]:{\"conversionHandler\":\"null\",\"shouldRenderCard\":()=>!1},[b.sj.NEWSLETTER_PUBLICATION]:{\"conversionHandler\":\"null\",\"shouldRenderCard\":()=>!1},[b.sj.NOTE]:{\"conversionHandler\":\"m.R\",\"shouldRenderCard\":\"m.q\"},[b.sj.PERISCOPE_BROADCAST]:{\"conversionHandler\":\"u.w\",\"shouldRenderCard\":\"u.y\"},[b.sj.PLAYER]:{\"conversionHandler\":\"y.L\",\"shouldRenderCard\":\"y.F\"},[b.sj.POLL_2_CHOICE_TEXT]:{\"conversionHandler\":\"I.J\",\"shouldRenderCard\":\"I.l\"},[b.sj.POLL_3_CHOICE_TEXT]:{\"conversionHandler\":\"I.J\",\"shouldRenderCard\":\"I.l\"},[b.sj.POLL_4_CHOICE_TEXT]:{\"conversionHandler\":\"I.J\",\"shouldRenderCard\":\"I.l\"},[b.sj.POLL_2_CHOICE_IMAGE]:{\"conversionHandler\":\"I.J\",\"shouldRenderCard\":\"I.l\"},[b.sj.POLL_3_CHOICE_IMAGE]:{\"conversionHandler\":\"I.J\",\"shouldRenderCard\":\"I.l\"},[b.sj.POLL_4_CHOICE_IMAGE]:{\"conversionHandler\":\"I.J\",\"shouldRenderCard\":\"I.l\"},[b.sj.POLL_2_CHOICE_VIDEO]:{\"conversionHandler\":\"I.J\",\"shouldRenderCard\":\"I.l\"},[b.sj.POLL_3_CHOICE_VIDEO]:{\"conversionHandler\":\"I.J\",\"shouldRenderCard\":\"I.l\"},[b.sj.POLL_4_CHOICE_VIDEO]:{\"conversionHandler\":\"I.J\",\"shouldRenderCard\":\"I.l\"},[b.sj.PROMO_IMAGE_CONVO]:{\"conversionHandler\":\"E.g\",\"shouldRenderCard\":\"E.o\"},[b.sj.PROMO_VIDEO_CONVO]:{\"conversionHandler\":\"C.G\",\"shouldRenderCard\":\"C.T\"},[b.sj.SUMMARY]:{\"conversionHandler\":\"g.n\",\"shouldRenderCard\":\"g.K\"},[b.sj.SUMMARY_LARGE_IMAGE]:{\"conversionHandler\":\"h.N\",\"shouldRenderCard\":\"h.a\"},[b.sj.UNIFIED_CARD]:{\"conversionHandler\":\"T.O4\",\"shouldRenderCard\":\"T.AU\"},[b.sj.VIDEO_DIRECT_MESSAGE]:{\"conversionHandler\":\"()\"{\"cardId\":\"e\",\"cardType\":\"t\",\"converterOptions\":\"n\",\"data\":\"i\",\"users\":\"a\"}{\"const o=()(0,H.FL)\",s=(i,\\\"image_value\\\",\\\"player_image_original\\\")(0,H.SI),d=parseInt(i,\\\"string_value\\\",\\\"player_stream_url\\\")/parseInt(0,H.SIi,\\\"string_value\\\",\\\"player_width\\\",10),r=(0,H.SIi,\\\"string_value\\\",\\\"player_height\\\",10)(0,H.SI),l=e=>[1,2,3,4].map(i,\\\"string_value\\\",\\\"content_duration_seconds\\\"){\"const n=()(0,H.SI)\"{\"t\"}`0,H.SIi,\"string_value\",`cta${\"t\"}_wm_id`{\"type\":\"D.lW.DM\",\"data\":{\"icon\":\"dm\",\"index\":\"t\",\"cta\":\"n\",\"wm_id\":\"a\",\"destination\":\"e\"}}:\"null\"}{\"cardState\":\"b.uW.DEFAULT\",\"layout\":{[b.uW.DEFAULT]:{\"size\":\"large\"},[b.uW.CONDENSED]:{\"size\":\"large\"},[b.uW.STATIC]:{\"size\":\"large\"}},\"card\":{\"card_name\":\"t\",\"on_visibility\":{\"scribe\":\"show\"},\"id\":\"e\",\"components\":{[b.uW.DEFAULT]:[b.Fw.MEDIA,...u?[b.Fw.DETAILS]:[],b.Fw.BUTTON_GROUP],[b.uW.STATIC]:[b.Fw.MEDIA_STATIC,...u?[b.Fw.DETAILS]:[],b.Fw.BUTTON_GROUP_STATIC]},\"destinations\":{[b.Fw.DESTINATION]:{\"type\":\"b._g.ACTION\",\"data\":{\"action_data\":{\"persist\":\"!1\",\"type\":\"dm\",\"recipient\":\"p.id_str\"},\"auth_required\":\"!0\",\"scribe\":\"click\",\"promoted_log\":\"D.YE.DM_BUTTON_CLICK\"}},[b.Fw.DESTINATION_STATIC]:{\"type\":\"b._g.BROWSER\",\"data\":{\"url_data\":{\"url\":n.tweetPermalink||b.$H},\"scribe\":\"open_link\",\"promoted_log\":\"D.YE.CARD_URL_CLICK\"}}},\"media_entities\":{[b.Fw.IMAGE_ENTITY]:\"()(0,H.WW)\"{}{\"type\":\"video\",\"aspect_ratio\":\"d\",\"content_id\":()(0,H.SI)||(i,\\\"string_value\\\",\\\"player_content_id\\\")(0,H.cT),\"...r?\":{\"duration_ms\":1e3*parseInt()}:\"null\",\"vmap_url\":\"s\",\"poster_image\":\"o\",\"publisher_id\":()(0,H.SI)||n.tweetUserId,\"variants\":[{\"src\":\"()(0,H.SI)\",\"type\":\"application/x-mpegURL\"}]}},\"components_data\":{[b.Fw.MEDIA]:{\"type\":\"b.Qe.MEDIA\",\"data\":{\"id\":\"b.Fw.VIDEO_ENTITY\"}},[b.Fw.MEDIA_STATIC]:{\"type\":\"b.Qe.MEDIA\",\"data\":{\"id\":\"b.Fw.IMAGE_ENTITY\",\"destination\":\"b.Fw.DESTINATION_STATIC\"}},\"...u?\":{[b.Fw.DETAILS]:{\"type\":\"b.Qe.DETAILS\",\"data\":{\"attribution\":\"m\"}}}:\"null\",[b.Fw.BUTTON_GROUP]:{\"type\":\"b.Qe.BUTTON_GROUP\",\"data\":{\"buttons\":\"_\"}},[b.Fw.BUTTON_GROUP_STATIC]:{\"type\":\"b.Qe.BUTTON_GROUP\",\"data\":{\"buttons\":\"c\"}}}}}},\"shouldRenderCard\":e=>()(0,H.BY)}}",
+  "{[b.sj.AMPLIFY]:{\"conversionHandler\":\"a.R\",\"shouldRenderCard\":\"a.r\"},[b.sj.APP]:{\"conversionHandler\":\"o.F\",\"shouldRenderCard\":\"o.V\"},[b.sj.AUDIOSPACE]:{\"conversionHandler\":\"s.x\",\"shouldRenderCard\":\"s.W\"},[b.sj.BROADCAST]:{\"conversionHandler\":\"d.K\",\"shouldRenderCard\":\"d.Q\"},[b.sj.DIRECT_STORE_LINK_APP]:{\"conversionHandler\":\"r.T\",\"shouldRenderCard\":\"r.B\"},[b.sj.IMAGE_DIRECT_MESSAGE]:{\"conversionHandler\":\"l.a\",\"shouldRenderCard\":\"l.R\"},[b.sj.LIVE_EVENT]:{\"conversionHandler\":\"_.q\",\"shouldRenderCard\":\"_.C\"},[b.sj.MESSAGE_ME]:{\"conversionHandler\":\"c.I\",\"shouldRenderCard\":\"c.i\"},[b.sj.MOMENT]:{\"conversionHandler\":\"p.l\",\"shouldRenderCard\":\"p.Z\"},[b.sj.NEWSLETTER_ISSUE]:{\"conversionHandler\":\"null\",\"shouldRenderCard\":()=>!1},[b.sj.NEWSLETTER_PUBLICATION]:{\"conversionHandler\":\"null\",\"shouldRenderCard\":()=>!1},[b.sj.NOTE]:{\"conversionHandler\":\"m.R\",\"shouldRenderCard\":\"m.q\"},[b.sj.PERISCOPE_BROADCAST]:{\"conversionHandler\":\"u.w\",\"shouldRenderCard\":\"u.y\"},[b.sj.PLAYER]:{\"conversionHandler\":\"y.L\",\"shouldRenderCard\":\"y.F\"},[b.sj.POLL_2_CHOICE_TEXT]:{\"conversionHandler\":\"I.J\",\"shouldRenderCard\":\"I.l\"},[b.sj.POLL_3_CHOICE_TEXT]:{\"conversionHandler\":\"I.J\",\"shouldRenderCard\":\"I.l\"},[b.sj.POLL_4_CHOICE_TEXT]:{\"conversionHandler\":\"I.J\",\"shouldRenderCard\":\"I.l\"},[b.sj.POLL_2_CHOICE_IMAGE]:{\"conversionHandler\":\"I.J\",\"shouldRenderCard\":\"I.l\"},[b.sj.POLL_3_CHOICE_IMAGE]:{\"conversionHandler\":\"I.J\",\"shouldRenderCard\":\"I.l\"},[b.sj.POLL_4_CHOICE_IMAGE]:{\"conversionHandler\":\"I.J\",\"shouldRenderCard\":\"I.l\"},[b.sj.POLL_2_CHOICE_VIDEO]:{\"conversionHandler\":\"I.J\",\"shouldRenderCard\":\"I.l\"},[b.sj.POLL_3_CHOICE_VIDEO]:{\"conversionHandler\":\"I.J\",\"shouldRenderCard\":\"I.l\"},[b.sj.POLL_4_CHOICE_VIDEO]:{\"conversionHandler\":\"I.J\",\"shouldRenderCard\":\"I.l\"},[b.sj.PROMO_IMAGE_CONVO]:{\"conversionHandler\":\"E.g\",\"shouldRenderCard\":\"E.o\"},[b.sj.PROMO_VIDEO_CONVO]:{\"conversionHandler\":\"C.G\",\"shouldRenderCard\":\"C.T\"},[b.sj.SUMMARY]:{\"conversionHandler\":\"g.n\",\"shouldRenderCard\":\"g.K\"},[b.sj.SUMMARY_LARGE_IMAGE]:{\"conversionHandler\":\"h.N\",\"shouldRenderCard\":\"h.a\"},[b.sj.UNIFIED_CARD]:{\"conversionHandler\":\"T.O4\",\"shouldRenderCard\":\"T.AU\"},[b.sj.VIDEO_DIRECT_MESSAGE]:{\"conversionHandler\":\"()\"{\"cardId\":\"e\",\"cardType\":\"t\",\"converterOptions\":\"n\",\"data\":\"i\",\"users\":\"a\"}{\"const o=()(0,H.FL)\",s=(i,\\\"image_value\\\",\\\"player_image_original\\\")(0,H.SI),d=parseInt(i,\\\"string_value\\\",\\\"player_stream_url\\\")/parseInt(0,H.SIi,\\\"string_value\\\",\\\"player_width\\\",10),r=(0,H.SIi,\\\"string_value\\\",\\\"player_height\\\",10)(0,H.SI),l=e=>[1,2,3,4].map(i,\\\"string_value\\\",\\\"content_duration_seconds\\\"){\"const n=()(0,H.SI)\"{\"t\"}`0,H.SIi,\"string_value\",`cta${\"t\"}_wm_id`{\"type\":\"v.lW.DM\",\"data\":{\"icon\":\"dm\",\"index\":\"t\",\"cta\":\"n\",\"wm_id\":\"a\",\"destination\":\"e\"}}:\"null\"}{\"cardState\":\"b.uW.DEFAULT\",\"layout\":{[b.uW.DEFAULT]:{\"size\":\"large\"},[b.uW.CONDENSED]:{\"size\":\"large\"},[b.uW.STATIC]:{\"size\":\"large\"}},\"card\":{\"card_name\":\"t\",\"on_visibility\":{\"scribe\":\"show\"},\"id\":\"e\",\"components\":{[b.uW.DEFAULT]:[b.Fw.MEDIA,...u?[b.Fw.DETAILS]:[],b.Fw.BUTTON_GROUP],[b.uW.STATIC]:[b.Fw.MEDIA_STATIC,...u?[b.Fw.DETAILS]:[],b.Fw.BUTTON_GROUP_STATIC]},\"destinations\":{[b.Fw.DESTINATION]:{\"type\":\"b._g.ACTION\",\"data\":{\"action_data\":{\"persist\":\"!1\",\"type\":\"dm\",\"recipient\":\"p.id_str\"},\"auth_required\":\"!0\",\"scribe\":\"click\",\"promoted_log\":\"v.YE.DM_BUTTON_CLICK\"}},[b.Fw.DESTINATION_STATIC]:{\"type\":\"b._g.BROWSER\",\"data\":{\"url_data\":{\"url\":n.tweetPermalink||b.$H},\"scribe\":\"open_link\",\"promoted_log\":\"v.YE.CARD_URL_CLICK\"}}},\"media_entities\":{[b.Fw.IMAGE_ENTITY]:\"()(0,H.WW)\"{}{\"type\":\"video\",\"aspect_ratio\":\"d\",\"content_id\":()(0,H.SI)||(i,\\\"string_value\\\",\\\"player_content_id\\\")(0,H.cT),\"...r?\":{\"duration_ms\":1e3*parseInt()}:\"null\",\"vmap_url\":\"s\",\"poster_image\":\"o\",\"publisher_id\":()(0,H.SI)||n.tweetUserId,\"variants\":[{\"src\":\"()(0,H.SI)\",\"type\":\"application/x-mpegURL\"}]}},\"components_data\":{[b.Fw.MEDIA]:{\"type\":\"b.Qe.MEDIA\",\"data\":{\"id\":\"b.Fw.VIDEO_ENTITY\"}},[b.Fw.MEDIA_STATIC]:{\"type\":\"b.Qe.MEDIA\",\"data\":{\"id\":\"b.Fw.IMAGE_ENTITY\",\"destination\":\"b.Fw.DESTINATION_STATIC\"}},\"...u?\":{[b.Fw.DETAILS]:{\"type\":\"b.Qe.DETAILS\",\"data\":{\"attribution\":\"m\"}}}:\"null\",[b.Fw.BUTTON_GROUP]:{\"type\":\"b.Qe.BUTTON_GROUP\",\"data\":{\"buttons\":\"_\"}},[b.Fw.BUTTON_GROUP_STATIC]:{\"type\":\"b.Qe.BUTTON_GROUP\",\"data\":{\"buttons\":\"c\"}}}}}},\"shouldRenderCard\":e=>()(0,H.BY)}}",
   {
     "navButtons": "navigationButtons",
     "carouselRoot": "carouselRoot"
@@ -5576,6 +5581,11 @@
     "Avatar": "avatar",
     "Verification": "verification",
     "TwitterArticle": "twitter_article"
+  },
+  {
+    "X_BACKEND": "X_BACKEND",
+    "IN_PROGRESS": "MIGRATION_IN_PROGRESS",
+    "XAI_BACKEND": "XAI_BACKEND"
   },
   {
     "FUN": "fun",
@@ -5956,7 +5966,7 @@
     "Default": "ui_defaultLabel",
     "TransparentCursor": "ui_transparentCursor"
   },
-  "{[z.v.FOLLOWS]:\"Q\",[z.v.FRIENDS_OF_FRIENDS]:\"U\"}",
+  "{[z.v.FOLLOWS]:\"U\",[z.v.FRIENDS_OF_FRIENDS]:\"G\"}",
   {
     "Default": "Default",
     "Pivot": "Pivot",
@@ -6105,6 +6115,11 @@
     "REQUEST": "rweb/communityBoost/DELETE_COMMUNITYBOOST_PIVOT_RATING_REQUEST",
     "SUCCESS": "rweb/communityBoost/DELETE_COMMUNITYBOOST_PIVOT_RATING_SUCCESS",
     "FAILURE": "rweb/communityBoost/DELETE_COMMUNITYBOOST_PIVOT_RATING_FAILURE"
+  },
+  {
+    "REQUEST": "rweb/communityBoost/FETCH_DATA_REQUEST",
+    "SUCCESS": "rweb/communityBoost/FETCH_DATA_SUCCESS",
+    "FAILURE": "rweb/communityBoost/FETCH_DATA_FAILURE"
   },
   {
     "NoVerifiedPhoneNumber": "NoVerifiedPhoneNumber",
@@ -6725,10 +6740,10 @@
     "EditCallout": "v.Z",
     "Education": "T.Z",
     "HighlightedUserLabel": "d.Z",
-    "Media": "y.Z",
+    "Media": "k.Z",
     "Place": "o.ZP",
     "PromotedDetails": "u.Z",
-    "PromotedUserProfileCard": "k.Z",
+    "PromotedUserProfileCard": "y.Z",
     "ReplyContext": "E.ZP",
     "RichContent": "I.Z",
     "SocialContext": "w.Z",
@@ -6737,7 +6752,7 @@
     "Timestamp": "p.Z",
     "UserAvatar": "Z.Z",
     "UserFollowIndicator": "S.Z",
-    "UserName": "M.Z",
+    "UserName": "A.Z",
     "ArticleCard": "b.Z"
   },
   {
@@ -7320,16 +7335,22 @@
     "UnavailableMissingBlueSubscription": "UnavailableMissingBlueSubscription"
   },
   {
+    "premiumSubscription": "premiumSubscription",
+    "premiumSettings": "premiumSettings",
+    "securitySettings": "securitySettings",
+    "creator": "creator"
+  },
+  {
     "GROUP": "GroupDm",
     "ONE_TO_ONE": "OneToOneDm",
     "UNKNOWN": "Unknown"
   },
   {
-    "MessageCreate": "r.Cr.MESSAGE",
-    "ParticipantsJoin": "r.Cr.PARTICIPANTS_JOIN",
-    "ParticipantsLeave": "r.Cr.PARTICIPANTS_LEAVE",
-    "ConversationNameUpdate": "r.Cr.CONVERSATION_NAME_UPDATE",
-    "JoinConversation": "r.Cr.JOIN_CONVERSATION"
+    "MessageCreate": "a.Cr.MESSAGE",
+    "ParticipantsJoin": "a.Cr.PARTICIPANTS_JOIN",
+    "ParticipantsLeave": "a.Cr.PARTICIPANTS_LEAVE",
+    "ConversationNameUpdate": "a.Cr.CONVERSATION_NAME_UPDATE",
+    "JoinConversation": "a.Cr.JOIN_CONVERSATION"
   },
   {
     "REQUEST": "rweb/directMessages/SEARCH_REQUEST",
@@ -7409,12 +7430,6 @@
   },
   "{\"Persona\":\"i.createElement()\"{\"$i18n\":\"d3543217\"},\"i.createElement()\"{\"link\":\"T.Jf\",\"withInteractiveStyling\":\"!0\"},\"g().e4fed511\"}",
   {
-    "premiumSubscription": "premiumSubscription",
-    "premiumSettings": "premiumSettings",
-    "securitySettings": "securitySettings",
-    "creator": "creator"
-  },
-  {
     "NONE": "NONE",
     "VERIFY_EMAIL": "verify_email",
     "METHOD": "method",
@@ -7423,15 +7438,6 @@
     "MAX_SECURITY_KEY_LIMIT_REACHED": "max_security_key_limit_reached",
     "STANDALONE_SECURITY_KEY": "standalone_security_key",
     "SUSPENDED": "suspended"
-  },
-  {
-    "CanVerifyIdentity": "CanVerifyIdentity",
-    "IdentityNonVerifiable": "IdentityNonVerifiable",
-    "IdentityVerified": "IdentityVerified",
-    "IdentityVerifiedUnderage": "IdentityVerifiedUnderage",
-    "PendingResult": "PendingResult",
-    "RequestLocked": "RequestLocked",
-    "UnavailableMissingBlueSubscription": "UnavailableMissingBlueSubscription"
   },
   {
     "Ads": "Ads",
@@ -7446,12 +7452,12 @@
   {
     "earnings": {
       "link": "/settings/monetization/earnings",
-      "text": "u",
+      "text": "_",
       "size": "xLarge"
     },
     "payoutHistory": {
       "link": "/settings/monetization/payout_history",
-      "text": "_"
+      "text": "g"
     }
   },
   {
@@ -7564,12 +7570,6 @@
     "REQUEST": "rweb/subscriptionPayments/TIER_SWITCH_REQUEST",
     "SUCCESS": "rweb/subscriptionPayments/TIER_SWITCH_SUCCESS",
     "FAILURE": "rweb/subscriptionPayments/TIER_SWITCH_FAILURE"
-  },
-  {
-    "premiumSubscription": "premiumSubscription",
-    "premiumSettings": "premiumSettings",
-    "securitySettings": "securitySettings",
-    "creator": "creator"
   },
   {
     "paymentMethod": "paymentMethod",
@@ -7769,6 +7769,10 @@
     "PUBLISHED": "l.PUBLISHED"
   },
   {
+    "single_line": "singleline",
+    "format_inline": "format-inline"
+  },
+  {
     "MEDIA": "MEDIA",
     "TWEET": "TWEET",
     "MARKDOWN": "MARKDOWN",
@@ -7794,8 +7798,8 @@
     "PUBLISHED": "Published"
   },
   {
-    "DRAFT": "i.DRAFT",
-    "PUBLISHED": "i.PUBLISHED"
+    "DRAFT": "s.DRAFT",
+    "PUBLISHED": "s.PUBLISHED"
   },
   "{\"root\":`${\"a\"}/application`,\"eligibility\":`${\"a\"}/application/eligibility`,\"pricing\":`${\"a\"}/application/pricing`,\"completeProfile\":`${\"a\"}/application/complete_profile`,\"submit\":`${\"a\"}/application/submit`,\"submitted\":`${\"a\"}/application/submitted`,\"waitlisted\":`${\"a\"}/application/waitlisted`,\"rejected\":`${\"a\"}/application/rejected`}",
   "{\"root\":`${\"a\"}/onboarding`,\"perksIntro\":`${\"a\"}/onboarding/perks_intro`,\"perksDescription\":`${\"a\"}/onboarding/perks_description`,\"perksBadges\":`${\"a\"}/onboarding/perks_badges`,\"perksConfirm\":`${\"a\"}/onboarding/perks_confirm`,\"pricing\":`${\"a\"}/onboarding/pricing`,\"pricingConfirm\":`${\"a\"}/onboarding/pricing_confirm`,\"stripeSetup\":`${\"a\"}/onboarding/stripe_setup`,\"stripePending\":`${\"a\"}/onboarding/stripe_pending`,\"stripeCompleted\":`${\"a\"}/onboarding/stripe_completed`}",
@@ -7820,6 +7824,11 @@
       "link": "/settings/monetization/payout_history",
       "text": "d"
     }
+  },
+  {
+    "X_BACKEND": "X_BACKEND",
+    "IN_PROGRESS": "MIGRATION_IN_PROGRESS",
+    "XAI_BACKEND": "XAI_BACKEND"
   },
   {
     "FUN": "fun",
@@ -8948,7 +8957,7 @@
     "invite": "invite",
     "autoclaim": "autoclaim"
   },
-  "{[g.default]:{\"redirectPath\":()=>s.gp,\"buttonText\":\"k\",\"disclaimer\":\"Z\"},[g.autoclaim]:{\"redirectPath\":()=>s.gp,\"buttonText\":\"k\",\"disclaimer\":\"Z\"},[g.invite]:{\"redirectPath\":\"()\"{\"inviteTransactionId\":\"e\"}{\"s.bR\"}/${\"e\"}`:\"s.gp\",\"buttonText\":\"k\",\"disclaimer\":\"Z\"}}",
+  "{[g.default]:{\"redirectPath\":()=>l.gp,\"buttonText\":\"k\",\"disclaimer\":\"C\"},[g.autoclaim]:{\"redirectPath\":()=>l.gp,\"buttonText\":\"k\",\"disclaimer\":\"C\"},[g.invite]:{\"redirectPath\":\"()\"{\"inviteTransactionId\":\"e\"}{\"l.bR\"}/${\"e\"}`:\"l.gp\",\"buttonText\":\"k\",\"disclaimer\":\"C\"}}",
   "{[l.Rz.debit]:{\"label\":\"Send\",\"title\":\"Send\",\"withAlternativePaymentMethods\":\"!0\"},[l.Rz.credit]:{\"label\":\"Request\",\"title\":\"Request\",\"scanMessage\":\"Let others scan your QR Code to pay you.\",\"withAlternativePaymentMethods\":\"!1\"}}",
   "{[l.Rz.debit]:\"S.d.CreateTransfer\",[l.Rz.credit]:\"S.d.RequestTransfer\"}",
   {
@@ -8960,7 +8969,7 @@
   },
   "{[b.S.Alert]:\"danger\",[b.S.Info]:\"primary\",[b.S.Warning]:\"warning\"}",
   "{[b.S.Alert]:\"u.default\",[b.S.Info]:\"p.default\",[b.S.Warning]:\"u.default\"}",
-  "{\"InsufficientFunds\":{\"headline\":\"Insufficient funds\",\"message\":\"You don't have a high enough balance to complete this action.\",\"action\":{\"link\":\"s.IN\",\"label\":\"Deposit\"}},\"InvalidReceiver\":{\"getHeadline\":\"()\"{\"actionType\":\"e\"}e===d.jq.P2P_TRANSFER_REQUEST?\"request\":\"payment\"{\"issueReportEnabled\":\"!0\",\"description\":\"Encountered an error while making a request.\"}},\"InvalidReceiverCurrentState\":{\"getHeadline\":\"()\"{\"actionType\":\"e\"}e===d.jq.P2P_TRANSFER_REQUEST?\"request\":\"payment\"},\"InvalidReceiverPreferences\":{\"getHeadline\":\"()\"{\"actionType\":\"e\"}e===d.jq.P2P_TRANSFER_REQUEST?\"request\":\"payment\"{\"actionType\":\"e\",\"counterPartyScreenName\":\"t\"}{t?`@${\"t\"}`:\"This account\"}\" has disabled $\"{e===d.jq.P2P_TRANSFER_REQUEST?\"requests\":\"payments\"} from users they do not follow.`},\"InvalidSender\":{\"getHeadline\":\"()\"{\"actionType\":\"e\"}e===d.jq.P2P_TRANSFER_REQUEST?\"request\":\"payment\"{\"issueReportEnabled\":\"!0\",\"description\":\"Encountered an error while making a payment.\"}},\"InvalidSenderCurrentState\":{\"getHeadline\":\"()\"{\"actionType\":\"e\"}e===d.jq.P2P_TRANSFER_REQUEST?\"request\":\"payment\"},\"InvalidSenderPreferences\":{\"headline\":\"Unable to send your request\",\"message\":\"This account has disabled payments from users they do not follow.\",\"getMessage\":\"()\"{\"actionType\":\"e\",\"counterPartyScreenName\":\"t\"}{t?`@${\"t\"}`:\"This account\"}\" has disabled $\"{e===d.jq.P2P_TRANSFER_REQUEST?\"requests\":\"payments\"} from users they do not follow.`},\"IdempotencyKeyConflict\":{\"headline\":\"You might be attempting a duplicate payment\",\"message\":\"The transfer failed because a similar one was already sent. Check your recent transactions and try again if needed.\",\"action\":{\"link\":\"s.bR\",\"label\":\"View Recent Transactions\"}},\"CustomerMissingPrimaryAddress\":{\"message\":\"You need an address on file before attempting this transfer.\",\"action\":{\"link\":\"s.f0\",\"label\":\"Add your address\"}},\"BankIssue\":{\"getHeadline\":\"()\"{\"actionType\":\"e\"}e?`${\"e.slice().toUpperCase(0,1)\"}\"$\"{\"e.slice().toLowerCase(1)\"}`:\"Action\"},\"LoginRequired\":{\"message\":\"You need to login to verify your bank account before you can proceed.\",\"action\":{\"link\":\"s.VN\",\"label\":\"Verify\"}},\"PaymentMethodLinkRequired\":{\"message\":\"You need to login to verify your bank account before you can proceed.\",\"action\":{\"link\":\"s.VN\",\"label\":\"Verify\"}},\"AccountLinkingNameMismatch\":{\"message\":\"This bank account can’t be linked due to a name mismatch. Please try a different account.\"},\"InsufficientBalance\":{\"headline\":\"Insufficient funds\",\"message\":\"Your bank account balance is insufficient. Please try another funding source.\",\"action\":{\"link\":\"s.IN\",\"label\":\"Deposit\"}},\"TwoFactorAuthRequired\":{\"message\":\"You need to setup a passkey before you can proceed.\",\"action\":{\"link\":\"s.ul\",\"label\":\"Setup\"}},\"VolumeLimitExceeded7DaySend\":{\"headline\":\"h()\"{\"type\":\"weekly\"}{\"actionType\":\"e\",\"limits\":\"t\"}{\"type\":\"weekly\",\"limits\":\"t\",\"actionType\":\"e\"}{\"actionType\":\"e\",\"limits\":\"t\"}{\"actionType\":\"e\",\"limits\":\"t\",\"type\":\"weekly\"}{\"link\":\"s.iE.limits\",\"label\":\"y\"}},\"VolumeLimitExceeded30DaySend\":{\"headline\":\"h()\"{\"type\":\"monthly\"}{\"actionType\":\"e\",\"limits\":\"t\"}{\"type\":\"monthly\",\"limits\":\"t\",\"actionType\":\"e\"}{\"actionType\":\"e\",\"limits\":\"t\"}{\"actionType\":\"e\",\"limits\":\"t\",\"type\":\"monthly\"}{\"link\":\"s.iE.limits\",\"label\":\"y\"}},\"VolumeLimitExceeded7Day\":{\"headline\":\"h()\"{\"type\":\"weekly\"}{\"actionType\":\"e\",\"limits\":\"t\"}{\"type\":\"weekly\",\"limits\":\"t\",\"actionType\":\"e\"}{\"actionType\":\"e\",\"limits\":\"t\"}{\"actionType\":\"e\",\"limits\":\"t\",\"type\":\"weekly\"}{\"link\":\"s.iE.limits\",\"label\":\"y\"}},\"VolumeLimitExceeded30Day\":{\"headline\":\"h()\"{\"type\":\"monthly\"}{\"actionType\":\"e\",\"limits\":\"t\"}{\"type\":\"monthly\",\"limits\":\"t\",\"actionType\":\"e\"}{\"actionType\":\"e\",\"limits\":\"t\"}{\"actionType\":\"e\",\"limits\":\"t\",\"type\":\"monthly\"}{\"link\":\"s.iE.limits\",\"label\":\"y\"}},\"AdditionalKycRequiredVolumeLimitExceeded7DaySend\":{\"headline\":\"Verify your identity to unlock higher limits and complete your transaction\",\"message\":\"Your information will be processed quickly and securely.\",\"action\":{\"link\":\"s.AU.tier2.verifyIdentityPath\",\"label\":\"Continue\"}},\"AdditionalKycRequiredVolumeLimitExceeded30DaySend\":{\"headline\":\"Verify your identity to unlock higher limits and complete your transaction\",\"message\":\"Your information will be processed quickly and securely.\",\"action\":{\"link\":\"s.AU.tier2.verifyIdentityPath\",\"label\":\"Continue\"}},\"AdditionalKycRequiredTotalVolumeLimitExceeded\":{\"headline\":\"Verify your identity to unlock higher limits and complete your transaction\",\"message\":\"Your information will be processed quickly and securely.\",\"action\":{\"link\":\"s.AU.tier2.verifyIdentityPath\",\"label\":\"Continue\"}},\"AdditionalKycRequired\":{\"headline\":\"Additional verification is required\",\"message\":\"We need more information from you to complete this action.\",\"action\":{\"link\":\"s.AU.tier2.verifyIdentityPath\",\"label\":\"Continue\"}},\"Velocity\":{\"headline\":\"Too many attempts\",\"getHeadline\":\"()\"{\"actionType\":\"e\"}{e?` ${d.p9[e]}`:\"\"} attempts`,\"message\":\"Your ability to perform this action is temporarily paused. Please try again later.\"},\"HasAccountBalance\":{\"headline\":\"Unable to close your account\",\"message\":\"You have pending balance in your account. Please transfer it out before trying again.\",\"action\":{\"link\":\"s.r0\",\"label\":\"Withdraw\"}},\"HasCashbackAccountBalance\":{\"headline\":\"Unable to close your account\",\"message\":\"You have unredeemed cashback in your account. Please redeem it and transfer it out before trying again.\",\"action\":{\"link\":\"s.Tb\",\"label\":\"View Cash Back\"}},\"HasActiveDisputes\":{\"headline\":\"Unable to close your account\",\"message\":\"You have active disputes in your account. You'll have to wait for them to settle.\"},\"HasPendingTransactions\":{\"headline\":\"Unable to close your account\",\"message\":\"You have pending transactions in your account. You'll have to wait for them to settle.\"},\"InactivePaymentMethod\":{\"headline\":\"Unable to close your account\",\"message\":\"Please try again with a valid bank account or debit card.\"},\"InvalidPaymentMethodType\":{\"headline\":\"Unable to close your account\",\"message\":\"Please try again with a valid bank account or debit card.\"},\"PaymentMethodDeleted\":{\"headline\":\"Unable to close your account\",\"message\":\"Please try again with a valid bank account or debit card.\"},\"FeeCalculationError\":{\"headline\":\"Unable to complete this action\",\"getHeadline\":\"()\"{\"actionType\":\"e\"}{d.p9[e]}`:\"Unable to complete this action\",\"message\":\"Please try again later.\",\"action\":{\"link\":\"s.gp\",\"label\":\"OK\"},\"getErrorReporting\":\"()\"{\"actionType\":\"e\"}{\"issueReportEnabled\":\"!0\",\"description\":`Encountered an error while calculating fees for a ${e?.toLowerCase()??\"\"} transaction.`}:{\"issueReportEnabled\":\"!1\"}},\"Unexpected\":{\"headline\":\"An unexpected user state occurred.\",\"message\":\"We are looking into how this happened.\",\"getErrorReporting\":\"()\"{\"actionType\":\"e\"}{\"issueReportEnabled\":\"!0\",\"description\":`Encountered an unexpected error during a ${e?.toLowerCase()??\"\"} transaction.`}:{\"issueReportEnabled\":\"!1\"}},\"Default\":{\"getHeadline\":\"()\"{\"actionType\":\"e\"}{\"switch()\"{\"case d.jq.P2P_TRANSFER_SEND\":return\"Unable to send your payment\";case d.jq.P2P_TRANSFER_REQUEST:return\"Unable to send your request\";case d.jq.WITHDRAWAL:return\"Withdrawal failed\";case d.jq.DEPOSIT:return\"Deposit failed\";case d.jq.CLOSE_ACCOUNT:return\"Unable to close your account\";default:return\"Money is unavailable right now\"}},\"getMessage\":\"()\"{\"actionType\":\"e\"}{\"switch()\"{\"case d.jq.P2P_TRANSFER_SEND\":case d.jq.P2P_TRANSFER_REQUEST:return\"We are looking into what went wrong.\";default:return\"Please try again later.\"}},\"message\":\"Please try again later.\",\"getErrorReporting\":\"()\"{\"actionType\":\"e\"}{\"issueReportEnabled\":\"!0\",\"description\":`Encountered an unexpected error during a ${e?.toLowerCase()??\"\"} transaction.`}:{\"issueReportEnabled\":\"!1\"}}}",
+  "{\"InsufficientFunds\":{\"headline\":\"Insufficient funds\",\"message\":\"You don't have a high enough balance to complete this action.\",\"action\":{\"link\":\"i.IN\",\"label\":\"Deposit\"}},\"InvalidReceiver\":{\"getHeadline\":\"()\"{\"actionType\":\"e\"}e===c.jq.P2P_TRANSFER_REQUEST?\"request\":\"payment\"{\"issueReportEnabled\":\"!0\",\"description\":\"Encountered an error while making a request.\"}},\"InvalidReceiverCurrentState\":{\"getHeadline\":\"()\"{\"actionType\":\"e\"}e===c.jq.P2P_TRANSFER_REQUEST?\"request\":\"payment\"},\"InvalidReceiverPreferences\":{\"getHeadline\":\"()\"{\"actionType\":\"e\"}e===c.jq.P2P_TRANSFER_REQUEST?\"request\":\"payment\"{\"actionType\":\"e\",\"counterPartyScreenName\":\"t\"}{t?`@${\"t\"}`:\"This account\"}\" has disabled $\"{e===c.jq.P2P_TRANSFER_REQUEST?\"requests\":\"payments\"} from users they do not follow.`},\"InvalidSender\":{\"getHeadline\":\"()\"{\"actionType\":\"e\"}e===c.jq.P2P_TRANSFER_REQUEST?\"request\":\"payment\"{\"issueReportEnabled\":\"!0\",\"description\":\"Encountered an error while making a payment.\"}},\"InvalidSenderCurrentState\":{\"getHeadline\":\"()\"{\"actionType\":\"e\"}e===c.jq.P2P_TRANSFER_REQUEST?\"request\":\"payment\"},\"InvalidSenderPreferences\":{\"headline\":\"Unable to send your request\",\"message\":\"This account has disabled payments from users they do not follow.\",\"getMessage\":\"()\"{\"actionType\":\"e\",\"counterPartyScreenName\":\"t\"}{t?`@${\"t\"}`:\"This account\"}\" has disabled $\"{e===c.jq.P2P_TRANSFER_REQUEST?\"requests\":\"payments\"} from users they do not follow.`},\"IdempotencyKeyConflict\":{\"headline\":\"You might be attempting a duplicate payment\",\"message\":\"The transfer failed because a similar one was already sent. Check your recent transactions and try again if needed.\",\"action\":{\"link\":\"i.bR\",\"label\":\"View Recent Transactions\"}},\"CustomerMissingPrimaryAddress\":{\"message\":\"You need an address on file before attempting this transfer.\",\"action\":{\"link\":\"i.f0\",\"label\":\"Add your address\"}},\"BankIssue\":{\"getHeadline\":\"()\"{\"actionType\":\"e\"}e?`${\"e.slice().toUpperCase(0,1)\"}\"$\"{\"e.slice().toLowerCase(1)\"}`:\"Action\"},\"LoginRequired\":{\"message\":\"You need to login to verify your bank account before you can proceed.\",\"action\":{\"link\":\"i.VN\",\"label\":\"Verify\"}},\"PaymentMethodLinkRequired\":{\"message\":\"You need to login to verify your bank account before you can proceed.\",\"action\":{\"link\":\"i.VN\",\"label\":\"Verify\"}},\"AccountLinkingNameMismatch\":{\"message\":\"This bank account can’t be linked due to a name mismatch. Please try a different account.\"},\"InsufficientBalance\":{\"headline\":\"Insufficient funds\",\"message\":\"Your bank account balance is insufficient. Please try another funding source.\",\"action\":{\"link\":\"i.IN\",\"label\":\"Deposit\"}},\"TwoFactorAuthRequired\":{\"message\":\"You need to setup a passkey before you can proceed.\",\"action\":{\"link\":\"i.ul\",\"label\":\"Setup\"}},\"VolumeLimitExceeded7DaySend\":{\"headline\":\"y()\"{\"type\":\"weekly\"}{\"actionType\":\"e\",\"limits\":\"t\"}{\"type\":\"weekly\",\"limits\":\"t\",\"actionType\":\"e\"}{\"actionType\":\"e\",\"limits\":\"t\"}{\"actionType\":\"e\",\"limits\":\"t\",\"type\":\"weekly\"}{\"link\":\"i.iE.limits\",\"label\":\"p\"}},\"VolumeLimitExceeded30DaySend\":{\"headline\":\"y()\"{\"type\":\"monthly\"}{\"actionType\":\"e\",\"limits\":\"t\"}{\"type\":\"monthly\",\"limits\":\"t\",\"actionType\":\"e\"}{\"actionType\":\"e\",\"limits\":\"t\"}{\"actionType\":\"e\",\"limits\":\"t\",\"type\":\"monthly\"}{\"link\":\"i.iE.limits\",\"label\":\"p\"}},\"VolumeLimitExceeded7Day\":{\"headline\":\"y()\"{\"type\":\"weekly\"}{\"actionType\":\"e\",\"limits\":\"t\"}{\"type\":\"weekly\",\"limits\":\"t\",\"actionType\":\"e\"}{\"actionType\":\"e\",\"limits\":\"t\"}{\"actionType\":\"e\",\"limits\":\"t\",\"type\":\"weekly\"}{\"link\":\"i.iE.limits\",\"label\":\"p\"}},\"VolumeLimitExceeded30Day\":{\"headline\":\"y()\"{\"type\":\"monthly\"}{\"actionType\":\"e\",\"limits\":\"t\"}{\"type\":\"monthly\",\"limits\":\"t\",\"actionType\":\"e\"}{\"actionType\":\"e\",\"limits\":\"t\"}{\"actionType\":\"e\",\"limits\":\"t\",\"type\":\"monthly\"}{\"link\":\"i.iE.limits\",\"label\":\"p\"}},\"AdditionalKycRequiredVolumeLimitExceeded7DaySend\":{\"headline\":\"Verify your identity to unlock higher limits and complete your transaction\",\"message\":\"Your information will be processed quickly and securely.\",\"action\":{\"link\":\"i.AU.tier2.verifyIdentityPath\",\"label\":\"Continue\"}},\"AdditionalKycRequiredVolumeLimitExceeded30DaySend\":{\"headline\":\"Verify your identity to unlock higher limits and complete your transaction\",\"message\":\"Your information will be processed quickly and securely.\",\"action\":{\"link\":\"i.AU.tier2.verifyIdentityPath\",\"label\":\"Continue\"}},\"AdditionalKycRequiredTotalVolumeLimitExceeded\":{\"headline\":\"Verify your identity to unlock higher limits and complete your transaction\",\"message\":\"Your information will be processed quickly and securely.\",\"action\":{\"link\":\"i.AU.tier2.verifyIdentityPath\",\"label\":\"Continue\"}},\"AdditionalKycRequired\":{\"headline\":\"Additional verification is required\",\"message\":\"We need more information from you to complete this action.\",\"action\":{\"link\":\"i.AU.tier2.verifyIdentityPath\",\"label\":\"Continue\"}},\"Velocity\":{\"headline\":\"Too many attempts\",\"getHeadline\":\"()\"{\"actionType\":\"e\"}{e?` ${c.p9[e]}`:\"\"} attempts`,\"message\":\"Your ability to perform this action is temporarily paused. Please try again later.\"},\"HasAccountBalance\":{\"headline\":\"Unable to close your account\",\"message\":\"You have pending balance in your account. Please transfer it out before trying again.\",\"action\":{\"link\":\"i.r0\",\"label\":\"Withdraw\"}},\"HasCashbackAccountBalance\":{\"headline\":\"Unable to close your account\",\"message\":\"You have unredeemed cashback in your account. Please redeem it and transfer it out before trying again.\",\"action\":{\"link\":\"i.Tb\",\"label\":\"View Cash Back\"}},\"HasActiveDisputes\":{\"headline\":\"Unable to close your account\",\"message\":\"You have active disputes in your account. You'll have to wait for them to settle.\"},\"HasPendingTransactions\":{\"headline\":\"Unable to close your account\",\"message\":\"You have pending transactions in your account. You'll have to wait for them to settle.\"},\"InactivePaymentMethod\":{\"headline\":\"Unable to close your account\",\"message\":\"Please try again with a valid bank account or debit card.\"},\"InvalidPaymentMethodType\":{\"headline\":\"Unable to close your account\",\"message\":\"Please try again with a valid bank account or debit card.\"},\"PaymentMethodDeleted\":{\"headline\":\"Unable to close your account\",\"message\":\"Please try again with a valid bank account or debit card.\"},\"FeeCalculationError\":{\"headline\":\"Unable to complete this action\",\"getHeadline\":\"()\"{\"actionType\":\"e\"}{c.p9[e]}`:\"Unable to complete this action\",\"message\":\"Please try again later.\",\"action\":{\"link\":\"i.gp\",\"label\":\"OK\"},\"getErrorReporting\":\"()\"{\"actionType\":\"e\"}{\"issueReportEnabled\":\"!0\",\"description\":`Encountered an error while calculating fees for a ${e?.toLowerCase()??\"\"} transaction.`}:{\"issueReportEnabled\":\"!1\"}},\"Unexpected\":{\"headline\":\"An unexpected user state occurred.\",\"message\":\"We are looking into how this happened.\",\"getErrorReporting\":\"()\"{\"actionType\":\"e\"}{\"issueReportEnabled\":\"!0\",\"description\":`Encountered an unexpected error during a ${e?.toLowerCase()??\"\"} transaction.`}:{\"issueReportEnabled\":\"!1\"}},\"Default\":{\"getHeadline\":\"()\"{\"actionType\":\"e\"}{\"switch()\"{\"case c.jq.P2P_TRANSFER_SEND\":return\"Unable to send your payment\";case c.jq.P2P_TRANSFER_REQUEST:return\"Unable to send your request\";case c.jq.WITHDRAWAL:return\"Withdrawal failed\";case c.jq.DEPOSIT:return\"Deposit failed\";case c.jq.CLOSE_ACCOUNT:return\"Unable to close your account\";default:return\"Money is unavailable right now\"}},\"getMessage\":\"()\"{\"actionType\":\"e\"}{\"switch()\"{\"case c.jq.P2P_TRANSFER_SEND\":case c.jq.P2P_TRANSFER_REQUEST:return\"We are looking into what went wrong.\";default:return\"Please try again later.\"}},\"message\":\"Please try again later.\",\"getErrorReporting\":\"()\"{\"actionType\":\"e\"}{\"issueReportEnabled\":\"!0\",\"description\":`Encountered an unexpected error during a ${e?.toLowerCase()??\"\"} transaction.`}:{\"issueReportEnabled\":\"!1\"}}}",
   {
     "onboarding": "onboarding",
     "upgradeToKycDocumentsVerified": "upgradeToKycDocumentsVerified"
@@ -9102,8 +9111,8 @@
   },
   "{[v.g.Cancelled]:\"Cancelled\",[v.g.Failed]:\"Failed\",[v.g.Expired]:\"Expired\",[v.g.Pending]:\"Pending\",[v.g.Hold]:\"Pending\",[v.g.AuthorizationOpen]:\"Pending\",[v.g.AwaitingUnrecognizedConfirmation]:\"Awaiting approval\",[v.g.PendingReview]:\"Under review\",[v.g.PendingRecipientAction]:\"Pending\",[v.g.PendingRecipientOnboarding]:\"Pending\",[v.g.AwaitingRequestAcceptance]:\"Pending\",[v.g.PendingRecipientAcceptance]:\"Pending\",[v.g.PinVerificationRequired]:\"Pending\",[v.g.RequestVerificationRequired]:\"Pending\",[v.g.VerificationRequired]:\"Pending\",[v.g.RejectedByRecipient]:\"Rejected\",[v.g.RequestRejected]:\"Rejected\",[v.g.Settled]:\"Completed\",[v.g.SoftSettled]:\"Completed\",[v.g.AuthorizationClosed]:\"Completed\",[v.g.PendingFundingTransactionSettlement]:\"Pending\",[v.g.CreditedAwaitingSettlement]:\"Pending\"}",
   "{[S.P.RejectedLimitsExceeded]:\"Declined due to exceeded limits\",[S.P.InReview]:\"Under review\",[S.P.RejectedByUnsupportedRegion]:\"Unsupported region\",[S.P.RejectedNotSufficientFunds]:\"Declined due to insufficient funds\",[S.P.RejectedCardPaymentsDisabled]:\"Declined due to locked card\",[S.P.UnrecognizedActivityConfirmed]:\"Declined\",[S.P.UnrecognizedActivityRejected]:\"Flagged as suspicious\",[S.P.RejectedCardInactive]:\"Declined due to inactive card\",[S.P.FailedOfacCheck]:\"Failed due to compliance reasons\"}",
-  "{[v.g.PendingRecipientAcceptance]:\"K\",[v.g.PendingRecipientOnboarding]:\"K\",[v.g.PendingRecipientAction]:\"K\"}",
-  "{[v.g.AwaitingRequestAcceptance]:\"K\",[v.g.PendingRequestAcceptance]:\"K\",[v.g.RequestVerificationRequired]:\"K\"}",
+  "{[v.g.PendingRecipientAcceptance]:\"E\",[v.g.PendingRecipientOnboarding]:\"E\",[v.g.PendingRecipientAction]:\"E\"}",
+  "{[v.g.AwaitingRequestAcceptance]:\"E\",[v.g.PendingRequestAcceptance]:\"E\",[v.g.RequestVerificationRequired]:\"E\"}",
   "{[g.t.Checking]:\"Checking\",[g.t.Savings]:\"Savings\"}",
   "{[w.W.IssuedCardTypePhysical]:\"Physical Card\",[w.W.IssuedCardTypeVirtual]:\"Virtual Card\"}",
   "{[m.l.Charge]:\"Charge\",[m.l.Combo]:\"Combo\",[m.l.Debit]:\"Debit\",[m.l.Credit]:\"Credit\",[m.l.DeferredDebit]:\"DeferredDebit\",[m.l.Prepaid]:\"Prepaid\"}",
@@ -9304,6 +9313,10 @@
     "component": "sync-ats-jobs"
   },
   {
+    "single_line": "singleline",
+    "format_inline": "format-inline"
+  },
+  {
     "Affiliate": "Affiliate"
   },
   {
@@ -9332,8 +9345,8 @@
     "PUBLISHED": "Published"
   },
   {
-    "DRAFT": "s.DRAFT",
-    "PUBLISHED": "s.PUBLISHED"
+    "DRAFT": "c.DRAFT",
+    "PUBLISHED": "c.PUBLISHED"
   },
   {
     "CONFIG_LOADED": "rweb/verifiedOrgConfig/LOADED",
@@ -9341,8 +9354,8 @@
     "SET_CONFIG": "rweb/verifiedOrgConfig/SET"
   },
   {
-    "fetchStatus": "a.ZP.NONE",
-    "config": "u"
+    "fetchStatus": "o.ZP.NONE",
+    "config": "s"
   },
   {
     "ConfirmationStep": "ConfirmationStep",
@@ -9963,6 +9976,12 @@
     "fixedSpacing": "fixedSpacing"
   },
   {
+    "large": "54",
+    "medium": "46",
+    "small": "36",
+    "xSmall": "12"
+  },
+  {
     "13 to 19": "p().d267afa2",
     "20 to 29": "p().db81cab0",
     "30 to 39": "p().f173716e",
@@ -10274,23 +10293,23 @@
     "design": "m",
     "marketing": "p",
     "sales_am": "h",
-    "operations": "g",
-    "people_hr": "b",
-    "finance_accounting": "f",
-    "legal_compliance": "y",
+    "operations": "b",
+    "people_hr": "g",
+    "finance_accounting": "y",
+    "legal_compliance": "f",
     "science_engineering": "_",
     "medical": "k",
     "construction_trades": "D",
-    "other": "v"
+    "other": "S"
   },
   {
-    "intern": "E",
+    "intern": "F",
     "entry_level": "Z",
-    "junior": "F",
+    "junior": "E",
     "mid_level": "C",
-    "senior": "x",
+    "senior": "I",
     "lead": "M",
-    "manager": "I",
+    "manager": "x",
     "executive": "P"
   },
   {
@@ -10441,6 +10460,11 @@
     "Avatar": "avatar",
     "Verification": "verification",
     "TwitterArticle": "twitter_article"
+  },
+  {
+    "X_BACKEND": "X_BACKEND",
+    "IN_PROGRESS": "MIGRATION_IN_PROGRESS",
+    "XAI_BACKEND": "XAI_BACKEND"
   },
   {
     "FUN": "fun",
@@ -11328,6 +11352,11 @@
   },
   "{\"minimumRadius\":\"0\",\"maximumRadius\":1/0,\"minimumPolarAngle\":Math.PI/8,\"maximumPolarAngle\":Math.PI-Math.PI/8,\"minimumAzimuthalAngle\":-1/0,\"maximumAzimuthalAngle\":1/0,\"minimumFieldOfView\":\"10\",\"maximumFieldOfView\":\"45\",\"interactionPolicy\":\"always-allow\",\"touchAction\":\"pan-y\"}",
   {
+    "X_BACKEND": "X_BACKEND",
+    "IN_PROGRESS": "MIGRATION_IN_PROGRESS",
+    "XAI_BACKEND": "XAI_BACKEND"
+  },
+  {
     "FUN": "fun",
     "REGULAR": ""
   },
@@ -11528,7 +11557,7 @@
     "SETTINGS_LOADED": "rweb/immersiveViewer/SETTINGS_LOADED"
   },
   {
-    "fetchStatus": "Pe.ZP.NONE",
+    "fetchStatus": "Ie.ZP.NONE",
     "mobileViewCount": "0"
   },
   {

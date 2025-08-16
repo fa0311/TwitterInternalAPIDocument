@@ -5631,3 +5631,38 @@
 - payments_tracing_reports_enabled<br>
 #### remove<br>
 - payments_tracing_hook_url<br>
+## 2025/08/13<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- responsive_web_logged_out_ios_redesign_enabled<br>
+#### remove<br>
+- None<br>
+## 2025/08/14<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- responsive_web_live_screen_enabled<br>
+- responsive_web_logged_out_blue_brand_button_enabled<br>
+- responsive_web_logged_out_grok_button_enabled<br>
+## 2025/08/15<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- responsive_web_communityboost_download_data_enabled<br>
+#### remove<br>
+- None<br>
