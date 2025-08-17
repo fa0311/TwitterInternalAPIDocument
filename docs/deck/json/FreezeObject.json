@@ -111,19 +111,6 @@
     "veryNarrow": "veryNarrow"
   },
   "{[r.wide]:\"500\",[r.narrow]:\"300\",[r.veryNarrow]:\"200\"}",
-  {
-    "None": "None",
-    "Home": "Home",
-    "List": "List",
-    "Player": "Player",
-    "Setting": "Setting",
-    "Search": "Search",
-    "Unknown": "Unknown"
-  },
-  {
-    "VIDEO": "VIDEO",
-    "SHORT_VIDEO": "SHORT_VIDEO"
-  },
   "{\"__proto__\":\"null\",\"formatCaption\":\"function()\"{\"return()(0,a.WU)\"},\"formatDay\":\"function()\"{\"return()(0,a.WU)\"},\"formatMonthCaption\":\"function()\"{\"return()(0,a.WU)\"},\"formatWeekNumber\":\"function()\"{return\"\".concat()},\"formatWeekdayName\":\"function()\"{\"return()(0,a.WU)\"},\"formatYearCaption\":\"function()\"{\"return()(0,a.WU)\"}}",
   "{\"__proto__\":\"null\",\"labelDay\":\"function()\"{\"return()(0,a.WU)\"},\"labelMonthDropdown\":\"function()\"{return\"Month: \"},\"labelNext\":\"function()\"{return\"Go to next month\"},\"labelPrevious\":\"function()\"{return\"Go to previous month\"},\"labelWeekNumber\":\"function()\"{return\"Week n. \".concat()},\"labelWeekday\":\"function()\"{\"return()(0,a.WU)\"},\"labelYearDropdown\":\"function()\"{return\"Year: \"}}",
   {
