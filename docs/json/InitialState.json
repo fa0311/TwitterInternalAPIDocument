@@ -2704,13 +2704,7 @@
       "rweb_search_media_enabled": {
         "value": "true"
       },
-      "rweb_sidebar_lower_whats_happening_enabled": {
-        "value": "false"
-      },
       "rweb_sourcemap_migration": {
-        "value": "false"
-      },
-      "rweb_sourcemap_migration_enable_suggested_video": {
         "value": "false"
       },
       "rweb_sourcemap_migration_side_expand_by_default": {
@@ -6521,13 +6515,7 @@
         "rweb_search_media_enabled": {
           "value": "true"
         },
-        "rweb_sidebar_lower_whats_happening_enabled": {
-          "value": "false"
-        },
         "rweb_sourcemap_migration": {
-          "value": "false"
-        },
-        "rweb_sourcemap_migration_enable_suggested_video": {
           "value": "false"
         },
         "rweb_sourcemap_migration_side_expand_by_default": {
@@ -7742,7 +7730,7 @@
       "settingsVersion": "fbc3877be9cbed48e9333a95189c4b0c"
     },
     "debug": {},
-    "featureSetToken": "ee0cb4156dc319c276a6c22b661f357dc7572342",
+    "featureSetToken": "60e2cfbff00f43ef082fc418aaddab62a0936830",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -7811,7 +7799,7 @@
   },
   "session": {
     "country": "XX",
-    "guestId": "175546449819620639",
+    "guestId": "175555091096271819",
     "hasCommunityMemberships": "false",
     "isActiveCreator": "false",
     "isLoaded": "false",
