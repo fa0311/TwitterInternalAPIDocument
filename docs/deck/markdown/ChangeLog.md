@@ -5666,3 +5666,15 @@
 - responsive_web_communityboost_download_data_enabled<br>
 #### remove<br>
 - None<br>
+## 2025/08/18<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- rweb_sidebar_lower_whats_happening_enabled<br>
+- rweb_sourcemap_migration_enable_suggested_video<br>
