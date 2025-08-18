@@ -1,11 +1,5 @@
 # Twitter Internal Constants Document<br>
 This document is entirely auto-generated and may contain errors.<br>
-| constant    | value        |
-|:------------|:-------------|
-| joinSpace   | s().h400d7c2 |
-| replaySpace | s().g66c8348 |
-| comingUp    | s().be6ef5b4 |
-
 | constant   | value   |
 |:-----------|:--------|
 | small      | small   |
