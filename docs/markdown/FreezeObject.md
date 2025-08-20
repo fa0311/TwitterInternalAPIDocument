@@ -1986,6 +1986,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | subscriptionActive | {'backgroundColor': 'primary', 'radius': '9999', 'bold': '!0', 'color': 'whiteOnColor', 'fontSize': 'subtext3'}                              |
 | subscriptionPromo  | {'backgroundColor': 'green50', 'bold': '!0', 'color': 'green900', 'borderColor': 'green900'}                                                 |
 | bestValue          | {'backgroundColor': 'green50', 'color': 'green900', 'bold': '!0', 'fontSize': 'subtext3'}                                                    |
+| interest           | {'backgroundColor': 'green50', 'color': 'green500', 'bold': '!1', 'fontSize': 'subtext1', 'fontWeight': 'medium'}                            |
 | mostPopular        | {'backgroundColor': 'purple50', 'color': 'purple900', 'bold': '!0', 'fontSize': 'subtext3'}                                                  |
 | priority           | {'backgroundColor': 'blue50', 'color': 'blue900', 'bold': '!0', 'fontSize': 'subtext3'}                                                      |
 | alt                | P                                                                                                                                            |
@@ -9470,7 +9471,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{[g.default]:{"redirectPath":()=>l.gp,"buttonText":"k","disclaimer":"C"},[g.autoclaim]:{"redirectPath":()=>l.gp,"buttonText":"k","disclaimer":"C"},[g.invite]:{"redirectPath":"()"{"inviteTransactionId":"e"}{"l.bR"}/${"e"}`:"l.gp","buttonText":"k","disclaimer":"C"}}
+{[k.default]:{"redirectPath":()=>l.gp,"buttonText":"g","disclaimer":"C"},[k.autoclaim]:{"redirectPath":()=>l.gp,"buttonText":"g","disclaimer":"C"},[k.invite]:{"redirectPath":"()"{"inviteTransactionId":"e"}{"l.bR"}/${"e"}`:"l.gp","buttonText":"g","disclaimer":"C"}}
 ```
 ```internal process
 # Error
@@ -9990,28 +9991,6 @@ This document is entirely auto-generated and may contain errors.<br>
 | FullAccessGov | FullAccessGov |
 | Basic         | Basic         |
 
-| constant                   | value                      |
-|:---------------------------|:---------------------------|
-| Advertising                | Advertising                |
-| BlueVerified               | BlueVerified               |
-| BlueVerifiedPlus           | BlueVerifiedPlus           |
-| Chirps                     | Chirps                     |
-| Coins                      | Coins                      |
-| OneDollar                  | OneDollar                  |
-| OneDollarSubscription      | OneDollarSubscription      |
-| PremiumBasic               | PremiumBasic               |
-| PremiumGift                | PremiumGift                |
-| PremiumPlusGift            | PremiumPlusGift            |
-| QuickFreeTrial             | QuickFreeTrial             |
-| QuickPromoteBudget         | QuickPromoteBudget         |
-| Seeds                      | Seeds                      |
-| Spaces                     | Spaces                     |
-| Subscriptions              | Subscriptions              |
-| SuperFollows               | SuperFollows               |
-| SuperLikes                 | SuperLikes                 |
-| VerifiedOrganizations      | VerifiedOrganizations      |
-| VerifiedOrganizationsBasic | VerifiedOrganizationsBasic |
-
 | constant   | value                                                                |
 |:-----------|:---------------------------------------------------------------------|
 | REQUEST    | rweb/subscriptionPayments/FETCH_SUBSCRIPTION_PRODUCT_DETAILS_REQUEST |
@@ -10036,35 +10015,19 @@ This document is entirely auto-generated and may contain errors.<br>
 | SUCCESS    | rweb/subscriptionPayments/TIER_SWITCH_SUCCESS |
 | FAILURE    | rweb/subscriptionPayments/TIER_SWITCH_FAILURE |
 
-| constant                   | value                      |
-|:---------------------------|:---------------------------|
-| default                    | default                    |
-| native_clone_only_stripe   | native_clone_only_stripe   |
-| native_clone_stripe_choice | native_clone_stripe_choice |
-| one_click                  | one_click                  |
-| feature_focused            | feature_focused            |
-| v1_1_1                     | v1_1_1                     |
-| v1_1_2                     | v1_1_2                     |
-| v1_2_1                     | v1_2_1                     |
-| v1_2_2                     | v1_2_2                     |
-| v1_3_1                     | v1_3_1                     |
-| v1_3_1_dynamic             | v1_3_1_dynamic             |
-| v1_3_1_blue                | v1_3_1_blue                |
-| v1_3_2                     | v1_3_2                     |
-| v1_3_2_dynamic             | v1_3_2_dynamic             |
-| v1_3_2_blue                | v1_3_2_blue                |
-| offer_v1_1                 | offer_v1_1                 |
-| offer_v1_2                 | offer_v1_2                 |
-| offer_v2_1                 | offer_v2_1                 |
-| offer_v2_2                 | offer_v2_2                 |
-| special                    | special                    |
-| v2                         | v2                         |
-| v2_2                       | v2_2                       |
-| v2_3                       | v2_3                       |
-| v2_3_with_stripe           | v2_3_with_stripe           |
-| v2_3_only_stripe           | v2_3_only_stripe           |
-| v3                         | v3                         |
-| grok_4                     | grok_4                     |
+| constant                                   | value                                      |
+|:-------------------------------------------|:-------------------------------------------|
+| default                                    | default                                    |
+| native_clone_only_stripe                   | native_clone_only_stripe                   |
+| native_clone_stripe_choice                 | native_clone_stripe_choice                 |
+| one_click                                  | one_click                                  |
+| offer_v1_1                                 | offer_v1_1                                 |
+| offer_v2_1                                 | offer_v2_1                                 |
+| grok_4                                     | grok_4                                     |
+| native_clone_with_tabs                     | native_clone_with_tabs                     |
+| native_clone_with_purchase_footer          | native_clone_with_purchase_footer          |
+| native_clone_with_card_layout              | native_clone_with_card_layout              |
+| native_clone_with_tabs_and_purchase_footer | native_clone_with_tabs_and_purchase_footer |
 
 | constant     | value        |
 |:-------------|:-------------|
