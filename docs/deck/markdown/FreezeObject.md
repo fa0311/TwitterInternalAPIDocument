@@ -71,12 +71,6 @@ This document is entirely auto-generated and may contain errors.<br>
 | JanusPollerResponseEnumUnknown                      | JanusPollerResponseEnumUnknown                      |
 | JanusPollerResponseEnumError                        | JanusPollerResponseEnumError                        |
 
-| constant    | value       |
-|:------------|:------------|
-| Draft       | Draft       |
-| Published   | Published   |
-| SoftDeleted | SoftDeleted |
-
 | constant   |   value |
 |:-----------|--------:|
 | HUMAN      |       1 |
@@ -118,13 +112,6 @@ This document is entirely auto-generated and may contain errors.<br>
 # Error
 {[r.wide]:"500",[r.narrow]:"300",[r.veryNarrow]:"200"}
 ```
-| constant   |   value |
-|:-----------|--------:|
-| large      |      54 |
-| medium     |      46 |
-| small      |      36 |
-| xSmall     |      12 |
-
 ```internal process
 # Error
 {"__proto__":"null","formatCaption":"function()"{"return()(0,a.WU)"},"formatDay":"function()"{"return()(0,a.WU)"},"formatMonthCaption":"function()"{"return()(0,a.WU)"},"formatWeekNumber":"function()"{return"".concat()},"formatWeekdayName":"function()"{"return()(0,a.WU)"},"formatYearCaption":"functio...
@@ -833,11 +820,11 @@ This document is entirely auto-generated and may contain errors.<br>
 ```
 ```internal process
 # Error
-{[v.g.PendingRecipientAcceptance]:"E",[v.g.PendingRecipientOnboarding]:"E",[v.g.PendingRecipientAction]:"E"}
+{[v.g.PendingRecipientAcceptance]:"H",[v.g.PendingRecipientOnboarding]:"H",[v.g.PendingRecipientAction]:"H"}
 ```
 ```internal process
 # Error
-{[v.g.AwaitingRequestAcceptance]:"E",[v.g.PendingRequestAcceptance]:"E",[v.g.RequestVerificationRequired]:"E"}
+{[v.g.AwaitingRequestAcceptance]:"H",[v.g.PendingRequestAcceptance]:"H",[v.g.RequestVerificationRequired]:"H"}
 ```
 ```internal process
 # Error
@@ -849,15 +836,15 @@ This document is entirely auto-generated and may contain errors.<br>
 ```
 ```internal process
 # Error
-{[m.l.Charge]:"Charge",[m.l.Combo]:"Combo",[m.l.Debit]:"Debit",[m.l.Credit]:"Credit",[m.l.DeferredDebit]:"DeferredDebit",[m.l.Prepaid]:"Prepaid"}
+{[f.l.Charge]:"Charge",[f.l.Combo]:"Combo",[f.l.Debit]:"Debit",[f.l.Credit]:"Credit",[f.l.DeferredDebit]:"DeferredDebit",[f.l.Prepaid]:"Prepaid"}
 ```
 ```internal process
 # Error
-{[f.U.AmericanExpress]:"American Express",[f.U.Mastercard]:"Mastercard",[f.U.Visa]:"Visa"}
+{[m.U.AmericanExpress]:"American Express",[m.U.Mastercard]:"Mastercard",[m.U.Visa]:"Visa"}
 ```
 ```internal process
 # Error
-{[x.D.LoginRequired]:"Login required",[x.D.Invalid]:"Invalid",[x.D.Pending]:"Pending",[x.D.Revoked]:"Revoked",[x.D.Canceled]:"Canceled",[x.D.Inactive]:"Inactive"}
+{[b.D.LoginRequired]:"Login required",[b.D.Invalid]:"Invalid",[b.D.Pending]:"Pending",[b.D.Revoked]:"Revoked",[b.D.Canceled]:"Canceled",[b.D.Inactive]:"Inactive"}
 ```
 ```internal process
 # Error
@@ -869,11 +856,11 @@ This document is entirely auto-generated and may contain errors.<br>
 ```
 ```internal process
 # Error
-{[f.U.AmericanExpress]:"https://abs.twimg.com/responsive-web/client-web/payment-method-amex.b2cd046a.svg",[f.U.Mastercard]:"https://abs.twimg.com/responsive-web/client-web/payment-method-mastercard.f126316a.svg",[f.U.Visa]:"https://abs.twimg.com/responsive-web/client-web/payment-method-visa.c768170a...
+{[m.U.AmericanExpress]:"https://abs.twimg.com/responsive-web/client-web/payment-method-amex.b2cd046a.svg",[m.U.Mastercard]:"https://abs.twimg.com/responsive-web/client-web/payment-method-mastercard.f126316a.svg",[m.U.Visa]:"https://abs.twimg.com/responsive-web/client-web/payment-method-visa.c768170a...
 ```
 ```internal process
 # Error
-{[T.R.Ach]:"Bank Transfer ()",[T.R.Aft]:"Funds Transfer (ACH)",[R.t.Oct]:"Instant Payment (AFT)",[R.t.DomesticWire]:"Wire Transfer",[R.t.Ach]:"Bank Transfer (OCT)"}
+{[T.R.Ach]:"Bank Transfer ()",[T.R.Aft]:"Funds Transfer (ACH)",[x.t.Oct]:"Instant Payment (AFT)",[x.t.DomesticWire]:"Wire Transfer",[x.t.Ach]:"Bank Transfer (OCT)"}
 ```
 | constant   | value     |
 |:-----------|:----------|

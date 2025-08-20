@@ -6204,7 +6204,7 @@
           "value": "false"
         },
         "responsive_web_trends_ui_enable_new_sidebar": {
-          "value": "false"
+          "value": "true"
         },
         "responsive_web_trends_ui_sidebar_topic_id": {
           "value": "Top Stories"
@@ -7019,7 +7019,7 @@
           "value": "false"
         },
         "subscriptions_upsells_analytics_fix_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "subscriptions_upsells_analytics_profile_enabled": {
           "value": "true"
@@ -7517,6 +7517,9 @@
         "unified_cards_dpa_cta_button_enabled": {
           "value": "false"
         },
+        "unified_cards_dpa_hide_vanity": {
+          "value": "false"
+        },
         "unified_cards_dpa_metadata_enabled": {
           "value": "true"
         },
@@ -7727,10 +7730,10 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "fbc3877be9cbed48e9333a95189c4b0c"
+      "settingsVersion": "80e1c71230fe8025c2d5a022ce2231d9"
     },
     "debug": {},
-    "featureSetToken": "60e2cfbff00f43ef082fc418aaddab62a0936830",
+    "featureSetToken": "d4980fe511cc9086643fb6a174d12e94dc3e8ce2",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -7799,7 +7802,7 @@
   },
   "session": {
     "country": "XX",
-    "guestId": "175555091096271819",
+    "guestId": "175563731024826313",
     "hasCommunityMemberships": "false",
     "isActiveCreator": "false",
     "isLoaded": "false",
