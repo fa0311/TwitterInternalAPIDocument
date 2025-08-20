@@ -6734,3 +6734,14 @@
 - unified_cards_dpa_hide_vanity<br>
 #### remove<br>
 - None<br>
+## 2025/08/20<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- branded_features_is_branded_likes_on_tweet_content_enabled<br>
+#### remove<br>
+- None<br>
