@@ -1968,6 +1968,13 @@
       "bold": "!0",
       "fontSize": "subtext3"
     },
+    "interest": {
+      "backgroundColor": "green50",
+      "color": "green500",
+      "bold": "!1",
+      "fontSize": "subtext1",
+      "fontWeight": "medium"
+    },
     "mostPopular": {
       "backgroundColor": "purple50",
       "color": "purple900",
@@ -8928,7 +8935,7 @@
     "invite": "invite",
     "autoclaim": "autoclaim"
   },
-  "{[g.default]:{\"redirectPath\":()=>l.gp,\"buttonText\":\"k\",\"disclaimer\":\"C\"},[g.autoclaim]:{\"redirectPath\":()=>l.gp,\"buttonText\":\"k\",\"disclaimer\":\"C\"},[g.invite]:{\"redirectPath\":\"()\"{\"inviteTransactionId\":\"e\"}{\"l.bR\"}/${\"e\"}`:\"l.gp\",\"buttonText\":\"k\",\"disclaimer\":\"C\"}}",
+  "{[k.default]:{\"redirectPath\":()=>l.gp,\"buttonText\":\"g\",\"disclaimer\":\"C\"},[k.autoclaim]:{\"redirectPath\":()=>l.gp,\"buttonText\":\"g\",\"disclaimer\":\"C\"},[k.invite]:{\"redirectPath\":\"()\"{\"inviteTransactionId\":\"e\"}{\"l.bR\"}/${\"e\"}`:\"l.gp\",\"buttonText\":\"g\",\"disclaimer\":\"C\"}}",
   "{[l.Rz.debit]:{\"label\":\"Send\",\"title\":\"Send\",\"withAlternativePaymentMethods\":\"!0\"},[l.Rz.credit]:{\"label\":\"Request\",\"title\":\"Request\",\"scanMessage\":\"Let others scan your QR Code to pay you.\",\"withAlternativePaymentMethods\":\"!1\"}}",
   "{[l.Rz.debit]:\"S.d.CreateTransfer\",[l.Rz.credit]:\"S.d.RequestTransfer\"}",
   {
@@ -9346,27 +9353,6 @@
     "Basic": "Basic"
   },
   {
-    "Advertising": "Advertising",
-    "BlueVerified": "BlueVerified",
-    "BlueVerifiedPlus": "BlueVerifiedPlus",
-    "Chirps": "Chirps",
-    "Coins": "Coins",
-    "OneDollar": "OneDollar",
-    "OneDollarSubscription": "OneDollarSubscription",
-    "PremiumBasic": "PremiumBasic",
-    "PremiumGift": "PremiumGift",
-    "PremiumPlusGift": "PremiumPlusGift",
-    "QuickFreeTrial": "QuickFreeTrial",
-    "QuickPromoteBudget": "QuickPromoteBudget",
-    "Seeds": "Seeds",
-    "Spaces": "Spaces",
-    "Subscriptions": "Subscriptions",
-    "SuperFollows": "SuperFollows",
-    "SuperLikes": "SuperLikes",
-    "VerifiedOrganizations": "VerifiedOrganizations",
-    "VerifiedOrganizationsBasic": "VerifiedOrganizationsBasic"
-  },
-  {
     "REQUEST": "rweb/subscriptionPayments/FETCH_SUBSCRIPTION_PRODUCT_DETAILS_REQUEST",
     "SUCCESS": "rweb/subscriptionPayments/FETCH_SUBSCRIPTION_PRODUCT_DETAILS_SUCCESS",
     "FAILURE": "rweb/subscriptionPayments/FETCH_SUBSCRIPTION_PRODUCT_DETAILS_FAILURE"
@@ -9391,29 +9377,13 @@
     "native_clone_only_stripe": "native_clone_only_stripe",
     "native_clone_stripe_choice": "native_clone_stripe_choice",
     "one_click": "one_click",
-    "feature_focused": "feature_focused",
-    "v1_1_1": "v1_1_1",
-    "v1_1_2": "v1_1_2",
-    "v1_2_1": "v1_2_1",
-    "v1_2_2": "v1_2_2",
-    "v1_3_1": "v1_3_1",
-    "v1_3_1_dynamic": "v1_3_1_dynamic",
-    "v1_3_1_blue": "v1_3_1_blue",
-    "v1_3_2": "v1_3_2",
-    "v1_3_2_dynamic": "v1_3_2_dynamic",
-    "v1_3_2_blue": "v1_3_2_blue",
     "offer_v1_1": "offer_v1_1",
-    "offer_v1_2": "offer_v1_2",
     "offer_v2_1": "offer_v2_1",
-    "offer_v2_2": "offer_v2_2",
-    "special": "special",
-    "v2": "v2",
-    "v2_2": "v2_2",
-    "v2_3": "v2_3",
-    "v2_3_with_stripe": "v2_3_with_stripe",
-    "v2_3_only_stripe": "v2_3_only_stripe",
-    "v3": "v3",
-    "grok_4": "grok_4"
+    "grok_4": "grok_4",
+    "native_clone_with_tabs": "native_clone_with_tabs",
+    "native_clone_with_purchase_footer": "native_clone_with_purchase_footer",
+    "native_clone_with_card_layout": "native_clone_with_card_layout",
+    "native_clone_with_tabs_and_purchase_footer": "native_clone_with_tabs_and_purchase_footer"
   },
   {
     "alwayOpen": "a().e2a5bd50",
