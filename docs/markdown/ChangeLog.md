@@ -6756,3 +6756,15 @@
 - responsive_web_twitter_article_media_limit<br>
 #### remove<br>
 - None<br>
+## 2025/08/22<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- responsive_web_logged_out_ios_webview_redirect_enabled<br>
+- unified_cards_details_component_title_max_lines<br>
+#### remove<br>
+- xchat_enable_floating_theme<br>
