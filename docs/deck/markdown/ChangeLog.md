@@ -5700,3 +5700,14 @@
 - branded_features_is_branded_likes_on_tweet_content_enabled<br>
 #### remove<br>
 - None<br>
+## 2025/08/21<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- responsive_web_twitter_article_media_limit<br>
+#### remove<br>
+- None<br>
