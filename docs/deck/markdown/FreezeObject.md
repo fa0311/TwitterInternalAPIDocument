@@ -23,12 +23,6 @@ This document is entirely auto-generated and may contain errors.<br>
 | Expand     | expand  |
 | Remove     | remove  |
 
-| constant    | value       |
-|:------------|:------------|
-| on          | on          |
-| off         | off         |
-| unavailable | unavailable |
-
 | constant               |   value |
 |:-----------------------|--------:|
 | RequestSubmitted       |       1 |
@@ -76,12 +70,6 @@ This document is entirely auto-generated and may contain errors.<br>
 | JanusPollerResponseParseError                       | JanusPollerResponseParseError                       |
 | JanusPollerResponseEnumUnknown                      | JanusPollerResponseEnumUnknown                      |
 | JanusPollerResponseEnumError                        | JanusPollerResponseEnumError                        |
-
-| constant    | value       |
-|:------------|:------------|
-| Draft       | Draft       |
-| Published   | Published   |
-| SoftDeleted | SoftDeleted |
 
 | constant   |   value |
 |:-----------|--------:|
@@ -719,6 +707,7 @@ This document is entirely auto-generated and may contain errors.<br>
 |:---------------------|:---------------------|
 | Ach                  | Ach                  |
 | Aft                  | Aft                  |
+| Cash                 | Cash                 |
 | Check                | Check                |
 | Oct                  | Oct                  |
 | ProviderBankTransfer | ProviderBankTransfer |
@@ -781,6 +770,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | Cancelled                         | Cancelled                         |
 | FailedOfacCheck                   | FailedOfacCheck                   |
 | InReview                          | InReview                          |
+| IncorrectCardPin                  | IncorrectCardPin                  |
 | ProviderGenericFailure            | ProviderGenericFailure            |
 | RejectedByAutoReview              | RejectedByAutoReview              |
 | RejectedByManualReview            | RejectedByManualReview            |
