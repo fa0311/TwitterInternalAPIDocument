@@ -2128,6 +2128,9 @@
       "responsive_web_logged_out_ios_redesign_enabled": {
         "value": "false"
       },
+      "responsive_web_logged_out_ios_webview_redirect_enabled": {
+        "value": "true"
+      },
       "responsive_web_logged_out_notifications_enabled": {
         "value": "true"
       },
@@ -3709,6 +3712,9 @@
       "unified_cards_collection_ads_convert_to_image_website_card": {
         "value": "false"
       },
+      "unified_cards_details_component_title_max_lines": {
+        "value": "2"
+      },
       "unified_cards_dpa_cta_button_enabled": {
         "value": "false"
       },
@@ -3832,9 +3838,6 @@
         "value": "false"
       },
       "xchat_enable_eu_report": {
-        "value": "false"
-      },
-      "xchat_enable_floating_theme": {
         "value": "false"
       },
       "xchat_enable_inbox_pills": {
@@ -5948,6 +5951,9 @@
         "responsive_web_logged_out_ios_redesign_enabled": {
           "value": "true"
         },
+        "responsive_web_logged_out_ios_webview_redirect_enabled": {
+          "value": "true"
+        },
         "responsive_web_logged_out_notifications_enabled": {
           "value": "true"
         },
@@ -7529,6 +7535,9 @@
         "unified_cards_collection_ads_convert_to_image_website_card": {
           "value": "false"
         },
+        "unified_cards_details_component_title_max_lines": {
+          "value": "2"
+        },
         "unified_cards_dpa_cta_button_enabled": {
           "value": "false"
         },
@@ -7654,9 +7663,6 @@
         "xchat_enable_eu_report": {
           "value": "false"
         },
-        "xchat_enable_floating_theme": {
-          "value": "false"
-        },
         "xchat_enable_inbox_pills": {
           "value": "true"
         },
@@ -7748,7 +7754,7 @@
       "settingsVersion": "8bb70c3946225ae951c5a890d1d14e74"
     },
     "debug": {},
-    "featureSetToken": "2bac07cdae0c0e56606cc37d064161588f9816c0",
+    "featureSetToken": "39cdc362795da38edd0a3679a001746c824a1226",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -7817,7 +7823,7 @@
   },
   "session": {
     "country": "XX",
-    "guestId": "175581010530795860",
+    "guestId": "175589649899060284",
     "hasCommunityMemberships": "false",
     "isActiveCreator": "false",
     "isLoaded": "false",
