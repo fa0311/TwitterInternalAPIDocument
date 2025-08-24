@@ -4,11 +4,12 @@ import re
 
 
 def get_i18n(i18n_response: str):
-    reg_script = '{name}\("{id}",({fn}|"{any}")\)'.format(
+    reg_script = '{name}\("{id}",({fn}|{quote}{any}{quote})\)'.format(
+        quote="[\"']",
         name="([a-z])",
         id="([a-z0-9]{8})",
         any="([\s\S]*?)",
-        fn="\(function\(e\){return([\s\S]*?)}\)",
+        fn="\(function\([aent]\){return([\s\S]*?)}\)",
     )
 
     res_1 = {
@@ -46,7 +47,7 @@ def replace_ver(script):
             reg="(\"|')?",
             join="(\+)?",
             name="([a-z])",
-            ins="(e|this\.props)",
+            ins="([aent]|this\.props)",
             placeholder="([A-Za-z0-9_]+)",
             any="([\s\S]*?)",
         ),
@@ -58,7 +59,7 @@ def replace_ver(script):
             reg="(\"|')?",
             join="(\+)?",
             name="([a-z])",
-            ins="(e|this\.props)",
+            ins="([aent]|this\.props)",
             placeholder="([A-Za-z0-9_]+)",
             any="([\s\S]*?)",
         ),
@@ -70,7 +71,7 @@ def replace_ver(script):
             reg="(\"|')?",
             join="(\+)?",
             name="([a-z])",
-            ins="(e|this\.props)",
+            ins="([aent]|this\.props)",
             placeholder="([A-Za-z0-9_]+)",
             any="([\s\S]*?)",
         ),
@@ -82,7 +83,7 @@ def replace_ver(script):
         "{reg}{join}{ins}\.{placeholder}{join}{reg}".format(
             reg="(\"|')?",
             join="(\+)?",
-            ins="(e|this\.props)",
+            ins="([aent]|this\.props)",
             placeholder="([A-Za-z0-9_]+)",
         ),
         r"\1\2{double_quotation}{\4}{double_quotation}\5\6",
