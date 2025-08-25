@@ -164,7 +164,7 @@ items = {
     FileConf.FREEZE_OBJECT_JSON: json.dumps(freeze_object_output, **dumps_args),
     FileConf.INITIAL_STATE_JSON: json.dumps(initial_output, **dumps_args),
     FileConf.META_DATA_JSON: json.dumps(meta_output, **dumps_args),
-    FileConf.SCRIPT_LOAD_JSON: json.dumps(script_load_output, **dumps_args),
+    #FileConf.SCRIPT_LOAD_JSON: json.dumps(script_load_output, **dumps_args),
     FileConf.API_JSON: json.dumps(api_output, **dumps_args),
     FileConf.CHANGE_LOG_MD: "",
 }
