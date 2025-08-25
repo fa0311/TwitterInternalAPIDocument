@@ -72,15 +72,6 @@
     ]
   },
   {
-    "queryId": "rux",
-    "dispatch_key": "getURT",
-    "dispatch": [
-      "get",
-      "URT",
-      "https://twitter.com/i/api/2/{queryId}.json"
-    ]
-  },
-  {
     "queryId": "onboarding/fetch_user_recommendations_urt",
     "dispatch_key": "getURT",
     "dispatch": [
@@ -109,6 +100,15 @@
   },
   {
     "queryId": "timeline/fixture",
+    "dispatch_key": "getURT",
+    "dispatch": [
+      "get",
+      "URT",
+      "https://twitter.com/i/api/2/{queryId}.json"
+    ]
+  },
+  {
+    "queryId": "rux",
     "dispatch_key": "getURT",
     "dispatch": [
       "get",
