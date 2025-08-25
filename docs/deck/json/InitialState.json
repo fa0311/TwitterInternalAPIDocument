@@ -2401,6 +2401,9 @@
       "responsive_web_trends_ui_enable_new_sidebar": {
         "value": "false"
       },
+      "responsive_web_trends_ui_hide_news_sidebar_on_explore": {
+        "value": "false"
+      },
       "responsive_web_trends_ui_sidebar_topic_id": {
         "value": "Top Stories"
       },
@@ -6224,6 +6227,9 @@
         "responsive_web_trends_ui_enable_new_sidebar": {
           "value": "true"
         },
+        "responsive_web_trends_ui_hide_news_sidebar_on_explore": {
+          "value": "false"
+        },
         "responsive_web_trends_ui_sidebar_topic_id": {
           "value": "Top Stories"
         },
@@ -7754,7 +7760,7 @@
       "settingsVersion": "8bb70c3946225ae951c5a890d1d14e74"
     },
     "debug": {},
-    "featureSetToken": "39cdc362795da38edd0a3679a001746c824a1226",
+    "featureSetToken": "961f09de6e8ce4998514a66f0fc25eb2aa011d4d",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -7823,7 +7829,7 @@
   },
   "session": {
     "country": "XX",
-    "guestId": "175589697118562085",
+    "guestId": "175606976789908301",
     "hasCommunityMemberships": "false",
     "isActiveCreator": "false",
     "isLoaded": "false",
