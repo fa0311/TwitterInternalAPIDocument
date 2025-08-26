@@ -23,12 +23,6 @@ This document is entirely auto-generated and may contain errors.<br>
 | Expand     | expand  |
 | Remove     | remove  |
 
-| constant    | value       |
-|:------------|:------------|
-| on          | on          |
-| off         | off         |
-| unavailable | unavailable |
-
 | constant               |   value |
 |:-----------------------|--------:|
 | RequestSubmitted       |       1 |
