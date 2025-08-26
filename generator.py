@@ -96,7 +96,9 @@ logging.info("script decode is completed")
 # === x-client-transaction-id ===
 
 ondemand = script_load_output["ondemand.s"]
-ondemand_response = twitter.session.get(ondemand, headers=twitter.get_header(), timeout=twitter.TIMEOUT).text
+ondemand_response = twitter.session.get(
+    ondemand, headers=twitter.get_header(), timeout=twitter.TIMEOUT
+).text
 INDICES_REGEX = re.compile(
     r"""(\(\w{1}\[(\d{1,2})\],\s*16\))+""", flags=(re.VERBOSE | re.MULTILINE)
 )
@@ -113,12 +115,19 @@ if CACHE and os.path.isfile("debug/script_response.txt"):
 
 else:
     response = "".join(
-        [twitter.session.get(s, headers=twitter.get_header(), timeout=twitter.TIMEOUT).text for s in tqdm(src)]
+        [
+            twitter.session.get(
+                s, headers=twitter.get_header(), timeout=twitter.TIMEOUT
+            ).text
+            for s in tqdm(src)
+        ]
     )
     logging.info("script loading is completed")
 
     i18n_response = {
-        k: twitter.session.get(s, headers=twitter.get_header(), timeout=twitter.TIMEOUT).text
+        k: twitter.session.get(
+            s, headers=twitter.get_header(), timeout=twitter.TIMEOUT
+        ).text
         for k, s in tqdm(i18n_src.items())
     }
     logging.info("i18n loading is completed")

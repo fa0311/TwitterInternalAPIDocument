@@ -77,9 +77,7 @@ def gen_md_graphql(graphql_output: list) -> md_generator:
         md.h2(exports["operationName"])
         md.p("Request URL", end=": ")
         md.inline(
-            "https://x.com/i/api/graphql/{queryId}/{operationName}".format(
-                **exports
-            )
+            "https://x.com/i/api/graphql/{queryId}/{operationName}".format(**exports)
         )
 
         md.p("Request Method", end=": ")
