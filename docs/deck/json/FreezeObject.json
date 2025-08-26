@@ -29,11 +29,6 @@
     "Remove": "remove"
   },
   {
-    "on": "on",
-    "off": "off",
-    "unavailable": "unavailable"
-  },
-  {
     "RequestSubmitted": "1",
     "RequestCancelled": "2",
     "RequestRejected": "3",
