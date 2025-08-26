@@ -756,25 +756,7 @@
     ]
   },
   {
-    "queryId": "media/metadata/create",
-    "dispatch_key": "post",
-    "dispatch": [
-      "post",
-      "",
-      "https://api.x.com/1.1/{queryId}.json"
-    ]
-  },
-  {
-    "queryId": "media/subtitles/create",
-    "dispatch_key": "post",
-    "dispatch": [
-      "post",
-      "",
-      "https://api.x.com/1.1/{queryId}.json"
-    ]
-  },
-  {
-    "queryId": "lists/memberships",
+    "queryId": "branch_session",
     "dispatch_key": "get",
     "dispatch": [
       "get",
@@ -783,7 +765,7 @@
     ]
   },
   {
-    "queryId": "geo/places",
+    "queryId": "branch_session_first",
     "dispatch_key": "get",
     "dispatch": [
       "get",
@@ -792,7 +774,7 @@
     ]
   },
   {
-    "queryId": "saved_searches/list",
+    "queryId": "people_discovery/profile_follow",
     "dispatch_key": "get",
     "dispatch": [
       "get",
@@ -801,52 +783,25 @@
     ]
   },
   {
-    "queryId": "saved_searches/create",
+    "queryId": "onboarding/bounce",
     "dispatch_key": "post",
     "dispatch": [
       "post",
-      "",
-      "https://api.x.com/1.1/{queryId}.json"
-    ]
-  },
-  {
-    "queryId": "live_pipeline/update_subscriptions",
-    "dispatch_key": "post",
-    "dispatch": [
-      "post",
-      "",
-      "https://api.x.com/1.1/{queryId}.json"
-    ]
-  },
-  {
-    "queryId": "keyregistry/register",
-    "dispatch_key": "post",
-    "dispatch": [
-      "post",
-      "",
-      "https://api.x.com/1.1/{queryId}.json"
-    ]
-  },
-  {
-    "queryId": "account/not_my_account/disassociate",
-    "dispatch_key": "post",
-    "dispatch": [
-      "post",
-      "",
-      "https://api.x.com/1.1/{queryId}.json"
-    ]
-  },
-  {
-    "queryId": "account/not_my_account/get_masked_data",
-    "dispatch_key": "get",
-    "dispatch": [
-      "get",
       "",
       "https://api.x.com/1.1/{queryId}.json"
     ]
   },
   {
     "queryId": "collections/entries",
+    "dispatch_key": "get",
+    "dispatch": [
+      "get",
+      "",
+      "https://api.x.com/1.1/{queryId}.json"
+    ]
+  },
+  {
+    "queryId": "help/languages",
     "dispatch_key": "get",
     "dispatch": [
       "get",
@@ -873,10 +828,73 @@
     ]
   },
   {
-    "queryId": "contacts/addressbook",
+    "queryId": "rux/logged_out/segmentations",
     "dispatch_key": "get",
     "dispatch": [
       "get",
+      "",
+      "https://api.x.com/1.1/{queryId}.json"
+    ]
+  },
+  {
+    "queryId": "jot/client_event",
+    "dispatch_key": "post",
+    "dispatch": [
+      "post",
+      "",
+      "https://api.x.com/1.1/{queryId}.json"
+    ]
+  },
+  {
+    "queryId": "keyregistry/register",
+    "dispatch_key": "post",
+    "dispatch": [
+      "post",
+      "",
+      "https://api.x.com/1.1/{queryId}.json"
+    ]
+  },
+  {
+    "queryId": "lists/memberships",
+    "dispatch_key": "get",
+    "dispatch": [
+      "get",
+      "",
+      "https://api.x.com/1.1/{queryId}.json"
+    ]
+  },
+  {
+    "queryId": "live_pipeline/update_subscriptions",
+    "dispatch_key": "post",
+    "dispatch": [
+      "post",
+      "",
+      "https://api.x.com/1.1/{queryId}.json"
+    ]
+  },
+  {
+    "queryId": "media/metadata/create",
+    "dispatch_key": "post",
+    "dispatch": [
+      "post",
+      "",
+      "https://api.x.com/1.1/{queryId}.json"
+    ]
+  },
+  {
+    "queryId": "media/subtitles/create",
+    "dispatch_key": "post",
+    "dispatch": [
+      "post",
+      "",
+      "https://api.x.com/1.1/{queryId}.json"
+    ]
+  },
+  {
+    "queryId": "moments/create",
+    "dispatch_key": "post",
+    "dispatch": [
+      "post",
       "",
       "https://api.x.com/1.1/{queryId}.json"
     ]
@@ -909,19 +927,10 @@
     ]
   },
   {
-    "queryId": "account/user_twitter_data",
+    "queryId": "geo/places",
     "dispatch_key": "get",
     "dispatch": [
       "get",
-      "",
-      "https://api.x.com/1.1/{queryId}.json"
-    ]
-  },
-  {
-    "queryId": "account/user_twitter_data",
-    "dispatch_key": "put",
-    "dispatch": [
-      "put",
       "",
       "https://api.x.com/1.1/{queryId}.json"
     ]
@@ -936,10 +945,127 @@
     ]
   },
   {
-    "queryId": "moments/create",
+    "queryId": "report/flow",
     "dispatch_key": "post",
     "dispatch": [
       "post",
+      "",
+      "https://api.x.com/1.1/{queryId}.json"
+    ]
+  },
+  {
+    "queryId": "saved_searches/list",
+    "dispatch_key": "get",
+    "dispatch": [
+      "get",
+      "",
+      "https://api.x.com/1.1/{queryId}.json"
+    ]
+  },
+  {
+    "queryId": "saved_searches/create",
+    "dispatch_key": "post",
+    "dispatch": [
+      "post",
+      "",
+      "https://api.x.com/1.1/{queryId}.json"
+    ]
+  },
+  {
+    "queryId": "account/password_strength",
+    "dispatch_key": "post",
+    "dispatch": [
+      "post",
+      "",
+      "https://api.x.com/1.1/{queryId}.json"
+    ]
+  },
+  {
+    "queryId": "users/phone_number_available",
+    "dispatch_key": "get",
+    "dispatch": [
+      "get",
+      "",
+      "https://api.x.com/1.1/{queryId}.json"
+    ]
+  },
+  {
+    "queryId": "users/email_available",
+    "dispatch_key": "getI",
+    "dispatch": [
+      "get",
+      "I",
+      "https://x.com/i/api/1.1/{queryId}.json"
+    ]
+  },
+  {
+    "queryId": "account/not_my_account/disassociate",
+    "dispatch_key": "post",
+    "dispatch": [
+      "post",
+      "",
+      "https://api.x.com/1.1/{queryId}.json"
+    ]
+  },
+  {
+    "queryId": "account/not_my_account/get_masked_data",
+    "dispatch_key": "get",
+    "dispatch": [
+      "get",
+      "",
+      "https://api.x.com/1.1/{queryId}.json"
+    ]
+  },
+  {
+    "queryId": "branch/init",
+    "dispatch_key": "post",
+    "dispatch": [
+      "post",
+      "",
+      "https://api.x.com/1.1/{queryId}.json"
+    ]
+  },
+  {
+    "queryId": "branch/callback",
+    "dispatch_key": "post",
+    "dispatch": [
+      "post",
+      "",
+      "https://api.x.com/1.1/{queryId}.json"
+    ]
+  },
+  {
+    "queryId": "broadcasts/show",
+    "dispatch_key": "get",
+    "dispatch": [
+      "get",
+      "",
+      "https://api.x.com/1.1/{queryId}.json"
+    ]
+  },
+  {
+    "queryId": "contacts/addressbook",
+    "dispatch_key": "get",
+    "dispatch": [
+      "get",
+      "",
+      "https://api.x.com/1.1/{queryId}.json"
+    ]
+  },
+  {
+    "queryId": "account/user_twitter_data",
+    "dispatch_key": "get",
+    "dispatch": [
+      "get",
+      "",
+      "https://api.x.com/1.1/{queryId}.json"
+    ]
+  },
+  {
+    "queryId": "account/user_twitter_data",
+    "dispatch_key": "put",
+    "dispatch": [
+      "put",
       "",
       "https://api.x.com/1.1/{queryId}.json"
     ]
