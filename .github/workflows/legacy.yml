@@ -1,8 +1,6 @@
 name: Generator
 
 on:
-  schedule:
-    - cron: "0 21 * * *"
   workflow_dispatch:
   push:
     branches:
@@ -13,7 +11,7 @@ permissions:
   pull-requests: write
 
 jobs:
-  generator:
+  legacy-twitter:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
@@ -40,21 +38,13 @@ jobs:
             ${{ runner.os }}-pip-
       - name: Install dependencies
         run: pip install -r requirements.txt
+      - name: Get Legacy File
+        run: git checkout c150806085e7d482a366da38c4d036b5ac12f28e -- docs/json/ScriptLoadJson.json
       - name: Run Python
         run: python generator.py
         env:
           ENV: "GithubAction"
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           REPOSITORY: ${{ github.repository }}
-          BASE_BRANCH: "master"
-          REF_BRANCH: "develop"
-      - name: Run Python (Deck)
-        run: python generator.py
-        env:
-          ENV: "GithubAction"
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          REPOSITORY: ${{ github.repository }}
-          BASE_BRANCH: "master"
-          REF_BRANCH: "develop"
-          CLIENT_TYPE: Deck
-          OUTPUT_DIR: docs/deck
+          REF_BRANCH: "legacy-twitter"
+          READ_SCRIPT_JSON: "True"

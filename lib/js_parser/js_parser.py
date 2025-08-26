@@ -2,14 +2,14 @@ import json
 import re
 
 
-class js:
+class Js:
     def __init__(self, script: str):
         self.script = script
         self.length = len(self.script)
         self.key = 0
 
     def parser(self, init=True):
-        output = js_data()
+        output = JsData()
         value = ""
         while self.length > self.key:
             char = self.script[self.key]
@@ -34,10 +34,10 @@ class js:
         return output
 
 
-class js_data:
+class JsData:
     def __init__(self):
         self.children: list = []
-        self.parent: js_data = None
+        self.parent: JsData = None
         self.after = None
         self.before = None
 
@@ -47,17 +47,17 @@ class js_data:
     def to_list(self):
         output = []
         for child in self.children:
-            if type(child) is js_data:
+            if type(child) is JsData:
                 output.append(child.to_list())
             else:
                 output.append(child)
         return output
 
 
-class js_search_data:
+class JsSearchData:
     def __init__(self):
         self.children: list = []
-        self.parent: js_data = None
+        self.parent: JsData = None
         self.after = None
         self.before = None
         self.data = None
@@ -68,22 +68,22 @@ class js_search_data:
     def to_list(self):
         output = []
         for child in self.children:
-            if type(child) is js_data:
+            if type(child) is JsData:
                 output.append(child.to_list())
             else:
                 output.append(child)
         return output
 
 
-def search_js(text: js_data, search: str) -> list[js_search_data]:
+def search_js(text: JsData, search: str) -> list[JsSearchData]:
     output = []
     for data in text.children:
-        if type(data) is js_data:
+        if type(data) is JsData:
             output.extend(search_js(data, search))
     for key in range(len(text.children)):
         data = text.children[key]
         if data == search:
-            output.append(js_search_data())
+            output.append(JsSearchData())
             output[-1].children = text.children
             output[-1].parent = text
             if len(text.children) > key + 1:
@@ -95,17 +95,17 @@ def search_js(text: js_data, search: str) -> list[js_search_data]:
     return output
 
 
-def search_js_reg(text: js_data, search: str) -> list[js_search_data]:
+def search_js_reg(text: JsData, search: str) -> list[JsSearchData]:
     output = []
     for data in text.children:
-        if type(data) is js_data:
+        if type(data) is JsData:
             output.extend(search_js_reg(data, search))
     for key in range(len(text.children)):
         data = text.children[key]
         if type(data) is str:
             find = re.findall(search, data)
             for _ in range(len(find)):
-                output.append(js_search_data())
+                output.append(JsSearchData())
                 output[-1].children = text.children[key]
                 output[-1].parent = text
                 if len(text.children) > key + 1:
@@ -117,11 +117,11 @@ def search_js_reg(text: js_data, search: str) -> list[js_search_data]:
     return output
 
 
-def json_parser(text: js_data):
+def json_parser(text: JsData):
     output = ""
     reg_other = "[0-9a-zA-Z\s" + re.escape("!?$_.{}&=") + "]"
     for data in text.children:
-        if type(data) is js_data:
+        if type(data) is JsData:
             json = json_parser(data)
         else:
             data = (
@@ -174,7 +174,7 @@ def parentheses_placeholder(text: str):
     key = 0
     placeholder = 0
     depth = 0
-    output = parentheses_placeholder_data()
+    output = ParenthesesPlaceholderData()
     output.list.append("")
     while length > key:
         char = text[key]
@@ -194,7 +194,7 @@ def parentheses_placeholder(text: str):
     return output
 
 
-class parentheses_placeholder_data:
+class ParenthesesPlaceholderData:
     def __init__(self):
         self.text = ""
         self.list = []

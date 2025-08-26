@@ -25,11 +25,14 @@ CLIENT_TYPE = os.environ.get("CLIENT_TYPE", "Responsive")
 OUTPUT_DIR = os.environ.get("OUTPUT_DIR", "docs")
 GITHUB_TOKEN = os.environ.get("GITHUB_TOKEN", None)
 REPOSITORY = os.environ.get("REPOSITORY", None)
+BASE_BRANCH = os.environ.get("BASE_BRANCH", None)
+REF_BRANCH = os.environ.get("REF_BRANCH", None)
 SCAN_TYPE = os.environ.get("SCAN_TYPE", "Full")
 TQDM_DISABLE = os.environ.get("TQDM_DISABLE", "False") == "True"
 LOGGING_LEVEL = os.environ.get("LOGGING_LEVEL", "Into").upper()
 CACHE = os.environ.get("CACHE", "False") == "True"
 GRAPHQL_CACHE = os.environ.get("GRAPHQL_CACHE", "False") == "True"
+READ_SCRIPT_JSON = os.environ.get("READ_SCRIPT_JSON", "False") == "True"
 TIMEOUT = 30
 
 coloredlogs.install(
@@ -45,18 +48,18 @@ logging.info("init is completed")
 # === Requests ===
 
 if CLIENT_TYPE == "Responsive":
-    twitter = twitter_home()
+    twitter = TwitterHome()
 elif CLIENT_TYPE == "Deck":
-    twitter = twitter_deck()
+    twitter = TwitterDeck()
 
-if twitter_home.TWITTER_FRONTEND_FLOW and os.path.isfile("cookie.json"):
+if TwitterHome.TWITTER_FRONTEND_FLOW and os.path.isfile("cookie.json"):
     twitter.load("cookie.json")
     logging.info("cookie load is completed")
 twitter.get_home()
 
 
 script = "".join(twitter.get_script_res())
-parsed_script_list = js(script).parser()
+parsed_script_list = Js(script).parser()
 src = twitter.get_script_url()
 i18n_src = {}
 logging.info("src: " + json.dumps(src, **dumps_args))
@@ -73,8 +76,17 @@ script_load_data = search_js_reg(parsed_script_list, "Promise.all")[0].after
 script_load_json = json.loads(json_parser(script_load_data))
 script_load_output = {}
 base_url = "https://abs.twimg.com/{0}/client-web/".format(twitter.CLIENT)
-for k in script_load_json:
-    url = "{0}{1}.{2}a.js".format(base_url, k, script_load_json[k])
+
+if READ_SCRIPT_JSON:
+    output_dir = OUTPUT_DIR if OUTPUT_DIR[-1] == "/" else f"{OUTPUT_DIR}/"
+    script_load_url = json.loads(read(f"{output_dir}{FileConf.SCRIPT_LOAD_JSON}"))
+else:
+    script_load_url = {
+        k: "{0}{1}.{2}a.js".format(base_url, k, script_load_json[k])
+        for k in script_load_json
+    }
+
+for k, url in script_load_url.items():
     script_load_output[k] = url
     if k.startswith("i18n"):
         i18n_src[k] = url
@@ -96,7 +108,9 @@ logging.info("script decode is completed")
 # === x-client-transaction-id ===
 
 ondemand = script_load_output["ondemand.s"]
-ondemand_response = twitter.session.get(ondemand, headers=twitter.get_header(), timeout=twitter.TIMEOUT).text
+ondemand_response = twitter.session.get(
+    ondemand, headers=twitter.get_header(), timeout=twitter.TIMEOUT
+).text
 INDICES_REGEX = re.compile(
     r"""(\(\w{1}\[(\d{1,2})\],\s*16\))+""", flags=(re.VERBOSE | re.MULTILINE)
 )
@@ -113,18 +127,25 @@ if CACHE and os.path.isfile("debug/script_response.txt"):
 
 else:
     response = "".join(
-        [twitter.session.get(s, headers=twitter.get_header(), timeout=twitter.TIMEOUT).text for s in tqdm(src)]
+        [
+            twitter.session.get(
+                s, headers=twitter.get_header(), timeout=twitter.TIMEOUT
+            ).text
+            for s in tqdm(src)
+        ]
     )
     logging.info("script loading is completed")
 
     i18n_response = {
-        k: twitter.session.get(s, headers=twitter.get_header(), timeout=twitter.TIMEOUT).text
+        k: twitter.session.get(
+            s, headers=twitter.get_header(), timeout=twitter.TIMEOUT
+        ).text
         for k, s in tqdm(i18n_src.items())
     }
     logging.info("i18n loading is completed")
 
 
-parsed_list = js(response).parser()
+parsed_list = Js(response).parser()
 logging.info("script parser is completed")
 
 # === Parse ===
@@ -225,7 +246,7 @@ items_backup = {
 # === DIFF API ===
 
 
-body = md_generator()
+body = MdGenerator()
 body.h3("API")
 try:
     backup_graphql_data = json.loads(
@@ -299,7 +320,6 @@ items.update({f"{output_dir}{FileConf.CHANGE_LOG_MD}": change_log})
 if ENV == "GithubAction":
     g = Github(GITHUB_TOKEN)
     repo = g.get_repo(REPOSITORY)
-    branch = "develop"
 
     for file_name in set(list(items.keys()) + list(items_backup.keys())):
         try:
@@ -309,43 +329,44 @@ if ENV == "GithubAction":
                 logging.info(f"Create to {file_name}")
                 repo.create_file(
                     file_name,
-                    message=f"Update {file_name} on {branch} branch",
+                    message=f"Update {file_name} on {REF_BRANCH} branch",
                     content=items[file_name],
-                    branch=branch,
+                    branch=REF_BRANCH,
                 )
             elif items.get(file_name, None) == None:
                 logging.info(f"Remove to {file_name}")
                 repo.delete_file(
                     file_name,
-                    message=f"Remove {file_name} on {branch} branch",
-                    sha=repo.get_contents(file_name, ref=branch).sha,
-                    branch=branch,
+                    message=f"Remove {file_name} on {REF_BRANCH} branch",
+                    sha=repo.get_contents(file_name, ref=REF_BRANCH).sha,
+                    branch=REF_BRANCH,
                 )
             else:
                 logging.info(f"Update to {file_name}")
                 repo.update_file(
                     file_name,
-                    message=f"Update {file_name} on {branch} branch",
+                    message=f"Update {file_name} on {REF_BRANCH} branch",
                     content=items[file_name],
-                    sha=repo.get_contents(file_name, ref=branch).sha,
-                    branch=branch,
+                    sha=repo.get_contents(file_name, ref=REF_BRANCH).sha,
+                    branch=REF_BRANCH,
                 )
         except:
             logging.warning(f"Error to {file_name}")
 
-    try:
-        repo.create_pull(
-            title="Update Document",
-            body=body.output,
-            head=branch,
-            base="master",
-        )
-    except:
-        logging.warning("A pull request already exists")
-        head = "fa0311:{0}".format(branch)
-        repo.get_pulls(state="open", head=head)[0].create_issue_comment(
-            body=body.output,
-        )
+    if BASE_BRANCH:
+        try:
+            repo.create_pull(
+                title="Update Document",
+                body=body.output,
+                head=REF_BRANCH,
+                base=BASE_BRANCH,
+            )
+        except:
+            logging.warning("A pull request already exists")
+            head = "fa0311:{0}".format(REF_BRANCH)
+            repo.get_pulls(state="open", head=head)[0].create_issue_comment(
+                body=body.output,
+            )
 else:
     for file_name in items.keys():
         if items.get(file_name, "") == items_backup.get(file_name, ""):

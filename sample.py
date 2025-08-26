@@ -12,9 +12,7 @@ api = requests.get(
 
 headers = api["header"]
 session = requests.session()
-session.get(
-    "https://developer.x.com", headers={"User-Agent": headers["User-Agent"]}
-)
+session.get("https://developer.x.com", headers={"User-Agent": headers["User-Agent"]})
 x_guest_token = session.post(
     "https://api.x.com/1.1/guest/activate.json", headers=headers
 ).json()["guest_token"]
