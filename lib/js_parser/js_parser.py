@@ -68,7 +68,7 @@ class JsSearchData:
     def to_list(self):
         output = []
         for child in self.children:
-            if type(child) is js_data:
+            if type(child) is JsData:
                 output.append(child.to_list())
             else:
                 output.append(child)
