@@ -1,4 +1,7 @@
 {
   "markdownlint.ignore": ["docs/**"],
-  "ruff.enable": false
+  "ruff.enable": false,
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.black-formatter"
+  }
 }

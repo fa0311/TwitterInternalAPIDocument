@@ -1,9 +1,9 @@
 import logging
 
-from lib.md_generator.md_generator import md_generator
+from lib.md_generator.md_generator import MdGenerator
 
 
-def gen_md_graphql(graphql_output: list) -> md_generator:
+def gen_md_graphql(graphql_output: list) -> MdGenerator:
     type_converter = {
         "!0": "boolean",
         "!1": "boolean",
@@ -16,7 +16,7 @@ def gen_md_graphql(graphql_output: list) -> md_generator:
         "true": True,
         "false": False,
     }
-    md = md_generator()
+    md = MdGenerator()
     md.h1("Twitter Internal GraphQL API Document")
     md.p("This document is entirely auto-generated and may contain errors.")
     md.p(
@@ -77,9 +77,7 @@ def gen_md_graphql(graphql_output: list) -> md_generator:
         md.h2(exports["operationName"])
         md.p("Request URL", end=": ")
         md.inline(
-            "https://x.com/i/api/graphql/{queryId}/{operationName}".format(
-                **exports
-            )
+            "https://x.com/i/api/graphql/{queryId}/{operationName}".format(**exports)
         )
 
         md.p("Request Method", end=": ")
@@ -168,8 +166,8 @@ def gen_md_graphql(graphql_output: list) -> md_generator:
     return md
 
 
-def gen_md_dispatch(dispatch_output: list) -> md_generator:
-    md = md_generator()
+def gen_md_dispatch(dispatch_output: list) -> MdGenerator:
+    md = MdGenerator()
     for d in dispatch_output:
         md.h2(d["queryId"])
         md.p("Request URL", end=": ")
@@ -181,8 +179,8 @@ def gen_md_dispatch(dispatch_output: list) -> md_generator:
 
 def gen_md_freeze_object(
     freeze_object_output: list,
-) -> md_generator:
-    md = md_generator()
+) -> MdGenerator:
+    md = MdGenerator()
     md.h1("Twitter Internal Constants Document")
     md.p("This document is entirely auto-generated and may contain errors.")
 

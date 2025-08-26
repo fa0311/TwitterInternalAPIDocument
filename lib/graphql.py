@@ -7,8 +7,7 @@ from tqdm import tqdm
 from lib.js_parser.js_parser import *
 
 
-def get_graphql(parsed_list: js_data) -> list:
-
+def get_graphql(parsed_list: JsData) -> list:
     reg_graphql = "e\.graphQL\({func}\(\),$".format(func="([a-zA-Z_\$]{1,2})")
     graphql_list = search_js_reg(parsed_list, reg_graphql)
     graphql_output = []
@@ -111,7 +110,9 @@ def marge_feature_switch(initial_output: dict) -> dict:
                 featureSwitches[k] = initial_output["featureSwitch"]["defaultConfig"][k]
         if k == "user":
             for k in initial_output["featureSwitch"]["user"]["config"].keys():
-                featureSwitches[k] = initial_output["featureSwitch"]["user"]["config"][k]
+                featureSwitches[k] = initial_output["featureSwitch"]["user"]["config"][
+                    k
+                ]
     return featureSwitches
 
 
@@ -141,7 +142,6 @@ def marge_metadata(graphql_output: list, feature_switch: dict) -> list:
 
 
 def get_freeze_object(parsed_list: list, disable_tqdm=True) -> list:
-
     reg_freeze_object = "Object\.freeze\($"
     freeze_object_list = search_js_reg(parsed_list, reg_freeze_object)
     freeze_object_output = []
