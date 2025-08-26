@@ -106,5 +106,14 @@
       "URT",
       "https://x.com/i/api/2/{queryId}.json"
     ]
+  },
+  {
+    "queryId": "rux",
+    "dispatch_key": "getURT",
+    "dispatch": [
+      "get",
+      "URT",
+      "https://x.com/i/api/2/{queryId}.json"
+    ]
   }
 ]
