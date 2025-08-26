@@ -16,7 +16,7 @@ def gen_md_graphql(graphql_output: list) -> md_generator:
         "true": True,
         "false": False,
     }
-    md = md_generator()
+    md = MdGenerator()
     md.h1("Twitter Internal GraphQL API Document")
     md.p("This document is entirely auto-generated and may contain errors.")
     md.p(

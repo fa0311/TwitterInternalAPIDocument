@@ -1,7 +1,7 @@
 import pandas as pd
 
 
-class md_generator:
+class MdGenerator:
     def __init__(self):
         self.output = ""
 

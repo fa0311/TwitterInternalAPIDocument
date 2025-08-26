@@ -45,11 +45,11 @@ logging.info("init is completed")
 # === Requests ===
 
 if CLIENT_TYPE == "Responsive":
-    twitter = twitter_home()
+    twitter = TwitterHome()
 elif CLIENT_TYPE == "Deck":
-    twitter = twitter_deck()
+    twitter = TwitterDeck()
 
-if twitter_home.TWITTER_FRONTEND_FLOW and os.path.isfile("cookie.json"):
+if TwitterHome.TWITTER_FRONTEND_FLOW and os.path.isfile("cookie.json"):
     twitter.load("cookie.json")
     logging.info("cookie load is completed")
 twitter.get_home()

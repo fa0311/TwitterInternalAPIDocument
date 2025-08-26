@@ -3,7 +3,7 @@ import re
 import requests
 
 
-class twitter_home:
+class TwitterHome:
     TWITTER_HOME = "https://x.com/home"
     CLIENT = "responsive-web"
     LATEST_USER_AGENT = (
@@ -101,7 +101,7 @@ class twitter_home:
         return self.get_script(self.response.text)
 
 
-class twitter_deck(twitter_home):
+class TwitterDeck(TwitterHome):
     TWITTER_HOME = "https://pro.x.com"
     CLIENT = "gryphon-client"
 
@@ -109,6 +109,6 @@ class twitter_deck(twitter_home):
 try:
     from TwitterFrontendFlow.TwitterFrontendFlow.TwitterFrontendFlow import *  # type: ignore
 
-    twitter_home.TWITTER_FRONTEND_FLOW = True
+    TwitterHome.TWITTER_FRONTEND_FLOW = True
 except:
     pass
