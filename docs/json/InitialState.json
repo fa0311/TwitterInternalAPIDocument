@@ -7685,7 +7685,7 @@
           "value": "false"
         },
         "xchat_enable_show_more_button": {
-          "value": "false"
+          "value": "true"
         },
         "xchat_enabled_inbox_pill_counts": {
           "value": "false"
@@ -7763,7 +7763,7 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "8bb70c3946225ae951c5a890d1d14e74"
+      "settingsVersion": "11a9085528bf528b2ef94e003bf21d25"
     },
     "debug": {},
     "featureSetToken": "fad34cb33657e7f4e0e2eb50a661a80a0576dc05",
@@ -7835,7 +7835,7 @@
   },
   "session": {
     "country": "XX",
-    "guestId": "175621811164057481",
+    "guestId": "175624210299999863",
     "hasCommunityMemberships": "false",
     "isActiveCreator": "false",
     "isLoaded": "false",
