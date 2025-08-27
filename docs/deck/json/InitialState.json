@@ -3816,9 +3816,6 @@
       "web_video_playback_rate_enabled": {
         "value": "true"
       },
-      "web_video_player_size_cap_disabled": {
-        "value": "false"
-      },
       "web_video_prefetch_playlist_autoplay_disabled": {
         "value": "false"
       },
@@ -3856,7 +3853,7 @@
         "value": "false"
       },
       "xchat_enable_show_more_button": {
-        "value": "false"
+        "value": "true"
       },
       "xchat_enabled_inbox_pill_counts": {
         "value": "false"
@@ -7645,9 +7642,6 @@
         "web_video_playback_rate_enabled": {
           "value": "true"
         },
-        "web_video_player_size_cap_disabled": {
-          "value": "false"
-        },
         "web_video_prefetch_playlist_autoplay_disabled": {
           "value": "false"
         },
@@ -7763,10 +7757,10 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "11a9085528bf528b2ef94e003bf21d25"
+      "settingsVersion": "8bb70c3946225ae951c5a890d1d14e74"
     },
     "debug": {},
-    "featureSetToken": "fad34cb33657e7f4e0e2eb50a661a80a0576dc05",
+    "featureSetToken": "c28570bc8cb904ccfaa197c96daf38a55ac4ba3f",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -7835,7 +7829,7 @@
   },
   "session": {
     "country": "XX",
-    "guestId": "175624259959695317",
+    "guestId": "175632902709021737",
     "hasCommunityMemberships": "false",
     "isActiveCreator": "false",
     "isLoaded": "false",
