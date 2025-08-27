@@ -75,11 +75,6 @@
     "JanusPollerResponseEnumError": "JanusPollerResponseEnumError"
   },
   {
-    "Draft": "Draft",
-    "Published": "Published",
-    "SoftDeleted": "SoftDeleted"
-  },
-  {
     "HUMAN": "1",
     "ASSISTANT": "2"
   },
@@ -111,6 +106,12 @@
     "veryNarrow": "veryNarrow"
   },
   "{[r.wide]:\"500\",[r.narrow]:\"300\",[r.veryNarrow]:\"200\"}",
+  {
+    "large": "54",
+    "medium": "46",
+    "small": "36",
+    "xSmall": "12"
+  },
   "{\"__proto__\":\"null\",\"formatCaption\":\"function()\"{\"return()(0,a.WU)\"},\"formatDay\":\"function()\"{\"return()(0,a.WU)\"},\"formatMonthCaption\":\"function()\"{\"return()(0,a.WU)\"},\"formatWeekNumber\":\"function()\"{return\"\".concat()},\"formatWeekdayName\":\"function()\"{\"return()(0,a.WU)\"},\"formatYearCaption\":\"function()\"{\"return()(0,a.WU)\"}}",
   "{\"__proto__\":\"null\",\"labelDay\":\"function()\"{\"return()(0,a.WU)\"},\"labelMonthDropdown\":\"function()\"{return\"Month: \"},\"labelNext\":\"function()\"{return\"Go to next month\"},\"labelPrevious\":\"function()\"{return\"Go to previous month\"},\"labelWeekNumber\":\"function()\"{return\"Week n. \".concat()},\"labelWeekday\":\"function()\"{\"return()(0,a.WU)\"},\"labelYearDropdown\":\"function()\"{return\"Year: \"}}",
   {
