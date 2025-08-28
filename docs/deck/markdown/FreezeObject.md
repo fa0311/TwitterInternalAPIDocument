@@ -23,6 +23,12 @@ This document is entirely auto-generated and may contain errors.<br>
 | Expand     | expand  |
 | Remove     | remove  |
 
+| constant    | value       |
+|:------------|:------------|
+| on          | on          |
+| off         | off         |
+| unavailable | unavailable |
+
 | constant               |   value |
 |:-----------------------|--------:|
 | RequestSubmitted       |       1 |
@@ -71,6 +77,12 @@ This document is entirely auto-generated and may contain errors.<br>
 | JanusPollerResponseEnumUnknown                      | JanusPollerResponseEnumUnknown                      |
 | JanusPollerResponseEnumError                        | JanusPollerResponseEnumError                        |
 
+| constant    | value       |
+|:------------|:------------|
+| Draft       | Draft       |
+| Published   | Published   |
+| SoftDeleted | SoftDeleted |
+
 | constant   |   value |
 |:-----------|--------:|
 | HUMAN      |       1 |
@@ -112,13 +124,6 @@ This document is entirely auto-generated and may contain errors.<br>
 # Error
 {[r.wide]:"500",[r.narrow]:"300",[r.veryNarrow]:"200"}
 ```
-| constant   |   value |
-|:-----------|--------:|
-| large      |      54 |
-| medium     |      46 |
-| small      |      36 |
-| xSmall     |      12 |
-
 ```internal process
 # Error
 {"__proto__":"null","formatCaption":"function()"{"return()(0,a.WU)"},"formatDay":"function()"{"return()(0,a.WU)"},"formatMonthCaption":"function()"{"return()(0,a.WU)"},"formatWeekNumber":"function()"{return"".concat()},"formatWeekdayName":"function()"{"return()(0,a.WU)"},"formatYearCaption":"functio...
