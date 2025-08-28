@@ -6801,3 +6801,15 @@
 - None<br>
 #### remove<br>
 - web_video_player_size_cap_disabled<br>
+## 2025/08/28<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- responsive_web_grok_send_companion_personality<br>
+- responsive_web_send_jetfuel_preview_image_enabled<br>
+#### remove<br>
+- None<br>
