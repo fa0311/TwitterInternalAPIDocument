@@ -41,6 +41,30 @@ def replace_ver(script):
         "",
         script,
     )
+    bbb = re.sub(
+        "{reg}{join}{name}\({ins}\.{placeholder},{any}\({any}\){any},{any},{any}\({any}\){any},{any}\({any}\){any}\){join}{reg}".format(
+            reg="(\"|')?",
+            join="(\+)?",
+            name="([a-z])",
+            ins="([aent]|this\.props)",
+            placeholder="([A-Za-z0-9_]+)",
+            any="([^\(\)]*?)",
+        ),
+        r"\1\2'('+\4.\5,\6(\7)\8,\9,\10(\11)\12,\13(\14)\15+')'\16\17",
+        a,
+    )
+    bb = re.sub(
+        "{reg}{join}{name}\({ins}\.{placeholder},{any}\({any}\){any},{any},{any}\({any}\){any}\){join}{reg}".format(
+            reg="(\"|')?",
+            join="(\+)?",
+            name="([a-z])",
+            ins="([aent]|this\.props)",
+            placeholder="([A-Za-z0-9_]+)",
+            any="([^\(\)]*?)",
+        ),
+        r"\1\2'('+\4.\5,\6(\7)\8,\9,\10(\11)\12+')'\13\14",
+        bbb,
+    )
     b = re.sub(
         "{reg}{join}{name}\({ins}\.{placeholder},{any},{any}\({any}\){any}\){join}{reg}".format(
             reg="(\"|')?",
@@ -48,24 +72,12 @@ def replace_ver(script):
             name="([a-z])",
             ins="([aent]|this\.props)",
             placeholder="([A-Za-z0-9_]+)",
-            any="([\s\S]*?)",
+            any="([^\(\)]*?)",
         ),
-        r"\1\2\4.\5+\6\10\11",
-        a,
+        r"\1\2'('+\4.\5,\6,\7(\8)\9+')'\10\11",
+        bb,
     )
     c = re.sub(
-        "{reg}{join}{name}\({ins}\.{placeholder},{any},{any}\){join}{reg}".format(
-            reg="(\"|')?",
-            join="(\+)?",
-            name="([a-z])",
-            ins="([aent]|this\.props)",
-            placeholder="([A-Za-z0-9_]+)",
-            any="([\s\S]*?)",
-        ),
-        r"\1\2\4.\5+\6\8\9",
-        b,
-    )
-    d = re.sub(
         "{reg}{join}{name}\({ins}\.{placeholder},{any}\){join}{reg}".format(
             reg="(\"|')?",
             join="(\+)?",
@@ -74,21 +86,28 @@ def replace_ver(script):
             placeholder="([A-Za-z0-9_]+)",
             any="([\s\S]*?)",
         ),
-        r"\1\2\4.\5+\6\7\8",
-        c,
+        r"\1\2'('+\4.\5,\6+')'\7\8",
+        b,
     )
 
     e = re.sub(
-        "{reg}{join}{ins}\.{placeholder}{join}{reg}".format(
+        "{reg}{join}{ins}\.{placeholder}(?={join}{reg})".format(
             reg="(\"|')?",
-            join="(\+)?",
+            join="(\+|^|$|,)",
             ins="([aent]|this\.props)",
             placeholder="([A-Za-z0-9_]+)",
         ),
-        r"\1\2{double_quotation}{\4}{double_quotation}\5\6",
-        d,
+        r"\1\2{double_quotation}{\4}{double_quotation}",
+        c,
     ).replace("{double_quotation}", '"')
-    output = e.replace("+", ",")
+    d = re.sub(
+        "{reg},{reg}".format(
+            reg="(\"|')",
+        ),
+        r"\1+','+\2",
+        e,
+    )
+    output = d.replace("+", ",")
     output = f"[{output}]"
     try:
         return ast.literal_eval(output)
