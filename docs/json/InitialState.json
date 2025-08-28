@@ -1966,6 +1966,9 @@
       "responsive_web_grok_search_summary_sidebar": {
         "value": "true"
       },
+      "responsive_web_grok_send_companion_personality": {
+        "value": "false"
+      },
       "responsive_web_grok_share_attachment_enabled": {
         "value": "true"
       },
@@ -2330,6 +2333,9 @@
         "value": "IconTwitter"
       },
       "responsive_web_send_cookies_metadata_enabled": {
+        "value": "true"
+      },
+      "responsive_web_send_jetfuel_preview_image_enabled": {
         "value": "true"
       },
       "responsive_web_share_only_tweet_url_omit_title_and_text": {
@@ -5792,6 +5798,9 @@
         "responsive_web_grok_search_summary_sidebar": {
           "value": "true"
         },
+        "responsive_web_grok_send_companion_personality": {
+          "value": "false"
+        },
         "responsive_web_grok_share_attachment_enabled": {
           "value": "true"
         },
@@ -6156,6 +6165,9 @@
           "value": "IconTwitter"
         },
         "responsive_web_send_cookies_metadata_enabled": {
+          "value": "true"
+        },
+        "responsive_web_send_jetfuel_preview_image_enabled": {
           "value": "true"
         },
         "responsive_web_share_only_tweet_url_omit_title_and_text": {
@@ -7760,7 +7772,7 @@
       "settingsVersion": "8bb70c3946225ae951c5a890d1d14e74"
     },
     "debug": {},
-    "featureSetToken": "c28570bc8cb904ccfaa197c96daf38a55ac4ba3f",
+    "featureSetToken": "a54f18378665e0cf30f4737edbaf01b3e1ff62c1",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -7829,7 +7841,7 @@
   },
   "session": {
     "country": "XX",
-    "guestId": "175632850416547001",
+    "guestId": "175641491449414501",
     "hasCommunityMemberships": "false",
     "isActiveCreator": "false",
     "isLoaded": "false",
