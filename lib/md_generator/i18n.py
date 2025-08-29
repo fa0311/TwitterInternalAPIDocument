@@ -107,7 +107,14 @@ def replace_ver(script):
         r"\1+','+\2",
         e,
     )
-    output = d.replace("+", ",")
+    output = re.sub(
+        "{reg}{any}{reg}\+(?={reg})".format(
+            reg="(\"|')",
+            any="([\s\S]*?)",
+        ),
+        r"\1\2\3,",
+        d,
+    )
     output = f"[{output}]"
     try:
         return ast.literal_eval(output)
