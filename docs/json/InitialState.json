@@ -1192,6 +1192,9 @@
           "ja"
         ]
       },
+      "payments_1password_history_fix_enabled": {
+        "value": "true"
+      },
       "payments_account_details_enabled": {
         "value": "false"
       },
@@ -1966,9 +1969,6 @@
       "responsive_web_grok_search_summary_sidebar": {
         "value": "true"
       },
-      "responsive_web_grok_send_companion_personality": {
-        "value": "false"
-      },
       "responsive_web_grok_share_attachment_enabled": {
         "value": "true"
       },
@@ -2336,7 +2336,7 @@
         "value": "true"
       },
       "responsive_web_send_jetfuel_preview_image_enabled": {
-        "value": "true"
+        "value": "false"
       },
       "responsive_web_share_only_tweet_url_omit_title_and_text": {
         "value": "true"
@@ -5024,6 +5024,9 @@
             "ja"
           ]
         },
+        "payments_1password_history_fix_enabled": {
+          "value": "true"
+        },
         "payments_account_details_enabled": {
           "value": "false"
         },
@@ -5797,9 +5800,6 @@
         },
         "responsive_web_grok_search_summary_sidebar": {
           "value": "true"
-        },
-        "responsive_web_grok_send_companion_personality": {
-          "value": "false"
         },
         "responsive_web_grok_share_attachment_enabled": {
           "value": "true"
@@ -7769,10 +7769,10 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "8bb70c3946225ae951c5a890d1d14e74"
+      "settingsVersion": "9048c3a99ce1cb97b8c43e9e1c68460f"
     },
     "debug": {},
-    "featureSetToken": "a54f18378665e0cf30f4737edbaf01b3e1ff62c1",
+    "featureSetToken": "dc4ea286f1e961e94ff2270a79905d0f0a1134a7",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -7841,7 +7841,7 @@
   },
   "session": {
     "country": "XX",
-    "guestId": "175641491449414501",
+    "guestId": "175650130610725740",
     "hasCommunityMemberships": "false",
     "isActiveCreator": "false",
     "isLoaded": "false",
