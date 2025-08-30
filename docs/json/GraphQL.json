@@ -9435,6 +9435,11 @@
           }
         }
       }
+    },
+    "func_name": "f",
+    "func_name_init": "D",
+    "query": {
+      "...t": "_"
     }
   },
   {
@@ -17437,12 +17442,6 @@
           }
         }
       }
-    },
-    "func_name": "U",
-    "func_name_init": "N",
-    "query": {
-      "grokMode": "t",
-      "grokModelOptionId": "s"
     }
   },
   {
@@ -20986,12 +20985,6 @@
           }
         }
       }
-    },
-    "func_name": "U",
-    "func_name_init": "N",
-    "query": {
-      "grokMode": "t",
-      "grokModelOptionId": "s"
     }
   },
   {
@@ -21595,12 +21588,6 @@
           }
         }
       }
-    },
-    "func_name": "U",
-    "func_name_init": "N",
-    "query": {
-      "grokMode": "t",
-      "grokModelOptionId": "s"
     }
   },
   {
@@ -21682,12 +21669,6 @@
           }
         }
       }
-    },
-    "func_name": "U",
-    "func_name_init": "N",
-    "query": {
-      "grokMode": "t",
-      "grokModelOptionId": "s"
     }
   },
   {
