@@ -154,7 +154,7 @@ def i18n_format_2(script):
                 quote.append("+")
         elif d == quote[-1]:
             quote.pop()
-        elif d in ["("]:
+        elif d in ["("] and quote[-1] == "+":
             quote.append(d.replace("(", ")"))
         data[-1] += d
 
