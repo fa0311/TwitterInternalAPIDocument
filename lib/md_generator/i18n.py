@@ -41,41 +41,18 @@ def replace_ver(script):
         "",
         script,
     )
-    bbb = re.sub(
-        "{reg}{join}{name}\({ins}\.{placeholder},{any}\({any}\){any},{any},{any}\({any}\){any},{any}\({any}\){any}\){join}{reg}".format(
-            reg="(\"|')?",
-            join="(\+)?",
-            name="([a-z])",
-            ins="([aent]|this\.props)",
-            placeholder="([A-Za-z0-9_]+)",
-            any="([^\(\)]*?)",
-        ),
-        r"\1\2'('+\4.\5,\6(\7)\8,\9,\10(\11)\12,\13(\14)\15+')'\16\17",
-        a,
-    )
-    bb = re.sub(
-        "{reg}{join}{name}\({ins}\.{placeholder},{any}\({any}\){any},{any},{any}\({any}\){any}\){join}{reg}".format(
-            reg="(\"|')?",
-            join="(\+)?",
-            name="([a-z])",
-            ins="([aent]|this\.props)",
-            placeholder="([A-Za-z0-9_]+)",
-            any="([^\(\)]*?)",
-        ),
-        r"\1\2'('+\4.\5,\6(\7)\8,\9,\10(\11)\12+')'\13\14",
-        bbb,
-    )
     b = re.sub(
-        "{reg}{join}{name}\({ins}\.{placeholder},{any},{any}\({any}\){any}\){join}{reg}".format(
+        "{reg}{join}{name}\({ins}\.{placeholder},{any}(({notname}\({any}\){any})+?)\){join}{reg}".format(
             reg="(\"|')?",
             join="(\+)?",
             name="([a-z])",
             ins="([aent]|this\.props)",
             placeholder="([A-Za-z0-9_]+)",
             any="([^\(\)]*?)",
+            notname="([^\+,][\s\S]|[\+,]?[\"'])",
         ),
-        r"\1\2'('+\4.\5,\6,\7(\8)\9+')'\10\11",
-        bb,
+        r"\1\2'('+\4.\5,\6\7+')'\12\13",
+        a,
     )
     c = re.sub(
         "{reg}{join}{name}\({ins}\.{placeholder},{any}\){join}{reg}".format(
