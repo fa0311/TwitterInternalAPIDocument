@@ -5958,7 +5958,7 @@
           "value": "true"
         },
         "responsive_web_send_jetfuel_preview_image_enabled": {
-          "value": "true"
+          "value": "false"
         },
         "responsive_web_share_only_tweet_url_omit_title_and_text": {
           "value": "true"
@@ -7559,7 +7559,7 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "8bb70c3946225ae951c5a890d1d14e74"
+      "settingsVersion": "baf69a08345fa7a77e099a975cd9bf6f"
     },
     "debug": {},
     "featureSetToken": "707141d0a893c7b0df760ed1285b3ca34122e91a",
@@ -7631,7 +7631,7 @@
   },
   "session": {
     "country": "XX",
-    "guestId": "175658818863961182",
+    "guestId": "175667457219998222",
     "hasCommunityMemberships": "false",
     "isActiveCreator": "false",
     "isLoaded": "false",
