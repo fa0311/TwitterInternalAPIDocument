@@ -1,32 +1,8 @@
 [
   {
-    "small": "small",
-    "medium": "medium"
-  },
-  {
-    "primary": {
-      "aria-live": "polite"
-    },
-    "exclusive": {
-      "aria-live": "polite"
-    },
-    "danger": {
-      "aria-live": "assertive"
-    },
-    "success": {
-      "aria-live": "polite"
-    },
-    "warning": {
-      "aria-live": "polite"
-    }
-  },
-  {
-    "TopicFilled": "TOPIC_FILLED"
-  },
-  {
-    "Active": "active",
-    "Expand": "expand",
-    "Remove": "remove"
+    "joinSpace": "s().h400d7c2",
+    "replaySpace": "s().g66c8348",
+    "comingUp": "s().be6ef5b4"
   },
   {
     "RequestSubmitted": "1",
@@ -75,21 +51,18 @@
     "JanusPollerResponseEnumError": "JanusPollerResponseEnumError"
   },
   {
+    "single_line": "singleline",
+    "format_inline": "format-inline"
+  },
+  "{\"ActionsBar\":\"C.Z\",\"ActionMenu\":\"function()\"{\"Icon\":\"e\",\"isDisabled\":\"t\",\"items\":\"n\",\"onOpen\":\"o\"}{\"const i=r.useCallback()\"{\"items\":\"n\",\"onCloseRequested\":\"e\"}{\"Icon\":\"e\",\"isDisabled\":\"t\",\"onClick\":\"o\",\"renderActionMenu\":\"i\"}},\"CallToAction\":\"a.ZP\",\"EditCallout\":\"E.Z\",\"Education\":\"k.Z\",\"HighlightedUserLabel\":\"c.Z\",\"Media\":\"T.Z\",\"Place\":\"i.ZP\",\"PromotedDetails\":\"u.Z\",\"PromotedUserProfileCard\":\"P\",\"ReplyContext\":\"A.ZP\",\"RichContent\":\"D.Z\",\"SocialContext\":\"f.Z\",\"Text\":\"L.Z\",\"Tombstone\":\"b.Z\",\"Timestamp\":\"p.Z\",\"UserAvatar\":\"M.Z\",\"UserFollowIndicator\":\"B.Z\",\"UserName\":\"R.Z\",\"ArticleCard\":\"v.Z\"}",
+  {
     "Draft": "Draft",
     "Published": "Published",
     "SoftDeleted": "SoftDeleted"
   },
   {
-    "HUMAN": "1",
-    "ASSISTANT": "2"
-  },
-  {
     "navButtons": "navigationButtons",
     "carouselRoot": "carouselRoot"
-  },
-  {
-    "HUMAN": "1",
-    "ASSISTANT": "2"
   },
   {
     "LIVE_BROADCAST": "liveBroadcast",
@@ -111,104 +84,9 @@
     "veryNarrow": "veryNarrow"
   },
   "{[r.wide]:\"500\",[r.narrow]:\"300\",[r.veryNarrow]:\"200\"}",
-  {
-    "large": "54",
-    "medium": "46",
-    "small": "36",
-    "xSmall": "12"
-  },
   "{\"__proto__\":\"null\",\"formatCaption\":\"function()\"{\"return()(0,a.WU)\"},\"formatDay\":\"function()\"{\"return()(0,a.WU)\"},\"formatMonthCaption\":\"function()\"{\"return()(0,a.WU)\"},\"formatWeekNumber\":\"function()\"{return\"\".concat()},\"formatWeekdayName\":\"function()\"{\"return()(0,a.WU)\"},\"formatYearCaption\":\"function()\"{\"return()(0,a.WU)\"}}",
   "{\"__proto__\":\"null\",\"labelDay\":\"function()\"{\"return()(0,a.WU)\"},\"labelMonthDropdown\":\"function()\"{return\"Month: \"},\"labelNext\":\"function()\"{return\"Go to next month\"},\"labelPrevious\":\"function()\"{return\"Go to previous month\"},\"labelWeekNumber\":\"function()\"{return\"Week n. \".concat()},\"labelWeekday\":\"function()\"{\"return()(0,a.WU)\"},\"labelYearDropdown\":\"function()\"{return\"Year: \"}}",
-  {
-    "AutoSpamDetectorEnabled": "AutoSpamDetectorEnabled",
-    "BanQuotePostEnabled": "BanQuotePostEnabled",
-    "BanSelfQuotePostEnabled": "BanSelfQuotePostEnabled",
-    "HideUntilReviewEnabled": "HideUntilReviewEnabled"
-  },
-  {
-    "BannedKeywords": "BannedKeywords"
-  },
-  {
-    "Open": "Open",
-    "RestrictedJoinRequestsDisabled": "RestrictedJoinRequestsDisabled",
-    "RestrictedJoinRequestsRequireAdminApproval": "RestrictedJoinRequestsRequireAdminApproval",
-    "RestrictedJoinRequestsRequireModeratorApproval": "RestrictedJoinRequestsRequireModeratorApproval",
-    "SuperFollowRequired": "SuperFollowRequired"
-  },
-  {
-    "ChatStarted": "ChatStarted",
-    "CreationEnabledPut": "CreationEnabledPut",
-    "JoinRequestApproved": "JoinRequestApproved",
-    "MemberAdded": "MemberAdded",
-    "MemberLeftViaModeratorBlock": "MemberLeftViaModeratorBlock",
-    "MemberRemoved": "MemberRemoved",
-    "MemberRemovedRevert": "MemberRemovedRevert",
-    "PinnedTweet": "PinnedTweet",
-    "SpaceStarted": "SpaceStarted",
-    "TweetHidden": "TweetHidden",
-    "TweetHiddenRevert": "TweetHiddenRevert",
-    "TweetReported": "TweetReported",
-    "UserInvited": "UserInvited"
-  },
   "{\"₊\":\"+\",\"₋\":\"-\",\"₌\":\"=\",\"₍\":\"()\",\"₀\":\"0\",\"₁\":\"1\",\"₂\":\"2\",\"₃\":\"3\",\"₄\":\"4\",\"₅\":\"5\",\"₆\":\"6\",\"₇\":\"7\",\"₈\":\"8\",\"₉\":\"9\",ₐ:\"a\",ₑ:\"e\",ₕ:\"h\",ᵢ:\"i\",ⱼ:\"j\",ₖ:\"k\",ₗ:\"l\",ₘ:\"m\",ₙ:\"n\",ₒ:\"o\",ₚ:\"p\",ᵣ:\"r\",ₛ:\"s\",ₜ:\"t\",ᵤ:\"u\",ᵥ:\"v\",ₓ:\"x\",ᵦ:\"β\",ᵧ:\"γ\",ᵨ:\"ρ\",ᵩ:\"ϕ\",ᵪ:\"χ\",\"⁺\":\"+\",\"⁻\":\"-\",\"⁼\":\"=\",\"⁽\":\"(\\\",\\\"₎\\\":\\\")\",\"⁰\":\"0\",\"¹\":\"1\",\"²\":\"2\",\"³\":\"3\",\"⁴\":\"4\",\"⁵\":\"5\",\"⁶\":\"6\",\"⁷\":\"7\",\"⁸\":\"8\",\"⁹\":\"9\",ᴬ:\"A\",ᴮ:\"B\",ᴰ:\"D\",ᴱ:\"E\",ᴳ:\"G\",ᴴ:\"H\",ᴵ:\"I\",ᴶ:\"J\",ᴷ:\"K\",ᴸ:\"L\",ᴹ:\"M\",ᴺ:\"N\",ᴼ:\"O\",ᴾ:\"P\",ᴿ:\"R\",ᵀ:\"T\",ᵁ:\"U\",ⱽ:\"V\",ᵂ:\"W\",ᵃ:\"a\",ᵇ:\"b\",ᶜ:\"c\",ᵈ:\"d\",ᵉ:\"e\",ᶠ:\"f\",ᵍ:\"g\",ʰ:\"h\",ⁱ:\"i\",ʲ:\"j\",ᵏ:\"k\",ˡ:\"l\",ᵐ:\"m\",ⁿ:\"n\",ᵒ:\"o\",ᵖ:\"p\",ʳ:\"r\",ˢ:\"s\",ᵗ:\"t\",ᵘ:\"u\",ᵛ:\"v\",ʷ:\"w\",ˣ:\"x\",ʸ:\"y\",ᶻ:\"z\",ᵝ:\"β\",ᵞ:\"γ\",ᵟ:\"δ\",ᵠ:\"ϕ\",ᵡ:\"χ\",ᶿ:\"θ\"}",
-  {
-    "Intro": "intro",
-    "Objective": "objective",
-    "Targeting": "targeting",
-    "TargetingLocation": "targeting_location",
-    "TargetingGender": "targeting_gender",
-    "TargetingKeywords": "targeting_keywords",
-    "BudgetSelect": "budget_select",
-    "Review": "review",
-    "Payment": "payment",
-    "Done": "done",
-    "PaymentSelect": "payment_select"
-  },
-  {
-    "Webview": "quick_promote",
-    "Rweb": "quick_promote_web"
-  },
-  {
-    "Objective": ".2",
-    "Targeting": ".4",
-    "BudgetSelect": ".6",
-    "Review": ".8",
-    "Finish": "1"
-  },
-  {
-    "CurrentCountryMatch": "currentCountryMatch",
-    "Match": "match",
-    "NoMatch": "noMatch"
-  },
-  {
-    "AU": "()(0,c.ju)",
-    "BR": "(\"https://legal.x.com/ads-terms/apac.html\")(0,c.ju)",
-    "GB": "(\"https://legal.x.com/ads-terms/brazil.html\")(0,c.ju)",
-    "ID": "(\"https://legal.x.com/ads-terms/uk.html\")(0,c.ju)",
-    "JP": "(\"https://legal.x.com/ads-terms/indonesia.html\")(0,c.ju)",
-    "NZ": "(\"https://legal.x.com/ads-terms/japan.html\")(0,c.ju)",
-    "US": "(\"https://legal.x.com/ads-terms/apac.html\")(0,c.ju)"
-  },
-  {
-    "en": "()(0,c.ju)",
-    "de": "(\"https://business.x.com/en/campaign/quick-promote-conditional-coupon-terms.html\")(0,c.ju)",
-    "es": "(\"https://business.x.com/de/campaign/quick-promote-conditional-coupon-terms.html\")(0,c.ju)",
-    "fr": "(\"https://business.x.com/es/campaign/quick-promote-conditional-coupon-terms.html\")(0,c.ju)",
-    "ja": "(\"https://business.x.com/fr/campaign/quick-promote-conditional-coupon-terms.html\")(0,c.ju)",
-    "pt": "(\"https://business.x.com/ja/campaign/quick-promote-conditional-coupon-terms.html\")(0,c.ju)",
-    "ar": "(\"https://business.x.com/pt/campaign/quick-promote-conditional-coupon-terms.html\")(0,c.ju)",
-    "zh-cn": "(\"https://business.x.com/ar/campaign/quick-promote-conditional-coupon-terms.html\")(0,c.ju)"
-  },
-  {
-    "en": "()(0,c.ju)",
-    "de": "(\"https://business.x.com/en/campaign/quick-promote-coupon-terms.html\")(0,c.ju)",
-    "es": "(\"https://business.x.com/de/campaign/quick-promote-coupon-terms.html\")(0,c.ju)",
-    "fr": "(\"https://business.x.com/es/campaign/quick-promote-coupon-terms.html\")(0,c.ju)",
-    "ja": "(\"https://business.x.com/fr/campaign/quick-promote-coupon-terms.html\")(0,c.ju)",
-    "pt": "(\"https://business.x.com/ja/campaign/quick-promote-coupon-terms.html\")(0,c.ju)",
-    "ar": "(\"https://business.x.com/pt/campaign/quick-promote-coupon-terms.html\")(0,c.ju)",
-    "zh-cn": "(\"https://business.x.com/ar/campaign/quick-promote-coupon-terms.html\")(0,c.ju)"
-  },
   {
     "__proto__": "null",
     "fixNegotiationNeeded": "Cn",
@@ -246,18 +124,6 @@
     "shimSendThrowTypeError": "es"
   },
   {
-    "START": "start",
-    "LOADING": "loading",
-    "SENT": "sent"
-  },
-  "{[E.pl.AUTHENTICITY_TYPE_SELECT]:\"()\"{\"notabilityCategory\":\"e\",\"notabilitySubcategory\":\"t\",\"userEmail\":\"i\"}{\"type\":\"radio\",\"props\":{\"description\":\"N().description\",\"getNextFormStep\":e=>{\"switch()\"{\"case E.L_.IDENTITY_DOCUMENT\":return E.pl.INTAKE_TYPE_SELECT;case E.L_.EMAIL:return E.pl.EMAIL_VERIFICATION;case E.L_.WEBSITE:return E.pl.SITE_VERIFICATION;default:\"return E.pl.THANK_YOU\"}},\"items\":\"p()\",\"title\":\"a.YB.title\"}}{\"notabilityCategory\":\"e\",\"notabilitySubcategory\":\"t\"}{const i=N().items[E.L_.WEBSITE];return{\"type\":\"input\",\"props\":{\"title\":\"a.OF.title\",\"description\":i.description||a.OF.description,\"items\":[{\"dataKey\":\"E.S.WEBSITE\",\"label\":i.inputLabel||a.OF.websiteLabel,\"required\":\"!0\"}]}}},[E.pl.WEBSITE_REFERENCE_CONFIRM_AUTOFILL]:\"()\"{\"notabilityCategory\":\"e\",\"notabilityData\":\"t\",\"notabilitySubcategory\":\"i\",\"setFormStepData\":\"l\",\"setNextFlow\":\"I\",\"setPreviousFlow\":\"r\"}{let N=[];switch(){\"case E.eV.COMPANY\":case E.eV.ACTIVISM:N=t?.leadershipReferenceUrl??[];break;case E.eV.INFLUENCER_OTHER:case E.eV.ENTERTAINMENT:N=t?.mainReferenceUrl??[];break;case E.eV.GOVERNMENT:N=t?.publicReferenceUrl??[];break;case E.eV.NEWS:N=t?.authorReferenceUrl??[];break;case E.eV.SPORTS:N=t?.teamReferenceUrl??[]}\"let p=a.nv\",T=()=>I();switch(E.pl.AUTHENTICITY_TYPE_SELECT){\"case E.an.CONTENT_CREATOR\":\"p=a.ut\",T=()=>r();break;case E.an.ENTERTAINMENT_INDIVIDUAL:\"p=a.O9\",T=()=>r();break;case E.an.OFFICE:\"p=a.x4\",T=()=>{\"l()\",\"I(E.pl.AUTHENTICITY_TYPE_SELECT,E.L_.EMAIL)\"};break;case E.an.OFFICIAL:\"p=a.i0\",T=()=>{\"l()\",\"I(E.pl.AUTHENTICITY_TYPE_SELECT,E.L_.IDENTITY_DOCUMENT)\"}}\"return\"{\"type\":\"info\",\"props\":{\"...p\":\"_\",\"onAction\":()=>{\"l()\",\"l(E.pl.AUTHENTICITY_TYPE_SELECT,E.L_.WEBSITE)\"{[E.S.WEBSITE]:\"N\"}\"E.pl.REVIEW_SUBMIT\"},\"onTertiaryAction\":()=>T()}}},[E.pl.WEBSITE_REFERENCE_CONFIRM_PROCEED]:{\"type\":\"info\",\"props\":{\"...a.iU\":\"_\"}}}",
-  "{[E.pl.NOTABILITY_CATEGORY_SELECT]:\"()\"{\"followersEligible\":\"e=!1\",\"mentionsEligible\":\"t=!1\"}{\"type\":\"radio\",\"props\":{\"description\":\"o.$c.description\",\"getNextFormStep\":e=>{\"switch()\"{\"case E.eV.ACTIVISM\":return E.pl.ACTIVIST_SUBCATEGORY;case E.eV.INFLUENCER_OTHER:return E.pl.INFLUENCER_SUBCATEGORY;case E.eV.COMPANY:return E.pl.COMPANY_SUBCATEGORY;case E.eV.ENTERTAINMENT:return E.pl.ENTERTAINMENT_QUALIFICATIONS;case E.eV.GOVERNMENT:return E.pl.GOVERNMENT_SUBCATEGORY;case E.eV.NEWS:return E.pl.NEWS_QUALIFICATIONS;case E.eV.SPORTS:return E.pl.SPORTS_SUBCATEGORY;case E.eV.GAMING:return E.pl.GAMING_SUBCATEGORY;default:\"return null\"}},\"items\":[{\"label\":o.sI[E.eV.ACTIVISM],\"value\":\"E.eV.ACTIVISM\"},{\"label\":o.sI[E.eV.COMPANY],\"value\":\"E.eV.COMPANY\"},{\"label\":o.sI[E.eV.ENTERTAINMENT],\"value\":\"E.eV.ENTERTAINMENT\"},{\"label\":o.sI[E.eV.GAMING],\"value\":\"E.eV.GAMING\"},{\"label\":o.sI[E.eV.GOVERNMENT],\"value\":\"E.eV.GOVERNMENT\"},{\"label\":o.sI[E.eV.NEWS],\"value\":\"E.eV.NEWS\"},{\"label\":o.sI[E.eV.SPORTS],\"value\":\"E.eV.SPORTS\"},{\"label\":o.sI[E.eV.INFLUENCER_OTHER],\"value\":\"E.eV.INFLUENCER_OTHER\"}],\"title\":\"o.$c.title\"}}{\"type\":\"radio\",\"props\":{\"title\":\"o._$.title\",\"description\":\"o._$.description\",\"items\":[{...o._$.items[0],\"value\":\"E.GG.GOOGLE\"},{...o._$.items[1],\"value\":\"E.GG.WIKIPEDIA\"},{...o._$.items[2],\"value\":\"E.GG.NEWS\"},{...o._$.items[3],\"value\":\"E.GG.LEADERSHIP\"}],\"getNextFormStep\":e=>e===E.GG.GOOGLE?E.pl.ACTIVIST_GOOGLE_TRENDS:e===E.GG.WIKIPEDIA?E.pl.ACTIVIST_WIKIPEDIA:e===E.GG.NEWS?E.pl.ACTIVIST_NEWS:e===E.GG.LEADERSHIP?E.pl.ACTIVIST_LEADERSHIP:\"void 0\"}},[E.pl.ACTIVIST_SUBCATEGORY]:\"()\"{\"followersEligible\":\"e=!1\",\"mentionsEligible\":\"t=!1\"}{\"type\":\"radio\",\"props\":{\"title\":\"o.sx.title\",\"description\":\"o.sx.description\",\"items\":[{...o.sx.items[0],\"value\":\"E.Y_.ACTIVIST\"},{...o.sx.items[1],\"value\":\"E.DY.JOURNALIST\"},{...o.sx.items[2],\"value\":\"E.QP.COMPANY\"}],\"getNextFormStep\":i=>i===E.Y_.ACTIVIST?e||t?E.pl.ACTIVIST_QUALIFICATIONS:E.pl.ACTIVIST_QUALIFICATIONS_INELIGIBLE:i===E.DY.JOURNALIST?E.pl.NEWS_JOURNALIST_SCREENNAME_CONFIRMATION:i===E.QP.COMPANY?E.pl.COMPANY_NOTABILITY_METHOD:\"void 0\"}}{\"type\":\"input\",\"props\":{\"title\":\"o.OE.title\",\"description\":\"o.OE.description\",\"items\":[{\"dataKey\":\"E.GG.GOOGLE\",\"label\":\"o.OE.label\",\"required\":\"!0\"}]}},[E.pl.ACTIVIST_LEADERSHIP]:{\"type\":\"input\",\"props\":{\"title\":\"o.VT.title\",\"description\":\"o.VT.description\",\"items\":[{\"dataKey\":\"E.GG.LEADERSHIP\",\"label\":\"o.VT.label\",\"required\":\"!0\"}],\"confirmationText\":\"o.VT.confirmationText\"}},[E.pl.ACTIVIST_NEWS]:{\"type\":\"input\",\"props\":{\"title\":\"o.A4.title\",\"description\":\"o.A4.description\",\"items\":[...Array().fill(3){\"dataKey\":\"E.GG.NEWS\",\"labelGenerator\":\"o.A4.articleLabelGenerator\",\"required\":\"!0\"}}},[E.pl.ACTIVIST_WIKIPEDIA]:{\"type\":\"input\",\"props\":{\"title\":\"o.to.title\",\"description\":\"o.to.description\",\"items\":[{\"dataKey\":\"E.GG.WIKIPEDIA\",\"label\":\"o.to.label\",\"required\":\"!0\"}]}},[E.pl.ACTIVIST_QUALIFICATIONS_INELIGIBLE]:{\"type\":\"info\",\"props\":{\"headline\":\"o._$.notEligibleTitle\",\"subtext\":\"o._$.notEligibleDescription\",\"actionLabel\":\"o._$.notEligibleButton\"}},[E.pl.COMPANY_SUBCATEGORY]:{\"type\":\"radio\",\"props\":{\"...o.yw\":\"_\",\"items\":[{...o.yw.items[0],\"value\":\"E.QP.COMPANY\"},{...o.yw.items[1],\"value\":\"E.DY.JOURNALIST\"},{...o.yw.items[2],\"value\":\"E.QP.EXECUTIVE\"}],\"getNextFormStep\":e=>e===E.QP.COMPANY?E.pl.COMPANY_NOTABILITY_METHOD:e===E.QP.EXECUTIVE?E.pl.COMPANY_INDIVIDUAL_SCREENNAME_CONFIRM:e===E.DY.JOURNALIST?E.pl.NEWS_JOURNALIST_SCREENNAME_CONFIRMATION:\"void 0\"}},[E.pl.COMPANY_NOTABILITY_METHOD]:\"()\"{\"followersEligible\":\"e=!1\"}{const t=[{...o.lp.items[0],\"value\":\"E.GG.GOOGLE\"},{...o.lp.items[1],\"value\":\"E.GG.WIKIPEDIA\"},{...o.lp.items[2],\"value\":\"E.GG.STOCK\"},{...o.lp.items[3],\"value\":\"E.GG.NEWS\"}];return{\"type\":\"radio\",\"props\":{\"...o.lp\":\"_\",\"items\":e?t:\"t.slice()\",\"getNextFormStep\":e=>e===E.GG.GOOGLE?E.pl.COMPANY_GOOGLE_TRENDS:e===E.GG.WIKIPEDIA?E.pl.COMPANY_WIKIPEDIA:e===E.GG.STOCK?E.pl.COMPANY_STOCK_EXCHANGE:e===E.GG.NEWS?E.pl.COMPANY_NEWS_REFERENCE:\"void 0\"}}},[E.pl.COMPANY_GOOGLE_TRENDS]:\"()\"{\"followersEligible\":\"e\"}{\"type\":\"input\",\"props\":{\"title\":\"o.bG.title\",\"description\":\"o.bG.description\",\"items\":[{\"dataKey\":\"E.GG.GOOGLE\",\"label\":\"o.bG.label\",\"required\":\"!0\"}],\"nextFormStep\":e?E.pl.AUTHENTICITY_TYPE_SELECT:\"E.pl.COMPANY_NEWS_REFERENCE\"}}{\"followersEligible\":\"e\"}{\"type\":\"input\",\"props\":{\"title\":\"o.V2.title\",\"description\":\"o.V2.description\",\"items\":[{\"dataKey\":\"E.GG.WIKIPEDIA\",\"label\":\"o.V2.label\",\"required\":\"!0\"}],\"nextFormStep\":e?E.pl.AUTHENTICITY_TYPE_SELECT:\"E.pl.COMPANY_NEWS_REFERENCE\"}}{\"followersEligible\":\"e\"}{\"type\":\"input\",\"props\":{\"title\":\"o.Zt.title\",\"description\":\"o.Zt.description\",\"items\":[{\"dataKey\":\"E.GG.STOCK\",\"label\":\"o.Zt.label\",\"required\":\"!0\"}],\"nextFormStep\":e?E.pl.AUTHENTICITY_TYPE_SELECT:\"E.pl.COMPANY_NEWS_REFERENCE\"}}{\"type\":\"input\",\"props\":{\"title\":\"o.DO.title\",\"description\":\"o.DO.description\",\"items\":[...Array().fill(3){\"dataKey\":\"E.GG.NEWS\",\"labelGenerator\":\"o.DO.articleLabelGenerator\",\"required\":\"!0\"}}},[E.pl.COMPANY_INDIVIDUAL_SCREENNAME_CONFIRM]:{\"type\":\"screenName\",\"props\":{\"...o.DI\":\"_\"}},[E.pl.COMPANY_INDIVIDUAL_NOTABILITY_METHOD]:{\"type\":\"radio\",\"props\":{\"...o.xS\":\"_\",\"items\":[{...o.xS.items[0],\"value\":\"E.GG.NEWS\"},{...o.xS.items[1],\"value\":\"E.GG.LEADERSHIP\"}],\"getNextFormStep\":e=>e===E.GG.NEWS?E.pl.COMPANY_INDIVIDUAL_NEWS_REFERENCE:e===E.GG.LEADERSHIP?E.pl.COMPANY_INDIVIDUAL_LEADERSHIP:\"void 0\"}},[E.pl.COMPANY_INDIVIDUAL_NEWS_REFERENCE]:{\"type\":\"input\",\"props\":{\"title\":\"o.Wi.title\",\"description\":\"o.Wi.description\",\"items\":[...Array().fill(3){\"dataKey\":\"E.GG.NEWS\",\"labelGenerator\":\"o.Wi.articleLabelGenerator\",\"required\":\"!0\"}}},[E.pl.COMPANY_INDIVIDUAL_LEADERSHIP]:{\"type\":\"input\",\"props\":{\"title\":\"o.D8.title\",\"description\":\"o.D8.description\",\"items\":[{\"dataKey\":\"E.GG.LEADERSHIP\",\"label\":\"o.D8.label\",\"required\":\"!0\"}],\"confirmationText\":\"o.D8.confirmationText\"}},[E.pl.ENTERTAINMENT_COMPANY_GOOGLE_TRENDS]:\"()\"{\"followersEligible\":\"e=!1\",\"mentionsEligible\":\"t=!1\"}{\"type\":\"input\",\"props\":{\"title\":\"o.Yc.title\",\"description\":\"o.Yc.description\",\"items\":[{\"dataKey\":\"E.GG.GOOGLE\",\"label\":\"o.Yc.label\",\"required\":\"!0\"}],\"nextFormStep\":e||t?E.pl.AUTHENTICITY_TYPE_SELECT:\"E.pl.ENTERTAINMENT_COMPANY_NEWS_REFERENCE\"}}{\"type\":\"input\",\"props\":{\"title\":\"o.uC.title\",\"description\":\"o.uC.description\",\"items\":[...Array().fill(3){\"dataKey\":\"E.GG.NEWS\",\"labelGenerator\":\"o.uC.articleLabelGenerator\",\"required\":\"!0\"}}},[E.pl.ENTERTAINMENT_COMPANY_NOTABILITY_METHOD]:\"()\"{\"followersEligible\":\"e=!1\",\"mentionsEligible\":\"t=!1\"}{const i=[{...o.qv.items[0],\"value\":\"E.GG.GOOGLE\"},{...o.qv.items[1],\"value\":\"E.GG.WIKIPEDIA\"},{...o.qv.items[2],\"value\":\"E.GG.STOCK\"},{...o.qv.items[3],\"value\":\"E.GG.NEWS\"}];return{\"type\":\"radio\",\"props\":{\"...o.qv\":\"_\",\"items\":e||t?i:\"i.slice()\",\"getNextFormStep\":e=>e===E.GG.GOOGLE?E.pl.ENTERTAINMENT_COMPANY_GOOGLE_TRENDS:e===E.GG.WIKIPEDIA?E.pl.ENTERTAINMENT_COMPANY_WIKIPEDIA:e===E.GG.STOCK?E.pl.ENTERTAINMENT_COMPANY_STOCK_REFERENCE:e===E.GG.NEWS?E.pl.ENTERTAINMENT_COMPANY_NEWS_REFERENCE:\"void 0\"}}},[E.pl.ENTERTAINMENT_COMPANY_STOCK_REFERENCE]:\"()\"{\"followersEligible\":\"e=!1\",\"mentionsEligible\":\"t=!1\"}{\"type\":\"input\",\"props\":{\"title\":\"o.GP.title\",\"description\":\"o.GP.description\",\"items\":[{\"dataKey\":\"E.GG.STOCK\",\"label\":\"o.GP.label\",\"required\":\"!0\"}],\"nextFormStep\":e||t?E.pl.AUTHENTICITY_TYPE_SELECT:\"E.pl.ENTERTAINMENT_COMPANY_NEWS_REFERENCE\"}}{\"followersEligible\":\"e=!1\",\"mentionsEligible\":\"t=!1\"}{\"type\":\"input\",\"props\":{\"title\":\"o.lW.title\",\"description\":\"o.lW.description\",\"items\":[{\"dataKey\":\"E.GG.WIKIPEDIA\",\"label\":\"o.lW.label\",\"required\":\"!0\"}],\"nextFormStep\":e||t?E.pl.AUTHENTICITY_TYPE_SELECT:\"E.pl.ENTERTAINMENT_COMPANY_NEWS_REFERENCE\"}}{\"type\":\"input\",\"props\":{\"title\":\"o.sK.title\",\"description\":\"o.sK.description\",\"items\":[{\"dataKey\":\"E.GG.IMDB\",\"label\":\"o.sK.label\",\"required\":\"!0\"}]}},[E.pl.ENTERTAINMENT_INDIVIDUAL_MAIN_REFERENCE_URL]:{\"type\":\"input\",\"props\":{\"title\":\"o.eN.title\",\"description\":\"o.eN.description\",\"items\":[{\"dataKey\":\"E.GG.MAIN\",\"label\":\"o.eN.label\",\"required\":\"!0\"}]}},[E.pl.ENTERTAINMENT_INDIVIDUAL_NEWS_COVERAGE_URLS]:{\"type\":\"input\",\"props\":{\"title\":\"o.A8.title\",\"description\":\"o.A8.description\",\"items\":[...Array().fill(3){\"dataKey\":\"E.GG.NEWS\",\"labelGenerator\":\"o.DO.articleLabelGenerator\",\"required\":\"!0\"}}},[E.pl.ENTERTAINMENT_INDIVIDUAL_QUALIFICATIONS]:{\"type\":\"radio\",\"props\":{\"title\":\"o.YZ.title\",\"description\":\"o.YZ.description\",\"items\":[{\"helpText\":o.YZ.items[0].description,\"label\":o.YZ.items[0].label,\"value\":\"E.GG.IMDB\"},{\"helpText\":o.YZ.items[1].description,\"label\":o.YZ.items[1].label,\"value\":\"E.GG.NEWS\"}],\"getNextFormStep\":e=>e===E.GG.IMDB?E.pl.ENTERTAINMENT_INDIVIDUAL_IMDB_URL:e===E.GG.NEWS?E.pl.ENTERTAINMENT_INDIVIDUAL_NEWS_COVERAGE_URLS:\"void 0\"}},[E.pl.ENTERTAINMENT_PRODUCTION_ORGANIZATION_GOOGLE_TRENDS]:\"()\"{\"followersEligible\":\"e=!1\",\"mentionsEligible\":\"t=!1\"}{\"type\":\"input\",\"props\":{\"title\":\"o.$_.title\",\"description\":\"o.$_.description\",\"items\":[{\"dataKey\":\"E.GG.GOOGLE\",\"label\":\"o.$_.label\",\"required\":\"!0\"}],\"nextFormStep\":e||t?E.pl.AUTHENTICITY_TYPE_SELECT:\"E.pl.ENTERTAINMENT_PRODUCTION_ORGANIZATION_NEWS_REFERENCE\"}}{\"type\":\"input\",\"props\":{\"title\":\"o.Yo.title\",\"description\":\"o.Yo.description\",\"items\":[...Array().fill(3){\"dataKey\":\"E.GG.NEWS\",\"labelGenerator\":\"o.Yo.articleLabelGenerator\",\"required\":\"!0\"}}},[E.pl.ENTERTAINMENT_PRODUCTION_ORGANIZATION_NOTABILITY_METHOD]:\"()\"{\"followersEligible\":\"e=!1\",\"mentionsEligible\":\"t=!1\"}{const i=[{...o.Bw.items[0],\"value\":\"E.GG.GOOGLE\"},{...o.Bw.items[1],\"value\":\"E.GG.WIKIPEDIA\"},{...o.Bw.items[2],\"value\":\"E.GG.STOCK\"},{...o.Bw.items[3],\"value\":\"E.GG.NEWS\"}];return{\"type\":\"radio\",\"props\":{\"...o.Bw\":\"_\",\"items\":e||t?i:\"i.slice()\",\"getNextFormStep\":e=>e===E.GG.GOOGLE?E.pl.ENTERTAINMENT_PRODUCTION_ORGANIZATION_GOOGLE_TRENDS:e===E.GG.WIKIPEDIA?E.pl.ENTERTAINMENT_PRODUCTION_ORGANIZATION_WIKIPEDIA:e===E.GG.STOCK?E.pl.ENTERTAINMENT_PRODUCTION_ORGANIZATION_STOCK_EXCHANGE:e===E.GG.NEWS?E.pl.ENTERTAINMENT_PRODUCTION_ORGANIZATION_NEWS_REFERENCE:\"void 0\"}}},[E.pl.ENTERTAINMENT_PRODUCTION_ORGANIZATION_STOCK_EXCHANGE]:\"()\"{\"followersEligible\":\"e=!1\",\"mentionsEligible\":\"t=!1\"}{\"type\":\"input\",\"props\":{\"title\":\"o.hd.title\",\"description\":\"o.hd.description\",\"items\":[{\"dataKey\":\"E.GG.STOCK\",\"label\":\"o.hd.label\",\"required\":\"!0\"}],\"nextFormStep\":e||t?E.pl.AUTHENTICITY_TYPE_SELECT:\"E.pl.ENTERTAINMENT_PRODUCTION_ORGANIZATION_NEWS_REFERENCE\"}}{\"followersEligible\":\"e=!1\",\"mentionsEligible\":\"t=!1\"}{\"type\":\"input\",\"props\":{\"title\":\"o.zp.title\",\"description\":\"o.zp.description\",\"items\":[{\"dataKey\":\"E.GG.WIKIPEDIA\",\"label\":\"o.zp.label\",\"required\":\"!0\"}],\"nextFormStep\":e||t?E.pl.AUTHENTICITY_TYPE_SELECT:\"E.pl.ENTERTAINMENT_PRODUCTION_ORGANIZATION_NEWS_REFERENCE\"}}{\"followersEligible\":\"e=!1\",\"mentionsEligible\":\"t=!1\"}{\"type\":\"radio\",\"props\":{\"title\":\"o.HB.title\",\"description\":\"o.HB.description\",\"items\":[{...o.HB.items[0],\"value\":\"E.nS.ENTERTAINMENT_COMPANY\"},{...o.HB.items[1],\"value\":\"E.Yp.CONTENT_CREATOR\"},{...o.HB.items[2],\"value\":\"E.nS.ENTERTAINMENT_INDIVIDUAL\"},{...o.HB.items[3],\"value\":\"E.nS.PRODUCTION\"}],\"getNextFormStep\":i=>i===E.nS.ENTERTAINMENT_COMPANY?E.pl.ENTERTAINMENT_COMPANY_NOTABILITY_METHOD:i===E.nS.ENTERTAINMENT_INDIVIDUAL?E.pl.ENTERTAINMENT_INDIVIDUAL_QUALIFICATIONS:i===E.nS.PRODUCTION?E.pl.ENTERTAINMENT_PRODUCTION_ORGANIZATION_NOTABILITY_METHOD:i===E.Yp.CONTENT_CREATOR?e||t?E.pl.CONTENT_CREATOR_QUALIFICATIONS:E.pl.INFLUENCER_QUALIFICATIONS_INELIGIBLE:\"void 0\"}}{\"type\":\"info\",\"props\":{\"headline\":\"o.ib.candidateTitle\",\"subtext\":\"o.ib.candidateDescription\",\"actionLabel\":\"o.ib.confirmButtonLabel\",\"tertiaryActionLabel\":\"o.ib.declineButtonLabel\"}},[E.pl.GOVERNMENT_CANDIDATE_NEWS_REFERENCE_URLS]:{\"type\":\"input\",\"props\":{\"title\":\"o.l4.title\",\"description\":\"o.l4.description\",\"items\":[...Array().fill(5){\"dataKey\":\"E.GG.NEWS\",\"labelGenerator\":\"o.l4.articleLabelGenerator\",\"required\":\"!0\"}}},[E.pl.GOVERNMENT_CANDIDATE_PROFILE_CONFIRM]:{\"type\":\"info\",\"props\":{\"headline\":\"o.CV.candidateTitle\",\"subtext\":\"o.CV.candidateDescription\",\"actionLabel\":\"o.CV.confirmButtonLabel\",\"tertiaryActionLabel\":\"o.CV.declineButtonLabel\",\"tertiaryActionLink\":\"s.Dh\"}},[E.pl.GOVERNMENT_CANDIDATE_PUBLIC_REFERENCE_URL]:{\"type\":\"input\",\"props\":{\"title\":\"o.cc.title\",\"description\":\"o.cc.description\",\"items\":[{\"dataKey\":\"E.GG.PUBLIC\",\"label\":\"o.cc.websiteLabel\",\"required\":\"!0\"}]}},[E.pl.GOVERNMENT_OFFICE_NEWS_REFERENCE_URLS]:{\"type\":\"input\",\"props\":{\"title\":\"o.nJ.title\",\"description\":\"o.nJ.description\",\"items\":[...Array().fill(5){\"dataKey\":\"E.GG.NEWS\",\"labelGenerator\":\"o.nJ.articleLabelGenerator\",\"required\":\"!0\"}}},[E.pl.GOVERNMENT_OFFICE_PROFILE_CONFIRM]:{\"type\":\"info\",\"props\":{\"headline\":\"o.CV.officeTitle\",\"subtext\":\"o.CV.officeDescription\",\"actionLabel\":\"o.CV.confirmButtonLabel\",\"tertiaryActionLabel\":\"o.CV.declineButtonLabel\",\"tertiaryActionLink\":\"s.Dh\"}},[E.pl.GOVERNMENT_OFFICE_PUBLIC_REFERENCE_URL]:{\"type\":\"input\",\"props\":{\"title\":\"o.II.title\",\"description\":\"o.II.description\",\"items\":[{\"dataKey\":\"E.GG.PUBLIC\",\"label\":\"o.II.websiteLabel\",\"required\":\"!0\"}]}},[E.pl.GOVERNMENT_OFFICIAL_LEVEL_CONFIRM]:{\"type\":\"info\",\"props\":{\"headline\":\"o.ib.officialTitle\",\"subtext\":\"o.ib.officialDescription\",\"actionLabel\":\"o.ib.confirmButtonLabel\",\"tertiaryActionLabel\":\"o.ib.declineButtonLabel\"}},[E.pl.GOVERNMENT_OFFICIAL_NEWS_REFERENCE_URLS]:{\"type\":\"input\",\"props\":{\"title\":\"o.cB.title\",\"description\":\"o.cB.description\",\"items\":[...Array().fill(5){\"dataKey\":\"E.GG.NEWS\",\"labelGenerator\":\"o.cB.articleLabelGenerator\",\"required\":\"!0\"}}},[E.pl.GOVERNMENT_OFFICIAL_PROFILE_CONFIRM]:{\"type\":\"info\",\"props\":{\"headline\":\"o.CV.officialTitle\",\"subtext\":\"o.CV.officialDescription\",\"actionLabel\":\"o.CV.confirmButtonLabel\",\"tertiaryActionLabel\":\"o.CV.declineButtonLabel\",\"tertiaryActionLink\":\"s.Dh\"}},[E.pl.GOVERNMENT_OFFICIAL_PUBLIC_REFERENCE_URL]:{\"type\":\"input\",\"props\":{\"title\":\"o.Uz.title\",\"description\":\"o.Uz.description\",\"items\":[{\"dataKey\":\"E.GG.PUBLIC\",\"label\":\"o.Uz.websiteLabel\",\"required\":\"!0\"}]}},[E.pl.GOVERNMENT_SUBCATEGORY]:{\"type\":\"radio\",\"props\":{\"title\":\"o.jn.title\",\"description\":\"o.jn.description\",\"items\":[{...o.jn.items[0],\"value\":\"E.aF.OFFICIAL\"},{...o.jn.items[1],\"value\":\"E.aF.CANDIDATE\"},{...o.jn.items[2],\"value\":\"E.aF.OFFICE\"}],\"getNextFormStep\":e=>e===E.aF.OFFICIAL?E.pl.GOVERNMENT_OFFICIAL_LEVEL_CONFIRM:e===E.aF.CANDIDATE?E.pl.GOVERNMENT_CANDIDATE_LEVEL_CONFIRM:e===E.aF.OFFICE?E.pl.GOVERNMENT_OFFICE_PROFILE_CONFIRM:\"void 0\"}},[E.pl.CONTENT_CREATOR_GOOGLE_TRENDS]:{\"type\":\"input\",\"props\":{\"title\":\"o.Tq.title\",\"description\":\"o.Tq.description\",\"items\":[{\"dataKey\":\"E.GG.GOOGLE\",\"label\":\"o.Tq.label\",\"required\":\"!0\"}]}},[E.pl.CONTENT_CREATOR_NEWS]:{\"type\":\"input\",\"props\":{\"title\":\"o.Fx.title\",\"description\":\"o.Fx.description\",\"items\":[...Array().fill(3){\"dataKey\":\"E.GG.NEWS\",\"labelGenerator\":\"o.Fx.articleLabelGenerator\",\"required\":\"!0\"}}},[E.pl.CONTENT_CREATOR_QUALIFICATIONS]:{\"type\":\"radio\",\"props\":{\"title\":\"o.Pk.title\",\"description\":\"o.Pk.description\",\"items\":[{...o.Pk.items[0],\"value\":\"E.GG.GOOGLE\"},{...o.Pk.items[1],\"value\":\"E.GG.WIKIPEDIA\"},{...o.Pk.items[2],\"value\":\"E.GG.NEWS\"}],\"getNextFormStep\":e=>e===E.GG.GOOGLE?E.pl.CONTENT_CREATOR_GOOGLE_TRENDS:e===E.GG.WIKIPEDIA?E.pl.CONTENT_CREATOR_WIKIPEDIA:e===E.GG.NEWS?E.pl.CONTENT_CREATOR_NEWS:\"void 0\"}},[E.pl.CONTENT_CREATOR_WIKIPEDIA]:{\"type\":\"input\",\"props\":{\"title\":\"o.z6.title\",\"description\":\"o.z6.description\",\"items\":[{\"dataKey\":\"E.GG.WIKIPEDIA\",\"label\":\"o.z6.label\",\"required\":\"!0\"}]}},[E.pl.CREATOR_PROFILE]:{\"type\":\"input\",\"props\":{\"title\":\"o.$r.title\",\"description\":\"o.$r.description\",\"items\":[{\"dataKey\":\"E.GG.MAIN\",\"label\":o.$r.items[0].label,\"required\":\"!0\"}]}},[E.pl.INFLUENCER_GOOGLE_TRENDS]:{\"type\":\"input\",\"props\":{\"title\":\"o.AL.title\",\"description\":\"o.AL.description\",\"items\":[{\"dataKey\":\"E.GG.GOOGLE\",\"label\":\"o.AL.label\",\"required\":\"!0\"}]}},[E.pl.INFLUENCER_NEWS]:{\"type\":\"input\",\"props\":{\"title\":\"o.P4.title\",\"description\":\"o.P4.description\",\"items\":[...Array().fill(3){\"dataKey\":\"E.GG.NEWS\",\"labelGenerator\":\"o.P4.articleLabelGenerator\",\"required\":\"!0\"}}},[E.pl.INFLUENCER_QUALIFICATIONS]:{\"type\":\"radio\",\"props\":{\"title\":\"o.lH.title\",\"description\":\"o.lH.description\",\"items\":[{...o.lH.items[0],\"value\":\"E.GG.GOOGLE\"},{...o.lH.items[1],\"value\":\"E.GG.WIKIPEDIA\"},{...o.lH.items[2],\"value\":\"E.GG.NEWS\"}],\"getNextFormStep\":e=>e===E.GG.GOOGLE?E.pl.INFLUENCER_GOOGLE_TRENDS:e===E.GG.WIKIPEDIA?E.pl.INFLUENCER_WIKIPEDIA:e===E.GG.NEWS?E.pl.INFLUENCER_NEWS:\"void 0\"}},[E.pl.INFLUENCER_QUALIFICATIONS_INELIGIBLE]:{\"type\":\"info\",\"props\":{\"headline\":\"o.lH.notEligibleTitle\",\"subtext\":\"o.lH.notEligibleDescription\",\"actionLabel\":\"o.lH.notEligibleButton\"}},[E.pl.INFLUENCER_SUBCATEGORY]:\"()\"{\"followersEligible\":\"e=!1\",\"mentionsEligible\":\"t=!1\"}{\"type\":\"radio\",\"props\":{\"...o.oK\":\"_\",\"items\":[{...o.oK.items[0],\"value\":\"E.Yp.CONTENT_CREATOR\"},{...o.oK.items[1],\"value\":\"E.Yp.INFLUENTIAL_INDIVIDUAL\"}],\"getNextFormStep\":i=>i===E.Yp.CONTENT_CREATOR?e||t?E.pl.CONTENT_CREATOR_QUALIFICATIONS:E.pl.INFLUENCER_QUALIFICATIONS_INELIGIBLE:i===E.Yp.INFLUENTIAL_INDIVIDUAL?e||t?E.pl.INFLUENCER_QUALIFICATIONS:E.pl.INFLUENCER_QUALIFICATIONS_INELIGIBLE:\"void 0\"}}{\"type\":\"input\",\"props\":{\"title\":\"o.f.title\",\"description\":\"o.f.description\",\"items\":[{\"dataKey\":\"E.GG.WIKIPEDIA\",\"label\":\"o.f.label\",\"required\":\"!0\"}]}},[E.pl.NEWS_CREDIBILITY_ARTICLE_REFERENCE_URLS]:{\"type\":\"input\",\"props\":{\"title\":\"o.OO.title\",\"description\":\"o.OO.description\",\"items\":[...Array().fill(3){\"dataKey\":\"E.GG.ARTICLES\",\"labelGenerator\":\"o.OO.articleNumerationLabelGenerator\",\"required\":\"!0\"}}},[E.pl.NEWS_FREELANCER_CREDIBILITY_ARTICLE_REFERENCE_URLS]:{\"type\":\"input\",\"props\":{\"title\":\"o.OO.title\",\"description\":\"o.OO.description\",\"items\":[...Array().fill(3){\"dataKey\":\"E.GG.ARTICLES\",\"labelGenerator\":\"o.OO.articleNumerationLabelGenerator\",\"required\":\"!0\"}}},[E.pl.NEWS_CREDIBILITY_AUTHOR_REFERENCE_URL]:{\"type\":\"input\",\"props\":{\"title\":\"o.H1.title\",\"description\":\"o.H1.description\",\"items\":[{\"dataKey\":\"E.GG.AUTHOR\",\"label\":\"o.H1.websiteLabel\",\"required\":\"!0\"}],\"confirmationText\":\"o.H1.confirmationText\"}},[E.pl.NEWS_NOTABILITY_CRITERIA_CONFIRMATION]:{\"type\":\"info\",\"props\":{\"headline\":\"o.cv.title\",\"subtext\":\"o.cv.description\",\"actionLabel\":\"o.cv.actionLabel\",\"tertiaryActionLabel\":\"o.cv.tertiaryActionLabel\"}},[E.pl.NEWS_QUALIFICATIONS]:{\"type\":\"radio\",\"props\":{\"title\":\"o._f.title\",\"description\":\"o._f.description\",\"items\":[{\"helpText\":o._f.items[0].description,\"label\":o._f.items[0].label,\"value\":\"E.DY.JOURNALIST\"},{\"helpText\":o._f.items[1].description,\"label\":o._f.items[1].label,\"value\":\"E.DY.FREELANCER\"},{\"helpText\":o._f.items[2].description,\"label\":o._f.items[2].label,\"value\":\"E.DY.ORGANIZATION\"}],\"getNextFormStep\":e=>e===E.DY.JOURNALIST?E.pl.NEWS_JOURNALIST_SCREENNAME_CONFIRMATION:e===E.DY.FREELANCER?E.pl.NEWS_FREELANCER_CREDIBILITY_ARTICLE_REFERENCE_URLS:e===E.DY.ORGANIZATION?E.pl.NEWS_ORGANIZATION_REQUIREMENTS_CONFIRMATION:\"void 0\"}},[E.pl.NEWS_JOURNALIST_CRITERIA_CONFIRMATION]:{\"type\":\"info\",\"props\":{\"...o.QQ\":\"_\",\"tertiaryActionLink\":\"s.Dh\"}},[E.pl.NEWS_JOURNALIST_SCREENNAME_CONFIRMATION]:{\"type\":\"screenName\",\"props\":{\"...o.fC\":\"_\"}},[E.pl.NEWS_JOURNALIST_QUALIFICATIONS]:{\"type\":\"radio\",\"props\":{\"title\":\"o.ne.title\",\"description\":\"o.ne.description\",\"items\":[{\"helpText\":o.ne.items[0].description,\"label\":o.ne.items[0].label,\"value\":\"E.GG.AUTHOR\"},{\"helpText\":o.ne.items[1].description,\"label\":o.ne.items[1].label,\"value\":\"E.GG.ARTICLES\"}],\"getNextFormStep\":e=>e===E.GG.ARTICLES?E.pl.NEWS_CREDIBILITY_ARTICLE_REFERENCE_URLS:e===E.GG.AUTHOR?E.pl.NEWS_CREDIBILITY_AUTHOR_REFERENCE_URL:\"void 0\"}},[E.pl.NEWS_ORGANIZATION_REQUIREMENTS_CONFIRMATION]:{\"type\":\"info\",\"props\":{\"headline\":\"o.If.title\",\"subtext\":\"o.If.description\",\"actionLabel\":\"o.If.confirmButtonLabel\",\"tertiaryActionLabel\":\"o.If.declineButtonLabel\",\"tertiaryActionLink\":\"s.Dh\"}},[E.pl.NEWS_ORGANIZATION_QUALIFICATIONS]:\"()\"{\"followersEligible\":\"e=!1\",\"mentionsEligible\":\"t=!1\"}{\"type\":\"radio\",\"props\":{\"title\":\"o.$$.title\",\"description\":\"o.$$.description\",\"items\":[{\"helpText\":o.$$.items[0].description,\"label\":o.$$.items[0].label,\"value\":\"E.GG.GOOGLE\"},{\"helpText\":o.$$.items[1].description,\"label\":o.$$.items[1].label,\"value\":\"E.GG.WIKIPEDIA\"},{\"helpText\":o.$$.items[2].description,\"label\":o.$$.items[2].label,\"value\":\"E.GG.STOCK\"},...e||t?[{\"helpText\":o.$$.items[3].description,\"label\":o.$$.items[3].label,\"value\":\"E.GG.ARTICLES\"}]:[]],\"getNextFormStep\":e=>e===E.GG.GOOGLE?E.pl.NEWS_CREDIBILITY_GOOGLE_TRENDS_REFERENCE_URL:e===E.GG.WIKIPEDIA?E.pl.NEWS_CREDIBILITY_WIKIPEDIA_REFERENCE_URL:e===E.GG.STOCK?E.pl.NEWS_CREDIBILITY_STOCK_REFERENCE_URL:e===E.GG.ARTICLES?E.pl.NEWS_ORGANIZATION_CREDIBILITY_ARTICLE_REFERENCE_URLS:\"void 0\"}}{\"followersEligible\":\"e=!1\",\"mentionsEligible\":\"t=!1\"}{\"type\":\"input\",\"props\":{\"title\":\"o.Qt.title\",\"description\":\"o.Qt.description\",\"items\":[{\"dataKey\":\"E.GG.GOOGLE\",\"label\":\"o.Qt.label\",\"required\":\"!0\"}],\"nextFormStep\":e||t?E.pl.AUTHENTICITY_TYPE_SELECT:\"E.pl.NEWS_ORGANIZATION_CREDIBILITY_ARTICLE_REFERENCE_URLS\"}}{\"followersEligible\":\"e=!1\",\"mentionsEligible\":\"t=!1\"}{\"type\":\"input\",\"props\":{\"title\":\"o.Dm.title\",\"description\":\"o.Dm.description\",\"items\":[{\"dataKey\":\"E.GG.WIKIPEDIA\",\"label\":\"o.Dm.label\",\"required\":\"!0\"}],\"nextFormStep\":e||t?E.pl.AUTHENTICITY_TYPE_SELECT:\"E.pl.NEWS_ORGANIZATION_CREDIBILITY_ARTICLE_REFERENCE_URLS\"}}{\"followersEligible\":\"e=!1\",\"mentionsEligible\":\"t=!1\"}{\"type\":\"input\",\"props\":{\"title\":\"o.U$.title\",\"description\":\"o.U$.description\",\"items\":[{\"dataKey\":\"E.GG.STOCK\",\"label\":\"o.U$.label\",\"required\":\"!0\"}],\"nextFormStep\":e||t?E.pl.AUTHENTICITY_TYPE_SELECT:\"E.pl.NEWS_ORGANIZATION_CREDIBILITY_ARTICLE_REFERENCE_URLS\"}}{\"type\":\"input\",\"props\":{\"title\":\"o.Tm.title\",\"description\":\"o.Tm.description\",\"items\":[...Array().fill(3){\"dataKey\":\"E.GG.ARTICLES\",\"labelGenerator\":\"o.Tm.articleLabelGenerator\",\"required\":\"!0\"}}},[E.pl.GAMING_SUBCATEGORY]:\"()\"{\"followersEligible\":\"e=!1\",\"mentionsEligible\":\"t=!1\"}{\"type\":\"radio\",\"props\":{\"...o.Rp\":\"_\",\"items\":[{...o.Rp.items[0],\"value\":\"E.R2.GAMING_INDIVIDUAL\"},{...o.Rp.items[1],\"value\":\"E.DY.JOURNALIST\"},{...o.Rp.items[2],\"value\":\"E.Yp.CONTENT_CREATOR\"},{...o.Rp.items[3],\"value\":\"E.QP.COMPANY\"}],\"getNextFormStep\":i=>i===E.R2.GAMING_INDIVIDUAL?e?E.pl.GAMING_INDIVIDUAL_SCREENNAME_CONFIRM:E.pl.GAMING_INDIVIDUAL_INELIGIBLE:i===E.DY.JOURNALIST?E.pl.NEWS_JOURNALIST_SCREENNAME_CONFIRMATION:i===E.Yp.CONTENT_CREATOR?e||t?E.pl.CONTENT_CREATOR_QUALIFICATIONS:E.pl.INFLUENCER_QUALIFICATIONS_INELIGIBLE:i===E.QP.COMPANY?E.pl.COMPANY_NOTABILITY_METHOD:\"void 0\"}}{\"type\":\"input\",\"props\":{\"title\":\"o.yT.title\",\"description\":\"o.yT.description\",\"items\":[...Array().fill(3){\"dataKey\":\"E.GG.NEWS\",\"labelGenerator\":\"o.yT.articleLabelGenerator\",\"required\":\"!0\"}}},[E.pl.GAMING_INDIVIDUAL_NOTABILITY_METHOD]:{\"type\":\"radio\",\"props\":{\"title\":\"o.bE.title\",\"description\":\"o.bE.description\",\"items\":[{\"helpText\":o.bE.items[0].description,\"label\":o.bE.items[0].label,\"value\":\"E.GG.NEWS\"},{\"helpText\":o.bE.items[1].description,\"label\":o.bE.items[1].label,\"value\":\"E.GG.TEAM\"}],\"getNextFormStep\":e=>e===E.GG.TEAM?E.pl.GAMING_INDIVIDUAL_TEAM_REFERENCE_URL:e===E.GG.NEWS?E.pl.GAMING_INDIVIDUAL_NEWS_REFERENCE_URLS:\"void 0\"}},[E.pl.GAMING_INDIVIDUAL_TEAM_REFERENCE_URL]:{\"type\":\"input\",\"props\":{\"title\":\"o.Hd.title\",\"description\":\"o.Hd.description\",\"items\":[{\"dataKey\":\"E.GG.TEAM\",\"label\":\"o.Hd.websiteLabel\",\"required\":\"!0\"}]}},[E.pl.SPORTS_INDIVIDUAL_NEWS_REFERENCE_URLS]:{\"type\":\"input\",\"props\":{\"title\":\"o.iq.title\",\"description\":\"o.iq.description\",\"items\":[...Array().fill(3){\"dataKey\":\"E.GG.NEWS\",\"labelGenerator\":\"o.iq.articleLabelGenerator\",\"required\":\"!0\"}}},[E.pl.SPORTS_INDIVIDUAL_TEAM_REFERENCE_URL]:{\"type\":\"input\",\"props\":{\"title\":\"o.Tr.title\",\"description\":\"o.Tr.description\",\"items\":[{\"dataKey\":\"E.GG.TEAM\",\"label\":\"o.Tr.websiteLabel\",\"required\":\"!0\"}]}},[E.pl.SPORTS_ENTITY_NOTABILITY_METHOD]:\"()\"{\"followersEligible\":\"e=!1\"}{const t=[{...o.uu.items[0],\"value\":\"E.GG.GOOGLE\"},{...o.uu.items[1],\"value\":\"E.GG.WIKIPEDIA\"},{...o.uu.items[2],\"value\":\"E.GG.STOCK\"},{...o.uu.items[3],\"value\":\"E.GG.TEAM\"},{...o.uu.items[4],\"value\":\"E.GG.NEWS\"}];return{\"type\":\"radio\",\"props\":{\"...o.uu\":\"_\",\"items\":e?t:\"t.slice()\",\"getNextFormStep\":e=>e===E.GG.GOOGLE?E.pl.SPORTS_ENTITY_GOOGLE_TRENDS:e===E.GG.WIKIPEDIA?E.pl.SPORTS_ENTITY_WIKIPEDIA:e===E.GG.STOCK?E.pl.SPORTS_ENTITY_STOCK_REFERENCE:e===E.GG.TEAM?E.pl.SPORTS_ENTITY_WEBSITE:e===E.GG.NEWS?E.pl.SPORTS_ENTITY_NEWS_REFERENCE:\"void 0\"}}},[E.pl.SPORTS_ENTITY_GOOGLE_TRENDS]:\"()\"{\"followersEligible\":\"e\"}{\"type\":\"input\",\"props\":{\"title\":\"o.J5.title\",\"description\":\"o.J5.description\",\"items\":[{\"dataKey\":\"E.GG.GOOGLE\",\"label\":\"o.J5.label\",\"required\":\"!0\"}],\"nextFormStep\":e?E.pl.AUTHENTICITY_TYPE_SELECT:\"E.pl.SPORTS_ENTITY_NEWS_REFERENCE\"}}{\"followersEligible\":\"e\"}{\"type\":\"input\",\"props\":{\"title\":\"o.C_.title\",\"description\":\"o.C_.description\",\"items\":[{\"dataKey\":\"E.GG.WIKIPEDIA\",\"label\":\"o.C_.label\",\"required\":\"!0\"}],\"nextFormStep\":e?E.pl.AUTHENTICITY_TYPE_SELECT:\"E.pl.SPORTS_ENTITY_NEWS_REFERENCE\"}}{\"followersEligible\":\"e\"}{\"type\":\"input\",\"props\":{\"title\":\"o.sj.title\",\"description\":\"o.sj.description\",\"items\":[{\"dataKey\":\"E.GG.STOCK\",\"label\":\"o.sj.label\",\"required\":\"!0\"}],\"nextFormStep\":e?E.pl.AUTHENTICITY_TYPE_SELECT:\"E.pl.SPORTS_ENTITY_NEWS_REFERENCE\"}}{\"followersEligible\":\"e\"}{\"type\":\"input\",\"props\":{\"title\":\"o.$Z.title\",\"description\":\"o.$Z.description\",\"items\":[{\"dataKey\":\"E.GG.TEAM\",\"label\":\"o.$Z.label\",\"required\":\"!0\"}],\"nextFormStep\":e?E.pl.WEBSITE_REFERENCE_CONFIRM_AUTOFILL:\"E.pl.SPORTS_ENTITY_NEWS_REFERENCE\"}}{\"type\":\"input\",\"props\":{\"title\":\"o.Kj.title\",\"description\":\"o.Kj.description\",\"items\":[...Array().fill(3){\"dataKey\":\"E.GG.NEWS\",\"labelGenerator\":\"o.Kj.articleLabelGenerator\",\"required\":\"!0\"}}},[E.pl.SPORTS_INDIVIDUAL_SCREENNAME_CONFIRM]:{\"type\":\"screenName\",\"props\":{\"...o.ig\":\"_\"}},[E.pl.GAMING_INDIVIDUAL_SCREENNAME_CONFIRM]:{\"type\":\"screenName\",\"props\":{\"...o.We\":\"_\"}},[E.pl.SPORTS_INDIVIDUAL_NOTABILITY_METHOD]:{\"type\":\"radio\",\"props\":{\"title\":\"o.j_.title\",\"description\":\"o.j_.description\",\"items\":[{\"helpText\":o.j_.items[0].description,\"label\":o.j_.items[0].label,\"value\":\"E.GG.NEWS\"},{\"helpText\":o.j_.items[1].description,\"label\":o.j_.items[1].label,\"value\":\"E.GG.TEAM\"}],\"getNextFormStep\":e=>e===E.GG.TEAM?E.pl.SPORTS_INDIVIDUAL_TEAM_REFERENCE_URL:e===E.GG.NEWS?E.pl.SPORTS_INDIVIDUAL_NEWS_REFERENCE_URLS:\"void 0\"}},[E.pl.GAMING_INDIVIDUAL_INELIGIBLE]:{\"type\":\"info\",\"props\":{\"...o.k_\":\"_\"}},[E.pl.SPORTS_SUBCATEGORY]:\"()\"{\"followersEligible\":\"e=!1\",\"mentionsEligible\":\"t=!1\"}{\"type\":\"radio\",\"props\":{\"...o.Vf\":\"_\",\"items\":[{...o.Vf.items[0],\"value\":\"E.R2.SPORTS_INDIVIDUAL\"},{...o.Vf.items[1],\"value\":\"E.R2.SPORTS_ENTITY\"},{...o.Vf.items[2],\"value\":\"E.DY.JOURNALIST\"},{...o.Vf.items[3],\"value\":\"E.Yp.CONTENT_CREATOR\"}],\"getNextFormStep\":i=>i===E.R2.SPORTS_INDIVIDUAL?E.pl.SPORTS_INDIVIDUAL_SCREENNAME_CONFIRM:i===E.R2.SPORTS_ENTITY?E.pl.SPORTS_ENTITY_NOTABILITY_METHOD:i===E.DY.JOURNALIST?E.pl.NEWS_JOURNALIST_SCREENNAME_CONFIRMATION:i===E.Yp.CONTENT_CREATOR?e||t?E.pl.CONTENT_CREATOR_QUALIFICATIONS:E.pl.INFLUENCER_QUALIFICATIONS_INELIGIBLE:\"void 0\"}}}",
-  {
-    "...T": "_",
-    "...n": "_",
-    "...l.k": "_"
-  },
-  {
     "AppStore": "AppStore",
     "PlayStore": "PlayStore",
     "Stripe": "Stripe",
@@ -266,10 +132,6 @@
   {
     "InitialSale": "InitialSale",
     "Renewal": "Renewal"
-  },
-  {
-    "HUMAN": "1",
-    "ASSISTANT": "2"
   },
   {
     "UP": "up",
@@ -281,9 +143,9 @@
     "COMPARISON": "COMPARISON"
   },
   {
-    "preMarket": "g().a50aaa10",
-    "today": "g().g02dacc0",
-    "afterHours": "g().dd614d10"
+    "preMarket": "h().a50aaa10",
+    "today": "h().g02dacc0",
+    "afterHours": "h().dd614d10"
   },
   {
     "PRICE_LEVEL_UNSPECIFIED": "",
@@ -296,15 +158,15 @@
   {
     "OVERVIEW": {
       "id": "OVERVIEW",
-      "label": "a().d59dbf8a"
+      "label": "r().d59dbf8a"
     },
     "MATCHES": {
       "id": "GAMES",
-      "label": "a().e2811afc"
+      "label": "r().e2811afc"
     },
     "STANDINGS": {
       "id": "STANDINGS",
-      "label": "a().j081fa34"
+      "label": "r().j081fa34"
     }
   },
   {
@@ -525,7 +387,8 @@
   {
     "Geography": "Geography",
     "Interest": "Interest",
-    "Premium": "Premium"
+    "Premium": "Premium",
+    "PublicKeyCredential": "PublicKeyCredential"
   },
   {
     "DocumentTypeMonthlyStatement": "DocumentTypeMonthlyStatement",
@@ -737,9 +600,9 @@
     "UnrecognizedPaymentDecisionUnspecified": "UnrecognizedPaymentDecisionUnspecified"
   },
   "{[b.S.Alert]:\"danger\",[b.S.Info]:\"primary\",[b.S.Warning]:\"warning\"}",
-  "{[b.S.Alert]:\"p.default\",[b.S.Info]:\"u.default\",[b.S.Warning]:\"p.default\"}",
-  "{[d.jq.WIRE_TRANSFER]:\"i().gd0092d0\",[d.jq.ACCOUNT_LINKING]:\"i().h21d2206\",[d.jq.DEPOSIT]:\"i().f00e8268\",[d.jq.P2P_TRANSFER_REQUEST]:\"i().e3f45a70\",[d.jq.P2P_TRANSFER_SEND]:\"i().e3f45a70\",[d.jq.P2P_TRANSFER_SEND_FUNDED]:\"i().f00e8268\",[d.jq.WITHDRAWAL]:\"i().e04209d0\",[d.jq.MAIL_CHECK]:\"i().d92cbe6a\"}",
-  "{\"InsufficientFunds\":{\"headline\":\"i().f66c509a\",\"message\":\"i().f9e0e6a2\",\"action\":{\"link\":\"s.IN\",\"label\":\"i().a4ef9cbe\"}},\"InvalidReceiver\":{\"getHeadline\":\"()\"{\"actionType\":\"e\"}{\"issueReportEnabled\":\"!0\",\"description\":\"Encountered an error while making a request.\"}},\"InvalidReceiverCurrentState\":{\"getHeadline\":\"()\"{\"actionType\":\"e\"}},\"BankIssue\":{\"getHeadline\":\"()\"{\"actionType\":\"e\"}},\"InvalidReceiverPreferences\":{\"getHeadline\":\"()\"{\"actionType\":\"e\"}{\"actionType\":\"e\",\"counterPartyScreenName\":\"t\"}{\"counterPartyScreenName\":\"t\"}{\"counterPartyScreenName\":\"t\"}},\"InvalidSenderPreferences\":{\"headline\":\"v\",\"message\":\"C\",\"getMessage\":\"()\"{\"actionType\":\"e\",\"counterPartyScreenName\":\"t\"}{\"counterPartyScreenName\":\"t\"}{\"counterPartyScreenName\":\"t\"}},\"InvalidSender\":{\"getHeadline\":\"()\"{\"actionType\":\"e\"}{\"issueReportEnabled\":\"!0\",\"description\":\"Encountered an error while making a payment.\"}},\"InvalidSenderCurrentState\":{\"getHeadline\":\"()\"{\"actionType\":\"e\"}},\"IdempotencyKeyConflict\":{\"headline\":\"i().f6b3499c\",\"message\":\"i().f64125f6\",\"action\":{\"link\":\"s.bR\",\"label\":\"i().e63ed2f0\"}},\"CustomerMissingPrimaryAddress\":{\"message\":\"i().gde35c74\",\"action\":{\"link\":\"s.f0\",\"label\":\"i().jd899ca2\"}},\"LoginRequired\":\"D\",\"PaymentMethodLinkRequired\":\"D\",\"AccountLinkingNameMismatch\":{\"message\":\"i().d660047c\"},\"InsufficientBalance\":{\"headline\":\"i().f66c509a\",\"message\":\"i().f40c576c\",\"action\":{\"link\":\"s.IN\",\"label\":\"i().a4ef9cbe\"}},\"TwoFactorAuthRequired\":{\"message\":\"i().i10a73ce\",\"action\":{\"link\":\"s.ul\",\"label\":\"i().b4642e52\"}},\"VolumeLimitExceeded7DaySend\":{\"headline\":\"f()\"{\"type\":\"weekly\"}{\"actionType\":\"e\",\"limits\":\"t\"}{\"type\":\"weekly\",\"limits\":\"t\",\"actionType\":\"e\"}{\"actionType\":\"e\",\"limits\":\"t\"}{\"actionType\":\"e\",\"limits\":\"t\",\"type\":\"weekly\"}{\"link\":\"s.iE.limits\",\"label\":\"h\"}},\"VolumeLimitExceeded30DaySend\":{\"headline\":\"f()\"{\"type\":\"monthly\"}{\"actionType\":\"e\",\"limits\":\"t\"}{\"type\":\"monthly\",\"limits\":\"t\",\"actionType\":\"e\"}{\"actionType\":\"e\",\"limits\":\"t\"}{\"actionType\":\"e\",\"limits\":\"t\",\"type\":\"monthly\"}{\"link\":\"s.iE.limits\",\"label\":\"h\"}},\"VolumeLimitExceeded7Day\":{\"headline\":\"f()\"{\"type\":\"weekly\"}{\"actionType\":\"e\",\"limits\":\"t\"}{\"type\":\"weekly\",\"limits\":\"t\",\"actionType\":\"e\"}{\"actionType\":\"e\",\"limits\":\"t\"}{\"actionType\":\"e\",\"limits\":\"t\",\"type\":\"weekly\"}{\"link\":\"s.iE.limits\",\"label\":\"h\"}},\"VolumeLimitExceeded30Day\":{\"headline\":\"f()\"{\"type\":\"monthly\"}{\"actionType\":\"e\",\"limits\":\"t\"}{\"type\":\"monthly\",\"limits\":\"t\",\"actionType\":\"e\"}{\"actionType\":\"e\",\"limits\":\"t\"}{\"actionType\":\"e\",\"limits\":\"t\",\"type\":\"monthly\"}{\"link\":\"s.iE.limits\",\"label\":\"h\"}},\"AdditionalKycRequiredVolumeLimitExceeded7DaySend\":\"z\",\"AdditionalKycRequiredVolumeLimitExceeded30DaySend\":\"z\",\"AdditionalKycRequiredTotalVolumeLimitExceeded\":\"z\",\"AdditionalKycRequired\":{\"headline\":\"i().g243dc66\",\"message\":\"i().b0315b3a\",\"action\":{\"link\":\"s.AU.tier2.verifyIdentityPath\",\"label\":\"i().c3d89aca\"}},\"Velocity\":{\"headline\":\"Z\",\"getHeadline\":\"()\"{\"actionType\":\"e\"}{\"actionType\":R[e]}},\"HasAccountBalance\":{\"headline\":\"w\",\"message\":\"i().a9ec0e4a\",\"action\":{\"link\":\"s.r0\",\"label\":\"i().c0728748\"}},\"HasCashbackAccountBalance\":{\"headline\":\"w\",\"message\":\"i().a387275c\",\"action\":{\"link\":\"s.Tb\",\"label\":\"i().e49c288c\"}},\"HasActiveDisputes\":{\"headline\":\"w\",\"message\":\"i().c4800cb8\"},\"HasPendingTransactions\":{\"headline\":\"w\",\"message\":\"i().i0391488\"},\"InactivePaymentMethod\":\"I\",\"InvalidPaymentMethodType\":\"I\",\"PaymentMethodDeleted\":\"I\",\"FeeCalculationError\":{\"headline\":\"L\",\"getHeadline\":\"()\"{\"actionType\":\"e\"}{\"actionType\":R[e]}{\"link\":\"s.gp\",\"label\":\"i().a893d602\"},\"getErrorReporting\":\"()\"{\"actionType\":\"e\"}{\"issueReportEnabled\":\"!0\",\"description\":`Encountered an error while calculating fees for a ${e?.toLowerCase()??\"\"} transaction.`}:{\"issueReportEnabled\":\"!1\"}},\"Unexpected\":{\"headline\":\"i().ac1c4c40\",\"message\":\"i().de869c96\",\"getErrorReporting\":\"()\"{\"actionType\":\"e\"}{\"issueReportEnabled\":\"!0\",\"description\":`Encountered an unexpected error during a ${e?.toLowerCase()??\"\"} transaction.`}:{\"issueReportEnabled\":\"!1\"}},\"Default\":{\"getHeadline\":\"()\"{\"actionType\":\"e\"}{\"switch()\"{\"case d.jq.P2P_TRANSFER_SEND\":return k;case d.jq.P2P_TRANSFER_REQUEST:return v;case d.jq.WITHDRAWAL:return M;case d.jq.DEPOSIT:return F;case d.jq.CLOSE_ACCOUNT:return w;default:\"return i().j3dc6686\"}},\"getMessage\":\"()\"{\"actionType\":\"e\"}{\"switch()\"{\"case d.jq.P2P_TRANSFER_SEND\":case d.jq.P2P_TRANSFER_REQUEST:return A;default:\"return _\"}},\"message\":\"_\",\"getErrorReporting\":\"()\"{\"actionType\":\"e\"}{\"issueReportEnabled\":\"!0\",\"description\":`Encountered an unexpected error during a ${e?.toLowerCase()??\"\"} transaction.`}:{\"issueReportEnabled\":\"!1\"}}}",
+  "{[b.S.Alert]:\"u.default\",[b.S.Info]:\"p.default\",[b.S.Warning]:\"u.default\"}",
+  "{[m.jq.WIRE_TRANSFER]:\"l().gd0092d0\",[m.jq.ACCOUNT_LINKING]:\"l().h21d2206\",[m.jq.DEPOSIT]:\"l().f00e8268\",[m.jq.P2P_TRANSFER_REQUEST]:\"l().e3f45a70\",[m.jq.P2P_TRANSFER_SEND]:\"l().e3f45a70\",[m.jq.P2P_TRANSFER_SEND_FUNDED]:\"l().f00e8268\",[m.jq.WITHDRAWAL]:\"l().e04209d0\",[m.jq.MAIL_CHECK]:\"l().d92cbe6a\"}",
+  "{\"InsufficientFunds\":{\"headline\":\"l().f66c509a\",\"message\":\"l().f9e0e6a2\",\"action\":{\"link\":\"o.IN\",\"label\":\"l().a4ef9cbe\"}},\"InvalidReceiver\":{\"getHeadline\":\"()\"{\"actionType\":\"e\"}{\"issueReportEnabled\":\"!0\",\"description\":\"Encountered an error while making a request.\"}},\"InvalidReceiverCurrentState\":{\"getHeadline\":\"()\"{\"actionType\":\"e\"}},\"BankIssue\":{\"getHeadline\":\"()\"{\"actionType\":\"e\"}},\"InvalidReceiverPreferences\":{\"getHeadline\":\"()\"{\"actionType\":\"e\"}{\"actionType\":\"e\",\"counterPartyScreenName\":\"t\"}{\"counterPartyScreenName\":\"t\"}{\"counterPartyScreenName\":\"t\"}},\"InvalidSenderPreferences\":{\"headline\":\"C\",\"message\":\"v\",\"getMessage\":\"()\"{\"actionType\":\"e\",\"counterPartyScreenName\":\"t\"}{\"counterPartyScreenName\":\"t\"}{\"counterPartyScreenName\":\"t\"}},\"InvalidSender\":{\"getHeadline\":\"()\"{\"actionType\":\"e\"}{\"issueReportEnabled\":\"!0\",\"description\":\"Encountered an error while making a payment.\"}},\"InvalidSenderCurrentState\":{\"getHeadline\":\"()\"{\"actionType\":\"e\"}},\"IdempotencyKeyConflict\":{\"headline\":\"l().f6b3499c\",\"message\":\"l().f64125f6\",\"action\":{\"link\":\"o.bR\",\"label\":\"l().e63ed2f0\"}},\"CustomerMissingPrimaryAddress\":{\"message\":\"l().gde35c74\",\"action\":{\"link\":\"o.f0\",\"label\":\"l().jd899ca2\"}},\"LoginRequired\":\"x\",\"PaymentMethodLinkRequired\":\"x\",\"AccountLinkingNameMismatch\":{\"message\":\"l().d660047c\"},\"InsufficientBalance\":{\"headline\":\"l().f66c509a\",\"message\":\"l().f40c576c\",\"action\":{\"link\":\"o.IN\",\"label\":\"l().a4ef9cbe\"}},\"TwoFactorAuthRequired\":{\"message\":\"l().i10a73ce\",\"action\":{\"link\":\"o.ul\",\"label\":\"l().b4642e52\"}},\"VolumeLimitExceeded7DaySend\":{\"headline\":\"f()\"{\"type\":\"weekly\"}{\"actionType\":\"e\",\"limits\":\"t\"}{\"type\":\"weekly\",\"limits\":\"t\",\"actionType\":\"e\"}{\"actionType\":\"e\",\"limits\":\"t\"}{\"actionType\":\"e\",\"limits\":\"t\",\"type\":\"weekly\"}{\"link\":\"o.iE.limits\",\"label\":\"h\"}},\"VolumeLimitExceeded30DaySend\":{\"headline\":\"f()\"{\"type\":\"monthly\"}{\"actionType\":\"e\",\"limits\":\"t\"}{\"type\":\"monthly\",\"limits\":\"t\",\"actionType\":\"e\"}{\"actionType\":\"e\",\"limits\":\"t\"}{\"actionType\":\"e\",\"limits\":\"t\",\"type\":\"monthly\"}{\"link\":\"o.iE.limits\",\"label\":\"h\"}},\"VolumeLimitExceeded7Day\":{\"headline\":\"f()\"{\"type\":\"weekly\"}{\"actionType\":\"e\",\"limits\":\"t\"}{\"type\":\"weekly\",\"limits\":\"t\",\"actionType\":\"e\"}{\"actionType\":\"e\",\"limits\":\"t\"}{\"actionType\":\"e\",\"limits\":\"t\",\"type\":\"weekly\"}{\"link\":\"o.iE.limits\",\"label\":\"h\"}},\"VolumeLimitExceeded30Day\":{\"headline\":\"f()\"{\"type\":\"monthly\"}{\"actionType\":\"e\",\"limits\":\"t\"}{\"type\":\"monthly\",\"limits\":\"t\",\"actionType\":\"e\"}{\"actionType\":\"e\",\"limits\":\"t\"}{\"actionType\":\"e\",\"limits\":\"t\",\"type\":\"monthly\"}{\"link\":\"o.iE.limits\",\"label\":\"h\"}},\"AdditionalKycRequiredVolumeLimitExceeded7DaySend\":\"z\",\"AdditionalKycRequiredVolumeLimitExceeded30DaySend\":\"z\",\"AdditionalKycRequiredTotalVolumeLimitExceeded\":\"z\",\"AdditionalKycRequired\":{\"headline\":\"l().g243dc66\",\"message\":\"l().b0315b3a\",\"action\":{\"link\":\"o.AU.tier2.verifyIdentityPath\",\"label\":\"l().c3d89aca\"}},\"Velocity\":{\"headline\":\"D\",\"getHeadline\":\"()\"{\"actionType\":\"e\"}{\"actionType\":P[e]}},\"HasAccountBalance\":{\"headline\":\"_\",\"message\":\"l().a9ec0e4a\",\"action\":{\"link\":\"o.r0\",\"label\":\"l().c0728748\"}},\"HasCashbackAccountBalance\":{\"headline\":\"_\",\"message\":\"l().a387275c\",\"action\":{\"link\":\"o.Tb\",\"label\":\"l().e49c288c\"}},\"HasActiveDisputes\":{\"headline\":\"_\",\"message\":\"l().c4800cb8\"},\"HasPendingTransactions\":{\"headline\":\"_\",\"message\":\"l().i0391488\"},\"InactivePaymentMethod\":\"A\",\"InvalidPaymentMethodType\":\"A\",\"PaymentMethodDeleted\":\"A\",\"FeeCalculationError\":{\"headline\":\"F\",\"getHeadline\":\"()\"{\"actionType\":\"e\"}{\"actionType\":P[e]}{\"link\":\"o.gp\",\"label\":\"l().a893d602\"},\"getErrorReporting\":\"()\"{\"actionType\":\"e\"}{\"issueReportEnabled\":\"!0\",\"description\":`Encountered an error while calculating fees for a ${e?.toLowerCase()??\"\"} transaction.`}:{\"issueReportEnabled\":\"!1\"}},\"Unexpected\":{\"headline\":\"l().ac1c4c40\",\"message\":\"l().de869c96\",\"getErrorReporting\":\"()\"{\"actionType\":\"e\"}{\"issueReportEnabled\":\"!0\",\"description\":`Encountered an unexpected error during a ${e?.toLowerCase()??\"\"} transaction.`}:{\"issueReportEnabled\":\"!1\"}},\"Default\":{\"getHeadline\":\"()\"{\"actionType\":\"e\"}{\"switch()\"{\"case m.jq.P2P_TRANSFER_SEND\":return S;case m.jq.P2P_TRANSFER_REQUEST:return C;case m.jq.WITHDRAWAL:return j;case m.jq.DEPOSIT:return q;case m.jq.CLOSE_ACCOUNT:return _;default:\"return l().j3dc6686\"}},\"getMessage\":\"()\"{\"actionType\":\"e\"}{\"switch()\"{\"case m.jq.P2P_TRANSFER_SEND\":case m.jq.P2P_TRANSFER_REQUEST:return T;default:\"return R\"}},\"message\":\"R\",\"getErrorReporting\":\"()\"{\"actionType\":\"e\"}{\"issueReportEnabled\":\"!0\",\"description\":`Encountered an unexpected error during a ${e?.toLowerCase()??\"\"} transaction.`}:{\"issueReportEnabled\":\"!1\"}}}",
   "{[v.g.Cancelled]:\"u().f93c4b6a\",[v.g.Failed]:\"u().jf1576ba\",[v.g.Expired]:\"u().eb4e810a\",[v.g.Pending]:\"Pe\",[v.g.Hold]:\"Pe\",[v.g.AuthorizationOpen]:\"Pe\",[v.g.AwaitingUnrecognizedConfirmation]:\"u().hc20de4e\",[v.g.PendingReview]:\"u().dd3d10f6\",[v.g.PendingRecipientAction]:\"Pe\",[v.g.PendingRecipientOnboarding]:\"Pe\",[v.g.AwaitingRequestAcceptance]:\"Pe\",[v.g.PendingRecipientAcceptance]:\"Pe\",[v.g.PinVerificationRequired]:\"Pe\",[v.g.RequestVerificationRequired]:\"Pe\",[v.g.VerificationRequired]:\"Pe\",[v.g.RejectedByRecipient]:\"Se\",[v.g.RequestRejected]:\"Se\",[v.g.Settled]:\"ve\",[v.g.SoftSettled]:\"ve\",[v.g.AuthorizationClosed]:\"ve\",[v.g.PendingFundingTransactionSettlement]:\"Pe\",[v.g.CreditedAwaitingSettlement]:\"Pe\"}",
   "{[k.P.RejectedLimitsExceeded]:\"u().h1eac44e\",[k.P.InReview]:\"u().dd3d10f6\",[k.P.RejectedByUnsupportedRegion]:\"u().ce26fa44\",[k.P.RejectedNotSufficientFunds]:\"u().d8240266\",[k.P.RejectedCardPaymentsDisabled]:\"u().j4b80adc\",[k.P.UnrecognizedActivityConfirmed]:\"u().ga8ab57c\",[k.P.UnrecognizedActivityRejected]:\"u().c78accc4\",[k.P.RejectedCardInactive]:\"u().bd525d4a\",[k.P.FailedOfacCheck]:\"u().eb5616da\",[k.P.IncorrectCardPin]:\"u().a41cd76e\"}",
   "{[v.g.PendingRecipientAcceptance]:\"L\",[v.g.PendingRecipientOnboarding]:\"L\",[v.g.PendingRecipientAction]:\"L\"}",
@@ -759,26 +622,6 @@
   {
     "apple": "https://apps.apple.com/account/billing",
     "google": "https://play.google.com/store/account/subscriptions?sku=com.twitter.google.rogue.one.1.1&package=com.twitter.android"
-  },
-  {
-    "HUMAN": "1",
-    "ASSISTANT": "2"
-  },
-  {
-    "Badge": "Badge",
-    "Inline": "Inline"
-  },
-  {
-    "AutomatedLabel": "AutomatedLabel",
-    "BusinessLabel": "BusinessLabel",
-    "ElectionsLabel": "ElectionsLabel",
-    "GenericBadgeLabel": "GenericBadgeLabel",
-    "GenericInfoLabel": "GenericInfoLabel",
-    "OfficialLabel": "OfficialLabel",
-    "Reserved4": "Reserved4",
-    "Reserved5": "Reserved5",
-    "Reserved6": "Reserved6",
-    "Reserved7": "Reserved7"
   },
   {
     "__proto__": "null",
@@ -848,10 +691,6 @@
     "unit": "null"
   },
   "{\"minimumRadius\":\"0\",\"maximumRadius\":1/0,\"minimumPolarAngle\":Math.PI/8,\"maximumPolarAngle\":Math.PI-Math.PI/8,\"minimumAzimuthalAngle\":-1/0,\"maximumAzimuthalAngle\":1/0,\"minimumFieldOfView\":\"10\",\"maximumFieldOfView\":\"45\",\"interactionPolicy\":\"always-allow\",\"touchAction\":\"pan-y\"}",
-  {
-    "HUMAN": "1",
-    "ASSISTANT": "2"
-  },
   {
     "LIVE_BROADCAST": "liveBroadcast",
     "REPLAY_BROADCAST": "replayBroadcast",
