@@ -5552,6 +5552,9 @@
         "responsive_web_grok_imagine_annotation_enabled": {
           "value": "true"
         },
+        "responsive_web_grok_imagine_in_composer_enabled": {
+          "value": "false"
+        },
         "responsive_web_grok_img_composer": {
           "value": "true"
         },
@@ -5958,7 +5961,7 @@
           "value": "true"
         },
         "responsive_web_send_jetfuel_preview_image_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "responsive_web_share_only_tweet_url_omit_title_and_text": {
           "value": "true"
@@ -7559,7 +7562,7 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "baf69a08345fa7a77e099a975cd9bf6f"
+      "settingsVersion": "db30128c6f07b72b5084d953f062ed5f"
     },
     "debug": {},
     "featureSetToken": "707141d0a893c7b0df760ed1285b3ca34122e91a",
@@ -7631,7 +7634,7 @@
   },
   "session": {
     "country": "XX",
-    "guestId": "175667457219998222",
+    "guestId": "175676097797986610",
     "hasCommunityMemberships": "false",
     "isActiveCreator": "false",
     "isLoaded": "false",

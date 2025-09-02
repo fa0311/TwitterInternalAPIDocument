@@ -5824,3 +5824,14 @@
 - responsive_web_grok_weather_card_enabled<br>
 - responsive_web_grok_webview_file_upload_enabled<br>
 - responsive_web_grok_xai_icon<br>
+## 2025/09/01<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- responsive_web_grok_imagine_in_composer_enabled<br>
+#### remove<br>
+- None<br>
