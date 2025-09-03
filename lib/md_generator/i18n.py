@@ -85,11 +85,11 @@ def replace_ver(script):
         e,
     )
     output = re.sub(
-        "{reg}{any}{reg}\+(?={reg})".format(
+        "('{any}'|\"{any}\")\+(?={reg})".format(
             reg="(\"|')",
             any="([\s\S]*?)",
         ),
-        r"\1\2\3,",
+        r"\1,",
         d,
     )
     output = f"[{output}]"
