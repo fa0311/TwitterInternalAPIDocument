@@ -1,27 +1,10 @@
 # Twitter Internal Constants Document<br>
 This document is entirely auto-generated and may contain errors.<br>
-| constant   | value   |
-|:-----------|:--------|
-| small      | small   |
-| medium     | medium  |
-
-| constant   | value                      |
-|:-----------|:---------------------------|
-| primary    | {'aria-live': 'polite'}    |
-| exclusive  | {'aria-live': 'polite'}    |
-| danger     | {'aria-live': 'assertive'} |
-| success    | {'aria-live': 'polite'}    |
-| warning    | {'aria-live': 'polite'}    |
-
 | constant    | value        |
 |:------------|:-------------|
-| TopicFilled | TOPIC_FILLED |
-
-| constant   | value   |
-|:-----------|:--------|
-| Active     | active  |
-| Expand     | expand  |
-| Remove     | remove  |
+| joinSpace   | s().h400d7c2 |
+| replaySpace | s().g66c8348 |
+| comingUp    | s().be6ef5b4 |
 
 | constant               |   value |
 |:-----------------------|--------:|
@@ -71,26 +54,25 @@ This document is entirely auto-generated and may contain errors.<br>
 | JanusPollerResponseEnumUnknown                      | JanusPollerResponseEnumUnknown                      |
 | JanusPollerResponseEnumError                        | JanusPollerResponseEnumError                        |
 
+| constant      | value         |
+|:--------------|:--------------|
+| single_line   | singleline    |
+| format_inline | format-inline |
+
+```internal process
+# Error
+{"ActionsBar":"C.Z","ActionMenu":"function()"{"Icon":"e","isDisabled":"t","items":"n","onOpen":"o"}{"const i=r.useCallback()"{"items":"n","onCloseRequested":"e"}{"Icon":"e","isDisabled":"t","onClick":"o","renderActionMenu":"i"}},"CallToAction":"a.ZP","EditCallout":"E.Z","Education":"k.Z","Highlighte...
+```
 | constant    | value       |
 |:------------|:------------|
 | Draft       | Draft       |
 | Published   | Published   |
 | SoftDeleted | SoftDeleted |
 
-| constant   |   value |
-|:-----------|--------:|
-| HUMAN      |       1 |
-| ASSISTANT  |       2 |
-
 | constant     | value             |
 |:-------------|:------------------|
 | navButtons   | navigationButtons |
 | carouselRoot | carouselRoot      |
-
-| constant   |   value |
-|:-----------|--------:|
-| HUMAN      |       1 |
-| ASSISTANT  |       2 |
 
 | constant         | value           |
 |:-----------------|:----------------|
@@ -118,13 +100,6 @@ This document is entirely auto-generated and may contain errors.<br>
 # Error
 {[r.wide]:"500",[r.narrow]:"300",[r.veryNarrow]:"200"}
 ```
-| constant   |   value |
-|:-----------|--------:|
-| large      |      54 |
-| medium     |      46 |
-| small      |      36 |
-| xSmall     |      12 |
-
 ```internal process
 # Error
 {"__proto__":"null","formatCaption":"function()"{"return()(0,a.WU)"},"formatDay":"function()"{"return()(0,a.WU)"},"formatMonthCaption":"function()"{"return()(0,a.WU)"},"formatWeekNumber":"function()"{return"".concat()},"formatWeekdayName":"function()"{"return()(0,a.WU)"},"formatYearCaption":"functio...
@@ -133,110 +108,10 @@ This document is entirely auto-generated and may contain errors.<br>
 # Error
 {"__proto__":"null","labelDay":"function()"{"return()(0,a.WU)"},"labelMonthDropdown":"function()"{return"Month: "},"labelNext":"function()"{return"Go to next month"},"labelPrevious":"function()"{return"Go to previous month"},"labelWeekNumber":"function()"{return"Week n. ".concat()},"labelWeekday":"f...
 ```
-| constant                | value                   |
-|:------------------------|:------------------------|
-| AutoSpamDetectorEnabled | AutoSpamDetectorEnabled |
-| BanQuotePostEnabled     | BanQuotePostEnabled     |
-| BanSelfQuotePostEnabled | BanSelfQuotePostEnabled |
-| HideUntilReviewEnabled  | HideUntilReviewEnabled  |
-
-| constant       | value          |
-|:---------------|:---------------|
-| BannedKeywords | BannedKeywords |
-
-| constant                                       | value                                          |
-|:-----------------------------------------------|:-----------------------------------------------|
-| Open                                           | Open                                           |
-| RestrictedJoinRequestsDisabled                 | RestrictedJoinRequestsDisabled                 |
-| RestrictedJoinRequestsRequireAdminApproval     | RestrictedJoinRequestsRequireAdminApproval     |
-| RestrictedJoinRequestsRequireModeratorApproval | RestrictedJoinRequestsRequireModeratorApproval |
-| SuperFollowRequired                            | SuperFollowRequired                            |
-
-| constant                    | value                       |
-|:----------------------------|:----------------------------|
-| ChatStarted                 | ChatStarted                 |
-| CreationEnabledPut          | CreationEnabledPut          |
-| JoinRequestApproved         | JoinRequestApproved         |
-| MemberAdded                 | MemberAdded                 |
-| MemberLeftViaModeratorBlock | MemberLeftViaModeratorBlock |
-| MemberRemoved               | MemberRemoved               |
-| MemberRemovedRevert         | MemberRemovedRevert         |
-| PinnedTweet                 | PinnedTweet                 |
-| SpaceStarted                | SpaceStarted                |
-| TweetHidden                 | TweetHidden                 |
-| TweetHiddenRevert           | TweetHiddenRevert           |
-| TweetReported               | TweetReported               |
-| UserInvited                 | UserInvited                 |
-
 ```internal process
 # Error
 {"₊":"+","₋":"-","₌":"=","₍":"()","₀":"0","₁":"1","₂":"2","₃":"3","₄":"4","₅":"5","₆":"6","₇":"7","₈":"8","₉":"9",ₐ:"a",ₑ:"e",ₕ:"h",ᵢ:"i",ⱼ:"j",ₖ:"k",ₗ:"l",ₘ:"m",ₙ:"n",ₒ:"o",ₚ:"p",ᵣ:"r",ₛ:"s",ₜ:"t",ᵤ:"u",ᵥ:"v",ₓ:"x",ᵦ:"β",ᵧ:"γ",ᵨ:"ρ",ᵩ:"ϕ",ᵪ:"χ","⁺":"+","⁻":"-","⁼":"=","⁽":"(\",\"₎\":\")","⁰":"0","¹...
 ```
-| constant          | value              |
-|:------------------|:-------------------|
-| Intro             | intro              |
-| Objective         | objective          |
-| Targeting         | targeting          |
-| TargetingLocation | targeting_location |
-| TargetingGender   | targeting_gender   |
-| TargetingKeywords | targeting_keywords |
-| BudgetSelect      | budget_select      |
-| Review            | review             |
-| Payment           | payment            |
-| Done              | done               |
-| PaymentSelect     | payment_select     |
-
-| constant   | value             |
-|:-----------|:------------------|
-| Webview    | quick_promote     |
-| Rweb       | quick_promote_web |
-
-| constant     |   value |
-|:-------------|--------:|
-| Objective    |     0.2 |
-| Targeting    |     0.4 |
-| BudgetSelect |     0.6 |
-| Review       |     0.8 |
-| Finish       |     1   |
-
-| constant            | value               |
-|:--------------------|:--------------------|
-| CurrentCountryMatch | currentCountryMatch |
-| Match               | match               |
-| NoMatch             | noMatch             |
-
-| constant   | value                                                    |
-|:-----------|:---------------------------------------------------------|
-| AU         | ()(0,c.ju)                                               |
-| BR         | ("https://legal.x.com/ads-terms/apac.html")(0,c.ju)      |
-| GB         | ("https://legal.x.com/ads-terms/brazil.html")(0,c.ju)    |
-| ID         | ("https://legal.x.com/ads-terms/uk.html")(0,c.ju)        |
-| JP         | ("https://legal.x.com/ads-terms/indonesia.html")(0,c.ju) |
-| NZ         | ("https://legal.x.com/ads-terms/japan.html")(0,c.ju)     |
-| US         | ("https://legal.x.com/ads-terms/apac.html")(0,c.ju)      |
-
-| constant   | value                                                                                      |
-|:-----------|:-------------------------------------------------------------------------------------------|
-| en         | ()(0,c.ju)                                                                                 |
-| de         | ("https://business.x.com/en/campaign/quick-promote-conditional-coupon-terms.html")(0,c.ju) |
-| es         | ("https://business.x.com/de/campaign/quick-promote-conditional-coupon-terms.html")(0,c.ju) |
-| fr         | ("https://business.x.com/es/campaign/quick-promote-conditional-coupon-terms.html")(0,c.ju) |
-| ja         | ("https://business.x.com/fr/campaign/quick-promote-conditional-coupon-terms.html")(0,c.ju) |
-| pt         | ("https://business.x.com/ja/campaign/quick-promote-conditional-coupon-terms.html")(0,c.ju) |
-| ar         | ("https://business.x.com/pt/campaign/quick-promote-conditional-coupon-terms.html")(0,c.ju) |
-| zh-cn      | ("https://business.x.com/ar/campaign/quick-promote-conditional-coupon-terms.html")(0,c.ju) |
-
-| constant   | value                                                                          |
-|:-----------|:-------------------------------------------------------------------------------|
-| en         | ()(0,c.ju)                                                                     |
-| de         | ("https://business.x.com/en/campaign/quick-promote-coupon-terms.html")(0,c.ju) |
-| es         | ("https://business.x.com/de/campaign/quick-promote-coupon-terms.html")(0,c.ju) |
-| fr         | ("https://business.x.com/es/campaign/quick-promote-coupon-terms.html")(0,c.ju) |
-| ja         | ("https://business.x.com/fr/campaign/quick-promote-coupon-terms.html")(0,c.ju) |
-| pt         | ("https://business.x.com/ja/campaign/quick-promote-coupon-terms.html")(0,c.ju) |
-| ar         | ("https://business.x.com/pt/campaign/quick-promote-coupon-terms.html")(0,c.ju) |
-| zh-cn      | ("https://business.x.com/ar/campaign/quick-promote-coupon-terms.html")(0,c.ju) |
-
 | constant                          | value   |
 |:----------------------------------|:--------|
 | __proto__                         | null    |
@@ -279,26 +154,6 @@ This document is entirely auto-generated and may contain errors.<br>
 | shimRTCIceCandidateRelayProtocol     | Zn      |
 | shimSendThrowTypeError               | es      |
 
-| constant   | value   |
-|:-----------|:--------|
-| START      | start   |
-| LOADING    | loading |
-| SENT       | sent    |
-
-```internal process
-# Error
-{[E.pl.AUTHENTICITY_TYPE_SELECT]:"()"{"notabilityCategory":"e","notabilitySubcategory":"t","userEmail":"i"}{"type":"radio","props":{"description":"N().description","getNextFormStep":e=>{"switch()"{"case E.L_.IDENTITY_DOCUMENT":return E.pl.INTAKE_TYPE_SELECT;case E.L_.EMAIL:return E.pl.EMAIL_VERIFICA...
-```
-```internal process
-# Error
-{[E.pl.NOTABILITY_CATEGORY_SELECT]:"()"{"followersEligible":"e=!1","mentionsEligible":"t=!1"}{"type":"radio","props":{"description":"o.$c.description","getNextFormStep":e=>{"switch()"{"case E.eV.ACTIVISM":return E.pl.ACTIVIST_SUBCATEGORY;case E.eV.INFLUENCER_OTHER:return E.pl.INFLUENCER_SUBCATEGORY;...
-```
-| constant   | value   |
-|:-----------|:--------|
-| ...T       | _       |
-| ...n       | _       |
-| ...l.k     | _       |
-
 | constant   | value     |
 |:-----------|:----------|
 | AppStore   | AppStore  |
@@ -310,11 +165,6 @@ This document is entirely auto-generated and may contain errors.<br>
 |:------------|:------------|
 | InitialSale | InitialSale |
 | Renewal     | Renewal     |
-
-| constant   |   value |
-|:-----------|--------:|
-| HUMAN      |       1 |
-| ASSISTANT  |       2 |
 
 | constant   | value    |
 |:-----------|:---------|
@@ -329,9 +179,9 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant   | value        |
 |:-----------|:-------------|
-| preMarket  | g().a50aaa10 |
-| today      | g().g02dacc0 |
-| afterHours | g().dd614d10 |
+| preMarket  | h().a50aaa10 |
+| today      | h().g02dacc0 |
+| afterHours | h().dd614d10 |
 
 | constant                   | value   |
 |:---------------------------|:--------|
@@ -344,9 +194,9 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant   | value                                        |
 |:-----------|:---------------------------------------------|
-| OVERVIEW   | {'id': 'OVERVIEW', 'label': 'a().d59dbf8a'}  |
-| MATCHES    | {'id': 'GAMES', 'label': 'a().e2811afc'}     |
-| STANDINGS  | {'id': 'STANDINGS', 'label': 'a().j081fa34'} |
+| OVERVIEW   | {'id': 'OVERVIEW', 'label': 'r().d59dbf8a'}  |
+| MATCHES    | {'id': 'GAMES', 'label': 'r().e2811afc'}     |
+| STANDINGS  | {'id': 'STANDINGS', 'label': 'r().j081fa34'} |
 
 | constant     | value        |
 |:-------------|:-------------|
@@ -574,11 +424,12 @@ This document is entirely auto-generated and may contain errors.<br>
 | Info       | Info    |
 | Warning    | Warning |
 
-| constant   | value     |
-|:-----------|:----------|
-| Geography  | Geography |
-| Interest   | Interest  |
-| Premium    | Premium   |
+| constant            | value               |
+|:--------------------|:--------------------|
+| Geography           | Geography           |
+| Interest            | Interest            |
+| Premium             | Premium             |
+| PublicKeyCredential | PublicKeyCredential |
 
 | constant                     | value                        |
 |:-----------------------------|:-----------------------------|
@@ -819,15 +670,15 @@ This document is entirely auto-generated and may contain errors.<br>
 ```
 ```internal process
 # Error
-{[b.S.Alert]:"p.default",[b.S.Info]:"u.default",[b.S.Warning]:"p.default"}
+{[b.S.Alert]:"u.default",[b.S.Info]:"p.default",[b.S.Warning]:"u.default"}
 ```
 ```internal process
 # Error
-{[d.jq.WIRE_TRANSFER]:"i().gd0092d0",[d.jq.ACCOUNT_LINKING]:"i().h21d2206",[d.jq.DEPOSIT]:"i().f00e8268",[d.jq.P2P_TRANSFER_REQUEST]:"i().e3f45a70",[d.jq.P2P_TRANSFER_SEND]:"i().e3f45a70",[d.jq.P2P_TRANSFER_SEND_FUNDED]:"i().f00e8268",[d.jq.WITHDRAWAL]:"i().e04209d0",[d.jq.MAIL_CHECK]:"i().d92cbe6a"...
+{[m.jq.WIRE_TRANSFER]:"l().gd0092d0",[m.jq.ACCOUNT_LINKING]:"l().h21d2206",[m.jq.DEPOSIT]:"l().f00e8268",[m.jq.P2P_TRANSFER_REQUEST]:"l().e3f45a70",[m.jq.P2P_TRANSFER_SEND]:"l().e3f45a70",[m.jq.P2P_TRANSFER_SEND_FUNDED]:"l().f00e8268",[m.jq.WITHDRAWAL]:"l().e04209d0",[m.jq.MAIL_CHECK]:"l().d92cbe6a"...
 ```
 ```internal process
 # Error
-{"InsufficientFunds":{"headline":"i().f66c509a","message":"i().f9e0e6a2","action":{"link":"s.IN","label":"i().a4ef9cbe"}},"InvalidReceiver":{"getHeadline":"()"{"actionType":"e"}{"issueReportEnabled":"!0","description":"Encountered an error while making a request."}},"InvalidReceiverCurrentState":{"g...
+{"InsufficientFunds":{"headline":"l().f66c509a","message":"l().f9e0e6a2","action":{"link":"o.IN","label":"l().a4ef9cbe"}},"InvalidReceiver":{"getHeadline":"()"{"actionType":"e"}{"issueReportEnabled":"!0","description":"Encountered an error while making a request."}},"InvalidReceiverCurrentState":{"g...
 ```
 ```internal process
 # Error
@@ -889,29 +740,6 @@ This document is entirely auto-generated and may contain errors.<br>
 |:-----------|:---------------------------------------------------------------------------------------------------------------------|
 | apple      | https://apps.apple.com/account/billing                                                                               |
 | google     | https://play.google.com/store/account/subscriptions?sku=com.twitter.google.rogue.one.1.1&package=com.twitter.android |
-
-| constant   |   value |
-|:-----------|--------:|
-| HUMAN      |       1 |
-| ASSISTANT  |       2 |
-
-| constant   | value   |
-|:-----------|:--------|
-| Badge      | Badge   |
-| Inline     | Inline  |
-
-| constant          | value             |
-|:------------------|:------------------|
-| AutomatedLabel    | AutomatedLabel    |
-| BusinessLabel     | BusinessLabel     |
-| ElectionsLabel    | ElectionsLabel    |
-| GenericBadgeLabel | GenericBadgeLabel |
-| GenericInfoLabel  | GenericInfoLabel  |
-| OfficialLabel     | OfficialLabel     |
-| Reserved4         | Reserved4         |
-| Reserved5         | Reserved5         |
-| Reserved6         | Reserved6         |
-| Reserved7         | Reserved7         |
 
 | constant           | value   |
 |:-------------------|:--------|
@@ -1005,11 +833,6 @@ This document is entirely auto-generated and may contain errors.<br>
 # Error
 {"minimumRadius":"0","maximumRadius":1/0,"minimumPolarAngle":Math.PI/8,"maximumPolarAngle":Math.PI-Math.PI/8,"minimumAzimuthalAngle":-1/0,"maximumAzimuthalAngle":1/0,"minimumFieldOfView":"10","maximumFieldOfView":"45","interactionPolicy":"always-allow","touchAction":"pan-y"}
 ```
-| constant   |   value |
-|:-----------|--------:|
-| HUMAN      |       1 |
-| ASSISTANT  |       2 |
-
 | constant         | value           |
 |:-----------------|:----------------|
 | LIVE_BROADCAST   | liveBroadcast   |
