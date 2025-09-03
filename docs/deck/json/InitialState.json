@@ -7365,7 +7365,7 @@
           "value": "false"
         },
         "unified_cards_dpa_hide_vanity": {
-          "value": "false"
+          "value": "true"
         },
         "unified_cards_dpa_metadata_enabled": {
           "value": "true"
@@ -7571,7 +7571,7 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "8bb70c3946225ae951c5a890d1d14e74"
+      "settingsVersion": "ce324814ad62e42541147af434e2bb56"
     },
     "debug": {},
     "featureSetToken": "0e63528f0ed8f4828a34663a153d6b75948e19ad",
@@ -7643,7 +7643,7 @@
   },
   "session": {
     "country": "XX",
-    "guestId": "175684743451129538",
+    "guestId": "175693378738376623",
     "hasCommunityMemberships": "false",
     "isActiveCreator": "false",
     "isLoaded": "false",
