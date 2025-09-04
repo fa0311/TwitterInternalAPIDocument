@@ -6891,3 +6891,15 @@
 - responsive_web_tweet_details_prefetch_enabled<br>
 #### remove<br>
 - None<br>
+## 2025/09/04<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- payments_passkey_onboarding_enabled<br>
+- responsive_web_cookie_compliance_banner_update_enabled<br>
+#### remove<br>
+- None<br>
