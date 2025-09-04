@@ -1225,6 +1225,9 @@
       "payments_interest_enabled": {
         "value": "false"
       },
+      "payments_passkey_onboarding_enabled": {
+        "value": "false"
+      },
       "payments_pin_enabled": {
         "value": "false"
       },
@@ -1589,6 +1592,9 @@
         "value": []
       },
       "responsive_web_cookie_compliance_banner_enabled": {
+        "value": "false"
+      },
+      "responsive_web_cookie_compliance_banner_update_enabled": {
         "value": "false"
       },
       "responsive_web_cookie_compliance_gingersnap_enabled": {
@@ -3632,7 +3638,7 @@
         "value": "false"
       },
       "unified_cards_dpa_hide_vanity": {
-        "value": "false"
+        "value": "true"
       },
       "unified_cards_dpa_metadata_enabled": {
         "value": "true"
@@ -4958,6 +4964,9 @@
         "payments_interest_enabled": {
           "value": "false"
         },
+        "payments_passkey_onboarding_enabled": {
+          "value": "false"
+        },
         "payments_pin_enabled": {
           "value": "false"
         },
@@ -5322,6 +5331,9 @@
           "value": []
         },
         "responsive_web_cookie_compliance_banner_enabled": {
+          "value": "false"
+        },
+        "responsive_web_cookie_compliance_banner_update_enabled": {
           "value": "false"
         },
         "responsive_web_cookie_compliance_gingersnap_enabled": {
@@ -6420,7 +6432,7 @@
           "value": "false"
         },
         "rweb_xchat_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "rweb_xchat_logs": {
           "value": "false"
@@ -6429,7 +6441,7 @@
           "value": "false"
         },
         "rweb_xchat_old_dms_inbox_item": {
-          "value": "false"
+          "value": "true"
         },
         "rweb_xp_forwarded_for_enabled": {
           "value": "true"
@@ -7490,7 +7502,7 @@
           "value": "false"
         },
         "xchat_enable_onboarding_flow": {
-          "value": "false"
+          "value": "true"
         },
         "xchat_enable_show_more_button": {
           "value": "true"
@@ -7571,10 +7583,10 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "ce324814ad62e42541147af434e2bb56"
+      "settingsVersion": "142d0bbc600f0141a0d21f45f88faf48"
     },
     "debug": {},
-    "featureSetToken": "0e63528f0ed8f4828a34663a153d6b75948e19ad",
+    "featureSetToken": "b3531b290a93c94559f2f8edc30d8b9404635a39",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -7643,7 +7655,7 @@
   },
   "session": {
     "country": "XX",
-    "guestId": "175693331181044467",
+    "guestId": "175701972097287112",
     "hasCommunityMemberships": "false",
     "isActiveCreator": "false",
     "isLoaded": "false",
