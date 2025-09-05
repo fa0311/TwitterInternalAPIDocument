@@ -6,54 +6,6 @@ This document is entirely auto-generated and may contain errors.<br>
 | replaySpace | s().g66c8348 |
 | comingUp    | s().be6ef5b4 |
 
-| constant               |   value |
-|:-----------------------|--------:|
-| RequestSubmitted       |       1 |
-| RequestCancelled       |       2 |
-| RequestRejected        |       3 |
-| RequestApproved        |       4 |
-| InvitationSent         |       5 |
-| InvitationWithdrawn    |       6 |
-| InvitationDeclined     |       7 |
-| InvitationAccepted     |       8 |
-| StreamNegotiated       |       9 |
-| StreamPublished        |      10 |
-| StreamEjected          |      11 |
-| StreamEnded            |      12 |
-| StreamTimedOut         |      13 |
-| SessionTerminated      |      14 |
-| StreamCountdown        |      15 |
-| AdminStreamPublished   |      16 |
-| HostStreamPublished    |      17 |
-| HostStreamReconnecting |      18 |
-
-| constant                                            | value                                               |
-|:----------------------------------------------------|:----------------------------------------------------|
-| JanusPollerResponseEnumWebRtcUp                     | JanusPollerResponseEnumWebRtcUp                     |
-| JanusPollerResponseEnumMediaVideo                   | JanusPollerResponseEnumMediaVideo                   |
-| JanusPollerResponseEnumMediaAudio                   | JanusPollerResponseEnumMediaAudio                   |
-| JanusPollerResponseEnumJanusSlowLink                | JanusPollerResponseEnumJanusSlowLink                |
-| JanusPollerResponseEnumKeepAlive                    | JanusPollerResponseEnumKeepAlive                    |
-| JanusPollerResponseEnumHangup                       | JanusPollerResponseEnumHangup                       |
-| JanusPollerResponseEnumDetached                     | JanusPollerResponseEnumDetached                     |
-| JanusPollerResponseEnumVideoRoomDestroyed           | JanusPollerResponseEnumVideoRoomDestroyed           |
-| JanusPollerResponseEnumEventPublishersList          | JanusPollerResponseEnumEventPublishersList          |
-| JanusPollerResponseEnumUpdated                      | JanusPollerResponseEnumUpdated                      |
-| JanusPollerResponseEnumEventUnpublished             | JanusPollerResponseEnumEventUnpublished             |
-| JanusPollerResponseEnumEventLoggedInUserUnpublished | JanusPollerResponseEnumEventLoggedInUserUnpublished |
-| JanusPollerResponseEnumEventKicked                  | JanusPollerResponseEnumEventKicked                  |
-| JanusPollerResponseEnumEventLoggedInUserLeaving     | JanusPollerResponseEnumEventLoggedInUserLeaving     |
-| JanusPollerResponseEnumEventLeaving                 | JanusPollerResponseEnumEventLeaving                 |
-| JanusPollerResponseEnumVideoRoomSlowLink            | JanusPollerResponseEnumVideoRoomSlowLink            |
-| JanusPollerResponseEnumEventJoined                  | JanusPollerResponseEnumEventJoined                  |
-| JanusPollerResponseEnumEventConfigured              | JanusPollerResponseEnumEventConfigured              |
-| JanusPollerResponseEnumEventListenerAttached        | JanusPollerResponseEnumEventListenerAttached        |
-| JanusPollerResponseEnumEventStarted                 | JanusPollerResponseEnumEventStarted                 |
-| JanusPollerResponseEnumEventLeft                    | JanusPollerResponseEnumEventLeft                    |
-| JanusPollerResponseParseError                       | JanusPollerResponseParseError                       |
-| JanusPollerResponseEnumUnknown                      | JanusPollerResponseEnumUnknown                      |
-| JanusPollerResponseEnumError                        | JanusPollerResponseEnumError                        |
-
 | constant      | value         |
 |:--------------|:--------------|
 | single_line   | singleline    |
@@ -666,19 +618,27 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{[b.S.Alert]:"danger",[b.S.Info]:"primary",[b.S.Warning]:"warning"}
+{[w.S.Alert]:"danger",[w.S.Info]:"primary",[w.S.Warning]:"warning"}
 ```
 ```internal process
 # Error
-{[b.S.Alert]:"u.default",[b.S.Info]:"p.default",[b.S.Warning]:"u.default"}
+{[w.S.Alert]:"b.default",[w.S.Info]:"Z.default",[w.S.Warning]:"b.default"}
+```
+| constant   | value    |
+|:-----------|:---------|
+| small      | small    |
+| xLarge     | xLarge   |
+| xxLarge    | xxLarge  |
+| xxxLarge   | xxxLarge |
+| xJumbo     | xJumbo   |
+
+```internal process
+# Error
+{[m.jq.WIRE_TRANSFER]:"i().gd0092d0",[m.jq.ACCOUNT_LINKING]:"i().h21d2206",[m.jq.DEPOSIT]:"i().f00e8268",[m.jq.P2P_TRANSFER_REQUEST]:"i().e3f45a70",[m.jq.P2P_TRANSFER_SEND]:"i().e3f45a70",[m.jq.P2P_TRANSFER_SEND_FUNDED]:"i().f00e8268",[m.jq.WITHDRAWAL]:"i().e04209d0",[m.jq.MAIL_CHECK]:"i().d92cbe6a"...
 ```
 ```internal process
 # Error
-{[m.jq.WIRE_TRANSFER]:"l().gd0092d0",[m.jq.ACCOUNT_LINKING]:"l().h21d2206",[m.jq.DEPOSIT]:"l().f00e8268",[m.jq.P2P_TRANSFER_REQUEST]:"l().e3f45a70",[m.jq.P2P_TRANSFER_SEND]:"l().e3f45a70",[m.jq.P2P_TRANSFER_SEND_FUNDED]:"l().f00e8268",[m.jq.WITHDRAWAL]:"l().e04209d0",[m.jq.MAIL_CHECK]:"l().d92cbe6a"...
-```
-```internal process
-# Error
-{"InsufficientFunds":{"headline":"l().f66c509a","message":"l().f9e0e6a2","action":{"link":"o.IN","label":"l().a4ef9cbe"}},"InvalidReceiver":{"getHeadline":"()"{"actionType":"e"}{"issueReportEnabled":"!0","description":"Encountered an error while making a request."}},"InvalidReceiverCurrentState":{"g...
+{"InsufficientFunds":{"headline":"i().f66c509a","message":"i().f9e0e6a2","action":{"link":"s.IN","label":"i().a4ef9cbe"}},"InvalidReceiver":{"getHeadline":"()"{"actionType":"e"}{"issueReportEnabled":"!0","description":"Encountered an error while making a request."}},"InvalidReceiverCurrentState":{"g...
 ```
 ```internal process
 # Error
@@ -690,11 +650,11 @@ This document is entirely auto-generated and may contain errors.<br>
 ```
 ```internal process
 # Error
-{[v.g.PendingRecipientAcceptance]:"L",[v.g.PendingRecipientOnboarding]:"L",[v.g.PendingRecipientAction]:"L"}
+{[v.g.PendingRecipientAcceptance]:"H",[v.g.PendingRecipientOnboarding]:"H",[v.g.PendingRecipientAction]:"H"}
 ```
 ```internal process
 # Error
-{[v.g.AwaitingRequestAcceptance]:"L",[v.g.PendingRequestAcceptance]:"L",[v.g.RequestVerificationRequired]:"L"}
+{[v.g.AwaitingRequestAcceptance]:"H",[v.g.PendingRequestAcceptance]:"H",[v.g.RequestVerificationRequired]:"H"}
 ```
 ```internal process
 # Error
@@ -714,7 +674,7 @@ This document is entirely auto-generated and may contain errors.<br>
 ```
 ```internal process
 # Error
-{[x.D.LoginRequired]:"u().d87f82b4",[x.D.Invalid]:"u().iaad96d0",[x.D.Pending]:"Pe",[x.D.Revoked]:"u().i31b3ed4",[x.D.Canceled]:"u().a89b0322",[x.D.Inactive]:"u().ac43b354"}
+{[C.D.LoginRequired]:"u().d87f82b4",[C.D.Invalid]:"u().iaad96d0",[C.D.Pending]:"Pe",[C.D.Revoked]:"u().i31b3ed4",[C.D.Canceled]:"u().a89b0322",[C.D.Inactive]:"u().ac43b354"}
 ```
 ```internal process
 # Error
@@ -736,6 +696,10 @@ This document is entirely auto-generated and may contain errors.<br>
 |:-----------|:----------|
 | Affiliate  | Affiliate |
 
+```internal process
+# Error
+{[k.hA.generate]:"v().fc1f43d0",[k.hA.switchFromDirect]:"v().fc1f43d0",[k.hA.updateSeats]:"v().c97ad52a"}
+```
 | constant   | value                                                                                                                |
 |:-----------|:---------------------------------------------------------------------------------------------------------------------|
 | apple      | https://apps.apple.com/account/billing                                                                               |

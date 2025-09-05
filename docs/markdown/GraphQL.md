@@ -98,7 +98,7 @@ Login Required: `...`<br>
 |:------------------------------------------------------------------------|:--------|:-----------|
 | rweb_video_screen_enabled                                               | boolean | False      |
 | payments_enabled                                                        | boolean | False      |
-| rweb_xchat_enabled                                                      | boolean | False      |
+| rweb_xchat_enabled                                                      | boolean | True       |
 | profile_label_improvements_pcf_label_in_post_enabled                    | boolean | True       |
 | rweb_tipjar_consumption_enabled                                         | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -146,7 +146,7 @@ Login Required: `...`<br>
 |:------------------------------------------------------------------------|:--------|:-----------|
 | rweb_video_screen_enabled                                               | boolean | False      |
 | payments_enabled                                                        | boolean | False      |
-| rweb_xchat_enabled                                                      | boolean | False      |
+| rweb_xchat_enabled                                                      | boolean | True       |
 | profile_label_improvements_pcf_label_in_post_enabled                    | boolean | True       |
 | rweb_tipjar_consumption_enabled                                         | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -194,7 +194,7 @@ Login Required: `...`<br>
 |:------------------------------------------------------------------------|:--------|:-----------|
 | rweb_video_screen_enabled                                               | boolean | False      |
 | payments_enabled                                                        | boolean | False      |
-| rweb_xchat_enabled                                                      | boolean | False      |
+| rweb_xchat_enabled                                                      | boolean | True       |
 | profile_label_improvements_pcf_label_in_post_enabled                    | boolean | True       |
 | rweb_tipjar_consumption_enabled                                         | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -242,7 +242,7 @@ Login Required: `...`<br>
 |:------------------------------------------------------------------------|:--------|:-----------|
 | rweb_video_screen_enabled                                               | boolean | False      |
 | payments_enabled                                                        | boolean | False      |
-| rweb_xchat_enabled                                                      | boolean | False      |
+| rweb_xchat_enabled                                                      | boolean | True       |
 | profile_label_improvements_pcf_label_in_post_enabled                    | boolean | True       |
 | rweb_tipjar_consumption_enabled                                         | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -298,7 +298,7 @@ Login Required: `...`<br>
 | responsive_web_grok_share_attachment_enabled                            | boolean | True       |
 | articles_preview_enabled                                                | boolean | True       |
 | payments_enabled                                                        | boolean | False      |
-| rweb_xchat_enabled                                                      | boolean | False      |
+| rweb_xchat_enabled                                                      | boolean | True       |
 | profile_label_improvements_pcf_label_in_post_enabled                    | boolean | True       |
 | rweb_tipjar_consumption_enabled                                         | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -365,7 +365,7 @@ Login Required: `...`<br>
 |:------------------------------------------------------------------------|:--------|:-----------|
 | rweb_video_screen_enabled                                               | boolean | False      |
 | payments_enabled                                                        | boolean | False      |
-| rweb_xchat_enabled                                                      | boolean | False      |
+| rweb_xchat_enabled                                                      | boolean | True       |
 | profile_label_improvements_pcf_label_in_post_enabled                    | boolean | True       |
 | rweb_tipjar_consumption_enabled                                         | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -474,7 +474,7 @@ Login Required: `...`<br>
 | longform_notetweets_rich_text_read_enabled                              | boolean | True       |
 | longform_notetweets_inline_media_enabled                                | boolean | True       |
 | payments_enabled                                                        | boolean | False      |
-| rweb_xchat_enabled                                                      | boolean | False      |
+| rweb_xchat_enabled                                                      | boolean | True       |
 | profile_label_improvements_pcf_label_in_post_enabled                    | boolean | True       |
 | rweb_tipjar_consumption_enabled                                         | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -531,7 +531,7 @@ Login Required: `...`<br>
 | longform_notetweets_rich_text_read_enabled                              | boolean | True       |
 | longform_notetweets_inline_media_enabled                                | boolean | True       |
 | payments_enabled                                                        | boolean | False      |
-| rweb_xchat_enabled                                                      | boolean | False      |
+| rweb_xchat_enabled                                                      | boolean | True       |
 | profile_label_improvements_pcf_label_in_post_enabled                    | boolean | True       |
 | rweb_tipjar_consumption_enabled                                         | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -560,7 +560,7 @@ Login Required: `...`<br>
 |:------------------------------------------------------------------------|:--------|:-----------|
 | rweb_video_screen_enabled                                               | boolean | False      |
 | payments_enabled                                                        | boolean | False      |
-| rweb_xchat_enabled                                                      | boolean | False      |
+| rweb_xchat_enabled                                                      | boolean | True       |
 | profile_label_improvements_pcf_label_in_post_enabled                    | boolean | True       |
 | rweb_tipjar_consumption_enabled                                         | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -729,7 +729,7 @@ Login Required: `...`<br>
 |:------------------------------------------------------------------------|:--------|:-----------|
 | rweb_video_screen_enabled                                               | boolean | False      |
 | payments_enabled                                                        | boolean | False      |
-| rweb_xchat_enabled                                                      | boolean | False      |
+| rweb_xchat_enabled                                                      | boolean | True       |
 | profile_label_improvements_pcf_label_in_post_enabled                    | boolean | True       |
 | rweb_tipjar_consumption_enabled                                         | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -777,7 +777,7 @@ Login Required: `...`<br>
 |:------------------------------------------------------------------------|:--------|:-----------|
 | rweb_video_screen_enabled                                               | boolean | False      |
 | payments_enabled                                                        | boolean | False      |
-| rweb_xchat_enabled                                                      | boolean | False      |
+| rweb_xchat_enabled                                                      | boolean | True       |
 | profile_label_improvements_pcf_label_in_post_enabled                    | boolean | True       |
 | rweb_tipjar_consumption_enabled                                         | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -836,7 +836,7 @@ Login Required: `...`<br>
 |:------------------------------------------------------------------------|:--------|:-----------|
 | rweb_video_screen_enabled                                               | boolean | False      |
 | payments_enabled                                                        | boolean | False      |
-| rweb_xchat_enabled                                                      | boolean | False      |
+| rweb_xchat_enabled                                                      | boolean | True       |
 | profile_label_improvements_pcf_label_in_post_enabled                    | boolean | True       |
 | rweb_tipjar_consumption_enabled                                         | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -884,7 +884,7 @@ Login Required: `...`<br>
 |:------------------------------------------------------------------------|:--------|:-----------|
 | rweb_video_screen_enabled                                               | boolean | False      |
 | payments_enabled                                                        | boolean | False      |
-| rweb_xchat_enabled                                                      | boolean | False      |
+| rweb_xchat_enabled                                                      | boolean | True       |
 | profile_label_improvements_pcf_label_in_post_enabled                    | boolean | True       |
 | rweb_tipjar_consumption_enabled                                         | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -932,7 +932,7 @@ Login Required: `...`<br>
 |:------------------------------------------------------------------------|:--------|:-----------|
 | rweb_video_screen_enabled                                               | boolean | False      |
 | payments_enabled                                                        | boolean | False      |
-| rweb_xchat_enabled                                                      | boolean | False      |
+| rweb_xchat_enabled                                                      | boolean | True       |
 | profile_label_improvements_pcf_label_in_post_enabled                    | boolean | True       |
 | rweb_tipjar_consumption_enabled                                         | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -991,7 +991,7 @@ Login Required: `...`<br>
 |:------------------------------------------------------------------------|:--------|:-----------|
 | rweb_video_screen_enabled                                               | boolean | False      |
 | payments_enabled                                                        | boolean | False      |
-| rweb_xchat_enabled                                                      | boolean | False      |
+| rweb_xchat_enabled                                                      | boolean | True       |
 | profile_label_improvements_pcf_label_in_post_enabled                    | boolean | True       |
 | rweb_tipjar_consumption_enabled                                         | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -1039,7 +1039,7 @@ Login Required: `...`<br>
 |:------------------------------------------------------------------------|:--------|:-----------|
 | rweb_video_screen_enabled                                               | boolean | False      |
 | payments_enabled                                                        | boolean | False      |
-| rweb_xchat_enabled                                                      | boolean | False      |
+| rweb_xchat_enabled                                                      | boolean | True       |
 | profile_label_improvements_pcf_label_in_post_enabled                    | boolean | True       |
 | rweb_tipjar_consumption_enabled                                         | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -1087,7 +1087,7 @@ Login Required: `...`<br>
 |:------------------------------------------------------------------------|:--------|:-----------|
 | rweb_video_screen_enabled                                               | boolean | False      |
 | payments_enabled                                                        | boolean | False      |
-| rweb_xchat_enabled                                                      | boolean | False      |
+| rweb_xchat_enabled                                                      | boolean | True       |
 | profile_label_improvements_pcf_label_in_post_enabled                    | boolean | True       |
 | rweb_tipjar_consumption_enabled                                         | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -1135,7 +1135,7 @@ Login Required: `...`<br>
 |:------------------------------------------------------------------------|:--------|:-----------|
 | rweb_video_screen_enabled                                               | boolean | False      |
 | payments_enabled                                                        | boolean | False      |
-| rweb_xchat_enabled                                                      | boolean | False      |
+| rweb_xchat_enabled                                                      | boolean | True       |
 | profile_label_improvements_pcf_label_in_post_enabled                    | boolean | True       |
 | rweb_tipjar_consumption_enabled                                         | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -1183,7 +1183,7 @@ Login Required: `...`<br>
 |:------------------------------------------------------------------------|:--------|:-----------|
 | rweb_video_screen_enabled                                               | boolean | False      |
 | payments_enabled                                                        | boolean | False      |
-| rweb_xchat_enabled                                                      | boolean | False      |
+| rweb_xchat_enabled                                                      | boolean | True       |
 | profile_label_improvements_pcf_label_in_post_enabled                    | boolean | True       |
 | rweb_tipjar_consumption_enabled                                         | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -1231,7 +1231,7 @@ Login Required: `...`<br>
 |:------------------------------------------------------------------------|:--------|:-----------|
 | rweb_video_screen_enabled                                               | boolean | False      |
 | payments_enabled                                                        | boolean | False      |
-| rweb_xchat_enabled                                                      | boolean | False      |
+| rweb_xchat_enabled                                                      | boolean | True       |
 | profile_label_improvements_pcf_label_in_post_enabled                    | boolean | True       |
 | rweb_tipjar_consumption_enabled                                         | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -1279,7 +1279,7 @@ Login Required: `...`<br>
 |:------------------------------------------------------------------------|:--------|:-----------|
 | rweb_video_screen_enabled                                               | boolean | False      |
 | payments_enabled                                                        | boolean | False      |
-| rweb_xchat_enabled                                                      | boolean | False      |
+| rweb_xchat_enabled                                                      | boolean | True       |
 | profile_label_improvements_pcf_label_in_post_enabled                    | boolean | True       |
 | rweb_tipjar_consumption_enabled                                         | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -1327,7 +1327,7 @@ Login Required: `...`<br>
 |:------------------------------------------------------------------------|:--------|:-----------|
 | rweb_video_screen_enabled                                               | boolean | False      |
 | payments_enabled                                                        | boolean | False      |
-| rweb_xchat_enabled                                                      | boolean | False      |
+| rweb_xchat_enabled                                                      | boolean | True       |
 | profile_label_improvements_pcf_label_in_post_enabled                    | boolean | True       |
 | rweb_tipjar_consumption_enabled                                         | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -1386,7 +1386,7 @@ Login Required: `...`<br>
 |:------------------------------------------------------------------------|:--------|:-----------|
 | rweb_video_screen_enabled                                               | boolean | False      |
 | payments_enabled                                                        | boolean | False      |
-| rweb_xchat_enabled                                                      | boolean | False      |
+| rweb_xchat_enabled                                                      | boolean | True       |
 | profile_label_improvements_pcf_label_in_post_enabled                    | boolean | True       |
 | rweb_tipjar_consumption_enabled                                         | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -1434,7 +1434,7 @@ Login Required: `...`<br>
 |:------------------------------------------------------------------------|:--------|:-----------|
 | rweb_video_screen_enabled                                               | boolean | False      |
 | payments_enabled                                                        | boolean | False      |
-| rweb_xchat_enabled                                                      | boolean | False      |
+| rweb_xchat_enabled                                                      | boolean | True       |
 | profile_label_improvements_pcf_label_in_post_enabled                    | boolean | True       |
 | rweb_tipjar_consumption_enabled                                         | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -1495,7 +1495,7 @@ Login Required: `...`<br>
 | key                                                               | type    | variable   |
 |:------------------------------------------------------------------|:--------|:-----------|
 | payments_enabled                                                  | boolean | False      |
-| rweb_xchat_enabled                                                | boolean | False      |
+| rweb_xchat_enabled                                                | boolean | True       |
 | profile_label_improvements_pcf_label_in_post_enabled              | boolean | True       |
 | rweb_tipjar_consumption_enabled                                   | boolean | True       |
 | verified_phone_label_enabled                                      | boolean | False      |
@@ -1526,7 +1526,7 @@ Login Required: `...`<br>
 | key                                                               | type    | variable   |
 |:------------------------------------------------------------------|:--------|:-----------|
 | payments_enabled                                                  | boolean | False      |
-| rweb_xchat_enabled                                                | boolean | False      |
+| rweb_xchat_enabled                                                | boolean | True       |
 | profile_label_improvements_pcf_label_in_post_enabled              | boolean | True       |
 | rweb_tipjar_consumption_enabled                                   | boolean | True       |
 | verified_phone_label_enabled                                      | boolean | False      |
@@ -1580,7 +1580,7 @@ Login Required: `...`<br>
 |:------------------------------------------------------------------------|:--------|:-----------|
 | rweb_video_screen_enabled                                               | boolean | False      |
 | payments_enabled                                                        | boolean | False      |
-| rweb_xchat_enabled                                                      | boolean | False      |
+| rweb_xchat_enabled                                                      | boolean | True       |
 | profile_label_improvements_pcf_label_in_post_enabled                    | boolean | True       |
 | rweb_tipjar_consumption_enabled                                         | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -1639,7 +1639,7 @@ Login Required: `...`<br>
 |:------------------------------------------------------------------------|:--------|:-----------|
 | rweb_video_screen_enabled                                               | boolean | False      |
 | payments_enabled                                                        | boolean | False      |
-| rweb_xchat_enabled                                                      | boolean | False      |
+| rweb_xchat_enabled                                                      | boolean | True       |
 | profile_label_improvements_pcf_label_in_post_enabled                    | boolean | True       |
 | rweb_tipjar_consumption_enabled                                         | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -1687,7 +1687,7 @@ Login Required: `...`<br>
 |:------------------------------------------------------------------------|:--------|:-----------|
 | rweb_video_screen_enabled                                               | boolean | False      |
 | payments_enabled                                                        | boolean | False      |
-| rweb_xchat_enabled                                                      | boolean | False      |
+| rweb_xchat_enabled                                                      | boolean | True       |
 | profile_label_improvements_pcf_label_in_post_enabled                    | boolean | True       |
 | rweb_tipjar_consumption_enabled                                         | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -1768,7 +1768,7 @@ Login Required: `...`<br>
 |:------------------------------------------------------------------------|:--------|:-----------|
 | rweb_video_screen_enabled                                               | boolean | False      |
 | payments_enabled                                                        | boolean | False      |
-| rweb_xchat_enabled                                                      | boolean | False      |
+| rweb_xchat_enabled                                                      | boolean | True       |
 | profile_label_improvements_pcf_label_in_post_enabled                    | boolean | True       |
 | rweb_tipjar_consumption_enabled                                         | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -1838,7 +1838,7 @@ Login Required: `...`<br>
 |:------------------------------------------------------------------------|:--------|:-----------|
 | rweb_video_screen_enabled                                               | boolean | False      |
 | payments_enabled                                                        | boolean | False      |
-| rweb_xchat_enabled                                                      | boolean | False      |
+| rweb_xchat_enabled                                                      | boolean | True       |
 | profile_label_improvements_pcf_label_in_post_enabled                    | boolean | True       |
 | rweb_tipjar_consumption_enabled                                         | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -1908,7 +1908,7 @@ Login Required: `...`<br>
 |:------------------------------------------------------------------------|:--------|:-----------|
 | rweb_video_screen_enabled                                               | boolean | False      |
 | payments_enabled                                                        | boolean | False      |
-| rweb_xchat_enabled                                                      | boolean | False      |
+| rweb_xchat_enabled                                                      | boolean | True       |
 | profile_label_improvements_pcf_label_in_post_enabled                    | boolean | True       |
 | rweb_tipjar_consumption_enabled                                         | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -1956,7 +1956,7 @@ Login Required: `...`<br>
 |:------------------------------------------------------------------------|:--------|:-----------|
 | rweb_video_screen_enabled                                               | boolean | False      |
 | payments_enabled                                                        | boolean | False      |
-| rweb_xchat_enabled                                                      | boolean | False      |
+| rweb_xchat_enabled                                                      | boolean | True       |
 | profile_label_improvements_pcf_label_in_post_enabled                    | boolean | True       |
 | rweb_tipjar_consumption_enabled                                         | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -2004,7 +2004,7 @@ Login Required: `...`<br>
 |:------------------------------------------------------------------------|:--------|:-----------|
 | rweb_video_screen_enabled                                               | boolean | False      |
 | payments_enabled                                                        | boolean | False      |
-| rweb_xchat_enabled                                                      | boolean | False      |
+| rweb_xchat_enabled                                                      | boolean | True       |
 | profile_label_improvements_pcf_label_in_post_enabled                    | boolean | True       |
 | rweb_tipjar_consumption_enabled                                         | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -2052,7 +2052,7 @@ Login Required: `...`<br>
 |:------------------------------------------------------------------------|:--------|:-----------|
 | rweb_video_screen_enabled                                               | boolean | False      |
 | payments_enabled                                                        | boolean | False      |
-| rweb_xchat_enabled                                                      | boolean | False      |
+| rweb_xchat_enabled                                                      | boolean | True       |
 | profile_label_improvements_pcf_label_in_post_enabled                    | boolean | True       |
 | rweb_tipjar_consumption_enabled                                         | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -2100,7 +2100,7 @@ Login Required: `...`<br>
 |:------------------------------------------------------------------------|:--------|:-----------|
 | rweb_video_screen_enabled                                               | boolean | False      |
 | payments_enabled                                                        | boolean | False      |
-| rweb_xchat_enabled                                                      | boolean | False      |
+| rweb_xchat_enabled                                                      | boolean | True       |
 | profile_label_improvements_pcf_label_in_post_enabled                    | boolean | True       |
 | rweb_tipjar_consumption_enabled                                         | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -2148,7 +2148,7 @@ Login Required: `...`<br>
 |:------------------------------------------------------------------------|:--------|:-----------|
 | rweb_video_screen_enabled                                               | boolean | False      |
 | payments_enabled                                                        | boolean | False      |
-| rweb_xchat_enabled                                                      | boolean | False      |
+| rweb_xchat_enabled                                                      | boolean | True       |
 | profile_label_improvements_pcf_label_in_post_enabled                    | boolean | True       |
 | rweb_tipjar_consumption_enabled                                         | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -2196,7 +2196,7 @@ Login Required: `...`<br>
 |:------------------------------------------------------------------------|:--------|:-----------|
 | rweb_video_screen_enabled                                               | boolean | False      |
 | payments_enabled                                                        | boolean | False      |
-| rweb_xchat_enabled                                                      | boolean | False      |
+| rweb_xchat_enabled                                                      | boolean | True       |
 | profile_label_improvements_pcf_label_in_post_enabled                    | boolean | True       |
 | rweb_tipjar_consumption_enabled                                         | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -2266,7 +2266,7 @@ Login Required: `...`<br>
 | longform_notetweets_rich_text_read_enabled                              | boolean | True       |
 | longform_notetweets_inline_media_enabled                                | boolean | True       |
 | payments_enabled                                                        | boolean | False      |
-| rweb_xchat_enabled                                                      | boolean | False      |
+| rweb_xchat_enabled                                                      | boolean | True       |
 | profile_label_improvements_pcf_label_in_post_enabled                    | boolean | True       |
 | rweb_tipjar_consumption_enabled                                         | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -2313,7 +2313,7 @@ Login Required: `...`<br>
 | longform_notetweets_rich_text_read_enabled                              | boolean | True       |
 | longform_notetweets_inline_media_enabled                                | boolean | True       |
 | payments_enabled                                                        | boolean | False      |
-| rweb_xchat_enabled                                                      | boolean | False      |
+| rweb_xchat_enabled                                                      | boolean | True       |
 | profile_label_improvements_pcf_label_in_post_enabled                    | boolean | True       |
 | rweb_tipjar_consumption_enabled                                         | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -2370,7 +2370,7 @@ Login Required: `...`<br>
 | key                                                               | type    | variable   |
 |:------------------------------------------------------------------|:--------|:-----------|
 | payments_enabled                                                  | boolean | False      |
-| rweb_xchat_enabled                                                | boolean | False      |
+| rweb_xchat_enabled                                                | boolean | True       |
 | profile_label_improvements_pcf_label_in_post_enabled              | boolean | True       |
 | rweb_tipjar_consumption_enabled                                   | boolean | True       |
 | verified_phone_label_enabled                                      | boolean | False      |
@@ -2416,7 +2416,7 @@ Login Required: `...`<br>
 |:------------------------------------------------------------------------|:--------|:-----------|
 | rweb_video_screen_enabled                                               | boolean | False      |
 | payments_enabled                                                        | boolean | False      |
-| rweb_xchat_enabled                                                      | boolean | False      |
+| rweb_xchat_enabled                                                      | boolean | True       |
 | profile_label_improvements_pcf_label_in_post_enabled                    | boolean | True       |
 | rweb_tipjar_consumption_enabled                                         | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -2464,7 +2464,7 @@ Login Required: `...`<br>
 |:------------------------------------------------------------------------|:--------|:-----------|
 | rweb_video_screen_enabled                                               | boolean | False      |
 | payments_enabled                                                        | boolean | False      |
-| rweb_xchat_enabled                                                      | boolean | False      |
+| rweb_xchat_enabled                                                      | boolean | True       |
 | profile_label_improvements_pcf_label_in_post_enabled                    | boolean | True       |
 | rweb_tipjar_consumption_enabled                                         | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -2512,7 +2512,7 @@ Login Required: `...`<br>
 |:------------------------------------------------------------------------|:--------|:-----------|
 | rweb_video_screen_enabled                                               | boolean | False      |
 | payments_enabled                                                        | boolean | False      |
-| rweb_xchat_enabled                                                      | boolean | False      |
+| rweb_xchat_enabled                                                      | boolean | True       |
 | profile_label_improvements_pcf_label_in_post_enabled                    | boolean | True       |
 | rweb_tipjar_consumption_enabled                                         | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -2560,7 +2560,7 @@ Login Required: `...`<br>
 |:------------------------------------------------------------------|:--------|:-----------|
 | hidden_profile_subscriptions_enabled                              | boolean | True       |
 | payments_enabled                                                  | boolean | False      |
-| rweb_xchat_enabled                                                | boolean | False      |
+| rweb_xchat_enabled                                                | boolean | True       |
 | profile_label_improvements_pcf_label_in_post_enabled              | boolean | True       |
 | rweb_tipjar_consumption_enabled                                   | boolean | True       |
 | verified_phone_label_enabled                                      | boolean | False      |
@@ -2585,7 +2585,7 @@ Login Required: `...`<br>
 |:------------------------------------------------------------------|:--------|:-----------|
 | hidden_profile_subscriptions_enabled                              | boolean | True       |
 | payments_enabled                                                  | boolean | False      |
-| rweb_xchat_enabled                                                | boolean | False      |
+| rweb_xchat_enabled                                                | boolean | True       |
 | profile_label_improvements_pcf_label_in_post_enabled              | boolean | True       |
 | rweb_tipjar_consumption_enabled                                   | boolean | True       |
 | verified_phone_label_enabled                                      | boolean | False      |
@@ -2623,7 +2623,7 @@ Login Required: `...`<br>
 |:------------------------------------------------------------------------|:--------|:-----------|
 | rweb_video_screen_enabled                                               | boolean | False      |
 | payments_enabled                                                        | boolean | False      |
-| rweb_xchat_enabled                                                      | boolean | False      |
+| rweb_xchat_enabled                                                      | boolean | True       |
 | profile_label_improvements_pcf_label_in_post_enabled                    | boolean | True       |
 | rweb_tipjar_consumption_enabled                                         | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -2671,7 +2671,7 @@ Login Required: `...`<br>
 |:------------------------------------------------------------------------|:--------|:-----------|
 | rweb_video_screen_enabled                                               | boolean | False      |
 | payments_enabled                                                        | boolean | False      |
-| rweb_xchat_enabled                                                      | boolean | False      |
+| rweb_xchat_enabled                                                      | boolean | True       |
 | profile_label_improvements_pcf_label_in_post_enabled                    | boolean | True       |
 | rweb_tipjar_consumption_enabled                                         | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -2719,7 +2719,7 @@ Login Required: `...`<br>
 |:------------------------------------------------------------------------|:--------|:-----------|
 | rweb_video_screen_enabled                                               | boolean | False      |
 | payments_enabled                                                        | boolean | False      |
-| rweb_xchat_enabled                                                      | boolean | False      |
+| rweb_xchat_enabled                                                      | boolean | True       |
 | profile_label_improvements_pcf_label_in_post_enabled                    | boolean | True       |
 | rweb_tipjar_consumption_enabled                                         | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -2767,7 +2767,7 @@ Login Required: `...`<br>
 |:------------------------------------------------------------------------|:--------|:-----------|
 | rweb_video_screen_enabled                                               | boolean | False      |
 | payments_enabled                                                        | boolean | False      |
-| rweb_xchat_enabled                                                      | boolean | False      |
+| rweb_xchat_enabled                                                      | boolean | True       |
 | profile_label_improvements_pcf_label_in_post_enabled                    | boolean | True       |
 | rweb_tipjar_consumption_enabled                                         | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -2826,7 +2826,7 @@ Login Required: `...`<br>
 |:------------------------------------------------------------------------|:--------|:-----------|
 | rweb_video_screen_enabled                                               | boolean | False      |
 | payments_enabled                                                        | boolean | False      |
-| rweb_xchat_enabled                                                      | boolean | False      |
+| rweb_xchat_enabled                                                      | boolean | True       |
 | profile_label_improvements_pcf_label_in_post_enabled                    | boolean | True       |
 | rweb_tipjar_consumption_enabled                                         | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -2885,7 +2885,7 @@ Login Required: `...`<br>
 |:------------------------------------------------------------------------|:--------|:-----------|
 | rweb_video_screen_enabled                                               | boolean | False      |
 | payments_enabled                                                        | boolean | False      |
-| rweb_xchat_enabled                                                      | boolean | False      |
+| rweb_xchat_enabled                                                      | boolean | True       |
 | profile_label_improvements_pcf_label_in_post_enabled                    | boolean | True       |
 | rweb_tipjar_consumption_enabled                                         | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -2933,7 +2933,7 @@ Login Required: `...`<br>
 |:------------------------------------------------------------------------|:--------|:-----------|
 | rweb_video_screen_enabled                                               | boolean | False      |
 | payments_enabled                                                        | boolean | False      |
-| rweb_xchat_enabled                                                      | boolean | False      |
+| rweb_xchat_enabled                                                      | boolean | True       |
 | profile_label_improvements_pcf_label_in_post_enabled                    | boolean | True       |
 | rweb_tipjar_consumption_enabled                                         | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -2981,7 +2981,7 @@ Login Required: `...`<br>
 |:------------------------------------------------------------------------|:--------|:-----------|
 | rweb_video_screen_enabled                                               | boolean | False      |
 | payments_enabled                                                        | boolean | False      |
-| rweb_xchat_enabled                                                      | boolean | False      |
+| rweb_xchat_enabled                                                      | boolean | True       |
 | profile_label_improvements_pcf_label_in_post_enabled                    | boolean | True       |
 | rweb_tipjar_consumption_enabled                                         | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -3028,7 +3028,7 @@ Login Required: `...`<br>
 | key                                                               | type    | variable   |
 |:------------------------------------------------------------------|:--------|:-----------|
 | payments_enabled                                                  | boolean | False      |
-| rweb_xchat_enabled                                                | boolean | False      |
+| rweb_xchat_enabled                                                | boolean | True       |
 | profile_label_improvements_pcf_label_in_post_enabled              | boolean | True       |
 | rweb_tipjar_consumption_enabled                                   | boolean | True       |
 | verified_phone_label_enabled                                      | boolean | False      |
@@ -3049,7 +3049,7 @@ Login Required: `...`<br>
 |:------------------------------------------------------------------|:--------|:-----------|
 | hidden_profile_subscriptions_enabled                              | boolean | True       |
 | payments_enabled                                                  | boolean | False      |
-| rweb_xchat_enabled                                                | boolean | False      |
+| rweb_xchat_enabled                                                | boolean | True       |
 | profile_label_improvements_pcf_label_in_post_enabled              | boolean | True       |
 | rweb_tipjar_consumption_enabled                                   | boolean | True       |
 | verified_phone_label_enabled                                      | boolean | False      |
@@ -3090,7 +3090,7 @@ Login Required: `...`<br>
 |:------------------------------------------------------------------|:--------|:-----------|
 | subscriptions_upsells_api_enabled                                 | boolean | True       |
 | payments_enabled                                                  | boolean | False      |
-| rweb_xchat_enabled                                                | boolean | False      |
+| rweb_xchat_enabled                                                | boolean | True       |
 | profile_label_improvements_pcf_label_in_post_enabled              | boolean | True       |
 | rweb_tipjar_consumption_enabled                                   | boolean | True       |
 | verified_phone_label_enabled                                      | boolean | False      |
@@ -3112,7 +3112,7 @@ Login Required: `...`<br>
 |:------------------------------------------------------------------------|:--------|:-----------|
 | rweb_video_screen_enabled                                               | boolean | False      |
 | payments_enabled                                                        | boolean | False      |
-| rweb_xchat_enabled                                                      | boolean | False      |
+| rweb_xchat_enabled                                                      | boolean | True       |
 | profile_label_improvements_pcf_label_in_post_enabled                    | boolean | True       |
 | rweb_tipjar_consumption_enabled                                         | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -3168,7 +3168,7 @@ Login Required: `...`<br>
 | responsive_web_grok_share_attachment_enabled                            | boolean | True       |
 | articles_preview_enabled                                                | boolean | True       |
 | payments_enabled                                                        | boolean | False      |
-| rweb_xchat_enabled                                                      | boolean | False      |
+| rweb_xchat_enabled                                                      | boolean | True       |
 | profile_label_improvements_pcf_label_in_post_enabled                    | boolean | True       |
 | rweb_tipjar_consumption_enabled                                         | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -3201,10 +3201,7 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key   | type   | variable   |
-|:------|:-------|:-----------|
-| ...t  | ...    | _          |
-
+`None`<br>
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
@@ -3212,7 +3209,7 @@ Login Required: `...`<br>
 | spaces_2022_h2_clipping                                                 | boolean | True       |
 | creator_subscriptions_tweet_preview_api_enabled                         | boolean | True       |
 | payments_enabled                                                        | boolean | False      |
-| rweb_xchat_enabled                                                      | boolean | False      |
+| rweb_xchat_enabled                                                      | boolean | True       |
 | profile_label_improvements_pcf_label_in_post_enabled                    | boolean | True       |
 | rweb_tipjar_consumption_enabled                                         | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -3314,7 +3311,7 @@ Login Required: `...`<br>
 |:------------------------------------------------------------------------|:--------|:-----------|
 | rweb_video_screen_enabled                                               | boolean | False      |
 | payments_enabled                                                        | boolean | False      |
-| rweb_xchat_enabled                                                      | boolean | False      |
+| rweb_xchat_enabled                                                      | boolean | True       |
 | profile_label_improvements_pcf_label_in_post_enabled                    | boolean | True       |
 | rweb_tipjar_consumption_enabled                                         | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -3361,7 +3358,7 @@ Login Required: `...`<br>
 | key                                                               | type    | variable   |
 |:------------------------------------------------------------------|:--------|:-----------|
 | payments_enabled                                                  | boolean | False      |
-| rweb_xchat_enabled                                                | boolean | False      |
+| rweb_xchat_enabled                                                | boolean | True       |
 | profile_label_improvements_pcf_label_in_post_enabled              | boolean | True       |
 | rweb_tipjar_consumption_enabled                                   | boolean | True       |
 | verified_phone_label_enabled                                      | boolean | False      |
@@ -3381,7 +3378,7 @@ Login Required: `...`<br>
 | key                                                               | type    | variable   |
 |:------------------------------------------------------------------|:--------|:-----------|
 | payments_enabled                                                  | boolean | False      |
-| rweb_xchat_enabled                                                | boolean | False      |
+| rweb_xchat_enabled                                                | boolean | True       |
 | profile_label_improvements_pcf_label_in_post_enabled              | boolean | True       |
 | rweb_tipjar_consumption_enabled                                   | boolean | True       |
 | verified_phone_label_enabled                                      | boolean | False      |
@@ -3401,7 +3398,7 @@ Login Required: `...`<br>
 | key                                                               | type    | variable   |
 |:------------------------------------------------------------------|:--------|:-----------|
 | payments_enabled                                                  | boolean | False      |
-| rweb_xchat_enabled                                                | boolean | False      |
+| rweb_xchat_enabled                                                | boolean | True       |
 | profile_label_improvements_pcf_label_in_post_enabled              | boolean | True       |
 | rweb_tipjar_consumption_enabled                                   | boolean | True       |
 | verified_phone_label_enabled                                      | boolean | False      |
@@ -3421,7 +3418,7 @@ Login Required: `...`<br>
 | key                                                               | type    | variable   |
 |:------------------------------------------------------------------|:--------|:-----------|
 | payments_enabled                                                  | boolean | False      |
-| rweb_xchat_enabled                                                | boolean | False      |
+| rweb_xchat_enabled                                                | boolean | True       |
 | profile_label_improvements_pcf_label_in_post_enabled              | boolean | True       |
 | rweb_tipjar_consumption_enabled                                   | boolean | True       |
 | verified_phone_label_enabled                                      | boolean | False      |
@@ -3441,7 +3438,7 @@ Login Required: `...`<br>
 | key                                                               | type    | variable   |
 |:------------------------------------------------------------------|:--------|:-----------|
 | payments_enabled                                                  | boolean | False      |
-| rweb_xchat_enabled                                                | boolean | False      |
+| rweb_xchat_enabled                                                | boolean | True       |
 | profile_label_improvements_pcf_label_in_post_enabled              | boolean | True       |
 | rweb_tipjar_consumption_enabled                                   | boolean | True       |
 | verified_phone_label_enabled                                      | boolean | False      |
@@ -3462,7 +3459,7 @@ Login Required: `...`<br>
 |:------------------------------------------------------------------------|:--------|:-----------|
 | rweb_video_screen_enabled                                               | boolean | False      |
 | payments_enabled                                                        | boolean | False      |
-| rweb_xchat_enabled                                                      | boolean | False      |
+| rweb_xchat_enabled                                                      | boolean | True       |
 | profile_label_improvements_pcf_label_in_post_enabled                    | boolean | True       |
 | rweb_tipjar_consumption_enabled                                         | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -3521,7 +3518,7 @@ Login Required: `...`<br>
 |:------------------------------------------------------------------------|:--------|:-----------|
 | rweb_video_screen_enabled                                               | boolean | False      |
 | payments_enabled                                                        | boolean | False      |
-| rweb_xchat_enabled                                                      | boolean | False      |
+| rweb_xchat_enabled                                                      | boolean | True       |
 | profile_label_improvements_pcf_label_in_post_enabled                    | boolean | True       |
 | rweb_tipjar_consumption_enabled                                         | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -3563,13 +3560,16 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-`None`<br>
+| key            | type   | variable   |
+|:---------------|:-------|:-----------|
+| conversationId | ...    | t          |
+
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
 | rweb_video_screen_enabled                                               | boolean | False      |
 | payments_enabled                                                        | boolean | False      |
-| rweb_xchat_enabled                                                      | boolean | False      |
+| rweb_xchat_enabled                                                      | boolean | True       |
 | profile_label_improvements_pcf_label_in_post_enabled                    | boolean | True       |
 | rweb_tipjar_consumption_enabled                                         | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -3617,7 +3617,7 @@ Login Required: `...`<br>
 |:------------------------------------------------------------------------|:--------|:-----------|
 | rweb_video_screen_enabled                                               | boolean | False      |
 | payments_enabled                                                        | boolean | False      |
-| rweb_xchat_enabled                                                      | boolean | False      |
+| rweb_xchat_enabled                                                      | boolean | True       |
 | profile_label_improvements_pcf_label_in_post_enabled                    | boolean | True       |
 | rweb_tipjar_consumption_enabled                                         | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -3665,7 +3665,7 @@ Login Required: `...`<br>
 |:------------------------------------------------------------------------|:--------|:-----------|
 | rweb_video_screen_enabled                                               | boolean | False      |
 | payments_enabled                                                        | boolean | False      |
-| rweb_xchat_enabled                                                      | boolean | False      |
+| rweb_xchat_enabled                                                      | boolean | True       |
 | profile_label_improvements_pcf_label_in_post_enabled                    | boolean | True       |
 | rweb_tipjar_consumption_enabled                                         | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -3724,7 +3724,7 @@ Login Required: `...`<br>
 |:------------------------------------------------------------------------|:--------|:-----------|
 | rweb_video_screen_enabled                                               | boolean | False      |
 | payments_enabled                                                        | boolean | False      |
-| rweb_xchat_enabled                                                      | boolean | False      |
+| rweb_xchat_enabled                                                      | boolean | True       |
 | profile_label_improvements_pcf_label_in_post_enabled                    | boolean | True       |
 | rweb_tipjar_consumption_enabled                                         | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -3771,7 +3771,7 @@ Login Required: `...`<br>
 | key                                                               | type    | variable   |
 |:------------------------------------------------------------------|:--------|:-----------|
 | payments_enabled                                                  | boolean | False      |
-| rweb_xchat_enabled                                                | boolean | False      |
+| rweb_xchat_enabled                                                | boolean | True       |
 | profile_label_improvements_pcf_label_in_post_enabled              | boolean | True       |
 | rweb_tipjar_consumption_enabled                                   | boolean | True       |
 | verified_phone_label_enabled                                      | boolean | False      |
@@ -3792,7 +3792,7 @@ Login Required: `...`<br>
 |:------------------------------------------------------------------------|:--------|:-----------|
 | rweb_video_screen_enabled                                               | boolean | False      |
 | payments_enabled                                                        | boolean | False      |
-| rweb_xchat_enabled                                                      | boolean | False      |
+| rweb_xchat_enabled                                                      | boolean | True       |
 | profile_label_improvements_pcf_label_in_post_enabled                    | boolean | True       |
 | rweb_tipjar_consumption_enabled                                         | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -3839,7 +3839,7 @@ Login Required: `...`<br>
 | key                                                               | type    | variable   |
 |:------------------------------------------------------------------|:--------|:-----------|
 | payments_enabled                                                  | boolean | False      |
-| rweb_xchat_enabled                                                | boolean | False      |
+| rweb_xchat_enabled                                                | boolean | True       |
 | profile_label_improvements_pcf_label_in_post_enabled              | boolean | True       |
 | rweb_tipjar_consumption_enabled                                   | boolean | True       |
 | verified_phone_label_enabled                                      | boolean | False      |
@@ -3859,7 +3859,7 @@ Login Required: `...`<br>
 | key                                                               | type    | variable   |
 |:------------------------------------------------------------------|:--------|:-----------|
 | payments_enabled                                                  | boolean | False      |
-| rweb_xchat_enabled                                                | boolean | False      |
+| rweb_xchat_enabled                                                | boolean | True       |
 | profile_label_improvements_pcf_label_in_post_enabled              | boolean | True       |
 | rweb_tipjar_consumption_enabled                                   | boolean | True       |
 | verified_phone_label_enabled                                      | boolean | False      |
@@ -3880,7 +3880,7 @@ Login Required: `...`<br>
 |:------------------------------------------------------------------------|:--------|:-----------|
 | rweb_video_screen_enabled                                               | boolean | False      |
 | payments_enabled                                                        | boolean | False      |
-| rweb_xchat_enabled                                                      | boolean | False      |
+| rweb_xchat_enabled                                                      | boolean | True       |
 | profile_label_improvements_pcf_label_in_post_enabled                    | boolean | True       |
 | rweb_tipjar_consumption_enabled                                         | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -3938,7 +3938,7 @@ Login Required: `...`<br>
 | key                                                               | type    | variable   |
 |:------------------------------------------------------------------|:--------|:-----------|
 | payments_enabled                                                  | boolean | False      |
-| rweb_xchat_enabled                                                | boolean | False      |
+| rweb_xchat_enabled                                                | boolean | True       |
 | profile_label_improvements_pcf_label_in_post_enabled              | boolean | True       |
 | rweb_tipjar_consumption_enabled                                   | boolean | True       |
 | verified_phone_label_enabled                                      | boolean | False      |
@@ -3961,7 +3961,7 @@ Login Required: `...`<br>
 | key                                                               | type    | variable   |
 |:------------------------------------------------------------------|:--------|:-----------|
 | payments_enabled                                                  | boolean | False      |
-| rweb_xchat_enabled                                                | boolean | False      |
+| rweb_xchat_enabled                                                | boolean | True       |
 | profile_label_improvements_pcf_label_in_post_enabled              | boolean | True       |
 | rweb_tipjar_consumption_enabled                                   | boolean | True       |
 | verified_phone_label_enabled                                      | boolean | False      |
@@ -3982,7 +3982,7 @@ Login Required: `...`<br>
 |:------------------------------------------------------------------------|:--------|:-----------|
 | rweb_video_screen_enabled                                               | boolean | False      |
 | payments_enabled                                                        | boolean | False      |
-| rweb_xchat_enabled                                                      | boolean | False      |
+| rweb_xchat_enabled                                                      | boolean | True       |
 | profile_label_improvements_pcf_label_in_post_enabled                    | boolean | True       |
 | rweb_tipjar_consumption_enabled                                         | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -4030,7 +4030,7 @@ Login Required: `...`<br>
 |:------------------------------------------------------------------------|:--------|:-----------|
 | rweb_video_screen_enabled                                               | boolean | False      |
 | payments_enabled                                                        | boolean | False      |
-| rweb_xchat_enabled                                                      | boolean | False      |
+| rweb_xchat_enabled                                                      | boolean | True       |
 | profile_label_improvements_pcf_label_in_post_enabled                    | boolean | True       |
 | rweb_tipjar_consumption_enabled                                         | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -4100,7 +4100,7 @@ Login Required: `...`<br>
 |:------------------------------------------------------------------------|:--------|:-----------|
 | rweb_video_screen_enabled                                               | boolean | False      |
 | payments_enabled                                                        | boolean | False      |
-| rweb_xchat_enabled                                                      | boolean | False      |
+| rweb_xchat_enabled                                                      | boolean | True       |
 | profile_label_improvements_pcf_label_in_post_enabled                    | boolean | True       |
 | rweb_tipjar_consumption_enabled                                         | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -4148,7 +4148,7 @@ Login Required: `...`<br>
 |:------------------------------------------------------------------------|:--------|:-----------|
 | rweb_video_screen_enabled                                               | boolean | False      |
 | payments_enabled                                                        | boolean | False      |
-| rweb_xchat_enabled                                                      | boolean | False      |
+| rweb_xchat_enabled                                                      | boolean | True       |
 | profile_label_improvements_pcf_label_in_post_enabled                    | boolean | True       |
 | rweb_tipjar_consumption_enabled                                         | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -4196,7 +4196,7 @@ Login Required: `...`<br>
 |:------------------------------------------------------------------------|:--------|:-----------|
 | rweb_video_screen_enabled                                               | boolean | False      |
 | payments_enabled                                                        | boolean | False      |
-| rweb_xchat_enabled                                                      | boolean | False      |
+| rweb_xchat_enabled                                                      | boolean | True       |
 | profile_label_improvements_pcf_label_in_post_enabled                    | boolean | True       |
 | rweb_tipjar_consumption_enabled                                         | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -4243,7 +4243,7 @@ Login Required: `...`<br>
 | key                                                               | type    | variable   |
 |:------------------------------------------------------------------|:--------|:-----------|
 | payments_enabled                                                  | boolean | False      |
-| rweb_xchat_enabled                                                | boolean | False      |
+| rweb_xchat_enabled                                                | boolean | True       |
 | profile_label_improvements_pcf_label_in_post_enabled              | boolean | True       |
 | rweb_tipjar_consumption_enabled                                   | boolean | True       |
 | verified_phone_label_enabled                                      | boolean | False      |
@@ -4264,7 +4264,7 @@ Login Required: `...`<br>
 |:------------------------------------------------------------------------|:--------|:-----------|
 | rweb_video_screen_enabled                                               | boolean | False      |
 | payments_enabled                                                        | boolean | False      |
-| rweb_xchat_enabled                                                      | boolean | False      |
+| rweb_xchat_enabled                                                      | boolean | True       |
 | profile_label_improvements_pcf_label_in_post_enabled                    | boolean | True       |
 | rweb_tipjar_consumption_enabled                                         | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -4312,7 +4312,7 @@ Login Required: `...`<br>
 |:------------------------------------------------------------------------|:--------|:-----------|
 | rweb_video_screen_enabled                                               | boolean | False      |
 | payments_enabled                                                        | boolean | False      |
-| rweb_xchat_enabled                                                      | boolean | False      |
+| rweb_xchat_enabled                                                      | boolean | True       |
 | profile_label_improvements_pcf_label_in_post_enabled                    | boolean | True       |
 | rweb_tipjar_consumption_enabled                                         | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -4359,7 +4359,7 @@ Login Required: `...`<br>
 | key                                                               | type    | variable   |
 |:------------------------------------------------------------------|:--------|:-----------|
 | payments_enabled                                                  | boolean | False      |
-| rweb_xchat_enabled                                                | boolean | False      |
+| rweb_xchat_enabled                                                | boolean | True       |
 | profile_label_improvements_pcf_label_in_post_enabled              | boolean | True       |
 | rweb_tipjar_consumption_enabled                                   | boolean | True       |
 | verified_phone_label_enabled                                      | boolean | False      |
@@ -4379,7 +4379,7 @@ Login Required: `...`<br>
 | key                                                               | type    | variable   |
 |:------------------------------------------------------------------|:--------|:-----------|
 | payments_enabled                                                  | boolean | False      |
-| rweb_xchat_enabled                                                | boolean | False      |
+| rweb_xchat_enabled                                                | boolean | True       |
 | profile_label_improvements_pcf_label_in_post_enabled              | boolean | True       |
 | rweb_tipjar_consumption_enabled                                   | boolean | True       |
 | verified_phone_label_enabled                                      | boolean | False      |
@@ -4400,7 +4400,7 @@ Login Required: `...`<br>
 |:------------------------------------------------------------------------|:--------|:-----------|
 | rweb_video_screen_enabled                                               | boolean | False      |
 | payments_enabled                                                        | boolean | False      |
-| rweb_xchat_enabled                                                      | boolean | False      |
+| rweb_xchat_enabled                                                      | boolean | True       |
 | profile_label_improvements_pcf_label_in_post_enabled                    | boolean | True       |
 | rweb_tipjar_consumption_enabled                                         | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -4447,7 +4447,7 @@ Login Required: `...`<br>
 | key                                                               | type    | variable   |
 |:------------------------------------------------------------------|:--------|:-----------|
 | payments_enabled                                                  | boolean | False      |
-| rweb_xchat_enabled                                                | boolean | False      |
+| rweb_xchat_enabled                                                | boolean | True       |
 | profile_label_improvements_pcf_label_in_post_enabled              | boolean | True       |
 | rweb_tipjar_consumption_enabled                                   | boolean | True       |
 | verified_phone_label_enabled                                      | boolean | False      |
@@ -4467,7 +4467,7 @@ Login Required: `...`<br>
 | key                                                               | type    | variable   |
 |:------------------------------------------------------------------|:--------|:-----------|
 | payments_enabled                                                  | boolean | False      |
-| rweb_xchat_enabled                                                | boolean | False      |
+| rweb_xchat_enabled                                                | boolean | True       |
 | profile_label_improvements_pcf_label_in_post_enabled              | boolean | True       |
 | rweb_tipjar_consumption_enabled                                   | boolean | True       |
 | verified_phone_label_enabled                                      | boolean | False      |
@@ -4487,7 +4487,7 @@ Login Required: `...`<br>
 | key                                                               | type    | variable   |
 |:------------------------------------------------------------------|:--------|:-----------|
 | payments_enabled                                                  | boolean | False      |
-| rweb_xchat_enabled                                                | boolean | False      |
+| rweb_xchat_enabled                                                | boolean | True       |
 | profile_label_improvements_pcf_label_in_post_enabled              | boolean | True       |
 | rweb_tipjar_consumption_enabled                                   | boolean | True       |
 | verified_phone_label_enabled                                      | boolean | False      |
@@ -4507,7 +4507,7 @@ Login Required: `...`<br>
 | key                                                               | type    | variable   |
 |:------------------------------------------------------------------|:--------|:-----------|
 | payments_enabled                                                  | boolean | False      |
-| rweb_xchat_enabled                                                | boolean | False      |
+| rweb_xchat_enabled                                                | boolean | True       |
 | profile_label_improvements_pcf_label_in_post_enabled              | boolean | True       |
 | rweb_tipjar_consumption_enabled                                   | boolean | True       |
 | verified_phone_label_enabled                                      | boolean | False      |
@@ -4527,7 +4527,7 @@ Login Required: `...`<br>
 | key                                                               | type    | variable   |
 |:------------------------------------------------------------------|:--------|:-----------|
 | payments_enabled                                                  | boolean | False      |
-| rweb_xchat_enabled                                                | boolean | False      |
+| rweb_xchat_enabled                                                | boolean | True       |
 | profile_label_improvements_pcf_label_in_post_enabled              | boolean | True       |
 | rweb_tipjar_consumption_enabled                                   | boolean | True       |
 | verified_phone_label_enabled                                      | boolean | False      |
@@ -4547,7 +4547,7 @@ Login Required: `...`<br>
 | key                                                               | type    | variable   |
 |:------------------------------------------------------------------|:--------|:-----------|
 | payments_enabled                                                  | boolean | False      |
-| rweb_xchat_enabled                                                | boolean | False      |
+| rweb_xchat_enabled                                                | boolean | True       |
 | profile_label_improvements_pcf_label_in_post_enabled              | boolean | True       |
 | rweb_tipjar_consumption_enabled                                   | boolean | True       |
 | verified_phone_label_enabled                                      | boolean | False      |
@@ -4568,7 +4568,7 @@ Login Required: `...`<br>
 |:------------------------------------------------------------------------|:--------|:-----------|
 | rweb_video_screen_enabled                                               | boolean | False      |
 | payments_enabled                                                        | boolean | False      |
-| rweb_xchat_enabled                                                      | boolean | False      |
+| rweb_xchat_enabled                                                      | boolean | True       |
 | profile_label_improvements_pcf_label_in_post_enabled                    | boolean | True       |
 | rweb_tipjar_consumption_enabled                                         | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -4615,7 +4615,7 @@ Login Required: `...`<br>
 | key                                                               | type    | variable   |
 |:------------------------------------------------------------------|:--------|:-----------|
 | payments_enabled                                                  | boolean | False      |
-| rweb_xchat_enabled                                                | boolean | False      |
+| rweb_xchat_enabled                                                | boolean | True       |
 | profile_label_improvements_pcf_label_in_post_enabled              | boolean | True       |
 | rweb_tipjar_consumption_enabled                                   | boolean | True       |
 | verified_phone_label_enabled                                      | boolean | False      |
@@ -4635,7 +4635,7 @@ Login Required: `...`<br>
 | key                                                               | type    | variable   |
 |:------------------------------------------------------------------|:--------|:-----------|
 | payments_enabled                                                  | boolean | False      |
-| rweb_xchat_enabled                                                | boolean | False      |
+| rweb_xchat_enabled                                                | boolean | True       |
 | profile_label_improvements_pcf_label_in_post_enabled              | boolean | True       |
 | rweb_tipjar_consumption_enabled                                   | boolean | True       |
 | verified_phone_label_enabled                                      | boolean | False      |
@@ -4656,7 +4656,7 @@ Login Required: `...`<br>
 |:------------------------------------------------------------------------|:--------|:-----------|
 | rweb_video_screen_enabled                                               | boolean | False      |
 | payments_enabled                                                        | boolean | False      |
-| rweb_xchat_enabled                                                      | boolean | False      |
+| rweb_xchat_enabled                                                      | boolean | True       |
 | profile_label_improvements_pcf_label_in_post_enabled                    | boolean | True       |
 | rweb_tipjar_consumption_enabled                                         | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -4704,7 +4704,7 @@ Login Required: `...`<br>
 |:------------------------------------------------------------------------|:--------|:-----------|
 | rweb_video_screen_enabled                                               | boolean | False      |
 | payments_enabled                                                        | boolean | False      |
-| rweb_xchat_enabled                                                      | boolean | False      |
+| rweb_xchat_enabled                                                      | boolean | True       |
 | profile_label_improvements_pcf_label_in_post_enabled                    | boolean | True       |
 | rweb_tipjar_consumption_enabled                                         | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -4751,7 +4751,7 @@ Login Required: `...`<br>
 | key                                                               | type    | variable   |
 |:------------------------------------------------------------------|:--------|:-----------|
 | payments_enabled                                                  | boolean | False      |
-| rweb_xchat_enabled                                                | boolean | False      |
+| rweb_xchat_enabled                                                | boolean | True       |
 | profile_label_improvements_pcf_label_in_post_enabled              | boolean | True       |
 | rweb_tipjar_consumption_enabled                                   | boolean | True       |
 | verified_phone_label_enabled                                      | boolean | False      |
@@ -4794,7 +4794,7 @@ Login Required: `...`<br>
 | longform_notetweets_rich_text_read_enabled                              | boolean | True       |
 | longform_notetweets_inline_media_enabled                                | boolean | True       |
 | payments_enabled                                                        | boolean | False      |
-| rweb_xchat_enabled                                                      | boolean | False      |
+| rweb_xchat_enabled                                                      | boolean | True       |
 | profile_label_improvements_pcf_label_in_post_enabled                    | boolean | True       |
 | rweb_tipjar_consumption_enabled                                         | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -4818,7 +4818,7 @@ Login Required: `...`<br>
 | key                                                               | type    | variable   |
 |:------------------------------------------------------------------|:--------|:-----------|
 | payments_enabled                                                  | boolean | False      |
-| rweb_xchat_enabled                                                | boolean | False      |
+| rweb_xchat_enabled                                                | boolean | True       |
 | profile_label_improvements_pcf_label_in_post_enabled              | boolean | True       |
 | rweb_tipjar_consumption_enabled                                   | boolean | True       |
 | verified_phone_label_enabled                                      | boolean | False      |
@@ -4838,7 +4838,7 @@ Login Required: `...`<br>
 | key                                                               | type    | variable   |
 |:------------------------------------------------------------------|:--------|:-----------|
 | payments_enabled                                                  | boolean | False      |
-| rweb_xchat_enabled                                                | boolean | False      |
+| rweb_xchat_enabled                                                | boolean | True       |
 | profile_label_improvements_pcf_label_in_post_enabled              | boolean | True       |
 | rweb_tipjar_consumption_enabled                                   | boolean | True       |
 | verified_phone_label_enabled                                      | boolean | False      |
@@ -4858,7 +4858,7 @@ Login Required: `...`<br>
 | key                                                               | type    | variable   |
 |:------------------------------------------------------------------|:--------|:-----------|
 | payments_enabled                                                  | boolean | False      |
-| rweb_xchat_enabled                                                | boolean | False      |
+| rweb_xchat_enabled                                                | boolean | True       |
 | profile_label_improvements_pcf_label_in_post_enabled              | boolean | True       |
 | rweb_tipjar_consumption_enabled                                   | boolean | True       |
 | verified_phone_label_enabled                                      | boolean | False      |
@@ -4878,7 +4878,7 @@ Login Required: `...`<br>
 | key                                                               | type    | variable   |
 |:------------------------------------------------------------------|:--------|:-----------|
 | payments_enabled                                                  | boolean | False      |
-| rweb_xchat_enabled                                                | boolean | False      |
+| rweb_xchat_enabled                                                | boolean | True       |
 | profile_label_improvements_pcf_label_in_post_enabled              | boolean | True       |
 | rweb_tipjar_consumption_enabled                                   | boolean | True       |
 | verified_phone_label_enabled                                      | boolean | False      |
@@ -4899,7 +4899,7 @@ Login Required: `...`<br>
 |:------------------------------------------------------------------------|:--------|:-----------|
 | creator_subscriptions_tweet_preview_api_enabled                         | boolean | True       |
 | payments_enabled                                                        | boolean | False      |
-| rweb_xchat_enabled                                                      | boolean | False      |
+| rweb_xchat_enabled                                                      | boolean | True       |
 | profile_label_improvements_pcf_label_in_post_enabled                    | boolean | True       |
 | rweb_tipjar_consumption_enabled                                         | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -4946,7 +4946,7 @@ Login Required: `...`<br>
 |:------------------------------------------------------------------------|:--------|:-----------|
 | rweb_video_screen_enabled                                               | boolean | False      |
 | payments_enabled                                                        | boolean | False      |
-| rweb_xchat_enabled                                                      | boolean | False      |
+| rweb_xchat_enabled                                                      | boolean | True       |
 | profile_label_improvements_pcf_label_in_post_enabled                    | boolean | True       |
 | rweb_tipjar_consumption_enabled                                         | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -4994,7 +4994,7 @@ Login Required: `...`<br>
 |:------------------------------------------------------------------------|:--------|:-----------|
 | rweb_video_screen_enabled                                               | boolean | False      |
 | payments_enabled                                                        | boolean | False      |
-| rweb_xchat_enabled                                                      | boolean | False      |
+| rweb_xchat_enabled                                                      | boolean | True       |
 | profile_label_improvements_pcf_label_in_post_enabled                    | boolean | True       |
 | rweb_tipjar_consumption_enabled                                         | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -5042,7 +5042,7 @@ Login Required: `...`<br>
 |:------------------------------------------------------------------------|:--------|:-----------|
 | rweb_video_screen_enabled                                               | boolean | False      |
 | payments_enabled                                                        | boolean | False      |
-| rweb_xchat_enabled                                                      | boolean | False      |
+| rweb_xchat_enabled                                                      | boolean | True       |
 | profile_label_improvements_pcf_label_in_post_enabled                    | boolean | True       |
 | rweb_tipjar_consumption_enabled                                         | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -5089,7 +5089,7 @@ Login Required: `...`<br>
 | key                                                               | type    | variable   |
 |:------------------------------------------------------------------|:--------|:-----------|
 | payments_enabled                                                  | boolean | False      |
-| rweb_xchat_enabled                                                | boolean | False      |
+| rweb_xchat_enabled                                                | boolean | True       |
 | profile_label_improvements_pcf_label_in_post_enabled              | boolean | True       |
 | rweb_tipjar_consumption_enabled                                   | boolean | True       |
 | verified_phone_label_enabled                                      | boolean | False      |
@@ -5124,7 +5124,7 @@ Login Required: `...`<br>
 |:------------------------------------------------------------------------|:--------|:-----------|
 | rweb_video_screen_enabled                                               | boolean | False      |
 | payments_enabled                                                        | boolean | False      |
-| rweb_xchat_enabled                                                      | boolean | False      |
+| rweb_xchat_enabled                                                      | boolean | True       |
 | profile_label_improvements_pcf_label_in_post_enabled                    | boolean | True       |
 | rweb_tipjar_consumption_enabled                                         | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -5337,7 +5337,7 @@ Login Required: `...`<br>
 | longform_notetweets_rich_text_read_enabled                              | boolean | True       |
 | longform_notetweets_inline_media_enabled                                | boolean | True       |
 | payments_enabled                                                        | boolean | False      |
-| rweb_xchat_enabled                                                      | boolean | False      |
+| rweb_xchat_enabled                                                      | boolean | True       |
 | profile_label_improvements_pcf_label_in_post_enabled                    | boolean | True       |
 | rweb_tipjar_consumption_enabled                                         | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -5387,7 +5387,7 @@ Login Required: `...`<br>
 | longform_notetweets_rich_text_read_enabled                              | boolean | True       |
 | longform_notetweets_inline_media_enabled                                | boolean | True       |
 | payments_enabled                                                        | boolean | False      |
-| rweb_xchat_enabled                                                      | boolean | False      |
+| rweb_xchat_enabled                                                      | boolean | True       |
 | profile_label_improvements_pcf_label_in_post_enabled                    | boolean | True       |
 | rweb_tipjar_consumption_enabled                                         | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -5439,7 +5439,7 @@ Login Required: `...`<br>
 | responsive_web_grok_community_note_auto_translation_is_enabled    | boolean | False      |
 | responsive_web_graphql_timeline_navigation_enabled                | boolean | True       |
 | payments_enabled                                                  | boolean | False      |
-| rweb_xchat_enabled                                                | boolean | False      |
+| rweb_xchat_enabled                                                | boolean | True       |
 | profile_label_improvements_pcf_label_in_post_enabled              | boolean | True       |
 | rweb_tipjar_consumption_enabled                                   | boolean | True       |
 | verified_phone_label_enabled                                      | boolean | False      |
@@ -5605,7 +5605,7 @@ Login Required: `...`<br>
 |:------------------------------------------------------------------------|:--------|:-----------|
 | rweb_video_screen_enabled                                               | boolean | False      |
 | payments_enabled                                                        | boolean | False      |
-| rweb_xchat_enabled                                                      | boolean | False      |
+| rweb_xchat_enabled                                                      | boolean | True       |
 | profile_label_improvements_pcf_label_in_post_enabled                    | boolean | True       |
 | rweb_tipjar_consumption_enabled                                         | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -5654,7 +5654,7 @@ Login Required: `...`<br>
 | responsive_web_birdwatch_translation_enabled                      | boolean | True       |
 | responsive_web_graphql_timeline_navigation_enabled                | boolean | True       |
 | payments_enabled                                                  | boolean | False      |
-| rweb_xchat_enabled                                                | boolean | False      |
+| rweb_xchat_enabled                                                | boolean | True       |
 | profile_label_improvements_pcf_label_in_post_enabled              | boolean | True       |
 | rweb_tipjar_consumption_enabled                                   | boolean | True       |
 | verified_phone_label_enabled                                      | boolean | False      |
@@ -5680,7 +5680,7 @@ Login Required: `...`<br>
 | responsive_web_grok_community_note_auto_translation_is_enabled    | boolean | False      |
 | responsive_web_graphql_timeline_navigation_enabled                | boolean | True       |
 | payments_enabled                                                  | boolean | False      |
-| rweb_xchat_enabled                                                | boolean | False      |
+| rweb_xchat_enabled                                                | boolean | True       |
 | profile_label_improvements_pcf_label_in_post_enabled              | boolean | True       |
 | rweb_tipjar_consumption_enabled                                   | boolean | True       |
 | verified_phone_label_enabled                                      | boolean | False      |
@@ -5705,7 +5705,7 @@ Login Required: `...`<br>
 | responsive_web_grok_community_note_auto_translation_is_enabled    | boolean | False      |
 | responsive_web_graphql_timeline_navigation_enabled                | boolean | True       |
 | payments_enabled                                                  | boolean | False      |
-| rweb_xchat_enabled                                                | boolean | False      |
+| rweb_xchat_enabled                                                | boolean | True       |
 | profile_label_improvements_pcf_label_in_post_enabled              | boolean | True       |
 | rweb_tipjar_consumption_enabled                                   | boolean | True       |
 | verified_phone_label_enabled                                      | boolean | False      |
@@ -5775,7 +5775,7 @@ Login Required: `...`<br>
 | longform_notetweets_rich_text_read_enabled                              | boolean | True       |
 | longform_notetweets_inline_media_enabled                                | boolean | True       |
 | payments_enabled                                                        | boolean | False      |
-| rweb_xchat_enabled                                                      | boolean | False      |
+| rweb_xchat_enabled                                                      | boolean | True       |
 | profile_label_improvements_pcf_label_in_post_enabled                    | boolean | True       |
 | rweb_tipjar_consumption_enabled                                         | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -5836,7 +5836,7 @@ Login Required: `...`<br>
 |:------------------------------------------------------------------------|:--------|:-----------|
 | rweb_video_screen_enabled                                               | boolean | False      |
 | payments_enabled                                                        | boolean | False      |
-| rweb_xchat_enabled                                                      | boolean | False      |
+| rweb_xchat_enabled                                                      | boolean | True       |
 | profile_label_improvements_pcf_label_in_post_enabled                    | boolean | True       |
 | rweb_tipjar_consumption_enabled                                         | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -5906,7 +5906,7 @@ Login Required: `...`<br>
 |:------------------------------------------------------------------------|:--------|:-----------|
 | rweb_video_screen_enabled                                               | boolean | False      |
 | payments_enabled                                                        | boolean | False      |
-| rweb_xchat_enabled                                                      | boolean | False      |
+| rweb_xchat_enabled                                                      | boolean | True       |
 | profile_label_improvements_pcf_label_in_post_enabled                    | boolean | True       |
 | rweb_tipjar_consumption_enabled                                         | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -6053,7 +6053,7 @@ Login Required: `...`<br>
 | longform_notetweets_rich_text_read_enabled                              | boolean | True       |
 | longform_notetweets_inline_media_enabled                                | boolean | True       |
 | payments_enabled                                                        | boolean | False      |
-| rweb_xchat_enabled                                                      | boolean | False      |
+| rweb_xchat_enabled                                                      | boolean | True       |
 | profile_label_improvements_pcf_label_in_post_enabled                    | boolean | True       |
 | rweb_tipjar_consumption_enabled                                         | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -6166,7 +6166,7 @@ Login Required: `...`<br>
 | longform_notetweets_rich_text_read_enabled                              | boolean | True       |
 | longform_notetweets_inline_media_enabled                                | boolean | True       |
 | payments_enabled                                                        | boolean | False      |
-| rweb_xchat_enabled                                                      | boolean | False      |
+| rweb_xchat_enabled                                                      | boolean | True       |
 | profile_label_improvements_pcf_label_in_post_enabled                    | boolean | True       |
 | rweb_tipjar_consumption_enabled                                         | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -6235,7 +6235,7 @@ Login Required: `...`<br>
 |:------------------------------------------------------------------------|:--------|:-----------|
 | rweb_video_screen_enabled                                               | boolean | False      |
 | payments_enabled                                                        | boolean | False      |
-| rweb_xchat_enabled                                                      | boolean | False      |
+| rweb_xchat_enabled                                                      | boolean | True       |
 | profile_label_improvements_pcf_label_in_post_enabled                    | boolean | True       |
 | rweb_tipjar_consumption_enabled                                         | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -6389,7 +6389,7 @@ Login Required: `...`<br>
 |:------------------------------------------------------------------------|:--------|:-----------|
 | rweb_video_screen_enabled                                               | boolean | False      |
 | payments_enabled                                                        | boolean | False      |
-| rweb_xchat_enabled                                                      | boolean | False      |
+| rweb_xchat_enabled                                                      | boolean | True       |
 | profile_label_improvements_pcf_label_in_post_enabled                    | boolean | True       |
 | rweb_tipjar_consumption_enabled                                         | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -6459,7 +6459,7 @@ Login Required: `...`<br>
 |:------------------------------------------------------------------------|:--------|:-----------|
 | rweb_video_screen_enabled                                               | boolean | False      |
 | payments_enabled                                                        | boolean | False      |
-| rweb_xchat_enabled                                                      | boolean | False      |
+| rweb_xchat_enabled                                                      | boolean | True       |
 | profile_label_improvements_pcf_label_in_post_enabled                    | boolean | True       |
 | rweb_tipjar_consumption_enabled                                         | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -6561,7 +6561,7 @@ Login Required: `...`<br>
 | key                                                               | type    | variable   |
 |:------------------------------------------------------------------|:--------|:-----------|
 | payments_enabled                                                  | boolean | False      |
-| rweb_xchat_enabled                                                | boolean | False      |
+| rweb_xchat_enabled                                                | boolean | True       |
 | profile_label_improvements_pcf_label_in_post_enabled              | boolean | True       |
 | rweb_tipjar_consumption_enabled                                   | boolean | True       |
 | verified_phone_label_enabled                                      | boolean | False      |
@@ -6595,7 +6595,7 @@ Login Required: `...`<br>
 |:------------------------------------------------------------------------|:--------|:-----------|
 | rweb_video_screen_enabled                                               | boolean | False      |
 | payments_enabled                                                        | boolean | False      |
-| rweb_xchat_enabled                                                      | boolean | False      |
+| rweb_xchat_enabled                                                      | boolean | True       |
 | profile_label_improvements_pcf_label_in_post_enabled                    | boolean | True       |
 | rweb_tipjar_consumption_enabled                                         | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -6709,7 +6709,7 @@ Login Required: `...`<br>
 | longform_notetweets_rich_text_read_enabled                              | boolean | True       |
 | longform_notetweets_inline_media_enabled                                | boolean | True       |
 | payments_enabled                                                        | boolean | False      |
-| rweb_xchat_enabled                                                      | boolean | False      |
+| rweb_xchat_enabled                                                      | boolean | True       |
 | profile_label_improvements_pcf_label_in_post_enabled                    | boolean | True       |
 | rweb_tipjar_consumption_enabled                                         | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -6822,7 +6822,7 @@ Login Required: `...`<br>
 | longform_notetweets_rich_text_read_enabled                              | boolean | True       |
 | longform_notetweets_inline_media_enabled                                | boolean | True       |
 | payments_enabled                                                        | boolean | False      |
-| rweb_xchat_enabled                                                      | boolean | False      |
+| rweb_xchat_enabled                                                      | boolean | True       |
 | profile_label_improvements_pcf_label_in_post_enabled                    | boolean | True       |
 | rweb_tipjar_consumption_enabled                                         | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -6880,7 +6880,7 @@ Login Required: `...`<br>
 |:------------------------------------------------------------------------|:--------|:-----------|
 | rweb_video_screen_enabled                                               | boolean | False      |
 | payments_enabled                                                        | boolean | False      |
-| rweb_xchat_enabled                                                      | boolean | False      |
+| rweb_xchat_enabled                                                      | boolean | True       |
 | profile_label_improvements_pcf_label_in_post_enabled                    | boolean | True       |
 | rweb_tipjar_consumption_enabled                                         | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -6928,7 +6928,7 @@ Login Required: `...`<br>
 |:------------------------------------------------------------------------|:--------|:-----------|
 | rweb_video_screen_enabled                                               | boolean | False      |
 | payments_enabled                                                        | boolean | False      |
-| rweb_xchat_enabled                                                      | boolean | False      |
+| rweb_xchat_enabled                                                      | boolean | True       |
 | profile_label_improvements_pcf_label_in_post_enabled                    | boolean | True       |
 | rweb_tipjar_consumption_enabled                                         | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -7086,7 +7086,7 @@ Login Required: `...`<br>
 |:------------------------------------------------------------------------|:--------|:-----------|
 | rweb_video_screen_enabled                                               | boolean | False      |
 | payments_enabled                                                        | boolean | False      |
-| rweb_xchat_enabled                                                      | boolean | False      |
+| rweb_xchat_enabled                                                      | boolean | True       |
 | profile_label_improvements_pcf_label_in_post_enabled                    | boolean | True       |
 | rweb_tipjar_consumption_enabled                                         | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -7156,7 +7156,7 @@ Login Required: `...`<br>
 |:------------------------------------------------------------------------|:--------|:-----------|
 | rweb_video_screen_enabled                                               | boolean | False      |
 | payments_enabled                                                        | boolean | False      |
-| rweb_xchat_enabled                                                      | boolean | False      |
+| rweb_xchat_enabled                                                      | boolean | True       |
 | profile_label_improvements_pcf_label_in_post_enabled                    | boolean | True       |
 | rweb_tipjar_consumption_enabled                                         | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -7293,7 +7293,7 @@ Login Required: `...`<br>
 | longform_notetweets_rich_text_read_enabled                              | boolean | True       |
 | longform_notetweets_inline_media_enabled                                | boolean | True       |
 | payments_enabled                                                        | boolean | False      |
-| rweb_xchat_enabled                                                      | boolean | False      |
+| rweb_xchat_enabled                                                      | boolean | True       |
 | profile_label_improvements_pcf_label_in_post_enabled                    | boolean | True       |
 | rweb_tipjar_consumption_enabled                                         | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -7349,7 +7349,7 @@ Login Required: `...`<br>
 | key                                                               | type    | variable   |
 |:------------------------------------------------------------------|:--------|:-----------|
 | payments_enabled                                                  | boolean | False      |
-| rweb_xchat_enabled                                                | boolean | False      |
+| rweb_xchat_enabled                                                | boolean | True       |
 | profile_label_improvements_pcf_label_in_post_enabled              | boolean | True       |
 | rweb_tipjar_consumption_enabled                                   | boolean | True       |
 | verified_phone_label_enabled                                      | boolean | False      |
@@ -7380,7 +7380,7 @@ Login Required: `...`<br>
 | key                                                               | type    | variable   |
 |:------------------------------------------------------------------|:--------|:-----------|
 | payments_enabled                                                  | boolean | False      |
-| rweb_xchat_enabled                                                | boolean | False      |
+| rweb_xchat_enabled                                                | boolean | True       |
 | profile_label_improvements_pcf_label_in_post_enabled              | boolean | True       |
 | rweb_tipjar_consumption_enabled                                   | boolean | True       |
 | verified_phone_label_enabled                                      | boolean | False      |
@@ -7400,7 +7400,7 @@ Login Required: `...`<br>
 | key                                                               | type    | variable   |
 |:------------------------------------------------------------------|:--------|:-----------|
 | payments_enabled                                                  | boolean | False      |
-| rweb_xchat_enabled                                                | boolean | False      |
+| rweb_xchat_enabled                                                | boolean | True       |
 | profile_label_improvements_pcf_label_in_post_enabled              | boolean | True       |
 | rweb_tipjar_consumption_enabled                                   | boolean | True       |
 | verified_phone_label_enabled                                      | boolean | False      |
@@ -7420,7 +7420,7 @@ Login Required: `...`<br>
 | key                                                               | type    | variable   |
 |:------------------------------------------------------------------|:--------|:-----------|
 | payments_enabled                                                  | boolean | False      |
-| rweb_xchat_enabled                                                | boolean | False      |
+| rweb_xchat_enabled                                                | boolean | True       |
 | profile_label_improvements_pcf_label_in_post_enabled              | boolean | True       |
 | rweb_tipjar_consumption_enabled                                   | boolean | True       |
 | verified_phone_label_enabled                                      | boolean | False      |
@@ -7440,7 +7440,7 @@ Login Required: `...`<br>
 | key                                                               | type    | variable   |
 |:------------------------------------------------------------------|:--------|:-----------|
 | payments_enabled                                                  | boolean | False      |
-| rweb_xchat_enabled                                                | boolean | False      |
+| rweb_xchat_enabled                                                | boolean | True       |
 | profile_label_improvements_pcf_label_in_post_enabled              | boolean | True       |
 | rweb_tipjar_consumption_enabled                                   | boolean | True       |
 | verified_phone_label_enabled                                      | boolean | False      |
@@ -7460,7 +7460,7 @@ Login Required: `...`<br>
 | key                                                               | type    | variable   |
 |:------------------------------------------------------------------|:--------|:-----------|
 | payments_enabled                                                  | boolean | False      |
-| rweb_xchat_enabled                                                | boolean | False      |
+| rweb_xchat_enabled                                                | boolean | True       |
 | profile_label_improvements_pcf_label_in_post_enabled              | boolean | True       |
 | rweb_tipjar_consumption_enabled                                   | boolean | True       |
 | verified_phone_label_enabled                                      | boolean | False      |
@@ -7480,7 +7480,7 @@ Login Required: `...`<br>
 | key                                                               | type    | variable   |
 |:------------------------------------------------------------------|:--------|:-----------|
 | payments_enabled                                                  | boolean | False      |
-| rweb_xchat_enabled                                                | boolean | False      |
+| rweb_xchat_enabled                                                | boolean | True       |
 | profile_label_improvements_pcf_label_in_post_enabled              | boolean | True       |
 | rweb_tipjar_consumption_enabled                                   | boolean | True       |
 | verified_phone_label_enabled                                      | boolean | False      |
@@ -7500,7 +7500,7 @@ Login Required: `...`<br>
 | key                                                               | type    | variable   |
 |:------------------------------------------------------------------|:--------|:-----------|
 | payments_enabled                                                  | boolean | False      |
-| rweb_xchat_enabled                                                | boolean | False      |
+| rweb_xchat_enabled                                                | boolean | True       |
 | profile_label_improvements_pcf_label_in_post_enabled              | boolean | True       |
 | rweb_tipjar_consumption_enabled                                   | boolean | True       |
 | verified_phone_label_enabled                                      | boolean | False      |
@@ -7652,7 +7652,7 @@ Login Required: `...`<br>
 | key                                                               | type    | variable   |
 |:------------------------------------------------------------------|:--------|:-----------|
 | payments_enabled                                                  | boolean | False      |
-| rweb_xchat_enabled                                                | boolean | False      |
+| rweb_xchat_enabled                                                | boolean | True       |
 | profile_label_improvements_pcf_label_in_post_enabled              | boolean | True       |
 | rweb_tipjar_consumption_enabled                                   | boolean | True       |
 | verified_phone_label_enabled                                      | boolean | False      |
@@ -7686,7 +7686,7 @@ Login Required: `...`<br>
 |:------------------------------------------------------------------------|:--------|:-----------|
 | rweb_video_screen_enabled                                               | boolean | False      |
 | payments_enabled                                                        | boolean | False      |
-| rweb_xchat_enabled                                                      | boolean | False      |
+| rweb_xchat_enabled                                                      | boolean | True       |
 | profile_label_improvements_pcf_label_in_post_enabled                    | boolean | True       |
 | rweb_tipjar_consumption_enabled                                         | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -7811,7 +7811,7 @@ Login Required: `...`<br>
 | longform_notetweets_rich_text_read_enabled                              | boolean | True       |
 | longform_notetweets_inline_media_enabled                                | boolean | True       |
 | payments_enabled                                                        | boolean | False      |
-| rweb_xchat_enabled                                                      | boolean | False      |
+| rweb_xchat_enabled                                                      | boolean | True       |
 | profile_label_improvements_pcf_label_in_post_enabled                    | boolean | True       |
 | rweb_tipjar_consumption_enabled                                         | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -7924,7 +7924,7 @@ Login Required: `...`<br>
 | longform_notetweets_rich_text_read_enabled                              | boolean | True       |
 | longform_notetweets_inline_media_enabled                                | boolean | True       |
 | payments_enabled                                                        | boolean | False      |
-| rweb_xchat_enabled                                                      | boolean | False      |
+| rweb_xchat_enabled                                                      | boolean | True       |
 | profile_label_improvements_pcf_label_in_post_enabled                    | boolean | True       |
 | rweb_tipjar_consumption_enabled                                         | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -8121,7 +8121,7 @@ Login Required: `...`<br>
 | longform_notetweets_rich_text_read_enabled                              | boolean | True       |
 | longform_notetweets_inline_media_enabled                                | boolean | True       |
 | payments_enabled                                                        | boolean | False      |
-| rweb_xchat_enabled                                                      | boolean | False      |
+| rweb_xchat_enabled                                                      | boolean | True       |
 | profile_label_improvements_pcf_label_in_post_enabled                    | boolean | True       |
 | rweb_tipjar_consumption_enabled                                         | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -8234,7 +8234,7 @@ Login Required: `...`<br>
 | longform_notetweets_rich_text_read_enabled                              | boolean | True       |
 | longform_notetweets_inline_media_enabled                                | boolean | True       |
 | payments_enabled                                                        | boolean | False      |
-| rweb_xchat_enabled                                                      | boolean | False      |
+| rweb_xchat_enabled                                                      | boolean | True       |
 | profile_label_improvements_pcf_label_in_post_enabled                    | boolean | True       |
 | rweb_tipjar_consumption_enabled                                         | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -8426,7 +8426,7 @@ Login Required: `...`<br>
 | key                                                               | type    | variable   |
 |:------------------------------------------------------------------|:--------|:-----------|
 | payments_enabled                                                  | boolean | False      |
-| rweb_xchat_enabled                                                | boolean | False      |
+| rweb_xchat_enabled                                                | boolean | True       |
 | profile_label_improvements_pcf_label_in_post_enabled              | boolean | True       |
 | rweb_tipjar_consumption_enabled                                   | boolean | True       |
 | verified_phone_label_enabled                                      | boolean | False      |
@@ -8447,7 +8447,7 @@ Login Required: `...`<br>
 |:------------------------------------------------------------------------|:--------|:-----------|
 | rweb_video_screen_enabled                                               | boolean | False      |
 | payments_enabled                                                        | boolean | False      |
-| rweb_xchat_enabled                                                      | boolean | False      |
+| rweb_xchat_enabled                                                      | boolean | True       |
 | profile_label_improvements_pcf_label_in_post_enabled                    | boolean | True       |
 | rweb_tipjar_consumption_enabled                                         | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -8495,7 +8495,7 @@ Login Required: `...`<br>
 |:------------------------------------------------------------------------|:--------|:-----------|
 | rweb_video_screen_enabled                                               | boolean | False      |
 | payments_enabled                                                        | boolean | False      |
-| rweb_xchat_enabled                                                      | boolean | False      |
+| rweb_xchat_enabled                                                      | boolean | True       |
 | profile_label_improvements_pcf_label_in_post_enabled                    | boolean | True       |
 | rweb_tipjar_consumption_enabled                                         | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -8543,7 +8543,7 @@ Login Required: `...`<br>
 |:------------------------------------------------------------------------|:--------|:-----------|
 | rweb_video_screen_enabled                                               | boolean | False      |
 | payments_enabled                                                        | boolean | False      |
-| rweb_xchat_enabled                                                      | boolean | False      |
+| rweb_xchat_enabled                                                      | boolean | True       |
 | profile_label_improvements_pcf_label_in_post_enabled                    | boolean | True       |
 | rweb_tipjar_consumption_enabled                                         | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -8591,7 +8591,7 @@ Login Required: `...`<br>
 |:------------------------------------------------------------------------|:--------|:-----------|
 | rweb_video_screen_enabled                                               | boolean | False      |
 | payments_enabled                                                        | boolean | False      |
-| rweb_xchat_enabled                                                      | boolean | False      |
+| rweb_xchat_enabled                                                      | boolean | True       |
 | profile_label_improvements_pcf_label_in_post_enabled                    | boolean | True       |
 | rweb_tipjar_consumption_enabled                                         | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -8660,7 +8660,7 @@ Login Required: `...`<br>
 | longform_notetweets_rich_text_read_enabled                              | boolean | True       |
 | longform_notetweets_inline_media_enabled                                | boolean | True       |
 | payments_enabled                                                        | boolean | False      |
-| rweb_xchat_enabled                                                      | boolean | False      |
+| rweb_xchat_enabled                                                      | boolean | True       |
 | profile_label_improvements_pcf_label_in_post_enabled                    | boolean | True       |
 | rweb_tipjar_consumption_enabled                                         | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -8687,7 +8687,7 @@ Login Required: `...`<br>
 |:------------------------------------------------------------------------|:--------|:-----------|
 | rweb_video_screen_enabled                                               | boolean | False      |
 | payments_enabled                                                        | boolean | False      |
-| rweb_xchat_enabled                                                      | boolean | False      |
+| rweb_xchat_enabled                                                      | boolean | True       |
 | profile_label_improvements_pcf_label_in_post_enabled                    | boolean | True       |
 | rweb_tipjar_consumption_enabled                                         | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -8735,7 +8735,7 @@ Login Required: `...`<br>
 |:------------------------------------------------------------------------|:--------|:-----------|
 | rweb_video_screen_enabled                                               | boolean | False      |
 | payments_enabled                                                        | boolean | False      |
-| rweb_xchat_enabled                                                      | boolean | False      |
+| rweb_xchat_enabled                                                      | boolean | True       |
 | profile_label_improvements_pcf_label_in_post_enabled                    | boolean | True       |
 | rweb_tipjar_consumption_enabled                                         | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -8804,7 +8804,7 @@ Login Required: `...`<br>
 | longform_notetweets_rich_text_read_enabled                              | boolean | True       |
 | longform_notetweets_inline_media_enabled                                | boolean | True       |
 | payments_enabled                                                        | boolean | False      |
-| rweb_xchat_enabled                                                      | boolean | False      |
+| rweb_xchat_enabled                                                      | boolean | True       |
 | profile_label_improvements_pcf_label_in_post_enabled                    | boolean | True       |
 | rweb_tipjar_consumption_enabled                                         | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -8831,7 +8831,7 @@ Login Required: `...`<br>
 |:------------------------------------------------------------------------|:--------|:-----------|
 | rweb_video_screen_enabled                                               | boolean | False      |
 | payments_enabled                                                        | boolean | False      |
-| rweb_xchat_enabled                                                      | boolean | False      |
+| rweb_xchat_enabled                                                      | boolean | True       |
 | profile_label_improvements_pcf_label_in_post_enabled                    | boolean | True       |
 | rweb_tipjar_consumption_enabled                                         | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -8879,7 +8879,7 @@ Login Required: `...`<br>
 |:------------------------------------------------------------------------|:--------|:-----------|
 | rweb_video_screen_enabled                                               | boolean | False      |
 | payments_enabled                                                        | boolean | False      |
-| rweb_xchat_enabled                                                      | boolean | False      |
+| rweb_xchat_enabled                                                      | boolean | True       |
 | profile_label_improvements_pcf_label_in_post_enabled                    | boolean | True       |
 | rweb_tipjar_consumption_enabled                                         | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -8948,7 +8948,7 @@ Login Required: `...`<br>
 | longform_notetweets_rich_text_read_enabled                              | boolean | True       |
 | longform_notetweets_inline_media_enabled                                | boolean | True       |
 | payments_enabled                                                        | boolean | False      |
-| rweb_xchat_enabled                                                      | boolean | False      |
+| rweb_xchat_enabled                                                      | boolean | True       |
 | profile_label_improvements_pcf_label_in_post_enabled                    | boolean | True       |
 | rweb_tipjar_consumption_enabled                                         | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -9030,7 +9030,7 @@ Login Required: `...`<br>
 | longform_notetweets_rich_text_read_enabled                              | boolean | True       |
 | longform_notetweets_inline_media_enabled                                | boolean | True       |
 | payments_enabled                                                        | boolean | False      |
-| rweb_xchat_enabled                                                      | boolean | False      |
+| rweb_xchat_enabled                                                      | boolean | True       |
 | profile_label_improvements_pcf_label_in_post_enabled                    | boolean | True       |
 | rweb_tipjar_consumption_enabled                                         | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -9143,7 +9143,7 @@ Login Required: `...`<br>
 | longform_notetweets_rich_text_read_enabled                              | boolean | True       |
 | longform_notetweets_inline_media_enabled                                | boolean | True       |
 | payments_enabled                                                        | boolean | False      |
-| rweb_xchat_enabled                                                      | boolean | False      |
+| rweb_xchat_enabled                                                      | boolean | True       |
 | profile_label_improvements_pcf_label_in_post_enabled                    | boolean | True       |
 | rweb_tipjar_consumption_enabled                                         | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -9212,7 +9212,7 @@ Login Required: `...`<br>
 |:------------------------------------------------------------------------|:--------|:-----------|
 | rweb_video_screen_enabled                                               | boolean | False      |
 | payments_enabled                                                        | boolean | False      |
-| rweb_xchat_enabled                                                      | boolean | False      |
+| rweb_xchat_enabled                                                      | boolean | True       |
 | profile_label_improvements_pcf_label_in_post_enabled                    | boolean | True       |
 | rweb_tipjar_consumption_enabled                                         | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -9282,7 +9282,7 @@ Login Required: `...`<br>
 |:------------------------------------------------------------------------|:--------|:-----------|
 | rweb_video_screen_enabled                                               | boolean | False      |
 | payments_enabled                                                        | boolean | False      |
-| rweb_xchat_enabled                                                      | boolean | False      |
+| rweb_xchat_enabled                                                      | boolean | True       |
 | profile_label_improvements_pcf_label_in_post_enabled                    | boolean | True       |
 | rweb_tipjar_consumption_enabled                                         | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -9385,7 +9385,7 @@ Login Required: `...`<br>
 |:------------------------------------------------------------------------|:--------|:-----------|
 | rweb_video_screen_enabled                                               | boolean | False      |
 | payments_enabled                                                        | boolean | False      |
-| rweb_xchat_enabled                                                      | boolean | False      |
+| rweb_xchat_enabled                                                      | boolean | True       |
 | profile_label_improvements_pcf_label_in_post_enabled                    | boolean | True       |
 | rweb_tipjar_consumption_enabled                                         | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -9455,7 +9455,7 @@ Login Required: `...`<br>
 |:------------------------------------------------------------------------|:--------|:-----------|
 | rweb_video_screen_enabled                                               | boolean | False      |
 | payments_enabled                                                        | boolean | False      |
-| rweb_xchat_enabled                                                      | boolean | False      |
+| rweb_xchat_enabled                                                      | boolean | True       |
 | profile_label_improvements_pcf_label_in_post_enabled                    | boolean | True       |
 | rweb_tipjar_consumption_enabled                                         | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -9635,7 +9635,7 @@ Login Required: `...`<br>
 | longform_notetweets_rich_text_read_enabled                              | boolean | True       |
 | longform_notetweets_inline_media_enabled                                | boolean | True       |
 | payments_enabled                                                        | boolean | False      |
-| rweb_xchat_enabled                                                      | boolean | False      |
+| rweb_xchat_enabled                                                      | boolean | True       |
 | profile_label_improvements_pcf_label_in_post_enabled                    | boolean | True       |
 | rweb_tipjar_consumption_enabled                                         | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -9748,7 +9748,7 @@ Login Required: `...`<br>
 | longform_notetweets_rich_text_read_enabled                              | boolean | True       |
 | longform_notetweets_inline_media_enabled                                | boolean | True       |
 | payments_enabled                                                        | boolean | False      |
-| rweb_xchat_enabled                                                      | boolean | False      |
+| rweb_xchat_enabled                                                      | boolean | True       |
 | profile_label_improvements_pcf_label_in_post_enabled                    | boolean | True       |
 | rweb_tipjar_consumption_enabled                                         | boolean | True       |
 | verified_phone_label_enabled                                            | boolean | False      |
@@ -9805,7 +9805,7 @@ Login Required: `...`<br>
 | key                                                               | type    | variable   |
 |:------------------------------------------------------------------|:--------|:-----------|
 | payments_enabled                                                  | boolean | False      |
-| rweb_xchat_enabled                                                | boolean | False      |
+| rweb_xchat_enabled                                                | boolean | True       |
 | profile_label_improvements_pcf_label_in_post_enabled              | boolean | True       |
 | rweb_tipjar_consumption_enabled                                   | boolean | True       |
 | verified_phone_label_enabled                                      | boolean | False      |
@@ -9836,7 +9836,7 @@ Login Required: `...`<br>
 | key                                                               | type    | variable   |
 |:------------------------------------------------------------------|:--------|:-----------|
 | payments_enabled                                                  | boolean | False      |
-| rweb_xchat_enabled                                                | boolean | False      |
+| rweb_xchat_enabled                                                | boolean | True       |
 | profile_label_improvements_pcf_label_in_post_enabled              | boolean | True       |
 | rweb_tipjar_consumption_enabled                                   | boolean | True       |
 | verified_phone_label_enabled                                      | boolean | False      |
@@ -9856,7 +9856,7 @@ Login Required: `...`<br>
 | key                                                               | type    | variable   |
 |:------------------------------------------------------------------|:--------|:-----------|
 | payments_enabled                                                  | boolean | False      |
-| rweb_xchat_enabled                                                | boolean | False      |
+| rweb_xchat_enabled                                                | boolean | True       |
 | profile_label_improvements_pcf_label_in_post_enabled              | boolean | True       |
 | rweb_tipjar_consumption_enabled                                   | boolean | True       |
 | verified_phone_label_enabled                                      | boolean | False      |
@@ -9876,7 +9876,7 @@ Login Required: `...`<br>
 | key                                                               | type    | variable   |
 |:------------------------------------------------------------------|:--------|:-----------|
 | payments_enabled                                                  | boolean | False      |
-| rweb_xchat_enabled                                                | boolean | False      |
+| rweb_xchat_enabled                                                | boolean | True       |
 | profile_label_improvements_pcf_label_in_post_enabled              | boolean | True       |
 | rweb_tipjar_consumption_enabled                                   | boolean | True       |
 | verified_phone_label_enabled                                      | boolean | False      |
@@ -9896,7 +9896,7 @@ Login Required: `...`<br>
 | key                                                               | type    | variable   |
 |:------------------------------------------------------------------|:--------|:-----------|
 | payments_enabled                                                  | boolean | False      |
-| rweb_xchat_enabled                                                | boolean | False      |
+| rweb_xchat_enabled                                                | boolean | True       |
 | profile_label_improvements_pcf_label_in_post_enabled              | boolean | True       |
 | rweb_tipjar_consumption_enabled                                   | boolean | True       |
 | verified_phone_label_enabled                                      | boolean | False      |
@@ -9916,7 +9916,7 @@ Login Required: `...`<br>
 | key                                                               | type    | variable   |
 |:------------------------------------------------------------------|:--------|:-----------|
 | payments_enabled                                                  | boolean | False      |
-| rweb_xchat_enabled                                                | boolean | False      |
+| rweb_xchat_enabled                                                | boolean | True       |
 | profile_label_improvements_pcf_label_in_post_enabled              | boolean | True       |
 | rweb_tipjar_consumption_enabled                                   | boolean | True       |
 | verified_phone_label_enabled                                      | boolean | False      |
@@ -9936,7 +9936,7 @@ Login Required: `...`<br>
 | key                                                               | type    | variable   |
 |:------------------------------------------------------------------|:--------|:-----------|
 | payments_enabled                                                  | boolean | False      |
-| rweb_xchat_enabled                                                | boolean | False      |
+| rweb_xchat_enabled                                                | boolean | True       |
 | profile_label_improvements_pcf_label_in_post_enabled              | boolean | True       |
 | rweb_tipjar_consumption_enabled                                   | boolean | True       |
 | verified_phone_label_enabled                                      | boolean | False      |
@@ -9956,7 +9956,7 @@ Login Required: `...`<br>
 | key                                                               | type    | variable   |
 |:------------------------------------------------------------------|:--------|:-----------|
 | payments_enabled                                                  | boolean | False      |
-| rweb_xchat_enabled                                                | boolean | False      |
+| rweb_xchat_enabled                                                | boolean | True       |
 | profile_label_improvements_pcf_label_in_post_enabled              | boolean | True       |
 | rweb_tipjar_consumption_enabled                                   | boolean | True       |
 | verified_phone_label_enabled                                      | boolean | False      |
@@ -9976,7 +9976,7 @@ Login Required: `...`<br>
 | key                                                               | type    | variable   |
 |:------------------------------------------------------------------|:--------|:-----------|
 | payments_enabled                                                  | boolean | False      |
-| rweb_xchat_enabled                                                | boolean | False      |
+| rweb_xchat_enabled                                                | boolean | True       |
 | profile_label_improvements_pcf_label_in_post_enabled              | boolean | True       |
 | rweb_tipjar_consumption_enabled                                   | boolean | True       |
 | verified_phone_label_enabled                                      | boolean | False      |
