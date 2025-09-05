@@ -92,6 +92,7 @@ def replace_ver(script):
         r"\1,",
         d,
     )
+    output = output.replace("\"+','+\"", '","')
     output = f"[{output}]"
     try:
         return ast.literal_eval(output)
