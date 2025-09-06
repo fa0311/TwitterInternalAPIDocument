@@ -1,11 +1,5 @@
 # Twitter Internal Constants Document<br>
 This document is entirely auto-generated and may contain errors.<br>
-| constant    | value        |
-|:------------|:-------------|
-| joinSpace   | s().h400d7c2 |
-| replaySpace | s().g66c8348 |
-| comingUp    | s().be6ef5b4 |
-
 | constant      | value         |
 |:--------------|:--------------|
 | single_line   | singleline    |
@@ -13,13 +7,18 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{"ActionsBar":"C.Z","ActionMenu":"function()"{"Icon":"e","isDisabled":"t","items":"n","onOpen":"o"}{"const i=r.useCallback()"{"items":"n","onCloseRequested":"e"}{"Icon":"e","isDisabled":"t","onClick":"o","renderActionMenu":"i"}},"CallToAction":"a.ZP","EditCallout":"E.Z","Education":"k.Z","Highlighte...
+{"ActionsBar":"v.Z","ActionMenu":"function()"{"Icon":"e","isDisabled":"t","items":"n","onOpen":"o"}{"const r=i.useCallback()"{"items":"n","onCloseRequested":"e"}{"Icon":"e","isDisabled":"t","onClick":"o","renderActionMenu":"r"}},"CallToAction":"l.ZP","EditCallout":"k.Z","Education":"T.Z","Highlighte...
 ```
 | constant    | value       |
 |:------------|:------------|
 | Draft       | Draft       |
 | Published   | Published   |
 | SoftDeleted | SoftDeleted |
+
+| constant   |   value |
+|:-----------|--------:|
+| HUMAN      |       1 |
+| ASSISTANT  |       2 |
 
 | constant     | value             |
 |:-------------|:------------------|
@@ -79,7 +78,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{"__proto__":"null","shimAddTransceiver":"Mn","shimCreateAnswer":"Nn","shimCreateOffer":"_n","shimGetDisplayMedia":"function()"{e.navigator.mediaDevices&&"getDisplayMedia"in e.navigator.mediaDevices||e.navigator.mediaDevices&&(){"if()"{const e=new DOMException();return e.name="NotFoundError",e.code=...
+{"__proto__":"null","shimAddTransceiver":"_n","shimCreateAnswer":"Nn","shimCreateOffer":"xn","shimGetDisplayMedia":"function()"{e.navigator.mediaDevices&&"getDisplayMedia"in e.navigator.mediaDevices||e.navigator.mediaDevices&&(){"if()"{const e=new DOMException();return e.name="NotFoundError",e.code=...
 ```
 | constant                  | value   |
 |:--------------------------|:--------|
@@ -117,6 +116,11 @@ This document is entirely auto-generated and may contain errors.<br>
 |:------------|:------------|
 | InitialSale | InitialSale |
 | Renewal     | Renewal     |
+
+| constant   |   value |
+|:-----------|--------:|
+| HUMAN      |       1 |
+| ASSISTANT  |       2 |
 
 | constant   | value    |
 |:-----------|:---------|
@@ -383,6 +387,13 @@ This document is entirely auto-generated and may contain errors.<br>
 | Premium             | Premium             |
 | PublicKeyCredential | PublicKeyCredential |
 
+| constant            | value               |
+|:--------------------|:--------------------|
+| Geography           | Geography           |
+| Interest            | Interest            |
+| Premium             | Premium             |
+| PublicKeyCredential | PublicKeyCredential |
+
 | constant                     | value                        |
 |:-----------------------------|:-----------------------------|
 | DocumentTypeMonthlyStatement | DocumentTypeMonthlyStatement |
@@ -634,7 +645,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{[m.jq.WIRE_TRANSFER]:"i().gd0092d0",[m.jq.ACCOUNT_LINKING]:"i().h21d2206",[m.jq.DEPOSIT]:"i().f00e8268",[m.jq.P2P_TRANSFER_REQUEST]:"i().e3f45a70",[m.jq.P2P_TRANSFER_SEND]:"i().e3f45a70",[m.jq.P2P_TRANSFER_SEND_FUNDED]:"i().f00e8268",[m.jq.WITHDRAWAL]:"i().e04209d0",[m.jq.MAIL_CHECK]:"i().d92cbe6a"...
+{[d.jq.WIRE_TRANSFER]:"i().gd0092d0",[d.jq.ACCOUNT_LINKING]:"i().h21d2206",[d.jq.DEPOSIT]:"i().f00e8268",[d.jq.P2P_TRANSFER_REQUEST]:"i().e3f45a70",[d.jq.P2P_TRANSFER_SEND]:"i().e3f45a70",[d.jq.P2P_TRANSFER_SEND_FUNDED]:"i().f00e8268",[d.jq.WITHDRAWAL]:"i().e04209d0",[d.jq.MAIL_CHECK]:"i().d92cbe6a"...
 ```
 ```internal process
 # Error
@@ -642,19 +653,19 @@ This document is entirely auto-generated and may contain errors.<br>
 ```
 ```internal process
 # Error
-{[v.g.Cancelled]:"u().f93c4b6a",[v.g.Failed]:"u().jf1576ba",[v.g.Expired]:"u().eb4e810a",[v.g.Pending]:"Pe",[v.g.Hold]:"Pe",[v.g.AuthorizationOpen]:"Pe",[v.g.AwaitingUnrecognizedConfirmation]:"u().hc20de4e",[v.g.PendingReview]:"u().dd3d10f6",[v.g.PendingRecipientAction]:"Pe",[v.g.PendingRecipientOnb...
+{[S.g.Cancelled]:"u().f93c4b6a",[S.g.Failed]:"u().jf1576ba",[S.g.Expired]:"u().eb4e810a",[S.g.Pending]:"Pe",[S.g.Hold]:"Pe",[S.g.AuthorizationOpen]:"Pe",[S.g.AwaitingUnrecognizedConfirmation]:"u().hc20de4e",[S.g.PendingReview]:"u().dd3d10f6",[S.g.PendingRecipientAction]:"Pe",[S.g.PendingRecipientOnb...
 ```
 ```internal process
 # Error
-{[k.P.RejectedLimitsExceeded]:"u().h1eac44e",[k.P.InReview]:"u().dd3d10f6",[k.P.RejectedByUnsupportedRegion]:"u().ce26fa44",[k.P.RejectedNotSufficientFunds]:"u().d8240266",[k.P.RejectedCardPaymentsDisabled]:"u().j4b80adc",[k.P.UnrecognizedActivityConfirmed]:"u().ga8ab57c",[k.P.UnrecognizedActivityRe...
+{[A.P.RejectedLimitsExceeded]:"u().h1eac44e",[A.P.InReview]:"u().dd3d10f6",[A.P.RejectedByUnsupportedRegion]:"u().ce26fa44",[A.P.RejectedNotSufficientFunds]:"u().d8240266",[A.P.RejectedCardPaymentsDisabled]:"u().j4b80adc",[A.P.UnrecognizedActivityConfirmed]:"u().ga8ab57c",[A.P.UnrecognizedActivityRe...
 ```
 ```internal process
 # Error
-{[v.g.PendingRecipientAcceptance]:"H",[v.g.PendingRecipientOnboarding]:"H",[v.g.PendingRecipientAction]:"H"}
+{[S.g.PendingRecipientAcceptance]:"Z",[S.g.PendingRecipientOnboarding]:"Z",[S.g.PendingRecipientAction]:"Z"}
 ```
 ```internal process
 # Error
-{[v.g.AwaitingRequestAcceptance]:"H",[v.g.PendingRequestAcceptance]:"H",[v.g.RequestVerificationRequired]:"H"}
+{[S.g.AwaitingRequestAcceptance]:"Z",[S.g.PendingRequestAcceptance]:"Z",[S.g.RequestVerificationRequired]:"Z"}
 ```
 ```internal process
 # Error
@@ -662,7 +673,7 @@ This document is entirely auto-generated and may contain errors.<br>
 ```
 ```internal process
 # Error
-{[b.W.IssuedCardTypePhysical]:"u().hd82cd40",[b.W.IssuedCardTypeVirtual]:"u().da89a190"}
+{[w.W.IssuedCardTypePhysical]:"u().hd82cd40",[w.W.IssuedCardTypeVirtual]:"u().da89a190"}
 ```
 ```internal process
 # Error
@@ -674,7 +685,7 @@ This document is entirely auto-generated and may contain errors.<br>
 ```
 ```internal process
 # Error
-{[C.D.LoginRequired]:"u().d87f82b4",[C.D.Invalid]:"u().iaad96d0",[C.D.Pending]:"Pe",[C.D.Revoked]:"u().i31b3ed4",[C.D.Canceled]:"u().a89b0322",[C.D.Inactive]:"u().ac43b354"}
+{[x.D.LoginRequired]:"u().d87f82b4",[x.D.Invalid]:"u().iaad96d0",[x.D.Pending]:"Pe",[x.D.Revoked]:"u().i31b3ed4",[x.D.Canceled]:"u().a89b0322",[x.D.Inactive]:"u().ac43b354"}
 ```
 ```internal process
 # Error
@@ -682,7 +693,7 @@ This document is entirely auto-generated and may contain errors.<br>
 ```
 ```internal process
 # Error
-{[P.B.Ach]:"qe",[P.B.Aft]:"$e",[P.B.Oct]:"Fe",[P.B.Wire]:"Ke",[P.B.Check]:"u().f61ada4e",[P.B.ProviderBankTransfer]:"u().a418353e",[P.B.Cash]:"u().g98c7cd2"}
+{[P.B.Ach]:"Fe",[P.B.Aft]:"Ke",[P.B.Oct]:"$e",[P.B.Wire]:"Ee",[P.B.Check]:"u().f61ada4e",[P.B.ProviderBankTransfer]:"u().a418353e",[P.B.Cash]:"u().g98c7cd2"}
 ```
 ```internal process
 # Error
@@ -690,7 +701,7 @@ This document is entirely auto-generated and may contain errors.<br>
 ```
 ```internal process
 # Error
-{[R.R.Ach]:"qe",[R.R.Aft]:"$e",[T.t.Oct]:"Fe",[T.t.DomesticWire]:"Ke",[T.t.Ach]:"qe"}
+{[v.R.Ach]:"Fe",[v.R.Aft]:"Ke",[T.t.Oct]:"$e",[T.t.DomesticWire]:"Ee",[T.t.Ach]:"Fe"}
 ```
 | constant   | value     |
 |:-----------|:----------|
@@ -698,12 +709,17 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{[k.hA.generate]:"v().fc1f43d0",[k.hA.switchFromDirect]:"v().fc1f43d0",[k.hA.updateSeats]:"v().c97ad52a"}
+{[w.hA.generate]:"_().fc1f43d0",[w.hA.switchFromDirect]:"_().fc1f43d0",[w.hA.updateSeats]:"_().c97ad52a"}
 ```
 | constant   | value                                                                                                                |
 |:-----------|:---------------------------------------------------------------------------------------------------------------------|
 | apple      | https://apps.apple.com/account/billing                                                                               |
 | google     | https://play.google.com/store/account/subscriptions?sku=com.twitter.google.rogue.one.1.1&package=com.twitter.android |
+
+| constant   |   value |
+|:-----------|--------:|
+| HUMAN      |       1 |
+| ASSISTANT  |       2 |
 
 | constant           | value   |
 |:-------------------|:--------|
@@ -797,6 +813,11 @@ This document is entirely auto-generated and may contain errors.<br>
 # Error
 {"minimumRadius":"0","maximumRadius":1/0,"minimumPolarAngle":Math.PI/8,"maximumPolarAngle":Math.PI-Math.PI/8,"minimumAzimuthalAngle":-1/0,"maximumAzimuthalAngle":1/0,"minimumFieldOfView":"10","maximumFieldOfView":"45","interactionPolicy":"always-allow","touchAction":"pan-y"}
 ```
+| constant   |   value |
+|:-----------|--------:|
+| HUMAN      |       1 |
+| ASSISTANT  |       2 |
+
 | constant         | value           |
 |:-----------------|:----------------|
 | LIVE_BROADCAST   | liveBroadcast   |
