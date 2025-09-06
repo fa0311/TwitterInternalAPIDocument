@@ -34,11 +34,11 @@ def get_i18n(i18n_response: str):
 
 def replace_ver(script):
     a = re.sub(
-        "{name}\.createElement\({any}\)".format(
+        "{name}\.createElement\({any},([^,]*?)\)".format(
             name="([a-z])",
             any="([\s\S]*?)",
         ),
-        "",
+        r"\3",
         script,
     )
     b = re.sub(
