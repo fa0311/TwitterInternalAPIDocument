@@ -78,7 +78,7 @@ def replace_ver(script):
         c,
     ).replace("{double_quotation}", '"')
     d = re.sub(
-        "{reg},{reg}".format(
+        "{reg},{reg}(?!$)".format(
             reg="(\"|')",
         ),
         r"\1+','+\2",
