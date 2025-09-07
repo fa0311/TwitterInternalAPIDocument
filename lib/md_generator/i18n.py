@@ -3,7 +3,7 @@ import re
 
 
 def get_i18n(i18n_response: str):
-    reg_script = '{name}\("{id}",({fn}|{quote}{any}{quote})\)'.format(
+    reg_script = '{name}\("{id}",({fn}|{quote}{any}{quote})\)[,;}}]'.format(
         quote="[\"']",
         name="([a-z])",
         id="([a-z0-9]{8})",
