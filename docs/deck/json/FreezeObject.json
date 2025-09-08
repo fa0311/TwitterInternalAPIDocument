@@ -3,12 +3,6 @@
     "single_line": "singleline",
     "format_inline": "format-inline"
   },
-  "{\"ActionsBar\":\"v.Z\",\"ActionMenu\":\"function()\"{\"Icon\":\"e\",\"isDisabled\":\"t\",\"items\":\"n\",\"onOpen\":\"o\"}{\"const r=i.useCallback()\"{\"items\":\"n\",\"onCloseRequested\":\"e\"}{\"Icon\":\"e\",\"isDisabled\":\"t\",\"onClick\":\"o\",\"renderActionMenu\":\"r\"}},\"CallToAction\":\"l.ZP\",\"EditCallout\":\"k.Z\",\"Education\":\"T.Z\",\"HighlightedUserLabel\":\"d.Z\",\"Media\":\"_.Z\",\"Place\":\"a.ZP\",\"PromotedDetails\":\"m.Z\",\"PromotedUserProfileCard\":\"P\",\"ReplyContext\":\"L.ZP\",\"RichContent\":\"M.Z\",\"SocialContext\":\"w.Z\",\"Text\":\"R.Z\",\"Tombstone\":\"f.Z\",\"Timestamp\":\"h.Z\",\"UserAvatar\":\"D.Z\",\"UserFollowIndicator\":\"F.Z\",\"UserName\":\"B.Z\",\"ArticleCard\":\"E.Z\"}",
-  {
-    "Draft": "Draft",
-    "Published": "Published",
-    "SoftDeleted": "SoftDeleted"
-  },
   {
     "HUMAN": "1",
     "ASSISTANT": "2"
@@ -37,6 +31,12 @@
     "veryNarrow": "veryNarrow"
   },
   "{[r.wide]:\"500\",[r.narrow]:\"300\",[r.veryNarrow]:\"200\"}",
+  {
+    "large": "54",
+    "medium": "46",
+    "small": "36",
+    "xSmall": "12"
+  },
   "{\"__proto__\":\"null\",\"formatCaption\":\"function()\"{\"return()(0,a.WU)\"},\"formatDay\":\"function()\"{\"return()(0,a.WU)\"},\"formatMonthCaption\":\"function()\"{\"return()(0,a.WU)\"},\"formatWeekNumber\":\"function()\"{return\"\".concat()},\"formatWeekdayName\":\"function()\"{\"return()(0,a.WU)\"},\"formatYearCaption\":\"function()\"{\"return()(0,a.WU)\"}}",
   "{\"__proto__\":\"null\",\"labelDay\":\"function()\"{\"return()(0,a.WU)\"},\"labelMonthDropdown\":\"function()\"{return\"Month: \"},\"labelNext\":\"function()\"{return\"Go to next month\"},\"labelPrevious\":\"function()\"{return\"Go to previous month\"},\"labelWeekNumber\":\"function()\"{return\"Week n. \".concat()},\"labelWeekday\":\"function()\"{\"return()(0,a.WU)\"},\"labelYearDropdown\":\"function()\"{return\"Year: \"}}",
   "{\"₊\":\"+\",\"₋\":\"-\",\"₌\":\"=\",\"₍\":\"()\",\"₀\":\"0\",\"₁\":\"1\",\"₂\":\"2\",\"₃\":\"3\",\"₄\":\"4\",\"₅\":\"5\",\"₆\":\"6\",\"₇\":\"7\",\"₈\":\"8\",\"₉\":\"9\",ₐ:\"a\",ₑ:\"e\",ₕ:\"h\",ᵢ:\"i\",ⱼ:\"j\",ₖ:\"k\",ₗ:\"l\",ₘ:\"m\",ₙ:\"n\",ₒ:\"o\",ₚ:\"p\",ᵣ:\"r\",ₛ:\"s\",ₜ:\"t\",ᵤ:\"u\",ᵥ:\"v\",ₓ:\"x\",ᵦ:\"β\",ᵧ:\"γ\",ᵨ:\"ρ\",ᵩ:\"ϕ\",ᵪ:\"χ\",\"⁺\":\"+\",\"⁻\":\"-\",\"⁼\":\"=\",\"⁽\":\"(\\\",\\\"₎\\\":\\\")\",\"⁰\":\"0\",\"¹\":\"1\",\"²\":\"2\",\"³\":\"3\",\"⁴\":\"4\",\"⁵\":\"5\",\"⁶\":\"6\",\"⁷\":\"7\",\"⁸\":\"8\",\"⁹\":\"9\",ᴬ:\"A\",ᴮ:\"B\",ᴰ:\"D\",ᴱ:\"E\",ᴳ:\"G\",ᴴ:\"H\",ᴵ:\"I\",ᴶ:\"J\",ᴷ:\"K\",ᴸ:\"L\",ᴹ:\"M\",ᴺ:\"N\",ᴼ:\"O\",ᴾ:\"P\",ᴿ:\"R\",ᵀ:\"T\",ᵁ:\"U\",ⱽ:\"V\",ᵂ:\"W\",ᵃ:\"a\",ᵇ:\"b\",ᶜ:\"c\",ᵈ:\"d\",ᵉ:\"e\",ᶠ:\"f\",ᵍ:\"g\",ʰ:\"h\",ⁱ:\"i\",ʲ:\"j\",ᵏ:\"k\",ˡ:\"l\",ᵐ:\"m\",ⁿ:\"n\",ᵒ:\"o\",ᵖ:\"p\",ʳ:\"r\",ˢ:\"s\",ᵗ:\"t\",ᵘ:\"u\",ᵛ:\"v\",ʷ:\"w\",ˣ:\"x\",ʸ:\"y\",ᶻ:\"z\",ᵝ:\"β\",ᵞ:\"γ\",ᵟ:\"δ\",ᵠ:\"ϕ\",ᵡ:\"χ\",ᶿ:\"θ\"}",
