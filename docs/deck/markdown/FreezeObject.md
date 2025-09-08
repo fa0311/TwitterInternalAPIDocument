@@ -5,16 +5,6 @@ This document is entirely auto-generated and may contain errors.<br>
 | single_line   | singleline    |
 | format_inline | format-inline |
 
-```internal process
-# Error
-{"ActionsBar":"v.Z","ActionMenu":"function()"{"Icon":"e","isDisabled":"t","items":"n","onOpen":"o"}{"const r=i.useCallback()"{"items":"n","onCloseRequested":"e"}{"Icon":"e","isDisabled":"t","onClick":"o","renderActionMenu":"r"}},"CallToAction":"l.ZP","EditCallout":"k.Z","Education":"T.Z","Highlighte...
-```
-| constant    | value       |
-|:------------|:------------|
-| Draft       | Draft       |
-| Published   | Published   |
-| SoftDeleted | SoftDeleted |
-
 | constant   |   value |
 |:-----------|--------:|
 | HUMAN      |       1 |
@@ -51,6 +41,13 @@ This document is entirely auto-generated and may contain errors.<br>
 # Error
 {[r.wide]:"500",[r.narrow]:"300",[r.veryNarrow]:"200"}
 ```
+| constant   |   value |
+|:-----------|--------:|
+| large      |      54 |
+| medium     |      46 |
+| small      |      36 |
+| xSmall     |      12 |
+
 ```internal process
 # Error
 {"__proto__":"null","formatCaption":"function()"{"return()(0,a.WU)"},"formatDay":"function()"{"return()(0,a.WU)"},"formatMonthCaption":"function()"{"return()(0,a.WU)"},"formatWeekNumber":"function()"{return"".concat()},"formatWeekdayName":"function()"{"return()(0,a.WU)"},"formatYearCaption":"functio...
