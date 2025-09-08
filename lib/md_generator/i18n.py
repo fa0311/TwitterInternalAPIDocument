@@ -32,7 +32,7 @@ def get_i18n(i18n_response: str):
     return res_1 | res_2
 
 
-def replace_ver(script):
+def replace_ver(script: str):
     a = re.sub(
         "{name}\.createElement\({any},([^,]*?)\)".format(
             name="([a-z])",
@@ -107,14 +107,14 @@ def replace_ver(script):
     return [script]
 
 
-def i18n_format_1(script):
+def i18n_format_1(script: str):
     return "".join(replace_ver(script))
 
 
-def i18n_format_2(script):
-    data = [""]
-    quote = []
-    before = ""
+def i18n_format_2(script: str):
+    data: list[str] = [""]
+    quote: list[str] = []
+    before: str = ""
     for d in script.lstrip("[").rstrip("]"):
         if d == "\\":
             before += "\\"
