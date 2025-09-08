@@ -5871,3 +5871,14 @@
 - None<br>
 #### remove<br>
 - xchat_enable_onboarding_flow<br>
+## 2025/09/08<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- responsive_web_tweet_analytics_video_metrics_v2_enabled<br>
