@@ -4725,8 +4725,8 @@
       "features": {}
     },
     "GrokConversationItemsByRestId": {
-      "url": "https://x.com/i/api/graphql/8h7e_2146bCGcq64ZK73oQ/GrokConversationItemsByRestId",
-      "queryId": "8h7e_2146bCGcq64ZK73oQ",
+      "url": "https://x.com/i/api/graphql/qxwvYKE_BQ7nqO9S8Dt9mw/GrokConversationItemsByRestId",
+      "queryId": "qxwvYKE_BQ7nqO9S8Dt9mw",
       "method": "GET",
       "features": {
         "creator_subscriptions_tweet_preview_api_enabled": true,
@@ -4802,8 +4802,8 @@
       "features": {}
     },
     "GrokShare": {
-      "url": "https://x.com/i/api/graphql/mkL1r5FJhzi9aWMYBgQ-tg/GrokShare",
-      "queryId": "mkL1r5FJhzi9aWMYBgQ-tg",
+      "url": "https://x.com/i/api/graphql/_gebqz_0mQYqDOg_Lxr54g/GrokShare",
+      "queryId": "_gebqz_0mQYqDOg_Lxr54g",
       "method": "GET",
       "features": {
         "creator_subscriptions_tweet_preview_api_enabled": true,
