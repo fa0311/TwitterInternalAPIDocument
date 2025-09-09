@@ -10519,8 +10519,8 @@ This document is entirely auto-generated and may contain errors.<br>
 | design               | m       |
 | marketing            | p       |
 | sales_am             | h       |
-| operations           | b       |
-| people_hr            | g       |
+| operations           | g       |
+| people_hr            | b       |
 | finance_accounting   | f       |
 | legal_compliance     | y       |
 | science_engineering  | _       |
