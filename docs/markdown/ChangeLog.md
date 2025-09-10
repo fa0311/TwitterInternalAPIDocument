@@ -6925,3 +6925,16 @@
 - None<br>
 #### remove<br>
 - responsive_web_tweet_analytics_video_metrics_v2_enabled<br>
+## 2025/09/10<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- rweb_dash_menu_app_redirect_footer_enabled<br>
+- xchat_enable_local_pagination<br>
+- xchat_emit_while_pulling<br>
+#### remove<br>
+- rweb_xchat_enabled<br>
