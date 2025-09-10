@@ -2554,6 +2554,9 @@
       "rweb_conf_rnnoise_enabled": {
         "value": "true"
       },
+      "rweb_dash_menu_app_redirect_footer_enabled": {
+        "value": "false"
+      },
       "rweb_debugger_bug_report_email": {
         "value": ""
       },
@@ -2688,9 +2691,6 @@
       },
       "rweb_xchat_debug_enabled": {
         "value": "false"
-      },
-      "rweb_xchat_enabled": {
-        "value": "true"
       },
       "rweb_xchat_logs": {
         "value": "false"
@@ -3756,6 +3756,9 @@
       "xchat_enable_inbox_pills": {
         "value": "true"
       },
+      "xchat_enable_local_pagination": {
+        "value": "false"
+      },
       "xchat_enable_message_requests": {
         "value": "false"
       },
@@ -3796,7 +3799,7 @@
         "value": "true"
       },
       "xchat_sign_messages": {
-        "value": "false"
+        "value": "true"
       },
       "xchat_socket_hostname": {
         "value": "chat-ws.x.com"
@@ -3808,7 +3811,7 @@
         "value": "500"
       },
       "xchat_verify_message_signatures": {
-        "value": "false"
+        "value": "true"
       },
       "xprofile_consumption_enabled": {
         "value": "true"
@@ -6287,6 +6290,9 @@
         "rweb_conf_rnnoise_enabled": {
           "value": "true"
         },
+        "rweb_dash_menu_app_redirect_footer_enabled": {
+          "value": "false"
+        },
         "rweb_debugger_bug_report_email": {
           "value": ""
         },
@@ -6421,9 +6427,6 @@
         },
         "rweb_xchat_debug_enabled": {
           "value": "false"
-        },
-        "rweb_xchat_enabled": {
-          "value": "true"
         },
         "rweb_xchat_logs": {
           "value": "false"
@@ -7477,6 +7480,9 @@
         "xchat_discard_events_with_invalid_signature": {
           "value": "false"
         },
+        "xchat_emit_while_pulling": {
+          "value": "true"
+        },
         "xchat_enable_av": {
           "value": "false"
         },
@@ -7488,6 +7494,9 @@
         },
         "xchat_enable_inbox_pills": {
           "value": "true"
+        },
+        "xchat_enable_local_pagination": {
+          "value": "false"
         },
         "xchat_enable_message_requests": {
           "value": "false"
@@ -7571,10 +7580,10 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "c0dfa3d1d58103831a2d0f4e71369507"
+      "settingsVersion": "6f94cd23f8fb4a2d04a8d9e7bbd4743f"
     },
     "debug": {},
-    "featureSetToken": "d74153efd0e117aa85796759b0873844f5acc3ac",
+    "featureSetToken": "6550748a1e29d8d89085c54bc8dce27b3734a053",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -7643,7 +7652,7 @@
   },
   "session": {
     "country": "XX",
-    "guestId": "175745171861394208",
+    "guestId": "175753812393846443",
     "hasCommunityMemberships": "false",
     "isActiveCreator": "false",
     "isLoaded": "false",
