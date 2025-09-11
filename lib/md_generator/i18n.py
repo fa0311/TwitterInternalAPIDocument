@@ -8,7 +8,7 @@ def get_i18n(i18n_response: str):
         name=r"([a-z])",
         id=r"([a-z0-9]{8})",
         any=r"([\s\S]*?)",
-        fn=r"\(function\([aent]\){return([\s\S]*?)}\)",
+        fn=r"\(function\([aeint]\){return([\s\S]*?)}\)",
     )
 
     res_1 = {
@@ -46,7 +46,7 @@ def replace_ver(script: str):
             reg=r"(\"|')?",
             join=r"(\+)?",
             name=r"([a-z])",
-            ins=r"([aent]|this\.props)",
+            ins=r"([aeint]|this\.props)",
             placeholder=r"([A-Za-z0-9_]+)",
             any=r"([^\(\)]*?)",
             notname=r"([^\+,][\s\S]|[\+,]?[\"'])",
@@ -59,7 +59,7 @@ def replace_ver(script: str):
             reg=r"(\"|')?",
             join=r"(\+)?",
             name=r"([a-z])",
-            ins=r"([aent]|this\.props)",
+            ins=r"([aeint]|this\.props)",
             placeholder=r"([A-Za-z0-9_]+)",
             any=r"([\s\S]*?)",
         ),
@@ -71,7 +71,7 @@ def replace_ver(script: str):
         r"{reg}{join}{ins}\.{placeholder}(?={join}{reg})".format(
             reg=r"(\"|')?",
             join=r"(\+|^|$|,)",
-            ins=r"([aent]|this\.props)",
+            ins=r"([aeint]|this\.props)",
             placeholder=r"([A-Za-z0-9_]+)",
         ),
         r"\1\2{double_quotation}{\4}{double_quotation}",
