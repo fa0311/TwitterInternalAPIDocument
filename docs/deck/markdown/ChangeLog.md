@@ -5895,3 +5895,14 @@
 - xchat_emit_while_pulling<br>
 #### remove<br>
 - rweb_xchat_enabled<br>
+## 2025/09/11<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- responsive_web_grok_show_android_promo_banner<br>
