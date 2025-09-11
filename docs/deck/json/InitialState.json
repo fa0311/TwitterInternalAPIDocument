@@ -1900,9 +1900,6 @@
       "responsive_web_grok_share_attachment_enabled": {
         "value": "true"
       },
-      "responsive_web_grok_show_android_promo_banner": {
-        "value": "true"
-      },
       "responsive_web_grok_show_button_is_ad": {
         "value": "false"
       },
@@ -3743,6 +3740,9 @@
       },
       "xchat_discard_events_with_invalid_signature": {
         "value": "false"
+      },
+      "xchat_emit_while_pulling": {
+        "value": "true"
       },
       "xchat_enable_av": {
         "value": "false"
@@ -5636,9 +5636,6 @@
         "responsive_web_grok_share_attachment_enabled": {
           "value": "true"
         },
-        "responsive_web_grok_show_android_promo_banner": {
-          "value": "true"
-        },
         "responsive_web_grok_show_button_is_ad": {
           "value": "false"
         },
@@ -7481,7 +7478,7 @@
           "value": "false"
         },
         "xchat_emit_while_pulling": {
-          "value": "true"
+          "value": "false"
         },
         "xchat_enable_av": {
           "value": "false"
@@ -7580,10 +7577,10 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "6f94cd23f8fb4a2d04a8d9e7bbd4743f"
+      "settingsVersion": "612987f837e4f7e4f6f91ce81e1999b4"
     },
     "debug": {},
-    "featureSetToken": "6550748a1e29d8d89085c54bc8dce27b3734a053",
+    "featureSetToken": "9953d3986d219dd9581981420c4cc240d1b1a715",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -7652,7 +7649,7 @@
   },
   "session": {
     "country": "XX",
-    "guestId": "175753858154974051",
+    "guestId": "175762491847668063",
     "hasCommunityMemberships": "false",
     "isActiveCreator": "false",
     "isLoaded": "false",
