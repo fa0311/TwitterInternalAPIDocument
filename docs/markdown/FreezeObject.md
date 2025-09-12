@@ -952,6 +952,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | addBankAccount             | addBankAccount             |
 | closeAccount               | closeAccount               |
 | directDepositSetup         | directDepositSetup         |
+| removeCredential           | removeCredential           |
 
 | constant   | value   |
 |:-----------|:--------|
@@ -4321,7 +4322,9 @@ This document is entirely auto-generated and may contain errors.<br>
 | XUserSearch           | x_user_search            |
 | GetXUserTimeline      | get_x_user_timeline      |
 | WebSearchWithSnippets | web_search_with_snippets |
-| UpdateMemory          | update_memory            |
+| AddMemory             | add_memory               |
+| EditMemory            | edit_memory              |
+| DeleteMemory          | delete_memory            |
 
 | constant      | value         |
 |:--------------|:--------------|
@@ -4330,7 +4333,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{"ActionsBar":"y.Z","ActionMenu":"function()"{"Icon":"e","isDisabled":"t","items":"n","onOpen":"o"}{"const r=i.useCallback()"{"items":"n","onCloseRequested":"e"}{"Icon":"e","isDisabled":"t","onClick":"o","renderActionMenu":"r"}},"CallToAction":"s.ZP","EditCallout":"T.Z","Education":"C.Z","Highlighte...
+{"ActionsBar":"y.Z","ActionMenu":"function()"{"Icon":"e","isDisabled":"t","items":"n","onOpen":"o"}{"const r=i.useCallback()"{"items":"n","onCloseRequested":"e"}{"Icon":"e","isDisabled":"t","onClick":"o","renderActionMenu":"r"}},"CallToAction":"s.ZP","EditCallout":"C.Z","Education":"T.Z","Highlighte...
 ```
 | constant     | value        |
 |:-------------|:-------------|
@@ -5671,7 +5674,9 @@ This document is entirely auto-generated and may contain errors.<br>
 | XUserSearch           | x_user_search            |
 | GetXUserTimeline      | get_x_user_timeline      |
 | WebSearchWithSnippets | web_search_with_snippets |
-| UpdateMemory          | update_memory            |
+| AddMemory             | add_memory               |
+| EditMemory            | edit_memory              |
+| DeleteMemory          | delete_memory            |
 
 | constant     |   value |
 |:-------------|--------:|
@@ -6023,7 +6028,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{[W.v.FOLLOWS]:"U",[W.v.FRIENDS_OF_FRIENDS]:"K"}
+{[W.v.FOLLOWS]:"G",[W.v.FRIENDS_OF_FRIENDS]:"U"}
 ```
 | constant   | value   |
 |:-----------|:--------|
@@ -7927,7 +7932,9 @@ This document is entirely auto-generated and may contain errors.<br>
 | XUserSearch           | x_user_search            |
 | GetXUserTimeline      | get_x_user_timeline      |
 | WebSearchWithSnippets | web_search_with_snippets |
-| UpdateMemory          | update_memory            |
+| AddMemory             | add_memory               |
+| EditMemory            | edit_memory              |
+| DeleteMemory          | delete_memory            |
 
 | constant       | value          |
 |:---------------|:---------------|
@@ -9105,52 +9112,52 @@ This document is entirely auto-generated and may contain errors.<br>
 | Totp           | Totp           |
 | U2fSecurityKey | U2fSecurityKey |
 
-| constant                       | value                                 |
-|:-------------------------------|:--------------------------------------|
-| changePhone                    | change-phone                          |
-| success                        | success                               |
-| failure                        | failure                               |
-| ineligible                     | ineligible                            |
-| pendingReview                  | pending-review                        |
-| redirect                       | redirect                              |
-| close                          | close                                 |
-| ready                          | ready                                 |
-| initPorts                      | initPorts                             |
-| invalidChallenge               | invalid-challenge                     |
-| docvChallenge                  | challenge-docv-required               |
-| kycChallenge                   | challenge-kyc-required                |
-| selfieChallenge                | challenge-selfie-required             |
-| twoFactorChallenge             | challenge-2fa-required                |
-| accountNumbercopiedToClipboard | account-number-copied-to-clipboard    |
-| routingNumbercopiedToClipboard | routing-number-copied-to-clipboard    |
-| addContact                     | external-contacts-add-new             |
-| selectContact                  | external-contacts-select-contact      |
-| contactLoaded                  | external-contacts-data-loaded         |
-| createContactSuccess           | external-contacts-create-success      |
-| createContactFailure           | external-contacts-create-failure      |
-| updateContactSuccess           | external-contacts-update-success      |
-| updateContactFailure           | external-contacts-update-failure      |
-| deleteContactFailure           | external-contacts-remove-failure      |
-| deleteContactSuccess           | external-contacts-remove-success      |
-| addContactWireDetails          | external-contacts-add-bank-routing    |
-| editContactTrigger             | external-contacts-on-edit             |
-| edit                           | edit                                  |
-| forgotPin                      | forgot-pin                            |
-| kyc                            | kyc                                   |
-| stepUpDocv                     | stepUpDocv                            |
-| clickKnownDevice               | known-devices-click-device            |
-| removeKnownDeviceSuccess       | known-devices-remove-device-success   |
-| removeKnownDeviceFailure       | known-devices-remove-device-failure   |
-| transactionMetaFailure         | transaction-meta-fetch-failure        |
-| recoverAccess                  | recover-access                        |
-| clickCredential                | credentials-select-credential         |
-| removeCredentialSuccess        | credentials-remove-credential-success |
-| removeCredentialFailure        | credentials-remove-credential-failure |
-| updateCredentialTrigger        | credentials-on-update                 |
-| updateCredentialSuccess        | credentials-update-success            |
-| updateCredentialFailure        | credentials-update-failure            |
-| addSecurityKey                 | credentials-add-security-key          |
-| addPasskey                     | credentials-add-passkey               |
+| constant                       | value                                   |
+|:-------------------------------|:----------------------------------------|
+| changePhone                    | change-phone                            |
+| success                        | success                                 |
+| failure                        | failure                                 |
+| ineligible                     | ineligible                              |
+| pendingReview                  | pending-review                          |
+| redirect                       | redirect                                |
+| close                          | close                                   |
+| ready                          | ready                                   |
+| initPorts                      | initPorts                               |
+| invalidChallenge               | invalid-challenge                       |
+| docvChallenge                  | challenge-docv-required                 |
+| kycChallenge                   | challenge-kyc-required                  |
+| selfieChallenge                | challenge-selfie-required               |
+| twoFactorChallenge             | challenge-2fa-required                  |
+| accountNumbercopiedToClipboard | account-number-copied-to-clipboard      |
+| routingNumbercopiedToClipboard | routing-number-copied-to-clipboard      |
+| addContact                     | external-contacts-add-new               |
+| selectContact                  | external-contacts-select-contact        |
+| contactLoaded                  | external-contacts-data-loaded           |
+| createContactSuccess           | external-contacts-create-success        |
+| createContactFailure           | external-contacts-create-failure        |
+| updateContactSuccess           | external-contacts-update-success        |
+| updateContactFailure           | external-contacts-update-failure        |
+| deleteContactFailure           | external-contacts-remove-failure        |
+| deleteContactSuccess           | external-contacts-remove-success        |
+| addContactWireDetails          | external-contacts-add-bank-routing      |
+| editContactTrigger             | external-contacts-on-edit               |
+| edit                           | edit                                    |
+| forgotPin                      | forgot-pin                              |
+| kyc                            | kyc                                     |
+| stepUpDocv                     | stepUpDocv                              |
+| clickKnownDevice               | known-devices-click-device              |
+| removeKnownDeviceSuccess       | known-devices-remove-device-success     |
+| removeKnownDeviceFailure       | known-devices-remove-device-failure     |
+| transactionMetaFailure         | transaction-meta-fetch-failure          |
+| recoverAccess                  | recover-access                          |
+| clickCredential                | credentials-select-credential           |
+| removeCredentialChallenge      | credentials-remove-credential-challenge |
+| removeCredentialFailure        | credentials-remove-credential-failure   |
+| updateCredentialTrigger        | credentials-on-update                   |
+| updateCredentialSuccess        | credentials-update-success              |
+| updateCredentialFailure        | credentials-update-failure              |
+| addSecurityKey                 | credentials-add-security-key            |
+| addPasskey                     | credentials-add-passkey                 |
 
 | constant     | value        |
 |:-------------|:-------------|
@@ -9220,7 +9227,7 @@ This document is entirely auto-generated and may contain errors.<br>
 ```
 ```internal process
 # Error
-{[I.P.RejectedLimitsExceeded]:"d().h1eac44e",[I.P.InReview]:"d().dd3d10f6",[I.P.RejectedByUnsupportedRegion]:"d().ce26fa44",[I.P.RejectedNotSufficientFunds]:"d().d8240266",[I.P.RejectedCardPaymentsDisabled]:"d().j4b80adc",[I.P.UnrecognizedActivityConfirmed]:"d().ga8ab57c",[I.P.UnrecognizedActivityRe...
+{[I.P.RejectedLimitsExceeded]:"d().h1eac44e",[I.P.InReview]:"d().dd3d10f6",[I.P.RejectedByUnsupportedRegion]:"d().ce26fa44",[I.P.RejectedNotSufficientFunds]:"d().d8240266",[I.P.TooFarFromBarcodeOriginLocation]:"d().je26590c",[I.P.RejectedCardPaymentsDisabled]:"d().j4b80adc",[I.P.UnrecognizedActivity...
 ```
 ```internal process
 # Error
@@ -10660,7 +10667,9 @@ This document is entirely auto-generated and may contain errors.<br>
 | XUserSearch           | x_user_search            |
 | GetXUserTimeline      | get_x_user_timeline      |
 | WebSearchWithSnippets | web_search_with_snippets |
-| UpdateMemory          | update_memory            |
+| AddMemory             | add_memory               |
+| EditMemory            | edit_memory              |
+| DeleteMemory          | delete_memory            |
 
 | constant     |   value |
 |:-------------|--------:|
@@ -10688,11 +10697,11 @@ This document is entirely auto-generated and may contain errors.<br>
 
 |   constant | value               |
 |-----------:|:--------------------|
-|          0 | v.INTERNAL_ERROR    |
-|          1 | v.INVALID_MEDIA     |
-|          2 | v.FILE_TOO_LARGE    |
-|          3 | v.UNSUPPORTED_MEDIA |
-|          4 | v.TIMEOUT           |
+|          0 | y.INTERNAL_ERROR    |
+|          1 | y.INVALID_MEDIA     |
+|          2 | y.FILE_TOO_LARGE    |
+|          3 | y.UNSUPPORTED_MEDIA |
+|          4 | y.TIMEOUT           |
 
 | constant   |   value |
 |:-----------|--------:|
@@ -11572,7 +11581,9 @@ This document is entirely auto-generated and may contain errors.<br>
 | XUserSearch           | x_user_search            |
 | GetXUserTimeline      | get_x_user_timeline      |
 | WebSearchWithSnippets | web_search_with_snippets |
-| UpdateMemory          | update_memory            |
+| AddMemory             | add_memory               |
+| EditMemory            | edit_memory              |
+| DeleteMemory          | delete_memory            |
 
 | constant      | value        |
 |:--------------|:-------------|
