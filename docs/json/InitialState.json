@@ -3742,7 +3742,7 @@
         "value": "false"
       },
       "xchat_emit_while_pulling": {
-        "value": "true"
+        "value": "false"
       },
       "xchat_enable_av": {
         "value": "false"
@@ -7577,10 +7577,10 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "612987f837e4f7e4f6f91ce81e1999b4"
+      "settingsVersion": "e24ca9a1de64fd85da3806e6d49bce13"
     },
     "debug": {},
-    "featureSetToken": "9953d3986d219dd9581981420c4cc240d1b1a715",
+    "featureSetToken": "e58e4b68e73714b127b8733dbc300aa03e64ae69",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -7649,7 +7649,7 @@
   },
   "session": {
     "country": "XX",
-    "guestId": "175762451342699448",
+    "guestId": "175771091364714819",
     "hasCommunityMemberships": "false",
     "isActiveCreator": "false",
     "isLoaded": "false",
