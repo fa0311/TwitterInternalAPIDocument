@@ -1900,9 +1900,6 @@
       "responsive_web_grok_share_attachment_enabled": {
         "value": "true"
       },
-      "responsive_web_grok_show_android_promo_banner": {
-        "value": "true"
-      },
       "responsive_web_grok_show_button_is_ad": {
         "value": "false"
       },
@@ -2335,9 +2332,6 @@
       "responsive_web_tweet_analytics_promoted_audience_demographics_enabled": {
         "value": "false"
       },
-      "responsive_web_tweet_analytics_video_metrics_v2_enabled": {
-        "value": "true"
-      },
       "responsive_web_tweet_details_prefetch_enabled": {
         "value": "true"
       },
@@ -2557,6 +2551,9 @@
       "rweb_conf_rnnoise_enabled": {
         "value": "true"
       },
+      "rweb_dash_menu_app_redirect_footer_enabled": {
+        "value": "false"
+      },
       "rweb_debugger_bug_report_email": {
         "value": ""
       },
@@ -2691,9 +2688,6 @@
       },
       "rweb_xchat_debug_enabled": {
         "value": "false"
-      },
-      "rweb_xchat_enabled": {
-        "value": "true"
       },
       "rweb_xchat_logs": {
         "value": "false"
@@ -3747,6 +3741,9 @@
       "xchat_discard_events_with_invalid_signature": {
         "value": "false"
       },
+      "xchat_emit_while_pulling": {
+        "value": "false"
+      },
       "xchat_enable_av": {
         "value": "false"
       },
@@ -3758,6 +3755,9 @@
       },
       "xchat_enable_inbox_pills": {
         "value": "true"
+      },
+      "xchat_enable_local_pagination": {
+        "value": "false"
       },
       "xchat_enable_message_requests": {
         "value": "false"
@@ -3799,7 +3799,7 @@
         "value": "true"
       },
       "xchat_sign_messages": {
-        "value": "false"
+        "value": "true"
       },
       "xchat_socket_hostname": {
         "value": "chat-ws.x.com"
@@ -3811,7 +3811,7 @@
         "value": "500"
       },
       "xchat_verify_message_signatures": {
-        "value": "false"
+        "value": "true"
       },
       "xprofile_consumption_enabled": {
         "value": "true"
@@ -5636,9 +5636,6 @@
         "responsive_web_grok_share_attachment_enabled": {
           "value": "true"
         },
-        "responsive_web_grok_show_android_promo_banner": {
-          "value": "true"
-        },
         "responsive_web_grok_show_button_is_ad": {
           "value": "false"
         },
@@ -6071,9 +6068,6 @@
         "responsive_web_tweet_analytics_promoted_audience_demographics_enabled": {
           "value": "false"
         },
-        "responsive_web_tweet_analytics_video_metrics_v2_enabled": {
-          "value": "true"
-        },
         "responsive_web_tweet_details_prefetch_enabled": {
           "value": "true"
         },
@@ -6293,6 +6287,9 @@
         "rweb_conf_rnnoise_enabled": {
           "value": "true"
         },
+        "rweb_dash_menu_app_redirect_footer_enabled": {
+          "value": "false"
+        },
         "rweb_debugger_bug_report_email": {
           "value": ""
         },
@@ -6427,9 +6424,6 @@
         },
         "rweb_xchat_debug_enabled": {
           "value": "false"
-        },
-        "rweb_xchat_enabled": {
-          "value": "true"
         },
         "rweb_xchat_logs": {
           "value": "false"
@@ -7483,6 +7477,9 @@
         "xchat_discard_events_with_invalid_signature": {
           "value": "false"
         },
+        "xchat_emit_while_pulling": {
+          "value": "false"
+        },
         "xchat_enable_av": {
           "value": "false"
         },
@@ -7494,6 +7491,9 @@
         },
         "xchat_enable_inbox_pills": {
           "value": "true"
+        },
+        "xchat_enable_local_pagination": {
+          "value": "false"
         },
         "xchat_enable_message_requests": {
           "value": "false"
@@ -7535,7 +7535,7 @@
           "value": "true"
         },
         "xchat_sign_messages": {
-          "value": "false"
+          "value": "true"
         },
         "xchat_socket_hostname": {
           "value": "chat-ws.x.com"
@@ -7547,7 +7547,7 @@
           "value": "500"
         },
         "xchat_verify_message_signatures": {
-          "value": "false"
+          "value": "true"
         },
         "xprofile_consumption_enabled": {
           "value": "true"
@@ -7580,7 +7580,7 @@
       "settingsVersion": "e24ca9a1de64fd85da3806e6d49bce13"
     },
     "debug": {},
-    "featureSetToken": "fab7cb31c6004463f3d8f9c90739a7232bfa2c5d",
+    "featureSetToken": "e58e4b68e73714b127b8733dbc300aa03e64ae69",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -7649,7 +7649,7 @@
   },
   "session": {
     "country": "XX",
-    "guestId": "175719285051742709",
+    "guestId": "175771132630497903",
     "hasCommunityMemberships": "false",
     "isActiveCreator": "false",
     "isLoaded": "false",
