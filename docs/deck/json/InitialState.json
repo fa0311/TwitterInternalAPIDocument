@@ -2552,7 +2552,7 @@
         "value": "true"
       },
       "rweb_dash_menu_app_redirect_footer_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "rweb_debugger_bug_report_email": {
         "value": ""
@@ -6288,7 +6288,7 @@
           "value": "true"
         },
         "rweb_dash_menu_app_redirect_footer_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "rweb_debugger_bug_report_email": {
           "value": ""
@@ -7580,7 +7580,7 @@
       "settingsVersion": "e24ca9a1de64fd85da3806e6d49bce13"
     },
     "debug": {},
-    "featureSetToken": "e58e4b68e73714b127b8733dbc300aa03e64ae69",
+    "featureSetToken": "7db37acfa0e4dad12ecb7e116091e6b3ece2bb91",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -7649,7 +7649,7 @@
   },
   "session": {
     "country": "XX",
-    "guestId": "175771132630497903",
+    "guestId": "175779776419029504",
     "hasCommunityMemberships": "false",
     "isActiveCreator": "false",
     "isLoaded": "false",
