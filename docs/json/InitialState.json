@@ -7493,7 +7493,7 @@
           "value": "true"
         },
         "xchat_enable_local_pagination": {
-          "value": "false"
+          "value": "true"
         },
         "xchat_enable_message_requests": {
           "value": "false"
@@ -7577,10 +7577,10 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "e24ca9a1de64fd85da3806e6d49bce13"
+      "settingsVersion": "44c467c2f6a97e2d0ebcfbc5972653c8"
     },
     "debug": {},
-    "featureSetToken": "7db37acfa0e4dad12ecb7e116091e6b3ece2bb91",
+    "featureSetToken": "34f1d1a37e0b19c35049610396179b01dd6de588",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -7649,7 +7649,7 @@
   },
   "session": {
     "country": "XX",
-    "guestId": "175788371741924614",
+    "guestId": "175797011830311843",
     "hasCommunityMemberships": "false",
     "isActiveCreator": "false",
     "isLoaded": "false",
