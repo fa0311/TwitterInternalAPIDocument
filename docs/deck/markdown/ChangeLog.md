@@ -5906,3 +5906,16 @@
 - None<br>
 #### remove<br>
 - responsive_web_grok_show_android_promo_banner<br>
+## 2025/09/16<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- responsive_web_grok_image_lazyload_enabled<br>
+- syscache_entrypoint_vo_portal_enabled<br>
+- syscache_entrypoint_vo_portal_url<br>
+#### remove<br>
+- None<br>
