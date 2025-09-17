@@ -744,7 +744,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | contentWidthsRedesign | d       |
 | wideTabBarWidth       | c       |
 | dmDrawerHeight        | u       |
-| dmDrawerWidth         | h       |
+| dmDrawerWidth         | m       |
 
 | constant      | value         |
 |:--------------|:--------------|
@@ -829,7 +829,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{[h.SubmitRequest]:"!0",[h.CancelRequest]:"!0",[h.GuestCancelCountdown]:"!0",[h.GuestHangUp]:"!0",[h.InviteViewersToCallIn]:"!0",[h.ToggleCallIn]:"!0",[h.BeginCountdown]:"!0",[h.HostCancelCountdown]:"!0",[h.CompleteCountdown]:"!0",[h.HangUpOnGuest]:"!0",[h.BeginConnecting]:"!0",[h.GuestBroadcastingE...
+{[m.SubmitRequest]:"!0",[m.CancelRequest]:"!0",[m.GuestCancelCountdown]:"!0",[m.GuestHangUp]:"!0",[m.InviteViewersToCallIn]:"!0",[m.ToggleCallIn]:"!0",[m.BeginCountdown]:"!0",[m.HostCancelCountdown]:"!0",[m.CompleteCountdown]:"!0",[m.HangUpOnGuest]:"!0",[m.BeginConnecting]:"!0",[m.GuestBroadcastingE...
 ```
 | constant   | value     |
 |:-----------|:----------|
@@ -1467,19 +1467,19 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{"REQUEST":`${"p"}/FETCH_PENDING_FOLLOWERS_REQUEST`,"SUCCESS":`${"p"}/FETCH_PENDING_FOLLOWERS_SUCCESS`,"FAILURE":`${"p"}/FETCH_PENDING_FOLLOWERS_FAILURE`}
+{"REQUEST":`${"h"}/FETCH_PENDING_FOLLOWERS_REQUEST`,"SUCCESS":`${"h"}/FETCH_PENDING_FOLLOWERS_SUCCESS`,"FAILURE":`${"h"}/FETCH_PENDING_FOLLOWERS_FAILURE`}
 ```
 ```internal process
 # Error
-{"REQUEST":`${"p"}/FETCH_PENDING_FOLLOWERS_USERS_REQUEST`,"SUCCESS":`${"p"}/FETCH_PENDING_FOLLOWERS_USERS_SUCCESS`,"FAILURE":`${"p"}/FETCH_PENDING_FOLLOWERS_USERS_FAILURE`}
+{"REQUEST":`${"h"}/FETCH_PENDING_FOLLOWERS_USERS_REQUEST`,"SUCCESS":`${"h"}/FETCH_PENDING_FOLLOWERS_USERS_SUCCESS`,"FAILURE":`${"h"}/FETCH_PENDING_FOLLOWERS_USERS_FAILURE`}
 ```
 ```internal process
 # Error
-{"REQUEST":`${"p"}/ACCEPT_PENDING_FOLLOWER_REQUEST`,"SUCCESS":`${"p"}/ACCEPT_PENDING_FOLLOWER_SUCCESS`,"FAILURE":`${"p"}/ACCEPT_PENDING_FOLLOWER_FAILURE`}
+{"REQUEST":`${"h"}/ACCEPT_PENDING_FOLLOWER_REQUEST`,"SUCCESS":`${"h"}/ACCEPT_PENDING_FOLLOWER_SUCCESS`,"FAILURE":`${"h"}/ACCEPT_PENDING_FOLLOWER_FAILURE`}
 ```
 ```internal process
 # Error
-{"REQUEST":`${"p"}/DECLINE_PENDING_FOLLOWER_REQUEST`,"SUCCESS":`${"p"}/DECLINE_PENDING_FOLLOWER_SUCCESS`,"FAILURE":`${"p"}/DECLINE_PENDING_FOLLOWER_FAILURE`}
+{"REQUEST":`${"h"}/DECLINE_PENDING_FOLLOWER_REQUEST`,"SUCCESS":`${"h"}/DECLINE_PENDING_FOLLOWER_SUCCESS`,"FAILURE":`${"h"}/DECLINE_PENDING_FOLLOWER_FAILURE`}
 ```
 | constant   | value     |
 |:-----------|:----------|
@@ -2075,17 +2075,17 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant      | value        |
 |:--------------|:-------------|
-| superFollower | h().fc065ee4 |
+| superFollower | m().fc065ee4 |
 
 | constant      | value                                                                                                                                                                                                                  |
 |:--------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| superFollower | {'graphic': 'p.default', 'headline': 'h().e453f536', 'subtext': 'h().bd4cb7a0', 'actionLabel': 'h().g7099a02', 'actionLink': 'https://help.x.com/using-twitter/subscriptions', 'secondaryActionLabel': 'h().c2637ef6'} |
+| superFollower | {'graphic': 'h.default', 'headline': 'm().e453f536', 'subtext': 'm().bd4cb7a0', 'actionLabel': 'm().g7099a02', 'actionLink': 'https://help.x.com/using-twitter/subscriptions', 'secondaryActionLabel': 'm().c2637ef6'} |
 
 | constant        | value        |
 |:----------------|:-------------|
-| followsYou      | h().efb17190 |
-| superFollowsYou | h().g57b5f6c |
-| superFollower   | h().a77a27c0 |
+| followsYou      | m().efb17190 |
+| superFollowsYou | m().g57b5f6c |
+| superFollower   | m().a77a27c0 |
 
 | constant        | value   |
 |:----------------|:--------|
@@ -2227,32 +2227,32 @@ This document is entirely auto-generated and may contain errors.<br>
 | constant   | value               |
 |:-----------|:--------------------|
 | space1     | b.spaces.space1     |
-| space2     | p()                 |
-| space4     | p(b.spaces.space2)  |
-| space8     | p(b.spaces.space4)  |
-| space12    | p(b.spaces.space8)  |
-| space16    | p(b.spaces.space12) |
-| space20    | p(b.spaces.space16) |
-| space24    | p(b.spaces.space20) |
-| space28    | p(b.spaces.space24) |
-| space32    | p(b.spaces.space28) |
-| space36    | p(b.spaces.space32) |
-| space40    | p(b.spaces.space36) |
-| space48    | p(b.spaces.space40) |
-| space56    | p(b.spaces.space48) |
-| space64    | p(b.spaces.space56) |
-| space72    | p(b.spaces.space64) |
-| space80    | p(b.spaces.space72) |
+| space2     | h()                 |
+| space4     | h(b.spaces.space2)  |
+| space8     | h(b.spaces.space4)  |
+| space12    | h(b.spaces.space8)  |
+| space16    | h(b.spaces.space12) |
+| space20    | h(b.spaces.space16) |
+| space24    | h(b.spaces.space20) |
+| space28    | h(b.spaces.space24) |
+| space32    | h(b.spaces.space28) |
+| space36    | h(b.spaces.space32) |
+| space40    | h(b.spaces.space36) |
+| space48    | h(b.spaces.space40) |
+| space56    | h(b.spaces.space48) |
+| space64    | h(b.spaces.space56) |
+| space72    | h(b.spaces.space64) |
+| space80    | h(b.spaces.space72) |
 
 | constant              | value     |
 |:----------------------|:----------|
 | appBarHeight          | M         |
 | appBarHeightPx        | S         |
-| conversationLineWidth | g.space2  |
+| conversationLineWidth | f.space2  |
 | gutterHorizontal      | y.space16 |
-| gutterHorizontalPx    | g.space16 |
+| gutterHorizontalPx    | f.space16 |
 | gutterVertical        | y.space12 |
-| gutterVerticalPx      | g.space12 |
+| gutterVerticalPx      | f.space12 |
 
 | constant            | value   |
 |:--------------------|:--------|
@@ -2263,17 +2263,17 @@ This document is entirely auto-generated and may contain errors.<br>
 | borderWidths        | u       |
 | borderWidthsPx      | c       |
 | breakpoints         | a       |
-| componentDimensions | k       |
+| componentDimensions | A       |
 | componentZIndices   | i       |
 | fontSizes           | w       |
 | fontSizesPx         | v       |
-| fontWeights         | h       |
-| lineHeights         | f       |
+| fontWeights         | m       |
+| lineHeights         | g       |
 | lineHeightsPx       | _       |
 | scales              | t       |
 | scaleMultiplier     | n       |
 | spaces              | y       |
-| spacesPx            | g       |
+| spacesPx            | f       |
 
 | constant         | value            |
 |:-----------------|:-----------------|
@@ -2332,7 +2332,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{[_a.onlyInvited]:"0",[_a.peopleYouFollow]:"1",[_a.everyone]:"2"}
+{[ya.onlyInvited]:"0",[ya.peopleYouFollow]:"1",[ya.everyone]:"2"}
 ```
 | constant   | value             |
 |:-----------|:------------------|
@@ -4340,7 +4340,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{"ActionsBar":"y.Z","ActionMenu":"function()"{"Icon":"e","isDisabled":"t","items":"n","onOpen":"o"}{"const r=i.useCallback()"{"items":"n","onCloseRequested":"e"}{"Icon":"e","isDisabled":"t","onClick":"o","renderActionMenu":"r"}},"CallToAction":"s.ZP","EditCallout":"C.Z","Education":"T.Z","Highlighte...
+{"ActionsBar":"y.Z","ActionMenu":"function()"{"Icon":"e","isDisabled":"t","items":"n","onOpen":"o"}{"const r=i.useCallback()"{"items":"n","onCloseRequested":"e"}{"Icon":"e","isDisabled":"t","onClick":"o","renderActionMenu":"r"}},"CallToAction":"s.ZP","EditCallout":"T.Z","Education":"C.Z","Highlighte...
 ```
 | constant     | value        |
 |:-------------|:-------------|
@@ -5336,6 +5336,12 @@ This document is entirely auto-generated and may contain errors.<br>
 | MEDIUM     | medium   |
 | NONE       | none     |
 
+| constant        | value            |
+|:----------------|:-----------------|
+| Composition     | composition      |
+| DMComposition   | dm_composition   |
+| NoteComposition | note_composition |
+
 | constant       | value          |
 |:---------------|:---------------|
 | TWEET_CARET    | tweet_caret    |
@@ -5344,12 +5350,6 @@ This document is entirely auto-generated and may contain errors.<br>
 | RICH_FEEDBACK  | rich_feedback  |
 | TWEET          | tweet          |
 | FOLLOWERS_LIST | followers_list |
-
-| constant        | value            |
-|:----------------|:-----------------|
-| Composition     | composition      |
-| DMComposition   | dm_composition   |
-| NoteComposition | note_composition |
 
 | constant              | value                                                                                                                                                                                                                                                         |
 |:----------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -6251,7 +6251,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{"ActionsBar":"v.Z","ActionMenu":"function()"{"Icon":"e","isDisabled":"t","items":"n","onOpen":"o"}{"const r=i.useCallback()"{"items":"n","onCloseRequested":"e"}{"Icon":"e","isDisabled":"t","onClick":"o","renderActionMenu":"r"}},"CallToAction":"s.ZP","EditCallout":"_.Z","Education":"T.Z","Highlighte...
+{"ActionsBar":"v.Z","ActionMenu":"function()"{"Icon":"e","isDisabled":"t","items":"n","onOpen":"o"}{"const r=i.useCallback()"{"items":"n","onCloseRequested":"e"}{"Icon":"e","isDisabled":"t","onClick":"o","renderActionMenu":"r"}},"CallToAction":"l.ZP","EditCallout":"_.Z","Education":"T.Z","Highlighte...
 ```
 | constant         | value           |
 |:-----------------|:----------------|
@@ -6498,12 +6498,6 @@ This document is entirely auto-generated and may contain errors.<br>
 | reset      | {'_type': 'reset', 'type': 'reset'} |
 | set        | {'_type': 'set', 'type': 'set'}     |
 
-| constant   | value    |
-|:-----------|:---------|
-| INFINITE   | infinite |
-| MEDIUM     | medium   |
-| NONE       | none     |
-
 | constant       | value           |
 |:---------------|:----------------|
 | Crop           | crop            |
@@ -6512,17 +6506,23 @@ This document is entirely auto-generated and may contain errors.<br>
 | Subtitles      | subtitles       |
 | Trimmer        | trimmer         |
 
-| constant        | value            |
-|:----------------|:-----------------|
-| Composition     | composition      |
-| DMComposition   | dm_composition   |
-| NoteComposition | note_composition |
-
 | constant   | value                                                     |
 |:-----------|:----------------------------------------------------------|
 | REQUEST    | rweb/availableLanguages/FETCH_AVAILABLE_LANGUAGES_REQUEST |
 | SUCCESS    | rweb/availableLanguages/FETCH_AVAILABLE_LANGUAGES_SUCCESS |
 | FAILURE    | rweb/availableLanguages/FETCH_AVAILABLE_LANGUAGES_FAILURE |
+
+| constant   | value    |
+|:-----------|:---------|
+| INFINITE   | infinite |
+| MEDIUM     | medium   |
+| NONE       | none     |
+
+| constant        | value            |
+|:----------------|:-----------------|
+| Composition     | composition      |
+| DMComposition   | dm_composition   |
+| NoteComposition | note_composition |
 
 | constant   | value   |
 |:-----------|:--------|
@@ -7260,6 +7260,13 @@ This document is entirely auto-generated and may contain errors.<br>
 | RequestLocked                      | RequestLocked                      |
 | UnavailableMissingBlueSubscription | UnavailableMissingBlueSubscription |
 
+| constant            | value               |
+|:--------------------|:--------------------|
+| premiumSubscription | premiumSubscription |
+| premiumSettings     | premiumSettings     |
+| securitySettings    | securitySettings    |
+| creator             | creator             |
+
 | constant   | value      |
 |:-----------|:-----------|
 | GROUP      | GroupDm    |
@@ -7268,11 +7275,11 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant               | value                         |
 |:-----------------------|:------------------------------|
-| MessageCreate          | i.Cr.MESSAGE                  |
-| ParticipantsJoin       | i.Cr.PARTICIPANTS_JOIN        |
-| ParticipantsLeave      | i.Cr.PARTICIPANTS_LEAVE       |
-| ConversationNameUpdate | i.Cr.CONVERSATION_NAME_UPDATE |
-| JoinConversation       | i.Cr.JOIN_CONVERSATION        |
+| MessageCreate          | s.Cr.MESSAGE                  |
+| ParticipantsJoin       | s.Cr.PARTICIPANTS_JOIN        |
+| ParticipantsLeave      | s.Cr.PARTICIPANTS_LEAVE       |
+| ConversationNameUpdate | s.Cr.CONVERSATION_NAME_UPDATE |
+| JoinConversation       | s.Cr.JOIN_CONVERSATION        |
 
 | constant   | value                              |
 |:-----------|:-----------------------------------|
@@ -7326,15 +7333,8 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{"Persona":"s.createElement()"{"$i18n":"d3543217"},"s.createElement()"{"link":"x.Jf","withInteractiveStyling":"!0"},"S().e4fed511"}
+{"Persona":"i.createElement()"{"$i18n":"d3543217"},"i.createElement()"{"link":"x.Jf","withInteractiveStyling":"!0"},"y().e4fed511"}
 ```
-| constant            | value               |
-|:--------------------|:--------------------|
-| premiumSubscription | premiumSubscription |
-| premiumSettings     | premiumSettings     |
-| securitySettings    | securitySettings    |
-| creator             | creator             |
-
 | constant   | value                                     |
 |:-----------|:------------------------------------------|
 | REQUEST    | rweb/backupCode/FETCH_BACKUP_CODE_REQUEST |
@@ -7387,16 +7387,6 @@ This document is entirely auto-generated and may contain errors.<br>
 |:-----------|:---------------|
 | Filtering  | optInFiltering |
 | Blocking   | optInBlocking  |
-
-| constant                           | value                              |
-|:-----------------------------------|:-----------------------------------|
-| CanVerifyIdentity                  | CanVerifyIdentity                  |
-| IdentityNonVerifiable              | IdentityNonVerifiable              |
-| IdentityVerified                   | IdentityVerified                   |
-| IdentityVerifiedUnderage           | IdentityVerifiedUnderage           |
-| PendingResult                      | PendingResult                      |
-| RequestLocked                      | RequestLocked                      |
-| UnavailableMissingBlueSubscription | UnavailableMissingBlueSubscription |
 
 | constant      | value                                                                      |
 |:--------------|:---------------------------------------------------------------------------|
@@ -7546,13 +7536,6 @@ This document is entirely auto-generated and may contain errors.<br>
 | TPay          | TPay          |
 | Twitter       | Twitter       |
 | Unknown       | Unknown       |
-
-| constant            | value               |
-|:--------------------|:--------------------|
-| premiumSubscription | premiumSubscription |
-| premiumSettings     | premiumSettings     |
-| securitySettings    | securitySettings    |
-| creator             | creator             |
 
 | constant           | value              |
 |:-------------------|:-------------------|
@@ -7789,11 +7772,6 @@ This document is entirely auto-generated and may contain errors.<br>
 |:-----------|:------------|
 | DRAFT      | s.DRAFT     |
 | PUBLISHED  | s.PUBLISHED |
-
-| constant      | value         |
-|:--------------|:--------------|
-| single_line   | singleline    |
-| format_inline | format-inline |
 
 ```internal process
 # Error
@@ -8289,33 +8267,33 @@ This document is entirely auto-generated and may contain errors.<br>
 | data_analytics       | u       |
 | product              | d       |
 | design               | m       |
-| marketing            | g       |
-| sales_am             | p       |
+| marketing            | p       |
+| sales_am             | g       |
 | operations           | y       |
 | people_hr            | b       |
-| finance_accounting   | f       |
-| legal_compliance     | h       |
+| finance_accounting   | h       |
+| legal_compliance     | f       |
 | science_engineering  | k       |
-| medical              | E       |
-| construction_trades  | v       |
-| other                | _       |
+| medical              | _       |
+| construction_trades  | E       |
+| other                | v       |
 
 | constant    | value   |
 |:------------|:--------|
-| intern      | C       |
+| intern      | S       |
 | entry_level | F       |
-| junior      | x       |
-| mid_level   | Z       |
+| junior      | Z       |
+| mid_level   | x       |
 | senior      | K       |
 | lead        | I       |
-| manager     | T       |
-| executive   | L       |
+| manager     | L       |
+| executive   | T       |
 
 | constant   | value                                                 |
 |:-----------|:------------------------------------------------------|
-| onsite     | {'label': 'P', 'description': 'z', 'value': 'onsite'} |
-| remote     | {'label': 'A', 'description': 'B', 'value': 'remote'} |
-| hybrid     | {'label': 'R', 'description': '$', 'value': 'hybrid'} |
+| onsite     | {'label': 'P', 'description': 'U', 'value': 'onsite'} |
+| remote     | {'label': 'D', 'description': 'M', 'value': 'remote'} |
+| hybrid     | {'label': 'R', 'description': 'B', 'value': 'hybrid'} |
 
 | constant        | value   |
 |:----------------|:--------|
@@ -8324,11 +8302,6 @@ This document is entirely auto-generated and may contain errors.<br>
 | companyName     |         |
 | employmentTypes | []      |
 | industry        |         |
-
-| constant      | value         |
-|:--------------|:--------------|
-| single_line   | singleline    |
-| format_inline | format-inline |
 
 | constant           | value   |
 |:-------------------|:--------|
@@ -9294,7 +9267,7 @@ This document is entirely auto-generated and may contain errors.<br>
 ```
 ```internal process
 # Error
-{[F.B.Ach]:"je",[F.B.Aft]:"Xe",[F.B.Oct]:"Ue",[F.B.Wire]:"qe",[F.B.Check]:"d().f61ada4e",[F.B.ProviderBankTransfer]:"d().a418353e",[F.B.Cash]:"d().g98c7cd2"}
+{[F.B.Ach]:"je",[F.B.Aft]:"Xe",[F.B.Oct]:"Ue",[F.B.Wire]:"Ve",[F.B.Check]:"d().f61ada4e",[F.B.ProviderBankTransfer]:"d().a418353e",[F.B.Cash]:"d().g98c7cd2"}
 ```
 ```internal process
 # Error
@@ -9302,7 +9275,7 @@ This document is entirely auto-generated and may contain errors.<br>
 ```
 ```internal process
 # Error
-{[C.R.Ach]:"je",[C.R.Aft]:"Xe",[P.t.Oct]:"Ue",[P.t.DomesticWire]:"qe",[P.t.Ach]:"je"}
+{[C.R.Ach]:"je",[C.R.Aft]:"Xe",[P.t.Oct]:"Ue",[P.t.DomesticWire]:"Ve",[P.t.Ach]:"je"}
 ```
 | constant   | value                                                                |
 |:-----------|:---------------------------------------------------------------------|
@@ -9535,8 +9508,8 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant    | value     |
 |:------------|:----------|
-| fetchStatus | H.ZP.NONE |
-| config      | Tn        |
+| fetchStatus | $.ZP.NONE |
+| config      | Ca        |
 
 | constant              | value                 |
 |:----------------------|:----------------------|
@@ -9560,11 +9533,6 @@ This document is entirely auto-generated and may contain errors.<br>
 | FullAccess    | FullAccess    |
 | FullAccessGov | FullAccessGov |
 | Basic         | Basic         |
-
-| constant      | value         |
-|:--------------|:--------------|
-| single_line   | singleline    |
-| format_inline | format-inline |
 
 | constant   | value                                                                |
 |:-----------|:---------------------------------------------------------------------|
@@ -10439,8 +10407,8 @@ This document is entirely auto-generated and may contain errors.<br>
 | sales_am             | g       |
 | operations           | b       |
 | people_hr            | h       |
-| finance_accounting   | f       |
-| legal_compliance     | y       |
+| finance_accounting   | y       |
+| legal_compliance     | f       |
 | science_engineering  | _       |
 | medical              | k       |
 | construction_trades  | v       |
@@ -10448,20 +10416,20 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant    | value   |
 |:------------|:--------|
-| intern      | F       |
+| intern      | Z       |
 | entry_level | w       |
 | junior      | C       |
-| mid_level   | x       |
-| senior      | I       |
-| lead        | T       |
-| manager     | P       |
-| executive   | j       |
+| mid_level   | I       |
+| senior      | x       |
+| lead        | P       |
+| manager     | T       |
+| executive   | K       |
 
 | constant   | value                                                 |
 |:-----------|:------------------------------------------------------|
-| onsite     | {'label': 'L', 'description': 'N', 'value': 'onsite'} |
-| remote     | {'label': 'O', 'description': 'U', 'value': 'remote'} |
-| hybrid     | {'label': 'R', 'description': 'z', 'value': 'hybrid'} |
+| onsite     | {'label': 'j', 'description': 'z', 'value': 'onsite'} |
+| remote     | {'label': 'N', 'description': 'U', 'value': 'remote'} |
+| hybrid     | {'label': 'R', 'description': 'O', 'value': 'hybrid'} |
 
 | constant                | value                     |
 |:------------------------|:--------------------------|
@@ -10469,12 +10437,6 @@ This document is entirely auto-generated and may contain errors.<br>
 | OffensiveProfileContent | offensive_profile_content |
 | SensitiveMedia          | sensitive_media           |
 | Timeout                 | timeout                   |
-
-| constant   | value    |
-|:-----------|:---------|
-| INFINITE   | infinite |
-| MEDIUM     | medium   |
-| NONE       | none     |
 
 | constant                | value                     |
 |:------------------------|:--------------------------|
@@ -11239,12 +11201,12 @@ This document is entirely auto-generated and may contain errors.<br>
 |   constant | value   |
 |-----------:|:--------|
 |          1 | d       |
-|          2 | u       |
+|          2 | f       |
 
 | constant   | value                        |
 |:-----------|:-----------------------------|
 | annually   | {'label': 'd', 'value': '1'} |
-| hourly     | {'label': 'u', 'value': '2'} |
+| hourly     | {'label': 'f', 'value': '2'} |
 
 | constant      | value         |
 |:--------------|:--------------|
