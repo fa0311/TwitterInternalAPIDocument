@@ -1825,6 +1825,9 @@
       "responsive_web_grok_image_edit": {
         "value": "true"
       },
+      "responsive_web_grok_image_lazyload_enabled": {
+        "value": "true"
+      },
       "responsive_web_grok_image_prompts_enabled": {
         "value": "true"
       },
@@ -1832,7 +1835,7 @@
         "value": "true"
       },
       "responsive_web_grok_imagine_in_composer_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "responsive_web_grok_img_composer": {
         "value": "true"
@@ -1938,6 +1941,9 @@
       },
       "responsive_web_grok_start_title_experiment_enabled": {
         "value": "false"
+      },
+      "responsive_web_grok_temporary_chat_enabled": {
+        "value": "true"
       },
       "responsive_web_grok_text_selection_enabled": {
         "value": "false"
@@ -3312,6 +3318,12 @@
       "super_follow_web_onboarding_enabled": {
         "value": "true"
       },
+      "syscache_entrypoint_vo_portal_enabled": {
+        "value": "false"
+      },
+      "syscache_entrypoint_vo_portal_url": {
+        "value": ""
+      },
       "system_theme_toggle_enabled": {
         "value": "true"
       },
@@ -3735,8 +3747,17 @@
       "x_jetfuel_enable_test_cluster": {
         "value": "false"
       },
+      "xchat_allow_legacy_protocol": {
+        "value": "false"
+      },
+      "xchat_catch_coroutine_exceptions": {
+        "value": "false"
+      },
       "xchat_conversation_event_limit": {
         "value": "200"
+      },
+      "xchat_conversation_message_search_enabled": {
+        "value": "false"
       },
       "xchat_discard_events_with_invalid_signature": {
         "value": "false"
@@ -3750,25 +3771,25 @@
       "xchat_enable_command_menu": {
         "value": "false"
       },
+      "xchat_enable_drafts": {
+        "value": "false"
+      },
       "xchat_enable_eu_report": {
         "value": "false"
       },
-      "xchat_enable_inbox_pills": {
-        "value": "true"
+      "xchat_enable_forward_message": {
+        "value": "false"
       },
       "xchat_enable_local_pagination": {
+        "value": "true"
+      },
+      "xchat_enable_media_conv_info": {
         "value": "false"
       },
       "xchat_enable_message_requests": {
         "value": "false"
       },
-      "xchat_enable_show_more_button": {
-        "value": "true"
-      },
       "xchat_enabled_inbox_pill_counts": {
-        "value": "false"
-      },
-      "xchat_exclusive_executors": {
         "value": "false"
       },
       "xchat_hybrid_pull_eagerly_fetch_history_after_seconds": {
@@ -3780,8 +3801,14 @@
       "xchat_inbox_conversation_limit": {
         "value": "20"
       },
+      "xchat_local_pagination_page_size": {
+        "value": "50"
+      },
       "xchat_max_group_size": {
         "value": "250"
+      },
+      "xchat_max_group_size_for_remove_info_item": {
+        "value": "100"
       },
       "xchat_process_events_in_batch": {
         "value": "false"
@@ -3792,17 +3819,14 @@
       "xchat_sample_observation_queries": {
         "value": "500"
       },
-      "xchat_send_read_events_unencrypted": {
-        "value": "true"
+      "xchat_screenshot_prevention_enabled": {
+        "value": "false"
       },
-      "xchat_sign_identity_key_during_registration": {
+      "xchat_sign_graphql_messages": {
         "value": "true"
       },
       "xchat_sign_messages": {
         "value": "true"
-      },
-      "xchat_socket_hostname": {
-        "value": "chat-ws.x.com"
       },
       "xchat_throttle_badge_counts": {
         "value": "false"
@@ -5561,6 +5585,9 @@
         "responsive_web_grok_image_edit": {
           "value": "true"
         },
+        "responsive_web_grok_image_lazyload_enabled": {
+          "value": "true"
+        },
         "responsive_web_grok_image_prompts_enabled": {
           "value": "true"
         },
@@ -5568,7 +5595,7 @@
           "value": "true"
         },
         "responsive_web_grok_imagine_in_composer_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "responsive_web_grok_img_composer": {
           "value": "true"
@@ -5674,6 +5701,9 @@
         },
         "responsive_web_grok_start_title_experiment_enabled": {
           "value": "false"
+        },
+        "responsive_web_grok_temporary_chat_enabled": {
+          "value": "true"
         },
         "responsive_web_grok_text_selection_enabled": {
           "value": "false"
@@ -7048,6 +7078,12 @@
         "super_follow_web_onboarding_enabled": {
           "value": "true"
         },
+        "syscache_entrypoint_vo_portal_enabled": {
+          "value": "false"
+        },
+        "syscache_entrypoint_vo_portal_url": {
+          "value": ""
+        },
         "system_theme_toggle_enabled": {
           "value": "true"
         },
@@ -7471,11 +7507,20 @@
         "x_jetfuel_enable_test_cluster": {
           "value": "false"
         },
+        "xchat_allow_legacy_protocol": {
+          "value": "false"
+        },
+        "xchat_catch_coroutine_exceptions": {
+          "value": "false"
+        },
         "xchat_conversation_event_limit": {
           "value": "200"
         },
-        "xchat_discard_events_with_invalid_signature": {
+        "xchat_conversation_message_search_enabled": {
           "value": "false"
+        },
+        "xchat_discard_events_with_invalid_signature": {
+          "value": "true"
         },
         "xchat_emit_while_pulling": {
           "value": "false"
@@ -7486,25 +7531,25 @@
         "xchat_enable_command_menu": {
           "value": "false"
         },
+        "xchat_enable_drafts": {
+          "value": "false"
+        },
         "xchat_enable_eu_report": {
           "value": "false"
         },
-        "xchat_enable_inbox_pills": {
-          "value": "true"
+        "xchat_enable_forward_message": {
+          "value": "false"
         },
         "xchat_enable_local_pagination": {
+          "value": "true"
+        },
+        "xchat_enable_media_conv_info": {
           "value": "false"
         },
         "xchat_enable_message_requests": {
           "value": "false"
         },
-        "xchat_enable_show_more_button": {
-          "value": "true"
-        },
         "xchat_enabled_inbox_pill_counts": {
-          "value": "false"
-        },
-        "xchat_exclusive_executors": {
           "value": "false"
         },
         "xchat_hybrid_pull_eagerly_fetch_history_after_seconds": {
@@ -7516,8 +7561,14 @@
         "xchat_inbox_conversation_limit": {
           "value": "20"
         },
+        "xchat_local_pagination_page_size": {
+          "value": "50"
+        },
         "xchat_max_group_size": {
           "value": "250"
+        },
+        "xchat_max_group_size_for_remove_info_item": {
+          "value": "100"
         },
         "xchat_process_events_in_batch": {
           "value": "false"
@@ -7528,17 +7579,14 @@
         "xchat_sample_observation_queries": {
           "value": "500"
         },
-        "xchat_send_read_events_unencrypted": {
-          "value": "true"
+        "xchat_screenshot_prevention_enabled": {
+          "value": "false"
         },
-        "xchat_sign_identity_key_during_registration": {
+        "xchat_sign_graphql_messages": {
           "value": "true"
         },
         "xchat_sign_messages": {
           "value": "true"
-        },
-        "xchat_socket_hostname": {
-          "value": "chat-ws.x.com"
         },
         "xchat_throttle_badge_counts": {
           "value": "false"
@@ -7577,10 +7625,10 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "e24ca9a1de64fd85da3806e6d49bce13"
+      "settingsVersion": "458ead05263b894a0d797afd2f7b5a46"
     },
     "debug": {},
-    "featureSetToken": "7db37acfa0e4dad12ecb7e116091e6b3ece2bb91",
+    "featureSetToken": "60124b397a144226785752954c0d358c9669b988",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -7649,7 +7697,7 @@
   },
   "session": {
     "country": "XX",
-    "guestId": "175779776419029504",
+    "guestId": "175814332675173418",
     "hasCommunityMemberships": "false",
     "isActiveCreator": "false",
     "isLoaded": "false",

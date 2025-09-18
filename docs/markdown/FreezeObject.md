@@ -122,6 +122,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | TransferLevelThree                               | TransferLevelThree                               |
 | TransferLevelTwo                                 | TransferLevelTwo                                 |
 | UpdateCustomer                                   | UpdateCustomer                                   |
+| UpdateCustomerConsent                            | UpdateCustomerConsent                            |
 | UpdateCustomerPhoneNumber                        | UpdateCustomerPhoneNumber                        |
 | UpdateCustomerPreferences                        | UpdateCustomerPreferences                        |
 | UpdateExternalContact                            | UpdateExternalContact                            |
@@ -155,6 +156,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | KycVerified                             | KycVerified                             |
 | OffWaitlist                             | OffWaitlist                             |
 | Offboarded                              | Offboarded                              |
+| OffboardedByAgent                       | OffboardedByAgent                       |
 | OnboardingTargetKycVerified             | OnboardingTargetKycVerified             |
 | OnboardingTargetTierTwo                 | OnboardingTargetTierTwo                 |
 | PendingBalanceAutoClaim                 | PendingBalanceAutoClaim                 |
@@ -165,6 +167,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | PendingSelfieVerification               | PendingSelfieVerification               |
 | PendingTierThree                        | PendingTierThree                        |
 | PendingTierTwo                          | PendingTierTwo                          |
+| PendingTosConsent                       | PendingTosConsent                       |
 | PublicKeyCredentialAttested             | PublicKeyCredentialAttested             |
 | PublicKeyCredentialRequired             | PublicKeyCredentialRequired             |
 | Registered                              | Registered                              |
@@ -174,6 +177,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | RestrictedGeolocationUsState            | RestrictedGeolocationUsState            |
 | RestrictedOnboardingUsState             | RestrictedOnboardingUsState             |
 | RestrictedUsState                       | RestrictedUsState                       |
+| ResubmitBeforeReview                    | ResubmitBeforeReview                    |
 | SelfieVerified                          | SelfieVerified                          |
 | SendPhysicalCheck                       | SendPhysicalCheck                       |
 | SessionMonitoringProviderUnavailable    | SessionMonitoringProviderUnavailable    |
@@ -4336,7 +4340,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{"ActionsBar":"y.Z","ActionMenu":"function()"{"Icon":"e","isDisabled":"t","items":"n","onOpen":"o"}{"const r=i.useCallback()"{"items":"n","onCloseRequested":"e"}{"Icon":"e","isDisabled":"t","onClick":"o","renderActionMenu":"r"}},"CallToAction":"s.ZP","EditCallout":"C.Z","Education":"T.Z","Highlighte...
+{"ActionsBar":"y.Z","ActionMenu":"function()"{"Icon":"e","isDisabled":"t","items":"n","onOpen":"o"}{"const r=i.useCallback()"{"items":"n","onCloseRequested":"e"}{"Icon":"e","isDisabled":"t","onClick":"o","renderActionMenu":"r"}},"CallToAction":"s.ZP","EditCallout":"T.Z","Education":"C.Z","Highlighte...
 ```
 | constant     | value        |
 |:-------------|:-------------|
@@ -6014,11 +6018,11 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{"__proto__":"null","formatCaption":"function()"{"return()(0,C.WU)"},"formatDay":"function()"{"return()(0,C.WU)"},"formatMonthCaption":"function()"{"return()(0,C.WU)"},"formatWeekNumber":"function()"{return"".concat()},"formatWeekdayName":"function()"{"return()(0,C.WU)"},"formatYearCaption":"functio...
+{"__proto__":"null","formatCaption":"function()"{"return()(0,E.WU)"},"formatDay":"function()"{"return()(0,E.WU)"},"formatMonthCaption":"function()"{"return()(0,E.WU)"},"formatWeekNumber":"function()"{return"".concat()},"formatWeekdayName":"function()"{"return()(0,E.WU)"},"formatYearCaption":"functio...
 ```
 ```internal process
 # Error
-{"__proto__":"null","labelDay":"function()"{"return()(0,C.WU)"},"labelMonthDropdown":"function()"{return"Month: "},"labelNext":"function()"{return"Go to next month"},"labelPrevious":"function()"{return"Go to previous month"},"labelWeekNumber":"function()"{return"Week n. ".concat()},"labelWeekday":"f...
+{"__proto__":"null","labelDay":"function()"{"return()(0,E.WU)"},"labelMonthDropdown":"function()"{return"Month: "},"labelNext":"function()"{return"Go to next month"},"labelPrevious":"function()"{return"Go to previous month"},"labelWeekNumber":"function()"{return"Week n. ".concat()},"labelWeekday":"f...
 ```
 | constant   |   value |
 |:-----------|--------:|
@@ -8906,6 +8910,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | SelfieVerification       | SelfieVerification       |
 | SetupPasskey             | SetupPasskey             |
 | SetupPublicKeyCredential | SetupPublicKeyCredential |
+| TosConsent               | TosConsent               |
 | VerifyPasskey            | VerifyPasskey            |
 
 | constant   | value   |
@@ -10910,8 +10915,8 @@ This document is entirely auto-generated and may contain errors.<br>
 |:-------------------|:--------|
 | __proto__          | null    |
 | assert             | f       |
-| requireNonNull     | A       |
-| requireInstance    | d       |
+| requireNonNull     | d       |
+| requireInstance    | A       |
 | abstractMethodFail | g       |
 
 | constant   | value     |
