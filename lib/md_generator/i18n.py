@@ -3,12 +3,12 @@ import re
 
 
 def get_i18n(i18n_response: str):
-    reg_script = '{name}\("{id}",({fn}|{quote}{any}{quote})\)'.format(
-        quote="[\"']",
-        name="([a-z])",
-        id="([a-z0-9]{8})",
-        any="([\s\S]*?)",
-        fn="\(function\([aent]\){return([\s\S]*?)}\)",
+    reg_script = r'{name}\("{id}",({fn}|{quote}{any}{quote})\)[,;}}]'.format(
+        quote=r"[\"']",
+        name=r"([a-z])",
+        id=r"([a-z0-9]{8})",
+        any=r"([\s\S]*?)",
+        fn=r"\(function\([a-z]\){return([\s\S]*?)}\)",
     )
 
     res_1 = {
@@ -16,9 +16,9 @@ def get_i18n(i18n_response: str):
         for script in re.findall(reg_script, i18n_response)
     }
 
-    reg_script = '{{key:"{id}",get:{fn}}}'.format(
-        id="([a-z0-9]{8})",
-        fn="function\(\){return([\s\S]*?)}",
+    reg_script = r'{{key:"{id}",get:{fn}}}'.format(
+        id=r"([a-z0-9]{8})",
+        fn=r"function\(\){return([\s\S]*?)}",
     )
 
     res_2 = {
@@ -32,63 +32,67 @@ def get_i18n(i18n_response: str):
     return res_1 | res_2
 
 
-def replace_ver(script):
+def replace_ver(script: str):
     a = re.sub(
-        "{name}\.createElement\({any}\)".format(
-            name="([a-z])",
-            any="([\s\S]*?)",
+        r"{name}\.createElement\({any},([^,]*?)\)".format(
+            name=r"([a-z])",
+            any=r"([\s\S]*?)",
         ),
-        "",
+        r"\3",
         script,
     )
     b = re.sub(
-        "{reg}{join}{name}\({ins}\.{placeholder},{any},{any}\({any}\){any}\){join}{reg}".format(
-            reg="(\"|')?",
-            join="(\+)?",
-            name="([a-z])",
-            ins="([aent]|this\.props)",
-            placeholder="([A-Za-z0-9_]+)",
-            any="([\s\S]*?)",
+        r"{reg}{join}{name}\({ins}\.{placeholder},{any}(({notname}\({any}\){any})+?)\){join}{reg}".format(
+            reg=r"(\"|')?",
+            join=r"(\+)?",
+            name=r"([a-z])",
+            ins=r"([a-z]|this\.props)",
+            placeholder=r"([A-Za-z0-9_]+)",
+            any=r"([^\(\)]*?)",
+            notname=r"([^\+,][\s\S]|[\+,]?[\"'])",
         ),
-        r"\1\2\4.\5+\6\10\11",
+        r"\1\2'('+\4.\5,\6\7+')'\12\13",
         a,
     )
     c = re.sub(
-        "{reg}{join}{name}\({ins}\.{placeholder},{any},{any}\){join}{reg}".format(
-            reg="(\"|')?",
-            join="(\+)?",
-            name="([a-z])",
-            ins="([aent]|this\.props)",
-            placeholder="([A-Za-z0-9_]+)",
-            any="([\s\S]*?)",
+        r"{reg}{join}{name}\({ins}\.{placeholder},{any}\){join}{reg}".format(
+            reg=r"(\"|')?",
+            join=r"(\+)?",
+            name=r"([a-z])",
+            ins=r"([a-z]|this\.props)",
+            placeholder=r"([A-Za-z0-9_]+)",
+            any=r"([\s\S]*?)",
         ),
-        r"\1\2\4.\5+\6\8\9",
+        r"\1\2'('+\4.\5,\6+')'\7\8",
         b,
-    )
-    d = re.sub(
-        "{reg}{join}{name}\({ins}\.{placeholder},{any}\){join}{reg}".format(
-            reg="(\"|')?",
-            join="(\+)?",
-            name="([a-z])",
-            ins="([aent]|this\.props)",
-            placeholder="([A-Za-z0-9_]+)",
-            any="([\s\S]*?)",
-        ),
-        r"\1\2\4.\5+\6\7\8",
-        c,
     )
 
     e = re.sub(
-        "{reg}{join}{ins}\.{placeholder}{join}{reg}".format(
-            reg="(\"|')?",
-            join="(\+)?",
-            ins="([aent]|this\.props)",
-            placeholder="([A-Za-z0-9_]+)",
+        r"{reg}{join}{ins}\.{placeholder}(?={join}{reg})".format(
+            reg=r"(\"|')?",
+            join=r"(\+|^|$|,)",
+            ins=r"([a-z]|this\.props)",
+            placeholder=r"([A-Za-z0-9_]+)",
         ),
-        r"\1\2{double_quotation}{\4}{double_quotation}\5\6",
-        d,
+        r"\1\2{double_quotation}{\4}{double_quotation}",
+        c,
     ).replace("{double_quotation}", '"')
-    output = e.replace("+", ",")
+    d = re.sub(
+        r"{reg},{reg}(?!$)".format(
+            reg=r"(\"|')",
+        ),
+        r"\1+','+\2",
+        e,
+    )
+    output = re.sub(
+        r"('{any}'|\"{any}\")\+(?={reg})".format(
+            reg=r"(\"|')",
+            any=r"([\s\S]*?)",
+        ),
+        r"\1,",
+        d,
+    )
+    output = output.replace("\"+','+\"", '","')
     output = f"[{output}]"
     try:
         return ast.literal_eval(output)
@@ -103,14 +107,14 @@ def replace_ver(script):
     return [script]
 
 
-def i18n_format_1(script):
+def i18n_format_1(script: str):
     return "".join(replace_ver(script))
 
 
-def i18n_format_2(script):
-    data = [""]
-    quote = []
-    before = ""
+def i18n_format_2(script: str):
+    data: list[str] = [""]
+    quote: list[str] = []
+    before: str = ""
     for d in script.lstrip("[").rstrip("]"):
         if d == "\\":
             before += "\\"
@@ -128,7 +132,7 @@ def i18n_format_2(script):
                 quote.append("+")
         elif d == quote[-1]:
             quote.pop()
-        elif d in ["("]:
+        elif d in ["("] and quote[-1] == "+":
             quote.append(d.replace("(", ")"))
         data[-1] += d
 
