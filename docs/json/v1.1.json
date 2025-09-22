@@ -783,6 +783,15 @@
     ]
   },
   {
+    "queryId": "live_pipeline/update_subscriptions",
+    "dispatch_key": "post",
+    "dispatch": [
+      "post",
+      "",
+      "https://api.x.com/1.1/{queryId}.json"
+    ]
+  },
+  {
     "queryId": "geo/places",
     "dispatch_key": "get",
     "dispatch": [
@@ -802,15 +811,6 @@
   },
   {
     "queryId": "saved_searches/create",
-    "dispatch_key": "post",
-    "dispatch": [
-      "post",
-      "",
-      "https://api.x.com/1.1/{queryId}.json"
-    ]
-  },
-  {
-    "queryId": "live_pipeline/update_subscriptions",
     "dispatch_key": "post",
     "dispatch": [
       "post",

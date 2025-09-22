@@ -5956,3 +5956,14 @@
 - unified_cards_hide_collection_ad_card_details<br>
 #### remove<br>
 - responsive_web_grok_enable_model_steer_buttons<br>
+## 2025/09/20<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- payments_chat_support_enabled<br>
+#### remove<br>
+- None<br>
