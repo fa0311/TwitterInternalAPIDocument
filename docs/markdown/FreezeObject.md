@@ -10941,12 +10941,12 @@ This document is entirely auto-generated and may contain errors.<br>
 
 |   constant | value   |
 |-----------:|:--------|
-|          1 | s       |
+|          1 | d       |
 |          2 | f       |
 
 | constant   | value                        |
 |:-----------|:-----------------------------|
-| annually   | {'label': 's', 'value': '1'} |
+| annually   | {'label': 'd', 'value': '1'} |
 | hourly     | {'label': 'f', 'value': '2'} |
 
 | constant      | value         |
