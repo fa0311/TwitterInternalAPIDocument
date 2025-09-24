@@ -23576,6 +23576,32 @@
     }
   },
   {
+    "n": "00111",
+    "exports": {
+      "queryId": "_ckHEj05gan2VfNHG6thBA",
+      "operationName": "DisableUserAccountLabel",
+      "operationType": "mutation",
+      "metadata": {
+        "featureSwitches": [],
+        "fieldToggles": [],
+        "featureSwitch": {}
+      }
+    }
+  },
+  {
+    "n": "61490",
+    "exports": {
+      "queryId": "rD5gLxVmMvtdtYU1UHWlFQ",
+      "operationName": "UserAccountLabel",
+      "operationType": "query",
+      "metadata": {
+        "featureSwitches": [],
+        "fieldToggles": [],
+        "featureSwitch": {}
+      }
+    }
+  },
+  {
     "n": "55074",
     "exports": {
       "queryId": "83Gg0lfI-47Z3-ZOxyUjiQ",
