@@ -3751,7 +3751,7 @@
         "value": "false"
       },
       "xchat_allow_legacy_protocol": {
-        "value": "false"
+        "value": "true"
       },
       "xchat_catch_coroutine_exceptions": {
         "value": "false"
@@ -7514,7 +7514,7 @@
           "value": "false"
         },
         "xchat_allow_legacy_protocol": {
-          "value": "false"
+          "value": "true"
         },
         "xchat_catch_coroutine_exceptions": {
           "value": "false"
@@ -7634,7 +7634,7 @@
       "settingsVersion": "e27a38d99b963246396addae99628a22"
     },
     "debug": {},
-    "featureSetToken": "fb00b5e495b8078b572e7780c0167df0370692eb",
+    "featureSetToken": "41f1d6dafb7f1fa410db944d92745092fa310168",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -7703,7 +7703,7 @@
   },
   "session": {
     "country": "XX",
-    "guestId": "175866168415543976",
+    "guestId": "175874814272519959",
     "hasCommunityMemberships": "false",
     "isActiveCreator": "false",
     "isLoaded": "false",
