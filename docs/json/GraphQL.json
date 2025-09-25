@@ -6633,7 +6633,7 @@
   {
     "n": "34713",
     "exports": {
-      "queryId": "U4AmOKUoNtDGpvvUjCTKJg",
+      "queryId": "twoSoAH2bYQzC6AaT8JDYg",
       "operationName": "Upsells",
       "operationType": "query",
       "metadata": {
@@ -8679,7 +8679,7 @@
   {
     "n": "76580",
     "exports": {
-      "queryId": "RTSjxYbzVsRECfMtoB1Cqw",
+      "queryId": "Wef-5pMUNqaTIOc3jKNsNw",
       "operationName": "Viewer",
       "operationType": "query",
       "metadata": {
@@ -21351,7 +21351,7 @@
   {
     "n": "70422",
     "exports": {
-      "queryId": "O_NkyaaOXLOMaPFG1BKJNA",
+      "queryId": "9L-fKoStXHWMxKY_Uzw_4A",
       "operationName": "Favoriters",
       "operationType": "query",
       "metadata": {
@@ -21822,7 +21822,7 @@
   {
     "n": "70422",
     "exports": {
-      "queryId": "O_NkyaaOXLOMaPFG1BKJNA",
+      "queryId": "9L-fKoStXHWMxKY_Uzw_4A",
       "operationName": "Favoriters",
       "operationType": "query",
       "metadata": {
@@ -23568,32 +23568,6 @@
       "queryId": "2Qbj9XZvtUvyJB4gFwWfaA",
       "operationName": "RemoveTweetFromBookmarkFolder",
       "operationType": "mutation",
-      "metadata": {
-        "featureSwitches": [],
-        "fieldToggles": [],
-        "featureSwitch": {}
-      }
-    }
-  },
-  {
-    "n": "00111",
-    "exports": {
-      "queryId": "_ckHEj05gan2VfNHG6thBA",
-      "operationName": "DisableUserAccountLabel",
-      "operationType": "mutation",
-      "metadata": {
-        "featureSwitches": [],
-        "fieldToggles": [],
-        "featureSwitch": {}
-      }
-    }
-  },
-  {
-    "n": "61490",
-    "exports": {
-      "queryId": "rD5gLxVmMvtdtYU1UHWlFQ",
-      "operationName": "UserAccountLabel",
-      "operationType": "query",
       "metadata": {
         "featureSwitches": [],
         "fieldToggles": [],
