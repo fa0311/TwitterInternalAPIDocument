@@ -10,10 +10,7 @@
         "fieldToggles": [],
         "featureSwitch": {}
       }
-    },
-    "func_name": "s",
-    "func_name_init": "i",
-    "query": {}
+    }
   },
   {
     "n": "81719",
@@ -1617,11 +1614,6 @@
         "fieldToggles": [],
         "featureSwitch": {}
       }
-    },
-    "func_name": "S",
-    "func_name_init": "C",
-    "query": {
-      "cursor": "t"
     }
   },
   {
@@ -1661,11 +1653,6 @@
         "fieldToggles": [],
         "featureSwitch": {}
       }
-    },
-    "func_name": "d",
-    "func_name_init": "s",
-    "query": {
-      "target_user_id": "n.id_str"
     }
   },
   {
@@ -4254,11 +4241,6 @@
         "fieldToggles": [],
         "featureSwitch": {}
       }
-    },
-    "func_name": "p",
-    "func_name_init": "m",
-    "query": {
-      "cursor": "t"
     }
   },
   {
@@ -8247,11 +8229,6 @@
           }
         }
       }
-    },
-    "func_name": "g",
-    "func_name_init": "_",
-    "query": {
-      "articleEntityId": "a"
     }
   },
   {
@@ -8607,11 +8584,6 @@
           }
         }
       }
-    },
-    "func_name": "y",
-    "func_name_init": "v",
-    "query": {
-      "userIds": "n.split()"
     }
   },
   {
