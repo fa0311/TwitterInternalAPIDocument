@@ -24,8 +24,8 @@
         "SCAN_TYPE": "Full",
         "TQDM_DISABLE": "False",
         "LOGGING_LEVEL": "Into",
-        "CACHE": "True",
-        "GRAPHQL_CACHE": "True"
+        "CACHE": "False",
+        "GRAPHQL_CACHE": "False"
       }
     },
     {
