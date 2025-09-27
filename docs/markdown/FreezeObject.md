@@ -2057,7 +2057,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{"isExternal()"{"try"{const n=s();return this._customIsExternal?this._customIsExternal(e,t){"hrefHostname":"n","href":"e"}}"catch()"{"return!0"}},"setIsExternal()"{"this._customIsExternal=e"},"clearIsExternal()"{"this._customIsExternal=null"},"onLinkClick()"{"this._customOnLinkClick&&this._customOnL...
+{"isExternal()"{"try"{const t=s();return this._customIsExternal?this._customIsExternal(e,n){"hrefHostname":"t","href":"e"}}"catch()"{"return!0"}},"setIsExternal()"{"this._customIsExternal=e"},"clearIsExternal()"{"this._customIsExternal=null"},"onLinkClick()"{"this._customOnLinkClick&&this._customOnL...
 ```
 | constant   | value   |
 |:-----------|:--------|
@@ -2341,8 +2341,8 @@ This document is entirely auto-generated and may contain errors.<br>
 | fontWeights         | h       |
 | lineHeights         | _       |
 | lineHeightsPx       | f       |
-| scales              | t       |
-| scaleMultiplier     | n       |
+| scales              | n       |
+| scaleMultiplier     | t       |
 | spaces              | v       |
 | spacesPx            | g       |
 
@@ -4113,7 +4113,7 @@ This document is entirely auto-generated and may contain errors.<br>
 |:-----------|:----------------|
 | GIF        | DraftTweetGif   |
 | IMAGE      | DraftTweetImage |
-| VIDEO      | DraftTweetVideo |
+| VIDEO      | AmplifyVideo    |
 
 | constant             | value                |
 |:---------------------|:---------------------|
@@ -5969,7 +5969,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{[z.v.FOLLOWS]:"U",[z.v.FRIENDS_OF_FRIENDS]:"K"}
+{[z.v.FOLLOWS]:"G",[z.v.FRIENDS_OF_FRIENDS]:"K"}
 ```
 | constant   | value   |
 |:-----------|:--------|
@@ -6165,8 +6165,8 @@ This document is entirely auto-generated and may contain errors.<br>
 | constant       | value                                          |
 |:---------------|:-----------------------------------------------|
 | closed         | {'shouldShow': '!1'}                           |
-| openSuccessful | {'shouldShow': '!0', 'badgeType': 'R.Ratings'} |
-| openHelpful    | {'shouldShow': '!0', 'badgeType': 'R.Notes'}   |
+| openSuccessful | {'shouldShow': '!0', 'badgeType': 'M.Ratings'} |
+| openHelpful    | {'shouldShow': '!0', 'badgeType': 'M.Notes'}   |
 
 | constant   | value                                               |
 |:-----------|:----------------------------------------------------|
@@ -6735,7 +6735,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{"ActionsBar":"v.Z","ActionMenu":"function()"{"Icon":"e","isDisabled":"t","items":"n","onOpen":"r"}{"const i=o.useCallback()"{"items":"n","onCloseRequested":"e"}{"Icon":"e","isDisabled":"t","onClick":"r","renderActionMenu":"i"}},"CallToAction":"s.ZP","EditCallout":"E.Z","Education":"T.Z","Highlighte...
+{"ActionsBar":"C.Z","ActionMenu":"function()"{"Icon":"e","isDisabled":"t","items":"n","onOpen":"r"}{"const i=o.useCallback()"{"items":"n","onCloseRequested":"e"}{"Icon":"e","isDisabled":"t","onClick":"r","renderActionMenu":"i"}},"CallToAction":"s.ZP","EditCallout":"E.Z","Education":"T.Z","Highlighte...
 ```
 ```internal process
 # Error
@@ -6800,7 +6800,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{[S.cU.CurrentCountryMatch]:"0",[S.cU.Match]:"1",[S.cU.NoMatch]:"2"}
+{[Z.cU.CurrentCountryMatch]:"0",[Z.cU.Match]:"1",[Z.cU.NoMatch]:"2"}
 ```
 | constant          | value              |
 |:------------------|:-------------------|
@@ -6879,8 +6879,8 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant         | value   |
 |:-----------------|:--------|
-| DELEGATE_ERR_002 | H       |
-| DELEGATE_ERR_003 | N       |
+| DELEGATE_ERR_002 | N       |
+| DELEGATE_ERR_003 | H       |
 | DELEGATE_ERR_004 | q       |
 | DELEGATE_ERR_005 | W       |
 | DELEGATE_ERR_006 | Q       |
@@ -7279,7 +7279,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{"Persona":"s.createElement()"{"$i18n":"d3543217"},"s.createElement()"{"link":"D.Jf","withInteractiveStyling":"!0"},"S().e4fed511"}
+{"Persona":"s.createElement()"{"$i18n":"d3543217"},"s.createElement()"{"link":"x.Jf","withInteractiveStyling":"!0"},"S().e4fed511"}
 ```
 | constant            | value               |
 |:--------------------|:--------------------|
@@ -7693,7 +7693,7 @@ This document is entirely auto-generated and may contain errors.<br>
 |:-----------|:----------------|
 | GIF        | DraftTweetGif   |
 | IMAGE      | DraftTweetImage |
-| VIDEO      | DraftTweetVideo |
+| VIDEO      | AmplifyVideo    |
 
 | constant             | value                |
 |:---------------------|:---------------------|
@@ -7752,7 +7752,7 @@ This document is entirely auto-generated and may contain errors.<br>
 |:-----------|:----------------|
 | GIF        | DraftTweetGif   |
 | IMAGE      | DraftTweetImage |
-| VIDEO      | DraftTweetVideo |
+| VIDEO      | AmplifyVideo    |
 
 | constant             | value                |
 |:---------------------|:---------------------|
@@ -8975,7 +8975,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{[K.WIRE_TRANSFER]:"a.K8",[K.ACCOUNT_LINKING]:"a.iE.bankAccounts",[K.DEPOSIT]:"a.IN",[K.P2P_TRANSFER_REQUEST]:"a.Jv",[K.P2P_TRANSFER_SEND]:"a.HM",[K.P2P_TRANSFER_SEND_FUNDED]:"a.HM",[K.WITHDRAWAL]:"a.r0",[K.MAIL_CHECK]:"a.vB"}
+{[x.WIRE_TRANSFER]:"a.K8",[x.ACCOUNT_LINKING]:"a.iE.bankAccounts",[x.DEPOSIT]:"a.IN",[x.P2P_TRANSFER_REQUEST]:"a.Jv",[x.P2P_TRANSFER_SEND]:"a.HM",[x.P2P_TRANSFER_SEND_FUNDED]:"a.HM",[x.WITHDRAWAL]:"a.r0",[x.MAIL_CHECK]:"a.vB"}
 ```
 | constant       | value          |
 |:---------------|:---------------|
@@ -9355,7 +9355,7 @@ This document is entirely auto-generated and may contain errors.<br>
 |:-----------|:----------------|
 | GIF        | DraftTweetGif   |
 | IMAGE      | DraftTweetImage |
-| VIDEO      | DraftTweetVideo |
+| VIDEO      | AmplifyVideo    |
 
 | constant             | value                |
 |:---------------------|:---------------------|
@@ -9399,7 +9399,7 @@ This document is entirely auto-generated and may contain errors.<br>
 ```
 ```internal process
 # Error
-{[I.hA.generate]:"x().fc1f43d0",[I.hA.switchFromDirect]:"x().fc1f43d0",[I.hA.updateSeats]:"x().c97ad52a"}
+{[K.hA.generate]:"x().fc1f43d0",[K.hA.switchFromDirect]:"x().fc1f43d0",[K.hA.updateSeats]:"x().c97ad52a"}
 ```
 | constant      | value         |
 |:--------------|:--------------|
@@ -9445,6 +9445,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | offer_v1_1                                 | offer_v1_1                                 |
 | offer_v2_1                                 | offer_v2_1                                 |
 | grok_4                                     | grok_4                                     |
+| nord                                       | nord                                       |
 | native_clone_with_tabs                     | native_clone_with_tabs                     |
 | native_clone_with_purchase_footer          | native_clone_with_purchase_footer          |
 | native_clone_with_card_layout              | native_clone_with_card_layout              |
