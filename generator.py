@@ -5,7 +5,7 @@ import os
 from functools import partialmethod
 
 import coloredlogs
-from github import Github
+from github import GitHub
 
 from lib.config import *
 from lib.diff import *
@@ -318,7 +318,7 @@ items.update({f"{output_dir}{FileConf.CHANGE_LOG_MD}": change_log})
 # === GITHUB ===
 
 if ENV == "GithubAction":
-    g = Github(GITHUB_TOKEN)
+    g = GitHub(GITHUB_TOKEN)
     repo = g.get_repo(REPOSITORY)
 
     for file_name in set(list(items.keys()) + list(items_backup.keys())):
