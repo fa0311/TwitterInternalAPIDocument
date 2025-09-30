@@ -2433,7 +2433,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{[L.Q.host]:{"title":"we.hostTitle","maybePluralFormatter":"ke"},[L.Q.cohost]:{"title":"we.cohostTitle","maybePluralFormatter":"Ce"},[L.Q.speaker]:{"title":"we.speakerTitle","maybePluralFormatter":"Ze"},[L.Q.listener]:{"title":"we.listenerTitle","maybePluralFormatter":"Ie"}}
+{[O.Q.host]:{"title":"we.hostTitle","maybePluralFormatter":"ke"},[O.Q.cohost]:{"title":"we.cohostTitle","maybePluralFormatter":"Ce"},[O.Q.speaker]:{"title":"we.speakerTitle","maybePluralFormatter":"Ze"},[O.Q.listener]:{"title":"we.listenerTitle","maybePluralFormatter":"Ie"}}
 ```
 | constant    | value        |
 |:------------|:-------------|
@@ -2455,6 +2455,107 @@ This document is entirely auto-generated and may contain errors.<br>
 | card            | card            |
 | audiospace_ring | audiospace_ring |
 | spacebar        | spacebar        |
+
+| constant   | value     |
+|:-----------|:----------|
+| CLOSED     | closed    |
+| COLLAPSED  | collapsed |
+| EXPANDED   | expanded  |
+
+| constant     | value   |
+|:-------------|:--------|
+| ANIMATED_GIF | c       |
+| VIDEO        | d       |
+| VINE         | u       |
+
+| constant             | value                |
+|:---------------------|:---------------------|
+| FacepileGroup        | FacepileGroup        |
+| Bird                 | Bird                 |
+| Community            | Community            |
+| Conversation         | Conversation         |
+| Facepile             | Facepile             |
+| Feedback             | Feedback             |
+| Follow               | Follow               |
+| FollowFollowed       | FollowFollowed       |
+| FollowFollowing      | FollowFollowing      |
+| FollowMutual         | FollowMutual         |
+| Like                 | Like                 |
+| List                 | List                 |
+| Location             | Location             |
+| Megaphone            | Megaphone            |
+| Moment               | Moment               |
+| NewTweets            | NewTweets            |
+| NewUser              | NewUser              |
+| Pin                  | Pin                  |
+| Reply                | Reply                |
+| RelatedTweets        | RelatedTweets        |
+| ReplyPin             | ReplyPin             |
+| Retweet              | Retweet              |
+| SmartBlockExpiration | SmartBlockExpiration |
+| SocialProof          | SocialProof          |
+| Spaces               | Spaces               |
+| Sparkle              | Sparkle              |
+| TextOnly             | TextOnly             |
+| Topic                | Topic                |
+| Trending             | Trending             |
+
+| constant     | value        |
+|:-------------|:-------------|
+| Canceled     | Canceled     |
+| Ended        | Ended        |
+| NotStarted   | NotStarted   |
+| PrePublished | PrePublished |
+| Running      | Running      |
+| TimedOut     | TimedOut     |
+
+| constant    | value       |
+|:------------|:------------|
+| scheduled   | scheduled   |
+| ended       | ended       |
+| live        | live        |
+| canceled    | canceled    |
+| unavailable | unavailable |
+| replay      | replay      |
+
+| constant           |   value |
+|:-------------------|--------:|
+| general            |       0 |
+| employeesOnly      |       1 |
+| superFollowersOnly |       2 |
+
+| constant           | value        |
+|:-------------------|:-------------|
+| relativeDays       | o().c333da63 |
+| time               | o().d725a289 |
+| weekdayMonthAndDay | o().h8054d91 |
+| scheduledStart     | o().d0e7b11b |
+
+| constant   | value               |
+|:-----------|:--------------------|
+| today      | h().relativeDays()  |
+| tomorrow   | h(0).relativeDays() |
+
+| constant     | value        |
+|:-------------|:-------------|
+| Canceled     | Canceled     |
+| Ended        | Ended        |
+| NotStarted   | NotStarted   |
+| PrePublished | PrePublished |
+| Running      | Running      |
+| TimedOut     | TimedOut     |
+
+| constant   | value    |
+|:-----------|:---------|
+| Threaded   | threaded |
+| Isolated   | isolated |
+| None       | none     |
+
+| constant   | value   |
+|:-----------|:--------|
+| all        | all     |
+| name       | name    |
+| none       | none    |
 
 | constant    | value       |
 |:------------|:------------|
@@ -2589,107 +2690,6 @@ This document is entirely auto-generated and may contain errors.<br>
 | PAUSED     |       2 |
 | SUCCEEDED  |       3 |
 | FAILED     |       4 |
-
-| constant   | value     |
-|:-----------|:----------|
-| CLOSED     | closed    |
-| COLLAPSED  | collapsed |
-| EXPANDED   | expanded  |
-
-| constant     | value   |
-|:-------------|:--------|
-| ANIMATED_GIF | c       |
-| VIDEO        | d       |
-| VINE         | u       |
-
-| constant             | value                |
-|:---------------------|:---------------------|
-| FacepileGroup        | FacepileGroup        |
-| Bird                 | Bird                 |
-| Community            | Community            |
-| Conversation         | Conversation         |
-| Facepile             | Facepile             |
-| Feedback             | Feedback             |
-| Follow               | Follow               |
-| FollowFollowed       | FollowFollowed       |
-| FollowFollowing      | FollowFollowing      |
-| FollowMutual         | FollowMutual         |
-| Like                 | Like                 |
-| List                 | List                 |
-| Location             | Location             |
-| Megaphone            | Megaphone            |
-| Moment               | Moment               |
-| NewTweets            | NewTweets            |
-| NewUser              | NewUser              |
-| Pin                  | Pin                  |
-| Reply                | Reply                |
-| RelatedTweets        | RelatedTweets        |
-| ReplyPin             | ReplyPin             |
-| Retweet              | Retweet              |
-| SmartBlockExpiration | SmartBlockExpiration |
-| SocialProof          | SocialProof          |
-| Spaces               | Spaces               |
-| Sparkle              | Sparkle              |
-| TextOnly             | TextOnly             |
-| Topic                | Topic                |
-| Trending             | Trending             |
-
-| constant     | value        |
-|:-------------|:-------------|
-| Canceled     | Canceled     |
-| Ended        | Ended        |
-| NotStarted   | NotStarted   |
-| PrePublished | PrePublished |
-| Running      | Running      |
-| TimedOut     | TimedOut     |
-
-| constant    | value       |
-|:------------|:------------|
-| scheduled   | scheduled   |
-| ended       | ended       |
-| live        | live        |
-| canceled    | canceled    |
-| unavailable | unavailable |
-| replay      | replay      |
-
-| constant           |   value |
-|:-------------------|--------:|
-| general            |       0 |
-| employeesOnly      |       1 |
-| superFollowersOnly |       2 |
-
-| constant           | value        |
-|:-------------------|:-------------|
-| relativeDays       | o().c333da63 |
-| time               | o().d725a289 |
-| weekdayMonthAndDay | o().h8054d91 |
-| scheduledStart     | o().d0e7b11b |
-
-| constant   | value               |
-|:-----------|:--------------------|
-| today      | h().relativeDays()  |
-| tomorrow   | h(0).relativeDays() |
-
-| constant     | value        |
-|:-------------|:-------------|
-| Canceled     | Canceled     |
-| Ended        | Ended        |
-| NotStarted   | NotStarted   |
-| PrePublished | PrePublished |
-| Running      | Running      |
-| TimedOut     | TimedOut     |
-
-| constant   | value    |
-|:-----------|:---------|
-| Threaded   | threaded |
-| Isolated   | isolated |
-| None       | none     |
-
-| constant   | value   |
-|:-----------|:--------|
-| all        | all     |
-| name       | name    |
-| none       | none    |
 
 | constant          | value             |
 |:------------------|:------------------|
@@ -5265,6 +5265,37 @@ This document is entirely auto-generated and may contain errors.<br>
 | DMComposition   | dm_composition   |
 | NoteComposition | note_composition |
 
+| constant   | value                              |
+|:-----------|:-----------------------------------|
+| REQUEST    | rweb/directMessages/SEARCH_REQUEST |
+| SUCCESS    | rweb/directMessages/SEARCH_SUCCESS |
+| FAILURE    | rweb/directMessages/SEARCH_FAILURE |
+
+| constant   | value                            |
+|:-----------|:---------------------------------|
+| REQUEST    | rweb/promotedContent/LOG_REQUEST |
+| SUCCESS    | rweb/promotedContent/LOG_SUCCESS |
+| FAILURE    | rweb/promotedContent/LOG_FAILURE |
+
+| constant      | value         |
+|:--------------|:--------------|
+| single_line   | singleline    |
+| format_inline | format-inline |
+
+| constant   | value      |
+|:-----------|:-----------|
+| GROUP      | GroupDm    |
+| ONE_TO_ONE | OneToOneDm |
+| UNKNOWN    | Unknown    |
+
+| constant               | value                         |
+|:-----------------------|:------------------------------|
+| MessageCreate          | i.Cr.MESSAGE                  |
+| ParticipantsJoin       | i.Cr.PARTICIPANTS_JOIN        |
+| ParticipantsLeave      | i.Cr.PARTICIPANTS_LEAVE       |
+| ConversationNameUpdate | i.Cr.CONVERSATION_NAME_UPDATE |
+| JoinConversation       | i.Cr.JOIN_CONVERSATION        |
+
 | constant       | value          |
 |:---------------|:---------------|
 | TWEET_CARET    | tweet_caret    |
@@ -5322,37 +5353,6 @@ This document is entirely auto-generated and may contain errors.<br>
 | UserDetailed      | UserDetailed      |
 | PendingFollowUser | PendingFollowUser |
 | SubscribableUser  | SubscribableUser  |
-
-| constant   | value                              |
-|:-----------|:-----------------------------------|
-| REQUEST    | rweb/directMessages/SEARCH_REQUEST |
-| SUCCESS    | rweb/directMessages/SEARCH_SUCCESS |
-| FAILURE    | rweb/directMessages/SEARCH_FAILURE |
-
-| constant   | value                            |
-|:-----------|:---------------------------------|
-| REQUEST    | rweb/promotedContent/LOG_REQUEST |
-| SUCCESS    | rweb/promotedContent/LOG_SUCCESS |
-| FAILURE    | rweb/promotedContent/LOG_FAILURE |
-
-| constant      | value         |
-|:--------------|:--------------|
-| single_line   | singleline    |
-| format_inline | format-inline |
-
-| constant   | value      |
-|:-----------|:-----------|
-| GROUP      | GroupDm    |
-| ONE_TO_ONE | OneToOneDm |
-| UNKNOWN    | Unknown    |
-
-| constant               | value                         |
-|:-----------------------|:------------------------------|
-| MessageCreate          | i.Cr.MESSAGE                  |
-| ParticipantsJoin       | i.Cr.PARTICIPANTS_JOIN        |
-| ParticipantsLeave      | i.Cr.PARTICIPANTS_LEAVE       |
-| ConversationNameUpdate | i.Cr.CONVERSATION_NAME_UPDATE |
-| JoinConversation       | i.Cr.JOIN_CONVERSATION        |
 
 | constant             | value                |
 |:---------------------|:---------------------|
@@ -6437,6 +6437,12 @@ This document is entirely auto-generated and may contain errors.<br>
 | reset      | {'_type': 'reset', 'type': 'reset'} |
 | set        | {'_type': 'set', 'type': 'set'}     |
 
+| constant   | value    |
+|:-----------|:---------|
+| INFINITE   | infinite |
+| MEDIUM     | medium   |
+| NONE       | none     |
+
 | constant       | value           |
 |:---------------|:----------------|
 | Crop           | crop            |
@@ -6445,23 +6451,17 @@ This document is entirely auto-generated and may contain errors.<br>
 | Subtitles      | subtitles       |
 | Trimmer        | trimmer         |
 
-| constant   | value                                                     |
-|:-----------|:----------------------------------------------------------|
-| REQUEST    | rweb/availableLanguages/FETCH_AVAILABLE_LANGUAGES_REQUEST |
-| SUCCESS    | rweb/availableLanguages/FETCH_AVAILABLE_LANGUAGES_SUCCESS |
-| FAILURE    | rweb/availableLanguages/FETCH_AVAILABLE_LANGUAGES_FAILURE |
-
-| constant   | value    |
-|:-----------|:---------|
-| INFINITE   | infinite |
-| MEDIUM     | medium   |
-| NONE       | none     |
-
 | constant        | value            |
 |:----------------|:-----------------|
 | Composition     | composition      |
 | DMComposition   | dm_composition   |
 | NoteComposition | note_composition |
+
+| constant   | value                                                     |
+|:-----------|:----------------------------------------------------------|
+| REQUEST    | rweb/availableLanguages/FETCH_AVAILABLE_LANGUAGES_REQUEST |
+| SUCCESS    | rweb/availableLanguages/FETCH_AVAILABLE_LANGUAGES_SUCCESS |
+| FAILURE    | rweb/availableLanguages/FETCH_AVAILABLE_LANGUAGES_FAILURE |
 
 | constant   | value   |
 |:-----------|:--------|
@@ -6547,7 +6547,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | subscribers               | {'icon': '_i', 'label': 'b().feb7560a'} |
 | community_members         | {'icon': 'wi', 'label': 'b().h257006e'} |
 | super_followers_exclusive | {'icon': '_i', 'label': 'b().ebe1d850'} |
-| trusted_friends_tweet     | {'icon': 'Ci', 'label': 'm'}            |
+| trusted_friends_tweet     | {'icon': 'Ci', 'label': 'h'}            |
 | verified                  | {'icon': 'Ti', 'label': 'b().b121464a'} |
 | premium                   | {'icon': 'Ti', 'label': 'b().e69ada9e'} |
 
@@ -6800,7 +6800,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{[Z.cU.CurrentCountryMatch]:"0",[Z.cU.Match]:"1",[Z.cU.NoMatch]:"2"}
+{[S.cU.CurrentCountryMatch]:"0",[S.cU.Match]:"1",[S.cU.NoMatch]:"2"}
 ```
 | constant          | value              |
 |:------------------|:-------------------|
@@ -6879,8 +6879,8 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant         | value   |
 |:-----------------|:--------|
-| DELEGATE_ERR_002 | N       |
-| DELEGATE_ERR_003 | H       |
+| DELEGATE_ERR_002 | j       |
+| DELEGATE_ERR_003 | N       |
 | DELEGATE_ERR_004 | q       |
 | DELEGATE_ERR_005 | W       |
 | DELEGATE_ERR_006 | Q       |
@@ -7273,7 +7273,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{"Persona":"s.createElement()"{"$i18n":"d3543217"},"s.createElement()"{"link":"x.Jf","withInteractiveStyling":"!0"},"S().e4fed511"}
+{"Persona":"s.createElement()"{"$i18n":"d3543217"},"s.createElement()"{"link":"D.Jf","withInteractiveStyling":"!0"},"S().e4fed511"}
 ```
 | constant            | value               |
 |:--------------------|:--------------------|
@@ -7712,16 +7712,16 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant                          | value               |
 |:----------------------------------|:--------------------|
-| num_of_followers                  | U.Z.Follow          |
-| bio                               | U.Z.TextOnly        |
-| location                          | U.Z.Location        |
-| num_tweets                        | U.Z.NewTweets       |
-| follow_relationship               | U.Z.Follow          |
-| followers_follow                  | U.Z.Follow          |
-| social_proof                      | U.Z.SocialProof     |
-| follow_relationship_mutual_follow | U.Z.FollowMutual    |
-| follow_relationship_followed      | U.Z.FollowFollowed  |
-| follow_relationship_following     | U.Z.FollowFollowing |
+| num_of_followers                  | V.Z.Follow          |
+| bio                               | V.Z.TextOnly        |
+| location                          | V.Z.Location        |
+| num_tweets                        | V.Z.NewTweets       |
+| follow_relationship               | V.Z.Follow          |
+| followers_follow                  | V.Z.Follow          |
+| social_proof                      | V.Z.SocialProof     |
+| follow_relationship_mutual_follow | V.Z.FollowMutual    |
+| follow_relationship_followed      | V.Z.FollowFollowed  |
+| follow_relationship_following     | V.Z.FollowFollowing |
 | highlighted_label                 | HighlightedIcon     |
 
 | constant   | value    |
@@ -7758,11 +7758,6 @@ This document is entirely auto-generated and may contain errors.<br>
 |:-----------|:------------|
 | DRAFT      | s.DRAFT     |
 | PUBLISHED  | s.PUBLISHED |
-
-| constant      | value         |
-|:--------------|:--------------|
-| single_line   | singleline    |
-| format_inline | format-inline |
 
 ```internal process
 # Error
@@ -8130,9 +8125,9 @@ This document is entirely auto-generated and may contain errors.<br>
 | sales_am             | g       |
 | operations           | y       |
 | people_hr            | b       |
-| finance_accounting   | h       |
+| finance_accounting   | k       |
 | legal_compliance     | f       |
-| science_engineering  | k       |
+| science_engineering  | h       |
 | medical              | _       |
 | construction_trades  | E       |
 | other                | v       |
@@ -8140,19 +8135,19 @@ This document is entirely auto-generated and may contain errors.<br>
 | constant    | value   |
 |:------------|:--------|
 | intern      | S       |
-| entry_level | F       |
-| junior      | Z       |
-| mid_level   | x       |
-| senior      | K       |
+| entry_level | K       |
+| junior      | w       |
+| mid_level   | Z       |
+| senior      | x       |
 | lead        | I       |
 | manager     | L       |
 | executive   | T       |
 
 | constant   | value                                                 |
 |:-----------|:------------------------------------------------------|
-| onsite     | {'label': 'P', 'description': 'U', 'value': 'onsite'} |
-| remote     | {'label': 'D', 'description': 'M', 'value': 'remote'} |
-| hybrid     | {'label': 'R', 'description': 'B', 'value': 'hybrid'} |
+| onsite     | {'label': 'P', 'description': 'B', 'value': 'onsite'} |
+| remote     | {'label': 'A', 'description': 'M', 'value': 'remote'} |
+| hybrid     | {'label': 'D', 'description': 'J', 'value': 'hybrid'} |
 
 | constant        | value   |
 |:----------------|:--------|
@@ -8547,7 +8542,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{[C.W.IssuedCardTypePhysical]:{"successTitle":"d().h954ba54","successDescription":"d().bd221616","reasons":[{"key":"P.k.IssuedCardReplacementReasonDamaged","label":"d().b038a616"},{"key":"P.k.IssuedCardReplacementReasonLost","label":"d().ja8a384a"},{"key":"P.k.IssuedCardReplacementReasonStolen","lab...
+{[P.W.IssuedCardTypePhysical]:{"successTitle":"d().h954ba54","successDescription":"d().bd221616","reasons":[{"key":"C.k.IssuedCardReplacementReasonDamaged","label":"d().b038a616"},{"key":"C.k.IssuedCardReplacementReasonLost","label":"d().ja8a384a"},{"key":"C.k.IssuedCardReplacementReasonStolen","lab...
 ```
 | constant    | value       |
 |:------------|:------------|
@@ -8786,11 +8781,11 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{[K.Alert]:"danger",[K.Info]:"primary",[K.Warning]:"warning"}
+{[w.Alert]:"danger",[w.Info]:"primary",[w.Warning]:"warning"}
 ```
 ```internal process
 # Error
-{[K.Alert]:"P.default",[K.Info]:"C.default",[K.Warning]:"P.default"}
+{[w.Alert]:"C.default",[w.Info]:"P.default",[w.Warning]:"C.default"}
 ```
 | constant   | value    |
 |:-----------|:---------|
@@ -9129,7 +9124,7 @@ This document is entirely auto-generated and may contain errors.<br>
 ```
 ```internal process
 # Error
-{[F.B.Ach]:"je",[F.B.Aft]:"Xe",[F.B.Oct]:"Ue",[F.B.Wire]:"qe",[F.B.Check]:"d().f61ada4e",[F.B.ProviderBankTransfer]:"d().a418353e",[F.B.Cash]:"d().g98c7cd2"}
+{[F.B.Ach]:"je",[F.B.Aft]:"Xe",[F.B.Oct]:"Ue",[F.B.Wire]:"Ve",[F.B.Check]:"d().f61ada4e",[F.B.ProviderBankTransfer]:"d().a418353e",[F.B.Cash]:"d().g98c7cd2"}
 ```
 ```internal process
 # Error
@@ -9137,7 +9132,7 @@ This document is entirely auto-generated and may contain errors.<br>
 ```
 ```internal process
 # Error
-{[P.R.Ach]:"je",[P.R.Aft]:"Xe",[C.t.Oct]:"Ue",[C.t.DomesticWire]:"qe",[C.t.Ach]:"je"}
+{[C.R.Ach]:"je",[C.R.Aft]:"Xe",[P.t.Oct]:"Ue",[P.t.DomesticWire]:"Ve",[P.t.Ach]:"je"}
 ```
 | constant   | value                                                                |
 |:-----------|:---------------------------------------------------------------------|
@@ -9260,8 +9255,8 @@ This document is entirely auto-generated and may contain errors.<br>
 | mid_level   | Z       |
 | senior      | A       |
 | lead        | x       |
-| manager     | P       |
-| executive   | w       |
+| manager     | w       |
+| executive   | P       |
 
 | constant   | value                                                 |
 |:-----------|:------------------------------------------------------|
@@ -9370,8 +9365,8 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant    | value     |
 |:------------|:----------|
-| fetchStatus | H.ZP.NONE |
-| config      | Tn        |
+| fetchStatus | $.ZP.NONE |
+| config      | Ca        |
 
 | constant              | value                 |
 |:----------------------|:----------------------|
@@ -9388,18 +9383,13 @@ This document is entirely auto-generated and may contain errors.<br>
 ```
 ```internal process
 # Error
-{[K.hA.generate]:"x().fc1f43d0",[K.hA.switchFromDirect]:"x().fc1f43d0",[K.hA.updateSeats]:"x().c97ad52a"}
+{[K.hA.generate]:"F().fc1f43d0",[K.hA.switchFromDirect]:"F().fc1f43d0",[K.hA.updateSeats]:"F().c97ad52a"}
 ```
 | constant      | value         |
 |:--------------|:--------------|
 | FullAccess    | FullAccess    |
 | FullAccessGov | FullAccessGov |
 | Basic         | Basic         |
-
-| constant      | value         |
-|:--------------|:--------------|
-| single_line   | singleline    |
-| format_inline | format-inline |
 
 | constant   | value                                                                |
 |:-----------|:---------------------------------------------------------------------|
@@ -10140,8 +10130,8 @@ This document is entirely auto-generated and may contain errors.<br>
 | sales_am             | g       |
 | operations           | b       |
 | people_hr            | h       |
-| finance_accounting   | f       |
-| legal_compliance     | y       |
+| finance_accounting   | y       |
+| legal_compliance     | f       |
 | science_engineering  | _       |
 | medical              | k       |
 | construction_trades  | v       |
@@ -10170,12 +10160,6 @@ This document is entirely auto-generated and may contain errors.<br>
 | OffensiveProfileContent | offensive_profile_content |
 | SensitiveMedia          | sensitive_media           |
 | Timeout                 | timeout                   |
-
-| constant   | value    |
-|:-----------|:---------|
-| INFINITE   | infinite |
-| MEDIUM     | medium   |
-| NONE       | none     |
 
 | constant                | value                     |
 |:------------------------|:--------------------------|
@@ -11114,6 +11098,18 @@ This document is entirely auto-generated and may contain errors.<br>
 | REQUEST    | rweb/promotedContent/LOG_REQUEST |
 | SUCCESS    | rweb/promotedContent/LOG_SUCCESS |
 | FAILURE    | rweb/promotedContent/LOG_FAILURE |
+
+| constant   | value                                                 |
+|:-----------|:------------------------------------------------------|
+| REQUEST    | rweb/accountTaxonomy/FETCH_USER_ACCOUNT_LABEL_REQUEST |
+| SUCCESS    | rweb/accountTaxonomy/FETCH_USER_ACCOUNT_LABEL_SUCCESS |
+| FAILURE    | rweb/accountTaxonomy/FETCH_USER_ACCOUNT_LABEL_FAILURE |
+
+| constant   | value                                                   |
+|:-----------|:--------------------------------------------------------|
+| REQUEST    | rweb/accountTaxonomy/DISABLE_USER_ACCOUNT_LABEL_REQUEST |
+| SUCCESS    | rweb/accountTaxonomy/DISABLE_USER_ACCOUNT_LABEL_SUCCESS |
+| FAILURE    | rweb/accountTaxonomy/DISABLE_USER_ACCOUNT_LABEL_FAILURE |
 
 | constant         | value            |
 |:-----------------|:-----------------|
