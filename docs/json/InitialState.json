@@ -2638,9 +2638,6 @@
       "rweb_sourcemap_migration": {
         "value": "false"
       },
-      "rweb_sourcemap_migration_side_expand_by_default": {
-        "value": "true"
-      },
       "rweb_spaces_invite_search_enabled": {
         "value": "true"
       },
@@ -6407,9 +6404,6 @@
         "rweb_sourcemap_migration": {
           "value": "false"
         },
-        "rweb_sourcemap_migration_side_expand_by_default": {
-          "value": "true"
-        },
         "rweb_spaces_invite_search_enabled": {
           "value": "true"
         },
@@ -7646,7 +7640,7 @@
       "settingsVersion": "e27a38d99b963246396addae99628a22"
     },
     "debug": {},
-    "featureSetToken": "e03192379d01dbd241949285e41f66de13cb0d94",
+    "featureSetToken": "86d5c7131b58ad5671e41b65f237cdac5f0ff1e7",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -7715,7 +7709,7 @@
   },
   "session": {
     "country": "XX",
-    "guestId": "175917972056148638",
+    "guestId": "175926611227632499",
     "hasCommunityMemberships": "false",
     "isActiveCreator": "false",
     "isLoaded": "false",
