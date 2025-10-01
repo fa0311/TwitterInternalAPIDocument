@@ -59,6 +59,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | CreateRecoveryPublicKeyCredentialAttestation     | CreateRecoveryPublicKeyCredentialAttestation     |
 | CreateSupportSession                             | CreateSupportSession                             |
 | CreateTransfer                                   | CreateTransfer                                   |
+| CreateTransferLink                               | CreateTransferLink                               |
 | CreateWithdrawal                                 | CreateWithdrawal                                 |
 | DeletePaymentMethod                              | DeletePaymentMethod                              |
 | DeletePublicKeyCredential                        | DeletePublicKeyCredential                        |
@@ -7518,6 +7519,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | Refund           | Refund           |
 | Reverse          | Reverse          |
 | Transfer         | Transfer         |
+| TransferLink     | TransferLink     |
 | Unspecified      | Unspecified      |
 | Withdraw         | Withdraw         |
 
@@ -7532,6 +7534,8 @@ This document is entirely auto-generated and may contain errors.<br>
 | FailedOfacCheck                   | FailedOfacCheck                   |
 | InReview                          | InReview                          |
 | IncorrectCardPin                  | IncorrectCardPin                  |
+| IncorrectCvc                      | IncorrectCvc                      |
+| IncorrectExpirationDate           | IncorrectExpirationDate           |
 | ProviderGenericFailure            | ProviderGenericFailure            |
 | RejectedByAutoReview              | RejectedByAutoReview              |
 | RejectedByManualReview            | RejectedByManualReview            |
@@ -8416,8 +8420,8 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant    | value     |
 |:------------|:----------|
-| fetchStatus | H.ZP.NONE |
-| config      | Tn        |
+| fetchStatus | q.ZP.NONE |
+| config      | Kn        |
 
 | constant              | value                 |
 |:----------------------|:----------------------|
@@ -8434,7 +8438,7 @@ This document is entirely auto-generated and may contain errors.<br>
 ```
 ```internal process
 # Error
-{[K.hA.generate]:"x().fc1f43d0",[K.hA.switchFromDirect]:"x().fc1f43d0",[K.hA.updateSeats]:"x().c97ad52a"}
+{[I.hA.generate]:"x().fc1f43d0",[I.hA.switchFromDirect]:"x().fc1f43d0",[I.hA.updateSeats]:"x().c97ad52a"}
 ```
 | constant      | value         |
 |:--------------|:--------------|
