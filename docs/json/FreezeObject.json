@@ -81,6 +81,7 @@
     "CreateRecoveryPublicKeyCredentialAttestation": "CreateRecoveryPublicKeyCredentialAttestation",
     "CreateSupportSession": "CreateSupportSession",
     "CreateTransfer": "CreateTransfer",
+    "CreateTransferLink": "CreateTransferLink",
     "CreateWithdrawal": "CreateWithdrawal",
     "DeletePaymentMethod": "DeletePaymentMethod",
     "DeletePublicKeyCredential": "DeletePublicKeyCredential",
@@ -7220,6 +7221,7 @@
     "Refund": "Refund",
     "Reverse": "Reverse",
     "Transfer": "Transfer",
+    "TransferLink": "TransferLink",
     "Unspecified": "Unspecified",
     "Withdraw": "Withdraw"
   },
@@ -7232,6 +7234,8 @@
     "FailedOfacCheck": "FailedOfacCheck",
     "InReview": "InReview",
     "IncorrectCardPin": "IncorrectCardPin",
+    "IncorrectCvc": "IncorrectCvc",
+    "IncorrectExpirationDate": "IncorrectExpirationDate",
     "ProviderGenericFailure": "ProviderGenericFailure",
     "RejectedByAutoReview": "RejectedByAutoReview",
     "RejectedByManualReview": "RejectedByManualReview",
@@ -7987,8 +7991,8 @@
     "SET_CONFIG": "rweb/verifiedOrgConfig/SET"
   },
   {
-    "fetchStatus": "H.ZP.NONE",
-    "config": "Tn"
+    "fetchStatus": "q.ZP.NONE",
+    "config": "Kn"
   },
   {
     "ConfirmationStep": "ConfirmationStep",
@@ -7999,7 +8003,7 @@
     "FinalConfirmationStep": "FinalConfirmationStep"
   },
   "{[_.hA.switchFromDirect]:\"m().dca6b3ac\",[_.hA.generate]:\"m().dca6b3ac\",[_.hA.updateSeats]:\"m().c97ad52a\"}",
-  "{[K.hA.generate]:\"x().fc1f43d0\",[K.hA.switchFromDirect]:\"x().fc1f43d0\",[K.hA.updateSeats]:\"x().c97ad52a\"}",
+  "{[I.hA.generate]:\"x().fc1f43d0\",[I.hA.switchFromDirect]:\"x().fc1f43d0\",[I.hA.updateSeats]:\"x().c97ad52a\"}",
   {
     "FullAccess": "FullAccess",
     "FullAccessGov": "FullAccessGov",
