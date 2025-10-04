@@ -5410,8 +5410,8 @@
       }
     },
     "Retweeters": {
-      "url": "https://x.com/i/api/graphql/pORrqerSnuFMTRxQ-YRPLA/Retweeters",
-      "queryId": "pORrqerSnuFMTRxQ-YRPLA",
+      "url": "https://x.com/i/api/graphql/8BISv0soXuDqkLdnpHc9_w/Retweeters",
+      "queryId": "8BISv0soXuDqkLdnpHc9_w",
       "method": "GET",
       "features": {
         "rweb_video_screen_enabled": false,
