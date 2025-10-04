@@ -132,6 +132,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | UpdateExternalContact                            | UpdateExternalContact                            |
 | UpdatePin                                        | UpdatePin                                        |
 | UpdatePublicKeyCredential                        | UpdatePublicKeyCredential                        |
+| ValidateAddress                                  | ValidateAddress                                  |
 | VerifyIdentity                                   | VerifyIdentity                                   |
 | VerifyPasskey                                    | VerifyPasskey                                    |
 | VerifyPin                                        | VerifyPin                                        |
@@ -5922,11 +5923,11 @@ This document is entirely auto-generated and may contain errors.<br>
 
 |   constant | value               |
 |-----------:|:--------------------|
-|          0 | S.INTERNAL_ERROR    |
-|          1 | S.INVALID_MEDIA     |
-|          2 | S.FILE_TOO_LARGE    |
-|          3 | S.UNSUPPORTED_MEDIA |
-|          4 | S.TIMEOUT           |
+|          0 | b.INTERNAL_ERROR    |
+|          1 | b.INVALID_MEDIA     |
+|          2 | b.FILE_TOO_LARGE    |
+|          3 | b.UNSUPPORTED_MEDIA |
+|          4 | b.TIMEOUT           |
 
 | constant   |   value |
 |:-----------|--------:|
