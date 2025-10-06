@@ -1491,7 +1491,7 @@
     "type": "m.CREATOR_SUBSCRIPTIONS"
   },
   {
-    "fetchStatus": "M.ZP.NONE",
+    "fetchStatus": "S.ZP.NONE",
     "selectedTimeline": "d.oO",
     "sort": "d.UO.RELEVANCE",
     "timelines": []
@@ -2332,7 +2332,7 @@
     "space80": "f(v.spaces.space72)"
   },
   {
-    "appBarHeight": "S",
+    "appBarHeight": "M",
     "appBarHeightPx": "k",
     "conversationLineWidth": "y.space2",
     "gutterHorizontal": "w.space16",
@@ -2348,7 +2348,7 @@
     "borderWidths": "m",
     "borderWidthsPx": "u",
     "breakpoints": "i",
-    "componentDimensions": "M",
+    "componentDimensions": "S",
     "componentZIndices": "s",
     "fontSizes": "A",
     "fontSizesPx": "D",
@@ -4410,16 +4410,16 @@
     "subscribe": "subscribe"
   },
   {
-    "num_of_followers": "K.Z.Follow",
-    "bio": "K.Z.TextOnly",
-    "location": "K.Z.Location",
-    "num_tweets": "K.Z.NewTweets",
-    "follow_relationship": "K.Z.Follow",
-    "followers_follow": "K.Z.Follow",
-    "social_proof": "K.Z.SocialProof",
-    "follow_relationship_mutual_follow": "K.Z.FollowMutual",
-    "follow_relationship_followed": "K.Z.FollowFollowed",
-    "follow_relationship_following": "K.Z.FollowFollowing",
+    "num_of_followers": "W.Z.Follow",
+    "bio": "W.Z.TextOnly",
+    "location": "W.Z.Location",
+    "num_tweets": "W.Z.NewTweets",
+    "follow_relationship": "W.Z.Follow",
+    "followers_follow": "W.Z.Follow",
+    "social_proof": "W.Z.SocialProof",
+    "follow_relationship_mutual_follow": "W.Z.FollowMutual",
+    "follow_relationship_followed": "W.Z.FollowFollowed",
+    "follow_relationship_following": "W.Z.FollowFollowing",
     "highlighted_label": "HighlightedIcon"
   },
   {
@@ -4516,636 +4516,6 @@
     "Avatar": "avatar",
     "Verification": "verification",
     "TwitterArticle": "twitter_article"
-  },
-  {
-    "uploading": "uploading",
-    "processing": "processing"
-  },
-  {
-    "LocalFile": "local_file",
-    "Remote": "remote"
-  },
-  {
-    "Cancel": "cancel",
-    "Failure": "failure",
-    "Success": "success",
-    "Complete": "complete",
-    "Invalid": "invalid"
-  },
-  {
-    "InProgress": "in_progress",
-    "Complete": "complete",
-    "Failure": "failure",
-    "Canceled": "canceled"
-  },
-  {
-    "Full": "full",
-    "Hash": "hash",
-    "Processing": "processing",
-    "SruUpload": "sru_upload",
-    "UploadSubmitUntilSruFinish": "upload_submit_until_sru_finish",
-    "Metadata": "metadata"
-  },
-  {
-    "SruUpload": "sru_upload_no_eager",
-    "UploadSubmitUntilSruFinish": "upload_submit_until_sru_finish_no_eager"
-  },
-  {
-    "All": "all",
-    "Short": "short",
-    "Medium": "medium",
-    "Long": "long",
-    "XLong": "xlong",
-    "L90to140s": "l90to140s",
-    "L140to300s": "l140to300s",
-    "L300to600s": "l300to600s",
-    "L600to1200s": "l600to1200s",
-    "L1200to1800s": "l1200to1800s",
-    "L1800to2700s": "l1800to2700s",
-    "L2700to3600s": "l2700to3600s",
-    "L3600to4500s": "l3600to4500s",
-    "L4500to5400s": "l4500to5400s",
-    "L5400to6300s": "l5400to6300s",
-    "L6300to7200s": "l6300to7200s",
-    "L7200to10800s": "l7200to10800s",
-    "L10800to14400s": "l10800to14400s",
-    "LGT14400s": "lgt14400s"
-  },
-  {
-    "REQUEST": "rweb/savedSearches/FETCH_SAVED_SEARCHES_REQUEST",
-    "SUCCESS": "rweb/savedSearches/FETCH_SAVED_SEARCHES_SUCCESS",
-    "FAILURE": "rweb/savedSearches/FETCH_SAVED_SEARCHES_FAILURE"
-  },
-  {
-    "REQUEST": "rweb/savedSearches/SAVE_SEARCH_REQUEST",
-    "SUCCESS": "rweb/savedSearches/SAVE_SEARCH_SUCCESS",
-    "FAILURE": "rweb/savedSearches/SAVE_SEARCH_FAILURE"
-  },
-  {
-    "REQUEST": "rweb/savedSearches/DELETE_SAVED_SEARCH_REQUEST",
-    "SUCCESS": "rweb/savedSearches/DELETE_SAVED_SEARCH_SUCCESS",
-    "FAILURE": "rweb/savedSearches/DELETE_SAVED_SEARCH_FAILURE"
-  },
-  {
-    "Active": "active",
-    "Expand": "expand",
-    "Remove": "remove"
-  },
-  {
-    "FacepileGroup": "FacepileGroup",
-    "Bird": "Bird",
-    "Community": "Community",
-    "Conversation": "Conversation",
-    "Facepile": "Facepile",
-    "Feedback": "Feedback",
-    "Follow": "Follow",
-    "FollowFollowed": "FollowFollowed",
-    "FollowFollowing": "FollowFollowing",
-    "FollowMutual": "FollowMutual",
-    "Like": "Like",
-    "List": "List",
-    "Location": "Location",
-    "Megaphone": "Megaphone",
-    "Moment": "Moment",
-    "NewTweets": "NewTweets",
-    "NewUser": "NewUser",
-    "Pin": "Pin",
-    "Reply": "Reply",
-    "RelatedTweets": "RelatedTweets",
-    "ReplyPin": "ReplyPin",
-    "Retweet": "Retweet",
-    "SmartBlockExpiration": "SmartBlockExpiration",
-    "SocialProof": "SocialProof",
-    "Spaces": "Spaces",
-    "Sparkle": "Sparkle",
-    "TextOnly": "TextOnly",
-    "Topic": "Topic",
-    "Trending": "Trending"
-  },
-  {
-    "UNKNOWN": "0",
-    "TOP_LEFT": "1",
-    "TOP_RIGHT": "2",
-    "BOTTOM_RIGHT": "3",
-    "BOTTOM_LEFT": "4",
-    "LEFT_TOP": "5",
-    "LEFT_BOTTOM": "6",
-    "RIGHT_BOTTOM": "7",
-    "RIGHT_TOP": "8"
-  },
-  {
-    "FILE_TOO_LARGE": "2",
-    "INTERNAL_ERROR": "131",
-    "INVALID_MEDIA": "1",
-    "RATE_LIMIT": "88",
-    "TIMEOUT": "67",
-    "UNSUPPORTED_MEDIA": "3",
-    "ZERO_FILE_LENGTH": "4",
-    "CANCELED": "999",
-    "INVALID_RES_STATUS": -1
-  },
-  {
-    "0": "w.INTERNAL_ERROR",
-    "1": "w.INVALID_MEDIA",
-    "2": "w.FILE_TOO_LARGE",
-    "3": "w.UNSUPPORTED_MEDIA",
-    "4": "w.TIMEOUT"
-  },
-  {
-    "RESET": "0",
-    "PENDING": "1",
-    "PAUSED": "2",
-    "SUCCEEDED": "3",
-    "FAILED": "4"
-  },
-  {
-    "AcceptAllCookies": "acceptAllCookies",
-    "RefuseNonEssentialCookies": "refuseNonEssentialCookies",
-    "Invalid": "invalid",
-    "NotSet": "notSet"
-  },
-  {
-    "bookmark": "bookmark",
-    "community": "community",
-    "dmshare": "dmshare",
-    "follow": "follow",
-    "generic": "generic",
-    "like": "like",
-    "postvideo": "postvideo",
-    "read": "read",
-    "reply": "reply",
-    "retweet": "retweet",
-    "search": "search",
-    "subscribe": "subscribe",
-    "topic": "topic"
-  },
-  {
-    "BannerSwitchToApp": "banner_switch_to_app",
-    "InterstitialSwitchToApp": "interstitial_switch_to_app",
-    "NuxAppDownload": "NUX-app-download",
-    "SwitchToAppFooter": "switch-to-app-footer",
-    "UseApp": "use-app",
-    "UseAppExtended": "use-app-extended",
-    "SwitchToAppHigh7": "switch_to_app_high_7",
-    "SwitchToAppHigh1": "switch_to_app_high_1",
-    "SwitchToAppHigh2": "switch_to_app_high_2",
-    "SwitchToAppHigh3": "switch_to_app_high_3",
-    "SwitchToAppHigh5": "switch_to_app_high_5",
-    "SwitchToAppLow7": "switch_to_app_low_7",
-    "SwitchToAppLow1": "switch_to_app_low_1",
-    "SwitchToAppLow3": "switch_to_app_low_3",
-    "SwitchToAppLow5": "switch_to_app_low_5",
-    "SwitchToAppLow9": "switch_to_app_low_9"
-  },
-  {
-    "Web": "0",
-    "Email": "1",
-    "Partner": "2",
-    "Market": "3",
-    "Access": "4"
-  },
-  {
-    "toggleCommandCenter": "mod+k",
-    "openKeyboardShortcuts": "?",
-    "swipeLeft": "left",
-    "swipeRight": "right",
-    "nextItem": "j",
-    "previousItem": "k",
-    "refresh": ".",
-    "nightMode": "z",
-    "bookmark": "b",
-    "block": "x",
-    "mute": "u",
-    "newTweet": "n",
-    "newMessage": "m",
-    "toggleDMDrawer": "i",
-    "goHome": "g h",
-    "goExplore": "g e",
-    "goNotifications": "g n",
-    "goMentions": "g r",
-    "goProfile": "g p",
-    "goLikes": "g l",
-    "goLists": "g i",
-    "goMessages": "g m",
-    "goGrok": "g g",
-    "goToDrafts": "g f",
-    "goToScheduled": "g t",
-    "goSettings": "g s",
-    "goToUser": "g u",
-    "goBookmarks": "g b",
-    "goTopArticles": "g a",
-    "goDisplay": "g d",
-    "search": "/",
-    "audio": {
-      "dock": "a d",
-      "play": "a space",
-      "mute": "a m"
-    },
-    "video": {
-      "play1": "k",
-      "play2": "space",
-      "mute": "m"
-    },
-    "columns": {
-      "createNewColumn": "c n",
-      "duplicateColumn": "c d",
-      "focusOnReorderButton": "c r",
-      "lastColumn": "c 0",
-      "nextColumn": "]",
-      "nthColumn": "c 1..9",
-      "prevColumn": "[",
-      "removeColumn": "c backspace",
-      "toggleColumnOptions": "c o",
-      "undoRemoveColumn": "c u"
-    },
-    "decks": {
-      "createNewDeck": "d n",
-      "editActiveDeck": "d e",
-      "lastPinnedDeck": "d 0",
-      "manageAllDecks": "d m",
-      "nthPinnedDeck": "d 1..9"
-    },
-    "labs": {
-      "openCommandCenter": ">"
-    }
-  },
-  {
-    "RESIZE": "resize",
-    "UPLOAD": "upload",
-    "METADATA": "metadata",
-    "MAXDURATION": "maxduration",
-    "MAXSIZE": "maxsize"
-  },
-  {
-    "AmplifyVideo": "amplify_video",
-    "CommunityBanner": "community_banner_image",
-    "ListBanner": "list_banner_image",
-    "TweetImage": "tweet_image",
-    "TweetVideo": "tweet_video",
-    "TweetGif": "tweet_gif",
-    "DMImage": "dm_image",
-    "DMVideo": "dm_video",
-    "DMGif": "dm_gif",
-    "Subtitles": "subtitles",
-    "ProfileBanner": "banner_image"
-  },
-  {
-    "Tweet": "tweet",
-    "Dm": "dm",
-    "CommunityBanner": "community_banner",
-    "ListBanner": "list_banner",
-    "ProfileBanner": "profile_banner",
-    "Avatar": "avatar",
-    "Verification": "verification",
-    "TwitterArticle": "twitter_article"
-  },
-  {
-    "DISMISSED": "dismissed",
-    "APPROVED": "approved",
-    "NOT_SEEN": "not_seen",
-    "SEEN": "seen"
-  },
-  {
-    "REQUEST": "rweb/loggedOutNotifications/FETCH_REQUEST",
-    "SUCCESS": "rweb/loggedOutNotifications/FETCH_SUCCESS",
-    "FAILURE": "rweb/loggedOutNotifications/FETCH_FAILURE"
-  },
-  {
-    "REQUEST": "rweb/loggedOutNotifications/SAVE_PUSH_TOKEN_REQUEST",
-    "SUCCESS": "rweb/loggedOutNotifications/SAVE_PUSH_TOKEN_SUCCESS",
-    "FAILURE": "rweb/loggedOutNotifications/SAVE_PUSH_TOKEN_FAILURE"
-  },
-  {
-    "uploading": "uploading",
-    "processing": "processing"
-  },
-  {
-    "LocalFile": "local_file",
-    "Remote": "remote"
-  },
-  {
-    "Cancel": "cancel",
-    "Failure": "failure",
-    "Success": "success",
-    "Complete": "complete",
-    "Invalid": "invalid"
-  },
-  {
-    "InProgress": "in_progress",
-    "Complete": "complete",
-    "Failure": "failure",
-    "Canceled": "canceled"
-  },
-  {
-    "Full": "full",
-    "Hash": "hash",
-    "Processing": "processing",
-    "SruUpload": "sru_upload",
-    "UploadSubmitUntilSruFinish": "upload_submit_until_sru_finish",
-    "Metadata": "metadata"
-  },
-  {
-    "SruUpload": "sru_upload_no_eager",
-    "UploadSubmitUntilSruFinish": "upload_submit_until_sru_finish_no_eager"
-  },
-  {
-    "All": "all",
-    "Short": "short",
-    "Medium": "medium",
-    "Long": "long",
-    "XLong": "xlong",
-    "L90to140s": "l90to140s",
-    "L140to300s": "l140to300s",
-    "L300to600s": "l300to600s",
-    "L600to1200s": "l600to1200s",
-    "L1200to1800s": "l1200to1800s",
-    "L1800to2700s": "l1800to2700s",
-    "L2700to3600s": "l2700to3600s",
-    "L3600to4500s": "l3600to4500s",
-    "L4500to5400s": "l4500to5400s",
-    "L5400to6300s": "l5400to6300s",
-    "L6300to7200s": "l6300to7200s",
-    "L7200to10800s": "l7200to10800s",
-    "L10800to14400s": "l10800to14400s",
-    "LGT14400s": "lgt14400s"
-  },
-  {
-    "REQUEST": "rweb/subscriptionPayments/FETCH_SUBSCRIPTION_PRODUCT_DETAILS_REQUEST",
-    "SUCCESS": "rweb/subscriptionPayments/FETCH_SUBSCRIPTION_PRODUCT_DETAILS_SUCCESS",
-    "FAILURE": "rweb/subscriptionPayments/FETCH_SUBSCRIPTION_PRODUCT_DETAILS_FAILURE"
-  },
-  {
-    "REQUEST": "rweb/subscriptionPayments/FETCH_SUBSCRIPTION_PRODUCT_CHECKOUT_URL_REQUEST",
-    "SUCCESS": "rweb/subscriptionPayments/FETCH_SUBSCRIPTION_PRODUCT_CHECKOUT_URL_SUCCESS",
-    "FAILURE": "rweb/subscriptionPayments/FETCH_SUBSCRIPTION_PRODUCT_CHECKOUT_URL_FAILURE"
-  },
-  {
-    "REQUEST": "rweb/subscriptionPayments/FETCH_PRODUCT_SUBSCRIPTIONS_REQUEST",
-    "SUCCESS": "rweb/subscriptionPayments/FETCH_PRODUCT_SUBSCRIPTIONS_SUCCESS",
-    "FAILURE": "rweb/subscriptionPayments/FETCH_PRODUCT_SUBSCRIPTIONS_FAILURE"
-  },
-  {
-    "REQUEST": "rweb/subscriptionPayments/TIER_SWITCH_REQUEST",
-    "SUCCESS": "rweb/subscriptionPayments/TIER_SWITCH_SUCCESS",
-    "FAILURE": "rweb/subscriptionPayments/TIER_SWITCH_FAILURE"
-  },
-  {
-    "passive": "PASSIVE",
-    "interactive": "INTERACTIVE"
-  },
-  {
-    "light": "default",
-    "dark": "dim",
-    "darker": "dark",
-    "business": "business"
-  },
-  {
-    "UNKNOWN": "0",
-    "TOP_LEFT": "1",
-    "TOP_RIGHT": "2",
-    "BOTTOM_RIGHT": "3",
-    "BOTTOM_LEFT": "4",
-    "LEFT_TOP": "5",
-    "LEFT_BOTTOM": "6",
-    "RIGHT_BOTTOM": "7",
-    "RIGHT_TOP": "8"
-  },
-  {
-    "FILE_TOO_LARGE": "2",
-    "INTERNAL_ERROR": "131",
-    "INVALID_MEDIA": "1",
-    "RATE_LIMIT": "88",
-    "TIMEOUT": "67",
-    "UNSUPPORTED_MEDIA": "3",
-    "ZERO_FILE_LENGTH": "4",
-    "CANCELED": "999",
-    "INVALID_RES_STATUS": -1
-  },
-  {
-    "0": "w.INTERNAL_ERROR",
-    "1": "w.INVALID_MEDIA",
-    "2": "w.FILE_TOO_LARGE",
-    "3": "w.UNSUPPORTED_MEDIA",
-    "4": "w.TIMEOUT"
-  },
-  {
-    "RESET": "0",
-    "PENDING": "1",
-    "PAUSED": "2",
-    "SUCCEEDED": "3",
-    "FAILED": "4"
-  },
-  {
-    "navButtons": "navigationButtons",
-    "carouselRoot": "carouselRoot"
-  },
-  {
-    "FILL": "Fill",
-    "FIXED": "Fixed"
-  },
-  {
-    "large": {
-      "title": "1",
-      "description": "2"
-    },
-    "medium": {
-      "title": "2",
-      "description": "1"
-    },
-    "small": {
-      "title": "2",
-      "description": "0"
-    }
-  },
-  {
-    "large": {
-      "title": "1",
-      "description": "2"
-    },
-    "medium": {
-      "title": "2",
-      "description": "1"
-    },
-    "small": {
-      "title": "2",
-      "description": "0"
-    }
-  },
-  {
-    "large": "5",
-    "medium": "4",
-    "small": "3"
-  },
-  {
-    "large": "DEPRECATED_normal",
-    "medium": "DEPRECATED_normalCompact",
-    "small": "DEPRECATED_normalCompact"
-  },
-  {
-    "CONTROL": "control",
-    "GRAY_DETAILS": "gray_details"
-  },
-  {
-    "NOT_READY": "not_ready"
-  },
-  {
-    "REQUEST": "rweb/CREATE_NOTE_/REQUEST",
-    "SUCCESS": "rweb/CREATE_NOTE_/SUCCESS",
-    "FAILURE": "rweb/CREATE_NOTE_/FAILURE"
-  },
-  {
-    "IMAGE_APP": "image_app",
-    "IMAGE_CAROUSEL_APP": "image_carousel_app",
-    "IMAGE_CAROUSEL_WEBSITE": "image_carousel_website",
-    "IMAGE_MULTI_DEST_CAROUSEL_WEBSITE": "image_multi_dest_carousel_website",
-    "IMAGE_WEBSITE": "image_website",
-    "IMAGE_COLLECTION_WEBSITE": "image_collection_website",
-    "INVALID": "INVALID",
-    "MODEL_EXPLORER_WEBSITE": "model_explorer_website",
-    "VIDEO_APP": "video_app",
-    "VIDEO_CAROUSEL_APP": "video_carousel_app",
-    "VIDEO_CAROUSEL_WEBSITE": "video_carousel_website",
-    "VIDEO_WEBSITE": "video_website",
-    "MULTI_DEST_PRODUCT_CAROUSEL_WEBSITE": "multi_dest_product_carousel_website",
-    "TWITTER_ARTICLE": "twitter_article"
-  },
-  {
-    "full_time": "i",
-    "full_time_contract": "o",
-    "part_time": "l",
-    "contract_to_hire": "d"
-  },
-  {
-    "1": "c",
-    "2": "u"
-  },
-  {
-    "annually": {
-      "label": "c",
-      "value": "1"
-    },
-    "hourly": {
-      "label": "u",
-      "value": "2"
-    }
-  },
-  {
-    "INFINITE": "infinite",
-    "MEDIUM": "medium",
-    "NONE": "none"
-  },
-  {
-    "Composition": "composition",
-    "DMComposition": "dm_composition",
-    "NoteComposition": "note_composition"
-  },
-  {
-    "TWEET_CARET": "tweet_caret",
-    "PROFILE": "user_profile",
-    "LIST_DETAIL": "list_detail",
-    "RICH_FEEDBACK": "rich_feedback",
-    "TWEET": "tweet",
-    "FOLLOWERS_LIST": "followers_list"
-  },
-  {
-    "toggleCommandCenter": "mod+k",
-    "openKeyboardShortcuts": "?",
-    "swipeLeft": "left",
-    "swipeRight": "right",
-    "nextItem": "j",
-    "previousItem": "k",
-    "refresh": ".",
-    "nightMode": "z",
-    "bookmark": "b",
-    "block": "x",
-    "mute": "u",
-    "newTweet": "n",
-    "newMessage": "m",
-    "toggleDMDrawer": "i",
-    "goHome": "g h",
-    "goExplore": "g e",
-    "goNotifications": "g n",
-    "goMentions": "g r",
-    "goProfile": "g p",
-    "goLikes": "g l",
-    "goLists": "g i",
-    "goMessages": "g m",
-    "goGrok": "g g",
-    "goToDrafts": "g f",
-    "goToScheduled": "g t",
-    "goSettings": "g s",
-    "goToUser": "g u",
-    "goBookmarks": "g b",
-    "goTopArticles": "g a",
-    "goDisplay": "g d",
-    "search": "/",
-    "audio": {
-      "dock": "a d",
-      "play": "a space",
-      "mute": "a m"
-    },
-    "video": {
-      "play1": "k",
-      "play2": "space",
-      "mute": "m"
-    },
-    "columns": {
-      "createNewColumn": "c n",
-      "duplicateColumn": "c d",
-      "focusOnReorderButton": "c r",
-      "lastColumn": "c 0",
-      "nextColumn": "]",
-      "nthColumn": "c 1..9",
-      "prevColumn": "[",
-      "removeColumn": "c backspace",
-      "toggleColumnOptions": "c o",
-      "undoRemoveColumn": "c u"
-    },
-    "decks": {
-      "createNewDeck": "d n",
-      "editActiveDeck": "d e",
-      "lastPinnedDeck": "d 0",
-      "manageAllDecks": "d m",
-      "nthPinnedDeck": "d 1..9"
-    },
-    "labs": {
-      "openCommandCenter": ">"
-    }
-  },
-  {
-    "User": "User",
-    "ProfileCard": "ProfileCard",
-    "UserCompact": "UserCompact",
-    "UserConcise": "UserConcise",
-    "UserDetailed": "UserDetailed",
-    "PendingFollowUser": "PendingFollowUser",
-    "SubscribableUser": "SubscribableUser"
-  },
-  {
-    "REQUEST": "rweb/directMessages/SEARCH_REQUEST",
-    "SUCCESS": "rweb/directMessages/SEARCH_SUCCESS",
-    "FAILURE": "rweb/directMessages/SEARCH_FAILURE"
-  },
-  {
-    "REQUEST": "rweb/promotedContent/LOG_REQUEST",
-    "SUCCESS": "rweb/promotedContent/LOG_SUCCESS",
-    "FAILURE": "rweb/promotedContent/LOG_FAILURE"
-  },
-  {
-    "single_line": "singleline",
-    "format_inline": "format-inline"
-  },
-  {
-    "GROUP": "GroupDm",
-    "ONE_TO_ONE": "OneToOneDm",
-    "UNKNOWN": "Unknown"
-  },
-  {
-    "MessageCreate": "a.Cr.MESSAGE",
-    "ParticipantsJoin": "a.Cr.PARTICIPANTS_JOIN",
-    "ParticipantsLeave": "a.Cr.PARTICIPANTS_LEAVE",
-    "ConversationNameUpdate": "a.Cr.CONVERSATION_NAME_UPDATE",
-    "JoinConversation": "a.Cr.JOIN_CONVERSATION"
   },
   {
     "Abort": "abort",
@@ -5399,6 +4769,927 @@
     "Events": "events"
   },
   {
+    "uploading": "uploading",
+    "processing": "processing"
+  },
+  {
+    "LocalFile": "local_file",
+    "Remote": "remote"
+  },
+  {
+    "Cancel": "cancel",
+    "Failure": "failure",
+    "Success": "success",
+    "Complete": "complete",
+    "Invalid": "invalid"
+  },
+  {
+    "InProgress": "in_progress",
+    "Complete": "complete",
+    "Failure": "failure",
+    "Canceled": "canceled"
+  },
+  {
+    "Full": "full",
+    "Hash": "hash",
+    "Processing": "processing",
+    "SruUpload": "sru_upload",
+    "UploadSubmitUntilSruFinish": "upload_submit_until_sru_finish",
+    "Metadata": "metadata"
+  },
+  {
+    "SruUpload": "sru_upload_no_eager",
+    "UploadSubmitUntilSruFinish": "upload_submit_until_sru_finish_no_eager"
+  },
+  {
+    "All": "all",
+    "Short": "short",
+    "Medium": "medium",
+    "Long": "long",
+    "XLong": "xlong",
+    "L90to140s": "l90to140s",
+    "L140to300s": "l140to300s",
+    "L300to600s": "l300to600s",
+    "L600to1200s": "l600to1200s",
+    "L1200to1800s": "l1200to1800s",
+    "L1800to2700s": "l1800to2700s",
+    "L2700to3600s": "l2700to3600s",
+    "L3600to4500s": "l3600to4500s",
+    "L4500to5400s": "l4500to5400s",
+    "L5400to6300s": "l5400to6300s",
+    "L6300to7200s": "l6300to7200s",
+    "L7200to10800s": "l7200to10800s",
+    "L10800to14400s": "l10800to14400s",
+    "LGT14400s": "lgt14400s"
+  },
+  {
+    "REQUEST": "rweb/ocf/FETCH_REQUEST",
+    "SUCCESS": "rweb/ocf/FETCH_SUCCESS",
+    "FAILURE": "rweb/ocf/FETCH_FAILURE"
+  },
+  {
+    "REQUEST": "rweb/ocf/START_REQUEST",
+    "SUCCESS": "rweb/ocf/START_SUCCESS",
+    "FAILURE": "rweb/ocf/START_FAILURE"
+  },
+  {
+    "REQUEST": "rweb/ocf/VERIFY_IDENTIFIER_REQUEST",
+    "SUCCESS": "rweb/ocf/VERIFY_IDENTIFIER_SUCCESS",
+    "FAILURE": "rweb/ocf/VERIFY_IDENTIFIER_FAILURE"
+  },
+  {
+    "REQUEST": "rweb/ocf/FETCH_BROWSABLE_NUX_RECOMMENDATIONS_REQUEST",
+    "SUCCESS": "rweb/ocf/FETCH_BROWSABLE_NUX_RECOMMENDATIONS_SUCCESS",
+    "FAILURE": "rweb/ocf/FETCH_BROWSABLE_NUX_RECOMMENDATIONS_FAILURE"
+  },
+  {
+    "REQUEST": "rweb/savedSearches/FETCH_SAVED_SEARCHES_REQUEST",
+    "SUCCESS": "rweb/savedSearches/FETCH_SAVED_SEARCHES_SUCCESS",
+    "FAILURE": "rweb/savedSearches/FETCH_SAVED_SEARCHES_FAILURE"
+  },
+  {
+    "REQUEST": "rweb/savedSearches/SAVE_SEARCH_REQUEST",
+    "SUCCESS": "rweb/savedSearches/SAVE_SEARCH_SUCCESS",
+    "FAILURE": "rweb/savedSearches/SAVE_SEARCH_FAILURE"
+  },
+  {
+    "REQUEST": "rweb/savedSearches/DELETE_SAVED_SEARCH_REQUEST",
+    "SUCCESS": "rweb/savedSearches/DELETE_SAVED_SEARCH_SUCCESS",
+    "FAILURE": "rweb/savedSearches/DELETE_SAVED_SEARCH_FAILURE"
+  },
+  {
+    "Active": "active",
+    "Expand": "expand",
+    "Remove": "remove"
+  },
+  {
+    "FacepileGroup": "FacepileGroup",
+    "Bird": "Bird",
+    "Community": "Community",
+    "Conversation": "Conversation",
+    "Facepile": "Facepile",
+    "Feedback": "Feedback",
+    "Follow": "Follow",
+    "FollowFollowed": "FollowFollowed",
+    "FollowFollowing": "FollowFollowing",
+    "FollowMutual": "FollowMutual",
+    "Like": "Like",
+    "List": "List",
+    "Location": "Location",
+    "Megaphone": "Megaphone",
+    "Moment": "Moment",
+    "NewTweets": "NewTweets",
+    "NewUser": "NewUser",
+    "Pin": "Pin",
+    "Reply": "Reply",
+    "RelatedTweets": "RelatedTweets",
+    "ReplyPin": "ReplyPin",
+    "Retweet": "Retweet",
+    "SmartBlockExpiration": "SmartBlockExpiration",
+    "SocialProof": "SocialProof",
+    "Spaces": "Spaces",
+    "Sparkle": "Sparkle",
+    "TextOnly": "TextOnly",
+    "Topic": "Topic",
+    "Trending": "Trending"
+  },
+  {
+    "UNKNOWN": "0",
+    "TOP_LEFT": "1",
+    "TOP_RIGHT": "2",
+    "BOTTOM_RIGHT": "3",
+    "BOTTOM_LEFT": "4",
+    "LEFT_TOP": "5",
+    "LEFT_BOTTOM": "6",
+    "RIGHT_BOTTOM": "7",
+    "RIGHT_TOP": "8"
+  },
+  {
+    "FILE_TOO_LARGE": "2",
+    "INTERNAL_ERROR": "131",
+    "INVALID_MEDIA": "1",
+    "RATE_LIMIT": "88",
+    "TIMEOUT": "67",
+    "UNSUPPORTED_MEDIA": "3",
+    "ZERO_FILE_LENGTH": "4",
+    "CANCELED": "999",
+    "INVALID_RES_STATUS": -1
+  },
+  {
+    "0": "w.INTERNAL_ERROR",
+    "1": "w.INVALID_MEDIA",
+    "2": "w.FILE_TOO_LARGE",
+    "3": "w.UNSUPPORTED_MEDIA",
+    "4": "w.TIMEOUT"
+  },
+  {
+    "RESET": "0",
+    "PENDING": "1",
+    "PAUSED": "2",
+    "SUCCEEDED": "3",
+    "FAILED": "4"
+  },
+  {
+    "AcceptAllCookies": "acceptAllCookies",
+    "RefuseNonEssentialCookies": "refuseNonEssentialCookies",
+    "Invalid": "invalid",
+    "NotSet": "notSet"
+  },
+  {
+    "bookmark": "bookmark",
+    "community": "community",
+    "dmshare": "dmshare",
+    "follow": "follow",
+    "generic": "generic",
+    "like": "like",
+    "postvideo": "postvideo",
+    "read": "read",
+    "reply": "reply",
+    "retweet": "retweet",
+    "search": "search",
+    "subscribe": "subscribe",
+    "topic": "topic"
+  },
+  {
+    "BannerSwitchToApp": "banner_switch_to_app",
+    "InterstitialSwitchToApp": "interstitial_switch_to_app",
+    "NuxAppDownload": "NUX-app-download",
+    "SwitchToAppFooter": "switch-to-app-footer",
+    "UseApp": "use-app",
+    "UseAppExtended": "use-app-extended",
+    "SwitchToAppHigh7": "switch_to_app_high_7",
+    "SwitchToAppHigh1": "switch_to_app_high_1",
+    "SwitchToAppHigh2": "switch_to_app_high_2",
+    "SwitchToAppHigh3": "switch_to_app_high_3",
+    "SwitchToAppHigh5": "switch_to_app_high_5",
+    "SwitchToAppLow7": "switch_to_app_low_7",
+    "SwitchToAppLow1": "switch_to_app_low_1",
+    "SwitchToAppLow3": "switch_to_app_low_3",
+    "SwitchToAppLow5": "switch_to_app_low_5",
+    "SwitchToAppLow9": "switch_to_app_low_9"
+  },
+  {
+    "Web": "0",
+    "Email": "1",
+    "Partner": "2",
+    "Market": "3",
+    "Access": "4"
+  },
+  {
+    "toggleCommandCenter": "mod+k",
+    "openKeyboardShortcuts": "?",
+    "swipeLeft": "left",
+    "swipeRight": "right",
+    "nextItem": "j",
+    "previousItem": "k",
+    "refresh": ".",
+    "nightMode": "z",
+    "bookmark": "b",
+    "block": "x",
+    "mute": "u",
+    "newTweet": "n",
+    "newMessage": "m",
+    "toggleDMDrawer": "i",
+    "goHome": "g h",
+    "goExplore": "g e",
+    "goNotifications": "g n",
+    "goMentions": "g r",
+    "goProfile": "g p",
+    "goLikes": "g l",
+    "goLists": "g i",
+    "goMessages": "g m",
+    "goGrok": "g g",
+    "goToDrafts": "g f",
+    "goToScheduled": "g t",
+    "goSettings": "g s",
+    "goToUser": "g u",
+    "goBookmarks": "g b",
+    "goTopArticles": "g a",
+    "goDisplay": "g d",
+    "search": "/",
+    "audio": {
+      "dock": "a d",
+      "play": "a space",
+      "mute": "a m"
+    },
+    "video": {
+      "play1": "k",
+      "play2": "space",
+      "mute": "m"
+    },
+    "columns": {
+      "createNewColumn": "c n",
+      "duplicateColumn": "c d",
+      "focusOnReorderButton": "c r",
+      "lastColumn": "c 0",
+      "nextColumn": "]",
+      "nthColumn": "c 1..9",
+      "prevColumn": "[",
+      "removeColumn": "c backspace",
+      "toggleColumnOptions": "c o",
+      "undoRemoveColumn": "c u"
+    },
+    "decks": {
+      "createNewDeck": "d n",
+      "editActiveDeck": "d e",
+      "lastPinnedDeck": "d 0",
+      "manageAllDecks": "d m",
+      "nthPinnedDeck": "d 1..9"
+    },
+    "labs": {
+      "openCommandCenter": ">"
+    }
+  },
+  {
+    "RESIZE": "resize",
+    "UPLOAD": "upload",
+    "METADATA": "metadata",
+    "MAXDURATION": "maxduration",
+    "MAXSIZE": "maxsize"
+  },
+  {
+    "AmplifyVideo": "amplify_video",
+    "CommunityBanner": "community_banner_image",
+    "ListBanner": "list_banner_image",
+    "TweetImage": "tweet_image",
+    "TweetVideo": "tweet_video",
+    "TweetGif": "tweet_gif",
+    "DMImage": "dm_image",
+    "DMVideo": "dm_video",
+    "DMGif": "dm_gif",
+    "Subtitles": "subtitles",
+    "ProfileBanner": "banner_image"
+  },
+  {
+    "Tweet": "tweet",
+    "Dm": "dm",
+    "CommunityBanner": "community_banner",
+    "ListBanner": "list_banner",
+    "ProfileBanner": "profile_banner",
+    "Avatar": "avatar",
+    "Verification": "verification",
+    "TwitterArticle": "twitter_article"
+  },
+  {
+    "Abort": "abort",
+    "ChromelessWeb": "chromeless_web_link",
+    "Deeplink": "deep_link",
+    "DeeplinkAndAbort": "deep_link_and_abort",
+    "DeeplinkInPlace": "deep_link_in_place",
+    "Finish": "finish",
+    "Subtask": "subtask",
+    "Task": "task",
+    "Web": "web_link",
+    "WeblinkAndAbort": "web_link_and_abort"
+  },
+  {
+    "Allow": "allow",
+    "CancelFlow": "cancel_flow",
+    "HideExplicitCta": "hide_explicit_cta",
+    "Disallow": "disallow"
+  },
+  {
+    "Default": "default",
+    "BulletList": "bullet_list"
+  },
+  {
+    "DestructiveSecondary": "destructive_secondary",
+    "Primary": "primary",
+    "Secondary": "secondary",
+    "Text": "text",
+    "Brand": "brand",
+    "TwitterBrand": "twitter_brand"
+  },
+  {
+    "Small": "small",
+    "NormalCompact": "normal_compact",
+    "Normal": "normal",
+    "LargeCompact": "large_compact",
+    "Large": "large"
+  },
+  {
+    "CheckmarkAndClose": "checkmark",
+    "Text": "text",
+    "ThumbsUpAndDown": "thumbs"
+  },
+  {
+    "Toolbar": "toolbar"
+  },
+  {
+    "Scrollable": "scrollable",
+    "Centered": "centered",
+    "CenteredHeader": "centered_header",
+    "HalfCover": "half_cover"
+  },
+  {
+    "Success": "success",
+    "Failure": "failure",
+    "Cancel": "cancel"
+  },
+  {
+    "Icon": "icon",
+    "FullWidth": "full_width",
+    "FullBleedTop": "full_bleed_top"
+  },
+  {
+    "PhoneOnly": "phone_only",
+    "EmailOnly": "email_only",
+    "PhoneThenEmail": "phone_then_email",
+    "EmailThenPhone": "email_then_phone"
+  },
+  {
+    "ActionList": "ACTION_LIST",
+    "AlertDialog": "ALERT_DIALOG",
+    "AlertDialogSupressClientEvents": "ALERT_DIALOG_SUPRESS_CLIENT_EVENTS",
+    "AppDownloadCTA": "APP_DOWNLOAD_CTA",
+    "AppLocaleUpdate": "APP_LOCALE_UPDATE",
+    "BrowsableNux": "BROWSABLE_NUX",
+    "CallToAction": "CALL_TO_ACTION",
+    "CheckLoggedInAccount": "CHECK_LOGGED_IN_ACCOUNT",
+    "ChoiceSelection": "CHOICE_SELECTION",
+    "ContactsLiveSyncPermissionPrompt": "CONTACTS_LIVE_SYNC_PERMISSION_PROMPT",
+    "EmailContactsSync": "EMAIL_CONTACTS_SYNC",
+    "EmailVerification": "EMAIL_VERIFICATION",
+    "EndFlow": "END_FLOW",
+    "EnterDate": "ENTER_DATE",
+    "EnterEmail": "ENTER_EMAIL",
+    "EnterPassword": "ENTER_PASSWORD",
+    "EnterPhone": "ENTER_PHONE",
+    "EnterRecaptcha": "ENTER_RECAPTCHA",
+    "EnterText": "ENTER_TEXT",
+    "EnterUsername": "ENTER_USERNAME",
+    "FetchPassword": "FETCH_PASSWORD",
+    "GenericURT": "GENERIC_URT",
+    "InAppNotification": "IN_APP_NOTIFICATION",
+    "InterestPicker": "INTEREST_PICKER",
+    "JsInstrumentation": "JS_INSTRUMENTATION",
+    "MenuDialog": "MENU_DIALOG",
+    "NotificationsPermissionPrompt": "NOTIFICATIONS_PERMISSION_PROMPT",
+    "OpenAccount": "OPEN_ACCOUNT",
+    "OpenHomeTimeline": "OPEN_HOME_TIMELINE",
+    "OpenLink": "OPEN_LINK",
+    "Passkey": "PASSKEY",
+    "PhoneVerification": "PHONE_VERIFICATION",
+    "PrivacyOptions": "PRIVACY_OPTIONS",
+    "Recaptcha": "RECAPTCHA",
+    "SecurityKey": "SECURITY_KEY",
+    "SelectAvatar": "SELECT_AVATAR",
+    "SelectBanner": "SELECT_BANNER",
+    "SettingsList": "SETTINGS_LIST",
+    "ShowCode": "SHOW_CODE",
+    "Signup": "SIGNUP",
+    "SignupReview": "SIGNUP_REVIEW",
+    "TopicsSelector": "TOPICS_SELECTOR",
+    "TweetSelectionURT": "TWEET_SELECTION_URT",
+    "TypeaheadSearch": "TYPEAHEAD_SEARCH",
+    "UpdateUsers": "UPDATE_USERS",
+    "UploadMedia": "UPLOAD_MEDIA",
+    "UserRecommendations": "USER_RECOMMENDATIONS_LIST",
+    "UserRecommendationsURT": "USER_RECOMMENDATIONS_URT",
+    "WaitSpinner": "WAIT_SPINNER",
+    "WebModal": "WEB_MODAL"
+  },
+  {
+    "Centered": "centered",
+    "Left": "left"
+  },
+  {
+    "Action": "action",
+    "Boolean": "boolean",
+    "DestructiveAction": "destructive_action",
+    "PreciseLocation": "precise_location",
+    "SettingsGroup": "settings_group",
+    "StaticText": "static_text",
+    "Separator": "separator",
+    "TextField": "text_field",
+    "Button": "button",
+    "Tweet": "tweet"
+  },
+  {
+    "AppleSSOButton": "apple_sso_button",
+    "GoogleSSOButton": "google_sso_button",
+    "NextButton": "next_button",
+    "UserIdentifier": "user_identifier"
+  },
+  {
+    "DEPRECATED_UnorderedList": "UnorderedList",
+    "DEPRECATED_ListItem": "ListItem",
+    "UnorderedList": "unordered_list",
+    "ListItem": "list_item"
+  },
+  {
+    "Normal": "Normal",
+    "Bold": "Bold"
+  },
+  {
+    "Small": "Small",
+    "Normal": "Normal",
+    "Large": "Large",
+    "XLarge": "XLarge",
+    "Jumbo": "Jumbo"
+  },
+  {
+    "Qr": "qr",
+    "Text": "text"
+  },
+  {
+    "Avatar": "avatar",
+    "Banner": "banner"
+  },
+  {
+    "Success": "success",
+    "NotFound": "not_found",
+    "Error": "error"
+  },
+  {
+    "Favorite": "favorite",
+    "Follow": "follow",
+    "Reply": "reply",
+    "Retweet": "retweet"
+  },
+  {
+    "Checkbox": "checkbox",
+    "Follow": "follow"
+  },
+  {
+    "Tile": "tile",
+    "List": "list",
+    "TileFollowButton": "tile_follow_btn"
+  },
+  {
+    "Always": "always",
+    "Never": "never",
+    "Preprompt": "preprompt"
+  },
+  {
+    "Email": "email",
+    "Number": "number",
+    "Password": "password",
+    "Telephone": "telephone",
+    "Text": "text"
+  },
+  {
+    "ResendSms": "resend_sms",
+    "ResendVoice": "resend_voice",
+    "ResendEmail": "resend_email"
+  },
+  {
+    "Password": "password",
+    "NewPassword": "new_password",
+    "Text": "text"
+  },
+  {
+    "Normal": "normal",
+    "Compact": "compact"
+  },
+  {
+    "Username": "username",
+    "Password": "password",
+    "NewPassword": "new_password",
+    "Text": "text"
+  },
+  {
+    "Mismatch": "mismatch"
+  },
+  {
+    "compact": "compact",
+    "stacked": "stacked"
+  },
+  {
+    "Fixed": "fixed",
+    "Floating": "floating",
+    "FloatingLarge": "floating_large"
+  },
+  {
+    "Default": "default",
+    "GoogleSSO": "google_sso",
+    "AppleSSO": "apple_sso"
+  },
+  {
+    "Impression": "impression",
+    "Click": "click"
+  },
+  {
+    "HeaderTitle": "header_title",
+    "HeaderSubtitle": "header_subtitle",
+    "SectionTitle": "section_title",
+    "Detail": "detail"
+  },
+  {
+    "All": "all",
+    "Users": "users",
+    "Topics": "topics",
+    "Events": "events"
+  },
+  {
+    "DISMISSED": "dismissed",
+    "APPROVED": "approved",
+    "NOT_SEEN": "not_seen",
+    "SEEN": "seen"
+  },
+  {
+    "REQUEST": "rweb/loggedOutNotifications/FETCH_REQUEST",
+    "SUCCESS": "rweb/loggedOutNotifications/FETCH_SUCCESS",
+    "FAILURE": "rweb/loggedOutNotifications/FETCH_FAILURE"
+  },
+  {
+    "REQUEST": "rweb/loggedOutNotifications/SAVE_PUSH_TOKEN_REQUEST",
+    "SUCCESS": "rweb/loggedOutNotifications/SAVE_PUSH_TOKEN_SUCCESS",
+    "FAILURE": "rweb/loggedOutNotifications/SAVE_PUSH_TOKEN_FAILURE"
+  },
+  {
+    "uploading": "uploading",
+    "processing": "processing"
+  },
+  {
+    "LocalFile": "local_file",
+    "Remote": "remote"
+  },
+  {
+    "Cancel": "cancel",
+    "Failure": "failure",
+    "Success": "success",
+    "Complete": "complete",
+    "Invalid": "invalid"
+  },
+  {
+    "InProgress": "in_progress",
+    "Complete": "complete",
+    "Failure": "failure",
+    "Canceled": "canceled"
+  },
+  {
+    "Full": "full",
+    "Hash": "hash",
+    "Processing": "processing",
+    "SruUpload": "sru_upload",
+    "UploadSubmitUntilSruFinish": "upload_submit_until_sru_finish",
+    "Metadata": "metadata"
+  },
+  {
+    "SruUpload": "sru_upload_no_eager",
+    "UploadSubmitUntilSruFinish": "upload_submit_until_sru_finish_no_eager"
+  },
+  {
+    "All": "all",
+    "Short": "short",
+    "Medium": "medium",
+    "Long": "long",
+    "XLong": "xlong",
+    "L90to140s": "l90to140s",
+    "L140to300s": "l140to300s",
+    "L300to600s": "l300to600s",
+    "L600to1200s": "l600to1200s",
+    "L1200to1800s": "l1200to1800s",
+    "L1800to2700s": "l1800to2700s",
+    "L2700to3600s": "l2700to3600s",
+    "L3600to4500s": "l3600to4500s",
+    "L4500to5400s": "l4500to5400s",
+    "L5400to6300s": "l5400to6300s",
+    "L6300to7200s": "l6300to7200s",
+    "L7200to10800s": "l7200to10800s",
+    "L10800to14400s": "l10800to14400s",
+    "LGT14400s": "lgt14400s"
+  },
+  {
+    "REQUEST": "rweb/ocf/FETCH_REQUEST",
+    "SUCCESS": "rweb/ocf/FETCH_SUCCESS",
+    "FAILURE": "rweb/ocf/FETCH_FAILURE"
+  },
+  {
+    "REQUEST": "rweb/ocf/START_REQUEST",
+    "SUCCESS": "rweb/ocf/START_SUCCESS",
+    "FAILURE": "rweb/ocf/START_FAILURE"
+  },
+  {
+    "REQUEST": "rweb/ocf/VERIFY_IDENTIFIER_REQUEST",
+    "SUCCESS": "rweb/ocf/VERIFY_IDENTIFIER_SUCCESS",
+    "FAILURE": "rweb/ocf/VERIFY_IDENTIFIER_FAILURE"
+  },
+  {
+    "REQUEST": "rweb/ocf/FETCH_BROWSABLE_NUX_RECOMMENDATIONS_REQUEST",
+    "SUCCESS": "rweb/ocf/FETCH_BROWSABLE_NUX_RECOMMENDATIONS_SUCCESS",
+    "FAILURE": "rweb/ocf/FETCH_BROWSABLE_NUX_RECOMMENDATIONS_FAILURE"
+  },
+  {
+    "REQUEST": "rweb/subscriptionPayments/FETCH_SUBSCRIPTION_PRODUCT_DETAILS_REQUEST",
+    "SUCCESS": "rweb/subscriptionPayments/FETCH_SUBSCRIPTION_PRODUCT_DETAILS_SUCCESS",
+    "FAILURE": "rweb/subscriptionPayments/FETCH_SUBSCRIPTION_PRODUCT_DETAILS_FAILURE"
+  },
+  {
+    "REQUEST": "rweb/subscriptionPayments/FETCH_SUBSCRIPTION_PRODUCT_CHECKOUT_URL_REQUEST",
+    "SUCCESS": "rweb/subscriptionPayments/FETCH_SUBSCRIPTION_PRODUCT_CHECKOUT_URL_SUCCESS",
+    "FAILURE": "rweb/subscriptionPayments/FETCH_SUBSCRIPTION_PRODUCT_CHECKOUT_URL_FAILURE"
+  },
+  {
+    "REQUEST": "rweb/subscriptionPayments/FETCH_PRODUCT_SUBSCRIPTIONS_REQUEST",
+    "SUCCESS": "rweb/subscriptionPayments/FETCH_PRODUCT_SUBSCRIPTIONS_SUCCESS",
+    "FAILURE": "rweb/subscriptionPayments/FETCH_PRODUCT_SUBSCRIPTIONS_FAILURE"
+  },
+  {
+    "REQUEST": "rweb/subscriptionPayments/TIER_SWITCH_REQUEST",
+    "SUCCESS": "rweb/subscriptionPayments/TIER_SWITCH_SUCCESS",
+    "FAILURE": "rweb/subscriptionPayments/TIER_SWITCH_FAILURE"
+  },
+  {
+    "passive": "PASSIVE",
+    "interactive": "INTERACTIVE"
+  },
+  {
+    "light": "default",
+    "dark": "dim",
+    "darker": "dark",
+    "business": "business"
+  },
+  {
+    "UNKNOWN": "0",
+    "TOP_LEFT": "1",
+    "TOP_RIGHT": "2",
+    "BOTTOM_RIGHT": "3",
+    "BOTTOM_LEFT": "4",
+    "LEFT_TOP": "5",
+    "LEFT_BOTTOM": "6",
+    "RIGHT_BOTTOM": "7",
+    "RIGHT_TOP": "8"
+  },
+  {
+    "FILE_TOO_LARGE": "2",
+    "INTERNAL_ERROR": "131",
+    "INVALID_MEDIA": "1",
+    "RATE_LIMIT": "88",
+    "TIMEOUT": "67",
+    "UNSUPPORTED_MEDIA": "3",
+    "ZERO_FILE_LENGTH": "4",
+    "CANCELED": "999",
+    "INVALID_RES_STATUS": -1
+  },
+  {
+    "0": "S.INTERNAL_ERROR",
+    "1": "S.INVALID_MEDIA",
+    "2": "S.FILE_TOO_LARGE",
+    "3": "S.UNSUPPORTED_MEDIA",
+    "4": "S.TIMEOUT"
+  },
+  {
+    "RESET": "0",
+    "PENDING": "1",
+    "PAUSED": "2",
+    "SUCCEEDED": "3",
+    "FAILED": "4"
+  },
+  {
+    "navButtons": "navigationButtons",
+    "carouselRoot": "carouselRoot"
+  },
+  {
+    "FILL": "Fill",
+    "FIXED": "Fixed"
+  },
+  {
+    "large": {
+      "title": "1",
+      "description": "2"
+    },
+    "medium": {
+      "title": "2",
+      "description": "1"
+    },
+    "small": {
+      "title": "2",
+      "description": "0"
+    }
+  },
+  {
+    "large": {
+      "title": "1",
+      "description": "2"
+    },
+    "medium": {
+      "title": "2",
+      "description": "1"
+    },
+    "small": {
+      "title": "2",
+      "description": "0"
+    }
+  },
+  {
+    "large": "5",
+    "medium": "4",
+    "small": "3"
+  },
+  {
+    "large": "DEPRECATED_normal",
+    "medium": "DEPRECATED_normalCompact",
+    "small": "DEPRECATED_normalCompact"
+  },
+  {
+    "CONTROL": "control",
+    "GRAY_DETAILS": "gray_details"
+  },
+  {
+    "NOT_READY": "not_ready"
+  },
+  {
+    "REQUEST": "rweb/CREATE_NOTE_/REQUEST",
+    "SUCCESS": "rweb/CREATE_NOTE_/SUCCESS",
+    "FAILURE": "rweb/CREATE_NOTE_/FAILURE"
+  },
+  {
+    "IMAGE_APP": "image_app",
+    "IMAGE_CAROUSEL_APP": "image_carousel_app",
+    "IMAGE_CAROUSEL_WEBSITE": "image_carousel_website",
+    "IMAGE_MULTI_DEST_CAROUSEL_WEBSITE": "image_multi_dest_carousel_website",
+    "IMAGE_WEBSITE": "image_website",
+    "IMAGE_COLLECTION_WEBSITE": "image_collection_website",
+    "INVALID": "INVALID",
+    "MODEL_EXPLORER_WEBSITE": "model_explorer_website",
+    "VIDEO_APP": "video_app",
+    "VIDEO_CAROUSEL_APP": "video_carousel_app",
+    "VIDEO_CAROUSEL_WEBSITE": "video_carousel_website",
+    "VIDEO_WEBSITE": "video_website",
+    "MULTI_DEST_PRODUCT_CAROUSEL_WEBSITE": "multi_dest_product_carousel_website",
+    "TWITTER_ARTICLE": "twitter_article"
+  },
+  {
+    "full_time": "i",
+    "full_time_contract": "o",
+    "part_time": "l",
+    "contract_to_hire": "d"
+  },
+  {
+    "1": "c",
+    "2": "u"
+  },
+  {
+    "annually": {
+      "label": "c",
+      "value": "1"
+    },
+    "hourly": {
+      "label": "u",
+      "value": "2"
+    }
+  },
+  {
+    "INFINITE": "infinite",
+    "MEDIUM": "medium",
+    "NONE": "none"
+  },
+  {
+    "Composition": "composition",
+    "DMComposition": "dm_composition",
+    "NoteComposition": "note_composition"
+  },
+  {
+    "TWEET_CARET": "tweet_caret",
+    "PROFILE": "user_profile",
+    "LIST_DETAIL": "list_detail",
+    "RICH_FEEDBACK": "rich_feedback",
+    "TWEET": "tweet",
+    "FOLLOWERS_LIST": "followers_list"
+  },
+  {
+    "toggleCommandCenter": "mod+k",
+    "openKeyboardShortcuts": "?",
+    "swipeLeft": "left",
+    "swipeRight": "right",
+    "nextItem": "j",
+    "previousItem": "k",
+    "refresh": ".",
+    "nightMode": "z",
+    "bookmark": "b",
+    "block": "x",
+    "mute": "u",
+    "newTweet": "n",
+    "newMessage": "m",
+    "toggleDMDrawer": "i",
+    "goHome": "g h",
+    "goExplore": "g e",
+    "goNotifications": "g n",
+    "goMentions": "g r",
+    "goProfile": "g p",
+    "goLikes": "g l",
+    "goLists": "g i",
+    "goMessages": "g m",
+    "goGrok": "g g",
+    "goToDrafts": "g f",
+    "goToScheduled": "g t",
+    "goSettings": "g s",
+    "goToUser": "g u",
+    "goBookmarks": "g b",
+    "goTopArticles": "g a",
+    "goDisplay": "g d",
+    "search": "/",
+    "audio": {
+      "dock": "a d",
+      "play": "a space",
+      "mute": "a m"
+    },
+    "video": {
+      "play1": "k",
+      "play2": "space",
+      "mute": "m"
+    },
+    "columns": {
+      "createNewColumn": "c n",
+      "duplicateColumn": "c d",
+      "focusOnReorderButton": "c r",
+      "lastColumn": "c 0",
+      "nextColumn": "]",
+      "nthColumn": "c 1..9",
+      "prevColumn": "[",
+      "removeColumn": "c backspace",
+      "toggleColumnOptions": "c o",
+      "undoRemoveColumn": "c u"
+    },
+    "decks": {
+      "createNewDeck": "d n",
+      "editActiveDeck": "d e",
+      "lastPinnedDeck": "d 0",
+      "manageAllDecks": "d m",
+      "nthPinnedDeck": "d 1..9"
+    },
+    "labs": {
+      "openCommandCenter": ">"
+    }
+  },
+  {
+    "User": "User",
+    "ProfileCard": "ProfileCard",
+    "UserCompact": "UserCompact",
+    "UserConcise": "UserConcise",
+    "UserDetailed": "UserDetailed",
+    "PendingFollowUser": "PendingFollowUser",
+    "SubscribableUser": "SubscribableUser"
+  },
+  {
+    "REQUEST": "rweb/directMessages/SEARCH_REQUEST",
+    "SUCCESS": "rweb/directMessages/SEARCH_SUCCESS",
+    "FAILURE": "rweb/directMessages/SEARCH_FAILURE"
+  },
+  {
+    "REQUEST": "rweb/promotedContent/LOG_REQUEST",
+    "SUCCESS": "rweb/promotedContent/LOG_SUCCESS",
+    "FAILURE": "rweb/promotedContent/LOG_FAILURE"
+  },
+  {
+    "single_line": "singleline",
+    "format_inline": "format-inline"
+  },
+  {
+    "GROUP": "GroupDm",
+    "ONE_TO_ONE": "OneToOneDm",
+    "UNKNOWN": "Unknown"
+  },
+  {
+    "MessageCreate": "a.Cr.MESSAGE",
+    "ParticipantsJoin": "a.Cr.PARTICIPANTS_JOIN",
+    "ParticipantsLeave": "a.Cr.PARTICIPANTS_LEAVE",
+    "ConversationNameUpdate": "a.Cr.CONVERSATION_NAME_UPDATE",
+    "JoinConversation": "a.Cr.JOIN_CONVERSATION"
+  },
+  {
     "ARROW_RIGHT": "ARROW_RIGHT",
     "BALLOON_STROKE": "BALLOON_STROKE",
     "BOOKMARK": "BOOKMARK",
@@ -5434,26 +5725,6 @@
     "TOPIC": "TOPIC",
     "TRASHCAN": "TRASHCAN",
     "UNFOLLOW": "UNFOLLOW"
-  },
-  {
-    "REQUEST": "rweb/ocf/FETCH_REQUEST",
-    "SUCCESS": "rweb/ocf/FETCH_SUCCESS",
-    "FAILURE": "rweb/ocf/FETCH_FAILURE"
-  },
-  {
-    "REQUEST": "rweb/ocf/START_REQUEST",
-    "SUCCESS": "rweb/ocf/START_SUCCESS",
-    "FAILURE": "rweb/ocf/START_FAILURE"
-  },
-  {
-    "REQUEST": "rweb/ocf/VERIFY_IDENTIFIER_REQUEST",
-    "SUCCESS": "rweb/ocf/VERIFY_IDENTIFIER_SUCCESS",
-    "FAILURE": "rweb/ocf/VERIFY_IDENTIFIER_FAILURE"
-  },
-  {
-    "REQUEST": "rweb/ocf/FETCH_BROWSABLE_NUX_RECOMMENDATIONS_REQUEST",
-    "SUCCESS": "rweb/ocf/FETCH_BROWSABLE_NUX_RECOMMENDATIONS_SUCCESS",
-    "FAILURE": "rweb/ocf/FETCH_BROWSABLE_NUX_RECOMMENDATIONS_FAILURE"
   },
   {
     "primary": {
@@ -5685,11 +5956,11 @@
     "INVALID_RES_STATUS": -1
   },
   {
-    "0": "b.INTERNAL_ERROR",
-    "1": "b.INVALID_MEDIA",
-    "2": "b.FILE_TOO_LARGE",
-    "3": "b.UNSUPPORTED_MEDIA",
-    "4": "b.TIMEOUT"
+    "0": "S.INTERNAL_ERROR",
+    "1": "S.INVALID_MEDIA",
+    "2": "S.FILE_TOO_LARGE",
+    "3": "S.UNSUPPORTED_MEDIA",
+    "4": "S.TIMEOUT"
   },
   {
     "RESET": "0",
@@ -5697,6 +5968,277 @@
     "PAUSED": "2",
     "SUCCEEDED": "3",
     "FAILED": "4"
+  },
+  {
+    "Abort": "abort",
+    "ChromelessWeb": "chromeless_web_link",
+    "Deeplink": "deep_link",
+    "DeeplinkAndAbort": "deep_link_and_abort",
+    "DeeplinkInPlace": "deep_link_in_place",
+    "Finish": "finish",
+    "Subtask": "subtask",
+    "Task": "task",
+    "Web": "web_link",
+    "WeblinkAndAbort": "web_link_and_abort"
+  },
+  {
+    "Allow": "allow",
+    "CancelFlow": "cancel_flow",
+    "HideExplicitCta": "hide_explicit_cta",
+    "Disallow": "disallow"
+  },
+  {
+    "Default": "default",
+    "BulletList": "bullet_list"
+  },
+  {
+    "DestructiveSecondary": "destructive_secondary",
+    "Primary": "primary",
+    "Secondary": "secondary",
+    "Text": "text",
+    "Brand": "brand",
+    "TwitterBrand": "twitter_brand"
+  },
+  {
+    "Small": "small",
+    "NormalCompact": "normal_compact",
+    "Normal": "normal",
+    "LargeCompact": "large_compact",
+    "Large": "large"
+  },
+  {
+    "CheckmarkAndClose": "checkmark",
+    "Text": "text",
+    "ThumbsUpAndDown": "thumbs"
+  },
+  {
+    "Toolbar": "toolbar"
+  },
+  {
+    "Scrollable": "scrollable",
+    "Centered": "centered",
+    "CenteredHeader": "centered_header",
+    "HalfCover": "half_cover"
+  },
+  {
+    "Success": "success",
+    "Failure": "failure",
+    "Cancel": "cancel"
+  },
+  {
+    "Icon": "icon",
+    "FullWidth": "full_width",
+    "FullBleedTop": "full_bleed_top"
+  },
+  {
+    "PhoneOnly": "phone_only",
+    "EmailOnly": "email_only",
+    "PhoneThenEmail": "phone_then_email",
+    "EmailThenPhone": "email_then_phone"
+  },
+  {
+    "ActionList": "ACTION_LIST",
+    "AlertDialog": "ALERT_DIALOG",
+    "AlertDialogSupressClientEvents": "ALERT_DIALOG_SUPRESS_CLIENT_EVENTS",
+    "AppDownloadCTA": "APP_DOWNLOAD_CTA",
+    "AppLocaleUpdate": "APP_LOCALE_UPDATE",
+    "BrowsableNux": "BROWSABLE_NUX",
+    "CallToAction": "CALL_TO_ACTION",
+    "CheckLoggedInAccount": "CHECK_LOGGED_IN_ACCOUNT",
+    "ChoiceSelection": "CHOICE_SELECTION",
+    "ContactsLiveSyncPermissionPrompt": "CONTACTS_LIVE_SYNC_PERMISSION_PROMPT",
+    "EmailContactsSync": "EMAIL_CONTACTS_SYNC",
+    "EmailVerification": "EMAIL_VERIFICATION",
+    "EndFlow": "END_FLOW",
+    "EnterDate": "ENTER_DATE",
+    "EnterEmail": "ENTER_EMAIL",
+    "EnterPassword": "ENTER_PASSWORD",
+    "EnterPhone": "ENTER_PHONE",
+    "EnterRecaptcha": "ENTER_RECAPTCHA",
+    "EnterText": "ENTER_TEXT",
+    "EnterUsername": "ENTER_USERNAME",
+    "FetchPassword": "FETCH_PASSWORD",
+    "GenericURT": "GENERIC_URT",
+    "InAppNotification": "IN_APP_NOTIFICATION",
+    "InterestPicker": "INTEREST_PICKER",
+    "JsInstrumentation": "JS_INSTRUMENTATION",
+    "MenuDialog": "MENU_DIALOG",
+    "NotificationsPermissionPrompt": "NOTIFICATIONS_PERMISSION_PROMPT",
+    "OpenAccount": "OPEN_ACCOUNT",
+    "OpenHomeTimeline": "OPEN_HOME_TIMELINE",
+    "OpenLink": "OPEN_LINK",
+    "Passkey": "PASSKEY",
+    "PhoneVerification": "PHONE_VERIFICATION",
+    "PrivacyOptions": "PRIVACY_OPTIONS",
+    "Recaptcha": "RECAPTCHA",
+    "SecurityKey": "SECURITY_KEY",
+    "SelectAvatar": "SELECT_AVATAR",
+    "SelectBanner": "SELECT_BANNER",
+    "SettingsList": "SETTINGS_LIST",
+    "ShowCode": "SHOW_CODE",
+    "Signup": "SIGNUP",
+    "SignupReview": "SIGNUP_REVIEW",
+    "TopicsSelector": "TOPICS_SELECTOR",
+    "TweetSelectionURT": "TWEET_SELECTION_URT",
+    "TypeaheadSearch": "TYPEAHEAD_SEARCH",
+    "UpdateUsers": "UPDATE_USERS",
+    "UploadMedia": "UPLOAD_MEDIA",
+    "UserRecommendations": "USER_RECOMMENDATIONS_LIST",
+    "UserRecommendationsURT": "USER_RECOMMENDATIONS_URT",
+    "WaitSpinner": "WAIT_SPINNER",
+    "WebModal": "WEB_MODAL"
+  },
+  {
+    "Centered": "centered",
+    "Left": "left"
+  },
+  {
+    "Action": "action",
+    "Boolean": "boolean",
+    "DestructiveAction": "destructive_action",
+    "PreciseLocation": "precise_location",
+    "SettingsGroup": "settings_group",
+    "StaticText": "static_text",
+    "Separator": "separator",
+    "TextField": "text_field",
+    "Button": "button",
+    "Tweet": "tweet"
+  },
+  {
+    "AppleSSOButton": "apple_sso_button",
+    "GoogleSSOButton": "google_sso_button",
+    "NextButton": "next_button",
+    "UserIdentifier": "user_identifier"
+  },
+  {
+    "DEPRECATED_UnorderedList": "UnorderedList",
+    "DEPRECATED_ListItem": "ListItem",
+    "UnorderedList": "unordered_list",
+    "ListItem": "list_item"
+  },
+  {
+    "Normal": "Normal",
+    "Bold": "Bold"
+  },
+  {
+    "Small": "Small",
+    "Normal": "Normal",
+    "Large": "Large",
+    "XLarge": "XLarge",
+    "Jumbo": "Jumbo"
+  },
+  {
+    "Qr": "qr",
+    "Text": "text"
+  },
+  {
+    "Avatar": "avatar",
+    "Banner": "banner"
+  },
+  {
+    "Success": "success",
+    "NotFound": "not_found",
+    "Error": "error"
+  },
+  {
+    "Favorite": "favorite",
+    "Follow": "follow",
+    "Reply": "reply",
+    "Retweet": "retweet"
+  },
+  {
+    "Checkbox": "checkbox",
+    "Follow": "follow"
+  },
+  {
+    "Tile": "tile",
+    "List": "list",
+    "TileFollowButton": "tile_follow_btn"
+  },
+  {
+    "Always": "always",
+    "Never": "never",
+    "Preprompt": "preprompt"
+  },
+  {
+    "Email": "email",
+    "Number": "number",
+    "Password": "password",
+    "Telephone": "telephone",
+    "Text": "text"
+  },
+  {
+    "ResendSms": "resend_sms",
+    "ResendVoice": "resend_voice",
+    "ResendEmail": "resend_email"
+  },
+  {
+    "Password": "password",
+    "NewPassword": "new_password",
+    "Text": "text"
+  },
+  {
+    "Normal": "normal",
+    "Compact": "compact"
+  },
+  {
+    "Username": "username",
+    "Password": "password",
+    "NewPassword": "new_password",
+    "Text": "text"
+  },
+  {
+    "Mismatch": "mismatch"
+  },
+  {
+    "compact": "compact",
+    "stacked": "stacked"
+  },
+  {
+    "Fixed": "fixed",
+    "Floating": "floating",
+    "FloatingLarge": "floating_large"
+  },
+  {
+    "Default": "default",
+    "GoogleSSO": "google_sso",
+    "AppleSSO": "apple_sso"
+  },
+  {
+    "Impression": "impression",
+    "Click": "click"
+  },
+  {
+    "HeaderTitle": "header_title",
+    "HeaderSubtitle": "header_subtitle",
+    "SectionTitle": "section_title",
+    "Detail": "detail"
+  },
+  {
+    "All": "all",
+    "Users": "users",
+    "Topics": "topics",
+    "Events": "events"
+  },
+  {
+    "REQUEST": "rweb/ocf/FETCH_REQUEST",
+    "SUCCESS": "rweb/ocf/FETCH_SUCCESS",
+    "FAILURE": "rweb/ocf/FETCH_FAILURE"
+  },
+  {
+    "REQUEST": "rweb/ocf/START_REQUEST",
+    "SUCCESS": "rweb/ocf/START_SUCCESS",
+    "FAILURE": "rweb/ocf/START_FAILURE"
+  },
+  {
+    "REQUEST": "rweb/ocf/VERIFY_IDENTIFIER_REQUEST",
+    "SUCCESS": "rweb/ocf/VERIFY_IDENTIFIER_SUCCESS",
+    "FAILURE": "rweb/ocf/VERIFY_IDENTIFIER_FAILURE"
+  },
+  {
+    "REQUEST": "rweb/ocf/FETCH_BROWSABLE_NUX_RECOMMENDATIONS_REQUEST",
+    "SUCCESS": "rweb/ocf/FETCH_BROWSABLE_NUX_RECOMMENDATIONS_SUCCESS",
+    "FAILURE": "rweb/ocf/FETCH_BROWSABLE_NUX_RECOMMENDATIONS_FAILURE"
   },
   {
     "RESIZE": "resize",
@@ -5965,277 +6507,6 @@
     "TransparentCursor": "ui_transparentCursor"
   },
   {
-    "Abort": "abort",
-    "ChromelessWeb": "chromeless_web_link",
-    "Deeplink": "deep_link",
-    "DeeplinkAndAbort": "deep_link_and_abort",
-    "DeeplinkInPlace": "deep_link_in_place",
-    "Finish": "finish",
-    "Subtask": "subtask",
-    "Task": "task",
-    "Web": "web_link",
-    "WeblinkAndAbort": "web_link_and_abort"
-  },
-  {
-    "Allow": "allow",
-    "CancelFlow": "cancel_flow",
-    "HideExplicitCta": "hide_explicit_cta",
-    "Disallow": "disallow"
-  },
-  {
-    "Default": "default",
-    "BulletList": "bullet_list"
-  },
-  {
-    "DestructiveSecondary": "destructive_secondary",
-    "Primary": "primary",
-    "Secondary": "secondary",
-    "Text": "text",
-    "Brand": "brand",
-    "TwitterBrand": "twitter_brand"
-  },
-  {
-    "Small": "small",
-    "NormalCompact": "normal_compact",
-    "Normal": "normal",
-    "LargeCompact": "large_compact",
-    "Large": "large"
-  },
-  {
-    "CheckmarkAndClose": "checkmark",
-    "Text": "text",
-    "ThumbsUpAndDown": "thumbs"
-  },
-  {
-    "Toolbar": "toolbar"
-  },
-  {
-    "Scrollable": "scrollable",
-    "Centered": "centered",
-    "CenteredHeader": "centered_header",
-    "HalfCover": "half_cover"
-  },
-  {
-    "Success": "success",
-    "Failure": "failure",
-    "Cancel": "cancel"
-  },
-  {
-    "Icon": "icon",
-    "FullWidth": "full_width",
-    "FullBleedTop": "full_bleed_top"
-  },
-  {
-    "PhoneOnly": "phone_only",
-    "EmailOnly": "email_only",
-    "PhoneThenEmail": "phone_then_email",
-    "EmailThenPhone": "email_then_phone"
-  },
-  {
-    "ActionList": "ACTION_LIST",
-    "AlertDialog": "ALERT_DIALOG",
-    "AlertDialogSupressClientEvents": "ALERT_DIALOG_SUPRESS_CLIENT_EVENTS",
-    "AppDownloadCTA": "APP_DOWNLOAD_CTA",
-    "AppLocaleUpdate": "APP_LOCALE_UPDATE",
-    "BrowsableNux": "BROWSABLE_NUX",
-    "CallToAction": "CALL_TO_ACTION",
-    "CheckLoggedInAccount": "CHECK_LOGGED_IN_ACCOUNT",
-    "ChoiceSelection": "CHOICE_SELECTION",
-    "ContactsLiveSyncPermissionPrompt": "CONTACTS_LIVE_SYNC_PERMISSION_PROMPT",
-    "EmailContactsSync": "EMAIL_CONTACTS_SYNC",
-    "EmailVerification": "EMAIL_VERIFICATION",
-    "EndFlow": "END_FLOW",
-    "EnterDate": "ENTER_DATE",
-    "EnterEmail": "ENTER_EMAIL",
-    "EnterPassword": "ENTER_PASSWORD",
-    "EnterPhone": "ENTER_PHONE",
-    "EnterRecaptcha": "ENTER_RECAPTCHA",
-    "EnterText": "ENTER_TEXT",
-    "EnterUsername": "ENTER_USERNAME",
-    "FetchPassword": "FETCH_PASSWORD",
-    "GenericURT": "GENERIC_URT",
-    "InAppNotification": "IN_APP_NOTIFICATION",
-    "InterestPicker": "INTEREST_PICKER",
-    "JsInstrumentation": "JS_INSTRUMENTATION",
-    "MenuDialog": "MENU_DIALOG",
-    "NotificationsPermissionPrompt": "NOTIFICATIONS_PERMISSION_PROMPT",
-    "OpenAccount": "OPEN_ACCOUNT",
-    "OpenHomeTimeline": "OPEN_HOME_TIMELINE",
-    "OpenLink": "OPEN_LINK",
-    "Passkey": "PASSKEY",
-    "PhoneVerification": "PHONE_VERIFICATION",
-    "PrivacyOptions": "PRIVACY_OPTIONS",
-    "Recaptcha": "RECAPTCHA",
-    "SecurityKey": "SECURITY_KEY",
-    "SelectAvatar": "SELECT_AVATAR",
-    "SelectBanner": "SELECT_BANNER",
-    "SettingsList": "SETTINGS_LIST",
-    "ShowCode": "SHOW_CODE",
-    "Signup": "SIGNUP",
-    "SignupReview": "SIGNUP_REVIEW",
-    "TopicsSelector": "TOPICS_SELECTOR",
-    "TweetSelectionURT": "TWEET_SELECTION_URT",
-    "TypeaheadSearch": "TYPEAHEAD_SEARCH",
-    "UpdateUsers": "UPDATE_USERS",
-    "UploadMedia": "UPLOAD_MEDIA",
-    "UserRecommendations": "USER_RECOMMENDATIONS_LIST",
-    "UserRecommendationsURT": "USER_RECOMMENDATIONS_URT",
-    "WaitSpinner": "WAIT_SPINNER",
-    "WebModal": "WEB_MODAL"
-  },
-  {
-    "Centered": "centered",
-    "Left": "left"
-  },
-  {
-    "Action": "action",
-    "Boolean": "boolean",
-    "DestructiveAction": "destructive_action",
-    "PreciseLocation": "precise_location",
-    "SettingsGroup": "settings_group",
-    "StaticText": "static_text",
-    "Separator": "separator",
-    "TextField": "text_field",
-    "Button": "button",
-    "Tweet": "tweet"
-  },
-  {
-    "AppleSSOButton": "apple_sso_button",
-    "GoogleSSOButton": "google_sso_button",
-    "NextButton": "next_button",
-    "UserIdentifier": "user_identifier"
-  },
-  {
-    "DEPRECATED_UnorderedList": "UnorderedList",
-    "DEPRECATED_ListItem": "ListItem",
-    "UnorderedList": "unordered_list",
-    "ListItem": "list_item"
-  },
-  {
-    "Normal": "Normal",
-    "Bold": "Bold"
-  },
-  {
-    "Small": "Small",
-    "Normal": "Normal",
-    "Large": "Large",
-    "XLarge": "XLarge",
-    "Jumbo": "Jumbo"
-  },
-  {
-    "Qr": "qr",
-    "Text": "text"
-  },
-  {
-    "Avatar": "avatar",
-    "Banner": "banner"
-  },
-  {
-    "Success": "success",
-    "NotFound": "not_found",
-    "Error": "error"
-  },
-  {
-    "Favorite": "favorite",
-    "Follow": "follow",
-    "Reply": "reply",
-    "Retweet": "retweet"
-  },
-  {
-    "Checkbox": "checkbox",
-    "Follow": "follow"
-  },
-  {
-    "Tile": "tile",
-    "List": "list",
-    "TileFollowButton": "tile_follow_btn"
-  },
-  {
-    "Always": "always",
-    "Never": "never",
-    "Preprompt": "preprompt"
-  },
-  {
-    "Email": "email",
-    "Number": "number",
-    "Password": "password",
-    "Telephone": "telephone",
-    "Text": "text"
-  },
-  {
-    "ResendSms": "resend_sms",
-    "ResendVoice": "resend_voice",
-    "ResendEmail": "resend_email"
-  },
-  {
-    "Password": "password",
-    "NewPassword": "new_password",
-    "Text": "text"
-  },
-  {
-    "Normal": "normal",
-    "Compact": "compact"
-  },
-  {
-    "Username": "username",
-    "Password": "password",
-    "NewPassword": "new_password",
-    "Text": "text"
-  },
-  {
-    "Mismatch": "mismatch"
-  },
-  {
-    "compact": "compact",
-    "stacked": "stacked"
-  },
-  {
-    "Fixed": "fixed",
-    "Floating": "floating",
-    "FloatingLarge": "floating_large"
-  },
-  {
-    "Default": "default",
-    "GoogleSSO": "google_sso",
-    "AppleSSO": "apple_sso"
-  },
-  {
-    "Impression": "impression",
-    "Click": "click"
-  },
-  {
-    "HeaderTitle": "header_title",
-    "HeaderSubtitle": "header_subtitle",
-    "SectionTitle": "section_title",
-    "Detail": "detail"
-  },
-  {
-    "All": "all",
-    "Users": "users",
-    "Topics": "topics",
-    "Events": "events"
-  },
-  {
-    "REQUEST": "rweb/ocf/FETCH_REQUEST",
-    "SUCCESS": "rweb/ocf/FETCH_SUCCESS",
-    "FAILURE": "rweb/ocf/FETCH_FAILURE"
-  },
-  {
-    "REQUEST": "rweb/ocf/START_REQUEST",
-    "SUCCESS": "rweb/ocf/START_SUCCESS",
-    "FAILURE": "rweb/ocf/START_FAILURE"
-  },
-  {
-    "REQUEST": "rweb/ocf/VERIFY_IDENTIFIER_REQUEST",
-    "SUCCESS": "rweb/ocf/VERIFY_IDENTIFIER_SUCCESS",
-    "FAILURE": "rweb/ocf/VERIFY_IDENTIFIER_FAILURE"
-  },
-  {
-    "REQUEST": "rweb/ocf/FETCH_BROWSABLE_NUX_RECOMMENDATIONS_REQUEST",
-    "SUCCESS": "rweb/ocf/FETCH_BROWSABLE_NUX_RECOMMENDATIONS_SUCCESS",
-    "FAILURE": "rweb/ocf/FETCH_BROWSABLE_NUX_RECOMMENDATIONS_FAILURE"
-  },
-  {
     "Default": "Default",
     "Pivot": "Pivot",
     "Reorder": "Reorder"
@@ -6348,257 +6619,6 @@
     "FAILURE": "rweb/promotedContent/LOG_FAILURE"
   },
   {
-    "Abort": "abort",
-    "ChromelessWeb": "chromeless_web_link",
-    "Deeplink": "deep_link",
-    "DeeplinkAndAbort": "deep_link_and_abort",
-    "DeeplinkInPlace": "deep_link_in_place",
-    "Finish": "finish",
-    "Subtask": "subtask",
-    "Task": "task",
-    "Web": "web_link",
-    "WeblinkAndAbort": "web_link_and_abort"
-  },
-  {
-    "Allow": "allow",
-    "CancelFlow": "cancel_flow",
-    "HideExplicitCta": "hide_explicit_cta",
-    "Disallow": "disallow"
-  },
-  {
-    "Default": "default",
-    "BulletList": "bullet_list"
-  },
-  {
-    "DestructiveSecondary": "destructive_secondary",
-    "Primary": "primary",
-    "Secondary": "secondary",
-    "Text": "text",
-    "Brand": "brand",
-    "TwitterBrand": "twitter_brand"
-  },
-  {
-    "Small": "small",
-    "NormalCompact": "normal_compact",
-    "Normal": "normal",
-    "LargeCompact": "large_compact",
-    "Large": "large"
-  },
-  {
-    "CheckmarkAndClose": "checkmark",
-    "Text": "text",
-    "ThumbsUpAndDown": "thumbs"
-  },
-  {
-    "Toolbar": "toolbar"
-  },
-  {
-    "Scrollable": "scrollable",
-    "Centered": "centered",
-    "CenteredHeader": "centered_header",
-    "HalfCover": "half_cover"
-  },
-  {
-    "Success": "success",
-    "Failure": "failure",
-    "Cancel": "cancel"
-  },
-  {
-    "Icon": "icon",
-    "FullWidth": "full_width",
-    "FullBleedTop": "full_bleed_top"
-  },
-  {
-    "PhoneOnly": "phone_only",
-    "EmailOnly": "email_only",
-    "PhoneThenEmail": "phone_then_email",
-    "EmailThenPhone": "email_then_phone"
-  },
-  {
-    "ActionList": "ACTION_LIST",
-    "AlertDialog": "ALERT_DIALOG",
-    "AlertDialogSupressClientEvents": "ALERT_DIALOG_SUPRESS_CLIENT_EVENTS",
-    "AppDownloadCTA": "APP_DOWNLOAD_CTA",
-    "AppLocaleUpdate": "APP_LOCALE_UPDATE",
-    "BrowsableNux": "BROWSABLE_NUX",
-    "CallToAction": "CALL_TO_ACTION",
-    "CheckLoggedInAccount": "CHECK_LOGGED_IN_ACCOUNT",
-    "ChoiceSelection": "CHOICE_SELECTION",
-    "ContactsLiveSyncPermissionPrompt": "CONTACTS_LIVE_SYNC_PERMISSION_PROMPT",
-    "EmailContactsSync": "EMAIL_CONTACTS_SYNC",
-    "EmailVerification": "EMAIL_VERIFICATION",
-    "EndFlow": "END_FLOW",
-    "EnterDate": "ENTER_DATE",
-    "EnterEmail": "ENTER_EMAIL",
-    "EnterPassword": "ENTER_PASSWORD",
-    "EnterPhone": "ENTER_PHONE",
-    "EnterRecaptcha": "ENTER_RECAPTCHA",
-    "EnterText": "ENTER_TEXT",
-    "EnterUsername": "ENTER_USERNAME",
-    "FetchPassword": "FETCH_PASSWORD",
-    "GenericURT": "GENERIC_URT",
-    "InAppNotification": "IN_APP_NOTIFICATION",
-    "InterestPicker": "INTEREST_PICKER",
-    "JsInstrumentation": "JS_INSTRUMENTATION",
-    "MenuDialog": "MENU_DIALOG",
-    "NotificationsPermissionPrompt": "NOTIFICATIONS_PERMISSION_PROMPT",
-    "OpenAccount": "OPEN_ACCOUNT",
-    "OpenHomeTimeline": "OPEN_HOME_TIMELINE",
-    "OpenLink": "OPEN_LINK",
-    "Passkey": "PASSKEY",
-    "PhoneVerification": "PHONE_VERIFICATION",
-    "PrivacyOptions": "PRIVACY_OPTIONS",
-    "Recaptcha": "RECAPTCHA",
-    "SecurityKey": "SECURITY_KEY",
-    "SelectAvatar": "SELECT_AVATAR",
-    "SelectBanner": "SELECT_BANNER",
-    "SettingsList": "SETTINGS_LIST",
-    "ShowCode": "SHOW_CODE",
-    "Signup": "SIGNUP",
-    "SignupReview": "SIGNUP_REVIEW",
-    "TopicsSelector": "TOPICS_SELECTOR",
-    "TweetSelectionURT": "TWEET_SELECTION_URT",
-    "TypeaheadSearch": "TYPEAHEAD_SEARCH",
-    "UpdateUsers": "UPDATE_USERS",
-    "UploadMedia": "UPLOAD_MEDIA",
-    "UserRecommendations": "USER_RECOMMENDATIONS_LIST",
-    "UserRecommendationsURT": "USER_RECOMMENDATIONS_URT",
-    "WaitSpinner": "WAIT_SPINNER",
-    "WebModal": "WEB_MODAL"
-  },
-  {
-    "Centered": "centered",
-    "Left": "left"
-  },
-  {
-    "Action": "action",
-    "Boolean": "boolean",
-    "DestructiveAction": "destructive_action",
-    "PreciseLocation": "precise_location",
-    "SettingsGroup": "settings_group",
-    "StaticText": "static_text",
-    "Separator": "separator",
-    "TextField": "text_field",
-    "Button": "button",
-    "Tweet": "tweet"
-  },
-  {
-    "AppleSSOButton": "apple_sso_button",
-    "GoogleSSOButton": "google_sso_button",
-    "NextButton": "next_button",
-    "UserIdentifier": "user_identifier"
-  },
-  {
-    "DEPRECATED_UnorderedList": "UnorderedList",
-    "DEPRECATED_ListItem": "ListItem",
-    "UnorderedList": "unordered_list",
-    "ListItem": "list_item"
-  },
-  {
-    "Normal": "Normal",
-    "Bold": "Bold"
-  },
-  {
-    "Small": "Small",
-    "Normal": "Normal",
-    "Large": "Large",
-    "XLarge": "XLarge",
-    "Jumbo": "Jumbo"
-  },
-  {
-    "Qr": "qr",
-    "Text": "text"
-  },
-  {
-    "Avatar": "avatar",
-    "Banner": "banner"
-  },
-  {
-    "Success": "success",
-    "NotFound": "not_found",
-    "Error": "error"
-  },
-  {
-    "Favorite": "favorite",
-    "Follow": "follow",
-    "Reply": "reply",
-    "Retweet": "retweet"
-  },
-  {
-    "Checkbox": "checkbox",
-    "Follow": "follow"
-  },
-  {
-    "Tile": "tile",
-    "List": "list",
-    "TileFollowButton": "tile_follow_btn"
-  },
-  {
-    "Always": "always",
-    "Never": "never",
-    "Preprompt": "preprompt"
-  },
-  {
-    "Email": "email",
-    "Number": "number",
-    "Password": "password",
-    "Telephone": "telephone",
-    "Text": "text"
-  },
-  {
-    "ResendSms": "resend_sms",
-    "ResendVoice": "resend_voice",
-    "ResendEmail": "resend_email"
-  },
-  {
-    "Password": "password",
-    "NewPassword": "new_password",
-    "Text": "text"
-  },
-  {
-    "Normal": "normal",
-    "Compact": "compact"
-  },
-  {
-    "Username": "username",
-    "Password": "password",
-    "NewPassword": "new_password",
-    "Text": "text"
-  },
-  {
-    "Mismatch": "mismatch"
-  },
-  {
-    "compact": "compact",
-    "stacked": "stacked"
-  },
-  {
-    "Fixed": "fixed",
-    "Floating": "floating",
-    "FloatingLarge": "floating_large"
-  },
-  {
-    "Default": "default",
-    "GoogleSSO": "google_sso",
-    "AppleSSO": "apple_sso"
-  },
-  {
-    "Impression": "impression",
-    "Click": "click"
-  },
-  {
-    "HeaderTitle": "header_title",
-    "HeaderSubtitle": "header_subtitle",
-    "SectionTitle": "section_title",
-    "Detail": "detail"
-  },
-  {
-    "All": "all",
-    "Users": "users",
-    "Topics": "topics",
-    "Events": "events"
-  },
-  {
     "REQUEST": "rweb/communityBoost/FETCH_COMMUNITYBOOST_PIVOT_REQUEST",
     "SUCCESS": "rweb/communityBoost/FETCH_COMMUNITYBOOST_PIVOT_SUCCESS",
     "FAILURE": "rweb/communityBoost/FETCH_COMMUNITYBOOST_PIVOT_FAILURE"
@@ -6617,26 +6637,6 @@
     "REQUEST": "rweb/communityBoost/FETCH_DATA_REQUEST",
     "SUCCESS": "rweb/communityBoost/FETCH_DATA_SUCCESS",
     "FAILURE": "rweb/communityBoost/FETCH_DATA_FAILURE"
-  },
-  {
-    "REQUEST": "rweb/ocf/FETCH_REQUEST",
-    "SUCCESS": "rweb/ocf/FETCH_SUCCESS",
-    "FAILURE": "rweb/ocf/FETCH_FAILURE"
-  },
-  {
-    "REQUEST": "rweb/ocf/START_REQUEST",
-    "SUCCESS": "rweb/ocf/START_SUCCESS",
-    "FAILURE": "rweb/ocf/START_FAILURE"
-  },
-  {
-    "REQUEST": "rweb/ocf/VERIFY_IDENTIFIER_REQUEST",
-    "SUCCESS": "rweb/ocf/VERIFY_IDENTIFIER_SUCCESS",
-    "FAILURE": "rweb/ocf/VERIFY_IDENTIFIER_FAILURE"
-  },
-  {
-    "REQUEST": "rweb/ocf/FETCH_BROWSABLE_NUX_RECOMMENDATIONS_REQUEST",
-    "SUCCESS": "rweb/ocf/FETCH_BROWSABLE_NUX_RECOMMENDATIONS_SUCCESS",
-    "FAILURE": "rweb/ocf/FETCH_BROWSABLE_NUX_RECOMMENDATIONS_FAILURE"
   },
   {
     "NoVerifiedPhoneNumber": "NoVerifiedPhoneNumber",
@@ -6709,11 +6709,11 @@
     },
     "openSuccessful": {
       "shouldShow": "!0",
-      "badgeType": "F.Ratings"
+      "badgeType": "D.Ratings"
     },
     "openHelpful": {
       "shouldShow": "!0",
-      "badgeType": "F.Notes"
+      "badgeType": "D.Notes"
     }
   },
   {
@@ -6963,275 +6963,14 @@
     "FAILURE": "rweb/availableLanguages/FETCH_AVAILABLE_LANGUAGES_FAILURE"
   },
   {
-    "Abort": "abort",
-    "ChromelessWeb": "chromeless_web_link",
-    "Deeplink": "deep_link",
-    "DeeplinkAndAbort": "deep_link_and_abort",
-    "DeeplinkInPlace": "deep_link_in_place",
-    "Finish": "finish",
-    "Subtask": "subtask",
-    "Task": "task",
-    "Web": "web_link",
-    "WeblinkAndAbort": "web_link_and_abort"
+    "Composition": "composition",
+    "DMComposition": "dm_composition",
+    "NoteComposition": "note_composition"
   },
   {
-    "Allow": "allow",
-    "CancelFlow": "cancel_flow",
-    "HideExplicitCta": "hide_explicit_cta",
-    "Disallow": "disallow"
-  },
-  {
-    "Default": "default",
-    "BulletList": "bullet_list"
-  },
-  {
-    "DestructiveSecondary": "destructive_secondary",
-    "Primary": "primary",
-    "Secondary": "secondary",
-    "Text": "text",
-    "Brand": "brand",
-    "TwitterBrand": "twitter_brand"
-  },
-  {
-    "Small": "small",
-    "NormalCompact": "normal_compact",
-    "Normal": "normal",
-    "LargeCompact": "large_compact",
-    "Large": "large"
-  },
-  {
-    "CheckmarkAndClose": "checkmark",
-    "Text": "text",
-    "ThumbsUpAndDown": "thumbs"
-  },
-  {
-    "Toolbar": "toolbar"
-  },
-  {
-    "Scrollable": "scrollable",
-    "Centered": "centered",
-    "CenteredHeader": "centered_header",
-    "HalfCover": "half_cover"
-  },
-  {
-    "Success": "success",
-    "Failure": "failure",
-    "Cancel": "cancel"
-  },
-  {
-    "Icon": "icon",
-    "FullWidth": "full_width",
-    "FullBleedTop": "full_bleed_top"
-  },
-  {
-    "PhoneOnly": "phone_only",
-    "EmailOnly": "email_only",
-    "PhoneThenEmail": "phone_then_email",
-    "EmailThenPhone": "email_then_phone"
-  },
-  {
-    "ActionList": "ACTION_LIST",
-    "AlertDialog": "ALERT_DIALOG",
-    "AlertDialogSupressClientEvents": "ALERT_DIALOG_SUPRESS_CLIENT_EVENTS",
-    "AppDownloadCTA": "APP_DOWNLOAD_CTA",
-    "AppLocaleUpdate": "APP_LOCALE_UPDATE",
-    "BrowsableNux": "BROWSABLE_NUX",
-    "CallToAction": "CALL_TO_ACTION",
-    "CheckLoggedInAccount": "CHECK_LOGGED_IN_ACCOUNT",
-    "ChoiceSelection": "CHOICE_SELECTION",
-    "ContactsLiveSyncPermissionPrompt": "CONTACTS_LIVE_SYNC_PERMISSION_PROMPT",
-    "EmailContactsSync": "EMAIL_CONTACTS_SYNC",
-    "EmailVerification": "EMAIL_VERIFICATION",
-    "EndFlow": "END_FLOW",
-    "EnterDate": "ENTER_DATE",
-    "EnterEmail": "ENTER_EMAIL",
-    "EnterPassword": "ENTER_PASSWORD",
-    "EnterPhone": "ENTER_PHONE",
-    "EnterRecaptcha": "ENTER_RECAPTCHA",
-    "EnterText": "ENTER_TEXT",
-    "EnterUsername": "ENTER_USERNAME",
-    "FetchPassword": "FETCH_PASSWORD",
-    "GenericURT": "GENERIC_URT",
-    "InAppNotification": "IN_APP_NOTIFICATION",
-    "InterestPicker": "INTEREST_PICKER",
-    "JsInstrumentation": "JS_INSTRUMENTATION",
-    "MenuDialog": "MENU_DIALOG",
-    "NotificationsPermissionPrompt": "NOTIFICATIONS_PERMISSION_PROMPT",
-    "OpenAccount": "OPEN_ACCOUNT",
-    "OpenHomeTimeline": "OPEN_HOME_TIMELINE",
-    "OpenLink": "OPEN_LINK",
-    "Passkey": "PASSKEY",
-    "PhoneVerification": "PHONE_VERIFICATION",
-    "PrivacyOptions": "PRIVACY_OPTIONS",
-    "Recaptcha": "RECAPTCHA",
-    "SecurityKey": "SECURITY_KEY",
-    "SelectAvatar": "SELECT_AVATAR",
-    "SelectBanner": "SELECT_BANNER",
-    "SettingsList": "SETTINGS_LIST",
-    "ShowCode": "SHOW_CODE",
-    "Signup": "SIGNUP",
-    "SignupReview": "SIGNUP_REVIEW",
-    "TopicsSelector": "TOPICS_SELECTOR",
-    "TweetSelectionURT": "TWEET_SELECTION_URT",
-    "TypeaheadSearch": "TYPEAHEAD_SEARCH",
-    "UpdateUsers": "UPDATE_USERS",
-    "UploadMedia": "UPLOAD_MEDIA",
-    "UserRecommendations": "USER_RECOMMENDATIONS_LIST",
-    "UserRecommendationsURT": "USER_RECOMMENDATIONS_URT",
-    "WaitSpinner": "WAIT_SPINNER",
-    "WebModal": "WEB_MODAL"
-  },
-  {
-    "Centered": "centered",
-    "Left": "left"
-  },
-  {
-    "Action": "action",
-    "Boolean": "boolean",
-    "DestructiveAction": "destructive_action",
-    "PreciseLocation": "precise_location",
-    "SettingsGroup": "settings_group",
-    "StaticText": "static_text",
-    "Separator": "separator",
-    "TextField": "text_field",
-    "Button": "button",
-    "Tweet": "tweet"
-  },
-  {
-    "AppleSSOButton": "apple_sso_button",
-    "GoogleSSOButton": "google_sso_button",
-    "NextButton": "next_button",
-    "UserIdentifier": "user_identifier"
-  },
-  {
-    "DEPRECATED_UnorderedList": "UnorderedList",
-    "DEPRECATED_ListItem": "ListItem",
-    "UnorderedList": "unordered_list",
-    "ListItem": "list_item"
-  },
-  {
-    "Normal": "Normal",
-    "Bold": "Bold"
-  },
-  {
-    "Small": "Small",
-    "Normal": "Normal",
-    "Large": "Large",
-    "XLarge": "XLarge",
-    "Jumbo": "Jumbo"
-  },
-  {
-    "Qr": "qr",
-    "Text": "text"
-  },
-  {
-    "Avatar": "avatar",
-    "Banner": "banner"
-  },
-  {
-    "Success": "success",
-    "NotFound": "not_found",
-    "Error": "error"
-  },
-  {
-    "Favorite": "favorite",
-    "Follow": "follow",
-    "Reply": "reply",
-    "Retweet": "retweet"
-  },
-  {
-    "Checkbox": "checkbox",
-    "Follow": "follow"
-  },
-  {
-    "Tile": "tile",
-    "List": "list",
-    "TileFollowButton": "tile_follow_btn"
-  },
-  {
-    "Always": "always",
-    "Never": "never",
-    "Preprompt": "preprompt"
-  },
-  {
-    "Email": "email",
-    "Number": "number",
-    "Password": "password",
-    "Telephone": "telephone",
-    "Text": "text"
-  },
-  {
-    "ResendSms": "resend_sms",
-    "ResendVoice": "resend_voice",
-    "ResendEmail": "resend_email"
-  },
-  {
-    "Password": "password",
-    "NewPassword": "new_password",
-    "Text": "text"
-  },
-  {
-    "Normal": "normal",
-    "Compact": "compact"
-  },
-  {
-    "Username": "username",
-    "Password": "password",
-    "NewPassword": "new_password",
-    "Text": "text"
-  },
-  {
-    "Mismatch": "mismatch"
-  },
-  {
-    "compact": "compact",
-    "stacked": "stacked"
-  },
-  {
-    "Fixed": "fixed",
-    "Floating": "floating",
-    "FloatingLarge": "floating_large"
-  },
-  {
-    "Default": "default",
-    "GoogleSSO": "google_sso",
-    "AppleSSO": "apple_sso"
-  },
-  {
-    "Impression": "impression",
-    "Click": "click"
-  },
-  {
-    "HeaderTitle": "header_title",
-    "HeaderSubtitle": "header_subtitle",
-    "SectionTitle": "section_title",
-    "Detail": "detail"
-  },
-  {
-    "All": "all",
-    "Users": "users",
-    "Topics": "topics",
-    "Events": "events"
-  },
-  {
-    "REQUEST": "rweb/ocf/FETCH_REQUEST",
-    "SUCCESS": "rweb/ocf/FETCH_SUCCESS",
-    "FAILURE": "rweb/ocf/FETCH_FAILURE"
-  },
-  {
-    "REQUEST": "rweb/ocf/START_REQUEST",
-    "SUCCESS": "rweb/ocf/START_SUCCESS",
-    "FAILURE": "rweb/ocf/START_FAILURE"
-  },
-  {
-    "REQUEST": "rweb/ocf/VERIFY_IDENTIFIER_REQUEST",
-    "SUCCESS": "rweb/ocf/VERIFY_IDENTIFIER_SUCCESS",
-    "FAILURE": "rweb/ocf/VERIFY_IDENTIFIER_FAILURE"
-  },
-  {
-    "REQUEST": "rweb/ocf/FETCH_BROWSABLE_NUX_RECOMMENDATIONS_REQUEST",
-    "SUCCESS": "rweb/ocf/FETCH_BROWSABLE_NUX_RECOMMENDATIONS_SUCCESS",
-    "FAILURE": "rweb/ocf/FETCH_BROWSABLE_NUX_RECOMMENDATIONS_FAILURE"
+    "INFINITE": "infinite",
+    "MEDIUM": "medium",
+    "NONE": "none"
   },
   {
     "MARKDOWN": "mn",
@@ -7497,257 +7236,6 @@
     }
   },
   {
-    "Abort": "abort",
-    "ChromelessWeb": "chromeless_web_link",
-    "Deeplink": "deep_link",
-    "DeeplinkAndAbort": "deep_link_and_abort",
-    "DeeplinkInPlace": "deep_link_in_place",
-    "Finish": "finish",
-    "Subtask": "subtask",
-    "Task": "task",
-    "Web": "web_link",
-    "WeblinkAndAbort": "web_link_and_abort"
-  },
-  {
-    "Allow": "allow",
-    "CancelFlow": "cancel_flow",
-    "HideExplicitCta": "hide_explicit_cta",
-    "Disallow": "disallow"
-  },
-  {
-    "Default": "default",
-    "BulletList": "bullet_list"
-  },
-  {
-    "DestructiveSecondary": "destructive_secondary",
-    "Primary": "primary",
-    "Secondary": "secondary",
-    "Text": "text",
-    "Brand": "brand",
-    "TwitterBrand": "twitter_brand"
-  },
-  {
-    "Small": "small",
-    "NormalCompact": "normal_compact",
-    "Normal": "normal",
-    "LargeCompact": "large_compact",
-    "Large": "large"
-  },
-  {
-    "CheckmarkAndClose": "checkmark",
-    "Text": "text",
-    "ThumbsUpAndDown": "thumbs"
-  },
-  {
-    "Toolbar": "toolbar"
-  },
-  {
-    "Scrollable": "scrollable",
-    "Centered": "centered",
-    "CenteredHeader": "centered_header",
-    "HalfCover": "half_cover"
-  },
-  {
-    "Success": "success",
-    "Failure": "failure",
-    "Cancel": "cancel"
-  },
-  {
-    "Icon": "icon",
-    "FullWidth": "full_width",
-    "FullBleedTop": "full_bleed_top"
-  },
-  {
-    "PhoneOnly": "phone_only",
-    "EmailOnly": "email_only",
-    "PhoneThenEmail": "phone_then_email",
-    "EmailThenPhone": "email_then_phone"
-  },
-  {
-    "ActionList": "ACTION_LIST",
-    "AlertDialog": "ALERT_DIALOG",
-    "AlertDialogSupressClientEvents": "ALERT_DIALOG_SUPRESS_CLIENT_EVENTS",
-    "AppDownloadCTA": "APP_DOWNLOAD_CTA",
-    "AppLocaleUpdate": "APP_LOCALE_UPDATE",
-    "BrowsableNux": "BROWSABLE_NUX",
-    "CallToAction": "CALL_TO_ACTION",
-    "CheckLoggedInAccount": "CHECK_LOGGED_IN_ACCOUNT",
-    "ChoiceSelection": "CHOICE_SELECTION",
-    "ContactsLiveSyncPermissionPrompt": "CONTACTS_LIVE_SYNC_PERMISSION_PROMPT",
-    "EmailContactsSync": "EMAIL_CONTACTS_SYNC",
-    "EmailVerification": "EMAIL_VERIFICATION",
-    "EndFlow": "END_FLOW",
-    "EnterDate": "ENTER_DATE",
-    "EnterEmail": "ENTER_EMAIL",
-    "EnterPassword": "ENTER_PASSWORD",
-    "EnterPhone": "ENTER_PHONE",
-    "EnterRecaptcha": "ENTER_RECAPTCHA",
-    "EnterText": "ENTER_TEXT",
-    "EnterUsername": "ENTER_USERNAME",
-    "FetchPassword": "FETCH_PASSWORD",
-    "GenericURT": "GENERIC_URT",
-    "InAppNotification": "IN_APP_NOTIFICATION",
-    "InterestPicker": "INTEREST_PICKER",
-    "JsInstrumentation": "JS_INSTRUMENTATION",
-    "MenuDialog": "MENU_DIALOG",
-    "NotificationsPermissionPrompt": "NOTIFICATIONS_PERMISSION_PROMPT",
-    "OpenAccount": "OPEN_ACCOUNT",
-    "OpenHomeTimeline": "OPEN_HOME_TIMELINE",
-    "OpenLink": "OPEN_LINK",
-    "Passkey": "PASSKEY",
-    "PhoneVerification": "PHONE_VERIFICATION",
-    "PrivacyOptions": "PRIVACY_OPTIONS",
-    "Recaptcha": "RECAPTCHA",
-    "SecurityKey": "SECURITY_KEY",
-    "SelectAvatar": "SELECT_AVATAR",
-    "SelectBanner": "SELECT_BANNER",
-    "SettingsList": "SETTINGS_LIST",
-    "ShowCode": "SHOW_CODE",
-    "Signup": "SIGNUP",
-    "SignupReview": "SIGNUP_REVIEW",
-    "TopicsSelector": "TOPICS_SELECTOR",
-    "TweetSelectionURT": "TWEET_SELECTION_URT",
-    "TypeaheadSearch": "TYPEAHEAD_SEARCH",
-    "UpdateUsers": "UPDATE_USERS",
-    "UploadMedia": "UPLOAD_MEDIA",
-    "UserRecommendations": "USER_RECOMMENDATIONS_LIST",
-    "UserRecommendationsURT": "USER_RECOMMENDATIONS_URT",
-    "WaitSpinner": "WAIT_SPINNER",
-    "WebModal": "WEB_MODAL"
-  },
-  {
-    "Centered": "centered",
-    "Left": "left"
-  },
-  {
-    "Action": "action",
-    "Boolean": "boolean",
-    "DestructiveAction": "destructive_action",
-    "PreciseLocation": "precise_location",
-    "SettingsGroup": "settings_group",
-    "StaticText": "static_text",
-    "Separator": "separator",
-    "TextField": "text_field",
-    "Button": "button",
-    "Tweet": "tweet"
-  },
-  {
-    "AppleSSOButton": "apple_sso_button",
-    "GoogleSSOButton": "google_sso_button",
-    "NextButton": "next_button",
-    "UserIdentifier": "user_identifier"
-  },
-  {
-    "DEPRECATED_UnorderedList": "UnorderedList",
-    "DEPRECATED_ListItem": "ListItem",
-    "UnorderedList": "unordered_list",
-    "ListItem": "list_item"
-  },
-  {
-    "Normal": "Normal",
-    "Bold": "Bold"
-  },
-  {
-    "Small": "Small",
-    "Normal": "Normal",
-    "Large": "Large",
-    "XLarge": "XLarge",
-    "Jumbo": "Jumbo"
-  },
-  {
-    "Qr": "qr",
-    "Text": "text"
-  },
-  {
-    "Avatar": "avatar",
-    "Banner": "banner"
-  },
-  {
-    "Success": "success",
-    "NotFound": "not_found",
-    "Error": "error"
-  },
-  {
-    "Favorite": "favorite",
-    "Follow": "follow",
-    "Reply": "reply",
-    "Retweet": "retweet"
-  },
-  {
-    "Checkbox": "checkbox",
-    "Follow": "follow"
-  },
-  {
-    "Tile": "tile",
-    "List": "list",
-    "TileFollowButton": "tile_follow_btn"
-  },
-  {
-    "Always": "always",
-    "Never": "never",
-    "Preprompt": "preprompt"
-  },
-  {
-    "Email": "email",
-    "Number": "number",
-    "Password": "password",
-    "Telephone": "telephone",
-    "Text": "text"
-  },
-  {
-    "ResendSms": "resend_sms",
-    "ResendVoice": "resend_voice",
-    "ResendEmail": "resend_email"
-  },
-  {
-    "Password": "password",
-    "NewPassword": "new_password",
-    "Text": "text"
-  },
-  {
-    "Normal": "normal",
-    "Compact": "compact"
-  },
-  {
-    "Username": "username",
-    "Password": "password",
-    "NewPassword": "new_password",
-    "Text": "text"
-  },
-  {
-    "Mismatch": "mismatch"
-  },
-  {
-    "compact": "compact",
-    "stacked": "stacked"
-  },
-  {
-    "Fixed": "fixed",
-    "Floating": "floating",
-    "FloatingLarge": "floating_large"
-  },
-  {
-    "Default": "default",
-    "GoogleSSO": "google_sso",
-    "AppleSSO": "apple_sso"
-  },
-  {
-    "Impression": "impression",
-    "Click": "click"
-  },
-  {
-    "HeaderTitle": "header_title",
-    "HeaderSubtitle": "header_subtitle",
-    "SectionTitle": "section_title",
-    "Detail": "detail"
-  },
-  {
-    "All": "all",
-    "Users": "users",
-    "Topics": "topics",
-    "Events": "events"
-  },
-  {
     "User": "User",
     "ProfileCard": "ProfileCard",
     "UserCompact": "UserCompact",
@@ -7755,26 +7243,6 @@
     "UserDetailed": "UserDetailed",
     "PendingFollowUser": "PendingFollowUser",
     "SubscribableUser": "SubscribableUser"
-  },
-  {
-    "REQUEST": "rweb/ocf/FETCH_REQUEST",
-    "SUCCESS": "rweb/ocf/FETCH_SUCCESS",
-    "FAILURE": "rweb/ocf/FETCH_FAILURE"
-  },
-  {
-    "REQUEST": "rweb/ocf/START_REQUEST",
-    "SUCCESS": "rweb/ocf/START_SUCCESS",
-    "FAILURE": "rweb/ocf/START_FAILURE"
-  },
-  {
-    "REQUEST": "rweb/ocf/VERIFY_IDENTIFIER_REQUEST",
-    "SUCCESS": "rweb/ocf/VERIFY_IDENTIFIER_SUCCESS",
-    "FAILURE": "rweb/ocf/VERIFY_IDENTIFIER_FAILURE"
-  },
-  {
-    "REQUEST": "rweb/ocf/FETCH_BROWSABLE_NUX_RECOMMENDATIONS_REQUEST",
-    "SUCCESS": "rweb/ocf/FETCH_BROWSABLE_NUX_RECOMMENDATIONS_SUCCESS",
-    "FAILURE": "rweb/ocf/FETCH_BROWSABLE_NUX_RECOMMENDATIONS_FAILURE"
   },
   {
     "REQUEST": "rweb/scheduledTweets/FETCH_SCHEDULED_TWEETS_REQUEST",
@@ -8491,277 +7959,6 @@
     }
   },
   {
-    "Abort": "abort",
-    "ChromelessWeb": "chromeless_web_link",
-    "Deeplink": "deep_link",
-    "DeeplinkAndAbort": "deep_link_and_abort",
-    "DeeplinkInPlace": "deep_link_in_place",
-    "Finish": "finish",
-    "Subtask": "subtask",
-    "Task": "task",
-    "Web": "web_link",
-    "WeblinkAndAbort": "web_link_and_abort"
-  },
-  {
-    "Allow": "allow",
-    "CancelFlow": "cancel_flow",
-    "HideExplicitCta": "hide_explicit_cta",
-    "Disallow": "disallow"
-  },
-  {
-    "Default": "default",
-    "BulletList": "bullet_list"
-  },
-  {
-    "DestructiveSecondary": "destructive_secondary",
-    "Primary": "primary",
-    "Secondary": "secondary",
-    "Text": "text",
-    "Brand": "brand",
-    "TwitterBrand": "twitter_brand"
-  },
-  {
-    "Small": "small",
-    "NormalCompact": "normal_compact",
-    "Normal": "normal",
-    "LargeCompact": "large_compact",
-    "Large": "large"
-  },
-  {
-    "CheckmarkAndClose": "checkmark",
-    "Text": "text",
-    "ThumbsUpAndDown": "thumbs"
-  },
-  {
-    "Toolbar": "toolbar"
-  },
-  {
-    "Scrollable": "scrollable",
-    "Centered": "centered",
-    "CenteredHeader": "centered_header",
-    "HalfCover": "half_cover"
-  },
-  {
-    "Success": "success",
-    "Failure": "failure",
-    "Cancel": "cancel"
-  },
-  {
-    "Icon": "icon",
-    "FullWidth": "full_width",
-    "FullBleedTop": "full_bleed_top"
-  },
-  {
-    "PhoneOnly": "phone_only",
-    "EmailOnly": "email_only",
-    "PhoneThenEmail": "phone_then_email",
-    "EmailThenPhone": "email_then_phone"
-  },
-  {
-    "ActionList": "ACTION_LIST",
-    "AlertDialog": "ALERT_DIALOG",
-    "AlertDialogSupressClientEvents": "ALERT_DIALOG_SUPRESS_CLIENT_EVENTS",
-    "AppDownloadCTA": "APP_DOWNLOAD_CTA",
-    "AppLocaleUpdate": "APP_LOCALE_UPDATE",
-    "BrowsableNux": "BROWSABLE_NUX",
-    "CallToAction": "CALL_TO_ACTION",
-    "CheckLoggedInAccount": "CHECK_LOGGED_IN_ACCOUNT",
-    "ChoiceSelection": "CHOICE_SELECTION",
-    "ContactsLiveSyncPermissionPrompt": "CONTACTS_LIVE_SYNC_PERMISSION_PROMPT",
-    "EmailContactsSync": "EMAIL_CONTACTS_SYNC",
-    "EmailVerification": "EMAIL_VERIFICATION",
-    "EndFlow": "END_FLOW",
-    "EnterDate": "ENTER_DATE",
-    "EnterEmail": "ENTER_EMAIL",
-    "EnterPassword": "ENTER_PASSWORD",
-    "EnterPhone": "ENTER_PHONE",
-    "EnterRecaptcha": "ENTER_RECAPTCHA",
-    "EnterText": "ENTER_TEXT",
-    "EnterUsername": "ENTER_USERNAME",
-    "FetchPassword": "FETCH_PASSWORD",
-    "GenericURT": "GENERIC_URT",
-    "InAppNotification": "IN_APP_NOTIFICATION",
-    "InterestPicker": "INTEREST_PICKER",
-    "JsInstrumentation": "JS_INSTRUMENTATION",
-    "MenuDialog": "MENU_DIALOG",
-    "NotificationsPermissionPrompt": "NOTIFICATIONS_PERMISSION_PROMPT",
-    "OpenAccount": "OPEN_ACCOUNT",
-    "OpenHomeTimeline": "OPEN_HOME_TIMELINE",
-    "OpenLink": "OPEN_LINK",
-    "Passkey": "PASSKEY",
-    "PhoneVerification": "PHONE_VERIFICATION",
-    "PrivacyOptions": "PRIVACY_OPTIONS",
-    "Recaptcha": "RECAPTCHA",
-    "SecurityKey": "SECURITY_KEY",
-    "SelectAvatar": "SELECT_AVATAR",
-    "SelectBanner": "SELECT_BANNER",
-    "SettingsList": "SETTINGS_LIST",
-    "ShowCode": "SHOW_CODE",
-    "Signup": "SIGNUP",
-    "SignupReview": "SIGNUP_REVIEW",
-    "TopicsSelector": "TOPICS_SELECTOR",
-    "TweetSelectionURT": "TWEET_SELECTION_URT",
-    "TypeaheadSearch": "TYPEAHEAD_SEARCH",
-    "UpdateUsers": "UPDATE_USERS",
-    "UploadMedia": "UPLOAD_MEDIA",
-    "UserRecommendations": "USER_RECOMMENDATIONS_LIST",
-    "UserRecommendationsURT": "USER_RECOMMENDATIONS_URT",
-    "WaitSpinner": "WAIT_SPINNER",
-    "WebModal": "WEB_MODAL"
-  },
-  {
-    "Centered": "centered",
-    "Left": "left"
-  },
-  {
-    "Action": "action",
-    "Boolean": "boolean",
-    "DestructiveAction": "destructive_action",
-    "PreciseLocation": "precise_location",
-    "SettingsGroup": "settings_group",
-    "StaticText": "static_text",
-    "Separator": "separator",
-    "TextField": "text_field",
-    "Button": "button",
-    "Tweet": "tweet"
-  },
-  {
-    "AppleSSOButton": "apple_sso_button",
-    "GoogleSSOButton": "google_sso_button",
-    "NextButton": "next_button",
-    "UserIdentifier": "user_identifier"
-  },
-  {
-    "DEPRECATED_UnorderedList": "UnorderedList",
-    "DEPRECATED_ListItem": "ListItem",
-    "UnorderedList": "unordered_list",
-    "ListItem": "list_item"
-  },
-  {
-    "Normal": "Normal",
-    "Bold": "Bold"
-  },
-  {
-    "Small": "Small",
-    "Normal": "Normal",
-    "Large": "Large",
-    "XLarge": "XLarge",
-    "Jumbo": "Jumbo"
-  },
-  {
-    "Qr": "qr",
-    "Text": "text"
-  },
-  {
-    "Avatar": "avatar",
-    "Banner": "banner"
-  },
-  {
-    "Success": "success",
-    "NotFound": "not_found",
-    "Error": "error"
-  },
-  {
-    "Favorite": "favorite",
-    "Follow": "follow",
-    "Reply": "reply",
-    "Retweet": "retweet"
-  },
-  {
-    "Checkbox": "checkbox",
-    "Follow": "follow"
-  },
-  {
-    "Tile": "tile",
-    "List": "list",
-    "TileFollowButton": "tile_follow_btn"
-  },
-  {
-    "Always": "always",
-    "Never": "never",
-    "Preprompt": "preprompt"
-  },
-  {
-    "Email": "email",
-    "Number": "number",
-    "Password": "password",
-    "Telephone": "telephone",
-    "Text": "text"
-  },
-  {
-    "ResendSms": "resend_sms",
-    "ResendVoice": "resend_voice",
-    "ResendEmail": "resend_email"
-  },
-  {
-    "Password": "password",
-    "NewPassword": "new_password",
-    "Text": "text"
-  },
-  {
-    "Normal": "normal",
-    "Compact": "compact"
-  },
-  {
-    "Username": "username",
-    "Password": "password",
-    "NewPassword": "new_password",
-    "Text": "text"
-  },
-  {
-    "Mismatch": "mismatch"
-  },
-  {
-    "compact": "compact",
-    "stacked": "stacked"
-  },
-  {
-    "Fixed": "fixed",
-    "Floating": "floating",
-    "FloatingLarge": "floating_large"
-  },
-  {
-    "Default": "default",
-    "GoogleSSO": "google_sso",
-    "AppleSSO": "apple_sso"
-  },
-  {
-    "Impression": "impression",
-    "Click": "click"
-  },
-  {
-    "HeaderTitle": "header_title",
-    "HeaderSubtitle": "header_subtitle",
-    "SectionTitle": "section_title",
-    "Detail": "detail"
-  },
-  {
-    "All": "all",
-    "Users": "users",
-    "Topics": "topics",
-    "Events": "events"
-  },
-  {
-    "REQUEST": "rweb/ocf/FETCH_REQUEST",
-    "SUCCESS": "rweb/ocf/FETCH_SUCCESS",
-    "FAILURE": "rweb/ocf/FETCH_FAILURE"
-  },
-  {
-    "REQUEST": "rweb/ocf/START_REQUEST",
-    "SUCCESS": "rweb/ocf/START_SUCCESS",
-    "FAILURE": "rweb/ocf/START_FAILURE"
-  },
-  {
-    "REQUEST": "rweb/ocf/VERIFY_IDENTIFIER_REQUEST",
-    "SUCCESS": "rweb/ocf/VERIFY_IDENTIFIER_SUCCESS",
-    "FAILURE": "rweb/ocf/VERIFY_IDENTIFIER_FAILURE"
-  },
-  {
-    "REQUEST": "rweb/ocf/FETCH_BROWSABLE_NUX_RECOMMENDATIONS_REQUEST",
-    "SUCCESS": "rweb/ocf/FETCH_BROWSABLE_NUX_RECOMMENDATIONS_SUCCESS",
-    "FAILURE": "rweb/ocf/FETCH_BROWSABLE_NUX_RECOMMENDATIONS_FAILURE"
-  },
-  {
     "TWEET_CARET": "tweet_caret",
     "PROFILE": "user_profile",
     "LIST_DETAIL": "list_detail",
@@ -9132,277 +8329,6 @@
     "WebSidebar": "web_sidebar"
   },
   {
-    "Abort": "abort",
-    "ChromelessWeb": "chromeless_web_link",
-    "Deeplink": "deep_link",
-    "DeeplinkAndAbort": "deep_link_and_abort",
-    "DeeplinkInPlace": "deep_link_in_place",
-    "Finish": "finish",
-    "Subtask": "subtask",
-    "Task": "task",
-    "Web": "web_link",
-    "WeblinkAndAbort": "web_link_and_abort"
-  },
-  {
-    "Allow": "allow",
-    "CancelFlow": "cancel_flow",
-    "HideExplicitCta": "hide_explicit_cta",
-    "Disallow": "disallow"
-  },
-  {
-    "Default": "default",
-    "BulletList": "bullet_list"
-  },
-  {
-    "DestructiveSecondary": "destructive_secondary",
-    "Primary": "primary",
-    "Secondary": "secondary",
-    "Text": "text",
-    "Brand": "brand",
-    "TwitterBrand": "twitter_brand"
-  },
-  {
-    "Small": "small",
-    "NormalCompact": "normal_compact",
-    "Normal": "normal",
-    "LargeCompact": "large_compact",
-    "Large": "large"
-  },
-  {
-    "CheckmarkAndClose": "checkmark",
-    "Text": "text",
-    "ThumbsUpAndDown": "thumbs"
-  },
-  {
-    "Toolbar": "toolbar"
-  },
-  {
-    "Scrollable": "scrollable",
-    "Centered": "centered",
-    "CenteredHeader": "centered_header",
-    "HalfCover": "half_cover"
-  },
-  {
-    "Success": "success",
-    "Failure": "failure",
-    "Cancel": "cancel"
-  },
-  {
-    "Icon": "icon",
-    "FullWidth": "full_width",
-    "FullBleedTop": "full_bleed_top"
-  },
-  {
-    "PhoneOnly": "phone_only",
-    "EmailOnly": "email_only",
-    "PhoneThenEmail": "phone_then_email",
-    "EmailThenPhone": "email_then_phone"
-  },
-  {
-    "ActionList": "ACTION_LIST",
-    "AlertDialog": "ALERT_DIALOG",
-    "AlertDialogSupressClientEvents": "ALERT_DIALOG_SUPRESS_CLIENT_EVENTS",
-    "AppDownloadCTA": "APP_DOWNLOAD_CTA",
-    "AppLocaleUpdate": "APP_LOCALE_UPDATE",
-    "BrowsableNux": "BROWSABLE_NUX",
-    "CallToAction": "CALL_TO_ACTION",
-    "CheckLoggedInAccount": "CHECK_LOGGED_IN_ACCOUNT",
-    "ChoiceSelection": "CHOICE_SELECTION",
-    "ContactsLiveSyncPermissionPrompt": "CONTACTS_LIVE_SYNC_PERMISSION_PROMPT",
-    "EmailContactsSync": "EMAIL_CONTACTS_SYNC",
-    "EmailVerification": "EMAIL_VERIFICATION",
-    "EndFlow": "END_FLOW",
-    "EnterDate": "ENTER_DATE",
-    "EnterEmail": "ENTER_EMAIL",
-    "EnterPassword": "ENTER_PASSWORD",
-    "EnterPhone": "ENTER_PHONE",
-    "EnterRecaptcha": "ENTER_RECAPTCHA",
-    "EnterText": "ENTER_TEXT",
-    "EnterUsername": "ENTER_USERNAME",
-    "FetchPassword": "FETCH_PASSWORD",
-    "GenericURT": "GENERIC_URT",
-    "InAppNotification": "IN_APP_NOTIFICATION",
-    "InterestPicker": "INTEREST_PICKER",
-    "JsInstrumentation": "JS_INSTRUMENTATION",
-    "MenuDialog": "MENU_DIALOG",
-    "NotificationsPermissionPrompt": "NOTIFICATIONS_PERMISSION_PROMPT",
-    "OpenAccount": "OPEN_ACCOUNT",
-    "OpenHomeTimeline": "OPEN_HOME_TIMELINE",
-    "OpenLink": "OPEN_LINK",
-    "Passkey": "PASSKEY",
-    "PhoneVerification": "PHONE_VERIFICATION",
-    "PrivacyOptions": "PRIVACY_OPTIONS",
-    "Recaptcha": "RECAPTCHA",
-    "SecurityKey": "SECURITY_KEY",
-    "SelectAvatar": "SELECT_AVATAR",
-    "SelectBanner": "SELECT_BANNER",
-    "SettingsList": "SETTINGS_LIST",
-    "ShowCode": "SHOW_CODE",
-    "Signup": "SIGNUP",
-    "SignupReview": "SIGNUP_REVIEW",
-    "TopicsSelector": "TOPICS_SELECTOR",
-    "TweetSelectionURT": "TWEET_SELECTION_URT",
-    "TypeaheadSearch": "TYPEAHEAD_SEARCH",
-    "UpdateUsers": "UPDATE_USERS",
-    "UploadMedia": "UPLOAD_MEDIA",
-    "UserRecommendations": "USER_RECOMMENDATIONS_LIST",
-    "UserRecommendationsURT": "USER_RECOMMENDATIONS_URT",
-    "WaitSpinner": "WAIT_SPINNER",
-    "WebModal": "WEB_MODAL"
-  },
-  {
-    "Centered": "centered",
-    "Left": "left"
-  },
-  {
-    "Action": "action",
-    "Boolean": "boolean",
-    "DestructiveAction": "destructive_action",
-    "PreciseLocation": "precise_location",
-    "SettingsGroup": "settings_group",
-    "StaticText": "static_text",
-    "Separator": "separator",
-    "TextField": "text_field",
-    "Button": "button",
-    "Tweet": "tweet"
-  },
-  {
-    "AppleSSOButton": "apple_sso_button",
-    "GoogleSSOButton": "google_sso_button",
-    "NextButton": "next_button",
-    "UserIdentifier": "user_identifier"
-  },
-  {
-    "DEPRECATED_UnorderedList": "UnorderedList",
-    "DEPRECATED_ListItem": "ListItem",
-    "UnorderedList": "unordered_list",
-    "ListItem": "list_item"
-  },
-  {
-    "Normal": "Normal",
-    "Bold": "Bold"
-  },
-  {
-    "Small": "Small",
-    "Normal": "Normal",
-    "Large": "Large",
-    "XLarge": "XLarge",
-    "Jumbo": "Jumbo"
-  },
-  {
-    "Qr": "qr",
-    "Text": "text"
-  },
-  {
-    "Avatar": "avatar",
-    "Banner": "banner"
-  },
-  {
-    "Success": "success",
-    "NotFound": "not_found",
-    "Error": "error"
-  },
-  {
-    "Favorite": "favorite",
-    "Follow": "follow",
-    "Reply": "reply",
-    "Retweet": "retweet"
-  },
-  {
-    "Checkbox": "checkbox",
-    "Follow": "follow"
-  },
-  {
-    "Tile": "tile",
-    "List": "list",
-    "TileFollowButton": "tile_follow_btn"
-  },
-  {
-    "Always": "always",
-    "Never": "never",
-    "Preprompt": "preprompt"
-  },
-  {
-    "Email": "email",
-    "Number": "number",
-    "Password": "password",
-    "Telephone": "telephone",
-    "Text": "text"
-  },
-  {
-    "ResendSms": "resend_sms",
-    "ResendVoice": "resend_voice",
-    "ResendEmail": "resend_email"
-  },
-  {
-    "Password": "password",
-    "NewPassword": "new_password",
-    "Text": "text"
-  },
-  {
-    "Normal": "normal",
-    "Compact": "compact"
-  },
-  {
-    "Username": "username",
-    "Password": "password",
-    "NewPassword": "new_password",
-    "Text": "text"
-  },
-  {
-    "Mismatch": "mismatch"
-  },
-  {
-    "compact": "compact",
-    "stacked": "stacked"
-  },
-  {
-    "Fixed": "fixed",
-    "Floating": "floating",
-    "FloatingLarge": "floating_large"
-  },
-  {
-    "Default": "default",
-    "GoogleSSO": "google_sso",
-    "AppleSSO": "apple_sso"
-  },
-  {
-    "Impression": "impression",
-    "Click": "click"
-  },
-  {
-    "HeaderTitle": "header_title",
-    "HeaderSubtitle": "header_subtitle",
-    "SectionTitle": "section_title",
-    "Detail": "detail"
-  },
-  {
-    "All": "all",
-    "Users": "users",
-    "Topics": "topics",
-    "Events": "events"
-  },
-  {
-    "REQUEST": "rweb/ocf/FETCH_REQUEST",
-    "SUCCESS": "rweb/ocf/FETCH_SUCCESS",
-    "FAILURE": "rweb/ocf/FETCH_FAILURE"
-  },
-  {
-    "REQUEST": "rweb/ocf/START_REQUEST",
-    "SUCCESS": "rweb/ocf/START_SUCCESS",
-    "FAILURE": "rweb/ocf/START_FAILURE"
-  },
-  {
-    "REQUEST": "rweb/ocf/VERIFY_IDENTIFIER_REQUEST",
-    "SUCCESS": "rweb/ocf/VERIFY_IDENTIFIER_SUCCESS",
-    "FAILURE": "rweb/ocf/VERIFY_IDENTIFIER_FAILURE"
-  },
-  {
-    "REQUEST": "rweb/ocf/FETCH_BROWSABLE_NUX_RECOMMENDATIONS_REQUEST",
-    "SUCCESS": "rweb/ocf/FETCH_BROWSABLE_NUX_RECOMMENDATIONS_SUCCESS",
-    "FAILURE": "rweb/ocf/FETCH_BROWSABLE_NUX_RECOMMENDATIONS_FAILURE"
-  },
-  {
     "Trends": "trends"
   },
   {
@@ -9529,277 +8455,6 @@
     }
   },
   {
-    "Abort": "abort",
-    "ChromelessWeb": "chromeless_web_link",
-    "Deeplink": "deep_link",
-    "DeeplinkAndAbort": "deep_link_and_abort",
-    "DeeplinkInPlace": "deep_link_in_place",
-    "Finish": "finish",
-    "Subtask": "subtask",
-    "Task": "task",
-    "Web": "web_link",
-    "WeblinkAndAbort": "web_link_and_abort"
-  },
-  {
-    "Allow": "allow",
-    "CancelFlow": "cancel_flow",
-    "HideExplicitCta": "hide_explicit_cta",
-    "Disallow": "disallow"
-  },
-  {
-    "Default": "default",
-    "BulletList": "bullet_list"
-  },
-  {
-    "DestructiveSecondary": "destructive_secondary",
-    "Primary": "primary",
-    "Secondary": "secondary",
-    "Text": "text",
-    "Brand": "brand",
-    "TwitterBrand": "twitter_brand"
-  },
-  {
-    "Small": "small",
-    "NormalCompact": "normal_compact",
-    "Normal": "normal",
-    "LargeCompact": "large_compact",
-    "Large": "large"
-  },
-  {
-    "CheckmarkAndClose": "checkmark",
-    "Text": "text",
-    "ThumbsUpAndDown": "thumbs"
-  },
-  {
-    "Toolbar": "toolbar"
-  },
-  {
-    "Scrollable": "scrollable",
-    "Centered": "centered",
-    "CenteredHeader": "centered_header",
-    "HalfCover": "half_cover"
-  },
-  {
-    "Success": "success",
-    "Failure": "failure",
-    "Cancel": "cancel"
-  },
-  {
-    "Icon": "icon",
-    "FullWidth": "full_width",
-    "FullBleedTop": "full_bleed_top"
-  },
-  {
-    "PhoneOnly": "phone_only",
-    "EmailOnly": "email_only",
-    "PhoneThenEmail": "phone_then_email",
-    "EmailThenPhone": "email_then_phone"
-  },
-  {
-    "ActionList": "ACTION_LIST",
-    "AlertDialog": "ALERT_DIALOG",
-    "AlertDialogSupressClientEvents": "ALERT_DIALOG_SUPRESS_CLIENT_EVENTS",
-    "AppDownloadCTA": "APP_DOWNLOAD_CTA",
-    "AppLocaleUpdate": "APP_LOCALE_UPDATE",
-    "BrowsableNux": "BROWSABLE_NUX",
-    "CallToAction": "CALL_TO_ACTION",
-    "CheckLoggedInAccount": "CHECK_LOGGED_IN_ACCOUNT",
-    "ChoiceSelection": "CHOICE_SELECTION",
-    "ContactsLiveSyncPermissionPrompt": "CONTACTS_LIVE_SYNC_PERMISSION_PROMPT",
-    "EmailContactsSync": "EMAIL_CONTACTS_SYNC",
-    "EmailVerification": "EMAIL_VERIFICATION",
-    "EndFlow": "END_FLOW",
-    "EnterDate": "ENTER_DATE",
-    "EnterEmail": "ENTER_EMAIL",
-    "EnterPassword": "ENTER_PASSWORD",
-    "EnterPhone": "ENTER_PHONE",
-    "EnterRecaptcha": "ENTER_RECAPTCHA",
-    "EnterText": "ENTER_TEXT",
-    "EnterUsername": "ENTER_USERNAME",
-    "FetchPassword": "FETCH_PASSWORD",
-    "GenericURT": "GENERIC_URT",
-    "InAppNotification": "IN_APP_NOTIFICATION",
-    "InterestPicker": "INTEREST_PICKER",
-    "JsInstrumentation": "JS_INSTRUMENTATION",
-    "MenuDialog": "MENU_DIALOG",
-    "NotificationsPermissionPrompt": "NOTIFICATIONS_PERMISSION_PROMPT",
-    "OpenAccount": "OPEN_ACCOUNT",
-    "OpenHomeTimeline": "OPEN_HOME_TIMELINE",
-    "OpenLink": "OPEN_LINK",
-    "Passkey": "PASSKEY",
-    "PhoneVerification": "PHONE_VERIFICATION",
-    "PrivacyOptions": "PRIVACY_OPTIONS",
-    "Recaptcha": "RECAPTCHA",
-    "SecurityKey": "SECURITY_KEY",
-    "SelectAvatar": "SELECT_AVATAR",
-    "SelectBanner": "SELECT_BANNER",
-    "SettingsList": "SETTINGS_LIST",
-    "ShowCode": "SHOW_CODE",
-    "Signup": "SIGNUP",
-    "SignupReview": "SIGNUP_REVIEW",
-    "TopicsSelector": "TOPICS_SELECTOR",
-    "TweetSelectionURT": "TWEET_SELECTION_URT",
-    "TypeaheadSearch": "TYPEAHEAD_SEARCH",
-    "UpdateUsers": "UPDATE_USERS",
-    "UploadMedia": "UPLOAD_MEDIA",
-    "UserRecommendations": "USER_RECOMMENDATIONS_LIST",
-    "UserRecommendationsURT": "USER_RECOMMENDATIONS_URT",
-    "WaitSpinner": "WAIT_SPINNER",
-    "WebModal": "WEB_MODAL"
-  },
-  {
-    "Centered": "centered",
-    "Left": "left"
-  },
-  {
-    "Action": "action",
-    "Boolean": "boolean",
-    "DestructiveAction": "destructive_action",
-    "PreciseLocation": "precise_location",
-    "SettingsGroup": "settings_group",
-    "StaticText": "static_text",
-    "Separator": "separator",
-    "TextField": "text_field",
-    "Button": "button",
-    "Tweet": "tweet"
-  },
-  {
-    "AppleSSOButton": "apple_sso_button",
-    "GoogleSSOButton": "google_sso_button",
-    "NextButton": "next_button",
-    "UserIdentifier": "user_identifier"
-  },
-  {
-    "DEPRECATED_UnorderedList": "UnorderedList",
-    "DEPRECATED_ListItem": "ListItem",
-    "UnorderedList": "unordered_list",
-    "ListItem": "list_item"
-  },
-  {
-    "Normal": "Normal",
-    "Bold": "Bold"
-  },
-  {
-    "Small": "Small",
-    "Normal": "Normal",
-    "Large": "Large",
-    "XLarge": "XLarge",
-    "Jumbo": "Jumbo"
-  },
-  {
-    "Qr": "qr",
-    "Text": "text"
-  },
-  {
-    "Avatar": "avatar",
-    "Banner": "banner"
-  },
-  {
-    "Success": "success",
-    "NotFound": "not_found",
-    "Error": "error"
-  },
-  {
-    "Favorite": "favorite",
-    "Follow": "follow",
-    "Reply": "reply",
-    "Retweet": "retweet"
-  },
-  {
-    "Checkbox": "checkbox",
-    "Follow": "follow"
-  },
-  {
-    "Tile": "tile",
-    "List": "list",
-    "TileFollowButton": "tile_follow_btn"
-  },
-  {
-    "Always": "always",
-    "Never": "never",
-    "Preprompt": "preprompt"
-  },
-  {
-    "Email": "email",
-    "Number": "number",
-    "Password": "password",
-    "Telephone": "telephone",
-    "Text": "text"
-  },
-  {
-    "ResendSms": "resend_sms",
-    "ResendVoice": "resend_voice",
-    "ResendEmail": "resend_email"
-  },
-  {
-    "Password": "password",
-    "NewPassword": "new_password",
-    "Text": "text"
-  },
-  {
-    "Normal": "normal",
-    "Compact": "compact"
-  },
-  {
-    "Username": "username",
-    "Password": "password",
-    "NewPassword": "new_password",
-    "Text": "text"
-  },
-  {
-    "Mismatch": "mismatch"
-  },
-  {
-    "compact": "compact",
-    "stacked": "stacked"
-  },
-  {
-    "Fixed": "fixed",
-    "Floating": "floating",
-    "FloatingLarge": "floating_large"
-  },
-  {
-    "Default": "default",
-    "GoogleSSO": "google_sso",
-    "AppleSSO": "apple_sso"
-  },
-  {
-    "Impression": "impression",
-    "Click": "click"
-  },
-  {
-    "HeaderTitle": "header_title",
-    "HeaderSubtitle": "header_subtitle",
-    "SectionTitle": "section_title",
-    "Detail": "detail"
-  },
-  {
-    "All": "all",
-    "Users": "users",
-    "Topics": "topics",
-    "Events": "events"
-  },
-  {
-    "REQUEST": "rweb/ocf/FETCH_REQUEST",
-    "SUCCESS": "rweb/ocf/FETCH_SUCCESS",
-    "FAILURE": "rweb/ocf/FETCH_FAILURE"
-  },
-  {
-    "REQUEST": "rweb/ocf/START_REQUEST",
-    "SUCCESS": "rweb/ocf/START_SUCCESS",
-    "FAILURE": "rweb/ocf/START_FAILURE"
-  },
-  {
-    "REQUEST": "rweb/ocf/VERIFY_IDENTIFIER_REQUEST",
-    "SUCCESS": "rweb/ocf/VERIFY_IDENTIFIER_SUCCESS",
-    "FAILURE": "rweb/ocf/VERIFY_IDENTIFIER_FAILURE"
-  },
-  {
-    "REQUEST": "rweb/ocf/FETCH_BROWSABLE_NUX_RECOMMENDATIONS_REQUEST",
-    "SUCCESS": "rweb/ocf/FETCH_BROWSABLE_NUX_RECOMMENDATIONS_SUCCESS",
-    "FAILURE": "rweb/ocf/FETCH_BROWSABLE_NUX_RECOMMENDATIONS_FAILURE"
-  },
-  {
     "in": "in",
     "out": "out",
     "static": "static"
@@ -9850,37 +8505,37 @@
     "sales_am": "p",
     "operations": "g",
     "people_hr": "y",
-    "finance_accounting": "v",
-    "legal_compliance": "Z",
-    "science_engineering": "w",
-    "medical": "k",
+    "finance_accounting": "Z",
+    "legal_compliance": "v",
+    "science_engineering": "k",
+    "medical": "w",
     "construction_trades": "D",
     "other": "S"
   },
   {
     "intern": "P",
     "entry_level": "x",
-    "junior": "I",
-    "mid_level": "C",
+    "junior": "C",
+    "mid_level": "I",
     "senior": "_",
     "lead": "T",
-    "manager": "H",
-    "executive": "F"
+    "manager": "F",
+    "executive": "R"
   },
   {
     "onsite": {
-      "label": "q",
-      "description": "W",
+      "label": "H",
+      "description": "O",
       "value": "onsite"
     },
     "remote": {
-      "label": "A",
+      "label": "j",
       "description": "N",
       "value": "remote"
     },
     "hybrid": {
-      "label": "j",
-      "description": "M",
+      "label": "W",
+      "description": "A",
       "value": "hybrid"
     }
   },
@@ -10496,7 +9151,7 @@
     "ShouldProvidePaymentId": "ShouldProvidePaymentId",
     "Unspecified": "Unspecified"
   },
-  "{\"InsufficientFunds\":{\"headline\":\"m().f66c509a\",\"message\":\"m().f9e0e6a2\",\"action\":{\"link\":\"y.IN\",\"label\":\"m().a4ef9cbe\"}},\"InvalidReceiver\":{\"getHeadline\":\"function()\"{\"return e.actionType===g.jq.P2P_TRANSFER_REQUEST?w\":\"I\"},\"headline\":\"I\",\"message\":\"K\",\"getErrorReporting\":\"function()\"{\"return\"{\"issueReportEnabled\":\"!0\",\"description\":\"Encountered an error while making a request.\"}}},\"InvalidReceiverCurrentState\":{\"getHeadline\":\"function()\"{\"return e.actionType===g.jq.P2P_TRANSFER_REQUEST?w\":\"I\"},\"headline\":\"I\",\"message\":\"K\"},\"BankIssue\":{\"getHeadline\":\"function()\"{var n=e.actionType;return n===g.jq.DEPOSIT?X:n===g.jq.WITHDRAWAL?q:\"U\"},\"headline\":\"U\",\"message\":\"R\"},\"InvalidReceiverPreferences\":{\"getHeadline\":\"function()\"{\"return e.actionType===g.jq.P2P_TRANSFER_REQUEST?w\":\"I\"},\"headline\":\"I\",\"message\":\"x\",\"getMessage\":\"function()\"{\"var n=e.actionType\",t=e.counterPartyScreenName;return t?n===g.jq.P2P_TRANSFER_REQUEST?V(){\"counterPartyScreenName\":\"t\"}{\"counterPartyScreenName\":\"t\"}}},\"InvalidSenderPreferences\":{\"headline\":\"w\",\"message\":\"x\",\"getMessage\":\"function()\"{\"var n=e.actionType\",t=e.counterPartyScreenName;return t?n===g.jq.P2P_TRANSFER_REQUEST?V(){\"counterPartyScreenName\":\"t\"}{\"counterPartyScreenName\":\"t\"}}},\"InvalidSender\":{\"getHeadline\":\"function()\"{\"return e.actionType===g.jq.P2P_TRANSFER_REQUEST?w\":\"I\"},\"headline\":\"I\",\"message\":\"K\",\"getErrorReporting\":\"function()\"{\"return\"{\"issueReportEnabled\":\"!0\",\"description\":\"Encountered an error while making a payment.\"}}},\"InvalidSenderCurrentState\":{\"getHeadline\":\"function()\"{\"return e.actionType===g.jq.P2P_TRANSFER_REQUEST?w\":\"I\"},\"headline\":\"I\",\"message\":\"K\"},\"IdempotencyKeyConflict\":{\"headline\":\"m().f6b3499c\",\"message\":\"m().f64125f6\",\"action\":{\"link\":\"y.bR\",\"label\":\"m().e63ed2f0\"}},\"CustomerMissingPrimaryAddress\":{\"message\":\"m().gde35c74\",\"action\":{\"link\":\"y.f0\",\"label\":\"m().jd899ca2\"}},\"LoginRequired\":\"D\",\"PaymentMethodLinkRequired\":\"D\",\"AccountLinkingNameMismatch\":{\"message\":\"m().d660047c\"},\"InsufficientBalance\":{\"headline\":\"m().f66c509a\",\"message\":\"m().f40c576c\",\"action\":{\"link\":\"y.IN\",\"label\":\"m().a4ef9cbe\"}},\"TwoFactorAuthRequired\":{\"message\":\"m().i10a73ce\",\"action\":{\"link\":\"y.ul\",\"label\":\"m().b4642e52\"}},\"VolumeLimitExceeded7DaySend\":{\"headline\":\"P()\"{\"type\":\"weekly\"}\"e\"{\"var n=e.actionType\",t=e.limits;return T(){\"type\":\"weekly\",\"limits\":\"t\",\"actionType\":\"n\"}},\"message\":\"L\",\"getAction\":\"function()\"{\"var n=e.actionType\",t=e.limits;return F(){\"actionType\":\"n\",\"limits\":\"t\",\"type\":\"weekly\"}},\"action\":{\"link\":\"y.iE.limits\",\"label\":\"b\"}},\"VolumeLimitExceeded30DaySend\":{\"headline\":\"P()\"{\"type\":\"monthly\"}\"e\"{\"var n=e.actionType\",t=e.limits;return T(){\"type\":\"monthly\",\"limits\":\"t\",\"actionType\":\"n\"}},\"message\":\"L\",\"getAction\":\"function()\"{\"var n=e.actionType\",t=e.limits;return F(){\"actionType\":\"n\",\"limits\":\"t\",\"type\":\"monthly\"}},\"action\":{\"link\":\"y.iE.limits\",\"label\":\"b\"}},\"VolumeLimitExceeded7Day\":{\"headline\":\"P()\"{\"type\":\"weekly\"}\"e\"{\"var n=e.actionType\",t=e.limits;return T(){\"type\":\"weekly\",\"limits\":\"t\",\"actionType\":\"n\"}},\"message\":\"L\",\"getAction\":\"function()\"{\"var n=e.actionType\",t=e.limits;return F(){\"actionType\":\"n\",\"limits\":\"t\",\"type\":\"weekly\"}},\"action\":{\"link\":\"y.iE.limits\",\"label\":\"b\"}},\"VolumeLimitExceeded30Day\":{\"headline\":\"P()\"{\"type\":\"monthly\"}\"e\"{\"var n=e.actionType\",t=e.limits;return T(){\"type\":\"monthly\",\"limits\":\"t\",\"actionType\":\"n\"}},\"message\":\"L\",\"getAction\":\"function()\"{\"var n=e.actionType\",t=e.limits;return F(){\"actionType\":\"n\",\"limits\":\"t\",\"type\":\"monthly\"}},\"action\":{\"link\":\"y.iE.limits\",\"label\":\"b\"}},\"AdditionalKycRequiredVolumeLimitExceeded7DaySend\":\"A\",\"AdditionalKycRequiredVolumeLimitExceeded30DaySend\":\"A\",\"AdditionalKycRequiredTotalVolumeLimitExceeded\":\"A\",\"AdditionalKycRequired\":{\"headline\":\"m().g243dc66\",\"message\":\"m().b0315b3a\",\"action\":{\"link\":\"y.AU.tier2.verifyIdentityPath\",\"label\":\"m().c3d89aca\"}},\"Velocity\":{\"headline\":\"z\",\"getHeadline\":\"function()\"{var n=e.actionType;return n?N(){\"actionType\":S[n]}},\"message\":\"m().cd34a81a\"},\"HasAccountBalance\":{\"headline\":\"M\",\"message\":\"m().a9ec0e4a\",\"action\":{\"link\":\"y.r0\",\"label\":\"m().c0728748\"}},\"HasCashbackAccountBalance\":{\"headline\":\"M\",\"message\":\"m().a387275c\",\"action\":{\"link\":\"y.Tb\",\"label\":\"m().e49c288c\"}},\"HasActiveDisputes\":{\"headline\":\"M\",\"message\":\"m().c4800cb8\"},\"HasPendingTransactions\":{\"headline\":\"M\",\"message\":\"m().i0391488\"},\"InactivePaymentMethod\":\"B\",\"InvalidPaymentMethodType\":\"B\",\"PaymentMethodDeleted\":\"B\",\"FeeCalculationError\":{\"headline\":\"O\",\"getHeadline\":\"function()\"{var n=e.actionType;return n?j(){\"actionType\":S[n]}},\"message\":\"R\",\"action\":{\"link\":\"y.gp\",\"label\":\"m().a893d602\"},\"getErrorReporting\":\"function()\"{\"var n\",t=e.actionType;return t===g.jq.DEPOSIT||t===g.jq.WITHDRAWAL?{\"issueReportEnabled\":\"!0\",\"description\":\"Encountered an error while calculating fees for a \".concat()}:{\"issueReportEnabled\":\"!1\"}}},\"Unexpected\":{\"headline\":\"m().ac1c4c40\",\"message\":\"m().de869c96\",\"getErrorReporting\":\"function()\"{\"var n\",t=e.actionType;return t===g.jq.DEPOSIT||t===g.jq.WITHDRAWAL?{\"issueReportEnabled\":\"!0\",\"description\":\"Encountered an unexpected error during a \".concat()}:{\"issueReportEnabled\":\"!1\"}}},\"Default\":{\"getHeadline\":\"function()\"{\"switch()\"{\"case g.jq.P2P_TRANSFER_SEND\":return I;case g.jq.P2P_TRANSFER_REQUEST:return w;case g.jq.WITHDRAWAL:return q;case g.jq.DEPOSIT:return X;case g.jq.CLOSE_ACCOUNT:return M;default:\"return m().j3dc6686\"}},\"getMessage\":\"function()\"{\"switch()\"{\"case g.jq.P2P_TRANSFER_SEND\":case g.jq.P2P_TRANSFER_REQUEST:return K;default:\"return R\"}},\"message\":\"R\",\"getErrorReporting\":\"function()\"{\"var n\",t,a=e.actionType;return a===g.jq.DEPOSIT||a===g.jq.WITHDRAWAL?{\"issueReportEnabled\":\"!0\",\"description\":\"Encountered an unexpected error during a \".concat()}:a===g.jq.P2P_TRANSFER_REQUEST||a===g.jq.P2P_TRANSFER_SEND||a===g.jq.P2P_TRANSFER_SEND_FUNDED?{\"issueReportEnabled\":\"!0\",\"description\":\"Encountered an unexpected error during a \".concat()}:{\"issueReportEnabled\":\"!1\"}}}}",
+  "{\"InsufficientFunds\":{\"headline\":\"m().f66c509a\",\"message\":\"m().f9e0e6a2\",\"action\":{\"link\":\"y.IN\",\"label\":\"m().a4ef9cbe\"}},\"InvalidReceiver\":{\"getHeadline\":\"function()\"{\"return e.actionType===g.jq.P2P_TRANSFER_REQUEST?w\":\"I\"},\"headline\":\"I\",\"message\":\"K\",\"getErrorReporting\":\"function()\"{\"return\"{\"issueReportEnabled\":\"!0\",\"description\":\"Encountered an error while making a request.\"}}},\"InvalidReceiverCurrentState\":{\"getHeadline\":\"function()\"{\"return e.actionType===g.jq.P2P_TRANSFER_REQUEST?w\":\"I\"},\"headline\":\"I\",\"message\":\"K\"},\"BankIssue\":{\"getHeadline\":\"function()\"{var n=e.actionType;return n===g.jq.DEPOSIT?X:n===g.jq.WITHDRAWAL?q:\"U\"},\"headline\":\"U\",\"message\":\"R\"},\"InvalidReceiverPreferences\":{\"getHeadline\":\"function()\"{\"return e.actionType===g.jq.P2P_TRANSFER_REQUEST?w\":\"I\"},\"headline\":\"I\",\"message\":\"x\",\"getMessage\":\"function()\"{\"var n=e.actionType\",t=e.counterPartyScreenName;return t?n===g.jq.P2P_TRANSFER_REQUEST?V(){\"counterPartyScreenName\":\"t\"}{\"counterPartyScreenName\":\"t\"}}},\"InvalidSenderPreferences\":{\"headline\":\"w\",\"message\":\"x\",\"getMessage\":\"function()\"{\"var n=e.actionType\",t=e.counterPartyScreenName;return t?n===g.jq.P2P_TRANSFER_REQUEST?V(){\"counterPartyScreenName\":\"t\"}{\"counterPartyScreenName\":\"t\"}}},\"InvalidSender\":{\"getHeadline\":\"function()\"{\"return e.actionType===g.jq.P2P_TRANSFER_REQUEST?w\":\"I\"},\"headline\":\"I\",\"message\":\"K\",\"getErrorReporting\":\"function()\"{\"return\"{\"issueReportEnabled\":\"!0\",\"description\":\"Encountered an error while making a payment.\"}}},\"InvalidSenderCurrentState\":{\"getHeadline\":\"function()\"{\"return e.actionType===g.jq.P2P_TRANSFER_REQUEST?w\":\"I\"},\"headline\":\"I\",\"message\":\"K\"},\"IdempotencyKeyConflict\":{\"headline\":\"m().f6b3499c\",\"message\":\"m().f64125f6\",\"action\":{\"link\":\"y.bR\",\"label\":\"m().e63ed2f0\"}},\"CustomerMissingPrimaryAddress\":{\"message\":\"m().gde35c74\",\"action\":{\"link\":\"y.f0\",\"label\":\"m().jd899ca2\"}},\"LoginRequired\":\"D\",\"PaymentMethodLinkRequired\":\"D\",\"AccountLinkingNameMismatch\":{\"message\":\"m().d660047c\"},\"InsufficientBalance\":{\"headline\":\"m().f66c509a\",\"message\":\"m().f40c576c\",\"action\":{\"link\":\"y.IN\",\"label\":\"m().a4ef9cbe\"}},\"TwoFactorAuthRequired\":{\"message\":\"m().i10a73ce\",\"action\":{\"link\":\"y.ul\",\"label\":\"m().b4642e52\"}},\"VolumeLimitExceeded7DaySend\":{\"headline\":\"C()\"{\"type\":\"weekly\"}\"e\"{\"var n=e.actionType\",t=e.limits;return T(){\"type\":\"weekly\",\"limits\":\"t\",\"actionType\":\"n\"}},\"message\":\"L\",\"getAction\":\"function()\"{\"var n=e.actionType\",t=e.limits;return F(){\"actionType\":\"n\",\"limits\":\"t\",\"type\":\"weekly\"}},\"action\":{\"link\":\"y.iE.limits\",\"label\":\"b\"}},\"VolumeLimitExceeded30DaySend\":{\"headline\":\"C()\"{\"type\":\"monthly\"}\"e\"{\"var n=e.actionType\",t=e.limits;return T(){\"type\":\"monthly\",\"limits\":\"t\",\"actionType\":\"n\"}},\"message\":\"L\",\"getAction\":\"function()\"{\"var n=e.actionType\",t=e.limits;return F(){\"actionType\":\"n\",\"limits\":\"t\",\"type\":\"monthly\"}},\"action\":{\"link\":\"y.iE.limits\",\"label\":\"b\"}},\"VolumeLimitExceeded7Day\":{\"headline\":\"C()\"{\"type\":\"weekly\"}\"e\"{\"var n=e.actionType\",t=e.limits;return T(){\"type\":\"weekly\",\"limits\":\"t\",\"actionType\":\"n\"}},\"message\":\"L\",\"getAction\":\"function()\"{\"var n=e.actionType\",t=e.limits;return F(){\"actionType\":\"n\",\"limits\":\"t\",\"type\":\"weekly\"}},\"action\":{\"link\":\"y.iE.limits\",\"label\":\"b\"}},\"VolumeLimitExceeded30Day\":{\"headline\":\"C()\"{\"type\":\"monthly\"}\"e\"{\"var n=e.actionType\",t=e.limits;return T(){\"type\":\"monthly\",\"limits\":\"t\",\"actionType\":\"n\"}},\"message\":\"L\",\"getAction\":\"function()\"{\"var n=e.actionType\",t=e.limits;return F(){\"actionType\":\"n\",\"limits\":\"t\",\"type\":\"monthly\"}},\"action\":{\"link\":\"y.iE.limits\",\"label\":\"b\"}},\"AdditionalKycRequiredVolumeLimitExceeded7DaySend\":\"A\",\"AdditionalKycRequiredVolumeLimitExceeded30DaySend\":\"A\",\"AdditionalKycRequiredTotalVolumeLimitExceeded\":\"A\",\"AdditionalKycRequired\":{\"headline\":\"m().g243dc66\",\"message\":\"m().b0315b3a\",\"action\":{\"link\":\"y.AU.tier2.verifyIdentityPath\",\"label\":\"m().c3d89aca\"}},\"Velocity\":{\"headline\":\"z\",\"getHeadline\":\"function()\"{var n=e.actionType;return n?N(){\"actionType\":S[n]}},\"message\":\"m().cd34a81a\"},\"HasAccountBalance\":{\"headline\":\"M\",\"message\":\"m().a9ec0e4a\",\"action\":{\"link\":\"y.r0\",\"label\":\"m().c0728748\"}},\"HasCashbackAccountBalance\":{\"headline\":\"M\",\"message\":\"m().a387275c\",\"action\":{\"link\":\"y.Tb\",\"label\":\"m().e49c288c\"}},\"HasActiveDisputes\":{\"headline\":\"M\",\"message\":\"m().c4800cb8\"},\"HasPendingTransactions\":{\"headline\":\"M\",\"message\":\"m().i0391488\"},\"InactivePaymentMethod\":\"B\",\"InvalidPaymentMethodType\":\"B\",\"PaymentMethodDeleted\":\"B\",\"FeeCalculationError\":{\"headline\":\"O\",\"getHeadline\":\"function()\"{var n=e.actionType;return n?j(){\"actionType\":S[n]}},\"message\":\"R\",\"action\":{\"link\":\"y.gp\",\"label\":\"m().a893d602\"},\"getErrorReporting\":\"function()\"{\"var n\",t=e.actionType;return t===g.jq.DEPOSIT||t===g.jq.WITHDRAWAL?{\"issueReportEnabled\":\"!0\",\"description\":\"Encountered an error while calculating fees for a \".concat()}:{\"issueReportEnabled\":\"!1\"}}},\"Unexpected\":{\"headline\":\"m().ac1c4c40\",\"message\":\"m().de869c96\",\"getErrorReporting\":\"function()\"{\"var n\",t=e.actionType;return t===g.jq.DEPOSIT||t===g.jq.WITHDRAWAL?{\"issueReportEnabled\":\"!0\",\"description\":\"Encountered an unexpected error during a \".concat()}:{\"issueReportEnabled\":\"!1\"}}},\"Default\":{\"getHeadline\":\"function()\"{\"switch()\"{\"case g.jq.P2P_TRANSFER_SEND\":return I;case g.jq.P2P_TRANSFER_REQUEST:return w;case g.jq.WITHDRAWAL:return q;case g.jq.DEPOSIT:return X;case g.jq.CLOSE_ACCOUNT:return M;default:\"return m().j3dc6686\"}},\"getMessage\":\"function()\"{\"switch()\"{\"case g.jq.P2P_TRANSFER_SEND\":case g.jq.P2P_TRANSFER_REQUEST:return K;default:\"return R\"}},\"message\":\"R\",\"getErrorReporting\":\"function()\"{\"var n\",t,a=e.actionType;return a===g.jq.DEPOSIT||a===g.jq.WITHDRAWAL?{\"issueReportEnabled\":\"!0\",\"description\":\"Encountered an unexpected error during a \".concat()}:a===g.jq.P2P_TRANSFER_REQUEST||a===g.jq.P2P_TRANSFER_SEND||a===g.jq.P2P_TRANSFER_SEND_FUNDED?{\"issueReportEnabled\":\"!0\",\"description\":\"Encountered an unexpected error during a \".concat()}:{\"issueReportEnabled\":\"!1\"}}}}",
   {
     "ClaimTransferDecisionAccept": "ClaimTransferDecisionAccept",
     "ClaimTransferDecisionReject": "ClaimTransferDecisionReject",
@@ -10948,7 +9603,7 @@
     "SET_CONFIG": "rweb/verifiedOrgConfig/SET"
   },
   {
-    "fetchStatus": "W.ZP.NONE",
+    "fetchStatus": "$.ZP.NONE",
     "config": "An"
   },
   {
@@ -11233,6 +9888,257 @@
     }
   },
   {
+    "Abort": "abort",
+    "ChromelessWeb": "chromeless_web_link",
+    "Deeplink": "deep_link",
+    "DeeplinkAndAbort": "deep_link_and_abort",
+    "DeeplinkInPlace": "deep_link_in_place",
+    "Finish": "finish",
+    "Subtask": "subtask",
+    "Task": "task",
+    "Web": "web_link",
+    "WeblinkAndAbort": "web_link_and_abort"
+  },
+  {
+    "Allow": "allow",
+    "CancelFlow": "cancel_flow",
+    "HideExplicitCta": "hide_explicit_cta",
+    "Disallow": "disallow"
+  },
+  {
+    "Default": "default",
+    "BulletList": "bullet_list"
+  },
+  {
+    "DestructiveSecondary": "destructive_secondary",
+    "Primary": "primary",
+    "Secondary": "secondary",
+    "Text": "text",
+    "Brand": "brand",
+    "TwitterBrand": "twitter_brand"
+  },
+  {
+    "Small": "small",
+    "NormalCompact": "normal_compact",
+    "Normal": "normal",
+    "LargeCompact": "large_compact",
+    "Large": "large"
+  },
+  {
+    "CheckmarkAndClose": "checkmark",
+    "Text": "text",
+    "ThumbsUpAndDown": "thumbs"
+  },
+  {
+    "Toolbar": "toolbar"
+  },
+  {
+    "Scrollable": "scrollable",
+    "Centered": "centered",
+    "CenteredHeader": "centered_header",
+    "HalfCover": "half_cover"
+  },
+  {
+    "Success": "success",
+    "Failure": "failure",
+    "Cancel": "cancel"
+  },
+  {
+    "Icon": "icon",
+    "FullWidth": "full_width",
+    "FullBleedTop": "full_bleed_top"
+  },
+  {
+    "PhoneOnly": "phone_only",
+    "EmailOnly": "email_only",
+    "PhoneThenEmail": "phone_then_email",
+    "EmailThenPhone": "email_then_phone"
+  },
+  {
+    "ActionList": "ACTION_LIST",
+    "AlertDialog": "ALERT_DIALOG",
+    "AlertDialogSupressClientEvents": "ALERT_DIALOG_SUPRESS_CLIENT_EVENTS",
+    "AppDownloadCTA": "APP_DOWNLOAD_CTA",
+    "AppLocaleUpdate": "APP_LOCALE_UPDATE",
+    "BrowsableNux": "BROWSABLE_NUX",
+    "CallToAction": "CALL_TO_ACTION",
+    "CheckLoggedInAccount": "CHECK_LOGGED_IN_ACCOUNT",
+    "ChoiceSelection": "CHOICE_SELECTION",
+    "ContactsLiveSyncPermissionPrompt": "CONTACTS_LIVE_SYNC_PERMISSION_PROMPT",
+    "EmailContactsSync": "EMAIL_CONTACTS_SYNC",
+    "EmailVerification": "EMAIL_VERIFICATION",
+    "EndFlow": "END_FLOW",
+    "EnterDate": "ENTER_DATE",
+    "EnterEmail": "ENTER_EMAIL",
+    "EnterPassword": "ENTER_PASSWORD",
+    "EnterPhone": "ENTER_PHONE",
+    "EnterRecaptcha": "ENTER_RECAPTCHA",
+    "EnterText": "ENTER_TEXT",
+    "EnterUsername": "ENTER_USERNAME",
+    "FetchPassword": "FETCH_PASSWORD",
+    "GenericURT": "GENERIC_URT",
+    "InAppNotification": "IN_APP_NOTIFICATION",
+    "InterestPicker": "INTEREST_PICKER",
+    "JsInstrumentation": "JS_INSTRUMENTATION",
+    "MenuDialog": "MENU_DIALOG",
+    "NotificationsPermissionPrompt": "NOTIFICATIONS_PERMISSION_PROMPT",
+    "OpenAccount": "OPEN_ACCOUNT",
+    "OpenHomeTimeline": "OPEN_HOME_TIMELINE",
+    "OpenLink": "OPEN_LINK",
+    "Passkey": "PASSKEY",
+    "PhoneVerification": "PHONE_VERIFICATION",
+    "PrivacyOptions": "PRIVACY_OPTIONS",
+    "Recaptcha": "RECAPTCHA",
+    "SecurityKey": "SECURITY_KEY",
+    "SelectAvatar": "SELECT_AVATAR",
+    "SelectBanner": "SELECT_BANNER",
+    "SettingsList": "SETTINGS_LIST",
+    "ShowCode": "SHOW_CODE",
+    "Signup": "SIGNUP",
+    "SignupReview": "SIGNUP_REVIEW",
+    "TopicsSelector": "TOPICS_SELECTOR",
+    "TweetSelectionURT": "TWEET_SELECTION_URT",
+    "TypeaheadSearch": "TYPEAHEAD_SEARCH",
+    "UpdateUsers": "UPDATE_USERS",
+    "UploadMedia": "UPLOAD_MEDIA",
+    "UserRecommendations": "USER_RECOMMENDATIONS_LIST",
+    "UserRecommendationsURT": "USER_RECOMMENDATIONS_URT",
+    "WaitSpinner": "WAIT_SPINNER",
+    "WebModal": "WEB_MODAL"
+  },
+  {
+    "Centered": "centered",
+    "Left": "left"
+  },
+  {
+    "Action": "action",
+    "Boolean": "boolean",
+    "DestructiveAction": "destructive_action",
+    "PreciseLocation": "precise_location",
+    "SettingsGroup": "settings_group",
+    "StaticText": "static_text",
+    "Separator": "separator",
+    "TextField": "text_field",
+    "Button": "button",
+    "Tweet": "tweet"
+  },
+  {
+    "AppleSSOButton": "apple_sso_button",
+    "GoogleSSOButton": "google_sso_button",
+    "NextButton": "next_button",
+    "UserIdentifier": "user_identifier"
+  },
+  {
+    "DEPRECATED_UnorderedList": "UnorderedList",
+    "DEPRECATED_ListItem": "ListItem",
+    "UnorderedList": "unordered_list",
+    "ListItem": "list_item"
+  },
+  {
+    "Normal": "Normal",
+    "Bold": "Bold"
+  },
+  {
+    "Small": "Small",
+    "Normal": "Normal",
+    "Large": "Large",
+    "XLarge": "XLarge",
+    "Jumbo": "Jumbo"
+  },
+  {
+    "Qr": "qr",
+    "Text": "text"
+  },
+  {
+    "Avatar": "avatar",
+    "Banner": "banner"
+  },
+  {
+    "Success": "success",
+    "NotFound": "not_found",
+    "Error": "error"
+  },
+  {
+    "Favorite": "favorite",
+    "Follow": "follow",
+    "Reply": "reply",
+    "Retweet": "retweet"
+  },
+  {
+    "Checkbox": "checkbox",
+    "Follow": "follow"
+  },
+  {
+    "Tile": "tile",
+    "List": "list",
+    "TileFollowButton": "tile_follow_btn"
+  },
+  {
+    "Always": "always",
+    "Never": "never",
+    "Preprompt": "preprompt"
+  },
+  {
+    "Email": "email",
+    "Number": "number",
+    "Password": "password",
+    "Telephone": "telephone",
+    "Text": "text"
+  },
+  {
+    "ResendSms": "resend_sms",
+    "ResendVoice": "resend_voice",
+    "ResendEmail": "resend_email"
+  },
+  {
+    "Password": "password",
+    "NewPassword": "new_password",
+    "Text": "text"
+  },
+  {
+    "Normal": "normal",
+    "Compact": "compact"
+  },
+  {
+    "Username": "username",
+    "Password": "password",
+    "NewPassword": "new_password",
+    "Text": "text"
+  },
+  {
+    "Mismatch": "mismatch"
+  },
+  {
+    "compact": "compact",
+    "stacked": "stacked"
+  },
+  {
+    "Fixed": "fixed",
+    "Floating": "floating",
+    "FloatingLarge": "floating_large"
+  },
+  {
+    "Default": "default",
+    "GoogleSSO": "google_sso",
+    "AppleSSO": "apple_sso"
+  },
+  {
+    "Impression": "impression",
+    "Click": "click"
+  },
+  {
+    "HeaderTitle": "header_title",
+    "HeaderSubtitle": "header_subtitle",
+    "SectionTitle": "section_title",
+    "Detail": "detail"
+  },
+  {
+    "All": "all",
+    "Users": "users",
+    "Topics": "topics",
+    "Events": "events"
+  },
+  {
     "User": "User",
     "ProfileCard": "ProfileCard",
     "UserCompact": "UserCompact",
@@ -11240,6 +10146,26 @@
     "UserDetailed": "UserDetailed",
     "PendingFollowUser": "PendingFollowUser",
     "SubscribableUser": "SubscribableUser"
+  },
+  {
+    "REQUEST": "rweb/ocf/FETCH_REQUEST",
+    "SUCCESS": "rweb/ocf/FETCH_SUCCESS",
+    "FAILURE": "rweb/ocf/FETCH_FAILURE"
+  },
+  {
+    "REQUEST": "rweb/ocf/START_REQUEST",
+    "SUCCESS": "rweb/ocf/START_SUCCESS",
+    "FAILURE": "rweb/ocf/START_FAILURE"
+  },
+  {
+    "REQUEST": "rweb/ocf/VERIFY_IDENTIFIER_REQUEST",
+    "SUCCESS": "rweb/ocf/VERIFY_IDENTIFIER_SUCCESS",
+    "FAILURE": "rweb/ocf/VERIFY_IDENTIFIER_FAILURE"
+  },
+  {
+    "REQUEST": "rweb/ocf/FETCH_BROWSABLE_NUX_RECOMMENDATIONS_REQUEST",
+    "SUCCESS": "rweb/ocf/FETCH_BROWSABLE_NUX_RECOMMENDATIONS_SUCCESS",
+    "FAILURE": "rweb/ocf/FETCH_BROWSABLE_NUX_RECOMMENDATIONS_FAILURE"
   },
   {
     "private": "private",
@@ -11658,277 +10584,6 @@
   {
     "CONVERSATION": "conversation",
     "TIMELINE": "timeline"
-  },
-  {
-    "Abort": "abort",
-    "ChromelessWeb": "chromeless_web_link",
-    "Deeplink": "deep_link",
-    "DeeplinkAndAbort": "deep_link_and_abort",
-    "DeeplinkInPlace": "deep_link_in_place",
-    "Finish": "finish",
-    "Subtask": "subtask",
-    "Task": "task",
-    "Web": "web_link",
-    "WeblinkAndAbort": "web_link_and_abort"
-  },
-  {
-    "Allow": "allow",
-    "CancelFlow": "cancel_flow",
-    "HideExplicitCta": "hide_explicit_cta",
-    "Disallow": "disallow"
-  },
-  {
-    "Default": "default",
-    "BulletList": "bullet_list"
-  },
-  {
-    "DestructiveSecondary": "destructive_secondary",
-    "Primary": "primary",
-    "Secondary": "secondary",
-    "Text": "text",
-    "Brand": "brand",
-    "TwitterBrand": "twitter_brand"
-  },
-  {
-    "Small": "small",
-    "NormalCompact": "normal_compact",
-    "Normal": "normal",
-    "LargeCompact": "large_compact",
-    "Large": "large"
-  },
-  {
-    "CheckmarkAndClose": "checkmark",
-    "Text": "text",
-    "ThumbsUpAndDown": "thumbs"
-  },
-  {
-    "Toolbar": "toolbar"
-  },
-  {
-    "Scrollable": "scrollable",
-    "Centered": "centered",
-    "CenteredHeader": "centered_header",
-    "HalfCover": "half_cover"
-  },
-  {
-    "Success": "success",
-    "Failure": "failure",
-    "Cancel": "cancel"
-  },
-  {
-    "Icon": "icon",
-    "FullWidth": "full_width",
-    "FullBleedTop": "full_bleed_top"
-  },
-  {
-    "PhoneOnly": "phone_only",
-    "EmailOnly": "email_only",
-    "PhoneThenEmail": "phone_then_email",
-    "EmailThenPhone": "email_then_phone"
-  },
-  {
-    "ActionList": "ACTION_LIST",
-    "AlertDialog": "ALERT_DIALOG",
-    "AlertDialogSupressClientEvents": "ALERT_DIALOG_SUPRESS_CLIENT_EVENTS",
-    "AppDownloadCTA": "APP_DOWNLOAD_CTA",
-    "AppLocaleUpdate": "APP_LOCALE_UPDATE",
-    "BrowsableNux": "BROWSABLE_NUX",
-    "CallToAction": "CALL_TO_ACTION",
-    "CheckLoggedInAccount": "CHECK_LOGGED_IN_ACCOUNT",
-    "ChoiceSelection": "CHOICE_SELECTION",
-    "ContactsLiveSyncPermissionPrompt": "CONTACTS_LIVE_SYNC_PERMISSION_PROMPT",
-    "EmailContactsSync": "EMAIL_CONTACTS_SYNC",
-    "EmailVerification": "EMAIL_VERIFICATION",
-    "EndFlow": "END_FLOW",
-    "EnterDate": "ENTER_DATE",
-    "EnterEmail": "ENTER_EMAIL",
-    "EnterPassword": "ENTER_PASSWORD",
-    "EnterPhone": "ENTER_PHONE",
-    "EnterRecaptcha": "ENTER_RECAPTCHA",
-    "EnterText": "ENTER_TEXT",
-    "EnterUsername": "ENTER_USERNAME",
-    "FetchPassword": "FETCH_PASSWORD",
-    "GenericURT": "GENERIC_URT",
-    "InAppNotification": "IN_APP_NOTIFICATION",
-    "InterestPicker": "INTEREST_PICKER",
-    "JsInstrumentation": "JS_INSTRUMENTATION",
-    "MenuDialog": "MENU_DIALOG",
-    "NotificationsPermissionPrompt": "NOTIFICATIONS_PERMISSION_PROMPT",
-    "OpenAccount": "OPEN_ACCOUNT",
-    "OpenHomeTimeline": "OPEN_HOME_TIMELINE",
-    "OpenLink": "OPEN_LINK",
-    "Passkey": "PASSKEY",
-    "PhoneVerification": "PHONE_VERIFICATION",
-    "PrivacyOptions": "PRIVACY_OPTIONS",
-    "Recaptcha": "RECAPTCHA",
-    "SecurityKey": "SECURITY_KEY",
-    "SelectAvatar": "SELECT_AVATAR",
-    "SelectBanner": "SELECT_BANNER",
-    "SettingsList": "SETTINGS_LIST",
-    "ShowCode": "SHOW_CODE",
-    "Signup": "SIGNUP",
-    "SignupReview": "SIGNUP_REVIEW",
-    "TopicsSelector": "TOPICS_SELECTOR",
-    "TweetSelectionURT": "TWEET_SELECTION_URT",
-    "TypeaheadSearch": "TYPEAHEAD_SEARCH",
-    "UpdateUsers": "UPDATE_USERS",
-    "UploadMedia": "UPLOAD_MEDIA",
-    "UserRecommendations": "USER_RECOMMENDATIONS_LIST",
-    "UserRecommendationsURT": "USER_RECOMMENDATIONS_URT",
-    "WaitSpinner": "WAIT_SPINNER",
-    "WebModal": "WEB_MODAL"
-  },
-  {
-    "Centered": "centered",
-    "Left": "left"
-  },
-  {
-    "Action": "action",
-    "Boolean": "boolean",
-    "DestructiveAction": "destructive_action",
-    "PreciseLocation": "precise_location",
-    "SettingsGroup": "settings_group",
-    "StaticText": "static_text",
-    "Separator": "separator",
-    "TextField": "text_field",
-    "Button": "button",
-    "Tweet": "tweet"
-  },
-  {
-    "AppleSSOButton": "apple_sso_button",
-    "GoogleSSOButton": "google_sso_button",
-    "NextButton": "next_button",
-    "UserIdentifier": "user_identifier"
-  },
-  {
-    "DEPRECATED_UnorderedList": "UnorderedList",
-    "DEPRECATED_ListItem": "ListItem",
-    "UnorderedList": "unordered_list",
-    "ListItem": "list_item"
-  },
-  {
-    "Normal": "Normal",
-    "Bold": "Bold"
-  },
-  {
-    "Small": "Small",
-    "Normal": "Normal",
-    "Large": "Large",
-    "XLarge": "XLarge",
-    "Jumbo": "Jumbo"
-  },
-  {
-    "Qr": "qr",
-    "Text": "text"
-  },
-  {
-    "Avatar": "avatar",
-    "Banner": "banner"
-  },
-  {
-    "Success": "success",
-    "NotFound": "not_found",
-    "Error": "error"
-  },
-  {
-    "Favorite": "favorite",
-    "Follow": "follow",
-    "Reply": "reply",
-    "Retweet": "retweet"
-  },
-  {
-    "Checkbox": "checkbox",
-    "Follow": "follow"
-  },
-  {
-    "Tile": "tile",
-    "List": "list",
-    "TileFollowButton": "tile_follow_btn"
-  },
-  {
-    "Always": "always",
-    "Never": "never",
-    "Preprompt": "preprompt"
-  },
-  {
-    "Email": "email",
-    "Number": "number",
-    "Password": "password",
-    "Telephone": "telephone",
-    "Text": "text"
-  },
-  {
-    "ResendSms": "resend_sms",
-    "ResendVoice": "resend_voice",
-    "ResendEmail": "resend_email"
-  },
-  {
-    "Password": "password",
-    "NewPassword": "new_password",
-    "Text": "text"
-  },
-  {
-    "Normal": "normal",
-    "Compact": "compact"
-  },
-  {
-    "Username": "username",
-    "Password": "password",
-    "NewPassword": "new_password",
-    "Text": "text"
-  },
-  {
-    "Mismatch": "mismatch"
-  },
-  {
-    "compact": "compact",
-    "stacked": "stacked"
-  },
-  {
-    "Fixed": "fixed",
-    "Floating": "floating",
-    "FloatingLarge": "floating_large"
-  },
-  {
-    "Default": "default",
-    "GoogleSSO": "google_sso",
-    "AppleSSO": "apple_sso"
-  },
-  {
-    "Impression": "impression",
-    "Click": "click"
-  },
-  {
-    "HeaderTitle": "header_title",
-    "HeaderSubtitle": "header_subtitle",
-    "SectionTitle": "section_title",
-    "Detail": "detail"
-  },
-  {
-    "All": "all",
-    "Users": "users",
-    "Topics": "topics",
-    "Events": "events"
-  },
-  {
-    "REQUEST": "rweb/ocf/FETCH_REQUEST",
-    "SUCCESS": "rweb/ocf/FETCH_SUCCESS",
-    "FAILURE": "rweb/ocf/FETCH_FAILURE"
-  },
-  {
-    "REQUEST": "rweb/ocf/START_REQUEST",
-    "SUCCESS": "rweb/ocf/START_SUCCESS",
-    "FAILURE": "rweb/ocf/START_FAILURE"
-  },
-  {
-    "REQUEST": "rweb/ocf/VERIFY_IDENTIFIER_REQUEST",
-    "SUCCESS": "rweb/ocf/VERIFY_IDENTIFIER_SUCCESS",
-    "FAILURE": "rweb/ocf/VERIFY_IDENTIFIER_FAILURE"
-  },
-  {
-    "REQUEST": "rweb/ocf/FETCH_BROWSABLE_NUX_RECOMMENDATIONS_REQUEST",
-    "SUCCESS": "rweb/ocf/FETCH_BROWSABLE_NUX_RECOMMENDATIONS_SUCCESS",
-    "FAILURE": "rweb/ocf/FETCH_BROWSABLE_NUX_RECOMMENDATIONS_FAILURE"
   },
   {
     "MOVEMENT": "movement",
@@ -12442,6 +11097,548 @@
     "NotSet": "notSet"
   },
   {
+    "Abort": "abort",
+    "ChromelessWeb": "chromeless_web_link",
+    "Deeplink": "deep_link",
+    "DeeplinkAndAbort": "deep_link_and_abort",
+    "DeeplinkInPlace": "deep_link_in_place",
+    "Finish": "finish",
+    "Subtask": "subtask",
+    "Task": "task",
+    "Web": "web_link",
+    "WeblinkAndAbort": "web_link_and_abort"
+  },
+  {
+    "Allow": "allow",
+    "CancelFlow": "cancel_flow",
+    "HideExplicitCta": "hide_explicit_cta",
+    "Disallow": "disallow"
+  },
+  {
+    "Default": "default",
+    "BulletList": "bullet_list"
+  },
+  {
+    "DestructiveSecondary": "destructive_secondary",
+    "Primary": "primary",
+    "Secondary": "secondary",
+    "Text": "text",
+    "Brand": "brand",
+    "TwitterBrand": "twitter_brand"
+  },
+  {
+    "Small": "small",
+    "NormalCompact": "normal_compact",
+    "Normal": "normal",
+    "LargeCompact": "large_compact",
+    "Large": "large"
+  },
+  {
+    "CheckmarkAndClose": "checkmark",
+    "Text": "text",
+    "ThumbsUpAndDown": "thumbs"
+  },
+  {
+    "Toolbar": "toolbar"
+  },
+  {
+    "Scrollable": "scrollable",
+    "Centered": "centered",
+    "CenteredHeader": "centered_header",
+    "HalfCover": "half_cover"
+  },
+  {
+    "Success": "success",
+    "Failure": "failure",
+    "Cancel": "cancel"
+  },
+  {
+    "Icon": "icon",
+    "FullWidth": "full_width",
+    "FullBleedTop": "full_bleed_top"
+  },
+  {
+    "PhoneOnly": "phone_only",
+    "EmailOnly": "email_only",
+    "PhoneThenEmail": "phone_then_email",
+    "EmailThenPhone": "email_then_phone"
+  },
+  {
+    "ActionList": "ACTION_LIST",
+    "AlertDialog": "ALERT_DIALOG",
+    "AlertDialogSupressClientEvents": "ALERT_DIALOG_SUPRESS_CLIENT_EVENTS",
+    "AppDownloadCTA": "APP_DOWNLOAD_CTA",
+    "AppLocaleUpdate": "APP_LOCALE_UPDATE",
+    "BrowsableNux": "BROWSABLE_NUX",
+    "CallToAction": "CALL_TO_ACTION",
+    "CheckLoggedInAccount": "CHECK_LOGGED_IN_ACCOUNT",
+    "ChoiceSelection": "CHOICE_SELECTION",
+    "ContactsLiveSyncPermissionPrompt": "CONTACTS_LIVE_SYNC_PERMISSION_PROMPT",
+    "EmailContactsSync": "EMAIL_CONTACTS_SYNC",
+    "EmailVerification": "EMAIL_VERIFICATION",
+    "EndFlow": "END_FLOW",
+    "EnterDate": "ENTER_DATE",
+    "EnterEmail": "ENTER_EMAIL",
+    "EnterPassword": "ENTER_PASSWORD",
+    "EnterPhone": "ENTER_PHONE",
+    "EnterRecaptcha": "ENTER_RECAPTCHA",
+    "EnterText": "ENTER_TEXT",
+    "EnterUsername": "ENTER_USERNAME",
+    "FetchPassword": "FETCH_PASSWORD",
+    "GenericURT": "GENERIC_URT",
+    "InAppNotification": "IN_APP_NOTIFICATION",
+    "InterestPicker": "INTEREST_PICKER",
+    "JsInstrumentation": "JS_INSTRUMENTATION",
+    "MenuDialog": "MENU_DIALOG",
+    "NotificationsPermissionPrompt": "NOTIFICATIONS_PERMISSION_PROMPT",
+    "OpenAccount": "OPEN_ACCOUNT",
+    "OpenHomeTimeline": "OPEN_HOME_TIMELINE",
+    "OpenLink": "OPEN_LINK",
+    "Passkey": "PASSKEY",
+    "PhoneVerification": "PHONE_VERIFICATION",
+    "PrivacyOptions": "PRIVACY_OPTIONS",
+    "Recaptcha": "RECAPTCHA",
+    "SecurityKey": "SECURITY_KEY",
+    "SelectAvatar": "SELECT_AVATAR",
+    "SelectBanner": "SELECT_BANNER",
+    "SettingsList": "SETTINGS_LIST",
+    "ShowCode": "SHOW_CODE",
+    "Signup": "SIGNUP",
+    "SignupReview": "SIGNUP_REVIEW",
+    "TopicsSelector": "TOPICS_SELECTOR",
+    "TweetSelectionURT": "TWEET_SELECTION_URT",
+    "TypeaheadSearch": "TYPEAHEAD_SEARCH",
+    "UpdateUsers": "UPDATE_USERS",
+    "UploadMedia": "UPLOAD_MEDIA",
+    "UserRecommendations": "USER_RECOMMENDATIONS_LIST",
+    "UserRecommendationsURT": "USER_RECOMMENDATIONS_URT",
+    "WaitSpinner": "WAIT_SPINNER",
+    "WebModal": "WEB_MODAL"
+  },
+  {
+    "Centered": "centered",
+    "Left": "left"
+  },
+  {
+    "Action": "action",
+    "Boolean": "boolean",
+    "DestructiveAction": "destructive_action",
+    "PreciseLocation": "precise_location",
+    "SettingsGroup": "settings_group",
+    "StaticText": "static_text",
+    "Separator": "separator",
+    "TextField": "text_field",
+    "Button": "button",
+    "Tweet": "tweet"
+  },
+  {
+    "AppleSSOButton": "apple_sso_button",
+    "GoogleSSOButton": "google_sso_button",
+    "NextButton": "next_button",
+    "UserIdentifier": "user_identifier"
+  },
+  {
+    "DEPRECATED_UnorderedList": "UnorderedList",
+    "DEPRECATED_ListItem": "ListItem",
+    "UnorderedList": "unordered_list",
+    "ListItem": "list_item"
+  },
+  {
+    "Normal": "Normal",
+    "Bold": "Bold"
+  },
+  {
+    "Small": "Small",
+    "Normal": "Normal",
+    "Large": "Large",
+    "XLarge": "XLarge",
+    "Jumbo": "Jumbo"
+  },
+  {
+    "Qr": "qr",
+    "Text": "text"
+  },
+  {
+    "Avatar": "avatar",
+    "Banner": "banner"
+  },
+  {
+    "Success": "success",
+    "NotFound": "not_found",
+    "Error": "error"
+  },
+  {
+    "Favorite": "favorite",
+    "Follow": "follow",
+    "Reply": "reply",
+    "Retweet": "retweet"
+  },
+  {
+    "Checkbox": "checkbox",
+    "Follow": "follow"
+  },
+  {
+    "Tile": "tile",
+    "List": "list",
+    "TileFollowButton": "tile_follow_btn"
+  },
+  {
+    "Always": "always",
+    "Never": "never",
+    "Preprompt": "preprompt"
+  },
+  {
+    "Email": "email",
+    "Number": "number",
+    "Password": "password",
+    "Telephone": "telephone",
+    "Text": "text"
+  },
+  {
+    "ResendSms": "resend_sms",
+    "ResendVoice": "resend_voice",
+    "ResendEmail": "resend_email"
+  },
+  {
+    "Password": "password",
+    "NewPassword": "new_password",
+    "Text": "text"
+  },
+  {
+    "Normal": "normal",
+    "Compact": "compact"
+  },
+  {
+    "Username": "username",
+    "Password": "password",
+    "NewPassword": "new_password",
+    "Text": "text"
+  },
+  {
+    "Mismatch": "mismatch"
+  },
+  {
+    "compact": "compact",
+    "stacked": "stacked"
+  },
+  {
+    "Fixed": "fixed",
+    "Floating": "floating",
+    "FloatingLarge": "floating_large"
+  },
+  {
+    "Default": "default",
+    "GoogleSSO": "google_sso",
+    "AppleSSO": "apple_sso"
+  },
+  {
+    "Impression": "impression",
+    "Click": "click"
+  },
+  {
+    "HeaderTitle": "header_title",
+    "HeaderSubtitle": "header_subtitle",
+    "SectionTitle": "section_title",
+    "Detail": "detail"
+  },
+  {
+    "All": "all",
+    "Users": "users",
+    "Topics": "topics",
+    "Events": "events"
+  },
+  {
+    "REQUEST": "rweb/ocf/FETCH_REQUEST",
+    "SUCCESS": "rweb/ocf/FETCH_SUCCESS",
+    "FAILURE": "rweb/ocf/FETCH_FAILURE"
+  },
+  {
+    "REQUEST": "rweb/ocf/START_REQUEST",
+    "SUCCESS": "rweb/ocf/START_SUCCESS",
+    "FAILURE": "rweb/ocf/START_FAILURE"
+  },
+  {
+    "REQUEST": "rweb/ocf/VERIFY_IDENTIFIER_REQUEST",
+    "SUCCESS": "rweb/ocf/VERIFY_IDENTIFIER_SUCCESS",
+    "FAILURE": "rweb/ocf/VERIFY_IDENTIFIER_FAILURE"
+  },
+  {
+    "REQUEST": "rweb/ocf/FETCH_BROWSABLE_NUX_RECOMMENDATIONS_REQUEST",
+    "SUCCESS": "rweb/ocf/FETCH_BROWSABLE_NUX_RECOMMENDATIONS_SUCCESS",
+    "FAILURE": "rweb/ocf/FETCH_BROWSABLE_NUX_RECOMMENDATIONS_FAILURE"
+  },
+  {
+    "Abort": "abort",
+    "ChromelessWeb": "chromeless_web_link",
+    "Deeplink": "deep_link",
+    "DeeplinkAndAbort": "deep_link_and_abort",
+    "DeeplinkInPlace": "deep_link_in_place",
+    "Finish": "finish",
+    "Subtask": "subtask",
+    "Task": "task",
+    "Web": "web_link",
+    "WeblinkAndAbort": "web_link_and_abort"
+  },
+  {
+    "Allow": "allow",
+    "CancelFlow": "cancel_flow",
+    "HideExplicitCta": "hide_explicit_cta",
+    "Disallow": "disallow"
+  },
+  {
+    "Default": "default",
+    "BulletList": "bullet_list"
+  },
+  {
+    "DestructiveSecondary": "destructive_secondary",
+    "Primary": "primary",
+    "Secondary": "secondary",
+    "Text": "text",
+    "Brand": "brand",
+    "TwitterBrand": "twitter_brand"
+  },
+  {
+    "Small": "small",
+    "NormalCompact": "normal_compact",
+    "Normal": "normal",
+    "LargeCompact": "large_compact",
+    "Large": "large"
+  },
+  {
+    "CheckmarkAndClose": "checkmark",
+    "Text": "text",
+    "ThumbsUpAndDown": "thumbs"
+  },
+  {
+    "Toolbar": "toolbar"
+  },
+  {
+    "Scrollable": "scrollable",
+    "Centered": "centered",
+    "CenteredHeader": "centered_header",
+    "HalfCover": "half_cover"
+  },
+  {
+    "Success": "success",
+    "Failure": "failure",
+    "Cancel": "cancel"
+  },
+  {
+    "Icon": "icon",
+    "FullWidth": "full_width",
+    "FullBleedTop": "full_bleed_top"
+  },
+  {
+    "PhoneOnly": "phone_only",
+    "EmailOnly": "email_only",
+    "PhoneThenEmail": "phone_then_email",
+    "EmailThenPhone": "email_then_phone"
+  },
+  {
+    "ActionList": "ACTION_LIST",
+    "AlertDialog": "ALERT_DIALOG",
+    "AlertDialogSupressClientEvents": "ALERT_DIALOG_SUPRESS_CLIENT_EVENTS",
+    "AppDownloadCTA": "APP_DOWNLOAD_CTA",
+    "AppLocaleUpdate": "APP_LOCALE_UPDATE",
+    "BrowsableNux": "BROWSABLE_NUX",
+    "CallToAction": "CALL_TO_ACTION",
+    "CheckLoggedInAccount": "CHECK_LOGGED_IN_ACCOUNT",
+    "ChoiceSelection": "CHOICE_SELECTION",
+    "ContactsLiveSyncPermissionPrompt": "CONTACTS_LIVE_SYNC_PERMISSION_PROMPT",
+    "EmailContactsSync": "EMAIL_CONTACTS_SYNC",
+    "EmailVerification": "EMAIL_VERIFICATION",
+    "EndFlow": "END_FLOW",
+    "EnterDate": "ENTER_DATE",
+    "EnterEmail": "ENTER_EMAIL",
+    "EnterPassword": "ENTER_PASSWORD",
+    "EnterPhone": "ENTER_PHONE",
+    "EnterRecaptcha": "ENTER_RECAPTCHA",
+    "EnterText": "ENTER_TEXT",
+    "EnterUsername": "ENTER_USERNAME",
+    "FetchPassword": "FETCH_PASSWORD",
+    "GenericURT": "GENERIC_URT",
+    "InAppNotification": "IN_APP_NOTIFICATION",
+    "InterestPicker": "INTEREST_PICKER",
+    "JsInstrumentation": "JS_INSTRUMENTATION",
+    "MenuDialog": "MENU_DIALOG",
+    "NotificationsPermissionPrompt": "NOTIFICATIONS_PERMISSION_PROMPT",
+    "OpenAccount": "OPEN_ACCOUNT",
+    "OpenHomeTimeline": "OPEN_HOME_TIMELINE",
+    "OpenLink": "OPEN_LINK",
+    "Passkey": "PASSKEY",
+    "PhoneVerification": "PHONE_VERIFICATION",
+    "PrivacyOptions": "PRIVACY_OPTIONS",
+    "Recaptcha": "RECAPTCHA",
+    "SecurityKey": "SECURITY_KEY",
+    "SelectAvatar": "SELECT_AVATAR",
+    "SelectBanner": "SELECT_BANNER",
+    "SettingsList": "SETTINGS_LIST",
+    "ShowCode": "SHOW_CODE",
+    "Signup": "SIGNUP",
+    "SignupReview": "SIGNUP_REVIEW",
+    "TopicsSelector": "TOPICS_SELECTOR",
+    "TweetSelectionURT": "TWEET_SELECTION_URT",
+    "TypeaheadSearch": "TYPEAHEAD_SEARCH",
+    "UpdateUsers": "UPDATE_USERS",
+    "UploadMedia": "UPLOAD_MEDIA",
+    "UserRecommendations": "USER_RECOMMENDATIONS_LIST",
+    "UserRecommendationsURT": "USER_RECOMMENDATIONS_URT",
+    "WaitSpinner": "WAIT_SPINNER",
+    "WebModal": "WEB_MODAL"
+  },
+  {
+    "Centered": "centered",
+    "Left": "left"
+  },
+  {
+    "Action": "action",
+    "Boolean": "boolean",
+    "DestructiveAction": "destructive_action",
+    "PreciseLocation": "precise_location",
+    "SettingsGroup": "settings_group",
+    "StaticText": "static_text",
+    "Separator": "separator",
+    "TextField": "text_field",
+    "Button": "button",
+    "Tweet": "tweet"
+  },
+  {
+    "AppleSSOButton": "apple_sso_button",
+    "GoogleSSOButton": "google_sso_button",
+    "NextButton": "next_button",
+    "UserIdentifier": "user_identifier"
+  },
+  {
+    "DEPRECATED_UnorderedList": "UnorderedList",
+    "DEPRECATED_ListItem": "ListItem",
+    "UnorderedList": "unordered_list",
+    "ListItem": "list_item"
+  },
+  {
+    "Normal": "Normal",
+    "Bold": "Bold"
+  },
+  {
+    "Small": "Small",
+    "Normal": "Normal",
+    "Large": "Large",
+    "XLarge": "XLarge",
+    "Jumbo": "Jumbo"
+  },
+  {
+    "Qr": "qr",
+    "Text": "text"
+  },
+  {
+    "Avatar": "avatar",
+    "Banner": "banner"
+  },
+  {
+    "Success": "success",
+    "NotFound": "not_found",
+    "Error": "error"
+  },
+  {
+    "Favorite": "favorite",
+    "Follow": "follow",
+    "Reply": "reply",
+    "Retweet": "retweet"
+  },
+  {
+    "Checkbox": "checkbox",
+    "Follow": "follow"
+  },
+  {
+    "Tile": "tile",
+    "List": "list",
+    "TileFollowButton": "tile_follow_btn"
+  },
+  {
+    "Always": "always",
+    "Never": "never",
+    "Preprompt": "preprompt"
+  },
+  {
+    "Email": "email",
+    "Number": "number",
+    "Password": "password",
+    "Telephone": "telephone",
+    "Text": "text"
+  },
+  {
+    "ResendSms": "resend_sms",
+    "ResendVoice": "resend_voice",
+    "ResendEmail": "resend_email"
+  },
+  {
+    "Password": "password",
+    "NewPassword": "new_password",
+    "Text": "text"
+  },
+  {
+    "Normal": "normal",
+    "Compact": "compact"
+  },
+  {
+    "Username": "username",
+    "Password": "password",
+    "NewPassword": "new_password",
+    "Text": "text"
+  },
+  {
+    "Mismatch": "mismatch"
+  },
+  {
+    "compact": "compact",
+    "stacked": "stacked"
+  },
+  {
+    "Fixed": "fixed",
+    "Floating": "floating",
+    "FloatingLarge": "floating_large"
+  },
+  {
+    "Default": "default",
+    "GoogleSSO": "google_sso",
+    "AppleSSO": "apple_sso"
+  },
+  {
+    "Impression": "impression",
+    "Click": "click"
+  },
+  {
+    "HeaderTitle": "header_title",
+    "HeaderSubtitle": "header_subtitle",
+    "SectionTitle": "section_title",
+    "Detail": "detail"
+  },
+  {
+    "All": "all",
+    "Users": "users",
+    "Topics": "topics",
+    "Events": "events"
+  },
+  {
+    "REQUEST": "rweb/ocf/FETCH_REQUEST",
+    "SUCCESS": "rweb/ocf/FETCH_SUCCESS",
+    "FAILURE": "rweb/ocf/FETCH_FAILURE"
+  },
+  {
+    "REQUEST": "rweb/ocf/START_REQUEST",
+    "SUCCESS": "rweb/ocf/START_SUCCESS",
+    "FAILURE": "rweb/ocf/START_FAILURE"
+  },
+  {
+    "REQUEST": "rweb/ocf/VERIFY_IDENTIFIER_REQUEST",
+    "SUCCESS": "rweb/ocf/VERIFY_IDENTIFIER_SUCCESS",
+    "FAILURE": "rweb/ocf/VERIFY_IDENTIFIER_FAILURE"
+  },
+  {
+    "REQUEST": "rweb/ocf/FETCH_BROWSABLE_NUX_RECOMMENDATIONS_REQUEST",
+    "SUCCESS": "rweb/ocf/FETCH_BROWSABLE_NUX_RECOMMENDATIONS_SUCCESS",
+    "FAILURE": "rweb/ocf/FETCH_BROWSABLE_NUX_RECOMMENDATIONS_FAILURE"
+  },
+  {
     "REQUEST": "rweb/promotedContent/LOG_REQUEST",
     "SUCCESS": "rweb/promotedContent/LOG_SUCCESS",
     "FAILURE": "rweb/promotedContent/LOG_FAILURE"
@@ -12449,6 +11646,277 @@
   {
     "single_line": "singleline",
     "format_inline": "format-inline"
+  },
+  {
+    "Abort": "abort",
+    "ChromelessWeb": "chromeless_web_link",
+    "Deeplink": "deep_link",
+    "DeeplinkAndAbort": "deep_link_and_abort",
+    "DeeplinkInPlace": "deep_link_in_place",
+    "Finish": "finish",
+    "Subtask": "subtask",
+    "Task": "task",
+    "Web": "web_link",
+    "WeblinkAndAbort": "web_link_and_abort"
+  },
+  {
+    "Allow": "allow",
+    "CancelFlow": "cancel_flow",
+    "HideExplicitCta": "hide_explicit_cta",
+    "Disallow": "disallow"
+  },
+  {
+    "Default": "default",
+    "BulletList": "bullet_list"
+  },
+  {
+    "DestructiveSecondary": "destructive_secondary",
+    "Primary": "primary",
+    "Secondary": "secondary",
+    "Text": "text",
+    "Brand": "brand",
+    "TwitterBrand": "twitter_brand"
+  },
+  {
+    "Small": "small",
+    "NormalCompact": "normal_compact",
+    "Normal": "normal",
+    "LargeCompact": "large_compact",
+    "Large": "large"
+  },
+  {
+    "CheckmarkAndClose": "checkmark",
+    "Text": "text",
+    "ThumbsUpAndDown": "thumbs"
+  },
+  {
+    "Toolbar": "toolbar"
+  },
+  {
+    "Scrollable": "scrollable",
+    "Centered": "centered",
+    "CenteredHeader": "centered_header",
+    "HalfCover": "half_cover"
+  },
+  {
+    "Success": "success",
+    "Failure": "failure",
+    "Cancel": "cancel"
+  },
+  {
+    "Icon": "icon",
+    "FullWidth": "full_width",
+    "FullBleedTop": "full_bleed_top"
+  },
+  {
+    "PhoneOnly": "phone_only",
+    "EmailOnly": "email_only",
+    "PhoneThenEmail": "phone_then_email",
+    "EmailThenPhone": "email_then_phone"
+  },
+  {
+    "ActionList": "ACTION_LIST",
+    "AlertDialog": "ALERT_DIALOG",
+    "AlertDialogSupressClientEvents": "ALERT_DIALOG_SUPRESS_CLIENT_EVENTS",
+    "AppDownloadCTA": "APP_DOWNLOAD_CTA",
+    "AppLocaleUpdate": "APP_LOCALE_UPDATE",
+    "BrowsableNux": "BROWSABLE_NUX",
+    "CallToAction": "CALL_TO_ACTION",
+    "CheckLoggedInAccount": "CHECK_LOGGED_IN_ACCOUNT",
+    "ChoiceSelection": "CHOICE_SELECTION",
+    "ContactsLiveSyncPermissionPrompt": "CONTACTS_LIVE_SYNC_PERMISSION_PROMPT",
+    "EmailContactsSync": "EMAIL_CONTACTS_SYNC",
+    "EmailVerification": "EMAIL_VERIFICATION",
+    "EndFlow": "END_FLOW",
+    "EnterDate": "ENTER_DATE",
+    "EnterEmail": "ENTER_EMAIL",
+    "EnterPassword": "ENTER_PASSWORD",
+    "EnterPhone": "ENTER_PHONE",
+    "EnterRecaptcha": "ENTER_RECAPTCHA",
+    "EnterText": "ENTER_TEXT",
+    "EnterUsername": "ENTER_USERNAME",
+    "FetchPassword": "FETCH_PASSWORD",
+    "GenericURT": "GENERIC_URT",
+    "InAppNotification": "IN_APP_NOTIFICATION",
+    "InterestPicker": "INTEREST_PICKER",
+    "JsInstrumentation": "JS_INSTRUMENTATION",
+    "MenuDialog": "MENU_DIALOG",
+    "NotificationsPermissionPrompt": "NOTIFICATIONS_PERMISSION_PROMPT",
+    "OpenAccount": "OPEN_ACCOUNT",
+    "OpenHomeTimeline": "OPEN_HOME_TIMELINE",
+    "OpenLink": "OPEN_LINK",
+    "Passkey": "PASSKEY",
+    "PhoneVerification": "PHONE_VERIFICATION",
+    "PrivacyOptions": "PRIVACY_OPTIONS",
+    "Recaptcha": "RECAPTCHA",
+    "SecurityKey": "SECURITY_KEY",
+    "SelectAvatar": "SELECT_AVATAR",
+    "SelectBanner": "SELECT_BANNER",
+    "SettingsList": "SETTINGS_LIST",
+    "ShowCode": "SHOW_CODE",
+    "Signup": "SIGNUP",
+    "SignupReview": "SIGNUP_REVIEW",
+    "TopicsSelector": "TOPICS_SELECTOR",
+    "TweetSelectionURT": "TWEET_SELECTION_URT",
+    "TypeaheadSearch": "TYPEAHEAD_SEARCH",
+    "UpdateUsers": "UPDATE_USERS",
+    "UploadMedia": "UPLOAD_MEDIA",
+    "UserRecommendations": "USER_RECOMMENDATIONS_LIST",
+    "UserRecommendationsURT": "USER_RECOMMENDATIONS_URT",
+    "WaitSpinner": "WAIT_SPINNER",
+    "WebModal": "WEB_MODAL"
+  },
+  {
+    "Centered": "centered",
+    "Left": "left"
+  },
+  {
+    "Action": "action",
+    "Boolean": "boolean",
+    "DestructiveAction": "destructive_action",
+    "PreciseLocation": "precise_location",
+    "SettingsGroup": "settings_group",
+    "StaticText": "static_text",
+    "Separator": "separator",
+    "TextField": "text_field",
+    "Button": "button",
+    "Tweet": "tweet"
+  },
+  {
+    "AppleSSOButton": "apple_sso_button",
+    "GoogleSSOButton": "google_sso_button",
+    "NextButton": "next_button",
+    "UserIdentifier": "user_identifier"
+  },
+  {
+    "DEPRECATED_UnorderedList": "UnorderedList",
+    "DEPRECATED_ListItem": "ListItem",
+    "UnorderedList": "unordered_list",
+    "ListItem": "list_item"
+  },
+  {
+    "Normal": "Normal",
+    "Bold": "Bold"
+  },
+  {
+    "Small": "Small",
+    "Normal": "Normal",
+    "Large": "Large",
+    "XLarge": "XLarge",
+    "Jumbo": "Jumbo"
+  },
+  {
+    "Qr": "qr",
+    "Text": "text"
+  },
+  {
+    "Avatar": "avatar",
+    "Banner": "banner"
+  },
+  {
+    "Success": "success",
+    "NotFound": "not_found",
+    "Error": "error"
+  },
+  {
+    "Favorite": "favorite",
+    "Follow": "follow",
+    "Reply": "reply",
+    "Retweet": "retweet"
+  },
+  {
+    "Checkbox": "checkbox",
+    "Follow": "follow"
+  },
+  {
+    "Tile": "tile",
+    "List": "list",
+    "TileFollowButton": "tile_follow_btn"
+  },
+  {
+    "Always": "always",
+    "Never": "never",
+    "Preprompt": "preprompt"
+  },
+  {
+    "Email": "email",
+    "Number": "number",
+    "Password": "password",
+    "Telephone": "telephone",
+    "Text": "text"
+  },
+  {
+    "ResendSms": "resend_sms",
+    "ResendVoice": "resend_voice",
+    "ResendEmail": "resend_email"
+  },
+  {
+    "Password": "password",
+    "NewPassword": "new_password",
+    "Text": "text"
+  },
+  {
+    "Normal": "normal",
+    "Compact": "compact"
+  },
+  {
+    "Username": "username",
+    "Password": "password",
+    "NewPassword": "new_password",
+    "Text": "text"
+  },
+  {
+    "Mismatch": "mismatch"
+  },
+  {
+    "compact": "compact",
+    "stacked": "stacked"
+  },
+  {
+    "Fixed": "fixed",
+    "Floating": "floating",
+    "FloatingLarge": "floating_large"
+  },
+  {
+    "Default": "default",
+    "GoogleSSO": "google_sso",
+    "AppleSSO": "apple_sso"
+  },
+  {
+    "Impression": "impression",
+    "Click": "click"
+  },
+  {
+    "HeaderTitle": "header_title",
+    "HeaderSubtitle": "header_subtitle",
+    "SectionTitle": "section_title",
+    "Detail": "detail"
+  },
+  {
+    "All": "all",
+    "Users": "users",
+    "Topics": "topics",
+    "Events": "events"
+  },
+  {
+    "REQUEST": "rweb/ocf/FETCH_REQUEST",
+    "SUCCESS": "rweb/ocf/FETCH_SUCCESS",
+    "FAILURE": "rweb/ocf/FETCH_FAILURE"
+  },
+  {
+    "REQUEST": "rweb/ocf/START_REQUEST",
+    "SUCCESS": "rweb/ocf/START_SUCCESS",
+    "FAILURE": "rweb/ocf/START_FAILURE"
+  },
+  {
+    "REQUEST": "rweb/ocf/VERIFY_IDENTIFIER_REQUEST",
+    "SUCCESS": "rweb/ocf/VERIFY_IDENTIFIER_SUCCESS",
+    "FAILURE": "rweb/ocf/VERIFY_IDENTIFIER_FAILURE"
+  },
+  {
+    "REQUEST": "rweb/ocf/FETCH_BROWSABLE_NUX_RECOMMENDATIONS_REQUEST",
+    "SUCCESS": "rweb/ocf/FETCH_BROWSABLE_NUX_RECOMMENDATIONS_SUCCESS",
+    "FAILURE": "rweb/ocf/FETCH_BROWSABLE_NUX_RECOMMENDATIONS_FAILURE"
   },
   {
     "__proto__": "null",
@@ -12669,6 +12137,277 @@
     "Unused7": "_Unused7"
   },
   {
+    "Abort": "abort",
+    "ChromelessWeb": "chromeless_web_link",
+    "Deeplink": "deep_link",
+    "DeeplinkAndAbort": "deep_link_and_abort",
+    "DeeplinkInPlace": "deep_link_in_place",
+    "Finish": "finish",
+    "Subtask": "subtask",
+    "Task": "task",
+    "Web": "web_link",
+    "WeblinkAndAbort": "web_link_and_abort"
+  },
+  {
+    "Allow": "allow",
+    "CancelFlow": "cancel_flow",
+    "HideExplicitCta": "hide_explicit_cta",
+    "Disallow": "disallow"
+  },
+  {
+    "Default": "default",
+    "BulletList": "bullet_list"
+  },
+  {
+    "DestructiveSecondary": "destructive_secondary",
+    "Primary": "primary",
+    "Secondary": "secondary",
+    "Text": "text",
+    "Brand": "brand",
+    "TwitterBrand": "twitter_brand"
+  },
+  {
+    "Small": "small",
+    "NormalCompact": "normal_compact",
+    "Normal": "normal",
+    "LargeCompact": "large_compact",
+    "Large": "large"
+  },
+  {
+    "CheckmarkAndClose": "checkmark",
+    "Text": "text",
+    "ThumbsUpAndDown": "thumbs"
+  },
+  {
+    "Toolbar": "toolbar"
+  },
+  {
+    "Scrollable": "scrollable",
+    "Centered": "centered",
+    "CenteredHeader": "centered_header",
+    "HalfCover": "half_cover"
+  },
+  {
+    "Success": "success",
+    "Failure": "failure",
+    "Cancel": "cancel"
+  },
+  {
+    "Icon": "icon",
+    "FullWidth": "full_width",
+    "FullBleedTop": "full_bleed_top"
+  },
+  {
+    "PhoneOnly": "phone_only",
+    "EmailOnly": "email_only",
+    "PhoneThenEmail": "phone_then_email",
+    "EmailThenPhone": "email_then_phone"
+  },
+  {
+    "ActionList": "ACTION_LIST",
+    "AlertDialog": "ALERT_DIALOG",
+    "AlertDialogSupressClientEvents": "ALERT_DIALOG_SUPRESS_CLIENT_EVENTS",
+    "AppDownloadCTA": "APP_DOWNLOAD_CTA",
+    "AppLocaleUpdate": "APP_LOCALE_UPDATE",
+    "BrowsableNux": "BROWSABLE_NUX",
+    "CallToAction": "CALL_TO_ACTION",
+    "CheckLoggedInAccount": "CHECK_LOGGED_IN_ACCOUNT",
+    "ChoiceSelection": "CHOICE_SELECTION",
+    "ContactsLiveSyncPermissionPrompt": "CONTACTS_LIVE_SYNC_PERMISSION_PROMPT",
+    "EmailContactsSync": "EMAIL_CONTACTS_SYNC",
+    "EmailVerification": "EMAIL_VERIFICATION",
+    "EndFlow": "END_FLOW",
+    "EnterDate": "ENTER_DATE",
+    "EnterEmail": "ENTER_EMAIL",
+    "EnterPassword": "ENTER_PASSWORD",
+    "EnterPhone": "ENTER_PHONE",
+    "EnterRecaptcha": "ENTER_RECAPTCHA",
+    "EnterText": "ENTER_TEXT",
+    "EnterUsername": "ENTER_USERNAME",
+    "FetchPassword": "FETCH_PASSWORD",
+    "GenericURT": "GENERIC_URT",
+    "InAppNotification": "IN_APP_NOTIFICATION",
+    "InterestPicker": "INTEREST_PICKER",
+    "JsInstrumentation": "JS_INSTRUMENTATION",
+    "MenuDialog": "MENU_DIALOG",
+    "NotificationsPermissionPrompt": "NOTIFICATIONS_PERMISSION_PROMPT",
+    "OpenAccount": "OPEN_ACCOUNT",
+    "OpenHomeTimeline": "OPEN_HOME_TIMELINE",
+    "OpenLink": "OPEN_LINK",
+    "Passkey": "PASSKEY",
+    "PhoneVerification": "PHONE_VERIFICATION",
+    "PrivacyOptions": "PRIVACY_OPTIONS",
+    "Recaptcha": "RECAPTCHA",
+    "SecurityKey": "SECURITY_KEY",
+    "SelectAvatar": "SELECT_AVATAR",
+    "SelectBanner": "SELECT_BANNER",
+    "SettingsList": "SETTINGS_LIST",
+    "ShowCode": "SHOW_CODE",
+    "Signup": "SIGNUP",
+    "SignupReview": "SIGNUP_REVIEW",
+    "TopicsSelector": "TOPICS_SELECTOR",
+    "TweetSelectionURT": "TWEET_SELECTION_URT",
+    "TypeaheadSearch": "TYPEAHEAD_SEARCH",
+    "UpdateUsers": "UPDATE_USERS",
+    "UploadMedia": "UPLOAD_MEDIA",
+    "UserRecommendations": "USER_RECOMMENDATIONS_LIST",
+    "UserRecommendationsURT": "USER_RECOMMENDATIONS_URT",
+    "WaitSpinner": "WAIT_SPINNER",
+    "WebModal": "WEB_MODAL"
+  },
+  {
+    "Centered": "centered",
+    "Left": "left"
+  },
+  {
+    "Action": "action",
+    "Boolean": "boolean",
+    "DestructiveAction": "destructive_action",
+    "PreciseLocation": "precise_location",
+    "SettingsGroup": "settings_group",
+    "StaticText": "static_text",
+    "Separator": "separator",
+    "TextField": "text_field",
+    "Button": "button",
+    "Tweet": "tweet"
+  },
+  {
+    "AppleSSOButton": "apple_sso_button",
+    "GoogleSSOButton": "google_sso_button",
+    "NextButton": "next_button",
+    "UserIdentifier": "user_identifier"
+  },
+  {
+    "DEPRECATED_UnorderedList": "UnorderedList",
+    "DEPRECATED_ListItem": "ListItem",
+    "UnorderedList": "unordered_list",
+    "ListItem": "list_item"
+  },
+  {
+    "Normal": "Normal",
+    "Bold": "Bold"
+  },
+  {
+    "Small": "Small",
+    "Normal": "Normal",
+    "Large": "Large",
+    "XLarge": "XLarge",
+    "Jumbo": "Jumbo"
+  },
+  {
+    "Qr": "qr",
+    "Text": "text"
+  },
+  {
+    "Avatar": "avatar",
+    "Banner": "banner"
+  },
+  {
+    "Success": "success",
+    "NotFound": "not_found",
+    "Error": "error"
+  },
+  {
+    "Favorite": "favorite",
+    "Follow": "follow",
+    "Reply": "reply",
+    "Retweet": "retweet"
+  },
+  {
+    "Checkbox": "checkbox",
+    "Follow": "follow"
+  },
+  {
+    "Tile": "tile",
+    "List": "list",
+    "TileFollowButton": "tile_follow_btn"
+  },
+  {
+    "Always": "always",
+    "Never": "never",
+    "Preprompt": "preprompt"
+  },
+  {
+    "Email": "email",
+    "Number": "number",
+    "Password": "password",
+    "Telephone": "telephone",
+    "Text": "text"
+  },
+  {
+    "ResendSms": "resend_sms",
+    "ResendVoice": "resend_voice",
+    "ResendEmail": "resend_email"
+  },
+  {
+    "Password": "password",
+    "NewPassword": "new_password",
+    "Text": "text"
+  },
+  {
+    "Normal": "normal",
+    "Compact": "compact"
+  },
+  {
+    "Username": "username",
+    "Password": "password",
+    "NewPassword": "new_password",
+    "Text": "text"
+  },
+  {
+    "Mismatch": "mismatch"
+  },
+  {
+    "compact": "compact",
+    "stacked": "stacked"
+  },
+  {
+    "Fixed": "fixed",
+    "Floating": "floating",
+    "FloatingLarge": "floating_large"
+  },
+  {
+    "Default": "default",
+    "GoogleSSO": "google_sso",
+    "AppleSSO": "apple_sso"
+  },
+  {
+    "Impression": "impression",
+    "Click": "click"
+  },
+  {
+    "HeaderTitle": "header_title",
+    "HeaderSubtitle": "header_subtitle",
+    "SectionTitle": "section_title",
+    "Detail": "detail"
+  },
+  {
+    "All": "all",
+    "Users": "users",
+    "Topics": "topics",
+    "Events": "events"
+  },
+  {
+    "REQUEST": "rweb/ocf/FETCH_REQUEST",
+    "SUCCESS": "rweb/ocf/FETCH_SUCCESS",
+    "FAILURE": "rweb/ocf/FETCH_FAILURE"
+  },
+  {
+    "REQUEST": "rweb/ocf/START_REQUEST",
+    "SUCCESS": "rweb/ocf/START_SUCCESS",
+    "FAILURE": "rweb/ocf/START_FAILURE"
+  },
+  {
+    "REQUEST": "rweb/ocf/VERIFY_IDENTIFIER_REQUEST",
+    "SUCCESS": "rweb/ocf/VERIFY_IDENTIFIER_SUCCESS",
+    "FAILURE": "rweb/ocf/VERIFY_IDENTIFIER_FAILURE"
+  },
+  {
+    "REQUEST": "rweb/ocf/FETCH_BROWSABLE_NUX_RECOMMENDATIONS_REQUEST",
+    "SUCCESS": "rweb/ocf/FETCH_BROWSABLE_NUX_RECOMMENDATIONS_SUCCESS",
+    "FAILURE": "rweb/ocf/FETCH_BROWSABLE_NUX_RECOMMENDATIONS_FAILURE"
+  },
+  {
     "Fixed": "fixed",
     "Variable": "variable"
   },
@@ -12679,12 +12418,12 @@
     "contract_to_hire": "c"
   },
   {
-    "1": "s",
+    "1": "d",
     "2": "u"
   },
   {
     "annually": {
-      "label": "s",
+      "label": "d",
       "value": "1"
     },
     "hourly": {
@@ -12703,6 +12442,277 @@
   {
     "Pinning": "Pinning",
     "Reordering": "Reordering"
+  },
+  {
+    "Abort": "abort",
+    "ChromelessWeb": "chromeless_web_link",
+    "Deeplink": "deep_link",
+    "DeeplinkAndAbort": "deep_link_and_abort",
+    "DeeplinkInPlace": "deep_link_in_place",
+    "Finish": "finish",
+    "Subtask": "subtask",
+    "Task": "task",
+    "Web": "web_link",
+    "WeblinkAndAbort": "web_link_and_abort"
+  },
+  {
+    "Allow": "allow",
+    "CancelFlow": "cancel_flow",
+    "HideExplicitCta": "hide_explicit_cta",
+    "Disallow": "disallow"
+  },
+  {
+    "Default": "default",
+    "BulletList": "bullet_list"
+  },
+  {
+    "DestructiveSecondary": "destructive_secondary",
+    "Primary": "primary",
+    "Secondary": "secondary",
+    "Text": "text",
+    "Brand": "brand",
+    "TwitterBrand": "twitter_brand"
+  },
+  {
+    "Small": "small",
+    "NormalCompact": "normal_compact",
+    "Normal": "normal",
+    "LargeCompact": "large_compact",
+    "Large": "large"
+  },
+  {
+    "CheckmarkAndClose": "checkmark",
+    "Text": "text",
+    "ThumbsUpAndDown": "thumbs"
+  },
+  {
+    "Toolbar": "toolbar"
+  },
+  {
+    "Scrollable": "scrollable",
+    "Centered": "centered",
+    "CenteredHeader": "centered_header",
+    "HalfCover": "half_cover"
+  },
+  {
+    "Success": "success",
+    "Failure": "failure",
+    "Cancel": "cancel"
+  },
+  {
+    "Icon": "icon",
+    "FullWidth": "full_width",
+    "FullBleedTop": "full_bleed_top"
+  },
+  {
+    "PhoneOnly": "phone_only",
+    "EmailOnly": "email_only",
+    "PhoneThenEmail": "phone_then_email",
+    "EmailThenPhone": "email_then_phone"
+  },
+  {
+    "ActionList": "ACTION_LIST",
+    "AlertDialog": "ALERT_DIALOG",
+    "AlertDialogSupressClientEvents": "ALERT_DIALOG_SUPRESS_CLIENT_EVENTS",
+    "AppDownloadCTA": "APP_DOWNLOAD_CTA",
+    "AppLocaleUpdate": "APP_LOCALE_UPDATE",
+    "BrowsableNux": "BROWSABLE_NUX",
+    "CallToAction": "CALL_TO_ACTION",
+    "CheckLoggedInAccount": "CHECK_LOGGED_IN_ACCOUNT",
+    "ChoiceSelection": "CHOICE_SELECTION",
+    "ContactsLiveSyncPermissionPrompt": "CONTACTS_LIVE_SYNC_PERMISSION_PROMPT",
+    "EmailContactsSync": "EMAIL_CONTACTS_SYNC",
+    "EmailVerification": "EMAIL_VERIFICATION",
+    "EndFlow": "END_FLOW",
+    "EnterDate": "ENTER_DATE",
+    "EnterEmail": "ENTER_EMAIL",
+    "EnterPassword": "ENTER_PASSWORD",
+    "EnterPhone": "ENTER_PHONE",
+    "EnterRecaptcha": "ENTER_RECAPTCHA",
+    "EnterText": "ENTER_TEXT",
+    "EnterUsername": "ENTER_USERNAME",
+    "FetchPassword": "FETCH_PASSWORD",
+    "GenericURT": "GENERIC_URT",
+    "InAppNotification": "IN_APP_NOTIFICATION",
+    "InterestPicker": "INTEREST_PICKER",
+    "JsInstrumentation": "JS_INSTRUMENTATION",
+    "MenuDialog": "MENU_DIALOG",
+    "NotificationsPermissionPrompt": "NOTIFICATIONS_PERMISSION_PROMPT",
+    "OpenAccount": "OPEN_ACCOUNT",
+    "OpenHomeTimeline": "OPEN_HOME_TIMELINE",
+    "OpenLink": "OPEN_LINK",
+    "Passkey": "PASSKEY",
+    "PhoneVerification": "PHONE_VERIFICATION",
+    "PrivacyOptions": "PRIVACY_OPTIONS",
+    "Recaptcha": "RECAPTCHA",
+    "SecurityKey": "SECURITY_KEY",
+    "SelectAvatar": "SELECT_AVATAR",
+    "SelectBanner": "SELECT_BANNER",
+    "SettingsList": "SETTINGS_LIST",
+    "ShowCode": "SHOW_CODE",
+    "Signup": "SIGNUP",
+    "SignupReview": "SIGNUP_REVIEW",
+    "TopicsSelector": "TOPICS_SELECTOR",
+    "TweetSelectionURT": "TWEET_SELECTION_URT",
+    "TypeaheadSearch": "TYPEAHEAD_SEARCH",
+    "UpdateUsers": "UPDATE_USERS",
+    "UploadMedia": "UPLOAD_MEDIA",
+    "UserRecommendations": "USER_RECOMMENDATIONS_LIST",
+    "UserRecommendationsURT": "USER_RECOMMENDATIONS_URT",
+    "WaitSpinner": "WAIT_SPINNER",
+    "WebModal": "WEB_MODAL"
+  },
+  {
+    "Centered": "centered",
+    "Left": "left"
+  },
+  {
+    "Action": "action",
+    "Boolean": "boolean",
+    "DestructiveAction": "destructive_action",
+    "PreciseLocation": "precise_location",
+    "SettingsGroup": "settings_group",
+    "StaticText": "static_text",
+    "Separator": "separator",
+    "TextField": "text_field",
+    "Button": "button",
+    "Tweet": "tweet"
+  },
+  {
+    "AppleSSOButton": "apple_sso_button",
+    "GoogleSSOButton": "google_sso_button",
+    "NextButton": "next_button",
+    "UserIdentifier": "user_identifier"
+  },
+  {
+    "DEPRECATED_UnorderedList": "UnorderedList",
+    "DEPRECATED_ListItem": "ListItem",
+    "UnorderedList": "unordered_list",
+    "ListItem": "list_item"
+  },
+  {
+    "Normal": "Normal",
+    "Bold": "Bold"
+  },
+  {
+    "Small": "Small",
+    "Normal": "Normal",
+    "Large": "Large",
+    "XLarge": "XLarge",
+    "Jumbo": "Jumbo"
+  },
+  {
+    "Qr": "qr",
+    "Text": "text"
+  },
+  {
+    "Avatar": "avatar",
+    "Banner": "banner"
+  },
+  {
+    "Success": "success",
+    "NotFound": "not_found",
+    "Error": "error"
+  },
+  {
+    "Favorite": "favorite",
+    "Follow": "follow",
+    "Reply": "reply",
+    "Retweet": "retweet"
+  },
+  {
+    "Checkbox": "checkbox",
+    "Follow": "follow"
+  },
+  {
+    "Tile": "tile",
+    "List": "list",
+    "TileFollowButton": "tile_follow_btn"
+  },
+  {
+    "Always": "always",
+    "Never": "never",
+    "Preprompt": "preprompt"
+  },
+  {
+    "Email": "email",
+    "Number": "number",
+    "Password": "password",
+    "Telephone": "telephone",
+    "Text": "text"
+  },
+  {
+    "ResendSms": "resend_sms",
+    "ResendVoice": "resend_voice",
+    "ResendEmail": "resend_email"
+  },
+  {
+    "Password": "password",
+    "NewPassword": "new_password",
+    "Text": "text"
+  },
+  {
+    "Normal": "normal",
+    "Compact": "compact"
+  },
+  {
+    "Username": "username",
+    "Password": "password",
+    "NewPassword": "new_password",
+    "Text": "text"
+  },
+  {
+    "Mismatch": "mismatch"
+  },
+  {
+    "compact": "compact",
+    "stacked": "stacked"
+  },
+  {
+    "Fixed": "fixed",
+    "Floating": "floating",
+    "FloatingLarge": "floating_large"
+  },
+  {
+    "Default": "default",
+    "GoogleSSO": "google_sso",
+    "AppleSSO": "apple_sso"
+  },
+  {
+    "Impression": "impression",
+    "Click": "click"
+  },
+  {
+    "HeaderTitle": "header_title",
+    "HeaderSubtitle": "header_subtitle",
+    "SectionTitle": "section_title",
+    "Detail": "detail"
+  },
+  {
+    "All": "all",
+    "Users": "users",
+    "Topics": "topics",
+    "Events": "events"
+  },
+  {
+    "REQUEST": "rweb/ocf/FETCH_REQUEST",
+    "SUCCESS": "rweb/ocf/FETCH_SUCCESS",
+    "FAILURE": "rweb/ocf/FETCH_FAILURE"
+  },
+  {
+    "REQUEST": "rweb/ocf/START_REQUEST",
+    "SUCCESS": "rweb/ocf/START_SUCCESS",
+    "FAILURE": "rweb/ocf/START_FAILURE"
+  },
+  {
+    "REQUEST": "rweb/ocf/VERIFY_IDENTIFIER_REQUEST",
+    "SUCCESS": "rweb/ocf/VERIFY_IDENTIFIER_SUCCESS",
+    "FAILURE": "rweb/ocf/VERIFY_IDENTIFIER_FAILURE"
+  },
+  {
+    "REQUEST": "rweb/ocf/FETCH_BROWSABLE_NUX_RECOMMENDATIONS_REQUEST",
+    "SUCCESS": "rweb/ocf/FETCH_BROWSABLE_NUX_RECOMMENDATIONS_SUCCESS",
+    "FAILURE": "rweb/ocf/FETCH_BROWSABLE_NUX_RECOMMENDATIONS_FAILURE"
   },
   {
     "CompactPrompt": "compactPrompt",
@@ -12769,6 +12779,277 @@
     "TextOnly": "TextOnly",
     "Topic": "Topic",
     "Trending": "Trending"
+  },
+  {
+    "Abort": "abort",
+    "ChromelessWeb": "chromeless_web_link",
+    "Deeplink": "deep_link",
+    "DeeplinkAndAbort": "deep_link_and_abort",
+    "DeeplinkInPlace": "deep_link_in_place",
+    "Finish": "finish",
+    "Subtask": "subtask",
+    "Task": "task",
+    "Web": "web_link",
+    "WeblinkAndAbort": "web_link_and_abort"
+  },
+  {
+    "Allow": "allow",
+    "CancelFlow": "cancel_flow",
+    "HideExplicitCta": "hide_explicit_cta",
+    "Disallow": "disallow"
+  },
+  {
+    "Default": "default",
+    "BulletList": "bullet_list"
+  },
+  {
+    "DestructiveSecondary": "destructive_secondary",
+    "Primary": "primary",
+    "Secondary": "secondary",
+    "Text": "text",
+    "Brand": "brand",
+    "TwitterBrand": "twitter_brand"
+  },
+  {
+    "Small": "small",
+    "NormalCompact": "normal_compact",
+    "Normal": "normal",
+    "LargeCompact": "large_compact",
+    "Large": "large"
+  },
+  {
+    "CheckmarkAndClose": "checkmark",
+    "Text": "text",
+    "ThumbsUpAndDown": "thumbs"
+  },
+  {
+    "Toolbar": "toolbar"
+  },
+  {
+    "Scrollable": "scrollable",
+    "Centered": "centered",
+    "CenteredHeader": "centered_header",
+    "HalfCover": "half_cover"
+  },
+  {
+    "Success": "success",
+    "Failure": "failure",
+    "Cancel": "cancel"
+  },
+  {
+    "Icon": "icon",
+    "FullWidth": "full_width",
+    "FullBleedTop": "full_bleed_top"
+  },
+  {
+    "PhoneOnly": "phone_only",
+    "EmailOnly": "email_only",
+    "PhoneThenEmail": "phone_then_email",
+    "EmailThenPhone": "email_then_phone"
+  },
+  {
+    "ActionList": "ACTION_LIST",
+    "AlertDialog": "ALERT_DIALOG",
+    "AlertDialogSupressClientEvents": "ALERT_DIALOG_SUPRESS_CLIENT_EVENTS",
+    "AppDownloadCTA": "APP_DOWNLOAD_CTA",
+    "AppLocaleUpdate": "APP_LOCALE_UPDATE",
+    "BrowsableNux": "BROWSABLE_NUX",
+    "CallToAction": "CALL_TO_ACTION",
+    "CheckLoggedInAccount": "CHECK_LOGGED_IN_ACCOUNT",
+    "ChoiceSelection": "CHOICE_SELECTION",
+    "ContactsLiveSyncPermissionPrompt": "CONTACTS_LIVE_SYNC_PERMISSION_PROMPT",
+    "EmailContactsSync": "EMAIL_CONTACTS_SYNC",
+    "EmailVerification": "EMAIL_VERIFICATION",
+    "EndFlow": "END_FLOW",
+    "EnterDate": "ENTER_DATE",
+    "EnterEmail": "ENTER_EMAIL",
+    "EnterPassword": "ENTER_PASSWORD",
+    "EnterPhone": "ENTER_PHONE",
+    "EnterRecaptcha": "ENTER_RECAPTCHA",
+    "EnterText": "ENTER_TEXT",
+    "EnterUsername": "ENTER_USERNAME",
+    "FetchPassword": "FETCH_PASSWORD",
+    "GenericURT": "GENERIC_URT",
+    "InAppNotification": "IN_APP_NOTIFICATION",
+    "InterestPicker": "INTEREST_PICKER",
+    "JsInstrumentation": "JS_INSTRUMENTATION",
+    "MenuDialog": "MENU_DIALOG",
+    "NotificationsPermissionPrompt": "NOTIFICATIONS_PERMISSION_PROMPT",
+    "OpenAccount": "OPEN_ACCOUNT",
+    "OpenHomeTimeline": "OPEN_HOME_TIMELINE",
+    "OpenLink": "OPEN_LINK",
+    "Passkey": "PASSKEY",
+    "PhoneVerification": "PHONE_VERIFICATION",
+    "PrivacyOptions": "PRIVACY_OPTIONS",
+    "Recaptcha": "RECAPTCHA",
+    "SecurityKey": "SECURITY_KEY",
+    "SelectAvatar": "SELECT_AVATAR",
+    "SelectBanner": "SELECT_BANNER",
+    "SettingsList": "SETTINGS_LIST",
+    "ShowCode": "SHOW_CODE",
+    "Signup": "SIGNUP",
+    "SignupReview": "SIGNUP_REVIEW",
+    "TopicsSelector": "TOPICS_SELECTOR",
+    "TweetSelectionURT": "TWEET_SELECTION_URT",
+    "TypeaheadSearch": "TYPEAHEAD_SEARCH",
+    "UpdateUsers": "UPDATE_USERS",
+    "UploadMedia": "UPLOAD_MEDIA",
+    "UserRecommendations": "USER_RECOMMENDATIONS_LIST",
+    "UserRecommendationsURT": "USER_RECOMMENDATIONS_URT",
+    "WaitSpinner": "WAIT_SPINNER",
+    "WebModal": "WEB_MODAL"
+  },
+  {
+    "Centered": "centered",
+    "Left": "left"
+  },
+  {
+    "Action": "action",
+    "Boolean": "boolean",
+    "DestructiveAction": "destructive_action",
+    "PreciseLocation": "precise_location",
+    "SettingsGroup": "settings_group",
+    "StaticText": "static_text",
+    "Separator": "separator",
+    "TextField": "text_field",
+    "Button": "button",
+    "Tweet": "tweet"
+  },
+  {
+    "AppleSSOButton": "apple_sso_button",
+    "GoogleSSOButton": "google_sso_button",
+    "NextButton": "next_button",
+    "UserIdentifier": "user_identifier"
+  },
+  {
+    "DEPRECATED_UnorderedList": "UnorderedList",
+    "DEPRECATED_ListItem": "ListItem",
+    "UnorderedList": "unordered_list",
+    "ListItem": "list_item"
+  },
+  {
+    "Normal": "Normal",
+    "Bold": "Bold"
+  },
+  {
+    "Small": "Small",
+    "Normal": "Normal",
+    "Large": "Large",
+    "XLarge": "XLarge",
+    "Jumbo": "Jumbo"
+  },
+  {
+    "Qr": "qr",
+    "Text": "text"
+  },
+  {
+    "Avatar": "avatar",
+    "Banner": "banner"
+  },
+  {
+    "Success": "success",
+    "NotFound": "not_found",
+    "Error": "error"
+  },
+  {
+    "Favorite": "favorite",
+    "Follow": "follow",
+    "Reply": "reply",
+    "Retweet": "retweet"
+  },
+  {
+    "Checkbox": "checkbox",
+    "Follow": "follow"
+  },
+  {
+    "Tile": "tile",
+    "List": "list",
+    "TileFollowButton": "tile_follow_btn"
+  },
+  {
+    "Always": "always",
+    "Never": "never",
+    "Preprompt": "preprompt"
+  },
+  {
+    "Email": "email",
+    "Number": "number",
+    "Password": "password",
+    "Telephone": "telephone",
+    "Text": "text"
+  },
+  {
+    "ResendSms": "resend_sms",
+    "ResendVoice": "resend_voice",
+    "ResendEmail": "resend_email"
+  },
+  {
+    "Password": "password",
+    "NewPassword": "new_password",
+    "Text": "text"
+  },
+  {
+    "Normal": "normal",
+    "Compact": "compact"
+  },
+  {
+    "Username": "username",
+    "Password": "password",
+    "NewPassword": "new_password",
+    "Text": "text"
+  },
+  {
+    "Mismatch": "mismatch"
+  },
+  {
+    "compact": "compact",
+    "stacked": "stacked"
+  },
+  {
+    "Fixed": "fixed",
+    "Floating": "floating",
+    "FloatingLarge": "floating_large"
+  },
+  {
+    "Default": "default",
+    "GoogleSSO": "google_sso",
+    "AppleSSO": "apple_sso"
+  },
+  {
+    "Impression": "impression",
+    "Click": "click"
+  },
+  {
+    "HeaderTitle": "header_title",
+    "HeaderSubtitle": "header_subtitle",
+    "SectionTitle": "section_title",
+    "Detail": "detail"
+  },
+  {
+    "All": "all",
+    "Users": "users",
+    "Topics": "topics",
+    "Events": "events"
+  },
+  {
+    "REQUEST": "rweb/ocf/FETCH_REQUEST",
+    "SUCCESS": "rweb/ocf/FETCH_SUCCESS",
+    "FAILURE": "rweb/ocf/FETCH_FAILURE"
+  },
+  {
+    "REQUEST": "rweb/ocf/START_REQUEST",
+    "SUCCESS": "rweb/ocf/START_SUCCESS",
+    "FAILURE": "rweb/ocf/START_FAILURE"
+  },
+  {
+    "REQUEST": "rweb/ocf/VERIFY_IDENTIFIER_REQUEST",
+    "SUCCESS": "rweb/ocf/VERIFY_IDENTIFIER_SUCCESS",
+    "FAILURE": "rweb/ocf/VERIFY_IDENTIFIER_FAILURE"
+  },
+  {
+    "REQUEST": "rweb/ocf/FETCH_BROWSABLE_NUX_RECOMMENDATIONS_REQUEST",
+    "SUCCESS": "rweb/ocf/FETCH_BROWSABLE_NUX_RECOMMENDATIONS_SUCCESS",
+    "FAILURE": "rweb/ocf/FETCH_BROWSABLE_NUX_RECOMMENDATIONS_FAILURE"
   },
   {
     "REQUEST": "rweb/promotedContent/LOG_REQUEST",
@@ -13062,6 +13343,277 @@
     "FAILURE": "rweb/ocf/FETCH_BROWSABLE_NUX_RECOMMENDATIONS_FAILURE"
   },
   {
+    "Abort": "abort",
+    "ChromelessWeb": "chromeless_web_link",
+    "Deeplink": "deep_link",
+    "DeeplinkAndAbort": "deep_link_and_abort",
+    "DeeplinkInPlace": "deep_link_in_place",
+    "Finish": "finish",
+    "Subtask": "subtask",
+    "Task": "task",
+    "Web": "web_link",
+    "WeblinkAndAbort": "web_link_and_abort"
+  },
+  {
+    "Allow": "allow",
+    "CancelFlow": "cancel_flow",
+    "HideExplicitCta": "hide_explicit_cta",
+    "Disallow": "disallow"
+  },
+  {
+    "Default": "default",
+    "BulletList": "bullet_list"
+  },
+  {
+    "DestructiveSecondary": "destructive_secondary",
+    "Primary": "primary",
+    "Secondary": "secondary",
+    "Text": "text",
+    "Brand": "brand",
+    "TwitterBrand": "twitter_brand"
+  },
+  {
+    "Small": "small",
+    "NormalCompact": "normal_compact",
+    "Normal": "normal",
+    "LargeCompact": "large_compact",
+    "Large": "large"
+  },
+  {
+    "CheckmarkAndClose": "checkmark",
+    "Text": "text",
+    "ThumbsUpAndDown": "thumbs"
+  },
+  {
+    "Toolbar": "toolbar"
+  },
+  {
+    "Scrollable": "scrollable",
+    "Centered": "centered",
+    "CenteredHeader": "centered_header",
+    "HalfCover": "half_cover"
+  },
+  {
+    "Success": "success",
+    "Failure": "failure",
+    "Cancel": "cancel"
+  },
+  {
+    "Icon": "icon",
+    "FullWidth": "full_width",
+    "FullBleedTop": "full_bleed_top"
+  },
+  {
+    "PhoneOnly": "phone_only",
+    "EmailOnly": "email_only",
+    "PhoneThenEmail": "phone_then_email",
+    "EmailThenPhone": "email_then_phone"
+  },
+  {
+    "ActionList": "ACTION_LIST",
+    "AlertDialog": "ALERT_DIALOG",
+    "AlertDialogSupressClientEvents": "ALERT_DIALOG_SUPRESS_CLIENT_EVENTS",
+    "AppDownloadCTA": "APP_DOWNLOAD_CTA",
+    "AppLocaleUpdate": "APP_LOCALE_UPDATE",
+    "BrowsableNux": "BROWSABLE_NUX",
+    "CallToAction": "CALL_TO_ACTION",
+    "CheckLoggedInAccount": "CHECK_LOGGED_IN_ACCOUNT",
+    "ChoiceSelection": "CHOICE_SELECTION",
+    "ContactsLiveSyncPermissionPrompt": "CONTACTS_LIVE_SYNC_PERMISSION_PROMPT",
+    "EmailContactsSync": "EMAIL_CONTACTS_SYNC",
+    "EmailVerification": "EMAIL_VERIFICATION",
+    "EndFlow": "END_FLOW",
+    "EnterDate": "ENTER_DATE",
+    "EnterEmail": "ENTER_EMAIL",
+    "EnterPassword": "ENTER_PASSWORD",
+    "EnterPhone": "ENTER_PHONE",
+    "EnterRecaptcha": "ENTER_RECAPTCHA",
+    "EnterText": "ENTER_TEXT",
+    "EnterUsername": "ENTER_USERNAME",
+    "FetchPassword": "FETCH_PASSWORD",
+    "GenericURT": "GENERIC_URT",
+    "InAppNotification": "IN_APP_NOTIFICATION",
+    "InterestPicker": "INTEREST_PICKER",
+    "JsInstrumentation": "JS_INSTRUMENTATION",
+    "MenuDialog": "MENU_DIALOG",
+    "NotificationsPermissionPrompt": "NOTIFICATIONS_PERMISSION_PROMPT",
+    "OpenAccount": "OPEN_ACCOUNT",
+    "OpenHomeTimeline": "OPEN_HOME_TIMELINE",
+    "OpenLink": "OPEN_LINK",
+    "Passkey": "PASSKEY",
+    "PhoneVerification": "PHONE_VERIFICATION",
+    "PrivacyOptions": "PRIVACY_OPTIONS",
+    "Recaptcha": "RECAPTCHA",
+    "SecurityKey": "SECURITY_KEY",
+    "SelectAvatar": "SELECT_AVATAR",
+    "SelectBanner": "SELECT_BANNER",
+    "SettingsList": "SETTINGS_LIST",
+    "ShowCode": "SHOW_CODE",
+    "Signup": "SIGNUP",
+    "SignupReview": "SIGNUP_REVIEW",
+    "TopicsSelector": "TOPICS_SELECTOR",
+    "TweetSelectionURT": "TWEET_SELECTION_URT",
+    "TypeaheadSearch": "TYPEAHEAD_SEARCH",
+    "UpdateUsers": "UPDATE_USERS",
+    "UploadMedia": "UPLOAD_MEDIA",
+    "UserRecommendations": "USER_RECOMMENDATIONS_LIST",
+    "UserRecommendationsURT": "USER_RECOMMENDATIONS_URT",
+    "WaitSpinner": "WAIT_SPINNER",
+    "WebModal": "WEB_MODAL"
+  },
+  {
+    "Centered": "centered",
+    "Left": "left"
+  },
+  {
+    "Action": "action",
+    "Boolean": "boolean",
+    "DestructiveAction": "destructive_action",
+    "PreciseLocation": "precise_location",
+    "SettingsGroup": "settings_group",
+    "StaticText": "static_text",
+    "Separator": "separator",
+    "TextField": "text_field",
+    "Button": "button",
+    "Tweet": "tweet"
+  },
+  {
+    "AppleSSOButton": "apple_sso_button",
+    "GoogleSSOButton": "google_sso_button",
+    "NextButton": "next_button",
+    "UserIdentifier": "user_identifier"
+  },
+  {
+    "DEPRECATED_UnorderedList": "UnorderedList",
+    "DEPRECATED_ListItem": "ListItem",
+    "UnorderedList": "unordered_list",
+    "ListItem": "list_item"
+  },
+  {
+    "Normal": "Normal",
+    "Bold": "Bold"
+  },
+  {
+    "Small": "Small",
+    "Normal": "Normal",
+    "Large": "Large",
+    "XLarge": "XLarge",
+    "Jumbo": "Jumbo"
+  },
+  {
+    "Qr": "qr",
+    "Text": "text"
+  },
+  {
+    "Avatar": "avatar",
+    "Banner": "banner"
+  },
+  {
+    "Success": "success",
+    "NotFound": "not_found",
+    "Error": "error"
+  },
+  {
+    "Favorite": "favorite",
+    "Follow": "follow",
+    "Reply": "reply",
+    "Retweet": "retweet"
+  },
+  {
+    "Checkbox": "checkbox",
+    "Follow": "follow"
+  },
+  {
+    "Tile": "tile",
+    "List": "list",
+    "TileFollowButton": "tile_follow_btn"
+  },
+  {
+    "Always": "always",
+    "Never": "never",
+    "Preprompt": "preprompt"
+  },
+  {
+    "Email": "email",
+    "Number": "number",
+    "Password": "password",
+    "Telephone": "telephone",
+    "Text": "text"
+  },
+  {
+    "ResendSms": "resend_sms",
+    "ResendVoice": "resend_voice",
+    "ResendEmail": "resend_email"
+  },
+  {
+    "Password": "password",
+    "NewPassword": "new_password",
+    "Text": "text"
+  },
+  {
+    "Normal": "normal",
+    "Compact": "compact"
+  },
+  {
+    "Username": "username",
+    "Password": "password",
+    "NewPassword": "new_password",
+    "Text": "text"
+  },
+  {
+    "Mismatch": "mismatch"
+  },
+  {
+    "compact": "compact",
+    "stacked": "stacked"
+  },
+  {
+    "Fixed": "fixed",
+    "Floating": "floating",
+    "FloatingLarge": "floating_large"
+  },
+  {
+    "Default": "default",
+    "GoogleSSO": "google_sso",
+    "AppleSSO": "apple_sso"
+  },
+  {
+    "Impression": "impression",
+    "Click": "click"
+  },
+  {
+    "HeaderTitle": "header_title",
+    "HeaderSubtitle": "header_subtitle",
+    "SectionTitle": "section_title",
+    "Detail": "detail"
+  },
+  {
+    "All": "all",
+    "Users": "users",
+    "Topics": "topics",
+    "Events": "events"
+  },
+  {
+    "REQUEST": "rweb/ocf/FETCH_REQUEST",
+    "SUCCESS": "rweb/ocf/FETCH_SUCCESS",
+    "FAILURE": "rweb/ocf/FETCH_FAILURE"
+  },
+  {
+    "REQUEST": "rweb/ocf/START_REQUEST",
+    "SUCCESS": "rweb/ocf/START_SUCCESS",
+    "FAILURE": "rweb/ocf/START_FAILURE"
+  },
+  {
+    "REQUEST": "rweb/ocf/VERIFY_IDENTIFIER_REQUEST",
+    "SUCCESS": "rweb/ocf/VERIFY_IDENTIFIER_SUCCESS",
+    "FAILURE": "rweb/ocf/VERIFY_IDENTIFIER_FAILURE"
+  },
+  {
+    "REQUEST": "rweb/ocf/FETCH_BROWSABLE_NUX_RECOMMENDATIONS_REQUEST",
+    "SUCCESS": "rweb/ocf/FETCH_BROWSABLE_NUX_RECOMMENDATIONS_SUCCESS",
+    "FAILURE": "rweb/ocf/FETCH_BROWSABLE_NUX_RECOMMENDATIONS_FAILURE"
+  },
+  {
     "Active": "active",
     "Expand": "expand",
     "Remove": "remove"
@@ -13082,6 +13634,257 @@
     "ON_FOLLOW": "onFollow"
   },
   {
+    "Abort": "abort",
+    "ChromelessWeb": "chromeless_web_link",
+    "Deeplink": "deep_link",
+    "DeeplinkAndAbort": "deep_link_and_abort",
+    "DeeplinkInPlace": "deep_link_in_place",
+    "Finish": "finish",
+    "Subtask": "subtask",
+    "Task": "task",
+    "Web": "web_link",
+    "WeblinkAndAbort": "web_link_and_abort"
+  },
+  {
+    "Allow": "allow",
+    "CancelFlow": "cancel_flow",
+    "HideExplicitCta": "hide_explicit_cta",
+    "Disallow": "disallow"
+  },
+  {
+    "Default": "default",
+    "BulletList": "bullet_list"
+  },
+  {
+    "DestructiveSecondary": "destructive_secondary",
+    "Primary": "primary",
+    "Secondary": "secondary",
+    "Text": "text",
+    "Brand": "brand",
+    "TwitterBrand": "twitter_brand"
+  },
+  {
+    "Small": "small",
+    "NormalCompact": "normal_compact",
+    "Normal": "normal",
+    "LargeCompact": "large_compact",
+    "Large": "large"
+  },
+  {
+    "CheckmarkAndClose": "checkmark",
+    "Text": "text",
+    "ThumbsUpAndDown": "thumbs"
+  },
+  {
+    "Toolbar": "toolbar"
+  },
+  {
+    "Scrollable": "scrollable",
+    "Centered": "centered",
+    "CenteredHeader": "centered_header",
+    "HalfCover": "half_cover"
+  },
+  {
+    "Success": "success",
+    "Failure": "failure",
+    "Cancel": "cancel"
+  },
+  {
+    "Icon": "icon",
+    "FullWidth": "full_width",
+    "FullBleedTop": "full_bleed_top"
+  },
+  {
+    "PhoneOnly": "phone_only",
+    "EmailOnly": "email_only",
+    "PhoneThenEmail": "phone_then_email",
+    "EmailThenPhone": "email_then_phone"
+  },
+  {
+    "ActionList": "ACTION_LIST",
+    "AlertDialog": "ALERT_DIALOG",
+    "AlertDialogSupressClientEvents": "ALERT_DIALOG_SUPRESS_CLIENT_EVENTS",
+    "AppDownloadCTA": "APP_DOWNLOAD_CTA",
+    "AppLocaleUpdate": "APP_LOCALE_UPDATE",
+    "BrowsableNux": "BROWSABLE_NUX",
+    "CallToAction": "CALL_TO_ACTION",
+    "CheckLoggedInAccount": "CHECK_LOGGED_IN_ACCOUNT",
+    "ChoiceSelection": "CHOICE_SELECTION",
+    "ContactsLiveSyncPermissionPrompt": "CONTACTS_LIVE_SYNC_PERMISSION_PROMPT",
+    "EmailContactsSync": "EMAIL_CONTACTS_SYNC",
+    "EmailVerification": "EMAIL_VERIFICATION",
+    "EndFlow": "END_FLOW",
+    "EnterDate": "ENTER_DATE",
+    "EnterEmail": "ENTER_EMAIL",
+    "EnterPassword": "ENTER_PASSWORD",
+    "EnterPhone": "ENTER_PHONE",
+    "EnterRecaptcha": "ENTER_RECAPTCHA",
+    "EnterText": "ENTER_TEXT",
+    "EnterUsername": "ENTER_USERNAME",
+    "FetchPassword": "FETCH_PASSWORD",
+    "GenericURT": "GENERIC_URT",
+    "InAppNotification": "IN_APP_NOTIFICATION",
+    "InterestPicker": "INTEREST_PICKER",
+    "JsInstrumentation": "JS_INSTRUMENTATION",
+    "MenuDialog": "MENU_DIALOG",
+    "NotificationsPermissionPrompt": "NOTIFICATIONS_PERMISSION_PROMPT",
+    "OpenAccount": "OPEN_ACCOUNT",
+    "OpenHomeTimeline": "OPEN_HOME_TIMELINE",
+    "OpenLink": "OPEN_LINK",
+    "Passkey": "PASSKEY",
+    "PhoneVerification": "PHONE_VERIFICATION",
+    "PrivacyOptions": "PRIVACY_OPTIONS",
+    "Recaptcha": "RECAPTCHA",
+    "SecurityKey": "SECURITY_KEY",
+    "SelectAvatar": "SELECT_AVATAR",
+    "SelectBanner": "SELECT_BANNER",
+    "SettingsList": "SETTINGS_LIST",
+    "ShowCode": "SHOW_CODE",
+    "Signup": "SIGNUP",
+    "SignupReview": "SIGNUP_REVIEW",
+    "TopicsSelector": "TOPICS_SELECTOR",
+    "TweetSelectionURT": "TWEET_SELECTION_URT",
+    "TypeaheadSearch": "TYPEAHEAD_SEARCH",
+    "UpdateUsers": "UPDATE_USERS",
+    "UploadMedia": "UPLOAD_MEDIA",
+    "UserRecommendations": "USER_RECOMMENDATIONS_LIST",
+    "UserRecommendationsURT": "USER_RECOMMENDATIONS_URT",
+    "WaitSpinner": "WAIT_SPINNER",
+    "WebModal": "WEB_MODAL"
+  },
+  {
+    "Centered": "centered",
+    "Left": "left"
+  },
+  {
+    "Action": "action",
+    "Boolean": "boolean",
+    "DestructiveAction": "destructive_action",
+    "PreciseLocation": "precise_location",
+    "SettingsGroup": "settings_group",
+    "StaticText": "static_text",
+    "Separator": "separator",
+    "TextField": "text_field",
+    "Button": "button",
+    "Tweet": "tweet"
+  },
+  {
+    "AppleSSOButton": "apple_sso_button",
+    "GoogleSSOButton": "google_sso_button",
+    "NextButton": "next_button",
+    "UserIdentifier": "user_identifier"
+  },
+  {
+    "DEPRECATED_UnorderedList": "UnorderedList",
+    "DEPRECATED_ListItem": "ListItem",
+    "UnorderedList": "unordered_list",
+    "ListItem": "list_item"
+  },
+  {
+    "Normal": "Normal",
+    "Bold": "Bold"
+  },
+  {
+    "Small": "Small",
+    "Normal": "Normal",
+    "Large": "Large",
+    "XLarge": "XLarge",
+    "Jumbo": "Jumbo"
+  },
+  {
+    "Qr": "qr",
+    "Text": "text"
+  },
+  {
+    "Avatar": "avatar",
+    "Banner": "banner"
+  },
+  {
+    "Success": "success",
+    "NotFound": "not_found",
+    "Error": "error"
+  },
+  {
+    "Favorite": "favorite",
+    "Follow": "follow",
+    "Reply": "reply",
+    "Retweet": "retweet"
+  },
+  {
+    "Checkbox": "checkbox",
+    "Follow": "follow"
+  },
+  {
+    "Tile": "tile",
+    "List": "list",
+    "TileFollowButton": "tile_follow_btn"
+  },
+  {
+    "Always": "always",
+    "Never": "never",
+    "Preprompt": "preprompt"
+  },
+  {
+    "Email": "email",
+    "Number": "number",
+    "Password": "password",
+    "Telephone": "telephone",
+    "Text": "text"
+  },
+  {
+    "ResendSms": "resend_sms",
+    "ResendVoice": "resend_voice",
+    "ResendEmail": "resend_email"
+  },
+  {
+    "Password": "password",
+    "NewPassword": "new_password",
+    "Text": "text"
+  },
+  {
+    "Normal": "normal",
+    "Compact": "compact"
+  },
+  {
+    "Username": "username",
+    "Password": "password",
+    "NewPassword": "new_password",
+    "Text": "text"
+  },
+  {
+    "Mismatch": "mismatch"
+  },
+  {
+    "compact": "compact",
+    "stacked": "stacked"
+  },
+  {
+    "Fixed": "fixed",
+    "Floating": "floating",
+    "FloatingLarge": "floating_large"
+  },
+  {
+    "Default": "default",
+    "GoogleSSO": "google_sso",
+    "AppleSSO": "apple_sso"
+  },
+  {
+    "Impression": "impression",
+    "Click": "click"
+  },
+  {
+    "HeaderTitle": "header_title",
+    "HeaderSubtitle": "header_subtitle",
+    "SectionTitle": "section_title",
+    "Detail": "detail"
+  },
+  {
+    "All": "all",
+    "Users": "users",
+    "Topics": "topics",
+    "Events": "events"
+  },
+  {
     "ON_LINGER": "onLinger",
     "ON_IS_RELEVANT": "onIsRelevant",
     "ON_SHOW_MORE": "onShowMore",
@@ -13089,9 +13892,300 @@
     "ON_FOLLOW": "onFollow"
   },
   {
+    "REQUEST": "rweb/ocf/FETCH_REQUEST",
+    "SUCCESS": "rweb/ocf/FETCH_SUCCESS",
+    "FAILURE": "rweb/ocf/FETCH_FAILURE"
+  },
+  {
+    "REQUEST": "rweb/ocf/START_REQUEST",
+    "SUCCESS": "rweb/ocf/START_SUCCESS",
+    "FAILURE": "rweb/ocf/START_FAILURE"
+  },
+  {
+    "REQUEST": "rweb/ocf/VERIFY_IDENTIFIER_REQUEST",
+    "SUCCESS": "rweb/ocf/VERIFY_IDENTIFIER_SUCCESS",
+    "FAILURE": "rweb/ocf/VERIFY_IDENTIFIER_FAILURE"
+  },
+  {
+    "REQUEST": "rweb/ocf/FETCH_BROWSABLE_NUX_RECOMMENDATIONS_REQUEST",
+    "SUCCESS": "rweb/ocf/FETCH_BROWSABLE_NUX_RECOMMENDATIONS_SUCCESS",
+    "FAILURE": "rweb/ocf/FETCH_BROWSABLE_NUX_RECOMMENDATIONS_FAILURE"
+  },
+  {
     "REQUEST": "rweb/promotedContent/LOG_REQUEST",
     "SUCCESS": "rweb/promotedContent/LOG_SUCCESS",
     "FAILURE": "rweb/promotedContent/LOG_FAILURE"
+  },
+  {
+    "Abort": "abort",
+    "ChromelessWeb": "chromeless_web_link",
+    "Deeplink": "deep_link",
+    "DeeplinkAndAbort": "deep_link_and_abort",
+    "DeeplinkInPlace": "deep_link_in_place",
+    "Finish": "finish",
+    "Subtask": "subtask",
+    "Task": "task",
+    "Web": "web_link",
+    "WeblinkAndAbort": "web_link_and_abort"
+  },
+  {
+    "Allow": "allow",
+    "CancelFlow": "cancel_flow",
+    "HideExplicitCta": "hide_explicit_cta",
+    "Disallow": "disallow"
+  },
+  {
+    "Default": "default",
+    "BulletList": "bullet_list"
+  },
+  {
+    "DestructiveSecondary": "destructive_secondary",
+    "Primary": "primary",
+    "Secondary": "secondary",
+    "Text": "text",
+    "Brand": "brand",
+    "TwitterBrand": "twitter_brand"
+  },
+  {
+    "Small": "small",
+    "NormalCompact": "normal_compact",
+    "Normal": "normal",
+    "LargeCompact": "large_compact",
+    "Large": "large"
+  },
+  {
+    "CheckmarkAndClose": "checkmark",
+    "Text": "text",
+    "ThumbsUpAndDown": "thumbs"
+  },
+  {
+    "Toolbar": "toolbar"
+  },
+  {
+    "Scrollable": "scrollable",
+    "Centered": "centered",
+    "CenteredHeader": "centered_header",
+    "HalfCover": "half_cover"
+  },
+  {
+    "Success": "success",
+    "Failure": "failure",
+    "Cancel": "cancel"
+  },
+  {
+    "Icon": "icon",
+    "FullWidth": "full_width",
+    "FullBleedTop": "full_bleed_top"
+  },
+  {
+    "PhoneOnly": "phone_only",
+    "EmailOnly": "email_only",
+    "PhoneThenEmail": "phone_then_email",
+    "EmailThenPhone": "email_then_phone"
+  },
+  {
+    "ActionList": "ACTION_LIST",
+    "AlertDialog": "ALERT_DIALOG",
+    "AlertDialogSupressClientEvents": "ALERT_DIALOG_SUPRESS_CLIENT_EVENTS",
+    "AppDownloadCTA": "APP_DOWNLOAD_CTA",
+    "AppLocaleUpdate": "APP_LOCALE_UPDATE",
+    "BrowsableNux": "BROWSABLE_NUX",
+    "CallToAction": "CALL_TO_ACTION",
+    "CheckLoggedInAccount": "CHECK_LOGGED_IN_ACCOUNT",
+    "ChoiceSelection": "CHOICE_SELECTION",
+    "ContactsLiveSyncPermissionPrompt": "CONTACTS_LIVE_SYNC_PERMISSION_PROMPT",
+    "EmailContactsSync": "EMAIL_CONTACTS_SYNC",
+    "EmailVerification": "EMAIL_VERIFICATION",
+    "EndFlow": "END_FLOW",
+    "EnterDate": "ENTER_DATE",
+    "EnterEmail": "ENTER_EMAIL",
+    "EnterPassword": "ENTER_PASSWORD",
+    "EnterPhone": "ENTER_PHONE",
+    "EnterRecaptcha": "ENTER_RECAPTCHA",
+    "EnterText": "ENTER_TEXT",
+    "EnterUsername": "ENTER_USERNAME",
+    "FetchPassword": "FETCH_PASSWORD",
+    "GenericURT": "GENERIC_URT",
+    "InAppNotification": "IN_APP_NOTIFICATION",
+    "InterestPicker": "INTEREST_PICKER",
+    "JsInstrumentation": "JS_INSTRUMENTATION",
+    "MenuDialog": "MENU_DIALOG",
+    "NotificationsPermissionPrompt": "NOTIFICATIONS_PERMISSION_PROMPT",
+    "OpenAccount": "OPEN_ACCOUNT",
+    "OpenHomeTimeline": "OPEN_HOME_TIMELINE",
+    "OpenLink": "OPEN_LINK",
+    "Passkey": "PASSKEY",
+    "PhoneVerification": "PHONE_VERIFICATION",
+    "PrivacyOptions": "PRIVACY_OPTIONS",
+    "Recaptcha": "RECAPTCHA",
+    "SecurityKey": "SECURITY_KEY",
+    "SelectAvatar": "SELECT_AVATAR",
+    "SelectBanner": "SELECT_BANNER",
+    "SettingsList": "SETTINGS_LIST",
+    "ShowCode": "SHOW_CODE",
+    "Signup": "SIGNUP",
+    "SignupReview": "SIGNUP_REVIEW",
+    "TopicsSelector": "TOPICS_SELECTOR",
+    "TweetSelectionURT": "TWEET_SELECTION_URT",
+    "TypeaheadSearch": "TYPEAHEAD_SEARCH",
+    "UpdateUsers": "UPDATE_USERS",
+    "UploadMedia": "UPLOAD_MEDIA",
+    "UserRecommendations": "USER_RECOMMENDATIONS_LIST",
+    "UserRecommendationsURT": "USER_RECOMMENDATIONS_URT",
+    "WaitSpinner": "WAIT_SPINNER",
+    "WebModal": "WEB_MODAL"
+  },
+  {
+    "Centered": "centered",
+    "Left": "left"
+  },
+  {
+    "Action": "action",
+    "Boolean": "boolean",
+    "DestructiveAction": "destructive_action",
+    "PreciseLocation": "precise_location",
+    "SettingsGroup": "settings_group",
+    "StaticText": "static_text",
+    "Separator": "separator",
+    "TextField": "text_field",
+    "Button": "button",
+    "Tweet": "tweet"
+  },
+  {
+    "AppleSSOButton": "apple_sso_button",
+    "GoogleSSOButton": "google_sso_button",
+    "NextButton": "next_button",
+    "UserIdentifier": "user_identifier"
+  },
+  {
+    "DEPRECATED_UnorderedList": "UnorderedList",
+    "DEPRECATED_ListItem": "ListItem",
+    "UnorderedList": "unordered_list",
+    "ListItem": "list_item"
+  },
+  {
+    "Normal": "Normal",
+    "Bold": "Bold"
+  },
+  {
+    "Small": "Small",
+    "Normal": "Normal",
+    "Large": "Large",
+    "XLarge": "XLarge",
+    "Jumbo": "Jumbo"
+  },
+  {
+    "Qr": "qr",
+    "Text": "text"
+  },
+  {
+    "Avatar": "avatar",
+    "Banner": "banner"
+  },
+  {
+    "Success": "success",
+    "NotFound": "not_found",
+    "Error": "error"
+  },
+  {
+    "Favorite": "favorite",
+    "Follow": "follow",
+    "Reply": "reply",
+    "Retweet": "retweet"
+  },
+  {
+    "Checkbox": "checkbox",
+    "Follow": "follow"
+  },
+  {
+    "Tile": "tile",
+    "List": "list",
+    "TileFollowButton": "tile_follow_btn"
+  },
+  {
+    "Always": "always",
+    "Never": "never",
+    "Preprompt": "preprompt"
+  },
+  {
+    "Email": "email",
+    "Number": "number",
+    "Password": "password",
+    "Telephone": "telephone",
+    "Text": "text"
+  },
+  {
+    "ResendSms": "resend_sms",
+    "ResendVoice": "resend_voice",
+    "ResendEmail": "resend_email"
+  },
+  {
+    "Password": "password",
+    "NewPassword": "new_password",
+    "Text": "text"
+  },
+  {
+    "Normal": "normal",
+    "Compact": "compact"
+  },
+  {
+    "Username": "username",
+    "Password": "password",
+    "NewPassword": "new_password",
+    "Text": "text"
+  },
+  {
+    "Mismatch": "mismatch"
+  },
+  {
+    "compact": "compact",
+    "stacked": "stacked"
+  },
+  {
+    "Fixed": "fixed",
+    "Floating": "floating",
+    "FloatingLarge": "floating_large"
+  },
+  {
+    "Default": "default",
+    "GoogleSSO": "google_sso",
+    "AppleSSO": "apple_sso"
+  },
+  {
+    "Impression": "impression",
+    "Click": "click"
+  },
+  {
+    "HeaderTitle": "header_title",
+    "HeaderSubtitle": "header_subtitle",
+    "SectionTitle": "section_title",
+    "Detail": "detail"
+  },
+  {
+    "All": "all",
+    "Users": "users",
+    "Topics": "topics",
+    "Events": "events"
+  },
+  {
+    "REQUEST": "rweb/ocf/FETCH_REQUEST",
+    "SUCCESS": "rweb/ocf/FETCH_SUCCESS",
+    "FAILURE": "rweb/ocf/FETCH_FAILURE"
+  },
+  {
+    "REQUEST": "rweb/ocf/START_REQUEST",
+    "SUCCESS": "rweb/ocf/START_SUCCESS",
+    "FAILURE": "rweb/ocf/START_FAILURE"
+  },
+  {
+    "REQUEST": "rweb/ocf/VERIFY_IDENTIFIER_REQUEST",
+    "SUCCESS": "rweb/ocf/VERIFY_IDENTIFIER_SUCCESS",
+    "FAILURE": "rweb/ocf/VERIFY_IDENTIFIER_FAILURE"
+  },
+  {
+    "REQUEST": "rweb/ocf/FETCH_BROWSABLE_NUX_RECOMMENDATIONS_REQUEST",
+    "SUCCESS": "rweb/ocf/FETCH_BROWSABLE_NUX_RECOMMENDATIONS_SUCCESS",
+    "FAILURE": "rweb/ocf/FETCH_BROWSABLE_NUX_RECOMMENDATIONS_FAILURE"
   },
   {
     "NEW": "NEW",
