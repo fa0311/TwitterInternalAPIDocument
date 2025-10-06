@@ -7523,7 +7523,7 @@
           "value": "true"
         },
         "xchat_catch_coroutine_exceptions": {
-          "value": "false"
+          "value": "true"
         },
         "xchat_conversation_event_limit": {
           "value": "200"
@@ -7637,10 +7637,10 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "e27a38d99b963246396addae99628a22"
+      "settingsVersion": "c0314e85cf0fdb50e1968a3057b70256"
     },
     "debug": {},
-    "featureSetToken": "12d9555074b13ac724a49fd7a1a76fb9a96a74ec",
+    "featureSetToken": "c82c6afa14827b55473885c9e1c8bd706f00c454",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -7709,7 +7709,7 @@
   },
   "session": {
     "country": "XX",
-    "guestId": "175969814944634107",
+    "guestId": "175978468935182570",
     "hasCommunityMemberships": "false",
     "isActiveCreator": "false",
     "isLoaded": "false",
