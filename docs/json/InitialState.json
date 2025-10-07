@@ -1690,9 +1690,6 @@
       "responsive_web_exodus_enabled": {
         "value": "false"
       },
-      "responsive_web_explorer_ads_enabled": {
-        "value": "true"
-      },
       "responsive_web_extension_compatibility_hide": {
         "value": "false"
       },
@@ -1842,6 +1839,9 @@
       },
       "responsive_web_grok_imggen_count": {
         "value": "4"
+      },
+      "responsive_web_grok_latest_news_preset_enabled": {
+        "value": "false"
       },
       "responsive_web_grok_location_enabled": {
         "value": "true"
@@ -3787,7 +3787,7 @@
         "value": "false"
       },
       "xchat_enable_local_pagination": {
-        "value": "true"
+        "value": "false"
       },
       "xchat_enable_media_conv_info": {
         "value": "false"
@@ -5456,9 +5456,6 @@
         "responsive_web_exodus_enabled": {
           "value": "false"
         },
-        "responsive_web_explorer_ads_enabled": {
-          "value": "true"
-        },
         "responsive_web_extension_compatibility_hide": {
           "value": "false"
         },
@@ -5608,6 +5605,9 @@
         },
         "responsive_web_grok_imggen_count": {
           "value": "4"
+        },
+        "responsive_web_grok_latest_news_preset_enabled": {
+          "value": "false"
         },
         "responsive_web_grok_location_enabled": {
           "value": "true"
@@ -7523,7 +7523,7 @@
           "value": "true"
         },
         "xchat_catch_coroutine_exceptions": {
-          "value": "false"
+          "value": "true"
         },
         "xchat_conversation_event_limit": {
           "value": "200"
@@ -7553,7 +7553,7 @@
           "value": "false"
         },
         "xchat_enable_local_pagination": {
-          "value": "true"
+          "value": "false"
         },
         "xchat_enable_media_conv_info": {
           "value": "false"
@@ -7637,10 +7637,10 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "e27a38d99b963246396addae99628a22"
+      "settingsVersion": "c0314e85cf0fdb50e1968a3057b70256"
     },
     "debug": {},
-    "featureSetToken": "2ed364ff277592ed027985633a43a67fb8517a89",
+    "featureSetToken": "c82c6afa14827b55473885c9e1c8bd706f00c454",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -7709,7 +7709,7 @@
   },
   "session": {
     "country": "XX",
-    "guestId": "175943891910571432",
+    "guestId": "175978451667505159",
     "hasCommunityMemberships": "false",
     "isActiveCreator": "false",
     "isLoaded": "false",

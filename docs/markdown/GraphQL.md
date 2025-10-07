@@ -8230,7 +8230,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## Retweeters<br>
-Request URL: `https://x.com/i/api/graphql/pORrqerSnuFMTRxQ-YRPLA/Retweeters`<br>
+Request URL: `https://x.com/i/api/graphql/8BISv0soXuDqkLdnpHc9_w/Retweeters`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -8371,7 +8371,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## Retweeters<br>
-Request URL: `https://x.com/i/api/graphql/pORrqerSnuFMTRxQ-YRPLA/Retweeters`<br>
+Request URL: `https://x.com/i/api/graphql/8BISv0soXuDqkLdnpHc9_w/Retweeters`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>

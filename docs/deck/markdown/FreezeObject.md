@@ -102,24 +102,6 @@ This document is entirely auto-generated and may contain errors.<br>
 | Unused6    | _Unused6   |
 | Unused7    | _Unused7   |
 
-```internal process
-# Error
-{"__proto__":"null","DEG2RAD":"at","RAD2DEG":"ot","generateUUID":"lt","clamp":"ct","euclideanModulo":"ht","mapLinear":"function()"{return n+()*(t-e)/(s-n)},"inverseLerp":"function()"{return t!==e?()/(i-t):"0"},"lerp":"ut","damp":"function()"{"return ut()"},"pingpong":"function()"{return e-Math.abs()...
-```
-```internal process
-# Error
-{"__proto__":"null","ArcCurve":"Na","CatmullRomCurve3":"za","CubicBezierCurve":"qa","CubicBezierCurve3":"ja","EllipseCurve":"Pa","LineCurve":"Ya","LineCurve3":"class extends Ra"{"constructor()"{"super()",this.type="LineCurve3",this.isLineCurve3=!0,this.v1=t,"this.v2=e"}"getPoint()"{const i=e;return ...
-```
-| constant   | value   |
-|:-----------|:--------|
-| type       | number  |
-| number     | 0       |
-| unit       | null    |
-
-```internal process
-# Error
-{"minimumRadius":"0","maximumRadius":1/0,"minimumPolarAngle":Math.PI/8,"maximumPolarAngle":Math.PI-Math.PI/8,"minimumAzimuthalAngle":-1/0,"maximumAzimuthalAngle":1/0,"minimumFieldOfView":"10","maximumFieldOfView":"45","interactionPolicy":"always-allow","touchAction":"pan-y"}
-```
 | constant         | value           |
 |:-----------------|:----------------|
 | LIVE_BROADCAST   | liveBroadcast   |

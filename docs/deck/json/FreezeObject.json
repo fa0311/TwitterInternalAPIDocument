@@ -80,14 +80,6 @@
     "Unused6": "_Unused6",
     "Unused7": "_Unused7"
   },
-  "{\"__proto__\":\"null\",\"DEG2RAD\":\"at\",\"RAD2DEG\":\"ot\",\"generateUUID\":\"lt\",\"clamp\":\"ct\",\"euclideanModulo\":\"ht\",\"mapLinear\":\"function()\"{return n+()*(t-e)/(s-n)},\"inverseLerp\":\"function()\"{return t!==e?()/(i-t):\"0\"},\"lerp\":\"ut\",\"damp\":\"function()\"{\"return ut()\"},\"pingpong\":\"function()\"{return e-Math.abs()},\"smoothstep\":\"function()\"{return t<=e?0:t>=i?1:()*t*(t=t-e/i-e)},\"smootherstep\":\"function()\"{return t<=e?0:t>=i?1:()*t*t*(t=t-e/i-e)},\"randInt\":\"function()\"{return t+Math.floor()},\"randFloat\":\"function()\"{return t+Math.random()*()},\"randFloatSpread\":\"function()\"{return t*()},\"seededRandom\":\"function()\"{\"return void 0!==t&&()\",rt=16807*rt%2147483647,(rt=t%2147483647)/2147483646},\"degToRad\":\"function()\"{return t*at},\"radToDeg\":\"function()\"{return t*ot},\"isPowerOfTwo\":\"dt\",\"ceilPowerOfTwo\":\"pt\",\"floorPowerOfTwo\":\"At\",\"setQuaternionFromProperEuler\":\"function()\"{\"const r=Math.cos\",a=Math.sin,o=r(),l=a(i/2),c=r(i/2),h=a(e+n/2),u=r(e+n/2),d=a(e-n/2),p=r(e-n/2),A=a(n-e/2);switch(n-e/2){case\"XYX\":t.set();break;case\"YZY\":t.set(o*h,l*u,l*d,o*c);break;case\"ZXZ\":t.set(l*d,o*h,l*u,o*c);break;case\"XZX\":t.set(l*u,l*d,o*h,o*c);break;case\"YXY\":t.set(o*h,l*A,l*p,o*c);break;case\"ZYZ\":\"t.set(l*p,o*h,l*A,o*c)\"}}}",
-  "{\"__proto__\":\"null\",\"ArcCurve\":\"Na\",\"CatmullRomCurve3\":\"za\",\"CubicBezierCurve\":\"qa\",\"CubicBezierCurve3\":\"ja\",\"EllipseCurve\":\"Pa\",\"LineCurve\":\"Ya\",\"LineCurve3\":\"class extends Ra\"{\"constructor()\"{\"super()\",this.type=\"LineCurve3\",this.isLineCurve3=!0,this.v1=t,\"this.v2=e\"}\"getPoint()\"{const i=e;return 1===t?i.copy():\"(this.v2)\",\"i\"}\"getPointAt()\"{\"return this.getPoint()\"}\"copy()\"{\"return super.copy()\",this.v1.copy(t),this.v2.copy(t.v1),\"this\"}\"toJSON()\"{const t=super.toJSON();return t.v1=this.v1.toArray(),t.v2=this.v2.toArray(),\"t\"}\"fromJSON()\"{\"return super.fromJSON()\",this.v1.fromArray(t),this.v2.fromArray(t.v1),\"this\"}},\"QuadraticBezierCurve\":\"Ja\",\"QuadraticBezierCurve3\":\"Xa\",\"SplineCurve\":\"Ka\"}",
-  {
-    "type": "number",
-    "number": "0",
-    "unit": "null"
-  },
-  "{\"minimumRadius\":\"0\",\"maximumRadius\":1/0,\"minimumPolarAngle\":Math.PI/8,\"maximumPolarAngle\":Math.PI-Math.PI/8,\"minimumAzimuthalAngle\":-1/0,\"maximumAzimuthalAngle\":1/0,\"minimumFieldOfView\":\"10\",\"maximumFieldOfView\":\"45\",\"interactionPolicy\":\"always-allow\",\"touchAction\":\"pan-y\"}",
   {
     "LIVE_BROADCAST": "liveBroadcast",
     "REPLAY_BROADCAST": "replayBroadcast",
