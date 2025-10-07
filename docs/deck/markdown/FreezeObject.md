@@ -5,22 +5,6 @@ This document is entirely auto-generated and may contain errors.<br>
 | navButtons   | navigationButtons |
 | carouselRoot | carouselRoot      |
 
-| constant         | value           |
-|:-----------------|:----------------|
-| LIVE_BROADCAST   | liveBroadcast   |
-| REPLAY_BROADCAST | replayBroadcast |
-| VOD              | vod             |
-| GIF              | gif             |
-| SLATE            | slate           |
-
-| constant         | value                                 |
-|:-----------------|:--------------------------------------|
-| A11YHook         | VideoPlayerDefaultUI-A11YHook         |
-| ControlBar       | VideoPlayerDefaultUI-ControlBar       |
-| HashtagHighlight | VideoPlayerDefaultUI-HashtagHighlight |
-| Root             | VideoPlayerDefaultUI-Root             |
-| VideoCTA         | VideoPlayerDefaultUI-VideoCTA         |
-
 | constant   | value      |
 |:-----------|:-----------|
 | wide       | wide       |
