@@ -7065,3 +7065,20 @@
 - responsive_web_grok_latest_news_preset_enabled<br>
 #### remove<br>
 - None<br>
+## 2025/10/07<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- articleNudgeDomains<br>
+### Feature Switch<br>
+#### add<br>
+- responsive_web_ssr_send_likes_in_title_enabled<br>
+- rweb_premium_business_rebranding_enabled<br>
+- rweb_premium_business_rebranding_entry_point_removed<br>
+- rweb_premium_business_rebranding_landing_page_enabled<br>
+- rweb_premium_business_rebranding_premium_paywall_enabled<br>
+- rweb_premium_business_rebranding_url_enabled<br>
+- subscriptions_upsells_vo_premium_business_rebranding_variant<br>
+#### remove<br>
+- responsive_web_article_nudge_enabled<br>

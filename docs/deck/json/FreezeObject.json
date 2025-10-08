@@ -4,20 +4,6 @@
     "carouselRoot": "carouselRoot"
   },
   {
-    "LIVE_BROADCAST": "liveBroadcast",
-    "REPLAY_BROADCAST": "replayBroadcast",
-    "VOD": "vod",
-    "GIF": "gif",
-    "SLATE": "slate"
-  },
-  {
-    "A11YHook": "VideoPlayerDefaultUI-A11YHook",
-    "ControlBar": "VideoPlayerDefaultUI-ControlBar",
-    "HashtagHighlight": "VideoPlayerDefaultUI-HashtagHighlight",
-    "Root": "VideoPlayerDefaultUI-Root",
-    "VideoCTA": "VideoPlayerDefaultUI-VideoCTA"
-  },
-  {
     "wide": "wide",
     "narrow": "narrow",
     "veryNarrow": "veryNarrow"
