@@ -1841,7 +1841,7 @@
         "value": "4"
       },
       "responsive_web_grok_latest_news_preset_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "responsive_web_grok_location_enabled": {
         "value": "true"
@@ -2630,6 +2630,9 @@
         "value": "true"
       },
       "rweb_premium_business_rebranding_entry_point_removed": {
+        "value": "true"
+      },
+      "rweb_premium_business_rebranding_governments_enabled": {
         "value": "true"
       },
       "rweb_premium_business_rebranding_landing_page_enabled": {
@@ -3793,7 +3796,7 @@
         "value": "true"
       },
       "xchat_emit_while_pulling": {
-        "value": "false"
+        "value": "true"
       },
       "xchat_enable_av": {
         "value": "false"
@@ -5631,13 +5634,13 @@
           "value": "4"
         },
         "responsive_web_grok_latest_news_preset_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "responsive_web_grok_location_enabled": {
           "value": "true"
         },
         "responsive_web_grok_outage_banner_message": {
-          "value": ""
+          "value": "We are experiencing issues with Grok at the moment. Grok may be unable to reply."
         },
         "responsive_web_grok_personality": {
           "value": "true"
@@ -6511,6 +6514,9 @@
         },
         "rweb_xchat_old_dms_inbox_item": {
           "value": "true"
+        },
+        "rweb_xchat_profile_redirect_enabled": {
+          "value": "false"
         },
         "rweb_xp_forwarded_for_enabled": {
           "value": "true"
@@ -7586,7 +7592,7 @@
           "value": "true"
         },
         "xchat_emit_while_pulling": {
-          "value": "false"
+          "value": "true"
         },
         "xchat_enable_av": {
           "value": "false"
@@ -7688,10 +7694,10 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "f78c71f8b80e99a7d56229ec1af621a0"
+      "settingsVersion": "f8b8b2f32e2bad0c2086af6edfa2113f"
     },
     "debug": {},
-    "featureSetToken": "62b42c5189dcdffaefb946be6d02cc0939835f0d",
+    "featureSetToken": "3e40bb64285adb690a989532e53e78eee808e796",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -7760,7 +7766,7 @@
   },
   "session": {
     "country": "XX",
-    "guestId": "175995731265546050",
+    "guestId": "176004372254182120",
     "hasCommunityMemberships": "false",
     "isActiveCreator": "false",
     "isLoaded": "false",
