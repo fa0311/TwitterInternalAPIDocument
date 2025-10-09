@@ -6052,3 +6052,14 @@
 - rweb_premium_business_rebranding_governments_enabled<br>
 #### remove<br>
 - None<br>
+## 2025/10/09<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- rweb_xchat_profile_redirect_enabled<br>
+#### remove<br>
+- None<br>
