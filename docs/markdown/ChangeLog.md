@@ -7082,3 +7082,16 @@
 - subscriptions_upsells_vo_premium_business_rebranding_variant<br>
 #### remove<br>
 - responsive_web_article_nudge_enabled<br>
+## 2025/10/08<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- payments_lock_unlock_individual_cards_enabled<br>
+- subscriptions_features_syscache_read<br>
+- rweb_premium_business_rebranding_governments_enabled<br>
+#### remove<br>
+- None<br>

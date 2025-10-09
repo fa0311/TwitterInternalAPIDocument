@@ -5,11 +5,21 @@ This document is entirely auto-generated and may contain errors.<br>
 | navButtons   | navigationButtons |
 | carouselRoot | carouselRoot      |
 
-| constant   | value      |
-|:-----------|:-----------|
-| wide       | wide       |
-| narrow     | narrow     |
-| veryNarrow | veryNarrow |
+| constant         | value           |
+|:-----------------|:----------------|
+| LIVE_BROADCAST   | liveBroadcast   |
+| REPLAY_BROADCAST | replayBroadcast |
+| VOD              | vod             |
+| GIF              | gif             |
+| SLATE            | slate           |
+
+| constant         | value                                 |
+|:-----------------|:--------------------------------------|
+| A11YHook         | VideoPlayerDefaultUI-A11YHook         |
+| ControlBar       | VideoPlayerDefaultUI-ControlBar       |
+| HashtagHighlight | VideoPlayerDefaultUI-HashtagHighlight |
+| Root             | VideoPlayerDefaultUI-Root             |
+| VideoCTA         | VideoPlayerDefaultUI-VideoCTA         |
 
 ```internal process
 # Error
