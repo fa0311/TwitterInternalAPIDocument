@@ -1399,6 +1399,9 @@
       "responsive_web_account_analytics_timeseries_enabled": {
         "value": "true"
       },
+      "responsive_web_ad_revenue_sharing_dashboard_redirect_enabled": {
+        "value": "false"
+      },
       "responsive_web_ad_revenue_sharing_enabled": {
         "value": "true"
       },
@@ -2267,7 +2270,7 @@
         "value": "true"
       },
       "responsive_web_ssr_send_likes_in_title_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "responsive_web_stripe_account_creation_enabled": {
         "value": "true"
@@ -2721,6 +2724,9 @@
       },
       "rweb_xchat_old_dms_inbox_item": {
         "value": "true"
+      },
+      "rweb_xchat_profile_redirect_enabled": {
+        "value": "false"
       },
       "rweb_xp_forwarded_for_enabled": {
         "value": "false"
@@ -5192,6 +5198,9 @@
         "responsive_web_account_analytics_timeseries_enabled": {
           "value": "true"
         },
+        "responsive_web_ad_revenue_sharing_dashboard_redirect_enabled": {
+          "value": "false"
+        },
         "responsive_web_ad_revenue_sharing_enabled": {
           "value": "true"
         },
@@ -5640,7 +5649,7 @@
           "value": "true"
         },
         "responsive_web_grok_outage_banner_message": {
-          "value": "We are experiencing issues with Grok at the moment. Grok may be unable to reply."
+          "value": ""
         },
         "responsive_web_grok_personality": {
           "value": "true"
@@ -6060,7 +6069,7 @@
           "value": "true"
         },
         "responsive_web_ssr_send_likes_in_title_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "responsive_web_stripe_account_creation_enabled": {
           "value": "true"
@@ -7694,10 +7703,10 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "f8b8b2f32e2bad0c2086af6edfa2113f"
+      "settingsVersion": "e27a38d99b963246396addae99628a22"
     },
     "debug": {},
-    "featureSetToken": "3e40bb64285adb690a989532e53e78eee808e796",
+    "featureSetToken": "0c5bf6769e76e3b3db29c6e01f18381d767e8250",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -7766,7 +7775,7 @@
   },
   "session": {
     "country": "XX",
-    "guestId": "176004372254182120",
+    "guestId": "176013012018457751",
     "hasCommunityMemberships": "false",
     "isActiveCreator": "false",
     "isLoaded": "false",
