@@ -7106,3 +7106,14 @@
 - rweb_xchat_profile_redirect_enabled<br>
 #### remove<br>
 - None<br>
+## 2025/10/10<br>
+### API<br>
+#### add<br>
+- GetUsernameAvailabilityAndSuggestions<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- responsive_web_ad_revenue_sharing_dashboard_redirect_enabled<br>
+#### remove<br>
+- None<br>
