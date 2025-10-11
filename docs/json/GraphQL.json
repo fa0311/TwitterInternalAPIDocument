@@ -2678,6 +2678,19 @@
     }
   },
   {
+    "n": "70759",
+    "exports": {
+      "queryId": "1bMz-9lPrmIXrhFmXntTHw",
+      "operationName": "GetUsernameAvailabilityAndSuggestions",
+      "operationType": "mutation",
+      "metadata": {
+        "featureSwitches": [],
+        "fieldToggles": [],
+        "featureSwitch": {}
+      }
+    }
+  },
+  {
     "n": "31083",
     "exports": {
       "queryId": "yzxiYh-mKDqMNultbUje-w",

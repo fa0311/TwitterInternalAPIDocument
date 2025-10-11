@@ -1027,6 +1027,17 @@ Login Required: `...`<br>
 
 #### queryId<br>
 `None`<br>
+## GetUsernameAvailabilityAndSuggestions<br>
+Request URL: `https://x.com/i/api/graphql/1bMz-9lPrmIXrhFmXntTHw/GetUsernameAvailabilityAndSuggestions`<br>
+Request Method: `POST`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
 ## GlobalCommunitiesLatestPostSearchTimeline<br>
 Request URL: `https://x.com/i/api/graphql/yzxiYh-mKDqMNultbUje-w/GlobalCommunitiesLatestPostSearchTimeline`<br>
 Request Method: `GET`<br>
