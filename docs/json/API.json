@@ -758,6 +758,12 @@
         "responsive_web_enhance_cards_enabled": false
       }
     },
+    "GetUsernameAvailabilityAndSuggestions": {
+      "url": "https://x.com/i/api/graphql/1bMz-9lPrmIXrhFmXntTHw/GetUsernameAvailabilityAndSuggestions",
+      "queryId": "1bMz-9lPrmIXrhFmXntTHw",
+      "method": "POST",
+      "features": {}
+    },
     "GlobalCommunitiesLatestPostSearchTimeline": {
       "url": "https://x.com/i/api/graphql/yzxiYh-mKDqMNultbUje-w/GlobalCommunitiesLatestPostSearchTimeline",
       "queryId": "yzxiYh-mKDqMNultbUje-w",

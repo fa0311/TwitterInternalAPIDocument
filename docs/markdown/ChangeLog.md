@@ -7095,3 +7095,36 @@
 - rweb_premium_business_rebranding_governments_enabled<br>
 #### remove<br>
 - None<br>
+## 2025/10/09<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- rweb_xchat_profile_redirect_enabled<br>
+#### remove<br>
+- None<br>
+## 2025/10/10<br>
+### API<br>
+#### add<br>
+- GetUsernameAvailabilityAndSuggestions<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- responsive_web_ad_revenue_sharing_dashboard_redirect_enabled<br>
+#### remove<br>
+- None<br>
+## 2025/10/11<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- rweb_premium_business_rebranding_premium_paywall_four_cards_enabled<br>
+#### remove<br>
+- None<br>
