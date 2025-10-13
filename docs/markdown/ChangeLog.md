@@ -7128,3 +7128,24 @@
 - rweb_premium_business_rebranding_premium_paywall_four_cards_enabled<br>
 #### remove<br>
 - None<br>
+## 2025/10/13<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- subscriptions_features_syscache_write<br>
+- xchat_allow_legacy_media_uploads<br>
+- xchat_allow_legacy_message_requests<br>
+- xchat_inbox_conversation_hydrate_users<br>
+- xchat_inbox_conversation_local_pagination<br>
+- xchat_inbox_conversation_local_pagination_page_size<br>
+- xchat_max_users_to_fetch_per_request<br>
+- rweb_premium_business_rebranding_hiring_url_redirect_enabled<br>
+#### remove<br>
+- xchat_discard_events_with_invalid_signature<br>
+- xchat_sign_graphql_messages<br>
+- xchat_sign_messages<br>
+- xchat_verify_message_signatures<br>
