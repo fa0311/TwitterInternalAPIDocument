@@ -7149,3 +7149,14 @@
 - xchat_sign_graphql_messages<br>
 - xchat_sign_messages<br>
 - xchat_verify_message_signatures<br>
+## 2025/10/14<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- responsive_web_birdwatch_admitted_user_setting_enabled<br>
+#### remove<br>
+- None<br>
