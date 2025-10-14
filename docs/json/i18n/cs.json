@@ -6644,7 +6644,7 @@
   "ad10780e": "Příklad: happy hour · obsahuje přesnou frázi „happy hour“",
   "a555a3f4": "Aspoň jedno z těchto slov",
   "ee8a2b60": "Příklad: kočky psi · obsahuje slovo „kočky“ nebo „psi“ (nebo obojí)",
-  "f51fe348": "Nikdy z těchto slov",
+  "f51fe348": "Žádné z těchto slov",
   "hb657ad4": "Příklad: kočky psi · neobsahuje slovo „kočky“ a neobsahuje slovo „psi“",
   "d10da5da": "Tyto hashtagy",
   "f0b52b50": "Příklad: #ThrowbackThursday · obsahuje hashtag #ThrowbackThursday",
