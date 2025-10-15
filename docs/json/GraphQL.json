@@ -112,6 +112,9 @@
           "profile_label_improvements_pcf_label_in_post_enabled": {
             "value": "true"
           },
+          "responsive_web_profile_redirect_enabled": {
+            "value": "false"
+          },
           "rweb_tipjar_consumption_enabled": {
             "value": "true"
           },
@@ -269,6 +272,9 @@
           },
           "profile_label_improvements_pcf_label_in_post_enabled": {
             "value": "true"
+          },
+          "responsive_web_profile_redirect_enabled": {
+            "value": "false"
           },
           "rweb_tipjar_consumption_enabled": {
             "value": "true"
@@ -428,6 +434,9 @@
           "profile_label_improvements_pcf_label_in_post_enabled": {
             "value": "true"
           },
+          "responsive_web_profile_redirect_enabled": {
+            "value": "false"
+          },
           "rweb_tipjar_consumption_enabled": {
             "value": "true"
           },
@@ -585,6 +594,9 @@
           },
           "profile_label_improvements_pcf_label_in_post_enabled": {
             "value": "true"
+          },
+          "responsive_web_profile_redirect_enabled": {
+            "value": "false"
           },
           "rweb_tipjar_consumption_enabled": {
             "value": "true"
@@ -767,6 +779,9 @@
           "profile_label_improvements_pcf_label_in_post_enabled": {
             "value": "true"
           },
+          "responsive_web_profile_redirect_enabled": {
+            "value": "false"
+          },
           "rweb_tipjar_consumption_enabled": {
             "value": "true"
           },
@@ -939,6 +954,9 @@
           },
           "profile_label_improvements_pcf_label_in_post_enabled": {
             "value": "true"
+          },
+          "responsive_web_profile_redirect_enabled": {
+            "value": "false"
           },
           "rweb_tipjar_consumption_enabled": {
             "value": "true"
@@ -1199,6 +1217,9 @@
           "profile_label_improvements_pcf_label_in_post_enabled": {
             "value": "true"
           },
+          "responsive_web_profile_redirect_enabled": {
+            "value": "false"
+          },
           "rweb_tipjar_consumption_enabled": {
             "value": "true"
           },
@@ -1362,6 +1383,9 @@
           "profile_label_improvements_pcf_label_in_post_enabled": {
             "value": "true"
           },
+          "responsive_web_profile_redirect_enabled": {
+            "value": "false"
+          },
           "rweb_tipjar_consumption_enabled": {
             "value": "true"
           },
@@ -1462,6 +1486,9 @@
           },
           "profile_label_improvements_pcf_label_in_post_enabled": {
             "value": "true"
+          },
+          "responsive_web_profile_redirect_enabled": {
+            "value": "false"
           },
           "rweb_tipjar_consumption_enabled": {
             "value": "true"
@@ -1764,6 +1791,9 @@
           "profile_label_improvements_pcf_label_in_post_enabled": {
             "value": "true"
           },
+          "responsive_web_profile_redirect_enabled": {
+            "value": "false"
+          },
           "rweb_tipjar_consumption_enabled": {
             "value": "true"
           },
@@ -1921,6 +1951,9 @@
           },
           "profile_label_improvements_pcf_label_in_post_enabled": {
             "value": "true"
+          },
+          "responsive_web_profile_redirect_enabled": {
+            "value": "false"
           },
           "rweb_tipjar_consumption_enabled": {
             "value": "true"
@@ -2093,6 +2126,9 @@
           "profile_label_improvements_pcf_label_in_post_enabled": {
             "value": "true"
           },
+          "responsive_web_profile_redirect_enabled": {
+            "value": "false"
+          },
           "rweb_tipjar_consumption_enabled": {
             "value": "true"
           },
@@ -2251,6 +2287,9 @@
           "profile_label_improvements_pcf_label_in_post_enabled": {
             "value": "true"
           },
+          "responsive_web_profile_redirect_enabled": {
+            "value": "false"
+          },
           "rweb_tipjar_consumption_enabled": {
             "value": "true"
           },
@@ -2408,6 +2447,9 @@
           },
           "profile_label_improvements_pcf_label_in_post_enabled": {
             "value": "true"
+          },
+          "responsive_web_profile_redirect_enabled": {
+            "value": "false"
           },
           "rweb_tipjar_consumption_enabled": {
             "value": "true"
@@ -2580,6 +2622,9 @@
           "profile_label_improvements_pcf_label_in_post_enabled": {
             "value": "true"
           },
+          "responsive_web_profile_redirect_enabled": {
+            "value": "false"
+          },
           "rweb_tipjar_consumption_enabled": {
             "value": "true"
           },
@@ -2751,6 +2796,9 @@
           "profile_label_improvements_pcf_label_in_post_enabled": {
             "value": "true"
           },
+          "responsive_web_profile_redirect_enabled": {
+            "value": "false"
+          },
           "rweb_tipjar_consumption_enabled": {
             "value": "true"
           },
@@ -2908,6 +2956,9 @@
           },
           "profile_label_improvements_pcf_label_in_post_enabled": {
             "value": "true"
+          },
+          "responsive_web_profile_redirect_enabled": {
+            "value": "false"
           },
           "rweb_tipjar_consumption_enabled": {
             "value": "true"
@@ -3067,6 +3118,9 @@
           "profile_label_improvements_pcf_label_in_post_enabled": {
             "value": "true"
           },
+          "responsive_web_profile_redirect_enabled": {
+            "value": "false"
+          },
           "rweb_tipjar_consumption_enabled": {
             "value": "true"
           },
@@ -3224,6 +3278,9 @@
           },
           "profile_label_improvements_pcf_label_in_post_enabled": {
             "value": "true"
+          },
+          "responsive_web_profile_redirect_enabled": {
+            "value": "false"
           },
           "rweb_tipjar_consumption_enabled": {
             "value": "true"
@@ -3383,6 +3440,9 @@
           "profile_label_improvements_pcf_label_in_post_enabled": {
             "value": "true"
           },
+          "responsive_web_profile_redirect_enabled": {
+            "value": "false"
+          },
           "rweb_tipjar_consumption_enabled": {
             "value": "true"
           },
@@ -3541,6 +3601,9 @@
           "profile_label_improvements_pcf_label_in_post_enabled": {
             "value": "true"
           },
+          "responsive_web_profile_redirect_enabled": {
+            "value": "false"
+          },
           "rweb_tipjar_consumption_enabled": {
             "value": "true"
           },
@@ -3698,6 +3761,9 @@
           },
           "profile_label_improvements_pcf_label_in_post_enabled": {
             "value": "true"
+          },
+          "responsive_web_profile_redirect_enabled": {
+            "value": "false"
           },
           "rweb_tipjar_consumption_enabled": {
             "value": "true"
@@ -3870,6 +3936,9 @@
           "profile_label_improvements_pcf_label_in_post_enabled": {
             "value": "true"
           },
+          "responsive_web_profile_redirect_enabled": {
+            "value": "false"
+          },
           "rweb_tipjar_consumption_enabled": {
             "value": "true"
           },
@@ -4028,6 +4097,9 @@
           "profile_label_improvements_pcf_label_in_post_enabled": {
             "value": "true"
           },
+          "responsive_web_profile_redirect_enabled": {
+            "value": "false"
+          },
           "rweb_tipjar_consumption_enabled": {
             "value": "true"
           },
@@ -4172,6 +4244,9 @@
           "profile_label_improvements_pcf_label_in_post_enabled": {
             "value": "true"
           },
+          "responsive_web_profile_redirect_enabled": {
+            "value": "false"
+          },
           "rweb_tipjar_consumption_enabled": {
             "value": "true"
           },
@@ -4226,6 +4301,9 @@
           },
           "profile_label_improvements_pcf_label_in_post_enabled": {
             "value": "true"
+          },
+          "responsive_web_profile_redirect_enabled": {
+            "value": "false"
           },
           "rweb_tipjar_consumption_enabled": {
             "value": "true"
@@ -4342,6 +4420,9 @@
           },
           "profile_label_improvements_pcf_label_in_post_enabled": {
             "value": "true"
+          },
+          "responsive_web_profile_redirect_enabled": {
+            "value": "false"
           },
           "rweb_tipjar_consumption_enabled": {
             "value": "true"
@@ -4514,6 +4595,9 @@
           "profile_label_improvements_pcf_label_in_post_enabled": {
             "value": "true"
           },
+          "responsive_web_profile_redirect_enabled": {
+            "value": "false"
+          },
           "rweb_tipjar_consumption_enabled": {
             "value": "true"
           },
@@ -4671,6 +4755,9 @@
           },
           "profile_label_improvements_pcf_label_in_post_enabled": {
             "value": "true"
+          },
+          "responsive_web_profile_redirect_enabled": {
+            "value": "false"
           },
           "rweb_tipjar_consumption_enabled": {
             "value": "true"
@@ -4869,6 +4956,9 @@
           "profile_label_improvements_pcf_label_in_post_enabled": {
             "value": "true"
           },
+          "responsive_web_profile_redirect_enabled": {
+            "value": "false"
+          },
           "rweb_tipjar_consumption_enabled": {
             "value": "true"
           },
@@ -5052,6 +5142,9 @@
           },
           "profile_label_improvements_pcf_label_in_post_enabled": {
             "value": "true"
+          },
+          "responsive_web_profile_redirect_enabled": {
+            "value": "false"
           },
           "rweb_tipjar_consumption_enabled": {
             "value": "true"
@@ -5237,6 +5330,9 @@
           "profile_label_improvements_pcf_label_in_post_enabled": {
             "value": "true"
           },
+          "responsive_web_profile_redirect_enabled": {
+            "value": "false"
+          },
           "rweb_tipjar_consumption_enabled": {
             "value": "true"
           },
@@ -5394,6 +5490,9 @@
           },
           "profile_label_improvements_pcf_label_in_post_enabled": {
             "value": "true"
+          },
+          "responsive_web_profile_redirect_enabled": {
+            "value": "false"
           },
           "rweb_tipjar_consumption_enabled": {
             "value": "true"
@@ -5553,6 +5652,9 @@
           "profile_label_improvements_pcf_label_in_post_enabled": {
             "value": "true"
           },
+          "responsive_web_profile_redirect_enabled": {
+            "value": "false"
+          },
           "rweb_tipjar_consumption_enabled": {
             "value": "true"
           },
@@ -5710,6 +5812,9 @@
           },
           "profile_label_improvements_pcf_label_in_post_enabled": {
             "value": "true"
+          },
+          "responsive_web_profile_redirect_enabled": {
+            "value": "false"
           },
           "rweb_tipjar_consumption_enabled": {
             "value": "true"
@@ -5869,6 +5974,9 @@
           "profile_label_improvements_pcf_label_in_post_enabled": {
             "value": "true"
           },
+          "responsive_web_profile_redirect_enabled": {
+            "value": "false"
+          },
           "rweb_tipjar_consumption_enabled": {
             "value": "true"
           },
@@ -6027,6 +6135,9 @@
           "profile_label_improvements_pcf_label_in_post_enabled": {
             "value": "true"
           },
+          "responsive_web_profile_redirect_enabled": {
+            "value": "false"
+          },
           "rweb_tipjar_consumption_enabled": {
             "value": "true"
           },
@@ -6184,6 +6295,9 @@
           },
           "profile_label_improvements_pcf_label_in_post_enabled": {
             "value": "true"
+          },
+          "responsive_web_profile_redirect_enabled": {
+            "value": "false"
           },
           "rweb_tipjar_consumption_enabled": {
             "value": "true"
@@ -6408,6 +6522,9 @@
           "profile_label_improvements_pcf_label_in_post_enabled": {
             "value": "true"
           },
+          "responsive_web_profile_redirect_enabled": {
+            "value": "false"
+          },
           "rweb_tipjar_consumption_enabled": {
             "value": "true"
           },
@@ -6562,6 +6679,9 @@
           "profile_label_improvements_pcf_label_in_post_enabled": {
             "value": "true"
           },
+          "responsive_web_profile_redirect_enabled": {
+            "value": "false"
+          },
           "rweb_tipjar_consumption_enabled": {
             "value": "true"
           },
@@ -6654,6 +6774,9 @@
           },
           "profile_label_improvements_pcf_label_in_post_enabled": {
             "value": "true"
+          },
+          "responsive_web_profile_redirect_enabled": {
+            "value": "false"
           },
           "rweb_tipjar_consumption_enabled": {
             "value": "true"
@@ -6763,6 +6886,9 @@
           },
           "profile_label_improvements_pcf_label_in_post_enabled": {
             "value": "true"
+          },
+          "responsive_web_profile_redirect_enabled": {
+            "value": "false"
           },
           "rweb_tipjar_consumption_enabled": {
             "value": "true"
@@ -6922,6 +7048,9 @@
           "profile_label_improvements_pcf_label_in_post_enabled": {
             "value": "true"
           },
+          "responsive_web_profile_redirect_enabled": {
+            "value": "false"
+          },
           "rweb_tipjar_consumption_enabled": {
             "value": "true"
           },
@@ -7080,6 +7209,9 @@
           "profile_label_improvements_pcf_label_in_post_enabled": {
             "value": "true"
           },
+          "responsive_web_profile_redirect_enabled": {
+            "value": "false"
+          },
           "rweb_tipjar_consumption_enabled": {
             "value": "true"
           },
@@ -7211,6 +7343,9 @@
           "profile_label_improvements_pcf_label_in_post_enabled": {
             "value": "true"
           },
+          "responsive_web_profile_redirect_enabled": {
+            "value": "false"
+          },
           "rweb_tipjar_consumption_enabled": {
             "value": "true"
           },
@@ -7274,6 +7409,9 @@
           },
           "profile_label_improvements_pcf_label_in_post_enabled": {
             "value": "true"
+          },
+          "responsive_web_profile_redirect_enabled": {
+            "value": "false"
           },
           "rweb_tipjar_consumption_enabled": {
             "value": "true"
@@ -7382,6 +7520,9 @@
           },
           "profile_label_improvements_pcf_label_in_post_enabled": {
             "value": "true"
+          },
+          "responsive_web_profile_redirect_enabled": {
+            "value": "false"
           },
           "rweb_tipjar_consumption_enabled": {
             "value": "true"
@@ -7541,6 +7682,9 @@
           "profile_label_improvements_pcf_label_in_post_enabled": {
             "value": "true"
           },
+          "responsive_web_profile_redirect_enabled": {
+            "value": "false"
+          },
           "rweb_tipjar_consumption_enabled": {
             "value": "true"
           },
@@ -7699,6 +7843,9 @@
           "profile_label_improvements_pcf_label_in_post_enabled": {
             "value": "true"
           },
+          "responsive_web_profile_redirect_enabled": {
+            "value": "false"
+          },
           "rweb_tipjar_consumption_enabled": {
             "value": "true"
           },
@@ -7856,6 +8003,9 @@
           },
           "profile_label_improvements_pcf_label_in_post_enabled": {
             "value": "true"
+          },
+          "responsive_web_profile_redirect_enabled": {
+            "value": "false"
           },
           "rweb_tipjar_consumption_enabled": {
             "value": "true"
@@ -8028,6 +8178,9 @@
           "profile_label_improvements_pcf_label_in_post_enabled": {
             "value": "true"
           },
+          "responsive_web_profile_redirect_enabled": {
+            "value": "false"
+          },
           "rweb_tipjar_consumption_enabled": {
             "value": "true"
           },
@@ -8199,6 +8352,9 @@
           "profile_label_improvements_pcf_label_in_post_enabled": {
             "value": "true"
           },
+          "responsive_web_profile_redirect_enabled": {
+            "value": "false"
+          },
           "rweb_tipjar_consumption_enabled": {
             "value": "true"
           },
@@ -8356,6 +8512,9 @@
           },
           "profile_label_improvements_pcf_label_in_post_enabled": {
             "value": "true"
+          },
+          "responsive_web_profile_redirect_enabled": {
+            "value": "false"
           },
           "rweb_tipjar_consumption_enabled": {
             "value": "true"
@@ -8515,6 +8674,9 @@
           "profile_label_improvements_pcf_label_in_post_enabled": {
             "value": "true"
           },
+          "responsive_web_profile_redirect_enabled": {
+            "value": "false"
+          },
           "rweb_tipjar_consumption_enabled": {
             "value": "true"
           },
@@ -8638,6 +8800,9 @@
           "profile_label_improvements_pcf_label_in_post_enabled": {
             "value": "true"
           },
+          "responsive_web_profile_redirect_enabled": {
+            "value": "false"
+          },
           "rweb_tipjar_consumption_enabled": {
             "value": "true"
           },
@@ -8689,6 +8854,9 @@
           },
           "profile_label_improvements_pcf_label_in_post_enabled": {
             "value": "true"
+          },
+          "responsive_web_profile_redirect_enabled": {
+            "value": "false"
           },
           "rweb_tipjar_consumption_enabled": {
             "value": "true"
@@ -8777,6 +8945,9 @@
           "profile_label_improvements_pcf_label_in_post_enabled": {
             "value": "true"
           },
+          "responsive_web_profile_redirect_enabled": {
+            "value": "false"
+          },
           "rweb_tipjar_consumption_enabled": {
             "value": "true"
           },
@@ -8856,6 +9027,9 @@
           },
           "profile_label_improvements_pcf_label_in_post_enabled": {
             "value": "true"
+          },
+          "responsive_web_profile_redirect_enabled": {
+            "value": "false"
           },
           "rweb_tipjar_consumption_enabled": {
             "value": "true"
@@ -9038,6 +9212,9 @@
           "profile_label_improvements_pcf_label_in_post_enabled": {
             "value": "true"
           },
+          "responsive_web_profile_redirect_enabled": {
+            "value": "false"
+          },
           "rweb_tipjar_consumption_enabled": {
             "value": "true"
           },
@@ -9175,6 +9352,9 @@
           },
           "profile_label_improvements_pcf_label_in_post_enabled": {
             "value": "true"
+          },
+          "responsive_web_profile_redirect_enabled": {
+            "value": "false"
           },
           "rweb_tipjar_consumption_enabled": {
             "value": "true"
@@ -9396,6 +9576,9 @@
           "profile_label_improvements_pcf_label_in_post_enabled": {
             "value": "true"
           },
+          "responsive_web_profile_redirect_enabled": {
+            "value": "false"
+          },
           "rweb_tipjar_consumption_enabled": {
             "value": "true"
           },
@@ -9519,6 +9702,9 @@
           "profile_label_improvements_pcf_label_in_post_enabled": {
             "value": "true"
           },
+          "responsive_web_profile_redirect_enabled": {
+            "value": "false"
+          },
           "rweb_tipjar_consumption_enabled": {
             "value": "true"
           },
@@ -9560,6 +9746,9 @@
           },
           "profile_label_improvements_pcf_label_in_post_enabled": {
             "value": "true"
+          },
+          "responsive_web_profile_redirect_enabled": {
+            "value": "false"
           },
           "rweb_tipjar_consumption_enabled": {
             "value": "true"
@@ -9603,6 +9792,9 @@
           "profile_label_improvements_pcf_label_in_post_enabled": {
             "value": "true"
           },
+          "responsive_web_profile_redirect_enabled": {
+            "value": "false"
+          },
           "rweb_tipjar_consumption_enabled": {
             "value": "true"
           },
@@ -9645,6 +9837,9 @@
           "profile_label_improvements_pcf_label_in_post_enabled": {
             "value": "true"
           },
+          "responsive_web_profile_redirect_enabled": {
+            "value": "false"
+          },
           "rweb_tipjar_consumption_enabled": {
             "value": "true"
           },
@@ -9686,6 +9881,9 @@
           },
           "profile_label_improvements_pcf_label_in_post_enabled": {
             "value": "true"
+          },
+          "responsive_web_profile_redirect_enabled": {
+            "value": "false"
           },
           "rweb_tipjar_consumption_enabled": {
             "value": "true"
@@ -9763,6 +9961,9 @@
           },
           "profile_label_improvements_pcf_label_in_post_enabled": {
             "value": "true"
+          },
+          "responsive_web_profile_redirect_enabled": {
+            "value": "false"
           },
           "rweb_tipjar_consumption_enabled": {
             "value": "true"
@@ -9935,6 +10136,9 @@
           "profile_label_improvements_pcf_label_in_post_enabled": {
             "value": "true"
           },
+          "responsive_web_profile_redirect_enabled": {
+            "value": "false"
+          },
           "rweb_tipjar_consumption_enabled": {
             "value": "true"
           },
@@ -10092,6 +10296,9 @@
           },
           "profile_label_improvements_pcf_label_in_post_enabled": {
             "value": "true"
+          },
+          "responsive_web_profile_redirect_enabled": {
+            "value": "false"
           },
           "rweb_tipjar_consumption_enabled": {
             "value": "true"
@@ -10251,6 +10458,9 @@
           "profile_label_improvements_pcf_label_in_post_enabled": {
             "value": "true"
           },
+          "responsive_web_profile_redirect_enabled": {
+            "value": "false"
+          },
           "rweb_tipjar_consumption_enabled": {
             "value": "true"
           },
@@ -10408,6 +10618,9 @@
           },
           "profile_label_improvements_pcf_label_in_post_enabled": {
             "value": "true"
+          },
+          "responsive_web_profile_redirect_enabled": {
+            "value": "false"
           },
           "rweb_tipjar_consumption_enabled": {
             "value": "true"
@@ -10580,6 +10793,9 @@
           "profile_label_improvements_pcf_label_in_post_enabled": {
             "value": "true"
           },
+          "responsive_web_profile_redirect_enabled": {
+            "value": "false"
+          },
           "rweb_tipjar_consumption_enabled": {
             "value": "true"
           },
@@ -10703,6 +10919,9 @@
           "profile_label_improvements_pcf_label_in_post_enabled": {
             "value": "true"
           },
+          "responsive_web_profile_redirect_enabled": {
+            "value": "false"
+          },
           "rweb_tipjar_consumption_enabled": {
             "value": "true"
           },
@@ -10779,6 +10998,9 @@
           },
           "profile_label_improvements_pcf_label_in_post_enabled": {
             "value": "true"
+          },
+          "responsive_web_profile_redirect_enabled": {
+            "value": "false"
           },
           "rweb_tipjar_consumption_enabled": {
             "value": "true"
@@ -10903,6 +11125,9 @@
           "profile_label_improvements_pcf_label_in_post_enabled": {
             "value": "true"
           },
+          "responsive_web_profile_redirect_enabled": {
+            "value": "false"
+          },
           "rweb_tipjar_consumption_enabled": {
             "value": "true"
           },
@@ -10944,6 +11169,9 @@
           },
           "profile_label_improvements_pcf_label_in_post_enabled": {
             "value": "true"
+          },
+          "responsive_web_profile_redirect_enabled": {
+            "value": "false"
           },
           "rweb_tipjar_consumption_enabled": {
             "value": "true"
@@ -11021,6 +11249,9 @@
           },
           "profile_label_improvements_pcf_label_in_post_enabled": {
             "value": "true"
+          },
+          "responsive_web_profile_redirect_enabled": {
+            "value": "false"
           },
           "rweb_tipjar_consumption_enabled": {
             "value": "true"
@@ -11158,6 +11389,9 @@
           "profile_label_improvements_pcf_label_in_post_enabled": {
             "value": "true"
           },
+          "responsive_web_profile_redirect_enabled": {
+            "value": "false"
+          },
           "rweb_tipjar_consumption_enabled": {
             "value": "true"
           },
@@ -11199,6 +11433,9 @@
           },
           "profile_label_improvements_pcf_label_in_post_enabled": {
             "value": "true"
+          },
+          "responsive_web_profile_redirect_enabled": {
+            "value": "false"
           },
           "rweb_tipjar_consumption_enabled": {
             "value": "true"
@@ -11276,6 +11513,9 @@
           },
           "profile_label_improvements_pcf_label_in_post_enabled": {
             "value": "true"
+          },
+          "responsive_web_profile_redirect_enabled": {
+            "value": "false"
           },
           "rweb_tipjar_consumption_enabled": {
             "value": "true"
@@ -11434,6 +11674,9 @@
           },
           "profile_label_improvements_pcf_label_in_post_enabled": {
             "value": "true"
+          },
+          "responsive_web_profile_redirect_enabled": {
+            "value": "false"
           },
           "rweb_tipjar_consumption_enabled": {
             "value": "true"
@@ -11619,6 +11862,9 @@
           "profile_label_improvements_pcf_label_in_post_enabled": {
             "value": "true"
           },
+          "responsive_web_profile_redirect_enabled": {
+            "value": "false"
+          },
           "rweb_tipjar_consumption_enabled": {
             "value": "true"
           },
@@ -11776,6 +12022,9 @@
           },
           "profile_label_improvements_pcf_label_in_post_enabled": {
             "value": "true"
+          },
+          "responsive_web_profile_redirect_enabled": {
+            "value": "false"
           },
           "rweb_tipjar_consumption_enabled": {
             "value": "true"
@@ -11935,6 +12184,9 @@
           "profile_label_improvements_pcf_label_in_post_enabled": {
             "value": "true"
           },
+          "responsive_web_profile_redirect_enabled": {
+            "value": "false"
+          },
           "rweb_tipjar_consumption_enabled": {
             "value": "true"
           },
@@ -12058,6 +12310,9 @@
           "profile_label_improvements_pcf_label_in_post_enabled": {
             "value": "true"
           },
+          "responsive_web_profile_redirect_enabled": {
+            "value": "false"
+          },
           "rweb_tipjar_consumption_enabled": {
             "value": "true"
           },
@@ -12134,6 +12389,9 @@
           },
           "profile_label_improvements_pcf_label_in_post_enabled": {
             "value": "true"
+          },
+          "responsive_web_profile_redirect_enabled": {
+            "value": "false"
           },
           "rweb_tipjar_consumption_enabled": {
             "value": "true"
@@ -12293,6 +12551,9 @@
           "profile_label_improvements_pcf_label_in_post_enabled": {
             "value": "true"
           },
+          "responsive_web_profile_redirect_enabled": {
+            "value": "false"
+          },
           "rweb_tipjar_consumption_enabled": {
             "value": "true"
           },
@@ -12416,6 +12677,9 @@
           "profile_label_improvements_pcf_label_in_post_enabled": {
             "value": "true"
           },
+          "responsive_web_profile_redirect_enabled": {
+            "value": "false"
+          },
           "rweb_tipjar_consumption_enabled": {
             "value": "true"
           },
@@ -12457,6 +12721,9 @@
           },
           "profile_label_improvements_pcf_label_in_post_enabled": {
             "value": "true"
+          },
+          "responsive_web_profile_redirect_enabled": {
+            "value": "false"
           },
           "rweb_tipjar_consumption_enabled": {
             "value": "true"
@@ -12534,6 +12801,9 @@
           },
           "profile_label_improvements_pcf_label_in_post_enabled": {
             "value": "true"
+          },
+          "responsive_web_profile_redirect_enabled": {
+            "value": "false"
           },
           "rweb_tipjar_consumption_enabled": {
             "value": "true"
@@ -12658,6 +12928,9 @@
           "profile_label_improvements_pcf_label_in_post_enabled": {
             "value": "true"
           },
+          "responsive_web_profile_redirect_enabled": {
+            "value": "false"
+          },
           "rweb_tipjar_consumption_enabled": {
             "value": "true"
           },
@@ -12699,6 +12972,9 @@
           },
           "profile_label_improvements_pcf_label_in_post_enabled": {
             "value": "true"
+          },
+          "responsive_web_profile_redirect_enabled": {
+            "value": "false"
           },
           "rweb_tipjar_consumption_enabled": {
             "value": "true"
@@ -12742,6 +13018,9 @@
           "profile_label_improvements_pcf_label_in_post_enabled": {
             "value": "true"
           },
+          "responsive_web_profile_redirect_enabled": {
+            "value": "false"
+          },
           "rweb_tipjar_consumption_enabled": {
             "value": "true"
           },
@@ -12783,6 +13062,9 @@
           },
           "profile_label_improvements_pcf_label_in_post_enabled": {
             "value": "true"
+          },
+          "responsive_web_profile_redirect_enabled": {
+            "value": "false"
           },
           "rweb_tipjar_consumption_enabled": {
             "value": "true"
@@ -12826,6 +13108,9 @@
           "profile_label_improvements_pcf_label_in_post_enabled": {
             "value": "true"
           },
+          "responsive_web_profile_redirect_enabled": {
+            "value": "false"
+          },
           "rweb_tipjar_consumption_enabled": {
             "value": "true"
           },
@@ -12867,6 +13152,9 @@
           },
           "profile_label_improvements_pcf_label_in_post_enabled": {
             "value": "true"
+          },
+          "responsive_web_profile_redirect_enabled": {
+            "value": "false"
           },
           "rweb_tipjar_consumption_enabled": {
             "value": "true"
@@ -12944,6 +13232,9 @@
           },
           "profile_label_improvements_pcf_label_in_post_enabled": {
             "value": "true"
+          },
+          "responsive_web_profile_redirect_enabled": {
+            "value": "false"
           },
           "rweb_tipjar_consumption_enabled": {
             "value": "true"
@@ -13068,6 +13359,9 @@
           "profile_label_improvements_pcf_label_in_post_enabled": {
             "value": "true"
           },
+          "responsive_web_profile_redirect_enabled": {
+            "value": "false"
+          },
           "rweb_tipjar_consumption_enabled": {
             "value": "true"
           },
@@ -13109,6 +13403,9 @@
           },
           "profile_label_improvements_pcf_label_in_post_enabled": {
             "value": "true"
+          },
+          "responsive_web_profile_redirect_enabled": {
+            "value": "false"
           },
           "rweb_tipjar_consumption_enabled": {
             "value": "true"
@@ -13186,6 +13483,9 @@
           },
           "profile_label_improvements_pcf_label_in_post_enabled": {
             "value": "true"
+          },
+          "responsive_web_profile_redirect_enabled": {
+            "value": "false"
           },
           "rweb_tipjar_consumption_enabled": {
             "value": "true"
@@ -13345,6 +13645,9 @@
           "profile_label_improvements_pcf_label_in_post_enabled": {
             "value": "true"
           },
+          "responsive_web_profile_redirect_enabled": {
+            "value": "false"
+          },
           "rweb_tipjar_consumption_enabled": {
             "value": "true"
           },
@@ -13467,6 +13770,9 @@
           },
           "profile_label_improvements_pcf_label_in_post_enabled": {
             "value": "true"
+          },
+          "responsive_web_profile_redirect_enabled": {
+            "value": "false"
           },
           "rweb_tipjar_consumption_enabled": {
             "value": "true"
@@ -13610,6 +13916,9 @@
           "profile_label_improvements_pcf_label_in_post_enabled": {
             "value": "true"
           },
+          "responsive_web_profile_redirect_enabled": {
+            "value": "false"
+          },
           "rweb_tipjar_consumption_enabled": {
             "value": "true"
           },
@@ -13664,6 +13973,9 @@
           "profile_label_improvements_pcf_label_in_post_enabled": {
             "value": "true"
           },
+          "responsive_web_profile_redirect_enabled": {
+            "value": "false"
+          },
           "rweb_tipjar_consumption_enabled": {
             "value": "true"
           },
@@ -13705,6 +14017,9 @@
           },
           "profile_label_improvements_pcf_label_in_post_enabled": {
             "value": "true"
+          },
+          "responsive_web_profile_redirect_enabled": {
+            "value": "false"
           },
           "rweb_tipjar_consumption_enabled": {
             "value": "true"
@@ -13748,6 +14063,9 @@
           "profile_label_improvements_pcf_label_in_post_enabled": {
             "value": "true"
           },
+          "responsive_web_profile_redirect_enabled": {
+            "value": "false"
+          },
           "rweb_tipjar_consumption_enabled": {
             "value": "true"
           },
@@ -13789,6 +14107,9 @@
           },
           "profile_label_improvements_pcf_label_in_post_enabled": {
             "value": "true"
+          },
+          "responsive_web_profile_redirect_enabled": {
+            "value": "false"
           },
           "rweb_tipjar_consumption_enabled": {
             "value": "true"
@@ -13865,6 +14186,9 @@
           },
           "profile_label_improvements_pcf_label_in_post_enabled": {
             "value": "true"
+          },
+          "responsive_web_profile_redirect_enabled": {
+            "value": "false"
           },
           "rweb_tipjar_consumption_enabled": {
             "value": "true"
@@ -14020,6 +14344,9 @@
           },
           "profile_label_improvements_pcf_label_in_post_enabled": {
             "value": "true"
+          },
+          "responsive_web_profile_redirect_enabled": {
+            "value": "false"
           },
           "rweb_tipjar_consumption_enabled": {
             "value": "true"
@@ -14179,6 +14506,9 @@
           "profile_label_improvements_pcf_label_in_post_enabled": {
             "value": "true"
           },
+          "responsive_web_profile_redirect_enabled": {
+            "value": "false"
+          },
           "rweb_tipjar_consumption_enabled": {
             "value": "true"
           },
@@ -14337,6 +14667,9 @@
           "profile_label_improvements_pcf_label_in_post_enabled": {
             "value": "true"
           },
+          "responsive_web_profile_redirect_enabled": {
+            "value": "false"
+          },
           "rweb_tipjar_consumption_enabled": {
             "value": "true"
           },
@@ -14460,6 +14793,9 @@
           "profile_label_improvements_pcf_label_in_post_enabled": {
             "value": "true"
           },
+          "responsive_web_profile_redirect_enabled": {
+            "value": "false"
+          },
           "rweb_tipjar_consumption_enabled": {
             "value": "true"
           },
@@ -14557,6 +14893,9 @@
           },
           "profile_label_improvements_pcf_label_in_post_enabled": {
             "value": "true"
+          },
+          "responsive_web_profile_redirect_enabled": {
+            "value": "false"
           },
           "rweb_tipjar_consumption_enabled": {
             "value": "true"
@@ -14937,6 +15276,9 @@
           "profile_label_improvements_pcf_label_in_post_enabled": {
             "value": "true"
           },
+          "responsive_web_profile_redirect_enabled": {
+            "value": "false"
+          },
           "rweb_tipjar_consumption_enabled": {
             "value": "true"
           },
@@ -15103,6 +15445,9 @@
           "profile_label_improvements_pcf_label_in_post_enabled": {
             "value": "true"
           },
+          "responsive_web_profile_redirect_enabled": {
+            "value": "false"
+          },
           "rweb_tipjar_consumption_enabled": {
             "value": "true"
           },
@@ -15205,6 +15550,9 @@
           },
           "profile_label_improvements_pcf_label_in_post_enabled": {
             "value": "true"
+          },
+          "responsive_web_profile_redirect_enabled": {
+            "value": "false"
           },
           "rweb_tipjar_consumption_enabled": {
             "value": "true"
@@ -15465,6 +15813,9 @@
           "profile_label_improvements_pcf_label_in_post_enabled": {
             "value": "true"
           },
+          "responsive_web_profile_redirect_enabled": {
+            "value": "false"
+          },
           "rweb_tipjar_consumption_enabled": {
             "value": "true"
           },
@@ -15595,6 +15946,9 @@
           "profile_label_improvements_pcf_label_in_post_enabled": {
             "value": "true"
           },
+          "responsive_web_profile_redirect_enabled": {
+            "value": "false"
+          },
           "rweb_tipjar_consumption_enabled": {
             "value": "true"
           },
@@ -15661,6 +16015,9 @@
           "profile_label_improvements_pcf_label_in_post_enabled": {
             "value": "true"
           },
+          "responsive_web_profile_redirect_enabled": {
+            "value": "false"
+          },
           "rweb_tipjar_consumption_enabled": {
             "value": "true"
           },
@@ -15722,6 +16079,9 @@
           },
           "profile_label_improvements_pcf_label_in_post_enabled": {
             "value": "true"
+          },
+          "responsive_web_profile_redirect_enabled": {
+            "value": "false"
           },
           "rweb_tipjar_consumption_enabled": {
             "value": "true"
@@ -15900,6 +16260,9 @@
           "profile_label_improvements_pcf_label_in_post_enabled": {
             "value": "true"
           },
+          "responsive_web_profile_redirect_enabled": {
+            "value": "false"
+          },
           "rweb_tipjar_consumption_enabled": {
             "value": "true"
           },
@@ -16033,6 +16396,9 @@
           },
           "profile_label_improvements_pcf_label_in_post_enabled": {
             "value": "true"
+          },
+          "responsive_web_profile_redirect_enabled": {
+            "value": "false"
           },
           "rweb_tipjar_consumption_enabled": {
             "value": "true"
@@ -16217,6 +16583,9 @@
           },
           "profile_label_improvements_pcf_label_in_post_enabled": {
             "value": "true"
+          },
+          "responsive_web_profile_redirect_enabled": {
+            "value": "false"
           },
           "rweb_tipjar_consumption_enabled": {
             "value": "true"
@@ -16532,6 +16901,9 @@
           "profile_label_improvements_pcf_label_in_post_enabled": {
             "value": "true"
           },
+          "responsive_web_profile_redirect_enabled": {
+            "value": "false"
+          },
           "rweb_tipjar_consumption_enabled": {
             "value": "true"
           },
@@ -16764,6 +17136,9 @@
           "profile_label_improvements_pcf_label_in_post_enabled": {
             "value": "true"
           },
+          "responsive_web_profile_redirect_enabled": {
+            "value": "false"
+          },
           "rweb_tipjar_consumption_enabled": {
             "value": "true"
           },
@@ -16904,6 +17279,9 @@
           },
           "profile_label_improvements_pcf_label_in_post_enabled": {
             "value": "true"
+          },
+          "responsive_web_profile_redirect_enabled": {
+            "value": "false"
           },
           "rweb_tipjar_consumption_enabled": {
             "value": "true"
@@ -17157,6 +17535,9 @@
           "profile_label_improvements_pcf_label_in_post_enabled": {
             "value": "true"
           },
+          "responsive_web_profile_redirect_enabled": {
+            "value": "false"
+          },
           "rweb_tipjar_consumption_enabled": {
             "value": "true"
           },
@@ -17340,6 +17721,9 @@
           },
           "profile_label_improvements_pcf_label_in_post_enabled": {
             "value": "true"
+          },
+          "responsive_web_profile_redirect_enabled": {
+            "value": "false"
           },
           "rweb_tipjar_consumption_enabled": {
             "value": "true"
@@ -17531,6 +17915,9 @@
           "profile_label_improvements_pcf_label_in_post_enabled": {
             "value": "true"
           },
+          "responsive_web_profile_redirect_enabled": {
+            "value": "false"
+          },
           "rweb_tipjar_consumption_enabled": {
             "value": "true"
           },
@@ -17626,6 +18013,9 @@
           },
           "profile_label_improvements_pcf_label_in_post_enabled": {
             "value": "true"
+          },
+          "responsive_web_profile_redirect_enabled": {
+            "value": "false"
           },
           "rweb_tipjar_consumption_enabled": {
             "value": "true"
@@ -17902,6 +18292,9 @@
           "profile_label_improvements_pcf_label_in_post_enabled": {
             "value": "true"
           },
+          "responsive_web_profile_redirect_enabled": {
+            "value": "false"
+          },
           "rweb_tipjar_consumption_enabled": {
             "value": "true"
           },
@@ -18134,6 +18527,9 @@
           "profile_label_improvements_pcf_label_in_post_enabled": {
             "value": "true"
           },
+          "responsive_web_profile_redirect_enabled": {
+            "value": "false"
+          },
           "rweb_tipjar_consumption_enabled": {
             "value": "true"
           },
@@ -18261,6 +18657,9 @@
           },
           "profile_label_improvements_pcf_label_in_post_enabled": {
             "value": "true"
+          },
+          "responsive_web_profile_redirect_enabled": {
+            "value": "false"
           },
           "rweb_tipjar_consumption_enabled": {
             "value": "true"
@@ -18419,6 +18818,9 @@
           },
           "profile_label_improvements_pcf_label_in_post_enabled": {
             "value": "true"
+          },
+          "responsive_web_profile_redirect_enabled": {
+            "value": "false"
           },
           "rweb_tipjar_consumption_enabled": {
             "value": "true"
@@ -18630,6 +19032,9 @@
           "profile_label_improvements_pcf_label_in_post_enabled": {
             "value": "true"
           },
+          "responsive_web_profile_redirect_enabled": {
+            "value": "false"
+          },
           "rweb_tipjar_consumption_enabled": {
             "value": "true"
           },
@@ -18813,6 +19218,9 @@
           },
           "profile_label_improvements_pcf_label_in_post_enabled": {
             "value": "true"
+          },
+          "responsive_web_profile_redirect_enabled": {
+            "value": "false"
           },
           "rweb_tipjar_consumption_enabled": {
             "value": "true"
@@ -19118,6 +19526,9 @@
           "profile_label_improvements_pcf_label_in_post_enabled": {
             "value": "true"
           },
+          "responsive_web_profile_redirect_enabled": {
+            "value": "false"
+          },
           "rweb_tipjar_consumption_enabled": {
             "value": "true"
           },
@@ -19208,6 +19619,9 @@
           "profile_label_improvements_pcf_label_in_post_enabled": {
             "value": "true"
           },
+          "responsive_web_profile_redirect_enabled": {
+            "value": "false"
+          },
           "rweb_tipjar_consumption_enabled": {
             "value": "true"
           },
@@ -19263,6 +19677,9 @@
           "profile_label_improvements_pcf_label_in_post_enabled": {
             "value": "true"
           },
+          "responsive_web_profile_redirect_enabled": {
+            "value": "false"
+          },
           "rweb_tipjar_consumption_enabled": {
             "value": "true"
           },
@@ -19304,6 +19721,9 @@
           },
           "profile_label_improvements_pcf_label_in_post_enabled": {
             "value": "true"
+          },
+          "responsive_web_profile_redirect_enabled": {
+            "value": "false"
           },
           "rweb_tipjar_consumption_enabled": {
             "value": "true"
@@ -19347,6 +19767,9 @@
           "profile_label_improvements_pcf_label_in_post_enabled": {
             "value": "true"
           },
+          "responsive_web_profile_redirect_enabled": {
+            "value": "false"
+          },
           "rweb_tipjar_consumption_enabled": {
             "value": "true"
           },
@@ -19388,6 +19811,9 @@
           },
           "profile_label_improvements_pcf_label_in_post_enabled": {
             "value": "true"
+          },
+          "responsive_web_profile_redirect_enabled": {
+            "value": "false"
           },
           "rweb_tipjar_consumption_enabled": {
             "value": "true"
@@ -19431,6 +19857,9 @@
           "profile_label_improvements_pcf_label_in_post_enabled": {
             "value": "true"
           },
+          "responsive_web_profile_redirect_enabled": {
+            "value": "false"
+          },
           "rweb_tipjar_consumption_enabled": {
             "value": "true"
           },
@@ -19473,6 +19902,9 @@
           "profile_label_improvements_pcf_label_in_post_enabled": {
             "value": "true"
           },
+          "responsive_web_profile_redirect_enabled": {
+            "value": "false"
+          },
           "rweb_tipjar_consumption_enabled": {
             "value": "true"
           },
@@ -19514,6 +19946,9 @@
           },
           "profile_label_improvements_pcf_label_in_post_enabled": {
             "value": "true"
+          },
+          "responsive_web_profile_redirect_enabled": {
+            "value": "false"
           },
           "rweb_tipjar_consumption_enabled": {
             "value": "true"
@@ -19865,6 +20300,9 @@
           "profile_label_improvements_pcf_label_in_post_enabled": {
             "value": "true"
           },
+          "responsive_web_profile_redirect_enabled": {
+            "value": "false"
+          },
           "rweb_tipjar_consumption_enabled": {
             "value": "true"
           },
@@ -20096,6 +20534,9 @@
           },
           "profile_label_improvements_pcf_label_in_post_enabled": {
             "value": "true"
+          },
+          "responsive_web_profile_redirect_enabled": {
+            "value": "false"
           },
           "rweb_tipjar_consumption_enabled": {
             "value": "true"
@@ -20436,6 +20877,9 @@
           "profile_label_improvements_pcf_label_in_post_enabled": {
             "value": "true"
           },
+          "responsive_web_profile_redirect_enabled": {
+            "value": "false"
+          },
           "rweb_tipjar_consumption_enabled": {
             "value": "true"
           },
@@ -20667,6 +21111,9 @@
           },
           "profile_label_improvements_pcf_label_in_post_enabled": {
             "value": "true"
+          },
+          "responsive_web_profile_redirect_enabled": {
+            "value": "false"
           },
           "rweb_tipjar_consumption_enabled": {
             "value": "true"
@@ -20936,6 +21383,9 @@
           "profile_label_improvements_pcf_label_in_post_enabled": {
             "value": "true"
           },
+          "responsive_web_profile_redirect_enabled": {
+            "value": "false"
+          },
           "rweb_tipjar_consumption_enabled": {
             "value": "true"
           },
@@ -21012,6 +21462,9 @@
           },
           "profile_label_improvements_pcf_label_in_post_enabled": {
             "value": "true"
+          },
+          "responsive_web_profile_redirect_enabled": {
+            "value": "false"
           },
           "rweb_tipjar_consumption_enabled": {
             "value": "true"
@@ -21171,6 +21624,9 @@
           "profile_label_improvements_pcf_label_in_post_enabled": {
             "value": "true"
           },
+          "responsive_web_profile_redirect_enabled": {
+            "value": "false"
+          },
           "rweb_tipjar_consumption_enabled": {
             "value": "true"
           },
@@ -21329,6 +21785,9 @@
           "profile_label_improvements_pcf_label_in_post_enabled": {
             "value": "true"
           },
+          "responsive_web_profile_redirect_enabled": {
+            "value": "false"
+          },
           "rweb_tipjar_consumption_enabled": {
             "value": "true"
           },
@@ -21486,6 +21945,9 @@
           },
           "profile_label_improvements_pcf_label_in_post_enabled": {
             "value": "true"
+          },
+          "responsive_web_profile_redirect_enabled": {
+            "value": "false"
           },
           "rweb_tipjar_consumption_enabled": {
             "value": "true"
@@ -21702,6 +22164,9 @@
           "profile_label_improvements_pcf_label_in_post_enabled": {
             "value": "true"
           },
+          "responsive_web_profile_redirect_enabled": {
+            "value": "false"
+          },
           "rweb_tipjar_consumption_enabled": {
             "value": "true"
           },
@@ -21802,6 +22267,9 @@
           },
           "profile_label_improvements_pcf_label_in_post_enabled": {
             "value": "true"
+          },
+          "responsive_web_profile_redirect_enabled": {
+            "value": "false"
           },
           "rweb_tipjar_consumption_enabled": {
             "value": "true"
@@ -21960,6 +22428,9 @@
           },
           "profile_label_improvements_pcf_label_in_post_enabled": {
             "value": "true"
+          },
+          "responsive_web_profile_redirect_enabled": {
+            "value": "false"
           },
           "rweb_tipjar_consumption_enabled": {
             "value": "true"
@@ -22175,6 +22646,9 @@
           },
           "profile_label_improvements_pcf_label_in_post_enabled": {
             "value": "true"
+          },
+          "responsive_web_profile_redirect_enabled": {
+            "value": "false"
           },
           "rweb_tipjar_consumption_enabled": {
             "value": "true"
@@ -22380,6 +22854,9 @@
           },
           "profile_label_improvements_pcf_label_in_post_enabled": {
             "value": "true"
+          },
+          "responsive_web_profile_redirect_enabled": {
+            "value": "false"
           },
           "rweb_tipjar_consumption_enabled": {
             "value": "true"
@@ -22612,6 +23089,9 @@
           },
           "profile_label_improvements_pcf_label_in_post_enabled": {
             "value": "true"
+          },
+          "responsive_web_profile_redirect_enabled": {
+            "value": "false"
           },
           "rweb_tipjar_consumption_enabled": {
             "value": "true"
@@ -22754,6 +23234,9 @@
           "profile_label_improvements_pcf_label_in_post_enabled": {
             "value": "true"
           },
+          "responsive_web_profile_redirect_enabled": {
+            "value": "false"
+          },
           "rweb_tipjar_consumption_enabled": {
             "value": "true"
           },
@@ -22937,6 +23420,9 @@
           },
           "profile_label_improvements_pcf_label_in_post_enabled": {
             "value": "true"
+          },
+          "responsive_web_profile_redirect_enabled": {
+            "value": "false"
           },
           "rweb_tipjar_consumption_enabled": {
             "value": "true"
@@ -23161,6 +23647,9 @@
           "profile_label_improvements_pcf_label_in_post_enabled": {
             "value": "true"
           },
+          "responsive_web_profile_redirect_enabled": {
+            "value": "false"
+          },
           "rweb_tipjar_consumption_enabled": {
             "value": "true"
           },
@@ -23344,6 +23833,9 @@
           },
           "profile_label_improvements_pcf_label_in_post_enabled": {
             "value": "true"
+          },
+          "responsive_web_profile_redirect_enabled": {
+            "value": "false"
           },
           "rweb_tipjar_consumption_enabled": {
             "value": "true"
@@ -23672,6 +24164,9 @@
           "profile_label_improvements_pcf_label_in_post_enabled": {
             "value": "true"
           },
+          "responsive_web_profile_redirect_enabled": {
+            "value": "false"
+          },
           "rweb_tipjar_consumption_enabled": {
             "value": "true"
           },
@@ -23904,6 +24399,9 @@
           "profile_label_improvements_pcf_label_in_post_enabled": {
             "value": "true"
           },
+          "responsive_web_profile_redirect_enabled": {
+            "value": "false"
+          },
           "rweb_tipjar_consumption_enabled": {
             "value": "true"
           },
@@ -23997,6 +24495,9 @@
           "profile_label_improvements_pcf_label_in_post_enabled": {
             "value": "true"
           },
+          "responsive_web_profile_redirect_enabled": {
+            "value": "false"
+          },
           "rweb_tipjar_consumption_enabled": {
             "value": "true"
           },
@@ -24052,6 +24553,9 @@
           "profile_label_improvements_pcf_label_in_post_enabled": {
             "value": "true"
           },
+          "responsive_web_profile_redirect_enabled": {
+            "value": "false"
+          },
           "rweb_tipjar_consumption_enabled": {
             "value": "true"
           },
@@ -24093,6 +24597,9 @@
           },
           "profile_label_improvements_pcf_label_in_post_enabled": {
             "value": "true"
+          },
+          "responsive_web_profile_redirect_enabled": {
+            "value": "false"
           },
           "rweb_tipjar_consumption_enabled": {
             "value": "true"
@@ -24136,6 +24643,9 @@
           "profile_label_improvements_pcf_label_in_post_enabled": {
             "value": "true"
           },
+          "responsive_web_profile_redirect_enabled": {
+            "value": "false"
+          },
           "rweb_tipjar_consumption_enabled": {
             "value": "true"
           },
@@ -24177,6 +24687,9 @@
           },
           "profile_label_improvements_pcf_label_in_post_enabled": {
             "value": "true"
+          },
+          "responsive_web_profile_redirect_enabled": {
+            "value": "false"
           },
           "rweb_tipjar_consumption_enabled": {
             "value": "true"
@@ -24220,6 +24733,9 @@
           "profile_label_improvements_pcf_label_in_post_enabled": {
             "value": "true"
           },
+          "responsive_web_profile_redirect_enabled": {
+            "value": "false"
+          },
           "rweb_tipjar_consumption_enabled": {
             "value": "true"
           },
@@ -24262,6 +24778,9 @@
           "profile_label_improvements_pcf_label_in_post_enabled": {
             "value": "true"
           },
+          "responsive_web_profile_redirect_enabled": {
+            "value": "false"
+          },
           "rweb_tipjar_consumption_enabled": {
             "value": "true"
           },
@@ -24303,6 +24822,9 @@
           },
           "profile_label_improvements_pcf_label_in_post_enabled": {
             "value": "true"
+          },
+          "responsive_web_profile_redirect_enabled": {
+            "value": "false"
           },
           "rweb_tipjar_consumption_enabled": {
             "value": "true"
