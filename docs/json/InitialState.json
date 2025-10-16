@@ -1258,6 +1258,9 @@
       "payments_tracing_reports_enabled": {
         "value": "false"
       },
+      "payments_transaction_search_enabled": {
+        "value": "false"
+      },
       "payments_transfer_methods_enabled": {
         "value": "false"
       },
@@ -1463,6 +1466,9 @@
         "value": "3600000"
       },
       "responsive_web_birdwatch_fast_notes_badge_enabled": {
+        "value": "false"
+      },
+      "responsive_web_birdwatch_home_page_enabled": {
         "value": "false"
       },
       "responsive_web_birdwatch_match_page_enabled": {
@@ -2182,7 +2188,7 @@
       "responsive_web_professional_journeys_holdback_enabled": {
         "value": "false"
       },
-      "responsive_web_profile_search_signup_guard": {
+      "responsive_web_profile_redirect_enabled": {
         "value": "false"
       },
       "responsive_web_profile_spotlight_v0_config": {
@@ -2733,9 +2739,6 @@
       },
       "rweb_xchat_old_dms_inbox_item": {
         "value": "true"
-      },
-      "rweb_xchat_profile_redirect_enabled": {
-        "value": "false"
       },
       "rweb_xp_forwarded_for_enabled": {
         "value": "false"
@@ -3363,14 +3366,17 @@
       "super_follow_web_onboarding_enabled": {
         "value": "true"
       },
-      "syscache_entrypoint_vo_portal_enabled": {
+      "syscache_entrypoint_vo_portal_basic_users_enabled": {
         "value": "false"
+      },
+      "syscache_entrypoint_vo_portal_enabled": {
+        "value": "true"
       },
       "syscache_entrypoint_vo_portal_url": {
-        "value": ""
+        "value": "https://handles.x.com"
       },
       "syscache_vo_paywall_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "system_theme_toggle_enabled": {
         "value": "true"
@@ -3832,7 +3838,7 @@
         "value": "false"
       },
       "xchat_enable_forward_message": {
-        "value": "false"
+        "value": "true"
       },
       "xchat_enable_local_pagination": {
         "value": "false"
@@ -5075,6 +5081,9 @@
         "payments_tracing_reports_enabled": {
           "value": "false"
         },
+        "payments_transaction_search_enabled": {
+          "value": "false"
+        },
         "payments_transfer_methods_enabled": {
           "value": "false"
         },
@@ -5280,6 +5289,9 @@
           "value": "3600000"
         },
         "responsive_web_birdwatch_fast_notes_badge_enabled": {
+          "value": "false"
+        },
+        "responsive_web_birdwatch_home_page_enabled": {
           "value": "false"
         },
         "responsive_web_birdwatch_match_page_enabled": {
@@ -6002,9 +6014,6 @@
         "responsive_web_profile_redirect_enabled": {
           "value": "false"
         },
-        "responsive_web_profile_search_signup_guard": {
-          "value": "false"
-        },
         "responsive_web_profile_spotlight_v0_config": {
           "value": "true"
         },
@@ -6553,9 +6562,6 @@
         },
         "rweb_xchat_old_dms_inbox_item": {
           "value": "true"
-        },
-        "rweb_xchat_profile_redirect_enabled": {
-          "value": "false"
         },
         "rweb_xp_forwarded_for_enabled": {
           "value": "true"
@@ -7183,6 +7189,9 @@
         "super_follow_web_onboarding_enabled": {
           "value": "true"
         },
+        "syscache_entrypoint_vo_portal_basic_users_enabled": {
+          "value": "true"
+        },
         "syscache_entrypoint_vo_portal_enabled": {
           "value": "true"
         },
@@ -7742,10 +7751,10 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "c441db8ce27a36df7ebe56410a39f473"
+      "settingsVersion": "3b2897eb09d4d2588ca6f7873398ea10"
     },
     "debug": {},
-    "featureSetToken": "fd1c7bf58b248d59c66146aac253302feaf3f156",
+    "featureSetToken": "817b291dfd45c94e2a02e9e5265a3a4da55f949d",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -7814,7 +7823,7 @@
   },
   "session": {
     "country": "XX",
-    "guestId": "176056211443937887",
+    "guestId": "176064852765235826",
     "hasCommunityMemberships": "false",
     "isActiveCreator": "false",
     "isLoaded": "false",
