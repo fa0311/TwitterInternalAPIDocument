@@ -5999,6 +5999,9 @@
         "responsive_web_professional_journeys_holdback_enabled": {
           "value": "false"
         },
+        "responsive_web_profile_redirect_enabled": {
+          "value": "false"
+        },
         "responsive_web_profile_search_signup_guard": {
           "value": "false"
         },
@@ -7739,7 +7742,7 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "737283f7e69e190618bd32635f6b040a"
+      "settingsVersion": "c441db8ce27a36df7ebe56410a39f473"
     },
     "debug": {},
     "featureSetToken": "fd1c7bf58b248d59c66146aac253302feaf3f156",
@@ -7811,7 +7814,7 @@
   },
   "session": {
     "country": "XX",
-    "guestId": "176047572384150885",
+    "guestId": "176056211443937887",
     "hasCommunityMemberships": "false",
     "isActiveCreator": "false",
     "isLoaded": "false",
