@@ -6128,3 +6128,17 @@
 - responsive_web_profile_redirect_enabled<br>
 #### remove<br>
 - None<br>
+## 2025/10/16<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- payments_transaction_search_enabled<br>
+- responsive_web_birdwatch_home_page_enabled<br>
+- syscache_entrypoint_vo_portal_basic_users_enabled<br>
+#### remove<br>
+- responsive_web_profile_search_signup_guard<br>
+- rweb_xchat_profile_redirect_enabled<br>
