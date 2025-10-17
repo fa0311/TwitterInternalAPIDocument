@@ -3367,13 +3367,16 @@
         "value": "true"
       },
       "syscache_entrypoint_vo_portal_basic_users_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "syscache_entrypoint_vo_portal_enabled": {
         "value": "true"
       },
       "syscache_entrypoint_vo_portal_url": {
         "value": "https://handles.x.com"
+      },
+      "syscache_syscache_pb_sidebar_handles_enabled": {
+        "value": "false"
       },
       "syscache_vo_paywall_enabled": {
         "value": "true"
@@ -7190,13 +7193,16 @@
           "value": "true"
         },
         "syscache_entrypoint_vo_portal_basic_users_enabled": {
-          "value": "true"
+          "value": "false"
         },
         "syscache_entrypoint_vo_portal_enabled": {
           "value": "true"
         },
         "syscache_entrypoint_vo_portal_url": {
           "value": "https://handles.x.com"
+        },
+        "syscache_syscache_pb_sidebar_handles_enabled": {
+          "value": "false"
         },
         "syscache_vo_paywall_enabled": {
           "value": "true"
@@ -7751,10 +7757,10 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "3b2897eb09d4d2588ca6f7873398ea10"
+      "settingsVersion": "0dbf10d2f0c969885f50d7344bb01ae8"
     },
     "debug": {},
-    "featureSetToken": "817b291dfd45c94e2a02e9e5265a3a4da55f949d",
+    "featureSetToken": "ab11859fbd16a2b5e5a9fd8bd8a8aa2efafb0d35",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -7823,7 +7829,7 @@
   },
   "session": {
     "country": "XX",
-    "guestId": "176064868071051490",
+    "guestId": "176073507296776456",
     "hasCommunityMemberships": "false",
     "isActiveCreator": "false",
     "isLoaded": "false",
