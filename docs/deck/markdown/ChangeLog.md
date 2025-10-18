@@ -6142,3 +6142,14 @@
 #### remove<br>
 - responsive_web_profile_search_signup_guard<br>
 - rweb_xchat_profile_redirect_enabled<br>
+## 2025/10/17<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- syscache_syscache_pb_sidebar_handles_enabled<br>
+#### remove<br>
+- None<br>
