@@ -6164,3 +6164,14 @@
 - creator_studio_nav_enabled<br>
 #### remove<br>
 - None<br>
+## 2025/10/20<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- syscache_entrypoint_settings_enabled<br>
+#### remove<br>
+- None<br>
