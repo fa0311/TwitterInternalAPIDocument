@@ -1948,9 +1948,6 @@
       "responsive_web_grok_show_message_reply_button": {
         "value": "true"
       },
-      "responsive_web_grok_show_translation_source_lang": {
-        "value": "true"
-      },
       "responsive_web_grok_sport_cards_enabled": {
         "value": "true"
       },
@@ -2189,6 +2186,9 @@
         "value": "false"
       },
       "responsive_web_professional_journeys_holdback_enabled": {
+        "value": "false"
+      },
+      "responsive_web_profile_about_enabled": {
         "value": "false"
       },
       "responsive_web_profile_redirect_enabled": {
@@ -5636,6 +5636,9 @@
         "responsive_web_grok_enable_deepersearch": {
           "value": "true"
         },
+        "responsive_web_grok_enable_video_gen_on_image_preview": {
+          "value": "false"
+        },
         "responsive_web_grok_fade_in_animation_v2_enabled": {
           "value": "true"
         },
@@ -5778,9 +5781,6 @@
           "value": "true"
         },
         "responsive_web_grok_show_message_reply_button": {
-          "value": "true"
-        },
-        "responsive_web_grok_show_translation_source_lang": {
           "value": "true"
         },
         "responsive_web_grok_sport_cards_enabled": {
@@ -6021,6 +6021,9 @@
           "value": "false"
         },
         "responsive_web_professional_journeys_holdback_enabled": {
+          "value": "false"
+        },
+        "responsive_web_profile_about_enabled": {
           "value": "false"
         },
         "responsive_web_profile_redirect_enabled": {
@@ -7769,10 +7772,10 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "e27a38d99b963246396addae99628a22"
+      "settingsVersion": "2aab1c5eca5ea0062f1b72b911cc094b"
     },
     "debug": {},
-    "featureSetToken": "088df5e35024d442565589b08bd11215077696b8",
+    "featureSetToken": "09632265ae6cee96cbc8c7b30a499cf627ddb042",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -7841,7 +7844,7 @@
   },
   "session": {
     "country": "XX",
-    "guestId": "176099427497246074",
+    "guestId": "176108071654713539",
     "hasCommunityMemberships": "false",
     "isActiveCreator": "false",
     "isLoaded": "false",
