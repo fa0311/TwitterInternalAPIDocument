@@ -3161,7 +3161,7 @@
     "LOCAL_STATE_REQUEST": "rweb/editTweet/LOCAL_STATE_REQUEST"
   },
   {
-    "fetchStatus": "_.ZP.NONE",
+    "fetchStatus": "m.ZP.NONE",
     "editTweetLimitedMarketPromptDismissedEpochMilliseconds": "0"
   },
   {
@@ -11315,6 +11315,28 @@
   "{\"root\":\"\".concat(),\"perksIntro\":\"\".concat(r,\\\"/onboarding\\\"),\"perksDescription\":\"\".concat(r,\\\"/onboarding/perks_intro\\\"),\"perksBadges\":\"\".concat(r,\\\"/onboarding/perks_description\\\"),\"perksConfirm\":\"\".concat(r,\\\"/onboarding/perks_badges\\\"),\"pricing\":\"\".concat(r,\\\"/onboarding/perks_confirm\\\"),\"pricingConfirm\":\"\".concat(r,\\\"/onboarding/pricing\\\"),\"stripeSetup\":\"\".concat(r,\\\"/onboarding/pricing_confirm\\\"),\"stripePending\":\"\".concat(r,\\\"/onboarding/stripe_setup\\\"),\"stripeCompleted\":\"\".concat(r,\\\"/onboarding/stripe_pending\\\")}",
   "{\"root\":\"\".concat(),\"perksIntro\":\"\".concat(r,\\\"/management\\\"),\"perksDescription\":\"\".concat(r,\\\"/management/perks_intro\\\"),\"perksConfirm\":\"\".concat(r,\\\"/management/perks_description\\\"),\"perksPricing\":\"\".concat(r,\\\"/management/perks_confirm\\\")}",
   {
+    "ContactSupport": "ContactSupport",
+    "DebitCardAgreementConsent": "DebitCardAgreementConsent",
+    "Deposit": "Deposit",
+    "GetPremium": "GetPremium",
+    "KycDocumentUpload": "KycDocumentUpload",
+    "KycVerification": "KycVerification",
+    "LearnMore": "LearnMore",
+    "Questionnaire": "Questionnaire",
+    "Reonboard": "Reonboard",
+    "SelfieVerification": "SelfieVerification",
+    "SetupDirectDeposit": "SetupDirectDeposit",
+    "SetupPasskey": "SetupPasskey",
+    "SetupPublicKeyCredential": "SetupPublicKeyCredential",
+    "TosConsent": "TosConsent",
+    "UsageConsent": "UsageConsent",
+    "VerifyPasskey": "VerifyPasskey"
+  },
+  {
+    "HalfCover": "HalfCover",
+    "Inline": "Inline"
+  },
+  {
     "DirectDeposit": "DirectDeposit",
     "Geography": "Geography",
     "Interest": "Interest",
@@ -11363,6 +11385,7 @@
     "Banking": "Banking",
     "Cashback": "Cashback",
     "Ecommerce": "Ecommerce",
+    "GoodwillCredit": "GoodwillCredit",
     "Incentive": "Incentive",
     "Interest": "Interest",
     "Issuing": "Issuing",
@@ -11385,6 +11408,19 @@
     "Rtp": "Rtp"
   },
   {
+    "Age": "Age",
+    "Allowlist": "Allowlist",
+    "BirthDate": "BirthDate",
+    "Geography": "Geography",
+    "IneligiblePhoneNumber": "IneligiblePhoneNumber",
+    "PhoneNumber": "PhoneNumber",
+    "PremiumOrVerifiedOrganization": "PremiumOrVerifiedOrganization",
+    "Safety": "Safety",
+    "Sanctions": "Sanctions",
+    "TwoFactorAuth": "TwoFactorAuth",
+    "Unknown": "Unknown"
+  },
+  {
     "Ach": "Ach",
     "Aft": "Aft",
     "Cash": "Cash",
@@ -11392,6 +11428,35 @@
     "Oct": "Oct",
     "ProviderBankTransfer": "ProviderBankTransfer",
     "Wire": "Wire"
+  },
+  {
+    "Archived": "Archived",
+    "AuthorizationClosed": "AuthorizationClosed",
+    "AuthorizationOpen": "AuthorizationOpen",
+    "AwaitingRequestAcceptance": "AwaitingRequestAcceptance",
+    "AwaitingUnrecognizedConfirmation": "AwaitingUnrecognizedConfirmation",
+    "Cancelled": "Cancelled",
+    "CreditedAwaitingSettlement": "CreditedAwaitingSettlement",
+    "Expired": "Expired",
+    "Failed": "Failed",
+    "Hold": "Hold",
+    "Pending": "Pending",
+    "PendingCheckCashing": "PendingCheckCashing",
+    "PendingCheckFunding": "PendingCheckFunding",
+    "PendingFundingTransactionSettlement": "PendingFundingTransactionSettlement",
+    "PendingRecipientAcceptance": "PendingRecipientAcceptance",
+    "PendingRecipientAction": "PendingRecipientAction",
+    "PendingRecipientOnboarding": "PendingRecipientOnboarding",
+    "PendingRequestAcceptance": "PendingRequestAcceptance",
+    "PendingReview": "PendingReview",
+    "PinVerificationRequired": "PinVerificationRequired",
+    "RejectedByRecipient": "RejectedByRecipient",
+    "RequestRejected": "RequestRejected",
+    "RequestVerificationRequired": "RequestVerificationRequired",
+    "Settled": "Settled",
+    "SoftSettled": "SoftSettled",
+    "Unspecified": "Unspecified",
+    "VerificationRequired": "VerificationRequired"
   },
   {
     "AtmWithdrawal": "AtmWithdrawal",
@@ -11491,7 +11556,7 @@
     "CustomerAgreementUnspecified": "CustomerAgreementUnspecified",
     "CustomerAgreementUsage": "CustomerAgreementUsage"
   },
-  "{\"terms-and-conditions\":{\"policyName\":\"c().hdabc3fc\",\"link\":\"d.uc\",\"summaryUrl\":\"\".concat(),\"agreement\":\"u.CustomerAgreementTos\"},\"acceptable-use-policy\":{\"policyName\":\"c().e096c818\",\"link\":\"d.Js\",\"summaryUrl\":\"\".concat(),\"agreement\":\"u.CustomerAgreementUsage\"},\"cardholder-agreement\":{\"policyName\":\"c().f7485d56\",\"link\":\"d.Fw\",\"summaryUrl\":\"\".concat(),\"agreement\":\"u.CustomerAgreementDebitCard\"}}",
+  "{\"terms-and-conditions\":{\"policyName\":\"u().hdabc3fc\",\"link\":\"o.uc\",\"summaryUrl\":\"\".concat(),\"agreement\":\"d.CustomerAgreementTos\"},\"acceptable-use-policy\":{\"policyName\":\"u().e096c818\",\"link\":\"o.Js\",\"summaryUrl\":\"\".concat(),\"agreement\":\"d.CustomerAgreementUsage\"},\"cardholder-agreement\":{\"policyName\":\"u().f7485d56\",\"link\":\"o.Fw\",\"summaryUrl\":\"\".concat(),\"agreement\":\"d.CustomerAgreementDebitCard\"}}",
   {
     "summaryPane": "summaryPane"
   },
@@ -11503,18 +11568,6 @@
   },
   {
     "Pinwheel": "Pinwheel",
-    "Unknown": "Unknown"
-  },
-  {
-    "Age": "Age",
-    "Allowlist": "Allowlist",
-    "BirthDate": "BirthDate",
-    "Geography": "Geography",
-    "PhoneNumber": "PhoneNumber",
-    "PremiumOrVerifiedOrganization": "PremiumOrVerifiedOrganization",
-    "Safety": "Safety",
-    "Sanctions": "Sanctions",
-    "TwoFactorAuth": "TwoFactorAuth",
     "Unknown": "Unknown"
   },
   {
@@ -11671,24 +11724,6 @@
     "DocumentTypeUnspecified": "DocumentTypeUnspecified"
   },
   {
-    "ContactSupport": "ContactSupport",
-    "DebitCardAgreementConsent": "DebitCardAgreementConsent",
-    "Deposit": "Deposit",
-    "GetPremium": "GetPremium",
-    "KycDocumentUpload": "KycDocumentUpload",
-    "KycVerification": "KycVerification",
-    "LearnMore": "LearnMore",
-    "Questionnaire": "Questionnaire",
-    "Reonboard": "Reonboard",
-    "SelfieVerification": "SelfieVerification",
-    "SetupDirectDeposit": "SetupDirectDeposit",
-    "SetupPasskey": "SetupPasskey",
-    "SetupPublicKeyCredential": "SetupPublicKeyCredential",
-    "TosConsent": "TosConsent",
-    "UsageConsent": "UsageConsent",
-    "VerifyPasskey": "VerifyPasskey"
-  },
-  {
     "Alert": "Alert",
     "Info": "Info",
     "Warning": "Warning"
@@ -11708,6 +11743,11 @@
     "xJumbo": "xJumbo"
   },
   {
+    "GrokTransactionSearchRatingDownvote": "GrokTransactionSearchRatingDownvote",
+    "GrokTransactionSearchRatingUnspecified": "GrokTransactionSearchRatingUnspecified",
+    "GrokTransactionSearchRatingUpvote": "GrokTransactionSearchRatingUpvote"
+  },
+  {
     "EntityNotFound": "EntityNotFound",
     "HasAccountBalance": "HasAccountBalance",
     "HasActiveDisputes": "HasActiveDisputes",
@@ -11721,7 +11761,7 @@
     "ShouldProvidePaymentId": "ShouldProvidePaymentId",
     "Unspecified": "Unspecified"
   },
-  "{\"InsufficientFunds\":{\"headline\":\"m().f66c509a\",\"message\":\"m().f9e0e6a2\",\"action\":{\"link\":\"y.IN\",\"label\":\"m().a4ef9cbe\"}},\"InvalidReceiver\":{\"getHeadline\":\"function()\"{\"return e.actionType===g.jq.P2P_TRANSFER_REQUEST?I\":\"K\"},\"headline\":\"K\",\"message\":\"w\",\"getErrorReporting\":\"function()\"{\"return\"{\"issueReportEnabled\":\"!0\",\"description\":\"Encountered an error while making a request.\"}}},\"InvalidReceiverCurrentState\":{\"getHeadline\":\"function()\"{\"return e.actionType===g.jq.P2P_TRANSFER_REQUEST?I\":\"K\"},\"headline\":\"K\",\"message\":\"w\"},\"BankIssue\":{\"getHeadline\":\"function()\"{var n=e.actionType;return n===g.jq.DEPOSIT?X:n===g.jq.WITHDRAWAL?V:\"U\"},\"headline\":\"U\",\"message\":\"R\"},\"InvalidReceiverPreferences\":{\"getHeadline\":\"function()\"{\"return e.actionType===g.jq.P2P_TRANSFER_REQUEST?I\":\"K\"},\"headline\":\"K\",\"message\":\"x\",\"getMessage\":\"function()\"{\"var n=e.actionType\",t=e.counterPartyScreenName;return t?n===g.jq.P2P_TRANSFER_REQUEST?q(){\"counterPartyScreenName\":\"t\"}{\"counterPartyScreenName\":\"t\"}}},\"InvalidSenderPreferences\":{\"headline\":\"I\",\"message\":\"x\",\"getMessage\":\"function()\"{\"var n=e.actionType\",t=e.counterPartyScreenName;return t?n===g.jq.P2P_TRANSFER_REQUEST?q(){\"counterPartyScreenName\":\"t\"}{\"counterPartyScreenName\":\"t\"}}},\"InvalidSender\":{\"getHeadline\":\"function()\"{\"return e.actionType===g.jq.P2P_TRANSFER_REQUEST?I\":\"K\"},\"headline\":\"K\",\"message\":\"w\",\"getErrorReporting\":\"function()\"{\"return\"{\"issueReportEnabled\":\"!0\",\"description\":\"Encountered an error while making a payment.\"}}},\"InvalidSenderCurrentState\":{\"getHeadline\":\"function()\"{\"return e.actionType===g.jq.P2P_TRANSFER_REQUEST?I\":\"K\"},\"headline\":\"K\",\"message\":\"w\"},\"IdempotencyKeyConflict\":{\"headline\":\"m().f6b3499c\",\"message\":\"m().f64125f6\",\"action\":{\"link\":\"y.bR\",\"label\":\"m().e63ed2f0\"}},\"CustomerMissingPrimaryAddress\":{\"message\":\"m().gde35c74\",\"action\":{\"link\":\"y.f0\",\"label\":\"m().jd899ca2\"}},\"LoginRequired\":\"D\",\"PaymentMethodLinkRequired\":\"D\",\"AccountLinkingNameMismatch\":{\"message\":\"m().d660047c\"},\"InsufficientBalance\":{\"headline\":\"m().f66c509a\",\"message\":\"m().f40c576c\",\"action\":{\"link\":\"y.IN\",\"label\":\"m().a4ef9cbe\"}},\"TwoFactorAuthRequired\":{\"message\":\"m().i10a73ce\",\"action\":{\"link\":\"y.ul\",\"label\":\"m().b4642e52\"}},\"VolumeLimitExceeded7DaySend\":{\"headline\":\"C()\"{\"type\":\"weekly\"}\"e\"{\"var n=e.actionType\",t=e.limits;return T(){\"type\":\"weekly\",\"limits\":\"t\",\"actionType\":\"n\"}},\"message\":\"L\",\"getAction\":\"function()\"{\"var n=e.actionType\",t=e.limits;return F(){\"actionType\":\"n\",\"limits\":\"t\",\"type\":\"weekly\"}},\"action\":{\"link\":\"y.iE.limits\",\"label\":\"b\"}},\"VolumeLimitExceeded30DaySend\":{\"headline\":\"C()\"{\"type\":\"monthly\"}\"e\"{\"var n=e.actionType\",t=e.limits;return T(){\"type\":\"monthly\",\"limits\":\"t\",\"actionType\":\"n\"}},\"message\":\"L\",\"getAction\":\"function()\"{\"var n=e.actionType\",t=e.limits;return F(){\"actionType\":\"n\",\"limits\":\"t\",\"type\":\"monthly\"}},\"action\":{\"link\":\"y.iE.limits\",\"label\":\"b\"}},\"VolumeLimitExceeded7Day\":{\"headline\":\"C()\"{\"type\":\"weekly\"}\"e\"{\"var n=e.actionType\",t=e.limits;return T(){\"type\":\"weekly\",\"limits\":\"t\",\"actionType\":\"n\"}},\"message\":\"L\",\"getAction\":\"function()\"{\"var n=e.actionType\",t=e.limits;return F(){\"actionType\":\"n\",\"limits\":\"t\",\"type\":\"weekly\"}},\"action\":{\"link\":\"y.iE.limits\",\"label\":\"b\"}},\"VolumeLimitExceeded30Day\":{\"headline\":\"C()\"{\"type\":\"monthly\"}\"e\"{\"var n=e.actionType\",t=e.limits;return T(){\"type\":\"monthly\",\"limits\":\"t\",\"actionType\":\"n\"}},\"message\":\"L\",\"getAction\":\"function()\"{\"var n=e.actionType\",t=e.limits;return F(){\"actionType\":\"n\",\"limits\":\"t\",\"type\":\"monthly\"}},\"action\":{\"link\":\"y.iE.limits\",\"label\":\"b\"}},\"AdditionalKycRequiredVolumeLimitExceeded7DaySend\":\"A\",\"AdditionalKycRequiredVolumeLimitExceeded30DaySend\":\"A\",\"AdditionalKycRequiredTotalVolumeLimitExceeded\":\"A\",\"AdditionalKycRequired\":{\"headline\":\"m().g243dc66\",\"message\":\"m().b0315b3a\",\"action\":{\"link\":\"y.AU.tier2.verifyIdentityPath\",\"label\":\"m().c3d89aca\"}},\"Velocity\":{\"headline\":\"z\",\"getHeadline\":\"function()\"{var n=e.actionType;return n?N(){\"actionType\":S[n]}},\"message\":\"m().cd34a81a\"},\"HasAccountBalance\":{\"headline\":\"M\",\"message\":\"m().a9ec0e4a\",\"action\":{\"link\":\"y.r0\",\"label\":\"m().c0728748\"}},\"HasCashbackAccountBalance\":{\"headline\":\"M\",\"message\":\"m().a387275c\",\"action\":{\"link\":\"y.Tb\",\"label\":\"m().e49c288c\"}},\"HasActiveDisputes\":{\"headline\":\"M\",\"message\":\"m().c4800cb8\"},\"HasPendingTransactions\":{\"headline\":\"M\",\"message\":\"m().i0391488\"},\"InactivePaymentMethod\":\"B\",\"InvalidPaymentMethodType\":\"B\",\"PaymentMethodDeleted\":\"B\",\"FeeCalculationError\":{\"headline\":\"O\",\"getHeadline\":\"function()\"{var n=e.actionType;return n?j(){\"actionType\":S[n]}},\"message\":\"R\",\"action\":{\"link\":\"y.gp\",\"label\":\"m().a893d602\"},\"getErrorReporting\":\"function()\"{\"var n\",t=e.actionType;return t===g.jq.DEPOSIT||t===g.jq.WITHDRAWAL?{\"issueReportEnabled\":\"!0\",\"description\":\"Encountered an error while calculating fees for a \".concat()}:{\"issueReportEnabled\":\"!1\"}}},\"Unexpected\":{\"headline\":\"m().ac1c4c40\",\"message\":\"m().de869c96\",\"getErrorReporting\":\"function()\"{\"var n\",t=e.actionType;return t===g.jq.DEPOSIT||t===g.jq.WITHDRAWAL?{\"issueReportEnabled\":\"!0\",\"description\":\"Encountered an unexpected error during a \".concat()}:{\"issueReportEnabled\":\"!1\"}}},\"Default\":{\"getHeadline\":\"function()\"{\"switch()\"{\"case g.jq.P2P_TRANSFER_SEND\":return K;case g.jq.P2P_TRANSFER_REQUEST:return I;case g.jq.WITHDRAWAL:return V;case g.jq.DEPOSIT:return X;case g.jq.CLOSE_ACCOUNT:return M;default:\"return m().j3dc6686\"}},\"getMessage\":\"function()\"{\"switch()\"{\"case g.jq.P2P_TRANSFER_SEND\":case g.jq.P2P_TRANSFER_REQUEST:return w;default:\"return R\"}},\"message\":\"R\",\"getErrorReporting\":\"function()\"{\"var n\",t,a=e.actionType;return a===g.jq.DEPOSIT||a===g.jq.WITHDRAWAL?{\"issueReportEnabled\":\"!0\",\"description\":\"Encountered an unexpected error during a \".concat()}:a===g.jq.P2P_TRANSFER_REQUEST||a===g.jq.P2P_TRANSFER_SEND||a===g.jq.P2P_TRANSFER_SEND_FUNDED?{\"issueReportEnabled\":\"!0\",\"description\":\"Encountered an unexpected error during a \".concat()}:{\"issueReportEnabled\":\"!1\"}}}}",
+  "{\"InsufficientFunds\":{\"headline\":\"m().f66c509a\",\"message\":\"m().f9e0e6a2\",\"action\":{\"link\":\"y.IN\",\"label\":\"m().a4ef9cbe\"}},\"InvalidReceiver\":{\"getHeadline\":\"function()\"{\"return e.actionType===g.jq.P2P_TRANSFER_REQUEST?I\":\"K\"},\"headline\":\"K\",\"message\":\"w\",\"getErrorReporting\":\"function()\"{\"return\"{\"issueReportEnabled\":\"!0\",\"description\":\"Encountered an error while making a request.\"}}},\"InvalidReceiverCurrentState\":{\"getHeadline\":\"function()\"{\"return e.actionType===g.jq.P2P_TRANSFER_REQUEST?I\":\"K\"},\"headline\":\"K\",\"message\":\"w\"},\"BankIssue\":{\"getHeadline\":\"function()\"{var n=e.actionType;return n===g.jq.DEPOSIT?U:n===g.jq.WITHDRAWAL?V:\"X\"},\"headline\":\"X\",\"message\":\"R\"},\"InvalidReceiverPreferences\":{\"getHeadline\":\"function()\"{\"return e.actionType===g.jq.P2P_TRANSFER_REQUEST?I\":\"K\"},\"headline\":\"K\",\"message\":\"x\",\"getMessage\":\"function()\"{\"var n=e.actionType\",t=e.counterPartyScreenName;return t?n===g.jq.P2P_TRANSFER_REQUEST?q(){\"counterPartyScreenName\":\"t\"}{\"counterPartyScreenName\":\"t\"}}},\"InvalidSenderPreferences\":{\"headline\":\"I\",\"message\":\"x\",\"getMessage\":\"function()\"{\"var n=e.actionType\",t=e.counterPartyScreenName;return t?n===g.jq.P2P_TRANSFER_REQUEST?q(){\"counterPartyScreenName\":\"t\"}{\"counterPartyScreenName\":\"t\"}}},\"InvalidSender\":{\"getHeadline\":\"function()\"{\"return e.actionType===g.jq.P2P_TRANSFER_REQUEST?I\":\"K\"},\"headline\":\"K\",\"message\":\"w\",\"getErrorReporting\":\"function()\"{\"return\"{\"issueReportEnabled\":\"!0\",\"description\":\"Encountered an error while making a payment.\"}}},\"InvalidSenderCurrentState\":{\"getHeadline\":\"function()\"{\"return e.actionType===g.jq.P2P_TRANSFER_REQUEST?I\":\"K\"},\"headline\":\"K\",\"message\":\"w\"},\"IdempotencyKeyConflict\":{\"headline\":\"m().f6b3499c\",\"message\":\"m().f64125f6\",\"action\":{\"link\":\"y.bR\",\"label\":\"m().e63ed2f0\"}},\"CustomerMissingPrimaryAddress\":{\"message\":\"m().gde35c74\",\"action\":{\"link\":\"y.f0\",\"label\":\"m().jd899ca2\"}},\"LoginRequired\":\"D\",\"PaymentMethodLinkRequired\":\"D\",\"AccountLinkingNameMismatch\":{\"message\":\"m().d660047c\"},\"InsufficientBalance\":{\"headline\":\"m().f66c509a\",\"message\":\"m().f40c576c\",\"action\":{\"link\":\"y.IN\",\"label\":\"m().a4ef9cbe\"}},\"TwoFactorAuthRequired\":{\"message\":\"m().i10a73ce\",\"action\":{\"link\":\"y.ul\",\"label\":\"m().b4642e52\"}},\"VolumeLimitExceeded7DaySend\":{\"headline\":\"E()\"{\"type\":\"weekly\"}\"e\"{\"var n=e.actionType\",t=e.limits;return T(){\"type\":\"weekly\",\"limits\":\"t\",\"actionType\":\"n\"}},\"message\":\"L\",\"getAction\":\"function()\"{\"var n=e.actionType\",t=e.limits;return F(){\"actionType\":\"n\",\"limits\":\"t\",\"type\":\"weekly\"}},\"action\":{\"link\":\"y.iE.limits\",\"label\":\"b\"}},\"VolumeLimitExceeded30DaySend\":{\"headline\":\"E()\"{\"type\":\"monthly\"}\"e\"{\"var n=e.actionType\",t=e.limits;return T(){\"type\":\"monthly\",\"limits\":\"t\",\"actionType\":\"n\"}},\"message\":\"L\",\"getAction\":\"function()\"{\"var n=e.actionType\",t=e.limits;return F(){\"actionType\":\"n\",\"limits\":\"t\",\"type\":\"monthly\"}},\"action\":{\"link\":\"y.iE.limits\",\"label\":\"b\"}},\"VolumeLimitExceeded7Day\":{\"headline\":\"E()\"{\"type\":\"weekly\"}\"e\"{\"var n=e.actionType\",t=e.limits;return T(){\"type\":\"weekly\",\"limits\":\"t\",\"actionType\":\"n\"}},\"message\":\"L\",\"getAction\":\"function()\"{\"var n=e.actionType\",t=e.limits;return F(){\"actionType\":\"n\",\"limits\":\"t\",\"type\":\"weekly\"}},\"action\":{\"link\":\"y.iE.limits\",\"label\":\"b\"}},\"VolumeLimitExceeded30Day\":{\"headline\":\"E()\"{\"type\":\"monthly\"}\"e\"{\"var n=e.actionType\",t=e.limits;return T(){\"type\":\"monthly\",\"limits\":\"t\",\"actionType\":\"n\"}},\"message\":\"L\",\"getAction\":\"function()\"{\"var n=e.actionType\",t=e.limits;return F(){\"actionType\":\"n\",\"limits\":\"t\",\"type\":\"monthly\"}},\"action\":{\"link\":\"y.iE.limits\",\"label\":\"b\"}},\"AdditionalKycRequiredVolumeLimitExceeded7DaySend\":\"A\",\"AdditionalKycRequiredVolumeLimitExceeded30DaySend\":\"A\",\"AdditionalKycRequiredTotalVolumeLimitExceeded\":\"A\",\"AdditionalKycRequired\":{\"headline\":\"m().g243dc66\",\"message\":\"m().b0315b3a\",\"action\":{\"link\":\"y.AU.tier2.verifyIdentityPath\",\"label\":\"m().c3d89aca\"}},\"Velocity\":{\"headline\":\"z\",\"getHeadline\":\"function()\"{var n=e.actionType;return n?N(){\"actionType\":S[n]}},\"message\":\"m().cd34a81a\"},\"HasAccountBalance\":{\"headline\":\"M\",\"message\":\"m().a9ec0e4a\",\"action\":{\"link\":\"y.r0\",\"label\":\"m().c0728748\"}},\"HasCashbackAccountBalance\":{\"headline\":\"M\",\"message\":\"m().a387275c\",\"action\":{\"link\":\"y.Tb\",\"label\":\"m().e49c288c\"}},\"HasActiveDisputes\":{\"headline\":\"M\",\"message\":\"m().c4800cb8\"},\"HasPendingTransactions\":{\"headline\":\"M\",\"message\":\"m().i0391488\"},\"InactivePaymentMethod\":\"B\",\"InvalidPaymentMethodType\":\"B\",\"PaymentMethodDeleted\":\"B\",\"FeeCalculationError\":{\"headline\":\"O\",\"getHeadline\":\"function()\"{var n=e.actionType;return n?j(){\"actionType\":S[n]}},\"message\":\"R\",\"action\":{\"link\":\"y.gp\",\"label\":\"m().a893d602\"},\"getErrorReporting\":\"function()\"{\"var n\",t=e.actionType;return t===g.jq.DEPOSIT||t===g.jq.WITHDRAWAL?{\"issueReportEnabled\":\"!0\",\"description\":\"Encountered an error while calculating fees for a \".concat()}:{\"issueReportEnabled\":\"!1\"}}},\"Unexpected\":{\"headline\":\"m().ac1c4c40\",\"message\":\"m().de869c96\",\"getErrorReporting\":\"function()\"{\"var n\",t=e.actionType;return t===g.jq.DEPOSIT||t===g.jq.WITHDRAWAL?{\"issueReportEnabled\":\"!0\",\"description\":\"Encountered an unexpected error during a \".concat()}:{\"issueReportEnabled\":\"!1\"}}},\"Default\":{\"getHeadline\":\"function()\"{\"switch()\"{\"case g.jq.P2P_TRANSFER_SEND\":return K;case g.jq.P2P_TRANSFER_REQUEST:return I;case g.jq.WITHDRAWAL:return V;case g.jq.DEPOSIT:return U;case g.jq.CLOSE_ACCOUNT:return M;default:\"return m().j3dc6686\"}},\"getMessage\":\"function()\"{\"switch()\"{\"case g.jq.P2P_TRANSFER_SEND\":case g.jq.P2P_TRANSFER_REQUEST:return w;default:\"return R\"}},\"message\":\"R\",\"getErrorReporting\":\"function()\"{\"var n\",t,a=e.actionType;return a===g.jq.DEPOSIT||a===g.jq.WITHDRAWAL?{\"issueReportEnabled\":\"!0\",\"description\":\"Encountered an unexpected error during a \".concat()}:a===g.jq.P2P_TRANSFER_REQUEST||a===g.jq.P2P_TRANSFER_SEND||a===g.jq.P2P_TRANSFER_SEND_FUNDED?{\"issueReportEnabled\":\"!0\",\"description\":\"Encountered an unexpected error during a \".concat()}:{\"issueReportEnabled\":\"!1\"}}}}",
   {
     "ClaimTransferDecisionAccept": "ClaimTransferDecisionAccept",
     "ClaimTransferDecisionReject": "ClaimTransferDecisionReject",
@@ -11809,6 +11849,11 @@
     "x": "x",
     "cash": "cash",
     "check": "check"
+  },
+  {
+    "terms-and-conditions": "terms-and-conditions",
+    "acceptable-use-policy": "acceptable-use-policy",
+    "cardholder-agreement": "cardholder-agreement"
   },
   {
     "initiate": "initiate-challenge",
@@ -11932,35 +11977,6 @@
     "KeyedIn": "KeyedIn",
     "Online": "Online",
     "Swipe": "Swipe"
-  },
-  {
-    "Archived": "Archived",
-    "AuthorizationClosed": "AuthorizationClosed",
-    "AuthorizationOpen": "AuthorizationOpen",
-    "AwaitingRequestAcceptance": "AwaitingRequestAcceptance",
-    "AwaitingUnrecognizedConfirmation": "AwaitingUnrecognizedConfirmation",
-    "Cancelled": "Cancelled",
-    "CreditedAwaitingSettlement": "CreditedAwaitingSettlement",
-    "Expired": "Expired",
-    "Failed": "Failed",
-    "Hold": "Hold",
-    "Pending": "Pending",
-    "PendingCheckCashing": "PendingCheckCashing",
-    "PendingCheckFunding": "PendingCheckFunding",
-    "PendingFundingTransactionSettlement": "PendingFundingTransactionSettlement",
-    "PendingRecipientAcceptance": "PendingRecipientAcceptance",
-    "PendingRecipientAction": "PendingRecipientAction",
-    "PendingRecipientOnboarding": "PendingRecipientOnboarding",
-    "PendingRequestAcceptance": "PendingRequestAcceptance",
-    "PendingReview": "PendingReview",
-    "PinVerificationRequired": "PinVerificationRequired",
-    "RejectedByRecipient": "RejectedByRecipient",
-    "RequestRejected": "RequestRejected",
-    "RequestVerificationRequired": "RequestVerificationRequired",
-    "Settled": "Settled",
-    "SoftSettled": "SoftSettled",
-    "Unspecified": "Unspecified",
-    "VerificationRequired": "VerificationRequired"
   },
   {
     "REQUEST": "rweb/subscriptionPayments/FETCH_SUBSCRIPTION_PRODUCT_DETAILS_REQUEST",
