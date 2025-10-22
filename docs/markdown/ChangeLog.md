@@ -7230,3 +7230,15 @@
 - responsive_web_grok_enable_video_gen_on_image_preview<br>
 #### remove<br>
 - responsive_web_grok_show_translation_source_lang<br>
+## 2025/10/22<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- payments_half_cover_notices_enabled<br>
+- responsive_web_profile_about_pilot<br>
+#### remove<br>
+- None<br>
