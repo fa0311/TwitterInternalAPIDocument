@@ -31,6 +31,131 @@ This document is entirely auto-generated and may contain errors.<br>
 # Error
 {"₊":"+","₋":"-","₌":"=","₍":"()","₀":"0","₁":"1","₂":"2","₃":"3","₄":"4","₅":"5","₆":"6","₇":"7","₈":"8","₉":"9",ₐ:"a",ₑ:"e",ₕ:"h",ᵢ:"i",ⱼ:"j",ₖ:"k",ₗ:"l",ₘ:"m",ₙ:"n",ₒ:"o",ₚ:"p",ᵣ:"r",ₛ:"s",ₜ:"t",ᵤ:"u",ᵥ:"v",ₓ:"x",ᵦ:"β",ᵧ:"γ",ᵨ:"ρ",ᵩ:"ϕ",ᵪ:"χ","⁺":"+","⁻":"-","⁼":"=","⁽":"(\",\"₎\":\")","⁰":"0","¹...
 ```
+| constant    | value                 |
+|:------------|:----------------------|
+| X_BACKEND   | X_BACKEND             |
+| IN_PROGRESS | MIGRATION_IN_PROGRESS |
+| XAI_BACKEND | XAI_BACKEND           |
+
+| constant   | value   |
+|:-----------|:--------|
+| FUN        | fun     |
+| REGULAR    |         |
+
+| constant   | value   |
+|:-----------|:--------|
+| IDLE       | idle    |
+| TYPING     | typing  |
+| WAITING    | waiting |
+| FAILED     | failed  |
+
+| constant   | value                                |
+|:-----------|:-------------------------------------|
+| REQUEST    | rweb/FETCH_GROK_CONVERSATION/REQUEST |
+| SUCCESS    | rweb/FETCH_GROK_CONVERSATION/SUCCESS |
+| FAILURE    | rweb/FETCH_GROK_CONVERSATION/FAILURE |
+
+| constant   | value                                    |
+|:-----------|:-----------------------------------------|
+| REQUEST    | rweb/RECONNECT_GROK_CONVERSATION/REQUEST |
+| SUCCESS    | rweb/RECONNECT_GROK_CONVERSATION/SUCCESS |
+| FAILURE    | rweb/RECONNECT_GROK_CONVERSATION/FAILURE |
+
+| constant   | value                           |
+|:-----------|:--------------------------------|
+| REQUEST    | rweb/FETCH_GROK_HISTORY/REQUEST |
+| SUCCESS    | rweb/FETCH_GROK_HISTORY/SUCCESS |
+| FAILURE    | rweb/FETCH_GROK_HISTORY/FAILURE |
+
+| constant   | value                            |
+|:-----------|:---------------------------------|
+| REQUEST    | rweb/DELETE_GROK_MESSAGE/REQUEST |
+| SUCCESS    | rweb/DELETE_GROK_MESSAGE/SUCCESS |
+| FAILURE    | rweb/DELETE_GROK_MESSAGE/FAILURE |
+
+| constant   | value                                        |
+|:-----------|:---------------------------------------------|
+| REQUEST    | rweb/FETCH_GROK_PINNED_CONVERSATIONS/REQUEST |
+| SUCCESS    | rweb/FETCH_GROK_PINNED_CONVERSATIONS/SUCCESS |
+| FAILURE    | rweb/FETCH_GROK_PINNED_CONVERSATIONS/FAILURE |
+
+| constant   | value                                 |
+|:-----------|:--------------------------------------|
+| REQUEST    | rweb/FETCH_GROK_MEDIA_HISTORY/REQUEST |
+| SUCCESS    | rweb/FETCH_GROK_MEDIA_HISTORY/SUCCESS |
+| FAILURE    | rweb/FETCH_GROK_MEDIA_HISTORY/FAILURE |
+
+| constant   | value                            |
+|:-----------|:---------------------------------|
+| REQUEST    | rweb/SEARCH_GROK_HISTORY/REQUEST |
+| SUCCESS    | rweb/SEARCH_GROK_HISTORY/SUCCESS |
+| FAILURE    | rweb/SEARCH_GROK_HISTORY/FAILURE |
+
+| constant   | value                        |
+|:-----------|:-----------------------------|
+| REQUEST    | rweb/FETCH_GROK_HOME/REQUEST |
+| SUCCESS    | rweb/FETCH_GROK_HOME/SUCCESS |
+| FAILURE    | rweb/FETCH_GROK_HOME/FAILURE |
+
+| constant   | value                         |
+|:-----------|:------------------------------|
+| REQUEST    | rweb/FETCH_GROK_SHARE/REQUEST |
+| SUCCESS    | rweb/FETCH_GROK_SHARE/SUCCESS |
+| FAILURE    | rweb/FETCH_GROK_SHARE/FAILURE |
+
+| constant   | value                        |
+|:-----------|:-----------------------------|
+| REQUEST    | rweb/SET_PREFERENCES/REQUEST |
+| SUCCESS    | rweb/SET_PREFERENCES/SUCCESS |
+| FAILURE    | rweb/SET_PREFERENCES/FAILURE |
+
+| constant   | value                              |
+|:-----------|:-----------------------------------|
+| REQUEST    | rweb/PIN_GROK_CONVERSATION/REQUEST |
+| SUCCESS    | rweb/PIN_GROK_CONVERSATION/SUCCESS |
+| FAILURE    | rweb/PIN_GROK_CONVERSATION/FAILURE |
+
+| constant   | value                                |
+|:-----------|:-------------------------------------|
+| REQUEST    | rweb/UNPIN_GROK_CONVERSATION/REQUEST |
+| SUCCESS    | rweb/UNPIN_GROK_CONVERSATION/SUCCESS |
+| FAILURE    | rweb/UNPIN_GROK_CONVERSATION/FAILURE |
+
+| constant   | value                            |
+|:-----------|:---------------------------------|
+| REQUEST    | rweb/CLEAR_CONVERSATIONS/REQUEST |
+| SUCCESS    | rweb/CLEAR_CONVERSATIONS/SUCCESS |
+| FAILURE    | rweb/CLEAR_CONVERSATIONS/FAILURE |
+
+| constant   | value                             |
+|:-----------|:----------------------------------|
+| REQUEST    | rweb/GROK_USER_EVENTS_LOG/REQUEST |
+| SUCCESS    | rweb/GROK_USER_EVENTS_LOG/SUCCESS |
+| FAILURE    | rweb/GROK_USER_EVENTS_LOG/FAILURE |
+
+| constant   |   value |
+|:-----------|--------:|
+| HUMAN      |       1 |
+| ASSISTANT  |       2 |
+
+| constant              | value                    |
+|:----------------------|:-------------------------|
+| CodeExecution         | code_execution           |
+| BrowsePage            | browse_page              |
+| XSearch               | x_search                 |
+| WebSearch             | web_search               |
+| XKeywordSearch        | x_keyword_search         |
+| XSemanticSearch       | x_semantic_search        |
+| XUserSearch           | x_user_search            |
+| GetXUserTimeline      | get_x_user_timeline      |
+| WebSearchWithSnippets | web_search_with_snippets |
+| AddMemory             | add_memory               |
+| EditMemory            | edit_memory              |
+| DeleteMemory          | delete_memory            |
+| XThreadFetch          | x_thread_fetch           |
+| ViewXVideo            | view_x_video             |
+| ViewImage             | view_image               |
+
 | constant   | value                                                                                                                |
 |:-----------|:---------------------------------------------------------------------------------------------------------------------|
 | apple      | https://apps.apple.com/account/billing                                                                               |
