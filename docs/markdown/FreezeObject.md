@@ -3202,7 +3202,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant                                               | value     |
 |:-------------------------------------------------------|:----------|
-| fetchStatus                                            | _.ZP.NONE |
+| fetchStatus                                            | m.ZP.NONE |
 | editTweetLimitedMarketPromptDismissedEpochMilliseconds | 0         |
 
 | constant   | value     |
@@ -12153,6 +12153,30 @@ This document is entirely auto-generated and may contain errors.<br>
 # Error
 {"root":"".concat(),"perksIntro":"".concat(r,\"/management\"),"perksDescription":"".concat(r,\"/management/perks_intro\"),"perksConfirm":"".concat(r,\"/management/perks_description\"),"perksPricing":"".concat(r,\"/management/perks_confirm\")}
 ```
+| constant                  | value                     |
+|:--------------------------|:--------------------------|
+| ContactSupport            | ContactSupport            |
+| DebitCardAgreementConsent | DebitCardAgreementConsent |
+| Deposit                   | Deposit                   |
+| GetPremium                | GetPremium                |
+| KycDocumentUpload         | KycDocumentUpload         |
+| KycVerification           | KycVerification           |
+| LearnMore                 | LearnMore                 |
+| Questionnaire             | Questionnaire             |
+| Reonboard                 | Reonboard                 |
+| SelfieVerification        | SelfieVerification        |
+| SetupDirectDeposit        | SetupDirectDeposit        |
+| SetupPasskey              | SetupPasskey              |
+| SetupPublicKeyCredential  | SetupPublicKeyCredential  |
+| TosConsent                | TosConsent                |
+| UsageConsent              | UsageConsent              |
+| VerifyPasskey             | VerifyPasskey             |
+
+| constant   | value     |
+|:-----------|:----------|
+| HalfCover  | HalfCover |
+| Inline     | Inline    |
+
 | constant            | value               |
 |:--------------------|:--------------------|
 | DirectDeposit       | DirectDeposit       |
@@ -12204,15 +12228,16 @@ This document is entirely auto-generated and may contain errors.<br>
 | ScaRequired   | ScaRequired   |
 | Unspecified   | Unspecified   |
 
-| constant   | value     |
-|:-----------|:----------|
-| Banking    | Banking   |
-| Cashback   | Cashback  |
-| Ecommerce  | Ecommerce |
-| Incentive  | Incentive |
-| Interest   | Interest  |
-| Issuing    | Issuing   |
-| Transfer   | Transfer  |
+| constant       | value          |
+|:---------------|:---------------|
+| Banking        | Banking        |
+| Cashback       | Cashback       |
+| Ecommerce      | Ecommerce      |
+| GoodwillCredit | GoodwillCredit |
+| Incentive      | Incentive      |
+| Interest       | Interest       |
+| Issuing        | Issuing        |
+| Transfer       | Transfer       |
 
 | constant   | value   |
 |:-----------|:--------|
@@ -12232,6 +12257,20 @@ This document is entirely auto-generated and may contain errors.<br>
 | Oct          | Oct          |
 | Rtp          | Rtp          |
 
+| constant                      | value                         |
+|:------------------------------|:------------------------------|
+| Age                           | Age                           |
+| Allowlist                     | Allowlist                     |
+| BirthDate                     | BirthDate                     |
+| Geography                     | Geography                     |
+| IneligiblePhoneNumber         | IneligiblePhoneNumber         |
+| PhoneNumber                   | PhoneNumber                   |
+| PremiumOrVerifiedOrganization | PremiumOrVerifiedOrganization |
+| Safety                        | Safety                        |
+| Sanctions                     | Sanctions                     |
+| TwoFactorAuth                 | TwoFactorAuth                 |
+| Unknown                       | Unknown                       |
+
 | constant             | value                |
 |:---------------------|:---------------------|
 | Ach                  | Ach                  |
@@ -12241,6 +12280,36 @@ This document is entirely auto-generated and may contain errors.<br>
 | Oct                  | Oct                  |
 | ProviderBankTransfer | ProviderBankTransfer |
 | Wire                 | Wire                 |
+
+| constant                            | value                               |
+|:------------------------------------|:------------------------------------|
+| Archived                            | Archived                            |
+| AuthorizationClosed                 | AuthorizationClosed                 |
+| AuthorizationOpen                   | AuthorizationOpen                   |
+| AwaitingRequestAcceptance           | AwaitingRequestAcceptance           |
+| AwaitingUnrecognizedConfirmation    | AwaitingUnrecognizedConfirmation    |
+| Cancelled                           | Cancelled                           |
+| CreditedAwaitingSettlement          | CreditedAwaitingSettlement          |
+| Expired                             | Expired                             |
+| Failed                              | Failed                              |
+| Hold                                | Hold                                |
+| Pending                             | Pending                             |
+| PendingCheckCashing                 | PendingCheckCashing                 |
+| PendingCheckFunding                 | PendingCheckFunding                 |
+| PendingFundingTransactionSettlement | PendingFundingTransactionSettlement |
+| PendingRecipientAcceptance          | PendingRecipientAcceptance          |
+| PendingRecipientAction              | PendingRecipientAction              |
+| PendingRecipientOnboarding          | PendingRecipientOnboarding          |
+| PendingRequestAcceptance            | PendingRequestAcceptance            |
+| PendingReview                       | PendingReview                       |
+| PinVerificationRequired             | PinVerificationRequired             |
+| RejectedByRecipient                 | RejectedByRecipient                 |
+| RequestRejected                     | RequestRejected                     |
+| RequestVerificationRequired         | RequestVerificationRequired         |
+| Settled                             | Settled                             |
+| SoftSettled                         | SoftSettled                         |
+| Unspecified                         | Unspecified                         |
+| VerificationRequired                | VerificationRequired                |
 
 | constant         | value            |
 |:-----------------|:-----------------|
@@ -12353,7 +12422,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{"terms-and-conditions":{"policyName":"c().hdabc3fc","link":"d.uc","summaryUrl":"".concat(),"agreement":"u.CustomerAgreementTos"},"acceptable-use-policy":{"policyName":"c().e096c818","link":"d.Js","summaryUrl":"".concat(),"agreement":"u.CustomerAgreementUsage"},"cardholder-agreement":{"policyName":"...
+{"terms-and-conditions":{"policyName":"u().hdabc3fc","link":"o.uc","summaryUrl":"".concat(),"agreement":"d.CustomerAgreementTos"},"acceptable-use-policy":{"policyName":"u().e096c818","link":"o.Js","summaryUrl":"".concat(),"agreement":"d.CustomerAgreementUsage"},"cardholder-agreement":{"policyName":"...
 ```
 | constant    | value       |
 |:------------|:------------|
@@ -12370,19 +12439,6 @@ This document is entirely auto-generated and may contain errors.<br>
 |:-----------|:---------|
 | Pinwheel   | Pinwheel |
 | Unknown    | Unknown  |
-
-| constant                      | value                         |
-|:------------------------------|:------------------------------|
-| Age                           | Age                           |
-| Allowlist                     | Allowlist                     |
-| BirthDate                     | BirthDate                     |
-| Geography                     | Geography                     |
-| PhoneNumber                   | PhoneNumber                   |
-| PremiumOrVerifiedOrganization | PremiumOrVerifiedOrganization |
-| Safety                        | Safety                        |
-| Sanctions                     | Sanctions                     |
-| TwoFactorAuth                 | TwoFactorAuth                 |
-| Unknown                       | Unknown                       |
 
 | constant   | value     |
 |:-----------|:----------|
@@ -12540,25 +12596,6 @@ This document is entirely auto-generated and may contain errors.<br>
 | DocumentTypeMonthlyStatement | DocumentTypeMonthlyStatement |
 | DocumentTypeUnspecified      | DocumentTypeUnspecified      |
 
-| constant                  | value                     |
-|:--------------------------|:--------------------------|
-| ContactSupport            | ContactSupport            |
-| DebitCardAgreementConsent | DebitCardAgreementConsent |
-| Deposit                   | Deposit                   |
-| GetPremium                | GetPremium                |
-| KycDocumentUpload         | KycDocumentUpload         |
-| KycVerification           | KycVerification           |
-| LearnMore                 | LearnMore                 |
-| Questionnaire             | Questionnaire             |
-| Reonboard                 | Reonboard                 |
-| SelfieVerification        | SelfieVerification        |
-| SetupDirectDeposit        | SetupDirectDeposit        |
-| SetupPasskey              | SetupPasskey              |
-| SetupPublicKeyCredential  | SetupPublicKeyCredential  |
-| TosConsent                | TosConsent                |
-| UsageConsent              | UsageConsent              |
-| VerifyPasskey             | VerifyPasskey             |
-
 | constant   | value   |
 |:-----------|:--------|
 | Alert      | Alert   |
@@ -12580,6 +12617,12 @@ This document is entirely auto-generated and may contain errors.<br>
 | xxLarge    | xxLarge  |
 | xxxLarge   | xxxLarge |
 | xJumbo     | xJumbo   |
+
+| constant                               | value                                  |
+|:---------------------------------------|:---------------------------------------|
+| GrokTransactionSearchRatingDownvote    | GrokTransactionSearchRatingDownvote    |
+| GrokTransactionSearchRatingUnspecified | GrokTransactionSearchRatingUnspecified |
+| GrokTransactionSearchRatingUpvote      | GrokTransactionSearchRatingUpvote      |
 
 | constant                  | value                     |
 |:--------------------------|:--------------------------|
@@ -12705,6 +12748,12 @@ This document is entirely auto-generated and may contain errors.<br>
 | x          | x       |
 | cash       | cash    |
 | check      | check   |
+
+| constant              | value                 |
+|:----------------------|:----------------------|
+| terms-and-conditions  | terms-and-conditions  |
+| acceptable-use-policy | acceptable-use-policy |
+| cardholder-agreement  | cardholder-agreement  |
 
 | constant       | value                     |
 |:---------------|:--------------------------|
@@ -12840,36 +12889,6 @@ This document is entirely auto-generated and may contain errors.<br>
 | KeyedIn     | KeyedIn     |
 | Online      | Online      |
 | Swipe       | Swipe       |
-
-| constant                            | value                               |
-|:------------------------------------|:------------------------------------|
-| Archived                            | Archived                            |
-| AuthorizationClosed                 | AuthorizationClosed                 |
-| AuthorizationOpen                   | AuthorizationOpen                   |
-| AwaitingRequestAcceptance           | AwaitingRequestAcceptance           |
-| AwaitingUnrecognizedConfirmation    | AwaitingUnrecognizedConfirmation    |
-| Cancelled                           | Cancelled                           |
-| CreditedAwaitingSettlement          | CreditedAwaitingSettlement          |
-| Expired                             | Expired                             |
-| Failed                              | Failed                              |
-| Hold                                | Hold                                |
-| Pending                             | Pending                             |
-| PendingCheckCashing                 | PendingCheckCashing                 |
-| PendingCheckFunding                 | PendingCheckFunding                 |
-| PendingFundingTransactionSettlement | PendingFundingTransactionSettlement |
-| PendingRecipientAcceptance          | PendingRecipientAcceptance          |
-| PendingRecipientAction              | PendingRecipientAction              |
-| PendingRecipientOnboarding          | PendingRecipientOnboarding          |
-| PendingRequestAcceptance            | PendingRequestAcceptance            |
-| PendingReview                       | PendingReview                       |
-| PinVerificationRequired             | PinVerificationRequired             |
-| RejectedByRecipient                 | RejectedByRecipient                 |
-| RequestRejected                     | RequestRejected                     |
-| RequestVerificationRequired         | RequestVerificationRequired         |
-| Settled                             | Settled                             |
-| SoftSettled                         | SoftSettled                         |
-| Unspecified                         | Unspecified                         |
-| VerificationRequired                | VerificationRequired                |
 
 | constant   | value                                                                |
 |:-----------|:---------------------------------------------------------------------|
