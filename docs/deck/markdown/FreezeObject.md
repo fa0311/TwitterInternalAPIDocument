@@ -217,6 +217,16 @@ This document is entirely auto-generated and may contain errors.<br>
 # Error
 {"__proto__":"null","DEG2RAD":"Mn","RAD2DEG":"Sn","generateUUID":"wn","clamp":"Tn","euclideanModulo":"An","mapLinear":"function()"{return i+()*(t-e)/(r-i)},"inverseLerp":"function()"{return t!==e?()/(n-t):"0"},"lerp":"Cn","damp":"function()"{"return Cn()"},"pingpong":"function()"{return e-Math.abs()...
 ```
+| constant   | value      |
+|:-----------|:-----------|
+| Scheduled  | Scheduled  |
+| InProgress | InProgress |
+| Completed  | Completed  |
+| Postponed  | Postponed  |
+| Cancelled  | Cancelled  |
+| Unused6    | _Unused6   |
+| Unused7    | _Unused7   |
+
 | constant         | value           |
 |:-----------------|:----------------|
 | LIVE_BROADCAST   | liveBroadcast   |
