@@ -24,112 +24,6 @@
   },
   "{\"₊\":\"+\",\"₋\":\"-\",\"₌\":\"=\",\"₍\":\"()\",\"₀\":\"0\",\"₁\":\"1\",\"₂\":\"2\",\"₃\":\"3\",\"₄\":\"4\",\"₅\":\"5\",\"₆\":\"6\",\"₇\":\"7\",\"₈\":\"8\",\"₉\":\"9\",ₐ:\"a\",ₑ:\"e\",ₕ:\"h\",ᵢ:\"i\",ⱼ:\"j\",ₖ:\"k\",ₗ:\"l\",ₘ:\"m\",ₙ:\"n\",ₒ:\"o\",ₚ:\"p\",ᵣ:\"r\",ₛ:\"s\",ₜ:\"t\",ᵤ:\"u\",ᵥ:\"v\",ₓ:\"x\",ᵦ:\"β\",ᵧ:\"γ\",ᵨ:\"ρ\",ᵩ:\"ϕ\",ᵪ:\"χ\",\"⁺\":\"+\",\"⁻\":\"-\",\"⁼\":\"=\",\"⁽\":\"(\\\",\\\"₎\\\":\\\")\",\"⁰\":\"0\",\"¹\":\"1\",\"²\":\"2\",\"³\":\"3\",\"⁴\":\"4\",\"⁵\":\"5\",\"⁶\":\"6\",\"⁷\":\"7\",\"⁸\":\"8\",\"⁹\":\"9\",ᴬ:\"A\",ᴮ:\"B\",ᴰ:\"D\",ᴱ:\"E\",ᴳ:\"G\",ᴴ:\"H\",ᴵ:\"I\",ᴶ:\"J\",ᴷ:\"K\",ᴸ:\"L\",ᴹ:\"M\",ᴺ:\"N\",ᴼ:\"O\",ᴾ:\"P\",ᴿ:\"R\",ᵀ:\"T\",ᵁ:\"U\",ⱽ:\"V\",ᵂ:\"W\",ᵃ:\"a\",ᵇ:\"b\",ᶜ:\"c\",ᵈ:\"d\",ᵉ:\"e\",ᶠ:\"f\",ᵍ:\"g\",ʰ:\"h\",ⁱ:\"i\",ʲ:\"j\",ᵏ:\"k\",ˡ:\"l\",ᵐ:\"m\",ⁿ:\"n\",ᵒ:\"o\",ᵖ:\"p\",ʳ:\"r\",ˢ:\"s\",ᵗ:\"t\",ᵘ:\"u\",ᵛ:\"v\",ʷ:\"w\",ˣ:\"x\",ʸ:\"y\",ᶻ:\"z\",ᵝ:\"β\",ᵞ:\"γ\",ᵟ:\"δ\",ᵠ:\"ϕ\",ᵡ:\"χ\",ᶿ:\"θ\"}",
   {
-    "X_BACKEND": "X_BACKEND",
-    "IN_PROGRESS": "MIGRATION_IN_PROGRESS",
-    "XAI_BACKEND": "XAI_BACKEND"
-  },
-  {
-    "FUN": "fun",
-    "REGULAR": ""
-  },
-  {
-    "IDLE": "idle",
-    "TYPING": "typing",
-    "WAITING": "waiting",
-    "FAILED": "failed"
-  },
-  {
-    "REQUEST": "rweb/FETCH_GROK_CONVERSATION/REQUEST",
-    "SUCCESS": "rweb/FETCH_GROK_CONVERSATION/SUCCESS",
-    "FAILURE": "rweb/FETCH_GROK_CONVERSATION/FAILURE"
-  },
-  {
-    "REQUEST": "rweb/RECONNECT_GROK_CONVERSATION/REQUEST",
-    "SUCCESS": "rweb/RECONNECT_GROK_CONVERSATION/SUCCESS",
-    "FAILURE": "rweb/RECONNECT_GROK_CONVERSATION/FAILURE"
-  },
-  {
-    "REQUEST": "rweb/FETCH_GROK_HISTORY/REQUEST",
-    "SUCCESS": "rweb/FETCH_GROK_HISTORY/SUCCESS",
-    "FAILURE": "rweb/FETCH_GROK_HISTORY/FAILURE"
-  },
-  {
-    "REQUEST": "rweb/DELETE_GROK_MESSAGE/REQUEST",
-    "SUCCESS": "rweb/DELETE_GROK_MESSAGE/SUCCESS",
-    "FAILURE": "rweb/DELETE_GROK_MESSAGE/FAILURE"
-  },
-  {
-    "REQUEST": "rweb/FETCH_GROK_PINNED_CONVERSATIONS/REQUEST",
-    "SUCCESS": "rweb/FETCH_GROK_PINNED_CONVERSATIONS/SUCCESS",
-    "FAILURE": "rweb/FETCH_GROK_PINNED_CONVERSATIONS/FAILURE"
-  },
-  {
-    "REQUEST": "rweb/FETCH_GROK_MEDIA_HISTORY/REQUEST",
-    "SUCCESS": "rweb/FETCH_GROK_MEDIA_HISTORY/SUCCESS",
-    "FAILURE": "rweb/FETCH_GROK_MEDIA_HISTORY/FAILURE"
-  },
-  {
-    "REQUEST": "rweb/SEARCH_GROK_HISTORY/REQUEST",
-    "SUCCESS": "rweb/SEARCH_GROK_HISTORY/SUCCESS",
-    "FAILURE": "rweb/SEARCH_GROK_HISTORY/FAILURE"
-  },
-  {
-    "REQUEST": "rweb/FETCH_GROK_HOME/REQUEST",
-    "SUCCESS": "rweb/FETCH_GROK_HOME/SUCCESS",
-    "FAILURE": "rweb/FETCH_GROK_HOME/FAILURE"
-  },
-  {
-    "REQUEST": "rweb/FETCH_GROK_SHARE/REQUEST",
-    "SUCCESS": "rweb/FETCH_GROK_SHARE/SUCCESS",
-    "FAILURE": "rweb/FETCH_GROK_SHARE/FAILURE"
-  },
-  {
-    "REQUEST": "rweb/SET_PREFERENCES/REQUEST",
-    "SUCCESS": "rweb/SET_PREFERENCES/SUCCESS",
-    "FAILURE": "rweb/SET_PREFERENCES/FAILURE"
-  },
-  {
-    "REQUEST": "rweb/PIN_GROK_CONVERSATION/REQUEST",
-    "SUCCESS": "rweb/PIN_GROK_CONVERSATION/SUCCESS",
-    "FAILURE": "rweb/PIN_GROK_CONVERSATION/FAILURE"
-  },
-  {
-    "REQUEST": "rweb/UNPIN_GROK_CONVERSATION/REQUEST",
-    "SUCCESS": "rweb/UNPIN_GROK_CONVERSATION/SUCCESS",
-    "FAILURE": "rweb/UNPIN_GROK_CONVERSATION/FAILURE"
-  },
-  {
-    "REQUEST": "rweb/CLEAR_CONVERSATIONS/REQUEST",
-    "SUCCESS": "rweb/CLEAR_CONVERSATIONS/SUCCESS",
-    "FAILURE": "rweb/CLEAR_CONVERSATIONS/FAILURE"
-  },
-  {
-    "REQUEST": "rweb/GROK_USER_EVENTS_LOG/REQUEST",
-    "SUCCESS": "rweb/GROK_USER_EVENTS_LOG/SUCCESS",
-    "FAILURE": "rweb/GROK_USER_EVENTS_LOG/FAILURE"
-  },
-  {
-    "HUMAN": "1",
-    "ASSISTANT": "2"
-  },
-  {
-    "CodeExecution": "code_execution",
-    "BrowsePage": "browse_page",
-    "XSearch": "x_search",
-    "WebSearch": "web_search",
-    "XKeywordSearch": "x_keyword_search",
-    "XSemanticSearch": "x_semantic_search",
-    "XUserSearch": "x_user_search",
-    "GetXUserTimeline": "get_x_user_timeline",
-    "WebSearchWithSnippets": "web_search_with_snippets",
-    "AddMemory": "add_memory",
-    "EditMemory": "edit_memory",
-    "DeleteMemory": "delete_memory",
-    "XThreadFetch": "x_thread_fetch",
-    "ViewXVideo": "view_x_video",
-    "ViewImage": "view_image"
-  },
-  {
     "apple": "https://apps.apple.com/account/billing",
     "google": "https://play.google.com/store/account/subscriptions?sku=com.twitter.google.rogue.one.1.1&package=com.twitter.android"
   },
@@ -187,14 +81,6 @@
     "Unused7": "_Unused7"
   },
   {
-    "LIVE_BROADCAST": "liveBroadcast",
-    "REPLAY_BROADCAST": "replayBroadcast",
-    "AUDIOSPACE": "audiospace",
-    "VOD": "vod",
-    "GIF": "gif",
-    "SLATE": "slate"
-  },
-  {
     "InvalidAuth": "0",
     "0": "InvalidAuth",
     "UpgradeRequired": "1",
@@ -233,5 +119,13 @@
     "5": "Assertion",
     "Transient": "6",
     "6": "Transient"
+  },
+  {
+    "LIVE_BROADCAST": "liveBroadcast",
+    "REPLAY_BROADCAST": "replayBroadcast",
+    "AUDIOSPACE": "audiospace",
+    "VOD": "vod",
+    "GIF": "gif",
+    "SLATE": "slate"
   }
 ]
