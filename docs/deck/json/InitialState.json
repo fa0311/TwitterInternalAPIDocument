@@ -2545,6 +2545,9 @@
       "rweb_xchat_debug_enabled": {
         "value": "false"
       },
+      "rweb_xchat_drawer_enabled": {
+        "value": "false"
+      },
       "rweb_xchat_logs": {
         "value": "false"
       },
@@ -2553,6 +2556,9 @@
       },
       "rweb_xchat_old_dms_inbox_item": {
         "value": "true"
+      },
+      "rweb_xchat_share_sheet_enabled": {
+        "value": "false"
       },
       "rweb_xp_forwarded_for_enabled": {
         "value": "false"
@@ -2813,6 +2819,9 @@
       },
       "subscriptions_feature_premium_jobs": {
         "value": "true"
+      },
+      "subscriptions_features_premium_syscache_write": {
+        "value": "false"
       },
       "subscriptions_features_syscache_read": {
         "value": "true"
@@ -3161,6 +3170,9 @@
       },
       "syscache_entrypoint_vo_portal_url": {
         "value": "https://handles.x.com"
+      },
+      "syscache_handle_share_banner_enabled": {
+        "value": "false"
       },
       "syscache_syscache_pb_sidebar_handles_enabled": {
         "value": "false"
@@ -6146,6 +6158,9 @@
         "rweb_xchat_debug_enabled": {
           "value": "false"
         },
+        "rweb_xchat_drawer_enabled": {
+          "value": "false"
+        },
         "rweb_xchat_logs": {
           "value": "false"
         },
@@ -6154,6 +6169,9 @@
         },
         "rweb_xchat_old_dms_inbox_item": {
           "value": "true"
+        },
+        "rweb_xchat_share_sheet_enabled": {
+          "value": "false"
         },
         "rweb_xp_forwarded_for_enabled": {
           "value": "true"
@@ -6414,6 +6432,9 @@
         },
         "subscriptions_feature_premium_jobs": {
           "value": "true"
+        },
+        "subscriptions_features_premium_syscache_write": {
+          "value": "false"
         },
         "subscriptions_features_syscache_read": {
           "value": "true"
@@ -6762,6 +6783,9 @@
         },
         "syscache_entrypoint_vo_portal_url": {
           "value": "https://handles.x.com"
+        },
+        "syscache_handle_share_banner_enabled": {
+          "value": "true"
         },
         "syscache_syscache_pb_sidebar_handles_enabled": {
           "value": "false"
@@ -7307,10 +7331,10 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "9433d34085a41ca5ff5c551606f1a368"
+      "settingsVersion": "bf8fd6b0ae7751458228dd0cdb43fcb6"
     },
     "debug": {},
-    "featureSetToken": "854035f6905793baab658eacac7c20e5a168035f",
+    "featureSetToken": "d26eb65ed5a40fcdf625d83358fba57d65c73f27",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -7379,7 +7403,7 @@
   },
   "session": {
     "country": "XX",
-    "guestId": "176159911502243503",
+    "guestId": "176168547363139213",
     "hasCommunityMemberships": "false",
     "isActiveCreator": "false",
     "isLoaded": "false",
