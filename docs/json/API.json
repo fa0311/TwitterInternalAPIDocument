@@ -2509,8 +2509,8 @@
       }
     },
     "Viewer": {
-      "url": "https://x.com/i/api/graphql/rdBcCxoSo-JP8dpQwVFkhA/Viewer",
-      "queryId": "rdBcCxoSo-JP8dpQwVFkhA",
+      "url": "https://x.com/i/api/graphql/CPDEMuIx12DA0NBSxyqsAw/Viewer",
+      "queryId": "CPDEMuIx12DA0NBSxyqsAw",
       "method": "GET",
       "features": {
         "subscriptions_upsells_api_enabled": true,
