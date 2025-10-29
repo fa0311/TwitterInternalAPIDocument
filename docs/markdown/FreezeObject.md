@@ -33,6 +33,12 @@ This document is entirely auto-generated and may contain errors.<br>
 | Top        | Top      |
 | Upcoming   | Upcoming |
 
+| constant             | value                |
+|:---------------------|:---------------------|
+| Active               | Active               |
+| Unspecified          | Unspecified          |
+| VerificationRequired | VerificationRequired |
+
 | constant                                         | value                                            |
 |:-------------------------------------------------|:-------------------------------------------------|
 | BalanceLevelFour                                 | BalanceLevelFour                                 |
@@ -963,12 +969,6 @@ This document is entirely auto-generated and may contain errors.<br>
 | constant   | value   |
 |:-----------|:--------|
 | address    | address |
-
-| constant             | value                |
-|:---------------------|:---------------------|
-| Active               | Active               |
-| Unspecified          | Unspecified          |
-| VerificationRequired | VerificationRequired |
 
 | constant         | value            |
 |:-----------------|:-----------------|
