@@ -3138,7 +3138,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## Viewer<br>
-Request URL: `https://x.com/i/api/graphql/rdBcCxoSo-JP8dpQwVFkhA/Viewer`<br>
+Request URL: `https://x.com/i/api/graphql/CPDEMuIx12DA0NBSxyqsAw/Viewer`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
