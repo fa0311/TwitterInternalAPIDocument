@@ -6332,3 +6332,22 @@
 - syscache_handle_share_banner_enabled<br>
 #### remove<br>
 - None<br>
+## 2025/10/30<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- responsive_web_ad_formats_hide_vanity_for_business_account<br>
+- responsive_web_ad_formats_media_overlay_enabled<br>
+- subscriptions_gifting_premium_intervals_enabled<br>
+- xchat_continue_previous_inbox_pagination<br>
+- xchat_hybrid_pull_wait_for_keypair_before_fetching<br>
+- xchat_inbox_conversation_rotate_keys<br>
+- xchat_show_safety_number_ui<br>
+- xchat_use_info_items_for_sorting<br>
+- xchat_use_popular_convos<br>
+#### remove<br>
+- None<br>
