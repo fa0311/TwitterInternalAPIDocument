@@ -130,6 +130,14 @@
     "ViewImage": "view_image"
   },
   {
+    "IOS": "ios",
+    "ANDROID": "android"
+  },
+  {
+    "APPLE_APP_STORE": "1",
+    "GOOGLE_PLAY_STORE": "2"
+  },
+  {
     "apple": "https://apps.apple.com/account/billing",
     "google": "https://play.google.com/store/account/subscriptions?sku=com.twitter.google.rogue.one.1.1&package=com.twitter.android"
   },
