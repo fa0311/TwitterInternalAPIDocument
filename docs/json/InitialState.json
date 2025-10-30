@@ -1327,6 +1327,12 @@
       "responsive_web_account_access_language_lo_splash_sidebar": {
         "value": "control"
       },
+      "responsive_web_ad_formats_hide_vanity_for_business_account": {
+        "value": "false"
+      },
+      "responsive_web_ad_formats_media_overlay_enabled": {
+        "value": "false"
+      },
       "responsive_web_ad_revenue_sharing_dashboard_redirect_enabled": {
         "value": "false"
       },
@@ -2821,7 +2827,7 @@
         "value": "true"
       },
       "subscriptions_features_premium_syscache_write": {
-        "value": "false"
+        "value": "true"
       },
       "subscriptions_features_syscache_read": {
         "value": "true"
@@ -2831,6 +2837,9 @@
       },
       "subscriptions_gifting_help_url": {
         "value": "https://x.com/messages/compose?recipient_id&#x3D;1399766153053061121"
+      },
+      "subscriptions_gifting_premium_intervals_enabled": {
+        "value": "true"
       },
       "subscriptions_gifting_premium_intro_copy_enabled": {
         "value": "false"
@@ -3160,7 +3169,7 @@
         "value": "true"
       },
       "syscache_entrypoint_settings_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "syscache_entrypoint_vo_portal_basic_users_enabled": {
         "value": "true"
@@ -3606,11 +3615,14 @@
       "xchat_catch_coroutine_exceptions": {
         "value": "true"
       },
+      "xchat_continue_previous_inbox_pagination": {
+        "value": "false"
+      },
       "xchat_conversation_event_limit": {
         "value": "200"
       },
       "xchat_conversation_message_search_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "xchat_emit_while_pulling": {
         "value": "true"
@@ -3634,7 +3646,7 @@
         "value": "false"
       },
       "xchat_enable_media_conv_info": {
-        "value": "false"
+        "value": "true"
       },
       "xchat_enable_message_requests": {
         "value": "false"
@@ -3644,6 +3656,9 @@
       },
       "xchat_hybrid_pull_eagerly_fetch_history_after_seconds": {
         "value": -1
+      },
+      "xchat_hybrid_pull_wait_for_keypair_before_fetching": {
+        "value": "false"
       },
       "xchat_inbox_conversation_event_limit": {
         "value": "5"
@@ -3659,6 +3674,9 @@
       },
       "xchat_inbox_conversation_local_pagination_page_size": {
         "value": "20"
+      },
+      "xchat_inbox_conversation_rotate_keys": {
+        "value": "false"
       },
       "xchat_local_pagination_page_size": {
         "value": "50"
@@ -3682,9 +3700,18 @@
         "value": "500"
       },
       "xchat_screenshot_prevention_enabled": {
+        "value": "true"
+      },
+      "xchat_show_safety_number_ui": {
         "value": "false"
       },
       "xchat_throttle_badge_counts": {
+        "value": "false"
+      },
+      "xchat_use_info_items_for_sorting": {
+        "value": "false"
+      },
+      "xchat_use_popular_convos": {
         "value": "false"
       },
       "xchat_user_event_limit": {
@@ -4939,6 +4966,12 @@
         },
         "responsive_web_account_access_language_lo_splash_sidebar": {
           "value": "control"
+        },
+        "responsive_web_ad_formats_hide_vanity_for_business_account": {
+          "value": "false"
+        },
+        "responsive_web_ad_formats_media_overlay_enabled": {
+          "value": "false"
         },
         "responsive_web_ad_revenue_sharing_dashboard_redirect_enabled": {
           "value": "false"
@@ -6445,6 +6478,9 @@
         "subscriptions_gifting_help_url": {
           "value": "https://x.com/messages/compose?recipient_id&#x3D;1399766153053061121"
         },
+        "subscriptions_gifting_premium_intervals_enabled": {
+          "value": "true"
+        },
         "subscriptions_gifting_premium_intro_copy_enabled": {
           "value": "false"
         },
@@ -7219,11 +7255,14 @@
         "xchat_catch_coroutine_exceptions": {
           "value": "true"
         },
+        "xchat_continue_previous_inbox_pagination": {
+          "value": "false"
+        },
         "xchat_conversation_event_limit": {
           "value": "200"
         },
         "xchat_conversation_message_search_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "xchat_emit_while_pulling": {
           "value": "true"
@@ -7247,7 +7286,7 @@
           "value": "false"
         },
         "xchat_enable_media_conv_info": {
-          "value": "false"
+          "value": "true"
         },
         "xchat_enable_message_requests": {
           "value": "false"
@@ -7257,6 +7296,9 @@
         },
         "xchat_hybrid_pull_eagerly_fetch_history_after_seconds": {
           "value": -1
+        },
+        "xchat_hybrid_pull_wait_for_keypair_before_fetching": {
+          "value": "false"
         },
         "xchat_inbox_conversation_event_limit": {
           "value": "5"
@@ -7272,6 +7314,9 @@
         },
         "xchat_inbox_conversation_local_pagination_page_size": {
           "value": "20"
+        },
+        "xchat_inbox_conversation_rotate_keys": {
+          "value": "false"
         },
         "xchat_local_pagination_page_size": {
           "value": "50"
@@ -7295,9 +7340,18 @@
           "value": "500"
         },
         "xchat_screenshot_prevention_enabled": {
+          "value": "true"
+        },
+        "xchat_show_safety_number_ui": {
           "value": "false"
         },
         "xchat_throttle_badge_counts": {
+          "value": "false"
+        },
+        "xchat_use_info_items_for_sorting": {
+          "value": "false"
+        },
+        "xchat_use_popular_convos": {
           "value": "false"
         },
         "xchat_user_event_limit": {
@@ -7331,10 +7385,10 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "4cee68f44e9da512ef39f79c98549582"
+      "settingsVersion": "9433d34085a41ca5ff5c551606f1a368"
     },
     "debug": {},
-    "featureSetToken": "d17dc53c60981a47e7baf6454eda5498cb7a682f",
+    "featureSetToken": "1449274e6510f5a4ce634b67d43ca23baea86e79",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -7403,7 +7457,7 @@
   },
   "session": {
     "country": "XX",
-    "guestId": "176177172209368895",
+    "guestId": "176185812745659716",
     "hasCommunityMemberships": "false",
     "isActiveCreator": "false",
     "isLoaded": "false",
