@@ -3172,7 +3172,7 @@
         "value": "https://handles.x.com"
       },
       "syscache_handle_share_banner_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "syscache_syscache_pb_sidebar_handles_enabled": {
         "value": "false"
@@ -6434,7 +6434,7 @@
           "value": "true"
         },
         "subscriptions_features_premium_syscache_write": {
-          "value": "false"
+          "value": "true"
         },
         "subscriptions_features_syscache_read": {
           "value": "true"
@@ -6773,7 +6773,7 @@
           "value": "true"
         },
         "syscache_entrypoint_settings_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "syscache_entrypoint_vo_portal_basic_users_enabled": {
           "value": "true"
@@ -7331,10 +7331,10 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "bf8fd6b0ae7751458228dd0cdb43fcb6"
+      "settingsVersion": "4cee68f44e9da512ef39f79c98549582"
     },
     "debug": {},
-    "featureSetToken": "d26eb65ed5a40fcdf625d83358fba57d65c73f27",
+    "featureSetToken": "d17dc53c60981a47e7baf6454eda5498cb7a682f",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -7403,7 +7403,7 @@
   },
   "session": {
     "country": "XX",
-    "guestId": "176168547363139213",
+    "guestId": "176177192644035803",
     "hasCommunityMemberships": "false",
     "isActiveCreator": "false",
     "isLoaded": "false",
