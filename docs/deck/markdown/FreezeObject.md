@@ -156,6 +156,16 @@ This document is entirely auto-generated and may contain errors.<br>
 | ViewXVideo            | view_x_video             |
 | ViewImage             | view_image               |
 
+| constant   | value   |
+|:-----------|:--------|
+| IOS        | ios     |
+| ANDROID    | android |
+
+| constant          |   value |
+|:------------------|--------:|
+| APPLE_APP_STORE   |       1 |
+| GOOGLE_PLAY_STORE |       2 |
+
 | constant   | value                                                                                                                |
 |:-----------|:---------------------------------------------------------------------------------------------------------------------|
 | apple      | https://apps.apple.com/account/billing                                                                               |
