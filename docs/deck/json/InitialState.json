@@ -1192,12 +1192,6 @@
       "payments_pin_enabled": {
         "value": "false"
       },
-      "payments_qr_onboarding_enabled": {
-        "value": "false"
-      },
-      "payments_qr_onboarding_mobile_link_enabled": {
-        "value": "false"
-      },
       "payments_settings_documents_enabled": {
         "value": "false"
       },
@@ -4832,12 +4826,6 @@
         "payments_pin_enabled": {
           "value": "false"
         },
-        "payments_qr_onboarding_enabled": {
-          "value": "false"
-        },
-        "payments_qr_onboarding_mobile_link_enabled": {
-          "value": "false"
-        },
         "payments_settings_documents_enabled": {
           "value": "false"
         },
@@ -7388,7 +7376,7 @@
       "settingsVersion": "9433d34085a41ca5ff5c551606f1a368"
     },
     "debug": {},
-    "featureSetToken": "61a7750a71c124a60c19c16bac46294fefb9d1bb",
+    "featureSetToken": "9eed12fc77492e9daa7084f8b64241b98978953f",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -7457,7 +7445,7 @@
   },
   "session": {
     "country": "XX",
-    "guestId": "176220386578730072",
+    "guestId": "176229030610081900",
     "hasCommunityMemberships": "false",
     "isActiveCreator": "false",
     "isLoaded": "false",
