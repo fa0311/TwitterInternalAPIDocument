@@ -4956,7 +4956,7 @@
           "value": "control"
         },
         "responsive_web_ad_formats_hide_vanity_for_business_account": {
-          "value": "false"
+          "value": "true"
         },
         "responsive_web_ad_formats_media_overlay_enabled": {
           "value": "false"
@@ -6377,7 +6377,7 @@
           "value": "true"
         },
         "subscriptions_block_ad_upsell_enabled": {
-          "value": "true"
+          "value": "false"
         },
         "subscriptions_blue_premium_labeling_enabled": {
           "value": "true"
@@ -6473,7 +6473,7 @@
           "value": "false"
         },
         "subscriptions_hide_ad_upsell_enabled": {
-          "value": "true"
+          "value": "false"
         },
         "subscriptions_inapp_grok": {
           "value": "true"
@@ -6563,7 +6563,7 @@
           "value": "false"
         },
         "subscriptions_mute_ad_upsell_enabled": {
-          "value": "true"
+          "value": "false"
         },
         "subscriptions_offers_churn_prevention_enabled": {
           "value": "true"
@@ -6602,7 +6602,7 @@
           "value": "false"
         },
         "subscriptions_report_ad_upsell_enabled": {
-          "value": "true"
+          "value": "false"
         },
         "subscriptions_sign_up_enabled": {
           "value": "true"
@@ -7373,7 +7373,7 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "9433d34085a41ca5ff5c551606f1a368"
+      "settingsVersion": "fbc93ef4e5769ffe58bc74c08e8c6117"
     },
     "debug": {},
     "featureSetToken": "9eed12fc77492e9daa7084f8b64241b98978953f",
@@ -7445,7 +7445,7 @@
   },
   "session": {
     "country": "XX",
-    "guestId": "176229013116342401",
+    "guestId": "176237652864254312",
     "hasCommunityMemberships": "false",
     "isActiveCreator": "false",
     "isLoaded": "false",
