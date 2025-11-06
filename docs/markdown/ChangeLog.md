@@ -7355,3 +7355,15 @@
 - xchat_use_popular_convos<br>
 #### remove<br>
 - None<br>
+## 2025/11/04<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- payments_qr_onboarding_enabled<br>
+- payments_qr_onboarding_mobile_link_enabled<br>

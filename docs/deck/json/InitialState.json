@@ -1192,12 +1192,6 @@
       "payments_pin_enabled": {
         "value": "false"
       },
-      "payments_qr_onboarding_enabled": {
-        "value": "false"
-      },
-      "payments_qr_onboarding_mobile_link_enabled": {
-        "value": "false"
-      },
       "payments_settings_documents_enabled": {
         "value": "false"
       },
@@ -4832,12 +4826,6 @@
         "payments_pin_enabled": {
           "value": "false"
         },
-        "payments_qr_onboarding_enabled": {
-          "value": "false"
-        },
-        "payments_qr_onboarding_mobile_link_enabled": {
-          "value": "false"
-        },
         "payments_settings_documents_enabled": {
           "value": "false"
         },
@@ -4968,7 +4956,7 @@
           "value": "control"
         },
         "responsive_web_ad_formats_hide_vanity_for_business_account": {
-          "value": "false"
+          "value": "true"
         },
         "responsive_web_ad_formats_media_overlay_enabled": {
           "value": "false"
@@ -6389,7 +6377,7 @@
           "value": "true"
         },
         "subscriptions_block_ad_upsell_enabled": {
-          "value": "true"
+          "value": "false"
         },
         "subscriptions_blue_premium_labeling_enabled": {
           "value": "true"
@@ -6485,7 +6473,7 @@
           "value": "false"
         },
         "subscriptions_hide_ad_upsell_enabled": {
-          "value": "true"
+          "value": "false"
         },
         "subscriptions_inapp_grok": {
           "value": "true"
@@ -6575,7 +6563,7 @@
           "value": "false"
         },
         "subscriptions_mute_ad_upsell_enabled": {
-          "value": "true"
+          "value": "false"
         },
         "subscriptions_offers_churn_prevention_enabled": {
           "value": "true"
@@ -6614,7 +6602,7 @@
           "value": "false"
         },
         "subscriptions_report_ad_upsell_enabled": {
-          "value": "true"
+          "value": "false"
         },
         "subscriptions_sign_up_enabled": {
           "value": "true"
@@ -7385,10 +7373,10 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "9433d34085a41ca5ff5c551606f1a368"
+      "settingsVersion": "fbc93ef4e5769ffe58bc74c08e8c6117"
     },
     "debug": {},
-    "featureSetToken": "61a7750a71c124a60c19c16bac46294fefb9d1bb",
+    "featureSetToken": "9eed12fc77492e9daa7084f8b64241b98978953f",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -7457,7 +7445,7 @@
   },
   "session": {
     "country": "XX",
-    "guestId": "176220386578730072",
+    "guestId": "176237656710268395",
     "hasCommunityMemberships": "false",
     "isActiveCreator": "false",
     "isLoaded": "false",
