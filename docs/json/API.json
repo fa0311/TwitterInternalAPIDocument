@@ -4356,14 +4356,15 @@
       "features": {}
     },
     "BirdwatchCreateNote": {
-      "url": "https://x.com/i/api/graphql/pzd7vQJ1i8HdGRoDtgXawQ/BirdwatchCreateNote",
-      "queryId": "pzd7vQJ1i8HdGRoDtgXawQ",
+      "url": "https://x.com/i/api/graphql/31W1S-GjAAjPqPP4itT48w/BirdwatchCreateNote",
+      "queryId": "31W1S-GjAAjPqPP4itT48w",
       "method": "POST",
       "features": {
         "responsive_web_birdwatch_media_notes_enabled": true,
         "responsive_web_birdwatch_url_notes_enabled": false,
         "responsive_web_grok_community_note_translation_is_enabled": false,
         "responsive_web_birdwatch_fast_notes_badge_enabled": false,
+        "responsive_web_birdwatch_live_note_enabled": false,
         "responsive_web_grok_community_note_auto_translation_is_enabled": false,
         "responsive_web_graphql_timeline_navigation_enabled": true,
         "payments_enabled": false,
@@ -4513,10 +4514,11 @@
       }
     },
     "BirdwatchFetchNotes": {
-      "url": "https://x.com/i/api/graphql/HNA3GkaSbejJhR4EPfFSWw/BirdwatchFetchNotes",
-      "queryId": "HNA3GkaSbejJhR4EPfFSWw",
+      "url": "https://x.com/i/api/graphql/2Q3ssSLVQ_IJerIK0UgAHw/BirdwatchFetchNotes",
+      "queryId": "2Q3ssSLVQ_IJerIK0UgAHw",
       "method": "GET",
       "features": {
+        "responsive_web_birdwatch_live_note_enabled": false,
         "responsive_web_birdwatch_enforce_author_user_quotas": true,
         "responsive_web_birdwatch_media_notes_enabled": true,
         "responsive_web_birdwatch_url_notes_enabled": false,
@@ -4533,14 +4535,15 @@
       }
     },
     "BirdwatchFetchOneNote": {
-      "url": "https://x.com/i/api/graphql/HT63K87zBPQJT_tP4GrubQ/BirdwatchFetchOneNote",
-      "queryId": "HT63K87zBPQJT_tP4GrubQ",
+      "url": "https://x.com/i/api/graphql/MgJsTwGO78pSQsTeC_HVZA/BirdwatchFetchOneNote",
+      "queryId": "MgJsTwGO78pSQsTeC_HVZA",
       "method": "GET",
       "features": {
         "responsive_web_birdwatch_media_notes_enabled": true,
         "responsive_web_birdwatch_url_notes_enabled": false,
         "responsive_web_grok_community_note_translation_is_enabled": false,
         "responsive_web_birdwatch_fast_notes_badge_enabled": false,
+        "responsive_web_birdwatch_live_note_enabled": false,
         "responsive_web_grok_community_note_auto_translation_is_enabled": false,
         "responsive_web_graphql_timeline_navigation_enabled": true,
         "payments_enabled": false,
