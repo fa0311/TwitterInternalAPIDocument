@@ -1087,6 +1087,9 @@
       "netzdg_in_spaces_enabled": {
         "value": "false"
       },
+      "oauth_trusted_developer_badge_enabled": {
+        "value": "false"
+      },
       "ocf_2fa_enrollment_bouncer_enabled": {
         "value": "true"
       },
@@ -1150,9 +1153,6 @@
       "payments_1password_history_fix_enabled": {
         "value": "true"
       },
-      "payments_account_details_enabled": {
-        "value": "false"
-      },
       "payments_automated_direct_deposits_enabled": {
         "value": "false"
       },
@@ -1166,9 +1166,6 @@
         "value": "false"
       },
       "payments_cheques_deposits_enabled": {
-        "value": "false"
-      },
-      "payments_cheques_enabled": {
         "value": "false"
       },
       "payments_crb_iframe_delay_msecs": {
@@ -1189,12 +1186,6 @@
       "payments_passkey_onboarding_enabled": {
         "value": "false"
       },
-      "payments_pin_enabled": {
-        "value": "false"
-      },
-      "payments_settings_documents_enabled": {
-        "value": "false"
-      },
       "payments_tasks_carousel_enabled": {
         "value": "false"
       },
@@ -1205,9 +1196,6 @@
         "value": "false"
       },
       "payments_transfer_methods_enabled": {
-        "value": "false"
-      },
-      "payments_wires_enabled": {
         "value": "false"
       },
       "premium_content_api_read_enabled": {
@@ -1391,6 +1379,9 @@
         "value": "false"
       },
       "responsive_web_birdwatch_home_page_enabled": {
+        "value": "false"
+      },
+      "responsive_web_birdwatch_live_note_enabled": {
         "value": "false"
       },
       "responsive_web_birdwatch_match_page_enabled": {
@@ -3610,7 +3601,7 @@
         "value": "true"
       },
       "xchat_continue_previous_inbox_pagination": {
-        "value": "false"
+        "value": "true"
       },
       "xchat_conversation_event_limit": {
         "value": "200"
@@ -4721,6 +4712,9 @@
         "netzdg_in_spaces_enabled": {
           "value": "false"
         },
+        "oauth_trusted_developer_badge_enabled": {
+          "value": "false"
+        },
         "ocf_2fa_enrollment_bouncer_enabled": {
           "value": "true"
         },
@@ -4784,9 +4778,6 @@
         "payments_1password_history_fix_enabled": {
           "value": "true"
         },
-        "payments_account_details_enabled": {
-          "value": "false"
-        },
         "payments_automated_direct_deposits_enabled": {
           "value": "false"
         },
@@ -4800,9 +4791,6 @@
           "value": "false"
         },
         "payments_cheques_deposits_enabled": {
-          "value": "false"
-        },
-        "payments_cheques_enabled": {
           "value": "false"
         },
         "payments_crb_iframe_delay_msecs": {
@@ -4823,12 +4811,6 @@
         "payments_passkey_onboarding_enabled": {
           "value": "false"
         },
-        "payments_pin_enabled": {
-          "value": "false"
-        },
-        "payments_settings_documents_enabled": {
-          "value": "false"
-        },
         "payments_tasks_carousel_enabled": {
           "value": "false"
         },
@@ -4839,9 +4821,6 @@
           "value": "false"
         },
         "payments_transfer_methods_enabled": {
-          "value": "false"
-        },
-        "payments_wires_enabled": {
           "value": "false"
         },
         "premium_content_api_read_enabled": {
@@ -5025,6 +5004,9 @@
           "value": "false"
         },
         "responsive_web_birdwatch_home_page_enabled": {
+          "value": "false"
+        },
+        "responsive_web_birdwatch_live_note_enabled": {
           "value": "false"
         },
         "responsive_web_birdwatch_match_page_enabled": {
@@ -7373,10 +7355,10 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "6e57cc40695ea23ec5ff7134adbc2ddb"
+      "settingsVersion": "0eb083543153a4938af2abfad010724c"
     },
     "debug": {},
-    "featureSetToken": "1c4092ef68629d8eba5952f6d664defb7af841a4",
+    "featureSetToken": "620adc2b3da41af963d804f13b147a417f0a1e49",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -7445,7 +7427,7 @@
   },
   "session": {
     "country": "XX",
-    "guestId": "176246309753220082",
+    "guestId": "176254946127444229",
     "hasCommunityMemberships": "false",
     "isActiveCreator": "false",
     "isLoaded": "false",
