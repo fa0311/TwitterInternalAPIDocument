@@ -4713,7 +4713,7 @@
           "value": "false"
         },
         "oauth_trusted_developer_badge_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "ocf_2fa_enrollment_bouncer_enabled": {
           "value": "true"
@@ -7355,7 +7355,7 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "0eb083543153a4938af2abfad010724c"
+      "settingsVersion": "b7daec5943c3fcf1beefdb0fd9652f40"
     },
     "debug": {},
     "featureSetToken": "620adc2b3da41af963d804f13b147a417f0a1e49",
@@ -7427,7 +7427,7 @@
   },
   "session": {
     "country": "XX",
-    "guestId": "176254930667331668",
+    "guestId": "176263571471976054",
     "hasCommunityMemberships": "false",
     "isActiveCreator": "false",
     "isLoaded": "false",
