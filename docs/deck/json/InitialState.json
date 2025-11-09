@@ -1087,6 +1087,9 @@
       "netzdg_in_spaces_enabled": {
         "value": "false"
       },
+      "oauth_trusted_developer_badge_enabled": {
+        "value": "false"
+      },
       "ocf_2fa_enrollment_bouncer_enabled": {
         "value": "true"
       },
@@ -1150,9 +1153,6 @@
       "payments_1password_history_fix_enabled": {
         "value": "true"
       },
-      "payments_account_details_enabled": {
-        "value": "false"
-      },
       "payments_automated_direct_deposits_enabled": {
         "value": "false"
       },
@@ -1166,9 +1166,6 @@
         "value": "false"
       },
       "payments_cheques_deposits_enabled": {
-        "value": "false"
-      },
-      "payments_cheques_enabled": {
         "value": "false"
       },
       "payments_crb_iframe_delay_msecs": {
@@ -1189,12 +1186,6 @@
       "payments_passkey_onboarding_enabled": {
         "value": "false"
       },
-      "payments_pin_enabled": {
-        "value": "false"
-      },
-      "payments_settings_documents_enabled": {
-        "value": "false"
-      },
       "payments_tasks_carousel_enabled": {
         "value": "false"
       },
@@ -1205,9 +1196,6 @@
         "value": "false"
       },
       "payments_transfer_methods_enabled": {
-        "value": "false"
-      },
-      "payments_wires_enabled": {
         "value": "false"
       },
       "premium_content_api_read_enabled": {
@@ -1322,10 +1310,10 @@
         "value": "control"
       },
       "responsive_web_ad_formats_hide_vanity_for_business_account": {
-        "value": "false"
+        "value": "true"
       },
       "responsive_web_ad_formats_media_overlay_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "responsive_web_ad_revenue_sharing_dashboard_redirect_enabled": {
         "value": "false"
@@ -1391,6 +1379,9 @@
         "value": "false"
       },
       "responsive_web_birdwatch_home_page_enabled": {
+        "value": "false"
+      },
+      "responsive_web_birdwatch_live_note_enabled": {
         "value": "false"
       },
       "responsive_web_birdwatch_match_page_enabled": {
@@ -1820,7 +1811,7 @@
         "value": "true"
       },
       "responsive_web_grok_user_active_seconds_enable": {
-        "value": "false"
+        "value": "true"
       },
       "responsive_web_grok_user_seconds_debug": {
         "value": "false"
@@ -2743,7 +2734,7 @@
         "value": "true"
       },
       "subscriptions_block_ad_upsell_enabled": {
-        "value": "true"
+        "value": "false"
       },
       "subscriptions_blue_premium_labeling_enabled": {
         "value": "true"
@@ -2839,7 +2830,7 @@
         "value": "false"
       },
       "subscriptions_hide_ad_upsell_enabled": {
-        "value": "true"
+        "value": "false"
       },
       "subscriptions_inapp_grok": {
         "value": "true"
@@ -2929,7 +2920,7 @@
         "value": "false"
       },
       "subscriptions_mute_ad_upsell_enabled": {
-        "value": "true"
+        "value": "false"
       },
       "subscriptions_offers_churn_prevention_enabled": {
         "value": "true"
@@ -2968,7 +2959,7 @@
         "value": "false"
       },
       "subscriptions_report_ad_upsell_enabled": {
-        "value": "true"
+        "value": "false"
       },
       "subscriptions_sign_up_enabled": {
         "value": "false"
@@ -3610,7 +3601,7 @@
         "value": "true"
       },
       "xchat_continue_previous_inbox_pagination": {
-        "value": "false"
+        "value": "true"
       },
       "xchat_conversation_event_limit": {
         "value": "200"
@@ -4721,6 +4712,9 @@
         "netzdg_in_spaces_enabled": {
           "value": "false"
         },
+        "oauth_trusted_developer_badge_enabled": {
+          "value": "true"
+        },
         "ocf_2fa_enrollment_bouncer_enabled": {
           "value": "true"
         },
@@ -4784,9 +4778,6 @@
         "payments_1password_history_fix_enabled": {
           "value": "true"
         },
-        "payments_account_details_enabled": {
-          "value": "false"
-        },
         "payments_automated_direct_deposits_enabled": {
           "value": "false"
         },
@@ -4800,9 +4791,6 @@
           "value": "false"
         },
         "payments_cheques_deposits_enabled": {
-          "value": "false"
-        },
-        "payments_cheques_enabled": {
           "value": "false"
         },
         "payments_crb_iframe_delay_msecs": {
@@ -4823,12 +4811,6 @@
         "payments_passkey_onboarding_enabled": {
           "value": "false"
         },
-        "payments_pin_enabled": {
-          "value": "false"
-        },
-        "payments_settings_documents_enabled": {
-          "value": "false"
-        },
         "payments_tasks_carousel_enabled": {
           "value": "false"
         },
@@ -4839,9 +4821,6 @@
           "value": "false"
         },
         "payments_transfer_methods_enabled": {
-          "value": "false"
-        },
-        "payments_wires_enabled": {
           "value": "false"
         },
         "premium_content_api_read_enabled": {
@@ -4959,7 +4938,7 @@
           "value": "true"
         },
         "responsive_web_ad_formats_media_overlay_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "responsive_web_ad_revenue_sharing_dashboard_redirect_enabled": {
           "value": "false"
@@ -5025,6 +5004,9 @@
           "value": "false"
         },
         "responsive_web_birdwatch_home_page_enabled": {
+          "value": "false"
+        },
+        "responsive_web_birdwatch_live_note_enabled": {
           "value": "false"
         },
         "responsive_web_birdwatch_match_page_enabled": {
@@ -7244,7 +7226,7 @@
           "value": "true"
         },
         "xchat_continue_previous_inbox_pagination": {
-          "value": "false"
+          "value": "true"
         },
         "xchat_conversation_event_limit": {
           "value": "200"
@@ -7373,10 +7355,10 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "fbc93ef4e5769ffe58bc74c08e8c6117"
+      "settingsVersion": "b7daec5943c3fcf1beefdb0fd9652f40"
     },
     "debug": {},
-    "featureSetToken": "9eed12fc77492e9daa7084f8b64241b98978953f",
+    "featureSetToken": "620adc2b3da41af963d804f13b147a417f0a1e49",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -7445,7 +7427,7 @@
   },
   "session": {
     "country": "XX",
-    "guestId": "176237656710268395",
+    "guestId": "176263576054619612",
     "hasCommunityMemberships": "false",
     "isActiveCreator": "false",
     "isLoaded": "false",

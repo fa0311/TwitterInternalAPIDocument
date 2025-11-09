@@ -7367,3 +7367,19 @@
 #### remove<br>
 - payments_qr_onboarding_enabled<br>
 - payments_qr_onboarding_mobile_link_enabled<br>
+## 2025/11/07<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- oauth_trusted_developer_badge_enabled<br>
+- responsive_web_birdwatch_live_note_enabled<br>
+#### remove<br>
+- payments_account_details_enabled<br>
+- payments_cheques_enabled<br>
+- payments_pin_enabled<br>
+- payments_settings_documents_enabled<br>
+- payments_wires_enabled<br>
