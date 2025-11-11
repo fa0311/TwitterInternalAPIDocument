@@ -7383,3 +7383,25 @@
 - payments_pin_enabled<br>
 - payments_settings_documents_enabled<br>
 - payments_wires_enabled<br>
+## 2025/11/11<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- unified_cards_clip_long_media_aspect_ratio<br>
+- unified_cards_clip_long_media_promoted_content_enabled<br>
+- xchat_allow_profile_dm<br>
+- xchat_fetch_legacy_group_details<br>
+- xchat_quick_reply_enabled<br>
+- xchat_search_frequency_weight<br>
+- xchat_search_recency_weight<br>
+- xchat_search_repetition_weight<br>
+- xchat_share_post<br>
+#### remove<br>
+- xchat_allow_legacy_protocol<br>
+- xchat_catch_coroutine_exceptions<br>
+- xchat_process_events_in_batch<br>
+- xchat_pull_events_in_batch<br>
