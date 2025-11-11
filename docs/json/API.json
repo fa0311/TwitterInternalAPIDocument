@@ -1164,8 +1164,8 @@
       }
     },
     "PaymentsUsersTypeahead": {
-      "url": "https://x.com/i/api/graphql/AZURUk27ksncblQUCg6_Rw/PaymentsUsersTypeahead",
-      "queryId": "AZURUk27ksncblQUCg6_Rw",
+      "url": "https://x.com/i/api/graphql/pnP0TpmPEJiiJuN9T-LU4Q/PaymentsUsersTypeahead",
+      "queryId": "pnP0TpmPEJiiJuN9T-LU4Q",
       "method": "GET",
       "features": {
         "responsive_web_graphql_timeline_navigation_enabled": true
@@ -4356,8 +4356,8 @@
       "features": {}
     },
     "BirdwatchCreateNote": {
-      "url": "https://x.com/i/api/graphql/31W1S-GjAAjPqPP4itT48w/BirdwatchCreateNote",
-      "queryId": "31W1S-GjAAjPqPP4itT48w",
+      "url": "https://x.com/i/api/graphql/ZVKZ83GR1PbXSnu251vmWw/BirdwatchCreateNote",
+      "queryId": "ZVKZ83GR1PbXSnu251vmWw",
       "method": "POST",
       "features": {
         "responsive_web_birdwatch_media_notes_enabled": true,
@@ -4514,8 +4514,8 @@
       }
     },
     "BirdwatchFetchNotes": {
-      "url": "https://x.com/i/api/graphql/2Q3ssSLVQ_IJerIK0UgAHw/BirdwatchFetchNotes",
-      "queryId": "2Q3ssSLVQ_IJerIK0UgAHw",
+      "url": "https://x.com/i/api/graphql/sQR88D1yBW2jWTy6IQwaaw/BirdwatchFetchNotes",
+      "queryId": "sQR88D1yBW2jWTy6IQwaaw",
       "method": "GET",
       "features": {
         "responsive_web_birdwatch_live_note_enabled": false,
@@ -4535,8 +4535,8 @@
       }
     },
     "BirdwatchFetchOneNote": {
-      "url": "https://x.com/i/api/graphql/MgJsTwGO78pSQsTeC_HVZA/BirdwatchFetchOneNote",
-      "queryId": "MgJsTwGO78pSQsTeC_HVZA",
+      "url": "https://x.com/i/api/graphql/AUtqw_WUpn_rjyKEfmzwRw/BirdwatchFetchOneNote",
+      "queryId": "AUtqw_WUpn_rjyKEfmzwRw",
       "method": "GET",
       "features": {
         "responsive_web_birdwatch_media_notes_enabled": true,
