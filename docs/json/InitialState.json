@@ -1180,9 +1180,6 @@
       "payments_half_cover_notices_enabled": {
         "value": "false"
       },
-      "payments_lock_unlock_individual_cards_enabled": {
-        "value": "false"
-      },
       "payments_passkey_onboarding_enabled": {
         "value": "false"
       },
@@ -2536,9 +2533,6 @@
       "rweb_xchat_debug_enabled": {
         "value": "false"
       },
-      "rweb_xchat_drawer_enabled": {
-        "value": "false"
-      },
       "rweb_xchat_logs": {
         "value": "false"
       },
@@ -2547,9 +2541,6 @@
       },
       "rweb_xchat_old_dms_inbox_item": {
         "value": "true"
-      },
-      "rweb_xchat_share_sheet_enabled": {
-        "value": "false"
       },
       "rweb_xp_forwarded_for_enabled": {
         "value": "false"
@@ -3708,11 +3699,14 @@
       "xchat_throttle_badge_counts": {
         "value": "false"
       },
+      "xchat_unified_tab_min_snowflake_user_id": {
+        "value": ""
+      },
       "xchat_use_info_items_for_sorting": {
         "value": "false"
       },
       "xchat_use_popular_convos": {
-        "value": "false"
+        "value": "true"
       },
       "xchat_user_event_limit": {
         "value": "500"
@@ -4818,9 +4812,6 @@
           "value": "false"
         },
         "payments_half_cover_notices_enabled": {
-          "value": "false"
-        },
-        "payments_lock_unlock_individual_cards_enabled": {
           "value": "false"
         },
         "payments_passkey_onboarding_enabled": {
@@ -6176,9 +6167,6 @@
         "rweb_xchat_debug_enabled": {
           "value": "false"
         },
-        "rweb_xchat_drawer_enabled": {
-          "value": "false"
-        },
         "rweb_xchat_logs": {
           "value": "false"
         },
@@ -6187,9 +6175,6 @@
         },
         "rweb_xchat_old_dms_inbox_item": {
           "value": "true"
-        },
-        "rweb_xchat_share_sheet_enabled": {
-          "value": "false"
         },
         "rweb_xp_forwarded_for_enabled": {
           "value": "true"
@@ -7348,11 +7333,14 @@
         "xchat_throttle_badge_counts": {
           "value": "false"
         },
+        "xchat_unified_tab_min_snowflake_user_id": {
+          "value": ""
+        },
         "xchat_use_info_items_for_sorting": {
           "value": "false"
         },
         "xchat_use_popular_convos": {
-          "value": "false"
+          "value": "true"
         },
         "xchat_user_event_limit": {
           "value": "500"
@@ -7388,7 +7376,7 @@
       "settingsVersion": "9433d34085a41ca5ff5c551606f1a368"
     },
     "debug": {},
-    "featureSetToken": "e0bf107ffdd8efcec853e1faf2b97c63f9571330",
+    "featureSetToken": "fd30ca09d05a4f139801eedf34316787d4829f2f",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -7457,7 +7445,7 @@
   },
   "session": {
     "country": "XX",
-    "guestId": "176289492318534458",
+    "guestId": "176298132290566665",
     "hasCommunityMemberships": "false",
     "isActiveCreator": "false",
     "isLoaded": "false",

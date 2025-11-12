@@ -6401,3 +6401,16 @@
 - xchat_catch_coroutine_exceptions<br>
 - xchat_process_events_in_batch<br>
 - xchat_pull_events_in_batch<br>
+## 2025/11/12<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- xchat_unified_tab_min_snowflake_user_id<br>
+#### remove<br>
+- payments_lock_unlock_individual_cards_enabled<br>
+- rweb_xchat_drawer_enabled<br>
+- rweb_xchat_share_sheet_enabled<br>
