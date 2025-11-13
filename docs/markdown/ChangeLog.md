@@ -7418,3 +7418,23 @@
 - payments_lock_unlock_individual_cards_enabled<br>
 - rweb_xchat_drawer_enabled<br>
 - rweb_xchat_share_sheet_enabled<br>
+## 2025/11/13<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- subscriptions_features_premium_real_syscache_write<br>
+- xchat_allow_legacy_group_member_add<br>
+- xchat_auto_upgrade_legacy_groups<br>
+#### remove<br>
+- xchat_allow_profile_dm<br>
+- xchat_continue_previous_inbox_pagination<br>
+- xchat_emit_while_pulling<br>
+- xchat_enable_forward_message<br>
+- xchat_hybrid_pull_wait_for_keypair_before_fetching<br>
+- xchat_inbox_conversation_hydrate_users<br>
+- xchat_inbox_conversation_rotate_keys<br>
+- xchat_share_post<br>
