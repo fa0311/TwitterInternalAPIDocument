@@ -758,8 +758,8 @@
     "columnWidthsRedesign": "o",
     "sideNavWidths": "a",
     "sideNavWidthsRedesign": "i",
-    "contentWidths": "d",
-    "contentWidthsRedesign": "s",
+    "contentWidths": "s",
+    "contentWidthsRedesign": "d",
     "wideTabBarWidth": "c",
     "dmDrawerHeight": "u",
     "dmDrawerWidth": "m"
@@ -869,13 +869,13 @@
     "SignUp": "signup"
   },
   {
-    "createAccountLabel": "d().eb022176",
-    "createAccountPhoneEmailLabel": "d().gcfef7b6",
-    "logInLabel": "d().e919c3bc",
-    "signInLabel": "d().e5b0e544",
-    "signUpLabel": "d().a565833e",
-    "signUpPhoneEmailLabel": "d().eb022176",
-    "useAppLabel": "d().gd93944e"
+    "createAccountLabel": "s().eb022176",
+    "createAccountPhoneEmailLabel": "s().gcfef7b6",
+    "logInLabel": "s().e919c3bc",
+    "signInLabel": "s().e5b0e544",
+    "signUpLabel": "s().a565833e",
+    "signUpPhoneEmailLabel": "s().eb022176",
+    "useAppLabel": "s().gd93944e"
   },
   {
     "Control": "control",
@@ -1407,7 +1407,7 @@
   },
   {
     "memberships": [],
-    "fetchStatus": "d.ZP.NONE"
+    "fetchStatus": "s.ZP.NONE"
   },
   {
     "UPDATE_USERS": "UPDATE_USERS"
@@ -1511,8 +1511,8 @@
   },
   {
     "fetchStatus": "S.ZP.NONE",
-    "selectedTimeline": "s.oO",
-    "sort": "s.UO.RELEVANCE",
+    "selectedTimeline": "d.oO",
+    "sort": "d.UO.RELEVANCE",
     "timelines": []
   },
   {
@@ -2113,7 +2113,7 @@
       "fontSize": "subtext3"
     }
   },
-  "{\"isExternal\":\"function()\"{\"try\"{var t=s();return this._customIsExternal?this._customIsExternal(e,n){\"hrefHostname\":\"t\",\"href\":\"e\"}}\"catch()\"{\"return!0\"}},\"setIsExternal\":\"function()\"{\"this._customIsExternal=e\"},\"clearIsExternal\":\"function()\"{\"this._customIsExternal=null\"},\"onLinkClick\":\"function()\"{\"this._customOnLinkClick&&this._customOnLinkClick()\"{\"event\":\"e\",\"link\":\"n\",\"newWindowRequested\":\"t\"}},\"setOnLinkClick\":\"function()\"{\"this._customOnLinkClick=e\"},\"linkProcessor\":\"function()\"{\"return this._customLinkProcessor?this._customLinkProcessor()\":\"e\"},\"setLinkProcessor\":\"function()\"{\"this._customLinkProcessor=e\"},\"hrefProcessor\":\"function()\"{\"return this._customHrefProcessor?this._customHrefProcessor()\":\"e\"},\"setHrefProcessor\":\"function()\"{\"this._customHrefProcessor=e\"},\"withAnchorless\":\"function()\"{return\"string\"==typeof e?{\"anchorless\":\"!0\",\"pathname\":\"e\"}:\"()(0,a.Z)\"{\"anchorless\":\"!0\"},\"e\"},\"setLinkFromUrtUrl\":\"function()\"{\"this._customLinkFromUrtUrl=e\"},\"getLinkFromUrtUrl\":\"function()\"{\"return this._customLinkFromUrtUrl?this._customLinkFromUrtUrl()\":{\"external\":\"!0\",\"pathname\":\"e.url\"}}}",
+  "{\"isExternal\":\"function()\"{\"try\"{var t=d();return this._customIsExternal?this._customIsExternal(e,n){\"hrefHostname\":\"t\",\"href\":\"e\"}}\"catch()\"{\"return!0\"}},\"setIsExternal\":\"function()\"{\"this._customIsExternal=e\"},\"clearIsExternal\":\"function()\"{\"this._customIsExternal=null\"},\"onLinkClick\":\"function()\"{\"this._customOnLinkClick&&this._customOnLinkClick()\"{\"event\":\"e\",\"link\":\"n\",\"newWindowRequested\":\"t\"}},\"setOnLinkClick\":\"function()\"{\"this._customOnLinkClick=e\"},\"linkProcessor\":\"function()\"{\"return this._customLinkProcessor?this._customLinkProcessor()\":\"e\"},\"setLinkProcessor\":\"function()\"{\"this._customLinkProcessor=e\"},\"hrefProcessor\":\"function()\"{\"return this._customHrefProcessor?this._customHrefProcessor()\":\"e\"},\"setHrefProcessor\":\"function()\"{\"this._customHrefProcessor=e\"},\"withAnchorless\":\"function()\"{return\"string\"==typeof e?{\"anchorless\":\"!0\",\"pathname\":\"e\"}:\"()(0,a.Z)\"{\"anchorless\":\"!0\"},\"e\"},\"setLinkFromUrtUrl\":\"function()\"{\"this._customLinkFromUrtUrl=e\"},\"getLinkFromUrtUrl\":\"function()\"{\"return this._customLinkFromUrtUrl?this._customLinkFromUrtUrl()\":{\"external\":\"!0\",\"pathname\":\"e.url\"}}}",
   {
     "Cashtag": "cashtag",
     "Hashtag": "hashtag",
@@ -2126,7 +2126,7 @@
     "CashtagClick": "cashtag_click",
     "HashtagClick": "hashtag_click"
   },
-  "{\"cashtag\":\"function()\"{\"return\"{\"color\":\"link\",\"dir\":\"ltr\",\"link\":\"h()\",\"ref\":\"n\",\"text\":\"$\".concat(c.Cashtag,\\\"$\\\".concatn.text),\"type\":\"c.Cashtag\"}},\"hashtag\":\"function()\"{\"return\"{\"color\":\"link\",\"dir\":\"l.Z.getTextDirection()\",\"link\":\"h(n.text)\",\"ref\":\"n\",\"text\":\"#\".concat(c.Hashtag,\\\"#\\\".concatn.text),\"type\":\"c.Hashtag\"}},\"mention\":\"function()\"{\"return\"{\"color\":\"link\",\"dir\":\"ltr\",\"link\":\"h()\",\"ref\":\"n\",\"text\":\"@\".concat(c.Mention,n.screenName),\"type\":\"c.Mention\"}},\"text\":\"function()\"{\"return\"{\"ref\":{},\"text\":\"s.Z.replaceCarriageReturns()\",\"type\":\"text\",\"weight\":\"Strong\"===n?\"bold\":\"void 0\"}},\"twitterList\":\"function()\"{\"return\"{\"color\":\"text\",\"link\":\"h()\",\"ref\":\"n\",\"text\":\"e\",\"type\":\"c.List\",\"weight\":\"bold\"}},\"url\":\"function()\"{\"return\"{\"color\":\"link\",\"link\":\"h()\",\"ref\":\"n\",\"text\":\"e\",\"type\":\"c.Url\"}},\"urlWithDisplayUrl\":\"function()\"{var r;return{\"color\":\"link\",\"link\":\"h()\",\"ref\":\"n\",\"text\":null!==(c.Url,n.url)&&void 0!==r?r:\"n.url\",\"type\":\"c.UrlWithDisplayUrl\"}},\"user\":\"function()\"{\"return\"{\"ref\":\"n\",\"text\":\"e\",\"type\":\"user\",\"weight\":\"bold\"}}}",
+  "{\"cashtag\":\"function()\"{\"return\"{\"color\":\"link\",\"dir\":\"ltr\",\"link\":\"h()\",\"ref\":\"n\",\"text\":\"$\".concat(c.Cashtag,\\\"$\\\".concatn.text),\"type\":\"c.Cashtag\"}},\"hashtag\":\"function()\"{\"return\"{\"color\":\"link\",\"dir\":\"l.Z.getTextDirection()\",\"link\":\"h(n.text)\",\"ref\":\"n\",\"text\":\"#\".concat(c.Hashtag,\\\"#\\\".concatn.text),\"type\":\"c.Hashtag\"}},\"mention\":\"function()\"{\"return\"{\"color\":\"link\",\"dir\":\"ltr\",\"link\":\"h()\",\"ref\":\"n\",\"text\":\"@\".concat(c.Mention,n.screenName),\"type\":\"c.Mention\"}},\"text\":\"function()\"{\"return\"{\"ref\":{},\"text\":\"d.Z.replaceCarriageReturns()\",\"type\":\"text\",\"weight\":\"Strong\"===n?\"bold\":\"void 0\"}},\"twitterList\":\"function()\"{\"return\"{\"color\":\"text\",\"link\":\"h()\",\"ref\":\"n\",\"text\":\"e\",\"type\":\"c.List\",\"weight\":\"bold\"}},\"url\":\"function()\"{\"return\"{\"color\":\"link\",\"link\":\"h()\",\"ref\":\"n\",\"text\":\"e\",\"type\":\"c.Url\"}},\"urlWithDisplayUrl\":\"function()\"{var r;return{\"color\":\"link\",\"link\":\"h()\",\"ref\":\"n\",\"text\":null!==(c.Url,n.url)&&void 0!==r?r:\"n.url\",\"type\":\"c.UrlWithDisplayUrl\"}},\"user\":\"function()\"{\"return\"{\"ref\":\"n\",\"text\":\"e\",\"type\":\"user\",\"weight\":\"bold\"}}}",
   {
     "x": "x",
     "y": "y"
@@ -2374,7 +2374,7 @@
     "gutterVerticalPx": "y.space12"
   },
   {
-    "aspectRatios": "s",
+    "aspectRatios": "d",
     "baseFontSize": "C",
     "borderRadii": "c",
     "borderRadiiPx": "l",
@@ -2382,7 +2382,7 @@
     "borderWidthsPx": "u",
     "breakpoints": "i",
     "componentDimensions": "S",
-    "componentZIndices": "d",
+    "componentZIndices": "s",
     "fontSizes": "A",
     "fontSizesPx": "D",
     "fontWeights": "h",
@@ -8648,8 +8648,8 @@
     "people_hr": "y",
     "finance_accounting": "Z",
     "legal_compliance": "v",
-    "science_engineering": "w",
-    "medical": "k",
+    "science_engineering": "k",
+    "medical": "w",
     "construction_trades": "D",
     "other": "S"
   },
@@ -8665,13 +8665,13 @@
   },
   {
     "onsite": {
-      "label": "q",
+      "label": "H",
       "description": "O",
       "value": "onsite"
     },
     "remote": {
       "label": "j",
-      "description": "B",
+      "description": "N",
       "value": "remote"
     },
     "hybrid": {
@@ -9358,7 +9358,7 @@
     "ShouldProvidePaymentId": "ShouldProvidePaymentId",
     "Unspecified": "Unspecified"
   },
-  "{\"InsufficientFunds\":{\"headline\":\"d().f66c509a\",\"message\":\"d().f9e0e6a2\",\"action\":{\"link\":\"p.IN\",\"label\":\"d().a4ef9cbe\"}},\"InvalidReceiver\":{\"getHeadline\":\"function()\"{\"return e.actionType===y.jq.P2P_TRANSFER_REQUEST?K\":\"T\"},\"headline\":\"T\",\"message\":\"I\",\"getErrorReporting\":\"function()\"{\"return\"{\"issueReportEnabled\":\"!0\",\"description\":\"Encountered an error while making a request.\"}}},\"InvalidReceiverCurrentState\":{\"getHeadline\":\"function()\"{\"return e.actionType===y.jq.P2P_TRANSFER_REQUEST?K\":\"T\"},\"headline\":\"T\",\"message\":\"I\"},\"BankIssue\":{\"getHeadline\":\"function()\"{var n=e.actionType;return n===y.jq.DEPOSIT?U:n===y.jq.WITHDRAWAL?V:\"j\"},\"headline\":\"j\",\"message\":\"x\"},\"InvalidReceiverPreferences\":{\"getHeadline\":\"function()\"{\"return e.actionType===y.jq.P2P_TRANSFER_REQUEST?K\":\"T\"},\"headline\":\"T\",\"message\":\"w\",\"getMessage\":\"function()\"{\"var n=e.actionType\",t=e.counterPartyScreenName;return t?n===y.jq.P2P_TRANSFER_REQUEST?q(){\"counterPartyScreenName\":\"t\"}{\"counterPartyScreenName\":\"t\"}}},\"InvalidSenderPreferences\":{\"headline\":\"K\",\"message\":\"w\",\"getMessage\":\"function()\"{\"var n=e.actionType\",t=e.counterPartyScreenName;return t?n===y.jq.P2P_TRANSFER_REQUEST?q(){\"counterPartyScreenName\":\"t\"}{\"counterPartyScreenName\":\"t\"}}},\"InvalidSender\":{\"getHeadline\":\"function()\"{\"return e.actionType===y.jq.P2P_TRANSFER_REQUEST?K\":\"T\"},\"headline\":\"T\",\"message\":\"I\",\"getErrorReporting\":\"function()\"{\"return\"{\"issueReportEnabled\":\"!0\",\"description\":\"Encountered an error while making a payment.\"}}},\"InvalidSenderCurrentState\":{\"getHeadline\":\"function()\"{\"return e.actionType===y.jq.P2P_TRANSFER_REQUEST?K\":\"T\"},\"headline\":\"T\",\"message\":\"I\"},\"IdempotencyKeyConflict\":{\"headline\":\"d().f6b3499c\",\"message\":\"d().f64125f6\",\"action\":{\"link\":\"p.bR\",\"label\":\"d().e63ed2f0\"}},\"CustomerMissingPrimaryAddress\":{\"message\":\"d().gde35c74\",\"action\":{\"link\":\"p.f0\",\"label\":\"d().jd899ca2\"}},\"LoginRequired\":\"L\",\"PaymentMethodLinkRequired\":\"L\",\"AccountLinkingNameMismatch\":{\"message\":\"d().d660047c\"},\"InsufficientBalance\":{\"headline\":\"d().f66c509a\",\"message\":\"d().f40c576c\",\"action\":{\"link\":\"p.IN\",\"label\":\"d().a4ef9cbe\"}},\"TwoFactorAuthRequired\":{\"message\":\"d().i10a73ce\",\"action\":{\"link\":\"p.ul\",\"label\":\"d().b4642e52\"}},\"VolumeLimitExceeded7DaySend\":{\"headline\":\"C()\"{\"type\":\"weekly\"}\"e\"{\"var n=e.actionType\",t=e.limits;return F(){\"type\":\"weekly\",\"limits\":\"t\",\"actionType\":\"n\"}},\"message\":\"R\",\"getAction\":\"function()\"{\"var n=e.actionType\",t=e.limits;return Z(){\"actionType\":\"n\",\"limits\":\"t\",\"type\":\"weekly\"}},\"action\":{\"link\":\"p.iE.limits\",\"label\":\"v\"}},\"VolumeLimitExceeded30DaySend\":{\"headline\":\"C()\"{\"type\":\"monthly\"}\"e\"{\"var n=e.actionType\",t=e.limits;return F(){\"type\":\"monthly\",\"limits\":\"t\",\"actionType\":\"n\"}},\"message\":\"R\",\"getAction\":\"function()\"{\"var n=e.actionType\",t=e.limits;return Z(){\"actionType\":\"n\",\"limits\":\"t\",\"type\":\"monthly\"}},\"action\":{\"link\":\"p.iE.limits\",\"label\":\"v\"}},\"VolumeLimitExceeded7Day\":{\"headline\":\"C()\"{\"type\":\"weekly\"}\"e\"{\"var n=e.actionType\",t=e.limits;return F(){\"type\":\"weekly\",\"limits\":\"t\",\"actionType\":\"n\"}},\"message\":\"R\",\"getAction\":\"function()\"{\"var n=e.actionType\",t=e.limits;return Z(){\"actionType\":\"n\",\"limits\":\"t\",\"type\":\"weekly\"}},\"action\":{\"link\":\"p.iE.limits\",\"label\":\"v\"}},\"VolumeLimitExceeded30Day\":{\"headline\":\"C()\"{\"type\":\"monthly\"}\"e\"{\"var n=e.actionType\",t=e.limits;return F(){\"type\":\"monthly\",\"limits\":\"t\",\"actionType\":\"n\"}},\"message\":\"R\",\"getAction\":\"function()\"{\"var n=e.actionType\",t=e.limits;return Z(){\"actionType\":\"n\",\"limits\":\"t\",\"type\":\"monthly\"}},\"action\":{\"link\":\"p.iE.limits\",\"label\":\"v\"}},\"AdditionalKycRequiredVolumeLimitExceeded7DaySend\":\"D\",\"AdditionalKycRequiredVolumeLimitExceeded30DaySend\":\"D\",\"AdditionalKycRequiredTotalVolumeLimitExceeded\":\"D\",\"AdditionalKycRequired\":{\"headline\":\"d().g243dc66\",\"message\":\"d().b0315b3a\",\"action\":{\"link\":\"p.AU.tier2.verifyIdentityPath\",\"label\":\"d().c3d89aca\"}},\"Velocity\":{\"headline\":\"z\",\"getHeadline\":\"function()\"{var n=e.actionType;return n?N(){\"actionType\":S[n]}},\"message\":\"d().cd34a81a\"},\"HasAccountBalance\":{\"headline\":\"M\",\"message\":\"d().a9ec0e4a\",\"action\":{\"link\":\"p.r0\",\"label\":\"d().c0728748\"}},\"HasCashbackAccountBalance\":{\"headline\":\"M\",\"message\":\"d().a387275c\",\"action\":{\"link\":\"p.Tb\",\"label\":\"d().e49c288c\"}},\"HasActiveDisputes\":{\"headline\":\"M\",\"message\":\"d().c4800cb8\"},\"HasPendingTransactions\":{\"headline\":\"M\",\"message\":\"d().i0391488\"},\"InactivePaymentMethod\":\"B\",\"InvalidPaymentMethodType\":\"B\",\"PaymentMethodDeleted\":\"B\",\"FeeCalculationError\":{\"headline\":\"O\",\"getHeadline\":\"function()\"{var n=e.actionType;return n?X(){\"actionType\":S[n]}},\"message\":\"x\",\"action\":{\"link\":\"p.gp\",\"label\":\"d().a893d602\"},\"getErrorReporting\":\"function()\"{\"var n\",t=e.actionType;return t===y.jq.DEPOSIT||t===y.jq.WITHDRAWAL?{\"issueReportEnabled\":\"!0\",\"description\":\"Encountered an error while calculating fees for a \".concat()}:{\"issueReportEnabled\":\"!1\"}}},\"Unexpected\":{\"headline\":\"d().ac1c4c40\",\"message\":\"d().de869c96\",\"getErrorReporting\":\"function()\"{\"var n\",t=e.actionType;return t===y.jq.DEPOSIT||t===y.jq.WITHDRAWAL?{\"issueReportEnabled\":\"!0\",\"description\":\"Encountered an unexpected error during a \".concat()}:{\"issueReportEnabled\":\"!1\"}}},\"Default\":{\"getHeadline\":\"function()\"{\"switch()\"{\"case y.jq.P2P_TRANSFER_SEND\":return T;case y.jq.P2P_TRANSFER_REQUEST:return K;case y.jq.WITHDRAWAL:return V;case y.jq.DEPOSIT:return U;case y.jq.CLOSE_ACCOUNT:return M;case y.jq.REONBOARD:return A;default:\"return d().j3dc6686\"}},\"getMessage\":\"function()\"{\"switch()\"{\"case y.jq.P2P_TRANSFER_SEND\":case y.jq.P2P_TRANSFER_REQUEST:return I;default:\"return x\"}},\"message\":\"x\",\"getErrorReporting\":\"function()\"{\"var n\",t,a=e.actionType;return a===y.jq.DEPOSIT||a===y.jq.WITHDRAWAL?{\"issueReportEnabled\":\"!0\",\"description\":\"Encountered an unexpected error during a \".concat()}:a===y.jq.P2P_TRANSFER_REQUEST||a===y.jq.P2P_TRANSFER_SEND||a===y.jq.P2P_TRANSFER_SEND_FUNDED?{\"issueReportEnabled\":\"!0\",\"description\":\"Encountered an unexpected error during a \".concat()}:{\"issueReportEnabled\":\"!1\"}}}}",
+  "{\"InsufficientFunds\":{\"headline\":\"d().f66c509a\",\"message\":\"d().f9e0e6a2\",\"action\":{\"link\":\"p.IN\",\"label\":\"d().a4ef9cbe\"}},\"InvalidReceiver\":{\"getHeadline\":\"function()\"{\"return e.actionType===y.jq.P2P_TRANSFER_REQUEST?K\":\"T\"},\"headline\":\"T\",\"message\":\"I\",\"getErrorReporting\":\"function()\"{\"return\"{\"issueReportEnabled\":\"!0\",\"description\":\"Encountered an error while making a request.\"}}},\"InvalidReceiverCurrentState\":{\"getHeadline\":\"function()\"{\"return e.actionType===y.jq.P2P_TRANSFER_REQUEST?K\":\"T\"},\"headline\":\"T\",\"message\":\"I\"},\"BankIssue\":{\"getHeadline\":\"function()\"{var n=e.actionType;return n===y.jq.DEPOSIT?U:n===y.jq.WITHDRAWAL?V:\"j\"},\"headline\":\"j\",\"message\":\"x\"},\"InvalidReceiverPreferences\":{\"getHeadline\":\"function()\"{\"return e.actionType===y.jq.P2P_TRANSFER_REQUEST?K\":\"T\"},\"headline\":\"T\",\"message\":\"w\",\"getMessage\":\"function()\"{\"var n=e.actionType\",t=e.counterPartyScreenName;return t?n===y.jq.P2P_TRANSFER_REQUEST?q(){\"counterPartyScreenName\":\"t\"}{\"counterPartyScreenName\":\"t\"}}},\"InvalidSenderPreferences\":{\"headline\":\"K\",\"message\":\"w\",\"getMessage\":\"function()\"{\"var n=e.actionType\",t=e.counterPartyScreenName;return t?n===y.jq.P2P_TRANSFER_REQUEST?q(){\"counterPartyScreenName\":\"t\"}{\"counterPartyScreenName\":\"t\"}}},\"InvalidSender\":{\"getHeadline\":\"function()\"{\"return e.actionType===y.jq.P2P_TRANSFER_REQUEST?K\":\"T\"},\"headline\":\"T\",\"message\":\"I\",\"getErrorReporting\":\"function()\"{\"return\"{\"issueReportEnabled\":\"!0\",\"description\":\"Encountered an error while making a payment.\"}}},\"InvalidSenderCurrentState\":{\"getHeadline\":\"function()\"{\"return e.actionType===y.jq.P2P_TRANSFER_REQUEST?K\":\"T\"},\"headline\":\"T\",\"message\":\"I\"},\"IdempotencyKeyConflict\":{\"headline\":\"d().f6b3499c\",\"message\":\"d().f64125f6\",\"action\":{\"link\":\"p.bR\",\"label\":\"d().e63ed2f0\"}},\"CustomerMissingPrimaryAddress\":{\"message\":\"d().gde35c74\",\"action\":{\"link\":\"p.f0\",\"label\":\"d().jd899ca2\"}},\"LoginRequired\":\"L\",\"PaymentMethodLinkRequired\":\"L\",\"AccountLinkingNameMismatch\":{\"message\":\"d().d660047c\"},\"InsufficientBalance\":{\"headline\":\"d().f66c509a\",\"message\":\"d().f40c576c\",\"action\":{\"link\":\"p.IN\",\"label\":\"d().a4ef9cbe\"}},\"TwoFactorAuthRequired\":{\"message\":\"d().i10a73ce\",\"action\":{\"link\":\"p.ul\",\"label\":\"d().b4642e52\"}},\"VolumeLimitExceeded7DaySend\":{\"headline\":\"C()\"{\"type\":\"weekly\"}\"e\"{\"var n=e.actionType\",t=e.limits;return F(){\"type\":\"weekly\",\"limits\":\"t\",\"actionType\":\"n\"}},\"message\":\"R\",\"getAction\":\"function()\"{\"var n=e.actionType\",t=e.limits;return Z(){\"actionType\":\"n\",\"limits\":\"t\",\"type\":\"weekly\"}},\"action\":{\"link\":\"p.iE.limits\",\"label\":\"v\"}},\"VolumeLimitExceeded30DaySend\":{\"headline\":\"C()\"{\"type\":\"monthly\"}\"e\"{\"var n=e.actionType\",t=e.limits;return F(){\"type\":\"monthly\",\"limits\":\"t\",\"actionType\":\"n\"}},\"message\":\"R\",\"getAction\":\"function()\"{\"var n=e.actionType\",t=e.limits;return Z(){\"actionType\":\"n\",\"limits\":\"t\",\"type\":\"monthly\"}},\"action\":{\"link\":\"p.iE.limits\",\"label\":\"v\"}},\"VolumeLimitExceeded7Day\":{\"headline\":\"C()\"{\"type\":\"weekly\"}\"e\"{\"var n=e.actionType\",t=e.limits;return F(){\"type\":\"weekly\",\"limits\":\"t\",\"actionType\":\"n\"}},\"message\":\"R\",\"getAction\":\"function()\"{\"var n=e.actionType\",t=e.limits;return Z(){\"actionType\":\"n\",\"limits\":\"t\",\"type\":\"weekly\"}},\"action\":{\"link\":\"p.iE.limits\",\"label\":\"v\"}},\"VolumeLimitExceeded30Day\":{\"headline\":\"C()\"{\"type\":\"monthly\"}\"e\"{\"var n=e.actionType\",t=e.limits;return F(){\"type\":\"monthly\",\"limits\":\"t\",\"actionType\":\"n\"}},\"message\":\"R\",\"getAction\":\"function()\"{\"var n=e.actionType\",t=e.limits;return Z(){\"actionType\":\"n\",\"limits\":\"t\",\"type\":\"monthly\"}},\"action\":{\"link\":\"p.iE.limits\",\"label\":\"v\"}},\"AdditionalKycRequiredVolumeLimitExceeded7DaySend\":\"D\",\"AdditionalKycRequiredVolumeLimitExceeded30DaySend\":\"D\",\"AdditionalKycRequiredTotalVolumeLimitExceeded\":\"D\",\"AdditionalKycRequired\":{\"headline\":\"d().g243dc66\",\"message\":\"d().b0315b3a\",\"action\":{\"link\":\"p.AU.tier2.verifyIdentityPath\",\"label\":\"d().c3d89aca\"}},\"Velocity\":{\"headline\":\"z\",\"getHeadline\":\"function()\"{var n=e.actionType;return n?N(){\"actionType\":S[n]}},\"message\":\"d().cd34a81a\"},\"HasAccountBalance\":{\"headline\":\"A\",\"message\":\"d().a9ec0e4a\",\"action\":{\"link\":\"p.r0\",\"label\":\"d().c0728748\"}},\"HasCashbackAccountBalance\":{\"headline\":\"A\",\"message\":\"d().a387275c\",\"action\":{\"link\":\"p.Tb\",\"label\":\"d().e49c288c\"}},\"HasActiveDisputes\":{\"headline\":\"A\",\"message\":\"d().c4800cb8\"},\"HasPendingTransactions\":{\"headline\":\"A\",\"message\":\"d().i0391488\"},\"InactivePaymentMethod\":\"B\",\"InvalidPaymentMethodType\":\"B\",\"PaymentMethodDeleted\":\"B\",\"FeeCalculationError\":{\"headline\":\"O\",\"getHeadline\":\"function()\"{var n=e.actionType;return n?X(){\"actionType\":S[n]}},\"message\":\"x\",\"action\":{\"link\":\"p.gp\",\"label\":\"d().a893d602\"},\"getErrorReporting\":\"function()\"{\"var n\",t=e.actionType;return t===y.jq.DEPOSIT||t===y.jq.WITHDRAWAL?{\"issueReportEnabled\":\"!0\",\"description\":\"Encountered an error while calculating fees for a \".concat()}:{\"issueReportEnabled\":\"!1\"}}},\"Unexpected\":{\"headline\":\"d().ac1c4c40\",\"message\":\"d().de869c96\",\"getErrorReporting\":\"function()\"{\"var n\",t=e.actionType;return t===y.jq.DEPOSIT||t===y.jq.WITHDRAWAL?{\"issueReportEnabled\":\"!0\",\"description\":\"Encountered an unexpected error during a \".concat()}:{\"issueReportEnabled\":\"!1\"}}},\"Default\":{\"getHeadline\":\"function()\"{\"switch()\"{\"case y.jq.P2P_TRANSFER_SEND\":return T;case y.jq.P2P_TRANSFER_REQUEST:return K;case y.jq.WITHDRAWAL:return V;case y.jq.DEPOSIT:return U;case y.jq.CLOSE_ACCOUNT:return A;case y.jq.REONBOARD:return M;default:\"return d().j3dc6686\"}},\"getMessage\":\"function()\"{\"switch()\"{\"case y.jq.P2P_TRANSFER_SEND\":case y.jq.P2P_TRANSFER_REQUEST:return I;default:\"return x\"}},\"message\":\"x\",\"getErrorReporting\":\"function()\"{\"var n\",t,a=e.actionType;return a===y.jq.DEPOSIT||a===y.jq.WITHDRAWAL?{\"issueReportEnabled\":\"!0\",\"description\":\"Encountered an unexpected error during a \".concat()}:a===y.jq.P2P_TRANSFER_REQUEST||a===y.jq.P2P_TRANSFER_SEND||a===y.jq.P2P_TRANSFER_SEND_FUNDED?{\"issueReportEnabled\":\"!0\",\"description\":\"Encountered an unexpected error during a \".concat()}:{\"issueReportEnabled\":\"!1\"}}}}",
   {
     "ClaimTransferDecisionAccept": "ClaimTransferDecisionAccept",
     "ClaimTransferDecisionReject": "ClaimTransferDecisionReject",
@@ -9843,6 +9843,7 @@
     "one_click": "one_click",
     "offer_v1_1": "offer_v1_1",
     "offer_v2_1": "offer_v2_1",
+    "retention_offer": "retention_offer",
     "grok_4": "grok_4",
     "nord": "nord",
     "native_clone_with_tabs": "native_clone_with_tabs",
