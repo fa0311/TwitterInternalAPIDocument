@@ -455,6 +455,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | full                | full                |
 | jetfuel             | jetfuel             |
 | money               | money               |
+| moneyMax            | moneyMax            |
 
 | constant        | value           |
 |:----------------|:----------------|
@@ -2008,20 +2009,22 @@ This document is entirely auto-generated and may contain errors.<br>
 | LiveEvent        | LiveEvent        |
 | SoftIntervention | SoftIntervention |
 
-| constant   | value      |
-|:-----------|:-----------|
-| primary0   | primary    |
-| blue0      | blue500    |
-| green0     | green500   |
-| magenta0   | magenta500 |
-| orange0    | orange500  |
-| plum0      | plum500    |
-| purple0    | purple500  |
-| red0       | red500     |
-| teal0      | teal500    |
-| yellow0    | yellow500  |
-| gray0      | gray500    |
-| gray100    | gray600    |
+| constant    | value       |
+|:------------|:------------|
+| blue0       | blue500     |
+| gray0       | gray500     |
+| gray100     | gray600     |
+| gray700     | gray700     |
+| green0      | green500    |
+| magenta0    | magenta500  |
+| orange0     | orange500   |
+| plum0       | plum500     |
+| primary0    | primary     |
+| purple0     | purple500   |
+| red0        | red500      |
+| teal0       | teal500     |
+| transparent | transparent |
+| yellow0     | yellow500   |
 
 | constant    | value       |
 |:------------|:------------|
@@ -4408,7 +4411,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{"ActionsBar":"E.Z","ActionMenu":"function()"{"var t=e.Icon",n=e.isDisabled,r=e.items,o=e.onOpen,"i=s.useCallback()"{"return s.createElement()"{"items":"r","onCloseRequested":"e"}}{"Icon":"t","isDisabled":"n","onClick":"o","renderActionMenu":"i"}},"CallToAction":"c.ZP","EditCallout":"T.Z","Education...
+{"ActionsBar":"k.Z","ActionMenu":"function()"{"var t=e.Icon",n=e.isDisabled,r=e.items,o=e.onOpen,"i=s.useCallback()"{"return s.createElement()"{"items":"r","onCloseRequested":"e"}}{"Icon":"t","isDisabled":"n","onClick":"o","renderActionMenu":"i"}},"CallToAction":"c.ZP","EditCallout":"T.Z","Education...
 ```
 | constant     | value        |
 |:-------------|:-------------|
