@@ -7451,3 +7451,15 @@
 - subscriptions_gifting_tooltip_enabled<br>
 #### remove<br>
 - None<br>
+## 2025/11/15<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- syscache_business_cancel_flow_warning_enabed<br>
+- x_jetfuel_use_new_api_url<br>
+#### remove<br>
+- None<br>
