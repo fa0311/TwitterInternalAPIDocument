@@ -127,7 +127,8 @@
     "DeleteMemory": "delete_memory",
     "XThreadFetch": "x_thread_fetch",
     "ViewXVideo": "view_x_video",
-    "ViewImage": "view_image"
+    "ViewImage": "view_image",
+    "SearchImages": "search_images"
   },
   {
     "IOS": "ios",
