@@ -155,6 +155,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | XThreadFetch          | x_thread_fetch           |
 | ViewXVideo            | view_x_video             |
 | ViewImage             | view_image               |
+| SearchImages          | search_images            |
 
 | constant   | value   |
 |:-----------|:--------|
