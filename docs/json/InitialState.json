@@ -1156,11 +1156,14 @@
       "payments_1password_history_fix_enabled": {
         "value": "true"
       },
-      "payments_automated_direct_deposits_enabled": {
+      "payments_access_fetch_enabled": {
         "value": "false"
       },
+      "payments_automated_direct_deposits_enabled": {
+        "value": "true"
+      },
       "payments_card_spend_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "payments_cash_deposits_enabled": {
         "value": "false"
@@ -1174,29 +1177,26 @@
       "payments_crb_iframe_delay_msecs": {
         "value": "1000"
       },
-      "payments_enabled": {
-        "value": "false"
-      },
       "payments_forward_with_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "payments_half_cover_notices_enabled": {
         "value": "false"
       },
       "payments_passkey_onboarding_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "payments_tasks_carousel_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "payments_tracing_reports_enabled": {
         "value": "false"
       },
       "payments_transaction_search_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "payments_transfer_methods_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "premium_content_api_read_enabled": {
         "value": "false"
@@ -1394,6 +1394,9 @@
         "value": "true"
       },
       "responsive_web_birdwatch_netzdg_enabled": {
+        "value": "false"
+      },
+      "responsive_web_birdwatch_note_internal_insights_enabled": {
         "value": "false"
       },
       "responsive_web_birdwatch_note_limit_enabled": {
@@ -2016,9 +2019,6 @@
       },
       "responsive_web_profile_about_enabled": {
         "value": "false"
-      },
-      "responsive_web_profile_about_pilot": {
-        "value": []
       },
       "responsive_web_profile_redirect_enabled": {
         "value": "false"
@@ -2806,7 +2806,7 @@
         "value": "true"
       },
       "subscriptions_features_premium_real_syscache_write": {
-        "value": "false"
+        "value": "true"
       },
       "subscriptions_features_premium_syscache_write": {
         "value": "true"
@@ -3478,6 +3478,9 @@
       "twitter_delegate_subscriber_limit": {
         "value": "25"
       },
+      "twitter_jetfuel_use_new_api_url": {
+        "value": "true"
+      },
       "ucpd_enabled": {
         "value": "true"
       },
@@ -3485,7 +3488,7 @@
         "value": "0.8"
       },
       "unified_cards_clip_long_media_promoted_content_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "unified_cards_collection_ads_convert_to_image_website_card": {
         "value": "false"
@@ -3603,6 +3606,9 @@
       "x_jetfuel_use_new_api_url": {
         "value": "true"
       },
+      "xchat_allow_latest_ckey_failure_for_one_on_one": {
+        "value": "false"
+      },
       "xchat_allow_legacy_group_member_add": {
         "value": "true"
       },
@@ -3692,6 +3698,9 @@
       },
       "xchat_search_repetition_weight": {
         "value": "0.2"
+      },
+      "xchat_show_inbox_categories": {
+        "value": "false"
       },
       "xchat_show_safety_number_ui": {
         "value": "false"
@@ -4793,11 +4802,14 @@
         "payments_1password_history_fix_enabled": {
           "value": "true"
         },
-        "payments_automated_direct_deposits_enabled": {
+        "payments_access_fetch_enabled": {
           "value": "false"
         },
+        "payments_automated_direct_deposits_enabled": {
+          "value": "true"
+        },
         "payments_card_spend_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "payments_cash_deposits_enabled": {
           "value": "false"
@@ -4811,29 +4823,26 @@
         "payments_crb_iframe_delay_msecs": {
           "value": "1000"
         },
-        "payments_enabled": {
-          "value": "false"
-        },
         "payments_forward_with_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "payments_half_cover_notices_enabled": {
           "value": "false"
         },
         "payments_passkey_onboarding_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "payments_tasks_carousel_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "payments_tracing_reports_enabled": {
           "value": "false"
         },
         "payments_transaction_search_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "payments_transfer_methods_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "premium_content_api_read_enabled": {
           "value": "false"
@@ -5031,6 +5040,9 @@
           "value": "true"
         },
         "responsive_web_birdwatch_netzdg_enabled": {
+          "value": "false"
+        },
+        "responsive_web_birdwatch_note_internal_insights_enabled": {
           "value": "false"
         },
         "responsive_web_birdwatch_note_limit_enabled": {
@@ -5653,9 +5665,6 @@
         },
         "responsive_web_profile_about_enabled": {
           "value": "false"
-        },
-        "responsive_web_profile_about_pilot": {
-          "value": []
         },
         "responsive_web_profile_redirect_enabled": {
           "value": "false"
@@ -6443,7 +6452,7 @@
           "value": "true"
         },
         "subscriptions_features_premium_real_syscache_write": {
-          "value": "false"
+          "value": "true"
         },
         "subscriptions_features_premium_syscache_write": {
           "value": "true"
@@ -6809,7 +6818,7 @@
           "value": "true"
         },
         "syscache_premium_cancel_flow_warning_enabed": {
-          "value": "false"
+          "value": "true"
         },
         "syscache_syscache_pb_sidebar_handles_enabled": {
           "value": "false"
@@ -7125,7 +7134,7 @@
           "value": "0.8"
         },
         "unified_cards_clip_long_media_promoted_content_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "unified_cards_collection_ads_convert_to_image_website_card": {
           "value": "false"
@@ -7243,6 +7252,9 @@
         "x_jetfuel_use_new_api_url": {
           "value": "true"
         },
+        "xchat_allow_latest_ckey_failure_for_one_on_one": {
+          "value": "false"
+        },
         "xchat_allow_legacy_group_member_add": {
           "value": "true"
         },
@@ -7333,6 +7345,9 @@
         "xchat_search_repetition_weight": {
           "value": "0.2"
         },
+        "xchat_show_inbox_categories": {
+          "value": "false"
+        },
         "xchat_show_safety_number_ui": {
           "value": "false"
         },
@@ -7382,10 +7397,10 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "46974fa6c0df016e98ff2140b5e66f0f"
+      "settingsVersion": "d9f4e23e70c9cb2498e2c34859ea2dec"
     },
     "debug": {},
-    "featureSetToken": "0f90c93f3b19058061733f0d9adf8a5ea8084e5a",
+    "featureSetToken": "8fe955924e2dad60508658790c70ec28a0526062",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -7454,7 +7469,7 @@
   },
   "session": {
     "country": "XX",
-    "guestId": "176341332908292533",
+    "guestId": "176358613293753989",
     "hasCommunityMemberships": "false",
     "isActiveCreator": "false",
     "isLoaded": "false",
