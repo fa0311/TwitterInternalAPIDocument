@@ -19,8 +19,8 @@
       "features": {}
     },
     "GrokConversationItemsByRestId": {
-      "url": "https://x.com/i/api/graphql/V8tpX0yLt-qnyILg5dDWHw/GrokConversationItemsByRestId",
-      "queryId": "V8tpX0yLt-qnyILg5dDWHw",
+      "url": "https://x.com/i/api/graphql/E7VujKtNKlNYBLqth5VPAQ/GrokConversationItemsByRestId",
+      "queryId": "E7VujKtNKlNYBLqth5VPAQ",
       "method": "GET",
       "features": {
         "creator_subscriptions_tweet_preview_api_enabled": true,
@@ -46,7 +46,6 @@
         "tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled": true,
         "longform_notetweets_rich_text_read_enabled": true,
         "longform_notetweets_inline_media_enabled": true,
-        "payments_enabled": false,
         "profile_label_improvements_pcf_label_in_post_enabled": true,
         "responsive_web_profile_redirect_enabled": false,
         "rweb_tipjar_consumption_enabled": true,
@@ -96,8 +95,8 @@
       "features": {}
     },
     "GrokShare": {
-      "url": "https://x.com/i/api/graphql/liD3GyH4eDIeyZpsHk405Q/GrokShare",
-      "queryId": "liD3GyH4eDIeyZpsHk405Q",
+      "url": "https://x.com/i/api/graphql/znAqshowjNKD_OdMGxZ4Tg/GrokShare",
+      "queryId": "znAqshowjNKD_OdMGxZ4Tg",
       "method": "GET",
       "features": {
         "creator_subscriptions_tweet_preview_api_enabled": true,
@@ -123,7 +122,6 @@
         "tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled": true,
         "longform_notetweets_rich_text_read_enabled": true,
         "longform_notetweets_inline_media_enabled": true,
-        "payments_enabled": false,
         "profile_label_improvements_pcf_label_in_post_enabled": true,
         "responsive_web_profile_redirect_enabled": false,
         "rweb_tipjar_consumption_enabled": true,
