@@ -76,7 +76,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## GrokConversationItemsByRestId<br>
-Request URL: `https://x.com/i/api/graphql/V8tpX0yLt-qnyILg5dDWHw/GrokConversationItemsByRestId`<br>
+Request URL: `https://x.com/i/api/graphql/E7VujKtNKlNYBLqth5VPAQ/GrokConversationItemsByRestId`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -108,7 +108,6 @@ Login Required: `...`<br>
 | tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | True       |
 | longform_notetweets_rich_text_read_enabled                              | boolean | True       |
 | longform_notetweets_inline_media_enabled                                | boolean | True       |
-| payments_enabled                                                        | boolean | False      |
 | profile_label_improvements_pcf_label_in_post_enabled                    | boolean | True       |
 | responsive_web_profile_redirect_enabled                                 | boolean | False      |
 | rweb_tipjar_consumption_enabled                                         | boolean | True       |
@@ -189,7 +188,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## GrokShare<br>
-Request URL: `https://x.com/i/api/graphql/liD3GyH4eDIeyZpsHk405Q/GrokShare`<br>
+Request URL: `https://x.com/i/api/graphql/znAqshowjNKD_OdMGxZ4Tg/GrokShare`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -221,7 +220,6 @@ Login Required: `...`<br>
 | tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | True       |
 | longform_notetweets_rich_text_read_enabled                              | boolean | True       |
 | longform_notetweets_inline_media_enabled                                | boolean | True       |
-| payments_enabled                                                        | boolean | False      |
 | profile_label_improvements_pcf_label_in_post_enabled                    | boolean | True       |
 | responsive_web_profile_redirect_enabled                                 | boolean | False      |
 | rweb_tipjar_consumption_enabled                                         | boolean | True       |

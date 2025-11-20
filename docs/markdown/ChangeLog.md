@@ -7475,3 +7475,18 @@
 - twitter_jetfuel_use_new_api_url<br>
 #### remove<br>
 - None<br>
+## 2025/11/19<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- payments_access_fetch_enabled<br>
+- responsive_web_birdwatch_note_internal_insights_enabled<br>
+- xchat_allow_latest_ckey_failure_for_one_on_one<br>
+- xchat_show_inbox_categories<br>
+#### remove<br>
+- payments_enabled<br>
+- responsive_web_profile_about_pilot<br>
