@@ -9129,8 +9129,8 @@ This document is entirely auto-generated and may contain errors.<br>
 | people_hr            | y       |
 | finance_accounting   | Z       |
 | legal_compliance     | v       |
-| science_engineering  | k       |
-| medical              | w       |
+| science_engineering  | w       |
+| medical              | k       |
 | construction_trades  | D       |
 | other                | S       |
 
@@ -9147,9 +9147,9 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant   | value                                                 |
 |:-----------|:------------------------------------------------------|
-| onsite     | {'label': 'q', 'description': 'j', 'value': 'onsite'} |
-| remote     | {'label': 'W', 'description': 'N', 'value': 'remote'} |
-| hybrid     | {'label': 'H', 'description': 'O', 'value': 'hybrid'} |
+| onsite     | {'label': 'H', 'description': 'W', 'value': 'onsite'} |
+| remote     | {'label': 'q', 'description': 'M', 'value': 'remote'} |
+| hybrid     | {'label': 'j', 'description': 'O', 'value': 'hybrid'} |
 
 | constant      | value         |
 |:--------------|:--------------|
@@ -10408,6 +10408,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | offer_v1_1                                 | offer_v1_1                                 |
 | offer_v2_1                                 | offer_v2_1                                 |
 | retention_offer                            | retention_offer                            |
+| main_offer                                 | main_offer                                 |
 | grok_4                                     | grok_4                                     |
 | nord                                       | nord                                       |
 | native_clone_with_tabs                     | native_clone_with_tabs                     |
@@ -10944,7 +10945,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{"ActionsBar":"k.Z","ActionMenu":"function()"{"var t=e.Icon",n=e.isDisabled,r=e.items,i=e.onOpen,"o=l.useCallback()"{"return l.createElement()"{"items":"r","onCloseRequested":"e"}}{"Icon":"t","isDisabled":"n","onClick":"i","renderActionMenu":"o"}},"CallToAction":"c.ZP","EditCallout":"E.Z","Education...
+{"ActionsBar":"Z.Z","ActionMenu":"function()"{"var t=e.Icon",n=e.isDisabled,r=e.items,i=e.onOpen,"o=l.useCallback()"{"return l.createElement()"{"items":"r","onCloseRequested":"e"}}{"Icon":"t","isDisabled":"n","onClick":"i","renderActionMenu":"o"}},"CallToAction":"c.ZP","EditCallout":"E.Z","Education...
 ```
 | constant                  | value                     |
 |:--------------------------|:--------------------------|
