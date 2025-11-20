@@ -1157,7 +1157,7 @@
         "value": "true"
       },
       "payments_access_fetch_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "payments_automated_direct_deposits_enabled": {
         "value": "true"
@@ -3172,7 +3172,7 @@
         "value": "true"
       },
       "syscache_premium_cancel_flow_warning_enabed": {
-        "value": "false"
+        "value": "true"
       },
       "syscache_syscache_pb_sidebar_handles_enabled": {
         "value": "false"
@@ -3700,7 +3700,7 @@
         "value": "0.2"
       },
       "xchat_show_inbox_categories": {
-        "value": "false"
+        "value": "true"
       },
       "xchat_show_safety_number_ui": {
         "value": "false"
@@ -3718,7 +3718,7 @@
         "value": "false"
       },
       "xchat_use_popular_convos": {
-        "value": "true"
+        "value": "false"
       },
       "xchat_user_event_limit": {
         "value": "500"
@@ -4803,7 +4803,7 @@
           "value": "true"
         },
         "payments_access_fetch_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "payments_automated_direct_deposits_enabled": {
           "value": "true"
@@ -4854,7 +4854,7 @@
           "value": "false"
         },
         "premium_webview_paywall_offer_variant": {
-          "value": "summer"
+          "value": "thanksgiving2025"
         },
         "premium_webview_paywall_video_url": {
           "value": "https://abs.twimg.com/videos/grok-4-key-visual.mp4"
@@ -6668,7 +6668,7 @@
           "value": "true"
         },
         "subscriptions_upsells_home_sidebar_migration_enabled": {
-          "value": "true"
+          "value": "false"
         },
         "subscriptions_upsells_longform_sidebar_variant": {
           "value": ""
@@ -7364,7 +7364,7 @@
           "value": "false"
         },
         "xchat_use_popular_convos": {
-          "value": "true"
+          "value": "false"
         },
         "xchat_user_event_limit": {
           "value": "500"
@@ -7397,10 +7397,10 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "d9f4e23e70c9cb2498e2c34859ea2dec"
+      "settingsVersion": "0ec140ac658d9a5100a37095efebf0b3"
     },
     "debug": {},
-    "featureSetToken": "8fe955924e2dad60508658790c70ec28a0526062",
+    "featureSetToken": "7d4126037fae1bf66f7c3ba14c705b96dbd268e8",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -7469,7 +7469,7 @@
   },
   "session": {
     "country": "XX",
-    "guestId": "176358633152648241",
+    "guestId": "176367271347206562",
     "hasCommunityMemberships": "false",
     "isActiveCreator": "false",
     "isLoaded": "false",
