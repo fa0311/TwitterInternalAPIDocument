@@ -3091,7 +3091,7 @@ Login Required: `...`<br>
 | key                                                               | type    | variable   |
 |:------------------------------------------------------------------|:--------|:-----------|
 | subscriptions_upsells_api_enabled                                 | boolean | True       |
-| payments_access_fetch_enabled                                     | boolean | False      |
+| payments_access_fetch_enabled                                     | boolean | True       |
 | profile_label_improvements_pcf_label_in_post_enabled              | boolean | True       |
 | responsive_web_profile_redirect_enabled                           | boolean | False      |
 | rweb_tipjar_consumption_enabled                                   | boolean | True       |

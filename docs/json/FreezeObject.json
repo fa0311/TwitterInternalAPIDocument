@@ -6788,7 +6788,7 @@
       "aria-live": "polite"
     }
   },
-  "{\"ActionsBar\":\"E.Z\",\"ActionMenu\":\"function()\"{\"var t=e.Icon\",n=e.isDisabled,r=e.items,o=e.onOpen,\"i=l.useCallback()\"{\"return l.createElement()\"{\"items\":\"r\",\"onCloseRequested\":\"e\"}}{\"Icon\":\"t\",\"isDisabled\":\"n\",\"onClick\":\"o\",\"renderActionMenu\":\"i\"}},\"CallToAction\":\"c.ZP\",\"EditCallout\":\"k.Z\",\"Education\":\"T.Z\",\"HighlightedUserLabel\":\"m.Z\",\"Media\":\"x.Z\",\"Place\":\"s.ZP\",\"PromotedDetails\":\"f.Z\",\"PromotedUserProfileCard\":\"L\",\"ReplyContext\":\"R.ZP\",\"RichContent\":\"D.Z\",\"SocialContext\":\"w.Z\",\"Text\":\"F.Z\",\"Tombstone\":\"b.Z\",\"Timestamp\":\"h.Z\",\"UserAvatar\":\"B.Z\",\"UserFollowIndicator\":\"V.Z\",\"UserName\":\"U.Z\",\"ArticleCard\":\"_.Z\"}",
+  "{\"ActionsBar\":\"E.Z\",\"ActionMenu\":\"function()\"{\"var t=e.Icon\",n=e.isDisabled,r=e.items,o=e.onOpen,\"i=l.useCallback()\"{\"return l.createElement()\"{\"items\":\"r\",\"onCloseRequested\":\"e\"}}{\"Icon\":\"t\",\"isDisabled\":\"n\",\"onClick\":\"o\",\"renderActionMenu\":\"i\"}},\"CallToAction\":\"c.ZP\",\"EditCallout\":\"k.Z\",\"Education\":\"T.Z\",\"HighlightedUserLabel\":\"m.Z\",\"Media\":\"x.Z\",\"Place\":\"s.ZP\",\"PromotedDetails\":\"f.Z\",\"PromotedUserProfileCard\":\"L\",\"ReplyContext\":\"R.ZP\",\"RichContent\":\"D.Z\",\"SocialContext\":\"b.Z\",\"Text\":\"F.Z\",\"Tombstone\":\"w.Z\",\"Timestamp\":\"h.Z\",\"UserAvatar\":\"B.Z\",\"UserFollowIndicator\":\"H.Z\",\"UserName\":\"U.Z\",\"ArticleCard\":\"_.Z\"}",
   {
     "LIVE_BROADCAST": "liveBroadcast",
     "REPLAY_BROADCAST": "replayBroadcast",
@@ -7328,7 +7328,7 @@
       "aria-live": "polite"
     }
   },
-  "{\"ActionsBar\":\"Z.Z\",\"ActionMenu\":\"function()\"{\"var t=e.Icon\",n=e.isDisabled,r=e.items,i=e.onOpen,\"o=l.useCallback()\"{\"return l.createElement()\"{\"items\":\"r\",\"onCloseRequested\":\"e\"}}{\"Icon\":\"t\",\"isDisabled\":\"n\",\"onClick\":\"i\",\"renderActionMenu\":\"o\"}},\"CallToAction\":\"c.ZP\",\"EditCallout\":\"k.Z\",\"Education\":\"T.Z\",\"HighlightedUserLabel\":\"m.Z\",\"Media\":\"x.Z\",\"Place\":\"s.ZP\",\"PromotedDetails\":\"f.Z\",\"PromotedUserProfileCard\":\"R\",\"ReplyContext\":\"M.ZP\",\"RichContent\":\"L.Z\",\"SocialContext\":\"b.Z\",\"Text\":\"B.Z\",\"Tombstone\":\"y.Z\",\"Timestamp\":\"v.Z\",\"UserAvatar\":\"F.Z\",\"UserFollowIndicator\":\"H.Z\",\"UserName\":\"U.Z\",\"ArticleCard\":\"E.Z\"}",
+  "{\"ActionsBar\":\"Z.Z\",\"ActionMenu\":\"function()\"{\"var t=e.Icon\",n=e.isDisabled,r=e.items,i=e.onOpen,\"o=l.useCallback()\"{\"return l.createElement()\"{\"items\":\"r\",\"onCloseRequested\":\"e\"}}{\"Icon\":\"t\",\"isDisabled\":\"n\",\"onClick\":\"i\",\"renderActionMenu\":\"o\"}},\"CallToAction\":\"c.ZP\",\"EditCallout\":\"k.Z\",\"Education\":\"T.Z\",\"HighlightedUserLabel\":\"m.Z\",\"Media\":\"x.Z\",\"Place\":\"s.ZP\",\"PromotedDetails\":\"f.Z\",\"PromotedUserProfileCard\":\"R\",\"ReplyContext\":\"L.ZP\",\"RichContent\":\"M.Z\",\"SocialContext\":\"b.Z\",\"Text\":\"B.Z\",\"Tombstone\":\"y.Z\",\"Timestamp\":\"v.Z\",\"UserAvatar\":\"F.Z\",\"UserFollowIndicator\":\"H.Z\",\"UserName\":\"U.Z\",\"ArticleCard\":\"E.Z\"}",
   {
     "X_BACKEND": "X_BACKEND",
     "IN_PROGRESS": "MIGRATION_IN_PROGRESS",
@@ -8644,8 +8644,8 @@
     "people_hr": "y",
     "finance_accounting": "Z",
     "legal_compliance": "v",
-    "science_engineering": "k",
-    "medical": "w",
+    "science_engineering": "w",
+    "medical": "k",
     "construction_trades": "D",
     "other": "S"
   },
@@ -8661,17 +8661,17 @@
   },
   {
     "onsite": {
-      "label": "q",
-      "description": "j",
+      "label": "H",
+      "description": "W",
       "value": "onsite"
     },
     "remote": {
-      "label": "W",
-      "description": "N",
+      "label": "q",
+      "description": "M",
       "value": "remote"
     },
     "hybrid": {
-      "label": "H",
+      "label": "j",
       "description": "O",
       "value": "hybrid"
     }
@@ -9843,6 +9843,7 @@
     "offer_v1_1": "offer_v1_1",
     "offer_v2_1": "offer_v2_1",
     "retention_offer": "retention_offer",
+    "main_offer": "main_offer",
     "grok_4": "grok_4",
     "nord": "nord",
     "native_clone_with_tabs": "native_clone_with_tabs",
@@ -10323,7 +10324,7 @@
     "SUCCESS": "rweb/directMessages/SEARCH_SUCCESS",
     "FAILURE": "rweb/directMessages/SEARCH_FAILURE"
   },
-  "{\"ActionsBar\":\"k.Z\",\"ActionMenu\":\"function()\"{\"var t=e.Icon\",n=e.isDisabled,r=e.items,i=e.onOpen,\"o=l.useCallback()\"{\"return l.createElement()\"{\"items\":\"r\",\"onCloseRequested\":\"e\"}}{\"Icon\":\"t\",\"isDisabled\":\"n\",\"onClick\":\"i\",\"renderActionMenu\":\"o\"}},\"CallToAction\":\"c.ZP\",\"EditCallout\":\"E.Z\",\"Education\":\"T.Z\",\"HighlightedUserLabel\":\"m.Z\",\"Media\":\"x.Z\",\"Place\":\"s.ZP\",\"PromotedDetails\":\"f.Z\",\"PromotedUserProfileCard\":\"F\",\"ReplyContext\":\"R.ZP\",\"RichContent\":\"M.Z\",\"SocialContext\":\"y.Z\",\"Text\":\"D.Z\",\"Tombstone\":\"b.Z\",\"Timestamp\":\"g.Z\",\"UserAvatar\":\"U.Z\",\"UserFollowIndicator\":\"K.Z\",\"UserName\":\"B.Z\",\"ArticleCard\":\"_.Z\"}",
+  "{\"ActionsBar\":\"Z.Z\",\"ActionMenu\":\"function()\"{\"var t=e.Icon\",n=e.isDisabled,r=e.items,i=e.onOpen,\"o=l.useCallback()\"{\"return l.createElement()\"{\"items\":\"r\",\"onCloseRequested\":\"e\"}}{\"Icon\":\"t\",\"isDisabled\":\"n\",\"onClick\":\"i\",\"renderActionMenu\":\"o\"}},\"CallToAction\":\"c.ZP\",\"EditCallout\":\"E.Z\",\"Education\":\"T.Z\",\"HighlightedUserLabel\":\"m.Z\",\"Media\":\"x.Z\",\"Place\":\"s.ZP\",\"PromotedDetails\":\"f.Z\",\"PromotedUserProfileCard\":\"F\",\"ReplyContext\":\"R.ZP\",\"RichContent\":\"M.Z\",\"SocialContext\":\"y.Z\",\"Text\":\"D.Z\",\"Tombstone\":\"b.Z\",\"Timestamp\":\"g.Z\",\"UserAvatar\":\"U.Z\",\"UserFollowIndicator\":\"K.Z\",\"UserName\":\"B.Z\",\"ArticleCard\":\"_.Z\"}",
   {
     "AcceptAllCookies": "acceptAllCookies",
     "RefuseNonEssentialCookies": "refuseNonEssentialCookies",
