@@ -8931,7 +8931,7 @@
             "value": "true"
           },
           "payments_access_fetch_enabled": {
-            "value": "false"
+            "value": "true"
           },
           "profile_label_improvements_pcf_label_in_post_enabled": {
             "value": "true"
