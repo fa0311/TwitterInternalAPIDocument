@@ -598,15 +598,6 @@
       "creator_monetization_profile_subscription_tweets_tab_enabled": {
         "value": "true"
       },
-      "creator_monetization_video_ads_onboarding": {
-        "value": "false"
-      },
-      "creator_monetization_web_tips_dashboard_enabled": {
-        "value": "false"
-      },
-      "creator_monetization_web_tips_onboarding_enabled": {
-        "value": "false"
-      },
       "creator_studio_nav_enabled": {
         "value": "false"
       },
@@ -1159,12 +1150,6 @@
       "payments_access_fetch_enabled": {
         "value": "true"
       },
-      "payments_automated_direct_deposits_enabled": {
-        "value": "true"
-      },
-      "payments_card_spend_enabled": {
-        "value": "true"
-      },
       "payments_cash_deposits_enabled": {
         "value": "false"
       },
@@ -1186,16 +1171,10 @@
       "payments_passkey_onboarding_enabled": {
         "value": "true"
       },
-      "payments_tasks_carousel_enabled": {
-        "value": "true"
-      },
       "payments_tracing_reports_enabled": {
         "value": "false"
       },
       "payments_transaction_search_enabled": {
-        "value": "true"
-      },
-      "payments_transfer_methods_enabled": {
         "value": "true"
       },
       "premium_content_api_read_enabled": {
@@ -1208,7 +1187,7 @@
         "value": "false"
       },
       "premium_webview_paywall_offer_variant": {
-        "value": "summer"
+        "value": "thanksgiving2025"
       },
       "premium_webview_paywall_video_url": {
         "value": "https://abs.twimg.com/videos/grok-4-key-visual.mp4"
@@ -2018,7 +1997,7 @@
         "value": "false"
       },
       "responsive_web_profile_about_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "responsive_web_profile_redirect_enabled": {
         "value": "false"
@@ -2545,6 +2524,9 @@
       "rweb_xchat_old_dms_inbox_item": {
         "value": "true"
       },
+      "rweb_xchat_sentry_enabled": {
+        "value": "false"
+      },
       "rweb_xp_forwarded_for_enabled": {
         "value": "false"
       },
@@ -3022,7 +3004,7 @@
         "value": "true"
       },
       "subscriptions_upsells_home_sidebar_migration_enabled": {
-        "value": "true"
+        "value": "false"
       },
       "subscriptions_upsells_longform_sidebar_variant": {
         "value": ""
@@ -4244,15 +4226,6 @@
         "creator_monetization_profile_subscription_tweets_tab_enabled": {
           "value": "true"
         },
-        "creator_monetization_video_ads_onboarding": {
-          "value": "false"
-        },
-        "creator_monetization_web_tips_dashboard_enabled": {
-          "value": "false"
-        },
-        "creator_monetization_web_tips_onboarding_enabled": {
-          "value": "false"
-        },
         "creator_studio_nav_enabled": {
           "value": "false"
         },
@@ -4805,12 +4778,6 @@
         "payments_access_fetch_enabled": {
           "value": "true"
         },
-        "payments_automated_direct_deposits_enabled": {
-          "value": "true"
-        },
-        "payments_card_spend_enabled": {
-          "value": "true"
-        },
         "payments_cash_deposits_enabled": {
           "value": "false"
         },
@@ -4832,16 +4799,10 @@
         "payments_passkey_onboarding_enabled": {
           "value": "true"
         },
-        "payments_tasks_carousel_enabled": {
-          "value": "true"
-        },
         "payments_tracing_reports_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "payments_transaction_search_enabled": {
-          "value": "true"
-        },
-        "payments_transfer_methods_enabled": {
           "value": "true"
         },
         "premium_content_api_read_enabled": {
@@ -5664,7 +5625,7 @@
           "value": "false"
         },
         "responsive_web_profile_about_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "responsive_web_profile_redirect_enabled": {
           "value": "false"
@@ -6191,6 +6152,9 @@
         "rweb_xchat_old_dms_inbox_item": {
           "value": "true"
         },
+        "rweb_xchat_sentry_enabled": {
+          "value": "false"
+        },
         "rweb_xp_forwarded_for_enabled": {
           "value": "true"
         },
@@ -6665,7 +6629,7 @@
           "value": "true"
         },
         "subscriptions_upsells_home_nav_migration_enabled": {
-          "value": "true"
+          "value": "false"
         },
         "subscriptions_upsells_home_sidebar_migration_enabled": {
           "value": "false"
@@ -7346,7 +7310,7 @@
           "value": "0.2"
         },
         "xchat_show_inbox_categories": {
-          "value": "false"
+          "value": "true"
         },
         "xchat_show_safety_number_ui": {
           "value": "false"
@@ -7397,10 +7361,10 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "0ec140ac658d9a5100a37095efebf0b3"
+      "settingsVersion": "9cc272dbe370d9b996fcff6ba88910ff"
     },
     "debug": {},
-    "featureSetToken": "7d4126037fae1bf66f7c3ba14c705b96dbd268e8",
+    "featureSetToken": "0fa1e86752d4a18352771e30b9a350b92b5d01c8",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -7469,7 +7433,7 @@
   },
   "session": {
     "country": "XX",
-    "guestId": "176367271347206562",
+    "guestId": "176375907535204656",
     "hasCommunityMemberships": "false",
     "isActiveCreator": "false",
     "isLoaded": "false",
