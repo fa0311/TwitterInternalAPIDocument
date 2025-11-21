@@ -4,8 +4,8 @@ This document is entirely auto-generated and may contain errors.<br>
 |:----------------------------------|:---------------------------------------------------------------------------------------------------------------------------|
 | NOT_RESPONDER                     | {'DELAY': 'G', 'RESPONDER_GRANT': 'ee', 'RESPONDER_RELEASE': 'G', 'RESPONDER_TERMINATED': 'G', 'LONG_PRESS_DETECTED': 'G'} |
 | RESPONDER_INACTIVE_PRESS_START    | {'DELAY': 'J', 'RESPONDER_GRANT': 'G', 'RESPONDER_RELEASE': 'Q', 'RESPONDER_TERMINATED': 'Q', 'LONG_PRESS_DETECTED': 'G'}  |
-| RESPONDER_ACTIVE_PRESS_START      | {'DELAY': 'G', 'RESPONDER_GRANT': 'G', 'RESPONDER_RELEASE': 'Q', 'RESPONDER_TERMINATED': 'Q', 'LONG_PRESS_DETECTED': '$'}  |
-| RESPONDER_ACTIVE_LONG_PRESS_START | {'DELAY': 'G', 'RESPONDER_GRANT': 'G', 'RESPONDER_RELEASE': 'Q', 'RESPONDER_TERMINATED': 'Q', 'LONG_PRESS_DETECTED': '$'}  |
+| RESPONDER_ACTIVE_PRESS_START      | {'DELAY': 'G', 'RESPONDER_GRANT': 'G', 'RESPONDER_RELEASE': 'Q', 'RESPONDER_TERMINATED': 'Q', 'LONG_PRESS_DETECTED': 'X'}  |
+| RESPONDER_ACTIVE_LONG_PRESS_START | {'DELAY': 'G', 'RESPONDER_GRANT': 'G', 'RESPONDER_RELEASE': 'Q', 'RESPONDER_TERMINATED': 'Q', 'LONG_PRESS_DETECTED': 'X'}  |
 | ERROR                             | {'DELAY': 'Q', 'RESPONDER_GRANT': 'ee', 'RESPONDER_RELEASE': 'Q', 'RESPONDER_TERMINATED': 'Q', 'LONG_PRESS_DETECTED': 'Q'} |
 
 | constant     | value        |
@@ -7901,8 +7901,8 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant         | value   |
 |:-----------------|:--------|
-| DELEGATE_ERR_002 | q       |
-| DELEGATE_ERR_003 | W       |
+| DELEGATE_ERR_002 | W       |
+| DELEGATE_ERR_003 | q       |
 | DELEGATE_ERR_004 | Q       |
 | DELEGATE_ERR_005 | J       |
 | DELEGATE_ERR_006 | Y       |
@@ -9141,8 +9141,8 @@ This document is entirely auto-generated and may contain errors.<br>
 | junior      | C       |
 | mid_level   | I       |
 | senior      | _       |
-| lead        | T       |
-| manager     | L       |
+| lead        | L       |
+| manager     | T       |
 | executive   | R       |
 
 | constant   | value                                                 |
@@ -10945,7 +10945,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{"ActionsBar":"Z.Z","ActionMenu":"function()"{"var t=e.Icon",n=e.isDisabled,r=e.items,i=e.onOpen,"o=l.useCallback()"{"return l.createElement()"{"items":"r","onCloseRequested":"e"}}{"Icon":"t","isDisabled":"n","onClick":"i","renderActionMenu":"o"}},"CallToAction":"c.ZP","EditCallout":"E.Z","Education...
+{"ActionsBar":"k.Z","ActionMenu":"function()"{"var t=e.Icon",n=e.isDisabled,r=e.items,i=e.onOpen,"o=l.useCallback()"{"return l.createElement()"{"items":"r","onCloseRequested":"e"}}{"Icon":"t","isDisabled":"n","onClick":"i","renderActionMenu":"o"}},"CallToAction":"c.ZP","EditCallout":"E.Z","Education...
 ```
 | constant                  | value                     |
 |:--------------------------|:--------------------------|
