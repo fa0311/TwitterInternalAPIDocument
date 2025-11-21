@@ -4696,8 +4696,8 @@
       "features": {}
     },
     "GrokHome": {
-      "url": "https://x.com/i/api/graphql/cWqjszyeouSCZhAgLq96KQ/GrokHome",
-      "queryId": "cWqjszyeouSCZhAgLq96KQ",
+      "url": "https://x.com/i/api/graphql/QAPGIKJVaPXYD-gO9kxc9w/GrokHome",
+      "queryId": "QAPGIKJVaPXYD-gO9kxc9w",
       "method": "GET",
       "features": {}
     },
@@ -4858,8 +4858,8 @@
       "features": {}
     },
     "SubscriptionProductDetails": {
-      "url": "https://x.com/i/api/graphql/yIGOH-WMQSU-AdbfVRZm9A/SubscriptionProductDetails",
-      "queryId": "yIGOH-WMQSU-AdbfVRZm9A",
+      "url": "https://x.com/i/api/graphql/lOJxkaIJDXqS7_QuU8FtPg/SubscriptionProductDetails",
+      "queryId": "lOJxkaIJDXqS7_QuU8FtPg",
       "method": "GET",
       "features": {
         "subscriptions_marketing_page_fetch_promotions": true
