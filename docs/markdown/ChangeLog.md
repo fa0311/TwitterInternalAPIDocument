@@ -7490,3 +7490,20 @@
 #### remove<br>
 - payments_enabled<br>
 - responsive_web_profile_about_pilot<br>
+## 2025/11/21<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- rweb_xchat_sentry_enabled<br>
+#### remove<br>
+- creator_monetization_video_ads_onboarding<br>
+- creator_monetization_web_tips_dashboard_enabled<br>
+- creator_monetization_web_tips_onboarding_enabled<br>
+- payments_automated_direct_deposits_enabled<br>
+- payments_card_spend_enabled<br>
+- payments_tasks_carousel_enabled<br>
+- payments_transfer_methods_enabled<br>
