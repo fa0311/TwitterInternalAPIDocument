@@ -133,7 +133,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## GrokHome<br>
-Request URL: `https://x.com/i/api/graphql/cWqjszyeouSCZhAgLq96KQ/GrokHome`<br>
+Request URL: `https://x.com/i/api/graphql/QAPGIKJVaPXYD-gO9kxc9w/GrokHome`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
