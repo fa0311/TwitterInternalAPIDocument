@@ -19,14 +19,14 @@
       "RESPONDER_GRANT": "G",
       "RESPONDER_RELEASE": "Q",
       "RESPONDER_TERMINATED": "Q",
-      "LONG_PRESS_DETECTED": "$"
+      "LONG_PRESS_DETECTED": "X"
     },
     "RESPONDER_ACTIVE_LONG_PRESS_START": {
       "DELAY": "G",
       "RESPONDER_GRANT": "G",
       "RESPONDER_RELEASE": "Q",
       "RESPONDER_TERMINATED": "Q",
-      "LONG_PRESS_DETECTED": "$"
+      "LONG_PRESS_DETECTED": "X"
     },
     "ERROR": {
       "DELAY": "Q",
@@ -6788,7 +6788,7 @@
       "aria-live": "polite"
     }
   },
-  "{\"ActionsBar\":\"E.Z\",\"ActionMenu\":\"function()\"{\"var t=e.Icon\",n=e.isDisabled,r=e.items,o=e.onOpen,\"i=l.useCallback()\"{\"return l.createElement()\"{\"items\":\"r\",\"onCloseRequested\":\"e\"}}{\"Icon\":\"t\",\"isDisabled\":\"n\",\"onClick\":\"o\",\"renderActionMenu\":\"i\"}},\"CallToAction\":\"c.ZP\",\"EditCallout\":\"k.Z\",\"Education\":\"T.Z\",\"HighlightedUserLabel\":\"m.Z\",\"Media\":\"x.Z\",\"Place\":\"s.ZP\",\"PromotedDetails\":\"f.Z\",\"PromotedUserProfileCard\":\"L\",\"ReplyContext\":\"R.ZP\",\"RichContent\":\"D.Z\",\"SocialContext\":\"b.Z\",\"Text\":\"F.Z\",\"Tombstone\":\"w.Z\",\"Timestamp\":\"h.Z\",\"UserAvatar\":\"B.Z\",\"UserFollowIndicator\":\"H.Z\",\"UserName\":\"U.Z\",\"ArticleCard\":\"_.Z\"}",
+  "{\"ActionsBar\":\"E.Z\",\"ActionMenu\":\"function()\"{\"var t=e.Icon\",n=e.isDisabled,r=e.items,o=e.onOpen,\"i=l.useCallback()\"{\"return l.createElement()\"{\"items\":\"r\",\"onCloseRequested\":\"e\"}}{\"Icon\":\"t\",\"isDisabled\":\"n\",\"onClick\":\"o\",\"renderActionMenu\":\"i\"}},\"CallToAction\":\"c.ZP\",\"EditCallout\":\"k.Z\",\"Education\":\"T.Z\",\"HighlightedUserLabel\":\"m.Z\",\"Media\":\"x.Z\",\"Place\":\"s.ZP\",\"PromotedDetails\":\"f.Z\",\"PromotedUserProfileCard\":\"L\",\"ReplyContext\":\"R.ZP\",\"RichContent\":\"D.Z\",\"SocialContext\":\"w.Z\",\"Text\":\"F.Z\",\"Tombstone\":\"b.Z\",\"Timestamp\":\"h.Z\",\"UserAvatar\":\"B.Z\",\"UserFollowIndicator\":\"H.Z\",\"UserName\":\"U.Z\",\"ArticleCard\":\"_.Z\"}",
   {
     "LIVE_BROADCAST": "liveBroadcast",
     "REPLAY_BROADCAST": "replayBroadcast",
@@ -7533,8 +7533,8 @@
     "zh-cn": "(\"https://business.x.com/ar/campaign/quick-promote-coupon-terms.html\")(0,a.ju)"
   },
   {
-    "DELEGATE_ERR_002": "q",
-    "DELEGATE_ERR_003": "W",
+    "DELEGATE_ERR_002": "W",
+    "DELEGATE_ERR_003": "q",
     "DELEGATE_ERR_004": "Q",
     "DELEGATE_ERR_005": "J",
     "DELEGATE_ERR_006": "Y"
@@ -8655,8 +8655,8 @@
     "junior": "C",
     "mid_level": "I",
     "senior": "_",
-    "lead": "T",
-    "manager": "L",
+    "lead": "L",
+    "manager": "T",
     "executive": "R"
   },
   {
@@ -10324,7 +10324,7 @@
     "SUCCESS": "rweb/directMessages/SEARCH_SUCCESS",
     "FAILURE": "rweb/directMessages/SEARCH_FAILURE"
   },
-  "{\"ActionsBar\":\"Z.Z\",\"ActionMenu\":\"function()\"{\"var t=e.Icon\",n=e.isDisabled,r=e.items,i=e.onOpen,\"o=l.useCallback()\"{\"return l.createElement()\"{\"items\":\"r\",\"onCloseRequested\":\"e\"}}{\"Icon\":\"t\",\"isDisabled\":\"n\",\"onClick\":\"i\",\"renderActionMenu\":\"o\"}},\"CallToAction\":\"c.ZP\",\"EditCallout\":\"E.Z\",\"Education\":\"T.Z\",\"HighlightedUserLabel\":\"m.Z\",\"Media\":\"x.Z\",\"Place\":\"s.ZP\",\"PromotedDetails\":\"f.Z\",\"PromotedUserProfileCard\":\"F\",\"ReplyContext\":\"R.ZP\",\"RichContent\":\"M.Z\",\"SocialContext\":\"y.Z\",\"Text\":\"D.Z\",\"Tombstone\":\"b.Z\",\"Timestamp\":\"g.Z\",\"UserAvatar\":\"U.Z\",\"UserFollowIndicator\":\"K.Z\",\"UserName\":\"B.Z\",\"ArticleCard\":\"_.Z\"}",
+  "{\"ActionsBar\":\"k.Z\",\"ActionMenu\":\"function()\"{\"var t=e.Icon\",n=e.isDisabled,r=e.items,i=e.onOpen,\"o=l.useCallback()\"{\"return l.createElement()\"{\"items\":\"r\",\"onCloseRequested\":\"e\"}}{\"Icon\":\"t\",\"isDisabled\":\"n\",\"onClick\":\"i\",\"renderActionMenu\":\"o\"}},\"CallToAction\":\"c.ZP\",\"EditCallout\":\"E.Z\",\"Education\":\"T.Z\",\"HighlightedUserLabel\":\"m.Z\",\"Media\":\"x.Z\",\"Place\":\"s.ZP\",\"PromotedDetails\":\"f.Z\",\"PromotedUserProfileCard\":\"F\",\"ReplyContext\":\"R.ZP\",\"RichContent\":\"M.Z\",\"SocialContext\":\"y.Z\",\"Text\":\"D.Z\",\"Tombstone\":\"b.Z\",\"Timestamp\":\"g.Z\",\"UserAvatar\":\"U.Z\",\"UserFollowIndicator\":\"K.Z\",\"UserName\":\"B.Z\",\"ArticleCard\":\"_.Z\"}",
   {
     "AcceptAllCookies": "acceptAllCookies",
     "RefuseNonEssentialCookies": "refuseNonEssentialCookies",
