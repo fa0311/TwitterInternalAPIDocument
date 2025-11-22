@@ -81,6 +81,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | GetCustomerIdentity                              | GetCustomerIdentity                              |
 | GetCustomerLimits                                | GetCustomerLimits                                |
 | GetCustomerNotices                               | GetCustomerNotices                               |
+| GetCustomerWidgets                               | GetCustomerWidgets                               |
 | GetDocuments                                     | GetDocuments                                     |
 | GetExternalContact                               | GetExternalContact                               |
 | GetInvitationDetails                             | GetInvitationDetails                             |
@@ -4039,33 +4040,33 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant   | value        |
 |:-----------|:-------------|
-| follow     | m().i79ab12a |
-| following  | m().d960b55c |
-| unfollow   | m().c0f56044 |
+| follow     | p().i79ab12a |
+| following  | p().d960b55c |
+| unfollow   | p().c0f56044 |
 
 | constant              | value        |
 |:----------------------|:-------------|
-| follow                | m().fcf51fe6 |
-| following             | m().e9a90d72 |
-| unfollow              | m().bf403716 |
-| confirmationHeadline  | m().c9f08e29 |
-| confirmationSheetText | m().hed4dcd0 |
+| follow                | p().fcf51fe6 |
+| following             | p().e9a90d72 |
+| unfollow              | p().bf403716 |
+| confirmationHeadline  | p().c9f08e29 |
+| confirmationSheetText | p().hed4dcd0 |
 
 | constant              | value        |
 |:----------------------|:-------------|
-| follow                | m().cd876e02 |
-| following             | m().f2816e02 |
-| unfollow              | m().f5b04fbc |
-| confirmationHeadline  | m().c481ae3f |
-| confirmationSheetText | m().c94116de |
+| follow                | p().cd876e02 |
+| following             | p().f2816e02 |
+| unfollow              | p().f5b04fbc |
+| confirmationHeadline  | p().c481ae3f |
+| confirmationSheetText | p().c94116de |
 
 | constant              | value        |
 |:----------------------|:-------------|
-| follow                | m().e0e730b0 |
-| following             | m().e0e730b0 |
-| unfollow              | m().b1850062 |
-| confirmationHeadline  | m().gd3f996f |
-| confirmationSheetText | m().jdd65aac |
+| follow                | p().e0e730b0 |
+| following             | p().e0e730b0 |
+| unfollow              | p().b1850062 |
+| confirmationHeadline  | p().gd3f996f |
+| confirmationSheetText | p().jdd65aac |
 
 | constant    | value      |
 |:------------|:-----------|
@@ -7901,8 +7902,8 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant         | value   |
 |:-----------------|:--------|
-| DELEGATE_ERR_002 | W       |
-| DELEGATE_ERR_003 | q       |
+| DELEGATE_ERR_002 | q       |
+| DELEGATE_ERR_003 | W       |
 | DELEGATE_ERR_004 | Q       |
 | DELEGATE_ERR_005 | J       |
 | DELEGATE_ERR_006 | Y       |
@@ -9129,8 +9130,8 @@ This document is entirely auto-generated and may contain errors.<br>
 | people_hr            | y       |
 | finance_accounting   | Z       |
 | legal_compliance     | v       |
-| science_engineering  | w       |
-| medical              | k       |
+| science_engineering  | k       |
+| medical              | w       |
 | construction_trades  | D       |
 | other                | S       |
 
@@ -9141,15 +9142,15 @@ This document is entirely auto-generated and may contain errors.<br>
 | junior      | C       |
 | mid_level   | I       |
 | senior      | _       |
-| lead        | L       |
-| manager     | T       |
+| lead        | T       |
+| manager     | L       |
 | executive   | R       |
 
 | constant   | value                                                 |
 |:-----------|:------------------------------------------------------|
-| onsite     | {'label': 'H', 'description': 'W', 'value': 'onsite'} |
-| remote     | {'label': 'q', 'description': 'M', 'value': 'remote'} |
-| hybrid     | {'label': 'j', 'description': 'O', 'value': 'hybrid'} |
+| onsite     | {'label': 'q', 'description': 'j', 'value': 'onsite'} |
+| remote     | {'label': 'W', 'description': 'N', 'value': 'remote'} |
+| hybrid     | {'label': 'H', 'description': 'O', 'value': 'hybrid'} |
 
 | constant      | value         |
 |:--------------|:--------------|
