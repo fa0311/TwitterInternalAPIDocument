@@ -1172,7 +1172,7 @@
         "value": "true"
       },
       "payments_tracing_reports_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "payments_transaction_search_enabled": {
         "value": "true"
@@ -3001,7 +3001,7 @@
         "value": "true"
       },
       "subscriptions_upsells_home_nav_migration_enabled": {
-        "value": "true"
+        "value": "false"
       },
       "subscriptions_upsells_home_sidebar_migration_enabled": {
         "value": "false"
@@ -6437,7 +6437,7 @@
           "value": "false"
         },
         "subscriptions_gifting_tooltip_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "subscriptions_hide_ad_upsell_enabled": {
           "value": "false"
@@ -7310,7 +7310,7 @@
           "value": "0.2"
         },
         "xchat_show_inbox_categories": {
-          "value": "true"
+          "value": "false"
         },
         "xchat_show_safety_number_ui": {
           "value": "false"
@@ -7361,10 +7361,10 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "9cc272dbe370d9b996fcff6ba88910ff"
+      "settingsVersion": "fe48aab0629ad3e7b2556b23766cd02c"
     },
     "debug": {},
-    "featureSetToken": "0fa1e86752d4a18352771e30b9a350b92b5d01c8",
+    "featureSetToken": "c74d433b345d34dba135c1a0f94e00ac26e63328",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -7433,7 +7433,7 @@
   },
   "session": {
     "country": "XX",
-    "guestId": "176375892156041168",
+    "guestId": "176384531145753314",
     "hasCommunityMemberships": "false",
     "isActiveCreator": "false",
     "isLoaded": "false",
