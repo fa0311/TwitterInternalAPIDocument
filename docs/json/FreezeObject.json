@@ -102,6 +102,7 @@
     "GetCustomerIdentity": "GetCustomerIdentity",
     "GetCustomerLimits": "GetCustomerLimits",
     "GetCustomerNotices": "GetCustomerNotices",
+    "GetCustomerWidgets": "GetCustomerWidgets",
     "GetDocuments": "GetDocuments",
     "GetExternalContact": "GetExternalContact",
     "GetInvitationDetails": "GetInvitationDetails",
@@ -3910,30 +3911,30 @@
     "browse_tweets": "F().h6453e74"
   },
   {
-    "follow": "m().i79ab12a",
-    "following": "m().d960b55c",
-    "unfollow": "m().c0f56044"
+    "follow": "p().i79ab12a",
+    "following": "p().d960b55c",
+    "unfollow": "p().c0f56044"
   },
   {
-    "follow": "m().fcf51fe6",
-    "following": "m().e9a90d72",
-    "unfollow": "m().bf403716",
-    "confirmationHeadline": "m().c9f08e29",
-    "confirmationSheetText": "m().hed4dcd0"
+    "follow": "p().fcf51fe6",
+    "following": "p().e9a90d72",
+    "unfollow": "p().bf403716",
+    "confirmationHeadline": "p().c9f08e29",
+    "confirmationSheetText": "p().hed4dcd0"
   },
   {
-    "follow": "m().cd876e02",
-    "following": "m().f2816e02",
-    "unfollow": "m().f5b04fbc",
-    "confirmationHeadline": "m().c481ae3f",
-    "confirmationSheetText": "m().c94116de"
+    "follow": "p().cd876e02",
+    "following": "p().f2816e02",
+    "unfollow": "p().f5b04fbc",
+    "confirmationHeadline": "p().c481ae3f",
+    "confirmationSheetText": "p().c94116de"
   },
   {
-    "follow": "m().e0e730b0",
-    "following": "m().e0e730b0",
-    "unfollow": "m().b1850062",
-    "confirmationHeadline": "m().gd3f996f",
-    "confirmationSheetText": "m().jdd65aac"
+    "follow": "p().e0e730b0",
+    "following": "p().e0e730b0",
+    "unfollow": "p().b1850062",
+    "confirmationHeadline": "p().gd3f996f",
+    "confirmationSheetText": "p().jdd65aac"
   },
   {
     "Default": "default",
@@ -4228,7 +4229,7 @@
     "single_line": "singleline",
     "format_inline": "format-inline"
   },
-  "{\"ActionsBar\":\"E.Z\",\"ActionMenu\":\"function()\"{\"var t=e.Icon\",n=e.isDisabled,r=e.items,o=e.onOpen,\"i=s.useCallback()\"{\"return s.createElement()\"{\"items\":\"r\",\"onCloseRequested\":\"e\"}}{\"Icon\":\"t\",\"isDisabled\":\"n\",\"onClick\":\"o\",\"renderActionMenu\":\"i\"}},\"CallToAction\":\"c.ZP\",\"EditCallout\":\"T.Z\",\"Education\":\"Z.Z\",\"HighlightedUserLabel\":\"m.Z\",\"Media\":\"S.Z\",\"Place\":\"l.ZP\",\"PromotedDetails\":\"_.Z\",\"PromotedUserProfileCard\":\"L\",\"ReplyContext\":\"N.ZP\",\"RichContent\":\"F.Z\",\"SocialContext\":\"g.Z\",\"Text\":\"D.Z\",\"Tombstone\":\"w.Z\",\"Timestamp\":\"v.Z\",\"UserAvatar\":\"U.Z\",\"UserFollowIndicator\":\"B.Z\",\"UserName\":\"M.Z\",\"ArticleCard\":\"C.Z\"}",
+  "{\"ActionsBar\":\"E.Z\",\"ActionMenu\":\"function()\"{\"var t=e.Icon\",n=e.isDisabled,r=e.items,o=e.onOpen,\"i=s.useCallback()\"{\"return s.createElement()\"{\"items\":\"r\",\"onCloseRequested\":\"e\"}}{\"Icon\":\"t\",\"isDisabled\":\"n\",\"onClick\":\"o\",\"renderActionMenu\":\"i\"}},\"CallToAction\":\"c.ZP\",\"EditCallout\":\"T.Z\",\"Education\":\"Z.Z\",\"HighlightedUserLabel\":\"p.Z\",\"Media\":\"S.Z\",\"Place\":\"l.ZP\",\"PromotedDetails\":\"_.Z\",\"PromotedUserProfileCard\":\"L\",\"ReplyContext\":\"N.ZP\",\"RichContent\":\"F.Z\",\"SocialContext\":\"g.Z\",\"Text\":\"D.Z\",\"Tombstone\":\"w.Z\",\"Timestamp\":\"v.Z\",\"UserAvatar\":\"U.Z\",\"UserFollowIndicator\":\"B.Z\",\"UserName\":\"M.Z\",\"ArticleCard\":\"C.Z\"}",
   {
     "MarchMadness": "MarchMadness"
   },
@@ -6788,7 +6789,7 @@
       "aria-live": "polite"
     }
   },
-  "{\"ActionsBar\":\"E.Z\",\"ActionMenu\":\"function()\"{\"var t=e.Icon\",n=e.isDisabled,r=e.items,o=e.onOpen,\"i=l.useCallback()\"{\"return l.createElement()\"{\"items\":\"r\",\"onCloseRequested\":\"e\"}}{\"Icon\":\"t\",\"isDisabled\":\"n\",\"onClick\":\"o\",\"renderActionMenu\":\"i\"}},\"CallToAction\":\"c.ZP\",\"EditCallout\":\"k.Z\",\"Education\":\"T.Z\",\"HighlightedUserLabel\":\"m.Z\",\"Media\":\"x.Z\",\"Place\":\"s.ZP\",\"PromotedDetails\":\"f.Z\",\"PromotedUserProfileCard\":\"L\",\"ReplyContext\":\"R.ZP\",\"RichContent\":\"D.Z\",\"SocialContext\":\"w.Z\",\"Text\":\"F.Z\",\"Tombstone\":\"b.Z\",\"Timestamp\":\"h.Z\",\"UserAvatar\":\"B.Z\",\"UserFollowIndicator\":\"H.Z\",\"UserName\":\"U.Z\",\"ArticleCard\":\"_.Z\"}",
+  "{\"ActionsBar\":\"E.Z\",\"ActionMenu\":\"function()\"{\"var t=e.Icon\",n=e.isDisabled,r=e.items,o=e.onOpen,\"i=l.useCallback()\"{\"return l.createElement()\"{\"items\":\"r\",\"onCloseRequested\":\"e\"}}{\"Icon\":\"t\",\"isDisabled\":\"n\",\"onClick\":\"o\",\"renderActionMenu\":\"i\"}},\"CallToAction\":\"c.ZP\",\"EditCallout\":\"k.Z\",\"Education\":\"T.Z\",\"HighlightedUserLabel\":\"m.Z\",\"Media\":\"x.Z\",\"Place\":\"s.ZP\",\"PromotedDetails\":\"f.Z\",\"PromotedUserProfileCard\":\"L\",\"ReplyContext\":\"R.ZP\",\"RichContent\":\"D.Z\",\"SocialContext\":\"b.Z\",\"Text\":\"F.Z\",\"Tombstone\":\"w.Z\",\"Timestamp\":\"h.Z\",\"UserAvatar\":\"B.Z\",\"UserFollowIndicator\":\"V.Z\",\"UserName\":\"U.Z\",\"ArticleCard\":\"_.Z\"}",
   {
     "LIVE_BROADCAST": "liveBroadcast",
     "REPLAY_BROADCAST": "replayBroadcast",
@@ -7328,7 +7329,7 @@
       "aria-live": "polite"
     }
   },
-  "{\"ActionsBar\":\"Z.Z\",\"ActionMenu\":\"function()\"{\"var t=e.Icon\",n=e.isDisabled,r=e.items,i=e.onOpen,\"o=l.useCallback()\"{\"return l.createElement()\"{\"items\":\"r\",\"onCloseRequested\":\"e\"}}{\"Icon\":\"t\",\"isDisabled\":\"n\",\"onClick\":\"i\",\"renderActionMenu\":\"o\"}},\"CallToAction\":\"c.ZP\",\"EditCallout\":\"k.Z\",\"Education\":\"T.Z\",\"HighlightedUserLabel\":\"m.Z\",\"Media\":\"x.Z\",\"Place\":\"s.ZP\",\"PromotedDetails\":\"f.Z\",\"PromotedUserProfileCard\":\"R\",\"ReplyContext\":\"L.ZP\",\"RichContent\":\"M.Z\",\"SocialContext\":\"b.Z\",\"Text\":\"B.Z\",\"Tombstone\":\"y.Z\",\"Timestamp\":\"v.Z\",\"UserAvatar\":\"F.Z\",\"UserFollowIndicator\":\"H.Z\",\"UserName\":\"U.Z\",\"ArticleCard\":\"E.Z\"}",
+  "{\"ActionsBar\":\"Z.Z\",\"ActionMenu\":\"function()\"{\"var t=e.Icon\",n=e.isDisabled,r=e.items,i=e.onOpen,\"o=l.useCallback()\"{\"return l.createElement()\"{\"items\":\"r\",\"onCloseRequested\":\"e\"}}{\"Icon\":\"t\",\"isDisabled\":\"n\",\"onClick\":\"i\",\"renderActionMenu\":\"o\"}},\"CallToAction\":\"c.ZP\",\"EditCallout\":\"k.Z\",\"Education\":\"T.Z\",\"HighlightedUserLabel\":\"m.Z\",\"Media\":\"x.Z\",\"Place\":\"s.ZP\",\"PromotedDetails\":\"f.Z\",\"PromotedUserProfileCard\":\"R\",\"ReplyContext\":\"M.ZP\",\"RichContent\":\"L.Z\",\"SocialContext\":\"b.Z\",\"Text\":\"B.Z\",\"Tombstone\":\"y.Z\",\"Timestamp\":\"v.Z\",\"UserAvatar\":\"F.Z\",\"UserFollowIndicator\":\"H.Z\",\"UserName\":\"U.Z\",\"ArticleCard\":\"E.Z\"}",
   {
     "X_BACKEND": "X_BACKEND",
     "IN_PROGRESS": "MIGRATION_IN_PROGRESS",
@@ -7533,8 +7534,8 @@
     "zh-cn": "(\"https://business.x.com/ar/campaign/quick-promote-coupon-terms.html\")(0,a.ju)"
   },
   {
-    "DELEGATE_ERR_002": "W",
-    "DELEGATE_ERR_003": "q",
+    "DELEGATE_ERR_002": "q",
+    "DELEGATE_ERR_003": "W",
     "DELEGATE_ERR_004": "Q",
     "DELEGATE_ERR_005": "J",
     "DELEGATE_ERR_006": "Y"
@@ -8644,8 +8645,8 @@
     "people_hr": "y",
     "finance_accounting": "Z",
     "legal_compliance": "v",
-    "science_engineering": "w",
-    "medical": "k",
+    "science_engineering": "k",
+    "medical": "w",
     "construction_trades": "D",
     "other": "S"
   },
@@ -8655,23 +8656,23 @@
     "junior": "C",
     "mid_level": "I",
     "senior": "_",
-    "lead": "L",
-    "manager": "T",
+    "lead": "T",
+    "manager": "L",
     "executive": "R"
   },
   {
     "onsite": {
-      "label": "H",
-      "description": "W",
+      "label": "q",
+      "description": "j",
       "value": "onsite"
     },
     "remote": {
-      "label": "q",
-      "description": "M",
+      "label": "W",
+      "description": "N",
       "value": "remote"
     },
     "hybrid": {
-      "label": "j",
+      "label": "H",
       "description": "O",
       "value": "hybrid"
     }
