@@ -3081,7 +3081,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## Viewer<br>
-Request URL: `https://x.com/i/api/graphql/FEiqNqpOD-9l3ESmUyzxaw/Viewer`<br>
+Request URL: `https://x.com/i/api/graphql/178EtFdhcGqmoyzKL4muaA/Viewer`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -3091,7 +3091,6 @@ Login Required: `...`<br>
 | key                                                               | type    | variable   |
 |:------------------------------------------------------------------|:--------|:-----------|
 | subscriptions_upsells_api_enabled                                 | boolean | True       |
-| payments_access_fetch_enabled                                     | boolean | True       |
 | profile_label_improvements_pcf_label_in_post_enabled              | boolean | True       |
 | responsive_web_profile_redirect_enabled                           | boolean | False      |
 | rweb_tipjar_consumption_enabled                                   | boolean | True       |
