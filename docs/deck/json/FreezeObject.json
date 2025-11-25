@@ -1,21 +1,14 @@
 [
   {
+    "__proto__": "null",
+    "assert": "l",
+    "requireNonNull": "A",
+    "requireInstance": "d",
+    "abstractMethodFail": "v"
+  },
+  {
     "navButtons": "navigationButtons",
     "carouselRoot": "carouselRoot"
-  },
-  {
-    "LIVE_BROADCAST": "liveBroadcast",
-    "REPLAY_BROADCAST": "replayBroadcast",
-    "VOD": "vod",
-    "GIF": "gif",
-    "SLATE": "slate"
-  },
-  {
-    "A11YHook": "VideoPlayerDefaultUI-A11YHook",
-    "ControlBar": "VideoPlayerDefaultUI-ControlBar",
-    "HashtagHighlight": "VideoPlayerDefaultUI-HashtagHighlight",
-    "Root": "VideoPlayerDefaultUI-Root",
-    "VideoCTA": "VideoPlayerDefaultUI-VideoCTA"
   },
   {
     "wide": "wide",
@@ -128,7 +121,12 @@
     "XThreadFetch": "x_thread_fetch",
     "ViewXVideo": "view_x_video",
     "ViewImage": "view_image",
-    "SearchImages": "search_images"
+    "SearchImages": "search_images",
+    "CallGooglePlacesApi": "call_google_places_api",
+    "CallFinanceApi": "call_finance_api",
+    "CallSportsApi": "call_sports_api",
+    "CallCryptoApi": "call_crypto_api",
+    "CallWeatherApi": "call_weather_api"
   },
   {
     "IOS": "ios",
