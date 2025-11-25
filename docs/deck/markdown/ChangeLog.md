@@ -6529,3 +6529,18 @@
 - payments_card_spend_enabled<br>
 - payments_tasks_carousel_enabled<br>
 - payments_transfer_methods_enabled<br>
+## 2025/11/25<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- rweb_xchat_sqlite_logs<br>
+- subscriptions_marketing_page_new_disclaimer_enabled<br>
+- subscriptions_upsells_get_verified_button_promo_variant_enabled<br>
+- subscriptions_upsells_get_verified_profile_card_promo_variant_enabled<br>
+- subscriptions_gifting_tooltip_discount_label<br>
+#### remove<br>
+- payments_access_fetch_enabled<br>
