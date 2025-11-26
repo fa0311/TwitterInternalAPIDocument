@@ -2452,12 +2452,11 @@
       }
     },
     "Viewer": {
-      "url": "https://x.com/i/api/graphql/FEiqNqpOD-9l3ESmUyzxaw/Viewer",
-      "queryId": "FEiqNqpOD-9l3ESmUyzxaw",
+      "url": "https://x.com/i/api/graphql/178EtFdhcGqmoyzKL4muaA/Viewer",
+      "queryId": "178EtFdhcGqmoyzKL4muaA",
       "method": "GET",
       "features": {
         "subscriptions_upsells_api_enabled": true,
-        "payments_access_fetch_enabled": true,
         "profile_label_improvements_pcf_label_in_post_enabled": true,
         "responsive_web_profile_redirect_enabled": false,
         "rweb_tipjar_consumption_enabled": true,

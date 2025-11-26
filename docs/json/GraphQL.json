@@ -8906,13 +8906,12 @@
   {
     "n": "76580",
     "exports": {
-      "queryId": "FEiqNqpOD-9l3ESmUyzxaw",
+      "queryId": "178EtFdhcGqmoyzKL4muaA",
       "operationName": "Viewer",
       "operationType": "query",
       "metadata": {
         "featureSwitches": [
           "subscriptions_upsells_api_enabled",
-          "payments_access_fetch_enabled",
           "profile_label_improvements_pcf_label_in_post_enabled",
           "responsive_web_profile_redirect_enabled",
           "rweb_tipjar_consumption_enabled",
@@ -8928,9 +8927,6 @@
         ],
         "featureSwitch": {
           "subscriptions_upsells_api_enabled": {
-            "value": "true"
-          },
-          "payments_access_fetch_enabled": {
             "value": "true"
           },
           "profile_label_improvements_pcf_label_in_post_enabled": {

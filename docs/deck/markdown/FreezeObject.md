@@ -1,25 +1,17 @@
 # Twitter Internal Constants Document<br>
 This document is entirely auto-generated and may contain errors.<br>
+| constant           | value   |
+|:-------------------|:--------|
+| __proto__          | null    |
+| assert             | l       |
+| requireNonNull     | A       |
+| requireInstance    | d       |
+| abstractMethodFail | v       |
+
 | constant     | value             |
 |:-------------|:------------------|
 | navButtons   | navigationButtons |
 | carouselRoot | carouselRoot      |
-
-| constant         | value           |
-|:-----------------|:----------------|
-| LIVE_BROADCAST   | liveBroadcast   |
-| REPLAY_BROADCAST | replayBroadcast |
-| VOD              | vod             |
-| GIF              | gif             |
-| SLATE            | slate           |
-
-| constant         | value                                 |
-|:-----------------|:--------------------------------------|
-| A11YHook         | VideoPlayerDefaultUI-A11YHook         |
-| ControlBar       | VideoPlayerDefaultUI-ControlBar       |
-| HashtagHighlight | VideoPlayerDefaultUI-HashtagHighlight |
-| Root             | VideoPlayerDefaultUI-Root             |
-| VideoCTA         | VideoPlayerDefaultUI-VideoCTA         |
 
 | constant   | value      |
 |:-----------|:-----------|
@@ -156,6 +148,11 @@ This document is entirely auto-generated and may contain errors.<br>
 | ViewXVideo            | view_x_video             |
 | ViewImage             | view_image               |
 | SearchImages          | search_images            |
+| CallGooglePlacesApi   | call_google_places_api   |
+| CallFinanceApi        | call_finance_api         |
+| CallSportsApi         | call_sports_api          |
+| CallCryptoApi         | call_crypto_api          |
+| CallWeatherApi        | call_weather_api         |
 
 | constant   | value   |
 |:-----------|:--------|
