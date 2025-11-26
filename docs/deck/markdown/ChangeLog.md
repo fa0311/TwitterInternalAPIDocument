@@ -6544,3 +6544,23 @@
 - subscriptions_gifting_tooltip_discount_label<br>
 #### remove<br>
 - payments_access_fetch_enabled<br>
+## 2025/11/26<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- responsive_web_grok_analyze_education_days_threshold<br>
+- responsive_web_grok_enable_grok_analyze_education<br>
+- responsive_web_grok_enable_grok_tab_education<br>
+- responsive_web_grok_tab_education_days_threshold<br>
+- subscriptions_offers_user_location_is_usa<br>
+- subscriptions_upsells_articles_post_composer_promo_variant_enabled<br>
+- subscriptions_upsells_post_analytics_promo_variant_enabled<br>
+- subscriptions_upsells_premium_home_nav_promo_variant_enabled<br>
+- subscriptions_upsells_sidebar_default_promo_variant_enabled<br>
+- subscriptions_marketing_page_retention_paywall_new_button_label<br>
+#### remove<br>
+- subscriptions_inapp_grok_nux_enabled<br>
