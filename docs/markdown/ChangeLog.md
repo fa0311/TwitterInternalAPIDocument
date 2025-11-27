@@ -7542,3 +7542,16 @@
 - subscriptions_marketing_page_retention_paywall_new_button_label<br>
 #### remove<br>
 - subscriptions_inapp_grok_nux_enabled<br>
+## 2025/11/27<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- responsive_web_ad_revenue_sharing_subscriptions_dashboard_redirect_enabled<br>
+- responsive_web_grok_analyze_tooltip_delay_ms<br>
+- responsive_web_grok_analyze_tooltip_show_probability_percentage<br>
+#### remove<br>
+- None<br>
