@@ -9874,6 +9874,11 @@ This document is entirely auto-generated and may contain errors.<br>
 | xxxLarge   | xxxLarge |
 | xJumbo     | xJumbo   |
 
+| constant   | value   |
+|:-----------|:--------|
+| detail     | detail  |
+| list       | list    |
+
 | constant                  | value                     |
 |:--------------------------|:--------------------------|
 | EntityNotFound            | EntityNotFound            |
