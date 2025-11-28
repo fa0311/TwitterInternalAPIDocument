@@ -7555,3 +7555,17 @@
 - responsive_web_grok_analyze_tooltip_show_probability_percentage<br>
 #### remove<br>
 - None<br>
+## 2025/11/28<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- subscriptions_offers_premium_nav_indicator_enabled<br>
+- unified_cards_use_subtitle_as_vanity_fallback_in_collection<br>
+- x_jetfuel_event_screen_migration_enabled<br>
+- x_jetfuel_event_screen_migration_skip_ids<br>
+#### remove<br>
+- None<br>
