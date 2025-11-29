@@ -977,6 +977,12 @@ This document is entirely auto-generated and may contain errors.<br>
 |:-----------|:--------|
 | address    | address |
 
+| constant     | value        |
+|:-------------|:-------------|
+| name         | name         |
+| address      | address      |
+| wire_details | wire_details |
+
 | constant         | value            |
 |:-----------------|:-----------------|
 | CustomerNotFound | CustomerNotFound |
@@ -9170,7 +9176,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | constant   | value                                                 |
 |:-----------|:------------------------------------------------------|
 | onsite     | {'label': 'H', 'description': 'W', 'value': 'onsite'} |
-| remote     | {'label': 'q', 'description': 'M', 'value': 'remote'} |
+| remote     | {'label': 'q', 'description': 'B', 'value': 'remote'} |
 | hybrid     | {'label': 'j', 'description': 'O', 'value': 'hybrid'} |
 
 | constant      | value         |
@@ -9868,6 +9874,11 @@ This document is entirely auto-generated and may contain errors.<br>
 | xxxLarge   | xxxLarge |
 | xJumbo     | xJumbo   |
 
+| constant   | value   |
+|:-----------|:--------|
+| detail     | detail  |
+| list       | list    |
+
 | constant                  | value                     |
 |:--------------------------|:--------------------------|
 | EntityNotFound            | EntityNotFound            |
@@ -9885,7 +9896,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{"InsufficientFunds":{"headline":"d().f66c509a","message":"d().f9e0e6a2","action":{"link":"p.IN","label":"d().a4ef9cbe"}},"InvalidReceiver":{"getHeadline":"function()"{"return e.actionType===y.jq.P2P_TRANSFER_REQUEST?K":"T"},"headline":"T","message":"I","getErrorReporting":"function()"{"return"{"iss...
+{"InsufficientFunds":{"headline":"d().f66c509a","message":"d().f9e0e6a2","action":{"link":"p.IN","label":"d().a4ef9cbe"}},"InvalidReceiver":{"getHeadline":"function()"{"return e.actionType===g.jq.P2P_TRANSFER_REQUEST?I":"K"},"headline":"K","message":"w","getErrorReporting":"function()"{"return"{"iss...
 ```
 | constant                         | value                            |
 |:---------------------------------|:---------------------------------|
@@ -9966,12 +9977,6 @@ This document is entirely auto-generated and may contain errors.<br>
 |:-----------|:--------|
 | wire       | wire    |
 | check      | check   |
-
-| constant     | value        |
-|:-------------|:-------------|
-| name         | name         |
-| address      | address      |
-| wire_details | wire_details |
 
 | constant     | value        |
 |:-------------|:-------------|
