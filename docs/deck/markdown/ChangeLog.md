@@ -6617,3 +6617,14 @@
 - x_jetfuel_event_screen_migration_skip_ids<br>
 #### remove<br>
 - None<br>
+## 2025/11/30<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- responsive_web_grok_api_debug_grok_header<br>
+#### remove<br>
+- None<br>
