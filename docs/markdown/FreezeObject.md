@@ -9176,7 +9176,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | constant   | value                                                 |
 |:-----------|:------------------------------------------------------|
 | onsite     | {'label': 'H', 'description': 'W', 'value': 'onsite'} |
-| remote     | {'label': 'q', 'description': 'B', 'value': 'remote'} |
+| remote     | {'label': 'q', 'description': 'M', 'value': 'remote'} |
 | hybrid     | {'label': 'j', 'description': 'O', 'value': 'hybrid'} |
 
 | constant      | value         |
