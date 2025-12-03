@@ -8,6 +8,19 @@ This document is entirely auto-generated and may contain errors.<br>
 | requireInstance    | d       |
 | abstractMethodFail | v       |
 
+| constant   | value    |
+|:-----------|:---------|
+| position   | absolute |
+| border     | 0        |
+| width      | 1        |
+| height     | 1        |
+| padding    | 0        |
+| margin     | -1       |
+| overflow   | hidden   |
+| clip       | rect()   |
+| whiteSpace | nowrap   |
+| wordWrap   | normal   |
+
 | constant     | value             |
 |:-------------|:------------------|
 | navButtons   | navigationButtons |
