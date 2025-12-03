@@ -7,6 +7,18 @@
     "abstractMethodFail": "v"
   },
   {
+    "position": "absolute",
+    "border": "0",
+    "width": "1",
+    "height": "1",
+    "padding": "0",
+    "margin": -1,
+    "overflow": "hidden",
+    "clip": "rect()",
+    "whiteSpace": "nowrap",
+    "wordWrap": "normal"
+  },
+  {
     "navButtons": "navigationButtons",
     "carouselRoot": "carouselRoot"
   },
