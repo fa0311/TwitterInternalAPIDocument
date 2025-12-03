@@ -7580,3 +7580,14 @@
 - responsive_web_grok_api_debug_grok_header<br>
 #### remove<br>
 - None<br>
+## 2025/12/03<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- rweb_media_upload_refactor_enabled<br>
+#### remove<br>
+- responsive_web_grok_api_debug_grok_header<br>
