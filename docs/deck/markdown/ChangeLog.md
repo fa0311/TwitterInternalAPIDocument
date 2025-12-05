@@ -6664,3 +6664,15 @@
 - xchat_web_react_blob_url_management<br>
 #### remove<br>
 - None<br>
+## 2025/12/05<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- responsive_web_card_reminder_enabled<br>
+- responsive_web_grok_disable_new_conversation_url_reset<br>
+#### remove<br>
+- None<br>
