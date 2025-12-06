@@ -7580,3 +7580,38 @@
 - responsive_web_grok_api_debug_grok_header<br>
 #### remove<br>
 - None<br>
+## 2025/12/03<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- rweb_media_upload_refactor_enabled<br>
+#### remove<br>
+- responsive_web_grok_api_debug_grok_header<br>
+## 2025/12/04<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- xchat_render_av_info_items_as_messages<br>
+- xchat_web_react_blob_url_management<br>
+#### remove<br>
+- None<br>
+## 2025/12/05<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- responsive_web_card_reminder_enabled<br>
+- responsive_web_grok_disable_new_conversation_url_reset<br>
+#### remove<br>
+- None<br>
