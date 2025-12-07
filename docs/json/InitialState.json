@@ -5001,7 +5001,7 @@
           "value": "true"
         },
         "responsive_web_ad_revenue_sharing_subscriptions_dashboard_redirect_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "responsive_web_ad_revenue_sharing_total_earnings_enabled": {
           "value": "false"
@@ -7505,7 +7505,7 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "ea77c42d933e2db7c257954840b82ae8"
+      "settingsVersion": "73b0261362c88bd945ef83dbcfe6d632"
     },
     "debug": {},
     "featureSetToken": "9036130c33b45c9bc5ffe61b574fb6558388642e",
@@ -7577,7 +7577,7 @@
   },
   "session": {
     "country": "XX",
-    "guestId": "176496851417532799",
+    "guestId": "176505493045550317",
     "hasCommunityMemberships": "false",
     "isActiveCreator": "false",
     "isLoaded": "false",
