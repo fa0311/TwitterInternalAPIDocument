@@ -972,6 +972,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | directDepositSetup         | directDepositSetup         |
 | removeCredential           | removeCredential           |
 | cardLockToggle             | cardLockToggle             |
+| revealCustomerPersonalInfo | revealCustomerPersonalInfo |
 
 | constant   | value   |
 |:-----------|:--------|
@@ -3619,11 +3620,11 @@ This document is entirely auto-generated and may contain errors.<br>
 
 |   constant | value                  |
 |-----------:|:-----------------------|
-|          0 | b.Zk.INTERNAL_ERROR    |
-|          1 | b.Zk.INVALID_MEDIA     |
-|          2 | b.Zk.FILE_TOO_LARGE    |
-|          3 | b.Zk.UNSUPPORTED_MEDIA |
-|          4 | b.Zk.TIMEOUT           |
+|          0 | N.Zk.INTERNAL_ERROR    |
+|          1 | N.Zk.INVALID_MEDIA     |
+|          2 | N.Zk.FILE_TOO_LARGE    |
+|          3 | N.Zk.UNSUPPORTED_MEDIA |
+|          4 | N.Zk.TIMEOUT           |
 
 | constant   |   value |
 |:-----------|--------:|
@@ -4479,11 +4480,11 @@ This document is entirely auto-generated and may contain errors.<br>
 
 |   constant | value                  |
 |-----------:|:-----------------------|
-|          0 | F.Zk.INTERNAL_ERROR    |
-|          1 | F.Zk.INVALID_MEDIA     |
-|          2 | F.Zk.FILE_TOO_LARGE    |
-|          3 | F.Zk.UNSUPPORTED_MEDIA |
-|          4 | F.Zk.TIMEOUT           |
+|          0 | O.Zk.INTERNAL_ERROR    |
+|          1 | O.Zk.INVALID_MEDIA     |
+|          2 | O.Zk.FILE_TOO_LARGE    |
+|          3 | O.Zk.UNSUPPORTED_MEDIA |
+|          4 | O.Zk.TIMEOUT           |
 
 | constant   |   value |
 |:-----------|--------:|
@@ -9181,8 +9182,8 @@ This document is entirely auto-generated and may contain errors.<br>
 | sales_am             | p       |
 | operations           | g       |
 | people_hr            | y       |
-| finance_accounting   | Z       |
-| legal_compliance     | v       |
+| finance_accounting   | v       |
+| legal_compliance     | Z       |
 | science_engineering  | w       |
 | medical              | k       |
 | construction_trades  | D       |
@@ -9190,8 +9191,8 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant    | value   |
 |:------------|:--------|
-| intern      | P       |
-| entry_level | x       |
+| intern      | x       |
+| entry_level | P       |
 | junior      | C       |
 | mid_level   | I       |
 | senior      | _       |
@@ -9201,9 +9202,9 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant   | value                                                 |
 |:-----------|:------------------------------------------------------|
-| onsite     | {'label': 'R', 'description': 'W', 'value': 'onsite'} |
-| remote     | {'label': 'q', 'description': 'M', 'value': 'remote'} |
-| hybrid     | {'label': 'j', 'description': 'O', 'value': 'hybrid'} |
+| onsite     | {'label': 'H', 'description': 'W', 'value': 'onsite'} |
+| remote     | {'label': 'q', 'description': 'O', 'value': 'remote'} |
+| hybrid     | {'label': 'j', 'description': 'M', 'value': 'hybrid'} |
 
 | constant      | value         |
 |:--------------|:--------------|
@@ -9927,9 +9928,14 @@ This document is entirely auto-generated and may contain errors.<br>
 | ShouldProvidePaymentId    | ShouldProvidePaymentId    |
 | Unspecified               | Unspecified               |
 
+| constant   | value   |
+|:-----------|:--------|
+| daily      | daily   |
+| monthly    | monthly |
+
 ```internal process
 # Error
-{"InsufficientFunds":{"headline":"d().f66c509a","message":"d().f9e0e6a2","action":{"link":"p.IN","label":"d().a4ef9cbe"}},"InvalidReceiver":{"getHeadline":"function()"{"return e.actionType===g.jq.P2P_TRANSFER_REQUEST?I":"K"},"headline":"K","message":"w","getErrorReporting":"function()"{"return"{"iss...
+{"InsufficientFunds":{"headline":"d().f66c509a","message":"d().f9e0e6a2","action":{"link":"p.IN","label":"d().a4ef9cbe"}},"InvalidReceiver":{"getHeadline":"function()"{"return e.actionType===g.jq.P2P_TRANSFER_REQUEST?L":"R"},"headline":"R","message":"D","getErrorReporting":"function()"{"return"{"iss...
 ```
 | constant                         | value                            |
 |:---------------------------------|:---------------------------------|
@@ -10072,7 +10078,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | P2P_TRANSFER_SEND_FUNDED | P2P_TRANSFER_SEND_FUNDED |
 | P2P_TRANSFER_REQUEST     | P2P_TRANSFER_REQUEST     |
 | ACCOUNT_LINKING          | ACCOUNT_LINKING          |
-| WIRE_TRANSFER            | WIRE_TRANSFER            |
+| SEND_WIRE_TRANSFER       | SEND_WIRE_TRANSFER       |
 | MAIL_CHECK               | MAIL_CHECK               |
 | CLOSE_ACCOUNT            | CLOSE_ACCOUNT            |
 | REONBOARD                | REONBOARD                |
@@ -10085,53 +10091,56 @@ This document is entirely auto-generated and may contain errors.<br>
 | Totp           | Totp           |
 | U2fSecurityKey | U2fSecurityKey |
 
-| constant                       | value                                   |
-|:-------------------------------|:----------------------------------------|
-| changePhone                    | change-phone                            |
-| success                        | success                                 |
-| failure                        | failure                                 |
-| ineligible                     | ineligible                              |
-| pendingReview                  | pending-review                          |
-| redirect                       | redirect                                |
-| close                          | close                                   |
-| ready                          | ready                                   |
-| initPorts                      | initPorts                               |
-| invalidChallenge               | invalid-challenge                       |
-| docvChallenge                  | challenge-docv-required                 |
-| kycChallenge                   | challenge-kyc-required                  |
-| selfieChallenge                | challenge-selfie-required               |
-| twoFactorChallenge             | challenge-2fa-required                  |
-| accountNumbercopiedToClipboard | account-number-copied-to-clipboard      |
-| routingNumbercopiedToClipboard | routing-number-copied-to-clipboard      |
-| addContact                     | external-contacts-add-new               |
-| selectContact                  | external-contacts-select-contact        |
-| contactLoaded                  | external-contacts-data-loaded           |
-| createContactSuccess           | external-contacts-create-success        |
-| createContactFailure           | external-contacts-create-failure        |
-| updateContactSuccess           | external-contacts-update-success        |
-| updateContactFailure           | external-contacts-update-failure        |
-| deleteContactFailure           | external-contacts-remove-failure        |
-| deleteContactSuccess           | external-contacts-remove-success        |
-| addContactWireDetails          | external-contacts-add-bank-routing      |
-| editContactTrigger             | external-contacts-on-edit               |
-| edit                           | edit                                    |
-| forgotPin                      | forgot-pin                              |
-| kyc                            | kyc                                     |
-| stepUpDocv                     | stepUpDocv                              |
-| clickKnownDevice               | known-devices-click-device              |
-| removeKnownDeviceSuccess       | known-devices-remove-device-success     |
-| removeKnownDeviceFailure       | known-devices-remove-device-failure     |
-| transactionMetaFailure         | transaction-meta-fetch-failure          |
-| recoverAccess                  | recover-access                          |
-| clickCredential                | credentials-select-credential           |
-| removeCredentialChallenge      | credentials-remove-credential-challenge |
-| removeCredentialFailure        | credentials-remove-credential-failure   |
-| updateCredentialTrigger        | credentials-on-update                   |
-| updateCredentialSuccess        | credentials-update-success              |
-| updateCredentialFailure        | credentials-update-failure              |
-| addSecurityKey                 | credentials-add-security-key            |
-| addPasskey                     | credentials-add-passkey                 |
-| copiedToClipboard              | copied-to-clipboard                     |
+| constant                         | value                                          |
+|:---------------------------------|:-----------------------------------------------|
+| changePhone                      | change-phone                                   |
+| success                          | success                                        |
+| failure                          | failure                                        |
+| ineligible                       | ineligible                                     |
+| pendingReview                    | pending-review                                 |
+| redirect                         | redirect                                       |
+| close                            | close                                          |
+| ready                            | ready                                          |
+| initPorts                        | initPorts                                      |
+| invalidChallenge                 | invalid-challenge                              |
+| docvChallenge                    | challenge-docv-required                        |
+| kycChallenge                     | challenge-kyc-required                         |
+| selfieChallenge                  | challenge-selfie-required                      |
+| twoFactorChallenge               | challenge-2fa-required                         |
+| accountNumbercopiedToClipboard   | account-number-copied-to-clipboard             |
+| routingNumbercopiedToClipboard   | routing-number-copied-to-clipboard             |
+| addContact                       | external-contacts-add-new                      |
+| selectContact                    | external-contacts-select-contact               |
+| contactLoaded                    | external-contacts-data-loaded                  |
+| createContactSuccess             | external-contacts-create-success               |
+| createContactFailure             | external-contacts-create-failure               |
+| updateContactSuccess             | external-contacts-update-success               |
+| updateContactFailure             | external-contacts-update-failure               |
+| deleteContactFailure             | external-contacts-remove-failure               |
+| deleteContactSuccess             | external-contacts-remove-success               |
+| addContactWireDetails            | external-contacts-add-bank-routing             |
+| editContactTrigger               | external-contacts-on-edit                      |
+| edit                             | edit                                           |
+| forgotPin                        | forgot-pin                                     |
+| kyc                              | kyc                                            |
+| stepUpDocv                       | stepUpDocv                                     |
+| clickKnownDevice                 | known-devices-click-device                     |
+| removeKnownDeviceSuccess         | known-devices-remove-device-success            |
+| removeKnownDeviceFailure         | known-devices-remove-device-failure            |
+| transactionMetaFailure           | transaction-meta-fetch-failure                 |
+| recoverAccess                    | recover-access                                 |
+| clickCredential                  | credentials-select-credential                  |
+| removeCredentialChallenge        | credentials-remove-credential-challenge        |
+| removeCredentialFailure          | credentials-remove-credential-failure          |
+| updateCredentialTrigger          | credentials-on-update                          |
+| updateCredentialSuccess          | credentials-update-success                     |
+| updateCredentialFailure          | credentials-update-failure                     |
+| addSecurityKey                   | credentials-add-security-key                   |
+| addPasskey                       | credentials-add-passkey                        |
+| copiedToClipboard                | copied-to-clipboard                            |
+| manualRevealCustomerPersonalInfo | manual-reveal-customer-personal-info-challenge |
+| revealCustomerPersonalInfo       | reveal-customer-personal-info-challenge        |
+| idVerificationOnVerify           | id-verification-on-verify                      |
 
 | constant     | value        |
 |:-------------|:-------------|
