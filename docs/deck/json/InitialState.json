@@ -1636,6 +1636,9 @@
       "responsive_web_grok_dev_universal_search_id_enabled": {
         "value": "false"
       },
+      "responsive_web_grok_disable_new_conversation_url_reset": {
+        "value": "false"
+      },
       "responsive_web_grok_download_favicons": {
         "value": "true"
       },
@@ -7505,10 +7508,10 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "73b0261362c88bd945ef83dbcfe6d632"
+      "settingsVersion": "3426f232b48b838b9403210a69815808"
     },
     "debug": {},
-    "featureSetToken": "9036130c33b45c9bc5ffe61b574fb6558388642e",
+    "featureSetToken": "f06f30e861f31cf7172abf1d05f687cb460bdd2b",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -7577,7 +7580,7 @@
   },
   "session": {
     "country": "XX",
-    "guestId": "176505503965948208",
+    "guestId": "176514149914267078",
     "hasCommunityMemberships": "false",
     "isActiveCreator": "false",
     "isLoaded": "false",
