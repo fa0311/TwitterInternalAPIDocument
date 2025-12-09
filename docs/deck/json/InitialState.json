@@ -1438,6 +1438,9 @@
       "responsive_web_card_preconnect_enabled": {
         "value": "false"
       },
+      "responsive_web_card_reminder_enabled": {
+        "value": "false"
+      },
       "responsive_web_carousel_v2_cards_non_safari_enabled": {
         "value": "false"
       },
@@ -3775,7 +3778,7 @@
         "value": "500"
       },
       "xchat_web_react_blob_url_management": {
-        "value": "false"
+        "value": "true"
       },
       "xprofile_consumption_enabled": {
         "value": "true"
@@ -7508,10 +7511,10 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "3426f232b48b838b9403210a69815808"
+      "settingsVersion": "624bd930d2783ba0d7b3d25316b00b03"
     },
     "debug": {},
-    "featureSetToken": "f06f30e861f31cf7172abf1d05f687cb460bdd2b",
+    "featureSetToken": "d2472bfff2ea786c3696a36d560a3af059e46aa0",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -7580,7 +7583,7 @@
   },
   "session": {
     "country": "XX",
-    "guestId": "176514149914267078",
+    "guestId": "176522792295246834",
     "hasCommunityMemberships": "false",
     "isActiveCreator": "false",
     "isLoaded": "false",

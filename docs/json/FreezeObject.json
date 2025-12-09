@@ -957,7 +957,8 @@
     "reonboard": "reonboard",
     "directDepositSetup": "directDepositSetup",
     "removeCredential": "removeCredential",
-    "cardLockToggle": "cardLockToggle"
+    "cardLockToggle": "cardLockToggle",
+    "revealCustomerPersonalInfo": "revealCustomerPersonalInfo"
   },
   {
     "address": "address"
@@ -3543,11 +3544,11 @@
     "processing": "processing"
   },
   {
-    "0": "b.Zk.INTERNAL_ERROR",
-    "1": "b.Zk.INVALID_MEDIA",
-    "2": "b.Zk.FILE_TOO_LARGE",
-    "3": "b.Zk.UNSUPPORTED_MEDIA",
-    "4": "b.Zk.TIMEOUT"
+    "0": "N.Zk.INTERNAL_ERROR",
+    "1": "N.Zk.INVALID_MEDIA",
+    "2": "N.Zk.FILE_TOO_LARGE",
+    "3": "N.Zk.UNSUPPORTED_MEDIA",
+    "4": "N.Zk.TIMEOUT"
   },
   {
     "RESET": "0",
@@ -4283,11 +4284,11 @@
     "processing": "processing"
   },
   {
-    "0": "F.Zk.INTERNAL_ERROR",
-    "1": "F.Zk.INVALID_MEDIA",
-    "2": "F.Zk.FILE_TOO_LARGE",
-    "3": "F.Zk.UNSUPPORTED_MEDIA",
-    "4": "F.Zk.TIMEOUT"
+    "0": "O.Zk.INTERNAL_ERROR",
+    "1": "O.Zk.INVALID_MEDIA",
+    "2": "O.Zk.FILE_TOO_LARGE",
+    "3": "O.Zk.UNSUPPORTED_MEDIA",
+    "4": "O.Zk.TIMEOUT"
   },
   {
     "RESET": "0",
@@ -7368,7 +7369,7 @@
       "aria-live": "polite"
     }
   },
-  "{\"ActionsBar\":\"Z.Z\",\"ActionMenu\":\"function()\"{\"var t=e.Icon\",n=e.isDisabled,r=e.items,i=e.onOpen,\"o=l.useCallback()\"{\"return l.createElement()\"{\"items\":\"r\",\"onCloseRequested\":\"e\"}}{\"Icon\":\"t\",\"isDisabled\":\"n\",\"onClick\":\"i\",\"renderActionMenu\":\"o\"}},\"CallToAction\":\"c.ZP\",\"EditCallout\":\"k.Z\",\"Education\":\"T.Z\",\"HighlightedUserLabel\":\"m.Z\",\"Media\":\"x.Z\",\"Place\":\"s.ZP\",\"PromotedDetails\":\"h.Z\",\"PromotedUserProfileCard\":\"L\",\"ReplyContext\":\"M.ZP\",\"RichContent\":\"R.Z\",\"SocialContext\":\"b.Z\",\"Text\":\"B.Z\",\"Tombstone\":\"y.Z\",\"Timestamp\":\"v.Z\",\"UserAvatar\":\"F.Z\",\"UserFollowIndicator\":\"H.Z\",\"UserName\":\"U.Z\",\"ArticleCard\":\"E.Z\"}",
+  "{\"ActionsBar\":\"Z.Z\",\"ActionMenu\":\"function()\"{\"var t=e.Icon\",n=e.isDisabled,r=e.items,i=e.onOpen,\"o=l.useCallback()\"{\"return l.createElement()\"{\"items\":\"r\",\"onCloseRequested\":\"e\"}}{\"Icon\":\"t\",\"isDisabled\":\"n\",\"onClick\":\"i\",\"renderActionMenu\":\"o\"}},\"CallToAction\":\"c.ZP\",\"EditCallout\":\"k.Z\",\"Education\":\"T.Z\",\"HighlightedUserLabel\":\"m.Z\",\"Media\":\"x.Z\",\"Place\":\"s.ZP\",\"PromotedDetails\":\"h.Z\",\"PromotedUserProfileCard\":\"M\",\"ReplyContext\":\"L.ZP\",\"RichContent\":\"R.Z\",\"SocialContext\":\"b.Z\",\"Text\":\"B.Z\",\"Tombstone\":\"y.Z\",\"Timestamp\":\"v.Z\",\"UserAvatar\":\"F.Z\",\"UserFollowIndicator\":\"H.Z\",\"UserName\":\"U.Z\",\"ArticleCard\":\"E.Z\"}",
   {
     "X_BACKEND": "X_BACKEND",
     "IN_PROGRESS": "MIGRATION_IN_PROGRESS",
@@ -8692,16 +8693,16 @@
     "sales_am": "p",
     "operations": "g",
     "people_hr": "y",
-    "finance_accounting": "Z",
-    "legal_compliance": "v",
+    "finance_accounting": "v",
+    "legal_compliance": "Z",
     "science_engineering": "w",
     "medical": "k",
     "construction_trades": "D",
     "other": "S"
   },
   {
-    "intern": "P",
-    "entry_level": "x",
+    "intern": "x",
+    "entry_level": "P",
     "junior": "C",
     "mid_level": "I",
     "senior": "_",
@@ -8711,18 +8712,18 @@
   },
   {
     "onsite": {
-      "label": "R",
+      "label": "H",
       "description": "W",
       "value": "onsite"
     },
     "remote": {
       "label": "q",
-      "description": "M",
+      "description": "O",
       "value": "remote"
     },
     "hybrid": {
       "label": "j",
-      "description": "O",
+      "description": "M",
       "value": "hybrid"
     }
   },
@@ -9410,7 +9411,11 @@
     "ShouldProvidePaymentId": "ShouldProvidePaymentId",
     "Unspecified": "Unspecified"
   },
-  "{\"InsufficientFunds\":{\"headline\":\"d().f66c509a\",\"message\":\"d().f9e0e6a2\",\"action\":{\"link\":\"p.IN\",\"label\":\"d().a4ef9cbe\"}},\"InvalidReceiver\":{\"getHeadline\":\"function()\"{\"return e.actionType===g.jq.P2P_TRANSFER_REQUEST?I\":\"K\"},\"headline\":\"K\",\"message\":\"w\",\"getErrorReporting\":\"function()\"{\"return\"{\"issueReportEnabled\":\"!0\",\"description\":\"Encountered an error while making a request.\"}}},\"InvalidReceiverCurrentState\":{\"getHeadline\":\"function()\"{\"return e.actionType===g.jq.P2P_TRANSFER_REQUEST?I\":\"K\"},\"headline\":\"K\",\"message\":\"w\"},\"BankIssue\":{\"getHeadline\":\"function()\"{var n=e.actionType;return n===g.jq.DEPOSIT?q:n===g.jq.WITHDRAWAL?W:\"V\"},\"headline\":\"V\",\"message\":\"L\"},\"InvalidReceiverPreferences\":{\"getHeadline\":\"function()\"{\"return e.actionType===g.jq.P2P_TRANSFER_REQUEST?I\":\"K\"},\"headline\":\"K\",\"message\":\"x\",\"getMessage\":\"function()\"{\"var n=e.actionType\",t=e.counterPartyScreenName;return t?n===g.jq.P2P_TRANSFER_REQUEST?H(){\"counterPartyScreenName\":\"t\"}{\"counterPartyScreenName\":\"t\"}}},\"InvalidSenderPreferences\":{\"headline\":\"I\",\"message\":\"x\",\"getMessage\":\"function()\"{\"var n=e.actionType\",t=e.counterPartyScreenName;return t?n===g.jq.P2P_TRANSFER_REQUEST?H(){\"counterPartyScreenName\":\"t\"}{\"counterPartyScreenName\":\"t\"}}},\"InvalidSender\":{\"getHeadline\":\"function()\"{\"return e.actionType===g.jq.P2P_TRANSFER_REQUEST?I\":\"K\"},\"headline\":\"K\",\"message\":\"w\",\"getErrorReporting\":\"function()\"{\"return\"{\"issueReportEnabled\":\"!0\",\"description\":\"Encountered an error while making a payment.\"}}},\"InvalidSenderCurrentState\":{\"getHeadline\":\"function()\"{\"return e.actionType===g.jq.P2P_TRANSFER_REQUEST?I\":\"K\"},\"headline\":\"K\",\"message\":\"w\"},\"IdempotencyKeyConflict\":{\"headline\":\"d().f6b3499c\",\"message\":\"d().f64125f6\",\"action\":{\"link\":\"p.bR\",\"label\":\"d().e63ed2f0\"}},\"CustomerMissingPrimaryAddress\":{\"message\":\"d().gde35c74\",\"action\":{\"link\":\"p.f0\",\"label\":\"d().jd899ca2\"}},\"LoginRequired\":\"D\",\"PaymentMethodLinkRequired\":\"D\",\"PaymentMethodExpired\":\"z\",\"PaymentMethodInactive\":\"z\",\"AccountLinkingNameMismatch\":{\"message\":\"d().d660047c\"},\"InsufficientBalance\":{\"headline\":\"d().f66c509a\",\"message\":\"d().f40c576c\",\"action\":{\"link\":\"p.IN\",\"label\":\"d().a4ef9cbe\"}},\"TwoFactorAuthRequired\":{\"message\":\"d().i10a73ce\",\"action\":{\"link\":\"p.ul\",\"label\":\"d().b4642e52\"}},\"VolumeLimitExceeded7DaySend\":{\"headline\":\"C()\"{\"type\":\"weekly\"}\"e\"{\"var n=e.actionType\",t=e.limits;return T(){\"type\":\"weekly\",\"limits\":\"t\",\"actionType\":\"n\"}},\"message\":\"R\",\"getAction\":\"function()\"{\"var n=e.actionType\",t=e.limits;return F(){\"actionType\":\"n\",\"limits\":\"t\",\"type\":\"weekly\"}},\"action\":{\"link\":\"p.iE.limits\",\"label\":\"b\"}},\"VolumeLimitExceeded30DaySend\":{\"headline\":\"C()\"{\"type\":\"monthly\"}\"e\"{\"var n=e.actionType\",t=e.limits;return T(){\"type\":\"monthly\",\"limits\":\"t\",\"actionType\":\"n\"}},\"message\":\"R\",\"getAction\":\"function()\"{\"var n=e.actionType\",t=e.limits;return F(){\"actionType\":\"n\",\"limits\":\"t\",\"type\":\"monthly\"}},\"action\":{\"link\":\"p.iE.limits\",\"label\":\"b\"}},\"VolumeLimitExceeded7Day\":{\"headline\":\"C()\"{\"type\":\"weekly\"}\"e\"{\"var n=e.actionType\",t=e.limits;return T(){\"type\":\"weekly\",\"limits\":\"t\",\"actionType\":\"n\"}},\"message\":\"R\",\"getAction\":\"function()\"{\"var n=e.actionType\",t=e.limits;return F(){\"actionType\":\"n\",\"limits\":\"t\",\"type\":\"weekly\"}},\"action\":{\"link\":\"p.iE.limits\",\"label\":\"b\"}},\"VolumeLimitExceeded30Day\":{\"headline\":\"C()\"{\"type\":\"monthly\"}\"e\"{\"var n=e.actionType\",t=e.limits;return T(){\"type\":\"monthly\",\"limits\":\"t\",\"actionType\":\"n\"}},\"message\":\"R\",\"getAction\":\"function()\"{\"var n=e.actionType\",t=e.limits;return F(){\"actionType\":\"n\",\"limits\":\"t\",\"type\":\"monthly\"}},\"action\":{\"link\":\"p.iE.limits\",\"label\":\"b\"}},\"AdditionalKycRequiredVolumeLimitExceeded7DaySend\":\"M\",\"AdditionalKycRequiredVolumeLimitExceeded30DaySend\":\"M\",\"AdditionalKycRequiredTotalVolumeLimitExceeded\":\"M\",\"AdditionalKycRequired\":{\"headline\":\"d().g243dc66\",\"message\":\"d().b0315b3a\",\"action\":{\"link\":\"p.AU.tier2.verifyIdentityPath\",\"label\":\"d().c3d89aca\"}},\"Velocity\":{\"headline\":\"O\",\"getHeadline\":\"function()\"{var n=e.actionType;return n?X(){\"actionType\":Z[n]}},\"message\":\"d().cd34a81a\"},\"HasAccountBalance\":{\"headline\":\"A\",\"message\":\"d().a9ec0e4a\",\"action\":{\"link\":\"p.r0\",\"label\":\"d().c0728748\"}},\"HasCashbackAccountBalance\":{\"headline\":\"A\",\"message\":\"d().a387275c\",\"action\":{\"link\":\"p.Tb\",\"label\":\"d().e49c288c\"}},\"HasActiveDisputes\":{\"headline\":\"A\",\"message\":\"d().c4800cb8\"},\"HasPendingTransactions\":{\"headline\":\"A\",\"message\":\"d().i0391488\"},\"InactivePaymentMethod\":\"N\",\"InvalidPaymentMethodType\":\"N\",\"PaymentMethodDeleted\":\"N\",\"FeeCalculationError\":{\"headline\":\"j\",\"getHeadline\":\"function()\"{var n=e.actionType;return n?U(){\"actionType\":Z[n]}},\"message\":\"L\",\"action\":{\"link\":\"p.ze\",\"label\":\"d().a893d602\"},\"getErrorReporting\":\"function()\"{\"var n\",t=e.actionType;return t===g.jq.DEPOSIT||t===g.jq.WITHDRAWAL?{\"issueReportEnabled\":\"!0\",\"description\":\"Encountered an error while calculating fees for a \".concat()}:{\"issueReportEnabled\":\"!1\"}}},\"Unexpected\":{\"headline\":\"d().ac1c4c40\",\"message\":\"d().de869c96\",\"getErrorReporting\":\"function()\"{\"var n\",t=e.actionType;return t===g.jq.DEPOSIT||t===g.jq.WITHDRAWAL?{\"issueReportEnabled\":\"!0\",\"description\":\"Encountered an unexpected error during a \".concat()}:{\"issueReportEnabled\":\"!1\"}}},\"Default\":{\"getHeadline\":\"function()\"{\"switch()\"{\"case g.jq.P2P_TRANSFER_SEND\":return K;case g.jq.P2P_TRANSFER_REQUEST:return I;case g.jq.WITHDRAWAL:return W;case g.jq.DEPOSIT:return q;case g.jq.CLOSE_ACCOUNT:return A;case g.jq.REONBOARD:return B;default:\"return d().j3dc6686\"}},\"getMessage\":\"function()\"{\"switch()\"{\"case g.jq.P2P_TRANSFER_SEND\":case g.jq.P2P_TRANSFER_REQUEST:return w;default:\"return L\"}},\"message\":\"L\",\"getErrorReporting\":\"function()\"{\"var n\",t,a=e.actionType;return a===g.jq.DEPOSIT||a===g.jq.WITHDRAWAL?{\"issueReportEnabled\":\"!0\",\"description\":\"Encountered an unexpected error during a \".concat()}:a===g.jq.P2P_TRANSFER_REQUEST||a===g.jq.P2P_TRANSFER_SEND||a===g.jq.P2P_TRANSFER_SEND_FUNDED?{\"issueReportEnabled\":\"!0\",\"description\":\"Encountered an unexpected error during a \".concat()}:{\"issueReportEnabled\":\"!1\"}}}}",
+  {
+    "daily": "daily",
+    "monthly": "monthly"
+  },
+  "{\"InsufficientFunds\":{\"headline\":\"d().f66c509a\",\"message\":\"d().f9e0e6a2\",\"action\":{\"link\":\"p.IN\",\"label\":\"d().a4ef9cbe\"}},\"InvalidReceiver\":{\"getHeadline\":\"function()\"{\"return e.actionType===g.jq.P2P_TRANSFER_REQUEST?L\":\"R\"},\"headline\":\"R\",\"message\":\"D\",\"getErrorReporting\":\"function()\"{\"return\"{\"issueReportEnabled\":\"!0\",\"description\":\"Encountered an error while making a request.\"}}},\"InvalidReceiverCurrentState\":{\"getHeadline\":\"function()\"{\"return e.actionType===g.jq.P2P_TRANSFER_REQUEST?L\":\"R\"},\"headline\":\"R\",\"message\":\"D\"},\"BankIssue\":{\"getHeadline\":\"function()\"{var n=e.actionType;return n===g.jq.DEPOSIT?G:n===g.jq.WITHDRAWAL?Y:\"Q\"},\"headline\":\"Q\",\"message\":\"A\"},\"InvalidReceiverPreferences\":{\"getHeadline\":\"function()\"{\"return e.actionType===g.jq.P2P_TRANSFER_REQUEST?L\":\"R\"},\"headline\":\"R\",\"message\":\"M\",\"getMessage\":\"function()\"{\"var n=e.actionType\",t=e.counterPartyScreenName;return t?n===g.jq.P2P_TRANSFER_REQUEST?J(){\"counterPartyScreenName\":\"t\"}{\"counterPartyScreenName\":\"t\"}}},\"InvalidSenderPreferences\":{\"headline\":\"L\",\"message\":\"M\",\"getMessage\":\"function()\"{\"var n=e.actionType\",t=e.counterPartyScreenName;return t?n===g.jq.P2P_TRANSFER_REQUEST?J(){\"counterPartyScreenName\":\"t\"}{\"counterPartyScreenName\":\"t\"}}},\"InvalidSender\":{\"getHeadline\":\"function()\"{\"return e.actionType===g.jq.P2P_TRANSFER_REQUEST?L\":\"R\"},\"headline\":\"R\",\"message\":\"D\",\"getErrorReporting\":\"function()\"{\"return\"{\"issueReportEnabled\":\"!0\",\"description\":\"Encountered an error while making a payment.\"}}},\"InvalidSenderCurrentState\":{\"getHeadline\":\"function()\"{\"return e.actionType===g.jq.P2P_TRANSFER_REQUEST?L\":\"R\"},\"headline\":\"R\",\"message\":\"D\"},\"IdempotencyKeyConflict\":{\"headline\":\"d().f6b3499c\",\"message\":\"d().f64125f6\",\"action\":{\"link\":\"p.bR\",\"label\":\"d().e63ed2f0\"}},\"CustomerMissingPrimaryAddress\":{\"message\":\"d().gde35c74\",\"action\":{\"link\":\"p.f0\",\"label\":\"d().jd899ca2\"}},\"LoginRequired\":\"z\",\"PaymentMethodLinkRequired\":\"z\",\"PaymentMethodInactive\":{\"getHeadline\":\"function()\"{var n=e.actionType;return n===g.jq.DEPOSIT?G:n===g.jq.WITHDRAWAL?Y:\"Q\"},\"headline\":\"Q\",\"message\":\"T\"},\"PaymentMethodExpired\":{\"getHeadline\":\"function()\"{var n=e.actionType;return n===g.jq.DEPOSIT?G:n===g.jq.WITHDRAWAL?Y:\"Q\"},\"headline\":\"Q\",\"message\":\"K\"},\"AccountLinkingNameMismatch\":{\"message\":\"d().d660047c\"},\"InsufficientBalance\":{\"headline\":\"d().f66c509a\",\"message\":\"d().f40c576c\",\"action\":{\"link\":\"p.IN\",\"label\":\"d().a4ef9cbe\"}},\"TwoFactorAuthRequired\":{\"message\":\"d().i10a73ce\",\"action\":{\"link\":\"p.ul\",\"label\":\"d().b4642e52\"}},\"VolumeLimitExceeded30DaySend\":\"w()\"{\"type\":\"S.monthly\"}{\"type\":\"S.daily\"}{\"type\":\"S.monthly\"}{\"headline\":\"d().g243dc66\",\"message\":\"d().b0315b3a\",\"action\":{\"link\":\"p.AU.tier2.verifyIdentityPath\",\"label\":\"d().c3d89aca\"}},\"Velocity\":{\"headline\":\"V\",\"getHeadline\":\"function()\"{var n=e.actionType;return n?q(){\"actionType\":I[n]}},\"message\":\"d().cd34a81a\"},\"HasAccountBalance\":{\"headline\":\"O\",\"message\":\"d().a9ec0e4a\",\"action\":{\"link\":\"p.r0\",\"label\":\"d().c0728748\"}},\"HasCashbackAccountBalance\":{\"headline\":\"O\",\"message\":\"d().a387275c\",\"action\":{\"link\":\"p.Tb\",\"label\":\"d().e49c288c\"}},\"HasActiveDisputes\":{\"headline\":\"O\",\"message\":\"d().c4800cb8\"},\"HasPendingTransactions\":{\"headline\":\"O\",\"message\":\"d().i0391488\"},\"InactivePaymentMethod\":\"U\",\"InvalidPaymentMethodType\":\"U\",\"PaymentMethodDeleted\":\"U\",\"FeeCalculationError\":{\"headline\":\"W\",\"getHeadline\":\"function()\"{var n=e.actionType;return n?H(){\"actionType\":I[n]}},\"message\":\"A\",\"action\":{\"link\":\"p.ze\",\"label\":\"d().a893d602\"},\"getErrorReporting\":\"function()\"{\"var n\",t=e.actionType;return t===g.jq.DEPOSIT||t===g.jq.WITHDRAWAL?{\"issueReportEnabled\":\"!0\",\"description\":\"Encountered an error while calculating fees for a \".concat()}:{\"issueReportEnabled\":\"!1\"}}},\"Unexpected\":{\"headline\":\"d().ac1c4c40\",\"message\":\"d().de869c96\",\"getErrorReporting\":\"function()\"{\"var n\",t=e.actionType;return t===g.jq.DEPOSIT||t===g.jq.WITHDRAWAL?{\"issueReportEnabled\":\"!0\",\"description\":\"Encountered an unexpected error during a \".concat()}:{\"issueReportEnabled\":\"!1\"}}},\"Default\":{\"getHeadline\":\"function()\"{\"switch()\"{\"case g.jq.P2P_TRANSFER_SEND\":return R;case g.jq.P2P_TRANSFER_REQUEST:return L;case g.jq.WITHDRAWAL:return Y;case g.jq.DEPOSIT:return G;case g.jq.CLOSE_ACCOUNT:return O;case g.jq.REONBOARD:return X;default:\"return d().j3dc6686\"}},\"getMessage\":\"function()\"{\"switch()\"{\"case g.jq.P2P_TRANSFER_SEND\":case g.jq.P2P_TRANSFER_REQUEST:return D;default:\"return A\"}},\"message\":\"A\",\"getErrorReporting\":\"function()\"{\"var n\",t,a=e.actionType;return a===g.jq.DEPOSIT||a===g.jq.WITHDRAWAL?{\"issueReportEnabled\":\"!0\",\"description\":\"Encountered an unexpected error during a \".concat()}:a===g.jq.P2P_TRANSFER_REQUEST||a===g.jq.P2P_TRANSFER_SEND||a===g.jq.P2P_TRANSFER_SEND_FUNDED?{\"issueReportEnabled\":\"!0\",\"description\":\"Encountered an unexpected error during a \".concat()}:{\"issueReportEnabled\":\"!1\"}}}}",
   {
     "ClaimTransferDecisionAccept": "ClaimTransferDecisionAccept",
     "ClaimTransferDecisionReject": "ClaimTransferDecisionReject",
@@ -9530,7 +9535,7 @@
     "P2P_TRANSFER_SEND_FUNDED": "P2P_TRANSFER_SEND_FUNDED",
     "P2P_TRANSFER_REQUEST": "P2P_TRANSFER_REQUEST",
     "ACCOUNT_LINKING": "ACCOUNT_LINKING",
-    "WIRE_TRANSFER": "WIRE_TRANSFER",
+    "SEND_WIRE_TRANSFER": "SEND_WIRE_TRANSFER",
     "MAIL_CHECK": "MAIL_CHECK",
     "CLOSE_ACCOUNT": "CLOSE_ACCOUNT",
     "REONBOARD": "REONBOARD"
@@ -9587,7 +9592,10 @@
     "updateCredentialFailure": "credentials-update-failure",
     "addSecurityKey": "credentials-add-security-key",
     "addPasskey": "credentials-add-passkey",
-    "copiedToClipboard": "copied-to-clipboard"
+    "copiedToClipboard": "copied-to-clipboard",
+    "manualRevealCustomerPersonalInfo": "manual-reveal-customer-personal-info-challenge",
+    "revealCustomerPersonalInfo": "reveal-customer-personal-info-challenge",
+    "idVerificationOnVerify": "id-verification-on-verify"
   },
   {
     "Cashback": "Cashback",
@@ -10373,7 +10381,7 @@
     "SUCCESS": "rweb/directMessages/SEARCH_SUCCESS",
     "FAILURE": "rweb/directMessages/SEARCH_FAILURE"
   },
-  "{\"ActionsBar\":\"Z.Z\",\"ActionMenu\":\"function()\"{\"var t=e.Icon\",n=e.isDisabled,r=e.items,i=e.onOpen,\"o=l.useCallback()\"{\"return l.createElement()\"{\"items\":\"r\",\"onCloseRequested\":\"e\"}}{\"Icon\":\"t\",\"isDisabled\":\"n\",\"onClick\":\"i\",\"renderActionMenu\":\"o\"}},\"CallToAction\":\"c.ZP\",\"EditCallout\":\"E.Z\",\"Education\":\"T.Z\",\"HighlightedUserLabel\":\"m.Z\",\"Media\":\"x.Z\",\"Place\":\"s.ZP\",\"PromotedDetails\":\"f.Z\",\"PromotedUserProfileCard\":\"F\",\"ReplyContext\":\"R.ZP\",\"RichContent\":\"M.Z\",\"SocialContext\":\"y.Z\",\"Text\":\"D.Z\",\"Tombstone\":\"b.Z\",\"Timestamp\":\"g.Z\",\"UserAvatar\":\"U.Z\",\"UserFollowIndicator\":\"K.Z\",\"UserName\":\"B.Z\",\"ArticleCard\":\"_.Z\"}",
+  "{\"ActionsBar\":\"Z.Z\",\"ActionMenu\":\"function()\"{\"var t=e.Icon\",n=e.isDisabled,r=e.items,i=e.onOpen,\"o=l.useCallback()\"{\"return l.createElement()\"{\"items\":\"r\",\"onCloseRequested\":\"e\"}}{\"Icon\":\"t\",\"isDisabled\":\"n\",\"onClick\":\"i\",\"renderActionMenu\":\"o\"}},\"CallToAction\":\"c.ZP\",\"EditCallout\":\"E.Z\",\"Education\":\"T.Z\",\"HighlightedUserLabel\":\"m.Z\",\"Media\":\"x.Z\",\"Place\":\"s.ZP\",\"PromotedDetails\":\"f.Z\",\"PromotedUserProfileCard\":\"F\",\"ReplyContext\":\"R.ZP\",\"RichContent\":\"M.Z\",\"SocialContext\":\"b.Z\",\"Text\":\"D.Z\",\"Tombstone\":\"y.Z\",\"Timestamp\":\"g.Z\",\"UserAvatar\":\"U.Z\",\"UserFollowIndicator\":\"K.Z\",\"UserName\":\"B.Z\",\"ArticleCard\":\"_.Z\"}",
   {
     "AcceptAllCookies": "acceptAllCookies",
     "RefuseNonEssentialCookies": "refuseNonEssentialCookies",
