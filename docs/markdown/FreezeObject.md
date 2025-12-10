@@ -760,8 +760,8 @@ This document is entirely auto-generated and may contain errors.<br>
 | columnWidthsRedesign  | o       |
 | sideNavWidths         | a       |
 | sideNavWidthsRedesign | i       |
-| contentWidths         | d       |
-| contentWidthsRedesign | s       |
+| contentWidths         | s       |
+| contentWidthsRedesign | d       |
 | wideTabBarWidth       | c       |
 | dmDrawerHeight        | u       |
 | dmDrawerWidth         | m       |
@@ -883,13 +883,13 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant                     | value        |
 |:-----------------------------|:-------------|
-| createAccountLabel           | d().eb022176 |
-| createAccountPhoneEmailLabel | d().gcfef7b6 |
-| logInLabel                   | d().e919c3bc |
-| signInLabel                  | d().e5b0e544 |
-| signUpLabel                  | d().a565833e |
-| signUpPhoneEmailLabel        | d().eb022176 |
-| useAppLabel                  | d().gd93944e |
+| createAccountLabel           | s().eb022176 |
+| createAccountPhoneEmailLabel | s().gcfef7b6 |
+| logInLabel                   | s().e919c3bc |
+| signInLabel                  | s().e5b0e544 |
+| signUpLabel                  | s().a565833e |
+| signUpPhoneEmailLabel        | s().eb022176 |
+| useAppLabel                  | s().gd93944e |
 
 | constant        | value       |
 |:----------------|:------------|
@@ -898,6 +898,294 @@ This document is entirely auto-generated and may contain errors.<br>
 | SecondVariation | treatment_2 |
 | ThirdVariation  | treatment_3 |
 | FourthVariation | treatment_4 |
+
+| constant         | value               |
+|:-----------------|:--------------------|
+| Abort            | abort               |
+| ChromelessWeb    | chromeless_web_link |
+| Deeplink         | deep_link           |
+| DeeplinkAndAbort | deep_link_and_abort |
+| DeeplinkInPlace  | deep_link_in_place  |
+| Finish           | finish              |
+| Subtask          | subtask             |
+| Task             | task                |
+| Web              | web_link            |
+| WeblinkAndAbort  | web_link_and_abort  |
+
+| constant        | value             |
+|:----------------|:------------------|
+| Allow           | allow             |
+| CancelFlow      | cancel_flow       |
+| HideExplicitCta | hide_explicit_cta |
+| Disallow        | disallow          |
+
+| constant   | value       |
+|:-----------|:------------|
+| Default    | default     |
+| BulletList | bullet_list |
+
+| constant             | value                 |
+|:---------------------|:----------------------|
+| DestructiveSecondary | destructive_secondary |
+| Primary              | primary               |
+| Secondary            | secondary             |
+| Text                 | text                  |
+| Brand                | brand                 |
+| TwitterBrand         | twitter_brand         |
+
+| constant      | value          |
+|:--------------|:---------------|
+| Small         | small          |
+| NormalCompact | normal_compact |
+| Normal        | normal         |
+| LargeCompact  | large_compact  |
+| Large         | large          |
+
+| constant          | value     |
+|:------------------|:----------|
+| CheckmarkAndClose | checkmark |
+| Text              | text      |
+| ThumbsUpAndDown   | thumbs    |
+
+| constant   | value   |
+|:-----------|:--------|
+| Toolbar    | toolbar |
+
+| constant       | value           |
+|:---------------|:----------------|
+| Scrollable     | scrollable      |
+| Centered       | centered        |
+| CenteredHeader | centered_header |
+| HalfCover      | half_cover      |
+
+| constant   | value   |
+|:-----------|:--------|
+| Success    | success |
+| Failure    | failure |
+| Cancel     | cancel  |
+
+| constant     | value          |
+|:-------------|:---------------|
+| Icon         | icon           |
+| FullWidth    | full_width     |
+| FullBleedTop | full_bleed_top |
+
+| constant       | value            |
+|:---------------|:-----------------|
+| PhoneOnly      | phone_only       |
+| EmailOnly      | email_only       |
+| PhoneThenEmail | phone_then_email |
+| EmailThenPhone | email_then_phone |
+
+| constant                         | value                                |
+|:---------------------------------|:-------------------------------------|
+| ActionList                       | ACTION_LIST                          |
+| AlertDialog                      | ALERT_DIALOG                         |
+| AlertDialogSupressClientEvents   | ALERT_DIALOG_SUPRESS_CLIENT_EVENTS   |
+| AppDownloadCTA                   | APP_DOWNLOAD_CTA                     |
+| AppLocaleUpdate                  | APP_LOCALE_UPDATE                    |
+| BrowsableNux                     | BROWSABLE_NUX                        |
+| CallToAction                     | CALL_TO_ACTION                       |
+| CheckLoggedInAccount             | CHECK_LOGGED_IN_ACCOUNT              |
+| ChoiceSelection                  | CHOICE_SELECTION                     |
+| ContactsLiveSyncPermissionPrompt | CONTACTS_LIVE_SYNC_PERMISSION_PROMPT |
+| EmailContactsSync                | EMAIL_CONTACTS_SYNC                  |
+| EmailVerification                | EMAIL_VERIFICATION                   |
+| EndFlow                          | END_FLOW                             |
+| EnterDate                        | ENTER_DATE                           |
+| EnterEmail                       | ENTER_EMAIL                          |
+| EnterPassword                    | ENTER_PASSWORD                       |
+| EnterPhone                       | ENTER_PHONE                          |
+| EnterRecaptcha                   | ENTER_RECAPTCHA                      |
+| EnterText                        | ENTER_TEXT                           |
+| EnterUsername                    | ENTER_USERNAME                       |
+| FetchPassword                    | FETCH_PASSWORD                       |
+| GenericURT                       | GENERIC_URT                          |
+| InAppNotification                | IN_APP_NOTIFICATION                  |
+| InterestPicker                   | INTEREST_PICKER                      |
+| JsInstrumentation                | JS_INSTRUMENTATION                   |
+| MenuDialog                       | MENU_DIALOG                          |
+| NotificationsPermissionPrompt    | NOTIFICATIONS_PERMISSION_PROMPT      |
+| OpenAccount                      | OPEN_ACCOUNT                         |
+| OpenHomeTimeline                 | OPEN_HOME_TIMELINE                   |
+| OpenLink                         | OPEN_LINK                            |
+| Passkey                          | PASSKEY                              |
+| PhoneVerification                | PHONE_VERIFICATION                   |
+| PrivacyOptions                   | PRIVACY_OPTIONS                      |
+| Recaptcha                        | RECAPTCHA                            |
+| SecurityKey                      | SECURITY_KEY                         |
+| SelectAvatar                     | SELECT_AVATAR                        |
+| SelectBanner                     | SELECT_BANNER                        |
+| SettingsList                     | SETTINGS_LIST                        |
+| ShowCode                         | SHOW_CODE                            |
+| Signup                           | SIGNUP                               |
+| SignupReview                     | SIGNUP_REVIEW                        |
+| TopicsSelector                   | TOPICS_SELECTOR                      |
+| TweetSelectionURT                | TWEET_SELECTION_URT                  |
+| TypeaheadSearch                  | TYPEAHEAD_SEARCH                     |
+| UpdateUsers                      | UPDATE_USERS                         |
+| UploadMedia                      | UPLOAD_MEDIA                         |
+| UserRecommendations              | USER_RECOMMENDATIONS_LIST            |
+| UserRecommendationsURT           | USER_RECOMMENDATIONS_URT             |
+| WaitSpinner                      | WAIT_SPINNER                         |
+| WebModal                         | WEB_MODAL                            |
+
+| constant   | value    |
+|:-----------|:---------|
+| Centered   | centered |
+| Left       | left     |
+
+| constant          | value              |
+|:------------------|:-------------------|
+| Action            | action             |
+| Boolean           | boolean            |
+| DestructiveAction | destructive_action |
+| PreciseLocation   | precise_location   |
+| SettingsGroup     | settings_group     |
+| StaticText        | static_text        |
+| Separator         | separator          |
+| TextField         | text_field         |
+| Button            | button             |
+| Tweet             | tweet              |
+
+| constant        | value             |
+|:----------------|:------------------|
+| AppleSSOButton  | apple_sso_button  |
+| GoogleSSOButton | google_sso_button |
+| NextButton      | next_button       |
+| UserIdentifier  | user_identifier   |
+
+| constant                 | value          |
+|:-------------------------|:---------------|
+| DEPRECATED_UnorderedList | UnorderedList  |
+| DEPRECATED_ListItem      | ListItem       |
+| UnorderedList            | unordered_list |
+| ListItem                 | list_item      |
+
+| constant   | value   |
+|:-----------|:--------|
+| Normal     | Normal  |
+| Bold       | Bold    |
+
+| constant   | value   |
+|:-----------|:--------|
+| Small      | Small   |
+| Normal     | Normal  |
+| Large      | Large   |
+| XLarge     | XLarge  |
+| Jumbo      | Jumbo   |
+
+| constant   | value   |
+|:-----------|:--------|
+| Qr         | qr      |
+| Text       | text    |
+
+| constant   | value   |
+|:-----------|:--------|
+| Avatar     | avatar  |
+| Banner     | banner  |
+
+| constant   | value     |
+|:-----------|:----------|
+| Success    | success   |
+| NotFound   | not_found |
+| Error      | error     |
+
+| constant   | value    |
+|:-----------|:---------|
+| Favorite   | favorite |
+| Follow     | follow   |
+| Reply      | reply    |
+| Retweet    | retweet  |
+
+| constant   | value    |
+|:-----------|:---------|
+| Checkbox   | checkbox |
+| Follow     | follow   |
+
+| constant         | value           |
+|:-----------------|:----------------|
+| Tile             | tile            |
+| List             | list            |
+| TileFollowButton | tile_follow_btn |
+
+| constant   | value     |
+|:-----------|:----------|
+| Always     | always    |
+| Never      | never     |
+| Preprompt  | preprompt |
+
+| constant   | value     |
+|:-----------|:----------|
+| Email      | email     |
+| Number     | number    |
+| Password   | password  |
+| Telephone  | telephone |
+| Text       | text      |
+
+| constant    | value        |
+|:------------|:-------------|
+| ResendSms   | resend_sms   |
+| ResendVoice | resend_voice |
+| ResendEmail | resend_email |
+
+| constant    | value        |
+|:------------|:-------------|
+| Password    | password     |
+| NewPassword | new_password |
+| Text        | text         |
+
+| constant   | value   |
+|:-----------|:--------|
+| Normal     | normal  |
+| Compact    | compact |
+
+| constant    | value        |
+|:------------|:-------------|
+| Username    | username     |
+| Password    | password     |
+| NewPassword | new_password |
+| Text        | text         |
+
+| constant   | value    |
+|:-----------|:---------|
+| Mismatch   | mismatch |
+
+| constant   | value   |
+|:-----------|:--------|
+| compact    | compact |
+| stacked    | stacked |
+
+| constant      | value          |
+|:--------------|:---------------|
+| Fixed         | fixed          |
+| Floating      | floating       |
+| FloatingLarge | floating_large |
+
+| constant   | value      |
+|:-----------|:-----------|
+| Default    | default    |
+| GoogleSSO  | google_sso |
+| AppleSSO   | apple_sso  |
+
+| constant   | value      |
+|:-----------|:-----------|
+| Impression | impression |
+| Click      | click      |
+
+| constant       | value           |
+|:---------------|:----------------|
+| HeaderTitle    | header_title    |
+| HeaderSubtitle | header_subtitle |
+| SectionTitle   | section_title   |
+| Detail         | detail          |
+
+| constant   | value   |
+|:-----------|:--------|
+| All        | all     |
+| Users      | users   |
+| Topics     | topics  |
+| Events     | events  |
 
 | constant                      | value                         |
 |:------------------------------|:------------------------------|
@@ -1425,7 +1713,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | constant    | value     |
 |:------------|:----------|
 | memberships | []        |
-| fetchStatus | d.ZP.NONE |
+| fetchStatus | s.ZP.NONE |
 
 | constant     | value        |
 |:-------------|:-------------|
@@ -1490,25 +1778,49 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{"REQUEST":"".concat(),"SUCCESS":"".concat(b,\"/FETCH_PENDING_FOLLOWERS_REQUEST\"),"FAILURE":"".concat(b,\"/FETCH_PENDING_FOLLOWERS_SUCCESS\")}
+{"REQUEST":"".concat(),"SUCCESS":"".concat(_,\"/FETCH_PENDING_FOLLOWERS_REQUEST\"),"FAILURE":"".concat(_,\"/FETCH_PENDING_FOLLOWERS_SUCCESS\")}
 ```
 ```internal process
 # Error
-{"REQUEST":"".concat(),"SUCCESS":"".concat(b,\"/FETCH_PENDING_FOLLOWERS_USERS_REQUEST\"),"FAILURE":"".concat(b,\"/FETCH_PENDING_FOLLOWERS_USERS_SUCCESS\")}
+{"REQUEST":"".concat(),"SUCCESS":"".concat(_,\"/FETCH_PENDING_FOLLOWERS_USERS_REQUEST\"),"FAILURE":"".concat(_,\"/FETCH_PENDING_FOLLOWERS_USERS_SUCCESS\")}
 ```
 ```internal process
 # Error
-{"REQUEST":"".concat(),"SUCCESS":"".concat(b,\"/ACCEPT_PENDING_FOLLOWER_REQUEST\"),"FAILURE":"".concat(b,\"/ACCEPT_PENDING_FOLLOWER_SUCCESS\")}
+{"REQUEST":"".concat(),"SUCCESS":"".concat(_,\"/ACCEPT_PENDING_FOLLOWER_REQUEST\"),"FAILURE":"".concat(_,\"/ACCEPT_PENDING_FOLLOWER_SUCCESS\")}
 ```
 ```internal process
 # Error
-{"REQUEST":"".concat(),"SUCCESS":"".concat(b,\"/DECLINE_PENDING_FOLLOWER_REQUEST\"),"FAILURE":"".concat(b,\"/DECLINE_PENDING_FOLLOWER_SUCCESS\")}
+{"REQUEST":"".concat(),"SUCCESS":"".concat(_,\"/DECLINE_PENDING_FOLLOWER_REQUEST\"),"FAILURE":"".concat(_,\"/DECLINE_PENDING_FOLLOWER_SUCCESS\")}
 ```
 | constant   | value     |
 |:-----------|:----------|
 | CLOSED     | closed    |
 | COLLAPSED  | collapsed |
 | EXPANDED   | expanded  |
+
+| constant   | value                  |
+|:-----------|:-----------------------|
+| REQUEST    | rweb/ocf/FETCH_REQUEST |
+| SUCCESS    | rweb/ocf/FETCH_SUCCESS |
+| FAILURE    | rweb/ocf/FETCH_FAILURE |
+
+| constant   | value                  |
+|:-----------|:-----------------------|
+| REQUEST    | rweb/ocf/START_REQUEST |
+| SUCCESS    | rweb/ocf/START_SUCCESS |
+| FAILURE    | rweb/ocf/START_FAILURE |
+
+| constant   | value                              |
+|:-----------|:-----------------------------------|
+| REQUEST    | rweb/ocf/VERIFY_IDENTIFIER_REQUEST |
+| SUCCESS    | rweb/ocf/VERIFY_IDENTIFIER_SUCCESS |
+| FAILURE    | rweb/ocf/VERIFY_IDENTIFIER_FAILURE |
+
+| constant   | value                                                |
+|:-----------|:-----------------------------------------------------|
+| REQUEST    | rweb/ocf/FETCH_BROWSABLE_NUX_RECOMMENDATIONS_REQUEST |
+| SUCCESS    | rweb/ocf/FETCH_BROWSABLE_NUX_RECOMMENDATIONS_SUCCESS |
+| FAILURE    | rweb/ocf/FETCH_BROWSABLE_NUX_RECOMMENDATIONS_FAILURE |
 
 | constant   | value                                               |
 |:-----------|:----------------------------------------------------|
@@ -1560,8 +1872,8 @@ This document is entirely auto-generated and may contain errors.<br>
 | constant         | value          |
 |:-----------------|:---------------|
 | fetchStatus      | M.ZP.NONE      |
-| selectedTimeline | s.oO           |
-| sort             | s.UO.RELEVANCE |
+| selectedTimeline | d.oO           |
+| sort             | d.UO.RELEVANCE |
 | timelines        | []             |
 
 | constant   | value                              |
@@ -2081,7 +2393,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{"isExternal":"function()"{"try"{var t=s();return this._customIsExternal?this._customIsExternal(e,n){"hrefHostname":"t","href":"e"}}"catch()"{"return!0"}},"setIsExternal":"function()"{"this._customIsExternal=e"},"clearIsExternal":"function()"{"this._customIsExternal=null"},"onLinkClick":"function()"...
+{"isExternal":"function()"{"try"{var t=d();return this._customIsExternal?this._customIsExternal(e,n){"hrefHostname":"t","href":"e"}}"catch()"{"return!0"}},"setIsExternal":"function()"{"this._customIsExternal=e"},"clearIsExternal":"function()"{"this._customIsExternal=null"},"onLinkClick":"function()"...
 ```
 | constant          | value             |
 |:------------------|:------------------|
@@ -2099,7 +2411,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{"cashtag":"function()"{"return"{"color":"link","dir":"ltr","link":"h()","ref":"n","text":"$".concat(c.Cashtag,\"$\".concatn.text),"type":"c.Cashtag"}},"hashtag":"function()"{"return"{"color":"link","dir":"l.Z.getTextDirection()","link":"h(n.text)","ref":"n","text":"#".concat(c.Hashtag,\"#\".concatn...
+{"cashtag":"function()"{"return"{"color":"link","dir":"ltr","link":"p()","ref":"n","text":"$".concat(c.Cashtag,\"$\".concatn.text),"type":"c.Cashtag"}},"hashtag":"function()"{"return"{"color":"link","dir":"l.Z.getTextDirection()","link":"p(n.text)","ref":"n","text":"#".concat(c.Hashtag,\"#\".concatn...
 ```
 | constant   | value   |
 |:-----------|:--------|
@@ -2188,7 +2500,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant      | value                                                                                                                                                                                                                  |
 |:--------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| superFollower | {'graphic': 'h.default', 'headline': 'm().e453f536', 'subtext': 'm().bd4cb7a0', 'actionLabel': 'm().g7099a02', 'actionLink': 'https://help.x.com/using-twitter/subscriptions', 'secondaryActionLabel': 'm().c2637ef6'} |
+| superFollower | {'graphic': 'p.default', 'headline': 'm().e453f536', 'subtext': 'm().bd4cb7a0', 'actionLabel': 'm().g7099a02', 'actionLink': 'https://help.x.com/using-twitter/subscriptions', 'secondaryActionLabel': 'm().c2637ef6'} |
 
 | constant        | value        |
 |:----------------|:-------------|
@@ -2335,28 +2647,28 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant   | value               |
 |:-----------|:--------------------|
-| space1     | _.spaces.space1     |
+| space1     | v.spaces.space1     |
 | space2     | f()                 |
-| space4     | f(_.spaces.space2)  |
-| space8     | f(_.spaces.space4)  |
-| space12    | f(_.spaces.space8)  |
-| space16    | f(_.spaces.space12) |
-| space20    | f(_.spaces.space16) |
-| space24    | f(_.spaces.space20) |
-| space28    | f(_.spaces.space24) |
-| space32    | f(_.spaces.space28) |
-| space36    | f(_.spaces.space32) |
-| space40    | f(_.spaces.space36) |
-| space48    | f(_.spaces.space40) |
-| space56    | f(_.spaces.space48) |
-| space64    | f(_.spaces.space56) |
-| space72    | f(_.spaces.space64) |
-| space80    | f(_.spaces.space72) |
+| space4     | f(v.spaces.space2)  |
+| space8     | f(v.spaces.space4)  |
+| space12    | f(v.spaces.space8)  |
+| space16    | f(v.spaces.space12) |
+| space20    | f(v.spaces.space16) |
+| space24    | f(v.spaces.space20) |
+| space28    | f(v.spaces.space24) |
+| space32    | f(v.spaces.space28) |
+| space36    | f(v.spaces.space32) |
+| space40    | f(v.spaces.space36) |
+| space48    | f(v.spaces.space40) |
+| space56    | f(v.spaces.space48) |
+| space64    | f(v.spaces.space56) |
+| space72    | f(v.spaces.space64) |
+| space80    | f(v.spaces.space72) |
 
 | constant              | value     |
 |:----------------------|:----------|
-| appBarHeight          | S         |
-| appBarHeightPx        | k         |
+| appBarHeight          | C         |
+| appBarHeightPx        | S         |
 | conversationLineWidth | y.space2  |
 | gutterHorizontal      | w.space16 |
 | gutterHorizontalPx    | y.space16 |
@@ -2365,22 +2677,22 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant            | value   |
 |:--------------------|:--------|
-| aspectRatios        | s       |
-| baseFontSize        | C       |
+| aspectRatios        | d       |
+| baseFontSize        | A       |
 | borderRadii         | c       |
 | borderRadiiPx       | l       |
 | borderWidths        | m       |
 | borderWidthsPx      | u       |
 | breakpoints         | i       |
 | componentDimensions | M       |
-| componentZIndices   | d       |
-| fontSizes           | A       |
+| componentZIndices   | s       |
+| fontSizes           | k       |
 | fontSizesPx         | D       |
-| fontWeights         | h       |
+| fontWeights         | p       |
 | lineHeights         | g       |
-| lineHeightsPx       | v       |
+| lineHeightsPx       | b       |
 | scales              | r       |
-| scaleMultiplier     | p       |
+| scaleMultiplier     | h       |
 | spaces              | w       |
 | spacesPx            | y       |
 
@@ -2573,140 +2885,6 @@ This document is entirely auto-generated and may contain errors.<br>
 | name       | name    |
 | none       | none    |
 
-| constant    | value       |
-|:------------|:------------|
-| RESIZE      | resize      |
-| UPLOAD      | upload      |
-| METADATA    | metadata    |
-| MAXDURATION | maxduration |
-| MAXSIZE     | maxsize     |
-
-| constant        | value                  |
-|:----------------|:-----------------------|
-| AmplifyVideo    | amplify_video          |
-| CommunityBanner | community_banner_image |
-| ListBanner      | list_banner_image      |
-| TweetImage      | tweet_image            |
-| TweetVideo      | tweet_video            |
-| TweetGif        | tweet_gif              |
-| DMImage         | dm_image               |
-| DMVideo         | dm_video               |
-| DMGif           | dm_gif                 |
-| Subtitles       | subtitles              |
-| ProfileBanner   | banner_image           |
-
-| constant        | value            |
-|:----------------|:-----------------|
-| Tweet           | tweet            |
-| Dm              | dm               |
-| CommunityBanner | community_banner |
-| ListBanner      | list_banner      |
-| ProfileBanner   | profile_banner   |
-| Avatar          | avatar           |
-| Verification    | verification     |
-| TwitterArticle  | twitter_article  |
-
-| constant   | value      |
-|:-----------|:-----------|
-| uploading  | uploading  |
-| processing | processing |
-
-|   constant | value                  |
-|-----------:|:-----------------------|
-|          0 | P.Zk.INTERNAL_ERROR    |
-|          1 | P.Zk.INVALID_MEDIA     |
-|          2 | P.Zk.FILE_TOO_LARGE    |
-|          3 | P.Zk.UNSUPPORTED_MEDIA |
-|          4 | P.Zk.TIMEOUT           |
-
-| constant   |   value |
-|:-----------|--------:|
-| RESET      |       0 |
-| PENDING    |       1 |
-| PAUSED     |       2 |
-| SUCCEEDED  |       3 |
-| FAILED     |       4 |
-
-| constant   | value      |
-|:-----------|:-----------|
-| LocalFile  | local_file |
-| Remote     | remote     |
-
-| constant   | value    |
-|:-----------|:---------|
-| Cancel     | cancel   |
-| Failure    | failure  |
-| Success    | success  |
-| Complete   | complete |
-| Invalid    | invalid  |
-
-| constant   | value       |
-|:-----------|:------------|
-| InProgress | in_progress |
-| Complete   | complete    |
-| Failure    | failure     |
-| Canceled   | canceled    |
-
-| constant                   | value                          |
-|:---------------------------|:-------------------------------|
-| Full                       | full                           |
-| Hash                       | hash                           |
-| Processing                 | processing                     |
-| SruUpload                  | sru_upload                     |
-| UploadSubmitUntilSruFinish | upload_submit_until_sru_finish |
-| Metadata                   | metadata                       |
-
-| constant                   | value                                   |
-|:---------------------------|:----------------------------------------|
-| SruUpload                  | sru_upload_no_eager                     |
-| UploadSubmitUntilSruFinish | upload_submit_until_sru_finish_no_eager |
-
-| constant       | value          |
-|:---------------|:---------------|
-| All            | all            |
-| Short          | short          |
-| Medium         | medium         |
-| Long           | long           |
-| XLong          | xlong          |
-| L90to140s      | l90to140s      |
-| L140to300s     | l140to300s     |
-| L300to600s     | l300to600s     |
-| L600to1200s    | l600to1200s    |
-| L1200to1800s   | l1200to1800s   |
-| L1800to2700s   | l1800to2700s   |
-| L2700to3600s   | l2700to3600s   |
-| L3600to4500s   | l3600to4500s   |
-| L4500to5400s   | l4500to5400s   |
-| L5400to6300s   | l5400to6300s   |
-| L6300to7200s   | l6300to7200s   |
-| L7200to10800s  | l7200to10800s  |
-| L10800to14400s | l10800to14400s |
-| LGT14400s      | lgt14400s      |
-
-| constant     |   value |
-|:-------------|--------:|
-| UNKNOWN      |       0 |
-| TOP_LEFT     |       1 |
-| TOP_RIGHT    |       2 |
-| BOTTOM_RIGHT |       3 |
-| BOTTOM_LEFT  |       4 |
-| LEFT_TOP     |       5 |
-| LEFT_BOTTOM  |       6 |
-| RIGHT_BOTTOM |       7 |
-| RIGHT_TOP    |       8 |
-
-| constant           |   value |
-|:-------------------|--------:|
-| FILE_TOO_LARGE     |       2 |
-| INTERNAL_ERROR     |     131 |
-| INVALID_MEDIA      |       1 |
-| RATE_LIMIT         |      88 |
-| TIMEOUT            |      67 |
-| UNSUPPORTED_MEDIA  |       3 |
-| ZERO_FILE_LENGTH   |       4 |
-| CANCELED           |     999 |
-| INVALID_RES_STATUS |      -1 |
-
 | constant          | value             |
 |:------------------|:------------------|
 | ONE_TO_ONE        | ONE_TO_ONE        |
@@ -2854,6 +3032,140 @@ This document is entirely auto-generated and may contain errors.<br>
 |:-------------|:-------------|
 | CONVERSATION | conversation |
 | MESSAGE      | message      |
+
+| constant    | value       |
+|:------------|:------------|
+| RESIZE      | resize      |
+| UPLOAD      | upload      |
+| METADATA    | metadata    |
+| MAXDURATION | maxduration |
+| MAXSIZE     | maxsize     |
+
+| constant        | value                  |
+|:----------------|:-----------------------|
+| AmplifyVideo    | amplify_video          |
+| CommunityBanner | community_banner_image |
+| ListBanner      | list_banner_image      |
+| TweetImage      | tweet_image            |
+| TweetVideo      | tweet_video            |
+| TweetGif        | tweet_gif              |
+| DMImage         | dm_image               |
+| DMVideo         | dm_video               |
+| DMGif           | dm_gif                 |
+| Subtitles       | subtitles              |
+| ProfileBanner   | banner_image           |
+
+| constant        | value            |
+|:----------------|:-----------------|
+| Tweet           | tweet            |
+| Dm              | dm               |
+| CommunityBanner | community_banner |
+| ListBanner      | list_banner      |
+| ProfileBanner   | profile_banner   |
+| Avatar          | avatar           |
+| Verification    | verification     |
+| TwitterArticle  | twitter_article  |
+
+| constant   | value      |
+|:-----------|:-----------|
+| uploading  | uploading  |
+| processing | processing |
+
+|   constant | value                  |
+|-----------:|:-----------------------|
+|          0 | P.Zk.INTERNAL_ERROR    |
+|          1 | P.Zk.INVALID_MEDIA     |
+|          2 | P.Zk.FILE_TOO_LARGE    |
+|          3 | P.Zk.UNSUPPORTED_MEDIA |
+|          4 | P.Zk.TIMEOUT           |
+
+| constant   |   value |
+|:-----------|--------:|
+| RESET      |       0 |
+| PENDING    |       1 |
+| PAUSED     |       2 |
+| SUCCEEDED  |       3 |
+| FAILED     |       4 |
+
+| constant   | value      |
+|:-----------|:-----------|
+| LocalFile  | local_file |
+| Remote     | remote     |
+
+| constant   | value    |
+|:-----------|:---------|
+| Cancel     | cancel   |
+| Failure    | failure  |
+| Success    | success  |
+| Complete   | complete |
+| Invalid    | invalid  |
+
+| constant   | value       |
+|:-----------|:------------|
+| InProgress | in_progress |
+| Complete   | complete    |
+| Failure    | failure     |
+| Canceled   | canceled    |
+
+| constant                   | value                          |
+|:---------------------------|:-------------------------------|
+| Full                       | full                           |
+| Hash                       | hash                           |
+| Processing                 | processing                     |
+| SruUpload                  | sru_upload                     |
+| UploadSubmitUntilSruFinish | upload_submit_until_sru_finish |
+| Metadata                   | metadata                       |
+
+| constant                   | value                                   |
+|:---------------------------|:----------------------------------------|
+| SruUpload                  | sru_upload_no_eager                     |
+| UploadSubmitUntilSruFinish | upload_submit_until_sru_finish_no_eager |
+
+| constant       | value          |
+|:---------------|:---------------|
+| All            | all            |
+| Short          | short          |
+| Medium         | medium         |
+| Long           | long           |
+| XLong          | xlong          |
+| L90to140s      | l90to140s      |
+| L140to300s     | l140to300s     |
+| L300to600s     | l300to600s     |
+| L600to1200s    | l600to1200s    |
+| L1200to1800s   | l1200to1800s   |
+| L1800to2700s   | l1800to2700s   |
+| L2700to3600s   | l2700to3600s   |
+| L3600to4500s   | l3600to4500s   |
+| L4500to5400s   | l4500to5400s   |
+| L5400to6300s   | l5400to6300s   |
+| L6300to7200s   | l6300to7200s   |
+| L7200to10800s  | l7200to10800s  |
+| L10800to14400s | l10800to14400s |
+| LGT14400s      | lgt14400s      |
+
+| constant     |   value |
+|:-------------|--------:|
+| UNKNOWN      |       0 |
+| TOP_LEFT     |       1 |
+| TOP_RIGHT    |       2 |
+| BOTTOM_RIGHT |       3 |
+| BOTTOM_LEFT  |       4 |
+| LEFT_TOP     |       5 |
+| LEFT_BOTTOM  |       6 |
+| RIGHT_BOTTOM |       7 |
+| RIGHT_TOP    |       8 |
+
+| constant           |   value |
+|:-------------------|--------:|
+| FILE_TOO_LARGE     |       2 |
+| INTERNAL_ERROR     |     131 |
+| INVALID_MEDIA      |       1 |
+| RATE_LIMIT         |      88 |
+| TIMEOUT            |      67 |
+| UNSUPPORTED_MEDIA  |       3 |
+| ZERO_FILE_LENGTH   |       4 |
+| CANCELED           |     999 |
+| INVALID_RES_STATUS |      -1 |
 
 | constant               |   value |
 |:-----------------------|--------:|
@@ -3714,318 +4026,6 @@ This document is entirely auto-generated and may contain errors.<br>
 | CANCELED           |     999 |
 | INVALID_RES_STATUS |      -1 |
 
-| constant         | value               |
-|:-----------------|:--------------------|
-| Abort            | abort               |
-| ChromelessWeb    | chromeless_web_link |
-| Deeplink         | deep_link           |
-| DeeplinkAndAbort | deep_link_and_abort |
-| DeeplinkInPlace  | deep_link_in_place  |
-| Finish           | finish              |
-| Subtask          | subtask             |
-| Task             | task                |
-| Web              | web_link            |
-| WeblinkAndAbort  | web_link_and_abort  |
-
-| constant        | value             |
-|:----------------|:------------------|
-| Allow           | allow             |
-| CancelFlow      | cancel_flow       |
-| HideExplicitCta | hide_explicit_cta |
-| Disallow        | disallow          |
-
-| constant   | value       |
-|:-----------|:------------|
-| Default    | default     |
-| BulletList | bullet_list |
-
-| constant             | value                 |
-|:---------------------|:----------------------|
-| DestructiveSecondary | destructive_secondary |
-| Primary              | primary               |
-| Secondary            | secondary             |
-| Text                 | text                  |
-| Brand                | brand                 |
-| TwitterBrand         | twitter_brand         |
-
-| constant      | value          |
-|:--------------|:---------------|
-| Small         | small          |
-| NormalCompact | normal_compact |
-| Normal        | normal         |
-| LargeCompact  | large_compact  |
-| Large         | large          |
-
-| constant          | value     |
-|:------------------|:----------|
-| CheckmarkAndClose | checkmark |
-| Text              | text      |
-| ThumbsUpAndDown   | thumbs    |
-
-| constant   | value   |
-|:-----------|:--------|
-| Toolbar    | toolbar |
-
-| constant       | value           |
-|:---------------|:----------------|
-| Scrollable     | scrollable      |
-| Centered       | centered        |
-| CenteredHeader | centered_header |
-| HalfCover      | half_cover      |
-
-| constant   | value   |
-|:-----------|:--------|
-| Success    | success |
-| Failure    | failure |
-| Cancel     | cancel  |
-
-| constant     | value          |
-|:-------------|:---------------|
-| Icon         | icon           |
-| FullWidth    | full_width     |
-| FullBleedTop | full_bleed_top |
-
-| constant       | value            |
-|:---------------|:-----------------|
-| PhoneOnly      | phone_only       |
-| EmailOnly      | email_only       |
-| PhoneThenEmail | phone_then_email |
-| EmailThenPhone | email_then_phone |
-
-| constant                         | value                                |
-|:---------------------------------|:-------------------------------------|
-| ActionList                       | ACTION_LIST                          |
-| AlertDialog                      | ALERT_DIALOG                         |
-| AlertDialogSupressClientEvents   | ALERT_DIALOG_SUPRESS_CLIENT_EVENTS   |
-| AppDownloadCTA                   | APP_DOWNLOAD_CTA                     |
-| AppLocaleUpdate                  | APP_LOCALE_UPDATE                    |
-| BrowsableNux                     | BROWSABLE_NUX                        |
-| CallToAction                     | CALL_TO_ACTION                       |
-| CheckLoggedInAccount             | CHECK_LOGGED_IN_ACCOUNT              |
-| ChoiceSelection                  | CHOICE_SELECTION                     |
-| ContactsLiveSyncPermissionPrompt | CONTACTS_LIVE_SYNC_PERMISSION_PROMPT |
-| EmailContactsSync                | EMAIL_CONTACTS_SYNC                  |
-| EmailVerification                | EMAIL_VERIFICATION                   |
-| EndFlow                          | END_FLOW                             |
-| EnterDate                        | ENTER_DATE                           |
-| EnterEmail                       | ENTER_EMAIL                          |
-| EnterPassword                    | ENTER_PASSWORD                       |
-| EnterPhone                       | ENTER_PHONE                          |
-| EnterRecaptcha                   | ENTER_RECAPTCHA                      |
-| EnterText                        | ENTER_TEXT                           |
-| EnterUsername                    | ENTER_USERNAME                       |
-| FetchPassword                    | FETCH_PASSWORD                       |
-| GenericURT                       | GENERIC_URT                          |
-| InAppNotification                | IN_APP_NOTIFICATION                  |
-| InterestPicker                   | INTEREST_PICKER                      |
-| JsInstrumentation                | JS_INSTRUMENTATION                   |
-| MenuDialog                       | MENU_DIALOG                          |
-| NotificationsPermissionPrompt    | NOTIFICATIONS_PERMISSION_PROMPT      |
-| OpenAccount                      | OPEN_ACCOUNT                         |
-| OpenHomeTimeline                 | OPEN_HOME_TIMELINE                   |
-| OpenLink                         | OPEN_LINK                            |
-| Passkey                          | PASSKEY                              |
-| PhoneVerification                | PHONE_VERIFICATION                   |
-| PrivacyOptions                   | PRIVACY_OPTIONS                      |
-| Recaptcha                        | RECAPTCHA                            |
-| SecurityKey                      | SECURITY_KEY                         |
-| SelectAvatar                     | SELECT_AVATAR                        |
-| SelectBanner                     | SELECT_BANNER                        |
-| SettingsList                     | SETTINGS_LIST                        |
-| ShowCode                         | SHOW_CODE                            |
-| Signup                           | SIGNUP                               |
-| SignupReview                     | SIGNUP_REVIEW                        |
-| TopicsSelector                   | TOPICS_SELECTOR                      |
-| TweetSelectionURT                | TWEET_SELECTION_URT                  |
-| TypeaheadSearch                  | TYPEAHEAD_SEARCH                     |
-| UpdateUsers                      | UPDATE_USERS                         |
-| UploadMedia                      | UPLOAD_MEDIA                         |
-| UserRecommendations              | USER_RECOMMENDATIONS_LIST            |
-| UserRecommendationsURT           | USER_RECOMMENDATIONS_URT             |
-| WaitSpinner                      | WAIT_SPINNER                         |
-| WebModal                         | WEB_MODAL                            |
-
-| constant   | value    |
-|:-----------|:---------|
-| Centered   | centered |
-| Left       | left     |
-
-| constant          | value              |
-|:------------------|:-------------------|
-| Action            | action             |
-| Boolean           | boolean            |
-| DestructiveAction | destructive_action |
-| PreciseLocation   | precise_location   |
-| SettingsGroup     | settings_group     |
-| StaticText        | static_text        |
-| Separator         | separator          |
-| TextField         | text_field         |
-| Button            | button             |
-| Tweet             | tweet              |
-
-| constant        | value             |
-|:----------------|:------------------|
-| AppleSSOButton  | apple_sso_button  |
-| GoogleSSOButton | google_sso_button |
-| NextButton      | next_button       |
-| UserIdentifier  | user_identifier   |
-
-| constant                 | value          |
-|:-------------------------|:---------------|
-| DEPRECATED_UnorderedList | UnorderedList  |
-| DEPRECATED_ListItem      | ListItem       |
-| UnorderedList            | unordered_list |
-| ListItem                 | list_item      |
-
-| constant   | value   |
-|:-----------|:--------|
-| Normal     | Normal  |
-| Bold       | Bold    |
-
-| constant   | value   |
-|:-----------|:--------|
-| Small      | Small   |
-| Normal     | Normal  |
-| Large      | Large   |
-| XLarge     | XLarge  |
-| Jumbo      | Jumbo   |
-
-| constant   | value   |
-|:-----------|:--------|
-| Qr         | qr      |
-| Text       | text    |
-
-| constant   | value   |
-|:-----------|:--------|
-| Avatar     | avatar  |
-| Banner     | banner  |
-
-| constant   | value     |
-|:-----------|:----------|
-| Success    | success   |
-| NotFound   | not_found |
-| Error      | error     |
-
-| constant   | value    |
-|:-----------|:---------|
-| Favorite   | favorite |
-| Follow     | follow   |
-| Reply      | reply    |
-| Retweet    | retweet  |
-
-| constant   | value    |
-|:-----------|:---------|
-| Checkbox   | checkbox |
-| Follow     | follow   |
-
-| constant         | value           |
-|:-----------------|:----------------|
-| Tile             | tile            |
-| List             | list            |
-| TileFollowButton | tile_follow_btn |
-
-| constant   | value     |
-|:-----------|:----------|
-| Always     | always    |
-| Never      | never     |
-| Preprompt  | preprompt |
-
-| constant   | value     |
-|:-----------|:----------|
-| Email      | email     |
-| Number     | number    |
-| Password   | password  |
-| Telephone  | telephone |
-| Text       | text      |
-
-| constant    | value        |
-|:------------|:-------------|
-| ResendSms   | resend_sms   |
-| ResendVoice | resend_voice |
-| ResendEmail | resend_email |
-
-| constant    | value        |
-|:------------|:-------------|
-| Password    | password     |
-| NewPassword | new_password |
-| Text        | text         |
-
-| constant   | value   |
-|:-----------|:--------|
-| Normal     | normal  |
-| Compact    | compact |
-
-| constant    | value        |
-|:------------|:-------------|
-| Username    | username     |
-| Password    | password     |
-| NewPassword | new_password |
-| Text        | text         |
-
-| constant   | value    |
-|:-----------|:---------|
-| Mismatch   | mismatch |
-
-| constant   | value   |
-|:-----------|:--------|
-| compact    | compact |
-| stacked    | stacked |
-
-| constant      | value          |
-|:--------------|:---------------|
-| Fixed         | fixed          |
-| Floating      | floating       |
-| FloatingLarge | floating_large |
-
-| constant   | value      |
-|:-----------|:-----------|
-| Default    | default    |
-| GoogleSSO  | google_sso |
-| AppleSSO   | apple_sso  |
-
-| constant   | value      |
-|:-----------|:-----------|
-| Impression | impression |
-| Click      | click      |
-
-| constant       | value           |
-|:---------------|:----------------|
-| HeaderTitle    | header_title    |
-| HeaderSubtitle | header_subtitle |
-| SectionTitle   | section_title   |
-| Detail         | detail          |
-
-| constant   | value   |
-|:-----------|:--------|
-| All        | all     |
-| Users      | users   |
-| Topics     | topics  |
-| Events     | events  |
-
-| constant   | value                  |
-|:-----------|:-----------------------|
-| REQUEST    | rweb/ocf/FETCH_REQUEST |
-| SUCCESS    | rweb/ocf/FETCH_SUCCESS |
-| FAILURE    | rweb/ocf/FETCH_FAILURE |
-
-| constant   | value                  |
-|:-----------|:-----------------------|
-| REQUEST    | rweb/ocf/START_REQUEST |
-| SUCCESS    | rweb/ocf/START_SUCCESS |
-| FAILURE    | rweb/ocf/START_FAILURE |
-
-| constant   | value                              |
-|:-----------|:-----------------------------------|
-| REQUEST    | rweb/ocf/VERIFY_IDENTIFIER_REQUEST |
-| SUCCESS    | rweb/ocf/VERIFY_IDENTIFIER_SUCCESS |
-| FAILURE    | rweb/ocf/VERIFY_IDENTIFIER_FAILURE |
-
-| constant   | value                                                |
-|:-----------|:-----------------------------------------------------|
-| REQUEST    | rweb/ocf/FETCH_BROWSABLE_NUX_RECOMMENDATIONS_REQUEST |
-| SUCCESS    | rweb/ocf/FETCH_BROWSABLE_NUX_RECOMMENDATIONS_SUCCESS |
-| FAILURE    | rweb/ocf/FETCH_BROWSABLE_NUX_RECOMMENDATIONS_FAILURE |
-
 | constant    | value       |
 |:------------|:------------|
 | Draft       | Draft       |
@@ -4430,7 +4430,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{"ActionsBar":"k.Z","ActionMenu":"function()"{"var t=e.Icon",n=e.isDisabled,r=e.items,o=e.onOpen,"i=s.useCallback()"{"return s.createElement()"{"items":"r","onCloseRequested":"e"}}{"Icon":"t","isDisabled":"n","onClick":"o","renderActionMenu":"i"}},"CallToAction":"c.ZP","EditCallout":"T.Z","Education...
+{"ActionsBar":"C.Z","ActionMenu":"function()"{"var t=e.Icon",n=e.isDisabled,r=e.items,o=e.onOpen,"i=s.useCallback()"{"return s.createElement()"{"items":"r","onCloseRequested":"e"}}{"Icon":"t","isDisabled":"n","onClick":"o","renderActionMenu":"i"}},"CallToAction":"c.ZP","EditCallout":"E.Z","Education...
 ```
 | constant     | value        |
 |:-------------|:-------------|
@@ -4746,294 +4746,6 @@ This document is entirely auto-generated and may contain errors.<br>
 | Verification    | verification     |
 | TwitterArticle  | twitter_article  |
 
-| constant         | value               |
-|:-----------------|:--------------------|
-| Abort            | abort               |
-| ChromelessWeb    | chromeless_web_link |
-| Deeplink         | deep_link           |
-| DeeplinkAndAbort | deep_link_and_abort |
-| DeeplinkInPlace  | deep_link_in_place  |
-| Finish           | finish              |
-| Subtask          | subtask             |
-| Task             | task                |
-| Web              | web_link            |
-| WeblinkAndAbort  | web_link_and_abort  |
-
-| constant        | value             |
-|:----------------|:------------------|
-| Allow           | allow             |
-| CancelFlow      | cancel_flow       |
-| HideExplicitCta | hide_explicit_cta |
-| Disallow        | disallow          |
-
-| constant   | value       |
-|:-----------|:------------|
-| Default    | default     |
-| BulletList | bullet_list |
-
-| constant             | value                 |
-|:---------------------|:----------------------|
-| DestructiveSecondary | destructive_secondary |
-| Primary              | primary               |
-| Secondary            | secondary             |
-| Text                 | text                  |
-| Brand                | brand                 |
-| TwitterBrand         | twitter_brand         |
-
-| constant      | value          |
-|:--------------|:---------------|
-| Small         | small          |
-| NormalCompact | normal_compact |
-| Normal        | normal         |
-| LargeCompact  | large_compact  |
-| Large         | large          |
-
-| constant          | value     |
-|:------------------|:----------|
-| CheckmarkAndClose | checkmark |
-| Text              | text      |
-| ThumbsUpAndDown   | thumbs    |
-
-| constant   | value   |
-|:-----------|:--------|
-| Toolbar    | toolbar |
-
-| constant       | value           |
-|:---------------|:----------------|
-| Scrollable     | scrollable      |
-| Centered       | centered        |
-| CenteredHeader | centered_header |
-| HalfCover      | half_cover      |
-
-| constant   | value   |
-|:-----------|:--------|
-| Success    | success |
-| Failure    | failure |
-| Cancel     | cancel  |
-
-| constant     | value          |
-|:-------------|:---------------|
-| Icon         | icon           |
-| FullWidth    | full_width     |
-| FullBleedTop | full_bleed_top |
-
-| constant       | value            |
-|:---------------|:-----------------|
-| PhoneOnly      | phone_only       |
-| EmailOnly      | email_only       |
-| PhoneThenEmail | phone_then_email |
-| EmailThenPhone | email_then_phone |
-
-| constant                         | value                                |
-|:---------------------------------|:-------------------------------------|
-| ActionList                       | ACTION_LIST                          |
-| AlertDialog                      | ALERT_DIALOG                         |
-| AlertDialogSupressClientEvents   | ALERT_DIALOG_SUPRESS_CLIENT_EVENTS   |
-| AppDownloadCTA                   | APP_DOWNLOAD_CTA                     |
-| AppLocaleUpdate                  | APP_LOCALE_UPDATE                    |
-| BrowsableNux                     | BROWSABLE_NUX                        |
-| CallToAction                     | CALL_TO_ACTION                       |
-| CheckLoggedInAccount             | CHECK_LOGGED_IN_ACCOUNT              |
-| ChoiceSelection                  | CHOICE_SELECTION                     |
-| ContactsLiveSyncPermissionPrompt | CONTACTS_LIVE_SYNC_PERMISSION_PROMPT |
-| EmailContactsSync                | EMAIL_CONTACTS_SYNC                  |
-| EmailVerification                | EMAIL_VERIFICATION                   |
-| EndFlow                          | END_FLOW                             |
-| EnterDate                        | ENTER_DATE                           |
-| EnterEmail                       | ENTER_EMAIL                          |
-| EnterPassword                    | ENTER_PASSWORD                       |
-| EnterPhone                       | ENTER_PHONE                          |
-| EnterRecaptcha                   | ENTER_RECAPTCHA                      |
-| EnterText                        | ENTER_TEXT                           |
-| EnterUsername                    | ENTER_USERNAME                       |
-| FetchPassword                    | FETCH_PASSWORD                       |
-| GenericURT                       | GENERIC_URT                          |
-| InAppNotification                | IN_APP_NOTIFICATION                  |
-| InterestPicker                   | INTEREST_PICKER                      |
-| JsInstrumentation                | JS_INSTRUMENTATION                   |
-| MenuDialog                       | MENU_DIALOG                          |
-| NotificationsPermissionPrompt    | NOTIFICATIONS_PERMISSION_PROMPT      |
-| OpenAccount                      | OPEN_ACCOUNT                         |
-| OpenHomeTimeline                 | OPEN_HOME_TIMELINE                   |
-| OpenLink                         | OPEN_LINK                            |
-| Passkey                          | PASSKEY                              |
-| PhoneVerification                | PHONE_VERIFICATION                   |
-| PrivacyOptions                   | PRIVACY_OPTIONS                      |
-| Recaptcha                        | RECAPTCHA                            |
-| SecurityKey                      | SECURITY_KEY                         |
-| SelectAvatar                     | SELECT_AVATAR                        |
-| SelectBanner                     | SELECT_BANNER                        |
-| SettingsList                     | SETTINGS_LIST                        |
-| ShowCode                         | SHOW_CODE                            |
-| Signup                           | SIGNUP                               |
-| SignupReview                     | SIGNUP_REVIEW                        |
-| TopicsSelector                   | TOPICS_SELECTOR                      |
-| TweetSelectionURT                | TWEET_SELECTION_URT                  |
-| TypeaheadSearch                  | TYPEAHEAD_SEARCH                     |
-| UpdateUsers                      | UPDATE_USERS                         |
-| UploadMedia                      | UPLOAD_MEDIA                         |
-| UserRecommendations              | USER_RECOMMENDATIONS_LIST            |
-| UserRecommendationsURT           | USER_RECOMMENDATIONS_URT             |
-| WaitSpinner                      | WAIT_SPINNER                         |
-| WebModal                         | WEB_MODAL                            |
-
-| constant   | value    |
-|:-----------|:---------|
-| Centered   | centered |
-| Left       | left     |
-
-| constant          | value              |
-|:------------------|:-------------------|
-| Action            | action             |
-| Boolean           | boolean            |
-| DestructiveAction | destructive_action |
-| PreciseLocation   | precise_location   |
-| SettingsGroup     | settings_group     |
-| StaticText        | static_text        |
-| Separator         | separator          |
-| TextField         | text_field         |
-| Button            | button             |
-| Tweet             | tweet              |
-
-| constant        | value             |
-|:----------------|:------------------|
-| AppleSSOButton  | apple_sso_button  |
-| GoogleSSOButton | google_sso_button |
-| NextButton      | next_button       |
-| UserIdentifier  | user_identifier   |
-
-| constant                 | value          |
-|:-------------------------|:---------------|
-| DEPRECATED_UnorderedList | UnorderedList  |
-| DEPRECATED_ListItem      | ListItem       |
-| UnorderedList            | unordered_list |
-| ListItem                 | list_item      |
-
-| constant   | value   |
-|:-----------|:--------|
-| Normal     | Normal  |
-| Bold       | Bold    |
-
-| constant   | value   |
-|:-----------|:--------|
-| Small      | Small   |
-| Normal     | Normal  |
-| Large      | Large   |
-| XLarge     | XLarge  |
-| Jumbo      | Jumbo   |
-
-| constant   | value   |
-|:-----------|:--------|
-| Qr         | qr      |
-| Text       | text    |
-
-| constant   | value   |
-|:-----------|:--------|
-| Avatar     | avatar  |
-| Banner     | banner  |
-
-| constant   | value     |
-|:-----------|:----------|
-| Success    | success   |
-| NotFound   | not_found |
-| Error      | error     |
-
-| constant   | value    |
-|:-----------|:---------|
-| Favorite   | favorite |
-| Follow     | follow   |
-| Reply      | reply    |
-| Retweet    | retweet  |
-
-| constant   | value    |
-|:-----------|:---------|
-| Checkbox   | checkbox |
-| Follow     | follow   |
-
-| constant         | value           |
-|:-----------------|:----------------|
-| Tile             | tile            |
-| List             | list            |
-| TileFollowButton | tile_follow_btn |
-
-| constant   | value     |
-|:-----------|:----------|
-| Always     | always    |
-| Never      | never     |
-| Preprompt  | preprompt |
-
-| constant   | value     |
-|:-----------|:----------|
-| Email      | email     |
-| Number     | number    |
-| Password   | password  |
-| Telephone  | telephone |
-| Text       | text      |
-
-| constant    | value        |
-|:------------|:-------------|
-| ResendSms   | resend_sms   |
-| ResendVoice | resend_voice |
-| ResendEmail | resend_email |
-
-| constant    | value        |
-|:------------|:-------------|
-| Password    | password     |
-| NewPassword | new_password |
-| Text        | text         |
-
-| constant   | value   |
-|:-----------|:--------|
-| Normal     | normal  |
-| Compact    | compact |
-
-| constant    | value        |
-|:------------|:-------------|
-| Username    | username     |
-| Password    | password     |
-| NewPassword | new_password |
-| Text        | text         |
-
-| constant   | value    |
-|:-----------|:---------|
-| Mismatch   | mismatch |
-
-| constant   | value   |
-|:-----------|:--------|
-| compact    | compact |
-| stacked    | stacked |
-
-| constant      | value          |
-|:--------------|:---------------|
-| Fixed         | fixed          |
-| Floating      | floating       |
-| FloatingLarge | floating_large |
-
-| constant   | value      |
-|:-----------|:-----------|
-| Default    | default    |
-| GoogleSSO  | google_sso |
-| AppleSSO   | apple_sso  |
-
-| constant   | value      |
-|:-----------|:-----------|
-| Impression | impression |
-| Click      | click      |
-
-| constant       | value           |
-|:---------------|:----------------|
-| HeaderTitle    | header_title    |
-| HeaderSubtitle | header_subtitle |
-| SectionTitle   | section_title   |
-| Detail         | detail          |
-
-| constant   | value   |
-|:-----------|:--------|
-| All        | all     |
-| Users      | users   |
-| Topics     | topics  |
-| Events     | events  |
-
 | constant   | value      |
 |:-----------|:-----------|
 | uploading  | uploading  |
@@ -5041,11 +4753,11 @@ This document is entirely auto-generated and may contain errors.<br>
 
 |   constant | value                  |
 |-----------:|:-----------------------|
-|          0 | k.Zk.INTERNAL_ERROR    |
-|          1 | k.Zk.INVALID_MEDIA     |
-|          2 | k.Zk.FILE_TOO_LARGE    |
-|          3 | k.Zk.UNSUPPORTED_MEDIA |
-|          4 | k.Zk.TIMEOUT           |
+|          0 | T.Zk.INTERNAL_ERROR    |
+|          1 | T.Zk.INVALID_MEDIA     |
+|          2 | T.Zk.FILE_TOO_LARGE    |
+|          3 | T.Zk.UNSUPPORTED_MEDIA |
+|          4 | T.Zk.TIMEOUT           |
 
 | constant   |   value |
 |:-----------|--------:|
@@ -5110,30 +4822,6 @@ This document is entirely auto-generated and may contain errors.<br>
 | L7200to10800s  | l7200to10800s  |
 | L10800to14400s | l10800to14400s |
 | LGT14400s      | lgt14400s      |
-
-| constant   | value                  |
-|:-----------|:-----------------------|
-| REQUEST    | rweb/ocf/FETCH_REQUEST |
-| SUCCESS    | rweb/ocf/FETCH_SUCCESS |
-| FAILURE    | rweb/ocf/FETCH_FAILURE |
-
-| constant   | value                  |
-|:-----------|:-----------------------|
-| REQUEST    | rweb/ocf/START_REQUEST |
-| SUCCESS    | rweb/ocf/START_SUCCESS |
-| FAILURE    | rweb/ocf/START_FAILURE |
-
-| constant   | value                              |
-|:-----------|:-----------------------------------|
-| REQUEST    | rweb/ocf/VERIFY_IDENTIFIER_REQUEST |
-| SUCCESS    | rweb/ocf/VERIFY_IDENTIFIER_SUCCESS |
-| FAILURE    | rweb/ocf/VERIFY_IDENTIFIER_FAILURE |
-
-| constant   | value                                                |
-|:-----------|:-----------------------------------------------------|
-| REQUEST    | rweb/ocf/FETCH_BROWSABLE_NUX_RECOMMENDATIONS_REQUEST |
-| SUCCESS    | rweb/ocf/FETCH_BROWSABLE_NUX_RECOMMENDATIONS_SUCCESS |
-| FAILURE    | rweb/ocf/FETCH_BROWSABLE_NUX_RECOMMENDATIONS_FAILURE |
 
 | constant   | value                                           |
 |:-----------|:------------------------------------------------|
@@ -5337,294 +5025,6 @@ This document is entirely auto-generated and may contain errors.<br>
 | Verification    | verification     |
 | TwitterArticle  | twitter_article  |
 
-| constant         | value               |
-|:-----------------|:--------------------|
-| Abort            | abort               |
-| ChromelessWeb    | chromeless_web_link |
-| Deeplink         | deep_link           |
-| DeeplinkAndAbort | deep_link_and_abort |
-| DeeplinkInPlace  | deep_link_in_place  |
-| Finish           | finish              |
-| Subtask          | subtask             |
-| Task             | task                |
-| Web              | web_link            |
-| WeblinkAndAbort  | web_link_and_abort  |
-
-| constant        | value             |
-|:----------------|:------------------|
-| Allow           | allow             |
-| CancelFlow      | cancel_flow       |
-| HideExplicitCta | hide_explicit_cta |
-| Disallow        | disallow          |
-
-| constant   | value       |
-|:-----------|:------------|
-| Default    | default     |
-| BulletList | bullet_list |
-
-| constant             | value                 |
-|:---------------------|:----------------------|
-| DestructiveSecondary | destructive_secondary |
-| Primary              | primary               |
-| Secondary            | secondary             |
-| Text                 | text                  |
-| Brand                | brand                 |
-| TwitterBrand         | twitter_brand         |
-
-| constant      | value          |
-|:--------------|:---------------|
-| Small         | small          |
-| NormalCompact | normal_compact |
-| Normal        | normal         |
-| LargeCompact  | large_compact  |
-| Large         | large          |
-
-| constant          | value     |
-|:------------------|:----------|
-| CheckmarkAndClose | checkmark |
-| Text              | text      |
-| ThumbsUpAndDown   | thumbs    |
-
-| constant   | value   |
-|:-----------|:--------|
-| Toolbar    | toolbar |
-
-| constant       | value           |
-|:---------------|:----------------|
-| Scrollable     | scrollable      |
-| Centered       | centered        |
-| CenteredHeader | centered_header |
-| HalfCover      | half_cover      |
-
-| constant   | value   |
-|:-----------|:--------|
-| Success    | success |
-| Failure    | failure |
-| Cancel     | cancel  |
-
-| constant     | value          |
-|:-------------|:---------------|
-| Icon         | icon           |
-| FullWidth    | full_width     |
-| FullBleedTop | full_bleed_top |
-
-| constant       | value            |
-|:---------------|:-----------------|
-| PhoneOnly      | phone_only       |
-| EmailOnly      | email_only       |
-| PhoneThenEmail | phone_then_email |
-| EmailThenPhone | email_then_phone |
-
-| constant                         | value                                |
-|:---------------------------------|:-------------------------------------|
-| ActionList                       | ACTION_LIST                          |
-| AlertDialog                      | ALERT_DIALOG                         |
-| AlertDialogSupressClientEvents   | ALERT_DIALOG_SUPRESS_CLIENT_EVENTS   |
-| AppDownloadCTA                   | APP_DOWNLOAD_CTA                     |
-| AppLocaleUpdate                  | APP_LOCALE_UPDATE                    |
-| BrowsableNux                     | BROWSABLE_NUX                        |
-| CallToAction                     | CALL_TO_ACTION                       |
-| CheckLoggedInAccount             | CHECK_LOGGED_IN_ACCOUNT              |
-| ChoiceSelection                  | CHOICE_SELECTION                     |
-| ContactsLiveSyncPermissionPrompt | CONTACTS_LIVE_SYNC_PERMISSION_PROMPT |
-| EmailContactsSync                | EMAIL_CONTACTS_SYNC                  |
-| EmailVerification                | EMAIL_VERIFICATION                   |
-| EndFlow                          | END_FLOW                             |
-| EnterDate                        | ENTER_DATE                           |
-| EnterEmail                       | ENTER_EMAIL                          |
-| EnterPassword                    | ENTER_PASSWORD                       |
-| EnterPhone                       | ENTER_PHONE                          |
-| EnterRecaptcha                   | ENTER_RECAPTCHA                      |
-| EnterText                        | ENTER_TEXT                           |
-| EnterUsername                    | ENTER_USERNAME                       |
-| FetchPassword                    | FETCH_PASSWORD                       |
-| GenericURT                       | GENERIC_URT                          |
-| InAppNotification                | IN_APP_NOTIFICATION                  |
-| InterestPicker                   | INTEREST_PICKER                      |
-| JsInstrumentation                | JS_INSTRUMENTATION                   |
-| MenuDialog                       | MENU_DIALOG                          |
-| NotificationsPermissionPrompt    | NOTIFICATIONS_PERMISSION_PROMPT      |
-| OpenAccount                      | OPEN_ACCOUNT                         |
-| OpenHomeTimeline                 | OPEN_HOME_TIMELINE                   |
-| OpenLink                         | OPEN_LINK                            |
-| Passkey                          | PASSKEY                              |
-| PhoneVerification                | PHONE_VERIFICATION                   |
-| PrivacyOptions                   | PRIVACY_OPTIONS                      |
-| Recaptcha                        | RECAPTCHA                            |
-| SecurityKey                      | SECURITY_KEY                         |
-| SelectAvatar                     | SELECT_AVATAR                        |
-| SelectBanner                     | SELECT_BANNER                        |
-| SettingsList                     | SETTINGS_LIST                        |
-| ShowCode                         | SHOW_CODE                            |
-| Signup                           | SIGNUP                               |
-| SignupReview                     | SIGNUP_REVIEW                        |
-| TopicsSelector                   | TOPICS_SELECTOR                      |
-| TweetSelectionURT                | TWEET_SELECTION_URT                  |
-| TypeaheadSearch                  | TYPEAHEAD_SEARCH                     |
-| UpdateUsers                      | UPDATE_USERS                         |
-| UploadMedia                      | UPLOAD_MEDIA                         |
-| UserRecommendations              | USER_RECOMMENDATIONS_LIST            |
-| UserRecommendationsURT           | USER_RECOMMENDATIONS_URT             |
-| WaitSpinner                      | WAIT_SPINNER                         |
-| WebModal                         | WEB_MODAL                            |
-
-| constant   | value    |
-|:-----------|:---------|
-| Centered   | centered |
-| Left       | left     |
-
-| constant          | value              |
-|:------------------|:-------------------|
-| Action            | action             |
-| Boolean           | boolean            |
-| DestructiveAction | destructive_action |
-| PreciseLocation   | precise_location   |
-| SettingsGroup     | settings_group     |
-| StaticText        | static_text        |
-| Separator         | separator          |
-| TextField         | text_field         |
-| Button            | button             |
-| Tweet             | tweet              |
-
-| constant        | value             |
-|:----------------|:------------------|
-| AppleSSOButton  | apple_sso_button  |
-| GoogleSSOButton | google_sso_button |
-| NextButton      | next_button       |
-| UserIdentifier  | user_identifier   |
-
-| constant                 | value          |
-|:-------------------------|:---------------|
-| DEPRECATED_UnorderedList | UnorderedList  |
-| DEPRECATED_ListItem      | ListItem       |
-| UnorderedList            | unordered_list |
-| ListItem                 | list_item      |
-
-| constant   | value   |
-|:-----------|:--------|
-| Normal     | Normal  |
-| Bold       | Bold    |
-
-| constant   | value   |
-|:-----------|:--------|
-| Small      | Small   |
-| Normal     | Normal  |
-| Large      | Large   |
-| XLarge     | XLarge  |
-| Jumbo      | Jumbo   |
-
-| constant   | value   |
-|:-----------|:--------|
-| Qr         | qr      |
-| Text       | text    |
-
-| constant   | value   |
-|:-----------|:--------|
-| Avatar     | avatar  |
-| Banner     | banner  |
-
-| constant   | value     |
-|:-----------|:----------|
-| Success    | success   |
-| NotFound   | not_found |
-| Error      | error     |
-
-| constant   | value    |
-|:-----------|:---------|
-| Favorite   | favorite |
-| Follow     | follow   |
-| Reply      | reply    |
-| Retweet    | retweet  |
-
-| constant   | value    |
-|:-----------|:---------|
-| Checkbox   | checkbox |
-| Follow     | follow   |
-
-| constant         | value           |
-|:-----------------|:----------------|
-| Tile             | tile            |
-| List             | list            |
-| TileFollowButton | tile_follow_btn |
-
-| constant   | value     |
-|:-----------|:----------|
-| Always     | always    |
-| Never      | never     |
-| Preprompt  | preprompt |
-
-| constant   | value     |
-|:-----------|:----------|
-| Email      | email     |
-| Number     | number    |
-| Password   | password  |
-| Telephone  | telephone |
-| Text       | text      |
-
-| constant    | value        |
-|:------------|:-------------|
-| ResendSms   | resend_sms   |
-| ResendVoice | resend_voice |
-| ResendEmail | resend_email |
-
-| constant    | value        |
-|:------------|:-------------|
-| Password    | password     |
-| NewPassword | new_password |
-| Text        | text         |
-
-| constant   | value   |
-|:-----------|:--------|
-| Normal     | normal  |
-| Compact    | compact |
-
-| constant    | value        |
-|:------------|:-------------|
-| Username    | username     |
-| Password    | password     |
-| NewPassword | new_password |
-| Text        | text         |
-
-| constant   | value    |
-|:-----------|:---------|
-| Mismatch   | mismatch |
-
-| constant   | value   |
-|:-----------|:--------|
-| compact    | compact |
-| stacked    | stacked |
-
-| constant      | value          |
-|:--------------|:---------------|
-| Fixed         | fixed          |
-| Floating      | floating       |
-| FloatingLarge | floating_large |
-
-| constant   | value      |
-|:-----------|:-----------|
-| Default    | default    |
-| GoogleSSO  | google_sso |
-| AppleSSO   | apple_sso  |
-
-| constant   | value      |
-|:-----------|:-----------|
-| Impression | impression |
-| Click      | click      |
-
-| constant       | value           |
-|:---------------|:----------------|
-| HeaderTitle    | header_title    |
-| HeaderSubtitle | header_subtitle |
-| SectionTitle   | section_title   |
-| Detail         | detail          |
-
-| constant   | value   |
-|:-----------|:--------|
-| All        | all     |
-| Users      | users   |
-| Topics     | topics  |
-| Events     | events  |
-
 | constant   | value     |
 |:-----------|:----------|
 | DISMISSED  | dismissed |
@@ -5651,11 +5051,11 @@ This document is entirely auto-generated and may contain errors.<br>
 
 |   constant | value                  |
 |-----------:|:-----------------------|
-|          0 | P.Zk.INTERNAL_ERROR    |
-|          1 | P.Zk.INVALID_MEDIA     |
-|          2 | P.Zk.FILE_TOO_LARGE    |
-|          3 | P.Zk.UNSUPPORTED_MEDIA |
-|          4 | P.Zk.TIMEOUT           |
+|          0 | I.Zk.INTERNAL_ERROR    |
+|          1 | I.Zk.INVALID_MEDIA     |
+|          2 | I.Zk.FILE_TOO_LARGE    |
+|          3 | I.Zk.UNSUPPORTED_MEDIA |
+|          4 | I.Zk.TIMEOUT           |
 
 | constant   |   value |
 |:-----------|--------:|
@@ -5720,30 +5120,6 @@ This document is entirely auto-generated and may contain errors.<br>
 | L7200to10800s  | l7200to10800s  |
 | L10800to14400s | l10800to14400s |
 | LGT14400s      | lgt14400s      |
-
-| constant   | value                  |
-|:-----------|:-----------------------|
-| REQUEST    | rweb/ocf/FETCH_REQUEST |
-| SUCCESS    | rweb/ocf/FETCH_SUCCESS |
-| FAILURE    | rweb/ocf/FETCH_FAILURE |
-
-| constant   | value                  |
-|:-----------|:-----------------------|
-| REQUEST    | rweb/ocf/START_REQUEST |
-| SUCCESS    | rweb/ocf/START_SUCCESS |
-| FAILURE    | rweb/ocf/START_FAILURE |
-
-| constant   | value                              |
-|:-----------|:-----------------------------------|
-| REQUEST    | rweb/ocf/VERIFY_IDENTIFIER_REQUEST |
-| SUCCESS    | rweb/ocf/VERIFY_IDENTIFIER_SUCCESS |
-| FAILURE    | rweb/ocf/VERIFY_IDENTIFIER_FAILURE |
-
-| constant   | value                                                |
-|:-----------|:-----------------------------------------------------|
-| REQUEST    | rweb/ocf/FETCH_BROWSABLE_NUX_RECOMMENDATIONS_REQUEST |
-| SUCCESS    | rweb/ocf/FETCH_BROWSABLE_NUX_RECOMMENDATIONS_SUCCESS |
-| FAILURE    | rweb/ocf/FETCH_BROWSABLE_NUX_RECOMMENDATIONS_FAILURE |
 
 | constant   | value                                                                |
 |:-----------|:---------------------------------------------------------------------|
@@ -6056,39 +5432,6 @@ This document is entirely auto-generated and may contain errors.<br>
 | success    | {'aria-live': 'polite'}    |
 | warning    | {'aria-live': 'polite'}    |
 
-| constant    | value       |
-|:------------|:------------|
-| RESIZE      | resize      |
-| UPLOAD      | upload      |
-| METADATA    | metadata    |
-| MAXDURATION | maxduration |
-| MAXSIZE     | maxsize     |
-
-| constant        | value                  |
-|:----------------|:-----------------------|
-| AmplifyVideo    | amplify_video          |
-| CommunityBanner | community_banner_image |
-| ListBanner      | list_banner_image      |
-| TweetImage      | tweet_image            |
-| TweetVideo      | tweet_video            |
-| TweetGif        | tweet_gif              |
-| DMImage         | dm_image               |
-| DMVideo         | dm_video               |
-| DMGif           | dm_gif                 |
-| Subtitles       | subtitles              |
-| ProfileBanner   | banner_image           |
-
-| constant        | value            |
-|:----------------|:-----------------|
-| Tweet           | tweet            |
-| Dm              | dm               |
-| CommunityBanner | community_banner |
-| ListBanner      | list_banner      |
-| ProfileBanner   | profile_banner   |
-| Avatar          | avatar           |
-| Verification    | verification     |
-| TwitterArticle  | twitter_article  |
-
 | constant    | value                 |
 |:------------|:----------------------|
 | X_BACKEND   | X_BACKEND             |
@@ -6196,83 +5539,6 @@ This document is entirely auto-generated and may contain errors.<br>
 | HUMAN      |       1 |
 | ASSISTANT  |       2 |
 
-| constant   | value      |
-|:-----------|:-----------|
-| uploading  | uploading  |
-| processing | processing |
-
-|   constant | value                  |
-|-----------:|:-----------------------|
-|          0 | R.Zk.INTERNAL_ERROR    |
-|          1 | R.Zk.INVALID_MEDIA     |
-|          2 | R.Zk.FILE_TOO_LARGE    |
-|          3 | R.Zk.UNSUPPORTED_MEDIA |
-|          4 | R.Zk.TIMEOUT           |
-
-| constant   |   value |
-|:-----------|--------:|
-| RESET      |       0 |
-| PENDING    |       1 |
-| PAUSED     |       2 |
-| SUCCEEDED  |       3 |
-| FAILED     |       4 |
-
-| constant   | value      |
-|:-----------|:-----------|
-| LocalFile  | local_file |
-| Remote     | remote     |
-
-| constant   | value    |
-|:-----------|:---------|
-| Cancel     | cancel   |
-| Failure    | failure  |
-| Success    | success  |
-| Complete   | complete |
-| Invalid    | invalid  |
-
-| constant   | value       |
-|:-----------|:------------|
-| InProgress | in_progress |
-| Complete   | complete    |
-| Failure    | failure     |
-| Canceled   | canceled    |
-
-| constant                   | value                          |
-|:---------------------------|:-------------------------------|
-| Full                       | full                           |
-| Hash                       | hash                           |
-| Processing                 | processing                     |
-| SruUpload                  | sru_upload                     |
-| UploadSubmitUntilSruFinish | upload_submit_until_sru_finish |
-| Metadata                   | metadata                       |
-
-| constant                   | value                                   |
-|:---------------------------|:----------------------------------------|
-| SruUpload                  | sru_upload_no_eager                     |
-| UploadSubmitUntilSruFinish | upload_submit_until_sru_finish_no_eager |
-
-| constant       | value          |
-|:---------------|:---------------|
-| All            | all            |
-| Short          | short          |
-| Medium         | medium         |
-| Long           | long           |
-| XLong          | xlong          |
-| L90to140s      | l90to140s      |
-| L140to300s     | l140to300s     |
-| L300to600s     | l300to600s     |
-| L600to1200s    | l600to1200s    |
-| L1200to1800s   | l1200to1800s   |
-| L1800to2700s   | l1800to2700s   |
-| L2700to3600s   | l2700to3600s   |
-| L3600to4500s   | l3600to4500s   |
-| L4500to5400s   | l4500to5400s   |
-| L5400to6300s   | l5400to6300s   |
-| L6300to7200s   | l6300to7200s   |
-| L7200to10800s  | l7200to10800s  |
-| L10800to14400s | l10800to14400s |
-| LGT14400s      | lgt14400s      |
-
 | constant              | value                    |
 |:----------------------|:-------------------------|
 | CodeExecution         | code_execution           |
@@ -6297,482 +5563,12 @@ This document is entirely auto-generated and may contain errors.<br>
 | CallCryptoApi         | call_crypto_api          |
 | CallWeatherApi        | call_weather_api         |
 
-| constant     |   value |
-|:-------------|--------:|
-| UNKNOWN      |       0 |
-| TOP_LEFT     |       1 |
-| TOP_RIGHT    |       2 |
-| BOTTOM_RIGHT |       3 |
-| BOTTOM_LEFT  |       4 |
-| LEFT_TOP     |       5 |
-| LEFT_BOTTOM  |       6 |
-| RIGHT_BOTTOM |       7 |
-| RIGHT_TOP    |       8 |
-
-| constant           |   value |
-|:-------------------|--------:|
-| FILE_TOO_LARGE     |       2 |
-| INTERNAL_ERROR     |     131 |
-| INVALID_MEDIA      |       1 |
-| RATE_LIMIT         |      88 |
-| TIMEOUT            |      67 |
-| UNSUPPORTED_MEDIA  |       3 |
-| ZERO_FILE_LENGTH   |       4 |
-| CANCELED           |     999 |
-| INVALID_RES_STATUS |      -1 |
-
-| constant         | value               |
-|:-----------------|:--------------------|
-| Abort            | abort               |
-| ChromelessWeb    | chromeless_web_link |
-| Deeplink         | deep_link           |
-| DeeplinkAndAbort | deep_link_and_abort |
-| DeeplinkInPlace  | deep_link_in_place  |
-| Finish           | finish              |
-| Subtask          | subtask             |
-| Task             | task                |
-| Web              | web_link            |
-| WeblinkAndAbort  | web_link_and_abort  |
-
-| constant        | value             |
-|:----------------|:------------------|
-| Allow           | allow             |
-| CancelFlow      | cancel_flow       |
-| HideExplicitCta | hide_explicit_cta |
-| Disallow        | disallow          |
-
-| constant   | value       |
-|:-----------|:------------|
-| Default    | default     |
-| BulletList | bullet_list |
-
-| constant             | value                 |
-|:---------------------|:----------------------|
-| DestructiveSecondary | destructive_secondary |
-| Primary              | primary               |
-| Secondary            | secondary             |
-| Text                 | text                  |
-| Brand                | brand                 |
-| TwitterBrand         | twitter_brand         |
-
-| constant      | value          |
-|:--------------|:---------------|
-| Small         | small          |
-| NormalCompact | normal_compact |
-| Normal        | normal         |
-| LargeCompact  | large_compact  |
-| Large         | large          |
-
-| constant          | value     |
-|:------------------|:----------|
-| CheckmarkAndClose | checkmark |
-| Text              | text      |
-| ThumbsUpAndDown   | thumbs    |
-
-| constant   | value   |
-|:-----------|:--------|
-| Toolbar    | toolbar |
-
-| constant       | value           |
-|:---------------|:----------------|
-| Scrollable     | scrollable      |
-| Centered       | centered        |
-| CenteredHeader | centered_header |
-| HalfCover      | half_cover      |
-
-| constant   | value   |
-|:-----------|:--------|
-| Success    | success |
-| Failure    | failure |
-| Cancel     | cancel  |
-
-| constant     | value          |
-|:-------------|:---------------|
-| Icon         | icon           |
-| FullWidth    | full_width     |
-| FullBleedTop | full_bleed_top |
-
-| constant       | value            |
-|:---------------|:-----------------|
-| PhoneOnly      | phone_only       |
-| EmailOnly      | email_only       |
-| PhoneThenEmail | phone_then_email |
-| EmailThenPhone | email_then_phone |
-
-| constant                         | value                                |
-|:---------------------------------|:-------------------------------------|
-| ActionList                       | ACTION_LIST                          |
-| AlertDialog                      | ALERT_DIALOG                         |
-| AlertDialogSupressClientEvents   | ALERT_DIALOG_SUPRESS_CLIENT_EVENTS   |
-| AppDownloadCTA                   | APP_DOWNLOAD_CTA                     |
-| AppLocaleUpdate                  | APP_LOCALE_UPDATE                    |
-| BrowsableNux                     | BROWSABLE_NUX                        |
-| CallToAction                     | CALL_TO_ACTION                       |
-| CheckLoggedInAccount             | CHECK_LOGGED_IN_ACCOUNT              |
-| ChoiceSelection                  | CHOICE_SELECTION                     |
-| ContactsLiveSyncPermissionPrompt | CONTACTS_LIVE_SYNC_PERMISSION_PROMPT |
-| EmailContactsSync                | EMAIL_CONTACTS_SYNC                  |
-| EmailVerification                | EMAIL_VERIFICATION                   |
-| EndFlow                          | END_FLOW                             |
-| EnterDate                        | ENTER_DATE                           |
-| EnterEmail                       | ENTER_EMAIL                          |
-| EnterPassword                    | ENTER_PASSWORD                       |
-| EnterPhone                       | ENTER_PHONE                          |
-| EnterRecaptcha                   | ENTER_RECAPTCHA                      |
-| EnterText                        | ENTER_TEXT                           |
-| EnterUsername                    | ENTER_USERNAME                       |
-| FetchPassword                    | FETCH_PASSWORD                       |
-| GenericURT                       | GENERIC_URT                          |
-| InAppNotification                | IN_APP_NOTIFICATION                  |
-| InterestPicker                   | INTEREST_PICKER                      |
-| JsInstrumentation                | JS_INSTRUMENTATION                   |
-| MenuDialog                       | MENU_DIALOG                          |
-| NotificationsPermissionPrompt    | NOTIFICATIONS_PERMISSION_PROMPT      |
-| OpenAccount                      | OPEN_ACCOUNT                         |
-| OpenHomeTimeline                 | OPEN_HOME_TIMELINE                   |
-| OpenLink                         | OPEN_LINK                            |
-| Passkey                          | PASSKEY                              |
-| PhoneVerification                | PHONE_VERIFICATION                   |
-| PrivacyOptions                   | PRIVACY_OPTIONS                      |
-| Recaptcha                        | RECAPTCHA                            |
-| SecurityKey                      | SECURITY_KEY                         |
-| SelectAvatar                     | SELECT_AVATAR                        |
-| SelectBanner                     | SELECT_BANNER                        |
-| SettingsList                     | SETTINGS_LIST                        |
-| ShowCode                         | SHOW_CODE                            |
-| Signup                           | SIGNUP                               |
-| SignupReview                     | SIGNUP_REVIEW                        |
-| TopicsSelector                   | TOPICS_SELECTOR                      |
-| TweetSelectionURT                | TWEET_SELECTION_URT                  |
-| TypeaheadSearch                  | TYPEAHEAD_SEARCH                     |
-| UpdateUsers                      | UPDATE_USERS                         |
-| UploadMedia                      | UPLOAD_MEDIA                         |
-| UserRecommendations              | USER_RECOMMENDATIONS_LIST            |
-| UserRecommendationsURT           | USER_RECOMMENDATIONS_URT             |
-| WaitSpinner                      | WAIT_SPINNER                         |
-| WebModal                         | WEB_MODAL                            |
-
-| constant   | value    |
-|:-----------|:---------|
-| Centered   | centered |
-| Left       | left     |
-
-| constant          | value              |
-|:------------------|:-------------------|
-| Action            | action             |
-| Boolean           | boolean            |
-| DestructiveAction | destructive_action |
-| PreciseLocation   | precise_location   |
-| SettingsGroup     | settings_group     |
-| StaticText        | static_text        |
-| Separator         | separator          |
-| TextField         | text_field         |
-| Button            | button             |
-| Tweet             | tweet              |
-
-| constant        | value             |
-|:----------------|:------------------|
-| AppleSSOButton  | apple_sso_button  |
-| GoogleSSOButton | google_sso_button |
-| NextButton      | next_button       |
-| UserIdentifier  | user_identifier   |
-
-| constant                 | value          |
-|:-------------------------|:---------------|
-| DEPRECATED_UnorderedList | UnorderedList  |
-| DEPRECATED_ListItem      | ListItem       |
-| UnorderedList            | unordered_list |
-| ListItem                 | list_item      |
-
-| constant   | value   |
-|:-----------|:--------|
-| Normal     | Normal  |
-| Bold       | Bold    |
-
-| constant   | value   |
-|:-----------|:--------|
-| Small      | Small   |
-| Normal     | Normal  |
-| Large      | Large   |
-| XLarge     | XLarge  |
-| Jumbo      | Jumbo   |
-
-| constant   | value   |
-|:-----------|:--------|
-| Qr         | qr      |
-| Text       | text    |
-
-| constant   | value   |
-|:-----------|:--------|
-| Avatar     | avatar  |
-| Banner     | banner  |
-
-| constant   | value     |
-|:-----------|:----------|
-| Success    | success   |
-| NotFound   | not_found |
-| Error      | error     |
-
-| constant   | value    |
-|:-----------|:---------|
-| Favorite   | favorite |
-| Follow     | follow   |
-| Reply      | reply    |
-| Retweet    | retweet  |
-
-| constant   | value    |
-|:-----------|:---------|
-| Checkbox   | checkbox |
-| Follow     | follow   |
-
-| constant         | value           |
-|:-----------------|:----------------|
-| Tile             | tile            |
-| List             | list            |
-| TileFollowButton | tile_follow_btn |
-
-| constant   | value     |
-|:-----------|:----------|
-| Always     | always    |
-| Never      | never     |
-| Preprompt  | preprompt |
-
-| constant   | value     |
-|:-----------|:----------|
-| Email      | email     |
-| Number     | number    |
-| Password   | password  |
-| Telephone  | telephone |
-| Text       | text      |
-
-| constant    | value        |
-|:------------|:-------------|
-| ResendSms   | resend_sms   |
-| ResendVoice | resend_voice |
-| ResendEmail | resend_email |
-
-| constant    | value        |
-|:------------|:-------------|
-| Password    | password     |
-| NewPassword | new_password |
-| Text        | text         |
-
-| constant   | value   |
-|:-----------|:--------|
-| Normal     | normal  |
-| Compact    | compact |
-
-| constant    | value        |
-|:------------|:-------------|
-| Username    | username     |
-| Password    | password     |
-| NewPassword | new_password |
-| Text        | text         |
-
-| constant   | value    |
-|:-----------|:---------|
-| Mismatch   | mismatch |
-
-| constant   | value   |
-|:-----------|:--------|
-| compact    | compact |
-| stacked    | stacked |
-
-| constant      | value          |
-|:--------------|:---------------|
-| Fixed         | fixed          |
-| Floating      | floating       |
-| FloatingLarge | floating_large |
-
-| constant   | value      |
-|:-----------|:-----------|
-| Default    | default    |
-| GoogleSSO  | google_sso |
-| AppleSSO   | apple_sso  |
-
-| constant   | value      |
-|:-----------|:-----------|
-| Impression | impression |
-| Click      | click      |
-
-| constant       | value           |
-|:---------------|:----------------|
-| HeaderTitle    | header_title    |
-| HeaderSubtitle | header_subtitle |
-| SectionTitle   | section_title   |
-| Detail         | detail          |
-
-| constant   | value   |
-|:-----------|:--------|
-| All        | all     |
-| Users      | users   |
-| Topics     | topics  |
-| Events     | events  |
-
-| constant   | value                  |
-|:-----------|:-----------------------|
-| REQUEST    | rweb/ocf/FETCH_REQUEST |
-| SUCCESS    | rweb/ocf/FETCH_SUCCESS |
-| FAILURE    | rweb/ocf/FETCH_FAILURE |
-
-| constant   | value                  |
-|:-----------|:-----------------------|
-| REQUEST    | rweb/ocf/START_REQUEST |
-| SUCCESS    | rweb/ocf/START_SUCCESS |
-| FAILURE    | rweb/ocf/START_FAILURE |
-
-| constant   | value                              |
-|:-----------|:-----------------------------------|
-| REQUEST    | rweb/ocf/VERIFY_IDENTIFIER_REQUEST |
-| SUCCESS    | rweb/ocf/VERIFY_IDENTIFIER_SUCCESS |
-| FAILURE    | rweb/ocf/VERIFY_IDENTIFIER_FAILURE |
-
-| constant   | value                                                |
-|:-----------|:-----------------------------------------------------|
-| REQUEST    | rweb/ocf/FETCH_BROWSABLE_NUX_RECOMMENDATIONS_REQUEST |
-| SUCCESS    | rweb/ocf/FETCH_BROWSABLE_NUX_RECOMMENDATIONS_SUCCESS |
-| FAILURE    | rweb/ocf/FETCH_BROWSABLE_NUX_RECOMMENDATIONS_FAILURE |
-
-| constant    | value       |
-|:------------|:------------|
-| RESIZE      | resize      |
-| UPLOAD      | upload      |
-| METADATA    | metadata    |
-| MAXDURATION | maxduration |
-| MAXSIZE     | maxsize     |
-
-| constant        | value                  |
-|:----------------|:-----------------------|
-| AmplifyVideo    | amplify_video          |
-| CommunityBanner | community_banner_image |
-| ListBanner      | list_banner_image      |
-| TweetImage      | tweet_image            |
-| TweetVideo      | tweet_video            |
-| TweetGif        | tweet_gif              |
-| DMImage         | dm_image               |
-| DMVideo         | dm_video               |
-| DMGif           | dm_gif                 |
-| Subtitles       | subtitles              |
-| ProfileBanner   | banner_image           |
-
-| constant        | value            |
-|:----------------|:-----------------|
-| Tweet           | tweet            |
-| Dm              | dm               |
-| CommunityBanner | community_banner |
-| ListBanner      | list_banner      |
-| ProfileBanner   | profile_banner   |
-| Avatar          | avatar           |
-| Verification    | verification     |
-| TwitterArticle  | twitter_article  |
-
 | constant                | value                     |
 |:------------------------|:--------------------------|
 | FakeAccount             | fake_account              |
 | OffensiveProfileContent | offensive_profile_content |
 | SensitiveMedia          | sensitive_media           |
 | Timeout                 | timeout                   |
-
-| constant   | value      |
-|:-----------|:-----------|
-| uploading  | uploading  |
-| processing | processing |
-
-|   constant | value                  |
-|-----------:|:-----------------------|
-|          0 | F.Zk.INTERNAL_ERROR    |
-|          1 | F.Zk.INVALID_MEDIA     |
-|          2 | F.Zk.FILE_TOO_LARGE    |
-|          3 | F.Zk.UNSUPPORTED_MEDIA |
-|          4 | F.Zk.TIMEOUT           |
-
-| constant   |   value |
-|:-----------|--------:|
-| RESET      |       0 |
-| PENDING    |       1 |
-| PAUSED     |       2 |
-| SUCCEEDED  |       3 |
-| FAILED     |       4 |
-
-| constant   | value      |
-|:-----------|:-----------|
-| LocalFile  | local_file |
-| Remote     | remote     |
-
-| constant   | value    |
-|:-----------|:---------|
-| Cancel     | cancel   |
-| Failure    | failure  |
-| Success    | success  |
-| Complete   | complete |
-| Invalid    | invalid  |
-
-| constant   | value       |
-|:-----------|:------------|
-| InProgress | in_progress |
-| Complete   | complete    |
-| Failure    | failure     |
-| Canceled   | canceled    |
-
-| constant                   | value                          |
-|:---------------------------|:-------------------------------|
-| Full                       | full                           |
-| Hash                       | hash                           |
-| Processing                 | processing                     |
-| SruUpload                  | sru_upload                     |
-| UploadSubmitUntilSruFinish | upload_submit_until_sru_finish |
-| Metadata                   | metadata                       |
-
-| constant                   | value                                   |
-|:---------------------------|:----------------------------------------|
-| SruUpload                  | sru_upload_no_eager                     |
-| UploadSubmitUntilSruFinish | upload_submit_until_sru_finish_no_eager |
-
-| constant       | value          |
-|:---------------|:---------------|
-| All            | all            |
-| Short          | short          |
-| Medium         | medium         |
-| Long           | long           |
-| XLong          | xlong          |
-| L90to140s      | l90to140s      |
-| L140to300s     | l140to300s     |
-| L300to600s     | l300to600s     |
-| L600to1200s    | l600to1200s    |
-| L1200to1800s   | l1200to1800s   |
-| L1800to2700s   | l1800to2700s   |
-| L2700to3600s   | l2700to3600s   |
-| L3600to4500s   | l3600to4500s   |
-| L4500to5400s   | l4500to5400s   |
-| L5400to6300s   | l5400to6300s   |
-| L6300to7200s   | l6300to7200s   |
-| L7200to10800s  | l7200to10800s  |
-| L10800to14400s | l10800to14400s |
-| LGT14400s      | lgt14400s      |
-
-| constant     |   value |
-|:-------------|--------:|
-| UNKNOWN      |       0 |
-| TOP_LEFT     |       1 |
-| TOP_RIGHT    |       2 |
-| BOTTOM_RIGHT |       3 |
-| BOTTOM_LEFT  |       4 |
-| LEFT_TOP     |       5 |
-| LEFT_BOTTOM  |       6 |
-| RIGHT_BOTTOM |       7 |
-| RIGHT_TOP    |       8 |
-
-| constant           |   value |
-|:-------------------|--------:|
-| FILE_TOO_LARGE     |       2 |
-| INTERNAL_ERROR     |     131 |
-| INVALID_MEDIA      |       1 |
-| RATE_LIMIT         |      88 |
-| TIMEOUT            |      67 |
-| UNSUPPORTED_MEDIA  |       3 |
-| ZERO_FILE_LENGTH   |       4 |
-| CANCELED           |     999 |
-| INVALID_RES_STATUS |      -1 |
 
 | constant       | value          |
 |:---------------|:---------------|
@@ -6885,6 +5681,116 @@ This document is entirely auto-generated and may contain errors.<br>
 | SECONDARY  | secondary |
 | TERTIARY   | tertiary  |
 
+| constant    | value       |
+|:------------|:------------|
+| RESIZE      | resize      |
+| UPLOAD      | upload      |
+| METADATA    | metadata    |
+| MAXDURATION | maxduration |
+| MAXSIZE     | maxsize     |
+
+| constant        | value                  |
+|:----------------|:-----------------------|
+| AmplifyVideo    | amplify_video          |
+| CommunityBanner | community_banner_image |
+| ListBanner      | list_banner_image      |
+| TweetImage      | tweet_image            |
+| TweetVideo      | tweet_video            |
+| TweetGif        | tweet_gif              |
+| DMImage         | dm_image               |
+| DMVideo         | dm_video               |
+| DMGif           | dm_gif                 |
+| Subtitles       | subtitles              |
+| ProfileBanner   | banner_image           |
+
+| constant        | value            |
+|:----------------|:-----------------|
+| Tweet           | tweet            |
+| Dm              | dm               |
+| CommunityBanner | community_banner |
+| ListBanner      | list_banner      |
+| ProfileBanner   | profile_banner   |
+| Avatar          | avatar           |
+| Verification    | verification     |
+| TwitterArticle  | twitter_article  |
+
+| constant   | value      |
+|:-----------|:-----------|
+| uploading  | uploading  |
+| processing | processing |
+
+|   constant | value                  |
+|-----------:|:-----------------------|
+|          0 | F.Zk.INTERNAL_ERROR    |
+|          1 | F.Zk.INVALID_MEDIA     |
+|          2 | F.Zk.FILE_TOO_LARGE    |
+|          3 | F.Zk.UNSUPPORTED_MEDIA |
+|          4 | F.Zk.TIMEOUT           |
+
+| constant   |   value |
+|:-----------|--------:|
+| RESET      |       0 |
+| PENDING    |       1 |
+| PAUSED     |       2 |
+| SUCCEEDED  |       3 |
+| FAILED     |       4 |
+
+| constant   | value      |
+|:-----------|:-----------|
+| LocalFile  | local_file |
+| Remote     | remote     |
+
+| constant   | value    |
+|:-----------|:---------|
+| Cancel     | cancel   |
+| Failure    | failure  |
+| Success    | success  |
+| Complete   | complete |
+| Invalid    | invalid  |
+
+| constant   | value       |
+|:-----------|:------------|
+| InProgress | in_progress |
+| Complete   | complete    |
+| Failure    | failure     |
+| Canceled   | canceled    |
+
+| constant                   | value                          |
+|:---------------------------|:-------------------------------|
+| Full                       | full                           |
+| Hash                       | hash                           |
+| Processing                 | processing                     |
+| SruUpload                  | sru_upload                     |
+| UploadSubmitUntilSruFinish | upload_submit_until_sru_finish |
+| Metadata                   | metadata                       |
+
+| constant                   | value                                   |
+|:---------------------------|:----------------------------------------|
+| SruUpload                  | sru_upload_no_eager                     |
+| UploadSubmitUntilSruFinish | upload_submit_until_sru_finish_no_eager |
+
+| constant       | value          |
+|:---------------|:---------------|
+| All            | all            |
+| Short          | short          |
+| Medium         | medium         |
+| Long           | long           |
+| XLong          | xlong          |
+| L90to140s      | l90to140s      |
+| L140to300s     | l140to300s     |
+| L300to600s     | l300to600s     |
+| L600to1200s    | l600to1200s    |
+| L1200to1800s   | l1200to1800s   |
+| L1800to2700s   | l1800to2700s   |
+| L2700to3600s   | l2700to3600s   |
+| L3600to4500s   | l3600to4500s   |
+| L4500to5400s   | l4500to5400s   |
+| L5400to6300s   | l5400to6300s   |
+| L6300to7200s   | l6300to7200s   |
+| L7200to10800s  | l7200to10800s  |
+| L10800to14400s | l10800to14400s |
+| LGT14400s      | lgt14400s      |
+
 | constant             | value                |
 |:---------------------|:---------------------|
 | FacepileGroup        | FacepileGroup        |
@@ -6916,6 +5822,30 @@ This document is entirely auto-generated and may contain errors.<br>
 | TextOnly             | TextOnly             |
 | Topic                | Topic                |
 | Trending             | Trending             |
+
+| constant     |   value |
+|:-------------|--------:|
+| UNKNOWN      |       0 |
+| TOP_LEFT     |       1 |
+| TOP_RIGHT    |       2 |
+| BOTTOM_RIGHT |       3 |
+| BOTTOM_LEFT  |       4 |
+| LEFT_TOP     |       5 |
+| LEFT_BOTTOM  |       6 |
+| RIGHT_BOTTOM |       7 |
+| RIGHT_TOP    |       8 |
+
+| constant           |   value |
+|:-------------------|--------:|
+| FILE_TOO_LARGE     |       2 |
+| INTERNAL_ERROR     |     131 |
+| INVALID_MEDIA      |       1 |
+| RATE_LIMIT         |      88 |
+| TIMEOUT            |      67 |
+| UNSUPPORTED_MEDIA  |       3 |
+| ZERO_FILE_LENGTH   |       4 |
+| CANCELED           |     999 |
+| INVALID_RES_STATUS |      -1 |
 
 ```internal process
 # Error
@@ -7144,8 +6074,8 @@ This document is entirely auto-generated and may contain errors.<br>
 | constant       | value                                          |
 |:---------------|:-----------------------------------------------|
 | closed         | {'shouldShow': '!1'}                           |
-| openSuccessful | {'shouldShow': '!0', 'badgeType': 'L.Ratings'} |
-| openHelpful    | {'shouldShow': '!0', 'badgeType': 'L.Notes'}   |
+| openSuccessful | {'shouldShow': '!0', 'badgeType': 'D.Ratings'} |
+| openHelpful    | {'shouldShow': '!0', 'badgeType': 'D.Notes'}   |
 
 | constant   | value                                               |
 |:-----------|:----------------------------------------------------|
@@ -7684,6 +6614,140 @@ This document is entirely auto-generated and may contain errors.<br>
 | Subtitles      | subtitles       |
 | Trimmer        | trimmer         |
 
+| constant    | value       |
+|:------------|:------------|
+| RESIZE      | resize      |
+| UPLOAD      | upload      |
+| METADATA    | metadata    |
+| MAXDURATION | maxduration |
+| MAXSIZE     | maxsize     |
+
+| constant        | value                  |
+|:----------------|:-----------------------|
+| AmplifyVideo    | amplify_video          |
+| CommunityBanner | community_banner_image |
+| ListBanner      | list_banner_image      |
+| TweetImage      | tweet_image            |
+| TweetVideo      | tweet_video            |
+| TweetGif        | tweet_gif              |
+| DMImage         | dm_image               |
+| DMVideo         | dm_video               |
+| DMGif           | dm_gif                 |
+| Subtitles       | subtitles              |
+| ProfileBanner   | banner_image           |
+
+| constant        | value            |
+|:----------------|:-----------------|
+| Tweet           | tweet            |
+| Dm              | dm               |
+| CommunityBanner | community_banner |
+| ListBanner      | list_banner      |
+| ProfileBanner   | profile_banner   |
+| Avatar          | avatar           |
+| Verification    | verification     |
+| TwitterArticle  | twitter_article  |
+
+| constant   | value      |
+|:-----------|:-----------|
+| uploading  | uploading  |
+| processing | processing |
+
+|   constant | value                  |
+|-----------:|:-----------------------|
+|          0 | M.Zk.INTERNAL_ERROR    |
+|          1 | M.Zk.INVALID_MEDIA     |
+|          2 | M.Zk.FILE_TOO_LARGE    |
+|          3 | M.Zk.UNSUPPORTED_MEDIA |
+|          4 | M.Zk.TIMEOUT           |
+
+| constant   |   value |
+|:-----------|--------:|
+| RESET      |       0 |
+| PENDING    |       1 |
+| PAUSED     |       2 |
+| SUCCEEDED  |       3 |
+| FAILED     |       4 |
+
+| constant   | value      |
+|:-----------|:-----------|
+| LocalFile  | local_file |
+| Remote     | remote     |
+
+| constant   | value    |
+|:-----------|:---------|
+| Cancel     | cancel   |
+| Failure    | failure  |
+| Success    | success  |
+| Complete   | complete |
+| Invalid    | invalid  |
+
+| constant   | value       |
+|:-----------|:------------|
+| InProgress | in_progress |
+| Complete   | complete    |
+| Failure    | failure     |
+| Canceled   | canceled    |
+
+| constant                   | value                          |
+|:---------------------------|:-------------------------------|
+| Full                       | full                           |
+| Hash                       | hash                           |
+| Processing                 | processing                     |
+| SruUpload                  | sru_upload                     |
+| UploadSubmitUntilSruFinish | upload_submit_until_sru_finish |
+| Metadata                   | metadata                       |
+
+| constant                   | value                                   |
+|:---------------------------|:----------------------------------------|
+| SruUpload                  | sru_upload_no_eager                     |
+| UploadSubmitUntilSruFinish | upload_submit_until_sru_finish_no_eager |
+
+| constant       | value          |
+|:---------------|:---------------|
+| All            | all            |
+| Short          | short          |
+| Medium         | medium         |
+| Long           | long           |
+| XLong          | xlong          |
+| L90to140s      | l90to140s      |
+| L140to300s     | l140to300s     |
+| L300to600s     | l300to600s     |
+| L600to1200s    | l600to1200s    |
+| L1200to1800s   | l1200to1800s   |
+| L1800to2700s   | l1800to2700s   |
+| L2700to3600s   | l2700to3600s   |
+| L3600to4500s   | l3600to4500s   |
+| L4500to5400s   | l4500to5400s   |
+| L5400to6300s   | l5400to6300s   |
+| L6300to7200s   | l6300to7200s   |
+| L7200to10800s  | l7200to10800s  |
+| L10800to14400s | l10800to14400s |
+| LGT14400s      | lgt14400s      |
+
+| constant     |   value |
+|:-------------|--------:|
+| UNKNOWN      |       0 |
+| TOP_LEFT     |       1 |
+| TOP_RIGHT    |       2 |
+| BOTTOM_RIGHT |       3 |
+| BOTTOM_LEFT  |       4 |
+| LEFT_TOP     |       5 |
+| LEFT_BOTTOM  |       6 |
+| RIGHT_BOTTOM |       7 |
+| RIGHT_TOP    |       8 |
+
+| constant           |   value |
+|:-------------------|--------:|
+| FILE_TOO_LARGE     |       2 |
+| INTERNAL_ERROR     |     131 |
+| INVALID_MEDIA      |       1 |
+| RATE_LIMIT         |      88 |
+| TIMEOUT            |      67 |
+| UNSUPPORTED_MEDIA  |       3 |
+| ZERO_FILE_LENGTH   |       4 |
+| CANCELED           |     999 |
+| INVALID_RES_STATUS |      -1 |
+
 | constant   | value                                               |
 |:-----------|:----------------------------------------------------|
 | REQUEST    | rweb/scheduledTweets/FETCH_SCHEDULED_TWEETS_REQUEST |
@@ -7706,8 +6770,41 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{"ActionsBar":"Z.Z","ActionMenu":"function()"{"var t=e.Icon",n=e.isDisabled,r=e.items,i=e.onOpen,"o=l.useCallback()"{"return l.createElement()"{"items":"r","onCloseRequested":"e"}}{"Icon":"t","isDisabled":"n","onClick":"i","renderActionMenu":"o"}},"CallToAction":"c.ZP","EditCallout":"k.Z","Education...
+{"ActionsBar":"Z.Z","ActionMenu":"function()"{"var t=e.Icon",n=e.isDisabled,r=e.items,i=e.onOpen,"o=l.useCallback()"{"return l.createElement()"{"items":"r","onCloseRequested":"e"}}{"Icon":"t","isDisabled":"n","onClick":"i","renderActionMenu":"o"}},"CallToAction":"c.ZP","EditCallout":"T.Z","Education...
 ```
+| constant    | value       |
+|:------------|:------------|
+| RESIZE      | resize      |
+| UPLOAD      | upload      |
+| METADATA    | metadata    |
+| MAXDURATION | maxduration |
+| MAXSIZE     | maxsize     |
+
+| constant        | value                  |
+|:----------------|:-----------------------|
+| AmplifyVideo    | amplify_video          |
+| CommunityBanner | community_banner_image |
+| ListBanner      | list_banner_image      |
+| TweetImage      | tweet_image            |
+| TweetVideo      | tweet_video            |
+| TweetGif        | tweet_gif              |
+| DMImage         | dm_image               |
+| DMVideo         | dm_video               |
+| DMGif           | dm_gif                 |
+| Subtitles       | subtitles              |
+| ProfileBanner   | banner_image           |
+
+| constant        | value            |
+|:----------------|:-----------------|
+| Tweet           | tweet            |
+| Dm              | dm               |
+| CommunityBanner | community_banner |
+| ListBanner      | list_banner      |
+| ProfileBanner   | profile_banner   |
+| Avatar          | avatar           |
+| Verification    | verification     |
+| TwitterArticle  | twitter_article  |
+
 | constant    | value                 |
 |:------------|:----------------------|
 | X_BACKEND   | X_BACKEND             |
@@ -7815,6 +6912,83 @@ This document is entirely auto-generated and may contain errors.<br>
 | HUMAN      |       1 |
 | ASSISTANT  |       2 |
 
+| constant   | value      |
+|:-----------|:-----------|
+| uploading  | uploading  |
+| processing | processing |
+
+|   constant | value                  |
+|-----------:|:-----------------------|
+|          0 | C.Zk.INTERNAL_ERROR    |
+|          1 | C.Zk.INVALID_MEDIA     |
+|          2 | C.Zk.FILE_TOO_LARGE    |
+|          3 | C.Zk.UNSUPPORTED_MEDIA |
+|          4 | C.Zk.TIMEOUT           |
+
+| constant   |   value |
+|:-----------|--------:|
+| RESET      |       0 |
+| PENDING    |       1 |
+| PAUSED     |       2 |
+| SUCCEEDED  |       3 |
+| FAILED     |       4 |
+
+| constant   | value      |
+|:-----------|:-----------|
+| LocalFile  | local_file |
+| Remote     | remote     |
+
+| constant   | value    |
+|:-----------|:---------|
+| Cancel     | cancel   |
+| Failure    | failure  |
+| Success    | success  |
+| Complete   | complete |
+| Invalid    | invalid  |
+
+| constant   | value       |
+|:-----------|:------------|
+| InProgress | in_progress |
+| Complete   | complete    |
+| Failure    | failure     |
+| Canceled   | canceled    |
+
+| constant                   | value                          |
+|:---------------------------|:-------------------------------|
+| Full                       | full                           |
+| Hash                       | hash                           |
+| Processing                 | processing                     |
+| SruUpload                  | sru_upload                     |
+| UploadSubmitUntilSruFinish | upload_submit_until_sru_finish |
+| Metadata                   | metadata                       |
+
+| constant                   | value                                   |
+|:---------------------------|:----------------------------------------|
+| SruUpload                  | sru_upload_no_eager                     |
+| UploadSubmitUntilSruFinish | upload_submit_until_sru_finish_no_eager |
+
+| constant       | value          |
+|:---------------|:---------------|
+| All            | all            |
+| Short          | short          |
+| Medium         | medium         |
+| Long           | long           |
+| XLong          | xlong          |
+| L90to140s      | l90to140s      |
+| L140to300s     | l140to300s     |
+| L300to600s     | l300to600s     |
+| L600to1200s    | l600to1200s    |
+| L1200to1800s   | l1200to1800s   |
+| L1800to2700s   | l1800to2700s   |
+| L2700to3600s   | l2700to3600s   |
+| L3600to4500s   | l3600to4500s   |
+| L4500to5400s   | l4500to5400s   |
+| L5400to6300s   | l5400to6300s   |
+| L6300to7200s   | l6300to7200s   |
+| L7200to10800s  | l7200to10800s  |
+| L10800to14400s | l10800to14400s |
+| LGT14400s      | lgt14400s      |
+
 | constant              | value                    |
 |:----------------------|:-------------------------|
 | CodeExecution         | code_execution           |
@@ -7838,6 +7012,30 @@ This document is entirely auto-generated and may contain errors.<br>
 | CallSportsApi         | call_sports_api          |
 | CallCryptoApi         | call_crypto_api          |
 | CallWeatherApi        | call_weather_api         |
+
+| constant     |   value |
+|:-------------|--------:|
+| UNKNOWN      |       0 |
+| TOP_LEFT     |       1 |
+| TOP_RIGHT    |       2 |
+| BOTTOM_RIGHT |       3 |
+| BOTTOM_LEFT  |       4 |
+| LEFT_TOP     |       5 |
+| LEFT_BOTTOM  |       6 |
+| RIGHT_BOTTOM |       7 |
+| RIGHT_TOP    |       8 |
+
+| constant           |   value |
+|:-------------------|--------:|
+| FILE_TOO_LARGE     |       2 |
+| INTERNAL_ERROR     |     131 |
+| INVALID_MEDIA      |       1 |
+| RATE_LIMIT         |      88 |
+| TIMEOUT            |      67 |
+| UNSUPPORTED_MEDIA  |       3 |
+| ZERO_FILE_LENGTH   |       4 |
+| CANCELED           |     999 |
+| INVALID_RES_STATUS |      -1 |
 
 | constant   | value    |
 |:-----------|:---------|
@@ -7951,8 +7149,8 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant         | value   |
 |:-----------------|:--------|
-| DELEGATE_ERR_002 | W       |
-| DELEGATE_ERR_003 | q       |
+| DELEGATE_ERR_002 | q       |
+| DELEGATE_ERR_003 | W       |
 | DELEGATE_ERR_004 | Q       |
 | DELEGATE_ERR_005 | J       |
 | DELEGATE_ERR_006 | Y       |
@@ -8325,11 +7523,145 @@ This document is entirely auto-generated and may contain errors.<br>
 | WEBSITE_REFERENCE_CONFIRM_AUTOFILL                      | WEBSITE_REFERENCE_CONFIRM_AUTOFILL                      |
 | WEBSITE_REFERENCE_CONFIRM_PROCEED                       | WEBSITE_REFERENCE_CONFIRM_PROCEED                       |
 
+| constant    | value       |
+|:------------|:------------|
+| RESIZE      | resize      |
+| UPLOAD      | upload      |
+| METADATA    | metadata    |
+| MAXDURATION | maxduration |
+| MAXSIZE     | maxsize     |
+
+| constant        | value                  |
+|:----------------|:-----------------------|
+| AmplifyVideo    | amplify_video          |
+| CommunityBanner | community_banner_image |
+| ListBanner      | list_banner_image      |
+| TweetImage      | tweet_image            |
+| TweetVideo      | tweet_video            |
+| TweetGif        | tweet_gif              |
+| DMImage         | dm_image               |
+| DMVideo         | dm_video               |
+| DMGif           | dm_gif                 |
+| Subtitles       | subtitles              |
+| ProfileBanner   | banner_image           |
+
+| constant        | value            |
+|:----------------|:-----------------|
+| Tweet           | tweet            |
+| Dm              | dm               |
+| CommunityBanner | community_banner |
+| ListBanner      | list_banner      |
+| ProfileBanner   | profile_banner   |
+| Avatar          | avatar           |
+| Verification    | verification     |
+| TwitterArticle  | twitter_article  |
+
+| constant   | value      |
+|:-----------|:-----------|
+| uploading  | uploading  |
+| processing | processing |
+
+|   constant | value                  |
+|-----------:|:-----------------------|
+|          0 | C.Zk.INTERNAL_ERROR    |
+|          1 | C.Zk.INVALID_MEDIA     |
+|          2 | C.Zk.FILE_TOO_LARGE    |
+|          3 | C.Zk.UNSUPPORTED_MEDIA |
+|          4 | C.Zk.TIMEOUT           |
+
+| constant   |   value |
+|:-----------|--------:|
+| RESET      |       0 |
+| PENDING    |       1 |
+| PAUSED     |       2 |
+| SUCCEEDED  |       3 |
+| FAILED     |       4 |
+
+| constant   | value      |
+|:-----------|:-----------|
+| LocalFile  | local_file |
+| Remote     | remote     |
+
+| constant   | value    |
+|:-----------|:---------|
+| Cancel     | cancel   |
+| Failure    | failure  |
+| Success    | success  |
+| Complete   | complete |
+| Invalid    | invalid  |
+
+| constant   | value       |
+|:-----------|:------------|
+| InProgress | in_progress |
+| Complete   | complete    |
+| Failure    | failure     |
+| Canceled   | canceled    |
+
+| constant                   | value                          |
+|:---------------------------|:-------------------------------|
+| Full                       | full                           |
+| Hash                       | hash                           |
+| Processing                 | processing                     |
+| SruUpload                  | sru_upload                     |
+| UploadSubmitUntilSruFinish | upload_submit_until_sru_finish |
+| Metadata                   | metadata                       |
+
+| constant                   | value                                   |
+|:---------------------------|:----------------------------------------|
+| SruUpload                  | sru_upload_no_eager                     |
+| UploadSubmitUntilSruFinish | upload_submit_until_sru_finish_no_eager |
+
+| constant       | value          |
+|:---------------|:---------------|
+| All            | all            |
+| Short          | short          |
+| Medium         | medium         |
+| Long           | long           |
+| XLong          | xlong          |
+| L90to140s      | l90to140s      |
+| L140to300s     | l140to300s     |
+| L300to600s     | l300to600s     |
+| L600to1200s    | l600to1200s    |
+| L1200to1800s   | l1200to1800s   |
+| L1800to2700s   | l1800to2700s   |
+| L2700to3600s   | l2700to3600s   |
+| L3600to4500s   | l3600to4500s   |
+| L4500to5400s   | l4500to5400s   |
+| L5400to6300s   | l5400to6300s   |
+| L6300to7200s   | l6300to7200s   |
+| L7200to10800s  | l7200to10800s  |
+| L10800to14400s | l10800to14400s |
+| LGT14400s      | lgt14400s      |
+
 | constant   | value   |
 |:-----------|:--------|
 | START      | start   |
 | LOADING    | loading |
 | SENT       | sent    |
+
+| constant     |   value |
+|:-------------|--------:|
+| UNKNOWN      |       0 |
+| TOP_LEFT     |       1 |
+| TOP_RIGHT    |       2 |
+| BOTTOM_RIGHT |       3 |
+| BOTTOM_LEFT  |       4 |
+| LEFT_TOP     |       5 |
+| LEFT_BOTTOM  |       6 |
+| RIGHT_BOTTOM |       7 |
+| RIGHT_TOP    |       8 |
+
+| constant           |   value |
+|:-------------------|--------:|
+| FILE_TOO_LARGE     |       2 |
+| INTERNAL_ERROR     |     131 |
+| INVALID_MEDIA      |       1 |
+| RATE_LIMIT         |      88 |
+| TIMEOUT            |      67 |
+| UNSUPPORTED_MEDIA  |       3 |
+| ZERO_FILE_LENGTH   |       4 |
+| CANCELED           |     999 |
+| INVALID_RES_STATUS |      -1 |
 
 | constant                           | value                              |
 |:-----------------------------------|:-----------------------------------|
@@ -8340,13 +7672,6 @@ This document is entirely auto-generated and may contain errors.<br>
 | PendingResult                      | PendingResult                      |
 | RequestLocked                      | RequestLocked                      |
 | UnavailableMissingBlueSubscription | UnavailableMissingBlueSubscription |
-
-| constant            | value               |
-|:--------------------|:--------------------|
-| premiumSubscription | premiumSubscription |
-| premiumSettings     | premiumSettings     |
-| securitySettings    | securitySettings    |
-| creator             | creator             |
 
 | constant   | value                              |
 |:-----------|:-----------------------------------|
@@ -8400,8 +7725,15 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{"Persona":"s.createElement()"{"$i18n":"d3543217"},"s.createElement()"{"link":"R.Jf","withInteractiveStyling":"!0"},"Z().e4fed511"}
+{"Persona":"s.createElement()"{"$i18n":"d3543217"},"s.createElement()"{"link":"N.Jf","withInteractiveStyling":"!0"},"S().e4fed511"}
 ```
+| constant            | value               |
+|:--------------------|:--------------------|
+| premiumSubscription | premiumSubscription |
+| premiumSettings     | premiumSettings     |
+| securitySettings    | securitySettings    |
+| creator             | creator             |
+
 | constant   | value                                     |
 |:-----------|:------------------------------------------|
 | REQUEST    | rweb/backupCode/FETCH_BACKUP_CODE_REQUEST |
@@ -8454,6 +7786,16 @@ This document is entirely auto-generated and may contain errors.<br>
 |:-----------|:---------------|
 | Filtering  | optInFiltering |
 | Blocking   | optInBlocking  |
+
+| constant                           | value                              |
+|:-----------------------------------|:-----------------------------------|
+| CanVerifyIdentity                  | CanVerifyIdentity                  |
+| IdentityNonVerifiable              | IdentityNonVerifiable              |
+| IdentityVerified                   | IdentityVerified                   |
+| IdentityVerifiedUnderage           | IdentityVerifiedUnderage           |
+| PendingResult                      | PendingResult                      |
+| RequestLocked                      | RequestLocked                      |
+| UnavailableMissingBlueSubscription | UnavailableMissingBlueSubscription |
 
 | constant      | value                                                                      |
 |:--------------|:---------------------------------------------------------------------------|
@@ -8609,6 +7951,13 @@ This document is entirely auto-generated and may contain errors.<br>
 | Twitter       | Twitter       |
 | Unknown       | Unknown       |
 
+| constant            | value               |
+|:--------------------|:--------------------|
+| premiumSubscription | premiumSubscription |
+| premiumSettings     | premiumSettings     |
+| securitySettings    | securitySettings    |
+| creator             | creator             |
+
 | constant           | value              |
 |:-------------------|:-------------------|
 | paymentMethod      | paymentMethod      |
@@ -8685,6 +8034,116 @@ This document is entirely auto-generated and may contain errors.<br>
 | FOLLOWERS     | followers    |
 | PUBLIC        | public       |
 
+| constant    | value       |
+|:------------|:------------|
+| RESIZE      | resize      |
+| UPLOAD      | upload      |
+| METADATA    | metadata    |
+| MAXDURATION | maxduration |
+| MAXSIZE     | maxsize     |
+
+| constant        | value                  |
+|:----------------|:-----------------------|
+| AmplifyVideo    | amplify_video          |
+| CommunityBanner | community_banner_image |
+| ListBanner      | list_banner_image      |
+| TweetImage      | tweet_image            |
+| TweetVideo      | tweet_video            |
+| TweetGif        | tweet_gif              |
+| DMImage         | dm_image               |
+| DMVideo         | dm_video               |
+| DMGif           | dm_gif                 |
+| Subtitles       | subtitles              |
+| ProfileBanner   | banner_image           |
+
+| constant        | value            |
+|:----------------|:-----------------|
+| Tweet           | tweet            |
+| Dm              | dm               |
+| CommunityBanner | community_banner |
+| ListBanner      | list_banner      |
+| ProfileBanner   | profile_banner   |
+| Avatar          | avatar           |
+| Verification    | verification     |
+| TwitterArticle  | twitter_article  |
+
+| constant   | value      |
+|:-----------|:-----------|
+| uploading  | uploading  |
+| processing | processing |
+
+|   constant | value                  |
+|-----------:|:-----------------------|
+|          0 | C.Zk.INTERNAL_ERROR    |
+|          1 | C.Zk.INVALID_MEDIA     |
+|          2 | C.Zk.FILE_TOO_LARGE    |
+|          3 | C.Zk.UNSUPPORTED_MEDIA |
+|          4 | C.Zk.TIMEOUT           |
+
+| constant   |   value |
+|:-----------|--------:|
+| RESET      |       0 |
+| PENDING    |       1 |
+| PAUSED     |       2 |
+| SUCCEEDED  |       3 |
+| FAILED     |       4 |
+
+| constant   | value      |
+|:-----------|:-----------|
+| LocalFile  | local_file |
+| Remote     | remote     |
+
+| constant   | value    |
+|:-----------|:---------|
+| Cancel     | cancel   |
+| Failure    | failure  |
+| Success    | success  |
+| Complete   | complete |
+| Invalid    | invalid  |
+
+| constant   | value       |
+|:-----------|:------------|
+| InProgress | in_progress |
+| Complete   | complete    |
+| Failure    | failure     |
+| Canceled   | canceled    |
+
+| constant                   | value                          |
+|:---------------------------|:-------------------------------|
+| Full                       | full                           |
+| Hash                       | hash                           |
+| Processing                 | processing                     |
+| SruUpload                  | sru_upload                     |
+| UploadSubmitUntilSruFinish | upload_submit_until_sru_finish |
+| Metadata                   | metadata                       |
+
+| constant                   | value                                   |
+|:---------------------------|:----------------------------------------|
+| SruUpload                  | sru_upload_no_eager                     |
+| UploadSubmitUntilSruFinish | upload_submit_until_sru_finish_no_eager |
+
+| constant       | value          |
+|:---------------|:---------------|
+| All            | all            |
+| Short          | short          |
+| Medium         | medium         |
+| Long           | long           |
+| XLong          | xlong          |
+| L90to140s      | l90to140s      |
+| L140to300s     | l140to300s     |
+| L300to600s     | l300to600s     |
+| L600to1200s    | l600to1200s    |
+| L1200to1800s   | l1200to1800s   |
+| L1800to2700s   | l1800to2700s   |
+| L2700to3600s   | l2700to3600s   |
+| L3600to4500s   | l3600to4500s   |
+| L4500to5400s   | l4500to5400s   |
+| L5400to6300s   | l5400to6300s   |
+| L6300to7200s   | l6300to7200s   |
+| L7200to10800s  | l7200to10800s  |
+| L10800to14400s | l10800to14400s |
+| LGT14400s      | lgt14400s      |
+
 | constant                  | value                     |
 |:--------------------------|:--------------------------|
 | SUPERSCRIPT_AND_SUBSCRIPT | superscript_and_subscript |
@@ -8700,6 +8159,30 @@ This document is entirely auto-generated and may contain errors.<br>
 | SPACING_MODIFIER          | spacing_modifier          |
 | PUNCTUATION               | punctuation               |
 | MISC                      | miscellaneous             |
+
+| constant     |   value |
+|:-------------|--------:|
+| UNKNOWN      |       0 |
+| TOP_LEFT     |       1 |
+| TOP_RIGHT    |       2 |
+| BOTTOM_RIGHT |       3 |
+| BOTTOM_LEFT  |       4 |
+| LEFT_TOP     |       5 |
+| LEFT_BOTTOM  |       6 |
+| RIGHT_BOTTOM |       7 |
+| RIGHT_TOP    |       8 |
+
+| constant           |   value |
+|:-------------------|--------:|
+| FILE_TOO_LARGE     |       2 |
+| INTERNAL_ERROR     |     131 |
+| INVALID_MEDIA      |       1 |
+| RATE_LIMIT         |      88 |
+| TIMEOUT            |      67 |
+| UNSUPPORTED_MEDIA  |       3 |
+| ZERO_FILE_LENGTH   |       4 |
+| CANCELED           |     999 |
+| INVALID_RES_STATUS |      -1 |
 
 | constant   | value    |
 |:-----------|:---------|
@@ -8988,6 +8471,140 @@ This document is entirely auto-generated and may contain errors.<br>
 |:-----------|:------------|
 | WebSidebar | web_sidebar |
 
+| constant    | value       |
+|:------------|:------------|
+| RESIZE      | resize      |
+| UPLOAD      | upload      |
+| METADATA    | metadata    |
+| MAXDURATION | maxduration |
+| MAXSIZE     | maxsize     |
+
+| constant        | value                  |
+|:----------------|:-----------------------|
+| AmplifyVideo    | amplify_video          |
+| CommunityBanner | community_banner_image |
+| ListBanner      | list_banner_image      |
+| TweetImage      | tweet_image            |
+| TweetVideo      | tweet_video            |
+| TweetGif        | tweet_gif              |
+| DMImage         | dm_image               |
+| DMVideo         | dm_video               |
+| DMGif           | dm_gif                 |
+| Subtitles       | subtitles              |
+| ProfileBanner   | banner_image           |
+
+| constant        | value            |
+|:----------------|:-----------------|
+| Tweet           | tweet            |
+| Dm              | dm               |
+| CommunityBanner | community_banner |
+| ListBanner      | list_banner      |
+| ProfileBanner   | profile_banner   |
+| Avatar          | avatar           |
+| Verification    | verification     |
+| TwitterArticle  | twitter_article  |
+
+| constant   | value      |
+|:-----------|:-----------|
+| uploading  | uploading  |
+| processing | processing |
+
+|   constant | value                  |
+|-----------:|:-----------------------|
+|          0 | F.Zk.INTERNAL_ERROR    |
+|          1 | F.Zk.INVALID_MEDIA     |
+|          2 | F.Zk.FILE_TOO_LARGE    |
+|          3 | F.Zk.UNSUPPORTED_MEDIA |
+|          4 | F.Zk.TIMEOUT           |
+
+| constant   |   value |
+|:-----------|--------:|
+| RESET      |       0 |
+| PENDING    |       1 |
+| PAUSED     |       2 |
+| SUCCEEDED  |       3 |
+| FAILED     |       4 |
+
+| constant   | value      |
+|:-----------|:-----------|
+| LocalFile  | local_file |
+| Remote     | remote     |
+
+| constant   | value    |
+|:-----------|:---------|
+| Cancel     | cancel   |
+| Failure    | failure  |
+| Success    | success  |
+| Complete   | complete |
+| Invalid    | invalid  |
+
+| constant   | value       |
+|:-----------|:------------|
+| InProgress | in_progress |
+| Complete   | complete    |
+| Failure    | failure     |
+| Canceled   | canceled    |
+
+| constant                   | value                          |
+|:---------------------------|:-------------------------------|
+| Full                       | full                           |
+| Hash                       | hash                           |
+| Processing                 | processing                     |
+| SruUpload                  | sru_upload                     |
+| UploadSubmitUntilSruFinish | upload_submit_until_sru_finish |
+| Metadata                   | metadata                       |
+
+| constant                   | value                                   |
+|:---------------------------|:----------------------------------------|
+| SruUpload                  | sru_upload_no_eager                     |
+| UploadSubmitUntilSruFinish | upload_submit_until_sru_finish_no_eager |
+
+| constant       | value          |
+|:---------------|:---------------|
+| All            | all            |
+| Short          | short          |
+| Medium         | medium         |
+| Long           | long           |
+| XLong          | xlong          |
+| L90to140s      | l90to140s      |
+| L140to300s     | l140to300s     |
+| L300to600s     | l300to600s     |
+| L600to1200s    | l600to1200s    |
+| L1200to1800s   | l1200to1800s   |
+| L1800to2700s   | l1800to2700s   |
+| L2700to3600s   | l2700to3600s   |
+| L3600to4500s   | l3600to4500s   |
+| L4500to5400s   | l4500to5400s   |
+| L5400to6300s   | l5400to6300s   |
+| L6300to7200s   | l6300to7200s   |
+| L7200to10800s  | l7200to10800s  |
+| L10800to14400s | l10800to14400s |
+| LGT14400s      | lgt14400s      |
+
+| constant     |   value |
+|:-------------|--------:|
+| UNKNOWN      |       0 |
+| TOP_LEFT     |       1 |
+| TOP_RIGHT    |       2 |
+| BOTTOM_RIGHT |       3 |
+| BOTTOM_LEFT  |       4 |
+| LEFT_TOP     |       5 |
+| LEFT_BOTTOM  |       6 |
+| RIGHT_BOTTOM |       7 |
+| RIGHT_TOP    |       8 |
+
+| constant           |   value |
+|:-------------------|--------:|
+| FILE_TOO_LARGE     |       2 |
+| INTERNAL_ERROR     |     131 |
+| INVALID_MEDIA      |       1 |
+| RATE_LIMIT         |      88 |
+| TIMEOUT            |      67 |
+| UNSUPPORTED_MEDIA  |       3 |
+| ZERO_FILE_LENGTH   |       4 |
+| CANCELED           |     999 |
+| INVALID_RES_STATUS |      -1 |
+
 | constant   | value    |
 |:-----------|:---------|
 | INFINITE   | infinite |
@@ -9147,29 +8764,29 @@ This document is entirely auto-generated and may contain errors.<br>
 | sales_am             | p       |
 | operations           | g       |
 | people_hr            | y       |
-| finance_accounting   | v       |
-| legal_compliance     | Z       |
-| science_engineering  | w       |
-| medical              | k       |
+| finance_accounting   | Z       |
+| legal_compliance     | v       |
+| science_engineering  | k       |
+| medical              | w       |
 | construction_trades  | D       |
 | other                | S       |
 
 | constant    | value   |
 |:------------|:--------|
-| intern      | x       |
-| entry_level | P       |
+| intern      | P       |
+| entry_level | x       |
 | junior      | C       |
 | mid_level   | I       |
 | senior      | _       |
-| lead        | L       |
-| manager     | T       |
-| executive   | H       |
+| lead        | T       |
+| manager     | L       |
+| executive   | A       |
 
 | constant   | value                                                 |
 |:-----------|:------------------------------------------------------|
-| onsite     | {'label': 'R', 'description': 'W', 'value': 'onsite'} |
-| remote     | {'label': 'q', 'description': 'M', 'value': 'remote'} |
-| hybrid     | {'label': 'j', 'description': 'O', 'value': 'hybrid'} |
+| onsite     | {'label': 'j', 'description': 'W', 'value': 'onsite'} |
+| remote     | {'label': 'H', 'description': 'M', 'value': 'remote'} |
+| hybrid     | {'label': 'q', 'description': 'O', 'value': 'hybrid'} |
 
 | constant      | value         |
 |:--------------|:--------------|
@@ -10172,6 +9789,140 @@ This document is entirely auto-generated and may contain errors.<br>
 | SUCCESS    | rweb/subscriptionPayments/TIER_SWITCH_SUCCESS |
 | FAILURE    | rweb/subscriptionPayments/TIER_SWITCH_FAILURE |
 
+| constant    | value       |
+|:------------|:------------|
+| RESIZE      | resize      |
+| UPLOAD      | upload      |
+| METADATA    | metadata    |
+| MAXDURATION | maxduration |
+| MAXSIZE     | maxsize     |
+
+| constant        | value                  |
+|:----------------|:-----------------------|
+| AmplifyVideo    | amplify_video          |
+| CommunityBanner | community_banner_image |
+| ListBanner      | list_banner_image      |
+| TweetImage      | tweet_image            |
+| TweetVideo      | tweet_video            |
+| TweetGif        | tweet_gif              |
+| DMImage         | dm_image               |
+| DMVideo         | dm_video               |
+| DMGif           | dm_gif                 |
+| Subtitles       | subtitles              |
+| ProfileBanner   | banner_image           |
+
+| constant        | value            |
+|:----------------|:-----------------|
+| Tweet           | tweet            |
+| Dm              | dm               |
+| CommunityBanner | community_banner |
+| ListBanner      | list_banner      |
+| ProfileBanner   | profile_banner   |
+| Avatar          | avatar           |
+| Verification    | verification     |
+| TwitterArticle  | twitter_article  |
+
+| constant   | value      |
+|:-----------|:-----------|
+| uploading  | uploading  |
+| processing | processing |
+
+|   constant | value                  |
+|-----------:|:-----------------------|
+|          0 | F.Zk.INTERNAL_ERROR    |
+|          1 | F.Zk.INVALID_MEDIA     |
+|          2 | F.Zk.FILE_TOO_LARGE    |
+|          3 | F.Zk.UNSUPPORTED_MEDIA |
+|          4 | F.Zk.TIMEOUT           |
+
+| constant   |   value |
+|:-----------|--------:|
+| RESET      |       0 |
+| PENDING    |       1 |
+| PAUSED     |       2 |
+| SUCCEEDED  |       3 |
+| FAILED     |       4 |
+
+| constant   | value      |
+|:-----------|:-----------|
+| LocalFile  | local_file |
+| Remote     | remote     |
+
+| constant   | value    |
+|:-----------|:---------|
+| Cancel     | cancel   |
+| Failure    | failure  |
+| Success    | success  |
+| Complete   | complete |
+| Invalid    | invalid  |
+
+| constant   | value       |
+|:-----------|:------------|
+| InProgress | in_progress |
+| Complete   | complete    |
+| Failure    | failure     |
+| Canceled   | canceled    |
+
+| constant                   | value                          |
+|:---------------------------|:-------------------------------|
+| Full                       | full                           |
+| Hash                       | hash                           |
+| Processing                 | processing                     |
+| SruUpload                  | sru_upload                     |
+| UploadSubmitUntilSruFinish | upload_submit_until_sru_finish |
+| Metadata                   | metadata                       |
+
+| constant                   | value                                   |
+|:---------------------------|:----------------------------------------|
+| SruUpload                  | sru_upload_no_eager                     |
+| UploadSubmitUntilSruFinish | upload_submit_until_sru_finish_no_eager |
+
+| constant       | value          |
+|:---------------|:---------------|
+| All            | all            |
+| Short          | short          |
+| Medium         | medium         |
+| Long           | long           |
+| XLong          | xlong          |
+| L90to140s      | l90to140s      |
+| L140to300s     | l140to300s     |
+| L300to600s     | l300to600s     |
+| L600to1200s    | l600to1200s    |
+| L1200to1800s   | l1200to1800s   |
+| L1800to2700s   | l1800to2700s   |
+| L2700to3600s   | l2700to3600s   |
+| L3600to4500s   | l3600to4500s   |
+| L4500to5400s   | l4500to5400s   |
+| L5400to6300s   | l5400to6300s   |
+| L6300to7200s   | l6300to7200s   |
+| L7200to10800s  | l7200to10800s  |
+| L10800to14400s | l10800to14400s |
+| LGT14400s      | lgt14400s      |
+
+| constant     |   value |
+|:-------------|--------:|
+| UNKNOWN      |       0 |
+| TOP_LEFT     |       1 |
+| TOP_RIGHT    |       2 |
+| BOTTOM_RIGHT |       3 |
+| BOTTOM_LEFT  |       4 |
+| LEFT_TOP     |       5 |
+| LEFT_BOTTOM  |       6 |
+| RIGHT_BOTTOM |       7 |
+| RIGHT_TOP    |       8 |
+
+| constant           |   value |
+|:-------------------|--------:|
+| FILE_TOO_LARGE     |       2 |
+| INTERNAL_ERROR     |     131 |
+| INVALID_MEDIA      |       1 |
+| RATE_LIMIT         |      88 |
+| TIMEOUT            |      67 |
+| UNSUPPORTED_MEDIA  |       3 |
+| ZERO_FILE_LENGTH   |       4 |
+| CANCELED           |     999 |
+| INVALID_RES_STATUS |      -1 |
+
 | constant   | value                                            |
 |:-----------|:-------------------------------------------------|
 | REQUEST    | rweb/oAuthConsent/FETCH_CONSENT_METADATA_REQUEST |
@@ -10269,14 +10020,14 @@ This document is entirely auto-generated and may contain errors.<br>
 | mid_level   | x       |
 | senior      | w       |
 | lead        | P       |
-| manager     | L       |
-| executive   | z       |
+| manager     | z       |
+| executive   | L       |
 
 | constant   | value                                                 |
 |:-----------|:------------------------------------------------------|
-| onsite     | {'label': 'R', 'description': 'O', 'value': 'onsite'} |
-| remote     | {'label': 'J', 'description': 'M', 'value': 'remote'} |
-| hybrid     | {'label': 'D', 'description': 'V', 'value': 'hybrid'} |
+| onsite     | {'label': 'R', 'description': 'D', 'value': 'onsite'} |
+| remote     | {'label': 'O', 'description': 'M', 'value': 'remote'} |
+| hybrid     | {'label': 'J', 'description': 'V', 'value': 'hybrid'} |
 
 | constant    | value       |
 |:------------|:------------|
@@ -10606,318 +10357,6 @@ This document is entirely auto-generated and may contain errors.<br>
 | REQUEST    | rweb/promotedContent/LOG_REQUEST |
 | SUCCESS    | rweb/promotedContent/LOG_SUCCESS |
 | FAILURE    | rweb/promotedContent/LOG_FAILURE |
-
-| constant         | value               |
-|:-----------------|:--------------------|
-| Abort            | abort               |
-| ChromelessWeb    | chromeless_web_link |
-| Deeplink         | deep_link           |
-| DeeplinkAndAbort | deep_link_and_abort |
-| DeeplinkInPlace  | deep_link_in_place  |
-| Finish           | finish              |
-| Subtask          | subtask             |
-| Task             | task                |
-| Web              | web_link            |
-| WeblinkAndAbort  | web_link_and_abort  |
-
-| constant        | value             |
-|:----------------|:------------------|
-| Allow           | allow             |
-| CancelFlow      | cancel_flow       |
-| HideExplicitCta | hide_explicit_cta |
-| Disallow        | disallow          |
-
-| constant   | value       |
-|:-----------|:------------|
-| Default    | default     |
-| BulletList | bullet_list |
-
-| constant             | value                 |
-|:---------------------|:----------------------|
-| DestructiveSecondary | destructive_secondary |
-| Primary              | primary               |
-| Secondary            | secondary             |
-| Text                 | text                  |
-| Brand                | brand                 |
-| TwitterBrand         | twitter_brand         |
-
-| constant      | value          |
-|:--------------|:---------------|
-| Small         | small          |
-| NormalCompact | normal_compact |
-| Normal        | normal         |
-| LargeCompact  | large_compact  |
-| Large         | large          |
-
-| constant          | value     |
-|:------------------|:----------|
-| CheckmarkAndClose | checkmark |
-| Text              | text      |
-| ThumbsUpAndDown   | thumbs    |
-
-| constant   | value   |
-|:-----------|:--------|
-| Toolbar    | toolbar |
-
-| constant       | value           |
-|:---------------|:----------------|
-| Scrollable     | scrollable      |
-| Centered       | centered        |
-| CenteredHeader | centered_header |
-| HalfCover      | half_cover      |
-
-| constant   | value   |
-|:-----------|:--------|
-| Success    | success |
-| Failure    | failure |
-| Cancel     | cancel  |
-
-| constant     | value          |
-|:-------------|:---------------|
-| Icon         | icon           |
-| FullWidth    | full_width     |
-| FullBleedTop | full_bleed_top |
-
-| constant       | value            |
-|:---------------|:-----------------|
-| PhoneOnly      | phone_only       |
-| EmailOnly      | email_only       |
-| PhoneThenEmail | phone_then_email |
-| EmailThenPhone | email_then_phone |
-
-| constant                         | value                                |
-|:---------------------------------|:-------------------------------------|
-| ActionList                       | ACTION_LIST                          |
-| AlertDialog                      | ALERT_DIALOG                         |
-| AlertDialogSupressClientEvents   | ALERT_DIALOG_SUPRESS_CLIENT_EVENTS   |
-| AppDownloadCTA                   | APP_DOWNLOAD_CTA                     |
-| AppLocaleUpdate                  | APP_LOCALE_UPDATE                    |
-| BrowsableNux                     | BROWSABLE_NUX                        |
-| CallToAction                     | CALL_TO_ACTION                       |
-| CheckLoggedInAccount             | CHECK_LOGGED_IN_ACCOUNT              |
-| ChoiceSelection                  | CHOICE_SELECTION                     |
-| ContactsLiveSyncPermissionPrompt | CONTACTS_LIVE_SYNC_PERMISSION_PROMPT |
-| EmailContactsSync                | EMAIL_CONTACTS_SYNC                  |
-| EmailVerification                | EMAIL_VERIFICATION                   |
-| EndFlow                          | END_FLOW                             |
-| EnterDate                        | ENTER_DATE                           |
-| EnterEmail                       | ENTER_EMAIL                          |
-| EnterPassword                    | ENTER_PASSWORD                       |
-| EnterPhone                       | ENTER_PHONE                          |
-| EnterRecaptcha                   | ENTER_RECAPTCHA                      |
-| EnterText                        | ENTER_TEXT                           |
-| EnterUsername                    | ENTER_USERNAME                       |
-| FetchPassword                    | FETCH_PASSWORD                       |
-| GenericURT                       | GENERIC_URT                          |
-| InAppNotification                | IN_APP_NOTIFICATION                  |
-| InterestPicker                   | INTEREST_PICKER                      |
-| JsInstrumentation                | JS_INSTRUMENTATION                   |
-| MenuDialog                       | MENU_DIALOG                          |
-| NotificationsPermissionPrompt    | NOTIFICATIONS_PERMISSION_PROMPT      |
-| OpenAccount                      | OPEN_ACCOUNT                         |
-| OpenHomeTimeline                 | OPEN_HOME_TIMELINE                   |
-| OpenLink                         | OPEN_LINK                            |
-| Passkey                          | PASSKEY                              |
-| PhoneVerification                | PHONE_VERIFICATION                   |
-| PrivacyOptions                   | PRIVACY_OPTIONS                      |
-| Recaptcha                        | RECAPTCHA                            |
-| SecurityKey                      | SECURITY_KEY                         |
-| SelectAvatar                     | SELECT_AVATAR                        |
-| SelectBanner                     | SELECT_BANNER                        |
-| SettingsList                     | SETTINGS_LIST                        |
-| ShowCode                         | SHOW_CODE                            |
-| Signup                           | SIGNUP                               |
-| SignupReview                     | SIGNUP_REVIEW                        |
-| TopicsSelector                   | TOPICS_SELECTOR                      |
-| TweetSelectionURT                | TWEET_SELECTION_URT                  |
-| TypeaheadSearch                  | TYPEAHEAD_SEARCH                     |
-| UpdateUsers                      | UPDATE_USERS                         |
-| UploadMedia                      | UPLOAD_MEDIA                         |
-| UserRecommendations              | USER_RECOMMENDATIONS_LIST            |
-| UserRecommendationsURT           | USER_RECOMMENDATIONS_URT             |
-| WaitSpinner                      | WAIT_SPINNER                         |
-| WebModal                         | WEB_MODAL                            |
-
-| constant   | value    |
-|:-----------|:---------|
-| Centered   | centered |
-| Left       | left     |
-
-| constant          | value              |
-|:------------------|:-------------------|
-| Action            | action             |
-| Boolean           | boolean            |
-| DestructiveAction | destructive_action |
-| PreciseLocation   | precise_location   |
-| SettingsGroup     | settings_group     |
-| StaticText        | static_text        |
-| Separator         | separator          |
-| TextField         | text_field         |
-| Button            | button             |
-| Tweet             | tweet              |
-
-| constant        | value             |
-|:----------------|:------------------|
-| AppleSSOButton  | apple_sso_button  |
-| GoogleSSOButton | google_sso_button |
-| NextButton      | next_button       |
-| UserIdentifier  | user_identifier   |
-
-| constant                 | value          |
-|:-------------------------|:---------------|
-| DEPRECATED_UnorderedList | UnorderedList  |
-| DEPRECATED_ListItem      | ListItem       |
-| UnorderedList            | unordered_list |
-| ListItem                 | list_item      |
-
-| constant   | value   |
-|:-----------|:--------|
-| Normal     | Normal  |
-| Bold       | Bold    |
-
-| constant   | value   |
-|:-----------|:--------|
-| Small      | Small   |
-| Normal     | Normal  |
-| Large      | Large   |
-| XLarge     | XLarge  |
-| Jumbo      | Jumbo   |
-
-| constant   | value   |
-|:-----------|:--------|
-| Qr         | qr      |
-| Text       | text    |
-
-| constant   | value   |
-|:-----------|:--------|
-| Avatar     | avatar  |
-| Banner     | banner  |
-
-| constant   | value     |
-|:-----------|:----------|
-| Success    | success   |
-| NotFound   | not_found |
-| Error      | error     |
-
-| constant   | value    |
-|:-----------|:---------|
-| Favorite   | favorite |
-| Follow     | follow   |
-| Reply      | reply    |
-| Retweet    | retweet  |
-
-| constant   | value    |
-|:-----------|:---------|
-| Checkbox   | checkbox |
-| Follow     | follow   |
-
-| constant         | value           |
-|:-----------------|:----------------|
-| Tile             | tile            |
-| List             | list            |
-| TileFollowButton | tile_follow_btn |
-
-| constant   | value     |
-|:-----------|:----------|
-| Always     | always    |
-| Never      | never     |
-| Preprompt  | preprompt |
-
-| constant   | value     |
-|:-----------|:----------|
-| Email      | email     |
-| Number     | number    |
-| Password   | password  |
-| Telephone  | telephone |
-| Text       | text      |
-
-| constant    | value        |
-|:------------|:-------------|
-| ResendSms   | resend_sms   |
-| ResendVoice | resend_voice |
-| ResendEmail | resend_email |
-
-| constant    | value        |
-|:------------|:-------------|
-| Password    | password     |
-| NewPassword | new_password |
-| Text        | text         |
-
-| constant   | value   |
-|:-----------|:--------|
-| Normal     | normal  |
-| Compact    | compact |
-
-| constant    | value        |
-|:------------|:-------------|
-| Username    | username     |
-| Password    | password     |
-| NewPassword | new_password |
-| Text        | text         |
-
-| constant   | value    |
-|:-----------|:---------|
-| Mismatch   | mismatch |
-
-| constant   | value   |
-|:-----------|:--------|
-| compact    | compact |
-| stacked    | stacked |
-
-| constant      | value          |
-|:--------------|:---------------|
-| Fixed         | fixed          |
-| Floating      | floating       |
-| FloatingLarge | floating_large |
-
-| constant   | value      |
-|:-----------|:-----------|
-| Default    | default    |
-| GoogleSSO  | google_sso |
-| AppleSSO   | apple_sso  |
-
-| constant   | value      |
-|:-----------|:-----------|
-| Impression | impression |
-| Click      | click      |
-
-| constant       | value           |
-|:---------------|:----------------|
-| HeaderTitle    | header_title    |
-| HeaderSubtitle | header_subtitle |
-| SectionTitle   | section_title   |
-| Detail         | detail          |
-
-| constant   | value   |
-|:-----------|:--------|
-| All        | all     |
-| Users      | users   |
-| Topics     | topics  |
-| Events     | events  |
-
-| constant   | value                  |
-|:-----------|:-----------------------|
-| REQUEST    | rweb/ocf/FETCH_REQUEST |
-| SUCCESS    | rweb/ocf/FETCH_SUCCESS |
-| FAILURE    | rweb/ocf/FETCH_FAILURE |
-
-| constant   | value                  |
-|:-----------|:-----------------------|
-| REQUEST    | rweb/ocf/START_REQUEST |
-| SUCCESS    | rweb/ocf/START_SUCCESS |
-| FAILURE    | rweb/ocf/START_FAILURE |
-
-| constant   | value                              |
-|:-----------|:-----------------------------------|
-| REQUEST    | rweb/ocf/VERIFY_IDENTIFIER_REQUEST |
-| SUCCESS    | rweb/ocf/VERIFY_IDENTIFIER_SUCCESS |
-| FAILURE    | rweb/ocf/VERIFY_IDENTIFIER_FAILURE |
-
-| constant   | value                                                |
-|:-----------|:-----------------------------------------------------|
-| REQUEST    | rweb/ocf/FETCH_BROWSABLE_NUX_RECOMMENDATIONS_REQUEST |
-| SUCCESS    | rweb/ocf/FETCH_BROWSABLE_NUX_RECOMMENDATIONS_SUCCESS |
-| FAILURE    | rweb/ocf/FETCH_BROWSABLE_NUX_RECOMMENDATIONS_FAILURE |
 
 | constant   | value    |
 |:-----------|:---------|
@@ -11262,39 +10701,6 @@ This document is entirely auto-generated and may contain errors.<br>
 | Recommendations | recommendations |
 | Search          | search          |
 
-| constant    | value       |
-|:------------|:------------|
-| RESIZE      | resize      |
-| UPLOAD      | upload      |
-| METADATA    | metadata    |
-| MAXDURATION | maxduration |
-| MAXSIZE     | maxsize     |
-
-| constant        | value                  |
-|:----------------|:-----------------------|
-| AmplifyVideo    | amplify_video          |
-| CommunityBanner | community_banner_image |
-| ListBanner      | list_banner_image      |
-| TweetImage      | tweet_image            |
-| TweetVideo      | tweet_video            |
-| TweetGif        | tweet_gif              |
-| DMImage         | dm_image               |
-| DMVideo         | dm_video               |
-| DMGif           | dm_gif                 |
-| Subtitles       | subtitles              |
-| ProfileBanner   | banner_image           |
-
-| constant        | value            |
-|:----------------|:-----------------|
-| Tweet           | tweet            |
-| Dm              | dm               |
-| CommunityBanner | community_banner |
-| ListBanner      | list_banner      |
-| ProfileBanner   | profile_banner   |
-| Avatar          | avatar           |
-| Verification    | verification     |
-| TwitterArticle  | twitter_article  |
-
 | constant    | value                 |
 |:------------|:----------------------|
 | X_BACKEND   | X_BACKEND             |
@@ -11402,83 +10808,6 @@ This document is entirely auto-generated and may contain errors.<br>
 | HUMAN      |       1 |
 | ASSISTANT  |       2 |
 
-| constant   | value      |
-|:-----------|:-----------|
-| uploading  | uploading  |
-| processing | processing |
-
-|   constant | value                  |
-|-----------:|:-----------------------|
-|          0 | C.Zk.INTERNAL_ERROR    |
-|          1 | C.Zk.INVALID_MEDIA     |
-|          2 | C.Zk.FILE_TOO_LARGE    |
-|          3 | C.Zk.UNSUPPORTED_MEDIA |
-|          4 | C.Zk.TIMEOUT           |
-
-| constant   |   value |
-|:-----------|--------:|
-| RESET      |       0 |
-| PENDING    |       1 |
-| PAUSED     |       2 |
-| SUCCEEDED  |       3 |
-| FAILED     |       4 |
-
-| constant   | value      |
-|:-----------|:-----------|
-| LocalFile  | local_file |
-| Remote     | remote     |
-
-| constant   | value    |
-|:-----------|:---------|
-| Cancel     | cancel   |
-| Failure    | failure  |
-| Success    | success  |
-| Complete   | complete |
-| Invalid    | invalid  |
-
-| constant   | value       |
-|:-----------|:------------|
-| InProgress | in_progress |
-| Complete   | complete    |
-| Failure    | failure     |
-| Canceled   | canceled    |
-
-| constant                   | value                          |
-|:---------------------------|:-------------------------------|
-| Full                       | full                           |
-| Hash                       | hash                           |
-| Processing                 | processing                     |
-| SruUpload                  | sru_upload                     |
-| UploadSubmitUntilSruFinish | upload_submit_until_sru_finish |
-| Metadata                   | metadata                       |
-
-| constant                   | value                                   |
-|:---------------------------|:----------------------------------------|
-| SruUpload                  | sru_upload_no_eager                     |
-| UploadSubmitUntilSruFinish | upload_submit_until_sru_finish_no_eager |
-
-| constant       | value          |
-|:---------------|:---------------|
-| All            | all            |
-| Short          | short          |
-| Medium         | medium         |
-| Long           | long           |
-| XLong          | xlong          |
-| L90to140s      | l90to140s      |
-| L140to300s     | l140to300s     |
-| L300to600s     | l300to600s     |
-| L600to1200s    | l600to1200s    |
-| L1200to1800s   | l1200to1800s   |
-| L1800to2700s   | l1800to2700s   |
-| L2700to3600s   | l2700to3600s   |
-| L3600to4500s   | l3600to4500s   |
-| L4500to5400s   | l4500to5400s   |
-| L5400to6300s   | l5400to6300s   |
-| L6300to7200s   | l6300to7200s   |
-| L7200to10800s  | l7200to10800s  |
-| L10800to14400s | l10800to14400s |
-| LGT14400s      | lgt14400s      |
-
 | constant              | value                    |
 |:----------------------|:-------------------------|
 | CodeExecution         | code_execution           |
@@ -11502,30 +10831,6 @@ This document is entirely auto-generated and may contain errors.<br>
 | CallSportsApi         | call_sports_api          |
 | CallCryptoApi         | call_crypto_api          |
 | CallWeatherApi        | call_weather_api         |
-
-| constant     |   value |
-|:-------------|--------:|
-| UNKNOWN      |       0 |
-| TOP_LEFT     |       1 |
-| TOP_RIGHT    |       2 |
-| BOTTOM_RIGHT |       3 |
-| BOTTOM_LEFT  |       4 |
-| LEFT_TOP     |       5 |
-| LEFT_BOTTOM  |       6 |
-| RIGHT_BOTTOM |       7 |
-| RIGHT_TOP    |       8 |
-
-| constant           |   value |
-|:-------------------|--------:|
-| FILE_TOO_LARGE     |       2 |
-| INTERNAL_ERROR     |     131 |
-| INVALID_MEDIA      |       1 |
-| RATE_LIMIT         |      88 |
-| TIMEOUT            |      67 |
-| UNSUPPORTED_MEDIA  |       3 |
-| ZERO_FILE_LENGTH   |       4 |
-| CANCELED           |     999 |
-| INVALID_RES_STATUS |      -1 |
 
 | constant      | value         |
 |:--------------|:--------------|
@@ -11695,630 +11000,6 @@ This document is entirely auto-generated and may contain errors.<br>
 | Invalid                   | invalid                   |
 | NotSet                    | notSet                    |
 
-| constant         | value               |
-|:-----------------|:--------------------|
-| Abort            | abort               |
-| ChromelessWeb    | chromeless_web_link |
-| Deeplink         | deep_link           |
-| DeeplinkAndAbort | deep_link_and_abort |
-| DeeplinkInPlace  | deep_link_in_place  |
-| Finish           | finish              |
-| Subtask          | subtask             |
-| Task             | task                |
-| Web              | web_link            |
-| WeblinkAndAbort  | web_link_and_abort  |
-
-| constant        | value             |
-|:----------------|:------------------|
-| Allow           | allow             |
-| CancelFlow      | cancel_flow       |
-| HideExplicitCta | hide_explicit_cta |
-| Disallow        | disallow          |
-
-| constant   | value       |
-|:-----------|:------------|
-| Default    | default     |
-| BulletList | bullet_list |
-
-| constant             | value                 |
-|:---------------------|:----------------------|
-| DestructiveSecondary | destructive_secondary |
-| Primary              | primary               |
-| Secondary            | secondary             |
-| Text                 | text                  |
-| Brand                | brand                 |
-| TwitterBrand         | twitter_brand         |
-
-| constant      | value          |
-|:--------------|:---------------|
-| Small         | small          |
-| NormalCompact | normal_compact |
-| Normal        | normal         |
-| LargeCompact  | large_compact  |
-| Large         | large          |
-
-| constant          | value     |
-|:------------------|:----------|
-| CheckmarkAndClose | checkmark |
-| Text              | text      |
-| ThumbsUpAndDown   | thumbs    |
-
-| constant   | value   |
-|:-----------|:--------|
-| Toolbar    | toolbar |
-
-| constant       | value           |
-|:---------------|:----------------|
-| Scrollable     | scrollable      |
-| Centered       | centered        |
-| CenteredHeader | centered_header |
-| HalfCover      | half_cover      |
-
-| constant   | value   |
-|:-----------|:--------|
-| Success    | success |
-| Failure    | failure |
-| Cancel     | cancel  |
-
-| constant     | value          |
-|:-------------|:---------------|
-| Icon         | icon           |
-| FullWidth    | full_width     |
-| FullBleedTop | full_bleed_top |
-
-| constant       | value            |
-|:---------------|:-----------------|
-| PhoneOnly      | phone_only       |
-| EmailOnly      | email_only       |
-| PhoneThenEmail | phone_then_email |
-| EmailThenPhone | email_then_phone |
-
-| constant                         | value                                |
-|:---------------------------------|:-------------------------------------|
-| ActionList                       | ACTION_LIST                          |
-| AlertDialog                      | ALERT_DIALOG                         |
-| AlertDialogSupressClientEvents   | ALERT_DIALOG_SUPRESS_CLIENT_EVENTS   |
-| AppDownloadCTA                   | APP_DOWNLOAD_CTA                     |
-| AppLocaleUpdate                  | APP_LOCALE_UPDATE                    |
-| BrowsableNux                     | BROWSABLE_NUX                        |
-| CallToAction                     | CALL_TO_ACTION                       |
-| CheckLoggedInAccount             | CHECK_LOGGED_IN_ACCOUNT              |
-| ChoiceSelection                  | CHOICE_SELECTION                     |
-| ContactsLiveSyncPermissionPrompt | CONTACTS_LIVE_SYNC_PERMISSION_PROMPT |
-| EmailContactsSync                | EMAIL_CONTACTS_SYNC                  |
-| EmailVerification                | EMAIL_VERIFICATION                   |
-| EndFlow                          | END_FLOW                             |
-| EnterDate                        | ENTER_DATE                           |
-| EnterEmail                       | ENTER_EMAIL                          |
-| EnterPassword                    | ENTER_PASSWORD                       |
-| EnterPhone                       | ENTER_PHONE                          |
-| EnterRecaptcha                   | ENTER_RECAPTCHA                      |
-| EnterText                        | ENTER_TEXT                           |
-| EnterUsername                    | ENTER_USERNAME                       |
-| FetchPassword                    | FETCH_PASSWORD                       |
-| GenericURT                       | GENERIC_URT                          |
-| InAppNotification                | IN_APP_NOTIFICATION                  |
-| InterestPicker                   | INTEREST_PICKER                      |
-| JsInstrumentation                | JS_INSTRUMENTATION                   |
-| MenuDialog                       | MENU_DIALOG                          |
-| NotificationsPermissionPrompt    | NOTIFICATIONS_PERMISSION_PROMPT      |
-| OpenAccount                      | OPEN_ACCOUNT                         |
-| OpenHomeTimeline                 | OPEN_HOME_TIMELINE                   |
-| OpenLink                         | OPEN_LINK                            |
-| Passkey                          | PASSKEY                              |
-| PhoneVerification                | PHONE_VERIFICATION                   |
-| PrivacyOptions                   | PRIVACY_OPTIONS                      |
-| Recaptcha                        | RECAPTCHA                            |
-| SecurityKey                      | SECURITY_KEY                         |
-| SelectAvatar                     | SELECT_AVATAR                        |
-| SelectBanner                     | SELECT_BANNER                        |
-| SettingsList                     | SETTINGS_LIST                        |
-| ShowCode                         | SHOW_CODE                            |
-| Signup                           | SIGNUP                               |
-| SignupReview                     | SIGNUP_REVIEW                        |
-| TopicsSelector                   | TOPICS_SELECTOR                      |
-| TweetSelectionURT                | TWEET_SELECTION_URT                  |
-| TypeaheadSearch                  | TYPEAHEAD_SEARCH                     |
-| UpdateUsers                      | UPDATE_USERS                         |
-| UploadMedia                      | UPLOAD_MEDIA                         |
-| UserRecommendations              | USER_RECOMMENDATIONS_LIST            |
-| UserRecommendationsURT           | USER_RECOMMENDATIONS_URT             |
-| WaitSpinner                      | WAIT_SPINNER                         |
-| WebModal                         | WEB_MODAL                            |
-
-| constant   | value    |
-|:-----------|:---------|
-| Centered   | centered |
-| Left       | left     |
-
-| constant          | value              |
-|:------------------|:-------------------|
-| Action            | action             |
-| Boolean           | boolean            |
-| DestructiveAction | destructive_action |
-| PreciseLocation   | precise_location   |
-| SettingsGroup     | settings_group     |
-| StaticText        | static_text        |
-| Separator         | separator          |
-| TextField         | text_field         |
-| Button            | button             |
-| Tweet             | tweet              |
-
-| constant        | value             |
-|:----------------|:------------------|
-| AppleSSOButton  | apple_sso_button  |
-| GoogleSSOButton | google_sso_button |
-| NextButton      | next_button       |
-| UserIdentifier  | user_identifier   |
-
-| constant                 | value          |
-|:-------------------------|:---------------|
-| DEPRECATED_UnorderedList | UnorderedList  |
-| DEPRECATED_ListItem      | ListItem       |
-| UnorderedList            | unordered_list |
-| ListItem                 | list_item      |
-
-| constant   | value   |
-|:-----------|:--------|
-| Normal     | Normal  |
-| Bold       | Bold    |
-
-| constant   | value   |
-|:-----------|:--------|
-| Small      | Small   |
-| Normal     | Normal  |
-| Large      | Large   |
-| XLarge     | XLarge  |
-| Jumbo      | Jumbo   |
-
-| constant   | value   |
-|:-----------|:--------|
-| Qr         | qr      |
-| Text       | text    |
-
-| constant   | value   |
-|:-----------|:--------|
-| Avatar     | avatar  |
-| Banner     | banner  |
-
-| constant   | value     |
-|:-----------|:----------|
-| Success    | success   |
-| NotFound   | not_found |
-| Error      | error     |
-
-| constant   | value    |
-|:-----------|:---------|
-| Favorite   | favorite |
-| Follow     | follow   |
-| Reply      | reply    |
-| Retweet    | retweet  |
-
-| constant   | value    |
-|:-----------|:---------|
-| Checkbox   | checkbox |
-| Follow     | follow   |
-
-| constant         | value           |
-|:-----------------|:----------------|
-| Tile             | tile            |
-| List             | list            |
-| TileFollowButton | tile_follow_btn |
-
-| constant   | value     |
-|:-----------|:----------|
-| Always     | always    |
-| Never      | never     |
-| Preprompt  | preprompt |
-
-| constant   | value     |
-|:-----------|:----------|
-| Email      | email     |
-| Number     | number    |
-| Password   | password  |
-| Telephone  | telephone |
-| Text       | text      |
-
-| constant    | value        |
-|:------------|:-------------|
-| ResendSms   | resend_sms   |
-| ResendVoice | resend_voice |
-| ResendEmail | resend_email |
-
-| constant    | value        |
-|:------------|:-------------|
-| Password    | password     |
-| NewPassword | new_password |
-| Text        | text         |
-
-| constant   | value   |
-|:-----------|:--------|
-| Normal     | normal  |
-| Compact    | compact |
-
-| constant    | value        |
-|:------------|:-------------|
-| Username    | username     |
-| Password    | password     |
-| NewPassword | new_password |
-| Text        | text         |
-
-| constant   | value    |
-|:-----------|:---------|
-| Mismatch   | mismatch |
-
-| constant   | value   |
-|:-----------|:--------|
-| compact    | compact |
-| stacked    | stacked |
-
-| constant      | value          |
-|:--------------|:---------------|
-| Fixed         | fixed          |
-| Floating      | floating       |
-| FloatingLarge | floating_large |
-
-| constant   | value      |
-|:-----------|:-----------|
-| Default    | default    |
-| GoogleSSO  | google_sso |
-| AppleSSO   | apple_sso  |
-
-| constant   | value      |
-|:-----------|:-----------|
-| Impression | impression |
-| Click      | click      |
-
-| constant       | value           |
-|:---------------|:----------------|
-| HeaderTitle    | header_title    |
-| HeaderSubtitle | header_subtitle |
-| SectionTitle   | section_title   |
-| Detail         | detail          |
-
-| constant   | value   |
-|:-----------|:--------|
-| All        | all     |
-| Users      | users   |
-| Topics     | topics  |
-| Events     | events  |
-
-| constant   | value                  |
-|:-----------|:-----------------------|
-| REQUEST    | rweb/ocf/FETCH_REQUEST |
-| SUCCESS    | rweb/ocf/FETCH_SUCCESS |
-| FAILURE    | rweb/ocf/FETCH_FAILURE |
-
-| constant   | value                  |
-|:-----------|:-----------------------|
-| REQUEST    | rweb/ocf/START_REQUEST |
-| SUCCESS    | rweb/ocf/START_SUCCESS |
-| FAILURE    | rweb/ocf/START_FAILURE |
-
-| constant   | value                              |
-|:-----------|:-----------------------------------|
-| REQUEST    | rweb/ocf/VERIFY_IDENTIFIER_REQUEST |
-| SUCCESS    | rweb/ocf/VERIFY_IDENTIFIER_SUCCESS |
-| FAILURE    | rweb/ocf/VERIFY_IDENTIFIER_FAILURE |
-
-| constant   | value                                                |
-|:-----------|:-----------------------------------------------------|
-| REQUEST    | rweb/ocf/FETCH_BROWSABLE_NUX_RECOMMENDATIONS_REQUEST |
-| SUCCESS    | rweb/ocf/FETCH_BROWSABLE_NUX_RECOMMENDATIONS_SUCCESS |
-| FAILURE    | rweb/ocf/FETCH_BROWSABLE_NUX_RECOMMENDATIONS_FAILURE |
-
-| constant         | value               |
-|:-----------------|:--------------------|
-| Abort            | abort               |
-| ChromelessWeb    | chromeless_web_link |
-| Deeplink         | deep_link           |
-| DeeplinkAndAbort | deep_link_and_abort |
-| DeeplinkInPlace  | deep_link_in_place  |
-| Finish           | finish              |
-| Subtask          | subtask             |
-| Task             | task                |
-| Web              | web_link            |
-| WeblinkAndAbort  | web_link_and_abort  |
-
-| constant        | value             |
-|:----------------|:------------------|
-| Allow           | allow             |
-| CancelFlow      | cancel_flow       |
-| HideExplicitCta | hide_explicit_cta |
-| Disallow        | disallow          |
-
-| constant   | value       |
-|:-----------|:------------|
-| Default    | default     |
-| BulletList | bullet_list |
-
-| constant             | value                 |
-|:---------------------|:----------------------|
-| DestructiveSecondary | destructive_secondary |
-| Primary              | primary               |
-| Secondary            | secondary             |
-| Text                 | text                  |
-| Brand                | brand                 |
-| TwitterBrand         | twitter_brand         |
-
-| constant      | value          |
-|:--------------|:---------------|
-| Small         | small          |
-| NormalCompact | normal_compact |
-| Normal        | normal         |
-| LargeCompact  | large_compact  |
-| Large         | large          |
-
-| constant          | value     |
-|:------------------|:----------|
-| CheckmarkAndClose | checkmark |
-| Text              | text      |
-| ThumbsUpAndDown   | thumbs    |
-
-| constant   | value   |
-|:-----------|:--------|
-| Toolbar    | toolbar |
-
-| constant       | value           |
-|:---------------|:----------------|
-| Scrollable     | scrollable      |
-| Centered       | centered        |
-| CenteredHeader | centered_header |
-| HalfCover      | half_cover      |
-
-| constant   | value   |
-|:-----------|:--------|
-| Success    | success |
-| Failure    | failure |
-| Cancel     | cancel  |
-
-| constant     | value          |
-|:-------------|:---------------|
-| Icon         | icon           |
-| FullWidth    | full_width     |
-| FullBleedTop | full_bleed_top |
-
-| constant       | value            |
-|:---------------|:-----------------|
-| PhoneOnly      | phone_only       |
-| EmailOnly      | email_only       |
-| PhoneThenEmail | phone_then_email |
-| EmailThenPhone | email_then_phone |
-
-| constant                         | value                                |
-|:---------------------------------|:-------------------------------------|
-| ActionList                       | ACTION_LIST                          |
-| AlertDialog                      | ALERT_DIALOG                         |
-| AlertDialogSupressClientEvents   | ALERT_DIALOG_SUPRESS_CLIENT_EVENTS   |
-| AppDownloadCTA                   | APP_DOWNLOAD_CTA                     |
-| AppLocaleUpdate                  | APP_LOCALE_UPDATE                    |
-| BrowsableNux                     | BROWSABLE_NUX                        |
-| CallToAction                     | CALL_TO_ACTION                       |
-| CheckLoggedInAccount             | CHECK_LOGGED_IN_ACCOUNT              |
-| ChoiceSelection                  | CHOICE_SELECTION                     |
-| ContactsLiveSyncPermissionPrompt | CONTACTS_LIVE_SYNC_PERMISSION_PROMPT |
-| EmailContactsSync                | EMAIL_CONTACTS_SYNC                  |
-| EmailVerification                | EMAIL_VERIFICATION                   |
-| EndFlow                          | END_FLOW                             |
-| EnterDate                        | ENTER_DATE                           |
-| EnterEmail                       | ENTER_EMAIL                          |
-| EnterPassword                    | ENTER_PASSWORD                       |
-| EnterPhone                       | ENTER_PHONE                          |
-| EnterRecaptcha                   | ENTER_RECAPTCHA                      |
-| EnterText                        | ENTER_TEXT                           |
-| EnterUsername                    | ENTER_USERNAME                       |
-| FetchPassword                    | FETCH_PASSWORD                       |
-| GenericURT                       | GENERIC_URT                          |
-| InAppNotification                | IN_APP_NOTIFICATION                  |
-| InterestPicker                   | INTEREST_PICKER                      |
-| JsInstrumentation                | JS_INSTRUMENTATION                   |
-| MenuDialog                       | MENU_DIALOG                          |
-| NotificationsPermissionPrompt    | NOTIFICATIONS_PERMISSION_PROMPT      |
-| OpenAccount                      | OPEN_ACCOUNT                         |
-| OpenHomeTimeline                 | OPEN_HOME_TIMELINE                   |
-| OpenLink                         | OPEN_LINK                            |
-| Passkey                          | PASSKEY                              |
-| PhoneVerification                | PHONE_VERIFICATION                   |
-| PrivacyOptions                   | PRIVACY_OPTIONS                      |
-| Recaptcha                        | RECAPTCHA                            |
-| SecurityKey                      | SECURITY_KEY                         |
-| SelectAvatar                     | SELECT_AVATAR                        |
-| SelectBanner                     | SELECT_BANNER                        |
-| SettingsList                     | SETTINGS_LIST                        |
-| ShowCode                         | SHOW_CODE                            |
-| Signup                           | SIGNUP                               |
-| SignupReview                     | SIGNUP_REVIEW                        |
-| TopicsSelector                   | TOPICS_SELECTOR                      |
-| TweetSelectionURT                | TWEET_SELECTION_URT                  |
-| TypeaheadSearch                  | TYPEAHEAD_SEARCH                     |
-| UpdateUsers                      | UPDATE_USERS                         |
-| UploadMedia                      | UPLOAD_MEDIA                         |
-| UserRecommendations              | USER_RECOMMENDATIONS_LIST            |
-| UserRecommendationsURT           | USER_RECOMMENDATIONS_URT             |
-| WaitSpinner                      | WAIT_SPINNER                         |
-| WebModal                         | WEB_MODAL                            |
-
-| constant   | value    |
-|:-----------|:---------|
-| Centered   | centered |
-| Left       | left     |
-
-| constant          | value              |
-|:------------------|:-------------------|
-| Action            | action             |
-| Boolean           | boolean            |
-| DestructiveAction | destructive_action |
-| PreciseLocation   | precise_location   |
-| SettingsGroup     | settings_group     |
-| StaticText        | static_text        |
-| Separator         | separator          |
-| TextField         | text_field         |
-| Button            | button             |
-| Tweet             | tweet              |
-
-| constant        | value             |
-|:----------------|:------------------|
-| AppleSSOButton  | apple_sso_button  |
-| GoogleSSOButton | google_sso_button |
-| NextButton      | next_button       |
-| UserIdentifier  | user_identifier   |
-
-| constant                 | value          |
-|:-------------------------|:---------------|
-| DEPRECATED_UnorderedList | UnorderedList  |
-| DEPRECATED_ListItem      | ListItem       |
-| UnorderedList            | unordered_list |
-| ListItem                 | list_item      |
-
-| constant   | value   |
-|:-----------|:--------|
-| Normal     | Normal  |
-| Bold       | Bold    |
-
-| constant   | value   |
-|:-----------|:--------|
-| Small      | Small   |
-| Normal     | Normal  |
-| Large      | Large   |
-| XLarge     | XLarge  |
-| Jumbo      | Jumbo   |
-
-| constant   | value   |
-|:-----------|:--------|
-| Qr         | qr      |
-| Text       | text    |
-
-| constant   | value   |
-|:-----------|:--------|
-| Avatar     | avatar  |
-| Banner     | banner  |
-
-| constant   | value     |
-|:-----------|:----------|
-| Success    | success   |
-| NotFound   | not_found |
-| Error      | error     |
-
-| constant   | value    |
-|:-----------|:---------|
-| Favorite   | favorite |
-| Follow     | follow   |
-| Reply      | reply    |
-| Retweet    | retweet  |
-
-| constant   | value    |
-|:-----------|:---------|
-| Checkbox   | checkbox |
-| Follow     | follow   |
-
-| constant         | value           |
-|:-----------------|:----------------|
-| Tile             | tile            |
-| List             | list            |
-| TileFollowButton | tile_follow_btn |
-
-| constant   | value     |
-|:-----------|:----------|
-| Always     | always    |
-| Never      | never     |
-| Preprompt  | preprompt |
-
-| constant   | value     |
-|:-----------|:----------|
-| Email      | email     |
-| Number     | number    |
-| Password   | password  |
-| Telephone  | telephone |
-| Text       | text      |
-
-| constant    | value        |
-|:------------|:-------------|
-| ResendSms   | resend_sms   |
-| ResendVoice | resend_voice |
-| ResendEmail | resend_email |
-
-| constant    | value        |
-|:------------|:-------------|
-| Password    | password     |
-| NewPassword | new_password |
-| Text        | text         |
-
-| constant   | value   |
-|:-----------|:--------|
-| Normal     | normal  |
-| Compact    | compact |
-
-| constant    | value        |
-|:------------|:-------------|
-| Username    | username     |
-| Password    | password     |
-| NewPassword | new_password |
-| Text        | text         |
-
-| constant   | value    |
-|:-----------|:---------|
-| Mismatch   | mismatch |
-
-| constant   | value   |
-|:-----------|:--------|
-| compact    | compact |
-| stacked    | stacked |
-
-| constant      | value          |
-|:--------------|:---------------|
-| Fixed         | fixed          |
-| Floating      | floating       |
-| FloatingLarge | floating_large |
-
-| constant   | value      |
-|:-----------|:-----------|
-| Default    | default    |
-| GoogleSSO  | google_sso |
-| AppleSSO   | apple_sso  |
-
-| constant   | value      |
-|:-----------|:-----------|
-| Impression | impression |
-| Click      | click      |
-
-| constant       | value           |
-|:---------------|:----------------|
-| HeaderTitle    | header_title    |
-| HeaderSubtitle | header_subtitle |
-| SectionTitle   | section_title   |
-| Detail         | detail          |
-
-| constant   | value   |
-|:-----------|:--------|
-| All        | all     |
-| Users      | users   |
-| Topics     | topics  |
-| Events     | events  |
-
-| constant   | value                  |
-|:-----------|:-----------------------|
-| REQUEST    | rweb/ocf/FETCH_REQUEST |
-| SUCCESS    | rweb/ocf/FETCH_SUCCESS |
-| FAILURE    | rweb/ocf/FETCH_FAILURE |
-
-| constant   | value                  |
-|:-----------|:-----------------------|
-| REQUEST    | rweb/ocf/START_REQUEST |
-| SUCCESS    | rweb/ocf/START_SUCCESS |
-| FAILURE    | rweb/ocf/START_FAILURE |
-
-| constant   | value                              |
-|:-----------|:-----------------------------------|
-| REQUEST    | rweb/ocf/VERIFY_IDENTIFIER_REQUEST |
-| SUCCESS    | rweb/ocf/VERIFY_IDENTIFIER_SUCCESS |
-| FAILURE    | rweb/ocf/VERIFY_IDENTIFIER_FAILURE |
-
-| constant   | value                                                |
-|:-----------|:-----------------------------------------------------|
-| REQUEST    | rweb/ocf/FETCH_BROWSABLE_NUX_RECOMMENDATIONS_REQUEST |
-| SUCCESS    | rweb/ocf/FETCH_BROWSABLE_NUX_RECOMMENDATIONS_SUCCESS |
-| FAILURE    | rweb/ocf/FETCH_BROWSABLE_NUX_RECOMMENDATIONS_FAILURE |
-
 | constant   | value                            |
 |:-----------|:---------------------------------|
 | REQUEST    | rweb/promotedContent/LOG_REQUEST |
@@ -12329,318 +11010,6 @@ This document is entirely auto-generated and may contain errors.<br>
 |:--------------|:--------------|
 | single_line   | singleline    |
 | format_inline | format-inline |
-
-| constant         | value               |
-|:-----------------|:--------------------|
-| Abort            | abort               |
-| ChromelessWeb    | chromeless_web_link |
-| Deeplink         | deep_link           |
-| DeeplinkAndAbort | deep_link_and_abort |
-| DeeplinkInPlace  | deep_link_in_place  |
-| Finish           | finish              |
-| Subtask          | subtask             |
-| Task             | task                |
-| Web              | web_link            |
-| WeblinkAndAbort  | web_link_and_abort  |
-
-| constant        | value             |
-|:----------------|:------------------|
-| Allow           | allow             |
-| CancelFlow      | cancel_flow       |
-| HideExplicitCta | hide_explicit_cta |
-| Disallow        | disallow          |
-
-| constant   | value       |
-|:-----------|:------------|
-| Default    | default     |
-| BulletList | bullet_list |
-
-| constant             | value                 |
-|:---------------------|:----------------------|
-| DestructiveSecondary | destructive_secondary |
-| Primary              | primary               |
-| Secondary            | secondary             |
-| Text                 | text                  |
-| Brand                | brand                 |
-| TwitterBrand         | twitter_brand         |
-
-| constant      | value          |
-|:--------------|:---------------|
-| Small         | small          |
-| NormalCompact | normal_compact |
-| Normal        | normal         |
-| LargeCompact  | large_compact  |
-| Large         | large          |
-
-| constant          | value     |
-|:------------------|:----------|
-| CheckmarkAndClose | checkmark |
-| Text              | text      |
-| ThumbsUpAndDown   | thumbs    |
-
-| constant   | value   |
-|:-----------|:--------|
-| Toolbar    | toolbar |
-
-| constant       | value           |
-|:---------------|:----------------|
-| Scrollable     | scrollable      |
-| Centered       | centered        |
-| CenteredHeader | centered_header |
-| HalfCover      | half_cover      |
-
-| constant   | value   |
-|:-----------|:--------|
-| Success    | success |
-| Failure    | failure |
-| Cancel     | cancel  |
-
-| constant     | value          |
-|:-------------|:---------------|
-| Icon         | icon           |
-| FullWidth    | full_width     |
-| FullBleedTop | full_bleed_top |
-
-| constant       | value            |
-|:---------------|:-----------------|
-| PhoneOnly      | phone_only       |
-| EmailOnly      | email_only       |
-| PhoneThenEmail | phone_then_email |
-| EmailThenPhone | email_then_phone |
-
-| constant                         | value                                |
-|:---------------------------------|:-------------------------------------|
-| ActionList                       | ACTION_LIST                          |
-| AlertDialog                      | ALERT_DIALOG                         |
-| AlertDialogSupressClientEvents   | ALERT_DIALOG_SUPRESS_CLIENT_EVENTS   |
-| AppDownloadCTA                   | APP_DOWNLOAD_CTA                     |
-| AppLocaleUpdate                  | APP_LOCALE_UPDATE                    |
-| BrowsableNux                     | BROWSABLE_NUX                        |
-| CallToAction                     | CALL_TO_ACTION                       |
-| CheckLoggedInAccount             | CHECK_LOGGED_IN_ACCOUNT              |
-| ChoiceSelection                  | CHOICE_SELECTION                     |
-| ContactsLiveSyncPermissionPrompt | CONTACTS_LIVE_SYNC_PERMISSION_PROMPT |
-| EmailContactsSync                | EMAIL_CONTACTS_SYNC                  |
-| EmailVerification                | EMAIL_VERIFICATION                   |
-| EndFlow                          | END_FLOW                             |
-| EnterDate                        | ENTER_DATE                           |
-| EnterEmail                       | ENTER_EMAIL                          |
-| EnterPassword                    | ENTER_PASSWORD                       |
-| EnterPhone                       | ENTER_PHONE                          |
-| EnterRecaptcha                   | ENTER_RECAPTCHA                      |
-| EnterText                        | ENTER_TEXT                           |
-| EnterUsername                    | ENTER_USERNAME                       |
-| FetchPassword                    | FETCH_PASSWORD                       |
-| GenericURT                       | GENERIC_URT                          |
-| InAppNotification                | IN_APP_NOTIFICATION                  |
-| InterestPicker                   | INTEREST_PICKER                      |
-| JsInstrumentation                | JS_INSTRUMENTATION                   |
-| MenuDialog                       | MENU_DIALOG                          |
-| NotificationsPermissionPrompt    | NOTIFICATIONS_PERMISSION_PROMPT      |
-| OpenAccount                      | OPEN_ACCOUNT                         |
-| OpenHomeTimeline                 | OPEN_HOME_TIMELINE                   |
-| OpenLink                         | OPEN_LINK                            |
-| Passkey                          | PASSKEY                              |
-| PhoneVerification                | PHONE_VERIFICATION                   |
-| PrivacyOptions                   | PRIVACY_OPTIONS                      |
-| Recaptcha                        | RECAPTCHA                            |
-| SecurityKey                      | SECURITY_KEY                         |
-| SelectAvatar                     | SELECT_AVATAR                        |
-| SelectBanner                     | SELECT_BANNER                        |
-| SettingsList                     | SETTINGS_LIST                        |
-| ShowCode                         | SHOW_CODE                            |
-| Signup                           | SIGNUP                               |
-| SignupReview                     | SIGNUP_REVIEW                        |
-| TopicsSelector                   | TOPICS_SELECTOR                      |
-| TweetSelectionURT                | TWEET_SELECTION_URT                  |
-| TypeaheadSearch                  | TYPEAHEAD_SEARCH                     |
-| UpdateUsers                      | UPDATE_USERS                         |
-| UploadMedia                      | UPLOAD_MEDIA                         |
-| UserRecommendations              | USER_RECOMMENDATIONS_LIST            |
-| UserRecommendationsURT           | USER_RECOMMENDATIONS_URT             |
-| WaitSpinner                      | WAIT_SPINNER                         |
-| WebModal                         | WEB_MODAL                            |
-
-| constant   | value    |
-|:-----------|:---------|
-| Centered   | centered |
-| Left       | left     |
-
-| constant          | value              |
-|:------------------|:-------------------|
-| Action            | action             |
-| Boolean           | boolean            |
-| DestructiveAction | destructive_action |
-| PreciseLocation   | precise_location   |
-| SettingsGroup     | settings_group     |
-| StaticText        | static_text        |
-| Separator         | separator          |
-| TextField         | text_field         |
-| Button            | button             |
-| Tweet             | tweet              |
-
-| constant        | value             |
-|:----------------|:------------------|
-| AppleSSOButton  | apple_sso_button  |
-| GoogleSSOButton | google_sso_button |
-| NextButton      | next_button       |
-| UserIdentifier  | user_identifier   |
-
-| constant                 | value          |
-|:-------------------------|:---------------|
-| DEPRECATED_UnorderedList | UnorderedList  |
-| DEPRECATED_ListItem      | ListItem       |
-| UnorderedList            | unordered_list |
-| ListItem                 | list_item      |
-
-| constant   | value   |
-|:-----------|:--------|
-| Normal     | Normal  |
-| Bold       | Bold    |
-
-| constant   | value   |
-|:-----------|:--------|
-| Small      | Small   |
-| Normal     | Normal  |
-| Large      | Large   |
-| XLarge     | XLarge  |
-| Jumbo      | Jumbo   |
-
-| constant   | value   |
-|:-----------|:--------|
-| Qr         | qr      |
-| Text       | text    |
-
-| constant   | value   |
-|:-----------|:--------|
-| Avatar     | avatar  |
-| Banner     | banner  |
-
-| constant   | value     |
-|:-----------|:----------|
-| Success    | success   |
-| NotFound   | not_found |
-| Error      | error     |
-
-| constant   | value    |
-|:-----------|:---------|
-| Favorite   | favorite |
-| Follow     | follow   |
-| Reply      | reply    |
-| Retweet    | retweet  |
-
-| constant   | value    |
-|:-----------|:---------|
-| Checkbox   | checkbox |
-| Follow     | follow   |
-
-| constant         | value           |
-|:-----------------|:----------------|
-| Tile             | tile            |
-| List             | list            |
-| TileFollowButton | tile_follow_btn |
-
-| constant   | value     |
-|:-----------|:----------|
-| Always     | always    |
-| Never      | never     |
-| Preprompt  | preprompt |
-
-| constant   | value     |
-|:-----------|:----------|
-| Email      | email     |
-| Number     | number    |
-| Password   | password  |
-| Telephone  | telephone |
-| Text       | text      |
-
-| constant    | value        |
-|:------------|:-------------|
-| ResendSms   | resend_sms   |
-| ResendVoice | resend_voice |
-| ResendEmail | resend_email |
-
-| constant    | value        |
-|:------------|:-------------|
-| Password    | password     |
-| NewPassword | new_password |
-| Text        | text         |
-
-| constant   | value   |
-|:-----------|:--------|
-| Normal     | normal  |
-| Compact    | compact |
-
-| constant    | value        |
-|:------------|:-------------|
-| Username    | username     |
-| Password    | password     |
-| NewPassword | new_password |
-| Text        | text         |
-
-| constant   | value    |
-|:-----------|:---------|
-| Mismatch   | mismatch |
-
-| constant   | value   |
-|:-----------|:--------|
-| compact    | compact |
-| stacked    | stacked |
-
-| constant      | value          |
-|:--------------|:---------------|
-| Fixed         | fixed          |
-| Floating      | floating       |
-| FloatingLarge | floating_large |
-
-| constant   | value      |
-|:-----------|:-----------|
-| Default    | default    |
-| GoogleSSO  | google_sso |
-| AppleSSO   | apple_sso  |
-
-| constant   | value      |
-|:-----------|:-----------|
-| Impression | impression |
-| Click      | click      |
-
-| constant       | value           |
-|:---------------|:----------------|
-| HeaderTitle    | header_title    |
-| HeaderSubtitle | header_subtitle |
-| SectionTitle   | section_title   |
-| Detail         | detail          |
-
-| constant   | value   |
-|:-----------|:--------|
-| All        | all     |
-| Users      | users   |
-| Topics     | topics  |
-| Events     | events  |
-
-| constant   | value                  |
-|:-----------|:-----------------------|
-| REQUEST    | rweb/ocf/FETCH_REQUEST |
-| SUCCESS    | rweb/ocf/FETCH_SUCCESS |
-| FAILURE    | rweb/ocf/FETCH_FAILURE |
-
-| constant   | value                  |
-|:-----------|:-----------------------|
-| REQUEST    | rweb/ocf/START_REQUEST |
-| SUCCESS    | rweb/ocf/START_SUCCESS |
-| FAILURE    | rweb/ocf/START_FAILURE |
-
-| constant   | value                              |
-|:-----------|:-----------------------------------|
-| REQUEST    | rweb/ocf/VERIFY_IDENTIFIER_REQUEST |
-| SUCCESS    | rweb/ocf/VERIFY_IDENTIFIER_SUCCESS |
-| FAILURE    | rweb/ocf/VERIFY_IDENTIFIER_FAILURE |
-
-| constant   | value                                                |
-|:-----------|:-----------------------------------------------------|
-| REQUEST    | rweb/ocf/FETCH_BROWSABLE_NUX_RECOMMENDATIONS_REQUEST |
-| SUCCESS    | rweb/ocf/FETCH_BROWSABLE_NUX_RECOMMENDATIONS_SUCCESS |
-| FAILURE    | rweb/ocf/FETCH_BROWSABLE_NUX_RECOMMENDATIONS_FAILURE |
 
 | constant              | value   |
 |:----------------------|:--------|
@@ -12862,318 +11231,6 @@ This document is entirely auto-generated and may contain errors.<br>
 | Unused6    | _Unused6   |
 | Unused7    | _Unused7   |
 
-| constant         | value               |
-|:-----------------|:--------------------|
-| Abort            | abort               |
-| ChromelessWeb    | chromeless_web_link |
-| Deeplink         | deep_link           |
-| DeeplinkAndAbort | deep_link_and_abort |
-| DeeplinkInPlace  | deep_link_in_place  |
-| Finish           | finish              |
-| Subtask          | subtask             |
-| Task             | task                |
-| Web              | web_link            |
-| WeblinkAndAbort  | web_link_and_abort  |
-
-| constant        | value             |
-|:----------------|:------------------|
-| Allow           | allow             |
-| CancelFlow      | cancel_flow       |
-| HideExplicitCta | hide_explicit_cta |
-| Disallow        | disallow          |
-
-| constant   | value       |
-|:-----------|:------------|
-| Default    | default     |
-| BulletList | bullet_list |
-
-| constant             | value                 |
-|:---------------------|:----------------------|
-| DestructiveSecondary | destructive_secondary |
-| Primary              | primary               |
-| Secondary            | secondary             |
-| Text                 | text                  |
-| Brand                | brand                 |
-| TwitterBrand         | twitter_brand         |
-
-| constant      | value          |
-|:--------------|:---------------|
-| Small         | small          |
-| NormalCompact | normal_compact |
-| Normal        | normal         |
-| LargeCompact  | large_compact  |
-| Large         | large          |
-
-| constant          | value     |
-|:------------------|:----------|
-| CheckmarkAndClose | checkmark |
-| Text              | text      |
-| ThumbsUpAndDown   | thumbs    |
-
-| constant   | value   |
-|:-----------|:--------|
-| Toolbar    | toolbar |
-
-| constant       | value           |
-|:---------------|:----------------|
-| Scrollable     | scrollable      |
-| Centered       | centered        |
-| CenteredHeader | centered_header |
-| HalfCover      | half_cover      |
-
-| constant   | value   |
-|:-----------|:--------|
-| Success    | success |
-| Failure    | failure |
-| Cancel     | cancel  |
-
-| constant     | value          |
-|:-------------|:---------------|
-| Icon         | icon           |
-| FullWidth    | full_width     |
-| FullBleedTop | full_bleed_top |
-
-| constant       | value            |
-|:---------------|:-----------------|
-| PhoneOnly      | phone_only       |
-| EmailOnly      | email_only       |
-| PhoneThenEmail | phone_then_email |
-| EmailThenPhone | email_then_phone |
-
-| constant                         | value                                |
-|:---------------------------------|:-------------------------------------|
-| ActionList                       | ACTION_LIST                          |
-| AlertDialog                      | ALERT_DIALOG                         |
-| AlertDialogSupressClientEvents   | ALERT_DIALOG_SUPRESS_CLIENT_EVENTS   |
-| AppDownloadCTA                   | APP_DOWNLOAD_CTA                     |
-| AppLocaleUpdate                  | APP_LOCALE_UPDATE                    |
-| BrowsableNux                     | BROWSABLE_NUX                        |
-| CallToAction                     | CALL_TO_ACTION                       |
-| CheckLoggedInAccount             | CHECK_LOGGED_IN_ACCOUNT              |
-| ChoiceSelection                  | CHOICE_SELECTION                     |
-| ContactsLiveSyncPermissionPrompt | CONTACTS_LIVE_SYNC_PERMISSION_PROMPT |
-| EmailContactsSync                | EMAIL_CONTACTS_SYNC                  |
-| EmailVerification                | EMAIL_VERIFICATION                   |
-| EndFlow                          | END_FLOW                             |
-| EnterDate                        | ENTER_DATE                           |
-| EnterEmail                       | ENTER_EMAIL                          |
-| EnterPassword                    | ENTER_PASSWORD                       |
-| EnterPhone                       | ENTER_PHONE                          |
-| EnterRecaptcha                   | ENTER_RECAPTCHA                      |
-| EnterText                        | ENTER_TEXT                           |
-| EnterUsername                    | ENTER_USERNAME                       |
-| FetchPassword                    | FETCH_PASSWORD                       |
-| GenericURT                       | GENERIC_URT                          |
-| InAppNotification                | IN_APP_NOTIFICATION                  |
-| InterestPicker                   | INTEREST_PICKER                      |
-| JsInstrumentation                | JS_INSTRUMENTATION                   |
-| MenuDialog                       | MENU_DIALOG                          |
-| NotificationsPermissionPrompt    | NOTIFICATIONS_PERMISSION_PROMPT      |
-| OpenAccount                      | OPEN_ACCOUNT                         |
-| OpenHomeTimeline                 | OPEN_HOME_TIMELINE                   |
-| OpenLink                         | OPEN_LINK                            |
-| Passkey                          | PASSKEY                              |
-| PhoneVerification                | PHONE_VERIFICATION                   |
-| PrivacyOptions                   | PRIVACY_OPTIONS                      |
-| Recaptcha                        | RECAPTCHA                            |
-| SecurityKey                      | SECURITY_KEY                         |
-| SelectAvatar                     | SELECT_AVATAR                        |
-| SelectBanner                     | SELECT_BANNER                        |
-| SettingsList                     | SETTINGS_LIST                        |
-| ShowCode                         | SHOW_CODE                            |
-| Signup                           | SIGNUP                               |
-| SignupReview                     | SIGNUP_REVIEW                        |
-| TopicsSelector                   | TOPICS_SELECTOR                      |
-| TweetSelectionURT                | TWEET_SELECTION_URT                  |
-| TypeaheadSearch                  | TYPEAHEAD_SEARCH                     |
-| UpdateUsers                      | UPDATE_USERS                         |
-| UploadMedia                      | UPLOAD_MEDIA                         |
-| UserRecommendations              | USER_RECOMMENDATIONS_LIST            |
-| UserRecommendationsURT           | USER_RECOMMENDATIONS_URT             |
-| WaitSpinner                      | WAIT_SPINNER                         |
-| WebModal                         | WEB_MODAL                            |
-
-| constant   | value    |
-|:-----------|:---------|
-| Centered   | centered |
-| Left       | left     |
-
-| constant          | value              |
-|:------------------|:-------------------|
-| Action            | action             |
-| Boolean           | boolean            |
-| DestructiveAction | destructive_action |
-| PreciseLocation   | precise_location   |
-| SettingsGroup     | settings_group     |
-| StaticText        | static_text        |
-| Separator         | separator          |
-| TextField         | text_field         |
-| Button            | button             |
-| Tweet             | tweet              |
-
-| constant        | value             |
-|:----------------|:------------------|
-| AppleSSOButton  | apple_sso_button  |
-| GoogleSSOButton | google_sso_button |
-| NextButton      | next_button       |
-| UserIdentifier  | user_identifier   |
-
-| constant                 | value          |
-|:-------------------------|:---------------|
-| DEPRECATED_UnorderedList | UnorderedList  |
-| DEPRECATED_ListItem      | ListItem       |
-| UnorderedList            | unordered_list |
-| ListItem                 | list_item      |
-
-| constant   | value   |
-|:-----------|:--------|
-| Normal     | Normal  |
-| Bold       | Bold    |
-
-| constant   | value   |
-|:-----------|:--------|
-| Small      | Small   |
-| Normal     | Normal  |
-| Large      | Large   |
-| XLarge     | XLarge  |
-| Jumbo      | Jumbo   |
-
-| constant   | value   |
-|:-----------|:--------|
-| Qr         | qr      |
-| Text       | text    |
-
-| constant   | value   |
-|:-----------|:--------|
-| Avatar     | avatar  |
-| Banner     | banner  |
-
-| constant   | value     |
-|:-----------|:----------|
-| Success    | success   |
-| NotFound   | not_found |
-| Error      | error     |
-
-| constant   | value    |
-|:-----------|:---------|
-| Favorite   | favorite |
-| Follow     | follow   |
-| Reply      | reply    |
-| Retweet    | retweet  |
-
-| constant   | value    |
-|:-----------|:---------|
-| Checkbox   | checkbox |
-| Follow     | follow   |
-
-| constant         | value           |
-|:-----------------|:----------------|
-| Tile             | tile            |
-| List             | list            |
-| TileFollowButton | tile_follow_btn |
-
-| constant   | value     |
-|:-----------|:----------|
-| Always     | always    |
-| Never      | never     |
-| Preprompt  | preprompt |
-
-| constant   | value     |
-|:-----------|:----------|
-| Email      | email     |
-| Number     | number    |
-| Password   | password  |
-| Telephone  | telephone |
-| Text       | text      |
-
-| constant    | value        |
-|:------------|:-------------|
-| ResendSms   | resend_sms   |
-| ResendVoice | resend_voice |
-| ResendEmail | resend_email |
-
-| constant    | value        |
-|:------------|:-------------|
-| Password    | password     |
-| NewPassword | new_password |
-| Text        | text         |
-
-| constant   | value   |
-|:-----------|:--------|
-| Normal     | normal  |
-| Compact    | compact |
-
-| constant    | value        |
-|:------------|:-------------|
-| Username    | username     |
-| Password    | password     |
-| NewPassword | new_password |
-| Text        | text         |
-
-| constant   | value    |
-|:-----------|:---------|
-| Mismatch   | mismatch |
-
-| constant   | value   |
-|:-----------|:--------|
-| compact    | compact |
-| stacked    | stacked |
-
-| constant      | value          |
-|:--------------|:---------------|
-| Fixed         | fixed          |
-| Floating      | floating       |
-| FloatingLarge | floating_large |
-
-| constant   | value      |
-|:-----------|:-----------|
-| Default    | default    |
-| GoogleSSO  | google_sso |
-| AppleSSO   | apple_sso  |
-
-| constant   | value      |
-|:-----------|:-----------|
-| Impression | impression |
-| Click      | click      |
-
-| constant       | value           |
-|:---------------|:----------------|
-| HeaderTitle    | header_title    |
-| HeaderSubtitle | header_subtitle |
-| SectionTitle   | section_title   |
-| Detail         | detail          |
-
-| constant   | value   |
-|:-----------|:--------|
-| All        | all     |
-| Users      | users   |
-| Topics     | topics  |
-| Events     | events  |
-
-| constant   | value                  |
-|:-----------|:-----------------------|
-| REQUEST    | rweb/ocf/FETCH_REQUEST |
-| SUCCESS    | rweb/ocf/FETCH_SUCCESS |
-| FAILURE    | rweb/ocf/FETCH_FAILURE |
-
-| constant   | value                  |
-|:-----------|:-----------------------|
-| REQUEST    | rweb/ocf/START_REQUEST |
-| SUCCESS    | rweb/ocf/START_SUCCESS |
-| FAILURE    | rweb/ocf/START_FAILURE |
-
-| constant   | value                              |
-|:-----------|:-----------------------------------|
-| REQUEST    | rweb/ocf/VERIFY_IDENTIFIER_REQUEST |
-| SUCCESS    | rweb/ocf/VERIFY_IDENTIFIER_SUCCESS |
-| FAILURE    | rweb/ocf/VERIFY_IDENTIFIER_FAILURE |
-
-| constant   | value                                                |
-|:-----------|:-----------------------------------------------------|
-| REQUEST    | rweb/ocf/FETCH_BROWSABLE_NUX_RECOMMENDATIONS_REQUEST |
-| SUCCESS    | rweb/ocf/FETCH_BROWSABLE_NUX_RECOMMENDATIONS_SUCCESS |
-| FAILURE    | rweb/ocf/FETCH_BROWSABLE_NUX_RECOMMENDATIONS_FAILURE |
-
 | constant   | value    |
 |:-----------|:---------|
 | Fixed      | fixed    |
@@ -13182,18 +11239,18 @@ This document is entirely auto-generated and may contain errors.<br>
 | constant           | value   |
 |:-------------------|:--------|
 | full_time          | a       |
-| full_time_contract | i       |
-| part_time          | l       |
+| full_time_contract | l       |
+| part_time          | i       |
 | contract_to_hire   | c       |
 
 |   constant | value   |
 |-----------:|:--------|
-|          1 | s       |
+|          1 | d       |
 |          2 | u       |
 
 | constant   | value                        |
 |:-----------|:-----------------------------|
-| annually   | {'label': 's', 'value': '1'} |
+| annually   | {'label': 'd', 'value': '1'} |
 | hourly     | {'label': 'u', 'value': '2'} |
 
 | constant      | value         |
@@ -13210,318 +11267,6 @@ This document is entirely auto-generated and may contain errors.<br>
 |:-----------|:-----------|
 | Pinning    | Pinning    |
 | Reordering | Reordering |
-
-| constant         | value               |
-|:-----------------|:--------------------|
-| Abort            | abort               |
-| ChromelessWeb    | chromeless_web_link |
-| Deeplink         | deep_link           |
-| DeeplinkAndAbort | deep_link_and_abort |
-| DeeplinkInPlace  | deep_link_in_place  |
-| Finish           | finish              |
-| Subtask          | subtask             |
-| Task             | task                |
-| Web              | web_link            |
-| WeblinkAndAbort  | web_link_and_abort  |
-
-| constant        | value             |
-|:----------------|:------------------|
-| Allow           | allow             |
-| CancelFlow      | cancel_flow       |
-| HideExplicitCta | hide_explicit_cta |
-| Disallow        | disallow          |
-
-| constant   | value       |
-|:-----------|:------------|
-| Default    | default     |
-| BulletList | bullet_list |
-
-| constant             | value                 |
-|:---------------------|:----------------------|
-| DestructiveSecondary | destructive_secondary |
-| Primary              | primary               |
-| Secondary            | secondary             |
-| Text                 | text                  |
-| Brand                | brand                 |
-| TwitterBrand         | twitter_brand         |
-
-| constant      | value          |
-|:--------------|:---------------|
-| Small         | small          |
-| NormalCompact | normal_compact |
-| Normal        | normal         |
-| LargeCompact  | large_compact  |
-| Large         | large          |
-
-| constant          | value     |
-|:------------------|:----------|
-| CheckmarkAndClose | checkmark |
-| Text              | text      |
-| ThumbsUpAndDown   | thumbs    |
-
-| constant   | value   |
-|:-----------|:--------|
-| Toolbar    | toolbar |
-
-| constant       | value           |
-|:---------------|:----------------|
-| Scrollable     | scrollable      |
-| Centered       | centered        |
-| CenteredHeader | centered_header |
-| HalfCover      | half_cover      |
-
-| constant   | value   |
-|:-----------|:--------|
-| Success    | success |
-| Failure    | failure |
-| Cancel     | cancel  |
-
-| constant     | value          |
-|:-------------|:---------------|
-| Icon         | icon           |
-| FullWidth    | full_width     |
-| FullBleedTop | full_bleed_top |
-
-| constant       | value            |
-|:---------------|:-----------------|
-| PhoneOnly      | phone_only       |
-| EmailOnly      | email_only       |
-| PhoneThenEmail | phone_then_email |
-| EmailThenPhone | email_then_phone |
-
-| constant                         | value                                |
-|:---------------------------------|:-------------------------------------|
-| ActionList                       | ACTION_LIST                          |
-| AlertDialog                      | ALERT_DIALOG                         |
-| AlertDialogSupressClientEvents   | ALERT_DIALOG_SUPRESS_CLIENT_EVENTS   |
-| AppDownloadCTA                   | APP_DOWNLOAD_CTA                     |
-| AppLocaleUpdate                  | APP_LOCALE_UPDATE                    |
-| BrowsableNux                     | BROWSABLE_NUX                        |
-| CallToAction                     | CALL_TO_ACTION                       |
-| CheckLoggedInAccount             | CHECK_LOGGED_IN_ACCOUNT              |
-| ChoiceSelection                  | CHOICE_SELECTION                     |
-| ContactsLiveSyncPermissionPrompt | CONTACTS_LIVE_SYNC_PERMISSION_PROMPT |
-| EmailContactsSync                | EMAIL_CONTACTS_SYNC                  |
-| EmailVerification                | EMAIL_VERIFICATION                   |
-| EndFlow                          | END_FLOW                             |
-| EnterDate                        | ENTER_DATE                           |
-| EnterEmail                       | ENTER_EMAIL                          |
-| EnterPassword                    | ENTER_PASSWORD                       |
-| EnterPhone                       | ENTER_PHONE                          |
-| EnterRecaptcha                   | ENTER_RECAPTCHA                      |
-| EnterText                        | ENTER_TEXT                           |
-| EnterUsername                    | ENTER_USERNAME                       |
-| FetchPassword                    | FETCH_PASSWORD                       |
-| GenericURT                       | GENERIC_URT                          |
-| InAppNotification                | IN_APP_NOTIFICATION                  |
-| InterestPicker                   | INTEREST_PICKER                      |
-| JsInstrumentation                | JS_INSTRUMENTATION                   |
-| MenuDialog                       | MENU_DIALOG                          |
-| NotificationsPermissionPrompt    | NOTIFICATIONS_PERMISSION_PROMPT      |
-| OpenAccount                      | OPEN_ACCOUNT                         |
-| OpenHomeTimeline                 | OPEN_HOME_TIMELINE                   |
-| OpenLink                         | OPEN_LINK                            |
-| Passkey                          | PASSKEY                              |
-| PhoneVerification                | PHONE_VERIFICATION                   |
-| PrivacyOptions                   | PRIVACY_OPTIONS                      |
-| Recaptcha                        | RECAPTCHA                            |
-| SecurityKey                      | SECURITY_KEY                         |
-| SelectAvatar                     | SELECT_AVATAR                        |
-| SelectBanner                     | SELECT_BANNER                        |
-| SettingsList                     | SETTINGS_LIST                        |
-| ShowCode                         | SHOW_CODE                            |
-| Signup                           | SIGNUP                               |
-| SignupReview                     | SIGNUP_REVIEW                        |
-| TopicsSelector                   | TOPICS_SELECTOR                      |
-| TweetSelectionURT                | TWEET_SELECTION_URT                  |
-| TypeaheadSearch                  | TYPEAHEAD_SEARCH                     |
-| UpdateUsers                      | UPDATE_USERS                         |
-| UploadMedia                      | UPLOAD_MEDIA                         |
-| UserRecommendations              | USER_RECOMMENDATIONS_LIST            |
-| UserRecommendationsURT           | USER_RECOMMENDATIONS_URT             |
-| WaitSpinner                      | WAIT_SPINNER                         |
-| WebModal                         | WEB_MODAL                            |
-
-| constant   | value    |
-|:-----------|:---------|
-| Centered   | centered |
-| Left       | left     |
-
-| constant          | value              |
-|:------------------|:-------------------|
-| Action            | action             |
-| Boolean           | boolean            |
-| DestructiveAction | destructive_action |
-| PreciseLocation   | precise_location   |
-| SettingsGroup     | settings_group     |
-| StaticText        | static_text        |
-| Separator         | separator          |
-| TextField         | text_field         |
-| Button            | button             |
-| Tweet             | tweet              |
-
-| constant        | value             |
-|:----------------|:------------------|
-| AppleSSOButton  | apple_sso_button  |
-| GoogleSSOButton | google_sso_button |
-| NextButton      | next_button       |
-| UserIdentifier  | user_identifier   |
-
-| constant                 | value          |
-|:-------------------------|:---------------|
-| DEPRECATED_UnorderedList | UnorderedList  |
-| DEPRECATED_ListItem      | ListItem       |
-| UnorderedList            | unordered_list |
-| ListItem                 | list_item      |
-
-| constant   | value   |
-|:-----------|:--------|
-| Normal     | Normal  |
-| Bold       | Bold    |
-
-| constant   | value   |
-|:-----------|:--------|
-| Small      | Small   |
-| Normal     | Normal  |
-| Large      | Large   |
-| XLarge     | XLarge  |
-| Jumbo      | Jumbo   |
-
-| constant   | value   |
-|:-----------|:--------|
-| Qr         | qr      |
-| Text       | text    |
-
-| constant   | value   |
-|:-----------|:--------|
-| Avatar     | avatar  |
-| Banner     | banner  |
-
-| constant   | value     |
-|:-----------|:----------|
-| Success    | success   |
-| NotFound   | not_found |
-| Error      | error     |
-
-| constant   | value    |
-|:-----------|:---------|
-| Favorite   | favorite |
-| Follow     | follow   |
-| Reply      | reply    |
-| Retweet    | retweet  |
-
-| constant   | value    |
-|:-----------|:---------|
-| Checkbox   | checkbox |
-| Follow     | follow   |
-
-| constant         | value           |
-|:-----------------|:----------------|
-| Tile             | tile            |
-| List             | list            |
-| TileFollowButton | tile_follow_btn |
-
-| constant   | value     |
-|:-----------|:----------|
-| Always     | always    |
-| Never      | never     |
-| Preprompt  | preprompt |
-
-| constant   | value     |
-|:-----------|:----------|
-| Email      | email     |
-| Number     | number    |
-| Password   | password  |
-| Telephone  | telephone |
-| Text       | text      |
-
-| constant    | value        |
-|:------------|:-------------|
-| ResendSms   | resend_sms   |
-| ResendVoice | resend_voice |
-| ResendEmail | resend_email |
-
-| constant    | value        |
-|:------------|:-------------|
-| Password    | password     |
-| NewPassword | new_password |
-| Text        | text         |
-
-| constant   | value   |
-|:-----------|:--------|
-| Normal     | normal  |
-| Compact    | compact |
-
-| constant    | value        |
-|:------------|:-------------|
-| Username    | username     |
-| Password    | password     |
-| NewPassword | new_password |
-| Text        | text         |
-
-| constant   | value    |
-|:-----------|:---------|
-| Mismatch   | mismatch |
-
-| constant   | value   |
-|:-----------|:--------|
-| compact    | compact |
-| stacked    | stacked |
-
-| constant      | value          |
-|:--------------|:---------------|
-| Fixed         | fixed          |
-| Floating      | floating       |
-| FloatingLarge | floating_large |
-
-| constant   | value      |
-|:-----------|:-----------|
-| Default    | default    |
-| GoogleSSO  | google_sso |
-| AppleSSO   | apple_sso  |
-
-| constant   | value      |
-|:-----------|:-----------|
-| Impression | impression |
-| Click      | click      |
-
-| constant       | value           |
-|:---------------|:----------------|
-| HeaderTitle    | header_title    |
-| HeaderSubtitle | header_subtitle |
-| SectionTitle   | section_title   |
-| Detail         | detail          |
-
-| constant   | value   |
-|:-----------|:--------|
-| All        | all     |
-| Users      | users   |
-| Topics     | topics  |
-| Events     | events  |
-
-| constant   | value                  |
-|:-----------|:-----------------------|
-| REQUEST    | rweb/ocf/FETCH_REQUEST |
-| SUCCESS    | rweb/ocf/FETCH_SUCCESS |
-| FAILURE    | rweb/ocf/FETCH_FAILURE |
-
-| constant   | value                  |
-|:-----------|:-----------------------|
-| REQUEST    | rweb/ocf/START_REQUEST |
-| SUCCESS    | rweb/ocf/START_SUCCESS |
-| FAILURE    | rweb/ocf/START_FAILURE |
-
-| constant   | value                              |
-|:-----------|:-----------------------------------|
-| REQUEST    | rweb/ocf/VERIFY_IDENTIFIER_REQUEST |
-| SUCCESS    | rweb/ocf/VERIFY_IDENTIFIER_SUCCESS |
-| FAILURE    | rweb/ocf/VERIFY_IDENTIFIER_FAILURE |
-
-| constant   | value                                                |
-|:-----------|:-----------------------------------------------------|
-| REQUEST    | rweb/ocf/FETCH_BROWSABLE_NUX_RECOMMENDATIONS_REQUEST |
-| SUCCESS    | rweb/ocf/FETCH_BROWSABLE_NUX_RECOMMENDATIONS_SUCCESS |
-| FAILURE    | rweb/ocf/FETCH_BROWSABLE_NUX_RECOMMENDATIONS_FAILURE |
 
 | constant          | value             |
 |:------------------|:------------------|
@@ -13595,318 +11340,6 @@ This document is entirely auto-generated and may contain errors.<br>
 | Topic                | Topic                |
 | Trending             | Trending             |
 
-| constant         | value               |
-|:-----------------|:--------------------|
-| Abort            | abort               |
-| ChromelessWeb    | chromeless_web_link |
-| Deeplink         | deep_link           |
-| DeeplinkAndAbort | deep_link_and_abort |
-| DeeplinkInPlace  | deep_link_in_place  |
-| Finish           | finish              |
-| Subtask          | subtask             |
-| Task             | task                |
-| Web              | web_link            |
-| WeblinkAndAbort  | web_link_and_abort  |
-
-| constant        | value             |
-|:----------------|:------------------|
-| Allow           | allow             |
-| CancelFlow      | cancel_flow       |
-| HideExplicitCta | hide_explicit_cta |
-| Disallow        | disallow          |
-
-| constant   | value       |
-|:-----------|:------------|
-| Default    | default     |
-| BulletList | bullet_list |
-
-| constant             | value                 |
-|:---------------------|:----------------------|
-| DestructiveSecondary | destructive_secondary |
-| Primary              | primary               |
-| Secondary            | secondary             |
-| Text                 | text                  |
-| Brand                | brand                 |
-| TwitterBrand         | twitter_brand         |
-
-| constant      | value          |
-|:--------------|:---------------|
-| Small         | small          |
-| NormalCompact | normal_compact |
-| Normal        | normal         |
-| LargeCompact  | large_compact  |
-| Large         | large          |
-
-| constant          | value     |
-|:------------------|:----------|
-| CheckmarkAndClose | checkmark |
-| Text              | text      |
-| ThumbsUpAndDown   | thumbs    |
-
-| constant   | value   |
-|:-----------|:--------|
-| Toolbar    | toolbar |
-
-| constant       | value           |
-|:---------------|:----------------|
-| Scrollable     | scrollable      |
-| Centered       | centered        |
-| CenteredHeader | centered_header |
-| HalfCover      | half_cover      |
-
-| constant   | value   |
-|:-----------|:--------|
-| Success    | success |
-| Failure    | failure |
-| Cancel     | cancel  |
-
-| constant     | value          |
-|:-------------|:---------------|
-| Icon         | icon           |
-| FullWidth    | full_width     |
-| FullBleedTop | full_bleed_top |
-
-| constant       | value            |
-|:---------------|:-----------------|
-| PhoneOnly      | phone_only       |
-| EmailOnly      | email_only       |
-| PhoneThenEmail | phone_then_email |
-| EmailThenPhone | email_then_phone |
-
-| constant                         | value                                |
-|:---------------------------------|:-------------------------------------|
-| ActionList                       | ACTION_LIST                          |
-| AlertDialog                      | ALERT_DIALOG                         |
-| AlertDialogSupressClientEvents   | ALERT_DIALOG_SUPRESS_CLIENT_EVENTS   |
-| AppDownloadCTA                   | APP_DOWNLOAD_CTA                     |
-| AppLocaleUpdate                  | APP_LOCALE_UPDATE                    |
-| BrowsableNux                     | BROWSABLE_NUX                        |
-| CallToAction                     | CALL_TO_ACTION                       |
-| CheckLoggedInAccount             | CHECK_LOGGED_IN_ACCOUNT              |
-| ChoiceSelection                  | CHOICE_SELECTION                     |
-| ContactsLiveSyncPermissionPrompt | CONTACTS_LIVE_SYNC_PERMISSION_PROMPT |
-| EmailContactsSync                | EMAIL_CONTACTS_SYNC                  |
-| EmailVerification                | EMAIL_VERIFICATION                   |
-| EndFlow                          | END_FLOW                             |
-| EnterDate                        | ENTER_DATE                           |
-| EnterEmail                       | ENTER_EMAIL                          |
-| EnterPassword                    | ENTER_PASSWORD                       |
-| EnterPhone                       | ENTER_PHONE                          |
-| EnterRecaptcha                   | ENTER_RECAPTCHA                      |
-| EnterText                        | ENTER_TEXT                           |
-| EnterUsername                    | ENTER_USERNAME                       |
-| FetchPassword                    | FETCH_PASSWORD                       |
-| GenericURT                       | GENERIC_URT                          |
-| InAppNotification                | IN_APP_NOTIFICATION                  |
-| InterestPicker                   | INTEREST_PICKER                      |
-| JsInstrumentation                | JS_INSTRUMENTATION                   |
-| MenuDialog                       | MENU_DIALOG                          |
-| NotificationsPermissionPrompt    | NOTIFICATIONS_PERMISSION_PROMPT      |
-| OpenAccount                      | OPEN_ACCOUNT                         |
-| OpenHomeTimeline                 | OPEN_HOME_TIMELINE                   |
-| OpenLink                         | OPEN_LINK                            |
-| Passkey                          | PASSKEY                              |
-| PhoneVerification                | PHONE_VERIFICATION                   |
-| PrivacyOptions                   | PRIVACY_OPTIONS                      |
-| Recaptcha                        | RECAPTCHA                            |
-| SecurityKey                      | SECURITY_KEY                         |
-| SelectAvatar                     | SELECT_AVATAR                        |
-| SelectBanner                     | SELECT_BANNER                        |
-| SettingsList                     | SETTINGS_LIST                        |
-| ShowCode                         | SHOW_CODE                            |
-| Signup                           | SIGNUP                               |
-| SignupReview                     | SIGNUP_REVIEW                        |
-| TopicsSelector                   | TOPICS_SELECTOR                      |
-| TweetSelectionURT                | TWEET_SELECTION_URT                  |
-| TypeaheadSearch                  | TYPEAHEAD_SEARCH                     |
-| UpdateUsers                      | UPDATE_USERS                         |
-| UploadMedia                      | UPLOAD_MEDIA                         |
-| UserRecommendations              | USER_RECOMMENDATIONS_LIST            |
-| UserRecommendationsURT           | USER_RECOMMENDATIONS_URT             |
-| WaitSpinner                      | WAIT_SPINNER                         |
-| WebModal                         | WEB_MODAL                            |
-
-| constant   | value    |
-|:-----------|:---------|
-| Centered   | centered |
-| Left       | left     |
-
-| constant          | value              |
-|:------------------|:-------------------|
-| Action            | action             |
-| Boolean           | boolean            |
-| DestructiveAction | destructive_action |
-| PreciseLocation   | precise_location   |
-| SettingsGroup     | settings_group     |
-| StaticText        | static_text        |
-| Separator         | separator          |
-| TextField         | text_field         |
-| Button            | button             |
-| Tweet             | tweet              |
-
-| constant        | value             |
-|:----------------|:------------------|
-| AppleSSOButton  | apple_sso_button  |
-| GoogleSSOButton | google_sso_button |
-| NextButton      | next_button       |
-| UserIdentifier  | user_identifier   |
-
-| constant                 | value          |
-|:-------------------------|:---------------|
-| DEPRECATED_UnorderedList | UnorderedList  |
-| DEPRECATED_ListItem      | ListItem       |
-| UnorderedList            | unordered_list |
-| ListItem                 | list_item      |
-
-| constant   | value   |
-|:-----------|:--------|
-| Normal     | Normal  |
-| Bold       | Bold    |
-
-| constant   | value   |
-|:-----------|:--------|
-| Small      | Small   |
-| Normal     | Normal  |
-| Large      | Large   |
-| XLarge     | XLarge  |
-| Jumbo      | Jumbo   |
-
-| constant   | value   |
-|:-----------|:--------|
-| Qr         | qr      |
-| Text       | text    |
-
-| constant   | value   |
-|:-----------|:--------|
-| Avatar     | avatar  |
-| Banner     | banner  |
-
-| constant   | value     |
-|:-----------|:----------|
-| Success    | success   |
-| NotFound   | not_found |
-| Error      | error     |
-
-| constant   | value    |
-|:-----------|:---------|
-| Favorite   | favorite |
-| Follow     | follow   |
-| Reply      | reply    |
-| Retweet    | retweet  |
-
-| constant   | value    |
-|:-----------|:---------|
-| Checkbox   | checkbox |
-| Follow     | follow   |
-
-| constant         | value           |
-|:-----------------|:----------------|
-| Tile             | tile            |
-| List             | list            |
-| TileFollowButton | tile_follow_btn |
-
-| constant   | value     |
-|:-----------|:----------|
-| Always     | always    |
-| Never      | never     |
-| Preprompt  | preprompt |
-
-| constant   | value     |
-|:-----------|:----------|
-| Email      | email     |
-| Number     | number    |
-| Password   | password  |
-| Telephone  | telephone |
-| Text       | text      |
-
-| constant    | value        |
-|:------------|:-------------|
-| ResendSms   | resend_sms   |
-| ResendVoice | resend_voice |
-| ResendEmail | resend_email |
-
-| constant    | value        |
-|:------------|:-------------|
-| Password    | password     |
-| NewPassword | new_password |
-| Text        | text         |
-
-| constant   | value   |
-|:-----------|:--------|
-| Normal     | normal  |
-| Compact    | compact |
-
-| constant    | value        |
-|:------------|:-------------|
-| Username    | username     |
-| Password    | password     |
-| NewPassword | new_password |
-| Text        | text         |
-
-| constant   | value    |
-|:-----------|:---------|
-| Mismatch   | mismatch |
-
-| constant   | value   |
-|:-----------|:--------|
-| compact    | compact |
-| stacked    | stacked |
-
-| constant      | value          |
-|:--------------|:---------------|
-| Fixed         | fixed          |
-| Floating      | floating       |
-| FloatingLarge | floating_large |
-
-| constant   | value      |
-|:-----------|:-----------|
-| Default    | default    |
-| GoogleSSO  | google_sso |
-| AppleSSO   | apple_sso  |
-
-| constant   | value      |
-|:-----------|:-----------|
-| Impression | impression |
-| Click      | click      |
-
-| constant       | value           |
-|:---------------|:----------------|
-| HeaderTitle    | header_title    |
-| HeaderSubtitle | header_subtitle |
-| SectionTitle   | section_title   |
-| Detail         | detail          |
-
-| constant   | value   |
-|:-----------|:--------|
-| All        | all     |
-| Users      | users   |
-| Topics     | topics  |
-| Events     | events  |
-
-| constant   | value                  |
-|:-----------|:-----------------------|
-| REQUEST    | rweb/ocf/FETCH_REQUEST |
-| SUCCESS    | rweb/ocf/FETCH_SUCCESS |
-| FAILURE    | rweb/ocf/FETCH_FAILURE |
-
-| constant   | value                  |
-|:-----------|:-----------------------|
-| REQUEST    | rweb/ocf/START_REQUEST |
-| SUCCESS    | rweb/ocf/START_SUCCESS |
-| FAILURE    | rweb/ocf/START_FAILURE |
-
-| constant   | value                              |
-|:-----------|:-----------------------------------|
-| REQUEST    | rweb/ocf/VERIFY_IDENTIFIER_REQUEST |
-| SUCCESS    | rweb/ocf/VERIFY_IDENTIFIER_SUCCESS |
-| FAILURE    | rweb/ocf/VERIFY_IDENTIFIER_FAILURE |
-
-| constant   | value                                                |
-|:-----------|:-----------------------------------------------------|
-| REQUEST    | rweb/ocf/FETCH_BROWSABLE_NUX_RECOMMENDATIONS_REQUEST |
-| SUCCESS    | rweb/ocf/FETCH_BROWSABLE_NUX_RECOMMENDATIONS_SUCCESS |
-| FAILURE    | rweb/ocf/FETCH_BROWSABLE_NUX_RECOMMENDATIONS_FAILURE |
-
 | constant   | value                            |
 |:-----------|:---------------------------------|
 | REQUEST    | rweb/promotedContent/LOG_REQUEST |
@@ -13930,630 +11363,6 @@ This document is entirely auto-generated and may contain errors.<br>
 | Classic    | Classic  |
 | Footnote   | Footnote |
 | Button     | Button   |
-
-| constant         | value               |
-|:-----------------|:--------------------|
-| Abort            | abort               |
-| ChromelessWeb    | chromeless_web_link |
-| Deeplink         | deep_link           |
-| DeeplinkAndAbort | deep_link_and_abort |
-| DeeplinkInPlace  | deep_link_in_place  |
-| Finish           | finish              |
-| Subtask          | subtask             |
-| Task             | task                |
-| Web              | web_link            |
-| WeblinkAndAbort  | web_link_and_abort  |
-
-| constant        | value             |
-|:----------------|:------------------|
-| Allow           | allow             |
-| CancelFlow      | cancel_flow       |
-| HideExplicitCta | hide_explicit_cta |
-| Disallow        | disallow          |
-
-| constant   | value       |
-|:-----------|:------------|
-| Default    | default     |
-| BulletList | bullet_list |
-
-| constant             | value                 |
-|:---------------------|:----------------------|
-| DestructiveSecondary | destructive_secondary |
-| Primary              | primary               |
-| Secondary            | secondary             |
-| Text                 | text                  |
-| Brand                | brand                 |
-| TwitterBrand         | twitter_brand         |
-
-| constant      | value          |
-|:--------------|:---------------|
-| Small         | small          |
-| NormalCompact | normal_compact |
-| Normal        | normal         |
-| LargeCompact  | large_compact  |
-| Large         | large          |
-
-| constant          | value     |
-|:------------------|:----------|
-| CheckmarkAndClose | checkmark |
-| Text              | text      |
-| ThumbsUpAndDown   | thumbs    |
-
-| constant   | value   |
-|:-----------|:--------|
-| Toolbar    | toolbar |
-
-| constant       | value           |
-|:---------------|:----------------|
-| Scrollable     | scrollable      |
-| Centered       | centered        |
-| CenteredHeader | centered_header |
-| HalfCover      | half_cover      |
-
-| constant   | value   |
-|:-----------|:--------|
-| Success    | success |
-| Failure    | failure |
-| Cancel     | cancel  |
-
-| constant     | value          |
-|:-------------|:---------------|
-| Icon         | icon           |
-| FullWidth    | full_width     |
-| FullBleedTop | full_bleed_top |
-
-| constant       | value            |
-|:---------------|:-----------------|
-| PhoneOnly      | phone_only       |
-| EmailOnly      | email_only       |
-| PhoneThenEmail | phone_then_email |
-| EmailThenPhone | email_then_phone |
-
-| constant                         | value                                |
-|:---------------------------------|:-------------------------------------|
-| ActionList                       | ACTION_LIST                          |
-| AlertDialog                      | ALERT_DIALOG                         |
-| AlertDialogSupressClientEvents   | ALERT_DIALOG_SUPRESS_CLIENT_EVENTS   |
-| AppDownloadCTA                   | APP_DOWNLOAD_CTA                     |
-| AppLocaleUpdate                  | APP_LOCALE_UPDATE                    |
-| BrowsableNux                     | BROWSABLE_NUX                        |
-| CallToAction                     | CALL_TO_ACTION                       |
-| CheckLoggedInAccount             | CHECK_LOGGED_IN_ACCOUNT              |
-| ChoiceSelection                  | CHOICE_SELECTION                     |
-| ContactsLiveSyncPermissionPrompt | CONTACTS_LIVE_SYNC_PERMISSION_PROMPT |
-| EmailContactsSync                | EMAIL_CONTACTS_SYNC                  |
-| EmailVerification                | EMAIL_VERIFICATION                   |
-| EndFlow                          | END_FLOW                             |
-| EnterDate                        | ENTER_DATE                           |
-| EnterEmail                       | ENTER_EMAIL                          |
-| EnterPassword                    | ENTER_PASSWORD                       |
-| EnterPhone                       | ENTER_PHONE                          |
-| EnterRecaptcha                   | ENTER_RECAPTCHA                      |
-| EnterText                        | ENTER_TEXT                           |
-| EnterUsername                    | ENTER_USERNAME                       |
-| FetchPassword                    | FETCH_PASSWORD                       |
-| GenericURT                       | GENERIC_URT                          |
-| InAppNotification                | IN_APP_NOTIFICATION                  |
-| InterestPicker                   | INTEREST_PICKER                      |
-| JsInstrumentation                | JS_INSTRUMENTATION                   |
-| MenuDialog                       | MENU_DIALOG                          |
-| NotificationsPermissionPrompt    | NOTIFICATIONS_PERMISSION_PROMPT      |
-| OpenAccount                      | OPEN_ACCOUNT                         |
-| OpenHomeTimeline                 | OPEN_HOME_TIMELINE                   |
-| OpenLink                         | OPEN_LINK                            |
-| Passkey                          | PASSKEY                              |
-| PhoneVerification                | PHONE_VERIFICATION                   |
-| PrivacyOptions                   | PRIVACY_OPTIONS                      |
-| Recaptcha                        | RECAPTCHA                            |
-| SecurityKey                      | SECURITY_KEY                         |
-| SelectAvatar                     | SELECT_AVATAR                        |
-| SelectBanner                     | SELECT_BANNER                        |
-| SettingsList                     | SETTINGS_LIST                        |
-| ShowCode                         | SHOW_CODE                            |
-| Signup                           | SIGNUP                               |
-| SignupReview                     | SIGNUP_REVIEW                        |
-| TopicsSelector                   | TOPICS_SELECTOR                      |
-| TweetSelectionURT                | TWEET_SELECTION_URT                  |
-| TypeaheadSearch                  | TYPEAHEAD_SEARCH                     |
-| UpdateUsers                      | UPDATE_USERS                         |
-| UploadMedia                      | UPLOAD_MEDIA                         |
-| UserRecommendations              | USER_RECOMMENDATIONS_LIST            |
-| UserRecommendationsURT           | USER_RECOMMENDATIONS_URT             |
-| WaitSpinner                      | WAIT_SPINNER                         |
-| WebModal                         | WEB_MODAL                            |
-
-| constant   | value    |
-|:-----------|:---------|
-| Centered   | centered |
-| Left       | left     |
-
-| constant          | value              |
-|:------------------|:-------------------|
-| Action            | action             |
-| Boolean           | boolean            |
-| DestructiveAction | destructive_action |
-| PreciseLocation   | precise_location   |
-| SettingsGroup     | settings_group     |
-| StaticText        | static_text        |
-| Separator         | separator          |
-| TextField         | text_field         |
-| Button            | button             |
-| Tweet             | tweet              |
-
-| constant        | value             |
-|:----------------|:------------------|
-| AppleSSOButton  | apple_sso_button  |
-| GoogleSSOButton | google_sso_button |
-| NextButton      | next_button       |
-| UserIdentifier  | user_identifier   |
-
-| constant                 | value          |
-|:-------------------------|:---------------|
-| DEPRECATED_UnorderedList | UnorderedList  |
-| DEPRECATED_ListItem      | ListItem       |
-| UnorderedList            | unordered_list |
-| ListItem                 | list_item      |
-
-| constant   | value   |
-|:-----------|:--------|
-| Normal     | Normal  |
-| Bold       | Bold    |
-
-| constant   | value   |
-|:-----------|:--------|
-| Small      | Small   |
-| Normal     | Normal  |
-| Large      | Large   |
-| XLarge     | XLarge  |
-| Jumbo      | Jumbo   |
-
-| constant   | value   |
-|:-----------|:--------|
-| Qr         | qr      |
-| Text       | text    |
-
-| constant   | value   |
-|:-----------|:--------|
-| Avatar     | avatar  |
-| Banner     | banner  |
-
-| constant   | value     |
-|:-----------|:----------|
-| Success    | success   |
-| NotFound   | not_found |
-| Error      | error     |
-
-| constant   | value    |
-|:-----------|:---------|
-| Favorite   | favorite |
-| Follow     | follow   |
-| Reply      | reply    |
-| Retweet    | retweet  |
-
-| constant   | value    |
-|:-----------|:---------|
-| Checkbox   | checkbox |
-| Follow     | follow   |
-
-| constant         | value           |
-|:-----------------|:----------------|
-| Tile             | tile            |
-| List             | list            |
-| TileFollowButton | tile_follow_btn |
-
-| constant   | value     |
-|:-----------|:----------|
-| Always     | always    |
-| Never      | never     |
-| Preprompt  | preprompt |
-
-| constant   | value     |
-|:-----------|:----------|
-| Email      | email     |
-| Number     | number    |
-| Password   | password  |
-| Telephone  | telephone |
-| Text       | text      |
-
-| constant    | value        |
-|:------------|:-------------|
-| ResendSms   | resend_sms   |
-| ResendVoice | resend_voice |
-| ResendEmail | resend_email |
-
-| constant    | value        |
-|:------------|:-------------|
-| Password    | password     |
-| NewPassword | new_password |
-| Text        | text         |
-
-| constant   | value   |
-|:-----------|:--------|
-| Normal     | normal  |
-| Compact    | compact |
-
-| constant    | value        |
-|:------------|:-------------|
-| Username    | username     |
-| Password    | password     |
-| NewPassword | new_password |
-| Text        | text         |
-
-| constant   | value    |
-|:-----------|:---------|
-| Mismatch   | mismatch |
-
-| constant   | value   |
-|:-----------|:--------|
-| compact    | compact |
-| stacked    | stacked |
-
-| constant      | value          |
-|:--------------|:---------------|
-| Fixed         | fixed          |
-| Floating      | floating       |
-| FloatingLarge | floating_large |
-
-| constant   | value      |
-|:-----------|:-----------|
-| Default    | default    |
-| GoogleSSO  | google_sso |
-| AppleSSO   | apple_sso  |
-
-| constant   | value      |
-|:-----------|:-----------|
-| Impression | impression |
-| Click      | click      |
-
-| constant       | value           |
-|:---------------|:----------------|
-| HeaderTitle    | header_title    |
-| HeaderSubtitle | header_subtitle |
-| SectionTitle   | section_title   |
-| Detail         | detail          |
-
-| constant   | value   |
-|:-----------|:--------|
-| All        | all     |
-| Users      | users   |
-| Topics     | topics  |
-| Events     | events  |
-
-| constant   | value                  |
-|:-----------|:-----------------------|
-| REQUEST    | rweb/ocf/FETCH_REQUEST |
-| SUCCESS    | rweb/ocf/FETCH_SUCCESS |
-| FAILURE    | rweb/ocf/FETCH_FAILURE |
-
-| constant   | value                  |
-|:-----------|:-----------------------|
-| REQUEST    | rweb/ocf/START_REQUEST |
-| SUCCESS    | rweb/ocf/START_SUCCESS |
-| FAILURE    | rweb/ocf/START_FAILURE |
-
-| constant   | value                              |
-|:-----------|:-----------------------------------|
-| REQUEST    | rweb/ocf/VERIFY_IDENTIFIER_REQUEST |
-| SUCCESS    | rweb/ocf/VERIFY_IDENTIFIER_SUCCESS |
-| FAILURE    | rweb/ocf/VERIFY_IDENTIFIER_FAILURE |
-
-| constant   | value                                                |
-|:-----------|:-----------------------------------------------------|
-| REQUEST    | rweb/ocf/FETCH_BROWSABLE_NUX_RECOMMENDATIONS_REQUEST |
-| SUCCESS    | rweb/ocf/FETCH_BROWSABLE_NUX_RECOMMENDATIONS_SUCCESS |
-| FAILURE    | rweb/ocf/FETCH_BROWSABLE_NUX_RECOMMENDATIONS_FAILURE |
-
-| constant         | value               |
-|:-----------------|:--------------------|
-| Abort            | abort               |
-| ChromelessWeb    | chromeless_web_link |
-| Deeplink         | deep_link           |
-| DeeplinkAndAbort | deep_link_and_abort |
-| DeeplinkInPlace  | deep_link_in_place  |
-| Finish           | finish              |
-| Subtask          | subtask             |
-| Task             | task                |
-| Web              | web_link            |
-| WeblinkAndAbort  | web_link_and_abort  |
-
-| constant        | value             |
-|:----------------|:------------------|
-| Allow           | allow             |
-| CancelFlow      | cancel_flow       |
-| HideExplicitCta | hide_explicit_cta |
-| Disallow        | disallow          |
-
-| constant   | value       |
-|:-----------|:------------|
-| Default    | default     |
-| BulletList | bullet_list |
-
-| constant             | value                 |
-|:---------------------|:----------------------|
-| DestructiveSecondary | destructive_secondary |
-| Primary              | primary               |
-| Secondary            | secondary             |
-| Text                 | text                  |
-| Brand                | brand                 |
-| TwitterBrand         | twitter_brand         |
-
-| constant      | value          |
-|:--------------|:---------------|
-| Small         | small          |
-| NormalCompact | normal_compact |
-| Normal        | normal         |
-| LargeCompact  | large_compact  |
-| Large         | large          |
-
-| constant          | value     |
-|:------------------|:----------|
-| CheckmarkAndClose | checkmark |
-| Text              | text      |
-| ThumbsUpAndDown   | thumbs    |
-
-| constant   | value   |
-|:-----------|:--------|
-| Toolbar    | toolbar |
-
-| constant       | value           |
-|:---------------|:----------------|
-| Scrollable     | scrollable      |
-| Centered       | centered        |
-| CenteredHeader | centered_header |
-| HalfCover      | half_cover      |
-
-| constant   | value   |
-|:-----------|:--------|
-| Success    | success |
-| Failure    | failure |
-| Cancel     | cancel  |
-
-| constant     | value          |
-|:-------------|:---------------|
-| Icon         | icon           |
-| FullWidth    | full_width     |
-| FullBleedTop | full_bleed_top |
-
-| constant       | value            |
-|:---------------|:-----------------|
-| PhoneOnly      | phone_only       |
-| EmailOnly      | email_only       |
-| PhoneThenEmail | phone_then_email |
-| EmailThenPhone | email_then_phone |
-
-| constant                         | value                                |
-|:---------------------------------|:-------------------------------------|
-| ActionList                       | ACTION_LIST                          |
-| AlertDialog                      | ALERT_DIALOG                         |
-| AlertDialogSupressClientEvents   | ALERT_DIALOG_SUPRESS_CLIENT_EVENTS   |
-| AppDownloadCTA                   | APP_DOWNLOAD_CTA                     |
-| AppLocaleUpdate                  | APP_LOCALE_UPDATE                    |
-| BrowsableNux                     | BROWSABLE_NUX                        |
-| CallToAction                     | CALL_TO_ACTION                       |
-| CheckLoggedInAccount             | CHECK_LOGGED_IN_ACCOUNT              |
-| ChoiceSelection                  | CHOICE_SELECTION                     |
-| ContactsLiveSyncPermissionPrompt | CONTACTS_LIVE_SYNC_PERMISSION_PROMPT |
-| EmailContactsSync                | EMAIL_CONTACTS_SYNC                  |
-| EmailVerification                | EMAIL_VERIFICATION                   |
-| EndFlow                          | END_FLOW                             |
-| EnterDate                        | ENTER_DATE                           |
-| EnterEmail                       | ENTER_EMAIL                          |
-| EnterPassword                    | ENTER_PASSWORD                       |
-| EnterPhone                       | ENTER_PHONE                          |
-| EnterRecaptcha                   | ENTER_RECAPTCHA                      |
-| EnterText                        | ENTER_TEXT                           |
-| EnterUsername                    | ENTER_USERNAME                       |
-| FetchPassword                    | FETCH_PASSWORD                       |
-| GenericURT                       | GENERIC_URT                          |
-| InAppNotification                | IN_APP_NOTIFICATION                  |
-| InterestPicker                   | INTEREST_PICKER                      |
-| JsInstrumentation                | JS_INSTRUMENTATION                   |
-| MenuDialog                       | MENU_DIALOG                          |
-| NotificationsPermissionPrompt    | NOTIFICATIONS_PERMISSION_PROMPT      |
-| OpenAccount                      | OPEN_ACCOUNT                         |
-| OpenHomeTimeline                 | OPEN_HOME_TIMELINE                   |
-| OpenLink                         | OPEN_LINK                            |
-| Passkey                          | PASSKEY                              |
-| PhoneVerification                | PHONE_VERIFICATION                   |
-| PrivacyOptions                   | PRIVACY_OPTIONS                      |
-| Recaptcha                        | RECAPTCHA                            |
-| SecurityKey                      | SECURITY_KEY                         |
-| SelectAvatar                     | SELECT_AVATAR                        |
-| SelectBanner                     | SELECT_BANNER                        |
-| SettingsList                     | SETTINGS_LIST                        |
-| ShowCode                         | SHOW_CODE                            |
-| Signup                           | SIGNUP                               |
-| SignupReview                     | SIGNUP_REVIEW                        |
-| TopicsSelector                   | TOPICS_SELECTOR                      |
-| TweetSelectionURT                | TWEET_SELECTION_URT                  |
-| TypeaheadSearch                  | TYPEAHEAD_SEARCH                     |
-| UpdateUsers                      | UPDATE_USERS                         |
-| UploadMedia                      | UPLOAD_MEDIA                         |
-| UserRecommendations              | USER_RECOMMENDATIONS_LIST            |
-| UserRecommendationsURT           | USER_RECOMMENDATIONS_URT             |
-| WaitSpinner                      | WAIT_SPINNER                         |
-| WebModal                         | WEB_MODAL                            |
-
-| constant   | value    |
-|:-----------|:---------|
-| Centered   | centered |
-| Left       | left     |
-
-| constant          | value              |
-|:------------------|:-------------------|
-| Action            | action             |
-| Boolean           | boolean            |
-| DestructiveAction | destructive_action |
-| PreciseLocation   | precise_location   |
-| SettingsGroup     | settings_group     |
-| StaticText        | static_text        |
-| Separator         | separator          |
-| TextField         | text_field         |
-| Button            | button             |
-| Tweet             | tweet              |
-
-| constant        | value             |
-|:----------------|:------------------|
-| AppleSSOButton  | apple_sso_button  |
-| GoogleSSOButton | google_sso_button |
-| NextButton      | next_button       |
-| UserIdentifier  | user_identifier   |
-
-| constant                 | value          |
-|:-------------------------|:---------------|
-| DEPRECATED_UnorderedList | UnorderedList  |
-| DEPRECATED_ListItem      | ListItem       |
-| UnorderedList            | unordered_list |
-| ListItem                 | list_item      |
-
-| constant   | value   |
-|:-----------|:--------|
-| Normal     | Normal  |
-| Bold       | Bold    |
-
-| constant   | value   |
-|:-----------|:--------|
-| Small      | Small   |
-| Normal     | Normal  |
-| Large      | Large   |
-| XLarge     | XLarge  |
-| Jumbo      | Jumbo   |
-
-| constant   | value   |
-|:-----------|:--------|
-| Qr         | qr      |
-| Text       | text    |
-
-| constant   | value   |
-|:-----------|:--------|
-| Avatar     | avatar  |
-| Banner     | banner  |
-
-| constant   | value     |
-|:-----------|:----------|
-| Success    | success   |
-| NotFound   | not_found |
-| Error      | error     |
-
-| constant   | value    |
-|:-----------|:---------|
-| Favorite   | favorite |
-| Follow     | follow   |
-| Reply      | reply    |
-| Retweet    | retweet  |
-
-| constant   | value    |
-|:-----------|:---------|
-| Checkbox   | checkbox |
-| Follow     | follow   |
-
-| constant         | value           |
-|:-----------------|:----------------|
-| Tile             | tile            |
-| List             | list            |
-| TileFollowButton | tile_follow_btn |
-
-| constant   | value     |
-|:-----------|:----------|
-| Always     | always    |
-| Never      | never     |
-| Preprompt  | preprompt |
-
-| constant   | value     |
-|:-----------|:----------|
-| Email      | email     |
-| Number     | number    |
-| Password   | password  |
-| Telephone  | telephone |
-| Text       | text      |
-
-| constant    | value        |
-|:------------|:-------------|
-| ResendSms   | resend_sms   |
-| ResendVoice | resend_voice |
-| ResendEmail | resend_email |
-
-| constant    | value        |
-|:------------|:-------------|
-| Password    | password     |
-| NewPassword | new_password |
-| Text        | text         |
-
-| constant   | value   |
-|:-----------|:--------|
-| Normal     | normal  |
-| Compact    | compact |
-
-| constant    | value        |
-|:------------|:-------------|
-| Username    | username     |
-| Password    | password     |
-| NewPassword | new_password |
-| Text        | text         |
-
-| constant   | value    |
-|:-----------|:---------|
-| Mismatch   | mismatch |
-
-| constant   | value   |
-|:-----------|:--------|
-| compact    | compact |
-| stacked    | stacked |
-
-| constant      | value          |
-|:--------------|:---------------|
-| Fixed         | fixed          |
-| Floating      | floating       |
-| FloatingLarge | floating_large |
-
-| constant   | value      |
-|:-----------|:-----------|
-| Default    | default    |
-| GoogleSSO  | google_sso |
-| AppleSSO   | apple_sso  |
-
-| constant   | value      |
-|:-----------|:-----------|
-| Impression | impression |
-| Click      | click      |
-
-| constant       | value           |
-|:---------------|:----------------|
-| HeaderTitle    | header_title    |
-| HeaderSubtitle | header_subtitle |
-| SectionTitle   | section_title   |
-| Detail         | detail          |
-
-| constant   | value   |
-|:-----------|:--------|
-| All        | all     |
-| Users      | users   |
-| Topics     | topics  |
-| Events     | events  |
-
-| constant   | value                  |
-|:-----------|:-----------------------|
-| REQUEST    | rweb/ocf/FETCH_REQUEST |
-| SUCCESS    | rweb/ocf/FETCH_SUCCESS |
-| FAILURE    | rweb/ocf/FETCH_FAILURE |
-
-| constant   | value                  |
-|:-----------|:-----------------------|
-| REQUEST    | rweb/ocf/START_REQUEST |
-| SUCCESS    | rweb/ocf/START_SUCCESS |
-| FAILURE    | rweb/ocf/START_FAILURE |
-
-| constant   | value                              |
-|:-----------|:-----------------------------------|
-| REQUEST    | rweb/ocf/VERIFY_IDENTIFIER_REQUEST |
-| SUCCESS    | rweb/ocf/VERIFY_IDENTIFIER_SUCCESS |
-| FAILURE    | rweb/ocf/VERIFY_IDENTIFIER_FAILURE |
-
-| constant   | value                                                |
-|:-----------|:-----------------------------------------------------|
-| REQUEST    | rweb/ocf/FETCH_BROWSABLE_NUX_RECOMMENDATIONS_REQUEST |
-| SUCCESS    | rweb/ocf/FETCH_BROWSABLE_NUX_RECOMMENDATIONS_SUCCESS |
-| FAILURE    | rweb/ocf/FETCH_BROWSABLE_NUX_RECOMMENDATIONS_FAILURE |
 
 | constant   | value   |
 |:-----------|:--------|
@@ -14579,294 +11388,6 @@ This document is entirely auto-generated and may contain errors.<br>
 | ON_LIKE        | onLike       |
 | ON_FOLLOW      | onFollow     |
 
-| constant         | value               |
-|:-----------------|:--------------------|
-| Abort            | abort               |
-| ChromelessWeb    | chromeless_web_link |
-| Deeplink         | deep_link           |
-| DeeplinkAndAbort | deep_link_and_abort |
-| DeeplinkInPlace  | deep_link_in_place  |
-| Finish           | finish              |
-| Subtask          | subtask             |
-| Task             | task                |
-| Web              | web_link            |
-| WeblinkAndAbort  | web_link_and_abort  |
-
-| constant        | value             |
-|:----------------|:------------------|
-| Allow           | allow             |
-| CancelFlow      | cancel_flow       |
-| HideExplicitCta | hide_explicit_cta |
-| Disallow        | disallow          |
-
-| constant   | value       |
-|:-----------|:------------|
-| Default    | default     |
-| BulletList | bullet_list |
-
-| constant             | value                 |
-|:---------------------|:----------------------|
-| DestructiveSecondary | destructive_secondary |
-| Primary              | primary               |
-| Secondary            | secondary             |
-| Text                 | text                  |
-| Brand                | brand                 |
-| TwitterBrand         | twitter_brand         |
-
-| constant      | value          |
-|:--------------|:---------------|
-| Small         | small          |
-| NormalCompact | normal_compact |
-| Normal        | normal         |
-| LargeCompact  | large_compact  |
-| Large         | large          |
-
-| constant          | value     |
-|:------------------|:----------|
-| CheckmarkAndClose | checkmark |
-| Text              | text      |
-| ThumbsUpAndDown   | thumbs    |
-
-| constant   | value   |
-|:-----------|:--------|
-| Toolbar    | toolbar |
-
-| constant       | value           |
-|:---------------|:----------------|
-| Scrollable     | scrollable      |
-| Centered       | centered        |
-| CenteredHeader | centered_header |
-| HalfCover      | half_cover      |
-
-| constant   | value   |
-|:-----------|:--------|
-| Success    | success |
-| Failure    | failure |
-| Cancel     | cancel  |
-
-| constant     | value          |
-|:-------------|:---------------|
-| Icon         | icon           |
-| FullWidth    | full_width     |
-| FullBleedTop | full_bleed_top |
-
-| constant       | value            |
-|:---------------|:-----------------|
-| PhoneOnly      | phone_only       |
-| EmailOnly      | email_only       |
-| PhoneThenEmail | phone_then_email |
-| EmailThenPhone | email_then_phone |
-
-| constant                         | value                                |
-|:---------------------------------|:-------------------------------------|
-| ActionList                       | ACTION_LIST                          |
-| AlertDialog                      | ALERT_DIALOG                         |
-| AlertDialogSupressClientEvents   | ALERT_DIALOG_SUPRESS_CLIENT_EVENTS   |
-| AppDownloadCTA                   | APP_DOWNLOAD_CTA                     |
-| AppLocaleUpdate                  | APP_LOCALE_UPDATE                    |
-| BrowsableNux                     | BROWSABLE_NUX                        |
-| CallToAction                     | CALL_TO_ACTION                       |
-| CheckLoggedInAccount             | CHECK_LOGGED_IN_ACCOUNT              |
-| ChoiceSelection                  | CHOICE_SELECTION                     |
-| ContactsLiveSyncPermissionPrompt | CONTACTS_LIVE_SYNC_PERMISSION_PROMPT |
-| EmailContactsSync                | EMAIL_CONTACTS_SYNC                  |
-| EmailVerification                | EMAIL_VERIFICATION                   |
-| EndFlow                          | END_FLOW                             |
-| EnterDate                        | ENTER_DATE                           |
-| EnterEmail                       | ENTER_EMAIL                          |
-| EnterPassword                    | ENTER_PASSWORD                       |
-| EnterPhone                       | ENTER_PHONE                          |
-| EnterRecaptcha                   | ENTER_RECAPTCHA                      |
-| EnterText                        | ENTER_TEXT                           |
-| EnterUsername                    | ENTER_USERNAME                       |
-| FetchPassword                    | FETCH_PASSWORD                       |
-| GenericURT                       | GENERIC_URT                          |
-| InAppNotification                | IN_APP_NOTIFICATION                  |
-| InterestPicker                   | INTEREST_PICKER                      |
-| JsInstrumentation                | JS_INSTRUMENTATION                   |
-| MenuDialog                       | MENU_DIALOG                          |
-| NotificationsPermissionPrompt    | NOTIFICATIONS_PERMISSION_PROMPT      |
-| OpenAccount                      | OPEN_ACCOUNT                         |
-| OpenHomeTimeline                 | OPEN_HOME_TIMELINE                   |
-| OpenLink                         | OPEN_LINK                            |
-| Passkey                          | PASSKEY                              |
-| PhoneVerification                | PHONE_VERIFICATION                   |
-| PrivacyOptions                   | PRIVACY_OPTIONS                      |
-| Recaptcha                        | RECAPTCHA                            |
-| SecurityKey                      | SECURITY_KEY                         |
-| SelectAvatar                     | SELECT_AVATAR                        |
-| SelectBanner                     | SELECT_BANNER                        |
-| SettingsList                     | SETTINGS_LIST                        |
-| ShowCode                         | SHOW_CODE                            |
-| Signup                           | SIGNUP                               |
-| SignupReview                     | SIGNUP_REVIEW                        |
-| TopicsSelector                   | TOPICS_SELECTOR                      |
-| TweetSelectionURT                | TWEET_SELECTION_URT                  |
-| TypeaheadSearch                  | TYPEAHEAD_SEARCH                     |
-| UpdateUsers                      | UPDATE_USERS                         |
-| UploadMedia                      | UPLOAD_MEDIA                         |
-| UserRecommendations              | USER_RECOMMENDATIONS_LIST            |
-| UserRecommendationsURT           | USER_RECOMMENDATIONS_URT             |
-| WaitSpinner                      | WAIT_SPINNER                         |
-| WebModal                         | WEB_MODAL                            |
-
-| constant   | value    |
-|:-----------|:---------|
-| Centered   | centered |
-| Left       | left     |
-
-| constant          | value              |
-|:------------------|:-------------------|
-| Action            | action             |
-| Boolean           | boolean            |
-| DestructiveAction | destructive_action |
-| PreciseLocation   | precise_location   |
-| SettingsGroup     | settings_group     |
-| StaticText        | static_text        |
-| Separator         | separator          |
-| TextField         | text_field         |
-| Button            | button             |
-| Tweet             | tweet              |
-
-| constant        | value             |
-|:----------------|:------------------|
-| AppleSSOButton  | apple_sso_button  |
-| GoogleSSOButton | google_sso_button |
-| NextButton      | next_button       |
-| UserIdentifier  | user_identifier   |
-
-| constant                 | value          |
-|:-------------------------|:---------------|
-| DEPRECATED_UnorderedList | UnorderedList  |
-| DEPRECATED_ListItem      | ListItem       |
-| UnorderedList            | unordered_list |
-| ListItem                 | list_item      |
-
-| constant   | value   |
-|:-----------|:--------|
-| Normal     | Normal  |
-| Bold       | Bold    |
-
-| constant   | value   |
-|:-----------|:--------|
-| Small      | Small   |
-| Normal     | Normal  |
-| Large      | Large   |
-| XLarge     | XLarge  |
-| Jumbo      | Jumbo   |
-
-| constant   | value   |
-|:-----------|:--------|
-| Qr         | qr      |
-| Text       | text    |
-
-| constant   | value   |
-|:-----------|:--------|
-| Avatar     | avatar  |
-| Banner     | banner  |
-
-| constant   | value     |
-|:-----------|:----------|
-| Success    | success   |
-| NotFound   | not_found |
-| Error      | error     |
-
-| constant   | value    |
-|:-----------|:---------|
-| Favorite   | favorite |
-| Follow     | follow   |
-| Reply      | reply    |
-| Retweet    | retweet  |
-
-| constant   | value    |
-|:-----------|:---------|
-| Checkbox   | checkbox |
-| Follow     | follow   |
-
-| constant         | value           |
-|:-----------------|:----------------|
-| Tile             | tile            |
-| List             | list            |
-| TileFollowButton | tile_follow_btn |
-
-| constant   | value     |
-|:-----------|:----------|
-| Always     | always    |
-| Never      | never     |
-| Preprompt  | preprompt |
-
-| constant   | value     |
-|:-----------|:----------|
-| Email      | email     |
-| Number     | number    |
-| Password   | password  |
-| Telephone  | telephone |
-| Text       | text      |
-
-| constant    | value        |
-|:------------|:-------------|
-| ResendSms   | resend_sms   |
-| ResendVoice | resend_voice |
-| ResendEmail | resend_email |
-
-| constant    | value        |
-|:------------|:-------------|
-| Password    | password     |
-| NewPassword | new_password |
-| Text        | text         |
-
-| constant   | value   |
-|:-----------|:--------|
-| Normal     | normal  |
-| Compact    | compact |
-
-| constant    | value        |
-|:------------|:-------------|
-| Username    | username     |
-| Password    | password     |
-| NewPassword | new_password |
-| Text        | text         |
-
-| constant   | value    |
-|:-----------|:---------|
-| Mismatch   | mismatch |
-
-| constant   | value   |
-|:-----------|:--------|
-| compact    | compact |
-| stacked    | stacked |
-
-| constant      | value          |
-|:--------------|:---------------|
-| Fixed         | fixed          |
-| Floating      | floating       |
-| FloatingLarge | floating_large |
-
-| constant   | value      |
-|:-----------|:-----------|
-| Default    | default    |
-| GoogleSSO  | google_sso |
-| AppleSSO   | apple_sso  |
-
-| constant   | value      |
-|:-----------|:-----------|
-| Impression | impression |
-| Click      | click      |
-
-| constant       | value           |
-|:---------------|:----------------|
-| HeaderTitle    | header_title    |
-| HeaderSubtitle | header_subtitle |
-| SectionTitle   | section_title   |
-| Detail         | detail          |
-
-| constant   | value   |
-|:-----------|:--------|
-| All        | all     |
-| Users      | users   |
-| Topics     | topics  |
-| Events     | events  |
-
 | constant       | value        |
 |:---------------|:-------------|
 | ON_LINGER      | onLinger     |
@@ -14875,347 +11396,11 @@ This document is entirely auto-generated and may contain errors.<br>
 | ON_LIKE        | onLike       |
 | ON_FOLLOW      | onFollow     |
 
-| constant   | value                  |
-|:-----------|:-----------------------|
-| REQUEST    | rweb/ocf/FETCH_REQUEST |
-| SUCCESS    | rweb/ocf/FETCH_SUCCESS |
-| FAILURE    | rweb/ocf/FETCH_FAILURE |
-
-| constant   | value                  |
-|:-----------|:-----------------------|
-| REQUEST    | rweb/ocf/START_REQUEST |
-| SUCCESS    | rweb/ocf/START_SUCCESS |
-| FAILURE    | rweb/ocf/START_FAILURE |
-
-| constant   | value                              |
-|:-----------|:-----------------------------------|
-| REQUEST    | rweb/ocf/VERIFY_IDENTIFIER_REQUEST |
-| SUCCESS    | rweb/ocf/VERIFY_IDENTIFIER_SUCCESS |
-| FAILURE    | rweb/ocf/VERIFY_IDENTIFIER_FAILURE |
-
-| constant   | value                                                |
-|:-----------|:-----------------------------------------------------|
-| REQUEST    | rweb/ocf/FETCH_BROWSABLE_NUX_RECOMMENDATIONS_REQUEST |
-| SUCCESS    | rweb/ocf/FETCH_BROWSABLE_NUX_RECOMMENDATIONS_SUCCESS |
-| FAILURE    | rweb/ocf/FETCH_BROWSABLE_NUX_RECOMMENDATIONS_FAILURE |
-
 | constant   | value                            |
 |:-----------|:---------------------------------|
 | REQUEST    | rweb/promotedContent/LOG_REQUEST |
 | SUCCESS    | rweb/promotedContent/LOG_SUCCESS |
 | FAILURE    | rweb/promotedContent/LOG_FAILURE |
-
-| constant         | value               |
-|:-----------------|:--------------------|
-| Abort            | abort               |
-| ChromelessWeb    | chromeless_web_link |
-| Deeplink         | deep_link           |
-| DeeplinkAndAbort | deep_link_and_abort |
-| DeeplinkInPlace  | deep_link_in_place  |
-| Finish           | finish              |
-| Subtask          | subtask             |
-| Task             | task                |
-| Web              | web_link            |
-| WeblinkAndAbort  | web_link_and_abort  |
-
-| constant        | value             |
-|:----------------|:------------------|
-| Allow           | allow             |
-| CancelFlow      | cancel_flow       |
-| HideExplicitCta | hide_explicit_cta |
-| Disallow        | disallow          |
-
-| constant   | value       |
-|:-----------|:------------|
-| Default    | default     |
-| BulletList | bullet_list |
-
-| constant             | value                 |
-|:---------------------|:----------------------|
-| DestructiveSecondary | destructive_secondary |
-| Primary              | primary               |
-| Secondary            | secondary             |
-| Text                 | text                  |
-| Brand                | brand                 |
-| TwitterBrand         | twitter_brand         |
-
-| constant      | value          |
-|:--------------|:---------------|
-| Small         | small          |
-| NormalCompact | normal_compact |
-| Normal        | normal         |
-| LargeCompact  | large_compact  |
-| Large         | large          |
-
-| constant          | value     |
-|:------------------|:----------|
-| CheckmarkAndClose | checkmark |
-| Text              | text      |
-| ThumbsUpAndDown   | thumbs    |
-
-| constant   | value   |
-|:-----------|:--------|
-| Toolbar    | toolbar |
-
-| constant       | value           |
-|:---------------|:----------------|
-| Scrollable     | scrollable      |
-| Centered       | centered        |
-| CenteredHeader | centered_header |
-| HalfCover      | half_cover      |
-
-| constant   | value   |
-|:-----------|:--------|
-| Success    | success |
-| Failure    | failure |
-| Cancel     | cancel  |
-
-| constant     | value          |
-|:-------------|:---------------|
-| Icon         | icon           |
-| FullWidth    | full_width     |
-| FullBleedTop | full_bleed_top |
-
-| constant       | value            |
-|:---------------|:-----------------|
-| PhoneOnly      | phone_only       |
-| EmailOnly      | email_only       |
-| PhoneThenEmail | phone_then_email |
-| EmailThenPhone | email_then_phone |
-
-| constant                         | value                                |
-|:---------------------------------|:-------------------------------------|
-| ActionList                       | ACTION_LIST                          |
-| AlertDialog                      | ALERT_DIALOG                         |
-| AlertDialogSupressClientEvents   | ALERT_DIALOG_SUPRESS_CLIENT_EVENTS   |
-| AppDownloadCTA                   | APP_DOWNLOAD_CTA                     |
-| AppLocaleUpdate                  | APP_LOCALE_UPDATE                    |
-| BrowsableNux                     | BROWSABLE_NUX                        |
-| CallToAction                     | CALL_TO_ACTION                       |
-| CheckLoggedInAccount             | CHECK_LOGGED_IN_ACCOUNT              |
-| ChoiceSelection                  | CHOICE_SELECTION                     |
-| ContactsLiveSyncPermissionPrompt | CONTACTS_LIVE_SYNC_PERMISSION_PROMPT |
-| EmailContactsSync                | EMAIL_CONTACTS_SYNC                  |
-| EmailVerification                | EMAIL_VERIFICATION                   |
-| EndFlow                          | END_FLOW                             |
-| EnterDate                        | ENTER_DATE                           |
-| EnterEmail                       | ENTER_EMAIL                          |
-| EnterPassword                    | ENTER_PASSWORD                       |
-| EnterPhone                       | ENTER_PHONE                          |
-| EnterRecaptcha                   | ENTER_RECAPTCHA                      |
-| EnterText                        | ENTER_TEXT                           |
-| EnterUsername                    | ENTER_USERNAME                       |
-| FetchPassword                    | FETCH_PASSWORD                       |
-| GenericURT                       | GENERIC_URT                          |
-| InAppNotification                | IN_APP_NOTIFICATION                  |
-| InterestPicker                   | INTEREST_PICKER                      |
-| JsInstrumentation                | JS_INSTRUMENTATION                   |
-| MenuDialog                       | MENU_DIALOG                          |
-| NotificationsPermissionPrompt    | NOTIFICATIONS_PERMISSION_PROMPT      |
-| OpenAccount                      | OPEN_ACCOUNT                         |
-| OpenHomeTimeline                 | OPEN_HOME_TIMELINE                   |
-| OpenLink                         | OPEN_LINK                            |
-| Passkey                          | PASSKEY                              |
-| PhoneVerification                | PHONE_VERIFICATION                   |
-| PrivacyOptions                   | PRIVACY_OPTIONS                      |
-| Recaptcha                        | RECAPTCHA                            |
-| SecurityKey                      | SECURITY_KEY                         |
-| SelectAvatar                     | SELECT_AVATAR                        |
-| SelectBanner                     | SELECT_BANNER                        |
-| SettingsList                     | SETTINGS_LIST                        |
-| ShowCode                         | SHOW_CODE                            |
-| Signup                           | SIGNUP                               |
-| SignupReview                     | SIGNUP_REVIEW                        |
-| TopicsSelector                   | TOPICS_SELECTOR                      |
-| TweetSelectionURT                | TWEET_SELECTION_URT                  |
-| TypeaheadSearch                  | TYPEAHEAD_SEARCH                     |
-| UpdateUsers                      | UPDATE_USERS                         |
-| UploadMedia                      | UPLOAD_MEDIA                         |
-| UserRecommendations              | USER_RECOMMENDATIONS_LIST            |
-| UserRecommendationsURT           | USER_RECOMMENDATIONS_URT             |
-| WaitSpinner                      | WAIT_SPINNER                         |
-| WebModal                         | WEB_MODAL                            |
-
-| constant   | value    |
-|:-----------|:---------|
-| Centered   | centered |
-| Left       | left     |
-
-| constant          | value              |
-|:------------------|:-------------------|
-| Action            | action             |
-| Boolean           | boolean            |
-| DestructiveAction | destructive_action |
-| PreciseLocation   | precise_location   |
-| SettingsGroup     | settings_group     |
-| StaticText        | static_text        |
-| Separator         | separator          |
-| TextField         | text_field         |
-| Button            | button             |
-| Tweet             | tweet              |
-
-| constant        | value             |
-|:----------------|:------------------|
-| AppleSSOButton  | apple_sso_button  |
-| GoogleSSOButton | google_sso_button |
-| NextButton      | next_button       |
-| UserIdentifier  | user_identifier   |
-
-| constant                 | value          |
-|:-------------------------|:---------------|
-| DEPRECATED_UnorderedList | UnorderedList  |
-| DEPRECATED_ListItem      | ListItem       |
-| UnorderedList            | unordered_list |
-| ListItem                 | list_item      |
-
-| constant   | value   |
-|:-----------|:--------|
-| Normal     | Normal  |
-| Bold       | Bold    |
-
-| constant   | value   |
-|:-----------|:--------|
-| Small      | Small   |
-| Normal     | Normal  |
-| Large      | Large   |
-| XLarge     | XLarge  |
-| Jumbo      | Jumbo   |
-
-| constant   | value   |
-|:-----------|:--------|
-| Qr         | qr      |
-| Text       | text    |
-
-| constant   | value   |
-|:-----------|:--------|
-| Avatar     | avatar  |
-| Banner     | banner  |
-
-| constant   | value     |
-|:-----------|:----------|
-| Success    | success   |
-| NotFound   | not_found |
-| Error      | error     |
-
-| constant   | value    |
-|:-----------|:---------|
-| Favorite   | favorite |
-| Follow     | follow   |
-| Reply      | reply    |
-| Retweet    | retweet  |
-
-| constant   | value    |
-|:-----------|:---------|
-| Checkbox   | checkbox |
-| Follow     | follow   |
-
-| constant         | value           |
-|:-----------------|:----------------|
-| Tile             | tile            |
-| List             | list            |
-| TileFollowButton | tile_follow_btn |
-
-| constant   | value     |
-|:-----------|:----------|
-| Always     | always    |
-| Never      | never     |
-| Preprompt  | preprompt |
-
-| constant   | value     |
-|:-----------|:----------|
-| Email      | email     |
-| Number     | number    |
-| Password   | password  |
-| Telephone  | telephone |
-| Text       | text      |
-
-| constant    | value        |
-|:------------|:-------------|
-| ResendSms   | resend_sms   |
-| ResendVoice | resend_voice |
-| ResendEmail | resend_email |
-
-| constant    | value        |
-|:------------|:-------------|
-| Password    | password     |
-| NewPassword | new_password |
-| Text        | text         |
-
-| constant   | value   |
-|:-----------|:--------|
-| Normal     | normal  |
-| Compact    | compact |
-
-| constant    | value        |
-|:------------|:-------------|
-| Username    | username     |
-| Password    | password     |
-| NewPassword | new_password |
-| Text        | text         |
-
-| constant   | value    |
-|:-----------|:---------|
-| Mismatch   | mismatch |
-
-| constant   | value   |
-|:-----------|:--------|
-| compact    | compact |
-| stacked    | stacked |
-
-| constant      | value          |
-|:--------------|:---------------|
-| Fixed         | fixed          |
-| Floating      | floating       |
-| FloatingLarge | floating_large |
-
-| constant   | value      |
-|:-----------|:-----------|
-| Default    | default    |
-| GoogleSSO  | google_sso |
-| AppleSSO   | apple_sso  |
-
-| constant   | value      |
-|:-----------|:-----------|
-| Impression | impression |
-| Click      | click      |
-
-| constant       | value           |
-|:---------------|:----------------|
-| HeaderTitle    | header_title    |
-| HeaderSubtitle | header_subtitle |
-| SectionTitle   | section_title   |
-| Detail         | detail          |
-
-| constant   | value   |
-|:-----------|:--------|
-| All        | all     |
-| Users      | users   |
-| Topics     | topics  |
-| Events     | events  |
-
-| constant   | value                  |
-|:-----------|:-----------------------|
-| REQUEST    | rweb/ocf/FETCH_REQUEST |
-| SUCCESS    | rweb/ocf/FETCH_SUCCESS |
-| FAILURE    | rweb/ocf/FETCH_FAILURE |
-
-| constant   | value                  |
-|:-----------|:-----------------------|
-| REQUEST    | rweb/ocf/START_REQUEST |
-| SUCCESS    | rweb/ocf/START_SUCCESS |
-| FAILURE    | rweb/ocf/START_FAILURE |
-
-| constant   | value                              |
-|:-----------|:-----------------------------------|
-| REQUEST    | rweb/ocf/VERIFY_IDENTIFIER_REQUEST |
-| SUCCESS    | rweb/ocf/VERIFY_IDENTIFIER_SUCCESS |
-| FAILURE    | rweb/ocf/VERIFY_IDENTIFIER_FAILURE |
-
-| constant   | value                                                |
-|:-----------|:-----------------------------------------------------|
-| REQUEST    | rweb/ocf/FETCH_BROWSABLE_NUX_RECOMMENDATIONS_REQUEST |
-| SUCCESS    | rweb/ocf/FETCH_BROWSABLE_NUX_RECOMMENDATIONS_SUCCESS |
-| FAILURE    | rweb/ocf/FETCH_BROWSABLE_NUX_RECOMMENDATIONS_FAILURE |
 
 | constant         | value            |
 |:-----------------|:-----------------|
@@ -15267,318 +11452,6 @@ This document is entirely auto-generated and may contain errors.<br>
 | Entertainment | エンターテイメント |
 | Other         | その他       |
 | Personalized  | おすすめ      |
-
-| constant         | value               |
-|:-----------------|:--------------------|
-| Abort            | abort               |
-| ChromelessWeb    | chromeless_web_link |
-| Deeplink         | deep_link           |
-| DeeplinkAndAbort | deep_link_and_abort |
-| DeeplinkInPlace  | deep_link_in_place  |
-| Finish           | finish              |
-| Subtask          | subtask             |
-| Task             | task                |
-| Web              | web_link            |
-| WeblinkAndAbort  | web_link_and_abort  |
-
-| constant        | value             |
-|:----------------|:------------------|
-| Allow           | allow             |
-| CancelFlow      | cancel_flow       |
-| HideExplicitCta | hide_explicit_cta |
-| Disallow        | disallow          |
-
-| constant   | value       |
-|:-----------|:------------|
-| Default    | default     |
-| BulletList | bullet_list |
-
-| constant             | value                 |
-|:---------------------|:----------------------|
-| DestructiveSecondary | destructive_secondary |
-| Primary              | primary               |
-| Secondary            | secondary             |
-| Text                 | text                  |
-| Brand                | brand                 |
-| TwitterBrand         | twitter_brand         |
-
-| constant      | value          |
-|:--------------|:---------------|
-| Small         | small          |
-| NormalCompact | normal_compact |
-| Normal        | normal         |
-| LargeCompact  | large_compact  |
-| Large         | large          |
-
-| constant          | value     |
-|:------------------|:----------|
-| CheckmarkAndClose | checkmark |
-| Text              | text      |
-| ThumbsUpAndDown   | thumbs    |
-
-| constant   | value   |
-|:-----------|:--------|
-| Toolbar    | toolbar |
-
-| constant       | value           |
-|:---------------|:----------------|
-| Scrollable     | scrollable      |
-| Centered       | centered        |
-| CenteredHeader | centered_header |
-| HalfCover      | half_cover      |
-
-| constant   | value   |
-|:-----------|:--------|
-| Success    | success |
-| Failure    | failure |
-| Cancel     | cancel  |
-
-| constant     | value          |
-|:-------------|:---------------|
-| Icon         | icon           |
-| FullWidth    | full_width     |
-| FullBleedTop | full_bleed_top |
-
-| constant       | value            |
-|:---------------|:-----------------|
-| PhoneOnly      | phone_only       |
-| EmailOnly      | email_only       |
-| PhoneThenEmail | phone_then_email |
-| EmailThenPhone | email_then_phone |
-
-| constant                         | value                                |
-|:---------------------------------|:-------------------------------------|
-| ActionList                       | ACTION_LIST                          |
-| AlertDialog                      | ALERT_DIALOG                         |
-| AlertDialogSupressClientEvents   | ALERT_DIALOG_SUPRESS_CLIENT_EVENTS   |
-| AppDownloadCTA                   | APP_DOWNLOAD_CTA                     |
-| AppLocaleUpdate                  | APP_LOCALE_UPDATE                    |
-| BrowsableNux                     | BROWSABLE_NUX                        |
-| CallToAction                     | CALL_TO_ACTION                       |
-| CheckLoggedInAccount             | CHECK_LOGGED_IN_ACCOUNT              |
-| ChoiceSelection                  | CHOICE_SELECTION                     |
-| ContactsLiveSyncPermissionPrompt | CONTACTS_LIVE_SYNC_PERMISSION_PROMPT |
-| EmailContactsSync                | EMAIL_CONTACTS_SYNC                  |
-| EmailVerification                | EMAIL_VERIFICATION                   |
-| EndFlow                          | END_FLOW                             |
-| EnterDate                        | ENTER_DATE                           |
-| EnterEmail                       | ENTER_EMAIL                          |
-| EnterPassword                    | ENTER_PASSWORD                       |
-| EnterPhone                       | ENTER_PHONE                          |
-| EnterRecaptcha                   | ENTER_RECAPTCHA                      |
-| EnterText                        | ENTER_TEXT                           |
-| EnterUsername                    | ENTER_USERNAME                       |
-| FetchPassword                    | FETCH_PASSWORD                       |
-| GenericURT                       | GENERIC_URT                          |
-| InAppNotification                | IN_APP_NOTIFICATION                  |
-| InterestPicker                   | INTEREST_PICKER                      |
-| JsInstrumentation                | JS_INSTRUMENTATION                   |
-| MenuDialog                       | MENU_DIALOG                          |
-| NotificationsPermissionPrompt    | NOTIFICATIONS_PERMISSION_PROMPT      |
-| OpenAccount                      | OPEN_ACCOUNT                         |
-| OpenHomeTimeline                 | OPEN_HOME_TIMELINE                   |
-| OpenLink                         | OPEN_LINK                            |
-| Passkey                          | PASSKEY                              |
-| PhoneVerification                | PHONE_VERIFICATION                   |
-| PrivacyOptions                   | PRIVACY_OPTIONS                      |
-| Recaptcha                        | RECAPTCHA                            |
-| SecurityKey                      | SECURITY_KEY                         |
-| SelectAvatar                     | SELECT_AVATAR                        |
-| SelectBanner                     | SELECT_BANNER                        |
-| SettingsList                     | SETTINGS_LIST                        |
-| ShowCode                         | SHOW_CODE                            |
-| Signup                           | SIGNUP                               |
-| SignupReview                     | SIGNUP_REVIEW                        |
-| TopicsSelector                   | TOPICS_SELECTOR                      |
-| TweetSelectionURT                | TWEET_SELECTION_URT                  |
-| TypeaheadSearch                  | TYPEAHEAD_SEARCH                     |
-| UpdateUsers                      | UPDATE_USERS                         |
-| UploadMedia                      | UPLOAD_MEDIA                         |
-| UserRecommendations              | USER_RECOMMENDATIONS_LIST            |
-| UserRecommendationsURT           | USER_RECOMMENDATIONS_URT             |
-| WaitSpinner                      | WAIT_SPINNER                         |
-| WebModal                         | WEB_MODAL                            |
-
-| constant   | value    |
-|:-----------|:---------|
-| Centered   | centered |
-| Left       | left     |
-
-| constant          | value              |
-|:------------------|:-------------------|
-| Action            | action             |
-| Boolean           | boolean            |
-| DestructiveAction | destructive_action |
-| PreciseLocation   | precise_location   |
-| SettingsGroup     | settings_group     |
-| StaticText        | static_text        |
-| Separator         | separator          |
-| TextField         | text_field         |
-| Button            | button             |
-| Tweet             | tweet              |
-
-| constant        | value             |
-|:----------------|:------------------|
-| AppleSSOButton  | apple_sso_button  |
-| GoogleSSOButton | google_sso_button |
-| NextButton      | next_button       |
-| UserIdentifier  | user_identifier   |
-
-| constant                 | value          |
-|:-------------------------|:---------------|
-| DEPRECATED_UnorderedList | UnorderedList  |
-| DEPRECATED_ListItem      | ListItem       |
-| UnorderedList            | unordered_list |
-| ListItem                 | list_item      |
-
-| constant   | value   |
-|:-----------|:--------|
-| Normal     | Normal  |
-| Bold       | Bold    |
-
-| constant   | value   |
-|:-----------|:--------|
-| Small      | Small   |
-| Normal     | Normal  |
-| Large      | Large   |
-| XLarge     | XLarge  |
-| Jumbo      | Jumbo   |
-
-| constant   | value   |
-|:-----------|:--------|
-| Qr         | qr      |
-| Text       | text    |
-
-| constant   | value   |
-|:-----------|:--------|
-| Avatar     | avatar  |
-| Banner     | banner  |
-
-| constant   | value     |
-|:-----------|:----------|
-| Success    | success   |
-| NotFound   | not_found |
-| Error      | error     |
-
-| constant   | value    |
-|:-----------|:---------|
-| Favorite   | favorite |
-| Follow     | follow   |
-| Reply      | reply    |
-| Retweet    | retweet  |
-
-| constant   | value    |
-|:-----------|:---------|
-| Checkbox   | checkbox |
-| Follow     | follow   |
-
-| constant         | value           |
-|:-----------------|:----------------|
-| Tile             | tile            |
-| List             | list            |
-| TileFollowButton | tile_follow_btn |
-
-| constant   | value     |
-|:-----------|:----------|
-| Always     | always    |
-| Never      | never     |
-| Preprompt  | preprompt |
-
-| constant   | value     |
-|:-----------|:----------|
-| Email      | email     |
-| Number     | number    |
-| Password   | password  |
-| Telephone  | telephone |
-| Text       | text      |
-
-| constant    | value        |
-|:------------|:-------------|
-| ResendSms   | resend_sms   |
-| ResendVoice | resend_voice |
-| ResendEmail | resend_email |
-
-| constant    | value        |
-|:------------|:-------------|
-| Password    | password     |
-| NewPassword | new_password |
-| Text        | text         |
-
-| constant   | value   |
-|:-----------|:--------|
-| Normal     | normal  |
-| Compact    | compact |
-
-| constant    | value        |
-|:------------|:-------------|
-| Username    | username     |
-| Password    | password     |
-| NewPassword | new_password |
-| Text        | text         |
-
-| constant   | value    |
-|:-----------|:---------|
-| Mismatch   | mismatch |
-
-| constant   | value   |
-|:-----------|:--------|
-| compact    | compact |
-| stacked    | stacked |
-
-| constant      | value          |
-|:--------------|:---------------|
-| Fixed         | fixed          |
-| Floating      | floating       |
-| FloatingLarge | floating_large |
-
-| constant   | value      |
-|:-----------|:-----------|
-| Default    | default    |
-| GoogleSSO  | google_sso |
-| AppleSSO   | apple_sso  |
-
-| constant   | value      |
-|:-----------|:-----------|
-| Impression | impression |
-| Click      | click      |
-
-| constant       | value           |
-|:---------------|:----------------|
-| HeaderTitle    | header_title    |
-| HeaderSubtitle | header_subtitle |
-| SectionTitle   | section_title   |
-| Detail         | detail          |
-
-| constant   | value   |
-|:-----------|:--------|
-| All        | all     |
-| Users      | users   |
-| Topics     | topics  |
-| Events     | events  |
-
-| constant   | value                  |
-|:-----------|:-----------------------|
-| REQUEST    | rweb/ocf/FETCH_REQUEST |
-| SUCCESS    | rweb/ocf/FETCH_SUCCESS |
-| FAILURE    | rweb/ocf/FETCH_FAILURE |
-
-| constant   | value                  |
-|:-----------|:-----------------------|
-| REQUEST    | rweb/ocf/START_REQUEST |
-| SUCCESS    | rweb/ocf/START_SUCCESS |
-| FAILURE    | rweb/ocf/START_FAILURE |
-
-| constant   | value                              |
-|:-----------|:-----------------------------------|
-| REQUEST    | rweb/ocf/VERIFY_IDENTIFIER_REQUEST |
-| SUCCESS    | rweb/ocf/VERIFY_IDENTIFIER_SUCCESS |
-| FAILURE    | rweb/ocf/VERIFY_IDENTIFIER_FAILURE |
-
-| constant   | value                                                |
-|:-----------|:-----------------------------------------------------|
-| REQUEST    | rweb/ocf/FETCH_BROWSABLE_NUX_RECOMMENDATIONS_REQUEST |
-| SUCCESS    | rweb/ocf/FETCH_BROWSABLE_NUX_RECOMMENDATIONS_SUCCESS |
-| FAILURE    | rweb/ocf/FETCH_BROWSABLE_NUX_RECOMMENDATIONS_FAILURE |
 
 | constant        | value                 |
 |:----------------|:----------------------|
