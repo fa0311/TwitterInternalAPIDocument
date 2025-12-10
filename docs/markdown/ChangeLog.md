@@ -7627,3 +7627,16 @@
 - responsive_web_ad_revenue_sharing_onboarding_redirect_enabled<br>
 #### remove<br>
 - responsive_web_grok_use_imagine_in_image_gen<br>
+## 2025/12/10<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- responsive_web_verified_organizations_offer_description_enabled<br>
+- subscriptions_offers_in_tier_switch_enabled<br>
+- subscriptions_premium_hub_ad_free_link_enabled<br>
+#### remove<br>
+- rweb_home_compact_timeline_enabled<br>
