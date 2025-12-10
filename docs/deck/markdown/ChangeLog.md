@@ -6676,3 +6676,15 @@
 - responsive_web_grok_disable_new_conversation_url_reset<br>
 #### remove<br>
 - None<br>
+## 2025/12/09<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- responsive_web_ad_revenue_sharing_bounce_all_legacy_to_creator_studio_enabled<br>
+- responsive_web_ad_revenue_sharing_onboarding_redirect_enabled<br>
+#### remove<br>
+- responsive_web_grok_use_imagine_in_image_gen<br>

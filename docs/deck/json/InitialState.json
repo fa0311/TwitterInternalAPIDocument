@@ -1291,6 +1291,9 @@
       "responsive_web_ad_formats_media_overlay_enabled": {
         "value": "true"
       },
+      "responsive_web_ad_revenue_sharing_bounce_all_legacy_to_creator_studio_enabled": {
+        "value": "false"
+      },
       "responsive_web_ad_revenue_sharing_dashboard_redirect_enabled": {
         "value": "false"
       },
@@ -1299,6 +1302,9 @@
       },
       "responsive_web_ad_revenue_sharing_number_of_impressions": {
         "value": "5"
+      },
+      "responsive_web_ad_revenue_sharing_onboarding_redirect_enabled": {
+        "value": "false"
       },
       "responsive_web_ad_revenue_sharing_setup_enabled": {
         "value": "false"
@@ -1809,9 +1815,6 @@
       },
       "responsive_web_grok_tweet_translation_limit": {
         "value": "5000"
-      },
-      "responsive_web_grok_use_imagine_in_image_gen": {
-        "value": "false"
       },
       "responsive_web_grok_use_new_layout": {
         "value": "true"
@@ -4994,6 +4997,9 @@
         "responsive_web_ad_formats_media_overlay_enabled": {
           "value": "true"
         },
+        "responsive_web_ad_revenue_sharing_bounce_all_legacy_to_creator_studio_enabled": {
+          "value": "false"
+        },
         "responsive_web_ad_revenue_sharing_dashboard_redirect_enabled": {
           "value": "false"
         },
@@ -5002,6 +5008,9 @@
         },
         "responsive_web_ad_revenue_sharing_number_of_impressions": {
           "value": "5"
+        },
+        "responsive_web_ad_revenue_sharing_onboarding_redirect_enabled": {
+          "value": "true"
         },
         "responsive_web_ad_revenue_sharing_setup_enabled": {
           "value": "true"
@@ -5512,9 +5521,6 @@
         },
         "responsive_web_grok_tweet_translation_limit": {
           "value": "5000"
-        },
-        "responsive_web_grok_use_imagine_in_image_gen": {
-          "value": "false"
         },
         "responsive_web_grok_use_new_layout": {
           "value": "true"
@@ -7511,10 +7517,10 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "624bd930d2783ba0d7b3d25316b00b03"
+      "settingsVersion": "55109fa9608c5c0b1f98bce4f8edfe25"
     },
     "debug": {},
-    "featureSetToken": "d2472bfff2ea786c3696a36d560a3af059e46aa0",
+    "featureSetToken": "9e3fd6a650ac6f92230ea82f1869958255cef04a",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -7583,7 +7589,7 @@
   },
   "session": {
     "country": "XX",
-    "guestId": "176522792295246834",
+    "guestId": "176531431030596234",
     "hasCommunityMemberships": "false",
     "isActiveCreator": "false",
     "isLoaded": "false",
