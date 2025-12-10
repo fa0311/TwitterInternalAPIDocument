@@ -6255,7 +6255,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## SwitchTier<br>
-Request URL: `https://x.com/i/api/graphql/NEMw3cw4v0-Oo-nTMI8reQ/SwitchTier`<br>
+Request URL: `https://x.com/i/api/graphql/73t92vAzJ9DI1WygCcD7WQ/SwitchTier`<br>
 Request Method: `POST`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -7955,7 +7955,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## SwitchTier<br>
-Request URL: `https://x.com/i/api/graphql/NEMw3cw4v0-Oo-nTMI8reQ/SwitchTier`<br>
+Request URL: `https://x.com/i/api/graphql/73t92vAzJ9DI1WygCcD7WQ/SwitchTier`<br>
 Request Method: `POST`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -8274,7 +8274,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## SwitchTier<br>
-Request URL: `https://x.com/i/api/graphql/NEMw3cw4v0-Oo-nTMI8reQ/SwitchTier`<br>
+Request URL: `https://x.com/i/api/graphql/73t92vAzJ9DI1WygCcD7WQ/SwitchTier`<br>
 Request Method: `POST`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -8336,7 +8336,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## SwitchTier<br>
-Request URL: `https://x.com/i/api/graphql/NEMw3cw4v0-Oo-nTMI8reQ/SwitchTier`<br>
+Request URL: `https://x.com/i/api/graphql/73t92vAzJ9DI1WygCcD7WQ/SwitchTier`<br>
 Request Method: `POST`<br>
 Login Required: `...`<br>
 ### Param<br>
