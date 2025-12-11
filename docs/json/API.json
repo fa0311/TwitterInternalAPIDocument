@@ -4865,8 +4865,8 @@
       }
     },
     "SwitchTier": {
-      "url": "https://x.com/i/api/graphql/NEMw3cw4v0-Oo-nTMI8reQ/SwitchTier",
-      "queryId": "NEMw3cw4v0-Oo-nTMI8reQ",
+      "url": "https://x.com/i/api/graphql/73t92vAzJ9DI1WygCcD7WQ/SwitchTier",
+      "queryId": "73t92vAzJ9DI1WygCcD7WQ",
       "method": "POST",
       "features": {}
     },
