@@ -323,6 +323,11 @@ This document is entirely auto-generated and may contain errors.<br>
 | SUCCESS    | rweb/settings/profile/FETCH_VERIFIED_PHONE_LABEL_SUCCESS |
 | FAILURE    | rweb/settings/profile/FETCH_VERIFIED_PHONE_LABEL_FAILURE |
 
+| constant      | value         |
+|:--------------|:--------------|
+| single_line   | singleline    |
+| format_inline | format-inline |
+
 | constant   | value   |
 |:-----------|:--------|
 | IOS        | ios     |
@@ -394,6 +399,31 @@ This document is entirely auto-generated and may contain errors.<br>
 # Error
 {"__proto__":"null","DEG2RAD":"Mn","RAD2DEG":"Sn","generateUUID":"wn","clamp":"Tn","euclideanModulo":"An","mapLinear":"function()"{return i+()*(t-e)/(r-i)},"inverseLerp":"function()"{return t!==e?()/(n-t):"0"},"lerp":"Cn","damp":"function()"{"return Cn()"},"pingpong":"function()"{return e-Math.abs()...
 ```
+| constant   | value      |
+|:-----------|:-----------|
+| Scheduled  | Scheduled  |
+| InProgress | InProgress |
+| Completed  | Completed  |
+| Postponed  | Postponed  |
+| Cancelled  | Cancelled  |
+| Unused6    | _Unused6   |
+| Unused7    | _Unused7   |
+
+| constant        | value          |
+|:----------------|:---------------|
+| SCORE           | score          |
+| SECONDARY_SCORE | secondaryScore |
+
+| constant   | value      |
+|:-----------|:-----------|
+| Scheduled  | Scheduled  |
+| InProgress | InProgress |
+| Completed  | Completed  |
+| Postponed  | Postponed  |
+| Cancelled  | Cancelled  |
+| Unused6    | _Unused6   |
+| Unused7    | _Unused7   |
+
 | constant   | value      |
 |:-----------|:-----------|
 | Scheduled  | Scheduled  |
