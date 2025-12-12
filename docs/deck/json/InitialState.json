@@ -1174,6 +1174,12 @@
       "payments_transaction_search_enabled": {
         "value": "true"
       },
+      "premium_business_offers_banner_portal_basic_tier": {
+        "value": "false"
+      },
+      "premium_business_offers_banner_sidebar_basic_tier": {
+        "value": "false"
+      },
       "premium_content_api_read_enabled": {
         "value": "false"
       },
@@ -2435,7 +2441,7 @@
         "value": "true"
       },
       "rweb_media_upload_refactor_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "rweb_mixed_media_uploads_cap": {
         "value": "4"
@@ -2541,6 +2547,9 @@
       },
       "rweb_xchat_debug_enabled": {
         "value": "false"
+      },
+      "rweb_xchat_log_snapshot_enabled": {
+        "value": "true"
       },
       "rweb_xchat_logs": {
         "value": "false"
@@ -5010,7 +5019,7 @@
           "value": "true"
         },
         "responsive_web_ad_revenue_sharing_bounce_all_legacy_to_creator_studio_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "responsive_web_ad_revenue_sharing_dashboard_redirect_enabled": {
           "value": "false"
@@ -6260,6 +6269,9 @@
         "rweb_xchat_debug_enabled": {
           "value": "false"
         },
+        "rweb_xchat_log_snapshot_enabled": {
+          "value": "true"
+        },
         "rweb_xchat_logs": {
           "value": "false"
         },
@@ -7376,7 +7388,9 @@
           "value": "false"
         },
         "x_jetfuel_event_screen_migration_skip_ids": {
-          "value": []
+          "value": [
+            "1914593913903493120"
+          ]
         },
         "x_jetfuel_use_new_api_url": {
           "value": "true"
@@ -7535,10 +7549,10 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "5c39f8bce57cbfec96d73df3a846b702"
+      "settingsVersion": "e2096e1acb0fecbf8dca3feb48b41d37"
     },
     "debug": {},
-    "featureSetToken": "696b642835cd16346adb20f47b6703a66b481e9d",
+    "featureSetToken": "9db15df16ce1d768e3e3eb1bd2898e578c74ee1d",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -7607,7 +7621,7 @@
   },
   "session": {
     "country": "XX",
-    "guestId": "176548713062130950",
+    "guestId": "176557353624746909",
     "hasCommunityMemberships": "false",
     "isActiveCreator": "false",
     "isLoaded": "false",
