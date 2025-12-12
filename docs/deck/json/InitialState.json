@@ -1468,9 +1468,6 @@
       "responsive_web_chat_enabled": {
         "value": "true"
       },
-      "responsive_web_collection_ads_enabled": {
-        "value": "true"
-      },
       "responsive_web_commerce_shop_spotlight_enabled": {
         "value": "false"
       },
@@ -2895,6 +2892,9 @@
       "subscriptions_management_fetch_next_billing_time": {
         "value": "true"
       },
+      "subscriptions_management_manage_subtext_update_enabled": {
+        "value": "false"
+      },
       "subscriptions_management_query_active_price": {
         "value": "true"
       },
@@ -2977,7 +2977,7 @@
         "value": "true"
       },
       "subscriptions_premium_tiers_default_interval": {
-        "value": "Year"
+        "value": "Month"
       },
       "subscriptions_premium_tiers_default_product": {
         "value": "BlueVerified"
@@ -3541,9 +3541,6 @@
       "unified_cards_clip_long_media_promoted_content_enabled": {
         "value": "true"
       },
-      "unified_cards_collection_ads_convert_to_image_website_card": {
-        "value": "false"
-      },
       "unified_cards_details_component_title_max_lines": {
         "value": "2"
       },
@@ -3677,6 +3674,9 @@
       },
       "xchat_allow_legacy_message_requests": {
         "value": "true"
+      },
+      "xchat_ask_grok_enabled": {
+        "value": "false"
       },
       "xchat_auto_upgrade_legacy_groups": {
         "value": "false"
@@ -4886,6 +4886,12 @@
         "payments_transaction_search_enabled": {
           "value": "true"
         },
+        "premium_business_offers_banner_portal_basic_tier": {
+          "value": "false"
+        },
+        "premium_business_offers_banner_sidebar_basic_tier": {
+          "value": "false"
+        },
         "premium_content_api_read_enabled": {
           "value": "false"
         },
@@ -5178,9 +5184,6 @@
           "value": "true"
         },
         "responsive_web_chat_enabled": {
-          "value": "true"
-        },
-        "responsive_web_collection_ads_enabled": {
           "value": "true"
         },
         "responsive_web_commerce_shop_spotlight_enabled": {
@@ -6150,7 +6153,7 @@
           "value": "true"
         },
         "rweb_media_upload_refactor_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "rweb_mixed_media_uploads_cap": {
           "value": "4"
@@ -6606,6 +6609,9 @@
         },
         "subscriptions_management_fetch_next_billing_time": {
           "value": "true"
+        },
+        "subscriptions_management_manage_subtext_update_enabled": {
+          "value": "false"
         },
         "subscriptions_management_query_active_price": {
           "value": "true"
@@ -7253,9 +7259,6 @@
         "unified_cards_clip_long_media_promoted_content_enabled": {
           "value": "true"
         },
-        "unified_cards_collection_ads_convert_to_image_website_card": {
-          "value": "false"
-        },
         "unified_cards_details_component_title_max_lines": {
           "value": "2"
         },
@@ -7389,6 +7392,9 @@
         },
         "xchat_allow_legacy_message_requests": {
           "value": "true"
+        },
+        "xchat_ask_grok_enabled": {
+          "value": "false"
         },
         "xchat_auto_upgrade_legacy_groups": {
           "value": "false"
@@ -7529,10 +7535,10 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "d13200f46348fcfa871747a5986b6704"
+      "settingsVersion": "5c39f8bce57cbfec96d73df3a846b702"
     },
     "debug": {},
-    "featureSetToken": "7ab7e34213f928985bcc80d9eb54357af146fd69",
+    "featureSetToken": "696b642835cd16346adb20f47b6703a66b481e9d",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -7601,7 +7607,7 @@
   },
   "session": {
     "country": "XX",
-    "guestId": "176540073162657482",
+    "guestId": "176548713062130950",
     "hasCommunityMemberships": "false",
     "isActiveCreator": "false",
     "isLoaded": "false",

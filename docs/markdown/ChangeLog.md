@@ -7640,3 +7640,18 @@
 - subscriptions_premium_hub_ad_free_link_enabled<br>
 #### remove<br>
 - rweb_home_compact_timeline_enabled<br>
+## 2025/12/11<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- subscriptions_management_manage_subtext_update_enabled<br>
+- xchat_ask_grok_enabled<br>
+- premium_business_offers_banner_portal_basic_tier<br>
+- premium_business_offers_banner_sidebar_basic_tier<br>
+#### remove<br>
+- responsive_web_collection_ads_enabled<br>
+- unified_cards_collection_ads_convert_to_image_website_card<br>
