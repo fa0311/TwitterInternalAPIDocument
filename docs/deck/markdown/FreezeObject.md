@@ -48,6 +48,13 @@ This document is entirely auto-generated and may contain errors.<br>
 | narrow     | narrow     |
 | veryNarrow | veryNarrow |
 
+| constant   |   value |
+|:-----------|--------:|
+| large      |      54 |
+| medium     |      46 |
+| small      |      36 |
+| xSmall     |      12 |
+
 ```internal process
 # Error
 {"₊":"+","₋":"-","₌":"=","₍":"()","₀":"0","₁":"1","₂":"2","₃":"3","₄":"4","₅":"5","₆":"6","₇":"7","₈":"8","₉":"9",ₐ:"a",ₑ:"e",ₕ:"h",ᵢ:"i",ⱼ:"j",ₖ:"k",ₗ:"l",ₘ:"m",ₙ:"n",ₒ:"o",ₚ:"p",ᵣ:"r",ₛ:"s",ₜ:"t",ᵤ:"u",ᵥ:"v",ₓ:"x",ᵦ:"β",ᵧ:"γ",ᵨ:"ρ",ᵩ:"ϕ",ᵪ:"χ","⁺":"+","⁻":"-","⁼":"=","⁽":"(\",\"₎\":\")","⁰":"0","¹...
@@ -322,11 +329,6 @@ This document is entirely auto-generated and may contain errors.<br>
 | REQUEST    | rweb/settings/profile/FETCH_VERIFIED_PHONE_LABEL_REQUEST |
 | SUCCESS    | rweb/settings/profile/FETCH_VERIFIED_PHONE_LABEL_SUCCESS |
 | FAILURE    | rweb/settings/profile/FETCH_VERIFIED_PHONE_LABEL_FAILURE |
-
-| constant      | value         |
-|:--------------|:--------------|
-| single_line   | singleline    |
-| format_inline | format-inline |
 
 | constant   | value   |
 |:-----------|:--------|
