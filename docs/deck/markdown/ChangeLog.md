@@ -6729,3 +6729,14 @@
 #### remove<br>
 - responsive_web_collection_ads_enabled<br>
 - unified_cards_collection_ads_convert_to_image_website_card<br>
+## 2025/12/12<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- rweb_xchat_log_snapshot_enabled<br>
+#### remove<br>
+- None<br>
