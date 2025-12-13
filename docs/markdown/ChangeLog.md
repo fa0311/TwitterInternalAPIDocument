@@ -7666,3 +7666,19 @@
 - rweb_xchat_log_snapshot_enabled<br>
 #### remove<br>
 - None<br>
+## 2025/12/13<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- responsive_web_grok_05231996<br>
+- responsive_web_grok_imagine_composer_enabled<br>
+- responsive_web_grok_imagine_profile_edit_enabled<br>
+- responsive_web_grok_media_attribution_route_to_imagine_composer<br>
+- responsive_web_grok_tweet_media_edit_image_button_enabled<br>
+- rweb_home_connect_in_menu_min_follows<br>
+#### remove<br>
+- card_detail_compact_enabled<br>
