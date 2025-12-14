@@ -596,7 +596,7 @@
         "value": "true"
       },
       "creator_studio_nav_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "creator_subscriptions_connect_tab_enabled": {
         "value": "true"
@@ -3707,11 +3707,20 @@
       "xchat_auto_upgrade_legacy_groups": {
         "value": "false"
       },
+      "xchat_clear_chat_enabled": {
+        "value": "false"
+      },
       "xchat_conversation_event_limit": {
         "value": "200"
       },
       "xchat_conversation_message_search_enabled": {
         "value": "true"
+      },
+      "xchat_eagerly_observe_conv_list": {
+        "value": "false"
+      },
+      "xchat_emit_conv_upgraded_info_item": {
+        "value": "false"
       },
       "xchat_enable_av": {
         "value": "false"
@@ -3755,8 +3764,14 @@
       "xchat_inbox_conversation_local_pagination_page_size": {
         "value": "20"
       },
+      "xchat_ios_max_io_threads": {
+        "value": "0"
+      },
       "xchat_local_pagination_page_size": {
         "value": "50"
+      },
+      "xchat_max_attachments_per_message": {
+        "value": "1"
       },
       "xchat_max_group_size": {
         "value": "300"
@@ -3802,6 +3817,9 @@
       },
       "xchat_unified_tab_min_snowflake_user_id": {
         "value": "0"
+      },
+      "xchat_update_fetched_range_in_txn": {
+        "value": "false"
       },
       "xchat_use_info_items_for_sorting": {
         "value": "true"
@@ -7445,11 +7463,20 @@
         "xchat_auto_upgrade_legacy_groups": {
           "value": "false"
         },
+        "xchat_clear_chat_enabled": {
+          "value": "false"
+        },
         "xchat_conversation_event_limit": {
           "value": "200"
         },
         "xchat_conversation_message_search_enabled": {
           "value": "true"
+        },
+        "xchat_eagerly_observe_conv_list": {
+          "value": "false"
+        },
+        "xchat_emit_conv_upgraded_info_item": {
+          "value": "false"
         },
         "xchat_enable_av": {
           "value": "false"
@@ -7493,8 +7520,14 @@
         "xchat_inbox_conversation_local_pagination_page_size": {
           "value": "20"
         },
+        "xchat_ios_max_io_threads": {
+          "value": "0"
+        },
         "xchat_local_pagination_page_size": {
           "value": "50"
+        },
+        "xchat_max_attachments_per_message": {
+          "value": "1"
         },
         "xchat_max_group_size": {
           "value": "300"
@@ -7541,6 +7574,9 @@
         "xchat_unified_tab_min_snowflake_user_id": {
           "value": "0"
         },
+        "xchat_update_fetched_range_in_txn": {
+          "value": "false"
+        },
         "xchat_use_info_items_for_sorting": {
           "value": "true"
         },
@@ -7581,10 +7617,10 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "59c076eda64442f26f2beffce12fb0b8"
+      "settingsVersion": "4e015e76b473340989ad81ff8171c780"
     },
     "debug": {},
-    "featureSetToken": "2ca1ffec710c7f08e504fa6959abef172d08013e",
+    "featureSetToken": "cef09070999007a10a4714850e874f66dc242876",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -7653,7 +7689,7 @@
   },
   "session": {
     "country": "XX",
-    "guestId": "176565970903319334",
+    "guestId": "176574612317546452",
     "hasCommunityMemberships": "false",
     "isActiveCreator": "false",
     "isLoaded": "false",
