@@ -7698,3 +7698,18 @@
 - xchat_update_fetched_range_in_txn<br>
 #### remove<br>
 - None<br>
+## 2025/12/15<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- premium_business_offers_nav_indicator_enabled<br>
+- premium_business_offers_navbar_premium_signup_hidden<br>
+- premium_business_offers_signup_navbar_tab_enabled<br>
+- rweb_home_ranked_following_enabled<br>
+#### remove<br>
+- responsive_web_carousel_v2_cards_non_safari_enabled<br>
+- responsive_web_carousel_v2_cards_safari_variant<br>
