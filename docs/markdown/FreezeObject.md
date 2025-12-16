@@ -448,18 +448,19 @@ This document is entirely auto-generated and may contain errors.<br>
 | TWITTERBOT   | twitterbot   |
 | YANDEXBOT    | yandexbot    |
 
-| constant            | value               |
-|:--------------------|:--------------------|
-| verticallyMaximized | verticallyMaximized |
-| verticallyFull      | verticallyFull      |
-| fixed               | fixed               |
-| dynamic             | dynamic             |
-| fitChildren         | fitChildren         |
-| noSizeLimit         | noSizeLimit         |
-| full                | full                |
-| jetfuel             | jetfuel             |
-| money               | money               |
-| moneyMax            | moneyMax            |
+| constant               | value                  |
+|:-----------------------|:-----------------------|
+| verticallyMaximized    | verticallyMaximized    |
+| verticallyFull         | verticallyFull         |
+| fixed                  | fixed                  |
+| dynamic                | dynamic                |
+| fitChildren            | fitChildren            |
+| noSizeLimit            | noSizeLimit            |
+| full                   | full                   |
+| jetfuel                | jetfuel                |
+| money                  | money                  |
+| moneyMax               | moneyMax               |
+| tierSwitchConfirmation | tierSwitchConfirmation |
 
 | constant        | value           |
 |:----------------|:----------------|
@@ -756,13 +757,13 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant              | value   |
 |:----------------------|:--------|
-| cardWidth             | c       |
+| cardWidth             | d       |
 | columnWidths          | r       |
 | columnWidthsRedesign  | o       |
 | sideNavWidths         | a       |
 | sideNavWidthsRedesign | i       |
 | contentWidths         | s       |
-| contentWidthsRedesign | d       |
+| contentWidthsRedesign | c       |
 | wideTabBarWidth       | l       |
 | dmDrawerHeight        | u       |
 | dmDrawerWidth         | p       |
@@ -2355,7 +2356,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{"isExternal":"function()"{"try"{var t=c();return this._customIsExternal?this._customIsExternal(e,n){"hrefHostname":"t","href":"e"}}"catch()"{"return!0"}},"setIsExternal":"function()"{"this._customIsExternal=e"},"clearIsExternal":"function()"{"this._customIsExternal=null"},"onLinkClick":"function()"...
+{"isExternal":"function()"{"try"{var t=d();return this._customIsExternal?this._customIsExternal(e,n){"hrefHostname":"t","href":"e"}}"catch()"{"return!0"}},"setIsExternal":"function()"{"this._customIsExternal=e"},"clearIsExternal":"function()"{"this._customIsExternal=null"},"onLinkClick":"function()"...
 ```
 | constant          | value             |
 |:------------------|:------------------|
@@ -2373,7 +2374,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{"cashtag":"function()"{"return"{"color":"link","dir":"ltr","link":"b()","ref":"n","text":"$".concat(m.Cashtag,\"$\".concatn.text),"type":"m.Cashtag"}},"hashtag":"function()"{"return"{"color":"link","dir":"d.Z.getTextDirection()","link":"b(n.text)","ref":"n","text":"#".concat(m.Hashtag,\"#\".concatn...
+{"cashtag":"function()"{"return"{"color":"link","dir":"ltr","link":"b()","ref":"n","text":"$".concat(m.Cashtag,\"$\".concatn.text),"type":"m.Cashtag"}},"hashtag":"function()"{"return"{"color":"link","dir":"c.Z.getTextDirection()","link":"b(n.text)","ref":"n","text":"#".concat(m.Hashtag,\"#\".concatn...
 ```
 | constant   | value   |
 |:-----------|:--------|
@@ -2539,6 +2540,8 @@ This document is entirely auto-generated and may contain errors.<br>
 | alwaysDarkGray900  | alwaysDarkGray900  |
 | alwaysDarkGray50   | alwaysDarkGray50   |
 | alwaysBlack        | alwaysBlack        |
+| alwaysDarkGreen600 | alwaysDarkGreen600 |
+| alwaysDarkGreen700 | alwaysDarkGreen700 |
 | blue300            | blue300            |
 | blue500            | blue500            |
 | blue600            | blue600            |
@@ -2639,10 +2642,10 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant            | value   |
 |:--------------------|:--------|
-| aspectRatios        | d       |
+| aspectRatios        | c       |
 | baseFontSize        | S       |
 | borderRadii         | l       |
-| borderRadiiPx       | c       |
+| borderRadiiPx       | d       |
 | borderWidths        | p       |
 | borderWidthsPx      | u       |
 | breakpoints         | i       |
@@ -6167,8 +6170,8 @@ This document is entirely auto-generated and may contain errors.<br>
 | constant       | value                                          |
 |:---------------|:-----------------------------------------------|
 | closed         | {'shouldShow': '!1'}                           |
-| openSuccessful | {'shouldShow': '!0', 'badgeType': 'M.Ratings'} |
-| openHelpful    | {'shouldShow': '!0', 'badgeType': 'M.Notes'}   |
+| openSuccessful | {'shouldShow': '!0', 'badgeType': 'H.Ratings'} |
+| openHelpful    | {'shouldShow': '!0', 'badgeType': 'H.Notes'}   |
 
 | constant   | value                                               |
 |:-----------|:----------------------------------------------------|
@@ -8248,6 +8251,11 @@ This document is entirely auto-generated and may contain errors.<br>
 | CANCELED           |     999 |
 | INVALID_RES_STATUS |      -1 |
 
+| constant      | value         |
+|:--------------|:--------------|
+| single_line   | singleline    |
+| format_inline | format-inline |
+
 | constant   | value    |
 |:-----------|:---------|
 | MEDIA      | MEDIA    |
@@ -8282,16 +8290,6 @@ This document is entirely auto-generated and may contain errors.<br>
 |:-----------|:------------|
 | DRAFT      | c.DRAFT     |
 | PUBLISHED  | c.PUBLISHED |
-
-| constant      | value         |
-|:--------------|:--------------|
-| single_line   | singleline    |
-| format_inline | format-inline |
-
-| constant      | value         |
-|:--------------|:--------------|
-| single_line   | singleline    |
-| format_inline | format-inline |
 
 | constant                          | value               |
 |:----------------------------------|:--------------------|
@@ -8339,8 +8337,13 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant   | value       |
 |:-----------|:------------|
-| DRAFT      | s.DRAFT     |
-| PUBLISHED  | s.PUBLISHED |
+| DRAFT      | c.DRAFT     |
+| PUBLISHED  | c.PUBLISHED |
+
+| constant      | value         |
+|:--------------|:--------------|
+| single_line   | singleline    |
+| format_inline | format-inline |
 
 ```internal process
 # Error
@@ -8951,42 +8954,37 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant             | value   |
 |:---------------------|:--------|
-| software_engineering | m       |
-| data_analytics       | h       |
-| product              | b       |
-| design               | p       |
-| marketing            | g       |
-| sales_am             | y       |
-| operations           | v       |
-| people_hr            | Z       |
-| finance_accounting   | w       |
-| legal_compliance     | D       |
-| science_engineering  | k       |
+| software_engineering | p       |
+| data_analytics       | g       |
+| product              | f       |
+| design               | y       |
+| marketing            | b       |
+| sales_am             | h       |
+| operations           | k       |
+| people_hr            | v       |
+| finance_accounting   | E       |
+| legal_compliance     | Z       |
+| science_engineering  | _       |
 | medical              | S       |
-| construction_trades  | E       |
-| other                | P       |
+| construction_trades  | w       |
+| other                | F       |
 
 | constant    | value   |
 |:------------|:--------|
-| intern      | x       |
+| intern      | K       |
 | entry_level | j       |
-| junior      | C       |
-| mid_level   | I       |
-| senior      | _       |
-| lead        | A       |
-| manager     | T       |
-| executive   | R       |
+| junior      | D       |
+| mid_level   | P       |
+| senior      | I       |
+| lead        | T       |
+| manager     | L       |
+| executive   | O       |
 
 | constant   | value                                                 |
 |:-----------|:------------------------------------------------------|
-| onsite     | {'label': 'q', 'description': 'B', 'value': 'onsite'} |
-| remote     | {'label': 'W', 'description': 'N', 'value': 'remote'} |
-| hybrid     | {'label': 'H', 'description': 'M', 'value': 'hybrid'} |
-
-| constant      | value         |
-|:--------------|:--------------|
-| single_line   | singleline    |
-| format_inline | format-inline |
+| onsite     | {'label': 'z', 'description': 'U', 'value': 'onsite'} |
+| remote     | {'label': 'J', 'description': 'H', 'value': 'remote'} |
+| hybrid     | {'label': 'B', 'description': 'M', 'value': 'hybrid'} |
 
 | constant        | value   |
 |:----------------|:--------|
@@ -8995,6 +8993,11 @@ This document is entirely auto-generated and may contain errors.<br>
 | companyName     |         |
 | employmentTypes | []      |
 | industry        |         |
+
+| constant      | value         |
+|:--------------|:--------------|
+| single_line   | singleline    |
+| format_inline | format-inline |
 
 | constant           | value   |
 |:-------------------|:--------|
@@ -10878,6 +10881,59 @@ This document is entirely auto-generated and may contain errors.<br>
 | Live       | Live    |
 | Sandbox    | Sandbox |
 | Test       | Test    |
+
+| constant         |   value |
+|:-----------------|--------:|
+| DISABLED         |       0 |
+| ENABLED          |      10 |
+| SYNC_IN_PROGRESS |      20 |
+| SYNC_FAILED      |      30 |
+
+| constant           | value              |
+|:-------------------|:-------------------|
+| freshteam          | Freshteam          |
+| greenhouse         | Greenhouse         |
+| lever              | Lever              |
+| recruitee          | Recruitee          |
+| sage-hr            | Sage HR            |
+| sap-successfactors | SAP SuccessFactors |
+| teamtailor         | Teamtailor         |
+| workable           | Workable           |
+| workday            | Workday            |
+
+| constant             | value   |
+|:---------------------|:--------|
+| software_engineering | m       |
+| data_analytics       | p       |
+| product              | b       |
+| design               | y       |
+| marketing            | g       |
+| sales_am             | h       |
+| operations           | v       |
+| people_hr            | _       |
+| finance_accounting   | k       |
+| legal_compliance     | Z       |
+| science_engineering  | S       |
+| medical              | E       |
+| construction_trades  | w       |
+| other                | O       |
+
+| constant    | value   |
+|:------------|:--------|
+| intern      | j       |
+| entry_level | P       |
+| junior      | I       |
+| mid_level   | D       |
+| senior      | x       |
+| lead        | L       |
+| manager     | T       |
+| executive   | K       |
+
+| constant   | value                                                 |
+|:-----------|:------------------------------------------------------|
+| onsite     | {'label': 'z', 'description': 'U', 'value': 'onsite'} |
+| remote     | {'label': 'B', 'description': 'J', 'value': 'remote'} |
+| hybrid     | {'label': 'N', 'description': 'M', 'value': 'hybrid'} |
 
 | constant                | value                     |
 |:------------------------|:--------------------------|
