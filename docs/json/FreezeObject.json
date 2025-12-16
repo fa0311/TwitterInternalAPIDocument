@@ -454,7 +454,8 @@
     "full": "full",
     "jetfuel": "jetfuel",
     "money": "money",
-    "moneyMax": "moneyMax"
+    "moneyMax": "moneyMax",
+    "tierSwitchConfirmation": "tierSwitchConfirmation"
   },
   {
     "TopNavBar": "TopNavBar",
@@ -759,13 +760,13 @@
     "max": "400"
   },
   {
-    "cardWidth": "c",
+    "cardWidth": "d",
     "columnWidths": "r",
     "columnWidthsRedesign": "o",
     "sideNavWidths": "a",
     "sideNavWidthsRedesign": "i",
     "contentWidths": "s",
-    "contentWidthsRedesign": "d",
+    "contentWidthsRedesign": "c",
     "wideTabBarWidth": "l",
     "dmDrawerHeight": "u",
     "dmDrawerWidth": "p"
@@ -1754,7 +1755,7 @@
     "SUCCESS": "rweb/ocf/FETCH_BROWSABLE_NUX_RECOMMENDATIONS_SUCCESS",
     "FAILURE": "rweb/ocf/FETCH_BROWSABLE_NUX_RECOMMENDATIONS_FAILURE"
   },
-  "{\"Community\":{\"scribe\":\"community\",\"sort\":{\"default\":\"Relevance\",\"options\":[\"Relevance\",\"Recency\",\"Likes\"]}},\"creator_subscriptions\":{\"name\":\"O().d80a1c37()\"{\"noun\":\"\"}},\"Generic\":{\"scribe\":\"generic\"},\"home\":{\"name\":\"O().d1e0a75f()\"{\"noun\":\"\"}},\"home_latest\":{\"name\":\"O().dafd69e9()\"{\"noun\":\"\"}{\"Popular\":\"home_ranked_latest\"},\"sort\":{\"default\":\"Recent\",\"options\":[\"Recent\",\"Popular\"]}},\"List\":{\"scribe\":\"pinned_list\"}}",
+  "{\"Community\":{\"scribe\":\"community\",\"sort\":{\"default\":\"Relevance\",\"options\":[\"Relevance\",\"Recency\",\"Likes\"]}},\"creator_subscriptions\":{\"name\":\"O().d80a1c37()\"{\"noun\":\"\"}},\"Generic\":{\"scribe\":\"generic\"},\"home\":{\"name\":\"O().d1e0a75f()\"{\"noun\":\"\"}},\"home_latest\":{\"name\":\"O().dafd69e9()\"{\"noun\":\"\"}{\"Popular\":\"ranked_following\"},\"sort\":{\"default\":\"Recent\",\"options\":[\"Recent\",\"Popular\"]}},\"List\":{\"scribe\":\"pinned_list\"}}",
   {
     "REQUEST": "rweb/pinnedTimelines/FETCH_PINNED_TIMELINES_REQUEST",
     "SUCCESS": "rweb/pinnedTimelines/FETCH_PINNED_TIMELINES_SUCCESS",
@@ -2366,7 +2367,7 @@
       "fontSize": "subtext3"
     }
   },
-  "{\"isExternal\":\"function()\"{\"try\"{var t=c();return this._customIsExternal?this._customIsExternal(e,n){\"hrefHostname\":\"t\",\"href\":\"e\"}}\"catch()\"{\"return!0\"}},\"setIsExternal\":\"function()\"{\"this._customIsExternal=e\"},\"clearIsExternal\":\"function()\"{\"this._customIsExternal=null\"},\"onLinkClick\":\"function()\"{\"this._customOnLinkClick&&this._customOnLinkClick()\"{\"event\":\"e\",\"link\":\"n\",\"newWindowRequested\":\"t\"}},\"setOnLinkClick\":\"function()\"{\"this._customOnLinkClick=e\"},\"linkProcessor\":\"function()\"{\"return this._customLinkProcessor?this._customLinkProcessor()\":\"e\"},\"setLinkProcessor\":\"function()\"{\"this._customLinkProcessor=e\"},\"hrefProcessor\":\"function()\"{\"return this._customHrefProcessor?this._customHrefProcessor()\":\"e\"},\"setHrefProcessor\":\"function()\"{\"this._customHrefProcessor=e\"},\"withAnchorless\":\"function()\"{return\"string\"==typeof e?{\"anchorless\":\"!0\",\"pathname\":\"e\"}:\"function()\"{\"for()\"{var t=null!=arguments[n]?arguments[n]:{};n%2?s().forEach(Objectt,!0){\"()(0,a.Z)\"}\"ttfunction(:Object.getOwnPropertyDescriptors?Object.definePropertiese,Object.getOwnPropertyDescriptors:sObject.forEach)\"{\"Object.defineProperty()\"}}\"return e\"}\"()\"{\"anchorless\":\"!0\"},\"e\"},\"setLinkFromUrtUrl\":\"function()\"{\"this._customLinkFromUrtUrl=e\"},\"getLinkFromUrtUrl\":\"function()\"{\"return this._customLinkFromUrtUrl?this._customLinkFromUrtUrl()\":{\"external\":\"!0\",\"pathname\":\"e.url\"}}}",
+  "{\"isExternal\":\"function()\"{\"try\"{var t=d();return this._customIsExternal?this._customIsExternal(e,n){\"hrefHostname\":\"t\",\"href\":\"e\"}}\"catch()\"{\"return!0\"}},\"setIsExternal\":\"function()\"{\"this._customIsExternal=e\"},\"clearIsExternal\":\"function()\"{\"this._customIsExternal=null\"},\"onLinkClick\":\"function()\"{\"this._customOnLinkClick&&this._customOnLinkClick()\"{\"event\":\"e\",\"link\":\"n\",\"newWindowRequested\":\"t\"}},\"setOnLinkClick\":\"function()\"{\"this._customOnLinkClick=e\"},\"linkProcessor\":\"function()\"{\"return this._customLinkProcessor?this._customLinkProcessor()\":\"e\"},\"setLinkProcessor\":\"function()\"{\"this._customLinkProcessor=e\"},\"hrefProcessor\":\"function()\"{\"return this._customHrefProcessor?this._customHrefProcessor()\":\"e\"},\"setHrefProcessor\":\"function()\"{\"this._customHrefProcessor=e\"},\"withAnchorless\":\"function()\"{return\"string\"==typeof e?{\"anchorless\":\"!0\",\"pathname\":\"e\"}:\"function()\"{\"for()\"{var t=null!=arguments[n]?arguments[n]:{};n%2?s().forEach(Objectt,!0){\"()(0,a.Z)\"}\"ttfunction(:Object.getOwnPropertyDescriptors?Object.definePropertiese,Object.getOwnPropertyDescriptors:sObject.forEach)\"{\"Object.defineProperty()\"}}\"return e\"}\"()\"{\"anchorless\":\"!0\"},\"e\"},\"setLinkFromUrtUrl\":\"function()\"{\"this._customLinkFromUrtUrl=e\"},\"getLinkFromUrtUrl\":\"function()\"{\"return this._customLinkFromUrtUrl?this._customLinkFromUrtUrl()\":{\"external\":\"!0\",\"pathname\":\"e.url\"}}}",
   {
     "Cashtag": "cashtag",
     "Hashtag": "hashtag",
@@ -2379,7 +2380,7 @@
     "CashtagClick": "cashtag_click",
     "HashtagClick": "hashtag_click"
   },
-  "{\"cashtag\":\"function()\"{\"return\"{\"color\":\"link\",\"dir\":\"ltr\",\"link\":\"b()\",\"ref\":\"n\",\"text\":\"$\".concat(m.Cashtag,\\\"$\\\".concatn.text),\"type\":\"m.Cashtag\"}},\"hashtag\":\"function()\"{\"return\"{\"color\":\"link\",\"dir\":\"d.Z.getTextDirection()\",\"link\":\"b(n.text)\",\"ref\":\"n\",\"text\":\"#\".concat(m.Hashtag,\\\"#\\\".concatn.text),\"type\":\"m.Hashtag\"}},\"mention\":\"function()\"{\"return\"{\"color\":\"link\",\"dir\":\"ltr\",\"link\":\"b()\",\"ref\":\"n\",\"text\":\"@\".concat(m.Mention,n.screenName),\"type\":\"m.Mention\"}},\"text\":\"function()\"{\"return\"{\"ref\":{},\"text\":\"s.Z.replaceCarriageReturns()\",\"type\":\"text\",\"weight\":\"Strong\"===n?\"bold\":\"void 0\"}},\"twitterList\":\"function()\"{\"return\"{\"color\":\"text\",\"link\":\"b()\",\"ref\":\"n\",\"text\":\"e\",\"type\":\"m.List\",\"weight\":\"bold\"}},\"url\":\"function()\"{\"return\"{\"color\":\"link\",\"link\":\"b()\",\"ref\":\"n\",\"text\":\"e\",\"type\":\"m.Url\"}},\"urlWithDisplayUrl\":\"function()\"{var r;return{\"color\":\"link\",\"link\":\"b()\",\"ref\":\"n\",\"text\":null!==(m.Url,n.url)&&void 0!==r?r:\"n.url\",\"type\":\"m.UrlWithDisplayUrl\"}},\"user\":\"function()\"{\"return\"{\"ref\":\"n\",\"text\":\"e\",\"type\":\"user\",\"weight\":\"bold\"}}}",
+  "{\"cashtag\":\"function()\"{\"return\"{\"color\":\"link\",\"dir\":\"ltr\",\"link\":\"b()\",\"ref\":\"n\",\"text\":\"$\".concat(m.Cashtag,\\\"$\\\".concatn.text),\"type\":\"m.Cashtag\"}},\"hashtag\":\"function()\"{\"return\"{\"color\":\"link\",\"dir\":\"c.Z.getTextDirection()\",\"link\":\"b(n.text)\",\"ref\":\"n\",\"text\":\"#\".concat(m.Hashtag,\\\"#\\\".concatn.text),\"type\":\"m.Hashtag\"}},\"mention\":\"function()\"{\"return\"{\"color\":\"link\",\"dir\":\"ltr\",\"link\":\"b()\",\"ref\":\"n\",\"text\":\"@\".concat(m.Mention,n.screenName),\"type\":\"m.Mention\"}},\"text\":\"function()\"{\"return\"{\"ref\":{},\"text\":\"s.Z.replaceCarriageReturns()\",\"type\":\"text\",\"weight\":\"Strong\"===n?\"bold\":\"void 0\"}},\"twitterList\":\"function()\"{\"return\"{\"color\":\"text\",\"link\":\"b()\",\"ref\":\"n\",\"text\":\"e\",\"type\":\"m.List\",\"weight\":\"bold\"}},\"url\":\"function()\"{\"return\"{\"color\":\"link\",\"link\":\"b()\",\"ref\":\"n\",\"text\":\"e\",\"type\":\"m.Url\"}},\"urlWithDisplayUrl\":\"function()\"{var r;return{\"color\":\"link\",\"link\":\"b()\",\"ref\":\"n\",\"text\":null!==(m.Url,n.url)&&void 0!==r?r:\"n.url\",\"type\":\"m.UrlWithDisplayUrl\"}},\"user\":\"function()\"{\"return\"{\"ref\":\"n\",\"text\":\"e\",\"type\":\"user\",\"weight\":\"bold\"}}}",
   {
     "x": "x",
     "y": "y"
@@ -2530,6 +2531,8 @@
     "alwaysDarkGray900": "alwaysDarkGray900",
     "alwaysDarkGray50": "alwaysDarkGray50",
     "alwaysBlack": "alwaysBlack",
+    "alwaysDarkGreen600": "alwaysDarkGreen600",
+    "alwaysDarkGreen700": "alwaysDarkGreen700",
     "blue300": "blue300",
     "blue500": "blue500",
     "blue600": "blue600",
@@ -2627,10 +2630,10 @@
     "gutterVerticalPx": "y.space12"
   },
   {
-    "aspectRatios": "d",
+    "aspectRatios": "c",
     "baseFontSize": "S",
     "borderRadii": "l",
-    "borderRadiiPx": "c",
+    "borderRadiiPx": "d",
     "borderWidths": "p",
     "borderWidthsPx": "u",
     "breakpoints": "i",
@@ -5931,11 +5934,11 @@
     },
     "openSuccessful": {
       "shouldShow": "!0",
-      "badgeType": "M.Ratings"
+      "badgeType": "H.Ratings"
     },
     "openHelpful": {
       "shouldShow": "!0",
-      "badgeType": "M.Notes"
+      "badgeType": "H.Notes"
     }
   },
   {
@@ -6625,7 +6628,7 @@
       "aria-live": "polite"
     }
   },
-  "{\"ActionsBar\":\"E.Z\",\"ActionMenu\":\"function()\"{\"var t=e.Icon\",n=e.isDisabled,r=e.items,o=e.onOpen,\"i=l.useCallback()\"{\"return l.createElement()\"{\"items\":\"r\",\"onCloseRequested\":\"e\"}}{\"Icon\":\"t\",\"isDisabled\":\"n\",\"onClick\":\"o\",\"renderActionMenu\":\"i\"}},\"CallToAction\":\"s.ZP\",\"EditCallout\":\"T.Z\",\"Education\":\"k.Z\",\"HighlightedUserLabel\":\"p.Z\",\"Media\":\"x.Z\",\"Place\":\"c.ZP\",\"PromotedDetails\":\"m.Z\",\"PromotedUserProfileCard\":\"A\",\"ReplyContext\":\"R.ZP\",\"RichContent\":\"M.Z\",\"SocialContext\":\"b.Z\",\"Text\":\"L.Z\",\"Tombstone\":\"y.Z\",\"Timestamp\":\"v.Z\",\"UserAvatar\":\"j.Z\",\"UserFollowIndicator\":\"U.Z\",\"UserName\":\"F.Z\",\"ArticleCard\":\"Z.Z\"}",
+  "{\"ActionsBar\":\"E.Z\",\"ActionMenu\":\"function()\"{\"var t=e.Icon\",n=e.isDisabled,r=e.items,o=e.onOpen,\"i=l.useCallback()\"{\"return l.createElement()\"{\"items\":\"r\",\"onCloseRequested\":\"e\"}}{\"Icon\":\"t\",\"isDisabled\":\"n\",\"onClick\":\"o\",\"renderActionMenu\":\"i\"}},\"CallToAction\":\"s.ZP\",\"EditCallout\":\"T.Z\",\"Education\":\"k.Z\",\"HighlightedUserLabel\":\"p.Z\",\"Media\":\"x.Z\",\"Place\":\"c.ZP\",\"PromotedDetails\":\"m.Z\",\"PromotedUserProfileCard\":\"A\",\"ReplyContext\":\"R.ZP\",\"RichContent\":\"M.Z\",\"SocialContext\":\"g.Z\",\"Text\":\"L.Z\",\"Tombstone\":\"y.Z\",\"Timestamp\":\"v.Z\",\"UserAvatar\":\"j.Z\",\"UserFollowIndicator\":\"U.Z\",\"UserName\":\"F.Z\",\"ArticleCard\":\"Z.Z\"}",
   {
     "RESIZE": "resize",
     "UPLOAD": "upload",
@@ -7888,6 +7891,10 @@
     "INVALID_RES_STATUS": -1
   },
   {
+    "single_line": "singleline",
+    "format_inline": "format-inline"
+  },
+  {
     "MEDIA": "MEDIA",
     "TWEET": "TWEET",
     "MARKDOWN": "MARKDOWN",
@@ -7915,14 +7922,6 @@
   {
     "DRAFT": "c.DRAFT",
     "PUBLISHED": "c.PUBLISHED"
-  },
-  {
-    "single_line": "singleline",
-    "format_inline": "format-inline"
-  },
-  {
-    "single_line": "singleline",
-    "format_inline": "format-inline"
   },
   {
     "num_of_followers": "Y.Z.Follow",
@@ -7963,8 +7962,12 @@
     "PUBLISHED": "Published"
   },
   {
-    "DRAFT": "s.DRAFT",
-    "PUBLISHED": "s.PUBLISHED"
+    "DRAFT": "c.DRAFT",
+    "PUBLISHED": "c.PUBLISHED"
+  },
+  {
+    "single_line": "singleline",
+    "format_inline": "format-inline"
   },
   "{\"root\":\"\".concat(),\"eligibility\":\"\".concat(a,\\\"/application\\\"),\"pricing\":\"\".concat(a,\\\"/application/eligibility\\\"),\"completeProfile\":\"\".concat(a,\\\"/application/pricing\\\"),\"submit\":\"\".concat(a,\\\"/application/complete_profile\\\"),\"submitted\":\"\".concat(a,\\\"/application/submit\\\"),\"waitlisted\":\"\".concat(a,\\\"/application/submitted\\\"),\"rejected\":\"\".concat(a,\\\"/application/waitlisted\\\")}",
   "{\"root\":\"\".concat(),\"perksIntro\":\"\".concat(a,\\\"/onboarding\\\"),\"perksDescription\":\"\".concat(a,\\\"/onboarding/perks_intro\\\"),\"perksBadges\":\"\".concat(a,\\\"/onboarding/perks_description\\\"),\"perksConfirm\":\"\".concat(a,\\\"/onboarding/perks_badges\\\"),\"pricing\":\"\".concat(a,\\\"/onboarding/perks_confirm\\\"),\"pricingConfirm\":\"\".concat(a,\\\"/onboarding/pricing\\\"),\"stripeSetup\":\"\".concat(a,\\\"/onboarding/pricing_confirm\\\"),\"stripePending\":\"\".concat(a,\\\"/onboarding/stripe_setup\\\"),\"stripeCompleted\":\"\".concat(a,\\\"/onboarding/stripe_pending\\\")}",
@@ -8503,51 +8506,47 @@
     "workday": "Workday"
   },
   {
-    "software_engineering": "m",
-    "data_analytics": "h",
-    "product": "b",
-    "design": "p",
-    "marketing": "g",
-    "sales_am": "y",
-    "operations": "v",
-    "people_hr": "Z",
-    "finance_accounting": "w",
-    "legal_compliance": "D",
-    "science_engineering": "k",
+    "software_engineering": "p",
+    "data_analytics": "g",
+    "product": "f",
+    "design": "y",
+    "marketing": "b",
+    "sales_am": "h",
+    "operations": "k",
+    "people_hr": "v",
+    "finance_accounting": "E",
+    "legal_compliance": "Z",
+    "science_engineering": "_",
     "medical": "S",
-    "construction_trades": "E",
-    "other": "P"
+    "construction_trades": "w",
+    "other": "F"
   },
   {
-    "intern": "x",
+    "intern": "K",
     "entry_level": "j",
-    "junior": "C",
-    "mid_level": "I",
-    "senior": "_",
-    "lead": "A",
-    "manager": "T",
-    "executive": "R"
+    "junior": "D",
+    "mid_level": "P",
+    "senior": "I",
+    "lead": "T",
+    "manager": "L",
+    "executive": "O"
   },
   {
     "onsite": {
-      "label": "q",
-      "description": "B",
+      "label": "z",
+      "description": "U",
       "value": "onsite"
     },
     "remote": {
-      "label": "W",
-      "description": "N",
+      "label": "J",
+      "description": "H",
       "value": "remote"
     },
     "hybrid": {
-      "label": "H",
+      "label": "B",
       "description": "M",
       "value": "hybrid"
     }
-  },
-  {
-    "single_line": "singleline",
-    "format_inline": "format-inline"
   },
   {
     "locationTypes": [],
@@ -8555,6 +8554,10 @@
     "companyName": "",
     "employmentTypes": [],
     "industry": ""
+  },
+  {
+    "single_line": "singleline",
+    "format_inline": "format-inline"
   },
   {
     "full_time": "r",
@@ -10296,6 +10299,66 @@
     "Live": "Live",
     "Sandbox": "Sandbox",
     "Test": "Test"
+  },
+  {
+    "DISABLED": "0",
+    "ENABLED": "10",
+    "SYNC_IN_PROGRESS": "20",
+    "SYNC_FAILED": "30"
+  },
+  {
+    "freshteam": "Freshteam",
+    "greenhouse": "Greenhouse",
+    "lever": "Lever",
+    "recruitee": "Recruitee",
+    "sage-hr": "Sage HR",
+    "sap-successfactors": "SAP SuccessFactors",
+    "teamtailor": "Teamtailor",
+    "workable": "Workable",
+    "workday": "Workday"
+  },
+  {
+    "software_engineering": "m",
+    "data_analytics": "p",
+    "product": "b",
+    "design": "y",
+    "marketing": "g",
+    "sales_am": "h",
+    "operations": "v",
+    "people_hr": "_",
+    "finance_accounting": "k",
+    "legal_compliance": "Z",
+    "science_engineering": "S",
+    "medical": "E",
+    "construction_trades": "w",
+    "other": "O"
+  },
+  {
+    "intern": "j",
+    "entry_level": "P",
+    "junior": "I",
+    "mid_level": "D",
+    "senior": "x",
+    "lead": "L",
+    "manager": "T",
+    "executive": "K"
+  },
+  {
+    "onsite": {
+      "label": "z",
+      "description": "U",
+      "value": "onsite"
+    },
+    "remote": {
+      "label": "B",
+      "description": "J",
+      "value": "remote"
+    },
+    "hybrid": {
+      "label": "N",
+      "description": "M",
+      "value": "hybrid"
+    }
   },
   {
     "FakeAccount": "fake_account",
