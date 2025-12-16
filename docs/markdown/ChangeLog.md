@@ -7713,3 +7713,15 @@
 #### remove<br>
 - responsive_web_carousel_v2_cards_non_safari_enabled<br>
 - responsive_web_carousel_v2_cards_safari_variant<br>
+## 2025/12/16<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- responsive_web_grok_tweet_actions_edit_image_enabled<br>
+- responsive_web_grok_tweet_media_detail_edit_image_button_enabled<br>
+#### remove<br>
+- None<br>
