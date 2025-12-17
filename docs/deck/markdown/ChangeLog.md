@@ -6799,3 +6799,17 @@
 - responsive_web_grok_tweet_media_detail_edit_image_button_enabled<br>
 #### remove<br>
 - None<br>
+## 2025/12/17<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- responsive_web_ad_formats_website_cta_enabled<br>
+- responsive_web_grok_imagine_explore_enabled<br>
+- subscriptions_offers_upgrade_offer_sidebar_upsell_enabled<br>
+- subscriptions_upsells_vo_premium_business_rebranding_free_gold_account<br>
+#### remove<br>
+- None<br>
