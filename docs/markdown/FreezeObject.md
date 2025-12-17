@@ -1200,6 +1200,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | autoclaim                     | autoclaim                     |
 | updateName                    | updateName                    |
 | updateAddress                 | updateAddress                 |
+| updateMailingAddress          | updateMailingAddress          |
 | updatePin                     | updatePin                     |
 | forgotPin                     | forgotPin                     |
 | recoverAccess                 | recoverAccess                 |
@@ -9716,14 +9717,9 @@ This document is entirely auto-generated and may contain errors.<br>
 | ShouldProvidePaymentId    | ShouldProvidePaymentId    |
 | Unspecified               | Unspecified               |
 
-| constant   | value   |
-|:-----------|:--------|
-| daily      | daily   |
-| monthly    | monthly |
-
 ```internal process
 # Error
-{"InsufficientFunds":{"headline":"d().f66c509a","message":"d().f9e0e6a2","action":{"link":"p.IN","label":"d().a4ef9cbe"}},"InvalidReceiver":{"getHeadline":"function()"{"return e.actionType===g.jq.P2P_TRANSFER_REQUEST?O":"L"},"headline":"L","message":"A","getErrorReporting":"function()"{"return"{"iss...
+{"InsufficientFunds":{"headline":"d().f66c509a","message":"d().f9e0e6a2","action":{"link":"y.IN","label":"d().a4ef9cbe"}},"InvalidReceiver":{"getHeadline":"function()"{"return e.actionType===f.jq.P2P_TRANSFER_REQUEST?X":"N"},"headline":"N","message":"U","getErrorReporting":"function()"{"return"{"iss...
 ```
 | constant                         | value                            |
 |:---------------------------------|:---------------------------------|
@@ -9870,6 +9866,12 @@ This document is entirely auto-generated and may contain errors.<br>
 | MAIL_CHECK               | MAIL_CHECK               |
 | CLOSE_ACCOUNT            | CLOSE_ACCOUNT            |
 | REONBOARD                | REONBOARD                |
+
+| constant   | value    |
+|:-----------|:---------|
+| daily      | daily    |
+| monthly    | monthly  |
+| perEntry   | perEntry |
 
 | constant       | value          |
 |:---------------|:---------------|
