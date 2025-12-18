@@ -6813,3 +6813,16 @@
 - subscriptions_upsells_vo_premium_business_rebranding_free_gold_account<br>
 #### remove<br>
 - None<br>
+## 2025/12/18<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- responsive_web_ad_formats_enable_dismiss_in_home_urt<br>
+- premium_webview_paywall_tier_switch_all_plans_button_hidden<br>
+- responsive_web_grok_imagine_image_comparison_enabled<br>
+#### remove<br>
+- None<br>
