@@ -5375,7 +5375,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## BirdwatchCreateRating<br>
-Request URL: `https://x.com/i/api/graphql/e3UGQnUm1M3BSDUgUt4oHA/BirdwatchCreateRating`<br>
+Request URL: `https://x.com/i/api/graphql/gbshFt1Vmddrlio4vHWhhQ/BirdwatchCreateRating`<br>
 Request Method: `POST`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -5589,7 +5589,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## BirdwatchFetchNotes<br>
-Request URL: `https://x.com/i/api/graphql/fxPFF519LMucq7mV6ix36A/BirdwatchFetchNotes`<br>
+Request URL: `https://x.com/i/api/graphql/dG85JgBxwnAt_PYNZTyvTg/BirdwatchFetchNotes`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -5599,12 +5599,12 @@ Login Required: `...`<br>
 | key                                                               | type    | variable   |
 |:------------------------------------------------------------------|:--------|:-----------|
 | responsive_web_birdwatch_live_note_enabled                        | boolean | False      |
-| responsive_web_birdwatch_note_internal_insights_enabled           | boolean | False      |
 | responsive_web_birdwatch_enforce_author_user_quotas               | boolean | True       |
 | responsive_web_birdwatch_media_notes_enabled                      | boolean | True       |
 | responsive_web_birdwatch_url_notes_enabled                        | boolean | False      |
 | responsive_web_grok_community_note_translation_is_enabled         | boolean | False      |
 | responsive_web_birdwatch_fast_notes_badge_enabled                 | boolean | False      |
+| responsive_web_birdwatch_note_internal_insights_enabled           | boolean | False      |
 | responsive_web_grok_community_note_auto_translation_is_enabled    | boolean | False      |
 | responsive_web_graphql_timeline_navigation_enabled                | boolean | True       |
 | profile_label_improvements_pcf_label_in_post_enabled              | boolean | True       |
