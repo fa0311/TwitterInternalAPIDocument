@@ -15388,7 +15388,7 @@
   {
     "n": "69946",
     "exports": {
-      "queryId": "e3UGQnUm1M3BSDUgUt4oHA",
+      "queryId": "gbshFt1Vmddrlio4vHWhhQ",
       "operationName": "BirdwatchCreateRating",
       "operationType": "mutation",
       "metadata": {
@@ -15781,18 +15781,18 @@
   {
     "n": "99459",
     "exports": {
-      "queryId": "fxPFF519LMucq7mV6ix36A",
+      "queryId": "dG85JgBxwnAt_PYNZTyvTg",
       "operationName": "BirdwatchFetchNotes",
       "operationType": "query",
       "metadata": {
         "featureSwitches": [
           "responsive_web_birdwatch_live_note_enabled",
-          "responsive_web_birdwatch_note_internal_insights_enabled",
           "responsive_web_birdwatch_enforce_author_user_quotas",
           "responsive_web_birdwatch_media_notes_enabled",
           "responsive_web_birdwatch_url_notes_enabled",
           "responsive_web_grok_community_note_translation_is_enabled",
           "responsive_web_birdwatch_fast_notes_badge_enabled",
+          "responsive_web_birdwatch_note_internal_insights_enabled",
           "responsive_web_grok_community_note_auto_translation_is_enabled",
           "responsive_web_graphql_timeline_navigation_enabled",
           "profile_label_improvements_pcf_label_in_post_enabled",
@@ -15809,9 +15809,6 @@
           "responsive_web_birdwatch_live_note_enabled": {
             "value": "false"
           },
-          "responsive_web_birdwatch_note_internal_insights_enabled": {
-            "value": "false"
-          },
           "responsive_web_birdwatch_enforce_author_user_quotas": {
             "value": "true"
           },
@@ -15825,6 +15822,9 @@
             "value": "false"
           },
           "responsive_web_birdwatch_fast_notes_badge_enabled": {
+            "value": "false"
+          },
+          "responsive_web_birdwatch_note_internal_insights_enabled": {
             "value": "false"
           },
           "responsive_web_grok_community_note_auto_translation_is_enabled": {
