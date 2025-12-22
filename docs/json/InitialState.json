@@ -1204,6 +1204,9 @@
       "premium_webview_paywall_tier_switch_all_plans_button_hidden": {
         "value": "true"
       },
+      "premium_webview_paywall_tier_switch_upgrade_disclaimer_enabled": {
+        "value": "false"
+      },
       "premium_webview_paywall_video_url": {
         "value": "https://abs.twimg.com/videos/grok-4-key-visual.mp4"
       },
@@ -1226,7 +1229,7 @@
         "value": "true"
       },
       "promoted_badge_placement_position": {
-        "value": ""
+        "value": "right_tweet_header_ad_label"
       },
       "recruiting_admin_currencies_enabled": {
         "value": "true"
@@ -2998,7 +3001,7 @@
         "value": "true"
       },
       "subscriptions_offers_dynamic_upsells_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "subscriptions_offers_in_tier_switch_enabled": {
         "value": "true"
@@ -3010,6 +3013,9 @@
         "value": "false"
       },
       "subscriptions_offers_special_perk_enabled": {
+        "value": "false"
+      },
+      "subscriptions_offers_upgrade_offer_home_nav_upsell_enabled": {
         "value": "false"
       },
       "subscriptions_offers_upgrade_offer_sidebar_upsell_enabled": {
@@ -3091,7 +3097,7 @@
         "value": ""
       },
       "subscriptions_upsells_get_verified_button_promo_variant_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "subscriptions_upsells_get_verified_button_variant": {
         "value": ""
@@ -3103,7 +3109,7 @@
         "value": "true"
       },
       "subscriptions_upsells_get_verified_profile_card_promo_variant_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "subscriptions_upsells_get_verified_profile_card_variant": {
         "value": "variant_a"
@@ -4999,6 +5005,9 @@
         "premium_webview_paywall_tier_switch_all_plans_button_hidden": {
           "value": "true"
         },
+        "premium_webview_paywall_tier_switch_upgrade_disclaimer_enabled": {
+          "value": "false"
+        },
         "premium_webview_paywall_video_url": {
           "value": "https://abs.twimg.com/videos/grok-4-key-visual.mp4"
         },
@@ -5021,7 +5030,7 @@
           "value": "true"
         },
         "promoted_badge_placement_position": {
-          "value": ""
+          "value": "right_tweet_header_ad_label"
         },
         "recruiting_admin_currencies_enabled": {
           "value": "true"
@@ -5855,6 +5864,9 @@
           "value": "false"
         },
         "responsive_web_prerolls_fullscreen_disabled_on_ios": {
+          "value": "false"
+        },
+        "responsive_web_priority_ntab_enabled": {
           "value": "false"
         },
         "responsive_web_professional_journeys_holdback_enabled": {
@@ -6793,7 +6805,7 @@
           "value": "true"
         },
         "subscriptions_offers_dynamic_upsells_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "subscriptions_offers_in_tier_switch_enabled": {
           "value": "true"
@@ -6806,6 +6818,9 @@
         },
         "subscriptions_offers_special_perk_enabled": {
           "value": "false"
+        },
+        "subscriptions_offers_upgrade_offer_home_nav_upsell_enabled": {
+          "value": "true"
         },
         "subscriptions_offers_upgrade_offer_sidebar_upsell_enabled": {
           "value": "true"
@@ -6886,7 +6901,7 @@
           "value": ""
         },
         "subscriptions_upsells_get_verified_button_promo_variant_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "subscriptions_upsells_get_verified_button_variant": {
           "value": ""
@@ -6898,7 +6913,7 @@
           "value": "true"
         },
         "subscriptions_upsells_get_verified_profile_card_promo_variant_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "subscriptions_upsells_get_verified_profile_card_variant": {
           "value": "variant_a"
@@ -7695,10 +7710,10 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "4e015e76b473340989ad81ff8171c780"
+      "settingsVersion": "28ecd8befa54b640bb7c7ecf0d5c5740"
     },
     "debug": {},
-    "featureSetToken": "ca789b7b8fdeb479efaec1d4d28da5bc8fbdd3b6",
+    "featureSetToken": "fdad58d3104827b77fa7baebc05c70268a385274",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -7767,7 +7782,7 @@
   },
   "session": {
     "country": "XX",
-    "guestId": "176635092517798437",
+    "guestId": "176643732298340753",
     "hasCommunityMemberships": "false",
     "isActiveCreator": "false",
     "isLoaded": "false",
