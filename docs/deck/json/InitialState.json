@@ -1753,6 +1753,12 @@
       "responsive_web_grok_location_enabled": {
         "value": "true"
       },
+      "responsive_web_grok_media_attribution_focal_post_force_show": {
+        "value": "false"
+      },
+      "responsive_web_grok_media_attribution_imagine_force_show": {
+        "value": "false"
+      },
       "responsive_web_grok_media_attribution_route_to_imagine_composer": {
         "value": "false"
       },
@@ -2065,6 +2071,9 @@
       "responsive_web_prerolls_fullscreen_disabled_on_ios": {
         "value": "false"
       },
+      "responsive_web_priority_ntab_enabled": {
+        "value": "false"
+      },
       "responsive_web_professional_journeys_holdback_enabled": {
         "value": "false"
       },
@@ -2309,6 +2318,9 @@
         "value": "true"
       },
       "responsive_web_user_spectral_key_enabled": {
+        "value": "false"
+      },
+      "responsive_web_verified_ntab_hidden": {
         "value": "false"
       },
       "responsive_web_verified_organizations_affiliate_fetch_limit": {
@@ -3016,7 +3028,7 @@
         "value": "false"
       },
       "subscriptions_offers_upgrade_offer_home_nav_upsell_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "subscriptions_offers_upgrade_offer_sidebar_upsell_enabled": {
         "value": "true"
@@ -3037,7 +3049,7 @@
         "value": "true"
       },
       "subscriptions_premium_tiers_default_interval": {
-        "value": "Month"
+        "value": "Year"
       },
       "subscriptions_premium_tiers_default_product": {
         "value": "BlueVerified"
@@ -3121,10 +3133,10 @@
         "value": "true"
       },
       "subscriptions_upsells_home_nav_migration_enabled": {
-        "value": "true"
+        "value": "false"
       },
       "subscriptions_upsells_home_sidebar_migration_enabled": {
-        "value": "true"
+        "value": "false"
       },
       "subscriptions_upsells_longform_sidebar_variant": {
         "value": ""
@@ -3762,7 +3774,7 @@
         "value": "false"
       },
       "xchat_emit_conv_upgraded_info_item": {
-        "value": "false"
+        "value": "true"
       },
       "xchat_enable_av": {
         "value": "false"
@@ -4996,6 +5008,15 @@
         "premium_home_nav_upgrade_upsell__variant_key_fs": {
           "value": ""
         },
+        "premium_paywall_on_app_load_delay_ms": {
+          "value": "1000"
+        },
+        "premium_paywall_on_app_load_enabled": {
+          "value": "false"
+        },
+        "premium_paywall_on_app_load_fatigue_version": {
+          "value": "1"
+        },
         "premium_webview_paywall_force_premium_tier_enabled": {
           "value": "false"
         },
@@ -5553,6 +5574,12 @@
         },
         "responsive_web_grok_location_enabled": {
           "value": "true"
+        },
+        "responsive_web_grok_media_attribution_focal_post_force_show": {
+          "value": "false"
+        },
+        "responsive_web_grok_media_attribution_imagine_force_show": {
+          "value": "false"
         },
         "responsive_web_grok_media_attribution_route_to_imagine_composer": {
           "value": "false"
@@ -6113,6 +6140,9 @@
           "value": "true"
         },
         "responsive_web_user_spectral_key_enabled": {
+          "value": "false"
+        },
+        "responsive_web_verified_ntab_hidden": {
           "value": "false"
         },
         "responsive_web_verified_organizations_affiliate_fetch_limit": {
@@ -6841,7 +6871,7 @@
           "value": "true"
         },
         "subscriptions_premium_tiers_default_interval": {
-          "value": "Month"
+          "value": "Year"
         },
         "subscriptions_premium_tiers_default_product": {
           "value": "BlueVerified"
@@ -6925,10 +6955,10 @@
           "value": "true"
         },
         "subscriptions_upsells_home_nav_migration_enabled": {
-          "value": "true"
+          "value": "false"
         },
         "subscriptions_upsells_home_sidebar_migration_enabled": {
-          "value": "true"
+          "value": "false"
         },
         "subscriptions_upsells_longform_sidebar_variant": {
           "value": ""
@@ -7566,7 +7596,7 @@
           "value": "false"
         },
         "xchat_emit_conv_upgraded_info_item": {
-          "value": "false"
+          "value": "true"
         },
         "xchat_enable_av": {
           "value": "false"
@@ -7710,10 +7740,10 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "28ecd8befa54b640bb7c7ecf0d5c5740"
+      "settingsVersion": "8369bb61e2faafb04d0222a66adfd93c"
     },
     "debug": {},
-    "featureSetToken": "fdad58d3104827b77fa7baebc05c70268a385274",
+    "featureSetToken": "9fab0e761c7ad77b36dd85182d0e162c82375cba",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -7782,7 +7812,7 @@
   },
   "session": {
     "country": "XX",
-    "guestId": "176643750931032459",
+    "guestId": "176652389006790930",
     "hasCommunityMemberships": "false",
     "isActiveCreator": "false",
     "isLoaded": "false",
