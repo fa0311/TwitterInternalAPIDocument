@@ -6826,3 +6826,29 @@
 - responsive_web_grok_imagine_image_comparison_enabled<br>
 #### remove<br>
 - None<br>
+## 2025/12/19<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- premium_business_offers_navbar_discount_label_enabled<br>
+- xchat_av_call_start_should_notify<br>
+- xchat_show_troubleshooting_settings<br>
+#### remove<br>
+- rweb_home_preserve_entries_enabled<br>
+## 2025/12/22<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- premium_webview_paywall_tier_switch_upgrade_disclaimer_enabled<br>
+- subscriptions_offers_upgrade_offer_home_nav_upsell_enabled<br>
+- responsive_web_priority_ntab_enabled<br>
+#### remove<br>
+- None<br>
