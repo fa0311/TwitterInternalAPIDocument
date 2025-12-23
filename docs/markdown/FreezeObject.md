@@ -2674,6 +2674,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | alwaysBaseGray1100 | alwaysBaseGray1100 |
 | alwaysDarkGray700  | alwaysDarkGray700  |
 | alwaysDarkGray900  | alwaysDarkGray900  |
+| alwaysDarkGray1100 | alwaysDarkGray1100 |
 | alwaysDarkGray50   | alwaysDarkGray50   |
 | alwaysBlack        | alwaysBlack        |
 | alwaysDarkGreen600 | alwaysDarkGreen600 |
@@ -2787,8 +2788,8 @@ This document is entirely auto-generated and may contain errors.<br>
 | breakpoints         | a       |
 | componentDimensions | O       |
 | componentZIndices   | s       |
-| fontSizes           | D       |
-| fontSizesPx         | S       |
+| fontSizes           | S       |
+| fontSizesPx         | D       |
 | fontWeights         | m       |
 | lineHeights         | g       |
 | lineHeightsPx       | v       |
@@ -5190,6 +5191,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | offer_v2_1                                 | offer_v2_1                                 |
 | retention_offer                            | retention_offer                            |
 | main_offer                                 | main_offer                                 |
+| app_open_upgrade_offer                     | app_open_upgrade_offer                     |
 | grok_4                                     | grok_4                                     |
 | nord                                       | nord                                       |
 | native_clone_with_tabs                     | native_clone_with_tabs                     |
@@ -5940,10 +5942,10 @@ This document is entirely auto-generated and may contain errors.<br>
 | constant                  | value                                   |
 |:--------------------------|:----------------------------------------|
 | all                       | {'icon': 'Rr', 'label': 'I().i8ea6d4e'} |
-| community                 | {'icon': 'Mr', 'label': 'I().a176d0d8'} |
+| community                 | {'icon': 'Or', 'label': 'I().a176d0d8'} |
 | by_invitation             | {'icon': 'Dr', 'label': 'I().gc7e52ca'} |
 | subscribers               | {'icon': 'Rr', 'label': 'I().feb7560a'} |
-| community_members         | {'icon': 'Or', 'label': 'I().h257006e'} |
+| community_members         | {'icon': 'Mr', 'label': 'I().h257006e'} |
 | super_followers_exclusive | {'icon': 'Rr', 'label': 'I().ebe1d850'} |
 | trusted_friends_tweet     | {'icon': 'Fr', 'label': 'm'}            |
 | verified                  | {'icon': 'Br', 'label': 'I().b121464a'} |
@@ -6027,18 +6029,6 @@ This document is entirely auto-generated and may contain errors.<br>
 | ar         | ("https://business.x.com/pt/campaign/quick-promote-coupon-terms.html")(0,a.ju) |
 | zh-cn      | ("https://business.x.com/ar/campaign/quick-promote-coupon-terms.html")(0,a.ju) |
 
-| constant   | value                                               |
-|:-----------|:----------------------------------------------------|
-| REQUEST    | rweb/scheduledTweets/FETCH_SCHEDULED_TWEETS_REQUEST |
-| SUCCESS    | rweb/scheduledTweets/FETCH_SCHEDULED_TWEETS_SUCCESS |
-| FAILURE    | rweb/scheduledTweets/FETCH_SCHEDULED_TWEETS_FAILURE |
-
-| constant   | value                                               |
-|:-----------|:----------------------------------------------------|
-| REQUEST    | rweb/scheduledTweets/DELETE_SCHEDULED_TWEET_REQUEST |
-| SUCCESS    | rweb/scheduledTweets/DELETE_SCHEDULED_TWEET_SUCCESS |
-| FAILURE    | rweb/scheduledTweets/DELETE_SCHEDULED_TWEET_FAILURE |
-
 | constant       | value          |
 |:---------------|:---------------|
 | TWEET_CARET    | tweet_caret    |
@@ -6097,6 +6087,18 @@ This document is entirely auto-generated and may contain errors.<br>
 | PendingFollowUser | PendingFollowUser |
 | SubscribableUser  | SubscribableUser  |
 
+| constant   | value                                               |
+|:-----------|:----------------------------------------------------|
+| REQUEST    | rweb/scheduledTweets/FETCH_SCHEDULED_TWEETS_REQUEST |
+| SUCCESS    | rweb/scheduledTweets/FETCH_SCHEDULED_TWEETS_SUCCESS |
+| FAILURE    | rweb/scheduledTweets/FETCH_SCHEDULED_TWEETS_FAILURE |
+
+| constant   | value                                               |
+|:-----------|:----------------------------------------------------|
+| REQUEST    | rweb/scheduledTweets/DELETE_SCHEDULED_TWEET_REQUEST |
+| SUCCESS    | rweb/scheduledTweets/DELETE_SCHEDULED_TWEET_SUCCESS |
+| FAILURE    | rweb/scheduledTweets/DELETE_SCHEDULED_TWEET_FAILURE |
+
 | constant   | value    |
 |:-----------|:---------|
 | INFINITE   | infinite |
@@ -6111,6 +6113,18 @@ This document is entirely auto-generated and may contain errors.<br>
 | Subtitles      | subtitles       |
 | Trimmer        | trimmer         |
 
+| constant   | value                                               |
+|:-----------|:----------------------------------------------------|
+| REQUEST    | rweb/scheduledTweets/FETCH_SCHEDULED_TWEETS_REQUEST |
+| SUCCESS    | rweb/scheduledTweets/FETCH_SCHEDULED_TWEETS_SUCCESS |
+| FAILURE    | rweb/scheduledTweets/FETCH_SCHEDULED_TWEETS_FAILURE |
+
+| constant   | value                                               |
+|:-----------|:----------------------------------------------------|
+| REQUEST    | rweb/scheduledTweets/DELETE_SCHEDULED_TWEET_REQUEST |
+| SUCCESS    | rweb/scheduledTweets/DELETE_SCHEDULED_TWEET_SUCCESS |
+| FAILURE    | rweb/scheduledTweets/DELETE_SCHEDULED_TWEET_FAILURE |
+
 | constant   | value                      |
 |:-----------|:---------------------------|
 | primary    | {'aria-live': 'polite'}    |
@@ -6121,7 +6135,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{"ActionsBar":"Z.Z","ActionMenu":"function()"{"var t=e.Icon",n=e.isDisabled,r=e.items,o=e.onOpen,"i=l.useCallback()"{"return l.createElement()"{"items":"r","onCloseRequested":"e"}}{"Icon":"t","isDisabled":"n","onClick":"o","renderActionMenu":"i"}},"CallToAction":"c.ZP","EditCallout":"k.Z","Education...
+{"ActionsBar":"E.Z","ActionMenu":"function()"{"var t=e.Icon",n=e.isDisabled,r=e.items,o=e.onOpen,"i=l.useCallback()"{"return l.createElement()"{"items":"r","onCloseRequested":"e"}}{"Icon":"t","isDisabled":"n","onClick":"o","renderActionMenu":"i"}},"CallToAction":"c.ZP","EditCallout":"k.Z","Education...
 ```
 | constant    | value                 |
 |:------------|:----------------------|
@@ -6463,18 +6477,6 @@ This document is entirely auto-generated and may contain errors.<br>
 | PendingFollowUser | PendingFollowUser |
 | SubscribableUser  | SubscribableUser  |
 
-| constant         | value            |
-|:-----------------|:-----------------|
-| NEW              | NEW              |
-| INPROGRESS       | INPROGRESS       |
-| INPROGRESS_ASYNC | INPROGRESS_ASYNC |
-| ZIPPING          | ZIPPING          |
-| PUBLISHING       | PUBLISHING       |
-| NOTIFYING        | NOTIFYING        |
-| COMPLETE         | COMPLETED        |
-| FAILED           | FAILED           |
-| NONE             | NONE             |
-
 | constant                  | value                     |
 |:--------------------------|:--------------------------|
 | AcceptAllCookies          | acceptAllCookies          |
@@ -6486,6 +6488,18 @@ This document is entirely auto-generated and may contain errors.<br>
 |:-----------|:--------|
 | Country    | Country |
 | Region     | Region  |
+
+| constant         | value            |
+|:-----------------|:-----------------|
+| NEW              | NEW              |
+| INPROGRESS       | INPROGRESS       |
+| INPROGRESS_ASYNC | INPROGRESS_ASYNC |
+| ZIPPING          | ZIPPING          |
+| PUBLISHING       | PUBLISHING       |
+| NOTIFYING        | NOTIFYING        |
+| COMPLETE         | COMPLETED        |
+| FAILED           | FAILED           |
+| NONE             | NONE             |
 
 | constant   | value                                         |
 |:-----------|:----------------------------------------------|
@@ -6746,12 +6760,6 @@ This document is entirely auto-generated and may contain errors.<br>
 | LOADING    | loading |
 | SENT       | sent    |
 
-| constant   | value                                           |
-|:-----------|:------------------------------------------------|
-| REQUEST    | rweb/settings/usernames/FETCH_USERNAMES_REQUEST |
-| SUCCESS    | rweb/settings/usernames/FETCH_USERNAMES_SUCCESS |
-| FAILURE    | rweb/settings/usernames/FETCH_USERNAMES_FAILURE |
-
 | constant                           | value                              |
 |:-----------------------------------|:-----------------------------------|
 | CanVerifyIdentity                  | CanVerifyIdentity                  |
@@ -6761,6 +6769,19 @@ This document is entirely auto-generated and may contain errors.<br>
 | PendingResult                      | PendingResult                      |
 | RequestLocked                      | RequestLocked                      |
 | UnavailableMissingBlueSubscription | UnavailableMissingBlueSubscription |
+
+| constant            | value               |
+|:--------------------|:--------------------|
+| premiumSubscription | premiumSubscription |
+| premiumSettings     | premiumSettings     |
+| securitySettings    | securitySettings    |
+| creator             | creator             |
+
+| constant   | value                                           |
+|:-----------|:------------------------------------------------|
+| REQUEST    | rweb/settings/usernames/FETCH_USERNAMES_REQUEST |
+| SUCCESS    | rweb/settings/usernames/FETCH_USERNAMES_SUCCESS |
+| FAILURE    | rweb/settings/usernames/FETCH_USERNAMES_FAILURE |
 
 | constant   | value                              |
 |:-----------|:-----------------------------------|
@@ -6827,13 +6848,6 @@ This document is entirely auto-generated and may contain errors.<br>
 # Error
 {"Persona":"c.createElement()"{"$i18n":"d3543217"},"c.createElement()"{"link":"F.Jf","withInteractiveStyling":"!0"},"S().e4fed511"}
 ```
-| constant            | value               |
-|:--------------------|:--------------------|
-| premiumSubscription | premiumSubscription |
-| premiumSettings     | premiumSettings     |
-| securitySettings    | securitySettings    |
-| creator             | creator             |
-
 | constant   | value                                     |
 |:-----------|:------------------------------------------|
 | REQUEST    | rweb/backupCode/FETCH_BACKUP_CODE_REQUEST |
@@ -6886,16 +6900,6 @@ This document is entirely auto-generated and may contain errors.<br>
 |:-----------|:---------------|
 | Filtering  | optInFiltering |
 | Blocking   | optInBlocking  |
-
-| constant                           | value                              |
-|:-----------------------------------|:-----------------------------------|
-| CanVerifyIdentity                  | CanVerifyIdentity                  |
-| IdentityNonVerifiable              | IdentityNonVerifiable              |
-| IdentityVerified                   | IdentityVerified                   |
-| IdentityVerifiedUnderage           | IdentityVerifiedUnderage           |
-| PendingResult                      | PendingResult                      |
-| RequestLocked                      | RequestLocked                      |
-| UnavailableMissingBlueSubscription | UnavailableMissingBlueSubscription |
 
 | constant      | value                                                                      |
 |:--------------|:---------------------------------------------------------------------------|
@@ -7050,13 +7054,6 @@ This document is entirely auto-generated and may contain errors.<br>
 | TPay          | TPay          |
 | Twitter       | Twitter       |
 | Unknown       | Unknown       |
-
-| constant            | value               |
-|:--------------------|:--------------------|
-| premiumSubscription | premiumSubscription |
-| premiumSettings     | premiumSettings     |
-| securitySettings    | securitySettings    |
-| creator             | creator             |
 
 | constant           | value              |
 |:-------------------|:-------------------|
@@ -8829,7 +8826,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | constant    | value     |
 |:------------|:----------|
 | fetchStatus | $.ZP.NONE |
-| config      | Kn        |
+| config      | Ln        |
 
 | constant              | value                 |
 |:----------------------|:----------------------|
@@ -10145,6 +10142,18 @@ This document is entirely auto-generated and may contain errors.<br>
 | REQUEST    | rweb/promotedContent/LOG_REQUEST |
 | SUCCESS    | rweb/promotedContent/LOG_SUCCESS |
 | FAILURE    | rweb/promotedContent/LOG_FAILURE |
+
+| constant         | value            |
+|:-----------------|:-----------------|
+| NEW              | NEW              |
+| INPROGRESS       | INPROGRESS       |
+| INPROGRESS_ASYNC | INPROGRESS_ASYNC |
+| ZIPPING          | ZIPPING          |
+| PUBLISHING       | PUBLISHING       |
+| NOTIFYING        | NOTIFYING        |
+| COMPLETE         | COMPLETED        |
+| FAILED           | FAILED           |
+| NONE             | NONE             |
 
 | constant   | value    |
 |:-----------|:---------|
