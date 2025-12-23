@@ -6242,7 +6242,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## SubscriptionProductDetails<br>
-Request URL: `https://x.com/i/api/graphql/fIKJEGYDyFvjf_D7lUJdtw/SubscriptionProductDetails`<br>
+Request URL: `https://x.com/i/api/graphql/el6V21NAvHxCSbMqcuY45w/SubscriptionProductDetails`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -7013,7 +7013,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## SubscriptionProductDetails<br>
-Request URL: `https://x.com/i/api/graphql/fIKJEGYDyFvjf_D7lUJdtw/SubscriptionProductDetails`<br>
+Request URL: `https://x.com/i/api/graphql/el6V21NAvHxCSbMqcuY45w/SubscriptionProductDetails`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -8228,7 +8228,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## SubscriptionProductDetails<br>
-Request URL: `https://x.com/i/api/graphql/fIKJEGYDyFvjf_D7lUJdtw/SubscriptionProductDetails`<br>
+Request URL: `https://x.com/i/api/graphql/el6V21NAvHxCSbMqcuY45w/SubscriptionProductDetails`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -8771,7 +8771,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## SubscriptionProductDetails<br>
-Request URL: `https://x.com/i/api/graphql/fIKJEGYDyFvjf_D7lUJdtw/SubscriptionProductDetails`<br>
+Request URL: `https://x.com/i/api/graphql/el6V21NAvHxCSbMqcuY45w/SubscriptionProductDetails`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
