@@ -2760,8 +2760,8 @@
     "breakpoints": "a",
     "componentDimensions": "O",
     "componentZIndices": "s",
-    "fontSizes": "S",
-    "fontSizesPx": "D",
+    "fontSizes": "D",
+    "fontSizesPx": "S",
     "fontWeights": "m",
     "lineHeights": "g",
     "lineHeightsPx": "v",
@@ -5470,8 +5470,8 @@
   },
   {
     "SENSITIVE": "w",
-    "BLOCKED": "O",
-    "BLOCKED_BY": "S"
+    "BLOCKED": "S",
+    "BLOCKED_BY": "O"
   },
   {
     "BROADCAST_MEDIA_TYPE": "broadcast",
@@ -5751,7 +5751,7 @@
       "label": "I().i8ea6d4e"
     },
     "community": {
-      "icon": "Or",
+      "icon": "Mr",
       "label": "I().a176d0d8"
     },
     "by_invitation": {
@@ -5763,7 +5763,7 @@
       "label": "I().feb7560a"
     },
     "community_members": {
-      "icon": "Mr",
+      "icon": "Or",
       "label": "I().h257006e"
     },
     "super_followers_exclusive": {
@@ -5983,7 +5983,7 @@
       "aria-live": "polite"
     }
   },
-  "{\"ActionsBar\":\"E.Z\",\"ActionMenu\":\"function()\"{\"var t=e.Icon\",n=e.isDisabled,r=e.items,o=e.onOpen,\"i=l.useCallback()\"{\"return l.createElement()\"{\"items\":\"r\",\"onCloseRequested\":\"e\"}}{\"Icon\":\"t\",\"isDisabled\":\"n\",\"onClick\":\"o\",\"renderActionMenu\":\"i\"}},\"CallToAction\":\"c.ZP\",\"EditCallout\":\"k.Z\",\"Education\":\"T.Z\",\"HighlightedUserLabel\":\"p.Z\",\"Media\":\"x.Z\",\"Place\":\"s.ZP\",\"PromotedDetails\":\"m.Z\",\"PromotedUserProfileCard\":\"A\",\"ReplyContext\":\"R.ZP\",\"RichContent\":\"L.Z\",\"SocialContext\":\"b.Z\",\"Text\":\"B.Z\",\"Tombstone\":\"y.Z\",\"Timestamp\":\"v.Z\",\"UserAvatar\":\"M.Z\",\"UserFollowIndicator\":\"N.Z\",\"UserName\":\"F.Z\",\"ArticleCard\":\"Z.Z\"}",
+  "{\"ActionsBar\":\"E.Z\",\"ActionMenu\":\"function()\"{\"var t=e.Icon\",n=e.isDisabled,r=e.items,o=e.onOpen,\"i=l.useCallback()\"{\"return l.createElement()\"{\"items\":\"r\",\"onCloseRequested\":\"e\"}}{\"Icon\":\"t\",\"isDisabled\":\"n\",\"onClick\":\"o\",\"renderActionMenu\":\"i\"}},\"CallToAction\":\"c.ZP\",\"EditCallout\":\"k.Z\",\"Education\":\"T.Z\",\"HighlightedUserLabel\":\"p.Z\",\"Media\":\"x.Z\",\"Place\":\"s.ZP\",\"PromotedDetails\":\"m.Z\",\"PromotedUserProfileCard\":\"A\",\"ReplyContext\":\"R.ZP\",\"RichContent\":\"L.Z\",\"SocialContext\":\"g.Z\",\"Text\":\"B.Z\",\"Tombstone\":\"y.Z\",\"Timestamp\":\"v.Z\",\"UserAvatar\":\"M.Z\",\"UserFollowIndicator\":\"N.Z\",\"UserName\":\"F.Z\",\"ArticleCard\":\"Z.Z\"}",
   {
     "X_BACKEND": "X_BACKEND",
     "IN_PROGRESS": "MIGRATION_IN_PROGRESS",
@@ -6310,16 +6310,6 @@
     "SubscribableUser": "SubscribableUser"
   },
   {
-    "AcceptAllCookies": "acceptAllCookies",
-    "RefuseNonEssentialCookies": "refuseNonEssentialCookies",
-    "Invalid": "invalid",
-    "NotSet": "notSet"
-  },
-  {
-    "Country": "Country",
-    "Region": "Region"
-  },
-  {
     "NEW": "NEW",
     "INPROGRESS": "INPROGRESS",
     "INPROGRESS_ASYNC": "INPROGRESS_ASYNC",
@@ -6329,6 +6319,16 @@
     "COMPLETE": "COMPLETED",
     "FAILED": "FAILED",
     "NONE": "NONE"
+  },
+  {
+    "AcceptAllCookies": "acceptAllCookies",
+    "RefuseNonEssentialCookies": "refuseNonEssentialCookies",
+    "Invalid": "invalid",
+    "NotSet": "notSet"
+  },
+  {
+    "Country": "Country",
+    "Region": "Region"
   },
   {
     "REQUEST": "rweb/accountVerification/FETCH_ACCESS_REQUEST",
@@ -6581,11 +6581,6 @@
     "creator": "creator"
   },
   {
-    "REQUEST": "rweb/settings/usernames/FETCH_USERNAMES_REQUEST",
-    "SUCCESS": "rweb/settings/usernames/FETCH_USERNAMES_SUCCESS",
-    "FAILURE": "rweb/settings/usernames/FETCH_USERNAMES_FAILURE"
-  },
-  {
     "REQUEST": "rweb/directMessages/SEARCH_REQUEST",
     "SUCCESS": "rweb/directMessages/SEARCH_SUCCESS",
     "FAILURE": "rweb/directMessages/SEARCH_FAILURE"
@@ -6608,6 +6603,11 @@
     "REQUEST": "rweb/promotedContent/LOG_REQUEST",
     "SUCCESS": "rweb/promotedContent/LOG_SUCCESS",
     "FAILURE": "rweb/promotedContent/LOG_FAILURE"
+  },
+  {
+    "REQUEST": "rweb/settings/usernames/FETCH_USERNAMES_REQUEST",
+    "SUCCESS": "rweb/settings/usernames/FETCH_USERNAMES_SUCCESS",
+    "FAILURE": "rweb/settings/usernames/FETCH_USERNAMES_FAILURE"
   },
   {
     "REQUEST": "rweb/trends/placeTrendsLocations/FETCH_TRENDS_LOCATIONS_REQUEST",
@@ -7162,6 +7162,11 @@
     "Notification": "notification"
   },
   {
+    "REQUEST": "rweb/settings/usernames/FETCH_USERNAMES_REQUEST",
+    "SUCCESS": "rweb/settings/usernames/FETCH_USERNAMES_SUCCESS",
+    "FAILURE": "rweb/settings/usernames/FETCH_USERNAMES_FAILURE"
+  },
+  {
     "passive": "PASSIVE",
     "interactive": "INTERACTIVE"
   },
@@ -7396,39 +7401,39 @@
     "design": "y",
     "marketing": "b",
     "sales_am": "h",
-    "operations": "k",
-    "people_hr": "v",
-    "finance_accounting": "E",
-    "legal_compliance": "Z",
-    "science_engineering": "_",
+    "operations": "v",
+    "people_hr": "k",
+    "finance_accounting": "_",
+    "legal_compliance": "w",
+    "science_engineering": "E",
     "medical": "S",
-    "construction_trades": "w",
-    "other": "F"
+    "construction_trades": "Z",
+    "other": "C"
   },
   {
-    "intern": "K",
-    "entry_level": "j",
-    "junior": "I",
-    "mid_level": "D",
+    "intern": "I",
+    "entry_level": "K",
+    "junior": "j",
+    "mid_level": "L",
     "senior": "T",
     "lead": "P",
-    "manager": "L",
-    "executive": "O"
+    "manager": "D",
+    "executive": "R"
   },
   {
     "onsite": {
-      "label": "z",
-      "description": "U",
+      "label": "B",
+      "description": "N",
       "value": "onsite"
     },
     "remote": {
-      "label": "J",
-      "description": "V",
+      "label": "M",
+      "description": "H",
       "value": "remote"
     },
     "hybrid": {
-      "label": "B",
-      "description": "H",
+      "label": "z",
+      "description": "W",
       "value": "hybrid"
     }
   },
@@ -8447,7 +8452,7 @@
   },
   {
     "fetchStatus": "$.ZP.NONE",
-    "config": "Ln"
+    "config": "Kn"
   },
   {
     "ConfirmationStep": "ConfirmationStep",
@@ -8668,7 +8673,7 @@
     "SUCCESS": "rweb/directMessages/SEARCH_SUCCESS",
     "FAILURE": "rweb/directMessages/SEARCH_FAILURE"
   },
-  "{\"ActionsBar\":\"k.Z\",\"ActionMenu\":\"function()\"{\"var t=e.Icon\",n=e.isDisabled,r=e.items,i=e.onOpen,\"o=l.useCallback()\"{\"return l.createElement()\"{\"items\":\"r\",\"onCloseRequested\":\"e\"}}{\"Icon\":\"t\",\"isDisabled\":\"n\",\"onClick\":\"i\",\"renderActionMenu\":\"o\"}},\"CallToAction\":\"c.ZP\",\"EditCallout\":\"T.Z\",\"Education\":\"Z.Z\",\"HighlightedUserLabel\":\"m.Z\",\"Media\":\"S.Z\",\"Place\":\"s.ZP\",\"PromotedDetails\":\"f.Z\",\"PromotedUserProfileCard\":\"R\",\"ReplyContext\":\"F.ZP\",\"RichContent\":\"D.Z\",\"SocialContext\":\"b.Z\",\"Text\":\"M.Z\",\"Tombstone\":\"y.Z\",\"Timestamp\":\"h.Z\",\"UserAvatar\":\"O.Z\",\"UserFollowIndicator\":\"U.Z\",\"UserName\":\"B.Z\",\"ArticleCard\":\"E.Z\"}",
+  "{\"ActionsBar\":\"_.Z\",\"ActionMenu\":\"function()\"{\"var t=e.Icon\",n=e.isDisabled,r=e.items,i=e.onOpen,\"o=l.useCallback()\"{\"return l.createElement()\"{\"items\":\"r\",\"onCloseRequested\":\"e\"}}{\"Icon\":\"t\",\"isDisabled\":\"n\",\"onClick\":\"i\",\"renderActionMenu\":\"o\"}},\"CallToAction\":\"c.ZP\",\"EditCallout\":\"T.Z\",\"Education\":\"Z.Z\",\"HighlightedUserLabel\":\"m.Z\",\"Media\":\"x.Z\",\"Place\":\"s.ZP\",\"PromotedDetails\":\"f.Z\",\"PromotedUserProfileCard\":\"F\",\"ReplyContext\":\"R.ZP\",\"RichContent\":\"D.Z\",\"SocialContext\":\"y.Z\",\"Text\":\"M.Z\",\"Tombstone\":\"h.Z\",\"Timestamp\":\"g.Z\",\"UserAvatar\":\"O.Z\",\"UserFollowIndicator\":\"N.Z\",\"UserName\":\"U.Z\",\"ArticleCard\":\"E.Z\"}",
   {
     "AcceptAllCookies": "acceptAllCookies",
     "RefuseNonEssentialCookies": "refuseNonEssentialCookies",
@@ -8927,8 +8932,8 @@
     "workday": "Workday"
   },
   {
-    "software_engineering": "f",
-    "data_analytics": "p",
+    "software_engineering": "p",
+    "data_analytics": "f",
     "product": "b",
     "design": "g",
     "marketing": "y",
@@ -9636,17 +9641,6 @@
     "REQUEST": "rweb/promotedContent/LOG_REQUEST",
     "SUCCESS": "rweb/promotedContent/LOG_SUCCESS",
     "FAILURE": "rweb/promotedContent/LOG_FAILURE"
-  },
-  {
-    "NEW": "NEW",
-    "INPROGRESS": "INPROGRESS",
-    "INPROGRESS_ASYNC": "INPROGRESS_ASYNC",
-    "ZIPPING": "ZIPPING",
-    "PUBLISHING": "PUBLISHING",
-    "NOTIFYING": "NOTIFYING",
-    "COMPLETE": "COMPLETED",
-    "FAILED": "FAILED",
-    "NONE": "NONE"
   },
   {
     "host": "host",
