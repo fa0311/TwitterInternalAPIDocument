@@ -1195,6 +1195,15 @@
       "premium_home_nav_upgrade_upsell__variant_key_fs": {
         "value": ""
       },
+      "premium_paywall_on_app_load_delay_ms": {
+        "value": "1000"
+      },
+      "premium_paywall_on_app_load_enabled": {
+        "value": "false"
+      },
+      "premium_paywall_on_app_load_fatigue_version": {
+        "value": "1"
+      },
       "premium_webview_paywall_force_premium_tier_enabled": {
         "value": "false"
       },
@@ -6985,7 +6994,7 @@
           "value": "default"
         },
         "subscriptions_upsells_premium_home_nav_promo_variant_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "subscriptions_upsells_premium_nav_migration_enabled": {
           "value": "true"
@@ -7030,7 +7039,7 @@
           "value": "false"
         },
         "subscriptions_upsells_sidebar_default_promo_variant_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "subscriptions_upsells_track_interactions_enabled": {
           "value": "true"
@@ -7740,10 +7749,10 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "8369bb61e2faafb04d0222a66adfd93c"
+      "settingsVersion": "442d941cd65552a494567b52008ed561"
     },
     "debug": {},
-    "featureSetToken": "9fab0e761c7ad77b36dd85182d0e162c82375cba",
+    "featureSetToken": "51b271a440f270b48866173314b555c89bc57123",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -7812,7 +7821,7 @@
   },
   "session": {
     "country": "XX",
-    "guestId": "176652373486508474",
+    "guestId": "176661012446548210",
     "hasCommunityMemberships": "false",
     "isActiveCreator": "false",
     "isLoaded": "false",
