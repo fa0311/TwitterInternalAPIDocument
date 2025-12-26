@@ -6852,3 +6852,19 @@
 - responsive_web_priority_ntab_enabled<br>
 #### remove<br>
 - None<br>
+## 2025/12/23<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- responsive_web_grok_media_attribution_focal_post_force_show<br>
+- responsive_web_grok_media_attribution_imagine_force_show<br>
+- responsive_web_verified_ntab_hidden<br>
+- premium_paywall_on_app_load_delay_ms<br>
+- premium_paywall_on_app_load_enabled<br>
+- premium_paywall_on_app_load_fatigue_version<br>
+#### remove<br>
+- None<br>

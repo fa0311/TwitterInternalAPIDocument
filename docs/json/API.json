@@ -4858,8 +4858,8 @@
       "features": {}
     },
     "SubscriptionProductDetails": {
-      "url": "https://x.com/i/api/graphql/fIKJEGYDyFvjf_D7lUJdtw/SubscriptionProductDetails",
-      "queryId": "fIKJEGYDyFvjf_D7lUJdtw",
+      "url": "https://x.com/i/api/graphql/el6V21NAvHxCSbMqcuY45w/SubscriptionProductDetails",
+      "queryId": "el6V21NAvHxCSbMqcuY45w",
       "method": "GET",
       "features": {
         "subscriptions_marketing_page_fetch_promotions": true
