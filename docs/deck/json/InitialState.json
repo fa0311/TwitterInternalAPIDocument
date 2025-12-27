@@ -3172,7 +3172,7 @@
         "value": "default"
       },
       "subscriptions_upsells_premium_home_nav_promo_variant_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "subscriptions_upsells_premium_nav_migration_enabled": {
         "value": "true"
@@ -3217,7 +3217,7 @@
         "value": "false"
       },
       "subscriptions_upsells_sidebar_default_promo_variant_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "subscriptions_upsells_track_interactions_enabled": {
         "value": "true"
@@ -7749,10 +7749,10 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "442d941cd65552a494567b52008ed561"
+      "settingsVersion": "4e015e76b473340989ad81ff8171c780"
     },
     "debug": {},
-    "featureSetToken": "51b271a440f270b48866173314b555c89bc57123",
+    "featureSetToken": "98d3b39c706f94abeddf3b8252c75bf39a32c736",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -7821,7 +7821,7 @@
   },
   "session": {
     "country": "XX",
-    "guestId": "176669657576473357",
+    "guestId": "176678301537167731",
     "hasCommunityMemberships": "false",
     "isActiveCreator": "false",
     "isLoaded": "false",
