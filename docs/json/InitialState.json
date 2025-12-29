@@ -2614,6 +2614,9 @@
       "rweb_xchat_debug_enabled": {
         "value": "false"
       },
+      "rweb_xchat_lazy_starter": {
+        "value": "false"
+      },
       "rweb_xchat_log_snapshot_enabled": {
         "value": "true"
       },
@@ -2630,6 +2633,9 @@
         "value": "false"
       },
       "rweb_xchat_sqlite_logs": {
+        "value": "false"
+      },
+      "rweb_xchat_standalone_avcall_enabled": {
         "value": "false"
       },
       "rweb_xp_forwarded_for_enabled": {
@@ -3762,7 +3768,7 @@
         "value": "true"
       },
       "xchat_ask_grok_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "xchat_auto_upgrade_legacy_groups": {
         "value": "true"
@@ -6436,6 +6442,9 @@
         "rweb_xchat_debug_enabled": {
           "value": "false"
         },
+        "rweb_xchat_lazy_starter": {
+          "value": "false"
+        },
         "rweb_xchat_log_snapshot_enabled": {
           "value": "true"
         },
@@ -6452,6 +6461,9 @@
           "value": "false"
         },
         "rweb_xchat_sqlite_logs": {
+          "value": "false"
+        },
+        "rweb_xchat_standalone_avcall_enabled": {
           "value": "false"
         },
         "rweb_xp_forwarded_for_enabled": {
@@ -7584,7 +7596,7 @@
           "value": "true"
         },
         "xchat_ask_grok_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "xchat_auto_upgrade_legacy_groups": {
           "value": "true"
@@ -7752,7 +7764,7 @@
       "settingsVersion": "4e015e76b473340989ad81ff8171c780"
     },
     "debug": {},
-    "featureSetToken": "98d3b39c706f94abeddf3b8252c75bf39a32c736",
+    "featureSetToken": "3eba659479f6d7868673d120f07aaef4cbd66730",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -7821,7 +7833,7 @@
   },
   "session": {
     "country": "XX",
-    "guestId": "176695571843342036",
+    "guestId": "176704212072588825",
     "hasCommunityMemberships": "false",
     "isActiveCreator": "false",
     "isLoaded": "false",
