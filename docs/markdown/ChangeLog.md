@@ -7794,3 +7794,15 @@
 - premium_paywall_on_app_load_fatigue_version<br>
 #### remove<br>
 - None<br>
+## 2025/12/29<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- rweb_xchat_lazy_starter<br>
+- rweb_xchat_standalone_avcall_enabled<br>
+#### remove<br>
+- None<br>
