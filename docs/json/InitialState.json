@@ -2572,6 +2572,9 @@
       "rweb_ssp_ads_enabled": {
         "value": "false"
       },
+      "rweb_starter_packs_topics_tab_enabled": {
+        "value": "false"
+      },
       "rweb_timeline_inline_show_more_enabled": {
         "value": "true"
       },
@@ -2612,9 +2615,6 @@
         "value": ""
       },
       "rweb_xchat_debug_enabled": {
-        "value": "false"
-      },
-      "rweb_xchat_lazy_starter": {
         "value": "false"
       },
       "rweb_xchat_log_snapshot_enabled": {
@@ -5575,6 +5575,9 @@
         "responsive_web_grok_imagine_in_composer_enabled": {
           "value": "true"
         },
+        "responsive_web_grok_imagine_native_share_enabled": {
+          "value": "false"
+        },
         "responsive_web_grok_imagine_profile_edit_enabled": {
           "value": "false"
         },
@@ -6400,6 +6403,9 @@
         "rweb_ssp_ads_enabled": {
           "value": "false"
         },
+        "rweb_starter_packs_topics_tab_enabled": {
+          "value": "false"
+        },
         "rweb_timeline_inline_show_more_enabled": {
           "value": "true"
         },
@@ -6440,9 +6446,6 @@
           "value": ""
         },
         "rweb_xchat_debug_enabled": {
-          "value": "false"
-        },
-        "rweb_xchat_lazy_starter": {
           "value": "false"
         },
         "rweb_xchat_log_snapshot_enabled": {
@@ -7761,10 +7764,10 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "4e015e76b473340989ad81ff8171c780"
+      "settingsVersion": "51c764b47cd2b1a08f0eefd17bc2d36c"
     },
     "debug": {},
-    "featureSetToken": "3eba659479f6d7868673d120f07aaef4cbd66730",
+    "featureSetToken": "61d5ab17fb5b370e1856588733c8ba21d4f88aca",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -7833,7 +7836,7 @@
   },
   "session": {
     "country": "XX",
-    "guestId": "176704212072588825",
+    "guestId": "176712853706501633",
     "hasCommunityMemberships": "false",
     "isActiveCreator": "false",
     "isLoaded": "false",
