@@ -6880,3 +6880,15 @@
 - rweb_xchat_standalone_avcall_enabled<br>
 #### remove<br>
 - None<br>
+## 2025/12/30<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- rweb_starter_packs_topics_tab_enabled<br>
+- responsive_web_grok_imagine_native_share_enabled<br>
+#### remove<br>
+- rweb_xchat_lazy_starter<br>
