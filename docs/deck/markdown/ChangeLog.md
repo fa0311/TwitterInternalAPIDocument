@@ -6892,3 +6892,14 @@
 - responsive_web_grok_imagine_native_share_enabled<br>
 #### remove<br>
 - rweb_xchat_lazy_starter<br>
+## 2025/12/31<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- responsive_web_grok_link_edit_image_to_grok_com_enabled<br>
+#### remove<br>
+- None<br>
