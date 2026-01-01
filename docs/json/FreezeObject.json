@@ -1210,7 +1210,8 @@
     "credentials": "credentials",
     "credential": "credential",
     "updateCredential": "updateCredential",
-    "createCredential": "createCredential"
+    "createCredential": "createCredential",
+    "revealCustomerPersonalInfo": "revealCustomerPersonalInfo"
   },
   {
     "tier2": "tier2",
@@ -5747,39 +5748,39 @@
   },
   {
     "all": {
-      "icon": "Rr",
+      "icon": "Wr",
       "label": "I().i8ea6d4e"
     },
     "community": {
-      "icon": "Mr",
+      "icon": "Gr",
       "label": "I().a176d0d8"
     },
     "by_invitation": {
-      "icon": "Dr",
+      "icon": "Hr",
       "label": "I().gc7e52ca"
     },
     "subscribers": {
-      "icon": "Rr",
+      "icon": "Wr",
       "label": "I().feb7560a"
     },
     "community_members": {
-      "icon": "Or",
+      "icon": "Kr",
       "label": "I().h257006e"
     },
     "super_followers_exclusive": {
-      "icon": "Rr",
+      "icon": "Wr",
       "label": "I().ebe1d850"
     },
     "trusted_friends_tweet": {
-      "icon": "Fr",
+      "icon": "qr",
       "label": "m"
     },
     "verified": {
-      "icon": "Br",
+      "icon": "$r",
       "label": "I().b121464a"
     },
     "premium": {
-      "icon": "Br",
+      "icon": "$r",
       "label": "I().e69ada9e"
     }
   },
@@ -5983,7 +5984,7 @@
       "aria-live": "polite"
     }
   },
-  "{\"ActionsBar\":\"E.Z\",\"ActionMenu\":\"function()\"{\"var t=e.Icon\",n=e.isDisabled,r=e.items,o=e.onOpen,\"i=l.useCallback()\"{\"return l.createElement()\"{\"items\":\"r\",\"onCloseRequested\":\"e\"}}{\"Icon\":\"t\",\"isDisabled\":\"n\",\"onClick\":\"o\",\"renderActionMenu\":\"i\"}},\"CallToAction\":\"c.ZP\",\"EditCallout\":\"k.Z\",\"Education\":\"T.Z\",\"HighlightedUserLabel\":\"p.Z\",\"Media\":\"x.Z\",\"Place\":\"s.ZP\",\"PromotedDetails\":\"m.Z\",\"PromotedUserProfileCard\":\"A\",\"ReplyContext\":\"R.ZP\",\"RichContent\":\"L.Z\",\"SocialContext\":\"g.Z\",\"Text\":\"B.Z\",\"Tombstone\":\"y.Z\",\"Timestamp\":\"v.Z\",\"UserAvatar\":\"M.Z\",\"UserFollowIndicator\":\"N.Z\",\"UserName\":\"F.Z\",\"ArticleCard\":\"Z.Z\"}",
+  "{\"ActionsBar\":\"E.Z\",\"ActionMenu\":\"function()\"{\"var t=e.Icon\",n=e.isDisabled,r=e.items,o=e.onOpen,\"i=l.useCallback()\"{\"return l.createElement()\"{\"items\":\"r\",\"onCloseRequested\":\"e\"}}{\"Icon\":\"t\",\"isDisabled\":\"n\",\"onClick\":\"o\",\"renderActionMenu\":\"i\"}},\"CallToAction\":\"c.ZP\",\"EditCallout\":\"k.Z\",\"Education\":\"x.Z\",\"HighlightedUserLabel\":\"p.Z\",\"Media\":\"T.Z\",\"Place\":\"s.ZP\",\"PromotedDetails\":\"m.Z\",\"PromotedUserProfileCard\":\"A\",\"ReplyContext\":\"R.ZP\",\"RichContent\":\"L.Z\",\"SocialContext\":\"b.Z\",\"Text\":\"B.Z\",\"Tombstone\":\"y.Z\",\"Timestamp\":\"v.Z\",\"UserAvatar\":\"M.Z\",\"UserFollowIndicator\":\"N.Z\",\"UserName\":\"F.Z\",\"ArticleCard\":\"Z.Z\"}",
   {
     "X_BACKEND": "X_BACKEND",
     "IN_PROGRESS": "MIGRATION_IN_PROGRESS",
@@ -6098,7 +6099,8 @@
   },
   {
     "FOLLOWS": "follows",
-    "CREATORS": "creators"
+    "CREATORS": "creators",
+    "TOPICS": "topics"
   },
   {
     "relevance": "relevance",

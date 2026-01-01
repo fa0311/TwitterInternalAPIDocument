@@ -1262,6 +1262,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | credential                    | credential                    |
 | updateCredential              | updateCredential              |
 | createCredential              | createCredential              |
+| revealCustomerPersonalInfo    | revealCustomerPersonalInfo    |
 
 | constant   | value   |
 |:-----------|:--------|
@@ -5941,15 +5942,15 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant                  | value                                   |
 |:--------------------------|:----------------------------------------|
-| all                       | {'icon': 'Rr', 'label': 'I().i8ea6d4e'} |
-| community                 | {'icon': 'Mr', 'label': 'I().a176d0d8'} |
-| by_invitation             | {'icon': 'Dr', 'label': 'I().gc7e52ca'} |
-| subscribers               | {'icon': 'Rr', 'label': 'I().feb7560a'} |
-| community_members         | {'icon': 'Or', 'label': 'I().h257006e'} |
-| super_followers_exclusive | {'icon': 'Rr', 'label': 'I().ebe1d850'} |
-| trusted_friends_tweet     | {'icon': 'Fr', 'label': 'm'}            |
-| verified                  | {'icon': 'Br', 'label': 'I().b121464a'} |
-| premium                   | {'icon': 'Br', 'label': 'I().e69ada9e'} |
+| all                       | {'icon': 'Wr', 'label': 'I().i8ea6d4e'} |
+| community                 | {'icon': 'Gr', 'label': 'I().a176d0d8'} |
+| by_invitation             | {'icon': 'Hr', 'label': 'I().gc7e52ca'} |
+| subscribers               | {'icon': 'Wr', 'label': 'I().feb7560a'} |
+| community_members         | {'icon': 'Kr', 'label': 'I().h257006e'} |
+| super_followers_exclusive | {'icon': 'Wr', 'label': 'I().ebe1d850'} |
+| trusted_friends_tweet     | {'icon': 'qr', 'label': 'm'}            |
+| verified                  | {'icon': '$r', 'label': 'I().b121464a'} |
+| premium                   | {'icon': '$r', 'label': 'I().e69ada9e'} |
 
 | constant   | value   |
 |:-----------|:--------|
@@ -6272,6 +6273,7 @@ This document is entirely auto-generated and may contain errors.<br>
 |:-----------|:---------|
 | FOLLOWS    | follows  |
 | CREATORS   | creators |
+| TOPICS     | topics   |
 
 | constant   | value     |
 |:-----------|:----------|
