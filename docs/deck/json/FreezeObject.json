@@ -1,10 +1,10 @@
 [
   {
     "__proto__": "null",
-    "assert": "l",
+    "assert": "f",
     "requireNonNull": "A",
     "requireInstance": "d",
-    "abstractMethodFail": "v"
+    "abstractMethodFail": "g"
   },
   {
     "position": "absolute",
