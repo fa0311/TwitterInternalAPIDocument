@@ -193,6 +193,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | ProductBundleFriendsFamily              | ProductBundleFriendsFamily              |
 | PublicKeyCredentialAttested             | PublicKeyCredentialAttested             |
 | PublicKeyCredentialRequired             | PublicKeyCredentialRequired             |
+| RecurringDeposits                       | RecurringDeposits                       |
 | Registered                              | Registered                              |
 | RestrictedGeolocation                   | RestrictedGeolocation                   |
 | RestrictedGeolocationCountry            | RestrictedGeolocationCountry            |
@@ -4614,10 +4615,10 @@ This document is entirely auto-generated and may contain errors.<br>
 | constant           | value   |
 |:-------------------|:--------|
 | __proto__          | null    |
-| assert             | l       |
+| assert             | f       |
 | requireNonNull     | A       |
 | requireInstance    | d       |
-| abstractMethodFail | v       |
+| abstractMethodFail | g       |
 
 | constant   | value    |
 |:-----------|:---------|
@@ -9944,12 +9945,12 @@ This document is entirely auto-generated and may contain errors.<br>
 |   constant | value   |
 |-----------:|:--------|
 |          1 | d       |
-|          2 | f       |
+|          2 | u       |
 
 | constant   | value                        |
 |:-----------|:-----------------------------|
 | annually   | {'label': 'd', 'value': '1'} |
-| hourly     | {'label': 'f', 'value': '2'} |
+| hourly     | {'label': 'u', 'value': '2'} |
 
 | constant      | value         |
 |:--------------|:--------------|
