@@ -213,6 +213,7 @@
     "ProductBundleFriendsFamily": "ProductBundleFriendsFamily",
     "PublicKeyCredentialAttested": "PublicKeyCredentialAttested",
     "PublicKeyCredentialRequired": "PublicKeyCredentialRequired",
+    "RecurringDeposits": "RecurringDeposits",
     "Registered": "Registered",
     "RestrictedGeolocation": "RestrictedGeolocation",
     "RestrictedGeolocationCountry": "RestrictedGeolocationCountry",
@@ -4471,10 +4472,10 @@
   },
   {
     "__proto__": "null",
-    "assert": "l",
+    "assert": "f",
     "requireNonNull": "A",
     "requireInstance": "d",
-    "abstractMethodFail": "v"
+    "abstractMethodFail": "g"
   },
   {
     "position": "absolute",
@@ -5984,7 +5985,7 @@
       "aria-live": "polite"
     }
   },
-  "{\"ActionsBar\":\"E.Z\",\"ActionMenu\":\"function()\"{\"var t=e.Icon\",n=e.isDisabled,r=e.items,o=e.onOpen,\"i=l.useCallback()\"{\"return l.createElement()\"{\"items\":\"r\",\"onCloseRequested\":\"e\"}}{\"Icon\":\"t\",\"isDisabled\":\"n\",\"onClick\":\"o\",\"renderActionMenu\":\"i\"}},\"CallToAction\":\"c.ZP\",\"EditCallout\":\"k.Z\",\"Education\":\"x.Z\",\"HighlightedUserLabel\":\"p.Z\",\"Media\":\"T.Z\",\"Place\":\"s.ZP\",\"PromotedDetails\":\"m.Z\",\"PromotedUserProfileCard\":\"A\",\"ReplyContext\":\"R.ZP\",\"RichContent\":\"L.Z\",\"SocialContext\":\"g.Z\",\"Text\":\"B.Z\",\"Tombstone\":\"y.Z\",\"Timestamp\":\"v.Z\",\"UserAvatar\":\"M.Z\",\"UserFollowIndicator\":\"N.Z\",\"UserName\":\"F.Z\",\"ArticleCard\":\"Z.Z\"}",
+  "{\"ActionsBar\":\"E.Z\",\"ActionMenu\":\"function()\"{\"var t=e.Icon\",n=e.isDisabled,r=e.items,o=e.onOpen,\"i=l.useCallback()\"{\"return l.createElement()\"{\"items\":\"r\",\"onCloseRequested\":\"e\"}}{\"Icon\":\"t\",\"isDisabled\":\"n\",\"onClick\":\"o\",\"renderActionMenu\":\"i\"}},\"CallToAction\":\"c.ZP\",\"EditCallout\":\"k.Z\",\"Education\":\"x.Z\",\"HighlightedUserLabel\":\"p.Z\",\"Media\":\"T.Z\",\"Place\":\"s.ZP\",\"PromotedDetails\":\"m.Z\",\"PromotedUserProfileCard\":\"A\",\"ReplyContext\":\"R.ZP\",\"RichContent\":\"L.Z\",\"SocialContext\":\"b.Z\",\"Text\":\"B.Z\",\"Tombstone\":\"y.Z\",\"Timestamp\":\"v.Z\",\"UserAvatar\":\"M.Z\",\"UserFollowIndicator\":\"N.Z\",\"UserName\":\"F.Z\",\"ArticleCard\":\"Z.Z\"}",
   {
     "X_BACKEND": "X_BACKEND",
     "IN_PROGRESS": "MIGRATION_IN_PROGRESS",
@@ -9444,7 +9445,7 @@
   },
   {
     "1": "d",
-    "2": "f"
+    "2": "u"
   },
   {
     "annually": {
@@ -9452,7 +9453,7 @@
       "value": "1"
     },
     "hourly": {
-      "label": "f",
+      "label": "u",
       "value": "2"
     }
   },
