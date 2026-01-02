@@ -3,10 +3,10 @@ This document is entirely auto-generated and may contain errors.<br>
 | constant           | value   |
 |:-------------------|:--------|
 | __proto__          | null    |
-| assert             | l       |
+| assert             | f       |
 | requireNonNull     | A       |
 | requireInstance    | d       |
-| abstractMethodFail | v       |
+| abstractMethodFail | g       |
 
 | constant   | value    |
 |:-----------|:---------|
