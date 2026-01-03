@@ -7829,3 +7829,14 @@
 - responsive_web_grok_link_edit_image_to_grok_com_enabled<br>
 #### remove<br>
 - None<br>
+## 2026/01/03<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- responsive_web_grok_annotations_enabled<br>
+#### remove<br>
+- None<br>
