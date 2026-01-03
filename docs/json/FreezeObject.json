@@ -5985,7 +5985,7 @@
       "aria-live": "polite"
     }
   },
-  "{\"ActionsBar\":\"E.Z\",\"ActionMenu\":\"function()\"{\"var t=e.Icon\",n=e.isDisabled,r=e.items,o=e.onOpen,\"i=l.useCallback()\"{\"return l.createElement()\"{\"items\":\"r\",\"onCloseRequested\":\"e\"}}{\"Icon\":\"t\",\"isDisabled\":\"n\",\"onClick\":\"o\",\"renderActionMenu\":\"i\"}},\"CallToAction\":\"c.ZP\",\"EditCallout\":\"k.Z\",\"Education\":\"x.Z\",\"HighlightedUserLabel\":\"p.Z\",\"Media\":\"T.Z\",\"Place\":\"s.ZP\",\"PromotedDetails\":\"m.Z\",\"PromotedUserProfileCard\":\"A\",\"ReplyContext\":\"R.ZP\",\"RichContent\":\"L.Z\",\"SocialContext\":\"b.Z\",\"Text\":\"B.Z\",\"Tombstone\":\"y.Z\",\"Timestamp\":\"v.Z\",\"UserAvatar\":\"M.Z\",\"UserFollowIndicator\":\"N.Z\",\"UserName\":\"F.Z\",\"ArticleCard\":\"Z.Z\"}",
+  "{\"ActionsBar\":\"E.Z\",\"ActionMenu\":\"function()\"{\"var t=e.Icon\",n=e.isDisabled,r=e.items,o=e.onOpen,\"i=l.useCallback()\"{\"return l.createElement()\"{\"items\":\"r\",\"onCloseRequested\":\"e\"}}{\"Icon\":\"t\",\"isDisabled\":\"n\",\"onClick\":\"o\",\"renderActionMenu\":\"i\"}},\"CallToAction\":\"c.ZP\",\"EditCallout\":\"T.Z\",\"Education\":\"k.Z\",\"HighlightedUserLabel\":\"p.Z\",\"Media\":\"S.Z\",\"Place\":\"s.ZP\",\"PromotedDetails\":\"m.Z\",\"PromotedUserProfileCard\":\"A\",\"ReplyContext\":\"R.ZP\",\"RichContent\":\"M.Z\",\"SocialContext\":\"g.Z\",\"Text\":\"L.Z\",\"Tombstone\":\"y.Z\",\"Timestamp\":\"v.Z\",\"UserAvatar\":\"j.Z\",\"UserFollowIndicator\":\"U.Z\",\"UserName\":\"F.Z\",\"ArticleCard\":\"Z.Z\"}",
   {
     "X_BACKEND": "X_BACKEND",
     "IN_PROGRESS": "MIGRATION_IN_PROGRESS",
@@ -7400,43 +7400,43 @@
   {
     "software_engineering": "m",
     "data_analytics": "h",
-    "product": "b",
-    "design": "p",
+    "product": "p",
+    "design": "b",
     "marketing": "g",
     "sales_am": "y",
     "operations": "v",
-    "people_hr": "Z",
-    "finance_accounting": "w",
-    "legal_compliance": "D",
-    "science_engineering": "k",
-    "medical": "S",
-    "construction_trades": "z",
+    "people_hr": "S",
+    "finance_accounting": "Z",
+    "legal_compliance": "w",
+    "science_engineering": "D",
+    "medical": "k",
+    "construction_trades": "P",
     "other": "E"
   },
   {
-    "intern": "x",
-    "entry_level": "I",
-    "junior": "C",
-    "mid_level": "j",
-    "senior": "_",
-    "lead": "T",
-    "manager": "R",
-    "executive": "A"
+    "intern": "T",
+    "entry_level": "R",
+    "junior": "x",
+    "mid_level": "z",
+    "senior": "j",
+    "lead": "_",
+    "manager": "A",
+    "executive": "I"
   },
   {
     "onsite": {
-      "label": "q",
-      "description": "B",
+      "label": "H",
+      "description": "W",
       "value": "onsite"
     },
     "remote": {
-      "label": "W",
+      "label": "q",
       "description": "U",
       "value": "remote"
     },
     "hybrid": {
-      "label": "H",
-      "description": "N",
+      "label": "M",
+      "description": "B",
       "value": "hybrid"
     }
   },
@@ -8457,7 +8457,7 @@
   },
   {
     "fetchStatus": "$.ZP.NONE",
-    "config": "Ln"
+    "config": "Kn"
   },
   {
     "ConfirmationStep": "ConfirmationStep",
@@ -8678,7 +8678,7 @@
     "SUCCESS": "rweb/directMessages/SEARCH_SUCCESS",
     "FAILURE": "rweb/directMessages/SEARCH_FAILURE"
   },
-  "{\"ActionsBar\":\"k.Z\",\"ActionMenu\":\"function()\"{\"var t=e.Icon\",n=e.isDisabled,r=e.items,i=e.onOpen,\"o=l.useCallback()\"{\"return l.createElement()\"{\"items\":\"r\",\"onCloseRequested\":\"e\"}}{\"Icon\":\"t\",\"isDisabled\":\"n\",\"onClick\":\"i\",\"renderActionMenu\":\"o\"}},\"CallToAction\":\"c.ZP\",\"EditCallout\":\"T.Z\",\"Education\":\"Z.Z\",\"HighlightedUserLabel\":\"m.Z\",\"Media\":\"S.Z\",\"Place\":\"s.ZP\",\"PromotedDetails\":\"f.Z\",\"PromotedUserProfileCard\":\"R\",\"ReplyContext\":\"F.ZP\",\"RichContent\":\"D.Z\",\"SocialContext\":\"b.Z\",\"Text\":\"M.Z\",\"Tombstone\":\"y.Z\",\"Timestamp\":\"h.Z\",\"UserAvatar\":\"O.Z\",\"UserFollowIndicator\":\"U.Z\",\"UserName\":\"B.Z\",\"ArticleCard\":\"E.Z\"}",
+  "{\"ActionsBar\":\"_.Z\",\"ActionMenu\":\"function()\"{\"var t=e.Icon\",n=e.isDisabled,r=e.items,o=e.onOpen,\"i=l.useCallback()\"{\"return l.createElement()\"{\"items\":\"r\",\"onCloseRequested\":\"e\"}}{\"Icon\":\"t\",\"isDisabled\":\"n\",\"onClick\":\"o\",\"renderActionMenu\":\"i\"}},\"CallToAction\":\"c.ZP\",\"EditCallout\":\"E.Z\",\"Education\":\"Z.Z\",\"HighlightedUserLabel\":\"m.Z\",\"Media\":\"S.Z\",\"Place\":\"s.ZP\",\"PromotedDetails\":\"f.Z\",\"PromotedUserProfileCard\":\"L\",\"ReplyContext\":\"F.ZP\",\"RichContent\":\"O.Z\",\"SocialContext\":\"g.Z\",\"Text\":\"D.Z\",\"Tombstone\":\"y.Z\",\"Timestamp\":\"h.Z\",\"UserAvatar\":\"M.Z\",\"UserFollowIndicator\":\"N.Z\",\"UserName\":\"U.Z\",\"ArticleCard\":\"T.Z\"}",
   {
     "AcceptAllCookies": "acceptAllCookies",
     "RefuseNonEssentialCookies": "refuseNonEssentialCookies",
@@ -9858,79 +9858,6 @@
     "trusted_friends_tweet": "trusted_friends_tweet",
     "verified": "change_conversation_control_to_verified",
     "premium": "change_conversation_control_to_premium"
-  },
-  {
-    "TWEET_CARET": "tweet_caret",
-    "PROFILE": "user_profile",
-    "LIST_DETAIL": "list_detail",
-    "RICH_FEEDBACK": "rich_feedback",
-    "TWEET": "tweet",
-    "FOLLOWERS_LIST": "followers_list"
-  },
-  {
-    "toggleCommandCenter": "mod+k",
-    "openKeyboardShortcuts": "?",
-    "swipeLeft": "left",
-    "swipeRight": "right",
-    "nextItem": "j",
-    "previousItem": "k",
-    "refresh": ".",
-    "nightMode": "z",
-    "bookmark": "b",
-    "block": "x",
-    "mute": "u",
-    "newTweet": "n",
-    "newMessage": "m",
-    "toggleDMDrawer": "i",
-    "goHome": "g h",
-    "goExplore": "g e",
-    "goNotifications": "g n",
-    "goMentions": "g r",
-    "goProfile": "g p",
-    "goLikes": "g l",
-    "goLists": "g i",
-    "goMessages": "g m",
-    "goGrok": "g g",
-    "goToDrafts": "g f",
-    "goToScheduled": "g t",
-    "goSettings": "g s",
-    "goToUser": "g u",
-    "goBookmarks": "g b",
-    "goTopArticles": "g a",
-    "goDisplay": "g d",
-    "search": "/",
-    "audio": {
-      "dock": "a d",
-      "play": "a space",
-      "mute": "a m"
-    },
-    "video": {
-      "play1": "k",
-      "play2": "space",
-      "mute": "m"
-    },
-    "columns": {
-      "createNewColumn": "c n",
-      "duplicateColumn": "c d",
-      "focusOnReorderButton": "c r",
-      "lastColumn": "c 0",
-      "nextColumn": "]",
-      "nthColumn": "c 1..9",
-      "prevColumn": "[",
-      "removeColumn": "c backspace",
-      "toggleColumnOptions": "c o",
-      "undoRemoveColumn": "c u"
-    },
-    "decks": {
-      "createNewDeck": "d n",
-      "editActiveDeck": "d e",
-      "lastPinnedDeck": "d 0",
-      "manageAllDecks": "d m",
-      "nthPinnedDeck": "d 1..9"
-    },
-    "labs": {
-      "openCommandCenter": ">"
-    }
   },
   {
     "LIVE_BROADCAST": "liveBroadcast",
