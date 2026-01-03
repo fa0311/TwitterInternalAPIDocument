@@ -6137,7 +6137,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{"ActionsBar":"E.Z","ActionMenu":"function()"{"var t=e.Icon",n=e.isDisabled,r=e.items,o=e.onOpen,"i=l.useCallback()"{"return l.createElement()"{"items":"r","onCloseRequested":"e"}}{"Icon":"t","isDisabled":"n","onClick":"o","renderActionMenu":"i"}},"CallToAction":"c.ZP","EditCallout":"k.Z","Education...
+{"ActionsBar":"E.Z","ActionMenu":"function()"{"var t=e.Icon",n=e.isDisabled,r=e.items,o=e.onOpen,"i=l.useCallback()"{"return l.createElement()"{"items":"r","onCloseRequested":"e"}}{"Icon":"t","isDisabled":"n","onClick":"o","renderActionMenu":"i"}},"CallToAction":"c.ZP","EditCallout":"T.Z","Education...
 ```
 | constant    | value                 |
 |:------------|:----------------------|
@@ -7721,35 +7721,35 @@ This document is entirely auto-generated and may contain errors.<br>
 |:---------------------|:--------|
 | software_engineering | m       |
 | data_analytics       | h       |
-| product              | b       |
-| design               | p       |
+| product              | p       |
+| design               | b       |
 | marketing            | g       |
 | sales_am             | y       |
 | operations           | v       |
-| people_hr            | Z       |
-| finance_accounting   | w       |
-| legal_compliance     | D       |
-| science_engineering  | k       |
-| medical              | S       |
-| construction_trades  | z       |
+| people_hr            | S       |
+| finance_accounting   | Z       |
+| legal_compliance     | w       |
+| science_engineering  | D       |
+| medical              | k       |
+| construction_trades  | P       |
 | other                | E       |
 
 | constant    | value   |
 |:------------|:--------|
-| intern      | x       |
-| entry_level | I       |
-| junior      | C       |
-| mid_level   | j       |
-| senior      | _       |
-| lead        | T       |
-| manager     | R       |
-| executive   | A       |
+| intern      | T       |
+| entry_level | R       |
+| junior      | x       |
+| mid_level   | z       |
+| senior      | j       |
+| lead        | _       |
+| manager     | A       |
+| executive   | I       |
 
 | constant   | value                                                 |
 |:-----------|:------------------------------------------------------|
-| onsite     | {'label': 'q', 'description': 'B', 'value': 'onsite'} |
-| remote     | {'label': 'W', 'description': 'U', 'value': 'remote'} |
-| hybrid     | {'label': 'H', 'description': 'N', 'value': 'hybrid'} |
+| onsite     | {'label': 'H', 'description': 'W', 'value': 'onsite'} |
+| remote     | {'label': 'q', 'description': 'U', 'value': 'remote'} |
+| hybrid     | {'label': 'M', 'description': 'B', 'value': 'hybrid'} |
 
 | constant      | value         |
 |:--------------|:--------------|
@@ -8837,7 +8837,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | constant    | value     |
 |:------------|:----------|
 | fetchStatus | $.ZP.NONE |
-| config      | Ln        |
+| config      | Kn        |
 
 | constant              | value                 |
 |:----------------------|:----------------------|
@@ -9076,7 +9076,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{"ActionsBar":"k.Z","ActionMenu":"function()"{"var t=e.Icon",n=e.isDisabled,r=e.items,i=e.onOpen,"o=l.useCallback()"{"return l.createElement()"{"items":"r","onCloseRequested":"e"}}{"Icon":"t","isDisabled":"n","onClick":"i","renderActionMenu":"o"}},"CallToAction":"c.ZP","EditCallout":"T.Z","Education...
+{"ActionsBar":"_.Z","ActionMenu":"function()"{"var t=e.Icon",n=e.isDisabled,r=e.items,o=e.onOpen,"i=l.useCallback()"{"return l.createElement()"{"items":"r","onCloseRequested":"e"}}{"Icon":"t","isDisabled":"n","onClick":"o","renderActionMenu":"i"}},"CallToAction":"c.ZP","EditCallout":"E.Z","Education...
 ```
 | constant                  | value                     |
 |:--------------------------|:--------------------------|
@@ -10409,54 +10409,6 @@ This document is entirely auto-generated and may contain errors.<br>
 | trusted_friends_tweet          | trusted_friends_tweet                      |
 | verified                       | change_conversation_control_to_verified    |
 | premium                        | change_conversation_control_to_premium     |
-
-| constant       | value          |
-|:---------------|:---------------|
-| TWEET_CARET    | tweet_caret    |
-| PROFILE        | user_profile   |
-| LIST_DETAIL    | list_detail    |
-| RICH_FEEDBACK  | rich_feedback  |
-| TWEET          | tweet          |
-| FOLLOWERS_LIST | followers_list |
-
-| constant              | value                                                                                                                                                                                                                                                         |
-|:----------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| toggleCommandCenter   | mod+k                                                                                                                                                                                                                                                         |
-| openKeyboardShortcuts | ?                                                                                                                                                                                                                                                             |
-| swipeLeft             | left                                                                                                                                                                                                                                                          |
-| swipeRight            | right                                                                                                                                                                                                                                                         |
-| nextItem              | j                                                                                                                                                                                                                                                             |
-| previousItem          | k                                                                                                                                                                                                                                                             |
-| refresh               | .                                                                                                                                                                                                                                                             |
-| nightMode             | z                                                                                                                                                                                                                                                             |
-| bookmark              | b                                                                                                                                                                                                                                                             |
-| block                 | x                                                                                                                                                                                                                                                             |
-| mute                  | u                                                                                                                                                                                                                                                             |
-| newTweet              | n                                                                                                                                                                                                                                                             |
-| newMessage            | m                                                                                                                                                                                                                                                             |
-| toggleDMDrawer        | i                                                                                                                                                                                                                                                             |
-| goHome                | g h                                                                                                                                                                                                                                                           |
-| goExplore             | g e                                                                                                                                                                                                                                                           |
-| goNotifications       | g n                                                                                                                                                                                                                                                           |
-| goMentions            | g r                                                                                                                                                                                                                                                           |
-| goProfile             | g p                                                                                                                                                                                                                                                           |
-| goLikes               | g l                                                                                                                                                                                                                                                           |
-| goLists               | g i                                                                                                                                                                                                                                                           |
-| goMessages            | g m                                                                                                                                                                                                                                                           |
-| goGrok                | g g                                                                                                                                                                                                                                                           |
-| goToDrafts            | g f                                                                                                                                                                                                                                                           |
-| goToScheduled         | g t                                                                                                                                                                                                                                                           |
-| goSettings            | g s                                                                                                                                                                                                                                                           |
-| goToUser              | g u                                                                                                                                                                                                                                                           |
-| goBookmarks           | g b                                                                                                                                                                                                                                                           |
-| goTopArticles         | g a                                                                                                                                                                                                                                                           |
-| goDisplay             | g d                                                                                                                                                                                                                                                           |
-| search                | /                                                                                                                                                                                                                                                             |
-| audio                 | {'dock': 'a d', 'play': 'a space', 'mute': 'a m'}                                                                                                                                                                                                             |
-| video                 | {'play1': 'k', 'play2': 'space', 'mute': 'm'}                                                                                                                                                                                                                 |
-| columns               | {'createNewColumn': 'c n', 'duplicateColumn': 'c d', 'focusOnReorderButton': 'c r', 'lastColumn': 'c 0', 'nextColumn': ']', 'nthColumn': 'c 1..9', 'prevColumn': '[', 'removeColumn': 'c backspace', 'toggleColumnOptions': 'c o', 'undoRemoveColumn': 'c u'} |
-| decks                 | {'createNewDeck': 'd n', 'editActiveDeck': 'd e', 'lastPinnedDeck': 'd 0', 'manageAllDecks': 'd m', 'nthPinnedDeck': 'd 1..9'}                                                                                                                                |
-| labs                  | {'openCommandCenter': '>'}                                                                                                                                                                                                                                    |
 
 | constant         | value           |
 |:-----------------|:----------------|
