@@ -1645,6 +1645,9 @@
       "responsive_web_grok_analyze_tooltip_show_probability_percentage": {
         "value": "20"
       },
+      "responsive_web_grok_annotations_enabled": {
+        "value": "false"
+      },
       "responsive_web_grok_api_enable_grok_host": {
         "value": "true"
       },
@@ -5479,6 +5482,9 @@
         "responsive_web_grok_analyze_tooltip_show_probability_percentage": {
           "value": "20"
         },
+        "responsive_web_grok_annotations_enabled": {
+          "value": "false"
+        },
         "responsive_web_grok_api_enable_grok_host": {
           "value": "true"
         },
@@ -7776,7 +7782,7 @@
       "settingsVersion": "4e015e76b473340989ad81ff8171c780"
     },
     "debug": {},
-    "featureSetToken": "b890d32aee2eee3558df40be7f6a574a0c5e4631",
+    "featureSetToken": "e3262fb2f860634ac615935970ec864ee834b249",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -7845,7 +7851,7 @@
   },
   "session": {
     "country": "XX",
-    "guestId": "176738772574881518",
+    "guestId": "176747411669945199",
     "hasCommunityMemberships": "false",
     "isActiveCreator": "false",
     "isLoaded": "false",
