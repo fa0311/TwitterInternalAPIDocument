@@ -6329,7 +6329,7 @@
           "value": "false"
         },
         "rweb_home_ranked_following_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "rweb_home_refetch_on_refocus_min_delay_seconds": {
           "value": "60"
@@ -7779,7 +7779,7 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "4e015e76b473340989ad81ff8171c780"
+      "settingsVersion": "fc3c8edb8e30bd4fbd5bff2115a0493d"
     },
     "debug": {},
     "featureSetToken": "e3262fb2f860634ac615935970ec864ee834b249",
@@ -7851,7 +7851,7 @@
   },
   "session": {
     "country": "XX",
-    "guestId": "176756057614679107",
+    "guestId": "176764700304024206",
     "hasCommunityMemberships": "false",
     "isActiveCreator": "false",
     "isLoaded": "false",
