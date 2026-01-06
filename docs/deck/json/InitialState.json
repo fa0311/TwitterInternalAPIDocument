@@ -2492,7 +2492,7 @@
         "value": "false"
       },
       "rweb_home_ranked_following_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "rweb_home_refetch_on_refocus_min_delay_seconds": {
         "value": "60"
@@ -6910,7 +6910,7 @@
           "value": "true"
         },
         "subscriptions_premium_tiers_default_interval": {
-          "value": "Year"
+          "value": "Month"
         },
         "subscriptions_premium_tiers_default_product": {
           "value": "BlueVerified"
@@ -7779,10 +7779,10 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "fc3c8edb8e30bd4fbd5bff2115a0493d"
+      "settingsVersion": "d13200f46348fcfa871747a5986b6704"
     },
     "debug": {},
-    "featureSetToken": "e3262fb2f860634ac615935970ec864ee834b249",
+    "featureSetToken": "2052123a3a2047d43d3815852b2bd9580ec013e4",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -7851,7 +7851,7 @@
   },
   "session": {
     "country": "XX",
-    "guestId": "176764700304024206",
+    "guestId": "176773352363088553",
     "hasCommunityMemberships": "false",
     "isActiveCreator": "false",
     "isLoaded": "false",
