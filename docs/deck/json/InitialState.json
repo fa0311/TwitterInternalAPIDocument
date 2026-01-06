@@ -1645,6 +1645,9 @@
       "responsive_web_grok_analyze_tooltip_show_probability_percentage": {
         "value": "20"
       },
+      "responsive_web_grok_annotations_enabled": {
+        "value": "false"
+      },
       "responsive_web_grok_api_enable_grok_host": {
         "value": "true"
       },
@@ -3885,7 +3888,7 @@
         "value": "false"
       },
       "xchat_show_troubleshooting_settings": {
-        "value": "false"
+        "value": "true"
       },
       "xchat_strip_media_metadata": {
         "value": "true"
@@ -5479,6 +5482,9 @@
         "responsive_web_grok_analyze_tooltip_show_probability_percentage": {
           "value": "20"
         },
+        "responsive_web_grok_annotations_enabled": {
+          "value": "false"
+        },
         "responsive_web_grok_api_enable_grok_host": {
           "value": "true"
         },
@@ -6323,7 +6329,7 @@
           "value": "false"
         },
         "rweb_home_ranked_following_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "rweb_home_refetch_on_refocus_min_delay_seconds": {
           "value": "60"
@@ -7719,7 +7725,7 @@
           "value": "false"
         },
         "xchat_show_troubleshooting_settings": {
-          "value": "false"
+          "value": "true"
         },
         "xchat_strip_media_metadata": {
           "value": "true"
@@ -7773,10 +7779,10 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "4e015e76b473340989ad81ff8171c780"
+      "settingsVersion": "fc3c8edb8e30bd4fbd5bff2115a0493d"
     },
     "debug": {},
-    "featureSetToken": "12828ff37e7e424162f44a8d251236a36b40fc86",
+    "featureSetToken": "e3262fb2f860634ac615935970ec864ee834b249",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -7845,7 +7851,7 @@
   },
   "session": {
     "country": "XX",
-    "guestId": "176721505679097798",
+    "guestId": "176764700304024206",
     "hasCommunityMemberships": "false",
     "isActiveCreator": "false",
     "isLoaded": "false",
