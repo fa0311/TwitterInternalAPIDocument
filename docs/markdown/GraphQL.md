@@ -5430,7 +5430,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## BirdwatchCreateNote<br>
-Request URL: `https://x.com/i/api/graphql/HNR4NJIycKIV_QPWveXqWw/BirdwatchCreateNote`<br>
+Request URL: `https://x.com/i/api/graphql/wCySfRRthIStAehSx4s-gA/BirdwatchCreateNote`<br>
 Request Method: `POST`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -5671,7 +5671,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## BirdwatchFetchNotes<br>
-Request URL: `https://x.com/i/api/graphql/dG85JgBxwnAt_PYNZTyvTg/BirdwatchFetchNotes`<br>
+Request URL: `https://x.com/i/api/graphql/ozlVdT0AAdOXry-EgxivdA/BirdwatchFetchNotes`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -5698,7 +5698,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## BirdwatchFetchOneNote<br>
-Request URL: `https://x.com/i/api/graphql/VD89zXDt0uRuF9wO44qYRA/BirdwatchFetchOneNote`<br>
+Request URL: `https://x.com/i/api/graphql/oMREp1F19pnI-3Ks-svm0A/BirdwatchFetchOneNote`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
