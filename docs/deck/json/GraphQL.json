@@ -1,1 +1,15 @@
-[]
+[
+  {
+    "n": "35851",
+    "exports": {
+      "queryId": "0qFmnKTY3JwBZnqDdQrtHw",
+      "operationName": "CreateWebSessionBind",
+      "operationType": "mutation",
+      "metadata": {
+        "featureSwitches": [],
+        "fieldToggles": [],
+        "featureSwitch": {}
+      }
+    }
+  }
+]
