@@ -7840,3 +7840,17 @@
 - responsive_web_grok_annotations_enabled<br>
 #### remove<br>
 - None<br>
+## 2026/01/08<br>
+### API<br>
+#### add<br>
+- CreateWebSessionBind<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- post_ctas_fetch_enabled<br>
+- post_ctas_render_enabled<br>
+- subscriptions_premium_tiers_hide_basic<br>
+- rweb_session_binding_enabled<br>
+#### remove<br>
+- None<br>
