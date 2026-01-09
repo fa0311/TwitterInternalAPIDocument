@@ -5,6 +5,12 @@
       "queryId": "0qFmnKTY3JwBZnqDdQrtHw",
       "method": "POST",
       "features": {}
+    },
+    "RefreshWebSessionBind": {
+      "url": "https://x.com/i/api/graphql/N9LNeEU2xRb9vX_JRjgEjg/RefreshWebSessionBind",
+      "queryId": "N9LNeEU2xRb9vX_JRjgEjg",
+      "method": "POST",
+      "features": {}
     }
   },
   "header": {
