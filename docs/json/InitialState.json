@@ -1787,7 +1787,7 @@
         "value": "false"
       },
       "responsive_web_grok_outage_banner_message": {
-        "value": "We are experiencing issues with Grok at the moment. Grok may be unable to reply."
+        "value": ""
       },
       "responsive_web_grok_personality": {
         "value": "true"
@@ -2543,7 +2543,7 @@
         "value": "true"
       },
       "rweb_premium_business_rebranding_entry_point_removed": {
-        "value": "true"
+        "value": "false"
       },
       "rweb_premium_business_rebranding_governments_enabled": {
         "value": "true"
@@ -2574,6 +2574,9 @@
       },
       "rweb_search_media_enabled": {
         "value": "true"
+      },
+      "rweb_session_binding_enabled": {
+        "value": "false"
       },
       "rweb_sourcemap_migration": {
         "value": "false"
@@ -3085,6 +3088,9 @@
         "value": "BlueVerified"
       },
       "subscriptions_premium_tiers_hide_basic": {
+        "value": "false"
+      },
+      "subscriptions_premium_tiers_hide_basic_webview_paywall": {
         "value": "false"
       },
       "subscriptions_premium_tiers_order_variant": {
@@ -5942,7 +5948,10 @@
           "value": "false"
         },
         "responsive_web_priority_ntab_enabled": {
-          "value": "false"
+          "value": "true"
+        },
+        "responsive_web_priority_ntab_min_followers": {
+          "value": "500"
         },
         "responsive_web_professional_journeys_holdback_enabled": {
           "value": "false"
@@ -6092,7 +6101,7 @@
           "value": "false"
         },
         "responsive_web_trends_ui_sidebar_topic_id": {
-          "value": "Top Stories"
+          "value": "For You"
         },
         "responsive_web_trends_ui_top_articles": {
           "value": "true"
@@ -6191,7 +6200,7 @@
           "value": "false"
         },
         "responsive_web_verified_ntab_hidden": {
-          "value": "false"
+          "value": "true"
         },
         "responsive_web_verified_organizations_affiliate_fetch_limit": {
           "value": "3000"
@@ -6934,6 +6943,9 @@
           "value": "BlueVerified"
         },
         "subscriptions_premium_tiers_hide_basic": {
+          "value": "false"
+        },
+        "subscriptions_premium_tiers_hide_basic_webview_paywall": {
           "value": "false"
         },
         "subscriptions_premium_tiers_order_variant": {
@@ -7800,10 +7812,10 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "9ccccf220fa069a1fca0451a4613ff75"
+      "settingsVersion": "656e09cc34f1d345c4fdec74043a7ccd"
     },
     "debug": {},
-    "featureSetToken": "acbdbaf6fac0cf3dc3143edf2edf5c2ee29f9d8b",
+    "featureSetToken": "3d73ca42b5c8bd6aa721fd5c3fc2b2b58d850be0",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -7872,7 +7884,7 @@
   },
   "session": {
     "country": "XX",
-    "guestId": "176790613726321395",
+    "guestId": "176799253606819724",
     "hasCommunityMemberships": "false",
     "isActiveCreator": "false",
     "isLoaded": "false",
