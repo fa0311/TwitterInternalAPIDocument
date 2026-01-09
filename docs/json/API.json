@@ -5123,6 +5123,12 @@
       "method": "POST",
       "features": {}
     },
+    "RefreshWebSessionBind": {
+      "url": "https://x.com/i/api/graphql/N9LNeEU2xRb9vX_JRjgEjg/RefreshWebSessionBind",
+      "queryId": "N9LNeEU2xRb9vX_JRjgEjg",
+      "method": "POST",
+      "features": {}
+    },
     "ArticleTimeline": {
       "url": "https://x.com/i/api/graphql/YjKj5WYIaGN4btiTfg-mPQ/ArticleTimeline",
       "queryId": "YjKj5WYIaGN4btiTfg-mPQ",
