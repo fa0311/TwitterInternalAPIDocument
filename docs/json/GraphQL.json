@@ -19706,6 +19706,19 @@
     }
   },
   {
+    "n": "87973",
+    "exports": {
+      "queryId": "N9LNeEU2xRb9vX_JRjgEjg",
+      "operationName": "RefreshWebSessionBind",
+      "operationType": "mutation",
+      "metadata": {
+        "featureSwitches": [],
+        "fieldToggles": [],
+        "featureSwitch": {}
+      }
+    }
+  },
+  {
     "n": "79604",
     "exports": {
       "queryId": "YjKj5WYIaGN4btiTfg-mPQ",
