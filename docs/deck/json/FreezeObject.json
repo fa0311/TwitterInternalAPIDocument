@@ -61,10 +61,6 @@
     "FAILURE": "rweb/settings/profile/FETCH_VERIFIED_PHONE_LABEL_FAILURE"
   },
   {
-    "single_line": "singleline",
-    "format_inline": "format-inline"
-  },
-  {
     "IOS": "ios",
     "ANDROID": "android"
   },
