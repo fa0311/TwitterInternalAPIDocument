@@ -5476,8 +5476,8 @@
   },
   {
     "SENSITIVE": "w",
-    "BLOCKED": "O",
-    "BLOCKED_BY": "S"
+    "BLOCKED": "S",
+    "BLOCKED_BY": "O"
   },
   {
     "BROADCAST_MEDIA_TYPE": "broadcast",
@@ -5830,33 +5830,33 @@
     "NoMatch": "noMatch"
   },
   {
-    "AU": "()(0,a.ju)",
-    "BR": "(\"https://legal.x.com/ads-terms/apac.html\")(0,a.ju)",
-    "GB": "(\"https://legal.x.com/ads-terms/brazil.html\")(0,a.ju)",
-    "ID": "(\"https://legal.x.com/ads-terms/uk.html\")(0,a.ju)",
-    "JP": "(\"https://legal.x.com/ads-terms/indonesia.html\")(0,a.ju)",
-    "NZ": "(\"https://legal.x.com/ads-terms/japan.html\")(0,a.ju)",
-    "US": "(\"https://legal.x.com/ads-terms/apac.html\")(0,a.ju)"
+    "AU": "()(0,o.ju)",
+    "BR": "(\"https://legal.x.com/ads-terms/apac.html\")(0,o.ju)",
+    "GB": "(\"https://legal.x.com/ads-terms/brazil.html\")(0,o.ju)",
+    "ID": "(\"https://legal.x.com/ads-terms/uk.html\")(0,o.ju)",
+    "JP": "(\"https://legal.x.com/ads-terms/indonesia.html\")(0,o.ju)",
+    "NZ": "(\"https://legal.x.com/ads-terms/japan.html\")(0,o.ju)",
+    "US": "(\"https://legal.x.com/ads-terms/apac.html\")(0,o.ju)"
   },
   {
-    "en": "()(0,a.ju)",
-    "de": "(\"https://business.x.com/en/campaign/quick-promote-conditional-coupon-terms.html\")(0,a.ju)",
-    "es": "(\"https://business.x.com/de/campaign/quick-promote-conditional-coupon-terms.html\")(0,a.ju)",
-    "fr": "(\"https://business.x.com/es/campaign/quick-promote-conditional-coupon-terms.html\")(0,a.ju)",
-    "ja": "(\"https://business.x.com/fr/campaign/quick-promote-conditional-coupon-terms.html\")(0,a.ju)",
-    "pt": "(\"https://business.x.com/ja/campaign/quick-promote-conditional-coupon-terms.html\")(0,a.ju)",
-    "ar": "(\"https://business.x.com/pt/campaign/quick-promote-conditional-coupon-terms.html\")(0,a.ju)",
-    "zh-cn": "(\"https://business.x.com/ar/campaign/quick-promote-conditional-coupon-terms.html\")(0,a.ju)"
+    "en": "()(0,o.ju)",
+    "de": "(\"https://business.x.com/en/campaign/quick-promote-conditional-coupon-terms.html\")(0,o.ju)",
+    "es": "(\"https://business.x.com/de/campaign/quick-promote-conditional-coupon-terms.html\")(0,o.ju)",
+    "fr": "(\"https://business.x.com/es/campaign/quick-promote-conditional-coupon-terms.html\")(0,o.ju)",
+    "ja": "(\"https://business.x.com/fr/campaign/quick-promote-conditional-coupon-terms.html\")(0,o.ju)",
+    "pt": "(\"https://business.x.com/ja/campaign/quick-promote-conditional-coupon-terms.html\")(0,o.ju)",
+    "ar": "(\"https://business.x.com/pt/campaign/quick-promote-conditional-coupon-terms.html\")(0,o.ju)",
+    "zh-cn": "(\"https://business.x.com/ar/campaign/quick-promote-conditional-coupon-terms.html\")(0,o.ju)"
   },
   {
-    "en": "()(0,a.ju)",
-    "de": "(\"https://business.x.com/en/campaign/quick-promote-coupon-terms.html\")(0,a.ju)",
-    "es": "(\"https://business.x.com/de/campaign/quick-promote-coupon-terms.html\")(0,a.ju)",
-    "fr": "(\"https://business.x.com/es/campaign/quick-promote-coupon-terms.html\")(0,a.ju)",
-    "ja": "(\"https://business.x.com/fr/campaign/quick-promote-coupon-terms.html\")(0,a.ju)",
-    "pt": "(\"https://business.x.com/ja/campaign/quick-promote-coupon-terms.html\")(0,a.ju)",
-    "ar": "(\"https://business.x.com/pt/campaign/quick-promote-coupon-terms.html\")(0,a.ju)",
-    "zh-cn": "(\"https://business.x.com/ar/campaign/quick-promote-coupon-terms.html\")(0,a.ju)"
+    "en": "()(0,o.ju)",
+    "de": "(\"https://business.x.com/en/campaign/quick-promote-coupon-terms.html\")(0,o.ju)",
+    "es": "(\"https://business.x.com/de/campaign/quick-promote-coupon-terms.html\")(0,o.ju)",
+    "fr": "(\"https://business.x.com/es/campaign/quick-promote-coupon-terms.html\")(0,o.ju)",
+    "ja": "(\"https://business.x.com/fr/campaign/quick-promote-coupon-terms.html\")(0,o.ju)",
+    "pt": "(\"https://business.x.com/ja/campaign/quick-promote-coupon-terms.html\")(0,o.ju)",
+    "ar": "(\"https://business.x.com/pt/campaign/quick-promote-coupon-terms.html\")(0,o.ju)",
+    "zh-cn": "(\"https://business.x.com/ar/campaign/quick-promote-coupon-terms.html\")(0,o.ju)"
   },
   {
     "TWEET_CARET": "tweet_caret",
@@ -5989,7 +5989,7 @@
       "aria-live": "polite"
     }
   },
-  "{\"ActionsBar\":\"E.Z\",\"ActionMenu\":\"function()\"{\"var t=e.Icon\",n=e.isDisabled,r=e.items,o=e.onOpen,\"i=l.useCallback()\"{\"return l.createElement()\"{\"items\":\"r\",\"onCloseRequested\":\"e\"}}{\"Icon\":\"t\",\"isDisabled\":\"n\",\"onClick\":\"o\",\"renderActionMenu\":\"i\"}},\"CallToAction\":\"c.ZP\",\"EditCallout\":\"T.Z\",\"Education\":\"k.Z\",\"HighlightedUserLabel\":\"p.Z\",\"Media\":\"S.Z\",\"Place\":\"s.ZP\",\"PromotedDetails\":\"m.Z\",\"PromotedUserProfileCard\":\"A\",\"ReplyContext\":\"R.ZP\",\"RichContent\":\"M.Z\",\"SocialContext\":\"b.Z\",\"Text\":\"L.Z\",\"Tombstone\":\"y.Z\",\"Timestamp\":\"v.Z\",\"UserAvatar\":\"j.Z\",\"UserFollowIndicator\":\"U.Z\",\"UserName\":\"F.Z\",\"ArticleCard\":\"Z.Z\"}",
+  "{\"ActionsBar\":\"E.Z\",\"ActionMenu\":\"function()\"{\"var t=e.Icon\",n=e.isDisabled,r=e.items,o=e.onOpen,\"i=l.useCallback()\"{\"return l.createElement()\"{\"items\":\"r\",\"onCloseRequested\":\"e\"}}{\"Icon\":\"t\",\"isDisabled\":\"n\",\"onClick\":\"o\",\"renderActionMenu\":\"i\"}},\"CallToAction\":\"c.ZP\",\"EditCallout\":\"T.Z\",\"Education\":\"k.Z\",\"HighlightedUserLabel\":\"p.Z\",\"Media\":\"S.Z\",\"Place\":\"s.ZP\",\"PromotedDetails\":\"f.Z\",\"PromotedUserProfileCard\":\"A\",\"ReplyContext\":\"R.ZP\",\"RichContent\":\"M.Z\",\"SocialContext\":\"g.Z\",\"Text\":\"L.Z\",\"Tombstone\":\"y.Z\",\"Timestamp\":\"v.Z\",\"UserAvatar\":\"j.Z\",\"UserFollowIndicator\":\"U.Z\",\"UserName\":\"F.Z\",\"ArticleCard\":\"Z.Z\"}",
   {
     "X_BACKEND": "X_BACKEND",
     "IN_PROGRESS": "MIGRATION_IN_PROGRESS",
@@ -6317,16 +6317,6 @@
     "SubscribableUser": "SubscribableUser"
   },
   {
-    "AcceptAllCookies": "acceptAllCookies",
-    "RefuseNonEssentialCookies": "refuseNonEssentialCookies",
-    "Invalid": "invalid",
-    "NotSet": "notSet"
-  },
-  {
-    "Country": "Country",
-    "Region": "Region"
-  },
-  {
     "NEW": "NEW",
     "INPROGRESS": "INPROGRESS",
     "INPROGRESS_ASYNC": "INPROGRESS_ASYNC",
@@ -6336,6 +6326,16 @@
     "COMPLETE": "COMPLETED",
     "FAILED": "FAILED",
     "NONE": "NONE"
+  },
+  {
+    "AcceptAllCookies": "acceptAllCookies",
+    "RefuseNonEssentialCookies": "refuseNonEssentialCookies",
+    "Invalid": "invalid",
+    "NotSet": "notSet"
+  },
+  {
+    "Country": "Country",
+    "Region": "Region"
   },
   {
     "REQUEST": "rweb/accountVerification/FETCH_ACCESS_REQUEST",
@@ -7425,44 +7425,44 @@
   },
   {
     "software_engineering": "p",
-    "data_analytics": "h",
-    "product": "b",
-    "design": "m",
-    "marketing": "v",
-    "sales_am": "y",
-    "operations": "g",
-    "people_hr": "S",
-    "finance_accounting": "Z",
-    "legal_compliance": "O",
-    "science_engineering": "P",
-    "medical": "C",
-    "construction_trades": "E",
-    "other": "w"
+    "data_analytics": "g",
+    "product": "f",
+    "design": "y",
+    "marketing": "b",
+    "sales_am": "h",
+    "operations": "k",
+    "people_hr": "v",
+    "finance_accounting": "E",
+    "legal_compliance": "Z",
+    "science_engineering": "_",
+    "medical": "S",
+    "construction_trades": "w",
+    "other": "F"
   },
   {
-    "intern": "T",
-    "entry_level": "D",
-    "junior": "k",
-    "mid_level": "A",
-    "senior": "_",
-    "lead": "x",
-    "manager": "I",
-    "executive": "M"
+    "intern": "K",
+    "entry_level": "j",
+    "junior": "P",
+    "mid_level": "T",
+    "senior": "I",
+    "lead": "D",
+    "manager": "L",
+    "executive": "O"
   },
   {
     "onsite": {
-      "label": "B",
-      "description": "Y",
+      "label": "z",
+      "description": "U",
       "value": "onsite"
     },
     "remote": {
-      "label": "H",
-      "description": "W",
+      "label": "J",
+      "description": "V",
       "value": "remote"
     },
     "hybrid": {
-      "label": "U",
-      "description": "N",
+      "label": "B",
+      "description": "H",
       "value": "hybrid"
     }
   },
@@ -7472,6 +7472,10 @@
     "companyName": "",
     "employmentTypes": [],
     "industry": ""
+  },
+  {
+    "single_line": "singleline",
+    "format_inline": "format-inline"
   },
   {
     "full_time": "r",
@@ -8469,7 +8473,7 @@
   },
   {
     "fetchStatus": "$.ZP.NONE",
-    "config": "Ln"
+    "config": "Kn"
   },
   {
     "ConfirmationStep": "ConfirmationStep",
@@ -8930,6 +8934,66 @@
     "Live": "Live",
     "Sandbox": "Sandbox",
     "Test": "Test"
+  },
+  {
+    "DISABLED": "0",
+    "ENABLED": "10",
+    "SYNC_IN_PROGRESS": "20",
+    "SYNC_FAILED": "30"
+  },
+  {
+    "freshteam": "Freshteam",
+    "greenhouse": "Greenhouse",
+    "lever": "Lever",
+    "recruitee": "Recruitee",
+    "sage-hr": "Sage HR",
+    "sap-successfactors": "SAP SuccessFactors",
+    "teamtailor": "Teamtailor",
+    "workable": "Workable",
+    "workday": "Workday"
+  },
+  {
+    "software_engineering": "f",
+    "data_analytics": "m",
+    "product": "b",
+    "design": "y",
+    "marketing": "g",
+    "sales_am": "h",
+    "operations": "v",
+    "people_hr": "_",
+    "finance_accounting": "S",
+    "legal_compliance": "k",
+    "science_engineering": "Z",
+    "medical": "E",
+    "construction_trades": "C",
+    "other": "O"
+  },
+  {
+    "intern": "F",
+    "entry_level": "j",
+    "junior": "T",
+    "mid_level": "R",
+    "senior": "x",
+    "lead": "D",
+    "manager": "I",
+    "executive": "L"
+  },
+  {
+    "onsite": {
+      "label": "z",
+      "description": "U",
+      "value": "onsite"
+    },
+    "remote": {
+      "label": "B",
+      "description": "H",
+      "value": "remote"
+    },
+    "hybrid": {
+      "label": "M",
+      "description": "N",
+      "value": "hybrid"
+    }
   },
   {
     "FakeAccount": "fake_account",
@@ -9457,7 +9521,7 @@
   },
   {
     "1": "d",
-    "2": "u"
+    "2": "f"
   },
   {
     "annually": {
@@ -9465,7 +9529,7 @@
       "value": "1"
     },
     "hourly": {
-      "label": "u",
+      "label": "f",
       "value": "2"
     }
   },
@@ -9598,17 +9662,6 @@
     "REQUEST": "rweb/promotedContent/LOG_REQUEST",
     "SUCCESS": "rweb/promotedContent/LOG_SUCCESS",
     "FAILURE": "rweb/promotedContent/LOG_FAILURE"
-  },
-  {
-    "NEW": "NEW",
-    "INPROGRESS": "INPROGRESS",
-    "INPROGRESS_ASYNC": "INPROGRESS_ASYNC",
-    "ZIPPING": "ZIPPING",
-    "PUBLISHING": "PUBLISHING",
-    "NOTIFYING": "NOTIFYING",
-    "COMPLETE": "COMPLETED",
-    "FAILED": "FAILED",
-    "NONE": "NONE"
   },
   {
     "host": "host",
