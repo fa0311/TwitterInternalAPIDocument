@@ -7854,3 +7854,15 @@
 - rweb_session_binding_enabled<br>
 #### remove<br>
 - None<br>
+## 2026/01/09<br>
+### API<br>
+#### add<br>
+- RefreshWebSessionBind<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- subscriptions_premium_tiers_hide_basic_webview_paywall<br>
+- responsive_web_priority_ntab_min_followers<br>
+#### remove<br>
+- None<br>
