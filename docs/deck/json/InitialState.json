@@ -1483,6 +1483,9 @@
       "responsive_web_card_conversion_hoisted": {
         "value": "off"
       },
+      "responsive_web_card_image_poll_enabled": {
+        "value": "false"
+      },
       "responsive_web_card_preconnect_enabled": {
         "value": "false"
       },
@@ -5338,6 +5341,9 @@
         "responsive_web_card_conversion_hoisted": {
           "value": "off"
         },
+        "responsive_web_card_image_poll_enabled": {
+          "value": "false"
+        },
         "responsive_web_card_preconnect_enabled": {
           "value": "false"
         },
@@ -7818,7 +7824,7 @@
       "settingsVersion": "66fa29715f6eadacadae6140ad49e46c"
     },
     "debug": {},
-    "featureSetToken": "79f712d78fad6b88c73ca1a067eb9093252aad39",
+    "featureSetToken": "7b62755f74d31fa0a038a396d5092413389303e8",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -7887,7 +7893,7 @@
   },
   "session": {
     "country": "XX",
-    "guestId": "176825189659023791",
+    "guestId": "176833831985570336",
     "hasCommunityMemberships": "false",
     "isActiveCreator": "false",
     "isLoaded": "false",
