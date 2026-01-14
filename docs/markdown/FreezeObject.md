@@ -925,11 +925,13 @@ This document is entirely auto-generated and may contain errors.<br>
 | DMGif           | dm_gif                 |
 | Subtitles       | subtitles              |
 | ProfileBanner   | banner_image           |
+| CardImage       | card_image             |
 
 | constant        | value            |
 |:----------------|:-----------------|
 | Tweet           | tweet            |
 | Dm              | dm               |
+| ImagePollCard   | image_poll_card  |
 | CommunityBanner | community_banner |
 | ListBanner      | list_banner      |
 | ProfileBanner   | profile_banner   |
@@ -3622,6 +3624,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | pollChoices      | void 0  |
 | pollDuration     | void 0  |
 | pollValid        | False   |
+| pollChoiceImages | void 0  |
 | scheduledFor     | void 0  |
 | scheduledTweetId | void 0  |
 | draftTweetId     | void 0  |
@@ -4871,12 +4874,12 @@ This document is entirely auto-generated and may contain errors.<br>
 
 |   constant | value   |
 |-----------:|:--------|
-|          1 | c       |
+|          1 | d       |
 |          2 | u       |
 
 | constant   | value                        |
 |:-----------|:-----------------------------|
-| annually   | {'label': 'c', 'value': '1'} |
+| annually   | {'label': 'd', 'value': '1'} |
 | hourly     | {'label': 'u', 'value': '2'} |
 
 | constant   | value    |
@@ -5662,8 +5665,8 @@ This document is entirely auto-generated and may contain errors.<br>
 | constant   | value   |
 |:-----------|:--------|
 | SENSITIVE  | w       |
-| BLOCKED    | O       |
-| BLOCKED_BY | S       |
+| BLOCKED    | S       |
+| BLOCKED_BY | O       |
 
 | constant             | value     |
 |:---------------------|:----------|
@@ -5887,7 +5890,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | constant   | value   |
 |:-----------|:--------|
 | MARKDOWN   | En      |
-| PREVIEW    | wn      |
+| PREVIEW    | _n      |
 
 | constant    | value       |
 |:------------|:------------|
@@ -5958,15 +5961,15 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant                  | value                                   |
 |:--------------------------|:----------------------------------------|
-| all                       | {'icon': 'Wr', 'label': 'I().i8ea6d4e'} |
-| community                 | {'icon': 'Gr', 'label': 'I().a176d0d8'} |
-| by_invitation             | {'icon': 'Hr', 'label': 'I().gc7e52ca'} |
-| subscribers               | {'icon': 'Wr', 'label': 'I().feb7560a'} |
-| community_members         | {'icon': 'Kr', 'label': 'I().h257006e'} |
-| super_followers_exclusive | {'icon': 'Wr', 'label': 'I().ebe1d850'} |
-| trusted_friends_tweet     | {'icon': 'qr', 'label': 'm'}            |
-| verified                  | {'icon': '$r', 'label': 'I().b121464a'} |
-| premium                   | {'icon': '$r', 'label': 'I().e69ada9e'} |
+| all                       | {'icon': 'so', 'label': 'D().i8ea6d4e'} |
+| community                 | {'icon': 'co', 'label': 'D().a176d0d8'} |
+| by_invitation             | {'icon': 'lo', 'label': 'D().gc7e52ca'} |
+| subscribers               | {'icon': 'so', 'label': 'D().feb7560a'} |
+| community_members         | {'icon': 'uo', 'label': 'D().h257006e'} |
+| super_followers_exclusive | {'icon': 'so', 'label': 'D().ebe1d850'} |
+| trusted_friends_tweet     | {'icon': 'po', 'label': 'p'}            |
+| verified                  | {'icon': 'mo', 'label': 'D().b121464a'} |
+| premium                   | {'icon': 'mo', 'label': 'D().e69ada9e'} |
 
 | constant   | value   |
 |:-----------|:--------|
@@ -6016,35 +6019,35 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant   | value                                                    |
 |:-----------|:---------------------------------------------------------|
-| AU         | ()(0,o.ju)                                               |
-| BR         | ("https://legal.x.com/ads-terms/apac.html")(0,o.ju)      |
-| GB         | ("https://legal.x.com/ads-terms/brazil.html")(0,o.ju)    |
-| ID         | ("https://legal.x.com/ads-terms/uk.html")(0,o.ju)        |
-| JP         | ("https://legal.x.com/ads-terms/indonesia.html")(0,o.ju) |
-| NZ         | ("https://legal.x.com/ads-terms/japan.html")(0,o.ju)     |
-| US         | ("https://legal.x.com/ads-terms/apac.html")(0,o.ju)      |
+| AU         | ()(0,a.ju)                                               |
+| BR         | ("https://legal.x.com/ads-terms/apac.html")(0,a.ju)      |
+| GB         | ("https://legal.x.com/ads-terms/brazil.html")(0,a.ju)    |
+| ID         | ("https://legal.x.com/ads-terms/uk.html")(0,a.ju)        |
+| JP         | ("https://legal.x.com/ads-terms/indonesia.html")(0,a.ju) |
+| NZ         | ("https://legal.x.com/ads-terms/japan.html")(0,a.ju)     |
+| US         | ("https://legal.x.com/ads-terms/apac.html")(0,a.ju)      |
 
 | constant   | value                                                                                      |
 |:-----------|:-------------------------------------------------------------------------------------------|
-| en         | ()(0,o.ju)                                                                                 |
-| de         | ("https://business.x.com/en/campaign/quick-promote-conditional-coupon-terms.html")(0,o.ju) |
-| es         | ("https://business.x.com/de/campaign/quick-promote-conditional-coupon-terms.html")(0,o.ju) |
-| fr         | ("https://business.x.com/es/campaign/quick-promote-conditional-coupon-terms.html")(0,o.ju) |
-| ja         | ("https://business.x.com/fr/campaign/quick-promote-conditional-coupon-terms.html")(0,o.ju) |
-| pt         | ("https://business.x.com/ja/campaign/quick-promote-conditional-coupon-terms.html")(0,o.ju) |
-| ar         | ("https://business.x.com/pt/campaign/quick-promote-conditional-coupon-terms.html")(0,o.ju) |
-| zh-cn      | ("https://business.x.com/ar/campaign/quick-promote-conditional-coupon-terms.html")(0,o.ju) |
+| en         | ()(0,a.ju)                                                                                 |
+| de         | ("https://business.x.com/en/campaign/quick-promote-conditional-coupon-terms.html")(0,a.ju) |
+| es         | ("https://business.x.com/de/campaign/quick-promote-conditional-coupon-terms.html")(0,a.ju) |
+| fr         | ("https://business.x.com/es/campaign/quick-promote-conditional-coupon-terms.html")(0,a.ju) |
+| ja         | ("https://business.x.com/fr/campaign/quick-promote-conditional-coupon-terms.html")(0,a.ju) |
+| pt         | ("https://business.x.com/ja/campaign/quick-promote-conditional-coupon-terms.html")(0,a.ju) |
+| ar         | ("https://business.x.com/pt/campaign/quick-promote-conditional-coupon-terms.html")(0,a.ju) |
+| zh-cn      | ("https://business.x.com/ar/campaign/quick-promote-conditional-coupon-terms.html")(0,a.ju) |
 
 | constant   | value                                                                          |
 |:-----------|:-------------------------------------------------------------------------------|
-| en         | ()(0,o.ju)                                                                     |
-| de         | ("https://business.x.com/en/campaign/quick-promote-coupon-terms.html")(0,o.ju) |
-| es         | ("https://business.x.com/de/campaign/quick-promote-coupon-terms.html")(0,o.ju) |
-| fr         | ("https://business.x.com/es/campaign/quick-promote-coupon-terms.html")(0,o.ju) |
-| ja         | ("https://business.x.com/fr/campaign/quick-promote-coupon-terms.html")(0,o.ju) |
-| pt         | ("https://business.x.com/ja/campaign/quick-promote-coupon-terms.html")(0,o.ju) |
-| ar         | ("https://business.x.com/pt/campaign/quick-promote-coupon-terms.html")(0,o.ju) |
-| zh-cn      | ("https://business.x.com/ar/campaign/quick-promote-coupon-terms.html")(0,o.ju) |
+| en         | ()(0,a.ju)                                                                     |
+| de         | ("https://business.x.com/en/campaign/quick-promote-coupon-terms.html")(0,a.ju) |
+| es         | ("https://business.x.com/de/campaign/quick-promote-coupon-terms.html")(0,a.ju) |
+| fr         | ("https://business.x.com/es/campaign/quick-promote-coupon-terms.html")(0,a.ju) |
+| ja         | ("https://business.x.com/fr/campaign/quick-promote-coupon-terms.html")(0,a.ju) |
+| pt         | ("https://business.x.com/ja/campaign/quick-promote-coupon-terms.html")(0,a.ju) |
+| ar         | ("https://business.x.com/pt/campaign/quick-promote-coupon-terms.html")(0,a.ju) |
+| zh-cn      | ("https://business.x.com/ar/campaign/quick-promote-coupon-terms.html")(0,a.ju) |
 
 | constant       | value          |
 |:---------------|:---------------|
@@ -6495,18 +6498,6 @@ This document is entirely auto-generated and may contain errors.<br>
 | PendingFollowUser | PendingFollowUser |
 | SubscribableUser  | SubscribableUser  |
 
-| constant                  | value                     |
-|:--------------------------|:--------------------------|
-| AcceptAllCookies          | acceptAllCookies          |
-| RefuseNonEssentialCookies | refuseNonEssentialCookies |
-| Invalid                   | invalid                   |
-| NotSet                    | notSet                    |
-
-| constant   | value   |
-|:-----------|:--------|
-| Country    | Country |
-| Region     | Region  |
-
 | constant         | value            |
 |:-----------------|:-----------------|
 | NEW              | NEW              |
@@ -6518,6 +6509,18 @@ This document is entirely auto-generated and may contain errors.<br>
 | COMPLETE         | COMPLETED        |
 | FAILED           | FAILED           |
 | NONE             | NONE             |
+
+| constant                  | value                     |
+|:--------------------------|:--------------------------|
+| AcceptAllCookies          | acceptAllCookies          |
+| RefuseNonEssentialCookies | refuseNonEssentialCookies |
+| Invalid                   | invalid                   |
+| NotSet                    | notSet                    |
+
+| constant   | value   |
+|:-----------|:--------|
+| Country    | Country |
+| Region     | Region  |
 
 | constant   | value                                         |
 |:-----------|:----------------------------------------------|
@@ -8852,7 +8855,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | constant    | value     |
 |:------------|:----------|
 | fetchStatus | $.ZP.NONE |
-| config      | Ln        |
+| config      | Kn        |
 
 | constant              | value                 |
 |:----------------------|:----------------------|
@@ -9377,8 +9380,8 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant             | value   |
 |:---------------------|:--------|
-| software_engineering | m       |
-| data_analytics       | f       |
+| software_engineering | f       |
+| data_analytics       | m       |
 | product              | b       |
 | design               | y       |
 | marketing            | g       |
@@ -10013,12 +10016,12 @@ This document is entirely auto-generated and may contain errors.<br>
 |   constant | value   |
 |-----------:|:--------|
 |          1 | d       |
-|          2 | u       |
+|          2 | f       |
 
 | constant   | value                        |
 |:-----------|:-----------------------------|
 | annually   | {'label': 'd', 'value': '1'} |
-| hourly     | {'label': 'u', 'value': '2'} |
+| hourly     | {'label': 'f', 'value': '2'} |
 
 | constant      | value         |
 |:--------------|:--------------|
@@ -10168,18 +10171,6 @@ This document is entirely auto-generated and may contain errors.<br>
 | REQUEST    | rweb/promotedContent/LOG_REQUEST |
 | SUCCESS    | rweb/promotedContent/LOG_SUCCESS |
 | FAILURE    | rweb/promotedContent/LOG_FAILURE |
-
-| constant         | value            |
-|:-----------------|:-----------------|
-| NEW              | NEW              |
-| INPROGRESS       | INPROGRESS       |
-| INPROGRESS_ASYNC | INPROGRESS_ASYNC |
-| ZIPPING          | ZIPPING          |
-| PUBLISHING       | PUBLISHING       |
-| NOTIFYING        | NOTIFYING        |
-| COMPLETE         | COMPLETED        |
-| FAILED           | FAILED           |
-| NONE             | NONE             |
 
 | constant   | value    |
 |:-----------|:---------|
@@ -10493,7 +10484,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant        | value      |
 |:----------------|:-----------|
-| fetchStatus     | Re.ZP.NONE |
+| fetchStatus     | je.ZP.NONE |
 | mobileViewCount | 0          |
 
 | constant   | value        |
