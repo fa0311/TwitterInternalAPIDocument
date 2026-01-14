@@ -1468,6 +1468,9 @@
       "responsive_web_birdwatch_site_enabled": {
         "value": "true"
       },
+      "responsive_web_birdwatch_suggestion_writer_impact_cutoff": {
+        "value": "2"
+      },
       "responsive_web_birdwatch_top_contributor_enabled": {
         "value": "true"
       },
@@ -1928,6 +1931,9 @@
         "value": "false"
       },
       "responsive_web_home_pinned_timelines_prefetch_enabled": {
+        "value": "false"
+      },
+      "responsive_web_image_poll_composer_enabled": {
         "value": "false"
       },
       "responsive_web_impression_tracker_refactor_enabled": {
@@ -5326,6 +5332,9 @@
         "responsive_web_birdwatch_site_enabled": {
           "value": "true"
         },
+        "responsive_web_birdwatch_suggestion_writer_impact_cutoff": {
+          "value": "2"
+        },
         "responsive_web_birdwatch_top_contributor_enabled": {
           "value": "true"
         },
@@ -5786,6 +5795,9 @@
           "value": "false"
         },
         "responsive_web_home_pinned_timelines_prefetch_enabled": {
+          "value": "false"
+        },
+        "responsive_web_image_poll_composer_enabled": {
           "value": "false"
         },
         "responsive_web_impression_tracker_refactor_enabled": {
@@ -7824,7 +7836,7 @@
       "settingsVersion": "66fa29715f6eadacadae6140ad49e46c"
     },
     "debug": {},
-    "featureSetToken": "7b62755f74d31fa0a038a396d5092413389303e8",
+    "featureSetToken": "cf6d4a8a9657d0dba7766a2f40f0eb7a8d71a2f4",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -7858,7 +7870,8 @@
     "transient": {
       "loginPromptShown": "false",
       "lastViewedDmInboxPath": "/messages",
-      "themeFocus": ""
+      "themeFocus": "null",
+      "notificationsType": "null"
     }
   },
   "devices": {
@@ -7893,7 +7906,7 @@
   },
   "session": {
     "country": "XX",
-    "guestId": "176833813767466674",
+    "guestId": "176842453332413114",
     "hasCommunityMemberships": "false",
     "isActiveCreator": "false",
     "isLoaded": "false",
