@@ -912,11 +912,13 @@
     "DMVideo": "dm_video",
     "DMGif": "dm_gif",
     "Subtitles": "subtitles",
-    "ProfileBanner": "banner_image"
+    "ProfileBanner": "banner_image",
+    "CardImage": "card_image"
   },
   {
     "Tweet": "tweet",
     "Dm": "dm",
+    "ImagePollCard": "image_poll_card",
     "CommunityBanner": "community_banner",
     "ListBanner": "list_banner",
     "ProfileBanner": "profile_banner",
@@ -3533,6 +3535,7 @@
     "pollChoices": "void 0",
     "pollDuration": "void 0",
     "pollValid": "!1",
+    "pollChoiceImages": "void 0",
     "scheduledFor": "void 0",
     "scheduledTweetId": "void 0",
     "draftTweetId": "void 0",
@@ -4702,12 +4705,12 @@
     "contract_to_hire": "s"
   },
   {
-    "1": "c",
+    "1": "d",
     "2": "u"
   },
   {
     "annually": {
-      "label": "c",
+      "label": "d",
       "value": "1"
     },
     "hourly": {
@@ -5478,8 +5481,8 @@
   },
   {
     "SENSITIVE": "w",
-    "BLOCKED": "O",
-    "BLOCKED_BY": "S"
+    "BLOCKED": "S",
+    "BLOCKED_BY": "O"
   },
   {
     "BROADCAST_MEDIA_TYPE": "broadcast",
@@ -5672,7 +5675,7 @@
   },
   {
     "MARKDOWN": "En",
-    "PREVIEW": "wn"
+    "PREVIEW": "_n"
   },
   {
     "Public": "Public",
@@ -5755,40 +5758,40 @@
   },
   {
     "all": {
-      "icon": "Wr",
-      "label": "I().i8ea6d4e"
+      "icon": "so",
+      "label": "D().i8ea6d4e"
     },
     "community": {
-      "icon": "Gr",
-      "label": "I().a176d0d8"
+      "icon": "co",
+      "label": "D().a176d0d8"
     },
     "by_invitation": {
-      "icon": "Hr",
-      "label": "I().gc7e52ca"
+      "icon": "lo",
+      "label": "D().gc7e52ca"
     },
     "subscribers": {
-      "icon": "Wr",
-      "label": "I().feb7560a"
+      "icon": "so",
+      "label": "D().feb7560a"
     },
     "community_members": {
-      "icon": "Kr",
-      "label": "I().h257006e"
+      "icon": "uo",
+      "label": "D().h257006e"
     },
     "super_followers_exclusive": {
-      "icon": "Wr",
-      "label": "I().ebe1d850"
+      "icon": "so",
+      "label": "D().ebe1d850"
     },
     "trusted_friends_tweet": {
-      "icon": "qr",
-      "label": "m"
+      "icon": "po",
+      "label": "p"
     },
     "verified": {
-      "icon": "$r",
-      "label": "I().b121464a"
+      "icon": "mo",
+      "label": "D().b121464a"
     },
     "premium": {
-      "icon": "$r",
-      "label": "I().e69ada9e"
+      "icon": "mo",
+      "label": "D().e69ada9e"
     }
   },
   {
@@ -5832,33 +5835,33 @@
     "NoMatch": "noMatch"
   },
   {
-    "AU": "()(0,o.ju)",
-    "BR": "(\"https://legal.x.com/ads-terms/apac.html\")(0,o.ju)",
-    "GB": "(\"https://legal.x.com/ads-terms/brazil.html\")(0,o.ju)",
-    "ID": "(\"https://legal.x.com/ads-terms/uk.html\")(0,o.ju)",
-    "JP": "(\"https://legal.x.com/ads-terms/indonesia.html\")(0,o.ju)",
-    "NZ": "(\"https://legal.x.com/ads-terms/japan.html\")(0,o.ju)",
-    "US": "(\"https://legal.x.com/ads-terms/apac.html\")(0,o.ju)"
+    "AU": "()(0,a.ju)",
+    "BR": "(\"https://legal.x.com/ads-terms/apac.html\")(0,a.ju)",
+    "GB": "(\"https://legal.x.com/ads-terms/brazil.html\")(0,a.ju)",
+    "ID": "(\"https://legal.x.com/ads-terms/uk.html\")(0,a.ju)",
+    "JP": "(\"https://legal.x.com/ads-terms/indonesia.html\")(0,a.ju)",
+    "NZ": "(\"https://legal.x.com/ads-terms/japan.html\")(0,a.ju)",
+    "US": "(\"https://legal.x.com/ads-terms/apac.html\")(0,a.ju)"
   },
   {
-    "en": "()(0,o.ju)",
-    "de": "(\"https://business.x.com/en/campaign/quick-promote-conditional-coupon-terms.html\")(0,o.ju)",
-    "es": "(\"https://business.x.com/de/campaign/quick-promote-conditional-coupon-terms.html\")(0,o.ju)",
-    "fr": "(\"https://business.x.com/es/campaign/quick-promote-conditional-coupon-terms.html\")(0,o.ju)",
-    "ja": "(\"https://business.x.com/fr/campaign/quick-promote-conditional-coupon-terms.html\")(0,o.ju)",
-    "pt": "(\"https://business.x.com/ja/campaign/quick-promote-conditional-coupon-terms.html\")(0,o.ju)",
-    "ar": "(\"https://business.x.com/pt/campaign/quick-promote-conditional-coupon-terms.html\")(0,o.ju)",
-    "zh-cn": "(\"https://business.x.com/ar/campaign/quick-promote-conditional-coupon-terms.html\")(0,o.ju)"
+    "en": "()(0,a.ju)",
+    "de": "(\"https://business.x.com/en/campaign/quick-promote-conditional-coupon-terms.html\")(0,a.ju)",
+    "es": "(\"https://business.x.com/de/campaign/quick-promote-conditional-coupon-terms.html\")(0,a.ju)",
+    "fr": "(\"https://business.x.com/es/campaign/quick-promote-conditional-coupon-terms.html\")(0,a.ju)",
+    "ja": "(\"https://business.x.com/fr/campaign/quick-promote-conditional-coupon-terms.html\")(0,a.ju)",
+    "pt": "(\"https://business.x.com/ja/campaign/quick-promote-conditional-coupon-terms.html\")(0,a.ju)",
+    "ar": "(\"https://business.x.com/pt/campaign/quick-promote-conditional-coupon-terms.html\")(0,a.ju)",
+    "zh-cn": "(\"https://business.x.com/ar/campaign/quick-promote-conditional-coupon-terms.html\")(0,a.ju)"
   },
   {
-    "en": "()(0,o.ju)",
-    "de": "(\"https://business.x.com/en/campaign/quick-promote-coupon-terms.html\")(0,o.ju)",
-    "es": "(\"https://business.x.com/de/campaign/quick-promote-coupon-terms.html\")(0,o.ju)",
-    "fr": "(\"https://business.x.com/es/campaign/quick-promote-coupon-terms.html\")(0,o.ju)",
-    "ja": "(\"https://business.x.com/fr/campaign/quick-promote-coupon-terms.html\")(0,o.ju)",
-    "pt": "(\"https://business.x.com/ja/campaign/quick-promote-coupon-terms.html\")(0,o.ju)",
-    "ar": "(\"https://business.x.com/pt/campaign/quick-promote-coupon-terms.html\")(0,o.ju)",
-    "zh-cn": "(\"https://business.x.com/ar/campaign/quick-promote-coupon-terms.html\")(0,o.ju)"
+    "en": "()(0,a.ju)",
+    "de": "(\"https://business.x.com/en/campaign/quick-promote-coupon-terms.html\")(0,a.ju)",
+    "es": "(\"https://business.x.com/de/campaign/quick-promote-coupon-terms.html\")(0,a.ju)",
+    "fr": "(\"https://business.x.com/es/campaign/quick-promote-coupon-terms.html\")(0,a.ju)",
+    "ja": "(\"https://business.x.com/fr/campaign/quick-promote-coupon-terms.html\")(0,a.ju)",
+    "pt": "(\"https://business.x.com/ja/campaign/quick-promote-coupon-terms.html\")(0,a.ju)",
+    "ar": "(\"https://business.x.com/pt/campaign/quick-promote-coupon-terms.html\")(0,a.ju)",
+    "zh-cn": "(\"https://business.x.com/ar/campaign/quick-promote-coupon-terms.html\")(0,a.ju)"
   },
   {
     "TWEET_CARET": "tweet_caret",
@@ -5991,7 +5994,7 @@
       "aria-live": "polite"
     }
   },
-  "{\"ActionsBar\":\"E.Z\",\"ActionMenu\":\"function()\"{\"var t=e.Icon\",n=e.isDisabled,r=e.items,o=e.onOpen,\"i=l.useCallback()\"{\"return l.createElement()\"{\"items\":\"r\",\"onCloseRequested\":\"e\"}}{\"Icon\":\"t\",\"isDisabled\":\"n\",\"onClick\":\"o\",\"renderActionMenu\":\"i\"}},\"CallToAction\":\"c.ZP\",\"EditCallout\":\"T.Z\",\"Education\":\"k.Z\",\"HighlightedUserLabel\":\"p.Z\",\"Media\":\"S.Z\",\"Place\":\"s.ZP\",\"PromotedDetails\":\"f.Z\",\"PromotedUserProfileCard\":\"A\",\"ReplyContext\":\"R.ZP\",\"RichContent\":\"M.Z\",\"SocialContext\":\"b.Z\",\"Text\":\"L.Z\",\"Tombstone\":\"y.Z\",\"Timestamp\":\"v.Z\",\"UserAvatar\":\"F.Z\",\"UserFollowIndicator\":\"U.Z\",\"UserName\":\"j.Z\",\"ArticleCard\":\"Z.Z\"}",
+  "{\"ActionsBar\":\"E.Z\",\"ActionMenu\":\"function()\"{\"var t=e.Icon\",n=e.isDisabled,r=e.items,o=e.onOpen,\"i=l.useCallback()\"{\"return l.createElement()\"{\"items\":\"r\",\"onCloseRequested\":\"e\"}}{\"Icon\":\"t\",\"isDisabled\":\"n\",\"onClick\":\"o\",\"renderActionMenu\":\"i\"}},\"CallToAction\":\"c.ZP\",\"EditCallout\":\"T.Z\",\"Education\":\"k.Z\",\"HighlightedUserLabel\":\"p.Z\",\"Media\":\"S.Z\",\"Place\":\"s.ZP\",\"PromotedDetails\":\"f.Z\",\"PromotedUserProfileCard\":\"A\",\"ReplyContext\":\"R.ZP\",\"RichContent\":\"M.Z\",\"SocialContext\":\"g.Z\",\"Text\":\"L.Z\",\"Tombstone\":\"y.Z\",\"Timestamp\":\"v.Z\",\"UserAvatar\":\"F.Z\",\"UserFollowIndicator\":\"U.Z\",\"UserName\":\"j.Z\",\"ArticleCard\":\"Z.Z\"}",
   {
     "X_BACKEND": "X_BACKEND",
     "IN_PROGRESS": "MIGRATION_IN_PROGRESS",
@@ -6319,16 +6322,6 @@
     "SubscribableUser": "SubscribableUser"
   },
   {
-    "AcceptAllCookies": "acceptAllCookies",
-    "RefuseNonEssentialCookies": "refuseNonEssentialCookies",
-    "Invalid": "invalid",
-    "NotSet": "notSet"
-  },
-  {
-    "Country": "Country",
-    "Region": "Region"
-  },
-  {
     "NEW": "NEW",
     "INPROGRESS": "INPROGRESS",
     "INPROGRESS_ASYNC": "INPROGRESS_ASYNC",
@@ -6338,6 +6331,16 @@
     "COMPLETE": "COMPLETED",
     "FAILED": "FAILED",
     "NONE": "NONE"
+  },
+  {
+    "AcceptAllCookies": "acceptAllCookies",
+    "RefuseNonEssentialCookies": "refuseNonEssentialCookies",
+    "Invalid": "invalid",
+    "NotSet": "notSet"
+  },
+  {
+    "Country": "Country",
+    "Region": "Region"
   },
   {
     "REQUEST": "rweb/accountVerification/FETCH_ACCESS_REQUEST",
@@ -8475,7 +8478,7 @@
   },
   {
     "fetchStatus": "$.ZP.NONE",
-    "config": "Ln"
+    "config": "Kn"
   },
   {
     "ConfirmationStep": "ConfirmationStep",
@@ -8696,7 +8699,7 @@
     "SUCCESS": "rweb/directMessages/SEARCH_SUCCESS",
     "FAILURE": "rweb/directMessages/SEARCH_FAILURE"
   },
-  "{\"ActionsBar\":\"_.Z\",\"ActionMenu\":\"function()\"{\"var t=e.Icon\",n=e.isDisabled,r=e.items,o=e.onOpen,\"i=l.useCallback()\"{\"return l.createElement()\"{\"items\":\"r\",\"onCloseRequested\":\"e\"}}{\"Icon\":\"t\",\"isDisabled\":\"n\",\"onClick\":\"o\",\"renderActionMenu\":\"i\"}},\"CallToAction\":\"c.ZP\",\"EditCallout\":\"E.Z\",\"Education\":\"Z.Z\",\"HighlightedUserLabel\":\"m.Z\",\"Media\":\"S.Z\",\"Place\":\"s.ZP\",\"PromotedDetails\":\"f.Z\",\"PromotedUserProfileCard\":\"F\",\"ReplyContext\":\"L.ZP\",\"RichContent\":\"O.Z\",\"SocialContext\":\"b.Z\",\"Text\":\"D.Z\",\"Tombstone\":\"y.Z\",\"Timestamp\":\"h.Z\",\"UserAvatar\":\"M.Z\",\"UserFollowIndicator\":\"N.Z\",\"UserName\":\"U.Z\",\"ArticleCard\":\"T.Z\"}",
+  "{\"ActionsBar\":\"_.Z\",\"ActionMenu\":\"function()\"{\"var t=e.Icon\",n=e.isDisabled,r=e.items,o=e.onOpen,\"i=l.useCallback()\"{\"return l.createElement()\"{\"items\":\"r\",\"onCloseRequested\":\"e\"}}{\"Icon\":\"t\",\"isDisabled\":\"n\",\"onClick\":\"o\",\"renderActionMenu\":\"i\"}},\"CallToAction\":\"c.ZP\",\"EditCallout\":\"E.Z\",\"Education\":\"Z.Z\",\"HighlightedUserLabel\":\"m.Z\",\"Media\":\"S.Z\",\"Place\":\"s.ZP\",\"PromotedDetails\":\"f.Z\",\"PromotedUserProfileCard\":\"F\",\"ReplyContext\":\"L.ZP\",\"RichContent\":\"O.Z\",\"SocialContext\":\"g.Z\",\"Text\":\"D.Z\",\"Tombstone\":\"y.Z\",\"Timestamp\":\"h.Z\",\"UserAvatar\":\"M.Z\",\"UserFollowIndicator\":\"N.Z\",\"UserName\":\"U.Z\",\"ArticleCard\":\"T.Z\"}",
   {
     "AcceptAllCookies": "acceptAllCookies",
     "RefuseNonEssentialCookies": "refuseNonEssentialCookies",
@@ -8955,8 +8958,8 @@
     "workday": "Workday"
   },
   {
-    "software_engineering": "m",
-    "data_analytics": "f",
+    "software_engineering": "f",
+    "data_analytics": "m",
     "product": "b",
     "design": "y",
     "marketing": "g",
@@ -9523,7 +9526,7 @@
   },
   {
     "1": "d",
-    "2": "u"
+    "2": "f"
   },
   {
     "annually": {
@@ -9531,7 +9534,7 @@
       "value": "1"
     },
     "hourly": {
-      "label": "u",
+      "label": "f",
       "value": "2"
     }
   },
@@ -9664,17 +9667,6 @@
     "REQUEST": "rweb/promotedContent/LOG_REQUEST",
     "SUCCESS": "rweb/promotedContent/LOG_SUCCESS",
     "FAILURE": "rweb/promotedContent/LOG_FAILURE"
-  },
-  {
-    "NEW": "NEW",
-    "INPROGRESS": "INPROGRESS",
-    "INPROGRESS_ASYNC": "INPROGRESS_ASYNC",
-    "ZIPPING": "ZIPPING",
-    "PUBLISHING": "PUBLISHING",
-    "NOTIFYING": "NOTIFYING",
-    "COMPLETE": "COMPLETED",
-    "FAILED": "FAILED",
-    "NONE": "NONE"
   },
   {
     "host": "host",
@@ -9949,7 +9941,7 @@
     "SETTINGS_LOADED": "rweb/immersiveViewer/SETTINGS_LOADED"
   },
   {
-    "fetchStatus": "Re.ZP.NONE",
+    "fetchStatus": "je.ZP.NONE",
     "mobileViewCount": "0"
   },
   {
