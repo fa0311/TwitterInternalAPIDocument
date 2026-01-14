@@ -7866,3 +7866,14 @@
 - responsive_web_priority_ntab_min_followers<br>
 #### remove<br>
 - None<br>
+## 2026/01/13<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- responsive_web_card_image_poll_enabled<br>
+#### remove<br>
+- None<br>
