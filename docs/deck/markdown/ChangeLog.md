@@ -6963,3 +6963,17 @@
 - responsive_web_image_poll_composer_enabled<br>
 #### remove<br>
 - None<br>
+## 2026/01/15<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- content_disclosure_creation_enabled<br>
+- content_disclosure_indicator_enabled<br>
+- rweb_quick_promote_action_menu_enabled<br>
+- subscriptions_management_tier_switch_polling_enabled<br>
+#### remove<br>
+- None<br>
