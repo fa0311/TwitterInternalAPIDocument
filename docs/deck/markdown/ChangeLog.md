@@ -6977,3 +6977,14 @@
 - subscriptions_management_tier_switch_polling_enabled<br>
 #### remove<br>
 - None<br>
+## 2026/01/16<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- premium_paywall_on_app_load_min_account_age_days<br>
+#### remove<br>
+- None<br>
