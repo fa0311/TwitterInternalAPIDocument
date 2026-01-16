@@ -1216,6 +1216,9 @@
       "premium_paywall_on_app_load_fatigue_version": {
         "value": "1"
       },
+      "premium_paywall_on_app_load_min_account_age_days": {
+        "value": "60"
+      },
       "premium_webview_paywall_force_premium_tier_enabled": {
         "value": "false"
       },
@@ -3256,7 +3259,7 @@
         "value": "false"
       },
       "subscriptions_upsells_reply_boost_popup_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "subscriptions_upsells_reply_boost_variant": {
         "value": ""
@@ -5091,6 +5094,9 @@
         },
         "premium_paywall_on_app_load_fatigue_version": {
           "value": "1"
+        },
+        "premium_paywall_on_app_load_min_account_age_days": {
+          "value": "60"
         },
         "premium_webview_paywall_force_premium_tier_enabled": {
           "value": "false"
@@ -7857,10 +7863,10 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "0611ba8786cd4a24cbf65990551182a2"
+      "settingsVersion": "66fa29715f6eadacadae6140ad49e46c"
     },
     "debug": {},
-    "featureSetToken": "d4ca6e9c88c946f8358039e86dfbc67b284b8402",
+    "featureSetToken": "b3578b8f73ba6d281299f631222838608b34eccc",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -7930,7 +7936,7 @@
   },
   "session": {
     "country": "XX",
-    "guestId": "176851094836792098",
+    "guestId": "176859733608458590",
     "hasCommunityMemberships": "false",
     "isActiveCreator": "false",
     "isLoaded": "false",
