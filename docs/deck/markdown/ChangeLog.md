@@ -6988,3 +6988,16 @@
 - premium_paywall_on_app_load_min_account_age_days<br>
 #### remove<br>
 - None<br>
+## 2026/01/20<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- subscriptions_upsells_articles_profile_promo_variant_enabled<br>
+- subscriptions_upsells_edit_post_promo_variant_enabled<br>
+- subscriptions_upsells_highlights_profile_promo_variant_enabled<br>
+#### remove<br>
+- None<br>
