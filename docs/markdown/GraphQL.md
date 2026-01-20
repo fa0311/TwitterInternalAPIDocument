@@ -4349,7 +4349,7 @@ Login Required: `...`<br>
 #### features<br>
 | key                               | type    | variable   |
 |:----------------------------------|:--------|:-----------|
-| subscriptions_upsells_api_enabled | boolean | True       |
+| subscriptions_upsells_api_enabled | boolean | False      |
 
 #### queryId<br>
 `None`<br>
@@ -5044,7 +5044,7 @@ Login Required: `...`<br>
 #### features<br>
 | key                                                               | type    | variable   |
 |:------------------------------------------------------------------|:--------|:-----------|
-| subscriptions_upsells_api_enabled                                 | boolean | True       |
+| subscriptions_upsells_api_enabled                                 | boolean | False      |
 | profile_label_improvements_pcf_label_in_post_enabled              | boolean | True       |
 | responsive_web_profile_redirect_enabled                           | boolean | False      |
 | rweb_tipjar_consumption_enabled                                   | boolean | True       |
@@ -6340,6 +6340,25 @@ Login Required: `...`<br>
 `None`<br>
 #### features<br>
 `None`<br>
+#### queryId<br>
+`None`<br>
+## SidebarUserRecommendations<br>
+Request URL: `https://x.com/i/api/graphql/-Afl9E3-pBgYsJ3jNUWV3Q/SidebarUserRecommendations`<br>
+Request Method: `GET`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+| key                                                               | type    | variable   |
+|:------------------------------------------------------------------|:--------|:-----------|
+| profile_label_improvements_pcf_label_in_post_enabled              | boolean | True       |
+| responsive_web_profile_redirect_enabled                           | boolean | False      |
+| rweb_tipjar_consumption_enabled                                   | boolean | True       |
+| verified_phone_label_enabled                                      | boolean | False      |
+| responsive_web_graphql_skip_user_profile_image_extensions_enabled | boolean | False      |
+| responsive_web_graphql_timeline_navigation_enabled                | boolean | True       |
+
 #### queryId<br>
 `None`<br>
 ## NotificationsTimeline<br>
@@ -9053,25 +9072,6 @@ Login Required: `...`<br>
 `None`<br>
 #### features<br>
 `None`<br>
-#### queryId<br>
-`None`<br>
-## SidebarUserRecommendations<br>
-Request URL: `https://x.com/i/api/graphql/-Afl9E3-pBgYsJ3jNUWV3Q/SidebarUserRecommendations`<br>
-Request Method: `GET`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-| key                                                               | type    | variable   |
-|:------------------------------------------------------------------|:--------|:-----------|
-| profile_label_improvements_pcf_label_in_post_enabled              | boolean | True       |
-| responsive_web_profile_redirect_enabled                           | boolean | False      |
-| rweb_tipjar_consumption_enabled                                   | boolean | True       |
-| verified_phone_label_enabled                                      | boolean | False      |
-| responsive_web_graphql_skip_user_profile_image_extensions_enabled | boolean | False      |
-| responsive_web_graphql_timeline_navigation_enabled                | boolean | True       |
-
 #### queryId<br>
 `None`<br>
 ## ImmersiveMedia<br>
