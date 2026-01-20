@@ -3483,7 +3483,7 @@
       "queryId": "Sg3BvwapuCMIjLJ7LGPhMA",
       "method": "GET",
       "features": {
-        "subscriptions_upsells_api_enabled": true
+        "subscriptions_upsells_api_enabled": false
       }
     },
     "UrtFixtures": {
@@ -4061,7 +4061,7 @@
       "queryId": "178EtFdhcGqmoyzKL4muaA",
       "method": "GET",
       "features": {
-        "subscriptions_upsells_api_enabled": true,
+        "subscriptions_upsells_api_enabled": false,
         "profile_label_improvements_pcf_label_in_post_enabled": true,
         "responsive_web_profile_redirect_enabled": false,
         "rweb_tipjar_consumption_enabled": true,
@@ -4975,6 +4975,19 @@
       "method": "POST",
       "features": {}
     },
+    "SidebarUserRecommendations": {
+      "url": "https://x.com/i/api/graphql/-Afl9E3-pBgYsJ3jNUWV3Q/SidebarUserRecommendations",
+      "queryId": "-Afl9E3-pBgYsJ3jNUWV3Q",
+      "method": "GET",
+      "features": {
+        "profile_label_improvements_pcf_label_in_post_enabled": true,
+        "responsive_web_profile_redirect_enabled": false,
+        "rweb_tipjar_consumption_enabled": true,
+        "verified_phone_label_enabled": false,
+        "responsive_web_graphql_skip_user_profile_image_extensions_enabled": false,
+        "responsive_web_graphql_timeline_navigation_enabled": true
+      }
+    },
     "NotificationsTimeline": {
       "url": "https://x.com/i/api/graphql/c1Zz6Vb2QqYuFeafTqVjAQ/NotificationsTimeline",
       "queryId": "c1Zz6Vb2QqYuFeafTqVjAQ",
@@ -5528,19 +5541,6 @@
       "queryId": "qaIzg304L134B5-NI43j2A",
       "method": "POST",
       "features": {}
-    },
-    "SidebarUserRecommendations": {
-      "url": "https://x.com/i/api/graphql/-Afl9E3-pBgYsJ3jNUWV3Q/SidebarUserRecommendations",
-      "queryId": "-Afl9E3-pBgYsJ3jNUWV3Q",
-      "method": "GET",
-      "features": {
-        "profile_label_improvements_pcf_label_in_post_enabled": true,
-        "responsive_web_profile_redirect_enabled": false,
-        "rweb_tipjar_consumption_enabled": true,
-        "verified_phone_label_enabled": false,
-        "responsive_web_graphql_skip_user_profile_image_extensions_enabled": false,
-        "responsive_web_graphql_timeline_navigation_enabled": true
-      }
     },
     "ImmersiveMedia": {
       "url": "https://x.com/i/api/graphql/LKw8z8dtDcZ4y3mcOhwRPQ/ImmersiveMedia",
