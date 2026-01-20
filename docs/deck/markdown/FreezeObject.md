@@ -82,11 +82,6 @@ This document is entirely auto-generated and may contain errors.<br>
 | SUCCESS    | rweb/settings/profile/FETCH_VERIFIED_PHONE_LABEL_SUCCESS |
 | FAILURE    | rweb/settings/profile/FETCH_VERIFIED_PHONE_LABEL_FAILURE |
 
-| constant      | value         |
-|:--------------|:--------------|
-| single_line   | singleline    |
-| format_inline | format-inline |
-
 | constant   | value   |
 |:-----------|:--------|
 | IOS        | ios     |
