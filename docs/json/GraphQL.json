@@ -12695,7 +12695,7 @@
         "fieldToggles": [],
         "featureSwitch": {
           "subscriptions_upsells_api_enabled": {
-            "value": "true"
+            "value": "false"
           }
         }
       }
@@ -14855,7 +14855,7 @@
         ],
         "featureSwitch": {
           "subscriptions_upsells_api_enabled": {
-            "value": "true"
+            "value": "false"
           },
           "profile_label_improvements_pcf_label_in_post_enabled": {
             "value": "true"
@@ -17749,6 +17749,48 @@
         "featureSwitches": [],
         "fieldToggles": [],
         "featureSwitch": {}
+      }
+    }
+  },
+  {
+    "n": "01301",
+    "exports": {
+      "queryId": "-Afl9E3-pBgYsJ3jNUWV3Q",
+      "operationName": "SidebarUserRecommendations",
+      "operationType": "query",
+      "metadata": {
+        "featureSwitches": [
+          "profile_label_improvements_pcf_label_in_post_enabled",
+          "responsive_web_profile_redirect_enabled",
+          "rweb_tipjar_consumption_enabled",
+          "verified_phone_label_enabled",
+          "responsive_web_graphql_skip_user_profile_image_extensions_enabled",
+          "responsive_web_graphql_timeline_navigation_enabled"
+        ],
+        "fieldToggles": [
+          "withPayments",
+          "withAuxiliaryUserLabels"
+        ],
+        "featureSwitch": {
+          "profile_label_improvements_pcf_label_in_post_enabled": {
+            "value": "true"
+          },
+          "responsive_web_profile_redirect_enabled": {
+            "value": "false"
+          },
+          "rweb_tipjar_consumption_enabled": {
+            "value": "true"
+          },
+          "verified_phone_label_enabled": {
+            "value": "false"
+          },
+          "responsive_web_graphql_skip_user_profile_image_extensions_enabled": {
+            "value": "false"
+          },
+          "responsive_web_graphql_timeline_navigation_enabled": {
+            "value": "true"
+          }
+        }
       }
     }
   },
@@ -23401,48 +23443,6 @@
         "featureSwitches": [],
         "fieldToggles": [],
         "featureSwitch": {}
-      }
-    }
-  },
-  {
-    "n": "01301",
-    "exports": {
-      "queryId": "-Afl9E3-pBgYsJ3jNUWV3Q",
-      "operationName": "SidebarUserRecommendations",
-      "operationType": "query",
-      "metadata": {
-        "featureSwitches": [
-          "profile_label_improvements_pcf_label_in_post_enabled",
-          "responsive_web_profile_redirect_enabled",
-          "rweb_tipjar_consumption_enabled",
-          "verified_phone_label_enabled",
-          "responsive_web_graphql_skip_user_profile_image_extensions_enabled",
-          "responsive_web_graphql_timeline_navigation_enabled"
-        ],
-        "fieldToggles": [
-          "withPayments",
-          "withAuxiliaryUserLabels"
-        ],
-        "featureSwitch": {
-          "profile_label_improvements_pcf_label_in_post_enabled": {
-            "value": "true"
-          },
-          "responsive_web_profile_redirect_enabled": {
-            "value": "false"
-          },
-          "rweb_tipjar_consumption_enabled": {
-            "value": "true"
-          },
-          "verified_phone_label_enabled": {
-            "value": "false"
-          },
-          "responsive_web_graphql_skip_user_profile_image_extensions_enabled": {
-            "value": "false"
-          },
-          "responsive_web_graphql_timeline_navigation_enabled": {
-            "value": "true"
-          }
-        }
       }
     }
   },
