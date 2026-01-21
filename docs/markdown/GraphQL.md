@@ -5460,7 +5460,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## BirdwatchFetchContributorNotesSlice<br>
-Request URL: `https://x.com/i/api/graphql/9E5ejfd49WKFI4498lnXmw/BirdwatchFetchContributorNotesSlice`<br>
+Request URL: `https://x.com/i/api/graphql/-hu4qNmDcNYKxtvkDBO9mw/BirdwatchFetchContributorNotesSlice`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -5472,6 +5472,7 @@ Login Required: `...`<br>
 | responsive_web_birdwatch_media_notes_enabled                            | boolean | True       |
 | responsive_web_birdwatch_fast_notes_badge_enabled                       | boolean | False      |
 | responsive_web_birdwatch_url_notes_enabled                              | boolean | False      |
+| responsive_web_birdwatch_live_note_enabled                              | boolean | False      |
 | creator_subscriptions_tweet_preview_api_enabled                         | boolean | True       |
 | premium_content_api_read_enabled                                        | boolean | False      |
 | communities_web_enable_tweet_community_results_fetch                    | boolean | True       |
