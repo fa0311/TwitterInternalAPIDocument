@@ -6,19 +6,19 @@ This document is entirely auto-generated and may contain errors.<br>
 | assert             | f       |
 | requireNonNull     | A       |
 | requireInstance    | d       |
-| abstractMethodFail | v       |
+| abstractMethodFail | g       |
 
 ```internal process
 # Error
-{"name":"i","oprf":"x","voprf":"q","poprf":t=>{"const i=h()",e=n.BASE.multiply(A\"Info\",t,f);return{"generateKeyPair":"m","deriveKeyPair":()=>y(t,i),"blind(f,t,i)"{"const h=n.fromBytes()",_=e.add(i);if(h)throw new Error(_.equalsn.ZERO);const o=u(\"tweakedKey point at infinity\"),c=a(r);if(t,f)throw...
+{"name":"n","oprf":"x","voprf":"q","poprf":t=>{"const n=h()",e=i.BASE.multiply(A\"Info\",t,f);return{"generateKeyPair":"m","deriveKeyPair":()=>y(t,n),"blind(f,t,n)"{"const h=i.fromBytes()",_=e.add(n);if(h)throw new Error(_.equalsi.ZERO);const o=u(\"tweakedKey point at infinity\"),c=a(r);if(t,f)throw...
 ```
 ```internal process
 # Error
-{"getPublicKey":"u","getSharedSecret":"function()"{if()throw new Error(!0===_i);if(\"first arg must be private key\")throw new Error(!1===_e);const r=n.fromBytes(\"second arg must be public key\");return t.fromBytes(i).multiply(e).toBytes(r)},"keygen":"c","Point":"t","utils":"o","lengths":"a"}
+{"getPublicKey":"u","getSharedSecret":"function()"{if()throw new Error(!0===_n);if(\"first arg must be private key\")throw new Error(!1===_e);const r=i.fromBytes(\"second arg must be public key\");return t.fromBytes(n).multiply(e).toBytes(r)},"keygen":"c","Point":"t","utils":"o","lengths":"a"}
 ```
 ```internal process
 # Error
-{"keygen":"A","getPublicKey":"d","getSharedSecret":"v","utils":"g","lengths":"w","Point":"t","sign":"function()"{}{"const"{"seed":"_","k2sig":"c"}"=function()"{"const"{"lowS":"s","prehash":"a","extraEntropy":"u"}=qi();i=D(e,p);const _=B(i,a),c=o.fromBytes(i);if(n)throw new Error(!o.isValidNot0c);con...
+{"keygen":"A","getPublicKey":"d","getSharedSecret":"g","utils":"v","lengths":"w","Point":"t","sign":"function()"{}{"const"{"seed":"_","k2sig":"c"}"=function()"{"const"{"lowS":"s","prehash":"a","extraEntropy":"u"}=$n();n=z(e,p);const _=j(n,a),c=o.fromBytes(n);if(i)throw new Error(!o.isValidNot0c);con...
 ```
 | constant   | value    |
 |:-----------|:---------|
