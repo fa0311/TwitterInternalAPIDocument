@@ -5449,11 +5449,11 @@
     },
     "openSuccessful": {
       "shouldShow": "!0",
-      "badgeType": "A.Ratings"
+      "badgeType": "D.Ratings"
     },
     "openHelpful": {
       "shouldShow": "!0",
-      "badgeType": "A.Notes"
+      "badgeType": "D.Notes"
     }
   },
   {
@@ -5509,8 +5509,8 @@
     "WebSidebar": "web_sidebar"
   },
   {
-    "SENSITIVE": "P",
-    "BLOCKED": "j",
+    "SENSITIVE": "j",
+    "BLOCKED": "P",
     "BLOCKED_BY": "S"
   },
   {
@@ -5893,16 +5893,6 @@
     "zh-cn": "(\"https://business.x.com/ar/campaign/quick-promote-coupon-terms.html\")(0,i.ju)"
   },
   {
-    "REQUEST": "rweb/scheduledTweets/FETCH_SCHEDULED_TWEETS_REQUEST",
-    "SUCCESS": "rweb/scheduledTweets/FETCH_SCHEDULED_TWEETS_SUCCESS",
-    "FAILURE": "rweb/scheduledTweets/FETCH_SCHEDULED_TWEETS_FAILURE"
-  },
-  {
-    "REQUEST": "rweb/scheduledTweets/DELETE_SCHEDULED_TWEET_REQUEST",
-    "SUCCESS": "rweb/scheduledTweets/DELETE_SCHEDULED_TWEET_SUCCESS",
-    "FAILURE": "rweb/scheduledTweets/DELETE_SCHEDULED_TWEET_FAILURE"
-  },
-  {
     "TWEET_CARET": "tweet_caret",
     "PROFILE": "user_profile",
     "LIST_DETAIL": "list_detail",
@@ -5985,6 +5975,16 @@
     "SubscribableUser": "SubscribableUser"
   },
   {
+    "REQUEST": "rweb/scheduledTweets/FETCH_SCHEDULED_TWEETS_REQUEST",
+    "SUCCESS": "rweb/scheduledTweets/FETCH_SCHEDULED_TWEETS_SUCCESS",
+    "FAILURE": "rweb/scheduledTweets/FETCH_SCHEDULED_TWEETS_FAILURE"
+  },
+  {
+    "REQUEST": "rweb/scheduledTweets/DELETE_SCHEDULED_TWEET_REQUEST",
+    "SUCCESS": "rweb/scheduledTweets/DELETE_SCHEDULED_TWEET_SUCCESS",
+    "FAILURE": "rweb/scheduledTweets/DELETE_SCHEDULED_TWEET_FAILURE"
+  },
+  {
     "INFINITE": "infinite",
     "MEDIUM": "medium",
     "NONE": "none"
@@ -5995,6 +5995,16 @@
     "SensitiveMedia": "sensitive_media",
     "Subtitles": "subtitles",
     "Trimmer": "trimmer"
+  },
+  {
+    "REQUEST": "rweb/scheduledTweets/FETCH_SCHEDULED_TWEETS_REQUEST",
+    "SUCCESS": "rweb/scheduledTweets/FETCH_SCHEDULED_TWEETS_SUCCESS",
+    "FAILURE": "rweb/scheduledTweets/FETCH_SCHEDULED_TWEETS_FAILURE"
+  },
+  {
+    "REQUEST": "rweb/scheduledTweets/DELETE_SCHEDULED_TWEET_REQUEST",
+    "SUCCESS": "rweb/scheduledTweets/DELETE_SCHEDULED_TWEET_SUCCESS",
+    "FAILURE": "rweb/scheduledTweets/DELETE_SCHEDULED_TWEET_FAILURE"
   },
   {
     "primary": {
@@ -6013,7 +6023,7 @@
       "aria-live": "polite"
     }
   },
-  "{\"ActionsBar\":\"Z.Z\",\"ActionMenu\":\"function()\"{\"var t=e.Icon\",n=e.isDisabled,r=e.items,o=e.onOpen,\"i=a.useCallback()\"{\"return()(0,C.jsx)\"{\"items\":\"r\",\"onCloseRequested\":\"e\"}}{\"Icon\":\"t\",\"isDisabled\":\"n\",\"onClick\":\"o\",\"renderActionMenu\":\"i\"}},\"CallToAction\":\"l.ZP\",\"EditCallout\":\"k.Z\",\"Education\":\"P.Z\",\"HighlightedUserLabel\":\"d.Z\",\"Media\":\"O.Z\",\"PaidPartnershipDetails\":\"f.Z\",\"Place\":\"s.ZP\",\"PromotedDetails\":\"h.Z\",\"PromotedUserProfileCard\":\"E\",\"ReplyContext\":\"R.ZP\",\"RichContent\":\"M.Z\",\"SocialContext\":\"g.Z\",\"Text\":\"L.Z\",\"Tombstone\":\"y.Z\",\"Timestamp\":\"v.Z\",\"UserAvatar\":\"F.Z\",\"UserFollowIndicator\":\"N.Z\",\"UserName\":\"B.Z\",\"ArticleCard\":\"j.Z\"}",
+  "{\"ActionsBar\":\"j.Z\",\"ActionMenu\":\"function()\"{\"var t=e.Icon\",n=e.isDisabled,r=e.items,o=e.onOpen,\"i=a.useCallback()\"{\"return()(0,C.jsx)\"{\"items\":\"r\",\"onCloseRequested\":\"e\"}}{\"Icon\":\"t\",\"isDisabled\":\"n\",\"onClick\":\"o\",\"renderActionMenu\":\"i\"}},\"CallToAction\":\"l.ZP\",\"EditCallout\":\"P.Z\",\"Education\":\"T.Z\",\"HighlightedUserLabel\":\"d.Z\",\"Media\":\"O.Z\",\"PaidPartnershipDetails\":\"f.Z\",\"Place\":\"s.ZP\",\"PromotedDetails\":\"h.Z\",\"PromotedUserProfileCard\":\"A\",\"ReplyContext\":\"R.ZP\",\"RichContent\":\"M.Z\",\"SocialContext\":\"g.Z\",\"Text\":\"L.Z\",\"Tombstone\":\"y.Z\",\"Timestamp\":\"v.Z\",\"UserAvatar\":\"F.Z\",\"UserFollowIndicator\":\"N.Z\",\"UserName\":\"B.Z\",\"ArticleCard\":\"Z.Z\"}",
   {
     "X_BACKEND": "X_BACKEND",
     "IN_PROGRESS": "MIGRATION_IN_PROGRESS",
@@ -6960,8 +6970,8 @@
     "PUBLISHED": "Published"
   },
   {
-    "DRAFT": "c.DRAFT",
-    "PUBLISHED": "c.PUBLISHED"
+    "DRAFT": "s.DRAFT",
+    "PUBLISHED": "s.PUBLISHED"
   },
   {
     "num_of_followers": "X.Z.Follow",
@@ -7448,45 +7458,45 @@
     "workday": "Workday"
   },
   {
-    "software_engineering": "p",
-    "data_analytics": "b",
-    "product": "h",
-    "design": "v",
-    "marketing": "y",
-    "sales_am": "m",
-    "operations": "O",
-    "people_hr": "g",
+    "software_engineering": "m",
+    "data_analytics": "g",
+    "product": "f",
+    "design": "y",
+    "marketing": "b",
+    "sales_am": "h",
+    "operations": "k",
+    "people_hr": "v",
     "finance_accounting": "j",
-    "legal_compliance": "P",
-    "science_engineering": "S",
-    "medical": "Z",
+    "legal_compliance": "x",
+    "science_engineering": "Z",
+    "medical": "S",
     "construction_trades": "w",
-    "other": "C"
+    "other": "_"
   },
   {
-    "intern": "R",
-    "entry_level": "T",
-    "junior": "k",
-    "mid_level": "A",
-    "senior": "_",
-    "lead": "E",
-    "manager": "I",
-    "executive": "M"
+    "intern": "K",
+    "entry_level": "P",
+    "junior": "O",
+    "mid_level": "D",
+    "senior": "T",
+    "lead": "I",
+    "manager": "L",
+    "executive": "R"
   },
   {
     "onsite": {
-      "label": "B",
-      "description": "Y",
+      "label": "z",
+      "description": "U",
       "value": "onsite"
     },
     "remote": {
-      "label": "H",
-      "description": "W",
+      "label": "J",
+      "description": "V",
       "value": "remote"
     },
     "hybrid": {
-      "label": "U",
-      "description": "N",
+      "label": "B",
+      "description": "H",
       "value": "hybrid"
     }
   },
@@ -8959,6 +8969,66 @@
     "Live": "Live",
     "Sandbox": "Sandbox",
     "Test": "Test"
+  },
+  {
+    "DISABLED": "0",
+    "ENABLED": "10",
+    "SYNC_IN_PROGRESS": "20",
+    "SYNC_FAILED": "30"
+  },
+  {
+    "freshteam": "Freshteam",
+    "greenhouse": "Greenhouse",
+    "lever": "Lever",
+    "recruitee": "Recruitee",
+    "sage-hr": "Sage HR",
+    "sap-successfactors": "SAP SuccessFactors",
+    "teamtailor": "Teamtailor",
+    "workable": "Workable",
+    "workday": "Workday"
+  },
+  {
+    "software_engineering": "f",
+    "data_analytics": "b",
+    "product": "m",
+    "design": "y",
+    "marketing": "h",
+    "sales_am": "g",
+    "operations": "v",
+    "people_hr": "j",
+    "finance_accounting": "O",
+    "legal_compliance": "S",
+    "science_engineering": "_",
+    "medical": "k",
+    "construction_trades": "x",
+    "other": "Z"
+  },
+  {
+    "intern": "C",
+    "entry_level": "F",
+    "junior": "T",
+    "mid_level": "D",
+    "senior": "R",
+    "lead": "I",
+    "manager": "L",
+    "executive": "A"
+  },
+  {
+    "onsite": {
+      "label": "z",
+      "description": "U",
+      "value": "onsite"
+    },
+    "remote": {
+      "label": "B",
+      "description": "H",
+      "value": "remote"
+    },
+    "hybrid": {
+      "label": "M",
+      "description": "N",
+      "value": "hybrid"
+    }
   },
   {
     "FakeAccount": "fake_account",
