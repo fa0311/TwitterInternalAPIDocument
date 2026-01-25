@@ -5636,8 +5636,8 @@ This document is entirely auto-generated and may contain errors.<br>
 | constant       | value                                          |
 |:---------------|:-----------------------------------------------|
 | closed         | {'shouldShow': '!1'}                           |
-| openSuccessful | {'shouldShow': '!0', 'badgeType': 'A.Ratings'} |
-| openHelpful    | {'shouldShow': '!0', 'badgeType': 'A.Notes'}   |
+| openSuccessful | {'shouldShow': '!0', 'badgeType': 'D.Ratings'} |
+| openHelpful    | {'shouldShow': '!0', 'badgeType': 'D.Notes'}   |
 
 | constant   | value                                               |
 |:-----------|:----------------------------------------------------|
@@ -5695,8 +5695,8 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant   | value   |
 |:-----------|:--------|
-| SENSITIVE  | P       |
-| BLOCKED    | j       |
+| SENSITIVE  | j       |
+| BLOCKED    | P       |
 | BLOCKED_BY | S       |
 
 | constant             | value     |
@@ -6080,18 +6080,6 @@ This document is entirely auto-generated and may contain errors.<br>
 | ar         | ("https://business.x.com/pt/campaign/quick-promote-coupon-terms.html")(0,i.ju) |
 | zh-cn      | ("https://business.x.com/ar/campaign/quick-promote-coupon-terms.html")(0,i.ju) |
 
-| constant   | value                                               |
-|:-----------|:----------------------------------------------------|
-| REQUEST    | rweb/scheduledTweets/FETCH_SCHEDULED_TWEETS_REQUEST |
-| SUCCESS    | rweb/scheduledTweets/FETCH_SCHEDULED_TWEETS_SUCCESS |
-| FAILURE    | rweb/scheduledTweets/FETCH_SCHEDULED_TWEETS_FAILURE |
-
-| constant   | value                                               |
-|:-----------|:----------------------------------------------------|
-| REQUEST    | rweb/scheduledTweets/DELETE_SCHEDULED_TWEET_REQUEST |
-| SUCCESS    | rweb/scheduledTweets/DELETE_SCHEDULED_TWEET_SUCCESS |
-| FAILURE    | rweb/scheduledTweets/DELETE_SCHEDULED_TWEET_FAILURE |
-
 | constant       | value          |
 |:---------------|:---------------|
 | TWEET_CARET    | tweet_caret    |
@@ -6150,6 +6138,18 @@ This document is entirely auto-generated and may contain errors.<br>
 | PendingFollowUser | PendingFollowUser |
 | SubscribableUser  | SubscribableUser  |
 
+| constant   | value                                               |
+|:-----------|:----------------------------------------------------|
+| REQUEST    | rweb/scheduledTweets/FETCH_SCHEDULED_TWEETS_REQUEST |
+| SUCCESS    | rweb/scheduledTweets/FETCH_SCHEDULED_TWEETS_SUCCESS |
+| FAILURE    | rweb/scheduledTweets/FETCH_SCHEDULED_TWEETS_FAILURE |
+
+| constant   | value                                               |
+|:-----------|:----------------------------------------------------|
+| REQUEST    | rweb/scheduledTweets/DELETE_SCHEDULED_TWEET_REQUEST |
+| SUCCESS    | rweb/scheduledTweets/DELETE_SCHEDULED_TWEET_SUCCESS |
+| FAILURE    | rweb/scheduledTweets/DELETE_SCHEDULED_TWEET_FAILURE |
+
 | constant   | value    |
 |:-----------|:---------|
 | INFINITE   | infinite |
@@ -6164,6 +6164,18 @@ This document is entirely auto-generated and may contain errors.<br>
 | Subtitles      | subtitles       |
 | Trimmer        | trimmer         |
 
+| constant   | value                                               |
+|:-----------|:----------------------------------------------------|
+| REQUEST    | rweb/scheduledTweets/FETCH_SCHEDULED_TWEETS_REQUEST |
+| SUCCESS    | rweb/scheduledTweets/FETCH_SCHEDULED_TWEETS_SUCCESS |
+| FAILURE    | rweb/scheduledTweets/FETCH_SCHEDULED_TWEETS_FAILURE |
+
+| constant   | value                                               |
+|:-----------|:----------------------------------------------------|
+| REQUEST    | rweb/scheduledTweets/DELETE_SCHEDULED_TWEET_REQUEST |
+| SUCCESS    | rweb/scheduledTweets/DELETE_SCHEDULED_TWEET_SUCCESS |
+| FAILURE    | rweb/scheduledTweets/DELETE_SCHEDULED_TWEET_FAILURE |
+
 | constant   | value                      |
 |:-----------|:---------------------------|
 | primary    | {'aria-live': 'polite'}    |
@@ -6174,7 +6186,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{"ActionsBar":"Z.Z","ActionMenu":"function()"{"var t=e.Icon",n=e.isDisabled,r=e.items,o=e.onOpen,"i=a.useCallback()"{"return()(0,C.jsx)"{"items":"r","onCloseRequested":"e"}}{"Icon":"t","isDisabled":"n","onClick":"o","renderActionMenu":"i"}},"CallToAction":"l.ZP","EditCallout":"k.Z","Education":"P.Z"...
+{"ActionsBar":"j.Z","ActionMenu":"function()"{"var t=e.Icon",n=e.isDisabled,r=e.items,o=e.onOpen,"i=a.useCallback()"{"return()(0,C.jsx)"{"items":"r","onCloseRequested":"e"}}{"Icon":"t","isDisabled":"n","onClick":"o","renderActionMenu":"i"}},"CallToAction":"l.ZP","EditCallout":"P.Z","Education":"T.Z"...
 ```
 | constant    | value                 |
 |:------------|:----------------------|
@@ -7224,8 +7236,8 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant   | value       |
 |:-----------|:------------|
-| DRAFT      | c.DRAFT     |
-| PUBLISHED  | c.PUBLISHED |
+| DRAFT      | s.DRAFT     |
+| PUBLISHED  | s.PUBLISHED |
 
 | constant                          | value               |
 |:----------------------------------|:--------------------|
@@ -7770,37 +7782,37 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant             | value   |
 |:---------------------|:--------|
-| software_engineering | p       |
-| data_analytics       | b       |
-| product              | h       |
-| design               | v       |
-| marketing            | y       |
-| sales_am             | m       |
-| operations           | O       |
-| people_hr            | g       |
+| software_engineering | m       |
+| data_analytics       | g       |
+| product              | f       |
+| design               | y       |
+| marketing            | b       |
+| sales_am             | h       |
+| operations           | k       |
+| people_hr            | v       |
 | finance_accounting   | j       |
-| legal_compliance     | P       |
-| science_engineering  | S       |
-| medical              | Z       |
+| legal_compliance     | x       |
+| science_engineering  | Z       |
+| medical              | S       |
 | construction_trades  | w       |
-| other                | C       |
+| other                | _       |
 
 | constant    | value   |
 |:------------|:--------|
-| intern      | R       |
-| entry_level | T       |
-| junior      | k       |
-| mid_level   | A       |
-| senior      | _       |
-| lead        | E       |
-| manager     | I       |
-| executive   | M       |
+| intern      | K       |
+| entry_level | P       |
+| junior      | O       |
+| mid_level   | D       |
+| senior      | T       |
+| lead        | I       |
+| manager     | L       |
+| executive   | R       |
 
 | constant   | value                                                 |
 |:-----------|:------------------------------------------------------|
-| onsite     | {'label': 'B', 'description': 'Y', 'value': 'onsite'} |
-| remote     | {'label': 'H', 'description': 'W', 'value': 'remote'} |
-| hybrid     | {'label': 'U', 'description': 'N', 'value': 'hybrid'} |
+| onsite     | {'label': 'z', 'description': 'U', 'value': 'onsite'} |
+| remote     | {'label': 'J', 'description': 'V', 'value': 'remote'} |
+| hybrid     | {'label': 'B', 'description': 'H', 'value': 'hybrid'} |
 
 | constant        | value   |
 |:----------------|:--------|
@@ -9378,6 +9390,59 @@ This document is entirely auto-generated and may contain errors.<br>
 | Live       | Live    |
 | Sandbox    | Sandbox |
 | Test       | Test    |
+
+| constant         |   value |
+|:-----------------|--------:|
+| DISABLED         |       0 |
+| ENABLED          |      10 |
+| SYNC_IN_PROGRESS |      20 |
+| SYNC_FAILED      |      30 |
+
+| constant           | value              |
+|:-------------------|:-------------------|
+| freshteam          | Freshteam          |
+| greenhouse         | Greenhouse         |
+| lever              | Lever              |
+| recruitee          | Recruitee          |
+| sage-hr            | Sage HR            |
+| sap-successfactors | SAP SuccessFactors |
+| teamtailor         | Teamtailor         |
+| workable           | Workable           |
+| workday            | Workday            |
+
+| constant             | value   |
+|:---------------------|:--------|
+| software_engineering | f       |
+| data_analytics       | b       |
+| product              | m       |
+| design               | y       |
+| marketing            | h       |
+| sales_am             | g       |
+| operations           | v       |
+| people_hr            | j       |
+| finance_accounting   | O       |
+| legal_compliance     | S       |
+| science_engineering  | _       |
+| medical              | k       |
+| construction_trades  | x       |
+| other                | Z       |
+
+| constant    | value   |
+|:------------|:--------|
+| intern      | C       |
+| entry_level | F       |
+| junior      | T       |
+| mid_level   | D       |
+| senior      | R       |
+| lead        | I       |
+| manager     | L       |
+| executive   | A       |
+
+| constant   | value                                                 |
+|:-----------|:------------------------------------------------------|
+| onsite     | {'label': 'z', 'description': 'U', 'value': 'onsite'} |
+| remote     | {'label': 'B', 'description': 'H', 'value': 'remote'} |
+| hybrid     | {'label': 'M', 'description': 'N', 'value': 'hybrid'} |
 
 | constant                | value                     |
 |:------------------------|:--------------------------|
