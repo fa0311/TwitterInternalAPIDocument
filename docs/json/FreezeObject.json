@@ -214,6 +214,7 @@
     "PendingTosConsent": "PendingTosConsent",
     "PendingUsageConsent": "PendingUsageConsent",
     "PersonalInfoRevealed": "PersonalInfoRevealed",
+    "ProductBundle3Cashback6Apy": "ProductBundle3Cashback6Apy",
     "ProductBundleEarlyAdopterMegaBoost": "ProductBundleEarlyAdopterMegaBoost",
     "ProductBundleFriendsFamily": "ProductBundleFriendsFamily",
     "PublicKeyCredentialAttested": "PublicKeyCredentialAttested",
@@ -1190,7 +1191,6 @@
     "selfieVerification": "selfie",
     "verifyPaymentMethod": "verifyPaymentMethod",
     "autoclaim": "autoclaim",
-    "updateName": "updateName",
     "updateAddress": "updateAddress",
     "updateMailingAddress": "updateMailingAddress",
     "updatePin": "updatePin",
@@ -7607,6 +7607,14 @@
     }
   },
   {
+    "FollowingTimeline": "FollowingTimeline",
+    "ForYouTimeline": "ForYouTimeline",
+    "ProfileTimeline": "ProfileTimeline",
+    "SearchTimeline": "SearchTimeline",
+    "TweetDetails": "TweetDetails",
+    "Unknown": "Unknown"
+  },
+  {
     "CONVERSATION": "conversation",
     "TIMELINE": "timeline"
   },
@@ -7789,8 +7797,10 @@
   },
   {
     "Cancelled": "Cancelled",
+    "DuplicateCheck": "DuplicateCheck",
     "ExternalLimitsExceeded": "ExternalLimitsExceeded",
     "ExternalSuspectedFraud": "ExternalSuspectedFraud",
+    "FailedCheckValidation": "FailedCheckValidation",
     "FailedOfacCheck": "FailedOfacCheck",
     "FailedTryAgain": "FailedTryAgain",
     "InReview": "InReview",
@@ -8075,7 +8085,7 @@
     "ShouldProvidePaymentId": "ShouldProvidePaymentId",
     "Unspecified": "Unspecified"
   },
-  "{\"InsufficientFunds\":{\"headline\":\"u().f66c509a\",\"message\":\"u().f9e0e6a2\",\"action\":{\"link\":\"p.IN\",\"label\":\"u().a4ef9cbe\"}},\"InvalidReceiver\":{\"getHeadline\":\"function()\"{\"return e.actionType===f.jq.P2P_TRANSFER_REQUEST?X\":\"N\"},\"headline\":\"N\",\"message\":\"U\",\"getErrorReporting\":\"function()\"{\"return\"{\"issueReportEnabled\":\"!0\",\"description\":\"Encountered an error while making a request.\"}}},\"InvalidReceiverCurrentState\":{\"getHeadline\":\"function()\"{\"return e.actionType===f.jq.P2P_TRANSFER_REQUEST?X\":\"N\"},\"headline\":\"N\",\"message\":\"U\"},\"BankIssue\":{\"getHeadline\":\"function()\"{var n=e.actionType;return n===f.jq.DEPOSIT?te:n===f.jq.WITHDRAWAL?ae:\"ne\"},\"headline\":\"ne\",\"message\":\"Z\"},\"InvalidReceiverPreferences\":{\"getHeadline\":\"function()\"{\"return e.actionType===f.jq.P2P_TRANSFER_REQUEST?X\":\"N\"},\"headline\":\"N\",\"message\":\"V\",\"getMessage\":\"function()\"{\"var n=e.actionType\",t=e.counterPartyScreenName;return t?n===f.jq.P2P_TRANSFER_REQUEST?re(){\"counterPartyScreenName\":\"t\"}{\"counterPartyScreenName\":\"t\"}}},\"InvalidSenderPreferences\":{\"headline\":\"X\",\"message\":\"V\",\"getMessage\":\"function()\"{\"var n=e.actionType\",t=e.counterPartyScreenName;return t?n===f.jq.P2P_TRANSFER_REQUEST?re(){\"counterPartyScreenName\":\"t\"}{\"counterPartyScreenName\":\"t\"}}},\"InvalidSender\":{\"getHeadline\":\"function()\"{\"return e.actionType===f.jq.P2P_TRANSFER_REQUEST?X\":\"N\"},\"headline\":\"N\",\"message\":\"U\",\"getErrorReporting\":\"function()\"{\"return\"{\"issueReportEnabled\":\"!0\",\"description\":\"Encountered an error while making a payment.\"}}},\"InvalidSenderCurrentState\":{\"getHeadline\":\"function()\"{\"return e.actionType===f.jq.P2P_TRANSFER_REQUEST?X\":\"N\"},\"headline\":\"N\",\"message\":\"U\"},\"IdempotencyKeyConflict\":{\"headline\":\"u().f6b3499c\",\"message\":\"u().f64125f6\",\"action\":{\"link\":\"p.bR\",\"label\":\"u().e63ed2f0\"}},\"CustomerMissingPrimaryAddress\":{\"message\":\"u().gde35c74\",\"action\":{\"link\":\"p.f0\",\"label\":\"u().jd899ca2\"}},\"LoginRequired\":\"q\",\"PaymentMethodLinkRequired\":\"q\",\"PaymentMethodInactive\":{\"getHeadline\":\"function()\"{var n=e.actionType;return n===f.jq.DEPOSIT?te:n===f.jq.WITHDRAWAL?ae:\"ne\"},\"headline\":\"ne\",\"message\":\"I\"},\"PaymentMethodExpired\":{\"getHeadline\":\"function()\"{var n=e.actionType;return n===f.jq.DEPOSIT?te:n===f.jq.WITHDRAWAL?ae:\"ne\"},\"headline\":\"ne\",\"message\":\"R\"},\"AccountLinkingNameMismatch\":{\"message\":\"u().d660047c\"},\"InsufficientBalance\":{\"headline\":\"u().f66c509a\",\"message\":\"u().f40c576c\",\"action\":{\"link\":\"p.IN\",\"label\":\"u().a4ef9cbe\"}},\"TwoFactorAuthRequired\":{\"message\":\"u().i10a73ce\",\"action\":{\"link\":\"p.ul\",\"label\":\"u().b4642e52\"}},\"VolumeLimitExceeded30DaySend\":\"z()\"{\"type\":\"f.m9.monthly\"}{\"type\":\"f.m9.daily\"}{\"type\":\"f.m9.monthly\"}{\"type\":\"f.m9.perEntry\"}{\"headline\":\"u().g243dc66\",\"message\":\"u().b0315b3a\",\"action\":{\"link\":\"p.AU.tier2.verifyIdentityPath\",\"label\":\"u().c3d89aca\"}},\"Velocity\":{\"headline\":\"Y\",\"getHeadline\":\"function()\"{var n=e.actionType;return n?J(){\"actionType\":L[n]}},\"message\":\"u().cd34a81a\"},\"HasAccountBalance\":{\"headline\":\"H\",\"message\":\"u().a9ec0e4a\",\"action\":{\"link\":\"p.r0\",\"label\":\"u().c0728748\"}},\"HasCashbackAccountBalance\":{\"headline\":\"H\",\"message\":\"u().a387275c\",\"action\":{\"link\":\"p.Tb\",\"label\":\"u().e49c288c\"}},\"HasActiveDisputes\":{\"headline\":\"H\",\"message\":\"u().c4800cb8\"},\"HasPendingTransactions\":{\"headline\":\"H\",\"message\":\"u().i0391488\"},\"InactivePaymentMethod\":\"G\",\"InvalidPaymentMethodType\":\"G\",\"PaymentMethodDeleted\":\"G\",\"FeeCalculationError\":{\"headline\":\"$\",\"getHeadline\":\"function()\"{var n=e.actionType;return n?ee(){\"actionType\":L[n]}},\"message\":\"Z\",\"action\":{\"link\":\"p.ze\",\"label\":\"u().a893d602\"},\"getErrorReporting\":\"function()\"{\"var n\",t=e.actionType;return t===f.jq.DEPOSIT||t===f.jq.WITHDRAWAL?{\"issueReportEnabled\":\"!0\",\"description\":\"Encountered an error while calculating fees for a \".concat()}:{\"issueReportEnabled\":\"!1\"}}},\"Unexpected\":{\"headline\":\"u().ac1c4c40\",\"message\":\"u().de869c96\",\"getErrorReporting\":\"function()\"{\"var n\",t=e.actionType;return t===f.jq.DEPOSIT||t===f.jq.WITHDRAWAL?{\"issueReportEnabled\":\"!0\",\"description\":\"Encountered an unexpected error during a \".concat()}:{\"issueReportEnabled\":\"!1\"}}},\"Default\":{\"getHeadline\":\"function()\"{\"switch()\"{\"case f.jq.P2P_TRANSFER_SEND\":return N;case f.jq.P2P_TRANSFER_REQUEST:return X;case f.jq.WITHDRAWAL:return ae;case f.jq.DEPOSIT:return te;case f.jq.CLOSE_ACCOUNT:return H;case f.jq.REONBOARD:return Q;default:\"return u().j3dc6686\"}},\"getMessage\":\"function()\"{\"switch()\"{\"case f.jq.P2P_TRANSFER_SEND\":case f.jq.P2P_TRANSFER_REQUEST:return U;default:\"return Z\"}},\"message\":\"Z\",\"getErrorReporting\":\"function()\"{\"var n\",t,a=e.actionType;return a===f.jq.DEPOSIT||a===f.jq.WITHDRAWAL?{\"issueReportEnabled\":\"!0\",\"description\":\"Encountered an unexpected error during a \".concat()}:a===f.jq.P2P_TRANSFER_REQUEST||a===f.jq.P2P_TRANSFER_SEND||a===f.jq.P2P_TRANSFER_SEND_FUNDED?{\"issueReportEnabled\":\"!0\",\"description\":\"Encountered an unexpected error during a \".concat()}:{\"issueReportEnabled\":\"!1\"}}}}",
+  "{\"InsufficientFunds\":{\"headline\":\"u().f66c509a\",\"message\":\"u().f9e0e6a2\",\"action\":{\"link\":\"p.IN\",\"label\":\"u().a4ef9cbe\"}},\"InvalidReceiver\":{\"getHeadline\":\"function()\"{\"return e.actionType===f.jq.P2P_TRANSFER_REQUEST?X\":\"N\"},\"headline\":\"N\",\"message\":\"U\",\"getErrorReporting\":\"function()\"{\"return\"{\"issueReportEnabled\":\"!0\",\"description\":\"Encountered an error while making a request.\"}}},\"InvalidReceiverCurrentState\":{\"getHeadline\":\"function()\"{\"return e.actionType===f.jq.P2P_TRANSFER_REQUEST?X\":\"N\"},\"headline\":\"N\",\"message\":\"U\"},\"BankIssue\":{\"getHeadline\":\"function()\"{var n=e.actionType;return n===f.jq.DEPOSIT?te:n===f.jq.WITHDRAWAL?ae:\"ne\"},\"headline\":\"ne\",\"message\":\"Z\"},\"InvalidReceiverPreferences\":{\"getHeadline\":\"function()\"{\"return e.actionType===f.jq.P2P_TRANSFER_REQUEST?X\":\"N\"},\"headline\":\"N\",\"message\":\"V\",\"getMessage\":\"function()\"{\"var n=e.actionType\",t=e.counterPartyScreenName;return t?n===f.jq.P2P_TRANSFER_REQUEST?re(){\"counterPartyScreenName\":\"t\"}{\"counterPartyScreenName\":\"t\"}}},\"InvalidSenderPreferences\":{\"headline\":\"X\",\"message\":\"V\",\"getMessage\":\"function()\"{\"var n=e.actionType\",t=e.counterPartyScreenName;return t?n===f.jq.P2P_TRANSFER_REQUEST?re(){\"counterPartyScreenName\":\"t\"}{\"counterPartyScreenName\":\"t\"}}},\"InvalidSender\":{\"getHeadline\":\"function()\"{\"return e.actionType===f.jq.P2P_TRANSFER_REQUEST?X\":\"N\"},\"headline\":\"N\",\"message\":\"U\",\"getErrorReporting\":\"function()\"{\"return\"{\"issueReportEnabled\":\"!0\",\"description\":\"Encountered an error while making a payment.\"}}},\"InvalidSenderCurrentState\":{\"getHeadline\":\"function()\"{\"return e.actionType===f.jq.P2P_TRANSFER_REQUEST?X\":\"N\"},\"headline\":\"N\",\"message\":\"U\"},\"IdempotencyKeyConflict\":{\"headline\":\"u().f6b3499c\",\"message\":\"u().f64125f6\",\"action\":{\"link\":\"p.bR\",\"label\":\"u().e63ed2f0\"}},\"CustomerMissingPrimaryAddress\":{\"message\":\"u().gde35c74\",\"action\":{\"link\":\"p.RQ\",\"label\":\"u().jd899ca2\"}},\"LoginRequired\":\"q\",\"PaymentMethodLinkRequired\":\"q\",\"PaymentMethodInactive\":{\"getHeadline\":\"function()\"{var n=e.actionType;return n===f.jq.DEPOSIT?te:n===f.jq.WITHDRAWAL?ae:\"ne\"},\"headline\":\"ne\",\"message\":\"I\"},\"PaymentMethodExpired\":{\"getHeadline\":\"function()\"{var n=e.actionType;return n===f.jq.DEPOSIT?te:n===f.jq.WITHDRAWAL?ae:\"ne\"},\"headline\":\"ne\",\"message\":\"R\"},\"AccountLinkingNameMismatch\":{\"message\":\"u().d660047c\"},\"InsufficientBalance\":{\"headline\":\"u().f66c509a\",\"message\":\"u().f40c576c\",\"action\":{\"link\":\"p.IN\",\"label\":\"u().a4ef9cbe\"}},\"TwoFactorAuthRequired\":{\"message\":\"u().i10a73ce\",\"action\":{\"link\":\"p.ul\",\"label\":\"u().b4642e52\"}},\"VolumeLimitExceeded30DaySend\":\"z()\"{\"type\":\"f.m9.monthly\"}{\"type\":\"f.m9.daily\"}{\"type\":\"f.m9.monthly\"}{\"type\":\"f.m9.perEntry\"}{\"headline\":\"u().g243dc66\",\"message\":\"u().b0315b3a\",\"action\":{\"link\":\"p.AU.tier2.verifyIdentityPath\",\"label\":\"u().c3d89aca\"}},\"Velocity\":{\"headline\":\"Y\",\"getHeadline\":\"function()\"{var n=e.actionType;return n?J(){\"actionType\":L[n]}},\"message\":\"u().cd34a81a\"},\"HasAccountBalance\":{\"headline\":\"H\",\"message\":\"u().a9ec0e4a\",\"action\":{\"link\":\"p.r0\",\"label\":\"u().c0728748\"}},\"HasCashbackAccountBalance\":{\"headline\":\"H\",\"message\":\"u().a387275c\",\"action\":{\"link\":\"p.Tb\",\"label\":\"u().e49c288c\"}},\"HasActiveDisputes\":{\"headline\":\"H\",\"message\":\"u().c4800cb8\"},\"HasPendingTransactions\":{\"headline\":\"H\",\"message\":\"u().i0391488\"},\"InactivePaymentMethod\":\"G\",\"InvalidPaymentMethodType\":\"G\",\"PaymentMethodDeleted\":\"G\",\"FeeCalculationError\":{\"headline\":\"$\",\"getHeadline\":\"function()\"{var n=e.actionType;return n?ee(){\"actionType\":L[n]}},\"message\":\"Z\",\"action\":{\"link\":\"p.ze\",\"label\":\"u().a893d602\"},\"getErrorReporting\":\"function()\"{\"var n\",t=e.actionType;return t===f.jq.DEPOSIT||t===f.jq.WITHDRAWAL?{\"issueReportEnabled\":\"!0\",\"description\":\"Encountered an error while calculating fees for a \".concat()}:{\"issueReportEnabled\":\"!1\"}}},\"Unexpected\":{\"headline\":\"u().ac1c4c40\",\"message\":\"u().de869c96\",\"getErrorReporting\":\"function()\"{\"var n\",t=e.actionType;return t===f.jq.DEPOSIT||t===f.jq.WITHDRAWAL?{\"issueReportEnabled\":\"!0\",\"description\":\"Encountered an unexpected error during a \".concat()}:{\"issueReportEnabled\":\"!1\"}}},\"Default\":{\"getHeadline\":\"function()\"{\"switch()\"{\"case f.jq.P2P_TRANSFER_SEND\":return N;case f.jq.P2P_TRANSFER_REQUEST:return X;case f.jq.WITHDRAWAL:return ae;case f.jq.DEPOSIT:return te;case f.jq.CLOSE_ACCOUNT:return H;case f.jq.REONBOARD:return Q;default:\"return u().j3dc6686\"}},\"getMessage\":\"function()\"{\"switch()\"{\"case f.jq.P2P_TRANSFER_SEND\":case f.jq.P2P_TRANSFER_REQUEST:return U;default:\"return Z\"}},\"message\":\"Z\",\"getErrorReporting\":\"function()\"{\"var n\",t,a=e.actionType;return a===f.jq.DEPOSIT||a===f.jq.WITHDRAWAL?{\"issueReportEnabled\":\"!0\",\"description\":\"Encountered an unexpected error during a \".concat()}:a===f.jq.P2P_TRANSFER_REQUEST||a===f.jq.P2P_TRANSFER_SEND||a===f.jq.P2P_TRANSFER_SEND_FUNDED?{\"issueReportEnabled\":\"!0\",\"description\":\"Encountered an unexpected error during a \".concat()}:{\"issueReportEnabled\":\"!1\"}}}}",
   {
     "ClaimTransferDecisionAccept": "ClaimTransferDecisionAccept",
     "ClaimTransferDecisionReject": "ClaimTransferDecisionReject",
@@ -8357,6 +8367,14 @@
     "TextOnly": "TextOnly",
     "Topic": "Topic",
     "Trending": "Trending"
+  },
+  {
+    "FollowingTimeline": "FollowingTimeline",
+    "ForYouTimeline": "ForYouTimeline",
+    "ProfileTimeline": "ProfileTimeline",
+    "SearchTimeline": "SearchTimeline",
+    "TweetDetails": "TweetDetails",
+    "Unknown": "Unknown"
   },
   {
     "ApplicationInReview": "ApplicationInReview",
@@ -8747,6 +8765,14 @@
     "NotSet": "notSet"
   },
   {
+    "FollowingTimeline": "FollowingTimeline",
+    "ForYouTimeline": "ForYouTimeline",
+    "ProfileTimeline": "ProfileTimeline",
+    "SearchTimeline": "SearchTimeline",
+    "TweetDetails": "TweetDetails",
+    "Unknown": "Unknown"
+  },
+  {
     "People": "People",
     "Location": "Location"
   },
@@ -8967,6 +8993,14 @@
     "TIMELINE": "timeline"
   },
   {
+    "FollowingTimeline": "FollowingTimeline",
+    "ForYouTimeline": "ForYouTimeline",
+    "ProfileTimeline": "ProfileTimeline",
+    "SearchTimeline": "SearchTimeline",
+    "TweetDetails": "TweetDetails",
+    "Unknown": "Unknown"
+  },
+  {
     "TOP": "Top",
     "RECENT": "Recent"
   },
@@ -9160,6 +9194,14 @@
     "BlueVerified6Months": "BlueVerified6Months",
     "BlueVerifiedPlus3Months": "BlueVerifiedPlus3Months",
     "BlueVerifiedPlus6Months": "BlueVerifiedPlus6Months"
+  },
+  {
+    "FollowingTimeline": "FollowingTimeline",
+    "ForYouTimeline": "ForYouTimeline",
+    "ProfileTimeline": "ProfileTimeline",
+    "SearchTimeline": "SearchTimeline",
+    "TweetDetails": "TweetDetails",
+    "Unknown": "Unknown"
   },
   {
     "alwayOpen": "i().e2a5bd50",
