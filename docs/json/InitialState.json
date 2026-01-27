@@ -1183,9 +1183,6 @@
       "post_ctas_render_enabled": {
         "value": "false"
       },
-      "post_ctas_surfaces_enabled": {
-        "value": []
-      },
       "premium_business_offers_banner_portal_basic_tier": {
         "value": "false"
       },
@@ -1808,7 +1805,7 @@
         "value": "false"
       },
       "responsive_web_grok_outage_banner_message": {
-        "value": ""
+        "value": "We are experiencing issues with Grok at the moment. Grok may be unable to reply."
       },
       "responsive_web_grok_personality": {
         "value": "true"
@@ -3034,7 +3031,7 @@
         "value": "true"
       },
       "subscriptions_management_tier_switch_polling_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "subscriptions_management_tier_switch_success_screen_enabled": {
         "value": "true"
@@ -3751,7 +3748,7 @@
         "value": "true"
       },
       "vo_upsell_profile_button_enabled": {
-        "value": "true"
+        "value": "false"
       },
       "vod_attribution_tweet_detail_pivot_enabled": {
         "value": "true"
@@ -5076,9 +5073,6 @@
         },
         "post_ctas_render_enabled": {
           "value": "false"
-        },
-        "post_ctas_surfaces_enabled": {
-          "value": []
         },
         "premium_business_offers_banner_portal_basic_tier": {
           "value": "false"
@@ -7893,10 +7887,10 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "9369fbe5eb0ae673bffa0f8460de46a4"
+      "settingsVersion": "99f2be0df7a8acd2f7c93c45cdd6f8c8"
     },
     "debug": {},
-    "featureSetToken": "c351e169695d393768a6ba6b520b44f4d4dca9c4",
+    "featureSetToken": "7aaaa56c35511c5978c325c2edff0361bd50f403",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -7966,7 +7960,7 @@
   },
   "session": {
     "country": "XX",
-    "guestId": "176946139864712871",
+    "guestId": "176954772926274703",
     "hasCommunityMemberships": "false",
     "isActiveCreator": "false",
     "isLoaded": "false",
