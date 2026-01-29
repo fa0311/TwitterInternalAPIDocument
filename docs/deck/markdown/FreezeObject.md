@@ -54,6 +54,16 @@ This document is entirely auto-generated and may contain errors.<br>
 | Root             | VideoPlayerDefaultUI-Root             |
 | VideoCTA         | VideoPlayerDefaultUI-VideoCTA         |
 
+| constant   | value      |
+|:-----------|:-----------|
+| wide       | wide       |
+| narrow     | narrow     |
+| veryNarrow | veryNarrow |
+
+```internal process
+# Error
+{[s.wide]:"500",[s.narrow]:"300",[s.veryNarrow]:"200"}
+```
 ```internal process
 # Error
 {"₊":"+","₋":"-","₌":"=","₍":"()","₀":"0","₁":"1","₂":"2","₃":"3","₄":"4","₅":"5","₆":"6","₇":"7","₈":"8","₉":"9",ₐ:"a",ₑ:"e",ₕ:"h",ᵢ:"i",ⱼ:"j",ₖ:"k",ₗ:"l",ₘ:"m",ₙ:"n",ₒ:"o",ₚ:"p",ᵣ:"r",ₛ:"s",ₜ:"t",ᵤ:"u",ᵥ:"v",ₓ:"x",ᵦ:"β",ᵧ:"γ",ᵨ:"ρ",ᵩ:"ϕ",ᵪ:"χ","⁺":"+","⁻":"-","⁼":"=","⁽":"(\",\"₎\":\")","⁰":"0","¹...
@@ -418,16 +428,6 @@ This document is entirely auto-generated and may contain errors.<br>
 # Error
 {"__proto__":"null","DEG2RAD":"xn","RAD2DEG":"_n","generateUUID":"bn","clamp":"Mn","euclideanModulo":"Sn","mapLinear":"function()"{return i+()*(t-e)/(r-i)},"inverseLerp":"function()"{return t!==e?()/(n-t):"0"},"lerp":"wn","damp":"function()"{"return wn()"},"pingpong":"function()"{return e-Math.abs()...
 ```
-| constant   | value      |
-|:-----------|:-----------|
-| Scheduled  | Scheduled  |
-| InProgress | InProgress |
-| Completed  | Completed  |
-| Postponed  | Postponed  |
-| Cancelled  | Cancelled  |
-| Unused6    | _Unused6   |
-| Unused7    | _Unused7   |
-
 | constant          | value             |
 |:------------------|:------------------|
 | InvalidAuth       | 0                 |
@@ -471,6 +471,16 @@ This document is entirely auto-generated and may contain errors.<br>
 | Transient         | 6                 |
 | 6                 | Transient         |
 
+| constant   | value      |
+|:-----------|:-----------|
+| wide       | wide       |
+| narrow     | narrow     |
+| veryNarrow | veryNarrow |
+
+```internal process
+# Error
+{[s.wide]:"500",[s.narrow]:"300",[s.veryNarrow]:"200"}
+```
 | constant         | value           |
 |:-----------------|:----------------|
 | LIVE_BROADCAST   | liveBroadcast   |
