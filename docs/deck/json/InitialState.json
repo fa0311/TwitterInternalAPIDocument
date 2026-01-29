@@ -3108,8 +3108,8 @@
       "subscriptions_premium_hub_insights_block_enabled": {
         "value": "true"
       },
-      "subscriptions_premium_hub_updated_theme_enabled": {
-        "value": "true"
+      "subscriptions_premium_hub_more_benefits_section_enabled": {
+        "value": "false"
       },
       "subscriptions_premium_tiers_default_interval": {
         "value": "Month"
@@ -6999,8 +6999,8 @@
         "subscriptions_premium_hub_insights_block_enabled": {
           "value": "true"
         },
-        "subscriptions_premium_hub_updated_theme_enabled": {
-          "value": "true"
+        "subscriptions_premium_hub_more_benefits_section_enabled": {
+          "value": "false"
         },
         "subscriptions_premium_tiers_default_interval": {
           "value": "Month"
@@ -7890,7 +7890,7 @@
       "settingsVersion": "99f2be0df7a8acd2f7c93c45cdd6f8c8"
     },
     "debug": {},
-    "featureSetToken": "a9f2e1167e8ae7ee362246db40efdfe90ef141d1",
+    "featureSetToken": "4841fc50cea4bc6cb5477388734a9c9224a27599",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -7960,7 +7960,7 @@
   },
   "session": {
     "country": "XX",
-    "guestId": "176963485609183047",
+    "guestId": "176972121697094952",
     "hasCommunityMemberships": "false",
     "isActiveCreator": "false",
     "isLoaded": "false",
