@@ -23,10 +23,7 @@
         "fieldToggles": [],
         "featureSwitch": {}
       }
-    },
-    "func_name": "s",
-    "func_name_init": "a",
-    "query": {}
+    }
   },
   {
     "n": "81719",
@@ -1597,12 +1594,6 @@
           }
         }
       }
-    },
-    "func_name": "ot",
-    "func_name_init": "tt",
-    "query": {
-      "...()(0,Bn.S)": "_",
-      "...t": "_"
     }
   },
   {
@@ -2269,13 +2260,6 @@
           }
         }
       }
-    },
-    "func_name": "h",
-    "func_name_init": "p",
-    "query": {
-      "communityId": "t.communityId",
-      "name": "t.name",
-      "...()(0,s.S)": "_"
     }
   },
   {
@@ -2318,13 +2302,6 @@
           }
         }
       }
-    },
-    "func_name": "b",
-    "func_name_init": "_",
-    "query": {
-      "communityId": "t.communityId",
-      "description": "t.purpose",
-      "...()(0,s.S)": "_"
     }
   },
   {
@@ -2867,13 +2844,6 @@
           }
         }
       }
-    },
-    "func_name": "wt",
-    "func_name_init": "vt",
-    "query": {
-      "...t": "_",
-      "withCommunity": "n.isTrue()",
-      "...(\"c9s_enabled\")(0,Bn.d)": "_"
     }
   },
   {
@@ -3433,13 +3403,6 @@
           }
         }
       }
-    },
-    "func_name": "Mt",
-    "func_name_init": "xt",
-    "query": {
-      "communityId": "t.communityId",
-      "answer": "t.answer",
-      "...()(0,Bn.S)": "_"
     }
   },
   {
@@ -4560,12 +4523,6 @@
           }
         }
       }
-    },
-    "func_name": "ae",
-    "func_name_init": "ie",
-    "query": {
-      "tweet_id": "i",
-      "...()(0,r.S)": "_"
     }
   },
   {
@@ -5020,11 +4977,6 @@
         "fieldToggles": [],
         "featureSwitch": {}
       }
-    },
-    "func_name": "s",
-    "func_name_init": "a",
-    "query": {
-      "target_user_id": "n.id_str"
     }
   },
   {
@@ -6265,11 +6217,6 @@
           }
         }
       }
-    },
-    "func_name": "_",
-    "func_name_init": "h",
-    "query": {
-      "cursor": "t"
     }
   },
   {
@@ -7655,11 +7602,6 @@
           }
         }
       }
-    },
-    "func_name": "T",
-    "func_name_init": "k",
-    "query": {
-      "conversationId": "t"
     }
   },
   {
@@ -8892,14 +8834,6 @@
           }
         }
       }
-    },
-    "func_name": "ne",
-    "func_name_init": "ee",
-    "query": {
-      "userId": "n.userId",
-      "withVoice": "!1",
-      "count": "1",
-      "includePromotedContent": "!1"
     }
   },
   {
@@ -10232,11 +10166,6 @@
         "fieldToggles": [],
         "featureSwitch": {}
       }
-    },
-    "func_name": "p",
-    "func_name_init": "m",
-    "query": {
-      "target_user_id": "n"
     }
   },
   {
@@ -13268,18 +13197,6 @@
           }
         }
       }
-    },
-    "func_name": "m",
-    "func_name_init": "u",
-    "query": {
-      "userId": "a",
-      "count": "t",
-      "cursor": "o",
-      "teamName": "i",
-      "includePromotedContent": "!1",
-      "...()(0,r.d)": "_",
-      "withClientEventToken": "!1",
-      "withVoice": "n.isTrue(n)"
     }
   },
   {
@@ -14447,10 +14364,7 @@
           }
         }
       }
-    },
-    "func_name": "v",
-    "func_name_init": "y",
-    "query": {}
+    }
   },
   {
     "n": "31406",
@@ -14824,10 +14738,7 @@
           }
         }
       }
-    },
-    "func_name": "y",
-    "func_name_init": "f",
-    "query": "{\"articleEntityId\":\"i\",\"coverMedia\":\"r&&o?\"{\"media_id\":\"r\",\"media_category\":\"o\"}:\"void 0\"}"
+    }
   },
   {
     "n": "93058",
@@ -27009,32 +26920,6 @@
       "queryId": "2Qbj9XZvtUvyJB4gFwWfaA",
       "operationName": "RemoveTweetFromBookmarkFolder",
       "operationType": "mutation",
-      "metadata": {
-        "featureSwitches": [],
-        "fieldToggles": [],
-        "featureSwitch": {}
-      }
-    }
-  },
-  {
-    "n": "00111",
-    "exports": {
-      "queryId": "_ckHEj05gan2VfNHG6thBA",
-      "operationName": "DisableUserAccountLabel",
-      "operationType": "mutation",
-      "metadata": {
-        "featureSwitches": [],
-        "fieldToggles": [],
-        "featureSwitch": {}
-      }
-    }
-  },
-  {
-    "n": "61490",
-    "exports": {
-      "queryId": "rD5gLxVmMvtdtYU1UHWlFQ",
-      "operationName": "UserAccountLabel",
-      "operationType": "query",
       "metadata": {
         "featureSwitches": [],
         "fieldToggles": [],
