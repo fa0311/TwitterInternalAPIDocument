@@ -7012,3 +7012,36 @@
 - rweb_ssp_ads_refresh_enabled<br>
 #### remove<br>
 - rweb_analytics_post_detail_enabled<br>
+## 2026/01/22<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- responsive_web_grok_article_cover_image_gen_enabled<br>
+#### remove<br>
+- None<br>
+## 2026/01/23<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- post_ctas_surfaces_enabled<br>
+#### remove<br>
+- None<br>
+## 2026/01/27<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- post_ctas_surfaces_enabled<br>

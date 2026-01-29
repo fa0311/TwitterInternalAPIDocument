@@ -1,1 +1,110 @@
-[]
+[
+  {
+    "queryId": "badge_count/badge_count",
+    "dispatch_key": "getURT",
+    "dispatch": [
+      "get",
+      "URT",
+      "https://x.com/i/api/2/{queryId}.json"
+    ]
+  },
+  {
+    "queryId": "guide/get_explore_settings",
+    "dispatch_key": "getURT",
+    "dispatch": [
+      "get",
+      "URT",
+      "https://x.com/i/api/2/{queryId}.json"
+    ]
+  },
+  {
+    "queryId": "guide/set_explore_settings",
+    "dispatch_key": "postURT",
+    "dispatch": [
+      "post",
+      "URT",
+      "https://x.com/i/api/2/{queryId}.json"
+    ]
+  },
+  {
+    "queryId": "guide/explore_locations_with_auto_complete",
+    "dispatch_key": "getURT",
+    "dispatch": [
+      "get",
+      "URT",
+      "https://x.com/i/api/2/{queryId}.json"
+    ]
+  },
+  {
+    "queryId": "timeline/reactive",
+    "dispatch_key": "getURT",
+    "dispatch": [
+      "get",
+      "URT",
+      "https://x.com/i/api/2/{queryId}.json"
+    ]
+  },
+  {
+    "queryId": "moments/list_user_moments",
+    "dispatch_key": "getURT",
+    "dispatch": [
+      "get",
+      "URT",
+      "https://x.com/i/api/2/{queryId}.json"
+    ]
+  },
+  {
+    "queryId": "guide",
+    "dispatch_key": "getURT",
+    "dispatch": [
+      "get",
+      "URT",
+      "https://x.com/i/api/2/{queryId}.json"
+    ]
+  },
+  {
+    "queryId": "guide/topic",
+    "dispatch_key": "getURT",
+    "dispatch": [
+      "get",
+      "URT",
+      "https://x.com/i/api/2/{queryId}.json"
+    ]
+  },
+  {
+    "queryId": "onboarding/fetch_user_recommendations_urt",
+    "dispatch_key": "getURT",
+    "dispatch": [
+      "get",
+      "URT",
+      "https://x.com/i/api/2/{queryId}.json"
+    ]
+  },
+  {
+    "queryId": "people_discovery/modules_urt",
+    "dispatch_key": "getURT",
+    "dispatch": [
+      "get",
+      "URT",
+      "https://x.com/i/api/2/{queryId}.json"
+    ]
+  },
+  {
+    "queryId": "search/adaptive",
+    "dispatch_key": "getURT",
+    "dispatch": [
+      "get",
+      "URT",
+      "https://x.com/i/api/2/{queryId}.json"
+    ]
+  },
+  {
+    "queryId": "timeline/fixture",
+    "dispatch_key": "getURT",
+    "dispatch": [
+      "get",
+      "URT",
+      "https://x.com/i/api/2/{queryId}.json"
+    ]
+  }
+]

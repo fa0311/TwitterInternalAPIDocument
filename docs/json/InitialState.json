@@ -827,7 +827,7 @@
         "value": "30000"
       },
       "gryphon_timeline_polling_overrides": {
-        "value": "explore,,60000"
+        "value": "explore,,60000;search,latest,60000"
       },
       "gryphon_timeline_polling_top_interval_ms": {
         "value": "120000"
@@ -1157,7 +1157,7 @@
         "value": "false"
       },
       "payments_cheques_deposits_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "payments_crb_iframe_delay_msecs": {
         "value": "1000"
@@ -1670,6 +1670,9 @@
         "value": "false"
       },
       "responsive_web_grok_api_enable_grok_host": {
+        "value": "true"
+      },
+      "responsive_web_grok_article_cover_image_gen_enabled": {
         "value": "true"
       },
       "responsive_web_grok_atgrok_sample_rate": {
@@ -2611,6 +2614,9 @@
       "rweb_ssp_ads_enabled": {
         "value": "false"
       },
+      "rweb_ssp_ads_refresh_enabled": {
+        "value": "true"
+      },
       "rweb_starter_packs_topics_tab_enabled": {
         "value": "false"
       },
@@ -2618,7 +2624,7 @@
         "value": "true"
       },
       "rweb_tipjar_consumption_enabled": {
-        "value": "true"
+        "value": "false"
       },
       "rweb_tweets_boosting_enabled": {
         "value": "false"
@@ -3025,7 +3031,7 @@
         "value": "true"
       },
       "subscriptions_management_tier_switch_polling_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "subscriptions_management_tier_switch_success_screen_enabled": {
         "value": "true"
@@ -3742,7 +3748,7 @@
         "value": "true"
       },
       "vo_upsell_profile_button_enabled": {
-        "value": "true"
+        "value": "false"
       },
       "vod_attribution_tweet_detail_pivot_enabled": {
         "value": "true"
@@ -5042,7 +5048,7 @@
           "value": "false"
         },
         "payments_cheques_deposits_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "payments_crb_iframe_delay_msecs": {
           "value": "1000"
@@ -5555,6 +5561,9 @@
           "value": "false"
         },
         "responsive_web_grok_api_enable_grok_host": {
+          "value": "true"
+        },
+        "responsive_web_grok_article_cover_image_gen_enabled": {
           "value": "true"
         },
         "responsive_web_grok_atgrok_sample_rate": {
@@ -6506,7 +6515,7 @@
           "value": "true"
         },
         "rweb_tipjar_consumption_enabled": {
-          "value": "true"
+          "value": "false"
         },
         "rweb_tweets_boosting_enabled": {
           "value": "true"
@@ -6566,7 +6575,7 @@
           "value": "false"
         },
         "rweb_xp_forwarded_for_enabled": {
-          "value": "true"
+          "value": "false"
         },
         "sc_mock_data_enabled": {
           "value": "false"
@@ -6913,7 +6922,7 @@
           "value": "true"
         },
         "subscriptions_management_tier_switch_polling_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "subscriptions_management_tier_switch_success_screen_enabled": {
           "value": "true"
@@ -7630,7 +7639,7 @@
           "value": "true"
         },
         "vo_upsell_profile_button_enabled": {
-          "value": "true"
+          "value": "false"
         },
         "vod_attribution_tweet_detail_pivot_enabled": {
           "value": "true"
@@ -7878,10 +7887,10 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "1782ce6a3efddca4a0fefe0c6615dbed"
+      "settingsVersion": "99f2be0df7a8acd2f7c93c45cdd6f8c8"
     },
     "debug": {},
-    "featureSetToken": "7ed1c887b5e88121e6228c70a7cc1250551c6384",
+    "featureSetToken": "a9f2e1167e8ae7ee362246db40efdfe90ef141d1",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -7951,7 +7960,7 @@
   },
   "session": {
     "country": "XX",
-    "guestId": "176902955185625268",
+    "guestId": "176963435313292877",
     "hasCommunityMemberships": "false",
     "isActiveCreator": "false",
     "isLoaded": "false",
