@@ -6976,7 +6976,7 @@
           "value": "false"
         },
         "subscriptions_offers_premium_nav_indicator_enabled": {
-          "value": "true"
+          "value": "false"
         },
         "subscriptions_offers_special_perk_enabled": {
           "value": "false"
@@ -7887,7 +7887,7 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "99f2be0df7a8acd2f7c93c45cdd6f8c8"
+      "settingsVersion": "d5ab7b23028d0a5ff3fa31f937939163"
     },
     "debug": {},
     "featureSetToken": "4841fc50cea4bc6cb5477388734a9c9224a27599",
@@ -7960,7 +7960,7 @@
   },
   "session": {
     "country": "XX",
-    "guestId": "176972121697094952",
+    "guestId": "176980773144330495",
     "hasCommunityMemberships": "false",
     "isActiveCreator": "false",
     "isLoaded": "false",
