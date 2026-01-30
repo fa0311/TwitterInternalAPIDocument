@@ -8568,6 +8568,12 @@ This document is entirely auto-generated and may contain errors.<br>
 | BankCardLinkingSessionStatusRejected    | BankCardLinkingSessionStatusRejected    |
 | BankCardLinkingSessionStatusUnspecified | BankCardLinkingSessionStatusUnspecified |
 
+| constant                                          | value                                             |
+|:--------------------------------------------------|:--------------------------------------------------|
+| BankCardLinkingSessionSubmissionStatusFailed      | BankCardLinkingSessionSubmissionStatusFailed      |
+| BankCardLinkingSessionSubmissionStatusSucceeded   | BankCardLinkingSessionSubmissionStatusSucceeded   |
+| BankCardLinkingSessionSubmissionStatusUnspecified | BankCardLinkingSessionSubmissionStatusUnspecified |
+
 | constant                               | value                                  |
 |:---------------------------------------|:---------------------------------------|
 | BankCardLinkingSessionThemeDark        | BankCardLinkingSessionThemeDark        |
@@ -8971,6 +8977,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | reverse       | reverse       |
 | card          | card          |
 | transferLink  | transferLink  |
+| payout        | payout        |
 
 | constant                 | value                    |
 |:-------------------------|:-------------------------|
@@ -9097,19 +9104,19 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{[T.g.Cancelled]:"u().f93c4b6a",[T.g.Failed]:"u().jf1576ba",[T.g.Expired]:"u().eb4e810a",[T.g.Pending]:"Ze",[T.g.Hold]:"Ze",[T.g.AuthorizationOpen]:"Ze",[T.g.AwaitingUnrecognizedConfirmation]:"u().hc20de4e",[T.g.PendingReview]:"u().dd3d10f6",[T.g.PendingRecipientAction]:"Ze",[T.g.PendingRecipientOnb...
+{[T.g.Cancelled]:"u().f93c4b6a",[T.g.Failed]:"u().jf1576ba",[T.g.Expired]:"u().eb4e810a",[T.g.Pending]:"we",[T.g.Hold]:"we",[T.g.AuthorizationOpen]:"we",[T.g.AwaitingUnrecognizedConfirmation]:"u().hc20de4e",[T.g.PendingReview]:"u().dd3d10f6",[T.g.PendingRecipientAction]:"we",[T.g.PendingRecipientOnb...
 ```
 ```internal process
 # Error
-{[I.P.RejectedLimitsExceeded]:{"default":"Me"},[I.P.ProviderLimitsExceeded]:{"default":"Me"},[I.P.InReview]:{"default":"u().dd3d10f6"},[I.P.RejectedByUnsupportedRegion]:{"default":"u().ce26fa44"},[I.P.RejectedNotSufficientFunds]:{"default":"u().d8240266",[j.B.Aft]:"u().eaef8954"},[I.P.ExternalLimits...
+{[I.P.RejectedLimitsExceeded]:{"default":"Ae"},[I.P.ProviderLimitsExceeded]:{"default":"Ae"},[I.P.InReview]:{"default":"u().dd3d10f6"},[I.P.RejectedByUnsupportedRegion]:{"default":"u().ce26fa44"},[I.P.RejectedNotSufficientFunds]:{"default":"u().d8240266",[j.B.Aft]:"u().eaef8954"},[I.P.ExternalLimits...
 ```
 ```internal process
 # Error
-{[T.g.PendingRecipientAcceptance]:"$",[T.g.PendingRecipientOnboarding]:"$",[T.g.PendingRecipientAction]:"$"}
+{[T.g.PendingRecipientAcceptance]:"Y",[T.g.PendingRecipientOnboarding]:"Y",[T.g.PendingRecipientAction]:"Y"}
 ```
 ```internal process
 # Error
-{[T.g.AwaitingRequestAcceptance]:"$",[T.g.PendingRequestAcceptance]:"$",[T.g.RequestVerificationRequired]:"$"}
+{[T.g.AwaitingRequestAcceptance]:"Y",[T.g.PendingRequestAcceptance]:"Y",[T.g.RequestVerificationRequired]:"Y"}
 ```
 ```internal process
 # Error
@@ -9129,7 +9136,7 @@ This document is entirely auto-generated and may contain errors.<br>
 ```
 ```internal process
 # Error
-{[x.D.LoginRequired]:"u().d87f82b4",[x.D.Invalid]:"u().iaad96d0",[x.D.Pending]:"Ze",[x.D.Revoked]:"u().i31b3ed4",[x.D.Canceled]:"u().a89b0322",[x.D.Inactive]:"u().ac43b354",[x.D.Expired]:"u().eb4e810a"}
+{[x.D.LoginRequired]:"u().d87f82b4",[x.D.Invalid]:"u().iaad96d0",[x.D.Pending]:"we",[x.D.Revoked]:"u().i31b3ed4",[x.D.Canceled]:"u().a89b0322",[x.D.Inactive]:"u().ac43b354",[x.D.Expired]:"u().eb4e810a"}
 ```
 ```internal process
 # Error
@@ -9137,7 +9144,7 @@ This document is entirely auto-generated and may contain errors.<br>
 ```
 ```internal process
 # Error
-{[j.B.Ach]:"Ge",[j.B.Aft]:"en",[j.B.Oct]:"$e",[j.B.Rtp]:"Ye",[j.B.Rfp]:"Je",[j.B.Wire]:"nn",[j.B.Check]:"u().f61ada4e",[j.B.ProviderBankTransfer]:"u().a418353e",[j.B.Cash]:"u().g98c7cd2"}
+{[j.B.Ach]:"$e",[j.B.Aft]:"nn",[j.B.Oct]:"Ye",[j.B.Rtp]:"Je",[j.B.Rfp]:"en",[j.B.Wire]:"an",[j.B.Check]:"u().f61ada4e",[j.B.ProviderBankTransfer]:"u().a418353e",[j.B.Cash]:"u().g98c7cd2"}
 ```
 ```internal process
 # Error
@@ -9145,7 +9152,7 @@ This document is entirely auto-generated and may contain errors.<br>
 ```
 ```internal process
 # Error
-{[C.R.Ach]:"Ge",[C.R.Aft]:"en",[C.R.Rfp]:"Je",[C.R.Rtp]:"Ye",[S.t.Oct]:"$e",[S.t.Rtp]:"Ye",[S.t.DomesticWire]:"nn",[S.t.Ach]:"Ge"}
+{[C.R.Ach]:"$e",[C.R.Aft]:"nn",[C.R.Rfp]:"en",[C.R.Rtp]:"Je",[S.t.Oct]:"Ye",[S.t.Rtp]:"Je",[S.t.DomesticWire]:"an",[S.t.Ach]:"$e"}
 ```
 | constant   | value                                                                |
 |:-----------|:---------------------------------------------------------------------|
