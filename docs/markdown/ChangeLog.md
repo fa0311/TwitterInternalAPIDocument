@@ -7983,3 +7983,22 @@
 - subscriptions_premium_hub_more_benefits_section_enabled<br>
 #### remove<br>
 - subscriptions_premium_hub_updated_theme_enabled<br>
+## 2026/01/31<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- rweb_xchat_dogfood_logs_enabled<br>
+- xchat_additional_reply_preview_validation_send<br>
+- xchat_enable_forward_message_v2<br>
+- xchat_local_drafts<br>
+- xchat_passcode_options_enabled<br>
+- xchat_ratchet_group_id_threshold<br>
+- xchat_share_to_ig_story<br>
+- xchat_standalone_push_notifications<br>
+- xchat_voice_messages_enabled<br>
+#### remove<br>
+- None<br>
