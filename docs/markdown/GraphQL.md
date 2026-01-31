@@ -5460,7 +5460,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## BirdwatchFetchContributorNotesSlice<br>
-Request URL: `https://x.com/i/api/graphql/a9Yx4zeW2Ds0owwYfz2Epg/BirdwatchFetchContributorNotesSlice`<br>
+Request URL: `https://x.com/i/api/graphql/GtpVqnRxN2l4WCxcwUc74w/BirdwatchFetchContributorNotesSlice`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -5534,7 +5534,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## BirdwatchCreateNote<br>
-Request URL: `https://x.com/i/api/graphql/PEQKuLNTTPFmQh4IGWRZig/BirdwatchCreateNote`<br>
+Request URL: `https://x.com/i/api/graphql/5C70fm3FYkGJNwziXV_n4g/BirdwatchCreateNote`<br>
 Request Method: `POST`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -5776,7 +5776,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## BirdwatchFetchNotes<br>
-Request URL: `https://x.com/i/api/graphql/JsRczz4SyLdTOk8kI2Rn_w/BirdwatchFetchNotes`<br>
+Request URL: `https://x.com/i/api/graphql/2sMJDMMd4ggHSCyMXTnFhg/BirdwatchFetchNotes`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -5803,7 +5803,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## BirdwatchFetchOneNote<br>
-Request URL: `https://x.com/i/api/graphql/Vxz4l9buoOzYWnkizNkIoA/BirdwatchFetchOneNote`<br>
+Request URL: `https://x.com/i/api/graphql/uw3EE3odlz4bA-0KlWvbdA/BirdwatchFetchOneNote`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -5919,7 +5919,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## BirdwatchFetchSuggestionFeedbackOverview<br>
-Request URL: `https://x.com/i/api/graphql/BLzVk4W_a68CqgWOND4j_g/BirdwatchFetchSuggestionFeedbackOverview`<br>
+Request URL: `https://x.com/i/api/graphql/jbcc8HA22WRf0io-JKDhEg/BirdwatchFetchSuggestionFeedbackOverview`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
