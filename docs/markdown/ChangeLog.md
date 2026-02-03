@@ -8002,3 +8002,15 @@
 - xchat_voice_messages_enabled<br>
 #### remove<br>
 - None<br>
+## 2026/02/03<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- responsive_web_birdwatch_public_suggestions_tab_enabled<br>
+#### remove<br>
+- reply_sorting_enabled<br>
+- responsive_web_delete_tweet_stats_enabled<br>
