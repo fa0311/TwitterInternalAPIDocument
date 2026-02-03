@@ -1300,9 +1300,6 @@
       "recruiting_verified_orgs_enroll_allowed": {
         "value": "true"
       },
-      "reply_sorting_enabled": {
-        "value": "true"
-      },
       "report_center_mvp_r1_enabled": {
         "value": "true"
       },
@@ -1456,6 +1453,9 @@
       "responsive_web_birdwatch_pivots_enabled": {
         "value": "true"
       },
+      "responsive_web_birdwatch_public_suggestions_tab_enabled": {
+        "value": "false"
+      },
       "responsive_web_birdwatch_rating_crowd_enabled": {
         "value": "true"
       },
@@ -1568,9 +1568,6 @@
         "value": "true"
       },
       "responsive_web_dcm_2_enabled": {
-        "value": "true"
-      },
-      "responsive_web_delete_tweet_stats_enabled": {
         "value": "true"
       },
       "responsive_web_device_follow_without_user_follow_enabled": {
@@ -5218,9 +5215,6 @@
         "recruiting_verified_orgs_enroll_allowed": {
           "value": "true"
         },
-        "reply_sorting_enabled": {
-          "value": "true"
-        },
         "report_center_mvp_r1_enabled": {
           "value": "true"
         },
@@ -5374,6 +5368,9 @@
         "responsive_web_birdwatch_pivots_enabled": {
           "value": "true"
         },
+        "responsive_web_birdwatch_public_suggestions_tab_enabled": {
+          "value": "false"
+        },
         "responsive_web_birdwatch_rating_crowd_enabled": {
           "value": "true"
         },
@@ -5414,7 +5411,7 @@
           "value": "off"
         },
         "responsive_web_card_image_poll_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "responsive_web_card_preconnect_enabled": {
           "value": "false"
@@ -5486,9 +5483,6 @@
           "value": "true"
         },
         "responsive_web_dcm_2_enabled": {
-          "value": "true"
-        },
-        "responsive_web_delete_tweet_stats_enabled": {
           "value": "true"
         },
         "responsive_web_device_follow_without_user_follow_enabled": {
@@ -5864,7 +5858,7 @@
           "value": "false"
         },
         "responsive_web_image_poll_composer_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "responsive_web_impression_tracker_refactor_enabled": {
           "value": "true"
@@ -7941,10 +7935,10 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "99f2be0df7a8acd2f7c93c45cdd6f8c8"
+      "settingsVersion": "30c777e84805b48a18d45413bb5879a3"
     },
     "debug": {},
-    "featureSetToken": "17ae658a61f79bc5cf57926a3537690b8049179d",
+    "featureSetToken": "f1c227666deba52cd54acb061cdabdf979cdff7c",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -8014,7 +8008,7 @@
   },
   "session": {
     "country": "XX",
-    "guestId": "176998031264326738",
+    "guestId": "177015355400459127",
     "hasCommunityMemberships": "false",
     "isActiveCreator": "false",
     "isLoaded": "false",
