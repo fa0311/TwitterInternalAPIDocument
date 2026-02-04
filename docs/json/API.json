@@ -1200,8 +1200,8 @@
       "features": {}
     },
     "CreateNoteTweet": {
-      "url": "https://x.com/i/api/graphql/s99deDB7rDNwNsS3V25BOg/CreateNoteTweet",
-      "queryId": "s99deDB7rDNwNsS3V25BOg",
+      "url": "https://x.com/i/api/graphql/6Ak7CMnfEMT5bLuk3SEuVA/CreateNoteTweet",
+      "queryId": "6Ak7CMnfEMT5bLuk3SEuVA",
       "method": "POST",
       "features": {
         "premium_content_api_read_enabled": false,
@@ -1247,8 +1247,8 @@
       "features": {}
     },
     "CreateTweet": {
-      "url": "https://x.com/i/api/graphql/z0m4Q8u_67R9VOSMXU_MWg/CreateTweet",
-      "queryId": "z0m4Q8u_67R9VOSMXU_MWg",
+      "url": "https://x.com/i/api/graphql/F3SgNCEemikyFA5xnQOmTw/CreateTweet",
+      "queryId": "F3SgNCEemikyFA5xnQOmTw",
       "method": "POST",
       "features": {
         "premium_content_api_read_enabled": false,
@@ -4242,12 +4242,6 @@
       "method": "POST",
       "features": {}
     },
-    "AuthenticatedUserTFLists": {
-      "url": "https://x.com/i/api/graphql/QjN8ZdavFDqxUjNn3r9cig/AuthenticatedUserTFLists",
-      "queryId": "QjN8ZdavFDqxUjNn3r9cig",
-      "method": "GET",
-      "features": {}
-    },
     "CreateDraftTweet": {
       "url": "https://x.com/i/api/graphql/cH9HZWz_EW9gnswvA4ZRiQ/CreateDraftTweet",
       "queryId": "cH9HZWz_EW9gnswvA4ZRiQ",
@@ -4257,12 +4251,6 @@
     "CreateScheduledTweet": {
       "url": "https://x.com/i/api/graphql/LCVzRQGxOaGnOnYH01NQXg/CreateScheduledTweet",
       "queryId": "LCVzRQGxOaGnOnYH01NQXg",
-      "method": "POST",
-      "features": {}
-    },
-    "CreateTrustedFriendsList": {
-      "url": "https://x.com/i/api/graphql/2tP8XUYeLHKjq5RHvuvpZw/CreateTrustedFriendsList",
-      "queryId": "2tP8XUYeLHKjq5RHvuvpZw",
       "method": "POST",
       "features": {}
     },
