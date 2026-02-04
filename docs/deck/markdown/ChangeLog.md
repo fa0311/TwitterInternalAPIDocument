@@ -7087,3 +7087,14 @@
 #### remove<br>
 - reply_sorting_enabled<br>
 - responsive_web_delete_tweet_stats_enabled<br>
+## 2026/02/04<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- trusted_friends_tweet_creation_enabled<br>
