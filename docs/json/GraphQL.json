@@ -4370,7 +4370,7 @@
   {
     "n": "724",
     "exports": {
-      "queryId": "s99deDB7rDNwNsS3V25BOg",
+      "queryId": "6Ak7CMnfEMT5bLuk3SEuVA",
       "operationName": "CreateNoteTweet",
       "operationType": "mutation",
       "metadata": {
@@ -4541,7 +4541,7 @@
   {
     "n": "95240",
     "exports": {
-      "queryId": "z0m4Q8u_67R9VOSMXU_MWg",
+      "queryId": "F3SgNCEemikyFA5xnQOmTw",
       "operationName": "CreateTweet",
       "operationType": "mutation",
       "metadata": {
@@ -15472,19 +15472,6 @@
     }
   },
   {
-    "n": "53601",
-    "exports": {
-      "queryId": "QjN8ZdavFDqxUjNn3r9cig",
-      "operationName": "AuthenticatedUserTFLists",
-      "operationType": "query",
-      "metadata": {
-        "featureSwitches": [],
-        "fieldToggles": [],
-        "featureSwitch": {}
-      }
-    }
-  },
-  {
     "n": "70680",
     "exports": {
       "queryId": "cH9HZWz_EW9gnswvA4ZRiQ",
@@ -15502,19 +15489,6 @@
     "exports": {
       "queryId": "LCVzRQGxOaGnOnYH01NQXg",
       "operationName": "CreateScheduledTweet",
-      "operationType": "mutation",
-      "metadata": {
-        "featureSwitches": [],
-        "fieldToggles": [],
-        "featureSwitch": {}
-      }
-    }
-  },
-  {
-    "n": "15294",
-    "exports": {
-      "queryId": "2tP8XUYeLHKjq5RHvuvpZw",
-      "operationName": "CreateTrustedFriendsList",
       "operationType": "mutation",
       "metadata": {
         "featureSwitches": [],
