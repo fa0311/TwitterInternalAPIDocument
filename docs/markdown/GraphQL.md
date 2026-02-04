@@ -1533,7 +1533,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## CreateNoteTweet<br>
-Request URL: `https://x.com/i/api/graphql/s99deDB7rDNwNsS3V25BOg/CreateNoteTweet`<br>
+Request URL: `https://x.com/i/api/graphql/6Ak7CMnfEMT5bLuk3SEuVA/CreateNoteTweet`<br>
 Request Method: `POST`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -1591,7 +1591,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## CreateTweet<br>
-Request URL: `https://x.com/i/api/graphql/z0m4Q8u_67R9VOSMXU_MWg/CreateTweet`<br>
+Request URL: `https://x.com/i/api/graphql/F3SgNCEemikyFA5xnQOmTw/CreateTweet`<br>
 Request Method: `POST`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -5279,17 +5279,6 @@ Login Required: `...`<br>
 `None`<br>
 #### queryId<br>
 `None`<br>
-## AuthenticatedUserTFLists<br>
-Request URL: `https://x.com/i/api/graphql/QjN8ZdavFDqxUjNn3r9cig/AuthenticatedUserTFLists`<br>
-Request Method: `GET`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-`None`<br>
-#### queryId<br>
-`None`<br>
 ## CreateDraftTweet<br>
 Request URL: `https://x.com/i/api/graphql/cH9HZWz_EW9gnswvA4ZRiQ/CreateDraftTweet`<br>
 Request Method: `POST`<br>
@@ -5303,17 +5292,6 @@ Login Required: `...`<br>
 `None`<br>
 ## CreateScheduledTweet<br>
 Request URL: `https://x.com/i/api/graphql/LCVzRQGxOaGnOnYH01NQXg/CreateScheduledTweet`<br>
-Request Method: `POST`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-`None`<br>
-#### queryId<br>
-`None`<br>
-## CreateTrustedFriendsList<br>
-Request URL: `https://x.com/i/api/graphql/2tP8XUYeLHKjq5RHvuvpZw/CreateTrustedFriendsList`<br>
 Request Method: `POST`<br>
 Login Required: `...`<br>
 ### Param<br>
