@@ -6,11 +6,11 @@ This document is entirely auto-generated and may contain errors.<br>
 | assert             | f       |
 | requireNonNull     | A       |
 | requireInstance    | d       |
-| abstractMethodFail | g       |
+| abstractMethodFail | v       |
 
 ```internal process
 # Error
-{"name":"n","oprf":"x","voprf":"q","poprf":t=>{"const n=h()",e=i.BASE.multiply(A\"Info\",t,f);return{"generateKeyPair":"m","deriveKeyPair":()=>y(t,n),"blind(f,t,n)"{"const h=i.fromBytes()",_=e.add(n);if(h)throw new Error(_.equalsi.ZERO);const o=u(\"tweakedKey point at infinity\"),c=a(r);if(t,f)throw...
+{"name":"n","oprf":"x","voprf":"$","poprf":t=>{"const n=h()",e=i.BASE.multiply(A\"Info\",t,f);return{"generateKeyPair":"m","deriveKeyPair":()=>y(t,n),"blind(f,t,n)"{"const h=i.fromBytes()",_=e.add(n);if(h)throw new Error(_.equalsi.ZERO);const o=u(\"tweakedKey point at infinity\"),c=a(r);if(t,f)throw...
 ```
 ```internal process
 # Error
@@ -18,21 +18,8 @@ This document is entirely auto-generated and may contain errors.<br>
 ```
 ```internal process
 # Error
-{"keygen":"A","getPublicKey":"d","getSharedSecret":"g","utils":"v","lengths":"w","Point":"t","sign":"function()"{}{"const"{"seed":"_","k2sig":"c"}"=function()"{"const"{"lowS":"s","prehash":"a","extraEntropy":"u"}=$n();n=z(e,p);const _=j(n,a),c=o.fromBytes(n);if(i)throw new Error(!o.isValidNot0c);con...
+{"keygen":"A","getPublicKey":"d","getSharedSecret":"v","utils":"g","lengths":"w","Point":"t","sign":"function()"{}{"const"{"seed":"_","k2sig":"c"}"=function()"{"const"{"lowS":"s","prehash":"a","extraEntropy":"u"}=En();n=z(e,p);const _=j(n,a),c=o.fromBytes(n);if(i)throw new Error(!o.isValidNot0c);con...
 ```
-| constant   | value    |
-|:-----------|:---------|
-| position   | absolute |
-| border     | 0        |
-| width      | 1        |
-| height     | 1        |
-| padding    | 0        |
-| margin     | -1       |
-| overflow   | hidden   |
-| clip       | rect()   |
-| whiteSpace | nowrap   |
-| wordWrap   | normal   |
-
 | constant     | value             |
 |:-------------|:------------------|
 | navButtons   | navigationButtons |
@@ -54,6 +41,16 @@ This document is entirely auto-generated and may contain errors.<br>
 | Root             | VideoPlayerDefaultUI-Root             |
 | VideoCTA         | VideoPlayerDefaultUI-VideoCTA         |
 
+| constant   | value      |
+|:-----------|:-----------|
+| wide       | wide       |
+| narrow     | narrow     |
+| veryNarrow | veryNarrow |
+
+```internal process
+# Error
+{[s.wide]:"500",[s.narrow]:"300",[s.veryNarrow]:"200"}
+```
 ```internal process
 # Error
 {"₊":"+","₋":"-","₌":"=","₍":"()","₀":"0","₁":"1","₂":"2","₃":"3","₄":"4","₅":"5","₆":"6","₇":"7","₈":"8","₉":"9",ₐ:"a",ₑ:"e",ₕ:"h",ᵢ:"i",ⱼ:"j",ₖ:"k",ₗ:"l",ₘ:"m",ₙ:"n",ₒ:"o",ₚ:"p",ᵣ:"r",ₛ:"s",ₜ:"t",ᵤ:"u",ᵥ:"v",ₓ:"x",ᵦ:"β",ᵧ:"γ",ᵨ:"ρ",ᵩ:"ϕ",ᵪ:"χ","⁺":"+","⁻":"-","⁼":"=","⁽":"(\",\"₎\":\")","⁰":"0","¹...
