@@ -1410,7 +1410,7 @@
         "value": "false"
       },
       "responsive_web_birdwatch_live_note_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "responsive_web_birdwatch_match_page_enabled": {
         "value": "true"
@@ -1449,7 +1449,7 @@
         "value": "true"
       },
       "responsive_web_birdwatch_public_suggestions_tab_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "responsive_web_birdwatch_rating_crowd_enabled": {
         "value": "true"
@@ -1474,6 +1474,9 @@
       },
       "responsive_web_birdwatch_suggestion_writer_impact_cutoff": {
         "value": "2"
+      },
+      "responsive_web_birdwatch_suggestions_report_enabled": {
+        "value": "false"
       },
       "responsive_web_birdwatch_top_contributor_enabled": {
         "value": "true"
@@ -1659,7 +1662,7 @@
         "value": "20"
       },
       "responsive_web_grok_annotations_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "responsive_web_grok_api_enable_grok_host": {
         "value": "true"
@@ -5322,7 +5325,7 @@
           "value": "false"
         },
         "responsive_web_birdwatch_live_note_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "responsive_web_birdwatch_match_page_enabled": {
           "value": "true"
@@ -5361,7 +5364,7 @@
           "value": "true"
         },
         "responsive_web_birdwatch_public_suggestions_tab_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "responsive_web_birdwatch_rating_crowd_enabled": {
           "value": "true"
@@ -5386,6 +5389,9 @@
         },
         "responsive_web_birdwatch_suggestion_writer_impact_cutoff": {
           "value": "2"
+        },
+        "responsive_web_birdwatch_suggestions_report_enabled": {
+          "value": "false"
         },
         "responsive_web_birdwatch_top_contributor_enabled": {
           "value": "true"
@@ -5571,7 +5577,7 @@
           "value": "20"
         },
         "responsive_web_grok_annotations_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "responsive_web_grok_api_enable_grok_host": {
           "value": "true"
@@ -7927,7 +7933,7 @@
       "settingsVersion": "99f2be0df7a8acd2f7c93c45cdd6f8c8"
     },
     "debug": {},
-    "featureSetToken": "77247d7efd95c1d84c2131a310a08864d31c10e0",
+    "featureSetToken": "ee50148d36d182c4476683fabf38055f12bf6129",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -7997,7 +8003,7 @@
   },
   "session": {
     "country": "XX",
-    "guestId": "177023988317054946",
+    "guestId": "177032597294076535",
     "hasCommunityMemberships": "false",
     "isActiveCreator": "false",
     "isLoaded": "false",
