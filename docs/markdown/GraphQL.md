@@ -545,7 +545,7 @@ Login Required: `...`<br>
 #### variables<br>
 | key           | type   | variable   |
 |:--------------|:-------|:-----------|
-| ...()(0,Bn.S) | ...    | _          |
+| ...()(0,Nn.S) | ...    | _          |
 | ...t          | ...    | _          |
 
 #### features<br>
@@ -966,7 +966,7 @@ Login Required: `...`<br>
 |:---------------------------|:-------|:-----------|
 | ...t                       | ...    | _          |
 | withCommunity              | ...    | n.isTrue() |
-| ...("c9s_enabled")(0,Bn.d) | ...    | _          |
+| ...("c9s_enabled")(0,Nn.d) | ...    | _          |
 
 #### features<br>
 | key                                                                     | type    | variable   |
@@ -1207,7 +1207,7 @@ Login Required: `...`<br>
 |:--------------|:-------|:--------------|
 | communityId   | ...    | t.communityId |
 | answer        | ...    | t.answer      |
-| ...()(0,Bn.S) | ...    | _             |
+| ...()(0,Nn.S) | ...    | _             |
 
 #### features<br>
 | key                                                               | type    | variable   |
@@ -4889,7 +4889,11 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-`None`<br>
+| key            | type   | variable   |
+|:---------------|:-------|:-----------|
+| content_state  | ...    | o          |
+| article_entity | ...    | i          |
+
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
@@ -10375,28 +10379,6 @@ Login Required: `...`<br>
 ## RemoveTweetFromBookmarkFolder<br>
 Request URL: `https://x.com/i/api/graphql/2Qbj9XZvtUvyJB4gFwWfaA/RemoveTweetFromBookmarkFolder`<br>
 Request Method: `POST`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-`None`<br>
-#### queryId<br>
-`None`<br>
-## DisableUserAccountLabel<br>
-Request URL: `https://x.com/i/api/graphql/_ckHEj05gan2VfNHG6thBA/DisableUserAccountLabel`<br>
-Request Method: `POST`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-`None`<br>
-#### queryId<br>
-`None`<br>
-## UserAccountLabel<br>
-Request URL: `https://x.com/i/api/graphql/rD5gLxVmMvtdtYU1UHWlFQ/UserAccountLabel`<br>
-Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
