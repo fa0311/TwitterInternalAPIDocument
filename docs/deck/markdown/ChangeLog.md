@@ -7109,3 +7109,21 @@
 - responsive_web_birdwatch_suggestions_report_enabled<br>
 #### remove<br>
 - None<br>
+## 2026/02/07<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- subscriptions_upsells_home_sidebar_grok_promo<br>
+- xchat_av_call_card_interaction_enabled<br>
+- xchat_enable_av_group<br>
+- xchat_forward_media_max_conversations<br>
+- xchat_forward_media_max_size_mb<br>
+- xchat_inbox_pills_v2_enabled<br>
+- xchat_notification_attachment<br>
+- xchat_settings_enabled<br>
+#### remove<br>
+- None<br>
