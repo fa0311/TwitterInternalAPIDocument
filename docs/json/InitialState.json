@@ -3211,6 +3211,9 @@
       "subscriptions_upsells_home_nav_migration_enabled": {
         "value": "false"
       },
+      "subscriptions_upsells_home_sidebar_grok_promo": {
+        "value": "false"
+      },
       "subscriptions_upsells_home_sidebar_migration_enabled": {
         "value": "false"
       },
@@ -3834,6 +3837,9 @@
       "xchat_auto_upgrade_legacy_groups": {
         "value": "true"
       },
+      "xchat_av_call_card_interaction_enabled": {
+        "value": "false"
+      },
       "xchat_av_call_start_should_notify": {
         "value": "false"
       },
@@ -3853,6 +3859,9 @@
         "value": "true"
       },
       "xchat_enable_av": {
+        "value": "false"
+      },
+      "xchat_enable_av_group": {
         "value": "false"
       },
       "xchat_enable_command_menu": {
@@ -3882,6 +3891,12 @@
       "xchat_fetch_legacy_group_details": {
         "value": "true"
       },
+      "xchat_forward_media_max_conversations": {
+        "value": "5"
+      },
+      "xchat_forward_media_max_size_mb": {
+        "value": "100"
+      },
       "xchat_hybrid_pull_eagerly_fetch_history_after_seconds": {
         "value": -1
       },
@@ -3896,6 +3911,9 @@
       },
       "xchat_inbox_conversation_local_pagination_page_size": {
         "value": "20"
+      },
+      "xchat_inbox_pills_v2_enabled": {
+        "value": "false"
       },
       "xchat_ios_max_io_threads": {
         "value": "0"
@@ -3917,6 +3935,9 @@
       },
       "xchat_max_users_to_fetch_per_request": {
         "value": "100"
+      },
+      "xchat_notification_attachment": {
+        "value": "false"
       },
       "xchat_passcode_options_enabled": {
         "value": "false"
@@ -3944,6 +3965,9 @@
       },
       "xchat_search_repetition_weight": {
         "value": "0.2"
+      },
+      "xchat_settings_enabled": {
+        "value": "false"
       },
       "xchat_share_to_ig_story": {
         "value": "false"
@@ -7126,6 +7150,9 @@
         "subscriptions_upsells_home_nav_migration_enabled": {
           "value": "false"
         },
+        "subscriptions_upsells_home_sidebar_grok_promo": {
+          "value": "false"
+        },
         "subscriptions_upsells_home_sidebar_migration_enabled": {
           "value": "false"
         },
@@ -7749,6 +7776,9 @@
         "xchat_auto_upgrade_legacy_groups": {
           "value": "true"
         },
+        "xchat_av_call_card_interaction_enabled": {
+          "value": "false"
+        },
         "xchat_av_call_start_should_notify": {
           "value": "false"
         },
@@ -7768,6 +7798,9 @@
           "value": "true"
         },
         "xchat_enable_av": {
+          "value": "false"
+        },
+        "xchat_enable_av_group": {
           "value": "false"
         },
         "xchat_enable_command_menu": {
@@ -7797,6 +7830,12 @@
         "xchat_fetch_legacy_group_details": {
           "value": "true"
         },
+        "xchat_forward_media_max_conversations": {
+          "value": "5"
+        },
+        "xchat_forward_media_max_size_mb": {
+          "value": "100"
+        },
         "xchat_hybrid_pull_eagerly_fetch_history_after_seconds": {
           "value": -1
         },
@@ -7811,6 +7850,9 @@
         },
         "xchat_inbox_conversation_local_pagination_page_size": {
           "value": "20"
+        },
+        "xchat_inbox_pills_v2_enabled": {
+          "value": "false"
         },
         "xchat_ios_max_io_threads": {
           "value": "0"
@@ -7832,6 +7874,9 @@
         },
         "xchat_max_users_to_fetch_per_request": {
           "value": "100"
+        },
+        "xchat_notification_attachment": {
+          "value": "false"
         },
         "xchat_passcode_options_enabled": {
           "value": "false"
@@ -7859,6 +7904,9 @@
         },
         "xchat_search_repetition_weight": {
           "value": "0.2"
+        },
+        "xchat_settings_enabled": {
+          "value": "false"
         },
         "xchat_share_to_ig_story": {
           "value": "false"
@@ -7933,7 +7981,7 @@
       "settingsVersion": "99f2be0df7a8acd2f7c93c45cdd6f8c8"
     },
     "debug": {},
-    "featureSetToken": "ee50148d36d182c4476683fabf38055f12bf6129",
+    "featureSetToken": "7983dfdf492de1a93f085a083920e0c726a93c9a",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -8003,7 +8051,7 @@
   },
   "session": {
     "country": "XX",
-    "guestId": "177041195779473444",
+    "guestId": "177049825186492772",
     "hasCommunityMemberships": "false",
     "isActiveCreator": "false",
     "isLoaded": "false",
