@@ -611,9 +611,6 @@
       "creator_subscriptions_email_share_enabled": {
         "value": "true"
       },
-      "creator_subscriptions_quote_tweet_preview_enabled": {
-        "value": "false"
-      },
       "creator_subscriptions_subscribe_action_tweet_menu_enabled": {
         "value": "true"
       },
@@ -3107,7 +3104,7 @@
         "value": "true"
       },
       "subscriptions_premium_hub_more_benefits_section_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "subscriptions_premium_tiers_default_interval": {
         "value": "Month"
@@ -4549,9 +4546,6 @@
         },
         "creator_subscriptions_email_share_enabled": {
           "value": "true"
-        },
-        "creator_subscriptions_quote_tweet_preview_enabled": {
-          "value": "false"
         },
         "creator_subscriptions_subscribe_action_tweet_menu_enabled": {
           "value": "true"
@@ -6905,7 +6899,7 @@
           "value": "false"
         },
         "subscriptions_gifting_tooltip_enabled": {
-          "value": "true"
+          "value": "false"
         },
         "subscriptions_hide_ad_upsell_enabled": {
           "value": "false"
@@ -7046,7 +7040,7 @@
           "value": "true"
         },
         "subscriptions_premium_hub_more_benefits_section_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "subscriptions_premium_tiers_default_interval": {
           "value": "Month"
@@ -7813,7 +7807,7 @@
           "value": "false"
         },
         "xchat_enable_forward_message_v2": {
-          "value": "false"
+          "value": "true"
         },
         "xchat_enable_local_pagination": {
           "value": "true"
@@ -7978,10 +7972,10 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "99f2be0df7a8acd2f7c93c45cdd6f8c8"
+      "settingsVersion": "34ad82549e4a4b74a20de7b06248dd33"
     },
     "debug": {},
-    "featureSetToken": "7983dfdf492de1a93f085a083920e0c726a93c9a",
+    "featureSetToken": "323c832e32c3306027d3c2d780cc0dd7919e3322",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -8051,7 +8045,7 @@
   },
   "session": {
     "country": "XX",
-    "guestId": "177058514517645220",
+    "guestId": "177067192626219937",
     "hasCommunityMemberships": "false",
     "isActiveCreator": "false",
     "isLoaded": "false",
