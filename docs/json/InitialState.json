@@ -611,9 +611,6 @@
       "creator_subscriptions_email_share_enabled": {
         "value": "true"
       },
-      "creator_subscriptions_quote_tweet_preview_enabled": {
-        "value": "false"
-      },
       "creator_subscriptions_subscribe_action_tweet_menu_enabled": {
         "value": "true"
       },
@@ -4550,9 +4547,6 @@
         "creator_subscriptions_email_share_enabled": {
           "value": "true"
         },
-        "creator_subscriptions_quote_tweet_preview_enabled": {
-          "value": "false"
-        },
         "creator_subscriptions_subscribe_action_tweet_menu_enabled": {
           "value": "true"
         },
@@ -6905,7 +6899,7 @@
           "value": "false"
         },
         "subscriptions_gifting_tooltip_enabled": {
-          "value": "true"
+          "value": "false"
         },
         "subscriptions_hide_ad_upsell_enabled": {
           "value": "false"
@@ -7046,7 +7040,7 @@
           "value": "true"
         },
         "subscriptions_premium_hub_more_benefits_section_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "subscriptions_premium_tiers_default_interval": {
           "value": "Month"
@@ -7813,7 +7807,7 @@
           "value": "false"
         },
         "xchat_enable_forward_message_v2": {
-          "value": "false"
+          "value": "true"
         },
         "xchat_enable_local_pagination": {
           "value": "true"
@@ -7978,10 +7972,10 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "99f2be0df7a8acd2f7c93c45cdd6f8c8"
+      "settingsVersion": "3f30427d51b9dc7e781187bf7c932915"
     },
     "debug": {},
-    "featureSetToken": "7983dfdf492de1a93f085a083920e0c726a93c9a",
+    "featureSetToken": "d9ea01440de3dac36e99ceb7fe50917aa834ace6",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -8051,7 +8045,7 @@
   },
   "session": {
     "country": "XX",
-    "guestId": "177058466544669833",
+    "guestId": "177067146500743339",
     "hasCommunityMemberships": "false",
     "isActiveCreator": "false",
     "isLoaded": "false",

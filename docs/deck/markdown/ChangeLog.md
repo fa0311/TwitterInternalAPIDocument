@@ -7127,3 +7127,14 @@
 - xchat_settings_enabled<br>
 #### remove<br>
 - None<br>
+## 2026/02/09<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- creator_subscriptions_quote_tweet_preview_enabled<br>
