@@ -536,7 +536,7 @@ Login Required: `...`<br>
 #### variables<br>
 | key           | type   | variable   |
 |:--------------|:-------|:-----------|
-| ...()(0,Nn.S) | ...    | _          |
+| ...()(0,Bn.S) | ...    | _          |
 | ...t          | ...    | _          |
 
 #### features<br>
@@ -953,7 +953,7 @@ Login Required: `...`<br>
 |:---------------------------|:-------|:-----------|
 | ...t                       | ...    | _          |
 | withCommunity              | ...    | n.isTrue() |
-| ...("c9s_enabled")(0,Nn.d) | ...    | _          |
+| ...("c9s_enabled")(0,Bn.d) | ...    | _          |
 
 #### features<br>
 | key                                                                     | type    | variable   |
@@ -1191,7 +1191,7 @@ Login Required: `...`<br>
 |:--------------|:-------|:--------------|
 | communityId   | ...    | t.communityId |
 | answer        | ...    | t.answer      |
-| ...()(0,Nn.S) | ...    | _             |
+| ...()(0,Bn.S) | ...    | _             |
 
 #### features<br>
 | key                                                               | type    | variable   |
@@ -2596,9 +2596,10 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key            | type   | variable   |
-|:---------------|:-------|:-----------|
-| conversationId | ...    | t          |
+| key                    | type   | variable   |
+|:-----------------------|:-------|:-----------|
+| bookmark_collection_id | ...    | n          |
+| tweet_id               | ...    | o          |
 
 #### features<br>
 | key                                                                     | type    | variable   |
@@ -4816,11 +4817,7 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key            | type   | variable   |
-|:---------------|:-------|:-----------|
-| content_state  | ...    | o          |
-| article_entity | ...    | i          |
-
+`None`<br>
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
@@ -5420,7 +5417,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## BirdwatchFetchContributorNotesSlice<br>
-Request URL: `https://x.com/i/api/graphql/p0rS7OzaUsFzv5vmqJQhZw/BirdwatchFetchContributorNotesSlice`<br>
+Request URL: `https://x.com/i/api/graphql/NCj9b6LWMM1IUawrngTEkA/BirdwatchFetchContributorNotesSlice`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -5876,7 +5873,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## BirdwatchFetchSuggestionFeedbackOverview<br>
-Request URL: `https://x.com/i/api/graphql/LtQdhPpi5kMZcBXMvoVPrg/BirdwatchFetchSuggestionFeedbackOverview`<br>
+Request URL: `https://x.com/i/api/graphql/BC399HnZUmUHadS8gHKRfA/BirdwatchFetchSuggestionFeedbackOverview`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
