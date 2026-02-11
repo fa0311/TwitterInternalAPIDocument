@@ -4265,8 +4265,8 @@
       }
     },
     "BirdwatchFetchContributorNotesSlice": {
-      "url": "https://x.com/i/api/graphql/p0rS7OzaUsFzv5vmqJQhZw/BirdwatchFetchContributorNotesSlice",
-      "queryId": "p0rS7OzaUsFzv5vmqJQhZw",
+      "url": "https://x.com/i/api/graphql/NCj9b6LWMM1IUawrngTEkA/BirdwatchFetchContributorNotesSlice",
+      "queryId": "NCj9b6LWMM1IUawrngTEkA",
       "method": "GET",
       "features": {
         "responsive_web_birdwatch_media_notes_enabled": true,
@@ -4586,8 +4586,8 @@
       }
     },
     "BirdwatchFetchSuggestionFeedbackOverview": {
-      "url": "https://x.com/i/api/graphql/LtQdhPpi5kMZcBXMvoVPrg/BirdwatchFetchSuggestionFeedbackOverview",
-      "queryId": "LtQdhPpi5kMZcBXMvoVPrg",
+      "url": "https://x.com/i/api/graphql/BC399HnZUmUHadS8gHKRfA/BirdwatchFetchSuggestionFeedbackOverview",
+      "queryId": "BC399HnZUmUHadS8gHKRfA",
       "method": "GET",
       "features": {
         "responsive_web_birdwatch_media_notes_enabled": true,
