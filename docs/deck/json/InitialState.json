@@ -1473,7 +1473,7 @@
         "value": "2"
       },
       "responsive_web_birdwatch_suggestions_report_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "responsive_web_birdwatch_top_contributor_enabled": {
         "value": "true"
@@ -2676,7 +2676,7 @@
         "value": "false"
       },
       "rweb_xchat_standalone_avcall_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "rweb_xp_forwarded_for_enabled": {
         "value": "false"
@@ -3835,7 +3835,7 @@
         "value": "true"
       },
       "xchat_av_call_card_interaction_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "xchat_av_call_start_should_notify": {
         "value": "false"
@@ -3856,7 +3856,7 @@
         "value": "true"
       },
       "xchat_enable_av": {
-        "value": "false"
+        "value": "true"
       },
       "xchat_enable_av_group": {
         "value": "false"
@@ -3946,7 +3946,7 @@
         "value": "9223372036854776000"
       },
       "xchat_render_av_info_items_as_messages": {
-        "value": "false"
+        "value": "true"
       },
       "xchat_sample_observation_queries": {
         "value": "500"
@@ -5409,7 +5409,7 @@
           "value": "2"
         },
         "responsive_web_birdwatch_suggestions_report_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "responsive_web_birdwatch_top_contributor_enabled": {
           "value": "true"
@@ -5601,7 +5601,7 @@
           "value": "true"
         },
         "responsive_web_grok_article_cover_image_gen_enabled": {
-          "value": "true"
+          "value": "false"
         },
         "responsive_web_grok_atgrok_sample_rate": {
           "value": "0.5"
@@ -6612,7 +6612,7 @@
           "value": "false"
         },
         "rweb_xchat_standalone_avcall_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "rweb_xp_forwarded_for_enabled": {
           "value": "false"
@@ -7972,10 +7972,10 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "12173f128bdef8396ade80cf51dc8da8"
+      "settingsVersion": "a14154bd7d15e89bb3c5480691fbb166"
     },
     "debug": {},
-    "featureSetToken": "ea967efccbe5c3cba88efcc68f50830f7f2a6a65",
+    "featureSetToken": "d1419e61376c7505d69391fd21149fde845a9dac",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -8045,7 +8045,7 @@
   },
   "session": {
     "country": "XX",
-    "guestId": "177075847987002637",
+    "guestId": "177084466237076547",
     "hasCommunityMemberships": "false",
     "isActiveCreator": "false",
     "isLoaded": "false",
