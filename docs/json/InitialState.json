@@ -1214,6 +1214,9 @@
       "premium_webview_paywall_force_premium_tier_enabled": {
         "value": "false"
       },
+      "premium_webview_paywall_intro_offer_title_new_copy_enabled": {
+        "value": "false"
+      },
       "premium_webview_paywall_offer_variant": {
         "value": "thanksgiving2025"
       },
@@ -1665,7 +1668,7 @@
         "value": "true"
       },
       "responsive_web_grok_article_cover_image_gen_enabled": {
-        "value": "true"
+        "value": "false"
       },
       "responsive_web_grok_atgrok_sample_rate": {
         "value": "0.5"
@@ -5150,6 +5153,9 @@
         "premium_webview_paywall_force_premium_tier_enabled": {
           "value": "false"
         },
+        "premium_webview_paywall_intro_offer_title_new_copy_enabled": {
+          "value": "false"
+        },
         "premium_webview_paywall_offer_variant": {
           "value": "thanksgiving2025"
         },
@@ -7972,10 +7978,10 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "a14154bd7d15e89bb3c5480691fbb166"
+      "settingsVersion": "99f2be0df7a8acd2f7c93c45cdd6f8c8"
     },
     "debug": {},
-    "featureSetToken": "d1419e61376c7505d69391fd21149fde845a9dac",
+    "featureSetToken": "eb9025806c7c2e6b22b35cf866c3bd49d6839c91",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -8045,7 +8051,7 @@
   },
   "session": {
     "country": "XX",
-    "guestId": "177084419953239910",
+    "guestId": "177093045518083156",
     "hasCommunityMemberships": "false",
     "isActiveCreator": "false",
     "isLoaded": "false",
