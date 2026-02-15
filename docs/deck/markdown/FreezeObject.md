@@ -6,40 +6,24 @@ This document is entirely auto-generated and may contain errors.<br>
 | assert             | f       |
 | requireNonNull     | A       |
 | requireInstance    | d       |
-| abstractMethodFail | g       |
+| abstractMethodFail | v       |
 
 ```internal process
 # Error
-{"name":"n","oprf":"x","voprf":"$","poprf":t=>{"const n=h()",e=i.BASE.multiply(A\"Info\",t,f);return{"generateKeyPair":"m","deriveKeyPair":()=>y(t,n),"blind(f,t,n)"{"const h=i.fromBytes()",_=e.add(n);if(h)throw new Error(_.equalsi.ZERO);const o=u(\"tweakedKey point at infinity\"),c=a(r);if(t,f)throw...
+{"name":"i","oprf":"x","voprf":"$","poprf":t=>{"const i=h()",e=n.BASE.multiply(A\"Info\",t,f);return{"generateKeyPair":"y","deriveKeyPair":()=>m(t,i),"blind(f,t,i)"{"const h=n.fromBytes()",_=e.add(i);if(h)throw new Error(_.equalsn.ZERO);const o=u(\"tweakedKey point at infinity\"),c=a(r);if(t,f)throw...
 ```
 ```internal process
 # Error
-{"getPublicKey":"u","getSharedSecret":"function()"{if()throw new Error(!0===_n);if(\"first arg must be private key\")throw new Error(!1===_e);const r=i.fromBytes(\"second arg must be public key\");return t.fromBytes(n).multiply(e).toBytes(r)},"keygen":"c","Point":"t","utils":"o","lengths":"a"}
+{"getPublicKey":"u","getSharedSecret":"function()"{if()throw new Error(!0===_i);if(\"first arg must be private key\")throw new Error(!1===_e);const r=n.fromBytes(\"second arg must be public key\");return t.fromBytes(i).multiply(e).toBytes(r)},"keygen":"c","Point":"t","utils":"o","lengths":"a"}
 ```
 ```internal process
 # Error
-{"keygen":"A","getPublicKey":"d","getSharedSecret":"g","utils":"v","lengths":"w","Point":"t","sign":"function()"{}{"const"{"seed":"_","k2sig":"c"}"=function()"{"const"{"lowS":"s","prehash":"a","extraEntropy":"u"}=En();n=z(e,p);const _=j(n,a),c=o.fromBytes(n);if(i)throw new Error(!o.isValidNot0c);con...
+{"keygen":"A","getPublicKey":"d","getSharedSecret":"v","utils":"g","lengths":"w","Point":"t","sign":"function()"{}{"const"{"seed":"_","k2sig":"c"}"=function()"{"const"{"lowS":"s","prehash":"a","extraEntropy":"u"}=$i();i=z(e,p);const _=j(i,a),c=o.fromBytes(i);if(n)throw new Error(!o.isValidNot0c);con...
 ```
 | constant     | value             |
 |:-------------|:------------------|
 | navButtons   | navigationButtons |
 | carouselRoot | carouselRoot      |
-
-| constant         | value           |
-|:-----------------|:----------------|
-| LIVE_BROADCAST   | liveBroadcast   |
-| REPLAY_BROADCAST | replayBroadcast |
-| VOD              | vod             |
-| GIF              | gif             |
-| SLATE            | slate           |
-
-| constant         | value                                 |
-|:-----------------|:--------------------------------------|
-| A11YHook         | VideoPlayerDefaultUI-A11YHook         |
-| ControlBar       | VideoPlayerDefaultUI-ControlBar       |
-| HashtagHighlight | VideoPlayerDefaultUI-HashtagHighlight |
-| Root             | VideoPlayerDefaultUI-Root             |
-| VideoCTA         | VideoPlayerDefaultUI-VideoCTA         |
 
 | constant   | value      |
 |:-----------|:-----------|
@@ -51,6 +35,13 @@ This document is entirely auto-generated and may contain errors.<br>
 # Error
 {[s.wide]:"500",[s.narrow]:"300",[s.veryNarrow]:"200"}
 ```
+| constant   |   value |
+|:-----------|--------:|
+| large      |      54 |
+| medium     |      46 |
+| small      |      36 |
+| xSmall     |      12 |
+
 ```internal process
 # Error
 {"₊":"+","₋":"-","₌":"=","₍":"()","₀":"0","₁":"1","₂":"2","₃":"3","₄":"4","₅":"5","₆":"6","₇":"7","₈":"8","₉":"9",ₐ:"a",ₑ:"e",ₕ:"h",ᵢ:"i",ⱼ:"j",ₖ:"k",ₗ:"l",ₘ:"m",ₙ:"n",ₒ:"o",ₚ:"p",ᵣ:"r",ₛ:"s",ₜ:"t",ᵤ:"u",ᵥ:"v",ₓ:"x",ᵦ:"β",ᵧ:"γ",ᵨ:"ρ",ᵩ:"ϕ",ᵪ:"χ","⁺":"+","⁻":"-","⁼":"=","⁽":"(\",\"₎\":\")","⁰":"0","¹...
@@ -326,6 +317,34 @@ This document is entirely auto-generated and may contain errors.<br>
 # Error
 {[U.LANDING_PAGE]:{"next":"U.NOTABILITY_CATEGORY_SELECT","scribeComponent":"s.LANDING_PAGE"},[U.NOTABILITY_CATEGORY_SELECT]:{"next":"null","scribeComponent":"s.NOTABILITY_CATEGORY"},[U.ACTIVIST_QUALIFICATIONS]:{"next":"null","scribeComponent":"s.NOTABILITY_METHOD"},[U.ACTIVIST_GOOGLE_TRENDS]:{"next"...
 ```
+| constant   | value                                                     |
+|:-----------|:----------------------------------------------------------|
+| REQUEST    | rweb/settings/profile/ENABLE_VERIFIED_PHONE_LABEL_REQUEST |
+| SUCCESS    | rweb/settings/profile/ENABLE_VERIFIED_PHONE_LABEL_SUCCESS |
+| FAILURE    | rweb/settings/profile/ENABLE_VERIFIED_PHONE_LABEL_FAILURE |
+
+| constant   | value                                                      |
+|:-----------|:-----------------------------------------------------------|
+| REQUEST    | rweb/settings/profile/DISABLE_VERIFIED_PHONE_LABEL_REQUEST |
+| SUCCESS    | rweb/settings/profile/DISABLE_VERIFIED_PHONE_LABEL_SUCCESS |
+| FAILURE    | rweb/settings/profile/DISABLE_VERIFIED_PHONE_LABEL_FAILURE |
+
+| constant   | value                                                    |
+|:-----------|:---------------------------------------------------------|
+| REQUEST    | rweb/settings/profile/FETCH_VERIFIED_PHONE_LABEL_REQUEST |
+| SUCCESS    | rweb/settings/profile/FETCH_VERIFIED_PHONE_LABEL_SUCCESS |
+| FAILURE    | rweb/settings/profile/FETCH_VERIFIED_PHONE_LABEL_FAILURE |
+
+| constant   | value   |
+|:-----------|:--------|
+| IOS        | ios     |
+| ANDROID    | android |
+
+| constant          |   value |
+|:------------------|--------:|
+| APPLE_APP_STORE   |       1 |
+| GOOGLE_PLAY_STORE |       2 |
+
 | constant   | value                                                                                                                |
 |:-----------|:---------------------------------------------------------------------------------------------------------------------|
 | apple      | https://apps.apple.com/account/billing                                                                               |
@@ -440,16 +459,6 @@ This document is entirely auto-generated and may contain errors.<br>
 | Transient         | 6                 |
 | 6                 | Transient         |
 
-| constant   | value      |
-|:-----------|:-----------|
-| wide       | wide       |
-| narrow     | narrow     |
-| veryNarrow | veryNarrow |
-
-```internal process
-# Error
-{[s.wide]:"500",[s.narrow]:"300",[s.veryNarrow]:"200"}
-```
 | constant         | value           |
 |:-----------------|:----------------|
 | LIVE_BROADCAST   | liveBroadcast   |

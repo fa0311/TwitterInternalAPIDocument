@@ -7138,3 +7138,33 @@
 - None<br>
 #### remove<br>
 - creator_subscriptions_quote_tweet_preview_enabled<br>
+## 2026/02/12<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- premium_webview_paywall_intro_offer_title_new_copy_enabled<br>
+#### remove<br>
+- None<br>
+## 2026/02/13<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- responsive_web_birdwatch_live_note_classification_enabled<br>
+- responsive_web_card_image_poll_shuffle_enabled<br>
+- responsive_web_card_image_poll_sort_by_vote_count_enabled<br>
+- responsive_web_grok_promo_modal_enabled<br>
+- responsive_web_grok_promo_modal_variant<br>
+- rweb_navbar_grok_indicator_enabled<br>
+- rweb_navbar_grok_indicator_item_count<br>
+- xchat_observe_inbox_users_enabled<br>
+- xchat_observe_inbox_users_in_memory<br>
+#### remove<br>
+- None<br>
