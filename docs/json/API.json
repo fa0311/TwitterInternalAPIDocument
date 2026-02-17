@@ -4480,8 +4480,8 @@
       }
     },
     "BirdwatchFetchNotes": {
-      "url": "https://x.com/i/api/graphql/ScWHi30kNlPHzGySYsoFPg/BirdwatchFetchNotes",
-      "queryId": "ScWHi30kNlPHzGySYsoFPg",
+      "url": "https://x.com/i/api/graphql/DW1iIWmXdjhRaQMk_Z7TCA/BirdwatchFetchNotes",
+      "queryId": "DW1iIWmXdjhRaQMk_Z7TCA",
       "method": "GET",
       "features": {
         "responsive_web_birdwatch_live_note_enabled": true,
@@ -4781,8 +4781,8 @@
       "features": {}
     },
     "GrokConversationItemsByRestId": {
-      "url": "https://x.com/i/api/graphql/RKN_Oo4LhSVbNg6S77byxg/GrokConversationItemsByRestId",
-      "queryId": "RKN_Oo4LhSVbNg6S77byxg",
+      "url": "https://x.com/i/api/graphql/s6sZF0pTYSAJSeF64YmC_A/GrokConversationItemsByRestId",
+      "queryId": "s6sZF0pTYSAJSeF64YmC_A",
       "method": "GET",
       "features": {
         "creator_subscriptions_tweet_preview_api_enabled": true,
@@ -4858,8 +4858,8 @@
       "features": {}
     },
     "GrokShare": {
-      "url": "https://x.com/i/api/graphql/1gugdyPHktFP3Y_zBRk8Vg/GrokShare",
-      "queryId": "1gugdyPHktFP3Y_zBRk8Vg",
+      "url": "https://x.com/i/api/graphql/eqxXfShBv1zlxAvdsGrWkw/GrokShare",
+      "queryId": "eqxXfShBv1zlxAvdsGrWkw",
       "method": "GET",
       "features": {
         "creator_subscriptions_tweet_preview_api_enabled": true,
