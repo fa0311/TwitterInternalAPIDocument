@@ -2384,6 +2384,12 @@
       "responsive_web_verified_organizations_affiliate_fetch_limit": {
         "value": "3000"
       },
+      "responsive_web_verified_organizations_enterprise_insights_enabled": {
+        "value": "false"
+      },
+      "responsive_web_verified_organizations_enterprise_tier": {
+        "value": "false"
+      },
       "responsive_web_verified_organizations_free_to_invoice_enabled": {
         "value": "false"
       },
@@ -2552,14 +2558,8 @@
       "rweb_media_multi_requests_enabled": {
         "value": "true"
       },
-      "rweb_media_upload_refactor_enabled": {
-        "value": "true"
-      },
       "rweb_mixed_media_uploads_cap": {
         "value": "4"
-      },
-      "rweb_mixed_media_uploads_enabled": {
-        "value": "true"
       },
       "rweb_mvr_blurred_media_interstitial_enabled": {
         "value": "true"
@@ -6350,6 +6350,12 @@
         "responsive_web_verified_organizations_affiliate_fetch_limit": {
           "value": "3000"
         },
+        "responsive_web_verified_organizations_enterprise_insights_enabled": {
+          "value": "false"
+        },
+        "responsive_web_verified_organizations_enterprise_tier": {
+          "value": "false"
+        },
         "responsive_web_verified_organizations_free_to_invoice_enabled": {
           "value": "false"
         },
@@ -6518,14 +6524,8 @@
         "rweb_media_multi_requests_enabled": {
           "value": "true"
         },
-        "rweb_media_upload_refactor_enabled": {
-          "value": "true"
-        },
         "rweb_mixed_media_uploads_cap": {
           "value": "4"
-        },
-        "rweb_mixed_media_uploads_enabled": {
-          "value": "true"
         },
         "rweb_mvr_blurred_media_interstitial_enabled": {
           "value": "true"
@@ -7927,7 +7927,7 @@
           "value": "false"
         },
         "xchat_observe_inbox_users_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "xchat_observe_inbox_users_in_memory": {
           "value": "false"
@@ -8032,10 +8032,10 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "99f2be0df7a8acd2f7c93c45cdd6f8c8"
+      "settingsVersion": "84dcac1d76168384abe9d9310f380675"
     },
     "debug": {},
-    "featureSetToken": "11c03ef2faf568b6d1dcaeb0554e718ac6fc01b9",
+    "featureSetToken": "b5cede639d8afaa032ac48cc5b4f8fbe9fd026df",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -8105,7 +8105,7 @@
   },
   "session": {
     "country": "XX",
-    "guestId": "177127593220388141",
+    "guestId": "177136251249996870",
     "hasCommunityMemberships": "false",
     "isActiveCreator": "false",
     "isLoaded": "false",
