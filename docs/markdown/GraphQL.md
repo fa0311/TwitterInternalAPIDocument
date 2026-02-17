@@ -2596,9 +2596,10 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key            | type   | variable   |
-|:---------------|:-------|:-----------|
-| conversationId | ...    | t          |
+| key                    | type   | variable   |
+|:-----------------------|:-------|:-----------|
+| bookmark_collection_id | ...    | n          |
+| tweet_id               | ...    | o          |
 
 #### features<br>
 | key                                                                     | type    | variable   |
@@ -5734,7 +5735,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## BirdwatchFetchNotes<br>
-Request URL: `https://x.com/i/api/graphql/ScWHi30kNlPHzGySYsoFPg/BirdwatchFetchNotes`<br>
+Request URL: `https://x.com/i/api/graphql/DW1iIWmXdjhRaQMk_Z7TCA/BirdwatchFetchNotes`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -6144,7 +6145,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## GrokConversationItemsByRestId<br>
-Request URL: `https://x.com/i/api/graphql/RKN_Oo4LhSVbNg6S77byxg/GrokConversationItemsByRestId`<br>
+Request URL: `https://x.com/i/api/graphql/s6sZF0pTYSAJSeF64YmC_A/GrokConversationItemsByRestId`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -6257,7 +6258,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## GrokShare<br>
-Request URL: `https://x.com/i/api/graphql/1gugdyPHktFP3Y_zBRk8Vg/GrokShare`<br>
+Request URL: `https://x.com/i/api/graphql/eqxXfShBv1zlxAvdsGrWkw/GrokShare`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -6521,7 +6522,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## GrokConversationItemsByRestId<br>
-Request URL: `https://x.com/i/api/graphql/RKN_Oo4LhSVbNg6S77byxg/GrokConversationItemsByRestId`<br>
+Request URL: `https://x.com/i/api/graphql/s6sZF0pTYSAJSeF64YmC_A/GrokConversationItemsByRestId`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -6634,7 +6635,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## GrokShare<br>
-Request URL: `https://x.com/i/api/graphql/1gugdyPHktFP3Y_zBRk8Vg/GrokShare`<br>
+Request URL: `https://x.com/i/api/graphql/eqxXfShBv1zlxAvdsGrWkw/GrokShare`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -7011,7 +7012,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## GrokConversationItemsByRestId<br>
-Request URL: `https://x.com/i/api/graphql/RKN_Oo4LhSVbNg6S77byxg/GrokConversationItemsByRestId`<br>
+Request URL: `https://x.com/i/api/graphql/s6sZF0pTYSAJSeF64YmC_A/GrokConversationItemsByRestId`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -7124,7 +7125,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## GrokShare<br>
-Request URL: `https://x.com/i/api/graphql/1gugdyPHktFP3Y_zBRk8Vg/GrokShare`<br>
+Request URL: `https://x.com/i/api/graphql/eqxXfShBv1zlxAvdsGrWkw/GrokShare`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -8020,7 +8021,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## GrokConversationItemsByRestId<br>
-Request URL: `https://x.com/i/api/graphql/RKN_Oo4LhSVbNg6S77byxg/GrokConversationItemsByRestId`<br>
+Request URL: `https://x.com/i/api/graphql/s6sZF0pTYSAJSeF64YmC_A/GrokConversationItemsByRestId`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -8133,7 +8134,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## GrokShare<br>
-Request URL: `https://x.com/i/api/graphql/1gugdyPHktFP3Y_zBRk8Vg/GrokShare`<br>
+Request URL: `https://x.com/i/api/graphql/eqxXfShBv1zlxAvdsGrWkw/GrokShare`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -8348,7 +8349,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## GrokConversationItemsByRestId<br>
-Request URL: `https://x.com/i/api/graphql/RKN_Oo4LhSVbNg6S77byxg/GrokConversationItemsByRestId`<br>
+Request URL: `https://x.com/i/api/graphql/s6sZF0pTYSAJSeF64YmC_A/GrokConversationItemsByRestId`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -8461,7 +8462,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## GrokShare<br>
-Request URL: `https://x.com/i/api/graphql/1gugdyPHktFP3Y_zBRk8Vg/GrokShare`<br>
+Request URL: `https://x.com/i/api/graphql/eqxXfShBv1zlxAvdsGrWkw/GrokShare`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -8658,7 +8659,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## GrokConversationItemsByRestId<br>
-Request URL: `https://x.com/i/api/graphql/RKN_Oo4LhSVbNg6S77byxg/GrokConversationItemsByRestId`<br>
+Request URL: `https://x.com/i/api/graphql/s6sZF0pTYSAJSeF64YmC_A/GrokConversationItemsByRestId`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -8771,7 +8772,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## GrokShare<br>
-Request URL: `https://x.com/i/api/graphql/1gugdyPHktFP3Y_zBRk8Vg/GrokShare`<br>
+Request URL: `https://x.com/i/api/graphql/eqxXfShBv1zlxAvdsGrWkw/GrokShare`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -8895,7 +8896,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## GrokConversationItemsByRestId<br>
-Request URL: `https://x.com/i/api/graphql/RKN_Oo4LhSVbNg6S77byxg/GrokConversationItemsByRestId`<br>
+Request URL: `https://x.com/i/api/graphql/s6sZF0pTYSAJSeF64YmC_A/GrokConversationItemsByRestId`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -9008,7 +9009,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## GrokShare<br>
-Request URL: `https://x.com/i/api/graphql/1gugdyPHktFP3Y_zBRk8Vg/GrokShare`<br>
+Request URL: `https://x.com/i/api/graphql/eqxXfShBv1zlxAvdsGrWkw/GrokShare`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -9711,7 +9712,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## GrokConversationItemsByRestId<br>
-Request URL: `https://x.com/i/api/graphql/RKN_Oo4LhSVbNg6S77byxg/GrokConversationItemsByRestId`<br>
+Request URL: `https://x.com/i/api/graphql/s6sZF0pTYSAJSeF64YmC_A/GrokConversationItemsByRestId`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -9824,7 +9825,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## GrokShare<br>
-Request URL: `https://x.com/i/api/graphql/1gugdyPHktFP3Y_zBRk8Vg/GrokShare`<br>
+Request URL: `https://x.com/i/api/graphql/eqxXfShBv1zlxAvdsGrWkw/GrokShare`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -10294,7 +10295,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## GrokConversationItemsByRestId<br>
-Request URL: `https://x.com/i/api/graphql/RKN_Oo4LhSVbNg6S77byxg/GrokConversationItemsByRestId`<br>
+Request URL: `https://x.com/i/api/graphql/s6sZF0pTYSAJSeF64YmC_A/GrokConversationItemsByRestId`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -10407,7 +10408,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## GrokShare<br>
-Request URL: `https://x.com/i/api/graphql/1gugdyPHktFP3Y_zBRk8Vg/GrokShare`<br>
+Request URL: `https://x.com/i/api/graphql/eqxXfShBv1zlxAvdsGrWkw/GrokShare`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
