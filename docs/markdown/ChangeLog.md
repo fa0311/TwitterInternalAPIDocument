@@ -8096,3 +8096,16 @@
 - xchat_observe_inbox_users_in_memory<br>
 #### remove<br>
 - None<br>
+## 2026/02/17<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- responsive_web_verified_organizations_enterprise_insights_enabled<br>
+- responsive_web_verified_organizations_enterprise_tier<br>
+#### remove<br>
+- rweb_media_upload_refactor_enabled<br>
+- rweb_mixed_media_uploads_enabled<br>
