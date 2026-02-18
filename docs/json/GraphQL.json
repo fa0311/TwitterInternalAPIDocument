@@ -3371,7 +3371,7 @@
       }
     },
     "func_name": "Mt",
-    "func_name_init": "Tt",
+    "func_name_init": "xt",
     "query": {
       "communityId": "t.communityId",
       "answer": "t.answer",
@@ -7503,11 +7503,11 @@
         }
       }
     },
-    "func_name": "x",
-    "func_name_init": "k",
+    "func_name": "T",
+    "func_name_init": "A",
     "query": {
       "bookmark_collection_id": "n",
-      "tweet_id": "o"
+      "name": "o"
     }
   },
   {
