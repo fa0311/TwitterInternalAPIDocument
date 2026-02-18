@@ -2599,7 +2599,7 @@ Login Required: `...`<br>
 | key                    | type   | variable   |
 |:-----------------------|:-------|:-----------|
 | bookmark_collection_id | ...    | n          |
-| tweet_id               | ...    | o          |
+| name                   | ...    | o          |
 
 #### features<br>
 | key                                                                     | type    | variable   |
