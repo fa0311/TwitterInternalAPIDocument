@@ -7181,3 +7181,16 @@
 #### remove<br>
 - rweb_media_upload_refactor_enabled<br>
 - rweb_mixed_media_uploads_enabled<br>
+## 2026/02/18<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- creator_subscriptions_revamp_enabled<br>
+#### remove<br>
+- responsive_web_compact_media_max_height<br>
+- responsive_web_compact_media_max_height_enabled_for_all<br>
+- rweb_video_vertical_aspect_ratio_enabled<br>
