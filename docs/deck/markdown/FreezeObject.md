@@ -23,7 +23,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{"name":"i","oprf":"x","voprf":"$","poprf":t=>{"const i=h()",e=n.BASE.multiply(A\"Info\",t,f);return{"generateKeyPair":"y","deriveKeyPair":()=>m(t,i),"blind(f,t,i)"{"const h=n.fromBytes()",_=e.add(i);if(h)throw new Error(_.equalsn.ZERO);const o=u(\"tweakedKey point at infinity\"),c=a(r);if(t,f)throw...
+{"name":"i","oprf":"x","voprf":"$","poprf":t=>{"const i=h()",e=n.BASE.multiply(A\"Info\",t,f);return{"generateKeyPair":"m","deriveKeyPair":()=>y(t,i),"blind(f,t,i)"{"const h=n.fromBytes()",_=e.add(i);if(h)throw new Error(_.equalsn.ZERO);const o=u(\"tweakedKey point at infinity\"),c=a(r);if(t,f)throw...
 ```
 ```internal process
 # Error
@@ -38,22 +38,6 @@ This document is entirely auto-generated and may contain errors.<br>
 | navButtons   | navigationButtons |
 | carouselRoot | carouselRoot      |
 
-| constant         | value           |
-|:-----------------|:----------------|
-| LIVE_BROADCAST   | liveBroadcast   |
-| REPLAY_BROADCAST | replayBroadcast |
-| VOD              | vod             |
-| GIF              | gif             |
-| SLATE            | slate           |
-
-| constant         | value                                 |
-|:-----------------|:--------------------------------------|
-| A11YHook         | VideoPlayerDefaultUI-A11YHook         |
-| ControlBar       | VideoPlayerDefaultUI-ControlBar       |
-| HashtagHighlight | VideoPlayerDefaultUI-HashtagHighlight |
-| Root             | VideoPlayerDefaultUI-Root             |
-| VideoCTA         | VideoPlayerDefaultUI-VideoCTA         |
-
 | constant   | value      |
 |:-----------|:-----------|
 | wide       | wide       |
@@ -64,6 +48,13 @@ This document is entirely auto-generated and may contain errors.<br>
 # Error
 {[s.wide]:"500",[s.narrow]:"300",[s.veryNarrow]:"200"}
 ```
+| constant   |   value |
+|:-----------|--------:|
+| large      |      54 |
+| medium     |      46 |
+| small      |      36 |
+| xSmall     |      12 |
+
 ```internal process
 # Error
 {"₊":"+","₋":"-","₌":"=","₍":"()","₀":"0","₁":"1","₂":"2","₃":"3","₄":"4","₅":"5","₆":"6","₇":"7","₈":"8","₉":"9",ₐ:"a",ₑ:"e",ₕ:"h",ᵢ:"i",ⱼ:"j",ₖ:"k",ₗ:"l",ₘ:"m",ₙ:"n",ₒ:"o",ₚ:"p",ᵣ:"r",ₛ:"s",ₜ:"t",ᵤ:"u",ᵥ:"v",ₓ:"x",ᵦ:"β",ᵧ:"γ",ᵨ:"ρ",ᵩ:"ϕ",ᵪ:"χ","⁺":"+","⁻":"-","⁼":"=","⁽":"(\",\"₎\":\")","⁰":"0","¹...
