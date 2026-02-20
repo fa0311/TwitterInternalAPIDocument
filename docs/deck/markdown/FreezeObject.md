@@ -19,7 +19,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | assert             | f       |
 | requireNonNull     | A       |
 | requireInstance    | d       |
-| abstractMethodFail | v       |
+| abstractMethodFail | g       |
 
 ```internal process
 # Error
@@ -31,7 +31,7 @@ This document is entirely auto-generated and may contain errors.<br>
 ```
 ```internal process
 # Error
-{"keygen":"A","getPublicKey":"d","getSharedSecret":"v","utils":"g","lengths":"w","Point":"t","sign":"function()"{}{"const"{"seed":"_","k2sig":"c"}"=function()"{"const"{"lowS":"s","prehash":"a","extraEntropy":"u"}=$i();i=z(e,p);const _=j(i,a),c=o.fromBytes(i);if(n)throw new Error(!o.isValidNot0c);con...
+{"keygen":"A","getPublicKey":"d","getSharedSecret":"g","utils":"v","lengths":"w","Point":"t","sign":"function()"{}{"const"{"seed":"_","k2sig":"c"}"=function()"{"const"{"lowS":"s","prehash":"a","extraEntropy":"u"}=$i();i=z(e,p);const _=j(i,a),c=o.fromBytes(i);if(n)throw new Error(!o.isValidNot0c);con...
 ```
 | constant     | value             |
 |:-------------|:------------------|
