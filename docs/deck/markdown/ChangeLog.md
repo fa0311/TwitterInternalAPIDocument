@@ -7194,3 +7194,16 @@
 - responsive_web_compact_media_max_height<br>
 - responsive_web_compact_media_max_height_enabled_for_all<br>
 - rweb_video_vertical_aspect_ratio_enabled<br>
+## 2026/02/20<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- payments_chat_support_for_limits_enabled<br>
+- rweb_home_ranked_following_min_following_count<br>
+- xchat_enable_ratcheting<br>
+#### remove<br>
+- responsive_web_twitter_article_seed_tweet_summary_enabled<br>
