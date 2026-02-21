@@ -2,7 +2,7 @@
   {
     "n": "17548",
     "exports": {
-      "queryId": "-RlVfF2cSL1tdbOPGZ7G5w",
+      "queryId": "D1nwFlsu_qHsX92YzoRaaA",
       "operationName": "AddContentDisclosure",
       "operationType": "mutation",
       "metadata": {
@@ -3371,7 +3371,7 @@
       }
     },
     "func_name": "Mt",
-    "func_name_init": "xt",
+    "func_name_init": "Tt",
     "query": {
       "communityId": "t.communityId",
       "answer": "t.answer",
@@ -7503,11 +7503,11 @@
         }
       }
     },
-    "func_name": "T",
+    "func_name": "x",
     "func_name_init": "A",
     "query": {
       "bookmark_collection_id": "n",
-      "name": "o"
+      "tweet_id": "o"
     }
   },
   {
@@ -14154,10 +14154,7 @@
     },
     "func_name": "v",
     "func_name_init": "y",
-    "query": {
-      "content_state": "o",
-      "article_entity": "i"
-    }
+    "query": {}
   },
   {
     "n": "31406",
@@ -26586,6 +26583,32 @@
       "queryId": "2Qbj9XZvtUvyJB4gFwWfaA",
       "operationName": "RemoveTweetFromBookmarkFolder",
       "operationType": "mutation",
+      "metadata": {
+        "featureSwitches": [],
+        "fieldToggles": [],
+        "featureSwitch": {}
+      }
+    }
+  },
+  {
+    "n": "00111",
+    "exports": {
+      "queryId": "_ckHEj05gan2VfNHG6thBA",
+      "operationName": "DisableUserAccountLabel",
+      "operationType": "mutation",
+      "metadata": {
+        "featureSwitches": [],
+        "fieldToggles": [],
+        "featureSwitch": {}
+      }
+    }
+  },
+  {
+    "n": "61490",
+    "exports": {
+      "queryId": "rD5gLxVmMvtdtYU1UHWlFQ",
+      "operationName": "UserAccountLabel",
+      "operationType": "query",
       "metadata": {
         "featureSwitches": [],
         "fieldToggles": [],
