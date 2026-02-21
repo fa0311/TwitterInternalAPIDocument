@@ -1,8 +1,8 @@
 {
   "graphql": {
     "AddContentDisclosure": {
-      "url": "https://x.com/i/api/graphql/-RlVfF2cSL1tdbOPGZ7G5w/AddContentDisclosure",
-      "queryId": "-RlVfF2cSL1tdbOPGZ7G5w",
+      "url": "https://x.com/i/api/graphql/D1nwFlsu_qHsX92YzoRaaA/AddContentDisclosure",
+      "queryId": "D1nwFlsu_qHsX92YzoRaaA",
       "method": "POST",
       "features": {}
     },
