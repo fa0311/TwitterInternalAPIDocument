@@ -8135,3 +8135,14 @@
 - xchat_enable_ratcheting<br>
 #### remove<br>
 - responsive_web_twitter_article_seed_tweet_summary_enabled<br>
+## 2026/02/21<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- content_disclosure_ai_generated_creation_enabled<br>
+#### remove<br>
+- super_follow_tweet_label_redesign_enabled<br>
