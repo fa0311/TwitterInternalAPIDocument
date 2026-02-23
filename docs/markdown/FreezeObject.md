@@ -4129,7 +4129,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{[f.relevant]:"h",[f.recent]:"_",[f.likes]:"m"}
+{[w.relevant]:"h",[w.recent]:"_",[w.likes]:"m"}
 ```
 | constant      | value           |
 |:--------------|:----------------|
@@ -6282,15 +6282,15 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{[r.AGE_18_TO_24]:{"minAge":"18","maxAge":"24"},[r.AGE_18_TO_34]:{"minAge":"18","maxAge":"34"},[r.AGE_18_TO_49]:{"minAge":"18","maxAge":"49"},[r.AGE_18_TO_54]:{"minAge":"18","maxAge":"54"},[r.AGE_21_TO_34]:{"minAge":"21","maxAge":"34"},[r.AGE_21_TO_49]:{"minAge":"21","maxAge":"49"},[r.AGE_21_TO_54]:...
+{[a.AGE_18_TO_24]:{"minAge":"18","maxAge":"24"},[a.AGE_18_TO_34]:{"minAge":"18","maxAge":"34"},[a.AGE_18_TO_49]:{"minAge":"18","maxAge":"49"},[a.AGE_18_TO_54]:{"minAge":"18","maxAge":"54"},[a.AGE_21_TO_34]:{"minAge":"21","maxAge":"34"},[a.AGE_21_TO_49]:{"minAge":"21","maxAge":"49"},[a.AGE_21_TO_54]:...
 ```
 |   constant | value                                                                                                                     |
 |-----------:|:--------------------------------------------------------------------------------------------------------------------------|
-|         18 | {'24': 'r.AGE_18_TO_24', '34': 'r.AGE_18_TO_34', '49': 'r.AGE_18_TO_49', '54': 'r.AGE_18_TO_54', 'over': 'r.AGE_OVER_18'} |
-|         21 | {'34': 'r.AGE_21_TO_34', '49': 'r.AGE_21_TO_49', '54': 'r.AGE_21_TO_54', 'over': 'r.AGE_OVER_21'}                         |
-|         25 | {'49': 'r.AGE_25_TO_49', '54': 'r.AGE_25_TO_54', 'over': 'r.AGE_OVER_25'}                                                 |
-|         35 | {'49': 'r.AGE_35_TO_49', '54': 'r.AGE_35_TO_54', 'over': 'r.AGE_OVER_35'}                                                 |
-|         50 | {'over': 'r.AGE_OVER_50'}                                                                                                 |
+|         18 | {'24': 'a.AGE_18_TO_24', '34': 'a.AGE_18_TO_34', '49': 'a.AGE_18_TO_49', '54': 'a.AGE_18_TO_54', 'over': 'a.AGE_OVER_18'} |
+|         21 | {'34': 'a.AGE_21_TO_34', '49': 'a.AGE_21_TO_49', '54': 'a.AGE_21_TO_54', 'over': 'a.AGE_OVER_21'}                         |
+|         25 | {'49': 'a.AGE_25_TO_49', '54': 'a.AGE_25_TO_54', 'over': 'a.AGE_OVER_25'}                                                 |
+|         35 | {'49': 'a.AGE_35_TO_49', '54': 'a.AGE_35_TO_54', 'over': 'a.AGE_OVER_35'}                                                 |
+|         50 | {'over': 'a.AGE_OVER_50'}                                                                                                 |
 
 | constant      | value         |
 |:--------------|:--------------|
@@ -8145,13 +8145,13 @@ This document is entirely auto-generated and may contain errors.<br>
 
 |   constant | value   |
 |-----------:|:--------|
-|          1 | d       |
-|          2 | c       |
+|          1 | c       |
+|          2 | d       |
 
 | constant   | value                        |
 |:-----------|:-----------------------------|
-| annually   | {'label': 'd', 'value': '1'} |
-| hourly     | {'label': 'c', 'value': '2'} |
+| annually   | {'label': 'c', 'value': '1'} |
+| hourly     | {'label': 'd', 'value': '2'} |
 
 | constant         |   value |
 |:-----------------|--------:|
