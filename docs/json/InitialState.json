@@ -1164,7 +1164,7 @@
         "value": "true"
       },
       "payments_half_cover_notices_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "payments_passkey_onboarding_enabled": {
         "value": "true"
@@ -3892,7 +3892,7 @@
         "value": "false"
       },
       "xchat_enable_forward_message_v2": {
-        "value": "true"
+        "value": "false"
       },
       "xchat_enable_local_pagination": {
         "value": "true"
@@ -7858,7 +7858,7 @@
           "value": "false"
         },
         "xchat_enable_forward_message_v2": {
-          "value": "true"
+          "value": "false"
         },
         "xchat_enable_local_pagination": {
           "value": "true"
@@ -8032,10 +8032,10 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "7f0dc14f6ba15563a19ca661b4549dc5"
+      "settingsVersion": "a09d92aa37d0e51b7b7da94b5ace31f2"
     },
     "debug": {},
-    "featureSetToken": "c6c9dd4562ea7ed490dd1a42378f3c82df69ed93",
+    "featureSetToken": "80eb7c241e33b7dc447d2efca5a2e58abc4d8132",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -8105,7 +8105,7 @@
   },
   "session": {
     "country": "XX",
-    "guestId": "177196730843207699",
+    "guestId": "177205369715124296",
     "hasCommunityMemberships": "false",
     "isActiveCreator": "false",
     "isLoaded": "false",
