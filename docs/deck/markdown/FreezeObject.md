@@ -1,5 +1,25 @@
 # Twitter Internal Constants Document<br>
 This document is entirely auto-generated and may contain errors.<br>
+| constant           | value   |
+|:-------------------|:--------|
+| __proto__          | null    |
+| assert             | f       |
+| requireNonNull     | d       |
+| requireInstance    | A       |
+| abstractMethodFail | v       |
+
+```internal process
+# Error
+{"name":"n","oprf":"q","voprf":"$","poprf":t=>{"const n=h()",e=i.BASE.multiply(d\"Info\",t,f);return{"generateKeyPair":"m","deriveKeyPair":()=>y(t,n),"blind(f,t,n)"{"const h=i.fromBytes()",o=e.add(n);if(h)throw new Error(o.equalsi.ZERO);const _=u(\"tweakedKey point at infinity\"),c=a(r);if(t,f)throw...
+```
+```internal process
+# Error
+{"getPublicKey":"u","getSharedSecret":"function()"{if()throw new Error(!0===on);if(\"first arg must be private key\")throw new Error(!1===oe);const r=i.fromBytes(\"second arg must be public key\");return t.fromBytes(n).multiply(e).toBytes(r)},"keygen":"c","Point":"t","utils":"_","lengths":"a"}
+```
+```internal process
+# Error
+{"keygen":"d","getPublicKey":"A","getSharedSecret":"v","utils":"g","lengths":"w","Point":"t","sign":"function()"{}{"const"{"seed":"o","k2sig":"c"}"=function()"{"const"{"lowS":"s","prehash":"a","extraEntropy":"u"}=xn();n=B(e,p);const o=j(n,a),c=_.fromBytes(n);if(i)throw new Error(!_.isValidNot0c);con...
+```
 | constant   | value    |
 |:-----------|:---------|
 | position   | absolute |
@@ -13,26 +33,6 @@ This document is entirely auto-generated and may contain errors.<br>
 | whiteSpace | nowrap   |
 | wordWrap   | normal   |
 
-| constant           | value   |
-|:-------------------|:--------|
-| __proto__          | null    |
-| assert             | f       |
-| requireNonNull     | d       |
-| requireInstance    | A       |
-| abstractMethodFail | v       |
-
-```internal process
-# Error
-{"name":"i","oprf":"q","voprf":"$","poprf":t=>{"const i=h()",e=n.BASE.multiply(d\"Info\",t,f);return{"generateKeyPair":"m","deriveKeyPair":()=>y(t,i),"blind(f,t,i)"{"const h=n.fromBytes()",_=e.add(i);if(h)throw new Error(_.equalsn.ZERO);const o=u(\"tweakedKey point at infinity\"),c=a(r);if(t,f)throw...
-```
-```internal process
-# Error
-{"getPublicKey":"u","getSharedSecret":"function()"{if()throw new Error(!0===_i);if(\"first arg must be private key\")throw new Error(!1===_e);const r=n.fromBytes(\"second arg must be public key\");return t.fromBytes(i).multiply(e).toBytes(r)},"keygen":"c","Point":"t","utils":"o","lengths":"a"}
-```
-```internal process
-# Error
-{"keygen":"d","getPublicKey":"A","getSharedSecret":"v","utils":"g","lengths":"w","Point":"t","sign":"function()"{}{"const"{"seed":"_","k2sig":"c"}"=function()"{"const"{"lowS":"s","prehash":"a","extraEntropy":"u"}=$i();i=z(e,p);const _=j(i,a),c=o.fromBytes(i);if(n)throw new Error(!o.isValidNot0c);con...
-```
 | constant     | value             |
 |:-------------|:------------------|
 | navButtons   | navigationButtons |
@@ -64,6 +64,13 @@ This document is entirely auto-generated and may contain errors.<br>
 # Error
 {[s.wide]:"500",[s.narrow]:"300",[s.veryNarrow]:"200"}
 ```
+| constant   |   value |
+|:-----------|--------:|
+| large      |      54 |
+| medium     |      46 |
+| small      |      36 |
+| xSmall     |      12 |
+
 ```internal process
 # Error
 {"₊":"+","₋":"-","₌":"=","₍":"()","₀":"0","₁":"1","₂":"2","₃":"3","₄":"4","₅":"5","₆":"6","₇":"7","₈":"8","₉":"9",ₐ:"a",ₑ:"e",ₕ:"h",ᵢ:"i",ⱼ:"j",ₖ:"k",ₗ:"l",ₘ:"m",ₙ:"n",ₒ:"o",ₚ:"p",ᵣ:"r",ₛ:"s",ₜ:"t",ᵤ:"u",ᵥ:"v",ₓ:"x",ᵦ:"β",ᵧ:"γ",ᵨ:"ρ",ᵩ:"ϕ",ᵪ:"χ","⁺":"+","⁻":"-","⁼":"=","⁽":"(\",\"₎\":\")","⁰":"0","¹...
@@ -339,24 +346,6 @@ This document is entirely auto-generated and may contain errors.<br>
 # Error
 {[U.LANDING_PAGE]:{"next":"U.NOTABILITY_CATEGORY_SELECT","scribeComponent":"s.LANDING_PAGE"},[U.NOTABILITY_CATEGORY_SELECT]:{"next":"null","scribeComponent":"s.NOTABILITY_CATEGORY"},[U.ACTIVIST_QUALIFICATIONS]:{"next":"null","scribeComponent":"s.NOTABILITY_METHOD"},[U.ACTIVIST_GOOGLE_TRENDS]:{"next"...
 ```
-| constant   | value                                                     |
-|:-----------|:----------------------------------------------------------|
-| REQUEST    | rweb/settings/profile/ENABLE_VERIFIED_PHONE_LABEL_REQUEST |
-| SUCCESS    | rweb/settings/profile/ENABLE_VERIFIED_PHONE_LABEL_SUCCESS |
-| FAILURE    | rweb/settings/profile/ENABLE_VERIFIED_PHONE_LABEL_FAILURE |
-
-| constant   | value                                                      |
-|:-----------|:-----------------------------------------------------------|
-| REQUEST    | rweb/settings/profile/DISABLE_VERIFIED_PHONE_LABEL_REQUEST |
-| SUCCESS    | rweb/settings/profile/DISABLE_VERIFIED_PHONE_LABEL_SUCCESS |
-| FAILURE    | rweb/settings/profile/DISABLE_VERIFIED_PHONE_LABEL_FAILURE |
-
-| constant   | value                                                    |
-|:-----------|:---------------------------------------------------------|
-| REQUEST    | rweb/settings/profile/FETCH_VERIFIED_PHONE_LABEL_REQUEST |
-| SUCCESS    | rweb/settings/profile/FETCH_VERIFIED_PHONE_LABEL_SUCCESS |
-| FAILURE    | rweb/settings/profile/FETCH_VERIFIED_PHONE_LABEL_FAILURE |
-
 | constant   | value   |
 |:-----------|:--------|
 | IOS        | ios     |
