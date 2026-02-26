@@ -7231,3 +7231,14 @@
 #### remove<br>
 - graphql_mutation_update_mode<br>
 - rweb_timeline_inline_show_more_enabled<br>
+## 2026/02/26<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- responsive_web_grok_voice_mode_enabled<br>
+#### remove<br>
+- xchat_enable_media_conv_info<br>
