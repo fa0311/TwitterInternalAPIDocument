@@ -1940,6 +1940,9 @@
       "responsive_web_grok_v2_upsell_enabled": {
         "value": "false"
       },
+      "responsive_web_grok_voice_mode_enabled": {
+        "value": "false"
+      },
       "responsive_web_grok_web_results": {
         "value": "true"
       },
@@ -3897,9 +3900,6 @@
       "xchat_enable_local_pagination": {
         "value": "true"
       },
-      "xchat_enable_media_conv_info": {
-        "value": "true"
-      },
       "xchat_enable_message_requests": {
         "value": "false"
       },
@@ -4003,7 +4003,7 @@
         "value": "false"
       },
       "xchat_show_safety_number_ui": {
-        "value": "false"
+        "value": "true"
       },
       "xchat_show_troubleshooting_settings": {
         "value": "true"
@@ -5906,6 +5906,9 @@
         "responsive_web_grok_v2_upsell_enabled": {
           "value": "false"
         },
+        "responsive_web_grok_voice_mode_enabled": {
+          "value": "false"
+        },
         "responsive_web_grok_web_results": {
           "value": "true"
         },
@@ -6345,7 +6348,7 @@
           "value": "true"
         },
         "responsive_web_user_spectral_key_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "responsive_web_verified_ntab_hidden": {
           "value": "true"
@@ -7858,12 +7861,9 @@
           "value": "false"
         },
         "xchat_enable_forward_message_v2": {
-          "value": "false"
-        },
-        "xchat_enable_local_pagination": {
           "value": "true"
         },
-        "xchat_enable_media_conv_info": {
+        "xchat_enable_local_pagination": {
           "value": "true"
         },
         "xchat_enable_message_requests": {
@@ -7969,7 +7969,7 @@
           "value": "false"
         },
         "xchat_show_safety_number_ui": {
-          "value": "false"
+          "value": "true"
         },
         "xchat_show_troubleshooting_settings": {
           "value": "true"
@@ -8032,10 +8032,10 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "a09d92aa37d0e51b7b7da94b5ace31f2"
+      "settingsVersion": "1e5f62da8cbe492471e5bbfd542fac9b"
     },
     "debug": {},
-    "featureSetToken": "80eb7c241e33b7dc447d2efca5a2e58abc4d8132",
+    "featureSetToken": "0625004ecd741b194246fce798daa9d08cffee3a",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -8105,7 +8105,7 @@
   },
   "session": {
     "country": "XX",
-    "guestId": "177205369715124296",
+    "guestId": "177214012026946312",
     "hasCommunityMemberships": "false",
     "isActiveCreator": "false",
     "isLoaded": "false",
