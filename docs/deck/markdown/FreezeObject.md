@@ -18,7 +18,7 @@ This document is entirely auto-generated and may contain errors.<br>
 ```
 ```internal process
 # Error
-{"keygen":"d","getPublicKey":"A","getSharedSecret":"v","utils":"g","lengths":"w","Point":"t","sign":"function()"{}{"const"{"seed":"o","k2sig":"c"}"=function()"{"const"{"lowS":"s","prehash":"a","extraEntropy":"u"}=xn();n=B(e,p);const o=j(n,a),c=_.fromBytes(n);if(i)throw new Error(!_.isValidNot0c);con...
+{"keygen":"d","getPublicKey":"A","getSharedSecret":"v","utils":"g","lengths":"w","Point":"t","sign":"function()"{}{"const"{"seed":"o","k2sig":"c"}"=function()"{"const"{"lowS":"s","prehash":"a","extraEntropy":"u"}=En();n=B(e,p);const o=x(n,a),c=_.fromBytes(n);if(i)throw new Error(!_.isValidNot0c);con...
 ```
 | constant   | value    |
 |:-----------|:---------|
@@ -53,23 +53,6 @@ This document is entirely auto-generated and may contain errors.<br>
 | HashtagHighlight | VideoPlayerDefaultUI-HashtagHighlight |
 | Root             | VideoPlayerDefaultUI-Root             |
 | VideoCTA         | VideoPlayerDefaultUI-VideoCTA         |
-
-| constant   | value      |
-|:-----------|:-----------|
-| wide       | wide       |
-| narrow     | narrow     |
-| veryNarrow | veryNarrow |
-
-```internal process
-# Error
-{[s.wide]:"500",[s.narrow]:"300",[s.veryNarrow]:"200"}
-```
-| constant   |   value |
-|:-----------|--------:|
-| large      |      54 |
-| medium     |      46 |
-| small      |      36 |
-| xSmall     |      12 |
 
 ```internal process
 # Error
@@ -346,6 +329,24 @@ This document is entirely auto-generated and may contain errors.<br>
 # Error
 {[U.LANDING_PAGE]:{"next":"U.NOTABILITY_CATEGORY_SELECT","scribeComponent":"s.LANDING_PAGE"},[U.NOTABILITY_CATEGORY_SELECT]:{"next":"null","scribeComponent":"s.NOTABILITY_CATEGORY"},[U.ACTIVIST_QUALIFICATIONS]:{"next":"null","scribeComponent":"s.NOTABILITY_METHOD"},[U.ACTIVIST_GOOGLE_TRENDS]:{"next"...
 ```
+| constant   | value                                                     |
+|:-----------|:----------------------------------------------------------|
+| REQUEST    | rweb/settings/profile/ENABLE_VERIFIED_PHONE_LABEL_REQUEST |
+| SUCCESS    | rweb/settings/profile/ENABLE_VERIFIED_PHONE_LABEL_SUCCESS |
+| FAILURE    | rweb/settings/profile/ENABLE_VERIFIED_PHONE_LABEL_FAILURE |
+
+| constant   | value                                                      |
+|:-----------|:-----------------------------------------------------------|
+| REQUEST    | rweb/settings/profile/DISABLE_VERIFIED_PHONE_LABEL_REQUEST |
+| SUCCESS    | rweb/settings/profile/DISABLE_VERIFIED_PHONE_LABEL_SUCCESS |
+| FAILURE    | rweb/settings/profile/DISABLE_VERIFIED_PHONE_LABEL_FAILURE |
+
+| constant   | value                                                    |
+|:-----------|:---------------------------------------------------------|
+| REQUEST    | rweb/settings/profile/FETCH_VERIFIED_PHONE_LABEL_REQUEST |
+| SUCCESS    | rweb/settings/profile/FETCH_VERIFIED_PHONE_LABEL_SUCCESS |
+| FAILURE    | rweb/settings/profile/FETCH_VERIFIED_PHONE_LABEL_FAILURE |
+
 | constant   | value   |
 |:-----------|:--------|
 | IOS        | ios     |
@@ -470,16 +471,6 @@ This document is entirely auto-generated and may contain errors.<br>
 | Transient         | 6                 |
 | 6                 | Transient         |
 
-| constant   | value      |
-|:-----------|:-----------|
-| wide       | wide       |
-| narrow     | narrow     |
-| veryNarrow | veryNarrow |
-
-```internal process
-# Error
-{[s.wide]:"500",[s.narrow]:"300",[s.veryNarrow]:"200"}
-```
 | constant         | value           |
 |:-----------------|:----------------|
 | LIVE_BROADCAST   | liveBroadcast   |
