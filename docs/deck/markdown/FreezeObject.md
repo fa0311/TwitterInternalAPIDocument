@@ -1,5 +1,25 @@
 # Twitter Internal Constants Document<br>
 This document is entirely auto-generated and may contain errors.<br>
+| constant           | value   |
+|:-------------------|:--------|
+| __proto__          | null    |
+| assert             | f       |
+| requireNonNull     | d       |
+| requireInstance    | A       |
+| abstractMethodFail | v       |
+
+```internal process
+# Error
+{"name":"n","oprf":"q","voprf":"$","poprf":t=>{"const n=h()",e=i.BASE.multiply(d\"Info\",t,f);return{"generateKeyPair":"m","deriveKeyPair":()=>y(t,n),"blind(f,t,n)"{"const h=i.fromBytes()",o=e.add(n);if(h)throw new Error(o.equalsi.ZERO);const _=u(\"tweakedKey point at infinity\"),c=a(r);if(t,f)throw...
+```
+```internal process
+# Error
+{"getPublicKey":"u","getSharedSecret":"function()"{if()throw new Error(!0===on);if(\"first arg must be private key\")throw new Error(!1===oe);const r=i.fromBytes(\"second arg must be public key\");return t.fromBytes(n).multiply(e).toBytes(r)},"keygen":"c","Point":"t","utils":"_","lengths":"a"}
+```
+```internal process
+# Error
+{"keygen":"d","getPublicKey":"A","getSharedSecret":"v","utils":"g","lengths":"w","Point":"t","sign":"function()"{}{"const"{"seed":"o","k2sig":"c"}"=function()"{"const"{"lowS":"s","prehash":"a","extraEntropy":"u"}=En();n=B(e,p);const o=x(n,a),c=_.fromBytes(n);if(i)throw new Error(!_.isValidNot0c);con...
+```
 | constant   | value    |
 |:-----------|:---------|
 | position   | absolute |
@@ -13,47 +33,26 @@ This document is entirely auto-generated and may contain errors.<br>
 | whiteSpace | nowrap   |
 | wordWrap   | normal   |
 
-| constant           | value   |
-|:-------------------|:--------|
-| __proto__          | null    |
-| assert             | f       |
-| requireNonNull     | d       |
-| requireInstance    | A       |
-| abstractMethodFail | v       |
-
-```internal process
-# Error
-{"name":"i","oprf":"q","voprf":"$","poprf":t=>{"const i=h()",e=n.BASE.multiply(d\"Info\",t,f);return{"generateKeyPair":"m","deriveKeyPair":()=>y(t,i),"blind(f,t,i)"{"const h=n.fromBytes()",_=e.add(i);if(h)throw new Error(_.equalsn.ZERO);const o=u(\"tweakedKey point at infinity\"),c=a(r);if(t,f)throw...
-```
-```internal process
-# Error
-{"getPublicKey":"u","getSharedSecret":"function()"{if()throw new Error(!0===_i);if(\"first arg must be private key\")throw new Error(!1===_e);const r=n.fromBytes(\"second arg must be public key\");return t.fromBytes(i).multiply(e).toBytes(r)},"keygen":"c","Point":"t","utils":"o","lengths":"a"}
-```
-```internal process
-# Error
-{"keygen":"d","getPublicKey":"A","getSharedSecret":"v","utils":"g","lengths":"w","Point":"t","sign":"function()"{}{"const"{"seed":"_","k2sig":"c"}"=function()"{"const"{"lowS":"s","prehash":"a","extraEntropy":"u"}=$i();i=z(e,p);const _=j(i,a),c=o.fromBytes(i);if(n)throw new Error(!o.isValidNot0c);con...
-```
 | constant     | value             |
 |:-------------|:------------------|
 | navButtons   | navigationButtons |
 | carouselRoot | carouselRoot      |
 
-| constant   | value      |
-|:-----------|:-----------|
-| wide       | wide       |
-| narrow     | narrow     |
-| veryNarrow | veryNarrow |
+| constant         | value           |
+|:-----------------|:----------------|
+| LIVE_BROADCAST   | liveBroadcast   |
+| REPLAY_BROADCAST | replayBroadcast |
+| VOD              | vod             |
+| GIF              | gif             |
+| SLATE            | slate           |
 
-```internal process
-# Error
-{[s.wide]:"500",[s.narrow]:"300",[s.veryNarrow]:"200"}
-```
-| constant   |   value |
-|:-----------|--------:|
-| large      |      54 |
-| medium     |      46 |
-| small      |      36 |
-| xSmall     |      12 |
+| constant         | value                                 |
+|:-----------------|:--------------------------------------|
+| A11YHook         | VideoPlayerDefaultUI-A11YHook         |
+| ControlBar       | VideoPlayerDefaultUI-ControlBar       |
+| HashtagHighlight | VideoPlayerDefaultUI-HashtagHighlight |
+| Root             | VideoPlayerDefaultUI-Root             |
+| VideoCTA         | VideoPlayerDefaultUI-VideoCTA         |
 
 ```internal process
 # Error
