@@ -8192,13 +8192,13 @@ This document is entirely auto-generated and may contain errors.<br>
 
 |   constant | value   |
 |-----------:|:--------|
-|          1 | c       |
-|          2 | d       |
+|          1 | d       |
+|          2 | c       |
 
 | constant   | value                        |
 |:-----------|:-----------------------------|
-| annually   | {'label': 'c', 'value': '1'} |
-| hourly     | {'label': 'd', 'value': '2'} |
+| annually   | {'label': 'd', 'value': '1'} |
+| hourly     | {'label': 'c', 'value': '2'} |
 
 | constant         |   value |
 |:-----------------|--------:|
