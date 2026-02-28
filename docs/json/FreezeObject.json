@@ -7764,16 +7764,16 @@
     "contract_to_hire": "o"
   },
   {
-    "1": "c",
-    "2": "d"
+    "1": "d",
+    "2": "c"
   },
   {
     "annually": {
-      "label": "c",
+      "label": "d",
       "value": "1"
     },
     "hourly": {
-      "label": "d",
+      "label": "c",
       "value": "2"
     }
   },
