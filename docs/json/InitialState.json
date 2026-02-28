@@ -4575,16 +4575,16 @@
           "value": "true"
         },
         "content_disclosure_ai_generated_creation_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "content_disclosure_ai_generated_indicator_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "content_disclosure_creation_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "content_disclosure_indicator_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "creator_monetization_profile_subscription_tweets_tab_enabled": {
           "value": "true"
@@ -8074,7 +8074,7 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "a09d92aa37d0e51b7b7da94b5ace31f2"
+      "settingsVersion": "b08977b1dc79861f25ec607afd08e326"
     },
     "debug": {},
     "featureSetToken": "ccadcb18eb1e138077242ff1e232f50338128fa5",
@@ -8147,7 +8147,7 @@
   },
   "session": {
     "country": "XX",
-    "guestId": "177222630482732893",
+    "guestId": "177231253651954933",
     "hasCommunityMemberships": "false",
     "isActiveCreator": "false",
     "isLoaded": "false",
