@@ -7259,3 +7259,16 @@
 - xchat_resolve_unencrypted_media_locally<br>
 #### remove<br>
 - None<br>
+## 2026/03/02<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- gryphon_upgrade_premium_plus_banner_enabled<br>
+- xchat_enable_batch_sql_events<br>
+- xchat_max_group_size_for_live_read_receipts<br>
+#### remove<br>
+- None<br>
