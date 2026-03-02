@@ -588,16 +588,16 @@
         "value": "true"
       },
       "content_disclosure_ai_generated_creation_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "content_disclosure_ai_generated_indicator_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "content_disclosure_creation_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "content_disclosure_indicator_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "creator_monetization_profile_subscription_tweets_tab_enabled": {
         "value": "true"
@@ -831,6 +831,9 @@
         "value": "120000"
       },
       "gryphon_underground_enabled": {
+        "value": "false"
+      },
+      "gryphon_upgrade_premium_plus_banner_enabled": {
         "value": "false"
       },
       "gryphon_video_docking_enabled": {
@@ -3894,6 +3897,9 @@
       "xchat_enable_av_group": {
         "value": "true"
       },
+      "xchat_enable_batch_sql_events": {
+        "value": "false"
+      },
       "xchat_enable_command_menu": {
         "value": "false"
       },
@@ -3968,6 +3974,9 @@
       },
       "xchat_max_group_size": {
         "value": "300"
+      },
+      "xchat_max_group_size_for_live_read_receipts": {
+        "value": "50"
       },
       "xchat_max_group_size_for_remove_info_item": {
         "value": "100"
@@ -4818,6 +4827,9 @@
           "value": "120000"
         },
         "gryphon_underground_enabled": {
+          "value": "false"
+        },
+        "gryphon_upgrade_premium_plus_banner_enabled": {
           "value": "false"
         },
         "gryphon_video_docking_enabled": {
@@ -7881,6 +7893,9 @@
         "xchat_enable_av_group": {
           "value": "true"
         },
+        "xchat_enable_batch_sql_events": {
+          "value": "false"
+        },
         "xchat_enable_command_menu": {
           "value": "false"
         },
@@ -7955,6 +7970,9 @@
         },
         "xchat_max_group_size": {
           "value": "300"
+        },
+        "xchat_max_group_size_for_live_read_receipts": {
+          "value": "50"
         },
         "xchat_max_group_size_for_remove_info_item": {
           "value": "100"
@@ -8074,10 +8092,10 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "b08977b1dc79861f25ec607afd08e326"
+      "settingsVersion": "a09d92aa37d0e51b7b7da94b5ace31f2"
     },
     "debug": {},
-    "featureSetToken": "ccadcb18eb1e138077242ff1e232f50338128fa5",
+    "featureSetToken": "0d3d26c4888e75c83fa9530eed200377c4d2271b",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -8147,7 +8165,7 @@
   },
   "session": {
     "country": "XX",
-    "guestId": "177239896196331238",
+    "guestId": "177248566223846312",
     "hasCommunityMemberships": "false",
     "isActiveCreator": "false",
     "isLoaded": "false",
