@@ -5999,33 +5999,33 @@
     "AGE_OVER_35": "AgeOver35",
     "AGE_OVER_50": "AgeOver50"
   },
-  "{[a.AGE_18_TO_24]:{\"minAge\":\"18\",\"maxAge\":\"24\"},[a.AGE_18_TO_34]:{\"minAge\":\"18\",\"maxAge\":\"34\"},[a.AGE_18_TO_49]:{\"minAge\":\"18\",\"maxAge\":\"49\"},[a.AGE_18_TO_54]:{\"minAge\":\"18\",\"maxAge\":\"54\"},[a.AGE_21_TO_34]:{\"minAge\":\"21\",\"maxAge\":\"34\"},[a.AGE_21_TO_49]:{\"minAge\":\"21\",\"maxAge\":\"49\"},[a.AGE_21_TO_54]:{\"minAge\":\"21\",\"maxAge\":\"54\"},[a.AGE_25_TO_49]:{\"minAge\":\"25\",\"maxAge\":\"49\"},[a.AGE_25_TO_54]:{\"minAge\":\"25\",\"maxAge\":\"54\"},[a.AGE_35_TO_49]:{\"minAge\":\"35\",\"maxAge\":\"49\"},[a.AGE_35_TO_54]:{\"minAge\":\"35\",\"maxAge\":\"54\"},[a.AGE_OVER_18]:{\"minAge\":\"18\"},[a.AGE_OVER_21]:{\"minAge\":\"21\"},[a.AGE_OVER_25]:{\"minAge\":\"25\"},[a.AGE_OVER_35]:{\"minAge\":\"35\"},[a.AGE_OVER_50]:{\"minAge\":\"50\"}}",
+  "{[r.AGE_18_TO_24]:{\"minAge\":\"18\",\"maxAge\":\"24\"},[r.AGE_18_TO_34]:{\"minAge\":\"18\",\"maxAge\":\"34\"},[r.AGE_18_TO_49]:{\"minAge\":\"18\",\"maxAge\":\"49\"},[r.AGE_18_TO_54]:{\"minAge\":\"18\",\"maxAge\":\"54\"},[r.AGE_21_TO_34]:{\"minAge\":\"21\",\"maxAge\":\"34\"},[r.AGE_21_TO_49]:{\"minAge\":\"21\",\"maxAge\":\"49\"},[r.AGE_21_TO_54]:{\"minAge\":\"21\",\"maxAge\":\"54\"},[r.AGE_25_TO_49]:{\"minAge\":\"25\",\"maxAge\":\"49\"},[r.AGE_25_TO_54]:{\"minAge\":\"25\",\"maxAge\":\"54\"},[r.AGE_35_TO_49]:{\"minAge\":\"35\",\"maxAge\":\"49\"},[r.AGE_35_TO_54]:{\"minAge\":\"35\",\"maxAge\":\"54\"},[r.AGE_OVER_18]:{\"minAge\":\"18\"},[r.AGE_OVER_21]:{\"minAge\":\"21\"},[r.AGE_OVER_25]:{\"minAge\":\"25\"},[r.AGE_OVER_35]:{\"minAge\":\"35\"},[r.AGE_OVER_50]:{\"minAge\":\"50\"}}",
   {
     "18": {
-      "24": "a.AGE_18_TO_24",
-      "34": "a.AGE_18_TO_34",
-      "49": "a.AGE_18_TO_49",
-      "54": "a.AGE_18_TO_54",
-      "over": "a.AGE_OVER_18"
+      "24": "r.AGE_18_TO_24",
+      "34": "r.AGE_18_TO_34",
+      "49": "r.AGE_18_TO_49",
+      "54": "r.AGE_18_TO_54",
+      "over": "r.AGE_OVER_18"
     },
     "21": {
-      "34": "a.AGE_21_TO_34",
-      "49": "a.AGE_21_TO_49",
-      "54": "a.AGE_21_TO_54",
-      "over": "a.AGE_OVER_21"
+      "34": "r.AGE_21_TO_34",
+      "49": "r.AGE_21_TO_49",
+      "54": "r.AGE_21_TO_54",
+      "over": "r.AGE_OVER_21"
     },
     "25": {
-      "49": "a.AGE_25_TO_49",
-      "54": "a.AGE_25_TO_54",
-      "over": "a.AGE_OVER_25"
+      "49": "r.AGE_25_TO_49",
+      "54": "r.AGE_25_TO_54",
+      "over": "r.AGE_OVER_25"
     },
     "35": {
-      "49": "a.AGE_35_TO_49",
-      "54": "a.AGE_35_TO_54",
-      "over": "a.AGE_OVER_35"
+      "49": "r.AGE_35_TO_49",
+      "54": "r.AGE_35_TO_54",
+      "over": "r.AGE_OVER_35"
     },
     "50": {
-      "over": "a.AGE_OVER_50"
+      "over": "r.AGE_OVER_50"
     }
   },
   {
@@ -7760,16 +7760,16 @@
     "contract_to_hire": "o"
   },
   {
-    "1": "c",
-    "2": "d"
+    "1": "d",
+    "2": "c"
   },
   {
     "annually": {
-      "label": "c",
+      "label": "d",
       "value": "1"
     },
     "hourly": {
-      "label": "d",
+      "label": "c",
       "value": "2"
     }
   },
