@@ -7272,3 +7272,17 @@
 - xchat_max_group_size_for_live_read_receipts<br>
 #### remove<br>
 - None<br>
+## 2026/03/04<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- av_chat_encryption_enabled<br>
+- people_search_interests_filter_enabled<br>
+- xchat_av_pip_enabled<br>
+- xchat_enable_av_mobile<br>
+#### remove<br>
+- None<br>
