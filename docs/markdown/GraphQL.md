@@ -98,7 +98,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## BlockedAccountsAll<br>
-Request URL: `https://x.com/i/api/graphql/X8cpgft-bDDhcef4WM4XlQ/BlockedAccountsAll`<br>
+Request URL: `https://x.com/i/api/graphql/3MXx-JwKJKR3Anlri-5F0A/BlockedAccountsAll`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -130,6 +130,8 @@ Login Required: `...`<br>
 | longform_notetweets_consumption_enabled                                 | boolean | True       |
 | responsive_web_twitter_article_tweet_consumption_enabled                | boolean | True       |
 | tweet_awards_web_tipping_enabled                                        | boolean | False      |
+| content_disclosure_indicator_enabled                                    | boolean | True       |
+| content_disclosure_ai_generated_indicator_enabled                       | boolean | True       |
 | responsive_web_grok_show_grok_translated_post                           | boolean | False      |
 | responsive_web_grok_analysis_button_from_backend                        | boolean | True       |
 | post_ctas_fetch_enabled                                                 | boolean | False      |
@@ -146,7 +148,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## BlockedAccountsImported<br>
-Request URL: `https://x.com/i/api/graphql/9fQ0BTN_Y7-P1Xa4T2mUJw/BlockedAccountsImported`<br>
+Request URL: `https://x.com/i/api/graphql/wjRe-lQtlSuYusj2A5jW8A/BlockedAccountsImported`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -178,6 +180,8 @@ Login Required: `...`<br>
 | longform_notetweets_consumption_enabled                                 | boolean | True       |
 | responsive_web_twitter_article_tweet_consumption_enabled                | boolean | True       |
 | tweet_awards_web_tipping_enabled                                        | boolean | False      |
+| content_disclosure_indicator_enabled                                    | boolean | True       |
+| content_disclosure_ai_generated_indicator_enabled                       | boolean | True       |
 | responsive_web_grok_show_grok_translated_post                           | boolean | False      |
 | responsive_web_grok_analysis_button_from_backend                        | boolean | True       |
 | post_ctas_fetch_enabled                                                 | boolean | False      |
@@ -194,7 +198,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## BlueVerifiedFollowers<br>
-Request URL: `https://x.com/i/api/graphql/Y7ucaFlmB4YL-vuP-ZqlfQ/BlueVerifiedFollowers`<br>
+Request URL: `https://x.com/i/api/graphql/9PW3sa-ugCY7t1gDy19EJw/BlueVerifiedFollowers`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -226,6 +230,8 @@ Login Required: `...`<br>
 | longform_notetweets_consumption_enabled                                 | boolean | True       |
 | responsive_web_twitter_article_tweet_consumption_enabled                | boolean | True       |
 | tweet_awards_web_tipping_enabled                                        | boolean | False      |
+| content_disclosure_indicator_enabled                                    | boolean | True       |
+| content_disclosure_ai_generated_indicator_enabled                       | boolean | True       |
 | responsive_web_grok_show_grok_translated_post                           | boolean | False      |
 | responsive_web_grok_analysis_button_from_backend                        | boolean | True       |
 | post_ctas_fetch_enabled                                                 | boolean | False      |
@@ -242,7 +248,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## BookmarkSearchTimeline<br>
-Request URL: `https://x.com/i/api/graphql/BGOyA99A5kTS5ODnhD8faw/BookmarkSearchTimeline`<br>
+Request URL: `https://x.com/i/api/graphql/qWip5tavz_y5Db0S1_OSMQ/BookmarkSearchTimeline`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -274,6 +280,8 @@ Login Required: `...`<br>
 | longform_notetweets_consumption_enabled                                 | boolean | True       |
 | responsive_web_twitter_article_tweet_consumption_enabled                | boolean | True       |
 | tweet_awards_web_tipping_enabled                                        | boolean | False      |
+| content_disclosure_indicator_enabled                                    | boolean | True       |
+| content_disclosure_ai_generated_indicator_enabled                       | boolean | True       |
 | responsive_web_grok_show_grok_translated_post                           | boolean | False      |
 | responsive_web_grok_analysis_button_from_backend                        | boolean | True       |
 | post_ctas_fetch_enabled                                                 | boolean | False      |
@@ -290,7 +298,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## BroadcastQuery<br>
-Request URL: `https://x.com/i/api/graphql/P11fY-GUGe2MX_a1MQoQKw/BroadcastQuery`<br>
+Request URL: `https://x.com/i/api/graphql/jjNAZr5yo9O6r_2yScncXw/BroadcastQuery`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -319,6 +327,8 @@ Login Required: `...`<br>
 | longform_notetweets_consumption_enabled                                 | boolean | True       |
 | responsive_web_twitter_article_tweet_consumption_enabled                | boolean | True       |
 | tweet_awards_web_tipping_enabled                                        | boolean | False      |
+| content_disclosure_indicator_enabled                                    | boolean | True       |
+| content_disclosure_ai_generated_indicator_enabled                       | boolean | True       |
 | responsive_web_grok_show_grok_translated_post                           | boolean | False      |
 | responsive_web_grok_analysis_button_from_backend                        | boolean | True       |
 | post_ctas_fetch_enabled                                                 | boolean | False      |
@@ -337,7 +347,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## CombinedLists<br>
-Request URL: `https://x.com/i/api/graphql/I_vO7_2N5dnUZx8jTS-pDw/CombinedLists`<br>
+Request URL: `https://x.com/i/api/graphql/5KEl2dRyjzAllswYESA1iA/CombinedLists`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -369,6 +379,8 @@ Login Required: `...`<br>
 | longform_notetweets_consumption_enabled                                 | boolean | True       |
 | responsive_web_twitter_article_tweet_consumption_enabled                | boolean | True       |
 | tweet_awards_web_tipping_enabled                                        | boolean | False      |
+| content_disclosure_indicator_enabled                                    | boolean | True       |
+| content_disclosure_ai_generated_indicator_enabled                       | boolean | True       |
 | responsive_web_grok_show_grok_translated_post                           | boolean | False      |
 | responsive_web_grok_analysis_button_from_backend                        | boolean | True       |
 | post_ctas_fetch_enabled                                                 | boolean | False      |
@@ -385,7 +397,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## CommunitiesExploreTimeline<br>
-Request URL: `https://x.com/i/api/graphql/OWNyas1L0tUo8n13oJm1Dg/CommunitiesExploreTimeline`<br>
+Request URL: `https://x.com/i/api/graphql/OcnPnqsC_joUgjbZShm8NA/CommunitiesExploreTimeline`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -417,6 +429,8 @@ Login Required: `...`<br>
 | longform_notetweets_consumption_enabled                                 | boolean | True       |
 | responsive_web_twitter_article_tweet_consumption_enabled                | boolean | True       |
 | tweet_awards_web_tipping_enabled                                        | boolean | False      |
+| content_disclosure_indicator_enabled                                    | boolean | True       |
+| content_disclosure_ai_generated_indicator_enabled                       | boolean | True       |
 | responsive_web_grok_show_grok_translated_post                           | boolean | False      |
 | responsive_web_grok_analysis_button_from_backend                        | boolean | True       |
 | post_ctas_fetch_enabled                                                 | boolean | False      |
@@ -433,7 +447,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## CommunitiesMainDiscoveryModule<br>
-Request URL: `https://x.com/i/api/graphql/pV1Cc0LRiz4ouFx0Yi6KAg/CommunitiesMainDiscoveryModule`<br>
+Request URL: `https://x.com/i/api/graphql/hsEqLAJ48gjUqlomwoZGMQ/CommunitiesMainDiscoveryModule`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -465,6 +479,8 @@ Login Required: `...`<br>
 | longform_notetweets_consumption_enabled                                 | boolean | True       |
 | responsive_web_twitter_article_tweet_consumption_enabled                | boolean | True       |
 | tweet_awards_web_tipping_enabled                                        | boolean | False      |
+| content_disclosure_indicator_enabled                                    | boolean | True       |
+| content_disclosure_ai_generated_indicator_enabled                       | boolean | True       |
 | responsive_web_grok_show_grok_translated_post                           | boolean | False      |
 | responsive_web_grok_analysis_button_from_backend                        | boolean | True       |
 | post_ctas_fetch_enabled                                                 | boolean | False      |
@@ -481,7 +497,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## CommunitiesMainPageTimeline<br>
-Request URL: `https://x.com/i/api/graphql/sSFKMQPrl7KLocKEVoEY4A/CommunitiesMainPageTimeline`<br>
+Request URL: `https://x.com/i/api/graphql/Czvi4cPCzyUmJiIj845mBw/CommunitiesMainPageTimeline`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -513,6 +529,8 @@ Login Required: `...`<br>
 | longform_notetweets_consumption_enabled                                 | boolean | True       |
 | responsive_web_twitter_article_tweet_consumption_enabled                | boolean | True       |
 | tweet_awards_web_tipping_enabled                                        | boolean | False      |
+| content_disclosure_indicator_enabled                                    | boolean | True       |
+| content_disclosure_ai_generated_indicator_enabled                       | boolean | True       |
 | responsive_web_grok_show_grok_translated_post                           | boolean | False      |
 | responsive_web_grok_analysis_button_from_backend                        | boolean | True       |
 | post_ctas_fetch_enabled                                                 | boolean | False      |
@@ -529,16 +547,12 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## CommunitiesMembershipsSlice<br>
-Request URL: `https://x.com/i/api/graphql/csYNmYJ35f7MSR_L2hoSLg/CommunitiesMembershipsSlice`<br>
+Request URL: `https://x.com/i/api/graphql/RZbOPkGRojJwjvWyooxAqQ/CommunitiesMembershipsSlice`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key           | type   | variable   |
-|:--------------|:-------|:-----------|
-| ...()(0,Un.S) | ...    | _          |
-| ...t          | ...    | _          |
-
+`None`<br>
 #### features<br>
 | key                                                               | type    | variable   |
 |:------------------------------------------------------------------|:--------|:-----------|
@@ -552,7 +566,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## CommunitiesMembershipsTimeline<br>
-Request URL: `https://x.com/i/api/graphql/tM6hc14M2RXh0jMVMT3JLg/CommunitiesMembershipsTimeline`<br>
+Request URL: `https://x.com/i/api/graphql/AbVGTYNQg7kBZarei4V1bg/CommunitiesMembershipsTimeline`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -584,6 +598,8 @@ Login Required: `...`<br>
 | longform_notetweets_consumption_enabled                                 | boolean | True       |
 | responsive_web_twitter_article_tweet_consumption_enabled                | boolean | True       |
 | tweet_awards_web_tipping_enabled                                        | boolean | False      |
+| content_disclosure_indicator_enabled                                    | boolean | True       |
+| content_disclosure_ai_generated_indicator_enabled                       | boolean | True       |
 | responsive_web_grok_show_grok_translated_post                           | boolean | False      |
 | responsive_web_grok_analysis_button_from_backend                        | boolean | True       |
 | post_ctas_fetch_enabled                                                 | boolean | False      |
@@ -600,7 +616,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## CommunityAboutTimeline<br>
-Request URL: `https://x.com/i/api/graphql/p4Df4wIhQpfGzB2uhzE6wQ/CommunityAboutTimeline`<br>
+Request URL: `https://x.com/i/api/graphql/5KPdVYkYus4MLGFcHEUkQw/CommunityAboutTimeline`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -632,6 +648,8 @@ Login Required: `...`<br>
 | longform_notetweets_consumption_enabled                                 | boolean | True       |
 | responsive_web_twitter_article_tweet_consumption_enabled                | boolean | True       |
 | tweet_awards_web_tipping_enabled                                        | boolean | False      |
+| content_disclosure_indicator_enabled                                    | boolean | True       |
+| content_disclosure_ai_generated_indicator_enabled                       | boolean | True       |
 | responsive_web_grok_show_grok_translated_post                           | boolean | False      |
 | responsive_web_grok_analysis_button_from_backend                        | boolean | True       |
 | post_ctas_fetch_enabled                                                 | boolean | False      |
@@ -648,7 +666,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## CreateCommunity<br>
-Request URL: `https://x.com/i/api/graphql/UAKkgPIrZzCqDLhyaP-4Yw/CreateCommunity`<br>
+Request URL: `https://x.com/i/api/graphql/lw6p3Tgfh8UO7Nv1FIbZjQ/CreateCommunity`<br>
 Request Method: `POST`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -667,7 +685,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## CommunityCreateRule<br>
-Request URL: `https://x.com/i/api/graphql/FtEp3uUjIoto_fN7lwgJtw/CommunityCreateRule`<br>
+Request URL: `https://x.com/i/api/graphql/reWIODpeDHVJl8_j1GcQ3g/CommunityCreateRule`<br>
 Request Method: `POST`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -686,7 +704,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## CommunityDiscoveryTimeline<br>
-Request URL: `https://x.com/i/api/graphql/308nql9ZnmH4nwMoQe3jSQ/CommunityDiscoveryTimeline`<br>
+Request URL: `https://x.com/i/api/graphql/u_BRDA68y-YlacbOQ0cePg/CommunityDiscoveryTimeline`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -718,6 +736,8 @@ Login Required: `...`<br>
 | longform_notetweets_consumption_enabled                                 | boolean | True       |
 | responsive_web_twitter_article_tweet_consumption_enabled                | boolean | True       |
 | tweet_awards_web_tipping_enabled                                        | boolean | False      |
+| content_disclosure_indicator_enabled                                    | boolean | True       |
+| content_disclosure_ai_generated_indicator_enabled                       | boolean | True       |
 | responsive_web_grok_show_grok_translated_post                           | boolean | False      |
 | responsive_web_grok_analysis_button_from_backend                        | boolean | True       |
 | post_ctas_fetch_enabled                                                 | boolean | False      |
@@ -734,7 +754,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## CommunityEditBannerMedia<br>
-Request URL: `https://x.com/i/api/graphql/jhYzeqBdU4lupTn97Db-gQ/CommunityEditBannerMedia`<br>
+Request URL: `https://x.com/i/api/graphql/59Ko145eycdMAU1tYkJ-VA/CommunityEditBannerMedia`<br>
 Request Method: `POST`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -753,17 +773,12 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## CommunityEditName<br>
-Request URL: `https://x.com/i/api/graphql/P1dK5AqHp7lcC2s9yqYIlQ/CommunityEditName`<br>
+Request URL: `https://x.com/i/api/graphql/mRrv921nyT7XY1chwqSxnQ/CommunityEditName`<br>
 Request Method: `POST`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key          | type   | variable      |
-|:-------------|:-------|:--------------|
-| communityId  | ...    | t.communityId |
-| name         | ...    | t.name        |
-| ...()(0,s.S) | ...    | _             |
-
+`None`<br>
 #### features<br>
 | key                                                               | type    | variable   |
 |:------------------------------------------------------------------|:--------|:-----------|
@@ -777,17 +792,12 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## CommunityEditPurpose<br>
-Request URL: `https://x.com/i/api/graphql/Ak1dI6I1fxetaP6Db-A3fw/CommunityEditPurpose`<br>
+Request URL: `https://x.com/i/api/graphql/iQ-WJUdnwmX3Uj1VQInTQQ/CommunityEditPurpose`<br>
 Request Method: `POST`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key          | type   | variable      |
-|:-------------|:-------|:--------------|
-| communityId  | ...    | t.communityId |
-| description  | ...    | t.purpose     |
-| ...()(0,s.S) | ...    | _             |
-
+`None`<br>
 #### features<br>
 | key                                                               | type    | variable   |
 |:------------------------------------------------------------------|:--------|:-----------|
@@ -801,7 +811,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## CommunityEditQuestion<br>
-Request URL: `https://x.com/i/api/graphql/LW2ZB_gyg1PyLuBCBciSLQ/CommunityEditQuestion`<br>
+Request URL: `https://x.com/i/api/graphql/EolLwnsAAvL69FkoJkgtuw/CommunityEditQuestion`<br>
 Request Method: `POST`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -820,7 +830,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## CommunityEditRule<br>
-Request URL: `https://x.com/i/api/graphql/P6ib58g4I_e3xW4_rBRO3A/CommunityEditRule`<br>
+Request URL: `https://x.com/i/api/graphql/uhq7o1VYOBH0qoMwMEaprQ/CommunityEditRule`<br>
 Request Method: `POST`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -839,7 +849,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## CommunityByRestId<br>
-Request URL: `https://x.com/i/api/graphql/9j5yhrdOZM5pqkWxDHUbcw/CommunityByRestId`<br>
+Request URL: `https://x.com/i/api/graphql/DmYpjGQiykH6g3PqIUjmkQ/CommunityByRestId`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -858,7 +868,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## CommunityHashtagsTimeline<br>
-Request URL: `https://x.com/i/api/graphql/1pvQFJZup1S7MLM-oes_lA/CommunityHashtagsTimeline`<br>
+Request URL: `https://x.com/i/api/graphql/VWmhQgOSxtwJsdp1mOhYuA/CommunityHashtagsTimeline`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -890,6 +900,8 @@ Login Required: `...`<br>
 | longform_notetweets_consumption_enabled                                 | boolean | True       |
 | responsive_web_twitter_article_tweet_consumption_enabled                | boolean | True       |
 | tweet_awards_web_tipping_enabled                                        | boolean | False      |
+| content_disclosure_indicator_enabled                                    | boolean | True       |
+| content_disclosure_ai_generated_indicator_enabled                       | boolean | True       |
 | responsive_web_grok_show_grok_translated_post                           | boolean | False      |
 | responsive_web_grok_analysis_button_from_backend                        | boolean | True       |
 | post_ctas_fetch_enabled                                                 | boolean | False      |
@@ -906,7 +918,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## JoinCommunity<br>
-Request URL: `https://x.com/i/api/graphql/KyFklVXpODGpRpEtMJpFEg/JoinCommunity`<br>
+Request URL: `https://x.com/i/api/graphql/ksbhXZQU1A6YPvuWSRnCTQ/JoinCommunity`<br>
 Request Method: `POST`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -925,7 +937,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## LeaveCommunity<br>
-Request URL: `https://x.com/i/api/graphql/U46eJDA14z8fVxq3hbvjwQ/LeaveCommunity`<br>
+Request URL: `https://x.com/i/api/graphql/-uBu9jQ1bQz5xAatKuRU5g/LeaveCommunity`<br>
 Request Method: `POST`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -944,17 +956,12 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## CommunityMediaLoggedOutTimeline<br>
-Request URL: `https://x.com/i/api/graphql/whH3DMEOn2qJCP051MfNPw/CommunityMediaLoggedOutTimeline`<br>
+Request URL: `https://x.com/i/api/graphql/eq5PT1JAnlM8Q02eG8NNjA/CommunityMediaLoggedOutTimeline`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key                        | type   | variable   |
-|:---------------------------|:-------|:-----------|
-| ...t                       | ...    | _          |
-| withCommunity              | ...    | n.isTrue() |
-| ...("c9s_enabled")(0,Un.d) | ...    | _          |
-
+`None`<br>
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
@@ -981,6 +988,8 @@ Login Required: `...`<br>
 | longform_notetweets_consumption_enabled                                 | boolean | True       |
 | responsive_web_twitter_article_tweet_consumption_enabled                | boolean | True       |
 | tweet_awards_web_tipping_enabled                                        | boolean | False      |
+| content_disclosure_indicator_enabled                                    | boolean | True       |
+| content_disclosure_ai_generated_indicator_enabled                       | boolean | True       |
 | responsive_web_grok_show_grok_translated_post                           | boolean | False      |
 | responsive_web_grok_analysis_button_from_backend                        | boolean | True       |
 | post_ctas_fetch_enabled                                                 | boolean | False      |
@@ -997,7 +1006,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## CommunityMediaTimeline<br>
-Request URL: `https://x.com/i/api/graphql/4lT8qdcIuCC1_pOJsNPrnQ/CommunityMediaTimeline`<br>
+Request URL: `https://x.com/i/api/graphql/iAWX671jNaKGQciLRNGZXQ/CommunityMediaTimeline`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -1029,6 +1038,8 @@ Login Required: `...`<br>
 | longform_notetweets_consumption_enabled                                 | boolean | True       |
 | responsive_web_twitter_article_tweet_consumption_enabled                | boolean | True       |
 | tweet_awards_web_tipping_enabled                                        | boolean | False      |
+| content_disclosure_indicator_enabled                                    | boolean | True       |
+| content_disclosure_ai_generated_indicator_enabled                       | boolean | True       |
 | responsive_web_grok_show_grok_translated_post                           | boolean | False      |
 | responsive_web_grok_analysis_button_from_backend                        | boolean | True       |
 | post_ctas_fetch_enabled                                                 | boolean | False      |
@@ -1059,7 +1070,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## CommunityModerationKeepTweet<br>
-Request URL: `https://x.com/i/api/graphql/nqV7kyQZI0QP82oqUxb87g/CommunityModerationKeepTweet`<br>
+Request URL: `https://x.com/i/api/graphql/CY9q6VNIVo5uUAqq2ax8Iw/CommunityModerationKeepTweet`<br>
 Request Method: `POST`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -1078,7 +1089,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## CommunityModerationTweetCasesSlice<br>
-Request URL: `https://x.com/i/api/graphql/nKTTKWHLyuhng5SqNKj57g/CommunityModerationTweetCasesSlice`<br>
+Request URL: `https://x.com/i/api/graphql/xEqwzm-6fkIVE4Oug0XiCw/CommunityModerationTweetCasesSlice`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -1103,6 +1114,8 @@ Login Required: `...`<br>
 | longform_notetweets_consumption_enabled                                 | boolean | True       |
 | responsive_web_twitter_article_tweet_consumption_enabled                | boolean | True       |
 | tweet_awards_web_tipping_enabled                                        | boolean | False      |
+| content_disclosure_indicator_enabled                                    | boolean | True       |
+| content_disclosure_ai_generated_indicator_enabled                       | boolean | True       |
 | responsive_web_grok_show_grok_translated_post                           | boolean | False      |
 | responsive_web_grok_analysis_button_from_backend                        | boolean | True       |
 | post_ctas_fetch_enabled                                                 | boolean | False      |
@@ -1125,7 +1138,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## CommunityRemoveBannerMedia<br>
-Request URL: `https://x.com/i/api/graphql/5j1w-jEmzjE5g6Yg_WT6Sg/CommunityRemoveBannerMedia`<br>
+Request URL: `https://x.com/i/api/graphql/qV-qjBIcNMZz4LkdSafPyA/CommunityRemoveBannerMedia`<br>
 Request Method: `POST`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -1144,7 +1157,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## CommunityRemoveRule<br>
-Request URL: `https://x.com/i/api/graphql/nkd1UoOmWZDqQoe7DhxOeA/CommunityRemoveRule`<br>
+Request URL: `https://x.com/i/api/graphql/mO6VF-Prsavg0-KCrCLujQ/CommunityRemoveRule`<br>
 Request Method: `POST`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -1163,7 +1176,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## CommunityReorderRules<br>
-Request URL: `https://x.com/i/api/graphql/8aeNqGLgonFyoSbIsVvo_Q/CommunityReorderRules`<br>
+Request URL: `https://x.com/i/api/graphql/aywBWfeRiGjrqFJH1JIEeg/CommunityReorderRules`<br>
 Request Method: `POST`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -1182,17 +1195,12 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## RequestToJoinCommunity<br>
-Request URL: `https://x.com/i/api/graphql/klU5lldSeFN1fdX2ZlG-Xw/RequestToJoinCommunity`<br>
+Request URL: `https://x.com/i/api/graphql/1G8LYzgrA5X1RXst5ccSmw/RequestToJoinCommunity`<br>
 Request Method: `POST`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key           | type   | variable      |
-|:--------------|:-------|:--------------|
-| communityId   | ...    | t.communityId |
-| answer        | ...    | t.answer      |
-| ...()(0,Un.S) | ...    | _             |
-
+`None`<br>
 #### features<br>
 | key                                                               | type    | variable   |
 |:------------------------------------------------------------------|:--------|:-----------|
@@ -1206,7 +1214,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## CommunityTweetModerationLogSlice<br>
-Request URL: `https://x.com/i/api/graphql/wRG2RRHBXBXizSfWzqG2KA/CommunityTweetModerationLogSlice`<br>
+Request URL: `https://x.com/i/api/graphql/7ldpWa_4QkJshUMdM3WZvQ/CommunityTweetModerationLogSlice`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -1236,6 +1244,8 @@ Login Required: `...`<br>
 | longform_notetweets_consumption_enabled                                 | boolean | True       |
 | responsive_web_twitter_article_tweet_consumption_enabled                | boolean | True       |
 | tweet_awards_web_tipping_enabled                                        | boolean | False      |
+| content_disclosure_indicator_enabled                                    | boolean | True       |
+| content_disclosure_ai_generated_indicator_enabled                       | boolean | True       |
 | responsive_web_grok_show_grok_translated_post                           | boolean | False      |
 | responsive_web_grok_analysis_button_from_backend                        | boolean | True       |
 | post_ctas_fetch_enabled                                                 | boolean | False      |
@@ -1253,7 +1263,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## CommunityTweetsLoggedOutTimeline<br>
-Request URL: `https://x.com/i/api/graphql/eFng9kHu-XsTj6hd_FaRnQ/CommunityTweetsLoggedOutTimeline`<br>
+Request URL: `https://x.com/i/api/graphql/l73JUzeFxaEBm9no-T27Ew/CommunityTweetsLoggedOutTimeline`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -1285,6 +1295,8 @@ Login Required: `...`<br>
 | longform_notetweets_consumption_enabled                                 | boolean | True       |
 | responsive_web_twitter_article_tweet_consumption_enabled                | boolean | True       |
 | tweet_awards_web_tipping_enabled                                        | boolean | False      |
+| content_disclosure_indicator_enabled                                    | boolean | True       |
+| content_disclosure_ai_generated_indicator_enabled                       | boolean | True       |
 | responsive_web_grok_show_grok_translated_post                           | boolean | False      |
 | responsive_web_grok_analysis_button_from_backend                        | boolean | True       |
 | post_ctas_fetch_enabled                                                 | boolean | False      |
@@ -1301,7 +1313,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## CommunityTweetsRankedLoggedOutTimeline<br>
-Request URL: `https://x.com/i/api/graphql/bxESTU-mPHEx0hFyB7VPMg/CommunityTweetsRankedLoggedOutTimeline`<br>
+Request URL: `https://x.com/i/api/graphql/8WDA26JYfkEB3R4-nmINiw/CommunityTweetsRankedLoggedOutTimeline`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -1333,6 +1345,8 @@ Login Required: `...`<br>
 | longform_notetweets_consumption_enabled                                 | boolean | True       |
 | responsive_web_twitter_article_tweet_consumption_enabled                | boolean | True       |
 | tweet_awards_web_tipping_enabled                                        | boolean | False      |
+| content_disclosure_indicator_enabled                                    | boolean | True       |
+| content_disclosure_ai_generated_indicator_enabled                       | boolean | True       |
 | responsive_web_grok_show_grok_translated_post                           | boolean | False      |
 | responsive_web_grok_analysis_button_from_backend                        | boolean | True       |
 | post_ctas_fetch_enabled                                                 | boolean | False      |
@@ -1349,7 +1363,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## CommunityTweetsTimeline<br>
-Request URL: `https://x.com/i/api/graphql/J6CkIkQTdVpoBlMSw1K_hQ/CommunityTweetsTimeline`<br>
+Request URL: `https://x.com/i/api/graphql/sumsDHrPKdZA7ZrrEzOqTA/CommunityTweetsTimeline`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -1381,6 +1395,8 @@ Login Required: `...`<br>
 | longform_notetweets_consumption_enabled                                 | boolean | True       |
 | responsive_web_twitter_article_tweet_consumption_enabled                | boolean | True       |
 | tweet_awards_web_tipping_enabled                                        | boolean | False      |
+| content_disclosure_indicator_enabled                                    | boolean | True       |
+| content_disclosure_ai_generated_indicator_enabled                       | boolean | True       |
 | responsive_web_grok_show_grok_translated_post                           | boolean | False      |
 | responsive_web_grok_analysis_button_from_backend                        | boolean | True       |
 | post_ctas_fetch_enabled                                                 | boolean | False      |
@@ -1397,7 +1413,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## CommunityUpdateRole<br>
-Request URL: `https://x.com/i/api/graphql/6VIC80y7n-9z7_tBxTdPwA/CommunityUpdateRole`<br>
+Request URL: `https://x.com/i/api/graphql/Eo2YKUepP3ZELe4-DfvaVg/CommunityUpdateRole`<br>
 Request Method: `POST`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -1444,7 +1460,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## ConnectTabTimeline<br>
-Request URL: `https://x.com/i/api/graphql/i1zYgxQLE5lpxYhJkF5zSQ/ConnectTabTimeline`<br>
+Request URL: `https://x.com/i/api/graphql/J4qMkGTfCVBBeGEjr4bduw/ConnectTabTimeline`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -1476,6 +1492,8 @@ Login Required: `...`<br>
 | longform_notetweets_consumption_enabled                                 | boolean | True       |
 | responsive_web_twitter_article_tweet_consumption_enabled                | boolean | True       |
 | tweet_awards_web_tipping_enabled                                        | boolean | False      |
+| content_disclosure_indicator_enabled                                    | boolean | True       |
+| content_disclosure_ai_generated_indicator_enabled                       | boolean | True       |
 | responsive_web_grok_show_grok_translated_post                           | boolean | False      |
 | responsive_web_grok_analysis_button_from_backend                        | boolean | True       |
 | post_ctas_fetch_enabled                                                 | boolean | False      |
@@ -1536,17 +1554,12 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## CreateNoteTweet<br>
-Request URL: `https://x.com/i/api/graphql/pGshXPrx3I3YGaBeiYU2Ag/CreateNoteTweet`<br>
+Request URL: `https://x.com/i/api/graphql/hOR1inothCVPbzWntyKf_Q/CreateNoteTweet`<br>
 Request Method: `POST`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key          | type   | variable   |
-|:-------------|:-------|:-----------|
-| count        | ...    | 10         |
-| ...n         | ...    | _          |
-| ...()(0,r.S) | ...    | _          |
-
+`None`<br>
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
@@ -1564,6 +1577,8 @@ Login Required: `...`<br>
 | longform_notetweets_consumption_enabled                                 | boolean | True       |
 | responsive_web_twitter_article_tweet_consumption_enabled                | boolean | True       |
 | tweet_awards_web_tipping_enabled                                        | boolean | False      |
+| content_disclosure_indicator_enabled                                    | boolean | True       |
+| content_disclosure_ai_generated_indicator_enabled                       | boolean | True       |
 | responsive_web_grok_show_grok_translated_post                           | boolean | False      |
 | responsive_web_grok_analysis_button_from_backend                        | boolean | True       |
 | post_ctas_fetch_enabled                                                 | boolean | False      |
@@ -1598,7 +1613,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## CreateTweet<br>
-Request URL: `https://x.com/i/api/graphql/Ke9I4_p5rCzwhTzK1fV2_w/CreateTweet`<br>
+Request URL: `https://x.com/i/api/graphql/y362cgN7cwMppu6Hy3JzrQ/CreateTweet`<br>
 Request Method: `POST`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -1621,6 +1636,8 @@ Login Required: `...`<br>
 | longform_notetweets_consumption_enabled                                 | boolean | True       |
 | responsive_web_twitter_article_tweet_consumption_enabled                | boolean | True       |
 | tweet_awards_web_tipping_enabled                                        | boolean | False      |
+| content_disclosure_indicator_enabled                                    | boolean | True       |
+| content_disclosure_ai_generated_indicator_enabled                       | boolean | True       |
 | responsive_web_grok_show_grok_translated_post                           | boolean | False      |
 | responsive_web_grok_analysis_button_from_backend                        | boolean | True       |
 | post_ctas_fetch_enabled                                                 | boolean | False      |
@@ -1644,7 +1661,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## CreatorSubscriptionsTimeline<br>
-Request URL: `https://x.com/i/api/graphql/y66OoWfp-e7vQYEqTONljA/CreatorSubscriptionsTimeline`<br>
+Request URL: `https://x.com/i/api/graphql/VrwIVnO8bj10wgJdm_NjYw/CreatorSubscriptionsTimeline`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -1676,6 +1693,8 @@ Login Required: `...`<br>
 | longform_notetweets_consumption_enabled                                 | boolean | True       |
 | responsive_web_twitter_article_tweet_consumption_enabled                | boolean | True       |
 | tweet_awards_web_tipping_enabled                                        | boolean | False      |
+| content_disclosure_indicator_enabled                                    | boolean | True       |
+| content_disclosure_ai_generated_indicator_enabled                       | boolean | True       |
 | responsive_web_grok_show_grok_translated_post                           | boolean | False      |
 | responsive_web_grok_analysis_button_from_backend                        | boolean | True       |
 | post_ctas_fetch_enabled                                                 | boolean | False      |
@@ -1785,10 +1804,7 @@ Request Method: `POST`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key            | type   | variable   |
-|:---------------|:-------|:-----------|
-| target_user_id | ...    | n.id_str   |
-
+`None`<br>
 #### features<br>
 `None`<br>
 #### queryId<br>
@@ -1827,7 +1843,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## ExplorePage<br>
-Request URL: `https://x.com/i/api/graphql/dPAhVpehnSbuDSathAk45g/ExplorePage`<br>
+Request URL: `https://x.com/i/api/graphql/-0Kz8MQIVIKeET9CB5kjVQ/ExplorePage`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -1859,6 +1875,8 @@ Login Required: `...`<br>
 | longform_notetweets_consumption_enabled                                 | boolean | True       |
 | responsive_web_twitter_article_tweet_consumption_enabled                | boolean | True       |
 | tweet_awards_web_tipping_enabled                                        | boolean | False      |
+| content_disclosure_indicator_enabled                                    | boolean | True       |
+| content_disclosure_ai_generated_indicator_enabled                       | boolean | True       |
 | responsive_web_grok_show_grok_translated_post                           | boolean | False      |
 | responsive_web_grok_analysis_button_from_backend                        | boolean | True       |
 | post_ctas_fetch_enabled                                                 | boolean | False      |
@@ -1875,7 +1893,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## ExploreSidebar<br>
-Request URL: `https://x.com/i/api/graphql/9880ngtuvcYo6FsS40XKQw/ExploreSidebar`<br>
+Request URL: `https://x.com/i/api/graphql/hWRcK-lcLbLoin9cifX6Og/ExploreSidebar`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -1907,6 +1925,8 @@ Login Required: `...`<br>
 | longform_notetweets_consumption_enabled                                 | boolean | True       |
 | responsive_web_twitter_article_tweet_consumption_enabled                | boolean | True       |
 | tweet_awards_web_tipping_enabled                                        | boolean | False      |
+| content_disclosure_indicator_enabled                                    | boolean | True       |
+| content_disclosure_ai_generated_indicator_enabled                       | boolean | True       |
 | responsive_web_grok_show_grok_translated_post                           | boolean | False      |
 | responsive_web_grok_analysis_button_from_backend                        | boolean | True       |
 | post_ctas_fetch_enabled                                                 | boolean | False      |
@@ -1934,7 +1954,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## Followers<br>
-Request URL: `https://x.com/i/api/graphql/-QzlwMyI_elLdGgmkh6pVA/Followers`<br>
+Request URL: `https://x.com/i/api/graphql/t6tx0Pdbg4XyEN4TSs_0QQ/Followers`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -1966,6 +1986,8 @@ Login Required: `...`<br>
 | longform_notetweets_consumption_enabled                                 | boolean | True       |
 | responsive_web_twitter_article_tweet_consumption_enabled                | boolean | True       |
 | tweet_awards_web_tipping_enabled                                        | boolean | False      |
+| content_disclosure_indicator_enabled                                    | boolean | True       |
+| content_disclosure_ai_generated_indicator_enabled                       | boolean | True       |
 | responsive_web_grok_show_grok_translated_post                           | boolean | False      |
 | responsive_web_grok_analysis_button_from_backend                        | boolean | True       |
 | post_ctas_fetch_enabled                                                 | boolean | False      |
@@ -1982,7 +2004,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## FollowersYouKnow<br>
-Request URL: `https://x.com/i/api/graphql/zYaoJ75e-AnmRq2ClaApfQ/FollowersYouKnow`<br>
+Request URL: `https://x.com/i/api/graphql/0VxZ74md_Um7talvg1TK4w/FollowersYouKnow`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -2014,6 +2036,8 @@ Login Required: `...`<br>
 | longform_notetweets_consumption_enabled                                 | boolean | True       |
 | responsive_web_twitter_article_tweet_consumption_enabled                | boolean | True       |
 | tweet_awards_web_tipping_enabled                                        | boolean | False      |
+| content_disclosure_indicator_enabled                                    | boolean | True       |
+| content_disclosure_ai_generated_indicator_enabled                       | boolean | True       |
 | responsive_web_grok_show_grok_translated_post                           | boolean | False      |
 | responsive_web_grok_analysis_button_from_backend                        | boolean | True       |
 | post_ctas_fetch_enabled                                                 | boolean | False      |
@@ -2030,7 +2054,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## Following<br>
-Request URL: `https://x.com/i/api/graphql/VC43EZd0zTVu8fDhdvLQgg/Following`<br>
+Request URL: `https://x.com/i/api/graphql/gGVkcwUnM_ISWg3NIby2TA/Following`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -2062,6 +2086,8 @@ Login Required: `...`<br>
 | longform_notetweets_consumption_enabled                                 | boolean | True       |
 | responsive_web_twitter_article_tweet_consumption_enabled                | boolean | True       |
 | tweet_awards_web_tipping_enabled                                        | boolean | False      |
+| content_disclosure_indicator_enabled                                    | boolean | True       |
+| content_disclosure_ai_generated_indicator_enabled                       | boolean | True       |
 | responsive_web_grok_show_grok_translated_post                           | boolean | False      |
 | responsive_web_grok_analysis_button_from_backend                        | boolean | True       |
 | post_ctas_fetch_enabled                                                 | boolean | False      |
@@ -2089,7 +2115,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## GenericTimelineById<br>
-Request URL: `https://x.com/i/api/graphql/339FszcOqRVWYuUtcgMIWA/GenericTimelineById`<br>
+Request URL: `https://x.com/i/api/graphql/IgCrmaL3vLNtmu7n6Brm2Q/GenericTimelineById`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -2121,6 +2147,8 @@ Login Required: `...`<br>
 | longform_notetweets_consumption_enabled                                 | boolean | True       |
 | responsive_web_twitter_article_tweet_consumption_enabled                | boolean | True       |
 | tweet_awards_web_tipping_enabled                                        | boolean | False      |
+| content_disclosure_indicator_enabled                                    | boolean | True       |
+| content_disclosure_ai_generated_indicator_enabled                       | boolean | True       |
 | responsive_web_grok_show_grok_translated_post                           | boolean | False      |
 | responsive_web_grok_analysis_button_from_backend                        | boolean | True       |
 | post_ctas_fetch_enabled                                                 | boolean | False      |
@@ -2148,17 +2176,12 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## GlobalCommunitiesLatestPostSearchTimeline<br>
-Request URL: `https://x.com/i/api/graphql/oFDLCwJ-Zfr48XlxPAvTQg/GlobalCommunitiesLatestPostSearchTimeline`<br>
+Request URL: `https://x.com/i/api/graphql/YHyewpjvOHkb3Qk-ym-g9g/GlobalCommunitiesLatestPostSearchTimeline`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key                                    | type    | variable   |
-|:---------------------------------------|:--------|:-----------|
-| tweetId                                | ...     | i          |
-| ...()(0,n.d)                           | ...     | _          |
-| withQuickPromoteEligibilityTweetFields | boolean | True       |
-
+`None`<br>
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
@@ -2185,6 +2208,8 @@ Login Required: `...`<br>
 | longform_notetweets_consumption_enabled                                 | boolean | True       |
 | responsive_web_twitter_article_tweet_consumption_enabled                | boolean | True       |
 | tweet_awards_web_tipping_enabled                                        | boolean | False      |
+| content_disclosure_indicator_enabled                                    | boolean | True       |
+| content_disclosure_ai_generated_indicator_enabled                       | boolean | True       |
 | responsive_web_grok_show_grok_translated_post                           | boolean | False      |
 | responsive_web_grok_analysis_button_from_backend                        | boolean | True       |
 | post_ctas_fetch_enabled                                                 | boolean | False      |
@@ -2201,7 +2226,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## GlobalCommunitiesPostSearchTimeline<br>
-Request URL: `https://x.com/i/api/graphql/3QWMEZJxUhOxAfSY1-Hm8Q/GlobalCommunitiesPostSearchTimeline`<br>
+Request URL: `https://x.com/i/api/graphql/4NZUlb7qE_qMDf1vFG9BUg/GlobalCommunitiesPostSearchTimeline`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -2233,6 +2258,8 @@ Login Required: `...`<br>
 | longform_notetweets_consumption_enabled                                 | boolean | True       |
 | responsive_web_twitter_article_tweet_consumption_enabled                | boolean | True       |
 | tweet_awards_web_tipping_enabled                                        | boolean | False      |
+| content_disclosure_indicator_enabled                                    | boolean | True       |
+| content_disclosure_ai_generated_indicator_enabled                       | boolean | True       |
 | responsive_web_grok_show_grok_translated_post                           | boolean | False      |
 | responsive_web_grok_analysis_button_from_backend                        | boolean | True       |
 | post_ctas_fetch_enabled                                                 | boolean | False      |
@@ -2249,7 +2276,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## HomeLatestTimeline<br>
-Request URL: `https://x.com/i/api/graphql/mKR1xI3NonCpkiYQywOMKg/HomeLatestTimeline`<br>
+Request URL: `https://x.com/i/api/graphql/vIA2Cqe3OdTO9TTi75kXqA/HomeLatestTimeline`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -2281,6 +2308,8 @@ Login Required: `...`<br>
 | longform_notetweets_consumption_enabled                                 | boolean | True       |
 | responsive_web_twitter_article_tweet_consumption_enabled                | boolean | True       |
 | tweet_awards_web_tipping_enabled                                        | boolean | False      |
+| content_disclosure_indicator_enabled                                    | boolean | True       |
+| content_disclosure_ai_generated_indicator_enabled                       | boolean | True       |
 | responsive_web_grok_show_grok_translated_post                           | boolean | False      |
 | responsive_web_grok_analysis_button_from_backend                        | boolean | True       |
 | post_ctas_fetch_enabled                                                 | boolean | False      |
@@ -2297,7 +2326,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## HomeTimeline<br>
-Request URL: `https://x.com/i/api/graphql/MpnCeE0hy8m5eWobPx8euw/HomeTimeline`<br>
+Request URL: `https://x.com/i/api/graphql/5HIFewm4IR4zjZoYSa1vBg/HomeTimeline`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -2329,6 +2358,8 @@ Login Required: `...`<br>
 | longform_notetweets_consumption_enabled                                 | boolean | True       |
 | responsive_web_twitter_article_tweet_consumption_enabled                | boolean | True       |
 | tweet_awards_web_tipping_enabled                                        | boolean | False      |
+| content_disclosure_indicator_enabled                                    | boolean | True       |
+| content_disclosure_ai_generated_indicator_enabled                       | boolean | True       |
 | responsive_web_grok_show_grok_translated_post                           | boolean | False      |
 | responsive_web_grok_analysis_button_from_backend                        | boolean | True       |
 | post_ctas_fetch_enabled                                                 | boolean | False      |
@@ -2345,7 +2376,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## Likes<br>
-Request URL: `https://x.com/i/api/graphql/_C9KlTj7CfBsm3ibVIZ0ZQ/Likes`<br>
+Request URL: `https://x.com/i/api/graphql/8yejnJghC-UE-qhFlPvXpA/Likes`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -2377,6 +2408,8 @@ Login Required: `...`<br>
 | longform_notetweets_consumption_enabled                                 | boolean | True       |
 | responsive_web_twitter_article_tweet_consumption_enabled                | boolean | True       |
 | tweet_awards_web_tipping_enabled                                        | boolean | False      |
+| content_disclosure_indicator_enabled                                    | boolean | True       |
+| content_disclosure_ai_generated_indicator_enabled                       | boolean | True       |
 | responsive_web_grok_show_grok_translated_post                           | boolean | False      |
 | responsive_web_grok_analysis_button_from_backend                        | boolean | True       |
 | post_ctas_fetch_enabled                                                 | boolean | False      |
@@ -2393,7 +2426,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## ListAddMember<br>
-Request URL: `https://x.com/i/api/graphql/Q-CAMgL9AlD9xVCn0qdqpA/ListAddMember`<br>
+Request URL: `https://x.com/i/api/graphql/nAi8BAjn1xQOyCH0hWZpPA/ListAddMember`<br>
 Request Method: `POST`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -2412,7 +2445,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## DeleteListBanner<br>
-Request URL: `https://x.com/i/api/graphql/BYNYY7eI8bc7QJ01GXnL0Q/DeleteListBanner`<br>
+Request URL: `https://x.com/i/api/graphql/-oOeYNihEO1SUYJrdIC0wA/DeleteListBanner`<br>
 Request Method: `POST`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -2431,7 +2464,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## EditListBanner<br>
-Request URL: `https://x.com/i/api/graphql/pNtqkYf8vxhbAxhcP1acbw/EditListBanner`<br>
+Request URL: `https://x.com/i/api/graphql/buH0utnb8bSZUo8RSWRI8Q/EditListBanner`<br>
 Request Method: `POST`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -2450,7 +2483,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## ListBySlug<br>
-Request URL: `https://x.com/i/api/graphql/v3s1Dbggk0Xa46QSkS-tZw/ListBySlug`<br>
+Request URL: `https://x.com/i/api/graphql/wDFEJKZe5uEyWTTvfnjVSg/ListBySlug`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -2469,7 +2502,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## CreateList<br>
-Request URL: `https://x.com/i/api/graphql/7vGOS_orbKSE6XCa51scsg/CreateList`<br>
+Request URL: `https://x.com/i/api/graphql/QXil-VE8uEJPfUKFiO36Bg/CreateList`<br>
 Request Method: `POST`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -2488,7 +2521,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## ListCreationRecommendedUsers<br>
-Request URL: `https://x.com/i/api/graphql/HXEM8dmfRE-8apKw63yMfQ/ListCreationRecommendedUsers`<br>
+Request URL: `https://x.com/i/api/graphql/gzIEjdD2MV8brLga1pr1SQ/ListCreationRecommendedUsers`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -2520,6 +2553,8 @@ Login Required: `...`<br>
 | longform_notetweets_consumption_enabled                                 | boolean | True       |
 | responsive_web_twitter_article_tweet_consumption_enabled                | boolean | True       |
 | tweet_awards_web_tipping_enabled                                        | boolean | False      |
+| content_disclosure_indicator_enabled                                    | boolean | True       |
+| content_disclosure_ai_generated_indicator_enabled                       | boolean | True       |
 | responsive_web_grok_show_grok_translated_post                           | boolean | False      |
 | responsive_web_grok_analysis_button_from_backend                        | boolean | True       |
 | post_ctas_fetch_enabled                                                 | boolean | False      |
@@ -2547,7 +2582,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## ListEditRecommendedUsers<br>
-Request URL: `https://x.com/i/api/graphql/ZGyrjEHVLUDJYHQgBh2Gxg/ListEditRecommendedUsers`<br>
+Request URL: `https://x.com/i/api/graphql/0e8UaIVqnBKMPJi4-LOSVw/ListEditRecommendedUsers`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -2579,6 +2614,8 @@ Login Required: `...`<br>
 | longform_notetweets_consumption_enabled                                 | boolean | True       |
 | responsive_web_twitter_article_tweet_consumption_enabled                | boolean | True       |
 | tweet_awards_web_tipping_enabled                                        | boolean | False      |
+| content_disclosure_indicator_enabled                                    | boolean | True       |
+| content_disclosure_ai_generated_indicator_enabled                       | boolean | True       |
 | responsive_web_grok_show_grok_translated_post                           | boolean | False      |
 | responsive_web_grok_analysis_button_from_backend                        | boolean | True       |
 | post_ctas_fetch_enabled                                                 | boolean | False      |
@@ -2595,16 +2632,12 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## ListLatestTweetsTimeline<br>
-Request URL: `https://x.com/i/api/graphql/q2m8Zr4U0NpjSYbOklY6sA/ListLatestTweetsTimeline`<br>
+Request URL: `https://x.com/i/api/graphql/MfHNRIi-3b1T0_bwO5tqWg/ListLatestTweetsTimeline`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key                    | type   | variable   |
-|:-----------------------|:-------|:-----------|
-| bookmark_collection_id | ...    | n          |
-| tweet_id               | ...    | o          |
-
+`None`<br>
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
@@ -2631,6 +2664,8 @@ Login Required: `...`<br>
 | longform_notetweets_consumption_enabled                                 | boolean | True       |
 | responsive_web_twitter_article_tweet_consumption_enabled                | boolean | True       |
 | tweet_awards_web_tipping_enabled                                        | boolean | False      |
+| content_disclosure_indicator_enabled                                    | boolean | True       |
+| content_disclosure_ai_generated_indicator_enabled                       | boolean | True       |
 | responsive_web_grok_show_grok_translated_post                           | boolean | False      |
 | responsive_web_grok_analysis_button_from_backend                        | boolean | True       |
 | post_ctas_fetch_enabled                                                 | boolean | False      |
@@ -2647,7 +2682,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## ListMembers<br>
-Request URL: `https://x.com/i/api/graphql/NUsHx0_C0Vva49NlIorkcQ/ListMembers`<br>
+Request URL: `https://x.com/i/api/graphql/nViLz5lv08dZ47iJ1br4KQ/ListMembers`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -2679,6 +2714,8 @@ Login Required: `...`<br>
 | longform_notetweets_consumption_enabled                                 | boolean | True       |
 | responsive_web_twitter_article_tweet_consumption_enabled                | boolean | True       |
 | tweet_awards_web_tipping_enabled                                        | boolean | False      |
+| content_disclosure_indicator_enabled                                    | boolean | True       |
+| content_disclosure_ai_generated_indicator_enabled                       | boolean | True       |
 | responsive_web_grok_show_grok_translated_post                           | boolean | False      |
 | responsive_web_grok_analysis_button_from_backend                        | boolean | True       |
 | post_ctas_fetch_enabled                                                 | boolean | False      |
@@ -2695,7 +2732,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## ListMemberships<br>
-Request URL: `https://x.com/i/api/graphql/ER7dVqn6AeWSVPjfFnYkjA/ListMemberships`<br>
+Request URL: `https://x.com/i/api/graphql/4kwiBn4OCEpCFRdJ4vMx8Q/ListMemberships`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -2727,6 +2764,8 @@ Login Required: `...`<br>
 | longform_notetweets_consumption_enabled                                 | boolean | True       |
 | responsive_web_twitter_article_tweet_consumption_enabled                | boolean | True       |
 | tweet_awards_web_tipping_enabled                                        | boolean | False      |
+| content_disclosure_indicator_enabled                                    | boolean | True       |
+| content_disclosure_ai_generated_indicator_enabled                       | boolean | True       |
 | responsive_web_grok_show_grok_translated_post                           | boolean | False      |
 | responsive_web_grok_analysis_button_from_backend                        | boolean | True       |
 | post_ctas_fetch_enabled                                                 | boolean | False      |
@@ -2754,7 +2793,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## ListOwnerships<br>
-Request URL: `https://x.com/i/api/graphql/FOY4pMZhIUQbxyCmigR_1Q/ListOwnerships`<br>
+Request URL: `https://x.com/i/api/graphql/rrushhOy9E6f86w0H9oGEQ/ListOwnerships`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -2786,6 +2825,8 @@ Login Required: `...`<br>
 | longform_notetweets_consumption_enabled                                 | boolean | True       |
 | responsive_web_twitter_article_tweet_consumption_enabled                | boolean | True       |
 | tweet_awards_web_tipping_enabled                                        | boolean | False      |
+| content_disclosure_indicator_enabled                                    | boolean | True       |
+| content_disclosure_ai_generated_indicator_enabled                       | boolean | True       |
 | responsive_web_grok_show_grok_translated_post                           | boolean | False      |
 | responsive_web_grok_analysis_button_from_backend                        | boolean | True       |
 | post_ctas_fetch_enabled                                                 | boolean | False      |
@@ -2802,7 +2843,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## ListByRestId<br>
-Request URL: `https://x.com/i/api/graphql/Ubc9075wXGAn6YbSY1Abdg/ListByRestId`<br>
+Request URL: `https://x.com/i/api/graphql/bSE1lqLBnovM86uu4p4Iqg/ListByRestId`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -2821,7 +2862,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## ListRankedTweetsTimeline<br>
-Request URL: `https://x.com/i/api/graphql/YJicyTyJOWv_nGcVCBWTwg/ListRankedTweetsTimeline`<br>
+Request URL: `https://x.com/i/api/graphql/9ASMHDgx3FXRpYBEusmwqg/ListRankedTweetsTimeline`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -2853,6 +2894,8 @@ Login Required: `...`<br>
 | longform_notetweets_consumption_enabled                                 | boolean | True       |
 | responsive_web_twitter_article_tweet_consumption_enabled                | boolean | True       |
 | tweet_awards_web_tipping_enabled                                        | boolean | False      |
+| content_disclosure_indicator_enabled                                    | boolean | True       |
+| content_disclosure_ai_generated_indicator_enabled                       | boolean | True       |
 | responsive_web_grok_show_grok_translated_post                           | boolean | False      |
 | responsive_web_grok_analysis_button_from_backend                        | boolean | True       |
 | post_ctas_fetch_enabled                                                 | boolean | False      |
@@ -2869,7 +2912,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## ListRemoveMember<br>
-Request URL: `https://x.com/i/api/graphql/ug4laZcm1JZYZZSQTVfNkA/ListRemoveMember`<br>
+Request URL: `https://x.com/i/api/graphql/pGMiwtWRMx08r4XCYxai4Q/ListRemoveMember`<br>
 Request Method: `POST`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -2888,7 +2931,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## ListSearchTimeline<br>
-Request URL: `https://x.com/i/api/graphql/YBj1afCXUDU9_hQCsRym3w/ListSearchTimeline`<br>
+Request URL: `https://x.com/i/api/graphql/tCFeSdsFVSU0UeIBeZPAiQ/ListSearchTimeline`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -2920,6 +2963,8 @@ Login Required: `...`<br>
 | longform_notetweets_consumption_enabled                                 | boolean | True       |
 | responsive_web_twitter_article_tweet_consumption_enabled                | boolean | True       |
 | tweet_awards_web_tipping_enabled                                        | boolean | False      |
+| content_disclosure_indicator_enabled                                    | boolean | True       |
+| content_disclosure_ai_generated_indicator_enabled                       | boolean | True       |
 | responsive_web_grok_show_grok_translated_post                           | boolean | False      |
 | responsive_web_grok_analysis_button_from_backend                        | boolean | True       |
 | post_ctas_fetch_enabled                                                 | boolean | False      |
@@ -2936,7 +2981,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## ListSubscribe<br>
-Request URL: `https://x.com/i/api/graphql/fC7lDlLxGIv8-9_P-OUtLA/ListSubscribe`<br>
+Request URL: `https://x.com/i/api/graphql/_PBfW8RYQCUS2Zk4hGV_Cg/ListSubscribe`<br>
 Request Method: `POST`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -2955,7 +3000,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## ListSubscribers<br>
-Request URL: `https://x.com/i/api/graphql/2Q8c2kI0n6-ZRJ4hkRlNGQ/ListSubscribers`<br>
+Request URL: `https://x.com/i/api/graphql/XvhSy66vgA9Opch_4uizJg/ListSubscribers`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -2987,6 +3032,8 @@ Login Required: `...`<br>
 | longform_notetweets_consumption_enabled                                 | boolean | True       |
 | responsive_web_twitter_article_tweet_consumption_enabled                | boolean | True       |
 | tweet_awards_web_tipping_enabled                                        | boolean | False      |
+| content_disclosure_indicator_enabled                                    | boolean | True       |
+| content_disclosure_ai_generated_indicator_enabled                       | boolean | True       |
 | responsive_web_grok_show_grok_translated_post                           | boolean | False      |
 | responsive_web_grok_analysis_button_from_backend                        | boolean | True       |
 | post_ctas_fetch_enabled                                                 | boolean | False      |
@@ -3014,7 +3061,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## ListUnsubscribe<br>
-Request URL: `https://x.com/i/api/graphql/HgauaaX9sM4vp21KTRnDBw/ListUnsubscribe`<br>
+Request URL: `https://x.com/i/api/graphql/Lhtvee1IbVYIRmCeLpockA/ListUnsubscribe`<br>
 Request Method: `POST`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -3033,18 +3080,12 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## UpdateList<br>
-Request URL: `https://x.com/i/api/graphql/G0p83ijvJte39GO0eyuZew/UpdateList`<br>
+Request URL: `https://x.com/i/api/graphql/qE2QVWL84jqa6CmH-m-D3w/UpdateList`<br>
 Request Method: `POST`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key                    | type    | variable   |
-|:-----------------------|:--------|:-----------|
-| userId                 | ...     | n.userId   |
-| withVoice              | boolean | False      |
-| count                  | ...     | 1          |
-| includePromotedContent | boolean | False      |
-
+`None`<br>
 #### features<br>
 | key                                                               | type    | variable   |
 |:------------------------------------------------------------------|:--------|:-----------|
@@ -3058,7 +3099,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## ListsDiscovery<br>
-Request URL: `https://x.com/i/api/graphql/vHWPULo3Ts1FzIWxvupWOg/ListsDiscovery`<br>
+Request URL: `https://x.com/i/api/graphql/_A_z0zkjdqNZ8WKG0aw2QA/ListsDiscovery`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -3090,6 +3131,8 @@ Login Required: `...`<br>
 | longform_notetweets_consumption_enabled                                 | boolean | True       |
 | responsive_web_twitter_article_tweet_consumption_enabled                | boolean | True       |
 | tweet_awards_web_tipping_enabled                                        | boolean | False      |
+| content_disclosure_indicator_enabled                                    | boolean | True       |
+| content_disclosure_ai_generated_indicator_enabled                       | boolean | True       |
 | responsive_web_grok_show_grok_translated_post                           | boolean | False      |
 | responsive_web_grok_analysis_button_from_backend                        | boolean | True       |
 | post_ctas_fetch_enabled                                                 | boolean | False      |
@@ -3106,7 +3149,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## ListsManagementPageTimeline<br>
-Request URL: `https://x.com/i/api/graphql/GcgwKFclpNqfCuNFh9V1ag/ListsManagementPageTimeline`<br>
+Request URL: `https://x.com/i/api/graphql/LHjuLWCG9ya9CTJ0ckNQkw/ListsManagementPageTimeline`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -3138,6 +3181,8 @@ Login Required: `...`<br>
 | longform_notetweets_consumption_enabled                                 | boolean | True       |
 | responsive_web_twitter_article_tweet_consumption_enabled                | boolean | True       |
 | tweet_awards_web_tipping_enabled                                        | boolean | False      |
+| content_disclosure_indicator_enabled                                    | boolean | True       |
+| content_disclosure_ai_generated_indicator_enabled                       | boolean | True       |
 | responsive_web_grok_show_grok_translated_post                           | boolean | False      |
 | responsive_web_grok_analysis_button_from_backend                        | boolean | True       |
 | post_ctas_fetch_enabled                                                 | boolean | False      |
@@ -3154,7 +3199,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## MediaTabVideoMixer<br>
-Request URL: `https://x.com/i/api/graphql/a4Y6VrOSELXJD6yWJR1YFQ/MediaTabVideoMixer`<br>
+Request URL: `https://x.com/i/api/graphql/bI1Mu6qlR_ESMiSyjNkXug/MediaTabVideoMixer`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -3186,6 +3231,8 @@ Login Required: `...`<br>
 | longform_notetweets_consumption_enabled                                 | boolean | True       |
 | responsive_web_twitter_article_tweet_consumption_enabled                | boolean | True       |
 | tweet_awards_web_tipping_enabled                                        | boolean | False      |
+| content_disclosure_indicator_enabled                                    | boolean | True       |
+| content_disclosure_ai_generated_indicator_enabled                       | boolean | True       |
 | responsive_web_grok_show_grok_translated_post                           | boolean | False      |
 | responsive_web_grok_analysis_button_from_backend                        | boolean | True       |
 | post_ctas_fetch_enabled                                                 | boolean | False      |
@@ -3213,7 +3260,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## ModeratedTimeline<br>
-Request URL: `https://x.com/i/api/graphql/pnqY-uJ9LYSoZxu68BBOmg/ModeratedTimeline`<br>
+Request URL: `https://x.com/i/api/graphql/OCPFGFsoGt30kx4TWnZIGQ/ModeratedTimeline`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -3245,6 +3292,8 @@ Login Required: `...`<br>
 | longform_notetweets_consumption_enabled                                 | boolean | True       |
 | responsive_web_twitter_article_tweet_consumption_enabled                | boolean | True       |
 | tweet_awards_web_tipping_enabled                                        | boolean | False      |
+| content_disclosure_indicator_enabled                                    | boolean | True       |
+| content_disclosure_ai_generated_indicator_enabled                       | boolean | True       |
 | responsive_web_grok_show_grok_translated_post                           | boolean | False      |
 | responsive_web_grok_analysis_button_from_backend                        | boolean | True       |
 | post_ctas_fetch_enabled                                                 | boolean | False      |
@@ -3261,7 +3310,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## MutedAccounts<br>
-Request URL: `https://x.com/i/api/graphql/_p843kI3S6IvdQBQcflYYg/MutedAccounts`<br>
+Request URL: `https://x.com/i/api/graphql/lpnpr0cVcK7zeSJRVlXWNg/MutedAccounts`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -3293,6 +3342,8 @@ Login Required: `...`<br>
 | longform_notetweets_consumption_enabled                                 | boolean | True       |
 | responsive_web_twitter_article_tweet_consumption_enabled                | boolean | True       |
 | tweet_awards_web_tipping_enabled                                        | boolean | False      |
+| content_disclosure_indicator_enabled                                    | boolean | True       |
+| content_disclosure_ai_generated_indicator_enabled                       | boolean | True       |
 | responsive_web_grok_show_grok_translated_post                           | boolean | False      |
 | responsive_web_grok_analysis_button_from_backend                        | boolean | True       |
 | post_ctas_fetch_enabled                                                 | boolean | False      |
@@ -3323,7 +3374,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## PinTimeline<br>
-Request URL: `https://x.com/i/api/graphql/cZLbm0CMJzYSM-2ec44woQ/PinTimeline`<br>
+Request URL: `https://x.com/i/api/graphql/g2awpoxndLXD0OHHiFYTsg/PinTimeline`<br>
 Request Method: `POST`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -3353,7 +3404,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## PinnedTimelines<br>
-Request URL: `https://x.com/i/api/graphql/C9T20R6wKcsJs-R_6dtb7g/PinnedTimelines`<br>
+Request URL: `https://x.com/i/api/graphql/HaJt3PXnvM-jRdih6zRSxw/PinnedTimelines`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -3372,7 +3423,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## ProfileFilter<br>
-Request URL: `https://x.com/i/api/graphql/FLFz7owCm_g0vdXbHrfwYA/ProfileFilter`<br>
+Request URL: `https://x.com/i/api/graphql/qhzgQT2blYga-e5isUkwKA/ProfileFilter`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -3404,6 +3455,8 @@ Login Required: `...`<br>
 | longform_notetweets_consumption_enabled                                 | boolean | True       |
 | responsive_web_twitter_article_tweet_consumption_enabled                | boolean | True       |
 | tweet_awards_web_tipping_enabled                                        | boolean | False      |
+| content_disclosure_indicator_enabled                                    | boolean | True       |
+| content_disclosure_ai_generated_indicator_enabled                       | boolean | True       |
 | responsive_web_grok_show_grok_translated_post                           | boolean | False      |
 | responsive_web_grok_analysis_button_from_backend                        | boolean | True       |
 | post_ctas_fetch_enabled                                                 | boolean | False      |
@@ -3442,7 +3495,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## CommunitiesRankedTimeline<br>
-Request URL: `https://x.com/i/api/graphql/orGwakkNwSsbEaeNS8iUSg/CommunitiesRankedTimeline`<br>
+Request URL: `https://x.com/i/api/graphql/4G5SkS3AILnv-JLn6Hv3wQ/CommunitiesRankedTimeline`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -3474,6 +3527,8 @@ Login Required: `...`<br>
 | longform_notetweets_consumption_enabled                                 | boolean | True       |
 | responsive_web_twitter_article_tweet_consumption_enabled                | boolean | True       |
 | tweet_awards_web_tipping_enabled                                        | boolean | False      |
+| content_disclosure_indicator_enabled                                    | boolean | True       |
+| content_disclosure_ai_generated_indicator_enabled                       | boolean | True       |
 | responsive_web_grok_show_grok_translated_post                           | boolean | False      |
 | responsive_web_grok_analysis_button_from_backend                        | boolean | True       |
 | post_ctas_fetch_enabled                                                 | boolean | False      |
@@ -3495,16 +3550,13 @@ Request Method: `POST`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key            | type   | variable   |
-|:---------------|:-------|:-----------|
-| target_user_id | ...    | n          |
-
+`None`<br>
 #### features<br>
 `None`<br>
 #### queryId<br>
 `None`<br>
 ## SearchTimeline<br>
-Request URL: `https://x.com/i/api/graphql/XM0urMMfseSQYH5yohYHuQ/SearchTimeline`<br>
+Request URL: `https://x.com/i/api/graphql/z_yqhtrZVEuFEUhYsDyzOg/SearchTimeline`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -3536,6 +3588,8 @@ Login Required: `...`<br>
 | longform_notetweets_consumption_enabled                                 | boolean | True       |
 | responsive_web_twitter_article_tweet_consumption_enabled                | boolean | True       |
 | tweet_awards_web_tipping_enabled                                        | boolean | False      |
+| content_disclosure_indicator_enabled                                    | boolean | True       |
+| content_disclosure_ai_generated_indicator_enabled                       | boolean | True       |
 | responsive_web_grok_show_grok_translated_post                           | boolean | False      |
 | responsive_web_grok_analysis_button_from_backend                        | boolean | True       |
 | post_ctas_fetch_enabled                                                 | boolean | False      |
@@ -3563,7 +3617,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## SimilarPosts<br>
-Request URL: `https://x.com/i/api/graphql/jRK6hjpx1G6l_j7fQV8fCg/SimilarPosts`<br>
+Request URL: `https://x.com/i/api/graphql/rtEO2C7IhDsTb2o5eURAhg/SimilarPosts`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -3595,6 +3649,8 @@ Login Required: `...`<br>
 | longform_notetweets_consumption_enabled                                 | boolean | True       |
 | responsive_web_twitter_article_tweet_consumption_enabled                | boolean | True       |
 | tweet_awards_web_tipping_enabled                                        | boolean | False      |
+| content_disclosure_indicator_enabled                                    | boolean | True       |
+| content_disclosure_ai_generated_indicator_enabled                       | boolean | True       |
 | responsive_web_grok_show_grok_translated_post                           | boolean | False      |
 | responsive_web_grok_analysis_button_from_backend                        | boolean | True       |
 | post_ctas_fetch_enabled                                                 | boolean | False      |
@@ -3611,7 +3667,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## SuperFollowers<br>
-Request URL: `https://x.com/i/api/graphql/RBXioRQZAJDvDVjogIE9Dg/SuperFollowers`<br>
+Request URL: `https://x.com/i/api/graphql/4zZ77VfCZzUZOh8ex7-zeg/SuperFollowers`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -3643,6 +3699,8 @@ Login Required: `...`<br>
 | longform_notetweets_consumption_enabled                                 | boolean | True       |
 | responsive_web_twitter_article_tweet_consumption_enabled                | boolean | True       |
 | tweet_awards_web_tipping_enabled                                        | boolean | False      |
+| content_disclosure_indicator_enabled                                    | boolean | True       |
+| content_disclosure_ai_generated_indicator_enabled                       | boolean | True       |
 | responsive_web_grok_show_grok_translated_post                           | boolean | False      |
 | responsive_web_grok_analysis_button_from_backend                        | boolean | True       |
 | post_ctas_fetch_enabled                                                 | boolean | False      |
@@ -3692,7 +3750,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## TopicLandingPage<br>
-Request URL: `https://x.com/i/api/graphql/Ebal61JUw7LezVhfLLF1bQ/TopicLandingPage`<br>
+Request URL: `https://x.com/i/api/graphql/0xirB2Z7-qm-a7BgiGwwLA/TopicLandingPage`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -3724,6 +3782,8 @@ Login Required: `...`<br>
 | longform_notetweets_consumption_enabled                                 | boolean | True       |
 | responsive_web_twitter_article_tweet_consumption_enabled                | boolean | True       |
 | tweet_awards_web_tipping_enabled                                        | boolean | False      |
+| content_disclosure_indicator_enabled                                    | boolean | True       |
+| content_disclosure_ai_generated_indicator_enabled                       | boolean | True       |
 | responsive_web_grok_show_grok_translated_post                           | boolean | False      |
 | responsive_web_grok_analysis_button_from_backend                        | boolean | True       |
 | post_ctas_fetch_enabled                                                 | boolean | False      |
@@ -3762,7 +3822,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## TopicToFollowSidebar<br>
-Request URL: `https://x.com/i/api/graphql/dU9QFVqoar3USk0NVc5pvg/TopicToFollowSidebar`<br>
+Request URL: `https://x.com/i/api/graphql/RtejsKP3FxcIpEKQt4iqsA/TopicToFollowSidebar`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -3794,6 +3854,8 @@ Login Required: `...`<br>
 | longform_notetweets_consumption_enabled                                 | boolean | True       |
 | responsive_web_twitter_article_tweet_consumption_enabled                | boolean | True       |
 | tweet_awards_web_tipping_enabled                                        | boolean | False      |
+| content_disclosure_indicator_enabled                                    | boolean | True       |
+| content_disclosure_ai_generated_indicator_enabled                       | boolean | True       |
 | responsive_web_grok_show_grok_translated_post                           | boolean | False      |
 | responsive_web_grok_analysis_button_from_backend                        | boolean | True       |
 | post_ctas_fetch_enabled                                                 | boolean | False      |
@@ -3832,7 +3894,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## TopicsManagementPage<br>
-Request URL: `https://x.com/i/api/graphql/ddj_YXWtDmhmCripY35t9w/TopicsManagementPage`<br>
+Request URL: `https://x.com/i/api/graphql/8rwuyqPFksEIP7k5QY5enA/TopicsManagementPage`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -3864,6 +3926,8 @@ Login Required: `...`<br>
 | longform_notetweets_consumption_enabled                                 | boolean | True       |
 | responsive_web_twitter_article_tweet_consumption_enabled                | boolean | True       |
 | tweet_awards_web_tipping_enabled                                        | boolean | False      |
+| content_disclosure_indicator_enabled                                    | boolean | True       |
+| content_disclosure_ai_generated_indicator_enabled                       | boolean | True       |
 | responsive_web_grok_show_grok_translated_post                           | boolean | False      |
 | responsive_web_grok_analysis_button_from_backend                        | boolean | True       |
 | post_ctas_fetch_enabled                                                 | boolean | False      |
@@ -3880,7 +3944,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## TopicsPickerPage<br>
-Request URL: `https://x.com/i/api/graphql/qZI7sWYJZvg9yW2r1gjPgQ/TopicsPickerPage`<br>
+Request URL: `https://x.com/i/api/graphql/5kICRs3MEpoWRXfRz2XRYg/TopicsPickerPage`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -3912,6 +3976,8 @@ Login Required: `...`<br>
 | longform_notetweets_consumption_enabled                                 | boolean | True       |
 | responsive_web_twitter_article_tweet_consumption_enabled                | boolean | True       |
 | tweet_awards_web_tipping_enabled                                        | boolean | False      |
+| content_disclosure_indicator_enabled                                    | boolean | True       |
+| content_disclosure_ai_generated_indicator_enabled                       | boolean | True       |
 | responsive_web_grok_show_grok_translated_post                           | boolean | False      |
 | responsive_web_grok_analysis_button_from_backend                        | boolean | True       |
 | post_ctas_fetch_enabled                                                 | boolean | False      |
@@ -3928,7 +3994,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## TopicsPickerPageById<br>
-Request URL: `https://x.com/i/api/graphql/XpUVaCLYEy8AC6uDoZOd_A/TopicsPickerPageById`<br>
+Request URL: `https://x.com/i/api/graphql/1qpdlTlMJhvj9pyeLhuTHA/TopicsPickerPageById`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -3960,6 +4026,8 @@ Login Required: `...`<br>
 | longform_notetweets_consumption_enabled                                 | boolean | True       |
 | responsive_web_twitter_article_tweet_consumption_enabled                | boolean | True       |
 | tweet_awards_web_tipping_enabled                                        | boolean | False      |
+| content_disclosure_indicator_enabled                                    | boolean | True       |
+| content_disclosure_ai_generated_indicator_enabled                       | boolean | True       |
 | responsive_web_grok_show_grok_translated_post                           | boolean | False      |
 | responsive_web_grok_analysis_button_from_backend                        | boolean | True       |
 | post_ctas_fetch_enabled                                                 | boolean | False      |
@@ -3976,7 +4044,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## TrendHistory<br>
-Request URL: `https://x.com/i/api/graphql/Dbxx2h6wZ0F5E3UsGac0gQ/TrendHistory`<br>
+Request URL: `https://x.com/i/api/graphql/oL2ddKXVHldrVeymVs91Tg/TrendHistory`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -4008,6 +4076,8 @@ Login Required: `...`<br>
 | longform_notetweets_consumption_enabled                                 | boolean | True       |
 | responsive_web_twitter_article_tweet_consumption_enabled                | boolean | True       |
 | tweet_awards_web_tipping_enabled                                        | boolean | False      |
+| content_disclosure_indicator_enabled                                    | boolean | True       |
+| content_disclosure_ai_generated_indicator_enabled                       | boolean | True       |
 | responsive_web_grok_show_grok_translated_post                           | boolean | False      |
 | responsive_web_grok_analysis_button_from_backend                        | boolean | True       |
 | post_ctas_fetch_enabled                                                 | boolean | False      |
@@ -4024,7 +4094,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## TrendRelevantUsers<br>
-Request URL: `https://x.com/i/api/graphql/_16Ulw69VGZ8TYzXLRtTpg/TrendRelevantUsers`<br>
+Request URL: `https://x.com/i/api/graphql/iMTN6DDWkFBoJd45byfO1Q/TrendRelevantUsers`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -4056,6 +4126,8 @@ Login Required: `...`<br>
 | longform_notetweets_consumption_enabled                                 | boolean | True       |
 | responsive_web_twitter_article_tweet_consumption_enabled                | boolean | True       |
 | tweet_awards_web_tipping_enabled                                        | boolean | False      |
+| content_disclosure_indicator_enabled                                    | boolean | True       |
+| content_disclosure_ai_generated_indicator_enabled                       | boolean | True       |
 | responsive_web_grok_show_grok_translated_post                           | boolean | False      |
 | responsive_web_grok_analysis_button_from_backend                        | boolean | True       |
 | post_ctas_fetch_enabled                                                 | boolean | False      |
@@ -4072,7 +4144,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## TVHomeMixer<br>
-Request URL: `https://x.com/i/api/graphql/cniI3rdz6T1Dvt9Ysr_ZcQ/TVHomeMixer`<br>
+Request URL: `https://x.com/i/api/graphql/D7B42HG5cWepACFdcCxv6A/TVHomeMixer`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -4104,6 +4176,8 @@ Login Required: `...`<br>
 | longform_notetweets_consumption_enabled                                 | boolean | True       |
 | responsive_web_twitter_article_tweet_consumption_enabled                | boolean | True       |
 | tweet_awards_web_tipping_enabled                                        | boolean | False      |
+| content_disclosure_indicator_enabled                                    | boolean | True       |
+| content_disclosure_ai_generated_indicator_enabled                       | boolean | True       |
 | responsive_web_grok_show_grok_translated_post                           | boolean | False      |
 | responsive_web_grok_analysis_button_from_backend                        | boolean | True       |
 | post_ctas_fetch_enabled                                                 | boolean | False      |
@@ -4120,7 +4194,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## TweetDetail<br>
-Request URL: `https://x.com/i/api/graphql/zf_WcVlonaBUP8K7YK_PYQ/TweetDetail`<br>
+Request URL: `https://x.com/i/api/graphql/flqCy6kvOMolEquuRpOaHQ/TweetDetail`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -4152,6 +4226,8 @@ Login Required: `...`<br>
 | longform_notetweets_consumption_enabled                                 | boolean | True       |
 | responsive_web_twitter_article_tweet_consumption_enabled                | boolean | True       |
 | tweet_awards_web_tipping_enabled                                        | boolean | False      |
+| content_disclosure_indicator_enabled                                    | boolean | True       |
+| content_disclosure_ai_generated_indicator_enabled                       | boolean | True       |
 | responsive_web_grok_show_grok_translated_post                           | boolean | False      |
 | responsive_web_grok_analysis_button_from_backend                        | boolean | True       |
 | post_ctas_fetch_enabled                                                 | boolean | False      |
@@ -4168,7 +4244,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## TweetResultByRestId<br>
-Request URL: `https://x.com/i/api/graphql/BIzrlk63W9HQ-BceJpyJJA/TweetResultByRestId`<br>
+Request URL: `https://x.com/i/api/graphql/oSBAzPwnB3u5R9KqxACO3Q/TweetResultByRestId`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -4193,6 +4269,8 @@ Login Required: `...`<br>
 | longform_notetweets_consumption_enabled                                 | boolean | True       |
 | responsive_web_twitter_article_tweet_consumption_enabled                | boolean | True       |
 | tweet_awards_web_tipping_enabled                                        | boolean | False      |
+| content_disclosure_indicator_enabled                                    | boolean | True       |
+| content_disclosure_ai_generated_indicator_enabled                       | boolean | True       |
 | responsive_web_grok_show_grok_translated_post                           | boolean | False      |
 | responsive_web_grok_analysis_button_from_backend                        | boolean | True       |
 | post_ctas_fetch_enabled                                                 | boolean | False      |
@@ -4215,7 +4293,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## TweetResultsByRestIds<br>
-Request URL: `https://x.com/i/api/graphql/Pqrckqz_ld4lBkaxqi7rWg/TweetResultsByRestIds`<br>
+Request URL: `https://x.com/i/api/graphql/xb9NtB-7MuXysfLDfrxVQg/TweetResultsByRestIds`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -4240,6 +4318,8 @@ Login Required: `...`<br>
 | longform_notetweets_consumption_enabled                                 | boolean | True       |
 | responsive_web_twitter_article_tweet_consumption_enabled                | boolean | True       |
 | tweet_awards_web_tipping_enabled                                        | boolean | False      |
+| content_disclosure_indicator_enabled                                    | boolean | True       |
+| content_disclosure_ai_generated_indicator_enabled                       | boolean | True       |
 | responsive_web_grok_show_grok_translated_post                           | boolean | False      |
 | responsive_web_grok_analysis_button_from_backend                        | boolean | True       |
 | post_ctas_fetch_enabled                                                 | boolean | False      |
@@ -4295,7 +4375,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## UnpinTimeline<br>
-Request URL: `https://x.com/i/api/graphql/ffU9mO6F-3TYWAteCSCVwA/UnpinTimeline`<br>
+Request URL: `https://x.com/i/api/graphql/8xSg0JtCTDY88mVM_-7GeA/UnpinTimeline`<br>
 Request Method: `POST`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -4339,7 +4419,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## UrtFixtures<br>
-Request URL: `https://x.com/i/api/graphql/ax1Vghx5OXxeP8PywD5LxA/UrtFixtures`<br>
+Request URL: `https://x.com/i/api/graphql/E9yy_XYiVnjVdVHiVYWgCQ/UrtFixtures`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -4371,6 +4451,8 @@ Login Required: `...`<br>
 | longform_notetweets_consumption_enabled                                 | boolean | True       |
 | responsive_web_twitter_article_tweet_consumption_enabled                | boolean | True       |
 | tweet_awards_web_tipping_enabled                                        | boolean | False      |
+| content_disclosure_indicator_enabled                                    | boolean | True       |
+| content_disclosure_ai_generated_indicator_enabled                       | boolean | True       |
 | responsive_web_grok_show_grok_translated_post                           | boolean | False      |
 | responsive_web_grok_analysis_button_from_backend                        | boolean | True       |
 | post_ctas_fetch_enabled                                                 | boolean | False      |
@@ -4387,7 +4469,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## UserArticlesTweets<br>
-Request URL: `https://x.com/i/api/graphql/PTPiH6_vM90xeMzp9iPfAQ/UserArticlesTweets`<br>
+Request URL: `https://x.com/i/api/graphql/TttdXkMQCY3POp-BoyXI1A/UserArticlesTweets`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -4419,6 +4501,8 @@ Login Required: `...`<br>
 | longform_notetweets_consumption_enabled                                 | boolean | True       |
 | responsive_web_twitter_article_tweet_consumption_enabled                | boolean | True       |
 | tweet_awards_web_tipping_enabled                                        | boolean | False      |
+| content_disclosure_indicator_enabled                                    | boolean | True       |
+| content_disclosure_ai_generated_indicator_enabled                       | boolean | True       |
 | responsive_web_grok_show_grok_translated_post                           | boolean | False      |
 | responsive_web_grok_analysis_button_from_backend                        | boolean | True       |
 | post_ctas_fetch_enabled                                                 | boolean | False      |
@@ -4435,22 +4519,12 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## UserBusinessProfileTeamTimeline<br>
-Request URL: `https://x.com/i/api/graphql/unR84FvefIPHMkBFl0MGEA/UserBusinessProfileTeamTimeline`<br>
+Request URL: `https://x.com/i/api/graphql/43uLrbdsxv8i-5nlmR5TDQ/UserBusinessProfileTeamTimeline`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key                    | type    | variable    |
-|:-----------------------|:--------|:------------|
-| userId                 | ...     | a           |
-| count                  | ...     | t           |
-| cursor                 | ...     | o           |
-| teamName               | ...     | i           |
-| includePromotedContent | boolean | False       |
-| ...()(0,r.d)           | ...     | _           |
-| withClientEventToken   | boolean | False       |
-| withVoice              | ...     | n.isTrue(n) |
-
+`None`<br>
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
@@ -4477,6 +4551,8 @@ Login Required: `...`<br>
 | longform_notetweets_consumption_enabled                                 | boolean | True       |
 | responsive_web_twitter_article_tweet_consumption_enabled                | boolean | True       |
 | tweet_awards_web_tipping_enabled                                        | boolean | False      |
+| content_disclosure_indicator_enabled                                    | boolean | True       |
+| content_disclosure_ai_generated_indicator_enabled                       | boolean | True       |
 | responsive_web_grok_show_grok_translated_post                           | boolean | False      |
 | responsive_web_grok_analysis_button_from_backend                        | boolean | True       |
 | post_ctas_fetch_enabled                                                 | boolean | False      |
@@ -4493,7 +4569,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## UserByRestId<br>
-Request URL: `https://x.com/i/api/graphql/KFY12S16f7yxQJVX7mytmg/UserByRestId`<br>
+Request URL: `https://x.com/i/api/graphql/FJ17ptkJuQAZGWilcySi5w/UserByRestId`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -4517,7 +4593,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## UserByScreenName<br>
-Request URL: `https://x.com/i/api/graphql/DYkHHnsQHOuIl0gUzU5Fjg/UserByScreenName`<br>
+Request URL: `https://x.com/i/api/graphql/pLsOiyHJ1eFwPJlNmLp4Bg/UserByScreenName`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -4554,7 +4630,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## UserCreatorSubscribers<br>
-Request URL: `https://x.com/i/api/graphql/IXJVFrklxbUtFGXWrFRzsg/UserCreatorSubscribers`<br>
+Request URL: `https://x.com/i/api/graphql/86ENDTbGKa6qptbOPP4P8g/UserCreatorSubscribers`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -4586,6 +4662,8 @@ Login Required: `...`<br>
 | longform_notetweets_consumption_enabled                                 | boolean | True       |
 | responsive_web_twitter_article_tweet_consumption_enabled                | boolean | True       |
 | tweet_awards_web_tipping_enabled                                        | boolean | False      |
+| content_disclosure_indicator_enabled                                    | boolean | True       |
+| content_disclosure_ai_generated_indicator_enabled                       | boolean | True       |
 | responsive_web_grok_show_grok_translated_post                           | boolean | False      |
 | responsive_web_grok_analysis_button_from_backend                        | boolean | True       |
 | post_ctas_fetch_enabled                                                 | boolean | False      |
@@ -4602,7 +4680,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## UserCreatorSubscriptions<br>
-Request URL: `https://x.com/i/api/graphql/w7jKPcHumyBOHsWMMlyr5A/UserCreatorSubscriptions`<br>
+Request URL: `https://x.com/i/api/graphql/CA55mgnAxgtMuNg4JfqksQ/UserCreatorSubscriptions`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -4634,6 +4712,8 @@ Login Required: `...`<br>
 | longform_notetweets_consumption_enabled                                 | boolean | True       |
 | responsive_web_twitter_article_tweet_consumption_enabled                | boolean | True       |
 | tweet_awards_web_tipping_enabled                                        | boolean | False      |
+| content_disclosure_indicator_enabled                                    | boolean | True       |
+| content_disclosure_ai_generated_indicator_enabled                       | boolean | True       |
 | responsive_web_grok_show_grok_translated_post                           | boolean | False      |
 | responsive_web_grok_analysis_button_from_backend                        | boolean | True       |
 | post_ctas_fetch_enabled                                                 | boolean | False      |
@@ -4650,7 +4730,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## UserHighlightsTweets<br>
-Request URL: `https://x.com/i/api/graphql/AM5oaIOt7rRV3cK8ZDw6DA/UserHighlightsTweets`<br>
+Request URL: `https://x.com/i/api/graphql/vBJkv7Sa7M9MjAUsQt-ucw/UserHighlightsTweets`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -4682,6 +4762,8 @@ Login Required: `...`<br>
 | longform_notetweets_consumption_enabled                                 | boolean | True       |
 | responsive_web_twitter_article_tweet_consumption_enabled                | boolean | True       |
 | tweet_awards_web_tipping_enabled                                        | boolean | False      |
+| content_disclosure_indicator_enabled                                    | boolean | True       |
+| content_disclosure_ai_generated_indicator_enabled                       | boolean | True       |
 | responsive_web_grok_show_grok_translated_post                           | boolean | False      |
 | responsive_web_grok_analysis_button_from_backend                        | boolean | True       |
 | post_ctas_fetch_enabled                                                 | boolean | False      |
@@ -4698,7 +4780,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## UserMedia<br>
-Request URL: `https://x.com/i/api/graphql/_WyJ6KnYjI2QZd3JUbAWDg/UserMedia`<br>
+Request URL: `https://x.com/i/api/graphql/NA0PT9giMHSzOFInxE4xGg/UserMedia`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -4730,6 +4812,8 @@ Login Required: `...`<br>
 | longform_notetweets_consumption_enabled                                 | boolean | True       |
 | responsive_web_twitter_article_tweet_consumption_enabled                | boolean | True       |
 | tweet_awards_web_tipping_enabled                                        | boolean | False      |
+| content_disclosure_indicator_enabled                                    | boolean | True       |
+| content_disclosure_ai_generated_indicator_enabled                       | boolean | True       |
 | responsive_web_grok_show_grok_translated_post                           | boolean | False      |
 | responsive_web_grok_analysis_button_from_backend                        | boolean | True       |
 | post_ctas_fetch_enabled                                                 | boolean | False      |
@@ -4757,7 +4841,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## UserPromotableTweets<br>
-Request URL: `https://x.com/i/api/graphql/XhNXWs89KK03ljeEAzH2hw/UserPromotableTweets`<br>
+Request URL: `https://x.com/i/api/graphql/2E5JedJu7GVbaW1yLji7NA/UserPromotableTweets`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -4789,6 +4873,8 @@ Login Required: `...`<br>
 | longform_notetweets_consumption_enabled                                 | boolean | True       |
 | responsive_web_twitter_article_tweet_consumption_enabled                | boolean | True       |
 | tweet_awards_web_tipping_enabled                                        | boolean | False      |
+| content_disclosure_indicator_enabled                                    | boolean | True       |
+| content_disclosure_ai_generated_indicator_enabled                       | boolean | True       |
 | responsive_web_grok_show_grok_translated_post                           | boolean | False      |
 | responsive_web_grok_analysis_button_from_backend                        | boolean | True       |
 | post_ctas_fetch_enabled                                                 | boolean | False      |
@@ -4816,16 +4902,12 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## UserSuperFollowTweets<br>
-Request URL: `https://x.com/i/api/graphql/z5hQ2zakPx9-Hzs3rD2nJg/UserSuperFollowTweets`<br>
+Request URL: `https://x.com/i/api/graphql/Yef1Wv56FRM-yDpej-sOHA/UserSuperFollowTweets`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key            | type   | variable   |
-|:---------------|:-------|:-----------|
-| content_state  | ...    | o          |
-| article_entity | ...    | i          |
-
+`None`<br>
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
@@ -4852,6 +4934,8 @@ Login Required: `...`<br>
 | longform_notetweets_consumption_enabled                                 | boolean | True       |
 | responsive_web_twitter_article_tweet_consumption_enabled                | boolean | True       |
 | tweet_awards_web_tipping_enabled                                        | boolean | False      |
+| content_disclosure_indicator_enabled                                    | boolean | True       |
+| content_disclosure_ai_generated_indicator_enabled                       | boolean | True       |
 | responsive_web_grok_show_grok_translated_post                           | boolean | False      |
 | responsive_web_grok_analysis_button_from_backend                        | boolean | True       |
 | post_ctas_fetch_enabled                                                 | boolean | False      |
@@ -4868,7 +4952,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## UserTweets<br>
-Request URL: `https://x.com/i/api/graphql/rO1eqEVXEJOZkbKmVFg5IQ/UserTweets`<br>
+Request URL: `https://x.com/i/api/graphql/N9_71NodX1yntoC5pa4IFw/UserTweets`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -4900,6 +4984,8 @@ Login Required: `...`<br>
 | longform_notetweets_consumption_enabled                                 | boolean | True       |
 | responsive_web_twitter_article_tweet_consumption_enabled                | boolean | True       |
 | tweet_awards_web_tipping_enabled                                        | boolean | False      |
+| content_disclosure_indicator_enabled                                    | boolean | True       |
+| content_disclosure_ai_generated_indicator_enabled                       | boolean | True       |
 | responsive_web_grok_show_grok_translated_post                           | boolean | False      |
 | responsive_web_grok_analysis_button_from_backend                        | boolean | True       |
 | post_ctas_fetch_enabled                                                 | boolean | False      |
@@ -4916,7 +5002,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## UserTweetsAndReplies<br>
-Request URL: `https://x.com/i/api/graphql/HWN4UuONNatorfRiAoXYdQ/UserTweetsAndReplies`<br>
+Request URL: `https://x.com/i/api/graphql/JrkGe4KW6FXyE2xiv27ZJw/UserTweetsAndReplies`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -4948,6 +5034,8 @@ Login Required: `...`<br>
 | longform_notetweets_consumption_enabled                                 | boolean | True       |
 | responsive_web_twitter_article_tweet_consumption_enabled                | boolean | True       |
 | tweet_awards_web_tipping_enabled                                        | boolean | False      |
+| content_disclosure_indicator_enabled                                    | boolean | True       |
+| content_disclosure_ai_generated_indicator_enabled                       | boolean | True       |
 | responsive_web_grok_show_grok_translated_post                           | boolean | False      |
 | responsive_web_grok_analysis_button_from_backend                        | boolean | True       |
 | post_ctas_fetch_enabled                                                 | boolean | False      |
@@ -4964,15 +5052,12 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## UsersByRestIds<br>
-Request URL: `https://x.com/i/api/graphql/Fp8EoL0aR-2M2nNWA6eymw/UsersByRestIds`<br>
+Request URL: `https://x.com/i/api/graphql/8OKmcyotfczJb44QTTu5tQ/UsersByRestIds`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-```internal process
-# Error
-{"articleEntityId":"i","coverMedia":"r&&o?"{"media_id":"r","media_category":"o"}:"void 0"}
-```
+`None`<br>
 #### features<br>
 | key                                                               | type    | variable   |
 |:------------------------------------------------------------------|:--------|:-----------|
@@ -4986,7 +5071,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## UsersByScreenNames<br>
-Request URL: `https://x.com/i/api/graphql/H6_cepQlnaF-fmUts_wkxg/UsersByScreenNames`<br>
+Request URL: `https://x.com/i/api/graphql/Ats5GnHiQxT-Nnzw09raMw/UsersByScreenNames`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -5026,7 +5111,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## Viewer<br>
-Request URL: `https://x.com/i/api/graphql/CCvkiDh-I5FPACI49wXHJg/Viewer`<br>
+Request URL: `https://x.com/i/api/graphql/zWQLM9HIVahRSUvzUH4lDw/Viewer`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -5047,7 +5132,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## ViewingOtherUsersTopicsPage<br>
-Request URL: `https://x.com/i/api/graphql/VSCo5DZY3bg9c2OyY5yrtA/ViewingOtherUsersTopicsPage`<br>
+Request URL: `https://x.com/i/api/graphql/9kgB5YWUHKiCmPzGHULd2Q/ViewingOtherUsersTopicsPage`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -5079,6 +5164,8 @@ Login Required: `...`<br>
 | longform_notetweets_consumption_enabled                                 | boolean | True       |
 | responsive_web_twitter_article_tweet_consumption_enabled                | boolean | True       |
 | tweet_awards_web_tipping_enabled                                        | boolean | False      |
+| content_disclosure_indicator_enabled                                    | boolean | True       |
+| content_disclosure_ai_generated_indicator_enabled                       | boolean | True       |
 | responsive_web_grok_show_grok_translated_post                           | boolean | False      |
 | responsive_web_grok_analysis_button_from_backend                        | boolean | True       |
 | post_ctas_fetch_enabled                                                 | boolean | False      |
@@ -5095,7 +5182,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## AudioSpaceAddSharing<br>
-Request URL: `https://x.com/i/api/graphql/PxXCBW2MjD17rm_f53hkZQ/AudioSpaceAddSharing`<br>
+Request URL: `https://x.com/i/api/graphql/YvhdiLL3lRoPjNodHqqrqw/AudioSpaceAddSharing`<br>
 Request Method: `POST`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -5124,6 +5211,8 @@ Login Required: `...`<br>
 | longform_notetweets_consumption_enabled                                 | boolean | True       |
 | responsive_web_twitter_article_tweet_consumption_enabled                | boolean | True       |
 | tweet_awards_web_tipping_enabled                                        | boolean | False      |
+| content_disclosure_indicator_enabled                                    | boolean | True       |
+| content_disclosure_ai_generated_indicator_enabled                       | boolean | True       |
 | responsive_web_grok_show_grok_translated_post                           | boolean | False      |
 | responsive_web_grok_analysis_button_from_backend                        | boolean | True       |
 | post_ctas_fetch_enabled                                                 | boolean | False      |
@@ -5142,7 +5231,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## AudioSpaceById<br>
-Request URL: `https://x.com/i/api/graphql/abiO2l9FkHe99GBwYx2A8A/AudioSpaceById`<br>
+Request URL: `https://x.com/i/api/graphql/B0mwIt2QkQhWjw8kcCNSrw/AudioSpaceById`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -5174,6 +5263,8 @@ Login Required: `...`<br>
 | longform_notetweets_consumption_enabled                                 | boolean | True       |
 | responsive_web_twitter_article_tweet_consumption_enabled                | boolean | True       |
 | tweet_awards_web_tipping_enabled                                        | boolean | False      |
+| content_disclosure_indicator_enabled                                    | boolean | True       |
+| content_disclosure_ai_generated_indicator_enabled                       | boolean | True       |
 | responsive_web_grok_show_grok_translated_post                           | boolean | False      |
 | responsive_web_grok_analysis_button_from_backend                        | boolean | True       |
 | post_ctas_fetch_enabled                                                 | boolean | False      |
@@ -5378,7 +5469,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## BirdwatchFetchAuthenticatedBirdwatchMatchSlice<br>
-Request URL: `https://x.com/i/api/graphql/m4VKX2itkZOYAN454IwDOQ/BirdwatchFetchAuthenticatedBirdwatchMatchSlice`<br>
+Request URL: `https://x.com/i/api/graphql/sVAYUgdjvw-TBY3F49xKGw/BirdwatchFetchAuthenticatedBirdwatchMatchSlice`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -5403,6 +5494,8 @@ Login Required: `...`<br>
 | longform_notetweets_consumption_enabled                                 | boolean | True       |
 | responsive_web_twitter_article_tweet_consumption_enabled                | boolean | True       |
 | tweet_awards_web_tipping_enabled                                        | boolean | False      |
+| content_disclosure_indicator_enabled                                    | boolean | True       |
+| content_disclosure_ai_generated_indicator_enabled                       | boolean | True       |
 | responsive_web_grok_show_grok_translated_post                           | boolean | False      |
 | responsive_web_grok_analysis_button_from_backend                        | boolean | True       |
 | post_ctas_fetch_enabled                                                 | boolean | False      |
@@ -5425,7 +5518,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## BirdwatchFetchContributorNotesSlice<br>
-Request URL: `https://x.com/i/api/graphql/ABfXKD40ThjgsiJhht_V8g/BirdwatchFetchContributorNotesSlice`<br>
+Request URL: `https://x.com/i/api/graphql/yaclWe0GzWyXfUn2FuO5lw/BirdwatchFetchContributorNotesSlice`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -5454,6 +5547,8 @@ Login Required: `...`<br>
 | longform_notetweets_consumption_enabled                                 | boolean | True       |
 | responsive_web_twitter_article_tweet_consumption_enabled                | boolean | True       |
 | tweet_awards_web_tipping_enabled                                        | boolean | False      |
+| content_disclosure_indicator_enabled                                    | boolean | True       |
+| content_disclosure_ai_generated_indicator_enabled                       | boolean | True       |
 | responsive_web_grok_show_grok_translated_post                           | boolean | False      |
 | responsive_web_grok_analysis_button_from_backend                        | boolean | True       |
 | post_ctas_fetch_enabled                                                 | boolean | False      |
@@ -5498,7 +5593,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## BirdwatchCreateNote<br>
-Request URL: `https://x.com/i/api/graphql/qTJ4Tm9AFfU6IrZ4i43h5g/BirdwatchCreateNote`<br>
+Request URL: `https://x.com/i/api/graphql/DF1VKdkz42efdk8Lox3Fzg/BirdwatchCreateNote`<br>
 Request Method: `POST`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -5671,7 +5766,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## BirdwatchFetchGlobalTimeline<br>
-Request URL: `https://x.com/i/api/graphql/ZsDKF1riteYBi9IXicbu1Q/BirdwatchFetchGlobalTimeline`<br>
+Request URL: `https://x.com/i/api/graphql/_0FzMQJrukwKcon-RL3m1Q/BirdwatchFetchGlobalTimeline`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -5703,6 +5798,8 @@ Login Required: `...`<br>
 | longform_notetweets_consumption_enabled                                 | boolean | True       |
 | responsive_web_twitter_article_tweet_consumption_enabled                | boolean | True       |
 | tweet_awards_web_tipping_enabled                                        | boolean | False      |
+| content_disclosure_indicator_enabled                                    | boolean | True       |
+| content_disclosure_ai_generated_indicator_enabled                       | boolean | True       |
 | responsive_web_grok_show_grok_translated_post                           | boolean | False      |
 | responsive_web_grok_analysis_button_from_backend                        | boolean | True       |
 | post_ctas_fetch_enabled                                                 | boolean | False      |
@@ -5719,7 +5816,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## BirdwatchFetchNoteTranslation<br>
-Request URL: `https://x.com/i/api/graphql/LLKn0jaDAjSpaMndx3p3LQ/BirdwatchFetchNoteTranslation`<br>
+Request URL: `https://x.com/i/api/graphql/X19gW77Msmy4LvMnnz6arA/BirdwatchFetchNoteTranslation`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -5739,7 +5836,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## BirdwatchFetchNotes<br>
-Request URL: `https://x.com/i/api/graphql/z0gHru2jBUcyD8UerkVL3w/BirdwatchFetchNotes`<br>
+Request URL: `https://x.com/i/api/graphql/C7r8eSyiH-iziuuCqQrzMA/BirdwatchFetchNotes`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -5766,7 +5863,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## BirdwatchFetchOneNote<br>
-Request URL: `https://x.com/i/api/graphql/QM228Qm7VSDeFH9wmmb10w/BirdwatchFetchOneNote`<br>
+Request URL: `https://x.com/i/api/graphql/iP6eDL64fDmYURNVi14Hhw/BirdwatchFetchOneNote`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -5820,7 +5917,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## BirdwatchFetchSourceLinkSlice<br>
-Request URL: `https://x.com/i/api/graphql/3_HVizWrszcrw5fWnj_cGA/BirdwatchFetchSourceLinkSlice`<br>
+Request URL: `https://x.com/i/api/graphql/fTEuH9U04kmzs4nsRGNOxA/BirdwatchFetchSourceLinkSlice`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -5845,6 +5942,8 @@ Login Required: `...`<br>
 | longform_notetweets_consumption_enabled                                 | boolean | True       |
 | responsive_web_twitter_article_tweet_consumption_enabled                | boolean | True       |
 | tweet_awards_web_tipping_enabled                                        | boolean | False      |
+| content_disclosure_indicator_enabled                                    | boolean | True       |
+| content_disclosure_ai_generated_indicator_enabled                       | boolean | True       |
 | responsive_web_grok_show_grok_translated_post                           | boolean | False      |
 | responsive_web_grok_analysis_button_from_backend                        | boolean | True       |
 | post_ctas_fetch_enabled                                                 | boolean | False      |
@@ -5881,7 +5980,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## BirdwatchFetchSuggestionFeedbackOverview<br>
-Request URL: `https://x.com/i/api/graphql/O5jk__CRPVlxK24vsFb9-g/BirdwatchFetchSuggestionFeedbackOverview`<br>
+Request URL: `https://x.com/i/api/graphql/RYd1vn7i4Ei15hQ3yp9VqQ/BirdwatchFetchSuggestionFeedbackOverview`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -5910,6 +6009,8 @@ Login Required: `...`<br>
 | longform_notetweets_consumption_enabled                                 | boolean | True       |
 | responsive_web_twitter_article_tweet_consumption_enabled                | boolean | True       |
 | tweet_awards_web_tipping_enabled                                        | boolean | False      |
+| content_disclosure_indicator_enabled                                    | boolean | True       |
+| content_disclosure_ai_generated_indicator_enabled                       | boolean | True       |
 | responsive_web_grok_show_grok_translated_post                           | boolean | False      |
 | responsive_web_grok_analysis_button_from_backend                        | boolean | True       |
 | post_ctas_fetch_enabled                                                 | boolean | False      |
@@ -5954,7 +6055,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## BookmarkFolderTimeline<br>
-Request URL: `https://x.com/i/api/graphql/HaWnv49hWrnJwgiuZGC7WA/BookmarkFolderTimeline`<br>
+Request URL: `https://x.com/i/api/graphql/-o-rex9jYn96MTbSVbFC3Q/BookmarkFolderTimeline`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -5986,6 +6087,8 @@ Login Required: `...`<br>
 | longform_notetweets_consumption_enabled                                 | boolean | True       |
 | responsive_web_twitter_article_tweet_consumption_enabled                | boolean | True       |
 | tweet_awards_web_tipping_enabled                                        | boolean | False      |
+| content_disclosure_indicator_enabled                                    | boolean | True       |
+| content_disclosure_ai_generated_indicator_enabled                       | boolean | True       |
 | responsive_web_grok_show_grok_translated_post                           | boolean | False      |
 | responsive_web_grok_analysis_button_from_backend                        | boolean | True       |
 | post_ctas_fetch_enabled                                                 | boolean | False      |
@@ -6024,7 +6127,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## Bookmarks<br>
-Request URL: `https://x.com/i/api/graphql/ynC-aMV_XSM_nEmtj_L3-Q/Bookmarks`<br>
+Request URL: `https://x.com/i/api/graphql/nWdgTDcvkR3dPXFCVwvOsg/Bookmarks`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -6056,6 +6159,8 @@ Login Required: `...`<br>
 | longform_notetweets_consumption_enabled                                 | boolean | True       |
 | responsive_web_twitter_article_tweet_consumption_enabled                | boolean | True       |
 | tweet_awards_web_tipping_enabled                                        | boolean | False      |
+| content_disclosure_indicator_enabled                                    | boolean | True       |
+| content_disclosure_ai_generated_indicator_enabled                       | boolean | True       |
 | responsive_web_grok_show_grok_translated_post                           | boolean | False      |
 | responsive_web_grok_analysis_button_from_backend                        | boolean | True       |
 | post_ctas_fetch_enabled                                                 | boolean | False      |
@@ -6093,8 +6198,30 @@ Login Required: `...`<br>
 `None`<br>
 #### queryId<br>
 `None`<br>
+## CreateDraftTweet<br>
+Request URL: `https://x.com/i/api/graphql/cH9HZWz_EW9gnswvA4ZRiQ/CreateDraftTweet`<br>
+Request Method: `POST`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
 ## CreateGrokConversation<br>
 Request URL: `https://x.com/i/api/graphql/vvC5uy7pWWHXS2aDi1FZeA/CreateGrokConversation`<br>
+Request Method: `POST`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
+## CreateScheduledTweet<br>
+Request URL: `https://x.com/i/api/graphql/LCVzRQGxOaGnOnYH01NQXg/CreateScheduledTweet`<br>
 Request Method: `POST`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -6126,8 +6253,30 @@ Login Required: `...`<br>
 `None`<br>
 #### queryId<br>
 `None`<br>
+## DeleteDraftTweet<br>
+Request URL: `https://x.com/i/api/graphql/bkh9G3FGgTldS9iTKWWYYw/DeleteDraftTweet`<br>
+Request Method: `POST`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
 ## DeleteGrokMessage<br>
 Request URL: `https://x.com/i/api/graphql/kaH0vdJmbuocpRAeWpRC7A/DeleteGrokMessage`<br>
+Request Method: `POST`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
+## DeleteScheduledTweet<br>
+Request URL: `https://x.com/i/api/graphql/CTOVqej0JBXAZSwkp1US0g/DeleteScheduledTweet`<br>
 Request Method: `POST`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -6148,8 +6297,30 @@ Login Required: `...`<br>
 `None`<br>
 #### queryId<br>
 `None`<br>
+## EditDraftTweet<br>
+Request URL: `https://x.com/i/api/graphql/JIeXE-I6BZXHfxsgOkyHYQ/EditDraftTweet`<br>
+Request Method: `POST`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
+## EditScheduledTweet<br>
+Request URL: `https://x.com/i/api/graphql/_mHkQ5LHpRRjSXKOcG6eZw/EditScheduledTweet`<br>
+Request Method: `POST`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
 ## GrokConversationItemsByRestId<br>
-Request URL: `https://x.com/i/api/graphql/JlP88Bwbvgwcef9A5Xh05A/GrokConversationItemsByRestId`<br>
+Request URL: `https://x.com/i/api/graphql/n2bhau0B2DSY6R_bLolgSg/GrokConversationItemsByRestId`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -6174,6 +6345,8 @@ Login Required: `...`<br>
 | longform_notetweets_consumption_enabled                                 | boolean | True       |
 | responsive_web_twitter_article_tweet_consumption_enabled                | boolean | True       |
 | tweet_awards_web_tipping_enabled                                        | boolean | False      |
+| content_disclosure_indicator_enabled                                    | boolean | True       |
+| content_disclosure_ai_generated_indicator_enabled                       | boolean | True       |
 | responsive_web_grok_show_grok_translated_post                           | boolean | False      |
 | responsive_web_grok_analysis_button_from_backend                        | boolean | True       |
 | post_ctas_fetch_enabled                                                 | boolean | False      |
@@ -6262,7 +6435,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## GrokShare<br>
-Request URL: `https://x.com/i/api/graphql/56DZ8gzHG4t6fsrmoIPwMQ/GrokShare`<br>
+Request URL: `https://x.com/i/api/graphql/PnksIels-p7we6iCsrI4yg/GrokShare`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -6287,6 +6460,8 @@ Login Required: `...`<br>
 | longform_notetweets_consumption_enabled                                 | boolean | True       |
 | responsive_web_twitter_article_tweet_consumption_enabled                | boolean | True       |
 | tweet_awards_web_tipping_enabled                                        | boolean | False      |
+| content_disclosure_indicator_enabled                                    | boolean | True       |
+| content_disclosure_ai_generated_indicator_enabled                       | boolean | True       |
 | responsive_web_grok_show_grok_translated_post                           | boolean | False      |
 | responsive_web_grok_analysis_button_from_backend                        | boolean | True       |
 | post_ctas_fetch_enabled                                                 | boolean | False      |
@@ -6330,9 +6505,31 @@ Login Required: `...`<br>
 `None`<br>
 #### queryId<br>
 `None`<br>
+## FetchDraftTweets<br>
+Request URL: `https://x.com/i/api/graphql/ff5ciLFuifghdOtDoJj6Ww/FetchDraftTweets`<br>
+Request Method: `GET`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
 ## RemoveTweetFromBookmarkFolder<br>
 Request URL: `https://x.com/i/api/graphql/2Qbj9XZvtUvyJB4gFwWfaA/RemoveTweetFromBookmarkFolder`<br>
 Request Method: `POST`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
+## FetchScheduledTweets<br>
+Request URL: `https://x.com/i/api/graphql/cmwoO7AWw5zCpd8TaPFQHg/FetchScheduledTweets`<br>
+Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
@@ -6353,7 +6550,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## SidebarUserRecommendations<br>
-Request URL: `https://x.com/i/api/graphql/PlwMM7YynSH6vRPKJSFXaw/SidebarUserRecommendations`<br>
+Request URL: `https://x.com/i/api/graphql/TDtrShaKKs-vFLCuz2jLdA/SidebarUserRecommendations`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -6372,7 +6569,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## NotificationsTimeline<br>
-Request URL: `https://x.com/i/api/graphql/MWQZHy0dzq6ep2a3qA-5zw/NotificationsTimeline`<br>
+Request URL: `https://x.com/i/api/graphql/MSzm5CNdkPbjgA01AtnlZw/NotificationsTimeline`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -6404,6 +6601,8 @@ Login Required: `...`<br>
 | longform_notetweets_consumption_enabled                                 | boolean | True       |
 | responsive_web_twitter_article_tweet_consumption_enabled                | boolean | True       |
 | tweet_awards_web_tipping_enabled                                        | boolean | False      |
+| content_disclosure_indicator_enabled                                    | boolean | True       |
+| content_disclosure_ai_generated_indicator_enabled                       | boolean | True       |
 | responsive_web_grok_show_grok_translated_post                           | boolean | False      |
 | responsive_web_grok_analysis_button_from_backend                        | boolean | True       |
 | post_ctas_fetch_enabled                                                 | boolean | False      |
@@ -6419,9 +6618,174 @@ Login Required: `...`<br>
 
 #### queryId<br>
 `None`<br>
+## CreateDraftTweet<br>
+Request URL: `https://x.com/i/api/graphql/cH9HZWz_EW9gnswvA4ZRiQ/CreateDraftTweet`<br>
+Request Method: `POST`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
+## CreateScheduledTweet<br>
+Request URL: `https://x.com/i/api/graphql/LCVzRQGxOaGnOnYH01NQXg/CreateScheduledTweet`<br>
+Request Method: `POST`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
+## DeleteDraftTweet<br>
+Request URL: `https://x.com/i/api/graphql/bkh9G3FGgTldS9iTKWWYYw/DeleteDraftTweet`<br>
+Request Method: `POST`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
+## DeleteScheduledTweet<br>
+Request URL: `https://x.com/i/api/graphql/CTOVqej0JBXAZSwkp1US0g/DeleteScheduledTweet`<br>
+Request Method: `POST`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
+## EditDraftTweet<br>
+Request URL: `https://x.com/i/api/graphql/JIeXE-I6BZXHfxsgOkyHYQ/EditDraftTweet`<br>
+Request Method: `POST`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
+## EditScheduledTweet<br>
+Request URL: `https://x.com/i/api/graphql/_mHkQ5LHpRRjSXKOcG6eZw/EditScheduledTweet`<br>
+Request Method: `POST`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
+## FetchDraftTweets<br>
+Request URL: `https://x.com/i/api/graphql/ff5ciLFuifghdOtDoJj6Ww/FetchDraftTweets`<br>
+Request Method: `GET`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
+## FetchScheduledTweets<br>
+Request URL: `https://x.com/i/api/graphql/cmwoO7AWw5zCpd8TaPFQHg/FetchScheduledTweets`<br>
+Request Method: `GET`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
+## CreateDraftTweet<br>
+Request URL: `https://x.com/i/api/graphql/cH9HZWz_EW9gnswvA4ZRiQ/CreateDraftTweet`<br>
+Request Method: `POST`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
+## CreateScheduledTweet<br>
+Request URL: `https://x.com/i/api/graphql/LCVzRQGxOaGnOnYH01NQXg/CreateScheduledTweet`<br>
+Request Method: `POST`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
+## DeleteDraftTweet<br>
+Request URL: `https://x.com/i/api/graphql/bkh9G3FGgTldS9iTKWWYYw/DeleteDraftTweet`<br>
+Request Method: `POST`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
+## DeleteScheduledTweet<br>
+Request URL: `https://x.com/i/api/graphql/CTOVqej0JBXAZSwkp1US0g/DeleteScheduledTweet`<br>
+Request Method: `POST`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
+## EditDraftTweet<br>
+Request URL: `https://x.com/i/api/graphql/JIeXE-I6BZXHfxsgOkyHYQ/EditDraftTweet`<br>
+Request Method: `POST`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
+## EditScheduledTweet<br>
+Request URL: `https://x.com/i/api/graphql/_mHkQ5LHpRRjSXKOcG6eZw/EditScheduledTweet`<br>
+Request Method: `POST`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
 ## EnableLoggedOutWebNotifications<br>
 Request URL: `https://x.com/i/api/graphql/BqIHKmwZKtiUBPi07jKctg/EnableLoggedOutWebNotifications`<br>
 Request Method: `POST`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
+## FetchDraftTweets<br>
+Request URL: `https://x.com/i/api/graphql/ff5ciLFuifghdOtDoJj6Ww/FetchDraftTweets`<br>
+Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
@@ -6448,6 +6812,17 @@ Login Required: `...`<br>
 ## NotABotCheckoutUrlWithEligibility<br>
 Request URL: `https://x.com/i/api/graphql/RM4x9h3tF8bCn69VV3-gRg/NotABotCheckoutUrlWithEligibility`<br>
 Request Method: `POST`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
+## FetchScheduledTweets<br>
+Request URL: `https://x.com/i/api/graphql/cmwoO7AWw5zCpd8TaPFQHg/FetchScheduledTweets`<br>
+Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
@@ -6526,7 +6901,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## GrokConversationItemsByRestId<br>
-Request URL: `https://x.com/i/api/graphql/JlP88Bwbvgwcef9A5Xh05A/GrokConversationItemsByRestId`<br>
+Request URL: `https://x.com/i/api/graphql/n2bhau0B2DSY6R_bLolgSg/GrokConversationItemsByRestId`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -6551,6 +6926,8 @@ Login Required: `...`<br>
 | longform_notetweets_consumption_enabled                                 | boolean | True       |
 | responsive_web_twitter_article_tweet_consumption_enabled                | boolean | True       |
 | tweet_awards_web_tipping_enabled                                        | boolean | False      |
+| content_disclosure_indicator_enabled                                    | boolean | True       |
+| content_disclosure_ai_generated_indicator_enabled                       | boolean | True       |
 | responsive_web_grok_show_grok_translated_post                           | boolean | False      |
 | responsive_web_grok_analysis_button_from_backend                        | boolean | True       |
 | post_ctas_fetch_enabled                                                 | boolean | False      |
@@ -6639,7 +7016,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## GrokShare<br>
-Request URL: `https://x.com/i/api/graphql/56DZ8gzHG4t6fsrmoIPwMQ/GrokShare`<br>
+Request URL: `https://x.com/i/api/graphql/PnksIels-p7we6iCsrI4yg/GrokShare`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -6664,6 +7041,8 @@ Login Required: `...`<br>
 | longform_notetweets_consumption_enabled                                 | boolean | True       |
 | responsive_web_twitter_article_tweet_consumption_enabled                | boolean | True       |
 | tweet_awards_web_tipping_enabled                                        | boolean | False      |
+| content_disclosure_indicator_enabled                                    | boolean | True       |
+| content_disclosure_ai_generated_indicator_enabled                       | boolean | True       |
 | responsive_web_grok_show_grok_translated_post                           | boolean | False      |
 | responsive_web_grok_analysis_button_from_backend                        | boolean | True       |
 | post_ctas_fetch_enabled                                                 | boolean | False      |
@@ -6718,8 +7097,40 @@ Login Required: `...`<br>
 `None`<br>
 #### queryId<br>
 `None`<br>
-## BookmarkFolderTimeline<br>
-Request URL: `https://x.com/i/api/graphql/HaWnv49hWrnJwgiuZGC7WA/BookmarkFolderTimeline`<br>
+## DmAllSearchSlice<br>
+Request URL: `https://x.com/i/api/graphql/EpE7YAVNAjeYecs3bbYTcw/DmAllSearchSlice`<br>
+Request Method: `GET`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+| key                                                               | type    | variable   |
+|:------------------------------------------------------------------|:--------|:-----------|
+| profile_label_improvements_pcf_label_in_post_enabled              | boolean | True       |
+| responsive_web_profile_redirect_enabled                           | boolean | False      |
+| rweb_tipjar_consumption_enabled                                   | boolean | False      |
+| verified_phone_label_enabled                                      | boolean | False      |
+| responsive_web_grok_image_annotation_enabled                      | boolean | True       |
+| responsive_web_grok_imagine_annotation_enabled                    | boolean | True       |
+| responsive_web_graphql_skip_user_profile_image_extensions_enabled | boolean | False      |
+| responsive_web_graphql_timeline_navigation_enabled                | boolean | True       |
+
+#### queryId<br>
+`None`<br>
+## DmGroupSearchSlice<br>
+Request URL: `https://x.com/i/api/graphql/LxrvmqF3Lokl_BYZ1c83LA/DmGroupSearchSlice`<br>
+Request Method: `GET`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
+## DmMutedTimeline<br>
+Request URL: `https://x.com/i/api/graphql/jxG9CoeFq9AIF_sYXG7JLQ/DmMutedTimeline`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -6751,6 +7162,69 @@ Login Required: `...`<br>
 | longform_notetweets_consumption_enabled                                 | boolean | True       |
 | responsive_web_twitter_article_tweet_consumption_enabled                | boolean | True       |
 | tweet_awards_web_tipping_enabled                                        | boolean | False      |
+| content_disclosure_indicator_enabled                                    | boolean | True       |
+| content_disclosure_ai_generated_indicator_enabled                       | boolean | True       |
+| responsive_web_grok_show_grok_translated_post                           | boolean | False      |
+| responsive_web_grok_analysis_button_from_backend                        | boolean | True       |
+| post_ctas_fetch_enabled                                                 | boolean | False      |
+| freedom_of_speech_not_reach_fetch_enabled                               | boolean | True       |
+| standardized_nudges_misinfo                                             | boolean | True       |
+| tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | True       |
+| longform_notetweets_rich_text_read_enabled                              | boolean | True       |
+| longform_notetweets_inline_media_enabled                                | boolean | True       |
+| responsive_web_grok_image_annotation_enabled                            | boolean | True       |
+| responsive_web_grok_imagine_annotation_enabled                          | boolean | True       |
+| responsive_web_grok_community_note_auto_translation_is_enabled          | boolean | False      |
+| responsive_web_enhance_cards_enabled                                    | boolean | False      |
+
+#### queryId<br>
+`None`<br>
+## DmPeopleSearchSlice<br>
+Request URL: `https://x.com/i/api/graphql/c1MnRRmI-_Bggpntlq9-hQ/DmPeopleSearchSlice`<br>
+Request Method: `GET`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
+## BookmarkFolderTimeline<br>
+Request URL: `https://x.com/i/api/graphql/-o-rex9jYn96MTbSVbFC3Q/BookmarkFolderTimeline`<br>
+Request Method: `GET`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+| key                                                                     | type    | variable   |
+|:------------------------------------------------------------------------|:--------|:-----------|
+| rweb_video_screen_enabled                                               | boolean | False      |
+| profile_label_improvements_pcf_label_in_post_enabled                    | boolean | True       |
+| responsive_web_profile_redirect_enabled                                 | boolean | False      |
+| rweb_tipjar_consumption_enabled                                         | boolean | False      |
+| verified_phone_label_enabled                                            | boolean | False      |
+| creator_subscriptions_tweet_preview_api_enabled                         | boolean | True       |
+| responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
+| responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean | False      |
+| premium_content_api_read_enabled                                        | boolean | False      |
+| communities_web_enable_tweet_community_results_fetch                    | boolean | True       |
+| c9s_tweet_anatomy_moderator_badge_enabled                               | boolean | True       |
+| responsive_web_grok_analyze_button_fetch_trends_enabled                 | boolean | False      |
+| responsive_web_grok_analyze_post_followups_enabled                      | boolean | False      |
+| responsive_web_jetfuel_frame                                            | boolean | True       |
+| responsive_web_grok_share_attachment_enabled                            | boolean | True       |
+| responsive_web_grok_annotations_enabled                                 | boolean | True       |
+| articles_preview_enabled                                                | boolean | True       |
+| responsive_web_edit_tweet_api_enabled                                   | boolean | True       |
+| graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | True       |
+| view_counts_everywhere_api_enabled                                      | boolean | True       |
+| longform_notetweets_consumption_enabled                                 | boolean | True       |
+| responsive_web_twitter_article_tweet_consumption_enabled                | boolean | True       |
+| tweet_awards_web_tipping_enabled                                        | boolean | False      |
+| content_disclosure_indicator_enabled                                    | boolean | True       |
+| content_disclosure_ai_generated_indicator_enabled                       | boolean | True       |
 | responsive_web_grok_show_grok_translated_post                           | boolean | False      |
 | responsive_web_grok_analysis_button_from_backend                        | boolean | True       |
 | post_ctas_fetch_enabled                                                 | boolean | False      |
@@ -6789,7 +7263,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## Bookmarks<br>
-Request URL: `https://x.com/i/api/graphql/ynC-aMV_XSM_nEmtj_L3-Q/Bookmarks`<br>
+Request URL: `https://x.com/i/api/graphql/nWdgTDcvkR3dPXFCVwvOsg/Bookmarks`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -6821,6 +7295,8 @@ Login Required: `...`<br>
 | longform_notetweets_consumption_enabled                                 | boolean | True       |
 | responsive_web_twitter_article_tweet_consumption_enabled                | boolean | True       |
 | tweet_awards_web_tipping_enabled                                        | boolean | False      |
+| content_disclosure_indicator_enabled                                    | boolean | True       |
+| content_disclosure_ai_generated_indicator_enabled                       | boolean | True       |
 | responsive_web_grok_show_grok_translated_post                           | boolean | False      |
 | responsive_web_grok_analysis_button_from_backend                        | boolean | True       |
 | post_ctas_fetch_enabled                                                 | boolean | False      |
@@ -6838,6 +7314,28 @@ Login Required: `...`<br>
 `None`<br>
 ## createBookmarkFolder<br>
 Request URL: `https://x.com/i/api/graphql/6Xxqpq8TM_CREYiuof_h5w/createBookmarkFolder`<br>
+Request Method: `POST`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
+## CreateDraftTweet<br>
+Request URL: `https://x.com/i/api/graphql/cH9HZWz_EW9gnswvA4ZRiQ/CreateDraftTweet`<br>
+Request Method: `POST`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
+## CreateScheduledTweet<br>
+Request URL: `https://x.com/i/api/graphql/LCVzRQGxOaGnOnYH01NQXg/CreateScheduledTweet`<br>
 Request Method: `POST`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -6869,9 +7367,64 @@ Login Required: `...`<br>
 `None`<br>
 #### queryId<br>
 `None`<br>
+## DeleteDraftTweet<br>
+Request URL: `https://x.com/i/api/graphql/bkh9G3FGgTldS9iTKWWYYw/DeleteDraftTweet`<br>
+Request Method: `POST`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
+## DeleteScheduledTweet<br>
+Request URL: `https://x.com/i/api/graphql/CTOVqej0JBXAZSwkp1US0g/DeleteScheduledTweet`<br>
+Request Method: `POST`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
 ## EditBookmarkFolder<br>
 Request URL: `https://x.com/i/api/graphql/a6kPp1cS1Dgbsjhapz1PNw/EditBookmarkFolder`<br>
 Request Method: `POST`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
+## EditDraftTweet<br>
+Request URL: `https://x.com/i/api/graphql/JIeXE-I6BZXHfxsgOkyHYQ/EditDraftTweet`<br>
+Request Method: `POST`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
+## EditScheduledTweet<br>
+Request URL: `https://x.com/i/api/graphql/_mHkQ5LHpRRjSXKOcG6eZw/EditScheduledTweet`<br>
+Request Method: `POST`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
+## FetchDraftTweets<br>
+Request URL: `https://x.com/i/api/graphql/ff5ciLFuifghdOtDoJj6Ww/FetchDraftTweets`<br>
+Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
@@ -6891,315 +7444,9 @@ Login Required: `...`<br>
 `None`<br>
 #### queryId<br>
 `None`<br>
-## DmAllSearchSlice<br>
-Request URL: `https://x.com/i/api/graphql/SgPvgiQMSdNftpiTEQgJ2w/DmAllSearchSlice`<br>
+## FetchScheduledTweets<br>
+Request URL: `https://x.com/i/api/graphql/cmwoO7AWw5zCpd8TaPFQHg/FetchScheduledTweets`<br>
 Request Method: `GET`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-| key                                                               | type    | variable   |
-|:------------------------------------------------------------------|:--------|:-----------|
-| profile_label_improvements_pcf_label_in_post_enabled              | boolean | True       |
-| responsive_web_profile_redirect_enabled                           | boolean | False      |
-| rweb_tipjar_consumption_enabled                                   | boolean | False      |
-| verified_phone_label_enabled                                      | boolean | False      |
-| responsive_web_grok_image_annotation_enabled                      | boolean | True       |
-| responsive_web_grok_imagine_annotation_enabled                    | boolean | True       |
-| responsive_web_graphql_skip_user_profile_image_extensions_enabled | boolean | False      |
-| responsive_web_graphql_timeline_navigation_enabled                | boolean | True       |
-
-#### queryId<br>
-`None`<br>
-## DmGroupSearchSlice<br>
-Request URL: `https://x.com/i/api/graphql/LxrvmqF3Lokl_BYZ1c83LA/DmGroupSearchSlice`<br>
-Request Method: `GET`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-`None`<br>
-#### queryId<br>
-`None`<br>
-## DmMutedTimeline<br>
-Request URL: `https://x.com/i/api/graphql/g0IJjSz8MihRiqEQjZCVCg/DmMutedTimeline`<br>
-Request Method: `GET`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-| key                                                                     | type    | variable   |
-|:------------------------------------------------------------------------|:--------|:-----------|
-| rweb_video_screen_enabled                                               | boolean | False      |
-| profile_label_improvements_pcf_label_in_post_enabled                    | boolean | True       |
-| responsive_web_profile_redirect_enabled                                 | boolean | False      |
-| rweb_tipjar_consumption_enabled                                         | boolean | False      |
-| verified_phone_label_enabled                                            | boolean | False      |
-| creator_subscriptions_tweet_preview_api_enabled                         | boolean | True       |
-| responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
-| responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean | False      |
-| premium_content_api_read_enabled                                        | boolean | False      |
-| communities_web_enable_tweet_community_results_fetch                    | boolean | True       |
-| c9s_tweet_anatomy_moderator_badge_enabled                               | boolean | True       |
-| responsive_web_grok_analyze_button_fetch_trends_enabled                 | boolean | False      |
-| responsive_web_grok_analyze_post_followups_enabled                      | boolean | False      |
-| responsive_web_jetfuel_frame                                            | boolean | True       |
-| responsive_web_grok_share_attachment_enabled                            | boolean | True       |
-| responsive_web_grok_annotations_enabled                                 | boolean | True       |
-| articles_preview_enabled                                                | boolean | True       |
-| responsive_web_edit_tweet_api_enabled                                   | boolean | True       |
-| graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | True       |
-| view_counts_everywhere_api_enabled                                      | boolean | True       |
-| longform_notetweets_consumption_enabled                                 | boolean | True       |
-| responsive_web_twitter_article_tweet_consumption_enabled                | boolean | True       |
-| tweet_awards_web_tipping_enabled                                        | boolean | False      |
-| responsive_web_grok_show_grok_translated_post                           | boolean | False      |
-| responsive_web_grok_analysis_button_from_backend                        | boolean | True       |
-| post_ctas_fetch_enabled                                                 | boolean | False      |
-| freedom_of_speech_not_reach_fetch_enabled                               | boolean | True       |
-| standardized_nudges_misinfo                                             | boolean | True       |
-| tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | True       |
-| longform_notetweets_rich_text_read_enabled                              | boolean | True       |
-| longform_notetweets_inline_media_enabled                                | boolean | True       |
-| responsive_web_grok_image_annotation_enabled                            | boolean | True       |
-| responsive_web_grok_imagine_annotation_enabled                          | boolean | True       |
-| responsive_web_grok_community_note_auto_translation_is_enabled          | boolean | False      |
-| responsive_web_enhance_cards_enabled                                    | boolean | False      |
-
-#### queryId<br>
-`None`<br>
-## DmPeopleSearchSlice<br>
-Request URL: `https://x.com/i/api/graphql/c1MnRRmI-_Bggpntlq9-hQ/DmPeopleSearchSlice`<br>
-Request Method: `GET`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-`None`<br>
-#### queryId<br>
-`None`<br>
-## ClearGrokConversations<br>
-Request URL: `https://x.com/i/api/graphql/83Gg0lfI-47Z3-ZOxyUjiQ/ClearGrokConversations`<br>
-Request Method: `POST`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-`None`<br>
-#### queryId<br>
-`None`<br>
-## CreateGrokConversation<br>
-Request URL: `https://x.com/i/api/graphql/vvC5uy7pWWHXS2aDi1FZeA/CreateGrokConversation`<br>
-Request Method: `POST`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-`None`<br>
-#### queryId<br>
-`None`<br>
-## DeleteGrokMessage<br>
-Request URL: `https://x.com/i/api/graphql/kaH0vdJmbuocpRAeWpRC7A/DeleteGrokMessage`<br>
-Request Method: `POST`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-`None`<br>
-#### queryId<br>
-`None`<br>
-## GrokConversationItemsByRestId<br>
-Request URL: `https://x.com/i/api/graphql/JlP88Bwbvgwcef9A5Xh05A/GrokConversationItemsByRestId`<br>
-Request Method: `GET`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-| key                                                                     | type    | variable   |
-|:------------------------------------------------------------------------|:--------|:-----------|
-| creator_subscriptions_tweet_preview_api_enabled                         | boolean | True       |
-| premium_content_api_read_enabled                                        | boolean | False      |
-| communities_web_enable_tweet_community_results_fetch                    | boolean | True       |
-| c9s_tweet_anatomy_moderator_badge_enabled                               | boolean | True       |
-| responsive_web_grok_analyze_button_fetch_trends_enabled                 | boolean | False      |
-| responsive_web_grok_analyze_post_followups_enabled                      | boolean | False      |
-| responsive_web_jetfuel_frame                                            | boolean | True       |
-| responsive_web_grok_share_attachment_enabled                            | boolean | True       |
-| responsive_web_grok_annotations_enabled                                 | boolean | True       |
-| articles_preview_enabled                                                | boolean | True       |
-| responsive_web_edit_tweet_api_enabled                                   | boolean | True       |
-| graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | True       |
-| view_counts_everywhere_api_enabled                                      | boolean | True       |
-| longform_notetweets_consumption_enabled                                 | boolean | True       |
-| responsive_web_twitter_article_tweet_consumption_enabled                | boolean | True       |
-| tweet_awards_web_tipping_enabled                                        | boolean | False      |
-| responsive_web_grok_show_grok_translated_post                           | boolean | False      |
-| responsive_web_grok_analysis_button_from_backend                        | boolean | True       |
-| post_ctas_fetch_enabled                                                 | boolean | False      |
-| freedom_of_speech_not_reach_fetch_enabled                               | boolean | True       |
-| standardized_nudges_misinfo                                             | boolean | True       |
-| tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | True       |
-| longform_notetweets_rich_text_read_enabled                              | boolean | True       |
-| longform_notetweets_inline_media_enabled                                | boolean | True       |
-| profile_label_improvements_pcf_label_in_post_enabled                    | boolean | True       |
-| responsive_web_profile_redirect_enabled                                 | boolean | False      |
-| rweb_tipjar_consumption_enabled                                         | boolean | False      |
-| verified_phone_label_enabled                                            | boolean | False      |
-| responsive_web_grok_image_annotation_enabled                            | boolean | True       |
-| responsive_web_grok_imagine_annotation_enabled                          | boolean | True       |
-| responsive_web_grok_community_note_auto_translation_is_enabled          | boolean | False      |
-| responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean | False      |
-| responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
-| responsive_web_enhance_cards_enabled                                    | boolean | False      |
-
-#### queryId<br>
-`None`<br>
-## GrokHistory<br>
-Request URL: `https://x.com/i/api/graphql/9Hyh5D4-WXLnExZkONSkZg/GrokHistory`<br>
-Request Method: `GET`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-`None`<br>
-#### queryId<br>
-`None`<br>
-## GrokHome<br>
-Request URL: `https://x.com/i/api/graphql/QAPGIKJVaPXYD-gO9kxc9w/GrokHome`<br>
-Request Method: `GET`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-`None`<br>
-#### queryId<br>
-`None`<br>
-## GrokMediaHistory<br>
-Request URL: `https://x.com/i/api/graphql/azn3Sg0APPjb2Jtd7gqxsw/GrokMediaHistory`<br>
-Request Method: `GET`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-`None`<br>
-#### queryId<br>
-`None`<br>
-## GrokPinConversation<br>
-Request URL: `https://x.com/i/api/graphql/_6czUDKiWzcvBUKMoDZ19w/GrokPinConversation`<br>
-Request Method: `POST`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-`None`<br>
-#### queryId<br>
-`None`<br>
-## GrokPinnedConversations<br>
-Request URL: `https://x.com/i/api/graphql/BHKxYTkc5SCupV7oqJBr0g/GrokPinnedConversations`<br>
-Request Method: `GET`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-`None`<br>
-#### queryId<br>
-`None`<br>
-## SearchGrokConversations<br>
-Request URL: `https://x.com/i/api/graphql/Sr2QEitvnemma5D2NJlA2Q/SearchGrokConversations`<br>
-Request Method: `GET`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-`None`<br>
-#### queryId<br>
-`None`<br>
-## GrokShare<br>
-Request URL: `https://x.com/i/api/graphql/56DZ8gzHG4t6fsrmoIPwMQ/GrokShare`<br>
-Request Method: `GET`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-| key                                                                     | type    | variable   |
-|:------------------------------------------------------------------------|:--------|:-----------|
-| creator_subscriptions_tweet_preview_api_enabled                         | boolean | True       |
-| premium_content_api_read_enabled                                        | boolean | False      |
-| communities_web_enable_tweet_community_results_fetch                    | boolean | True       |
-| c9s_tweet_anatomy_moderator_badge_enabled                               | boolean | True       |
-| responsive_web_grok_analyze_button_fetch_trends_enabled                 | boolean | False      |
-| responsive_web_grok_analyze_post_followups_enabled                      | boolean | False      |
-| responsive_web_jetfuel_frame                                            | boolean | True       |
-| responsive_web_grok_share_attachment_enabled                            | boolean | True       |
-| responsive_web_grok_annotations_enabled                                 | boolean | True       |
-| articles_preview_enabled                                                | boolean | True       |
-| responsive_web_edit_tweet_api_enabled                                   | boolean | True       |
-| graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | True       |
-| view_counts_everywhere_api_enabled                                      | boolean | True       |
-| longform_notetweets_consumption_enabled                                 | boolean | True       |
-| responsive_web_twitter_article_tweet_consumption_enabled                | boolean | True       |
-| tweet_awards_web_tipping_enabled                                        | boolean | False      |
-| responsive_web_grok_show_grok_translated_post                           | boolean | False      |
-| responsive_web_grok_analysis_button_from_backend                        | boolean | True       |
-| post_ctas_fetch_enabled                                                 | boolean | False      |
-| freedom_of_speech_not_reach_fetch_enabled                               | boolean | True       |
-| standardized_nudges_misinfo                                             | boolean | True       |
-| tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | True       |
-| longform_notetweets_rich_text_read_enabled                              | boolean | True       |
-| longform_notetweets_inline_media_enabled                                | boolean | True       |
-| profile_label_improvements_pcf_label_in_post_enabled                    | boolean | True       |
-| responsive_web_profile_redirect_enabled                                 | boolean | False      |
-| rweb_tipjar_consumption_enabled                                         | boolean | False      |
-| verified_phone_label_enabled                                            | boolean | False      |
-| responsive_web_grok_image_annotation_enabled                            | boolean | True       |
-| responsive_web_grok_imagine_annotation_enabled                          | boolean | True       |
-| responsive_web_grok_community_note_auto_translation_is_enabled          | boolean | False      |
-| responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean | False      |
-| responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
-| responsive_web_enhance_cards_enabled                                    | boolean | False      |
-
-#### queryId<br>
-`None`<br>
-## GrokUnpinConversation<br>
-Request URL: `https://x.com/i/api/graphql/-5e798p4EVbuhGGFFuw3Tg/GrokUnpinConversation`<br>
-Request Method: `POST`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-`None`<br>
-#### queryId<br>
-`None`<br>
-## GrokUserEventsLog<br>
-Request URL: `https://x.com/i/api/graphql/AB0damyVo0wBhhebQIwtsg/GrokUserEventsLog`<br>
-Request Method: `POST`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-`None`<br>
-#### queryId<br>
-`None`<br>
-## SetGrokPreferences<br>
-Request URL: `https://x.com/i/api/graphql/NqLS09LPofalCjVhFolKtA/SetGrokPreferences`<br>
-Request Method: `POST`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
@@ -7292,8 +7539,96 @@ Login Required: `...`<br>
 `None`<br>
 #### queryId<br>
 `None`<br>
+## CreateDraftTweet<br>
+Request URL: `https://x.com/i/api/graphql/cH9HZWz_EW9gnswvA4ZRiQ/CreateDraftTweet`<br>
+Request Method: `POST`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
+## CreateScheduledTweet<br>
+Request URL: `https://x.com/i/api/graphql/LCVzRQGxOaGnOnYH01NQXg/CreateScheduledTweet`<br>
+Request Method: `POST`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
+## DeleteDraftTweet<br>
+Request URL: `https://x.com/i/api/graphql/bkh9G3FGgTldS9iTKWWYYw/DeleteDraftTweet`<br>
+Request Method: `POST`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
+## DeleteScheduledTweet<br>
+Request URL: `https://x.com/i/api/graphql/CTOVqej0JBXAZSwkp1US0g/DeleteScheduledTweet`<br>
+Request Method: `POST`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
+## EditDraftTweet<br>
+Request URL: `https://x.com/i/api/graphql/JIeXE-I6BZXHfxsgOkyHYQ/EditDraftTweet`<br>
+Request Method: `POST`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
+## EditScheduledTweet<br>
+Request URL: `https://x.com/i/api/graphql/_mHkQ5LHpRRjSXKOcG6eZw/EditScheduledTweet`<br>
+Request Method: `POST`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
+## FetchDraftTweets<br>
+Request URL: `https://x.com/i/api/graphql/ff5ciLFuifghdOtDoJj6Ww/FetchDraftTweets`<br>
+Request Method: `GET`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
+## FetchScheduledTweets<br>
+Request URL: `https://x.com/i/api/graphql/cmwoO7AWw5zCpd8TaPFQHg/FetchScheduledTweets`<br>
+Request Method: `GET`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
 ## ArticleTimeline<br>
-Request URL: `https://x.com/i/api/graphql/jwZZ_Bh-EpfsfZ9uqrq8Kw/ArticleTimeline`<br>
+Request URL: `https://x.com/i/api/graphql/q4zteJw3-PwONQV0T9U4QQ/ArticleTimeline`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -7325,6 +7660,8 @@ Login Required: `...`<br>
 | longform_notetweets_consumption_enabled                                 | boolean | True       |
 | responsive_web_twitter_article_tweet_consumption_enabled                | boolean | True       |
 | tweet_awards_web_tipping_enabled                                        | boolean | False      |
+| content_disclosure_indicator_enabled                                    | boolean | True       |
+| content_disclosure_ai_generated_indicator_enabled                       | boolean | True       |
 | responsive_web_grok_show_grok_translated_post                           | boolean | False      |
 | responsive_web_grok_analysis_button_from_backend                        | boolean | True       |
 | post_ctas_fetch_enabled                                                 | boolean | False      |
@@ -7341,7 +7678,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## ArticleTweetsTimeline<br>
-Request URL: `https://x.com/i/api/graphql/IL91lRqi_3bL_dqRnLEpbA/ArticleTweetsTimeline`<br>
+Request URL: `https://x.com/i/api/graphql/4X5DpsnPq7gbcPDH-jVQpg/ArticleTweetsTimeline`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -7373,6 +7710,8 @@ Login Required: `...`<br>
 | longform_notetweets_consumption_enabled                                 | boolean | True       |
 | responsive_web_twitter_article_tweet_consumption_enabled                | boolean | True       |
 | tweet_awards_web_tipping_enabled                                        | boolean | False      |
+| content_disclosure_indicator_enabled                                    | boolean | True       |
+| content_disclosure_ai_generated_indicator_enabled                       | boolean | True       |
 | responsive_web_grok_show_grok_translated_post                           | boolean | False      |
 | responsive_web_grok_analysis_button_from_backend                        | boolean | True       |
 | post_ctas_fetch_enabled                                                 | boolean | False      |
@@ -7386,6 +7725,94 @@ Login Required: `...`<br>
 | responsive_web_grok_community_note_auto_translation_is_enabled          | boolean | False      |
 | responsive_web_enhance_cards_enabled                                    | boolean | False      |
 
+#### queryId<br>
+`None`<br>
+## CreateDraftTweet<br>
+Request URL: `https://x.com/i/api/graphql/cH9HZWz_EW9gnswvA4ZRiQ/CreateDraftTweet`<br>
+Request Method: `POST`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
+## CreateScheduledTweet<br>
+Request URL: `https://x.com/i/api/graphql/LCVzRQGxOaGnOnYH01NQXg/CreateScheduledTweet`<br>
+Request Method: `POST`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
+## DeleteDraftTweet<br>
+Request URL: `https://x.com/i/api/graphql/bkh9G3FGgTldS9iTKWWYYw/DeleteDraftTweet`<br>
+Request Method: `POST`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
+## DeleteScheduledTweet<br>
+Request URL: `https://x.com/i/api/graphql/CTOVqej0JBXAZSwkp1US0g/DeleteScheduledTweet`<br>
+Request Method: `POST`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
+## EditDraftTweet<br>
+Request URL: `https://x.com/i/api/graphql/JIeXE-I6BZXHfxsgOkyHYQ/EditDraftTweet`<br>
+Request Method: `POST`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
+## EditScheduledTweet<br>
+Request URL: `https://x.com/i/api/graphql/_mHkQ5LHpRRjSXKOcG6eZw/EditScheduledTweet`<br>
+Request Method: `POST`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
+## FetchDraftTweets<br>
+Request URL: `https://x.com/i/api/graphql/ff5ciLFuifghdOtDoJj6Ww/FetchDraftTweets`<br>
+Request Method: `GET`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
+## FetchScheduledTweets<br>
+Request URL: `https://x.com/i/api/graphql/cmwoO7AWw5zCpd8TaPFQHg/FetchScheduledTweets`<br>
+Request Method: `GET`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
 #### queryId<br>
 `None`<br>
 ## CommunityBoostCreateRating<br>
@@ -7433,7 +7860,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## BookmarkFolderTimeline<br>
-Request URL: `https://x.com/i/api/graphql/HaWnv49hWrnJwgiuZGC7WA/BookmarkFolderTimeline`<br>
+Request URL: `https://x.com/i/api/graphql/-o-rex9jYn96MTbSVbFC3Q/BookmarkFolderTimeline`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -7465,6 +7892,8 @@ Login Required: `...`<br>
 | longform_notetweets_consumption_enabled                                 | boolean | True       |
 | responsive_web_twitter_article_tweet_consumption_enabled                | boolean | True       |
 | tweet_awards_web_tipping_enabled                                        | boolean | False      |
+| content_disclosure_indicator_enabled                                    | boolean | True       |
+| content_disclosure_ai_generated_indicator_enabled                       | boolean | True       |
 | responsive_web_grok_show_grok_translated_post                           | boolean | False      |
 | responsive_web_grok_analysis_button_from_backend                        | boolean | True       |
 | post_ctas_fetch_enabled                                                 | boolean | False      |
@@ -7503,7 +7932,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## Bookmarks<br>
-Request URL: `https://x.com/i/api/graphql/ynC-aMV_XSM_nEmtj_L3-Q/Bookmarks`<br>
+Request URL: `https://x.com/i/api/graphql/nWdgTDcvkR3dPXFCVwvOsg/Bookmarks`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -7535,6 +7964,8 @@ Login Required: `...`<br>
 | longform_notetweets_consumption_enabled                                 | boolean | True       |
 | responsive_web_twitter_article_tweet_consumption_enabled                | boolean | True       |
 | tweet_awards_web_tipping_enabled                                        | boolean | False      |
+| content_disclosure_indicator_enabled                                    | boolean | True       |
+| content_disclosure_ai_generated_indicator_enabled                       | boolean | True       |
 | responsive_web_grok_show_grok_translated_post                           | boolean | False      |
 | responsive_web_grok_analysis_button_from_backend                        | boolean | True       |
 | post_ctas_fetch_enabled                                                 | boolean | False      |
@@ -7617,7 +8048,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## AiTrendByRestId<br>
-Request URL: `https://x.com/i/api/graphql/nv4MkvYnG0WKZmhyT-03pA/AiTrendByRestId`<br>
+Request URL: `https://x.com/i/api/graphql/PuoLVCSX98_YrEiuU-SPZw/AiTrendByRestId`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -7643,6 +8074,8 @@ Login Required: `...`<br>
 | longform_notetweets_consumption_enabled                                 | boolean | True       |
 | responsive_web_twitter_article_tweet_consumption_enabled                | boolean | True       |
 | tweet_awards_web_tipping_enabled                                        | boolean | False      |
+| content_disclosure_indicator_enabled                                    | boolean | True       |
+| content_disclosure_ai_generated_indicator_enabled                       | boolean | True       |
 | responsive_web_grok_show_grok_translated_post                           | boolean | False      |
 | responsive_web_grok_analysis_button_from_backend                        | boolean | True       |
 | post_ctas_fetch_enabled                                                 | boolean | False      |
@@ -7697,7 +8130,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## ArticleEntitiesSlice<br>
-Request URL: `https://x.com/i/api/graphql/5wnPe-uFXPERQCrNJ6IGuQ/ArticleEntitiesSlice`<br>
+Request URL: `https://x.com/i/api/graphql/v1Nrs-d6uNEtrrXJ4DSF2A/ArticleEntitiesSlice`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -7727,7 +8160,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## ArticleEntityDraftCreate<br>
-Request URL: `https://x.com/i/api/graphql/nEjhsicWvO0fMe_WUWNRoA/ArticleEntityDraftCreate`<br>
+Request URL: `https://x.com/i/api/graphql/4hFNtuxZcWaN3xZDBcarkw/ArticleEntityDraftCreate`<br>
 Request Method: `POST`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -7746,7 +8179,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## ArticleEntityPublish<br>
-Request URL: `https://x.com/i/api/graphql/5r7bsfyb7oqFRIJCQrv_-Q/ArticleEntityPublish`<br>
+Request URL: `https://x.com/i/api/graphql/1ZTAFg21iNf8zYRlru3GtQ/ArticleEntityPublish`<br>
 Request Method: `POST`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -7765,7 +8198,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## ArticleEntityResultByRestId<br>
-Request URL: `https://x.com/i/api/graphql/_e6KtX0PS8H7sK7_okUz4w/ArticleEntityResultByRestId`<br>
+Request URL: `https://x.com/i/api/graphql/i1GUp3zg_bzMUQdEuT3XPg/ArticleEntityResultByRestId`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -7784,7 +8217,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## ArticleEntityUnpublish<br>
-Request URL: `https://x.com/i/api/graphql/iHWVhlAyd9uKP_K4NLBFIw/ArticleEntityUnpublish`<br>
+Request URL: `https://x.com/i/api/graphql/-zdjpF-XVwbx_fS7YHlOBg/ArticleEntityUnpublish`<br>
 Request Method: `POST`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -7803,7 +8236,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## ArticleEntityUpdateContent<br>
-Request URL: `https://x.com/i/api/graphql/HNl2x0ubTrgbKsNWBSlHNQ/ArticleEntityUpdateContent`<br>
+Request URL: `https://x.com/i/api/graphql/S4R4uXKt_Vl1zmpYfBJYvQ/ArticleEntityUpdateContent`<br>
 Request Method: `POST`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -7822,7 +8255,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## ArticleEntityUpdateCoverMedia<br>
-Request URL: `https://x.com/i/api/graphql/vSR8Tm_NYctqS9hTAHs4zQ/ArticleEntityUpdateCoverMedia`<br>
+Request URL: `https://x.com/i/api/graphql/OLIQ4ihzDGsSlDvURXlHgw/ArticleEntityUpdateCoverMedia`<br>
 Request Method: `POST`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -7841,7 +8274,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## ArticleEntityUpdateTitle<br>
-Request URL: `https://x.com/i/api/graphql/jETWnGrLBEZWCSKvRX5GHQ/ArticleEntityUpdateTitle`<br>
+Request URL: `https://x.com/i/api/graphql/vB7dx2puXvxv071SMcNBwg/ArticleEntityUpdateTitle`<br>
 Request Method: `POST`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -7991,8 +8424,195 @@ Login Required: `...`<br>
 `None`<br>
 #### queryId<br>
 `None`<br>
+## CreateDraftTweet<br>
+Request URL: `https://x.com/i/api/graphql/cH9HZWz_EW9gnswvA4ZRiQ/CreateDraftTweet`<br>
+Request Method: `POST`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
+## CreateScheduledTweet<br>
+Request URL: `https://x.com/i/api/graphql/LCVzRQGxOaGnOnYH01NQXg/CreateScheduledTweet`<br>
+Request Method: `POST`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
+## DeleteDraftTweet<br>
+Request URL: `https://x.com/i/api/graphql/bkh9G3FGgTldS9iTKWWYYw/DeleteDraftTweet`<br>
+Request Method: `POST`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
+## DeleteScheduledTweet<br>
+Request URL: `https://x.com/i/api/graphql/CTOVqej0JBXAZSwkp1US0g/DeleteScheduledTweet`<br>
+Request Method: `POST`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
+## EditDraftTweet<br>
+Request URL: `https://x.com/i/api/graphql/JIeXE-I6BZXHfxsgOkyHYQ/EditDraftTweet`<br>
+Request Method: `POST`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
+## EditScheduledTweet<br>
+Request URL: `https://x.com/i/api/graphql/_mHkQ5LHpRRjSXKOcG6eZw/EditScheduledTweet`<br>
+Request Method: `POST`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
+## FetchDraftTweets<br>
+Request URL: `https://x.com/i/api/graphql/ff5ciLFuifghdOtDoJj6Ww/FetchDraftTweets`<br>
+Request Method: `GET`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
+## FetchScheduledTweets<br>
+Request URL: `https://x.com/i/api/graphql/cmwoO7AWw5zCpd8TaPFQHg/FetchScheduledTweets`<br>
+Request Method: `GET`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
+## CreateDraftTweet<br>
+Request URL: `https://x.com/i/api/graphql/cH9HZWz_EW9gnswvA4ZRiQ/CreateDraftTweet`<br>
+Request Method: `POST`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
+## CreateScheduledTweet<br>
+Request URL: `https://x.com/i/api/graphql/LCVzRQGxOaGnOnYH01NQXg/CreateScheduledTweet`<br>
+Request Method: `POST`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
+## DeleteDraftTweet<br>
+Request URL: `https://x.com/i/api/graphql/bkh9G3FGgTldS9iTKWWYYw/DeleteDraftTweet`<br>
+Request Method: `POST`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
+## DeleteScheduledTweet<br>
+Request URL: `https://x.com/i/api/graphql/CTOVqej0JBXAZSwkp1US0g/DeleteScheduledTweet`<br>
+Request Method: `POST`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
+## EditDraftTweet<br>
+Request URL: `https://x.com/i/api/graphql/JIeXE-I6BZXHfxsgOkyHYQ/EditDraftTweet`<br>
+Request Method: `POST`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
+## EditScheduledTweet<br>
+Request URL: `https://x.com/i/api/graphql/_mHkQ5LHpRRjSXKOcG6eZw/EditScheduledTweet`<br>
+Request Method: `POST`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
+## FetchDraftTweets<br>
+Request URL: `https://x.com/i/api/graphql/ff5ciLFuifghdOtDoJj6Ww/FetchDraftTweets`<br>
+Request Method: `GET`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
+## FetchScheduledTweets<br>
+Request URL: `https://x.com/i/api/graphql/cmwoO7AWw5zCpd8TaPFQHg/FetchScheduledTweets`<br>
+Request Method: `GET`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
 ## ClearGrokConversations<br>
 Request URL: `https://x.com/i/api/graphql/83Gg0lfI-47Z3-ZOxyUjiQ/ClearGrokConversations`<br>
+Request Method: `POST`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
+## CreateDraftTweet<br>
+Request URL: `https://x.com/i/api/graphql/cH9HZWz_EW9gnswvA4ZRiQ/CreateDraftTweet`<br>
 Request Method: `POST`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -8013,6 +8633,28 @@ Login Required: `...`<br>
 `None`<br>
 #### queryId<br>
 `None`<br>
+## CreateScheduledTweet<br>
+Request URL: `https://x.com/i/api/graphql/LCVzRQGxOaGnOnYH01NQXg/CreateScheduledTweet`<br>
+Request Method: `POST`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
+## DeleteDraftTweet<br>
+Request URL: `https://x.com/i/api/graphql/bkh9G3FGgTldS9iTKWWYYw/DeleteDraftTweet`<br>
+Request Method: `POST`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
 ## DeleteGrokMessage<br>
 Request URL: `https://x.com/i/api/graphql/kaH0vdJmbuocpRAeWpRC7A/DeleteGrokMessage`<br>
 Request Method: `POST`<br>
@@ -8024,8 +8666,41 @@ Login Required: `...`<br>
 `None`<br>
 #### queryId<br>
 `None`<br>
+## DeleteScheduledTweet<br>
+Request URL: `https://x.com/i/api/graphql/CTOVqej0JBXAZSwkp1US0g/DeleteScheduledTweet`<br>
+Request Method: `POST`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
+## EditDraftTweet<br>
+Request URL: `https://x.com/i/api/graphql/JIeXE-I6BZXHfxsgOkyHYQ/EditDraftTweet`<br>
+Request Method: `POST`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
+## EditScheduledTweet<br>
+Request URL: `https://x.com/i/api/graphql/_mHkQ5LHpRRjSXKOcG6eZw/EditScheduledTweet`<br>
+Request Method: `POST`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
 ## GrokConversationItemsByRestId<br>
-Request URL: `https://x.com/i/api/graphql/JlP88Bwbvgwcef9A5Xh05A/GrokConversationItemsByRestId`<br>
+Request URL: `https://x.com/i/api/graphql/n2bhau0B2DSY6R_bLolgSg/GrokConversationItemsByRestId`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -8050,6 +8725,8 @@ Login Required: `...`<br>
 | longform_notetweets_consumption_enabled                                 | boolean | True       |
 | responsive_web_twitter_article_tweet_consumption_enabled                | boolean | True       |
 | tweet_awards_web_tipping_enabled                                        | boolean | False      |
+| content_disclosure_indicator_enabled                                    | boolean | True       |
+| content_disclosure_ai_generated_indicator_enabled                       | boolean | True       |
 | responsive_web_grok_show_grok_translated_post                           | boolean | False      |
 | responsive_web_grok_analysis_button_from_backend                        | boolean | True       |
 | post_ctas_fetch_enabled                                                 | boolean | False      |
@@ -8138,7 +8815,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## GrokShare<br>
-Request URL: `https://x.com/i/api/graphql/56DZ8gzHG4t6fsrmoIPwMQ/GrokShare`<br>
+Request URL: `https://x.com/i/api/graphql/PnksIels-p7we6iCsrI4yg/GrokShare`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -8163,6 +8840,8 @@ Login Required: `...`<br>
 | longform_notetweets_consumption_enabled                                 | boolean | True       |
 | responsive_web_twitter_article_tweet_consumption_enabled                | boolean | True       |
 | tweet_awards_web_tipping_enabled                                        | boolean | False      |
+| content_disclosure_indicator_enabled                                    | boolean | True       |
+| content_disclosure_ai_generated_indicator_enabled                       | boolean | True       |
 | responsive_web_grok_show_grok_translated_post                           | boolean | False      |
 | responsive_web_grok_analysis_button_from_backend                        | boolean | True       |
 | post_ctas_fetch_enabled                                                 | boolean | False      |
@@ -8206,6 +8885,28 @@ Login Required: `...`<br>
 `None`<br>
 #### queryId<br>
 `None`<br>
+## FetchDraftTweets<br>
+Request URL: `https://x.com/i/api/graphql/ff5ciLFuifghdOtDoJj6Ww/FetchDraftTweets`<br>
+Request Method: `GET`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
+## FetchScheduledTweets<br>
+Request URL: `https://x.com/i/api/graphql/cmwoO7AWw5zCpd8TaPFQHg/FetchScheduledTweets`<br>
+Request Method: `GET`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
 ## SetGrokPreferences<br>
 Request URL: `https://x.com/i/api/graphql/NqLS09LPofalCjVhFolKtA/SetGrokPreferences`<br>
 Request Method: `POST`<br>
@@ -8218,7 +8919,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## DmAllSearchSlice<br>
-Request URL: `https://x.com/i/api/graphql/SgPvgiQMSdNftpiTEQgJ2w/DmAllSearchSlice`<br>
+Request URL: `https://x.com/i/api/graphql/EpE7YAVNAjeYecs3bbYTcw/DmAllSearchSlice`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -8250,7 +8951,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## DmMutedTimeline<br>
-Request URL: `https://x.com/i/api/graphql/g0IJjSz8MihRiqEQjZCVCg/DmMutedTimeline`<br>
+Request URL: `https://x.com/i/api/graphql/jxG9CoeFq9AIF_sYXG7JLQ/DmMutedTimeline`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -8282,6 +8983,8 @@ Login Required: `...`<br>
 | longform_notetweets_consumption_enabled                                 | boolean | True       |
 | responsive_web_twitter_article_tweet_consumption_enabled                | boolean | True       |
 | tweet_awards_web_tipping_enabled                                        | boolean | False      |
+| content_disclosure_indicator_enabled                                    | boolean | True       |
+| content_disclosure_ai_generated_indicator_enabled                       | boolean | True       |
 | responsive_web_grok_show_grok_translated_post                           | boolean | False      |
 | responsive_web_grok_analysis_button_from_backend                        | boolean | True       |
 | post_ctas_fetch_enabled                                                 | boolean | False      |
@@ -8341,6 +9044,39 @@ Login Required: `...`<br>
 `None`<br>
 #### queryId<br>
 `None`<br>
+## CreateDraftTweet<br>
+Request URL: `https://x.com/i/api/graphql/cH9HZWz_EW9gnswvA4ZRiQ/CreateDraftTweet`<br>
+Request Method: `POST`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
+## CreateScheduledTweet<br>
+Request URL: `https://x.com/i/api/graphql/LCVzRQGxOaGnOnYH01NQXg/CreateScheduledTweet`<br>
+Request Method: `POST`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
+## DeleteDraftTweet<br>
+Request URL: `https://x.com/i/api/graphql/bkh9G3FGgTldS9iTKWWYYw/DeleteDraftTweet`<br>
+Request Method: `POST`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
 ## DeleteGrokMessage<br>
 Request URL: `https://x.com/i/api/graphql/kaH0vdJmbuocpRAeWpRC7A/DeleteGrokMessage`<br>
 Request Method: `POST`<br>
@@ -8352,8 +9088,41 @@ Login Required: `...`<br>
 `None`<br>
 #### queryId<br>
 `None`<br>
+## DeleteScheduledTweet<br>
+Request URL: `https://x.com/i/api/graphql/CTOVqej0JBXAZSwkp1US0g/DeleteScheduledTweet`<br>
+Request Method: `POST`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
+## EditDraftTweet<br>
+Request URL: `https://x.com/i/api/graphql/JIeXE-I6BZXHfxsgOkyHYQ/EditDraftTweet`<br>
+Request Method: `POST`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
+## EditScheduledTweet<br>
+Request URL: `https://x.com/i/api/graphql/_mHkQ5LHpRRjSXKOcG6eZw/EditScheduledTweet`<br>
+Request Method: `POST`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
 ## GrokConversationItemsByRestId<br>
-Request URL: `https://x.com/i/api/graphql/JlP88Bwbvgwcef9A5Xh05A/GrokConversationItemsByRestId`<br>
+Request URL: `https://x.com/i/api/graphql/n2bhau0B2DSY6R_bLolgSg/GrokConversationItemsByRestId`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -8378,6 +9147,8 @@ Login Required: `...`<br>
 | longform_notetweets_consumption_enabled                                 | boolean | True       |
 | responsive_web_twitter_article_tweet_consumption_enabled                | boolean | True       |
 | tweet_awards_web_tipping_enabled                                        | boolean | False      |
+| content_disclosure_indicator_enabled                                    | boolean | True       |
+| content_disclosure_ai_generated_indicator_enabled                       | boolean | True       |
 | responsive_web_grok_show_grok_translated_post                           | boolean | False      |
 | responsive_web_grok_analysis_button_from_backend                        | boolean | True       |
 | post_ctas_fetch_enabled                                                 | boolean | False      |
@@ -8466,7 +9237,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## GrokShare<br>
-Request URL: `https://x.com/i/api/graphql/56DZ8gzHG4t6fsrmoIPwMQ/GrokShare`<br>
+Request URL: `https://x.com/i/api/graphql/PnksIels-p7we6iCsrI4yg/GrokShare`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -8491,6 +9262,8 @@ Login Required: `...`<br>
 | longform_notetweets_consumption_enabled                                 | boolean | True       |
 | responsive_web_twitter_article_tweet_consumption_enabled                | boolean | True       |
 | tweet_awards_web_tipping_enabled                                        | boolean | False      |
+| content_disclosure_indicator_enabled                                    | boolean | True       |
+| content_disclosure_ai_generated_indicator_enabled                       | boolean | True       |
 | responsive_web_grok_show_grok_translated_post                           | boolean | False      |
 | responsive_web_grok_analysis_button_from_backend                        | boolean | True       |
 | post_ctas_fetch_enabled                                                 | boolean | False      |
@@ -8534,6 +9307,17 @@ Login Required: `...`<br>
 `None`<br>
 #### queryId<br>
 `None`<br>
+## FetchDraftTweets<br>
+Request URL: `https://x.com/i/api/graphql/ff5ciLFuifghdOtDoJj6Ww/FetchDraftTweets`<br>
+Request Method: `GET`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
 ## ListProductSubscriptions<br>
 Request URL: `https://x.com/i/api/graphql/V8-RP7SxlI4qzRmpCmEqgw/ListProductSubscriptions`<br>
 Request Method: `GET`<br>
@@ -8552,6 +9336,17 @@ Login Required: `...`<br>
 ## NotABotCheckoutUrlWithEligibility<br>
 Request URL: `https://x.com/i/api/graphql/RM4x9h3tF8bCn69VV3-gRg/NotABotCheckoutUrlWithEligibility`<br>
 Request Method: `POST`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
+## FetchScheduledTweets<br>
+Request URL: `https://x.com/i/api/graphql/cmwoO7AWw5zCpd8TaPFQHg/FetchScheduledTweets`<br>
+Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
@@ -8629,41 +9424,8 @@ Login Required: `...`<br>
 `None`<br>
 #### queryId<br>
 `None`<br>
-## ClearGrokConversations<br>
-Request URL: `https://x.com/i/api/graphql/83Gg0lfI-47Z3-ZOxyUjiQ/ClearGrokConversations`<br>
-Request Method: `POST`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-`None`<br>
-#### queryId<br>
-`None`<br>
-## CreateGrokConversation<br>
-Request URL: `https://x.com/i/api/graphql/vvC5uy7pWWHXS2aDi1FZeA/CreateGrokConversation`<br>
-Request Method: `POST`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-`None`<br>
-#### queryId<br>
-`None`<br>
-## DeleteGrokMessage<br>
-Request URL: `https://x.com/i/api/graphql/kaH0vdJmbuocpRAeWpRC7A/DeleteGrokMessage`<br>
-Request Method: `POST`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-`None`<br>
-#### queryId<br>
-`None`<br>
-## GrokConversationItemsByRestId<br>
-Request URL: `https://x.com/i/api/graphql/JlP88Bwbvgwcef9A5Xh05A/GrokConversationItemsByRestId`<br>
+## BookmarkFolderTimeline<br>
+Request URL: `https://x.com/i/api/graphql/-o-rex9jYn96MTbSVbFC3Q/BookmarkFolderTimeline`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -8672,7 +9434,14 @@ Login Required: `...`<br>
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
+| rweb_video_screen_enabled                                               | boolean | False      |
+| profile_label_improvements_pcf_label_in_post_enabled                    | boolean | True       |
+| responsive_web_profile_redirect_enabled                                 | boolean | False      |
+| rweb_tipjar_consumption_enabled                                         | boolean | False      |
+| verified_phone_label_enabled                                            | boolean | False      |
 | creator_subscriptions_tweet_preview_api_enabled                         | boolean | True       |
+| responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
+| responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean | False      |
 | premium_content_api_read_enabled                                        | boolean | False      |
 | communities_web_enable_tweet_community_results_fetch                    | boolean | True       |
 | c9s_tweet_anatomy_moderator_badge_enabled                               | boolean | True       |
@@ -8688,6 +9457,8 @@ Login Required: `...`<br>
 | longform_notetweets_consumption_enabled                                 | boolean | True       |
 | responsive_web_twitter_article_tweet_consumption_enabled                | boolean | True       |
 | tweet_awards_web_tipping_enabled                                        | boolean | False      |
+| content_disclosure_indicator_enabled                                    | boolean | True       |
+| content_disclosure_ai_generated_indicator_enabled                       | boolean | True       |
 | responsive_web_grok_show_grok_translated_post                           | boolean | False      |
 | responsive_web_grok_analysis_button_from_backend                        | boolean | True       |
 | post_ctas_fetch_enabled                                                 | boolean | False      |
@@ -8696,21 +9467,15 @@ Login Required: `...`<br>
 | tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | True       |
 | longform_notetweets_rich_text_read_enabled                              | boolean | True       |
 | longform_notetweets_inline_media_enabled                                | boolean | True       |
-| profile_label_improvements_pcf_label_in_post_enabled                    | boolean | True       |
-| responsive_web_profile_redirect_enabled                                 | boolean | False      |
-| rweb_tipjar_consumption_enabled                                         | boolean | False      |
-| verified_phone_label_enabled                                            | boolean | False      |
 | responsive_web_grok_image_annotation_enabled                            | boolean | True       |
 | responsive_web_grok_imagine_annotation_enabled                          | boolean | True       |
 | responsive_web_grok_community_note_auto_translation_is_enabled          | boolean | False      |
-| responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean | False      |
-| responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
 | responsive_web_enhance_cards_enabled                                    | boolean | False      |
 
 #### queryId<br>
 `None`<br>
-## GrokHistory<br>
-Request URL: `https://x.com/i/api/graphql/9Hyh5D4-WXLnExZkONSkZg/GrokHistory`<br>
+## BookmarkFoldersSlice<br>
+Request URL: `https://x.com/i/api/graphql/i78YDd0Tza-dV4SYs58kRg/BookmarkFoldersSlice`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -8720,30 +9485,8 @@ Login Required: `...`<br>
 `None`<br>
 #### queryId<br>
 `None`<br>
-## GrokHome<br>
-Request URL: `https://x.com/i/api/graphql/QAPGIKJVaPXYD-gO9kxc9w/GrokHome`<br>
-Request Method: `GET`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-`None`<br>
-#### queryId<br>
-`None`<br>
-## GrokMediaHistory<br>
-Request URL: `https://x.com/i/api/graphql/azn3Sg0APPjb2Jtd7gqxsw/GrokMediaHistory`<br>
-Request Method: `GET`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-`None`<br>
-#### queryId<br>
-`None`<br>
-## GrokPinConversation<br>
-Request URL: `https://x.com/i/api/graphql/_6czUDKiWzcvBUKMoDZ19w/GrokPinConversation`<br>
+## bookmarkTweetToFolder<br>
+Request URL: `https://x.com/i/api/graphql/4KHZvvNbHNf07bsgnL9gWA/bookmarkTweetToFolder`<br>
 Request Method: `POST`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -8753,30 +9496,8 @@ Login Required: `...`<br>
 `None`<br>
 #### queryId<br>
 `None`<br>
-## GrokPinnedConversations<br>
-Request URL: `https://x.com/i/api/graphql/BHKxYTkc5SCupV7oqJBr0g/GrokPinnedConversations`<br>
-Request Method: `GET`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-`None`<br>
-#### queryId<br>
-`None`<br>
-## SearchGrokConversations<br>
-Request URL: `https://x.com/i/api/graphql/Sr2QEitvnemma5D2NJlA2Q/SearchGrokConversations`<br>
-Request Method: `GET`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-`None`<br>
-#### queryId<br>
-`None`<br>
-## GrokShare<br>
-Request URL: `https://x.com/i/api/graphql/56DZ8gzHG4t6fsrmoIPwMQ/GrokShare`<br>
+## Bookmarks<br>
+Request URL: `https://x.com/i/api/graphql/nWdgTDcvkR3dPXFCVwvOsg/Bookmarks`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -8785,7 +9506,14 @@ Login Required: `...`<br>
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
+| rweb_video_screen_enabled                                               | boolean | False      |
+| profile_label_improvements_pcf_label_in_post_enabled                    | boolean | True       |
+| responsive_web_profile_redirect_enabled                                 | boolean | False      |
+| rweb_tipjar_consumption_enabled                                         | boolean | False      |
+| verified_phone_label_enabled                                            | boolean | False      |
 | creator_subscriptions_tweet_preview_api_enabled                         | boolean | True       |
+| responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
+| responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean | False      |
 | premium_content_api_read_enabled                                        | boolean | False      |
 | communities_web_enable_tweet_community_results_fetch                    | boolean | True       |
 | c9s_tweet_anatomy_moderator_badge_enabled                               | boolean | True       |
@@ -8801,6 +9529,8 @@ Login Required: `...`<br>
 | longform_notetweets_consumption_enabled                                 | boolean | True       |
 | responsive_web_twitter_article_tweet_consumption_enabled                | boolean | True       |
 | tweet_awards_web_tipping_enabled                                        | boolean | False      |
+| content_disclosure_indicator_enabled                                    | boolean | True       |
+| content_disclosure_ai_generated_indicator_enabled                       | boolean | True       |
 | responsive_web_grok_show_grok_translated_post                           | boolean | False      |
 | responsive_web_grok_analysis_button_from_backend                        | boolean | True       |
 | post_ctas_fetch_enabled                                                 | boolean | False      |
@@ -8809,21 +9539,15 @@ Login Required: `...`<br>
 | tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | True       |
 | longform_notetweets_rich_text_read_enabled                              | boolean | True       |
 | longform_notetweets_inline_media_enabled                                | boolean | True       |
-| profile_label_improvements_pcf_label_in_post_enabled                    | boolean | True       |
-| responsive_web_profile_redirect_enabled                                 | boolean | False      |
-| rweb_tipjar_consumption_enabled                                         | boolean | False      |
-| verified_phone_label_enabled                                            | boolean | False      |
 | responsive_web_grok_image_annotation_enabled                            | boolean | True       |
 | responsive_web_grok_imagine_annotation_enabled                          | boolean | True       |
 | responsive_web_grok_community_note_auto_translation_is_enabled          | boolean | False      |
-| responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean | False      |
-| responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
 | responsive_web_enhance_cards_enabled                                    | boolean | False      |
 
 #### queryId<br>
 `None`<br>
-## GrokUnpinConversation<br>
-Request URL: `https://x.com/i/api/graphql/-5e798p4EVbuhGGFFuw3Tg/GrokUnpinConversation`<br>
+## createBookmarkFolder<br>
+Request URL: `https://x.com/i/api/graphql/6Xxqpq8TM_CREYiuof_h5w/createBookmarkFolder`<br>
 Request Method: `POST`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -8833,8 +9557,8 @@ Login Required: `...`<br>
 `None`<br>
 #### queryId<br>
 `None`<br>
-## GrokUserEventsLog<br>
-Request URL: `https://x.com/i/api/graphql/AB0damyVo0wBhhebQIwtsg/GrokUserEventsLog`<br>
+## CreateDraftTweet<br>
+Request URL: `https://x.com/i/api/graphql/cH9HZWz_EW9gnswvA4ZRiQ/CreateDraftTweet`<br>
 Request Method: `POST`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -8844,9 +9568,207 @@ Login Required: `...`<br>
 `None`<br>
 #### queryId<br>
 `None`<br>
-## SetGrokPreferences<br>
-Request URL: `https://x.com/i/api/graphql/NqLS09LPofalCjVhFolKtA/SetGrokPreferences`<br>
+## CreateScheduledTweet<br>
+Request URL: `https://x.com/i/api/graphql/LCVzRQGxOaGnOnYH01NQXg/CreateScheduledTweet`<br>
 Request Method: `POST`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
+## BookmarksAllDelete<br>
+Request URL: `https://x.com/i/api/graphql/skiACZKC1GDYli-M8RzEPQ/BookmarksAllDelete`<br>
+Request Method: `POST`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
+## DeleteBookmarkFolder<br>
+Request URL: `https://x.com/i/api/graphql/2UTTsO-6zs93XqlEUZPsSg/DeleteBookmarkFolder`<br>
+Request Method: `POST`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
+## DeleteDraftTweet<br>
+Request URL: `https://x.com/i/api/graphql/bkh9G3FGgTldS9iTKWWYYw/DeleteDraftTweet`<br>
+Request Method: `POST`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
+## DeleteScheduledTweet<br>
+Request URL: `https://x.com/i/api/graphql/CTOVqej0JBXAZSwkp1US0g/DeleteScheduledTweet`<br>
+Request Method: `POST`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
+## EditBookmarkFolder<br>
+Request URL: `https://x.com/i/api/graphql/a6kPp1cS1Dgbsjhapz1PNw/EditBookmarkFolder`<br>
+Request Method: `POST`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
+## EditDraftTweet<br>
+Request URL: `https://x.com/i/api/graphql/JIeXE-I6BZXHfxsgOkyHYQ/EditDraftTweet`<br>
+Request Method: `POST`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
+## EditScheduledTweet<br>
+Request URL: `https://x.com/i/api/graphql/_mHkQ5LHpRRjSXKOcG6eZw/EditScheduledTweet`<br>
+Request Method: `POST`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
+## FetchDraftTweets<br>
+Request URL: `https://x.com/i/api/graphql/ff5ciLFuifghdOtDoJj6Ww/FetchDraftTweets`<br>
+Request Method: `GET`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
+## RemoveTweetFromBookmarkFolder<br>
+Request URL: `https://x.com/i/api/graphql/2Qbj9XZvtUvyJB4gFwWfaA/RemoveTweetFromBookmarkFolder`<br>
+Request Method: `POST`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
+## FetchScheduledTweets<br>
+Request URL: `https://x.com/i/api/graphql/cmwoO7AWw5zCpd8TaPFQHg/FetchScheduledTweets`<br>
+Request Method: `GET`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
+## CreateDraftTweet<br>
+Request URL: `https://x.com/i/api/graphql/cH9HZWz_EW9gnswvA4ZRiQ/CreateDraftTweet`<br>
+Request Method: `POST`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
+## CreateScheduledTweet<br>
+Request URL: `https://x.com/i/api/graphql/LCVzRQGxOaGnOnYH01NQXg/CreateScheduledTweet`<br>
+Request Method: `POST`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
+## DeleteDraftTweet<br>
+Request URL: `https://x.com/i/api/graphql/bkh9G3FGgTldS9iTKWWYYw/DeleteDraftTweet`<br>
+Request Method: `POST`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
+## DeleteScheduledTweet<br>
+Request URL: `https://x.com/i/api/graphql/CTOVqej0JBXAZSwkp1US0g/DeleteScheduledTweet`<br>
+Request Method: `POST`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
+## EditDraftTweet<br>
+Request URL: `https://x.com/i/api/graphql/JIeXE-I6BZXHfxsgOkyHYQ/EditDraftTweet`<br>
+Request Method: `POST`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
+## EditScheduledTweet<br>
+Request URL: `https://x.com/i/api/graphql/_mHkQ5LHpRRjSXKOcG6eZw/EditScheduledTweet`<br>
+Request Method: `POST`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
+## FetchDraftTweets<br>
+Request URL: `https://x.com/i/api/graphql/ff5ciLFuifghdOtDoJj6Ww/FetchDraftTweets`<br>
+Request Method: `GET`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
+## FetchScheduledTweets<br>
+Request URL: `https://x.com/i/api/graphql/cmwoO7AWw5zCpd8TaPFQHg/FetchScheduledTweets`<br>
+Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
@@ -8900,7 +9822,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## GrokConversationItemsByRestId<br>
-Request URL: `https://x.com/i/api/graphql/JlP88Bwbvgwcef9A5Xh05A/GrokConversationItemsByRestId`<br>
+Request URL: `https://x.com/i/api/graphql/n2bhau0B2DSY6R_bLolgSg/GrokConversationItemsByRestId`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -8925,6 +9847,8 @@ Login Required: `...`<br>
 | longform_notetweets_consumption_enabled                                 | boolean | True       |
 | responsive_web_twitter_article_tweet_consumption_enabled                | boolean | True       |
 | tweet_awards_web_tipping_enabled                                        | boolean | False      |
+| content_disclosure_indicator_enabled                                    | boolean | True       |
+| content_disclosure_ai_generated_indicator_enabled                       | boolean | True       |
 | responsive_web_grok_show_grok_translated_post                           | boolean | False      |
 | responsive_web_grok_analysis_button_from_backend                        | boolean | True       |
 | post_ctas_fetch_enabled                                                 | boolean | False      |
@@ -9013,7 +9937,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## GrokShare<br>
-Request URL: `https://x.com/i/api/graphql/56DZ8gzHG4t6fsrmoIPwMQ/GrokShare`<br>
+Request URL: `https://x.com/i/api/graphql/PnksIels-p7we6iCsrI4yg/GrokShare`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -9038,6 +9962,8 @@ Login Required: `...`<br>
 | longform_notetweets_consumption_enabled                                 | boolean | True       |
 | responsive_web_twitter_article_tweet_consumption_enabled                | boolean | True       |
 | tweet_awards_web_tipping_enabled                                        | boolean | False      |
+| content_disclosure_indicator_enabled                                    | boolean | True       |
+| content_disclosure_ai_generated_indicator_enabled                       | boolean | True       |
 | responsive_web_grok_show_grok_translated_post                           | boolean | False      |
 | responsive_web_grok_analysis_button_from_backend                        | boolean | True       |
 | post_ctas_fetch_enabled                                                 | boolean | False      |
@@ -9084,6 +10010,94 @@ Login Required: `...`<br>
 ## SetGrokPreferences<br>
 Request URL: `https://x.com/i/api/graphql/NqLS09LPofalCjVhFolKtA/SetGrokPreferences`<br>
 Request Method: `POST`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
+## CreateDraftTweet<br>
+Request URL: `https://x.com/i/api/graphql/cH9HZWz_EW9gnswvA4ZRiQ/CreateDraftTweet`<br>
+Request Method: `POST`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
+## CreateScheduledTweet<br>
+Request URL: `https://x.com/i/api/graphql/LCVzRQGxOaGnOnYH01NQXg/CreateScheduledTweet`<br>
+Request Method: `POST`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
+## DeleteDraftTweet<br>
+Request URL: `https://x.com/i/api/graphql/bkh9G3FGgTldS9iTKWWYYw/DeleteDraftTweet`<br>
+Request Method: `POST`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
+## DeleteScheduledTweet<br>
+Request URL: `https://x.com/i/api/graphql/CTOVqej0JBXAZSwkp1US0g/DeleteScheduledTweet`<br>
+Request Method: `POST`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
+## EditDraftTweet<br>
+Request URL: `https://x.com/i/api/graphql/JIeXE-I6BZXHfxsgOkyHYQ/EditDraftTweet`<br>
+Request Method: `POST`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
+## EditScheduledTweet<br>
+Request URL: `https://x.com/i/api/graphql/_mHkQ5LHpRRjSXKOcG6eZw/EditScheduledTweet`<br>
+Request Method: `POST`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
+## FetchDraftTweets<br>
+Request URL: `https://x.com/i/api/graphql/ff5ciLFuifghdOtDoJj6Ww/FetchDraftTweets`<br>
+Request Method: `GET`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
+## FetchScheduledTweets<br>
+Request URL: `https://x.com/i/api/graphql/cmwoO7AWw5zCpd8TaPFQHg/FetchScheduledTweets`<br>
+Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
@@ -9155,7 +10169,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## ImmersiveMedia<br>
-Request URL: `https://x.com/i/api/graphql/QfDgwvyhnbhylsDFAYMP-g/ImmersiveMedia`<br>
+Request URL: `https://x.com/i/api/graphql/lqSwJKBmYkNJmWNylXXIIg/ImmersiveMedia`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -9187,6 +10201,8 @@ Login Required: `...`<br>
 | longform_notetweets_consumption_enabled                                 | boolean | True       |
 | responsive_web_twitter_article_tweet_consumption_enabled                | boolean | True       |
 | tweet_awards_web_tipping_enabled                                        | boolean | False      |
+| content_disclosure_indicator_enabled                                    | boolean | True       |
+| content_disclosure_ai_generated_indicator_enabled                       | boolean | True       |
 | responsive_web_grok_show_grok_translated_post                           | boolean | False      |
 | responsive_web_grok_analysis_button_from_backend                        | boolean | True       |
 | post_ctas_fetch_enabled                                                 | boolean | False      |
@@ -9203,7 +10219,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## ImmersiveProfile<br>
-Request URL: `https://x.com/i/api/graphql/qB26v37zBGvCH2KwKVMxHg/ImmersiveProfile`<br>
+Request URL: `https://x.com/i/api/graphql/wxriy9W0vPH7pdw3D7IkEw/ImmersiveProfile`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -9235,6 +10251,8 @@ Login Required: `...`<br>
 | longform_notetweets_consumption_enabled                                 | boolean | True       |
 | responsive_web_twitter_article_tweet_consumption_enabled                | boolean | True       |
 | tweet_awards_web_tipping_enabled                                        | boolean | False      |
+| content_disclosure_indicator_enabled                                    | boolean | True       |
+| content_disclosure_ai_generated_indicator_enabled                       | boolean | True       |
 | responsive_web_grok_show_grok_translated_post                           | boolean | False      |
 | responsive_web_grok_analysis_button_from_backend                        | boolean | True       |
 | post_ctas_fetch_enabled                                                 | boolean | False      |
@@ -9251,7 +10269,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## Favoriters<br>
-Request URL: `https://x.com/i/api/graphql/DvSKR57WmhFdBRfO7u6M8A/Favoriters`<br>
+Request URL: `https://x.com/i/api/graphql/Y22aRtz8BUotrYG1roYpnw/Favoriters`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -9283,6 +10301,8 @@ Login Required: `...`<br>
 | longform_notetweets_consumption_enabled                                 | boolean | True       |
 | responsive_web_twitter_article_tweet_consumption_enabled                | boolean | True       |
 | tweet_awards_web_tipping_enabled                                        | boolean | False      |
+| content_disclosure_indicator_enabled                                    | boolean | True       |
+| content_disclosure_ai_generated_indicator_enabled                       | boolean | True       |
 | responsive_web_grok_show_grok_translated_post                           | boolean | False      |
 | responsive_web_grok_analysis_button_from_backend                        | boolean | True       |
 | post_ctas_fetch_enabled                                                 | boolean | False      |
@@ -9299,7 +10319,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## Retweeters<br>
-Request URL: `https://x.com/i/api/graphql/A417usLLZNL-x4zKFbVmfg/Retweeters`<br>
+Request URL: `https://x.com/i/api/graphql/NWnBNSZm1CEAbUhUezVZRg/Retweeters`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -9331,6 +10351,8 @@ Login Required: `...`<br>
 | longform_notetweets_consumption_enabled                                 | boolean | True       |
 | responsive_web_twitter_article_tweet_consumption_enabled                | boolean | True       |
 | tweet_awards_web_tipping_enabled                                        | boolean | False      |
+| content_disclosure_indicator_enabled                                    | boolean | True       |
+| content_disclosure_ai_generated_indicator_enabled                       | boolean | True       |
 | responsive_web_grok_show_grok_translated_post                           | boolean | False      |
 | responsive_web_grok_analysis_button_from_backend                        | boolean | True       |
 | post_ctas_fetch_enabled                                                 | boolean | False      |
@@ -9347,7 +10369,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## TweetEditHistory<br>
-Request URL: `https://x.com/i/api/graphql/LHrSV-6eYDB2SGQTmt1zRQ/TweetEditHistory`<br>
+Request URL: `https://x.com/i/api/graphql/fjmzB3B2prG7JqjrZhbiCQ/TweetEditHistory`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -9374,150 +10396,8 @@ Login Required: `...`<br>
 | longform_notetweets_consumption_enabled                                 | boolean | True       |
 | responsive_web_twitter_article_tweet_consumption_enabled                | boolean | True       |
 | tweet_awards_web_tipping_enabled                                        | boolean | False      |
-| responsive_web_grok_show_grok_translated_post                           | boolean | False      |
-| responsive_web_grok_analysis_button_from_backend                        | boolean | True       |
-| post_ctas_fetch_enabled                                                 | boolean | False      |
-| profile_label_improvements_pcf_label_in_post_enabled                    | boolean | True       |
-| responsive_web_profile_redirect_enabled                                 | boolean | False      |
-| rweb_tipjar_consumption_enabled                                         | boolean | False      |
-| verified_phone_label_enabled                                            | boolean | False      |
-| longform_notetweets_rich_text_read_enabled                              | boolean | True       |
-| longform_notetweets_inline_media_enabled                                | boolean | True       |
-| articles_preview_enabled                                                | boolean | True       |
-| responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean | False      |
-| responsive_web_grok_community_note_auto_translation_is_enabled          | boolean | False      |
-| responsive_web_grok_image_annotation_enabled                            | boolean | True       |
-| responsive_web_grok_imagine_annotation_enabled                          | boolean | True       |
-| responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
-| creator_subscriptions_tweet_preview_api_enabled                         | boolean | True       |
-| responsive_web_enhance_cards_enabled                                    | boolean | False      |
-
-#### queryId<br>
-`None`<br>
-## Favoriters<br>
-Request URL: `https://x.com/i/api/graphql/DvSKR57WmhFdBRfO7u6M8A/Favoriters`<br>
-Request Method: `GET`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-| key                                                                     | type    | variable   |
-|:------------------------------------------------------------------------|:--------|:-----------|
-| rweb_video_screen_enabled                                               | boolean | False      |
-| profile_label_improvements_pcf_label_in_post_enabled                    | boolean | True       |
-| responsive_web_profile_redirect_enabled                                 | boolean | False      |
-| rweb_tipjar_consumption_enabled                                         | boolean | False      |
-| verified_phone_label_enabled                                            | boolean | False      |
-| creator_subscriptions_tweet_preview_api_enabled                         | boolean | True       |
-| responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
-| responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean | False      |
-| premium_content_api_read_enabled                                        | boolean | False      |
-| communities_web_enable_tweet_community_results_fetch                    | boolean | True       |
-| c9s_tweet_anatomy_moderator_badge_enabled                               | boolean | True       |
-| responsive_web_grok_analyze_button_fetch_trends_enabled                 | boolean | False      |
-| responsive_web_grok_analyze_post_followups_enabled                      | boolean | False      |
-| responsive_web_jetfuel_frame                                            | boolean | True       |
-| responsive_web_grok_share_attachment_enabled                            | boolean | True       |
-| responsive_web_grok_annotations_enabled                                 | boolean | True       |
-| articles_preview_enabled                                                | boolean | True       |
-| responsive_web_edit_tweet_api_enabled                                   | boolean | True       |
-| graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | True       |
-| view_counts_everywhere_api_enabled                                      | boolean | True       |
-| longform_notetweets_consumption_enabled                                 | boolean | True       |
-| responsive_web_twitter_article_tweet_consumption_enabled                | boolean | True       |
-| tweet_awards_web_tipping_enabled                                        | boolean | False      |
-| responsive_web_grok_show_grok_translated_post                           | boolean | False      |
-| responsive_web_grok_analysis_button_from_backend                        | boolean | True       |
-| post_ctas_fetch_enabled                                                 | boolean | False      |
-| freedom_of_speech_not_reach_fetch_enabled                               | boolean | True       |
-| standardized_nudges_misinfo                                             | boolean | True       |
-| tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | True       |
-| longform_notetweets_rich_text_read_enabled                              | boolean | True       |
-| longform_notetweets_inline_media_enabled                                | boolean | True       |
-| responsive_web_grok_image_annotation_enabled                            | boolean | True       |
-| responsive_web_grok_imagine_annotation_enabled                          | boolean | True       |
-| responsive_web_grok_community_note_auto_translation_is_enabled          | boolean | False      |
-| responsive_web_enhance_cards_enabled                                    | boolean | False      |
-
-#### queryId<br>
-`None`<br>
-## Retweeters<br>
-Request URL: `https://x.com/i/api/graphql/A417usLLZNL-x4zKFbVmfg/Retweeters`<br>
-Request Method: `GET`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-| key                                                                     | type    | variable   |
-|:------------------------------------------------------------------------|:--------|:-----------|
-| rweb_video_screen_enabled                                               | boolean | False      |
-| profile_label_improvements_pcf_label_in_post_enabled                    | boolean | True       |
-| responsive_web_profile_redirect_enabled                                 | boolean | False      |
-| rweb_tipjar_consumption_enabled                                         | boolean | False      |
-| verified_phone_label_enabled                                            | boolean | False      |
-| creator_subscriptions_tweet_preview_api_enabled                         | boolean | True       |
-| responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
-| responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean | False      |
-| premium_content_api_read_enabled                                        | boolean | False      |
-| communities_web_enable_tweet_community_results_fetch                    | boolean | True       |
-| c9s_tweet_anatomy_moderator_badge_enabled                               | boolean | True       |
-| responsive_web_grok_analyze_button_fetch_trends_enabled                 | boolean | False      |
-| responsive_web_grok_analyze_post_followups_enabled                      | boolean | False      |
-| responsive_web_jetfuel_frame                                            | boolean | True       |
-| responsive_web_grok_share_attachment_enabled                            | boolean | True       |
-| responsive_web_grok_annotations_enabled                                 | boolean | True       |
-| articles_preview_enabled                                                | boolean | True       |
-| responsive_web_edit_tweet_api_enabled                                   | boolean | True       |
-| graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | True       |
-| view_counts_everywhere_api_enabled                                      | boolean | True       |
-| longform_notetweets_consumption_enabled                                 | boolean | True       |
-| responsive_web_twitter_article_tweet_consumption_enabled                | boolean | True       |
-| tweet_awards_web_tipping_enabled                                        | boolean | False      |
-| responsive_web_grok_show_grok_translated_post                           | boolean | False      |
-| responsive_web_grok_analysis_button_from_backend                        | boolean | True       |
-| post_ctas_fetch_enabled                                                 | boolean | False      |
-| freedom_of_speech_not_reach_fetch_enabled                               | boolean | True       |
-| standardized_nudges_misinfo                                             | boolean | True       |
-| tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | True       |
-| longform_notetweets_rich_text_read_enabled                              | boolean | True       |
-| longform_notetweets_inline_media_enabled                                | boolean | True       |
-| responsive_web_grok_image_annotation_enabled                            | boolean | True       |
-| responsive_web_grok_imagine_annotation_enabled                          | boolean | True       |
-| responsive_web_grok_community_note_auto_translation_is_enabled          | boolean | False      |
-| responsive_web_enhance_cards_enabled                                    | boolean | False      |
-
-#### queryId<br>
-`None`<br>
-## TweetEditHistory<br>
-Request URL: `https://x.com/i/api/graphql/LHrSV-6eYDB2SGQTmt1zRQ/TweetEditHistory`<br>
-Request Method: `GET`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-| key                                                                     | type    | variable   |
-|:------------------------------------------------------------------------|:--------|:-----------|
-| premium_content_api_read_enabled                                        | boolean | False      |
-| communities_web_enable_tweet_community_results_fetch                    | boolean | True       |
-| c9s_tweet_anatomy_moderator_badge_enabled                               | boolean | True       |
-| responsive_web_grok_analyze_button_fetch_trends_enabled                 | boolean | False      |
-| responsive_web_grok_analyze_post_followups_enabled                      | boolean | False      |
-| responsive_web_jetfuel_frame                                            | boolean | True       |
-| responsive_web_grok_share_attachment_enabled                            | boolean | True       |
-| responsive_web_grok_annotations_enabled                                 | boolean | True       |
-| freedom_of_speech_not_reach_fetch_enabled                               | boolean | True       |
-| standardized_nudges_misinfo                                             | boolean | True       |
-| tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | True       |
-| rweb_video_screen_enabled                                               | boolean | False      |
-| responsive_web_edit_tweet_api_enabled                                   | boolean | True       |
-| graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | True       |
-| view_counts_everywhere_api_enabled                                      | boolean | True       |
-| longform_notetweets_consumption_enabled                                 | boolean | True       |
-| responsive_web_twitter_article_tweet_consumption_enabled                | boolean | True       |
-| tweet_awards_web_tipping_enabled                                        | boolean | False      |
+| content_disclosure_indicator_enabled                                    | boolean | True       |
+| content_disclosure_ai_generated_indicator_enabled                       | boolean | True       |
 | responsive_web_grok_show_grok_translated_post                           | boolean | False      |
 | responsive_web_grok_analysis_button_from_backend                        | boolean | True       |
 | post_ctas_fetch_enabled                                                 | boolean | False      |
@@ -9539,7 +10419,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## Favoriters<br>
-Request URL: `https://x.com/i/api/graphql/DvSKR57WmhFdBRfO7u6M8A/Favoriters`<br>
+Request URL: `https://x.com/i/api/graphql/Y22aRtz8BUotrYG1roYpnw/Favoriters`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -9571,6 +10451,8 @@ Login Required: `...`<br>
 | longform_notetweets_consumption_enabled                                 | boolean | True       |
 | responsive_web_twitter_article_tweet_consumption_enabled                | boolean | True       |
 | tweet_awards_web_tipping_enabled                                        | boolean | False      |
+| content_disclosure_indicator_enabled                                    | boolean | True       |
+| content_disclosure_ai_generated_indicator_enabled                       | boolean | True       |
 | responsive_web_grok_show_grok_translated_post                           | boolean | False      |
 | responsive_web_grok_analysis_button_from_backend                        | boolean | True       |
 | post_ctas_fetch_enabled                                                 | boolean | False      |
@@ -9587,7 +10469,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## Retweeters<br>
-Request URL: `https://x.com/i/api/graphql/A417usLLZNL-x4zKFbVmfg/Retweeters`<br>
+Request URL: `https://x.com/i/api/graphql/NWnBNSZm1CEAbUhUezVZRg/Retweeters`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -9619,6 +10501,8 @@ Login Required: `...`<br>
 | longform_notetweets_consumption_enabled                                 | boolean | True       |
 | responsive_web_twitter_article_tweet_consumption_enabled                | boolean | True       |
 | tweet_awards_web_tipping_enabled                                        | boolean | False      |
+| content_disclosure_indicator_enabled                                    | boolean | True       |
+| content_disclosure_ai_generated_indicator_enabled                       | boolean | True       |
 | responsive_web_grok_show_grok_translated_post                           | boolean | False      |
 | responsive_web_grok_analysis_button_from_backend                        | boolean | True       |
 | post_ctas_fetch_enabled                                                 | boolean | False      |
@@ -9635,7 +10519,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## TweetEditHistory<br>
-Request URL: `https://x.com/i/api/graphql/LHrSV-6eYDB2SGQTmt1zRQ/TweetEditHistory`<br>
+Request URL: `https://x.com/i/api/graphql/fjmzB3B2prG7JqjrZhbiCQ/TweetEditHistory`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -9662,6 +10546,8 @@ Login Required: `...`<br>
 | longform_notetweets_consumption_enabled                                 | boolean | True       |
 | responsive_web_twitter_article_tweet_consumption_enabled                | boolean | True       |
 | tweet_awards_web_tipping_enabled                                        | boolean | False      |
+| content_disclosure_indicator_enabled                                    | boolean | True       |
+| content_disclosure_ai_generated_indicator_enabled                       | boolean | True       |
 | responsive_web_grok_show_grok_translated_post                           | boolean | False      |
 | responsive_web_grok_analysis_button_from_backend                        | boolean | True       |
 | post_ctas_fetch_enabled                                                 | boolean | False      |
@@ -9716,7 +10602,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## GrokConversationItemsByRestId<br>
-Request URL: `https://x.com/i/api/graphql/JlP88Bwbvgwcef9A5Xh05A/GrokConversationItemsByRestId`<br>
+Request URL: `https://x.com/i/api/graphql/n2bhau0B2DSY6R_bLolgSg/GrokConversationItemsByRestId`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -9741,6 +10627,8 @@ Login Required: `...`<br>
 | longform_notetweets_consumption_enabled                                 | boolean | True       |
 | responsive_web_twitter_article_tweet_consumption_enabled                | boolean | True       |
 | tweet_awards_web_tipping_enabled                                        | boolean | False      |
+| content_disclosure_indicator_enabled                                    | boolean | True       |
+| content_disclosure_ai_generated_indicator_enabled                       | boolean | True       |
 | responsive_web_grok_show_grok_translated_post                           | boolean | False      |
 | responsive_web_grok_analysis_button_from_backend                        | boolean | True       |
 | post_ctas_fetch_enabled                                                 | boolean | False      |
@@ -9829,7 +10717,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## GrokShare<br>
-Request URL: `https://x.com/i/api/graphql/56DZ8gzHG4t6fsrmoIPwMQ/GrokShare`<br>
+Request URL: `https://x.com/i/api/graphql/PnksIels-p7we6iCsrI4yg/GrokShare`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -9854,6 +10742,8 @@ Login Required: `...`<br>
 | longform_notetweets_consumption_enabled                                 | boolean | True       |
 | responsive_web_twitter_article_tweet_consumption_enabled                | boolean | True       |
 | tweet_awards_web_tipping_enabled                                        | boolean | False      |
+| content_disclosure_indicator_enabled                                    | boolean | True       |
+| content_disclosure_ai_generated_indicator_enabled                       | boolean | True       |
 | responsive_web_grok_show_grok_translated_post                           | boolean | False      |
 | responsive_web_grok_analysis_button_from_backend                        | boolean | True       |
 | post_ctas_fetch_enabled                                                 | boolean | False      |
@@ -9920,7 +10810,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## BookmarkFolderTimeline<br>
-Request URL: `https://x.com/i/api/graphql/HaWnv49hWrnJwgiuZGC7WA/BookmarkFolderTimeline`<br>
+Request URL: `https://x.com/i/api/graphql/-o-rex9jYn96MTbSVbFC3Q/BookmarkFolderTimeline`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -9952,6 +10842,8 @@ Login Required: `...`<br>
 | longform_notetweets_consumption_enabled                                 | boolean | True       |
 | responsive_web_twitter_article_tweet_consumption_enabled                | boolean | True       |
 | tweet_awards_web_tipping_enabled                                        | boolean | False      |
+| content_disclosure_indicator_enabled                                    | boolean | True       |
+| content_disclosure_ai_generated_indicator_enabled                       | boolean | True       |
 | responsive_web_grok_show_grok_translated_post                           | boolean | False      |
 | responsive_web_grok_analysis_button_from_backend                        | boolean | True       |
 | post_ctas_fetch_enabled                                                 | boolean | False      |
@@ -9990,7 +10882,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## Bookmarks<br>
-Request URL: `https://x.com/i/api/graphql/ynC-aMV_XSM_nEmtj_L3-Q/Bookmarks`<br>
+Request URL: `https://x.com/i/api/graphql/nWdgTDcvkR3dPXFCVwvOsg/Bookmarks`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -10022,6 +10914,8 @@ Login Required: `...`<br>
 | longform_notetweets_consumption_enabled                                 | boolean | True       |
 | responsive_web_twitter_article_tweet_consumption_enabled                | boolean | True       |
 | tweet_awards_web_tipping_enabled                                        | boolean | False      |
+| content_disclosure_indicator_enabled                                    | boolean | True       |
+| content_disclosure_ai_generated_indicator_enabled                       | boolean | True       |
 | responsive_web_grok_show_grok_translated_post                           | boolean | False      |
 | responsive_web_grok_analysis_button_from_backend                        | boolean | True       |
 | post_ctas_fetch_enabled                                                 | boolean | False      |
@@ -10093,7 +10987,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## BookmarkFolderTimeline<br>
-Request URL: `https://x.com/i/api/graphql/HaWnv49hWrnJwgiuZGC7WA/BookmarkFolderTimeline`<br>
+Request URL: `https://x.com/i/api/graphql/-o-rex9jYn96MTbSVbFC3Q/BookmarkFolderTimeline`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -10125,6 +11019,8 @@ Login Required: `...`<br>
 | longform_notetweets_consumption_enabled                                 | boolean | True       |
 | responsive_web_twitter_article_tweet_consumption_enabled                | boolean | True       |
 | tweet_awards_web_tipping_enabled                                        | boolean | False      |
+| content_disclosure_indicator_enabled                                    | boolean | True       |
+| content_disclosure_ai_generated_indicator_enabled                       | boolean | True       |
 | responsive_web_grok_show_grok_translated_post                           | boolean | False      |
 | responsive_web_grok_analysis_button_from_backend                        | boolean | True       |
 | post_ctas_fetch_enabled                                                 | boolean | False      |
@@ -10163,7 +11059,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## Bookmarks<br>
-Request URL: `https://x.com/i/api/graphql/ynC-aMV_XSM_nEmtj_L3-Q/Bookmarks`<br>
+Request URL: `https://x.com/i/api/graphql/nWdgTDcvkR3dPXFCVwvOsg/Bookmarks`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -10195,6 +11091,8 @@ Login Required: `...`<br>
 | longform_notetweets_consumption_enabled                                 | boolean | True       |
 | responsive_web_twitter_article_tweet_consumption_enabled                | boolean | True       |
 | tweet_awards_web_tipping_enabled                                        | boolean | False      |
+| content_disclosure_indicator_enabled                                    | boolean | True       |
+| content_disclosure_ai_generated_indicator_enabled                       | boolean | True       |
 | responsive_web_grok_show_grok_translated_post                           | boolean | False      |
 | responsive_web_grok_analysis_button_from_backend                        | boolean | True       |
 | post_ctas_fetch_enabled                                                 | boolean | False      |
@@ -10265,234 +11163,8 @@ Login Required: `...`<br>
 `None`<br>
 #### queryId<br>
 `None`<br>
-## ClearGrokConversations<br>
-Request URL: `https://x.com/i/api/graphql/83Gg0lfI-47Z3-ZOxyUjiQ/ClearGrokConversations`<br>
-Request Method: `POST`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-`None`<br>
-#### queryId<br>
-`None`<br>
-## CreateGrokConversation<br>
-Request URL: `https://x.com/i/api/graphql/vvC5uy7pWWHXS2aDi1FZeA/CreateGrokConversation`<br>
-Request Method: `POST`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-`None`<br>
-#### queryId<br>
-`None`<br>
-## DeleteGrokMessage<br>
-Request URL: `https://x.com/i/api/graphql/kaH0vdJmbuocpRAeWpRC7A/DeleteGrokMessage`<br>
-Request Method: `POST`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-`None`<br>
-#### queryId<br>
-`None`<br>
-## GrokConversationItemsByRestId<br>
-Request URL: `https://x.com/i/api/graphql/JlP88Bwbvgwcef9A5Xh05A/GrokConversationItemsByRestId`<br>
-Request Method: `GET`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-| key                                                                     | type    | variable   |
-|:------------------------------------------------------------------------|:--------|:-----------|
-| creator_subscriptions_tweet_preview_api_enabled                         | boolean | True       |
-| premium_content_api_read_enabled                                        | boolean | False      |
-| communities_web_enable_tweet_community_results_fetch                    | boolean | True       |
-| c9s_tweet_anatomy_moderator_badge_enabled                               | boolean | True       |
-| responsive_web_grok_analyze_button_fetch_trends_enabled                 | boolean | False      |
-| responsive_web_grok_analyze_post_followups_enabled                      | boolean | False      |
-| responsive_web_jetfuel_frame                                            | boolean | True       |
-| responsive_web_grok_share_attachment_enabled                            | boolean | True       |
-| responsive_web_grok_annotations_enabled                                 | boolean | True       |
-| articles_preview_enabled                                                | boolean | True       |
-| responsive_web_edit_tweet_api_enabled                                   | boolean | True       |
-| graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | True       |
-| view_counts_everywhere_api_enabled                                      | boolean | True       |
-| longform_notetweets_consumption_enabled                                 | boolean | True       |
-| responsive_web_twitter_article_tweet_consumption_enabled                | boolean | True       |
-| tweet_awards_web_tipping_enabled                                        | boolean | False      |
-| responsive_web_grok_show_grok_translated_post                           | boolean | False      |
-| responsive_web_grok_analysis_button_from_backend                        | boolean | True       |
-| post_ctas_fetch_enabled                                                 | boolean | False      |
-| freedom_of_speech_not_reach_fetch_enabled                               | boolean | True       |
-| standardized_nudges_misinfo                                             | boolean | True       |
-| tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | True       |
-| longform_notetweets_rich_text_read_enabled                              | boolean | True       |
-| longform_notetweets_inline_media_enabled                                | boolean | True       |
-| profile_label_improvements_pcf_label_in_post_enabled                    | boolean | True       |
-| responsive_web_profile_redirect_enabled                                 | boolean | False      |
-| rweb_tipjar_consumption_enabled                                         | boolean | False      |
-| verified_phone_label_enabled                                            | boolean | False      |
-| responsive_web_grok_image_annotation_enabled                            | boolean | True       |
-| responsive_web_grok_imagine_annotation_enabled                          | boolean | True       |
-| responsive_web_grok_community_note_auto_translation_is_enabled          | boolean | False      |
-| responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean | False      |
-| responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
-| responsive_web_enhance_cards_enabled                                    | boolean | False      |
-
-#### queryId<br>
-`None`<br>
-## GrokHistory<br>
-Request URL: `https://x.com/i/api/graphql/9Hyh5D4-WXLnExZkONSkZg/GrokHistory`<br>
-Request Method: `GET`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-`None`<br>
-#### queryId<br>
-`None`<br>
-## GrokHome<br>
-Request URL: `https://x.com/i/api/graphql/QAPGIKJVaPXYD-gO9kxc9w/GrokHome`<br>
-Request Method: `GET`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-`None`<br>
-#### queryId<br>
-`None`<br>
-## GrokMediaHistory<br>
-Request URL: `https://x.com/i/api/graphql/azn3Sg0APPjb2Jtd7gqxsw/GrokMediaHistory`<br>
-Request Method: `GET`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-`None`<br>
-#### queryId<br>
-`None`<br>
-## GrokPinConversation<br>
-Request URL: `https://x.com/i/api/graphql/_6czUDKiWzcvBUKMoDZ19w/GrokPinConversation`<br>
-Request Method: `POST`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-`None`<br>
-#### queryId<br>
-`None`<br>
-## GrokPinnedConversations<br>
-Request URL: `https://x.com/i/api/graphql/BHKxYTkc5SCupV7oqJBr0g/GrokPinnedConversations`<br>
-Request Method: `GET`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-`None`<br>
-#### queryId<br>
-`None`<br>
-## SearchGrokConversations<br>
-Request URL: `https://x.com/i/api/graphql/Sr2QEitvnemma5D2NJlA2Q/SearchGrokConversations`<br>
-Request Method: `GET`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-`None`<br>
-#### queryId<br>
-`None`<br>
-## GrokShare<br>
-Request URL: `https://x.com/i/api/graphql/56DZ8gzHG4t6fsrmoIPwMQ/GrokShare`<br>
-Request Method: `GET`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-| key                                                                     | type    | variable   |
-|:------------------------------------------------------------------------|:--------|:-----------|
-| creator_subscriptions_tweet_preview_api_enabled                         | boolean | True       |
-| premium_content_api_read_enabled                                        | boolean | False      |
-| communities_web_enable_tweet_community_results_fetch                    | boolean | True       |
-| c9s_tweet_anatomy_moderator_badge_enabled                               | boolean | True       |
-| responsive_web_grok_analyze_button_fetch_trends_enabled                 | boolean | False      |
-| responsive_web_grok_analyze_post_followups_enabled                      | boolean | False      |
-| responsive_web_jetfuel_frame                                            | boolean | True       |
-| responsive_web_grok_share_attachment_enabled                            | boolean | True       |
-| responsive_web_grok_annotations_enabled                                 | boolean | True       |
-| articles_preview_enabled                                                | boolean | True       |
-| responsive_web_edit_tweet_api_enabled                                   | boolean | True       |
-| graphql_is_translatable_rweb_tweet_is_translatable_enabled              | boolean | True       |
-| view_counts_everywhere_api_enabled                                      | boolean | True       |
-| longform_notetweets_consumption_enabled                                 | boolean | True       |
-| responsive_web_twitter_article_tweet_consumption_enabled                | boolean | True       |
-| tweet_awards_web_tipping_enabled                                        | boolean | False      |
-| responsive_web_grok_show_grok_translated_post                           | boolean | False      |
-| responsive_web_grok_analysis_button_from_backend                        | boolean | True       |
-| post_ctas_fetch_enabled                                                 | boolean | False      |
-| freedom_of_speech_not_reach_fetch_enabled                               | boolean | True       |
-| standardized_nudges_misinfo                                             | boolean | True       |
-| tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled | boolean | True       |
-| longform_notetweets_rich_text_read_enabled                              | boolean | True       |
-| longform_notetweets_inline_media_enabled                                | boolean | True       |
-| profile_label_improvements_pcf_label_in_post_enabled                    | boolean | True       |
-| responsive_web_profile_redirect_enabled                                 | boolean | False      |
-| rweb_tipjar_consumption_enabled                                         | boolean | False      |
-| verified_phone_label_enabled                                            | boolean | False      |
-| responsive_web_grok_image_annotation_enabled                            | boolean | True       |
-| responsive_web_grok_imagine_annotation_enabled                          | boolean | True       |
-| responsive_web_grok_community_note_auto_translation_is_enabled          | boolean | False      |
-| responsive_web_graphql_skip_user_profile_image_extensions_enabled       | boolean | False      |
-| responsive_web_graphql_timeline_navigation_enabled                      | boolean | True       |
-| responsive_web_enhance_cards_enabled                                    | boolean | False      |
-
-#### queryId<br>
-`None`<br>
-## GrokUnpinConversation<br>
-Request URL: `https://x.com/i/api/graphql/-5e798p4EVbuhGGFFuw3Tg/GrokUnpinConversation`<br>
-Request Method: `POST`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-`None`<br>
-#### queryId<br>
-`None`<br>
-## GrokUserEventsLog<br>
-Request URL: `https://x.com/i/api/graphql/AB0damyVo0wBhhebQIwtsg/GrokUserEventsLog`<br>
-Request Method: `POST`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-`None`<br>
-#### queryId<br>
-`None`<br>
-## SetGrokPreferences<br>
-Request URL: `https://x.com/i/api/graphql/NqLS09LPofalCjVhFolKtA/SetGrokPreferences`<br>
-Request Method: `POST`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-`None`<br>
-#### queryId<br>
-`None`<br>
 ## ArticleEntitiesSlice<br>
-Request URL: `https://x.com/i/api/graphql/5wnPe-uFXPERQCrNJ6IGuQ/ArticleEntitiesSlice`<br>
+Request URL: `https://x.com/i/api/graphql/v1Nrs-d6uNEtrrXJ4DSF2A/ArticleEntitiesSlice`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -10522,7 +11194,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## ArticleEntityDraftCreate<br>
-Request URL: `https://x.com/i/api/graphql/nEjhsicWvO0fMe_WUWNRoA/ArticleEntityDraftCreate`<br>
+Request URL: `https://x.com/i/api/graphql/4hFNtuxZcWaN3xZDBcarkw/ArticleEntityDraftCreate`<br>
 Request Method: `POST`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -10541,7 +11213,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## ArticleEntityPublish<br>
-Request URL: `https://x.com/i/api/graphql/5r7bsfyb7oqFRIJCQrv_-Q/ArticleEntityPublish`<br>
+Request URL: `https://x.com/i/api/graphql/1ZTAFg21iNf8zYRlru3GtQ/ArticleEntityPublish`<br>
 Request Method: `POST`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -10560,7 +11232,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## ArticleEntityResultByRestId<br>
-Request URL: `https://x.com/i/api/graphql/_e6KtX0PS8H7sK7_okUz4w/ArticleEntityResultByRestId`<br>
+Request URL: `https://x.com/i/api/graphql/i1GUp3zg_bzMUQdEuT3XPg/ArticleEntityResultByRestId`<br>
 Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -10579,7 +11251,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## ArticleEntityUnpublish<br>
-Request URL: `https://x.com/i/api/graphql/iHWVhlAyd9uKP_K4NLBFIw/ArticleEntityUnpublish`<br>
+Request URL: `https://x.com/i/api/graphql/-zdjpF-XVwbx_fS7YHlOBg/ArticleEntityUnpublish`<br>
 Request Method: `POST`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -10598,7 +11270,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## ArticleEntityUpdateContent<br>
-Request URL: `https://x.com/i/api/graphql/HNl2x0ubTrgbKsNWBSlHNQ/ArticleEntityUpdateContent`<br>
+Request URL: `https://x.com/i/api/graphql/S4R4uXKt_Vl1zmpYfBJYvQ/ArticleEntityUpdateContent`<br>
 Request Method: `POST`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -10617,7 +11289,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## ArticleEntityUpdateCoverMedia<br>
-Request URL: `https://x.com/i/api/graphql/vSR8Tm_NYctqS9hTAHs4zQ/ArticleEntityUpdateCoverMedia`<br>
+Request URL: `https://x.com/i/api/graphql/OLIQ4ihzDGsSlDvURXlHgw/ArticleEntityUpdateCoverMedia`<br>
 Request Method: `POST`<br>
 Login Required: `...`<br>
 ### Param<br>
@@ -10636,7 +11308,7 @@ Login Required: `...`<br>
 #### queryId<br>
 `None`<br>
 ## ArticleEntityUpdateTitle<br>
-Request URL: `https://x.com/i/api/graphql/jETWnGrLBEZWCSKvRX5GHQ/ArticleEntityUpdateTitle`<br>
+Request URL: `https://x.com/i/api/graphql/vB7dx2puXvxv071SMcNBwg/ArticleEntityUpdateTitle`<br>
 Request Method: `POST`<br>
 Login Required: `...`<br>
 ### Param<br>
