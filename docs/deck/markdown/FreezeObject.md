@@ -10,7 +10,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{"name":"n","oprf":"$","voprf":"E","poprf":t=>{"const n=u()",e=i.BASE.multiply(A\"Info\",t,f);return{"generateKeyPair":"m","deriveKeyPair":()=>y(t,n),"blind(f,t,n)"{"const u=i.fromBytes()",_=e.add(n);if(u)throw new Error(_.equalsi.ZERO);const a=o(\"tweakedKey point at infinity\"),c=h(r);if(t,f)throw...
+{"name":"n","oprf":"$","voprf":"E","poprf":t=>{"const n=u()",e=i.BASE.multiply(A\"Info\",t,f);return{"generateKeyPair":"p","deriveKeyPair":()=>y(t,n),"blind(f,t,n)"{"const u=i.fromBytes()",_=e.add(n);if(u)throw new Error(_.equalsi.ZERO);const a=o(\"tweakedKey point at infinity\"),c=h(r);if(t,f)throw...
 ```
 ```internal process
 # Error
@@ -18,21 +18,8 @@ This document is entirely auto-generated and may contain errors.<br>
 ```
 ```internal process
 # Error
-{"keygen":"A","getPublicKey":"v","getSharedSecret":"d","utils":"g","lengths":"p","Point":"t","sign":"function()"{}{"const"{"seed":"_","k2sig":"c"}"=function()"{"const"{"lowS":"s","prehash":"h","extraEntropy":"o"}=xn();n=D(e,w);const _=j(n,h),c=a.fromBytes(n);if(i)throw new Error(!a.isValidNot0c);con...
+{"keygen":"A","getPublicKey":"v","getSharedSecret":"d","utils":"g","lengths":"w","Point":"t","sign":"function()"{}{"const"{"seed":"_","k2sig":"c"}"=function()"{"const"{"lowS":"s","prehash":"h","extraEntropy":"o"}=qn();n=D(e,m);const _=S(n,h),c=a.fromBytes(n);if(i)throw new Error(!a.isValidNot0c);con...
 ```
-| constant   | value    |
-|:-----------|:---------|
-| position   | absolute |
-| border     | 0        |
-| width      | 1        |
-| height     | 1        |
-| padding    | 0        |
-| margin     | -1       |
-| overflow   | hidden   |
-| clip       | rect()   |
-| whiteSpace | nowrap   |
-| wordWrap   | normal   |
-
 ```internal process
 # Error
 {[o.sj.AMPLIFY]:{"conversionHandler":"()"{"cardId":"e","cardType":"t","converterOptions":"a","data":"i"}{"const d=()(0,r.FL)",s=parseInt(i,\"image_value\",\"player_image_original\")/parseInt(0,r.SIi,\"string_value\",\"player_width\",10),_=(0,r.SIi,\"string_value\",\"player_height\",10)(0,r.SI),l=(i,...
@@ -61,13 +48,6 @@ This document is entirely auto-generated and may contain errors.<br>
 | HashtagHighlight | VideoPlayerDefaultUI-HashtagHighlight |
 | Root             | VideoPlayerDefaultUI-Root             |
 | VideoCTA         | VideoPlayerDefaultUI-VideoCTA         |
-
-| constant   |   value |
-|:-----------|--------:|
-| large      |      54 |
-| medium     |      46 |
-| small      |      36 |
-| xSmall     |      12 |
 
 | constant   | value                                         |
 |:-----------|:----------------------------------------------|
@@ -340,6 +320,24 @@ This document is entirely auto-generated and may contain errors.<br>
 # Error
 {[U.LANDING_PAGE]:{"next":"U.NOTABILITY_CATEGORY_SELECT","scribeComponent":"s.LANDING_PAGE"},[U.NOTABILITY_CATEGORY_SELECT]:{"next":"null","scribeComponent":"s.NOTABILITY_CATEGORY"},[U.ACTIVIST_QUALIFICATIONS]:{"next":"null","scribeComponent":"s.NOTABILITY_METHOD"},[U.ACTIVIST_GOOGLE_TRENDS]:{"next"...
 ```
+| constant   | value                                                     |
+|:-----------|:----------------------------------------------------------|
+| REQUEST    | rweb/settings/profile/ENABLE_VERIFIED_PHONE_LABEL_REQUEST |
+| SUCCESS    | rweb/settings/profile/ENABLE_VERIFIED_PHONE_LABEL_SUCCESS |
+| FAILURE    | rweb/settings/profile/ENABLE_VERIFIED_PHONE_LABEL_FAILURE |
+
+| constant   | value                                                      |
+|:-----------|:-----------------------------------------------------------|
+| REQUEST    | rweb/settings/profile/DISABLE_VERIFIED_PHONE_LABEL_REQUEST |
+| SUCCESS    | rweb/settings/profile/DISABLE_VERIFIED_PHONE_LABEL_SUCCESS |
+| FAILURE    | rweb/settings/profile/DISABLE_VERIFIED_PHONE_LABEL_FAILURE |
+
+| constant   | value                                                    |
+|:-----------|:---------------------------------------------------------|
+| REQUEST    | rweb/settings/profile/FETCH_VERIFIED_PHONE_LABEL_REQUEST |
+| SUCCESS    | rweb/settings/profile/FETCH_VERIFIED_PHONE_LABEL_SUCCESS |
+| FAILURE    | rweb/settings/profile/FETCH_VERIFIED_PHONE_LABEL_FAILURE |
+
 | constant   | value   |
 |:-----------|:--------|
 | IOS        | ios     |
