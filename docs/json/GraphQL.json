@@ -70,7 +70,7 @@
   {
     "n": "96417",
     "exports": {
-      "queryId": "yy0YTGFLxrjLpKdcknCCLw",
+      "queryId": "B5KFEf105-17DE10ei3qnA",
       "operationName": "BlockedAccountsAll",
       "operationType": "query",
       "metadata": {
@@ -118,6 +118,8 @@
           "withAuxiliaryUserLabels",
           "withArticleRichContentState",
           "withArticlePlainText",
+          "withArticleSummaryText",
+          "withArticleVoiceOver",
           "withGrokAnalyze",
           "withDisallowedReplyControls"
         ],
@@ -240,7 +242,7 @@
   {
     "n": "33566",
     "exports": {
-      "queryId": "RpO45MM9BPqlyZFnvtVtYw",
+      "queryId": "RXTWKhzSITR83POeXFp6QQ",
       "operationName": "BlockedAccountsImported",
       "operationType": "query",
       "metadata": {
@@ -288,6 +290,8 @@
           "withAuxiliaryUserLabels",
           "withArticleRichContentState",
           "withArticlePlainText",
+          "withArticleSummaryText",
+          "withArticleVoiceOver",
           "withGrokAnalyze",
           "withDisallowedReplyControls"
         ],
@@ -410,7 +414,7 @@
   {
     "n": "64827",
     "exports": {
-      "queryId": "HqV8YVz_1UTGlfsmqg15vg",
+      "queryId": "tkUXgIHS7dzok6hpZN6WdA",
       "operationName": "BlueVerifiedFollowers",
       "operationType": "query",
       "metadata": {
@@ -458,6 +462,8 @@
           "withAuxiliaryUserLabels",
           "withArticleRichContentState",
           "withArticlePlainText",
+          "withArticleSummaryText",
+          "withArticleVoiceOver",
           "withGrokAnalyze",
           "withDisallowedReplyControls"
         ],
@@ -580,7 +586,7 @@
   {
     "n": "20322",
     "exports": {
-      "queryId": "dA_8DOTQBJTLS4alSPywng",
+      "queryId": "e-baGzii-V8fwA7tRPdVRw",
       "operationName": "BookmarkSearchTimeline",
       "operationType": "query",
       "metadata": {
@@ -628,6 +634,8 @@
           "withAuxiliaryUserLabels",
           "withArticleRichContentState",
           "withArticlePlainText",
+          "withArticleSummaryText",
+          "withArticleVoiceOver",
           "withGrokAnalyze",
           "withDisallowedReplyControls"
         ],
@@ -750,7 +758,7 @@
   {
     "n": "93385",
     "exports": {
-      "queryId": "MZlslLXiV7Igonvy3_OzTw",
+      "queryId": "RQPnKlxioxUDl9vy8ucfBg",
       "operationName": "BroadcastQuery",
       "operationType": "query",
       "metadata": {
@@ -796,6 +804,8 @@
           "withPayments",
           "withArticleRichContentState",
           "withArticlePlainText",
+          "withArticleSummaryText",
+          "withArticleVoiceOver",
           "withGrokAnalyze",
           "withDisallowedReplyControls",
           "withAuxiliaryUserLabels"
@@ -916,7 +926,7 @@
   {
     "n": "69565",
     "exports": {
-      "queryId": "7D5QD1JPevtb4RrK_Cxngg",
+      "queryId": "_cdtgCfzTMc1-lf81kcWRA",
       "operationName": "CombinedLists",
       "operationType": "query",
       "metadata": {
@@ -964,6 +974,8 @@
           "withAuxiliaryUserLabels",
           "withArticleRichContentState",
           "withArticlePlainText",
+          "withArticleSummaryText",
+          "withArticleVoiceOver",
           "withGrokAnalyze",
           "withDisallowedReplyControls"
         ],
@@ -1086,7 +1098,7 @@
   {
     "n": "33787",
     "exports": {
-      "queryId": "z2SOjhclE0ii5ad-wgsK7w",
+      "queryId": "JOxnlNEYzwY7U0Knma0Lfg",
       "operationName": "CommunitiesExploreTimeline",
       "operationType": "query",
       "metadata": {
@@ -1134,6 +1146,8 @@
           "withAuxiliaryUserLabels",
           "withArticleRichContentState",
           "withArticlePlainText",
+          "withArticleSummaryText",
+          "withArticleVoiceOver",
           "withGrokAnalyze",
           "withDisallowedReplyControls"
         ],
@@ -1256,7 +1270,7 @@
   {
     "n": "95180",
     "exports": {
-      "queryId": "3sVkJOGgr_nU5BiOidK3cQ",
+      "queryId": "EYQQfbfY7VFfgCbwT-uVCQ",
       "operationName": "CommunitiesMainDiscoveryModule",
       "operationType": "query",
       "metadata": {
@@ -1304,6 +1318,8 @@
           "withAuxiliaryUserLabels",
           "withArticleRichContentState",
           "withArticlePlainText",
+          "withArticleSummaryText",
+          "withArticleVoiceOver",
           "withGrokAnalyze",
           "withDisallowedReplyControls"
         ],
@@ -1426,7 +1442,7 @@
   {
     "n": "35267",
     "exports": {
-      "queryId": "dD5SxzCdBqHLIiQy8AKT1w",
+      "queryId": "fGU395GUUMQI5_8_vQmxoA",
       "operationName": "CommunitiesMainPageTimeline",
       "operationType": "query",
       "metadata": {
@@ -1474,6 +1490,8 @@
           "withAuxiliaryUserLabels",
           "withArticleRichContentState",
           "withArticlePlainText",
+          "withArticleSummaryText",
+          "withArticleVoiceOver",
           "withGrokAnalyze",
           "withDisallowedReplyControls"
         ],
@@ -1644,7 +1662,7 @@
   {
     "n": "78188",
     "exports": {
-      "queryId": "TGNENnj_aiGVpxOVSzsn4A",
+      "queryId": "tJ3wJJ4FhGClxujBJZR36w",
       "operationName": "CommunitiesMembershipsTimeline",
       "operationType": "query",
       "metadata": {
@@ -1692,6 +1710,8 @@
           "withAuxiliaryUserLabels",
           "withArticleRichContentState",
           "withArticlePlainText",
+          "withArticleSummaryText",
+          "withArticleVoiceOver",
           "withGrokAnalyze",
           "withDisallowedReplyControls"
         ],
@@ -1814,7 +1834,7 @@
   {
     "n": "05560",
     "exports": {
-      "queryId": "rofEREl9FH_3zkJc6SVXjA",
+      "queryId": "NIkZ4HsqjMyAsMTCffE02A",
       "operationName": "CommunityAboutTimeline",
       "operationType": "query",
       "metadata": {
@@ -1862,6 +1882,8 @@
           "withAuxiliaryUserLabels",
           "withArticleRichContentState",
           "withArticlePlainText",
+          "withArticleSummaryText",
+          "withArticleVoiceOver",
           "withGrokAnalyze",
           "withDisallowedReplyControls"
         ],
@@ -2068,7 +2090,7 @@
   {
     "n": "29199",
     "exports": {
-      "queryId": "9p_5mJLgBnTGqVP0tl7P3A",
+      "queryId": "JQEF9NXT8IUBY6HXOV_zYg",
       "operationName": "CommunityDiscoveryTimeline",
       "operationType": "query",
       "metadata": {
@@ -2116,6 +2138,8 @@
           "withAuxiliaryUserLabels",
           "withArticleRichContentState",
           "withArticlePlainText",
+          "withArticleSummaryText",
+          "withArticleVoiceOver",
           "withGrokAnalyze",
           "withDisallowedReplyControls"
         ],
@@ -2504,7 +2528,7 @@
   {
     "n": "98112",
     "exports": {
-      "queryId": "HpbUPxHnYUfU_K3RvAYpBw",
+      "queryId": "nuZ0j6QpCUj3r5Nw5T9PTg",
       "operationName": "CommunityHashtagsTimeline",
       "operationType": "query",
       "metadata": {
@@ -2552,6 +2576,8 @@
           "withAuxiliaryUserLabels",
           "withArticleRichContentState",
           "withArticlePlainText",
+          "withArticleSummaryText",
+          "withArticleVoiceOver",
           "withGrokAnalyze",
           "withDisallowedReplyControls"
         ],
@@ -2758,7 +2784,7 @@
   {
     "n": "15045",
     "exports": {
-      "queryId": "Zfzrk_ruX0cqXsBeadl2GA",
+      "queryId": "sNlFV29diraQgB8vCGYi2g",
       "operationName": "CommunityMediaLoggedOutTimeline",
       "operationType": "query",
       "metadata": {
@@ -2806,6 +2832,8 @@
           "withAuxiliaryUserLabels",
           "withArticleRichContentState",
           "withArticlePlainText",
+          "withArticleSummaryText",
+          "withArticleVoiceOver",
           "withGrokAnalyze",
           "withDisallowedReplyControls"
         ],
@@ -2935,7 +2963,7 @@
   {
     "n": "32257",
     "exports": {
-      "queryId": "h2ZgtP_nChUGEi0Z6ASiQQ",
+      "queryId": "MPaprPXImipwBcruSf-XAQ",
       "operationName": "CommunityMediaTimeline",
       "operationType": "query",
       "metadata": {
@@ -2983,6 +3011,8 @@
           "withAuxiliaryUserLabels",
           "withArticleRichContentState",
           "withArticlePlainText",
+          "withArticleSummaryText",
+          "withArticleVoiceOver",
           "withGrokAnalyze",
           "withDisallowedReplyControls"
         ],
@@ -3168,7 +3198,7 @@
   {
     "n": "78704",
     "exports": {
-      "queryId": "t0z1jrHOoUs2mqq-3mdhxw",
+      "queryId": "wj3hKYlRVfPpL5UzyEDnvg",
       "operationName": "CommunityModerationTweetCasesSlice",
       "operationType": "query",
       "metadata": {
@@ -3213,6 +3243,8 @@
         "fieldToggles": [
           "withArticleRichContentState",
           "withArticlePlainText",
+          "withArticleSummaryText",
+          "withArticleVoiceOver",
           "withGrokAnalyze",
           "withDisallowedReplyControls",
           "withPayments",
@@ -3509,7 +3541,7 @@
   {
     "n": "14433",
     "exports": {
-      "queryId": "6zvsfCon5cI9DluVZZ3PGw",
+      "queryId": "aIX_tjVKnv0fu4ne-plq6A",
       "operationName": "CommunityTweetModerationLogSlice",
       "operationType": "query",
       "metadata": {
@@ -3556,6 +3588,8 @@
           "withAuxiliaryUserLabels",
           "withArticleRichContentState",
           "withArticlePlainText",
+          "withArticleSummaryText",
+          "withArticleVoiceOver",
           "withGrokAnalyze",
           "withDisallowedReplyControls"
         ],
@@ -3675,7 +3709,7 @@
   {
     "n": "04414",
     "exports": {
-      "queryId": "Siaj3457FiYLeBLh8xCg6A",
+      "queryId": "SfhopUI0uGttttN8LcyirQ",
       "operationName": "CommunityTweetsLoggedOutTimeline",
       "operationType": "query",
       "metadata": {
@@ -3723,6 +3757,8 @@
           "withAuxiliaryUserLabels",
           "withArticleRichContentState",
           "withArticlePlainText",
+          "withArticleSummaryText",
+          "withArticleVoiceOver",
           "withGrokAnalyze",
           "withDisallowedReplyControls"
         ],
@@ -3845,7 +3881,7 @@
   {
     "n": "56620",
     "exports": {
-      "queryId": "akTxNI9TB3FvQAdf9f_gaw",
+      "queryId": "2un3_DuYVmEkBDPPesXavA",
       "operationName": "CommunityTweetsRankedLoggedOutTimeline",
       "operationType": "query",
       "metadata": {
@@ -3893,6 +3929,8 @@
           "withAuxiliaryUserLabels",
           "withArticleRichContentState",
           "withArticlePlainText",
+          "withArticleSummaryText",
+          "withArticleVoiceOver",
           "withGrokAnalyze",
           "withDisallowedReplyControls"
         ],
@@ -4015,7 +4053,7 @@
   {
     "n": "19859",
     "exports": {
-      "queryId": "Cxr-ExVrPgdwYXsxRhqcWQ",
+      "queryId": "bJRySzN7fKT7LIOmOBpRSA",
       "operationName": "CommunityTweetsTimeline",
       "operationType": "query",
       "metadata": {
@@ -4063,6 +4101,8 @@
           "withAuxiliaryUserLabels",
           "withArticleRichContentState",
           "withArticlePlainText",
+          "withArticleSummaryText",
+          "withArticleVoiceOver",
           "withGrokAnalyze",
           "withDisallowedReplyControls"
         ],
@@ -4269,7 +4309,7 @@
   {
     "n": "11808",
     "exports": {
-      "queryId": "gv3snHQP6TSKi32MDN_cEQ",
+      "queryId": "7nvyHpwAnmc6p-P1En_iBw",
       "operationName": "ConnectTabTimeline",
       "operationType": "query",
       "metadata": {
@@ -4317,6 +4357,8 @@
           "withAuxiliaryUserLabels",
           "withArticleRichContentState",
           "withArticlePlainText",
+          "withArticleSummaryText",
+          "withArticleVoiceOver",
           "withGrokAnalyze",
           "withDisallowedReplyControls"
         ],
@@ -4491,7 +4533,7 @@
   {
     "n": "724",
     "exports": {
-      "queryId": "Hj5PPUMSv1PDFh_0zgU7-A",
+      "queryId": "_eeuQKX1-VyRP_ROM-GN7g",
       "operationName": "CreateNoteTweet",
       "operationType": "mutation",
       "metadata": {
@@ -4535,6 +4577,8 @@
         "fieldToggles": [
           "withArticleRichContentState",
           "withArticlePlainText",
+          "withArticleSummaryText",
+          "withArticleVoiceOver",
           "withGrokAnalyze",
           "withDisallowedReplyControls",
           "withPayments",
@@ -4669,7 +4713,7 @@
   {
     "n": "95240",
     "exports": {
-      "queryId": "uY34Pldm6W89yqswRmPMSQ",
+      "queryId": "sb6vH7FMb090KdK6IZaakw",
       "operationName": "CreateTweet",
       "operationType": "mutation",
       "metadata": {
@@ -4713,6 +4757,8 @@
         "fieldToggles": [
           "withArticleRichContentState",
           "withArticlePlainText",
+          "withArticleSummaryText",
+          "withArticleVoiceOver",
           "withGrokAnalyze",
           "withDisallowedReplyControls",
           "withPayments",
@@ -4831,7 +4877,7 @@
   {
     "n": "40742",
     "exports": {
-      "queryId": "9XNbxgcdoTkdvwn1AivoXg",
+      "queryId": "XqGQs84wf3-VRmax_UsN5A",
       "operationName": "CreatorSubscriptionsTimeline",
       "operationType": "query",
       "metadata": {
@@ -4879,6 +4925,8 @@
           "withAuxiliaryUserLabels",
           "withArticleRichContentState",
           "withArticlePlainText",
+          "withArticleSummaryText",
+          "withArticleVoiceOver",
           "withGrokAnalyze",
           "withDisallowedReplyControls"
         ],
@@ -5162,7 +5210,7 @@
   {
     "n": "79672",
     "exports": {
-      "queryId": "7IgnUakthBSeOmeC87zOQg",
+      "queryId": "vGepWsmTRX-Y8d0n_9ukVw",
       "operationName": "ExplorePage",
       "operationType": "query",
       "metadata": {
@@ -5210,6 +5258,8 @@
           "withAuxiliaryUserLabels",
           "withArticleRichContentState",
           "withArticlePlainText",
+          "withArticleSummaryText",
+          "withArticleVoiceOver",
           "withGrokAnalyze",
           "withDisallowedReplyControls"
         ],
@@ -5332,7 +5382,7 @@
   {
     "n": "02980",
     "exports": {
-      "queryId": "X3WQ-9Sjj1mz7BChTCzMiA",
+      "queryId": "yE2zVpNfHCYDHrpaqPwM8A",
       "operationName": "ExploreSidebar",
       "operationType": "query",
       "metadata": {
@@ -5380,6 +5430,8 @@
           "withAuxiliaryUserLabels",
           "withArticleRichContentState",
           "withArticlePlainText",
+          "withArticleSummaryText",
+          "withArticleVoiceOver",
           "withGrokAnalyze",
           "withDisallowedReplyControls"
         ],
@@ -5515,7 +5567,7 @@
   {
     "n": "21513",
     "exports": {
-      "queryId": "ggGqWO5y_c4Iu58dyHnbzg",
+      "queryId": "a9TW9uKgJm6II3n6qKMrAA",
       "operationName": "Followers",
       "operationType": "query",
       "metadata": {
@@ -5563,6 +5615,8 @@
           "withAuxiliaryUserLabels",
           "withArticleRichContentState",
           "withArticlePlainText",
+          "withArticleSummaryText",
+          "withArticleVoiceOver",
           "withGrokAnalyze",
           "withDisallowedReplyControls"
         ],
@@ -5685,7 +5739,7 @@
   {
     "n": "62014",
     "exports": {
-      "queryId": "B2NZHy8E8aqwRXjKxQtyMg",
+      "queryId": "lCWlxvlBCn_J8IprqW1jag",
       "operationName": "FollowersYouKnow",
       "operationType": "query",
       "metadata": {
@@ -5733,6 +5787,8 @@
           "withAuxiliaryUserLabels",
           "withArticleRichContentState",
           "withArticlePlainText",
+          "withArticleSummaryText",
+          "withArticleVoiceOver",
           "withGrokAnalyze",
           "withDisallowedReplyControls"
         ],
@@ -5855,7 +5911,7 @@
   {
     "n": "24570",
     "exports": {
-      "queryId": "NElglO5nnh78FWMvYQuwDw",
+      "queryId": "pjk0XA-Lsifsa35oQ6FQdw",
       "operationName": "Following",
       "operationType": "query",
       "metadata": {
@@ -5903,6 +5959,8 @@
           "withAuxiliaryUserLabels",
           "withArticleRichContentState",
           "withArticlePlainText",
+          "withArticleSummaryText",
+          "withArticleVoiceOver",
           "withGrokAnalyze",
           "withDisallowedReplyControls"
         ],
@@ -6038,7 +6096,7 @@
   {
     "n": "55939",
     "exports": {
-      "queryId": "Cjgmbh_ZixfMc0IIUNjP7A",
+      "queryId": "gi98goYFS54z4AUI90LTIQ",
       "operationName": "GenericTimelineById",
       "operationType": "query",
       "metadata": {
@@ -6086,6 +6144,8 @@
           "withAuxiliaryUserLabels",
           "withArticleRichContentState",
           "withArticlePlainText",
+          "withArticleSummaryText",
+          "withArticleVoiceOver",
           "withGrokAnalyze",
           "withDisallowedReplyControls"
         ],
@@ -6221,7 +6281,7 @@
   {
     "n": "31083",
     "exports": {
-      "queryId": "1y84skfyM-1Zyti7Xbxmyw",
+      "queryId": "6jsVXG7AJW_MQnUfvbcrxQ",
       "operationName": "GlobalCommunitiesLatestPostSearchTimeline",
       "operationType": "query",
       "metadata": {
@@ -6269,6 +6329,8 @@
           "withAuxiliaryUserLabels",
           "withArticleRichContentState",
           "withArticlePlainText",
+          "withArticleSummaryText",
+          "withArticleVoiceOver",
           "withGrokAnalyze",
           "withDisallowedReplyControls"
         ],
@@ -6396,7 +6458,7 @@
   {
     "n": "52757",
     "exports": {
-      "queryId": "RaBVZJWYcIEjkjVj29n9fg",
+      "queryId": "qNjFr-hbBDotvwOa6cKLkQ",
       "operationName": "GlobalCommunitiesPostSearchTimeline",
       "operationType": "query",
       "metadata": {
@@ -6444,6 +6506,8 @@
           "withAuxiliaryUserLabels",
           "withArticleRichContentState",
           "withArticlePlainText",
+          "withArticleSummaryText",
+          "withArticleVoiceOver",
           "withGrokAnalyze",
           "withDisallowedReplyControls"
         ],
@@ -6566,7 +6630,7 @@
   {
     "n": "08513",
     "exports": {
-      "queryId": "KLMY6cZZUfQrLubs5DHHtQ",
+      "queryId": "PxmCtuxfqQCZr8jO6Xgv_Q",
       "operationName": "HomeLatestTimeline",
       "operationType": "query",
       "metadata": {
@@ -6614,6 +6678,8 @@
           "withAuxiliaryUserLabels",
           "withArticleRichContentState",
           "withArticlePlainText",
+          "withArticleSummaryText",
+          "withArticleVoiceOver",
           "withGrokAnalyze",
           "withDisallowedReplyControls"
         ],
@@ -6736,7 +6802,7 @@
   {
     "n": "99219",
     "exports": {
-      "queryId": "snvCaalBp51MiDb3-nGblg",
+      "queryId": "o2Cz-6dbvQSA0nxmTAqTlg",
       "operationName": "HomeTimeline",
       "operationType": "query",
       "metadata": {
@@ -6784,6 +6850,8 @@
           "withAuxiliaryUserLabels",
           "withArticleRichContentState",
           "withArticlePlainText",
+          "withArticleSummaryText",
+          "withArticleVoiceOver",
           "withGrokAnalyze",
           "withDisallowedReplyControls"
         ],
@@ -6906,7 +6974,7 @@
   {
     "n": "10920",
     "exports": {
-      "queryId": "LJ-3k8SBSgNZEYGd7RMIbA",
+      "queryId": "j-O2fOmYBTqofGfn6LMb8g",
       "operationName": "Likes",
       "operationType": "query",
       "metadata": {
@@ -6954,6 +7022,8 @@
           "withAuxiliaryUserLabels",
           "withArticleRichContentState",
           "withArticlePlainText",
+          "withArticleSummaryText",
+          "withArticleVoiceOver",
           "withGrokAnalyze",
           "withDisallowedReplyControls"
         ],
@@ -7286,7 +7356,7 @@
   {
     "n": "81452",
     "exports": {
-      "queryId": "oYlHIFBqfODq3_rM4HHZig",
+      "queryId": "SQxQJUSm37dmKA1YWJ9TkA",
       "operationName": "ListCreationRecommendedUsers",
       "operationType": "query",
       "metadata": {
@@ -7334,6 +7404,8 @@
           "withAuxiliaryUserLabels",
           "withArticleRichContentState",
           "withArticlePlainText",
+          "withArticleSummaryText",
+          "withArticleVoiceOver",
           "withGrokAnalyze",
           "withDisallowedReplyControls"
         ],
@@ -7469,7 +7541,7 @@
   {
     "n": "21936",
     "exports": {
-      "queryId": "xmmpcFvBPhc53xhz0vbeDA",
+      "queryId": "9anes_4Yy47l5tWFcgEEvw",
       "operationName": "ListEditRecommendedUsers",
       "operationType": "query",
       "metadata": {
@@ -7517,6 +7589,8 @@
           "withAuxiliaryUserLabels",
           "withArticleRichContentState",
           "withArticlePlainText",
+          "withArticleSummaryText",
+          "withArticleVoiceOver",
           "withGrokAnalyze",
           "withDisallowedReplyControls"
         ],
@@ -7639,7 +7713,7 @@
   {
     "n": "80131",
     "exports": {
-      "queryId": "CMHuPAVadvYIqbIFURJFmw",
+      "queryId": "1HbyE-G8KDYxRdzy3gXFOw",
       "operationName": "ListLatestTweetsTimeline",
       "operationType": "query",
       "metadata": {
@@ -7687,6 +7761,8 @@
           "withAuxiliaryUserLabels",
           "withArticleRichContentState",
           "withArticlePlainText",
+          "withArticleSummaryText",
+          "withArticleVoiceOver",
           "withGrokAnalyze",
           "withDisallowedReplyControls"
         ],
@@ -7815,7 +7891,7 @@
   {
     "n": "42792",
     "exports": {
-      "queryId": "aXyqNzwoHJSOGN8R7FCmrg",
+      "queryId": "ncbvfyF6Ge52qGsZBshC5A",
       "operationName": "ListMembers",
       "operationType": "query",
       "metadata": {
@@ -7863,6 +7939,8 @@
           "withAuxiliaryUserLabels",
           "withArticleRichContentState",
           "withArticlePlainText",
+          "withArticleSummaryText",
+          "withArticleVoiceOver",
           "withGrokAnalyze",
           "withDisallowedReplyControls"
         ],
@@ -7985,7 +8063,7 @@
   {
     "n": "24314",
     "exports": {
-      "queryId": "7yzSWvDZLI6iKDQudCSH3w",
+      "queryId": "2zI_0vJ2zFLIjag_kqFXng",
       "operationName": "ListMemberships",
       "operationType": "query",
       "metadata": {
@@ -8033,6 +8111,8 @@
           "withAuxiliaryUserLabels",
           "withArticleRichContentState",
           "withArticlePlainText",
+          "withArticleSummaryText",
+          "withArticleVoiceOver",
           "withGrokAnalyze",
           "withDisallowedReplyControls"
         ],
@@ -8168,7 +8248,7 @@
   {
     "n": "90426",
     "exports": {
-      "queryId": "lI8FYYGMOu4wXmZXAMhCHQ",
+      "queryId": "dBBmkDb1uU5X7pAWohAqow",
       "operationName": "ListOwnerships",
       "operationType": "query",
       "metadata": {
@@ -8216,6 +8296,8 @@
           "withAuxiliaryUserLabels",
           "withArticleRichContentState",
           "withArticlePlainText",
+          "withArticleSummaryText",
+          "withArticleVoiceOver",
           "withGrokAnalyze",
           "withDisallowedReplyControls"
         ],
@@ -8380,7 +8462,7 @@
   {
     "n": "26619",
     "exports": {
-      "queryId": "RnqfdsV801inx_vvERO1kg",
+      "queryId": "RXU6qLkZZ_LMSoRBIt4c-g",
       "operationName": "ListRankedTweetsTimeline",
       "operationType": "query",
       "metadata": {
@@ -8428,6 +8510,8 @@
           "withAuxiliaryUserLabels",
           "withArticleRichContentState",
           "withArticlePlainText",
+          "withArticleSummaryText",
+          "withArticleVoiceOver",
           "withGrokAnalyze",
           "withDisallowedReplyControls"
         ],
@@ -8592,7 +8676,7 @@
   {
     "n": "21783",
     "exports": {
-      "queryId": "OZhOKt8YHZf98XNSSmYdgw",
+      "queryId": "IPt3JHHNqA-JcTSxR6jyvA",
       "operationName": "ListSearchTimeline",
       "operationType": "query",
       "metadata": {
@@ -8640,6 +8724,8 @@
           "withAuxiliaryUserLabels",
           "withArticleRichContentState",
           "withArticlePlainText",
+          "withArticleSummaryText",
+          "withArticleVoiceOver",
           "withGrokAnalyze",
           "withDisallowedReplyControls"
         ],
@@ -8804,7 +8890,7 @@
   {
     "n": "48562",
     "exports": {
-      "queryId": "-Stsi5SizOvH7poJwYlw8w",
+      "queryId": "O4IvcPtKnH7A7J2BP62bCw",
       "operationName": "ListSubscribers",
       "operationType": "query",
       "metadata": {
@@ -8852,6 +8938,8 @@
           "withAuxiliaryUserLabels",
           "withArticleRichContentState",
           "withArticlePlainText",
+          "withArticleSummaryText",
+          "withArticleVoiceOver",
           "withGrokAnalyze",
           "withDisallowedReplyControls"
         ],
@@ -9079,7 +9167,7 @@
   {
     "n": "38647",
     "exports": {
-      "queryId": "6agn7r-gg4eRVAE9slYsEw",
+      "queryId": "gfRtngnIgOWGM5Zv1VZalQ",
       "operationName": "ListsDiscovery",
       "operationType": "query",
       "metadata": {
@@ -9127,6 +9215,8 @@
           "withAuxiliaryUserLabels",
           "withArticleRichContentState",
           "withArticlePlainText",
+          "withArticleSummaryText",
+          "withArticleVoiceOver",
           "withGrokAnalyze",
           "withDisallowedReplyControls"
         ],
@@ -9249,7 +9339,7 @@
   {
     "n": "74607",
     "exports": {
-      "queryId": "Y03p_WnCiBzBTcT8AgEIig",
+      "queryId": "gFAOpSccDoP8Nu_qpQgURA",
       "operationName": "ListsManagementPageTimeline",
       "operationType": "query",
       "metadata": {
@@ -9297,6 +9387,8 @@
           "withAuxiliaryUserLabels",
           "withArticleRichContentState",
           "withArticlePlainText",
+          "withArticleSummaryText",
+          "withArticleVoiceOver",
           "withGrokAnalyze",
           "withDisallowedReplyControls"
         ],
@@ -9419,7 +9511,7 @@
   {
     "n": "47183",
     "exports": {
-      "queryId": "GHqYv9KDE7jB6Tx9DLJ2iw",
+      "queryId": "QOAFoO-7LEIukx550lltzA",
       "operationName": "MediaTabVideoMixer",
       "operationType": "query",
       "metadata": {
@@ -9467,6 +9559,8 @@
           "withAuxiliaryUserLabels",
           "withArticleRichContentState",
           "withArticlePlainText",
+          "withArticleSummaryText",
+          "withArticleVoiceOver",
           "withGrokAnalyze",
           "withDisallowedReplyControls"
         ],
@@ -9602,7 +9696,7 @@
   {
     "n": "84020",
     "exports": {
-      "queryId": "6L6ZFzknlBDTgk3T9TsHZw",
+      "queryId": "sVyWR-XnldkBAd_DOhrK5w",
       "operationName": "ModeratedTimeline",
       "operationType": "query",
       "metadata": {
@@ -9650,6 +9744,8 @@
           "withAuxiliaryUserLabels",
           "withArticleRichContentState",
           "withArticlePlainText",
+          "withArticleSummaryText",
+          "withArticleVoiceOver",
           "withGrokAnalyze",
           "withDisallowedReplyControls"
         ],
@@ -9772,7 +9868,7 @@
   {
     "n": "70754",
     "exports": {
-      "queryId": "BI9KVcnACyITLEpuXFGMhA",
+      "queryId": "vU4WJCjA2uo-FvY3IaWwLw",
       "operationName": "MutedAccounts",
       "operationType": "query",
       "metadata": {
@@ -9820,6 +9916,8 @@
           "withAuxiliaryUserLabels",
           "withArticleRichContentState",
           "withArticlePlainText",
+          "withArticleSummaryText",
+          "withArticleVoiceOver",
           "withGrokAnalyze",
           "withDisallowedReplyControls"
         ],
@@ -10060,7 +10158,7 @@
   {
     "n": "36511",
     "exports": {
-      "queryId": "GHWwWJTZqSdrJZxi4RsKQg",
+      "queryId": "A_Bh_EYy9ISZQXEzpBfrZg",
       "operationName": "ProfileFilter",
       "operationType": "query",
       "metadata": {
@@ -10108,6 +10206,8 @@
           "withAuxiliaryUserLabels",
           "withArticleRichContentState",
           "withArticlePlainText",
+          "withArticleSummaryText",
+          "withArticleVoiceOver",
           "withGrokAnalyze",
           "withDisallowedReplyControls"
         ],
@@ -10256,7 +10356,7 @@
   {
     "n": "59280",
     "exports": {
-      "queryId": "li8lqzsIWEm5h3SZNDTwlw",
+      "queryId": "ZByJoVM3m0F8cYYirAD6Yg",
       "operationName": "CommunitiesRankedTimeline",
       "operationType": "query",
       "metadata": {
@@ -10304,6 +10404,8 @@
           "withAuxiliaryUserLabels",
           "withArticleRichContentState",
           "withArticlePlainText",
+          "withArticleSummaryText",
+          "withArticleVoiceOver",
           "withGrokAnalyze",
           "withDisallowedReplyControls"
         ],
@@ -10444,7 +10546,7 @@
   {
     "n": "95926",
     "exports": {
-      "queryId": "nWemVnGJ6A5eQAR5-oQeAg",
+      "queryId": "qUm8YPFHJWjQ56E_dP4MDg",
       "operationName": "SearchTimeline",
       "operationType": "query",
       "metadata": {
@@ -10492,6 +10594,8 @@
           "withAuxiliaryUserLabels",
           "withArticleRichContentState",
           "withArticlePlainText",
+          "withArticleSummaryText",
+          "withArticleVoiceOver",
           "withGrokAnalyze",
           "withDisallowedReplyControls"
         ],
@@ -10627,7 +10731,7 @@
   {
     "n": "72310",
     "exports": {
-      "queryId": "3V672myOc36NwjNnm2kwNg",
+      "queryId": "3j_Wbm8cZT_x97j2Pb4REA",
       "operationName": "SimilarPosts",
       "operationType": "query",
       "metadata": {
@@ -10675,6 +10779,8 @@
           "withAuxiliaryUserLabels",
           "withArticleRichContentState",
           "withArticlePlainText",
+          "withArticleSummaryText",
+          "withArticleVoiceOver",
           "withGrokAnalyze",
           "withDisallowedReplyControls"
         ],
@@ -10797,7 +10903,7 @@
   {
     "n": "20025",
     "exports": {
-      "queryId": "Tns1USU0F4Lnd54EmIvMjA",
+      "queryId": "SJJlchKocv8nvHdC0EQAMg",
       "operationName": "SuperFollowers",
       "operationType": "query",
       "metadata": {
@@ -10845,6 +10951,8 @@
           "withAuxiliaryUserLabels",
           "withArticleRichContentState",
           "withArticlePlainText",
+          "withArticleSummaryText",
+          "withArticleVoiceOver",
           "withGrokAnalyze",
           "withDisallowedReplyControls"
         ],
@@ -11006,7 +11114,7 @@
   {
     "n": "04235",
     "exports": {
-      "queryId": "0ULh409iJqKaXCF_0zUYWg",
+      "queryId": "LUtU9woQkQo8E8k_1K7adQ",
       "operationName": "TopicLandingPage",
       "operationType": "query",
       "metadata": {
@@ -11054,6 +11162,8 @@
           "withAuxiliaryUserLabels",
           "withArticleRichContentState",
           "withArticlePlainText",
+          "withArticleSummaryText",
+          "withArticleVoiceOver",
           "withGrokAnalyze",
           "withDisallowedReplyControls"
         ],
@@ -11202,7 +11312,7 @@
   {
     "n": "24905",
     "exports": {
-      "queryId": "6Ao79OCAbLPTGTMrflXfmw",
+      "queryId": "oFWJ3DwmfOZ0Hbb8niZNHA",
       "operationName": "TopicToFollowSidebar",
       "operationType": "query",
       "metadata": {
@@ -11250,6 +11360,8 @@
           "withAuxiliaryUserLabels",
           "withArticleRichContentState",
           "withArticlePlainText",
+          "withArticleSummaryText",
+          "withArticleVoiceOver",
           "withGrokAnalyze",
           "withDisallowedReplyControls"
         ],
@@ -11398,7 +11510,7 @@
   {
     "n": "49217",
     "exports": {
-      "queryId": "5UKRbsPvK5Jdr87LB4YiLQ",
+      "queryId": "rmBullUyU_1hLHwtb47e8g",
       "operationName": "TopicsManagementPage",
       "operationType": "query",
       "metadata": {
@@ -11446,6 +11558,8 @@
           "withAuxiliaryUserLabels",
           "withArticleRichContentState",
           "withArticlePlainText",
+          "withArticleSummaryText",
+          "withArticleVoiceOver",
           "withGrokAnalyze",
           "withDisallowedReplyControls"
         ],
@@ -11568,7 +11682,7 @@
   {
     "n": "80348",
     "exports": {
-      "queryId": "1PyQVNcWruoDR4s9CCmTEA",
+      "queryId": "WdljoSsHdqweRQRRdOSDcg",
       "operationName": "TopicsPickerPage",
       "operationType": "query",
       "metadata": {
@@ -11616,6 +11730,8 @@
           "withAuxiliaryUserLabels",
           "withArticleRichContentState",
           "withArticlePlainText",
+          "withArticleSummaryText",
+          "withArticleVoiceOver",
           "withGrokAnalyze",
           "withDisallowedReplyControls"
         ],
@@ -11738,7 +11854,7 @@
   {
     "n": "88424",
     "exports": {
-      "queryId": "SyOXW64Ax7-YpEmF08Kfsg",
+      "queryId": "-pmwKxyIL6xtHxClGt-kKg",
       "operationName": "TopicsPickerPageById",
       "operationType": "query",
       "metadata": {
@@ -11786,6 +11902,8 @@
           "withAuxiliaryUserLabels",
           "withArticleRichContentState",
           "withArticlePlainText",
+          "withArticleSummaryText",
+          "withArticleVoiceOver",
           "withGrokAnalyze",
           "withDisallowedReplyControls"
         ],
@@ -11908,7 +12026,7 @@
   {
     "n": "39433",
     "exports": {
-      "queryId": "Hq4rEKT8Xk0rqz24d7nwJg",
+      "queryId": "ar75PL8iB0RPABEn5WxiGg",
       "operationName": "TrendHistory",
       "operationType": "query",
       "metadata": {
@@ -11956,6 +12074,8 @@
           "withAuxiliaryUserLabels",
           "withArticleRichContentState",
           "withArticlePlainText",
+          "withArticleSummaryText",
+          "withArticleVoiceOver",
           "withGrokAnalyze",
           "withDisallowedReplyControls"
         ],
@@ -12078,7 +12198,7 @@
   {
     "n": "87508",
     "exports": {
-      "queryId": "xwRJq4UMXSJ-cqbSricoTw",
+      "queryId": "hah752b5FacNePJ8UVgScQ",
       "operationName": "TrendRelevantUsers",
       "operationType": "query",
       "metadata": {
@@ -12126,6 +12246,8 @@
           "withAuxiliaryUserLabels",
           "withArticleRichContentState",
           "withArticlePlainText",
+          "withArticleSummaryText",
+          "withArticleVoiceOver",
           "withGrokAnalyze",
           "withDisallowedReplyControls"
         ],
@@ -12248,7 +12370,7 @@
   {
     "n": "77326",
     "exports": {
-      "queryId": "lIYy2q-RpZpkknEdFszXWg",
+      "queryId": "q7jlDBza1hp6GE_1US50lA",
       "operationName": "TVHomeMixer",
       "operationType": "query",
       "metadata": {
@@ -12296,6 +12418,8 @@
           "withAuxiliaryUserLabels",
           "withArticleRichContentState",
           "withArticlePlainText",
+          "withArticleSummaryText",
+          "withArticleVoiceOver",
           "withGrokAnalyze",
           "withDisallowedReplyControls"
         ],
@@ -12418,7 +12542,7 @@
   {
     "n": "96180",
     "exports": {
-      "queryId": "16nxv6mC_2VaBvBwY2V85g",
+      "queryId": "vsCTCQrF8oqASUb-x2SBcg",
       "operationName": "TweetDetail",
       "operationType": "query",
       "metadata": {
@@ -12466,6 +12590,8 @@
           "withAuxiliaryUserLabels",
           "withArticleRichContentState",
           "withArticlePlainText",
+          "withArticleSummaryText",
+          "withArticleVoiceOver",
           "withGrokAnalyze",
           "withDisallowedReplyControls"
         ],
@@ -12588,7 +12714,7 @@
   {
     "n": "12497",
     "exports": {
-      "queryId": "u-HcuvGsZT0ZoxfFDQWNeg",
+      "queryId": "qbNCRD1EnQl8tsh0jsXT_A",
       "operationName": "TweetResultByRestId",
       "operationType": "query",
       "metadata": {
@@ -12633,6 +12759,8 @@
         "fieldToggles": [
           "withArticleRichContentState",
           "withArticlePlainText",
+          "withArticleSummaryText",
+          "withArticleVoiceOver",
           "withGrokAnalyze",
           "withDisallowedReplyControls",
           "withPayments",
@@ -12754,7 +12882,7 @@
   {
     "n": "64093",
     "exports": {
-      "queryId": "BWahCB0zYO6D2XGUe4g5WQ",
+      "queryId": "xtWNuavuBaz-RTAIyu7PCA",
       "operationName": "TweetResultsByRestIds",
       "operationType": "query",
       "metadata": {
@@ -12799,6 +12927,8 @@
         "fieldToggles": [
           "withArticleRichContentState",
           "withArticlePlainText",
+          "withArticleSummaryText",
+          "withArticleVoiceOver",
           "withGrokAnalyze",
           "withDisallowedReplyControls",
           "withPayments",
@@ -13033,7 +13163,7 @@
   {
     "n": "71810",
     "exports": {
-      "queryId": "4uEvO29vp_yBIvemwvr-sA",
+      "queryId": "kIAy4iDsorp6EYiTdEd-HQ",
       "operationName": "UrtFixtures",
       "operationType": "query",
       "metadata": {
@@ -13081,6 +13211,8 @@
           "withAuxiliaryUserLabels",
           "withArticleRichContentState",
           "withArticlePlainText",
+          "withArticleSummaryText",
+          "withArticleVoiceOver",
           "withGrokAnalyze",
           "withDisallowedReplyControls"
         ],
@@ -13203,7 +13335,7 @@
   {
     "n": "32887",
     "exports": {
-      "queryId": "6UtWmQY5rD_SpSWlStNKBQ",
+      "queryId": "mNzoLOdMluhSo8Pxt-s1KQ",
       "operationName": "UserArticlesTweets",
       "operationType": "query",
       "metadata": {
@@ -13251,6 +13383,8 @@
           "withAuxiliaryUserLabels",
           "withArticleRichContentState",
           "withArticlePlainText",
+          "withArticleSummaryText",
+          "withArticleVoiceOver",
           "withGrokAnalyze",
           "withDisallowedReplyControls"
         ],
@@ -13373,7 +13507,7 @@
   {
     "n": "78260",
     "exports": {
-      "queryId": "7ngV2ZczFqLY6uLHfpx6gA",
+      "queryId": "RQXR5iW6heT6x4Bqb671Ag",
       "operationName": "UserBusinessProfileTeamTimeline",
       "operationType": "query",
       "metadata": {
@@ -13421,6 +13555,8 @@
           "withAuxiliaryUserLabels",
           "withArticleRichContentState",
           "withArticlePlainText",
+          "withArticleSummaryText",
+          "withArticleVoiceOver",
           "withGrokAnalyze",
           "withDisallowedReplyControls"
         ],
@@ -13700,7 +13836,7 @@
   {
     "n": "37768",
     "exports": {
-      "queryId": "DiRHPsz2DrSVePQY8fDEkQ",
+      "queryId": "M59FPVVzC8aZnlkles9pAA",
       "operationName": "UserCreatorSubscribers",
       "operationType": "query",
       "metadata": {
@@ -13748,6 +13884,8 @@
           "withAuxiliaryUserLabels",
           "withArticleRichContentState",
           "withArticlePlainText",
+          "withArticleSummaryText",
+          "withArticleVoiceOver",
           "withGrokAnalyze",
           "withDisallowedReplyControls"
         ],
@@ -13870,7 +14008,7 @@
   {
     "n": "37038",
     "exports": {
-      "queryId": "-vuJawxb0Iru0KLvP5je3Q",
+      "queryId": "lCCk0iC1G_t1Au99tqmUfw",
       "operationName": "UserCreatorSubscriptions",
       "operationType": "query",
       "metadata": {
@@ -13918,6 +14056,8 @@
           "withAuxiliaryUserLabels",
           "withArticleRichContentState",
           "withArticlePlainText",
+          "withArticleSummaryText",
+          "withArticleVoiceOver",
           "withGrokAnalyze",
           "withDisallowedReplyControls"
         ],
@@ -14040,7 +14180,7 @@
   {
     "n": "24585",
     "exports": {
-      "queryId": "vK0Fogt_B7gVn1Kd-QT-Gw",
+      "queryId": "8-HFO2iuolvH46eGF1zetw",
       "operationName": "UserHighlightsTweets",
       "operationType": "query",
       "metadata": {
@@ -14088,6 +14228,8 @@
           "withAuxiliaryUserLabels",
           "withArticleRichContentState",
           "withArticlePlainText",
+          "withArticleSummaryText",
+          "withArticleVoiceOver",
           "withGrokAnalyze",
           "withDisallowedReplyControls"
         ],
@@ -14210,7 +14352,7 @@
   {
     "n": "34287",
     "exports": {
-      "queryId": "qf6w1MULRM9mM6qaoOSPDQ",
+      "queryId": "AdehecE54u4dM1PY1mK7wA",
       "operationName": "UserMedia",
       "operationType": "query",
       "metadata": {
@@ -14258,6 +14400,8 @@
           "withAuxiliaryUserLabels",
           "withArticleRichContentState",
           "withArticlePlainText",
+          "withArticleSummaryText",
+          "withArticleVoiceOver",
           "withGrokAnalyze",
           "withDisallowedReplyControls"
         ],
@@ -14393,7 +14537,7 @@
   {
     "n": "07949",
     "exports": {
-      "queryId": "m_KcvDWTV33YpoMvJ9C71g",
+      "queryId": "VfeVyidGAItcmhUoIl-ykA",
       "operationName": "UserPromotableTweets",
       "operationType": "query",
       "metadata": {
@@ -14441,6 +14585,8 @@
           "withAuxiliaryUserLabels",
           "withArticleRichContentState",
           "withArticlePlainText",
+          "withArticleSummaryText",
+          "withArticleVoiceOver",
           "withGrokAnalyze",
           "withDisallowedReplyControls"
         ],
@@ -14576,7 +14722,7 @@
   {
     "n": "58275",
     "exports": {
-      "queryId": "_7Najxfyup9TrkxG2DX9YQ",
+      "queryId": "xGLjI_7zuzyZj2HjJPDQPg",
       "operationName": "UserSuperFollowTweets",
       "operationType": "query",
       "metadata": {
@@ -14624,6 +14770,8 @@
           "withAuxiliaryUserLabels",
           "withArticleRichContentState",
           "withArticlePlainText",
+          "withArticleSummaryText",
+          "withArticleVoiceOver",
           "withGrokAnalyze",
           "withDisallowedReplyControls"
         ],
@@ -14751,7 +14899,7 @@
   {
     "n": "31406",
     "exports": {
-      "queryId": "ix7iRrsAvfXyGUQ06Z7krA",
+      "queryId": "tBNuKtAJqe33sRX5V6Vlbg",
       "operationName": "UserTweets",
       "operationType": "query",
       "metadata": {
@@ -14799,6 +14947,8 @@
           "withAuxiliaryUserLabels",
           "withArticleRichContentState",
           "withArticlePlainText",
+          "withArticleSummaryText",
+          "withArticleVoiceOver",
           "withGrokAnalyze",
           "withDisallowedReplyControls"
         ],
@@ -14921,7 +15071,7 @@
   {
     "n": "57613",
     "exports": {
-      "queryId": "RCpRL9JyzOSO5qS6YDOg7w",
+      "queryId": "WIndHkjdsfdaNVeup5K6tw",
       "operationName": "UserTweetsAndReplies",
       "operationType": "query",
       "metadata": {
@@ -14969,6 +15119,8 @@
           "withAuxiliaryUserLabels",
           "withArticleRichContentState",
           "withArticlePlainText",
+          "withArticleSummaryText",
+          "withArticleVoiceOver",
           "withGrokAnalyze",
           "withDisallowedReplyControls"
         ],
@@ -15278,7 +15430,7 @@
   {
     "n": "17082",
     "exports": {
-      "queryId": "Z7B5L3bjUPhz22HgEIzRfw",
+      "queryId": "e9QWiJHaWOkY3QgHfZG4rg",
       "operationName": "ViewingOtherUsersTopicsPage",
       "operationType": "query",
       "metadata": {
@@ -15326,6 +15478,8 @@
           "withAuxiliaryUserLabels",
           "withArticleRichContentState",
           "withArticlePlainText",
+          "withArticleSummaryText",
+          "withArticleVoiceOver",
           "withGrokAnalyze",
           "withDisallowedReplyControls"
         ],
@@ -15448,7 +15602,7 @@
   {
     "n": "81364",
     "exports": {
-      "queryId": "Qf4bN9Ao3tsFftA-XL5jAg",
+      "queryId": "ckNC7LyhaaQfr8s8ge1UHw",
       "operationName": "AudioSpaceAddSharing",
       "operationType": "mutation",
       "metadata": {
@@ -15494,6 +15648,8 @@
           "withPayments",
           "withArticleRichContentState",
           "withArticlePlainText",
+          "withArticleSummaryText",
+          "withArticleVoiceOver",
           "withGrokAnalyze",
           "withDisallowedReplyControls",
           "withAuxiliaryUserLabels"
@@ -15614,7 +15770,7 @@
   {
     "n": "8890",
     "exports": {
-      "queryId": "oYUDSn0Q8u_aGhPUr460cw",
+      "queryId": "ciKsI6HLt5_joMYW5fL8rA",
       "operationName": "AudioSpaceById",
       "operationType": "query",
       "metadata": {
@@ -15663,6 +15819,8 @@
           "withAuxiliaryUserLabels",
           "withArticleRichContentState",
           "withArticlePlainText",
+          "withArticleSummaryText",
+          "withArticleVoiceOver",
           "withGrokAnalyze",
           "withDisallowedReplyControls"
         ],
@@ -16009,7 +16167,7 @@
   {
     "n": "06757",
     "exports": {
-      "queryId": "NWGQwmUKDD_5JfHD5CewKg",
+      "queryId": "tKQv9jLTfmDiAzxeLpNd3A",
       "operationName": "BirdwatchFetchAuthenticatedBirdwatchMatchSlice",
       "operationType": "query",
       "metadata": {
@@ -16054,6 +16212,8 @@
         "fieldToggles": [
           "withArticleRichContentState",
           "withArticlePlainText",
+          "withArticleSummaryText",
+          "withArticleVoiceOver",
           "withGrokAnalyze",
           "withDisallowedReplyControls",
           "withPayments",
@@ -16175,7 +16335,7 @@
   {
     "n": "39119",
     "exports": {
-      "queryId": "CajxgCwFDMXBhwsVyhrJ4g",
+      "queryId": "5B5mO-dmfN4D60Io81l6eQ",
       "operationName": "BirdwatchFetchContributorNotesSlice",
       "operationType": "query",
       "metadata": {
@@ -16224,6 +16384,8 @@
         "fieldToggles": [
           "withArticleRichContentState",
           "withArticlePlainText",
+          "withArticleSummaryText",
+          "withArticleVoiceOver",
           "withGrokAnalyze",
           "withDisallowedReplyControls",
           "withPayments",
@@ -16642,7 +16804,7 @@
   {
     "n": "74474",
     "exports": {
-      "queryId": "W1UoslFAOq_7GHLDPm1xZA",
+      "queryId": "75RHq8_KzBpWhpZSGHjVhQ",
       "operationName": "BirdwatchFetchGlobalTimeline",
       "operationType": "query",
       "metadata": {
@@ -16690,6 +16852,8 @@
           "withAuxiliaryUserLabels",
           "withArticleRichContentState",
           "withArticlePlainText",
+          "withArticleSummaryText",
+          "withArticleVoiceOver",
           "withGrokAnalyze",
           "withDisallowedReplyControls"
         ],
@@ -17040,7 +17204,7 @@
   {
     "n": "88066",
     "exports": {
-      "queryId": "uFSL6yLkkNLR5kYDexjmBg",
+      "queryId": "UgtKkE-Nd4b2PkECcnppPw",
       "operationName": "BirdwatchFetchSourceLinkSlice",
       "operationType": "query",
       "metadata": {
@@ -17085,6 +17249,8 @@
         "fieldToggles": [
           "withArticleRichContentState",
           "withArticlePlainText",
+          "withArticleSummaryText",
+          "withArticleVoiceOver",
           "withGrokAnalyze",
           "withDisallowedReplyControls",
           "withPayments",
@@ -17225,7 +17391,7 @@
   {
     "n": "8492",
     "exports": {
-      "queryId": "06_13YbHavbnLb6JDG9HEg",
+      "queryId": "6_uAVKew0ECeicXo7CzR1Q",
       "operationName": "BirdwatchFetchSuggestionFeedbackOverview",
       "operationType": "query",
       "metadata": {
@@ -17274,6 +17440,8 @@
         "fieldToggles": [
           "withArticleRichContentState",
           "withArticlePlainText",
+          "withArticleSummaryText",
+          "withArticleVoiceOver",
           "withGrokAnalyze",
           "withDisallowedReplyControls",
           "withPayments",
@@ -17433,7 +17601,7 @@
   {
     "n": "21879",
     "exports": {
-      "queryId": "xXZ28b8KggCrPM7kNxFziQ",
+      "queryId": "LJDMo1aQOI3GG2pcNikQwQ",
       "operationName": "BookmarkFolderTimeline",
       "operationType": "query",
       "metadata": {
@@ -17481,6 +17649,8 @@
           "withAuxiliaryUserLabels",
           "withArticleRichContentState",
           "withArticlePlainText",
+          "withArticleSummaryText",
+          "withArticleVoiceOver",
           "withGrokAnalyze",
           "withDisallowedReplyControls"
         ],
@@ -17629,7 +17799,7 @@
   {
     "n": "49186",
     "exports": {
-      "queryId": "c-7G4ohSLIuTcfa5Mn5qdw",
+      "queryId": "Yq6CSGrtJaZyTpxVkrzLnA",
       "operationName": "Bookmarks",
       "operationType": "query",
       "metadata": {
@@ -17677,6 +17847,8 @@
           "withAuxiliaryUserLabels",
           "withArticleRichContentState",
           "withArticlePlainText",
+          "withArticleSummaryText",
+          "withArticleVoiceOver",
           "withGrokAnalyze",
           "withDisallowedReplyControls"
         ],
@@ -17968,7 +18140,7 @@
   {
     "n": "45513",
     "exports": {
-      "queryId": "6ywBrBHkzVJK_yYtggmrsw",
+      "queryId": "7H2UlqM4PTpObmiB4WpETg",
       "operationName": "GrokConversationItemsByRestId",
       "operationType": "query",
       "metadata": {
@@ -18013,6 +18185,8 @@
         "fieldToggles": [
           "withArticleRichContentState",
           "withArticlePlainText",
+          "withArticleSummaryText",
+          "withArticleVoiceOver",
           "withGrokAnalyze",
           "withDisallowedReplyControls",
           "withPayments",
@@ -18212,7 +18386,7 @@
   {
     "n": "85289",
     "exports": {
-      "queryId": "3aCm_HRrYXX8T7sas50Zlw",
+      "queryId": "HoKwGR2uZkswkQ9urwWkwA",
       "operationName": "GrokShare",
       "operationType": "query",
       "metadata": {
@@ -18257,6 +18431,8 @@
         "fieldToggles": [
           "withArticleRichContentState",
           "withArticlePlainText",
+          "withArticleSummaryText",
+          "withArticleVoiceOver",
           "withGrokAnalyze",
           "withDisallowedReplyControls",
           "withPayments",
@@ -18498,7 +18674,7 @@
   {
     "n": "05008",
     "exports": {
-      "queryId": "GUmhCGy46nh2sxnyeY74Ew",
+      "queryId": "QEqGBaAX4nrx9uyK-P2odg",
       "operationName": "NotificationsTimeline",
       "operationType": "query",
       "metadata": {
@@ -18546,6 +18722,8 @@
           "withAuxiliaryUserLabels",
           "withArticleRichContentState",
           "withArticlePlainText",
+          "withArticleSummaryText",
+          "withArticleVoiceOver",
           "withGrokAnalyze",
           "withDisallowedReplyControls"
         ],
@@ -19009,7 +19187,7 @@
   {
     "n": "45513",
     "exports": {
-      "queryId": "6ywBrBHkzVJK_yYtggmrsw",
+      "queryId": "7H2UlqM4PTpObmiB4WpETg",
       "operationName": "GrokConversationItemsByRestId",
       "operationType": "query",
       "metadata": {
@@ -19054,6 +19232,8 @@
         "fieldToggles": [
           "withArticleRichContentState",
           "withArticlePlainText",
+          "withArticleSummaryText",
+          "withArticleVoiceOver",
           "withGrokAnalyze",
           "withDisallowedReplyControls",
           "withPayments",
@@ -19253,7 +19433,7 @@
   {
     "n": "85289",
     "exports": {
-      "queryId": "3aCm_HRrYXX8T7sas50Zlw",
+      "queryId": "HoKwGR2uZkswkQ9urwWkwA",
       "operationName": "GrokShare",
       "operationType": "query",
       "metadata": {
@@ -19298,6 +19478,8 @@
         "fieldToggles": [
           "withArticleRichContentState",
           "withArticlePlainText",
+          "withArticleSummaryText",
+          "withArticleVoiceOver",
           "withGrokAnalyze",
           "withDisallowedReplyControls",
           "withPayments",
@@ -19521,7 +19703,7 @@
   {
     "n": "07737",
     "exports": {
-      "queryId": "ouUOSNSzpHV4eT8BpPbetQ",
+      "queryId": "Oi-62AFuRNJXPHCgIUwAVg",
       "operationName": "DmMutedTimeline",
       "operationType": "query",
       "metadata": {
@@ -19569,6 +19751,8 @@
           "withAuxiliaryUserLabels",
           "withArticleRichContentState",
           "withArticlePlainText",
+          "withArticleSummaryText",
+          "withArticleVoiceOver",
           "withGrokAnalyze",
           "withDisallowedReplyControls"
         ],
@@ -19704,7 +19888,7 @@
   {
     "n": "21879",
     "exports": {
-      "queryId": "xXZ28b8KggCrPM7kNxFziQ",
+      "queryId": "LJDMo1aQOI3GG2pcNikQwQ",
       "operationName": "BookmarkFolderTimeline",
       "operationType": "query",
       "metadata": {
@@ -19752,6 +19936,8 @@
           "withAuxiliaryUserLabels",
           "withArticleRichContentState",
           "withArticlePlainText",
+          "withArticleSummaryText",
+          "withArticleVoiceOver",
           "withGrokAnalyze",
           "withDisallowedReplyControls"
         ],
@@ -19900,7 +20086,7 @@
   {
     "n": "49186",
     "exports": {
-      "queryId": "c-7G4ohSLIuTcfa5Mn5qdw",
+      "queryId": "Yq6CSGrtJaZyTpxVkrzLnA",
       "operationName": "Bookmarks",
       "operationType": "query",
       "metadata": {
@@ -19948,6 +20134,8 @@
           "withAuxiliaryUserLabels",
           "withArticleRichContentState",
           "withArticlePlainText",
+          "withArticleSummaryText",
+          "withArticleVoiceOver",
           "withGrokAnalyze",
           "withDisallowedReplyControls"
         ],
@@ -20450,7 +20638,7 @@
   {
     "n": "79604",
     "exports": {
-      "queryId": "KchyC4MUs0aoEiWets03OQ",
+      "queryId": "lVMScayTi3hQ60EtCjqYBg",
       "operationName": "ArticleTimeline",
       "operationType": "query",
       "metadata": {
@@ -20498,6 +20686,8 @@
           "withAuxiliaryUserLabels",
           "withArticleRichContentState",
           "withArticlePlainText",
+          "withArticleSummaryText",
+          "withArticleVoiceOver",
           "withGrokAnalyze",
           "withDisallowedReplyControls"
         ],
@@ -20620,7 +20810,7 @@
   {
     "n": "03508",
     "exports": {
-      "queryId": "-yoCty8ES9bT5X19WaUfiA",
+      "queryId": "tuaeFZQtS9cWiVmJxFAq6w",
       "operationName": "ArticleTweetsTimeline",
       "operationType": "query",
       "metadata": {
@@ -20668,6 +20858,8 @@
           "withAuxiliaryUserLabels",
           "withArticleRichContentState",
           "withArticlePlainText",
+          "withArticleSummaryText",
+          "withArticleVoiceOver",
           "withGrokAnalyze",
           "withDisallowedReplyControls"
         ],
@@ -20946,7 +21138,7 @@
   {
     "n": "21879",
     "exports": {
-      "queryId": "xXZ28b8KggCrPM7kNxFziQ",
+      "queryId": "LJDMo1aQOI3GG2pcNikQwQ",
       "operationName": "BookmarkFolderTimeline",
       "operationType": "query",
       "metadata": {
@@ -20994,6 +21186,8 @@
           "withAuxiliaryUserLabels",
           "withArticleRichContentState",
           "withArticlePlainText",
+          "withArticleSummaryText",
+          "withArticleVoiceOver",
           "withGrokAnalyze",
           "withDisallowedReplyControls"
         ],
@@ -21142,7 +21336,7 @@
   {
     "n": "49186",
     "exports": {
-      "queryId": "c-7G4ohSLIuTcfa5Mn5qdw",
+      "queryId": "Yq6CSGrtJaZyTpxVkrzLnA",
       "operationName": "Bookmarks",
       "operationType": "query",
       "metadata": {
@@ -21190,6 +21384,8 @@
           "withAuxiliaryUserLabels",
           "withArticleRichContentState",
           "withArticlePlainText",
+          "withArticleSummaryText",
+          "withArticleVoiceOver",
           "withGrokAnalyze",
           "withDisallowedReplyControls"
         ],
@@ -21390,7 +21586,7 @@
   {
     "n": "72524",
     "exports": {
-      "queryId": "vqdOixzBNP5rzdEV7J3Elw",
+      "queryId": "wZxZK_MhhamMYJ4DxLF1RA",
       "operationName": "AiTrendByRestId",
       "operationType": "query",
       "metadata": {
@@ -21435,6 +21631,8 @@
         "fieldToggles": [
           "withArticleRichContentState",
           "withArticlePlainText",
+          "withArticleSummaryText",
+          "withArticleVoiceOver",
           "withGrokAnalyze",
           "withDisallowedReplyControls",
           "withPayments",
@@ -22425,7 +22623,7 @@
   {
     "n": "45513",
     "exports": {
-      "queryId": "6ywBrBHkzVJK_yYtggmrsw",
+      "queryId": "7H2UlqM4PTpObmiB4WpETg",
       "operationName": "GrokConversationItemsByRestId",
       "operationType": "query",
       "metadata": {
@@ -22470,6 +22668,8 @@
         "fieldToggles": [
           "withArticleRichContentState",
           "withArticlePlainText",
+          "withArticleSummaryText",
+          "withArticleVoiceOver",
           "withGrokAnalyze",
           "withDisallowedReplyControls",
           "withPayments",
@@ -22669,7 +22869,7 @@
   {
     "n": "85289",
     "exports": {
-      "queryId": "3aCm_HRrYXX8T7sas50Zlw",
+      "queryId": "HoKwGR2uZkswkQ9urwWkwA",
       "operationName": "GrokShare",
       "operationType": "query",
       "metadata": {
@@ -22714,6 +22914,8 @@
         "fieldToggles": [
           "withArticleRichContentState",
           "withArticlePlainText",
+          "withArticleSummaryText",
+          "withArticleVoiceOver",
           "withGrokAnalyze",
           "withDisallowedReplyControls",
           "withPayments",
@@ -22963,7 +23165,7 @@
   {
     "n": "07737",
     "exports": {
-      "queryId": "ouUOSNSzpHV4eT8BpPbetQ",
+      "queryId": "Oi-62AFuRNJXPHCgIUwAVg",
       "operationName": "DmMutedTimeline",
       "operationType": "query",
       "metadata": {
@@ -23011,6 +23213,8 @@
           "withAuxiliaryUserLabels",
           "withArticleRichContentState",
           "withArticlePlainText",
+          "withArticleSummaryText",
+          "withArticleVoiceOver",
           "withGrokAnalyze",
           "withDisallowedReplyControls"
         ],
@@ -23276,7 +23480,7 @@
   {
     "n": "45513",
     "exports": {
-      "queryId": "6ywBrBHkzVJK_yYtggmrsw",
+      "queryId": "7H2UlqM4PTpObmiB4WpETg",
       "operationName": "GrokConversationItemsByRestId",
       "operationType": "query",
       "metadata": {
@@ -23321,6 +23525,8 @@
         "fieldToggles": [
           "withArticleRichContentState",
           "withArticlePlainText",
+          "withArticleSummaryText",
+          "withArticleVoiceOver",
           "withGrokAnalyze",
           "withDisallowedReplyControls",
           "withPayments",
@@ -23520,7 +23726,7 @@
   {
     "n": "85289",
     "exports": {
-      "queryId": "3aCm_HRrYXX8T7sas50Zlw",
+      "queryId": "HoKwGR2uZkswkQ9urwWkwA",
       "operationName": "GrokShare",
       "operationType": "query",
       "metadata": {
@@ -23565,6 +23771,8 @@
         "fieldToggles": [
           "withArticleRichContentState",
           "withArticlePlainText",
+          "withArticleSummaryText",
+          "withArticleVoiceOver",
           "withGrokAnalyze",
           "withDisallowedReplyControls",
           "withPayments",
@@ -23858,7 +24066,7 @@
   {
     "n": "21879",
     "exports": {
-      "queryId": "xXZ28b8KggCrPM7kNxFziQ",
+      "queryId": "LJDMo1aQOI3GG2pcNikQwQ",
       "operationName": "BookmarkFolderTimeline",
       "operationType": "query",
       "metadata": {
@@ -23906,6 +24114,8 @@
           "withAuxiliaryUserLabels",
           "withArticleRichContentState",
           "withArticlePlainText",
+          "withArticleSummaryText",
+          "withArticleVoiceOver",
           "withGrokAnalyze",
           "withDisallowedReplyControls"
         ],
@@ -24054,7 +24264,7 @@
   {
     "n": "49186",
     "exports": {
-      "queryId": "c-7G4ohSLIuTcfa5Mn5qdw",
+      "queryId": "Yq6CSGrtJaZyTpxVkrzLnA",
       "operationName": "Bookmarks",
       "operationType": "query",
       "metadata": {
@@ -24102,6 +24312,8 @@
           "withAuxiliaryUserLabels",
           "withArticleRichContentState",
           "withArticlePlainText",
+          "withArticleSummaryText",
+          "withArticleVoiceOver",
           "withGrokAnalyze",
           "withDisallowedReplyControls"
         ],
@@ -24549,7 +24761,7 @@
   {
     "n": "45513",
     "exports": {
-      "queryId": "6ywBrBHkzVJK_yYtggmrsw",
+      "queryId": "7H2UlqM4PTpObmiB4WpETg",
       "operationName": "GrokConversationItemsByRestId",
       "operationType": "query",
       "metadata": {
@@ -24594,6 +24806,8 @@
         "fieldToggles": [
           "withArticleRichContentState",
           "withArticlePlainText",
+          "withArticleSummaryText",
+          "withArticleVoiceOver",
           "withGrokAnalyze",
           "withDisallowedReplyControls",
           "withPayments",
@@ -24793,7 +25007,7 @@
   {
     "n": "85289",
     "exports": {
-      "queryId": "3aCm_HRrYXX8T7sas50Zlw",
+      "queryId": "HoKwGR2uZkswkQ9urwWkwA",
       "operationName": "GrokShare",
       "operationType": "query",
       "metadata": {
@@ -24838,6 +25052,8 @@
         "fieldToggles": [
           "withArticleRichContentState",
           "withArticlePlainText",
+          "withArticleSummaryText",
+          "withArticleVoiceOver",
           "withGrokAnalyze",
           "withDisallowedReplyControls",
           "withPayments",
@@ -25183,7 +25399,7 @@
   {
     "n": "42710",
     "exports": {
-      "queryId": "YbJbEx9Nq_2MblnxCzCqAA",
+      "queryId": "fBSucpdc6TcQt6KVeBPUwQ",
       "operationName": "ImmersiveMedia",
       "operationType": "query",
       "metadata": {
@@ -25231,6 +25447,8 @@
           "withAuxiliaryUserLabels",
           "withArticleRichContentState",
           "withArticlePlainText",
+          "withArticleSummaryText",
+          "withArticleVoiceOver",
           "withGrokAnalyze",
           "withDisallowedReplyControls"
         ],
@@ -25353,7 +25571,7 @@
   {
     "n": "09857",
     "exports": {
-      "queryId": "Bw3HZe43zlV_vw_WrD6h8Q",
+      "queryId": "VcdgSQdqCfNxfEUWoaymOA",
       "operationName": "ImmersiveProfile",
       "operationType": "query",
       "metadata": {
@@ -25401,6 +25619,8 @@
           "withAuxiliaryUserLabels",
           "withArticleRichContentState",
           "withArticlePlainText",
+          "withArticleSummaryText",
+          "withArticleVoiceOver",
           "withGrokAnalyze",
           "withDisallowedReplyControls"
         ],
@@ -25523,7 +25743,7 @@
   {
     "n": "70422",
     "exports": {
-      "queryId": "FY1fnIY9QOaUxWS7uAN4rA",
+      "queryId": "7Pe2mMffATfvdlM5KHZr5A",
       "operationName": "Favoriters",
       "operationType": "query",
       "metadata": {
@@ -25571,6 +25791,8 @@
           "withAuxiliaryUserLabels",
           "withArticleRichContentState",
           "withArticlePlainText",
+          "withArticleSummaryText",
+          "withArticleVoiceOver",
           "withGrokAnalyze",
           "withDisallowedReplyControls"
         ],
@@ -25693,7 +25915,7 @@
   {
     "n": "07959",
     "exports": {
-      "queryId": "mZJTQTQvDItJLohwr3sl_A",
+      "queryId": "oyhe9RTF3DusZlZloLZM-g",
       "operationName": "Retweeters",
       "operationType": "query",
       "metadata": {
@@ -25741,6 +25963,8 @@
           "withAuxiliaryUserLabels",
           "withArticleRichContentState",
           "withArticlePlainText",
+          "withArticleSummaryText",
+          "withArticleVoiceOver",
           "withGrokAnalyze",
           "withDisallowedReplyControls"
         ],
@@ -25863,7 +26087,7 @@
   {
     "n": "48271",
     "exports": {
-      "queryId": "suRyLQOeNuH4kR-MT2Rs2Q",
+      "queryId": "DpCPWsb5X90lGGgkpYoazA",
       "operationName": "TweetEditHistory",
       "operationType": "query",
       "metadata": {
@@ -25909,6 +26133,8 @@
         "fieldToggles": [
           "withArticleRichContentState",
           "withArticlePlainText",
+          "withArticleSummaryText",
+          "withArticleVoiceOver",
           "withGrokAnalyze",
           "withDisallowedReplyControls",
           "withPayments",
@@ -26033,7 +26259,7 @@
   {
     "n": "70422",
     "exports": {
-      "queryId": "FY1fnIY9QOaUxWS7uAN4rA",
+      "queryId": "7Pe2mMffATfvdlM5KHZr5A",
       "operationName": "Favoriters",
       "operationType": "query",
       "metadata": {
@@ -26081,6 +26307,8 @@
           "withAuxiliaryUserLabels",
           "withArticleRichContentState",
           "withArticlePlainText",
+          "withArticleSummaryText",
+          "withArticleVoiceOver",
           "withGrokAnalyze",
           "withDisallowedReplyControls"
         ],
@@ -26203,7 +26431,7 @@
   {
     "n": "07959",
     "exports": {
-      "queryId": "mZJTQTQvDItJLohwr3sl_A",
+      "queryId": "oyhe9RTF3DusZlZloLZM-g",
       "operationName": "Retweeters",
       "operationType": "query",
       "metadata": {
@@ -26251,6 +26479,8 @@
           "withAuxiliaryUserLabels",
           "withArticleRichContentState",
           "withArticlePlainText",
+          "withArticleSummaryText",
+          "withArticleVoiceOver",
           "withGrokAnalyze",
           "withDisallowedReplyControls"
         ],
@@ -26373,7 +26603,7 @@
   {
     "n": "48271",
     "exports": {
-      "queryId": "suRyLQOeNuH4kR-MT2Rs2Q",
+      "queryId": "DpCPWsb5X90lGGgkpYoazA",
       "operationName": "TweetEditHistory",
       "operationType": "query",
       "metadata": {
@@ -26419,6 +26649,8 @@
         "fieldToggles": [
           "withArticleRichContentState",
           "withArticlePlainText",
+          "withArticleSummaryText",
+          "withArticleVoiceOver",
           "withGrokAnalyze",
           "withDisallowedReplyControls",
           "withPayments",
@@ -26582,7 +26814,7 @@
   {
     "n": "45513",
     "exports": {
-      "queryId": "6ywBrBHkzVJK_yYtggmrsw",
+      "queryId": "7H2UlqM4PTpObmiB4WpETg",
       "operationName": "GrokConversationItemsByRestId",
       "operationType": "query",
       "metadata": {
@@ -26627,6 +26859,8 @@
         "fieldToggles": [
           "withArticleRichContentState",
           "withArticlePlainText",
+          "withArticleSummaryText",
+          "withArticleVoiceOver",
           "withGrokAnalyze",
           "withDisallowedReplyControls",
           "withPayments",
@@ -26826,7 +27060,7 @@
   {
     "n": "85289",
     "exports": {
-      "queryId": "3aCm_HRrYXX8T7sas50Zlw",
+      "queryId": "HoKwGR2uZkswkQ9urwWkwA",
       "operationName": "GrokShare",
       "operationType": "query",
       "metadata": {
@@ -26871,6 +27105,8 @@
         "fieldToggles": [
           "withArticleRichContentState",
           "withArticlePlainText",
+          "withArticleSummaryText",
+          "withArticleVoiceOver",
           "withGrokAnalyze",
           "withDisallowedReplyControls",
           "withPayments",
@@ -27044,7 +27280,7 @@
   {
     "n": "21879",
     "exports": {
-      "queryId": "xXZ28b8KggCrPM7kNxFziQ",
+      "queryId": "LJDMo1aQOI3GG2pcNikQwQ",
       "operationName": "BookmarkFolderTimeline",
       "operationType": "query",
       "metadata": {
@@ -27092,6 +27328,8 @@
           "withAuxiliaryUserLabels",
           "withArticleRichContentState",
           "withArticlePlainText",
+          "withArticleSummaryText",
+          "withArticleVoiceOver",
           "withGrokAnalyze",
           "withDisallowedReplyControls"
         ],
@@ -27240,7 +27478,7 @@
   {
     "n": "49186",
     "exports": {
-      "queryId": "c-7G4ohSLIuTcfa5Mn5qdw",
+      "queryId": "Yq6CSGrtJaZyTpxVkrzLnA",
       "operationName": "Bookmarks",
       "operationType": "query",
       "metadata": {
@@ -27288,6 +27526,8 @@
           "withAuxiliaryUserLabels",
           "withArticleRichContentState",
           "withArticlePlainText",
+          "withArticleSummaryText",
+          "withArticleVoiceOver",
           "withGrokAnalyze",
           "withDisallowedReplyControls"
         ],
@@ -27475,7 +27715,7 @@
   {
     "n": "21879",
     "exports": {
-      "queryId": "xXZ28b8KggCrPM7kNxFziQ",
+      "queryId": "LJDMo1aQOI3GG2pcNikQwQ",
       "operationName": "BookmarkFolderTimeline",
       "operationType": "query",
       "metadata": {
@@ -27523,6 +27763,8 @@
           "withAuxiliaryUserLabels",
           "withArticleRichContentState",
           "withArticlePlainText",
+          "withArticleSummaryText",
+          "withArticleVoiceOver",
           "withGrokAnalyze",
           "withDisallowedReplyControls"
         ],
@@ -27671,7 +27913,7 @@
   {
     "n": "49186",
     "exports": {
-      "queryId": "c-7G4ohSLIuTcfa5Mn5qdw",
+      "queryId": "Yq6CSGrtJaZyTpxVkrzLnA",
       "operationName": "Bookmarks",
       "operationType": "query",
       "metadata": {
@@ -27719,6 +27961,8 @@
           "withAuxiliaryUserLabels",
           "withArticleRichContentState",
           "withArticlePlainText",
+          "withArticleSummaryText",
+          "withArticleVoiceOver",
           "withGrokAnalyze",
           "withDisallowedReplyControls"
         ],
