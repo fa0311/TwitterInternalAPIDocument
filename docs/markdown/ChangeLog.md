@@ -8237,3 +8237,16 @@
 - responsive_web_grok_model_selector_in_input_min_android_version<br>
 #### remove<br>
 - None<br>
+## 2026/03/08<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- responsive_web_grok_article_summary_enabled<br>
+- xchat_drafts_in_inbox_preview<br>
+- xchat_observe_inbox_categories_separately<br>
+#### remove<br>
+- None<br>
