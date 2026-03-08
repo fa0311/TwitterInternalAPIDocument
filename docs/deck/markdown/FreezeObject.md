@@ -18,7 +18,7 @@ This document is entirely auto-generated and may contain errors.<br>
 ```
 ```internal process
 # Error
-{"keygen":"A","getPublicKey":"v","getSharedSecret":"d","utils":"g","lengths":"w","Point":"t","sign":"function()"{}{"const"{"seed":"_","k2sig":"c"}"=function()"{"const"{"lowS":"s","prehash":"h","extraEntropy":"o"}=qn();n=D(e,m);const _=S(n,h),c=a.fromBytes(n);if(i)throw new Error(!a.isValidNot0c);con...
+{"keygen":"A","getPublicKey":"v","getSharedSecret":"d","utils":"g","lengths":"w","Point":"t","sign":"function()"{}{"const"{"seed":"_","k2sig":"c"}"=function()"{"const"{"lowS":"s","prehash":"h","extraEntropy":"o"}=xn();n=D(e,m);const _=S(n,h),c=a.fromBytes(n);if(i)throw new Error(!a.isValidNot0c);con...
 ```
 ```internal process
 # Error
@@ -49,6 +49,16 @@ This document is entirely auto-generated and may contain errors.<br>
 | Root             | VideoPlayerDefaultUI-Root             |
 | VideoCTA         | VideoPlayerDefaultUI-VideoCTA         |
 
+| constant   | value      |
+|:-----------|:-----------|
+| wide       | wide       |
+| narrow     | narrow     |
+| veryNarrow | veryNarrow |
+
+```internal process
+# Error
+{[s.wide]:"500",[s.narrow]:"300",[s.veryNarrow]:"200"}
+```
 | constant   | value                                         |
 |:-----------|:----------------------------------------------|
 | REQUEST    | rweb/accountVerification/FETCH_ACCESS_REQUEST |
@@ -462,6 +472,16 @@ This document is entirely auto-generated and may contain errors.<br>
 | Transient         | 6                 |
 | 6                 | Transient         |
 
+| constant   | value      |
+|:-----------|:-----------|
+| wide       | wide       |
+| narrow     | narrow     |
+| veryNarrow | veryNarrow |
+
+```internal process
+# Error
+{[s.wide]:"500",[s.narrow]:"300",[s.veryNarrow]:"200"}
+```
 | constant         | value           |
 |:-----------------|:----------------|
 | LIVE_BROADCAST   | liveBroadcast   |
