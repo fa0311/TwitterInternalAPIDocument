@@ -774,19 +774,19 @@
     ]
   },
   {
-    "queryId": "geo/places",
-    "dispatch_key": "get",
+    "queryId": "live_pipeline/update_subscriptions",
+    "dispatch_key": "post",
     "dispatch": [
-      "get",
+      "post",
       "",
       "https://api.x.com/1.1/{queryId}.json"
     ]
   },
   {
-    "queryId": "live_pipeline/update_subscriptions",
-    "dispatch_key": "post",
+    "queryId": "geo/places",
+    "dispatch_key": "get",
     "dispatch": [
-      "post",
+      "get",
       "",
       "https://api.x.com/1.1/{queryId}.json"
     ]
@@ -886,6 +886,15 @@
     "dispatch_key": "put",
     "dispatch": [
       "put",
+      "",
+      "https://api.x.com/1.1/{queryId}.json"
+    ]
+  },
+  {
+    "queryId": "contacts/addressbook",
+    "dispatch_key": "get",
+    "dispatch": [
+      "get",
       "",
       "https://api.x.com/1.1/{queryId}.json"
     ]
