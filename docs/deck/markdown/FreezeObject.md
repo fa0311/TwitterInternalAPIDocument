@@ -5,20 +5,20 @@ This document is entirely auto-generated and may contain errors.<br>
 | __proto__          | null    |
 | assert             | f       |
 | requireNonNull     | A       |
-| requireInstance    | v       |
+| requireInstance    | g       |
 | abstractMethodFail | d       |
 
 ```internal process
 # Error
-{"name":"n","oprf":"$","voprf":"E","poprf":t=>{"const n=u()",e=i.BASE.multiply(A\"Info\",t,f);return{"generateKeyPair":"p","deriveKeyPair":()=>y(t,n),"blind(f,t,n)"{"const u=i.fromBytes()",_=e.add(n);if(u)throw new Error(_.equalsi.ZERO);const a=o(\"tweakedKey point at infinity\"),c=h(r);if(t,f)throw...
+{"name":"n","oprf":"$","voprf":"x","poprf":t=>{"const n=u()",e=i.BASE.multiply(A\"Info\",t,f);return{"generateKeyPair":"y","deriveKeyPair":()=>m(t,n),"blind(f,t,n)"{"const u=i.fromBytes()",a=e.add(n);if(u)throw new Error(a.equalsi.ZERO);const _=o(\"tweakedKey point at infinity\"),c=h(r);if(t,f)throw...
 ```
 ```internal process
 # Error
-{"getPublicKey":"o","getSharedSecret":"function()"{if()throw new Error(!0===_n);if(\"first arg must be private key\")throw new Error(!1===_e);const r=i.fromBytes(\"second arg must be public key\");return t.fromBytes(n).multiply(e).toBytes(r)},"keygen":"c","Point":"t","utils":"a","lengths":"h"}
+{"getPublicKey":"o","getSharedSecret":"function()"{if()throw new Error(!0===an);if(\"first arg must be private key\")throw new Error(!1===ae);const r=i.fromBytes(\"second arg must be public key\");return t.fromBytes(n).multiply(e).toBytes(r)},"keygen":"c","Point":"t","utils":"_","lengths":"h"}
 ```
 ```internal process
 # Error
-{"keygen":"A","getPublicKey":"v","getSharedSecret":"d","utils":"g","lengths":"w","Point":"t","sign":"function()"{}{"const"{"seed":"_","k2sig":"c"}"=function()"{"const"{"lowS":"s","prehash":"h","extraEntropy":"o"}=xn();n=D(e,m);const _=S(n,h),c=a.fromBytes(n);if(i)throw new Error(!a.isValidNot0c);con...
+{"keygen":"A","getPublicKey":"g","getSharedSecret":"d","utils":"v","lengths":"w","Point":"t","sign":"function()"{}{"const"{"seed":"a","k2sig":"c"}"=function()"{"const"{"lowS":"s","prehash":"h","extraEntropy":"o"}=En();n=D(e,p);const a=j(n,h),c=_.fromBytes(n);if(i)throw new Error(!_.isValidNot0c);con...
 ```
 ```internal process
 # Error
@@ -33,22 +33,6 @@ This document is entirely auto-generated and may contain errors.<br>
 # Error
 {"₊":"+","₋":"-","₌":"=","₍":"()","₀":"0","₁":"1","₂":"2","₃":"3","₄":"4","₅":"5","₆":"6","₇":"7","₈":"8","₉":"9",ₐ:"a",ₑ:"e",ₕ:"h",ᵢ:"i",ⱼ:"j",ₖ:"k",ₗ:"l",ₘ:"m",ₙ:"n",ₒ:"o",ₚ:"p",ᵣ:"r",ₛ:"s",ₜ:"t",ᵤ:"u",ᵥ:"v",ₓ:"x",ᵦ:"β",ᵧ:"γ",ᵨ:"ρ",ᵩ:"ϕ",ᵪ:"χ","⁺":"+","⁻":"-","⁼":"=","⁽":"(\",\"₎\":\")","⁰":"0","¹...
 ```
-| constant         | value           |
-|:-----------------|:----------------|
-| LIVE_BROADCAST   | liveBroadcast   |
-| REPLAY_BROADCAST | replayBroadcast |
-| VOD              | vod             |
-| GIF              | gif             |
-| SLATE            | slate           |
-
-| constant         | value                                 |
-|:-----------------|:--------------------------------------|
-| A11YHook         | VideoPlayerDefaultUI-A11YHook         |
-| ControlBar       | VideoPlayerDefaultUI-ControlBar       |
-| HashtagHighlight | VideoPlayerDefaultUI-HashtagHighlight |
-| Root             | VideoPlayerDefaultUI-Root             |
-| VideoCTA         | VideoPlayerDefaultUI-VideoCTA         |
-
 | constant   | value      |
 |:-----------|:-----------|
 | wide       | wide       |
@@ -59,6 +43,13 @@ This document is entirely auto-generated and may contain errors.<br>
 # Error
 {[s.wide]:"500",[s.narrow]:"300",[s.veryNarrow]:"200"}
 ```
+| constant   |   value |
+|:-----------|--------:|
+| large      |      54 |
+| medium     |      46 |
+| small      |      36 |
+| xSmall     |      12 |
+
 | constant   | value                                         |
 |:-----------|:----------------------------------------------|
 | REQUEST    | rweb/accountVerification/FETCH_ACCESS_REQUEST |
@@ -472,16 +463,6 @@ This document is entirely auto-generated and may contain errors.<br>
 | Transient         | 6                 |
 | 6                 | Transient         |
 
-| constant   | value      |
-|:-----------|:-----------|
-| wide       | wide       |
-| narrow     | narrow     |
-| veryNarrow | veryNarrow |
-
-```internal process
-# Error
-{[s.wide]:"500",[s.narrow]:"300",[s.veryNarrow]:"200"}
-```
 | constant         | value           |
 |:-----------------|:----------------|
 | LIVE_BROADCAST   | liveBroadcast   |
