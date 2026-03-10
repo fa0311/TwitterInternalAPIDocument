@@ -1524,10 +1524,10 @@
         "value": "true"
       },
       "responsive_web_card_image_poll_shuffle_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "responsive_web_card_image_poll_sort_by_vote_count_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "responsive_web_card_preconnect_enabled": {
         "value": "false"
@@ -4021,7 +4021,7 @@
         "value": "false"
       },
       "xchat_observe_inbox_users_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "xchat_observe_inbox_users_in_memory": {
         "value": "false"
@@ -4102,10 +4102,10 @@
         "value": "true"
       },
       "xprofile_consumption_enabled": {
-        "value": "true"
+        "value": "false"
       },
       "xprofile_editing_enabled": {
-        "value": "true"
+        "value": "false"
       },
       "xprofile_emojis_enabled": {
         "value": "true"
@@ -5553,10 +5553,10 @@
           "value": "true"
         },
         "responsive_web_card_image_poll_shuffle_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "responsive_web_card_image_poll_sort_by_vote_count_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "responsive_web_card_preconnect_enabled": {
           "value": "false"
@@ -5871,7 +5871,7 @@
           "value": "11.71"
         },
         "responsive_web_grok_outage_banner_message": {
-          "value": ""
+          "value": "We are experiencing issues with Grok at the moment. Grok may be unable to reply."
         },
         "responsive_web_grok_personality": {
           "value": "true"
@@ -7972,7 +7972,7 @@
           "value": "true"
         },
         "xchat_enable_in_memory_event_retry": {
-          "value": "false"
+          "value": "true"
         },
         "xchat_enable_local_pagination": {
           "value": "true"
@@ -8050,7 +8050,7 @@
           "value": "false"
         },
         "xchat_observe_inbox_users_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "xchat_observe_inbox_users_in_memory": {
           "value": "false"
@@ -8158,10 +8158,10 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "2ce08297ad0e73fd0aa1177c33e9699d"
+      "settingsVersion": "cf44eba9ac1af2b8fd7a773616cca0c2"
     },
     "debug": {},
-    "featureSetToken": "358128aa0afe52d293e2372f5e5a48d50fe433d6",
+    "featureSetToken": "207007a400c4ccf430d2cc896a5d57dd1c148e92",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -8231,7 +8231,7 @@
   },
   "session": {
     "country": "XX",
-    "guestId": "177309113982134677",
+    "guestId": "177317742323206562",
     "hasCommunityMemberships": "false",
     "isActiveCreator": "false",
     "isLoaded": "false",
