@@ -18,7 +18,7 @@ This document is entirely auto-generated and may contain errors.<br>
 ```
 ```internal process
 # Error
-{"keygen":"A","getPublicKey":"g","getSharedSecret":"d","utils":"v","lengths":"w","Point":"t","sign":"function()"{}{"const"{"seed":"a","k2sig":"c"}"=function()"{"const"{"lowS":"s","prehash":"h","extraEntropy":"o"}=En();n=D(e,p);const a=j(n,h),c=_.fromBytes(n);if(i)throw new Error(!_.isValidNot0c);con...
+{"keygen":"A","getPublicKey":"g","getSharedSecret":"d","utils":"v","lengths":"w","Point":"t","sign":"function()"{}{"const"{"seed":"a","k2sig":"c"}"=function()"{"const"{"lowS":"s","prehash":"h","extraEntropy":"o"}=En();n=z(e,p);const a=S(n,h),c=_.fromBytes(n);if(i)throw new Error(!_.isValidNot0c);con...
 ```
 ```internal process
 # Error
@@ -33,6 +33,22 @@ This document is entirely auto-generated and may contain errors.<br>
 # Error
 {"₊":"+","₋":"-","₌":"=","₍":"()","₀":"0","₁":"1","₂":"2","₃":"3","₄":"4","₅":"5","₆":"6","₇":"7","₈":"8","₉":"9",ₐ:"a",ₑ:"e",ₕ:"h",ᵢ:"i",ⱼ:"j",ₖ:"k",ₗ:"l",ₘ:"m",ₙ:"n",ₒ:"o",ₚ:"p",ᵣ:"r",ₛ:"s",ₜ:"t",ᵤ:"u",ᵥ:"v",ₓ:"x",ᵦ:"β",ᵧ:"γ",ᵨ:"ρ",ᵩ:"ϕ",ᵪ:"χ","⁺":"+","⁻":"-","⁼":"=","⁽":"(\",\"₎\":\")","⁰":"0","¹...
 ```
+| constant         | value           |
+|:-----------------|:----------------|
+| LIVE_BROADCAST   | liveBroadcast   |
+| REPLAY_BROADCAST | replayBroadcast |
+| VOD              | vod             |
+| GIF              | gif             |
+| SLATE            | slate           |
+
+| constant         | value                                 |
+|:-----------------|:--------------------------------------|
+| A11YHook         | VideoPlayerDefaultUI-A11YHook         |
+| ControlBar       | VideoPlayerDefaultUI-ControlBar       |
+| HashtagHighlight | VideoPlayerDefaultUI-HashtagHighlight |
+| Root             | VideoPlayerDefaultUI-Root             |
+| VideoCTA         | VideoPlayerDefaultUI-VideoCTA         |
+
 | constant   | value      |
 |:-----------|:-----------|
 | wide       | wide       |
@@ -321,24 +337,6 @@ This document is entirely auto-generated and may contain errors.<br>
 # Error
 {[U.LANDING_PAGE]:{"next":"U.NOTABILITY_CATEGORY_SELECT","scribeComponent":"s.LANDING_PAGE"},[U.NOTABILITY_CATEGORY_SELECT]:{"next":"null","scribeComponent":"s.NOTABILITY_CATEGORY"},[U.ACTIVIST_QUALIFICATIONS]:{"next":"null","scribeComponent":"s.NOTABILITY_METHOD"},[U.ACTIVIST_GOOGLE_TRENDS]:{"next"...
 ```
-| constant   | value                                                     |
-|:-----------|:----------------------------------------------------------|
-| REQUEST    | rweb/settings/profile/ENABLE_VERIFIED_PHONE_LABEL_REQUEST |
-| SUCCESS    | rweb/settings/profile/ENABLE_VERIFIED_PHONE_LABEL_SUCCESS |
-| FAILURE    | rweb/settings/profile/ENABLE_VERIFIED_PHONE_LABEL_FAILURE |
-
-| constant   | value                                                      |
-|:-----------|:-----------------------------------------------------------|
-| REQUEST    | rweb/settings/profile/DISABLE_VERIFIED_PHONE_LABEL_REQUEST |
-| SUCCESS    | rweb/settings/profile/DISABLE_VERIFIED_PHONE_LABEL_SUCCESS |
-| FAILURE    | rweb/settings/profile/DISABLE_VERIFIED_PHONE_LABEL_FAILURE |
-
-| constant   | value                                                    |
-|:-----------|:---------------------------------------------------------|
-| REQUEST    | rweb/settings/profile/FETCH_VERIFIED_PHONE_LABEL_REQUEST |
-| SUCCESS    | rweb/settings/profile/FETCH_VERIFIED_PHONE_LABEL_SUCCESS |
-| FAILURE    | rweb/settings/profile/FETCH_VERIFIED_PHONE_LABEL_FAILURE |
-
 | constant   | value   |
 |:-----------|:--------|
 | IOS        | ios     |
