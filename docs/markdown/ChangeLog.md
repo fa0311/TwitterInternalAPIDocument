@@ -8261,3 +8261,24 @@
 - responsive_web_grok_article_voice_over_min_ios_version<br>
 #### remove<br>
 - None<br>
+## 2026/03/11<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- responsive_web_grok_media_block_edit_enabled<br>
+- responsive_web_twitter_article_preview_cta_redirect_enabled<br>
+#### remove<br>
+- xchat_allow_latest_ckey_failure_for_one_on_one<br>
+- xchat_allow_legacy_group_member_add<br>
+- xchat_allow_legacy_media_uploads<br>
+- xchat_allow_legacy_message_requests<br>
+- xchat_conversation_message_search_enabled<br>
+- xchat_enabled_inbox_pill_counts<br>
+- xchat_fetch_legacy_group_details<br>
+- xchat_inbox_conversation_local_pagination<br>
+- xchat_screenshot_prevention_enabled<br>
+- xchat_use_info_items_for_sorting<br>
