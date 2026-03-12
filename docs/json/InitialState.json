@@ -1497,7 +1497,7 @@
         "value": "1"
       },
       "responsive_web_birdwatch_suggestion_rating_impact_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "responsive_web_birdwatch_suggestion_writer_impact_cutoff": {
         "value": "0"
@@ -5885,6 +5885,9 @@
         "responsive_web_grok_prompt_edit_enabled": {
           "value": "true"
         },
+        "responsive_web_grok_redirect_enabled": {
+          "value": "true"
+        },
         "responsive_web_grok_regen_configs": {
           "value": "false"
         },
@@ -8110,10 +8113,10 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "60c24513ce30d302c27a3c5ab1bb914d"
+      "settingsVersion": "31a778393cdcae0f29fa3aa5464f9f12"
     },
     "debug": {},
-    "featureSetToken": "f0a2859b669d473af3633447ec779c5bd523eb9a",
+    "featureSetToken": "2358f8d41e71dcb523d6f1e7e567cfc226834fd4",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -8183,7 +8186,7 @@
   },
   "session": {
     "country": "XX",
-    "guestId": "177326319640167003",
+    "guestId": "177334965798508699",
     "hasCommunityMemberships": "false",
     "isActiveCreator": "false",
     "isLoaded": "false",
