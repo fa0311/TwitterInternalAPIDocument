@@ -7354,3 +7354,14 @@
 - xchat_inbox_conversation_local_pagination<br>
 - xchat_screenshot_prevention_enabled<br>
 - xchat_use_info_items_for_sorting<br>
+## 2026/03/12<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- responsive_web_grok_redirect_enabled<br>
+#### remove<br>
+- None<br>
