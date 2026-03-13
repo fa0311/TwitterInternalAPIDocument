@@ -1226,6 +1226,9 @@
       "premium_paywall_on_app_load_fatigue_version": {
         "value": "1"
       },
+      "premium_paywall_on_app_load_journey_enabled": {
+        "value": "false"
+      },
       "premium_paywall_on_app_load_min_account_age_days": {
         "value": "60"
       },
@@ -1880,6 +1883,9 @@
       "responsive_web_grok_prompt_edit_enabled": {
         "value": "true"
       },
+      "responsive_web_grok_redirect_enabled": {
+        "value": "true"
+      },
       "responsive_web_grok_regen_configs": {
         "value": "false"
       },
@@ -2277,7 +2283,7 @@
         "value": "false"
       },
       "responsive_web_temporary_ocf_x_migration": {
-        "value": "false"
+        "value": "true"
       },
       "responsive_web_thread_media_ensure_root_urt": {
         "value": "true"
@@ -5231,6 +5237,9 @@
         "premium_paywall_on_app_load_fatigue_version": {
           "value": "1"
         },
+        "premium_paywall_on_app_load_journey_enabled": {
+          "value": "false"
+        },
         "premium_paywall_on_app_load_min_account_age_days": {
           "value": "60"
         },
@@ -6285,7 +6294,7 @@
           "value": "false"
         },
         "responsive_web_temporary_ocf_x_migration": {
-          "value": "false"
+          "value": "true"
         },
         "responsive_web_thread_media_ensure_root_urt": {
           "value": "true"
@@ -7148,6 +7157,9 @@
           "value": "false"
         },
         "subscriptions_offers_localized_pricing_enabled": {
+          "value": "false"
+        },
+        "subscriptions_offers_paywall_urgent_heading_enabled": {
           "value": "false"
         },
         "subscriptions_offers_premium_nav_indicator_enabled": {
@@ -8113,10 +8125,10 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "31a778393cdcae0f29fa3aa5464f9f12"
+      "settingsVersion": "d64be8a39d261a78716be3908474d8e9"
     },
     "debug": {},
-    "featureSetToken": "2358f8d41e71dcb523d6f1e7e567cfc226834fd4",
+    "featureSetToken": "6d7e10a9813388d282923af79b750de162b321ac",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -8186,7 +8198,7 @@
   },
   "session": {
     "country": "XX",
-    "guestId": "177335035444026958",
+    "guestId": "177343676502032910",
     "hasCommunityMemberships": "false",
     "isActiveCreator": "false",
     "isLoaded": "false",
