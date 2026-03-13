@@ -36,17 +36,6 @@
   },
   "{[s.wide]:\"500\",[s.narrow]:\"300\",[s.veryNarrow]:\"200\"}",
   {
-    "large": "54",
-    "medium": "46",
-    "small": "36",
-    "xSmall": "12"
-  },
-  {
-    "INFINITE": "infinite",
-    "MEDIUM": "medium",
-    "NONE": "none"
-  },
-  {
     "REQUEST": "rweb/accountVerification/FETCH_ACCESS_REQUEST",
     "SUCCESS": "rweb/accountVerification/FETCH_ACCESS_SUCCESS",
     "FAILURE": "rweb/accountVerification/FETCH_ACCESS_FAILURE"
