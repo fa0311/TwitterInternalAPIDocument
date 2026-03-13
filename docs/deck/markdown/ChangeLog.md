@@ -7365,3 +7365,15 @@
 - responsive_web_grok_redirect_enabled<br>
 #### remove<br>
 - None<br>
+## 2026/03/13<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- premium_paywall_on_app_load_journey_enabled<br>
+- subscriptions_offers_paywall_urgent_heading_enabled<br>
+#### remove<br>
+- None<br>
