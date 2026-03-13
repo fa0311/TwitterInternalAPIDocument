@@ -59,19 +59,6 @@ This document is entirely auto-generated and may contain errors.<br>
 # Error
 {[s.wide]:"500",[s.narrow]:"300",[s.veryNarrow]:"200"}
 ```
-| constant   |   value |
-|:-----------|--------:|
-| large      |      54 |
-| medium     |      46 |
-| small      |      36 |
-| xSmall     |      12 |
-
-| constant   | value    |
-|:-----------|:---------|
-| INFINITE   | infinite |
-| MEDIUM     | medium   |
-| NONE       | none     |
-
 | constant   | value                                         |
 |:-----------|:----------------------------------------------|
 | REQUEST    | rweb/accountVerification/FETCH_ACCESS_REQUEST |
