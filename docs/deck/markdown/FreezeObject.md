@@ -33,22 +33,6 @@ This document is entirely auto-generated and may contain errors.<br>
 # Error
 {"₊":"+","₋":"-","₌":"=","₍":"()","₀":"0","₁":"1","₂":"2","₃":"3","₄":"4","₅":"5","₆":"6","₇":"7","₈":"8","₉":"9",ₐ:"a",ₑ:"e",ₕ:"h",ᵢ:"i",ⱼ:"j",ₖ:"k",ₗ:"l",ₘ:"m",ₙ:"n",ₒ:"o",ₚ:"p",ᵣ:"r",ₛ:"s",ₜ:"t",ᵤ:"u",ᵥ:"v",ₓ:"x",ᵦ:"β",ᵧ:"γ",ᵨ:"ρ",ᵩ:"ϕ",ᵪ:"χ","⁺":"+","⁻":"-","⁼":"=","⁽":"(\",\"₎\":\")","⁰":"0","¹...
 ```
-| constant         | value           |
-|:-----------------|:----------------|
-| LIVE_BROADCAST   | liveBroadcast   |
-| REPLAY_BROADCAST | replayBroadcast |
-| VOD              | vod             |
-| GIF              | gif             |
-| SLATE            | slate           |
-
-| constant         | value                                 |
-|:-----------------|:--------------------------------------|
-| A11YHook         | VideoPlayerDefaultUI-A11YHook         |
-| ControlBar       | VideoPlayerDefaultUI-ControlBar       |
-| HashtagHighlight | VideoPlayerDefaultUI-HashtagHighlight |
-| Root             | VideoPlayerDefaultUI-Root             |
-| VideoCTA         | VideoPlayerDefaultUI-VideoCTA         |
-
 | constant   | value      |
 |:-----------|:-----------|
 | wide       | wide       |
@@ -472,16 +456,6 @@ This document is entirely auto-generated and may contain errors.<br>
 | Transient         | 6                 |
 | 6                 | Transient         |
 
-| constant   | value      |
-|:-----------|:-----------|
-| wide       | wide       |
-| narrow     | narrow     |
-| veryNarrow | veryNarrow |
-
-```internal process
-# Error
-{[s.wide]:"500",[s.narrow]:"300",[s.veryNarrow]:"200"}
-```
 | constant         | value           |
 |:-----------------|:----------------|
 | LIVE_BROADCAST   | liveBroadcast   |
