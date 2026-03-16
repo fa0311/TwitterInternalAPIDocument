@@ -8316,3 +8316,14 @@
 - rweb_timeline_simple_conversation_control_education_enabled<br>
 #### remove<br>
 - None<br>
+## 2026/03/16<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- content_disclosure_ai_generated_c2pa_detection_enabled<br>
+#### remove<br>
+- None<br>
