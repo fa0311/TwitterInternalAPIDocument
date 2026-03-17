@@ -5278,7 +5278,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{"name":"n","oprf":"$","voprf":"x","poprf":t=>{"const n=u()",e=i.BASE.multiply(A\"Info\",t,f);return{"generateKeyPair":"y","deriveKeyPair":()=>m(t,n),"blind(f,t,n)"{"const u=i.fromBytes()",a=e.add(n);if(u)throw new Error(a.equalsi.ZERO);const _=o(\"tweakedKey point at infinity\"),c=h(r);if(t,f)throw...
+{"name":"n","oprf":"$","voprf":"E","poprf":t=>{"const n=u()",e=i.BASE.multiply(A\"Info\",t,f);return{"generateKeyPair":"m","deriveKeyPair":()=>y(t,n),"blind(f,t,n)"{"const u=i.fromBytes()",a=e.add(n);if(u)throw new Error(a.equalsi.ZERO);const _=o(\"tweakedKey point at infinity\"),c=h(r);if(t,f)throw...
 ```
 ```internal process
 # Error
@@ -5286,7 +5286,7 @@ This document is entirely auto-generated and may contain errors.<br>
 ```
 ```internal process
 # Error
-{"keygen":"A","getPublicKey":"g","getSharedSecret":"d","utils":"v","lengths":"w","Point":"t","sign":"function()"{}{"const"{"seed":"a","k2sig":"c"}"=function()"{"const"{"lowS":"s","prehash":"h","extraEntropy":"o"}=En();n=z(e,p);const a=S(n,h),c=_.fromBytes(n);if(i)throw new Error(!_.isValidNot0c);con...
+{"keygen":"A","getPublicKey":"g","getSharedSecret":"d","utils":"v","lengths":"w","Point":"t","sign":"function()"{}{"const"{"seed":"a","k2sig":"c"}"=function()"{"const"{"lowS":"s","prehash":"h","extraEntropy":"o"}=xn();n=D(e,p);const a=S(n,h),c=_.fromBytes(n);if(i)throw new Error(!_.isValidNot0c);con...
 ```
 | constant   |   value |
 |:-----------|--------:|
@@ -5307,6 +5307,8 @@ This document is entirely auto-generated and may contain errors.<br>
 |:---------------|--------:|
 | MuteGuest      |      16 |
 | UnmuteGuest    |      17 |
+| RaiseHand      |      23 |
+| LowerHand      |      24 |
 | CameraOffGuest |      25 |
 | CameraOnGuest  |      26 |
 
@@ -6342,7 +6344,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{[M.v.FOLLOWS]:"V",[M.v.FRIENDS_OF_FRIENDS]:"G"}
+{[M.v.FOLLOWS]:"K",[M.v.FRIENDS_OF_FRIENDS]:"G"}
 ```
 | constant   | value   |
 |:-----------|:--------|
@@ -9885,14 +9887,16 @@ This document is entirely auto-generated and may contain errors.<br>
 | Rfp        | Rfp     |
 | Rtp        | Rtp     |
 
-| constant     | value        |
-|:-------------|:-------------|
-| Ach          | Ach          |
-| Check        | Check        |
-| DomesticWire | DomesticWire |
-| FedNow       | FedNow       |
-| Oct          | Oct          |
-| Rtp          | Rtp          |
+| constant                 | value                    |
+|:-------------------------|:-------------------------|
+| Ach                      | Ach                      |
+| Check                    | Check                    |
+| DomesticWire             | DomesticWire             |
+| FedNow                   | FedNow                   |
+| InternationalWireRegular | InternationalWireRegular |
+| InternationalWireSwift   | InternationalWireSwift   |
+| Oct                      | Oct                      |
+| Rtp                      | Rtp                      |
 
 | constant                      | value                         |
 |:------------------------------|:------------------------------|
@@ -12025,7 +12029,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | full_time          | i       |
 | full_time_contract | l       |
 | part_time          | a       |
-| contract_to_hire   | s       |
+| contract_to_hire   | c       |
 
 |   constant | value   |
 |-----------:|:--------|
