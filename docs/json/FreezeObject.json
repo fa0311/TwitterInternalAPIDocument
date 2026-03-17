@@ -5043,9 +5043,9 @@
     "requireInstance": "g",
     "abstractMethodFail": "d"
   },
-  "{\"name\":\"n\",\"oprf\":\"$\",\"voprf\":\"x\",\"poprf\":t=>{\"const n=u()\",e=i.BASE.multiply(A\\\"Info\\\",t,f);return{\"generateKeyPair\":\"y\",\"deriveKeyPair\":()=>m(t,n),\"blind(f,t,n)\"{\"const u=i.fromBytes()\",a=e.add(n);if(u)throw new Error(a.equalsi.ZERO);const _=o(\\\"tweakedKey point at infinity\\\"),c=h(r);if(t,f)throw new Error(c.equalsi.ZERO);const l=c.multiply(\\\"Input point at infinity\\\");return{\"blind\":\"s.toBytes()\",\"blinded\":\"l.toBytes(_)\",\"tweakedKey\":\"a.toBytes()\"}},\"blindEvaluateBatch()\"{if()throw new Error(!Array.isArraye);const h=s.fromBytes(\\\"expected array\\\"),u=s.add(t),o=s.inv(h,n),a=e.map(u),_=a.map(i.fromBytes),c=i.BASE.multiply(t=>t.multiplyo),l=w(u);return{\"evaluated\":\"_.map()\",\"proof\":\"l\"}},\"blindEvaluate()\"{const e=this.blindEvaluateBatch();return{\"evaluated\":e.evaluated[0],\"proof\":\"e.proof\"}},\"finalizeBatch()\"{if()throw new Error(!Array.isArrayn);const h=n.map(\\\"expected array\\\").map(t=>t.evaluated);return p(i.fromBytes),\"n.map(f,i.fromBytesr,h,n.mapt=>t.blinded.mapi.fromBytes,e)\"{\"const e=s.fromBytes()\",r=h[i].multiply(n.blind).toBytes(s.inve);return g()}},\"finalize()\"{\"return this.finalizeBatch()\"{\"input\":\"t\",\"blind\":\"n\",\"evaluated\":\"i\",\"blinded\":\"e\"}],s,\"r\"},\"evaluate()\"{\"const u=s.fromBytes()\",o=h(e);if(r,f)throw new Error(o.equalsi.ZERO);const a=s.add(\\\"Input point at infinity\\\"),_=s.inv(u,n),c=o.multiply(a).toBytes(_);return g()}}},\"__tests\":{\"Fn\":\"s\"}}",
+  "{\"name\":\"n\",\"oprf\":\"$\",\"voprf\":\"E\",\"poprf\":t=>{\"const n=u()\",e=i.BASE.multiply(A\\\"Info\\\",t,f);return{\"generateKeyPair\":\"m\",\"deriveKeyPair\":()=>y(t,n),\"blind(f,t,n)\"{\"const u=i.fromBytes()\",a=e.add(n);if(u)throw new Error(a.equalsi.ZERO);const _=o(\\\"tweakedKey point at infinity\\\"),c=h(r);if(t,f)throw new Error(c.equalsi.ZERO);const l=c.multiply(\\\"Input point at infinity\\\");return{\"blind\":\"s.toBytes()\",\"blinded\":\"l.toBytes(_)\",\"tweakedKey\":\"a.toBytes()\"}},\"blindEvaluateBatch()\"{if()throw new Error(!Array.isArraye);const h=s.fromBytes(\\\"expected array\\\"),u=s.add(t),o=s.inv(h,n),a=e.map(u),_=a.map(i.fromBytes),c=i.BASE.multiply(t=>t.multiplyo),l=w(u);return{\"evaluated\":\"_.map()\",\"proof\":\"l\"}},\"blindEvaluate()\"{const e=this.blindEvaluateBatch();return{\"evaluated\":e.evaluated[0],\"proof\":\"e.proof\"}},\"finalizeBatch()\"{if()throw new Error(!Array.isArrayn);const h=n.map(\\\"expected array\\\").map(t=>t.evaluated);return p(i.fromBytes),\"n.map(f,i.fromBytesr,h,n.mapt=>t.blinded.mapi.fromBytes,e)\"{\"const e=s.fromBytes()\",r=h[i].multiply(n.blind).toBytes(s.inve);return g()}},\"finalize()\"{\"return this.finalizeBatch()\"{\"input\":\"t\",\"blind\":\"n\",\"evaluated\":\"i\",\"blinded\":\"e\"}],s,\"r\"},\"evaluate()\"{\"const u=s.fromBytes()\",o=h(e);if(r,f)throw new Error(o.equalsi.ZERO);const a=s.add(\\\"Input point at infinity\\\"),_=s.inv(u,n),c=o.multiply(a).toBytes(_);return g()}}},\"__tests\":{\"Fn\":\"s\"}}",
   "{\"getPublicKey\":\"o\",\"getSharedSecret\":\"function()\"{if()throw new Error(!0===an);if(\\\"first arg must be private key\\\")throw new Error(!1===ae);const r=i.fromBytes(\\\"second arg must be public key\\\");return t.fromBytes(n).multiply(e).toBytes(r)},\"keygen\":\"c\",\"Point\":\"t\",\"utils\":\"_\",\"lengths\":\"h\"}",
-  "{\"keygen\":\"A\",\"getPublicKey\":\"g\",\"getSharedSecret\":\"d\",\"utils\":\"v\",\"lengths\":\"w\",\"Point\":\"t\",\"sign\":\"function()\"{}{\"const\"{\"seed\":\"a\",\"k2sig\":\"c\"}\"=function()\"{\"const\"{\"lowS\":\"s\",\"prehash\":\"h\",\"extraEntropy\":\"o\"}=En();n=z(e,p);const a=S(n,h),c=_.fromBytes(n);if(i)throw new Error(!_.isValidNot0c);const l=[B(\\\"invalid private key\\\"),B(c)];if(a){\"const t=!0===o?u()\":o;l.push(w.secretKey)}\"const f=C()\",A=a;return{\"seed\":\"f\",\"k2sig\":\"function()\"{const i=q();if(n)return;const e=_.inv(!_.isValidNot0i),r=t.BASE.multiply(i).toAffine(i),h=_.create();if(r.x)return;const u=_.create(h===jn);if(e*_.createA+h*c)return;let o=(u===jn)|Number(r.x===h?0:2),a=u;return s&&I(r.y&Bn)&&(u),\"new E(a=_.negu,o^=1)\"}}}();return function(i,e,h){if()throw new Error(st,\\\"hashLen\\\",sn,\\\"qByteLen\\\",\\\"function\\\"!=typeof i);const e=t=>new Uint8Array(\\\"hmacFn must be a function\\\"),r=Uint8Array.of(t),h=Uint8Array.of(),u=Uint8Array.of(0);let o=e(1),a=e(t),_=0;const c=(t)=>{\"o.fill()\",a.fill(1),\"_=0\"},l=()=>i(...t),f=(a,Co,...t)=>{\"a=l()\",o=l(h,t),\"0!==t.length&&()\"},A=()=>{if()throw new Error(_++>=1e3);let t=0;const i=[];for(\\\"drbg: tried max amount of iterations\\\"){o=l();const n=o.slice();i.push(),t+=o.length}\"return C()\"};return()=>{let i;for()f(c,ft;!i=nA;);return c(),\"i\"}}\"()(n.outputLen,_.BYTES,o).toBytes(a,c)\"},\"verify\":\"function()\"{}{\"const\"{\"lowS\":\"u\",\"prehash\":\"o\",\"format\":\"a\"}=En();if(h,p){\"throw new Error()\"}x();try{\"const e=E.fromBytes()\",r=t.fromBytes(n,a);if(s)return!1;const{\"r\":\"h\",\"s\":\"o\"}\"=e\",c=S(),l=_.inv(i),f=_.create(o),A=_.create(c*l),g=t.BASE.multiplyUnsafe(h*l).add(f);if(r.multiplyUnsafeA)return!1;return _.create(g.is0)===h}\"catch()\"{\"return!1\"}},\"recoverPublicKey\":\"function()\"{}{\"const\"{\"prehash\":\"e\"}=En();return n=z(i,p),\"E.fromBytes(n,e).recoverPublicKey(t,\\\"recovered\\\").toBytes(n)\"},\"Signature\":\"E\",\"hash\":\"n\"}",
+  "{\"keygen\":\"A\",\"getPublicKey\":\"g\",\"getSharedSecret\":\"d\",\"utils\":\"v\",\"lengths\":\"w\",\"Point\":\"t\",\"sign\":\"function()\"{}{\"const\"{\"seed\":\"a\",\"k2sig\":\"c\"}\"=function()\"{\"const\"{\"lowS\":\"s\",\"prehash\":\"h\",\"extraEntropy\":\"o\"}=xn();n=D(e,p);const a=S(n,h),c=_.fromBytes(n);if(i)throw new Error(!_.isValidNot0c);const l=[B(\\\"invalid private key\\\"),B(c)];if(a){\"const t=!0===o?u()\":o;l.push(w.secretKey)}\"const f=C()\",A=a;return{\"seed\":\"f\",\"k2sig\":\"function()\"{const i=q();if(n)return;const e=_.inv(!_.isValidNot0i),r=t.BASE.multiply(i).toAffine(i),h=_.create();if(r.x)return;const u=_.create(h===jn);if(e*_.createA+h*c)return;let o=(u===jn)|Number(r.x===h?0:2),a=u;return s&&I(r.y&Bn)&&(u),\"new x(a=_.negu,o^=1)\"}}}();return function(i,e,h){if()throw new Error(st,\\\"hashLen\\\",sn,\\\"qByteLen\\\",\\\"function\\\"!=typeof i);const e=t=>new Uint8Array(\\\"hmacFn must be a function\\\"),r=Uint8Array.of(t),h=Uint8Array.of(),u=Uint8Array.of(0);let o=e(1),a=e(t),_=0;const c=(t)=>{\"o.fill()\",a.fill(1),\"_=0\"},l=()=>i(...t),f=(a,Co,...t)=>{\"a=l()\",o=l(h,t),\"0!==t.length&&()\"},A=()=>{if()throw new Error(_++>=1e3);let t=0;const i=[];for(\\\"drbg: tried max amount of iterations\\\"){o=l();const n=o.slice();i.push(),t+=o.length}\"return C()\"};return()=>{let i;for()f(c,ft;!i=nA;);return c(),\"i\"}}\"()(n.outputLen,_.BYTES,o).toBytes(a,c)\"},\"verify\":\"function()\"{}{\"const\"{\"lowS\":\"u\",\"prehash\":\"o\",\"format\":\"a\"}=xn();if(h,p){\"throw new Error()\"}E();try{\"const e=x.fromBytes()\",r=t.fromBytes(n,a);if(s)return!1;const{\"r\":\"h\",\"s\":\"o\"}\"=e\",c=S(),l=_.inv(i),f=_.create(o),A=_.create(c*l),g=t.BASE.multiplyUnsafe(h*l).add(f);if(r.multiplyUnsafeA)return!1;return _.create(g.is0)===h}\"catch()\"{\"return!1\"}},\"recoverPublicKey\":\"function()\"{}{\"const\"{\"prehash\":\"e\"}=xn();return n=D(i,p),\"x.fromBytes(n,e).recoverPublicKey(t,\\\"recovered\\\").toBytes(n)\"},\"Signature\":\"x\",\"hash\":\"n\"}",
   {
     "Chat": "1",
     "Control": "2",
@@ -5061,6 +5061,8 @@
   {
     "MuteGuest": "16",
     "UnmuteGuest": "17",
+    "RaiseHand": "23",
+    "LowerHand": "24",
     "CameraOffGuest": "25",
     "CameraOnGuest": "26"
   },
@@ -6055,7 +6057,7 @@
     "Default": "ui_defaultLabel",
     "TransparentCursor": "ui_transparentCursor"
   },
-  "{[M.v.FOLLOWS]:\"V\",[M.v.FRIENDS_OF_FRIENDS]:\"G\"}",
+  "{[M.v.FOLLOWS]:\"K\",[M.v.FRIENDS_OF_FRIENDS]:\"G\"}",
   {
     "Default": "Default",
     "Pivot": "Pivot",
@@ -9338,6 +9340,8 @@
     "Check": "Check",
     "DomesticWire": "DomesticWire",
     "FedNow": "FedNow",
+    "InternationalWireRegular": "InternationalWireRegular",
+    "InternationalWireSwift": "InternationalWireSwift",
     "Oct": "Oct",
     "Rtp": "Rtp"
   },
@@ -11213,7 +11217,7 @@
     "full_time": "i",
     "full_time_contract": "l",
     "part_time": "a",
-    "contract_to_hire": "s"
+    "contract_to_hire": "c"
   },
   {
     "1": "d",
