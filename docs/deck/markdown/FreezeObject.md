@@ -10,7 +10,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{"name":"n","oprf":"$","voprf":"x","poprf":t=>{"const n=u()",e=i.BASE.multiply(A\"Info\",t,f);return{"generateKeyPair":"y","deriveKeyPair":()=>m(t,n),"blind(f,t,n)"{"const u=i.fromBytes()",a=e.add(n);if(u)throw new Error(a.equalsi.ZERO);const _=o(\"tweakedKey point at infinity\"),c=h(r);if(t,f)throw...
+{"name":"n","oprf":"$","voprf":"E","poprf":t=>{"const n=u()",e=i.BASE.multiply(A\"Info\",t,f);return{"generateKeyPair":"m","deriveKeyPair":()=>y(t,n),"blind(f,t,n)"{"const u=i.fromBytes()",a=e.add(n);if(u)throw new Error(a.equalsi.ZERO);const _=o(\"tweakedKey point at infinity\"),c=h(r);if(t,f)throw...
 ```
 ```internal process
 # Error
@@ -18,11 +18,46 @@ This document is entirely auto-generated and may contain errors.<br>
 ```
 ```internal process
 # Error
-{"keygen":"A","getPublicKey":"g","getSharedSecret":"d","utils":"v","lengths":"w","Point":"t","sign":"function()"{}{"const"{"seed":"a","k2sig":"c"}"=function()"{"const"{"lowS":"s","prehash":"h","extraEntropy":"o"}=En();n=z(e,p);const a=S(n,h),c=_.fromBytes(n);if(i)throw new Error(!_.isValidNot0c);con...
+{"keygen":"A","getPublicKey":"g","getSharedSecret":"d","utils":"v","lengths":"w","Point":"t","sign":"function()"{}{"const"{"seed":"a","k2sig":"c"}"=function()"{"const"{"lowS":"s","prehash":"h","extraEntropy":"o"}=xn();n=D(e,p);const a=S(n,h),c=_.fromBytes(n);if(i)throw new Error(!_.isValidNot0c);con...
 ```
 ```internal process
 # Error
+{[o.sj.AMPLIFY]:{"conversionHandler":"()"{"cardId":"e","cardType":"t","converterOptions":"a","data":"i"}{"const d=()(0,r.FL)",s=parseInt(i,\"image_value\",\"player_image_original\")/parseInt(0,r.SIi,\"string_value\",\"player_width\",10),_=(0,r.SIi,\"string_value\",\"player_height\",10)(0,r.SI),l=(i,...
+```
+| constant     | value             |
+|:-------------|:------------------|
+| navButtons   | navigationButtons |
+| carouselRoot | carouselRoot      |
+
+```internal process
+# Error
 {"₊":"+","₋":"-","₌":"=","₍":"()","₀":"0","₁":"1","₂":"2","₃":"3","₄":"4","₅":"5","₆":"6","₇":"7","₈":"8","₉":"9",ₐ:"a",ₑ:"e",ₕ:"h",ᵢ:"i",ⱼ:"j",ₖ:"k",ₗ:"l",ₘ:"m",ₙ:"n",ₒ:"o",ₚ:"p",ᵣ:"r",ₛ:"s",ₜ:"t",ᵤ:"u",ᵥ:"v",ₓ:"x",ᵦ:"β",ᵧ:"γ",ᵨ:"ρ",ᵩ:"ϕ",ᵪ:"χ","⁺":"+","⁻":"-","⁼":"=","⁽":"(\",\"₎\":\")","⁰":"0","¹...
+```
+| constant         | value           |
+|:-----------------|:----------------|
+| LIVE_BROADCAST   | liveBroadcast   |
+| REPLAY_BROADCAST | replayBroadcast |
+| VOD              | vod             |
+| GIF              | gif             |
+| SLATE            | slate           |
+
+| constant         | value                                 |
+|:-----------------|:--------------------------------------|
+| A11YHook         | VideoPlayerDefaultUI-A11YHook         |
+| ControlBar       | VideoPlayerDefaultUI-ControlBar       |
+| HashtagHighlight | VideoPlayerDefaultUI-HashtagHighlight |
+| Root             | VideoPlayerDefaultUI-Root             |
+| VideoCTA         | VideoPlayerDefaultUI-VideoCTA         |
+
+| constant   | value      |
+|:-----------|:-----------|
+| wide       | wide       |
+| narrow     | narrow     |
+| veryNarrow | veryNarrow |
+
+```internal process
+# Error
+{[s.wide]:"500",[s.narrow]:"300",[s.veryNarrow]:"200"}
 ```
 | constant   | value                                         |
 |:-----------|:----------------------------------------------|
@@ -295,6 +330,21 @@ This document is entirely auto-generated and may contain errors.<br>
 # Error
 {[U.LANDING_PAGE]:{"next":"U.NOTABILITY_CATEGORY_SELECT","scribeComponent":"s.LANDING_PAGE"},[U.NOTABILITY_CATEGORY_SELECT]:{"next":"null","scribeComponent":"s.NOTABILITY_CATEGORY"},[U.ACTIVIST_QUALIFICATIONS]:{"next":"null","scribeComponent":"s.NOTABILITY_METHOD"},[U.ACTIVIST_GOOGLE_TRENDS]:{"next"...
 ```
+| constant   | value   |
+|:-----------|:--------|
+| IOS        | ios     |
+| ANDROID    | android |
+
+| constant          |   value |
+|:------------------|--------:|
+| APPLE_APP_STORE   |       1 |
+| GOOGLE_PLAY_STORE |       2 |
+
+| constant   | value                                                                                                                |
+|:-----------|:---------------------------------------------------------------------------------------------------------------------|
+| apple      | https://apps.apple.com/account/billing                                                                               |
+| google     | https://play.google.com/store/account/subscriptions?sku=com.twitter.google.rogue.one.1.1&package=com.twitter.android |
+
 | constant              | value   |
 |:----------------------|:--------|
 | __proto__             | null    |
@@ -351,6 +401,16 @@ This document is entirely auto-generated and may contain errors.<br>
 # Error
 {"__proto__":"null","DEG2RAD":"xn","RAD2DEG":"_n","generateUUID":"bn","clamp":"Mn","euclideanModulo":"Sn","mapLinear":"function()"{return i+()*(t-e)/(r-i)},"inverseLerp":"function()"{return t!==e?()/(n-t):"0"},"lerp":"wn","damp":"function()"{"return wn()"},"pingpong":"function()"{return e-Math.abs()...
 ```
+| constant   | value      |
+|:-----------|:-----------|
+| Scheduled  | Scheduled  |
+| InProgress | InProgress |
+| Completed  | Completed  |
+| Postponed  | Postponed  |
+| Cancelled  | Cancelled  |
+| Unused6    | _Unused6   |
+| Unused7    | _Unused7   |
+
 | constant          | value             |
 |:------------------|:------------------|
 | InvalidAuth       | 0                 |
@@ -393,4 +453,13 @@ This document is entirely auto-generated and may contain errors.<br>
 | 5                 | Assertion         |
 | Transient         | 6                 |
 | 6                 | Transient         |
+
+| constant         | value           |
+|:-----------------|:----------------|
+| LIVE_BROADCAST   | liveBroadcast   |
+| REPLAY_BROADCAST | replayBroadcast |
+| AUDIOSPACE       | audiospace      |
+| VOD              | vod             |
+| GIF              | gif             |
+| SLATE            | slate           |
 
