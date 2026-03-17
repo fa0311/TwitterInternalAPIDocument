@@ -5691,7 +5691,7 @@
           "value": ""
         },
         "responsive_web_grok_420_toggle_enabled": {
-          "value": "true"
+          "value": "false"
         },
         "responsive_web_grok_allow_youtube_embeds": {
           "value": "false"
@@ -8140,7 +8140,7 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "a09d92aa37d0e51b7b7da94b5ace31f2"
+      "settingsVersion": "49e355611f1082848d282efd603c346b"
     },
     "debug": {},
     "featureSetToken": "2771d1360a7615ab6c4c7a468ae7aff1bdcf2f7f",
@@ -8213,7 +8213,7 @@
   },
   "session": {
     "country": "XX",
-    "guestId": "177369542627959494",
+    "guestId": "177378181150477025",
     "hasCommunityMemberships": "false",
     "isActiveCreator": "false",
     "isLoaded": "false",
