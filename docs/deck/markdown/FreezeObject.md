@@ -5,20 +5,20 @@ This document is entirely auto-generated and may contain errors.<br>
 | __proto__          | null    |
 | assert             | f       |
 | requireNonNull     | A       |
-| requireInstance    | v       |
+| requireInstance    | g       |
 | abstractMethodFail | d       |
 
 ```internal process
 # Error
-{"name":"n","oprf":"$","voprf":"E","poprf":t=>{"const n=u()",e=i.BASE.multiply(A\"Info\",t,f);return{"generateKeyPair":"p","deriveKeyPair":()=>y(t,n),"blind(f,t,n)"{"const u=i.fromBytes()",_=e.add(n);if(u)throw new Error(_.equalsi.ZERO);const a=o(\"tweakedKey point at infinity\"),c=h(r);if(t,f)throw...
+{"name":"n","oprf":"$","voprf":"E","poprf":t=>{"const n=u()",e=i.BASE.multiply(A\"Info\",t,f);return{"generateKeyPair":"m","deriveKeyPair":()=>y(t,n),"blind(f,t,n)"{"const u=i.fromBytes()",a=e.add(n);if(u)throw new Error(a.equalsi.ZERO);const _=o(\"tweakedKey point at infinity\"),c=h(r);if(t,f)throw...
 ```
 ```internal process
 # Error
-{"getPublicKey":"o","getSharedSecret":"function()"{if()throw new Error(!0===_n);if(\"first arg must be private key\")throw new Error(!1===_e);const r=i.fromBytes(\"second arg must be public key\");return t.fromBytes(n).multiply(e).toBytes(r)},"keygen":"c","Point":"t","utils":"a","lengths":"h"}
+{"getPublicKey":"o","getSharedSecret":"function()"{if()throw new Error(!0===an);if(\"first arg must be private key\")throw new Error(!1===ae);const r=i.fromBytes(\"second arg must be public key\");return t.fromBytes(n).multiply(e).toBytes(r)},"keygen":"c","Point":"t","utils":"_","lengths":"h"}
 ```
 ```internal process
 # Error
-{"keygen":"A","getPublicKey":"v","getSharedSecret":"d","utils":"g","lengths":"w","Point":"t","sign":"function()"{}{"const"{"seed":"_","k2sig":"c"}"=function()"{"const"{"lowS":"s","prehash":"h","extraEntropy":"o"}=qn();n=D(e,m);const _=S(n,h),c=a.fromBytes(n);if(i)throw new Error(!a.isValidNot0c);con...
+{"keygen":"A","getPublicKey":"g","getSharedSecret":"d","utils":"v","lengths":"w","Point":"t","sign":"function()"{}{"const"{"seed":"a","k2sig":"c"}"=function()"{"const"{"lowS":"s","prehash":"h","extraEntropy":"o"}=xn();n=D(e,p);const a=S(n,h),c=_.fromBytes(n);if(i)throw new Error(!_.isValidNot0c);con...
 ```
 ```internal process
 # Error
@@ -49,6 +49,16 @@ This document is entirely auto-generated and may contain errors.<br>
 | Root             | VideoPlayerDefaultUI-Root             |
 | VideoCTA         | VideoPlayerDefaultUI-VideoCTA         |
 
+| constant   | value      |
+|:-----------|:-----------|
+| wide       | wide       |
+| narrow     | narrow     |
+| veryNarrow | veryNarrow |
+
+```internal process
+# Error
+{[s.wide]:"500",[s.narrow]:"300",[s.veryNarrow]:"200"}
+```
 | constant   | value                                         |
 |:-----------|:----------------------------------------------|
 | REQUEST    | rweb/accountVerification/FETCH_ACCESS_REQUEST |
@@ -320,24 +330,6 @@ This document is entirely auto-generated and may contain errors.<br>
 # Error
 {[U.LANDING_PAGE]:{"next":"U.NOTABILITY_CATEGORY_SELECT","scribeComponent":"s.LANDING_PAGE"},[U.NOTABILITY_CATEGORY_SELECT]:{"next":"null","scribeComponent":"s.NOTABILITY_CATEGORY"},[U.ACTIVIST_QUALIFICATIONS]:{"next":"null","scribeComponent":"s.NOTABILITY_METHOD"},[U.ACTIVIST_GOOGLE_TRENDS]:{"next"...
 ```
-| constant   | value                                                     |
-|:-----------|:----------------------------------------------------------|
-| REQUEST    | rweb/settings/profile/ENABLE_VERIFIED_PHONE_LABEL_REQUEST |
-| SUCCESS    | rweb/settings/profile/ENABLE_VERIFIED_PHONE_LABEL_SUCCESS |
-| FAILURE    | rweb/settings/profile/ENABLE_VERIFIED_PHONE_LABEL_FAILURE |
-
-| constant   | value                                                      |
-|:-----------|:-----------------------------------------------------------|
-| REQUEST    | rweb/settings/profile/DISABLE_VERIFIED_PHONE_LABEL_REQUEST |
-| SUCCESS    | rweb/settings/profile/DISABLE_VERIFIED_PHONE_LABEL_SUCCESS |
-| FAILURE    | rweb/settings/profile/DISABLE_VERIFIED_PHONE_LABEL_FAILURE |
-
-| constant   | value                                                    |
-|:-----------|:---------------------------------------------------------|
-| REQUEST    | rweb/settings/profile/FETCH_VERIFIED_PHONE_LABEL_REQUEST |
-| SUCCESS    | rweb/settings/profile/FETCH_VERIFIED_PHONE_LABEL_SUCCESS |
-| FAILURE    | rweb/settings/profile/FETCH_VERIFIED_PHONE_LABEL_FAILURE |
-
 | constant   | value   |
 |:-----------|:--------|
 | IOS        | ios     |
