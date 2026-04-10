@@ -8096,7 +8096,7 @@
           "value": "false"
         },
         "xchat_send_franking_data": {
-          "value": "false"
+          "value": "true"
         },
         "xchat_send_signature_protocol_version": {
           "value": "4"
@@ -8156,7 +8156,7 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "8390bb764ca76e12dd809fe8d55e5b1a"
+      "settingsVersion": "60fdfc3a8474991cd6d35683e3bee645"
     },
     "debug": {},
     "featureSetToken": "9d954ba0894bf0b15d7b3a52f25bdb58261545c6",
@@ -8228,7 +8228,7 @@
   },
   "session": {
     "country": "XX",
-    "guestId": "177584603018494986",
+    "guestId": "177585946281501944",
     "hasCommunityMemberships": "false",
     "isActiveCreator": "false",
     "isLoaded": "false",
