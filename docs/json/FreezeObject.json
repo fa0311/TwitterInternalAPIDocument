@@ -1,39 +1,39 @@
 [
   {
     "NOT_RESPONDER": {
-      "DELAY": "i",
-      "RESPONDER_GRANT": "l",
-      "RESPONDER_RELEASE": "i",
-      "RESPONDER_TERMINATED": "i",
-      "LONG_PRESS_DETECTED": "i"
+      "DELAY": "$",
+      "RESPONDER_GRANT": "ee",
+      "RESPONDER_RELEASE": "$",
+      "RESPONDER_TERMINATED": "$",
+      "LONG_PRESS_DETECTED": "$"
     },
     "RESPONDER_INACTIVE_PRESS_START": {
-      "DELAY": "u",
-      "RESPONDER_GRANT": "i",
-      "RESPONDER_RELEASE": "o",
-      "RESPONDER_TERMINATED": "o",
-      "LONG_PRESS_DETECTED": "i"
+      "DELAY": "J",
+      "RESPONDER_GRANT": "$",
+      "RESPONDER_RELEASE": "Q",
+      "RESPONDER_TERMINATED": "Q",
+      "LONG_PRESS_DETECTED": "$"
     },
     "RESPONDER_ACTIVE_PRESS_START": {
-      "DELAY": "i",
-      "RESPONDER_GRANT": "i",
-      "RESPONDER_RELEASE": "o",
-      "RESPONDER_TERMINATED": "o",
-      "LONG_PRESS_DETECTED": "s"
+      "DELAY": "$",
+      "RESPONDER_GRANT": "$",
+      "RESPONDER_RELEASE": "Q",
+      "RESPONDER_TERMINATED": "Q",
+      "LONG_PRESS_DETECTED": "X"
     },
     "RESPONDER_ACTIVE_LONG_PRESS_START": {
-      "DELAY": "i",
-      "RESPONDER_GRANT": "i",
-      "RESPONDER_RELEASE": "o",
-      "RESPONDER_TERMINATED": "o",
-      "LONG_PRESS_DETECTED": "s"
+      "DELAY": "$",
+      "RESPONDER_GRANT": "$",
+      "RESPONDER_RELEASE": "Q",
+      "RESPONDER_TERMINATED": "Q",
+      "LONG_PRESS_DETECTED": "X"
     },
     "ERROR": {
-      "DELAY": "o",
-      "RESPONDER_GRANT": "l",
-      "RESPONDER_RELEASE": "o",
-      "RESPONDER_TERMINATED": "o",
-      "LONG_PRESS_DETECTED": "o"
+      "DELAY": "Q",
+      "RESPONDER_GRANT": "ee",
+      "RESPONDER_RELEASE": "Q",
+      "RESPONDER_TERMINATED": "Q",
+      "LONG_PRESS_DETECTED": "Q"
     }
   },
   {
@@ -57,6 +57,33 @@
     "Upcoming": "Upcoming"
   },
   {
+    "Active": "Active",
+    "Unspecified": "Unspecified",
+    "VerificationRequired": "VerificationRequired"
+  },
+  {
+    "AudienceRewardsOnboard": "AudienceRewardsOnboard",
+    "AudienceRewardsUpdatePaymentMethod": "AudienceRewardsUpdatePaymentMethod",
+    "ContactSupport": "ContactSupport",
+    "DebitCardAgreementConsent": "DebitCardAgreementConsent",
+    "Deposit": "Deposit",
+    "GetPremium": "GetPremium",
+    "KycDocumentUpload": "KycDocumentUpload",
+    "KycVerification": "KycVerification",
+    "LearnMore": "LearnMore",
+    "Questionnaire": "Questionnaire",
+    "Reonboard": "Reonboard",
+    "ResetPin": "ResetPin",
+    "SelfieVerification": "SelfieVerification",
+    "SetupDirectDeposit": "SetupDirectDeposit",
+    "SetupPasskey": "SetupPasskey",
+    "SetupPublicKeyCredential": "SetupPublicKeyCredential",
+    "TermsConsent": "TermsConsent",
+    "TosConsent": "TosConsent",
+    "UsageConsent": "UsageConsent",
+    "VerifyPasskey": "VerifyPasskey"
+  },
+  {
     "BalanceLevelFour": "BalanceLevelFour",
     "BalanceLevelOne": "BalanceLevelOne",
     "BalanceLevelThree": "BalanceLevelThree",
@@ -64,10 +91,13 @@
     "CancelRequestTransfer": "CancelRequestTransfer",
     "CancelTransfer": "CancelTransfer",
     "CashLoading": "CashLoading",
+    "Checkout": "Checkout",
     "ClaimTransfer": "ClaimTransfer",
+    "CloseAccount": "CloseAccount",
     "CompleteChallenge": "CompleteChallenge",
     "CompleteChallengedPublicKeyCredentialAttestation": "CompleteChallengedPublicKeyCredentialAttestation",
     "ConfirmUnrecognizedPayment": "ConfirmUnrecognizedPayment",
+    "CreateAccount": "CreateAccount",
     "CreateAdditionalPublicKeyCredentialAttestation": "CreateAdditionalPublicKeyCredentialAttestation",
     "CreateCustomer": "CreateCustomer",
     "CreateDeposit": "CreateDeposit",
@@ -79,8 +109,10 @@
     "CreatePaymentMethod": "CreatePaymentMethod",
     "CreatePublicKeyCredentialAssertion": "CreatePublicKeyCredentialAssertion",
     "CreateRecoveryPublicKeyCredentialAttestation": "CreateRecoveryPublicKeyCredentialAttestation",
+    "CreateScheduledPayment": "CreateScheduledPayment",
     "CreateSupportSession": "CreateSupportSession",
     "CreateTransfer": "CreateTransfer",
+    "CreateTransferLink": "CreateTransferLink",
     "CreateWithdrawal": "CreateWithdrawal",
     "DeletePaymentMethod": "DeletePaymentMethod",
     "DeletePublicKeyCredential": "DeletePublicKeyCredential",
@@ -95,9 +127,11 @@
     "GetCustomerIdentity": "GetCustomerIdentity",
     "GetCustomerLimits": "GetCustomerLimits",
     "GetCustomerNotices": "GetCustomerNotices",
+    "GetCustomerWidgets": "GetCustomerWidgets",
     "GetDocuments": "GetDocuments",
     "GetExternalContact": "GetExternalContact",
     "GetInvitationDetails": "GetInvitationDetails",
+    "GetIssuedCards": "GetIssuedCards",
     "GetPaymentMethod": "GetPaymentMethod",
     "GetQuestionnaires": "GetQuestionnaires",
     "GetSupportSessions": "GetSupportSessions",
@@ -106,12 +140,16 @@
     "LifetimeTransferReceiveVolumeKycVerified": "LifetimeTransferReceiveVolumeKycVerified",
     "LifetimeTransferSendVolumeKycUnverified": "LifetimeTransferSendVolumeKycUnverified",
     "LifetimeTransferSendVolumeKycVerified": "LifetimeTransferSendVolumeKycVerified",
+    "LinkPayoutAccount": "LinkPayoutAccount",
     "ListExternalContacts": "ListExternalContacts",
     "ListPublicKeyCredentials": "ListPublicKeyCredentials",
+    "LockIssuedCard": "LockIssuedCard",
+    "ManageAccountMembers": "ManageAccountMembers",
     "Offboard": "Offboard",
     "PaymentMethodLinkUpdateComplete": "PaymentMethodLinkUpdateComplete",
     "PrefillCustomerInfo": "PrefillCustomerInfo",
     "ReceiveIncomingWire": "ReceiveIncomingWire",
+    "ReceivePayout": "ReceivePayout",
     "ReceiveTransfer": "ReceiveTransfer",
     "RedeemCashback": "RedeemCashback",
     "RefundTransaction": "RefundTransaction",
@@ -120,8 +158,12 @@
     "RequestIssuedCard": "RequestIssuedCard",
     "RequestPhysicalIssuedCard": "RequestPhysicalIssuedCard",
     "RequestTransfer": "RequestTransfer",
+    "RespondToAccountInvitation": "RespondToAccountInvitation",
     "RespondToRequestTransfer": "RespondToRequestTransfer",
     "RespondToThreedsAuthentication": "RespondToThreedsAuthentication",
+    "RevealCustomerPersonalInfo": "RevealCustomerPersonalInfo",
+    "SaveMailingAddress": "SaveMailingAddress",
+    "SendClientEvents": "SendClientEvents",
     "SevenDayDepositVolumeKycUnverified": "SevenDayDepositVolumeKycUnverified",
     "SevenDayDepositVolumeKycVerified": "SevenDayDepositVolumeKycVerified",
     "SevenDayTransferReceiveVolumeKycUnverified": "SevenDayTransferReceiveVolumeKycUnverified",
@@ -144,16 +186,22 @@
     "TransferLevelOne": "TransferLevelOne",
     "TransferLevelThree": "TransferLevelThree",
     "TransferLevelTwo": "TransferLevelTwo",
+    "UnlinkPayoutAccount": "UnlinkPayoutAccount",
+    "UnlockIssuedCard": "UnlockIssuedCard",
+    "UpdateAccount": "UpdateAccount",
     "UpdateCustomer": "UpdateCustomer",
     "UpdateCustomerConsent": "UpdateCustomerConsent",
     "UpdateCustomerPhoneNumber": "UpdateCustomerPhoneNumber",
     "UpdateCustomerPreferences": "UpdateCustomerPreferences",
     "UpdateExternalContact": "UpdateExternalContact",
+    "UpdatePaymentMethod": "UpdatePaymentMethod",
     "UpdatePin": "UpdatePin",
     "UpdatePublicKeyCredential": "UpdatePublicKeyCredential",
+    "ValidateAddress": "ValidateAddress",
     "VerifyIdentity": "VerifyIdentity",
     "VerifyPasskey": "VerifyPasskey",
-    "VerifyPin": "VerifyPin"
+    "VerifyPin": "VerifyPin",
+    "ViewScheduledPayment": "ViewScheduledPayment"
   },
   {
     "BasicApy": "BasicApy",
@@ -163,10 +211,14 @@
     "CddPendingReview": "CddPendingReview",
     "CddRequired": "CddRequired",
     "Collections": "Collections",
+    "CreatorPayoutsOnboarded": "CreatorPayoutsOnboarded",
+    "CreatorSubscriptionsPayoutsOnboarded": "CreatorSubscriptionsPayoutsOnboarded",
     "DepositOnly": "DepositOnly",
     "DirectDepositEnrolled": "DirectDepositEnrolled",
+    "DirectDepositReceived": "DirectDepositReceived",
     "Frozen": "Frozen",
     "IdentityVerificationProviderUnavailable": "IdentityVerificationProviderUnavailable",
+    "IndividualProductActive": "IndividualProductActive",
     "Ineligible": "Ineligible",
     "IssuedCardRequestPending": "IssuedCardRequestPending",
     "KycAddressAttested": "KycAddressAttested",
@@ -182,6 +234,7 @@
     "OnboardingTargetKycVerified": "OnboardingTargetKycVerified",
     "OnboardingTargetTierTwo": "OnboardingTargetTierTwo",
     "PendingBalanceAutoClaim": "PendingBalanceAutoClaim",
+    "PendingDebitCardConsent": "PendingDebitCardConsent",
     "PendingKycUnverifiedLimitExceeded": "PendingKycUnverifiedLimitExceeded",
     "PendingPasskeyVerification": "PendingPasskeyVerification",
     "PendingReview": "PendingReview",
@@ -190,8 +243,14 @@
     "PendingTierThree": "PendingTierThree",
     "PendingTierTwo": "PendingTierTwo",
     "PendingTosConsent": "PendingTosConsent",
+    "PendingUsageConsent": "PendingUsageConsent",
+    "PersonalInfoRevealed": "PersonalInfoRevealed",
+    "ProductBundle3Cashback6Apy": "ProductBundle3Cashback6Apy",
+    "ProductBundleEarlyAdopterMegaBoost": "ProductBundleEarlyAdopterMegaBoost",
+    "ProductBundleFriendsFamily": "ProductBundleFriendsFamily",
     "PublicKeyCredentialAttested": "PublicKeyCredentialAttested",
     "PublicKeyCredentialRequired": "PublicKeyCredentialRequired",
+    "RecurringDeposits": "RecurringDeposits",
     "Registered": "Registered",
     "RestrictedGeolocation": "RestrictedGeolocation",
     "RestrictedGeolocationCountry": "RestrictedGeolocationCountry",
@@ -283,6 +342,12 @@
     "ArrowRight": "void 0"
   },
   {
+    "...n": "_"
+  },
+  {
+    "...a": "_"
+  },
+  {
     "instructions": []
   },
   {
@@ -331,15 +396,17 @@
   },
   {
     "all": "all",
-    "community": "community",
     "by_invitation": "by_invitation",
-    "followers": "followers",
-    "subscribers": "subscribers",
     "community_members": "community_members",
+    "community": "community",
+    "followers": "followers",
+    "my_network": "my_network",
+    "premium": "premium",
+    "subscribers": "subscribers",
     "super_followers_exclusive": "super_followers_exclusive",
     "trusted_friends_tweet": "trusted_friends_tweet",
     "verified": "verified",
-    "premium": "premium"
+    "co": "co"
   },
   {
     "Links": "Links"
@@ -350,7 +417,8 @@
     "Button": "Button",
     "InterstitialSheet": "InterstitialSheet",
     "SidebarModule": "SidebarModule",
-    "Card": "Card"
+    "Card": "Card",
+    "PremiumCard": "PremiumCard"
   },
   {
     "All": "All",
@@ -358,6 +426,7 @@
     "PremiumBasic": "PremiumBasic",
     "PremiumPlus": "PremiumPlus",
     "Radar": "Radar",
+    "Grok": "Grok",
     "VerifiedOrgs": "VerifiedOrgs",
     "Analytics": "Analytics"
   },
@@ -405,6 +474,7 @@
     "ReportAd": "ReportAd",
     "SidebarArticle": "SidebarArticle",
     "SidebarDefault": "SidebarDefault",
+    "SidebarGrokPromo": "SidebarGrokPromo",
     "SidebarLongform": "SidebarLongform",
     "SidebarPremiumPlus": "SidebarPremiumPlus",
     "SidebarVerifiedOrgs": "SidebarVerifiedOrgs",
@@ -432,7 +502,9 @@
     "noSizeLimit": "noSizeLimit",
     "full": "full",
     "jetfuel": "jetfuel",
-    "money": "money"
+    "money": "money",
+    "moneyMax": "moneyMax",
+    "tierSwitchConfirmation": "tierSwitchConfirmation"
   },
   {
     "TopNavBar": "TopNavBar",
@@ -457,21 +529,21 @@
     "Grok": "3",
     "Messages": "4",
     "Notifications": "5",
-    "Profile": "6",
-    "Videos": "7",
-    "Communities": "8",
+    "Connect": "6",
+    "Profile": "7",
+    "Articles": "8",
     "Premium": "9",
     "Payments": "10",
-    "CommunityNotes": "11",
-    "VerifiedOrgDash": "12",
-    "PremiumSignup": "13",
-    "Spaces": "14",
-    "VerifiedOrgSignup": "15",
-    "Analytics": "16",
-    "Bookmarks": "17",
-    "Articles": "18",
-    "Jobs": "19",
-    "Lists": "20",
+    "VerifiedOrg": "11",
+    "PremiumSignup": "12",
+    "VerifiedOrgSignup": "13",
+    "Analytics": "14",
+    "Bookmarks": "15",
+    "CreatorStudio": "16",
+    "Lists": "17",
+    "CommunityNotes": "18",
+    "Spaces": "19",
+    "Communities": "20",
     "Settings": "21"
   },
   {
@@ -724,8 +796,8 @@
       }
     }
   },
-  "{\"oneColumn\":\"r.primary\",\"twoColumn\":{\"small\":r.primary+r.gutter.left.small+r.secondary.small+r.gutter.right.normal,\"normal\":r.primary+r.gutter.left.normal+r.secondary.normal+r.gutter.right.normal,\"large\":r.primary+r.gutter.left.normal+r.secondary.normal+r.gutter.right.large}}",
-  "{\"oneColumn\":\"o.primary\",\"twoColumn\":{\"small\":o.primary+o.gutter.left.small+o.secondary.small+o.gutter.right.normal,\"normal\":o.primary+o.gutter.left.normal+o.secondary.normal+o.gutter.right.normal,\"large\":o.wide+o.gutter.left.normal+o.secondary.wide+o.gutter.right.large}}",
+  "{\"oneColumn\":\"i.primary\",\"twoColumn\":{\"small\":i.primary+i.gutter.left.small+i.secondary.small+i.gutter.right.normal,\"normal\":i.primary+i.gutter.left.normal+i.secondary.normal+i.gutter.right.normal,\"large\":i.primary+i.gutter.left.normal+i.secondary.normal+i.gutter.right.large}}",
+  "{\"oneColumn\":\"r.primary\",\"twoColumn\":{\"small\":r.primary+r.gutter.left.small+r.secondary.small+r.gutter.right.normal,\"normal\":r.primary+r.gutter.left.normal+r.secondary.normal+r.gutter.right.normal,\"large\":r.wide+r.gutter.left.normal+r.secondary.wide+r.gutter.right.large}}",
   {
     "normal": "300"
   },
@@ -738,16 +810,16 @@
     "max": "400"
   },
   {
-    "cardWidth": "l",
-    "columnWidths": "r",
-    "columnWidthsRedesign": "o",
-    "sideNavWidths": "a",
-    "sideNavWidthsRedesign": "i",
-    "contentWidths": "s",
-    "contentWidthsRedesign": "d",
-    "wideTabBarWidth": "c",
+    "cardWidth": "c",
+    "columnWidths": "i",
+    "columnWidthsRedesign": "r",
+    "sideNavWidths": "o",
+    "sideNavWidthsRedesign": "s",
+    "contentWidths": "a",
+    "contentWidthsRedesign": "l",
+    "wideTabBarWidth": "d",
     "dmDrawerHeight": "u",
-    "dmDrawerWidth": "h"
+    "dmDrawerWidth": "p"
   },
   {
     "Uninitialized": "UNINITIALIZED",
@@ -825,7 +897,7 @@
     "RaiseHand": "23",
     "LowerHand": "24"
   },
-  "{[h.SubmitRequest]:\"!0\",[h.CancelRequest]:\"!0\",[h.GuestCancelCountdown]:\"!0\",[h.GuestHangUp]:\"!0\",[h.InviteViewersToCallIn]:\"!0\",[h.ToggleCallIn]:\"!0\",[h.BeginCountdown]:\"!0\",[h.HostCancelCountdown]:\"!0\",[h.CompleteCountdown]:\"!0\",[h.HangUpOnGuest]:\"!0\",[h.BeginConnecting]:\"!0\",[h.GuestBroadcastingEnabled]:\"!0\",[h.UserInvited]:\"!0\",[h.RemoveParticipant]:\"!0\",[h.MuteGuest]:\"!1\",[h.UnmuteGuest]:\"!1\",[h.MuteSpace]:\"!1\",[h.UnmuteSpace]:\"!1\",[h.AddAdmin]:\"!0\",[h.RemoveAdmin]:\"!0\",[h.AdminStreamPublish]:\"!0\",[h.RaiseHand]:\"!1\",[h.LowerHand]:\"!1\"}",
+  "{[p.SubmitRequest]:\"!0\",[p.CancelRequest]:\"!0\",[p.GuestCancelCountdown]:\"!0\",[p.GuestHangUp]:\"!0\",[p.InviteViewersToCallIn]:\"!0\",[p.ToggleCallIn]:\"!0\",[p.BeginCountdown]:\"!0\",[p.HostCancelCountdown]:\"!0\",[p.CompleteCountdown]:\"!0\",[p.HangUpOnGuest]:\"!0\",[p.BeginConnecting]:\"!0\",[p.GuestBroadcastingEnabled]:\"!0\",[p.UserInvited]:\"!0\",[p.RemoveParticipant]:\"!0\",[p.MuteGuest]:\"!1\",[p.UnmuteGuest]:\"!1\",[p.MuteSpace]:\"!1\",[p.UnmuteSpace]:\"!1\",[p.AddAdmin]:\"!0\",[p.RemoveAdmin]:\"!0\",[p.AdminStreamPublish]:\"!0\",[p.RaiseHand]:\"!1\",[p.LowerHand]:\"!1\"}",
   {
     "Admin": "Admin",
     "Moderator": "Moderator",
@@ -847,7 +919,7 @@
     "Always": "always"
   },
   {
-    "latency": "s.BEST_EFFORT"
+    "latency": "a.BEST_EFFORT"
   },
   {
     "ContinueWith": "continue_with",
@@ -871,6 +943,289 @@
     "FourthVariation": "treatment_4"
   },
   {
+    "RESIZE": "resize",
+    "UPLOAD": "upload",
+    "METADATA": "metadata",
+    "MAXDURATION": "maxduration",
+    "MAXSIZE": "maxsize"
+  },
+  {
+    "AmplifyVideo": "amplify_video",
+    "CommunityBanner": "community_banner_image",
+    "ListBanner": "list_banner_image",
+    "TweetImage": "tweet_image",
+    "TweetVideo": "tweet_video",
+    "TweetGif": "tweet_gif",
+    "DMImage": "dm_image",
+    "DMVideo": "dm_video",
+    "DMGif": "dm_gif",
+    "Subtitles": "subtitles",
+    "ProfileBanner": "banner_image",
+    "CardImage": "card_image"
+  },
+  {
+    "Tweet": "tweet",
+    "Dm": "dm",
+    "ImagePollCard": "image_poll_card",
+    "CommunityBanner": "community_banner",
+    "ListBanner": "list_banner",
+    "ProfileBanner": "profile_banner",
+    "Avatar": "avatar",
+    "Verification": "verification",
+    "TwitterArticle": "twitter_article"
+  },
+  {
+    "Abort": "abort",
+    "ChromelessWeb": "chromeless_web_link",
+    "Deeplink": "deep_link",
+    "DeeplinkAndAbort": "deep_link_and_abort",
+    "DeeplinkInPlace": "deep_link_in_place",
+    "Finish": "finish",
+    "Subtask": "subtask",
+    "Task": "task",
+    "Web": "web_link",
+    "WeblinkAndAbort": "web_link_and_abort"
+  },
+  {
+    "Allow": "allow",
+    "CancelFlow": "cancel_flow",
+    "HideExplicitCta": "hide_explicit_cta",
+    "Disallow": "disallow"
+  },
+  {
+    "Default": "default",
+    "BulletList": "bullet_list"
+  },
+  {
+    "DestructiveSecondary": "destructive_secondary",
+    "Primary": "primary",
+    "Secondary": "secondary",
+    "Text": "text",
+    "Brand": "brand",
+    "TwitterBrand": "twitter_brand"
+  },
+  {
+    "Small": "small",
+    "NormalCompact": "normal_compact",
+    "Normal": "normal",
+    "LargeCompact": "large_compact",
+    "Large": "large"
+  },
+  {
+    "CheckmarkAndClose": "checkmark",
+    "Text": "text",
+    "ThumbsUpAndDown": "thumbs"
+  },
+  {
+    "Toolbar": "toolbar"
+  },
+  {
+    "Scrollable": "scrollable",
+    "Centered": "centered",
+    "CenteredHeader": "centered_header",
+    "HalfCover": "half_cover"
+  },
+  {
+    "Success": "success",
+    "Failure": "failure",
+    "Cancel": "cancel"
+  },
+  {
+    "Icon": "icon",
+    "FullWidth": "full_width",
+    "FullBleedTop": "full_bleed_top"
+  },
+  {
+    "PhoneOnly": "phone_only",
+    "EmailOnly": "email_only",
+    "PhoneThenEmail": "phone_then_email",
+    "EmailThenPhone": "email_then_phone"
+  },
+  {
+    "ActionList": "ACTION_LIST",
+    "AlertDialog": "ALERT_DIALOG",
+    "AlertDialogSupressClientEvents": "ALERT_DIALOG_SUPRESS_CLIENT_EVENTS",
+    "AppDownloadCTA": "APP_DOWNLOAD_CTA",
+    "AppLocaleUpdate": "APP_LOCALE_UPDATE",
+    "BrowsableNux": "BROWSABLE_NUX",
+    "CallToAction": "CALL_TO_ACTION",
+    "CheckLoggedInAccount": "CHECK_LOGGED_IN_ACCOUNT",
+    "ChoiceSelection": "CHOICE_SELECTION",
+    "ContactsLiveSyncPermissionPrompt": "CONTACTS_LIVE_SYNC_PERMISSION_PROMPT",
+    "EmailContactsSync": "EMAIL_CONTACTS_SYNC",
+    "EmailVerification": "EMAIL_VERIFICATION",
+    "EndFlow": "END_FLOW",
+    "EnterDate": "ENTER_DATE",
+    "EnterEmail": "ENTER_EMAIL",
+    "EnterPassword": "ENTER_PASSWORD",
+    "EnterPhone": "ENTER_PHONE",
+    "EnterRecaptcha": "ENTER_RECAPTCHA",
+    "EnterText": "ENTER_TEXT",
+    "EnterUsername": "ENTER_USERNAME",
+    "FetchPassword": "FETCH_PASSWORD",
+    "GenericURT": "GENERIC_URT",
+    "InAppNotification": "IN_APP_NOTIFICATION",
+    "InterestPicker": "INTEREST_PICKER",
+    "JsInstrumentation": "JS_INSTRUMENTATION",
+    "MenuDialog": "MENU_DIALOG",
+    "NotificationsPermissionPrompt": "NOTIFICATIONS_PERMISSION_PROMPT",
+    "OpenAccount": "OPEN_ACCOUNT",
+    "OpenHomeTimeline": "OPEN_HOME_TIMELINE",
+    "OpenLink": "OPEN_LINK",
+    "Passkey": "PASSKEY",
+    "PhoneVerification": "PHONE_VERIFICATION",
+    "PrivacyOptions": "PRIVACY_OPTIONS",
+    "Recaptcha": "RECAPTCHA",
+    "SecurityKey": "SECURITY_KEY",
+    "SelectAvatar": "SELECT_AVATAR",
+    "SelectBanner": "SELECT_BANNER",
+    "SettingsList": "SETTINGS_LIST",
+    "ShowCode": "SHOW_CODE",
+    "Signup": "SIGNUP",
+    "SignupReview": "SIGNUP_REVIEW",
+    "TopicsSelector": "TOPICS_SELECTOR",
+    "TweetSelectionURT": "TWEET_SELECTION_URT",
+    "TypeaheadSearch": "TYPEAHEAD_SEARCH",
+    "UpdateUsers": "UPDATE_USERS",
+    "UploadMedia": "UPLOAD_MEDIA",
+    "UserRecommendations": "USER_RECOMMENDATIONS_LIST",
+    "UserRecommendationsURT": "USER_RECOMMENDATIONS_URT",
+    "WaitSpinner": "WAIT_SPINNER",
+    "WebModal": "WEB_MODAL"
+  },
+  {
+    "Centered": "centered",
+    "Left": "left"
+  },
+  {
+    "Action": "action",
+    "Boolean": "boolean",
+    "DestructiveAction": "destructive_action",
+    "PreciseLocation": "precise_location",
+    "SettingsGroup": "settings_group",
+    "StaticText": "static_text",
+    "Separator": "separator",
+    "TextField": "text_field",
+    "Button": "button",
+    "Tweet": "tweet"
+  },
+  {
+    "AppleSSOButton": "apple_sso_button",
+    "GoogleSSOButton": "google_sso_button",
+    "NextButton": "next_button",
+    "UserIdentifier": "user_identifier"
+  },
+  {
+    "DEPRECATED_UnorderedList": "UnorderedList",
+    "DEPRECATED_ListItem": "ListItem",
+    "UnorderedList": "unordered_list",
+    "ListItem": "list_item"
+  },
+  {
+    "Normal": "Normal",
+    "Bold": "Bold"
+  },
+  {
+    "Small": "Small",
+    "Normal": "Normal",
+    "Large": "Large",
+    "XLarge": "XLarge",
+    "Jumbo": "Jumbo"
+  },
+  {
+    "Qr": "qr",
+    "Text": "text"
+  },
+  {
+    "Avatar": "avatar",
+    "Banner": "banner"
+  },
+  {
+    "Success": "success",
+    "NotFound": "not_found",
+    "Error": "error"
+  },
+  {
+    "Favorite": "favorite",
+    "Follow": "follow",
+    "Reply": "reply",
+    "Retweet": "retweet"
+  },
+  {
+    "Checkbox": "checkbox",
+    "Follow": "follow"
+  },
+  {
+    "Tile": "tile",
+    "List": "list",
+    "TileFollowButton": "tile_follow_btn"
+  },
+  {
+    "Always": "always",
+    "Never": "never",
+    "Preprompt": "preprompt"
+  },
+  {
+    "Email": "email",
+    "Number": "number",
+    "Password": "password",
+    "Telephone": "telephone",
+    "Text": "text"
+  },
+  {
+    "ResendSms": "resend_sms",
+    "ResendVoice": "resend_voice",
+    "ResendEmail": "resend_email"
+  },
+  {
+    "Password": "password",
+    "NewPassword": "new_password",
+    "Text": "text"
+  },
+  {
+    "Normal": "normal",
+    "Compact": "compact"
+  },
+  {
+    "Username": "username",
+    "Password": "password",
+    "NewPassword": "new_password",
+    "Text": "text"
+  },
+  {
+    "Mismatch": "mismatch"
+  },
+  {
+    "compact": "compact",
+    "stacked": "stacked"
+  },
+  {
+    "Fixed": "fixed",
+    "Floating": "floating",
+    "FloatingLarge": "floating_large"
+  },
+  {
+    "Default": "default",
+    "GoogleSSO": "google_sso",
+    "AppleSSO": "apple_sso"
+  },
+  {
+    "Impression": "impression",
+    "Click": "click"
+  },
+  {
+    "HeaderTitle": "header_title",
+    "HeaderSubtitle": "header_subtitle",
+    "SectionTitle": "section_title",
+    "Detail": "detail"
+  },
+  {
+    "All": "all",
+    "Users": "users",
+    "Topics": "topics",
+    "Events": "events"
+  },
+  {
     "onboarding": "onboarding",
     "linkExternalAccount": "linkExternalAccount",
     "upgradeToKycDocumentsVerified": "upgradeToKycDocumentsVerified",
@@ -878,19 +1233,20 @@
     "selfieVerification": "selfie",
     "verifyPaymentMethod": "verifyPaymentMethod",
     "autoclaim": "autoclaim",
-    "updateName": "updateName",
     "updateAddress": "updateAddress",
+    "updateMailingAddress": "updateMailingAddress",
     "updatePin": "updatePin",
     "forgotPin": "forgotPin",
     "recoverAccess": "recoverAccess",
     "migrateCredential": "migrateCredential",
     "checkPendingTransactions": "checkPendingTransactions",
     "challenge": "challenge",
-    "accountRouting": "accountRouting",
     "personal": "personal",
     "knownDevices": "knownDevices",
     "knownDevice": "knownDevice",
+    "knownDeviceModal": "knownDeviceModal",
     "cardOnboarding": "cardOnboarding",
+    "replaceCard": "replaceCard",
     "changeCardPin": "changeCardPin",
     "address": "address",
     "questions": "questions",
@@ -906,9 +1262,10 @@
     "credentials": "credentials",
     "credential": "credential",
     "updateCredential": "updateCredential",
-    "createCredential": "createCredential"
+    "createCredential": "createCredential",
+    "revealCustomerPersonalInfo": "revealCustomerPersonalInfo"
   },
-  "{[we.onboarding]:{\"path\":`${\"De\"}/onboarding`,\"defaultClosePath\":\"/\",\"redirectOnCompletion\":\"!0\",\"invalidateOnClose\":\"!0\",\"allowPublicKeyCredsWrite\":\"!0\"},[we.upgradeToKycVerified]:{\"path\":`${\"De\"}/tier2`,\"defaultClosePath\":\"/\",\"redirectOnCompletion\":\"!0\",\"invalidateOnClose\":\"!0\"},[we.upgradeToKycDocumentsVerified]:{\"path\":`${\"De\"}/tier3`,\"defaultClosePath\":\"/\",\"redirectOnCompletion\":\"!0\",\"invalidateOnClose\":\"!0\"},[we.selfieVerification]:{\"path\":`${\"De\"}/selfie`,\"defaultClosePath\":\"/\",\"redirectOnCompletion\":\"!0\",\"invalidateOnClose\":\"!0\"},[we.updateName]:{\"path\":`${\"De\"}/update`,\"defaultClosePath\":\"ue.personal\",\"redirectOnCompletion\":\"!0\",\"invalidateOnClose\":\"!0\"},[we.updateAddress]:{\"path\":`${\"De\"}/update`,\"defaultClosePath\":\"ue.personal\",\"redirectOnCompletion\":\"!0\",\"invalidateOnClose\":\"!0\"},[we.questions]:{\"path\":`${\"De\"}/questions`,\"defaultClosePath\":\"s\",\"redirectOnCompletion\":\"!0\",\"invalidateOnClose\":\"!0\"},[we.updatePin]:{\"path\":`${\"De\"}/update-pin`,\"defaultClosePath\":\"ue.securityPrivacy\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\"},[we.forgotPin]:{\"path\":`${\"De\"}/forgot-pin`,\"defaultClosePath\":\"ue.securityPrivacy\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\",\"allowPublicKeyCredsRead\":\"!0\"},[we.recoverAccess]:{\"path\":`${\"De\"}/recover-access`,\"defaultClosePath\":\"ue.securityPrivacy\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\",\"allowPublicKeyCredsRead\":\"!0\",\"allowPublicKeyCredsWrite\":\"!0\"},[we.migrateCredential]:{\"path\":`${\"De\"}/migrate-credential`,\"defaultClosePath\":\"s\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\",\"allowPublicKeyCredsRead\":\"!0\",\"allowPublicKeyCredsWrite\":\"!0\"},[we.createCredential]:{\"path\":`${\"De\"}/credentials/create`,\"defaultClosePath\":\"s\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\",\"allowPublicKeyCredsRead\":\"!0\",\"allowPublicKeyCredsWrite\":\"!0\"},[we.changeCardPin]:{\"path\":`${\"De\"}/change-card-pin`,\"defaultClosePath\":\"Q\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\",\"allowPublicKeyCredsRead\":\"!0\"},[we.accountRouting]:{\"path\":`${\"De\"}/account-routing-numbers`,\"defaultClosePath\":\"s\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"allowClipboardWrite\":\"!0\",\"invalidateOnClose\":\"!1\"},[we.fullAccountRouting]:{\"path\":`${\"De\"}/account-receive-wire`,\"defaultClosePath\":\"s\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"allowClipboardWrite\":\"!0\",\"invalidateOnClose\":\"!1\"},[we.challenge]:{\"path\":`${\"De\"}/challenge`,\"defaultClosePath\":\"/\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!0\",\"allowPublicKeyCredsRead\":\"!0\"},[we.personal]:{\"path\":`${\"De\"}/info`,\"defaultClosePath\":\"ue.personal\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"invalidateOnClose\":\"!1\"},[we.knownDevices]:{\"path\":`${\"De\"}/known-devices`,\"defaultClosePath\":\"ue.securityPrivacy\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"invalidateOnClose\":\"!1\"},[we.knownDevice]:{\"path\":`${\"De\"}/known-device`,\"defaultClosePath\":\"me.knownDevices\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"invalidateOnClose\":\"!1\"},[we.cardOnboarding]:{\"path\":`${\"De\"}/order-card`,\"defaultClosePath\":\"s\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\"},[we.address]:{\"path\":`${\"De\"}/address`,\"defaultClosePath\":\"Q\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"invalidateOnClose\":\"!1\"},[we.contacts]:{\"path\":`${\"De\"}/contacts`,\"defaultClosePath\":\"s\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"invalidateOnClose\":\"!1\"},[we.contactData]:{\"path\":e=>null!=e&&e.id?`${\"De\"}/contacts/${\"e.id\"}/data`:\"\",\"defaultClosePath\":\"s\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"invalidateOnClose\":\"!1\"},[we.contactDetails]:{\"path\":e=>null!=e&&e.id?`${\"De\"}/contacts/${\"e.id\"}`:\"\",\"defaultClosePath\":\"s\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"invalidateOnClose\":\"!1\"},[we.createContact]:{\"path\":`${\"De\"}/contacts/create`,\"defaultClosePath\":\"s\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\"},[we.updateContact]:{\"path\":e=>null!=e&&e.id?`${\"De\"}/contacts/${\"e.id\"}/update`:\"\",\"defaultClosePath\":\"s\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\"},[we.wireMeta]:{\"path\":e=>null!=e&&e.id?`${\"De\"}/transactions/${\"e.id\"}/wire`:\"\",\"defaultClosePath\":\"s\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"invalidateOnClose\":\"!1\"},[we.checkMeta]:{\"path\":e=>null!=e&&e.id?`${\"De\"}/transactions/${\"e.id\"}/check`:\"\",\"defaultClosePath\":\"s\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"invalidateOnClose\":\"!1\"},[we.credentials]:{\"path\":`${\"De\"}/credentials`,\"defaultClosePath\":\"ue.securityPrivacy\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"invalidateOnClose\":\"!1\"},[we.credential]:{\"path\":e=>null!=e&&e.id?`${\"De\"}/credentials/${\"e.id\"}`:\"\",\"defaultClosePath\":\"me.credentials\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"invalidateOnClose\":\"!1\"},[we.updateCredential]:{\"path\":e=>null!=e&&e.id?`${\"De\"}/credentials/${\"e.id\"}/update`:\"\",\"defaultClosePath\":\"me.credentials\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\"}}",
+  "{[Fe.upgradeToKycVerified]:{\"path\":`${\"De\"}/tier2`,\"defaultClosePath\":\"/\",\"redirectOnCompletion\":\"!0\",\"invalidateOnClose\":\"!0\"},[Fe.upgradeToKycDocumentsVerified]:{\"path\":`${\"De\"}/tier3`,\"defaultClosePath\":\"/\",\"redirectOnCompletion\":\"!0\",\"invalidateOnClose\":\"!0\"},[Fe.selfieVerification]:{\"path\":`${\"De\"}/selfie`,\"defaultClosePath\":\"/\",\"redirectOnCompletion\":\"!0\",\"invalidateOnClose\":\"!0\"},[Fe.updateAddress]:{\"path\":`${\"De\"}/update/address`,\"defaultClosePath\":\"Ce.personal\",\"redirectOnCompletion\":\"!0\",\"invalidateOnClose\":\"!0\"},[Fe.updateMailingAddress]:{\"path\":`${\"De\"}/update/mailing-address`,\"defaultClosePath\":\"Ce.personal\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\"},[Fe.questions]:{\"path\":`${\"De\"}/questions`,\"defaultClosePath\":\"d\",\"redirectOnCompletion\":\"!0\",\"invalidateOnClose\":\"!0\"},[Fe.updatePin]:{\"path\":`${\"De\"}/update-pin`,\"defaultClosePath\":\"Ce.securityPrivacy\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\"},[Fe.forgotPin]:{\"path\":`${\"De\"}/forgot-pin`,\"defaultClosePath\":\"Ce.securityPrivacy\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\",\"allowPublicKeyCredsRead\":\"!0\"},[Fe.recoverAccess]:{\"path\":`${\"De\"}/recover-access`,\"defaultClosePath\":\"Ce.securityPrivacy\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\",\"allowPublicKeyCredsRead\":\"!0\",\"allowPublicKeyCredsWrite\":\"!0\"},[Fe.migrateCredential]:{\"path\":`${\"De\"}/migrate-credential`,\"defaultClosePath\":\"d\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\",\"allowPublicKeyCredsRead\":\"!0\",\"allowPublicKeyCredsWrite\":\"!0\"},[Fe.createCredential]:{\"path\":`${\"De\"}/credentials/create`,\"defaultClosePath\":\"d\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\",\"allowPublicKeyCredsRead\":\"!0\",\"allowPublicKeyCredsWrite\":\"!0\"},[Fe.changeCardPin]:{\"path\":`${\"De\"}/change-card-pin`,\"defaultClosePath\":\"ne\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\",\"allowPublicKeyCredsRead\":\"!0\"},[Fe.fullAccountRouting]:{\"path\":`${\"De\"}/account-receive-wire`,\"defaultClosePath\":\"p\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"allowClipboardWrite\":\"!0\",\"invalidateOnClose\":\"!1\"},[Fe.challenge]:{\"path\":`${\"De\"}/challenge`,\"defaultClosePath\":\"/\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!0\",\"allowPublicKeyCredsRead\":\"!0\"},[Fe.personal]:{\"path\":`${\"De\"}/personal-info`,\"defaultClosePath\":\"Ce.personal\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"invalidateOnClose\":\"!1\"},[Fe.knownDevices]:{\"path\":`${\"De\"}/known-devices`,\"defaultClosePath\":\"Ce.securityPrivacy\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"invalidateOnClose\":\"!1\"},[Fe.knownDevice]:{\"path\":`${\"De\"}/known-device`,\"defaultClosePath\":\"Pe.knownDevices\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"invalidateOnClose\":\"!1\"},[Fe.knownDeviceModal]:{\"path\":`${\"De\"}/known-device`,\"defaultClosePath\":\"d\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\"},[Fe.cardOnboarding]:{\"path\":`${\"De\"}/order-card`,\"defaultClosePath\":\"d\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\"},[Fe.replaceCard]:{\"path\":`${\"De\"}/cards/replace`,\"defaultClosePath\":\"ne\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\",\"allowPublicKeyCredsRead\":\"!0\"},[Fe.contacts]:{\"path\":`${\"De\"}/contacts`,\"defaultClosePath\":\"d\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"invalidateOnClose\":\"!1\"},[Fe.contactData]:{\"path\":e=>null!=e&&e.id?`${\"De\"}/contacts/${\"e.id\"}/data`:\"\",\"defaultClosePath\":\"d\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"invalidateOnClose\":\"!1\"},[Fe.contactDetails]:{\"path\":e=>null!=e&&e.id?`${\"De\"}/contacts/${\"e.id\"}`:\"\",\"defaultClosePath\":\"d\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"invalidateOnClose\":\"!1\"},[Fe.createContact]:{\"path\":`${\"De\"}/contacts/create`,\"defaultClosePath\":\"d\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\"},[Fe.updateContact]:{\"path\":e=>null!=e&&e.id?`${\"De\"}/contacts/${\"e.id\"}/update`:\"\",\"defaultClosePath\":\"d\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\"},[Fe.wireMeta]:{\"path\":e=>null!=e&&e.id?`${\"De\"}/transactions/${\"e.id\"}/wire`:\"\",\"defaultClosePath\":\"d\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"invalidateOnClose\":\"!1\"},[Fe.checkMeta]:{\"path\":e=>null!=e&&e.id?`${\"De\"}/transactions/${\"e.id\"}/check`:\"\",\"defaultClosePath\":\"d\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"invalidateOnClose\":\"!1\"},[Fe.credentials]:{\"path\":`${\"De\"}/credentials`,\"defaultClosePath\":\"Ce.securityPrivacy\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"invalidateOnClose\":\"!1\"},[Fe.credential]:{\"path\":e=>null!=e&&e.id?`${\"De\"}/credentials/${\"e.id\"}`:\"\",\"defaultClosePath\":\"Pe.credentials\",\"redirectOnCompletion\":\"!1\",\"isInlineFrame\":\"!0\",\"invalidateOnClose\":\"!1\"},[Fe.updateCredential]:{\"path\":e=>null!=e&&e.id?`${\"De\"}/credentials/${\"e.id\"}/update`:\"\",\"defaultClosePath\":\"Pe.credentials\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\"},[Fe.revealCustomerPersonalInfo]:{\"path\":`${\"De\"}/reveal`,\"defaultClosePath\":\"d\",\"redirectOnCompletion\":\"!1\",\"invalidateOnClose\":\"!1\"}}",
   {
     "tier2": "tier2",
     "tier3": "tier3",
@@ -935,21 +1292,25 @@
     "addBankCard": "addBankCard",
     "addBankAccount": "addBankAccount",
     "closeAccount": "closeAccount",
+    "reonboard": "reonboard",
     "directDepositSetup": "directDepositSetup",
-    "removeCredential": "removeCredential"
+    "removeCredential": "removeCredential",
+    "cardLockToggle": "cardLockToggle",
+    "revealCustomerPersonalInfo": "revealCustomerPersonalInfo"
   },
   {
     "address": "address"
   },
   {
-    "Active": "Active",
-    "Unspecified": "Unspecified",
-    "VerificationRequired": "VerificationRequired"
+    "name": "name",
+    "address": "address",
+    "wire_details": "wire_details"
   },
   {
     "CustomerNotFound": "CustomerNotFound",
     "HighRisk": "HighRisk",
     "Internal": "Internal",
+    "MaintenanceModeEnabled": "MaintenanceModeEnabled",
     "Unspecified": "Unspecified"
   },
   {
@@ -957,12 +1318,35 @@
     "pro": "pro"
   },
   {
+    "BlueVerified": "BlueVerified",
+    "BlueVerifiedPlus": "BlueVerifiedPlus",
+    "BlueVerified3Months": "BlueVerified3Months",
+    "BlueVerified6Months": "BlueVerified6Months",
+    "BlueVerifiedPlus3Months": "BlueVerifiedPlus3Months",
+    "BlueVerifiedPlus6Months": "BlueVerifiedPlus6Months"
+  },
+  {
+    "...i.YE": "_",
+    "EMBEDDED_MEDIA": "embedded_media",
+    "FOOTER_PROFILE": "footer_profile",
+    "HASHTAG_CLICK": "hashtag_click",
+    "IMPRESSION": "impression",
+    "PROFILE_IMAGE_CLICK": "profile_image_click",
+    "SCREEN_NAME_CLICK": "screen_name_click",
+    "SMARTTAG_CLICK": "smarttag_click",
+    "URL_CLICK": "url_click",
+    "USER_MENTION_CLICK": "user_mention_click",
+    "VIEW_DETAILS": "view_details",
+    "DISMISS": "dismiss",
+    "DWELL": "long_dwell_view"
+  },
+  {
     "SPOTLIGHT_IMPRESSION": "spotlight_view",
     "SPOTLIGHT_CLICK": "spotlight_click",
     "TREND_VIEW": "trend_view",
     "TREND_CLICK": "trend_click"
   },
-  "{[o.Z.CASHTAG]:\"void 0\",[o.Z.EMOJI]:\"void 0\",[o.Z.HASHTAG]:\"a.HASHTAG_CLICK\",[o.Z.MEDIA]:\"void 0\",[o.Z.MENTION]:\"a.USER_MENTION_CLICK\",[o.Z.TEXT]:\"void 0\",[o.Z.TIMESTAMP]:\"void 0\",[o.Z.URL]:\"a.URL_CLICK\"}",
+  "{[r.Z.CASHTAG]:\"void 0\",[r.Z.EMOJI]:\"void 0\",[r.Z.HASHTAG]:\"o.HASHTAG_CLICK\",[r.Z.MEDIA]:\"void 0\",[r.Z.MENTION]:\"o.USER_MENTION_CLICK\",[r.Z.SMARTTAG]:\"o.SMARTTAG_CLICK\",[r.Z.TEXT]:\"void 0\",[r.Z.TIMESTAMP]:\"void 0\",[r.Z.URL]:\"o.URL_CLICK\"}",
   {
     "TWEET": "tweets",
     "USER": "users"
@@ -1092,7 +1476,6 @@
     "User": "user"
   },
   {
-    "SavedSearch": "savedSearch",
     "RecentSearch": "recentSearch"
   },
   {
@@ -1131,31 +1514,33 @@
     "Saved": "saved"
   },
   {
+    "Cashtag": "cashtag",
+    "CompanyProfile": "company_profile",
     "DMConversation": "dm_conversation",
     "Event": "event",
     "Hashtag": "hashtag",
+    "JobLocation": "job_location",
     "List": "list",
     "NoResult": "no_result",
     "Setting": "setting",
     "SettingGroup": "setting_group",
     "Topic": "topic",
-    "User": "user",
-    "JobLocation": "job_location",
-    "CompanyProfile": "company_profile"
+    "User": "user"
   },
   {
     "All": "all",
+    "Cashtags": "cashtags",
     "CommunityMembers": "communityMembers",
     "CommunityUsers": "communityUsers",
     "Events": "events",
     "Hashtags": "hashtags",
+    "JobLocations": "job_locations",
     "Lists": "lists",
+    "PaymentsUsers": "paymentsUsers",
     "Topics": "topics",
     "TrustedFriendsSuggested": "trustedFriendsSuggested",
     "TTTTopics": "topics,ttt",
-    "Users": "users",
-    "JobLocations": "job_locations",
-    "PaymentsUsers": "paymentsUsers"
+    "Users": "users"
   },
   {
     "AdsTransparencyCenter": "ads_transparency_center",
@@ -1179,7 +1564,6 @@
     "OcfTypeaheadSearch": "ocf_typeahead_search",
     "SearchBox": "search_box",
     "SpaceInviteSpeakerSearch": "space_invite_speaker_search",
-    "TrustedFriendsSuggested": "trusted_friends_list_management_page",
     "Unknown": "unknown",
     "WelcomeFlow": "welcome_flow"
   },
@@ -1288,6 +1672,33 @@
     "NewTweets": "NewTweets"
   },
   {
+    "...i": "_",
+    "...r": "_",
+    "FacepileGroup": "FacepileGroup",
+    "Community": "Community",
+    "Pin": "Pin",
+    "Like": "Like",
+    "Follow": "Follow",
+    "Moment": "Moment",
+    "Reply": "Reply",
+    "RelatedTweets": "RelatedTweets",
+    "ReplyPin": "ReplyPin",
+    "Conversation": "Conversation",
+    "TextOnly": "TextOnly",
+    "Facepile": "Facepile",
+    "Feedback": "Feedback",
+    "Topic": "Topic",
+    "List": "List",
+    "Location": "Location",
+    "Megaphone": "Megaphone",
+    "Bird": "Bird",
+    "NewUser": "NewUser",
+    "SmartBlockExpiration": "SmartBlockExpiration",
+    "Trending": "Trending",
+    "Spaces": "Spaces",
+    "Sparkle": "Sparkle"
+  },
+  {
     "Carousel": "Carousel",
     "CompactCarousel": "CompactCarousel",
     "ConversationTree": "ConversationTree",
@@ -1334,6 +1745,16 @@
     "Hero": "Hero"
   },
   {
+    "List": "List",
+    "ListTile": "ListTile",
+    "ListWithPin": "ListWithPin",
+    "ListWithSubscribe": "ListWithSubscribe"
+  },
+  {
+    "Creation": "list_creation",
+    "Edit": "list_edit"
+  },
+  {
     "Basic": "Basic",
     "Recommendation": "Recommendation",
     "Pivot": "Pivot"
@@ -1365,6 +1786,7 @@
     "SETTINGS": "/i/verified/settings",
     "JOB_PROMOTION_SETTINGS": "/i/verified/settings/job-promotion",
     "RADAR": "/i/business/radar",
+    "INSIGHTS": "/i/business/insights",
     "PEOPLE_SEARCH": "https://people.x.com/",
     "HANDLES": "/i/verified/handles"
   },
@@ -1379,13 +1801,18 @@
     "FAILURE": "rweb/broadcasts/FETCH_LATEST_BROADCAST_FAILURE"
   },
   {
+    "CLOSED": "closed",
+    "COLLAPSED": "collapsed",
+    "EXPANDED": "expanded"
+  },
+  {
     "REQUEST": "rweb/communityMemberships/FETCH_RECENT_MEMBERSHIPS_REQUEST",
     "SUCCESS": "rweb/communityMemberships/FETCH_RECENT_MEMBERSHIPS_SUCCESS",
     "FAILURE": "rweb/communityMemberships/FETCH_RECENT_MEMBERSHIPS_FAILURE"
   },
   {
     "memberships": [],
-    "fetchStatus": "a.ZP.NONE"
+    "fetchStatus": "o.ZP.NONE"
   },
   {
     "UPDATE_USERS": "UPDATE_USERS"
@@ -1400,7 +1827,7 @@
     "OFF": "Off",
     "UNDETERMINED": "Undetermined"
   },
-  "{[F.DEFAULT]:\"B.UNDETERMINED\",[F.DENIED]:\"B.OFF\",[F.GRANTED]:\"B.ON\"}",
+  "{[j.DEFAULT]:\"Z.UNDETERMINED\",[j.DENIED]:\"Z.OFF\",[j.GRANTED]:\"Z.ON\"}",
   {
     "REQUEST": "rweb/devices/REMOVE_PUSH_DESTINATION_REQUEST",
     "SUCCESS": "rweb/devices/REMOVE_PUSH_DESTINATION_SUCCESS",
@@ -1417,38 +1844,124 @@
     "FAILURE": "rweb/devices/FETCH_PUSH_NOTIFICATION_PERMISSION_STATE_FAILURE"
   },
   {
-    "broadcasts": "c",
-    "cards": "c",
-    "commerceItems": "c",
-    "communities": "c",
-    "conversations": "c",
-    "entries": "c",
-    "grokShare": "c",
-    "lists": "c",
-    "livestreams": "c",
-    "moments": "c",
-    "topics": "c",
-    "tweets": "c",
-    "articleEntities": "c",
-    "trustedFriends": "c",
-    "userPresence": "c",
-    "userCommunityInviteActionResult": "c",
-    "users": "c",
-    "aitrends": "c"
+    "broadcasts": "d",
+    "cards": "d",
+    "commerceItems": "d",
+    "communities": "d",
+    "conversations": "d",
+    "entries": "d",
+    "grokShare": "d",
+    "lists": "d",
+    "livestreams": "d",
+    "moments": "d",
+    "topics": "d",
+    "tweets": "d",
+    "articleEntities": "d",
+    "userPresence": "d",
+    "userCommunityInviteActionResult": "d",
+    "users": "d",
+    "aitrends": "d"
   },
   {
     "REQUEST": "rweb/featureSwitch/FETCH_FEATURE_SWITCHES_REQUEST",
     "SUCCESS": "rweb/featureSwitch/FETCH_FEATURE_SWITCHES_SUCCESS",
     "FAILURE": "rweb/featureSwitch/FETCH_FEATURE_SWITCHES_FAILURE"
   },
-  "{\"REQUEST\":`${\"m\"}/FETCH_PENDING_FOLLOWERS_REQUEST`,\"SUCCESS\":`${\"m\"}/FETCH_PENDING_FOLLOWERS_SUCCESS`,\"FAILURE\":`${\"m\"}/FETCH_PENDING_FOLLOWERS_FAILURE`}",
-  "{\"REQUEST\":`${\"m\"}/FETCH_PENDING_FOLLOWERS_USERS_REQUEST`,\"SUCCESS\":`${\"m\"}/FETCH_PENDING_FOLLOWERS_USERS_SUCCESS`,\"FAILURE\":`${\"m\"}/FETCH_PENDING_FOLLOWERS_USERS_FAILURE`}",
-  "{\"REQUEST\":`${\"m\"}/ACCEPT_PENDING_FOLLOWER_REQUEST`,\"SUCCESS\":`${\"m\"}/ACCEPT_PENDING_FOLLOWER_SUCCESS`,\"FAILURE\":`${\"m\"}/ACCEPT_PENDING_FOLLOWER_FAILURE`}",
-  "{\"REQUEST\":`${\"m\"}/DECLINE_PENDING_FOLLOWER_REQUEST`,\"SUCCESS\":`${\"m\"}/DECLINE_PENDING_FOLLOWER_SUCCESS`,\"FAILURE\":`${\"m\"}/DECLINE_PENDING_FOLLOWER_FAILURE`}",
+  "{\"REQUEST\":`${\"_\"}/FETCH_PENDING_FOLLOWERS_REQUEST`,\"SUCCESS\":`${\"_\"}/FETCH_PENDING_FOLLOWERS_SUCCESS`,\"FAILURE\":`${\"_\"}/FETCH_PENDING_FOLLOWERS_FAILURE`}",
+  "{\"REQUEST\":`${\"_\"}/FETCH_PENDING_FOLLOWERS_USERS_REQUEST`,\"SUCCESS\":`${\"_\"}/FETCH_PENDING_FOLLOWERS_USERS_SUCCESS`,\"FAILURE\":`${\"_\"}/FETCH_PENDING_FOLLOWERS_USERS_FAILURE`}",
+  "{\"REQUEST\":`${\"_\"}/ACCEPT_PENDING_FOLLOWER_REQUEST`,\"SUCCESS\":`${\"_\"}/ACCEPT_PENDING_FOLLOWER_SUCCESS`,\"FAILURE\":`${\"_\"}/ACCEPT_PENDING_FOLLOWER_FAILURE`}",
+  "{\"REQUEST\":`${\"_\"}/DECLINE_PENDING_FOLLOWER_REQUEST`,\"SUCCESS\":`${\"_\"}/DECLINE_PENDING_FOLLOWER_SUCCESS`,\"FAILURE\":`${\"_\"}/DECLINE_PENDING_FOLLOWER_FAILURE`}",
   {
     "CLOSED": "closed",
     "COLLAPSED": "collapsed",
     "EXPANDED": "expanded"
+  },
+  {
+    "REQUEST": "rweb/lists/FETCH_LISTMEMBERSHIPS_REQUEST",
+    "SUCCESS": "rweb/lists/FETCH_LISTMEMBERSHIPS_SUCCESS",
+    "FAILURE": "rweb/lists/FETCH_LISTMEMBERSHIPS_FAILURE"
+  },
+  "{\"data\":{\"lists\":[]},\"error\":\"null\",\"fetchStatus\":{[c.Yj.BOTTOM]:\"a.ZP.NONE\",[c.Yj.TOP]:\"a.ZP.NONE\"}}",
+  {
+    "uploading": "uploading",
+    "processing": "processing"
+  },
+  {
+    "0": "y.Zk.INTERNAL_ERROR",
+    "1": "y.Zk.INVALID_MEDIA",
+    "2": "y.Zk.FILE_TOO_LARGE",
+    "3": "y.Zk.UNSUPPORTED_MEDIA",
+    "4": "y.Zk.TIMEOUT"
+  },
+  {
+    "LocalFile": "local_file",
+    "Remote": "remote"
+  },
+  {
+    "Cancel": "cancel",
+    "Failure": "failure",
+    "Success": "success",
+    "Complete": "complete",
+    "Invalid": "invalid"
+  },
+  {
+    "InProgress": "in_progress",
+    "Complete": "complete",
+    "Failure": "failure",
+    "Canceled": "canceled"
+  },
+  {
+    "Full": "full",
+    "Hash": "hash",
+    "Processing": "processing",
+    "SruUpload": "sru_upload",
+    "UploadSubmitUntilSruFinish": "upload_submit_until_sru_finish",
+    "Metadata": "metadata"
+  },
+  {
+    "SruUpload": "sru_upload_no_eager",
+    "UploadSubmitUntilSruFinish": "upload_submit_until_sru_finish_no_eager"
+  },
+  {
+    "All": "all",
+    "Short": "short",
+    "Medium": "medium",
+    "Long": "long",
+    "XLong": "xlong",
+    "L90to140s": "l90to140s",
+    "L140to300s": "l140to300s",
+    "L300to600s": "l300to600s",
+    "L600to1200s": "l600to1200s",
+    "L1200to1800s": "l1200to1800s",
+    "L1800to2700s": "l1800to2700s",
+    "L2700to3600s": "l2700to3600s",
+    "L3600to4500s": "l3600to4500s",
+    "L4500to5400s": "l4500to5400s",
+    "L5400to6300s": "l5400to6300s",
+    "L6300to7200s": "l6300to7200s",
+    "L7200to10800s": "l7200to10800s",
+    "L10800to14400s": "l10800to14400s",
+    "LGT14400s": "lgt14400s"
+  },
+  {
+    "REQUEST": "rweb/ocf/FETCH_REQUEST",
+    "SUCCESS": "rweb/ocf/FETCH_SUCCESS",
+    "FAILURE": "rweb/ocf/FETCH_FAILURE"
+  },
+  {
+    "REQUEST": "rweb/ocf/START_REQUEST",
+    "SUCCESS": "rweb/ocf/START_SUCCESS",
+    "FAILURE": "rweb/ocf/START_FAILURE"
+  },
+  {
+    "REQUEST": "rweb/ocf/VERIFY_IDENTIFIER_REQUEST",
+    "SUCCESS": "rweb/ocf/VERIFY_IDENTIFIER_SUCCESS",
+    "FAILURE": "rweb/ocf/VERIFY_IDENTIFIER_FAILURE"
+  },
+  {
+    "REQUEST": "rweb/ocf/FETCH_BROWSABLE_NUX_RECOMMENDATIONS_REQUEST",
+    "SUCCESS": "rweb/ocf/FETCH_BROWSABLE_NUX_RECOMMENDATIONS_SUCCESS",
+    "FAILURE": "rweb/ocf/FETCH_BROWSABLE_NUX_RECOMMENDATIONS_FAILURE"
   },
   {
     "REQUEST": "rweb/pinnedTimelines/FETCH_PINNED_TIMELINES_REQUEST",
@@ -1456,44 +1969,9 @@
     "FAILURE": "rweb/pinnedTimelines/FETCH_PINNED_TIMELINES_FAILURE"
   },
   {
-    "REQUEST": "rweb/pinnedTimelines/PIN_TIMELINE_REQUEST",
-    "SUCCESS": "rweb/pinnedTimelines/PIN_TIMELINE_SUCCESS",
-    "FAILURE": "rweb/pinnedTimelines/PIN_TIMELINE_FAILURE"
-  },
-  {
-    "REQUEST": "rweb/pinnedTimelines/UNPIN_TIMELINE_REQUEST",
-    "SUCCESS": "rweb/pinnedTimelines/UNPIN_TIMELINE_SUCCESS",
-    "FAILURE": "rweb/pinnedTimelines/UNPIN_TIMELINE_FAILURE"
-  },
-  {
-    "HOME": "home",
-    "HOME_LATEST": "home_latest",
-    "CREATOR_SUBSCRIPTIONS": "creator_subscriptions"
-  },
-  {
-    "COMMUNITY": "Community",
-    "LIST": "List"
-  },
-  {
-    "LIKES": "Likes",
-    "RECENCY": "Recency",
-    "RELEVANCE": "Relevance"
-  },
-  {
-    "type": "l.HOME"
-  },
-  {
-    "type": "l.HOME_LATEST"
-  },
-  {
-    "type": "l.CREATOR_SUBSCRIPTIONS"
-  },
-  "{[l.HOME]:\"home\",[l.HOME_LATEST]:\"latest\",[l.LIST]:\"pinned_list\",[l.CREATOR_SUBSCRIPTIONS]:\"subscribed\",[l.COMMUNITY]:\"community\",[l.GENERIC]:\"generic\"}",
-  {
-    "fetchStatus": "C.ZP.NONE",
-    "selectedTimeline": "a.oO",
-    "sort": "a.UO.RELEVANCE",
-    "timelines": []
+    "FAILURE": "rweb/pinnedTimelines/TOGGLE_PIN_TIMELINE_FAILURE",
+    "REQUEST": "rweb/pinnedTimelines/TOGGLE_PIN_TIMELINE_REQUEST",
+    "SUCCESS": "rweb/pinnedTimelines/TOGGLE_PIN_TIMELINE_SUCCESS"
   },
   {
     "REQUEST": "rweb/upsells/FETCH_UPSELLS_REQUEST",
@@ -1595,12 +2073,12 @@
     "TOP": "top"
   },
   {
-    "down_cursor": "r.BOTTOM",
-    "max_id": "r.BOTTOM",
-    "max_position": "r.BOTTOM",
-    "min_position": "r.TOP",
-    "since_id": "r.TOP",
-    "up_cursor": "r.TOP"
+    "down_cursor": "i.BOTTOM",
+    "max_id": "i.BOTTOM",
+    "max_position": "i.BOTTOM",
+    "min_position": "i.TOP",
+    "since_id": "i.TOP",
+    "up_cursor": "i.TOP"
   },
   {
     "REQUEST": "rweb/typeaheadV2/FETCH_REQUEST",
@@ -1622,8 +2100,13 @@
     "TopAndBottom": "TopAndBottom"
   },
   {
+    "pinnedLists": "pinnedLists",
+    "ownedSubscribedList": "ownedSubscribedList"
+  },
+  {
     "All": "all",
     "Mentions": "mentions",
+    "Priority": "priority",
     "Verified": "verified",
     "Subscribers": "subscribers"
   },
@@ -1632,7 +2115,8 @@
     "with_replies": "with_replies",
     "superfollows": "superfollows",
     "highlights": "highlights",
-    "articles": "articles"
+    "articles": "articles",
+    "with_sort_and_filter": "with_sort_and_filter"
   },
   {
     "REQUEST": "rweb/userClaims/FETCH_CLAIMS_REQUEST",
@@ -1673,14 +2157,174 @@
     "VideoSpaceRoot": "VideoSpaceRoot"
   },
   {
-    "FOLLOWS": "follows",
-    "FRIENDS_OF_FRIENDS": "people_they_follow"
-  },
-  {
     "MisinformedOrPotentiallyMisleading": "mopm",
     "NotMisleading": "nm",
     "HarmfullyMisleading": "",
     "PotentiallyMisleading": ""
+  },
+  {
+    "label": "r().a4ef9cbe"
+  },
+  {
+    "label": "r().b9e1cf02"
+  },
+  {
+    "label": "r().e3275464"
+  },
+  {
+    "label": "r().dc80fcd6",
+    "description": "r().fc37a7ce"
+  },
+  {
+    "label": "r().c0728748",
+    "description": "r().bb1a58b0"
+  },
+  {
+    "label": "r().d1df1e18",
+    "description": "r().cc0ff70c"
+  },
+  {
+    "label": "r().ge32c25c",
+    "description": "r().j5bf97f4"
+  },
+  {
+    "onboarding": "onboarding",
+    "upgradeToKycDocumentsVerified": "upgradeToKycDocumentsVerified"
+  },
+  {
+    "credit": "credit",
+    "debit": "debit"
+  },
+  {
+    "XPayments": "XPayments"
+  },
+  {
+    "accountDetails": "accountDetails"
+  },
+  {
+    "transferMethodPane": "transferMethodPane",
+    "reviewPane": "reviewPane",
+    "amountPane": "amountPane",
+    "successPane": "successPane"
+  },
+  {
+    "selectAccount": "selectAccount"
+  },
+  {
+    "reviewPane": "reviewPane",
+    "participantPane": "participantPane",
+    "fundingPane": "fundingPane",
+    "statusPane": "statusPane"
+  },
+  {
+    "wireMetaPane": "wireMetaPane",
+    "checkMetaPane": "checkMetaPane"
+  },
+  {
+    "reviewPane": "reviewPane",
+    "amountPane": "amountPane",
+    "statusPane": "statusPane",
+    "infoPane": "infoPane",
+    "contactPane": "contactPane"
+  },
+  {
+    "infoPane": "infoPane",
+    "amountPane": "amountPane",
+    "contactPane": "contactPane",
+    "reviewPane": "reviewPane",
+    "statusPane": "statusPane"
+  },
+  {
+    "amountPane": "amountPane",
+    "statusPane": "statusPane"
+  },
+  {
+    "claimPane": "claimPane",
+    "completedPane": "completedPane"
+  },
+  {
+    "wire": "wire",
+    "check": "check"
+  },
+  "{\"deposit\":\"Object.freeze()\"{\"label\":\"r().a4ef9cbe\"}{\"label\":\"r().b9e1cf02\"}{\"label\":\"r().e3275464\"}{\"label\":\"r().dc80fcd6\",\"description\":\"r().fc37a7ce\"}{\"label\":\"r().c0728748\",\"description\":\"r().bb1a58b0\"}{\"label\":\"r().d1df1e18\",\"description\":\"r().cc0ff70c\"}{\"label\":\"r().ge32c25c\",\"description\":\"r().j5bf97f4\"}}",
+  {
+    "bankDeposit": "bankDeposit",
+    "bankWithdraw": "bankWithdraw",
+    "card": "card",
+    "atm": "atm"
+  },
+  {
+    "personal": "personal",
+    "institution": "institution"
+  },
+  {
+    "bank": "bank",
+    "card": "card",
+    "x": "x",
+    "cash": "cash",
+    "check": "check"
+  },
+  {
+    "terms-and-conditions": "terms-and-conditions",
+    "acceptable-use-policy": "acceptable-use-policy",
+    "cardholder-agreement": "cardholder-agreement"
+  },
+  "{[x.C.TermsConsent]:{\"pathname\":\"S.qj\",\"state\":{\"step\":\"infoPane\"}}}",
+  {
+    "initiate": "initiate-challenge",
+    "complete2fa": "2fa-complete-challenge",
+    "completeKyc": "kyc-complete-challenge",
+    "completeDocv": "docv-complete-challenge",
+    "completeSelfie": "selfie-complete-challenge"
+  },
+  {
+    "balance": "balance",
+    "credit": "credit",
+    "debit": "debit"
+  },
+  {
+    "default": "default",
+    "transactionDetails": "transactionDetails",
+    "transactionList": "transactionList"
+  },
+  {
+    "cash": "cash",
+    "creditcardBack": "creditcardBack",
+    "creditcardCashback": "creditcardCashback",
+    "deposit": "deposit",
+    "fire": "fire",
+    "link": "link",
+    "money": "money",
+    "moneyHand": "moneyHand",
+    "receiptCheckmark": "receiptCheckmark",
+    "receiptClose": "receiptClose",
+    "star": "star",
+    "superfollow": "superfollow",
+    "trending": "trending",
+    "withdrawal": "withdrawal",
+    "squareFallback": "squareFallback",
+    "reload": "reload",
+    "lightning": "lightning"
+  },
+  {
+    "DEPOSIT": "DEPOSIT",
+    "WITHDRAWAL": "WITHDRAWAL",
+    "P2P_TRANSFER_SEND": "P2P_TRANSFER_SEND",
+    "P2P_TRANSFER_SEND_FUNDED": "P2P_TRANSFER_SEND_FUNDED",
+    "P2P_TRANSFER_REQUEST": "P2P_TRANSFER_REQUEST",
+    "ACCOUNT_LINKING": "ACCOUNT_LINKING",
+    "SEND_WIRE_TRANSFER": "SEND_WIRE_TRANSFER",
+    "MAIL_CHECK": "MAIL_CHECK",
+    "CLOSE_ACCOUNT": "CLOSE_ACCOUNT",
+    "REONBOARD": "REONBOARD",
+    "CREATE_TRANSFER_LINK": "CREATE_TRANSFER_LINK",
+    "CLAIM_TRANSFER_LINK": "CLAIM_TRANSFER_LINK"
+  },
+  "{[oe.SEND_WIRE_TRANSFER]:\"S.K8\",[oe.ACCOUNT_LINKING]:\"S.iE.bankAccounts\",[oe.DEPOSIT]:\"S.IN\",[oe.P2P_TRANSFER_REQUEST]:\"S.Jv\",[oe.P2P_TRANSFER_SEND]:\"S.HM\",[oe.P2P_TRANSFER_SEND_FUNDED]:\"S.HM\",[oe.WITHDRAWAL]:\"S.r0\",[oe.MAIL_CHECK]:\"S.vB\",[oe.CREATE_TRANSFER_LINK]:\"S.NA\"}",
+  {
+    "daily": "daily",
+    "monthly": "monthly",
+    "perEntry": "perEntry"
   },
   {
     "Intro": "intro",
@@ -1716,33 +2360,33 @@
     "NoMatch": "noMatch"
   },
   {
-    "AU": "()(0,o.ju)",
-    "BR": "(\"https://legal.x.com/ads-terms/apac.html\")(0,o.ju)",
-    "GB": "(\"https://legal.x.com/ads-terms/brazil.html\")(0,o.ju)",
-    "ID": "(\"https://legal.x.com/ads-terms/uk.html\")(0,o.ju)",
-    "JP": "(\"https://legal.x.com/ads-terms/indonesia.html\")(0,o.ju)",
-    "NZ": "(\"https://legal.x.com/ads-terms/japan.html\")(0,o.ju)",
-    "US": "(\"https://legal.x.com/ads-terms/apac.html\")(0,o.ju)"
+    "AU": "()(0,r.ju)",
+    "BR": "(\"https://legal.x.com/ads-terms/apac.html\")(0,r.ju)",
+    "GB": "(\"https://legal.x.com/ads-terms/brazil.html\")(0,r.ju)",
+    "ID": "(\"https://legal.x.com/ads-terms/uk.html\")(0,r.ju)",
+    "JP": "(\"https://legal.x.com/ads-terms/indonesia.html\")(0,r.ju)",
+    "NZ": "(\"https://legal.x.com/ads-terms/japan.html\")(0,r.ju)",
+    "US": "(\"https://legal.x.com/ads-terms/apac.html\")(0,r.ju)"
   },
   {
-    "en": "()(0,o.ju)",
-    "de": "(\"https://business.x.com/en/campaign/quick-promote-conditional-coupon-terms.html\")(0,o.ju)",
-    "es": "(\"https://business.x.com/de/campaign/quick-promote-conditional-coupon-terms.html\")(0,o.ju)",
-    "fr": "(\"https://business.x.com/es/campaign/quick-promote-conditional-coupon-terms.html\")(0,o.ju)",
-    "ja": "(\"https://business.x.com/fr/campaign/quick-promote-conditional-coupon-terms.html\")(0,o.ju)",
-    "pt": "(\"https://business.x.com/ja/campaign/quick-promote-conditional-coupon-terms.html\")(0,o.ju)",
-    "ar": "(\"https://business.x.com/pt/campaign/quick-promote-conditional-coupon-terms.html\")(0,o.ju)",
-    "zh-cn": "(\"https://business.x.com/ar/campaign/quick-promote-conditional-coupon-terms.html\")(0,o.ju)"
+    "en": "()(0,r.ju)",
+    "de": "(\"https://business.x.com/en/campaign/quick-promote-conditional-coupon-terms.html\")(0,r.ju)",
+    "es": "(\"https://business.x.com/de/campaign/quick-promote-conditional-coupon-terms.html\")(0,r.ju)",
+    "fr": "(\"https://business.x.com/es/campaign/quick-promote-conditional-coupon-terms.html\")(0,r.ju)",
+    "ja": "(\"https://business.x.com/fr/campaign/quick-promote-conditional-coupon-terms.html\")(0,r.ju)",
+    "pt": "(\"https://business.x.com/ja/campaign/quick-promote-conditional-coupon-terms.html\")(0,r.ju)",
+    "ar": "(\"https://business.x.com/pt/campaign/quick-promote-conditional-coupon-terms.html\")(0,r.ju)",
+    "zh-cn": "(\"https://business.x.com/ar/campaign/quick-promote-conditional-coupon-terms.html\")(0,r.ju)"
   },
   {
-    "en": "()(0,o.ju)",
-    "de": "(\"https://business.x.com/en/campaign/quick-promote-coupon-terms.html\")(0,o.ju)",
-    "es": "(\"https://business.x.com/de/campaign/quick-promote-coupon-terms.html\")(0,o.ju)",
-    "fr": "(\"https://business.x.com/es/campaign/quick-promote-coupon-terms.html\")(0,o.ju)",
-    "ja": "(\"https://business.x.com/fr/campaign/quick-promote-coupon-terms.html\")(0,o.ju)",
-    "pt": "(\"https://business.x.com/ja/campaign/quick-promote-coupon-terms.html\")(0,o.ju)",
-    "ar": "(\"https://business.x.com/pt/campaign/quick-promote-coupon-terms.html\")(0,o.ju)",
-    "zh-cn": "(\"https://business.x.com/ar/campaign/quick-promote-coupon-terms.html\")(0,o.ju)"
+    "en": "()(0,r.ju)",
+    "de": "(\"https://business.x.com/en/campaign/quick-promote-coupon-terms.html\")(0,r.ju)",
+    "es": "(\"https://business.x.com/de/campaign/quick-promote-coupon-terms.html\")(0,r.ju)",
+    "fr": "(\"https://business.x.com/es/campaign/quick-promote-coupon-terms.html\")(0,r.ju)",
+    "ja": "(\"https://business.x.com/fr/campaign/quick-promote-coupon-terms.html\")(0,r.ju)",
+    "pt": "(\"https://business.x.com/ja/campaign/quick-promote-coupon-terms.html\")(0,r.ju)",
+    "ar": "(\"https://business.x.com/pt/campaign/quick-promote-coupon-terms.html\")(0,r.ju)",
+    "zh-cn": "(\"https://business.x.com/ar/campaign/quick-promote-coupon-terms.html\")(0,r.ju)"
   },
   {
     "All": "all",
@@ -1881,6 +2525,7 @@
     "MEDIA": "media",
     "MEDIA_WITH_DETAILS_HORIZONTAL": "media_with_details_horizontal",
     "POLL": "poll",
+    "IMAGE_POLL": "image_poll",
     "SPACE": "space",
     "SWIPEABLE_MEDIA": "swipeable_media",
     "TOPIC_DETAILS": "topic_details",
@@ -1888,7 +2533,8 @@
     "DPA_DETAILS": "dpa_details",
     "FOLLOW_BUTTON": "follow_button",
     "FACEPILE": "facepile",
-    "GROK_SHARE": "grok_share"
+    "GROK_SHARE": "grok_share",
+    "REMINDER": "reminder"
   },
   {
     "String": "string_value",
@@ -1939,7 +2585,8 @@
     "GENERIC": "generic",
     "COMPOSE": "compose",
     "DM": "dm",
-    "REMINDER": "reminder"
+    "REMINDER": "reminder",
+    "IMAGE_POLL_CHOICE": "image_poll_choice"
   },
   {
     "FOLLOWERS": "Followers",
@@ -1962,24 +2609,28 @@
     "testNumber": "1",
     "testViewCountShow": "!0"
   },
+  "{\"avatarURIForHashtagHighlight\":\"void 0\",\"birdwatchPivotsEnabled\":\"!0\",\"c9sEnabled\":\"!1\",\"c9sThemesEnabled\":\"!1\",\"c9sHashtagsEnabled\":\"!1\",\"cardCarouselClickableNavArea\":\"control\",\"dpaMetadataEnabled\":\"!1\",\"dpaCtaEnabled\":\"!1\",\"dpaPlaceholderMediaKeys\":\"!1\",\"dpaHideVanity\":\"!1\",\"mediaOverlayEnabled\":\"!1\",\"ucCardTitleMaxLines\":\"0\",\"fosnrSoftInterventionsEnabled\":\"!1\",\"openGrok\":()=>{},\"withEditCallout\":\"!1\",\"withEdgeToEdgeContent\":\"!1\",\"withEdgeToEdgeTweetAnatomy\":\"!1\",\"highlightedHashtag\":\"void 0\",\"isCopyrightDisputeLinkEnabled\":\"!1\",\"isDeveloperBuiltCardEnabled\":\"!1\",\"isDMDrawer\":\"!1\",\"isEditTweetConsumptionEnabled\":\"!1\",\"isImagePollEnabled\":\"!1\",\"imagePollShuffleEnabled\":\"!1\",\"imagePollSortByVoteCountEnabled\":\"!1\",\"withMediaCarousel\":\"!1\",\"onMediaHashtagHighlightClick\":\"void 0\",\"sensitiveMediaWarningsEnabled\":\"!1\",\"mediaVisibilityResultsEnabled\":\"!1\",\"shouldPreconnectToCardDestinations\":\"!1\",\"showSimilarPostsPivotEnabled\":\"!0\",\"shouldUseSmallFontForHashtagHighlight\":\"!1\",\"trustedFriendsEnabled\":\"!1\",\"trustedFriendsCreationEnabled\":\"!1\",\"socialContextRefreshEnabled\":\"!1\",\"trustedFriendsInfo\":\"void 0\",\"isCarouselItem\":\"!1\",\"followButtonAtBottomOfPromotedUserCard\":\"!1\",\"tweetMediaItemImmersiveViewerEntryPoint\":\"void 0\",\"withVodTweetDetailAttribution\":\"!1\",\"isEmbedBrandLinkExperimentEnabled\":\"!1\",\"userAvatarLabel\":\"!1\",\"canVerifiedCrawlerConsumeSensitiveMedia\":\"!1\",\"shouldUseLocaleContextDirection\":\"!1\",\"blueBusinessVerifiedBadgeEnabled\":\"!1\",\"blueBusinessAffiliateBadgeEnabled\":\"!1\",\"blueGovernmentVerifiedBadgeEnabled\":\"!1\",\"newBadgeColorEnabled\":\"!1\",\"tweetViewCountsEnabled\":\"!1\",\"ucCardVideoCropEnabled\":\"!1\",\"ucCardVideoCropAspectRatio\":\"1\",\"renderCompactCardDetail\":\"!0\",\"roundCountInTweetAction\":\"!0\",\"isWebRedesign\":\"!1\",\"grokFadeInAnimationV2Enabled\":\"!1\",\"isUnifiedCardsInstallButtoRedesignEnabled\":\"!1\",\"isCollectionAdCardDetailHidden\":\"!1\",\"hideVanityForBusinessAccount\":\"!1\",\"useSubtitleAsVanityFallbackInCollection\":\"!1\",\"withLinkEditImageToGrokCom\":\"!1\",\"withMediaDetailEditImageButton\":\"!1\",\"withMediaEditImageButton\":\"!1\",\"withMediaAttributionRouteToImagineComposer\":\"!1\",\"withMediaAttributionImagineForceShow\":\"!1\",\"websiteCTAEnabled\":\"!1\",\"withMediaAttributionFocalPostForceShow\":\"!1\",\"grokAnnotationsEnabled\":\"!1\",\"...o\":\"_\"}",
   {
     "CommunityNotes": "CommunityNotes",
     "LiveEvent": "LiveEvent",
     "SoftIntervention": "SoftIntervention"
   },
   {
-    "primary0": "primary",
     "blue0": "blue500",
+    "gray0": "gray700",
+    "gray100": "gray600",
+    "gray700": "gray700",
     "green0": "green500",
     "magenta0": "magenta500",
     "orange0": "orange500",
     "plum0": "plum500",
+    "primary0": "primary",
     "purple0": "purple500",
     "red0": "red500",
     "teal0": "teal500",
+    "transparent": "transparent",
     "yellow0": "yellow500",
-    "gray0": "gray500",
-    "gray100": "gray600"
+    "alwaysDarkRed0": "alwaysDarkRed0"
   },
   {
     "Translucent": "translucent",
@@ -2092,7 +2743,19 @@
       "fontSize": "subtext3"
     }
   },
-  "{\"isExternal()\"{\"try\"{const n=s();return this._customIsExternal?this._customIsExternal(e,t){\"hrefHostname\":\"n\",\"href\":\"e\"}}\"catch()\"{\"return!0\"}},\"setIsExternal()\"{\"this._customIsExternal=e\"},\"clearIsExternal()\"{\"this._customIsExternal=null\"},\"onLinkClick()\"{\"this._customOnLinkClick&&this._customOnLinkClick()\"{\"event\":\"e\",\"link\":\"t\",\"newWindowRequested\":\"n\"}},\"setOnLinkClick()\"{\"this._customOnLinkClick=e\"},\"linkProcessor()\"{\"return this._customLinkProcessor?this._customLinkProcessor()\":\"e\"},\"setLinkProcessor()\"{\"this._customLinkProcessor=e\"},\"hrefProcessor()\"{\"return this._customHrefProcessor?this._customHrefProcessor()\":\"e\"},\"setHrefProcessor()\"{\"this._customHrefProcessor=e\"},\"withAnchorless\":e=>\"string\"==typeof e?{\"anchorless\":\"!0\",\"pathname\":\"e\"}:\"Object.assign()\"{\"anchorless\":\"!0\"},\"ee\"{\"this._customLinkFromUrtUrl=e\"},\"getLinkFromUrtUrl()\"{\"return this._customLinkFromUrtUrl?this._customLinkFromUrtUrl()\":{\"external\":\"!0\",\"pathname\":\"e.url\"}}}",
+  {
+    "Cashtag": "cashtag",
+    "Hashtag": "hashtag",
+    "Mention": "mention",
+    "Url": "url",
+    "UrlWithDisplayUrl": "urlWithDisplayUrl",
+    "List": "twitterList"
+  },
+  {
+    "CashtagClick": "cashtag_click",
+    "HashtagClick": "hashtag_click"
+  },
+  "{\"cashtag\":()=>(e,t,n){\"color\":\"link\",\"dir\":\"ltr\",\"link\":\"d()\"{\"t.text\"}`{\"t.text\"}`,\"type\":\"a.Cashtag\"}\"e\",t,\"n\"{\"color\":\"link\",\"dir\":\"s.Z.getTextDirection()\",\"link\":\"d(t.text)\"{\"t.text\"}`{\"t.text\"}`,\"type\":\"a.Hashtag\"}\"e\",t,\"n\"{\"color\":\"link\",\"dir\":\"ltr\",\"link\":\"d()\",\"ref\":\"t\",\"text\":`@${\"t.screenName\"}`,\"type\":\"a.Mention\"}\"e\",t,\"n\"{\"ref\":{},\"text\":\"o.Z.replaceCarriageReturns()\",\"type\":\"text\",\"weight\":\"Strong\"===t?\"bold\":\"void 0\"}\"e\",t,\"n\"{\"color\":\"text\",\"link\":\"d()\",\"ref\":\"t\",\"text\":\"e\",\"type\":\"a.List\",\"weight\":\"bold\"}\"e\",t,\"n\"{\"color\":\"link\",\"link\":\"d()\",\"ref\":\"t\",\"text\":\"e\",\"type\":\"a.Url\"}\"e\",t,\"n\"{var i;return{\"color\":\"link\",\"link\":\"d()\",\"ref\":\"t\",\"text\":null!==(a.Url,t.url)&&void 0!==i?i:\"t.url\",\"type\":\"a.UrlWithDisplayUrl\"}},\"user\":()=>(e,t,n){\"ref\":\"t\",\"text\":\"e\",\"type\":\"user\",\"weight\":\"bold\"}}",
   {
     "x": "x",
     "y": "y"
@@ -2103,6 +2766,7 @@
     "HASHTAG": "hashtag",
     "MEDIA": "media",
     "MENTION": "mention",
+    "SMARTTAG": "smarttag",
     "TEXT": "text",
     "TIMESTAMP": "timestamp",
     "URL": "url"
@@ -2114,11 +2778,10 @@
     "large": "large",
     "xLarge": "xLarge"
   },
-  "{[r.xSmall]:\".9\",[r.small]:\".95\",[r.normal]:\"1\",[r.large]:\"1.1\",[r.xLarge]:\"1.2\"}",
+  "{[i.xSmall]:\".9\",[i.small]:\".95\",[i.normal]:\"1\",[i.large]:\"1.1\",[i.xLarge]:\"1.2\"}",
   {
     "light": "light",
     "dark": "dark",
-    "darker": "darker",
     "business": "business"
   },
   {
@@ -2168,22 +2831,22 @@
     "circle-shape-func-crop": "circle-shape-func-crop"
   },
   {
-    "superFollower": "h().fc065ee4"
+    "superFollower": "d().fc065ee4"
   },
   {
     "superFollower": {
-      "graphic": "m.default",
-      "headline": "h().e453f536",
-      "subtext": "h().bd4cb7a0",
-      "actionLabel": "h().g7099a02",
+      "graphic": "u.default",
+      "headline": "d().e453f536",
+      "subtext": "d().bd4cb7a0",
+      "actionLabel": "d().g7099a02",
       "actionLink": "https://help.x.com/using-twitter/subscriptions",
-      "secondaryActionLabel": "h().c2637ef6"
+      "secondaryActionLabel": "d().c2637ef6"
     }
   },
   {
-    "followsYou": "h().efb17190",
-    "superFollowsYou": "h().g57b5f6c",
-    "superFollower": "h().a77a27c0"
+    "followsYou": "d().efb17190",
+    "superFollowsYou": "d().g57b5f6c",
+    "superFollower": "d().a77a27c0"
   },
   {
     "followsYou": "gray700",
@@ -2242,8 +2905,12 @@
     "alwaysBaseGray1100": "alwaysBaseGray1100",
     "alwaysDarkGray700": "alwaysDarkGray700",
     "alwaysDarkGray900": "alwaysDarkGray900",
+    "alwaysDarkGray1100": "alwaysDarkGray1100",
     "alwaysDarkGray50": "alwaysDarkGray50",
+    "alwaysDarkRed0": "alwaysDarkRed0",
     "alwaysBlack": "alwaysBlack",
+    "alwaysDarkGreen600": "alwaysDarkGreen600",
+    "alwaysDarkGreen700": "alwaysDarkGreen700",
     "blue300": "blue300",
     "blue500": "blue500",
     "blue600": "blue600",
@@ -2310,55 +2977,195 @@
     "gold0": "gold0",
     "gold50": "gold50",
     "gold100": "gold100",
-    "gold500": "gold500"
+    "gold500": "gold500",
+    "lightPrimary": "lightPrimary"
   },
   {
-    "space1": "b.spaces.space1",
-    "space2": "m()",
-    "space4": "m(b.spaces.space2)",
-    "space8": "m(b.spaces.space4)",
-    "space12": "m(b.spaces.space8)",
-    "space16": "m(b.spaces.space12)",
-    "space20": "m(b.spaces.space16)",
-    "space24": "m(b.spaces.space20)",
-    "space28": "m(b.spaces.space24)",
-    "space32": "m(b.spaces.space28)",
-    "space36": "m(b.spaces.space32)",
-    "space40": "m(b.spaces.space36)",
-    "space48": "m(b.spaces.space40)",
-    "space56": "m(b.spaces.space48)",
-    "space64": "m(b.spaces.space56)",
-    "space72": "m(b.spaces.space64)",
-    "space80": "m(b.spaces.space72)"
+    "...a()": "_",
+    "activeFaintGray": "rgba(o.CV.light)",
+    "activeBlack": "s.bs.black(230, 236, 240, 0.7)",
+    "hoverBlack": "s.bs.black(.07)",
+    "navigationBackground": "s.Cj",
+    "navigationBackground95": "s.bs.white(.03)",
+    "cellBackground": "s.Cj",
+    "borderColor": "i.default.color.baseColor.gray50",
+    "nestedBorderColor": "i.default.color.baseColor.gray200",
+    "dmReceivedBubbleBackground": "i.default.color.baseColor.gray50",
+    "badgeColor": "i.default.color.baseColor.blue500",
+    "maskColor": "s.bs.black(.95)",
+    "maskColorNative": "s.bs.black(.4)",
+    "hoverLabelColor": "s.bs.black(.4)",
+    "elevatedBackground": "s.Cj",
+    "elevatedBackgroundShadow": "s.bs.black(.6)",
+    "brandColor": "i.default.color.baseColor.gray1100",
+    "whiteOnColor": "s.Cj",
+    "buttonBlack": "i.default.color.baseColor.gray1100",
+    "buttonWhite": "s.Cj",
+    "buttonOutlinedBorder": "i.default.color.baseColor.gray200",
+    "buttonDestructionOutlinedBorder": "i.default.color.baseColor.red100",
+    "appBarBackground": "s.bs.white(.1)",
+    "appBarFirefoxBackground": "s.bs.white(.85)",
+    "passkeyColor": "#007AFF"
   },
   {
-    "appBarHeight": "C",
-    "appBarHeightPx": "M",
-    "conversationLineWidth": "g.space2",
-    "gutterHorizontal": "v.space16",
-    "gutterHorizontalPx": "g.space16",
-    "gutterVertical": "v.space12",
-    "gutterVerticalPx": "g.space12"
+    "...m": "_",
+    "...a()": "_",
+    "text": "#141D26",
+    "gray700": "#3B4C5C",
+    "gray300": "#697987",
+    "gray200": "#697987",
+    "gray100": "#E5EAEC",
+    "gray50": "i.default.color.baseColor.gray200",
+    "gray0": "i.default.color.baseColor.gray50",
+    "navigationBackground95": "s.Cj",
+    "borderColor": "i.default.color.baseColor.gray300",
+    "nestedBorderColor": "i.default.color.baseColor.gray300",
+    "dmReceivedBubbleBackground": "i.default.color.baseColor.gray200",
+    "badgeColor": "#264A9D",
+    "buttonOutlinedBorder": "i.default.color.baseColor.gray700",
+    "passkeyColor": "#007AFF"
   },
   {
-    "aspectRatios": "s",
-    "baseFontSize": "D",
-    "borderRadii": "l",
-    "borderRadiiPx": "d",
+    "...a()": "_",
+    "activeFaintGray": "rgba(o.CV.dark)",
+    "activeBlack": "s.bs.white(18, 21, 23, 0.7)",
+    "hoverBlack": "s.bs.white(.07)",
+    "navigationBackground": "s.E5",
+    "navigationBackground95": "s.bs.black(.03)",
+    "cellBackground": "s.E5",
+    "unreadCellBackground": "#041722",
+    "borderColor": "#2F3336",
+    "nestedBorderColor": "#2F3336",
+    "dmReceivedBubbleBackground": "#2F3336",
+    "badgeColor": "i.default.color.baseColor.blue500",
+    "maskColor": "s.bs.gray700(.95)",
+    "maskColorNative": "s.bs.black(.4)",
+    "hoverLabelColor": "s.bs.gray700(.4)",
+    "elevatedBackground": "#1B2023",
+    "elevatedBackgroundShadow": "s.bs.black(.8)",
+    "brandColor": "i.default.color.darkColor.gray1100",
+    "whiteOnColor": "s.Cj",
+    "buttonBlack": "i.default.color.baseColor.gray50",
+    "buttonWhite": "i.default.color.baseColor.gray1100",
+    "buttonOutlinedBorder": "i.default.color.baseColor.gray700",
+    "buttonDestructionOutlinedBorder": "#67070F",
+    "appBarBackground": "s.bs.black(.1)",
+    "appBarFirefoxBackground": "s.bs.black(.65)",
+    "passkeyColor": "#007AFF"
+  },
+  {
+    "...f": "_",
+    "...a()": "_",
+    "text": "s.Cj",
+    "navigationBackground": "#050505",
+    "navigationBackground95": "#050505",
+    "cellBackground": "#050505",
+    "unreadCellBackground": "#244052",
+    "borderColor": "#3D4145",
+    "nestedBorderColor": "#3D4145",
+    "dmReceivedBubbleBackground": "#929CA6",
+    "badgeColor": "#264A9D",
+    "whiteOnColor": "i.default.color.baseColor.gray1100",
+    "buttonOutlinedBorder": "i.default.color.baseColor.gray300",
+    "passkeyColor": "#007AFF"
+  },
+  {
+    "...a()": "_",
+    "activeFaintGray": "rgba(o.CV.business)",
+    "activeBlack": "s.bs.white(20, 29, 38, 0.7)",
+    "hoverBlack": "s.bs.white(.07)",
+    "navigationBackground": "#010c12",
+    "navigationBackground95": "s.bs.dim(.03)",
+    "cellBackground": "#010c12",
+    "borderColor": "#38444D",
+    "nestedBorderColor": "#38444D",
+    "dmReceivedBubbleBackground": "#3D5466",
+    "badgeColor": "i.default.color.baseColor.blue500",
+    "maskColor": "s.bs.gray700(.95)",
+    "maskColorNative": "s.bs.black(.4)",
+    "hoverLabelColor": "s.bs.gray700(.4)",
+    "elevatedBackground": "#1C2C3C",
+    "elevatedBackgroundShadow": "s.bs.dim(.8)",
+    "brandColor": "i.default.color.baseColor.gray0",
+    "whiteOnColor": "s.Cj",
+    "buttonBlack": "i.default.color.baseColor.gray50",
+    "buttonWhite": "i.default.color.baseColor.gray1100",
+    "buttonOutlinedBorder": "i.default.color.baseColor.gray700",
+    "buttonDestructionOutlinedBorder": "#67070F",
+    "appBarBackground": "s.bs.dim(.1)",
+    "appBarFirefoxBackground": "s.bs.dim(.75)",
+    "passkeyColor": "#007AFF"
+  },
+  {
+    "space1": "m.spaces.space1",
+    "space2": "_()",
+    "space4": "_(m.spaces.space2)",
+    "space8": "_(m.spaces.space4)",
+    "space12": "_(m.spaces.space8)",
+    "space16": "_(m.spaces.space12)",
+    "space20": "_(m.spaces.space16)",
+    "space24": "_(m.spaces.space20)",
+    "space28": "_(m.spaces.space24)",
+    "space32": "_(m.spaces.space28)",
+    "space36": "_(m.spaces.space32)",
+    "space40": "_(m.spaces.space36)",
+    "space48": "_(m.spaces.space40)",
+    "space56": "_(m.spaces.space48)",
+    "space64": "_(m.spaces.space56)",
+    "space72": "_(m.spaces.space64)",
+    "space80": "_(m.spaces.space72)"
+  },
+  {
+    "appBarHeight": "T",
+    "appBarHeightPx": "S",
+    "conversationLineWidth": "b.space2",
+    "gutterHorizontal": "y.space16",
+    "gutterHorizontalPx": "b.space16",
+    "gutterVertical": "y.space12",
+    "gutterVerticalPx": "b.space12"
+  },
+  {
+    "aspectRatios": "a",
+    "baseFontSize": "x",
+    "borderRadii": "c",
+    "borderRadiiPx": "l",
     "borderWidths": "u",
-    "borderWidthsPx": "c",
-    "breakpoints": "a",
-    "componentDimensions": "S",
-    "componentZIndices": "i",
+    "borderWidthsPx": "d",
+    "breakpoints": "o",
+    "componentDimensions": "k",
+    "componentZIndices": "s",
     "fontSizes": "w",
-    "fontSizesPx": "y",
-    "fontWeights": "h",
-    "lineHeights": "_",
-    "lineHeightsPx": "f",
+    "fontSizesPx": "v",
+    "fontWeights": "p",
+    "lineHeights": "f",
+    "lineHeightsPx": "g",
     "scales": "t",
     "scaleMultiplier": "n",
-    "spaces": "v",
-    "spacesPx": "g"
+    "spaces": "y",
+    "spacesPx": "b"
+  },
+  "{\"...m()\":{\"scale\":\"s\",\"scales\":\"a\"}\"er0\",g.obo,r,\"t\"}",
+  {
+    "UNKNOWN": "0",
+    "TOP_LEFT": "1",
+    "TOP_RIGHT": "2",
+    "BOTTOM_RIGHT": "3",
+    "BOTTOM_LEFT": "4",
+    "LEFT_TOP": "5",
+    "LEFT_BOTTOM": "6",
+    "RIGHT_BOTTOM": "7",
+    "RIGHT_TOP": "8"
+  },
+  {
+    "FILE_TOO_LARGE": "2",
+    "INTERNAL_ERROR": "131",
+    "INVALID_MEDIA": "1",
+    "RATE_LIMIT": "88",
+    "TIMEOUT": "67",
+    "UNSUPPORTED_MEDIA": "3",
+    "ZERO_FILE_LENGTH": "4",
+    "CANCELED": "999",
+    "INVALID_RES_STATUS": -1
   },
   {
     "BROADCAST": "broadcast",
