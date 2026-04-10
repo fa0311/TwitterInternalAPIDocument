@@ -119,7 +119,7 @@ def search_js_reg(text: JsData, search: str) -> list[JsSearchData]:
 
 def json_parser(text: JsData):
     output = ""
-    reg_other = "[0-9a-zA-Z\s" + re.escape("!?$_.{}&=") + "]"
+    reg_other = r"[0-9a-zA-Z\s" + re.escape("!?$_.{}&=") + "]"
     for data in text.children:
         if type(data) is JsData:
             json = json_parser(data)
@@ -133,14 +133,14 @@ def json_parser(text: JsData):
             placeholder = parentheses_placeholder(data)
             json_child = ""
             json = re.sub(
-                f"(,|^)(\.\.\.{reg_other}+)(,|$)",
+                rf"(,|^)(\.\.\.{reg_other}+)(,|$)",
                 r'\1"\2":"_"\3',
                 placeholder.text,
             )
             while json_child != json:
                 json_child = json
                 json = re.sub(
-                    f"(,|^)(\.\.\.{reg_other}+)(,|$)",
+                    rf"(,|^)(\.\.\.{reg_other}+)(,|$)",
                     r'\1"\2":"_"\3',
                     json_child,
                 )

@@ -8,14 +8,14 @@ from lib.js_parser.js_parser import *
 
 
 def get_graphql(parsed_list: JsData) -> list:
-    reg_graphql = "e\.graphQL\({func}\(\),$".format(func="([a-zA-Z_\$]{1,2})")
+    reg_graphql = r"e\.graphQL\({func}\(\),$".format(func=r"([a-zA-Z_$]{1,2})")
     graphql_list = search_js_reg(parsed_list, reg_graphql)
     graphql_output = []
 
     for graphql in tqdm(graphql_list):
-        reg_func = "{func}=t.n\({arg}\)".format(
+        reg_func = r"{func}=t.n\({arg}\)".format(
             func=re.escape(graphql.data[0]),
-            arg="([a-zA-Z_\$]{1,2})",
+            arg=r"([a-zA-Z_$]{1,2})",
         )
 
         graphql_parent = graphql.parent
@@ -28,9 +28,9 @@ def get_graphql(parsed_list: JsData) -> list:
 
         if match_func == []:
             continue
-        reg_func_init = "{func}=t\({arg}\)".format(
+        reg_func_init = r"{func}=t\({arg}\)".format(
             func=re.escape(match_func[0].data[0]),
-            arg="([0-9]{1,5})",
+            arg=r"([0-9]{1,5})",
         )
         match_func_init = search_js_reg(graphql_parent, reg_func_init)
         if match_func_init == []:
@@ -58,7 +58,7 @@ def marge_exports(parsed_list: list, graphql_output: list) -> list:
     reg_exports = "{comma}{int}:{var}=>".format(
         comma=",?",
         int="([0-9]{1,5})",
-        var="(e|\([a-z,]*?\))",
+        var=r"(e|\([a-z,]*?\))",
     )
     for export in exports:
         n = re.findall(reg_exports, export.parent.before)[0][0]
@@ -142,7 +142,7 @@ def marge_metadata(graphql_output: list, feature_switch: dict) -> list:
 
 
 def get_freeze_object(parsed_list: list, disable_tqdm=True) -> list:
-    reg_freeze_object = "Object\.freeze\($"
+    reg_freeze_object = r"Object\.freeze\($"
     freeze_object_list = search_js_reg(parsed_list, reg_freeze_object)
     freeze_object_output = []
 
@@ -158,7 +158,7 @@ def get_freeze_object(parsed_list: list, disable_tqdm=True) -> list:
 
 
 def get_feature_switches(parsed_list: list) -> list:
-    reg_exports = "e\.exports={var}$".format(var="([a-zA-Z]{1,2})")
+    reg_exports = r"e\.exports={var}$".format(var=r"([a-zA-Z]{1,2})")
     exports_list = search_js_reg(parsed_list, reg_exports)
     for exports in exports_list:
         feature_switches = get_freeze_object(exports.parent, disable_tqdm=True)

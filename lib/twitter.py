@@ -81,19 +81,19 @@ class TwitterHome:
         }
 
     def get_script_url(self) -> list[str]:
-        src = "(https://abs\.twimg\.com\/{0}\/client-web\/[a-zA-Z0-9\.]*?\.js)".format(
+        src = r"(https://abs\.twimg\.com\/{0}\/client-web\/[a-zA-Z0-9\.]*?\.js)".format(
             re.escape(self.CLIENT)
         )
         reg_script = '<script type="text/javascript" charset="utf-8" nonce="{nonce}" crossorigin="anonymous" src="{src}"></script>'.format(
-            nonce="([a-zA-Z0-9]{48})",
+            nonce=r"([a-zA-Z0-9]{48})",
             src=src,
         )
         return [url[1] for url in re.findall(reg_script, self.response.text)]
 
     def get_script(self, response: str) -> list[str]:
         reg_script = '<script type="text/javascript" charset="utf-8" nonce="{nonce}">{any}</script>'.format(
-            nonce="([a-zA-Z0-9]{48})",
-            any="([\s\S]*?)",
+            nonce=r"([a-zA-Z0-9]{48})",
+            any=r"([\s\S]*?)",
         )
         return [script[1] for script in re.findall(reg_script, response)]
 
