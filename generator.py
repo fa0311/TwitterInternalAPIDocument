@@ -74,6 +74,11 @@ meta_output = json.loads(json_parser(meta_data))
 
 script_load_data = search_js_reg(parsed_script_list, "Promise.all")[0].after
 script_load_json = json.loads(json_parser(script_load_data))
+
+
+script_key_data = search_js_reg(parsed_script_list, "a.js")[0].before
+script_key_json = json.loads(json_parser(script_key_data))
+
 script_load_output = {}
 base_url = "https://abs.twimg.com/{0}/client-web/".format(twitter.CLIENT)
 
@@ -82,7 +87,9 @@ if READ_SCRIPT_JSON:
     script_load_url = json.loads(read(f"{output_dir}{FileConf.SCRIPT_LOAD_JSON}"))
 else:
     script_load_url = {
-        k: "{0}{1}.{2}a.js".format(base_url, k, script_load_json[k])
+        script_load_json[k]: "{0}{1}.{2}a.js".format(
+            base_url, script_load_json[k], script_key_json[k]
+        )
         for k in script_load_json
     }
 
