@@ -35,7 +35,7 @@ class MdGenerator:
 
     def table_escape(self, text: str):
         if type(text) is str:
-            return text.replace("|", "\|")
+            return text.replace("|", r"\|")
         else:
             return text
 

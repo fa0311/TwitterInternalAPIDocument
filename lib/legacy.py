@@ -20,9 +20,9 @@ def get_dispatch_list():
 
 
 def get_dispatch(parsed_list: JsData) -> dict:
-    reg_graphql = 'e.{method}\("{queryId}",'.format(
+    reg_graphql = r'e.{method}\("{queryId}",'.format(
         method="({0})".format("|".join(get_dispatch_list().keys())),
-        queryId="([a-z_/]*?)",
+        queryId=r"([a-z_/]*?)",
     )
     dispatch_list = search_js_reg(parsed_list, reg_graphql)
     dispatch_list_unique: list[JsSearchData] = []
