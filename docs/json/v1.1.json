@@ -252,7 +252,7 @@
     ]
   },
   {
-    "queryId": "jot/error_log",
+    "queryId": "jot/external_referer",
     "dispatch_key": "post",
     "dispatch": [
       "post",
@@ -261,10 +261,10 @@
     ]
   },
   {
-    "queryId": "jot/external_referer",
-    "dispatch_key": "post",
+    "queryId": "lists/memberships",
+    "dispatch_key": "get",
     "dispatch": [
-      "post",
+      "get",
       "",
       "https://api.x.com/1.1/{queryId}.json"
     ]
@@ -729,7 +729,25 @@
     ]
   },
   {
-    "queryId": "account/personalization/twitter_interests",
+    "queryId": "media/metadata/create",
+    "dispatch_key": "post",
+    "dispatch": [
+      "post",
+      "",
+      "https://api.x.com/1.1/{queryId}.json"
+    ]
+  },
+  {
+    "queryId": "media/subtitles/create",
+    "dispatch_key": "post",
+    "dispatch": [
+      "post",
+      "",
+      "https://api.x.com/1.1/{queryId}.json"
+    ]
+  },
+  {
+    "queryId": "account/personalization/partner_interests",
     "dispatch_key": "get",
     "dispatch": [
       "get",
@@ -846,6 +864,15 @@
     ]
   },
   {
+    "queryId": "jot/error_log",
+    "dispatch_key": "post",
+    "dispatch": [
+      "post",
+      "",
+      "https://api.x.com/1.1/{queryId}.json"
+    ]
+  },
+  {
     "queryId": "keyregistry/register",
     "dispatch_key": "post",
     "dispatch": [
@@ -855,34 +882,7 @@
     ]
   },
   {
-    "queryId": "lists/memberships",
-    "dispatch_key": "get",
-    "dispatch": [
-      "get",
-      "",
-      "https://api.x.com/1.1/{queryId}.json"
-    ]
-  },
-  {
     "queryId": "live_pipeline/update_subscriptions",
-    "dispatch_key": "post",
-    "dispatch": [
-      "post",
-      "",
-      "https://api.x.com/1.1/{queryId}.json"
-    ]
-  },
-  {
-    "queryId": "media/metadata/create",
-    "dispatch_key": "post",
-    "dispatch": [
-      "post",
-      "",
-      "https://api.x.com/1.1/{queryId}.json"
-    ]
-  },
-  {
-    "queryId": "media/subtitles/create",
     "dispatch_key": "post",
     "dispatch": [
       "post",
@@ -922,6 +922,15 @@
     "dispatch_key": "post",
     "dispatch": [
       "post",
+      "",
+      "https://api.x.com/1.1/{queryId}.json"
+    ]
+  },
+  {
+    "queryId": "account/personalization/twitter_interests",
+    "dispatch_key": "get",
+    "dispatch": [
+      "get",
       "",
       "https://api.x.com/1.1/{queryId}.json"
     ]
