@@ -1,20 +1,7 @@
 {
-  "graphql": {
-    "CreateWebSessionBind": {
-      "url": "https://x.com/i/api/graphql/0qFmnKTY3JwBZnqDdQrtHw/CreateWebSessionBind",
-      "queryId": "0qFmnKTY3JwBZnqDdQrtHw",
-      "method": "POST",
-      "features": {}
-    },
-    "RefreshWebSessionBind": {
-      "url": "https://x.com/i/api/graphql/N9LNeEU2xRb9vX_JRjgEjg/RefreshWebSessionBind",
-      "queryId": "N9LNeEU2xRb9vX_JRjgEjg",
-      "method": "POST",
-      "features": {}
-    }
-  },
+  "graphql": {},
   "header": {
-    "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+    "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
     "accept-encoding": "gzip, deflate, br, zstd",
     "accept-language": "ja,en;q=0.9",
     "cache-control": "no-cache",
