@@ -25,7 +25,8 @@
         "TQDM_DISABLE": "False",
         "LOGGING_LEVEL": "Into",
         "CACHE": "True",
-        "GRAPHQL_CACHE": "True"
+        "GRAPHQL_CACHE": "True",
+        "PYDEVD_CONTAINER_RANDOM_ACCESS_MAX_ITEMS": "1000000"
       }
     },
     {
@@ -44,7 +45,8 @@
         "TQDM_DISABLE": "False",
         "LOGGING_LEVEL": "Into",
         "CACHE": "True",
-        "GRAPHQL_CACHE": "True"
+        "GRAPHQL_CACHE": "True",
+        "PYDEVD_CONTAINER_RANDOM_ACCESS_MAX_ITEMS": "1000000"
       }
     }
   ]
