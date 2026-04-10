@@ -95,24 +95,6 @@ This document is entirely auto-generated and may contain errors.<br>
 | APPLE_APP_STORE   |       1 |
 | GOOGLE_PLAY_STORE |       2 |
 
-| constant   | value                                                     |
-|:-----------|:----------------------------------------------------------|
-| REQUEST    | rweb/settings/profile/ENABLE_VERIFIED_PHONE_LABEL_REQUEST |
-| SUCCESS    | rweb/settings/profile/ENABLE_VERIFIED_PHONE_LABEL_SUCCESS |
-| FAILURE    | rweb/settings/profile/ENABLE_VERIFIED_PHONE_LABEL_FAILURE |
-
-| constant   | value                                                      |
-|:-----------|:-----------------------------------------------------------|
-| REQUEST    | rweb/settings/profile/DISABLE_VERIFIED_PHONE_LABEL_REQUEST |
-| SUCCESS    | rweb/settings/profile/DISABLE_VERIFIED_PHONE_LABEL_SUCCESS |
-| FAILURE    | rweb/settings/profile/DISABLE_VERIFIED_PHONE_LABEL_FAILURE |
-
-| constant   | value                                                    |
-|:-----------|:---------------------------------------------------------|
-| REQUEST    | rweb/settings/profile/FETCH_VERIFIED_PHONE_LABEL_REQUEST |
-| SUCCESS    | rweb/settings/profile/FETCH_VERIFIED_PHONE_LABEL_SUCCESS |
-| FAILURE    | rweb/settings/profile/FETCH_VERIFIED_PHONE_LABEL_FAILURE |
-
 | constant   | value      |
 |:-----------|:-----------|
 | wide       | wide       |
@@ -121,7 +103,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{[s.wide]:"500",[s.narrow]:"300",[s.veryNarrow]:"200"}
+{[a.wide]:"500",[a.narrow]:"300",[a.veryNarrow]:"200"}
 ```
 ```internal process
 # Error
@@ -263,15 +245,15 @@ This document is entirely auto-generated and may contain errors.<br>
 |:-----------|:--------|
 | ...O       | _       |
 | ...C       | _       |
-| ...o       | _       |
 | ...r       | _       |
+| ...o       | _       |
 | ...i       | _       |
 | ...c       | _       |
 | ...S       | _       |
 
 ```internal process
 # Error
-{[O.ACTIVIST]:"A.ACTIVISM",[C.COMPANY]:"A.COMPANY",[C.EXECUTIVE]:"A.COMPANY",[o.ENTERTAINMENT_COMPANY]:"A.ENTERTAINMENT",[o.ENTERTAINMENT_INDIVIDUAL]:"A.ENTERTAINMENT",[o.PRODUCTION]:"A.ENTERTAINMENT",[r.CANDIDATE]:"A.GOVERNMENT",[r.OFFICE]:"A.GOVERNMENT",[r.OFFICIAL]:"A.GOVERNMENT",[i.CONTENT_CREAT...
+{[O.ACTIVIST]:"A.ACTIVISM",[C.COMPANY]:"A.COMPANY",[C.EXECUTIVE]:"A.COMPANY",[r.ENTERTAINMENT_COMPANY]:"A.ENTERTAINMENT",[r.ENTERTAINMENT_INDIVIDUAL]:"A.ENTERTAINMENT",[r.PRODUCTION]:"A.ENTERTAINMENT",[o.CANDIDATE]:"A.GOVERNMENT",[o.OFFICE]:"A.GOVERNMENT",[o.OFFICIAL]:"A.GOVERNMENT",[i.CONTENT_CREAT...
 ```
 | constant               | value                            |
 |:-----------------------|:---------------------------------|
@@ -396,7 +378,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{[U.LANDING_PAGE]:{"next":"U.NOTABILITY_CATEGORY_SELECT","scribeComponent":"s.LANDING_PAGE"},[U.NOTABILITY_CATEGORY_SELECT]:{"next":"null","scribeComponent":"s.NOTABILITY_CATEGORY"},[U.ACTIVIST_QUALIFICATIONS]:{"next":"null","scribeComponent":"s.NOTABILITY_METHOD"},[U.ACTIVIST_GOOGLE_TRENDS]:{"next"...
+{[l.LANDING_PAGE]:{"next":"l.NOTABILITY_CATEGORY_SELECT","scribeComponent":"U.LANDING_PAGE"},[l.NOTABILITY_CATEGORY_SELECT]:{"next":"null","scribeComponent":"U.NOTABILITY_CATEGORY"},[l.ACTIVIST_QUALIFICATIONS]:{"next":"null","scribeComponent":"U.NOTABILITY_METHOD"},[l.ACTIVIST_GOOGLE_TRENDS]:{"next"...
 ```
 | constant     | value             |
 |:-------------|:------------------|
