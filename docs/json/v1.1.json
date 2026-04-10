@@ -747,7 +747,7 @@
     ]
   },
   {
-    "queryId": "account/personalization/twitter_interests",
+    "queryId": "account/personalization/partner_interests",
     "dispatch_key": "get",
     "dispatch": [
       "get",
@@ -774,16 +774,7 @@
     ]
   },
   {
-    "queryId": "geo/places",
-    "dispatch_key": "get",
-    "dispatch": [
-      "get",
-      "",
-      "https://api.x.com/1.1/{queryId}.json"
-    ]
-  },
-  {
-    "queryId": "live_pipeline/update_subscriptions",
+    "queryId": "moments/create",
     "dispatch_key": "post",
     "dispatch": [
       "post",
@@ -792,25 +783,7 @@
     ]
   },
   {
-    "queryId": "users/recommendations",
-    "dispatch_key": "get",
-    "dispatch": [
-      "get",
-      "",
-      "https://api.x.com/1.1/{queryId}.json"
-    ]
-  },
-  {
-    "queryId": "saved_searches/list",
-    "dispatch_key": "get",
-    "dispatch": [
-      "get",
-      "",
-      "https://api.x.com/1.1/{queryId}.json"
-    ]
-  },
-  {
-    "queryId": "saved_searches/create",
+    "queryId": "live_pipeline/update_subscriptions",
     "dispatch_key": "post",
     "dispatch": [
       "post",
@@ -828,6 +801,15 @@
     ]
   },
   {
+    "queryId": "geo/places",
+    "dispatch_key": "get",
+    "dispatch": [
+      "get",
+      "",
+      "https://api.x.com/1.1/{queryId}.json"
+    ]
+  },
+  {
     "queryId": "account/not_my_account/disassociate",
     "dispatch_key": "post",
     "dispatch": [
@@ -838,33 +820,6 @@
   },
   {
     "queryId": "account/not_my_account/get_masked_data",
-    "dispatch_key": "get",
-    "dispatch": [
-      "get",
-      "",
-      "https://api.x.com/1.1/{queryId}.json"
-    ]
-  },
-  {
-    "queryId": "collections/entries",
-    "dispatch_key": "get",
-    "dispatch": [
-      "get",
-      "",
-      "https://api.x.com/1.1/{queryId}.json"
-    ]
-  },
-  {
-    "queryId": "foundmedia/categories",
-    "dispatch_key": "get",
-    "dispatch": [
-      "get",
-      "",
-      "https://api.x.com/1.1/{queryId}.json"
-    ]
-  },
-  {
-    "queryId": "foundmedia/search",
     "dispatch_key": "get",
     "dispatch": [
       "get",
@@ -891,37 +846,37 @@
     ]
   },
   {
+    "queryId": "users/recommendations",
+    "dispatch_key": "get",
+    "dispatch": [
+      "get",
+      "",
+      "https://api.x.com/1.1/{queryId}.json"
+    ]
+  },
+  {
+    "queryId": "foundmedia/categories",
+    "dispatch_key": "get",
+    "dispatch": [
+      "get",
+      "",
+      "https://api.x.com/1.1/{queryId}.json"
+    ]
+  },
+  {
+    "queryId": "foundmedia/search",
+    "dispatch_key": "get",
+    "dispatch": [
+      "get",
+      "",
+      "https://api.x.com/1.1/{queryId}.json"
+    ]
+  },
+  {
     "queryId": "contacts/addressbook",
     "dispatch_key": "get",
     "dispatch": [
       "get",
-      "",
-      "https://api.x.com/1.1/{queryId}.json"
-    ]
-  },
-  {
-    "queryId": "mutes/keywords/list",
-    "dispatch_key": "get",
-    "dispatch": [
-      "get",
-      "",
-      "https://api.x.com/1.1/{queryId}.json"
-    ]
-  },
-  {
-    "queryId": "mutes/keywords/destroy",
-    "dispatch_key": "post",
-    "dispatch": [
-      "post",
-      "",
-      "https://api.x.com/1.1/{queryId}.json"
-    ]
-  },
-  {
-    "queryId": "mutes/keywords/update",
-    "dispatch_key": "post",
-    "dispatch": [
-      "post",
       "",
       "https://api.x.com/1.1/{queryId}.json"
     ]
@@ -972,10 +927,37 @@
     ]
   },
   {
-    "queryId": "moments/create",
+    "queryId": "mutes/keywords/list",
+    "dispatch_key": "get",
+    "dispatch": [
+      "get",
+      "",
+      "https://api.x.com/1.1/{queryId}.json"
+    ]
+  },
+  {
+    "queryId": "mutes/keywords/destroy",
     "dispatch_key": "post",
     "dispatch": [
       "post",
+      "",
+      "https://api.x.com/1.1/{queryId}.json"
+    ]
+  },
+  {
+    "queryId": "mutes/keywords/update",
+    "dispatch_key": "post",
+    "dispatch": [
+      "post",
+      "",
+      "https://api.x.com/1.1/{queryId}.json"
+    ]
+  },
+  {
+    "queryId": "collections/entries",
+    "dispatch_key": "get",
+    "dispatch": [
+      "get",
       "",
       "https://api.x.com/1.1/{queryId}.json"
     ]
