@@ -42,25 +42,3 @@ json.dumps({
     })
 ```
 `json.dumps` is equivalent to `JSON.stringify` in javaScript<br>
-## CreateWebSessionBind<br>
-Request URL: `https://x.com/i/api/graphql/0qFmnKTY3JwBZnqDdQrtHw/CreateWebSessionBind`<br>
-Request Method: `POST`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-`None`<br>
-#### queryId<br>
-`None`<br>
-## RefreshWebSessionBind<br>
-Request URL: `https://x.com/i/api/graphql/N9LNeEU2xRb9vX_JRjgEjg/RefreshWebSessionBind`<br>
-Request Method: `POST`<br>
-Login Required: `...`<br>
-### Param<br>
-#### variables<br>
-`None`<br>
-#### features<br>
-`None`<br>
-#### queryId<br>
-`None`<br>
