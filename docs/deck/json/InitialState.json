@@ -539,6 +539,9 @@
       "c9s_tweet_anatomy_moderator_badge_enabled": {
         "value": "true"
       },
+      "co_timeline_reset_period_minutes": {
+        "value": "20"
+      },
       "communities_adult_content_setting_display": {
         "value": "true"
       },
@@ -907,6 +910,9 @@
       "home_timeline_spheres_ranking_mode_control_enabled": {
         "value": "false"
       },
+      "hometimeline_pinned_tabs_topics_enabled": {
+        "value": "false"
+      },
       "identity_verification_consent_opt_in_by_default_enabled": {
         "value": "true"
       },
@@ -1259,7 +1265,7 @@
         "value": "true"
       },
       "premium_webview_paywall_tier_switch_upgrade_disclaimer_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "premium_webview_paywall_video_url": {
         "value": "https://abs.twimg.com/videos/grok-4-key-visual.mp4"
@@ -2557,6 +2563,9 @@
       "rweb_analytics_xweb_content_page": {
         "value": "true"
       },
+      "rweb_cashtags_enabled": {
+        "value": "false"
+      },
       "rweb_client_transaction_id_enabled": {
         "value": "false"
       },
@@ -2667,6 +2676,9 @@
       },
       "rweb_premium_business_rebranding_url_enabled": {
         "value": "true"
+      },
+      "rweb_promoted_tweet_max_text_lines": {
+        "value": "0"
       },
       "rweb_quick_promote_action_menu_enabled": {
         "value": "true"
@@ -4068,7 +4080,7 @@
         "value": "false"
       },
       "xchat_send_franking_data": {
-        "value": "false"
+        "value": "true"
       },
       "xchat_send_signature_protocol_version": {
         "value": "4"
@@ -4567,6 +4579,9 @@
         "c9s_tweet_anatomy_moderator_badge_enabled": {
           "value": "true"
         },
+        "co_timeline_reset_period_minutes": {
+          "value": "20"
+        },
         "communities_adult_content_setting_display": {
           "value": "true"
         },
@@ -4935,6 +4950,9 @@
         "home_timeline_spheres_ranking_mode_control_enabled": {
           "value": "false"
         },
+        "hometimeline_pinned_tabs_topics_enabled": {
+          "value": "false"
+        },
         "identity_verification_consent_opt_in_by_default_enabled": {
           "value": "true"
         },
@@ -5287,7 +5305,7 @@
           "value": "true"
         },
         "premium_webview_paywall_tier_switch_upgrade_disclaimer_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "premium_webview_paywall_video_url": {
           "value": "https://abs.twimg.com/videos/grok-4-key-visual.mp4"
@@ -6585,6 +6603,9 @@
         "rweb_analytics_xweb_content_page": {
           "value": "true"
         },
+        "rweb_cashtags_enabled": {
+          "value": "false"
+        },
         "rweb_client_transaction_id_enabled": {
           "value": "true"
         },
@@ -6695,6 +6716,9 @@
         },
         "rweb_premium_business_rebranding_url_enabled": {
           "value": "true"
+        },
+        "rweb_promoted_tweet_max_text_lines": {
+          "value": "2"
         },
         "rweb_quick_promote_action_menu_enabled": {
           "value": "true"
@@ -7407,7 +7431,7 @@
           "value": "true"
         },
         "subscriptions_upsells_track_interactions_enabled": {
-          "value": "true"
+          "value": "false"
         },
         "subscriptions_upsells_verified_profile_sidebar_enabled": {
           "value": "false"
@@ -8156,10 +8180,10 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "60fdfc3a8474991cd6d35683e3bee645"
+      "settingsVersion": "f4195bf5a7d2f01441dcb61ef10c6ed5"
     },
     "debug": {},
-    "featureSetToken": "9d954ba0894bf0b15d7b3a52f25bdb58261545c6",
+    "featureSetToken": "3017730924c8c37f87bbb3f4baab87c60102f8b6",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -8228,7 +8252,7 @@
   },
   "session": {
     "country": "XX",
-    "guestId": "177603157315459835",
+    "guestId": "177620367933119886",
     "hasCommunityMemberships": "false",
     "isActiveCreator": "false",
     "isLoaded": "false",
