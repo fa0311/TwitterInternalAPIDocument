@@ -2593,8 +2593,8 @@ This document is entirely auto-generated and may contain errors.<br>
 | data_analytics       | d       |
 | product              | u       |
 | design               | m       |
-| marketing            | p       |
-| sales_am             | f       |
+| marketing            | f       |
+| sales_am             | p       |
 | operations           | h       |
 | people_hr            | g       |
 | finance_accounting   | b       |
@@ -5483,7 +5483,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | full_time          | i       |
 | full_time_contract | l       |
 | part_time          | a       |
-| contract_to_hire   | c       |
+| contract_to_hire   | s       |
 
 |   constant | value   |
 |-----------:|:--------|
@@ -10131,17 +10131,17 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant      | value        |
 |:--------------|:-------------|
-| superFollower | c().fc065ee4 |
+| superFollower | d().fc065ee4 |
 
 | constant      | value                                                                                                                                                                                                                  |
 |:--------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| superFollower | {'graphic': 'u.default', 'headline': 'c().e453f536', 'subtext': 'c().bd4cb7a0', 'actionLabel': 'c().g7099a02', 'actionLink': 'https://help.x.com/using-twitter/subscriptions', 'secondaryActionLabel': 'c().c2637ef6'} |
+| superFollower | {'graphic': 'u.default', 'headline': 'd().e453f536', 'subtext': 'd().bd4cb7a0', 'actionLabel': 'd().g7099a02', 'actionLink': 'https://help.x.com/using-twitter/subscriptions', 'secondaryActionLabel': 'd().c2637ef6'} |
 
 | constant        | value        |
 |:----------------|:-------------|
-| followsYou      | c().efb17190 |
-| superFollowsYou | c().g57b5f6c |
-| superFollower   | c().a77a27c0 |
+| followsYou      | d().efb17190 |
+| superFollowsYou | d().g57b5f6c |
+| superFollower   | d().a77a27c0 |
 
 | constant        | value   |
 |:----------------|:--------|
