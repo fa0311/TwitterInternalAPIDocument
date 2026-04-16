@@ -5180,6 +5180,12 @@
         "responsive_web_graphql_timeline_navigation_enabled": true
       }
     },
+    "GenerateDrmToken": {
+      "url": "https://x.com/i/api/graphql/6csp1Dw5r5zveD-1qaqXdA/GenerateDrmToken",
+      "queryId": "6csp1Dw5r5zveD-1qaqXdA",
+      "method": "GET",
+      "features": {}
+    },
     "ArticleEntitiesSlice": {
       "url": "https://x.com/i/api/graphql/N1zzFzRPspT-sP9Q42n_bg/ArticleEntitiesSlice",
       "queryId": "N1zzFzRPspT-sP9Q42n_bg",
@@ -5354,12 +5360,6 @@
     "LiveCommerceItemsSlice": {
       "url": "https://x.com/i/api/graphql/-lnNX56S2YrZYrLzbccFAQ/LiveCommerceItemsSlice",
       "queryId": "-lnNX56S2YrZYrLzbccFAQ",
-      "method": "GET",
-      "features": {}
-    },
-    "GenerateDrmToken": {
-      "url": "https://x.com/i/api/graphql/6csp1Dw5r5zveD-1qaqXdA/GenerateDrmToken",
-      "queryId": "6csp1Dw5r5zveD-1qaqXdA",
       "method": "GET",
       "features": {}
     },
