@@ -1648,9 +1648,6 @@
       "responsive_web_enhance_cards_enabled": {
         "value": "false"
       },
-      "responsive_web_exodus_enabled": {
-        "value": "false"
-      },
       "responsive_web_extension_compatibility_hide": {
         "value": "false"
       },
@@ -2637,6 +2634,9 @@
       },
       "rweb_mixed_media_uploads_cap": {
         "value": "4"
+      },
+      "rweb_modal_animation_enabled": {
+        "value": "false"
       },
       "rweb_mvr_blurred_media_interstitial_enabled": {
         "value": "true"
@@ -4855,7 +4855,7 @@
           "value": "true"
         },
         "gryphon_hide_quick_promote": {
-          "value": "true"
+          "value": "false"
         },
         "gryphon_live_timelines_enabled": {
           "value": "true"
@@ -5686,9 +5686,6 @@
           "value": "true"
         },
         "responsive_web_enhance_cards_enabled": {
-          "value": "false"
-        },
-        "responsive_web_exodus_enabled": {
           "value": "false"
         },
         "responsive_web_extension_compatibility_hide": {
@@ -6604,7 +6601,7 @@
           "value": "true"
         },
         "rweb_cashtags_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "rweb_client_transaction_id_enabled": {
           "value": "true"
@@ -6677,6 +6674,9 @@
         },
         "rweb_mixed_media_uploads_cap": {
           "value": "4"
+        },
+        "rweb_modal_animation_enabled": {
+          "value": "false"
         },
         "rweb_mvr_blurred_media_interstitial_enabled": {
           "value": "true"
@@ -8180,10 +8180,10 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "ff010c077ad713698c90d7d08ecb9b77"
+      "settingsVersion": "36c24f43ea3cda4b185f82909250ce6f"
     },
     "debug": {},
-    "featureSetToken": "eb960bd80a1ba4d4164cee0cc4e7e94661ac42bb",
+    "featureSetToken": "e76e71943a6083b12841600e167d78f45bf33dff",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -8252,7 +8252,7 @@
   },
   "session": {
     "country": "XX",
-    "guestId": "177637612421874000",
+    "guestId": "177646279118983823",
     "hasCommunityMemberships": "false",
     "isActiveCreator": "false",
     "isLoaded": "false",
