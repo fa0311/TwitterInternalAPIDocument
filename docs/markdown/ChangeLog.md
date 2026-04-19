@@ -8406,3 +8406,28 @@
 - xchat_update_fetched_range_in_txn<br>
 - xchat_use_popular_convos<br>
 - xchat_web_react_blob_url_management<br>
+## 2026/04/14<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- co_timeline_reset_period_minutes<br>
+- hometimeline_pinned_tabs_topics_enabled<br>
+- rweb_cashtags_enabled<br>
+- rweb_promoted_tweet_max_text_lines<br>
+#### remove<br>
+- None<br>
+## 2026/04/17<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- rweb_modal_animation_enabled<br>
+#### remove<br>
+- responsive_web_exodus_enabled<br>

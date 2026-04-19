@@ -9,6 +9,60 @@ This document is entirely auto-generated and may contain errors.<br>
 | GIF              | gif             |
 | SLATE            | slate           |
 
+| constant      | value        |
+|:--------------|:-------------|
+| superFollower | c().fc065ee4 |
+
+| constant      | value                                                                                                                                                                                                                  |
+|:--------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| superFollower | {'graphic': 'u.default', 'headline': 'c().e453f536', 'subtext': 'c().bd4cb7a0', 'actionLabel': 'c().g7099a02', 'actionLink': 'https://help.x.com/using-twitter/subscriptions', 'secondaryActionLabel': 'c().c2637ef6'} |
+
+| constant        | value        |
+|:----------------|:-------------|
+| followsYou      | c().efb17190 |
+| superFollowsYou | c().g57b5f6c |
+| superFollower   | c().a77a27c0 |
+
+| constant        | value   |
+|:----------------|:--------|
+| followsYou      | gray700 |
+| superFollowsYou | plum700 |
+| superFollower   | plum700 |
+
+| constant   | value     |
+|:-----------|:----------|
+| DISMISSED  | dismissed |
+| APPROVED   | approved  |
+| NOT_SEEN   | not_seen  |
+| SEEN       | seen      |
+
+| constant   | value                                     |
+|:-----------|:------------------------------------------|
+| REQUEST    | rweb/loggedOutNotifications/FETCH_REQUEST |
+| SUCCESS    | rweb/loggedOutNotifications/FETCH_SUCCESS |
+| FAILURE    | rweb/loggedOutNotifications/FETCH_FAILURE |
+
+| constant   | value                                               |
+|:-----------|:----------------------------------------------------|
+| REQUEST    | rweb/loggedOutNotifications/SAVE_PUSH_TOKEN_REQUEST |
+| SUCCESS    | rweb/loggedOutNotifications/SAVE_PUSH_TOKEN_SUCCESS |
+| FAILURE    | rweb/loggedOutNotifications/SAVE_PUSH_TOKEN_FAILURE |
+
+| constant        | value           |
+|:----------------|:----------------|
+| Compact         | Compact         |
+| Normal          | Normal          |
+| Large           | Large           |
+| ThumbsUpAndDown | ThumbsUpAndDown |
+
+| constant       | value        |
+|:---------------|:-------------|
+| ON_LINGER      | onLinger     |
+| ON_IS_RELEVANT | onIsRelevant |
+| ON_SHOW_MORE   | onShowMore   |
+| ON_LIKE        | onLike       |
+| ON_FOLLOW      | onFollow     |
+
 | constant   | value      |
 |:-----------|:-----------|
 | Scheduled  | Scheduled  |
@@ -109,6 +163,11 @@ This document is entirely auto-generated and may contain errors.<br>
 # Error
 {[o.sj.AMPLIFY]:{"conversionHandler":"()"{"cardId":"e","cardType":"t","converterOptions":"a","data":"i"}{"const d=()(0,r.FL)",s=parseInt(i,\"image_value\",\"player_image_original\")/parseInt(0,r.SIi,\"string_value\",\"player_width\",10),_=(0,r.SIi,\"string_value\",\"player_height\",10)(0,r.SI),l=(i,...
 ```
+| constant     | value        |
+|:-------------|:-------------|
+| CONVERSATION | conversation |
+| TIMELINE     | timeline     |
+
 | constant   | value                                         |
 |:-----------|:----------------------------------------------|
 | REQUEST    | rweb/accountVerification/FETCH_ACCESS_REQUEST |
@@ -385,14 +444,6 @@ This document is entirely auto-generated and may contain errors.<br>
 | navButtons   | navigationButtons |
 | carouselRoot | carouselRoot      |
 
-| constant   | value                      |
-|:-----------|:---------------------------|
-| primary    | {'aria-live': 'polite'}    |
-| exclusive  | {'aria-live': 'polite'}    |
-| danger     | {'aria-live': 'assertive'} |
-| success    | {'aria-live': 'polite'}    |
-| warning    | {'aria-live': 'polite'}    |
-
 | constant         | value           |
 |:-----------------|:----------------|
 | LIVE_BROADCAST   | liveBroadcast   |
@@ -409,10 +460,104 @@ This document is entirely auto-generated and may contain errors.<br>
 | Root             | VideoPlayerDefaultUI-Root             |
 | VideoCTA         | VideoPlayerDefaultUI-VideoCTA         |
 
+| constant         | value            |
+|:-----------------|:-----------------|
+| Classic          | Classic          |
+| ClassicNoDivider | ClassicNoDivider |
+| ContextEmphasis  | ContextEmphasis  |
+| Feedback         | Feedback         |
+
+| constant   | value    |
+|:-----------|:---------|
+| Classic    | Classic  |
+| Footnote   | Footnote |
+| Button     | Button   |
+
 ```internal process
 # Error
 {"₊":"+","₋":"-","₌":"=","₍":"()","₀":"0","₁":"1","₂":"2","₃":"3","₄":"4","₅":"5","₆":"6","₇":"7","₈":"8","₉":"9",ₐ:"a",ₑ:"e",ₕ:"h",ᵢ:"i",ⱼ:"j",ₖ:"k",ₗ:"l",ₘ:"m",ₙ:"n",ₒ:"o",ₚ:"p",ᵣ:"r",ₛ:"s",ₜ:"t",ᵤ:"u",ᵥ:"v",ₓ:"x",ᵦ:"β",ᵧ:"γ",ᵨ:"ρ",ᵩ:"ϕ",ᵪ:"χ","⁺":"+","⁻":"-","⁼":"=","⁽":"(\",\"₎\":\")","⁰":"0","¹...
 ```
+| constant      | value        |
+|:--------------|:-------------|
+| superFollower | d().fc065ee4 |
+
+| constant      | value                                                                                                                                                                                                                  |
+|:--------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| superFollower | {'graphic': 'u.default', 'headline': 'd().e453f536', 'subtext': 'd().bd4cb7a0', 'actionLabel': 'd().g7099a02', 'actionLink': 'https://help.x.com/using-twitter/subscriptions', 'secondaryActionLabel': 'd().c2637ef6'} |
+
+| constant        | value        |
+|:----------------|:-------------|
+| followsYou      | d().efb17190 |
+| superFollowsYou | d().g57b5f6c |
+| superFollower   | d().a77a27c0 |
+
+| constant        | value   |
+|:----------------|:--------|
+| followsYou      | gray700 |
+| superFollowsYou | plum700 |
+| superFollower   | plum700 |
+
+| constant   | value      |
+|:-----------|:-----------|
+| Scheduled  | Scheduled  |
+| InProgress | InProgress |
+| Completed  | Completed  |
+| Postponed  | Postponed  |
+| Cancelled  | Cancelled  |
+| Unused6    | _Unused6   |
+| Unused7    | _Unused7   |
+
+| constant        | value          |
+|:----------------|:---------------|
+| SCORE           | score          |
+| SECONDARY_SCORE | secondaryScore |
+
+| constant   | value      |
+|:-----------|:-----------|
+| Scheduled  | Scheduled  |
+| InProgress | InProgress |
+| Completed  | Completed  |
+| Postponed  | Postponed  |
+| Cancelled  | Cancelled  |
+| Unused6    | _Unused6   |
+| Unused7    | _Unused7   |
+
+| constant   | value                            |
+|:-----------|:---------------------------------|
+| REQUEST    | rweb/promotedContent/LOG_REQUEST |
+| SUCCESS    | rweb/promotedContent/LOG_SUCCESS |
+| FAILURE    | rweb/promotedContent/LOG_FAILURE |
+
+| constant   | value    |
+|:-----------|:---------|
+| Fixed      | fixed    |
+| Variable   | variable |
+
+| constant   | value      |
+|:-----------|:-----------|
+| Scheduled  | Scheduled  |
+| InProgress | InProgress |
+| Completed  | Completed  |
+| Postponed  | Postponed  |
+| Cancelled  | Cancelled  |
+| Unused6    | _Unused6   |
+| Unused7    | _Unused7   |
+
+| constant        | value          |
+|:----------------|:---------------|
+| SCORE           | score          |
+| SECONDARY_SCORE | secondaryScore |
+
+| constant   | value      |
+|:-----------|:-----------|
+| Scheduled  | Scheduled  |
+| InProgress | InProgress |
+| Completed  | Completed  |
+| Postponed  | Postponed  |
+| Cancelled  | Cancelled  |
+| Unused6    | _Unused6   |
+| Unused7    | _Unused7   |
+
 | constant   | value                                                                                                                |
 |:-----------|:---------------------------------------------------------------------------------------------------------------------|
 | apple      | https://apps.apple.com/account/billing                                                                               |
