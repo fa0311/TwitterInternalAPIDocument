@@ -3758,14 +3758,7 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key                      | type   | variable   |
-|:-------------------------|:-------|:-----------|
-| userId                   | ...    | l          |
-| isListMemberTargetUserId | ...    | o          |
-| count                    | ...    | a          |
-| cursor                   | ...    | r          |
-| ...()(0,s.d)             | ...    | _          |
-
+`None`<br>
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
@@ -9052,14 +9045,7 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key                      | type   | variable   |
-|:-------------------------|:-------|:-----------|
-| userId                   | ...    | l          |
-| isListMemberTargetUserId | ...    | o          |
-| count                    | ...    | a          |
-| cursor                   | ...    | r          |
-| ...()(0,s.d)             | ...    | _          |
-
+`None`<br>
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
@@ -12031,14 +12017,7 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key                      | type   | variable   |
-|:-------------------------|:-------|:-----------|
-| userId                   | ...    | l          |
-| isListMemberTargetUserId | ...    | o          |
-| count                    | ...    | a          |
-| cursor                   | ...    | r          |
-| ...()(0,s.d)             | ...    | _          |
-
+`None`<br>
 #### features<br>
 | key                                                                     | type    | variable   |
 |:------------------------------------------------------------------------|:--------|:-----------|
