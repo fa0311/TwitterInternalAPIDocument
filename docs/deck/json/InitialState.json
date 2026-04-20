@@ -815,7 +815,7 @@
         "value": "true"
       },
       "gryphon_hide_quick_promote": {
-        "value": "true"
+        "value": "false"
       },
       "gryphon_live_timelines_enabled": {
         "value": "true"
@@ -1170,6 +1170,15 @@
       },
       "payments_1password_history_fix_enabled": {
         "value": "true"
+      },
+      "payments_assets_activate_card_dark_video_url": {
+        "value": ""
+      },
+      "payments_assets_activate_card_light_video_url": {
+        "value": ""
+      },
+      "payments_assets_activate_card_video_ratio": {
+        "value": "1"
       },
       "payments_auth_token_enabled": {
         "value": "true"
@@ -2561,7 +2570,7 @@
         "value": "true"
       },
       "rweb_cashtags_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "rweb_client_transaction_id_enabled": {
         "value": "false"
@@ -2637,6 +2646,15 @@
       },
       "rweb_modal_animation_enabled": {
         "value": "false"
+      },
+      "rweb_modal_animation_timing_function": {
+        "value": "cubic-bezier()"
+      },
+      "rweb_modal_overlay_color_dark": {
+        "value": "rgba()"
+      },
+      "rweb_modal_overlay_color_light": {
+        "value": "rgba()"
       },
       "rweb_mvr_blurred_media_interstitial_enabled": {
         "value": "true"
@@ -2756,6 +2774,9 @@
         "value": "true"
       },
       "rweb_xchat_debug_enabled": {
+        "value": "false"
+      },
+      "rweb_xchat_delegate_accounts_enabled": {
         "value": "false"
       },
       "rweb_xchat_dogfood_logs_enabled": {
@@ -5113,7 +5134,7 @@
           "value": "21660"
         },
         "media_async_upload_longer_video_max_video_size": {
-          "value": "8388608"
+          "value": "8192"
         },
         "media_async_upload_longer_video_resolution_selector": {
           "value": "false"
@@ -5211,6 +5232,15 @@
         "payments_1password_history_fix_enabled": {
           "value": "true"
         },
+        "payments_assets_activate_card_dark_video_url": {
+          "value": ""
+        },
+        "payments_assets_activate_card_light_video_url": {
+          "value": ""
+        },
+        "payments_assets_activate_card_video_ratio": {
+          "value": "1"
+        },
         "payments_auth_token_enabled": {
           "value": "true"
         },
@@ -5287,7 +5317,7 @@
           "value": "1"
         },
         "premium_paywall_on_app_load_journey_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "premium_paywall_on_app_load_min_account_age_days": {
           "value": "60"
@@ -6474,6 +6504,9 @@
         "responsive_web_use_app_prompt_enabled": {
           "value": "false"
         },
+        "responsive_web_use_new_onboarding": {
+          "value": "false"
+        },
         "responsive_web_user_badge_education_get_verified_button_enabled": {
           "value": "true"
         },
@@ -6676,7 +6709,16 @@
           "value": "4"
         },
         "rweb_modal_animation_enabled": {
-          "value": "false"
+          "value": "true"
+        },
+        "rweb_modal_animation_timing_function": {
+          "value": "cubic-bezier()"
+        },
+        "rweb_modal_overlay_color_dark": {
+          "value": "rgba()"
+        },
+        "rweb_modal_overlay_color_light": {
+          "value": "rgba()"
         },
         "rweb_mvr_blurred_media_interstitial_enabled": {
           "value": "true"
@@ -6796,6 +6838,9 @@
           "value": "true"
         },
         "rweb_xchat_debug_enabled": {
+          "value": "false"
+        },
+        "rweb_xchat_delegate_accounts_enabled": {
           "value": "false"
         },
         "rweb_xchat_dogfood_logs_enabled": {
@@ -8180,10 +8225,10 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "36c24f43ea3cda4b185f82909250ce6f"
+      "settingsVersion": "61791e812c06a73fd70ccd1fc4c1ccda"
     },
     "debug": {},
-    "featureSetToken": "e76e71943a6083b12841600e167d78f45bf33dff",
+    "featureSetToken": "09188b2f77d829a603edf8883c3cca5d2d77f02b",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -8252,7 +8297,7 @@
   },
   "session": {
     "country": "XX",
-    "guestId": "177646279118983823",
+    "guestId": "177672207383781124",
     "hasCommunityMemberships": "false",
     "isActiveCreator": "false",
     "isLoaded": "false",
