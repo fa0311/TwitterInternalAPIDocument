@@ -1,15 +1,1 @@
-[
-  {
-    "n": "80890",
-    "exports": {
-      "queryId": "BqIHKmwZKtiUBPi07jKctg",
-      "operationName": "EnableLoggedOutWebNotifications",
-      "operationType": "mutation",
-      "metadata": {
-        "featureSwitches": [],
-        "fieldToggles": [],
-        "featureSwitch": {}
-      }
-    }
-  }
-]
+[]
