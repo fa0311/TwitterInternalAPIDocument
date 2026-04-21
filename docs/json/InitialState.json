@@ -88,14 +88,14 @@
           "fast_followers_count": "0",
           "favourites_count": "0",
           "follow_request_sent": "false",
-          "followers_count": "930633",
+          "followers_count": "930521",
           "friends_count": "0",
           "has_custom_timelines": "false",
           "is_translator": "false",
-          "listed_count": "505",
+          "listed_count": "504",
           "media_count": "0",
           "needs_phone_verification": "false",
-          "normal_followers_count": "930633",
+          "normal_followers_count": "930521",
           "notifications": "false",
           "possibly_sensitive": "false",
           "profile_banner_url": "",
@@ -1136,7 +1136,7 @@
         "value": "21660"
       },
       "media_async_upload_longer_video_max_video_size": {
-        "value": "8388608"
+        "value": "8192"
       },
       "media_async_upload_longer_video_resolution_selector": {
         "value": "false"
@@ -1319,7 +1319,7 @@
         "value": "1"
       },
       "premium_paywall_on_app_load_journey_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "premium_paywall_on_app_load_min_account_age_days": {
         "value": "60"
@@ -2506,6 +2506,9 @@
       "responsive_web_use_app_prompt_enabled": {
         "value": "false"
       },
+      "responsive_web_use_new_onboarding": {
+        "value": "false"
+      },
       "responsive_web_user_badge_education_get_verified_button_enabled": {
         "value": "true"
       },
@@ -2708,7 +2711,7 @@
         "value": "4"
       },
       "rweb_modal_animation_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "rweb_modal_animation_timing_function": {
         "value": "cubic-bezier()"
@@ -5380,7 +5383,7 @@
           "value": "1"
         },
         "premium_paywall_on_app_load_journey_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "premium_paywall_on_app_load_min_account_age_days": {
           "value": "60"
@@ -6565,6 +6568,9 @@
           "value": "prompt_better"
         },
         "responsive_web_use_app_prompt_enabled": {
+          "value": "false"
+        },
+        "responsive_web_use_new_onboarding": {
           "value": "false"
         },
         "responsive_web_user_badge_education_get_verified_button_enabled": {
@@ -8285,10 +8291,10 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "af485bb426187d9e6b9330ebafac6b52"
+      "settingsVersion": "ff010c077ad713698c90d7d08ecb9b77"
     },
     "debug": {},
-    "featureSetToken": "09188b2f77d829a603edf8883c3cca5d2d77f02b",
+    "featureSetToken": "5c99849823b12de480033d68435a1a897551f587",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -8357,7 +8363,7 @@
   },
   "session": {
     "country": "XX",
-    "guestId": "177671966402566568",
+    "guestId": "177680605139031811",
     "hasCommunityMemberships": "false",
     "isActiveCreator": "false",
     "isLoaded": "false",
