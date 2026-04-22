@@ -8431,3 +8431,31 @@
 - rweb_modal_animation_enabled<br>
 #### remove<br>
 - responsive_web_exodus_enabled<br>
+## 2026/04/20<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- payments_assets_activate_card_dark_video_url<br>
+- payments_assets_activate_card_light_video_url<br>
+- payments_assets_activate_card_video_ratio<br>
+- rweb_modal_animation_timing_function<br>
+- rweb_modal_overlay_color_dark<br>
+- rweb_modal_overlay_color_light<br>
+- rweb_xchat_delegate_accounts_enabled<br>
+#### remove<br>
+- None<br>
+## 2026/04/21<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- responsive_web_use_new_onboarding<br>
+#### remove<br>
+- None<br>

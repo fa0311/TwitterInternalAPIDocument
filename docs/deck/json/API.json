@@ -1,12 +1,5 @@
 {
-  "graphql": {
-    "EnableLoggedOutWebNotifications": {
-      "url": "https://x.com/i/api/graphql/BqIHKmwZKtiUBPi07jKctg/EnableLoggedOutWebNotifications",
-      "queryId": "BqIHKmwZKtiUBPi07jKctg",
-      "method": "POST",
-      "features": {}
-    }
-  },
+  "graphql": {},
   "header": {
     "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
     "accept-encoding": "gzip, deflate, br, zstd",
