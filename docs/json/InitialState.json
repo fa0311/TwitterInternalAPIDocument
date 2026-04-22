@@ -88,14 +88,14 @@
           "fast_followers_count": "0",
           "favourites_count": "0",
           "follow_request_sent": "false",
-          "followers_count": "930521",
+          "followers_count": "930432",
           "friends_count": "0",
           "has_custom_timelines": "false",
           "is_translator": "false",
           "listed_count": "504",
           "media_count": "0",
           "needs_phone_verification": "false",
-          "normal_followers_count": "930521",
+          "normal_followers_count": "930432",
           "notifications": "false",
           "possibly_sensitive": "false",
           "profile_banner_url": "",
@@ -2715,6 +2715,9 @@
       },
       "rweb_modal_animation_timing_function": {
         "value": "cubic-bezier()"
+      },
+      "rweb_modal_composer_animation_enabled": {
+        "value": "false"
       },
       "rweb_modal_overlay_color_dark": {
         "value": "rgba()"
@@ -6780,6 +6783,9 @@
         "rweb_modal_animation_timing_function": {
           "value": "cubic-bezier()"
         },
+        "rweb_modal_composer_animation_enabled": {
+          "value": "false"
+        },
         "rweb_modal_overlay_color_dark": {
           "value": "rgba()"
         },
@@ -8183,7 +8189,7 @@
           "value": "1"
         },
         "xchat_max_group_size": {
-          "value": "300"
+          "value": "350"
         },
         "xchat_max_group_size_for_live_read_receipts": {
           "value": "50"
@@ -8291,10 +8297,10 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "ff010c077ad713698c90d7d08ecb9b77"
+      "settingsVersion": "6e04f069b65cd70eb67630df85c8b520"
     },
     "debug": {},
-    "featureSetToken": "5c99849823b12de480033d68435a1a897551f587",
+    "featureSetToken": "06bf3e802a6297899c8d045b8e00e5bebf99578b",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -8363,7 +8369,7 @@
   },
   "session": {
     "country": "XX",
-    "guestId": "177680605139031811",
+    "guestId": "177689253467184544",
     "hasCommunityMemberships": "false",
     "isActiveCreator": "false",
     "isLoaded": "false",
