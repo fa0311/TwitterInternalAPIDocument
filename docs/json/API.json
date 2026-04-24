@@ -546,6 +546,12 @@
       "method": "POST",
       "features": {}
     },
+    "FinanceSearchTags": {
+      "url": "https://x.com/i/api/graphql/4BInQe9OX1qSSZYKT5LB2w/FinanceSearchTags",
+      "queryId": "4BInQe9OX1qSSZYKT5LB2w",
+      "method": "GET",
+      "features": {}
+    },
     "Followers": {
       "url": "https://x.com/i/api/graphql/_wt2xR9Ozi8ZI7agzWf_bw/Followers",
       "queryId": "_wt2xR9Ozi8ZI7agzWf_bw",

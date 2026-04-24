@@ -7515,3 +7515,14 @@
 - responsive_web_use_new_onboarding<br>
 #### remove<br>
 - None<br>
+## 2026/04/22<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- rweb_modal_composer_animation_enabled<br>
+#### remove<br>
+- None<br>
