@@ -76,7 +76,10 @@ script_load_data = search_js_reg(parsed_script_list, "Promise.all")[0].after
 script_load_json = json.loads(json_parser(script_load_data))
 
 
-script_key_data = search_js_reg(parsed_script_list, "a.js")[0].before
+try:
+    script_key_data = search_js_reg(parsed_script_list, "a.js")[0].parent
+except:
+    script_key_data = search_js_reg(parsed_script_list, "a.js")[0].before
 script_key_json = json.loads(json_parser(script_key_data))
 
 script_load_output = {}
