@@ -42,3 +42,14 @@ json.dumps({
     })
 ```
 `json.dumps` is equivalent to `JSON.stringify` in javaScript<br>
+## EnableLoggedOutWebNotifications<br>
+Request URL: `https://x.com/i/api/graphql/BqIHKmwZKtiUBPi07jKctg/EnableLoggedOutWebNotifications`<br>
+Request Method: `POST`<br>
+Login Required: `...`<br>
+### Param<br>
+#### variables<br>
+`None`<br>
+#### features<br>
+`None`<br>
+#### queryId<br>
+`None`<br>
