@@ -1,6 +1,6 @@
 [
   {
-    "queryId": "/account/sessions/revoke",
+    "queryId": "/i/capi",
     "dispatch_key": "postUnversioned",
     "dispatch": [
       "post",
@@ -9,7 +9,7 @@
     ]
   },
   {
-    "queryId": "/i/capi",
+    "queryId": "/account/sessions/revoke",
     "dispatch_key": "postUnversioned",
     "dispatch": [
       "post",
