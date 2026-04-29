@@ -93,7 +93,7 @@ else:
         for k in script_load_json
     }
 
-script_load_url.update(twitter.get_script_res_url())
+    script_load_url.update(twitter.get_script_res_url())
 
 for k, url in script_load_url.items():
     script_load_output[k] = url
