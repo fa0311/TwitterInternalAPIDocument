@@ -100,6 +100,16 @@ class TwitterHome:
     def get_script_res(self) -> list[str]:
         return self.get_script(self.response.text)
 
+    def get_script_res_url(self) -> dict[str, str]:
+        reg_script = '<link nonce="{nonce}" rel="preload" as="script" crossorigin="anonymous" fetchpriority="high" href="{src}" />'.format(
+            nonce=r"([a-zA-Z0-9]{48})",
+            src=r"(https://[\s\S]*?\.js)",
+        )
+        return {
+            "/".join(url[1].split("/")[5:])[:-12]: url[1]
+            for url in re.findall(reg_script, self.response.text)
+        }
+
 
 class TwitterDeck(TwitterHome):
     TWITTER_HOME = "https://pro.x.com"
