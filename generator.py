@@ -76,10 +76,7 @@ script_load_data = search_js_reg(parsed_script_list, "Promise.all")[0].after
 script_load_json = json.loads(json_parser(script_load_data))
 
 
-try:
-    script_key_data = search_js_reg(parsed_script_list, "a.js")[0].parent
-except:
-    script_key_data = search_js_reg(parsed_script_list, "a.js")[0].before
+script_key_data = search_js_reg(parsed_script_list, "a.js")[1].before
 script_key_json = json.loads(json_parser(script_key_data))
 
 script_load_output = {}
@@ -96,6 +93,8 @@ else:
         for k in script_load_json
     }
 
+script_load_url.update(twitter.get_script_res_url())
+
 for k, url in script_load_url.items():
     script_load_output[k] = url
     if k.startswith("i18n"):
@@ -111,7 +110,6 @@ for k, url in script_load_url.items():
         src.append(url)
     elif k.startswith("shared~loader"):
         src.append(url)
-
 
 logging.info("script decode is completed")
 

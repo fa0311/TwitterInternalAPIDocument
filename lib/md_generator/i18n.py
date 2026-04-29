@@ -8,7 +8,7 @@ def get_i18n(i18n_response: str):
         name=r"([a-z])",
         id=r"([a-z0-9]{8})",
         any=r"([\s\S]*?)",
-        fn=r"\(function\([a-z]\){return([\s\S]*?)}\)",
+        fn=r"\(?function\([a-z]\){return([\s\S]*?)}\)?",
     )
 
     res_1 = {
@@ -18,7 +18,7 @@ def get_i18n(i18n_response: str):
 
     reg_script = r'{{key:"{id}",get:{fn}}}'.format(
         id=r"([a-z0-9]{8})",
-        fn=r"function\(\){return([\s\S]*?)}",
+        fn=r"\(?function\(\){return([\s\S]*?)}\)?",
     )
 
     res_2 = {
