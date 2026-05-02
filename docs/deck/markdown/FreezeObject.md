@@ -1,45 +1,5 @@
 # Twitter Internal Constants Document<br>
 This document is entirely auto-generated and may contain errors.<br>
-| constant      | value        |
-|:--------------|:-------------|
-| superFollower | d().fc065ee4 |
-
-| constant      | value                                                                                                                                                                                                                  |
-|:--------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| superFollower | {'graphic': 'h.default', 'headline': 'd().e453f536', 'subtext': 'd().bd4cb7a0', 'actionLabel': 'd().g7099a02', 'actionLink': 'https://help.x.com/using-twitter/subscriptions', 'secondaryActionLabel': 'd().c2637ef6'} |
-
-| constant        | value        |
-|:----------------|:-------------|
-| followsYou      | d().efb17190 |
-| superFollowsYou | d().g57b5f6c |
-| superFollower   | d().a77a27c0 |
-
-| constant        | value   |
-|:----------------|:--------|
-| followsYou      | gray700 |
-| superFollowsYou | plum700 |
-| superFollower   | plum700 |
-
-| constant      | value        |
-|:--------------|:-------------|
-| superFollower | d().fc065ee4 |
-
-| constant      | value                                                                                                                                                                                                                  |
-|:--------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| superFollower | {'graphic': 'u.default', 'headline': 'd().e453f536', 'subtext': 'd().bd4cb7a0', 'actionLabel': 'd().g7099a02', 'actionLink': 'https://help.x.com/using-twitter/subscriptions', 'secondaryActionLabel': 'd().c2637ef6'} |
-
-| constant        | value        |
-|:----------------|:-------------|
-| followsYou      | d().efb17190 |
-| superFollowsYou | d().g57b5f6c |
-| superFollower   | d().a77a27c0 |
-
-| constant        | value   |
-|:----------------|:--------|
-| followsYou      | gray700 |
-| superFollowsYou | plum700 |
-| superFollower   | plum700 |
-
 | constant        | value                 |
 |:----------------|:----------------------|
 | HANDLE          | Handle                |
@@ -72,36 +32,6 @@ This document is entirely auto-generated and may contain errors.<br>
 # Error
 {"₊":"+","₋":"-","₌":"=","₍":"()","₀":"0","₁":"1","₂":"2","₃":"3","₄":"4","₅":"5","₆":"6","₇":"7","₈":"8","₉":"9",ₐ:"a",ₑ:"e",ₕ:"h",ᵢ:"i",ⱼ:"j",ₖ:"k",ₗ:"l",ₘ:"m",ₙ:"n",ₒ:"o",ₚ:"p",ᵣ:"r",ₛ:"s",ₜ:"t",ᵤ:"u",ᵥ:"v",ₓ:"x",ᵦ:"β",ᵧ:"γ",ᵨ:"ρ",ᵩ:"ϕ",ᵪ:"χ","⁺":"+","⁻":"-","⁼":"=","⁽":"(\",\"₎\":\")","⁰":"0","¹...
 ```
-| constant        | value          |
-|:----------------|:---------------|
-| SCORE           | score          |
-| SECONDARY_SCORE | secondaryScore |
-
-| constant   | value      |
-|:-----------|:-----------|
-| Scheduled  | Scheduled  |
-| InProgress | InProgress |
-| Completed  | Completed  |
-| Postponed  | Postponed  |
-| Cancelled  | Cancelled  |
-| Unused6    | _Unused6   |
-| Unused7    | _Unused7   |
-
-| constant   | value    |
-|:-----------|:---------|
-| Fixed      | fixed    |
-| Variable   | variable |
-
-| constant   | value      |
-|:-----------|:-----------|
-| Scheduled  | Scheduled  |
-| InProgress | InProgress |
-| Completed  | Completed  |
-| Postponed  | Postponed  |
-| Cancelled  | Cancelled  |
-| Unused6    | _Unused6   |
-| Unused7    | _Unused7   |
-
 | constant   | value      |
 |:-----------|:-----------|
 | wide       | wide       |
@@ -217,6 +147,38 @@ This document is entirely auto-generated and may contain errors.<br>
 # Error
 {[r.sl.AMPLIFY]:{"conversionHandler":"()"{"cardId":"e","cardType":"t","converterOptions":"a","data":"i"}{"let o=()(0,_.Pj)",d=parseInt(i,\"image_value\",\"player_image_original\")/parseInt(0,_.Jni,\"string_value\",\"player_width\",10),l=(0,_.Jni,\"string_value\",\"player_height\",10)(0,_.Jn),s=(i,\"...
 ```
+| constant                  | value                     |
+|:--------------------------|:--------------------------|
+| AcceptAllCookies          | acceptAllCookies          |
+| RefuseNonEssentialCookies | refuseNonEssentialCookies |
+| Invalid                   | invalid                   |
+| NotSet                    | notSet                    |
+
+| constant   | value      |
+|:-----------|:-----------|
+| Scheduled  | Scheduled  |
+| InProgress | InProgress |
+| Completed  | Completed  |
+| Postponed  | Postponed  |
+| Cancelled  | Cancelled  |
+| Unused6    | _Unused6   |
+| Unused7    | _Unused7   |
+
+| constant        | value          |
+|:----------------|:---------------|
+| SCORE           | score          |
+| SECONDARY_SCORE | secondaryScore |
+
+| constant   | value      |
+|:-----------|:-----------|
+| Scheduled  | Scheduled  |
+| InProgress | InProgress |
+| Completed  | Completed  |
+| Postponed  | Postponed  |
+| Cancelled  | Cancelled  |
+| Unused6    | _Unused6   |
+| Unused7    | _Unused7   |
+
 | constant   | value      |
 |:-----------|:-----------|
 | Scheduled  | Scheduled  |
@@ -522,7 +484,7 @@ This document is entirely auto-generated and may contain errors.<br>
 ```
 ```internal process
 # Error
-{[h.N.LoginRequired]:"u().d87f82b4",[h.N.Invalid]:"u().iaad96d0",[h.N.Pending]:"V",[h.N.Revoked]:"u().i31b3ed4",[h.N.Canceled]:"u().a89b0322",[h.N.Inactive]:"u().ac43b354",[h.N.Expired]:"u().eb4e810a",[h.N.ScaRequired]:"u().d39e7324"}
+{[b.N.LoginRequired]:"u().d87f82b4",[b.N.Invalid]:"u().iaad96d0",[b.N.Pending]:"V",[b.N.Revoked]:"u().i31b3ed4",[b.N.Canceled]:"u().a89b0322",[b.N.Inactive]:"u().ac43b354",[b.N.Expired]:"u().eb4e810a",[b.N.ScaRequired]:"u().d39e7324"}
 ```
 ```internal process
 # Error
@@ -786,8 +748,8 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant   | value   |
 |:-----------|:--------|
-| ...a       | _       |
 | ...C       | _       |
+| ...a       | _       |
 | ...r       | _       |
 | ...o       | _       |
 | ...i       | _       |
@@ -796,7 +758,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{[a.ACTIVIST]:"n.ACTIVISM",[C.COMPANY]:"n.COMPANY",[C.EXECUTIVE]:"n.COMPANY",[r.ENTERTAINMENT_COMPANY]:"n.ENTERTAINMENT",[r.ENTERTAINMENT_INDIVIDUAL]:"n.ENTERTAINMENT",[r.PRODUCTION]:"n.ENTERTAINMENT",[o.CANDIDATE]:"n.GOVERNMENT",[o.OFFICE]:"n.GOVERNMENT",[o.OFFICIAL]:"n.GOVERNMENT",[i.CONTENT_CREAT...
+{[C.ACTIVIST]:"n.ACTIVISM",[a.COMPANY]:"n.COMPANY",[a.EXECUTIVE]:"n.COMPANY",[r.ENTERTAINMENT_COMPANY]:"n.ENTERTAINMENT",[r.ENTERTAINMENT_INDIVIDUAL]:"n.ENTERTAINMENT",[r.PRODUCTION]:"n.ENTERTAINMENT",[o.CANDIDATE]:"n.GOVERNMENT",[o.OFFICE]:"n.GOVERNMENT",[o.OFFICIAL]:"n.GOVERNMENT",[i.CONTENT_CREAT...
 ```
 | constant               | value                            |
 |:-----------------------|:---------------------------------|
@@ -928,31 +890,6 @@ This document is entirely auto-generated and may contain errors.<br>
 | CONVERSATION | conversation |
 | TIMELINE     | timeline     |
 
-| constant        | value          |
-|:----------------|:---------------|
-| SCORE           | score          |
-| SECONDARY_SCORE | secondaryScore |
-
-| constant   | value      |
-|:-----------|:-----------|
-| Scheduled  | Scheduled  |
-| InProgress | InProgress |
-| Completed  | Completed  |
-| Postponed  | Postponed  |
-| Cancelled  | Cancelled  |
-| Unused6    | _Unused6   |
-| Unused7    | _Unused7   |
-
-| constant   | value      |
-|:-----------|:-----------|
-| Scheduled  | Scheduled  |
-| InProgress | InProgress |
-| Completed  | Completed  |
-| Postponed  | Postponed  |
-| Cancelled  | Cancelled  |
-| Unused6    | _Unused6   |
-| Unused7    | _Unused7   |
-
 | constant   | value      |
 |:-----------|:-----------|
 | wide       | wide       |
@@ -1011,6 +948,22 @@ This document is entirely auto-generated and may contain errors.<br>
 | ON_SHOW_MORE   | onShowMore   |
 | ON_LIKE        | onLike       |
 | ON_FOLLOW      | onFollow     |
+
+| constant        | value                                |
+|:----------------|:-------------------------------------|
+| SETTINGS_LOADED | rweb/immersiveViewer/SETTINGS_LOADED |
+
+| constant        | value      |
+|:----------------|:-----------|
+| fetchStatus     | ej.Ay.NONE |
+| mobileViewCount | 0          |
+
+| constant   | value        |
+|:-----------|:-------------|
+| VIDEO      | video        |
+| PHOTO      | photo        |
+| GIF        | animated_gif |
+| TEXT       | text         |
 
 | constant   | value                   |
 |:-----------|:------------------------|
@@ -1099,6 +1052,12 @@ This document is entirely auto-generated and may contain errors.<br>
 | Internal               | Internal               |
 | MaintenanceModeEnabled | MaintenanceModeEnabled |
 | Unspecified            | Unspecified            |
+
+| constant   | value    |
+|:-----------|:---------|
+| INFINITE   | infinite |
+| MEDIUM     | medium   |
+| NONE       | none     |
 
 | constant   | value                            |
 |:-----------|:---------------------------------|
