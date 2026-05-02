@@ -8499,3 +8499,20 @@
 #### remove<br>
 - rweb_xchat_categories_dropdown<br>
 - rweb_xchat_search_redesign<br>
+## 2026/05/02<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- responsive_web_media_upload_appendmulti_enabled<br>
+- responsive_web_media_upload_appendmulti_max_request_bytes<br>
+- responsive_web_media_upload_appendmulti_max_segment_bytes<br>
+- responsive_web_media_upload_appendmulti_min_file_bytes<br>
+- responsive_web_media_upload_appendmulti_min_segment_bytes<br>
+- responsive_web_media_upload_appendmulti_target_wire_send_time_ms<br>
+- responsive_web_use_new_landing_page<br>
+#### remove<br>
+- None<br>
