@@ -6931,7 +6931,7 @@
           "value": "false"
         },
         "rweb_tweets_boosting_enabled": {
-          "value": "true"
+          "value": "false"
         },
         "rweb_tweets_reply_context_hidden": {
           "value": "true"
@@ -8378,7 +8378,7 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "8db3523752d1af6d2814332252a4e3ff"
+      "settingsVersion": "1eeb9036dcd214741dddfc849b9b8997"
     },
     "debug": {},
     "featureSetToken": "a7720c952754ec823839b8a84a6ad4b481f819c6",
@@ -8450,7 +8450,7 @@
   },
   "session": {
     "country": "XX",
-    "guestId": "177775798889999078",
+    "guestId": "177784411585023323",
     "hasCommunityMemberships": "false",
     "isActiveCreator": "false",
     "isLoaded": "false",
