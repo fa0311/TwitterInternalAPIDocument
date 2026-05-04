@@ -8198,7 +8198,7 @@
           "value": "true"
         },
         "xchat_enable_message_requests": {
-          "value": "false"
+          "value": "true"
         },
         "xchat_enable_message_requests_attachments": {
           "value": "false"
@@ -8378,7 +8378,7 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "1eeb9036dcd214741dddfc849b9b8997"
+      "settingsVersion": "6b2b72fa4550ad43dbe0a79acf7740f2"
     },
     "debug": {},
     "featureSetToken": "a7720c952754ec823839b8a84a6ad4b481f819c6",
@@ -8450,7 +8450,7 @@
   },
   "session": {
     "country": "XX",
-    "guestId": "177784411585023323",
+    "guestId": "177793105918248648",
     "hasCommunityMemberships": "false",
     "isActiveCreator": "false",
     "isLoaded": "false",
