@@ -748,8 +748,8 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant   | value   |
 |:-----------|:--------|
-| ...C       | _       |
 | ...a       | _       |
+| ...C       | _       |
 | ...r       | _       |
 | ...o       | _       |
 | ...i       | _       |
@@ -758,7 +758,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{[C.ACTIVIST]:"n.ACTIVISM",[a.COMPANY]:"n.COMPANY",[a.EXECUTIVE]:"n.COMPANY",[r.ENTERTAINMENT_COMPANY]:"n.ENTERTAINMENT",[r.ENTERTAINMENT_INDIVIDUAL]:"n.ENTERTAINMENT",[r.PRODUCTION]:"n.ENTERTAINMENT",[o.CANDIDATE]:"n.GOVERNMENT",[o.OFFICE]:"n.GOVERNMENT",[o.OFFICIAL]:"n.GOVERNMENT",[i.CONTENT_CREAT...
+{[a.ACTIVIST]:"n.ACTIVISM",[C.COMPANY]:"n.COMPANY",[C.EXECUTIVE]:"n.COMPANY",[r.ENTERTAINMENT_COMPANY]:"n.ENTERTAINMENT",[r.ENTERTAINMENT_INDIVIDUAL]:"n.ENTERTAINMENT",[r.PRODUCTION]:"n.ENTERTAINMENT",[o.CANDIDATE]:"n.GOVERNMENT",[o.OFFICE]:"n.GOVERNMENT",[o.OFFICIAL]:"n.GOVERNMENT",[i.CONTENT_CREAT...
 ```
 | constant               | value                            |
 |:-----------------------|:---------------------------------|
