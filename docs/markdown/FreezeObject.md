@@ -1736,7 +1736,7 @@ This document is entirely auto-generated and may contain errors.<br>
 ```
 ```internal process
 # Error
-{[T.$V.AUTHENTICITY_TYPE_SELECT]:"()"{"notabilityCategory":"e","notabilitySubcategory":"t","userEmail":"i"}{"let a",r,l;return{"type":"radio","props":{"description":"e5().description","getNextFormStep":e=>{"switch()"{"case T.C6.IDENTITY_DOCUMENT":return T.$V.INTAKE_TYPE_SELECT;case T.C6.EMAIL:return...
+{[T.$V.AUTHENTICITY_TYPE_SELECT]:"()"{"notabilityCategory":"e","notabilitySubcategory":"t","userEmail":"i"}{"let a",r,l;return{"type":"radio","props":{"description":"e3().description","getNextFormStep":e=>{"switch()"{"case T.C6.IDENTITY_DOCUMENT":return T.$V.INTAKE_TYPE_SELECT;case T.C6.EMAIL:return...
 ```
 ```internal process
 # Error
@@ -1744,7 +1744,7 @@ This document is entirely auto-generated and may contain errors.<br>
 ```
 | constant   | value   |
 |:-----------|:--------|
-| ...e3      | _       |
+| ...e5      | _       |
 | ...rM      | _       |
 | ...X       | _       |
 
