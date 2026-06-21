@@ -19,7 +19,7 @@ class Js:
                 value = ""
                 output.children.append(self.parser(init=False))
                 output.children[-1].parent = output
-                output.children[-1].before = output.children[-2]
+                output.children[-1].key = len(output.children) - 1
             elif char == "}":
                 if value != "":
                     output.children.append(value)
@@ -38,8 +38,26 @@ class JsData:
     def __init__(self):
         self.children: list = []
         self.parent: JsData = None
-        self.after = None
-        self.before = None
+        self.key = None
+    
+
+    @property
+    def before(self):
+        if self.parent is None:
+            return None
+        if self.key > 0:
+            return self.parent.children[self.key - 1]
+        return None
+    
+    @property
+    def after(self):
+        if self.parent is None:
+            return None
+        if self.key < len(self.parent.children) - 1:
+            return self.parent.children[self.key + 1]
+        return None
+
+
 
     def __repr__(self):
         return json.dumps(self.to_list())
@@ -58,10 +76,25 @@ class JsSearchData:
     def __init__(self):
         self.children: list = []
         self.parent: JsData = None
-        self.after = None
-        self.before = None
         self.data = None
+        self.key = None
 
+    @property
+    def before(self):
+        if self.parent is None:
+            return None
+        if self.key > 0:
+            return self.parent.children[self.key - 1]
+        return None
+    
+    @property
+    def after(self):
+        if self.parent is None:
+            return None
+        if self.key < len(self.parent.children) - 1:
+            return self.parent.children[self.key + 1]
+        return None
+    
     def __repr__(self):
         return json.dumps(self.children)
 
@@ -86,11 +119,8 @@ def search_js(text: JsData, search: str) -> list[JsSearchData]:
             output.append(JsSearchData())
             output[-1].children = text.children
             output[-1].parent = text
-            if len(text.children) > key + 1:
-                output[-1].after = text.children[key + 1]
-            if len(text.children) > 0:
-                output[-1].before = text.children[key - 1]
             output[-1].data = search
+            output[-1].key = key
             break
     return output
 
@@ -108,11 +138,8 @@ def search_js_reg(text: JsData, search: str) -> list[JsSearchData]:
                 output.append(JsSearchData())
                 output[-1].children = text.children[key]
                 output[-1].parent = text
-                if len(text.children) > key + 1:
-                    output[-1].after = text.children[key + 1]
-                if len(text.children) > 0:
-                    output[-1].before = text.children[key - 1]
                 output[-1].data = find
+                output[-1].key = key
                 break
     return output
 

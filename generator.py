@@ -72,11 +72,11 @@ initial_output = json.loads(json_parser(initial_state))
 meta_data = search_js(parsed_script_list, ";window.__META_DATA__=")[0].after
 meta_output = json.loads(json_parser(meta_data))
 
-script_load_data = search_js_reg(parsed_script_list, "Promise.all")[0].after
+script_load_data = search_js_reg(parsed_script_list, "ondemand.s")[0].parent
 script_load_json = json.loads(json_parser(script_load_data))
 
 
-script_key_data = search_js_reg(parsed_script_list, "a.js")[1].before
+script_key_data = script_load_data.parent.children[script_load_data.key + 2]
 script_key_json = json.loads(json_parser(script_key_data))
 
 script_load_output = {}
