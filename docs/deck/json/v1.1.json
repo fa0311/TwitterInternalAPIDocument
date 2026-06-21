@@ -1,5 +1,86 @@
 [
   {
+    "queryId": "onboarding/task",
+    "dispatch_key": "post",
+    "dispatch": [
+      "post",
+      "",
+      "https://api.x.com/1.1/{queryId}.json"
+    ]
+  },
+  {
+    "queryId": "onboarding/contacts_authorize",
+    "dispatch_key": "post",
+    "dispatch": [
+      "post",
+      "",
+      "https://api.x.com/1.1/{queryId}.json"
+    ]
+  },
+  {
+    "queryId": "onboarding/contacts_import_status",
+    "dispatch_key": "get",
+    "dispatch": [
+      "get",
+      "",
+      "https://api.x.com/1.1/{queryId}.json"
+    ]
+  },
+  {
+    "queryId": "onboarding/verification_status",
+    "dispatch_key": "get",
+    "dispatch": [
+      "get",
+      "",
+      "https://api.x.com/1.1/{queryId}.json"
+    ]
+  },
+  {
+    "queryId": "onboarding/referrer",
+    "dispatch_key": "post",
+    "dispatch": [
+      "post",
+      "",
+      "https://api.x.com/1.1/{queryId}.json"
+    ]
+  },
+  {
+    "queryId": "contacts/destroy/all",
+    "dispatch_key": "post",
+    "dispatch": [
+      "post",
+      "",
+      "https://api.x.com/1.1/{queryId}.json"
+    ]
+  },
+  {
+    "queryId": "onboarding/begin_verification",
+    "dispatch_key": "post",
+    "dispatch": [
+      "post",
+      "",
+      "https://api.x.com/1.1/{queryId}.json"
+    ]
+  },
+  {
+    "queryId": "onboarding/verify",
+    "dispatch_key": "post",
+    "dispatch": [
+      "post",
+      "",
+      "https://api.x.com/1.1/{queryId}.json"
+    ]
+  },
+  {
+    "queryId": "onboarding/fetch_user_recommendations",
+    "dispatch_key": "post",
+    "dispatch": [
+      "post",
+      "",
+      "https://api.x.com/1.1/{queryId}.json"
+    ]
+  },
+  {
     "queryId": "account/not_my_account/disassociate",
     "dispatch_key": "post",
     "dispatch": [
@@ -108,6 +189,33 @@
     ]
   },
   {
+    "queryId": "users/email_phone_info",
+    "dispatch_key": "get",
+    "dispatch": [
+      "get",
+      "",
+      "https://api.x.com/1.1/{queryId}.json"
+    ]
+  },
+  {
+    "queryId": "account/resend_confirmation_email",
+    "dispatch_key": "post",
+    "dispatch": [
+      "post",
+      "",
+      "https://api.x.com/1.1/{queryId}.json"
+    ]
+  },
+  {
+    "queryId": "device/unregister",
+    "dispatch_key": "post",
+    "dispatch": [
+      "post",
+      "",
+      "https://api.x.com/1.1/{queryId}.json"
+    ]
+  },
+  {
     "queryId": "friendships/incoming",
     "dispatch_key": "get",
     "dispatch": [
@@ -193,6 +301,42 @@
     "dispatch_key": "get",
     "dispatch": [
       "get",
+      "",
+      "https://api.x.com/1.1/{queryId}.json"
+    ]
+  },
+  {
+    "queryId": "notifications/settings/save",
+    "dispatch_key": "post",
+    "dispatch": [
+      "post",
+      "",
+      "https://api.x.com/1.1/{queryId}.json"
+    ]
+  },
+  {
+    "queryId": "notifications/settings/login",
+    "dispatch_key": "post",
+    "dispatch": [
+      "post",
+      "",
+      "https://api.x.com/1.1/{queryId}.json"
+    ]
+  },
+  {
+    "queryId": "notifications/settings/checkin",
+    "dispatch_key": "post",
+    "dispatch": [
+      "post",
+      "",
+      "https://api.x.com/1.1/{queryId}.json"
+    ]
+  },
+  {
+    "queryId": "notifications/settings/logout",
+    "dispatch_key": "post",
+    "dispatch": [
+      "post",
       "",
       "https://api.x.com/1.1/{queryId}.json"
     ]
@@ -298,15 +442,6 @@
   },
   {
     "queryId": "geo/delete_location_data",
-    "dispatch_key": "post",
-    "dispatch": [
-      "post",
-      "",
-      "https://api.x.com/1.1/{queryId}.json"
-    ]
-  },
-  {
-    "queryId": "contacts/destroy/all",
     "dispatch_key": "post",
     "dispatch": [
       "post",
@@ -508,69 +643,6 @@
     "dispatch_key": "get",
     "dispatch": [
       "get",
-      "",
-      "https://api.x.com/1.1/{queryId}.json"
-    ]
-  },
-  {
-    "queryId": "users/email_phone_info",
-    "dispatch_key": "get",
-    "dispatch": [
-      "get",
-      "",
-      "https://api.x.com/1.1/{queryId}.json"
-    ]
-  },
-  {
-    "queryId": "account/resend_confirmation_email",
-    "dispatch_key": "post",
-    "dispatch": [
-      "post",
-      "",
-      "https://api.x.com/1.1/{queryId}.json"
-    ]
-  },
-  {
-    "queryId": "device/unregister",
-    "dispatch_key": "post",
-    "dispatch": [
-      "post",
-      "",
-      "https://api.x.com/1.1/{queryId}.json"
-    ]
-  },
-  {
-    "queryId": "notifications/settings/save",
-    "dispatch_key": "post",
-    "dispatch": [
-      "post",
-      "",
-      "https://api.x.com/1.1/{queryId}.json"
-    ]
-  },
-  {
-    "queryId": "notifications/settings/login",
-    "dispatch_key": "post",
-    "dispatch": [
-      "post",
-      "",
-      "https://api.x.com/1.1/{queryId}.json"
-    ]
-  },
-  {
-    "queryId": "notifications/settings/checkin",
-    "dispatch_key": "post",
-    "dispatch": [
-      "post",
-      "",
-      "https://api.x.com/1.1/{queryId}.json"
-    ]
-  },
-  {
-    "queryId": "notifications/settings/logout",
-    "dispatch_key": "post",
-    "dispatch": [
-      "post",
       "",
       "https://api.x.com/1.1/{queryId}.json"
     ]
