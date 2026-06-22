@@ -5510,13 +5510,13 @@
           "value": "true"
         },
         "payments_assets_activate_card_dark_video_url": {
-          "value": ""
+          "value": "https://pbs.twimg.com/static/money/x-card-animation-v4.mp4"
         },
         "payments_assets_activate_card_light_video_url": {
-          "value": ""
+          "value": "https://pbs.twimg.com/static/money/x-card-animation-v4-white.mp4"
         },
         "payments_assets_activate_card_video_ratio": {
-          "value": "1"
+          "value": "1.33"
         },
         "payments_auth_token_enabled": {
           "value": "true"
@@ -8730,7 +8730,7 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "eeb53998439cdc448c288bf084f9e311"
+      "settingsVersion": "0c1d00c4f4dd15e544c667da723b44f2"
     },
     "debug": {},
     "featureSetToken": "fddecb7fd4c0ca03715e39c9706d7f0181585408",
@@ -8802,7 +8802,7 @@
   },
   "session": {
     "country": "XX",
-    "guestId": "178201139408251629",
+    "guestId": "178208313392689828",
     "hasCommunityMemberships": "false",
     "isActiveCreator": "false",
     "isLoaded": "false",
