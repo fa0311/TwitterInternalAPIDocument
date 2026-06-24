@@ -8613,3 +8613,15 @@
 - rweb_quick_promote_gold_verified_boost_enabled<br>
 #### remove<br>
 - None<br>
+## 2026/06/24<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- rweb_xchat_keyboard_nav_enabled<br>
+- xchat_message_request_rate_limit_upsell<br>
+#### remove<br>
+- None<br>
