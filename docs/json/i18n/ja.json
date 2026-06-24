@@ -1866,6 +1866,8 @@
   "f350130b": "{value}（{percent}）",
   "j60ec933": "時間外{price}",
   "dbad6d77": "時間外{price}（{percent}）",
+  "c8e00c4d": "Pre-market {price}",
+  "e8c358e9": "Pre-market {price} ({percent})",
   "de309ea3": "{address}をコピーしました",
   "ff65b10b": "{value} MC",
   "b52cee09": "{ticker} · {exchange}",
