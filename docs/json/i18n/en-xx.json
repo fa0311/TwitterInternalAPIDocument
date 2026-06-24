@@ -1866,6 +1866,8 @@
   "f350130b": "[{value} ({percent})]",
   "j60ec933": "[Aftéêr höøürs {price}]",
   "dbad6d77": "[Aftéêr höøürs {price} ({percent})]",
+  "c8e00c4d": "[Préê-måärkéêt {price}]",
+  "e8c358e9": "[Préê-måärkéêt {price} ({percent})]",
   "de309ea3": "[Cöøpïíéêd {address}]",
   "ff65b10b": "[{value} MC]",
   "b52cee09": "[{ticker} · {exchange}]",
