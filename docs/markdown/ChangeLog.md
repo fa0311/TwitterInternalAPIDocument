@@ -8600,3 +8600,16 @@
 - xchat_validate_priv_pub_on_load<br>
 #### remove<br>
 - rweb_cashtags_trade_deeplink_enabled<br>
+## 2026/06/23<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- responsive_web_live_scheduled_broadcast_countdown_enabled<br>
+- responsive_web_video_autoplay_bandwidth_threshold_enabled<br>
+- rweb_quick_promote_gold_verified_boost_enabled<br>
+#### remove<br>
+- None<br>
