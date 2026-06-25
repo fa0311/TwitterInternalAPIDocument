@@ -303,6 +303,48 @@
     "Unspecified": "Unspecified"
   },
   {
+    "INFINITE": "infinite",
+    "MEDIUM": "medium",
+    "NONE": "none"
+  },
+  {
+    "SELF": "self",
+    "MUTUAL_FOLLOW": "mutualfollow",
+    "FOLLOWING": "following",
+    "FOLLOWERS": "followers",
+    "PUBLIC": "public"
+  },
+  {
+    "REQUEST": "rweb/settings/profile/ENABLE_VERIFIED_PHONE_LABEL_REQUEST",
+    "SUCCESS": "rweb/settings/profile/ENABLE_VERIFIED_PHONE_LABEL_SUCCESS",
+    "FAILURE": "rweb/settings/profile/ENABLE_VERIFIED_PHONE_LABEL_FAILURE"
+  },
+  {
+    "REQUEST": "rweb/settings/profile/DISABLE_VERIFIED_PHONE_LABEL_REQUEST",
+    "SUCCESS": "rweb/settings/profile/DISABLE_VERIFIED_PHONE_LABEL_SUCCESS",
+    "FAILURE": "rweb/settings/profile/DISABLE_VERIFIED_PHONE_LABEL_FAILURE"
+  },
+  {
+    "REQUEST": "rweb/settings/profile/FETCH_VERIFIED_PHONE_LABEL_REQUEST",
+    "SUCCESS": "rweb/settings/profile/FETCH_VERIFIED_PHONE_LABEL_SUCCESS",
+    "FAILURE": "rweb/settings/profile/FETCH_VERIFIED_PHONE_LABEL_FAILURE"
+  },
+  {
+    "SUPERSCRIPT_AND_SUBSCRIPT": "superscript_and_subscript",
+    "CURRENCY": "currency",
+    "LETTER_LIKE": "letter_like",
+    "NUMBER_FORMS": "number_forms",
+    "ARROWS": "arrows",
+    "MATHEMATICAL": "mathematical",
+    "GENERAL_PUNCTUATION": "general_punctuation",
+    "ENCLOSED_ALPHANUMERICS": "enclosed_alphanumerics",
+    "BOX": "box",
+    "GEOMETRIC": "geometric",
+    "SPACING_MODIFIER": "spacing_modifier",
+    "PUNCTUATION": "punctuation",
+    "MISC": "miscellaneous"
+  },
+  {
     "wide": "wide",
     "narrow": "narrow",
     "veryNarrow": "veryNarrow"
@@ -1094,12 +1136,6 @@
     "HashtagHighlight": "VideoPlayerDefaultUI-HashtagHighlight",
     "Root": "VideoPlayerDefaultUI-Root",
     "VideoCTA": "VideoPlayerDefaultUI-VideoCTA"
-  },
-  {
-    "Compact": "Compact",
-    "Normal": "Normal",
-    "Large": "Large",
-    "ThumbsUpAndDown": "ThumbsUpAndDown"
   },
   {
     "ON_LINGER": "onLinger",
