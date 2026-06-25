@@ -7798,3 +7798,18 @@
 - xstudio_rweb_live_studio_enabled<br>
 #### remove<br>
 - rweb_cashtags_trade_deeplink_enabled<br>
+## 2026/06/25<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- responsive_web_live_scheduled_broadcast_countdown_enabled<br>
+- responsive_web_video_autoplay_bandwidth_threshold_enabled<br>
+- rweb_quick_promote_gold_verified_boost_enabled<br>
+- rweb_xchat_keyboard_nav_enabled<br>
+- xchat_message_request_rate_limit_upsell<br>
+#### remove<br>
+- None<br>
