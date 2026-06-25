@@ -1866,6 +1866,8 @@
   "f350130b": "{value} ({percent})",
   "j60ec933": "Jälkipörssi {price}",
   "dbad6d77": "Jälkipörssi {price} ({percent})",
+  "c8e00c4d": "Pre-market {price}",
+  "e8c358e9": "Pre-market {price} ({percent})",
   "de309ea3": "{address} kopioitu",
   "ff65b10b": "Markkina-arvo {value}",
   "b52cee09": "{ticker} · {exchange}",

@@ -88,14 +88,14 @@
           "fast_followers_count": "0",
           "favourites_count": "0",
           "follow_request_sent": "false",
-          "followers_count": "939318",
+          "followers_count": "939317",
           "friends_count": "0",
           "has_custom_timelines": "false",
           "is_translator": "false",
           "listed_count": "515",
           "media_count": "0",
           "needs_phone_verification": "false",
-          "normal_followers_count": "939318",
+          "normal_followers_count": "939317",
           "notifications": "false",
           "possibly_sensitive": "false",
           "profile_banner_url": "",
@@ -2691,7 +2691,7 @@
         "value": "false"
       },
       "responsive_web_video_autoplay_bandwidth_threshold_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "responsive_web_video_pcomplete_enabled": {
         "value": "true"
@@ -2994,6 +2994,9 @@
         "value": "true"
       },
       "rweb_xchat_dogfood_logs_enabled": {
+        "value": "false"
+      },
+      "rweb_xchat_keyboard_nav_enabled": {
         "value": "false"
       },
       "rweb_xchat_logs": {
@@ -4366,6 +4369,9 @@
         "value": "true"
       },
       "xchat_message_composer_v2": {
+        "value": "false"
+      },
+      "xchat_message_request_rate_limit_upsell": {
         "value": "false"
       },
       "xchat_observe_inbox_categories_separately": {
@@ -7015,7 +7021,7 @@
           "value": "false"
         },
         "responsive_web_video_autoplay_bandwidth_threshold_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "responsive_web_video_pcomplete_enabled": {
           "value": "true"
@@ -7318,6 +7324,9 @@
           "value": "true"
         },
         "rweb_xchat_dogfood_logs_enabled": {
+          "value": "false"
+        },
+        "rweb_xchat_keyboard_nav_enabled": {
           "value": "false"
         },
         "rweb_xchat_logs": {
@@ -8692,6 +8701,9 @@
         "xchat_message_composer_v2": {
           "value": "false"
         },
+        "xchat_message_request_rate_limit_upsell": {
+          "value": "false"
+        },
         "xchat_observe_inbox_categories_separately": {
           "value": "true"
         },
@@ -8816,7 +8828,7 @@
       "settingsVersion": "eeb53998439cdc448c288bf084f9e311"
     },
     "debug": {},
-    "featureSetToken": "3e67952bb2a3521d23d787d0b312002ed6d05cf7",
+    "featureSetToken": "a4f4e7d1b644578725f7e2a8a0c8ecb6851a259b",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -8885,7 +8897,7 @@
   },
   "session": {
     "country": "XX",
-    "guestId": "178225025042911624",
+    "guestId": "178233651722024644",
     "hasCommunityMemberships": "false",
     "isActiveCreator": "false",
     "isLoaded": "false",
