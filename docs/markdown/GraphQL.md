@@ -3522,14 +3522,9 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key                    | type    | variable   |
-|:-----------------------|:--------|:-----------|
-| tweetId                | ...     | o          |
-| count                  | ...     | t          |
-| cursor                 | ...     | i          |
-| enableRanking          | ...     | r          |
-| includePromotedContent | boolean | True       |
-| ...()(0,n.g)           | ...     | _          |
+| key   | type   | variable   |
+|:------|:-------|:-----------|
+| flag  | ...    | t          |
 
 #### features<br>
 | key                                                                     | type    |   variable | default   |
@@ -3582,15 +3577,7 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key                    | type    | variable   |
-|:-----------------------|:--------|:-----------|
-| tweetId                | ...     | r          |
-| count                  | ...     | t          |
-| cursor                 | ...     | i          |
-| enableRanking          | ...     | a          |
-| includePromotedContent | boolean | True       |
-| ...()(0,n.g)           | ...     | _          |
-
+`None`<br>
 #### features<br>
 | key                                                                     | type    |   variable | default   |
 |:------------------------------------------------------------------------|:--------|-----------:|:----------|
@@ -3642,11 +3629,9 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key                                    | type    | variable   |
-|:---------------------------------------|:--------|:-----------|
-| tweetId                                | ...     | t          |
-| ...()(0,n.g)                           | ...     | _          |
-| withQuickPromoteEligibilityTweetFields | boolean | True       |
+| key        | type   | variable   |
+|:-----------|:-------|:-----------|
+| promptType | ...    | r          |
 
 #### features<br>
 | key                                                                     | type    |   variable | default   |
@@ -4535,14 +4520,9 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key                    | type    | variable   |
-|:-----------------------|:--------|:-----------|
-| tweetId                | ...     | o          |
-| count                  | ...     | t          |
-| cursor                 | ...     | i          |
-| enableRanking          | ...     | r          |
-| includePromotedContent | boolean | True       |
-| ...()(0,n.g)           | ...     | _          |
+| key   | type   | variable   |
+|:------|:-------|:-----------|
+| flag  | ...    | t          |
 
 #### features<br>
 | key                                                                     | type    |   variable | default   |
@@ -4595,15 +4575,7 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key                    | type    | variable   |
-|:-----------------------|:--------|:-----------|
-| tweetId                | ...     | r          |
-| count                  | ...     | t          |
-| cursor                 | ...     | i          |
-| enableRanking          | ...     | a          |
-| includePromotedContent | boolean | True       |
-| ...()(0,n.g)           | ...     | _          |
-
+`None`<br>
 #### features<br>
 | key                                                                     | type    |   variable | default   |
 |:------------------------------------------------------------------------|:--------|-----------:|:----------|
@@ -4655,11 +4627,9 @@ Request Method: `GET`<br>
 Login Required: `...`<br>
 ### Param<br>
 #### variables<br>
-| key                                    | type    | variable   |
-|:---------------------------------------|:--------|:-----------|
-| tweetId                                | ...     | t          |
-| ...()(0,n.g)                           | ...     | _          |
-| withQuickPromoteEligibilityTweetFields | boolean | True       |
+| key        | type   | variable   |
+|:-----------|:-------|:-----------|
+| promptType | ...    | r          |
 
 #### features<br>
 | key                                                                     | type    |   variable | default   |

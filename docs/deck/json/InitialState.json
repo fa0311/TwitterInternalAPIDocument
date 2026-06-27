@@ -1225,10 +1225,10 @@
         "value": "true"
       },
       "payments_funds_insurance_redesign_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "payments_funds_insurance_sweep_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "payments_half_cover_notices_enabled": {
         "value": "true"
@@ -5555,10 +5555,10 @@
           "value": "true"
         },
         "payments_funds_insurance_redesign_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "payments_funds_insurance_sweep_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "payments_half_cover_notices_enabled": {
           "value": "true"
@@ -8763,7 +8763,7 @@
       "settingsVersion": "eeb53998439cdc448c288bf084f9e311"
     },
     "debug": {},
-    "featureSetToken": "a4f4e7d1b644578725f7e2a8a0c8ecb6851a259b",
+    "featureSetToken": "834e548e00e3f69c59dbb4ea4171ae9b638cafb9",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -8832,7 +8832,7 @@
   },
   "session": {
     "country": "XX",
-    "guestId": "178234251917180427",
+    "guestId": "178242913441708191",
     "hasCommunityMemberships": "false",
     "isActiveCreator": "false",
     "isLoaded": "false",
