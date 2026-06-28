@@ -7669,7 +7669,7 @@
     "CashtagClick": "cashtag_click",
     "HashtagClick": "hashtag_click"
   },
-  "{\"cashtag\":()=>(e,t,r){\"color\":\"link\",\"dir\":\"ltr\",\"link\":\"c()\"{\"t.text\"}`{\"t.text\"}`,\"type\":\"l.Cashtag\"}\"e\",t,\"r\"{\"color\":\"link\",\"dir\":\"o.A.getTextDirection()\",\"link\":\"c(t.text)\"{\"t.text\"}`{\"t.text\"}`,\"type\":\"l.Hashtag\"}\"e\",t,\"r\"{\"color\":\"link\",\"dir\":\"ltr\",\"link\":\"c()\",\"ref\":\"t\",\"text\":`@${\"t.screenName\"}`,\"type\":\"l.Mention\"}\"e\",t,\"r\"{\"ref\":{},\"text\":\"n.A.replaceCarriageReturns()\",\"type\":\"text\",\"weight\":\"Strong\"===t?\"bold\":\"void 0\"}\"e\",t,\"r\"{\"color\":\"text\",\"link\":\"c()\",\"ref\":\"t\",\"text\":\"e\",\"type\":\"l.List\",\"weight\":\"bold\"}\"e\",t,\"r\"{\"color\":\"link\",\"link\":\"c()\",\"ref\":\"t\",\"text\":\"e\",\"type\":\"l.Url\"}\"e\",t,\"r\"{\"color\":\"link\",\"link\":\"c()\",\"ref\":\"t\",\"text\":\"(l.Url,t.url)??t.url\",\"type\":\"l.UrlWithDisplayUrl\"}\"e\",t,\"r\"{\"ref\":\"t\",\"text\":\"e\",\"type\":\"user\",\"weight\":\"bold\"}}",
+  "{\"cashtag\":()=>(e,t,r){\"color\":\"link\",\"dir\":\"ltr\",\"link\":\"c()\"{\"t.text\"}`{\"t.text\"}`,\"type\":\"a.Cashtag\"}\"e\",t,\"r\"{\"color\":\"link\",\"dir\":\"o.A.getTextDirection()\",\"link\":\"c(t.text)\"{\"t.text\"}`{\"t.text\"}`,\"type\":\"a.Hashtag\"}\"e\",t,\"r\"{\"color\":\"link\",\"dir\":\"ltr\",\"link\":\"c()\",\"ref\":\"t\",\"text\":`@${\"t.screenName\"}`,\"type\":\"a.Mention\"}\"e\",t,\"r\"{\"ref\":{},\"text\":\"n.A.replaceCarriageReturns()\",\"type\":\"text\",\"weight\":\"Strong\"===t?\"bold\":\"void 0\"}\"e\",t,\"r\"{\"color\":\"text\",\"link\":\"c()\",\"ref\":\"t\",\"text\":\"e\",\"type\":\"a.List\",\"weight\":\"bold\"}\"e\",t,\"r\"{\"color\":\"link\",\"link\":\"c()\",\"ref\":\"t\",\"text\":\"e\",\"type\":\"a.Url\"}\"e\",t,\"r\"{\"color\":\"link\",\"link\":\"c()\",\"ref\":\"t\",\"text\":\"(a.Url,t.url)??t.url\",\"type\":\"a.UrlWithDisplayUrl\"}\"e\",t,\"r\"{\"ref\":\"t\",\"text\":\"e\",\"type\":\"user\",\"weight\":\"bold\"}}",
   {
     "TWEET": "tweets",
     "USER": "users"
@@ -8993,15 +8993,15 @@
     "GAMING_INDIVIDUAL": "gaming_individual"
   },
   {
-    "...C": "_",
     "...a": "_",
+    "...C": "_",
     "...r": "_",
     "...o": "_",
     "...i": "_",
     "...c": "_",
     "...S": "_"
   },
-  "{[C.ACTIVIST]:\"n.ACTIVISM\",[a.COMPANY]:\"n.COMPANY\",[a.EXECUTIVE]:\"n.COMPANY\",[r.ENTERTAINMENT_COMPANY]:\"n.ENTERTAINMENT\",[r.ENTERTAINMENT_INDIVIDUAL]:\"n.ENTERTAINMENT\",[r.PRODUCTION]:\"n.ENTERTAINMENT\",[o.CANDIDATE]:\"n.GOVERNMENT\",[o.OFFICE]:\"n.GOVERNMENT\",[o.OFFICIAL]:\"n.GOVERNMENT\",[i.CONTENT_CREATOR]:\"n.INFLUENCER_OTHER\",[i.INFLUENTIAL_INDIVIDUAL]:\"n.INFLUENCER_OTHER\",[c.FREELANCER]:\"n.NEWS\",[c.JOURNALIST]:\"n.NEWS\",[c.ORGANIZATION]:\"n.NEWS\",[S.SPORTS_INDIVIDUAL]:\"n.SPORTS\",[S.SPORTS_ENTITY]:\"n.SPORTS\",[S.GAMING_INDIVIDUAL]:\"n.SPORTS\"}",
+  "{[a.ACTIVIST]:\"n.ACTIVISM\",[C.COMPANY]:\"n.COMPANY\",[C.EXECUTIVE]:\"n.COMPANY\",[r.ENTERTAINMENT_COMPANY]:\"n.ENTERTAINMENT\",[r.ENTERTAINMENT_INDIVIDUAL]:\"n.ENTERTAINMENT\",[r.PRODUCTION]:\"n.ENTERTAINMENT\",[o.CANDIDATE]:\"n.GOVERNMENT\",[o.OFFICE]:\"n.GOVERNMENT\",[o.OFFICIAL]:\"n.GOVERNMENT\",[i.CONTENT_CREATOR]:\"n.INFLUENCER_OTHER\",[i.INFLUENTIAL_INDIVIDUAL]:\"n.INFLUENCER_OTHER\",[c.FREELANCER]:\"n.NEWS\",[c.JOURNALIST]:\"n.NEWS\",[c.ORGANIZATION]:\"n.NEWS\",[S.SPORTS_INDIVIDUAL]:\"n.SPORTS\",[S.SPORTS_ENTITY]:\"n.SPORTS\",[S.GAMING_INDIVIDUAL]:\"n.SPORTS\"}",
   {
     "LANDING_PAGE": "landing_page",
     "NOTABILITY_CATEGORY": "notability_category_select",
