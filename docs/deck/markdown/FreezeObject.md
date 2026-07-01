@@ -312,6 +312,19 @@ This document is entirely auto-generated and may contain errors.<br>
 | SUCCESS    | rweb/ocf/FETCH_BROWSABLE_NUX_RECOMMENDATIONS_SUCCESS |
 | FAILURE    | rweb/ocf/FETCH_BROWSABLE_NUX_RECOMMENDATIONS_FAILURE |
 
+| constant   | value    |
+|:-----------|:---------|
+| position   | absolute |
+| border     | 0        |
+| width      | 1        |
+| height     | 1        |
+| padding    | 0        |
+| margin     | -1       |
+| overflow   | hidden   |
+| clip       | rect()   |
+| whiteSpace | nowrap   |
+| wordWrap   | normal   |
+
 | constant   | value                                                                                                                |
 |:-----------|:---------------------------------------------------------------------------------------------------------------------|
 | apple      | https://apps.apple.com/account/billing                                                                               |
@@ -538,15 +551,6 @@ This document is entirely auto-generated and may contain errors.<br>
 # Error
 {"₊":"+","₋":"-","₌":"=","₍":"()","₀":"0","₁":"1","₂":"2","₃":"3","₄":"4","₅":"5","₆":"6","₇":"7","₈":"8","₉":"9",ₐ:"a",ₑ:"e",ₕ:"h",ᵢ:"i",ⱼ:"j",ₖ:"k",ₗ:"l",ₘ:"m",ₙ:"n",ₒ:"o",ₚ:"p",ᵣ:"r",ₛ:"s",ₜ:"t",ᵤ:"u",ᵥ:"v",ₓ:"x",ᵦ:"β",ᵧ:"γ",ᵨ:"ρ",ᵩ:"ϕ",ᵪ:"χ","⁺":"+","⁻":"-","⁼":"=","⁽":"(\",\"₎\":\")","⁰":"0","¹...
 ```
-| constant            | value               |
-|:--------------------|:--------------------|
-| AudienceRewards     | AudienceRewards     |
-| DirectDeposit       | DirectDeposit       |
-| Geography           | Geography           |
-| Interest            | Interest            |
-| Premium             | Premium             |
-| PublicKeyCredential | PublicKeyCredential |
-
 | constant                                | value                                   |
 |:----------------------------------------|:----------------------------------------|
 | BasicApy                                | BasicApy                                |
@@ -666,6 +670,15 @@ This document is entirely auto-generated and may contain errors.<br>
 | InternationalWireSwift   | InternationalWireSwift   |
 | Oct                      | Oct                      |
 | Rtp                      | Rtp                      |
+
+| constant            | value               |
+|:--------------------|:--------------------|
+| AudienceRewards     | AudienceRewards     |
+| DirectDeposit       | DirectDeposit       |
+| Geography           | Geography           |
+| Interest            | Interest            |
+| Premium             | Premium             |
+| PublicKeyCredential | PublicKeyCredential |
 
 | constant       | value          |
 |:---------------|:---------------|
@@ -793,6 +806,7 @@ This document is entirely auto-generated and may contain errors.<br>
 | RejectedByAutoReview                    | RejectedByAutoReview                    |
 | RejectedByManualReview                  | RejectedByManualReview                  |
 | RejectedByStopPaymentRequest            | RejectedByStopPaymentRequest            |
+| RejectedByTransactionSafety             | RejectedByTransactionSafety             |
 | RejectedByUnsupportedRegion             | RejectedByUnsupportedRegion             |
 | RejectedCardCancelled                   | RejectedCardCancelled                   |
 | RejectedCardInactive                    | RejectedCardInactive                    |
@@ -810,7 +824,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{[v.RejectedLimitsExceeded]:{"default":"et"},[v.ProviderLimitsExceeded]:{"default":"et"},[v.InReview]:{"default":"m().dd3d10f6"},[v.RejectedByUnsupportedRegion]:{"default":"m().ce26fa44"},[v.RejectedNotSufficientFunds]:{"default":"m().d8240266",[L.Aft]:"m().eaef8954"},[v.ExternalLimitsExceeded]:{"de...
+{[R.RejectedLimitsExceeded]:{"default":"et"},[R.ProviderLimitsExceeded]:{"default":"et"},[R.InReview]:{"default":"m().dd3d10f6"},[R.RejectedByUnsupportedRegion]:{"default":"m().ce26fa44"},[R.RejectedNotSufficientFunds]:{"default":"m().d8240266",[T.Aft]:"m().eaef8954"},[R.ExternalLimitsExceeded]:{"de...
 ```
 ```internal process
 # Error
@@ -818,7 +832,7 @@ This document is entirely auto-generated and may contain errors.<br>
 ```
 ```internal process
 # Error
-{[b.b.IssuedCardTypePhysical]:"m().hd82cd40",[b.b.IssuedCardTypeVirtual]:"m().da89a190"}
+{[f.b.IssuedCardTypePhysical]:"m().hd82cd40",[f.b.IssuedCardTypeVirtual]:"m().da89a190"}
 ```
 ```internal process
 # Error
@@ -830,7 +844,7 @@ This document is entirely auto-generated and may contain errors.<br>
 ```
 ```internal process
 # Error
-{[S.N.LoginRequired]:"m().d87f82b4",[S.N.Invalid]:"m().iaad96d0",[S.N.Pending]:"Q",[S.N.PendingMicroDepositVerification]:"m().dfe1ee26",[S.N.Revoked]:"m().i31b3ed4",[S.N.Canceled]:"m().a89b0322",[S.N.Inactive]:"m().ac43b354",[S.N.Expired]:"m().eb4e810a",[S.N.ScaRequired]:"m().d39e7324"}
+{[P.N.LoginRequired]:"m().d87f82b4",[P.N.Invalid]:"m().iaad96d0",[P.N.Pending]:"Q",[P.N.PendingMicroDepositVerification]:"m().dfe1ee26",[P.N.Revoked]:"m().i31b3ed4",[P.N.Canceled]:"m().a89b0322",[P.N.Inactive]:"m().ac43b354",[P.N.Expired]:"m().eb4e810a",[P.N.ScaRequired]:"m().d39e7324"}
 ```
 ```internal process
 # Error
@@ -838,7 +852,7 @@ This document is entirely auto-generated and may contain errors.<br>
 ```
 ```internal process
 # Error
-{[h.x.Ach]:"eh",[h.x.Aft]:"eT",[h.x.Rfp]:"eL",[h.x.Rtp]:"eC",[T.a.Oct]:"eR",[T.a.Rtp]:"eC",[T.a.DomesticWire]:"ev",[T.a.Ach]:"eh"}
+{[S.x.Ach]:"eh",[S.x.Aft]:"eT",[S.x.Rfp]:"eL",[S.x.Rtp]:"eC",[h.a.Oct]:"eR",[h.a.Rtp]:"eC",[h.a.DomesticWire]:"ev",[h.a.Ach]:"eh"}
 ```
 | constant   | value      |
 |:-----------|:-----------|
