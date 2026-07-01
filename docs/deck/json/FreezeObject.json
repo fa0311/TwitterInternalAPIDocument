@@ -271,6 +271,18 @@
     "FAILURE": "rweb/ocf/FETCH_BROWSABLE_NUX_RECOMMENDATIONS_FAILURE"
   },
   {
+    "position": "absolute",
+    "border": "0",
+    "width": "1",
+    "height": "1",
+    "padding": "0",
+    "margin": -1,
+    "overflow": "hidden",
+    "clip": "rect()",
+    "whiteSpace": "nowrap",
+    "wordWrap": "normal"
+  },
+  {
     "apple": "https://apps.apple.com/account/billing",
     "google": "https://play.google.com/store/account/subscriptions?sku=com.twitter.google.rogue.one.1.1&package=com.twitter.android"
   },
@@ -463,14 +475,6 @@
   },
   "{\"₊\":\"+\",\"₋\":\"-\",\"₌\":\"=\",\"₍\":\"()\",\"₀\":\"0\",\"₁\":\"1\",\"₂\":\"2\",\"₃\":\"3\",\"₄\":\"4\",\"₅\":\"5\",\"₆\":\"6\",\"₇\":\"7\",\"₈\":\"8\",\"₉\":\"9\",ₐ:\"a\",ₑ:\"e\",ₕ:\"h\",ᵢ:\"i\",ⱼ:\"j\",ₖ:\"k\",ₗ:\"l\",ₘ:\"m\",ₙ:\"n\",ₒ:\"o\",ₚ:\"p\",ᵣ:\"r\",ₛ:\"s\",ₜ:\"t\",ᵤ:\"u\",ᵥ:\"v\",ₓ:\"x\",ᵦ:\"β\",ᵧ:\"γ\",ᵨ:\"ρ\",ᵩ:\"ϕ\",ᵪ:\"χ\",\"⁺\":\"+\",\"⁻\":\"-\",\"⁼\":\"=\",\"⁽\":\"(\\\",\\\"₎\\\":\\\")\",\"⁰\":\"0\",\"¹\":\"1\",\"²\":\"2\",\"³\":\"3\",\"⁴\":\"4\",\"⁵\":\"5\",\"⁶\":\"6\",\"⁷\":\"7\",\"⁸\":\"8\",\"⁹\":\"9\",ᴬ:\"A\",ᴮ:\"B\",ᴰ:\"D\",ᴱ:\"E\",ᴳ:\"G\",ᴴ:\"H\",ᴵ:\"I\",ᴶ:\"J\",ᴷ:\"K\",ᴸ:\"L\",ᴹ:\"M\",ᴺ:\"N\",ᴼ:\"O\",ᴾ:\"P\",ᴿ:\"R\",ᵀ:\"T\",ᵁ:\"U\",ⱽ:\"V\",ᵂ:\"W\",ᵃ:\"a\",ᵇ:\"b\",ᶜ:\"c\",ᵈ:\"d\",ᵉ:\"e\",ᶠ:\"f\",ᵍ:\"g\",ʰ:\"h\",ⁱ:\"i\",ʲ:\"j\",ᵏ:\"k\",ˡ:\"l\",ᵐ:\"m\",ⁿ:\"n\",ᵒ:\"o\",ᵖ:\"p\",ʳ:\"r\",ˢ:\"s\",ᵗ:\"t\",ᵘ:\"u\",ᵛ:\"v\",ʷ:\"w\",ˣ:\"x\",ʸ:\"y\",ᶻ:\"z\",ᵝ:\"β\",ᵞ:\"γ\",ᵟ:\"δ\",ᵠ:\"ϕ\",ᵡ:\"χ\",ᶿ:\"θ\"}",
   {
-    "AudienceRewards": "AudienceRewards",
-    "DirectDeposit": "DirectDeposit",
-    "Geography": "Geography",
-    "Interest": "Interest",
-    "Premium": "Premium",
-    "PublicKeyCredential": "PublicKeyCredential"
-  },
-  {
     "BasicApy": "BasicApy",
     "BoostedApy": "BoostedApy",
     "CardSpendLocked": "CardSpendLocked",
@@ -583,6 +587,14 @@
     "InternationalWireSwift": "InternationalWireSwift",
     "Oct": "Oct",
     "Rtp": "Rtp"
+  },
+  {
+    "AudienceRewards": "AudienceRewards",
+    "DirectDeposit": "DirectDeposit",
+    "Geography": "Geography",
+    "Interest": "Interest",
+    "Premium": "Premium",
+    "PublicKeyCredential": "PublicKeyCredential"
   },
   {
     "CashManagement": "CashManagement",
@@ -703,6 +715,7 @@
     "RejectedByAutoReview": "RejectedByAutoReview",
     "RejectedByManualReview": "RejectedByManualReview",
     "RejectedByStopPaymentRequest": "RejectedByStopPaymentRequest",
+    "RejectedByTransactionSafety": "RejectedByTransactionSafety",
     "RejectedByUnsupportedRegion": "RejectedByUnsupportedRegion",
     "RejectedCardCancelled": "RejectedCardCancelled",
     "RejectedCardInactive": "RejectedCardInactive",
@@ -718,14 +731,14 @@
     "UnrecognizedActivityRejected": "UnrecognizedActivityRejected",
     "Unspecified": "Unspecified"
   },
-  "{[v.RejectedLimitsExceeded]:{\"default\":\"et\"},[v.ProviderLimitsExceeded]:{\"default\":\"et\"},[v.InReview]:{\"default\":\"m().dd3d10f6\"},[v.RejectedByUnsupportedRegion]:{\"default\":\"m().ce26fa44\"},[v.RejectedNotSufficientFunds]:{\"default\":\"m().d8240266\",[L.Aft]:\"m().eaef8954\"},[v.ExternalLimitsExceeded]:{\"default\":\"et\",[L.Aft]:\"m().i0eaf9b2\"},[v.ExternalSuspectedFraud]:{\"default\":\"m().ga8ab57c\",[L.Aft]:\"m().j174d19a\"},[v.TooFarFromBarcodeOriginLocation]:{\"default\":\"m().je26590c\"},[v.RejectedCardPaymentsDisabled]:{\"default\":\"m().j4b80adc\"},[v.UnrecognizedActivityConfirmed]:{\"default\":\"m().ga8ab57c\"},[v.UnrecognizedActivityRejected]:{\"default\":\"m().c78accc4\"},[v.RejectedCardInactive]:{\"default\":\"m().bd525d4a\"},[v.FailedOfacCheck]:{\"default\":\"m().eb5616da\"},[v.IncorrectCardPin]:{\"default\":\"m().a41cd76e\"},[v.IncorrectAddressLineOne]:{\"default\":\"m().a282b73c\"},[v.IncorrectCvc]:{\"default\":\"m().d7bd6d30\"},[v.IncorrectPostalCode]:{\"default\":\"m().e85d2db6\"},[v.IncorrectExpirationDate]:{\"default\":\"m().iaefdfe4\"},[v.RejectedByManualReview]:{\"default\":\"z\"},[v.RejectedByAutoReview]:{\"default\":\"z\"},[v.RejectedCardCancelled]:{\"default\":\"m().f37fe6b4\"},[v.FailedTryAgain]:{\"default\":\"m().cbbcdcee\"}}",
+  "{[R.RejectedLimitsExceeded]:{\"default\":\"et\"},[R.ProviderLimitsExceeded]:{\"default\":\"et\"},[R.InReview]:{\"default\":\"m().dd3d10f6\"},[R.RejectedByUnsupportedRegion]:{\"default\":\"m().ce26fa44\"},[R.RejectedNotSufficientFunds]:{\"default\":\"m().d8240266\",[T.Aft]:\"m().eaef8954\"},[R.ExternalLimitsExceeded]:{\"default\":\"et\",[T.Aft]:\"m().i0eaf9b2\"},[R.ExternalSuspectedFraud]:{\"default\":\"m().ga8ab57c\",[T.Aft]:\"m().j174d19a\"},[R.TooFarFromBarcodeOriginLocation]:{\"default\":\"m().je26590c\"},[R.RejectedCardPaymentsDisabled]:{\"default\":\"m().j4b80adc\"},[R.UnrecognizedActivityConfirmed]:{\"default\":\"m().ga8ab57c\"},[R.UnrecognizedActivityRejected]:{\"default\":\"m().c78accc4\"},[R.RejectedCardInactive]:{\"default\":\"m().bd525d4a\"},[R.FailedOfacCheck]:{\"default\":\"m().eb5616da\"},[R.IncorrectCardPin]:{\"default\":\"m().a41cd76e\"},[R.IncorrectAddressLineOne]:{\"default\":\"m().a282b73c\"},[R.IncorrectCvc]:{\"default\":\"m().d7bd6d30\"},[R.IncorrectPostalCode]:{\"default\":\"m().e85d2db6\"},[R.IncorrectExpirationDate]:{\"default\":\"m().iaefdfe4\"},[R.RejectedByManualReview]:{\"default\":\"z\"},[R.RejectedByAutoReview]:{\"default\":\"z\"},[R.RejectedCardCancelled]:{\"default\":\"m().f37fe6b4\"},[R.FailedTryAgain]:{\"default\":\"m().cbbcdcee\"}}",
   "{[p.Checking]:\"m().cdd7ccfc\",[p.Savings]:\"m().be05df6e\"}",
-  "{[b.b.IssuedCardTypePhysical]:\"m().hd82cd40\",[b.b.IssuedCardTypeVirtual]:\"m().da89a190\"}",
+  "{[f.b.IssuedCardTypePhysical]:\"m().hd82cd40\",[f.b.IssuedCardTypeVirtual]:\"m().da89a190\"}",
   "{[F.Charge]:\"m().b76dcb70\",[F.Combo]:\"m().g3f6e396\",[F.Debit]:\"m().f338c296\",[F.Credit]:\"m().a1da99b0\",[F.DeferredDebit]:\"m().def2996e\",[F.Prepaid]:\"m().hb430170\"}",
   "{[k.AmericanExpress]:\"m().e681bffa\",[k.Mastercard]:\"m().acab9c6e\",[k.Visa]:\"m().d64f33a6\"}",
-  "{[S.N.LoginRequired]:\"m().d87f82b4\",[S.N.Invalid]:\"m().iaad96d0\",[S.N.Pending]:\"Q\",[S.N.PendingMicroDepositVerification]:\"m().dfe1ee26\",[S.N.Revoked]:\"m().i31b3ed4\",[S.N.Canceled]:\"m().a89b0322\",[S.N.Inactive]:\"m().ac43b354\",[S.N.Expired]:\"m().eb4e810a\",[S.N.ScaRequired]:\"m().d39e7324\"}",
+  "{[P.N.LoginRequired]:\"m().d87f82b4\",[P.N.Invalid]:\"m().iaad96d0\",[P.N.Pending]:\"Q\",[P.N.PendingMicroDepositVerification]:\"m().dfe1ee26\",[P.N.Revoked]:\"m().i31b3ed4\",[P.N.Canceled]:\"m().a89b0322\",[P.N.Inactive]:\"m().ac43b354\",[P.N.Expired]:\"m().eb4e810a\",[P.N.ScaRequired]:\"m().d39e7324\"}",
   "{[k.AmericanExpress]:\"https://abs.twimg.com/responsive-web/client-web/payment-method-amex.b2cd046a.svg\",[k.Mastercard]:\"https://abs.twimg.com/responsive-web/client-web/payment-method-mastercard.f126316a.svg\",[k.Visa]:\"https://abs.twimg.com/responsive-web/client-web/payment-method-visa.c768170a.svg\"}",
-  "{[h.x.Ach]:\"eh\",[h.x.Aft]:\"eT\",[h.x.Rfp]:\"eL\",[h.x.Rtp]:\"eC\",[T.a.Oct]:\"eR\",[T.a.Rtp]:\"eC\",[T.a.DomesticWire]:\"ev\",[T.a.Ach]:\"eh\"}",
+  "{[S.x.Ach]:\"eh\",[S.x.Aft]:\"eT\",[S.x.Rfp]:\"eL\",[S.x.Rtp]:\"eC\",[h.a.Oct]:\"eR\",[h.a.Rtp]:\"eC\",[h.a.DomesticWire]:\"ev\",[h.a.Ach]:\"eh\"}",
   {
     "Scheduled": "Scheduled",
     "InProgress": "InProgress",
