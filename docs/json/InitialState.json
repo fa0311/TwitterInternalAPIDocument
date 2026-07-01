@@ -88,14 +88,14 @@
           "fast_followers_count": "0",
           "favourites_count": "0",
           "follow_request_sent": "false",
-          "followers_count": "939242",
+          "followers_count": "939216",
           "friends_count": "0",
           "has_custom_timelines": "false",
           "is_translator": "false",
           "listed_count": "514",
           "media_count": "0",
           "needs_phone_verification": "false",
-          "normal_followers_count": "939242",
+          "normal_followers_count": "939216",
           "notifications": "false",
           "possibly_sensitive": "false",
           "profile_banner_url": "",
@@ -3425,6 +3425,9 @@
         "value": "false"
       },
       "subscriptions_offers_in_tier_switch_enabled": {
+        "value": "false"
+      },
+      "subscriptions_offers_intro_title_new_copy_enabled": {
         "value": "false"
       },
       "subscriptions_offers_localized_pricing_enabled": {
@@ -7760,6 +7763,9 @@
         "subscriptions_offers_in_tier_switch_enabled": {
           "value": "false"
         },
+        "subscriptions_offers_intro_title_new_copy_enabled": {
+          "value": "false"
+        },
         "subscriptions_offers_localized_pricing_enabled": {
           "value": "false"
         },
@@ -8834,7 +8840,7 @@
       "settingsVersion": "eeb53998439cdc448c288bf084f9e311"
     },
     "debug": {},
-    "featureSetToken": "ea549d8dec12846992b9fbcada5212fc4ed1235b",
+    "featureSetToken": "3636be31844a54b33db50cec258ea804acf9aa87",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -8903,7 +8909,7 @@
   },
   "session": {
     "country": "XX",
-    "guestId": "178285499870975409",
+    "guestId": "178294140139340487",
     "hasCommunityMemberships": "false",
     "isActiveCreator": "false",
     "isLoaded": "false",
