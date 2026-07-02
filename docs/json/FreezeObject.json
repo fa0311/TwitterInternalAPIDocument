@@ -1875,32 +1875,32 @@
     "notSupported": "/i/delegate/not-supported"
   },
   {
-    "label": "i().a4ef9cbe"
+    "label": "o().a4ef9cbe"
   },
   {
-    "label": "i().b9e1cf02"
+    "label": "o().b9e1cf02"
   },
   {
-    "label": "i().e3275464"
+    "label": "o().e3275464"
   },
   {
-    "label": "i().f452238a"
+    "label": "o().f452238a"
   },
   {
-    "label": "i().dc80fcd6",
-    "description": "i().fc37a7ce"
+    "label": "o().dc80fcd6",
+    "description": "o().fc37a7ce"
   },
   {
-    "label": "i().c0728748",
-    "description": "i().bb1a58b0"
+    "label": "o().c0728748",
+    "description": "o().bb1a58b0"
   },
   {
-    "label": "i().d1df1e18",
-    "description": "i().cc0ff70c"
+    "label": "o().d1df1e18",
+    "description": "o().cc0ff70c"
   },
   {
-    "label": "i().ge32c25c",
-    "description": "i().j5bf97f4"
+    "label": "o().ge32c25c",
+    "description": "o().j5bf97f4"
   },
   {
     "onboarding": "onboarding",
@@ -1965,7 +1965,7 @@
     "wire": "wire",
     "check": "check"
   },
-  "{\"deposit\":\"Object.freeze()\"{\"label\":\"i().a4ef9cbe\"}{\"label\":\"i().b9e1cf02\"}{\"label\":\"i().e3275464\"}{\"label\":\"i().f452238a\"}{\"label\":\"i().dc80fcd6\",\"description\":\"i().fc37a7ce\"}{\"label\":\"i().c0728748\",\"description\":\"i().bb1a58b0\"}{\"label\":\"i().d1df1e18\",\"description\":\"i().cc0ff70c\"}{\"label\":\"i().ge32c25c\",\"description\":\"i().j5bf97f4\"}}",
+  "{\"deposit\":\"Object.freeze()\"{\"label\":\"o().a4ef9cbe\"}{\"label\":\"o().b9e1cf02\"}{\"label\":\"o().e3275464\"}{\"label\":\"o().f452238a\"}{\"label\":\"o().dc80fcd6\",\"description\":\"o().fc37a7ce\"}{\"label\":\"o().c0728748\",\"description\":\"o().bb1a58b0\"}{\"label\":\"o().d1df1e18\",\"description\":\"o().cc0ff70c\"}{\"label\":\"o().ge32c25c\",\"description\":\"o().j5bf97f4\"}}",
   {
     "bankDeposit": "bankDeposit",
     "bankWithdraw": "bankWithdraw",
