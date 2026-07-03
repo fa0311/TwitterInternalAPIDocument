@@ -8647,3 +8647,14 @@
 - subscriptions_offers_intro_title_new_copy_enabled<br>
 #### remove<br>
 - None<br>
+## 2026/07/02<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- subscriptions_offers_go_for_launch_copy_enabled<br>
