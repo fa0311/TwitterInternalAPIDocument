@@ -10968,8 +10968,8 @@ This document is entirely auto-generated and may contain errors.<br>
 
 | constant   | value   |
 |:-----------|:--------|
-| ...a       | _       |
 | ...C       | _       |
+| ...a       | _       |
 | ...r       | _       |
 | ...o       | _       |
 | ...i       | _       |
@@ -10978,7 +10978,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{[a.ACTIVIST]:"n.ACTIVISM",[C.COMPANY]:"n.COMPANY",[C.EXECUTIVE]:"n.COMPANY",[r.ENTERTAINMENT_COMPANY]:"n.ENTERTAINMENT",[r.ENTERTAINMENT_INDIVIDUAL]:"n.ENTERTAINMENT",[r.PRODUCTION]:"n.ENTERTAINMENT",[o.CANDIDATE]:"n.GOVERNMENT",[o.OFFICE]:"n.GOVERNMENT",[o.OFFICIAL]:"n.GOVERNMENT",[i.CONTENT_CREAT...
+{[C.ACTIVIST]:"n.ACTIVISM",[a.COMPANY]:"n.COMPANY",[a.EXECUTIVE]:"n.COMPANY",[r.ENTERTAINMENT_COMPANY]:"n.ENTERTAINMENT",[r.ENTERTAINMENT_INDIVIDUAL]:"n.ENTERTAINMENT",[r.PRODUCTION]:"n.ENTERTAINMENT",[o.CANDIDATE]:"n.GOVERNMENT",[o.OFFICE]:"n.GOVERNMENT",[o.OFFICIAL]:"n.GOVERNMENT",[i.CONTENT_CREAT...
 ```
 | constant               | value                            |
 |:-----------------------|:---------------------------------|
@@ -12435,7 +12435,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{[a.wide]:"500",[a.narrow]:"300",[a.veryNarrow]:"200"}
+{[i.wide]:"500",[i.narrow]:"300",[i.veryNarrow]:"200"}
 ```
 | constant           | value                                                                                                                                        |
 |:-------------------|:---------------------------------------------------------------------------------------------------------------------------------------------|
@@ -14344,7 +14344,7 @@ This document is entirely auto-generated and may contain errors.<br>
 
 ```internal process
 # Error
-{"Default":"function()"{"children":"e","style":"t","type":r="audiospace"}{var n;let o;return()(0,s.jsx){"...()":{"...()(0,i.nQ)":"_","colors":[o.primary,o.secondary],"locations":[-.1505,1.0496]}}},"Animated":"function()"{let t;return()(0,s.jsx){"style":[c.container,e.style],"children":"()(0,s.jsx)"{...
+{"Default":"function()"{"children":"e","style":"t","type":r="audiospace"}{var n;let i;return()(0,s.jsx){"...()":{"...()(0,a.nQ)":"_","colors":[i.primary,i.secondary],"locations":[-.1505,1.0496]}}},"Animated":"function()"{let t;return()(0,s.jsx){"style":[c.container,e.style],"children":"()(0,s.jsx)"{...
 ```
 | constant   | value                                                     |
 |:-----------|:----------------------------------------------------------|
