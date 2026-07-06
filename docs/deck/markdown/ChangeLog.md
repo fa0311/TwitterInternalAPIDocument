@@ -7846,3 +7846,14 @@
 - None<br>
 #### remove<br>
 - subscriptions_offers_go_for_launch_copy_enabled<br>
+## 2026/07/06<br>
+### API<br>
+#### add<br>
+- None<br>
+#### remove<br>
+- None<br>
+### Feature Switch<br>
+#### add<br>
+- xchat_max_message_preview_size<br>
+#### remove<br>
+- None<br>
