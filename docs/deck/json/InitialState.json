@@ -4112,7 +4112,7 @@
         "value": "true"
       },
       "xai_profile_redirect_enabled": {
-        "value": "false"
+        "value": "true"
       },
       "xchat_additional_reply_preview_validation_required_seqnum_str": {
         "value": "0"
@@ -4290,6 +4290,9 @@
       },
       "xchat_max_message_plaintext_length_bytes": {
         "value": "11000"
+      },
+      "xchat_max_message_preview_size": {
+        "value": ""
       },
       "xchat_max_users_to_fetch_per_request": {
         "value": "100"
@@ -7211,7 +7214,7 @@
           "value": "true"
         },
         "rweb_ssp_ads_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "rweb_ssp_ads_refresh_enabled": {
           "value": "true"
@@ -8445,7 +8448,7 @@
           "value": "true"
         },
         "xai_profile_redirect_enabled": {
-          "value": "false"
+          "value": "true"
         },
         "xchat_additional_reply_preview_validation_required_seqnum_str": {
           "value": "0"
@@ -8624,6 +8627,9 @@
         "xchat_max_message_plaintext_length_bytes": {
           "value": "11000"
         },
+        "xchat_max_message_preview_size": {
+          "value": "500"
+        },
         "xchat_max_users_to_fetch_per_request": {
           "value": "100"
         },
@@ -8766,10 +8772,10 @@
       "impression_pointers": {},
       "impressions": {},
       "keysRead": {},
-      "settingsVersion": "eeb53998439cdc448c288bf084f9e311"
+      "settingsVersion": "12d79378b7573776c952fceb140d1d56"
     },
     "debug": {},
-    "featureSetToken": "b2bf5c80d69866883e5174dfb40714a9606412b4",
+    "featureSetToken": "e3139b2b57d3275d54d564b4864fbee35bc1e8bc",
     "isLoaded": "true",
     "isLoading": "false",
     "customOverrides": {}
@@ -8838,7 +8844,7 @@
   },
   "session": {
     "country": "XX",
-    "guestId": "178329201106431704",
+    "guestId": "178337755258281275",
     "hasCommunityMemberships": "false",
     "isActiveCreator": "false",
     "isLoaded": "false",
